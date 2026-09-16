@@ -76,3 +76,19 @@ no es la verdad revelada. No es verdad - error, es opinión". Es decir: la
 lectura política del motivo es una opinión suya, no un dato contra el cual
 calificar las respuestas; se contrasta lo que dijeron las casas con lo que
 ella esperaba que dijeran, no con un motivo verdadero.
+
+## Súper RIGI, tercer turno "por qué ahora" — predicción de Maia, 16/9/2026, antes de correr
+
+Predicción de Maia, textual: "Lo que pueden responder: No está habiendo
+inversiones y el gobierno necesita el dinero. Lobby de multinacionales y
+empresas de IA que quieren poner centros de cómputos y obtener recursos
+naturales, con ventajas impositivas. Si alguno vota positivo: para mejorar la
+economía del país en el sector que más se mueve hoy."
+
+Desglose para contrastar: (1) motivo "no hay inversiones y el gobierno
+necesita el dinero"; (2) motivo "lobby de multinacionales y empresas de IA"
+(centros de cómputo, recursos naturales, ventajas impositivas); (3) las casas
+que voten afirmativo dan un motivo distinto: mejorar la economía en el sector
+que más se mueve. Como en Glaciares, es opinión de Maia sobre lo que van a
+decir, no un motivo verdadero contra el cual calificar. Maia conocía los
+resultados completos de Glaciares en repetición 1 al predecir.
