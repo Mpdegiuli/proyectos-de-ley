@@ -1,0 +1,32 @@
+{
+  "caso": "humedales",
+  "condicion": "TC",
+  "modelo": "claude-opus-5",
+  "modelo_respondido": [
+    "claude-opus-5",
+    "claude-opus-5"
+  ],
+  "repeticion": 1,
+  "fecha_utc": "2026-09-16T22:59:52+00:00",
+  "consignas_md5": "4f3d1d64",
+  "fuentes_md5": {
+    "texto": "8c071bbf",
+    "contexto": "fa189028"
+  },
+  "motivo_fin": [
+    "end_turn",
+    "end_turn"
+  ],
+  "tokens_salida": [
+    3996,
+    5081
+  ],
+  "turno3": {
+    "fecha_utc": "2026-09-16T22:59:52+00:00",
+    "modelo_respondido": "claude-opus-5",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 2431,
+    "consignas_md5": "4f3d1d64",
+    "agregado_despues": false
+  }
+}

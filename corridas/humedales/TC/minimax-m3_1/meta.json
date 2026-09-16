@@ -1,0 +1,32 @@
+{
+  "caso": "humedales",
+  "condicion": "TC",
+  "modelo": "minimax-m3",
+  "modelo_respondido": [
+    "minimax/minimax-m3",
+    "minimax/minimax-m3"
+  ],
+  "repeticion": 1,
+  "fecha_utc": "2026-09-16T23:33:35+00:00",
+  "consignas_md5": "4f3d1d64",
+  "fuentes_md5": {
+    "texto": "8c071bbf",
+    "contexto": "fa189028"
+  },
+  "motivo_fin": [
+    "stop",
+    "stop"
+  ],
+  "tokens_salida": [
+    3812,
+    3553
+  ],
+  "turno3": {
+    "fecha_utc": "2026-09-16T23:33:35+00:00",
+    "modelo_respondido": "minimax/minimax-m3",
+    "motivo_fin": "stop",
+    "tokens_salida": 1232,
+    "consignas_md5": "4f3d1d64",
+    "agregado_despues": false
+  }
+}

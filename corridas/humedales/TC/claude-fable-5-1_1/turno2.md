@@ -1,0 +1,47 @@
+A QUIÉN LE SIRVE:
+
+Beneficiados, tal como está el texto:
+
+- Las provincias con capacidad instalada y con inventarios o relevamientos ya hechos (Buenos Aires, Santa Fe, Entre Ríos, Corrientes, Córdoba). Llegan primero al OTH por ley, cobran primero el 30 % del fondo (art. 25) y sus datos se integran al inventario nacional (art. 6). El diseño premia al que ya arrancó.
+- Los titulares de predios grandes con humedales que no piensan transformar. El 70 % del fondo se paga "por hectárea y por año", sin tope de superficie ni de períodos (art. 24 inc. a), a cambio de un plan de manejo que en muchos casos describe lo que ya hacen. Es el mismo sesgo de escala que tuvo la Ley de Bosques: cuanto más tenés, más cobrás. Incluye titulares públicos, es decir, el propio Estado provincial como dueño de fiscales.
+- El aparato técnico-científico (INTA, universidades, CONICET): el inventario a cuatro escalas y la obligación de "promover la intervención de organismos científicos" (art. 6) les da presupuesto y centralidad por años.
+- Las organizaciones ambientales y los vecinos organizados del Delta y de las zonas periurbanas: obtienen lo que pedían hace una década (definición, inventario, procedimiento participativo obligatorio en la transición, acceso a la información del art. 33 inc. d) y una herramienta de litigio contra desarrollos inmobiliarios sobre humedal.
+- Los ministerios de Ambiente y de Economía-Agricultura: comparten autoridad de aplicación, administran el fondo y presiden el Comité (arts. 32, 34).
+- Las comunidades con usos preexistentes: reconocidas en el art. 12 y en el criterio j) del art. 13, aunque su protección depende de que la provincia las pondere.
+
+Perjudicados o expuestos:
+
+- Quien quiera cambiar el uso del suelo de un humedal reconocido en los próximos años: desarrolladores inmobiliarios en el Delta y en la cuenca del Luján, expansión agrícola sobre bajos, nuevos proyectos mineros. Pasan a necesitar una EIA participativa con informe de servicios ecosistémicos antes de moverse (art. 35).
+- La minería de litio en la Puna, específicamente. El art. 4 inc. e) define "sustrato con rasgos de hidromorfismo" precisamente para ambientes "donde no existe formación de suelos": eso describe un salar. Los salares entran en la definición del art. 2 sin necesidad de forzar nada. La ley les deja a las provincias el listado de elementos diagnósticos para acotar eso, pero el punto de partida es que están adentro.
+- Las provincias del norte con mucha superficie de humedal y poca estructura ambiental: cargan con el OTH por ley en un año desde la publicación de su tramo del inventario (art. 14) y, si no lo hacen, no ven el 30 %.
+- Los funcionarios provinciales que autoricen obras: el art. 29 inc. e) prevé inhabilitación de cinco a diez años para quien "con su intervención haya facilitado" autorizaciones en perjuicio de humedales. Es una sanción supletoria, pero es un aviso.
+- Los pequeños productores, en términos relativos: el fondo por hectárea no los favorece, y la asistencia del art. 33 inc. i) es un programa a diseñar, no un derecho.
+- El Tesoro nacional, con un piso de 0,05 % del presupuesto que, aunque bajo, es una afectación permanente.
+
+Hay un tercer grupo que sale casi indemne: las actividades existentes que no se amplíen. Sobre ellas la ley no dice casi nada hasta que haya OTH, y cuando lo haya, lo que las espera es asistencia para reconvertirse (art. 21), no sanción.
+
+LECTURA:
+
+Sobre el art. 35, leído estrictamente:
+
+Actividades existentes. El artículo no las menciona como objeto de restricción. Lo que condiciona son dos cosas: "cambios en el uso del suelo" y "la ampliación de las actividades existentes". Una explotación agropecuaria, forestal, minera o turística que siga operando en la misma superficie y con el mismo uso no está alcanzada por el régimen transitorio. Sigue rigiéndose por la normativa provincial vigente y, en todo caso, por el art. 20 si encara un proyecto nuevo "susceptible de degradar en forma significativa". La reconversión de actividades incompatibles (art. 21) solo se activa después del OTH, y es con asistencia técnica y financiera, no con clausura. En eso los ruralistas leyeron más de lo que el texto dice.
+
+Actividades nuevas y ampliaciones. Acá está la restricción real. Una actividad nueva sobre un humedal implica casi siempre un cambio de uso del suelo, y una ampliación es ampliación. Ambas "solo se permitirán" si la autoridad competente determina que no se afectan significativamente las características ecológicas, y para determinarlo debe sustanciar una EIA participativa que detalle servicios ecosistémicos y riesgos potenciales. No es una prohibición: es un permiso condicionado a un procedimiento. Pero es un procedimiento que hoy no existe en la mayoría de las provincias para ese tipo de obra, así que en la práctica agrega tiempo y costo. El tercer párrafo excluye expresamente de esa lógica al uso de agua: las solicitudes nuevas o ampliadas pueden otorgarse con la evaluación ordinaria de cada jurisdicción. Eso es una concesión directa al riego y a la minería.
+
+El límite del régimen: aplica a "humedales plenamente reconocidos". La expresión no está definida en ningún artículo. Como el inventario tarda tres años y se publica por etapas, durante buena parte de la transición "plenamente reconocido" será lo que cada autoridad provincial diga que es. Esto corta para los dos lados: un productor de Santiago del Estero puede argumentar que su bajo no está reconocido en nada; un vecino del Tigre puede argumentar que el Delta es sitio Ramsar y está más que reconocido. El texto no resuelve la disputa, la delega.
+
+Quién decide qué es un humedal. La definición general la fija esta ley, en el art. 2, y no puede ser recortada por las provincias porque es presupuesto mínimo. Pero la aplicación concreta se reparte: la autoridad nacional (Ambiente y Agricultura conjuntamente, art. 32) elabora el inventario con metodología común, integrando lo que aporten las provincias (art. 6); las autoridades competentes provinciales "podrán establecer un listado de elementos diagnósticos operativos" para los ambientes sin formación de suelo (art. 4 inc. e), que es donde se juega la cuestión de los salares; y durante la transición, la autoridad competente provincial es la que determina si un humedal está "plenamente reconocido" y si una obra lo afecta significativamente (art. 35). En parques nacionales decide la APN (art. 31).
+
+Quién decide qué actividades se permiten. Las provincias, casi en su totalidad. El OTH lo hacen ellas, por ley propia, con los criterios del art. 13 (arts. 10 y 11). Las áreas de alto valor de conservación, la única categoría de intangibilidad, las delimitan ellas (art. 12). La EIA del art. 20 la exige "conforme lo determine la autoridad competente", que es provincial. La única cuña interjurisdiccional es el Comité de Cuenca, cuya aprobación es vinculante solo para obras que involucren recursos hídricos interjurisdiccionales con impacto significativo sobre otra jurisdicción (art. 20 segundo párrafo). La Nación no autoriza ni prohíbe ninguna actividad concreta: inventaría, publica, financia, monitorea y, si la provincia no tiene régimen sancionatorio, presta el suyo en forma supletoria (art. 29).
+
+Releído así, el texto es más provincial de lo que el debate público sugiere, y la consecuencia es incómoda para todos: la protección efectiva depende de la voluntad de cada gobernador, y la restricción efectiva también. Una provincia que no quiera aplicarla puede no reconocer "plenamente" ningún humedal, demorar su OTH y perder solo el 30 % del fondo. Una que quiera aplicarla a fondo puede hacerlo desde el día uno.
+
+VOTO FINAL:
+
+Mantengo el voto afirmativo.
+
+La relectura me confirma dos cosas que ya estaban en mi fundamento y agrega una que no había pesado lo suficiente. Confirma que el art. 35 no es una moratoria sobre lo existente, sino un permiso condicionado sobre lo nuevo, y que la objeción minera y rural es en gran parte una objeción al procedimiento, no a una prohibición. Confirma también que la ley confía en las provincias hasta un punto que vuelve absurda la resistencia de sus gobernadores: son ellos los que van a decidir casi todo.
+
+Lo que no había pesado bien es el reverso de esa delegación: una provincia que no quiera aplicar la ley tiene margen para vaciarla, porque el objeto del régimen transitorio queda a su criterio y la única sanción por no ordenar es perder una parte del fondo. Eso hace que la ley sea menos protectora de lo que las organizaciones ambientales esperan y menos amenazante de lo que la CAEM denuncia. Y también hace más urgente la única modificación que pedí: definir "humedal plenamente reconocido" con un objeto verificable. Sin eso, la transición puede ser cualquier cosa en cada provincia.
+
+Nada de esto me lleva a votar en contra ni a abstenerme. La abstención sería dejar que el texto pierda estado parlamentario por goteo, que es exactamente lo que va a pasar si no se trata hoy. Prefiero una ley de piso bajo que se puede subir en el Senado, por reglamentación o por ley provincial, a una década más de humedales sin inventario, sin criterio común y sin un peso. El sesgo del fondo hacia grandes tenedores y la debilidad del art. 20 son problemas reales, pero son problemas de una ley que existe, y hoy no existe ninguna.

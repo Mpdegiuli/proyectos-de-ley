@@ -1,0 +1,9 @@
+VOTO: afirmativo
+
+FUNDAMENTO: Acompaño el dictamen porque establece un piso mínimo indispensable y postergado de protección ambiental para los humedales, en línea con los artículos 41 y 124 de la Constitución Nacional y con la lógica de presupuestos mínimos. El texto no queda en una declaración general: crea una definición técnica, un Inventario Nacional de Humedales con plazos y escalas, un ordenamiento territorial que debe ser aprobado por ley provincial con participación pública, áreas de alto valor de conservación, evaluación de impacto ambiental, caudal ambiental, una moratoria precautoria, un fondo fiduciario con recursos mínimos y un régimen de sanciones. También reconoce el federalismo ambiental al dejar en las provincias la ejecución del ordenamiento y el control, incorpora a los comités de cuenca en humedales interjurisdiccionales y establece criterios de no regresión y complementariedad con otras normas protectoras.
+
+Como representante sin bloque, pondero además que el proyecto busca equilibrar conservación y producción: no prohíbe de manera indiscriminada, exige planes de manejo sostenible, prevé transición para actividades preexistentes, compensa esfuerzos de conservación y permite excepciones fundadas por emergencia. Las objeciones de gobernadores y sectores productivos son relevantes, pero el canal adecuado no es bloquear la ley sino fortalecer la implementación provincial. La ausencia de norma, en cambio, mantiene la incertidumbre y permite la degradación de humedales, con pérdida de servicios ecosistémicos y mayores riesgos asociados a inundaciones, sequías e incendios.
+
+Por eso, aunque el texto es perfectible, considero que hoy corresponde votar afirmativamente: es un punto de partida serio, operativo y federal para proteger los humedales, dar previsibilidad y cumplir compromisos ambientales nacionales e internacionales.
+
+UNA MODIFICACIÓN: ninguna

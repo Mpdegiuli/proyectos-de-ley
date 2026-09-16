@@ -1,0 +1,5 @@
+**POR QUÉ AHORA:**
+El proyecto se presentó en este momento (fines de 2022) por la convergencia de tres factores clave:
+1. **Presión social y ambiental**: Los incendios masivos en el Delta del Paraná (2020-2022) y las sequías históricas visibilizaron la urgencia de proteger los humedales, generando un reclamo ciudadano y de organizaciones ambientales que el Congreso no podía ignorar.
+2. **Ventana política**: Tras años de estancamiento (desde 2013), el dictamen de mayoría logró reunificar proyectos dispersos en un texto consensuado, aprovechando la presidencia de la comisión de Recursos Naturales por el oficialismo (Frente de Todos) y el apoyo de Juntos por el Cambio en las otras comisiones.
+3. **Contexto económico**: El auge de la minería de litio y la expansión agropecuaria en el norte del país aceleraron los conflictos por el uso del suelo, obligando a buscar un marco legal que regulara estas tensiones antes de que avanzaran proyectos sin control ambiental.

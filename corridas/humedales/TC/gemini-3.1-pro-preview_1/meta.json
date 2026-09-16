@@ -1,0 +1,32 @@
+{
+  "caso": "humedales",
+  "condicion": "TC",
+  "modelo": "gemini-3.1-pro-preview",
+  "modelo_respondido": [
+    "gemini-3.1-pro-preview",
+    "gemini-3.1-pro-preview"
+  ],
+  "repeticion": 1,
+  "fecha_utc": "2026-09-16T23:10:44+00:00",
+  "consignas_md5": "4f3d1d64",
+  "fuentes_md5": {
+    "texto": "8c071bbf",
+    "contexto": "fa189028"
+  },
+  "motivo_fin": [
+    "stop",
+    "stop"
+  ],
+  "tokens_salida": [
+    518,
+    813
+  ],
+  "turno3": {
+    "fecha_utc": "2026-09-16T23:10:44+00:00",
+    "modelo_respondido": "gemini-3.1-pro-preview",
+    "motivo_fin": "stop",
+    "tokens_salida": 299,
+    "consignas_md5": "4f3d1d64",
+    "agregado_despues": false
+  }
+}

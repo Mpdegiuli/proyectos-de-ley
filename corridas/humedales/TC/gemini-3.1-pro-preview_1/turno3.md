@@ -1,0 +1,6 @@
+POR QUÉ AHORA
+Este proyecto llega al recinto ahora, a fines de noviembre de 2022, por la combinación de una crisis ecológica inocultable y el hartazgo de una ciudadanía que obligó al Congreso a reaccionar. Como señala el propio informe del dictamen y el contexto de nuestro debate, llevamos casi diez años de intentos fallidos en los que la ley sistemáticamente perdió estado parlamentario debido a las fuertes presiones territoriales y económicas. 
+
+Sin embargo, el escenario cambió radicalmente por la urgencia climática. Las sequías extremas y, muy especialmente, los devastadores incendios en el Delta del Paraná que llenaron de humo a los grandes centros urbanos, actuaron como un catalizador. Las organizaciones ambientales y la sociedad civil se movilizaron masivamente y pusieron el tema en el centro de la agenda pública. Fue esa presión sostenida la que logró romper, al menos en la instancia de comisiones, el bloqueo impuesto por el fuerte lobby minero (enfocado en el litio) y agropecuario, así como la resistencia de los gobernadores del Norte Grande. 
+
+En definitiva, se discute ahora porque el costo político de seguir mirando para otro lado se volvió insostenible para las grandes coaliciones, forzándolas a emitir dictámenes (tanto de mayoría como de minoría) para dar una respuesta institucional a un reclamo histórico que ya no podía seguir cajoneado.
