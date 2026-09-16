@@ -1,0 +1,10 @@
+POR QUÉ AHORA:  
+Porque el Poder Ejecutivo busca destrabar, en este momento político y económico, proyectos productivos vinculados especialmente a la minería de cobre y litio en provincias cordilleranas, reduciendo la incertidumbre jurídica que esas provincias y esos sectores atribuyen a la Ley de Glaciares vigente.
+
+El propio Mensaje lo dice con bastante claridad: cita la nota del 10 de diciembre de 2025 de los gobernadores de la Mesa del Litio y de la Mesa del Cobre, que pidieron una modificación para dar “mayor claridad y precisión” y para que las autoridades provinciales puedan determinar, mediante estudios propios, si una geoforma tiene función hídrica. Es decir, el impulso inmediato aparece ligado al reclamo de provincias con fuerte interés en ampliar o acelerar proyectos mineros.
+
+También hay una razón de oportunidad política: el Ejecutivo invoca el Pacto de Mayo y el compromiso de avanzar en la explotación de los recursos naturales. Esta reforma encaja en una agenda más amplia de promoción de inversiones, exportaciones y desarrollo de economías regionales, con fuerte énfasis en el dominio provincial de los recursos naturales y en una lectura más flexible de las restricciones ambientales.
+
+En mi lectura, el proyecto aparece ahora porque la Ley de Glaciares vigente es vista por el Gobierno y por varias provincias mineras como un obstáculo o, al menos, como un factor de incertidumbre para proyectos estratégicos. La reforma procura trasladar más poder de decisión a las jurisdicciones provinciales y convertir la evaluación caso por caso en el centro del sistema.
+
+El problema es que esa urgencia económica no justifica debilitar un presupuesto mínimo ambiental. Si la motivación es ordenar criterios técnicos, se podría haber reforzado el rol del IANIGLA, actualizado el Inventario, fijado procedimientos claros y aumentado la transparencia. Pero el texto elegido va en otra dirección: flexibiliza el régimen justo cuando crece la presión sobre territorios donde están los glaciares y el ambiente periglacial. Por eso entiendo que el “ahora” responde menos a una necesidad ambiental que a una necesidad de habilitación productiva.

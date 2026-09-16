@@ -1,0 +1,13 @@
+POR QUÉ AHORA: Pienso que el Poder Ejecutivo presentó el proyecto ahora porque confluyeron varios factores políticos, jurídicos y económicos que venían madurando desde hacía años y se aceleraron a fines de 2025.
+
+En primer lugar, porque la Ley N° 26.639 llevaba más de quince años de vigencia y, según el propio mensaje oficial, generaba controversias interpretativas sobre su alcance, especialmente respecto de qué glaciares y geoformas periglaciales estaban protegidos y qué actividades podían autorizarse. Esa incertidumbre jurídica afectaba tanto a las provincias como a potenciales inversores.
+
+En segundo lugar, porque había una presión explícita de provincias mineras. El mensaje menciona la nota del 10 de diciembre de 2025 de los gobernadores de la Mesa del Litio y de la Mesa del Cobre, que pidieron mayor claridad y precisión para que las provincias pudieran determinar, mediante estudios técnicos, si una geoforma cumple función hídrica. El proyecto aparece pocos días después de ese pedido, lo que indica que respondió directamente a esa demanda.
+
+En tercer lugar, porque el Ejecutivo buscaba ordenar la relación entre protección ambiental y explotación de recursos naturales bajo una lectura constitucional: reconocer el dominio originario provincial sobre los recursos naturales, fortalecer las competencias provinciales en evaluaciones ambientales y reducir lo que consideraba un esquema excesivamente rígido o ambiguo.
+
+También creo que influyó el contexto económico y productivo. El proyecto se apoya en la idea de que Argentina necesita avanzar en el aprovechamiento de recursos estratégicos como litio y cobre, y que para atraer inversiones hace falta previsibilidad regulatoria. El texto mismo conecta la reforma con la noción de desarrollo sustentable, federal y con explotación racional de recursos.
+
+Además, el Poder Ejecutivo buscaba resolver una tensión práctica: el Inventario Nacional de Glaciares estaba incompleto en cuanto a la determinación de la función hídrica efectiva de muchas geoformas. Al trasladar a las provincias un rol más activo en la identificación y verificación, intentaba destrabar decisiones que estaban demoradas o judicializadas.
+
+Por último, el momento político parece vinculado con una agenda de federalismo de concertación y de impulso a la explotación de recursos naturales, mencionada incluso en el Pacto de Mayo. El Ejecutivo no solo presentó una corrección técnica: presentó una señal política de que quería redefinir el equilibrio entre presupuestos mínimos ambientales y facultades provinciales para habilitar proyectos productivos.
