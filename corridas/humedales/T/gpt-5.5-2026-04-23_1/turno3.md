@@ -1,0 +1,11 @@
+POR QUÉ AHORA: porque hay una combinación de urgencia ambiental, acumulación parlamentaria y demanda social que volvió difícil seguir postergando una ley nacional de presupuestos mínimos sobre humedales.
+
+Del propio informe surge que no es un tema nuevo: habla de “casi diez años” de trabajo parlamentario y de once proyectos de distintos bloques unificados en un dictamen de mayoría. Es decir, el proyecto aparece ahora como intento de cerrar una discusión largamente demorada, tomando elementos comunes: definición técnica, Inventario Nacional de Humedales, ordenamiento territorial, período de transición o aplazamiento de intervenciones y fondo de compensación.
+
+También se presenta ahora porque los conflictos sobre humedales dejaron de ser abstractos. Los incendios, las sequías, las inundaciones, la pérdida de biodiversidad, la presión inmobiliaria, agropecuaria, minera o de infraestructura sobre estos ecosistemas hicieron más visible el costo de no tener reglas claras. El texto insiste en que los humedales mitigan eventos extremos, regulan el agua, sostienen medios de vida y son relevantes frente al cambio climático. Esa realidad empujó políticamente la necesidad de una ley.
+
+Además, hay una demanda ciudadana sostenida. El informe menciona expresamente un “reclamo histórico de una ciudadanía movilizada e informada”. En ese sentido, el proyecto llega ahora porque la presión social, científica y ambiental logró instalar el tema en la agenda legislativa y obligó a construir una salida institucional.
+
+También creo que se presenta en este momento porque intenta ordenar una tensión política concreta: cómo proteger humedales sin producir una prohibición general e inmediata de actividades productivas. Por eso el dictamen busca mostrarse como una fórmula de equilibrio: presupuestos mínimos nacionales, ordenamiento provincial, evaluación ambiental, participación pública, asistencia financiera, compensaciones y transición para actividades preexistentes.
+
+En síntesis, se presenta ahora porque confluyen tres factores: una deuda legislativa de muchos años, una situación ambiental cada vez más evidente y conflictiva, y la necesidad política de dar una respuesta que combine protección, producción sostenible, federalismo y financiamiento.

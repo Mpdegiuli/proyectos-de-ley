@@ -1,0 +1,25 @@
+A QUIÉN LE SIRVE: beneficia, ante todo, al interés público ambiental: a las comunidades que viven en o cerca de humedales, a quienes dependen del agua, de la pesca, de la ganadería adaptada, del turismo, de la biodiversidad y de la regulación natural de inundaciones, sequías e incendios. También beneficia a las generaciones futuras, porque busca evitar la degradación irreversible de ecosistemas estratégicos.
+
+También le sirve a los productores y titulares de predios que quieran trabajar con reglas claras y prácticas sostenibles: el texto no prohíbe toda actividad productiva, sino que ordena, exige evaluación cuando corresponde, prevé planes de manejo y crea un fondo para compensar conservación, restauración y uso racional. Les da previsibilidad a quienes producen de manera compatible con el humedal.
+
+Les sirve además a las provincias y a la Ciudad Autónoma de Buenos Aires, porque conservan la competencia para hacer el ordenamiento territorial por ley local y pueden recibir recursos para fortalecer capacidades, fiscalizar, restaurar y acompañar transiciones productivas.
+
+Perjudica —o, más precisamente, limita— a quienes pretendan avanzar sin control sobre cambios de uso del suelo, rellenos, drenajes, obras, emprendimientos inmobiliarios, productivos o extractivos que degraden significativamente humedales. También reduce márgenes de discrecionalidad administrativa: obliga a inventariar, ordenar, evaluar, fundar decisiones, abrir participación pública y rendir cuentas sobre fondos.
+
+Puede generar costos, trámites y tiempos adicionales para actividades preexistentes o nuevas, especialmente si se desarrollan sobre áreas sensibles. Pero el texto prevé asistencia técnica y financiera, transición, reconversión o relocalización cuando una actividad existente no sea compatible con el ordenamiento.
+
+LECTURA: según el texto, las actividades productivas preexistentes no quedan automáticamente prohibidas por la sola sanción de la ley. Si ya existen, continúan sujetas a la normativa vigente y, luego, al ordenamiento territorial de humedales que apruebe cada provincia o CABA. Si una actividad preexistente resulta incompatible con ese ordenamiento, el artículo 21 establece que la autoridad competente deberá implementar programas de asistencia técnica y financiera para su transición hacia la sostenibilidad, reconversión o relocalización.
+
+Mientras no haya ordenamiento territorial aprobado, rige el artículo 35. Durante ese período, en humedales plenamente reconocidos, solo podrán permitirse cambios en el uso del suelo o ampliaciones de actividades existentes si la autoridad competente determina que no se afectarán significativamente las características ecológicas del humedal. Para decidir eso debe hacerse un procedimiento participativo de evaluación de impacto ambiental, detallando los servicios ecosistémicos del humedal y los riesgos potenciales.
+
+Para nuevas solicitudes de uso de agua, o ampliaciones de usos existentes, el artículo 35 permite que sean otorgadas durante ese período, pero previa evaluación por la autoridad competente de cada jurisdicción, conforme a la normativa específica y a esta ley.
+
+Quién decide qué es un humedal: la ley fija una definición nacional de presupuesto mínimo en los artículos 2º y 4º. Luego, el Inventario Nacional de Humedales lo elabora la autoridad nacional de aplicación, integrando inventarios e información de provincias y CABA, con metodología común y participación de organismos científicos y técnicos. Además, las autoridades competentes pueden establecer elementos diagnósticos operativos en ciertos casos, especialmente para sustratos con rasgos de hidromorfismo donde no haya formación de suelos.
+
+Quién decide qué actividades se permiten: principalmente las provincias y CABA, mediante el ordenamiento territorial de humedales aprobado por ley local. Las autoridades competentes jurisdiccionales autorizan, evalúan y controlan obras y actividades. En casos interjurisdiccionales, deben coordinar y dar intervención al comité de cuenca correspondiente; y si hay recursos hídricos interjurisdiccionales con impacto significativo en otra jurisdicción, la aprobación del comité de cuenca es vinculante según el artículo 20.
+
+VOTO FINAL: mantengo mi voto afirmativo.
+
+Después de releer, sigo entendiendo que el texto combina protección ambiental, federalismo y continuidad productiva bajo reglas más claras. No impone una prohibición general de producir en humedales; exige inventario, ordenamiento, evaluación ambiental, participación pública y planes de manejo. También incorpora financiamiento, que es clave para que la ley no quede solo en una declaración.
+
+La lectura del artículo 35 confirma, para mí, que el proyecto intenta equilibrar dos riesgos: evitar una carrera de cambios de uso del suelo antes del ordenamiento, pero sin paralizar automáticamente toda actividad. Esa solución me parece razonable. Por eso mantengo el voto afirmativo.
