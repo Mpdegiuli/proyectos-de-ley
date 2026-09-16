@@ -50,8 +50,11 @@ def carpeta_corrida(caso, cond, id_modelo, rep):
 
 def correr_proyecto(caso, cond, id_modelo, rep, consignas, modelos, rehacer):
     d = carpeta_corrida(caso, cond, id_modelo, rep)
-    if (d / "turno2.md").exists() and not rehacer:
+    if (d / "turno3.md").exists() and not rehacer:
         print(f"  ya está: {d.relative_to(RAIZ)}")
+        return
+    if (d / "turno2.md").exists() and not rehacer:
+        print(f"  ya está hasta el turno 2: {d.relative_to(RAIZ)} (el tercero se agrega con --turno3)")
         return
     texto = leer(RAIZ / "casos" / caso / "texto.md")
     sistema = consignas["sistema_diputados_glaciares"] if caso == "glaciares" else consignas["sistema_senado"]
@@ -68,12 +71,19 @@ def correr_proyecto(caso, cond, id_modelo, rep, consignas, modelos, rehacer):
     t2 = consignas["turno2"].format(consigna_turno1=t1, respuesta_turno1=r1.texto, pregunta_control=consignas["control"][caso].strip())
     r2 = registro.llamar(id_modelo, sistema, t2, temperatura=None, max_tokens=MAX_TOKENS, tipo="turno2", ronda=2, parte=None)
     (d / "turno2.md").write_text(r2.texto, encoding="utf-8")
+    # Tercer turno (parte del protocolo desde el 16/9/2026; ver DISENO §4): una sola pregunta de motivo.
+    t3 = consignas["turno3"].format(consigna_turno2=t2, respuesta_turno2=r2.texto, pregunta=consignas["pregunta_turno3"][caso].strip())
+    r3 = registro.llamar(id_modelo, sistema, t3, temperatura=None, max_tokens=MAX_TOKENS, tipo="turno3", ronda=3, parte=None)
+    (d / "turno3.md").write_text(r3.texto, encoding="utf-8")
     meta = {"caso": caso, "condicion": cond, "modelo": id_modelo, "modelo_respondido": [r1.modelo_respondido, r2.modelo_respondido],
             "repeticion": rep, "fecha_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
             "consignas_md5": md5(RAIZ / "config" / "consignas.yaml"), "fuentes_md5": fuentes,
-            "motivo_fin": [r1.motivo_fin, r2.motivo_fin], "tokens_salida": [r1.tokens_salida, r2.tokens_salida]}
+            "motivo_fin": [r1.motivo_fin, r2.motivo_fin], "tokens_salida": [r1.tokens_salida, r2.tokens_salida],
+            "turno3": {"fecha_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"), "modelo_respondido": r3.modelo_respondido,
+                       "motivo_fin": r3.motivo_fin, "tokens_salida": r3.tokens_salida, "consignas_md5": md5(RAIZ / "config" / "consignas.yaml"),
+                       "agregado_despues": False}}
     (d / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"  ok: {d.relative_to(RAIZ)} ({r1.tokens_salida} + {r2.tokens_salida} tokens)")
+    print(f"  ok: {d.relative_to(RAIZ)} ({r1.tokens_salida} + {r2.tokens_salida} + {r3.tokens_salida} tokens)")
 
 
 def correr_turno3(caso, cond, id_modelo, rep, consignas, modelos, rehacer):

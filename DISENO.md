@@ -202,6 +202,15 @@ glosas dentro del prompt desde el primer día.
 
 ## 5. Trampas conocidas
 
+- **La capa de texto de un PDF oficial puede ser OCR del escáner.** El PDF
+  de Glaciares que publica Diputados es un escaneo con texto extraíble
+  hecho por el escáner, y decía "Acuerdo de Escazir" (por "Escazú"); así
+  lo recibieron las catorce casas en la repetición 1, y seis escribieron
+  "Escazú" sin señalar el error. Se corrigió el 16/9/2026 después de
+  cerrar esa repetición (md5 del texto en cada `meta.json`), y el texto
+  entero se cotejó contra un OCR independiente de las imágenes (tesseract):
+  no apareció otra discrepancia en palabras de cuatro letras o más.
+
 - **El estado parlamentario es contexto.** En `texto.md` no va si el
   proyecto se aprobó, cuántos votos tuvo ni en qué cámara está: eso vive
   en `procedencia.md` y en la ficha de contexto. En la condición de texto

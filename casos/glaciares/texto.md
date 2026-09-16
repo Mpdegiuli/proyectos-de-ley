@@ -291,7 +291,7 @@ disminuyen, los estándares de protección vigentes.
 
 Por lo demás, cabe poner de resalto que el Acuerdo Regional sobre el Acceso a la Información, la Participación
 Pública y el Acceso a la Justicia en Asuntos Ambientales en América Latina y el Caribe, también llamado
-"Acuerdo de Escazir, aprobado por la Ley N° 27.566, tiene como objetivo, entre otros, el de garantizar la
+"Acuerdo de Escazú", aprobado por la Ley N° 27.566, tiene como objetivo, entre otros, el de garantizar la
 "participación pública en los procesos de toma de decisiones ambientales", conforme se dispone en su artículo 1°.
 Corresponde destacar que esa instancia participativa deberá ser cumplimentada al momento de tratar en el H.
 CONGRESO DE LA NACIÓN la reforma impulsada, a fin de brindar a todos los interesados la posibilidad de

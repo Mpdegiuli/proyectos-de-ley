@@ -12,3 +12,11 @@ Transcripción del PDF oficial (texto extraíble), revisada a mano el
 
 
 Estado al 16/9/2026: ley (sanción definitiva de Diputados, 9/4/2026, 137 a 111). Este dato NO va en `texto.md`: es contexto, y en la condición de texto solo el modelo no debe recibirlo.
+
+
+Corrección del 16/9/2026, después de la repetición 1 (las 28 conversaciones
+y el sondeo ya cerrados): la capa de texto del PDF oficial (OCR del escáner)
+decía "Acuerdo de Escazir" donde el original dice "Acuerdo de Escazú"; así
+lo recibieron los modelos en la repetición 1 (md5 del texto en cada
+`meta.json`: eaa96b7e antes, el nuevo después). Seis casas escribieron
+"Escazú" sin señalar el error. Se corrige para las repeticiones siguientes.
