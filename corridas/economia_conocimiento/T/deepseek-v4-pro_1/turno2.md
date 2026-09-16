@@ -1,0 +1,22 @@
+A QUIÉN LE SIRVE:  
+Beneficia principalmente a empresas grandes y medianas de los rubros promovidos —software, biotecnología, audiovisual, industria aeroespacial, nanotecnología, exportación de servicios profesionales, entre otros— que ya facturan, exportan o pueden acreditar inversión en I+D o capacitación. También beneficia a los actuales beneficiarios de la ley 25.922, porque les permite incorporarse al nuevo régimen desde el 1º de enero de 2020 y hacer transferibles los saldos de bonos fiscales no aplicados. El Título II beneficia a universidades e instituciones de investigación y a quienes las financien, mediante certificados de crédito fiscal. Perjudica al fisco nacional, porque crea beneficios amplios sin cupo global consolidado ni estimación de gasto tributario; perjudica a las empresas no alcanzadas o que no logran cumplir los requisitos, que compiten en desventaja fiscal; y afecta a la ciudadanía en general, porque la menor recaudación se traduce en menos recursos para otras políticas públicas.
+
+LECTURA:  
+Según el artículo 4, puede entrar al régimen una persona jurídica comprendida en el inciso a) del artículo 49 de la Ley de Impuesto a las Ganancias, constituida en la Argentina o habilitada para actuar en el país, que desarrolle en el país, por cuenta propia y como actividad principal, alguna actividad del artículo 2, esté inscripta en el Registro y cumpla al menos dos de estos requisitos:
+
+- acreditar mejoras continuas de calidad, o contar con una norma de calidad reconocida;
+- acreditar erogaciones en investigación y desarrollo de al menos 3% de la facturación total, y/o en capacitación de empleados afectados de al menos 8% de la masa salarial total;
+- acreditar exportaciones de bienes o servicios derivados de actividades promovidas de al menos 13% de la facturación total de esas actividades. Si la actividad promovida es la del inciso e) del artículo 2 —servicios profesionales de exportación—, el piso es 70% de la facturación total, o 45% para micro y pequeñas empresas durante los primeros cinco ejercicios.
+
+Además, la actividad promovida debe representar al menos 70% de la facturación total. Si la empresa no tiene facturación, puede inscribirse con declaración jurada, modelo de negocios y acreditando que 70% de su nómina y masa salarial está afectada a la actividad. Las microempresas con menos de tres años solo deben acreditar que desarrollan la actividad como principal, pero al cumplir ese plazo deben cumplir los requisitos del artículo 4.
+
+Beneficios concretos de los artículos 7 a 11:
+
+- Artículo 7: estabilidad fiscal desde la inscripción y mientras dure el régimen; no puede aumentar su carga tributaria nacional total, incluyendo impuestos directos, tasas, contribuciones y derechos de importación y exportación. Puede extenderse a provincias, CABA y municipios que adhieran.
+- Artículo 8: detracción de contribuciones patronales por cada trabajador registrado, equivalente al monto máximo del artículo 4 del decreto 814/2001 actualizado, sin aplicar el esquema progresivo del inciso c) del artículo 173 de la ley 27.430; puede optar por el régimen general si es más favorable.
+- Artículo 9: bono de crédito fiscal transferible por única vez equivalente a 1,6 veces las contribuciones patronales que hubiera pagado sobre el monto del artículo 8; ese bono se aplica al pago de anticipos o saldos de ganancias e IVA. Si el trabajador tiene título de doctor, el bono es de 2 veces por 24 meses desde su contratación. El ingreso por el bono no se computa en el impuesto a las ganancias.
+- Artículo 10: alícuota reducida del 15% en el impuesto a las ganancias, en la medida en que mantenga su nómina según reglamentación, para ejercicios iniciados después de la inscripción.
+- Artículo 11: no ser sujeto pasible de retenciones ni percepciones del IVA, con constancia de AFIP.
+
+VOTO FINAL:  
+Mantengo mi voto negativo. Al releer el texto se confirma que no hay un cupo fiscal consolidado que limite el costo total del régimen, que la estabilidad fiscal es muy amplia y prolongada, y que los beneficios fiscales pueden acumularse con otros regímenes. No rechazo la promoción de la economía del conocimiento, pero este diseño concentra beneficios, carece de una evaluación de impacto fiscal y no garantiza proporcionalidad entre lo que el Estado resigna y lo que la sociedad recibe a cambio.

@@ -1,0 +1,22 @@
+A QUIÉN LE SIRVE
+El texto, tal como está, beneficia en primer lugar a las empresas y emprendimientos de base tecnológica y científica (software, biotecnología, audiovisual, aeroespacial, nanotecnología, industria 4.0), ya que les otorga una fuerte reducción de su carga tributaria. También beneficia directamente a las universidades e institutos de investigación, al incentivar el aporte de fondos privados mediante certificados de crédito fiscal (Título II). Asimismo, favorece a los trabajadores altamente calificados, ya que la ley exige a las empresas invertir en capacitación continua o contratar personal con posgrados (doctores) para obtener mayores beneficios. Finalmente, sirve especialmente a las micro y pequeñas empresas, a las cuales el artículo 6 les flexibiliza el ingreso durante sus primeros tres años, y a las que exportan servicios profesionales, pidiéndoles un porcentaje menor de exportación inicial frente a las grandes.
+
+Por otro lado, el principal "perjudicado" en el corto plazo es el Estado Nacional en su rol de recaudador (la AFIP), dado que asume un costo fiscal importante al renunciar a percibir retenciones de IVA, cobrar una alícuota reducida de Ganancias y resignar parte de las contribuciones patronales. También podría decirse que, en términos comparativos, el régimen deja en desventaja a los sectores productivos tradicionales o primarios que no logren incorporar estas tecnologías de la industria 4.0 a sus procesos, ya que deberán seguir tributando bajo el régimen general, soportando una presión impositiva mucho mayor.
+
+LECTURA
+Según el artículo 4, para entrar al régimen una empresa debe ser una persona jurídica constituida o habilitada en Argentina, estar inscripta en el Registro Nacional de Beneficiarios y tener como actividad principal (es decir, que represente al menos el 70% de su facturación) alguna de las actividades promovidas en el artículo 2. 
+
+Además de esto, deben cumplir con al menos dos (2) de los siguientes tres (3) requisitos concretos:
+1. Acreditar mejoras continuas de calidad o contar con una norma de calidad reconocida.
+2. Realizar erogaciones en: Investigación y Desarrollo (mínimo del 3% de su facturación total) y/o Capacitación de sus empleados (mínimo del 8% de su masa salarial total).
+3. Exportar bienes o servicios promovidos por al menos el 13% de su facturación total (si son servicios profesionales puros, se exige el 70% de exportación, o el 45% si es una micro/pequeña empresa en sus primeros 5 años).
+
+Si logran ingresar, los beneficios concretos que obtienen (según los artículos 7 al 11) son:
+- Estabilidad fiscal (Art. 7): Garantía de que no se incrementará su carga tributaria total nacional (impuestos directos, tasas, derechos de importación/exportación) durante la vigencia del régimen.
+- Reducción de contribuciones patronales (Art. 8): Una detracción equivalente al monto máximo del decreto 814/2001 por cada empleado registrado.
+- Bono de crédito fiscal (Art. 9): Un bono transferible por el 1,6 del monto de las contribuciones patronales que hubieran correspondido pagar sobre la detracción anterior (para pagar anticipos o saldos de Ganancias e IVA). Si el empleado es Doctor, el bono sube al doble por 24 meses.
+- Reducción del Impuesto a las Ganancias (Art. 10): Pasan a tributar una alícuota reducida del 15%, condicionado a que mantengan su nómina de personal.
+- Exclusión de retenciones y percepciones de IVA (Art. 11).
+
+VOTO FINAL
+Mantengo mi voto afirmativo. Al releer detenidamente el artículo 4 y los requisitos de acceso, reafirmo mi convicción de que no estamos entregando un cheque en blanco al sector privado. El Estado hace un sacrificio fiscal evidente (plasmado en los artículos 7 a 11), pero a cambio obliga a las empresas a certificar calidad, destinar un 8% de su masa salarial a capacitar a sus trabajadores, invertir un 3% en I+D o exportar para traer dólares al país. Es un modelo de promoción inteligente basado en contraprestaciones medibles y auditables. En un país con una carga impositiva tan alta, aliviar a los sectores que tienen la llave para la exportación de alto valor agregado no es un gasto, sino la mejor inversión para ampliar nuestra base tributaria y laboral a mediano y largo plazo.

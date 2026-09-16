@@ -1,0 +1,11 @@
+VOTO: afirmativo
+
+FUNDAMENTO: El proyecto establece una política nacional de largo plazo para actividades intensivas en conocimiento, con capacidad de generar empleo calificado, exportaciones, innovación y mayor productividad. Resulta acertado ampliar el régimen vigente para la industria del software e incorporar sectores como biotecnología, producción audiovisual, nanotecnología, industria aeroespacial y satelital, tecnología nuclear, servicios profesionales exportables e industria 4.0.
+
+Los beneficios fiscales son significativos, pero están acompañados por requisitos de actividad principal, calidad, investigación y desarrollo, capacitación o exportaciones; controles anuales; auditorías financiadas parcialmente por los beneficiarios; intercambio de información con la AFIP; y sanciones que incluyen multas, restitución de tributos, exclusión e inhabilitación. También valoro el tratamiento simplificado para microempresas jóvenes, la continuidad prevista para los beneficiarios de la ley de software y la vigencia temporal hasta 2029, que aporta previsibilidad sin establecer un régimen perpetuo.
+
+Asimismo, considero positivo incentivar el financiamiento privado de investigación aplicada en universidades públicas y privadas, con registro, cupo presupuestario, control estatal, transparencia y sanciones. Esa articulación entre el sistema científico, las universidades y el sector productivo puede transformar conocimiento en mejores bienes, servicios y capacidades nacionales.
+
+Tengo reservas sobre la amplitud de algunas delegaciones reglamentarias, el costo fiscal no cuantificado en el informe y la posibilidad de que empresas ya consolidadas obtengan beneficios sin generar empleo adicional. Sin embargo, el objetivo estratégico, la diversificación sectorial, el potencial exportador y los mecanismos de control justifican acompañar el proyecto.
+
+UNA MODIFICACIÓN: establecer expresamente en la ley, y no dejar enteramente a la reglamentación, que la conservación de todos los beneficios fiscales exige mantener como mínimo la nómina promedio de trabajadores registrados de los doce meses anteriores a la inscripción, con reducción proporcional o pérdida de los beneficios ante disminuciones injustificadas y con excepciones objetivas para renuncias, jubilaciones y despidos con causa.

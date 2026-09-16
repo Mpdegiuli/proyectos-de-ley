@@ -1,0 +1,15 @@
+VOTO: afirmativo
+
+FUNDAMENTO: El proyecto merece apoyo por varias razones sustantivas. En primer lugar, representa una modernización necesaria y oportuna del régimen de promoción de la industria del software (ley 25.922) ampliándolo hacia una concepción más abarcadora de la economía del conocimiento, incorporando sectores estratégicos como biotecnología, nanotecnología, industria aeroespacial, inteligencia artificial e Internet de las cosas, entre otros. Esta ampliación refleja la realidad de la transformación productiva global y posiciona mejor a la Argentina para atraer inversiones y retener talento en sectores de alto valor agregado.
+
+En segundo lugar, el régimen ofrece incentivos fiscales concretos y bien diseñados: estabilidad fiscal, reducción de la alícuota de ganancias al 15 %, bonos de crédito fiscal transferibles por contribuciones patronales, y no sujeción a retenciones y percepciones de IVA. Estos instrumentos son herramientas probadas para fomentar el empleo calificado y la exportación de servicios.
+
+En tercer lugar, los requisitos de acceso al régimen —acreditar calidad, inversión en I+D o capacitación, y exportaciones— establecen condicionalidades razonables que vinculan el beneficio fiscal a resultados verificables, lo que lo distingue de una mera exención tributaria indiscriminada. El tratamiento diferenciado para microempresas de reciente creación es además una disposición inteligente que no desalienta el emprendimiento temprano.
+
+En cuarto lugar, el Título II, que crea un régimen de incentivo para el financiamiento privado de investigación en universidades, es una innovación institucional valiosa: acerca al sector privado a la academia con un mecanismo transparente, con registros, consejo consultivo plural y sanciones claras. El crédito fiscal del 40 % sobre aportes a universidades para investigación aplicada puede generar un círculo virtuoso entre empresa y conocimiento académico.
+
+El amplio apoyo transversal de bloques —desde Cambiemos hasta el PJ y el Frente Renovador— es además una señal de que el proyecto refleja un consenso político raro y valioso, que conviene consolidar. La vigencia desde 2020 hasta 2029 otorga previsibilidad de largo plazo a las empresas del sector.
+
+No ignoro las críticas posibles: el costo fiscal no está cuantificado con precisión en el texto; la delegación al Poder Ejecutivo de ampliar rubros y actividades es amplia; y la estabilidad fiscal puede colisionar con necesidades tributarias futuras. Sin embargo, estos riesgos son manejables mediante la reglamentación y el control parlamentario posterior, y no superan los beneficios esperables del régimen.
+
+UNA MODIFICACIÓN: Incorporar en el articulado la obligación de que el Poder Ejecutivo informe anualmente al Congreso el costo fiscal consolidado del régimen (suma de beneficios en ganancias, IVA, contribuciones patronales y bonos de crédito fiscal), desagregado por sector y tamaño de empresa, como condición de transparencia presupuestaria mínima, dado que el texto actual no establece ningún mecanismo de seguimiento legislativo del impacto fiscal.

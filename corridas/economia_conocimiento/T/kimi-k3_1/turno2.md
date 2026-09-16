@@ -1,0 +1,36 @@
+A QUIÉN LE SIRVE:
+
+Beneficia, en primer lugar y de modo inmediato, a las empresas ya inscriptas en la ley 25.922: el capítulo V les garantiza continuidad sin fisuras, les preserva los saldos de bonos de crédito fiscal como libremente transferibles y les da hasta junio de 2020 para ajustarse. Sin esta ley, ese sector quedaba en caída libre el 31 de diciembre de 2019.
+
+Beneficia también a las empresas de los rubros nuevos del artículo 2: producción audiovisual, biotecnología, nanotecnología, aeroespacial y satelital, ingeniería nuclear, industria 4.0, servicios geológicos y de prospección, y servicios profesionales exportadores. Y dentro de ese universo, hay que decirlo con claridad, beneficia sobre todo a las empresas ya consolidadas y exportadoras: para ellas cumplir dos de los tres requisitos del artículo 4 es casi automático, y la redacción permite entrar al régimen sin gastar un peso adicional en investigación ni capacitación, porque basta con certificar calidad y exportar. El régimen premia más lo que ya se hace que el esfuerzo incremental.
+
+Beneficia a los trabajadores calificados en relación de dependencia registrada: la alícuota del 15 % está condicionada a mantener la nómina, y el bono duplicado por empleados con título de doctor (art. 9) es un incentivo directo a absorber investigadores que hoy se van del país. Beneficia a las universidades e institutos, públicos y privados, que reciben un canal nuevo de financiamiento privado para investigación aplicada, y a las empresas patrocinadoras, que recuperan entre el 40 y el 50 % del aporte vía crédito fiscal. Beneficia al FONDCE, que recauda hasta el 1,5 % de los beneficios otorgados.
+
+Perjudica, o al menos desfavorece, a varios. Al fisco nacional, es decir al conjunto de los contribuyentes: la renuncia fiscal del Título I no tiene techo ni cupo, en plena consolidación. A los sectores no promovidos —comercio, industria tradicional, servicios para el mercado interno— que pagan la alícuota plena del 30 % mientras su competidor de al lado paga 15 %: se consolida una economía de dos velocidades decidida por ley. A las personas humanas, profesionales independientes y monotributistas del sector, que quedan afuera porque el régimen exige ser persona jurídica. Y hay una tensión técnica que registro: el artículo 4 remite al inciso a) del artículo 49 de la Ley de Ganancias, que en su texto ordenado de 1997 comprende a las sociedades anónimas y en comandita por acciones; en lectura estricta quedarían afuera las SRL, que son el vehículo societario típico de las pymes de software. La reglamentación deberá corregir eso. También desfavorece a las provincias que no adhieran, cuyas empresas no tendrán estabilidad fiscal local, y a los gobiernos futuros, atados hasta 2029 por la estabilidad fiscal.
+
+LECTURA:
+
+Según el artículo 4, para entrar al régimen una empresa debe cumplir todo esto:
+
+1. Ser persona jurídica comprendida en el inciso a) del artículo 49 de la Ley de Impuesto a las Ganancias (t.o. 1997), constituida en la Argentina o habilitada para actuar en su territorio.
+2. Desarrollar en el país, por cuenta propia y como actividad principal, alguna de las actividades del artículo 2. Actividad principal significa que la facturación de las actividades promovidas represente al menos el 70 % de la facturación total. Por el artículo 5, el autodesarrollo computa dentro de ese porcentaje solo si es de exportación.
+3. Estar inscripta en el Registro Nacional de Beneficiarios (art. 3).
+4. Acreditar al menos dos de estos tres requisitos:
+   a) Mejoras continuas en la calidad de servicios, productos o procesos, o una norma de calidad reconocida aplicable.
+   b) Erogaciones en investigación y desarrollo de al menos el 3 % de la facturación total, y/o en capacitación del personal afectado de al menos el 8 % de la masa salarial total.
+   c) Exportaciones de bienes o servicios promovidos de al menos el 13 % de la facturación de esas actividades. Si la actividad es la de servicios profesionales (inciso e del art. 2), el piso sube al 70 % de la facturación total; para micro y pequeñas empresas de ese rubro, 45 % durante los primeros cinco ejercicios fiscales.
+5. Si la empresa aún no facturó nada, puede inscribirse con declaración jurada de la actividad, presentación del modelo de negocios y acreditación de que el 70 % de su nómina y masa salarial están afectados a la actividad.
+6. Mantener el cumplimiento anualmente. Las microempresas con menos de tres años de antigüedad entran acreditando solo la actividad principal (art. 6), pero cumplido ese plazo deben cumplir el artículo 4 completo.
+
+Los beneficios concretos que obtiene (arts. 7 a 11, más el 12):
+
+- Art. 7: Estabilidad fiscal por toda la vigencia del régimen: su carga tributaria total nacional, determinada al momento de la adhesión, no puede aumentar. Alcanza impuestos directos, tasas, contribuciones y derechos de importación y exportación; y se extiende a CABA, provincias y municipios que adhieran, considerada por separado en cada jurisdicción.
+- Art. 8: Detracción de contribuciones patronales por cada trabajador registrado, equivalente al monto máximo del artículo 4 del decreto 814/2001 actualizado, sin que le aplique el esquema progresivo del art. 173 de la ley 27.430. Si el régimen general resulta más favorable, puede optar por él.
+- Art. 9: Bono de crédito fiscal transferible por única vez, equivalente a 1,6 veces las contribuciones patronales que hubiera correspondido pagar sobre ese monto, aplicable a anticipos y saldos de Ganancias e IVA. Por cada empleado con título de doctor, el bono es de 2 veces durante 24 meses desde su contratación. El ingreso del bono no computa en la ganancia neta.
+- Art. 10: Alícuota reducida del 15 % en el impuesto a las ganancias, condicionada a mantener la nómina de personal. Rige desde los ejercicios fiscales iniciados después de la inscripción.
+- Art. 11: Exclusión de retenciones y percepciones de IVA, con constancia expedida por AFIP.
+- Art. 12: Cómputo como pago a cuenta de Ganancias de los gravámenes análogos pagados o retenidos en el exterior, hasta el límite del incremento de la obligación tributaria.
+
+A cambio paga dos cosas: una tasa de hasta el 4 % de los beneficios obtenidos para financiar el control (art. 13) y un aporte anual de hasta el 1,5 % al FONDCE (art. 18).
+
+VOTO FINAL: Mantengo el voto afirmativo. La relectura refuerza mis reparos —el Título I sin cupo fiscal, la remisión societaria estrecha del artículo 4, la posibilidad de acceder sin esfuerzo adicional en I+D— pero ninguno de ellos supera el costo de dejar vencer la ley 25.922 sin sucesor en diciembre de 2019, en medio de la crisis, con el empleo registrado y las exportaciones del sector en juego. El régimen es temporario, exige contraprestaciones verificables, se autofinancia el control y ordena la transición. Sigo pidiendo como única modificación el cupo fiscal anual para el Título I con informe obligatorio al Congreso; sin ella, voto afirmativo igual, porque la alternativa no es un régimen mejor: es el vacío.

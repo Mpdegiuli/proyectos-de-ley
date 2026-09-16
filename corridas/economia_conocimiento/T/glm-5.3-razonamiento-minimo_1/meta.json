@@ -1,0 +1,31 @@
+{
+  "caso": "economia_conocimiento",
+  "condicion": "T",
+  "modelo": "glm-5.3-razonamiento-minimo",
+  "modelo_respondido": [
+    "z-ai/glm-5.3",
+    "z-ai/glm-5.3"
+  ],
+  "repeticion": 1,
+  "fecha_utc": "2026-09-16T22:54:40+00:00",
+  "consignas_md5": "4f3d1d64",
+  "fuentes_md5": {
+    "texto": "635df12c"
+  },
+  "motivo_fin": [
+    "stop",
+    "stop"
+  ],
+  "tokens_salida": [
+    632,
+    1041
+  ],
+  "turno3": {
+    "fecha_utc": "2026-09-16T22:54:40+00:00",
+    "modelo_respondido": "z-ai/glm-5.3",
+    "motivo_fin": "stop",
+    "tokens_salida": 476,
+    "consignas_md5": "4f3d1d64",
+    "agregado_despues": false
+  }
+}

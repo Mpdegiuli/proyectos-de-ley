@@ -1,0 +1,33 @@
+A QUIÉN LE SIRVE: Beneficia directamente a las personas jurídicas cuya actividad principal esté comprendida en los sectores promovidos y que puedan cumplir los requisitos de acceso: empresas de software y servicios digitales, producción audiovisual, biotecnología, nanotecnología, industria aeroespacial y satelital, tecnología nuclear, industria 4.0, determinados servicios científicos y técnicos, y servicios profesionales de exportación. También favorece especialmente a las empresas exportadoras, a las que invierten en investigación y desarrollo o capacitación, y a las microempresas de menos de tres años, que acceden inicialmente mediante condiciones simplificadas.
+
+Beneficia además a sus trabajadores si los incentivos se traducen en mayor empleo registrado y calificado; a profesionales con doctorado, cuya contratación genera un bono mayor; a universidades e institutos universitarios que reciban aportes privados para investigación aplicada; y a los patrocinadores de esos proyectos, que pueden obtener certificados de crédito fiscal. Indirectamente puede beneficiar al sistema científico, a proveedores vinculados y al país por la generación de exportaciones, innovación y productividad.
+
+Perjudica o coloca en desventaja relativa a las empresas no incluidas en los rubros promovidos, a las personas humanas —porque el régimen principal se limita a determinadas personas jurídicas—, a quienes no alcancen el requisito del setenta por ciento de facturación promovida y a los prestadores de servicios profesionales orientados al mercado interno. También implica un costo para el fisco nacional por la reducción de Ganancias, la detracción de contribuciones patronales, los bonos fiscales y la estabilidad tributaria. Ese costo es soportado indirectamente por el conjunto de los contribuyentes o por otras finalidades presupuestarias. Además, el texto no garantiza por sí solo que la totalidad del beneficio fiscal se transforme en empleo adicional, mejores salarios o nueva inversión.
+
+LECTURA: Conforme al artículo 4º, puede ingresar una persona jurídica comprendida en el inciso a) del artículo 49 de la Ley de Impuesto a las Ganancias, constituida en la Argentina o habilitada para actuar en el país. Debe desarrollar en territorio argentino, por cuenta propia y como actividad principal, una o más actividades promovidas por el artículo 2º, e inscribirse en el Registro Nacional de Beneficiarios.
+
+La actividad se considera principal cuando genera al menos el setenta por ciento de la facturación total. Además, la empresa debe reunir por lo menos dos de estos tres requisitos:
+
+a) Acreditar mejoras continuas en la calidad de sus productos, servicios o procesos, o contar con una norma de calidad reconocida y aplicable.
+
+b) Acreditar inversiones en investigación y desarrollo equivalentes, como mínimo, al tres por ciento de su facturación total; y/o capacitación de los empleados afectados a las actividades promovidas por un mínimo del ocho por ciento de la masa salarial total.
+
+c) Acreditar exportaciones de bienes o servicios promovidos equivalentes, como mínimo, al trece por ciento de la facturación correspondiente a esas actividades. Para los servicios profesionales del artículo 2º, inciso e), la exigencia es del setenta por ciento de la facturación total. Si se trata de una micro o pequeña empresa, ese porcentaje baja al cuarenta y cinco por ciento durante los primeros cinco ejercicios fiscales.
+
+Si la persona jurídica todavía no tiene facturación, puede solicitar la inscripción mediante una declaración jurada, la presentación de su modelo de negocios y la acreditación de que al menos el setenta por ciento de su nómina y de su masa salarial está afectado a las actividades promovidas. Los requisitos deben cumplirse anualmente. Adicionalmente, el artículo 6º permite que una microempresa con menos de tres años de antigüedad ingrese acreditando solamente que desarrolla en el país, por cuenta propia y como actividad principal, una actividad promovida; cumplidos los tres años deberá satisfacer los requisitos generales.
+
+Los beneficios de los artículos 7º a 11 son:
+
+a) Estabilidad fiscal nacional desde la inscripción y durante la vigencia del régimen: no puede incrementarse la carga tributaria nacional total vinculada con las actividades promovidas. Comprende impuestos directos, tasas, contribuciones impositivas y derechos o aranceles de importación y exportación. Puede extenderse a provincias, municipios y la Ciudad Autónoma de Buenos Aires si adhieren.
+
+b) Una detracción de la base de contribuciones patronales por cada trabajador registrado, equivalente al monto máximo previsto en el artículo 4º del decreto 814/2001, debidamente actualizado, sin aplicar el esquema progresivo citado por la norma. Si el régimen general resulta más favorable, puede utilizarse este último.
+
+c) Un bono de crédito fiscal transferible por única vez, equivalente a 1,6 veces las contribuciones patronales que habrían correspondido sobre el monto de la detracción. Puede aplicarse al pago de anticipos o saldos de Ganancias e IVA. Para trabajadores con título de doctor, el bono es equivalente a dos veces ese monto durante los primeros veinticuatro meses desde su contratación. El ingreso derivado del bono no integra la ganancia neta gravada.
+
+d) Una alícuota reducida del quince por ciento en el impuesto a las ganancias, condicionada a que el beneficiario mantenga su nómina de personal según lo que determine la reglamentación.
+
+e) La exclusión de los regímenes de retención y percepción del IVA, previa constancia expedida por la AFIP.
+
+VOTO FINAL: Mantengo mi voto afirmativo. La relectura confirma que no es un beneficio abierto a cualquier empresa: exige actividad promovida principal, inscripción, cumplimiento anual y al menos dos condiciones vinculadas con calidad, investigación y desarrollo, capacitación o exportaciones. También contempla auditorías, intercambio de información fiscal, restitución de beneficios y sanciones.
+
+Persisten, sin embargo, dos reparos importantes: el costo fiscal no está cuantificado en el escueto informe y aspectos decisivos quedan remitidos a la reglamentación. En particular, aunque el artículo 10 condiciona la alícuota reducida al mantenimiento de la nómina, no fija legalmente la base de comparación, las excepciones ni las consecuencias proporcionales de una reducción. Por eso mantengo también la modificación propuesta: precisar esos elementos en la propia ley para impedir que los beneficios fiscales puedan coexistir con una disminución injustificada del empleo registrado.
