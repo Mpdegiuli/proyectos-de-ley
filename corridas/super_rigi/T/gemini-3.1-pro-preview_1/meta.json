@@ -1,0 +1,31 @@
+{
+  "caso": "super_rigi",
+  "condicion": "T",
+  "modelo": "gemini-3.1-pro-preview",
+  "modelo_respondido": [
+    "gemini-3.1-pro-preview",
+    "gemini-3.1-pro-preview"
+  ],
+  "repeticion": 1,
+  "fecha_utc": "2026-09-16T20:07:02+00:00",
+  "consignas_md5": "e24bcf64",
+  "fuentes_md5": {
+    "texto": "f7ce2e05"
+  },
+  "motivo_fin": [
+    "stop",
+    "stop"
+  ],
+  "tokens_salida": [
+    699,
+    1028
+  ],
+  "turno3": {
+    "fecha_utc": "2026-09-16T20:07:02+00:00",
+    "modelo_respondido": "gemini-3.1-pro-preview",
+    "motivo_fin": "stop",
+    "tokens_salida": 443,
+    "consignas_md5": "e24bcf64",
+    "agregado_despues": false
+  }
+}

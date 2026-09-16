@@ -1,0 +1,22 @@
+A QUIÉN LE SIRVE:
+
+Beneficia, primero, a los inversores —nacionales pero sobre todo extranjeros— capaces de armar un VPU de USD 1.000 millones: fondos de capital, multinacionales de tecnología, semiconductores, biotecnología e infraestructura digital/data centers, que obtienen una alícuota de Ganancias del 15% (vs. escala plena para el resto), dividendos al 3,5%, contribuciones patronales al 10%, exenciones aduaneras, IVA financiado con certificados de crédito fiscal, libre disponibilidad cambiaria de aportes y financiamientos, y un blindaje regulatorio de 30 años con arbitraje internacional fuera del país. Beneficia también, en el corto plazo, a las provincias dispuestas a competir por estos proyectos —que obtienen radicación, empleo y obra— y al Poder Ejecutivo, que gana una herramienta de atracción de inversión y discrecionalidad reglamentaria importante.
+
+Perjudica al conjunto de contribuyentes que no pueden entrar al régimen (PyMES y empresas medianas, que siguen pagando la carga plena y compiten en desigualdad por insumos, energía y talento); a los trabajadores de esos VPU, que quedan bajo un esquema de contribuciones reducidas que puede afectar la sustentabilidad del sistema previsional común; a las provincias que se vean forzadas a adherir para no perder proyectos, resignando potestades y presión fiscal local bajo amenaza de nulidad de sus normas; a los consumidores y al abastecimiento interno en momentos de escasez (art. 55 prioriza al VPU sobre la demanda interna); y a los futuros Congresos, que quedan atados por la estabilidad normativa de 30 años respecto de estos proyectos.
+
+LECTURA:
+
+Según el texto, para entrar al régimen un proyecto debe cumplir, en concreto:
+
+1. Ser una "nueva actividad económica" (art. 4): proyecto industrial, tecnológico o de servicios de infraestructura tecnológica y digital estratégica, con impacto transformador, que a la fecha de vigencia de la ley no se desarrolle ni preste en el país, o esté en etapa experimental o piloto. Excluye expresamente ampliaciones, modernizaciones o reconversiones de instalaciones preexistentes. Esto apunta a industrias que hoy no existen en Argentina: fabricación de semiconductores, centros de datos de escala, biotecnología avanzada, producción de hardware/IA.
+2. Monto mínimo de USD 1.000.000.000 en activos computables por proyecto (art. 12, inc. a), con al menos 20% invertido en los primeros dos años (inc. b).
+3. Constituir un Vehículo de Proyecto Único (VPU) con objeto exclusivo y activos afectados solo al proyecto (Capítulo II, según fundamentos).
+4. Radicarse en una jurisdicción adherida (art. 2): provincia, CABA y en su caso municipio que hayan adherido expresa e integralmente.
+5. No duplicar proyectos ya presentados bajo el RIGI de la Ley 27.742 (según fundamentos).
+6. Sujetarse a la evaluación de la Autoridad de Aplicación designada por el PEN y a los requisitos que fije la reglamentación (art. 12, último párrafo).
+
+En términos de actores concretos: una multinacional de semiconductores (p. ej. una foundry de USD 3.000 millones), un hiperscaler de data centers (Google, Microsoft, Amazon) con un campus de más de USD 1.000 millones, o un laboratorio de biotecnología de escala global. Ninguna empresa argentina existente que simplemente amplíe su planta actual calificaría, porque el art. 4 excluye explícitamente las ampliaciones de instalaciones preexistentes. El umbral del billón de dólares excluye de facto a todo el tejido productivo nacional.
+
+VOTO FINAL:
+
+Mantengo el voto negativo. La relectura refuerza los argumentos: el art. 4 excluye a las industrias existentes (es decir, el régimen no premia a quien ya invirtió y apostó por el país), el art. 55 subordina el abastecimiento interno a los proyectos adheridos, el art. 74 congela la potestad regulatoria por 30 años, el Capítulo XI traslada las disputas a arbitraje extranjero, y el art. 2 anula de oficio normas provinciales. La modificación que exigiría —eliminar o acotar severamente el arbitraje internacional y la estabilidad de 30 años— es tan central a la arquitectura del proyecto que, sin ella, votarlo favorable sería validar un esquema de privilegios fiscales y blindaje regulatorio difícil de justificar constitucional y fiscalmente.

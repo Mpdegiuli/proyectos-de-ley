@@ -1,0 +1,15 @@
+VOTO: negativo
+
+FUNDAMENTO:
+Como senador de la Nación sin pertenencia a ningún bloque, mi responsabilidad primordial es evaluar cada proyecto en función del equilibrio entre el desarrollo económico federal y la defensa del interés y la soberanía nacional. Comparto plenamente el diagnóstico del Poder Ejecutivo expresado en el Mensaje N° 181/2026: la República Argentina necesita imperiosamente atraer capitales, desarrollar industrias de frontera (como la inteligencia artificial y la biotecnología) y generar empleo de calidad. Exigir un piso de inversión de 1.000 millones de dólares (Art. 12) para acceder a beneficios resulta una medida audaz para un país que requiere un shock de inversiones. 
+
+Sin embargo, el texto de este "Súper RIGI" cruza líneas rojas institucionales, fiscales y soberanas que no puedo avalar en su redacción actual. 
+
+En primer lugar, el proyecto atenta severamente contra el federalismo. El Artículo 2 decreta la nulidad absoluta e insanable de cualquier norma local que, a criterio del inversor o del Estado Nacional, obstaculice los incentivos. Esto es una intromisión inconstitucional en las autonomías provinciales y municipales, vaciando de contenido el poder de policía local y la potestad de las provincias sobre sus recursos naturales (Art. 124 de la Constitución Nacional).
+
+En segundo lugar, el régimen diseña una verdadera "economía de enclave". El Artículo 55 prohíbe al Estado priorizar el abastecimiento interno en caso de necesidad y debilita el fomento a los proveedores locales. Si a esto le sumamos una tasa preferencial del Impuesto a las Ganancias de solo el 15% (Art. 33) —muy por debajo de lo que tributa cualquier pyme argentina— y la libre disponibilidad de divisas sin obligación de liquidación en el mercado de cambios (Art. 61), el resultado es un esquema donde las empresas extraen valor y exportan sin dejar encadenamientos productivos sólidos ni divisas tributables en el país. Congelar este esquema macroeconómico por 30 años (Art. 74) resulta desproporcionado frente a la volatilidad global.
+
+Finalmente, el mecanismo de resolución de controversias es inaceptable. Los Artículos 108 y 109 obligan al Estado Nacional a someterse a arbitraje internacional (CIADI, Cámara de Comercio Internacional, etc.) tras apenas 60 días de negociaciones, prohibiendo además que la sede del arbitraje sea en el país o que haya árbitros argentinos. Se excluye totalmente a la justicia argentina, cediendo soberanía jurisdiccional desde el minuto cero sin exigir, como es costumbre en el derecho internacional, el agotamiento previo de los recursos internos. Por ceder soberanía judicial, vulnerar las autonomías provinciales y generar una competencia desleal y desmedida frente al empresariado nacional, mi voto es negativo.
+
+UNA MODIFICACIÓN:
+Modificar el Artículo 109 para establecer la obligatoriedad del previo agotamiento de las instancias judiciales locales en la República Argentina antes de que el Vehículo de Proyecto Único (VPU) quede habilitado para someter cualquier controversia a tribunales de arbitraje internacional.

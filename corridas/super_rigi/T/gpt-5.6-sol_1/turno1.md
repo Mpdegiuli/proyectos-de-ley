@@ -1,0 +1,17 @@
+VOTO: negativo
+
+FUNDAMENTO: Comparto el objetivo de atraer inversiones de gran escala hacia actividades nuevas, ampliar la capacidad tecnológica, generar empleo y aumentar las exportaciones. También considero razonable ofrecer previsibilidad a proyectos que requieren inversiones iniciales extraordinarias y largos períodos de maduración.
+
+Sin embargo, el régimen propuesto establece una asimetría excesiva entre los derechos garantizados al inversor y las potestades que conserva el Estado para proteger el interés general. La combinación de beneficios tributarios y aduaneros, libre disponibilidad de divisas, estabilidad normativa durante treinta años, inmunidad frente a regulaciones de abastecimiento y garantía de operación continuada limita durante demasiado tiempo la capacidad regulatoria de futuros gobiernos.
+
+Mi objeción decisiva está en los artículos 108 y 109. La definición de “Disputa” comprende prácticamente cualquier controversia vinculada directa o indirectamente con el régimen. A la vez, el VPU elige unilateralmente el sistema arbitral, la sede debe encontrarse fuera del país y hasta los socios o accionistas extranjeros pueden promover el reclamo. Además, el Poder Ejecutivo queda facultado para acordar mecanismos particulares para cada proyecto. Esto puede trasladar decisiones tributarias, cambiarias, regulatorias y federales de enorme trascendencia a tribunales internacionales, sin exigir previamente el agotamiento de la jurisdicción argentina.
+
+La seguridad jurídica no debe confundirse con la renuncia anticipada y general a la jurisdicción nacional. Los inversores deben contar con jueces independientes, debido proceso y remedios efectivos, pero el Estado también debe preservar su capacidad de legislar frente a crisis económicas, emergencias ambientales, problemas de abastecimiento o cambios tecnológicos. Resulta especialmente inconveniente asegurar estabilidad por treinta años y, simultáneamente, permitir que cualquier diferencia sobre su alcance sea juzgada fuera del país por iniciativa exclusiva del beneficiario.
+
+También advierto tensiones federales en la nulidad absoluta prevista por el artículo 2 para normas o vías de hecho locales, aun cuando el artículo comienza reconociendo las competencias provinciales. La adhesión de una provincia puede justificar compromisos concretos, pero no una invalidación nacional genérica de todo ejercicio regulatorio que un inversor considere restrictivo. Del mismo modo, los artículos 55 y 73 formulan garantías tan amplias que podrían impedir respuestas proporcionadas ante necesidades públicas graves.
+
+El proyecto declara objetivos de empleo, transferencia tecnológica y desarrollo de cadenas locales, pero en los artículos transcriptos esos resultados aparecen principalmente como aspiraciones, mientras que los beneficios y garantías concedidos a los VPU son concretos, exigibles y estables por tres décadas. Esa falta de reciprocidad refuerza mi decisión.
+
+No rechazo un régimen especial para industrias nuevas ni la estabilidad razonable de las inversiones. Rechazo que esa estabilidad quede respaldada por un mecanismo arbitral unilateral, amplísimo y externo que reduce indebidamente la jurisdicción y la capacidad regulatoria de la República Argentina.
+
+UNA MODIFICACIÓN: sustituir integralmente los artículos 108 y 109 para establecer que todas las controversias sean resueltas por los tribunales federales argentinos, sin arbitraje internacional ni mecanismos particulares acordados por el Poder Ejecutivo para cada proyecto.
