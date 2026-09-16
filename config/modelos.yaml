@@ -1,0 +1,641 @@
+# Catálogo de modelos. Cada entrada es un modelo que puede ocupar una posición.
+#
+#   proveedor:          anthropic | openai_compatible | falso
+#   modelo:             el string que se manda a la API. Se registra en cada
+#                       llamada junto con el string que la API devuelve
+#                       (modelo_respondido), que en varios proveedores es la
+#                       versión fechada. Ese par es la "versión exacta" del
+#                       protocolo (DISENO.md, sección 4).
+#   clave_env:          variable de entorno con la clave (ver .env.example).
+#   base_url:           solo openai_compatible.
+#   acepta_temperatura: si la API acepta el parámetro. Cuando es false, la
+#                       llamada va sin temperatura y el registro lo deja
+#                       anotado (temperatura_enviada: null). El protocolo pide
+#                       temperatura fija e igual para todos: para cumplirlo al
+#                       pie de la letra, el panel se arma solo con modelos que
+#                       la aceptan.
+#   campo_max_tokens:   openai_compatible: max_tokens (default) o
+#                       max_completion_tokens (modelos nuevos de OpenAI).
+#   pais / laboratorio: para la tabla de resultados y el análisis por región.
+#   razonamiento:       qué se le pide al proveedor sobre el pensamiento privado
+#                       del modelo. Lo devuelto va al campo "razonamiento" de
+#                       llamadas.jsonl; nunca a las partes ni a la transcripción.
+#                         no          (default) no se pide nada. En Opus 5 /
+#                                     Sonnet 5 el modelo razona igual, pero la
+#                                     API no lo devuelve: queda null.
+#                         adaptativo  Anthropic: thinking adaptativo con resumen
+#                                     visible. En la familia 4.6 esto ENCIENDE
+#                                     el razonamiento (cambia la condición:
+#                                     declararlo); en Opus 5 / Sonnet 5 solo
+#                                     hace visible lo que ya ocurre.
+#                         presupuesto Anthropic, Haiku 4.5: thinking con
+#                                     presupuesto fijo (tokens_razonamiento).
+#                       Para openai_compatible el campo es informativo: se
+#                       registra lo que el proveedor devuelva por su cuenta
+#                       (reasoning_content en DeepSeek, xAI, Qwen pensante).
+#   tokens_razonamiento: tokens de pensamiento que se suman al techo de salida
+#                       cuando se pide razonamiento (default 4000).
+#   verificar:          true = el string del modelo se escribió de memoria y
+#                       hay que confirmarlo en la documentación del proveedor
+#                       antes de usarlo en una corrida.
+#   tope_salida:        máximo de tokens de salida que admite el modelo; el
+#                       techo de la corrida (max_tokens_respuesta) se recorta a
+#                       ese valor (modelos viejos: GPT-4 Turbo, Claude 3 Haiku).
+
+modelos:
+
+  # --- "Los más antiguos" (idea de Maia, 15/9/2026): la versión más vieja que
+  # cada casa todavía sirve, según resultados/catalogo_versiones_20260915-114348.md.
+  # Anthropic, Qwen, Mistral y DeepSeek viejos solo se sirven vía OpenRouter
+  # (la API directa de cada laboratorio ya no los ofrece); se pide el hosting
+  # del laboratorio cuando existe y, si no, se deja el que OpenRouter elija,
+  # registrado en servido_por. Los topes de salida se recortan con tope_salida.
+  claude-3-haiku:
+    proveedor: openai_compatible
+    modelo: anthropic/claude-3-haiku
+    base_url: https://openrouter.ai/api/v1
+    clave_env: OPENROUTER_API_KEY
+    laboratorio: Anthropic
+    pais: EE.UU.
+    via: OpenRouter
+    tamano: chico
+    acepta_temperatura: true
+    tope_salida: 4096
+    verificar: false             # catálogo 15/9/2026: creado 2024-03-13; 0.25 / 1.25 USD por millón
+    cuerpo_extra: {provider: {order: [anthropic], allow_fallbacks: true}}  # 15/9: con allow_fallbacks false OpenRouter devolvio 404 No endpoints found (el unico endpoint no es de Anthropic)
+    reintentos: 6
+
+  gpt-4-turbo-2024-04-09:
+    proveedor: openai_compatible
+    modelo: gpt-4-turbo-2024-04-09
+    base_url: https://api.openai.com/v1
+    clave_env: OPENAI_API_KEY
+    laboratorio: OpenAI
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true
+    tope_salida: 4096
+    verificar: false             # catálogo 15/9/2026: creado 2024-04-08; contexto 128k
+
+  gemini-2.5-pro-openrouter:   # clave distinta de la entrada gemini-2.5-pro (API directa) que ya estaba en el catalogo: con la misma clave YAML se pisaban y la corrida uso la directa (15/9, llamada 3)
+    proveedor: openai_compatible
+    modelo: google/gemini-2.5-pro
+    base_url: https://openrouter.ai/api/v1
+    clave_env: OPENROUTER_API_KEY
+    laboratorio: Google
+    pais: EE.UU.
+    via: OpenRouter
+    tamano: grande
+    acepta_temperatura: true
+    verificar: false             # catálogo 15/9/2026: "Stable release (June 17th, 2025)"; razona dentro del techo. La API directa de Google lo lista pero responde 404 "no longer available to new users" (probado 15/9); vía OpenRouter lo sirve Google
+    cuerpo_extra: {provider: {order: [google-vertex, google-ai-studio], allow_fallbacks: true}}
+    reintentos: 6
+
+  qwen-2.5-72b-instruct:
+    proveedor: openai_compatible
+    modelo: qwen/qwen-2.5-72b-instruct
+    base_url: https://openrouter.ai/api/v1
+    clave_env: OPENROUTER_API_KEY
+    laboratorio: Alibaba
+    pais: China
+    via: OpenRouter
+    tamano: grande
+    acepta_temperatura: true
+    tope_salida: 4096
+    verificar: false             # catálogo 15/9/2026: creado 2024-09-19; 0.36 / 0.40 USD por millón; hosting a elección de OpenRouter
+    reintentos: 6
+
+  mistral-large-2407:
+    proveedor: openai_compatible
+    modelo: mistralai/mistral-large-2407
+    base_url: https://openrouter.ai/api/v1
+    clave_env: OPENROUTER_API_KEY
+    laboratorio: Mistral
+    pais: Francia
+    via: OpenRouter
+    tamano: grande
+    acepta_temperatura: true
+    tope_salida: 4096
+    verificar: false             # catálogo 15/9/2026: Mistral Large 2 (jul 2024), la versión fechada más vieja del flagship; 2.00 / 6.00 USD por millón
+    cuerpo_extra: {provider: {order: [mistral], allow_fallbacks: true}}
+    reintentos: 6
+
+  deepseek-v3:
+    proveedor: openai_compatible
+    modelo: deepseek/deepseek-chat
+    base_url: https://openrouter.ai/api/v1
+    clave_env: OPENROUTER_API_KEY
+    laboratorio: DeepSeek
+    pais: China
+    via: OpenRouter
+    tamano: grande
+    acepta_temperatura: true
+    tope_salida: 4096
+    verificar: false             # catálogo 15/9/2026: "DeepSeek V3", creado 2024-12-26; 0.26 / 1.03 USD por millón; hosting a elección de OpenRouter
+    reintentos: 6
+
+  grok-4.20:
+    proveedor: openai_compatible
+    modelo: grok-4.20
+    base_url: https://api.x.ai/v1
+    clave_env: XAI_API_KEY
+    laboratorio: xAI
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true
+    verificar: false             # catálogo 15/9/2026: alias de grok-4.20-0309-reasoning (mar 2026), lo más viejo que sirve xAI
+
+  # --- Estados Unidos: Anthropic -------------------------------------------
+  claude-sonnet-4-6:
+    proveedor: anthropic
+    modelo: claude-sonnet-4-6
+    clave_env: ANTHROPIC_API_KEY
+    laboratorio: Anthropic
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true
+    razonamiento: "no"          # "adaptativo" enciende el thinking: es otra condición
+
+  claude-haiku-4-5:
+    proveedor: anthropic
+    modelo: claude-haiku-4-5
+    clave_env: ANTHROPIC_API_KEY
+    laboratorio: Anthropic
+    pais: EE.UU.
+    tamano: chico
+    acepta_temperatura: true
+    razonamiento: "no"          # "presupuesto" enciende el thinking (Haiku no tiene adaptativo)
+
+  claude-opus-4-6:
+    proveedor: anthropic
+    modelo: claude-opus-4-6
+    clave_env: ANTHROPIC_API_KEY
+    laboratorio: Anthropic
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true
+    razonamiento: "no"          # "adaptativo" enciende el thinking: es otra condición
+
+  claude-opus-5:
+    proveedor: anthropic
+    modelo: claude-opus-5
+    clave_env: ANTHROPIC_API_KEY
+    laboratorio: Anthropic
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: false   # la API rechaza temperature (400); razona por defecto
+    razonamiento: adaptativo    # el modelo razona siempre; esto solo pide el resumen
+    tokens_razonamiento: 14000  # se suma al techo de la corrida; con 4000 Opus 5 lo agotó en la ronda 4 (13/9/2026)
+
+  claude-sonnet-5:
+    proveedor: anthropic
+    modelo: claude-sonnet-5
+    clave_env: ANTHROPIC_API_KEY
+    laboratorio: Anthropic
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: false   # solo acepta el valor por defecto
+    razonamiento: adaptativo    # el modelo razona siempre; esto solo pide el resumen
+    tokens_razonamiento: 14000  # se suma al techo de la corrida; con 4000 Opus 5 lo agotó en la ronda 4 (13/9/2026)
+
+  claude-fable-5-1:
+    proveedor: anthropic
+    modelo: claude-fable-5-1
+    clave_env: ANTHROPIC_API_KEY
+    laboratorio: Anthropic
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: false   # no se envía temperature: se asume como Opus 5 (solo el valor por defecto)
+    razonamiento: adaptativo    # razona por defecto; se pide el resumen
+    tokens_razonamiento: 14000
+    # Nota de higiene (DISENO.md, 4): es el mismo modelo que asiste este proyecto desde Cowork.
+    # El asistente no interviene en la corrida (misma API, mismo prompt que los demás), pero
+    # el análisis de sus corridas lo lee Maia directamente sobre las actas, no solo a través
+    # del asistente.
+
+  # --- Estados Unidos: OpenAI ---------------------------------------------
+  # GPT-5.5 / 5.4-mini: strings fechados verificados contra la cuenta el 13/9/2026.
+  # Aceptan temperature=1.0 (el único valor probado). Razonan por defecto y el
+  # razonamiento cuenta dentro de max_completion_tokens: con un prompt corto casi
+  # no razonan (por eso la prueba inicial dio 0 reasoning_tokens), con la mesa sí
+  # (~450 tokens por turno, picos de más de 700; 13/9/2026). La API no devuelve el
+  # razonamiento.
+  # La cuenta también lista gpt-5.6-luna/sol/terra, sin snapshot fechado: no se usan.
+  # GPT-6 Astra (27/8/2026; `gpt-6-astra`, sin snapshot fechado en la cuenta al 15/9):
+  # lo más nuevo de OpenAI, agregado el 15/9/2026 para la mesa de "los últimos"
+  # (idea de Maia: Astra y Fable, los últimos de las dos compañías). 10/50 USD
+  # por millón (entrada/salida), unas cinco veces gpt-5.5. Mismos parámetros que
+  # gpt-5.5 hasta que la prueba de una llamada diga otra cosa.
+  gpt-6-astra:
+    proveedor: openai_compatible
+    modelo: gpt-6-astra
+    base_url: https://api.openai.com/v1
+    clave_env: OPENAI_API_KEY
+    laboratorio: OpenAI
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true
+    campo_max_tokens: max_completion_tokens
+    verificar: false
+
+  # GPT-5.6 Sol: sucesor designado de GPT-5.5 (anuncio de OpenAI del 15/9/2026); la
+  # cuenta lo lista sin snapshot fechado. Agregado el 16/9/2026 para "los proyectos",
+  # SIN PROBAR: hace falta una llamada de prueba antes de la tanda.
+  gpt-5.6-sol:
+    proveedor: openai_compatible
+    modelo: gpt-5.6-sol
+    base_url: https://api.openai.com/v1
+    clave_env: OPENAI_API_KEY
+    laboratorio: OpenAI
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true
+    campo_max_tokens: max_completion_tokens
+    verificar: false
+
+  gpt-5.5-2026-04-23:
+    proveedor: openai_compatible
+    modelo: gpt-5.5-2026-04-23
+    base_url: https://api.openai.com/v1
+    clave_env: OPENAI_API_KEY
+    laboratorio: OpenAI
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true
+    campo_max_tokens: max_completion_tokens
+    verificar: false
+
+  gpt-5.4-mini-2026-03-17:
+    proveedor: openai_compatible
+    modelo: gpt-5.4-mini-2026-03-17
+    base_url: https://api.openai.com/v1
+    clave_env: OPENAI_API_KEY
+    laboratorio: OpenAI
+    pais: EE.UU.
+    tamano: chico
+    acepta_temperatura: true
+    campo_max_tokens: max_completion_tokens
+    verificar: false
+
+  gpt-5:
+    proveedor: openai_compatible
+    modelo: gpt-5
+    base_url: https://api.openai.com/v1
+    clave_env: OPENAI_API_KEY
+    laboratorio: OpenAI
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: false   # la familia gpt-5 solo acepta el valor por defecto
+    campo_max_tokens: max_completion_tokens
+    verificar: true
+
+  gpt-4.1:
+    proveedor: openai_compatible
+    modelo: gpt-4.1
+    base_url: https://api.openai.com/v1
+    clave_env: OPENAI_API_KEY
+    laboratorio: OpenAI
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true
+    campo_max_tokens: max_completion_tokens
+    verificar: true
+
+  gpt-4.1-mini:
+    proveedor: openai_compatible
+    modelo: gpt-4.1-mini
+    base_url: https://api.openai.com/v1
+    clave_env: OPENAI_API_KEY
+    laboratorio: OpenAI
+    pais: EE.UU.
+    tamano: chico
+    acepta_temperatura: true
+    campo_max_tokens: max_completion_tokens
+    verificar: true
+
+  # --- Estados Unidos: Google (endpoint compatible con OpenAI) ------------
+  gemini-2.5-pro:
+    proveedor: openai_compatible
+    modelo: gemini-2.5-pro
+    base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+    clave_env: GOOGLE_API_KEY
+    laboratorio: Google
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true
+    verificar: true
+
+  gemini-2.5-flash:
+    proveedor: openai_compatible
+    modelo: gemini-2.5-flash
+    base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+    clave_env: GOOGLE_API_KEY
+    laboratorio: Google
+    pais: EE.UU.
+    tamano: chico
+    acepta_temperatura: true
+    verificar: true
+
+  # --- Estados Unidos: xAI (endpoint compatible con OpenAI) ---------------
+  # Strings verificados contra /v1/models de la cuenta el 13/9/2026. Ambos son
+  # modelos con razonamiento interno (reasoning_tokens facturados aparte del
+  # texto visible; max_tokens solo limita el texto). Declarar en el README:
+  # Sonnet 4.6 corrió sin razonamiento extendido; Grok razona antes de hablar.
+  grok-4.6:
+    proveedor: openai_compatible
+    modelo: grok-4.6
+    base_url: https://api.x.ai/v1
+    clave_env: XAI_API_KEY
+    laboratorio: xAI
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true
+    verificar: false
+
+  grok-4.3:
+    proveedor: openai_compatible
+    modelo: grok-4.3
+    base_url: https://api.x.ai/v1
+    clave_env: XAI_API_KEY
+    laboratorio: xAI
+    pais: EE.UU.
+    tamano: grande   # versión anterior a 4.6; tamaño relativo por confirmar
+    acepta_temperatura: true
+    verificar: false
+
+  # Gemini 3.x: strings verificados contra la cuenta el 13/9/2026. La línea pro
+  # va por 3.1 (preview); la flash por 3.8. Ambos aceptan temperatura.
+  gemini-3.1-pro-preview:
+    proveedor: openai_compatible
+    modelo: gemini-3.1-pro-preview
+    base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+    clave_env: GOOGLE_API_KEY
+    laboratorio: Google
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true
+    verificar: false
+
+  gemini-3.8-flash:
+    proveedor: openai_compatible
+    modelo: gemini-3.8-flash
+    base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+    clave_env: GOOGLE_API_KEY
+    laboratorio: Google
+    pais: EE.UU.
+    tamano: chico
+    acepta_temperatura: true
+    verificar: false
+
+  # Mistral: strings verificados contra la cuenta el 13/9/2026 (no hay "large";
+  # el tope actual es medium 3.5). Llamada de prueba: 429 por plan de la cuenta.
+  mistral-medium-3.5:
+    proveedor: openai_compatible
+    modelo: mistral-medium-3.5
+    base_url: https://api.mistral.ai/v1
+    clave_env: MISTRAL_API_KEY
+    laboratorio: Mistral
+    pais: Francia
+    tamano: grande
+    acepta_temperatura: true
+    verificar: false
+
+  mistral-small-2603:
+    proveedor: openai_compatible
+    modelo: mistral-small-2603
+    base_url: https://api.mistral.ai/v1
+    clave_env: MISTRAL_API_KEY
+    laboratorio: Mistral
+    pais: Francia
+    tamano: chico
+    acepta_temperatura: true
+    verificar: false
+
+  # --- China: DeepSeek ------------------------------------------------------
+  # DeepSeek V4: strings verificados contra /v1/models de la cuenta el 13/9/2026.
+  # Ambos devuelven reasoning_tokens (razonamiento interno), como Grok.
+  deepseek-v4-pro:
+    proveedor: openai_compatible
+    modelo: deepseek-v4-pro
+    base_url: https://api.deepseek.com/v1
+    clave_env: DEEPSEEK_API_KEY
+    laboratorio: DeepSeek
+    pais: China
+    tamano: grande
+    acepta_temperatura: true
+    verificar: false
+
+  deepseek-flash:
+    proveedor: openai_compatible
+    modelo: deepseek-flash
+    base_url: https://api.deepseek.com/v1
+    clave_env: DEEPSEEK_API_KEY
+    laboratorio: DeepSeek
+    pais: China
+    tamano: chico
+    acepta_temperatura: true
+    verificar: false
+
+  deepseek-chat:
+    proveedor: openai_compatible
+    modelo: deepseek-chat
+    base_url: https://api.deepseek.com
+    clave_env: DEEPSEEK_API_KEY
+    laboratorio: DeepSeek
+    pais: China
+    tamano: grande
+    acepta_temperatura: true
+    verificar: true
+
+  deepseek-reasoner:
+    proveedor: openai_compatible
+    modelo: deepseek-reasoner
+    base_url: https://api.deepseek.com
+    clave_env: DEEPSEEK_API_KEY
+    laboratorio: DeepSeek
+    pais: China
+    tamano: grande
+    acepta_temperatura: false   # el modo razonador ignora temperature
+    razonamiento: proveedor     # devuelve reasoning_content por su cuenta; se registra
+    verificar: true
+
+  # --- China vía OpenRouter (14/9/2026) --------------------------------------
+  # Una sola clave (OPENROUTER_API_KEY) para los laboratorios chinos que no
+  # tienen cuenta directa. Salvedades que se declaran: la llamada pasa por un
+  # intermediario; para modelos de pesos abiertos OpenRouter puede enrutar a
+  # un hosting tercero (a veces cuantizado), y por eso cada llamada registra
+  # `servido_por` (quién atendió) además de `modelo_respondido`. `cuerpo_extra`
+  # permite fijar proveedor de fondo si hace falta (provider.order,
+  # allow_fallbacks): acá se fija en cada entrada el proveedor de fondo, el
+  # laboratorio cuando sirve su propio modelo en OpenRouter (Alibaba, Moonshot,
+  # Z.AI) y un hosting declarado cuando no (MiniMax → DeepInfra), para que las
+  # siete partes y todas las corridas salgan del mismo lugar. Strings
+  # verificados contra /api/v1/models y /endpoints el 14/9/2026 y probados con
+  # probar_modelo.py (los cuatro responden y devuelven razonamiento). Todos razonan por defecto y el
+  # razonamiento cuenta dentro de max_tokens: techo 16000 como Gemini/OpenAI.
+  # Condición: "como viene", sin pedir ni apagar el razonamiento; lo que
+  # OpenRouter devuelva en message.reasoning va al campo razonamiento.
+  qwen3.8-max:
+    proveedor: openai_compatible
+    modelo: qwen/qwen3.8-max-0902
+    base_url: https://openrouter.ai/api/v1
+    clave_env: OPENROUTER_API_KEY
+    laboratorio: Alibaba
+    pais: China
+    via: OpenRouter
+    tamano: grande
+    acepta_temperatura: true
+    verificar: false             # alta 3/9/2026; 2.00 / 6.00 USD por millón. Probado 14/9: único endpoint, lo sirve Alibaba
+    cuerpo_extra: {provider: {order: [alibaba], allow_fallbacks: false}}
+    reintentos: 6                # 429 transitorios del hosting de fondo: esperas de 10 a 120 s
+
+  kimi-k3:
+    proveedor: openai_compatible
+    modelo: moonshotai/kimi-k3
+    base_url: https://openrouter.ai/api/v1
+    clave_env: OPENROUTER_API_KEY
+    laboratorio: Moonshot
+    pais: China
+    via: OpenRouter
+    tamano: grande
+    acepta_temperatura: true
+    verificar: false             # alta 16/7/2026. Probado 14/9: 20 endpoints (fp4, fp8, mxfp4); sin fijar lo sirvió "Sail Research" (fp4).
+    # Se fija el laboratorio: Moonshot AI (mxfp4, 3.00 / 15.00 USD por millón, la salida más cara del panel).
+    cuerpo_extra: {provider: {order: [moonshotai], allow_fallbacks: false}}
+    reintentos: 6                # 429 transitorios del hosting de fondo: esperas de 10 a 120 s
+
+  glm-5.3:
+    proveedor: openai_compatible
+    modelo: z-ai/glm-5.3
+    base_url: https://openrouter.ai/api/v1
+    clave_env: OPENROUTER_API_KEY
+    laboratorio: Zhipu (Z.ai)
+    pais: China
+    via: OpenRouter
+    tamano: grande
+    acepta_temperatura: true
+    verificar: false             # alta 18/8/2026. Probado 14/9: 26 endpoints; sin fijar lo sirvió Together. Se fija el laboratorio: Z.AI (fp8, 1.40 / 4.40 USD por millón)
+    cuerpo_extra: {provider: {order: [z-ai], allow_fallbacks: false}}
+    reintentos: 6                # 429 transitorios del hosting de fondo: esperas de 10 a 120 s
+
+  glm-5.3-razonamiento-minimo:
+    # Variante declarada (decisión de Maia, 14/9/2026: "sin razonamiento"): GLM-5.3
+    # "como viene" no termina de razonar: numera palabra por palabra para cumplir
+    # las 150 y agotó 16000 y 32000 tokens (dos parciales en corridas_invalidas/).
+    # Apagarlo no se puede por esta vía (OpenRouter: "Reasoning is mandatory for
+    # this endpoint and cannot be disabled"); con reasoning.effort=low (o
+    # max_tokens=8000) el razonamiento baja a ~130 caracteres y la misma llamada
+    # que agotaba 32000 termina en 665 tokens (probar_razonamiento.py, 14/9). Es
+    # OTRA condición, como Sonnet 4.6 sin thinking; se declara en cada corrida y
+    # no se mezcla con la entrada glm-5.3 en el análisis.
+    proveedor: openai_compatible
+    modelo: z-ai/glm-5.3
+    base_url: https://openrouter.ai/api/v1
+    clave_env: OPENROUTER_API_KEY
+    laboratorio: Zhipu (Z.ai)
+    pais: China
+    via: OpenRouter
+    tamano: grande
+    acepta_temperatura: true
+    razonamiento: minimo         # reasoning.effort=low vía OpenRouter; apagarlo no está permitido
+    verificar: false
+    cuerpo_extra: {provider: {order: [z-ai], allow_fallbacks: false}, reasoning: {effort: low}}
+    reintentos: 6
+
+  minimax-m3:
+    proveedor: openai_compatible
+    modelo: minimax/minimax-m3
+    base_url: https://openrouter.ai/api/v1
+    clave_env: OPENROUTER_API_KEY
+    laboratorio: MiniMax
+    pais: China
+    via: OpenRouter
+    tamano: grande
+    acepta_temperatura: true
+    verificar: false             # alta 31/5/2026. Probado 14/9: 12 endpoints y MiniMax no sirve el suyo en OpenRouter; sin fijar lo sirvió DeepInfra.
+    # Se fijó DeepInfra (fp8) para que todas las llamadas salieran del mismo hosting, pero devolvió 429
+    # "rate-limited upstream" en dos corridas seguidas (14/9, aun con 6 reintentos). Se pasa a Together
+    # (precisión no declarada por el hosting, 0.30 / 1.20 USD por millón); no es el laboratorio: se declara.
+    cuerpo_extra: {provider: {order: [together], allow_fallbacks: false}}
+    reintentos: 6                # 429 transitorios del hosting de fondo: esperas de 10 a 120 s
+
+  hunyuan-hy4:
+    proveedor: openai_compatible
+    modelo: tencent/hy4-preview
+    base_url: https://openrouter.ai/api/v1
+    clave_env: OPENROUTER_API_KEY
+    laboratorio: Tencent
+    pais: China
+    via: OpenRouter
+    tamano: grande
+    acepta_temperatura: true
+    verificar: false             # alta 28/8/2026; 0.83 / 2.50 USD por millón; opcional, no pedido
+
+  # --- China: Alibaba (Qwen, endpoint compatible con OpenAI) --------------
+  qwen-plus:
+    proveedor: openai_compatible
+    modelo: qwen-plus
+    base_url: https://dashscope-intl.aliyuncs.com/compatible-mode/v1
+    clave_env: DASHSCOPE_API_KEY
+    laboratorio: Alibaba
+    pais: China
+    tamano: grande
+    acepta_temperatura: true
+    verificar: true
+
+  # --- Europa: Mistral ------------------------------------------------------
+  mistral-large:
+    proveedor: openai_compatible
+    modelo: mistral-large-latest
+    base_url: https://api.mistral.ai/v1
+    clave_env: MISTRAL_API_KEY
+    laboratorio: Mistral
+    pais: Francia
+    tamano: grande
+    acepta_temperatura: true
+    verificar: true
+
+  mistral-small:
+    proveedor: openai_compatible
+    modelo: mistral-small-latest
+    base_url: https://api.mistral.ai/v1
+    clave_env: MISTRAL_API_KEY
+    laboratorio: Mistral
+    pais: Francia
+    tamano: chico
+    acepta_temperatura: true
+    verificar: true
+
+  # --- Estados Unidos: xAI ----------------------------------------------------
+  grok-4:
+    proveedor: openai_compatible
+    modelo: grok-4
+    base_url: https://api.x.ai/v1
+    clave_env: XAI_API_KEY
+    laboratorio: xAI
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true
+    razonamiento: "no"          # razona, pero la API no devuelve reasoning_content en grok-4
+    verificar: true
+
+  grok-3-mini:
+    proveedor: openai_compatible
+    modelo: grok-3-mini
+    base_url: https://api.x.ai/v1
+    clave_env: XAI_API_KEY
+    laboratorio: xAI
+    pais: EE.UU.
+    tamano: chico
+    acepta_temperatura: true
+    razonamiento: proveedor     # devuelve reasoning_content por su cuenta; se registra
+    verificar: true
+
+  # --- Simulador, sin API: para probar el bucle sin gastar (--dry-run) -----
+  falso:
+    proveedor: falso
+    modelo: falso-v0
+    laboratorio: ninguno
+    pais: ninguno
+    tamano: ninguno
+    acepta_temperatura: true

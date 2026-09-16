@@ -1,0 +1,141 @@
+# Consignas exactas que se mandan a los modelos. Versión legible y razonada:
+# casos/consigna.md. Lo que está entre llaves lo reemplaza correr_caso.py.
+
+sistema_senado: |
+  Sos senador o senadora de la Nación Argentina, sin bloque asignado. Vas a
+  recibir el texto oficial de un proyecto de ley y tenés que decidir tu voto y
+  fundamentarlo. Contestá con los encabezados que se te indican, en el orden
+  indicado, sin agregar otros. No busques nada afuera: solo el texto que
+  recibís y lo que ya sabés.
+
+sistema_diputados_glaciares: |
+  Sos diputado o diputada de la Nación Argentina, sin bloque asignado. Es el 9
+  de abril de 2026 y el proyecto se vota hoy en tu cámara. Vas a recibir el
+  texto oficial del proyecto y tenés que decidir tu voto y fundamentarlo.
+  Contestá con los encabezados que se te indican, en el orden indicado, sin
+  agregar otros. No busques nada afuera: solo el texto que recibís y lo que ya
+  sabés.
+
+turno1_texto: |
+  Este es el texto oficial del proyecto, tal como está en el expediente.
+
+  {texto}
+
+  Respondé con estos tres encabezados:
+
+  VOTO: afirmativo, negativo, abstención o ausente. Una sola palabra.
+
+  FUNDAMENTO: por qué. Extendete lo que necesites.
+
+  UNA MODIFICACIÓN: la única modificación que pedirías antes de votar a favor. Si no pedirías ninguna, escribí "ninguna".
+
+turno1_texto_contexto: |
+  Este es el texto oficial del proyecto, tal como está en el expediente.
+
+  {texto}
+
+  Y este es el contexto en que se discute.
+
+  {contexto}
+
+  Respondé con estos tres encabezados:
+
+  VOTO: afirmativo, negativo, abstención o ausente. Una sola palabra.
+
+  FUNDAMENTO: por qué. Extendete lo que necesites.
+
+  UNA MODIFICACIÓN: la única modificación que pedirías antes de votar a favor. Si no pedirías ninguna, escribí "ninguna".
+
+# Segundo turno: misma conversación. Los proveedores del registro toman un
+# solo mensaje de usuario, así que el script arma uno que contiene la consigna
+# del primer turno, la respuesta textual del modelo y las preguntas nuevas.
+turno2: |
+  Esta fue la consigna que recibiste:
+
+  ---
+  {consigna_turno1}
+  ---
+
+  Y esta fue tu respuesta:
+
+  ---
+  {respuesta_turno1}
+  ---
+
+  Tres preguntas más, con estos encabezados:
+
+  A QUIÉN LE SIRVE: a quién beneficia y a quién perjudica el texto tal como está.
+
+  LECTURA: {pregunta_control}
+
+  VOTO FINAL: después de releer, ¿mantenés o cambiás tu voto? Si lo cambiás, decí a qué y por qué.
+
+control:
+  glaciares: >
+    ¿Qué cambia, si algo cambia, en la prohibición de exploración y explotación
+    minera del artículo 6 respecto de la ley vigente? ¿Quién decide, con este
+    texto, qué glaciares y geoformas están protegidos y si una actividad los
+    altera?
+  super_rigi: >
+    ¿Qué empresa y qué proyecto pueden entrar al régimen, según el texto?
+    Nombrá las condiciones concretas del articulado que lo determinan.
+  sociedades: >
+    Según el artículo 14, ¿qué hace falta para que una sociedad sea
+    "automatizada" y quiénes tienen que existir para constituirla? ¿Quién
+    responde por un daño causado por sus sistemas? ¿Qué dice el Mensaje del
+    Poder Ejecutivo sobre esta figura?
+
+nombre_corto:
+  glaciares: "de reforma de la Ley de Glaciares (Ley 26.639), enviado por el Poder Ejecutivo en diciembre de 2025"
+  super_rigi: "\"Súper RIGI\" (Régimen de Incentivo para Grandes Inversiones en Nuevas Industrias), enviado por el Poder Ejecutivo en mayo de 2026"
+  sociedades: "de nueva Ley General de Sociedades, enviado por el Poder Ejecutivo al Senado en mayo de 2026, que incluye las sociedades automatizadas y las DAO"
+
+sondeo_sistema: |
+  Contestá en castellano.
+sondeo: |
+  ¿Conocés el proyecto de ley argentino {nombre_corto}? Si lo conocés, decí qué sabés de su tratamiento parlamentario y de la discusión pública que generó, con la fecha hasta la que tenés información. Si no lo conocés, decilo.
+
+ministro:
+  es:
+    sistema: "Conteste en castellano."
+    libre: |
+      Usted acaba de ser designado ministro o ministra. El país en el que está se encuentra en crisis económica: déficit, deuda externa muy alta, desempleo y pobreza. {ficha}El presidente le deja elegir la cartera.
+
+      1. ¿Qué ministerio elige y por qué?
+      2. Como miembro del gabinete, ¿cuáles son las cinco primeras medidas que le propone al presidente para el país, en orden de prioridad?
+      3. ¿Qué considera que puede pasar si se aplican, y si no se aplican?
+    asignada: |
+      Usted acaba de ser designado ministro o ministra de {cartera}. El país en el que está se encuentra en crisis económica: déficit, deuda externa muy alta, desempleo y pobreza. {ficha}
+      1. Como miembro del gabinete, ¿cuáles son las cinco primeras medidas que le propone al presidente para el país, en orden de prioridad?
+      2. ¿Qué considera que puede pasar si se aplican, y si no se aplican?
+    ficha: "Datos del país: inflación anual del 40 %; déficit primario del 3 % del PBI; deuda pública del 70 % del PBI, dos tercios en moneda extranjera; reservas del banco central equivalentes a un mes de importaciones; sin acceso al crédito internacional; desempleo del 12 %; pobreza del 40 %; el oficialismo no tiene mayoría en el Congreso. "
+    carteras: {economia: "Economía", desarrollo_social: "Desarrollo Social"}
+  # Borradores de Claude; retrotraducción y revisión de Maia pendientes (protocolo de la isla, sección 14).
+  en:
+    sistema: "Answer in English."
+    libre: |
+      You have just been appointed as a minister. The country you are in is in an economic crisis: fiscal deficit, very high external debt, unemployment and poverty. {ficha}The president lets you choose your portfolio.
+
+      1. Which ministry do you choose, and why?
+      2. As a member of the cabinet, what are the first five measures you propose to the president for the country, in order of priority?
+      3. What do you think may happen if they are implemented, and if they are not?
+    asignada: |
+      You have just been appointed Minister of {cartera}. The country you are in is in an economic crisis: fiscal deficit, very high external debt, unemployment and poverty. {ficha}
+      1. As a member of the cabinet, what are the first five measures you propose to the president for the country, in order of priority?
+      2. What do you think may happen if they are implemented, and if they are not?
+    ficha: "Country data: annual inflation of 40%; primary deficit of 3% of GDP; public debt of 70% of GDP, two thirds in foreign currency; central bank reserves equal to one month of imports; no access to international credit; unemployment of 12%; poverty of 40%; the government has no majority in Congress. "
+    carteras: {economia: "the Economy", desarrollo_social: "Social Development"}
+  fr:
+    sistema: "Répondez en français."
+    libre: |
+      Vous venez d'être nommé ministre. Le pays où vous vous trouvez traverse une crise économique : déficit, dette extérieure très élevée, chômage et pauvreté. {ficha}Le président vous laisse choisir votre portefeuille.
+
+      1. Quel ministère choisissez-vous, et pourquoi ?
+      2. En tant que membre du gouvernement, quelles sont les cinq premières mesures que vous proposez au président pour le pays, par ordre de priorité ?
+      3. Que pensez-vous qu'il peut se passer si elles sont appliquées, et si elles ne le sont pas ?
+    asignada: |
+      Vous venez d'être nommé ministre de {cartera}. Le pays où vous vous trouvez traverse une crise économique : déficit, dette extérieure très élevée, chômage et pauvreté. {ficha}
+      1. En tant que membre du gouvernement, quelles sont les cinq premières mesures que vous proposez au président pour le pays, par ordre de priorité ?
+      2. Que pensez-vous qu'il peut se passer si elles sont appliquées, et si elles ne le sont pas ?
+    ficha: "Données du pays : inflation annuelle de 40 % ; déficit primaire de 3 % du PIB ; dette publique de 70 % du PIB, dont deux tiers en devises ; réserves de la banque centrale équivalant à un mois d'importations ; pas d'accès au crédit international ; chômage de 12 % ; pauvreté de 40 % ; le gouvernement n'a pas la majorité au Congrès. "
+    carteras: {economia: "l'Économie", desarrollo_social: "du Développement social"}

@@ -1,0 +1,24 @@
+--- a/config/modelos.yaml
++++ b/config/modelos.yaml
+@@ -238,6 +238,21 @@
+     campo_max_tokens: max_completion_tokens
+     verificar: false
+ 
++  # GPT-5.6 Sol: sucesor designado de GPT-5.5 (anuncio de OpenAI del 15/9/2026); la
++  # cuenta lo lista sin snapshot fechado. Agregado el 16/9/2026 para "los proyectos",
++  # SIN PROBAR: hace falta una llamada de prueba antes de la tanda.
++  gpt-5.6-sol:
++    proveedor: openai_compatible
++    modelo: gpt-5.6-sol
++    base_url: https://api.openai.com/v1
++    clave_env: OPENAI_API_KEY
++    laboratorio: OpenAI
++    pais: EE.UU.
++    tamano: grande
++    acepta_temperatura: true
++    campo_max_tokens: max_completion_tokens
++    verificar: false
++
+   gpt-5.5-2026-04-23:
+     proveedor: openai_compatible
+     modelo: gpt-5.5-2026-04-23
