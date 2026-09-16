@@ -1,0 +1,15 @@
+VOTO: negativo
+
+FUNDAMENTO: Comparto el objetivo de atraer inversiones de gran escala hacia actividades tecnológicas nuevas, ampliar exportaciones y generar empleo. También considero razonable ofrecer previsibilidad frente a la inestabilidad normativa argentina. Sin embargo, el proyecto excede una política de incentivos y establece una asimetría jurídica demasiado profunda entre el Estado y los beneficiarios.
+
+El punto decisivo es el régimen de controversias. El artículo 109 permite que el VPU —e incluso sus socios o accionistas extranjeros— elija unilateralmente entre distintos sistemas arbitrales, obliga a que la sede esté fuera del país en la mayoría de los casos y habilita al Poder Ejecutivo a pactar mecanismos específicos para cada proyecto. No se reconoce una facultad equivalente al Estado ni se fija un sistema único, transparente y aprobado legislativamente. De esta manera, decisiones tributarias, cambiarias, regulatorias o de abastecimiento público podrían generar reclamos internacionales durante un régimen cuya estabilidad se extiende por treinta años.
+
+La previsibilidad no debe convertirse en inmunidad frente a toda regulación futura. Los artículos 55, 73 y 74 restringen considerablemente la capacidad estatal para responder ante emergencias, proteger el abastecimiento interno o modificar políticas públicas, aun cuando cambien de manera sustancial las circunstancias económicas y sociales. Esa rigidez resulta especialmente delicada tratándose de infraestructura tecnológica y digital estratégica.
+
+También observo una definición abierta de “nuevas actividades económicas”, cuyo alcance queda parcialmente librado a la reglamentación, y una declaración excesivamente amplia de nulidad sobre actos de jurisdicciones adheridas. Aunque la adhesión provincial sea voluntaria, el federalismo cooperativo requiere reglas precisas y respeto por las competencias locales, no una cláusula general que permita invalidar cualquier medida considerada obstaculizadora.
+
+Los beneficios tributarios, aduaneros, previsionales y cambiarios son extraordinarios, pero en los artículos transcriptos no aparecen obligaciones igualmente concretas sobre empleo, transferencia tecnológica, proveedores nacionales, desempeño exportador o reintegro proporcional de beneficios ante incumplimientos. Los fundamentos anuncian esos resultados, pero una política de esta magnitud debe asegurarlos mediante obligaciones exigibles.
+
+No fundamento mi voto en las acusaciones no probadas sobre inversores determinados. Lo hago por el texto: el Estado puede ofrecer condiciones competitivas sin conceder al beneficiario la elección unilateral de jurisdicción y sin debilitar durante tres décadas su capacidad de defender el interés público.
+
+UNA MODIFICACIÓN: Sustituir el artículo 109 por un sistema de solución de controversias recíproco, fijado de manera uniforme por la ley y no elegible unilateralmente por el VPU ni por sus accionistas, que preserve la revisión judicial argentina de los actos estatales y solo permita arbitraje internacional por acuerdo expreso de ambas partes para cada controversia.

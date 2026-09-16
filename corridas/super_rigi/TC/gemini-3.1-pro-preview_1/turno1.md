@@ -1,0 +1,14 @@
+VOTO:
+negativo
+
+FUNDAMENTO:
+Como senador de la Nación, sin ataduras a bloques partidarios, mi deber principal es velar por el federalismo, el desarrollo equitativo de las provincias y la soberanía del Estado argentino. Si bien comparto la necesidad de atraer inversiones de gran escala en sectores tecnológicos de vanguardia para modernizar nuestra matriz productiva, este proyecto de "Súper RIGI" establece concesiones desproporcionadas que vulneran nuestras instituciones y postergan el desarrollo local.
+
+En primer lugar, el proyecto implica una cesión de soberanía inaceptable. El artículo 109 instaura una prórroga de jurisdicción extrema, permitiendo al inversor (Vehículo de Proyecto Único) elegir unilateralmente tribunales arbitrales internacionales con sede obligatoria fuera de la República Argentina, sin exigir el agotamiento previo de las vías judiciales locales. Dejar al Estado Nacional a merced de tribunales extranjeros frente a cualquier controversia, marginando por completo a la justicia argentina durante tres décadas, es un riesgo institucional gravísimo.
+
+En segundo lugar, el régimen atenta contra el federalismo y las economías regionales. El artículo 55 prohíbe expresamente cualquier exigencia de adquirir insumos a proveedores nacionales o locales, limitando severamente la capacidad de las provincias para generar encadenamientos productivos reales. Al mismo tiempo, el artículo 2 amenaza con la nulidad absoluta a cualquier norma emanada por las jurisdicciones locales adheridas, lo que funciona como una extorsión a las provincias y un avasallamiento de sus autonomías. 
+
+Finalmente, otorgar una estabilidad normativa, aduanera y cambiaria absoluta por 30 años (artículo 74), combinada con una alícuota del impuesto a las ganancias reducida a la mitad (15%, artículo 33) y la libre disponibilidad total de divisas sin obligación de liquidación (artículo 61), configura un modelo de enclave. El Estado Nacional y las provincias ceden todas sus herramientas de política pública y recaudación a cambio de promesas de empleo que, como señalan las críticas, no garantizan una transferencia real de tecnología ni un beneficio fiscal a largo plazo. Legislar a medida de corporaciones extranjeras, inmovilizando al Estado por 30 años, no es el camino hacia un desarrollo económico sustentable.
+
+UNA MODIFICACIÓN:
+Modificar el artículo 109 para establecer la obligatoriedad de someter cualquier controversia a los tribunales federales de la República Argentina y exigir el agotamiento total de las instancias judiciales locales antes de poder habilitar, como último recurso, el acceso a tribunales de arbitraje internacional.

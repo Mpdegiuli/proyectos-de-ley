@@ -1,0 +1,32 @@
+{
+  "caso": "super_rigi",
+  "condicion": "TC",
+  "modelo": "qwen3.8-max",
+  "modelo_respondido": [
+    "qwen/qwen3.8-max-0902",
+    "qwen/qwen3.8-max-0902"
+  ],
+  "repeticion": 1,
+  "fecha_utc": "2026-09-16T20:50:52+00:00",
+  "consignas_md5": "e24bcf64",
+  "fuentes_md5": {
+    "texto": "f7ce2e05",
+    "contexto": "bdd9152d"
+  },
+  "motivo_fin": [
+    "stop",
+    "stop"
+  ],
+  "tokens_salida": [
+    8211,
+    6163
+  ],
+  "turno3": {
+    "fecha_utc": "2026-09-16T20:50:52+00:00",
+    "modelo_respondido": "qwen/qwen3.8-max-0902",
+    "motivo_fin": "stop",
+    "tokens_salida": 1078,
+    "consignas_md5": "e24bcf64",
+    "agregado_despues": false
+  }
+}
