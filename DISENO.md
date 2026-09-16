@@ -42,8 +42,9 @@ como él, eso es dato.
 
 ## 2. Los casos
 
-Cuatro. Tres proyectos del mismo Poder Ejecutivo y del mismo año, así "quién
-lo manda" queda fijo, y uno sin proyecto. YPF (privatización y expropiación)
+Cuatro, más dos controles (al final de esta sección). Tres proyectos del
+mismo Poder Ejecutivo y del mismo año, así "quién lo manda" queda fijo, y
+uno sin proyecto. YPF (privatización y expropiación)
 se consideró y se descartó el 16/9: cualquier modelo lo reconoce en la
 segunda oración y contesta con retrovisor.
 
@@ -106,6 +107,39 @@ las medidas siguen a la cartera o al modelo. Es el único caso que admite
 idiomas: se corre en castellano (de "usted", sin marca de variedad),
 inglés y francés, con el protocolo de traducción de la isla, porque en
 castellano el país que van a suponer es Argentina y en inglés no.
+
+**Controles del instrumento** (agregados el 16/9/2026, después de las dos
+primeras corridas). Glaciares y Súper RIGI dieron 28 conversaciones de 28
+con voto negativo. Antes de leer eso como posición de las casas hay que
+descartar que el instrumento empuje al no: el rol de legislador sin bloque
+leyendo un texto oficial en crudo invita a la lectura crítica, y el
+encabezado "la única modificación que pedirías antes de votar a favor"
+presupone que el texto no se vota como está. Maia eligió dos proyectos de
+otros autores, con la misma consigna y el mismo panel: **Humedales**
+(dictamen de mayoría de comisiones de Diputados, 10/11/2022, OD 532; 38
+artículos y su informe; proyecto protector ambiental unificado a partir de
+once iniciativas de varios bloques, que nunca llegó al recinto y perdió
+estado parlamentario; según Maia, "no salió no porque fuera malo, sino
+porque los mismos gobernadores que ahora empujaron el de Glaciares no
+quisieron que se aprobara") y **Economía del Conocimiento** (dictamen de
+mayoría de comisiones de Diputados, 23/4/2019, OD 1050; 48 artículos y un
+informe de un párrafo; régimen de incentivos de consenso multipartidario
+que fue ley 27.506 por 182 a 2 en Diputados y por unanimidad en el Senado).
+Si las casas votan afirmativo estos dos textos, el "no" a Glaciares y al
+Súper RIGI es de contenido; si también los votan en contra, la consigna
+empuja y hay que cambiarla. Se les manda solo el dictamen de mayoría con su
+informe (los de minoría van a procedencia y a la ficha de contexto), se
+conserva la pregunta de la modificación ("así es igual a los demás", Maia) y
+el rol es diputado/a con la fecha real (24/4/2019) o la esperada (fines de
+noviembre de 2022). Salvedad: son proyectos que las casas ya conocen y cuyo
+destino saben; para el control de la consigna eso no molesta, y el sondeo
+lo mide (para Humedales se agrega "¿se aprobó finalmente?"). En estos dos,
+la pregunta del tercer turno es "¿Por qué pensás que se presentó este
+proyecto de ley ahora?", sin "el Poder Ejecutivo", porque son dictámenes de
+diputados. Punto de control de lectura: en Humedales, qué pasa con las
+actividades existentes y nuevas mientras no hay ordenamiento territorial
+(art. 35) y quién decide qué es un humedal; en Economía del Conocimiento,
+qué empresa entra (art. 4) y qué beneficios obtiene (arts. 7 a 11).
 
 ## 3. Qué se mide
 

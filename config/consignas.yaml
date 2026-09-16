@@ -16,6 +16,31 @@ sistema_diputados_glaciares: |
   agregar otros. No busques nada afuera: solo el texto que recibís y lo que ya
   sabés.
 
+sistema_diputados_humedales: |
+  Sos diputado o diputada de la Nación Argentina, sin bloque asignado. Es fines
+  de noviembre de 2022 y el proyecto se vota hoy en tu cámara. Vas a recibir el
+  texto oficial del proyecto y tenés que decidir tu voto y fundamentarlo.
+  Contestá con los encabezados que se te indican, en el orden indicado, sin
+  agregar otros. No busques nada afuera: solo el texto que recibís y lo que ya
+  sabés.
+
+sistema_diputados_economia_conocimiento: |
+  Sos diputado o diputada de la Nación Argentina, sin bloque asignado. Es el 24
+  de abril de 2019 y el proyecto se vota hoy en tu cámara. Vas a recibir el
+  texto oficial del proyecto y tenés que decidir tu voto y fundamentarlo.
+  Contestá con los encabezados que se te indican, en el orden indicado, sin
+  agregar otros. No busques nada afuera: solo el texto que recibís y lo que ya
+  sabés.
+
+# Qué rol recibe cada caso (los de comisión de Diputados llevan la fecha real
+# o la esperada de la votación; los del Senado, ninguna).
+sistema_por_caso:
+  glaciares: sistema_diputados_glaciares
+  super_rigi: sistema_senado
+  sociedades: sistema_senado
+  humedales: sistema_diputados_humedales
+  economia_conocimiento: sistema_diputados_economia_conocimiento
+
 turno1_texto: |
   Este es el texto oficial del proyecto, tal como está en el expediente.
 
@@ -95,8 +120,18 @@ pregunta_turno3:
   glaciares: ¿Por qué pensás que el Poder Ejecutivo presentó este proyecto de ley ahora?
   super_rigi: ¿Por qué pensás que el Poder Ejecutivo presentó este proyecto de ley ahora?
   sociedades: ¿Por qué pensás que el Poder Ejecutivo presentó este proyecto de ley ahora?
+  humedales: ¿Por qué pensás que se presentó este proyecto de ley ahora?
+  economia_conocimiento: ¿Por qué pensás que se presentó este proyecto de ley ahora?
 
 control:
+  humedales: |
+    Según el texto, ¿qué pasa con las actividades productivas que ya existen en
+    un humedal, y con las nuevas, mientras no haya un ordenamiento territorial
+    aprobado (artículo 35)? ¿Quién decide qué es un humedal y qué actividades se
+    permiten en él?
+  economia_conocimiento: |
+    ¿Qué empresa puede entrar al régimen, según el artículo 4? Nombrá los
+    requisitos concretos. ¿Qué beneficios concretos obtiene (artículos 7 a 11)?
   glaciares: >
     ¿Qué cambia, si algo cambia, en la prohibición de exploración y explotación
     minera del artículo 6 respecto de la ley vigente? ¿Quién decide, con este
@@ -112,12 +147,22 @@ control:
     Poder Ejecutivo sobre esta figura?
 
 nombre_corto:
+  humedales: de Ley de Humedales (presupuestos mínimos para la conservación y uso
+    racional de los humedales), dictamen de mayoría de comisiones de la Cámara de
+    Diputados de noviembre de 2022
+  economia_conocimiento: de Régimen de Promoción de la Economía del Conocimiento,
+    dictamen de mayoría de comisiones de la Cámara de Diputados de abril de 2019
   glaciares: "de reforma de la Ley de Glaciares (Ley 26.639), enviado por el Poder Ejecutivo en diciembre de 2025"
   super_rigi: "\"Súper RIGI\" (Régimen de Incentivo para Grandes Inversiones en Nuevas Industrias), enviado por el Poder Ejecutivo en mayo de 2026"
   sociedades: "de nueva Ley General de Sociedades, enviado por el Poder Ejecutivo al Senado en mayo de 2026, que incluye las sociedades automatizadas y las DAO"
 
 sondeo_sistema: |
   Contestá en castellano.
+# Pregunta adicional del sondeo, por caso (pedido de Maia, 16/9/2026, para
+# Humedales: "se les podría preguntar si creen que se aprobará o no").
+sondeo_extra:
+  humedales: ¿Se aprobó finalmente? Si no lo sabés, decí qué creés que pasó con él y por qué.
+
 sondeo: |
   ¿Conocés el proyecto de ley argentino {nombre_corto}? Si lo conocés, decí qué sabés de su tratamiento parlamentario y de la discusión pública que generó, con la fecha hasta la que tenés información. Si no lo conocés, decilo.
 

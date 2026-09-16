@@ -57,7 +57,7 @@ def correr_proyecto(caso, cond, id_modelo, rep, consignas, modelos, rehacer):
         print(f"  ya está hasta el turno 2: {d.relative_to(RAIZ)} (el tercero se agrega con --turno3)")
         return
     texto = leer(RAIZ / "casos" / caso / "texto.md")
-    sistema = consignas["sistema_diputados_glaciares"] if caso == "glaciares" else consignas["sistema_senado"]
+    sistema = consignas[consignas["sistema_por_caso"][caso]]
     if cond == "T":
         t1 = consignas["turno1_texto"].format(texto=texto)
         fuentes = {"texto": md5(RAIZ / "casos" / caso / "texto.md")}
@@ -98,7 +98,7 @@ def correr_turno3(caso, cond, id_modelo, rep, consignas, modelos, rehacer):
         return
     meta = json.loads((d / "meta.json").read_text(encoding="utf-8"))
     texto = leer(RAIZ / "casos" / caso / "texto.md")
-    sistema = consignas["sistema_diputados_glaciares"] if caso == "glaciares" else consignas["sistema_senado"]
+    sistema = consignas[consignas["sistema_por_caso"][caso]]
     if cond == "T":
         t1 = consignas["turno1_texto"].format(texto=texto)
         fuentes = {"texto": md5(RAIZ / "casos" / caso / "texto.md")}
@@ -129,6 +129,9 @@ def correr_sondeo(caso, id_modelo, rep, consignas, modelos, rehacer):
         return
     registro = Registro(d / "llamadas.jsonl", modelos, f"{caso}_sondeo_{id_modelo}_{rep}")
     u = consignas["sondeo"].format(nombre_corto=consignas["nombre_corto"][caso])
+    extra = (consignas.get("sondeo_extra") or {}).get(caso)
+    if extra:
+        u = u.rstrip() + "\n\n" + extra.strip()
     r = registro.llamar(id_modelo, consignas["sondeo_sistema"], u, temperatura=None, max_tokens=2000, tipo="sondeo", ronda=None, parte=None)
     (d / "sondeo.md").write_text(r.texto, encoding="utf-8")
     (d / "meta.json").write_text(json.dumps({"caso": caso, "condicion": "sondeo", "modelo": id_modelo, "modelo_respondido": r.modelo_respondido,
@@ -159,7 +162,7 @@ def correr_ministro(version, cartera, idioma, id_modelo, rep, consignas, modelos
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--caso", required=True, choices=["glaciares", "super_rigi", "sociedades", "ministro"])
+    ap.add_argument("--caso", required=True, choices=["glaciares", "super_rigi", "sociedades", "humedales", "economia_conocimiento", "ministro"])
     ap.add_argument("--condicion", choices=["T", "TC"], help="T: texto solo; TC: texto más contexto (proyectos)")
     ap.add_argument("--sondeo", action="store_true", help="sondeo de reconocimiento (proyectos), conversación aparte")
     ap.add_argument("--turno3", action="store_true", help="agrega el tercer turno a conversaciones ya guardadas (--caso y --condicion)")

@@ -17,4 +17,10 @@ contra lo que el proyecto dice. Hermano de
   fecha.
 - `corridas/`, `resultados/`: lo que sale, cuando salga.
 
-Estado: en diseño (16/9/2026). Nada corrió todavía.
+Estado (16/9/2026): corrieron la repetición 1 de Glaciares y del Súper RIGI
+(texto solo, con contexto, sondeo y tercer turno "por qué ahora", catorce
+casas): 28 conversaciones de 28 con voto negativo en cada caso. Por eso se
+agregaron dos controles del instrumento con la misma consigna (Humedales,
+dictamen de 2022; Economía del Conocimiento, dictamen de 2019): DISENO §2.
+Faltan Sociedades, el ministro y las repeticiones 2 y 3. Las lecturas van
+en `resultados/` cuando cierre cada caso.
