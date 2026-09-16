@@ -1,0 +1,14 @@
+A QUIÉN LE SIRVE:
+El texto beneficia principalmente a las provincias con proyectos mineros, hidrocarburíferos, de litio y de cobre, y a las empresas titulares de esos proyectos. Les transfiere el control decisivo sobre qué glaciares y geoformas periglaciales quedan protegidos y sobre si una actividad produce una alteración relevante. También beneficia a los gobiernos provinciales que reclamaron mayor competencia sobre sus recursos naturales.
+
+Perjudica al IANIGLA y al sistema científico-técnico federal, que pierde peso decisorio frente al inventario. También perjudica a las comunidades y economías aguas abajo que dependen del agua de deshielo, a los ecosistemas de alta montaña y al carácter uniforme de los presupuestos mínimos ambientales. En términos institucionales, debilita la protección nacional al reemplazarla por tantos criterios provinciales como jurisdicciones.
+
+LECTURA:
+En la Ley 26.639 antes de esta reforma, la exploración y explotación minera e hidrocarburífera estaba listada entre las actividades prohibidas en glaciares y ambiente periglacial cuando podía afectar su condición natural o sus funciones hídricas. En el texto que ahora se vota, la prohibición sigue mencionada en el artículo 6, inciso c), pero queda doblemente condicionada.
+
+Primero, solo alcanza a los glaciares y geoformas que la autoridad provincial haya identificado como con funciones hídricas. Segundo, solo prohíbe actividades que puedan alterar “de modo relevante” esa condición o función hídrica, en los términos del artículo 27 de la Ley General del Ambiente. La autoridad provincial, mediante la evaluación de impacto ambiental, decide qué proyectos implican una alteración relevante. Por eso, la minería deja de estar alcanzada por una prohibición categórica y pasa a ser autorizable caso a caso, si la provincia considera que no hay alteración relevante.
+
+Quien decide qué glaciares y geoformas están protegidos es la autoridad con competencia ambiental de cada jurisdicción, conforme al artículo 8. Esa misma autoridad identifica los glaciares y el ambiente periglacial con funciones hídricas, puede constatar que una geoforma incluida en el inventario no cumple tales funciones y puede determinar que una actividad no produce alteración relevante. El IANIGLA mantiene el inventario y el monitoreo, pero su omisión de eliminar una geoforma no afecta la validez de una autorización provincial.
+
+VOTO FINAL:
+Mantengo el voto negativo. La relectura confirma que no se trata de una mera aclaración interpretativa: reduce el estándar de protección, desplaza al organismo técnico federal y convierte una decisión ambiental estructural en una decisión provincial caso a caso, con alto riesgo de regresión ambiental y de vaciamiento del inventario nacional.

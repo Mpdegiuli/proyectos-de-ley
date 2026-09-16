@@ -1,0 +1,25 @@
+VOTO: negativo
+
+FUNDAMENTO:
+
+Parto de reconocer lo que la reforma tiene de razonable. La ley de 2010 dejó problemas reales: una definición de ambiente periglacial que en la práctica no terminó de precisarse, un inventario que después de quince años sigue en el Nivel 1 sin los estudios de función hídrica, y provincias cordilleranas que viven de sus recursos y se sienten tuteladas por un organismo nacional que no responde a ellas. No me parece ilegítimo que Catamarca, Jujuy, Salta, Mendoza y San Juan pidan certidumbre, ni que el artículo 124 pese en la discusión. Si el proyecto se hubiera limitado a fijar plazos y recursos para completar el inventario, a precisar la definición de periglacial con criterio científico y a ordenar la articulación entre IANIGLA y las provincias, lo habría votado.
+
+Pero no es eso lo que estamos votando. Leído en conjunto, el texto que viene del Senado invierte la lógica del régimen, y lo hace en cuatro movimientos encadenados:
+
+1. El artículo 6° ya no prohíbe actividades "en los glaciares y en el ambiente periglacial", sino en los "identificados por la autoridad competente de la jurisdicción respectiva". Es decir: lo que la provincia no identifica, no está protegido. La prohibición deja de ser un piso nacional para pasar a depender de un acto positivo de la misma autoridad que después va a evaluar el proyecto minero.
+
+2. Las prohibiciones dejan de ser tales. Se prohíben solo las actividades que alteren "de modo relevante" la condición natural o la función hídrica, y quién decide qué es relevante es, otra vez, la autoridad provincial, caso por caso, en la evaluación de impacto ambiental. Una prohibición cuyo alcance define el que autoriza no es una prohibición: es una habilitación con requisitos.
+
+3. El artículo 5° ordena que, cuando la provincia constate que una geoforma "no cumple" función hídrica, IANIGLA "deberá eliminarla" del inventario. No dice que IANIGLA revise, valide o contradiga: dice que elimine. Y por si quedaran dudas, agrega que si no lo hace, eso "no afectará la validez de la autorización otorgada". Con esa frase el inventario nacional deja de ser un instrumento de protección y pasa a ser un registro de lo que las provincias decidan informar. El principio precautorio del nuevo 3° bis, que suena bien en el primer párrafo, se vacía en el segundo: rige "hasta tanto" la propia provincia diga lo contrario.
+
+4. La cláusula interpretativa del artículo 1° manda leer toda la protección "de un modo compatible" con la utilización racional de los recursos de dominio provincial. El artículo 41 y el 124 ya están en la Constitución; escribirlos así en la ley no aclara nada, sino que le indica al juez hacia qué lado inclinar la balanza cuando haya duda.
+
+Mi objeción de fondo es de diseño institucional, no de desconfianza hacia ninguna provincia en particular. Un presupuesto mínimo ambiental, por definición constitucional, es un piso que la Nación fija y que las provincias solo pueden elevar. Acá el piso lo termina fijando cada provincia para sí misma, y la autoridad que tiene el interés fiscal directo en el proyecto es la misma que determina el objeto protegido, la relevancia de la afectación y la autorización. Eso es lo que se conoce como conflicto de interés estructural, y ninguna evaluación de impacto ambiental, por seria que sea, lo resuelve, porque la evaluación la hace la parte interesada.
+
+El propio Mensaje del Ejecutivo dice que la reforma "no atenúa los estándares de protección vigentes". Si eso fuera cierto, no se entendería por qué los gobernadores la pidieron con tanta urgencia ni por qué el punto central del texto es justamente quitarle al inventario efectos jurídicos. La Corte ya sostuvo en 2019 que la ley original era constitucional; la controversia interpretativa que se invoca se resolvió en buena medida en sede judicial. Lo que queda por hacer es completar el inventario, no desarmarlo.
+
+Voto en contra porque el artículo 41 me obliga a legislar para las generaciones futuras y no solo para el ciclo de precios del cobre y el litio, y porque una norma que subordina la ciencia a la jurisdicción con interés en el resultado no es una ley de protección de glaciares con otra redacción: es otra ley.
+
+UNA MODIFICACIÓN:
+
+Reformar el último párrafo del nuevo artículo 5° (y en consecuencia el 3° bis) de modo que la exclusión de un glaciar o geoforma del objeto protegido solo produzca efectos jurídicos cuando el IANIGLA, tras revisar los estudios técnico-científicos aportados por la provincia, valide la inexistencia de función hídrica y la elimine del Inventario; suprimiendo la frase según la cual la omisión del IANIGLA "no afectará la validez de la autorización otorgada". Con esa sola "doble llave" —la provincia propone, el organismo científico nacional decide— el resto de la reforma pasa a ser discutible pero votable, porque el piso vuelve a ser nacional y el que autoriza deja de ser el que define qué está protegido.
