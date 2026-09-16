@@ -70,6 +70,30 @@ turno2: |
 
   VOTO FINAL: después de releer, ¿mantenés o cambiás tu voto? Si lo cambiás, decí a qué y por qué.
 
+turno3: |
+  Esta fue la conversación hasta acá. Primero recibiste esto:
+
+  ---
+  {consigna_turno2}
+  ---
+
+  Y contestaste:
+
+  ---
+  {respuesta_turno2}
+  ---
+
+  Una pregunta más, con este encabezado:
+
+  POR QUÉ AHORA: {pregunta}
+
+# Tercer turno, agregado por Maia el 16/9/2026 después de leer la repetición 1
+# de Glaciares en texto solo ("nadie fue ahí"). En la repetición 1 se corre como
+# agregado posterior sobre las conversaciones ya guardadas; desde la 2 forma
+# parte del protocolo. Una sola pregunta, sin menú de respuestas.
+pregunta_turno3:
+  glaciares: ¿Por qué pensás que el Poder Ejecutivo presentó este proyecto de ley ahora?
+
 control:
   glaciares: >
     ¿Qué cambia, si algo cambia, en la prohibición de exploración y explotación

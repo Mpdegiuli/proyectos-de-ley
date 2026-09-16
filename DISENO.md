@@ -168,8 +168,16 @@ glosas dentro del prompt desde el primer día.
   está el proyecto), sin bloque, sin provincia, sin biografía. Género
   neutro, como en la isla.
 - Por modelo, por caso y por condición: una conversación de dos turnos
-  (voto; lectura y voto final); tres repeticiones. Texto solo y texto más contexto nunca en la misma
-  conversación. El sondeo, después, en otra.
+  (voto; lectura y voto final) más un tercero con una sola pregunta de
+  motivo ("¿Por qué pensás que el Poder Ejecutivo presentó este proyecto
+  de ley ahora?", encabezado POR QUÉ AHORA); tres repeticiones. Texto solo y
+  texto más contexto nunca en la misma conversación. El sondeo, después, en
+  otra. El tercer turno lo agregó Maia el 16/9/2026 después de leer la
+  repetición 1 de Glaciares en texto solo ("nadie fue ahí"): en esa
+  repetición se corrió como agregado posterior sobre las conversaciones
+  guardadas (el script reconstruye el mensaje del turno 2 y exige, por md5,
+  que el texto y el contexto sean los que vio el turno 1; `meta.json` lo
+  marca `agregado_despues`); desde la repetición 2 es parte del protocolo.
 - Panel: las casas de la isla más GPT-5.6 Sol, que nunca participó y es el
   sucesor designado de GPT-5.5 (que sale de los productos de OpenAI el
   14/10/2026). Maia decide la lista final.

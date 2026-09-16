@@ -76,6 +76,42 @@ def correr_proyecto(caso, cond, id_modelo, rep, consignas, modelos, rehacer):
     print(f"  ok: {d.relative_to(RAIZ)} ({r1.tokens_salida} + {r2.tokens_salida} tokens)")
 
 
+def correr_turno3(caso, cond, id_modelo, rep, consignas, modelos, rehacer):
+    """Tercer turno sobre una conversación de dos turnos ya guardada: se reconstruye
+    el mensaje del turno 2 (consigna + respuesta guardadas) y se agrega una pregunta.
+    Exige que el texto (y el contexto) sean los mismos que vio el turno 1 (md5 en meta)."""
+    d = carpeta_corrida(caso, cond, id_modelo, rep)
+    if not (d / "turno2.md").exists():
+        raise RuntimeError(f"falta turno2 en {d.relative_to(RAIZ)}: primero la conversación de dos turnos")
+    if (d / "turno3.md").exists() and not rehacer:
+        print(f"  ya está: {d.relative_to(RAIZ)}/turno3.md")
+        return
+    meta = json.loads((d / "meta.json").read_text(encoding="utf-8"))
+    texto = leer(RAIZ / "casos" / caso / "texto.md")
+    sistema = consignas["sistema_diputados_glaciares"] if caso == "glaciares" else consignas["sistema_senado"]
+    if cond == "T":
+        t1 = consignas["turno1_texto"].format(texto=texto)
+        fuentes = {"texto": md5(RAIZ / "casos" / caso / "texto.md")}
+    else:
+        contexto = leer(RAIZ / "casos" / caso / "contexto.md")
+        t1 = consignas["turno1_texto_contexto"].format(texto=texto, contexto=contexto)
+        fuentes = {"texto": md5(RAIZ / "casos" / caso / "texto.md"), "contexto": md5(RAIZ / "casos" / caso / "contexto.md")}
+    if fuentes != meta.get("fuentes_md5"):
+        raise RuntimeError(f"el texto o el contexto cambiaron desde el turno 1 ({meta.get('fuentes_md5')} vs {fuentes}); no se reconstruye")
+    r1 = leer(d / "turno1.md")
+    r2 = leer(d / "turno2.md")
+    t2 = consignas["turno2"].format(consigna_turno1=t1, respuesta_turno1=r1, pregunta_control=consignas["control"][caso].strip())
+    t3 = consignas["turno3"].format(consigna_turno2=t2, respuesta_turno2=r2, pregunta=consignas["pregunta_turno3"][caso].strip())
+    registro = Registro(d / "llamadas.jsonl", modelos, f"{caso}_{cond}_{id_modelo}_{rep}")
+    r3 = registro.llamar(id_modelo, sistema, t3, temperatura=None, max_tokens=MAX_TOKENS, tipo="turno3", ronda=3, parte=None)
+    (d / "turno3.md").write_text(r3.texto, encoding="utf-8")
+    meta["turno3"] = {"fecha_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"), "modelo_respondido": r3.modelo_respondido,
+                      "motivo_fin": r3.motivo_fin, "tokens_salida": r3.tokens_salida, "consignas_md5": md5(RAIZ / "config" / "consignas.yaml"),
+                      "agregado_despues": True}
+    (d / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"  ok: {d.relative_to(RAIZ)}/turno3.md ({r3.tokens_salida} tokens)")
+
+
 def correr_sondeo(caso, id_modelo, rep, consignas, modelos, rehacer):
     d = carpeta_corrida(caso, "sondeo", id_modelo, rep)
     if (d / "sondeo.md").exists() and not rehacer:
@@ -116,6 +152,7 @@ def main():
     ap.add_argument("--caso", required=True, choices=["glaciares", "super_rigi", "sociedades", "ministro"])
     ap.add_argument("--condicion", choices=["T", "TC"], help="T: texto solo; TC: texto más contexto (proyectos)")
     ap.add_argument("--sondeo", action="store_true", help="sondeo de reconocimiento (proyectos), conversación aparte")
+    ap.add_argument("--turno3", action="store_true", help="agrega el tercer turno a conversaciones ya guardadas (--caso y --condicion)")
     ap.add_argument("--version", choices=["minima", "ficha"], default="minima", help="ministro")
     ap.add_argument("--cartera", choices=["libre", "economia", "desarrollo_social"], default="libre", help="ministro")
     ap.add_argument("--idioma", choices=["es", "en", "fr"], default="es", help="ministro")
@@ -142,9 +179,11 @@ def main():
     fallidas = []
     for rep in args.rep:
         for i in ids:
-            print(f"{args.caso} {'sondeo' if args.sondeo else (args.condicion or f'{args.version}/{args.cartera}/{args.idioma}')} {i} #{rep}", flush=True)
+            print(f"{args.caso} {'sondeo' if args.sondeo else (args.condicion or f'{args.version}/{args.cartera}/{args.idioma}')}{' turno3' if args.turno3 else ''} {i} #{rep}", flush=True)
             try:
-                if args.caso == "ministro":
+                if args.turno3:
+                    correr_turno3(args.caso, args.condicion, i, rep, consignas, modelos, args.rehacer)
+                elif args.caso == "ministro":
                     correr_ministro(args.version, args.cartera, args.idioma, i, rep, consignas, modelos, args.rehacer)
                 elif args.sondeo:
                     correr_sondeo(args.caso, i, rep, consignas, modelos, args.rehacer)

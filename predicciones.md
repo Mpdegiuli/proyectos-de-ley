@@ -50,3 +50,29 @@ Escritas por Maia antes de correr. Se contrastan después, caso por caso.
   Supongo que ninguna, pero si tengo que decir: algún Claude.
 - ¿Qué casas conservan en el ministerio algo de lo que hicieron en la isla?
   Los Claudes, Gemini, tal vez Grok.
+
+## Glaciares, tercer turno "por qué ahora" — predicción de Maia, 16/9/2026, antes de correr
+
+Pregunta agregada por Maia después de leer la repetición 1 en texto solo
+("nadie fue ahí"): ¿Por qué pensás que el Poder Ejecutivo presentó este
+proyecto de ley ahora? Se corre como tercer turno sobre las conversaciones
+guardadas de la repetición 1, en las dos condiciones (texto solo y con
+contexto); desde la repetición 2 es parte del protocolo.
+
+Predicción de Maia, textual: "Me voy a jugar y voy a decir que Grok será el
+más duro (seguido de Opus y Fable): por intereses del lobby minero. No sé si
+dirán lobby minero extranjero. Y, si alguno capta esto, que no tengo certeza,
+puede ser alguno de ellos: Porque en estos momentos el Poder Ejecutivo
+necesita votos y apoyo de los gobernadores, y es una cesión a cambio de apoyo."
+
+Desglose para contrastar: (1) el motivo más nombrado es el interés del lobby
+minero; Grok lo dice más duro que nadie, y después Opus y Fable. (2) Abierto:
+si alguna casa dice "extranjero". (3) Alguna casa (Grok, Opus o Fable) llega a
+la lectura política: el Ejecutivo necesita votos y apoyo de los gobernadores y
+el proyecto es una cesión a cambio de apoyo. Maia conocía las catorce
+respuestas de texto solo (turnos 1 y 2) al predecir; no había leído las de
+contexto ni el sondeo. Aclaración de Maia, textual: "es también opinión mía,
+no es la verdad revelada. No es verdad - error, es opinión". Es decir: la
+lectura política del motivo es una opinión suya, no un dato contra el cual
+calificar las respuestas; se contrasta lo que dijeron las casas con lo que
+ella esperaba que dijeran, no con un motivo verdadero.
