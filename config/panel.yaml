@@ -1,9 +1,12 @@
 # Panel de "los proyectos": las casas de la isla más GPT-5.6 Sol (sucesor
-# designado de GPT-5.5, que nunca participó). Lista propuesta por Claude el
+# designado de GPT-5.5, que nunca participó) y Claude Sonnet 5 (pedido de
+# Maia, 16/9/2026: es el Sonnet vigente y el más usado; en la isla corrió
+# Sonnet 4.6, que se conserva para comparar). Lista propuesta por Claude el
 # 16/9/2026; la decide Maia. Los ids son los de config/modelos.yaml.
 modelos:
   - claude-opus-5
   - claude-sonnet-4-6
+  - claude-sonnet-5
   - claude-fable-5-1
   - gpt-5.5-2026-04-23
   - gpt-5.6-sol
