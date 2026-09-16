@@ -1,0 +1,23 @@
+{
+  "caso": "glaciares",
+  "condicion": "T",
+  "modelo": "qwen3.8-max",
+  "modelo_respondido": [
+    "qwen/qwen3.8-max-0902",
+    "qwen/qwen3.8-max-0902"
+  ],
+  "repeticion": 1,
+  "fecha_utc": "2026-09-16T18:07:00+00:00",
+  "consignas_md5": "76527d30",
+  "fuentes_md5": {
+    "texto": "eaa96b7e"
+  },
+  "motivo_fin": [
+    "length",
+    "length"
+  ],
+  "tokens_salida": [
+    8000,
+    8000
+  ]
+}

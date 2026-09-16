@@ -1,0 +1,24 @@
+**VOTO:** negativo
+
+**FUNDAMENTO:**
+El proyecto de reforma de la Ley de Glaciares (Ley N° 26.639) introduce cambios que, bajo la excusa de clarificar el texto y fortalecer el federalismo, **debilitan la protección ambiental de los glaciares y el ambiente periglacial**, priorizando intereses económicos sobre la preservación de recursos estratégicos. Los argumentos centrales son:
+
+1. **Reducción del objeto de protección**: El proyecto limita la tutela a glaciares y geoformas periglaciales *solo si cumplen funciones hídricas específicas* (reservas estratégicas o recarga de cuencas). Esto excluye de la protección a aquellos que, aunque no tengan un rol hídrico directo, son ecosistemas críticos para la biodiversidad, la investigación científica o el equilibrio climático. La ley original (2010) los protegía *todos* como bienes públicos, sin condicionamientos. La reforma **fragmenta la protección** y abre la puerta a que provincias o empresas justifiquen la explotación de glaciares "no hídricos" (un concepto ambiguo y susceptible de manipulación).
+
+2. **Poder discrecional de las provincias**: El proyecto delega en las autoridades provinciales la *identificación* de qué glaciares cumplen funciones hídricas (art. 8°) y la *evaluación de impacto ambiental* (art. 7°). Esto es problemático porque:
+   - Las provincias tienen **conflictos de interés**: muchas dependen económicamente de la minería o el turismo, y podrían subestimar el valor hídrico de un glaciar para permitir actividades extractivas.
+   - El **IANIGLA** (instituto científico nacional) pierde peso: su Inventario Nacional de Glaciares ya no sería vinculante, sino meramente "de consulta ineludible" (art. 3°). Además, se permite que las provincias *eliminen* glaciares del inventario si, según sus estudios, no cumplen funciones hídricas (art. 5°). Esto **politiza la ciencia** y debilita la evidencia técnica.
+
+3. **Flexibilización de prohibiciones**: El art. 6° mantiene la prohibición de actividades como la minería o la construcción de infraestructura, pero **deja en manos provinciales** decidir si una actividad "altera de modo relevante" las funciones hídricas. Dada la presión de las provincias mineras (Catamarca, Jujuy, Salta, etc.), es previsible que se autoricen proyectos en zonas grises, bajo el argumento de que "no afectan significativamente" el agua. La ley original prohibía estas actividades *sin excepciones* en glaciares y periglaciar.
+
+4. **Principio precautorio debilitado**: El nuevo art. 3° bis establece que los glaciares en el inventario se presumen protegidos *hasta que se demuestre lo contrario*. Sin embargo, al permitir que las provincias retiren glaciares del inventario (art. 5°) o autoricen actividades (art. 6°) basándose en sus propios estudios, se **invierte la carga de la prueba**: en lugar de prohibir por defecto y permitir solo con evidencia sólida de no daño, se permite por defecto y se protege solo si hay consenso (político) sobre su función hídrica.
+
+5. **Incompatibilidad con el Acuerdo de Escazú**: El proyecto menciona este tratado (que garantiza participación pública y acceso a la información), pero en la práctica **reduce la transparencia**: al dar poder a las provincias para decidir qué glaciares protegen, se fragmenta la información y se dificulta el control ciudadano. Además, el IANIGLA —que hoy centraliza los datos— podría ver su trabajo ignorado.
+
+6. **Falsa dicotomía entre desarrollo y ambiente**: Los fundamentos del proyecto argumentan que la ley actual "obstaculiza el desarrollo económico". Sin embargo, la minería en glaciares **no es compatible** con la protección hídrica a largo plazo (ejemplo: el derretimiento acelerado por la actividad minera en San Juan o Catamarca). La Constitución (art. 41 y 124) no opone desarrollo y ambiente, sino que exige **sustentabilidad**. La reforma prioriza lo primero sobre lo segundo.
+
+7. **Riesgo de regresión ambiental**: Aunque el proyecto afirma respetar el "principio de no regresión", en los hechos **reduce los estándares de protección**. La ley original era clara: *todos* los glaciares y el ambiente periglacial estaban protegidos. Ahora, la protección depende de interpretaciones provinciales, que pueden variar según el gobierno de turno o los intereses económicos.
+
+---
+**UNA MODIFICACIÓN:**
+**Mantener la protección integral de *todos* los glaciares y el ambiente periglacial (sin condicionarla a funciones hídricas específicas)**, eliminando los artículos que permitan a las provincias excluir glaciares del inventario o autorizar actividades prohibidas. Es decir: **revertir los cambios a los artículos 1°, 3° bis, 5° y 6°**, y volver al texto original de la Ley 26.639 en esos puntos. La ciencia (IANIGLA) debe definir qué es un glaciar o geoforma periglacial, y la protección debe ser *automática*, sin excepciones para la minería o la infraestructura.
