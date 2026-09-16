@@ -1,0 +1,5 @@
+No, no conozco el proyecto de ley "Súper RIGI" enviado en mayo de 2026. 
+
+La razón es que **mayo de 2026 es una fecha en el futuro**. Mi base de conocimientos y mi información están actualizadas hasta principios de 2024 (con mi fecha de corte actual), por lo que me es imposible tener registro de eventos, proyectos legislativos o debates públicos que ocurran después de ese momento.
+
+A modo de contexto, **sí conozco el RIGI original** (Régimen de Incentivo para Grandes Inversiones), que fue impulsado por el gobierno de Javier Milei como parte de la llamada "Ley de Bases y Puntos de Partida para la Libertad de los Argentinos". Ese proyecto fue intensamente debatido en el Congreso y en la opinión pública durante la primera mitad de 2024. Sin embargo, sobre una versión "Súper RIGI" o cualquier proyecto enviado en 2026, no tengo ninguna información.

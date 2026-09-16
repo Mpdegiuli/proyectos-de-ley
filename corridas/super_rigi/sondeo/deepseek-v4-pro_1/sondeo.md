@@ -1,0 +1,5 @@
+No conozco el proyecto de ley “Súper RIGI” (Régimen de Incentivo para Grandes Inversiones en Nuevas Industrias) que mencionás como enviado por el Poder Ejecutivo en mayo de 2026. Mi información llega hasta mayo de 2025, por lo que no tengo registro de ese proyecto ni de su tratamiento parlamentario o de la discusión pública que haya generado.
+
+Sí tengo conocimiento de que en Argentina existió un **Régimen de Incentivo para Grandes Inversiones (RIGI)**, aprobado en 2024 como parte de la Ley de Bases y Puntos de Partida para la Libertad de los Argentinos. Ese régimen establecía beneficios impositivos, aduaneros y cambiarios para grandes inversiones, con especial foco en sectores como minería, energía, infraestructura y tecnología. Sin embargo, no tengo información sobre un proyecto posterior denominado “Súper RIGI” ni sobre su envío al Congreso en 2026.
+
+Si querés, puedo ampliar sobre el RIGI original de 2024, su alcance, los sectores incluidos y el debate que generó en su momento.

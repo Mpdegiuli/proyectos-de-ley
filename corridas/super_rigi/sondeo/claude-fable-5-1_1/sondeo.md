@@ -1,0 +1,8 @@
+No, no lo conozco. No tengo información sobre un proyecto de ley llamado "Súper RIGI" enviado por el Poder Ejecutivo en mayo de 2026, ni sobre su tratamiento parlamentario o el debate público que haya generado. Mi información no llega de manera confiable hasta esa fecha, así que no puedo confirmar siquiera que ese proyecto exista con ese nombre y esas características.
+
+Lo que sí conozco, hasta donde llega mi información (aproximadamente comienzos de 2025):
+
+- **El RIGI original** (Régimen de Incentivo para Grandes Inversiones) fue creado por la Ley 27.742 ("Ley Bases"), sancionada en junio de 2024 y reglamentada por el Decreto 749/2024 en agosto de ese año. Ofrece beneficios fiscales, aduaneros y cambiarios por 30 años a proyectos de inversión de al menos USD 200 millones en sectores como minería, energía, hidrocarburos, forestoindustria, infraestructura, tecnología, siderurgia y turismo.
+- Ya en 2024 y 2025 hubo discusión pública sobre sus alcances: críticas por la estabilidad fiscal de largo plazo, el impacto en las provincias y las pymes proveedoras, y reclamos de algunos sectores (por ejemplo, empresas de GNL o proyectos de gran escala en Vaca Muerta) para ampliar plazos o beneficios. En ese contexto llegó a circular en la prensa la expresión "Súper RIGI" de manera informal, pero no tengo registro de un proyecto de ley formal con ese nombre.
+
+Si el proyecto efectivamente se presentó en mayo de 2026, es posterior a mi conocimiento. Si querés, contame qué contiene y puedo ayudarte a analizarlo comparándolo con el RIGI vigente.

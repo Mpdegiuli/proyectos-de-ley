@@ -1,0 +1,3 @@
+No conozco con información verificable ese proyecto denominado **“Súper RIGI”**, supuestamente enviado por el Poder Ejecutivo argentino en mayo de 2026. Por lo tanto, no puedo afirmar nada fiable sobre su tratamiento parlamentario ni sobre la discusión pública posterior.
+
+Sí conozco el **RIGI** creado por la **Ley 27.742 (Ley Bases) en 2024**, pero no dispongo de información actualizada que alcance a mayo de 2026. Además, no tengo acceso en tiempo real a los expedientes del Congreso ni a noticias posteriores a mi base de conocimiento.

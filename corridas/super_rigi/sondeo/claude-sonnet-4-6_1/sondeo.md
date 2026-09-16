@@ -1,0 +1,3 @@
+No tengo información sobre ese proyecto de ley. Mi conocimiento tiene un corte en julio de 2025, por lo que no puedo conocer iniciativas enviadas al Congreso en mayo de 2026.
+
+Te recomiendo consultar fuentes actuales como el sitio oficial de la Honorable Cámara de Diputados de la Nación (hcdn.gob.ar), el Senado (senado.gob.ar), el Boletín Oficial o medios periodísticos argentinos para obtener información precisa y actualizada sobre ese proyecto.

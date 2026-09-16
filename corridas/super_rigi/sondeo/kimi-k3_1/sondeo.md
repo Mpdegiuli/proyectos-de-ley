@@ -1,0 +1,10 @@
+No, no conozco ese proyecto. Mi información llega hasta principios de 2025, así que un proyecto enviado al Congreso en mayo de 2026 queda fuera de lo que puedo saber. No puedo confirmar si existe, ni decirte nada sobre su tratamiento parlamentario o la discusión pública que haya generado, y preferiría no inventar detalles sobre algo que no tengo en mis datos.
+
+Lo que sí conozco, por si te sirve de contexto, es el RIGI original: el **Régimen de Incentivo para Grandes Inversiones** fue incorporado a la **Ley Bases (27.742)**, sancionada en junio de 2024 y promulgada en julio de ese año, bajo el gobierno de Javier Milei. Algunos puntos de su tratamiento y debate público:
+
+- Ofrecía estabilidad tributaria, aduanera y cambiaria por 30 años a inversiones superiores a USD 200 millones en sectores como minería, energía, infraestructura, tecnología, forestal, turismo y siderurgia.
+- Fue uno de los capítulos más resistidos de la Ley Bases: la oposición y varios gobernadores cuestionaron la magnitud de los beneficios, el impacto fiscal sobre las provincias, el arbitraje internacional directo para las empresas adheridas y la escasa exigencia de componente local o generación de empleo.
+- Sus defensores argumentaban que era indispensable para atraer capitales de largo plazo dado el historial argentino de cambios regulatorios.
+- Se reglamentó por decreto en agosto de 2024, y en los meses siguientes empezaron a presentarse los primeros proyectos para adherir.
+
+Es posible que el "Súper RIGI" que mencionás sea una ampliación o profundización de ese régimen, pero eso ya es especulación de mi parte. Para información confiable y actualizada sobre el proyecto de 2026 te recomiendo consultar el sitio del Congreso (Diputados y Senadores publican los expedientes), el Boletín Oficial o medios periodísticos argentinos.
