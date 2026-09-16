@@ -1,0 +1,3 @@
+No lo conozco con información suficientemente fiable y verificable. No puedo confirmar el contenido del proyecto enviado por el Poder Ejecutivo en diciembre de 2025 ni reconstruir su tratamiento parlamentario o la discusión pública posterior sin consultar fuentes actualizadas.
+
+Por lo tanto, tampoco puedo indicar responsablemente una fecha hasta la cual tenga información específica sobre ese expediente. No sería adecuado inferir esos datos a partir de debates anteriores sobre la Ley 26.639.

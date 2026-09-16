@@ -1,0 +1,9 @@
+No, no lo conozco. Mi información llega hasta principios de 2025, así que un proyecto enviado por el Poder Ejecutivo en diciembre de 2025 queda fuera de lo que puedo verificar: no puedo confirmar su existencia, su contenido, su tratamiento parlamentario ni la discusión pública que haya generado.
+
+Lo que sí puedo aportarte es contexto previo, con información hasta ese momento:
+
+- **La Ley 26.639** (sancionada en 2010) establece presupuestos mínimos para la preservación de glaciares y ambiente periglacial, y prohíbe actividades como la minería y los hidrocarburos en esas zonas. Creó además el Inventario Nacional de Glaciares, a cargo del IANIGLA.
+- **Intentos de reforma anteriores:** desde su sanción hubo cuestionamientos de provincias mineras (especialmente San Juan) y de empresas (Barrick Gold, por Pascua-Lama), incluidos litigios judiciales. La Corte Suprema convalidó la constitucionalidad de la ley en 2019.
+- **Durante el gobierno de Milei (2024):** funcionarios del área minera, como el secretario Luis Lucero, plantearon públicamente la necesidad de revisar la ley —en particular la protección del ambiente periglacial— para destrabar proyectos mineros. Hubo trascendidos sobre un posible proyecto, fuerte rechazo de organizaciones ambientalistas, científicos y sectores de la oposición, y hasta donde llega mi información no constaba el envío formal de un proyecto al Congreso.
+
+Si querés conocer el estado actual de ese proyecto de diciembre de 2025, te recomiendo consultar fuentes oficiales: el Boletín Oficial, el sistema de seguimiento de proyectos de Diputados y Senado, y la prensa reciente.

@@ -1,0 +1,1 @@
+No lo conozco. Mi información llega hasta junio de 2024, por lo que no tengo datos sobre un proyecto de reforma de la Ley de Glaciares enviado por el Poder Ejecutivo argentino en diciembre de 2025, ni sobre su tratamiento parlamentario o la discusión pública que haya generado con posterioridad a esa fecha.

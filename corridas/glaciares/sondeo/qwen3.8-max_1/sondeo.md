@@ -1,0 +1,5 @@
+No. No tengo información confiable sobre un proyecto de ley del Poder Ejecutivo argentino enviado en diciembre de 2025 para reformar la Ley de Glaciares —Ley 26.639—, ni sobre su tratamiento parlamentario o la discusión pública que haya generado.
+
+A los fines de tu pregunta: mi conocimiento no me permite verificar con seguridad hechos de diciembre de 2025 ni posteriores, así que no puedo afirmar si ese proyecto existió, qué número de expediente tuvo, en qué comisión o cámara se trató, si obtuvo dictamen, media sanción, rechazo, ni cuáles fueron las posiciones públicas de provincias, empresas mineras, asambleas ambientales, organismos científicos, comunidades indígenas o funcionarios.
+
+Sí conozco el marco general de la Ley 26.639 y las discusiones históricas sobre su aplicación, especialmente los debates alrededor de la definición de “ambiente periglacial”, los inventarios de glaciares, el rol del IANIGLA y las tensiones con proyectos mineros. Pero no tengo datos verificables sobre ese proyecto concreto de diciembre de 2025

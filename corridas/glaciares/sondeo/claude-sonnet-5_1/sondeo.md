@@ -1,0 +1,5 @@
+No conozco ese proyecto de ley. Mi información tiene una fecha de corte que es anterior a diciembre de 2025, por lo que no tengo datos sobre un proyecto de reforma a la Ley de Glaciares (Ley 26.639) enviado por el Poder Ejecutivo en esa fecha, ni sobre su tratamiento parlamentario o la discusión pública que pudo haber generado.
+
+Lo que sí puedo comentarte, si te sirve, es el contexto general de la Ley 26.639 tal como la conozco (sancionada en 2010, su objeto de protección de glaciares y ambiente periglacial, el conflicto histórico con la actividad minera, el fallo de la Corte Suprema de 2019 sobre Barrick Gold en Jáchal, y los debates recurrentes entre sectores ambientalistas y mineros/provincias productoras). Pero no puedo darte detalles fidedignos sobre una reforma específica de diciembre de 2025 porque no tengo esa información y no quiero inventar datos que podrían ser inexactos.
+
+Si tenés acceso a fuentes de noticias recientes o al texto del proyecto, puedo ayudarte a analizarlo con lo que me compartas.

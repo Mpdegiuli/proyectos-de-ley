@@ -1,0 +1,1 @@
+No, no conozco ese proyecto de ley (ni su tratamiento parlamentario ni la discusión pública que haya generado). No tengo información sobre un envío del Poder Ejecutivo en diciembre de 2025.

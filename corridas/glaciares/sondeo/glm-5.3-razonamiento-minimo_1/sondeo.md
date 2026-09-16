@@ -1,0 +1,5 @@
+No conozco ese proyecto de ley en particular. Mi información llega hasta principios de 2025, por lo que no tengo registro de un proyecto de reforma de la Ley 26.639 (Ley de Presupuestos Mínimos para la Preservación de los Glaciares y del Ambiente Periglacial) enviado por el Poder Ejecutivo en diciembre de 2025, ni de su tratamiento parlamentario o de la discusión pública que hubiera generado.
+
+Lo que sí puedo aportar es contexto: la Ley 26.639, sancionada en 2010, establece presupuestos mínimos para proteger glaciares y ambiente periglacial, y fue históricamente objeto de fuertes debates, especialmente por su impacto en proyectos mineros en zonas de alta montaña (el caso más conocido fue el del proyecto Pascua Lama de Barrick Gold, en San Juan). Reformas o intentos de flexibilizarla suelen generar rechazo de organizaciones ambientalistas, científicos y sectores del peronismo/kirchnerismo, mientras que provincias mineras suelen impulsar cambios.
+
+Si querés, podés compartirme detalles del proyecto y puedo ayudarte a analizarlo o contextualizarlo.
