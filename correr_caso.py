@@ -29,7 +29,9 @@ from isla.proveedores import Registro, cargar_modelos
 from isla.util import leer_yaml
 
 RAIZ = Path(__file__).resolve().parent
-MAX_TOKENS = 8000  # sin tope de palabras: que ninguna respuesta se corte
+MAX_TOKENS = 32000  # sin tope de palabras: que ninguna respuesta se corte. Era 8000 hasta el 16/9/2026:
+# Qwen 3.8 Max y GLM 5.3 lo agotaron razonando y no escribieron nada (corridas_invalidas/). Los 12 válidos de
+# glaciares T rep 1 corrieron con 8000 y ninguno lo tocó (motivo_fin stop/end_turn en las 24 llamadas).
 
 
 def leer(p):

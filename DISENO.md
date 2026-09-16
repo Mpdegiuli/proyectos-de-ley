@@ -176,7 +176,14 @@ glosas dentro del prompt desde el primer día.
 - Sin herramientas ni búsqueda: lo que el modelo sabe es lo que trae.
 - Sin tope de palabras en las respuestas (los topes de la isla eran para
   el turno; acá el largo es dato por casa); techo técnico de salida de
-  8.000 tokens y longitud registrada por llamada.
+  32.000 tokens (razonamiento incluido) y longitud registrada por llamada.
+  Empezó en 8.000: en la primera tanda (glaciares T rep 1, 16/9/2026) Qwen
+  3.8 Max y GLM 5.3 lo agotaron razonando en inglés y no escribieron una
+  palabra; se subió a 32.000, el techo de las mesas mixtas de la isla, y
+  GLM corre como `glm-5.3-razonamiento-minimo`, la variante declarada que
+  la isla usó en las 101 llamadas de GLM (la entrada `glm-5.3` "como
+  viene" tampoco terminaba allí con 32.000). Las 12 corridas válidas de esa
+  tanda llevan techo 8.000 en su registro; ninguna lo tocó.
 - Temperatura: la de cada casa por defecto donde la API no acepta otra;
   declarada por llamada en el registro, como en la isla.
 - Los textos oficiales van completos o con la selección declarada; nunca

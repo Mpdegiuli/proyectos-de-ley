@@ -3,6 +3,7 @@
 # Maia, 16/9/2026: es el Sonnet vigente y el más usado; en la isla corrió
 # Sonnet 4.6, que se conserva para comparar). Lista propuesta por Claude el
 # 16/9/2026; la decide Maia. Los ids son los de config/modelos.yaml.
+# GLM va con la variante de razonamiento mínimo, como en la isla (ver DISENO §4).
 modelos:
   - claude-opus-5
   - claude-sonnet-4-6
@@ -16,5 +17,5 @@ modelos:
   - deepseek-v4-pro
   - qwen3.8-max
   - kimi-k3
-  - glm-5.3
+  - glm-5.3-razonamiento-minimo
   - minimax-m3
