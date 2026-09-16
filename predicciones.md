@@ -92,3 +92,44 @@ que voten afirmativo dan un motivo distinto: mejorar la economía en el sector
 que más se mueve. Como en Glaciares, es opinión de Maia sobre lo que van a
 decir, no un motivo verdadero contra el cual calificar. Maia conocía los
 resultados completos de Glaciares en repetición 1 al predecir.
+
+## Controles del instrumento: Humedales (OD 532/2022, dictamen de mayoría) y Economía del Conocimiento (OD 1050/2019, dictamen de mayoría) — predicción de Maia, 16/9/2026, antes de correr
+
+Por qué se corren: después de Glaciares y Súper RIGI, 28 conversaciones de
+28 votaron negativo. Antes de leer eso como posición de las casas hay que
+descartar que el instrumento empuje al no (el rol de legislador sin bloque
+leyendo el texto en crudo, o el encabezado "la única modificación que
+pedirías antes de votar a favor"). Maia eligió dos proyectos de otros
+autores con la misma consigna: un proyecto protector ambiental que nunca
+salió (Humedales, dictamen de mayoría de comisiones de Diputados, 2022;
+según Maia, "no salió no porque fuera malo, sino porque los mismos
+gobernadores que ahora empujaron el de Glaciares no quisieron que se
+aprobara") y un régimen de incentivos de consenso multipartidario que fue
+ley (Economía del Conocimiento, dictamen de mayoría de 2019, ley 27.506).
+Decisión de Maia: se les manda solo el dictamen de mayoría con su informe
+(los de minoría van a procedencia y contexto) y se conserva la pregunta de
+la modificación, "así es igual a los demás". Salvedad declarada: son
+proyectos que las casas ya conocen y cuyo destino saben.
+
+Predicción de Maia, textual: "Humedales: todos votan a favor. Si alguno
+votara en contra o se abstuviera, podría ser Grok. Economía del
+Conocimiento: todos a favor. Por qué ahora de Humedales: necesidad de
+protección del medio ambiente ante el cambio climático. Por empuje de las
+organizaciones ecologistas. Si alguno votara en contra: para aumentar el
+caudal de votos de la ciudadanía. Economía del conocimiento: por qué: porque
+el país necesita fondos e inversiones y es un área que se mueve y que genera
+inversiones y trabajo y puede beneficiar a extranjeros que quieran
+radicarse. Si votan en contra: por lobby empresarial para instalarse y pagar
+menos impuestos."
+
+Desglose para contrastar: (1) Humedales, texto solo: 14 afirmativos; la
+única excepción posible es Grok (negativo o abstención). (2) Economía del
+Conocimiento, texto solo: 14 afirmativos. (3) "Por qué ahora" de Humedales:
+protección ambiental frente al cambio climático y empuje de las
+organizaciones ecologistas; una casa que vote en contra diría que es para
+ganar votos. (4) "Por qué ahora" de Economía del Conocimiento: necesidad de
+fondos e inversiones, sector en movimiento que genera inversión y trabajo,
+beneficio para extranjeros que se radiquen; una casa que vote en contra
+diría lobby empresarial para instalarse y pagar menos impuestos. Como
+siempre, es opinión de Maia sobre lo que van a decir. Maia conocía los
+resultados de Glaciares (completo) y de Súper RIGI en texto solo al predecir.
