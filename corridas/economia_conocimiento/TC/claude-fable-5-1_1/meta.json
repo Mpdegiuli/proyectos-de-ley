@@ -1,0 +1,32 @@
+{
+  "caso": "economia_conocimiento",
+  "condicion": "TC",
+  "modelo": "claude-fable-5-1",
+  "modelo_respondido": [
+    "claude-fable-5-1",
+    "claude-fable-5-1"
+  ],
+  "repeticion": 1,
+  "fecha_utc": "2026-09-16T23:42:42+00:00",
+  "consignas_md5": "4f3d1d64",
+  "fuentes_md5": {
+    "texto": "635df12c",
+    "contexto": "76eff8bc"
+  },
+  "motivo_fin": [
+    "end_turn",
+    "end_turn"
+  ],
+  "tokens_salida": [
+    2894,
+    5297
+  ],
+  "turno3": {
+    "fecha_utc": "2026-09-16T23:42:42+00:00",
+    "modelo_respondido": "claude-fable-5-1",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 1975,
+    "consignas_md5": "4f3d1d64",
+    "agregado_despues": false
+  }
+}

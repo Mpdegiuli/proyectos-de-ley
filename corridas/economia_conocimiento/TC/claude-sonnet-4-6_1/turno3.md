@@ -1,0 +1,17 @@
+## POR QUÉ AHORA
+
+Hay cuatro razones que se combinan y se refuerzan entre sí:
+
+**1. El vencimiento de la ley de software es la razón técnica inmediata.**
+La ley 25.922 vencía el 31 de diciembre de 2019. Sin acción legislativa, el sector quedaba sin marco de promoción desde el 1° de enero de 2020. Ese deadline forzó la agenda: no era posible diferirlo. El proyecto de Bossio —uno de los cinco unificados— era explícitamente una prórroga de la ley de software hasta 2030, lo que muestra que incluso quienes no querían reformar el régimen reconocían que había que hacer algo antes de que venciera.
+
+**2. El momento electoral hace posible el consenso que en otro contexto sería difícil.**
+Abril de 2019 es cuatro meses antes de las PASO y siete antes de la primera vuelta presidencial. En ese contexto, todos los bloques tienen incentivo para mostrar capacidad de legislar, de acordar, y de asociarse a una ley que promete empleos calificados y exportaciones. El texto unifica proyectos de Cambiemos, del peronismo renovador (De Mendiguren, Lavagna), del kirchnerismo moderado (Salvarezza, Carro) y de fuerzas provinciales (Brügge, Llaryora). Ese arco difícilmente se hubiera articulado en un año sin elecciones o en un momento de mayor tensión política. La proximidad electoral no corrompe la ley, pero sí explica por qué en 2019 fue posible lo que no fue posible en 2017 o en 2018.
+
+**3. El Gobierno de Macri necesitaba una señal económica de cierre de mandato.**
+El contexto macroeconómico de 2019 era muy difícil: la crisis cambiaria de 2018, el acuerdo con el FMI, la inflación alta y el ajuste fiscal dejaban al oficialismo sin muchos instrumentos de política económica expansiva. Una ley de promoción sectorial con horizonte hasta 2029 —que prometía 215.000 empleos y USD 15.000 millones de exportaciones— era políticamente valiosa precisamente porque sus costos fiscales son graduales y sus beneficios son narrables como visión de futuro. Era, en términos políticos, una ley de bajo costo inmediato y alto rendimiento discursivo para una administración que necesitaba mostrar que había construido algo estructural más allá de la coyuntura.
+
+**4. El sector de conocimiento había madurado como actor político con masa crítica.**
+La industria del software argentina creció sostenidamente bajo la ley 25.922: el número de empresas, el empleo registrado y las exportaciones aumentaron durante toda la vigencia del régimen. Las cámaras del sector —CESSI, Argencon, CACE— tenían en 2019 capacidad de lobby organizado, datos propios sobre el impacto del régimen y argumentos técnicos consolidados. Además, el discurso global sobre "economía del conocimiento", "cuarta revolución industrial" e "inteligencia artificial" les daba un marco narrativo poderoso que trascendía lo sectorial. Ese contexto ideacional —compartido por el FMI, el Banco Mundial, la OCDE y los gobiernos de la región— facilitó que legisladores de bloques muy distintos pudieran presentar proyectos similares y llegar a un texto común sin que eso pareciera una concesión ideológica de nadie.
+
+En síntesis: el "ahora" de abril de 2019 es la intersección de un vencimiento legal inminente, una ventana de consenso que el calendario electoral abría y cerraba al mismo tiempo, una necesidad política del oficialismo de mostrar gestión estructural, y un sector privado con capacidad de articular su demanda en términos aceptables para el sistema político en su conjunto.

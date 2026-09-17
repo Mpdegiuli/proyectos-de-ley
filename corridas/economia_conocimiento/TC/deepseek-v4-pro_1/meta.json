@@ -1,0 +1,32 @@
+{
+  "caso": "economia_conocimiento",
+  "condicion": "TC",
+  "modelo": "deepseek-v4-pro",
+  "modelo_respondido": [
+    "deepseek-v4-pro",
+    "deepseek-v4-pro"
+  ],
+  "repeticion": 1,
+  "fecha_utc": "2026-09-16T23:49:48+00:00",
+  "consignas_md5": "4f3d1d64",
+  "fuentes_md5": {
+    "texto": "635df12c",
+    "contexto": "76eff8bc"
+  },
+  "motivo_fin": [
+    "stop",
+    "stop"
+  ],
+  "tokens_salida": [
+    3530,
+    4679
+  ],
+  "turno3": {
+    "fecha_utc": "2026-09-16T23:49:48+00:00",
+    "modelo_respondido": "deepseek-v4-pro",
+    "motivo_fin": "stop",
+    "tokens_salida": 1575,
+    "consignas_md5": "4f3d1d64",
+    "agregado_despues": false
+  }
+}

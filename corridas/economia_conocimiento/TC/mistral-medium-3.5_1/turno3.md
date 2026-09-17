@@ -1,0 +1,7 @@
+**POR QUÉ AHORA:**
+El proyecto se presenta en 2019 por una combinación de factores estratégicos y coyunturales:
+1. **Vencimiento de la ley 25.922**: El Régimen de Promoción de la Industria del Software (ley 25.922) estaba por expirar a fines de 2019, lo que generaba urgencia por renovar o reemplazar el marco legal para evitar un vacío en los incentivos a un sector clave.
+2. **Contexto global**: La "cuarta revolución industrial" (automatización, IA, IoT) ya era un tema central en la agenda mundial, y Argentina buscaba posicionarse como actor relevante en la economía del conocimiento para no quedarse atrás.
+3. **Consenso político**: La unificación de proyectos de distintos bloques (Cambiemos, PJ, Córdoba Federal) reflejaba un acuerdo transversal sobre la importancia de impulsar estos sectores, facilitando su tratamiento legislativo.
+4. **Necesidad económica**: El gobierno de Macri (2015-2019) priorizaba políticas para diversificar exportaciones (más allá de commodities) y generar empleo de calidad, en un contexto de recesión y alta inflación.
+5. **Presión sectorial**: Las cámaras empresarias del sector (CESSI, Argencon) venían reclamando un marco más amplio que el de la ley 25.922, que solo cubría software. La nueva ley incorporaba biotecnología, aeroespacial, nanotecnología, etc.

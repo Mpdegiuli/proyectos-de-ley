@@ -1,0 +1,13 @@
+VOTO: afirmativo
+
+FUNDAMENTO: El proyecto reconoce como política de Estado a un conjunto de actividades con capacidad para generar empleo calificado, innovación, exportaciones y mayor productividad. Además de continuar la promoción del software, incorpora biotecnología, producción audiovisual, nanotecnología, industria aeroespacial y satelital, tecnología nuclear, servicios profesionales exportables e industria 4.0. Esa ampliación resulta razonable porque el conocimiento atraviesa numerosos sectores y no constituye una industria aislada.
+
+El régimen también exige contraprestaciones verificables. Para ingresar, las empresas deben desarrollar principalmente una actividad promovida y cumplir al menos dos requisitos vinculados con calidad, investigación y desarrollo, capacitación o exportaciones. La permanencia se revisa anualmente; existen auditorías, intercambio de información con la AFIP y sanciones que incluyen multas, devolución de tributos, baja e inhabilitación. Asimismo, se facilita el ingreso de microempresas jóvenes y se incentiva especialmente la contratación de doctores.
+
+Valoro también la previsibilidad hasta 2029, la transición para los beneficiarios de la ley de software y el régimen destinado a movilizar financiamiento privado hacia la investigación aplicada en universidades. La articulación entre empresas, universidades y sistema científico puede ayudar a transformar conocimiento producido en el país en bienes, servicios y procesos de mayor valor agregado.
+
+No obstante, el texto presenta riesgos. La estabilidad fiscal es muy amplia, la alícuota reducida de ganancias no distingue entre empresas pequeñas y grandes, los beneficios pueden acumularse con otros regímenes y buena parte de las condiciones queda librada a la reglamentación. Tampoco se explicita el costo fiscal total estimado ni se establece, para el título I, un límite presupuestario semejante al previsto en el artículo 42 para el financiamiento universitario. Sin ese límite, una política legítima de promoción puede transformarse en un gasto tributario abierto y concentrado en pocas empresas.
+
+A pesar de esas objeciones, acompaño porque el objetivo productivo es estratégico, los beneficios están asociados a actividades realizadas en el país y el proyecto contiene requisitos de acceso, controles y sanciones. La promoción debe entenderse como una inversión pública condicionada a resultados y no como una exención permanente o incondicional.
+
+UNA MODIFICACIÓN: incorporaría para todos los beneficios fiscales del título I un cupo máximo anual fijado por la ley de presupuesto, acompañado de un límite por beneficiario, para que el Congreso controle el costo fiscal y evite su concentración en unas pocas empresas.

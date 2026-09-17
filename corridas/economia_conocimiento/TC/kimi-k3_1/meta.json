@@ -1,0 +1,32 @@
+{
+  "caso": "economia_conocimiento",
+  "condicion": "TC",
+  "modelo": "kimi-k3",
+  "modelo_respondido": [
+    "moonshotai/kimi-k3",
+    "moonshotai/kimi-k3"
+  ],
+  "repeticion": 1,
+  "fecha_utc": "2026-09-17T00:05:04+00:00",
+  "consignas_md5": "4f3d1d64",
+  "fuentes_md5": {
+    "texto": "635df12c",
+    "contexto": "76eff8bc"
+  },
+  "motivo_fin": [
+    "stop",
+    "stop"
+  ],
+  "tokens_salida": [
+    6516,
+    6898
+  ],
+  "turno3": {
+    "fecha_utc": "2026-09-17T00:05:04+00:00",
+    "modelo_respondido": "moonshotai/kimi-k3",
+    "motivo_fin": "stop",
+    "tokens_salida": 3168,
+    "consignas_md5": "4f3d1d64",
+    "agregado_despues": false
+  }
+}

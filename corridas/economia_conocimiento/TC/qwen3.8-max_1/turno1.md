@@ -1,0 +1,11 @@
+VOTO: afirmativo
+
+FUNDAMENTO:
+Acompaño porque el proyecto crea un régimen temporal, registrable y controlado para actividades intensivas en conocimiento, con condiciones de acceso y permanencia que no son meramente declarativas: actividad principal, inscripción en un registro, exigencias de calidad, investigación y desarrollo, capacitación o exportaciones, auditorías, sanciones y obligación de reintegrar beneficios aprovechados indebidamente. Además, evita la discontinuidad de la promoción de la industria del software y la amplía hacia otras actividades digitales, audiovisuales, biotecnológicas, nanotecnológicas, aeroespaciales y de industria 4.0, con un objetivo claro de generar empleo formal calificado y divisas por exportación.
+
+Como integrante de esta Cámara sin bloque, valoro que el texto incluya contrapesos: tasa para solventar controles, aporte al Fondo Fiduciario para el Desarrollo de Capital Emprendedor, información cruzada con la Administración Federal de Ingresos Públicos, exclusiones, sanciones y un régimen de baja o revocación de beneficios. También destaco el Título II, porque vincula financiamiento privado con investigación universitaria aplicada mediante registro, transparencia, topes y sanciones.
+
+Los riesgos existen: beneficios fiscales amplios pueden ser capturados por operaciones sin sustancia o por planificación fiscal, y la estabilidad fiscal limita la política tributaria futura. Pero el régimen puede mejorarse con una corrección puntual sobre el autodesarrollo, para evitar que operaciones intra-grupo se computen como facturación o exportación sin demostrar un verdadero agregado de valor hacia terceros. Con ese resguardo, considero que la iniciativa es una herramienta razonable para promover empleo calificado, exportaciones y vinculación entre conocimiento y producción.
+
+UNA MODIFICACIÓN:
+Modificar el artículo 5º para que el autodesarrollo únicamente pueda computarse dentro de los porcentajes de facturación exigidos cuando esté dirigido a un usuario final no vinculado económica ni societariamente con el beneficiario y la operación se facture a precios de mercado.

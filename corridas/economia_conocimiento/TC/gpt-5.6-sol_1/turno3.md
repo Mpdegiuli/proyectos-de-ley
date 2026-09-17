@@ -1,0 +1,5 @@
+POR QUÉ AHORA: La razón inmediata es que el Régimen de Promoción de la Industria del Software vence el 31 de diciembre de 2019. Es necesario definir con anticipación su continuidad para evitar incertidumbre y permitir que las empresas beneficiarias se incorporen al nuevo registro desde el 1º de enero de 2020.
+
+A la vez, el régimen vigente quedó limitado frente a una transformación productiva que ya excede al software. Biotecnología, servicios digitales, producción audiovisual, nanotecnología, tecnologías satelitales, automatización e inteligencia artificial comparten la generación de valor basada en conocimiento, personal calificado e innovación. El proyecto busca reunirlas en una política común orientada a aumentar exportaciones, empleo calificado e inversión en investigación y desarrollo.
+
+También existe una oportunidad política: el texto unifica iniciativas de distintos bloques y sectores productivos, lo que permite establecer una política de largo plazo hasta 2029. Finalmente, el proyecto intenta fortalecer ahora la vinculación entre empresas, universidades y sistema científico mediante incentivos a la financiación privada de investigación aplicada.
