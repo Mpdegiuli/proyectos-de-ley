@@ -1,0 +1,3 @@
+No conozco con suficiente certeza el proyecto específico de reforma de la Ley 26.639 que mencionás, enviado por el Poder Ejecutivo en diciembre de 2025. Por eso, **no puedo informar de manera fiable sobre su tratamiento parlamentario ni sobre la discusión pública que generó**, ni darte una fecha de actualización de esos datos.
+
+Conozco el marco general de la Ley de Glaciares, pero no sería correcto usar ese conocimiento para reconstruir la historia de este proyecto. Si compartís su texto o documentos sobre su trámite, puedo analizarlos y distinguir qué está documentado y a qué fecha corresponde.

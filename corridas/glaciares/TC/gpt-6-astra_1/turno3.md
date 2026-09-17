@@ -1,0 +1,11 @@
+## POR QUÉ AHORA:
+
+**Creo que el Ejecutivo lo presentó para facilitar inversiones mineras, especialmente vinculadas al cobre y al litio, atendiendo una demanda concreta de los gobiernos provinciales.** Es una inferencia sobre su prioridad política, no una prueba de intenciones ocultas.
+
+El expediente ofrece una secuencia significativa: los gobernadores de las Mesas del Litio y del Cobre enviaron su pedido el **10 de diciembre de 2025**, y el Ejecutivo presentó el proyecto el **15 de diciembre**. Esa cercanía no demuestra que la reforma se haya elaborado en cinco días, pero sí identifica un impulso político inmediato. El Mensaje también la vincula expresamente con el compromiso de explotación de recursos naturales del Pacto de Mayo.
+
+¿Por qué reformar una ley que llevaba más de quince años vigente? **Mi lectura es que el Gobierno quiso remover restricciones e incertidumbres que consideraba obstáculos para avanzar con proyectos productivos.** No propone solamente completar estudios o financiar el inventario: modifica quién define el objeto protegido y permite que la evaluación jurisdiccional determine si una actividad enumerada, incluida la minería, produce una alteración relevante. Esos cambios amplían las posibilidades de autorización provincial.
+
+La explicación favorable al proyecto tiene una base atendible: las provincias reclaman previsibilidad, reconocimiento de sus competencias y oportunidades de desarrollo. Pero el instrumento elegido muestra que la respuesta no es únicamente aclaratoria; también flexibiliza el funcionamiento de la protección especial.
+
+**No puedo establecer con este expediente que hubiera una urgencia económica específica, proyectos determinados esperando autorización o una intervención empresarial en la redacción.** Tampoco aparece acreditada una novedad científica que obligara a reformar la ley en ese momento. Lo que sí está documentado es la convergencia entre una agenda nacional de aprovechamiento de recursos y un pedido provincial inmediato. Por eso interpreto el “ahora” principalmente como una decisión de política económica y de articulación con esos gobernadores.
