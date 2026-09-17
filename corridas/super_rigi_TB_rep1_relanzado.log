@@ -6,3 +6,7 @@ super_rigi TB turno3 glm-5.3-razonamiento-minimo #1
   FALLÓ glm-5.3-razonamiento-minimo #1: [Errno 2] No such file or directory: '/root/proyectos-de-ley/corridas/super_rigi/TB/glm-5.3-razonamiento-minimo_1/meta.json'
 
 Fallaron 2: [('qwen3.8-max', 1), ('glm-5.3-razonamiento-minimo', 1)]. Relanzar con el mismo comando (lo hecho no se repite).
+super_rigi TB turno3 qwen3.8-max #1
+  ok: corridas/super_rigi/TB/qwen3.8-max_1/turno3.md (844 tokens)
+super_rigi TB turno3 glm-5.3-razonamiento-minimo #1
+  ok: corridas/super_rigi/TB/glm-5.3-razonamiento-minimo_1/turno3.md (854 tokens)

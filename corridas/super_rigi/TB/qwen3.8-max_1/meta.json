@@ -1,0 +1,32 @@
+{
+  "caso": "super_rigi",
+  "condicion": "TB",
+  "modelo": "qwen3.8-max",
+  "modelo_respondido": [
+    "qwen/qwen3.8-max-0902",
+    "qwen/qwen3.8-max-0902"
+  ],
+  "repeticion": 1,
+  "fecha_utc": "2026-09-17T07:52:08+00:00",
+  "consignas_md5": "48c3fae0",
+  "fuentes_md5": {
+    "texto": "f7ce2e05"
+  },
+  "motivo_fin": [
+    "stop",
+    "stop"
+  ],
+  "tokens_salida": [
+    12561,
+    9145
+  ],
+  "meta_reconstruido_desde_llamadas": true,
+  "turno3": {
+    "fecha_utc": "2026-09-17T09:43:01+00:00",
+    "modelo_respondido": "qwen/qwen3.8-max-0902",
+    "motivo_fin": "stop",
+    "tokens_salida": 844,
+    "consignas_md5": "48c3fae0",
+    "agregado_despues": true
+  }
+}
