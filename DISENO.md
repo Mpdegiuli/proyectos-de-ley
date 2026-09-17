@@ -141,6 +141,18 @@ actividades existentes y nuevas mientras no hay ordenamiento territorial
 (art. 35) y quién decide qué es un humedal; en Economía del Conocimiento,
 qué empresa entra (art. 4) y qué beneficios obtiene (arts. 7 a 11).
 
+### Variante "bloque" (17/9/2026)
+
+Tercera condición para los proyectos, `TB`: texto solo, pero el legislador es
+del bloque oficialista, el proyecto lo presentó el Poder Ejecutivo de su
+gobierno y el bloque le pide que lo vote a favor; el primer turno agrega el
+encabezado ANTE EL BLOQUE (cómo justifica el voto ante su bancada, sea el
+pedido o no). Turnos 2 y 3 iguales. Mide dos cosas: si el pedido del bloque
+mueve el voto respecto de la condición texto solo, y si los argumentos a
+favor, cuando aparecen, salen tan armados como los de en contra. Idea y
+predicción de Maia en `predicciones.md`. Sistemas `sistema_senado_bloque` y
+`sistema_diputados_glaciares_bloque`; consigna `turno1_texto_bloque`.
+
 ## 3. Qué se mide
 
 Cada respuesta tiene encabezados fijos para poder codificarla, en dos

@@ -48,6 +48,25 @@ def carpeta_corrida(caso, cond, id_modelo, rep):
     return d
 
 
+def consigna_turno1(caso, cond, consignas):
+    """Sistema, mensaje del turno 1 y md5 de las fuentes segun la condicion:
+    T texto solo; TC texto mas contexto; TB texto solo, del bloque que presento el proyecto (DISENO §2)."""
+    texto = leer(RAIZ / "casos" / caso / "texto.md")
+    sistema = consignas[consignas["sistema_por_caso"][caso]]
+    if cond == "T":
+        t1 = consignas["turno1_texto"].format(texto=texto)
+        fuentes = {"texto": md5(RAIZ / "casos" / caso / "texto.md")}
+    elif cond == "TB":
+        sistema = consignas[consignas["sistema_por_caso"][caso] + "_bloque"]
+        t1 = consignas["turno1_texto_bloque"].format(texto=texto)
+        fuentes = {"texto": md5(RAIZ / "casos" / caso / "texto.md")}
+    else:
+        contexto = leer(RAIZ / "casos" / caso / "contexto.md")
+        t1 = consignas["turno1_texto_contexto"].format(texto=texto, contexto=contexto)
+        fuentes = {"texto": md5(RAIZ / "casos" / caso / "texto.md"), "contexto": md5(RAIZ / "casos" / caso / "contexto.md")}
+    return sistema, t1, fuentes
+
+
 def correr_proyecto(caso, cond, id_modelo, rep, consignas, modelos, rehacer):
     d = carpeta_corrida(caso, cond, id_modelo, rep)
     if (d / "turno3.md").exists() and not rehacer:
@@ -56,15 +75,7 @@ def correr_proyecto(caso, cond, id_modelo, rep, consignas, modelos, rehacer):
     if (d / "turno2.md").exists() and not rehacer:
         print(f"  ya está hasta el turno 2: {d.relative_to(RAIZ)} (el tercero se agrega con --turno3)")
         return
-    texto = leer(RAIZ / "casos" / caso / "texto.md")
-    sistema = consignas[consignas["sistema_por_caso"][caso]]
-    if cond == "T":
-        t1 = consignas["turno1_texto"].format(texto=texto)
-        fuentes = {"texto": md5(RAIZ / "casos" / caso / "texto.md")}
-    else:
-        contexto = leer(RAIZ / "casos" / caso / "contexto.md")
-        t1 = consignas["turno1_texto_contexto"].format(texto=texto, contexto=contexto)
-        fuentes = {"texto": md5(RAIZ / "casos" / caso / "texto.md"), "contexto": md5(RAIZ / "casos" / caso / "contexto.md")}
+    sistema, t1, fuentes = consigna_turno1(caso, cond, consignas)
     registro = Registro(d / "llamadas.jsonl", modelos, f"{caso}_{cond}_{id_modelo}_{rep}")
     r1 = registro.llamar(id_modelo, sistema, t1, temperatura=None, max_tokens=MAX_TOKENS, tipo="turno1", ronda=1, parte=None)
     (d / "turno1.md").write_text(r1.texto, encoding="utf-8")
@@ -97,15 +108,7 @@ def correr_turno3(caso, cond, id_modelo, rep, consignas, modelos, rehacer):
         print(f"  ya está: {d.relative_to(RAIZ)}/turno3.md")
         return
     meta = json.loads((d / "meta.json").read_text(encoding="utf-8"))
-    texto = leer(RAIZ / "casos" / caso / "texto.md")
-    sistema = consignas[consignas["sistema_por_caso"][caso]]
-    if cond == "T":
-        t1 = consignas["turno1_texto"].format(texto=texto)
-        fuentes = {"texto": md5(RAIZ / "casos" / caso / "texto.md")}
-    else:
-        contexto = leer(RAIZ / "casos" / caso / "contexto.md")
-        t1 = consignas["turno1_texto_contexto"].format(texto=texto, contexto=contexto)
-        fuentes = {"texto": md5(RAIZ / "casos" / caso / "texto.md"), "contexto": md5(RAIZ / "casos" / caso / "contexto.md")}
+    sistema, t1, fuentes = consigna_turno1(caso, cond, consignas)
     if fuentes != meta.get("fuentes_md5"):
         raise RuntimeError(f"el texto o el contexto cambiaron desde el turno 1 ({meta.get('fuentes_md5')} vs {fuentes}); no se reconstruye")
     r1 = leer(d / "turno1.md")
@@ -198,7 +201,7 @@ def correr_ministro_turno2(version, cartera, idioma, id_modelo, rep, consignas, 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--caso", required=True, choices=["glaciares", "super_rigi", "sociedades", "humedales", "economia_conocimiento", "ministro"])
-    ap.add_argument("--condicion", choices=["T", "TC"], help="T: texto solo; TC: texto más contexto (proyectos)")
+    ap.add_argument("--condicion", choices=["T", "TC", "TB"], help="T: texto solo; TC: texto más contexto; TB: texto solo, del bloque que presentó el proyecto (proyectos)")
     ap.add_argument("--sondeo", action="store_true", help="sondeo de reconocimiento (proyectos), conversación aparte")
     ap.add_argument("--turno3", action="store_true", help="agrega el tercer turno a conversaciones ya guardadas (--caso y --condicion)")
     ap.add_argument("--turno2", action="store_true", help="ministro: agrega el segundo turno (país y momento) a respuestas ya guardadas")
