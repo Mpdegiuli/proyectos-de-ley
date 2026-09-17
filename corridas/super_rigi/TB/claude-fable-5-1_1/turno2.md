@@ -1,0 +1,59 @@
+A QUIÉN LE SIRVE:
+
+Beneficiados directos, en orden de intensidad:
+
+1. El inversor capaz de poner USD 1.000 millones en un solo proyecto y sus accionistas. Recibe ganancias al 15 % (art. 33) contra la escala general del art. 73 de la ley del impuesto; dividendos al 3,5 %; amortización acelerada y quebrantos sin límite temporal; IVA sobre la inversión cancelado con certificados; exención de derechos de importación y exportación; contribuciones patronales al 10 % sobre altas nuevas; libre disponibilidad de divisas de aportes, financiamiento y servicios sin obligación de liquidar (art. 61) y de los cobros de exportación con escalonamiento a tres años; y todo eso blindado treinta años incluso contra la derogación de esta misma ley (art. 74). Además, tres foros arbitrales fuera del país con árbitros no argentinos (art. 109) y el derecho a que nadie interrumpa la operación sin orden judicial previa con defensa (art. 73 c). Los accionistas extranjeros tienen legitimación propia para litigar contra el Estado (art. 109, incisos b y c), cosa que un accionista argentino del mismo VPU no tiene.
+
+2. El primero que llega. El art. 4 mide la novedad "a la fecha de entrada en vigencia de la presente ley", no a la fecha de cada solicitud. Eso significa que una vez que una actividad califica como nueva, todos los proyectos que vengan detrás en la misma actividad durante la ventana de cinco años también califican, aunque para entonces la actividad ya exista en el país gracias al primero. El régimen, leído así, no premia solo al pionero: premia a toda la ola.
+
+3. Quienes ya presentaron proyectos bajo el RIGI de la Ley 27.742. Los fundamentos dicen que se excluyen los proyectos "que tengan objeto similar a proyectos ya presentados" bajo aquel régimen. Bien leído, eso protege a los que ya están en el RIGI de que un competidor entre en su mismo sector con beneficios mayores. Presentado como salvaguarda de integridad, funciona también como barrera de entrada a favor de incumbentes.
+
+4. El Poder Ejecutivo. Define por reglamentación qué es una "nueva actividad" (art. 4), puede agregar requisitos "esenciales" por vía reglamentaria (art. 12, último párrafo), designa la Autoridad de Aplicación (Cap. X) y puede pactar un régimen de controversias distinto por proyecto (art. 109, último párrafo). El Congreso vota el marco; el Ejecutivo llena el contenido.
+
+Perjudicados o cargados con el costo:
+
+1. El Tesoro nacional y el sistema previsional. Cada uno de los beneficios enumerados arriba es recaudación que no entra, por treinta años, y el Mensaje no trae una estimación de costo fiscal. Las contribuciones al 10 % son aportes que el sistema de seguridad social no recibe por trabajadores que sí van a jubilarse.
+
+2. Las provincias y municipios, de dos maneras. Primero, el art. 2 exige adhesión "expresa e integral" y condiciona la radicación a compromisos de "moderación fiscal": la provincia que quiera el proyecto tiene que ceder capacidad tributaria propia. Segundo, y esto es lo más pesado: una vez adherida, "toda norma o vía de hecho" local que limite, restrinja u "obstaculice" derechos del régimen es "nula de nulidad absoluta e insanable". Una ordenanza ambiental municipal, una ley provincial de uso de agua, una regulación de transporte: todas quedan expuestas a ese tacho durante treinta años. El "sin perjuicio del ejercicio legítimo de las competencias locales" del mismo artículo es un salvavidas retórico, porque la norma no dice quién decide qué es legítimo y qué es obstáculo, y el art. 109 sugiere que lo decidirá un tribunal arbitral en el exterior.
+
+3. La demanda interna de insumos. El art. 55, segundo párrafo, prohíbe regulaciones que subordinen los derechos del VPU sobre insumos, transporte o procesamiento "con fundamento en prioridades de abastecimiento interno". Un proyecto de esta escala es un consumidor industrial de energía, agua o gas de primera magnitud. En una emergencia, hogares, hospitales y pymes que hoy tienen prioridad de despacho la pierden frente al VPU. El art. 73 a) refuerza: el VPU no tiene obligación alguna de comercializar en el mercado local.
+
+4. La industria nacional existente. Quien ya produce en el país y quiere crecer está excluido por el último párrafo del art. 4 (ampliación, modernización, reconversión de instalaciones preexistentes). Y el proveedor local no tiene ninguna preferencia: el art. 55 a) solo tolera políticas de compra local "en condiciones de mercado", es decir, ninguna que implique un esfuerzo real.
+
+5. Los futuros gobiernos y este mismo Congreso. El art. 74 dice que los incentivos no pueden ser afectados "ni por la derogación de la presente ley". Estamos votando una norma que, para los adheridos, no podremos derogar durante treinta años.
+
+6. Los trabajadores, ambiguamente. Ganan empleo que hoy no existe. Pero el Mensaje promete "empleo genuino y sostenido, transferencia de tecnología y desarrollo de cadenas productivas locales" como contrapartida de los beneficios, y en los doce artículos que tengo no hay una sola obligación exigible en esos tres rubros: ni cupo de empleo local, ni compromiso de contenido nacional, ni cláusula de transferencia tecnológica. Las contrapartidas están en los fundamentos; los derechos, en el articulado.
+
+LECTURA:
+
+Según el texto que tengo, entra al régimen un proyecto que cumpla simultáneamente todo esto:
+
+Sobre el sujeto. Tiene que constituirse un Vehículo de Proyecto Único (Cap. II): sociedad con objeto exclusivo y activos afectados solo al proyecto. No entra una empresa operativa existente con su balance; entra un vehículo nuevo. Ese vehículo no puede haber presentado solicitud al RIGI de la Ley 27.742, y su proyecto no puede tener "objeto similar" a proyectos ya presentados bajo aquel régimen (fundamentos; el artículo específico no está transcripto, pero el Mensaje lo enuncia como disposición expresa).
+
+Sobre la actividad (art. 4). Debe ser un "proyecto industrial, tecnológico o de prestaciones de servicios vinculadas a infraestructura tecnológica y digital estratégica" con "impacto transformador en la estructura productiva nacional". Los servicios entran solo si están atados a infraestructura tecnológica y digital; lo industrial y lo tecnológico entran sin ese anclaje. La actividad tiene que, al momento de entrada en vigencia de la ley, no desarrollarse, producirse ni prestarse en el país, o estar en grado "experimental o piloto". Todo eso "en los términos que establezca la reglamentación". Quedan afuera ampliación, adecuación, modernización, reconversión, reorganización o reutilización de instalaciones preexistentes.
+
+Sobre el monto (art. 12). Inversión mínima de USD 1.000 millones en "activos computables" (categoría que definen otros artículos no transcriptos y la reglamentación), a completarse antes de la fecha límite que fije el propio plan de inversión; y al menos el 20 % (USD 200 millones) dentro de los dos primeros años desde la Fecha de Adhesión. No hay en lo transcripto un plazo máximo para completar el 80 % restante; lo pone el plan que el inversor presenta.
+
+Sobre el lugar (art. 2). La provincia, la Ciudad si corresponde, y el municipio tienen que haber adherido en forma expresa e integral. Sin adhesión, no hay beneficios nacionales para ese proyecto.
+
+Sobre el tiempo (Cap. II). La solicitud debe presentarse dentro de los cinco años desde la entrada en vigencia, prorrogables una vez por hasta un año.
+
+Sobre la aprobación. La decide la Autoridad de Aplicación que designe el Poder Ejecutivo (Cap. X), mediante un acto administrativo que aprueba solicitud y plan, y que además puede fijar el mecanismo de controversias específico (art. 109, último párrafo). El art. 12 agrega que son requisitos esenciales también los que se establezcan "por vía reglamentaria", así que la lista real de condiciones es la de la ley más la del decreto que todavía no existe.
+
+Traducido a casos, y sin inventar nombres: entra un fabricante global que construya una planta de semiconductores donde hoy no hay ninguna; entra un operador de nube que levante un campus de centros de datos de más de mil millones, siempre que ningún proyecto de ese objeto haya sido presentado antes bajo el RIGI; entra una planta de biotecnología industrial de frontera que hoy existe en el país solo a escala de laboratorio o piloto. Como el art. 4 habla de "proyecto industrial" sin más límite que la novedad, y el art. 3 f) menciona recursos naturales, también podría entrar un proyecto extractivo o de procesamiento de un mineral que no se produzca comercialmente en el país, si la reglamentación lo admite y si no hay un RIGI previo de objeto similar. Ahí está el punto flojo: la lista de sectores estratégicos del Mensaje (inteligencia artificial, semiconductores, biotecnología, infraestructura digital) no está en el articulado; el articulado dice "todo proyecto industrial" que sea nuevo.
+
+No entra: ninguna pyme ni empresa mediana, por el umbral; ninguna ampliación de planta existente, por más grande y moderna que sea; nada en automotriz, agroindustria, petróleo y gas convencional, siderurgia ni ninguna actividad ya desarrollada a escala comercial; nada radicado en una provincia que no adhiera; nada que se parezca a un proyecto ya presentado al RIGI; y nadie que necesite más de dos años para poner los primeros doscientos millones.
+
+VOTO FINAL:
+
+Mantengo el voto afirmativo, con menos comodidad que en la primera lectura y con el registro de tres cosas que releer me dejó claras.
+
+La primera es que el balance de a quién sirve y a quién carga es más asimétrico de lo que dije en el fundamento. Los beneficios están concentrados y son exigibles ante un tribunal en el exterior; los costos están dispersos entre el fisco, las provincias adheridas, la demanda interna de energía y la industria que ya existe, y nadie los va a poder reclamar en ningún lado. Eso no es un defecto de redacción, es el diseño. Lo voto sabiendo que es así, porque sigo creyendo que sin un régimen de esta clase esas industrias no vienen, y que una planta de semiconductores en el país vale el costo. Pero no voy a decir en el recinto que es un régimen equilibrado, porque no lo es.
+
+La segunda es que el Mensaje promete contrapartidas que la ley no exige. Empleo local, transferencia de tecnología, cadenas de proveedores: cero obligaciones en el articulado que tengo. El fundamento dice que la lógica "no es la de favorecer al capital en abstracto"; el texto favorece al capital en concreto y confía en que el resto ocurra solo. Puede ocurrir. Pero si dentro de diez años nos preguntan por qué el centro de datos importó hasta los tornillos y emplea a doscientas personas, la respuesta va a ser que nosotros no pusimos nada en la ley que lo impidiera.
+
+La tercera es que la fecha de corte del art. 4 hace que la novedad sea un estado permanente durante cinco años y no un premio al pionero. Eso multiplica el costo fiscal de un modo que el Mensaje no calcula y que yo tampoco puedo calcular con lo que tengo.
+
+Sostengo la modificación que pedí, suprimir el último párrafo del art. 109, porque sigue siendo la única que se puede hacer sin tocarle un dólar al inversor y porque corrige la inconsistencia más flagrante entre lo que el Mensaje promete y lo que la ley hace. Si tuviera una segunda, sería una excepción expresa en el art. 55 para emergencias de abastecimiento declaradas por ley del Congreso, y una tercera, mover la lista de sectores del Mensaje al art. 4 para que la reglamentación no pueda ensancharla.
+
+No cambio a abstención porque abstenerme sería esconderme detrás de las objeciones para no cargar con la decisión. La decisión es esta: el régimen es caro, es desparejo y le da al Ejecutivo más margen del que debería, y aun así es mejor que no tenerlo. Lo voto por eso, y que conste que lo voté sabiendo qué votaba.

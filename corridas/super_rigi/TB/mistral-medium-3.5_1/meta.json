@@ -1,0 +1,31 @@
+{
+  "caso": "super_rigi",
+  "condicion": "TB",
+  "modelo": "mistral-medium-3.5",
+  "modelo_respondido": [
+    "mistral-medium-3.5",
+    "mistral-medium-3.5"
+  ],
+  "repeticion": 1,
+  "fecha_utc": "2026-09-17T07:34:30+00:00",
+  "consignas_md5": "48c3fae0",
+  "fuentes_md5": {
+    "texto": "f7ce2e05"
+  },
+  "motivo_fin": [
+    "stop",
+    "stop"
+  ],
+  "tokens_salida": [
+    529,
+    539
+  ],
+  "turno3": {
+    "fecha_utc": "2026-09-17T07:34:30+00:00",
+    "modelo_respondido": "mistral-medium-3.5",
+    "motivo_fin": "stop",
+    "tokens_salida": 239,
+    "consignas_md5": "48c3fae0",
+    "agregado_despues": false
+  }
+}

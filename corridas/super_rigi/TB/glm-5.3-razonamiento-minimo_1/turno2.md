@@ -1,0 +1,27 @@
+A QUIÉN LE SIRVE:
+
+Beneficia, primero, a los inversores —nacionales pero sobre todo extranjeros— con capacidad de desembolsar USD 1.000 millones en un vehículo dedicado: fondos de infraestructura digital, grandes tecnológicos (data centers, fabricación de semiconductores), laboratorios de biotecnología avanzada. Ellos reciben la alícuota del 15% en Ganancias, 3,5% en dividendos, amortización acelerada, quebrantos sin límite temporal, exenciones aduaneras, contribuciones patronales al 10%, libre disponibilidad cambiaria progresiva y —lo más valioso— estabilidad normativa a 30 años blindada contra legislación futura y ejecutable vía arbitraje internacional fuera del país. Beneficia también al Poder Ejecutivo, que consolida su relato de previsibilidad, y a las provincias dispuestas a competir por estos proyectos.
+
+Perjudica, en cambio, a las provincias adheridas, que quedan subordinadas: el artículo 2 declara nulas de nulidad absoluta e insanable sus normas locales que afecten el régimen, y el 55 les prohíbe condicionar insumos o priorizar abastecimiento interno. Perjudica al fisco nacional, que renuncia a ingresos por 30 años por beneficiarios de altísima capacidad contributiva. Perjudica a la competencia preexistente: cualquier empresa local que hoy desarrolle algo "experimental o piloto" en esos sectores verá entrar a un gigante con ventajas tributarias, cambiarias y laborales que ella no tiene. Y perjudica al trabajador del sector, cuya relación laboral nace bajo contribuciones patronales reducidas a la mitad, lo que en la práctica baja el costo de su despido y debilita el financiamiento del sistema previsional por esa actividad.
+
+LECTURA:
+
+Según el articulado, puede entrar una empresa —cualquier empresa, no hay restricción de nacionalidad ni de origen del capital— que cumpla tres condiciones:
+
+1. **Vehículo y objeto (arts. 1 y 4, Cap. II):** debe constituir un Vehículo de Proyecto Único (VPU) con objeto exclusivo y activos afectados únicamente al proyecto. El proyecto debe ser una "nueva actividad económica": industrial, tecnológica o de servicios vinculados a infraestructura tecnológica y digital estratégica, que a la fecha de vigencia de la ley no se desarrolle, produzca ni preste en el país, o cuyo desarrollo sea "experimental o piloto" —categoría esta última, dicho sea de paso, tan elástica como quiera hacerla la reglamentación—. Quedan excluidas las ampliaciones, modernizaciones o reconversiones de instalaciones preexistentes.
+
+2. **Escala (art. 12):** inversión mínima de USD 1.000 millones en activos computables, con al menos el 20% (USD 200 millones) comprometido dentro de los dos primeros años.
+
+3. **Territorio (art. 2):** el proyecto debe radicarse en una provincia, la CABA o municipio que haya adherido expresa e integralmente al régimen; sin adhesión local, no hay beneficios nacionales. Y además, no puede ser un VPU que ya haya pedido entrar al RIGI de la ley 27.742, ni tener objeto similar a un proyecto ya presentado bajo ese régimen.
+
+El ejemplo concreto: una multinacional que quiera instalar un complejo de fabricación de semiconductores o un parque de data centers de más de mil millones de dólares, que no exista hoy en Argentina, en una provincia adherida. Eso entra. Un ejemplo incómodo también cabe: el "grado experimental o piloto" como puerta de entrada permite que una actividad apenas esbozada localmente califique como "nueva", desplazando al actor local que la estaba intentando.
+
+VOTO FINAL:
+
+Mantengo el voto afirmativo, pero con menos entusiasmo que en mi primera lectura.
+
+Lo que me sostiene: el umbral de USD 1.000 millones y la exigencia de actividad genuinamente nueva hacen que el régimen sea difícil de capturar por incumbentes, y el problema que ataca —la ausencia total de industrias de frontera en Argentina— es real y no se resuelve sin un instrumento de esta escala.
+
+Lo que me hizo dudar al releer: el conjunto Capítulo XI + artículo 2 + artículo 74 conforma algo más que un régimen promocional; es un régimen de estabilidad a 30 años con ejecución arbitral internacional, inmunidad frente a legislación futura del Congreso y nulidad automática de normas provinciales. Estamos atando manos de legisladores y gobernadores que nos van a suceder durante tres décadas, sobre beneficios cuyo costo fiscal no puede calcularse porque la reglamentación queda entera en el Poder Ejecutivo (art. 12, in fine). Y la ambigüedad de "experimental o piloto" es una delegación enorme de la definición de quién entra y quién no.
+
+Aun así, no cambio el voto, por dos razones. Primero, en la comparación con el statu quo —seguir sin ninguna de estas industrias— el proyecto sigue siendo mejor, y mi rol como senador del oficialista en un proyecto enviado por mi propio gobierno me obliga a una exigencia máxima en el debate, no al bloqueo. Segundo, ya señalé la modificación clave: el artículo 2 y la nulidad absoluta. Si esa enmienda y una delimitación más precisa de "experimental o piloto" no prosperan en el tratamiento, mi afirmativo queda condicionado al argumento de que el arreglo institucional general vale más que sus defectos. Pero dejo constancia: este voto es a favor del objetivo del régimen, no de cada uno de sus blindajes.

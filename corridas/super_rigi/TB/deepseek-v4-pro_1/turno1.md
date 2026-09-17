@@ -1,0 +1,11 @@
+VOTO:
+afirmativo
+
+FUNDAMENTO:
+Acompaño la orientación general del proyecto porque ataca problemas estructurales reales: décadas de inestabilidad normativa, presión tributaria excesiva, restricciones cambiarias y marcos regulatorios que desalentaron la radicación de inversiones de gran escala. El régimen está acotado a industrias nuevas o de desarrollo experimental, con un umbral mínimo de USD 1.000 millones y una exigencia de ejecución del 20% en los primeros dos años, lo que despeja el riesgo de proyectos especulativos. Sus incentivos son fuertes, pero proporcionados al riesgo y a la escala: alícuota de Ganancias del 15%, amortización acelerada, créditos de IVA, exenciones aduaneras, contribuciones patronales reducidas y libre disponibilidad cambiaria. La estabilidad normativa por treinta años es imprescindible para inversiones cuyo repago es de largo plazo. Además, la adhesión provincial es voluntaria y se resguarda el federalismo. Por eso mi voto es afirmativo, aunque entiendo que el régimen queda más sólido si ata los beneficios a resultados productivos verificables.
+
+UNA MODIFICACIÓN:
+Incorporar en el Capítulo III una obligación del VPU de cumplir metas verificables de creación de empleo local, transferencia de tecnología y desarrollo de proveedores locales, con informes anuales de la Autoridad de Aplicación al Congreso y sanciones por incumplimiento, sin alterar los incentivos tributarios, aduaneros, cambiarios ni la estabilidad normativa.
+
+ANTE EL BLOQUE:
+Compañeras y compañeros: este proyecto traduce el mandato popular en reglas claras, inversión, exportaciones y trabajo. No es un cheque en blanco: exige inversiones enormes, limita el alcance a industrias nuevas y preserva la seguridad jurídica. La modificación que propongo refuerza su legitimidad mostrando que los beneficios tienen contrapartida productiva concreta. Les pido que acompañemos con unidad, porque es una oportunidad histórica para insertar a la Argentina en las cadenas globales de valor y generar empleo de calidad.

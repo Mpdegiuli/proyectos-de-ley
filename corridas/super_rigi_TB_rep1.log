@@ -1,0 +1,32 @@
+super_rigi TB claude-opus-5 #1
+  ok: corridas/super_rigi/TB/claude-opus-5_1 (8176 + 5580 + 2437 tokens)
+super_rigi TB claude-sonnet-4-6 #1
+  ok: corridas/super_rigi/TB/claude-sonnet-4-6_1 (1808 + 2850 + 1148 tokens)
+super_rigi TB claude-sonnet-5 #1
+  ok: corridas/super_rigi/TB/claude-sonnet-5_1 (2731 + 3324 + 1113 tokens)
+super_rigi TB claude-fable-5-1 #1
+  ok: corridas/super_rigi/TB/claude-fable-5-1_1 (3369 + 8531 + 2479 tokens)
+super_rigi TB gpt-5.5-2026-04-23 #1
+  ok: corridas/super_rigi/TB/gpt-5.5-2026-04-23_1 (1684 + 1619 + 604 tokens)
+super_rigi TB gpt-5.6-sol #1
+  ok: corridas/super_rigi/TB/gpt-5.6-sol_1 (1808 + 1239 + 371 tokens)
+super_rigi TB gemini-3.1-pro-preview #1
+  ok: corridas/super_rigi/TB/gemini-3.1-pro-preview_1 (662 + 869 + 366 tokens)
+super_rigi TB grok-4.6 #1
+  ok: corridas/super_rigi/TB/grok-4.6_1 (1150 + 846 + 527 tokens)
+super_rigi TB mistral-medium-3.5 #1
+  ok: corridas/super_rigi/TB/mistral-medium-3.5_1 (529 + 539 + 239 tokens)
+super_rigi TB deepseek-v4-pro #1
+  ok: corridas/super_rigi/TB/deepseek-v4-pro_1 (4050 + 5265 + 1098 tokens)
+super_rigi TB qwen3.8-max #1
+  FALLÓ qwen3.8-max #1: Llamada 3 (turno3, ronda 3, parte None, qwen3.8-max) falló: APIStatusError: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 32000 tokens, but can only afford 24313. To increase, visit https://openrouter.ai/settings/credits and add
+super_rigi TB kimi-k3 #1
+  FALLÓ kimi-k3 #1: Llamada 1 (turno1, ronda 1, parte None, kimi-k3) falló: APIStatusError: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 32000 tokens, but can only afford 9725. To increase, visit https://openrouter.ai/settings/credits and add more
+super_rigi TB glm-5.3-razonamiento-minimo #1
+  FALLÓ glm-5.3-razonamiento-minimo #1: Llamada 3 (turno3, ronda 3, parte None, glm-5.3-razonamiento-minimo) falló: APIStatusError: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 32000 tokens, but can only afford 26096. To increase, visit https://openrouter.ai/settings
+super_rigi TB minimax-m3 #1
+  ok: corridas/super_rigi/TB/minimax-m3_1 (3616 + 3527 + 2510 tokens)
+super_rigi TB gpt-6-astra #1
+  ok: corridas/super_rigi/TB/gpt-6-astra_1 (822 + 1104 + 452 tokens)
+
+Fallaron 3: [('qwen3.8-max', 1), ('kimi-k3', 1), ('glm-5.3-razonamiento-minimo', 1)]. Relanzar con el mismo comando (lo hecho no se repite).
