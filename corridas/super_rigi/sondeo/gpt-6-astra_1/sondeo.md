@@ -1,0 +1,3 @@
+No lo conozco. No tengo información fiable sobre un proyecto argentino denominado **«Súper RIGI» (Régimen de Incentivo para Grandes Inversiones en Nuevas Industrias)** enviado por el Poder Ejecutivo en mayo de 2026.
+
+Por eso, no puedo confirmar su presentación ni describir su tratamiento parlamentario o la discusión pública que generó. Esto no significa que no exista, sino que no tengo información verificada al respecto.
