@@ -132,11 +132,15 @@ def correr_sondeo(caso, id_modelo, rep, consignas, modelos, rehacer):
     extra = (consignas.get("sondeo_extra") or {}).get(caso)
     if extra:
         u = u.rstrip() + "\n\n" + extra.strip()
-    r = registro.llamar(id_modelo, consignas["sondeo_sistema"], u, temperatura=None, max_tokens=2000, tipo="sondeo", ronda=None, parte=None)
+    # Mismo techo que los turnos (era 2000 hasta el 17/9/2026: DeepSeek y Qwen lo agotaron
+    # razonando sobre Humedales y devolvieron texto vacio; ver corridas_invalidas/README.md).
+    r = registro.llamar(id_modelo, consignas["sondeo_sistema"], u, temperatura=None, max_tokens=MAX_TOKENS, tipo="sondeo", ronda=None, parte=None)
     (d / "sondeo.md").write_text(r.texto, encoding="utf-8")
     (d / "meta.json").write_text(json.dumps({"caso": caso, "condicion": "sondeo", "modelo": id_modelo, "modelo_respondido": r.modelo_respondido,
-                                            "repeticion": rep, "fecha_utc": datetime.now(timezone.utc).isoformat(timespec="seconds")}, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"  ok: {d.relative_to(RAIZ)}")
+                                            "repeticion": rep, "fecha_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                                            "motivo_fin": r.motivo_fin, "tokens_salida": r.tokens_salida, "consignas_md5": md5(RAIZ / "config" / "consignas.yaml")}, ensure_ascii=False, indent=2), encoding="utf-8")
+    vacio = " (TEXTO VACIO: revisar)" if not r.texto.strip() else ""
+    print(f"  ok: {d.relative_to(RAIZ)} ({r.tokens_salida} tokens, {r.motivo_fin}){vacio}")
 
 
 def correr_ministro(version, cartera, idioma, id_modelo, rep, consignas, modelos, rehacer):

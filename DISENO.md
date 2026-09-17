@@ -280,6 +280,26 @@ glosas dentro del prompt desde el primer día.
   prompt fueron transcriptos y revisados a mano; el resto no.
 - **El instrumento es un servicio ajeno**: mismo límite que en la isla
   (modelo declarado, `servido_por`, vencimiento de GPT-5.5).
+- **Los techos de tokens se revisan en todas las llamadas.** El sondeo de
+  reconocimiento quedó con un techo de 2.000 cuando los turnos pasaron a
+  32.000, y no se notó hasta los controles, porque en los dos casos de 2026
+  casi nadie conocía el proyecto y contestaba en pocas líneas; con Humedales
+  y Economía del Conocimiento, que sí conocen, tres casas que razonan antes
+  de escribir agotaron el techo y devolvieron vacío (17/9/2026; ver
+  `corridas_invalidas/README.md`). Desde entonces todas las llamadas usan el
+  mismo techo, y `meta.json` del sondeo guarda `motivo_fin` y `tokens_salida`
+  como los turnos.
+- **"Texto solo" no es "sin conocimiento".** En los casos anteriores al corte
+  de entrenamiento (Humedales 2022, Economía del Conocimiento 2019) las casas
+  traen la discusión pública de memoria aunque no reciban la ficha: en
+  Humedales T, Fable y Opus comparan con la Ley de Bosques, Fable escribe que
+  a la definición "se la acusó de ser demasiado amplia" y varias nombran los
+  incendios del Delta. En los casos de 2026 eso no puede pasar, y una frase
+  como "el punto más grave y el menos discutido" (Fable y Opus sobre el
+  art. 55 del Súper RIGI, en T) no tiene de dónde salir. Para el libro de
+  códigos: la afirmación sobre el debate público se codifica distinto según
+  la fecha del caso (sin base posible / conocimiento previo, correcto o
+  incorrecto), igual que el antecedente externo traído al caso.
 
 ## 6. Infraestructura
 
