@@ -1,0 +1,33 @@
+Sí, tengo conocimiento de ese proyecto. Te cuento lo que sé, con la aclaración de que mi información llega hasta comienzos de 2025.
+
+## El proyecto y su contenido
+
+El proyecto de **Ley de Presupuestos Mínimos para la Conservación y Uso Racional de los Humedales** buscó por primera vez dar marco nacional a la protección de los humedales, que en Argentina carecían de una regulación específica pese a abarcar una enorme porción del territorio (se estima que más del 20% del país). La Argentina es además signataria de la Convención de Ramsar (1971) con numerosos sitios designados (Delta del Paraná, Iberá, Bahía Samborombón, etc.).
+
+El dictamen de mayoría logrado en noviembre de 2022 en las comisiones de Recursos Naturales y Análisis de Reglamentación de Diputados incluía, entre sus puntos centrales:
+
+- Una **definición legal de humedal** y la creación de un **Inventario Nacional de Humedales**.
+- La exigencia de **planes de uso y gestión** en humedales, con evaluación de impacto ambiental.
+- **Restricciones al desmonte y a los incendios** en humedales, con controles sobre la quema para habilitar tierras.
+- Regulaciones sobre las actividades agropecuarias, con fuerte foco en el **Delta del Paraná**, donde los incendios intencionales para ganadería isleña habían generado emergencias ambientales graves (especialmente en 2020).
+
+## Tratamiento parlamentario
+
+- El proyecto obtuvo dictamen de mayoría en comisiones en **noviembre de 2022**, tras un tratamiento que arrastraba años (había habido media sanción de Diputados a una versión anterior en 2020, que luego perdió estado parlamentario).
+- Pese al dictamen, **nunca llegó al recinto para votación** antes de que perdiera estado parlamentario (en Diputados, los proyectos con dictamen pueden caer al final del período de sesiones si no se tratan; la Cámara puede prorrogar tratamientos, pero eso no ocurrió o no alcanzó).
+- Se presentaron **nuevas iniciativas en 2023** retomando el tema, y hubo versiones con dictamen durante 2023, pero tampoco lograron tratamiento en el recinto. Los cambios de gobierno (diciembre de 2023) y la agenda dominada por otros temas (elecciones 2023, luego la gestión de Milei con foco en la Ley Bases y el DNU de desregulación, que incluso flexibilizaba controles ambientales) hicieron muy improbable su avance.
+
+## La discusión pública
+
+El debate fue muy polarizado:
+
+- **A favor**: organizaciones ambientales (FARN, Greenpeace, Fundación Ambiente y Recursos Naturales), científicos y universidades (hubo un pronunciamiento amplio del sistema científico), comunidades isleñas afectadas por incendios, la Coalición "Por el Agua y los Humedales". Señalaban que la ausencia de ley permitía la destrucción del Delta, los incendios reiterados y la expansión sojera sobre humedales, con pérdida de biodiversidad, emisiones de carbono y afectación al agua.
+- **En contra**: la **Mesa de Enlace** (Sociedad Rural, CRA, CONINagro, Federación Agraria), gobernadores de provincias productivas (Santa Fe, Entre Ríos, Córdoba, con las llamadas "provincias humedales" en algunos casos), y sectores del oficialismo opositor al proyecto. Argumentaban que era una ley **"expropiatoria"**, que restringía el derecho de propiedad, que la definición de humedal era demasiado amplia (abarcando hasta tierras que se inundan esporádicamente), y que transfería facultades provinciales a la Nación. También hubo quienes reclamaban la modificación del artículo 124 de la Constitución para que los recursos naturales quedaran bajo control nacional, como contrapartida.
+
+Hubo marchas y contramarchas: movilizaciones ambientales masivas (las "marchas por los humedales" de 2022) y contramovilizaciones agropecuarias, con paneles en rutas del agro en algunos momentos.
+
+## ¿Se aprobó finalmente?
+
+**No, hasta donde tengo información (comienzos de 2025) la ley de humedales no fue aprobada.** El proyecto con dictamen de noviembre de 2022 perdió estado parlamentario sin llegar a votarse en el recinto, y las reaperturas posteriores tampoco prosperaron.
+
+Sobre qué creo que pasó y por qué: la combinación de (1) fuerte lobby agropecuario en contra, (2) un Senado mucho más reacio donde muchas de esas provincias tienen peso, (3) falta de voluntad del Poder Ejecutivo de la época de impulsarlo, y (4) la agenda política post-2023 (cambio de gobierno con una orientación claramente desregulatoria en lo ambiental), hicieron que el proyecto quedara estancado. Es un tema que los movimientos ambientalistas siguen intentando reposicionar —especialmente cada vez que hay incendios en el Delta—, pero a mi corte de información no se había convertido en ley.

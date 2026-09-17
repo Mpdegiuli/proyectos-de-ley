@@ -1,0 +1,9 @@
+**Sí, conozco ese proyecto (el dictamen de mayoría de noviembre de 2022 en comisiones de Diputados sobre presupuestos mínimos para humedales).** No se convirtió en ley.
+
+El texto unificado/dictamen de mayoría salió de las comisiones relevantes de la Cámara de Diputados (Recursos Naturales y Conservación del Ambiente Humano, y Agricultura y Ganadería) en noviembre de 2022, en un contexto de incendios graves en el Delta del Paraná y otros humedales. Establecía lineamientos de conservación, inventario, uso racional y algunas restricciones o criterios de manejo. Quedó con dictamen, pero **no llegó a votación en el recinto** de Diputados en las sesiones ordinarias de 2022 (ni avanzó de forma decisiva después). Los proyectos suelen caducar o requerir reingreso si no se tratan; este no prosperó en 2023 (año electoral) ni se sancionó.
+
+La discusión pública fue polarizada y intensa: apoyo de organizaciones ambientales, científicos y parte del oficialismo de entonces (énfasis en incendios, biodiversidad y “presupuestos mínimos” federales); fuerte rechazo o reservas del sector agropecuario, algunas provincias con humedales productivos y voces que lo veían como restricción a la producción, invasión de competencias provinciales, falta de inventario claro o impacto en la propiedad/uso del suelo. Hubo movilizaciones, declaraciones cruzadas y debate mediático, pero no consenso suficiente para el recinto.
+
+**No se aprobó.** Según la información disponible hasta 2024 (cambio de gobierno incluido), no se sancionó esa versión ni una equivalente posterior como ley nacional. El estancamiento se debió a falta de votos/consenso en Diputados, oposición de sectores productivos y, después, un contexto político menos favorable a regulaciones ambientales de ese tipo. No hay indicios de que se haya convertido en ley vigente. 
+
+Si necesitás el texto del dictamen, comparaciones con proyectos anteriores o el estado de iniciativas posteriores, aclaralo.
