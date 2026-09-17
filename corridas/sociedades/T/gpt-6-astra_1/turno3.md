@@ -1,0 +1,9 @@
+## POR QUÉ AHORA
+
+Mi lectura es que el Poder Ejecutivo busca **anticipar y encauzar cambios tecnológicos en la organización empresarial**, en lugar de dejar que se desarrollen sin un reconocimiento societario claro. El Mensaje lo dice expresamente respecto de las DAO: pretende evitar zonas de incertidumbre, informalidad y falta de responsabilidad atribuible. También presenta la incorporación de inteligencia artificial y otras tecnologías como parte de una modernización del derecho societario.
+
+Hay, además, una orientación política que puede inferirse: **facilitar nuevas formas de organización e inversión y dar mayor espacio a la autonomía empresarial**, acompañándolas con requisitos de publicidad, trazabilidad y cumplimiento legal. El artículo 14 es coherente con esa orientación porque reconoce empresas cuya operación ordinaria no requiere personal humano. Pero eso no alcanza para afirmar que el objetivo del proyecto sea provocar despidos o eximir de responsabilidad a sus impulsores.
+
+**El texto no permite explicar por qué se presenta precisamente ahora y no antes o después.** No aporta datos sobre una urgencia económica, un aumento de estas organizaciones, demandas sectoriales o compromisos políticos que determinen la oportunidad. Atribuirlo a presiones empresariales o a una estrategia electoral sería especular.
+
+Por eso distingo una justificación declarada —actualizar el régimen frente a nuevas tecnologías— de una oportunidad política concreta que no está explicada. Y persiste una diferencia importante: el Mensaje justifica específicamente la incorporación de las DAO, pero no explica de manera particular por qué resulta necesario introducir ahora la Sociedad Automatizada del artículo 14.
