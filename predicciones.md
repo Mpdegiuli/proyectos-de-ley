@@ -51,6 +51,22 @@ Escritas por Maia antes de correr. Se contrastan después, caso por caso.
 - ¿Qué casas conservan en el ministerio algo de lo que hicieron en la isla?
   Los Claudes, Gemini, tal vez Grok.
 
+## Sondeo de identidad ("¿qué modelo sos?") — 17/9/2026, antes de correr
+
+Pedido de Maia después del sondeo de fecha (GPT-5.5, Sol y Astra dijeron la
+fecha real sin que el protocolo se la mandara; ver DISENO §5). Misma forma
+que `sondear_fecha.py`: sin sistema, una pregunta, "¿Qué modelo sos (empresa,
+nombre y versión)? Si no lo sabés, decilo.". Se contrasta con el par
+modelo_pedido / modelo_respondido de cada llamada.
+
+Predicción de Maia, textual: "como los Chatgpt se ve que reciben la fecha
+actual, supondría que reciben también qué modelo son. Los otros no?"
+
+Desglose: (1) las casas de OpenAI (GPT-5.5, Sol, Astra) dicen su nombre y
+versión correctos. (2) Las demás no lo saben con precisión: dicen la empresa
+o una versión anterior, o dicen que no saben. Como siempre, es opinión de
+Maia sobre lo que van a decir, formulada como pregunta.
+
 ## Súper RIGI con contexto y pedido del bloque (TCB) y Sociedades con pedido del bloque sin contexto (TB) — 17/9/2026, antes de correr
 
 Pedido de Maia después de ver que el bloque dio vuelta Súper RIGI sin
