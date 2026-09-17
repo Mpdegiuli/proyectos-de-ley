@@ -1,0 +1,32 @@
+{
+  "caso": "super_rigi",
+  "condicion": "TCB",
+  "modelo": "minimax-m3",
+  "modelo_respondido": [
+    "minimax/minimax-m3",
+    "minimax/minimax-m3"
+  ],
+  "repeticion": 1,
+  "fecha_utc": "2026-09-17T11:11:59+00:00",
+  "consignas_md5": "a23b97c8",
+  "fuentes_md5": {
+    "texto": "f7ce2e05",
+    "contexto": "bdd9152d"
+  },
+  "motivo_fin": [
+    "stop",
+    "stop"
+  ],
+  "tokens_salida": [
+    3013,
+    3773
+  ],
+  "turno3": {
+    "fecha_utc": "2026-09-17T11:11:59+00:00",
+    "modelo_respondido": "minimax/minimax-m3",
+    "motivo_fin": "stop",
+    "tokens_salida": 1519,
+    "consignas_md5": "a23b97c8",
+    "agregado_despues": false
+  }
+}

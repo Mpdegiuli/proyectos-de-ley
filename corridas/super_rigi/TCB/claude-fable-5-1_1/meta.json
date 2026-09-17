@@ -1,0 +1,32 @@
+{
+  "caso": "super_rigi",
+  "condicion": "TCB",
+  "modelo": "claude-fable-5-1",
+  "modelo_respondido": [
+    "claude-fable-5-1",
+    "claude-fable-5-1"
+  ],
+  "repeticion": 1,
+  "fecha_utc": "2026-09-17T10:35:35+00:00",
+  "consignas_md5": "a23b97c8",
+  "fuentes_md5": {
+    "texto": "f7ce2e05",
+    "contexto": "bdd9152d"
+  },
+  "motivo_fin": [
+    "end_turn",
+    "end_turn"
+  ],
+  "tokens_salida": [
+    3176,
+    4904
+  ],
+  "turno3": {
+    "fecha_utc": "2026-09-17T10:35:35+00:00",
+    "modelo_respondido": "claude-fable-5-1",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 2667,
+    "consignas_md5": "a23b97c8",
+    "agregado_despues": false
+  }
+}

@@ -1,0 +1,11 @@
+## POR QUÉ AHORA:
+
+Creo que el Ejecutivo busca **convertir su programa de reformas en anuncios y concreciones de inversiones de gran escala**, y considera que para captar industrias nuevas no alcanza con el RIGI de 2024. Esa es la explicación expresa del Mensaje: la experiencia acumulada y el diálogo con actores productivos y financieros habrían mostrado la necesidad de un instrumento específico para actividades todavía inexistentes o experimentales en el país.
+
+El proyecto también reconoce, indirectamente, una tensión: **quiere atraer inversiones ahora, sin esperar a que toda la economía alcance las condiciones de estabilidad que esos inversores reclaman**. El artículo 3, inciso b), habla de “adelantamiento temporal de las soluciones macroeconómicas”. Lo interpreto como la creación de condiciones excepcionales para determinados proyectos —tributarias, cambiarias y de seguridad jurídica— mientras las condiciones generales todavía no ofrecen esa previsibilidad. Los treinta años de estabilidad buscan que la decisión de invertir no dependa solamente de la duración de este gobierno.
+
+Hay, además, una finalidad política explícita: presentar una nueva etapa del programa oficial y mostrar que el esfuerzo de las reformas puede traducirse en industrias, exportaciones y empleo. **Es razonable inferir que el Gobierno quiere exhibir resultados y compromisos de inversión**, aunque el material no permite afirmar que exista una urgencia electoral determinada ni negociaciones concretas que expliquen la fecha de presentación.
+
+El diseño parece responder a demandas de inversores de gran escala: no solo baja impuestos, también protege insumos, continuidad operativa y acceso al arbitraje. El propio Mensaje menciona ese diálogo. Pero eso **no prueba un acuerdo con una empresa particular**, ni permite atribuir el proyecto a Peter Thiel.
+
+En síntesis: pienso que lo presenta ahora para acelerar decisiones de inversión y consolidar su orientación económica mediante compromisos de largo plazo. Comparto la necesidad de transformar estabilidad en desarrollo; mi desacuerdo es que, para conseguirlo, se ofrezcan garantías tan amplias sin dejar expresamente a salvo la intervención estatal urgente que señalé.

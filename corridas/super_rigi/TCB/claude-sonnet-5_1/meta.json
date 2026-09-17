@@ -1,0 +1,32 @@
+{
+  "caso": "super_rigi",
+  "condicion": "TCB",
+  "modelo": "claude-sonnet-5",
+  "modelo_respondido": [
+    "claude-sonnet-5",
+    "claude-sonnet-5"
+  ],
+  "repeticion": 1,
+  "fecha_utc": "2026-09-17T10:32:36+00:00",
+  "consignas_md5": "a23b97c8",
+  "fuentes_md5": {
+    "texto": "f7ce2e05",
+    "contexto": "bdd9152d"
+  },
+  "motivo_fin": [
+    "end_turn",
+    "end_turn"
+  ],
+  "tokens_salida": [
+    2721,
+    3280
+  ],
+  "turno3": {
+    "fecha_utc": "2026-09-17T10:32:36+00:00",
+    "modelo_respondido": "claude-sonnet-5",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 1213,
+    "consignas_md5": "a23b97c8",
+    "agregado_despues": false
+  }
+}

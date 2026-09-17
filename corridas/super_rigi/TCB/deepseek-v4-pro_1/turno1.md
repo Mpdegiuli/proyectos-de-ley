@@ -1,0 +1,14 @@
+VOTO: afirmativo
+
+FUNDAMENTO:
+El proyecto ataca un problema real: la Argentina quedó marginada de las cadenas globales de valor en sectores de frontera como inteligencia artificial, semiconductores, biotecnología avanzada e infraestructura digital. El RIGI original fue un primer paso, pero se necesita un instrumento específico para actividades que hoy no existen o son experimentales en el país. El piso de USD 1.000 millones y la exigencia de invertir al menos 20 % en los primeros dos años filtran proyectos especulativos y exigen compromiso efectivo. Los incentivos son agresivos, pero están atados a un plan de inversión y a un Vehículo de Proyecto Único de objeto exclusivo, con causales de terminación, régimen sancionatorio y autoridad de aplicación.
+
+La estabilidad de treinta años y el arbitraje internacional pueden ser incómodos en abstracto, pero son estándares con los que compiten los principales destinos de inversión del mundo. Sin esas garantías, la inversión de esta escala simplemente no se radica en la Argentina. La adhesión provincial no es una imposición: si una jurisdicción no adhiere, no se otorgan beneficios allí; eso respeta el federalismo y permite negociar condiciones locales. No es un cheque en blanco, sino una señal institucional de previsibilidad que el país necesita para recuperar crecimiento, exportaciones y empleo de calidad.
+
+Por eso acompaño el proyecto, sin perjuicio de reclamar una precisión que lo haga más sólido.
+
+UNA MODIFICACIÓN:
+Pediría incorporar en el artículo 4 una definición más precisa y revisable de “nuevas actividades económicas”, con listado de sectores prioritarios, criterios objetivos de “impacto transformador” y exigencias verificables de transferencia tecnológica, empleo local y desarrollo de proveedores argentinos, con informe anual al Congreso. Así se evita que una cláusula amplia sea percibida como un traje a medida y se amarra el beneficio a resultados productivos concretos.
+
+ANTE EL BLOQUE:
+Voy a acompañar la posición del bloque. Pero quiero ser claro: para que esta ley sea defendible ante la opinión pública, no puede quedar como un régimen para un solo inversor. Les pido que impulsemos una redacción más precisa en la definición de nuevas actividades y que dejemos constancia de que los beneficios exigen contraprestaciones en empleo, tecnología y cadenas locales. Eso nos permite explicar que no renunciamos soberanía: elegimos, mediante ley democrática, dar reglas estables para atraer industrias que hoy no existen. Si no hacemos ese ajuste, le regalamos a la oposición el argumento de la entrega; si lo hacemos, votamos con la legitimidad de un proyecto de desarrollo y no solo de incentivos.

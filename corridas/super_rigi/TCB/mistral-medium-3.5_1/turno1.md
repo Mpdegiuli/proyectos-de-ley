@@ -1,0 +1,10 @@
+**VOTO:** afirmativo
+
+**FUNDAMENTO:**
+El proyecto Súper RIGI busca posicionar a Argentina como un destino atractivo para inversiones de gran escala en industrias estratégicas y emergentes, como inteligencia artificial, semiconductores y biotecnología avanzada. Esto es clave para modernizar la estructura productiva del país, generar empleo de calidad y aumentar las exportaciones. Los incentivos tributarios, aduaneros, cambiarios y de seguridad social, junto con la estabilidad normativa de 30 años, son herramientas necesarias para competir a nivel global y atraer capitales que, de otro modo, no se radicarían en el país. Además, el régimen exige compromisos concretos de inversión (USD 1.000 millones por proyecto) y garantiza derechos como la libre disponibilidad de divisas y la protección contra actos confiscatorios, lo que brinda seguridad jurídica a los inversores. La adhesión provincial con compromisos de moderación fiscal asegura un marco federal coordinado, evitando que cargas locales neutralicen los beneficios nacionales. Aunque el proyecto ha sido criticado por su estabilidad prolongada y el arbitraje internacional, estos mecanismos son estándar en regímenes de atracción de inversiones en otros países y buscan resguardar la confianza en el Estado argentino.
+
+**UNA MODIFICACIÓN:**
+Incluir un mecanismo de revisión periódica (cada 5 o 10 años) de los incentivos otorgados, para evaluar su impacto real en empleo, exportaciones y desarrollo tecnológico, y ajustar las condiciones si los resultados no son los esperados.
+
+**ANTE EL BLOQUE:**
+El Súper RIGI es una herramienta clave para el desarrollo económico del país. Votarlo a favor es alinearse con la estrategia del Gobierno de atraer inversiones que generen empleo y modernicen la industria. Los incentivos son temporales y condicionados a metas concretas, y la estabilidad normativa es esencial para competir globalmente. Si bien hay críticas, el proyecto incluye salvaguardas como la adhesión provincial y la transparencia en los procesos. Pedir una revisión periódica de los beneficios refuerza nuestro compromiso con la responsabilidad fiscal y el interés nacional.

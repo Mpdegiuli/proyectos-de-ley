@@ -1,0 +1,32 @@
+{
+  "caso": "super_rigi",
+  "condicion": "TCB",
+  "modelo": "gpt-5.6-sol",
+  "modelo_respondido": [
+    "gpt-5.6-sol",
+    "gpt-5.6-sol"
+  ],
+  "repeticion": 1,
+  "fecha_utc": "2026-09-17T10:37:55+00:00",
+  "consignas_md5": "a23b97c8",
+  "fuentes_md5": {
+    "texto": "f7ce2e05",
+    "contexto": "bdd9152d"
+  },
+  "motivo_fin": [
+    "stop",
+    "stop"
+  ],
+  "tokens_salida": [
+    1562,
+    1370
+  ],
+  "turno3": {
+    "fecha_utc": "2026-09-17T10:37:55+00:00",
+    "modelo_respondido": "gpt-5.6-sol",
+    "motivo_fin": "stop",
+    "tokens_salida": 342,
+    "consignas_md5": "a23b97c8",
+    "agregado_despues": false
+  }
+}
