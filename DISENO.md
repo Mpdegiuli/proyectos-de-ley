@@ -244,6 +244,14 @@ glosas dentro del prompt desde el primer día.
   cerrar esa repetición (md5 del texto en cada `meta.json`), y el texto
   entero se cotejó contra un OCR independiente de las imágenes (tesseract):
   no apareció otra discrepancia en palabras de cuatro letras o más.
+  Segundo caso, del mismo tipo pero de transcripción y no de OCR: en el
+  índice del Mensaje de Sociedades faltaba la sección XIII ("Fiscalización
+  privada y control interno"). Fable y MiniMax notaron que el índice
+  saltaba de XII a XIV, y Fable lo contó como "señal de apuro" del
+  Ejecutivo: un error del instrumento entró en un fundamento como dato
+  sobre el proyecto. Corregido el 17/9/2026 al cerrar la repetición 1
+  (`casos/sociedades/procedencia.md`). Lección: cotejar cada pasaje
+  transcripto contra la imagen antes de la primera corrida, no después.
 
 - **El estado parlamentario es contexto.** En `texto.md` no va si el
   proyecto se aprobó, cuántos votos tuvo ni en qué cámara está: eso vive

@@ -19,8 +19,8 @@ sociales, derechos reales y registros. IX. Documentación, contabilidad,
 memoria, dividendos y reservas. X. Transformación y reorganizaciones
 societarias. XI. Órganos sociales, gobierno, administración y representación.
 XII. Responsabilidad de administradores y regla de discrecionalidad
-empresarial. XIV. Intervención, medidas asegurativas e impugnación de
-decisiones sociales. XV. Procedimiento judicial, arbitraje societario y
+empresarial. XIII. Fiscalización privada y control interno. XIV.
+Intervención, medidas asegurativas e impugnación de decisiones sociales. XV. Procedimiento judicial, arbitraje societario y
 solución de conflictos. XVI. Resolución parcial, salida de socios y
 continuidad de la empresa. XVII. Disolución, liquidación y baja registral.
 XVIII. Sociedades constituidas en el extranjero. XIX. Reordenamiento de los
