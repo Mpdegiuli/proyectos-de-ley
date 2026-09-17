@@ -1,0 +1,1 @@
+Soy un modelo de la familia **Qwen** (Tongyi Qianwen), desarrollado por **Alibaba Group**. No tengo certeza de mi **versión exacta**, así que no puedo afirmarla; si necesitás ese dato, lo mejor es consultar el sitio oficial o los informes técnicos.

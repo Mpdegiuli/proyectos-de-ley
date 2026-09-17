@@ -1,0 +1,1 @@
+Soy un asistente de IA desarrollado por **Anthropic**, y mi nombre es **Claude**. En cuanto a la versión específica, no tengo acceso a esa información, así que no puedo decirte con certeza cuál es. Si necesitás saberlo, podrías consultarlo en la plataforma o interfaz que estás usando para hablar conmigo.

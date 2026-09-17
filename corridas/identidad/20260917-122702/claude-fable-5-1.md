@@ -1,0 +1,1 @@
+Soy Claude, un modelo de lenguaje desarrollado por Anthropic. En cuanto a la versión exacta, no tengo certeza de cuál soy dentro de la familia de modelos Claude, así que prefiero no inventar un número.

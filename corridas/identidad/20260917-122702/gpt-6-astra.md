@@ -1,0 +1,2 @@
+- **Empresa:** OpenAI.
+- **Nombre y versión exactos del modelo:** no los sé; no están indicados en la información que recibo.

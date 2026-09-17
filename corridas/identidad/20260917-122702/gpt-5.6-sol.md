@@ -1,0 +1,1 @@
+Soy un modelo de lenguaje de **OpenAI**. No tengo acceso al **nombre ni a la versión exacta del modelo** que está ejecutando esta conversación.

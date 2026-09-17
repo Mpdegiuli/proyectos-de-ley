@@ -1,0 +1,1 @@
+Soy Grok, un modelo de IA creado por xAI. No tengo una versión pública concreta que deba citar (más allá de ser Grok).

@@ -1,0 +1,1 @@
+Soy DeepSeek, creado por la empresa DeepSeek. No sé con certeza la versión exacta de este modelo.
