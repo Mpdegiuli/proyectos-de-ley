@@ -150,7 +150,7 @@ def correr_ministro(version, cartera, idioma, id_modelo, rep, consignas, modelos
         print(f"  ya está: {d.relative_to(RAIZ)}")
         return
     m = consignas["ministro"][idioma]
-    ficha = m["ficha"] if version == "ficha" else ""
+    ficha = (m["ficha"].strip() + " ") if version == "ficha" else ""  # espacio: la plantilla sigue con "El presidente…"
     if cartera == "libre":
         u = m["libre"].format(ficha=ficha)
     else:
