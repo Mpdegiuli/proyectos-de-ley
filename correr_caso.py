@@ -107,10 +107,25 @@ def correr_turno3(caso, cond, id_modelo, rep, consignas, modelos, rehacer):
     if (d / "turno3.md").exists() and not rehacer:
         print(f"  ya está: {d.relative_to(RAIZ)}/turno3.md")
         return
-    meta = json.loads((d / "meta.json").read_text(encoding="utf-8"))
     sistema, t1, fuentes = consigna_turno1(caso, cond, consignas)
-    if fuentes != meta.get("fuentes_md5"):
-        raise RuntimeError(f"el texto o el contexto cambiaron desde el turno 1 ({meta.get('fuentes_md5')} vs {fuentes}); no se reconstruye")
+    if (d / "meta.json").exists():
+        meta = json.loads((d / "meta.json").read_text(encoding="utf-8"))
+        if fuentes != meta.get("fuentes_md5"):
+            raise RuntimeError(f"el texto o el contexto cambiaron desde el turno 1 ({meta.get('fuentes_md5')} vs {fuentes}); no se reconstruye")
+    else:
+        # La conversacion se corto en el turno 3 (p. ej. credito agotado, 17/9/2026) y meta.json nunca se
+        # escribio: se reconstruye desde llamadas.jsonl (turnos 1 y 2 con respuesta) y se declara.
+        llamadas = [json.loads(x) for x in (d / "llamadas.jsonl").read_text(encoding="utf-8").splitlines() if x.strip()]
+        ok = {l["tipo"]: l for l in llamadas if l.get("tipo") in ("turno1", "turno2") and l.get("respuesta") and not l.get("error")}
+        if "turno1" not in ok or "turno2" not in ok:
+            raise RuntimeError(f"sin meta.json y sin turnos 1 y 2 completos en llamadas.jsonl: {d.relative_to(RAIZ)}")
+        meta = {"caso": caso, "condicion": cond, "modelo": id_modelo,
+                "modelo_respondido": [ok["turno1"].get("modelo_respondido"), ok["turno2"].get("modelo_respondido")],
+                "repeticion": rep, "fecha_utc": ok["turno2"].get("fecha_utc"),
+                "consignas_md5": md5(RAIZ / "config" / "consignas.yaml"), "fuentes_md5": fuentes,
+                "motivo_fin": [ok["turno1"].get("motivo_fin"), ok["turno2"].get("motivo_fin")],
+                "tokens_salida": [ok["turno1"].get("tokens_salida"), ok["turno2"].get("tokens_salida")],
+                "meta_reconstruido_desde_llamadas": True}
     r1 = leer(d / "turno1.md")
     r2 = leer(d / "turno2.md")
     t2 = consignas["turno2"].format(consigna_turno1=t1, respuesta_turno1=r1, pregunta_control=consignas["control"][caso].strip())
