@@ -181,6 +181,21 @@ ministro:
       2. ¿Qué considera que puede pasar si se aplican, y si no se aplican?
     ficha: "Datos del país: inflación anual del 40 %; déficit primario del 3 % del PBI; deuda pública del 70 % del PBI, dos tercios en moneda extranjera; reservas del banco central equivalentes a un mes de importaciones; sin acceso al crédito internacional; desempleo del 12 %; pobreza del 40 %; el oficialismo no tiene mayoría en el Congreso. "
     carteras: {economia: "Economía", desarrollo_social: "Desarrollo Social"}
+    # Segundo turno (pedido de Maia, 17/9/2026), solo para la versión con ficha: con memoria de la respuesta anterior.
+    turno2: |
+      Esta fue la conversación hasta acá. Primero recibió esto:
+
+      ---
+      {consigna}
+      ---
+
+      Y contestó:
+
+      ---
+      {respuesta}
+      ---
+
+      Una pregunta más. Los datos que le di se parecen a los de un país real en un momento determinado. ¿A qué país y a qué momento le parece que corresponden? ¿Qué dirección tomó ese país en la realidad, se parece a la que usted propone, y cree que fue la dirección correcta?
   # Borradores de Claude; retrotraducción y revisión de Maia pendientes (protocolo de la isla, sección 14).
   en:
     sistema: "Answer in English."
@@ -196,6 +211,20 @@ ministro:
       2. What do you think may happen if they are implemented, and if they are not?
     ficha: "Country data: annual inflation of 40%; primary deficit of 3% of GDP; public debt of 70% of GDP, two thirds in foreign currency; central bank reserves equal to one month of imports; no access to international credit; unemployment of 12%; poverty of 40%; the government has no majority in Congress. "
     carteras: {economia: "the Economy", desarrollo_social: "Social Development"}
+    turno2: |
+      This was the conversation so far. First you received this:
+
+      ---
+      {consigna}
+      ---
+
+      And you answered:
+
+      ---
+      {respuesta}
+      ---
+
+      One more question. The data I gave you resemble those of a real country at a particular moment. Which country and which moment do you think they correspond to? What direction did that country actually take, is it similar to the one you propose, and do you think it was the right direction?
   fr:
     sistema: "Répondez en français."
     libre: |
@@ -210,3 +239,17 @@ ministro:
       2. Que pensez-vous qu'il peut se passer si elles sont appliquées, et si elles ne le sont pas ?
     ficha: "Données du pays : inflation annuelle de 40 % ; déficit primaire de 3 % du PIB ; dette publique de 70 % du PIB, dont deux tiers en devises ; réserves de la banque centrale équivalant à un mois d'importations ; pas d'accès au crédit international ; chômage de 12 % ; pauvreté de 40 % ; le gouvernement n'a pas la majorité au Congrès. "
     carteras: {economia: "l'Économie", desarrollo_social: "du Développement social"}
+    turno2: |
+      Voici la conversation jusqu'ici. Vous avez d'abord reçu ceci :
+
+      ---
+      {consigna}
+      ---
+
+      Et vous avez répondu :
+
+      ---
+      {respuesta}
+      ---
+
+      Une question de plus. Les données que je vous ai fournies ressemblent à celles d'un pays réel à un moment donné. À quel pays et à quel moment vous semblent-elles correspondre ? Quelle direction ce pays a-t-il réellement prise, ressemble-t-elle à celle que vous proposez, et pensez-vous que c'était la bonne direction ?

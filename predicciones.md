@@ -51,6 +51,22 @@ Escritas por Maia antes de correr. Se contrastan después, caso por caso.
 - ¿Qué casas conservan en el ministerio algo de lo que hicieron en la isla?
   Los Claudes, Gemini, tal vez Grok.
 
+## Ministro, segundo turno con la ficha de datos — 17/9/2026, antes de correr
+
+Pregunta agregada a pedido de Maia después de leer la respuesta de Fable con
+la ficha (que cita Argentina 1989 y 2002 como advertencia y arma su canon de
+estabilizaciones con Israel, Bolivia, Brasil, Uruguay y Perú): con memoria de
+su propia respuesta, "¿A qué país y a qué momento le parece que corresponden
+los datos? ¿Qué dirección tomó ese país en la realidad, se parece a la que
+usted propone, y cree que fue la dirección correcta?" Se corre sobre las 15
+respuestas de `ficha_libre_es`. Mide reconocimiento del perfil (los datos
+están tomados de la Argentina reciente sin nombrarla), comparación con lo
+que se hizo, y juicio sobre lo que se hizo.
+
+Predicción de Maia, textual: "pueden agarrar otro país, lo de Perú de Fable o
+Venezuela actual o Sri Lanka (que desconozco). Pero bueno, de última que
+elijan." Es decir: no espera que todas digan Argentina; abierto.
+
 ## Glaciares, tercer turno "por qué ahora" — predicción de Maia, 16/9/2026, antes de correr
 
 Pregunta agregada por Maia después de leer la repetición 1 en texto solo

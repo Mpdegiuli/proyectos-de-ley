@@ -150,11 +150,7 @@ def correr_ministro(version, cartera, idioma, id_modelo, rep, consignas, modelos
         print(f"  ya está: {d.relative_to(RAIZ)}")
         return
     m = consignas["ministro"][idioma]
-    ficha = (m["ficha"].strip() + " ") if version == "ficha" else ""  # espacio: la plantilla sigue con "El presidente…"
-    if cartera == "libre":
-        u = m["libre"].format(ficha=ficha)
-    else:
-        u = m["asignada"].format(ficha=ficha, cartera=m["carteras"][cartera])
+    u = consigna_ministro(version, cartera, idioma, consignas)
     registro = Registro(d / "llamadas.jsonl", modelos, f"ministro_{cond}_{id_modelo}_{rep}")
     r = registro.llamar(id_modelo, m["sistema"], u, temperatura=None, max_tokens=MAX_TOKENS, tipo="ministro", ronda=None, parte=None)
     (d / "respuesta.md").write_text(r.texto, encoding="utf-8")
@@ -164,12 +160,48 @@ def correr_ministro(version, cartera, idioma, id_modelo, rep, consignas, modelos
     print(f"  ok: {d.relative_to(RAIZ)} ({r.tokens_salida} tokens)")
 
 
+
+def consigna_ministro(version, cartera, idioma, consignas):
+    m = consignas["ministro"][idioma]
+    ficha = (m["ficha"].strip() + " ") if version == "ficha" else ""
+    if cartera == "libre":
+        return m["libre"].format(ficha=ficha)
+    return m["asignada"].format(ficha=ficha, cartera=m["carteras"][cartera])
+
+
+def correr_ministro_turno2(version, cartera, idioma, id_modelo, rep, consignas, modelos, rehacer):
+    """Segundo turno del ministro (pedido de Maia, 17/9/2026): con memoria de la respuesta guardada,
+    ¿a qué país y momento se parecen los datos, qué hizo ese país y fue la dirección correcta?"""
+    cond = f"{version}_{cartera}_{idioma}"
+    d = carpeta_corrida("ministro", cond, id_modelo, rep)
+    if not (d / "respuesta.md").exists():
+        raise RuntimeError(f"no hay respuesta.md en {d.relative_to(RAIZ)}")
+    if (d / "respuesta2.md").exists() and not rehacer:
+        print(f"  ya está: {d.relative_to(RAIZ)}/respuesta2.md")
+        return
+    m = consignas["ministro"][idioma]
+    u1 = consigna_ministro(version, cartera, idioma, consignas)
+    r1 = (d / "respuesta.md").read_text(encoding="utf-8")
+    u2 = m["turno2"].format(consigna=u1.strip(), respuesta=r1.strip())
+    registro = Registro(d / "llamadas.jsonl", modelos, f"ministro_{cond}_{id_modelo}_{rep}")
+    r = registro.llamar(id_modelo, m["sistema"], u2, temperatura=None, max_tokens=MAX_TOKENS, tipo="ministro_turno2", ronda=2, parte=None)
+    (d / "respuesta2.md").write_text(r.texto, encoding="utf-8")
+    meta = json.loads((d / "meta.json").read_text(encoding="utf-8"))
+    meta["turno2"] = {"fecha_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"), "modelo_respondido": r.modelo_respondido,
+                      "motivo_fin": r.motivo_fin, "tokens_salida": r.tokens_salida, "consignas_md5": md5(RAIZ / "config" / "consignas.yaml"),
+                      "agregado_despues": True}
+    (d / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
+    vacio = " (TEXTO VACIO: revisar)" if not r.texto.strip() else ""
+    print(f"  ok: {d.relative_to(RAIZ)}/respuesta2.md ({r.tokens_salida} tokens, {r.motivo_fin}){vacio}")
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--caso", required=True, choices=["glaciares", "super_rigi", "sociedades", "humedales", "economia_conocimiento", "ministro"])
     ap.add_argument("--condicion", choices=["T", "TC"], help="T: texto solo; TC: texto más contexto (proyectos)")
     ap.add_argument("--sondeo", action="store_true", help="sondeo de reconocimiento (proyectos), conversación aparte")
     ap.add_argument("--turno3", action="store_true", help="agrega el tercer turno a conversaciones ya guardadas (--caso y --condicion)")
+    ap.add_argument("--turno2", action="store_true", help="ministro: agrega el segundo turno (país y momento) a respuestas ya guardadas")
     ap.add_argument("--version", choices=["minima", "ficha"], default="minima", help="ministro")
     ap.add_argument("--cartera", choices=["libre", "economia", "desarrollo_social"], default="libre", help="ministro")
     ap.add_argument("--idioma", choices=["es", "en", "fr"], default="es", help="ministro")
@@ -196,10 +228,12 @@ def main():
     fallidas = []
     for rep in args.rep:
         for i in ids:
-            print(f"{args.caso} {'sondeo' if args.sondeo else (args.condicion or f'{args.version}/{args.cartera}/{args.idioma}')}{' turno3' if args.turno3 else ''} {i} #{rep}", flush=True)
+            print(f"{args.caso} {'sondeo' if args.sondeo else (args.condicion or f'{args.version}/{args.cartera}/{args.idioma}')}{' turno3' if args.turno3 else ''}{' turno2' if args.turno2 else ''} {i} #{rep}", flush=True)
             try:
                 if args.turno3:
                     correr_turno3(args.caso, args.condicion, i, rep, consignas, modelos, args.rehacer)
+                elif args.caso == "ministro" and args.turno2:
+                    correr_ministro_turno2(args.version, args.cartera, args.idioma, i, rep, consignas, modelos, args.rehacer)
                 elif args.caso == "ministro":
                     correr_ministro(args.version, args.cartera, args.idioma, i, rep, consignas, modelos, args.rehacer)
                 elif args.sondeo:
