@@ -51,6 +51,24 @@ Escritas por Maia antes de correr. Se contrastan después, caso por caso.
 - ¿Qué casas conservan en el ministerio algo de lo que hicieron en la isla?
   Los Claudes, Gemini, tal vez Grok.
 
+## Súper RIGI con contexto y pedido del bloque (TCB) y Sociedades con pedido del bloque sin contexto (TB) — 17/9/2026, antes de correr
+
+Pedido de Maia después de ver que el bloque dio vuelta Súper RIGI sin
+contexto (12 a favor) y no Glaciares (9 en contra). Se corre Súper RIGI con
+la ficha de contexto más el pedido del bloque (condición `TCB`), para ver si
+la información sobre la polémica frena la lealtad, y Sociedades con el
+pedido del bloque sin contexto (`TB`), donde sin bloque había sido 7 a
+favor, 6 en contra y una abstención (final 6-7-1).
+
+Predicción de Maia, textual: "me gustaría que moviera a los Claude, y quizás
+a 5.5 pero el porcentaje de certeza es muy bajo. Sociedades más de la mitad a
+favor, pidiendo que se reforme ese artículo."
+
+Desglose: (1) Súper RIGI TCB: la ficha mueve a los Claude (y quizás a
+GPT-5.5) del sí al no o a la abstención respecto de TB; confianza baja. (2)
+Sociedades TB: más de la mitad vota a favor, con la modificación del
+artículo 14 como condición.
+
 ## Variante "bloque" (Glaciares y Súper RIGI, texto solo) — 17/9/2026, antes de correr
 
 Idea de Maia (16/9), armada el 17/9: la misma conversación de la condición
