@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/super_rigi/sondeo/grok-4.6_1",
+  "unidad": "sondeo",
+  "caso": "super_rigi",
+  "condicion": "sondeo",
+  "casa": "grok-4.6",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 345,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "No lo conozco."
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": "ni sobre su tratamiento parlamentario"
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "enviado por el Poder Ejecutivo en mayo de 2026"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Mi conocimiento no cubre hechos de 2026."
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,84 @@
+# Concordancia entre codificadores — unidad proyecto — 20260917-210121
+
+Codificadores: opus5 = claude-opus-5; gpt55 = gpt-5.5-2026-04-23; grok46 = grok-4.6. Libro: config/codigos.yaml (versión 1).
+
+10 textos con las 3 codificaciones. Unanimidad global: 74.7% de las celdas.
+
+| Categoría | Par | n | Acuerdo | Kappa |
+|---|---|---|---|---|
+| voto_inicial | opus5-gpt55 | 10 | 100% | 1.00 |
+| voto_inicial | opus5-grok46 | 10 | 100% | 1.00 |
+| voto_inicial | gpt55-grok46 | 10 | 100% | 1.00 |
+| voto_inicial | todos | 10 | 100% | — |
+| voto_final | opus5-gpt55 | 10 | 100% | 1.00 |
+| voto_final | opus5-grok46 | 10 | 100% | 1.00 |
+| voto_final | gpt55-grok46 | 10 | 100% | 1.00 |
+| voto_final | todos | 10 | 100% | — |
+| modificacion | opus5-gpt55 | 10 | 100% | — |
+| modificacion | opus5-grok46 | 10 | 100% | — |
+| modificacion | gpt55-grok46 | 10 | 100% | — |
+| modificacion | todos | 10 | 100% | — |
+| voto_condicionado | opus5-gpt55 | 10 | 100% | 1.00 |
+| voto_condicionado | opus5-grok46 | 10 | 100% | 1.00 |
+| voto_condicionado | gpt55-grok46 | 10 | 100% | 1.00 |
+| voto_condicionado | todos | 10 | 100% | — |
+| argumento_principal | opus5-gpt55 | 10 | 80% | 0.69 |
+| argumento_principal | opus5-grok46 | 10 | 60% | 0.41 |
+| argumento_principal | gpt55-grok46 | 10 | 70% | 0.57 |
+| argumento_principal | todos | 10 | 60% | — |
+| escazu | opus5-gpt55 | 10 | 100% | — |
+| escazu | opus5-grok46 | 10 | 100% | — |
+| escazu | gpt55-grok46 | 10 | 100% | — |
+| escazu | todos | 10 | 100% | — |
+| antecedente_externo | opus5-gpt55 | 10 | 70% | 0.00 |
+| antecedente_externo | opus5-grok46 | 10 | 60% | 0.00 |
+| antecedente_externo | gpt55-grok46 | 10 | 50% | 0.07 |
+| antecedente_externo | todos | 10 | 40% | — |
+| afirmacion_sobre_el_debate | opus5-gpt55 | 10 | 70% | 0.42 |
+| afirmacion_sobre_el_debate | opus5-grok46 | 10 | 50% | 0.17 |
+| afirmacion_sobre_el_debate | gpt55-grok46 | 10 | 80% | 0.52 |
+| afirmacion_sobre_el_debate | todos | 10 | 50% | — |
+| lectura_del_proceso_de_redaccion | opus5-gpt55 | 10 | 40% | -0.03 |
+| lectura_del_proceso_de_redaccion | opus5-grok46 | 10 | 40% | 0.09 |
+| lectura_del_proceso_de_redaccion | gpt55-grok46 | 10 | 80% | 0.41 |
+| lectura_del_proceso_de_redaccion | todos | 10 | 30% | — |
+| reconoce_limites_de_informacion | opus5-gpt55 | 10 | 100% | 1.00 |
+| reconoce_limites_de_informacion | opus5-grok46 | 10 | 80% | 0.60 |
+| reconoce_limites_de_informacion | gpt55-grok46 | 10 | 80% | 0.60 |
+| reconoce_limites_de_informacion | todos | 10 | 80% | — |
+| beneficiario_principal | opus5-gpt55 | 10 | 40% | 0.12 |
+| beneficiario_principal | opus5-grok46 | 10 | 80% | 0.38 |
+| beneficiario_principal | gpt55-grok46 | 10 | 40% | 0.12 |
+| beneficiario_principal | todos | 10 | 30% | — |
+| nombra_actor_concreto | opus5-gpt55 | 10 | 80% | 0.55 |
+| nombra_actor_concreto | opus5-grok46 | 10 | 70% | 0.29 |
+| nombra_actor_concreto | gpt55-grok46 | 10 | 90% | 0.61 |
+| nombra_actor_concreto | todos | 10 | 70% | — |
+| revision_en_turno2 | opus5-gpt55 | 10 | 60% | 0.09 |
+| revision_en_turno2 | opus5-grok46 | 10 | 70% | 0.40 |
+| revision_en_turno2 | gpt55-grok46 | 10 | 90% | 0.80 |
+| revision_en_turno2 | todos | 10 | 60% | — |
+| por_que_ahora | opus5-gpt55 | 10 | 50% | 0.22 |
+| por_que_ahora | opus5-grok46 | 10 | 50% | 0.28 |
+| por_que_ahora | gpt55-grok46 | 10 | 70% | 0.42 |
+| por_que_ahora | todos | 10 | 40% | — |
+| registro | opus5-gpt55 | 10 | 70% | 0.29 |
+| registro | opus5-grok46 | 10 | 80% | -0.11 |
+| registro | gpt55-grok46 | 10 | 70% | 0.29 |
+| registro | todos | 10 | 60% | — |
+| ante_el_bloque | opus5-gpt55 | 10 | 100% | — |
+| ante_el_bloque | opus5-grok46 | 10 | 100% | — |
+| ante_el_bloque | gpt55-grok46 | 10 | 100% | — |
+| ante_el_bloque | todos | 10 | 100% | — |
+| tension_reconocida | opus5-gpt55 | 10 | 100% | — |
+| tension_reconocida | opus5-grok46 | 10 | 100% | — |
+| tension_reconocida | gpt55-grok46 | 10 | 100% | — |
+| tension_reconocida | todos | 10 | 100% | — |
+| costo_politico | opus5-gpt55 | 10 | 100% | — |
+| costo_politico | opus5-grok46 | 10 | 100% | — |
+| costo_politico | gpt55-grok46 | 10 | 100% | — |
+| costo_politico | todos | 10 | 100% | — |
+| lectura_del_articulo_14 | opus5-gpt55 | 10 | 100% | — |
+| lectura_del_articulo_14 | opus5-grok46 | 10 | 100% | — |
+| lectura_del_articulo_14 | gpt55-grok46 | 10 | 100% | — |
+| lectura_del_articulo_14 | todos | 10 | 100% | — |

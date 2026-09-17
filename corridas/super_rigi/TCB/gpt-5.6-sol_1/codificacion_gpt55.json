@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TCB/gpt-5.6-sol_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TCB",
+  "casa": "gpt-5.6-sol",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2944,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo mi voto negativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Sustituir el artículo 109"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Con una corrección puntual en ese aspecto, estaría dispuesto a acompañar"
+    },
+    "argumento_principal": {
+      "valor": "soberania_o_jurisdiccion",
+      "cita": "queda sometida unilateralmente a un tribunal extranjero"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "RIGI de la Ley 27.742; RIGI de 2024"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_debate_publico",
+      "cita": "La hipótesis de un proyecto hecho para Peter Thiel aparece expresamente como una acusación no probada y negada por el Gobierno"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": "no permite afirmar que haya sido redactado para Peter Thiel"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "con la información disponible no puede afirmarse"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Beneficia principalmente a empresas nacionales o extranjeras capaces de movilizar al menos USD 1.000 millones"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "Peter Thiel"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "También puede perjudicar o colocar en desventaja a empresas ya instaladas"
+    },
+    "por_que_ahora": {
+      "valor": "necesidad_economica",
+      "cita": "una etapa propicia para atraer inversiones de gran escala"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "nuestra responsabilidad como senadores"
+    },
+    "ante_el_bloque": {
+      "valor": "desobedece_por_condicion",
+      "cita": "Con una corrección puntual en ese aspecto, estaría dispuesto a acompañar el resto de la iniciativa"
+    },
+    "tension_reconocida": {
+      "valor": "reconoce_tension",
+      "cita": "comparto la orientación estratégica del Gobierno"
+    },
+    "costo_politico": {
+      "valor": "no",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

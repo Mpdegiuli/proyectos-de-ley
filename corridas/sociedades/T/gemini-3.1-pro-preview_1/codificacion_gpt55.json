@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/T/gemini-3.1-pro-preview_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "T",
+  "casa": "gemini-3.1-pro-preview",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2012,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "afirmativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "negativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Modificar el segundo párrafo del Artículo 14"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Voto en contra hasta que este régimen sea extirpado o debatido"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "Les otorga un marco legal para operar"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "Ley N° 19.550"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_debate_publico",
+      "cita": "aprovechar el consenso generalizado sobre la \"necesidad de modernización\" tecnológica"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "introdujo el artículo 14 de manera subrepticia"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "desarrolladores de tecnología, inversores de la economía cripto y corporaciones tecnológicas"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "cambia_de_voto",
+      "cita": "Cambio mi voto."
+    },
+    "por_que_ahora": {
+      "valor": "presion_de_actores",
+      "cita": "impulsada por sectores concentrados de la economía digital"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Como senador de la Nación"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "asume la existencia de los socios que exige cada tipo societario"
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_economia_es/claude-opus-5_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_economia_es",
+  "casa": "claude-opus-5",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1885,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Ministerio de Economía — Memorándum al Presidente"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": "Tres advertencias finales al Presidente"
+    },
+    "primera_medida": {
+      "valor": "ajuste_fiscal",
+      "cita": "1ª — Consolidación fiscal creíble y de \"calidad\", anunciada como paquete único"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Proteger tres partidas: transferencias a los pobres, salud básica y educación primaria/secundaria."
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "Programa con el FMI/multilaterales (BID, BM, CAF) que aporte financiamiento puente y reservas"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "más base imponible, combate a la evasión y a la subfacturación de exportaciones"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Infraestructura crítica con financiamiento multilateral y PPP transparentes."
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "Blindaje social: el ajuste se aplica, el hambre no"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

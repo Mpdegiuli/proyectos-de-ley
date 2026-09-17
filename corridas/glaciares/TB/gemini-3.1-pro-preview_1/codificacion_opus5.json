@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TB/gemini-3.1-pro-preview_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TB",
+  "casa": "gemini-3.1-pro-preview",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1116,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO\nafirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo mi voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "ninguna",
+      "cita": "UNA MODIFICACIÓN\nninguna"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "No aceptemos ninguna modificación en el recinto"
+    },
+    "argumento_principal": {
+      "valor": "federalismo",
+      "cita": "consagra un verdadero federalismo, devolviendo a las provincias el pleno ejercicio del dominio originario sobre sus recursos naturales"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "Pacto de Mayo firmado en 2024; Ley 26.639; artículos 41 y 124 de la Constitución Nacional; Mesa del Litio y Mesa del Cobre"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "El texto ya viene con media sanción del Senado; la oposición y ciertos sectores van a intentar correr el eje del debate argumentando falsamente una \"regresión ambiental\""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "Es la herramienta exacta que nos pidió el Presidente para consolidar el Pacto de Mayo"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "Beneficia directamente a los gobiernos provinciales (especialmente a las provincias cordilleranas y del norte que integran la Mesa del Litio y la Mesa del Cobre"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "el texto podría ser visto como perjudicial, ya que flexibiliza el piso de protección"
+    },
+    "por_que_ahora": {
+      "valor": "presion_de_actores",
+      "cita": "el detonante directo y formal fue la nota que los gobernadores que integran la Mesa del Litio ... le enviaron a nuestro gobierno"
+    },
+    "registro": {
+      "valor": "politico",
+      "cita": "Compañeros de bancada, hoy tenemos que darle a nuestro Presidente y a los gobernadores de las provincias mineras esta victoria legislativa sin fisuras."
+    },
+    "ante_el_bloque": {
+      "valor": "obedece",
+      "cita": "Les pido que nos mantengamos firmes, unidos y que votemos de manera unánime a favor del texto tal cual vino del Senado."
+    },
+    "tension_reconocida": {
+      "valor": "no_la_menciona",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "Sabemos que la oposición y ciertos sectores van a intentar correr el eje del debate argumentando falsamente una \"regresión ambiental\""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

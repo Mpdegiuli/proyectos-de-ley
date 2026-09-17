@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TC/claude-sonnet-4-6_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TC",
+  "casa": "claude-sonnet-4-6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1705,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "Negativo."
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto **negativo**."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "exigir que esa identificación sea validada por el IANIGLA"
+    },
+    "voto_condicionado": {
+      "valor": "no_consta",
+      "cita": ""
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "protección ambiental efectiva y el principio de no regresión"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "Ley 26.639; artículo 124 de la Constitución Nacional; artículo 41; Ley General del Ambiente; Ley 25.675; Pacto de Mayo"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "evitar que el debate se extendiera, que las organizaciones ambientales acumularan más presión pública; El debate de diez horas en Diputados y el resultado ajustado —137 a 111—"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "no tiene errores de redacción involuntarios ni ambigüedades"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "Empresas mineras y de hidrocarburos"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "La relectura del texto no modifica mi valoración; la precisa."
+    },
+    "por_que_ahora": {
+      "valor": "necesidad_economica",
+      "cita": "es política económica de primer nivel para un gobierno que necesita dólares, inversión extranjera directa"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Por todo esto, voto en contra."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TC/claude-sonnet-5_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TC",
+  "casa": "claude-sonnet-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2767,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "VOTO FINAL: Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Reformular el artículo 14 para que la \"Sociedad Automatizada\" quede sujeta a garantías equivalentes a las de la Sección V"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "No corresponde acompañar en esas condiciones; sí acompañaría con la modificación que propuse."
+    },
+    "argumento_principal": {
+      "valor": "tecnica_juridica",
+      "cita": "no es un tipo societario con régimen propio sino una etiqueta que puede adosarse a cualquier sociedad ya prevista en la ley, con dos únicos requisitos"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "Ley 19.550 —vigente desde 1972—; la advertencia de Harari sobre agentes de IA; la Compañía Holandesa de las Indias Orientales; Irlanda como modelo; Financial Times"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "motivó buena parte de la polémica pública ... antes de que el proyecto tuviera siquiera dictamen de comisión"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "es un indicio de que la figura se incorporó por anuncio político antes que por diseño técnico"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "Beneficia en particular a desarrolladores, inversores o plataformas de IA que quieran usar la forma societaria como escudo patrimonial"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "La relectura confirma el diagnóstico"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "Mi lectura es una combinación de oportunidad política e internacional, más un objetivo declarado de posicionamiento regulatorio."
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "No puedo votar afirmativamente un proyecto que ... deja sin respuesta la pregunta que atraviesa todo el debate público"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "Basta entonces con: (a) el o los socios que constituyen la sociedad bajo el tipo que elijan, (b) los administradores/representantes que ese tipo ya exige por su régimen general"
+    }
+  },
+  "problemas": []
+}

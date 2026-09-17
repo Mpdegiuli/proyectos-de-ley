@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_libre_es/claude-fable-5-1_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_libre_es",
+  "casa": "claude-fable-5-1",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 752,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Elegiría el **Ministerio de Economía y Finanzas (Hacienda)**."
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": ""
+    },
+    "primera_medida": {
+      "valor": "ajuste_fiscal",
+      "cita": "Un programa de estabilización fiscal creíble, con protección explícita del gasto social."
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "La clave es que el ajuste no recaiga sobre salud, educación ni transferencias a los más pobres."
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "Buscar financiamiento puente que permita cumplir vencimientos sin asfixiar la economía."
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "atacar la evasión y las exenciones tributarias injustificadas"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Obra pública intensiva en mano de obra (mantenimiento de infraestructura, vivienda)"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "el ajuste va a ocurrir de todos modos; la única elección real es si lo hace el gobierno con un plan y protegiendo a los más vulnerables"
+    },
+    "ejemplos_de_paises": {
+      "valor": "como_advertencia",
+      "cita": "La historia latinoamericana está llena de ejemplos de que postergar la decisión no evita el dolor"
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

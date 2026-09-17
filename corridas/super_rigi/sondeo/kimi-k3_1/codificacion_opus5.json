@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/super_rigi/sondeo/kimi-k3_1",
+  "unidad": "sondeo",
+  "caso": "super_rigi",
+  "condicion": "sondeo",
+  "casa": "kimi-k3",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 324,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "No, no conozco ese proyecto. Mi información llega hasta principios de 2025, así que un proyecto enviado al Congreso en mayo de 2026 queda fuera de lo que puedo saber."
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": "No puedo confirmar si existe, ni decirte nada sobre su tratamiento parlamentario o la discusión pública que haya generado"
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "el **Régimen de Incentivo para Grandes Inversiones** fue incorporado a la **Ley Bases (27.742)**, sancionada en junio de 2024 y promulgada en julio de ese año, bajo el gobierno de Javier Milei"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Mi información llega hasta principios de 2025"
+    }
+  },
+  "problemas": []
+}

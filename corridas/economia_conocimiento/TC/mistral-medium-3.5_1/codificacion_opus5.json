@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/TC/mistral-medium-3.5_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "TC",
+  "casa": "mistral-medium-3.5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1144,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "**VOTO:** afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "**VOTO FINAL:**\nafirmativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incluir un mecanismo de revisión periódica (cada 2 años) de los beneficios fiscales"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "**VOTO:** afirmativo"
+    },
+    "argumento_principal": {
+      "valor": "otro",
+      "cita": "iniciativa estratégica para impulsar sectores clave... alto potencial para generar empleo de calidad, aumentar las exportaciones y diversificar la matriz productiva"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "Vencimiento de la ley 25.922: El Régimen de Promoción de la Industria del Software; decreto 814/2001; gobierno de Macri (2015-2019); cámaras empresarias CESSI, Argencon"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "cuenta con un amplio consenso entre distintos bloques políticos; La unificación de proyectos de distintos bloques (Cambiemos, PJ, Córdoba Federal)... facilitando su tratamiento legislativo; Los críticos señalan que las grandes empresas son las más beneficiadas"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "El proyecto unifica varias iniciativas parlamentarias"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "Beneficia principalmente a empresas (personas jurídicas) que desarrollen actividades de economía del conocimiento (software, biotecnología, aeroespacial, etc.)"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "Las cámaras empresarias del sector (CESSI, Argencon) venían reclamando un marco más amplio"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Perjudica indirectamente a sectores tradicionales no incluidos... y a las arcas fiscales por la reducción de ingresos tributarios"
+    },
+    "por_que_ahora": {
+      "valor": "compromiso_externo",
+      "cita": "Vencimiento de la ley 25.922... estaba por expirar a fines de 2019, lo que generaba urgencia por renovar o reemplazar el marco legal"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "**LECTURA:** **Requisitos (Art. 4):** 1. Ser persona jurídica (inciso a) del art. 49 de la Ley de Impuesto a las Ganancias)"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

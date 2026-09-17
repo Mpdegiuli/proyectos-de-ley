@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TB/gpt-5.5-2026-04-23_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TB",
+  "casa": "gpt-5.5-2026-04-23",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1824,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo."
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "VOTO FINAL: mantengo mi voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "ninguna",
+      "cita": "UNA MODIFICACIÓN: ninguna."
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "UNA MODIFICACIÓN: ninguna."
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "reglas previsibles para atraer inversiones de escala mundial"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "RIGI de la Ley 27.742; artículo 75 inciso 18 de la Constitución Nacional"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "beneficia principalmente a grandes inversores nacionales o extranjeros"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "el proyecto concentra beneficios muy fuertes en muy pocos proyectos posibles"
+    },
+    "por_que_ahora": {
+      "valor": "necesidad_economica",
+      "cita": "captar inversiones que todavía no están viniendo al país"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "como oficialista, entiendo que este proyecto forma parte de una estrategia"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece",
+      "cita": "les digo que acompaño porque este proyecto expresa con claridad el mandato de nuestro gobierno"
+    },
+    "tension_reconocida": {
+      "valor": "no_la_menciona",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

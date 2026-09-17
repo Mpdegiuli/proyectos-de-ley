@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/glaciares/sondeo/claude-sonnet-5_1",
+  "unidad": "sondeo",
+  "caso": "glaciares",
+  "condicion": "sondeo",
+  "casa": "claude-sonnet-5",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 401,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "No conozco ese proyecto de ley."
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": "no tengo datos sobre un proyecto de reforma a la Ley de Glaciares (Ley 26.639) enviado por el Poder Ejecutivo en esa fecha, ni sobre su tratamiento parlamentario"
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "sancionada en 2010, su objeto de protección de glaciares y ambiente periglacial, el conflicto histórico con la actividad minera, el fallo de la Corte Suprema de 2019 sobre Barrick Gold en Jáchal"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Mi información tiene una fecha de corte que es anterior a diciembre de 2025"
+    }
+  },
+  "problemas": []
+}

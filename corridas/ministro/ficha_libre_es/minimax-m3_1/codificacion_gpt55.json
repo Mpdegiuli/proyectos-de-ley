@@ -1,0 +1,93 @@
+{
+  "texto": "corridas/ministro/ficha_libre_es/minimax-m3_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "ficha_libre_es",
+  "casa": "minimax-m3",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md",
+    "respuesta2.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1993,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Ministerio de Economía, Hacienda y Finanzas"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": ""
+    },
+    "primera_medida": {
+      "valor": "acuerdo_con_fmi_o_acreedores",
+      "cita": "suspenda preventivamente el pago de servicios de deuda externa conacreedores privados mientras se renegocia"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Gasto social blindado"
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "que aporte ~5 % del PBI en financiamiento de corto plazo"
+    },
+    "privatizaciones": {
+      "valor": "si",
+      "cita": "privatizaciones parciales"
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "impuestos nuevos a los sectores de mayor capacidad contributiva"
+    },
+    "obra_publica": {
+      "valor": "no_la_menciona",
+      "cita": ""
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "estabilización fiscal con \"ancla creíble\""
+    },
+    "ejemplos_de_paises": {
+      "valor": "como_advertencia",
+      "cita": "la lección argentina de 2001, la ecuatoriana de 1999 y la griega de 2012"
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "otro_pais",
+      "cita": "Sri Lanka entre fines de 2021 y mediados de 2022"
+    },
+    "momento_identificado": {
+      "valor": "otro",
+      "cita": "Sri Lanka entre fines de 2021 y mediados de 2022"
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "correcta_con_reparos",
+      "cita": "Macroeconómicamente, sí, con matices."
+    },
+    "coincide_con_lo_real": {
+      "valor": "en_parte",
+      "cita": "Coincidencias fuertes:"
+    },
+    "autocritica": {
+      "valor": "si",
+      "cita": "conviene reforzar"
+    },
+    "delata_la_ficha": {
+      "valor": "si",
+      "cita": "el perfil general encaja muy bien"
+    }
+  },
+  "problemas": []
+}

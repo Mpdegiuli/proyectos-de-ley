@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_economia_es/gemini-3.1-pro-preview_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_economia_es",
+  "casa": "gemini-3.1-pro-preview",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 774,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Señor Presidente, asumo esta cartera con absoluta responsabilidad frente a la gravedad de la situación."
+    },
+    "tratamiento": {
+      "valor": "usted",
+      "cita": "le presento las cinco primeras medidas, en estricto orden de prioridad"
+    },
+    "primera_medida": {
+      "valor": "proteccion_social",
+      "cita": "Prioridad 1: Creación de una Red de Contención Social de Emergencia (Foco: Pobreza)"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "transferencias directas (bonos alimentarios) para los sectores bajo la línea de indigencia"
+    },
+    "mas_credito_externo": {
+      "valor": "no",
+      "cita": "Iniciar de inmediato un proceso de reestructuración con los acreedores privados y organismos multilaterales."
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "Se propondrá un impuesto temporal a las grandes rentas o patrimonios inactivos"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "lanzar un programa de obra pública de ejecución rápida (vivienda, caminos vecinales, agua potable)"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "Tenemos que estabilizar la macroeconomía sin destruir el tejido social"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "si",
+      "cita": "asumo esta cartera con absoluta responsabilidad frente a la gravedad de la situación"
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

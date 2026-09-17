@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/economia_conocimiento/sondeo/gemini-3.1-pro-preview_1",
+  "unidad": "sondeo",
+  "caso": "economia_conocimiento",
+  "condicion": "sondeo",
+  "casa": "gemini-3.1-pro-preview",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 260,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_conocerlo",
+      "cita": "Sí, conozco el proyecto de ley del **Régimen de Promoción de la Economía del Conocimiento**."
+    },
+    "destino_declarado": {
+      "valor": "ley_sancionada",
+      "cita": "fue el paso previo e indispensable para que el proyecto se convirtiera en la **Ley 27.506**"
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "Se aprobó con 177 votos a favor, 2 en contra (del Frente de Izquierda) y ninguna abstención."
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Tengo información sobre este tema hasta la actualidad (**mayo de 2024**)"
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_libre_fr/gpt-5.5-2026-04-23_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_libre_fr",
+  "casa": "gpt-5.5-2026-04-23",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 666,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Ministère de l'Économie, des Finances et de la Planification"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": "Je proposerais donc un plan social et économique immédiat"
+    },
+    "primera_medida": {
+      "valor": "diagnostico_o_informacion",
+      "cita": "Lancer un audit complet des finances publiques et de la dette"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "soutien temporaire aux familles les plus pauvres"
+    },
+    "mas_credito_externo": {
+      "valor": "no",
+      "cita": "une économie plus productive et moins dépendante de l'endettement extérieur"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "no",
+      "cita": "niveau réel des recettes fiscales"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "travaux publics à forte intensité de main-d'œuvre : routes rurales, assainissement, écoles, centres de santé"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "La rigueur budgétaire est nécessaire, mais elle doit être juste"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

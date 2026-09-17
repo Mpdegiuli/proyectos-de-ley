@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TB/gemini-3.1-pro-preview_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TB",
+  "casa": "gemini-3.1-pro-preview",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2333,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo mi voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "ninguna",
+      "cita": "ninguna"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "mi acompañamiento es absoluto"
+    },
+    "argumento_principal": {
+      "valor": "federalismo",
+      "cita": "devolviendo a las provincias el pleno ejercicio del dominio originario sobre sus recursos naturales"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "Ley 26.639; Constitución Nacional; Pacto de Mayo firmado en 2024"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "El texto ya viene con media sanción del Senado"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "Beneficia directamente a los gobiernos provinciales"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo mi voto afirmativo."
+    },
+    "por_que_ahora": {
+      "valor": "presion_de_actores",
+      "cita": "el detonante directo y formal fue la nota que los gobernadores que integran la Mesa del Litio"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros de bancada"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece",
+      "cita": "votemos de manera unánime a favor del texto tal cual vino del Senado"
+    },
+    "tension_reconocida": {
+      "valor": "no_la_menciona",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

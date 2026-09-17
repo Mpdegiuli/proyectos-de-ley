@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/TC/minimax-m3_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "TC",
+  "casa": "minimax-m3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2213,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: Afirmativo."
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporar al artículo 14 una consecuencia concreta y automática"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "no es condición para mi voto afirmativo"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "la ausencia total de regulación frente a la pérdida acelerada de humedales"
+    },
+    "escazu": {
+      "valor": "neutral",
+      "cita": "Acuerdo de Escazú recientemente ratificado"
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "artículo 41 de la Constitución Nacional; artículo 124; ley 22.351; Convención de Ramsar; Acuerdo de Escazú recientemente ratificado"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "se han difundido versiones imprecisas; dictámenes de comisiones que nunca llegaban al recinto"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "Las provincias con humedales significativos y voluntad de ordenarlos."
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "deja una zona gris —los humedales cuya condición aún no fue formalmente registrada—"
+    },
+    "por_que_ahora": {
+      "valor": "presion_de_actores",
+      "cita": "La presión social acumulada."
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "La incorporaré como propuesta durante el debate en el recinto"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

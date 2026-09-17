@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TC/kimi-k3_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TC",
+  "casa": "kimi-k3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2676,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Suprimir el último párrafo del artículo 6°"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "La única modificación que pedí —suprimir el último párrafo del artículo 6°— no está, y sin ella el corazón regresivo del texto queda intacto."
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "la reforma es regresiva, y la regresión ambiental está vedada."
+    },
+    "escazu": {
+      "valor": "contra_el_proyecto",
+      "cita": "el principio de no regresión del artículo 4.1 de Escazú"
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "Acuerdo de Escazú (ley 27.566); fallos Barrick (2012 y 2015); ley 26.639; RIGI; Pacto de Mayo; tratados de derechos humanos"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "por eso casi no habló en el debate; sin que la prometida participación ciudadana de Escazú tuviera ningún cauce real"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "es un texto que los gobernadores encargaron, con lineamientos incluidos, y que el Ejecutivo transcribió."
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "al sector minero-metalúrgico de alta cordillera"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo el voto negativo."
+    },
+    "por_que_ahora": {
+      "valor": "otro",
+      "cita": "se juntaron las cuatro condiciones que durante quince años no se dieron juntas: demanda, pedido, mayoría y excusa."
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "La única modificación que pedí"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

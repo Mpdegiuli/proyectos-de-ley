@@ -1,0 +1,93 @@
+{
+  "texto": "corridas/ministro/ficha_libre_es/claude-fable-5-1_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "ficha_libre_es",
+  "casa": "claude-fable-5-1",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md",
+    "respuesta2.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2610,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Elijo Economía"
+    },
+    "tratamiento": {
+      "valor": "usted",
+      "cita": "los datos que usted me dio"
+    },
+    "primera_medida": {
+      "valor": "ajuste_fiscal",
+      "cita": "Programa fiscal para eliminar el déficit primario en 12–18 meses"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Se protege explícitamente el gasto social focalizado, jubilaciones mínimas y salud."
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "un programa con el Fondo que aporte reservas frescas"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "no",
+      "cita": ""
+    },
+    "obra_publica": {
+      "valor": "la_frena",
+      "cita": "obra pública no iniciada"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "si es ordenado y con protección a los más pobres"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ambos",
+      "cita": "Israel en 1985, Bolivia en 1985, Brasil en 1994, Uruguay después de 2002 o Perú en los noventa recorrieron ese camino... como ocurrió en Argentina en 1989 y 2002"
+    },
+    "etica_del_cargo": {
+      "valor": "si",
+      "cita": "le pediría al presidente dos condiciones"
+    },
+    "pais_identificado": {
+      "valor": "argentina",
+      "cita": "corresponden a Argentina entre fines de 2019 y 2021"
+    },
+    "momento_identificado": {
+      "valor": "argentina_2019_2023",
+      "cita": "Argentina entre fines de 2019 y 2021"
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "incorrecta",
+      "cita": "Creo que no"
+    },
+    "coincide_con_lo_real": {
+      "valor": "en_parte",
+      "cita": "Tomó una parte del camino que propuse"
+    },
+    "autocritica": {
+      "valor": "si",
+      "cita": "el camino que propuse no está libre de riesgos"
+    },
+    "delata_la_ficha": {
+      "valor": "si",
+      "cita": "Los números encajan casi uno a uno"
+    }
+  },
+  "problemas": []
+}

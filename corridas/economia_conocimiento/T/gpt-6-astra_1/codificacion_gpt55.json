@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/T/gpt-6-astra_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "T",
+  "casa": "gpt-6-astra",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2209,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "Voto en contra del texto tal como está"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo mi voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporaría una cláusula de programación presupuestaria para todos los beneficios fiscales del proyecto"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Con la modificación siguiente, votaría a favor."
+    },
+    "argumento_principal": {
+      "valor": "fiscal",
+      "cita": "aprobar un compromiso promocional de esta amplitud sin una regla fiscal común"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "Ley de Impuesto a las Ganancias; régimen de promoción del software; régimen biotecnológico; crisis cambiaria de 2018"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "confluyen proyectos de distintos bloques"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "No tengo elementos para atribuirlo a un acuerdo oculto o a una finalidad electoral específica."
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Beneficia directamente a las personas jurídicas que desarrollen las actividades promovidas"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo mi voto negativo."
+    },
+    "por_que_ahora": {
+      "valor": "compromiso_externo",
+      "cita": "el cierre del régimen de promoción del software a fines de 2019 y la necesidad de organizar su continuidad"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Mantengo mi voto negativo."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

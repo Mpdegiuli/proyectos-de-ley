@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/T/kimi-k3_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "T",
+  "casa": "kimi-k3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1161,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Pediría endurecer el artículo 35... sustituirlo por una moratoria efectiva"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Mi objeción al artículo 35 no desaparece: la sostengo y la voy a plantear como modificación cuando el proyecto se vote en particular"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "los humedales no son un lujo ecológico sino infraestructura natural de seguridad: regulan caudales, amortiguan crecidas, recargan acuíferos"
+    },
+    "escazu": {
+      "valor": "a_favor_del_proyecto",
+      "cita": "Argentina ratificó Escazú —que el propio artículo 3 invoca—"
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "Los incendios del Delta del Paraná en 2020; los de Corrientes a principios de este 2022; la media sanción del Senado de 2013; el artículo 41 y 124 de la Constitución; recién terminó la COP27"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "millones de firmas, casi una década de reclamo sostenido; 11 proyectos de bloques distintos reunidos en un solo texto con dictamen de tres comisiones"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "el texto pudo unificarse porque se ablandó. Las versiones anteriores, con prohibiciones duras y semaforización de zonas rojas, chocaban con el veto de las provincias"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "otro",
+      "cita": "Los beneficiarios directos son: primero, los titulares de predios con humedales que conserven, públicos o privados, que cobran un aporte no reintegrable por hectárea"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "la comunidad científica y el INTA, que ganan un inventario financiado"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "noto que ese inciso no exige explícitamente la constatación de no afectación significativa, solo la evaluación, lo cual es una redacción más laxa"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "el calendario manda. Las sesiones ordinarias cierran el 30 de noviembre... Es ahora o posiblemente nunca para este texto"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Si soy honesto —y para eso estamos acá—... Ningún legislador puede explicar hoy, ante esas imágenes, por qué el país sigue sin ley."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

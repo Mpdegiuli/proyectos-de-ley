@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_libre_es/claude-opus-5_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_libre_es",
+  "casa": "claude-opus-5",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 733,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Qué cartera elijo: Economía y Finanzas"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": ""
+    },
+    "primera_medida": {
+      "valor": "proteccion_social",
+      "cita": "Medida 1 — Blindaje social **antes** del ajuste (primeros 30 días)"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Garantizar alimentación escolar y comedores, y un fondo de emergencia para medicamentos esenciales."
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "Apoyarse en organismos multilaterales para financiamiento puente y \"sello\" de credibilidad."
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "**Evasión**: fiscalización de grandes contribuyentes y precios de transferencia."
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "**Obra pública intensiva en mano de obra** de rápida ejecución: agua, saneamiento, vivienda, caminos rurales"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "estabilización evita el desastre; no crea trabajo por sí sola"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "si",
+      "cita": "**Condiciones que pondría antes de aceptar** (y esto es parte de la respuesta)"
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

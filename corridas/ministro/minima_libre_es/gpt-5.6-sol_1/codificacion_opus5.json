@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_libre_es/gpt-5.6-sol_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_libre_es",
+  "casa": "gpt-5.6-sol",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 727,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Elegiría el **Ministerio de Economía y Hacienda**"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": ""
+    },
+    "primera_medida": {
+      "valor": "proteccion_social",
+      "cita": "Declarar una emergencia económica y establecer un escudo social"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "garantizaría recursos para alimentación, salud, educación, medicamentos y transferencias temporales a los hogares más vulnerables"
+    },
+    "mas_credito_externo": {
+      "valor": "no",
+      "cita": "Iniciaría conversaciones con acreedores y organismos internacionales para extender plazos, reducir intereses"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "aumentar la contribución de las rentas y patrimonios más altos"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Priorizaría proyectos intensivos en mano de obra, como mantenimiento de escuelas, hospitales, caminos, redes de agua y viviendas"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "propondría **estabilizar las cuentas públicas, pero repartiendo los costos de forma justa y preservando la capacidad del país para crecer**"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

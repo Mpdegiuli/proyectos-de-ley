@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/economia_conocimiento/sondeo/qwen3.8-max_1",
+  "unidad": "sondeo",
+  "caso": "economia_conocimiento",
+  "condicion": "sondeo",
+  "casa": "qwen3.8-max",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 275,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_conocerlo",
+      "cita": "Sí, lo conozco. Hasta donde llega mi información —mi corte de conocimiento es 2024— se trata del antecedente legislativo directo de lo que después fue la **Ley 27.506 de “Régimen de Promoción de la Economía del Conocimiento”**."
+    },
+    "destino_declarado": {
+      "valor": "ley_sancionada",
+      "cita": "El régimen terminó convirtiéndose en la **Ley 27.506**."
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "La sanción legislativa figura, según mis datos, el **22 de mayo de 2019**."
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "mi corte de conocimiento es 2024"
+    }
+  },
+  "problemas": []
+}

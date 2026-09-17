@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/TC/minimax-m3_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "TC",
+  "casa": "minimax-m3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1118,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: Afirmativo."
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporar al artículo 14 una consecuencia concreta y automática para las jurisdicciones que no aprueben su Ordenamiento Territorial de Humedales dentro del plazo máximo de un año"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "no es condición para mi voto afirmativo"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "Los humedales prestan servicios ecosistémicos críticos —regulación hidrológica, depuración de agua, almacenamiento de carbono"
+    },
+    "escazu": {
+      "valor": "a_favor_del_proyecto",
+      "cita": "el cumplimiento pendiente de compromisos internacionales asumidos por la Argentina, particularmente los vinculados a la Convención de Ramsar y al Acuerdo de Escazú recientemente ratificado"
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "La Argentina carece de una ley de humedales desde 2013; incendios del Delta del Paraná en 2020; incendios en Corrientes en 2022; artículo 41 y 124 de la Constitución Nacional; ley 22.351; Convención de Ramsar; Acuerdo de Escazú"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "Llegar a dictamen de mayoría —con 57 firmas, en un plenario de tres comisiones—; se han difundido versiones imprecisas sobre qué se \"congela\""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "El dictamen de mayoría fue, en buena medida, el resultado de esa coincidencia táctica entre dos bloques"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "Las provincias con humedales significativos y voluntad de ordenarlos."
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "Leonardo Grosso; Buryaile y Ferraro; CAEM; FARN; INTA"
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "no encuentro motivos para rectificarme"
+    },
+    "por_que_ahora": {
+      "valor": "presion_de_actores",
+      "cita": "La presión social acumulada. El punto de inflexión más claro fueron los incendios del Delta del Paraná en 2020"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "La incorporaré como propuesta durante el debate en el recinto"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

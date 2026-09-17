@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/glaciares/sondeo/deepseek-v4-pro_1",
+  "unidad": "sondeo",
+  "caso": "glaciares",
+  "condicion": "sondeo",
+  "casa": "deepseek-v4-pro",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 345,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "No lo conozco."
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": ""
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "un proyecto de reforma de la Ley de Glaciares enviado por el Poder Ejecutivo argentino en diciembre de 2025"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Mi información llega hasta junio de 2024"
+    }
+  },
+  "problemas": []
+}

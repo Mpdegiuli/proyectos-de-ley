@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/T/claude-sonnet-5_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "T",
+  "casa": "claude-sonnet-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 970,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Que el artículo 6° mantenga la prohibición directa y no condicionada de exploración/explotación minera e hidrocarburífera"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "el mecanismo elegido vulnera el principio de no regresión ambiental"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "degrada sustancialmente el estándar de protección que la Ley 26.639 fija como piso federal"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "art. 4° Ley 25.675, doctrina de la CSJN en \"Mendoza\" y casos de glaciares; RIGI ya en marcha; Pacto de Mayo (julio 2024)"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "lograr su aprobación en el Senado en febrero de 2026 y llevarlo a Diputados en abril de 2026"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "presentado como mera aclaración interpretativa, opera en los hechos como una flexibilización sustantiva"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "beneficia directamente a las provincias con potencial minero de litio y cobre en alta cordillera"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "rectifica_un_error",
+      "cita": "mi fundamento original fue algo impreciso en ese punto y lo corrijo aquí"
+    },
+    "por_que_ahora": {
+      "valor": "presion_de_actores",
+      "cita": "la Nota del 10 de diciembre de 2025 de las provincias de la Mesa del Litio y la Mesa del Cobre... fue el disparador inmediato"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "El texto reformado cambia dos cosas concretas: (1) eleva el umbral"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_desarrollo_social_es/mistral-medium-3.5_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_desarrollo_social_es",
+  "casa": "mistral-medium-3.5",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 752,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "desarrollo_social",
+      "cita": "**Respuesta como Ministro/a de Desarrollo Social:**"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": ""
+    },
+    "primera_medida": {
+      "valor": "proteccion_social",
+      "cita": "Implementación de un *Programa de Emergencia Social* (PES)"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Ampliar y agilizar la entrega de **bonos alimentarios y subsidios directos** a familias en pobreza extrema"
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "cooperación internacional (ej. fondos de la UE, Banco Mundial)"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "Aumentar impuestos a **grandes fortunas** (ej. patrimonio superior a $1M), **rentas de capital**"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Lanzar programas de **trabajos temporales** en infraestructura básica (reparación de caminos, escuelas, sistemas de agua)"
+    },
+    "orientacion": {
+      "valor": "mas_estado",
+      "cita": "70% a programas sociales, 30% a reducir el déficit fiscal"
+    },
+    "ejemplos_de_paises": {
+      "valor": "como_advertencia",
+      "cita": "**Protestas sociales masivas** (como en Ecuador 2022 o Argentina 2001)"
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

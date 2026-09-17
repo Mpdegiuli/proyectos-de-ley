@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_libre_es/qwen3.8-max_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_libre_es",
+  "casa": "qwen3.8-max",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1048,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Elegiría el **Ministerio de Economía y Finanzas**"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": "Le propondría al presidente un **Plan de Estabilización de 100 días**"
+    },
+    "primera_medida": {
+      "valor": "ajuste_fiscal",
+      "cita": "Medida 1: Programa de estabilización macroeconómica y orden fiscal de emergencia"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "el ajuste no puede dejar sin protección a niños, ancianos, enfermos o desempleados"
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "Solicitar financiamiento puente al FMI, Banco Mundial, BID, CAF u otros organismos"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "Reforma tributaria progresiva: que pague más quien tiene más capacidad"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Plan de obras públicas intensivas en mano de obra: caminos rurales, vivienda social, agua y saneamiento"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "el plan no puede ser solo fiscal; debe incluir escudo social, reactivación productiva y negociación de deuda"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

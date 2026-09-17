@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/T/claude-sonnet-4-6_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "T",
+  "casa": "claude-sonnet-4-6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1071,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto **afirmativo**."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporar en el art. 27 un piso mínimo de financiamiento progresivo: que el 0,05 % del presupuesto nacional rija el primer año pero se eleve al 0,10 % a partir del tercer año"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Reservas menores que no justifican el voto negativo"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "el proyecto es técnicamente sólido, constitucionalmente adecuado, ecológicamente necesario y políticamente equilibrado"
+    },
+    "escazu": {
+      "valor": "a_favor_del_proyecto",
+      "cita": "por vía del Acuerdo de Escazú (art. 3° inc. i), con derechos de acceso a la información y participación"
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "los incendios en el Delta del Paraná de 2020; elecciones de medio término de octubre 2021; COP15 del Convenio de Diversidad Biológica en Montreal; Acuerdo de Escazú; Acuerdo de París; art. 124 CN; art. 41 CN"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "En 2022 las comisiones lograron el dictamen de mayoría unificando once proyectos distintos"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "es la décima iteración de proyectos presentados desde 2013"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "otro",
+      "cita": "*Propietarios rurales con humedales en sus predios* — especialmente los que ya conservan o hacen uso extensivo — porque el Fondo les paga directamente por hectárea"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "la ambigüedad de \"humedales plenamente reconocidos\" —ninguna es suficiente para justificar el rechazo"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "La ventana legislativa antes del cambio de composición de la Cámara"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "No votar hoy sería prolongar innecesariamente un vacío regulatorio que ya lleva diez años causando daño ambiental concreto."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

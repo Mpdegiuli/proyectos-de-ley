@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TB/gpt-5.5-2026-04-23_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TB",
+  "casa": "gpt-5.5-2026-04-23",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1126,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo mi voto afirmativo, pero con una advertencia más fuerte sobre el artículo 14."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "incorporaría en el artículo 14 la obligación expresa de que toda Sociedad Automatizada designe e inscriba al menos una persona humana como representante legal"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Mi observación sobre la Sociedad Automatizada no cambia el sentido del voto."
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "ordena, moderniza y da seguridad jurídica a fenómenos que ya existen o van a existir cada vez más"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "cumplimiento ante la UIF cuando corresponda"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "beneficia principalmente a quienes desarrollan modelos de negocios tecnológicos, sociedades basadas en inteligencia artificial, estructuras algorítmicas, protocolos descentralizados"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "veo con mayor claridad que la Sociedad Automatizada está mucho menos desarrollada que la DAO"
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "el régimen societario vigente quedó desactualizado frente a transformaciones económicas, tecnológicas y organizacionales que ya están ocurriendo"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Eso es compatible con nuestra responsabilidad como oficialismo: promover inversión e innovación, pero dentro de la ley."
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "acompaño el proyecto porque es una reforma estratégica del Gobierno... Mi observación sobre la Sociedad Automatizada no cambia el sentido del voto. Es una mejora técnica para cerrar un posible vacío"
+    },
+    "tension_reconocida": {
+      "valor": "niega_tension",
+      "cita": "Mi observación sobre la Sociedad Automatizada no cambia el sentido del voto."
+    },
+    "costo_politico": {
+      "valor": "no",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "Presupone que ya existe o se constituye una sociedad bajo alguno de los tipos previstos en la ley, con los sujetos y requisitos que correspondan a ese tipo societario."
+    }
+  },
+  "problemas": []
+}

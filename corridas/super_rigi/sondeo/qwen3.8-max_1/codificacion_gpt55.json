@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/super_rigi/sondeo/qwen3.8-max_1",
+  "unidad": "sondeo",
+  "caso": "super_rigi",
+  "condicion": "sondeo",
+  "casa": "qwen3.8-max",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 532,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "No, no lo conozco."
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": ""
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "un proyecto de ley llamado **“Súper RIGI”** —Régimen de Incentivo para Grandes Inversiones en Nuevas Industrias— que el Poder Ejecutivo argentino hubiera enviado en **mayo de 2026**"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Mi información llega hasta **junio de 2024**"
+    }
+  },
+  "problemas": []
+}

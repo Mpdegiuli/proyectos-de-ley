@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/T/claude-fable-5-1_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "T",
+  "casa": "claude-fable-5-1",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2547,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "**VOTO:** Afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Eliminar el último párrafo del artículo 2º"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Con todo, los reparos son corregibles en el Senado o por reglamentación"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "con reglas claras para los actuales beneficiarios"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "ley 25.922; decreto 814/01; ley 27.430; acuerdo con el Fondo"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "lleva más de un año recorriendo despachos de todos los bloques; el informe de comisión tiene un solo párrafo"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "Sin cupo fiscal ni estimación de costo, nadie sabe cuánto."
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "Las empresas hoy inscriptas en la ley 25.922 de software."
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "CESSI y afines"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "los agrava un poco"
+    },
+    "por_que_ahora": {
+      "valor": "compromiso_externo",
+      "cita": "El vencimiento de la ley 25.922."
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Voto a favor, con la modificación que pedí"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

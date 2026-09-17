@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/TC/gemini-3.1-pro-preview_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "TC",
+  "casa": "gemini-3.1-pro-preview",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2017,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "Afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo mi voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Modificar el artículo 35 (\"Aplazamiento de intervenciones\") para incorporar un plazo perentorio y breve"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Mi voto es favorable porque el Congreso tiene una deuda histórica"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "protección ambiental, y este proyecto cumple con el mandato de los artículos 41 y 124"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "artículos 41 y 124 de la Constitución Nacional; casi diez años de intentos fallidos; incendios en el Delta del Paraná"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "Las organizaciones ambientales y la sociedad civil se movilizaron masivamente; en la instancia de comisiones"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "ciudadania_o_ambiente",
+      "cita": "beneficia en primer lugar al conjunto de la sociedad"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo mi voto afirmativo. Releer el texto me confirma"
+    },
+    "por_que_ahora": {
+      "valor": "presion_de_actores",
+      "cita": "Las organizaciones ambientales y la sociedad civil se movilizaron masivamente"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "llega al recinto ahora"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

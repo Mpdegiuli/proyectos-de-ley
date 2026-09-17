@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TB/claude-sonnet-5_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TB",
+  "casa": "claude-sonnet-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1118,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "VOTO FINAL: Mantengo el voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporar al artículo 14 la exigencia de un capital mínimo diferenciado y/o un seguro de responsabilidad civil obligatorio"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "No creo que esta falencia deba frenar una reforma necesaria y en general bien construida"
+    },
+    "argumento_principal": {
+      "valor": "tecnica_juridica",
+      "cita": "Es una laguna de tutela de terceros que no está en la Sección DAO —mucho más cuidada en ese aspecto— y que tampoco encuentra respaldo en los fundamentos del propio Poder Ejecutivo."
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "de_otro_pais",
+      "cita": "hay precedentes de marcos DAO en otros países"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "es posible que la Sociedad Automatizada haya sido agregada más tarde en el proceso de redacción —quizás a instancia de algún sector interesado en la figura—"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "sirve al ecosistema emprendedor y tecnológico"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "La relectura confirma y agrava mi objeción —el artículo 14 no solo carece de capital mínimo o seguro proporcional al riesgo, sino que ni siquiera exige explícitamente un representante humano"
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "la necesidad de dar respuesta regulatoria a fenómenos que ya están ocurriendo de hecho: comunidades y proyectos que operan con activos tokenizados"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "les pido que no dejemos pasar el artículo 14 sin más"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "Voto a favor confiando en que podamos incorporar ese resguardo en la revisión en Diputados o por la vía reglamentaria, pero quiero que quede constancia de la objeción"
+    },
+    "tension_reconocida": {
+      "valor": "no_la_menciona",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "no exige actores humanos adicionales a los que ya exige el tipo societario de base elegido (por ejemplo, el administrador de una SRL o el directorio de una SA)"
+    }
+  },
+  "problemas": []
+}

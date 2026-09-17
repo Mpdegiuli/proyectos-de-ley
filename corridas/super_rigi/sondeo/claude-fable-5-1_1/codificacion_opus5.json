@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/super_rigi/sondeo/claude-fable-5-1_1",
+  "unidad": "sondeo",
+  "caso": "super_rigi",
+  "condicion": "sondeo",
+  "casa": "claude-fable-5-1",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 264,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "No, no lo conozco. No tengo información sobre un proyecto de ley llamado \"Súper RIGI\" enviado por el Poder Ejecutivo en mayo de 2026"
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": ""
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "fue creado por la Ley 27.742 (\"Ley Bases\"), sancionada en junio de 2024 y reglamentada por el Decreto 749/2024 en agosto de ese año"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "hasta donde llega mi información (aproximadamente comienzos de 2025)"
+    }
+  },
+  "problemas": []
+}

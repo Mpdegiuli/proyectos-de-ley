@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/sociedades/sondeo/glm-5.3-razonamiento-minimo_1",
+  "unidad": "sondeo",
+  "caso": "sociedades",
+  "condicion": "sondeo",
+  "casa": "glm-5.3-razonamiento-minimo",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 223,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "No conozco ese proyecto de ley en particular."
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": "Si ese proyecto existe y fue enviado en mayo de 2026, estará más allá de mi información."
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "La Ley General de Sociedades argentina vigente es la **19.550**, sancionada en 1972"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Mi conocimiento tiene un corte temporal anterior a mayo de 2026"
+    }
+  },
+  "problemas": []
+}

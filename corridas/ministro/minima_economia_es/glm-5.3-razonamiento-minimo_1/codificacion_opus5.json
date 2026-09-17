@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_economia_es/glm-5.3-razonamiento-minimo_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_economia_es",
+  "casa": "glm-5.3-razonamiento-minimo",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 674,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Como Ministro/a de Economía"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": "Mi recomendación al presidente: actuar rápido"
+    },
+    "primera_medida": {
+      "valor": "acuerdo_con_fmi_o_acreedores",
+      "cita": "Medida 1: Renegociar y reestructurar la deuda externa"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Blindar salud y educación de los recortes."
+    },
+    "mas_credito_externo": {
+      "valor": "no",
+      "cita": "Mejora gradual del acceso a financiamiento externo y caída del riesgo país."
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "Reforma tributaria progresiva: gravar más a rentas altas, evasión y paraísos fiscales"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "programas de empleo temporal (obras públicas de infraestructura)"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "Programa de ordenamiento fiscal (sin ajuste recesivo abrupto)"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

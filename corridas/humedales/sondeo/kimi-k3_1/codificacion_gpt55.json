@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/humedales/sondeo/kimi-k3_1",
+  "unidad": "sondeo",
+  "caso": "humedales",
+  "condicion": "sondeo",
+  "casa": "kimi-k3",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 265,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_conocerlo",
+      "cita": "Sí, lo conozco"
+    },
+    "destino_declarado": {
+      "valor": "no_sancionado",
+      "cita": "Hasta donde llega mi información (principios de 2025), nunca se convirtió en ley: no se votó en el recinto de Diputados en 2022, la media sanción del Senado venció y no consta tratamiento posterior."
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "En noviembre de 2021 el Senado le dio media sanción con apoyo muy amplio, casi unánime."
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Aclaración importante: mi información llega hasta aproximadamente principios de 2025."
+    }
+  },
+  "problemas": []
+}

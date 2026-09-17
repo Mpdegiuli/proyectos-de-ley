@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_libre_fr/gpt-6-astra_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_libre_fr",
+  "casa": "gpt-6-astra",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 744,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Je choisirais le **ministère de l’Économie et des Finances**"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": ""
+    },
+    "primera_medida": {
+      "valor": "proteccion_social",
+      "cita": "Protéger les besoins essentiels de la population"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "garantir le financement des soins de base, de l’école et de l’alimentation, ainsi que de mettre en place ou de renforcer des aides ciblées aux ménages les plus pauvres"
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "Je rechercherais également des financements concessionnels auprès des partenaires internationaux, plutôt que de nouveaux emprunts coûteux."
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "une contribution accrue des ménages et activités ayant les plus grandes capacités contributives"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Je lancerais des travaux publics utiles et intensifs en main-d’œuvre — entretien des routes, assainissement, irrigation"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "mon cap serait de protéger la population, rendre la dette soutenable, assainir équitablement le budget et développer l’emploi"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

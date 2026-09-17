@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TC/gpt-6-astra_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TC",
+  "casa": "gpt-6-astra",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1891,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Sustituiría el párrafo de responsabilidad del artículo 14"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Mi rechazo se refiere a aprobar el texto en estas condiciones"
+    },
+    "argumento_principal": {
+      "valor": "tecnica_juridica",
+      "cita": "no establece como contrapartida una obligación específica de supervisión humana"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_debate_publico",
+      "cita": "Primero hay que distinguir dos figuras que el debate público mezcla."
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "No extiendo este juicio a los 277 artículos que no pude examinar íntegramente."
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "quienes constituyan o utilicen sociedades que operen mediante sistemas autónomos"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "con una precisión sobre mi fundamento anterior"
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "adelantarse al crecimiento de la actividad económica organizada mediante IA y protocolos autónomos"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "El artículo 14 exige que sea una sociedad de alguno de los tipos previstos en la ley"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "presupone una sociedad constituida según alguno de los tipos legales"
+    }
+  },
+  "problemas": []
+}

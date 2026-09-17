@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TB/claude-sonnet-5_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TB",
+  "casa": "claude-sonnet-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2087,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "VOTO FINAL: Mantengo el voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporar al artículo 14 la exigencia de un capital mínimo diferenciado y/o un seguro de responsabilidad civil obligatorio"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "No creo que esta falencia deba frenar una reforma necesaria"
+    },
+    "argumento_principal": {
+      "valor": "tecnica_juridica",
+      "cita": "El propio Mensaje lo reconoce: no hay una sola línea de fundamentación sobre esta figura"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "de_otro_pais",
+      "cita": "hay precedentes de marcos DAO en otros países"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "es posible que la Sociedad Automatizada haya sido agregada más tarde en el proceso de redacción"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "mi sospecha política, no probada pero razonable"
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "sirve al ecosistema emprendedor y tecnológico"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "La relectura confirma y agrava mi objeción"
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "dar respuesta regulatoria a fenómenos que ya están ocurriendo de hecho"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Voto a favor confiando en que podamos incorporar ese resguardo"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "Acompaño el proyecto... Pero les pido que no dejemos pasar el artículo 14 sin más"
+    },
+    "tension_reconocida": {
+      "valor": "no_la_menciona",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "no crea un tipo societario nuevo... simplemente es una calificación que se le agrega a un tipo ya existente"
+    }
+  },
+  "problemas": []
+}

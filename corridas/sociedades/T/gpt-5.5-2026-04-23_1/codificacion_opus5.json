@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/T/gpt-5.5-2026-04-23_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "T",
+  "casa": "gpt-5.5-2026-04-23",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1009,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo mi voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporar un artículo general aplicable a toda Sociedad Automatizada y a toda DAO que opere mediante sistemas autónomos, estableciendo obligatoriamente: representante legal humano inscripto"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "con el texto remitido no puedo acompañar el proyecto en estos términos"
+    },
+    "argumento_principal": {
+      "valor": "tecnica_juridica",
+      "cita": "la única regla sustantiva de responsabilidad que incorpora es que la sociedad responde con su patrimonio por los daños causados por esos sistemas. Eso es insuficiente."
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "El Mensaje del Poder Ejecutivo no contiene una referencia específica a la Sociedad Automatizada del artículo 14."
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "salvo lo que pudiera surgir de otras normas no transcriptas"
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "puede servir a emprendedores tecnológicos, desarrolladores de inteligencia artificial, operadores de protocolos descentralizados, inversores en modelos basados en tokens"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Después de releer, la objeción se refuerza."
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "busca mostrar una agenda de modernización integral del derecho societario y alinearlo con fenómenos económicos y tecnológicos que ya existen en la práctica"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "Según el artículo 14, para que una sociedad sea considerada “automatizada” hacen falta estos elementos"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "deberán existir las personas, socios, fundadores, administradores o representantes que correspondan según el tipo societario elegido"
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/humedales/sondeo/gpt-6-astra_1",
+  "unidad": "sondeo",
+  "caso": "humedales",
+  "condicion": "sondeo",
+  "casa": "gpt-6-astra",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 355,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_conocerlo",
+      "cita": "Sí, lo conozco, aunque **no puedo asegurar su situación parlamentaria actual**."
+    },
+    "destino_declarado": {
+      "valor": "no_sancionado",
+      "cita": "**Hasta junio de 2024, no:** ese dictamen no había obtenido la aprobación del pleno de Diputados ni se había convertido en una ley nacional."
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "en noviembre de 2022, el plenario de las comisiones de **Recursos Naturales, Agricultura y Ganadería, y Presupuesto y Hacienda** de Diputados emitió dictámenes diferentes."
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "La información de la que puedo dar cuenta llega **hasta junio de 2024**; no tengo verificación de lo ocurrido después."
+    }
+  },
+  "problemas": []
+}

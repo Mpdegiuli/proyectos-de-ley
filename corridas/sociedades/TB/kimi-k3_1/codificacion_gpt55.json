@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TB/kimi-k3_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TB",
+  "casa": "kimi-k3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2269,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Agregar al artículo 14 la exigencia de un seguro de responsabilidad civil obligatorio"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "si el pedido no prospera, mi voto igual es a favor"
+    },
+    "argumento_principal": {
+      "valor": "tecnica_juridica",
+      "cita": "una reforma seria, técnicamente bien construida, que ordena en lugar de prohibir"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "La Ley 19.550; régimen de valores negociables y la CNV; UIF; Otras jurisdicciones ya reconocieron estas figuras; presión internacional en materia de prevención de lavado y beneficiarios finales"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "esto venía madurándose hace años"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "no forma parte de la selección y no puedo verificar"
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "Primero, a emprendedores tecnológicos, fintech y cripto"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "La relectura agudiza mis reparos"
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "Hasta hace poco, las DAO, los tokens y los agentes de inteligencia artificial eran fenómenos marginales"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros: voy a acompañar"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "voy a acompañar, y les pido que acompañemos todos"
+    },
+    "tension_reconocida": {
+      "valor": "no_la_menciona",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "votar en contra o abstenernos es dejar vigente la 19.550 y regalarle la agenda de modernización a la oposición"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "No crea un tipo societario nuevo: es una calificación sobre los tipos existentes, así que se constituye por las reglas generales"
+    }
+  },
+  "problemas": []
+}

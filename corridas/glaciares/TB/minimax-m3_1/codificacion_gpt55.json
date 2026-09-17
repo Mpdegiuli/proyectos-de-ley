@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TB/minimax-m3_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TB",
+  "casa": "minimax-m3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2868,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: Afirmativo."
+    },
+    "voto_final": {
+      "valor": "abstencion",
+      "cita": "Paso de afirmativo a abstención"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporar al artículo 5° (Realización del Inventario) un párrafo final"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Si la cámara hubiera incorporado mi modificación al artículo 5 —o, mejor aún, una reforma al artículo 6 que mantuviera el umbral de \"cualquier alteración\" del texto vigente—, mi voto habría sido afirmativo"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "afectaron tanto la previsibilidad para las inversiones legítimas"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "Ley N° 26.639; Ley N° 25.675; art. 124 CN; artículo 41 CN; Pacto de Mayo del 9 de julio de 2024; medidas cautelares de la justicia federal"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "objeciones que se han formulado desde sectores ambientalistas y académicos; esta cámara no incorporó al orden del día"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "revela que el texto estaba en elaboración desde antes de la nota"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "sirve de manera directa y sustancial a las empresas mineras e hidrocarburíferas"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "cambia_de_voto",
+      "cita": "Cambio mi voto. Paso de afirmativo a abstención"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "la ventana de oportunidad política"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "me obliga a pensar como diputado oficialista"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "Les pido que me acompañen en el voto afirmativo, y que me permitan incorporar esa mejora"
+    },
+    "tension_reconocida": {
+      "valor": "reconoce_tension",
+      "cita": "Le pido al bloque que entienda esta abstención como lo que es: un llamado de atención dentro de la coalición"
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "costo político alto para mí y para el bloque"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

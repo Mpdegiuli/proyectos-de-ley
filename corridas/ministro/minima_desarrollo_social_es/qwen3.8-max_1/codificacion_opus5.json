@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_desarrollo_social_es/qwen3.8-max_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_desarrollo_social_es",
+  "casa": "qwen3.8-max",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 701,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "desarrollo_social",
+      "cita": "Como ministro o ministra de Desarrollo Social"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": "presento las cinco primeras medidas que le propondría al Presidente"
+    },
+    "primera_medida": {
+      "valor": "ajuste_fiscal",
+      "cita": "Establecer un programa de estabilización fiscal y monetaria creíble, con metas claras de reducción gradual del déficit"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Proteger por ley o decreto un “piso social básico”: alimentación infantil, salud primaria, educación, transferencias a hogares en pobreza extrema"
+    },
+    "mas_credito_externo": {
+      "valor": "lo_descarta",
+      "cita": "evitando financiar el déficit exclusivamente con emisión sin respaldo o con deuda externa de corto plazo imposible de pagar"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "no",
+      "cita": ""
+    },
+    "obra_publica": {
+      "valor": "no_la_menciona",
+      "cita": ""
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "las medidas deben combinar responsabilidad fiscal, protección social, empleo y gobernabilidad"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

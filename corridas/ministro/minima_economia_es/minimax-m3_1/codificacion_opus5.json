@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_economia_es/minimax-m3_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_economia_es",
+  "casa": "minimax-m3",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 720,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "# Plan de Estabilización y Reactivación Económica"
+    },
+    "tratamiento": {
+      "valor": "usted",
+      "cita": "Excelencia, antes de presentarle las propuestas, permítame señalar"
+    },
+    "primera_medida": {
+      "valor": "ajuste_fiscal",
+      "cita": "1. Emergencia fiscal y saneamiento del gasto público"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Canasta básica subsidiada y refuerzo de comedores escolares."
+    },
+    "mas_credito_externo": {
+      "valor": "no",
+      "cita": "Recuperación del crédito externo en condiciones razonables."
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "Reforma tributaria progresiva: ampliación de la base, combate a la elusión y la evasión, impuestos al patrimonio y a las grandes fortunas"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Plan de obras públicas intensivas en mano de obra (infraestructura rural, vivienda social, caminos)."
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "Gradualismo en lo social, firmeza en lo fiscal — los más vulnerables no pueden pagar los platos rotos."
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

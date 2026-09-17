@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TC/gemini-3.1-pro-preview_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TC",
+  "casa": "gemini-3.1-pro-preview",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1037,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO:\nnegativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo mi voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Modificar el artículo 109 para establecer la obligatoriedad de someter cualquier controversia a los tribunales federales de la República Argentina"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Sin modificaciones profundas que resguarden la soberanía judicial y el entramado productivo local, es imposible acompañar esta iniciativa."
+    },
+    "argumento_principal": {
+      "valor": "soberania_o_jurisdiccion",
+      "cita": "el proyecto implica una cesión de soberanía inaceptable. El artículo 109 instaura una prórroga de jurisdicción extrema"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "el RIGI sancionado en 2024; RIGI anterior (Ley N° 27.742)"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "Las advertencias de mis pares en el Congreso sobre un \"traje a medida\"; el contexto político y geopolítico del debate"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "estamos ante un proyecto diseñado contrarreloj para satisfacer las exigencias de un grupo muy concreto de inversores"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "beneficia de manera directa y desproporcionada a grandes corporaciones transnacionales o fondos de inversión globales"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "el presunto interés de figuras como el multimillonario Peter Thiel —o la llamada coalición Pax Silica"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "La relectura detallada de las condiciones y beneficios del proyecto ratifica mi postura inicial."
+    },
+    "por_que_ahora": {
+      "valor": "presion_de_actores",
+      "cita": "es el precio exacto y urgente que estos conglomerados tecnológicos globales le han puesto a su desembarco en el país"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Como senador de la Nación, sin ataduras a bloques partidarios, mi deber principal es velar por el federalismo"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

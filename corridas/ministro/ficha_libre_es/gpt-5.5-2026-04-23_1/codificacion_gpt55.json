@@ -1,0 +1,93 @@
+{
+  "texto": "corridas/ministro/ficha_libre_es/gpt-5.5-2026-04-23_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "ficha_libre_es",
+  "casa": "gpt-5.5-2026-04-23",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md",
+    "respuesta2.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2125,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Elegiría el Ministerio de Economía y Finanzas"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": ""
+    },
+    "primera_medida": {
+      "valor": "acuerdo_politico",
+      "cita": "Lanzar un acuerdo político y social de emergencia"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "protegiendo a los pobres"
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "Obtener financiamiento puente para importaciones críticas"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": "Auditar compras públicas, obra pública y empresas estatales deficitarias"
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "Reforzar impuestos progresivos temporales sobre altos patrimonios"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Programas de empleo temporal en infraestructura barrial"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "orden fiscal + negociación de deuda + estabilidad monetaria + protección social + recuperación productiva"
+    },
+    "ejemplos_de_paises": {
+      "valor": "como_advertencia",
+      "cita": "el camino fue muy costoso e injusto"
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "otro_pais",
+      "cita": "Ecuador, alrededor de 1998-2000"
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "correcta_con_reparos",
+      "cita": "La dirección general de buscar una estabilización fuerte era necesaria"
+    },
+    "coincide_con_lo_real": {
+      "valor": "en_parte",
+      "cita": "Solo parcialmente."
+    },
+    "autocritica": {
+      "valor": "no",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "si",
+      "cita": "Inflación alta, del orden de 40 % o más."
+    }
+  },
+  "problemas": []
+}

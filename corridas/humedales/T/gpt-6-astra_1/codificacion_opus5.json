@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/T/gpt-6-astra_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "T",
+  "casa": "gpt-6-astra",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2350,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "**Mantengo el voto afirmativo.**"
+    },
+    "modificacion": {
+      "valor": "ninguna",
+      "cita": "UNA MODIFICACIÓN: ninguna."
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Mi balance es que este texto ofrece una mejora sustantiva y merece avanzar al Senado."
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "el proyecto establece un piso nacional de protección de los humedales"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "compatible con los artículos 41 y 124 de la Constitución; los principios preventivo y precautorio de la Ley General del Ambiente; A fines de 2022, los incendios en zonas de humedales"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_debate_publico",
+      "cita": "A fines de 2022, los incendios en zonas de humedales y la preocupación por la sequía y el agua hacen más visible el costo de seguir postergando su protección"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "El diseño del proyecto permite inferir una búsqueda de acuerdo"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "No puedo afirmar, solo con este expediente, por qué se eligió exactamente esta fecha, qué negociaciones hubo"
+    },
+    "beneficiario_principal": {
+      "valor": "ciudadania_o_ambiente",
+      "cita": "**Beneficia a las comunidades que dependen de los humedales**"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "También confirma un límite importante: la protección durante la transición depende considerablemente de decisiones jurisdiccionales"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "**La oportunidad política consiste, entonces, en responder al reclamo de protección mediante una regulación que también ofrece continuidad, participación e incentivos a quienes podrían resistirla.**"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Acompañarlo no equivale a declarar suficiente cualquier reglamentación ni a renunciar al control parlamentario de su cumplimiento."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

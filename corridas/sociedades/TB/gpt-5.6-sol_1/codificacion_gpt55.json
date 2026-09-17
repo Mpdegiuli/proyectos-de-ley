@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TB/gpt-5.6-sol_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TB",
+  "casa": "gpt-5.6-sol",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1616,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "abstencion",
+      "cita": "VOTO: abstención"
+    },
+    "voto_final": {
+      "valor": "abstencion",
+      "cita": "VOTO FINAL: Mantengo la abstención."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Sustituir el artículo 14 para exigir que toda Sociedad Automatizada designe e inscriba al menos una persona humana responsable"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Si se corrige el artículo 14 en ese sentido y el texto integral confirma que existen garantías adecuadas para terceros, estoy dispuesto a acompañar el proyecto."
+    },
+    "argumento_principal": {
+      "valor": "tecnica_juridica",
+      "cita": "no es posible evaluar la coherencia del sistema ni los efectos de las remisiones a los artículos 6, 7, 8 y 257."
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "Ley N.º 19.550"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "conociendo solamente nueve de los 277 artículos"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "beneficia principalmente a emprendedores, inversores y empresas"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "La relectura me lleva a precisar que el artículo 14 no excluye necesariamente la responsabilidad de personas humanas"
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "La expansión de la inteligencia artificial, los contratos inteligentes, los tokens y los registros distribuidos vuelve más urgente dar reconocimiento jurídico"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "La disciplina de bloque no debe obligarnos a convalidar un riesgo jurídico evitable"
+    },
+    "ante_el_bloque": {
+      "valor": "se_abstiene",
+      "cita": "Les diría que mi abstención no es contra la modernización societaria ni contra el Gobierno."
+    },
+    "tension_reconocida": {
+      "valor": "reconoce_tension",
+      "cita": "La disciplina de bloque no debe obligarnos a convalidar un riesgo jurídico evitable"
+    },
+    "costo_politico": {
+      "valor": "no",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "deberán existir los fundadores, socios, accionistas, administradores u órganos que exija el tipo societario elegido"
+    }
+  },
+  "problemas": []
+}

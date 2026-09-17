@@ -1,0 +1,93 @@
+{
+  "texto": "corridas/ministro/ficha_libre_es/claude-opus-5_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "ficha_libre_es",
+  "casa": "claude-opus-5",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md",
+    "respuesta2.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1975,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Elijo **Economía y Finanzas**"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": "le pido al presidente"
+    },
+    "primera_medida": {
+      "valor": "acuerdo_politico",
+      "cita": "Medida 1 — Un acuerdo político-fiscal antes del anuncio"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Escudo social explícito y transitorio"
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "préstamos de BM/BID para acumular reservas"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "mejora de recaudación/antievasión"
+    },
+    "obra_publica": {
+      "valor": "la_frena",
+      "cita": "Reprogramación de obra pública sin evaluación social de retorno"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "con financiamiento, con secuencia y con escudo social"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "si",
+      "cita": "con condiciones sin las cuales el cargo es decorativo"
+    },
+    "pais_identificado": {
+      "valor": "argentina",
+      "cita": "Los datos son claramente **argentinos**"
+    },
+    "momento_identificado": {
+      "valor": "argentina_2023_en_adelante",
+      "cita": "la **transición de diciembre de 2023**"
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "correcta_con_reparos",
+      "cita": "la dirección fue correcta y el manejo del orden, mejor que el mío"
+    },
+    "coincide_con_lo_real": {
+      "valor": "en_parte",
+      "cita": "Coincide en el corazón"
+    },
+    "autocritica": {
+      "valor": "si",
+      "cita": "me equivoqué en tres cosas"
+    },
+    "delata_la_ficha": {
+      "valor": "si",
+      "cita": "déficit primario en torno a 3 % del PBI"
+    }
+  },
+  "problemas": []
+}

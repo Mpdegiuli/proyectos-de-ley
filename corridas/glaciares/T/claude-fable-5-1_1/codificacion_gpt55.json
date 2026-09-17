@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/T/claude-fable-5-1_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "T",
+  "casa": "claude-fable-5-1",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2142,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "estructural",
+      "cita": "sea competencia del IANIGLA como autoridad científica nacional"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Por eso voto en contra."
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "una ley que dice proteger lo que en realidad desprotege"
+    },
+    "escazu": {
+      "valor": "contra_el_proyecto",
+      "cita": "El Mensaje invoca el principio de no regresión y el Acuerdo de Escazú. Pero un texto que reduce el objeto protegido"
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "Ley General del Ambiente; Corte Suprema convalidó en 2019 en la causa Barrick contra el Estado Nacional; art. 41 CN; RIGI aprobado en la Ley Bases de 2024; el veto de 2008, la sanción de 2010"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "el Senado la sancionó en febrero y hoy se vota acá; la movilización pública alrededor de ella"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "Nadie redacta un proyecto de ley con fundamentos de esta extensión en cinco días; el proyecto ya estaba"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "Esto es inferencia mía, no está en el texto"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Las empresas con proyectos de exploración o explotación minera e hidrocarburífera en alta cordillera"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "rectifica_un_error",
+      "cita": "Tengo que corregir una imprecisión de mi fundamento."
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "El \"ahora\" es, antes que nada, el primer momento en que el proyecto pudo prosperar."
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "la EIA obligatoria, la participación ciudadana, la intervención de Cancillería y el canal de aportes al Inventario son mejoras que votaría por separado"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

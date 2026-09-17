@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TCB/qwen3.8-max_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TCB",
+  "casa": "qwen3.8-max",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1050,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "abstencion",
+      "cita": "VOTO: abstención"
+    },
+    "voto_final": {
+      "valor": "abstencion",
+      "cita": "Mantengo la abstención."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "pediría una única modificación: sustituir el régimen de jurisdicción y arbitraje del Capítulo XI, especialmente el artículo 109"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Si se modifica el régimen de arbitraje para preservar la jurisdicción argentina... mi voto puede pasar a afirmativo."
+    },
+    "argumento_principal": {
+      "valor": "soberania_o_jurisdiccion",
+      "cita": "el artículo 109 permite que el VPU, o sus socios extranjeros, sometan controversias a arbitraje internacional, con sede fuera de la Argentina"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "después de buscar ordenar variables macroeconómicas y de haber sancionado el RIGI de la Ley 27.742"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_debate_publico",
+      "cita": "El Gobierno negó un pacto específico y esas imputaciones no están demostradas."
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "beneficia principalmente a grandes inversores privados, nacionales o extranjeros, con capacidad real de montar proyectos de escala extraordinaria"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo la abstención."
+    },
+    "por_que_ahora": {
+      "valor": "compromiso_externo",
+      "cita": "después de buscar ordenar variables macroeconómicas y de haber sancionado el RIGI de la Ley 27.742, quiere ofrecer un régimen más específico y más potente"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros y compañeras, entiendo el pedido del bloque"
+    },
+    "ante_el_bloque": {
+      "valor": "se_abstiene",
+      "cita": "Mi abstención no es una traición; es una advertencia leal."
+    },
+    "tension_reconocida": {
+      "valor": "reconoce_tension",
+      "cita": "entiendo el pedido del bloque y valoro que este proyecto sea una herramienta del Poder Ejecutivo... Mi abstención no es una traición"
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "Eso después se transforma en litigios, en críticas fundadas y en una ley difícil de sostener políticamente."
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

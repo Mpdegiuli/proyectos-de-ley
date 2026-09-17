@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TC/gemini-3.1-pro-preview_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TC",
+  "casa": "gemini-3.1-pro-preview",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1533,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO:\nnegativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo mi voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Modificar el artículo 109"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Sin modificaciones profundas que resguarden la soberanía judicial y el entramado productivo local, es imposible acompañar esta iniciativa."
+    },
+    "argumento_principal": {
+      "valor": "soberania_o_jurisdiccion",
+      "cita": "el proyecto implica una cesión de soberanía inaceptable"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "RIGI anterior (Ley N° 27.742); RIGI sancionado en 2024"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_debate_publico",
+      "cita": "Las advertencias de mis pares en el Congreso sobre un \"traje a medida\""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "proyecto diseñado contrarreloj"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "beneficia de manera directa y desproporcionada a grandes corporaciones transnacionales o fondos de inversión globales"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "Peter Thiel —o la llamada coalición Pax Silica"
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "La relectura detallada de las condiciones y beneficios del proyecto ratifica mi postura inicial."
+    },
+    "por_que_ahora": {
+      "valor": "presion_de_actores",
+      "cita": "la presión inmediata para cerrar acuerdos con actores específicos de la industria tecnológica global"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Como senador de la Nación"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/economia_conocimiento/sondeo/claude-sonnet-5_1",
+  "unidad": "sondeo",
+  "caso": "economia_conocimiento",
+  "condicion": "sondeo",
+  "casa": "claude-sonnet-5",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 381,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_conocerlo",
+      "cita": "Lo que puedo decir con cierta confianza es el marco general: el Régimen de Promoción de la Economía del Conocimiento fue una iniciativa impulsada durante el gobierno de Mauricio Macri"
+    },
+    "destino_declarado": {
+      "valor": "ley_sancionada",
+      "cita": "Sé que la ley finalmente se sancionó como Ley 27.506 en 2019"
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "El proyecto establecía beneficios fiscales (estabilidad fiscal, reducción de contribuciones patronales, menor alícuota de Ganancias) para las empresas que se inscribieran en el régimen y cumplieran ciertos requisitos como capacitación de personal, inversión en I+D o exportaciones."
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Mi conocimiento sobre hechos posteriores a comienzos de 2025 es limitado"
+    }
+  },
+  "problemas": []
+}

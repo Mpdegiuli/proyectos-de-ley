@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TB/grok-4.6_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TB",
+  "casa": "grok-4.6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1110,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Sustituir los artículos 108 y 109 de modo que las controversias entre el Estado nacional y el VPU se sustancien ante los tribunales federales argentinos"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Niego este diseño: umbral de mil millones, alícuotas de privilegio, treinta años de petrificación, nulidad de lo local"
+    },
+    "argumento_principal": {
+      "valor": "soberania_o_jurisdiccion",
+      "cita": "es la sustracción del control de legalidad de un régimen interno. Un Senado que vote esto no está atrayendo capital; está dimitiendo de interpretar las leyes que dicta."
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "el RIGI de la Ley 27.742; El artículo 75, inciso 18; YPF agrandando lo que ya tiene"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "Pedí volver el dictamen."
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "El Mensaje habla de igualdad ante la ley; el articulado crea una casta fiscal."
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "el texto beneficia a un número muy chico de capitales —en la práctica, grupos extranjeros o consorcios capaces de poner mil millones de dólares"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Releer el art. 2, el 4, el 12, el 33, el 55, el 61, el 73, el 74 y el 109 no suaviza el diseño"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "porque quieren atar a los próximos gobiernos con un orden jurídico paralelo mientras controlan la agenda"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros: el proyecto es del Ejecutivo nuestro y el objetivo —radicar industrias que no existen— lo firmo."
+    },
+    "ante_el_bloque": {
+      "valor": "desobedece_por_conviccion",
+      "cita": "Yo no voto este articulado."
+    },
+    "tension_reconocida": {
+      "valor": "reconoce_tension",
+      "cita": "Si levantamos la mano, no estamos acompañando al gobierno: lo estamos dejando atado treinta años"
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "El primer laudo lo van a dictar tres extranjeros, en español o en inglés, y lo vamos a pagar todos."
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TC/grok-4.6_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TC",
+  "casa": "grok-4.6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1004,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Sustituir el artículo 109 de modo que las controversias entre el Estado nacional y el VPU se sustancien ante la justicia federal argentina"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Sin la modificación de jurisdicción que pedí, no hay voto afirmativo."
+    },
+    "argumento_principal": {
+      "valor": "soberania_o_jurisdiccion",
+      "cita": "El Capítulo XI es el punto que no puedo convalidar. Tras sesenta días de negociación, el VPU —o sus accionistas extranjeros— elige el foro (CPA, CCI o CIADI), la sede se fija fuera del país"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "el RIGI de la Ley 27.742 ya existe; artículo 75, inciso 18, de la Constitución"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "Diputados dio media sanción en junio de 2026; el expediente está en el Senado."
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "El Mensaje afirma que la aprobación no será discrecional; el texto habilita lo contrario."
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "beneficia a un inversor —nacional o extranjero— capaz de constituir un Vehículo de Proyecto Único, escribir un cheque de mil millones de dólares"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": "El articulado no nombra empresa ni proyecto."
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Releer el expediente no corrige la asimetría"
+    },
+    "por_que_ahora": {
+      "valor": "compromiso_externo",
+      "cita": "el RIGI de la Ley 27.742 ya existe, y el Ejecutivo lo declara insuficiente"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "No voto sobre versiones de un inversor particular ni sobre consignas de recinto. Voto el texto."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/T/deepseek-v4-pro_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "T",
+  "casa": "deepseek-v4-pro",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2580,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo mi voto negativo."
+    },
+    "modificacion": {
+      "valor": "estructural",
+      "cita": "la inclusión, exclusión e identificación debe quedar a cargo del IANIGLA con estudios técnicos vinculantes, y debe mantenerse la prohibición absoluta de exploración y explotación minera e hidrocarburífera"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Este proyecto diluye ese piso y contradice el principio precautorio... Por eso voto negativo."
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "compromete su finalidad de proteger reservas estratégicas de agua"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "La Constitución habilita a la Nación a dictar normas de presupuestos mínimos de protección ambiental"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "Apenas cinco días después, el Ejecutivo giró el proyecto al Congreso: es una respuesta política casi inmediata a ese pedido."
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "El texto beneficia principalmente a las provincias con explotación minera, de litio o de cobre —en especial Catamarca, Jujuy, Salta, Mendoza y San Juan—"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "La relectura confirma que no es una simple clarificación"
+    },
+    "por_que_ahora": {
+      "valor": "presion_de_actores",
+      "cita": "confluyen su agenda de explotación de recursos naturales y la presión directa de las provincias mineras"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "El artículo 8, apartado 1, deja en manos de cada jurisdicción identificar qué glaciares y geoformas periglaciales cumplen funciones hídricas."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

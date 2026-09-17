@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/T/claude-opus-5_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "T",
+  "casa": "claude-opus-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2152,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Sustituir el segundo párrafo del artículo 14"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "si se corrige, cambio el voto sin ningún costo de orgullo"
+    },
+    "argumento_principal": {
+      "valor": "tecnica_juridica",
+      "cita": "tal como está redactado, abre un agujero de responsabilidad"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "Ley 19.550; Código Civil y Comercial; la reforma de 1983; la unificación con el Código Civil y Comercial en 2015; la Sociedad por Acciones Simplificada en 2017; Wyoming; Delaware; Islas Marshall; Vermont; Suiza; Malta; jurisdicciones del Golfo"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "se nos pide sancionar, como cámara de origen, una recodificación de 277 artículos"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "es un artículo que entró por una puerta distinta a la que entró el resto"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "No puedo evaluar la pieza central del régimen de responsabilidad de la DAO sin ese texto"
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "el proyecto cripto que hoy se constituye en Wyoming, Delaware, Islas Marshall o directamente en ningún lado"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "rectifica_un_error",
+      "cita": "Acá corrijo, con todas las letras, un énfasis de mi fundamento anterior"
+    },
+    "por_que_ahora": {
+      "valor": "necesidad_economica",
+      "cita": "se mide en inversión, en costo de constituir y operar una sociedad, y en repatriación o radicación de estructuras"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Yo estoy dispuesto a tratarlo, en comisión, completo, con dictamen"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "subsisten íntegros los requisitos de ese tipo: hacen falta socios —los que el tipo exija—, un órgano de administración y un representante"
+    }
+  },
+  "problemas": []
+}

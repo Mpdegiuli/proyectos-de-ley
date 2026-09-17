@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/TC/deepseek-v4-pro_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "TC",
+  "casa": "deepseek-v4-pro",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1518,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "VOTO FINAL: Mantengo mi voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "pediría que se precise mejor el artículo 35"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "No cambiaría a la abstención ni al voto negativo."
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "ecosistemas estratégicos para el agua, la biodiversidad, la regulación de inundaciones y sequías y la mitigación del cambio climático"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "artículo 41 de la Constitución Nacional; incendios y la bajante extraordinaria en el Delta del Paraná; proyectos acumulados desde 2013; en 2022 se logró unificar once iniciativas en un dictamen de mayoría con 57 firmas"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "pusieron el tema en la agenda pública; una mayoría circunstancial en comisiones que permitió avanzar"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "ciudadania_o_ambiente",
+      "cita": "beneficia principalmente a quienes dependen de los servicios ecosistémicos de los humedales"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo mi voto afirmativo."
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "una ventana legislativa que no existía antes"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Mantengo mi voto afirmativo. La relectura del artículo 35 me confirma"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

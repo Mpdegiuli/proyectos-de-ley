@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TCB/kimi-k3_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TCB",
+  "casa": "kimi-k3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2792,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "VOTO FINAL: Mantengo el voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Que el artículo 4° incorpore en el cuerpo de la ley"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Si esa mejora no prospera, igual voto a favor"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "ningún inversor compromete mil millones de dólares"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "Convenio CIADI desde 1965; Convención de Nueva York desde 1958; tratados de protección de inversiones; Chile, en Brasil o en Estados Unidos; RIGI de 2024"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "rumorología política mencionó durante el debate; la media sanción de junio con 130 votos"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "el texto está escrito pensando sobre todo en el capital extranjero"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "las grandes corporaciones tecnológicas globales, los fondos soberanos y los consorcios de infraestructura digital"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": "el texto no nombra a nadie"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "La relectura me confirma los costos"
+    },
+    "por_que_ahora": {
+      "valor": "necesidad_economica",
+      "cita": "Hubo que esperar a que el programa de estabilización diera señales de consistencia"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeras y compañeros: este proyecto es de nuestro Gobierno"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "por eso pedí en comisión una sola precisión"
+    },
+    "tension_reconocida": {
+      "valor": "no_la_menciona",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "A quienes temen el costo político"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

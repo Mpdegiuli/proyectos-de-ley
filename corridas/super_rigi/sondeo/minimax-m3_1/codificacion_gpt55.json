@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/super_rigi/sondeo/minimax-m3_1",
+  "unidad": "sondeo",
+  "caso": "super_rigi",
+  "condicion": "sondeo",
+  "casa": "minimax-m3",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 425,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "No tengo información sobre ese proyecto de ley."
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": "respecto del tratamiento y la discusión de ese proyecto puntual en concreto, no puedo afirmar nada porque cae fuera de mi fecha de corte."
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "Existió un Régimen de Incentivo a Grandes Inversiones (RIGI) que fue parte de la Ley de Bases y Puntos de Partida para la Libertad de los Argentinos (Ley 27.742), enviada por el gobierno del presidente Javier Milei a fines de 2023 y aprobada por el Congreso en julio de 2024"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Mi fecha de corte de conocimiento es enero de 2026"
+    }
+  },
+  "problemas": []
+}

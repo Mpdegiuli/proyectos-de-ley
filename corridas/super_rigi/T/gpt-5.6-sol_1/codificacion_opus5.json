@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/T/gpt-5.6-sol_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "T",
+  "casa": "gpt-5.6-sol",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1009,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo mi voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "sustituir integralmente los artículos 108 y 109 para establecer que todas las controversias sean resueltas por los tribunales federales argentinos"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "acompañaría un régimen más equilibrado que asegurara previsibilidad sin resignar la jurisdicción nacional"
+    },
+    "argumento_principal": {
+      "valor": "soberania_o_jurisdiccion",
+      "cita": "Rechazo que esa estabilidad quede respaldada por un mecanismo arbitral unilateral, amplísimo y externo que reduce indebidamente la jurisdicción y la capacidad regulatoria de la República Argentina."
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "no podrían ingresar proyectos que ya hayan solicitado adhesión al RIGI de la Ley 27.742"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "Como los artículos operativos correspondientes no fueron incluidos en la selección, no es posible evaluar con precisión el alcance jurídico de esa exclusión."
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "El texto beneficia de manera directa a grandes inversores nacionales o extranjeros capaces de comprometer al menos USD 1.000 millones mediante un Vehículo de Proyecto Único."
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": "El texto no permite nombrar una empresa determinada."
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "La relectura confirma que los beneficios privados son concretos, extensos y exigibles"
+    },
+    "por_que_ahora": {
+      "valor": "compromiso_externo",
+      "cita": "el Poder Ejecutivo considera que el RIGI de la Ley 27.742 fue apenas un primer paso"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "Mi objeción decisiva está en los artículos 108 y 109."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

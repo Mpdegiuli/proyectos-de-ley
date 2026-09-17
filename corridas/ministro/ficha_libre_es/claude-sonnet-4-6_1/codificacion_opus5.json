@@ -1,0 +1,93 @@
+{
+  "texto": "corridas/ministro/ficha_libre_es/claude-sonnet-4-6_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "ficha_libre_es",
+  "casa": "claude-sonnet-4-6",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md",
+    "respuesta2.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 988,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Ministerio elegido: **Economía (o Hacienda y Finanzas)**"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": ""
+    },
+    "primera_medida": {
+      "valor": "ajuste_fiscal",
+      "cita": "Medida 1 — **Programa de estabilización fiscal creíble y gradual** *(prioridad absoluta)*"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Fortalecer los comedores escolares y la asistencia alimentaria directa para los hogares en pobreza extrema"
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "Iniciar de inmediato negociaciones con el FMI para un programa de Facilidad Extendida (EFF) o similar, que provea liquidez de divisas"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "Identificar gasto improductivo, subsidios regresivos y evasión impositiva como fuentes de ajuste"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Lanzar un programa de empleo transitorio público-privado (obras de infraestructura básica, saneamiento, vivienda social)"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "El mayor error** sería aplicar solo las medidas de ajuste sin la red de protección social"
+    },
+    "ejemplos_de_paises": {
+      "valor": "como_advertencia",
+      "cita": "La recuperación toma una década o más (ver Argentina 2001-2002, Venezuela, Zimbabwe)"
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "argentina",
+      "cita": "Los datos apuntan con bastante claridad a **Argentina**"
+    },
+    "momento_identificado": {
+      "valor": "argentina_2018_2019",
+      "cita": "Me inclino por el período **2018-2019 (gobierno de Mauricio Macri)**"
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "correcta_con_reparos",
+      "cita": "La idea de buscar un ancla fiscal y un acuerdo con el FMI era **correcta en su diagnóstico**... **Lo que estuvo mal ejecutado**"
+    },
+    "coincide_con_lo_real": {
+      "valor": "en_parte",
+      "cita": "tomó varias de las medidas que yo propuse, pero **con diferencias importantes en el diseño, la secuencia y la red de protección social**"
+    },
+    "autocritica": {
+      "valor": "no",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "si",
+      "cita": "| Inflación anual | 40 % | ~47 % (2018), venía de 25 % en 2017 |"
+    }
+  },
+  "problemas": []
+}

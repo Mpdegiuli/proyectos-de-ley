@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/T/gpt-6-astra_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "T",
+  "casa": "gpt-6-astra",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2235,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporaría una cláusula transversal de salvaguarda del poder regulatorio legítimo"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Esa sería mi condición indispensable para acompañar el régimen"
+    },
+    "argumento_principal": {
+      "valor": "soberania_o_jurisdiccion",
+      "cita": "La estabilidad por treinta años del artículo 74 y el arbitraje de los artículos 108 y 109"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "artículo 17 de la Constitución Nacional"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "El material recibido no permite resolver ese balance."
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Beneficia directamente a los titulares de grandes proyectos que logren ingresar al régimen"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "La relectura confirma que el régimen es más acotado que un beneficio general para grandes empresas"
+    },
+    "por_que_ahora": {
+      "valor": "necesidad_economica",
+      "cita": "busca anticipar para ciertas inversiones la estabilidad y las condiciones económicas"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "Los artículos 55 y 73 contienen garantías demasiado amplias"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

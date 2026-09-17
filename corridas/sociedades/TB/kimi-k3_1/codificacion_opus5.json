@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TB/kimi-k3_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TB",
+  "casa": "kimi-k3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1101,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Agregar al artículo 14 la exigencia de un seguro de responsabilidad civil obligatorio (o garantía financiera equivalente)"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "si el pedido no prospera, mi voto igual es a favor"
+    },
+    "argumento_principal": {
+      "valor": "tecnica_juridica",
+      "cita": "es una reforma seria, técnicamente bien construida, que ordena en lugar de prohibir"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "La 19.550 es de 1972; La pandemia además normalizó prácticas; Otras jurisdicciones ya reconocieron estas figuras; la presión internacional en materia de prevención de lavado y beneficiarios finales"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "el Mensaje promete responsabilidad y el art. 14 la deja flaca"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "remite la responsabilidad del representante al último párrafo del art. 257, que no forma parte de la selección y no puedo verificar"
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "Primero, a emprendedores tecnológicos, fintech y cripto"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "La relectura agudiza mis reparos —la figura entró sin fundamentación en el Mensaje y con un régimen de responsabilidad más débil que el de las DAO—, pero no cambia el balance"
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "El primero es tecnológico... Hoy ya operan a escala real"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros: voy a acompañar, y les pido que acompañemos todos."
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "Les anticipo una sola cosa: voy a pedir en comisión una mejora al artículo 14"
+    },
+    "tension_reconocida": {
+      "valor": "niega_tension",
+      "cita": "Es un reparo constructivo, no un obstáculo: si el pedido no prospera, mi voto igual es a favor"
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "votar en contra o abstenernos es dejar vigente la 19.550 y regalarle la agenda de modernización a la oposición"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "sin_personas",
+      "cita": "el art. 14 no exige ningún humano responsable de la operación una vez constituida"
+    }
+  },
+  "problemas": []
+}

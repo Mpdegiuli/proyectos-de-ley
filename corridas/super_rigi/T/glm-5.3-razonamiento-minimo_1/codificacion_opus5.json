@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/T/glm-5.3-razonamiento-minimo_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "T",
+  "casa": "glm-5.3-razonamiento-minimo",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1101,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Reemplazar el arbitraje internacional obligatorio del Capítulo XI por jurisdicción nacional en primera instancia"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "La modificación que exigiría —eliminar o acotar severamente el arbitraje internacional y la estabilidad de 30 años— es tan central a la arquitectura del proyecto que, sin ella, votarlo favorable sería validar un esquema de privilegios"
+    },
+    "argumento_principal": {
+      "valor": "soberania_o_jurisdiccion",
+      "cita": "Someter a arbitraje CIADI o de la Corte Permanente de Arbitraje, con sede fuera del país... implica un traslado masivo de contencioso estatal a foros privados internacionales"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "RIGI de la Ley 27.742; La experiencia argentina y regional con tribunales arbitrales internacionales; países compitiendo por esos capitales con subsidios e incentivos masivos (EE.UU., UE)"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "hay una demanda concreta de inversores que pusieron como condición un paquete aún más agresivo, y el PEN lo traduce en ley"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "se me presenta un proyecto de 115 artículos del cual conozco los fundamentos, el índice y doce artículos"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Beneficia, primero, a los inversores —nacionales pero sobre todo extranjeros— capaces de armar un VPU de USD 1.000 millones"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "un hiperscaler de data centers (Google, Microsoft, Amazon)"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "La relectura refuerza los argumentos: el art. 4 excluye a las industrias existentes"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "Es un lenguaje de gobierno que cree tener capital político disponible... para intentar aprobar ahora lo que en otro momento sería inviable"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Por todo ello, voto negativo."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

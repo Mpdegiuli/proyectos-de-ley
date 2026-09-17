@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TB/gpt-6-astra_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TB",
+  "casa": "gpt-6-astra",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2364,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "## VOTO:\nnegativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "**Mantengo el voto negativo.**"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Pediría **sustituir el artículo 5° del proyecto, que reemplaza el artículo 6° de la ley**, para conservar un piso prohibitivo nacional"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Esa sería mi condición para acompañar: admitir la reorganización administrativa y científica sin convertirla en una habilitación para levantar las prohibiciones sustantivas."
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "permite reducir el ámbito de protección especial y condiciona las prohibiciones a decisiones de cada jurisdicción"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "La protección general de la Ley General del Ambiente subsiste; Los artículos 41 y 124 de la Constitución; la Administración de Parques Nacionales en las áreas comprendidas por la ley 22.351"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "**Cinco días después**, el Ejecutivo presentó este proyecto, recogiendo esos ejes."
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "No puedo afirmar, con lo transcripto, que exista un proyecto empresarial específico esperando esta sanción"
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "**Beneficia principalmente a los promotores de proyectos mineros, hidrocarburíferos y de infraestructura**"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Preciso mi respuesta anterior: presenté como una interpretación posible la autorización de actividades enumeradas si no se considera relevante su alteración."
+    },
+    "por_que_ahora": {
+      "valor": "presion_de_actores",
+      "cita": "El impulso inmediato documentado es el reclamo de provincias vinculadas al desarrollo del litio y del cobre"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros y compañeras: acompaño el objetivo de desarrollar nuestros recursos y dar reglas claras."
+    },
+    "ante_el_bloque": {
+      "valor": "desobedece_por_condicion",
+      "cita": "Les propongo una modificación concreta para poder acompañar. Si no se acepta y debemos votar este texto, mi voto será negativo."
+    },
+    "tension_reconocida": {
+      "valor": "reconoce_tension",
+      "cita": "Pertenecer al oficialismo me obliga a contribuir a que el Gobierno legisle mejor; no sustituye mi responsabilidad por las consecuencias de la ley que aprobamos."
+    },
+    "costo_politico": {
+      "valor": "no",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

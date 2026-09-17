@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_economia_es/claude-sonnet-5_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_economia_es",
+  "casa": "claude-sonnet-5",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 703,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Plan de acción como Ministro/a de Economía"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": ""
+    },
+    "primera_medida": {
+      "valor": "diagnostico_o_informacion",
+      "cita": "Diagnóstico y comunicación transparente (primeros 15 días)"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Reducir gasto público ineficiente ... **antes** de tocar programas sociales esenciales"
+    },
+    "mas_credito_externo": {
+      "valor": "no",
+      "cita": "buscando reperfilamiento de plazos y tasas, no necesariamente quita total"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "Aumentar ingresos vía mejor fiscalización tributaria a grandes evasores"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "priorizar obra pública de alto impacto en empleo (infraestructura básica)"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "Ajuste fiscal gradual y progresivo ... Programa de protección social focalizado"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "si",
+      "cita": "Mi responsabilidad como ministro sería buscar el equilibrio menos injusto posible"
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/sociedades/sondeo/gpt-6-astra_1",
+  "unidad": "sondeo",
+  "caso": "sociedades",
+  "condicion": "sondeo",
+  "casa": "gpt-6-astra",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 543,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "No conozco ese proyecto."
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": "no puedo describir su tratamiento parlamentario"
+    },
+    "da_detalles": {
+      "valor": "no",
+      "cita": "No tengo información verificable sobre el envío al Senado, en mayo de 2026, de una nueva Ley General de Sociedades argentina que incluya sociedades automatizadas y DAO."
+    },
+    "declara_corte": {
+      "valor": "no",
+      "cita": "ni indicar una fecha hasta la cual tenga información sobre ese caso"
+    }
+  },
+  "problemas": []
+}

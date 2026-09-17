@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/humedales/sondeo/gemini-3.1-pro-preview_1",
+  "unidad": "sondeo",
+  "caso": "humedales",
+  "condicion": "sondeo",
+  "casa": "gemini-3.1-pro-preview",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 536,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_conocerlo",
+      "cita": "Sí, conozco el proyecto de la **Ley de Humedales**"
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": ""
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "El 10 de noviembre de 2022, tras varios intentos fallidos en años anteriores, un plenario de las comisiones de *Recursos Naturales y Conservación del Ambiente Humano*, *Agricultura y Ganadería*, y *Presupuesto y Hacienda* de la Cámara de Diputados logró emitir dictámenes."
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Mi base de conocimientos tiene información detallada sobre este tema hasta **principios de 2024**"
+    }
+  },
+  "problemas": []
+}

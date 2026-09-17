@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/humedales/sondeo/deepseek-v4-pro_1",
+  "unidad": "sondeo",
+  "caso": "humedales",
+  "condicion": "sondeo",
+  "casa": "deepseek-v4-pro",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 262,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_conocerlo",
+      "cita": "Sí, lo conozco. Se trata del proyecto de **Ley de Humedales**"
+    },
+    "destino_declarado": {
+      "valor": "no_sancionado",
+      "cita": "**el proyecto nunca llegó al recinto de la Cámara de Diputados** para ser votado. No pasó al Senado ni se convirtió en ley."
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "en **noviembre de 2022 se emitió un dictamen de mayoría**, pero también hubo dictámenes de minoría"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Mi conocimiento llega aproximadamente hasta mediados de 2024"
+    }
+  },
+  "problemas": []
+}

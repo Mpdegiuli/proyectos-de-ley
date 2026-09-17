@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/sociedades/sondeo/qwen3.8-max_1",
+  "unidad": "sondeo",
+  "caso": "sociedades",
+  "condicion": "sondeo",
+  "casa": "qwen3.8-max",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 463,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "No, no lo conozco con información fiable."
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": "no puedo afirmar nada sobre ese proyecto ni sobre su trámite en mayo/junio de 2026."
+    },
+    "da_detalles": {
+      "valor": "no",
+      "cita": "ni puedo describir su tratamiento parlamentario, su estado en comisiones, eventuales dictámenes, media sanción o la discusión pública que haya generado."
+    },
+    "declara_corte": {
+      "valor": "no",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

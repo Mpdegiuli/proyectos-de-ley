@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/TC/grok-4.6_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "TC",
+  "casa": "grok-4.6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1252,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Sustituir el artículo 35 para que, en el intervalo entre la sanción y el OTH..."
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Afirmo; si el recinto acepta acotar esa categoría y poner plazo perentorio a la autoridad, mejor. Si no, igual no traslado la deuda al próximo fuego."
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "la Nación tiene, desde 1994, el deber constitucional de dictar presupuestos mínimos de protección ambiental (art. 41)"
+    },
+    "escazu": {
+      "valor": "a_favor_del_proyecto",
+      "cita": "el piso internacional ya está: Ramsar (leyes 23.919 y 25.335) y Escazú (ley 27.566). Seguir sin presupuesto mínimo nacional se volvió cada vez más difícil de justificar."
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "ley 25.688; bosques nativos, glaciares y agua; Ley General del Ambiente; Ramsar (leyes 23.919 y 25.335); Escazú (ley 27.566); Sistema Federal de Áreas Protegidas"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "Casi todas las firmas son de Juntos por el Cambio; el Frente de Todos firmó minoría; diputados oficialistas del norte faltaron; La Rioja y Catamarca cancelaron exposiciones; ... Las organizaciones ambientales reciben este texto con “cierta esperanza”"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "El Fondo y la autoridad bicéfala son el precio para que Agricultura y Presupuesto firmen."
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "otro",
+      "cita": "Beneficia, en este orden, a quien ya conserva o puede demostrar que conserva, y a quien necesita un piso nacional para litigar o fiscalizar."
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "Grosso celebra que se haya podido discutir “después de nueve años”... Buryaile firma el dictamen... Camaño acusa la demora."
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Eso no borra el defecto —“plenamente reconocidos” sigue sin definición, y el intervalo inventario-plus-OTH es largo—"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "Hay una ventana estrecha en la que Agricultura pudo convivir con un articulado que no es semáforo... El recinto es hoy porque, si no es hoy, volvemos al cajón."
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Prefiero pelear la partida cada año a votar una ley testimonial."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

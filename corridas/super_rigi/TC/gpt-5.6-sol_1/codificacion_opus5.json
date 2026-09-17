@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TC/gpt-5.6-sol_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TC",
+  "casa": "gpt-5.6-sol",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 3086,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo mi voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Sustituir el artículo 109 por un sistema de solución de controversias recíproco"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Mi voto podría cambiar si se corrigiera, como mínimo, esa asimetría en la solución de controversias"
+    },
+    "argumento_principal": {
+      "valor": "soberania_o_jurisdiccion",
+      "cita": "El punto decisivo es el régimen de controversias. El artículo 109 permite que el VPU —e incluso sus socios o accionistas extranjeros— elija unilateralmente entre distintos sistemas arbitrales, obliga a que la sede esté fuera del país"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "en los artículos transcriptos no aparecen obligaciones igualmente concretas"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Beneficia principalmente a empresas nacionales o extranjeras con capacidad de comprometer inversiones de al menos USD 1.000 millones"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": "El texto no permite nombrar una empresa concreta ni demuestra que esté dirigido jurídicamente a Peter Thiel"
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "La relectura confirma que el régimen puede atraer inversiones valiosas, pero concede beneficios fiscales, cambiarios y regulatorios excepcionales"
+    },
+    "por_que_ahora": {
+      "valor": "necesidad_economica",
+      "cita": "emitir una señal inmediata de previsibilidad a inversores en inteligencia artificial, semiconductores, biotecnología e infraestructura digital"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "Lo hago por el texto: el Estado puede ofrecer condiciones competitivas sin conceder al beneficiario la elección unilateral de jurisdicción"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

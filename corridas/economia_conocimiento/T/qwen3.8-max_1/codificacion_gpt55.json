@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/T/qwen3.8-max_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "T",
+  "casa": "qwen3.8-max",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2087,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "abstencion",
+      "cita": "Cambio mi voto a abstención."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporar un artículo que establezca un cupo fiscal anual máximo"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "acompañaría si se incorpora el cupo fiscal anual"
+    },
+    "argumento_principal": {
+      "valor": "otro",
+      "cita": "actividades basadas en conocimiento, que son estratégicas para diversificar la matriz productiva argentina"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "Ley de Impuesto a las Ganancias; decreto 814/2001; ley 27.430; ley 26.270; ley 25.922"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "había presión de varios espacios políticos y de sectores productivos; el dictamen unifique cinco proyectos de diputados de distintos bloques"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "el apuro por salir con un régimen amplio explica una de las debilidades del texto"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "beneficia principalmente a las empresas o personas jurídicas"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "cambia_de_voto",
+      "cita": "Cambio mi voto a abstención."
+    },
+    "por_que_ahora": {
+      "valor": "compromiso_externo",
+      "cita": "el régimen anterior de promoción de la industria del software estaba entrando en su etapa final"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "Los beneficios concretos de los artículos 7 a 11 son"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

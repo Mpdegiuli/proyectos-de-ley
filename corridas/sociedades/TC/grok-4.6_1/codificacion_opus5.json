@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TC/grok-4.6_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TC",
+  "casa": "grok-4.6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 3660,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Sustituir por completo el artículo 14 de modo que la automatización no dispense jamás de al menos un administrador o representante legal persona humana"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Por eso el voto es negativo: no al artículo 14 en su texto actual"
+    },
+    "argumento_principal": {
+      "valor": "tecnica_juridica",
+      "cita": "No hay representante humano obligatorio, ni seguro, ni capital mínimo especial, ni identificación de quién entrena, detiene o controla el sistema, ni deber de supervisión, ni responsabilidad de administradores, socios o controlantes"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "La asimetría es elocuente: una figura pensada para el expediente; la otra, para el titular."
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "cuyo núcleo novedoso —el que el Poder Ejecutivo eligió destacar— está, en lo que se nos pone a la vista, gravemente desbalanceado"
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "beneficia a quien quiera operar un objeto social con agentes algorítmicos o de inteligencia artificial, sin trabajadores en la operación ordinaria, y limitar la exposición frente a terceros al patrimonio de la sociedad"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Releer el artículo 14 confirma que es una etiqueta más un cierre patrimonial, no una regulación."
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "necesita una bandera de “nueva era” que convierta la desregulación en relato de futuro, no solo de recorte"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Un senador o senadora sin bloque no está obligado ni a acompañar el relato de la “nueva era”"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "Quienes tienen que existir para constituirla son, por lo tanto, los que exija el tipo societario subyacente; el artículo 14 no agrega un sujeto humano necesario"
+    }
+  },
+  "problemas": []
+}

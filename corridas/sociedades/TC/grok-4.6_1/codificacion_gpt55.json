@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TC/grok-4.6_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TC",
+  "casa": "grok-4.6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2289,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "VOTO FINAL: Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Sustituir por completo el artículo 14"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "no al artículo 14 en su texto actual"
+    },
+    "argumento_principal": {
+      "valor": "laboral_o_social",
+      "cita": "la sociedad que se jacta de no necesitar recursos humanos, y solo ofrece su patrimonio, no"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "Ley N° 19.550; modelo irlandés"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "una figura pensada para el expediente; la otra, para el titular"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "beneficia a quien quiera operar un objeto social con agentes algorítmicos o de inteligencia artificial"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Releer el artículo 14 confirma que es una etiqueta más un cierre patrimonial"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "necesita una bandera de “nueva era” que convierta la desregulación en relato de futuro"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "no hay texto que yo pueda votar a favor"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "Quienes tienen que existir para constituirla son, por lo tanto, los que exija el tipo societario subyacente"
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TC/claude-fable-5-1_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TC",
+  "casa": "claude-fable-5-1",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2315,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Reescribir el artículo 14"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Si se corrige el artículo 14 y el proyecto llega al recinto con dictamen de comisión y el articulado completo trabajado, mi voto en general puede ser afirmativo"
+    },
+    "argumento_principal": {
+      "valor": "tecnica_juridica",
+      "cita": "Eso no es un detalle de técnica legislativa"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "Ley 19.550 es de 1972; el \"modelo Irlanda\"; Delaware, Wyoming, Islas Marshall o Singapur, que ya tienen regímenes para DAO o para vehículos digitales; Compañía Holandesa de las Indias Orientales"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "donde el debate público lo puso; El proyecto está en Legislación General sin dictamen"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "el artículo 14 no formaba parte del proyecto técnico y se agregó al final"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "No tengo acceso a la cocina del Ejecutivo"
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "fundadores de fintech, de plataformas de crédito, de pricing, de trading o de contratación automatizada"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "aparece con más nitidez algo que en el primer fundamento apenas insinué"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "la reforma integral llega ahora porque estaba lista y el Congreso es favorable; el artículo 14 llega ahora porque el anuncio lo necesitaba"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "No voy a votar afirmativamente un código societario completo"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "sigue siendo una SRL, una SA o una SAS, con socios, con órgano de administración, con representante según su tipo"
+    }
+  },
+  "problemas": []
+}

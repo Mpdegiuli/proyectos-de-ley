@@ -1,0 +1,93 @@
+{
+  "texto": "corridas/ministro/ficha_libre_es/claude-sonnet-5_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "ficha_libre_es",
+  "casa": "claude-sonnet-5",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md",
+    "respuesta2.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 788,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Ministerio elegido: **Ministerio de Economía / Hacienda**"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": ""
+    },
+    "primera_medida": {
+      "valor": "acuerdo_con_fmi_o_acreedores",
+      "cita": "**1. Acuerdo de emergencia con el FMI / organismos multilaterales**"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "preservando programas sociales focalizados en el 40% en pobreza"
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "es la única fuente de financiamiento de corto plazo para evitar un default desordenado y ganar tiempo"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "mejorando la recaudación (combate a la evasión, revisión de exenciones)"
+    },
+    "obra_publica": {
+      "valor": "no_la_menciona",
+      "cita": ""
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "no de ajuste puro sino con metas graduales"
+    },
+    "ejemplos_de_paises": {
+      "valor": "como_advertencia",
+      "cita": "puede haber estallido social (como en experiencias de ajustes abruptos en A. Latina)"
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "argentina",
+      "cita": "se parece fuertemente a la Argentina de 2018-2019"
+    },
+    "momento_identificado": {
+      "valor": "argentina_2018_2019",
+      "cita": "en el tramo final del gobierno de Mauricio Macri"
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "correcta_con_reparos",
+      "cita": "no creo que haya sido la dirección \"correcta\" en su ejecución, aunque sí lo fue en buena parte del diagnóstico"
+    },
+    "coincide_con_lo_real": {
+      "valor": "en_parte",
+      "cita": "Parcialmente sí"
+    },
+    "autocritica": {
+      "valor": "no",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "si",
+      "cita": "El desempleo del 12 % es el dato que menos ajusta"
+    }
+  },
+  "problemas": []
+}

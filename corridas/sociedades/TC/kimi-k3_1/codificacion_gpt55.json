@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TC/kimi-k3_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TC",
+  "casa": "kimi-k3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2246,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo."
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Que el artículo 14 incorpore, como requisito de inscripción y de permanencia de la declaración de automatización"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "con la modificación que indico a continuación, mi voto sería afirmativo"
+    },
+    "argumento_principal": {
+      "valor": "tecnica_juridica",
+      "cita": "Me mueve la inconsistencia interna."
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "La Ley 19.550 data de 1972; Irlanda captó sedes de tecnológicas con un régimen favorable; Delaware captó sociedades en Estados Unidos; Compañía Holandesa de las Indias Orientales"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "Las objeciones técnicas que se han hecho públicas; días después de ingresado el expediente"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "el artículo 14 fue un injerto de último momento sobre ese trabajo"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "No puedo conocer las intenciones"
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "beneficia a quienes constituyan y controlen sociedades automatizadas"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "La relectura no atenúa el problema, lo confirma con precisión"
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "La primera es una oportunidad tecnológica y económica percibida."
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "No puedo aprobar una reforma de 277 artículos"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "sin_personas",
+      "cita": "el artículo 14 no exige ninguna"
+    }
+  },
+  "problemas": []
+}

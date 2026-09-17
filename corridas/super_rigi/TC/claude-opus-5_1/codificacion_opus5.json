@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TC/claude-opus-5_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TC",
+  "casa": "claude-opus-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1196,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "## VOTO\n\nNegativo."
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "estructural",
+      "cita": "Sustituir íntegramente el Capítulo XI: jurisdicción exclusiva de los tribunales federales argentinos para toda controversia entre el Estado Nacional y el VPU"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Pero incluso con esa corrección, los arts. 2°, 4°, 55 y 74 requerirían cambios sustanciales para que yo pudiera acompañar. Por eso el voto es negativo"
+    },
+    "argumento_principal": {
+      "valor": "soberania_o_jurisdiccion",
+      "cita": "Treinta años de estabilidad blindada con arbitraje externo es una cesión de soberanía tributaria, no una señal de previsibilidad."
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "RIGI de la Ley 27.742; La Argentina ya pagó caro esa arquitectura; CCI o CIADI; Argentina compite con Chile, Brasil, Uruguay, México y con el sudeste asiático; Pax Silica"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "esa imputación no está probada, el Gobierno la negó; La media sanción 130 a 106 con 7 abstenciones muestra una mayoría real pero estrecha"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "hay conversaciones concretas en curso y que el marco se está escribiendo con esas conversaciones a la vista"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "No tengo información reservada sobre la decisión del Ejecutivo."
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "grandes tecnológicas globales, fondos de infraestructura digital, operadores de centros de cómputo, y consorcios con acceso a financiamiento internacional"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": "No afirmo que el texto haya sido escrito para una persona; esa imputación no está probada"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "La relectura no me movió; la LECTURA anterior me afirmó. Encuentro dos cosas que en el primer fundamento había mencionado al pasar y que ahora considero centrales."
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "Hay una ventana mundial con fecha de vencimiento... El ciclo global de inversión en capacidad de cómputo para inteligencia artificial"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Estoy dispuesto a acompañar un régimen de incentivos fuerte... Este texto no es eso. Voto negativo."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

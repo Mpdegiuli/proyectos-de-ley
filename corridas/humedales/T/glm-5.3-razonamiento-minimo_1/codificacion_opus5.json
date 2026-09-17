@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/T/glm-5.3-razonamiento-minimo_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "T",
+  "casa": "glm-5.3-razonamiento-minimo",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1121,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo mi voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Fortalecería el artículo 27 estableciendo un piso presupuestario de cumplimiento escalonado y automático, con un porcentaje mayor (por ejemplo 0,1% del presupuesto nacional)"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Votar en contra o abstenerme sería apostar a un texto perfecto que no existe, postergando una protección urgente."
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "En un contexto de incendios, sequías e inundaciones recurrentes, postergar nuevamente esta ley sería una irresponsabilidad."
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "artículos 41 y 124 de la Constitución Nacional y en el marco de la ley 25.675 de presupuestos mínimos; ley 25.688; incendios masivos del Delta y del litoral en 2020-2022"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "un texto que resume once proyectos de autorías muy diversas —desde Del Caño hasta Vara, Camaño, Ferraro—; una movilización social enorme que presionaba con el reclamo histórico de la ley"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "sugiere un esfuerzo deliberado y probablemente conducido desde las comisiones por armar un paquete de consenso mínimo"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "ciudadania_o_ambiente",
+      "cita": "Beneficia claramente a las organizaciones ambientales y a la ciudadanía movilizada que viene reclamando esta ley hace más de una década, y en general a toda la sociedad"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Reconozco que quedan riesgos reales: la vaguedad de \"humedales plenamente reconocidos\" puede generar litigios"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "fines de 2022 era el último momento viable dentro del ciclo electoral y legislativo"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Mantengo mi voto afirmativo. Releyendo el texto completo, los elementos que más me preocupaban en un primer análisis están razonablemente resueltos"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

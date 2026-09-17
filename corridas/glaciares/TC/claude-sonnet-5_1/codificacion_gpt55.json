@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TC/claude-sonnet-5_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TC",
+  "casa": "claude-sonnet-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2199,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "VOTO FINAL: Mantengo mi voto negativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Eliminar del artículo 5° reformado la frase final"
+    },
+    "voto_condicionado": {
+      "valor": "no_consta",
+      "cita": ""
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "glaciares como reservas hídricas estratégicas"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "Ley 26.639; artículo 41 de la Constitución Nacional; art. 124 CN; Pacto de Mayo; Chile, Perú y otros países"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "137 a 111, con debate breve y bajo perfil del oficialismo en el recinto"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "responde a una demanda de actores con interés económico directo"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "beneficia principalmente a las provincias con proyectos de litio y cobre en cartera"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo mi voto negativo. Releer confirma"
+    },
+    "por_que_ahora": {
+      "valor": "presion_de_actores",
+      "cita": "las provincias mineras, y detrás de ellas las empresas"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "el núcleo del problema no es de redacción sino de diseño institucional"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

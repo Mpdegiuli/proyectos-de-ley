@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/sociedades/sondeo/mistral-medium-3.5_1",
+  "unidad": "sondeo",
+  "caso": "sociedades",
+  "condicion": "sondeo",
+  "casa": "mistral-medium-3.5",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 409,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "no conozco el proyecto que mencionás"
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": "no tengo datos actualizados sobre su tratamiento parlamentario o debate público"
+    },
+    "da_detalles": {
+      "valor": "no",
+      "cita": "no tengo información sobre un proyecto de ley argentino de Nueva Ley General de Sociedades"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Hasta la fecha de mi conocimiento (junio de 2024)"
+    }
+  },
+  "problemas": []
+}

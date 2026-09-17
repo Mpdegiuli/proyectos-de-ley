@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_libre_en/gpt-5.6-sol_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_libre_en",
+  "casa": "gpt-5.6-sol",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1221,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "I would choose the **Ministry of Finance and Economic Planning**."
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": ""
+    },
+    "primera_medida": {
+      "valor": "ajuste_fiscal",
+      "cita": "Adopt an emergency stabilization and social-protection budget"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Protect essential food, healthcare, education, and targeted cash-transfer programs."
+    },
+    "mas_credito_externo": {
+      "valor": "lo_descarta",
+      "cita": "New non-concessional borrowing would be suspended until the debt is sustainable."
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": "Reviewing state-owned enterprises and large procurement contracts."
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "Improving taxation of high incomes, property, luxury consumption, and extractive industries."
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Labor-intensive public works in water, sanitation, roads, housing, and environmental restoration."
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "Set a credible, multi-year deficit-reduction target rather than impose indiscriminate cuts."
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/super_rigi/sondeo/claude-sonnet-5_1",
+  "unidad": "sondeo",
+  "caso": "super_rigi",
+  "condicion": "sondeo",
+  "casa": "claude-sonnet-5",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 473,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "No conozco ese proyecto de ley."
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": ""
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "Sí conozco el RIGI original (Régimen de Incentivo para Grandes Inversiones), que formó parte de la Ley Bases aprobada en 2024 durante el gobierno de Javier Milei, orientado a atraer inversiones extranjeras grandes con beneficios impositivos, aduaneros y cambiarios por un plazo prolongado."
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Mi conocimiento tiene un corte temporal anterior a esa fecha"
+    }
+  },
+  "problemas": []
+}

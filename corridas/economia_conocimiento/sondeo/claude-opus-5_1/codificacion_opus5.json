@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/economia_conocimiento/sondeo/claude-opus-5_1",
+  "unidad": "sondeo",
+  "caso": "economia_conocimiento",
+  "condicion": "sondeo",
+  "casa": "claude-opus-5",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 340,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_conocerlo",
+      "cita": "Sí, lo conozco a grandes rasgos. Es el proyecto que terminó siendo la **Ley 27.506, de Promoción de la Economía del Conocimiento**."
+    },
+    "destino_declarado": {
+      "valor": "ley_sancionada",
+      "cita": "Luego pasó al Senado, que lo sancionó el **22 de mayo de 2019**, también con holgura, y la ley se promulgó y publicó en junio de 2019."
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "con **dictamen de mayoría en abril de 2019** y media sanción en el recinto hacia fines de ese mes. La votación fue muy amplia: acompañaron Cambiemos, el bloque justicialista, el Frente Renovador y varios bloques provinciales"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Mi información llega aproximadamente a principios de 2025"
+    }
+  },
+  "problemas": []
+}

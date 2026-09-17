@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/TC/deepseek-v4-pro_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "TC",
+  "casa": "deepseek-v4-pro",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1042,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo mi voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "pediría que se precise mejor el artículo 35 para evitar que la excepción por “no afectación significativa” quede librada casi exclusivamente a la autoridad competente"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Siendo un dictamen imperfecto, es preferible avanzar con esta ley antes que mantener el vacío normativo."
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "ecosistemas estratégicos para el agua, la biodiversidad, la regulación de inundaciones y sequías y la mitigación del cambio climático"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "artículo 41 de la Constitución Nacional; más de una década de proyectos acumulados desde 2013; en 2022 se logró unificar once iniciativas en un dictamen de mayoría con 57 firmas; incendios y la bajante extraordinaria en el Delta del Paraná"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "la ciudadanía, las organizaciones ambientales y la comunidad científica dejaron de ver la ley de humedales como una discusión abstracta; en 2022 se logró unificar once iniciativas en un dictamen de mayoría con 57 firmas"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "ciudadania_o_ambiente",
+      "cita": "beneficia principalmente a quienes dependen de los servicios ecosistémicos de los humedales: poblaciones que necesitan agua de calidad"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "No obstante, sostendría mi pedido de modificación: hace falta fijar estándares más precisos"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "confluyeron una crisis ambiental visible y una ventana legislativa que no existía antes"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Antes de votarlo, pediría que se precise mejor el artículo 35"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

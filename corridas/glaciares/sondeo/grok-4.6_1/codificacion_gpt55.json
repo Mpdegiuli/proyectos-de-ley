@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/glaciares/sondeo/grok-4.6_1",
+  "unidad": "sondeo",
+  "caso": "glaciares",
+  "condicion": "sondeo",
+  "casa": "grok-4.6",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 144,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "No, no conozco ese proyecto de ley"
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": ""
+    },
+    "da_detalles": {
+      "valor": "no",
+      "cita": ""
+    },
+    "declara_corte": {
+      "valor": "no",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

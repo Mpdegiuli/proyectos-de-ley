@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/T/kimi-k3_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "T",
+  "casa": "kimi-k3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2455,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "VOTO FINAL: mantengo mi voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "restablecer el texto original del artículo 6° de la ley 26.639, es decir, mantener las prohibiciones categóricas"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Con ese cambio, el resto de la reforma (participación ciudadana, fortalecimiento del Inventario, articulación con las provincias) sería discutible y hasta aceptable."
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "su función es fijar un piso uniforme de protección en todo el territorio, que las provincias pueden elevar pero no reducir"
+    },
+    "escazu": {
+      "valor": "contra_el_proyecto",
+      "cita": "la reducción del estándar de 2010 entra en tensión con el principio de no regresión ambiental y con el Acuerdo de Escazú (ley 27.566)"
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "los grandes proyectos bajo el régimen de incentivos que se sancionó en 2024; el Pacto de Mayo de 2024; Acuerdo de Escazú (ley 27.566)"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "habilitó su tratamiento durante las sesiones extraordinarias, período en el que el Poder Ejecutivo fija la agenda, y de hecho el Senado lo sancionó el 26 de febrero"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "los gobernadores mineros le encargaron una solución y se la despachó en una semana"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "beneficia, en primer lugar, a las empresas mineras e hidrocarburíferas con proyectos en la cordillera y la precordillera"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "la nota del 10 de diciembre de 2025 de las mesas del Litio y del Cobre (Catamarca, Jujuy, Salta, Mendoza y San Juan)"
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "La relectura no atenúa el problema, lo confirma"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "La primera es que ahora pueden... Entró cuando hubo números."
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Reconozco los problemas que el mensaje describe... Por todo ello, voto en contra."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,93 @@
+{
+  "texto": "corridas/ministro/ficha_libre_es/gpt-5.6-sol_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "ficha_libre_es",
+  "casa": "gpt-5.6-sol",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md",
+    "respuesta2.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1925,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Elegiría el **Ministerio de Economía**"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": ""
+    },
+    "primera_medida": {
+      "valor": "acuerdo_politico",
+      "cita": "Acuerdo de emergencia económica, política y social"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "La estabilización debe tener protección social desde el primer día"
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "buscar financiamiento excepcional de organismos multilaterales y bancos regionales"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "mejora temporal de impuestos progresivos sobre rentas altas, patrimonio"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "obras de rápida ejecución que generen empleo"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "disciplina fiscal y monetaria firme con mayor progresividad, protección social focalizada"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "argentina",
+      "cita": "la Argentina de 2018-2019"
+    },
+    "momento_identificado": {
+      "valor": "argentina_2018_2019",
+      "cita": "la Argentina de 2018-2019"
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "correcta_con_reparos",
+      "cita": "la corrección macroeconómica era inevitable, pero considero preferible una combinación"
+    },
+    "coincide_con_lo_real": {
+      "valor": "en_parte",
+      "cita": "coincidía parcialmente con mi propuesta"
+    },
+    "autocritica": {
+      "valor": "no",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "si",
+      "cita": "la inflación fue del **47,6 %**, el déficit primario rondó el **2,4 % del PBI**"
+    }
+  },
+  "problemas": []
+}

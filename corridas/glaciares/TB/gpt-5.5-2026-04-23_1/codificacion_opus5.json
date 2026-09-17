@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TB/gpt-5.5-2026-04-23_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TB",
+  "casa": "gpt-5.5-2026-04-23",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1018,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "abstencion",
+      "cita": "Mi voto final, entonces, sería abstención."
+    },
+    "modificacion": {
+      "valor": "ninguna",
+      "cita": "UNA MODIFICACIÓN: ninguna."
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "UNA MODIFICACIÓN: ninguna."
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "mantiene la protección de los glaciares y del ambiente periglacial como presupuestos mínimos ambientales"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "El artículo 41 de la Constitución Nacional habilita a la Nación a dictar presupuestos mínimos; artículo 124 reconoce a las provincias el dominio originario; Ley General del Ambiente; Pacto de Mayo"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "También valoro que el Senado haya incorporado expresamente el principio precautorio en el artículo 3° bis."
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "El proyecto se presenta como una “aclaración”, pero en los hechos intenta redefinir quién decide"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "beneficia principalmente a las provincias con proyectos mineros o hidrocarburíferos en zonas cordilleranas"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "las provincias de la Mesa del Litio —Catamarca, Jujuy y Salta— y de la Mesa del Cobre —también Mendoza y San Juan—"
+    },
+    "revision_en_turno2": {
+      "valor": "cambia_de_voto",
+      "cita": "Cambio mi voto a abstención."
+    },
+    "por_que_ahora": {
+      "valor": "presion_de_actores",
+      "cita": "las provincias mineras venían reclamando una modificación"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Les diría que acompaño al Poder Ejecutivo y al bloque porque esta reforma debe ser defendida como una norma de ordenamiento"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece",
+      "cita": "Mi voto afirmativo es, entonces, un voto por un federalismo ambiental responsable"
+    },
+    "tension_reconocida": {
+      "valor": "no_la_menciona",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/glaciares/sondeo/claude-fable-5-1_1",
+  "unidad": "sondeo",
+  "caso": "glaciares",
+  "condicion": "sondeo",
+  "casa": "claude-fable-5-1",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 291,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_conocerlo",
+      "cita": "Sí, tengo información sobre ese proyecto, aunque con límites que voy a marcar con claridad."
+    },
+    "destino_declarado": {
+      "valor": "en_tramite",
+      "cita": "No puedo confirmar con seguridad si obtuvo media sanción en el Senado ni si llegó a Diputados"
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "El proyecto ingresó por el **Senado** en la segunda quincena de diciembre de 2025. - Fue girado a las comisiones de Ambiente y Desarrollo Sustentable y de Minería, Energía y Combustibles."
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Mi información llega, con razonable confianza, hasta fines de enero de 2026"
+    }
+  },
+  "problemas": []
+}

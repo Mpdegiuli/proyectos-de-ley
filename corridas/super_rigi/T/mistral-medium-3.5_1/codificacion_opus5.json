@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/T/mistral-medium-3.5_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "T",
+  "casa": "mistral-medium-3.5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1825,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "**VOTO:** negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "**VOTO FINAL:** **negativo** Mantengo el voto."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incluir un mecanismo de revisión periódica (cada 5 años) de los incentivos"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "La modificación propuesta (revisión periódica) no alcanza para compensar los problemas estructurales del texto."
+    },
+    "argumento_principal": {
+      "valor": "fiscal",
+      "cita": "Los incentivos tributarios, aduaneros y cambiarios son desproporcionados (ej. alícuota del 15% en Ganancias, exenciones de derechos de importación/exportación, libre disponibilidad de divisas)"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Beneficia principalmente a grandes corporaciones (nacionales o extranjeras) con capacidad de invertir USD 1.000 millones"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo el voto. Los riesgos en soberanía, equidad y rigidez fiscal superan los beneficios potenciales."
+    },
+    "por_que_ahora": {
+      "valor": "necesidad_economica",
+      "cita": "en un contexto de urgencia por atraer inversiones extranjeras y reactivar la economía"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "**LECTURA:** Pueden entrar al régimen: 1. **Sujeto:** Vehículos de Proyecto Único (VPU) con objeto exclusivo para el proyecto (Art. 12)."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

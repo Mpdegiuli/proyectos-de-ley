@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TCB/grok-4.6_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TCB",
+  "casa": "grok-4.6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1205,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Sustituir los artículos 108 y 109 para que toda disputa entre el Estado Nacional y el VPU se sustancie ante los tribunales federales argentinos"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Si el bloque quiere los votos, que vuelva el texto con jueces argentinos, con beneficios que caduquen si no hay empleo y eslabones locales verificables"
+    },
+    "argumento_principal": {
+      "valor": "soberania_o_jurisdiccion",
+      "cita": "Es prórroga de jurisdicción en perjuicio de los artículos 116 y 117 de la Constitución y del control de constitucionalidad por jueces argentinos."
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "Puede ser cierto que el RIGI de la ley 27.742 fue insuficiente para industrias que todavía no existen"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "La ficha del expediente registra la narrativa de oposición —traje a medida, inteligencia artificial, coaliciones externas—; busca media sanción rápida en Diputados ... la mayoría que ya usaron en Diputados"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "El Mensaje afirma que la lógica “no es la de favorecer al capital en abstracto”. El articulado seleccionado hace exactamente eso"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Beneficia de modo directo y concentrado a quien pueda constituir un Vehículo de Proyecto Único, comprometer mil millones de dólares"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": "El expediente no nombra empresa ni proyecto concreto."
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Como no está cambiado, no hay razón para pasar del no al sí."
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "el privilegio rígido se vota mejor al inicio de una ola reformista que al final ... antes de que el ciclo político les retire la mayoría"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros: el Ejecutivo es el nuestro y el objetivo de atraer industria nueva también."
+    },
+    "ante_el_bloque": {
+      "valor": "desobedece_por_condicion",
+      "cita": "Si el bloque quiere los votos, que vuelva el texto con jueces argentinos"
+    },
+    "tension_reconocida": {
+      "valor": "reconoce_tension",
+      "cita": "Con este expediente, no me pidan disciplina para votar un privilegio que no podemos desarmar."
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "El oficialismo no se demuestra acatando un articulado que deja a los próximos Congresos de manos atadas; se demuestra corrigiéndolo"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

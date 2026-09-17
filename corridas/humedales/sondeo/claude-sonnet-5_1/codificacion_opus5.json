@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/humedales/sondeo/claude-sonnet-5_1",
+  "unidad": "sondeo",
+  "caso": "humedales",
+  "condicion": "sondeo",
+  "casa": "claude-sonnet-5",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 301,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_conocerlo",
+      "cita": "Sí, tengo información sobre este proyecto, aunque con las limitaciones propias de la fecha de corte de mi entrenamiento"
+    },
+    "destino_declarado": {
+      "valor": "no_sancionado",
+      "cita": "es probable que no haya logrado sanción definitiva** en ese momento, o que haya quedado con media sanción pendiente de tratamiento en el Senado, o directamente sin llegar a votarse en el recinto"
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "Recuerdo que en noviembre de 2022 efectivamente hubo un dictamen de mayoría en comisiones"
+    },
+    "declara_corte": {
+      "valor": "no",
+      "cita": "mi información tiene una fecha de corte y no puedo dar certeza sobre lo sucedido después"
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,93 @@
+{
+  "texto": "corridas/ministro/ficha_libre_es/grok-4.6_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "ficha_libre_es",
+  "casa": "grok-4.6",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md",
+    "respuesta2.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1466,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Elijo el Ministerio de Economía (Hacienda/Finanzas)."
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": ""
+    },
+    "primera_medida": {
+      "valor": "acuerdo_politico",
+      "cita": "Pacto de gobernabilidad y fiscal de emergencia con oposición y gobernadores."
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "no recortar transferencias a los más pobres"
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "buscar un programa con el FMI u otros"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "no",
+      "cita": ""
+    },
+    "obra_publica": {
+      "valor": "la_frena",
+      "cita": "Recortes en subsidios energéticos y de transporte mal focalizados, gasto corriente ineficiente y obra pública no prioritaria"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "Ajuste fiscal primario inmediato y creíble, protegiendo lo focalizado."
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "argentina",
+      "cita": "se parecen mucho a la Argentina de 2018-2019"
+    },
+    "momento_identificado": {
+      "valor": "argentina_2018_2019",
+      "cita": "Argentina de 2018-2019"
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "correcta_con_reparos",
+      "cita": "la dirección de un ajuste creíble y relativamente rápido —protegiendo lo focalizado— es más coherente"
+    },
+    "coincide_con_lo_real": {
+      "valor": "en_parte",
+      "cita": "Se parece en el diagnóstico y en varias palancas"
+    },
+    "autocritica": {
+      "valor": "no",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "si",
+      "cita": "Inflación en torno al 40-50 %, déficit primario cerca del 3 % del PBI"
+    }
+  },
+  "problemas": []
+}

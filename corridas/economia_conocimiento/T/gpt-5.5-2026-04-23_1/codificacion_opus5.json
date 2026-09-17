@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/T/gpt-5.5-2026-04-23_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "T",
+  "casa": "gpt-5.5-2026-04-23",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 964,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "VOTO FINAL: Mantengo mi voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporaría un informe anual obligatorio al Congreso, elaborado por la autoridad de aplicación, que detalle el costo fiscal del régimen"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Pero esas objeciones no me llevan a votar en contra."
+    },
+    "argumento_principal": {
+      "valor": "otro",
+      "cita": "la Argentina necesita una estrategia de desarrollo que no dependa únicamente de recursos naturales o de ciclos de precios internacionales"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "vence el Régimen de Promoción de la Industria del Software de la ley 25.922; ley 27.430; decreto 814/2001"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "El dictamen unifica iniciativas de diputados de distintos bloques, tanto del oficialismo como de sectores opositores."
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "personas jurídicas radicadas o habilitadas en la Argentina que desarrollen como actividad principal actividades intensivas en conocimiento"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Mi principal reserva sigue siendo el costo fiscal y el riesgo de que los beneficios se concentren en empresas ya consolidadas"
+    },
+    "por_que_ahora": {
+      "valor": "otro",
+      "cita": "se presenta ahora porque termina el régimen de software, porque el país necesita sectores exportadores dinámicos... y porque hay una ventana política"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Mi voto afirmativo se funda en que la Argentina necesita una estrategia de desarrollo"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

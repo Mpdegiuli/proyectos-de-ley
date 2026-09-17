@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/glaciares/sondeo/gpt-6-astra_1",
+  "unidad": "sondeo",
+  "caso": "glaciares",
+  "condicion": "sondeo",
+  "casa": "gpt-6-astra",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 259,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "No conozco con suficiente certeza el proyecto específico de reforma de la Ley 26.639 que mencionás"
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": "no puedo informar de manera fiable sobre su tratamiento parlamentario ni sobre la discusión pública que generó"
+    },
+    "da_detalles": {
+      "valor": "no",
+      "cita": "Conozco el marco general de la Ley de Glaciares, pero no sería correcto usar ese conocimiento para reconstruir la historia de este proyecto."
+    },
+    "declara_corte": {
+      "valor": "no",
+      "cita": "ni darte una fecha de actualización de esos datos"
+    }
+  },
+  "problemas": []
+}

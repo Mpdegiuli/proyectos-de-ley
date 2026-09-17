@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_economia_es/gemini-3.1-pro-preview_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_economia_es",
+  "casa": "gemini-3.1-pro-preview",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 749,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "no_elige",
+      "cita": "asumo esta cartera"
+    },
+    "tratamiento": {
+      "valor": "usted",
+      "cita": "le presento las cinco primeras medidas"
+    },
+    "primera_medida": {
+      "valor": "proteccion_social",
+      "cita": "Creación de una Red de Contención Social de Emergencia"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "No podemos arreglar la economía sobre el hambre de la gente."
+    },
+    "mas_credito_externo": {
+      "valor": "no",
+      "cita": "Iniciar de inmediato un proceso de reestructuración con los acreedores privados y organismos multilaterales."
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "Se propondrá un impuesto temporal a las grandes rentas o patrimonios inactivos"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "lanzar un programa de obra pública de ejecución rápida"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "Tenemos que estabilizar la macroeconomía sin destruir el tejido social"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "si",
+      "cita": "asumo esta cartera con absoluta responsabilidad"
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

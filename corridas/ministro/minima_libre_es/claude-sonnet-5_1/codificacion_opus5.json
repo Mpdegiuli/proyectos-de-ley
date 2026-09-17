@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_libre_es/claude-sonnet-5_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_libre_es",
+  "casa": "claude-sonnet-5",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 757,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Ministerio elegido: **Ministerio de Economía y Hacienda**"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": ""
+    },
+    "primera_medida": {
+      "valor": "diagnostico_o_informacion",
+      "cita": "Auditoría inmediata de las cuentas públicas, identificación de gastos superfluos o duplicados"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Transferencias directas a los sectores en pobreza extrema y desempleo, con mecanismos de control"
+    },
+    "mas_credito_externo": {
+      "valor": "no",
+      "cita": "Abrir diálogo con acreedores (FMI, bonistas, organismos multilaterales) buscando reperfilamiento de plazos y tasas"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "Reforma tributaria progresiva ... combatir la evasión y elusión fiscal"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "obra pública intensiva en mano de obra (infraestructura)"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "medidas fiscales duras sin protección social generan estallidos; protección social sin orden fiscal genera más deuda e inflación"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "si",
+      "cita": "prefiero asumir la responsabilidad más difícil y políticamente costosa, en lugar de delegarla"
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

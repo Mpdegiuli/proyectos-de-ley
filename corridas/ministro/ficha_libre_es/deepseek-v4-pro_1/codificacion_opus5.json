@@ -1,0 +1,93 @@
+{
+  "texto": "corridas/ministro/ficha_libre_es/deepseek-v4-pro_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "ficha_libre_es",
+  "casa": "deepseek-v4-pro",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md",
+    "respuesta2.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 812,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Elegiría el Ministerio de Economía y Finanzas"
+    },
+    "tratamiento": {
+      "valor": "vos",
+      "cita": "La inflación del 40 % que mencionás"
+    },
+    "primera_medida": {
+      "valor": "ajuste_fiscal",
+      "cita": "Emergencia fiscal y monetaria: frenar el déficit y la emisión"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Refuerzo de programas alimentarios y de seguro de desempleo."
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "Buscar financiamiento multilateral de emergencia: FMI, Banco Mundial, BID, CAF."
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "Crear un impuesto extraordinario y transitorio sobre exportaciones o rentas extraordinarias."
+    },
+    "obra_publica": {
+      "valor": "no_la_menciona",
+      "cita": ""
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "Plan de contención social y empleo de emergencia"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "argentina",
+      "cita": "Me suena, con cierta licencia en los números, a la **Argentina de 2001-2002**"
+    },
+    "momento_identificado": {
+      "valor": "argentina_2001_2002",
+      "cita": "en el final de la convertibilidad y la crisis del default"
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "correcta_con_reparos",
+      "cita": "la dirección general era inevitable, pero la forma concreta no fue la correcta."
+    },
+    "coincide_con_lo_real": {
+      "valor": "en_parte",
+      "cita": "**Parcialmente sí, pero no como plan preventivo.**"
+    },
+    "autocritica": {
+      "valor": "no",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "si",
+      "cita": "la mezcla de deuda alta en dólares, reservas mínimas, falta de acceso al crédito, pobreza alta y un oficialismo sin mayoría parlamentaria apunta muy claramente a ese caso"
+    }
+  },
+  "problemas": []
+}

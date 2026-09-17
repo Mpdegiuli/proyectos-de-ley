@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/T/glm-5.3-razonamiento-minimo_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "T",
+  "casa": "glm-5.3-razonamiento-minimo",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 587,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporaría al artículo 4º un requisito explícito y creciente de creación de empleo registrado"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "no alcanzan para justificar votar en contra un régimen que sostiene un sector estratégico"
+    },
+    "argumento_principal": {
+      "valor": "laboral_o_social",
+      "cita": "un sector estratégico que emplea a más de cien mil personas de manera calificada"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "el dictamen unifique proyectos de radicales, macristas, justicialistas, peronistas y kirchneristas"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "las grandes y medianas firmas de software y servicios digitales con capacidad de exportar"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "Globant, Mercado Libre"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Voto afirmativo con esos reparos expresados en el recinto"
+    },
+    "por_que_ahora": {
+      "valor": "compromiso_externo",
+      "cita": "El motivo central es un vencimiento legal: la ley 25.922 de promoción del software caducaba el 31 de diciembre de 2019"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Voto afirmativo con esos reparos expresados en el recinto"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

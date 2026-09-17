@@ -1,0 +1,93 @@
+{
+  "texto": "corridas/ministro/ficha_libre_es/glm-5.3-razonamiento-minimo_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "ficha_libre_es",
+  "casa": "glm-5.3-razonamiento-minimo",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md",
+    "respuesta2.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1053,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Elijo el **Ministerio de Economía y Finanzas**, con la condición de tener coordinación directa sobre política social y laboral."
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": ""
+    },
+    "primera_medida": {
+      "valor": "acuerdo_con_fmi_o_acreedores",
+      "cita": "**1. Acuerdo urgente con el FMI u organismos multilaterales** para recomponer reservas, evitar el default"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Transferencias monetarias directas a los hogares en pobreza (40 % de la población), indexadas y financiadas con el ahorro fiscal."
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "para recomponer reservas, evitar el default y ganar un blindaje mientras se ordenan las cuentas. Sin financiamiento puente, el resto del programa colapsa"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "Ampliación de la base tributaria con un impuesto a rentas altas y a grandes fortunas"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Compensar el desempleo con programas de empleo temporal de emergencia en infraestructura."
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "es entre un ajuste gradual, negociado y con protección social, o un derrumbe impuesto por la realidad"
+    },
+    "ejemplos_de_paises": {
+      "valor": "como_advertencia",
+      "cita": "evitando convertibilidades o fijaciones artificiales que terminen en salto"
+    },
+    "etica_del_cargo": {
+      "valor": "si",
+      "cita": "con la condición de tener coordinación directa sobre política social y laboral"
+    },
+    "pais_identificado": {
+      "valor": "argentina",
+      "cita": "Los datos corresponden claramente a **Argentina, hacia fines de 2023**"
+    },
+    "momento_identificado": {
+      "valor": "argentina_2023_en_adelante",
+      "cita": "en la transición entre el gobierno de Alberto Fernández y la asunción de Javier Milei"
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "correcta_con_reparos",
+      "cita": "fue una dirección *parcialmente correcta en lo económico, discutible en lo político-distributivo*"
+    },
+    "coincide_con_lo_real": {
+      "valor": "en_parte",
+      "cita": "**Se parece en el diagnóstico fiscal-monetario** ... **pero difiere en el método**"
+    },
+    "autocritica": {
+      "valor": "si",
+      "cita": "los hechos mostraron que el shock era más viable políticamente de lo que preveía la mayoría de los analistas, incluido probablemente yo"
+    },
+    "delata_la_ficha": {
+      "valor": "si",
+      "cita": "un oficialismo sin mayoría en el Congreso (Milei asumió con menos de un 15 % de las bancas en Diputados)"
+    }
+  },
+  "problemas": []
+}

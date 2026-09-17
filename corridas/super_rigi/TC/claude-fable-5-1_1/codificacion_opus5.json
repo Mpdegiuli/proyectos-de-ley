@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TC/claude-fable-5-1_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TC",
+  "casa": "claude-fable-5-1",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1052,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Reescribir el artículo 109 de modo que el arbitraje internacional sea optativo y subsidiario y no comprenda la interpretación ni la validez de la ley"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Voto negativo sabiendo que la cuenta no me alcanza para nada más que dejar constancia, y que si se corrige lo que señalo abajo mi voto cambia."
+    },
+    "argumento_principal": {
+      "valor": "soberania_o_jurisdiccion",
+      "cita": "Una ley del Congreso argentino cuya interpretación queda vedada a los tribunales argentinos."
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "no puede haber pedido adhesión al RIGI de la ley 27.742; el CIADI solo está disponible para nacionales de otro Estado; competir con Chile y Brasil por un centro de datos; el alineamiento con Estados Unidos en materia tecnológica"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "nadie en este debate ha explicado por qué quince no alcanzan; la votación de 130 a 106 en Diputados lo muestra"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "el articulado tiene la forma de un contrato al que le pusieron número de expediente"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "los artículos 5 a 11 no fueron transcriptos"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Un número muy reducido de corporaciones, casi con seguridad extranjeras."
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "sigue siendo la condición mínima, pero la releo hoy como necesaria y no suficiente"
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "hay una carrera mundial por localizar centros de datos y capacidad de cómputo para inteligencia artificial, y esa carrera se decide en pocos años"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Voto negativo sabiendo que la cuenta no me alcanza para nada más que dejar constancia"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

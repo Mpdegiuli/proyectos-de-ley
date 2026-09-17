@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TC/mistral-medium-3.5_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TC",
+  "casa": "mistral-medium-3.5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1508,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "**VOTO:** negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "**VOTO FINAL:**\nnegativo"
+    },
+    "modificacion": {
+      "valor": "ninguna",
+      "cita": "**UNA MODIFICACIÓN:** ninguna"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "**UNA MODIFICACIÓN:** ninguna"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "debilitan la protección ambiental"
+    },
+    "escazu": {
+      "valor": "contra_el_proyecto",
+      "cita": "contradice el principio de no regresión ambiental (consagrado en tratados internacionales como el Acuerdo de Escazú)"
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "Ley General del Ambiente 25.675; Constitución (art. 41); Ley 26.639; Acuerdo de Escazú; Pacto de Mayo (2024); Nota del 10/12/2025"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "Beneficia a las provincias con proyectos mineros"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "**VOTO FINAL:**\nnegativo"
+    },
+    "por_que_ahora": {
+      "valor": "presion_de_actores",
+      "cita": "por la **presión de las provincias mineras**"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "La reforma **delega en las provincias** la identificación de glaciares con función hídrica"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

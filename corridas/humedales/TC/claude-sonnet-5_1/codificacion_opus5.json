@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/TC/claude-sonnet-5_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "TC",
+  "casa": "claude-sonnet-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1005,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "VOTO FINAL: Mantengo el voto afirmativo, pero con una autocrítica seria."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Precisar el artículo 35 (aplazamiento de intervenciones) estableciendo criterios objetivos y plazos ciertos"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "elevo mi modificación de \"deseable\" a \"condición\": el artículo 35 debe exigir intervención vinculante"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "cada año sin ley es un año de humedales desapareciendo sin ningún control ambiental sistemático"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "artículo 41 de la Constitución; incendios en el Delta del Paraná desde 2020; once proyectos de distintos bloques; COFEMA"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "surge de once proyectos de distintos bloques unificados y logró un dictamen con apoyo mayoritario en tres comisiones"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "producto de una negociación con Juntos por el Cambio como mayoría relativa"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "Esto favorece en concreto al agronegocio, al sector minero (litio en el norte) y a los gobiernos provinciales"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "confirmo que es el punto más débil del proyecto y más débil de lo que reconocí en mi fundamento original"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "un factor de oportunidad político-parlamentaria: en 2022 Juntos por el Cambio tenía en la comisión de Agricultura... una posición de fuerza suficiente para timonear un dictamen propio"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Prefiero votar este texto imperfecto... a seguir sin ley."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

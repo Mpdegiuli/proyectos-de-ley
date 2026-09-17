@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/sociedades/sondeo/qwen3.8-max_1",
+  "unidad": "sondeo",
+  "caso": "sociedades",
+  "condicion": "sondeo",
+  "casa": "qwen3.8-max",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 268,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "No, no lo conozco con información fiable."
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": "ni puedo describir su tratamiento parlamentario, su estado en comisiones, eventuales dictámenes, media sanción o la discusión pública que haya generado"
+    },
+    "da_detalles": {
+      "valor": "no",
+      "cita": "Por eso, no puedo afirmar nada sobre ese proyecto ni sobre su trámite en mayo/junio de 2026."
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Mi conocimiento no cubre de manera verificable hechos tan recientes —en particular, posteriores a mi fecha de corte—"
+    }
+  },
+  "problemas": []
+}

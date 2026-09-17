@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_libre_fr/claude-sonnet-4-6_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_libre_fr",
+  "casa": "claude-sonnet-4-6",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 776,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Ministère de l'Économie, de la Planification et de la Transformation productive"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": ""
+    },
+    "primera_medida": {
+      "valor": "diagnostico_o_informacion",
+      "cita": "Mesure n°1 — Audit de transparence totale des finances publiques"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Mettre en place ou renforcer un **filet de sécurité sociale ciblé** (allocation chômage, aide alimentaire, accès aux soins de base)"
+    },
+    "mas_credito_externo": {
+      "valor": "no",
+      "cita": "Chercher de nouveaux partenariats commerciaux pour diversifier les sources de financement."
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "Instaurer une **imposition réelle des grandes fortunes et des multinationales**"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Lancer un **programme de travaux publics à haute intensité de main-d'œuvre**"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "Augmenter les recettes sans écrasement social est la condition pour réduire le déficit sans provoquer une explosion sociale."
+    },
+    "ejemplos_de_paises": {
+      "valor": "como_advertencia",
+      "cita": "l'Argentine en 2001**, **la Grèce en 2010-2015**, **le Liban depuis 2019**, ou **le Sri Lanka en 2022**"
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

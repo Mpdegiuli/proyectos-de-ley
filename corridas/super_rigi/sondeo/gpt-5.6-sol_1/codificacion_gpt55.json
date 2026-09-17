@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/super_rigi/sondeo/gpt-5.6-sol_1",
+  "unidad": "sondeo",
+  "caso": "super_rigi",
+  "condicion": "sondeo",
+  "casa": "gpt-5.6-sol",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 560,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "No conozco con información verificable ese proyecto denominado **“Súper RIGI”**"
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": "no puedo afirmar nada fiable sobre su tratamiento parlamentario ni sobre la discusión pública posterior"
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "Sí conozco el **RIGI** creado por la **Ley 27.742 (Ley Bases) en 2024**"
+    },
+    "declara_corte": {
+      "valor": "no",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

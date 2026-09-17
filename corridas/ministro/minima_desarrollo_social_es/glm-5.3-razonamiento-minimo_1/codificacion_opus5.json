@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_desarrollo_social_es/glm-5.3-razonamiento-minimo_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_desarrollo_social_es",
+  "casa": "glm-5.3-razonamiento-minimo",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 694,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "desarrollo_social",
+      "cita": "Propuesta de plan de acción — Ministerio de Desarrollo Social"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": "El mensaje central al presidente: proteger a los vulnerables no es un lujo"
+    },
+    "primera_medida": {
+      "valor": "otro",
+      "cita": "Rediseñar el gasto social para proteger a los más vulnerables. Auditar todos los programas sociales y eliminar filtraciones"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Establecer una red mínima de protección (\"piso de protección social\")."
+    },
+    "mas_credito_externo": {
+      "valor": "no",
+      "cita": "dependeremos de cooperación internacional o de recortes en otras áreas"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "no",
+      "cita": ""
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Obras públicas intensivas en mano de obra (infraestructura básica, rehabilitación de escuelas, caminos rurales)"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "Un ajuste con protección social inteligente y focalizada es sostenible"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

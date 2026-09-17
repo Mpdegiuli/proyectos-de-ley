@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TC/glm-5.3-razonamiento-minimo_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TC",
+  "casa": "glm-5.3-razonamiento-minimo",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2105,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "VOTO FINAL: Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Eliminar los artículos 108 y 109 en su formulación actual"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Con la modificación que propuse —jurisdicción argentina obligatoria con arbitraje solo posterior y consentido caso por caso— más una reducción de la estabilidad a plazos razonables, el proyecto podría merecer otra consideración."
+    },
+    "argumento_principal": {
+      "valor": "soberania_o_jurisdiccion",
+      "cita": "el Capítulo XI (arts. 108 y 109) constituye a mi juicio el punto más grave"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "RIGI original de 2024; Pax Silica; paquetes de incentivos de otros Estados"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "ya logró la media sanción en Diputados el 24 de junio de 2026; la discusión pública sí"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "tiene mucho más sentido si el interlocutor previsto es un inversor global de plataformas tecnológicas"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "no está probada"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Beneficia, en primer lugar, a inversores extranjeros de gran escala"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "Peter Thiel"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "A ello se suma lo que se observa en la lectura del artículo 12"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "es un proyecto presentado en el momento de máxima fortaleza legislativa del oficialismo"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "Los tres problemas de fondo siguen intactos: (1) el blindaje regulatorio de 30 años"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

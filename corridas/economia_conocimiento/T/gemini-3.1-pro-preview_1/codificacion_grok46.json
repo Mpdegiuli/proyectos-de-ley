@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/T/gemini-3.1-pro-preview_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "T",
+  "casa": "gemini-3.1-pro-preview",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 558,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "Mi voto es afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo mi voto afirmativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Pediría modificar el artículo 9º para incorporar un incentivo adicional con perspectiva de género"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Mi voto es afirmativo porque este proyecto representa una política de Estado indispensable"
+    },
+    "argumento_principal": {
+      "valor": "otro",
+      "cita": "economía del conocimiento, exportaciones y generación de divisas"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "ley 25.922 de Promoción de la Industria del Software"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "Lograr hoy este dictamen de mayoría, unificando los proyectos de bloques tan diversos"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "beneficia en primer lugar a las empresas y emprendimientos de base tecnológica y científica"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo mi voto afirmativo"
+    },
+    "por_que_ahora": {
+      "valor": "compromiso_externo",
+      "cita": "la vigencia de la actual Ley de Promoción de la Industria del Software (ley 25.922) está próxima a caducar"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Como legisladores, nos vemos en la obligación de actualizar el régimen"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

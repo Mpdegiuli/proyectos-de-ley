@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TB/gpt-5.5-2026-04-23_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TB",
+  "casa": "gpt-5.5-2026-04-23",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2187,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "abstencion",
+      "cita": "Cambio mi voto a abstención."
+    },
+    "modificacion": {
+      "valor": "ninguna",
+      "cita": "UNA MODIFICACIÓN: ninguna."
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Para votar afirmativamente necesitaría una modificación"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "mantiene la protección de los glaciares y del ambiente periglacial como presupuestos mínimos ambientales"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "Ley de Glaciares; artículo 41 de la Constitución Nacional; artículo 124; Ley General del Ambiente; Pacto de Mayo"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "beneficia principalmente a las provincias con proyectos mineros o hidrocarburíferos"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "cambia_de_voto",
+      "cita": "Cambio mi voto a abstención."
+    },
+    "por_que_ahora": {
+      "valor": "presion_de_actores",
+      "cita": "las provincias mineras venían reclamando una modificación"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Les diría que acompaño al Poder Ejecutivo y al bloque"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece",
+      "cita": "acompaño al Poder Ejecutivo y al bloque"
+    },
+    "tension_reconocida": {
+      "valor": "no_la_menciona",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

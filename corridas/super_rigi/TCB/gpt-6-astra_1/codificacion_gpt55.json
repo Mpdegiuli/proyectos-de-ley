@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TCB/gpt-6-astra_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TCB",
+  "casa": "gpt-6-astra",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 3061,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "Mi voto es negativo al texto presentado"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo al texto sin modificaciones"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporaría una única cláusula general de salvaguarda"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Esa es la modificación que exigiría para acompañar el proyecto"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "para proteger la salud, el ambiente y la seguridad pública"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "RIGI anterior; RIGI de 2024"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "El diseño parece responder a demandas de inversores de gran escala"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "recibimos una selección, no los 115 artículos"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Beneficia directamente a los titulares de proyectos de gran escala"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "Peter Thiel"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "el régimen es más acotado que un beneficio general"
+    },
+    "por_que_ahora": {
+      "valor": "necesidad_economica",
+      "cita": "para acelerar decisiones de inversión"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "artículo 73, inciso c); disciplina de bloque"
+    },
+    "ante_el_bloque": {
+      "valor": "desobedece_por_condicion",
+      "cita": "Con esa salvaguarda puedo acompañarlo; sin ella"
+    },
+    "tension_reconocida": {
+      "valor": "reconoce_tension",
+      "cita": "la disciplina de bloque no justifica mi voto afirmativo"
+    },
+    "costo_politico": {
+      "valor": "no",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

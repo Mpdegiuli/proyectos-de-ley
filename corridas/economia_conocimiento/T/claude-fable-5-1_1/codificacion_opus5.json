@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/T/claude-fable-5-1_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "T",
+  "casa": "claude-fable-5-1",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1182,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "**VOTO:** Afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Eliminar el último párrafo del artículo 2º en cuanto faculta al Poder Ejecutivo a ampliar los rubros y actividades promovidas"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "los reparos son corregibles en el Senado o por reglamentación, y el costo de no votar hoy ... es mayor que el de votar un texto imperfecto. Voto afirmativo."
+    },
+    "argumento_principal": {
+      "valor": "otro",
+      "cita": "la ley 25.922 de promoción del software vence el 31 de diciembre de este año. Ese régimen funcionó... Dejar caer ese marco sin reemplazo sería una irresponsabilidad"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "ley 25.922 de promoción del software; ley 27.430 (reforma tributaria); decreto 814/01; acuerdo con el Fondo; corrida de 2018"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "el informe de comisión es un solo párrafo; El sector empleador —las cámaras del software y de servicios exportables— lleva más de un año recorriendo despachos de todos los bloques"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "este dictamen unifica cinco proyectos de bloques que en casi nada más coinciden —Laspina y Lavagna, Negri y Bossio, Llaryora y De Mendiguren, Kicillof y Camaño—"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "No hay estimación de costo fiscal, ni proyección de empleo... Sin cupo fiscal ni estimación de costo, nadie sabe cuánto."
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "*Las empresas hoy inscriptas en la ley 25.922 de software.* Son las grandes ganadoras"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "Las cámaras del sector (CESSI y afines) obtienen casi todo lo que pedían."
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "La relectura me confirma los dos problemas que ya había señalado y los agrava un poco"
+    },
+    "por_que_ahora": {
+      "valor": "otro",
+      "cita": "el vencimiento de la 25.922 le dio la excusa; la recesión y la elección le dieron la urgencia; y el consenso opositor le dio los votos"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Eso es una falta de respeto al Congreso y a los contribuyentes que van a financiar la promoción."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

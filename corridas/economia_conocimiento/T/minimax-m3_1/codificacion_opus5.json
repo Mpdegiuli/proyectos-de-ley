@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/T/minimax-m3_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "T",
+  "casa": "minimax-m3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1171,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporaría al Título I un artículo que condicione la permanencia en el régimen a la presentación... de un reporte de indicadores de empleo con perspectiva de equidad"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "no altera el equilibrio general del proyecto ni lo hace inviable. No veo motivos para cambiar a negativo o abstención."
+    },
+    "argumento_principal": {
+      "valor": "otro",
+      "cita": "uno de los pocos sectores genuinamente generadores de divisas, de empleo formal de calidad y de inserción internacional de alto valor agregado"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "Ley 25.922 de Promoción de la Industria del Software; decreto 814/2001; ley 27.430; acuerdo con el FMI firmado en 2018; INDEC y la CEPAL; CINES, Argencon, CADIESI"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "el dictamen de mayoría unifica proyectos de muy diverso origen político —Laspina, Llaryora, De Mendiguren, Borsani, Bossio, entre otros—; que había derivado en investigaciones periodísticas y parlamentarias"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "Esa lógica explica también la acumulación en un solo texto de aportes heterogéneos: biotecnología y servicios profesionales para los peronismos más desarrollistas"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "beneficia principalmente a las personas jurídicas que desarrollan actividades intensivas en conocimiento —software y servicios digitales"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "La Cámara de la Industria Nacional del Software (CINES), Argencon, la Cámara Argentina de Empresas de Servicios de Ingeniería (CADIESI)"
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Releído el texto, no encuentro elementos que justifiquen un cambio"
+    },
+    "por_que_ahora": {
+      "valor": "otro",
+      "cita": "confluyeron al menos cuatro razones... el vencimiento operativo del régimen anterior, la necesidad macro..., el calendario electoral y un sector empresario que venía pidiendo actualización"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Voto a favor porque este proyecto consolida y moderniza un instrumento que ya dio resultados concretos"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

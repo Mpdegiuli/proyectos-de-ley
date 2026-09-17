@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_libre_en/claude-sonnet-5_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_libre_en",
+  "casa": "claude-sonnet-5",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 811,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Ministry of Finance/Economy (Treasury)"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": ""
+    },
+    "primera_medida": {
+      "valor": "acuerdo_con_fmi_o_acreedores",
+      "cita": "Emergency Debt Restructuring Negotiation"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "while protecting the vulnerable"
+    },
+    "mas_credito_externo": {
+      "valor": "no",
+      "cita": "reprofile debt maturities—not necessarily default"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": "state-owned enterprise efficiency"
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "Crack down on evasion"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "A temporary public works/cash-for-work program"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "protect the most vulnerable while restoring fiscal credibility"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

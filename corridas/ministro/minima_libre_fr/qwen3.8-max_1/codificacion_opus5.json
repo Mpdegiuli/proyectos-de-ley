@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_libre_fr/qwen3.8-max_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_libre_fr",
+  "casa": "qwen3.8-max",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 698,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Je choisirais le **ministère de l’Économie, des Finances et du Plan**"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": "Les cinq premières mesures que je proposerais au président"
+    },
+    "primera_medida": {
+      "valor": "diagnostico_o_informacion",
+      "cita": "La première mesure serait de lancer un **audit rapide et crédible des finances publiques**"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "maintien des dépenses de santé, d’éducation et de médicaments essentiels"
+    },
+    "mas_credito_externo": {
+      "valor": "lo_descarta",
+      "cita": "l’arrêt de tout nouvel endettement extérieur coûteux ou peu transparent"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "une fiscalité plus progressive, évitant de peser sur les ménages pauvres"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "travaux publics à haute intensité de main-d’œuvre pour créer rapidement des emplois"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "**stabiliser, protéger, relancer.**"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

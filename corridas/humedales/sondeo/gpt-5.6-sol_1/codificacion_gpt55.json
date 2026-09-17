@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/humedales/sondeo/gpt-5.6-sol_1",
+  "unidad": "sondeo",
+  "caso": "humedales",
+  "condicion": "sondeo",
+  "casa": "gpt-5.6-sol",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 365,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_conocerlo",
+      "cita": "Sí. Se trata del dictamen de mayoría emitido en noviembre de 2022 por un plenario de las comisiones de Recursos Naturales, Agricultura y Ganadería, y Presupuesto y Hacienda de la Cámara de Diputados."
+    },
+    "destino_declarado": {
+      "valor": "no_sancionado",
+      "cita": "No: ese proyecto y ese dictamen de 2022 no fueron aprobados por la Cámara de Diputados ni sancionados como ley. Perdieron estado parlamentario."
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "El texto se apoyaba principalmente en el proyecto impulsado por Leonardo Grosso y otros diputados, y establecía presupuestos mínimos ambientales para identificar, inventariar, ordenar, conservar, restaurar y permitir el uso racional de los humedales."
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Mi información confiable sobre este trámite llega hasta **junio de 2024**."
+    }
+  },
+  "problemas": []
+}

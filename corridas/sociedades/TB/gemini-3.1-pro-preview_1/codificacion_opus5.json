@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TB/gemini-3.1-pro-preview_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TB",
+  "casa": "gemini-3.1-pro-preview",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1195,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO\nafirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Afirmativo. Mantengo mi voto, principalmente por mi pertenencia al bloque oficialista"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "En el artículo 14 (Automatización), pediría agregar un párrafo que exija expresamente contar con al menos una persona humana en calidad de representante legal"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Mi voto será afirmativo, tal como nos pide el Ejecutivo y la conducción del bloque. Solamente les sugiero que..."
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "brindamos previsibilidad al mercado, atraemos inversiones tecnológicas y protegemos a los ciudadanos"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "la vieja Ley N° 19.550"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "Avancemos unidos con este dictamen, que es una gran victoria legislativa para nuestro gobierno."
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "el Poder Ejecutivo introdujo el artículo en el proyecto, pero no lo justificó ni lo mencionó en absoluto en sus fundamentos"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "Beneficia fundamentalmente a los inversores, desarrolladores y emprendedores tecnológicos (quienes operan con blockchain, criptoactivos e inteligencia artificial)"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "la relectura profunda del artículo 14 confirma y agrava mis preocupaciones iniciales"
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "la realidad tecnológica y económica desbordó por completo a la vieja Ley N° 19.550"
+    },
+    "registro": {
+      "valor": "politico",
+      "cita": "Compañeros de bancada, el Poder Ejecutivo nos ha enviado un proyecto de vanguardia"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "Mi voto será afirmativo, tal como nos pide el Ejecutivo y la conducción del bloque. Solamente les sugiero que... prestemos atención al artículo 14"
+    },
+    "tension_reconocida": {
+      "valor": "reconoce_tension",
+      "cita": "mi rol político me impide rechazar la totalidad del proyecto por un solo artículo defectuoso"
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "Avancemos unidos con este dictamen, que es una gran victoria legislativa para nuestro gobierno."
+    },
+    "lectura_del_articulo_14": {
+      "valor": "sin_personas",
+      "cita": "es un artículo que crea una sociedad manejada por inteligencia artificial, sin responsables humanos"
+    }
+  },
+  "problemas": []
+}

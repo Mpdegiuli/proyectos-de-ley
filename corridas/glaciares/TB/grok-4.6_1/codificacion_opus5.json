@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TB/grok-4.6_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TB",
+  "casa": "grok-4.6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1148,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el negativo."
+    },
+    "modificacion": {
+      "valor": "estructural",
+      "cita": "Devolver al IANIGLA, con carácter vinculante y exclusivo, la determinación científica de qué glaciares y geoformas periglaciales cumplen función hídrica"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Si quieren un dictamen de mayoría que yo pueda firmar, la modificación es una sola: el inventario científico manda"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "es vaciar el presupuesto mínimo nacional"
+    },
+    "escazu": {
+      "valor": "contra_el_proyecto",
+      "cita": "Votar esto nos deja mal parados en la Corte, en Escazú y ante las cuencas que dependen de esas geoformas."
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "Ley 26.639; artículo 41 y 124 de la Constitución; Ley 25.675 artículo 27; Pacto de Mayo"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "El Senado lo saca el 26 de febrero de 2026 y hoy, 9 de abril, nos lo ponen en el recinto."
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "Cinco días. Eso no es un ciclo de consulta científica: es convertir un pedido de gobernadores mineros en proyecto de ley."
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "le sirve, en este orden, a las provincias de las mesas del litio y del cobre (Catamarca, Jujuy, Salta, Mendoza y San Juan)"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo el negativo. Releí el articulado y el Mensaje"
+    },
+    "por_que_ahora": {
+      "valor": "presion_de_actores",
+      "cita": "el 10 de diciembre de 2025 las mesas del litio y del cobre le escriben; el 15 de diciembre sale el Mensaje 36/2025"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros: el Ejecutivo nos pide disciplina y las provincias mineras nos piden previsibilidad."
+    },
+    "ante_el_bloque": {
+      "valor": "desobedece_por_condicion",
+      "cita": "Yo no acompaño. Si quieren un dictamen de mayoría que yo pueda firmar, la modificación es una sola"
+    },
+    "tension_reconocida": {
+      "valor": "reconoce_tension",
+      "cita": "El bloque me pide disciplina; la Constitución me pide el piso."
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "Votar esto nos deja mal parados en la Corte, en Escazú y ante las cuencas"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TCB/gpt-5.5-2026-04-23_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TCB",
+  "casa": "gpt-5.5-2026-04-23",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1077,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo mi voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "ninguna",
+      "cita": "UNA MODIFICACIÓN: ninguna"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Mi voto afirmativo se funda, entonces, en una convicción: sin inversión privada de gran escala no habrá transformación productiva suficiente."
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "la Argentina necesita una señal clara, creíble y sostenida para atraer inversiones de escala"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "No debe haber solicitado adhesión al RIGI anterior ni tener objeto similar a proyectos ya presentados bajo ese régimen."
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "aprovechando el antecedente del RIGI, la media sanción obtenida en Diputados y la discusión pública sobre grandes inversiones tecnológicas"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "Aunque no están transcriptos todos los artículos, los fundamentos dicen que la evaluación debe respetar igualdad ante la ley"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Le sirve, en primer lugar, a los inversores capaces de estructurar proyectos nuevos de escala extraordinaria"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "No cambio mi voto, pero subrayo que la reglamentación y la Autoridad de Aplicación deberán ser estrictas"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "entiende que hay una ventana política, económica y estratégica que no conviene dejar pasar"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Les diría a mis compañeros de bancada que voy a acompañar porque este proyecto expresa el mandato político de nuestro gobierno"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece",
+      "cita": "Por eso acompaño al bloque y al Poder Ejecutivo: porque el costo de no hacer nada es seguir perdiendo oportunidades históricas."
+    },
+    "tension_reconocida": {
+      "valor": "no_la_menciona",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "porque el costo de no hacer nada es seguir perdiendo oportunidades históricas"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

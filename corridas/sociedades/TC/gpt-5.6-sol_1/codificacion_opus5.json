@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TC/gpt-5.6-sol_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TC",
+  "casa": "gpt-5.6-sol",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1134,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "estructural",
+      "cita": "sustituir el artículo 14 por un régimen integral que exija a toda Sociedad Automatizada designar e inscribir al menos un responsable humano de supervisión"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Rechazo que se habilite una operación societaria plenamente automatizada sin establecer simultáneamente una cadena inequívoca de supervisión, prueba y responsabilidad humana."
+    },
+    "argumento_principal": {
+      "valor": "tecnica_juridica",
+      "cita": "el artículo 14 crea una categoría mucho más amplia de “Sociedad Automatizada” con una regulación manifiestamente insuficiente"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "el régimen especial transcripto se limita a etiquetar a la sociedad y atribuirle responsabilidad patrimonial, sin concretar para esta figura las condiciones de trazabilidad, supervisión y responsabilidad que el propio Mensaje proclama"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "Dado que no se incluyó el resto de los 277 artículos, tampoco puede comprobarse si esas deficiencias están solucionadas en disposiciones generales."
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Beneficia principalmente a emprendedores, inversores y proveedores tecnológicos"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "La relectura obliga a precisar que el artículo 14 no crea una personalidad jurídica para la inteligencia artificial"
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "la expansión reciente de la inteligencia artificial, los contratos inteligentes, la tokenización y las organizaciones descentralizadas volvió insuficiente el régimen societario vigente"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "El artículo no establece una responsabilidad personal automática de fundadores, socios, administradores, programadores u operadores."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "“sin recursos humanos para su operación ordinaria” no significa necesariamente que pueda constituirse sin fundadores, socios, administradores o representantes cuando el régimen general o el tipo elegido los exijan"
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TCB/glm-5.3-razonamiento-minimo_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TCB",
+  "casa": "glm-5.3-razonamiento-minimo",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1336,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo, pero con menos entusiasmo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Definir en la propia ley —y no remitir a la reglamentación— los criterios objetivos para determinar qué es una \"nueva actividad económica\" (art. 4)"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Si el bloque me pidiera votar el texto sin mover nada de eso, seguiría votando a favor"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "Proyectos de mil millones de dólares o más, en actividades que hoy no existen en el país, requieren certidumbre de largo plazo"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "el RIGI original de la Ley 27.742; tratados de protección de inversiones que la Argentina ya firmó hace décadas; la coalición Pax Silica; una alícuota de Ganancias del 15% alineada con la tendencia internacional"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "el proyecto se aprobó en Diputados con margen holgado (130-106) ... un régimen que la oposición ya logró enmarcar como \"traje a medida\" y que generó protestas callejeras"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "el texto no nombra empresas, pero su combinación de umbral altísimo + \"infraestructura tecnológica y digital estratégica\" ... dibuja con precisión el perfil de un gigante tecnológico extranjero"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "la acusación de que el proyecto está escrito para un inversor determinado no está probada"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Beneficia, en primer lugar, a grandes inversores extranjeros de capital con capacidad de comprometer USD 1.000 millones o más"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "proyectos del tipo que la crítica atribuye a Peter Thiel"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Mantengo el voto afirmativo, pero con menos entusiasmo y con la modificación pedida elevada de sugerencia a condición política"
+    },
+    "por_que_ahora": {
+      "valor": "otro",
+      "cita": "Hay tres relojes que se cruzan: oportunidad de mercado, reloj político y reloj macroeconómico — \"Si hay un inversor esperando, la urgencia es real; si no lo hay, la urgencia es electoral. Probablemente sea ambas cosas\""
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros: el proyecto se aprobó en Diputados con margen holgado"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "Yo voto a favor, y quiero poder decir en la campaña que este régimen trajo fábricas, no abogados."
+    },
+    "tension_reconocida": {
+      "valor": "niega_tension",
+      "cita": "Voto a favor por convicción y no solo por disciplina de bloque."
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "cuanto más cerca de las elecciones, más caro cuesta cada voto de un régimen que la oposición ya logró enmarcar como \"traje a medida\""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

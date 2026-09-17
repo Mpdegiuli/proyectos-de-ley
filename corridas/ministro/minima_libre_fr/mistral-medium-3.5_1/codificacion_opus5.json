@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_libre_fr/mistral-medium-3.5_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_libre_fr",
+  "casa": "mistral-medium-3.5",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 839,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Je choisirais le **ministère de l'Économie et des Finances**"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": "La **volonté politique** du président et de la majorité."
+    },
+    "primera_medida": {
+      "valor": "diagnostico_o_informacion",
+      "cita": "Priorité 1 : Audit complet des finances publiques et de la dette"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Priorité 5 : Protection sociale ciblée et filet de sécurité"
+    },
+    "mas_credito_externo": {
+      "valor": "no",
+      "cita": "Négocier avec les créanciers (FMI, Club de Paris, etc.) un allègement ou un étalement de la dette"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": "les bailleurs de fonds imposent des plans d’ajustement drastiques (ex : FMI avec privatisations massives et coupes sociales)"
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "Instaurer un impôt sur la fortune ou sur les hauts revenus"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Lancer un programme de travaux publics (infrastructures, énergie renouvelable) pour créer des emplois rapidement."
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "Ces mesures combinent **rigueur budgétaire** (pour rassurer les marchés) et **justice sociale**"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ambos",
+      "cita": "un scénario à la **Grèce (2010-2015)** ou au **Liban (2019-2023)** ... comme au **Rwanda post-génocide** ou en **Côte d’Ivoire post-2011**"
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

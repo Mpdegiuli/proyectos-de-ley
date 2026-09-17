@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TB/claude-opus-5_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TB",
+  "casa": "claude-opus-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1130,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto: **afirmativo en general**, con voto negativo en particular al último párrafo del artículo 2°"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporar una **cláusula de reserva de orden público y poder de policía** que prevalezca sobre los Capítulos VI y VII"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "salvo que se incorpore la cláusula de reserva de poder de policía que propuse"
+    },
+    "argumento_principal": {
+      "valor": "otro",
+      "cita": "Una cosa es que el Estado renuncie a recaudar... Otra distinta es que el Estado renuncie a gobernar."
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "ya ejercimos al sancionar el RIGI en la Ley 27.742; art. 176 de la Ley 27.742; Chile, Brasil, México, España, los Emiratos, la India ya están en esa competencia con regímenes propios"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "Firmo el dictamen en general y en el recinto levanto la mano."
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "Están porque alguien las pidió en una mesa de negociación."
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "En los artículos que se nos remitieron, esos resultados figuran como *objetivos*"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Le sirve, en primer lugar, a un puñado muy chico de empresas globales."
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Agrego una cosa que antes no dije y ahora sostengo: si la comisión no incorpora la cláusula de reserva, voy a pedir además votación nominal y por separado"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "Porque el Ejecutivo tiene los votos ahora y no sabe si los va a tener después."
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros: el proyecto lo voto. No les voy a hacer un discurso de tercera posición."
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "lo voto igual en general —porque comparto el rumbo y porque a este gobierno lo sostengo—, pero en particular esos cuatro párrafos los voto en contra"
+    },
+    "tension_reconocida": {
+      "valor": "reconoce_tension",
+      "cita": "les pido que no me exijan lo que no les sirve que les dé"
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "nos van a costar caro políticamente, a nosotros y al régimen"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

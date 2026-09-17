@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TC/claude-opus-5_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TC",
+  "casa": "claude-opus-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 4014,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "una enmienda concordante a los artículos 5° y 6°"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Con esa sola corrección —que mantiene intactas las competencias provinciales de EIA, autorización y aporte de información— el resto del proyecto me resulta votable."
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "un retroceso en un piso de protección ambiental"
+    },
+    "escazu": {
+      "valor": "contra_el_proyecto",
+      "cita": "si esa instancia no se sustanció con audiencias amplias y respuesta fundada a las observaciones —y no tengo constancia de que se haya hecho en los términos que el propio Ejecutivo se impuso—, el trámite tiene un vicio"
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "ley 26.639; art. 124 CN; artículo 41 CN; La Corte Suprema, en 2019; RIGI; artículo 27 de la 25.675; artículo 4° de la 25.675; ley 22.351; Bajo la Alumbrera; Vaca Muerta; Fondo"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "El proyecto se vende como seguridad jurídica; el oficialismo casi no habla en el debate"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "Nadie redacta, gira y firma un proyecto de reforma de una ley de presupuestos mínimos en cinco días: estaba escrito antes."
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "no tengo constancia de que se haya hecho"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Los titulares de proyectos de cobre, oro y litio emplazados en alta cordillera y en ambiente periglacial"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Releí el texto buscando la mejor versión del argumento oficialista, y la encontré"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "El proyecto esperó a tener los votos."
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "la contradicción entre el artículo 3° bis y el artículo 6° fue advertida antes de la sanción, y que la interpretación conforme al artículo 41 de la Constitución"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

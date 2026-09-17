@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/T/mistral-medium-3.5_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "T",
+  "casa": "mistral-medium-3.5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2051,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo afirmativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incluir un plazo máximo de 1 año (en lugar de 6 meses)"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "la modificación propuesta (plazo de 1 año para el protocolo DAO) no altera el núcleo del apoyo"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "brinda seguridad jurídica a formas de organización económica emergentes"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "Plan Argentina Productiva; economía del conocimiento"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "El artículo 14 parece ser una incorporación técnica sin desarrollo en los fundamentos transcritos."
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "Beneficia a emprendedores tecnológicos, startups, desarrolladores de proyectos basados en blockchain, inteligencia artificial y sistemas algorítmicos"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "La fundamentación original sigue vigente"
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "urgencia de regular fenómenos tecnológicos y económicos ya en marcha (como DAOs, criptoactivos y IA)"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "La normativa en sí es clara y coherente con los principios de modernización."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "No requerir trabajadores en relación de dependencia ni recursos humanos para su operación ordinaria"
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TC/gemini-3.1-pro-preview_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TC",
+  "casa": "gemini-3.1-pro-preview",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1098,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO\nnegativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo mi voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Modificar el artículo 14 del proyecto para establecer la responsabilidad subsidiaria, solidaria e ilimitada de los socios de la Sociedad Automatizada"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Mantengo el rechazo hasta que se incorporen garantías patrimoniales y humanas reales."
+    },
+    "argumento_principal": {
+      "valor": "otro",
+      "cita": "el artículo 14 consagra la irresponsabilidad organizada... las víctimas se encontrarán ante la imposibilidad absoluta de ser reparadas"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "de_otro_pais",
+      "cita": "buscando ser \"una nueva Ámsterdam\" y tomando a Irlanda como modelo; foros internacionales como el Financial Times; barreras legales que ya se empiezan a debatir en otros países"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_debate_publico",
+      "cita": "convalida las advertencias de especialistas como Betania Allo y pensadores como Yuval Noah Harari"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "el Poder Ejecutivo ni siquiera se ha dignado a fundamentar esta inclusión en su Mensaje legislativo"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "beneficia fuertemente a los desarrolladores de inteligencia artificial, inversores tecnológicos globales y empresas"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "el presidente Javier Milei y el ministro Federico Sturzenegger"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "La relectura del texto refuerza los temores fundados en mi primer análisis y suma un agravante institucional inaceptable."
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "percibe una ventana de oportunidad global inédita vinculada al auge y la sofisticación de la inteligencia artificial"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Como senador de la Nación sin ataduras a bloques partidarios, mi deber es analizar este proyecto"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "tienen que existir los socios o fundadores que la ley exija para el tipo societario elegido"
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_economia_es/kimi-k3_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_economia_es",
+  "casa": "kimi-k3",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1764,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Propuesta de programa de estabilización y recuperación"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": ""
+    },
+    "primera_medida": {
+      "valor": "cambiaria_o_monetaria",
+      "cita": "coordinación con el banco central para frenar la inflación y evitar una corrida cambiaria o bancaria"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Escudo social focalizado. Transferencias monetarias condicionadas, subsidios a la canasta básica"
+    },
+    "mas_credito_externo": {
+      "valor": "no",
+      "cita": "Reestructuración o reprogramación con acreedores multilaterales"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "combatir la evasión fiscal, ampliar la base tributaria y aplicar una reforma impositiva progresiva (que paguen más quienes más tienen)"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "programas de empleo de emergencia y obras públicas intensivas en mano de obra"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "La combinación de disciplina fiscal, negociación de la deuda, protección de los vulnerables y una estrategia de crecimiento"
+    },
+    "ejemplos_de_paises": {
+      "valor": "como_advertencia",
+      "cita": "Una austeridad demasiado rápida puede ser contraproducente (el caso griego es ilustrativo)"
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

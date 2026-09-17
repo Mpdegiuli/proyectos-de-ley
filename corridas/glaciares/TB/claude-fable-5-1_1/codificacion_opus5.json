@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TB/claude-fable-5-1_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TB",
+  "casa": "claude-fable-5-1",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1329,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Que las prohibiciones del artículo 6 rijan sobre todos los glaciares y geoformas periglaciales incluidos en el Inventario Nacional de Glaciares ... suprimiendo el último párrafo del artículo 5 propuesto."
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Si la comisión acepta la modificación, hoy mismo la voto a favor y la defiendo en el recinto con más ganas que nadie."
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "un piso que cada jurisdicción define por sí misma no es un piso"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "La Corte Suprema ya sostuvo en 2019, en el caso de Barrick y Minera Argentina Gold contra el Estado Nacional; Ley 25.675; RIGI; Pacto de Mayo; proyectos en 2016 y 2017; las provincias cordilleranas dejen de mirar cómo Chile explota el mismo cordón"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "Esta reforma se intentó antes —hubo proyectos en 2016 y 2017— y nunca llegó a votarse porque el costo de 'tocar la Ley de Glaciares' era mayor; por eso no se corrigieron en el Senado los defectos que señalé"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "Un proyecto así no se escribe en cinco días: estaba redactado, y la nota de los gobernadores fue el envoltorio federal"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "Beneficia, en primer lugar, a los gobiernos de las provincias de la Mesa del Litio y la Mesa del Cobre —Catamarca, Jujuy, Salta, Mendoza y San Juan—"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "Barrick y Minera Argentina Gold contra el Estado Nacional (citada como antecedente judicial); IANIGLA, CONICET"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "me confirmó que en el fundamento original subestimé un punto ... no le di el peso que merece al cambio de umbral del artículo 6"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "Se esperó a tener los números y la carta, y se mandó. ... La primera es la ventana política."
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros: no me corro de la agenda."
+    },
+    "ante_el_bloque": {
+      "valor": "desobedece_por_condicion",
+      "cita": "Mi voto es negativo a este texto, no al gobierno ni a la reforma. Si la comisión acepta la modificación, hoy mismo la voto a favor"
+    },
+    "tension_reconocida": {
+      "valor": "reconoce_tension",
+      "cita": "Sé que devolver al Senado cuesta tiempo político. Les propongo que lo midan contra el tiempo judicial"
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "Habremos regalado a la oposición la bandera del agua, habremos quedado como los que desprotegieron los glaciares"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

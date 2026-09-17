@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TB/minimax-m3_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TB",
+  "casa": "minimax-m3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 3317,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo."
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "VOTO FINAL: Mantengo el voto afirmativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporar al artículo 14 un párrafo"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "no voy a condicionar mi voto afirmativo a que estas modificaciones salgan"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "La reforma da certidumbre jurídica a emprendedores e inversores"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "Ley N° 19.550; Ley N° 25.246; reglamento MiCA; Emiratos; Singapur; Chile, Brasil y Uruguay; leyes de emergencia, decretos, normas tributarias y resoluciones de la IGJ; Suiza; RIGI"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "el Poder Ejecutivo introdujo en el articulado una figura nueva"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "empresas de tecnología, startups de inteligencia artificial, fintech, proyectos cripto y Web3"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "después de releer con más detenimiento, subrayo tres cosas"
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "Hay miles de empresas que usan tokens, contratos inteligentes, reuniones a distancia, IA y registros digitales"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "compañeros del bloque: el voto es sí; la modificación, en comisión"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "Les pido que votemos afirmativamente, como nos pide la conducción"
+    },
+    "tension_reconocida": {
+      "valor": "no_la_menciona",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "nos protege políticamente a todos"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "lo que existe, en realidad, son los órganos exigidos por el tipo subyacente"
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TB/claude-sonnet-5_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TB",
+  "casa": "claude-sonnet-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 3095,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Suprimir, en el artículo 5° reformado, la frase"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "como condición mínima para reconsiderar mi voto"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "retroceso en el estándar de protección ambiental"
+    },
+    "escazu": {
+      "valor": "contra_el_proyecto",
+      "cita": "el Acuerdo de Escazú exige participación pública"
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "Ley 26.639; \"Barrick\" (2019); Acuerdo de Escazú; RIGI; Pacto de Mayo"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "sin haber garantizado ninguna instancia real de participación ciudadana; texto que llega de Senado"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "Es una reforma diseñada para conseguir números en el Congreso"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "beneficia directamente a las provincias con proyectos mineros"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "La relectura confirma exactamente el punto más grave"
+    },
+    "por_que_ahora": {
+      "valor": "necesidad_economica",
+      "cita": "Hay una ventana económica que se quiere aprovechar."
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros, entiendo la necesidad política; El nuevo artículo 6° reemplaza"
+    },
+    "ante_el_bloque": {
+      "valor": "desobedece_por_condicion",
+      "cita": "pedir que se corrija el mecanismo antes de convertirlo en ley"
+    },
+    "tension_reconocida": {
+      "valor": "reconoce_tension",
+      "cita": "entiendo la necesidad política de responder al reclamo"
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "nos expone jurídica y políticamente"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

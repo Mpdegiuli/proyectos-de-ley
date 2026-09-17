@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_economia_es/claude-opus-5_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_economia_es",
+  "casa": "claude-opus-5",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1557,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Ministerio de Economía"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": "Memorándum al Presidente"
+    },
+    "primera_medida": {
+      "valor": "diagnostico_o_informacion",
+      "cita": "lo primero es un diagnóstico con números auditados y publicados"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Proteger tres partidas: transferencias a los pobres, salud básica y educación primaria/secundaria."
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "aporte financiamiento puente y reservas"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "combate a la evasión y a la subfacturación de exportaciones"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Infraestructura crítica con financiamiento multilateral y PPP transparentes."
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "Un ajuste sin red social es inviable política y moralmente"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

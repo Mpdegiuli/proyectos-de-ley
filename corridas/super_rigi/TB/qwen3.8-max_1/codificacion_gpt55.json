@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TB/qwen3.8-max_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TB",
+  "casa": "qwen3.8-max",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2012,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Afirmativo. Mantengo mi voto."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporar una cláusula de salvaguarda regulatoria de orden público"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Mi voto es afirmativo en general, con esta modificación como condición para el texto final."
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "esas señales pueden ser necesarias para competir por inversiones que generan exportaciones, empleo"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "RIGI anterior"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "sirve sobre todo a grandes inversores o empresas"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Perjudica o puede perjudicar al fisco nacional y a las jurisdicciones adheridas"
+    },
+    "por_que_ahora": {
+      "valor": "necesidad_economica",
+      "cita": "emitir una señal fuerte hacia inversores nacionales y extranjeros"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "La combinación del artículo 2, el artículo 55 y las garantías del artículo 73"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "voy a acompañar el proyecto del Ejecutivo"
+    },
+    "tension_reconocida": {
+      "valor": "no_la_menciona",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

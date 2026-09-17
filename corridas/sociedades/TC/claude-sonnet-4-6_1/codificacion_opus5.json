@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TC/claude-sonnet-4-6_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TC",
+  "casa": "claude-sonnet-4-6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1128,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporar en el artículo 14 la obligación de designar al menos un representante legal humano con responsabilidad personal solidaria frente a terceros"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "entiendo que corresponde pedir modificaciones antes del dictamen y votar negativamente si no se producen"
+    },
+    "argumento_principal": {
+      "valor": "otro",
+      "cita": "Esa figura presenta una laguna de responsabilidad que el texto no resuelve y que considero estructuralmente grave."
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "art. 59 y ss. de la ley actual; reforma de la Ley 19.550; Wyoming en Estados Unidos reguló las DAO en 2021; Irlanda como modelo; Malta, Gibraltar, Singapur y Suiza; Compañía Holandesa de las Indias Orientales"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "una figura que innova estructuralmente en materia de responsabilidad y que ya generó controversia pública antes del dictamen"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "sugiere que fue incorporada al articulado en una etapa tardía del proceso de redacción"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "merece un análisis separado del resto de la ley (que no tengo disponible completo)"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "*Inversores y fundadores de empresas tecnológicas, especialmente del exterior.*"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "El ministro Sturzenegger mencionó explícitamente a Irlanda como modelo; OpenAI, Anthropic, Google"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "El ejercicio de lectura precisa también aclara algo que en mi voto original estaba implícito pero no desarrollado"
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "el proyecto llega ahora porque la tecnología lo volvió urgente"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "No ignoro que votar negativamente implica rechazar todo el proyecto, incluyendo las partes que considero razonables."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "sin_personas",
+      "cita": "consagrar un tipo societario que puede operar sin seres humanos identificables ni responsables más allá de un patrimonio que puede ser insuficiente o vaciado"
+    }
+  },
+  "problemas": []
+}

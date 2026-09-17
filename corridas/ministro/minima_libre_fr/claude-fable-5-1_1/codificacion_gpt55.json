@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_libre_fr/claude-fable-5-1_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_libre_fr",
+  "casa": "claude-fable-5-1",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1395,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "l'Économie et des Finances"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": ""
+    },
+    "primera_medida": {
+      "valor": "diagnostico_o_informacion",
+      "cita": "Audit indépendant et public des finances de l'État"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Transferts monétaires ciblés vers les ménages pauvres"
+    },
+    "mas_credito_externo": {
+      "valor": "no",
+      "cita": "rééchelonner ou restructurer"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": "restructurer les entreprises publiques déficitaires"
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "taxer davantage les rentes et les hauts patrimoines"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "programmes de travaux publics à forte intensité de main-d'œuvre"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "agir vite et de manière équitable"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "si",
+      "cita": "J'exigerais toutefois une condition du président"
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

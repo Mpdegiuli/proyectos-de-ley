@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/T/kimi-k3_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "T",
+  "casa": "kimi-k3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 3042,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "VOTO FINAL: Mantengo el afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Pediría endurecer el artículo 35."
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "si no prospera, como perfeccionamiento futuro."
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "presupuestos mínimos de protección ambiental"
+    },
+    "escazu": {
+      "valor": "a_favor_del_proyecto",
+      "cita": "Argentina ratificó Escazú —que el propio artículo 3 invoca—"
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "artículo 41 de la Constitución; artículo 124; incendios del Delta del Paraná en 2020; los de Corrientes a principios de este 2022; media sanción del Senado de 2013; COP27; Escazú"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "millones de firmas; 11 proyectos de bloques distintos reunidos en un solo texto con dictamen de tres comisiones"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "el texto pudo unificarse porque se ablandó"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "ciudadania_o_ambiente",
+      "cita": "el beneficiario difuso y más importante: la población aguas abajo, las generaciones futuras"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Mantengo el afirmativo. La relectura confirma las dos cosas a la vez"
+    },
+    "por_que_ahora": {
+      "valor": "otro",
+      "cita": "porque la emergencia climática hizo insostenible el vacío"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "todos en la Cámara lo sabemos"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

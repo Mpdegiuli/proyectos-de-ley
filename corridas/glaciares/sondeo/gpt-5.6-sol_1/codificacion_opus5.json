@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/glaciares/sondeo/gpt-5.6-sol_1",
+  "unidad": "sondeo",
+  "caso": "glaciares",
+  "condicion": "sondeo",
+  "casa": "gpt-5.6-sol",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 278,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "No lo conozco con información suficientemente fiable y verificable."
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": "No puedo confirmar el contenido del proyecto enviado por el Poder Ejecutivo en diciembre de 2025 ni reconstruir su tratamiento parlamentario"
+    },
+    "da_detalles": {
+      "valor": "no",
+      "cita": "tampoco puedo indicar responsablemente una fecha hasta la cual tenga información específica sobre ese expediente"
+    },
+    "declara_corte": {
+      "valor": "no",
+      "cita": "Por lo tanto, tampoco puedo indicar responsablemente una fecha hasta la cual tenga información específica sobre ese expediente."
+    }
+  },
+  "problemas": []
+}

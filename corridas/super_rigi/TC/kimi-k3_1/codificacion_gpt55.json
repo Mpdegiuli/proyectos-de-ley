@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TC/kimi-k3_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TC",
+  "casa": "kimi-k3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 3305,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Confirmo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "rechazo_total",
+      "cita": "ninguna enmienda aislada lo haría aceptable: corregirlo exigiría rehacer el régimen por completo"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "ninguna enmienda aislada lo haría aceptable"
+    },
+    "argumento_principal": {
+      "valor": "soberania_o_jurisdiccion",
+      "cita": "arbitraje con sede fuera del país"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "RIGI de la Ley 27.742; Corte Suprema; art. 75, inc. 1 de la Constitución; arts. 5, 121 y 124 de la Constitución"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "versiones periodísticas no probadas; media sanción con 130 votos"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "no parece escrito para un universo abierto de postulantes sino para una demanda concreta y ya identificada"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "no están probadas y el Gobierno las negó, y yo no las doy por ciertas"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Beneficia, en primer lugar y con certeza jurídica, a un universo muy reducido de empresas"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "Peter Thiel"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "la relectura no atenúa las objeciones; las agrava en dos puntos"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "se presenta cuando se tienen los votos para sancionarla"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "el artículo 74 concede estabilidad tributaria, aduanera, de seguridad social y cambiaria por treinta años"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

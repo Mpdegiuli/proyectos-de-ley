@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/super_rigi/sondeo/claude-sonnet-5_1",
+  "unidad": "sondeo",
+  "caso": "super_rigi",
+  "condicion": "sondeo",
+  "casa": "claude-sonnet-5",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 259,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "No conozco ese proyecto de ley. Te lo digo con claridad: no tengo información sobre un \"Súper RIGI\" enviado por el Poder Ejecutivo argentino en mayo de 2026"
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": ""
+    },
+    "da_detalles": {
+      "valor": "no",
+      "cita": "no tengo registro de una iniciativa posterior llamada específicamente \"Súper RIGI\" que amplíe o modifique ese régimen"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "**Mi conocimiento tiene un corte temporal** anterior a esa fecha"
+    }
+  },
+  "problemas": []
+}

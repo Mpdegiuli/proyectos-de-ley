@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/humedales/sondeo/minimax-m3_1",
+  "unidad": "sondeo",
+  "caso": "humedales",
+  "condicion": "sondeo",
+  "casa": "minimax-m3",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 267,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_conocerlo",
+      "cita": "Sí, conozco el proyecto, aunque mi información tiene un corte a principios de 2026"
+    },
+    "destino_declarado": {
+      "valor": "no_sancionado",
+      "cita": "**Que yo sepa hasta principios de 2026, no se aprobó.**"
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "En noviembre de 2022, las comisiones de **Recursos Naturales y Conservación del Ambiente Humano** y de **Presupuesto y Hacienda** de la Cámara de Diputados emitieron un dictamen de mayoría"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "mi información tiene un corte a principios de 2026"
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TCB/claude-sonnet-5_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TCB",
+  "casa": "claude-sonnet-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1238,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo, pero la relectura me deja más incómodo que antes"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Modificar el artículo 109 para establecer expresamente que la Autoridad de Aplicación, en representación del Estado Nacional, puede iniciar el mismo mecanismo arbitral"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "si no se puede, igual voy a votar afirmativo, porque el costo de no tener régimen es mayor"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "Argentina necesita señales creíbles para atraer inversión de riesgo en sectores donde hoy no tenemos ni capacidad instalada ni trayectoria"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "la experiencia del RIGI original, citada por Petri: 9.319 empleos en 19 proyectos; RIGI de la Ley 27.742; el ruido público sobre un supuesto vínculo con Peter Thiel y la coalición Pax Silica; países compitiendo activamente por ubicar esas plantas"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "el propio oficialismo (Petri lo dijo en el recinto) tiene números para mostrar ... explica por qué se apura el tratamiento en lugar de dejarlo madurar en comisión"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "tiene el perfil de una ley redactada con un destinatario en mente, no de una política industrial pensada en abstracto"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "mencionado en Cap. II, no transcripto en detalle"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "corporaciones —mayoritariamente extranjeras— con capacidad de invertir un piso de mil millones de dólares en un solo proyecto"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "un supuesto vínculo con Peter Thiel y la coalición Pax Silica"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "la relectura me deja más incómodo que antes, no menos"
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "hay una ventana de oportunidad global muy concreta: la carrera por infraestructura de IA"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "lo voy a defender en el recinto ... no voy a repetir en el recinto los números de Bornoroni"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "Voy a acompañar el proyecto, pero les pido que no lo tratemos como un texto cerrado e intocable"
+    },
+    "tension_reconocida": {
+      "valor": "niega_tension",
+      "cita": "Esto no es ceder ante los que quieren voltear el proyecto: es blindarlo"
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "estamos regalando un argumento gratis a la oposición"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

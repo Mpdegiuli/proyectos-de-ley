@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/T/minimax-m3_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "T",
+  "casa": "minimax-m3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1114,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: Afirmativo."
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "VOTO FINAL: Mantengo mi voto afirmativo, sin modificarlo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Sustituir el artículo 35 disponiendo que... la moratoria... se aplique a la totalidad de los ambientes que reúnan las condiciones definidas en el artículo 2°"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "su eventual falta de incorporación no alcanza, en mi lectura, para justificar el costo político, ambiental y social de votar en contra"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "El artículo 41 de la Constitución Nacional obliga al Congreso a dictar presupuestos mínimos de protección ambiental, y este proyecto cumple razonablemente con ese mandato"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "Ley General del Ambiente; ley de Gestión Ambiental de Cuencas Hídricas (ley 25.688); ley 22.351; Convención de Ramsar; COP27 de Sharm el-Sheikh; incendios en el Delta del Paraná desde 2020; incendios en Corrientes 2022"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "existen cuestionamientos serios, sobre todo desde el ambientalismo... según todas las señales que recibimos del debate en comisiones"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "Sé que este texto es fruto de largas negociaciones y que refleja equilibrios entre los intereses ambientales, productivos y federales en juego."
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "ciudadania_o_ambiente",
+      "cita": "beneficia en primer lugar a los humedales mismos y a la sociedad en su conjunto"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Esta es la principal beneficiariesa de la redacción actual: quienes querían avanzar con proyectos que afecten humedales durante los próximos años"
+    },
+    "por_que_ahora": {
+      "valor": "presion_de_actores",
+      "cita": "La primera y más visible es la presión social y mediática que acumularon los incendios en el Delta del Paraná desde 2020"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "es una mejora importante que procuraré introducir en el debate en el recinto"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

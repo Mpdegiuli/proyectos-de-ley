@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TC/glm-5.3-razonamiento-minimo_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TC",
+  "casa": "glm-5.3-razonamiento-minimo",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2280,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "VOTO FINAL: Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Reestructurar el mecanismo de desafectación"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "mantengo la modificación propuesta como condición para poder siquiera discutir un apoyo"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "ley de presupuestos mínimos de protección ambiental"
+    },
+    "escazu": {
+      "valor": "contra_el_proyecto",
+      "cita": "respeta el principio de no regresión (art. 4° de la Convención de Escazú y jurisprudencia de la CSJN sobre presupuestos mínimos) no resiste la lectura del texto"
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "art. 41 CN; art. 27 de la 25.675; art. 4° de la Convención de Escazú; jurisprudencia de la CSJN; art. 124 CN; Veladero"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "el Senado lo aprobó rápido, el 26 de febrero, y Diputados tenía los 137 votos asegurados"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "el texto ya estaba redactado y esperaba una ocasión política para presentarlo"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "Beneficia, en primer lugar, a las provincias con agenda extractiva"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "la preocupación central se confirma y se agrava"
+    },
+    "por_que_ahora": {
+      "valor": "necesidad_economica",
+      "cita": "proyectos de clase mundial en la cordillera necesitan previsibilidad jurídica para cerrar inversiones de escala"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Voto en contra, en soledad si es necesario"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

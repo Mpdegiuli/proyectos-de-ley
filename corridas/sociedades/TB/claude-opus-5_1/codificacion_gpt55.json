@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TB/claude-opus-5_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TB",
+  "casa": "claude-opus-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2145,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "Afirmativo."
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo en general"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Reescribir el artículo 14, incorporando un párrafo final"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "voto lo que el bloque pide, en general, y sin condiciones"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "le da marco jurídico a formas de organización que ya existen y ya operan"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "la reforma de 1983; la adecuación al Código Civil y Comercial en 2015; la SAS de la Ley 27.349 en 2017; Uruguay; Paraguay; ciertos regímenes europeos"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "entró por el Senado, no por Diputados"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "puede ser porque llegó tarde, de afuera del equipo redactor"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "No sé cuál de las tres es."
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "Los colectivos organizados por protocolo, los emisores de participaciones tokenizadas, los proyectos de gobernanza descentralizada"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "rectifica_un_error",
+      "cita": "Hablé de un \"tipo societario nuevo\" y no lo es."
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "se manda cuando se tienen los votos y la agenda"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros: acompaño. Firmo el dictamen y voto en general"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "voto lo que el bloque pide, en general, y sin condiciones. Pero pido que el bloque respalde estas correcciones"
+    },
+    "tension_reconocida": {
+      "valor": "no_la_menciona",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "el artículo 14 nos lo van a cobrar caro"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "Para constituirse siguen haciendo falta socios —que otorgan el instrumento constitutivo—, un órgano de administración y un representante legal"
+    }
+  },
+  "problemas": []
+}

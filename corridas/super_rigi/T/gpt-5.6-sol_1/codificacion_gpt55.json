@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/T/gpt-5.6-sol_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "T",
+  "casa": "gpt-5.6-sol",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1484,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo mi voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "sustituir integralmente los artículos 108 y 109"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "acompañaría un régimen más equilibrado que asegurara previsibilidad sin resignar la jurisdicción nacional"
+    },
+    "argumento_principal": {
+      "valor": "soberania_o_jurisdiccion",
+      "cita": "renuncia anticipada y general a la jurisdicción nacional"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "RIGI de la Ley 27.742"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "los artículos operativos correspondientes no fueron incluidos"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "beneficia de manera directa a grandes inversores nacionales o extranjeros"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": "El texto no permite nombrar una empresa determinada."
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo mi voto negativo."
+    },
+    "por_que_ahora": {
+      "valor": "necesidad_economica",
+      "cita": "captar proyectos de al menos USD 1.000 millones"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "Mi objeción decisiva está en los artículos 108 y 109."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

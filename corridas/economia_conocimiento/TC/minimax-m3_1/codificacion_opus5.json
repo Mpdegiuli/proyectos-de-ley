@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/TC/minimax-m3_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "TC",
+  "casa": "minimax-m3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1114,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo."
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporar un artículo que establezca un régimen diferenciado y transitorio de cinco años para las empresas medianas nacionales"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "aunque voto afirmativamente, formulo una modificación específica"
+    },
+    "argumento_principal": {
+      "valor": "otro",
+      "cita": "la promoción de actividades intensivas en conocimiento, con alto valor agregado y vocación exportadora, es una política de Estado que trasciende a un gobierno"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "reemplaza y amplía la ley 25.922; ley 26.270 de biotecnología; ley 27.349 FONDCE; ley 24.467; decreto 814/2001; ley 27.430; programa de ajuste con el FMI; Uruguay, Chile, Colombia y Brasil competían por captar empresas"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "las dos bancas de la izquierda que rechazaron el dictamen lo plantearon explícitamente; dictamen firmado un día antes y una votación tan contundente"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "une iniciativas de diputados de Cambiemos (Laspina, Borsani, Negri), del justicialismo (Lavagna, De Mendiguren, Bossio) y de Córdoba Federal (Brügge, Llaryora), con el impulso del Poder Ejecutivo"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "beneficia, en primer lugar, a las **empresas grandes y consolidadas del sector de software y servicios digitales**"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "a las cámaras empresarias (CESSI, Argencon, CACE), que sus demandas son atendidas"
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Releído el texto completo, las razones que expuse en el fundamento original se sostienen"
+    },
+    "por_que_ahora": {
+      "valor": "otro",
+      "cita": "una razón técnico-normativa impostergable. La ley 25.922 de promoción de la industria del software vencía el 31 de diciembre de 2019"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "aunque voto afirmativamente, formulo una modificación específica"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

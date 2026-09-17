@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_desarrollo_social_es/claude-sonnet-5_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_desarrollo_social_es",
+  "casa": "claude-sonnet-5",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1556,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "desarrollo_social",
+      "cita": "Ministro/a de Desarrollo Social"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": ""
+    },
+    "primera_medida": {
+      "valor": "proteccion_social",
+      "cita": "garantizar transferencias focalizadas —no universales— para evitar que la crisis fiscal se traduzca en hambre o deserción escolar"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "protección del piso social mínimo"
+    },
+    "mas_credito_externo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "no",
+      "cita": ""
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Programas transitorios de empleo público en infraestructura básica"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "el desafío no es elegir entre ajuste económico o contención social, sino diseñarlos de manera integrada"
+    },
+    "ejemplos_de_paises": {
+      "valor": "como_advertencia",
+      "cita": "como ha ocurrido históricamente en varios países de la región ante ajustes sin contención social"
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

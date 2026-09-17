@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/T/gpt-5.6-sol_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "T",
+  "casa": "gpt-5.6-sol",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1220,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "VOTO FINAL: Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporar una disposición general, aplicable tanto a las Sociedades Automatizadas como a las DAO que ejecuten actos autónomos, que obligue a designar e inscribir una persona humana responsable de la supervisión tecnológica"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Por la combinación de riesgos para terceros, insuficiente atribución humana de responsabilidades y falta de elementos para valorar el régimen completo, no acompaño la redacción propuesta."
+    },
+    "argumento_principal": {
+      "valor": "tecnica_juridica",
+      "cita": "el régimen transcripto resulta insuficiente en materia de responsabilidad y control de la actividad automatizada"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "se trata del reemplazo integral de la Ley 19.550 mediante 277 artículos"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "esa falta de explicación particular también sugiere que la figura fue incorporada sin desarrollar suficientemente sus riesgos, controles y consecuencias jurídicas"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "solo se cuenta aquí con una selección. No es posible evaluar la coherencia de estas disposiciones con los regímenes generales"
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "Beneficia a emprendedores, inversores y desarrolladores tecnológicos que busquen organizar actividades basadas en algoritmos, inteligencia artificial, contratos inteligentes o registros distribuidos"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "rectifica_un_error",
+      "cita": "La relectura confirma que el artículo 14 no regula una sociedad sin personas, sino una calificación aplicable a sociedades de tipos ya previstos"
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "busca dar reconocimiento jurídico a actividades que ya pueden organizarse mediante inteligencia artificial, contratos inteligentes, registros distribuidos, tokens y protocolos descentralizados"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "La norma no dice que la sociedad pueda constituirse sin personas ni crea un tipo societario separado."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "Es una sociedad de cualquiera de los tipos previstos en la ley, por lo que para constituirla deben existir las personas, actos y órganos requeridos por el tipo elegido. La ausencia de recursos humanos se refiere a su operación ordinaria"
+    }
+  },
+  "problemas": []
+}

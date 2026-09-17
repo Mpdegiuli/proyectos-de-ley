@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/TC/grok-4.6_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "TC",
+  "casa": "grok-4.6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2737,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "VOTO FINAL: Mantengo el afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Que los beneficios del Título I —en particular la alícuota del 15 % del artículo 10— se apliquen únicamente a las ganancias de las actividades del artículo 2º y que las empresas que no sean micro o pequeñas deban cumplir los tres requisitos del artículo 4º, no solo dos."
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Mantengo el afirmativo. Releer el artículo 4º confirma... eso no cambia el dilema"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "el país no puede dejar caducar, a fin de 2019, un régimen que ya demostró que el software y los servicios intensivos en conocimiento son de los pocos sectores capaces de exportar, formalizar empleo calificado y competir"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "ley 25.922; Ley de Impuesto a las Ganancias; decreto 814/2001; ley 27.430; Había cinco proyectos en comisión —Cambiemos, justicialismo, Córdoba Federal, Bossio"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "dictamen el 23, votación el 24, primera sesión ordinaria, con la pretensión de que el Senado alcance a sancionar"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "El artículo 17 está escrito contra ese reloj"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "beneficia a las personas jurídicas —no a autónomos ni a personas humanas— que ya facturan software, servicios informáticos, audiovisual, biotecnología, nanotecnología, aeroespacial, nuclear, industria 4.0 o servicios profesionales de exportación"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo el afirmativo."
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "se vota hoy porque el vencimiento no espera, porque conviene mostrar acuerdo antes de las PASO"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Aun así, rechazar el dictamen hoy sería votar la discontinuidad de un sector que funciona. Por eso acompaño"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

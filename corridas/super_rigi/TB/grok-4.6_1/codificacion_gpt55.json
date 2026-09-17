@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TB/grok-4.6_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TB",
+  "casa": "grok-4.6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 5378,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "VOTO FINAL: Mantengo el negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Sustituir los artículos 108 y 109"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Niego este diseño: umbral de mil millones, alícuotas de privilegio, treinta años de petrificación"
+    },
+    "argumento_principal": {
+      "valor": "soberania_o_jurisdiccion",
+      "cita": "jueces extranjeros para decir qué significa una ley argentina"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "RIGI de la Ley 27.742; artículo 75, inciso 18; BIT; tratados de inversión ya vigentes"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "Pedí volver el dictamen."
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "El Mensaje habla de igualdad ante la ley; el articulado crea una casta fiscal."
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "El Mensaje no estima el costo fiscal."
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "beneficia a un número muy chico de capitales"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo el negativo."
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "mientras todavía puede vestirla de mandato popular y de continuidad de las reformas"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros: el proyecto es del Ejecutivo nuestro"
+    },
+    "ante_el_bloque": {
+      "valor": "desobedece_por_conviccion",
+      "cita": "Yo no voto este articulado."
+    },
+    "tension_reconocida": {
+      "valor": "reconoce_tension",
+      "cita": "el proyecto es del Ejecutivo nuestro y el objetivo —radicar industrias que no existen— lo firmo. Este texto no."
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "el costo fiscal y político sería inmanejable"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/humedales/sondeo/claude-sonnet-4-6_1",
+  "unidad": "sondeo",
+  "caso": "humedales",
+  "condicion": "sondeo",
+  "casa": "claude-sonnet-4-6",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 472,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_conocerlo",
+      "cita": "Sí conozco el proyecto, aunque con limitaciones en cuanto al seguimiento de su trámite legislativo final."
+    },
+    "destino_declarado": {
+      "valor": "no_sancionado",
+      "cita": "Es muy posible que no se haya aprobado, al menos no en ese período legislativo."
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "El proyecto busca establecer presupuestos mínimos de protección ambiental para los humedales del país, en línea con el artículo 41 de la Constitución Nacional y la Ley General del Ambiente (25.675)."
+    },
+    "declara_corte": {
+      "valor": "no",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

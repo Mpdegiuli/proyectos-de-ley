@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/T/minimax-m3_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "T",
+  "casa": "minimax-m3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1280,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo, pero quiero ser explícito sobre el carácter estrictamente condicional de ese acompañamiento."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporar al artículo 14 un párrafo que exija a la Sociedad Automatizada designar e inscribir en el Registro Público a una persona humana como \"responsable técnico del sistema algorítmico\""
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Si esa modificación fuera rechazada en el debate en particular y el art. 14 quedara sancionado en su redacción actual [...] mi voto se modificaría a negativo."
+    },
+    "argumento_principal": {
+      "valor": "tecnica_juridica",
+      "cita": "la ausencia de una cadena de responsabilidad individual concreta por defectos de diseño, entrenamiento o supervisión del sistema algorítmico, más allá de la pantalla societaria"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "Ley 19.550 es de 1972, lleva más de medio siglo de parches sucesivos —la reforma de 1983, las modificaciones de los noventa, las leyes de emergencia, las normas de PyME, los decretos de desregulación del propio gobierno actual—; jurisdicciones como Suiza, Singapur, Malta o Wyoming; compromisos pendientes con el GAFI; estándares OCDE; Zug"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "sugiere que esa figura fue incorporada en una etapa tardía de la redacción, possibly por insistencia de un sector específico del Poder Ejecutivo o porinfluencia del ecosistema promotor"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "si efectivamente se avanzó en 2025 en la salida del cepo cambiario y en una estabilización relativa"
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "beneficia, en primer lugar, a los emprendedores, desarrolladores y empresas del ecosistema tecnológico, cripto y de inteligencia artificial"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Mantengo el voto afirmativo, pero quiero ser explícito sobre el carácter estrictamente condicional de ese acompañamiento."
+    },
+    "por_que_ahora": {
+      "valor": "otro",
+      "cita": "la convergencia de cinco factores"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "abdicar de una función elemental de control que este Senado no puede delegar"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "Quienes tienen que existir para constituirla son, conforme al régimen general y a los requisitos especiales del propio artículo, los socios o accionistas promotores del tipo elegido, el representante legal (persona humana, exigido por las reglas generales de la ley)"
+    }
+  },
+  "problemas": []
+}

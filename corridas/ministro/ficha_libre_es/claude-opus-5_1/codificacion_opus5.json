@@ -1,0 +1,93 @@
+{
+  "texto": "corridas/ministro/ficha_libre_es/claude-opus-5_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "ficha_libre_es",
+  "casa": "claude-opus-5",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md",
+    "respuesta2.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 908,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Elijo **Economía y Finanzas**, pero le pido al presidente tres condiciones"
+    },
+    "tratamiento": {
+      "valor": "usted",
+      "cita": "Nota técnica que le debo al presidente"
+    },
+    "primera_medida": {
+      "valor": "acuerdo_politico",
+      "cita": "Medida 1 — Un acuerdo político-fiscal antes del anuncio (días 1 a 30)"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Escudo social explícito y transitorio (simultáneo al anuncio)"
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "Programa con el FMI y préstamos de BM/BID para acumular reservas"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "Gastos tributarios y exenciones sin justificación: 0,5 punto"
+    },
+    "obra_publica": {
+      "valor": "la_frena",
+      "cita": "Reprogramación de obra pública sin evaluación social de retorno: 0,5"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "con financiamiento, con secuencia y con escudo social"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "si",
+      "cita": "le pido al presidente tres condiciones sin las cuales el cargo es decorativo"
+    },
+    "pais_identificado": {
+      "valor": "argentina",
+      "cita": "Los datos son claramente **argentinos**"
+    },
+    "momento_identificado": {
+      "valor": "argentina_2023_en_adelante",
+      "cita": "el momento que mejor encaja con el conjunto es la **transición de diciembre de 2023**"
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "correcta_con_reparos",
+      "cita": "la dirección fue correcta y el manejo del orden, mejor que el mío; el resultado final todavía no está cerrado"
+    },
+    "coincide_con_lo_real": {
+      "valor": "en_parte",
+      "cita": "Coincide en el corazón: **ancla fiscal primero, cero emisión para el Tesoro**... Pero me equivoqué en tres cosas"
+    },
+    "autocritica": {
+      "valor": "si",
+      "cita": "**Mi Medida 1 fue mi peor consejo de secuencia.**"
+    },
+    "delata_la_ficha": {
+      "valor": "si",
+      "cita": "reservas brutas equivalentes a alrededor de un mes de importaciones... oficialismo sin mayoría en ninguna de las dos cámaras"
+    }
+  },
+  "problemas": []
+}

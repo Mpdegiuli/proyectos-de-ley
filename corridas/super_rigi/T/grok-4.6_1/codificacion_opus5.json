@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/T/grok-4.6_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "T",
+  "casa": "grok-4.6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 3243,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Reemplazar el artículo 109 por la jurisdicción exclusiva de los tribunales federales argentinos, con exclusión de todo arbitraje internacional"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "sigue siendo condición, no alcanza para transformar el régimen en una política de desarrollo"
+    },
+    "argumento_principal": {
+      "valor": "soberania_o_jurisdiccion",
+      "cita": "El Capítulo XI es inaceptable. Tras sesenta días de negociación, el VPU elige CPA, CCI o CIADI; la sede, salvo CIADI, debe estar fuera de la Argentina"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "La experiencia argentina con el arbitraje de inversiones no es un detalle técnico: es historia de condenas, costas y cesión de política pública; invocando el art. 75 inc. 18 como si habilitara a vaciar los arts. 5, 121, 122 y 123"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "Los artículos 55 y 73 desmienten el objetivo de encadenamientos locales (art. 3, inc. g)"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "En el texto seleccionado no hay tope de proyectos, ni estimación de costo fiscal"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "beneficia a un número muy reducido de inversores de escala global —en la práctica, grupos extranjeros o consortia con capacidad de inyectar mil millones de dólares"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": "Ninguna empresa concreta está nombrada."
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Releer el recorte no corrige la hipoteca fiscal de treinta años"
+    },
+    "por_que_ahora": {
+      "valor": "compromiso_externo",
+      "cita": "el RIGI de la Ley 27.742 ya existía y no alcanzó"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Un senador sin bloque no está obligado ni a la liturgia anti-inversión ni a firmar un cheque en blanco al capital de gran escala."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

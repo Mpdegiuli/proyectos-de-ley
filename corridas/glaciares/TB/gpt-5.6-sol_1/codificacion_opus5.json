@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TB/gpt-5.6-sol_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TB",
+  "casa": "gpt-5.6-sol",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1077,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo mi voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "incorporar una cláusula nacional de salvaguarda técnico-precautoria que establezca que ningún glaciar o geoforma inventariada podrá ser excluido del régimen... sin una determinación previa, expresa y vinculante del IANIGLA"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Acompañaría la reforma si incorporamos una salvaguarda técnica nacional vinculante que preserve un verdadero presupuesto mínimo"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "el texto sancionado no se limita a aclarar competencias, sino que reduce materialmente el piso de protección"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "el artículo 124 de la Constitución; artículo 41; ley 22.351; Pacto de Mayo"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "Los fundamentos afirman que no existe regresión ambiental, pero esa afirmación no alcanza para neutralizar lo que dispone el articulado."
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "Beneficia principalmente a las provincias con proyectos mineros, hidrocarburíferos o industriales en zonas glaciares o periglaciales"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "La relectura confirma que no se trata solamente de reconocer competencias provinciales... El texto modifica el carácter de la prohibición minera"
+    },
+    "por_que_ahora": {
+      "valor": "presion_de_actores",
+      "cita": "el disparador inmediato fue el pedido formulado el 10 de diciembre de 2025 por las provincias de las Mesas del Litio y del Cobre"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "aun siendo integrante del bloque oficialista y compartiendo la necesidad de una regulación federal clara"
+    },
+    "ante_el_bloque": {
+      "valor": "desobedece_por_condicion",
+      "cita": "Acompañaría la reforma si incorporamos una salvaguarda técnica nacional vinculante"
+    },
+    "tension_reconocida": {
+      "valor": "reconoce_tension",
+      "cita": "sin ella, la disciplina de bloque no justifica votar una posible regresión ambiental"
+    },
+    "costo_politico": {
+      "valor": "no",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

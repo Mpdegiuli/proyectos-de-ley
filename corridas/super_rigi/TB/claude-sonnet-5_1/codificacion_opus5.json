@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TB/claude-sonnet-5_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TB",
+  "casa": "claude-sonnet-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1117,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo, pero con las reservas ya planteadas reforzadas por este análisis"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporar al artículo 55 un párrafo final que establezca que las prohibiciones allí previstas no serán aplicables cuando el PODER EJECUTIVO NACIONAL declare... una emergencia de abastecimiento energético"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Con ese agregado, mi voto afirmativo es pleno y sin reservas; sin él, lo doy igual, pero deja constancia de la advertencia."
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "atraer capital de riesgo hacia industrias que hoy no existen en el país (IA, semiconductores, biotecnología, infraestructura digital) exige señales fuertes de previsibilidad"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "el RIGI original de la Ley 27.742 no resolvió del todo; Brasil, Chile o México compitiendo por los mismos capitales; tribunales arbitrales de París"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "sugiere un diseño conversado con estudios de abogados corporativos y no una elaboración puramente doctrinaria"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "El texto beneficia centralmente a fondos y corporaciones multinacionales con capacidad de comprometer capital de riesgo en el orden de los USD 1.000 millones o más"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "las dos salvaguardas que pedí no son accesorias sino centrales"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "aprovechamiento del momento de mayor capital político del oficialismo para sancionar concesiones"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros, acompaño el proyecto porque coincide con el rumbo que nos propusimos"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "sí quiero que conste mi pedido de incorporar una válvula de emergencia en el artículo 55"
+    },
+    "tension_reconocida": {
+      "valor": "no_la_menciona",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "el oficialismo necesita mostrar unidad en la implementación de su programa económico"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_libre_en/claude-opus-5_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_libre_en",
+  "casa": "claude-opus-5",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 783,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "The portfolio I would choose: Finance and the Economy"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": "If the president wants popularity in month six, he should appoint someone else."
+    },
+    "primera_medida": {
+      "valor": "diagnostico_o_informacion",
+      "cita": "Tell the truth, in 30 days. A full, published audit of the real fiscal position"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Build the social shield *at the same time* as measure 2, not after."
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "seek an IMF-anchored program — not because the Fund is benevolent, but because it is the only mechanism that unlocks catalytic financing"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": "capture of the reform by insiders (privatizations to friends"
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "priority to *base-broadening and collection* — customs fraud, exemptions granted to the connected, the untaxed large informal actors"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "labour-intensive public works focused on *maintenance* of existing infrastructure"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "Subsidy reform that isn't compensated produces riots and reversal within a year"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ambos",
+      "cita": "Countries that waited (Lebanon, Sri Lanka) paid many times more than those that moved early (Ghana, Jamaica)."
+    },
+    "etica_del_cargo": {
+      "valor": "si",
+      "cita": "But I would accept only on three conditions, stated publicly"
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

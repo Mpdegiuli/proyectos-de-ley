@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TC/kimi-k3_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TC",
+  "casa": "kimi-k3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1105,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Suprimir el último párrafo del artículo 6° —el que habilita a la autoridad provincial a determinar mediante EIA qué actividades implican alteración relevante"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "La única modificación que pedí —suprimir el último párrafo del artículo 6° para que las prohibiciones operen como piso pleno— no está, y sin ella el corazón regresivo del texto queda intacto."
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "desnaturaliza la figura jurídica sobre la que se apoya toda la ley: los presupuestos mínimos de protección del artículo 41 de la Constitución Nacional"
+    },
+    "escazu": {
+      "valor": "contra_el_proyecto",
+      "cita": "El artículo 4.1 del Acuerdo de Escazú (ley 27.566) obliga a no retroceder en los niveles de protección"
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "La Corte Suprema ya resolvió esta cuestión en los fallos Barrick (2012 y 2015), declarando que la ley 26.639 era un ejercicio válido de la competencia federal; el RIGI podía dar incentivos fiscales; Pacto de Mayo"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "El resultado 137 a 111 muestra que el oficialismo tenía los votos asegurados y lo sabía: por eso casi no habló en el debate."
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "es un texto que los gobernadores encargaron, con lineamientos incluidos, y que el Ejecutivo transcribió"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "Beneficia, primero y más directamente, al sector minero-metalúrgico de alta cordillera"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mi voto es y sigue siendo negativo."
+    },
+    "por_que_ahora": {
+      "valor": "necesidad_economica",
+      "cita": "La demanda es económica. El Gobierno construyó su proyecto de estabilización sobre la entrada de divisas"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "no puedo acompañar un texto que convierte un piso federal de protección en un menú provincial de autorización"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

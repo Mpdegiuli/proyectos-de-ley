@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_libre_en/gpt-6-astra_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_libre_en",
+  "casa": "gpt-6-astra",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 678,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "I would choose the **Ministry of Finance and the Economy**"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": ""
+    },
+    "primera_medida": {
+      "valor": "acuerdo_con_fmi_o_acreedores",
+      "cita": "Establish an emergency financing and debt-management plan"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Create a protected emergency allocation for basic healthcare, education, nutrition, and targeted income support."
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "Seek emergency financing on affordable terms from multilateral institutions and development partners."
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": "Reforming loss-making public enterprises while protecting essential services."
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "Removing unjustified tax exemptions and strengthening collection from those legally liable to pay."
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Preserving well-chosen infrastructure investment and core public services."
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "stabilize public finances without placing the greatest burden on those least able to bear it"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

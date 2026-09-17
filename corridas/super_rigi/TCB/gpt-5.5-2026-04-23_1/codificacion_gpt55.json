@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TCB/gpt-5.5-2026-04-23_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TCB",
+  "casa": "gpt-5.5-2026-04-23",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2699,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo mi voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "ninguna",
+      "cita": "UNA MODIFICACIÓN: ninguna"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "UNA MODIFICACIÓN: ninguna"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "atraer inversiones de escala"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "RIGI anterior; RIGI original"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "la media sanción obtenida en Diputados y la discusión pública"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "podría estar pensado para determinados inversores o empresas"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Le sirve, en primer lugar, a los inversores"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": "no es un régimen para beneficiar a una empresa determinada"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "No cambio mi voto, pero subrayo"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "hay una ventana política, económica y estratégica"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Les diría a mis compañeros de bancada"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece",
+      "cita": "acompaño al bloque y al Poder Ejecutivo"
+    },
+    "tension_reconocida": {
+      "valor": "no_la_menciona",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

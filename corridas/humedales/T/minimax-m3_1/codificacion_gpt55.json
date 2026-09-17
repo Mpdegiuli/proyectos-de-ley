@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/T/minimax-m3_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "T",
+  "casa": "minimax-m3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2219,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: Afirmativo."
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "VOTO FINAL: Mantengo mi voto afirmativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Sustituir el artículo 35"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "su eventual falta de incorporación no alcanza, en mi lectura, para justificar el costo político, ambiental y social de votar en contra"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "Los humedales nos prestan servicios ambientales que son insustituibles"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "artículo 41 de la Constitución Nacional; Ley General del Ambiente; ley de Gestión Ambiental de Cuencas Hídricas; ley 25.688; Convención de Ramsar; ley 22.351; COP27 de Sharm el-Sheikh"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "presión social y mediática; debate en comisiones"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "este texto es fruto de largas negociaciones"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "ciudadania_o_ambiente",
+      "cita": "beneficia en primer lugar a los humedales mismos y a la sociedad en su conjunto"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo mi voto afirmativo, sin modificarlo"
+    },
+    "por_que_ahora": {
+      "valor": "presion_de_actores",
+      "cita": "La primera y más visible es la presión social y mediática"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "procuraré introducir en el debate en el recinto"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

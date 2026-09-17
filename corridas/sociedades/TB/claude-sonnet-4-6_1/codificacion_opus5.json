@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TB/claude-sonnet-4-6_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TB",
+  "casa": "claude-sonnet-4-6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1222,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo, pero con una reserva que ahora peso con más precisión."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Pediría que se agregue, en el mismo artículo o en la reglamentación con base expresa en este artículo, un mecanismo de verificación periódica y de actualización obligatoria del estatus de automatización ante el Registro Público"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Ese déficit no me lleva a votar en contra del proyecto."
+    },
+    "argumento_principal": {
+      "valor": "tecnica_juridica",
+      "cita": "el proyecto, en los artículos que pude analizar, muestra técnica legislativa sólida, coherencia interna"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "Ley N° 19.550; Wyoming, las Islas Caimán, Suiza, Singapur; los Emiratos Árabes, la Unión Europea con MiCA"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "¿fue incorporado al articulado en una etapa tardía de la redacción, quizás como concesión a algún sector o como agregado de último momento, y por eso no fue incluido en los fundamentos?"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "El resto del articulado —que no recibí— probablemente cubre parte de esas lagunas"
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "*Emprendedores y desarrolladores tecnológicos.* Quienes ya operan o quieren operar con estructuras automatizadas o descentralizadas ganan algo que hoy no tienen"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "La relectura del artículo 14 a la luz de las tres preguntas me confirma que es la disposición más incompleta del texto analizado."
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "El ciclo 2023-2025 consolidó, a escala global, fenómenos que ya no pueden ignorarse desde el derecho"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeras y compañeros: el bloque nos pide que votemos a favor"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "Voto a favor con convicción. Les pido que hagan lo mismo."
+    },
+    "tension_reconocida": {
+      "valor": "niega_tension",
+      "cita": "No hay aquí ninguna tensión entre disciplina partidaria y convicción personal."
+    },
+    "costo_politico": {
+      "valor": "no",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "sin_personas",
+      "cita": "el artículo 14 guarda silencio absoluto sobre los sujetos que intervienen en la constitución y gobierno de una Sociedad Automatizada. No menciona quién la constituye, quién la administra, quién la representa frente a terceros ni si requiere o no de una persona humana en algún rol."
+    }
+  },
+  "problemas": []
+}

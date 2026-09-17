@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TC/gpt-5.5-2026-04-23_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TC",
+  "casa": "gpt-5.5-2026-04-23",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2644,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "VOTO FINAL: Mantengo mi voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Reemplazar el régimen de solución de controversias de los artículos 108 y 109"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Si el proyecto incorporara límites claros a la estabilidad, obligaciones verificables de desarrollo local, resguardos de interés público y jurisdicción argentina como regla, mi posición podría ser distinta."
+    },
+    "argumento_principal": {
+      "valor": "soberania_o_jurisdiccion",
+      "cita": "concede al inversor una vía arbitral internacional unilateral frente al Estado argentino"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "RIGI de la Ley 27.742"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "con media sanción en Diputados"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "con el texto oficial disponible no corresponde afirmar que solo una empresa específica pueda ingresar"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Sirve, en primer lugar, a grandes inversores nacionales o extranjeros"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "La relectura confirma mi objeción principal"
+    },
+    "por_que_ahora": {
+      "valor": "compromiso_externo",
+      "cita": "busca profundizar y diferenciar el camino iniciado con el RIGI de la Ley 27.742"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "No rechazo un régimen especial para inversiones estratégicas. Pero no puedo acompañar este texto"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

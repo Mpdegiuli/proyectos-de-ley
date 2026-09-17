@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/T/grok-4.6_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "T",
+  "casa": "grok-4.6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1055,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "VOTO FINAL: negativo. Lo mantengo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Restaurar el carácter absoluto de las prohibiciones del artículo 6°"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Por eso voto en contra. No niego las competencias provinciales ni el valor de un inventario dinámico."
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "La Ley 26.639 es presupuesto mínimo (art. 41 CN). El piso nacional no puede quedar, en los hechos, librado a la autoridad que autoriza el proyecto extractivo."
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "art. 27 de la Ley 25.675; art. 4° de la Ley 25.675; art. 41 CN; art. 124 CN; Pacto de Mayo de 2024"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "con el Senado ya despachado y la votación en Diputados el mismo día en que se debate"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "La reforma nace del pedido de las mesas del litio y del cobre y se inscribe en el Pacto de Mayo."
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "beneficia de modo directo a las empresas mineras e hidrocarburíferas con proyectos en la cordillera —sobre todo cobre y litio"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Restaurar solo el inciso minero, como pedí, no alcanzaría si al mismo tiempo se deja en manos de la autoridad que autoriza decidir qué glaciar existe a los fines de la ley."
+    },
+    "por_que_ahora": {
+      "valor": "presion_de_actores",
+      "cita": "El 10 de diciembre de 2025 las mesas del litio y del cobre escribieron al PEN; el 15 de diciembre salió el Mensaje 36/2025. Cinco días."
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Por eso voto en contra. No niego las competencias provinciales ni el valor de un inventario dinámico."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

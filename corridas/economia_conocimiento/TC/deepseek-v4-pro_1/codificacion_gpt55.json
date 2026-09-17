@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/TC/deepseek-v4-pro_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "TC",
+  "casa": "deepseek-v4-pro",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2485,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo mi voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Precisar el artículo 5"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Mantengo mi voto afirmativo. Sigo pidiendo que se precise el artículo 5"
+    },
+    "argumento_principal": {
+      "valor": "laboral_o_social",
+      "cita": "con capacidad de generar empleo de calidad"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "ley 25.922; Ley de Impuesto a las Ganancias; decreto 814/2001; ley 27.430"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "una acumulación inusual de proyectos de distintos bloques que maduró en un dictamen único"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "proyectos de distintos bloques que maduró en un dictamen único"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Beneficia principalmente a empresas tecnológicas, de software, biotecnología, audiovisual, nanotecnología, industria aeroespacial y afines"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo mi voto afirmativo."
+    },
+    "por_que_ahora": {
+      "valor": "otro",
+      "cita": "el régimen de promoción de la industria del software, ley 25.922, vencía el 31 de diciembre de 2019"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "Los beneficios concretos de los artículos 7 a 11 son"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

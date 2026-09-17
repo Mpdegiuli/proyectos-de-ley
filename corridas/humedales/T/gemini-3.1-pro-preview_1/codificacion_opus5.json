@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/T/gemini-3.1-pro-preview_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "T",
+  "casa": "gemini-3.1-pro-preview",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1112,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo mi voto AFIRMATIVO."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Modificaría el artículo 32 para que el Ministerio de Ambiente y Desarrollo Sostenible de la Nación sea la única y exclusiva Autoridad Nacional de Aplicación."
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Voto a favor para que la ley exista; el control de su correcta implementación será nuestra próxima batalla."
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "la sanción de una Ley de Humedales es una deuda histórica de este Congreso y una urgencia socioambiental ineludible frente a la constante degradación y los recurrentes incendios"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "incendios masivos y devastadores, fundamentalmente en el Delta del Paraná, que taparon de humo a ciudades enteras como Rosario"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "salió masivamente a las calles a exigir \"Ley de Humedales Ya\"; Si no lográbamos unificar posiciones y emitir este dictamen de mayoría ahora para votarlo en el recinto"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "este texto unifica once proyectos tras una \"historia de trabajo parlamentario de casi diez años\""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "Beneficia principalmente a las provincias, que retienen el control absoluto sobre sus recursos naturales"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Releyendo el texto confirmo que la injerencia del Ministerio de Economía como co-autoridad de aplicación (Art. 32) y el enorme margen de discrecionalidad que se le deja a las provincias... pueden licuar el espíritu proteccionista de la norma."
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "Estamos a fines de noviembre, en el límite del cierre del período de sesiones ordinarias."
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "como legislador sin bloque y consciente del fracaso sistemático de este debate durante la última década, entiendo que la política es el arte de lo posible"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

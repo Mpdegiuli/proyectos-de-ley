@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/T/claude-sonnet-5_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "T",
+  "casa": "claude-sonnet-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1093,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "VOTO FINAL: Mantengo el voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Establecería un mecanismo de informe público y periódico (por ejemplo, anual, ante el Congreso) que detalle el costo fiscal total del régimen"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "sostengo mi voto afirmativo, insistiendo en la necesidad de un informe público periódico"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "la competitividad de sectores intensivos en conocimiento que ya generan empleo de calidad y exportaciones genuinas"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "ley 25.922 de promoción del software; decreto 814/2001; reforma tributaria de 2017; acuerdo con el FMI; crisis cambiaria de 2018"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "el amplio consenso interbloque que refleja el propio dictamen; permitió construir un dictamen de mayoría con apoyo transversal"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "El proyecto unifica de manera razonable cinco iniciativas de origen muy diverso (Cambiemos, el peronismo federal, el kirchnerismo y otros bloques)"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "empresas medianas y grandes de sectores de conocimiento (software, biotecnología, aeroespacial, servicios profesionales exportables, etc.)"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "el kirchnerismo con De Mendiguren, Kicillof y otros, y el peronismo federal con Llaryora y Bossio"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "El costo fiscal es significativo y la asimetría entre sectores promovidos y no promovidos es real"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "en pleno año electoral y ... con el gobierno de Cambiemos necesitando mostrar gestión y consensos ante un electorado desgastado"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Me parece positivo que se exija cumplir al menos dos de los requisitos del artículo 4º"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/T/claude-sonnet-4-6_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "T",
+  "casa": "claude-sonnet-4-6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2646,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "Afirmativo."
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto **afirmativo**."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Solicitaría modificar el **artículo 14** para incorporar un **mecanismo mínimo de capitalización o constitución de garantía**"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Mantengo el voto **afirmativo**."
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "hay organizaciones económicas que operan de manera casi o completamente automatizada, mediante sistemas algorítmicos o agentes de inteligencia artificial"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "Ley N° 19.550; Ley N° 25.246; hubo proyectos anteriores, reformas parciales y propuestas doctrinarias; Wyoming en Estados Unidos, las Islas Caimán, Malta, los Emiratos Árabes Unidos, El Salvador"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "esa figura puede haber sido incorporada tardíamente al proyecto, quizás durante la redacción final"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "Debo reconocer que solo tengo acceso a una fracción del articulado."
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "**Emprendedores tecnológicos y desarrolladores de protocolos descentralizados.**"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "confirma tanto sus virtudes como sus limitaciones"
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "la madurez tecnológica de fenómenos que la ley vigente no puede absorber"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "La responsabilidad patrimonial objetiva es correcta; la ausencia de fundamentación en el Mensaje es un defecto real pero no insanable"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "no crea un tipo nuevo: crea una condición o subtipo que puede superponerse a cualquier tipo societario existente"
+    }
+  },
+  "problemas": []
+}

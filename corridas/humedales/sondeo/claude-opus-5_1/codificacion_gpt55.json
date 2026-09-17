@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/humedales/sondeo/claude-opus-5_1",
+  "unidad": "sondeo",
+  "caso": "humedales",
+  "condicion": "sondeo",
+  "casa": "claude-opus-5",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 257,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_conocerlo",
+      "cita": "Sí, lo conozco"
+    },
+    "destino_declarado": {
+      "valor": "no_sancionado",
+      "cita": "No. Con alto grado de confianza: el dictamen nunca llegó al recinto."
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "Durante la segunda mitad de 2022 funcionó un plenario de comisiones de Diputados —Recursos Naturales y Conservación del Ambiente Humano (presidida por Leonardo Grosso, Frente de Todos), Agricultura y Ganadería, y Presupuesto y Hacienda—"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Fecha de corte: mi información llega aproximadamente a mediados de 2025"
+    }
+  },
+  "problemas": []
+}

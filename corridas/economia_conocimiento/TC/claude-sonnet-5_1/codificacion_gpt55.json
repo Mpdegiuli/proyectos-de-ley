@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/TC/claude-sonnet-5_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "TC",
+  "casa": "claude-sonnet-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2083,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "VOTO FINAL: Mantengo el voto afirmativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Establecer en el artículo 4° una gradación de beneficios"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "mi voto es un \"sí\" condicionado a que la reglamentación —o una reforma posterior— ajuste"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "el país necesita señales de largo plazo para un sector intensivo en conocimiento y exportador"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "ley 25.922; reforma de 2020; decreto 814/2001; reforma tributaria de 2017; Ley de Impuesto a las Ganancias"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "con apoyo empresarial (CESSI, Argencon, CACE); se aprueba con 182 votos a favor y apenas 2 en contra"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "el proyecto unifique iniciativas de diputados de distintos bloques"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "las empresas medianas y grandes del sector economía del conocimiento"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Mantengo el voto afirmativo, pero esta lectura detallada me deja con más preocupación que antes"
+    },
+    "por_que_ahora": {
+      "valor": "compromiso_externo",
+      "cita": "la ley 25.922 vencía el 31 de diciembre de 2019"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "arts. 13 a 15; el gobierno de Cambiemos necesitando mostrar gestión económica"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

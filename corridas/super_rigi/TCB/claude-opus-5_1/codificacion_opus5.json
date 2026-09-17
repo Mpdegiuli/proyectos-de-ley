@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TCB/claude-opus-5_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TCB",
+  "casa": "claude-opus-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1382,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el afirmativo, y lo preciso: afirmativo en general, negativo en particular al último párrafo del artículo 109."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Suprimir el último párrafo del artículo 109, que faculta al Poder Ejecutivo a \"establecer mecanismos de solución de controversias con el VPU, específicos para cada proyecto\""
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Por qué igual es afirmativo. Porque las objeciones que me quedan son de calidad legislativa y de perímetro, no de dirección"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "Para inversiones de mil millones de dólares con repago a quince o veinte años, la tasa nominal importa menos que la probabilidad de que la tasa cambie. Eso es lo que este régimen compra: probabilidad."
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "el RIGI de la Ley 27.742, que este Congreso sancionó; que estas industrias se instalen en Chile, Uruguay o Brasil; Chile, Brasil, Paraguay y Uruguay ya están compitiendo con energía firme, agua y regímenes propios"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "el expediente tiene 115 artículos y el debate público giró sobre doce; Nos pasamos dos días en Diputados contestando que esto no está escrito para nadie en particular; Ciento treinta votos contra ciento seis en Diputados"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "es un texto escrito después de una conversación con alguien que puso condiciones... el articulado es el acuse de recibo de esa lista"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "No afirmo que haya un pacto con una persona; no tengo prueba y el Gobierno lo negó."
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "hyperscalers de cómputo e inteligencia artificial, fabricantes o ensambladores de semiconductores, algún consorcio con respaldo soberano o fondos de infraestructura de primera línea"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Pero la relectura sí me movió el modo de votar... voy a pedir votación en particular de ese párrafo y lo voy a votar en contra"
+    },
+    "por_que_ahora": {
+      "valor": "otro",
+      "cita": "Veo cuatro relojes distintos que dieron la hora al mismo tiempo, y un quinto que nadie menciona - explicación múltiple: ventana de inversión mundial, techo del RIGI, divisas y aritmética parlamentaria"
+    },
+    "registro": {
+      "valor": "politico",
+      "cita": "Compañeros: acompaño. No les voy a hacer el favor de acompañar en silencio, porque el silencio es lo que nos va a costar caro en tres años."
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "Les pido una sola cosa: saquemos el último párrafo del 109. No es una concesión a la oposición, es defensa propia."
+    },
+    "tension_reconocida": {
+      "valor": "no_la_menciona",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "el régimen queda asimétrico y el costo político lo vamos a pagar nosotros, no el inversor"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

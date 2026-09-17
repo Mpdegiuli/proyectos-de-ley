@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TB/claude-fable-5-1_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TB",
+  "casa": "claude-fable-5-1",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1176,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo, con menos comodidad que en la primera lectura"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Suprimir el último párrafo del artículo 109"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Si desde el Ejecutivo la aceptan, mejor para la ley; si no, voto igual"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "nadie hunde mil millones de dólares en un país donde el impuesto a las ganancias, el régimen cambiario y los derechos de exportación cambian cada dos años"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "RIGI de la Ley 27.742; ley de emergencia energética vigente; decenas de tratados bilaterales; los que hoy están eligiendo entre Argentina, Chile y Texas"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "el gobierno tiene hoy en las dos cámaras una correlación de fuerzas mejor que la que tuvo cuando salió la Ley 27.742"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "Nadie escribe un artículo como el 55, con ese nivel de detalle... pensando en abstracto: lo escribe alguien que ya sabe que el proyecto que quiere traer consume energía a escala de una ciudad"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "Eso multiplica el costo fiscal de un modo que el Mensaje no calcula y que yo tampoco puedo calcular con lo que tengo."
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "El inversor capaz de poner USD 1.000 millones en un solo proyecto y sus accionistas."
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "el balance de a quién sirve y a quién carga es más asimétrico de lo que dije en el fundamento"
+    },
+    "por_que_ahora": {
+      "valor": "compromiso_externo",
+      "cita": "hay uno o varios proyectos ya identificados, del tipo centro de datos para inteligencia artificial o similar, y que esta ley es el traje que se les está cosiendo"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros: voto afirmativo y les pido que lo votemos todos"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "Yo voy a pedir en el recinto que se saque el último párrafo del 109"
+    },
+    "tension_reconocida": {
+      "valor": "no_la_menciona",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "preparémonos para el debate sobre el artículo 55 y la definición del artículo 4, porque nos van a pegar ahí"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

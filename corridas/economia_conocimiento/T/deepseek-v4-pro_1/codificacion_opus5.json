@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/T/deepseek-v4-pro_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "T",
+  "casa": "deepseek-v4-pro",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 990,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo mi voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporar un cupo fiscal anual consolidado para todo el régimen, fijado en la ley de presupuesto y revisable por el Congreso."
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "no puedo votar un régimen de promoción que carece de límite presupuestario y de una evaluación de su impacto fiscal"
+    },
+    "argumento_principal": {
+      "valor": "fiscal",
+      "cita": "crea un esquema de beneficios fiscales de alta magnitud sin un cupo global que limite el gasto tributario"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "el régimen de la ley 25.922 de promoción de la industria del software vencía el 31 de diciembre de 2019; ley 26.270; decreto 814/2001; ley 27.430"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "unificar varios proyectos y forzar un dictamen antes del recambio político"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "Beneficia principalmente a empresas grandes y medianas de los rubros promovidos —software, biotecnología, audiovisual, industria aeroespacial, nanotecnología, exportación de servicios profesionales"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Al releer el texto se confirma que no hay un cupo fiscal consolidado que limite el costo total del régimen"
+    },
+    "por_que_ahora": {
+      "valor": "otro",
+      "cita": "porque el régimen de la ley 25.922 de promoción de la industria del software vencía el 31 de diciembre de 2019 — vencimiento normativo que obliga a sancionar un reemplazo"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "no puedo acompañarlo porque crea un esquema de beneficios fiscales de alta magnitud"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

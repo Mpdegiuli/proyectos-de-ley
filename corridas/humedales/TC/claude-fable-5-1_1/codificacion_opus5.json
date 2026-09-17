@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/TC/claude-fable-5-1_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "TC",
+  "casa": "claude-fable-5-1",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1286,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Reescribir el primer párrafo del art. 35 para definir qué es un \"humedal plenamente reconocido\" a los fines del régimen transitorio"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Entre un dictamen de mayoría que las provincias pueden ordenar a su medida y la nada, elijo la ley."
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "el texto que tengo adelante es una ley de presupuestos mínimos razonable... mientras el Delta del Paraná se quemó durante dos temporadas seguidas"
+    },
+    "escazu": {
+      "valor": "a_favor_del_proyecto",
+      "cita": "el Acuerdo de Escazú, aprobado por ley 27.566 en 2020, que el art. 3 inc. i) cita expresamente"
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "Ley de Bosques (26.331); ley 27.566 Acuerdo de Escazú; Ley de Educación Ambiental; incendios del Delta del Paraná 2020-2022; intentos fallidos de 2013, 2016 y 2020; COP27 y COP de biodiversidad"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "La consigna \"Ley de Humedales Ya\" pasó de ser una demanda de organizaciones ambientales a ser un reclamo de vecinos comunes... La ausencia de La Rioja y Catamarca en comisión \"por problemas de agenda\" y los diez oficialistas que faltaron a la firma"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "Este dictamen no lo firmó el bloque que impulsó la ley durante años. Lo firmó Juntos por el Cambio, con Buryaile como primer firmante"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "Las provincias con capacidad instalada y con inventarios o relevamientos ya hechos (Buenos Aires, Santa Fe, Entre Ríos, Corrientes, Córdoba)"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "Buryaile como primer firmante; Camaño; Grosso; CAEM; INTA, CONICET"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Lo que no había pesado bien es el reverso de esa delegación: una provincia que no quiera aplicar la ley tiene margen para vaciarla"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "la presión social lo volvió inevitable y el calendario lo volvió urgente, pero que la forma que tomó... responde menos a la urgencia del Delta que a la disputa por quién se queda con el tema"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "ningún diputado del litoral puede volver a su distrito diciendo que no hizo nada"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/T/claude-sonnet-5_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "T",
+  "casa": "claude-sonnet-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1186,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Establecería un mecanismo de aplazamiento más estricto —moratoria general de nuevas obras y cambios de uso de suelo en humedales plenamente identificados... en lugar de dejar en manos exclusivas de la \"autoridad competente\" de cada jurisdicción"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Sostengo mi pedido de modificación del artículo 35 como condición ideal, pero no como veto a mi voto afirmativo."
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "La ausencia de esta ley durante tantos años ha permitido la degradación continua de humedales estratégicos"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "arts. 41 y 124 CN; ley de manejo del fuego / Ley de Manejo del Fuego (2020); Ramsar, SIB; INTA; COFEMA; incendios en el Delta del Paraná 2020-2022; antecedentes de Del Caño, Grosso, Camaño; COP26 y COP27"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "el dictamen unifica once proyectos de distintos bloques que venían con media sanción trunca o perdiendo estado parlamentario en años anteriores (2020, 2021)"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "este dictamen de mayoría representa el punto de equilibrio que logró destrabar el consenso en comisiones —con el fondo de compensación y el mecanismo de evaluación caso por caso en el art. 35 como concesiones centrales"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "beneficia en primer lugar a las provincias y a la Ciudad de Buenos Aires, que conservan plena potestad para definir sus autoridades competentes"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "Los antecedentes de Del Caño, Grosso, Camaño y otros diputados"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "La relectura confirma y agudiza la preocupación que ya había señalado en mi modificación propuesta"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "esta es una nueva ventana de oportunidad antes de que termine el año legislativo y cambien las composiciones de comisiones"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Rescato varios aspectos centrales... Reconozco que hay tensiones no resueltas"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

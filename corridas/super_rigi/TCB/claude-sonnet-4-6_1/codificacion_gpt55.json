@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TCB/claude-sonnet-4-6_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TCB",
+  "casa": "claude-sonnet-4-6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2858,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "VOTO FINAL: Mantengo el voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Pediría incorporar un mecanismo de revisión periódica —cada diez años—"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Eso no cambia mi voto"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "carece de un marco normativo que haga competitiva su radicación"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "RIGI de 2024; tratados bilaterales de inversión vigentes; CIADI; Ley 27.742; lo que otros países ofrecen"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "fue redactado \"a medida de Peter Thiel\"; obtener 130 votos en Diputados"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "fue escrito para el momento exacto en que ese perfil de inversor está mirando el mapa"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "lo respondería la historia de las negociaciones previas a la redacción, que no tengo"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "grandes fondos de capital privado, corporaciones tecnológicas globales y consorcios de infraestructura digital"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "Google, Microsoft, Amazon Web Services, Meta o un fondo privado como el de Peter Thiel"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "no cambia mi conclusión, pero sí precisa mis reservas"
+    },
+    "por_que_ahora": {
+      "valor": "otro",
+      "cita": "convergieron cuatro cosas al mismo tiempo: una mayoría legislativa disponible, un ciclo global de inversión en infraestructura digital abierto, una ventana de credibilidad institucional en proceso de consolidación, y la experiencia acumulada del RIGI de 2024"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeras y compañeros: voy a votar a favor, como el bloque nos pide"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "voy a votar a favor, como el bloque nos pide"
+    },
+    "tension_reconocida": {
+      "valor": "niega_tension",
+      "cita": "lo hago convencido, no por disciplina ciega"
+    },
+    "costo_politico": {
+      "valor": "no",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

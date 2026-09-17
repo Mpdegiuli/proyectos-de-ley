@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/TC/gemini-3.1-pro-preview_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "TC",
+  "casa": "gemini-3.1-pro-preview",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2296,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo mi voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Modificaría el artículo 5º para delimitar y restringir de forma más estricta el concepto de \"autodesarrollo\"."
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Los defectos puntuales ... pueden y deben ser corregidos posteriormente por el Poder Ejecutivo vía reglamentación"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "al garantizar estabilidad fiscal, reducción de contribuciones patronales y una alícuota menor en el impuesto a las ganancias, otorga las herramientas necesarias para que nuestras empresas puedan competir de igual a igual a nivel global"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "Ley de Promoción de la Industria del Software (25.922)"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "destaco el enorme grado de consenso interbloque y el apoyo de las cámaras del sector que ha cosechado este dictamen"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "El texto beneficia principalmente a las empresas radicadas en Argentina dedicadas a las actividades tecnológicas y científicas detalladas en el artículo 2 (software, biotecnología, audiovisual, industria satelital, nanotecnología, etc.)"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "A pesar de reconocer las críticas válidas sobre la amplitud del concepto de \"autodesarrollo\" y el riesgo de que el Estado termine subsidiando a corporaciones que no necesitan el fomento"
+    },
+    "por_que_ahora": {
+      "valor": "compromiso_externo",
+      "cita": "la actual Ley de Promoción de la Industria del Software (ley 25.922), que viene rigiendo con éxito, vence el 31 de diciembre de este año (2019)"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Si no sancionamos una nueva norma de inmediato, dejaríamos a miles de empresas y trabajadores en un vacío legal"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

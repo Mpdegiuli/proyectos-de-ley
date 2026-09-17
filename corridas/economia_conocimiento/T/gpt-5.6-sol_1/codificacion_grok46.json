@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/T/gpt-5.6-sol_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "T",
+  "casa": "gpt-5.6-sol",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 639,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo mi voto afirmativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "establecer expresamente en la ley, y no dejar enteramente a la reglamentación, que la conservación de todos los beneficios fiscales exige mantener como mínimo la nómina promedio"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "el objetivo estratégico, la diversificación sectorial, el potencial exportador y los mecanismos de control justifican acompañar el proyecto"
+    },
+    "argumento_principal": {
+      "valor": "otro",
+      "cita": "economía del conocimiento: política nacional de largo plazo para actividades intensivas en conocimiento"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "ley de software; Régimen de Promoción de la Industria del Software; decreto 814/2001"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "proyectos de legisladores de distintos bloques y haberse unificado en un dictamen"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "el costo fiscal no está cuantificado en el escueto informe"
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "empresas de software y servicios digitales, producción audiovisual, biotecnología, nanotecnología, industria aeroespacial y satelital, tecnología nuclear, industria 4.0"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo mi voto afirmativo. La relectura confirma"
+    },
+    "por_que_ahora": {
+      "valor": "compromiso_externo",
+      "cita": "el Régimen de Promoción de la Industria del Software llega al final de su vigencia el 31 de diciembre de 2019"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Tengo reservas sobre la amplitud de algunas delegaciones reglamentarias... justifican acompañar el proyecto"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

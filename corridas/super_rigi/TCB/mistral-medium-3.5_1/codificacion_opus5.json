@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TCB/mistral-medium-3.5_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TCB",
+  "casa": "mistral-medium-3.5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1000,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "**VOTO:** afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantenés el voto **afirmativo**"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incluir un mecanismo de revisión periódica (cada 5 o 10 años) de los incentivos otorgados"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Votarlo a favor es alinearse con la estrategia del Gobierno de atraer inversiones"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "son herramientas necesarias para competir a nivel global y atraer capitales que, de otro modo, no se radicarían en el país"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "estos mecanismos son estándar en regímenes de atracción de inversiones en otros países; reformas estructurales ya en marcha (como el RIGI original)"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_debate_publico",
+      "cita": "Aunque el proyecto ha sido criticado por su estabilidad prolongada y el arbitraje internacional"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Beneficia a grandes inversores (nacionales o extranjeros) que desarrollen nuevas actividades económicas"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantenés el voto **afirmativo**. El proyecto, pese a críticas legítimas, es una herramienta estratégica"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "para aprovechar una ventana de oportunidad política y económica"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Votarlo a favor es alinearse con la estrategia del Gobierno... refuerza nuestro compromiso con la responsabilidad fiscal"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece",
+      "cita": "El Súper RIGI es una herramienta clave para el desarrollo económico del país. Votarlo a favor es alinearse con la estrategia del Gobierno"
+    },
+    "tension_reconocida": {
+      "valor": "no_la_menciona",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

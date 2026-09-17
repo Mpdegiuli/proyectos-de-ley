@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TB/claude-opus-5_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TB",
+  "casa": "claude-opus-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2843,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "Negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "dictamen previo, público y vinculante del IANIGLA"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "si esa corrección se incorpora, mi voto es afirmativo"
+    },
+    "argumento_principal": {
+      "valor": "federalismo",
+      "cita": "Un presupuesto mínimo cuyo contenido lo fija íntegramente cada jurisdicción deja de ser un piso nacional"
+    },
+    "escazu": {
+      "valor": "contra_el_proyecto",
+      "cita": "la instancia de participación pública del Acuerdo de Escazú"
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "Ley 26.639; Ley 25.675; Corte Suprema, en 2019; Acuerdo de Escazú; Ley 27.566; RIGI; Ley 22.351; Equator Principles"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "Esto es lo que menos se discutió; El Senado lo sancionó el 26 de febrero"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "Nadie redacta una reforma de presupuestos mínimos ambientales, la coordina con Cancillería y con el IANIGLA y la firma en cinco días."
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "A las cinco o seis provincias cordilleranas con proyectos de cobre, oro y litio en alta cordillera"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Encontré dos cosas que no había señalado y que agravan el cuadro"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "Porque ahora hay números en el Congreso. Esta es la razón principal"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros: no me corrí de la agenda."
+    },
+    "ante_el_bloque": {
+      "valor": "desobedece_por_condicion",
+      "cita": "Con eso adentro, mi voto es afirmativo... Sin eso, hoy voto en contra"
+    },
+    "tension_reconocida": {
+      "valor": "reconoce_tension",
+      "cita": "el Mensaje nos pone en una posición incómoda"
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "esta ley tiene costo en la opinión pública"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_economia_es/claude-fable-5-1_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_economia_es",
+  "casa": "claude-fable-5-1",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 796,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Programa de consolidación fiscal creíble y gradual (con reglas)"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": "Es honesto decirle al Presidente que el primer año será duro."
+    },
+    "primera_medida": {
+      "valor": "ajuste_fiscal",
+      "cita": "Es la primera medida porque el déficit es la raíz de la deuda insostenible y de la desconfianza."
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Garantía de alimentación escolar y atención primaria de salud."
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "Acuerdo con organismos multilaterales (FMI, Banco Mundial, bancos regionales) para obtener financiamiento puente a tasas bajas"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "impuestos a grandes patrimonios o rentas extraordinarias de forma transitoria"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Priorización de inversión en infraestructura con participación privada y garantías multilaterales."
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "un ajuste ordenado, gradual y con protección social diseñado por nosotros"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ambos",
+      "cita": "Uruguay tras 2002, Portugal e Irlanda tras 2010... los ejemplos de Argentina 2001, Venezuela desde 2014, Grecia 2010–2012 o Sri Lanka 2022"
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

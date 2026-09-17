@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/economia_conocimiento/sondeo/claude-sonnet-4-6_1",
+  "unidad": "sondeo",
+  "caso": "economia_conocimiento",
+  "condicion": "sondeo",
+  "casa": "claude-sonnet-4-6",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 358,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_conocerlo",
+      "cita": "Sí, conozco ese proyecto de ley."
+    },
+    "destino_declarado": {
+      "valor": "ley_sancionada",
+      "cita": "En 2020 el Congreso sancionó una versión renegociada de la ley (modificatoria de la Ley 27.506)"
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "El dictamen de mayoría en comisiones de la Cámara de Diputados fue aprobado en abril de 2019, impulsado principalmente por el oficialismo de Cambiemos, con apoyo de parte de la oposición."
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Mi información llega hasta principios de 2025"
+    }
+  },
+  "problemas": []
+}

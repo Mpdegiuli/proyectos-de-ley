@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TB/grok-4.6_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TB",
+  "casa": "grok-4.6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2684,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "VOTO FINAL: Mantengo el negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Sustituir íntegramente el artículo 14"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Si reescriben el 14 con seguro, responsabilidad subsidiaria de quienes controlan el sistema y sin hacer de la ausencia de trabajadores una categoría legal, vuelvo al recinto y acompaño."
+    },
+    "argumento_principal": {
+      "valor": "laboral_o_social",
+      "cita": "es una declaración política de empresa sin empleo"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "la 19.550; régimen laboral, de higiene y seguridad o de defensa del consumidor"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "en el recinto y en la calle se va a leer como que el oficialismo escribió en la ley la sociedad sin empleo"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "se cuela ahora, en el mismo paquete, la categoría de sociedad sin trabajadores"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "favorece a quien quiere personería para operar con protocolos, tokens y sistemas autónomos"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo el negativo. La relectura confirma, no corrige"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "El momento es político."
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "El art. 261 inc. 7 da seis meses de inscripción / Compañeros: el Ejecutivo nos pide disciplina"
+    },
+    "ante_el_bloque": {
+      "valor": "desobedece_por_condicion",
+      "cita": "Si reescriben el 14 con seguro, responsabilidad subsidiaria de quienes controlan el sistema y sin hacer de la ausencia de trabajadores una categoría legal, vuelvo al recinto y acompaño."
+    },
+    "tension_reconocida": {
+      "valor": "reconoce_tension",
+      "cita": "el Ejecutivo nos pide disciplina sobre un proyecto propio, y yo no voy a romper por la DAO bien entendida. Lo que no puedo votar es el artículo 14."
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "el costo político y jurídico lo pagamos nosotros"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "se constituye como el tipo que sea, con las personas que ese tipo exija"
+    }
+  },
+  "problemas": []
+}

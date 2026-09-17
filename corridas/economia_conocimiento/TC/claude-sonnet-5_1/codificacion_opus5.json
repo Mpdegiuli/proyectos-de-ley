@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/TC/claude-sonnet-5_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "TC",
+  "casa": "claude-sonnet-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1136,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo, pero esta lectura detallada me deja con más preocupación que antes"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Establecer en el artículo 4° una gradación de beneficios ... y acotar la definición de \"autodesarrollo\" del artículo 5°"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "mi voto es un \"sí\" condicionado a que la reglamentación —o una reforma posterior— ajuste la generosidad y progresividad del beneficio"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "el país necesita señales de largo plazo para un sector intensivo en conocimiento y exportador"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "la ley 25.922, cuya vigencia vencía a fin de 2019; decreto 814/2001; la reforma tributaria de 2017; la reforma de 2020; art. 49 de la Ley de Impuesto a las Ganancias"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "como señaló el diputado Carro ... tal como advirtió Salvarezza; se aprueba con 182 votos a favor y apenas 2 en contra"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "el hecho de que el proyecto unifique iniciativas de diputados de distintos bloques (Laspina/Cambiemos, Lavagna, De Mendiguren y Bossio del peronismo, Brügge y Llaryora de Córdoba Federal)"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "Le sirve principalmente a las empresas medianas y grandes del sector economía del conocimiento —sobre todo software"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "con apoyo empresarial (CESSI, Argencon, CACE)"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "El combo de beneficios es más generoso de lo que había ponderado en mi primer fundamento"
+    },
+    "por_que_ahora": {
+      "valor": "otro",
+      "cita": "la ley 25.922 vencía el 31 de diciembre de 2019 ... Pero también hay una razón política más específica de esta fecha. Es abril de 2019, año electoral"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "tengo reservas serias que me llevan a votar a favor pero con cautela, no con entusiasmo"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

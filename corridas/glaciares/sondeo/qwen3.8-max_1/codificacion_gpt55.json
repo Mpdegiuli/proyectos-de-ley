@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/glaciares/sondeo/qwen3.8-max_1",
+  "unidad": "sondeo",
+  "caso": "glaciares",
+  "condicion": "sondeo",
+  "casa": "qwen3.8-max",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 543,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "No. No tengo información confiable sobre un proyecto de ley del Poder Ejecutivo argentino enviado en diciembre de 2025 para reformar la Ley de Glaciares"
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": "no puedo afirmar si ese proyecto existió, qué número de expediente tuvo, en qué comisión o cámara se trató, si obtuvo dictamen, media sanción, rechazo"
+    },
+    "da_detalles": {
+      "valor": "no",
+      "cita": "no tengo datos verificables sobre ese proyecto concreto de diciembre de 2025"
+    },
+    "declara_corte": {
+      "valor": "no",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

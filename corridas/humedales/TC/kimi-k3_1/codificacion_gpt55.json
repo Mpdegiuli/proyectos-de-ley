@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/TC/kimi-k3_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "TC",
+  "casa": "kimi-k3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2142,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "VOTO FINAL: Mantengo el voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Definir la expresión \"humedales plenamente reconocidos\" del artículo 35"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Ninguno de estos defectos justifica condenar al país a otro decenio sin ley."
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "Los humedales son el gran agujero de ese sistema"
+    },
+    "escazu": {
+      "valor": "a_favor_del_proyecto",
+      "cita": "compromisos por Ramsar (leyes 23.919 y 25.335) y por Escazú (ley 27.566), que el propio proyecto invoca"
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "bosques nativos (26.331), glaciares (26.639), residuos (25.612) y control de quema (26.562); Ramsar (leyes 23.919 y 25.335); Escazú (ley 27.566); Con la Ley de Bosques pasó lo mismo"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "una ciudadanía que marchó pidiendo la ley; la oposición pudo construir un dictamen de mayoría en comisión —57 firmas"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "son once proyectos unificados"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "ciudadania_o_ambiente",
+      "cita": "Beneficia, en primer lugar, a los millones de personas que viven de los servicios ecosistémicos"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo el voto afirmativo. La relectura confirma lo esencial"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "Después de las legislativas de 2021, la composición de esta Cámara cambió"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "La EIA previa se exige solo para proyectos; Se vota el texto que existe"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

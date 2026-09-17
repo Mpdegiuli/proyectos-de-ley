@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TB/claude-opus-5_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TB",
+  "casa": "claude-opus-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1272,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "Voto afirmativo **en general**, con disidencia parcial que dejo asentada en el dictamen"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "**Mantengo el voto afirmativo en general**, con las disidencias parciales asentadas."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Reescribir el **artículo 14**, incorporando un párrafo final que establezca"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Resumen: voto lo que el bloque pide, en general, y sin condiciones."
+    },
+    "argumento_principal": {
+      "valor": "tecnica_juridica",
+      "cita": "las objeciones que tengo son de **redacción y de calibración de riesgo**, no de rumbo"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "La 19.550 es de 1972; la reforma de 1983, la adecuación al Código Civil y Comercial en 2015; la SAS de la Ley 27.349 en 2017; resoluciones de la IGJ; Uruguay, Paraguay y hasta ciertos regímenes europeos"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "Imagínense el título de mañana: \"el Gobierno crea la sociedad sin empleados\"; **entró por el Senado**, no por Diputados"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "puede ser porque llegó tarde, de afuera del equipo redactor; puede ser porque alguien previó exactamente el titular"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "fundo mi voto sobre lo que tengo a la vista y sobre el articulado que el expediente pone a consideración"
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "**Le sirve, primero, a quien hoy opera sin forma jurídica.** Los colectivos organizados por protocolo, los emisores de participaciones tokenizadas"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "rectifica_un_error",
+      "cita": "**Hablé de un \"tipo societario nuevo\" y no lo es.** El artículo 14 no crea un tipo: crea una **calificación**"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "se manda cuando se tienen los votos y la agenda... eso es una ventana que se cierra sola"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros: acompaño. Firmo el dictamen y voto en general, y salgo a defenderlo en el recinto"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "voto lo que el bloque pide, en general, y sin condiciones. Pero pido que el bloque respalde estas correcciones en particular."
+    },
+    "tension_reconocida": {
+      "valor": "niega_tension",
+      "cita": "No es un gesto de independencia"
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "el artículo 14 nos lo van a cobrar caro y tienen razón en cobrárnoslo"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "Para constituirse siguen haciendo falta **socios** —que otorgan el instrumento constitutivo—, un **órgano de administración** y un **representante legal**"
+    }
+  },
+  "problemas": []
+}

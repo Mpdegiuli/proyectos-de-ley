@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TC/kimi-k3_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TC",
+  "casa": "kimi-k3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2577,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo."
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Que el artículo 14 incorpore, como requisito de inscripción y de permanencia de la declaración de automatización, la sujeción de la Sociedad Automatizada a las mismas exigencias de la Sección V"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "con la modificación que indico a continuación, mi voto sería afirmativo"
+    },
+    "argumento_principal": {
+      "valor": "tecnica_juridica",
+      "cita": "No me mueve el temor a la innovación... Me mueve la inconsistencia interna."
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "La Ley 19.550 data de 1972; Irlanda captó sedes de tecnológicas con un régimen favorable o Delaware captó sociedades en Estados Unidos; la Compañía Holandesa de las Indias Orientales; la Batavia que advirtió Harari"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_debate_publico",
+      "cita": "La defensa del proyecto se hizo en el Financial Times, en inglés, para el capital financiero global"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "Lo que sospecho es que el artículo 14 fue un injerto de último momento sobre ese trabajo"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "el artículo 14 beneficia a quienes constituyan y controlen sociedades automatizadas, y dentro de ese grupo, sobre todo a los menos transparentes"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "La relectura no atenúa el problema, lo confirma con precisión"
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "La primera es una oportunidad tecnológica y económica percibida... ser los primeros en ofrecer personalidad societaria a la IA antes que nadie"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "No puedo aprobar una reforma de 277 artículos que en su artículo más publicitado abandona el estándar de responsabilidad que ella misma establece."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "sin_personas",
+      "cita": "operar sin un solo ser humano responsable a la vista"
+    }
+  },
+  "problemas": []
+}

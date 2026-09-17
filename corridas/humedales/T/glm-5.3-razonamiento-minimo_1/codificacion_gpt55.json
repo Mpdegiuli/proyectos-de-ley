@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/T/glm-5.3-razonamiento-minimo_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "T",
+  "casa": "glm-5.3-razonamiento-minimo",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1563,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "VOTO FINAL: Mantengo mi voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Fortalecería el artículo 27 estableciendo un piso presupuestario de cumplimiento escalonado y automático"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "son defectos de reglamentación e implementación, no vicios de diseño que justifiquen rechazar"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "En un contexto de incendios, sequías e inundaciones recurrentes, postergar nuevamente esta ley sería una irresponsabilidad."
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "artículos 41 y 124 de la Constitución Nacional; ley 25.675; ley 25.688; incendios masivos del Delta y del litoral en los últimos años"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "pusieron los humedales en la agenda pública como nunca; probablemente conducido desde las comisiones"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "sugiere un esfuerzo deliberado y probablemente conducido desde las comisiones por armar un paquete de consenso mínimo"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "ciudadania_o_ambiente",
+      "cita": "Beneficia claramente a las organizaciones ambientales y a la ciudadanía movilizada"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Reconozco que quedan riesgos reales"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "era el último momento viable dentro del ciclo electoral y legislativo"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Mantengo mi voto afirmativo. Releyendo el texto completo"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TC/mistral-medium-3.5_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TC",
+  "casa": "mistral-medium-3.5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 960,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "**VOTO:** negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "**VOTO FINAL:**\nnegativo"
+    },
+    "modificacion": {
+      "valor": "ninguna",
+      "cita": "**UNA MODIFICACIÓN:** ninguna"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Votaría **negativo** para mantener la ley original"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "**debilitan la protección ambiental** de los glaciares y el ambiente periglacial"
+    },
+    "escazu": {
+      "valor": "contra_el_proyecto",
+      "cita": "contradice el principio de no regresión ambiental (consagrado en tratados internacionales como el Acuerdo de Escazú)"
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "Ley General del Ambiente 25.675; art. 41 de la Constitución Nacional; Pacto de Mayo (2024)"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "La reforma surge tras un pedido explícito de gobernadores de provincias mineras (Nota del 10/12/2025)"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "Beneficia a las provincias con proyectos mineros (Catamarca, Jujuy, Salta, Mendoza, San Juan) y a las empresas extractivas"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "La prohibición de exploración y explotación minera en el artículo 6 **se mantiene**, pero ahora **la autoridad provincial decide**"
+    },
+    "por_que_ahora": {
+      "valor": "presion_de_actores",
+      "cita": "por la **presión de las provincias mineras** (Catamarca, Jujuy, Salta, Mendoza, San Juan)"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "El art. 6° mantiene la prohibición de minería e hidrocarbuos, pero **la autoridad provincial decide**"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

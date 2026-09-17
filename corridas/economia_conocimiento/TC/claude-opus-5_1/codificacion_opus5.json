@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/TC/claude-opus-5_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "TC",
+  "casa": "claude-opus-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1061,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporar al Título I un cupo fiscal anual, fijado en la ley de presupuesto general de gastos y cálculo de recursos"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Menciono también, sin condicionar mi voto"
+    },
+    "argumento_principal": {
+      "valor": "fiscal",
+      "cita": "El Título I no tiene cupo fiscal. Ninguno. ... Estamos votando un gasto tributario a ciegas"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "La ley 25.922 caduca el 31 de diciembre de este año; decreto 814/2001; artículo 173 inciso c) de la ley 27.430; acuerdo con el Fondo; el proyecto de Bossio era simplemente prorrogar la 25.922 hasta 2030; CESSI, Argencon"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "el proyecto llegó al recinto en la primera sesión ordinaria del año, con dictamen firmado la víspera"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "No fue un olvido. Fue la principal conquista del lobby sectorial en este texto"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "voto sin conocer el costo fiscal del Título I, que esa información no fue puesta a disposición de esta Cámara"
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "Le sirve, primero, a quien ya está adentro. ... unas pocas miles de empresas de software y servicios informáticos"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "CESSI, Argencon, la Cámara de Comercio Electrónico"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Releer el artículo 4° no me cambió el balance, pero me confirmó dos cosas."
+    },
+    "por_que_ahora": {
+      "valor": "otro",
+      "cita": "Hay una razón de calendario legal, una de calendario electoral y una de coyuntura económica. Las tres empujan en la misma dirección"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "pido que quede en la versión taquigráfica que el Congreso votó esto sin conocer su costo"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

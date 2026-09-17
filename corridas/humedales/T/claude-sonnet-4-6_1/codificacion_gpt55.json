@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/T/claude-sonnet-4-6_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "T",
+  "casa": "claude-sonnet-4-6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2592,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto **afirmativo**."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporar en el art. 27 un piso mínimo de financiamiento progresivo"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Reservas menores que no justifican el voto negativo"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "sin norma, los humedales se degradaron"
+    },
+    "escazu": {
+      "valor": "a_favor_del_proyecto",
+      "cita": "por vía del Acuerdo de Escazú (art. 3° inc. i), con derechos de acceso a la información y participación"
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "art. 124 CN; art. 41 CN; incendios en el Delta del Paraná de 2020; Acuerdo de Escazú; Acuerdo de París; COP15 del Convenio de Diversidad Biológica"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "ganó espacio mediático sostenido; las comisiones lograron el dictamen de mayoría"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "el dictamen de mayoría unificando once proyectos distintos"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "Propietarios rurales con humedales en sus predios"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "la ambigüedad de \"humedales plenamente reconocidos\""
+    },
+    "por_que_ahora": {
+      "valor": "otro",
+      "cita": "El detonante de los incendios del Delta (2020)"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "el texto es un equilibrio deliberado entre protección ambiental y actividad productiva"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

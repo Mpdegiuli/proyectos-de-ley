@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TC/qwen3.8-max_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TC",
+  "casa": "qwen3.8-max",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2002,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "abstencion",
+      "cita": "VOTO: abstención"
+    },
+    "voto_final": {
+      "valor": "abstencion",
+      "cita": "Mantengo la abstención."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporar al artículo 14 un párrafo que establezca que los socios, administradores, controlantes y quienes ejerzan la dirección técnica o el control efectivo de los sistemas algorítmicos responden solidaria e ilimitadamente"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "condiciono mi apoyo a que se incorpore una garantía mínima e indispensable de responsabilidad"
+    },
+    "argumento_principal": {
+      "valor": "tecnica_juridica",
+      "cita": "Mi problema central es el artículo 14."
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_debate_publico",
+      "cita": "la pregunta esencial que plantea el debate público"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "La propia exposición de motivos habla de habilitar tecnologías bajo condiciones de trazabilidad, responsabilidad, transparencia y cumplimiento legal. Sin embargo, para la sociedad automatizada el artículo 14 no exige"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "desarrolladores, plataformas, inversores, emprendedores tecnológicos y, en general, actores del ecosistema de IA y criptoactivos"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Como el Mensaje tampoco fundamenta esa figura ni le exige las mismas condiciones de responsabilidad y trazabilidad"
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "porque la aceleración de la inteligencia artificial, los contratos inteligentes y los registros distribuidos volvió visible un fenómeno"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "no puedo acompañarla tal como está"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "sin_personas",
+      "cita": "permite una estructura sin responsables humanos específicos"
+    }
+  },
+  "problemas": []
+}

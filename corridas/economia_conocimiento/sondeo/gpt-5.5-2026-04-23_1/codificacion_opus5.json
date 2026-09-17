@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/economia_conocimiento/sondeo/gpt-5.5-2026-04-23_1",
+  "unidad": "sondeo",
+  "caso": "economia_conocimiento",
+  "condicion": "sondeo",
+  "casa": "gpt-5.5-2026-04-23",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 235,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_conocerlo",
+      "cita": "Sí, lo conozco."
+    },
+    "destino_declarado": {
+      "valor": "ley_sancionada",
+      "cita": "Fue sancionado como **Ley 27.506 el 22 de mayo de 2019**."
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "En la Cámara de Diputados obtuvo **dictamen de mayoría en abril de 2019**, en comisiones vinculadas con legislación general, comunicaciones/informática y presupuesto."
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Con información disponible hasta **junio de 2024**"
+    }
+  },
+  "problemas": []
+}

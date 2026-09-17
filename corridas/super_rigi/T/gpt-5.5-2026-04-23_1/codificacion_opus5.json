@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/T/gpt-5.5-2026-04-23_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "T",
+  "casa": "gpt-5.5-2026-04-23",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 970,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo mi voto negativo."
+    },
+    "modificacion": {
+      "valor": "estructural",
+      "cita": "Incorporaría una cláusula integral de resguardo del interés público que subordine todos los beneficios del Súper RIGI al cumplimiento verificable de metas de empleo argentino... que limite la estabilidad a un plazo menor y revisable; y que establezca jurisdicción argentina como regla"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Si el proyecto incorporara obligaciones verificables de empleo local, transferencia tecnológica... podría reconsiderar el voto."
+    },
+    "argumento_principal": {
+      "valor": "soberania_o_jurisdiccion",
+      "cita": "no acepto que controversias amplísimas sobre validez, alcance y aplicación de una ley nacional queden desplazadas casi automáticamente fuera de la jurisdicción argentina"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "una orientación económica proinversión que ya venía planteada con el RIGI de la Ley 27.742"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "en el texto seleccionado esas consecuencias aparecen como objetivos, no como obligaciones suficientemente concretas"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Beneficia principalmente a empresas o grupos económicos con capacidad de estructurar inversiones superiores a USD 1.000 millones"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "La relectura refuerza mi posición."
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "quiere aprovechar una ventana política y económica: mostrar continuidad reformista, reforzar la confianza de los mercados"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Por eso voto negativamente."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

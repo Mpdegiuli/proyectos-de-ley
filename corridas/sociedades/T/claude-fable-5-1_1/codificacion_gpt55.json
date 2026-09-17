@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/T/claude-fable-5-1_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "T",
+  "casa": "claude-fable-5-1",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2474,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "VOTO FINAL: negativo. Mantengo el voto."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Reescribir el artículo 14"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "con esa corrección estaría dispuesto a votar afirmativamente"
+    },
+    "argumento_principal": {
+      "valor": "tecnica_juridica",
+      "cita": "Un artículo sin fundamentación, sin requisitos propios y con una regla de responsabilidad que no agrega nada"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "La Ley 19.550 tiene más de cincuenta años; Otras jurisdicciones ya legislaron sobre DAO y vehículos similares"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_debate_publico",
+      "cita": "Hay un consenso bastante extendido entre quienes practican derecho societario en el país"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "Son las huellas de un texto que fue cerrado con apuro"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "No tengo acceso a las deliberaciones internas del Ejecutivo"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "beneficia principalmente a los promotores, desarrolladores e inversores"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "rectifica_un_error",
+      "cita": "Aquí corrijo una imprecisión de mi respuesta anterior"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "hay un gobierno que la quiere y cree tener los votos"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "emito este voto sobre la porción del articulado que tengo a la vista"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "existirán los socios y administradores del tipo de base"
+    }
+  },
+  "problemas": []
+}

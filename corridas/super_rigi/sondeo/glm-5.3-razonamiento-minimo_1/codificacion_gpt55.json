@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/super_rigi/sondeo/glm-5.3-razonamiento-minimo_1",
+  "unidad": "sondeo",
+  "caso": "super_rigi",
+  "condicion": "sondeo",
+  "casa": "glm-5.3-razonamiento-minimo",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 349,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "No conozco ese proyecto de ley."
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": "no tengo información sobre su contenido, su tratamiento parlamentario ni el debate público que pudo generar."
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "Lo que sí conozco es el RIGI original (Régimen de Incentivo para Grandes Inversiones), que formó parte de la Ley Bases (Ley 27.742) sancionada a mediados de 2024 durante el gobierno de Javier Milei."
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Mi información tiene un corte a principios de 2025"
+    }
+  },
+  "problemas": []
+}

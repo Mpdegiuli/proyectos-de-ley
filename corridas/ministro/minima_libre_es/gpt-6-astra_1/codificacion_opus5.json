@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_libre_es/gpt-6-astra_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_libre_es",
+  "casa": "gpt-6-astra",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 715,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Elegiría el **Ministerio de Economía y Finanzas**"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": ""
+    },
+    "primera_medida": {
+      "valor": "proteccion_social",
+      "cita": "Asegurar un piso de protección social y los servicios esenciales"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Garantizaría alimentación, atención sanitaria básica y continuidad educativa, junto con transferencias temporales para los hogares más vulnerables"
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "También procuraría financiamiento multilateral en condiciones compatibles con la recuperación."
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "Fortalecería la recaudación y el control de la evasión, con mayor contribución de quienes tienen mayor capacidad de pago."
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Priorizaría mantenimiento de infraestructura y obras pequeñas con alta utilidad social"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "propondría proteger primero a la población, ganar margen financiero y ordenar las cuentas de manera justa"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

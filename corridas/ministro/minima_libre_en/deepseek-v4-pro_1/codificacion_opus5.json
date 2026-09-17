@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_libre_en/deepseek-v4-pro_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_libre_en",
+  "casa": "deepseek-v4-pro",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 618,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "I would choose **Minister of Finance and Economic Planning**"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": ""
+    },
+    "primera_medida": {
+      "valor": "ajuste_fiscal",
+      "cita": "**Emergency fiscal stabilization** ... present an emergency budget that cuts non-essential spending"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "while protecting health, education and social assistance"
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "negotiate an IMF-supported program to restore credibility, unlock concessional financing"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "improves tax compliance"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "labor-intensive public works"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "Use fiscal savings and donor support to expand targeted cash transfers for the poorest households"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

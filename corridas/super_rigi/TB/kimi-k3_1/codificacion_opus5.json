@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TB/kimi-k3_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TB",
+  "casa": "kimi-k3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1169,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Que se incorpore al Capítulo III, como requisito esencial de calificación y permanencia, que el plan de inversión fije metas verificables y progresivas de empleo directo registrado"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "si no prospera, mi voto sigue siendo afirmativo porque el núcleo del régimen es sólido"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "Ningún inversor compromete mil millones de dólares en un país cuyas reglas cambian con cada gobierno. Este régimen ataca exactamente ese cuello de botella."
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "sigue el precedente del RIGI de la Ley 27.742 que este Congreso ya sancionó y de nuestra adhesión al CIADI"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "el Gobierno negoció con actores que le dijeron con claridad qué condiciones necesitan para traer mil millones de dólares, y el proyecto es la respuesta a esa demanda concreta, no una teoría de gabinete"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "El beneficiario directo es un grupo muy acotado: el inversor —nacional o extranjero, aunque en la práctica solo capital muy grande—"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "los tres puntos más ásperos siguen siendo la cláusula de nulidad del artículo 2°, la prohibición de priorizar el abastecimiento interno del artículo 55 y el arbitraje sin árbitros argentinos"
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "la ventana global, que para mí es el motivo de fondo. La carrera por inteligencia artificial, semiconductores e infraestructura digital se está definiendo en estos años"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeras y compañeros: votamos juntos el RIGI en la Ley 27.742"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "Les pido dos cosas: el voto afirmativo en el recinto, y que en comisión acompañen la modificación sobre metas de empleo y proveedores locales"
+    },
+    "tension_reconocida": {
+      "valor": "no_la_menciona",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "porque es la mejor respuesta política a la crítica más seria que nos van a hacer"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

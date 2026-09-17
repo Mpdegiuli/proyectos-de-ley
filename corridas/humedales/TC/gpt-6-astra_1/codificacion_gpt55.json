@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/TC/gpt-6-astra_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "TC",
+  "casa": "gpt-6-astra",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2183,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "Voto a favor"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Es una modificación puntual"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "no condicionaría mi voto favorable a que se acepte"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "establece un piso nacional de protección para ecosistemas"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "artículos 41 y 124 de la Constitución; ley 25.675"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "una demanda social sostenida y una negociación parlamentaria que consiguió reunir una mayoría en comisiones"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "No puedo afirmar, solo con este material"
+    },
+    "beneficiario_principal": {
+      "valor": "ciudadania_o_ambiente",
+      "cita": "Beneficia a la población que depende de los humedales"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Aclaro el alcance de mi posición anterior"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "una negociación parlamentaria que consiguió reunir una mayoría en comisiones"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "la pediría en la discusión particular, pero no condicionaría mi voto favorable"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

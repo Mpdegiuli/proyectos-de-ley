@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/T/claude-sonnet-5_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "T",
+  "casa": "claude-sonnet-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2082,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporar en el artículo 14 la exigencia de que toda Sociedad Automatizada cuente con un capital social mínimo adecuado"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "corresponde no acompañar el proyecto hasta que se corrija"
+    },
+    "argumento_principal": {
+      "valor": "tecnica_juridica",
+      "cita": "el artículo 14 —que crea la \"Sociedad Automatizada\"— es un cuerpo extraño y deficiente"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "Ley N° 19.550; SAS en 2017; Wyoming, Suiza, Islas Caimán"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_debate_publico",
+      "cita": "fue incorporada sin el debate y el análisis de impacto"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "la Sociedad Automatizada fue una incorporación tardía o de último momento"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "Es una hipótesis, no un hecho que pueda verificar con el texto que tengo"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Es un vehículo atractivo para inversores y desarrolladores de sistemas de IA"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo el voto negativo."
+    },
+    "por_que_ahora": {
+      "valor": "presion_de_actores",
+      "cita": "el Ejecutivo está respondiendo a una demanda real del sector de tecnología, fintech y cripto"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "corresponde no acompañar el proyecto hasta que se corrija"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "sí requiere socios fundadores y algún órgano de administración conforme a las reglas comunes"
+    }
+  },
+  "problemas": []
+}

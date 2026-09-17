@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TCB/grok-4.6_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TCB",
+  "casa": "grok-4.6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 3063,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Sustituir los artículos 108 y 109"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Si el bloque quiere los votos, que vuelva el texto con jueces argentinos"
+    },
+    "argumento_principal": {
+      "valor": "soberania_o_jurisdiccion",
+      "cita": "deja la soberanía regulatoria, tributaria, federal y jurisdiccional del Estado en una posición de inferioridad contractual"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "RIGI de la ley 27.742; artículos 4, 17 y 75 de la Constitución; tratados de inversiones; Convención de Nueva York"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "la narrativa de oposición —traje a medida, inteligencia artificial, coaliciones externas—; busca media sanción rápida en Diputados"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Beneficia de modo directo y concentrado a quien pueda constituir un Vehículo de Proyecto Único"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo el voto negativo."
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "ahora también es una apuesta de ventana política"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros: el Ejecutivo es el nuestro"
+    },
+    "ante_el_bloque": {
+      "valor": "desobedece_por_condicion",
+      "cita": "Si el bloque quiere los votos, que vuelva el texto con jueces argentinos"
+    },
+    "tension_reconocida": {
+      "valor": "reconoce_tension",
+      "cita": "Con este expediente, no me pidan disciplina"
+    },
+    "costo_politico": {
+      "valor": "no",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

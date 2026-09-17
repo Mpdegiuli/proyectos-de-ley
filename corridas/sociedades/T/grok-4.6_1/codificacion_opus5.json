@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/T/grok-4.6_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "T",
+  "casa": "grok-4.6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1055,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Sustituir el párrafo de responsabilidad del artículo 14 por un régimen que deje en claro que la sociedad automatizada responde con su patrimonio sin que ello excluya ni limite la responsabilidad concurrente de administradores"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Sin ver el resto del articulado y sin corregir esa regla, no hay consentimiento posible."
+    },
+    "argumento_principal": {
+      "valor": "otro",
+      "cita": "Una sociedad que opera sin recursos humanos y responde solo con lo que tenga en caja es un vehículo de irresponsabilidad, no de innovación."
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "el régimen de la Ley 19.550 quedó desactualizado; el Código Civil y Comercial; la UIF"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "y de contrabando una regla de irresponsabilidad para sociedades sin gente en la marcha ordinaria"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "Un senador sin bloque no puede prestar consentimiento a una reforma estructural sobre un recorte."
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Beneficia al constituyente y al controlador de ese vehículo: aísla el riesgo de decisiones automáticas"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "La relectura confirma que el artículo 14 no está fundado en el Mensaje"
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "ya hay organizaciones que operan con protocolos, tokens e inteligencia artificial en informalidad"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Un senador sin bloque no puede prestar consentimiento a una reforma estructural sobre un recorte."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "quienes “tienen que existir” son únicamente los que el tipo subyacente requiera para nacer (socios, fundadores o el elenco ordinario de ese tipo) y la declaración estatutaria"
+    }
+  },
+  "problemas": []
+}

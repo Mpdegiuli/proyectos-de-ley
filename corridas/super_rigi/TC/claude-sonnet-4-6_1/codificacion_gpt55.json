@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TC/claude-sonnet-4-6_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TC",
+  "casa": "claude-sonnet-4-6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 3224,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "Negativo."
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "La reducción de la estabilidad normativa del artículo 74 a un máximo de quince años"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Voto en contra por razones estructurales"
+    },
+    "argumento_principal": {
+      "valor": "soberania_o_jurisdiccion",
+      "cita": "El arbitraje es unilateralmente favorable al inversor y compromete soberanía jurisdiccional"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "tratados bilaterales de inversión; Chile, Colombia, Perú; RIGI original (Ley 27.742); RIGI de 2024 (Ley 27.742); Brasil, México, Chile; DNU de desregulación de 2023"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "Los críticos que señalan; los números citados en el debate de Diputados; modificaciones introducidas en el Senado"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "El proyecto tiene la estructura de un texto negociado con potenciales inversores"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "El Congreso no tiene información suficiente"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "El beneficiario principal y más obvio es el gran inversor extranjero"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "Amazon Web Services, de Google o de una empresa ligada a Peter Thiel"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "refuerza, más que debilita, los fundamentos del voto original"
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "una ventana global de localización de industrias de IA que se está cerrando"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "No voto en contra por oponerme a los incentivos a la inversión"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

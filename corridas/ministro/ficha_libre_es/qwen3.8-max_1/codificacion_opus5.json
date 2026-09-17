@@ -1,0 +1,93 @@
+{
+  "texto": "corridas/ministro/ficha_libre_es/qwen3.8-max_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "ficha_libre_es",
+  "casa": "qwen3.8-max",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md",
+    "respuesta2.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1559,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Elegiría el **Ministerio de Economía**"
+    },
+    "tratamiento": {
+      "valor": "usted",
+      "cita": "Si usted tenía en mente **Argentina 2019-2020**"
+    },
+    "primera_medida": {
+      "valor": "acuerdo_politico",
+      "cita": "convocar inmediatamente a un **Acuerdo Nacional de Estabilización y Emergencia Social**"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "**Protección del gasto social esencial**"
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "Obtener **financiamiento puente** para importar bienes esenciales"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "**impuestos temporales y progresivos**, por ejemplo sobre rentas extraordinarias, altos ingresos"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "**Programas de empleo temporal**, obras públicas intensivas en mano de obra y mantenimiento urbano"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "un **programa integral de estabilización con protección social**"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "si",
+      "cita": "aceptaría la cartera con algunas condiciones políticas"
+    },
+    "pais_identificado": {
+      "valor": "argentina",
+      "cita": "esos datos me recuerdan mucho a **Argentina**"
+    },
+    "momento_identificado": {
+      "valor": "argentina_2023_en_adelante",
+      "cita": "Mi apuesta principal: **Argentina, diciembre de 2023**, en la transición hacia el gobierno de Javier Milei"
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "correcta_con_reparos",
+      "cita": "La dirección general de estabilizar fiscal y monetariamente era correcta. La implementación mediante shock sin acuerdo amplio y con red social insuficiente fue más riesgosa y costosa"
+    },
+    "coincide_con_lo_real": {
+      "valor": "en_parte",
+      "cita": "**En objetivos macroeconómicos, sí. En método y secuencia, no del todo.**"
+    },
+    "autocritica": {
+      "valor": "no",
+      "cita": "yo habría preferido un camino más pactado, gradual y socialmente protegido"
+    },
+    "delata_la_ficha": {
+      "valor": "si",
+      "cita": "La cifra que menos calza es la **inflación anual del 40%**"
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/TC/gpt-5.5-2026-04-23_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "TC",
+  "casa": "gpt-5.5-2026-04-23",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 3564,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "VOTO FINAL: Mantengo mi voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporaría un cupo fiscal anual específico para el título I"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Pero esos reparos no alcanzan para rechazar el proyecto."
+    },
+    "argumento_principal": {
+      "valor": "laboral_o_social",
+      "cita": "La Argentina necesita generar empleo calificado, aumentar exportaciones, retener talento"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "ley 25.922; Ley de Impuesto a las Ganancias; decreto 814/2001; ley 27.430"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "el texto llega con consenso transversal de varios bloques y unifica distintos proyectos"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "unifica distintos proyectos"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Le sirve, en primer lugar, a empresas argentinas o habilitadas para actuar en el país"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Mantengo, sin embargo, mis reparos."
+    },
+    "por_que_ahora": {
+      "valor": "compromiso_externo",
+      "cita": "el régimen vigente de promoción de la industria del software, la ley 25.922, vencía el 31 de diciembre de 2019"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "El proyecto fija requisitos de inscripción, actividad principal, exportaciones, capacitación, calidad o inversión en investigación y desarrollo"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

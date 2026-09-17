@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/sociedades/sondeo/claude-opus-5_1",
+  "unidad": "sondeo",
+  "caso": "sociedades",
+  "condicion": "sondeo",
+  "casa": "claude-opus-5",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 303,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "**No, no conozco ese proyecto.** No tengo información sobre un proyecto de nueva Ley General de Sociedades enviado por el Poder Ejecutivo al Senado en mayo de 2026"
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": ""
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "En 2019 el Ministerio de Justicia constituyó una comisión de juristas (integrada, entre otros, por Rafael Manóvil) que elaboró un anteproyecto de reforma integral de la Ley 19.550"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Mi información llega hasta comienzos de 2025 (y para los meses inmediatamente anteriores al corte suele ser incompleta)."
+    }
+  },
+  "problemas": []
+}

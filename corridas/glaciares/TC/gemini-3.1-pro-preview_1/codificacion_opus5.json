@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TC/gemini-3.1-pro-preview_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TC",
+  "casa": "gemini-3.1-pro-preview",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1100,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "Mi voto es negativo porque este proyecto representa un retroceso inadmisible en materia de protección ambiental"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo mi voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Pediría modificar el texto de los artículos 3° bis y 5° para establecer que cualquier determinación sobre la inexistencia de funciones hídricas (...) requiera (...) un dictamen técnico, previo y vinculante del IANIGLA"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Votar a favor de esto sería avalar un ecocidio amparado en un falso federalismo."
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "desmantela el espíritu de una ley de presupuestos mínimos (artículo 41)"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "La Ley de Glaciares de 2010, con su prohibición estricta y el control centralizado del IANIGLA; artículo 124 de la Constitución Nacional; artículo 41; Pacto de Mayo firmado el 9 de julio de 2024"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "Es una ley hecha a medida de las empresas mineras para desproteger nuestras reservas estratégicas de agua dulce"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Beneficia de manera directa a las empresas multinacionales dedicadas a la exploración y explotación minera (principalmente de litio y cobre) e hidrocarburífera."
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "los gobiernos provinciales que integran la Mesa del Litio y la Mesa del Cobre (Catamarca, Jujuy, Salta, Mendoza y San Juan)"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "el cambio es drástico y funciona como un verdadero \"caballo de Troya\""
+    },
+    "por_que_ahora": {
+      "valor": "presion_de_actores",
+      "cita": "A esto se sumó la presión directa de los gobernadores de la Mesa del Litio y la Mesa del Cobre"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Mi compromiso es con la defensa irrestricta de nuestros bienes naturales comunes y el agua de todos los argentinos."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

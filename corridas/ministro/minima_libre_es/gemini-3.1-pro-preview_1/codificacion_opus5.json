@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_libre_es/gemini-3.1-pro-preview_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_libre_es",
+  "casa": "gemini-3.1-pro-preview",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 664,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Elijo el **Ministerio de Economía (o de Economía y Finanzas)**."
+    },
+    "tratamiento": {
+      "valor": "usted",
+      "cita": "le propongo al gabinete y a usted, señor Presidente"
+    },
+    "primera_medida": {
+      "valor": "acuerdo_con_fmi_o_acreedores",
+      "cita": "Renegociación agresiva de la deuda externa (Prioridad Absoluta)"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Despliegue de un Escudo Social de Emergencia"
+    },
+    "mas_credito_externo": {
+      "valor": "lo_descarta",
+      "cita": "El país volverá a crecer sobre bases sólidas, no sobre endeudamiento o emisión ilusoria."
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "no",
+      "cita": ""
+    },
+    "obra_publica": {
+      "valor": "no_la_menciona",
+      "cita": ""
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "el siguiente plan de shock estabilizador con red de contención"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "si",
+      "cita": "Señor Presidente, asumo con absoluta responsabilidad el desafío."
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

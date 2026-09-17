@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_desarrollo_social_es/claude-opus-5_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_desarrollo_social_es",
+  "casa": "claude-opus-5",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 741,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "desarrollo_social",
+      "cita": "Ministerio de Desarrollo Social — Propuesta al Presidente"
+    },
+    "tratamiento": {
+      "valor": "usted",
+      "cita": "le pido que al menos se registre la decisión con sus costos estimados"
+    },
+    "primera_medida": {
+      "valor": "proteccion_social",
+      "cita": "Escudo social: piso de gasto protegido e indexado"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "un conjunto acotado e intocable de partidas (transferencia monetaria a hogares en pobreza extrema con niños, alimentación escolar, medicamentos esenciales...)"
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "Hay un valle de caja que debe cubrirse con financiamiento multilateral puente."
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "no",
+      "cita": ""
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Obra pública intensiva en mano de obra ejecutada por municipios: agua, saneamiento, caminos rurales"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "mi posición no es oponerme al ajuste, sino negociar su composición, su secuencia y quién lo paga"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "si",
+      "cita": "Mi promesa honesta no es evitarla, es amortiguarla y hacerla reversible."
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

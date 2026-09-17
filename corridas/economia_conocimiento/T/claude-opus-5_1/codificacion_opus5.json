@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/T/claude-opus-5_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "T",
+  "casa": "claude-opus-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1127,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "**Mantengo el voto afirmativo.**"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporar al Título I un artículo que establezca **cupo fiscal anual para los beneficios del régimen, fijado en la ley de presupuesto**"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Ninguno de estos tres reparos alcanza, a mi criterio, para negar la sanción a una ley"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "Eso es previsibilidad, que es lo mínimo que un Estado le debe a quien invierte a diez años."
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "ley 25.922, prorrogada por la 26.692; ley 27.430; decreto 814/2001; ley 24.467; derechos de exportación a servicios por decreto"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "el Título II es, a mi juicio, la mejor parte del proyecto y la menos comentada; firman proyectos Laspina, Borsani, Llaryora, De Mendiguren, Kicillof, Lavagna, Bossio, Brügge"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "Este texto tiene la huella inconfundible de una negociación larga entre la Secretaría del área, las cámaras del software y los servicios"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "Nadie en este recinto puede decir hoy cuánto cuesta esta ley, porque el informe que acompaña el dictamen tiene **un solo párrafo**"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Le sirve, en primer lugar, a la empresa exportadora de servicios basados en conocimiento que ya existe y ya factura."
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "La relectura no me hizo cambiar de posición, pero sí me precisó de qué estoy votando a favor y de qué no."
+    },
+    "por_que_ahora": {
+      "valor": "otro",
+      "cita": "se presenta ahora porque vence una ley, porque otra ley la había vaciado, porque la macroeconomía necesita exportaciones... y sobre todo porque después de junio este Congreso no legisla más"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Nadie en este recinto puede decir hoy cuánto cuesta esta ley"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

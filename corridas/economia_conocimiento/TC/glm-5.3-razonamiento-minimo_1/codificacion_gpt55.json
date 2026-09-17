@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/TC/glm-5.3-razonamiento-minimo_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "TC",
+  "casa": "glm-5.3-razonamiento-minimo",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2271,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Precisar en el texto de la ley la definición de \"autodesarrollo\""
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Ninguno de estos defectos alcanza para justificar votar en contra"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "dejar a un sector que exporta y genera empleo de calidad sin marco jurídico"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "ley 25.922; ley 26.270; decreto 814/2001; ley de ganancias; ley 26.692"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "se señalaron desde distintos sectores; pasó por Diputados con 182 votos a favor y 2 en contra"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "el texto es producto de un consenso amplio: unifica proyectos de diputados de Cambiemos, del justicialismo y de Córdoba Federal"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "Beneficia principalmente a las empresas de software y servicios informáticos"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "agregaría ahora una segunda preocupación por la ausencia de cupo fiscal"
+    },
+    "por_que_ahora": {
+      "valor": "compromiso_externo",
+      "cita": "el Régimen de Promoción de la Industria del Software (ley 25.922, prorrogado por la 26.692) vencía el 31 de diciembre de 2019"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "Según el artículo 4, puede entrar al régimen cualquier persona jurídica"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

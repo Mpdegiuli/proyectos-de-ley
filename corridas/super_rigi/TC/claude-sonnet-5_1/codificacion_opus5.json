@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TC/claude-sonnet-5_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TC",
+  "casa": "claude-sonnet-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1038,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Reducir el plazo de estabilidad normativa del artículo 74 de treinta a un máximo de quince años"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "incluso con esa corrección persistirían mis reservas sobre el artículo 2 y el mecanismo arbitral"
+    },
+    "argumento_principal": {
+      "valor": "soberania_o_jurisdiccion",
+      "cita": "una renuncia de soberanía regulatoria desproporcionada"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "el RIGI original de la Ley 27.742; países comparables ofrecen estabilidad por plazos bastante menores; Microsoft, Google, Meta, o vehículos financiados por fondos como los de Peter Thiel"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "con media sanción ya lograda en Diputados por un margen amplio (130 a 106)... las versiones sobre Peter Thiel, que el Gobierno negó"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "es un traje a medida —quizás no para una persona en particular, pero sí para una categoría muy estrecha de jugadores—"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "aunque no está entre los artículos transcriptos el texto exacto de esa exclusión"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "corporaciones multinacionales con capacidad de movilizar al menos mil millones de dólares en un solo proyecto"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "Microsoft, Google, Meta, o vehículos financiados por fondos como los de Peter Thiel"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Releer los fundamentos y el índice completo refuerza más que atenúa mi objeción central"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "la ventana de oportunidad legislativa: con media sanción ya lograda en Diputados por un margen amplio"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "seguirían pesando en mi voto si el proyecto llegara así al recinto"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

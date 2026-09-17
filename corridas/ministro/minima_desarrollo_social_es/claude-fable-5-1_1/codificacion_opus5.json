@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_desarrollo_social_es/claude-fable-5-1_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_desarrollo_social_es",
+  "casa": "claude-fable-5-1",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1003,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "desarrollo_social",
+      "cita": "Asumo el rol de ministro/a de Desarrollo Social"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": "planteo mi propuesta al presidente desde esa cartera"
+    },
+    "primera_medida": {
+      "valor": "proteccion_social",
+      "cita": "Blindar y ordenar la protección social básica (red de contención de emergencia)"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "se incluya explícitamente un piso de gasto social protegido"
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "en parte con créditos de organismos multilaterales orientados a proyectos concretos"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "no",
+      "cita": ""
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Programa de empleo transitorio vinculado a obra pública local y servicios comunitarios"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "Se gana legitimidad y estabilidad política para sostener el ajuste macroeconómico"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

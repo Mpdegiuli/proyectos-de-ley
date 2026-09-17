@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/T/claude-opus-5_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "T",
+  "casa": "claude-opus-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2164,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Reescribir el artículo 35 para dar certeza a la transición"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "pido esa corrección en el Senado como condición de mi acompañamiento a la sanción definitiva"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "cumple, con razonabilidad y sin exceso, el mandato del artículo 41 de la Constitución Nacional"
+    },
+    "escazu": {
+      "valor": "a_favor_del_proyecto",
+      "cita": "suscribimos Escazú por la ley 27.566 y este texto lo aplica"
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "artículo 41 de la Constitución Nacional; artículo 124; Ramsar por las leyes 23.919 y 25.335; Escazú por la ley 27.566; la ley 26.331; la ley 25.688; la ley 27.287; la ley 22.351; en 2013 el Senado sancionó una ley de humedales que caducó en Diputados; en 2016 volvió a pasar lo mismo; la reunión de las partes de Ramsar; la COP climática de este mes y la de biodiversidad de diciembre"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "Hay diez años de debate parlamentario; El paso previo por las comisiones de Agricultura y Ganadería y de Presupuesto y Hacienda"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "Un texto trabajado sin apuro no llega así al recinto."
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "ciudadania_o_ambiente",
+      "cita": "Gana la ciudadanía movilizada y el argumento ambiental de fondo"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Dejo asentadas tres cosas para el tramo que sigue"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "Estamos a fines de noviembre: se cierran las sesiones ordinarias"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "como diputado sin bloque no tengo por qué callarme"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

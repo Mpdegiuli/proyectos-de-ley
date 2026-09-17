@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/humedales/sondeo/gpt-5.5-2026-04-23_1",
+  "unidad": "sondeo",
+  "caso": "humedales",
+  "condicion": "sondeo",
+  "casa": "gpt-5.5-2026-04-23",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 263,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_conocerlo",
+      "cita": "Sí, lo conozco."
+    },
+    "destino_declarado": {
+      "valor": "no_sancionado",
+      "cita": "Hasta donde llega mi información, **no, no fue aprobado**. El dictamen de mayoría de noviembre de 2022 no llegó al recinto y no se convirtió en ley."
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "el plenario de comisiones —principalmente Recursos Naturales, Agricultura y Presupuesto— emitió en noviembre de 2022 un **dictamen de mayoría**"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "La información que tengo llega hasta **junio de 2024**."
+    }
+  },
+  "problemas": []
+}

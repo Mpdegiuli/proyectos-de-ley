@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/economia_conocimiento/sondeo/kimi-k3_1",
+  "unidad": "sondeo",
+  "caso": "economia_conocimiento",
+  "condicion": "sondeo",
+  "casa": "kimi-k3",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 225,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_conocerlo",
+      "cita": "Sí, lo conozco en términos generales"
+    },
+    "destino_declarado": {
+      "valor": "ley_sancionada",
+      "cita": "es el proyecto que terminó convirtiéndose en la **Ley 27.506**"
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "Obtuvo **media sanción en Diputados en la segunda quincena de mayo de 2019**, con apoyo amplio y transversal."
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Mi conocimiento llega hasta **principios de 2025**"
+    }
+  },
+  "problemas": []
+}

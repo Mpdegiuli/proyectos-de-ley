@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_economia_es/gpt-5.5-2026-04-23_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_economia_es",
+  "casa": "gpt-5.5-2026-04-23",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 753,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Como ministro/a de Economía, le propondría al presidente un plan de emergencia"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": "Le diría al presidente que el país necesita un plan urgente"
+    },
+    "primera_medida": {
+      "valor": "ajuste_fiscal",
+      "cita": "La primera medida sería presentar un **programa fiscal creíble**, pero socialmente responsable."
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Proteger o incluso aumentar el presupuesto destinado a salud, educación, alimentación básica y asistencia a los sectores más pobres."
+    },
+    "mas_credito_externo": {
+      "valor": "no",
+      "cita": "El país recuperaría acceso al crédito en mejores condiciones."
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "Aplicar impuestos más progresivos, donde paguen más quienes tienen mayor capacidad económica."
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Obras públicas básicas: caminos, viviendas, escuelas, hospitales, agua potable y saneamiento."
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "La prioridad debe ser ordenar la economía, pero sin descargar todo el peso sobre los trabajadores y los sectores pobres."
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

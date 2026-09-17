@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/glaciares/sondeo/glm-5.3-razonamiento-minimo_1",
+  "unidad": "sondeo",
+  "caso": "glaciares",
+  "condicion": "sondeo",
+  "casa": "glm-5.3-razonamiento-minimo",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 226,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "No conozco ese proyecto de ley en particular."
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": ""
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "la Ley 26.639, sancionada en 2010, establece presupuestos mínimos para proteger glaciares y ambiente periglacial... el caso más conocido fue el del proyecto Pascua Lama de Barrick Gold, en San Juan"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Mi información llega hasta principios de 2025"
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/T/claude-opus-5_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "T",
+  "casa": "claude-opus-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2087,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporar una cláusula general de salvaguarda del poder de policía"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "esta es la modificación que pondría como condición previa e indispensable"
+    },
+    "argumento_principal": {
+      "valor": "soberania_o_jurisdiccion",
+      "cita": "es una cesión de soberanía regulatoria por treinta años"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "La Corte ha admitido la estabilidad fiscal; CIADI: los laudos de la última crisis; arts. 121 a 124 CN; art. 75 inc. 18; art. 76 CN; art. 16 CN; RIGI de la Ley 27.742"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_debate_publico",
+      "cita": "el punto más grave y el menos discutido"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "este texto no se escribió en abstracto para atraer inversores hipotéticos"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "Se me pide opinión sobre doce artículos de ciento quince"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "corporaciones multinacionales con capacidad de comprometer USD 1.000 millones por proyecto"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "la relectura lo refuerza en un punto que en mi primera intervención no había jerarquizado lo suficiente"
+    },
+    "por_que_ahora": {
+      "valor": "otro",
+      "cita": "este proyecto llega ahora por la convergencia de cuatro relojes"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "no voy a votar un articulado del que conozco doce artículos sobre ciento quince"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

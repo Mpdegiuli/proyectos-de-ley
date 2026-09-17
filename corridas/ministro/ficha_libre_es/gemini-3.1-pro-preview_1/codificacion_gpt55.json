@@ -1,0 +1,93 @@
+{
+  "texto": "corridas/ministro/ficha_libre_es/gemini-3.1-pro-preview_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "ficha_libre_es",
+  "casa": "gemini-3.1-pro-preview",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md",
+    "respuesta2.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1592,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Elijo el **Ministerio de Economía**"
+    },
+    "tratamiento": {
+      "valor": "usted",
+      "cita": "Tiene usted una excelente capacidad de observación."
+    },
+    "primera_medida": {
+      "valor": "ajuste_fiscal",
+      "cita": "Reducir drásticamente el déficit primario"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "tarifa social estricto para proteger al 40% de la población"
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "conseguir liquidez de emergencia"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "no",
+      "cita": ""
+    },
+    "obra_publica": {
+      "valor": "la_frena",
+      "cita": "suspensión de obra pública no prioritaria"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "ortodoxia fiscal y monetaria [...] combinada con [...] contención social focalizada"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "si",
+      "cita": "asumo este desafío con absoluta responsabilidad"
+    },
+    "pais_identificado": {
+      "valor": "argentina",
+      "cita": "República Argentina"
+    },
+    "momento_identificado": {
+      "valor": "argentina_2019_2023",
+      "cita": "Argentina entre 2019 y 2023"
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "incorrecta",
+      "cita": "Definitivamente no"
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_se_parece",
+      "cita": "No, fue fundamentalmente distinta."
+    },
+    "autocritica": {
+      "valor": "no",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "si",
+      "cita": "una inflación rondando el 50% (cerca de su 40%), una pobreza cercana al 35-40%"
+    }
+  },
+  "problemas": []
+}

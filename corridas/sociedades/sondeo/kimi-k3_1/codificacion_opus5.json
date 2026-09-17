@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/sociedades/sondeo/kimi-k3_1",
+  "unidad": "sondeo",
+  "caso": "sociedades",
+  "condicion": "sondeo",
+  "casa": "kimi-k3",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 253,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "No lo conozco, y es importante que sea claro sobre por qué: mi información confiable llega hasta aproximadamente principios de 2025"
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": "No puedo confirmar que exista ni decirte nada sobre su tratamiento parlamentario"
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "la creación de las Sociedades por Acciones Simplificadas (SAS) por la Ley 27.349 de 2017"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "mi información confiable llega hasta aproximadamente principios de 2025"
+    }
+  },
+  "problemas": []
+}

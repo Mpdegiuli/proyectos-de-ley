@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/TC/mistral-medium-3.5_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "TC",
+  "casa": "mistral-medium-3.5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1762,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "**VOTO:** afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el **afirmativo**."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incluir un mecanismo de revisión periódica y ajustes en los plazos para la implementación del Inventario Nacional de Humedales"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "seguiría siendo válida para asegurar implementación efectiva, pero no altera el apoyo al proyecto"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "ecosistemas clave para la biodiversidad, la mitigación del cambio climático y la provisión de servicios ecosistémicos esenciales"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "Los incendios masivos en el Delta del Paraná (2020-2022) y las sequías históricas; Tras años de estancamiento (desde 2013); presidencia de la comisión de Recursos Naturales por el oficialismo (Frente de Todos) y el apoyo de Juntos por el Cambio"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "generando un reclamo ciudadano y de organizaciones ambientales que el Congreso no podía ignorar... el dictamen de mayoría logró reunificar proyectos dispersos en un texto consensuado"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "ciudadania_o_ambiente",
+      "cita": "Beneficia a la sociedad en general, especialmente a las generaciones futuras"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo el **afirmativo**. El texto equilibra protección ambiental y desarrollo sostenible"
+    },
+    "por_que_ahora": {
+      "valor": "presion_de_actores",
+      "cita": "**Presión social y ambiental**: Los incendios masivos en el Delta del Paraná (2020-2022)... generando un reclamo ciudadano y de organizaciones ambientales"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "Según el **artículo 35**, durante el período entre la sanción de la ley y la aprobación del ordenamiento territorial"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

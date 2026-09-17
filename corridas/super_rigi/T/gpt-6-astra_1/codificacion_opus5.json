@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/T/gpt-6-astra_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "T",
+  "casa": "gpt-6-astra",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 911,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "**Mantengo el voto negativo.**"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporaría **una cláusula transversal de salvaguarda del poder regulatorio legítimo**"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Esa sería mi condición indispensable para acompañar el régimen"
+    },
+    "argumento_principal": {
+      "valor": "otro",
+      "cita": "el texto protege con mayor claridad la continuidad del negocio que la capacidad estatal de actuar ante daños graves"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "la expropiación conforme al artículo 17 de la Constitución Nacional; exclusiones vinculadas a solicitudes y proyectos similares del RIGI anterior"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "Como no se transcriben los artículos sobre evaluación, fiscalización y sanciones, no puedo afirmar que esas obligaciones estén ausentes"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "**Beneficia directamente a los titulares de grandes proyectos que logren ingresar al régimen**, nacionales o extranjeros"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "La relectura confirma que el régimen es más acotado que un beneficio general para grandes empresas"
+    },
+    "por_que_ahora": {
+      "valor": "otro",
+      "cita": "el Ejecutivo busca anticipar para ciertas inversiones la estabilidad y las condiciones económicas que todavía no puede garantizar de manera general"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "Los artículos transcritos exigen:"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

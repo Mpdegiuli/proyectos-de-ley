@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TB/kimi-k3_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TB",
+  "casa": "kimi-k3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 3852,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Pediría suprimir la última oración del nuevo artículo 5°"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "por eso voto afirmativo y dejo constancia de esta mejora"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "proteger efectivamente los glaciares"
+    },
+    "escazu": {
+      "valor": "neutral",
+      "cita": "garantizar instancias de participación pública conforme al Acuerdo de Escazú"
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "Ley 26.639; Ley General del Ambiente; artículo 41 de la Constitución; Ley 25.675; Acuerdo de Escazú; RIGI en la Ley Bases; Ley 22.351; Pacto de Mayo"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "el texto viene en revisión del Senado; derogar o tocar la Ley de Glaciares era sinónimo de derrota en el recinto y en la calle"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "se redactó con la nota al lado"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "los beneficiarios directos son las provincias cordilleranas y cuyanas"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Lo que sí me exige la relectura es soltar el eufemismo"
+    },
+    "por_que_ahora": {
+      "valor": "necesidad_economica",
+      "cita": "lo presentó ahora porque los dólares no pueden esperar"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros y compañeras: voto con el bloque"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "voto con el bloque y quiero que lo defendamos sin complejos"
+    },
+    "tension_reconocida": {
+      "valor": "no_la_menciona",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "el encuadre que nos van a hacer —\"votaron contra los glaciares\"—"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

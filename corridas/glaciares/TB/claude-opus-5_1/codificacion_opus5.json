@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TB/claude-opus-5_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TB",
+  "casa": "claude-opus-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1250,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "## VOTO\nNegativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "**Mantengo el voto negativo.**"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "que la constatación de que un glaciar o geoforma periglacial **no** cumple las funciones hídricas del art. 1° ... requiera ... **dictamen previo, público y vinculante del IANIGLA**"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "si esa corrección se incorpora, mi voto es afirmativo en el mismo recinto y el mismo día"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "se pasa de una prohibición legal a una autorización caso por caso"
+    },
+    "escazu": {
+      "valor": "contra_el_proyecto",
+      "cita": "el propio Mensaje se comprometió a que la instancia de participación pública del Acuerdo de Escazú se cumpliría \"al momento de tratar en el H. Congreso la reforma\". A 9 de abril, ese compromiso no está cumplido"
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "La Corte Suprema, en 2019, rechazó el planteo de inconstitucionalidad contra la Ley 26.639; RIGI; Ley 22.351; Ley 27.566; Equator Principles; Josemaría, Los Azules, Filo del Sol, El Pachón, Taca Taca; Mesas del Litio y del Cobre"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "Esto es lo que menos se discutió y me parece grave; El Senado lo sancionó el 26 de febrero, en verano, y llega a Diputados en abril"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "El proyecto ya estaba escrito; lo que faltaba era el pedido provincial que le diera cobertura federal"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "**A las cinco o seis provincias cordilleranas con proyectos de cobre, oro y litio en alta cordillera**"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "Josemaría, Los Azules, Filo del Sol y lo que venga después"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Encontré dos cosas que no había señalado y que agravan el cuadro"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "**1. Porque ahora hay números en el Congreso.** Esta es la razón principal"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros: no me corrí de la agenda."
+    },
+    "ante_el_bloque": {
+      "valor": "desobedece_por_condicion",
+      "cita": "Con eso adentro, mi voto es afirmativo ... Sin eso, hoy voto en contra"
+    },
+    "tension_reconocida": {
+      "valor": "niega_tension",
+      "cita": "Acá no hay un problema de lealtad, hay un problema de artesanía legislativa."
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "Prefiero que me cuenten un voto en contra hoy y no que dentro de un año estemos explicando por qué la ley que sacamos está suspendida."
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

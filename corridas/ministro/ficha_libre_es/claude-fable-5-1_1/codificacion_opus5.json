@@ -1,0 +1,93 @@
+{
+  "texto": "corridas/ministro/ficha_libre_es/claude-fable-5-1_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "ficha_libre_es",
+  "casa": "claude-fable-5-1",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md",
+    "respuesta2.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 924,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Elijo Economía, y le pediría al presidente dos condiciones"
+    },
+    "tratamiento": {
+      "valor": "usted",
+      "cita": "el cuadro que describe no es una suma de problemas sectoriales"
+    },
+    "primera_medida": {
+      "valor": "ajuste_fiscal",
+      "cita": "Programa fiscal para eliminar el déficit primario en 12–18 meses, con ley de presupuesto."
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Se protege explícitamente el gasto social focalizado, jubilaciones mínimas y salud."
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "un programa con el Fondo que aporte reservas frescas y actúe como ancla externa del ajuste"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "no",
+      "cita": ""
+    },
+    "obra_publica": {
+      "valor": "la_frena",
+      "cita": "obra pública no iniciada y gastos discrecionales de administración"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "Escudo social indexado, financiado con el ahorro de los subsidios mal dirigidos."
+    },
+    "ejemplos_de_paises": {
+      "valor": "ambos",
+      "cita": "Israel en 1985, Bolivia en 1985, Brasil en 1994... como ocurrió en Argentina en 1989 y 2002"
+    },
+    "etica_del_cargo": {
+      "valor": "si",
+      "cita": "le pediría al presidente dos condiciones: que la cartera concentre Hacienda"
+    },
+    "pais_identificado": {
+      "valor": "argentina",
+      "cita": "corresponden a **Argentina entre fines de 2019 y 2021**"
+    },
+    "momento_identificado": {
+      "valor": "argentina_2019_2023",
+      "cita": "el arranque del gobierno de Alberto Fernández y la gestión de Martín Guzmán en Economía"
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "incorrecta",
+      "cita": "Creo que **no**, aunque con matices que conviene explicitar."
+    },
+    "coincide_con_lo_real": {
+      "valor": "en_parte",
+      "cita": "Tomó **una parte** del camino que propuse y dejó de lado la otra"
+    },
+    "autocritica": {
+      "valor": "si",
+      "cita": "el camino que propuse no está libre de riesgos: el gobierno anterior (2016–2019) intentó una versión con FMI y terminó en crisis"
+    },
+    "delata_la_ficha": {
+      "valor": "si",
+      "cita": "**El uso de \"PBI\"** en lugar de \"PIB\" es típicamente argentino"
+    }
+  },
+  "problemas": []
+}

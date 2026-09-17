@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/economia_conocimiento/sondeo/claude-sonnet-4-6_1",
+  "unidad": "sondeo",
+  "caso": "economia_conocimiento",
+  "condicion": "sondeo",
+  "casa": "claude-sonnet-4-6",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 304,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_conocerlo",
+      "cita": "Sí, conozco ese proyecto de ley. Te cuento lo que sé sobre su tratamiento parlamentario y la discusión pública que generó."
+    },
+    "destino_declarado": {
+      "valor": "ley_sancionada",
+      "cita": "la ley —que había sido promulgada como **Ley 27.506**— fue **suspendida** por el nuevo gobierno mediante el **Decreto 1076/2019**"
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "El dictamen de mayoría en comisiones de la **Cámara de Diputados** fue aprobado en **abril de 2019**, impulsado principalmente por el oficialismo de Cambiemos"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Mi información llega hasta **principios de 2025**"
+    }
+  },
+  "problemas": []
+}

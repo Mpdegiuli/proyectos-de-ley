@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TB/claude-sonnet-4-6_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TB",
+  "casa": "claude-sonnet-4-6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2810,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "pediría reforzar el artículo 4°"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Voto sí, con los ojos abiertos."
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "riesgos reales de erosión de estándares de protección"
+    },
+    "escazu": {
+      "valor": "a_favor_del_proyecto",
+      "cita": "deben garantizar participación ciudadana (Acuerdo de Escazú incluido)"
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "art. 124 CN; Ley General del Ambiente; Acuerdo de Escazú; Pacto de Mayo; Corte Suprema; Estados Unidos, la Unión Europea y China; Chile, Bolivia"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "El Poder Ejecutivo presentó el mensaje el 15 de diciembre de 2025"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "Ellas redactaron los lineamientos que el Ejecutivo convirtió en proyecto."
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "Las provincias mineras —Catamarca, Jujuy, Salta, San Juan, Mendoza— son las ganadoras más evidentes."
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Mantengo el voto afirmativo, pero con mayor incomodidad que antes."
+    },
+    "por_que_ahora": {
+      "valor": "necesidad_economica",
+      "cita": "necesidad fiscal y de divisas urgente"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros y compañeras: voy a votar a favor"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "voy a votar a favor porque el bloque nos lo pide"
+    },
+    "tension_reconocida": {
+      "valor": "reconoce_tension",
+      "cita": "mantengo el voto afirmativo, pero con mayor incomodidad que antes"
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "ese costo va a ser nuestro. No del Ejecutivo, nuestro."
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

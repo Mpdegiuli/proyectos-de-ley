@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/TC/gpt-5.5-2026-04-23_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "TC",
+  "casa": "gpt-5.5-2026-04-23",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2193,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo mi voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporaría un cupo fiscal anual específico para el título I, fijado en cada ley de presupuesto, con prioridad para micro, pequeñas y medianas empresas"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "esos riesgos, a mi juicio, no justifican votar en contra"
+    },
+    "argumento_principal": {
+      "valor": "laboral_o_social",
+      "cita": "La Argentina necesita generar empleo calificado, aumentar exportaciones, retener talento y vincular más estrechamente al sistema científico, universitario y productivo."
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "la ley 25.922, vencía el 31 de diciembre de 2019; decreto 814/2001; ley 27.430; artículo 49 de la Ley de Impuesto a las Ganancias"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "el texto llega con consenso transversal de varios bloques y unifica distintos proyectos"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "unifica distintos proyectos... se aprovecha una ventana de consenso parlamentario para transformar la prórroga del régimen de software en un régimen más ambicioso"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "empresas argentinas o habilitadas para actuar en el país que desarrollen como actividad principal actividades basadas en conocimiento: software, servicios informáticos y digitales, producción audiovisual, biotecnología"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Después de releer el texto, sigo viendo una política pública necesaria"
+    },
+    "por_que_ahora": {
+      "valor": "compromiso_externo",
+      "cita": "el régimen vigente de promoción de la industria del software, la ley 25.922, vencía el 31 de diciembre de 2019, y era necesario dar previsibilidad antes de que terminara el año"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "sin perjuicio de reclamar mejoras en la implementación y eventuales correcciones futuras"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

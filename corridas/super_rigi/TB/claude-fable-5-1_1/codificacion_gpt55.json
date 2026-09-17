@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TB/claude-fable-5-1_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TB",
+  "casa": "claude-fable-5-1",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2590,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Suprimir el último párrafo del artículo 109"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "si no, voto igual"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "nadie hunde mil millones de dólares en un país donde el impuesto a las ganancias, el régimen cambiario y los derechos de exportación cambian cada dos años"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "RIGI de la Ley 27.742; decenas de tratados bilaterales; RIGI original; Chile y Texas"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "esta ley es el traje que se les está cosiendo"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "yo tampoco puedo calcular con lo que tengo"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "El inversor capaz de poner USD 1.000 millones en un solo proyecto y sus accionistas"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Mantengo el voto afirmativo, con menos comodidad que en la primera lectura"
+    },
+    "por_que_ahora": {
+      "valor": "presion_de_actores",
+      "cita": "hubo conversaciones con inversores concretos que miraron el RIGI y dijeron que no alcanzaba"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros: voto afirmativo y les pido que lo votemos todos"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "voto afirmativo y les pido que lo votemos todos"
+    },
+    "tension_reconocida": {
+      "valor": "no_la_menciona",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/TC/kimi-k3_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "TC",
+  "casa": "kimi-k3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1084,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Modificaría el artículo 4º para que el requisito de exportación del inciso c) sea excluyente para todos los beneficiarios"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Acompaño porque el régimen tiene vigencia limitada, revisión anual de la permanencia y controles reales, y porque estos defectos se corrigen mejor dentro de un marco vigente que en el vacío."
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "Renovar y ampliar ese marco no es un lujo: es darle previsibilidad a uno de los pocos sectores que exporta servicios con alto valor agregado"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "la ley 25.922 vence el 31 de diciembre de este año; ley 27.430; decreto 814/2001; objeción que ya se le hizo a la ley de software; proyecto del diputado Bossio"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "comparto las objeciones que se escucharon en comisión... el dictamen lleva firmas de Cambiemos, del justicialismo y de Córdoba Federal"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "Uno de los cinco proyectos unificados en este dictamen, el del diputado Bossio, era exactamente eso: prorrogar el régimen del software."
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Beneficia, en primer lugar, a las empresas que ya están en la ley 25.922"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "me deja una preocupación adicional: la estabilidad fiscal por diez años incluyendo aranceles es una renuncia amplia del poder tributario"
+    },
+    "por_que_ahora": {
+      "valor": "otro",
+      "cita": "la convergencia de una necesidad técnica (el vencimiento), una oportunidad política (la ventana pre-electoral y el consenso disponible) y una conveniencia fiscal"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Voto a favor, con reparos que dejo constancia en este recinto"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

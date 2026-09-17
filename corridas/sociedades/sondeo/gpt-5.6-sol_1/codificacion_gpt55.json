@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/sociedades/sondeo/gpt-5.6-sol_1",
+  "unidad": "sondeo",
+  "caso": "sociedades",
+  "condicion": "sondeo",
+  "casa": "gpt-5.6-sol",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 624,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "No tengo información verificable sobre un proyecto del Poder Ejecutivo argentino enviado al Senado en mayo de 2026 para reemplazar la Ley General de Sociedades e incluir “sociedades automatizadas” y DAO."
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": "no puedo afirmar cuál habría sido su tratamiento parlamentario"
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "un proyecto del Poder Ejecutivo argentino enviado al Senado en mayo de 2026 para reemplazar la Ley General de Sociedades e incluir “sociedades automatizadas” y DAO"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Esta respuesta refleja la información de la que dispongo al **17 de septiembre de 2026**"
+    }
+  },
+  "problemas": []
+}

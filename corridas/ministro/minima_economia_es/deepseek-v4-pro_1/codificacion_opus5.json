@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_economia_es/deepseek-v4-pro_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_economia_es",
+  "casa": "deepseek-v4-pro",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 643,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Como ministra de Economía, propondría al presidente un programa de emergencia"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": "propondría al presidente un programa de emergencia"
+    },
+    "primera_medida": {
+      "valor": "ajuste_fiscal",
+      "cita": "Plan de estabilización fiscal de emergencia"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "proteger el gasto en salud, educación y protección social"
+    },
+    "mas_credito_externo": {
+      "valor": "no",
+      "cita": "Abrir de inmediato una negociación ordenada con acreedores oficiales y privados para ampliar plazos"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "no",
+      "cita": ""
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "obras de infraestructura y mantenimiento intensivas en mano de obra"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "Sin esta red de contención, el ajuste sería socialmente insostenible."
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

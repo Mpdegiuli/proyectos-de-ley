@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_libre_fr/claude-opus-5_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_libre_fr",
+  "casa": "claude-opus-5",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1473,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Les Finances et l'Économie (idéalement couplé au Plan/Budget)."
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": "Deux conditions que je poserais au président avant d'accepter"
+    },
+    "primera_medida": {
+      "valor": "diagnostico_o_informacion",
+      "cita": "Établir la vérité des comptes et arrêter l'hémorragie (0–60 jours) Audit immédiat de la trésorerie, de la dette"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "en défendant fermement deux lignes rouges — la protection des dépenses de santé, d'éducation et des transferts aux plus pauvres"
+    },
+    "mas_credito_externo": {
+      "valor": "no",
+      "cita": "Ouvrir la négociation avec les créanciers — bilatéraux, multilatéraux, porteurs d'obligations — pour un rééchelonnement, une extension des maturités"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "les exonérations discrétionnaires, la fraude douanière et les grandes fortunes échappent ... fiscalisation effective des rentes"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "plus des programmes de travaux publics à haute intensité de main-d'œuvre (routes rurales, assainissement, irrigation)"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "Protéger les pauvres pendant l'ajustement — un filet social ciblé"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "si",
+      "cita": "je n'accepte ce poste que si nous convenons ensemble qu'un ministre des Finances qui ne peut pas dire « non » ... n'est pas un ministre, mais un guichet"
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

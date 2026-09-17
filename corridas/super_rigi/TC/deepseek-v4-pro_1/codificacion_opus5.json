@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TC/deepseek-v4-pro_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TC",
+  "casa": "deepseek-v4-pro",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2686,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo mi voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Eliminar el arbitraje internacional a elección del VPU y la prórroga de jurisdicción, manteniendo la competencia de los tribunales argentinos"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "No puedo acompañar un régimen de esta naturaleza."
+    },
+    "argumento_principal": {
+      "valor": "soberania_o_jurisdiccion",
+      "cita": "la renuncia a la jurisdicción nacional en favor de arbitraje internacional a elección unilateral del inversor... configuran una delegación de soberanía que no estoy dispuesto a convalidar"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "ya logró la media sanción en Diputados en junio de 2026 y necesita avanzar rápido en el Senado"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "el diseño del proyecto ... es compatible con la existencia de al menos un inversor concreto esperando este marco para decidir su radicación"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Beneficia, tal como está redactado, a inversores multinacionales o consorcios de gran escala con capacidad de desembolsar al menos USD 1.000 millones"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "aunque el pacto con Peter Thiel no esté probado y el Gobierno lo haya negado"
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Releer el articulado confirma mis objeciones centrales"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "por una combinación de oportunidad política... hay un factor de timing político: se busca blindar condiciones excepcionales antes de que cambie la relación de fuerzas legislativas"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "configuran una delegación de soberanía que no estoy dispuesto a convalidar"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

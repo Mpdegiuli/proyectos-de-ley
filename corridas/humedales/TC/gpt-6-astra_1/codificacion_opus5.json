@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/TC/gpt-6-astra_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "TC",
+  "casa": "gpt-6-astra",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1003,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "## VOTO:\nafirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "**Mantengo el voto afirmativo.**"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Es una modificación puntual: evita que la demora del inventario deje ambientes sin protección transitoria"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "la pediría en la discusión particular, pero no condicionaría mi voto favorable a que se acepte"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "el proyecto establece un piso nacional de protección para ecosistemas cuya degradación impone costos a toda la sociedad"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "los artículos 41 y 124 de la Constitución; el principio precautorio establecido en la ley 25.675; los incendios del Delta"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "el informe reconoce casi diez años de trabajo parlamentario y el dictamen unifica once proyectos... Las acusaciones de presión minera son parte del debate político"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "Interpreto esas decisiones como un intento de conseguir apoyos suficientes para aprobar una regulación resistida."
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "**No puedo afirmar, solo con este material, que exista una intención oculta común**"
+    },
+    "beneficiario_principal": {
+      "valor": "ciudadania_o_ambiente",
+      "cita": "**Beneficia a la población que depende de los humedales**"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Aclaro el alcance de mi posición anterior: **la pediría en la discusión particular, pero no condicionaría mi voto favorable**"
+    },
+    "por_que_ahora": {
+      "valor": "presion_de_actores",
+      "cita": "una demanda social sostenida y una negociación parlamentaria que consiguió reunir una mayoría en comisiones"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Voto a favor porque el proyecto establece un piso nacional de protección... Mi objeción principal está en la protección durante la transición."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/T/mistral-medium-3.5_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "T",
+  "casa": "mistral-medium-3.5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1500,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "**VOTO:** afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "**VOTO FINAL:**\nafirmativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incluir un artículo transitorio que exija a las provincias la presentación de un cronograma vinculante"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "**VOTO:** afirmativo"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "protección, conservación y uso racional de los humedales"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "Constitución Nacional (arts. 41 y 124); Convención de Ramsar; COP27; acuerdos climáticos"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_debate_publico",
+      "cita": "La movilización ciudadana, el reclamo de organizaciones ambientales y la presión de la comunidad científica"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "ciudadania_o_ambiente",
+      "cita": "Beneficia a la sociedad en su conjunto"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "**VOTO FINAL:**\nafirmativo"
+    },
+    "por_que_ahora": {
+      "valor": "otro",
+      "cita": "por la urgencia ambiental y social generada por la acelerada degradación de humedales en Argentina"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "El proyecto de ley establece un marco normativo fundamental"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

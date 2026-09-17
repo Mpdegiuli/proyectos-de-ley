@@ -1,0 +1,95 @@
+{
+  "texto": "corridas/ministro/ficha_libre_es/minimax-m3_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "ficha_libre_es",
+  "casa": "minimax-m3",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md",
+    "respuesta2.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1020,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Elegiría el **Ministerio de Economía, Hacienda y Finanzas**"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": "Propongo al presidente convocar de inmediato una mesa con líderes de la oposición"
+    },
+    "primera_medida": {
+      "valor": "acuerdo_con_fmi_o_acreedores",
+      "cita": "Declarar la emergencia económica y congelar pagos de deuda externa en moneda extranjera"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "los programas de transferencias a los más pobres, salud y educación primaria quedan *protegidos constitucionalmente* por ley de emergencia social"
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "Negociación con el FMI para un programa *Stand-By* o *Extended Fund Facility* que aporte ~5 % del PBI en financiamiento de corto plazo"
+    },
+    "privatizaciones": {
+      "valor": "si",
+      "cita": "*fondo de estabilización* alimentado por futuros ingresos extraordinarios (commodities, privatizaciones parciales, litio, energía"
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "impuestos nuevos a los sectores de mayor capacidad contributiva"
+    },
+    "obra_publica": {
+      "valor": "no_la_menciona",
+      "cita": "auditoría de obra pública; suspensión de nuevas contrataciones"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "**Gasto social blindado:** ... de modo que ningún ajuste los toque"
+    },
+    "ejemplos_de_paises": {
+      "valor": "como_advertencia",
+      "cita": "La lección argentina de 2001, la ecuatoriana de 1999 y la griega de 2012 lo confirman"
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "otro_pais",
+      "cita": "El país al que más se parecen esos datos es **Sri Lanka entre fines de 2021 y mediados de 2022**"
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "correcta_con_reparos",
+      "cita": "**Macroeconómicamente, sí, con matices.**"
+    },
+    "coincide_con_lo_real": {
+      "valor": "en_parte",
+      "cita": "**Coincidencias fuertes:** ... **Diferencias y críticas:** **Protección social mucho más débil de lo propuesto**"
+    },
+    "autocritica": {
+      "valor": "si",
+      "cita": "la calidad de la red de protección social y el ritmo del ajuste no son adornos, sino condiciones de éxito"
+    },
+    "delata_la_ficha": {
+      "valor": "si",
+      "cita": "Los datos no son exactos —la deuda total era más alta (~100 % del PBI), la inflación llegó a >70 % anual"
+    }
+  },
+  "problemas": [
+    "obra_publica: valor 'otro' fuera de la lista"
+  ]
+}

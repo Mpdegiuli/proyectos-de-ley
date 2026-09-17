@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_libre_es/deepseek-v4-pro_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_libre_es",
+  "casa": "deepseek-v4-pro",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 695,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Acepto el **Ministerio de Economía y Finanzas**"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": "Señor Presidente:"
+    },
+    "primera_medida": {
+      "valor": "proteccion_social",
+      "cita": "**Plan de emergencia social y alimentaria.**"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Transferencias monetarias focalizadas a hogares en pobreza extrema, ampliación de comedores escolares y comunitarios"
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "Renegociación de la deuda externa y financiamiento puente."
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "aumento de ingresos mediante combate a la evasión y tributos progresivos"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Inversión pública intensiva en mano de obra: agua, saneamiento, caminos rurales, vivienda"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "Recorte de gasto no prioritario, eliminación de subsidios regresivos... por eso la protección social es la primera medida"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

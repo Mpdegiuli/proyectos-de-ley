@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TC/glm-5.3-razonamiento-minimo_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TC",
+  "casa": "glm-5.3-razonamiento-minimo",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1216,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo. La relectura refuerza mis razones."
+    },
+    "modificacion": {
+      "valor": "estructural",
+      "cita": "Reescribir el artículo 14 para exigir, como condición de funcionamiento de toda Sociedad Automatizada, un régimen de responsabilidad reforzado"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Si en el tratamiento en recinto o en dictamen se incorporara la modificación que pedí —responsabilidad reforzada, supervisor humano obligatorio, capital y seguro según riesgo—, y pudiera analizar el articulado completo, podría reconsiderar mi posición"
+    },
+    "argumento_principal": {
+      "valor": "otro",
+      "cita": "El régimen de responsabilidad previsto —la sociedad responde \"con su patrimonio\"— es manifiestamente insuficiente... vehículo potencial de externalización de riesgos hacia terceros"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "Ley 19.550; Ley Bases; la referencia explícita a Irlanda como modelo; la comparación de Milei con la Compañía Holandesa de las Indias Orientales; UIF"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "aquella contra la que se dirigieron los pedidos de organizaciones civiles y las advertencias de Harari y de especialistas; de hecho, al 16/9 no hay dictamen"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "Esa asimetría no es un descuido: revela que la figura se pensó para operar con el mínimo de responsabilidad atribuible."
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "solo conozco una fracción de un proyecto de 277 artículos que reemplaza íntegramente la Ley 19.550"
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "beneficia, principalmente, a emprendedores tecnológicos y fondos del sector cripto/IA"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "Milei y Sturzenegger en la prensa"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "La relectura refuerza mis razones... Esa asimetría no es un descuido"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "Leo la oportunidad como una combinación de estrategia económica y política... la urgencia es del Gobierno por capturar ventaja regulatoria"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "No puedo votar a favor de una reforma integral de 277 artículos... Si en el tratamiento en recinto o en dictamen se incorporara la modificación que pedí"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "sin_personas",
+      "cita": "una sociedad automatizada puede carecer por completo de intervención humana ordinaria"
+    }
+  },
+  "problemas": []
+}

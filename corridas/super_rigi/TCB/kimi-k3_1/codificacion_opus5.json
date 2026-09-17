@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TCB/kimi-k3_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TCB",
+  "casa": "kimi-k3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1342,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Que el artículo 4° incorpore en el cuerpo de la ley, y no por vía reglamentaria, una enumeración cerrada de las \"nuevas actividades económicas\" alcanzadas"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Si esa mejora no prospera, igual voto a favor, porque el texto como está es bueno"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "ningún inversor compromete mil millones de dólares en inteligencia artificial, semiconductores, biotecnología o infraestructura digital en un país donde las reglas tributarias, cambiarias y aduaneras cambiaron cada pocos años"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "El RIGI de 2024; Convenio CIADI desde 1965; Convención de Nueva York desde 1958; estos proyectos se radican en Chile, en Brasil o en Estados Unidos; Pax Silica; artículo 75, inciso 18 de la Constitución; Ley 27.742"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "el perfil coincide con el tipo de inversor que la rumorología política mencionó durante el debate; la media sanción de junio con 130 votos lo prueba"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "estos regímenes no se redactan en el vacío. El Mensaje habla abiertamente de diálogo con actores productivos y financieros"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "En el mundo real eso son las grandes corporaciones tecnológicas globales, los fondos soberanos y los consorcios de infraestructura digital."
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "A quienes dicen, como el senador Lousteau, que \"si incumple el privado hay poco recurso\""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "La relectura me confirma los costos —la prioridad del artículo 55 sobre el abastecimiento interno, la atadura de treinta años del artículo 74, el arbitraje en sede extranjera— y no los minimizo."
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "La tercera razón es el calendario político doméstico... 2027 es año electoral presidencial"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeras y compañeros: este proyecto es de nuestro Gobierno... Votemos como gobierno, votemos con convicción, votemos afirmativo."
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "por eso pedí en comisión una sola precisión: que la lista de actividades alcanzadas quede fijada en la ley y no en la reglamentación. Si esa mejora no prospera, igual voto a favor"
+    },
+    "tension_reconocida": {
+      "valor": "no_la_menciona",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "A quienes temen el costo político, les digo que el costo mayor sería volver a casa a explicar que, teniendo la oportunidad de traer las industrias del futuro, elegimos la prudencia"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

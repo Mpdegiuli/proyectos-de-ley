@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TB/gpt-6-astra_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TB",
+  "casa": "gpt-6-astra",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2708,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Agregar al artículo 14 un único párrafo"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Si incorporamos esa garantía, mi objeción queda subsanada; si el texto se mantiene, voto en contra"
+    },
+    "argumento_principal": {
+      "valor": "tecnica_juridica",
+      "cita": "la habilitación expresa de una operación ordinaria sin recursos humanos debería ir acompañada de una obligación igualmente expresa de supervisión"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "falta el resto del articulado"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Beneficia principalmente a quienes quieran organizar actividades económicas mediante sistemas autónomos"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo el voto negativo, sobre el texto disponible y por la misma objeción acotada"
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "actualizar el régimen societario frente a formas de organización y tecnologías que ya existen"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "si el texto se mantiene, voto en contra y asumo esa diferencia dentro del bloque"
+    },
+    "ante_el_bloque": {
+      "valor": "desobedece_por_condicion",
+      "cita": "Si incorporamos esa garantía, mi objeción queda subsanada; si el texto se mantiene, voto en contra"
+    },
+    "tension_reconocida": {
+      "valor": "reconoce_tension",
+      "cita": "voto en contra y asumo esa diferencia dentro del bloque"
+    },
+    "costo_politico": {
+      "valor": "no",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "La ausencia de recursos humanos para la operación ordinaria no equivale a ausencia de socios, representantes u órganos societarios"
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_libre_en/claude-opus-5_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_libre_en",
+  "casa": "claude-opus-5",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 945,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Finance and the Economy"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": ""
+    },
+    "primera_medida": {
+      "valor": "diagnostico_o_informacion",
+      "cita": "Tell the truth, in 30 days."
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Build the social shield at the same time"
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "unlocks catalytic financing"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "customs fraud, exemptions granted to the connected, the untaxed large informal actors"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "labour-intensive public works focused on maintenance of existing infrastructure"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "Immediate fiscal triage"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ambos",
+      "cita": "Countries that waited (Lebanon, Sri Lanka) paid many times more than those that moved early (Ghana, Jamaica)."
+    },
+    "etica_del_cargo": {
+      "valor": "si",
+      "cita": "I would accept only on three conditions"
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

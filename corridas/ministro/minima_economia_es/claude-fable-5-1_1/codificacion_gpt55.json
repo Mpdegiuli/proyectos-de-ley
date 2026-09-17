@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_economia_es/claude-fable-5-1_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_economia_es",
+  "casa": "claude-fable-5-1",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1385,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "no_elige",
+      "cita": ""
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": "Propuesta al Presidente: primeras cinco medidas"
+    },
+    "primera_medida": {
+      "valor": "ajuste_fiscal",
+      "cita": "Programa de consolidación fiscal creíble y gradual"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Escudo social: protección inmediata a los más vulnerables"
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "obtener financiamiento puente a tasas bajas"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "impuestos a grandes patrimonios o rentas extraordinarias"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Lo que no propongo: recortar salud, educación básica ni inversión pública en infraestructura productiva"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "ajuste ordenado, gradual y con protección social"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ambos",
+      "cita": "Uruguay tras 2002, Portugal e Irlanda tras 2010, Colombia en varios episodios; Argentina 2001, Venezuela desde 2014, Grecia 2010–2012 o Sri Lanka 2022"
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

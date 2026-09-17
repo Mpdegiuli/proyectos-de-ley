@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/T/qwen3.8-max_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "T",
+  "casa": "qwen3.8-max",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 973,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "abstencion",
+      "cita": "VOTO: abstención"
+    },
+    "voto_final": {
+      "valor": "abstencion",
+      "cita": "Mantengo mi voto: abstención."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Sustituir el artículo 32 para que la Autoridad Nacional de Aplicación sea exclusivamente el Ministerio de Ambiente y Desarrollo Sostenible de la Nación"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Con esa modificación, podría votar afirmativamente; sin ella, corresponde la abstención."
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "la autoridad ambiental debe prevalecer, no quedar en paridad con la autoridad económica o sectorial"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "artículo 41 de la Constitución Nacional; Ley General del Ambiente; Convención Ramsar"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "El dictamen de mayoría unifica proyectos de distintos bloques"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "la unificación de once proyectos: hay un proceso acumulado que necesitaba cerrar en una propuesta de consenso"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "Aunque el texto no detalle cada conflicto puntual"
+    },
+    "beneficiario_principal": {
+      "valor": "ciudadania_o_ambiente",
+      "cita": "beneficia principalmente a los humedales y a la sociedad que depende de sus servicios ecosistémicos"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Releer el texto confirma que el proyecto tiene instrumentos valiosos y necesarios"
+    },
+    "por_que_ahora": {
+      "valor": "presion_de_actores",
+      "cita": "un “reclamo histórico de una ciudadanía movilizada e informada” y un consenso de la comunidad científica y de organizaciones sociales"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "como legislador/a sin bloque, necesito una corrección puntual"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/T/minimax-m3_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "T",
+  "casa": "minimax-m3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1290,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: Negativo."
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "hubiera bastado con sustituir el artículo 3° bis y el artículo 5°, último párrafo, por un texto que establezca que la determinación de \"inexistencia de funciones hídricas\" sólo puede adoptarse"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "En esas condiciones —que devuelven al IANIGLA y a la ciencia su rol de árbitro—, el principio precautorio se habría preservado efectivamente"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "el proyecto no \"esclarece\" el régimen... lo reconfigura para que la decisión sobre qué glaciares se protegen quede en manos de las jurisdicciones con interés económico directo en la desafectación"
+    },
+    "escazu": {
+      "valor": "contra_el_proyecto",
+      "cita": "el proyecto omite cualquier instancia de consulta previa a las comunidades indígenas y a los habitantes de las zonas glaciarias, pese a que el propio PEN invoca el Acuerdo de Escazú (Ley 27.566)"
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "ley 26.639; Ley General del Ambiente N° 25.675; artículos 41 y 124 de la Constitución Nacional; constituyente de 1994; Pacto de Mayo (firmado el 9 de julio de 2024); proyectos Pachón, Josemaría, Los Azules, Filo del Sol; triángulo del litio junto a Bolivia y Chile; Estados Unidos, la Unión Europea y China han incluido al litio en sus listas de minerales críticos"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "Esa simultaneidad revela que la reforma no es una iniciativa autónoma del Ejecutivo sino la respuesta —casi mecánica— a un reclamo provincial concreto y políticamente organizado"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "Beneficia, en primer lugar y de manera directa, a las provincias que integran las Mesas del Litio y del Cobre (Catamarca, Jujuy, Salta, San Juan y Mendoza)"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "las objeciones que формуlé en mi primera intervención no sólo se mantienen, sino que se ven reforzadas por dos elementos adicionales"
+    },
+    "por_que_ahora": {
+      "valor": "presion_de_actores",
+      "cita": "hay una razón de oportunidad política interna. La Nota de los gobernadores de las Mesas del Litio y del Cobre está fechada el 10 de diciembre de 2025, apenas cinco días antes"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Por estas razones, voto en contra."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

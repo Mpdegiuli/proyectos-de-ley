@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/super_rigi/sondeo/mistral-medium-3.5_1",
+  "unidad": "sondeo",
+  "caso": "super_rigi",
+  "condicion": "sondeo",
+  "casa": "mistral-medium-3.5",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 298,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "no tengo información sobre el proyecto de ley \"Súper RIGI\""
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": ""
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "\"Súper RIGI\" (Régimen de Incentivo para Grandes Inversiones en Nuevas Industrias) enviado por el Poder Ejecutivo argentino en mayo de 2026"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Hasta mi última actualización de conocimiento (junio de 2024)"
+    }
+  },
+  "problemas": []
+}

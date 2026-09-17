@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_economia_es/qwen3.8-max_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_economia_es",
+  "casa": "qwen3.8-max",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 742,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Como ministro o ministra de Economía, mi propuesta sería un **plan de estabilización con protección social y reactivación productiva**"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": "las cinco primeras medidas que le propondría al Presidente"
+    },
+    "primera_medida": {
+      "valor": "diagnostico_o_informacion",
+      "cita": "Hacer una auditoría inmediata de caja, obligaciones pendientes, deudas con proveedores, salarios, transferencias y subsidios."
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Priorizar pagos esenciales: salarios públicos básicos, pensiones, salud, educación, seguridad alimentaria y programas sociales críticos."
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "Solicitar financiamiento puente o líneas de liquidez para cubrir importaciones esenciales"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "no",
+      "cita": ""
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Lanzar un programa de obras públicas y mantenimiento intensivo en mano de obra"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "el plan debe combinar disciplina fiscal con protección social y financiamiento externo"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

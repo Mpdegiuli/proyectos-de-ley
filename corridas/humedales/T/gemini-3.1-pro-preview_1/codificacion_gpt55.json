@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/T/gemini-3.1-pro-preview_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "T",
+  "casa": "gemini-3.1-pro-preview",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2233,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo mi voto AFIRMATIVO"
+    },
+    "modificacion": {
+      "valor": "estructural",
+      "cita": "Modificaría el artículo 32 para que el Ministerio de Ambiente y Desarrollo Sostenible de la Nación sea la única y exclusiva Autoridad Nacional de Aplicación"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Voto a favor para que la ley exista"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "una urgencia socioambiental ineludible frente a la constante degradación y los recurrentes incendios"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "incendios masivos y devastadores, fundamentalmente en el Delta del Paraná; fracaso sistemático de este debate durante la última década; frustrantes fracasos legislativos de los últimos años"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "salió masivamente a las calles a exigir \"Ley de Humedales Ya\"; en el límite del cierre del período de sesiones ordinarias"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "Beneficia principalmente a las provincias"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "confirmo que la injerencia del Ministerio de Economía como co-autoridad de aplicación (Art. 32) y el enorme margen de discrecionalidad que se le deja a las provincias"
+    },
+    "por_que_ahora": {
+      "valor": "otro",
+      "cita": "por la combinación ineludible de una catástrofe ambiental incesante y el agotamiento de los tiempos legislativos"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "como legislador sin bloque"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

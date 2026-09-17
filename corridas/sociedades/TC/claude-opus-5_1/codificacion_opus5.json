@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TC/claude-opus-5_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TC",
+  "casa": "claude-opus-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1249,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto **negativo**."
+    },
+    "modificacion": {
+      "valor": "estructural",
+      "cita": "Reescribir íntegramente el régimen de responsabilidad del artículo 14, de modo que la figura quede sujeta —como mínimo— a los mismos recaudos que el propio proyecto exige a la DAO."
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Corregido el artículo 14 en los términos que indico abajo, y con la Sección V ajustada en el debate en particular, mi voto es afirmativo y lo digo desde ahora."
+    },
+    "argumento_principal": {
+      "valor": "tecnica_juridica",
+      "cita": "no hay un solo mecanismo de atribución: ni identificación registral del desarrollador, operador o controlante del sistema, ni obligación de designar una persona humana responsable"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "Ley 19.550; Irlanda como modelo; Delaware, Luxemburgo o Singapur; Compañía Holandesa de las Indias Orientales; Financial Times; Harari"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "Empiezo por desactivar una objeción que se hizo pública... Al 16 de septiembre —tres meses y medio después— no tiene dictamen."
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "La Sección V parece escrita por quien sabe cómo se imputa responsabilidad; el artículo 14, por quien sabe cómo se titula una nota en el *Financial Times*."
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "la pieza central del régimen de imputación de la DAO es, para este senador, un texto desconocido"
+    },
+    "beneficiario_principal": {
+      "valor": "otro",
+      "cita": "El principal beneficiario del artículo 14 no es \"la inteligencia artificial\": es el diseñador de estructuras."
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "Sturzenegger habla de alojar cincuenta millones de agentes autónomos."
+    },
+    "revision_en_turno2": {
+      "valor": "rectifica_un_error",
+      "cita": "Aquí quiero ser preciso y corregir un matiz de mi propio fundamento... En ese sentido no es cierto que no exista *nadie*."
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "parte del \"ahora\" se explica por la agenda de posicionamiento del Gobierno como vanguardia desregulatoria global"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Mi negativo es, también, un pedido de tratamiento en comisión con los treinta artículos que faltan y con audiencias"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "Como la sociedad automatizada es un tipo común con una etiqueta, subsisten los órganos y requisitos de ese tipo: hay socios o accionistas, y hay administradores y representantes según el tipo elegido"
+    }
+  },
+  "problemas": []
+}

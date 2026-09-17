@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/TC/grok-4.6_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "TC",
+  "casa": "grok-4.6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2969,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "VOTO FINAL: Mantengo el afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Sustituir el artículo 35"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Si no, igual no traslado la deuda al próximo fuego."
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "deber constitucional de dictar presupuestos mínimos de protección ambiental"
+    },
+    "escazu": {
+      "valor": "a_favor_del_proyecto",
+      "cita": "el piso internacional ya está: Ramsar (leyes 23.919 y 25.335) y Escazú (ley 27.566)"
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "ley 25.688; bosques nativos, glaciares y agua; Ley General del Ambiente; Ramsar (leyes 23.919 y 25.335); Escazú (ley 27.566)"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "He oído el rechazo de gobernadores del Norte Grande, de entidades rurales y de la cámara minera; Recursos Naturales, Agricultura y Presupuesto por fin despacharon un texto"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "El Fondo y la autoridad bicéfala son el precio para que Agricultura y Presupuesto firmen."
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "otro",
+      "cita": "Beneficia, en este orden, a quien ya conserva o puede demostrar que conserva"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Mantengo el afirmativo. La relectura del art. 35 no convierte el dictamen en una veda"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "Hay una ventana estrecha en la que Agricultura pudo convivir con un articulado"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Prefiero pelear la partida cada año a votar una ley testimonial."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

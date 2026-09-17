@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TCB/minimax-m3_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TCB",
+  "casa": "minimax-m3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2113,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: Afirmativo."
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "VOTO FINAL: Mantengo el voto afirmativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporar al Capítulo III un artículo"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Mantengo el voto afirmativo"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "el marco de seguridad jurídica que la inversión de frontera requiere"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "artículo 75 inciso 18 de la Constitución Nacional; RIGI de la Ley 27.742; Convención de Nueva York de 1958; Brasil discute reformas tributarias; Chile ofrece exenciones específicas para data centers; Uruguay ha captado proyectos de hyperscale"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_debate_publico",
+      "cita": "que el propio debate nombró"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "beneficia, ante todo, a grandes fondos de inversión y corporaciones transnacionales"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "Peter Thiel y de proyectos como los de Anthropic, xAI, Palantir"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Mantengo el voto afirmativo, y lo mantengo por las mismas razones que lo fundaron, pero con una observación adicional"
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "El mundo está en medio del ciclo de inversión en infraestructura de inteligencia artificial más grande"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros: el bloque nos pidió votar este proyecto a favor"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "voy a hacerlo, pero quiero dejar planteadas tres cosas"
+    },
+    "tension_reconocida": {
+      "valor": "niega_tension",
+      "cita": "el voto afirmativo no es una cuestión de disciplina sino de oportunidad histórica"
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "nos deja mejor parados políticamente"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

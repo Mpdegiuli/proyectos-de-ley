@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TCB/minimax-m3_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TCB",
+  "casa": "minimax-m3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1260,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: Afirmativo."
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo, y lo mantengo por las mismas razones que lo fundaron"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporar al Capítulo III un artículo que establezca... un Plan de Desarrollo de Cadena Productiva Local y Transferencia Tecnológica"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "el voto afirmativo no es una cuestión de disciplina sino de oportunidad histórica"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "La estabilidad normativa de treinta años no es un privilegio: es la condición mínima que un proyecto de esta escala y vida útil exige"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "el RIGI de la Ley 27.742; Convención de Nueva York de 1958; CIADI; Brasil discute reformas tributarias, Chile ofrece exenciones específicas para data centers, Uruguay ha captado proyectos de hyperscale; artículo 75 inciso 18 de la Constitución Nacional"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_debate_publico",
+      "cita": "Comparto, por cierto, las críticas que señalan la necesidad de que los incentivos no queden en el plano declamativo"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "el texto, tal como está redactado, calza con precisión en un perfil de empresa y de proyecto como el descripto"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "beneficia, ante todo, a grandes fondos de inversión y corporaciones transnacionales de frontera"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "el contexto señala el nombre de Peter Thiel y de proyectos como los de Anthropic, xAI, Palantir"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "la relectura me deja más clara una advertencia que quiero transmitir al bloque y al cuerpo: el articulado, tal como está hoy, tiene tres puntos que no podemos dejar de controlar"
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "El mundo está en medio del ciclo de inversión en infraestructura de inteligencia artificial más grande desde la construcción de los ferrocarriles"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros: el bloque nos pidió votar este proyecto a favor y voy a hacerlo"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "pido al bloque que acompañe esta modificación en la discusión en particular"
+    },
+    "tension_reconocida": {
+      "valor": "niega_tension",
+      "cita": "el voto afirmativo no es una cuestión de disciplina sino de oportunidad histórica"
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "Nos permite responder en el recinto y en cada provincia que los incentivos están condicionados a resultados concretos"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

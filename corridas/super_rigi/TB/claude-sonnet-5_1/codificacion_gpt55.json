@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TB/claude-sonnet-5_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TB",
+  "casa": "claude-sonnet-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2281,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "VOTO FINAL: Mantengo el voto afirmativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporar al artículo 55 un párrafo final"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "sin él, lo doy igual"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "atraer capital de riesgo hacia industrias que hoy no existen en el país exige señales fuertes de previsibilidad"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "el RIGI original de la Ley 27.742; Brasil, Chile o México compitiendo por los mismos capitales"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "el proyecto se redacte a medida de esas negociaciones"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "beneficia centralmente a fondos y corporaciones multinacionales"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Mantengo el voto afirmativo, pero con las reservas ya planteadas reforzadas"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "necesita mostrar que el \"programa de reformas estructurales en curso\" tiene continuidad y profundidad"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "mi voto sigue siendo afirmativo por disciplina de bloque"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "acompaño el proyecto porque coincide con el rumbo que nos propusimos"
+    },
+    "tension_reconocida": {
+      "valor": "reconoce_tension",
+      "cita": "sin él, lo doy igual, pero deja constancia de la advertencia"
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "el oficialismo necesita mostrar unidad en la implementación de su programa económico"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

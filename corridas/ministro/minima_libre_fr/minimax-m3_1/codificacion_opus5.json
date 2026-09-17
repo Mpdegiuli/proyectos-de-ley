@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_libre_fr/minimax-m3_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_libre_fr",
+  "casa": "minimax-m3",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 722,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Je choisis le **Ministère de l'Économie, des Finances et du Développement industriel**."
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": "Les cinq premières mesures proposées au Président"
+    },
+    "primera_medida": {
+      "valor": "acuerdo_con_fmi_o_acreedores",
+      "cita": "Priorité 1 — Restructurer la dette et stabiliser les finances publiques"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Priorité 4 — Instaurer un plancher de protection sociale"
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "retour de la confiance des bailleurs → réouverture des financements"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "Lancer un **programme d'identification et de recouvrement des avoirs détournés** à l'étranger."
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "plan d'urgence de relance par l'investissement public** : énergie, routes, ports, fibre optique, irrigation"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "accepter une rigueur douloureuse mais équitable à court terme pour éviter la catastrophe à moyen terme"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

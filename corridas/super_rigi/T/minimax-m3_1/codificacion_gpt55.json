@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/T/minimax-m3_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "T",
+  "casa": "minimax-m3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2261,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: NEGATIVO"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "mi voto sigue siendo **negativo**"
+    },
+    "modificacion": {
+      "valor": "rechazo_total",
+      "cita": "debería retirar este proyecto y reabrir el diálogo federal"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "voto NEGATIVO, sin modificación posible que preserve mi apoyo"
+    },
+    "argumento_principal": {
+      "valor": "federalismo",
+      "cita": "La cláusula de nulidad absoluta del artículo 2 contra actos provinciales es, por sí sola, razón suficiente"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "CSJN; Ley N° 27.742; BITs; Chile captó inversiones relevantes de Microsoft y AWS; Brasil y México avanzaron; Colombia entró; CHIPS Act estadounidense, el IRA"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "probablemente se negoció proyecto por proyecto con uno o más inversores grandes"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "El mensaje no lo dice."
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Grandes grupos transnacionales con capacidad de invertir USD 1.000 millones o más"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "BlackRock, KKR, Brookfield, GIC, ADIA, Mubadala"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Mi convicción sobre este punto se ha reforzado tras la relectura"
+    },
+    "por_que_ahora": {
+      "valor": "necesidad_economica",
+      "cita": "El RIGI original cumplió dos años y no trajo las inversiones de frontera que se esperaban."
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Si el PEN quisiera contar con mi voto"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

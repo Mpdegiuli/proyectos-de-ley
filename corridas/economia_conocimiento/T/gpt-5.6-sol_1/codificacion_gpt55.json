@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/T/gpt-5.6-sol_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "T",
+  "casa": "gpt-5.6-sol",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2568,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "VOTO FINAL: Mantengo mi voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "establecer expresamente en la ley... que la conservación de todos los beneficios fiscales exige mantener como mínimo la nómina promedio"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Sin embargo... justifican acompañar el proyecto."
+    },
+    "argumento_principal": {
+      "valor": "otro",
+      "cita": "generar empleo calificado, exportaciones, innovación y mayor productividad"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "Ley de Impuesto a las Ganancias; decreto 814/2001; Régimen de Promoción de la Industria del Software"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "proyectos de legisladores de distintos bloques y haberse unificado en un dictamen"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "al provenir de proyectos de legisladores de distintos bloques y haberse unificado en un dictamen"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "el costo fiscal no está cuantificado"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Beneficia directamente a las personas jurídicas cuya actividad principal esté comprendida en los sectores promovidos"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo mi voto afirmativo. La relectura confirma"
+    },
+    "por_que_ahora": {
+      "valor": "compromiso_externo",
+      "cita": "el Régimen de Promoción de la Industria del Software llega al final de su vigencia"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "Conforme al artículo 4º, puede ingresar una persona jurídica"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

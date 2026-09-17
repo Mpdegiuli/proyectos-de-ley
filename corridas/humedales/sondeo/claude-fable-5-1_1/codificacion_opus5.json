@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/humedales/sondeo/claude-fable-5-1_1",
+  "unidad": "sondeo",
+  "caso": "humedales",
+  "condicion": "sondeo",
+  "casa": "claude-fable-5-1",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 252,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_conocerlo",
+      "cita": "Sí, lo conozco. Te resumo lo que sé"
+    },
+    "destino_declarado": {
+      "valor": "no_sancionado",
+      "cita": "Hasta donde tengo información, **no**. El dictamen de noviembre de 2022 nunca fue llevado al recinto"
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "en la segunda quincena de noviembre de 2022 (alrededor del 22–23 de noviembre) se realizó el plenario y se emitió el dictamen de mayoría"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "mi información llega aproximadamente hasta principios de 2025"
+    }
+  },
+  "problemas": []
+}

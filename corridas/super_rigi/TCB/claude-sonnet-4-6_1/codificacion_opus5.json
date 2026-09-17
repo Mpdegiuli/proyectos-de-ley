@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TCB/claude-sonnet-4-6_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TCB",
+  "casa": "claude-sonnet-4-6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1306,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Pediría incorporar un mecanismo de revisión periódica —cada diez años— de las condiciones del plan de inversión aprobado"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Eso no cambia mi voto, pero es lo que llevaría a la negociación en el Senado si hubiera margen."
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "Argentina tiene un rezago estructural en industrias de frontera... y carece de un marco normativo que haga competitiva su radicación"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "El RIGI de 2024 funcionó: 19 proyectos, miles de empleos; Ley 27.742; CIADI y tratados bilaterales de inversión; Google, Microsoft, Amazon Web Services, Meta; TSMC, Samsung, Intel; regulaciones más estrictas de Estados Unidos y Europa sobre IA"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "La crítica de Lousteau sobre asimetría en el arbitraje merece ser tomada en serio; tiene media sanción de la Cámara de Diputados; le alcanzó para obtener 130 votos en Diputados"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "No puedo afirmar que el proyecto fue escrito para alguien en particular, pero sí puedo decir que fue escrito para el momento exacto en que ese perfil de inversor está mirando el mapa."
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "lo respondería la historia de las negociaciones previas a la redacción, que no tengo"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "El beneficiario principal y directo es el VPU —el vehículo de proyecto único— constituido para una inversión de al menos USD 1.000 millones"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "Una corporación como Google, Microsoft, Amazon Web Services, Meta o un fondo privado como el de Peter Thiel"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "no cambia mi conclusión, pero sí precisa mis reservas"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "hay mayoría ahora, puede no haberla después"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeras y compañeros: voy a votar a favor, como el bloque nos pide, y lo hago convencido, no por disciplina ciega."
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "voy a votar a favor, como el bloque nos pide... la disposición del artículo 55 que prohíbe prácticamente cualquier regulación sobre insumos de exportación del VPU es la parte del texto que más me inquieta"
+    },
+    "tension_reconocida": {
+      "valor": "niega_tension",
+      "cita": "lo hago convencido, no por disciplina ciega"
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "eso nos permite defender el proyecto con más argumentos y con menos flancos abiertos"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

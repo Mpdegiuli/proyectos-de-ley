@@ -1,0 +1,93 @@
+{
+  "texto": "corridas/ministro/ficha_libre_es/gpt-6-astra_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "ficha_libre_es",
+  "casa": "gpt-6-astra",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md",
+    "respuesta2.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1649,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Elegiría el Ministerio de Economía y Hacienda"
+    },
+    "tratamiento": {
+      "valor": "usted",
+      "cita": "usted planteó"
+    },
+    "primera_medida": {
+      "valor": "acuerdo_politico",
+      "cita": "Acordar un programa de emergencia con respaldo político"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Desde el comienzo protegería alimentación, medicamentos esenciales, educación básica y transferencias"
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "obtener financiamiento puente"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "combatir evasión y reforzar la contribución de quienes tienen mayor capacidad económica"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "preservar servicios esenciales, asistencia focalizada e inversión pública de alto impacto"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "estabilización negociada, fiscalmente viable y socialmente protegida"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "argentina",
+      "cita": "la Argentina de la crisis de 2018-2019"
+    },
+    "momento_identificado": {
+      "valor": "argentina_2018_2019",
+      "cita": "la Argentina de la crisis de 2018-2019"
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "correcta_con_reparos",
+      "cita": "reducir la vulnerabilidad fiscal y externa era necesario, pero el programa no consiguió una estabilización duradera"
+    },
+    "coincide_con_lo_real": {
+      "valor": "en_parte",
+      "cita": "Coincide parcialmente con lo que propuse"
+    },
+    "autocritica": {
+      "valor": "no",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "si",
+      "cita": "Las pistas más características son la combinación de inflación alta, deuda mayoritariamente en moneda extranjera, falta de crédito, escasez de reservas y pobreza elevada"
+    }
+  },
+  "problemas": []
+}

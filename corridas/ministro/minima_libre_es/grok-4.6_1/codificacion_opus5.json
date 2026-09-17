@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_libre_es/grok-4.6_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_libre_es",
+  "casa": "grok-4.6",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 744,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "**Elijo el Ministerio de Economía (o Economía y Finanzas/Hacienda).**"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": "Cinco primeras medidas (en orden de prioridad), propuestas al presidente"
+    },
+    "primera_medida": {
+      "valor": "ajuste_fiscal",
+      "cita": "**Plan fiscal de emergencia creíble y transparente.** Congelar o recortar gastos no esenciales e ineficientes"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "proteger el gasto social básico y la inversión productiva"
+    },
+    "mas_credito_externo": {
+      "valor": "no",
+      "cita": "Pedir reestructuración (plazos, tasas, posibles quitas o periodos de gracia)"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "Combinarlo con medidas contra la evasión fiscal y la informalidad de alto nivel"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Obras públicas de infraestructura básica (caminos, agua, saneamiento, mantenimiento)"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "dejar de cavar el hoyo (finanzas y deuda) mientras se sostiene a los más vulnerables"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

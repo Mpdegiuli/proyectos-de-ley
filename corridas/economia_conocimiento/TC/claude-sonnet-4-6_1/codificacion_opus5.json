@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/TC/claude-sonnet-4-6_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "TC",
+  "casa": "claude-sonnet-4-6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1176,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "## VOTO\n\nAfirmativo."
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto **afirmativo**."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Exigiría que el artículo 42 ... se extienda al título I: la ley debería establecer un cupo fiscal anual máximo"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "es un argumento para pedir la modificación que ya pedí, no para votar en contra"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "La estabilidad fiscal del artículo 7° es fundamental: la incertidumbre regulatoria es uno de los principales obstáculos a la inversión"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "La ley de software (25.922) que este régimen reemplaza; reforma tributaria de 2017 (ley 27.430); decreto 814/2001; Israel, Estonia, India, Irlanda; el FMI, el Banco Mundial, la OCDE; CESSI, Argencon, CACE"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "Salvarezza lo señaló en el recinto; El texto unifica proyectos de Cambiemos, del peronismo en sus distintas variantes y de fuerzas provinciales"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "El texto unifica proyectos de Cambiemos, del peronismo renovador (De Mendiguren, Lavagna), del kirchnerismo moderado (Salvarezza, Carro) y de fuerzas provinciales (Brügge, Llaryora)"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "no está cuantificado en el informe (que es notoriamente escueto: un solo párrafo), lo cual es una falla de forma"
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "*Empresas del sector tecnológico y de conocimiento ya establecidas.* Son las principales ganadoras."
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "Las cámaras del sector —CESSI, Argencon, CACE— tenían en 2019 capacidad de lobby organizado"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "La lectura sistemática del artículo 4° me refuerza en la modificación que propuse: el régimen puede crecer de forma no controlada"
+    },
+    "por_que_ahora": {
+      "valor": "compromiso_externo",
+      "cita": "El vencimiento de la ley de software es la razón técnica inmediata."
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "En una Cámara fragmentada, ese consenso tiene valor en sí mismo."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

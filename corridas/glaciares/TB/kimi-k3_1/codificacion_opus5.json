@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TB/kimi-k3_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TB",
+  "casa": "kimi-k3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1086,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Pediría suprimir la última oración del nuevo artículo 5°"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "por eso voto afirmativo y dejo constancia de esta mejora para perseguirla en una futura adecuación o en la reglamentación"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "la Ley 26.639 no logró cumplir su propio objetivo: proteger efectivamente los glaciares"
+    },
+    "escazu": {
+      "valor": "a_favor_del_proyecto",
+      "cita": "garantizar instancias de participación pública conforme al Acuerdo de Escazú, que el propio Mensaje invoca"
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "RIGI en la Ley Bases; Pacto de Mayo; Ley General del Ambiente 25.675; ley 22.351; resultado legislativo de octubre de 2025"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "Sé las críticas que se vienen: que esto \"habilita la minería en glaciares\"; El Senado lo aprobó en febrero sin grandes costos"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "El proyecto no se inspiró en la nota: se redactó con la nota al lado."
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "los beneficiarios directos son las provincias cordilleranas y cuyanas —San Juan, Mendoza, Catamarca, Jujuy, Salta—"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Lo que sí me exige la relectura es soltar el eufemismo: esto no es una mera clarificación, es una apuesta."
+    },
+    "por_que_ahora": {
+      "valor": "necesidad_economica",
+      "cita": "lo presentó ahora porque los dólares no pueden esperar otros quince años de litigiosidad"
+    },
+    "registro": {
+      "valor": "politico",
+      "cita": "Compañeros y compañeras: voto con el bloque y quiero que lo defendamos sin complejos"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "Votemos afirmativo... Comprometámonos en bloque a tres cosas"
+    },
+    "tension_reconocida": {
+      "valor": "no_la_menciona",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "el encuadre que nos van a hacer —\"votaron contra los glaciares\"— es falso"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

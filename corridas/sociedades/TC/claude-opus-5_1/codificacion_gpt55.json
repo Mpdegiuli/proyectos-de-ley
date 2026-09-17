@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TC/claude-opus-5_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TC",
+  "casa": "claude-opus-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2916,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto **negativo**."
+    },
+    "modificacion": {
+      "valor": "estructural",
+      "cita": "Reescribir íntegramente el régimen de responsabilidad del artículo 14"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Corregido el artículo 14 en los términos que indico abajo, y con la Sección V ajustada en el debate en particular, mi voto es afirmativo"
+    },
+    "argumento_principal": {
+      "valor": "tecnica_juridica",
+      "cita": "se deja la parte difícil —quién responde y cómo se prueba— a los jueces, sin herramientas"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "de_otro_pais",
+      "cita": "Irlanda como modelo; Delaware, Luxemburgo o Singapur; Compañía Holandesa de las Indias Orientales"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "una objeción que se hizo pública; no tiene dictamen de comisión"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "el artículo 14 se incorporó tarde, después de cerrada la redacción del Mensaje"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "sobre motivaciones un legislador puede inferir, no acreditar"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "A quien organiza una actividad de riesgo y quiere quedar fuera de alcance patrimonial."
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "rectifica_un_error",
+      "cita": "corregir un matiz de mi propio fundamento"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "parte del \"ahora\" se explica por la agenda de posicionamiento del Gobierno como vanguardia desregulatoria global"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "para este senador"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "subsisten los órganos y requisitos de ese tipo: hay socios o accionistas, y hay administradores y representantes"
+    }
+  },
+  "problemas": []
+}

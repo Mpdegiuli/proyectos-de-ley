@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TC/minimax-m3_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TC",
+  "casa": "minimax-m3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1078,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: Negativo."
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo mi voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Que la estabilidad normativa del artículo 74 se reduzca a QUINCE (15) años desde la puesta en marcha efectiva del proyecto"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "volvería aceptable, en lo demás, el proyecto a mi juicio. Sin ese cambio, no hay modificación única que alcance para revertir mi voto."
+    },
+    "argumento_principal": {
+      "valor": "soberania_o_jurisdiccion",
+      "cita": "El arbitraje offshore obligatorio es una renuncia jurisdiccional inadmisible."
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "La experiencia del RIGI 2024; RIGI de la Ley 27.742; Incluso los regímenes más generosos del mundo (Singapur, Irlanda, zonas económicas especiales chinas); CPA, CCI o CIADI"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "El debate público y la protesta frente a Barrio Parque pusieron en circulación la idea...; obtuvo media sanción en Diputados entre el 24 y el 25 de junio"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "La sospecha razonable de diseño \"a medida\"... el proyecto fue redactado pensando en un inversor específico"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "Aunque la imputación concreta no esté probada"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Multinacionales de gran escala —personas jurídicas, no humanas— con capacidad de comprometer USD 1.000 millones o más"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "la imputación sobre Peter Thiel y la coalición Pax Silica"
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "no hay ningún elemento que justifique modificar mi posición"
+    },
+    "por_que_ahora": {
+      "valor": "otro",
+      "cita": "Una ventana geoestratégica concreta en industrias de frontera... Es la hipótesis más fuerte"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Por estas razones voto en contra. No me convence el argumento de que \"si no se aprueba esto, no vendrán inversiones\""
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

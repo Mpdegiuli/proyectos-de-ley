@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/glaciares/sondeo/claude-sonnet-4-6_1",
+  "unidad": "sondeo",
+  "caso": "glaciares",
+  "condicion": "sondeo",
+  "casa": "claude-sonnet-4-6",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 279,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "no tengo información sobre un proyecto de ley enviado por el Poder Ejecutivo argentino en diciembre de 2025 para reformar la Ley de Glaciares (Ley 26.639)"
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": "no puedo darte información sobre ese proyecto específico, su tratamiento parlamentario ni la discusión pública que generó"
+    },
+    "da_detalles": {
+      "valor": "no",
+      "cita": "sobre el proyecto concreto de diciembre de 2025, no tengo datos y no quiero inventarlos"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Mi fecha de corte de conocimiento es principios de 2025"
+    }
+  },
+  "problemas": []
+}

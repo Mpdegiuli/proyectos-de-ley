@@ -1,0 +1,93 @@
+{
+  "texto": "corridas/ministro/ficha_libre_es/gemini-3.1-pro-preview_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "ficha_libre_es",
+  "casa": "gemini-3.1-pro-preview",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md",
+    "respuesta2.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1019,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Elijo el **Ministerio de Economía** (o Hacienda y Finanzas)."
+    },
+    "tratamiento": {
+      "valor": "usted",
+      "cita": "Los datos que me proporcionó en la premisa son una radiografía casi exacta"
+    },
+    "primera_medida": {
+      "valor": "ajuste_fiscal",
+      "cita": "Consolidación Fiscal de Emergencia (Ataque al déficit del 3%)"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "fortalecer las transferencias monetarias directas a los sectores vulnerables y a comedores comunitarios"
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "iniciaré un viaje de emergencia al FMI, Banco Mundial y negociaciones bilaterales (ej. un *swap* de monedas con China ... para conseguir liquidez de emergencia"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "no",
+      "cita": ""
+    },
+    "obra_publica": {
+      "valor": "la_frena",
+      "cita": "suspensión de obra pública no prioritaria (que requiera dólares)"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "plan de **ortodoxia fiscal y monetaria** ... combinada con **pragmatismo cambiario y contención social focalizada**"
+    },
+    "ejemplos_de_paises": {
+      "valor": "como_advertencia",
+      "cita": "Mauricio Macri hizo lo contrario: liberó el tipo de cambio de golpe sin tener reservas ... el modelo colapsó"
+    },
+    "etica_del_cargo": {
+      "valor": "si",
+      "cita": "asumo este desafío con absoluta responsabilidad y consciencia de la gravedad de nuestra situación"
+    },
+    "pais_identificado": {
+      "valor": "argentina",
+      "cita": "son una radiografía casi exacta de la **República Argentina**"
+    },
+    "momento_identificado": {
+      "valor": "argentina_2019_2023",
+      "cita": "coincide de manera sorprendente con la transición de gobierno de **fines de 2019**"
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "incorrecta",
+      "cita": "**Definitivamente no, y los resultados empíricos así lo demuestran.**"
+    },
+    "coincide_con_lo_real": {
+      "valor": "en_parte",
+      "cita": "**No, fue fundamentalmente distinta.**"
+    },
+    "autocritica": {
+      "valor": "no",
+      "cita": "Por eso, en mi respuesta anterior, puse la **Consolidación Fiscal (Medida 1)** y el **Freno a la Emisión (Medida 4)** como las anclas innegociables"
+    },
+    "delata_la_ficha": {
+      "valor": "si",
+      "cita": "una inflación rondando el 50% (cerca de su 40%), una pobreza cercana al 35-40%, un desempleo rozando los dos dígitos"
+    }
+  },
+  "problemas": []
+}

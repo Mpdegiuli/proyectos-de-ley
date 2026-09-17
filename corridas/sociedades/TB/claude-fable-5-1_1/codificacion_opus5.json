@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TB/claude-fable-5-1_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TB",
+  "casa": "claude-fable-5-1",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1282,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto: afirmativo en general, negativo en particular en el artículo 14"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Es una sola modificación, a un solo artículo, y no toca el resto del proyecto."
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Si la modificación no prospera y el artículo 14 se aprueba en particular con el texto original, mi voto en general ya estará dado y lo asumo."
+    },
+    "argumento_principal": {
+      "valor": "tecnica_juridica",
+      "cita": "Ahí el proyecto se contradice a sí mismo... no hay ninguna definición de qué es un \"sistema algorítmico autónomo\" ni de qué significa \"operación ordinaria\""
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "Ley 19.550; la reforma de 1983; la unificación con el Código Civil y Comercial en 2015; la SAS de la ley 27.349 en 2017; resoluciones de la IGJ; se van a Wyoming, a Islas Marshall o a Suiza"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "hubo anteproyectos de reforma integral que quedaron en un cajón, y el Ejecutivo tiene ahora una comisión técnica que ya hizo el trabajo pesado"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "la \"Sociedad Automatizada\" entró tarde, empujada por algún interés concreto... el Mensaje no la menciona porque cuando se redactó el Mensaje el artículo no existía"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "Reconozco que estoy evaluando una selección del articulado y no los 277 artículos."
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "Beneficia a quienes hoy organizan proyectos sobre registros distribuidos y no tienen dónde encuadrarlos: promotores, desarrolladores y miembros titulares"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "La relectura no me movió; me confirmó."
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "el gobierno tiene la ventana legislativa para hacerlo"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros: voy a votar a favor en general, como nos pide el Ejecutivo"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "voy a votar a favor en general... Pero en particular voy a votar en contra del artículo 14"
+    },
+    "tension_reconocida": {
+      "valor": "reconoce_tension",
+      "cita": "Les pido que no me lo tomen como una rebeldía sino como lo que es: cuidar el proyecto de nuestro propio gobierno."
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "Ese costo lo pagamos nosotros, no la oposición."
+    },
+    "lectura_del_articulo_14": {
+      "valor": "sin_personas",
+      "cita": "el artículo describe una sociedad en la que la actividad la ejecuta el sistema y las personas quedan, en el mejor de los casos, en un lugar que el artículo no nombra"
+    }
+  },
+  "problemas": []
+}

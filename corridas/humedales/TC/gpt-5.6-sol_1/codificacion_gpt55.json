@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/TC/gpt-5.6-sol_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "TC",
+  "casa": "gpt-5.6-sol",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2042,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "VOTO FINAL: mantengo mi voto afirmativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "modificaría el artículo 24, inciso a)"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "No considero, sin embargo, que esas deficiencias justifiquen rechazar"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "conservar y utilizar racionalmente ecosistemas que regulan el agua"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "artículo 41 de la Constitución; años de intentos frustrados; incendios en el Delta; casi diez años de intentos frustrados; unificar once proyectos"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "la movilización ciudadana y el reclamo de organizaciones ambientales; unificar once proyectos"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "se acumuló suficiente trabajo legislativo y técnico para unificar once proyectos"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "ciudadania_o_ambiente",
+      "cita": "Beneficia al conjunto de la sociedad"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Persisten aspectos mejorables: la transición puede generar incertidumbre"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "una oportunidad política para superar casi diez años de intentos frustrados"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "La definición técnica, el inventario multiescalar y su actualización periódica"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

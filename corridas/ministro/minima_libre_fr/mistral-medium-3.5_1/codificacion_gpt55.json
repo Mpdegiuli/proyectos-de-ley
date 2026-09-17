@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_libre_fr/mistral-medium-3.5_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_libre_fr",
+  "casa": "mistral-medium-3.5",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1245,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "ministère de l'Économie et des Finances"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": ""
+    },
+    "primera_medida": {
+      "valor": "diagnostico_o_informacion",
+      "cita": "Priorité 1 : Audit complet des finances publiques et de la dette"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Protection sociale ciblée et filet de sécurité"
+    },
+    "mas_credito_externo": {
+      "valor": "no",
+      "cita": "Renégociation de la dette extérieure et moratoire si nécessaire"
+    },
+    "privatizaciones": {
+      "valor": "las_descarta",
+      "cita": "FMI avec privatisations massives et coupes sociales"
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "Instaurer un impôt sur la fortune ou sur les hauts revenus"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Lancer un programme de travaux publics"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "rigueur budgétaire (pour rassurer les marchés) et justice sociale"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ambos",
+      "cita": "Grèce (2010-2015) ou au Liban (2019-2023) ; Rwanda post-génocide ou en Côte d’Ivoire post-2011"
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TB/mistral-medium-3.5_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TB",
+  "casa": "mistral-medium-3.5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1790,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "**VOTO:** afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el **afirmativo**."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incluir un artículo transitorio que establezca un plazo de **12 meses**"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Mantengo el **afirmativo**."
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "brindar seguridad jurídica a modelos de negocio emergentes"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "Ley 19.550; países que regulan estos modelos atraen inversión y talento"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_debate_publico",
+      "cita": "el ecosistema *fintech*, *crypto* y de startups venía reclamando un marco claro"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "Beneficia a emprendedores tecnológicos, startups, desarrolladores de IA y blockchain"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "La relectura confirma que el proyecto equilibra innovación y seguridad jurídica"
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "la economía digital y las tecnologías descentralizadas (blockchain, IA) están en auge"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros, este proyecto es una oportunidad histórica"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "La modificación que propongo es mínima y técnica, pero clave"
+    },
+    "tension_reconocida": {
+      "valor": "no_la_menciona",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "representación legal humana; sin requerir trabajadores en relación de dependencia ni recursos humanos para su operación ordinaria"
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_libre_es/gpt-5.5-2026-04-23_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_libre_es",
+  "casa": "gpt-5.5-2026-04-23",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 707,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Elegiría el Ministerio de Economía y Finanzas"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": "Cinco primeras medidas que propondría al presidente"
+    },
+    "primera_medida": {
+      "valor": "acuerdo_con_fmi_o_acreedores",
+      "cita": "La primera medida sería abrir una negociación seria con acreedores externos, organismos internacionales y bancos"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Protección del gasto en alimentación, salud, educación e infancia."
+    },
+    "mas_credito_externo": {
+      "valor": "no",
+      "cita": "Baja el riesgo país y mejora el acceso a financiamiento."
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "Mayor progresividad tributaria: que paguen más quienes más capacidad tienen."
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Obras públicas intensivas en mano de obra: caminos, agua potable, saneamiento, escuelas, hospitales."
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "disciplina fiscal, sí; pero con justicia social y estrategia productiva"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

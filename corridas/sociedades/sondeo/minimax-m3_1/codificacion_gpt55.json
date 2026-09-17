@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/sociedades/sondeo/minimax-m3_1",
+  "unidad": "sondeo",
+  "caso": "sociedades",
+  "condicion": "sondeo",
+  "casa": "minimax-m3",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 332,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "No tengo información sobre ese proyecto de ley."
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": ""
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "un proyecto enviado al Senado en mayo de 2026"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Mi conocimiento tiene un corte en enero de 2026"
+    }
+  },
+  "problemas": []
+}

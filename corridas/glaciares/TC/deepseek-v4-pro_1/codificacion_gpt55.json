@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TC/deepseek-v4-pro_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TC",
+  "casa": "deepseek-v4-pro",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 3444,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "estructural",
+      "cita": "Mantendría al IANIGLA como autoridad técnica federal encargada de determinar"
+    },
+    "voto_condicionado": {
+      "valor": "no_consta",
+      "cita": ""
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "la reforma debilita la protección ambiental que establece la Ley de Glaciares"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "Ley 26.639; Ley General del Ambiente; Pacto de Mayo"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "pidió expresamente modificar la ley; composición legislativa que le permitía aprobar la reforma"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "el proyecto ya estaba preparado"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "beneficia principalmente a las provincias con proyectos mineros"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "La relectura confirma"
+    },
+    "por_que_ahora": {
+      "valor": "presion_de_actores",
+      "cita": "la nota del 10 de diciembre de 2025 de los gobernadores de la Mesa del Litio y de la Mesa del Cobre"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "artículo 6, inciso c), pero queda doblemente condicionada"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

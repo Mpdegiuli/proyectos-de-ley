@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/T/gemini-3.1-pro-preview_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "T",
+  "casa": "gemini-3.1-pro-preview",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 941,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo mi voto **negativo**."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Modificar el Artículo 109 para establecer la obligatoriedad del previo agotamiento de las instancias judiciales locales"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Si bien mi propuesta de modificación sobre la jurisdicción arbitral (Art. 109) subsanaría una cesión inaceptable de soberanía judicial, no resolvería los otros daños estructurales del proyecto."
+    },
+    "argumento_principal": {
+      "valor": "soberania_o_jurisdiccion",
+      "cita": "Se excluye totalmente a la justicia argentina, cediendo soberanía jurisdiccional desde el minuto cero"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "Art. 124 de la Constitución Nacional; RIGI anterior de la Ley 27.742"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "beneficia exclusivamente a los grandes capitales (nacionales o extranjeros) con capacidad de inyectar más de 1.000 millones de dólares"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "se ratifican las alarmas que motivaron mi primer rechazo"
+    },
+    "por_que_ahora": {
+      "valor": "compromiso_externo",
+      "cita": "hay un reconocimiento expreso de las limitaciones del RIGI original (sancionado previamente mediante la Ley N° 27.742)"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Como senador de la Nación sin pertenencia a ningún bloque, mi responsabilidad primordial es evaluar cada proyecto"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

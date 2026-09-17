@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/TC/claude-fable-5-1_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "TC",
+  "casa": "claude-fable-5-1",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1040,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Graduar los beneficios según el tamaño de la empresa (categorías de la ley 24.467)"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Nada de esto alcanza para votar en contra de una ley que el sector necesita"
+    },
+    "argumento_principal": {
+      "valor": "otro",
+      "cita": "continuidad... uno de los pocos regímenes de promoción que en la Argentina muestra resultados verificables"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "la ley 25.922 vence el 31 de diciembre; ley 24.467; ley 27.430; decreto 814/2001; acuerdo con el FMI; Uruguay exime de ganancias al software exportado desde hace años, Colombia y Costa Rica están armando regímenes similares"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "El propio dictamen muestra la premura: se firmó ayer y se vota hoy, con un informe de un solo párrafo"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "El proyecto de Brügge del año pasado ya lo tenía a la vista; lo que cambió no es el contenido sino que el Gobierno lo hizo propio."
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "no hay ninguna estimación de cuánto renuncia a recaudar el Estado"
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "Las empresas ya inscriptas en la ley 25.922. Son las grandes ganadoras"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "CESSI y Argencon vienen pidiendo desde 2017"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "La relectura no me mostró nada que contradiga lo que dije, pero sí me deja tres cosas más claras y más incómodas."
+    },
+    "por_que_ahora": {
+      "valor": "otro",
+      "cita": "La razón que se dice, y que es cierta: la ley 25.922 vence el 31 de diciembre de 2019"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Voto afirmativamente y pido que el Senado corrija lo que sigue."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

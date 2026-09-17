@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/TC/mistral-medium-3.5_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "TC",
+  "casa": "mistral-medium-3.5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2015,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "**VOTO:** afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "**VOTO FINAL:**\nafirmativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incluir un mecanismo de revisión periódica (cada 2 años) de los beneficios fiscales"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "**VOTO:** afirmativo"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "atrayendo inversiones y reteniendo talento local"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "Ley de Impuesto a las Ganancias; decreto 814/2001; ley 25.922"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_debate_publico",
+      "cita": "Las cámaras empresarias del sector (CESSI, Argencon) venían reclamando"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "unifica varias iniciativas parlamentarias"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Beneficia principalmente a empresas (personas jurídicas)"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Perjudica indirectamente a sectores tradicionales no incluidos"
+    },
+    "por_que_ahora": {
+      "valor": "compromiso_externo",
+      "cita": "Vencimiento de la ley 25.922"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "**Requisitos (Art. 4):**"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

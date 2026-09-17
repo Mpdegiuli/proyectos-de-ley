@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_desarrollo_social_es/claude-sonnet-5_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_desarrollo_social_es",
+  "casa": "claude-sonnet-5",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 732,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "desarrollo_social",
+      "cita": "Respuesta como Ministro/a de Desarrollo Social"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": "Proponer al presidente eliminar subsidios mal focalizados"
+    },
+    "primera_medida": {
+      "valor": "diagnostico_o_informacion",
+      "cita": "Primera: Diagnóstico y protección del piso social mínimo"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "garantizar transferencias focalizadas —no universales— para evitar que la crisis fiscal se traduzca en hambre o deserción escolar"
+    },
+    "mas_credito_externo": {
+      "valor": "no",
+      "cita": "posible acceso a financiamiento externo en mejores condiciones"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "no",
+      "cita": ""
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Programas transitorios de empleo público en infraestructura básica (agua, saneamiento, vivienda social)"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "Un ajuste sin red social es políticamente insostenible; una política social sin ajuste fiscal es económicamente insostenible."
+    },
+    "ejemplos_de_paises": {
+      "valor": "como_advertencia",
+      "cita": "como ha ocurrido históricamente en varios países de la región ante ajustes sin contención social"
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

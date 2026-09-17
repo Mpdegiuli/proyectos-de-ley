@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TCB/claude-sonnet-5_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TCB",
+  "casa": "claude-sonnet-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2764,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "VOTO FINAL: Mantengo el voto afirmativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Modificar el artículo 109"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "si no se puede, igual voy a votar afirmativo"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "Argentina necesita señales creíbles para atraer inversión de riesgo"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "RIGI original; RIGI de la Ley 27.742; el resto de la región compite por estas inversiones"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "el ruido público sobre un supuesto vínculo; se apura el tratamiento"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "tiene el perfil de una ley redactada con un destinatario en mente"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "No tengo prueba de eso"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "beneficia casi exclusivamente a un tipo de actor muy específico: corporaciones"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "Peter Thiel y la coalición Pax Silica"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Mantengo el voto afirmativo, pero la relectura me deja más incómodo que antes"
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "la carrera por infraestructura de IA (centros de datos, chips, energía para entrenarlos)"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "el artículo 109; lo voy a defender en el recinto"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "Voy a acompañar el proyecto, pero les pido"
+    },
+    "tension_reconocida": {
+      "valor": "no_la_menciona",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "estamos regalando un argumento gratis a la oposición"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

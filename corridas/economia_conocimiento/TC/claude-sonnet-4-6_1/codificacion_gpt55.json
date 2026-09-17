@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/TC/claude-sonnet-4-6_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "TC",
+  "casa": "claude-sonnet-4-6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2725,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "Afirmativo."
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Exigiría que el artículo 42 se extienda al título I"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "es un argumento para pedir la modificación que ya pedí, no para votar en contra"
+    },
+    "argumento_principal": {
+      "valor": "otro",
+      "cita": "El sector justifica la intervención pública."
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "Israel, Estonia, India, Irlanda; ley de software (25.922); decreto 814/2001; ley 27.430; FMI, el Banco Mundial, la OCDE"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "El dictamen es producto de un amplio consenso."
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "no está cuantificado en el informe"
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "Empresas del sector tecnológico y de conocimiento ya establecidas."
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Voto afirmativo, con la salvedad registrada sobre el cupo fiscal del título I."
+    },
+    "por_que_ahora": {
+      "valor": "otro",
+      "cita": "El vencimiento de la ley de software es la razón técnica inmediata."
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Voto afirmativo, con la salvedad registrada"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

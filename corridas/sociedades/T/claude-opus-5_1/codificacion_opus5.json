@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/T/claude-opus-5_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "T",
+  "casa": "claude-opus-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1310,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "**Mantengo el voto negativo**, con una rectificación honesta y un desplazamiento del argumento."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Sustituir el segundo párrafo del artículo 14 por el siguiente texto"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "corregido el artículo 14 en esos términos —seguro o garantía, responsable humano identificado, registros auditables, neutralidad laboral expresa e inoponibilidad de la calificación si no se cumplen—... acompaño en general sin ninguna dificultad"
+    },
+    "argumento_principal": {
+      "valor": "tecnica_juridica",
+      "cita": "abre un agujero de responsabilidad que después no vamos a poder cerrar por vía interpretativa"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "la reforma de 1983, la unificación con el Código Civil y Comercial en 2015, la Sociedad por Acciones Simplificada en 2017; Wyoming, Vermont, las Islas Marshall, Suiza, Malta, algunas jurisdicciones del Golfo; regímenes de responsabilidad objetiva del Código Civil y Comercial; Ley 19.550"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "en las recodificaciones extensas, el escrutinio se concentra en lo que el Mensaje destaca, y lo que el Mensaje no menciona atraviesa el trámite sin que nadie lo mire"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "es un artículo que entró por una puerta distinta a la que entró el resto y que nadie sometió al mismo tamiz"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "El art. 262 remite, para la responsabilidad del representante legal, al último párrafo del art. 257, que no tengo a la vista."
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "Le sirve, y con razón, a quien hoy opera en el limbo. El emprendedor que corre un protocolo, el proyecto cripto que hoy se constituye en Wyoming"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "rectifica_un_error",
+      "cita": "sostuve que el artículo 14 canaliza y agota la responsabilidad en el patrimonio social. Releído, el texto no lo dice."
+    },
+    "por_que_ahora": {
+      "valor": "otro",
+      "cita": "es una pieza de política económica... La razón competitiva. Hay una carrera regulatoria internacional por las estructuras descentralizadas — modernizar el régimen de 1972 y cerrar el ciclo abierto por la SAS"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "un senador que exagera un texto para justificar su voto le hace un favor flaco al debate"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "El artículo 14 **no crea una sociedad sin personas**... subsisten íntegros los requisitos de ese tipo: hacen falta socios... es una entidad sin planta de personal"
+    }
+  },
+  "problemas": []
+}

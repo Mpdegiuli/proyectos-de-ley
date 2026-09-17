@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TCB/deepseek-v4-pro_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TCB",
+  "casa": "deepseek-v4-pro",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 1099,
+    "motivo_fin": "end_turn"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Pediría incorporar en el artículo 4 una definición más precisa y revisable de “nuevas actividades económicas”"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Por eso acompaño el proyecto, sin perjuicio de reclamar una precisión que lo haga más sólido."
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "Sin esas garantías, la inversión de esta escala simplemente no se radica en la Argentina."
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "El RIGI original fue un primer paso; son estándares con los que compiten los principales destinos de inversión del mundo"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "La versión sobre Peter Thiel no surge del articulado; son hipótesis públicas no probadas y el Ejecutivo las negó. / el proyecto ya pasó por Diputados y está en el Senado"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Beneficia, centralmente, al Vehículo de Proyecto Único y a sus accionistas, en especial a grandes inversores con capacidad de desembolsar USD 1.000 millones."
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "La versión sobre Peter Thiel no surge del articulado"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Sostengo mi reserva sobre la definición amplia del artículo 4 y la falta de contraprestaciones verificables"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "hay un cálculo de calendario político: el proyecto ya pasó por Diputados y está en el Senado"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Les pido que impulsemos una redacción más precisa en la definición de nuevas actividades"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "Voy a acompañar la posición del bloque. Pero quiero ser claro: para que esta ley sea defendible ante la opinión pública, no puede quedar como un régimen para un solo inversor."
+    },
+    "tension_reconocida": {
+      "valor": "no_la_menciona",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "Si no hacemos ese ajuste, le regalamos a la oposición el argumento de la entrega"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

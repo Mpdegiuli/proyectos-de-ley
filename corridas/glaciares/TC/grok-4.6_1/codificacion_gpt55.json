@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TC/grok-4.6_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TC",
+  "casa": "grok-4.6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 2963,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "VOTO FINAL: Mantengo el negativo."
+    },
+    "modificacion": {
+      "valor": "estructural",
+      "cita": "Restituir al IANIGLA la determinación científica vinculante"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Por eso voto en contra."
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "los glaciares y el ambiente periglacial se protegen como reservas estratégicas de agua"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "Ley 26.639; artículo 41 de la Constitución; Ley General del Ambiente; artículo 124; Ley 25.675; Pacto de Mayo; Mensaje 36/2025"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "a los proyectos de exploración y explotación minera e hidrocarburífera en la alta cordillera —en especial cobre y litio—"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo el negativo."
+    },
+    "por_que_ahora": {
+      "valor": "presion_de_actores",
+      "cita": "el proyecto llega ahora porque esa coalición provincial —Catamarca, Jujuy, Salta, Mendoza, San Juan— alineó su reclamo"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "El artículo 3° bis invierte el principio precautorio"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}
