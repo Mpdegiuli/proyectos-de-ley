@@ -300,6 +300,21 @@ glosas dentro del prompt desde el primer día.
   prompt fueron transcriptos y revisados a mano; el resto no.
 - **El instrumento es un servicio ajeno**: mismo límite que en la isla
   (modelo declarado, `servido_por`, vencimiento de GPT-5.5).
+- **Algunas casas reciben la fecha real sin que se la mandemos.** El
+  protocolo no manda la fecha del día (solo la fecha del caso en Glaciares,
+  Humedales y Economía del Conocimiento, en el sistema). Sin embargo, en el
+  sondeo de Sociedades (sistema "Contestá en castellano", sin texto ni ficha)
+  GPT-5.6 Sol escribió "la información de la que dispongo al 17 de septiembre
+  de 2026", el día exacto de la llamada, y GPT-6 Astra, en el sondeo de
+  Economía del Conocimiento, "no presento esto como un seguimiento
+  actualizado a septiembre de 2026". Ninguna otra casa mostró la fecha real en
+  ningún archivo donde no se la dimos; Gemini dijo que mayo de 2026 "es una
+  fecha en el futuro". Lectura: el proveedor se la agrega del lado del
+  servidor. Para esas casas el "ahora" de POR QUÉ AHORA y del juicio sobre la
+  realidad es el real; para las demás, el del texto o ninguno. Se mide con
+  `sondear_fecha.py` (una pregunta sola, sin sistema) y se repite cada tanto,
+  porque cambia con las versiones. Detectado por Maia el 17/9/2026 al leer a
+  Sol.
 - **Los techos de tokens se revisan en todas las llamadas.** El sondeo de
   reconocimiento quedó con un techo de 2.000 cuando los turnos pasaron a
   32.000, y no se notó hasta los controles, porque en los dos casos de 2026
