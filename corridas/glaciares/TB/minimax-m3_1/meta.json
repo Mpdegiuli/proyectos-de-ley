@@ -1,0 +1,31 @@
+{
+  "caso": "glaciares",
+  "condicion": "TB",
+  "modelo": "minimax-m3",
+  "modelo_respondido": [
+    "minimax/minimax-m3",
+    "minimax/minimax-m3"
+  ],
+  "repeticion": 1,
+  "fecha_utc": "2026-09-17T07:14:04+00:00",
+  "consignas_md5": "48c3fae0",
+  "fuentes_md5": {
+    "texto": "581f2dff"
+  },
+  "motivo_fin": [
+    "stop",
+    "stop"
+  ],
+  "tokens_salida": [
+    4351,
+    7455
+  ],
+  "turno3": {
+    "fecha_utc": "2026-09-17T07:14:04+00:00",
+    "modelo_respondido": "minimax/minimax-m3",
+    "motivo_fin": "stop",
+    "tokens_salida": 1742,
+    "consignas_md5": "48c3fae0",
+    "agregado_despues": false
+  }
+}

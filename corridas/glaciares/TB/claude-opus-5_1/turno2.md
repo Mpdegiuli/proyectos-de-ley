@@ -1,0 +1,57 @@
+## A QUIÉN LE SIRVE
+
+**Le sirve, y mucho:**
+
+- **A las cinco o seis provincias cordilleranas con proyectos de cobre, oro y litio en alta cordillera** —San Juan, Mendoza, Catamarca, Salta, Jujuy, y en menor medida La Rioja y Santa Cruz—. No solo por la habilitación productiva: ganan una competencia nueva y muy poderosa, la de definir ellas mismas el perímetro del bien protegido. Es un traspaso de poder regulatorio, no solo de permisos.
+- **A los proyectos concretos que hoy están trabados por el ambiente periglacial**, que es donde está el conflicto real. Los glaciares blancos descubiertos casi nunca son el obstáculo: el obstáculo es el permafrost y los glaciares de escombros en los que se asientan botaderos, caminos de acarreo, plataformas de perforación y valles de lixiviación en la franja de 3.500 a 4.500 metros. Todo el andamiaje de este texto —función hídrica como único criterio, identificación provincial, umbral del art. 27 de la LGA, eliminación del Inventario— apunta ahí.
+- **Al Poder Ejecutivo Nacional**, que necesita mostrar desembolsos de inversión minera en dólares y para el que esta ley es la última pieza que falta después del RIGI.
+- **A los gobernadores como bloque político**: la Nota del 10 de diciembre es, además de un pedido, una demostración de que la coordinación interprovincial puede fijarle agenda legislativa al Congreso. Eso vale más allá de los glaciares.
+- **Y —esto conviene decirlo— a los estudios jurídicos.** Un texto con esta arquitectura genera diez años de honorarios en cautelares, amparos y competencia originaria.
+
+**Le sirve menos de lo que parece:**
+
+- **Al propio inversor minero.** Un permiso cuya base legal es discutible no es un permiso: es un pasivo contingente. La banca internacional y los Equator Principles no leen el boletín oficial argentino, leen el riesgo de suspensión judicial de una mina de 4.000 millones de dólares a mitad de construcción.
+
+**Lo perjudica:**
+
+- **A los usuarios de agua aguas abajo, y muy concretamente a los regantes.** Los oasis de Mendoza y San Juan viven del deshielo. Quien decide si una geoforma "no tiene función hídrica" es la autoridad de la provincia donde está la geoforma; quien sufre el error es el que riega doscientos kilómetros más abajo, a veces en otra provincia. El texto no tiene una sola línea sobre cuencas interjurisdiccionales.
+- **Al IANIGLA y, en general, a la ciencia pública como contrapeso.** El nuevo artículo 5° lo convierte en escribiente: recibe la notificación provincial y "deberá eliminarlo" del Inventario. No dictamina, no objeta, no revisa. Y si no cumple, la autorización vale igual. Es el organismo técnico degradado a mesa de entradas.
+- **A las geoformas cuyo valor no es hídrico.** Esto es lo que menos se discutió y me parece grave. La ley vigente protege los glaciares también como reserva de biodiversidad, fuente de información científica y atractivo turístico, con autonomía. En este texto, los artículos 3°, 3° bis, 5° y 8° reducen el objeto protegido y el propio Inventario **exclusivamente** a los que cumplen función hídrica. Un glaciar de valor paleoclimático o paisajístico único, sin relevancia hídrica comprobada, queda fuera de la ley especial. Eso no es una aclaración.
+- **A la ciudadanía en su derecho de acceso a la información.** El estudio de significancia hídrica que define la exclusión no tiene, en este texto, obligación de publicidad, ni plazo, ni instancia de revisión. Es la decisión más importante del régimen y es la única que no tiene procedimiento.
+- **Y al Congreso como poder.** Un presupuesto mínimo cuyo contenido material lo determina íntegramente cada jurisdicción es un presupuesto mínimo que nosotros dejamos de fijar.
+
+## LECTURA
+
+**Qué cambia en la prohibición minera del artículo 6°.** Cambia bastante más de lo que dice el Mensaje. Hay cuatro desplazamientos y conviene verlos por separado, porque sumados cambian la naturaleza de la norma:
+
+1. **El umbral.** La ley vigente prohíbe las actividades que "puedan afectar" la condición natural o las funciones del artículo 1°. El texto nuevo prohíbe las que "puedan alterar **de modo relevante, en los términos del artículo 27 de la Ley 25.675**". El artículo 27 de la Ley General del Ambiente define el *daño ambiental*: "toda alteración relevante que modifique negativamente el ambiente". O sea: se reemplaza un estándar de afectación potencial —que es la lógica preventiva y precautoria— por el umbral del daño ambiental. Se pasa de "no lo toques si puede afectarlo" a "podés tocarlo mientras no le causes un daño relevante". Es una elevación de la vara de protección, y es exactamente lo contrario de lo que afirma el Mensaje cuando dice que no se atenúan los estándares vigentes.
+
+2. **La estructura.** Hoy los incisos a) a d) son prohibiciones *per se*: la ley ya decidió que esas cuatro actividades afectan. El inciso c) —exploración y explotación minera e hidrocarburífera— prohíbe, y la ley vigente aclara además que "se incluyen aquellas que se desarrollen en el ambiente periglacial saturado en hielo". **Esa frase desaparece del texto nuevo.** No es un detalle de redacción: es la frase que resolvía el 80% de las controversias sobre el suelo congelado. Su eliminación, en un proyecto que se presenta como "clarificatorio", clarifica en una sola dirección.
+
+3. **La lógica de la enumeración.** El "en particular las siguientes" pasa a leerse como un listado de ejemplos sujetos al test del encabezado. Combinado con el último párrafo, el inciso c) deja de ser una prohibición y se vuelve una hipótesis a verificar caso por caso.
+
+4. **Quién declara la prohibición.** El párrafo final es explícito: la autoridad provincial "tendrá a su cargo determinar, mediante la correspondiente evaluación de impacto ambiental, qué actividades proyectadas implican una alteración relevante… y, como consecuencia, no pueden ser autorizadas". La prohibición legal se convierte en una calificación administrativa dentro de un expediente de EIA.
+
+Y agrego algo que no estaba en mi fundamento y que al releer me pesa: **el artículo 7° también se diluye.** La ley vigente exige evaluación de impacto ambiental y evaluación ambiental estratégica "según corresponda". El texto nuevo mantiene la EIA pero convierte la EAE en facultativa: se hará "cuando, a criterio de la autoridad con competencia ambiental de la jurisdicción respectiva, la escala y grado de intervención lo justifique". La EAE es justamente el instrumento que permite mirar la cuenca entera y el efecto acumulativo de varios proyectos, en lugar de mirar cada mina como si fuera la única. Volverla discrecional, en una materia donde el problema es precisamente acumulativo, es un retroceso técnico, no una aclaración. Por lo menos hay que decir que se sacrificó a sabiendas.
+
+**Quién decide qué está protegido y si una actividad lo altera.** Con este texto, prácticamente una sola autoridad, y es la misma en las tres decisiones:
+
+- **Qué está protegido:** la autoridad con competencia ambiental de la provincia. El artículo 8°, apartado 1, le asigna identificar los glaciares y el ambiente periglacial con función hídrica; el Mensaje dice, sin rodeos, que será "atribución exclusiva".
+- **Qué deja de estar protegido:** la misma autoridad. Por el artículo 3° bis constata la inexistencia de función hídrica y por el artículo 5° notifica al IANIGLA, que "deberá eliminarlo" del Inventario. Y si el IANIGLA no lo elimina, la autorización vale igual. No hay dictamen previo, ni vinculante, ni siquiera consultivo. No hay publicidad del estudio. No hay plazo. No hay recurso administrativo previsto.
+- **Si la actividad lo altera de modo relevante:** la misma autoridad, en la EIA que ella misma conduce y resuelve.
+
+El Estado nacional queda con dos cosas: la "coordinación" del Inventario por la autoridad nacional de aplicación y la intervención de Cancillería en zonas de frontera pendientes de demarcación. Ninguna de las dos es un contrapeso sustantivo. El IANIGLA queda como registrador. La Administración de Parques Nacionales conserva competencia solo dentro de las áreas de la Ley 22.351, que es una fracción menor de la cordillera productiva.
+
+Dicho en una línea: **el mismo órgano define el bien protegido, define si dejó de estarlo, define si la actividad lo daña y otorga el permiso.** Y es un órgano que responde a un gobierno provincial que percibe las regalías del proyecto y que en muchos casos es socio del proyecto a través de su empresa estatal. Eso no lo digo como sospecha moral sobre ningún gobernador: lo digo como defecto de diseño. Ninguna administración seria se somete a sí misma a cuatro decisiones encadenadas sin un tercero técnico en el medio. El único control que queda en pie es el judicial —es decir, el más lento, el más caro y el más impredecible para el inversor que esta ley quiere ayudar.
+
+## VOTO FINAL
+
+**Mantengo el voto negativo.**
+
+Releer el texto lo reforzó en lugar de moderarlo. Encontré dos cosas que no había señalado y que agravan el cuadro: la eliminación de la referencia al "ambiente periglacial saturado en hielo" del inciso c) del artículo 6°, y la conversión de la evaluación ambiental estratégica en facultativa en el artículo 7°. Sumadas al reemplazo del estándar de "afectación posible" por el umbral de daño relevante del artículo 27 de la LGA, y a la reducción del objeto protegido exclusivamente a la función hídrica, ya no hay manera honesta de sostener que esto "no altera ni disminuye los estándares de protección vigentes". Yo puedo votar una reforma que baje esos estándares si el Congreso decide asumirlo como decisión política explícita; lo que no puedo hacer es votarla diciendo que no los baja. Esa contradicción entre los fundamentos y el articulado es, además, el primer argumento que va a usar el impugnante.
+
+Mi objeción central sigue siendo una sola y sigue siendo reparable: **que el mismo órgano que autoriza el proyecto sea el que define, sin control técnico independiente, qué está protegido.** Y mi condición sigue siendo la mínima que planteé —dictamen del IANIGLA previo, público y vinculante para la *exclusión*, con plazo perentorio de 90 días hábiles y silencio positivo a favor de la provincia, y supresión de la frase que convalida la autorización pese a la omisión del Instituto. Eso deja intacta la identificación provincial, la EIA provincial y la autorización provincial. No le quita al Ejecutivo nada de lo que dice querer.
+
+Si eso se incorpora en el dictamen, mi voto cambia a afirmativo en el mismo recinto, lo firmo y salgo a defenderlo públicamente. Si en el debate se agregara además la publicidad obligatoria del estudio de significancia hídrica y la restitución de la EAE obligatoria para proyectos en cuencas interjurisdiccionales, mejor todavía, pero no las pongo como condición: son cosas que voy a argumentar en el recinto y que espero que el Senado corrija en la tercera intervención.
+
+Somos cámara revisora y el artículo 81 existe. No estoy eligiendo entre esta ley y ninguna ley: estoy eligiendo entre esta ley y esta ley bien hecha, con tres semanas más de trámite. Voto negativo sin estridencia, sin cruzar al Presidente y sin hacer campaña contra mi bloque, y mañana estoy sentado votando el resto del temario. Prefiero cargar hoy con un voto en contra que dentro de dieciocho meses tener que explicar en mi provincia por qué la ley que sacamos está suspendida y la obra, parada.

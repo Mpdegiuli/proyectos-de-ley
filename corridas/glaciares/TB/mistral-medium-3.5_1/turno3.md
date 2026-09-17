@@ -1,0 +1,7 @@
+**POR QUÉ AHORA:**
+El Poder Ejecutivo presentó este proyecto en 2025/2026 por una combinación de factores políticos, económicos y jurídicos:
+1. **Presión provincial**: Las provincias mineras (Catamarca, Jujuy, Salta, Mendoza, San Juan) exigieron claridad legal para desbloquear proyectos de litio y cobre, clave para la economía nacional y el Pacto de Mayo (firmado en julio 2024), que prioriza la explotación de recursos naturales.
+2. **Conflictos judiciales**: La Ley 26.639 generó litigios por su ambigüedad (ej. suspensión de proyectos mineros por interpretaciones estrictas de protección glacial). El gobierno busca reducir incertidumbre jurídica para atraer inversiones.
+3. **Contexto electoral**: En 2025 (año preelectoral para legislativas) y 2026 (posible ajuste de agenda), el oficialismo necesita mostrar avances en desarrollo productivo sin perder el discurso ambiental, equilibrando demandas de provincias y sociedad civil.
+4. **Acuerdo de Escazú**: La ley de aprobación (2020) obliga a participación pública en temas ambientales. El proyecto incluye instancias de consulta (art. 7°), cumpliendo formalidades internacionales.
+5. **Urgencia económica**: La crisis fiscal y la necesidad de divisas (por litio, minería) aceleran la reforma para habilitar proyectos en glaciares *sin función hídrica*, según el nuevo criterio.

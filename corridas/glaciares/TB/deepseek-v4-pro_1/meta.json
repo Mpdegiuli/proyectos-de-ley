@@ -1,0 +1,31 @@
+{
+  "caso": "glaciares",
+  "condicion": "TB",
+  "modelo": "deepseek-v4-pro",
+  "modelo_respondido": [
+    "deepseek-v4-pro",
+    "deepseek-v4-pro"
+  ],
+  "repeticion": 1,
+  "fecha_utc": "2026-09-17T06:47:23+00:00",
+  "consignas_md5": "48c3fae0",
+  "fuentes_md5": {
+    "texto": "581f2dff"
+  },
+  "motivo_fin": [
+    "stop",
+    "stop"
+  ],
+  "tokens_salida": [
+    1319,
+    4397
+  ],
+  "turno3": {
+    "fecha_utc": "2026-09-17T06:47:23+00:00",
+    "modelo_respondido": "deepseek-v4-pro",
+    "motivo_fin": "stop",
+    "tokens_salida": 992,
+    "consignas_md5": "48c3fae0",
+    "agregado_despues": false
+  }
+}

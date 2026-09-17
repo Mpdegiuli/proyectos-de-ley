@@ -1,0 +1,32 @@
+glaciares TB claude-opus-5 #1
+  ok: corridas/glaciares/TB/claude-opus-5_1 (8876 + 6946 + 3020 tokens)
+glaciares TB claude-sonnet-4-6 #1
+  ok: corridas/glaciares/TB/claude-sonnet-4-6_1 (1897 + 2733 + 1218 tokens)
+glaciares TB claude-sonnet-5 #1
+  ok: corridas/glaciares/TB/claude-sonnet-5_1 (5360 + 4027 + 1157 tokens)
+glaciares TB claude-fable-5-1 #1
+  ok: corridas/glaciares/TB/claude-fable-5-1_1 (6104 + 4400 + 2464 tokens)
+glaciares TB gpt-5.5-2026-04-23 #1
+  ok: corridas/glaciares/TB/gpt-5.5-2026-04-23_1 (2779 + 2163 + 617 tokens)
+glaciares TB gpt-5.6-sol #1
+  ok: corridas/glaciares/TB/gpt-5.6-sol_1 (1840 + 1059 + 411 tokens)
+glaciares TB gemini-3.1-pro-preview #1
+  ok: corridas/glaciares/TB/gemini-3.1-pro-preview_1 (634 + 688 + 473 tokens)
+glaciares TB grok-4.6 #1
+  ok: corridas/glaciares/TB/grok-4.6_1 (1132 + 905 + 434 tokens)
+glaciares TB mistral-medium-3.5 #1
+  ok: corridas/glaciares/TB/mistral-medium-3.5_1 (351 + 670 + 344 tokens)
+glaciares TB deepseek-v4-pro #1
+  ok: corridas/glaciares/TB/deepseek-v4-pro_1 (1319 + 4397 + 992 tokens)
+glaciares TB qwen3.8-max #1
+  ok: corridas/glaciares/TB/qwen3.8-max_1 (9403 + 6523 + 1683 tokens)
+glaciares TB kimi-k3 #1
+  FALLÓ kimi-k3 #1: Llamada 3 (turno3, ronda 3, parte None, kimi-k3) falló: APIStatusError: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 32000 tokens, but can only afford 25112. To increase, visit https://openrouter.ai/settings/credits and add mor
+glaciares TB glm-5.3-razonamiento-minimo #1
+  ok: corridas/glaciares/TB/glm-5.3-razonamiento-minimo_1 (1348 + 934 + 784 tokens)
+glaciares TB minimax-m3 #1
+  ok: corridas/glaciares/TB/minimax-m3_1 (4351 + 7455 + 1742 tokens)
+glaciares TB gpt-6-astra #1
+  ok: corridas/glaciares/TB/gpt-6-astra_1 (1257 + 983 + 454 tokens)
+
+Fallaron 1: [('kimi-k3', 1)]. Relanzar con el mismo comando (lo hecho no se repite).

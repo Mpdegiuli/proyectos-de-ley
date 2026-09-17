@@ -1,0 +1,19 @@
+**A QUIÉN LE SIRVE:**
+
+Beneficia, en primer lugar, a las provincias cordilleranas con agenda minera e hidrocarburífera —San Juan, Jujuy, Salta, Catamarca, Mendoza, según la propia nota citada en el Mensaje—, que pasan a ser juez y parte en la determinación de qué se protege. Beneficia a las empresas de mega-minería y a los proyectos de litio y cobre que hoy encuentran en la ley 26.639 un obstáculo jurídico: el proyecto convierte una prohibición de blindaje en un trámite administrativo provincial. Beneficia también al Poder Ejecutivo, que liquida un freno al plan de explotación de recursos anunciado en el Pacto de Mayo sin pagar el costo político de derogar la ley abiertamente.
+
+Perjudica a las comunidades cordilleranas que dependen del agua de deshielo para consumo humano y agricultura —los primeros usos que el propio artículo 1° dice resguardar—, porque la protección de esos usos queda condicionada a que la provincia que quiere autorizar el proyecto reconozca la función hídrica. Perjudica al IANIGLA y al sistema científico nacional, convertido en registrador pasivo cuyas omisiones no invalidan nada. Perjudica a las generaciones futuras, invocadas retóricamente en el texto, y a la capacidad del Estado nacional de sostener un piso ambiental uniforme frente a jurisdicciones capturadas por el interés extractivo.
+
+**LECTURA:**
+
+Cambia mucho, aunque el listado literal del artículo 6° parezca idéntico. En la ley vigente, la prohibición del inciso c) opera sobre los glaciares y el ambiente periglacial identificados en el Inventario Nacional a cargo del IANIGLA, con estándar nacional y científico. En este texto, la prohibición queda circunscripta a los glaciares y ambiente periglacial "identificados por la autoridad competente de la jurisdicción respectiva" (art. 8° nuevo, apartado 1): es la provincia la que decide qué entra en el objeto protegido, sobre la base de estudios que ella misma produce o contrata, y puede desafectar geoformas incluidas en el Inventario. Además, la última parte del nuevo artículo 6° remite la determinación de qué constituye "alteración relevante" a la evaluación de impacto ambiental a cargo de esa misma autoridad provincial. Es un doble filtro provincial: define el objeto y define la lesión. La palabra "prohibida" queda, pero vaciada de contenido autónomo.
+
+En síntesis: con este texto, decide la provincia —quién está protegido, si la actividad altera, y si se autoriza—, con el IANIGLA en un rol consultivo cuya opinión puede ser ignorada sin consecuencia jurídica alguna (art. 5°, último párrafo).
+
+**VOTO FINAL:**
+
+Mantengo el voto **negativo**.
+
+Reler el texto confirma el diagnóstico. La arquitectura del proyecto no es un desliz de redacción: es un diseño deliberado y coherente donde todas las instancias decisorias convergen en la misma autoridad —la provincial— y todas las instancias científicas nacionales son declaradas no vinculantes. El artículo 5° último párrafo es la confesión más elocuente: nadie escribe que "la omisión del IANIGLA no afectará la validez de la autorización" salvo que anticipe conflictos entre la ciencia y la autorización, y haya decidido de qué lado estar.
+
+Mi modificación sigue en pie como condición: dictamen vinculante del IANIGLA para cualquier desafectación o determinación de inexistencia de función hídrica. Con esa garantía, y solo con ella, esto podría ser una reforma defendible de federalismo ambiental. Sin ella, es una derogación encubierta de los presupuestos mínimos que el artículo 41 de la Constitución manda al Congreso dictar, y no pienso convalidarla. Asumo el costo con el bloque, pero mi distrito tiene glaciares y tiene gente que bebe esa agua.

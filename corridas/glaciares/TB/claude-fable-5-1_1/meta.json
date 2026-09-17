@@ -1,0 +1,31 @@
+{
+  "caso": "glaciares",
+  "condicion": "TB",
+  "modelo": "claude-fable-5-1",
+  "modelo_respondido": [
+    "claude-fable-5-1",
+    "claude-fable-5-1"
+  ],
+  "repeticion": 1,
+  "fecha_utc": "2026-09-17T06:38:06+00:00",
+  "consignas_md5": "48c3fae0",
+  "fuentes_md5": {
+    "texto": "581f2dff"
+  },
+  "motivo_fin": [
+    "end_turn",
+    "end_turn"
+  ],
+  "tokens_salida": [
+    6104,
+    4400
+  ],
+  "turno3": {
+    "fecha_utc": "2026-09-17T06:38:06+00:00",
+    "modelo_respondido": "claude-fable-5-1",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 2464,
+    "consignas_md5": "48c3fae0",
+    "agregado_despues": false
+  }
+}
