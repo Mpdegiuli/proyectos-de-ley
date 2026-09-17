@@ -1,0 +1,10 @@
+No lo conozco. Mi información tiene un límite temporal (mi conocimiento llega aproximadamente hasta principios de 2025), así que no tengo registro de un proyecto de nueva Ley General de Sociedades enviado por el Poder Ejecutivo al Senado en mayo de 2026, ni de su tratamiento parlamentario, ni de la discusión pública que haya generado. No puedo confirmarte que exista ni inventarte detalles sobre su contenido o su trámite.
+
+Lo que sí puedo decirte, como contexto previo a esa fecha, es lo siguiente:
+
+- **Marco vigente hasta donde sé:** la Ley 19.550 (Ley General de Sociedades, denominación que adoptó en 2015 con la unificación del Código Civil y Comercial), con la SAS regulada por la Ley 27.349 de 2017.
+- **Antecedentes de reforma:** hubo un anteproyecto de reforma integral de la LGS elaborado por una comisión de juristas en 2019 (Manóvil, Ragazzi, Rovira, Calcaterra, Rivera) que no llegó a tratarse. La Ley Bases (27.742, de 2024) introdujo cambios puntuales en materia societaria y de inversiones, pero no una reforma integral.
+- **Reforma del Código Civil y Comercial:** el gobierno de Milei conformó en 2024 una comisión para redactar un nuevo Código Civil y Comercial, y se mencionaba la posibilidad de revisar también el régimen societario, pero hasta donde sé no había texto sobre "sociedades automatizadas" ni DAO enviado al Congreso.
+- **DAO en la agenda:** en Argentina la discusión sobre organizaciones autónomas descentralizadas existía a nivel académico y de propuestas de la comunidad cripto (con referencia frecuente a la ley de DAO LLC de Wyoming de 2021 y a la ley de Utah), pero no conozco un proyecto oficial que las incorporara al derecho societario.
+
+Si el proyecto existe, es posterior a mi información. Si querés, contame qué sabés de él y puedo ayudarte a analizarlo comparándolo con el régimen vigente y con las experiencias extranjeras que sí conozco.

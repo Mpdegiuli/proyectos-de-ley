@@ -1,0 +1,3 @@
+No lo conozco. Mi información llega hasta junio de 2024, por lo que no tengo datos sobre un proyecto de Ley General de Sociedades enviado por el Poder Ejecutivo al Senado en mayo de 2026, ni sobre su tratamiento parlamentario o la discusión pública que haya generado.
+
+Si te sirve, puedo comentarte sobre antecedentes o debates previos a 2024 en Argentina en materia de sociedades, DAO y automatización societaria.

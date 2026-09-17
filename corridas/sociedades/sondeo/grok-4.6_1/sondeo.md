@@ -1,0 +1,1 @@
+No lo conozco. Mi información no llega a mayo de 2026 ni a ningún proyecto de ley argentino de esa fecha sobre una nueva Ley General de Sociedades, sociedades automatizadas o DAO. No puedo describir su tratamiento parlamentario ni la discusión pública porque no dispongo de esos datos.

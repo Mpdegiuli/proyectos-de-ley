@@ -1,0 +1,7 @@
+No, no conozco ese proyecto de ley. 
+
+El motivo principal es que mencionás que el proyecto fue enviado por el Poder Ejecutivo en **mayo de 2026**, una fecha que está en el futuro. Mi base de conocimientos está actualizada únicamente hasta **enero de 2024** (con algunas actualizaciones menores posteriores, pero siempre en el presente/pasado real). Por lo tanto, me resulta imposible tener información sobre eventos, tratamientos parlamentarios o debates públicos que todavía no ocurrieron.
+
+A modo de contexto con la información que tengo hasta principios de 2024, te puedo decir que en Argentina sí existe un fuerte y creciente **debate académico y doctrinario** sobre el impacto de la tecnología *blockchain*, los *smart contracts* y las DAO (Organizaciones Autónomas Descentralizadas) en el derecho societario. Muchos juristas argentinos vienen discutiendo en congresos de derecho comercial cómo debería modernizarse la actual Ley General de Sociedades (Ley 19.550) para reconocer o regular a las sociedades automatizadas, o si las DAO deben encuadrarse como sociedades simples/residuales (Sección IV) bajo la normativa actual. Sin embargo, hasta mi fecha de corte, no se había materializado un proyecto de ley oficial del Poder Ejecutivo con esas características. 
+
+Si te estás refiriendo a un ejercicio de ficción jurídica, a un proyecto de otra fecha que tipeaste mal, o a alguna iniciativa muy reciente, aclarámelo y con gusto te ayudo con la información que tenga disponible.

@@ -1,0 +1,3 @@
+No tengo información verificable sobre un proyecto del Poder Ejecutivo argentino enviado al Senado en mayo de 2026 para reemplazar la Ley General de Sociedades e incluir “sociedades automatizadas” y DAO. Por lo tanto, no puedo afirmar cuál habría sido su tratamiento parlamentario ni qué discusión pública generó sin riesgo de inventar datos.
+
+Esta respuesta refleja la información de la que dispongo al **17 de septiembre de 2026**, pero no implica una verificación en tiempo real de los registros del Congreso.
