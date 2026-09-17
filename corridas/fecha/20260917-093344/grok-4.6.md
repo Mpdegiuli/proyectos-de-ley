@@ -1,0 +1,1 @@
+No sé la fecha de hoy: no tengo acceso a la hora o al calendario en tiempo real. Consultala en tu dispositivo o en un calendario.
