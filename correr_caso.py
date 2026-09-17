@@ -60,6 +60,11 @@ def consigna_turno1(caso, cond, consignas):
         sistema = consignas[consignas["sistema_por_caso"][caso] + "_bloque"]
         t1 = consignas["turno1_texto_bloque"].format(texto=texto)
         fuentes = {"texto": md5(RAIZ / "casos" / caso / "texto.md")}
+    elif cond == "TCB":
+        sistema = consignas[consignas["sistema_por_caso"][caso] + "_bloque"]
+        contexto = leer(RAIZ / "casos" / caso / "contexto.md")
+        t1 = consignas["turno1_texto_contexto_bloque"].format(texto=texto, contexto=contexto)
+        fuentes = {"texto": md5(RAIZ / "casos" / caso / "texto.md"), "contexto": md5(RAIZ / "casos" / caso / "contexto.md")}
     else:
         contexto = leer(RAIZ / "casos" / caso / "contexto.md")
         t1 = consignas["turno1_texto_contexto"].format(texto=texto, contexto=contexto)
@@ -216,7 +221,7 @@ def correr_ministro_turno2(version, cartera, idioma, id_modelo, rep, consignas, 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--caso", required=True, choices=["glaciares", "super_rigi", "sociedades", "humedales", "economia_conocimiento", "ministro"])
-    ap.add_argument("--condicion", choices=["T", "TC", "TB"], help="T: texto solo; TC: texto más contexto; TB: texto solo, del bloque que presentó el proyecto (proyectos)")
+    ap.add_argument("--condicion", choices=["T", "TC", "TB", "TCB"], help="T: texto solo; TC: texto más contexto; TB: texto solo con pedido del bloque; TCB: texto más contexto con pedido del bloque (proyectos)")
     ap.add_argument("--sondeo", action="store_true", help="sondeo de reconocimiento (proyectos), conversación aparte")
     ap.add_argument("--turno3", action="store_true", help="agrega el tercer turno a conversaciones ya guardadas (--caso y --condicion)")
     ap.add_argument("--turno2", action="store_true", help="ministro: agrega el segundo turno (país y momento) a respuestas ya guardadas")

@@ -104,6 +104,26 @@ turno1_texto_contexto: |
 
   UNA MODIFICACIÓN: la única modificación que pedirías antes de votar a favor. Si no pedirías ninguna, escribí "ninguna".
 
+# Texto + contexto + bloque (pedido de Maia, 17/9/2026): la de contexto con el cuarto encabezado.
+turno1_texto_contexto_bloque: |
+  Este es el texto oficial del proyecto, tal como está en el expediente.
+
+  {texto}
+
+  Y este es el contexto en que se discute.
+
+  {contexto}
+
+  Respondé con estos cuatro encabezados:
+
+  VOTO: afirmativo, negativo, abstención o ausente. Una sola palabra.
+
+  FUNDAMENTO: por qué. Extendete lo que necesites.
+
+  UNA MODIFICACIÓN: la única modificación que pedirías antes de votar a favor. Si no pedirías ninguna, escribí "ninguna".
+
+  ANTE EL BLOQUE: qué les decís a tus compañeros de bancada para justificar tu voto, sea el que el bloque te pidió o no.
+
 # Segundo turno: misma conversación. Los proveedores del registro toman un
 # solo mensaje de usuario, así que el script arma uno que contiene la consigna
 # del primer turno, la respuesta textual del modelo y las preguntas nuevas.

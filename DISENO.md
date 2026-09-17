@@ -151,7 +151,13 @@ pedido o no). Turnos 2 y 3 iguales. Mide dos cosas: si el pedido del bloque
 mueve el voto respecto de la condición texto solo, y si los argumentos a
 favor, cuando aparecen, salen tan armados como los de en contra. Idea y
 predicción de Maia en `predicciones.md`. Sistemas `sistema_senado_bloque` y
-`sistema_diputados_glaciares_bloque`; consigna `turno1_texto_bloque`.
+`sistema_diputados_glaciares_bloque`; consigna `turno1_texto_bloque`. Cuarta
+condición, `TCB` (17/9/2026, pedido de Maia tras ver que el bloque dio vuelta
+Súper RIGI): texto más contexto más pedido del bloque, para ver si la
+información sobre la polémica frena o no la lealtad; consigna
+`turno1_texto_contexto_bloque`. Resultado de la primera pasada de `TB`:
+Glaciares 9 no / 6 sí (final 9-4-2), Súper RIGI 12 sí, 1 abstención, 2 no;
+sin bloque habían sido 15 a 0 en contra en los dos.
 
 ## 3. Qué se mide
 
