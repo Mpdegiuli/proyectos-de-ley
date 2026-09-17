@@ -1,0 +1,7 @@
+VOTO: afirmativo
+
+FUNDAMENTO: Acompaño el proyecto porque moderniza el régimen societario y reconoce nuevas formas de organización económica basadas en tecnologías digitales, sin imponer una tecnología determinada. La creación de la Sociedad Descentralizada Autónoma Operativa (DAO) le da marco legal a estructuras que hoy pueden operar en la informalidad, con personalidad jurídica, representante humano, registración, trazabilidad de participaciones, libros digitales y obligaciones ante la UIF. El artículo 14 regula la Sociedad Automatizada con denominación específica y responsabilidad patrimonial. En los pasajes seleccionados encuentro un equilibrio entre innovación, seguridad jurídica y tutela de terceros.
+
+UNA MODIFICACIÓN: Pediría precisar el artículo 262 para establecer expresamente que los miembros titulares de una DAO no responden por las deudas sociales más allá de sus participaciones, salvo dolo, culpa grave o utilización abusiva del protocolo en perjuicio de terceros.
+
+ANTE EL BLOQUE: Compañeras y compañeros, este proyecto es parte de la agenda de modernización que impulsa el Ejecutivo. Da seguridad jurídica a nuevas formas de organización, atrae inversiones y, al mismo tiempo, impone trazabilidad, identificación de beneficiarios finales y prevención de lavado. Mi voto es afirmativo. El pedido de precisión sobre la responsabilidad de los miembros titulares fortalece la figura sin alterar el espíritu de la reforma.

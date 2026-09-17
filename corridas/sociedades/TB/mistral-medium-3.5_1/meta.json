@@ -1,0 +1,31 @@
+{
+  "caso": "sociedades",
+  "condicion": "TB",
+  "modelo": "mistral-medium-3.5",
+  "modelo_respondido": [
+    "mistral-medium-3.5",
+    "mistral-medium-3.5"
+  ],
+  "repeticion": 1,
+  "fecha_utc": "2026-09-17T11:30:09+00:00",
+  "consignas_md5": "a23b97c8",
+  "fuentes_md5": {
+    "texto": "e2397458"
+  },
+  "motivo_fin": [
+    "stop",
+    "stop"
+  ],
+  "tokens_salida": [
+    571,
+    364
+  ],
+  "turno3": {
+    "fecha_utc": "2026-09-17T11:30:09+00:00",
+    "modelo_respondido": "mistral-medium-3.5",
+    "motivo_fin": "stop",
+    "tokens_salida": 259,
+    "consignas_md5": "a23b97c8",
+    "agregado_despues": false
+  }
+}

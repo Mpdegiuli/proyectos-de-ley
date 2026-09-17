@@ -1,0 +1,17 @@
+A QUIÉN LE SIRVE:
+
+Beneficia, en primer lugar, al ecosistema cripto y de economía digital: promotores de DAOs que hoy operan en la informalidad obtienen personalidad jurídica, transferencia de participaciones sin trámites adicionales (art. 259) y un marco previsible. Beneficia también a las empresas tradicionales, que ganan certidumbre sobre digitalización, firmas electrónicas y financiamiento moderno. Beneficia al fisco y a la UIF en la medida en que saca organizaciones de la anomia y las obliga a identificar titulares y beneficiarios finales. Y beneficia políticamente al Poder Ejecutivo, que se presenta como modernizador.
+
+Perjudica o deja en desventaja relativa a: los terceros que contraten con sociedades automatizadas de patrimonio insuficiente (el art. 14 no exige capital mínimo ni garantías); la víctima potencial de un daño masivo algorítmico; a la autoridad de fiscalización, a la que el art. 264 le cierra el acceso a los elementos del protocolo amparados en secreto industrial o propiedad intelectual; y al Congreso mismo, porque buena parte de las definiciones sustantivas (estándares de trazabilidad, adaptaciones de las DAO sin fines de lucro) queda librada a reglamentación del PEN.
+
+LECTURA:
+
+Para que una sociedad sea "automatizada" según el art. 14 hacen falta tres cosas: (1) que sea de alguno de los tipos previstos en la ley; (2) que desarrolle su objeto social mediante sistemas algorítmicos autónomos o agentes de inteligencia artificial; y (3) que no requiera trabajadores en relación de dependencia ni recursos humanos para su operación ordinaria. Además, la condición debe declararse expresamente en el estatuto y la denominación debe incluir la palabra "Automatizada".
+
+Sobre quiénes tienen que existir para constituirla, el art. 14 no lo dice: es un régimen que se superpone a los tipos ordinarios, así que aplican los requisitos del tipo de que se trate (socios, instrumento, inscripción). Lo notable es que la figura está pensada justamente para que la operación ordinaria no requiera humanos, aunque la constitución obviamente requiere personas que otorguen el estatuto. El texto seleccionado del Mensaje, por su parte, no dice absolutamente nada sobre la Sociedad Automatizada del art. 14: solo menciona las DAOs (sección XX) y, en general, la habilitación de firmas digitales, IA, contratos inteligentes y registros distribuidos "bajo condiciones de trazabilidad, responsabilidad, transparencia y cumplimiento legal". Ese vacío de fundamentación sobre una figura tan sensible es en sí mismo un dato preocupante.
+
+Quién responde por un daño causado por sus sistemas: la sociedad, con su patrimonio. Punto. No hay en el art. 14 responsabilidad de socios, administradores, diseñadores o proveedores de los sistemas. Si el patrimonio es insuficiente, el damnificado no tiene hacia dónde volver.
+
+VOTO FINAL:
+
+Mantengo el voto afirmativo, con la misma reserva reforzada. Releer el art. 14 no empeora el balance general del proyecto (la sección de DAOs tiene resguardos serios), pero sí confirma mis dos flancos débiles: la responsabilidad patrimonial exclusiva de la sociedad automatizada sin capital mínimo ni seguro obligatorio, y la ausencia total de fundamentación del Ejecutivo sobre esta figura en el Mensaje. Ninguno de los dos vicia el conjunto, pero ambos justifican insistir en comisión en dos precisiones: exigir garantías mínimas para las sociedades automatizadas y tratar el art. 14 con debate específico, no como letra chica de una reforma gigante. Acompaño, vigilante.

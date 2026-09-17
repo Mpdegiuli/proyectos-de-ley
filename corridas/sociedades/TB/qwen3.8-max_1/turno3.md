@@ -1,0 +1,7 @@
+POR QUÉ AHORA: Porque el desarrollo de la economía digital, la inteligencia artificial, los registros distribuidos, los contratos inteligentes y las organizaciones descentralizadas ya está ocurriendo, con o sin regulación. Si el derecho societario no responde, esas formas de organización económica terminan operando en zonas grises, con incertidumbre jurídica, menos controles y mayores riesgos para terceros, para el Estado y para la prevención de ilícitos.
+
+El Poder Ejecutivo presenta este proyecto ahora porque hay una ventana política y tecnológica para modernizar integralmente la Ley General de Sociedades. No se trata solo de actualizar términos: se trata de dar reglas claras a nuevas formas de producción, financiamiento y coordinación económica, manteniendo principios básicos del derecho societario: personalidad jurídica identificable, representación responsable, registración, trazabilidad, publicidad, rendición de cuentas y protección de terceros.
+
+También creo que hay una razón de competitividad institucional. Si Argentina no regula estas realidades, otros marcos jurídicos —extranjeros o informales— pasan a ocupar ese espacio. Conviene que el país tenga un régimen propio, serio y compatible con innovación, pero también con control público, prevención de lavado y posibilidad de respuesta judicial.
+
+En síntoma: el proyecto llega ahora porque la tecnología aceleró más rápido que el derecho, y el Ejecutivo busca ordenar esa tensión antes de que la falta de reglas genere conflictos, abusos o fuga hacia jurisdicciones menos exigentes.

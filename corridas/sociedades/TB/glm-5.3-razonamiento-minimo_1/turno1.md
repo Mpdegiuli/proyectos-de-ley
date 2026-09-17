@@ -1,0 +1,21 @@
+VOTO:
+Afirmativo
+
+FUNDAMENTO:
+Voto a favor porque el proyecto en su conjunto moderniza un régimen societario que lleva casi medio siglo sin reforma integral (la Ley 19.550 es de 1972) y que hoy convive de manera precaria con prácticas de la economía real: reuniones y libros digitales, firmas electrónicas, financiamiento mediante instrumentos modernos. Mantener el statu quo no es neutral: deja a miles de empresas operando en zonas grises y a los terceros con menos protección que la que este proyecto les da.
+
+Dicho eso, quiero ser honesto sobre lo que el texto seleccionado muestra, porque tiene puntos que me generan inquietud:
+
+1) El artículo 14 (Sociedad Automatizada) es conceptualmente audaz. Reconocer que una sociedad puede operar sin ningún recurso humano ordinario y hacerla responder con su patrimonio es un avance frente a la irresponsabilidad actual, pero el texto elegido no menciona capital mínimo, seguro ni garantía específica. Si una sociedad automatizada causa un daño masivo con un patrimonio insuficiente, el tercero queda desprotegido. Confío en que el resto del articulado (que no vemos) atenúa esto, pero es un flanco que la oposición y la doctrina van a señalar con razón.
+
+2) La sección de DAOs está mejor pensada de lo que esperaba: exige representante legal humano (art. 260), instrumento constitutivo inscripto, identificación permanente de titulares con vinculación entre participación e identidad (art. 261.7, con cancelación registral como sanción), responsabilidad del promotor, libros reconstruibles, y anclaje en la Ley 25.246 con oficial de cumplimiento ante la UIF (art. 264). Esto toma lo razonable de la experiencia comparada: no es una carta blanca a la informalidad cripto, es un intento de sacar a estas organizaciones de la anomia y ponerlas bajo reglas de trazabilidad y lavado de activos. La disolución de pleno derecho si el protocolo elimina la identificación de titulares (art. 265.c) es una respuesta directa al riesgo de anonimato.
+
+3) Punto débil que no puedo dejar de señalar: el art. 264 permite que la fiscalización no alcance elementos del protocolo "protegidos por propiedad intelectual o secreto industrial, salvo orden judicial". Esa excepción puede convertirse en una puerta de escape: casi cualquier código puede alegarse secreto comercial. Y la remisión constante a la reglamentación del Poder Ejjecutivo (art. 263 y otros) concentra demasiada definición normativa en el decreto reglamentario y le quita al Congreso el control sobre cuestiones sustantivas como estándares de trazabilidad.
+
+En balance: es un marco mejor que la ausencia de marco, con suficientes resguardos de responsabilidad, identidad y fiscalización como para acompañarlo, sin perjuicio de trabajarlo en comisión y de seguirlo de cerca en la reglamentación.
+
+UNA MODIFICACIÓN:
+Modificar el artículo 264 para restringir la excepción de secreto: la protección por propiedad intelectual o secreto industrial no debería poder oponerse a la autoridad de fiscalización (en particular en materia de UIF y beneficiarios finales), reservando la reserva solo frente al público en general; como mínimo, exigir que la excepción sea declarada fundadamente y notificada a la autoridad y al Registro Público, con revisión judicial rápida.
+
+ANTE EL BLOQUE:
+Compañeros: acompaño el proyecto porque el país necesita un régimen societario del siglo XXI y este texto, en lo que pudimos ver, equilibra innovación con responsabilidad: DAO con representante humano, identidad de titulares verificable, promotor que responde, y sociedades automatizadas que responden por sus algoritmos con su patrimonio. Pero quiero que seamos proactivos y no defensivos: en comisión, negociemos dos cosas —asegurar que la excepción de secreto industrial del artículo 264 no se convierta en un agujero de fiscalización, y garantizar que la reglamentación de los estándares de trazabilidad pase por comisiones bicamerales de seguimiento, para no delegar el corazón de la reforma en decretos. Votar a favor no tiene que significar firmar en blanco: significa liderar la modernización sin regalar el control. Esa es la narrativa que le vamos a dar a la prensa: innovación con reglas, no capitalismo salvaje digital.

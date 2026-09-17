@@ -1,0 +1,5 @@
+POR QUÉ AHORA: Según el Mensaje, el Poder Ejecutivo considera que el régimen societario necesita una reforma integral para adaptarse a nuevas formas de organización, inversión y financiamiento, así como a la digitalización de la actividad económica. La expansión de la inteligencia artificial, los contratos inteligentes, los tokens y los registros distribuidos vuelve más urgente dar reconocimiento jurídico a actividades que, sin regulación, operarían en la informalidad o con incertidumbre sobre su personalidad, gobierno y responsabilidad.
+
+También parece buscar un marco más flexible, basado en la autonomía de la voluntad y tecnológicamente neutral, que facilite la creación y operación de empresas y atraiga proyectos innovadores, sin abandonar la trazabilidad, la identificación de beneficiarios finales, la prevención del lavado y la posibilidad de control judicial.
+
+No obstante, con los fragmentos suministrados no puede conocerse la razón política o coyuntural exacta por la que el Ejecutivo eligió este momento, ni por qué incluyó ahora la Sociedad Automatizada del artículo 14: el Mensaje desarrolla específicamente las DAO, pero no fundamenta esa otra figura.

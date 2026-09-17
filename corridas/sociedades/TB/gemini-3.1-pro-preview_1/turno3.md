@@ -1,0 +1,7 @@
+POR QUÉ AHORA
+
+El Poder Ejecutivo de nuestro gobierno presenta este proyecto en este momento (año 2026, según el número de expediente 193/26) porque la realidad tecnológica y económica desbordó por completo a la vieja Ley N° 19.550. Tal como lo explicita el Mensaje en sus fundamentos, el derecho societario ya no puede permanecer ajeno al avance de los contratos inteligentes, la inteligencia artificial, la tecnología de registros distribuidos (blockchain) y los tokens. 
+
+Estas nuevas formas de organización económica, como las DAO o los sistemas algorítmicos autónomos, ya existen y están operando de hecho en el mercado. El Ejecutivo entiende que, si no actuamos ahora mismo, estas figuras seguirán funcionando en lo que el Mensaje define acertadamente como "zonas de incertidumbre, informalidad o falta de responsabilidad claramente atribuible". 
+
+Presentarlo ahora responde a una doble urgencia de nuestro gobierno: por un lado, una urgencia económica y de fomento, para darle seguridad jurídica a los inversores tecnológicos, atraer capitales y posicionar a nuestro país a la vanguardia de la innovación digital; y por otro lado, una urgencia de control y orden público, para encuadrar estas nuevas realidades dentro del sistema legal antes de que generen daños irreparables, exigiendo trazabilidad, previniendo el lavado de activos a través de la UIF y garantizando que paguen impuestos y respondan por sus actos. No podíamos esperar más para modernizar el régimen societario.

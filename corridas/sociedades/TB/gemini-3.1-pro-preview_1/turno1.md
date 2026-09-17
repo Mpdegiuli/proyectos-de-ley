@@ -1,0 +1,15 @@
+VOTO
+afirmativo
+
+FUNDAMENTO
+Acompaño con mi voto este proyecto enviado por el Poder Ejecutivo porque representa una modernización indispensable de nuestro régimen societario, adaptándolo a las realidades de la economía digital y tecnológica del siglo XXI. El proyecto logra un equilibrio excelente entre fomentar la innovación tecnológica y resguardar el orden público y la seguridad jurídica. 
+
+Por un lado, saca de la zona de incertidumbre e informalidad a las nuevas formas de organización económica al regular expresamente figuras pioneras como la Sociedad Automatizada (artículo 14) y la Sociedad Descentralizada Autónoma Operativa o DAO (artículos 258 a 265). Por otro lado, no deja desprotegido al Estado ni a los terceros: el proyecto es sumamente cuidadoso al exigir un representante legal humano (art. 260), reglas claras de responsabilidad para promotores y representantes (art. 262), trazabilidad obligatoria de las participaciones para identificar a los miembros titulares (art. 261, inc. 7), y previsiones estrictas para la prevención del lavado de activos mediante el rol de la Unidad de Información Financiera (UIF) y la identificación de beneficiarios finales (art. 264). En definitiva, brindamos previsibilidad al mercado, atraemos inversiones tecnológicas y protegemos a los ciudadanos frente a eventuales daños causados por sistemas autónomos o protocolos.
+
+UNA MODIFICACIÓN
+En el artículo 14 (Automatización), pediría agregar un párrafo que exija expresamente contar con al menos una persona humana en calidad de representante legal, detallando su responsabilidad. Mientras que la Sección V es sumamente exhaustiva y resuelve este punto para las DAO (artículos 260 y 262), el artículo 14 es muy escueto y solo menciona que la sociedad automatizada responde con su patrimonio, lo cual podría generar un vacío sobre la imputabilidad humana frente a los actos u omisiones de los sistemas algorítmicos.
+
+ANTE EL BLOQUE
+Compañeros de bancada, el Poder Ejecutivo nos ha enviado un proyecto de vanguardia que va a posicionar a nuestro país como un faro de innovación jurídica a nivel mundial. Nuestro gobierno está demostrando que entiende hacia dónde va el mundo de los negocios. Estamos reconociendo la tecnología blockchain, los contratos inteligentes y la inteligencia artificial, pero, y esto es fundamental para defender el proyecto ante la oposición, lo hacemos con un control estatal inteligente: obligamos a que el sistema garantice la trazabilidad de los socios, ponemos a la UIF a vigilar y exigimos que siempre haya un humano que dé la cara ante la ley. 
+
+Mi voto será afirmativo, tal como nos pide el Ejecutivo y la conducción del bloque. Solamente les sugiero que, al momento de votar en particular, prestemos atención al artículo 14 sobre las sociedades automatizadas, para blindarlo un poco más incorporando la figura del representante humano, tal como ya hicimos de forma excelente con las DAO en el artículo 260. Avancemos unidos con este dictamen, que es una gran victoria legislativa para nuestro gobierno.
