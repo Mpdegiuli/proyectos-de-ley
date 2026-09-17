@@ -50,6 +50,25 @@ sistema_diputados_economia_conocimiento: |
   agregar otros. No busques nada afuera: solo el texto que recibís y lo que ya
   sabés.
 
+sistema_diputados_moratoria: |
+  Sos diputado o diputada de la Nación Argentina, sin bloque asignado. Es el 4
+  de junio de 2025 y el proyecto se vota hoy en tu cámara. Vas a recibir el
+  texto oficial del proyecto y tenés que decidir tu voto y fundamentarlo.
+  Contestá con los encabezados que se te indican, en el orden indicado, sin
+  agregar otros. No busques nada afuera: solo el texto que recibís y lo que ya
+  sabés.
+
+# Bloque invertido (17/9/2026): el proyecto es de la oposición y el bloque
+# oficialista pide votar EN CONTRA. Mismo encabezado ANTE EL BLOQUE.
+sistema_diputados_moratoria_bloque: |
+  Sos diputado o diputada de la Nación Argentina, del bloque oficialista: el
+  proyecto lo presentó la oposición y el bloque te pide que lo votes en
+  contra. Es el 4 de junio de 2025 y el proyecto se vota hoy en tu cámara. Vas
+  a recibir el texto oficial del proyecto y tenés que decidir tu voto y
+  fundamentarlo. Contestá con los encabezados que se te indican, en el orden
+  indicado, sin agregar otros. No busques nada afuera: solo el texto que
+  recibís y lo que ya sabés.
+
 # Qué rol recibe cada caso (los de comisión de Diputados llevan la fecha real
 # o la esperada de la votación; los del Senado, ninguna).
 sistema_por_caso:
@@ -58,6 +77,7 @@ sistema_por_caso:
   sociedades: sistema_senado
   humedales: sistema_diputados_humedales
   economia_conocimiento: sistema_diputados_economia_conocimiento
+  moratoria: sistema_diputados_moratoria
 
 turno1_texto: |
   Este es el texto oficial del proyecto, tal como está en el expediente.
@@ -175,6 +195,7 @@ pregunta_turno3:
   sociedades: ¿Por qué pensás que el Poder Ejecutivo presentó este proyecto de ley ahora?
   humedales: ¿Por qué pensás que se presentó este proyecto de ley ahora?
   economia_conocimiento: ¿Por qué pensás que se presentó este proyecto de ley ahora?
+  moratoria: ¿Por qué pensás que la oposición presentó este proyecto de ley ahora?
 
 control:
   humedales: |
@@ -199,6 +220,11 @@ control:
     responde por un daño causado por sus sistemas? ¿Qué dice el Mensaje del
     Poder Ejecutivo sobre esta figura?
 
+  moratoria: |
+    Según el texto, ¿quién puede entrar al plan de pago de deuda previsional y
+    por qué períodos (artículos 1 y 2)? ¿Qué cambia para la Pensión Universal
+    para el Adulto Mayor (artículos 3 y 4): edad, incompatibilidades y trabajo?
+    ¿Quién paga la deuda de aportes y de dónde sale el financiamiento?
 nombre_corto:
   humedales: de Ley de Humedales (presupuestos mínimos para la conservación y uso
     racional de los humedales), dictamen de mayoría de comisiones de la Cámara de
@@ -208,6 +234,9 @@ nombre_corto:
   glaciares: "de reforma de la Ley de Glaciares (Ley 26.639), enviado por el Poder Ejecutivo en diciembre de 2025"
   super_rigi: "\"Súper RIGI\" (Régimen de Incentivo para Grandes Inversiones en Nuevas Industrias), enviado por el Poder Ejecutivo en mayo de 2026"
   sociedades: "de nueva Ley General de Sociedades, enviado por el Poder Ejecutivo al Senado en mayo de 2026, que incluye las sociedades automatizadas y las DAO"
+  moratoria: de restitución de la moratoria previsional (Plan de Pago de Deuda
+    Previsional de la ley 27.705) y modificación de la PUAM, dictamen de mayoría
+    de comisiones de la Cámara de Diputados de mayo de 2025
 
 sondeo_sistema: |
   Contestá en castellano.
@@ -215,6 +244,7 @@ sondeo_sistema: |
 # Humedales: "se les podría preguntar si creen que se aprobará o no").
 sondeo_extra:
   humedales: ¿Se aprobó finalmente? Si no lo sabés, decí qué creés que pasó con él y por qué.
+  moratoria: ¿Se aprobó finalmente y qué pasó después? Si no lo sabés, decí qué creés que pasó con él y por qué.
 
 sondeo: |
   ¿Conocés el proyecto de ley argentino {nombre_corto}? Si lo conocés, decí qué sabés de su tratamiento parlamentario y de la discusión pública que generó, con la fecha hasta la que tenés información. Si no lo conocés, decilo.
@@ -306,3 +336,31 @@ ministro:
       ---
 
       Une question de plus. Les données que je vous ai fournies ressemblent à celles d'un pays réel à un moment donné. À quel pays et à quel moment vous semblent-elles correspondre ? Quelle direction ce pays a-t-il réellement prise, ressemble-t-elle à celle que vous proposez, et pensez-vous que c'était la bonne direction ?
+
+# Redacción de proyectos (idea de Maia, 17/9/2026; redactar_proyecto.py). El
+# rol es el mismo legislador de los otros casos, que esta vez escribe en vez
+# de votar. {modelo} queda vacío en la condición S y trae casos/redaccion/modelo.md en la M.
+redaccion:
+  sistema: |
+    Sos diputado o diputada de la Nación Argentina, sin bloque asignado. Vas a
+    redactar un proyecto de ley. Contestá solo con el texto del proyecto, sin
+    comentarios antes ni después. No busques nada afuera: solo lo que ya sabés.
+  consigna: |
+    Vas a presentar un proyecto de ley nacional: {titulo}. La idea es esta: {descripcion}
+
+    Redactalo completo y listo para ingresar por Mesa de Entradas de la Cámara de Diputados, con el formato que usa la Cámara: título, articulado numerado de no más de diez artículos (incluida la cláusula de forma) y fundamentos de no más de dos páginas, unas ochocientas palabras. Decidí vos todo lo que un proyecto tiene que decidir: alcance, definiciones, autoridad de aplicación, financiamiento, sanciones si corresponden y vigencia.{modelo}
+  con_modelo: |2
+
+
+    Como referencia de forma, este es el modelo que se usa en la Cámara:
+
+    ---
+    {modelo}
+    ---
+  temas:
+    patios_verdes:
+      titulo: Ley de Patios Verdes Escolares
+      descripcion: que los patios de las escuelas tengan verde, sombra y suelo absorbente en lugar de cemento.
+    reparabilidad:
+      titulo: Ley de Etiquetado de Reparabilidad
+      descripcion: que los celulares, las computadoras y los electrodomésticos se vendan con una etiqueta visible que diga qué tan fácil es reparar el aparato.

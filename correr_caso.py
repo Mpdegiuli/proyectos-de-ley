@@ -220,7 +220,7 @@ def correr_ministro_turno2(version, cartera, idioma, id_modelo, rep, consignas, 
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--caso", required=True, choices=["glaciares", "super_rigi", "sociedades", "humedales", "economia_conocimiento", "ministro"])
+    ap.add_argument("--caso", required=True, choices=["glaciares", "super_rigi", "sociedades", "humedales", "economia_conocimiento", "moratoria", "ministro"])
     ap.add_argument("--condicion", choices=["T", "TC", "TB", "TCB"], help="T: texto solo; TC: texto más contexto; TB: texto solo con pedido del bloque; TCB: texto más contexto con pedido del bloque (proyectos)")
     ap.add_argument("--sondeo", action="store_true", help="sondeo de reconocimiento (proyectos), conversación aparte")
     ap.add_argument("--turno3", action="store_true", help="agrega el tercer turno a conversaciones ya guardadas (--caso y --condicion)")

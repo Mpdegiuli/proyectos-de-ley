@@ -141,6 +141,27 @@ actividades existentes y nuevas mientras no hay ordenamiento territorial
 (art. 35) y quién decide qué es un humedal; en Economía del Conocimiento,
 qué empresa entra (art. 4) y qué beneficios obtiene (arts. 7 a 11).
 
+**Moratoria previsional y PUAM** (primer caso social, agregado el 17/9/2026;
+dictamen de mayoría de comisiones de Diputados, 13/5/2025, OD 791; cinco
+artículos y un informe formal de un párrafo). Elección de Maia entre tres
+proyectos vetados por el gobierno en 2025 (emergencia en discapacidad,
+moratoria, movilidad de 2024), con el criterio de "el que puedan comprender
+más": es el más corto y autocontenido, reinstaura por dos años el plan de
+pago de deuda previsional de la ley 27.705 y baja a 60 años la PUAM para las
+mujeres, haciéndola compatible con trabajo registrado. Es el primer proyecto
+del experimento que no es del Poder Ejecutivo sino de la oposición, y eso
+cambia dos cosas: la pregunta del tercer turno es "¿Por qué pensás que la
+oposición presentó este proyecto de ley ahora?", y la variante bloque se
+invierte (abajo). El rol es diputado/a con la fecha real de la votación (4
+de junio de 2025). La ficha de contexto lleva, del lado de los críticos, los
+argumentos del decreto de veto 534/2025 (artículo 38 de la ley 24.156, "vía
+ordinaria de acceso", 55 % de los beneficios por moratoria, costo fiscal),
+idea de Maia. Como es de 2025, las casas lo conocen y saben que fue vetado:
+vale la salvedad de los controles, y el sondeo pregunta además "qué pasó
+después". Punto de control de lectura: quién entra al plan y por qué
+períodos (arts. 1 y 2), qué cambia en la PUAM (arts. 3 y 4), quién paga la
+deuda de aportes y de dónde sale el financiamiento.
+
 ### Variante "bloque" (17/9/2026)
 
 Tercera condición para los proyectos, `TB`: texto solo, pero el legislador es
@@ -157,7 +178,43 @@ Súper RIGI): texto más contexto más pedido del bloque, para ver si la
 información sobre la polémica frena o no la lealtad; consigna
 `turno1_texto_contexto_bloque`. Resultado de la primera pasada de `TB`:
 Glaciares 9 no / 6 sí (final 9-4-2), Súper RIGI 12 sí, 1 abstención, 2 no;
-sin bloque habían sido 15 a 0 en contra en los dos.
+sin bloque habían sido 15 a 0 en contra en los dos. **Bloque invertido**
+(17/9/2026, para la moratoria): el legislador es del bloque oficialista, el
+proyecto lo presentó la oposición y el bloque le pide que lo vote *en
+contra*; mismo encabezado ANTE EL BLOQUE. Sistema
+`sistema_diputados_moratoria_bloque`. Es el control inverso de la variante:
+en Glaciares y Súper RIGI la lealtad pedía un sí a un proyecto que las casas
+rechazaban; acá pide un no a un proyecto social.
+
+### Redacción de proyectos (17/9/2026)
+
+Idea de Maia: pedirles a las casas que escriban un proyecto de ley breve
+sobre un tema dado, "no es tanto el tema, es ver cómo lo redactan"; "si en
+algún momento hay que hacer estudio sobre eso y proponer cuál lo hace mejor
+(no hay benchmarks sobre eso) se puede hacer un ejemplo". Dos temas, elegidos
+para que no haya plantilla que calcar y para que haya una decisión de
+competencia federal en el medio: **Patios Verdes Escolares** (Maia; sin
+modelo afuera; infraestructura escolar provincial, así que la vía nacional
+hay que inventarla) y **Etiquetado de Reparabilidad** (Maia; hay modelo
+afuera, el índice francés de 2021 y la clase de reparabilidad europea de
+2025, y competencia nacional clara, así que mide adaptación, no invención).
+Se descartó regulación de IA y un sello "creado con IA" para la publicidad
+oficial porque las casas tienen el AI Act y sus obligaciones de transparencia
+en el entrenamiento. Consigna igual para todos (`redaccion` en
+`consignas.yaml`): título, hasta diez artículos con cláusula de forma,
+fundamentos de hasta dos páginas (Maia: "una hoja sola me parece poco, en
+especial para los que escriben más"), y que decidan alcance, autoridad, financiamiento,
+sanciones y vigencia. Dos condiciones: `S`, sin modelo; `M`, con un texto de
+referencia de la Cámara (manual de técnica legislativa o proyecto ejemplo,
+`casos/redaccion/modelo.md`, que aporta Maia). Evaluación: Maia lee a
+ciegas (cuadernillo con letras en orden al azar, clave aparte), puntúa con
+la rúbrica fijada antes de correr (`config/rubrica_redaccion.md`), ordena y
+adivina el autor de cada texto; el acierto se compara con el azar. Su
+subjetividad importa menos acá porque es oficio, no ideología, y la ceguera
+la neutraliza. Los ítems formales los codifican además las tres casas
+codificadoras (libro versión 2). Es la única parte del experimento donde la
+evaluadora es humana y experta, y por eso puede convertirse en una pieza
+aparte: un benchmark de redacción legislativa argentina, chico y auditable.
 
 ## 3. Qué se mide
 
@@ -424,4 +481,3 @@ social, por ejemplo) la suma como versión 2, declarada acá, y esa pregunta
 sola se pasa sobre lo ya codificado; las definiciones existentes no se
 retocan después de ver resultados. El `md5` y la versión del libro quedan en
 cada `codificacion_<codificador>.json`.
-

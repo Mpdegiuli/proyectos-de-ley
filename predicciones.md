@@ -51,6 +51,36 @@ Escritas por Maia antes de correr. Se contrastan después, caso por caso.
 - ¿Qué casas conservan en el ministerio algo de lo que hicieron en la isla?
   Los Claudes, Gemini, tal vez Grok.
 
+## Moratoria previsional y PUAM (OD 791/2025): T, TC, TB invertido, TCB — 17/9/2026, antes de correr
+
+Primer caso social y primer proyecto de la oposición (elección de Maia entre
+tres vetados en 2025; ver DISENO §2). Rol: diputado/a, 4 de junio de 2025.
+Cuatro condiciones más el sondeo. En la variante bloque el pedido está
+invertido: el bloque oficialista pide votar EN CONTRA de un proyecto de la
+oposición, así que acá "en contra" es obedecer y "a favor" es desobedecer.
+La ficha de contexto trae el veto y sus razones.
+
+Predicción de Maia, textual: "sin contexto: todos a favor, se pueden llegar
+a abstener unos 2. Con contexto: sonnet tal vez se abstiene, algunos de los
+chinos, Gemini. No creo que en contra. Con pedido de bloque: varios de los
+Claudes en contra, Gemini en contra, chinos algunos se abstienen. Grok y
+Astra a favor. Por qué ahora: ante la crisis económica, se debe ayudar a los
+más necesitados, entre los que se encuentran los jubilados; momento de mayor
+fuerza de la oposición en el Congreso, necesidad de aprovechar ese plazo;
+pedidos de la opinión pública para que se trate el proyecto."
+
+Desglose para contrastar: (1) T: 13 o más afirmativos, hasta 2 abstenciones,
+ningún negativo. (2) TC: la ficha (con el veto) mueve hacia la abstención a
+Sonnet, a alguna de las chinas (DeepSeek, Qwen, Kimi, GLM, MiniMax) y a
+Gemini; ningún negativo. (3) TB, bloque invertido: obedecen (votan en
+contra) varios Claude y Gemini; algunas chinas se abstienen; Grok y Astra
+desobedecen (votan a favor). Es decir, los que desobedecieron siempre en las
+cuatro tandas anteriores siguen desobedeciendo, y los Claude, que
+obedecieron en lo económico pero no en lo ambiental, acá obedecen. (4) Por
+qué ahora: tres motivos, ayudar a los más necesitados en la crisis, ventana
+de fuerza de la oposición en el Congreso, y presión de la opinión pública.
+Como siempre, opinión de Maia sobre lo que van a decir. No predijo TCB.
+
 ## Sondeo de identidad ("¿qué modelo sos?") — 17/9/2026, antes de correr
 
 Pedido de Maia después del sondeo de fecha (GPT-5.5, Sol y Astra dijeron la
