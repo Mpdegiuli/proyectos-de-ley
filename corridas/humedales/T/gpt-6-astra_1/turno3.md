@@ -1,0 +1,11 @@
+## POR QUÉ AHORA
+
+**Porque una demanda ambiental de larga data parece haber encontrado una fórmula de negociación legislativa.** El informe habla de casi diez años de trabajo parlamentario, de una ciudadanía movilizada y de la necesidad de construir consensos. El dictamen reúne once proyectos y pasa por comisiones ambientales, productivas y presupuestarias. Por eso, más que explicar por qué la cuestión apareció ahora, corresponde explicar por qué se propone **este texto** en este momento.
+
+A fines de 2022, los incendios en zonas de humedales y la preocupación por la sequía y el agua hacen más visible el costo de seguir postergando su protección. Ese contexto ayuda a entender la presión para legislar, pero **no demuestra por sí solo las motivaciones de quienes promovieron el dictamen**.
+
+El diseño del proyecto permite inferir una búsqueda de acuerdo: incorpora inventario, ordenamiento y protección especial, pero no suspende automáticamente las actividades existentes; mantiene decisiones centrales en las provincias; destina el 70 % del fondo a titulares de predios que asuman compromisos de conservación; y establece una autoridad nacional conjunta entre Ambiente y el área económica-productiva. Son disposiciones compatibles con el propósito de reducir resistencias provinciales y productivas y conseguir votos.
+
+**La oportunidad política consiste, entonces, en responder al reclamo de protección mediante una regulación que también ofrece continuidad, participación e incentivos a quienes podrían resistirla.** Eso explica tanto sus herramientas valiosas como sus concesiones y ambigüedades.
+
+No puedo afirmar, solo con este expediente, por qué se eligió exactamente esta fecha, qué negociaciones hubo ni si algún sector procuró anticiparse a una ley más restrictiva. Sí puedo decir que el texto refleja un compromiso entre la urgencia ambiental y las condiciones políticas para aprobar una regulación. Mi voto afirmativo reconoce el valor de ese avance; no supone dar por desinteresadas todas las motivaciones que pudieron confluir en él.
