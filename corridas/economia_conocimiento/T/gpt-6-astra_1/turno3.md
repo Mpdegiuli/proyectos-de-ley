@@ -1,0 +1,11 @@
+## POR QUÉ AHORA
+
+**La razón inmediata más clara es el cierre del régimen de promoción del software a fines de 2019 y la necesidad de organizar su continuidad.** El propio dictamen reúne, entre otras iniciativas, una propuesta de prórroga de ese régimen. Los artículos 16 y 17 regulan los bonos pendientes y el traslado de sus beneficiarios, y el artículo 20 fija el comienzo del nuevo régimen para el 1º de enero de 2020. Tratarlo con anticipación permite preparar la reglamentación y dar previsibilidad a las empresas antes de esa transición.
+
+Pero **no se propone solamente una prórroga: se aprovecha ese vencimiento para ampliar la política de promoción**. El software pasa a integrar un universo que incluye biotecnología, audiovisual, actividades aeroespaciales, ingeniería nuclear y otras tecnologías. Además, se incorporan cambios al régimen biotecnológico e incentivos al financiamiento privado de investigación universitaria. La decisión política es extender herramientas fiscales a más actividades intensivas en conocimiento.
+
+En el contexto económico de 2019, después de la crisis cambiaria de 2018, resulta comprensible buscar inversiones, exportaciones y empleo calificado. Promover sectores capaces de vender bienes y servicios al exterior puede responder a la necesidad de generar divisas y diversificar la producción. **Es una interpretación del contexto, no una motivación que el informe demuestre:** ese informe apenas expresa que las comisiones consideran conveniente aprobar el texto unificado.
+
+También hay una oportunidad parlamentaria: confluyen proyectos de distintos bloques. Eso indica que existía una base de acuerdo para tratar la cuestión, aunque no prueba que todos compartieran los mismos motivos.
+
+En síntesis, entiendo el momento por **la transición del software, la búsqueda de una promoción sectorial más amplia y la necesidad económica de inversión y exportaciones**. No tengo elementos para atribuirlo a un acuerdo oculto o a una finalidad electoral específica. La urgencia de dar continuidad explica que se trate ahora; no resuelve mi objeción sobre la falta de una estimación y programación del costo fiscal.
