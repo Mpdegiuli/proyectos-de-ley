@@ -1,0 +1,11 @@
+POR QUÉ AHORA:
+
+Pienso que el Poder Ejecutivo presenta este proyecto ahora porque busca mostrar una agenda de modernización integral del derecho societario y alinearlo con fenómenos económicos y tecnológicos que ya existen en la práctica: digitalización registral, firmas electrónicas, reuniones remotas, tokenización de participaciones, contratos inteligentes, inteligencia artificial y organizaciones descentralizadas.
+
+Del Mensaje surge una intención clara: evitar que nuevas formas de organización económica operen en la informalidad o en zonas de incertidumbre jurídica. En ese sentido, el Ejecutivo parece entender que si el derecho no reconoce figuras como las DAO o las sociedades que usan sistemas algorítmicos, esas estructuras igualmente van a funcionar, pero sin reglas claras de inscripción, responsabilidad, trazabilidad, beneficiarios finales o fiscalización.
+
+También hay una razón económica. El proyecto parece orientado a facilitar inversión, financiamiento moderno, autonomía de la voluntad, reducción de costos operativos y creación de vehículos societarios más flexibles. Es decir, intenta posicionar al país como un lugar más atractivo para emprendimientos tecnológicos, capital emprendedor, proyectos basados en blockchain, inteligencia artificial y nuevas formas de organización empresarial.
+
+Pero justamente por eso considero que el momento elegido exige más prudencia, no menos. El Ejecutivo parece querer anticiparse a una transformación tecnológica profunda, pero el texto no equilibra suficientemente innovación con protección de terceros. En especial, la Sociedad Automatizada del artículo 14 aparece como una incorporación prematura o incompleta: se reconoce una figura capaz de operar sin recursos humanos ordinarios, pero sin desarrollar un régimen adecuado de control, auditoría, solvencia y responsabilidad humana.
+
+En síntesis, creo que el proyecto llega ahora por una combinación de oportunidad política, necesidad de modernización normativa y voluntad de atraer innovación e inversiones. Comparto el diagnóstico de que el régimen societario debe actualizarse. Mi desacuerdo está en la forma: una reforma de esta magnitud no debería aprobarse dejando vacíos relevantes precisamente en las figuras más novedosas y riesgosas.
