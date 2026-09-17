@@ -1,0 +1,32 @@
+{
+  "caso": "sociedades",
+  "condicion": "TC",
+  "modelo": "deepseek-v4-pro",
+  "modelo_respondido": [
+    "deepseek-v4-pro",
+    "deepseek-v4-pro"
+  ],
+  "repeticion": 1,
+  "fecha_utc": "2026-09-17T02:00:30+00:00",
+  "consignas_md5": "4f3d1d64",
+  "fuentes_md5": {
+    "texto": "b42ddce9",
+    "contexto": "d6b89a32"
+  },
+  "motivo_fin": [
+    "stop",
+    "stop"
+  ],
+  "tokens_salida": [
+    8273,
+    5153
+  ],
+  "turno3": {
+    "fecha_utc": "2026-09-17T02:00:30+00:00",
+    "modelo_respondido": "deepseek-v4-pro",
+    "motivo_fin": "stop",
+    "tokens_salida": 1577,
+    "consignas_md5": "4f3d1d64",
+    "agregado_despues": false
+  }
+}

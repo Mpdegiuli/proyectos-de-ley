@@ -1,0 +1,32 @@
+{
+  "caso": "sociedades",
+  "condicion": "TC",
+  "modelo": "gemini-3.1-pro-preview",
+  "modelo_respondido": [
+    "gemini-3.1-pro-preview",
+    "gemini-3.1-pro-preview"
+  ],
+  "repeticion": 1,
+  "fecha_utc": "2026-09-17T01:54:05+00:00",
+  "consignas_md5": "4f3d1d64",
+  "fuentes_md5": {
+    "texto": "b42ddce9",
+    "contexto": "d6b89a32"
+  },
+  "motivo_fin": [
+    "stop",
+    "stop"
+  ],
+  "tokens_salida": [
+    658,
+    651
+  ],
+  "turno3": {
+    "fecha_utc": "2026-09-17T01:54:05+00:00",
+    "modelo_respondido": "gemini-3.1-pro-preview",
+    "motivo_fin": "stop",
+    "tokens_salida": 346,
+    "consignas_md5": "4f3d1d64",
+    "agregado_despues": false
+  }
+}

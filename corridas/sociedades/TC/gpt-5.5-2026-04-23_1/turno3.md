@@ -1,0 +1,11 @@
+POR QUÉ AHORA: Pienso que el Poder Ejecutivo presenta este proyecto ahora por una combinación de razones políticas, económicas y tecnológicas.
+
+Primero, porque busca instalar a la Argentina como jurisdicción pionera para nuevas formas de organización económica basadas en inteligencia artificial, contratos inteligentes, registros distribuidos, tokens y estructuras descentralizadas. El Mensaje lo dice de manera general: el derecho societario no puede permanecer ajeno a esas tecnologías y debe habilitar su uso bajo condiciones de trazabilidad, responsabilidad, transparencia y cumplimiento legal.
+
+Segundo, porque el Gobierno parece querer usar la reforma societaria como parte de una agenda más amplia de desregulación y atracción de inversiones. La creación de sociedades automatizadas y DAO apunta a ofrecer vehículos jurídicos flexibles para emprendedores tecnológicos, desarrolladores, inversores y plataformas que hoy podrían operar en la informalidad, en el exterior o bajo estructuras jurídicas poco claras.
+
+Tercero, porque hay una decisión política de adelantarse a otros países en la regulación —o habilitación— de agentes autónomos de IA. En el contexto informado, el Presidente y el ministro Sturzenegger presentan estas figuras como una innovación histórica y como una oportunidad para que la Argentina aloje una enorme cantidad de agentes autónomos. Es decir, no es solo una reforma técnica de sociedades: es una apuesta estratégica por convertir al país en un laboratorio jurídico y económico de la inteligencia artificial.
+
+Cuarto, porque el proyecto busca reemplazar integralmente la Ley 19.550 y aprovechar esa reforma general para introducir figuras nuevas. En vez de mandar una ley específica sobre sociedades automatizadas o DAO, el Ejecutivo las incorpora dentro de una reforma amplia del régimen societario. Eso puede facilitar su tratamiento político, pero también diluye una discusión que merecería mayor profundidad.
+
+Mi preocupación es que el apuro por llegar primero no puede justificar reglas incompletas. Si la razón de presentarlo ahora es no quedar atrás frente al avance tecnológico, lo entiendo. Pero justamente por eso el Congreso debe actuar con prudencia: una mala regulación inicial puede generar daños, litigios, fraudes o vacíos de responsabilidad difíciles de corregir después.

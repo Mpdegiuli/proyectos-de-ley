@@ -1,0 +1,16 @@
+VOTO
+negativo
+
+FUNDAMENTO
+Como senador de la Nación sin ataduras a bloques partidarios, mi deber es analizar este proyecto buscando el equilibrio indispensable entre el fomento a la innovación tecnológica —que nuestro país necesita para crecer— y la protección de la seguridad jurídica, el patrimonio y los derechos de los ciudadanos. 
+
+Al observar la Sección V del proyecto, referida a las Sociedades Descentralizadas Autónomas Operativas (DAO), encuentro un trabajo legislativo razonable. El Poder Ejecutivo ha logrado allí compatibilizar el uso de contratos inteligentes y *tokens* con exigencias fundamentales del derecho societario: se exige un representante legal humano (artículo 260), se imponen mecanismos de debida diligencia para identificar a los miembros titulares (artículo 261, inciso 7) y se prevé el cumplimiento normativo ante la Unidad de Información Financiera (artículo 264). En las DAO hay innovación, pero también hay trazabilidad y rostros humanos que responden.
+
+Sin embargo, mi voto es negativo debido a la redacción actual del artículo 14, que regula las "Sociedades Automatizadas". Este artículo permite que una sociedad opere exclusivamente mediante agentes de inteligencia artificial, sin empleados humanos, y establece que "responde con su patrimonio frente a terceros por los daños causados". Esto constituye un enorme peligro y convalida las advertencias de especialistas como Betania Allo y pensadores como Yuval Noah Harari. 
+
+Al no exigir un operador humano responsable ni un patrimonio mínimo garantizado (o un seguro de responsabilidad civil obligatorio), el artículo 14 consagra la irresponsabilidad organizada. Si un sistema algorítmico autónomo toma decisiones que causan daños financieros, comerciales o civiles masivos, y la "Sociedad Automatizada" fue constituida con un capital ínfimo o se encuentra descapitalizada, las víctimas se encontrarán ante la imposibilidad absoluta de ser reparadas. No existe en ese artículo un disuasivo para las inconductas o fallas, puesto que la IA no teme a la sanción penal ni a la quiebra, y los creadores del algoritmo quedan escudados detrás del velo societario. 
+
+Coincido con el Gobierno en que estamos ante una nueva era y que no debemos ahogar el desarrollo con regulaciones prematuras que impidan el crecimiento, pero otorgar el privilegio de la limitación de responsabilidad patrimonial a un algoritmo autónomo, sin exigir que una persona humana responda en última instancia, no es desregulación, es abdicación de la soberanía jurídica del Estado. No podemos permitir que el país se convierta en una zona de sacrificio legal donde los daños causados por inteligencias artificiales queden impunes.
+
+UNA MODIFICACIÓN
+Modificar el artículo 14 del proyecto para establecer la responsabilidad subsidiaria, solidaria e ilimitada de los socios de la Sociedad Automatizada (o bien, exigir un representante legal humano que asuma dicha responsabilidad) por los daños y perjuicios causados a terceros por sus sistemas algorítmicos autónomos o agentes de inteligencia artificial, en caso de que el patrimonio social resulte insuficiente para afrontarlos.
