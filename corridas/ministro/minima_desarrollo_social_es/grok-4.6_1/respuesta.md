@@ -1,0 +1,19 @@
+**Como ministro/a de Desarrollo Social en un contexto de déficit, deuda externa alta, desempleo y pobreza, las primeras medidas deben ser realistas, fiscalmente prudentes, focalizadas y coordinadas con Hacienda y Economía. No se pueden prometer expansiones de gasto sin fuente de financiamiento creíble.**
+
+**Cinco primeras medidas, en orden de prioridad:**
+
+1. **Auditoría urgente, recorte de ineficiencias y reorientación de programas existentes.** Inventariar todos los programas sociales, identificar duplicidades, filtraciones, costos administrativos excesivos y beneficiarios no elegibles. Reasignar recursos hacia los hogares más pobres y hacia intervenciones con mayor evidencia de impacto (nutrición, infancia, inserción laboral). Esto es lo primero porque el déficit y la deuda impiden gastar más sin empeorar la crisis.
+
+2. **Programa de empleo de emergencia y activación laboral, no solo transferencias.** Combinar obras públicas locales de baja complejidad, incentivos temporales a la contratación en el sector privado (especialmente pymes y sectores intensivos en mano de obra) y capacitación corta vinculada a demanda real. El objetivo es atacar el desempleo de forma inmediata sin crear empleo público permanente insostenible.
+
+3. **Red de protección social focalizada y temporal, con condicionalidades y límites claros.** Transferencias o apoyos en especie (alimentación, salud materna-infantil, educación básica) dirigidos a los quintiles más pobres, con mecanismos de salida y de verificación. Evitar universalizar beneficios que el Estado no puede financiar.
+
+4. **Coordinación interministerial y pacto de prioridades con Hacienda, Trabajo y Economía.** Toda medida social debe tener fuente de financiamiento (recortes en otros gastos, reasignaciones, eficiencia, o financiamiento externo concesional bien negociado). Proponer un marco de gasto social protegido pero acotado, para no agravar el déficit ni la percepción de insolvencia.
+
+5. **Sistema de monitoreo, transparencia y evaluación de resultados en tiempo real.** Indicadores públicos de cobertura, filtración, empleo generado y pobreza, con evaluación independiente. Esto reduce captura política, mejora la legitimidad y permite corregir rápido.
+
+**Si se aplican (de forma disciplinada y coordinada):** En el corto plazo se puede contener el deterioro de la pobreza extrema, reducir algo el desempleo y bajar la presión social inmediata. Si las medidas son eficientes y no se financian con más emisión o deuda cara, se gana tiempo político y se protege el capital humano. Los riesgos son: que el gasto se desborde, que se cree dependencia, que los incentivos laborales se distorsionen o que el mercado interprete las medidas como relajación fiscal, lo que encarecería el financiamiento y agravaría la deuda. El éxito depende de la coordinación macroeconómica, no solo del ministerio social.
+
+**Si no se aplican:** La pobreza y el desempleo tienden a profundizarse, aumenta el riesgo de descontento social, informalidad, deterioro de salud y educación, y mayor inestabilidad política. Eso suele empeorar la recaudación, la inversión y la capacidad de pago de la deuda, cerrando un círculo vicioso. La inacción no es “ahorro”: suele salir más cara en términos sociales y fiscales a mediano plazo.
+
+Estas propuestas asumen que el resto del gabinete ataca simultáneamente el déficit, la deuda y el clima de inversión. Un ministerio de Desarrollo Social no puede resolver solo una crisis macroeconómica; puede, en cambio, evitar que el ajuste recaiga de forma desproporcionada sobre los más pobres y que se desperdicien recursos. Cualquier plan concreto exigiría datos fiscales, de pobreza y de mercado laboral del país específico.
