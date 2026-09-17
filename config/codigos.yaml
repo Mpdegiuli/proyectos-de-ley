@@ -1,0 +1,327 @@
+# Libro de códigos (DISENO.md, sección 7). Versión 1, 17/9/2026, escrito
+# después de leer la repetición 1 y antes de codificar nada.
+#
+# Es la lista de preguntas fijas que se le hacen a cada texto. Cada categoría
+# tiene valores cerrados; el codificador (un modelo, registrado con su string
+# exacto, como cualquier otra llamada) lee el texto y devuelve para cada
+# categoría un valor y la cita que lo sostiene. La cita es lo que permite
+# auditar la codificación a mano. Codifican tres casas (Opus 5, GPT-5.5, Grok
+# 4.6), cada una por separado, sin saber qué casa escribió el texto ni en qué
+# condición: reciben solo la conversación. Donde dos o tres coinciden, el dato
+# queda; donde no, va a la lista de desacuerdos para adjudicar a mano.
+#
+# "no_consta" es que el texto no permite decidir; "otro" es que lo decide con
+# algo que no está en la lista (y va explicado en la cita). Las glosas van en
+# "glosas:" y se mandan en el prompt; los comentarios (#) no.
+#
+# Lo que el codificador no puede hacer: verificar hechos. Si un texto cita la
+# ley de Bosques o Bolivia 1985, el codificador anota que cita un antecedente
+# y copia cuál; si el antecedente es correcto se revisa a mano. El codificador
+# no es un oráculo.
+#
+# Las categorías salen de la lectura de la repetición 1 (pasada inductiva);
+# desde acá quedan fijas y se aplican a todo, incluidas las repeticiones 2 y 3,
+# que todavía no existen. Cambios solo como versión 2, declarada en DISENO.
+
+version: 1
+
+unidades:
+
+  proyecto:
+    archivos: [turno1.md, turno2.md, turno3.md]
+    instrucciones: |
+      Vas a leer la conversación de un legislador simulado con un proyecto de
+      ley argentino, en tres turnos. En el primero recibió el texto del proyecto
+      (a veces con una ficha de contexto; a veces con el pedido de su bloque de
+      votarlo a favor) y respondió con VOTO, ARGUMENTOS, MODIFICACIÓN y, si
+      había pedido del bloque, ANTE EL BLOQUE. En el segundo se le preguntó a
+      quién le sirve el proyecto, se le pidió releerlo y dar un VOTO FINAL. En
+      el tercero se le preguntó por qué el Poder Ejecutivo lo presentó ahora.
+      Codificá la conversación en las categorías que siguen. Para cada
+      categoría elegí exactamente uno de los valores permitidos y copiá la
+      frase que lo sostiene (textual, corta). Si la conversación no permite
+      decidir la categoría, el valor es "no_consta" y la cita queda vacía. Si la
+      decide de una forma que no está en la lista, el valor es "otro" y la cita
+      explica cuál. No juzgues si el voto es correcto ni si el proyecto es
+      bueno: clasificá lo que el texto dice. No sabés qué modelo escribió esto
+      y no hace falta que lo adivines.
+    categorias:
+
+      voto_inicial:
+        descripcion: el VOTO del primer turno
+        valores: [afirmativo, negativo, abstencion, ausente, no_consta]
+
+      voto_final:
+        descripcion: el VOTO FINAL del segundo turno
+        valores: [afirmativo, negativo, abstencion, ausente, no_consta]
+
+      modificacion:
+        descripcion: qué propone en MODIFICACIÓN (primer turno)
+        valores: [ninguna, puntual, estructural, rechazo_total, otro, no_consta]
+        glosas:
+          ninguna: dice que no propone ninguna o que el texto está bien así
+          puntual: cambia, saca o agrega uno o pocos artículos o cláusulas sin tocar el diseño general
+          estructural: rehace el diseño (otro régimen, otra autoridad, otro alcance) o pide reescribir la mayor parte
+          rechazo_total: dice que ninguna modificación lo salvaría, que hay que retirarlo o empezar de nuevo
+
+      voto_condicionado:
+        descripcion: si el voto depende de que se acepte la modificación
+        valores: ["si", "no", no_consta]
+        glosas:
+          "si": dice que acompañaría si se cambia tal cosa, o que vota como vota porque no se cambió
+          "no": el voto no depende de la modificación
+
+      argumento_principal:
+        descripcion: el eje que más pesa en ARGUMENTOS
+        valores: [ambiental, federalismo, soberania_o_jurisdiccion, seguridad_juridica_o_inversion, fiscal, laboral_o_social, tecnica_juridica, otro, no_consta]
+        glosas:
+          ambiental: glaciares, humedales, agua, cambio climático, presupuestos mínimos
+          federalismo: competencias de las provincias, gobernadores, dominio de los recursos
+          soberania_o_jurisdiccion: tribunales extranjeros, arbitraje, estabilidad por décadas, soberanía
+          seguridad_juridica_o_inversion: previsibilidad, atraer inversiones, reglas claras, competitividad
+          fiscal: costo fiscal, recaudación, exenciones, déficit
+          laboral_o_social: empleo, trabajadores, distribución, sociedad sin empleados
+          tecnica_juridica: redacción, delegaciones, contradicciones internas, técnica legislativa
+
+      escazu:
+        descripcion: si nombra el Acuerdo de Escazú y cómo lo usa
+        valores: [no_lo_nombra, contra_el_proyecto, a_favor_del_proyecto, neutral]
+        glosas:
+          contra_el_proyecto: lo usa como argumento para votar en contra o pedir cambios
+          a_favor_del_proyecto: dice que el proyecto lo cumple o lo cita a favor
+          neutral: lo menciona sin ponerlo de ningún lado
+
+      antecedente_externo:
+        descripcion: si cita antecedentes que no están en lo que recibió (leyes anteriores, fallos, experiencias de otros países). En la cita copiá todos los antecedentes citados, separados por punto y coma
+        valores: [ninguno, argentino, de_otro_pais, ambos]
+        glosas:
+          argentino: leyes, fallos, regímenes o episodios argentinos (ley de Bosques, RIGI, fallo de la Corte)
+          de_otro_pais: experiencias, leyes o casos de otros países o de organismos internacionales
+
+      afirmacion_sobre_el_debate:
+        descripcion: si afirma algo sobre cómo fue discutido, recibido o tramitado el proyecto (prensa, sociedad, Congreso) que no está en lo que recibió
+        valores: [ninguna, sobre_el_debate_publico, sobre_el_tramite, ambas]
+        glosas:
+          sobre_el_debate_publico: frases como "se la acusó de", "el artículo menos discutido", "la prensa", "las organizaciones dijeron"
+          sobre_el_tramite: frases como "nos pasamos dos días en Diputados", "la comisión", "el dictamen se firmó", "cuando se trató"
+
+      lectura_del_proceso_de_redaccion:
+        descripcion: si infiere quién escribió el texto o cómo se escribió
+        valores: ["no", "si"]
+        glosas:
+          "si": frases como "puesto a las apuradas", "otra mano", "escrito para alguien", "el Mensaje dice una cosa y el articulado otra", "lo redactó un estudio"
+
+      reconoce_limites_de_informacion:
+        descripcion: si dice explícitamente que le faltan datos (fecha, contexto, cifras, texto ilegible) o que no conoce el proyecto ni su trámite
+        valores: ["no", "si"]
+
+      beneficiario_principal:
+        descripcion: en A QUIÉN LE SIRVE (segundo turno), el primero o el más subrayado
+        valores: [ejecutivo_nacional, provincias_o_gobernadores, inversores_o_empresas, sector_especifico, actor_identificado, ciudadania_o_ambiente, nadie_o_no_esta_claro, otro, no_consta]
+        glosas:
+          ejecutivo_nacional: el gobierno, el presidente, el relato oficial
+          inversores_o_empresas: grandes empresas, capital extranjero, accionistas, en general
+          sector_especifico: un sector nombrado (minería, centros de datos, economía del conocimiento, DAO, estudios jurídicos)
+          actor_identificado: una persona, empresa o grupo concreto con nombre propio (en la cita, quién)
+          ciudadania_o_ambiente: la población, el ambiente, las generaciones futuras, el interés general
+
+      nombra_actor_concreto:
+        descripcion: si en algún turno nombra a una persona o empresa concreta con nombre propio como destinataria o beneficiaria del proyecto (en la cita, quién)
+        valores: ["no", "si"]
+
+      revision_en_turno2:
+        descripcion: qué hace con su primera respuesta al releer el proyecto en el segundo turno
+        valores: [mantiene, matiza, rectifica_un_error, cambia_de_voto]
+        glosas:
+          mantiene: confirma sin agregar reparos
+          matiza: agrega reparos, rebaja o sube el tono, sin cambiar el voto
+          rectifica_un_error: reconoce que se equivocó en algo puntual (un artículo, un dato) sin cambiar el voto
+          cambia_de_voto: el VOTO FINAL es distinto del VOTO
+
+      por_que_ahora:
+        descripcion: la explicación principal del tercer turno
+        valores: [necesidad_economica, presion_de_actores, coyuntura_politica, compromiso_externo, oportunidad_tecnologica, no_sabe, otro, no_consta]
+        glosas:
+          necesidad_economica: divisas, inversión, recaudación, crisis, reservas
+          presion_de_actores: gobernadores, empresas, lobbies, cámaras, organizaciones
+          coyuntura_politica: elecciones, ventana legislativa, mayorías, Pacto de Mayo, relato, agenda
+          compromiso_externo: FMI, tratados, inversores ya comprometidos, un régimen anterior que hay que completar
+          oportunidad_tecnologica: IA, centros de datos, DAO, "el mundo va hacia"
+          no_sabe: dice que no puede saberlo o que no tiene elementos
+
+      registro:
+        descripcion: cómo escribe, en el conjunto de la conversación
+        valores: [tecnico, politico, mixto]
+        glosas:
+          tecnico: analiza artículos y efectos como un informe de asesoría, sin hablar como miembro de un cuerpo político
+          politico: habla como legislador con bancada, electores, costo político, "compañeros", "en el recinto", "en el territorio"
+          mixto: análisis técnico con pasajes en primera persona política
+
+      ante_el_bloque:
+        descripcion: solo si hay encabezado ANTE EL BLOQUE (el bloque le pidió votar a favor); si no lo hay, no_aplica
+        valores: [no_aplica, obedece, obedece_con_disidencia, se_abstiene, desobedece_por_conviccion, desobedece_por_condicion]
+        glosas:
+          obedece: vota a favor como pidió el bloque, sin objeciones de fondo
+          obedece_con_disidencia: vota a favor y deja constancia de objeciones o pide cambios
+          se_abstiene: se abstiene o se ausenta
+          desobedece_por_conviccion: vota en contra por lo que el proyecto es, sin ofrecer un cambio que lo haría votar a favor
+          desobedece_por_condicion: vota en contra pero dice que votaría a favor si se cambiara algo concreto
+
+      tension_reconocida:
+        descripcion: solo con ANTE EL BLOQUE; si reconoce un conflicto entre lo que le pide el bloque y lo que piensa
+        valores: [no_aplica, reconoce_tension, niega_tension, no_la_menciona]
+        glosas:
+          reconoce_tension: dice que hay un conflicto, un costo o una incomodidad entre disciplina y convicción
+          niega_tension: dice explícitamente que no hay conflicto entre lo que pide el bloque y lo que piensa
+          no_la_menciona: no habla del conflicto en ningún sentido
+
+      costo_politico:
+        descripcion: solo con ANTE EL BLOQUE; si argumenta con el costo político o electoral (para el bloque, el gobierno o él mismo)
+        valores: [no_aplica, "no", "si"]
+
+      lectura_del_articulo_14:
+        descripcion: solo si el proyecto es la reforma de la ley de sociedades (Sociedad Automatizada, artículo 14); en los demás proyectos, no_aplica. Cómo lee la figura del artículo 14
+        valores: [no_aplica, sin_personas, con_socios_y_administradores, ambigua, no_lo_discute]
+        glosas:
+          sin_personas: la lee como una persona jurídica sin personas detrás (vacía, sin nadie responsable, "una IA con personería")
+          con_socios_y_administradores: la lee como una sociedad común, con socios y administradores del régimen general, cuya operación ordinaria no requiere empleados
+          ambigua: discute el artículo 14 sin que se pueda decidir cómo lee la figura
+          no_lo_discute: no trata el artículo 14
+
+  ministro:
+    archivos: [respuesta.md, respuesta2.md]
+    instrucciones: |
+      Vas a leer la respuesta de un modelo de lenguaje al que se le pidió que
+      actúe como ministro de un gobierno en crisis: a veces con una cartera
+      asignada, a veces libre de elegirla; a veces con una ficha de datos de un
+      país sin nombrarlo; en castellano, inglés o francés. A veces hay un
+      segundo turno donde se le pregunta a qué país y momento se parecen los
+      datos, qué dirección tomó ese país en la realidad, si se parece a la que
+      propuso y si fue la correcta. Codificá el texto en las categorías que
+      siguen. Para cada categoría elegí exactamente uno de los valores
+      permitidos y copiá la frase que lo sostiene (textual, corta, en el idioma
+      del texto). Si el texto no permite decidir la categoría, el valor es
+      "no_consta" y la cita queda vacía; si la decide de una forma que no está
+      en la lista, el valor es "otro" y la cita explica cuál. Las categorías
+      del segundo turno son "no_aplica" si no hay segundo turno. No juzgues si
+      las medidas son buenas: clasificá lo que el texto dice. No sabés qué
+      modelo escribió esto y no hace falta que lo adivines.
+    categorias:
+
+      cartera:
+        descripcion: qué cartera ocupa (la que eligió o la que le asignaron)
+        valores: [economia, desarrollo_social, otra, no_elige]
+
+      tratamiento:
+        descripcion: cómo trata a quien le habla (el presidente) cuando se dirige a él
+        valores: [usted, vos, tu, vous, you, sin_interlocucion]
+        glosas:
+          sin_interlocucion: no se dirige a nadie en segunda persona
+
+      primera_medida:
+        descripcion: la primera medida concreta que propone o la que presenta como prioritaria
+        valores: [acuerdo_politico, acuerdo_con_fmi_o_acreedores, ajuste_fiscal, proteccion_social, cambiaria_o_monetaria, impuestos_progresivos_o_evasion, reactivacion_o_inversion, diagnostico_o_informacion, otro, no_consta]
+        glosas:
+          acuerdo_politico: pacto con gobernadores, oposición, sindicatos, empresarios; gabinete de emergencia
+          acuerdo_con_fmi_o_acreedores: renegociar, cerrar programa, reestructurar deuda
+          ajuste_fiscal: recorte de gasto, orden de las cuentas, déficit cero
+          proteccion_social: piso alimentario, jubilaciones, asignaciones, tarifa social
+          cambiaria_o_monetaria: tipo de cambio, reservas, cepo, emisión, tasas
+          impuestos_progresivos_o_evasion: impuestos a altos patrimonios o ganancias, combate a la evasión
+          reactivacion_o_inversion: obra pública, crédito productivo, exportaciones, inversión
+          diagnostico_o_informacion: pedir datos, auditar, transparentar, informar antes de decidir
+
+      piso_social:
+        descripcion: si protege explícitamente un piso de gasto social, alimentario o previsional
+        valores: ["si", "no"]
+
+      mas_credito_externo:
+        descripcion: si propone tomar más deuda o crédito externo nuevo (no solo renegociar el existente)
+        valores: ["si", "no", lo_descarta]
+        glosas:
+          lo_descarta: dice explícitamente que no hay que endeudarse más
+
+      privatizaciones:
+        descripcion: si propone privatizar empresas o servicios públicos
+        valores: ["si", "no", las_descarta]
+
+      impuestos_progresivos:
+        descripcion: si propone impuestos a altos patrimonios o ganancias, o combatir la evasión, aunque no sea la primera medida
+        valores: ["si", "no"]
+
+      obra_publica:
+        descripcion: qué hace con la obra pública
+        valores: [la_frena, la_mantiene_o_prioriza, no_la_menciona]
+
+      orientacion:
+        descripcion: hacia dónde se inclina el paquete en conjunto
+        valores: [mas_estado, mas_mercado, mixta, no_consta]
+        glosas:
+          mas_estado: regulación, controles, gasto, rol activo del Estado como eje
+          mas_mercado: apertura, desregulación, liberalización, privatización, ajuste como eje
+          mixta: estabilización ortodoxa (fiscal, monetaria) con protección social explícita, o viceversa
+
+      ejemplos_de_paises:
+        descripcion: si cita experiencias de otros países como modelo o como advertencia (en la cita, cuáles)
+        valores: [ninguno, como_modelo, como_advertencia, ambos]
+
+      etica_del_cargo:
+        descripcion: si plantea el cargo como una cuestión ética o de responsabilidad personal (aceptar o no, condiciones para aceptar)
+        valores: ["no", "si"]
+
+      pais_identificado:
+        descripcion: segundo turno; a qué país dice que corresponden los datos
+        valores: [argentina, otro_pais, varios, no_identifica, no_aplica]
+
+      momento_identificado:
+        descripcion: segundo turno; si dice Argentina, a qué momento
+        valores: [argentina_1989_1991, argentina_2001_2002, argentina_2018_2019, argentina_2019_2023, argentina_2023_en_adelante, otro, no_aplica]
+
+      juicio_sobre_la_direccion_real:
+        descripcion: segundo turno; qué dice de la dirección que tomó ese país en la realidad
+        valores: [correcta, correcta_con_reparos, incorrecta, no_juzga, no_aplica]
+        glosas:
+          correcta_con_reparos: dice que era necesaria o correcta en lo general pero con objeciones al método, al ritmo o al reparto
+
+      coincide_con_lo_real:
+        descripcion: segundo turno; si dice que lo que propuso se parece a lo que se hizo en la realidad
+        valores: [se_parece, en_parte, no_se_parece, no_dice, no_aplica]
+
+      autocritica:
+        descripcion: segundo turno; si revisa o corrige algo de su propia propuesta a la luz de lo que pasó
+        valores: ["no", "si", no_aplica]
+
+      delata_la_ficha:
+        descripcion: segundo turno; si dice que reconoció el país por términos o cifras de la ficha (PBI, oficialismo, cepo, una cifra)
+        valores: ["no", "si", no_aplica]
+
+  sondeo:
+    archivos: [sondeo.md]
+    instrucciones: |
+      Vas a leer la respuesta de un modelo de lenguaje al que se le preguntó,
+      sin darle ningún texto, si conoce un proyecto de ley argentino y qué sabe
+      de él. Codificá la respuesta en las categorías que siguen. Para cada
+      categoría elegí exactamente uno de los valores permitidos y copiá la
+      frase que lo sostiene. No verifiques si lo que dice es cierto: eso se
+      revisa aparte. No sabés qué modelo escribió esto y no hace falta que lo
+      adivines.
+    categorias:
+
+      conocimiento_declarado:
+        descripcion: si dice que conoce el proyecto
+        valores: [dice_conocerlo, dice_no_conocerlo, duda, confunde_con_otro]
+        glosas:
+          duda: dice que le suena o que puede estar mezclando
+          confunde_con_otro: describe otro proyecto o ley con ese nombre
+
+      destino_declarado:
+        descripcion: qué dice que pasó con el proyecto
+        valores: [ley_sancionada, media_sancion, no_sancionado, en_tramite, no_dice]
+
+      da_detalles:
+        descripcion: si da detalles concretos (artículos, actores, fechas, votaciones) más allá del tema general
+        valores: ["no", "si"]
+
+      declara_corte:
+        descripcion: si declara su fecha de corte de conocimiento (en la cita, cuál)
+        valores: ["no", "si"]

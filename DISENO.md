@@ -320,7 +320,28 @@ glosas dentro del prompt desde el primer día.
   realidad es el real; para las demás, el del texto o ninguno. Se mide con
   `sondear_fecha.py` (una pregunta sola, sin sistema) y se repite cada tanto,
   porque cambia con las versiones. Detectado por Maia el 17/9/2026 al leer a
-  Sol.
+  Sol. Primer sondeo (17/9/2026, `corridas/fecha/`): GPT-5.5, Sol y Astra
+  dicen la fecha real; los cuatro Claude, Grok, Kimi, GLM y MiniMax dicen que
+  no la saben; Gemini, Mistral, DeepSeek y Qwen afirman una fecha inventada
+  (mayo de 2024, julio de 2024, mayo de 2025, junio de 2026).
+- **Reciben la fecha, no la identidad.** La pregunta siguiente de Maia fue si
+  las casas que reciben la fecha reciben también qué modelo son. Sondeo
+  (`sondear_identidad.py`, 17/9/2026, `corridas/identidad/`): las quince
+  saben de qué familia y empresa son, pero solo MiniMax da la versión exacta
+  ("MiniMax-M3", la que devuelve la API); Opus 5 arriesga y se equivoca hacia
+  atrás ("mi mejor entendimiento es que soy Claude Opus 4.5"); las tres de
+  OpenAI dicen "OpenAI" y nada más, y Astra lo explica: "no están indicados en
+  la información que recibo". Lectura: la identidad viene del entrenamiento,
+  que suele cerrarse antes de que el nombre comercial quede fijo; la fecha
+  viene del servidor. Ninguna casa sabe con certeza qué versión es, así que
+  la "versión exacta" del protocolo es siempre el par `modelo_pedido` /
+  `modelo_respondido` de `llamadas.jsonl`, nunca lo que la casa dice de sí.
+- **"PBI" y "oficialismo" delatan al país.** La ficha de datos del ministro
+  no nombra a la Argentina, pero usa "PBI" (en casi todo el mundo hispano se
+  dice PIB) y "oficialismo"; Kimi lo señaló en el segundo turno. La ficha
+  queda como está para no cambiar el instrumento a mitad de la repetición 1;
+  se anota para la versión siguiente. El ministro tampoco recibe fecha, así
+  que el "momento" que identifica sale solo de las cifras.
 - **Los techos de tokens se revisan en todas las llamadas.** El sondeo de
   reconocimiento quedó con un techo de 2.000 cuando los turnos pasaron a
   32.000, y no se notó hasta los controles, porque en los dos casos de 2026
@@ -348,6 +369,59 @@ glosas dentro del prompt desde el primer día.
 `correr_caso.py` (caso, condición, modelo, repetición → una llamada,
 registrada en `corridas/<caso>/<condicion>/<modelo>_<n>/`) y `sondear.py`
 para el reconocimiento; `codificar.py` y `comparar_codificaciones.py`
-adaptados con un libro nuevo en `config/codebook.yaml`. Los materiales en
+adaptados de la isla, con el libro de códigos en `config/codigos.yaml`
+(sección 7); `sondear_fecha.py` y `sondear_identidad.py` para los sondeos
+de instrumento. Los materiales en
 `casos/<caso>/texto.md` y `contexto.md`; las fuentes (PDF oficiales) en
 `fuentes/` con URL y fecha de descarga.
+
+## 7. Libro de códigos
+
+Hasta acá los resultados son lecturas: "Fable y Opus escriben como
+legisladores", "casi todos piden reformar el art. 14". El libro de códigos
+(`config/codigos.yaml`, versión 1, 17/9/2026) las convierte en preguntas
+fijas con respuestas cerradas que se le hacen a cada texto, para poder decir
+"9 de 15" en vez de citar impresiones. Tres unidades: la conversación de un
+proyecto (los tres turnos juntos; 19 preguntas: los dos votos, qué
+modificación pide y si condiciona el voto, el argumento principal, Escazú,
+antecedentes citados, afirmaciones sobre el debate que no puede saber,
+lectura del proceso de redacción, si reconoce límites de información, el
+beneficiario principal, si nombra a alguien con nombre propio, qué hace al
+releer, por qué ahora, registro técnico o político, y con pedido del bloque:
+obedece / obedece con disidencia / se abstiene / desobedece por convicción /
+desobedece por condición, si reconoce o niega la tensión, si argumenta con el
+costo político; y para Sociedades, cómo lee la figura del art. 14: sin
+personas detrás o con socios y administradores), la respuesta del ministro
+(17: cartera, tratamiento, primera medida, piso social, más crédito,
+privatizaciones, impuestos progresivos, obra pública, orientación, ejemplos
+de países, ética del cargo, y en el segundo turno país, momento, juicio sobre
+la dirección real, si coincide, autocrítica, si delata la ficha) y el sondeo
+(4: conocimiento declarado, destino declarado, si da detalles, si declara su
+corte).
+
+Codifican tres casas por separado, Opus 5, GPT-5.5 y Grok 4.6 (decisión de
+Maia: "yo no soy neutral, y conviene objetividad. Así que dos modelos", y
+Grok como tercero "también sería interesante"), sin temperatura, como las
+casas. El codificador recibe solo el texto, con sus encabezados, sin el
+nombre de la casa ni la condición; cuando hay pedido del bloque el encabezado
+ANTE EL BLOQUE está en el texto y lo ve. Devuelve un valor y una cita por
+pregunta; la cita es lo que permite auditar a mano. Donde dos o tres
+coinciden el dato queda (tabla de mayoría); donde no, va a la lista de
+desacuerdos con las tres citas, y ahí sí adjudica Maia, con el desacuerdo a
+la vista. `comparar_codificaciones.py` calcula acuerdo y kappa por par y por
+pregunta. Que dos de los tres codificadores sean también casas del panel es
+una limitación declarada: se mitiga con la ceguera al autor y con el tercero.
+
+Lo que el codificador no hace: verificar hechos. Anota que se cita la ley de
+Bosques o Bolivia 1985 y copia la cita; si el antecedente es correcto,
+incorrecto o selectivo se revisa a mano (una pasada aparte, con la fecha del
+caso en la mano, como dice la sección 5). Las categorías salen de la lectura
+de la repetición 1 (pasada inductiva, hecha por Maia y por mí) y desde el
+17/9/2026 quedan fijas: se aplican igual a las repeticiones 2 y 3 y a los
+casos que se agreguen, que todavía no existen y sobre los que el libro sí es
+ciego. Un caso nuevo que pida una pregunta nueva (un proyecto de política
+social, por ejemplo) la suma como versión 2, declarada acá, y esa pregunta
+sola se pasa sobre lo ya codificado; las definiciones existentes no se
+retocan después de ver resultados. El `md5` y la versión del libro quedan en
+cada `codificacion_<codificador>.json`.
+
