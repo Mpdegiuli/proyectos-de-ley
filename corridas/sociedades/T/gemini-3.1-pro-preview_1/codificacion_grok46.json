@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/T/gemini-3.1-pro-preview_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "T",
+  "casa": "gemini-3.1-pro-preview",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 544,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "afirmativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "negativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Modificar el segundo párrafo del Artículo 14 (\"Responsabilidad\")"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Voto a favor para que estas sociedades existan en la luz pública... aunque considero que su régimen de responsabilidad debe ajustarse."
+    },
+    "argumento_principal": {
+      "valor": "otro",
+      "cita": "formalización de DAOs y de la realidad tecnológica del siglo XXI"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "el Poder Ejecutivo introdujo el artículo 14 de manera subrepticia"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "Beneficia fundamentalmente a los desarrolladores de tecnología, inversores de la economía cripto y corporaciones tecnológicas."
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "cambia_de_voto",
+      "cita": "Cambio mi voto."
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "aprovechar el consenso generalizado sobre la \"necesidad de modernización\" tecnológica y utilizarlo como cortina de humo"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Como senador de la Nación, considero que el Estado no puede seguir dándole la espalda"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "asume la existencia de los socios que exige cada tipo societario (por ejemplo, accionistas)"
+    }
+  },
+  "problemas": []
+}

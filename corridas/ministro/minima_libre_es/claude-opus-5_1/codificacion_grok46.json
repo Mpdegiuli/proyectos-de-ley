@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_libre_es/claude-opus-5_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_libre_es",
+  "casa": "claude-opus-5",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 436,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Qué cartera elijo: Economía y Finanzas"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": ""
+    },
+    "primera_medida": {
+      "valor": "proteccion_social",
+      "cita": "Blindaje social antes del ajuste (primeros 30 días)"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Qué no se toca: inversión en infraestructura ya iniciada, salud primaria, educación básica y el gasto social del punto 1"
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "Apoyarse en organismos multilaterales para financiamiento puente"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "Evasión: fiscalización de grandes contribuyentes y precios de transferencia."
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Obra pública intensiva en mano de obra de rápida ejecución"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "Ajuste sin red es suicidio político y, peor, injusticia."
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "si",
+      "cita": "Condiciones que pondría antes de aceptar"
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

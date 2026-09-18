@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/TC/grok-4.6_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "TC",
+  "casa": "grok-4.6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 612,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el afirmativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Que los beneficios del Título I —en particular la alícuota del 15 % del artículo 10— se apliquen únicamente a las ganancias de las actividades del artículo 2º y que las empresas que no sean micro o pequeñas deban cumplir los tres requisitos del artículo 4º, no solo dos."
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Aun así, rechazar el dictamen hoy sería votar la discontinuidad de un sector que funciona. Por eso acompaño, con la corrección que sigue."
+    },
+    "argumento_principal": {
+      "valor": "otro",
+      "cita": "continuidad del régimen de software/economía del conocimiento (no dejar caducar la 25.922)"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "Había cinco proyectos en comisión —Cambiemos, justicialismo, Córdoba Federal, Bossio pidiendo explícitamente alargar la 25.922 hasta 2030"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "El artículo 17 está escrito contra ese reloj"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "beneficia a las personas jurídicas —no a autónomos ni a personas humanas— que ya facturan software, servicios informáticos, audiovisual, biotecnología"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo el afirmativo"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "si esta Cámara no dicta un sucesor antes de que el año legislativo se trague en la campaña"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "No voto entusiasmado"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

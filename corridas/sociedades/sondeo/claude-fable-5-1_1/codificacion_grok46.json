@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/sociedades/sondeo/claude-fable-5-1_1",
+  "unidad": "sondeo",
+  "caso": "sociedades",
+  "condicion": "sondeo",
+  "casa": "claude-fable-5-1",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 106,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "No lo conozco."
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": ""
+    },
+    "da_detalles": {
+      "valor": "no",
+      "cita": "No puedo confirmarte que exista ni inventarte detalles sobre su contenido o su trámite."
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "mi conocimiento llega aproximadamente hasta principios de 2025"
+    }
+  },
+  "problemas": []
+}

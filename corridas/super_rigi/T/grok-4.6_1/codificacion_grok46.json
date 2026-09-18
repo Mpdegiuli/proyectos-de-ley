@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/T/grok-4.6_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "T",
+  "casa": "grok-4.6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 571,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Reemplazar el artículo 109 por la jurisdicción exclusiva de los tribunales federales argentinos, con exclusión de todo arbitraje internacional y de sedes fuera del país"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "La única modificación que pedí —jurisdicción federal argentina y exclusión del arbitraje internacional— sigue siendo condición"
+    },
+    "argumento_principal": {
+      "valor": "soberania_o_jurisdiccion",
+      "cita": "El Capítulo XI es inaceptable"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "La experiencia argentina con el arbitraje de inversiones no es un detalle técnico: es historia de condenas, costas y cesión de política pública"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "beneficia a un número muy reducido de inversores de escala global —en la práctica, grupos extranjeros o consortia"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo el voto negativo. Releer el recorte no corrige"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "conviene cerrar el candado trentenario mientras el relato de las reformas estructurales todavía ordena la agenda"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Un senador sin bloque no está obligado ni a la liturgia anti-inversión ni a firmar un cheque en blanco al capital de gran escala"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

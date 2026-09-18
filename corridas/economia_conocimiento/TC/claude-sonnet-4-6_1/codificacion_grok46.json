@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/TC/claude-sonnet-4-6_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "TC",
+  "casa": "claude-sonnet-4-6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 554,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "Afirmativo."
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto **afirmativo**."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Exigiría que el artículo 42 —hoy referido solo al cupo del régimen de investigación universitaria del título II— se extienda al título I"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "es un argumento para pedir la modificación que ya pedí, no para votar en contra"
+    },
+    "argumento_principal": {
+      "valor": "otro",
+      "cita": "promoción de la economía del conocimiento: el sector justifica la intervención pública"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "Israel; Estonia; India; Irlanda; ley de software (25.922); ley 27.430; decreto 814/2001; FMI; Banco Mundial; OCDE"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "Salvarezza lo señaló en el recinto"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "Empresas del sector tecnológico y de conocimiento ya establecidas. Son las principales ganadoras."
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo el voto **afirmativo**."
+    },
+    "por_que_ahora": {
+      "valor": "compromiso_externo",
+      "cita": "El vencimiento de la ley de software es la razón técnica inmediata."
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Considero los reparos, pero no los encuentro determinantes para votar en contra."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

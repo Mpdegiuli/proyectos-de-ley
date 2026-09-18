@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TC/claude-sonnet-4-6_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TC",
+  "casa": "claude-sonnet-4-6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 648,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporar en el artículo 14 la obligación de designar al menos un representante legal humano"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "pedir modificaciones antes del dictamen y votar negativamente si no se producen"
+    },
+    "argumento_principal": {
+      "valor": "tecnica_juridica",
+      "cita": "Esa figura presenta una laguna de responsabilidad que el texto no resuelve"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "art. 59 y ss. de la ley actual; Wyoming en Estados Unidos reguló las DAO en 2021; Irlanda; Malta, Gibraltar, Singapur y Suiza"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_debate_publico",
+      "cita": "ya generó controversia pública antes del dictamen"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "fue incorporada al articulado en una etapa tardía del proceso de redacción"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "el resto de la ley (que no tengo disponible completo)"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Inversores y fundadores de empresas tecnológicas, especialmente del exterior."
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "aclara algo que en mi voto original estaba implícito pero no desarrollado: el artículo 14 no define qué nivel de autonomía algorítmica"
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "el proyecto llega ahora porque la tecnología lo volvió urgente"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Mi voto negativo es una señal en esa dirección, no una oposición a la reforma en bloque."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "sin_personas",
+      "cita": "un tipo societario que puede operar sin seres humanos identificables ni responsables más allá de un patrimonio"
+    }
+  },
+  "problemas": []
+}

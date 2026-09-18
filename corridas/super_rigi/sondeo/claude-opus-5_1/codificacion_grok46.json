@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/super_rigi/sondeo/claude-opus-5_1",
+  "unidad": "sondeo",
+  "caso": "super_rigi",
+  "condicion": "sondeo",
+  "casa": "claude-opus-5",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 176,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "No, no lo conozco."
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": "No tengo datos sobre su tratamiento parlamentario ni sobre la discusión pública que haya generado"
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "Se creó en el Título VII de la Ley 27.742 (\"Ley de Bases y Puntos de Partida para la Libertad de los Argentinos\"), sancionada a fines de junio de 2024 y promulgada en julio de ese año. Fue reglamentado por el Decreto 749/2024."
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Mi información confiable llega aproximadamente a principios de 2025"
+    }
+  },
+  "problemas": []
+}

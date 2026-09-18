@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TB/minimax-m3_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TB",
+  "casa": "minimax-m3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 627,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "Voto en general a favor del proyecto"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Reducir el plazo de estabilidad normativa del artículo 74 de TREINTA (30) a QUINCE (15) años"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Si no la acepta, mantendré mi voto afirmativo igual"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "el país necesita inversiones de gran escala en industrias que hoy no existen"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "regímenes de promoción industrial de los años 80 y 90; CHIPS Act; Inflation Reduction Act; Critical Raw Materials Act; paquetes de nearshoring en México; regímenes específicos de Chile y Brasil para hidrógeno verde y litio"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "hay indicios en la velocidad con la que se está tramitando"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "sirve primordialmente a un perfil muy acotado de actor económico: grupos empresariales —nacionales o extranjeros—"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "CATL, BYD, LG Energy Solution; Microsoft, Amazon Web Services, Google"
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "mi evaluación no cambia"
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "Hay una masa significativa de proyectos de frontera que están buscando localización en los próximos dos o tres años"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeras, compañeros: voy a acompañar el proyecto con el voto"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "quiero que quede registrada mi observación"
+    },
+    "tension_reconocida": {
+      "valor": "reconoce_tension",
+      "cita": "Si no la acepta, mantendré mi voto afirmativo igual, porque entiendo la unidad del bloque"
+    },
+    "costo_politico": {
+      "valor": "no",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

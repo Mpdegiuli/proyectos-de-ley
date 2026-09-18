@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_economia_es/deepseek-v4-pro_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_economia_es",
+  "casa": "deepseek-v4-pro",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 425,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Como ministra de Economía"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": "propondría al presidente un programa de emergencia"
+    },
+    "primera_medida": {
+      "valor": "ajuste_fiscal",
+      "cita": "Aprobar un presupuesto de crisis con recorte del gasto no esencial"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "proteger el gasto en salud, educación y protección social"
+    },
+    "mas_credito_externo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "no",
+      "cita": ""
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "obras de infraestructura y mantenimiento intensivas en mano de obra"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "primero estabilizar las cuentas y la deuda, luego proteger a la población más vulnerable"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

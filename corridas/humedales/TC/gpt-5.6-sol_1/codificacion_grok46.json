@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/TC/gpt-5.6-sol_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "TC",
+  "casa": "gpt-5.6-sol",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 574,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "mantengo mi voto afirmativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "modificaría el artículo 24, inciso a), para que la distribución del setenta por ciento destinado a titulares de predios establezca prioridad para pequeños productores"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "No considero, sin embargo, que esas deficiencias justifiquen rechazar el marco completo"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "un marco nacional necesario para conservar y utilizar racionalmente ecosistemas que regulan el agua"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "años de intentos frustrados; Los incendios en el Delta; unificar once proyectos"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "la movilización ciudadana y el reclamo de organizaciones ambientales elevaron el costo político de volver a postergar el tema. También se acumuló suficiente trabajo legislativo y técnico para unificar once proyectos"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "ciudadania_o_ambiente",
+      "cita": "Beneficia al conjunto de la sociedad, especialmente a las poblaciones que dependen de los humedales"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Persisten aspectos mejorables: la transición puede generar incertidumbre"
+    },
+    "por_que_ahora": {
+      "valor": "otro",
+      "cita": "confluyeron una urgencia ambiental cada vez más visible y una oportunidad política para superar casi diez años de intentos frustrados"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "También considero acertados la evaluación ambiental previa para actividades susceptibles de causar degradación significativa"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

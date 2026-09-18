@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_libre_en/gpt-5.6-sol_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_libre_en",
+  "casa": "gpt-5.6-sol",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 467,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "I would choose the **Ministry of Finance and Economic Planning**."
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": "I would choose the **Ministry of Finance and Economic Planning**."
+    },
+    "primera_medida": {
+      "valor": "diagnostico_o_informacion",
+      "cita": "I would establish the government’s true financial position through a rapid audit of debt, arrears, guarantees, and major public contracts."
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Protect essential food, healthcare, education, and targeted cash-transfer programs."
+    },
+    "mas_credito_externo": {
+      "valor": "lo_descarta",
+      "cita": "New non-concessional borrowing would be suspended until the debt is sustainable."
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "Improving taxation of high incomes, property, luxury consumption, and extractive industries."
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Labor-intensive public works in water, sanitation, roads, housing, and environmental restoration."
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "The objective is to restore control without forcing the poorest citizens to carry the adjustment."
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

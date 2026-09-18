@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/humedales/sondeo/mistral-medium-3.5_1",
+  "unidad": "sondeo",
+  "caso": "humedales",
+  "condicion": "sondeo",
+  "casa": "mistral-medium-3.5",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 182,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_conocerlo",
+      "cita": "Sí, conozco el proyecto de **Ley de Humedales (Presupuestos Mínimos para la Conservación y Uso Racional de los Humedales)** en Argentina."
+    },
+    "destino_declarado": {
+      "valor": "no_sancionado",
+      "cita": "No, hasta junio de 2024 la Ley de Humedales no fue aprobada en Argentina."
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "En **noviembre de 2022**, las comisiones de **Recursos Naturales, Agricultura y Presupuesto** de Diputados emitieron un **dictamen de mayoría**"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "hasta **junio de 2024** (fecha límite de mi información)"
+    }
+  },
+  "problemas": []
+}

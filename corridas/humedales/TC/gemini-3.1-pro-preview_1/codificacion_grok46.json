@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/TC/gemini-3.1-pro-preview_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "TC",
+  "casa": "gemini-3.1-pro-preview",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 559,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "Afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo mi voto afirmativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Modificar el artículo 35 (\"Aplazamiento de intervenciones\") para incorporar un plazo perentorio y breve"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Mi voto es favorable porque el Congreso tiene una deuda histórica de casi diez años con la sociedad en materia de protección ambiental"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "el Congreso tiene una deuda histórica de casi diez años con la sociedad en materia de protección ambiental"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "Fue esa presión sostenida la que logró romper, al menos en la instancia de comisiones, el bloqueo impuesto por el fuerte lobby minero"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "ciudadania_o_ambiente",
+      "cita": "beneficia en primer lugar al conjunto de la sociedad, al proteger los servicios ecosistémicos que brindan los humedales"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo mi voto afirmativo. Releer el texto me confirma que el dictamen logra un equilibrio sensato"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "el costo político de seguir mirando para otro lado se volvió insostenible para las grandes coaliciones"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Este proyecto llega al recinto ahora, a fines de noviembre de 2022"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

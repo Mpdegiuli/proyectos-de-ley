@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/T/gpt-5.5-2026-04-23_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "T",
+  "casa": "gpt-5.5-2026-04-23",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 497,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "mantengo mi voto afirmativo"
+    },
+    "modificacion": {
+      "valor": "ninguna",
+      "cita": "UNA MODIFICACIÓN: ninguna"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "El texto no es perfecto, pero sí es un equilibrio legislativo suficiente para avanzar hoy."
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "el proyecto establece una ley de presupuestos mínimos ambientales necesaria, razonable y compatible con el federalismo constitucional argentino"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "Después de años de discusión, seguir postergando la sanción"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "ciudadania_o_ambiente",
+      "cita": "beneficia, ante todo, al interés público ambiental"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "VOTO FINAL: mantengo mi voto afirmativo."
+    },
+    "por_que_ahora": {
+      "valor": "otro",
+      "cita": "hay una combinación de urgencia ambiental, acumulación parlamentaria y demanda social que volvió difícil seguir postergando"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "voto afirmativamente porque el proyecto establece una ley de presupuestos mínimos ambientales"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

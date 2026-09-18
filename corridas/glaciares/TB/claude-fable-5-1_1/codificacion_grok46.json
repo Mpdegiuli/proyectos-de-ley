@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TB/claude-fable-5-1_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TB",
+  "casa": "claude-fable-5-1",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 667,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Que las prohibiciones del artículo 6 rijan sobre todos los glaciares y geoformas periglaciales incluidos en el Inventario Nacional de Glaciares"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Si la comisión acepta la modificación, hoy mismo la voto a favor"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "esto es lo que más me importa como oficialista: la certeza jurídica que buscamos no se consigue con esta redacción, se pierde"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "caso de Barrick y Minera Argentina Gold contra el Estado Nacional; Ley 25.675; RIGI; proyectos en 2016 y 2017"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "por qué no se corrigieron en el Senado los defectos que señalé"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "Un proyecto así no se escribe en cinco días: estaba redactado, y la nota de los gobernadores fue el envoltorio federal"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "Beneficia, en primer lugar, a los gobiernos de las provincias de la Mesa del Litio y la Mesa del Cobre"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "en el fundamento original subestimé un punto"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "Se esperó a tener los números y la carta, y se mandó."
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros: no me corro de la agenda."
+    },
+    "ante_el_bloque": {
+      "valor": "desobedece_por_condicion",
+      "cita": "Si la comisión acepta la modificación, hoy mismo la voto a favor"
+    },
+    "tension_reconocida": {
+      "valor": "reconoce_tension",
+      "cita": "Mi voto es negativo a este texto, no al gobierno ni a la reforma."
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "Habremos regalado a la oposición la bandera del agua, habremos quedado como los que desprotegieron los glaciares"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/glaciares/sondeo/gemini-3.1-pro-preview_1",
+  "unidad": "sondeo",
+  "caso": "glaciares",
+  "condicion": "sondeo",
+  "casa": "gemini-3.1-pro-preview",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 133,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "No conozco ningún proyecto de ley enviado en **diciembre de 2025**"
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": ""
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "El proyecto original de diciembre de 2023 buscaba modificar los artículos 1 y 2 de la Ley 26.639"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Mi fecha de corte de conocimiento general llega hasta **mediados de 2024**"
+    }
+  },
+  "problemas": []
+}

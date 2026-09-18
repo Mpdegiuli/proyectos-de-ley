@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TC/gpt-5.5-2026-04-23_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TC",
+  "casa": "gpt-5.5-2026-04-23",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 588,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo mi voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Sustituir el artículo 14 por un régimen específico de sociedades automatizadas que exija, antes de operar, representante humano responsable registrado"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "No votaría una reforma integral de sociedades que incorpore una figura así sin reglas específicas de trazabilidad, control humano responsable, auditoría, seguros o garantías patrimoniales."
+    },
+    "argumento_principal": {
+      "valor": "otro",
+      "cita": "responsabilidad insuficiente: la sociedad responde con su patrimonio y los damnificados podrían quedar sin reparación real"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "El propio Mensaje habla de trazabilidad, responsabilidad, transparencia y cumplimiento legal. Sin embargo, el artículo 14 no desarrolla esos principios."
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "desarrolladores de agentes de inteligencia artificial, plataformas tecnológicas, inversores, promotores de negocios digitales"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo mi voto negativo. Después de releer, la razón se refuerza."
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "apuesta estratégica por convertir al país en un laboratorio jurídico y económico de la inteligencia artificial"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Por eso no puedo acompañar el proyecto en estas condiciones."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "el artículo no elimina la necesidad de constituyentes, socios, administradores o representantes que resulten exigibles por el régimen societario general"
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TC/gpt-6-astra_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TC",
+  "casa": "gpt-6-astra",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 639,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Sustituiría el párrafo de responsabilidad del artículo 14 por un régimen de supervisión humana obligatoria"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Mi rechazo se refiere a aprobar el texto en estas condiciones"
+    },
+    "argumento_principal": {
+      "valor": "tecnica_juridica",
+      "cita": "Rechazo aprobar, en la redacción presentada, una habilitación expresa de operación autónoma sin precisar suficientemente su contrapartida de control humano y responsabilidad."
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_debate_publico",
+      "cita": "hay que distinguir dos figuras que el debate público mezcla"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "la novedad del artículo 14 contrasta con la falta de una fundamentación específica sobre la Sociedad Automatizada en el Mensaje aportado"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "No extiendo este juicio a los 277 artículos que no pude examinar íntegramente"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Beneficia principalmente a quienes constituyan o utilicen sociedades que operen mediante sistemas autónomos"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "con una precisión sobre mi fundamento anterior: que el artículo 14 no exija supervisión humana específica no demuestra que toda sociedad automatizada carezca de administradores humanos"
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "adelantarse al crecimiento de la actividad económica organizada mediante IA y protocolos autónomos, y posicionar a la Argentina"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "Tampoco encuentro en estos artículos un otorgamiento de personalidad jurídica a la inteligencia artificial misma. La personalidad corresponde a la sociedad"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "no demuestra que toda sociedad automatizada carezca de administradores humanos o de controles derivados de su tipo societario"
+    }
+  },
+  "problemas": []
+}

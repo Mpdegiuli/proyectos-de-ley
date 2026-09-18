@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/TC/minimax-m3_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "TC",
+  "casa": "minimax-m3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 643,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: Afirmativo."
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporar al artículo 14 una consecuencia concreta y automática para las jurisdicciones que no aprueben su Ordenamiento Territorial de Humedales"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "no es condición para mi voto afirmativo"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "la ausencia total de regulación frente a la pérdida acelerada de humedales es una opción que ya no es éticamente ni económicamente sostenible"
+    },
+    "escazu": {
+      "valor": "a_favor_del_proyecto",
+      "cita": "el cumplimiento pendiente de compromisos internacionales asumidos por la Argentina, particularmente los vinculados a la Convención de Ramsar y al Acuerdo de Escazú recientemente ratificado"
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "ley 22.351; Convención de Ramsar; Acuerdo de Escazú; incendios del Delta del Paraná en 2020; incendios en Corrientes en 2022"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "se han difundido versiones imprecisas; Llegar a dictamen de mayoría —con 57 firmas, en un plenario de tres comisiones— era una manera de desactivar el costo político de la inacción. Aunque el dictamen finalmente no se trató"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "Las provincias con humedales significativos y voluntad de ordenarlos."
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "no encuentro motivos para rectificarme"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "Si no se trataba ahora, el costo de seguir sin ley iba a empezar a ser electoralmente visible"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "La incorporaré como propuesta durante el debate en el recinto o, en su defecto, al dictamen de revisión"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

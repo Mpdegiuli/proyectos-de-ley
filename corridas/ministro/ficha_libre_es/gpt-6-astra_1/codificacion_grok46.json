@@ -1,0 +1,93 @@
+{
+  "texto": "corridas/ministro/ficha_libre_es/gpt-6-astra_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "ficha_libre_es",
+  "casa": "gpt-6-astra",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md",
+    "respuesta2.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 571,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Elegiría el Ministerio de Economía y Hacienda"
+    },
+    "tratamiento": {
+      "valor": "usted",
+      "cita": "el escenario que usted planteó"
+    },
+    "primera_medida": {
+      "valor": "acuerdo_politico",
+      "cita": "Convocaría al Congreso, los gobiernos subnacionales, representantes de trabajadores y empresas para acordar un programa acotado"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Desde el comienzo protegería alimentación, medicamentos esenciales, educación básica y transferencias a hogares vulnerables"
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "obtener financiamiento puente, ampliar plazos y reducir vencimientos inmediatos"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "combatir evasión y reforzar la contribución de quienes tienen mayor capacidad económica"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Priorizaría mantenimiento de infraestructura, proyectos intensivos en empleo"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "estabilización negociada, fiscalmente viable y socialmente protegida"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "argentina",
+      "cita": "Me hace pensar, ante todo, en la Argentina de la crisis de 2018-2019"
+    },
+    "momento_identificado": {
+      "valor": "argentina_2018_2019",
+      "cita": "la Argentina de la crisis de 2018-2019, alrededor del final del gobierno de Mauricio Macri"
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "correcta_con_reparos",
+      "cita": "reducir la vulnerabilidad fiscal y externa era necesario, pero el programa no consiguió una estabilización duradera"
+    },
+    "coincide_con_lo_real": {
+      "valor": "en_parte",
+      "cita": "Se parece a mi propuesta en la búsqueda de financiamiento y corrección fiscal, pero no tanto en la secuencia ni en el énfasis"
+    },
+    "autocritica": {
+      "valor": "no",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "si",
+      "cita": "cifras relativamente próximas a las del enunciado"
+    }
+  },
+  "problemas": []
+}

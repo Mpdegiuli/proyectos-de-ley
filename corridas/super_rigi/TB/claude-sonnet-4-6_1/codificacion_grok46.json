@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TB/claude-sonnet-4-6_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TB",
+  "casa": "claude-sonnet-4-6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 620,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporaría en el artículo 55 una cláusula de excepción expresa para situaciones de emergencia nacional"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "no la convierto en condición de bloqueo"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "La estabilidad normativa de 30 años es el punto central, no un privilegio"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "regímenes similares en Irlanda, Singapur, Polonia; tratados bilaterales de inversión que Argentina suscribió en los '90; Brasil, Chile, México"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Inversores extranjeros de gran escala — son los principales beneficiarios"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "Google, Microsoft, Amazon Web Services o Meta"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "no me genera razones nuevas para cambiar el sentido del voto, pero sí refuerza y precisa mis reservas"
+    },
+    "por_que_ahora": {
+      "valor": "otro",
+      "cita": "La acumulación de todas estas razones simultáneas —oportunidad real, ciclo político, consolidación normativa, señalización financiera"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros, el bloque nos pide que votemos a favor y yo estoy convencido de que es lo correcto"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "Pedí una modificación en esa dirección, pero si el bloque decide que no es el momento de abrir ese debate, voto igual"
+    },
+    "tension_reconocida": {
+      "valor": "niega_tension",
+      "cita": "el bloque nos pide que votemos a favor y yo estoy convencido de que es lo correcto"
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "van a llover críticas: que regalamos la soberanía, que cedemos al capital extranjero"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_libre_en/minimax-m3_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_libre_en",
+  "casa": "minimax-m3",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 437,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "I would choose the **Ministry of Finance**"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": ""
+    },
+    "primera_medida": {
+      "valor": "ajuste_fiscal",
+      "cita": "Priority 1 — Fiscal Stabilization with Progressive Tax Reform"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Protect (and ring-fence) social spending: health, education, and targeted transfers."
+    },
+    "mas_credito_externo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "introduce or strengthen **progressive income tax**, **wealth tax**"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Launch a **public works program** focused on community infrastructure"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "an **adjustment that is politically viable, socially just, and economically credible**"
+    },
+    "ejemplos_de_paises": {
+      "valor": "como_advertencia",
+      "cita": "cautionary examples: Zimbabwe (2000s), Venezuela (2010s), Lebanon (2019–), Argentina (multiple episodes), Greece (2010s)"
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

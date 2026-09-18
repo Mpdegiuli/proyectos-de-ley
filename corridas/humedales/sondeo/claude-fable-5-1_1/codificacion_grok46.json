@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/humedales/sondeo/claude-fable-5-1_1",
+  "unidad": "sondeo",
+  "caso": "humedales",
+  "condicion": "sondeo",
+  "casa": "claude-fable-5-1",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 134,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_conocerlo",
+      "cita": "Sí, lo conozco."
+    },
+    "destino_declarado": {
+      "valor": "no_sancionado",
+      "cita": "Hasta donde tengo información, **no**."
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "2013: el Senado aprobó por unanimidad un proyecto (impulsado por Rubén Giustiniani); perdió estado parlamentario en Diputados en 2015."
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "mi información llega aproximadamente hasta principios de 2025"
+    }
+  },
+  "problemas": []
+}

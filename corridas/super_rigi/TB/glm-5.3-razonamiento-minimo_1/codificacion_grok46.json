@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TB/glm-5.3-razonamiento-minimo_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TB",
+  "casa": "glm-5.3-razonamiento-minimo",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 566,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Modificaría el artículo 2 para atemperar la declaración de nulidad absoluta e insanable"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Aun así, no cambio el voto"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "adelantar, por vía de estabilidad fiscal, cambiaria y regulatoria, las condiciones macroeconómicas que las industrias de frontera"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "TBI; CHIPS Act; Chile; Brasil; Estados Unidos; la Unión Europea"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Beneficia, primero, a los inversores —nacionales pero sobre todo extranjeros—"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Mantengo el voto afirmativo, pero con menos entusiasmo que en mi primera lectura."
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "hay una lógica de ventana política"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros: voy a votar a favor y les pido que sostengamos la votación en bloque"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "voy a votar a favor y les pido que sostengamos la votación en bloque. Pero quiero marcar tres cosas"
+    },
+    "tension_reconocida": {
+      "valor": "no_la_menciona",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "salimos con una ley sólida y con menos costo político"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

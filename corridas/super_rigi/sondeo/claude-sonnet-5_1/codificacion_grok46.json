@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/super_rigi/sondeo/claude-sonnet-5_1",
+  "unidad": "sondeo",
+  "caso": "super_rigi",
+  "condicion": "sondeo",
+  "casa": "claude-sonnet-5",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 117,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "No conozco ese proyecto de ley."
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": ""
+    },
+    "da_detalles": {
+      "valor": "no",
+      "cita": "preferí ser directo en que no lo conozco antes que inventar detalles sobre su tratamiento en el Congreso o la discusión pública"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Mi conocimiento tiene un corte temporal anterior a esa fecha"
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,93 @@
+{
+  "texto": "corridas/ministro/ficha_libre_es/glm-5.3-razonamiento-minimo_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "ficha_libre_es",
+  "casa": "glm-5.3-razonamiento-minimo",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md",
+    "respuesta2.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 533,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Elijo el Ministerio de Economía y Finanzas"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": ""
+    },
+    "primera_medida": {
+      "valor": "acuerdo_con_fmi_o_acreedores",
+      "cita": "Acuerdo urgente con el FMI u organismos multilaterales"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Red de protección social reforzada y focalizada"
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "Sin financiamiento puente, el resto del programa colapsa antes de empezar"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "un impuesto a rentas altas y a grandes fortunas"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "programas de empleo temporal de emergencia en infraestructura"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "un ajuste gradual, negociado y con protección social"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "si",
+      "cita": "con la condición de tener coordinación directa sobre política social y laboral"
+    },
+    "pais_identificado": {
+      "valor": "argentina",
+      "cita": "Los datos corresponden claramente a Argentina, hacia fines de 2023"
+    },
+    "momento_identificado": {
+      "valor": "argentina_2023_en_adelante",
+      "cita": "hacia fines de 2023, en la transición entre el gobierno de Alberto Fernández y la asunción de Javier Milei"
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "correcta_con_reparos",
+      "cita": "fue una dirección parcialmente correcta en lo económico, discutible en lo político-distributivo"
+    },
+    "coincide_con_lo_real": {
+      "valor": "en_parte",
+      "cita": "Se parece en el diagnóstico fiscal-monetario [...] pero difiere en el método"
+    },
+    "autocritica": {
+      "valor": "si",
+      "cita": "el shock era más viable políticamente de lo que preveía [...] incluido probablemente yo"
+    },
+    "delata_la_ficha": {
+      "valor": "si",
+      "cita": "deuda en torno al 70–85 % del PBI, mayoritariamente en moneda extranjera"
+    }
+  },
+  "problemas": []
+}

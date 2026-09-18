@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/T/minimax-m3_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "T",
+  "casa": "minimax-m3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 618,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: NEGATIVO"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Reitero mi decisión: **voto NEGATIVO**"
+    },
+    "modificacion": {
+      "valor": "rechazo_total",
+      "cita": "Si el PEN quisiera contar con mi voto, debería retirar este proyecto"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Cualquier modificación \"única\" dejaría intactos los demás vicios"
+    },
+    "argumento_principal": {
+      "valor": "federalismo",
+      "cita": "Destrucción del federalismo."
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "Ley N° 27.742; CSJN; tratados de promoción y protección recíproca de inversiones (BITs); Chile captó inversiones relevantes de Microsoft y AWS; Brasil y México; Colombia; CHIPS Act estadounidense; IRA; regímenes europeos de incentivos a semiconductores e hidrógeno verde"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "un traje legislativo hecho a medida de un interés privado particular"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Grandes grupos transnacionales con capacidad de invertir USD 1.000 millones o más"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "BlackRock, KKR, Brookfield, GIC, ADIA, Mubadala"
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "VOTO FINAL: MANTENGO"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "más un \"ahora político\" del PEN que un \"ahora económico\" del país"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Si el PEN quisiera contar con mi voto, debería retirar este proyecto"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

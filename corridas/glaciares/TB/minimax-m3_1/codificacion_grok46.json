@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TB/minimax-m3_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TB",
+  "casa": "minimax-m3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 659,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: Afirmativo."
+    },
+    "voto_final": {
+      "valor": "abstencion",
+      "cita": "Cambio mi voto. Paso de **afirmativo** a **abstención**"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "La modificación es quirúrgica: no altera el diseño federal del proyecto"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Si la cámara hubiera incorporado mi modificación al artículo 5 [...] mi voto habría sido afirmativo sin reservas. Como no lo hizo, no me es posible prestarle mi voto favorable"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "jurisprudencia vacilante y lecturas contradictorias que afectaron tanto la previsibilidad para las inversiones legítimas"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "Pacto de Mayo; Ley N° 25.675"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "objeciones que se han formulado desde sectores ambientalistas y académicos; El proyecto llegó al Congreso el 15 de diciembre de 2025"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "Los fundamentos del PEN sostienen que la reforma \"no atenúa los estándares de protección vigentes\"; el texto [...] dice lo contrario en sus efectos prácticos"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "sirve de manera directa y sustancial a las **empresas mineras e hidrocarburíferas**"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "cambia_de_voto",
+      "cita": "Cambio mi voto. Paso de **afirmativo** a **abstención**"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "hacía de este momento el único en el que una reforma de la Ley de Glaciares podía aprobarse sin grandes costos"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros: el proyecto que votamos hoy es una corrección técnica"
+    },
+    "ante_el_bloque": {
+      "valor": "se_abstiene",
+      "cita": "Voto abstención, y no negativo"
+    },
+    "tension_reconocida": {
+      "valor": "reconoce_tension",
+      "cita": "un llamado de atención dentro de la coalición"
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "sería un gesto testimonial con costo político alto para mí y para el bloque"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

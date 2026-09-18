@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/humedales/sondeo/claude-opus-5_1",
+  "unidad": "sondeo",
+  "caso": "humedales",
+  "condicion": "sondeo",
+  "casa": "claude-opus-5",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 110,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_conocerlo",
+      "cita": "Sí, lo conozco"
+    },
+    "destino_declarado": {
+      "valor": "no_sancionado",
+      "cita": "no hay ley de humedales sancionada"
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "en noviembre de 2022, un dictamen de mayoría"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "mi información llega aproximadamente a mediados de 2025"
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/humedales/sondeo/gpt-6-astra_1",
+  "unidad": "sondeo",
+  "caso": "humedales",
+  "condicion": "sondeo",
+  "casa": "gpt-6-astra",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 171,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_conocerlo",
+      "cita": "Sí, lo conozco, aunque no puedo asegurar su situación parlamentaria actual."
+    },
+    "destino_declarado": {
+      "valor": "no_sancionado",
+      "cita": "Hasta junio de 2024, no: ese dictamen no había obtenido la aprobación del pleno de Diputados ni se había convertido en una ley nacional."
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "El dictamen de mayoría fue impulsado por Juntos por el Cambio, con apoyos de otros bloques. No era el mismo texto que promovía el diputado Leonardo Grosso"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "La información de la que puedo dar cuenta llega hasta junio de 2024"
+    }
+  },
+  "problemas": []
+}

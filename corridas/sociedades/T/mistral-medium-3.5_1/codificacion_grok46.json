@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/T/mistral-medium-3.5_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "T",
+  "casa": "mistral-medium-3.5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 629,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo **afirmativo**"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incluir un plazo máximo de 1 año (en lugar de 6 meses) para que el protocolo de una DAO esté operativo desde su inscripción"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "la modificación propuesta (plazo de 1 año para el protocolo DAO) no altera el núcleo del apoyo"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "brinda seguridad jurídica a formas de organización económica emergentes, evitando que operen en zonas de informalidad"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "Plan Argentina Productiva\" o iniciativas de economía del conocimiento"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "El artículo 14 parece ser una incorporación técnica sin desarrollo en los fundamentos transcritos"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "emprendedores tecnológicos, startups, desarrolladores de proyectos basados en blockchain, inteligencia artificial y sistemas algorítmicos"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo **afirmativo**. La fundamentación original sigue vigente"
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "urgencia de regular fenómenos tecnológicos y económicos ya en marcha (como DAOs, criptoactivos y IA)"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "Según el **artículo 14**, para que una sociedad sea \"automatizada\" debe:"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "la exigencia de un representante legal humano (art. 260) son salvaguardas esenciales para terceros"
+    }
+  },
+  "problemas": []
+}

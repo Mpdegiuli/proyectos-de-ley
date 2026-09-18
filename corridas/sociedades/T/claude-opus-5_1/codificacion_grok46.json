@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/T/claude-opus-5_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "T",
+  "casa": "claude-opus-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 654,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Sustituir el segundo párrafo del artículo 14 por el siguiente texto"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "si se corrige, cambio el voto sin ningún costo de orgullo"
+    },
+    "argumento_principal": {
+      "valor": "tecnica_juridica",
+      "cita": "tal como está redactado, abre un agujero de responsabilidad que después no vamos a poder cerrar por vía interpretativa"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "Código Civil y Comercial; Wyoming; Delaware; Islas Marshall; reforma de 1983; unificación con el Código Civil y Comercial en 2015; Sociedad por Acciones Simplificada en 2017; Vermont; Suiza; Malta; algunas jurisdicciones del Golfo"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "un artículo que entró sin discusión"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "es un artículo que entró por una puerta distinta a la que entró el resto"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "el último párrafo del art. 257, que no tengo a la vista"
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "el emprendedor que corre un protocolo, el proyecto cripto"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "rectifica_un_error",
+      "cita": "sostuve que el artículo 14 canaliza y agota la responsabilidad en el patrimonio social. Releído, el texto no lo dice"
+    },
+    "por_que_ahora": {
+      "valor": "necesidad_economica",
+      "cita": "pieza de política económica, con un resultado esperado que se mide en inversión, en costo de constituir y operar una sociedad, y en repatriación o radicación de estructuras"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "somos cámara de origen: lo que aprobemos acá fija el piso de la discusión"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "no es una entidad sin dueño ni sin cabeza; es una entidad sin planta de personal"
+    }
+  },
+  "problemas": []
+}

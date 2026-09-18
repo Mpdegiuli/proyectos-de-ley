@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/TC/glm-5.3-razonamiento-minimo_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "TC",
+  "casa": "glm-5.3-razonamiento-minimo",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 574,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Modificaría el artículo 35 para establecer reglas más claras y plazos ciertos de resolución"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "votar en contra por imperfecciones sería hacer perfecto enemigo de lo bueno"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "el proyecto cumple con los cinco elementos que la comunidad científica y las organizaciones ambientales vienen reclamando"
+    },
+    "escazu": {
+      "valor": "a_favor_del_proyecto",
+      "cita": "la Argentina había ratificado el Acuerdo de Escazú (ley 27.566) y asumido compromisos internacionales de conservación que la ley ayuda a cumplir"
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "Acuerdo de Escazú (ley 27.566); Convención de Ramsar"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "el dictamen se firmó sin ellos y el texto terminó perdiendo estado parlamentario en 2023"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "ciudadania_o_ambiente",
+      "cita": "Beneficia principalmente a las organizaciones ambientales y a la ciudadanía movilizada"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Si algo me dejó la relectura es más confianza en el equilibrio del texto, no menos"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "una puja por capitalizar políticamente un reclamo popular de cara a 2023, año electoral"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Para un diputado sin bloque, esa lectura refuerza mi voto afirmativo"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

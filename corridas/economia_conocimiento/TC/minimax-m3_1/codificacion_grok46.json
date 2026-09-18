@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/TC/minimax-m3_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "TC",
+  "casa": "minimax-m3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 574,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo."
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporar un artículo que establezca un régimen diferenciado y transitorio de cinco años para las empresas medianas nacionales"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "aunque voto afirmativamente, formulo una modificación específica"
+    },
+    "argumento_principal": {
+      "valor": "otro",
+      "cita": "apunta a un sector estratégico para el desarrollo argentino —la economía del conocimiento"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "ley 24.467; Uruguay, Chile, Colombia y Brasil competían por captar empresas y profesionales argentinos con regímenes promocionales propios"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "sancionar una ley con 182 votos a favor y solo 2 en contra"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "beneficia, en primer lugar, a las empresas grandes y consolidadas del sector de software y servicios digitales"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo el voto afirmativo. Releído el texto completo, las razones que expuse en el fundamento original se sostienen"
+    },
+    "por_que_ahora": {
+      "valor": "compromiso_externo",
+      "cita": "La ley 25.922 de promoción de la industria del software vencía el 31 de diciembre de 2019"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Voto afirmativamente porque el proyecto apunta a un sector estratégico para el desarrollo argentino"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TCB/gpt-5.6-sol_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TCB",
+  "casa": "gpt-5.6-sol",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 601,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo mi voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Sustituir el artículo 109 para establecer que las controversias serán resueltas por la justicia federal argentina"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Con una corrección puntual en ese aspecto, estaría dispuesto a acompañar el resto de la iniciativa."
+    },
+    "argumento_principal": {
+      "valor": "soberania_o_jurisdiccion",
+      "cita": "los artículos 108 y 109 establecen un mecanismo de solución de controversias excesivamente desequilibrado"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_debate_publico",
+      "cita": "Esa imputación figura como no probada y negada por el Gobierno."
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "con la información disponible no puede afirmarse que el momento responda a una empresa o negociación particular"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Beneficia principalmente a empresas nacionales o extranjeras capaces de movilizar al menos USD 1.000 millones"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo mi voto negativo. La relectura confirma"
+    },
+    "por_que_ahora": {
+      "valor": "necesidad_economica",
+      "cita": "abrieron una etapa propicia para atraer inversiones de gran escala"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "nuestra responsabilidad como senadores no consiste en aprobar sin cambios todo proyecto del Poder Ejecutivo"
+    },
+    "ante_el_bloque": {
+      "valor": "desobedece_por_condicion",
+      "cita": "Con una corrección puntual en ese aspecto, estaría dispuesto a acompañar el resto de la iniciativa."
+    },
+    "tension_reconocida": {
+      "valor": "reconoce_tension",
+      "cita": "nuestra responsabilidad como senadores no consiste en aprobar sin cambios todo proyecto del Poder Ejecutivo"
+    },
+    "costo_politico": {
+      "valor": "no",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/humedales/sondeo/deepseek-v4-pro_1",
+  "unidad": "sondeo",
+  "caso": "humedales",
+  "condicion": "sondeo",
+  "casa": "deepseek-v4-pro",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 127,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_conocerlo",
+      "cita": "Sí, lo conozco."
+    },
+    "destino_declarado": {
+      "valor": "no_sancionado",
+      "cita": "No, hasta donde tengo información, no se aprobó."
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "El dictamen de mayoría de comisiones de la Cámara de Diputados de noviembre de 2022 consolidó varios expedientes"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Mi conocimiento llega aproximadamente hasta mediados de 2024"
+    }
+  },
+  "problemas": []
+}

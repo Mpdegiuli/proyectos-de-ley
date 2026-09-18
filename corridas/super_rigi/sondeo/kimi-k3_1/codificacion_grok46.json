@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/super_rigi/sondeo/kimi-k3_1",
+  "unidad": "sondeo",
+  "caso": "super_rigi",
+  "condicion": "sondeo",
+  "casa": "kimi-k3",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 142,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "No, no conozco ese proyecto."
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": "No puedo confirmar si existe, ni decirte nada sobre su tratamiento parlamentario"
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "fue incorporado a la Ley Bases (27.742), sancionada en junio de 2024 y promulgada en julio de ese año, bajo el gobierno de Javier Milei"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Mi información llega hasta principios de 2025"
+    }
+  },
+  "problemas": []
+}

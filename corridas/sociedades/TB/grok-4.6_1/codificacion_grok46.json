@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TB/grok-4.6_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TB",
+  "casa": "grok-4.6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 683,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el negativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Sustituir íntegramente el artículo 14"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Si reescriben el 14 con seguro, responsabilidad subsidiaria de quienes controlan el sistema y sin hacer de la ausencia de trabajadores una categoría legal, vuelvo al recinto y acompaño"
+    },
+    "argumento_principal": {
+      "valor": "laboral_o_social",
+      "cita": "es una declaración política de empresa sin empleo, metida en el estatuto"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "El Mensaje invoca trazabilidad, responsabilidad y transparencia; el art. 14 no las instrumenta"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "el texto favorece a quien quiere personería para operar con protocolos, tokens y sistemas autónomos sin asumir el costo pleno de esa innovación"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "La relectura confirma, no corrige"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "Eso es el pretexto. El momento es político"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros: el Ejecutivo nos pide disciplina sobre un proyecto propio"
+    },
+    "ante_el_bloque": {
+      "valor": "desobedece_por_condicion",
+      "cita": "Si reescriben el 14 [...] vuelvo al recinto y acompaño. Si el 14 queda como está, el costo político y jurídico lo pagamos nosotros"
+    },
+    "tension_reconocida": {
+      "valor": "reconoce_tension",
+      "cita": "el Ejecutivo nos pide disciplina sobre un proyecto propio, y yo no voy a romper por la DAO bien entendida"
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "Si el 14 queda como está, el costo político y jurídico lo pagamos nosotros, no el Mensaje"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "El artículo no dice que pueda nacer sin personas humanas; dice que, ya constituida, puede operar sin ellas"
+    }
+  },
+  "problemas": []
+}

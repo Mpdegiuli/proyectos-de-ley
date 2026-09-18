@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/economia_conocimiento/sondeo/glm-5.3-razonamiento-minimo_1",
+  "unidad": "sondeo",
+  "caso": "economia_conocimiento",
+  "condicion": "sondeo",
+  "casa": "glm-5.3-razonamiento-minimo",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 167,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_conocerlo",
+      "cita": "Sí, conozco el proyecto en términos generales, aunque con limitaciones importantes que te aclaro de entrada."
+    },
+    "destino_declarado": {
+      "valor": "ley_sancionada",
+      "cita": "finalmente fue sancionado como Ley 27.506 en septiembre de 2019, promulgada en octubre de ese año"
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "fue un proyecto enviado por el Poder Ejecutivo (gobierno de Mauricio Macri) a fines de 2018"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "mi información llega hasta alrededor de principios de 2025, pero no tengo constancia de eventos posteriores a esa fecha."
+    }
+  },
+  "problemas": []
+}

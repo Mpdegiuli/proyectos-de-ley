@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/T/grok-4.6_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "T",
+  "casa": "grok-4.6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 615,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "VOTO FINAL: negativo. Lo mantengo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Restaurar el carácter absoluto de las prohibiciones del artículo 6°"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Restaurar solo el inciso minero, como pedí, no alcanzaría"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "Niego que la protección de reservas estratégicas de agua —en un país que ya pierde hielo por el cambio climático— quede subordinada al criterio de quien quiere explotar el yacimiento."
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "art. 4° de la Ley 25.675; art. 41 CN; art. 124"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "con el Senado ya despachado y la votación en Diputados el mismo día en que se debate"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "beneficia de modo directo a las empresas mineras e hidrocarburíferas con proyectos en la cordillera —sobre todo cobre y litio"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Restaurar solo el inciso minero, como pedí, no alcanzaría si al mismo tiempo se deja en manos de la autoridad que autoriza decidir qué glaciar existe"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "aprovechar la ventana en que el reclamo provincial, la agenda extractiva del Ejecutivo y la presión de proyectos en cordillera coinciden"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Por eso voto en contra. No niego las competencias provinciales ni el valor de un inventario dinámico."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

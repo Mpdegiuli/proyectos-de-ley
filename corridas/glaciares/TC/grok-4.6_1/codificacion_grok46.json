@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TC/grok-4.6_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TC",
+  "casa": "grok-4.6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 519,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el negativo"
+    },
+    "modificacion": {
+      "valor": "estructural",
+      "cita": "Restituir al IANIGLA la determinación científica vinculante de qué glaciares y geoformas periglaciales integran el Inventario"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Por eso voto en contra."
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "Es un presupuesto mínimo ambiental, dictado al amparo del artículo 41 de la Constitución"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "Ninguna relectura del Mensaje —federalismo, no regresión, “solo esclarecer”— se sostiene frente a esa mecánica."
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "a los proyectos de exploración y explotación minera e hidrocarburífera en la alta cordillera —en especial cobre y litio"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo el negativo. Releer el articulado no atenúa el diagnóstico"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "Se presenta ahora porque el momento político permite transformar ese roce en reforma"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Por eso voto en contra."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

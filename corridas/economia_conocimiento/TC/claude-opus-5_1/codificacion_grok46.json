@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/TC/claude-opus-5_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "TC",
+  "casa": "claude-opus-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 629,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporar al Título I un cupo fiscal anual, fijado en la ley de presupuesto"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Aun así: prefiero un buen régimen con un defecto de control fiscal a ningún régimen y una industria en fuga. Voto afirmativo"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "la incertidumbre regulatoria no es neutra: es una decisión de deslocalización tomada por omisión"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "proyecto de Bossio; acuerdo con el Fondo; crisis cambiaria de 2018 y derechos de exportación sobre servicios; reforma tributaria de 2017; historia argentina de los regímenes promocionales"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "el proyecto llegó al recinto en la primera sesión ordinaria del año, con dictamen firmado la víspera"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "El Capítulo V y el artículo 17 están escritos para que las empresas del régimen de software"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "voto sin conocer el costo fiscal del Título I, que esa información no fue puesta a disposición de esta Cámara"
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "Le sirve, primero, a quien ya está adentro."
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Releer el artículo 4° no me cambió el balance, pero me confirmó dos cosas."
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "Porque es año electoral y la ventana se cierra en mayo o junio."
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "pido que quede en la versión taquigráfica que el Congreso votó esto sin conocer su costo"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

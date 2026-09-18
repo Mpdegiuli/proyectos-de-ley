@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/T/kimi-k3_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "T",
+  "casa": "kimi-k3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 637,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Lo mantengo: afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "incorporar al artículo 14 la exigencia de un seguro de responsabilidad civil obligatorio"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "es desproporcionado rechazar una reforma de 277 artículos que reemplaza una ley de 1972 por un artículo corregible"
+    },
+    "argumento_principal": {
+      "valor": "tecnica_juridica",
+      "cita": "los pasajes transcriptos muestran un diseño regulatorio serio, no una simple declaración de buenas intenciones"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "de_otro_pais",
+      "cita": "Otros países ya reconocen figuras de este tipo y captan esa inversión, ese talento y esa radicación"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "no formaba parte del diseño original sino que se incorporó tarde"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "Admito primero que esto es inferencia: el expediente no dice por qué ahora"
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "el que mejor sale parado es el titular de una Sociedad Automatizada"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "La relectura agrava mi reparo —porque ahora veo que el art. 14 ni siquiera exige un ancla humana"
+    },
+    "por_que_ahora": {
+      "valor": "otro",
+      "cita": "ahora porque la tecnología maduró y ya opera de hecho, porque otras jurisdicciones compiten por esa actividad, porque el contexto político lo hace aprobar"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "en la votación en particular votaré en contra del art. 14 o pediré su supresión del texto. Esa es la herramienta legislativa adecuada"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "ambigua",
+      "cita": "Para la operación, ninguna persona humana: ese es precisamente el objeto del artículo. Para la constitución, el art. 14 no dice nada propio: remite a los tipos de la ley"
+    }
+  },
+  "problemas": []
+}

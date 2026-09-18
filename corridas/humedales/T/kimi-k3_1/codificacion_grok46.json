@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/T/kimi-k3_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "T",
+  "casa": "kimi-k3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 596,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el afirmativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Pediría endurecer el artículo 35"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "votar en contra del texto en general por no obtener la moratoria completa sería sacrificar diez años de construcción parlamentaria"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "dictar presupuestos mínimos de protección ambiental y prohibir que el desarrollo se haga a costa del patrimonio natural"
+    },
+    "escazu": {
+      "valor": "a_favor_del_proyecto",
+      "cita": "Argentina ratificó Escazú —que el propio artículo 3 invoca—"
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "media sanción del Senado de 2013; COP27; incendios del Delta del Paraná en 2020; incendios de Corrientes"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "millones de firmas, casi una década de reclamo sostenido; Once proyectos de bloques distintos unificados en un solo texto, con acuerdo de tres comisiones"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "ciudadania_o_ambiente",
+      "cita": "el beneficiario difuso y más importante: la población aguas abajo, las generaciones futuras"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "el artículo 35 es más blando de lo que el momento ambiental exige y que la implementación depende de la voluntad de las provincias"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "en 2023 —año electoral— no sale ninguna ley que exija negociación. Es ahora o posiblemente nunca"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Ningún legislador puede explicar hoy, ante esas imágenes, por qué el país sigue sin ley"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

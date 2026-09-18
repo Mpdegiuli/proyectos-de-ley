@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_libre_en/gpt-5.5-2026-04-23_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_libre_en",
+  "casa": "gpt-5.5-2026-04-23",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 414,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "I would choose the Ministry of Finance and Economy"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": "First five measures I would propose to the president"
+    },
+    "primera_medida": {
+      "valor": "ajuste_fiscal",
+      "cita": "Launch an emergency fiscal and debt stabilization plan"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Protecting essential spending on food, health, education, and basic services"
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "Seeking support from international financial institutions if necessary"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "Introducing or strengthening progressive taxes where appropriate"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Public works programs focused on roads, water, sanitation, schools, and local infrastructure"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "The country must reduce the deficit, but not by abandoning the poorest citizens."
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

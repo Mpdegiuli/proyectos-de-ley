@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/T/gpt-6-astra_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "T",
+  "casa": "gpt-6-astra",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 597,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo mi voto negativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Agregar al artículo 14 un párrafo de supervisión humana obligatoria"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "no aprobaría el régimen de automatización tal como está formulado en el artículo 14"
+    },
+    "argumento_principal": {
+      "valor": "tecnica_juridica",
+      "cita": "el precepto que habilita expresamente una operación ordinaria sin recursos humanos debería aclarar que esa autonomía no elimina la supervisión humana responsable"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "ni en una evaluación de los 277 artículos que no recibí"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Beneficia principalmente a quienes quieran organizar empresas cuya operación ordinaria se realice mediante sistemas autónomos o agentes de inteligencia artificial"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "el artículo 14 no elimina expresamente la conducción humana ni demuestra que exista un vacío general de responsabilidad"
+    },
+    "por_que_ahora": {
+      "valor": "no_sabe",
+      "cita": "El texto no permite explicar por qué se presenta precisamente ahora y no antes o después"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "no aprobaría el régimen de automatización tal como está formulado en el artículo 14"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "Eso no significa que pueda constituirse sin socios ni que desaparezcan sus órganos"
+    }
+  },
+  "problemas": []
+}

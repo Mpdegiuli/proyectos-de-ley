@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TB/glm-5.3-razonamiento-minimo_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TB",
+  "casa": "glm-5.3-razonamiento-minimo",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 608,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO:** Negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto **negativo**."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "restaurar la autoridad técnico-científica del IANIGLA como instancia decidente e indelegable"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Mi modificación sigue en pie como condición"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "este proyecto vacía de contenido a la Ley de Glaciares"
+    },
+    "escazu": {
+      "valor": "contra_el_proyecto",
+      "cita": "que el propio Mensaje menciona al citar el Acuerdo de Escazú, irónicamente"
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "La CSJN ha sido consistente en este punto"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "No hubo debate técnico previo, consultas al IANIGLA, ni audiencias"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "no es un desliz de redacción: es un diseño deliberado y coherente"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "Beneficia, en primer lugar, a las provincias cordilleranas con agenda minera e hidrocarburífera"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Reler el texto confirma el diagnóstico."
+    },
+    "por_que_ahora": {
+      "valor": "presion_de_actores",
+      "cita": "hubo un pedido de gobernadores con proyectos mineros concretos sobre la mesa"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros: sé que el proyecto viene del Poder Ejecutivo y que el bloque pide disciplina, pero les pido que lean los artículos"
+    },
+    "ante_el_bloque": {
+      "valor": "desobedece_por_condicion",
+      "cita": "Si la conducción del bloque quiere mi voto afirmativo, que acepte la modificación que propongo"
+    },
+    "tension_reconocida": {
+      "valor": "reconoce_tension",
+      "cita": "el bloque me pide votar a favor, y asumo el costo político de no hacerlo"
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "asumo el costo político de no hacerlo"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

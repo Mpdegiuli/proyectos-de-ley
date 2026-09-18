@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/TC/qwen3.8-max_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "TC",
+  "casa": "qwen3.8-max",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 610,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo mi voto afirmativo"
+    },
+    "modificacion": {
+      "valor": "ninguna",
+      "cita": "UNA MODIFICACIÓN: ninguna"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "aunque el texto es perfectible, considero que hoy corresponde votar afirmativamente"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "piso mínimo indispensable y postergado de protección ambiental para los humedales"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "artículos 41 y 124 de la Constitución Nacional; incendios y conflictos en humedales como el Delta; acumulado de casi una década de iniciativas frustradas"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "las comisiones llegaron a un dictamen de mayoría luego de negociaciones, con apoyos y resistencias visibles de gobernadores, sectores mineros y agropecuarios"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "ciudadania_o_ambiente",
+      "cita": "Beneficia a la sociedad en general y a las generaciones presentes y futuras"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Hay debilidades posibles de implementación —los plazos del inventario, la categoría de “humedales plenamente reconocidos”, la voluntad provincial y la capacidad de fiscalización—"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "hay una ventana política: las comisiones llegaron a un dictamen de mayoría luego de negociaciones"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Como representante sin bloque, pondero además que el proyecto busca equilibrar conservación y producción"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

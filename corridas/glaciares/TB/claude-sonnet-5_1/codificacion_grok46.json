@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TB/claude-sonnet-5_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TB",
+  "casa": "claude-sonnet-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 730,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Suprimir, en el artículo 5° reformado, la frase que establece que \"la omisión de hacerlo por parte del IANIGLA no afectará la validez de la autorización otorgada por la autoridad competente\""
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Sostengo también la modificación propuesta como condición mínima para reconsiderar mi voto."
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "Eso es un retroceso en el estándar de protección ambiental (principio de no regresión)"
+    },
+    "escazu": {
+      "valor": "contra_el_proyecto",
+      "cita": "el Acuerdo de Escazú exige participación pública en la toma de decisiones ambientales, pero el expediente no acredita ninguna instancia de consulta pública"
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "caso \"Barrick\" (2019); RIGI"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "se trata como parte de un paquete de \"adecuaciones normativas\""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "El texto beneficia directamente a las provincias con proyectos mineros de litio y cobre en alta montaña —Catamarca, Jujuy, Salta, Mendoza, San Juan—"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo el voto negativo. La relectura confirma exactamente el punto más grave de mi fundamento original"
+    },
+    "por_que_ahora": {
+      "valor": "otro",
+      "cita": "convergencia entre una ventana de negocio minero favorable, una demanda político-empresaria concreta y reciente, y un marco de legitimación (Pacto de Mayo, RIGI)"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros, entiendo la necesidad política de responder al reclamo de Catamarca, Jujuy, Salta, Mendoza y San Juan"
+    },
+    "ante_el_bloque": {
+      "valor": "desobedece_por_condicion",
+      "cita": "Prefiero dar la discusión y pedir que se corrija el mecanismo antes de convertirlo en ley, en lugar de acompañar un texto"
+    },
+    "tension_reconocida": {
+      "valor": "reconoce_tension",
+      "cita": "entiendo la necesidad política de responder al reclamo de Catamarca, Jujuy, Salta, Mendoza y San Juan (...) Pero este texto, tal como volvió del Senado, no aclara"
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "lo cual nos expone jurídica y políticamente, sobre todo si después esto termina en la Corte"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

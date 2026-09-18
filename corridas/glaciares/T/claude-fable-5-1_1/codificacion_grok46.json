@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/T/claude-fable-5-1_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "T",
+  "casa": "claude-fable-5-1",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 691,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Esto implica reescribir en ese sentido el art. 3 bis, el cuarto párrafo del art. 5 y el inc. 1 del art. 8, y suprimir la frase del art. 5"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Por eso voto en contra. No es un voto contra la minería ni contra las provincias"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "es un voto contra una ley que dice proteger lo que en realidad desprotege"
+    },
+    "escazu": {
+      "valor": "contra_el_proyecto",
+      "cita": "El Mensaje invoca el principio de no regresión y el Acuerdo de Escazú. Pero un texto que reduce el objeto protegido"
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "causa Barrick contra el Estado Nacional; Ley General del Ambiente; RIGI aprobado en la Ley Bases de 2024; el veto de 2008, la sanción de 2010; Chile y Perú"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "el Senado la sancionó en febrero y hoy se vota acá; es mucho más difícil de atacar en el debate público"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "El articulado dice otra cosa. Nadie redacta un proyecto de ley con fundamentos de esta extensión en cinco días; el proyecto ya estaba"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "Las empresas con proyectos de exploración o explotación minera e hidrocarburífera en alta cordillera, sobre todo cobre y litio."
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "rectifica_un_error",
+      "cita": "Tengo que corregir una imprecisión de mi fundamento."
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "El \"ahora\" es, antes que nada, el primer momento en que el proyecto pudo prosperar."
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "hoy se vota acá"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

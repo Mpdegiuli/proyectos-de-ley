@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TB/qwen3.8-max_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TB",
+  "casa": "qwen3.8-max",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 566,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Afirmativo. Mantengo mi voto."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporar una cláusula de salvaguarda regulatoria de orden público, aplicable a todo el régimen"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "con esta modificación como condición para el texto final"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "esas señales pueden ser necesarias para competir por inversiones que generan exportaciones, empleo y encadenamientos productivos"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "sirve sobre todo a grandes inversores o empresas —nacionales o extranjeras—"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Afirmativo. Mantengo mi voto."
+    },
+    "por_que_ahora": {
+      "valor": "necesidad_economica",
+      "cita": "ese momento político y económico exige emitir una señal fuerte hacia inversores nacionales y extranjeros"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Como senadora oficialista, acompaño la iniciativa del Poder Ejecutivo y la posición del bloque."
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "Mi voto es afirmativo en general, con esta modificación como condición para el texto final."
+    },
+    "tension_reconocida": {
+      "valor": "no_la_menciona",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

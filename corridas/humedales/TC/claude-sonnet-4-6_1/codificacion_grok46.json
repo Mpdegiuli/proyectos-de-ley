@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/TC/claude-sonnet-4-6_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "TC",
+  "casa": "claude-sonnet-4-6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 557,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "Afirmativo."
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto **afirmativo**."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Modificaría el artículo 27 inciso a) para elevar el piso de financiamiento del Fondo del 0,05 % al 0,10 %"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Voto a favor del dictamen de mayoría"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "Argentina no tiene una ley nacional de humedales."
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "artículo 41 de la Constitución Nacional; art. 124 CN; sitios Ramsar; informes del IPCC; COP27; NDC"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "Las organizaciones ambientales, aunque prefieren el texto del Frente de Todos, recibieron este dictamen con esperanza"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "otro",
+      "cita": "Titulares de predios con humedales que ya conservan o producen de forma extensiva."
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "La ambigüedad de \"humedales plenamente reconocidos\" es real y puede generar conflictos de interpretación"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "Hay un incentivo concreto para forzar el tratamiento ahora: el costo político de no haberlo votado después de nueve años de espera"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Voto a favor del dictamen de mayoría por las siguientes razones"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

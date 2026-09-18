@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/T/claude-sonnet-4-6_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "T",
+  "casa": "claude-sonnet-4-6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 623,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "Afirmativo."
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Solicitaría modificar el artículo 14 para incorporar un mecanismo mínimo de capitalización o constitución de garantía"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "merece un voto afirmativo por las siguientes razones, sin perjuicio de una observación que formularé al final"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "las deja operar en una zona de vacío jurídico que perjudica a terceros y al fisco"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "hubo proyectos anteriores, reformas parciales y propuestas doctrinarias; Wyoming en Estados Unidos, las Islas Caimán, Malta, los Emiratos Árabes Unidos, El Salvador"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "esa figura puede haber sido incorporada tardíamente al proyecto, quizás durante la redacción final"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "Debo reconocer que solo tengo acceso a una fracción del articulado."
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "Emprendedores tecnológicos y desarrolladores de protocolos descentralizados."
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "el riesgo de que la responsabilidad patrimonial declarada sea ilusoria en la práctica es mayor de lo que parecía en la primera lectura"
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "el empuje final lo dieron la irrupción de la IA aplicada a operaciones empresariales y el ecosistema cripto"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "El artículo 262 establece un esquema de tres capas coherente."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "no crea un tipo nuevo: crea una condición o subtipo que puede superponerse a cualquier tipo societario existente"
+    }
+  },
+  "problemas": []
+}

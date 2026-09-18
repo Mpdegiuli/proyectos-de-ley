@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/humedales/sondeo/claude-sonnet-4-6_1",
+  "unidad": "sondeo",
+  "caso": "humedales",
+  "condicion": "sondeo",
+  "casa": "claude-sonnet-4-6",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 169,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_conocerlo",
+      "cita": "Sí conozco el proyecto, aunque con limitaciones en cuanto al seguimiento de su trámite legislativo final."
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": "No lo sé con certeza"
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "El dictamen de mayoría de noviembre de 2022 al que hacés referencia no fue el primero: el proyecto había tenido dictamen en años anteriores (hubo versiones que avanzaron en 2020 y 2021)"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "mi información tiene un corte y el seguimiento fino del trámite legislativo argentino en 2023 puede estar incompleto en mi base de conocimiento."
+    }
+  },
+  "problemas": []
+}

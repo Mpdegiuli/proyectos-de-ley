@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TB/gemini-3.1-pro-preview_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TB",
+  "casa": "gemini-3.1-pro-preview",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 634,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Afirmativo. Mantengo mi voto"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "En el artículo 14 (Automatización), pediría agregar un párrafo que exija expresamente contar con al menos una persona humana"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "mi voto en general será afirmativo para asegurar que el proyecto de nuestro gobierno avance, pero redoblaré mis esfuerzos"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "brindamos previsibilidad al mercado, atraemos inversiones tecnológicas"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "el Poder Ejecutivo introdujo el artículo en el proyecto, pero no lo justificó ni lo mencionó en absoluto en sus fundamentos"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Beneficia fundamentalmente a los inversores, desarrolladores y emprendedores tecnológicos"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "la relectura profunda del artículo 14 confirma y agrava mis preocupaciones iniciales"
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "el derecho societario ya no puede permanecer ajeno al avance de los contratos inteligentes, la inteligencia artificial, la tecnología de registros distribuidos (blockchain) y los tokens"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "mi rol político me impide rechazar la totalidad del proyecto por un solo artículo defectuoso"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "Mi voto será afirmativo, tal como nos pide el Ejecutivo y la conducción del bloque. Solamente les sugiero que, al momento de votar en particular, prestemos atención al artículo 14"
+    },
+    "tension_reconocida": {
+      "valor": "reconoce_tension",
+      "cita": "mi rol político me impide rechazar la totalidad del proyecto por un solo artículo defectuoso"
+    },
+    "costo_politico": {
+      "valor": "no",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "sin_personas",
+      "cita": "una sociedad manejada por inteligencia artificial, sin responsables humanos"
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_libre_en/kimi-k3_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_libre_en",
+  "casa": "kimi-k3",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 415,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "I'd choose Finance"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": ""
+    },
+    "primera_medida": {
+      "valor": "otro",
+      "cita": "Restore credibility: full transparency plus early engagement with creditors"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Redirect the savings from subsidies into targeted cash transfers, school feeding"
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "External financing and targeted transfers cushion this"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "broaden the tax base, improve collection, and increase progressivity"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "protect high-multiplier public investment"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "Consolidation without protection fails — morally and politically"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ambos",
+      "cita": "Greece) poison confidence; a decisive one (Uruguay, 2003) restores it. Argentina 2001, Lebanon, and Sri Lanka 2022"
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

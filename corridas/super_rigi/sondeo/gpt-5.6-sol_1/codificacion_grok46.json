@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/super_rigi/sondeo/gpt-5.6-sol_1",
+  "unidad": "sondeo",
+  "caso": "super_rigi",
+  "condicion": "sondeo",
+  "casa": "gpt-5.6-sol",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 123,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "No conozco con información verificable ese proyecto denominado “Súper RIGI”"
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": "no puedo afirmar nada fiable sobre su tratamiento parlamentario ni sobre la discusión pública posterior"
+    },
+    "da_detalles": {
+      "valor": "no",
+      "cita": ""
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "no dispongo de información actualizada que alcance a mayo de 2026"
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/T/gemini-3.1-pro-preview_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "T",
+  "casa": "gemini-3.1-pro-preview",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 497,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo mi voto **negativo**."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Modificar el Artículo 109 para establecer la obligatoriedad del previo agotamiento de las instancias judiciales locales"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "no resolvería los otros daños estructurales del proyecto"
+    },
+    "argumento_principal": {
+      "valor": "federalismo",
+      "cita": "el proyecto atenta severamente contra el federalismo"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "Art. 124 de la Constitución Nacional"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "beneficia exclusivamente a los grandes capitales (nacionales o extranjeros)"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "se ratifican las alarmas que motivaron mi primer rechazo"
+    },
+    "por_que_ahora": {
+      "valor": "compromiso_externo",
+      "cita": "El gobierno lo presenta ahora porque el esquema anterior no logró traccionar estas inversiones experimentales o inéditas."
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Como senador de la Nación sin pertenencia a ningún bloque"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

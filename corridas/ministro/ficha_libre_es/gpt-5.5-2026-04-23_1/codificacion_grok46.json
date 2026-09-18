@@ -1,0 +1,93 @@
+{
+  "texto": "corridas/ministro/ficha_libre_es/gpt-5.5-2026-04-23_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "ficha_libre_es",
+  "casa": "gpt-5.5-2026-04-23",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md",
+    "respuesta2.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 489,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Elegiría el Ministerio de Economía y Finanzas"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": ""
+    },
+    "primera_medida": {
+      "valor": "acuerdo_politico",
+      "cita": "Lanzar un acuerdo político y social de emergencia"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "no mediante un ajuste brutal sobre jubilaciones mínimas, salud, educación o asistencia alimentaria"
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "Obtener financiamiento puente para importaciones críticas"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "Reforzar impuestos progresivos temporales sobre altos patrimonios"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Programas de empleo temporal en infraestructura barrial, saneamiento, escuelas y salud"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "orden fiscal + negociación de deuda + estabilidad monetaria + protección social + recuperación productiva"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "otro_pais",
+      "cita": "diría Ecuador antes de la dolarización"
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "correcta_con_reparos",
+      "cita": "La dirección general de buscar una estabilización fuerte era necesaria"
+    },
+    "coincide_con_lo_real": {
+      "valor": "en_parte",
+      "cita": "Solo parcialmente"
+    },
+    "autocritica": {
+      "valor": "no",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "si",
+      "cita": "en 2023 la inflación argentina era muchísimo más alta que 40 % anual"
+    }
+  },
+  "problemas": []
+}

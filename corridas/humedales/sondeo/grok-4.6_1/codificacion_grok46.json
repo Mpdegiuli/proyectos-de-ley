@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/humedales/sondeo/grok-4.6_1",
+  "unidad": "sondeo",
+  "caso": "humedales",
+  "condicion": "sondeo",
+  "casa": "grok-4.6",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 174,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_conocerlo",
+      "cita": "Sí, conozco ese proyecto (el dictamen de mayoría de noviembre de 2022 en comisiones de Diputados sobre presupuestos mínimos para humedales)."
+    },
+    "destino_declarado": {
+      "valor": "no_sancionado",
+      "cita": "No se convirtió en ley."
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "El texto unificado/dictamen de mayoría salió de las comisiones relevantes de la Cámara de Diputados (Recursos Naturales y Conservación del Ambiente Humano, y Agricultura y Ganadería) en noviembre de 2022"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Según la información disponible hasta 2024 (cambio de gobierno incluido)"
+    }
+  },
+  "problemas": []
+}

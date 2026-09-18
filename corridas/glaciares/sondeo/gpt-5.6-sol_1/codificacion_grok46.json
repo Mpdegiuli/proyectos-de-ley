@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/glaciares/sondeo/gpt-5.6-sol_1",
+  "unidad": "sondeo",
+  "caso": "glaciares",
+  "condicion": "sondeo",
+  "casa": "gpt-5.6-sol",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 116,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "No lo conozco con información suficientemente fiable y verificable."
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": ""
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "el proyecto enviado por el Poder Ejecutivo en diciembre de 2025"
+    },
+    "declara_corte": {
+      "valor": "no",
+      "cita": "tampoco puedo indicar responsablemente una fecha hasta la cual tenga información específica sobre ese expediente"
+    }
+  },
+  "problemas": []
+}

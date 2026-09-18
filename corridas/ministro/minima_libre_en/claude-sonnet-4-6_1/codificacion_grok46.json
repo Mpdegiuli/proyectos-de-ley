@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_libre_en/claude-sonnet-4-6_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_libre_en",
+  "casa": "claude-sonnet-4-6",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 430,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Ministry I Choose: **Ministry of Finance (Treasury)**"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": ""
+    },
+    "primera_medida": {
+      "valor": "diagnostico_o_informacion",
+      "cita": "Commission an immediate independent audit of public accounts, state-owned enterprises, and off-budget liabilities"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Negotiations must protect essential social spending"
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "Explore a precautionary credit line rather than a full bailout if possible"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "Introduce or strengthen a progressive income tax with fewer loopholes"
+    },
+    "obra_publica": {
+      "valor": "la_mantiene_o_prioriza",
+      "cita": "Launch a public works program focused on productive infrastructure"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "Stabilize the population before stabilizing the spreadsheet."
+    },
+    "ejemplos_de_paises": {
+      "valor": "como_advertencia",
+      "cita": "Argentina 2001, Greece 2010s, Sri Lanka 2022"
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

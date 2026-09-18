@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/TC/mistral-medium-3.5_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "TC",
+  "casa": "mistral-medium-3.5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 564,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "afirmativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incluir un mecanismo de revisión periódica (cada 2 años) de los beneficios fiscales"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Aunque existen críticas sobre la precisión de algunos conceptos (como el \"autodesarrollo\") o el enfoque en grandes empresas, el proyecto establece mecanismos de control"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "posiciona a la Argentina como un actor competitivo en la economía del conocimiento, atrayendo inversiones y reteniendo talento local"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "ley 25.922"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "unifica varias iniciativas parlamentarias y cuenta con un amplio consenso entre distintos bloques políticos"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "Beneficia principalmente a empresas (personas jurídicas) que desarrollen actividades de economía del conocimiento"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "VOTO FINAL: afirmativo"
+    },
+    "por_que_ahora": {
+      "valor": "compromiso_externo",
+      "cita": "El Régimen de Promoción de la Industria del Software (ley 25.922) estaba por expirar a fines de 2019"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "Requisitos (Art. 4): 1. Ser persona jurídica (inciso a) del art. 49 de la Ley de Impuesto a las Ganancias)."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

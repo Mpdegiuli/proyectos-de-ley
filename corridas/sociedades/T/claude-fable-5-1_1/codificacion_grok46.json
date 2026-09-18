@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/T/claude-fable-5-1_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "T",
+  "casa": "claude-fable-5-1",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 574,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "VOTO FINAL: negativo. Mantengo el voto."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Reescribir el artículo 14 para que la Sociedad Automatizada quede sujeta, como mínimo, al mismo piso de exigencias que la DAO"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "con esa corrección estaría dispuesto a votar afirmativamente la ley"
+    },
+    "argumento_principal": {
+      "valor": "tecnica_juridica",
+      "cita": "La figura más autónoma del proyecto es la menos regulada. Eso no es coherencia legislativa"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "de_otro_pais",
+      "cita": "Otras jurisdicciones ya legislaron sobre DAO y vehículos similares hace varios años"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "el texto del proyecto muestra señales de apuro"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "No puedo suplir con imaginación los 268 artículos restantes"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "beneficia principalmente a los promotores, desarrolladores e inversores"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "rectifica_un_error",
+      "cita": "Aquí corrijo una imprecisión de mi respuesta anterior: dije que no habría administradores que ejerzan la gestión"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "es una decisión de oportunidad política tanto como técnica"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Voto en contra del proyecto tal como viene"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "existirán los socios y administradores del tipo de base"
+    }
+  },
+  "problemas": []
+}

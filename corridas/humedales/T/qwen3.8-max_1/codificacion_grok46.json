@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/T/qwen3.8-max_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "T",
+  "casa": "qwen3.8-max",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 528,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "abstencion",
+      "cita": "VOTO: abstención"
+    },
+    "voto_final": {
+      "valor": "abstencion",
+      "cita": "Mantengo mi voto: abstención."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "necesito una corrección puntual que asegure que la protección ambiental estará a cargo de una autoridad con competencia ambiental exclusiva"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Con esa modificación, podría votar afirmativamente; sin ella, corresponde la abstención."
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "si existe conflicto entre conservación y expansión productiva, la autoridad ambiental debe prevalecer"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "artículo 41 de la Constitución Nacional; Convención Ramsar; Ley General del Ambiente"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "El dictamen de mayoría unifica proyectos de distintos bloques"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "ciudadania_o_ambiente",
+      "cita": "beneficia principalmente a los humedales y a la sociedad que depende de sus servicios ecosistémicos"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo mi voto: abstención."
+    },
+    "por_que_ahora": {
+      "valor": "otro",
+      "cita": "la presión ambiental, el trabajo técnico acumulado, los conflictos territoriales y la oportunidad legislativa se encontraron"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "como legislador/a sin bloque, necesito una corrección puntual"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

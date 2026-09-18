@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/T/mistral-medium-3.5_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "T",
+  "casa": "mistral-medium-3.5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 603,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "**VOTO:** negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "**VOTO FINAL:**\nnegativo"
+    },
+    "modificacion": {
+      "valor": "estructural",
+      "cita": "Mantener la protección integral de *todos* los glaciares y el ambiente periglacial (sin condicionarla a funciones hídricas específicas)"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "**VOTO:** negativo"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "debilitan la protección ambiental de los glaciares y el ambiente periglacial"
+    },
+    "escazu": {
+      "valor": "contra_el_proyecto",
+      "cita": "Incompatibilidad con el Acuerdo de Escazú"
+    },
+    "antecedente_externo": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "el proyecto llega con media sanción del Senado, lo que acelera su tratamiento en Diputados"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "Beneficia a las provincias con intereses mineros (Catamarca, Jujuy, Salta, San Juan, Mendoza)"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "**VOTO FINAL:**\nnegativo"
+    },
+    "por_que_ahora": {
+      "valor": "presion_de_actores",
+      "cita": "La nota de los gobernadores del 10 de diciembre de 2025, mencionada en los fundamentos, es un claro disparador"
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "El artículo 6° **no cambia la prohibición explícita** de exploración y explotación minera en glaciares y ambiente periglacial, pero **la relativiza**"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

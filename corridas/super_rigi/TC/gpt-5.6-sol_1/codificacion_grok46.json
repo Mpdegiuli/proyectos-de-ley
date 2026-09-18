@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TC/gpt-5.6-sol_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TC",
+  "casa": "gpt-5.6-sol",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 555,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo mi voto negativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Sustituir el artículo 109 por un sistema de solución de controversias recíproco"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Mi voto podría cambiar si se corrigiera, como mínimo, esa asimetría en la solución de controversias"
+    },
+    "argumento_principal": {
+      "valor": "soberania_o_jurisdiccion",
+      "cita": "El punto decisivo es el régimen de controversias"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "Los fundamentos anuncian esos resultados, pero una política de esta magnitud debe asegurarlos mediante obligaciones exigibles"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "Vehículos de Proyecto Único habilitados por el articulado no transcripto"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Beneficia principalmente a empresas nacionales o extranjeras con capacidad de comprometer inversiones de al menos USD 1.000 millones"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Mi voto podría cambiar si se corrigiera, como mínimo, esa asimetría en la solución de controversias"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "aprovechar una ventana política para comprometer al Estado por treinta años"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "No fundamento mi voto en las acusaciones no probadas sobre inversores determinados. Lo hago por el texto"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

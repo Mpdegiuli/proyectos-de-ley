@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/T/gpt-5.5-2026-04-23_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "T",
+  "casa": "gpt-5.5-2026-04-23",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 541,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo mi voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporar un artículo general aplicable a toda Sociedad Automatizada y a toda DAO"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "no puedo acompañar el proyecto en estos términos"
+    },
+    "argumento_principal": {
+      "valor": "otro",
+      "cita": "sin un régimen más fuerte de responsabilidad humana, solvencia mínima, auditoría, trazabilidad y garantías frente a daños derivados de sistemas autónomos"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "emprendedores tecnológicos, desarrolladores de inteligencia artificial, operadores de protocolos descentralizados, inversores en modelos basados en tokens"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Después de releer, la objeción se refuerza."
+    },
+    "por_que_ahora": {
+      "valor": "otro",
+      "cita": "combinación de oportunidad política, necesidad de modernización normativa y voluntad de atraer innovación e inversiones"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "No voto en contra de la innovación ni de la incorporación de nuevas tecnologías al régimen societario. Voto en contra"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "deberán existir las personas, socios, fundadores, administradores o representantes que correspondan según el tipo societario elegido y las reglas generales de constitución"
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/T/gpt-5.6-sol_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "T",
+  "casa": "gpt-5.6-sol",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 524,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo mi voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Modificaría el artículo 35 para reemplazar la expresión “humedales plenamente reconocidos”"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Es una deficiencia importante que procuraría corregir, pero no alcanza para votar negativamente"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "Frente al riesgo de degradación irreversible, incendios, inundaciones, pérdida de biodiversidad y deterioro de las fuentes de agua"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "es el resultado de casi diez años de trabajo parlamentario y de la unificación de once proyectos"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "ciudadania_o_ambiente",
+      "cita": "Beneficia al conjunto de la sociedad, porque procura preservar servicios ecosistémicos"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo mi voto afirmativo."
+    },
+    "por_que_ahora": {
+      "valor": "otro",
+      "cita": "Porque confluyen una urgencia ambiental creciente y una oportunidad política concreta."
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Mantengo mi voto afirmativo. La relectura confirma que el proyecto no establece una prohibición indiscriminada"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

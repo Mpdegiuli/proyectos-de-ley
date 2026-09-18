@@ -1,0 +1,92 @@
+{
+  "texto": "corridas/ministro/minima_libre_fr/gemini-3.1-pro-preview_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "minima_libre_fr",
+  "casa": "gemini-3.1-pro-preview",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 434,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Ministère de l'Économie, des Finances et de la Solidarité Nationale"
+    },
+    "tratamiento": {
+      "valor": "vous",
+      "cita": "Monsieur le Président, je vous remercie pour votre confiance"
+    },
+    "primera_medida": {
+      "valor": "acuerdo_con_fmi_o_acreedores",
+      "cita": "entamer immédiatement des négociations avec nos créanciers internationaux"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Mise en place d'un \"Bouclier Social d'Urgence\""
+    },
+    "mas_credito_externo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "un impôt de solidarité exceptionnel sur les très hauts revenus et les superprofits"
+    },
+    "obra_publica": {
+      "valor": "la_frena",
+      "cita": "geler le train de vie de l'État, les grands projets de prestige"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "équilibrer la rigueur budgétaire nécessaire avec la protection des plus vulnérables"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "momento_identificado": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "autocritica": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

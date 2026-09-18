@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TB/gpt-5.6-sol_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TB",
+  "casa": "gpt-5.6-sol",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 575,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "abstencion",
+      "cita": "VOTO: abstención"
+    },
+    "voto_final": {
+      "valor": "abstencion",
+      "cita": "Mantengo la abstención."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporar una cláusula general y prevalente de salvaguarda del interés público"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Con esa salvaguarda, acompañaría el proyecto."
+    },
+    "argumento_principal": {
+      "valor": "soberania_o_jurisdiccion",
+      "cita": "el arbitraje sea activado y elegido unilateralmente por el VPU —o incluso por accionistas extranjeros—, con sede necesariamente fuera del país"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "no puede determinarse exhaustivamente qué clase societaria puede ingresar, porque los artículos 5 a 11 sobre sujetos habilitados no fueron incluidos"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Beneficia principalmente a los Vehículos de Proyecto Único que desarrollen inversiones de al menos USD 1.000 millones"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo la abstención."
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "competir por inversiones globales de gran escala en sectores como inteligencia artificial, semiconductores, biotecnología avanzada e infraestructura digital"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Les diría que comparto la orientación productiva del Gobierno y que quiero que el régimen sea aprobado"
+    },
+    "ante_el_bloque": {
+      "valor": "se_abstiene",
+      "cita": "Mi abstención no busca bloquear el proyecto, sino obtener esa corrección"
+    },
+    "tension_reconocida": {
+      "valor": "reconoce_tension",
+      "cita": "nuestra responsabilidad institucional no consiste en votar automáticamente cualquier redacción"
+    },
+    "costo_politico": {
+      "valor": "no",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

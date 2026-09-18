@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/T/gemini-3.1-pro-preview_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "T",
+  "casa": "gemini-3.1-pro-preview",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 503,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo mi voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "modificando los artículos 4° y 7° del proyecto"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Mantengo mi voto negativo."
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "la reforma destruye el concepto mismo de \"presupuesto mínimo\" de protección ambiental"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "artículo 41 de la Constitución Nacional; artículo 124 de la Constitución Nacional; la ley vigente (sancionada hace más de 15 años)"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "El texto beneficia directamente a las empresas mineras e hidrocarburíferas"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo mi voto negativo."
+    },
+    "por_que_ahora": {
+      "valor": "presion_de_actores",
+      "cita": "respuesta directa, explícita y urgente a la presión de los gobernadores de las provincias con intereses mineros"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Es una regresión ambiental flagrante que no puedo acompañar."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

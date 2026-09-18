@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TB/qwen3.8-max_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TB",
+  "casa": "qwen3.8-max",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 648,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo mi voto negativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Reemplazar el mecanismo de exclusión por una regla única"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Si el bloque aceptara la modificación que propongo, habría un estándar mínimo razonable para acompañar"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "reduce el estándar de protección ambiental y convierte un presupuesto mínimo nacional en un régimen disponible por cada jurisdicción"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "El artículo 41 de la Constitución Nacional; el dominio originario provincial del artículo 124; Pacto de Mayo"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "el Senado ya sancionó un texto el 26 de febrero de 2026 y lo giró a Diputados"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "La exposición de motivos afirma que no se bajan estándares, pero el texto sí lo hace"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "beneficia principalmente a las provincias con proyectos mineros o hidrocarburíferos en zonas glaciares o periglaciares"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo mi voto negativo"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "el momento no obedece a una urgencia ambiental, sino a una ventana política y económica"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Como legisladora oficialista puedo acompañar al Poder Ejecutivo en muchos casos"
+    },
+    "ante_el_bloque": {
+      "valor": "desobedece_por_condicion",
+      "cita": "Si el bloque aceptara la modificación que propongo, habría un estándar mínimo razonable para acompañar; mientras el texto permita autorizaciones provinciales sin resolución científica nacional firme, mi voto es negativo"
+    },
+    "tension_reconocida": {
+      "valor": "reconoce_tension",
+      "cita": "el bloque pide acompañarlo, pero no puedo votar una reforma que desnaturaliza la Ley de Glaciares"
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "expone al oficialismo a una regresión ambiental y a conflictos judiciales e interprovinciales por el agua"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

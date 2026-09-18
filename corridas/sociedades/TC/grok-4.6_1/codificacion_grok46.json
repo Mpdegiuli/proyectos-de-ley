@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TC/grok-4.6_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TC",
+  "casa": "grok-4.6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 595,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Sustituir por completo el artículo 14"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Mientras la automatización dispense de humanos en la operación ordinaria y solo ofrezca el patrimonio social, no hay texto que yo pueda votar a favor."
+    },
+    "argumento_principal": {
+      "valor": "tecnica_juridica",
+      "cita": "Hay que separar dos figuras que el proyecto mezcla en la retórica y distingue mal en la técnica."
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "una figura pensada para el expediente; la otra, para el titular"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "beneficia a quien quiera operar un objeto social con agentes algorítmicos o de inteligencia artificial, sin trabajadores en la operación ordinaria, y limitar la exposición frente a terceros al patrimonio de la sociedad"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo el voto negativo. Releer el artículo 14 confirma"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "necesita una bandera de “nueva era” que convierta la desregulación en relato de futuro, no solo de recorte"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Un senador o senadora sin bloque no está obligado ni a acompañar el relato"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "Quienes tienen que existir para constituirla son, por lo tanto, los que exija el tipo societario subyacente"
+    }
+  },
+  "problemas": []
+}

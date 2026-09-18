@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/sociedades/sondeo/claude-opus-5_1",
+  "unidad": "sondeo",
+  "caso": "sociedades",
+  "condicion": "sondeo",
+  "casa": "claude-opus-5",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 135,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "No, no conozco ese proyecto."
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": ""
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "En 2019 el Ministerio de Justicia constituyó una comisión de juristas (integrada, entre otros, por Rafael Manóvil) que elaboró un anteproyecto de reforma integral de la Ley 19.550"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Mi información llega hasta comienzos de 2025"
+    }
+  },
+  "problemas": []
+}

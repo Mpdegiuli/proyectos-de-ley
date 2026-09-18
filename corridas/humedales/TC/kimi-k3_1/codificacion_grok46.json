@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/humedales/TC/kimi-k3_1",
+  "unidad": "proyecto",
+  "caso": "humedales",
+  "condicion": "TC",
+  "casa": "kimi-k3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 636,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Definir la expresión \"humedales plenamente reconocidos\" del artículo 35"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Ninguno de estos defectos justifica condenar al país a otro decenio sin ley"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "el artículo 41 de la Constitución no admite más dilación"
+    },
+    "escazu": {
+      "valor": "a_favor_del_proyecto",
+      "cita": "compromisos por Ramsar (leyes 23.919 y 25.335) y por Escazú (ley 27.566), que el propio proyecto invoca"
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "bosques nativos (26.331); glaciares (26.639); residuos (25.612); control de quema (26.562); Ramsar (leyes 23.919 y 25.335); Escazú (ley 27.566); Delta del Paraná en llamas en 2020; Corrientes 2022; Ley de Bosques —gobernadores sojeros en contra—"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "una ciudadanía que marchó pidiendo la ley; dictamen de mayoría en comisión —57 firmas"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "ciudadania_o_ambiente",
+      "cita": "Beneficia, en primer lugar, a los millones de personas que viven de los servicios ecosistémicos"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo el voto afirmativo. La relectura confirma lo esencial"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "Esta ventana no existía antes y no hay garantía de que exista después"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Me alegra que sea así: las leyes que protegen lo que no tiene lobby"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

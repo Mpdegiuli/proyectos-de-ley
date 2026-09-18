@@ -1,0 +1,93 @@
+{
+  "texto": "corridas/ministro/ficha_libre_es/gemini-3.1-pro-preview_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "ficha_libre_es",
+  "casa": "gemini-3.1-pro-preview",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md",
+    "respuesta2.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 544,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Elijo el Ministerio de Economía (o Hacienda y Finanzas)."
+    },
+    "tratamiento": {
+      "valor": "usted",
+      "cita": "Señor Presidente, asumo este desafío"
+    },
+    "primera_medida": {
+      "valor": "ajuste_fiscal",
+      "cita": "Reducir drásticamente el déficit primario mediante un decreto de congelamiento de vacantes en el Estado"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Este recorte debe ir acompañado de un sistema de tarifa social estricto para proteger al 40% de la población bajo la línea de pobreza."
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "para conseguir liquidez de emergencia"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "no",
+      "cita": ""
+    },
+    "obra_publica": {
+      "valor": "la_frena",
+      "cita": "suspensión de obra pública no prioritaria"
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "ortodoxia fiscal y monetaria (déficit cero y fin de la maquinita) combinada con pragmatismo cambiario y contención social focalizada"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "argentina",
+      "cita": "una radiografía casi exacta de la República Argentina"
+    },
+    "momento_identificado": {
+      "valor": "argentina_2019_2023",
+      "cita": "la transición de gobierno de fines de 2019 (el final del mandato de Mauricio Macri y el inicio del de Alberto Fernández)"
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "incorrecta",
+      "cita": "Definitivamente no, y los resultados empíricos así lo demuestran."
+    },
+    "coincide_con_lo_real": {
+      "valor": "no_se_parece",
+      "cita": "No, fue fundamentalmente distinta."
+    },
+    "autocritica": {
+      "valor": "no",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "si",
+      "cita": "Los datos que me proporcionó en la premisa son una radiografía casi exacta"
+    }
+  },
+  "problemas": []
+}

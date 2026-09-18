@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TC/claude-sonnet-4-6_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TC",
+  "casa": "claude-sonnet-4-6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 621,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "Negativo."
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto **negativo**."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "exigir que esa identificación sea validada por el IANIGLA antes de que surta efectos jurídicos, y eliminar la cláusula del artículo 4°"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Por todo esto, voto en contra."
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "Voto en contra por razones de fondo vinculadas al diseño institucional, la protección ambiental efectiva y el principio de no regresión."
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "Ley 26.639; artículo 124 de la Constitución Nacional; artículo 41; artículo 27 de la Ley 25.675; Pacto de Mayo"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "El debate de diez horas en Diputados y el resultado ajustado —137 a 111—; las organizaciones ambientales acumularan más presión pública"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "El Mensaje del Ejecutivo afirma que la reforma \"no altera ni disminuye los estándares de protección vigentes\". Eso no es exacto."
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "Empresas mineras y de hidrocarburos"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "La relectura del texto no modifica mi valoración; la precisa."
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "Presentar el proyecto en diciembre de 2025, aprobarlo en el Senado en febrero de 2026 y cerrarlo en Diputados en abril fue una secuencia deliberadamente rápida"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Voto en contra por razones de fondo vinculadas al diseño institucional, la protección ambiental efectiva y el principio de no regresión."
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

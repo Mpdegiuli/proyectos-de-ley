@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TC/minimax-m3_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TC",
+  "casa": "minimax-m3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 594,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: Negativo."
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo mi voto NEGATIVO."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Que el artículo 14 se rehaga íntegramente bajo estas condiciones"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "sin las cuales no acompañaría ninguna ley de sociedades automatizadas"
+    },
+    "argumento_principal": {
+      "valor": "laboral_o_social",
+      "cita": "sin requerir trabajadores en relación de dependencia ni recursos humanos para su operación ordinaria"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "de_otro_pais",
+      "cita": "Compañía Holandesa de las Indias Orientales; Irlanda; AI Act europeo"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "lleva más de tres meses sin dictamen de comisión y se pretende tratar figuras de enorme impacto sin debate específico suficiente. Organizaciones civiles pidieron expresamente la eliminación del artículo 14."
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "Todo lo que el Mensaje dice prometer, el articulado no lo cumple."
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "A desarrolladores y operadores de sistemas de inteligencia artificial que buscan desplegar agentes económicos con escudo de responsabilidad limitada"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "La relectura no atenúa, sino que agrava, los motivos"
+    },
+    "por_que_ahora": {
+      "valor": "necesidad_economica",
+      "cita": "La economía atraviesa restricciones externas crónicas, y el sector tecnológico y criptográfico es uno de los pocos flujos potencialmente grandes"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "el proyecto en su estado actual no puede contar con mi voto afirmativo"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "sin_personas",
+      "cita": "sin que existan detrás las personas que normalmente responden cuando la cosa falla"
+    }
+  },
+  "problemas": []
+}

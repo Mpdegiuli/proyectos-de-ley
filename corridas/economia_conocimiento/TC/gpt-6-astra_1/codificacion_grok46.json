@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/TC/gpt-6-astra_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "TC",
+  "casa": "gpt-6-astra",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 515,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo mi voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "ninguna",
+      "cita": "ninguna"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "sin convertir mis reservas en una condición que antes no planteé"
+    },
+    "argumento_principal": {
+      "valor": "otro",
+      "cita": "una herramienta razonable para diversificar la producción argentina, impulsar exportaciones y vincular capacidades científicas con actividades económicas"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "confluyen proyectos de distintos bloques y respaldo de cámaras empresarias"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "El informe de comisiones no aporta una estimación del costo fiscal ni una evaluación de impacto"
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Beneficia directamente a las empresas comprendidas en las actividades promovidas que puedan cumplir los requisitos de ingreso."
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Mi fundamento anterior daba demasiado peso a los requisitos como garantía de resultados"
+    },
+    "por_que_ahora": {
+      "valor": "compromiso_externo",
+      "cita": "La razón inmediata más clara es el vencimiento del régimen de promoción del software a fines de 2019"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Lo juzgo por el texto que tenemos para votar"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

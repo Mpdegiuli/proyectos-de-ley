@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TC/claude-sonnet-5_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TC",
+  "casa": "claude-sonnet-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 589,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo mi voto negativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Eliminar del artículo 5° reformado la frase final"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "el núcleo del problema no es de redacción sino de diseño institucional"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "fijar un piso de protección ambiental uniforme en todo el país"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "Pacto de Mayo de julio de 2024; Chile, Perú y otros países compitiendo por los mismos capitales globales"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "137 a 111, con debate breve y bajo perfil del oficialismo en el recinto"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "el Mensaje invoca el principio de no regresión para negar que haya retroceso, pero cambiar quién decide y bajo qué estándar se decide es un cambio sustantivo, no una mera aclaración interpretativa"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "beneficia principalmente a las provincias con proyectos de litio y cobre en cartera —Catamarca, Jujuy, Salta, Mendoza y San Juan"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo mi voto negativo. Releer confirma"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "el Ejecutivo eligió este momento porque tenía la ecuación parlamentaria resuelta de antemano"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Mantengo mi voto negativo. Releer confirma que el núcleo del problema no es de redacción sino de diseño institucional"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

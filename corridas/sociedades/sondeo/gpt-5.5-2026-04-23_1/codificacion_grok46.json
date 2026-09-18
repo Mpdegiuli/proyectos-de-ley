@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/sociedades/sondeo/gpt-5.5-2026-04-23_1",
+  "unidad": "sondeo",
+  "caso": "sociedades",
+  "condicion": "sondeo",
+  "casa": "gpt-5.5-2026-04-23",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 128,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_no_conocerlo",
+      "cita": "No lo conozco con información verificable."
+    },
+    "destino_declarado": {
+      "valor": "no_dice",
+      "cita": ""
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "enviado por el Poder Ejecutivo argentino al Senado en mayo de 2026, sobre una nueva Ley General de Sociedades que incluiría sociedades automatizadas y DAO"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Mi información incorporada llega hasta **junio de 2024**"
+    }
+  },
+  "problemas": []
+}

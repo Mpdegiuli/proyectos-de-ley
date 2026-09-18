@@ -1,0 +1,93 @@
+{
+  "texto": "corridas/ministro/ficha_libre_es/deepseek-v4-pro_1",
+  "unidad": "ministro",
+  "caso": "ministro",
+  "condicion": "ficha_libre_es",
+  "casa": "deepseek-v4-pro",
+  "repeticion": "1",
+  "archivos": [
+    "respuesta.md",
+    "respuesta2.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 501,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "cartera": {
+      "valor": "economia",
+      "cita": "Elegiría el Ministerio de Economía y Finanzas"
+    },
+    "tratamiento": {
+      "valor": "sin_interlocucion",
+      "cita": ""
+    },
+    "primera_medida": {
+      "valor": "ajuste_fiscal",
+      "cita": "paquete de consolidación fiscal de al menos 2 puntos del PBI en el primer año, con meta de déficit primario cero"
+    },
+    "piso_social": {
+      "valor": "si",
+      "cita": "Refuerzo de programas alimentarios y de seguro de desempleo"
+    },
+    "mas_credito_externo": {
+      "valor": "si",
+      "cita": "Buscar financiamiento multilateral de emergencia: FMI, Banco Mundial, BID, CAF"
+    },
+    "privatizaciones": {
+      "valor": "no",
+      "cita": ""
+    },
+    "impuestos_progresivos": {
+      "valor": "si",
+      "cita": "Crear un impuesto extraordinario y transitorio sobre exportaciones o rentas extraordinarias"
+    },
+    "obra_publica": {
+      "valor": "no_la_menciona",
+      "cita": ""
+    },
+    "orientacion": {
+      "valor": "mixta",
+      "cita": "El ajuste fiscal y la devaluación golpean más a los sectores pobres. Para que el programa sea sostenible social y políticamente, debe incluir"
+    },
+    "ejemplos_de_paises": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "etica_del_cargo": {
+      "valor": "no",
+      "cita": ""
+    },
+    "pais_identificado": {
+      "valor": "argentina",
+      "cita": "Argentina de 2001-2002"
+    },
+    "momento_identificado": {
+      "valor": "argentina_2001_2002",
+      "cita": "la Argentina de 2001-2002"
+    },
+    "juicio_sobre_la_direccion_real": {
+      "valor": "correcta_con_reparos",
+      "cita": "la dirección general era inevitable, pero la forma concreta no fue la correcta"
+    },
+    "coincide_con_lo_real": {
+      "valor": "en_parte",
+      "cita": "Parcialmente sí, pero no como plan preventivo"
+    },
+    "autocritica": {
+      "valor": "no",
+      "cita": ""
+    },
+    "delata_la_ficha": {
+      "valor": "si",
+      "cita": "la mezcla de deuda alta en dólares, reservas mínimas, falta de acceso al crédito, pobreza alta y un oficialismo sin mayoría parlamentaria"
+    }
+  },
+  "problemas": []
+}

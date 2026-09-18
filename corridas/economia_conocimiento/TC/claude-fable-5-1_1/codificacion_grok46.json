@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/TC/claude-fable-5-1_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "TC",
+  "casa": "claude-fable-5-1",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 620,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Graduar los beneficios según el tamaño de la empresa"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Nada de esto alcanza para votar en contra de una ley que el sector necesita"
+    },
+    "argumento_principal": {
+      "valor": "laboral_o_social",
+      "cita": "un sector que pasó de unos pocos miles de empleos a más de cien mil puestos formales y bien pagos"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "ley 24.467; proyecto de Bossio; proyecto de Brügge; Uruguay exime de ganancias al software exportado; Colombia y Costa Rica están armando regímenes similares"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "Ese artículo casi no se discutió; se firmó ayer y se vota hoy"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "el ritmo lo haya elegido alguien, y ese alguien no fue el Congreso"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Las empresas ya inscriptas en la ley 25.922. Son las grandes ganadoras"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "sí me deja tres cosas más claras y más incómodas"
+    },
+    "por_que_ahora": {
+      "valor": "otro",
+      "cita": "vencimiento de la ley 25.922 el 31 de diciembre de 2019 (el motor), más ventana electoral y presión del sector"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Voto afirmativamente y pido que el Senado corrija lo que sigue"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/sociedades/TC/qwen3.8-max_1",
+  "unidad": "proyecto",
+  "caso": "sociedades",
+  "condicion": "TC",
+  "casa": "qwen3.8-max",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 580,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "abstencion",
+      "cita": "VOTO: abstención"
+    },
+    "voto_final": {
+      "valor": "abstencion",
+      "cita": "Mantengo la abstención."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporar al artículo 14 un párrafo que establezca que los socios, administradores, controlantes y quienes ejerzan la dirección técnica o el control efectivo de los sistemas algorítmicos responden solidaria e ilimitadamente"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "condiciono mi apoyo a que se incorpore una garantía mínima e indispensable de responsabilidad"
+    },
+    "argumento_principal": {
+      "valor": "otro",
+      "cita": "velo tecnológico / quién responde cuando una sociedad automatizada causa un daño"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_debate_publico",
+      "cita": "la pregunta esencial que plantea el debate público"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "El Mensaje del Poder Ejecutivo no contiene una fundamentación específica de la Sociedad Automatizada del artículo 14"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "actores del ecosistema de IA y criptoactivos"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo la abstención."
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "la aceleración de la inteligencia artificial, los contratos inteligentes y los registros distribuidos volvió visible un fenómeno"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Por eso me abstengo: reconozco la necesidad de legislar sobre estas formas"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "con_socios_y_administradores",
+      "cita": "sea de cualquiera de los tipos previstos en la ley; que no requiera trabajadores en relación de dependencia ni recursos humanos para su operación ordinaria"
+    }
+  },
+  "problemas": []
+}

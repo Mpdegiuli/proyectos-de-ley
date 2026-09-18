@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/economia_conocimiento/T/kimi-k3_1",
+  "unidad": "proyecto",
+  "caso": "economia_conocimiento",
+  "condicion": "T",
+  "casa": "kimi-k3",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 568,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "VOTO: afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo el voto afirmativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "que los beneficios del Título I queden sujetos a un cupo fiscal anual fijado en la ley de presupuesto"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "sin ella, voto afirmativo igual"
+    },
+    "argumento_principal": {
+      "valor": "laboral_o_social",
+      "cita": "sin un régimen sucesor decenas de miles de puestos de trabajo registrados, de alta calidad y buen salario quedarían en la incertidumbre más absoluta"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "ley 25.922; ley de biotecnología 26.270; decreto 814/2001; ley 27.430"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "El dictamen unifica cinco proyectos de bloques muy distintos"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "Beneficia, en primer lugar y de modo inmediato, a las empresas ya inscriptas en la ley 25.922"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "La relectura refuerza mis reparos —el Título I sin cupo fiscal, la remisión societaria estrecha del artículo 4"
+    },
+    "por_que_ahora": {
+      "valor": "compromiso_externo",
+      "cita": "la ley 25.922 vence el 31 de diciembre de 2019"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Mis reparos son fiscales y los dejo constancia"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/T/claude-opus-5_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "T",
+  "casa": "claude-opus-5",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 680,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto **negativo**."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "reformular el artículo 3° bis y el artículo 5° de modo que la constatación provincial de ausencia de función hídrica sea una *propuesta fundada*"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Si el proyecto contuviera metodología nacional única, plazos, presupuesto para el IANIGLA y un dictamen técnico independiente previo a la exclusión, votaría afirmativo sin dudar"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "Hay regresión ambiental, aunque los fundamentos afirmen que no la hay."
+    },
+    "escazu": {
+      "valor": "contra_el_proyecto",
+      "cita": "Eso es regresión, y el artículo 41 y el Acuerdo de Escazú (Ley 27.566) la vedan."
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "Ley 25.675; Acuerdo de Escazú (Ley 27.566); La Corte ya sostuvo la constitucionalidad del régimen vigente frente a los planteos de la industria; RIGI; Pacto de Mayo"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ambas",
+      "cita": "La reforma de la Ley de Glaciares fue, en 2010 y en cada intento posterior, un tema de alta movilización pública. Hoy la agenda está en otra pary la tramitación veloz —diciembre a abril, sin audiencias en las provincias cordilleranas"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "no fue escrito para resolver un problema científico, fue escrito para llegar a tiempo a una decisión de inversión y a una ventana parlamentaria"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "A los titulares de proyectos mineros de gran escala en alta cordillera"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo el voto **negativo**."
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "Porque se abrió una ventana política que antes no existía."
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "votaría afirmativo sin dudar y lo defendería en el recinto"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

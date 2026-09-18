@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/humedales/sondeo/glm-5.3-razonamiento-minimo_1",
+  "unidad": "sondeo",
+  "caso": "humedales",
+  "condicion": "sondeo",
+  "casa": "glm-5.3-razonamiento-minimo",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 146,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_conocerlo",
+      "cita": "Sí, tengo conocimiento de ese proyecto."
+    },
+    "destino_declarado": {
+      "valor": "no_sancionado",
+      "cita": "No, hasta donde tengo información (comienzos de 2025) la ley de humedales no fue aprobada."
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "El dictamen de mayoría logrado en noviembre de 2022 en las comisiones de Recursos Naturales y Análisis de Reglamentación de Diputados"
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "mi información llega hasta comienzos de 2025"
+    }
+  },
+  "problemas": []
+}

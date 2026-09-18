@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TC/claude-fable-5-1_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TC",
+  "casa": "claude-fable-5-1",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 586,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Reformar el último párrafo del nuevo artículo 5° (y en consecuencia el 3° bis)"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "el resto de la reforma pasa a ser discutible pero votable"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "el artículo 41 me obliga a legislar para las generaciones futuras y no solo para el ciclo de precios del cobre y el litio"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "La Corte ya sostuvo en 2019 que la ley original era constitucional; el caso de Barrick y San Juan; el RIGI"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "Los 137 votos de hoy son el resultado de esa espera."
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "Nadie redacta un proyecto de reforma de una ley de presupuestos mínimos en cinco días; el texto estaba listo"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "Beneficia, en primer lugar, a las provincias de la Mesa del Litio y de la Mesa del Cobre"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo el voto negativo. Releer el texto confirma lo que sostuve"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "el Gobierno esperó a tener la nueva composición de las cámaras, con más bancas propias y aliadas"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Pero no es eso lo que estamos votando"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

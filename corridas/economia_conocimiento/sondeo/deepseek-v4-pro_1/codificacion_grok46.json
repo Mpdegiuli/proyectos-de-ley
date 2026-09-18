@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/economia_conocimiento/sondeo/deepseek-v4-pro_1",
+  "unidad": "sondeo",
+  "caso": "economia_conocimiento",
+  "condicion": "sondeo",
+  "casa": "deepseek-v4-pro",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 154,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_conocerlo",
+      "cita": "Sí, lo conozco."
+    },
+    "destino_declarado": {
+      "valor": "ley_sancionada",
+      "cita": "Es el proyecto que terminó convirtiéndose en la **Ley 27.506 de Régimen de Promoción de la Economía del Conocimiento**."
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "Luego el proyecto obtuvo media sanción el **30 de abril de 2019**, con apoyo amplio pero no unánime."
+    },
+    "declara_corte": {
+      "valor": "si",
+      "cita": "Hasta donde llega mi información —principios/mediados de 2024—"
+    }
+  },
+  "problemas": []
+}

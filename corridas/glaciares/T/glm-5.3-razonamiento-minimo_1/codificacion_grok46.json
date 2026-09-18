@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/T/glm-5.3-razonamiento-minimo_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "T",
+  "casa": "glm-5.3-razonamiento-minimo",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 652,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Suprimir del artículo 5° nuevo el párrafo que obliga al IANIGLA a eliminar del Inventario las geoformas que la autoridad provincial declare sin función hídrica"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Sin esa reserva de competencia científica nacional, la reforma sigue siendo un vaciamiento con otro nombre, y no podría votarla a favor"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "el texto sancionado produce un vaciamiento sustantivo de la Ley 26.639"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "La Pampa/Mendoza; veto desobedecido en 2010; Veladero/Pascua Lama"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "lo envió con la prisa característica del cierre de sesiones ordinarias, cuando el control público y el debate son más débiles"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "el mensaje del PEN presenta la reforma como una mera \"adecuación clarificadora\", el texto sancionado produce un vaciamiento sustantivo"
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "Beneficia, primero y principalmente, a las provincias con agenda extractiva en zona cordillerana"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo el voto negativo"
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "su presentación ahora obedece a que el ejecutivo acumuló la gobernabilidad suficiente (gobernadores firmantes, mayorías legislativas tras las elecciones)"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "eso es lo que tengo que evaluar, no los fundamentos retóricos"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

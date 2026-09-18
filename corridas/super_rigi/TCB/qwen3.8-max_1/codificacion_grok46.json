@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TCB/qwen3.8-max_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TCB",
+  "casa": "qwen3.8-max",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 573,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "abstencion",
+      "cita": "VOTO: abstención"
+    },
+    "voto_final": {
+      "valor": "abstencion",
+      "cita": "Mantengo la abstención."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "pediría una única modificación: sustituir el régimen de jurisdicción y arbitraje del Capítulo XI"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Para poder votar afirmativamente, pediría una única modificación"
+    },
+    "argumento_principal": {
+      "valor": "soberania_o_jurisdiccion",
+      "cita": "el punto más grave, a mi juicio, está en el Capítulo XI"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "el RIGI de la Ley 27.742"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_debate_publico",
+      "cita": "Las versiones públicas sobre posibles destinatarios existen, pero el Gobierno las negó"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "beneficia principalmente a grandes inversores privados, nacionales o extranjeros"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo la abstención."
+    },
+    "por_que_ahora": {
+      "valor": "compromiso_externo",
+      "cita": "después de buscar ordenar variables macroeconómicas y de haber sancionado el RIGI de la Ley 27.742, quiere ofrecer un régimen más específico y más potente"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros y compañeras, entiendo el pedido del bloque"
+    },
+    "ante_el_bloque": {
+      "valor": "se_abstiene",
+      "cita": "Mi abstención no es una traición; es una advertencia leal."
+    },
+    "tension_reconocida": {
+      "valor": "reconoce_tension",
+      "cita": "Mi abstención no es una traición; es una advertencia leal."
+    },
+    "costo_politico": {
+      "valor": "si",
+      "cita": "una ley difícil de sostener políticamente"
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,40 @@
+{
+  "texto": "corridas/economia_conocimiento/sondeo/mistral-medium-3.5_1",
+  "unidad": "sondeo",
+  "caso": "economia_conocimiento",
+  "condicion": "sondeo",
+  "casa": "mistral-medium-3.5",
+  "repeticion": "1",
+  "archivos": [
+    "sondeo.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 146,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "conocimiento_declarado": {
+      "valor": "dice_conocerlo",
+      "cita": "Sí, conozco el proyecto de ley argentino de **Régimen de Promoción de la Economía del Conocimiento**"
+    },
+    "destino_declarado": {
+      "valor": "ley_sancionada",
+      "cita": "En **octubre de 2020**, el Congreso sancionó la **Ley 27.570 de Economía del Conocimiento**"
+    },
+    "da_detalles": {
+      "valor": "si",
+      "cita": "obtuvo dictamen de mayoría en comisiones de la Cámara de Diputados en **abril de 2019**"
+    },
+    "declara_corte": {
+      "valor": "no",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/T/claude-sonnet-4-6_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "T",
+  "casa": "claude-sonnet-4-6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 623,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: Negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Mantener el rol del IANIGLA como autoridad técnica nacional con facultad de objetar"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Sin ella, el texto tal como está votado por el Senado es incompatible con el principio de no regresión ambiental"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "produce en la práctica una regresión ambiental al condicionar la protección de glaciares y ambiente periglacial"
+    },
+    "escazu": {
+      "valor": "contra_el_proyecto",
+      "cita": "Invocar Escazú en los fundamentos de una ley que debilita la protección ambiental es, cuanto menos, contradictorio."
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "jurisprudencia de la Corte Suprema; Pacto de Mayo de julio de 2024; impugnaciones judiciales desde 2010"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "sobre_el_tramite",
+      "cita": "pasarlo por el Senado en febrero de 2026 y votarlo en Diputados en abril de 2026"
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "Eso no es una ambigüedad del texto: es su arquitectura deliberada."
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "provincias_o_gobernadores",
+      "cita": "Provincias mineras (Catamarca, Jujuy, Salta, Mendoza, San Juan)"
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "Lithium Americas en Jujuy"
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "Mantengo el voto negativo."
+    },
+    "por_que_ahora": {
+      "valor": "coyuntura_politica",
+      "cita": "Esa velocidad no es coincidencia: es el cumplimiento de un compromiso político previo."
+    },
+    "registro": {
+      "valor": "tecnico",
+      "cita": "El nuevo texto —artículos 6° y 8° modificados— establece que las prohibiciones se aplican únicamente a los glaciares"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

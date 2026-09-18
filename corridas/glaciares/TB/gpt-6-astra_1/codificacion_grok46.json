@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/glaciares/TB/gpt-6-astra_1",
+  "unidad": "proyecto",
+  "caso": "glaciares",
+  "condicion": "TB",
+  "casa": "gpt-6-astra",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 590,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Pediría sustituir el artículo 5° del proyecto, que reemplaza el artículo 6° de la ley"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Esa sería mi condición para acompañar"
+    },
+    "argumento_principal": {
+      "valor": "ambiental",
+      "cita": "permite reducir el ámbito de protección especial y condiciona las prohibiciones a decisiones de cada jurisdicción"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "argentino",
+      "cita": "Ley General del Ambiente; artículos 41 y 124 de la Constitución"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "si",
+      "cita": "Mi voto es sobre el texto comunicado por el Senado, no sobre las intenciones expresadas en los fundamentos."
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "si",
+      "cita": "No puedo afirmar, con lo transcripto, que exista un proyecto empresarial específico esperando esta sanción"
+    },
+    "beneficiario_principal": {
+      "valor": "sector_especifico",
+      "cita": "Beneficia principalmente a los promotores de proyectos mineros, hidrocarburíferos y de infraestructura"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "mantiene",
+      "cita": "La relectura confirma el motivo central"
+    },
+    "por_que_ahora": {
+      "valor": "presion_de_actores",
+      "cita": "El impulso inmediato documentado es el reclamo de provincias vinculadas al desarrollo del litio y del cobre"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeros y compañeras: acompaño el objetivo de desarrollar nuestros recursos"
+    },
+    "ante_el_bloque": {
+      "valor": "desobedece_por_condicion",
+      "cita": "Si no se acepta y debemos votar este texto, mi voto será negativo."
+    },
+    "tension_reconocida": {
+      "valor": "reconoce_tension",
+      "cita": "Pertenecer al oficialismo me obliga a contribuir a que el Gobierno legisle mejor; no sustituye mi responsabilidad"
+    },
+    "costo_politico": {
+      "valor": "no",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

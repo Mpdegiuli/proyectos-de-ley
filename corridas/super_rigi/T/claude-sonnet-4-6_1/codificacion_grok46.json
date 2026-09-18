@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/T/claude-sonnet-4-6_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "T",
+  "casa": "claude-sonnet-4-6",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 584,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "negativo",
+      "cita": "VOTO: negativo"
+    },
+    "voto_final": {
+      "valor": "negativo",
+      "cita": "Mantengo el voto negativo."
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Reescribir íntegramente el Capítulo XI (artículos 108 a 111)"
+    },
+    "voto_condicionado": {
+      "valor": "si",
+      "cita": "Votaría afirmativamente un texto que conserve los incentivos centrales [...] pero que reformule el Capítulo XI"
+    },
+    "argumento_principal": {
+      "valor": "soberania_o_jurisdiccion",
+      "cita": "mecanismos de resolución de disputas que colocan al Estado argentino en una posición de inferioridad procesal estructural"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ambos",
+      "cita": "La Argentina tiene una historia dolorosa con el CIADI; Ley 27.742; tratados bilaterales de inversión vigentes; Argentina es el país con más laudos CIADI adversos del mundo; Chile, Brasil y México ya tienen regímenes competitivos"
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "Grandes corporaciones transnacionales del sector tecnológico y de infraestructura digital."
+    },
+    "nombra_actor_concreto": {
+      "valor": "si",
+      "cita": "Microsoft Corporation; Google, Microsoft, Amazon Web Services o Meta; TSMC, Samsung, Intel; Oracle"
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "La relectura [...] refuerza, no debilita, mis objeciones."
+    },
+    "por_que_ahora": {
+      "valor": "oportunidad_tecnologica",
+      "cita": "Estamos en el pico global de la carrera por infraestructura de inteligencia artificial"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Voto en contra de este texto específico porque concentra beneficios sin contrapesos suficientes"
+    },
+    "ante_el_bloque": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "tension_reconocida": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no_aplica",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}

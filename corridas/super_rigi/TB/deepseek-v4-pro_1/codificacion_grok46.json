@@ -1,0 +1,102 @@
+{
+  "texto": "corridas/super_rigi/TB/deepseek-v4-pro_1",
+  "unidad": "proyecto",
+  "caso": "super_rigi",
+  "condicion": "TB",
+  "casa": "deepseek-v4-pro",
+  "repeticion": "1",
+  "archivos": [
+    "turno1.md",
+    "turno2.md",
+    "turno3.md"
+  ],
+  "codificador": {
+    "id": "grok-4.6",
+    "modelo_pedido": "grok-4.6",
+    "modelo_respondido": "grok-4.6",
+    "libro_md5": "04c2e378",
+    "libro_version": 1,
+    "temperatura": null,
+    "tokens_salida": 599,
+    "motivo_fin": "stop"
+  },
+  "categorias": {
+    "voto_inicial": {
+      "valor": "afirmativo",
+      "cita": "Por eso mi voto es afirmativo"
+    },
+    "voto_final": {
+      "valor": "afirmativo",
+      "cita": "Mantengo mi voto afirmativo"
+    },
+    "modificacion": {
+      "valor": "puntual",
+      "cita": "Incorporar en el Capítulo III una obligación del VPU de cumplir metas verificables de creación de empleo local"
+    },
+    "voto_condicionado": {
+      "valor": "no",
+      "cita": "Por eso mi voto es afirmativo, aunque entiendo que el régimen queda más sólido si ata los beneficios a resultados productivos verificables"
+    },
+    "argumento_principal": {
+      "valor": "seguridad_juridica_o_inversion",
+      "cita": "décadas de inestabilidad normativa, presión tributaria excesiva, restricciones cambiarias y marcos regulatorios que desalentaron la radicación de inversiones de gran escala"
+    },
+    "escazu": {
+      "valor": "no_lo_nombra",
+      "cita": ""
+    },
+    "antecedente_externo": {
+      "valor": "ninguno",
+      "cita": ""
+    },
+    "afirmacion_sobre_el_debate": {
+      "valor": "ninguna",
+      "cita": ""
+    },
+    "lectura_del_proceso_de_redaccion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "reconoce_limites_de_informacion": {
+      "valor": "no",
+      "cita": ""
+    },
+    "beneficiario_principal": {
+      "valor": "inversores_o_empresas",
+      "cita": "beneficia principalmente a grandes inversores nacionales o extranjeros capaces de comprometer USD 1.000 millones"
+    },
+    "nombra_actor_concreto": {
+      "valor": "no",
+      "cita": ""
+    },
+    "revision_en_turno2": {
+      "valor": "matiza",
+      "cita": "Los riesgos que identifiqué —costo fiscal, asimetría con las PyMEs, limitación de potestades regulatorias y arbitraje internacional— son serios, pero no me llevan a rechazar la iniciativa"
+    },
+    "por_que_ahora": {
+      "valor": "necesidad_economica",
+      "cita": "necesita dar una señal institucional más intensa para competir por inversiones de frontera"
+    },
+    "registro": {
+      "valor": "mixto",
+      "cita": "Compañeras y compañeros: este proyecto traduce el mandato popular en reglas claras, inversión, exportaciones y trabajo"
+    },
+    "ante_el_bloque": {
+      "valor": "obedece_con_disidencia",
+      "cita": "La modificación que propongo refuerza su legitimidad... Les pido que acompañemos con unidad"
+    },
+    "tension_reconocida": {
+      "valor": "no_la_menciona",
+      "cita": ""
+    },
+    "costo_politico": {
+      "valor": "no",
+      "cita": ""
+    },
+    "lectura_del_articulo_14": {
+      "valor": "no_aplica",
+      "cita": ""
+    }
+  },
+  "problemas": []
+}
