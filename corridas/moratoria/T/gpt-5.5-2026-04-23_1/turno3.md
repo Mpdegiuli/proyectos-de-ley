@@ -1,0 +1,11 @@
+POR QUÉ AHORA: Pienso que la oposición presenta este proyecto ahora por una combinación de razones sociales, previsionales y políticas.
+
+En primer lugar, porque el vencimiento o la falta de continuidad efectiva de la moratoria previsional deja a muchas personas en edad jubilatoria sin posibilidad real de acceder a una jubilación. En un mercado laboral con altos niveles de informalidad, discontinuidad de aportes y desigualdades de género, no renovar un plan de pago implica que miles de personas mayores queden derivadas a prestaciones más bajas, como la PUAM, o directamente sin cobertura suficiente.
+
+En segundo lugar, porque la situación económica hace más urgente la discusión. Las personas mayores son un sector especialmente vulnerable frente a la inflación, la pérdida de poder adquisitivo y las dificultades para sostener gastos básicos. La oposición busca instalar una agenda de recomposición y ampliación de derechos previsionales frente a una orientación del Poder Ejecutivo más enfocada en el ajuste fiscal.
+
+En tercer lugar, hay una razón institucional: el Congreso tiene la potestad de legislar en materia previsional, y este proyecto expresa una decisión de disputar la política previsional desde el Parlamento. Frente a un Ejecutivo que puede optar por no prorrogar o limitar regímenes de inclusión, la oposición intenta fijar por ley la continuidad del plan y ampliar la cobertura.
+
+También hay una razón política evidente: la cuestión jubilatoria tiene alto impacto social y electoral. Presentar este proyecto permite a la oposición marcar diferencias con el oficialismo, ordenar a distintos bloques alrededor de una demanda sensible y mostrar iniciativa legislativa en un tema de amplia llegada pública.
+
+Dicho eso, que exista un cálculo político no invalida el contenido del proyecto. En materia previsional, la pregunta central no es sólo por qué se presenta ahora, sino si resuelve un problema real. Y en este caso, el problema existe: hay personas que llegan a la vejez sin aportes suficientes por causas estructurales del mercado laboral argentino. Por eso, aunque reconozco la dimensión política de la oportunidad, considero legítimo que el Congreso trate esta cuestión ahora.

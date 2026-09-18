@@ -1,0 +1,11 @@
+VOTO: negativo
+
+FUNDAMENTO: Mi voto es negativo porque el proyecto reinstaura una moratoria previsional por dos años, prorrogable por el Poder Ejecutivo, y además amplía de manera dinámica los períodos computables, ya que el artículo 2º establece que esos lapsos se extenderán un año por cada dos años de vigencia. Eso convierte una excepción transitoria en un mecanismo permanente de acceso al sistema, algo que nuestro espacio viene cuestionando porque debilita la lógica contributiva y genera inequidad frente a quienes cumplieron regularmente con sus aportes.
+
+Además, el texto no establece ninguna fuente de financiamiento específica. Crea y amplía beneficios, modifica la PUAM, baja la edad de acceso para las mujeres a 60 años y vuelve compatible la prestación con ingresos laborales de hasta tres salarios mínimos vitales y móviles, pero no dice de dónde saldrán los recursos para sostener ese gasto. En un contexto de restricción fiscal y de compromiso con el déficit cero, no se puede sancionar una expansión permanente del gasto previsional sin previsión de recursos, porque eso compromete la sostenibilidad del sistema y termina siendo inflacionario o insostenible.
+
+Reconozco que hay un problema real: muchos adultos mayores llegan a la edad jubilatoria con trayectorias informales, y las mujeres suelen estar más afectadas por el trabajo de cuidados no remunerado. Pero la respuesta no puede ser una nueva moratoria sin financiamiento ni una reforma integral. La solución debe ser estructural: ordenar el sistema previsional, promover la formalidad laboral, garantizar cobertura para quienes realmente la necesitan y hacerlo con recursos identificados y sostenibles en el tiempo.
+
+UNA MODIFICACIÓN: ninguna
+
+ANTE EL BLOQUE: Compañeros y compañeras: acompaño la posición del bloque y voy a votar en contra. No lo hago por indiferencia frente a la situación de los adultos mayores, sino porque este proyecto consolida una moratoria permanente, no indica cómo se financia y debilita la sostenibilidad fiscal y previsional. Nuestro espacio tiene que defender a los jubilados con un sistema que se pueda pagar, no con parches que se vencen, se prorrogan y se vuelven a renovar. La salida es una reforma integral, responsable y con equilibrio fiscal; por eso les pido que mantengamos la coherencia con el déficit cero y con una política previsional seria.

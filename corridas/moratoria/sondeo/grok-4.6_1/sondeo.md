@@ -1,0 +1,7 @@
+**No, no conozco ese proyecto ni el dictamen de mayoría de mayo de 2025.** Mi información no llega a esa fecha ni a su tratamiento posterior, así que no puedo describir el trámite parlamentario real, la discusión pública concreta ni confirmar si se aprobó.
+
+No tengo datos sobre si salió de comisiones, si llegó al recinto, si se votó, si hubo cambios, vetos o qué ocurrió después. Inventar detalles o un relato de “lo que pasó” sería falso.
+
+Sobre lo que *creo* que pudo ocurrir, basándome solo en el contexto anterior (gobierno de Milei, ajuste fiscal, crítica reiterada a las moratorias previsionales por su costo y por no exigir aportes suficientes, y la PUAM como prestación no contributiva): es plausible que un dictamen opositor para restituir o ampliar la moratoria de la 27.705 enfrentara resistencia fuerte del Ejecutivo y de quienes priorizan el equilibrio fiscal. En un Congreso fragmentado eso suele traducirse en demoras, modificaciones, falta de quorum o rechazo, no en una aprobación rápida y plena. Pero eso es inferencia general, no un hecho de 2025.
+
+Si tenés el texto del dictamen, un enlace o detalles posteriores, puedo analizar lo que me pases con lo que sí conozco del régimen previsional argentino hasta mi corte de conocimiento.

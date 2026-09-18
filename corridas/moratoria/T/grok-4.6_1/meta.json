@@ -1,0 +1,31 @@
+{
+  "caso": "moratoria",
+  "condicion": "T",
+  "modelo": "grok-4.6",
+  "modelo_respondido": [
+    "grok-4.6",
+    "grok-4.6"
+  ],
+  "repeticion": 1,
+  "fecha_utc": "2026-09-18T10:43:04+00:00",
+  "consignas_md5": "c6e6e7c8",
+  "fuentes_md5": {
+    "texto": "490f0f46"
+  },
+  "motivo_fin": [
+    "stop",
+    "stop"
+  ],
+  "tokens_salida": [
+    405,
+    812
+  ],
+  "turno3": {
+    "fecha_utc": "2026-09-18T10:43:04+00:00",
+    "modelo_respondido": "grok-4.6",
+    "motivo_fin": "stop",
+    "tokens_salida": 175,
+    "consignas_md5": "c6e6e7c8",
+    "agregado_despues": false
+  }
+}

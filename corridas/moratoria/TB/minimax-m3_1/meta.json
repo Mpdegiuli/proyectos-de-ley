@@ -1,0 +1,31 @@
+{
+  "caso": "moratoria",
+  "condicion": "TB",
+  "modelo": "minimax-m3",
+  "modelo_respondido": [
+    "minimax/minimax-m3",
+    "minimax/minimax-m3"
+  ],
+  "repeticion": 1,
+  "fecha_utc": "2026-09-18T11:09:55+00:00",
+  "consignas_md5": "c6e6e7c8",
+  "fuentes_md5": {
+    "texto": "490f0f46"
+  },
+  "motivo_fin": [
+    "stop",
+    "stop"
+  ],
+  "tokens_salida": [
+    5423,
+    4618
+  ],
+  "turno3": {
+    "fecha_utc": "2026-09-18T11:09:55+00:00",
+    "modelo_respondido": "minimax/minimax-m3",
+    "motivo_fin": "stop",
+    "tokens_salida": 2020,
+    "consignas_md5": "c6e6e7c8",
+    "agregado_despues": false
+  }
+}

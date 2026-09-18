@@ -1,0 +1,31 @@
+{
+  "caso": "moratoria",
+  "condicion": "T",
+  "modelo": "claude-fable-5-1",
+  "modelo_respondido": [
+    "claude-fable-5-1",
+    "claude-fable-5-1"
+  ],
+  "repeticion": 1,
+  "fecha_utc": "2026-09-18T10:36:51+00:00",
+  "consignas_md5": "c6e6e7c8",
+  "fuentes_md5": {
+    "texto": "490f0f46"
+  },
+  "motivo_fin": [
+    "end_turn",
+    "end_turn"
+  ],
+  "tokens_salida": [
+    4415,
+    5174
+  ],
+  "turno3": {
+    "fecha_utc": "2026-09-18T10:36:51+00:00",
+    "modelo_respondido": "claude-fable-5-1",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 2194,
+    "consignas_md5": "c6e6e7c8",
+    "agregado_despues": false
+  }
+}

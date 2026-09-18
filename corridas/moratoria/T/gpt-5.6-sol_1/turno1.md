@@ -1,0 +1,11 @@
+VOTO: afirmativo
+
+FUNDAMENTO: El proyecto amplía la cobertura previsional de personas que alcanzaron la edad jubilatoria, pero no reúnen los años de aportes necesarios, muchas veces como consecuencia de la informalidad laboral, el desempleo o las tareas de cuidado no remuneradas. Reinstaurar por dos años el Plan de Pago de Deuda Previsional ofrece una respuesta limitada en el tiempo y exige cancelar la deuda correspondiente, por lo que no equivale simplemente a reconocer aportes inexistentes sin contraprestación.
+
+También acompaño la modificación de la Pensión Universal para el Adulto Mayor. Permitir su acceso a las mujeres desde los sesenta años procura evitar que quienes no pueden completar aportes queden sin cobertura durante cinco años. La compatibilidad con el trabajo registrado, con un límite de ingresos, es asimismo razonable: favorece la formalización y evita que aceptar un empleo implique perder automáticamente la protección previsional.
+
+El texto contiene salvaguardas relevantes: excluye del plan los períodos en los que existieron servicios registrados; mantiene requisitos de ciudadanía o residencia para la PUAM; exige residencia efectiva en el país; establece incompatibilidades con otras prestaciones, con excepciones expresas; y limita la compatibilidad laboral a ingresos inferiores a tres salarios mínimos.
+
+No desconozco el costo fiscal ni la necesidad de preservar la sustentabilidad del sistema previsional. Sin embargo, esos objetivos deben compatibilizarse con el carácter integral e irrenunciable de la seguridad social y con la realidad de quienes llegaron a la vejez después de trayectorias laborales precarias. Entre dejar a esas personas sin ingresos y establecer mecanismos regulados de inclusión, considero más justa la segunda alternativa.
+
+UNA MODIFICACIÓN: Suprimir la facultad del Poder Ejecutivo de prorrogar por sí solo la moratoria por otros dos años y establecer que cualquier prórroga deberá aprobarse por ley, previa evaluación pública de su cobertura, costo fiscal y resultados.

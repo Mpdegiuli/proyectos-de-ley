@@ -1,0 +1,21 @@
+VOTO: negativo
+
+FUNDAMENTO: voto en contra porque el proyecto, tal como está redactado, amplía compromisos previsionales permanentes sin incorporar una estimación de costo, sin fuente de financiamiento específica y sin una regla de sostenibilidad. En materia previsional, la sensibilidad social es enorme, pero justamente por eso no podemos legislar beneficios de alto impacto fiscal sin decir cómo se pagan y sin cuidar que el sistema pueda sostenerlos en el tiempo.
+
+El capítulo I reinstaura por dos años el capítulo II de la ley 27.705 y el Plan de Pago de Deuda Previsional, con posibilidad de prórroga por otros dos años a decisión del Poder Ejecutivo. Además, modifica los períodos computables, extendiéndolos hacia adelante con una regla automática. En los hechos, se vuelve a abrir una moratoria amplia, con efectos fiscales que no están cuantificados en el dictamen ni en el texto. El informe de mayoría se limita a aconsejar la sanción, pero no explica el impacto presupuestario ni la fuente de recursos.
+
+No desconozco el problema de fondo: en la Argentina hay muchas personas, especialmente mujeres, que llegan a la edad jubilatoria sin los treinta años de aportes por informalidad laboral, tareas de cuidado no remuneradas, desempleo o trayectorias laborales interrumpidas. Ese problema existe y merece respuesta. Pero la respuesta no puede ser seguir acumulando excepciones sobre un sistema previsional ya tensionado, sin ordenar sus reglas ni distinguir adecuadamente entre quienes aportaron, quienes no pudieron aportar y quienes tuvieron capacidad económica pero no realizaron aportes.
+
+También tengo reparos con el capítulo II. La modificación de la PUAM baja la edad de acceso para las mujeres a los 60 años y mantiene 65 años para las demás personas. Nuevamente, puede haber una finalidad social atendible, pero el texto no acompaña ninguna evaluación de sostenibilidad ni de cobertura, y transforma una prestación no contributiva en una herramienta de expansión amplia sin financiamiento asignado. Además, flexibiliza compatibilidades con trabajo registrado, autónomo o monotributista hasta ingresos inferiores a tres salarios mínimos vitales y móviles, lo cual requiere una discusión más fina para evitar superposiciones y distorsiones.
+
+El Congreso tiene facultades para legislar en materia previsional, pero también tiene la responsabilidad de no sancionar normas que generen gasto permanente sin respaldo presupuestario. Más aún cuando se trata de jubilaciones y pensiones, donde cada decisión compromete obligaciones futuras durante muchos años.
+
+Por esas razones, mi voto es negativo. No es un voto contra los adultos mayores ni contra quienes tuvieron trayectorias laborales precarias. Es un voto contra una herramienta mal diseñada, sin financiamiento, sin evaluación fiscal y sin una solución estructural al problema previsional.
+
+UNA MODIFICACIÓN: incorporaría un artículo de financiamiento específico y suficiente, con estimación actuarial y presupuestaria previa, que establezca de manera expresa de qué partidas o recursos permanentes saldrá el dinero para cubrir el costo incremental de la reinstauración de la moratoria y de la ampliación de la PUAM.
+
+ANTE EL BLOQUE: les digo a mis compañeros de bancada que acompaño la posición del bloque porque el proyecto tiene una finalidad social sensible, pero está planteado de manera fiscalmente irresponsable. No podemos votar una ampliación previsional de esta magnitud sin costo estimado, sin fuente de financiamiento y sin una regla que preserve la sustentabilidad del sistema.
+
+También les diría que tenemos que explicar el voto con seriedad y respeto. No alcanza con decir “no”. Hay que reconocer el problema de quienes llegan a la vejez sin aportes suficientes, pero marcar que la solución debe ser ordenada, financiada y sostenible. Si sancionamos beneficios sin respaldo, después el perjuicio lo terminan pagando los propios jubilados, los trabajadores formales y el conjunto de los contribuyentes.
+
+Mi voto negativo defiende una idea central: la política previsional debe proteger a los adultos mayores, pero también debe ser viable. Sin financiamiento real, una promesa previsional puede transformarse en frustración futura.

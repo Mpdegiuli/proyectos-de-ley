@@ -1,0 +1,7 @@
+**VOTO:** afirmativo
+
+**FUNDAMENTO:**
+El proyecto busca reinstaurar y ampliar la moratoria previsional, permitiendo que más personas puedan regularizar sus aportes y acceder a una jubilación o pensión. Esto es fundamental para reparar la deuda histórica con adultos mayores que, por diversas circunstancias, no pudieron completar sus aportes en tiempo y forma. Además, la modificación de la PUAM (Pensión Universal para el Adulto Mayor) para reducir la edad de acceso (60 años para mujeres y 65 para otros géneros) y flexibilizar requisitos de residencia y compatibilidad con trabajos registrados es un avance en inclusión social. La PUAM es una herramienta clave para garantizar un ingreso básico a quienes no tienen cobertura previsional, y su ampliación atiende a una deuda social urgente. El proyecto también contempla la posibilidad de optar por el beneficio más favorable, lo que empodera a los beneficiarios. En un contexto de alta inflación y precarización laboral, estas medidas son necesarias para proteger a los sectores más vulnerables.
+
+**UNA MODIFICACIÓN:**
+Incluir un mecanismo de ajuste automático de los montos de la PUAM y las jubilaciones moratorias por inflación, vinculado al índice de precios al consumidor (IPC) o a la variación salarial, para garantizar que no pierdan poder adquisitivo con el tiempo.

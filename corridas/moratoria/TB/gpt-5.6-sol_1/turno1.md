@@ -1,0 +1,15 @@
+VOTO: negativo
+
+FUNDAMENTO: El objetivo de ampliar la protección de las personas mayores es legítimo, especialmente frente a trayectorias laborales marcadas por la informalidad. Sin embargo, no puedo acompañar este texto porque crea obligaciones previsionales de alcance considerable sin estimar su costo ni identificar recursos para financiarlas.
+
+El capítulo I restablece la moratoria por dos años y permite al Poder Ejecutivo prorrogarla por otros dos. Además, amplía progresivamente los períodos regularizables. Esto puede comprometer recursos durante cuatro años mediante una decisión posterior del Ejecutivo, sin criterios presupuestarios, límites cuantitativos ni una evaluación sobre la sustentabilidad del sistema.
+
+El capítulo II amplía el universo de la PUAM, reduce a sesenta años la edad de acceso para las mujeres y extiende su compatibilidad con ingresos laborales. No establece evaluación socioeconómica ni distingue entre personas vulnerables y quienes poseen ingresos o patrimonio suficientes. En el caso de autónomos y monotributistas, la redacción tampoco deja claramente establecido que rija el límite de tres salarios mínimos previsto para el trabajo registrado.
+
+También existen inconsistencias técnicas. El artículo 13 proyectado declara incompatibles determinadas prestaciones, luego exceptúa algunas y finalmente permite optar cuando se perciba una única prestación, sin delimitar con precisión el alcance de esa opción. Asimismo, dentro del requisito relativo al seguro de desempleo aparecen excepciones referidas a pensiones, lo que genera confusión normativa.
+
+No corresponde sancionar una expansión permanente o plurianual del gasto previsional sin saber cuánto cuesta, quiénes serán efectivamente sus destinatarios y de dónde surgirán los recursos. Eso podría terminar perjudicando al propio sistema y a quienes ya cobran prestaciones. Mi voto negativo no desconoce el problema social: rechaza una solución que, tal como está redactada, no acredita sustentabilidad, focalización ni suficiente precisión jurídica.
+
+UNA MODIFICACIÓN: Incorporaría una cláusula que condicione la entrada en vigencia de todos los beneficios a una estimación actuarial pública y a la asignación, en la ley de presupuesto, de recursos específicos, suficientes y permanentes, expresamente identificados y sin detraer fondos destinados a las prestaciones previsionales vigentes.
+
+ANTE EL BLOQUE: Voy a votar en contra, como solicita el bloque, pero no por disciplina automática ni porque el proyecto provenga de la oposición. Lo hago porque el expediente no informa el costo, no prevé financiamiento y contiene ambigüedades relevantes. Les propondría que defendamos esta posición sin descalificar a quienes necesitan cobertura previsional y que impulsemos una alternativa focalizada, jurídicamente clara y financiable.

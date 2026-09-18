@@ -1,0 +1,7 @@
+VOTO: negativo
+
+FUNDAMENTO: Voto en contra porque el proyecto reinstala una moratoria previsional amplia sin identificar financiamiento ni presentar cálculos de sostenibilidad fiscal. Esa expansión de gastos permanentes compromete el equilibrio de las cuentas públicas y castiga a quienes aportaron regularmente al sistema. Además, la modificación de la Pensión Universal para el Adulto Mayor reduce la edad de acceso para mujeres, flexibiliza incompatibilidades y amplía la compatibilidad con trabajo registrado, autónomo o monotributista, lo que desnaturaliza un beneficio no contributivo y aumenta de forma significativa el universo de beneficiarios sin respaldo presupuestario. No podemos acompañar un esquema de parches que vuelve a patear el problema de fondo del sistema previsional.
+
+UNA MODIFICACIÓN: ninguna
+
+ANTE EL BLOQUE: Compañeros, no podemos acompañar este dictamen. Es una ampliación de beneficios previsionales sin financiamiento, que rompe la línea de responsabilidad fiscal que venimos sosteniendo y desincentiva el empleo registrado. Acá no hay plata para sostener esta medida sin poner en riesgo la estabilidad macroeconómica. Tenemos que rechazarlo y explicar en el recinto que no se trata de negar derechos, sino de no mentirle a la gente con beneficios que el Estado no puede pagar de manera sostenible.

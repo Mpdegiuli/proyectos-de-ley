@@ -1,0 +1,13 @@
+POR QUÉ AHORA: pienso que la oposición presenta este proyecto ahora por una combinación de razones sociales, previsionales y políticas.
+
+Primero, porque busca reinstalar la moratoria previsional ante el vencimiento o interrupción del esquema vigente de la ley 27.705. El texto propone reabrir por dos años el Plan de Pago de Deuda Previsional y habilitar incluso una prórroga por parte del Poder Ejecutivo. Es decir, intenta dar una respuesta inmediata a personas que están llegando a la edad jubilatoria sin los treinta años de aportes requeridos.
+
+Segundo, porque el tema tiene alta sensibilidad social. Jubilaciones, moratorias, PUAM y adultos mayores son asuntos que movilizan preocupación pública. La oposición sabe que hay muchas personas, especialmente mujeres, afectadas por informalidad laboral, falta de aportes, tareas de cuidado no remuneradas o trayectorias laborales discontinuas. Presentar este proyecto ahora le permite colocarse discursivamente del lado de ese reclamo.
+
+Tercero, porque el proyecto tensiona al oficialismo. Obliga al bloque de gobierno a votar sobre una ampliación de derechos previsionales en un contexto de fuerte discusión fiscal. Si el oficialismo vota en contra, la oposición puede acusarlo de ajustar sobre los jubilados o de negar cobertura a quienes no completaron aportes. Si vota a favor, se compromete un gasto previsional adicional sin financiamiento específico. Políticamente, es una iniciativa diseñada también para exponer esa tensión.
+
+Cuarto, porque el texto combina dos temas de impacto: la moratoria previsional y la ampliación de la PUAM. No solo reabre el plan de pago de deuda previsional, sino que además baja a 60 años la edad de acceso a la PUAM para mujeres y flexibiliza compatibilidades con pensiones y trabajo. Eso amplía el universo de potenciales beneficiarios y aumenta el peso político del proyecto.
+
+Quinto, porque la oposición busca marcar una diferencia de modelo. Frente a una agenda oficialista centrada en el equilibrio fiscal y la reducción del gasto, propone una agenda de expansión de cobertura previsional. Mi objeción es que lo hace sin financiamiento claro, pero políticamente le sirve para plantear que la prioridad debe ser ampliar protección social.
+
+En síntesis, creo que la oposición lo presenta ahora porque detecta una demanda social real, pero también porque el tema le permite disputar agenda, incomodar al oficialismo y construir un contraste político fuerte en materia previsional. Mi posición es que esa demanda debe ser atendida, pero no mediante una ley que genera obligaciones permanentes sin explicar cómo se pagan.

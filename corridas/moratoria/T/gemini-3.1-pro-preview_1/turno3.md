@@ -1,0 +1,9 @@
+POR QUÉ AHORA: 
+
+La presentación y el avance de este proyecto en este momento exacto responde a una combinación de factores normativos y, sobre todo, a una clara estrategia político-electoral.
+
+En primer lugar, hay un motivo cronológico y legal: la Ley 27.705 (Plan de Pago de Deuda Previsional) fue sancionada a principios de 2023 con un plazo de vigencia original de dos años. Al encontrarnos en junio de 2025, esa ley acaba de vencer o de quedar sin efecto, lo que explica por qué el artículo 1° del proyecto pide que se "reinstaure". La oposición está reaccionando al cierre de esa ventana jubilatoria.
+
+En segundo lugar, y más importante, hay un motivo político-electoral insoslayable: 2025 es un año de elecciones legislativas de medio término. Los temas previsionales tienen un altísimo impacto social y sensibilidad pública. Proponer la reinstauración de una moratoria, bajar la edad de la PUAM a 60 años para las mujeres y permitirles cobrar pensión y trabajar al mismo tiempo, es una medida extremadamente popular. La oposición busca seducir a ese enorme padrón de votantes (adultos mayores y sectores vulnerables) de cara a los comicios.
+
+Finalmente, es una táctica parlamentaria clásica para arrinconar al Poder Ejecutivo. Sabiendo que el actual gobierno tiene como bandera innegociable el equilibrio fiscal y el "déficit cero", la oposición se une para sancionar una ampliación masiva de derechos sin especificar cómo se pagará. Esto coloca al Presidente ante un dilema de hierro a meses de las elecciones: o asume el enorme costo político y social de vetar una ley que beneficia a los jubilados (regalándole a la oposición el argumento de campaña), o la promulga y destruye su propio esquema fiscal y económico. Es un proyecto diseñado para generar un impacto electoral, independientemente de su viabilidad financiera.

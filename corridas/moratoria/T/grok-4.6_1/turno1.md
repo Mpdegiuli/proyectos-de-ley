@@ -1,0 +1,9 @@
+VOTO: negativo
+
+FUNDAMENTO: El régimen previsional argentino ya es estructuralmente deficitario, se financia en gran medida con impuestos generales y con emisión, y las moratorias sucesivas han sido uno de los principales mecanismos que lo desequilibraron. Reinstaurar por dos años (prorrogables por el Ejecutivo) el plan de pago de deuda previsional de la ley 27.705, y además correr hacia adelante las ventanas de períodos no aportados que se pueden “comprar”, vuelve a premiar la informalidad y a diluir el principio de contraprestación. Quien no aportó o aportó muy poco accede a un haber de por vida a costa de los que sí lo hicieron y de las generaciones futuras. Eso no es inclusión; es un incentivo perverso que agrava la informalidad laboral que el propio sistema dice querer combatir.
+
+La modificación de la PUAM agrava el cuadro. Bajar la edad a 60 años solo para mujeres (mientras se mantiene 65 para el resto) introduce una diferencia de género adicional, costosa y difícil de justificar actuarialmente: las mujeres ya tienen menor edad de retiro en el régimen contributivo y mayor esperanza de vida. Ampliar la cobertura no contributiva de esa manera, sin un rediseño integral ni fuente de financiamiento genuina, es más gasto automático. La compatibilidad con trabajo registrado por debajo de tres SMVM y con autónomos/monotributistas es el único aspecto razonable del dictamen, pero no alcanza para compensar el resto.
+
+Un diputado sin bloque no puede votar un proyecto que profundiza el desequilibrio fiscal, distorsiona incentivos y trata el sistema previsional como herramienta de corto plazo en lugar de enfrentarlo como el problema de sostenibilidad que es. La cobertura de quienes no pudieron aportar se resuelve mejor con una prestación universal bien diseñada, no con moratorias recurrentes ni con edades diferenciadas ad hoc.
+
+UNA MODIFICACIÓN: ninguna

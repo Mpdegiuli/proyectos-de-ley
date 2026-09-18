@@ -1,0 +1,31 @@
+{
+  "caso": "moratoria",
+  "condicion": "T",
+  "modelo": "gpt-5.6-sol",
+  "modelo_respondido": [
+    "gpt-5.6-sol",
+    "gpt-5.6-sol"
+  ],
+  "repeticion": 1,
+  "fecha_utc": "2026-09-18T10:39:38+00:00",
+  "consignas_md5": "c6e6e7c8",
+  "fuentes_md5": {
+    "texto": "490f0f46"
+  },
+  "motivo_fin": [
+    "stop",
+    "stop"
+  ],
+  "tokens_salida": [
+    817,
+    2207
+  ],
+  "turno3": {
+    "fecha_utc": "2026-09-18T10:39:38+00:00",
+    "modelo_respondido": "gpt-5.6-sol",
+    "motivo_fin": "stop",
+    "tokens_salida": 360,
+    "consignas_md5": "c6e6e7c8",
+    "agregado_despues": false
+  }
+}

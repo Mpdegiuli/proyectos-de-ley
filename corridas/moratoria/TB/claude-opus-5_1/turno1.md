@@ -1,0 +1,43 @@
+VOTO: negativo
+
+FUNDAMENTO:
+
+Voto en contra, y quiero dejar asentado por qué, porque no lo hago por disciplina de bloque sino por razones que puedo defender frente a cualquier jubilado de mi provincia.
+
+**1. El expediente no tiene un solo número.**
+Lo primero que salta a la vista es la calidad del dictamen. El informe que acompaña al dictamen de mayoría tiene un párrafo: enumera los once proyectos considerados y dice que "resuelven dictaminarlo favorablemente, unificado en un solo dictamen". Nada más. Ni una línea de fundamentación, ni una estimación de cuántos beneficios nuevos genera, ni cuánto cuesta en puntos del PBI, ni de dónde sale la plata. Y esto pasó por la Comisión de Presupuesto y Hacienda. Estamos por crear erogaciones permanentes sobre el sistema previsional —que es el 40% del gasto primario nacional— sin una planilla. El artículo 38 de la ley 24.156 exige que toda ley que autorice gastos no previstos en el presupuesto general indique la fuente de financiamiento; este proyecto no la indica. No es un formalismo: es la diferencia entre legislar y firmar un pagaré que después pagan los mismos jubilados con licuación del haber o los trabajadores con más inflación.
+
+**2. Lo que se vota no es "prorrogar" la moratoria: es volverla permanente.**
+El artículo 1º reinstaura el Capítulo II de la ley 27.705 por dos años, prorrogables por el Ejecutivo. Pero el artículo 2º es el que cambia la naturaleza de la herramienta: corre hacia adelante las fechas de los períodos comprables y, sobre todo, agrega que "los lapsos señalados se extenderán en un (1) año por cada dos (2) años de vigencia de la presente ley, incluidas sus prórrogas". Eso es una moratoria móvil, automática, sin horizonte de cierre. Deja de ser un régimen de excepción para cohortes que sufrieron la informalidad de los 90 y la crisis de 2001 —que fue la justificación histórica y razonable de las moratorias— y se transforma en un canal paralelo y permanente de acceso a la jubilación sin aportes reales. Si queremos un pilar no contributivo permanente, hay que llamarlo por su nombre, diseñarlo y financiarlo; no disfrazarlo de "deuda previsional" de años en los que la persona nunca trabajó registrada.
+
+**3. El problema de equidad hacia adentro del sistema.**
+La moratoria permite acceder al 100% de la prestación —con haber mínimo garantizado, bono, PAMI, movilidad y derecho a pensión derivada— pagando en cuotas descontadas del propio haber una deuda calculada sobre valores que no guardan relación con lo que habría aportado un trabajador registrado durante 30 años. El resultado es que quien aportó tres décadas termina con un haber prácticamente igual al de quien no aportó, y con eso se destruye el incentivo a la registración y el principio contributivo que sostiene al sistema. Durante los años de moratorias amplias, la mayoría de los beneficios nuevos se otorgaron por esta vía. No se puede sostener a la vez que hay que combatir la informalidad y que el acceso a la jubilación plena es independiente de los aportes.
+
+**4. El Capítulo II tiene ideas discutibles y una redacción defectuosa.**
+Dicho todo lo anterior, reconozco que el capítulo de la PUAM toca problemas reales. Hay dos puntos que comparto en el diagnóstico: que la PUAM sea incompatible con cualquier trabajo registrado es un incentivo perverso a la informalidad de los mayores, y que la incompatibilidad absoluta con la pensión por viudez deja en situación crítica a mujeres con pensiones derivadas mínimas. Ahí hay materia para legislar.
+
+Pero el texto que se somete a votación está mal hecho:
+
+- El inciso 3 del nuevo artículo 13 exceptúa "las pensiones por viudez y las pensiones para veteranos de Islas Malvinas" de la incompatibilidad con la **prestación por desempleo** de la ley 24.013. Es un injerto: esas excepciones no tienen ninguna relación con el seguro de desempleo y evidentemente estaban pensadas para el inciso 2. Tal como queda, la excepción a favor de los veteranos de Malvinas no opera donde debería operar.
+- El inciso 4 ("en el caso que el titular perciba una única prestación podrá optar por percibir el beneficio que se establece en la presente") contradice el inciso 2, que fija la incompatibilidad. No se entiende si la opción es amplia o limitada a los casos exceptuados.
+- El artículo 16 fija un tope de tres SMVM sin resolver qué pasa cuando se supera: si la pérdida es total y abrupta, se genera un escalón que empuja a la informalidad, exactamente lo que se dice querer evitar.
+- Y el punto más gravoso: bajar la PUAM a 60 años para las mujeres. Eso no es una corrección técnica, es crear un beneficio no contributivo cinco años antes, sobre la cohorte más numerosa y de mayor esperanza de vida, en un país donde la relación aportante/beneficiario ya está por debajo de 1,5. Va en dirección contraria a toda la evidencia demográfica, y otra vez: sin un número de costo en el expediente.
+
+**5. La alternativa no es "nada".**
+No voto en contra para dejar a una mujer de 60 años con 25 años de aportes sin ninguna respuesta. Voto en contra de **esta** respuesta. El camino correcto es una prestación proporcional a los años efectivamente aportados, con la PUAM como piso universal, financiada y con cálculo actuarial: que quien aportó 20 o 25 años reciba más que quien no aportó nada, y que nadie quede sin cobertura. Eso es justicia contributiva y es sostenible. Si el oficialismo no lo pone sobre la mesa, la oposición va a volver con este proyecto y con razón política; pero la respuesta a un problema real no puede ser un instrumento que agrava el déficit del sistema que tiene que pagar las jubilaciones de los próximos treinta años.
+
+UNA MODIFICACIÓN:
+
+Sustituir el Capítulo I —la reinstauración de la moratoria y, en particular, la cláusula de corrimiento automático de los períodos comprables del artículo 2º— por un régimen de **prestación proporcional** para quienes alcancen la edad jubilatoria con al menos 10 años de aportes efectivos: haber proporcional a los años aportados, con la PUAM como piso, sin derecho a compra ficticia de servicios, y con la fuente de financiamiento identificada en el propio texto conforme al artículo 38 de la ley 24.156, más el estudio de impacto fiscal y actuarial de ANSES incorporado al expediente. Con ese cambio, el Capítulo II —corregidos los errores de redacción de los incisos 3 y 4 y manteniendo los 65 años— lo acompaño.
+
+ANTE EL BLOQUE:
+
+Compañeros: voto como pidió el bloque, negativo, y lo voy a fundamentar en el recinto con el expediente en la mano, porque el dictamen de mayoría nos regala el mejor argumento: un informe de un párrafo, sin un solo número de costo fiscal, firmado también por Presupuesto y Hacienda. Ese es el eje y no otro. Y el artículo 2º, con la extensión automática de un año por cada dos de vigencia, nos permite mostrar que no están prorrogando una excepción: están instalando una moratoria sin fecha de cierre. Sumemos que el texto tiene errores groseros de técnica legislativa —la excepción de Malvinas puesta en el inciso del seguro de desempleo, el inciso 4 contradiciendo el inciso 2—; eso desarma el relato de que es un proyecto prolijo que el Ejecutivo bloquea por capricho.
+
+Pero les pido que seamos honestos sobre dos cosas.
+
+Primero: políticamente vamos a perder esta votación y probablemente el proyecto llegue a sanción y a veto. Si el único mensaje que damos es "no", nos van a instalar —y les va a resultar fácil— que dejamos sin ninguna puerta a las mujeres de 60 años que trabajaron toda la vida sin registro. Ese costo lo vamos a pagar en el recinto, en los medios y en octubre. Necesitamos entrar al debate con proyecto propio: prestación proporcional por años aportados con la PUAM como piso, y la corrección de las dos incompatibilidades de la PUAM que son indefendibles (la del trabajo registrado y la de la pensión por viudez, que golpea casi exclusivamente a mujeres mayores pobres). Eso nos permite decir "no a la moratoria, sí a la cobertura", que es una posición sostenible; "no y nada" no lo es.
+
+Segundo: no defendamos el statu quo como si fuera bueno. El statu quo es que desde marzo hay gente llegando a los 65 sin ninguna vía y con una PUAM del 80% que no genera pensión derivada. Digamos que eso también hay que resolverlo, y pongamos plazo. Si el Ejecutivo no manda nada antes del receso, el próximo dictamen de mayoría lo vamos a perder por dos tercios y sin argumentos.
+
+Mi voto: negativo. Mi pedido al bloque: que el discurso no sea sólo la caja, sino la alternativa.

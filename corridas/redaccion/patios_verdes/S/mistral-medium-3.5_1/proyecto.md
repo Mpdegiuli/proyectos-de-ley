@@ -1,0 +1,54 @@
+**PROYECTO DE LEY**
+
+**LEY DE PATIOS VERDES ESCOLARES**
+
+**Artículo 1°** – Objeto. La presente ley tiene por objeto establecer la obligatoriedad de transformar los patios de los establecimientos educativos de gestión estatal y privada de todos los niveles y modalidades del sistema educativo nacional en espacios verdes, con sombra natural y suelos absorbentes, en reemplazo de superficies de cemento o materiales impermeables, con el fin de promover ambientes saludables, mitigar el impacto del cambio climático y fomentar la educación ambiental.
+
+**Artículo 2°** – Definiciones. A los efectos de esta ley, se entiende por:
+a) **Patio verde escolar**: Espacio al aire libre dentro del predio de un establecimiento educativo que cuente con al menos un 60% (sesenta por ciento) de su superficie cubierta por vegetación autóctona, árboles de sombra, jardines o huertas, y suelos permeables que permitan la absorción de agua de lluvia.
+b) **Suelo absorbente**: Superficie no pavimentada o pavimentada con materiales porosos que faciliten la infiltración del agua en el terreno, como césped, tierra, gravilla, adoquines drenantes o similares.
+c) **Autoridad de aplicación**: El Ministerio de Educación de la Nación, en coordinación con el Ministerio de Ambiente y Desarrollo Sostenible y las autoridades educativas jurisdiccionales.
+
+**Artículo 3°** – Alcance. Quedan comprendidos en la presente ley todos los establecimientos educativos de gestión estatal y privada del país, sin perjuicio de las normativas locales que pudieran existir. Las jurisdicciones podrán adherir a esta ley y adecuar su implementación a sus realidades regionales.
+
+**Artículo 4°** – Implementación. La autoridad de aplicación, en conjunto con las provincias y la Ciudad Autónoma de Buenos Aires, elaborará un plan progresivo de transformación de los patios escolares, priorizando:
+a) Escuelas ubicadas en zonas urbanas con alto índice de calor o inundaciones recurrentes.
+b) Establecimientos con mayor densidad de alumnos por metro cuadrado de patio.
+El plan deberá completarse en un plazo máximo de 10 (diez) años desde la entrada en vigencia de esta ley.
+
+**Artículo 5°** – Financiamiento. El Poder Ejecutivo Nacional destinará anualmente, en el presupuesto de la Administración Pública Nacional, una partida específica para la implementación de esta ley. Las jurisdicciones podrán complementar estos fondos con recursos propios o provenientes de organismos internacionales o cooperación pública-privada. Se priorizarán proyectos presentados por comunidades educativas con participación de estudiantes, docentes y familias.
+
+**Artículo 6°** – Participación comunitaria. Los proyectos de transformación de patios deberán incluir instancias de participación de la comunidad educativa, incluyendo talleres de diseño colaborativo y educación ambiental. Las escuelas podrán articular con universidades, organizaciones de la sociedad civil y empresas para la obtención de asesoramiento técnico o recursos.
+
+**Artículo 7°** – Beneficios. Los establecimientos educativos que cumplan con los requisitos de patio verde escolar podrán acceder a:
+a) Certificaciones ambientales que reconozcan su contribución a la sostenibilidad.
+b) Prioridad en la asignación de fondos para mejoras edilicias adicionales.
+c) Exenciones o reducciones en tasas municipales vinculadas al uso del suelo, donde correspondiera.
+
+**Artículo 8°** – Sanciones. En caso de incumplimiento de los plazos establecidos sin justificación fundada, la autoridad de aplicación podrá retener los fondos nacionales destinados a infraestructura escolar para la jurisdicción correspondiente hasta que se regularice la situación.
+
+**Artículo 9°** – Vigencia. La presente ley entrará en vigencia a los 90 (noventa) días de su publicación en el Boletín Oficial.
+
+**Artículo 10°** – Comuníquese al Poder Ejecutivo Nacional.
+
+---
+**FUNDAMENTOS**
+
+Señor Presidente:
+
+El presente proyecto de ley busca abordar una problemática urgente y multidimensional: la falta de espacios verdes en los entornos educativos, que afecta la salud, el aprendizaje y el medio ambiente. Los patios escolares cementados, predominantes en nuestro país, contribuyen a las "islas de calor" urbanas, reducen la biodiversidad y limitan las posibilidades pedagógicas vinculadas a la naturaleza.
+
+Argentina enfrenta desafíos crecientes derivados del cambio climático, como olas de calor extremo e inundaciones. Los patios verdes actúan como reguladores térmicos, reduciendo la temperatura hasta en 5°C en comparación con superficies pavimentadas, según estudios de la Organización Mundial de la Salud. Además, los suelos absorbentes mitigan el riesgo de inundaciones al permitir la infiltración del agua, un beneficio clave en ciudades con sistemas de desagüe colapsados.
+
+Desde una perspectiva pedagógica, estos espacios fomentan el aprendizaje al aire libre, mejoran la concentración y reducen el estrés en estudiantes y docentes. La evidencia internacional —como el programa "Green Schoolyards" en Estados Unidos o las "Escuelas Bosque" en Europa— demuestra que los entornos naturales en las escuelas aumentan el rendimiento académico y la creatividad. En nuestro país, experiencias piloto en provincias como Córdoba y Santa Fe han mostrado resultados positivos en la convivencia escolar y la conciencia ambiental.
+
+La ley propone un enfoque gradual y participativo, reconociendo las asimetrías entre jurisdicciones. El financiamiento mixto (nacional, provincial y con cooperación) asegura viabilidad, mientras que los incentivos para las escuelas buscan acelerar la transición. La participación comunitaria garantiza que los proyectos respondan a las necesidades locales, integrando saberes tradicionales y promoviendo la apropiación social.
+
+Asimismo, el proyecto se alinea con compromisos internacionales asumidos por Argentina, como los Objetivos de Desarrollo Sostenible (ODS 4, 11 y 13) y el Acuerdo de París. También complementa normativas existentes, como la Ley 27.592 de Educación Ambiental Integral, al proveer un ámbito concreto para su aplicación.
+
+En síntesis, esta ley no solo transforma los patios escolares, sino que siembra las bases para una generación más conectada con su entorno, más resiliente al cambio climático y con mayor acceso a derechos fundamentales como la salud y la educación de calidad. Por ello, solicito a mis pares el acompañamiento para su tratamiento y aprobación.
+
+Firmado:
+[Nombre del Diputado/a]
+Diputado/a de la Nación
+Bloque: [Sin bloque asignado]

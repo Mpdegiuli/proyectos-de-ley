@@ -1,0 +1,11 @@
+VOTO: abstención
+
+FUNDAMENTO: El proyecto responde a un problema real y urgente: la moratoria previsional anterior venció y, sin una herramienta de regularización, muchas personas que llegan a la edad jubilatoria con trayectorias informales quedan sin acceso a una jubilación o deben esperar una prestación no contributiva más baja. Esto afecta especialmente a quienes trabajaron fuera del sistema registrado y a las mujeres, porque suelen cargar con más años de empleo informal y de trabajo de cuidado no remunerado. Además, el texto no configura una prestación gratuita: la deuda de aportes se paga en cuotas que se descuentan del propio haber.
+
+Sin embargo, no puedo acompañar el dictamen tal como está redactado. La iniciativa amplía beneficios y modifica la PUAM sin establecer una fuente de financiamiento ni una compensación presupuestaria clara. En materia previsional, la protección social debe ser compatible con la sostenibilidad del sistema. Aprobar un gasto sin previsión de recursos debilita la seriedad legislativa, afecta la equidad con quienes aportaron y puede comprometer el pago de los haberes presentes y futuros.
+
+Tampoco me resulta satisfactorio consolidar las moratorias como una vía ordinaria de acceso. El proyecto fija un plazo de dos años, pero habilita prórrogas y extensiones automáticas de los períodos computables, lo que exige una evaluación más cuidadosa. De igual modo, los cambios en la PUAM —edad diferenciada, requisitos de residencia y compatibilidad con trabajo registrado hasta cierto nivel de ingresos— necesitan una calibración fina para no perder focalización ni sostenibilidad.
+
+Por eso mi voto es una abstención: no niego el problema, ni rechazo la necesidad de proteger a quienes quedan fuera del sistema previsional, pero tampoco puedo convalidar un diseño incompleto desde el punto de vista fiscal. Es una posición de responsabilidad: reconocer la urgencia social y exigir, al mismo tiempo, una solución financieramente viable.
+
+UNA MODIFICACIÓN: Incorporar un artículo único de financiamiento y sostenibilidad que identifique la fuente de recursos o la compensación presupuestaria del gasto, fije un límite anual de ejecución y exija una evaluación actuarial periódica, de modo que la moratoria y la modificación de la PUAM no comprometan el pago de los haberes vigentes ni el equilibrio fiscal.

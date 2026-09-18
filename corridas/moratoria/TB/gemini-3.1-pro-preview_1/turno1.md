@@ -1,0 +1,13 @@
+VOTO
+negativo
+
+FUNDAMENTO
+Este proyecto representa un ataque directo al equilibrio fiscal y a la viabilidad macroeconómica de la Nación, pilares fundamentales de nuestra gestión de gobierno. La reinstauración de la moratoria previsional (Ley 27.705) por dos años más, propuesta en el Capítulo I, insiste en la política irresponsable de jubilar a personas que no cuentan con los treinta años de aportes correspondientes. Esta práctica demagógica del pasado es la que ha quebrado el sistema previsional, licuando sistemáticamente los haberes de los jubilados que sí cumplieron con la ley y aportaron durante toda su vida laboral. 
+
+Por otro lado, el Capítulo II agrava aún más el rojo fiscal al desvirtuar la Pensión Universal para el Adulto Mayor (PUAM). Reducir la edad a 60 años para las mujeres y permitir que el cobro del beneficio sea compatible con ingresos laborales de hasta tres Salarios Mínimos, Vitales y Móviles, transforma una herramienta de contención en un subsidio generalizado sin ningún tipo de respaldo presupuestario. La oposición impulsa estas medidas sabiendo que no hay recursos para pagarlas; su único objetivo político es forzar al Poder Ejecutivo a incurrir en déficit, obligándonos a emitir moneda o a aumentar impuestos, alternativas que nuestro gobierno ha desterrado. No podemos legislar de espaldas a la realidad matemática: no hay derechos sostenibles sin la previa generación de riqueza para financiarlos.
+
+UNA MODIFICACIÓN
+La inclusión de un artículo innegociable que establezca de manera explícita qué partidas del gasto público se recortarán para financiar el costo de esta medida, garantizando por ley la inalterabilidad del principio de déficit cero.
+
+ANTE EL BLOQUE
+Colegas, les confirmo que mi voto será negativo, en absoluta sintonía con la estrategia de nuestro bloque y la defensa del programa económico del gobierno. Este dictamen es una trampa fiscal diseñada por el kirchnerismo y sus aliados para dinamitar el orden de las cuentas públicas que tanto esfuerzo le está costando a los argentinos. Quieren volver a la vieja receta de quebrar el Estado regalando jubilaciones sin aportes para quedar bien políticamente, pasándonos a nosotros el costo de la inflación o el default. Tenemos que abroquelarnos, votar en contra y dejar en evidencia ante la sociedad que ellos son los responsables de haber quebrado el sistema previsional. Ni un paso atrás con el déficit cero; el veto presidencial tiene que ser nuestra última línea de defensa si hoy logran la mayoría, pero nuestra postura en el recinto debe ser un rechazo total y sin fisuras.

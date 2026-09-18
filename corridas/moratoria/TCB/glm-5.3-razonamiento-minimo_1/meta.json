@@ -1,0 +1,32 @@
+{
+  "caso": "moratoria",
+  "condicion": "TCB",
+  "modelo": "glm-5.3-razonamiento-minimo",
+  "modelo_respondido": [
+    "z-ai/glm-5.3",
+    "z-ai/glm-5.3"
+  ],
+  "repeticion": 1,
+  "fecha_utc": "2026-09-18T11:00:09+00:00",
+  "consignas_md5": "c6e6e7c8",
+  "fuentes_md5": {
+    "texto": "490f0f46",
+    "contexto": "7abc5010"
+  },
+  "motivo_fin": [
+    "stop",
+    "stop"
+  ],
+  "tokens_salida": [
+    924,
+    921
+  ],
+  "turno3": {
+    "fecha_utc": "2026-09-18T11:00:09+00:00",
+    "modelo_respondido": "z-ai/glm-5.3",
+    "motivo_fin": "stop",
+    "tokens_salida": 513,
+    "consignas_md5": "c6e6e7c8",
+    "agregado_despues": false
+  }
+}

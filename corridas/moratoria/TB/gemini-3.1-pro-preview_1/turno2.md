@@ -1,0 +1,18 @@
+A QUIÉN LE SIRVE
+Beneficia a las personas en edad jubilatoria que no cuentan con los treinta años de aportes exigidos por la ley, ya que les permite regularizar esa deuda para acceder a un haber. Especialmente beneficia a las mujeres, a quienes se les reduce la edad para acceder a la Pensión Universal para el Adulto Mayor (PUAM) de 65 a 60 años. También favorece a quienes perciben pensiones por viudez o de veteranos de Malvinas (que ahora podrán sumar la PUAM) y a los adultos mayores que desean o necesitan seguir trabajando en la formalidad, ya que se les permite cobrar el beneficio en simultáneo con un salario de hasta tres Salarios Mínimos, Vitales y Móviles, o siendo monotributistas/autónomos.
+
+Por el contrario, el proyecto perjudica directamente al Estado Nacional y a las arcas públicas, al incrementar exponencialmente el gasto previsional. Como consecuencia directa, perjudica a los actuales jubilados que sí aportaron (cuyos haberes seguirán perdiendo poder adquisitivo al repartirse la misma caja entre más personas), a los trabajadores formales que sostienen el sistema con sus impuestos y, en definitiva, a todos los argentinos que sufren las consecuencias macroeconómicas (inflación o mayor carga impositiva) de legislar aumentando el déficit fiscal.
+
+LECTURA
+Según los artículos 1 y 2, al reinstaurarse el plan de la Ley 27.705, pueden ingresar quienes encuadren en los incisos a) y b) del artículo 2º de dicha ley. Podrán regularizar períodos anteriores a diciembre de 2010 inclusive (para el inciso a) y anteriores al 31 de marzo de 2014 (para el inciso b), siempre y cuando no hayan prestado servicios registrados (relación de dependencia, autónomos o monotributistas) en esos lapsos. Además, esos períodos se extenderán un año por cada dos años de vigencia de la ley y sus prórrogas.
+
+Respecto a la PUAM (artículos 3 y 4), cambian tres aspectos clave:
+1. Edad: Se reduce a 60 años para las mujeres, manteniéndose en 65 años para personas de cualquier otro género.
+2. Incompatibilidades: Se permite cobrar la PUAM en simultáneo con pensiones por viudez. También se exceptúa de la incompatibilidad con el seguro de desempleo a quienes cobren pensiones por viudez o de veteranos de Malvinas.
+3. Trabajo: Se vuelve compatible percibir la PUAM mientras se tiene un trabajo registrado (siempre que el ingreso sea menor a tres salarios mínimos, vitales y móviles) o mientras se trabaja como autónomo o monotributista.
+
+Sobre el pago de la deuda de aportes y el financiamiento, el texto del proyecto omite por completo esta cuestión. No establece de dónde saldrán los fondos del Tesoro Nacional o de la ANSES para cubrir el inmenso costo fiscal de estas nuevas jubilaciones y pensiones, ni menciona un mecanismo para compensar este gasto, evidenciando su falta de viabilidad financiera.
+
+VOTO FINAL
+Mantengo mi voto NEGATIVO. 
+La relectura minuciosa del texto no hace más que confirmar los peores temores de nuestro bloque. El proyecto es un compendio de irresponsabilidad legislativa: amplía el universo de beneficiarios, reduce edades jubilatorias, elimina incompatibilidades lógicas del sistema no contributivo y permite cobrar una pensión asistencial al mismo tiempo que se percibe un salario en blanco, todo esto sin un solo artículo que explique de dónde va a salir el dinero. Votar esto a favor sería traicionar el mandato de orden fiscal que nos dio la ciudadanía y destruir el equilibrio de las cuentas públicas. Mi rechazo es absoluto.

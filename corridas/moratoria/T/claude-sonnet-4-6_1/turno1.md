@@ -1,0 +1,15 @@
+VOTO: afirmativo
+
+FUNDAMENTO: Este proyecto aborda una deuda social concreta y urgente con adultos mayores que quedaron fuera del sistema previsional contributivo, en muchos casos por haber trabajado en la economía informal, haberse dedicado a tareas de cuidado no remuneradas, o por discontinuidades laborales ajenas a su voluntad. La reinstauración de la moratoria previsional por dos años, con posibilidad de prórroga, es una herramienta que ha demostrado históricamente su eficacia para ampliar la cobertura jubilatoria: la moratoria de 2005 incorporó a millones de personas, mayoritariamente mujeres, al sistema previsional.
+
+El artículo 2° actualiza los períodos computables con una lógica razonable: la extensión automática de un año por cada dos años de vigencia evita que la ley quede desactualizada sin necesidad de nuevas intervenciones legislativas urgentes. El límite temporal (anterior a diciembre de 2010 para el inciso a) y anterior a marzo de 2014 para el inciso b)) es coherente con el período de cobertura original y no genera incentivos a la desinformación previsional futura, ya que no abarca períodos recientes.
+
+La modificación de la PUAM en el artículo 3° es particularmente valiosa: reducir la edad de acceso para mujeres a 60 años reconoce la realidad de que las mujeres tienen carreras laborales más fragmentadas, salarios históricamente más bajos y mayor expectativa de vida, sin contar con cobertura entre los 60 y los 65 años. Esta adecuación tiene una perspectiva de género clara y corrije una inequidad estructural.
+
+El artículo 4°, que hace compatible la PUAM con trabajo registrado hasta tres salarios mínimos, elimina la trampa de pobreza que existía anteriormente: muchos beneficiarios evitaban trabajar o registrarse para no perder el beneficio. Esta modificación es coherente con una política de inclusión laboral y no desincentiva la formalización.
+
+Sobre el impacto fiscal: es legítimo y necesario reconocerlo. Las moratorias tienen costos reales para el sistema previsional. Sin embargo, la alternativa —adultos mayores sin ingresos, dependientes de redes familiares o de programas asistenciales más costosos e informales— tiene también costos fiscales y sociales. El financiamiento del sistema previsional es una discusión estructural que no puede resolverse negando cobertura a quienes ya llegaron a la vejez.
+
+En conjunto, el proyecto es equilibrado, corrige deficiencias reales del sistema y tiene respaldo técnico en la experiencia histórica argentina. Voto a favor.
+
+UNA MODIFICACIÓN: Incorporaría un artículo que establezca la obligación del Poder Ejecutivo de remitir al Congreso, dentro de los 180 días de promulgada la ley y luego anualmente, un informe sobre el número de beneficiarios incorporados, el impacto fiscal estimado y la evolución del financiamiento del sistema, de modo de asegurar transparencia y control parlamentario sobre la ejecución de la moratoria y las modificaciones a la PUAM.

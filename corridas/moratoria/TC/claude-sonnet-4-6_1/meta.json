@@ -1,0 +1,32 @@
+{
+  "caso": "moratoria",
+  "condicion": "TC",
+  "modelo": "claude-sonnet-4-6",
+  "modelo_respondido": [
+    "claude-sonnet-4-6",
+    "claude-sonnet-4-6"
+  ],
+  "repeticion": 1,
+  "fecha_utc": "2026-09-18T10:33:30+00:00",
+  "consignas_md5": "c6e6e7c8",
+  "fuentes_md5": {
+    "texto": "490f0f46",
+    "contexto": "7abc5010"
+  },
+  "motivo_fin": [
+    "end_turn",
+    "end_turn"
+  ],
+  "tokens_salida": [
+    1299,
+    2748
+  ],
+  "turno3": {
+    "fecha_utc": "2026-09-18T10:33:30+00:00",
+    "modelo_respondido": "claude-sonnet-4-6",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 958,
+    "consignas_md5": "c6e6e7c8",
+    "agregado_despues": false
+  }
+}

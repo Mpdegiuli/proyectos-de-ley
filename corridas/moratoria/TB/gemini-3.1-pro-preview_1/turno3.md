@@ -1,0 +1,8 @@
+POR QUÉ AHORA:
+La oposición presenta este proyecto en este momento exacto por dos razones fundamentales: una de carácter temporal y otra estrictamente político-electoral.
+
+En primer lugar, por una cuestión de plazos: la moratoria previsional original (Ley 27.705) sancionada durante la gestión anterior tenía una vigencia de dos años. Al cumplirse ese plazo a principios de este 2025, y como nuestro gobierno actuó con total responsabilidad fiscal decidiendo no prorrogarla, el kirchnerismo y sus aliados buscan "reinstaurarla" (como dice el propio artículo 1) para forzar la continuidad de un sistema que ya caducó y que desfinancia al Estado.
+
+En segundo lugar, y más importante, estamos en junio de 2025, un año de elecciones legislativas. La oposición presenta este proyecto ahora como una trampa puramente electoral y de sabotaje macroeconómico. Saben perfectamente que las arcas del Estado no pueden soportar este nivel de gasto sin emisión ni endeudamiento, y saben que bajo ninguna circunstancia nuestro gobierno va a quebrar la regla del déficit cero. Lo hacen para forzarnos a votar en contra en el recinto, o para obligar al Presidente de la Nación a vetar la ley si llegan a conseguir los números para aprobarla. 
+
+Buscan generar un escenario donde ellos se disfracen de "defensores de los abuelos" en sus spots de campaña, mientras intentan endilgarnos a nosotros el costo político del rechazo a pocos meses de las urnas. Es una jugada cínica: intentan dinamitar el éxito de nuestro programa de estabilización económica y, al mismo tiempo, fabricar un relato para rascar votos, jugando con la necesidad de la gente y con la plata que el Estado no tiene.

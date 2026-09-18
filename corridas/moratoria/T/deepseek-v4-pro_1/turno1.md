@@ -1,0 +1,5 @@
+VOTO: afirmativo
+
+FUNDAMENTO: Acompaño el proyecto porque restablece una herramienta previsional que ampara a quienes, debido a la informalidad y a las desigualdades del mercado laboral, no alcanzaron los años de aportes exigidos. La reducción de la edad de la Pensión Universal para el Adulto Mayor a sesenta años para las mujeres es una medida de equidad de género que reconoce la histórica brecha previsional que las afecta. Además, la compatibilidad con trabajo registrado hasta tres salarios mínimos, vitales y móviles evita que las personas beneficiarias queden excluidas por tener ingresos complementarios. Sin embargo, advierto que el texto no especifica fuentes de financiamiento ni estima el impacto fiscal, lo cual resulta indispensable para no comprometer la sostenibilidad del sistema.
+
+UNA MODIFICACIÓN: Incorporar un artículo que determine la fuente de financiamiento y exija un informe de impacto fiscal antes de la entrada en vigencia, con una cláusula de sostenibilidad del sistema previsional.

@@ -1,0 +1,6 @@
+POR QUÉ AHORA:
+La oposición presentó y unificó este proyecto ahora como respuesta directa al vencimiento de la moratoria anterior (ley 27.705), que caducó el 23 de marzo de 2025. Ante la decisión del Poder Ejecutivo de no prorrogarla por decreto, priorizando su política de "déficit cero", se generó un vacío normativo inmediato que dejó a miles de personas sin cobertura. 
+
+Desde fines de marzo, cualquier persona que llega a la edad jubilatoria sin los treinta años de aportes formales quedó a la deriva. Esto afecta de manera crítica y urgente a las mujeres que cumplen 60 años, quienes ahora quedan durante cinco años sin ningún tipo de ingreso hasta poder tramitar la PUAM recién a los 65 años. 
+
+La urgencia social de esta situación actuó como un catalizador político: obligó a bloques muy heterogéneos (Unión por la Patria, la UCR, la Coalición Cívica, Encuentro Federal y el Frente de Izquierda) a dejar de lado sus diferencias y unificar once proyectos distintos en un único dictamen de mayoría. Se presenta ahora porque el Congreso es la única vía institucional que le queda a la oposición para restituir esta red de contención social frente a la inacción deliberada del gobierno nacional.

@@ -1,0 +1,13 @@
+VOTO: afirmativo
+
+FUNDAMENTO: La finalización de la moratoria dejó sin una respuesta suficiente a quienes alcanzan la edad jubilatoria pero no reúnen treinta años de aportes, muchas veces por desempleo, informalidad laboral o tareas de cuidado no remuneradas. No considero justo atribuir exclusivamente al trabajador incumplimientos que también responden a empleadores que no registraron relaciones laborales y a fallas persistentes del mercado de trabajo y del Estado.
+
+La moratoria tampoco equivale a otorgar gratuitamente una jubilación: reconoce una deuda previsional que se cancela mediante cuotas descontadas del haber. Frente a la alternativa vigente, además, existe una diferencia sustancial. La PUAM paga solamente el 80 % del haber mínimo, no tiene naturaleza contributiva y, para las mujeres, deja un período de cinco años sin cobertura entre los 60 y los 65 años. El proyecto atiende ese vacío y se estima que permitiría jubilarse a unas 220.000 personas.
+
+También acompaño la reducción a 60 años de la edad de acceso de las mujeres a la PUAM. Es coherente con la edad jubilatoria actualmente aplicable y reconoce la desigual trayectoria laboral y previsional producida por las tareas de cuidado. La compatibilidad limitada con el trabajo registrado, autónomo o monotributista es igualmente razonable: evita castigar la formalización y mantiene un límite de ingresos de tres salarios mínimos.
+
+No desconozco las objeciones. Las moratorias sucesivas no deben convertirse en el reemplazo permanente de un sistema previsional bien diseñado, y debe preservarse el reconocimiento a quienes realizaron aportes completos. Pero mientras persistan niveles tan elevados de informalidad, eliminar este mecanismo sin establecer una prestación proporcional y permanente trasladaría íntegramente el costo a las personas mayores. La vigencia limitada a dos años permite responder a la urgencia, aunque posteriormente será indispensable una reforma integral.
+
+El principal defecto del dictamen es fiscal: crea obligaciones adicionales sin individualizar expresamente su fuente de financiamiento. El costo estimado parece administrable en relación con el PBI, pero incluso un gasto socialmente legítimo debe contar con previsión presupuestaria. Esa omisión debilita el proyecto y expone su ejecución. Aun así, frente al perjuicio inmediato que provoca la falta de cobertura, acompaño su orientación y voto afirmativamente.
+
+UNA MODIFICACIÓN: incorporar una cláusula que cuantifique el costo fiscal y determine expresamente las partidas y fuentes de financiamiento, sin recurrir a endeudamiento ni a emisión monetaria y sin reducir otros beneficios previsionales.

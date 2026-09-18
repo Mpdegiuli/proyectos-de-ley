@@ -1,0 +1,15 @@
+POR QUÉ AHORA:
+
+Hay varios factores convergentes que explican el timing, y probablemente todos operan simultáneamente.
+
+**El contexto electoral es el más obvio.** En octubre de 2025 hay elecciones legislativas de medio término. Los adultos mayores son uno de los segmentos con mayor participación electoral en Argentina, y la cuestión jubilatoria es históricamente uno de los temas de mayor sensibilidad política. Presentar y votar una moratoria previsional antes de las elecciones tiene un rédito político directo y medible: beneficia a un universo de potenciales votantes identificables, en su mayoría mujeres, en su mayoría de sectores populares y medios bajos.
+
+**La ley 27.705 venció.** La moratoria previsional anterior tenía un plazo de vigencia que se agotó. Eso dejó a personas en condiciones de jubilarse sin el instrumento legal para regularizar sus aportes. La presión de ese universo de excluidos —y de las organizaciones que los representan— generó una demanda concreta que la oposición recogió y canalizó legislativamente. No es un invento electoral: hay una necesidad real que se volvió urgente por el vencimiento de la ley.
+
+**El gobierno nacional no presentó una iniciativa propia.** La administración Milei tiene una postura ideológica contraria a las moratorias previsionales, a las que considera un subsidio que distorsiona el sistema contributivo y genera déficit fiscal. Esa inacción del Ejecutivo abrió el espacio para que la oposición tomara la iniciativa. En el Congreso, donde el oficialismo no tiene mayoría propia en ninguna de las dos cámaras, la oposición puede imponer temas en agenda y forzar votaciones incómodas para el gobierno.
+
+**La crisis del poder adquisitivo previsional.** Tras el ajuste de 2024 y el debate sobre la fórmula de movilidad jubilatoria —que derivó en un veto presidencial a una ley de aumento votada por el Congreso—, el tema previsional quedó instalado como uno de los ejes de conflicto político central entre el gobierno y la oposición. Este proyecto es, en parte, una continuación de esa disputa: la oposición sigue empujando en el terreno previsional como campo de diferenciación.
+
+**La confluencia de fuerzas opositoras muy distintas.** Llama la atención que el dictamen de mayoría agrupe firmas que van desde el peronismo hasta partidos de izquierda y sectores del radicalismo y el PRO disidente. Esa amplitud sugiere que el proyecto fue diseñado deliberadamente para ser lo suficientemente amplio como para construir una mayoría transversal, lo que también requirió un momento político específico: suficiente distancia del gobierno para diferenciarse, suficiente cercanía a las elecciones para que el voto tenga impacto.
+
+En síntesis: la oposición presenta este proyecto ahora porque la ley anterior venció y dejó un vacío real, porque hay elecciones en cuatro meses, porque el gobierno no va a hacerlo, y porque el tema previsional es el terreno donde la oposición ha encontrado más capacidad de construir mayorías transversales y presionar al Ejecutivo.

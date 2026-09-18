@@ -1,0 +1,23 @@
+A QUIÉN LE SIRVE: beneficia principalmente a personas que llegan a la edad jubilatoria sin los años de aportes suficientes, en especial mujeres con trayectorias laborales interrumpidas, informalidad o tareas de cuidado no remuneradas. También beneficia a personas próximas a jubilarse que podrían empezar a regularizar aportes faltantes mediante el plan.
+
+Además, beneficia a mujeres de 60 años o más que no acceden a una jubilación o pensión contributiva, porque el proyecto les permitiría acceder a la Pensión Universal para el Adulto Mayor desde los 60 años, y no recién desde los 65. También favorece a quienes cobran pensión por viudez, porque el texto exceptúa esa prestación de ciertas incompatibilidades.
+
+Puede perjudicar al sistema previsional en su conjunto si se amplían beneficios sin financiamiento claro. También puede perjudicar a jubilados actuales y futuros, trabajadores registrados y contribuyentes, porque el proyecto genera obligaciones previsionales adicionales sin explicar de manera expresa de dónde saldrán los recursos. Asimismo, puede afectar la equidad entre quienes realizaron aportes durante toda su vida laboral y quienes acceden por moratoria sin una diferenciación suficientemente clara.
+
+LECTURA: según los artículos 1 y 2, se reinstaura por dos años la vigencia del capítulo II de la ley 27.705 y del Plan de Pago de Deuda Previsional. Ese plazo podría ser prorrogado por otros dos años por el Poder Ejecutivo nacional.
+
+Pueden entrar al plan las personas comprendidas en el artículo 2º de la ley 27.705: por un lado, quienes ya alcanzaron la edad jubilatoria y no reúnen los aportes necesarios; y, por otro lado, personas en actividad próximas a la edad jubilatoria que buscan cancelar aportes faltantes. Para los primeros, los períodos que pueden incluirse son anteriores a diciembre de 2010 inclusive. Para los segundos, los períodos deben ser anteriores al 31 de marzo de 2014. En ambos casos, el texto aclara que se trata de lapsos en los que la persona no haya prestado servicios registrados en relación de dependencia ni como autónoma ni como monotributista. Además, esos períodos se extenderían un año por cada dos años de vigencia de la ley, incluidas sus prórrogas.
+
+Respecto de la Pensión Universal para el Adulto Mayor, el artículo 3 modifica la edad de acceso: para mujeres, baja a 60 años o más; para personas de cualquier otro género, queda en 65 años o más. Mantiene el carácter vitalicio y no contributivo de la prestación.
+
+En incompatibilidades, el proyecto establece que la PUAM no puede cobrarse junto con jubilación, pensión o retiro, contributivo o no contributivo, pero exceptúa las pensiones por viudez. También mantiene la incompatibilidad con la prestación por desempleo de la ley 24.013, pero exceptúa las pensiones por viudez y las pensiones para veteranos de Islas Malvinas. Además, si la persona percibe una única prestación, podrá optar por percibir la PUAM.
+
+Sobre trabajo, el artículo 4 vuelve compatible la PUAM con cualquier modalidad de trabajo registrado siempre que no implique ingresos iguales o superiores a tres salarios mínimos vitales y móviles. También la hace compatible con el desempeño como trabajador autónomo o monotributista.
+
+La deuda de aportes, en principio, la paga la persona que adhiere al plan, mediante el mecanismo de regularización previsto por la ley 27.705. Pero el proyecto no incorpora una fuente específica de financiamiento para el costo fiscal que genera la ampliación de cobertura. Es decir: el texto no dice de qué partidas, impuestos o recursos permanentes saldrá el dinero para financiar el impacto previsional adicional. Esa es una de mis principales objeciones.
+
+VOTO FINAL: mantengo mi voto negativo.
+
+Después de releer el texto, confirmo que el proyecto atiende un problema social real, pero lo hace sin una estimación presupuestaria, sin financiamiento específico y sin una regla de sostenibilidad. La reinstauración de la moratoria, la extensión de períodos computables, la baja de edad de la PUAM para mujeres y la ampliación de compatibilidades laborales son decisiones de impacto fiscal relevante.
+
+No voto en contra de la protección previsional ni de las personas mayores. Voto en contra de sancionar una expansión permanente de obligaciones previsionales sin explicar cómo se paga. Para acompañarlo, como mínimo, debería incluir una fuente de financiamiento clara, suficiente y permanente, junto con una evaluación actuarial y presupuestaria seria.

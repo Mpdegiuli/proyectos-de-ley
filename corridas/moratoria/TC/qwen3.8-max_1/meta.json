@@ -1,0 +1,32 @@
+{
+  "caso": "moratoria",
+  "condicion": "TC",
+  "modelo": "qwen3.8-max",
+  "modelo_respondido": [
+    "qwen/qwen3.8-max-0902",
+    "qwen/qwen3.8-max-0902"
+  ],
+  "repeticion": 1,
+  "fecha_utc": "2026-09-18T10:55:35+00:00",
+  "consignas_md5": "c6e6e7c8",
+  "fuentes_md5": {
+    "texto": "490f0f46",
+    "contexto": "7abc5010"
+  },
+  "motivo_fin": [
+    "stop",
+    "stop"
+  ],
+  "tokens_salida": [
+    5921,
+    6115
+  ],
+  "turno3": {
+    "fecha_utc": "2026-09-18T10:55:35+00:00",
+    "modelo_respondido": "qwen/qwen3.8-max-0902",
+    "motivo_fin": "stop",
+    "tokens_salida": 1521,
+    "consignas_md5": "c6e6e7c8",
+    "agregado_despues": false
+  }
+}
