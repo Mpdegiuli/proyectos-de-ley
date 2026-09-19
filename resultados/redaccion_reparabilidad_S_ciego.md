@@ -8,99 +8,75 @@ Leer, puntuar con la rúbrica (config/rubrica_redaccion.md), ordenar y adivinar 
 
 ## Texto A
 
-# PROYECTO DE LEY
+**PROYECTO DE LEY**
 
-**Etiquetado de Reparabilidad de Productos Electrónicos y Electrodomésticos**
+**LEY DE ETIQUETADO DE REPARABILIDAD**
 
-## Artículo 1° — Objeto
+**Artículo 1°** – Objeto. La presente ley tiene por objeto establecer un sistema de etiquetado obligatorio que informe al consumidor sobre el grado de reparabilidad de los productos electrónicos y electrodomésticos comercializados en el territorio de la República Argentina, con el fin de promover la economía circular, reducir residuos electrónicos y garantizar el derecho a la información de los usuarios.
 
-La presente ley establece la obligación de exhibir, en forma previa y visible al momento de la comercialización, una etiqueta de reparabilidad en los productos electrónicos y electrodomésticos que se comercialicen en el territorio de la República Argentina, en plaza física y mediante comercio electrónico, a fin de brindar al consumidor información clara, comparable y verificable sobre la facilidad de reparación de dichos productos.
+**Artículo 2°** – Alcance. Quedan comprendidos en la presente ley los siguientes productos nuevos:
+a) Teléfonos celulares y smartphones;
+b) Computadoras de escritorio, notebooks, tablets y dispositivos similares;
+c) Electrodomésticos de línea blanca (heladeras, lavadoras, secadoras, lavarropas, cocinas, hornos, etc.);
+d) Electrodomésticos de línea marrón (televisores, equipos de audio, etc.);
+e) Cualquier otro dispositivo electrónico o electrodoméstico que determine la autoridad de aplicación.
 
-## Artículo 2° — Alcance
+**Artículo 3°** – Definiciones. A los efectos de esta ley, se entiende por:
+a) **Reparabilidad**: la facilidad con la que un producto puede ser reparado, considerando la disponibilidad de repuestos, herramientas necesarias, accesibilidad de componentes y documentación técnica.
+b) **Etiqueta de reparabilidad**: el distintivo físico o digital que indique, mediante un sistema de puntuación, el nivel de reparabilidad del producto.
+c) **Autoridad de aplicación**: el organismo nacional que designe el Poder Ejecutivo Nacional.
 
-Quedan alcanzados por la presente ley los siguientes productos:
+**Artículo 4°** – Sistema de etiquetado. La autoridad de aplicación establecerá un sistema de puntuación del 1 al 10, donde 10 represente la máxima reparabilidad. Dicha puntuación se determinará en función de los siguientes criterios:
+a) Disponibilidad de manuales de reparación y diagramas técnicos;
+b) Accesibilidad de componentes críticos (baterías, pantallas, placas, etc.);
+c) Uso de herramientas estándar para el desarme;
+d) Disponibilidad y costo de repuestos originales o compatibles;
+e) Durabilidad y modularidad del diseño.
 
-a) Teléfonos celulares, teléfonos inteligentes y tabletas;
-b) Computadoras portátiles y de escritorio, monitores y teclados externos;
-c) Electrodomésticos de línea blanca: heladeras, freezers, lavarropas, secarropas, lavavajillas y cocinas;
-d) Electrodomésticos de línea marrón: televisores, monitores de pantalla, equipos de audio y microondas;
-e) Pequeños electrodomésticos: aspiradoras, cafeteras, planchas, secadores de pelo y batidoras;
-f) Aquellos otros que determine la autoridad de aplicación.
+**Artículo 5°** – Obligaciones de los fabricantes e importadores. Los fabricantes e importadores de los productos comprendidos en el Artículo 2° deberán:
+a) Incluir en el empaque o en el producto mismo, de manera visible y legible, la etiqueta de reparabilidad con la puntuación correspondiente;
+b) Proporcionar a la autoridad de aplicación la información técnica necesaria para la evaluación de la reparabilidad;
+c) Garantizar la disponibilidad de repuestos y manuales de reparación durante un plazo mínimo de 7 (siete) años desde la discontinuación del modelo.
 
-## Artículo 3° — Definiciones
+**Artículo 6°** – Autoridad de aplicación. El Poder Ejecutivo Nacional designará la autoridad de aplicación, que será responsable de:
+a) Regular el sistema de etiquetado y los criterios de evaluación;
+b) Fiscalizar el cumplimiento de la presente ley;
+c) Establecer sanciones por incumplimiento;
+d) Promover campañas de concientización sobre la importancia de la reparabilidad.
 
-A los efectos de la presente ley se entiende por:
+**Artículo 7°** – Sanciones. El incumplimiento de las disposiciones de esta ley será pasible de las siguientes sanciones, sin perjuicio de las responsabilidades civiles o penales que pudieran corresponder:
+a) Apercibimiento;
+b) Multa de hasta el 1% (uno por ciento) del facturado anual en el país del infractor;
+c) Suspensión temporal de la comercialización del producto;
+d) Inhabilitación para participar en licitaciones públicas por un plazo de hasta 2 (dos) años.
 
-a) **Reparabilidad**: la capacidad de un producto de ser reparado, entendida como la facilidad para su desmontaje, diagnóstico, mantenimiento y reemplazo de componentes;
-b) **Índice de reparabilidad**: la calificación numérica, en una escala de uno (1) a diez (10), resultante de la evaluación de los criterios del artículo 4°;
-c) **Etiqueta de reparabilidad**: el sello gráfico normalizado, impreso en el envase o el producto, o exhibido en el sitio de venta en línea, que informe el índice de reparabilidad;
-d) **Productor o importador**: toda persona física o jurídica que fabrique, ensamble, importe o comercialice los productos del artículo 2°, sea en forma propia o por cuenta de terceros.
+**Artículo 8°** – Financiamiento. Los costos de implementación y fiscalización de esta ley serán solventados con los recursos del presupuesto nacional asignados a la autoridad de aplicación.
 
-## Artículo 4° — Criterios de evaluación
+**Artículo 9°** – Vigencia. La presente ley entrará en vigencia a los 180 (ciento ochenta) días de su publicación en el Boletín Oficial, a fin de permitir la adecuación de los actores involucrados.
 
-El índice de reparabilidad se determinará sobre la base de los siguientes criterios, ponderados según la reglamentación:
-
-a) Desmontaje del producto, tipo y disponibilidad de herramientas requeridas;
-b) Disponibilidad de manuales, documentación técnica y diagramas;
-c) Disponibilidad y precio de repuestos oficiales y compatibles;
-d) Durabilidad y reemplazo de la batería u otros componentes de desgaste;
-e) Acceso a actualizaciones de software y desbloqueo de funciones tras la reparación;
-f) Tiempo estimado de reparación de las fallas más frecuentes.
-
-## Artículo 5° — Autoridad de aplicación
-
-Será autoridad de aplicación de la presente ley el Ministerio de la Nación con competencia en materia de comercio interior, en articulación con la Secretaría de Comercio Interior y el INTI — Instituto Nacional de Tecnología Industrial, que actuará como organismo técnico de evaluación y verificación. Las provincias y la Ciudad Autónoma de Buenos Aires podrán adherir a la presente ley y ejercer el control en sus jurisdicciones, en el marco del Consejo Federal de Comercio Interior.
-
-## Artículo 6° — Obligaciones
-
-Los productores e importadores deberán:
-
-a) Someter cada modelo de producto a la evaluación técnica ante el INTI antes de su comercialización;
-b) Exhibir la etiqueta de reparabilidad en el envase, en el producto y en toda publicación de venta electrónica, con caracteres legibles y en idioma nacional;
-c) Mantener vigente la información técnica y actualizar la evaluación cuando el producto sea rediseñado;
-d) Presentar anualmente un listado de modelos comercializados con sus respectivos índices, que será publicado en un portal público de acceso gratuito.
-
-## Artículo 7° — Sanciones
-
-El incumplimiento de las obligaciones de la presente ley será sancionado conforme el procedimiento y el régimen sancionatorio de la Ley 24.240 de Defensa del Consumidor, pudiéndose aplicar apercibimiento, multa de hasta mil (1.000) veces el valor del producto de que se trate, decomiso, suspensión de la comercialización del modelo y cierre del establecimiento en caso de reincidencia.
-
-## Artículo 8° — Financiamiento
-
-Los gastos que demande la implementación de la presente ley serán atendidos con las partidas presupuestarias que asigne anualmente la Ley de Presupuesto General de la Administración Pública Nacional, y complementados con las tasas que fije la autoridad de aplicación por los servicios de evaluación técnica prestados por el INTI, las que no podrán exceder el costo del servicio.
-
-## Artículo 9° — Reglamentación y vigencia
-
-La presente ley entrará en vigencia a los trescientos sesenta y360) días de su publicación en el Boletín Oficial, plazo dentro del cual el Poder Ejecutivo nacional deberá dictar la reglamentación y el INTI aprobar la metodología de cálculo del índice de reparabilidad y el diseño de la etiqueta.
-
-## Artículo 10° — De forma
-
-Comuníquese al Poder Ejecutivo nacional.
+**Artículo 10°** – Comuníquese al Poder Ejecutivo Nacional.
 
 ---
 
-# FUNDAMENTOS
+**FUNDAMENTOS**
 
-**Señor Presidente:**
+Señor Presidente de la Honorable Cámara de Diputados de la Nación:
 
-El presente proyecto tiene por objeto garantizar el derecho de los consumidores a la información, incorporando una herramienta simple y de probada eficacia en otros países: la etiqueta de reparabilidad.
+El presente proyecto de ley busca abordar un problema creciente en la sociedad moderna: la obsolescencia programada y la dificultad para reparar dispositivos electrónicos y electrodomésticos. En un contexto donde la tecnología avanza rápidamente, muchos productos son diseñados para tener una vida útil limitada, lo que genera un impacto ambiental negativo debido al aumento de residuos electrónicos, conocidos como RAEE (Residuos de Aparatos Eléctricos y Electrónicos).
 
-En la Argentina se descartan millones de kilos de residuos de aparatos eléctricos y electrónicos cada año, conocidos como RAEE. Una parte significativa de esos residuos no corresponde a productos que llegaron al fin de su vida útil, sino a aparatos que dejaron de usarse por fallas cuya reparación resultaba difícil, costosa o directamente imposible. Al mismo tiempo, en un contexto de estrechez económica para los hogares, la posibilidad de reparar un celular, una heladera o un lavarropas en lugar de reemplazarlos tiene un impacto directo en el bolsillo de las familias.
+Argentina no es ajena a esta problemática. Según datos de la Cámara de Industria y Comercio de Artículos Electrónicos y Electrodomésticos (CICAE), en el país se generan anualmente más de 100.000 toneladas de RAEE, de las cuales solo un pequeño porcentaje es reciclado o reutilizado. La falta de acceso a repuestos, la complejidad de los diseños y la ausencia de información clara para los consumidores agravan este escenario, perpetuando un modelo de consumo lineal que prioriza la compra de nuevos productos sobre la reparación de los existentes.
 
-El problema no es solo técnico: es de información. Cuando una persona compra un producto, no tiene manera de saber si ese producto podrá repararse fácilmente, si habrá repuestos disponibles, si el desmontaje requerirá herramientas especiales o si el fabricante dificulta el acceso a manuales y diagnósticos. Esta asimetría informativa favorece prácticas de obsolescencia programada y de diseño cerrado, y desplaza hacia el consumidor un costo que podría evitarse.
+El derecho a la reparación es un concepto que ha ganado fuerza a nivel global. Países como Francia ya han implementado sistemas de etiquetado de reparabilidad, demostrando que esta medida no solo empodera a los consumidores, sino que también incentiva a los fabricantes a diseñar productos más duraderos y fáciles de mantener. En la Unión Europea, la Directiva 2019/771 sobre contratos de venta de bienes exige a los Estados miembros garantizar que los consumidores reciban información clara sobre la reparabilidad de los productos.
 
-La experiencia internacional demuestra que el etiquetado funciona. Francia introdujo en 2021 el "indice de réparabilité", un puntaje del 1 al 10 obligatorio para celulares, computadoras portátiles, televisores, lavarropas y otros productos, calculado sobre criterios de documentación, desmontaje, disponibilidad de repuestos, precio de los repuestos y características específicas del producto. Los resultados fueron inmediatos: los fabricantes comenzaron a rediseñar sus productos para mejorar su calificación, en una dinámica de mejora que beneficia directamente al usuario. La Unión Europea, por su parte, ha avanzado en su Reglamento Ecodesign con requisitos de reparabilidad y su directiva de "derecho a reparar", que profundizan esta orientación.
+Este proyecto propone un sistema de etiquetado obligatorio que permita a los consumidores tomar decisiones informadas al momento de adquirir un producto. La etiqueta, basada en una puntuación del 1 al 10, evaluará aspectos clave como la disponibilidad de repuestos, la accesibilidad de componentes y la existencia de manuales técnicos. De esta manera, se fomenta la competencia entre fabricantes para mejorar la reparabilidad de sus productos, beneficiando tanto al ambiente como a la economía familiar.
 
-Nuestro país cuenta con antecedentes que avalan esta política. La Ley 24.240 de Defensa del Consumidor consagra en su artículo 4° el derecho a una información veraz, detallada, eficaz y suficiente. La Ley 27.275 de Derecho de Acceso a la Información Pública y, más recientemente, el debate sobre economía circular y gestión de RAEE, muestran una orientación clara del legislador argentino hacia la transparencia y la sustentabilidad. Asimismo, la Ley 25.323 de Lealtad Comercial y el régimen de la Secretaría de Comercio Interior ofrecen la infraestructura institucional de control que este proyecto aprovecha, sin crear nuevos organismos ni burocracia adicional.
+Además, la ley establece obligaciones claras para fabricantes e importadores, como la provisión de repuestos y manuales durante un plazo mínimo de 7 años, lo que garantiza que los productos no queden obsoletos prematuramente. La autoridad de aplicación, a ser designada por el Poder Ejecutivo, tendrá la tarea de fiscalizar el cumplimiento de estas disposiciones y aplicar sanciones en caso de incumplimiento.
 
-La etiqueta de reparabilidad cumple, además, tres funciones simultáneas. Primero, empodera al consumidor, que podrá comparar productos no solo por precio y prestaciones, sino por su costo total de propiedad. Segundo, incentiva a los fabricantes e importadores a diseñar y seleccionar productos más duraderos, porque la información visible influye en la decisión de compra, como lo demuestra el caso francés. Tercero, reduce la generación de residuos electrónicos, que contienen materiales tóxicos y recursos escasos, en línea con los compromisos ambientales asumidos por el país.
+El financiamiento de la implementación de esta ley se cubrirá con recursos del presupuesto nacional, sin generar una carga adicional para los consumidores. Las sanciones previstas, que incluyen multas y la suspensión de la comercialización de productos, buscan disuadir prácticas que perjudiquen el derecho a la reparación.
 
-Se ha optado por una escala de 1 a 10 y por criterios de evaluación equivalentes a los aplicados en Francia, para facilitar la comparación internacional y permitir que los fabricantes que ya evalúan sus productos para ese mercado reutilicen esa información, reduciendo costos de cumplimiento. Se ha encargado la evaluación técnica al INTI por su trayectoria y capilaridad federal, evitando crear estructuras nuevas. El régimen sancionatorio se apoya en la Ley 24.240, procedimiento ya conocido por las autoridades de aplicación y por los operadores del mercado.
+En síntesis, la Ley de Etiquetado de Reparabilidad es un paso necesario hacia una economía más sostenible y circular. No solo reduce el impacto ambiental, sino que también promueve el consumo responsable y la protección de los derechos de los usuarios. Es una herramienta concreta para avanzar en la transición ecológica que nuestro país necesita.
 
-El plazo de vacancia de un año responde a la necesidad de que el INTI desarrolle la metodología, que los importadores gestionen las evaluaciones de sus catálogos y que la reglamentación se elabore con participación de las cámaras empresarias, las organizaciones de consumidores y los talleres de reparación, que son también destinatarios indirectos de esta política: un mercado de reparación más dinámico es generador de empleo local y de oficios.
-
-La medida no impone requisitos técnicos de diseño, no encarece la producción nacional ni desalienta la importación: exige, únicamente, decir la verdad sobre un atributo del producto que hoy permanece oculto. Esa simple transparencia, como ocurrió con el etiquetado nutricional de alimentos, tiene el poder de transformar el mercado más eficazmente que muchas regulaciones complejas.
-
-Por lo expuesto, solicito a mis pares que me acompañen en la aprobación del presente proyecto de ley.
+Por todo lo expuesto, solicito a mis pares el acompañamiento para la aprobación de este proyecto.
 
 
 ---
@@ -298,416 +274,130 @@ Por todo ello, solicito el acompañamiento de esta iniciativa. Una etiqueta clar
 
 PROYECTO DE LEY
 
-El Senado y Cámara de Diputados de la Nación Argentina reunidos en Congreso, etc. sancionan con fuerza de Ley:
+LEY DE ETIQUETADO DE REPARABILIDAD
 
-LEY DE ETIQUETADO DE REPARABILIDAD DE APARATOS ELÉCTRICOS Y ELECTRÓNICOS
+El Senado y Cámara de Diputados de la Nación Argentina reunidos en Congreso, etc., sancionan con fuerza de Ley:
 
-Artículo 1º.- Objeto. La presente ley tiene por objeto establecer la obligatoriedad de exhibir un "Índice de Reparabilidad" en la comercialización de aparatos eléctricos y electrónicos, a fin de garantizar el derecho a la información de los consumidores, combatir la obsolescencia programada y promover la transición hacia una economía circular y sustentable.
+**Artículo 1°.— Objeto y ámbito de aplicación.** La presente ley tiene por objeto garantizar información clara, comparable y verificable sobre la reparabilidad de los productos, promover decisiones de consumo informadas y contribuir a prolongar su vida útil y reducir la generación de residuos.
 
-Artículo 2º.- Ámbito de aplicación. Quedan sujetos a las disposiciones de la presente ley los teléfonos celulares, computadoras portátiles y de escritorio, y los electrodomésticos de línea blanca y marrón que se comercialicen en el territorio de la Nación Argentina, ya sea de fabricación nacional o importados.
+Quedan comprendidos los teléfonos celulares, las computadoras de escritorio y portátiles, las tabletas y los electrodomésticos nuevos que se comercialicen en el territorio nacional, cualquiera sea su origen, mediante establecimientos físicos, medios electrónicos u otras modalidades de venta a destinatarios finales.
 
-Artículo 3º.- Índice de Reparabilidad. Créase el Índice de Reparabilidad, el cual consistirá en un valor numérico del uno (1) al diez (10) acompañado de una escala cromática que determine visualmente el grado de facilidad para reparar el producto. La etiqueta con el Índice deberá ser exhibida de forma clara, visible e inequívoca en el producto, en su embalaje y junto al precio en cualquier portal de venta en línea o establecimiento comercial, de forma previa a la adquisición por parte del consumidor.
+Sus disposiciones son de orden público y complementan las obligaciones establecidas por la Ley 24.240 de Defensa del Consumidor.
 
-Artículo 4º.- Criterios de evaluación. El Índice de Reparabilidad se calculará de manera objetiva en base a los siguientes criterios:
-a) Disponibilidad y accesibilidad de la documentación técnica y manuales de reparación.
-b) Facilidad de desmontaje del producto y tipo de herramientas necesarias para hacerlo.
-c) Disponibilidad y tiempo de entrega de repuestos en el mercado nacional.
-d) Relación entre el precio de los repuestos y el precio del producto original.
-e) Criterios específicos inherentes a la categoría de cada producto, tales como asistencia remota o actualizaciones de software.
+**Artículo 2°.— Definiciones.** A los efectos de esta ley, se entiende por:
 
-Artículo 5º.- Autoridad de Aplicación. El Poder Ejecutivo Nacional designará la Autoridad de Aplicación de la presente ley, la cual deberá recaer en el organismo con máxima competencia nacional en materia de Comercio Interior y Defensa del Consumidor, pudiendo actuar en coordinación con las áreas competentes en materia ambiental. 
+a) **Reparabilidad:** la posibilidad de diagnosticar fallas y restablecer el funcionamiento de un producto mediante procedimientos técnicamente viables, seguros y económicamente accesibles, incluida la sustitución de sus componentes y las intervenciones sobre su software que resulten necesarias.
 
-Artículo 6º.- Obligaciones de la cadena de comercialización. Los fabricantes e importadores son responsables de calcular el Índice de Reparabilidad conforme a los parámetros reglamentarios y de proveer la etiqueta correspondiente. Los distribuidores y vendedores tienen la obligación inexcusable de exhibir dicha etiqueta al consumidor final en los puntos de venta físicos y digitales.
+b) **Electrodoméstico:** el aparato que utiliza energía eléctrica para cumplir funciones domésticas de conservación o preparación de alimentos, limpieza, climatización, higiene, cuidado personal u otras análogas. Quedan excluidos los equipos destinados exclusivamente a usos industriales o profesionales.
 
-Artículo 7º.- Sanciones. El incumplimiento de las disposiciones de la presente ley será considerado una infracción a los deberes de información y trato digno, y será pasible de las sanciones previstas en la Ley Nº 24.240 de Defensa del Consumidor, sus modificatorias y normativas complementarias, sin perjuicio de otras sanciones administrativas o penales que pudieren corresponder.
+c) **Índice de reparabilidad:** la calificación numérica que expresa el grado de reparabilidad de un modelo, calculada conforme a los criterios de esta ley.
 
-Artículo 8º.- Financiamiento. Los gastos que demande el cumplimiento y la fiscalización de la presente ley se imputarán a las partidas presupuestarias correspondientes a la Autoridad de Aplicación, asignadas en el Presupuesto General de la Administración Nacional para el ejercicio correspondiente.
+d) **Reparador independiente:** la persona humana o jurídica que presta servicios de reparación sin integrar la red autorizada del fabricante o importador.
 
-Artículo 9º.- Vigencia y reglamentación. La presente ley entrará en vigencia a los ciento ochenta (180) días de su publicación en el Boletín Oficial. El Poder Ejecutivo Nacional deberá reglamentar la presente ley dentro de los noventa (90) días de su promulgación, estableciendo los parámetros técnicos precisos para el cálculo del Índice de Reparabilidad.
+e) **Modelo:** el conjunto de unidades con características técnicas equivalentes a los efectos del cálculo del índice. Las variantes que modifiquen su reparabilidad deben calificarse separadamente.
 
-Artículo 10º.- Comuníquese al Poder Ejecutivo nacional.
+**Artículo 3°.— Etiqueta obligatoria.** Los productos comprendidos deben exhibir, al momento de su oferta y venta, una etiqueta de reparabilidad que contenga:
+
+a) La denominación «Índice de reparabilidad»;
+
+b) La calificación del producto, expresada de cero (0) a diez (10), con un decimal, donde diez (10) representa la mayor reparabilidad;
+
+c) La marca, el modelo y la fecha de cálculo o actualización;
+
+d) Una dirección electrónica y un código de respuesta rápida que permitan acceder gratuitamente al detalle del cálculo, los compromisos declarados y la información pública del registro previsto en el artículo 5°.
+
+La etiqueta debe ser legible, contrastante y estar colocada en el envase y junto al producto o a su precio de exhibición. En las ofertas a distancia debe mostrarse junto al precio, antes de la contratación y sin requerir enlaces adicionales para conocer la calificación.
+
+La autoridad de aplicación establecerá un diseño uniforme y accesible. El uso de colores no puede ser el único medio para comunicar el resultado. La etiqueta no sustituye las advertencias de seguridad ni los restantes deberes de información.
+
+**Artículo 4°.— Cálculo del índice.** El índice resulta de la suma de cinco componentes, cada uno con una puntuación de cero (0) a dos (2):
+
+a) Disponibilidad, accesibilidad y costo de manuales, diagramas, herramientas de diagnóstico e instrucciones de reparación para consumidores y reparadores independientes;
+
+b) Facilidad de desmontaje y sustitución de componentes, considerando los pasos necesarios, los sistemas de unión y las herramientas requeridas;
+
+c) Disponibilidad efectiva de repuestos, plazos de entrega y cantidad de años durante los cuales se garantiza su provisión;
+
+d) Precio de los repuestos relevantes y de las herramientas específicas indispensables, en relación con el precio de venta del producto;
+
+e) Condiciones de acceso al software, firmware, actualizaciones y procedimientos de activación o vinculación necesarios para reparar y restablecer el funcionamiento del producto, así como la existencia de restricciones técnicas injustificadas.
+
+La reglamentación establecerá tablas objetivas, verificables y específicas por categoría, identificará los componentes relevantes y determinará precios de referencia y procedimientos de ensayo reproducibles. Las puntuaciones mayores deben corresponder a condiciones más favorables para la reparación.
+
+La evaluación debe considerar las condiciones efectivamente disponibles en la República Argentina. Los compromisos futuros de disponibilidad que otorguen puntaje deben indicar plazo y condiciones, y son exigibles al responsable de la declaración. Las restricciones fundadas en seguridad o protección de datos deben acreditarse y no pueden presumirse justificadas por la sola invocación del fabricante.
+
+**Artículo 5°.— Sujetos obligados y registro.** Los fabricantes nacionales y los importadores deben calcular el índice, presentar una declaración jurada por modelo antes de su comercialización y proporcionar las etiquetas y la información técnica necesaria a los restantes integrantes de la cadena comercial. El fabricante nacional responde por los productos que fabrica y el importador por aquellos que introduce al país.
+
+Créase el Registro Público de Reparabilidad, digital, gratuito y de acceso abierto, a cargo de la autoridad de aplicación. La inscripción de las declaraciones será automática, sin perjuicio de su fiscalización posterior. Deben publicarse la calificación total, el desglose por componente, la metodología empleada, los compromisos de disponibilidad y los canales de acceso a documentación, repuestos y soporte.
+
+Los declarantes deben conservar los antecedentes respaldatorios durante cinco (5) años desde la última comercialización del modelo y actualizar la declaración cuando cambien las condiciones evaluadas. La reserva comercial no es oponible a la fiscalización ni puede impedir la publicación de la información expresamente exigida por esta ley.
+
+Los distribuidores y vendedores deben exhibir la etiqueta correspondiente al modelo, mantenerla legible y abstenerse de alterarla. Las plataformas que intermedien ofertas electrónicas deben incorporar un campo obligatorio para su exhibición e impedir la publicación de ofertas comprendidas que lo omitan.
+
+**Artículo 6°.— Autoridad de aplicación y fiscalización.** Será autoridad nacional de aplicación la Secretaría de Comercio del Ministerio de Economía, o el organismo que en el futuro la reemplace en sus competencias de defensa del consumidor.
+
+Son sus funciones:
+
+a) Dictar las normas técnicas y complementarias necesarias;
+
+b) Administrar el registro y recibir denuncias;
+
+c) Requerir documentación y muestras, realizar inspecciones y verificar los índices mediante ensayos propios o de organismos públicos y laboratorios técnicamente competentes;
+
+d) Ordenar la corrección de declaraciones y etiquetas, la publicación de rectificaciones y, mediante decisión fundada, la suspensión de ofertas hasta subsanar incumplimientos;
+
+e) Difundir información para consumidores y publicar anualmente los resultados de la fiscalización.
+
+La autoridad nacional coordinará la actuación con las autoridades locales de defensa del consumidor, que ejercerán el control y juzgamiento en sus respectivas jurisdicciones conforme a la distribución de competencias de la Ley 24.240. Los controles deben priorizar criterios de riesgo, volumen de ventas y denuncias recibidas.
+
+**Artículo 7°.— Infracciones y sanciones.** Constituyen infracciones la falta de inscripción o etiquetado; la exhibición ilegible, incompleta o incorrecta; la falsedad u omisión de datos relevantes; el incumplimiento de compromisos declarados; la falta de actualización o conservación de antecedentes; y la obstrucción de la fiscalización.
+
+Los responsables serán sancionados con las medidas previstas en el artículo 47 de la Ley 24.240, según corresponda. Para su graduación se considerarán especialmente la gravedad, la cantidad de productos afectados, el beneficio obtenido, la reincidencia y la conducta posterior del infractor.
+
+Resultan aplicables las reglas de procedimiento, prescripción y revisión judicial de la Ley 24.240 y, en las jurisdicciones locales, sus normas procedimentales respectivas, con garantía del derecho de defensa. Ningún sujeto será sancionado por un incumplimiento ajeno a los deberes que esta ley le atribuye, ni podrá recibir una doble sanción administrativa por el mismo hecho y fundamento.
+
+Las sanciones no excluyen las responsabilidades civiles o penales que pudieran corresponder.
+
+**Artículo 8°.— Financiamiento.** Los gastos que demande la implementación de esta ley se atenderán con las partidas asignadas a la autoridad de aplicación en el Presupuesto General de la Administración Nacional. Durante el primer ejercicio, el Jefe de Gabinete de Ministros efectuará las adecuaciones presupuestarias necesarias dentro de los créditos aprobados y de las facultades legalmente vigentes.
+
+La implementación debe aprovechar las estructuras administrativas y capacidades técnicas existentes. La inscripción, consulta y descarga de información del registro serán gratuitas.
+
+**Artículo 9°.— Vigencia y adecuación.** La presente ley entrará en vigencia al día siguiente de su publicación en el Boletín Oficial. El Poder Ejecutivo nacional deberá reglamentarla dentro de los ciento ochenta (180) días corridos.
+
+Las obligaciones de inscripción, declaración y etiquetado serán exigibles a partir de los trescientos sesenta y cinco (365) días corridos de su publicación para todos los productos nuevos ofrecidos a destinatarios finales, incluidas las existencias anteriores. Durante el período de adecuación, la autoridad de aplicación brindará asistencia técnica gratuita, con especial atención a las micro, pequeñas y medianas empresas.
+
+**Artículo 10.—** Comuníquese al Poder Ejecutivo nacional.
 
 FUNDAMENTOS
 
 Señor Presidente:
 
-El presente proyecto de ley tiene como principal objetivo empoderar a los consumidores argentinos y dar un paso fundamental hacia la protección del medio ambiente mediante la creación del Índice de Reparabilidad para aparatos eléctricos y electrónicos. 
+El presente proyecto propone que los teléfonos celulares, las computadoras y los electrodomésticos se comercialicen con una etiqueta visible que informe qué tan fácil resulta repararlos. Su propósito es incorporar al momento de la compra un dato decisivo para el gasto de los hogares y para la duración efectiva de los bienes.
 
-En la actualidad, vivimos inmersos en un modelo de consumo lineal basado en la lógica de "comprar, usar y tirar". Este modelo es impulsado, en gran medida, por la obsolescencia programada y por las barreras que los propios fabricantes imponen para la reparación de sus productos. Cuando a un ciudadano se le rompe la pantalla del celular, se le daña un componente de la computadora o deja de funcionar el lavarropas, suele encontrarse con que el costo de reparación es casi igual al de comprar un equipo nuevo, o peor aún, que las piezas de repuesto directamente no existen, que los manuales técnicos son secretos, o que el ensamblaje está hecho con pegamentos que impiden su apertura sin destruir el aparato.
+Actualmente, una persona puede comparar precios, prestaciones y consumo energético, pero suele desconocer si podrá sustituir una batería, conseguir una pieza o acceder a un servicio de reparación fuera de la red del fabricante. Esa información aparece, muchas veces, recién cuando el aparato deja de funcionar. Para entonces, el consumidor ya realizó la inversión y cuenta con alternativas limitadas.
 
-Esta dinámica genera dos perjuicios enormes. En primer lugar, un impacto económico severo en el bolsillo de las familias argentinas, que se ven forzadas a adquirir productos nuevos de forma constante por fallas menores en los que ya poseen. En segundo lugar, un impacto ambiental devastador. Los Residuos de Aparatos Eléctricos y Electrónicos (RAEE) son la corriente de desechos que más rápido crece en el mundo. Estos aparatos contienen metales pesados y sustancias tóxicas que, al no ser gestionados adecuadamente, terminan contaminando nuestros suelos y fuentes de agua.
+La reparabilidad no depende únicamente de que un producto pueda abrirse. También requiere documentación disponible, repuestos accesibles, procedimientos seguros y ausencia de obstáculos de software que impidan recuperar su funcionamiento. Una reparación técnicamente posible puede resultar inviable si una pieza cuesta casi tanto como un equipo nuevo o si su entrega demora un plazo excesivo.
 
-La Ley de Etiquetado de Reparabilidad viene a corregir la asimetría de información que existe en el mercado. Hoy, el consumidor compra a ciegas. Con esta ley, cada celular, computadora o electrodoméstico deberá exhibir una etiqueta visible, con un puntaje del 1 al 10 y una escala de colores, que le indicará al comprador qué tan fácil será arreglar ese producto si se rompe. 
+Por esa razón, el proyecto establece una escala de cero a diez integrada por cinco componentes de igual peso. La ley fija los criterios sustantivos y encomienda a la reglamentación su traducción en tablas técnicas por categoría. De este modo, se ofrece previsibilidad sin inmovilizar los procedimientos frente a la evolución tecnológica.
 
-Este mecanismo, inspirado en modelos exitosos implementados en países como Francia desde el año 2021 y que actualmente se debate en el seno de la Unión Europea, utiliza criterios objetivos: penaliza a las marcas que no venden repuestos o que los cobran a precios desorbitados, y premia a aquellas que diseñan sus productos para durar, que facilitan manuales y que permiten el uso de herramientas comunes para su desarme.
+La información debe describir condiciones reales del mercado argentino. No sería útil otorgar una buena calificación por repuestos disponibles únicamente en otro país o por documentación a la que un reparador local no puede acceder. Asimismo, cuando el puntaje se apoye en compromisos de provisión futura, estos serán públicos y exigibles.
 
-A la par de la defensa del consumidor y el cuidado ambiental, este proyecto tiene un claro beneficio económico y productivo para nuestro país. Facilitar la reparación de dispositivos fomenta directamente la creación de empleo local. Los talleres de reparación, los técnicos independientes y las pequeñas y medianas empresas dedicadas al servicio técnico verán revitalizada su actividad al contar con acceso a manuales, repuestos y equipos diseñados para ser arreglados. Esto fortalece una economía de cercanía, retiene el valor en el país y disminuye la dependencia de la importación constante de bienes de consumo final.
+La etiqueta deberá acompañar tanto la venta presencial como la electrónica. El código de respuesta rápida permitirá ampliar la información, pero nunca reemplazará la exhibición directa del índice: conocer la calificación no debe depender de disponer de otro dispositivo ni de realizar búsquedas adicionales.
 
-De la misma manera que el etiquetado de eficiencia energética nos enseñó a elegir electrodomésticos que consumen menos luz, y el etiquetado frontal de alimentos nos ayuda a cuidar nuestra salud, el etiquetado de reparabilidad creará una nueva conciencia en el consumidor. Serán los propios ciudadanos quienes, con el poder de su compra, obligarán a los fabricantes a ofrecer productos de mejor calidad, más duraderos y respetuosos con el ambiente.
+Se adopta un esquema de declaración jurada por modelo con fiscalización posterior. Esta solución evita convertir el registro en una autorización previa que demore innecesariamente la comercialización, sin renunciar al control público. La apertura de los datos facilitará, además, el examen por consumidores, organizaciones especializadas y talleres.
 
-Por estas razones, convencidos de que estamos legislando para el futuro, protegiendo los derechos de los consumidores, fomentando el trabajo local y cuidando nuestra casa común, solicito a mis pares el acompañamiento y la pronta aprobación del presente proyecto de ley.
+Las obligaciones se distribuyen según la intervención de cada actor. Fabricantes e importadores responden por el cálculo y su respaldo; distribuidores y vendedores, por la exhibición; y plataformas, por habilitar y exigir el espacio informativo correspondiente. Las sanciones se integran al régimen de defensa del consumidor, respetando las competencias locales y el debido proceso.
+
+La medida también puede favorecer a los talleres independientes y a las pequeñas empresas de reparación. Cuando la posibilidad de reparar se vuelve visible y comparable, los proveedores tienen un incentivo para mejorarla y competir sobre la vida útil del producto, además de hacerlo sobre su precio inicial.
+
+Finalmente, prolongar el uso de los aparatos contribuye a reducir residuos y la demanda de materiales y energía asociados a su reemplazo. El etiquetado no resuelve por sí solo esos problemas, pero constituye una herramienta concreta para orientar decisiones individuales y prácticas productivas.
+
+Por las razones expuestas, solicito a mis pares que acompañen el presente proyecto de ley.
 
 
 ---
 
 ## Texto E
-
-**PROYECTO DE LEY**
-
-**EL SENADO Y LA CÁMARA DE DIPUTADOS
-DE LA NACIÓN ARGENTINA, SANCIONAN CON FUERZA DE
-LEY:**
-
-**LEY DE ETIQUETADO DE REPARABILIDAD DE PRODUCTOS ELECTRÓNICOS Y ELECTRODOMÉSTICOS**
-
-ARTÍCULO 1°.- Objeto y ámbito de aplicación. La presente ley tiene por objeto establecer la obligatoriedad de exhibir una etiqueta de reparabilidad para los productos electrónicos y electrodomésticos que se fabriquen, importen o comercialicen en el territorio de la República Argentina, con el fin de garantizar el derecho a la información del consumidor, promover la economía circular, extender la vida útil de los bienes y reducir el volumen de residuos de aparatos eléctricos y electrónicos (RAEE).
-
-Quedan comprendidos en las disposiciones de esta ley los siguientes bienes:
-a) Teléfonos celulares y smartphones;
-b) Computadoras portátiles, de escritorio, todo-en-uno y tabletas;
-c) Electrodomésticos de línea blanca: heladeras, congeladores, lavarropas, secarropas, lavavajillas, cocinas, hornos eléctricos y de gas, y aires acondicionados;
-d) Electrodomésticos de línea marrón: televisores y equipos de audio;
-e) Pequeños electrodomésticos: aspiradoras, microondas, cafeteras, planchas, freidoras de aire y similares;
-f) Los demás productos que la Autoridad de Aplicación incorpore por vía reglamentaria en atención a su volumen de comercialización, impacto ambiental o complejidad técnica.
-
-ARTÍCULO 2°.- Definiciones. A los efectos de la presente ley se entiende por:
-a) Etiqueta de reparabilidad: el rótulo gráfico de carácter informativo que, con un diseño estandarizado, muestra el puntaje de reparabilidad del producto;
-b) Puntaje de reparabilidad: el valor numérico o alfabético calculado sobre la base de criterios objetivos previamente definidos, que refleja la facilidad con que un producto puede ser desarmado, diagnosticado, reparado y mantenido;
-c) Fabricante: toda persona humana o jurídica que fabrique o ensamble el producto comprendido;
-d) Importador: toda persona humana o jurídica que introduzca el producto al mercado nacional;
-e) Comercializador: toda persona humana o jurídica que ofrezca, venda o ceda de cualquier modo el producto al consumidor final;
-f) Repuesto: toda pieza, componente o módulo destinado a sustituir una parte averiada o desgastada del producto, a fin de restituir su funcionamiento original;
-g) Diseño modular: aquel que permita el acceso, desarme, identificación y reemplazo de los componentes del producto con herramientas de uso común y sin daño irreversible.
-
-ARTÍCULO 3°.- Características de la etiqueta. La etiqueta de reparabilidad deberá cumplir los siguientes requisitos mínimos:
-a) Ser exhibida en el envase, en el propio producto y, cuando corresponda, en el punto de venta físico y en los sitios de venta electrónica;
-b) Tener un tamaño y una ubicación tales que resulten claramente legibles, sin necesidad de recurrir a dispositivos ópticos auxiliares;
-c) Adoptar una escala de fácil comprensión, con código cromático y gráfico, conforme lo determine la reglamentación;
-d) Incluir el puntaje de reparabilidad y, en forma sintética, los criterios que lo integran;
-e) Ser redactada en idioma nacional, sin perjuicio de su coexistencia con otros idiomas.
-
-ARTÍCULO 4°.- Criterios de evaluación. El puntaje de reparabilidad se calculará considerando, al menos, los siguientes parámetros:
-a) Disponibilidad y plazo de comercialización de los repuestos;
-b) Facilidad de acceso a manuales de reparación, esquemas técnicos y documentación de servicio;
-c) Tipo y cantidad de herramientas necesarias para las reparaciones habituales;
-d) Posibilidad de sustituir componentes básicos, tales como batería, pantalla, teclado, disco rígido, motor, compresor, bomba o placa electrónica principal;
-e) Grado de modularidad y reversibilidad del armado;
-f) Relación entre el precio de los repuestos principales y el precio del producto nuevo;
-g) Disponibilidad de actualizaciones de software cuando correspondiere.
-
-La Autoridad de Aplicación establecerá por vía reglamentaria el algoritmo de cálculo, los coeficientes de ponderación y los valores máximos y mínimos del puntaje.
-
-ARTÍCULO 5°.- Obligaciones de los sujetos obligados. Los fabricantes e importadores de productos comprendidos en el artículo 1° deberán:
-a) Determinar, certificar y documentar el puntaje de reparabilidad correspondiente a cada modelo puesto en el mercado;
-b) Proveer la etiqueta de reparabilidad y entregar la documentación técnica mínima exigida por la reglamentación;
-c) Garantizar la disponibilidad de repuestos por los plazos mínimos que establezca la Autoridad de Aplicación.
-
-Los comercializadores deberán exhibir la etiqueta de reparabilidad de manera previa a la decisión de compra y conservarla mientras el producto esté expuesto.
-
-ARTÍCULO 6°.- Autoridad de Aplicación. La Autoridad de Aplicación de la presente ley será la Secretaría de Comercio del Ministerio de Economía de la Nación, o el organismo que en el futuro la reemplace, en articulación con la Secretaría de Ambiente de la Nación, o quien haga sus veces. Tendrá, sin perjuicio de las demás facultades que se le otorguen por vía reglamentaria, las siguientes atribuciones:
-a) Definir, actualizar y publicar los criterios, la escala y la metodología de cálculo del puntaje de reparabilidad;
-b) Establecer los plazos mínimos de disponibilidad de repuestos y manuales;
-c) Llevar un registro público de puntajes asignados a cada modelo;
-d) Realizar auditorías, verificaciones y operativos de control;
-e) Imponer las sanciones previstas en el artículo 7°;
-f) Celebrar convenios de cooperación técnica con provincias, municipios, universidades, cámaras empresarias y organizaciones de la sociedad civil.
-
-ARTÍCULO 7°.- Sanciones. El incumplimiento de las obligaciones establecidas en la presente ley dará lugar a las sanciones que, conforme a la gravedad de la infracción, la reincidencia y el volumen de comercialización, se graduarán de la siguiente manera:
-a) Apercibimiento;
-b) Multas, las cuales podrán ser actualizadas periódicamente conforme los índices oficiales;
-c) Decomiso de los productos en infracción;
-d) Suspensión de la comercialización hasta tanto se subsane la irregularidad;
-e) Publicación de la sanción a costa del infractor.
-
-Las sanciones se aplicarán previo procedimiento sumario que garantice el derecho de defensa y serán recurribles conforme a la legislación vigente. En forma supletoria, resultarán aplicables las disposiciones de la Ley N° 24.240 de Defensa del Consumidor y sus modificatorias.
-
-ARTÍCULO 8°.- Financiamiento. Los gastos que demande el cumplimiento de la presente ley se atenderán con cargo a las partidas que al efecto se incluyan en el Presupuesto General de la Nación para cada ejercicio. Facúltase al Poder Ejecutivo nacional a realizar las adecuaciones presupuestarias que resulten necesarias.
-
-ARTÍCULO 9°.- Vigencia y plazo de reglamentación. La presente ley entrará en vigencia a los NOVENTA (90) días corridos contados a partir de su publicación en el Boletín Oficial de la República Argentina. El Poder Ejecutivo nacional deberá dictar su reglamentación dentro del plazo de CIENTO OCHENTA (180) días corridos contados a partir de la misma fecha.
-
-ARTÍCULO 10.- Comuníquese al Poder Ejecutivo nacional.
-
----
-
-**FUNDAMENTOS**
-
-Señor Presidente:
-
-El presente proyecto de ley tiene como objetivo central establecer la obligatoriedad de una etiqueta de reparabilidad para los productos electrónicos y electrodomésticos que se comercializan en nuestro país, con el propósito de garantizar a los consumidores el derecho a acceder a información clara, comparable y veraz sobre la facilidad con que un bien puede ser reparado una vez producida una avería o finalizado el período de garantía legal.
-
-La iniciativa se asienta en tres procesos convergentes. El primero es el reconocimiento creciente del derecho a reparar como una dimensión autónoma del derecho del consumidor; el segundo, la necesidad impostergable de avanzar hacia modelos de producción y consumo más sostenibles para atender la crisis climática y la contaminación; el tercero, la consolidación, a nivel internacional, de marcos regulatorios que han demostrado ser efectivos para prolongar la vida útil de los productos y reducir la generación de residuos.
-
-En cuanto al derecho a la información, el artículo 42 de la Constitución Nacional consagra el derecho de los consumidores a una información adecuada y veraz, y nuestro país ha ratificado tratados internacionales con jerarquía constitucional o supralegal que reconocen la tutela de ese derecho. La información sobre reparabilidad resulta, en muchos casos, tan determinante para la decisión de compra como el precio o la eficiencia energética: un producto fácilmente reparable representa un menor costo a lo largo de su vida útil, una menor dependencia del fabricante y una mayor autonomía para el usuario. Sin embargo, esa información es prácticamente inaccesible para el consumidor argentino, que se ve obligado a decidir a ciegas respecto de un atributo esencial del bien que adquiere.
-
-En lo que respecta a la cuestión ambiental, la Argentina enfrenta un crecimiento sostenido de los residuos de aparatos eléctricos y electrónicos (RAEE). Se trata de una de las corrientes de residuos de más rápido crecimiento a nivel global, caracterizada por su volumen, su complejidad y la presencia de sustancias potencialmente tóxicas para la salud humana y para los ecosistemas. Prolongar la vida útil de un teléfono celular, una computadora o un lavarropas reduce la presión sobre los rellenos sanitarios y los sitios de disposición final, disminuye la demanda de materias primas vírgenes, la huella de carbono asociada a la fabricación y el impacto que la minería extractiva tiene sobre los territorios y las comunidades. Promover la reparabilidad es, en consecuencia, una herramienta concreta y de probada eficacia para avanzar hacia una economía circular, en línea con los compromisos asumidos por el país en el Acuerdo de París, en los Objetivos de Desarrollo Sostenible y en los acuerdos regionales de carácter ambiental.
-
-En el plano económico y social, el proyecto busca fortalecer una economía de la reparación que, en la Argentina, ya genera empleo y dinamiza economías regionales. Los talleres de reparación, tanto formales como informales, constituyen una fuente relevante de trabajo, en particular para jóvenes, mujeres y PyMEs de todo el país. Una mayor demanda de reparaciones se traducirá en más empleo local, en mayor formación técnica y en una oferta más diversa y competitiva para los consumidores, que podrán elegir entre reemplazar o reparar con información suficiente para decidir. Las experiencias internacionales disponibles muestran que las medidas de reparación efectiva generan ahorros significativos para los hogares y reducen el desembolso destinado a la reposición prematura de bienes durables.
-
-El derecho a reparar no es, además, una novedad regulatoria. Diversos países han avanzado en legislaciones análogas con resultados positivos. Francia fue pionera, en 2021, con la obligación de exhibir un índice de reparabilidad para ciertos electrodomésticos, posteriormente extendido a los teléfonos celulares. La Unión Europea avanzó más recientemente con un marco común de reparación para consumidores y se encuentra en pleno proceso de implementación de un índice uniforme de reparabilidad. La presente iniciativa toma como referencia esa experiencia comprobada y la adapta a la realidad institucional, productiva y comercial de la Argentina, ofreciendo reglas claras, previsibles y uniformes, sin imponer cargas irrazonables a los fabricantes locales ni obstaculizar el comercio internacional.
-
-En lo que hace al diseño institucional, se propone como Autoridad de Aplicación a la Secretaría de Comercio del Ministerio de Economía, en articulación con la Secretaría de Ambiente, lo que asegura la convergencia entre las políticas de defensa del consumidor y de cuidado ambiental. Se establece un sistema de puntaje objetivo, verificable y auditable, calculado a partir de criterios tales como la disponibilidad y el precio de los repuestos, la facilidad de desarmado, la accesibilidad de los manuales técnicos, la modularidad del diseño y la disponibilidad de actualizaciones de software. La etiqueta será de exhibición obligatoria tanto en los puntos de venta físicos como en los canales digitales, garantizando que la información llegue al consumidor en el momento relevante de la decisión de compra.
-
-Las sanciones previstas son proporcionales a la gravedad de la infracción y se articulan con el régimen general de defensa del consumidor, asegurando un equilibrio entre la protección del interés público y el debido proceso de los administrados. El financiamiento se atenderá con cargo al Presupuesto General de la Nación, sin crear nuevos tributos ni afectar la competitividad de la industria nacional.
-
-Por todo lo expuesto, solicito a mis pares que acompañen el presente proyecto de ley, convencidos de que la reparabilidad no es sólo una cuestión técnica, sino una herramienta de soberanía del consumidor, de cuidado del ambiente y de construcción de una economía más justa y durable.
-
-________________________________
-Diputado/a Nacional
-
-
----
-
-## Texto F
-
-**PROYECTO DE LEY**
-
-**LEY DE ETIQUETADO DE REPARABILIDAD**
-
-**Artículo 1°** – Objeto. La presente ley tiene por objeto establecer un sistema de etiquetado obligatorio que informe al consumidor sobre el grado de reparabilidad de los productos electrónicos y electrodomésticos comercializados en el territorio de la República Argentina, con el fin de promover la economía circular, reducir residuos electrónicos y garantizar el derecho a la información de los usuarios.
-
-**Artículo 2°** – Alcance. Quedan comprendidos en la presente ley los siguientes productos nuevos:
-a) Teléfonos celulares y smartphones;
-b) Computadoras de escritorio, notebooks, tablets y dispositivos similares;
-c) Electrodomésticos de línea blanca (heladeras, lavadoras, secadoras, lavarropas, cocinas, hornos, etc.);
-d) Electrodomésticos de línea marrón (televisores, equipos de audio, etc.);
-e) Cualquier otro dispositivo electrónico o electrodoméstico que determine la autoridad de aplicación.
-
-**Artículo 3°** – Definiciones. A los efectos de esta ley, se entiende por:
-a) **Reparabilidad**: la facilidad con la que un producto puede ser reparado, considerando la disponibilidad de repuestos, herramientas necesarias, accesibilidad de componentes y documentación técnica.
-b) **Etiqueta de reparabilidad**: el distintivo físico o digital que indique, mediante un sistema de puntuación, el nivel de reparabilidad del producto.
-c) **Autoridad de aplicación**: el organismo nacional que designe el Poder Ejecutivo Nacional.
-
-**Artículo 4°** – Sistema de etiquetado. La autoridad de aplicación establecerá un sistema de puntuación del 1 al 10, donde 10 represente la máxima reparabilidad. Dicha puntuación se determinará en función de los siguientes criterios:
-a) Disponibilidad de manuales de reparación y diagramas técnicos;
-b) Accesibilidad de componentes críticos (baterías, pantallas, placas, etc.);
-c) Uso de herramientas estándar para el desarme;
-d) Disponibilidad y costo de repuestos originales o compatibles;
-e) Durabilidad y modularidad del diseño.
-
-**Artículo 5°** – Obligaciones de los fabricantes e importadores. Los fabricantes e importadores de los productos comprendidos en el Artículo 2° deberán:
-a) Incluir en el empaque o en el producto mismo, de manera visible y legible, la etiqueta de reparabilidad con la puntuación correspondiente;
-b) Proporcionar a la autoridad de aplicación la información técnica necesaria para la evaluación de la reparabilidad;
-c) Garantizar la disponibilidad de repuestos y manuales de reparación durante un plazo mínimo de 7 (siete) años desde la discontinuación del modelo.
-
-**Artículo 6°** – Autoridad de aplicación. El Poder Ejecutivo Nacional designará la autoridad de aplicación, que será responsable de:
-a) Regular el sistema de etiquetado y los criterios de evaluación;
-b) Fiscalizar el cumplimiento de la presente ley;
-c) Establecer sanciones por incumplimiento;
-d) Promover campañas de concientización sobre la importancia de la reparabilidad.
-
-**Artículo 7°** – Sanciones. El incumplimiento de las disposiciones de esta ley será pasible de las siguientes sanciones, sin perjuicio de las responsabilidades civiles o penales que pudieran corresponder:
-a) Apercibimiento;
-b) Multa de hasta el 1% (uno por ciento) del facturado anual en el país del infractor;
-c) Suspensión temporal de la comercialización del producto;
-d) Inhabilitación para participar en licitaciones públicas por un plazo de hasta 2 (dos) años.
-
-**Artículo 8°** – Financiamiento. Los costos de implementación y fiscalización de esta ley serán solventados con los recursos del presupuesto nacional asignados a la autoridad de aplicación.
-
-**Artículo 9°** – Vigencia. La presente ley entrará en vigencia a los 180 (ciento ochenta) días de su publicación en el Boletín Oficial, a fin de permitir la adecuación de los actores involucrados.
-
-**Artículo 10°** – Comuníquese al Poder Ejecutivo Nacional.
-
----
-
-**FUNDAMENTOS**
-
-Señor Presidente de la Honorable Cámara de Diputados de la Nación:
-
-El presente proyecto de ley busca abordar un problema creciente en la sociedad moderna: la obsolescencia programada y la dificultad para reparar dispositivos electrónicos y electrodomésticos. En un contexto donde la tecnología avanza rápidamente, muchos productos son diseñados para tener una vida útil limitada, lo que genera un impacto ambiental negativo debido al aumento de residuos electrónicos, conocidos como RAEE (Residuos de Aparatos Eléctricos y Electrónicos).
-
-Argentina no es ajena a esta problemática. Según datos de la Cámara de Industria y Comercio de Artículos Electrónicos y Electrodomésticos (CICAE), en el país se generan anualmente más de 100.000 toneladas de RAEE, de las cuales solo un pequeño porcentaje es reciclado o reutilizado. La falta de acceso a repuestos, la complejidad de los diseños y la ausencia de información clara para los consumidores agravan este escenario, perpetuando un modelo de consumo lineal que prioriza la compra de nuevos productos sobre la reparación de los existentes.
-
-El derecho a la reparación es un concepto que ha ganado fuerza a nivel global. Países como Francia ya han implementado sistemas de etiquetado de reparabilidad, demostrando que esta medida no solo empodera a los consumidores, sino que también incentiva a los fabricantes a diseñar productos más duraderos y fáciles de mantener. En la Unión Europea, la Directiva 2019/771 sobre contratos de venta de bienes exige a los Estados miembros garantizar que los consumidores reciban información clara sobre la reparabilidad de los productos.
-
-Este proyecto propone un sistema de etiquetado obligatorio que permita a los consumidores tomar decisiones informadas al momento de adquirir un producto. La etiqueta, basada en una puntuación del 1 al 10, evaluará aspectos clave como la disponibilidad de repuestos, la accesibilidad de componentes y la existencia de manuales técnicos. De esta manera, se fomenta la competencia entre fabricantes para mejorar la reparabilidad de sus productos, beneficiando tanto al ambiente como a la economía familiar.
-
-Además, la ley establece obligaciones claras para fabricantes e importadores, como la provisión de repuestos y manuales durante un plazo mínimo de 7 años, lo que garantiza que los productos no queden obsoletos prematuramente. La autoridad de aplicación, a ser designada por el Poder Ejecutivo, tendrá la tarea de fiscalizar el cumplimiento de estas disposiciones y aplicar sanciones en caso de incumplimiento.
-
-El financiamiento de la implementación de esta ley se cubrirá con recursos del presupuesto nacional, sin generar una carga adicional para los consumidores. Las sanciones previstas, que incluyen multas y la suspensión de la comercialización de productos, buscan disuadir prácticas que perjudiquen el derecho a la reparación.
-
-En síntesis, la Ley de Etiquetado de Reparabilidad es un paso necesario hacia una economía más sostenible y circular. No solo reduce el impacto ambiental, sino que también promueve el consumo responsable y la protección de los derechos de los usuarios. Es una herramienta concreta para avanzar en la transición ecológica que nuestro país necesita.
-
-Por todo lo expuesto, solicito a mis pares el acompañamiento para la aprobación de este proyecto.
-
-
----
-
-## Texto G
-
-PROYECTO DE LEY
-
-**LEY DE ETIQUETADO DE REPARABILIDAD DE TELÉFONOS CELULARES, EQUIPOS INFORMÁTICOS Y ELECTRODOMÉSTICOS**
-
-El Senado y la Cámara de Diputados de la Nación Argentina, reunidos en Congreso, sancionan con fuerza de
-
-**LEY:**
-
-**ARTÍCULO 1º — Objeto.** La presente ley tiene por objeto garantizar el derecho de los consumidores y usuarias a una información cierta, clara y detallada sobre la aptitud para ser reparados de los productos que se comercialicen en el territorio nacional, mediante la creación del Índice de Reparabilidad y de la Etiqueta de Reparabilidad de exhibición obligatoria, con el fin de promover la extensión de la vida útil de los bienes, la reducción de la generación de residuos de aparatos eléctricos y electrónicos, el fortalecimiento del sector nacional de servicios técnicos de reparación y el uso eficiente de los recursos.
-
-**ARTÍCULO 2º — Ámbito de aplicación.** Quedan comprendidos en la presente ley los productos nuevos, fabricados en el país o importados, destinados a su comercialización a consumidores finales, pertenecientes a las siguientes categorías:
-
-a) Teléfonos celulares inteligentes y tabletas;
-
-b) Computadoras portátiles, computadoras de escritorio, monitores e impresoras de uso doméstico;
-
-c) Televisores;
-
-d) Heladeras, freezers, lavarropas, lavavajillas, secarropas, cocinas, hornos, hornos de microondas y equipos de aire acondicionado;
-
-e) Aspiradoras, hidrolavadoras y herramientas eléctricas de uso doméstico.
-
-La autoridad de aplicación podrá incorporar progresivamente otras categorías de aparatos eléctricos y electrónicos, previa consulta pública. Quedan excluidos los productos usados, reacondicionados, los productos médicos y los bienes de uso exclusivamente industrial o profesional, sin perjuicio de su etiquetado voluntario conforme la reglamentación.
-
-**ARTÍCULO 3º — Definiciones.** A los efectos de la presente ley se entiende por:
-
-a) **Reparabilidad:** aptitud de un producto para ser diagnosticado, desarmado, reparado o actualizado, total o parcialmente, con restitución de su funcionalidad original, sin requerir conocimientos, herramientas o insumos inaccesibles para un servicio técnico independiente.
-
-b) **Índice de Reparabilidad:** puntaje comparable, expresado de cero (0) a diez (10) con un decimal, que resulta de la aplicación de la metodología establecida en el artículo 4º.
-
-c) **Etiqueta de Reparabilidad:** soporte gráfico normalizado que comunica al consumidor el Índice de Reparabilidad del producto.
-
-d) **Repuesto:** pieza, componente o subconjunto destinado a sustituir una parte del producto para restablecer su funcionamiento.
-
-e) **Sujetos obligados:** fabricantes, importadores y quienes coloquen su marca en los productos alcanzados; y, en lo relativo a la exhibición, los distribuidores y comerciantes minoristas, incluidos los que operen por medios electrónicos.
-
-f) **Reparador independiente:** persona humana o jurídica que presta servicios de reparación sin vínculo contractual de autorización con el fabricante o importador.
-
-**ARTÍCULO 4º — Índice de Reparabilidad.** La autoridad de aplicación aprobará, por categoría de producto, la metodología de cálculo del Índice de Reparabilidad, que deberá ponderar, como mínimo, los siguientes criterios:
-
-a) Disponibilidad gratuita y pública de documentación técnica, manuales de despiece, diagramas y procedimientos de diagnóstico y reparación;
-
-b) Facilidad de desarme y rearme, considerando el tipo de uniones y fijaciones, la cantidad de pasos y operaciones necesarios para acceder a las piezas de desgaste o falla más frecuente y el riesgo de daño irreversible;
-
-c) Plazo de entrega y período de disponibilidad de repuestos, que no podrá ser inferior a los términos que fije la reglamentación para cada categoría;
-
-d) Precio de los repuestos de falla más frecuente, en relación con el precio de venta del producto;
-
-e) Herramientas requeridas, disponibilidad de insumos y ausencia de restricciones técnicas, contractuales o de software que impidan o penalicen la reparación por reparadores independientes o por el propio usuario;
-
-f) Plazo comprometido de provisión de actualizaciones de seguridad y de sistema operativo, y posibilidad de reinstalación del software, cuando corresponda.
-
-La metodología, los formularios y los resultados serán de acceso público y gratuito en un sitio web oficial, en formato de datos abiertos.
-
-**ARTÍCULO 5º — Etiqueta de Reparabilidad.** Los productos alcanzados deberán exhibir, en el punto de venta y en su embalaje, una Etiqueta de Reparabilidad visible, legible e indeleble, redactada en idioma castellano, que contenga el Índice de Reparabilidad, una escala cromática comparativa, la identificación del producto y un código de respuesta rápida (QR) de acceso a la información técnica que respalda el puntaje, al listado y precio de repuestos y a los plazos de disponibilidad.
-
-En la comercialización a distancia o por medios electrónicos, el Índice de Reparabilidad y el enlace a dicha información deberán exhibirse en forma destacada, junto al precio, en la página de descripción del producto. En la publicidad que consigne precio deberá informarse el Índice de Reparabilidad. Se prohíbe la utilización del índice o de expresiones equivalentes en forma engañosa o sin sustento documental.
-
-**ARTÍCULO 6º — Obligaciones de los sujetos obligados.** Los fabricantes, importadores y titulares de marca deberán: a) calcular y declarar el Índice de Reparabilidad de cada modelo mediante declaración jurada, con el respaldo documental correspondiente, antes de su primera comercialización; b) inscribir cada modelo y su índice en el Registro Nacional de Reparabilidad; c) actualizar la declaración ante toda modificación del producto, de los precios de repuestos o de los plazos de provisión; d) proveer las etiquetas a los comerciantes; e) conservar la documentación técnica por cinco (5) años desde el cese de comercialización del modelo y ponerla a disposición de la autoridad. Los distribuidores y comerciantes minoristas son responsables de la correcta exhibición de la etiqueta y de la información prevista en el artículo 5º.
-
-**ARTÍCULO 7º — Autoridad de aplicación.** Es autoridad de aplicación la Secretaría de Industria y Comercio de la Nación, o el organismo que en el futuro la reemplace, con intervención de la autoridad nacional de aplicación de la Ley 24.240 en materia de defensa del consumidor. Son sus funciones: aprobar y actualizar las metodologías y el diseño de la etiqueta; crear y administrar el Registro Nacional de Reparabilidad; verificar la veracidad de las declaraciones, por sí o mediante convenios con el Instituto Nacional de Tecnología Industrial (INTI), universidades nacionales y organismos técnicos; ordenar la rectificación de índices mal declarados y su publicación; fiscalizar y sancionar; promover la capacitación de reparadores y la difusión pública del índice; y convocar a un espacio de consulta permanente con cámaras empresarias, asociaciones de consumidores, cooperativas y organizaciones de reparadores. Se invita a las provincias y a la Ciudad Autónoma de Buenos Aires a adherir a la presente ley y a ejercer facultades concurrentes de verificación en su jurisdicción.
-
-**ARTÍCULO 8º — Sanciones.** Las infracciones a la presente ley serán sancionadas conforme el régimen previsto en el Decreto 274/2019 de Lealtad Comercial y, cuando medie afectación a los derechos de consumidores, conforme la Ley 24.240, sin perjuicio de las acciones que correspondan. La autoridad de aplicación podrá disponer, además, el cese preventivo de la comercialización del modelo hasta la regularización, la publicación de la resolución sancionatoria a cargo del infractor y la exclusión del modelo del Registro. La declaración de un índice sustancialmente superior al que corresponda constituye práctica engañosa y será considerada agravante.
-
-**ARTÍCULO 9º — Financiamiento, reglamentación y vigencia.** Los gastos que demande la aplicación de la presente ley se atenderán con los recursos que anualmente asigne la Ley de Presupuesto General de la Administración Nacional y con el arancel de inscripción y actualización del Registro Nacional de Reparabilidad que fije la reglamentación, cuyo producido se afectará exclusivamente a las tareas de verificación, ensayo y difusión. El Poder Ejecutivo reglamentará la presente ley dentro de los ciento ochenta (180) días de su publicación. Las obligaciones de los artículos 5º y 6º serán exigibles a los doce (12) meses de la publicación de la reglamentación para los productos de los incisos a) y b) del artículo 2º, y a los dieciocho (18) meses para las restantes categorías.
-
-**ARTÍCULO 10 — Comuníquese al Poder Ejecutivo.**
-
----
-
-**FUNDAMENTOS**
-
-Señor presidente:
-
-Cualquier persona que haya intentado arreglar un celular con la pantalla rota, un lavarropas que dejó de centrifugar o una notebook con la batería agotada conoce la escena: el service dice que "no conviene", que el repuesto "no viene", que la pieza "viene pegada" o que el módulo completo cuesta más que un equipo nuevo. Lo que era un arreglo de rutina se convirtió en una decisión de compra. El resultes un costo que pagan los hogares y un aparato que termina en la basura, muchas veces con la mayor parte de sus componentes en perfecto estado.
-
-Ese desenlace no es un accidente: en buena medida es una decisión de diseño. Uniones pegadas en lugar de tornillos, baterías inaccesibles, componentes serializados que el software rechaza si no los instala un taller autorizado, manuales técnicos reservados, repuestos que se discontinúan a los dos años. Frente a ello, este proyecto no prohíbe ni impone diseños: elige el camino menos intrusivo y más eficaz de la información. Si el consumidor puede comparar, al momento de decidir, cuán reparable es cada producto, la reparabilidad pasa a ser un atributo que compite, como hoy compiten el precio, la memoria o la eficiencia energética.
-
-El antecedente nacional más claro es el etiquetado de eficiencia energética. Cuando la letra y los colores llegaron a la góndola, la oferta se corrió hacia los equipos más eficientes sin necesidad de vedar modelos. La experiencia comparada confirma el mecanismo: Francia implementó en 2021 su *indice de réparabilité* para celulares, notebooks, lavarropas, televisores y otros productos, y registró mejoras medibles en los puntajes declarados por las propias marcas en pocos años; la Unión Europea avanzó con el diseño ecológico, la disponibilidad obligatoria de repuestos y la incorporación de información de reparación en la etiqueta energética; y en Estados Unidos, estados como Nueva York, Minnesota, California y Colorado sancionaron leyes de derecho a reparar que obligan a poner documentación, repuestos y herramientas a disposición de talleres independientes. La discusión no es ideológica: es una tendencia regulatoria global que la Argentina no debería mirar desde afuera.
-
-Los fundamentos constitucionales son directos. El artículo 42 de la Constitución Nacional reconoce a consumidores y usuarios el derecho a la protección de sus intereses económicos y a "una información adecuada y veraz", y el artículo 41 consagra el derecho a un ambiente sano y el deber de utilizar racionalmente los recursos naturales. La Ley 24.240 ya obliga a informar las características esenciales de los bienes y a proveer repuestos durante la vida útil del producto; la práctica muestra que, sin un indicador estandarizado, comparable y exhibido antes de la compra, esa obligación se diluye. El Índice de Reparabilidad traduce un derecho vigente a un dato concreto en la góndola y en la pantalla del comercio electrónico.
-
-La dimensión ambiental es de magnitud. Los residuos de aparatos eléctricos y electrónicos constituyen el flujo de residuos que crece más rápido en el mundo, con más de cincuenta millones de toneladas anuales y tasas de reciclado formal inferiores al veinticinco por ciento. La región latinoamericana genera del orden de los diez kilogramos por habitante por año y la Argentina se ubica entre los mayores generadores del subcontinente, con una fracción reciclada formalmente marginal. Cada mes de vida útil adicional evita extracción minera, consumo de agua y energía, y emisiones asociadas a la fabricación, que concentra la mayor parte de la huella ambiental de un celular o una notebook. Extender la vida útil es la política ambiental más barata disponible: no requiere nueva infraestructura, sólo remover los obstáculos que hoy empujan al descarte.
-
-La dimensión productiva y social no es menor. La reparación es intensiva en trabajo local y territorialmente distribuida: miles de pequeños talleres, cooperativas, técnicos matriculados y emprendimientos barriales en todo el país viven de arreglar lo que otros descartan. Cada reparación que no se hace por falta de repuesto o de información es empleo que no se genera aquí y divisas que se destinan a importar un producto terminado en lugar de una pieza. Un mercado con reglas claras de disponibilidad de repuestos y documentación técnica fortalece a ese sector, mejora la calidad del servicio y amplía la oferta de equipos reacondicionados, que es la puerta de acceso a la tecnología para los hogares de menores ingresos.
-
-El proyecto fue diseñado buscando proporcionalidad y previsibilidad. Adopta una escala de cero a diez, intuitiva y comparable, con criterios objetivos: documentación, desarmabilidad, disponibilidad y precio de repuestos, herramientas e inexistencia de bloqueos de software, y compromiso de actualizaciones. Utiliza el sistema de declaración jurada con respaldo documental y verificación estatal por muestreo —con posibilidad de convenios con el INTI y universidades nacionales—, de modo de no crear una nueva barrera burocrática previa. Encomienda la aplicación a la Secretaría de Industria y Comercio junto a la autoridad de consumo, sin crear organismos nuevos. Remite el régimen sancionatorio a las leyes vigentes de lealtad comercial y defensa del consumidor, con especial severidad frente a la declaración de índices falsos, que es lisa y llanamente publicidad engañosa. Prevé un financiamiento acotado con partidas presupuestarias y un arancel de registro afectado a la verificación. Y establece una implementación escalonada, con ciento ochenta días de reglamentación y plazos de doce y dieciocho meses según categoría, para que fabricantes e importadores adecuen embalajes, catálogos y cadenas de repuestos sin sobresaltos.
-
-En síntesis, se trata de devolverle al consumidor una información que hoy se le niega y de reconocer que un producto que se puede arreglar vale más —para el bolsillo, para el trabajo nacional y para el ambiente— que uno diseñado para ser reemplazado. Por las razones expuestas, solicito a mis pares el acompañamiento del presente proyecto de ley.
-
-
----
-
-## Texto H
-
-**PROYECTO DE LEY**
-
-**LEY DE ETIQUETADO DE REPARABILIDAD DE APARATOS ELÉCTRICOS Y ELECTRÓNICOS**
-
-El Senado y Cámara de Diputados de la Nación Argentina, reunidos en Congreso, etc., sancionan con fuerza de
-
-**LEY:**
-
-**ARTÍCULO 1°.- Objeto.** La presente ley tiene por objeto garantizar el derecho de las personas consumidoras a recibir información clara, veraz y comparable sobre la facilidad de reparación de los aparatos eléctricos y electrónicos que se comercializan en el territorio nacional, mediante la exhibición obligatoria de una etiqueta de reparabilidad, con el fin de promover la extensión de la vida útil de los productos, la reducción de residuos y el desarrollo de la actividad de reparación.
-
-**ARTÍCULO 2°.- Ámbito de aplicación.** Quedan alcanzados por esta ley los siguientes productos nuevos que se ofrezcan a la venta a consumidores finales, por cualquier canal, incluido el comercio electrónico:
-a) Teléfonos celulares y tabletas;
-b) Computadoras portátiles y de escritorio, y sus monitores;
-c) Televisores;
-d) Heladeras, freezers, lavarropas, secarropas, lavavajillas, cocinas, hornos y microondas;
-e) Equipos de aire acondicionado;
-f) Aspiradoras y pequeños electrodomésticos de uso doméstico que determine la reglamentación.
-La autoridad de aplicación podrá incorporar otras categorías de productos, atendiendo a su volumen de ventas, su impacto ambiental y la existencia de criterios técnicos que permitan evaluar su reparabilidad.
-
-**ARTÍCULO 3°.- Definiciones.** A los efectos de esta ley se entiende por:
-a) Reparabilidad: la aptitud de un producto para que sus fallas o el desgaste de sus componentes sean corregidos, restableciendo su funcionalidad original, de manera segura y a un costo razonable;
-b) Índice de reparabilidad: la calificación numérica que expresa el grado de reparabilidad de un producto, calculada conforme al método establecido en el artículo 4°;
-c) Etiqueta de reparabilidad: el signo gráfico normalizado que comunica el índice de reparabilidad al público;
-d) Repuesto: toda pieza o componente destinado a sustituir a otro en un producto, a fin de restablecer o mantener su funcionamiento;
-e) Sujetos obligados: los fabricantes, importadores y comercializadores de los productos alcanzados, así como los titulares de plataformas de comercio electrónico respecto de las ofertas que publiquen.
-
-**ARTÍCULO 4°.- Índice de reparabilidad.** El índice de reparabilidad se expresará en una escala de CERO (0) a DIEZ (10), con un decimal, y resultará de la ponderación de los siguientes criterios:
-a) Disponibilidad y accesibilidad de la documentación técnica y de los manuales de reparación para consumidores y talleres independientes;
-b) Facilidad de desmontaje, considerando el número de pasos, el tipo de herramientas requeridas y el uso de fijaciones removibles y reversibles;
-c) Disponibilidad de repuestos, considerando el plazo durante el cual el fabricante o importador se compromete a proveerlos y el tiempo de entrega;
-d) Precio de los repuestos en relación con el precio del producto;
-e) Criterios específicos de la categoría, incluyendo la provisión de actualizaciones de software y la ausencia de restricciones técnicas que impidan la reparación por terceros o la utilización de repuestos compatibles.
-La autoridad de aplicación aprobará, con la asistencia técnica del Instituto Nacional de Tecnología Industrial (INTI), el protocolo de cálculo para cada categoría, sus factores de ponderación y las grillas de evaluación, y los revisará periódicamente conforme a la evolución tecnológica y a las normas internacionales de referencia.
-
-**ARTÍCULO 5°.- Etiqueta.** La etiqueta de reparabilidad deberá:
-a) Exhibirse de modo visible, legible e indeleble en el producto o en su envase, y en el lugar de exposición para la venta;
-b) En la comercialización a distancia y en plataformas de comercio electrónico, mostrarse junto al precio y en las mismas condiciones de visibilidad que éste, antes de la conclusión de la operación;
-c) Informar el índice de reparabilidad mediante un número y un código cromático de fácil comprensión, y remitir mediante un enlace o código de respuesta rápida al detalle de la puntuación obtenida en cada criterio;
-d) Incluirse en la documentación que acompaña al producto y en toda publicidad que mencione el índice.
-La reglamentación establecerá el diseño único, dimensiones mínimas y demás características gráficas de la etiqueta, que no podrá ser modificada por los sujetos obligados.
-
-**ARTÍCULO 6°.- Obligaciones de los sujetos.** Los fabricantes e importadores deberán calcular el índice de cada modelo que comercialicen conforme al protocolo aplicable, declararlo ante la autoridad de aplicación en forma previa a su puesta en el mercado, conservar la documentación que lo respalde por un plazo no menor a CINCO (5) años y ponerla a disposición de la autoridad cuando ésta lo requiera. Serán responsables de la veracidad de la información declarada. Los comercializadores y las plataformas de comercio electrónico deberán exhibir la etiqueta en las condiciones del artículo 5° y abstenerse de ofrecer productos alcanzados que carezcan de ella. La autoridad de aplicación llevará un registro público, de acceso libre y gratuito, con los índices declarados y su desagregación por criterio.
-
-**ARTÍCULO 7°.- Autoridad de aplicación.** Será autoridad de aplicación de la presente ley la Secretaría de Comercio, o el organismo que en el futuro la reemplace, en su carácter de autoridad nacional de aplicación de la Ley N° 24.240 de Defensa del Consumidor. Tendrá facultades para dictar las normas complementarias, aprobar los protocolos de cálculo, fiscalizar el cumplimiento, realizar verificaciones de los índices declarados por sí o a través del INTI y de entidades acreditadas, ordenar la rectificación o el retiro de etiquetas inexactas y aplicar las sanciones previstas. Actuará en coordinación con la autoridad nacional en materia ambiental y con las autoridades locales de defensa del consumidor.
-
-**ARTÍCULO 8°.- Sanciones.** El incumplimiento de las obligaciones establecidas en esta ley será sancionado conforme al régimen, procedimiento y escala previstos en la Ley N° 24.240 y sus modificatorias, sin perjuicio de las que correspondan por aplicación del régimen de Lealtad Comercial. La declaración de un índice de reparabilidad superior al que corresponde conforme al protocolo aplicable, o la omisión de información relevante para su cálculo, constituye publicidad engañosa y será considerada agravante a los fines de la graduación de la sanción. La autoridad de aplicación publicará las sanciones firmes en el registro previsto en el artículo 6°.
-
-**ARTÍCULO 9°.- Financiamiento, reglamentación y vigencia.** Los gastos que demande el cumplimiento de la presente ley se atenderán con las partidas presupuestarias asignadas a la autoridad de aplicación y al INTI, a cuyo efecto el Poder Ejecutivo realizará las adecuaciones necesarias. El cálculo y la declaración del índice estarán a cargo y costo de los fabricantes e importadores, no pudiendo la autoridad de aplicación establecer aranceles para su registro. El Poder Ejecutivo reglamentará esta ley dentro de los CIENTO OCHENTA (180) días de su publicación. Las obligaciones de etiquetado serán exigibles a los DOCE (12) meses de la publicación de la reglamentación para los productos de los incisos a), b) y c) del artículo 2°, y a los VEINTICUATRO (24) meses para los restantes. Los productos ingresados al mercado con anterioridad a dichos plazos podrán comercializarse sin etiqueta hasta agotar existencias, por un plazo máximo de DOCE (12) meses adicionales.
-
-**ARTÍCULO 10.- Comuníquese al Poder Ejecutivo.**
-
----
-
-**FUNDAMENTOS**
-
-Señor Presidente:
-
-El presente proyecto propone crear una etiqueta obligatoria de reparabilidad para celulares, computadoras y electrodomésticos, de modo que quien compra un aparato sepa, antes de pagar, qué tan fácil o difícil será repararlo cuando falle. Se trata de una herramienta sencilla, de bajo costo fiscal y probada en otras jurisdicciones, que ataca a la vez un problema de consumo, un problema ambiental y un problema productivo.
-
-El punto de partida es el artículo 42 de la Constitución Nacional, que reconoce a los consumidores el derecho a una información adecuada y veraz y a la protección de sus intereses económicos, y manda a las autoridades proveer a la educación para el consumo. La Ley N° 24.240 desarrolla ese mandato en su artículo 4°, pero hoy la información sobre durabilidad y reparación es prácticamente inexistente en el punto de venta. El consumidor conoce el precio, la marca y a veces la eficiencia energética; no sabe si la batería está pegada al chasis, si el fabricante venderá repuestos dentro de tres años ni si un técnico de barrio podrá abrir el equipo sin destruirlo. Esa asimetría de información beneficia a los productos diseñados para descartarse y perjudica a los que están hechos para durar, porque ambos se exhiben con la misma apariencia en la góndola.
-
-La segunda dimensión es ambiental y se apoya en el artículo 41 de la Constitución y en la Ley General del Ambiente N° 25.675. Los residuos de aparatos eléctricos y electrónicos son la corriente de residuos de mayor crecimiento en el mundo y en la Argentina se generan cientos de miles de toneladas por año, con una proporción mínima de recuperación formal. Cada aparato que se repara en lugar de reemplazarse evita la extracción de minerales, el consumo de energía en la fabricación y el transporte, y la disposición de sustancias peligrosas. La forma más eficaz de gestionar un residuo es no generarlo, y la reparación es el primer eslabón de esa jerarquía.
-
-La tercera dimensión es económica. La Argentina tiene una larga tradición de oficios de reparación: talleres de electrónica, servicios técnicos independientes, reparadores de línea blanca. Esa actividad, intensiva en trabajo calificado y de arraigo local, se ve amenazada por diseños que impiden el acceso a los componentes, por la negativa a proveer manuales y repuestos y por bloqueos de software que rechazan piezas de terceros. Premiar en el punto de venta a los productos reparables es también sostener empleo y ahorro para las familias, que en un contexto de ingresos ajustados necesitan que sus aparatos duren más.
-
-El antecedente más directo es el índice de reparabilidad vigente en Francia desde 2021, que califica de cero a diez a celulares, notebooks, televisores, lavarropas y otros productos sobre la base de cinco criterios: documentación, desmontaje, disponibilidad de repuestos, precio de repuestos y criterios específicos. La experiencia mostró que los fabricantes reaccionaron rápidamente mejorando el diseño de sus productos para no quedar mal posicionados frente a la competencia, y que el público adoptó la etiqueta como criterio de compra. La Unión Europea avanzó luego con una directiva sobre el derecho a reparar y con requisitos de ecodiseño que incorporan la reparabilidad como parámetro. El proyecto toma esos criterios, que ya son conocidos por las empresas que operan en nuestro mercado, para evitar costos de adaptación innecesarios.
-
-En cuanto al diseño institucional, se designa como autoridad de aplicación a la Secretaría de Comercio, por ser la autoridad nacional de la Ley de Defensa del Consumidor y tener experiencia en regímenes de etiquetado, con la asistencia técnica del INTI para la elaboración de los protocolos de cálculo. Se opta por un esquema de autodeclaración con verificación posterior y registro público, que es el mismo que rige en materia de eficiencia energética y que permite un control eficaz sin crear una estructura burocrática nueva ni cobrar aranceles que se trasladen al precio. El costo del cálculo recae en quien pone el producto en el mercado, que es quien tiene la información.
-
-El régimen sancionatorio remite a la Ley N° 24.240 y al de Lealtad Comercial, para no multiplicar procedimientos, y califica expresamente la declaración de un índice inflado como publicidad engañosa. Los plazos de entrada en vigencia son escalonados: un año para celulares, computadoras y televisores, cuyos fabricantes ya calculan estos índices para otros mercados, y dos años para línea blanca, con un período de agotamiento de existencias para no perjudicar a los comercios.
-
-Finalmente, el proyecto se limita deliberadamente a la obligación de informar. No impone diseños ni prohíbe productos; confía en que un consumidor informado y un mercado transparente orientarán la oferta hacia aparatos más duraderos. Es un primer paso, compatible con futuras normas sobre disponibilidad de repuestos y garantías extendidas, que puede aplicarse de inmediato con las instituciones existentes.
-
-Por las razones expuestas, solicito a mis pares la aprobación del presente proyecto de ley.
-
-
----
-
-## Texto I
 
 PROYECTO DE LEY
 
@@ -770,7 +460,7 @@ Por los motivos expuestos, solicito a mis pares la aprobación del presente proy
 
 ---
 
-## Texto J
+## Texto F
 
 PROYECTO DE LEY
 
@@ -899,7 +589,264 @@ Por las razones expuestas, solicito a mis pares la aprobación del presente proy
 
 ---
 
-## Texto K
+## Texto G
+
+**PROYECTO DE LEY**
+
+**LEY DE ETIQUETADO DE REPARABILIDAD DE APARATOS ELÉCTRICOS Y ELECTRÓNICOS**
+
+El Senado y Cámara de Diputados de la Nación Argentina, reunidos en Congreso, etc., sancionan con fuerza de
+
+**LEY:**
+
+**ARTÍCULO 1°.- Objeto.** La presente ley tiene por objeto garantizar el derecho de las personas consumidoras a recibir información clara, veraz y comparable sobre la facilidad de reparación de los aparatos eléctricos y electrónicos que se comercializan en el territorio nacional, mediante la exhibición obligatoria de una etiqueta de reparabilidad, con el fin de promover la extensión de la vida útil de los productos, la reducción de residuos y el desarrollo de la actividad de reparación.
+
+**ARTÍCULO 2°.- Ámbito de aplicación.** Quedan alcanzados por esta ley los siguientes productos nuevos que se ofrezcan a la venta a consumidores finales, por cualquier canal, incluido el comercio electrónico:
+a) Teléfonos celulares y tabletas;
+b) Computadoras portátiles y de escritorio, y sus monitores;
+c) Televisores;
+d) Heladeras, freezers, lavarropas, secarropas, lavavajillas, cocinas, hornos y microondas;
+e) Equipos de aire acondicionado;
+f) Aspiradoras y pequeños electrodomésticos de uso doméstico que determine la reglamentación.
+La autoridad de aplicación podrá incorporar otras categorías de productos, atendiendo a su volumen de ventas, su impacto ambiental y la existencia de criterios técnicos que permitan evaluar su reparabilidad.
+
+**ARTÍCULO 3°.- Definiciones.** A los efectos de esta ley se entiende por:
+a) Reparabilidad: la aptitud de un producto para que sus fallas o el desgaste de sus componentes sean corregidos, restableciendo su funcionalidad original, de manera segura y a un costo razonable;
+b) Índice de reparabilidad: la calificación numérica que expresa el grado de reparabilidad de un producto, calculada conforme al método establecido en el artículo 4°;
+c) Etiqueta de reparabilidad: el signo gráfico normalizado que comunica el índice de reparabilidad al público;
+d) Repuesto: toda pieza o componente destinado a sustituir a otro en un producto, a fin de restablecer o mantener su funcionamiento;
+e) Sujetos obligados: los fabricantes, importadores y comercializadores de los productos alcanzados, así como los titulares de plataformas de comercio electrónico respecto de las ofertas que publiquen.
+
+**ARTÍCULO 4°.- Índice de reparabilidad.** El índice de reparabilidad se expresará en una escala de CERO (0) a DIEZ (10), con un decimal, y resultará de la ponderación de los siguientes criterios:
+a) Disponibilidad y accesibilidad de la documentación técnica y de los manuales de reparación para consumidores y talleres independientes;
+b) Facilidad de desmontaje, considerando el número de pasos, el tipo de herramientas requeridas y el uso de fijaciones removibles y reversibles;
+c) Disponibilidad de repuestos, considerando el plazo durante el cual el fabricante o importador se compromete a proveerlos y el tiempo de entrega;
+d) Precio de los repuestos en relación con el precio del producto;
+e) Criterios específicos de la categoría, incluyendo la provisión de actualizaciones de software y la ausencia de restricciones técnicas que impidan la reparación por terceros o la utilización de repuestos compatibles.
+La autoridad de aplicación aprobará, con la asistencia técnica del Instituto Nacional de Tecnología Industrial (INTI), el protocolo de cálculo para cada categoría, sus factores de ponderación y las grillas de evaluación, y los revisará periódicamente conforme a la evolución tecnológica y a las normas internacionales de referencia.
+
+**ARTÍCULO 5°.- Etiqueta.** La etiqueta de reparabilidad deberá:
+a) Exhibirse de modo visible, legible e indeleble en el producto o en su envase, y en el lugar de exposición para la venta;
+b) En la comercialización a distancia y en plataformas de comercio electrónico, mostrarse junto al precio y en las mismas condiciones de visibilidad que éste, antes de la conclusión de la operación;
+c) Informar el índice de reparabilidad mediante un número y un código cromático de fácil comprensión, y remitir mediante un enlace o código de respuesta rápida al detalle de la puntuación obtenida en cada criterio;
+d) Incluirse en la documentación que acompaña al producto y en toda publicidad que mencione el índice.
+La reglamentación establecerá el diseño único, dimensiones mínimas y demás características gráficas de la etiqueta, que no podrá ser modificada por los sujetos obligados.
+
+**ARTÍCULO 6°.- Obligaciones de los sujetos.** Los fabricantes e importadores deberán calcular el índice de cada modelo que comercialicen conforme al protocolo aplicable, declararlo ante la autoridad de aplicación en forma previa a su puesta en el mercado, conservar la documentación que lo respalde por un plazo no menor a CINCO (5) años y ponerla a disposición de la autoridad cuando ésta lo requiera. Serán responsables de la veracidad de la información declarada. Los comercializadores y las plataformas de comercio electrónico deberán exhibir la etiqueta en las condiciones del artículo 5° y abstenerse de ofrecer productos alcanzados que carezcan de ella. La autoridad de aplicación llevará un registro público, de acceso libre y gratuito, con los índices declarados y su desagregación por criterio.
+
+**ARTÍCULO 7°.- Autoridad de aplicación.** Será autoridad de aplicación de la presente ley la Secretaría de Comercio, o el organismo que en el futuro la reemplace, en su carácter de autoridad nacional de aplicación de la Ley N° 24.240 de Defensa del Consumidor. Tendrá facultades para dictar las normas complementarias, aprobar los protocolos de cálculo, fiscalizar el cumplimiento, realizar verificaciones de los índices declarados por sí o a través del INTI y de entidades acreditadas, ordenar la rectificación o el retiro de etiquetas inexactas y aplicar las sanciones previstas. Actuará en coordinación con la autoridad nacional en materia ambiental y con las autoridades locales de defensa del consumidor.
+
+**ARTÍCULO 8°.- Sanciones.** El incumplimiento de las obligaciones establecidas en esta ley será sancionado conforme al régimen, procedimiento y escala previstos en la Ley N° 24.240 y sus modificatorias, sin perjuicio de las que correspondan por aplicación del régimen de Lealtad Comercial. La declaración de un índice de reparabilidad superior al que corresponde conforme al protocolo aplicable, o la omisión de información relevante para su cálculo, constituye publicidad engañosa y será considerada agravante a los fines de la graduación de la sanción. La autoridad de aplicación publicará las sanciones firmes en el registro previsto en el artículo 6°.
+
+**ARTÍCULO 9°.- Financiamiento, reglamentación y vigencia.** Los gastos que demande el cumplimiento de la presente ley se atenderán con las partidas presupuestarias asignadas a la autoridad de aplicación y al INTI, a cuyo efecto el Poder Ejecutivo realizará las adecuaciones necesarias. El cálculo y la declaración del índice estarán a cargo y costo de los fabricantes e importadores, no pudiendo la autoridad de aplicación establecer aranceles para su registro. El Poder Ejecutivo reglamentará esta ley dentro de los CIENTO OCHENTA (180) días de su publicación. Las obligaciones de etiquetado serán exigibles a los DOCE (12) meses de la publicación de la reglamentación para los productos de los incisos a), b) y c) del artículo 2°, y a los VEINTICUATRO (24) meses para los restantes. Los productos ingresados al mercado con anterioridad a dichos plazos podrán comercializarse sin etiqueta hasta agotar existencias, por un plazo máximo de DOCE (12) meses adicionales.
+
+**ARTÍCULO 10.- Comuníquese al Poder Ejecutivo.**
+
+---
+
+**FUNDAMENTOS**
+
+Señor Presidente:
+
+El presente proyecto propone crear una etiqueta obligatoria de reparabilidad para celulares, computadoras y electrodomésticos, de modo que quien compra un aparato sepa, antes de pagar, qué tan fácil o difícil será repararlo cuando falle. Se trata de una herramienta sencilla, de bajo costo fiscal y probada en otras jurisdicciones, que ataca a la vez un problema de consumo, un problema ambiental y un problema productivo.
+
+El punto de partida es el artículo 42 de la Constitución Nacional, que reconoce a los consumidores el derecho a una información adecuada y veraz y a la protección de sus intereses económicos, y manda a las autoridades proveer a la educación para el consumo. La Ley N° 24.240 desarrolla ese mandato en su artículo 4°, pero hoy la información sobre durabilidad y reparación es prácticamente inexistente en el punto de venta. El consumidor conoce el precio, la marca y a veces la eficiencia energética; no sabe si la batería está pegada al chasis, si el fabricante venderá repuestos dentro de tres años ni si un técnico de barrio podrá abrir el equipo sin destruirlo. Esa asimetría de información beneficia a los productos diseñados para descartarse y perjudica a los que están hechos para durar, porque ambos se exhiben con la misma apariencia en la góndola.
+
+La segunda dimensión es ambiental y se apoya en el artículo 41 de la Constitución y en la Ley General del Ambiente N° 25.675. Los residuos de aparatos eléctricos y electrónicos son la corriente de residuos de mayor crecimiento en el mundo y en la Argentina se generan cientos de miles de toneladas por año, con una proporción mínima de recuperación formal. Cada aparato que se repara en lugar de reemplazarse evita la extracción de minerales, el consumo de energía en la fabricación y el transporte, y la disposición de sustancias peligrosas. La forma más eficaz de gestionar un residuo es no generarlo, y la reparación es el primer eslabón de esa jerarquía.
+
+La tercera dimensión es económica. La Argentina tiene una larga tradición de oficios de reparación: talleres de electrónica, servicios técnicos independientes, reparadores de línea blanca. Esa actividad, intensiva en trabajo calificado y de arraigo local, se ve amenazada por diseños que impiden el acceso a los componentes, por la negativa a proveer manuales y repuestos y por bloqueos de software que rechazan piezas de terceros. Premiar en el punto de venta a los productos reparables es también sostener empleo y ahorro para las familias, que en un contexto de ingresos ajustados necesitan que sus aparatos duren más.
+
+El antecedente más directo es el índice de reparabilidad vigente en Francia desde 2021, que califica de cero a diez a celulares, notebooks, televisores, lavarropas y otros productos sobre la base de cinco criterios: documentación, desmontaje, disponibilidad de repuestos, precio de repuestos y criterios específicos. La experiencia mostró que los fabricantes reaccionaron rápidamente mejorando el diseño de sus productos para no quedar mal posicionados frente a la competencia, y que el público adoptó la etiqueta como criterio de compra. La Unión Europea avanzó luego con una directiva sobre el derecho a reparar y con requisitos de ecodiseño que incorporan la reparabilidad como parámetro. El proyecto toma esos criterios, que ya son conocidos por las empresas que operan en nuestro mercado, para evitar costos de adaptación innecesarios.
+
+En cuanto al diseño institucional, se designa como autoridad de aplicación a la Secretaría de Comercio, por ser la autoridad nacional de la Ley de Defensa del Consumidor y tener experiencia en regímenes de etiquetado, con la asistencia técnica del INTI para la elaboración de los protocolos de cálculo. Se opta por un esquema de autodeclaración con verificación posterior y registro público, que es el mismo que rige en materia de eficiencia energética y que permite un control eficaz sin crear una estructura burocrática nueva ni cobrar aranceles que se trasladen al precio. El costo del cálculo recae en quien pone el producto en el mercado, que es quien tiene la información.
+
+El régimen sancionatorio remite a la Ley N° 24.240 y al de Lealtad Comercial, para no multiplicar procedimientos, y califica expresamente la declaración de un índice inflado como publicidad engañosa. Los plazos de entrada en vigencia son escalonados: un año para celulares, computadoras y televisores, cuyos fabricantes ya calculan estos índices para otros mercados, y dos años para línea blanca, con un período de agotamiento de existencias para no perjudicar a los comercios.
+
+Finalmente, el proyecto se limita deliberadamente a la obligación de informar. No impone diseños ni prohíbe productos; confía en que un consumidor informado y un mercado transparente orientarán la oferta hacia aparatos más duraderos. Es un primer paso, compatible con futuras normas sobre disponibilidad de repuestos y garantías extendidas, que puede aplicarse de inmediato con las instituciones existentes.
+
+Por las razones expuestas, solicito a mis pares la aprobación del presente proyecto de ley.
+
+
+---
+
+## Texto H
+
+PROYECTO DE LEY
+
+LEY DE ETIQUETADO DE REPARABILIDAD
+
+El Senado y Cámara de Diputados de la Nación Argentina, reunidos en Congreso, etc. sancionan con fuerza de Ley:
+
+ARTÍCULO 1º.- Objeto y alcance. La presente ley tiene por objeto garantizar el derecho de las personas consumidoras a acceder a información clara, veraz y comparable sobre la facilidad de reparación de los productos que adquieran, mediante la implementación de una etiqueta de reparabilidad. Quedan alcanzados los teléfonos celulares, las computadoras personales, las tabletas y los artefactos electrodomésticos de uso doméstico que se comercialicen como nuevos en el territorio de la República Argentina, conforme lo determine la reglamentación.
+
+ARTÍCULO 2º.- Definiciones. A los efectos de la presente ley se entiende por:
+a) Productos alcanzados: los enumerados en el artículo 1º.
+b) Índice de reparabilidad: la calificación, expresada en una escala de cero (0) a diez (10), que refleja el grado de facilidad con que un producto puede ser reparado, según los criterios establecidos en el artículo 3º.
+c) Fabricante e importador: toda persona humana o jurídica que fabrique, ensamble, importe o introduzca al mercado nacional productos alcanzados.
+d) Comerciante: toda persona humana o jurídica que ofrezca o venda productos alcanzados al consumidor final, en establecimientos físicos o mediante plataformas de comercio electrónico.
+
+ARTÍCULO 3º.- Índice de reparabilidad. El índice de reparabilidad deberá calcularse conforme, como mínimo, los siguientes criterios:
+a) disponibilidad de repuestos, componentes y herramientas necesarias para la reparación;
+b) acceso a manuales de servicio, esquemas y documentación técnica;
+c) diseño orientado al desmontaje y a la sustitución de componentes por personal de reparación no especializado o especialista independiente;
+d) tiempo y complejidad estimados para las operaciones de reparación habituales;
+e) soporte de actualizaciones de software y de seguridad durante la vida útil razonable del producto;
+f) duración de la garantía legal y disponibilidad de garantía extendida.
+La reglamentación establecerá la metodología de ponderación, los procedimientos de verificación y los criterios adicionales por categoría.
+
+ARTÍCULO 4º.- Etiqueta de reparabilidad. Los productos alcanzados deberán exhibir de manera visible, legible e indeleble una etiqueta que contenga, como mínimo:
+a) el índice de reparabilidad en escala de cero (0) a diez (10);
+b) una categoría cualitativa de facilidad de reparación;
+c) un código de respuesta rápida (QR) que remita a información detallada sobre los criterios evaluados y las piezas de recambio disponibles.
+La etiqueta deberá estar en idioma nacional, en el envase del producto, en el producto o en su etiqueta colgante, en la góndola o exhibidor y en toda oferta o publicidad realizada en plataformas de comercio electrónico. La reglamentación establecerá diseño, colores y dimensiones.
+
+ARTÍCULO 5º.- Obligaciones. Los fabricantes e importadores deberán calcular, documentar, actualizar y declarar el índice de reparabilidad de cada producto; poner a disposición de los comerciantes la etiqueta; y conservar los antecedentes técnicos que respalden la calificación. Los comerciantes y las plataformas de comercio electrónico deberán exhibir la etiqueta en los términos del artículo 4º. No podrán omitir, alterar u ocultar la información.
+
+ARTÍCULO 6º.- Autoridad de Aplicación. Será autoridad de aplicación la Secretaría de Industria y Desarrollo Productivo de la Nación o el organismo que en el futuro la reemplace. Tendrá las siguientes funciones:
+a) dictar las normas complementarias y la metodología de cálculo;
+b) fiscalizar el cumplimiento y aplicar sanciones;
+c) publicar los índices de reparabilidad y las guías de reparación;
+d) celebrar convenios con organismos técnicos, universidades, asociaciones de consumidores y organismos provinciales para la verificación y el control.
+
+ARTÍCULO 7º.- Disponibilidad de repuestos y documentación. Los fabricantes e importadores deberán garantizar, durante un plazo no inferior a cinco (5) años contados desde la última unidad comercializada, la disponibilidad de repuestos, componentes, herramientas, manuales de servicio y actualizaciones de seguridad necesarios para la reparación de los productos alcanzados. La reglamentación podrá establecer plazos diferenciados por categoría y excepciones fundadas.
+
+ARTÍCULO 8º.- Sanciones y financiamiento. Las infracciones a la presente ley y sus normas reglamentarias serán sancionadas con:
+a) apercibimiento;
+b) multa de uno (1) a mil (1000) Salarios Mínimos, Vitales y Móviles;
+c) comiso de los productos en infracción;
+d) suspensión de la comercialización del producto infractor por hasta ciento ochenta (180) días;
+e) clausura del establecimiento en caso de reincidencia.
+Las sanciones se aplicarán sin perjuicio de las previstas en las Leyes 24.240 y 22.802, y serán graduadas conforme la gravedad del hecho, el daño causado, la posición en el mercado y la reincidencia. Las sumas percibidas en concepto de multas serán destinadas a la autoridad de aplicación para campañas de información y fiscalización. Los gastos que demande la implementación de la presente ley serán atendidos con los créditos del Presupuesto General de la Administración Nacional.
+
+ARTÍCULO 9º.- Reglamentación y vigencia. El Poder Ejecutivo reglamentará la presente ley dentro de los noventa (90) días corridos de su promulgación. La presente ley entrará en vigencia a los ciento ochenta (180) días corridos de su publicación en el Boletín Oficial.
+
+ARTÍCULO 10º.- Comuníquese al Poder Ejecutivo.
+
+FUNDAMENTOS
+
+El presente proyecto de ley busca incorporar al ordenamiento argentino una herramienta de información ambiental y de defensa del consumidor: la etiqueta de reparabilidad. La facilidad para reparar un producto determina su vida útil, su costo de mantenimiento y su impacto ambiental. Sin embargo, al momento de comprar un teléfono celular, una computadora o un electrodoméstico, el consumidor no cuenta con información confiable y comparable sobre ese atributo. La publicidad destaca prestaciones, diseño o precio, pero silencia cuán difícil o costoso será reparar el aparato cuando falle.
+
+La obsolescencia programada y el diseño no orientado a la reparación acortan artificialmente la vida de los bienes, generan residuos electrónicos y afectan el bolsillo de las familias. Los residuos de aparatos eléctricos y electrónicos constituyen una de las corrientes de desechos de más rápido crecimiento en el mundo, y su gestión inadecuada libera sustancias tóxicas y desperdicia materiales valiosos. Cada producto que se descarta de forma prematura representa, además, la pérdida de la energía y de las materias primas que demandó su fabricación.
+
+La reparación es una estrategia central de la economía circular. Extender la vida útil de los productos reduce la extracción de recursos, la generación de residuos y las emisiones asociadas a la producción. Al mismo tiempo, promueve un entramado de pequeñas y medianas empresas y de técnicos independientes dedicados a la reparación, actividad intensiva en mano de obra y con arraigo local. Sin embargo, ese sector encuentra obstáculos crecientes: falta de repuestos, manuales técnicos inaccesibles, componentes soldados o pegados, baterías no reemplazables y herramientas especiales que los fabricantes no proveen.
+
+La información es un presupuesto para ejercer derechos. La Ley 24.240 reconoce el derecho de los consumidores a una información cierta, clara y detallada. Una etiqueta de reparabilidad permite que quien compra evalúe no solo el precio inicial, sino el costo total de uso y las posibilidades reales de reparación. De ese modo se fortalece la autonomía de la voluntad y se alienta una competencia virtuosa entre los fabricantes: aquellos que diseñen productos más fáciles de reparar podrán diferenciarse y captar a un consumidor cada vez más consciente.
+
+La experiencia comparada avala la medida. Francia implementó en 2021 un índice de reparabilidad para teléfonos móviles, computadoras portátiles, lavarropas, televisores y otros productos, con una escala de cero a diez y criterios públicos. La Unión Europea avanza en la consagración del derecho a reparar, con obligaciones de disponibilidad de repuestos y de información. La Argentina no debe quedar rezagada: corresponde adoptar un instrumento propio, adaptado a nuestro mercado y a las capacidades de fiscalización existentes.
+
+El proyecto es deliberadamente sencillo y de implementación gradual. Establece una etiqueta visible, con un índice numérico, una categoría cualitativa y un código QR que remite a información detallada. Los criterios de cálculo incluyen la disponibilidad de repuestos, el acceso a manuales, el diseño orientado al desmontaje, el tiempo y la complejidad de las reparaciones habituales, el soporte de software y la duración de la garantía. La reglamentación deberá definir la metodología de ponderación y las particularidades de cada categoría de producto.
+
+El proyecto designa como autoridad de aplicación a la Secretaría de Industria y Desarrollo Productivo, por su competencia técnica en materia de producción, normas y comercio, y le asigna funciones de reglamentación, fiscalización, publicación de índices y articulación con universidades, organismos técnicos y asociaciones de consumidores. Se prevén sanciones proporcionales, que van desde el apercibimiento hasta la multa, el comiso y la suspensión de la comercialización, sin perjuicio de las responsabilidades previstas en la Ley de Defensa del Consumidor y en la Ley de Lealtad Comercial.
+
+Se incorpora asimismo una obligación complementaria e indispensable: los fabricantes e importadores deberán garantizar la disponibilidad de repuestos, componentes, herramientas y manuales durante un plazo no inferior a cinco años desde la última unidad comercializada. Esta previsión ataca la causa principal de la irreparabilidad y da contenido material a la etiqueta.
+
+Por último, la norma no crea nuevos organismos ni exige erogaciones significativas: se financia con partidas presupuestarias existentes y con las multas que recaude la autoridad de aplicación. La entrada en vigencia diferida y la reglamentación por parte del Poder Ejecutivo permitirán una transición ordenada para fabricantes, importadores y comerciantes.
+
+En suma, la etiqueta de reparabilidad es una política pública de bajo costo, alto impacto informativo y claros beneficios ambientales, económicos y sociales. Por ello solicito a las señoras y señores legisladores el acompañamiento del presente proyecto.
+
+
+---
+
+## Texto I
+
+# PROYECTO DE LEY
+
+**Etiquetado de Reparabilidad de Productos Electrónicos y Electrodomésticos**
+
+## Artículo 1° — Objeto
+
+La presente ley establece la obligación de exhibir, en forma previa y visible al momento de la comercialización, una etiqueta de reparabilidad en los productos electrónicos y electrodomésticos que se comercialicen en el territorio de la República Argentina, en plaza física y mediante comercio electrónico, a fin de brindar al consumidor información clara, comparable y verificable sobre la facilidad de reparación de dichos productos.
+
+## Artículo 2° — Alcance
+
+Quedan alcanzados por la presente ley los siguientes productos:
+
+a) Teléfonos celulares, teléfonos inteligentes y tabletas;
+b) Computadoras portátiles y de escritorio, monitores y teclados externos;
+c) Electrodomésticos de línea blanca: heladeras, freezers, lavarropas, secarropas, lavavajillas y cocinas;
+d) Electrodomésticos de línea marrón: televisores, monitores de pantalla, equipos de audio y microondas;
+e) Pequeños electrodomésticos: aspiradoras, cafeteras, planchas, secadores de pelo y batidoras;
+f) Aquellos otros que determine la autoridad de aplicación.
+
+## Artículo 3° — Definiciones
+
+A los efectos de la presente ley se entiende por:
+
+a) **Reparabilidad**: la capacidad de un producto de ser reparado, entendida como la facilidad para su desmontaje, diagnóstico, mantenimiento y reemplazo de componentes;
+b) **Índice de reparabilidad**: la calificación numérica, en una escala de uno (1) a diez (10), resultante de la evaluación de los criterios del artículo 4°;
+c) **Etiqueta de reparabilidad**: el sello gráfico normalizado, impreso en el envase o el producto, o exhibido en el sitio de venta en línea, que informe el índice de reparabilidad;
+d) **Productor o importador**: toda persona física o jurídica que fabrique, ensamble, importe o comercialice los productos del artículo 2°, sea en forma propia o por cuenta de terceros.
+
+## Artículo 4° — Criterios de evaluación
+
+El índice de reparabilidad se determinará sobre la base de los siguientes criterios, ponderados según la reglamentación:
+
+a) Desmontaje del producto, tipo y disponibilidad de herramientas requeridas;
+b) Disponibilidad de manuales, documentación técnica y diagramas;
+c) Disponibilidad y precio de repuestos oficiales y compatibles;
+d) Durabilidad y reemplazo de la batería u otros componentes de desgaste;
+e) Acceso a actualizaciones de software y desbloqueo de funciones tras la reparación;
+f) Tiempo estimado de reparación de las fallas más frecuentes.
+
+## Artículo 5° — Autoridad de aplicación
+
+Será autoridad de aplicación de la presente ley el Ministerio de la Nación con competencia en materia de comercio interior, en articulación con la Secretaría de Comercio Interior y el INTI — Instituto Nacional de Tecnología Industrial, que actuará como organismo técnico de evaluación y verificación. Las provincias y la Ciudad Autónoma de Buenos Aires podrán adherir a la presente ley y ejercer el control en sus jurisdicciones, en el marco del Consejo Federal de Comercio Interior.
+
+## Artículo 6° — Obligaciones
+
+Los productores e importadores deberán:
+
+a) Someter cada modelo de producto a la evaluación técnica ante el INTI antes de su comercialización;
+b) Exhibir la etiqueta de reparabilidad en el envase, en el producto y en toda publicación de venta electrónica, con caracteres legibles y en idioma nacional;
+c) Mantener vigente la información técnica y actualizar la evaluación cuando el producto sea rediseñado;
+d) Presentar anualmente un listado de modelos comercializados con sus respectivos índices, que será publicado en un portal público de acceso gratuito.
+
+## Artículo 7° — Sanciones
+
+El incumplimiento de las obligaciones de la presente ley será sancionado conforme el procedimiento y el régimen sancionatorio de la Ley 24.240 de Defensa del Consumidor, pudiéndose aplicar apercibimiento, multa de hasta mil (1.000) veces el valor del producto de que se trate, decomiso, suspensión de la comercialización del modelo y cierre del establecimiento en caso de reincidencia.
+
+## Artículo 8° — Financiamiento
+
+Los gastos que demande la implementación de la presente ley serán atendidos con las partidas presupuestarias que asigne anualmente la Ley de Presupuesto General de la Administración Pública Nacional, y complementados con las tasas que fije la autoridad de aplicación por los servicios de evaluación técnica prestados por el INTI, las que no podrán exceder el costo del servicio.
+
+## Artículo 9° — Reglamentación y vigencia
+
+La presente ley entrará en vigencia a los trescientos sesenta y360) días de su publicación en el Boletín Oficial, plazo dentro del cual el Poder Ejecutivo nacional deberá dictar la reglamentación y el INTI aprobar la metodología de cálculo del índice de reparabilidad y el diseño de la etiqueta.
+
+## Artículo 10° — De forma
+
+Comuníquese al Poder Ejecutivo nacional.
+
+---
+
+# FUNDAMENTOS
+
+**Señor Presidente:**
+
+El presente proyecto tiene por objeto garantizar el derecho de los consumidores a la información, incorporando una herramienta simple y de probada eficacia en otros países: la etiqueta de reparabilidad.
+
+En la Argentina se descartan millones de kilos de residuos de aparatos eléctricos y electrónicos cada año, conocidos como RAEE. Una parte significativa de esos residuos no corresponde a productos que llegaron al fin de su vida útil, sino a aparatos que dejaron de usarse por fallas cuya reparación resultaba difícil, costosa o directamente imposible. Al mismo tiempo, en un contexto de estrechez económica para los hogares, la posibilidad de reparar un celular, una heladera o un lavarropas en lugar de reemplazarlos tiene un impacto directo en el bolsillo de las familias.
+
+El problema no es solo técnico: es de información. Cuando una persona compra un producto, no tiene manera de saber si ese producto podrá repararse fácilmente, si habrá repuestos disponibles, si el desmontaje requerirá herramientas especiales o si el fabricante dificulta el acceso a manuales y diagnósticos. Esta asimetría informativa favorece prácticas de obsolescencia programada y de diseño cerrado, y desplaza hacia el consumidor un costo que podría evitarse.
+
+La experiencia internacional demuestra que el etiquetado funciona. Francia introdujo en 2021 el "indice de réparabilité", un puntaje del 1 al 10 obligatorio para celulares, computadoras portátiles, televisores, lavarropas y otros productos, calculado sobre criterios de documentación, desmontaje, disponibilidad de repuestos, precio de los repuestos y características específicas del producto. Los resultados fueron inmediatos: los fabricantes comenzaron a rediseñar sus productos para mejorar su calificación, en una dinámica de mejora que beneficia directamente al usuario. La Unión Europea, por su parte, ha avanzado en su Reglamento Ecodesign con requisitos de reparabilidad y su directiva de "derecho a reparar", que profundizan esta orientación.
+
+Nuestro país cuenta con antecedentes que avalan esta política. La Ley 24.240 de Defensa del Consumidor consagra en su artículo 4° el derecho a una información veraz, detallada, eficaz y suficiente. La Ley 27.275 de Derecho de Acceso a la Información Pública y, más recientemente, el debate sobre economía circular y gestión de RAEE, muestran una orientación clara del legislador argentino hacia la transparencia y la sustentabilidad. Asimismo, la Ley 25.323 de Lealtad Comercial y el régimen de la Secretaría de Comercio Interior ofrecen la infraestructura institucional de control que este proyecto aprovecha, sin crear nuevos organismos ni burocracia adicional.
+
+La etiqueta de reparabilidad cumple, además, tres funciones simultáneas. Primero, empodera al consumidor, que podrá comparar productos no solo por precio y prestaciones, sino por su costo total de propiedad. Segundo, incentiva a los fabricantes e importadores a diseñar y seleccionar productos más duraderos, porque la información visible influye en la decisión de compra, como lo demuestra el caso francés. Tercero, reduce la generación de residuos electrónicos, que contienen materiales tóxicos y recursos escasos, en línea con los compromisos ambientales asumidos por el país.
+
+Se ha optado por una escala de 1 a 10 y por criterios de evaluación equivalentes a los aplicados en Francia, para facilitar la comparación internacional y permitir que los fabricantes que ya evalúan sus productos para ese mercado reutilicen esa información, reduciendo costos de cumplimiento. Se ha encargado la evaluación técnica al INTI por su trayectoria y capilaridad federal, evitando crear estructuras nuevas. El régimen sancionatorio se apoya en la Ley 24.240, procedimiento ya conocido por las autoridades de aplicación y por los operadores del mercado.
+
+El plazo de vacancia de un año responde a la necesidad de que el INTI desarrolle la metodología, que los importadores gestionen las evaluaciones de sus catálogos y que la reglamentación se elabore con participación de las cámaras empresarias, las organizaciones de consumidores y los talleres de reparación, que son también destinatarios indirectos de esta política: un mercado de reparación más dinámico es generador de empleo local y de oficios.
+
+La medida no impone requisitos técnicos de diseño, no encarece la producción nacional ni desalienta la importación: exige, únicamente, decir la verdad sobre un atributo del producto que hoy permanece oculto. Esa simple transparencia, como ocurrió con el etiquetado nutricional de alimentos, tiene el poder de transformar el mercado más eficazmente que muchas regulaciones complejas.
+
+Por lo expuesto, solicito a mis pares que me acompañen en la aprobación del presente proyecto de ley.
+
+
+---
+
+## Texto J
 
 PROYECTO DE LEY
 
@@ -991,171 +938,7 @@ Por las razones expuestas, y por tratarse de una política razonable, gradual y 
 
 ---
 
-## Texto L
-
-PROYECTO DE LEY
-
-LEY DE ETIQUETADO DE REPARABILIDAD
-
-El Senado y Cámara de Diputados de la Nación Argentina, reunidos en Congreso, etc. sancionan con fuerza de Ley:
-
-ARTÍCULO 1º.- Objeto y alcance. La presente ley tiene por objeto garantizar el derecho de las personas consumidoras a acceder a información clara, veraz y comparable sobre la facilidad de reparación de los productos que adquieran, mediante la implementación de una etiqueta de reparabilidad. Quedan alcanzados los teléfonos celulares, las computadoras personales, las tabletas y los artefactos electrodomésticos de uso doméstico que se comercialicen como nuevos en el territorio de la República Argentina, conforme lo determine la reglamentación.
-
-ARTÍCULO 2º.- Definiciones. A los efectos de la presente ley se entiende por:
-a) Productos alcanzados: los enumerados en el artículo 1º.
-b) Índice de reparabilidad: la calificación, expresada en una escala de cero (0) a diez (10), que refleja el grado de facilidad con que un producto puede ser reparado, según los criterios establecidos en el artículo 3º.
-c) Fabricante e importador: toda persona humana o jurídica que fabrique, ensamble, importe o introduzca al mercado nacional productos alcanzados.
-d) Comerciante: toda persona humana o jurídica que ofrezca o venda productos alcanzados al consumidor final, en establecimientos físicos o mediante plataformas de comercio electrónico.
-
-ARTÍCULO 3º.- Índice de reparabilidad. El índice de reparabilidad deberá calcularse conforme, como mínimo, los siguientes criterios:
-a) disponibilidad de repuestos, componentes y herramientas necesarias para la reparación;
-b) acceso a manuales de servicio, esquemas y documentación técnica;
-c) diseño orientado al desmontaje y a la sustitución de componentes por personal de reparación no especializado o especialista independiente;
-d) tiempo y complejidad estimados para las operaciones de reparación habituales;
-e) soporte de actualizaciones de software y de seguridad durante la vida útil razonable del producto;
-f) duración de la garantía legal y disponibilidad de garantía extendida.
-La reglamentación establecerá la metodología de ponderación, los procedimientos de verificación y los criterios adicionales por categoría.
-
-ARTÍCULO 4º.- Etiqueta de reparabilidad. Los productos alcanzados deberán exhibir de manera visible, legible e indeleble una etiqueta que contenga, como mínimo:
-a) el índice de reparabilidad en escala de cero (0) a diez (10);
-b) una categoría cualitativa de facilidad de reparación;
-c) un código de respuesta rápida (QR) que remita a información detallada sobre los criterios evaluados y las piezas de recambio disponibles.
-La etiqueta deberá estar en idioma nacional, en el envase del producto, en el producto o en su etiqueta colgante, en la góndola o exhibidor y en toda oferta o publicidad realizada en plataformas de comercio electrónico. La reglamentación establecerá diseño, colores y dimensiones.
-
-ARTÍCULO 5º.- Obligaciones. Los fabricantes e importadores deberán calcular, documentar, actualizar y declarar el índice de reparabilidad de cada producto; poner a disposición de los comerciantes la etiqueta; y conservar los antecedentes técnicos que respalden la calificación. Los comerciantes y las plataformas de comercio electrónico deberán exhibir la etiqueta en los términos del artículo 4º. No podrán omitir, alterar u ocultar la información.
-
-ARTÍCULO 6º.- Autoridad de Aplicación. Será autoridad de aplicación la Secretaría de Industria y Desarrollo Productivo de la Nación o el organismo que en el futuro la reemplace. Tendrá las siguientes funciones:
-a) dictar las normas complementarias y la metodología de cálculo;
-b) fiscalizar el cumplimiento y aplicar sanciones;
-c) publicar los índices de reparabilidad y las guías de reparación;
-d) celebrar convenios con organismos técnicos, universidades, asociaciones de consumidores y organismos provinciales para la verificación y el control.
-
-ARTÍCULO 7º.- Disponibilidad de repuestos y documentación. Los fabricantes e importadores deberán garantizar, durante un plazo no inferior a cinco (5) años contados desde la última unidad comercializada, la disponibilidad de repuestos, componentes, herramientas, manuales de servicio y actualizaciones de seguridad necesarios para la reparación de los productos alcanzados. La reglamentación podrá establecer plazos diferenciados por categoría y excepciones fundadas.
-
-ARTÍCULO 8º.- Sanciones y financiamiento. Las infracciones a la presente ley y sus normas reglamentarias serán sancionadas con:
-a) apercibimiento;
-b) multa de uno (1) a mil (1000) Salarios Mínimos, Vitales y Móviles;
-c) comiso de los productos en infracción;
-d) suspensión de la comercialización del producto infractor por hasta ciento ochenta (180) días;
-e) clausura del establecimiento en caso de reincidencia.
-Las sanciones se aplicarán sin perjuicio de las previstas en las Leyes 24.240 y 22.802, y serán graduadas conforme la gravedad del hecho, el daño causado, la posición en el mercado y la reincidencia. Las sumas percibidas en concepto de multas serán destinadas a la autoridad de aplicación para campañas de información y fiscalización. Los gastos que demande la implementación de la presente ley serán atendidos con los créditos del Presupuesto General de la Administración Nacional.
-
-ARTÍCULO 9º.- Reglamentación y vigencia. El Poder Ejecutivo reglamentará la presente ley dentro de los noventa (90) días corridos de su promulgación. La presente ley entrará en vigencia a los ciento ochenta (180) días corridos de su publicación en el Boletín Oficial.
-
-ARTÍCULO 10º.- Comuníquese al Poder Ejecutivo.
-
-FUNDAMENTOS
-
-El presente proyecto de ley busca incorporar al ordenamiento argentino una herramienta de información ambiental y de defensa del consumidor: la etiqueta de reparabilidad. La facilidad para reparar un producto determina su vida útil, su costo de mantenimiento y su impacto ambiental. Sin embargo, al momento de comprar un teléfono celular, una computadora o un electrodoméstico, el consumidor no cuenta con información confiable y comparable sobre ese atributo. La publicidad destaca prestaciones, diseño o precio, pero silencia cuán difícil o costoso será reparar el aparato cuando falle.
-
-La obsolescencia programada y el diseño no orientado a la reparación acortan artificialmente la vida de los bienes, generan residuos electrónicos y afectan el bolsillo de las familias. Los residuos de aparatos eléctricos y electrónicos constituyen una de las corrientes de desechos de más rápido crecimiento en el mundo, y su gestión inadecuada libera sustancias tóxicas y desperdicia materiales valiosos. Cada producto que se descarta de forma prematura representa, además, la pérdida de la energía y de las materias primas que demandó su fabricación.
-
-La reparación es una estrategia central de la economía circular. Extender la vida útil de los productos reduce la extracción de recursos, la generación de residuos y las emisiones asociadas a la producción. Al mismo tiempo, promueve un entramado de pequeñas y medianas empresas y de técnicos independientes dedicados a la reparación, actividad intensiva en mano de obra y con arraigo local. Sin embargo, ese sector encuentra obstáculos crecientes: falta de repuestos, manuales técnicos inaccesibles, componentes soldados o pegados, baterías no reemplazables y herramientas especiales que los fabricantes no proveen.
-
-La información es un presupuesto para ejercer derechos. La Ley 24.240 reconoce el derecho de los consumidores a una información cierta, clara y detallada. Una etiqueta de reparabilidad permite que quien compra evalúe no solo el precio inicial, sino el costo total de uso y las posibilidades reales de reparación. De ese modo se fortalece la autonomía de la voluntad y se alienta una competencia virtuosa entre los fabricantes: aquellos que diseñen productos más fáciles de reparar podrán diferenciarse y captar a un consumidor cada vez más consciente.
-
-La experiencia comparada avala la medida. Francia implementó en 2021 un índice de reparabilidad para teléfonos móviles, computadoras portátiles, lavarropas, televisores y otros productos, con una escala de cero a diez y criterios públicos. La Unión Europea avanza en la consagración del derecho a reparar, con obligaciones de disponibilidad de repuestos y de información. La Argentina no debe quedar rezagada: corresponde adoptar un instrumento propio, adaptado a nuestro mercado y a las capacidades de fiscalización existentes.
-
-El proyecto es deliberadamente sencillo y de implementación gradual. Establece una etiqueta visible, con un índice numérico, una categoría cualitativa y un código QR que remite a información detallada. Los criterios de cálculo incluyen la disponibilidad de repuestos, el acceso a manuales, el diseño orientado al desmontaje, el tiempo y la complejidad de las reparaciones habituales, el soporte de software y la duración de la garantía. La reglamentación deberá definir la metodología de ponderación y las particularidades de cada categoría de producto.
-
-El proyecto designa como autoridad de aplicación a la Secretaría de Industria y Desarrollo Productivo, por su competencia técnica en materia de producción, normas y comercio, y le asigna funciones de reglamentación, fiscalización, publicación de índices y articulación con universidades, organismos técnicos y asociaciones de consumidores. Se prevén sanciones proporcionales, que van desde el apercibimiento hasta la multa, el comiso y la suspensión de la comercialización, sin perjuicio de las responsabilidades previstas en la Ley de Defensa del Consumidor y en la Ley de Lealtad Comercial.
-
-Se incorpora asimismo una obligación complementaria e indispensable: los fabricantes e importadores deberán garantizar la disponibilidad de repuestos, componentes, herramientas y manuales durante un plazo no inferior a cinco años desde la última unidad comercializada. Esta previsión ataca la causa principal de la irreparabilidad y da contenido material a la etiqueta.
-
-Por último, la norma no crea nuevos organismos ni exige erogaciones significativas: se financia con partidas presupuestarias existentes y con las multas que recaude la autoridad de aplicación. La entrada en vigencia diferida y la reglamentación por parte del Poder Ejecutivo permitirán una transición ordenada para fabricantes, importadores y comerciantes.
-
-En suma, la etiqueta de reparabilidad es una política pública de bajo costo, alto impacto informativo y claros beneficios ambientales, económicos y sociales. Por ello solicito a las señoras y señores legisladores el acompañamiento del presente proyecto.
-
-
----
-
-## Texto M
-
-PROYECTO DE LEY
-
-LEY DE ETIQUETADO DE REPARABILIDAD DE APARATOS ELÉCTRICOS Y ELECTRÓNICOS
-
-El Senado y Cámara de Diputados de la Nación Argentina, reunidos en Congreso, sancionan con fuerza de Ley:
-
-Artículo 1°.- Objeto. La presente ley tiene por objeto establecer un sistema nacional obligatorio de etiquetado de reparabilidad para determinados aparatos eléctricos y electrónicos, a fin de garantizar a las personas consumidoras información clara, veraz y comparable sobre la facilidad de reparación de cada modelo, promover la economía circular, reducir la generación de residuos de aparatos eléctricos y electrónicos y prevenir prácticas de obsolescencia que afecten los intereses económicos de quien consume y el ambiente.
-
-Artículo 2°.- Ámbito de aplicación. Quedan alcanzados los productos nuevos, de fabricación nacional o importados, que se ofrezcan o comercialicen en el territorio de la República Argentina, en las siguientes categorías:
-a) Teléfonos celulares y teléfonos inteligentes;
-b) Computadoras portátiles, computadoras de escritorio y tabletas;
-c) Televisores y monitores;
-d) Electrodomésticos de uso doméstico, incluidos refrigeradores, congeladores, lavarropas, secarropas, lavavajillas, hornos, cocinas y equipos de climatización.
-La autoridad de aplicación podrá incorporar otras categorías de aparatos eléctricos y electrónicos, previa consulta pública y con no menos de doce (12) meses de anticipación. Quedan excluidos los productos usados, los reacondicionados por terceros que no sean el productor original, las piezas sueltas y los equipos de uso exclusivamente profesional o industrial, salvo que la reglamentación, de modo fundado, disponga su inclusión.
-
-Artículo 3°.- Definiciones. A los efectos de esta ley se entiende por:
-a) Reparabilidad: grado de facilidad con que un aparato puede ser diagnosticado, desmontado y restablecido a un estado de funcionamiento seguro y conforme a su uso previsto, mediante información técnica, herramientas y piezas de recambio razonablemente disponibles;
-b) Índice de Reparabilidad: puntuación de uno (1) a diez (10) que sintetiza la reparabilidad de un modelo;
-c) Etiqueta de Reparabilidad: soporte gráfico de exhibición obligatoria en el punto de venta físico y digital;
-d) Productor: el fabricante nacional, el importador o quien por primera vez ponga el producto en el mercado argentino;
-e) Pieza de recambio: componente necesario para restaurar la funcionalidad original del aparato;
-f) Documentación técnica: manuales de desmontaje, diagramas, listados de piezas, códigos de error y herramientas de software de diagnóstico imprescindibles para la reparación;
-g) Emparejamiento de piezas: vinculación informática o serial de un componente con un aparato concreto que impide o restringe el recambio por una pieza equivalente.
-
-Artículo 4°.- Índice y etiqueta. El Índice de Reparabilidad se calculará según la metodología que apruebe la autoridad de aplicación por resolución fundada y pública, la que deberá ponderar, como mínimo:
-1) la disponibilidad de documentación técnica para reparadores profesionales independientes y, cuando no comprometa la seguridad, para la persona consumidora;
-2) la facilidad de desmontaje, el tipo de uniones, las herramientas necesarias y el riesgo de daño irreversible;
-3) la disponibilidad de piezas de recambio por un plazo que no podrá ser inferior a siete (7) años contados desde el fin de la comercialización del modelo en el país, y los plazos máximos de entrega;
-4) la relación entre el precio de las piezas de recambio más frecuentes y el precio de venta al público del producto nuevo;
-5) criterios específicos por categoría, incluida la posibilidad de reinstalación de software, actualización de firmware y restablecimiento tras una reparación.
-La etiqueta será clara, visible, legible e uniforme en todo el país, de tamaño no inferior al que fije la reglamentación, e incluirá el Índice, una escala cromática y un código que enlace a la ficha técnica completa. Deberá exhibirse en el envase o de modo asociado al producto, en góndola o exhibidor, en los sitios de comercio electrónico junto al precio y en toda publicidad que informe precio o características del modelo. La autoridad publicará un registro abierto, gratuito y reutilizable de modelos e índices.
-
-Artículo 5°.- Obligaciones. Los productores deberán:
-a) calcular y declarar el Índice de cada modelo, con carácter de declaración jurada, antes de su primera comercialización en el país, y mantenerlo actualizado ante cambios de diseño o de política de recambios;
-b) garantizar, por sí o por terceros, la disponibilidad de piezas, herramientas e información técnica en los plazos y condiciones que fije la reglamentación;
-c) abstenerse de prácticas que impidan o encarezcan de modo desproporcionado la reparación por técnicos independientes, incluida la denegación injustificada de piezas, el emparejamiento de piezas cuando no sea indispensable para la seguridad de la persona usuaria, y las restricciones de software que impidan reparaciones legítimas;
-d) inscribirse, junto con los modelos alcanzados, en el registro que cree la autoridad de aplicación.
-Quienes vendan al por menor no podrán comercializar productos alcanzados sin la etiqueta ni alterarla. El cumplimiento de esta ley no enerva las garantías de la Ley 24.240 ni las normas de seguridad de producto.
-
-Artículo 6°.- Autoridad de aplicación. Será autoridad de aplicación la Secretaría de Comercio del Ministerio de Economía, o el organismo que en el futuro asuma sus competencias en lealtad comercial y defensa de las personas consumidoras, en coordinación con la autoridad ambiental nacional y con la autoridad nacional de defensa del consumidor.
-Son sus facultades: aprobar la metodología y el diseño de la etiqueta; crear y administrar el registro; fiscalizar, requerir información, tomar muestras y ordenar ensayos; disponer el cese de publicidad o de comercialización no conforme; celebrar convenios con el Instituto Nacional de Tecnología Industrial, universidades, provincias y la Ciudad Autónoma de Buenos Aires; y promover la capacitación de reparadores.
-Créase un Consejo Consultivo de Reparabilidad, de carácter honorario, con representación de productores, cámaras de reparadores independientes, organizaciones de personas consumidoras, el INTI y universidades, que emitirá recomendaciones no vinculantes.
-
-Artículo 7°.- Infracciones y sanciones. Constituyen infracciones: comercializar sin etiqueta o con etiqueta falsa, incompleta o engañosa; falsear el Índice o la ficha técnica; incumplir la disponibilidad de piezas, herramientas o documentación; obstaculizar la reparación independiente en los términos del artículo 5°; y no inscribirse o no suministrar información debida.
-Sin perjuicio de la Ley 24.240, de la Ley 22.802 y de la normativa ambiental aplicable, se podrán imponer:
-a) apercibimiento;
-b) multa equivalente a entre diez (10) y cinco mil (5.000) Salarios Mínimos Vitales y Móviles, graduada según gravedad, reincidencia, volumen de facturación y daño causado;
-c) prohibición de comercializar el modelo hasta su regularización, y decomiso en casos de reiteración;
-d) publicación de la sanción a costa del infractor;
-e) clausura temporal del establecimiento en infracciones graves y reiteradas.
-El procedimiento será el de la Ley 22.802 o el régimen que la reemplace, con posterior control judicial suficiente. El cincuenta por ciento (50%) de lo recaudado en multas se destinará al Fondo del artículo 8° y el resto al Tesoro Nacional.
-
-Artículo 8°.- Fondo y financiamiento. Créase el Fondo de Promoción de la Reparación y la Economía Circular, en el ámbito de la autoridad de aplicación, con los siguientes recursos: a) el cincuenta por ciento (50%) de las multas del artículo 7°; b) una tasa de registración a cargo de los productores, que no podrá superar el costo del servicio; c) partidas presupuestarias, donaciones y legados. El Fondo se aplicará a fiscalización, ensayos, campañas de educación, capacitación y apoyo a talleres de reparación, incluidas unidades de la economía popular. No podrá financiarse con cargo al Fondo personal permanente de la Administración Pública Nacional. El Estado Nacional preverá en el Presupuesto General las partidas necesarias para la primera implementación.
-
-Artículo 9°.- Reglamentación, vigencia y transitoriedad. El Poder Ejecutivo reglamentará esta ley dentro de los ciento ochenta (180) días de su publicación en el Boletín Oficial. La obligatoriedad del etiquetado rige a los dieciocho (18) meses de dicha publicación para los productos de los incisos a) y b) del artículo 2°, y a los veinticuatro (24) meses para los restantes. Los modelos ya introducidos al mercado al vencimiento de esos plazos deberán etiquetarse en toda reposición de stock. La autoridad podrá habilitar un régimen voluntario anticipado.
-La presente ley es de orden público y rige en todo el territorio nacional. Se invita a las provincias y a la Ciudad Autónoma de Buenos Aires a dictar normas complementarias de fiscalización local.
-
-Artículo 10°.- Comuníquese al Poder Ejecutivo nacional.
-
-FUNDAMENTOS
-
-Señor presidente:
-
-El presente proyecto instituye un sistema nacional obligatorio de etiquetado de reparabilidad para teléfonos celulares, computadoras, tabletas, televisores y electrodomésticos de uso doméstico. Su propósito es que quien compra un aparato sepa, antes de pagar, qué tan fácil, costoso y duradero será repararlo.
-
-El artículo 42 de la Constitución Nacional garantiza a las personas consumidoras información adecuada y veraz, protección de sus intereses económicos y defensa contra distorsiones del mercado. Hoy esa información es incompleta. Se informa el precio, a veces la eficiencia energética, casi nunca si la batería está adherida de modo irreversible, si el fabricante niega piezas a un taller independiente o si un bloqueo de software condena el equipo al descarte ante una falla menor. El silencio no es neutral: desplaza el costo de la postventa hacia el hogar, el municipio y el ambiente.
-
-La Argentina enfrenta un volumen creciente de residuos de aparatos eléctricos y electrónicos, en un mercado con fuerte componente importado, alta sensibilidad al precio y una extendida cultura de reparación. Miles de técnicos, comercios de barrio y unidades de la economía popular ya sostienen, de hecho, el derecho a reparar cuando las marcas no lo hacen. Al mismo tiempo, la falta de piezas, la documentación cerrada, el emparejamiento serial de componentes y ciertas actualizaciones de software convierten en residuales equipos que todavía podrían usarse. Esa dinámica malgasta materiales, presiona la balanza comercial y destruye trabajo calificado de cercanía.
-
-El etiquetado no prohíbe vender un producto difícil de reparar. Lo hace visible. Francia aplica desde 2021 un índice de 1 a 10 construido sobre documentación, desmontaje, disponibilidad y precio de piezas; la Unión Europea avanza hacia pasaportes digitales de producto y obligaciones de recambio. El instrumento es de transparencia y de competencia: premia al diseño que se puede abrir, diagnosticar y reponer, y permite a la persona consumidora comparar. No se trata de transplantar normas ajenas, sino de adaptar un mecanismo simple a nuestra realidad productiva y de consumo.
-
-El proyecto limita el alcance inicial a categorías de alto volumen e impacto, admite ampliarlo con consulta pública y excluye el usado para no asfixiar el mercado de segunda mano ni a quien reacondiciona. El índice, de 1 a 10, se exhibe también en el comercio electrónico. Los productores —fabricantes e importadores— declaran el puntaje, mantienen piezas durante un mínimo de siete años y no pueden obstaculizar de modo desproporcionado la reparación independiente. El emparejamiento de piezas y los candados de software no se vedan en abstracto: se vedan cuando no son indispensables para la seguridad y operan como cierre de la postventa.
-
-La autoridad de aplicación se radica en la Secretaría de Comercio, por su competencia en lealtad comercial y defensa del consumidor, en coordinación con la autoridad ambiental. Un consejo consultivo honorario da voz a reparadores, consumidores, industria y al INTI. Un registro abierto evita que el índice sea una caja negra. Las sanciones se articulan con las leyes 24.240 y 22.802, se gradúan en salarios mínimos y se destinan en parte a un fondo de fiscalización, ensayos, educación y apoyo a talleres. La tasa de registro no puede exceder el costo del servicio; el fondo no financia personal permanente. No se crea una burocracia paralela ni un impuesto encubierto.
-
-Los plazos de vacancia —dieciocho meses para celulares y computadoras, veinticuatro para el resto— permiten dictar la metodología, adaptar cadenas de suministro y evitar un salto al vacío. La ley es de orden público y de vigencia federal; se invita a las provincias y a la Ciudad Autónoma de Buenos Aires a complementar la inspección local, en un federalismo de concertación.
-
-Informar la reparabilidad es coherente con la Ley General del Ambiente, con el régimen de defensa del consumidor y con cualquier estrategia seria de economía circular. Un número en la góndola no resuelve por sí solo el pasivo de la basura electrónica, pero corrige una asimetría cotidiana: hoy el descarte es fácil de ocultar y la reparación, difícil de conocer. Este Congreso puede devolverle a quien compra una herramienta elemental de decisión, y a quien repara, un mercado menos cerrado por diseño.
-
-Por las razones expuestas, solicito a mis pares la aprobación del presente proyecto de ley.
-
-
----
-
-## Texto N
+## Texto K
 
 PROYECTO DE LEY
 
@@ -1272,126 +1055,343 @@ Por las razones expuestas, solicito a mis pares que acompañen el presente proye
 
 ---
 
-## Texto O
+## Texto L
 
 PROYECTO DE LEY
 
-LEY DE ETIQUETADO DE REPARABILIDAD
+El Senado y Cámara de Diputados de la Nación Argentina reunidos en Congreso, etc. sancionan con fuerza de Ley:
 
-El Senado y Cámara de Diputados de la Nación Argentina reunidos en Congreso, etc., sancionan con fuerza de Ley:
+LEY DE ETIQUETADO DE REPARABILIDAD DE APARATOS ELÉCTRICOS Y ELECTRÓNICOS
 
-**Artículo 1°.— Objeto y ámbito de aplicación.** La presente ley tiene por objeto garantizar información clara, comparable y verificable sobre la reparabilidad de los productos, promover decisiones de consumo informadas y contribuir a prolongar su vida útil y reducir la generación de residuos.
+Artículo 1º.- Objeto. La presente ley tiene por objeto establecer la obligatoriedad de exhibir un "Índice de Reparabilidad" en la comercialización de aparatos eléctricos y electrónicos, a fin de garantizar el derecho a la información de los consumidores, combatir la obsolescencia programada y promover la transición hacia una economía circular y sustentable.
 
-Quedan comprendidos los teléfonos celulares, las computadoras de escritorio y portátiles, las tabletas y los electrodomésticos nuevos que se comercialicen en el territorio nacional, cualquiera sea su origen, mediante establecimientos físicos, medios electrónicos u otras modalidades de venta a destinatarios finales.
+Artículo 2º.- Ámbito de aplicación. Quedan sujetos a las disposiciones de la presente ley los teléfonos celulares, computadoras portátiles y de escritorio, y los electrodomésticos de línea blanca y marrón que se comercialicen en el territorio de la Nación Argentina, ya sea de fabricación nacional o importados.
 
-Sus disposiciones son de orden público y complementan las obligaciones establecidas por la Ley 24.240 de Defensa del Consumidor.
+Artículo 3º.- Índice de Reparabilidad. Créase el Índice de Reparabilidad, el cual consistirá en un valor numérico del uno (1) al diez (10) acompañado de una escala cromática que determine visualmente el grado de facilidad para reparar el producto. La etiqueta con el Índice deberá ser exhibida de forma clara, visible e inequívoca en el producto, en su embalaje y junto al precio en cualquier portal de venta en línea o establecimiento comercial, de forma previa a la adquisición por parte del consumidor.
 
-**Artículo 2°.— Definiciones.** A los efectos de esta ley, se entiende por:
+Artículo 4º.- Criterios de evaluación. El Índice de Reparabilidad se calculará de manera objetiva en base a los siguientes criterios:
+a) Disponibilidad y accesibilidad de la documentación técnica y manuales de reparación.
+b) Facilidad de desmontaje del producto y tipo de herramientas necesarias para hacerlo.
+c) Disponibilidad y tiempo de entrega de repuestos en el mercado nacional.
+d) Relación entre el precio de los repuestos y el precio del producto original.
+e) Criterios específicos inherentes a la categoría de cada producto, tales como asistencia remota o actualizaciones de software.
 
-a) **Reparabilidad:** la posibilidad de diagnosticar fallas y restablecer el funcionamiento de un producto mediante procedimientos técnicamente viables, seguros y económicamente accesibles, incluida la sustitución de sus componentes y las intervenciones sobre su software que resulten necesarias.
+Artículo 5º.- Autoridad de Aplicación. El Poder Ejecutivo Nacional designará la Autoridad de Aplicación de la presente ley, la cual deberá recaer en el organismo con máxima competencia nacional en materia de Comercio Interior y Defensa del Consumidor, pudiendo actuar en coordinación con las áreas competentes en materia ambiental. 
 
-b) **Electrodoméstico:** el aparato que utiliza energía eléctrica para cumplir funciones domésticas de conservación o preparación de alimentos, limpieza, climatización, higiene, cuidado personal u otras análogas. Quedan excluidos los equipos destinados exclusivamente a usos industriales o profesionales.
+Artículo 6º.- Obligaciones de la cadena de comercialización. Los fabricantes e importadores son responsables de calcular el Índice de Reparabilidad conforme a los parámetros reglamentarios y de proveer la etiqueta correspondiente. Los distribuidores y vendedores tienen la obligación inexcusable de exhibir dicha etiqueta al consumidor final en los puntos de venta físicos y digitales.
 
-c) **Índice de reparabilidad:** la calificación numérica que expresa el grado de reparabilidad de un modelo, calculada conforme a los criterios de esta ley.
+Artículo 7º.- Sanciones. El incumplimiento de las disposiciones de la presente ley será considerado una infracción a los deberes de información y trato digno, y será pasible de las sanciones previstas en la Ley Nº 24.240 de Defensa del Consumidor, sus modificatorias y normativas complementarias, sin perjuicio de otras sanciones administrativas o penales que pudieren corresponder.
 
-d) **Reparador independiente:** la persona humana o jurídica que presta servicios de reparación sin integrar la red autorizada del fabricante o importador.
+Artículo 8º.- Financiamiento. Los gastos que demande el cumplimiento y la fiscalización de la presente ley se imputarán a las partidas presupuestarias correspondientes a la Autoridad de Aplicación, asignadas en el Presupuesto General de la Administración Nacional para el ejercicio correspondiente.
 
-e) **Modelo:** el conjunto de unidades con características técnicas equivalentes a los efectos del cálculo del índice. Las variantes que modifiquen su reparabilidad deben calificarse separadamente.
+Artículo 9º.- Vigencia y reglamentación. La presente ley entrará en vigencia a los ciento ochenta (180) días de su publicación en el Boletín Oficial. El Poder Ejecutivo Nacional deberá reglamentar la presente ley dentro de los noventa (90) días de su promulgación, estableciendo los parámetros técnicos precisos para el cálculo del Índice de Reparabilidad.
 
-**Artículo 3°.— Etiqueta obligatoria.** Los productos comprendidos deben exhibir, al momento de su oferta y venta, una etiqueta de reparabilidad que contenga:
-
-a) La denominación «Índice de reparabilidad»;
-
-b) La calificación del producto, expresada de cero (0) a diez (10), con un decimal, donde diez (10) representa la mayor reparabilidad;
-
-c) La marca, el modelo y la fecha de cálculo o actualización;
-
-d) Una dirección electrónica y un código de respuesta rápida que permitan acceder gratuitamente al detalle del cálculo, los compromisos declarados y la información pública del registro previsto en el artículo 5°.
-
-La etiqueta debe ser legible, contrastante y estar colocada en el envase y junto al producto o a su precio de exhibición. En las ofertas a distancia debe mostrarse junto al precio, antes de la contratación y sin requerir enlaces adicionales para conocer la calificación.
-
-La autoridad de aplicación establecerá un diseño uniforme y accesible. El uso de colores no puede ser el único medio para comunicar el resultado. La etiqueta no sustituye las advertencias de seguridad ni los restantes deberes de información.
-
-**Artículo 4°.— Cálculo del índice.** El índice resulta de la suma de cinco componentes, cada uno con una puntuación de cero (0) a dos (2):
-
-a) Disponibilidad, accesibilidad y costo de manuales, diagramas, herramientas de diagnóstico e instrucciones de reparación para consumidores y reparadores independientes;
-
-b) Facilidad de desmontaje y sustitución de componentes, considerando los pasos necesarios, los sistemas de unión y las herramientas requeridas;
-
-c) Disponibilidad efectiva de repuestos, plazos de entrega y cantidad de años durante los cuales se garantiza su provisión;
-
-d) Precio de los repuestos relevantes y de las herramientas específicas indispensables, en relación con el precio de venta del producto;
-
-e) Condiciones de acceso al software, firmware, actualizaciones y procedimientos de activación o vinculación necesarios para reparar y restablecer el funcionamiento del producto, así como la existencia de restricciones técnicas injustificadas.
-
-La reglamentación establecerá tablas objetivas, verificables y específicas por categoría, identificará los componentes relevantes y determinará precios de referencia y procedimientos de ensayo reproducibles. Las puntuaciones mayores deben corresponder a condiciones más favorables para la reparación.
-
-La evaluación debe considerar las condiciones efectivamente disponibles en la República Argentina. Los compromisos futuros de disponibilidad que otorguen puntaje deben indicar plazo y condiciones, y son exigibles al responsable de la declaración. Las restricciones fundadas en seguridad o protección de datos deben acreditarse y no pueden presumirse justificadas por la sola invocación del fabricante.
-
-**Artículo 5°.— Sujetos obligados y registro.** Los fabricantes nacionales y los importadores deben calcular el índice, presentar una declaración jurada por modelo antes de su comercialización y proporcionar las etiquetas y la información técnica necesaria a los restantes integrantes de la cadena comercial. El fabricante nacional responde por los productos que fabrica y el importador por aquellos que introduce al país.
-
-Créase el Registro Público de Reparabilidad, digital, gratuito y de acceso abierto, a cargo de la autoridad de aplicación. La inscripción de las declaraciones será automática, sin perjuicio de su fiscalización posterior. Deben publicarse la calificación total, el desglose por componente, la metodología empleada, los compromisos de disponibilidad y los canales de acceso a documentación, repuestos y soporte.
-
-Los declarantes deben conservar los antecedentes respaldatorios durante cinco (5) años desde la última comercialización del modelo y actualizar la declaración cuando cambien las condiciones evaluadas. La reserva comercial no es oponible a la fiscalización ni puede impedir la publicación de la información expresamente exigida por esta ley.
-
-Los distribuidores y vendedores deben exhibir la etiqueta correspondiente al modelo, mantenerla legible y abstenerse de alterarla. Las plataformas que intermedien ofertas electrónicas deben incorporar un campo obligatorio para su exhibición e impedir la publicación de ofertas comprendidas que lo omitan.
-
-**Artículo 6°.— Autoridad de aplicación y fiscalización.** Será autoridad nacional de aplicación la Secretaría de Comercio del Ministerio de Economía, o el organismo que en el futuro la reemplace en sus competencias de defensa del consumidor.
-
-Son sus funciones:
-
-a) Dictar las normas técnicas y complementarias necesarias;
-
-b) Administrar el registro y recibir denuncias;
-
-c) Requerir documentación y muestras, realizar inspecciones y verificar los índices mediante ensayos propios o de organismos públicos y laboratorios técnicamente competentes;
-
-d) Ordenar la corrección de declaraciones y etiquetas, la publicación de rectificaciones y, mediante decisión fundada, la suspensión de ofertas hasta subsanar incumplimientos;
-
-e) Difundir información para consumidores y publicar anualmente los resultados de la fiscalización.
-
-La autoridad nacional coordinará la actuación con las autoridades locales de defensa del consumidor, que ejercerán el control y juzgamiento en sus respectivas jurisdicciones conforme a la distribución de competencias de la Ley 24.240. Los controles deben priorizar criterios de riesgo, volumen de ventas y denuncias recibidas.
-
-**Artículo 7°.— Infracciones y sanciones.** Constituyen infracciones la falta de inscripción o etiquetado; la exhibición ilegible, incompleta o incorrecta; la falsedad u omisión de datos relevantes; el incumplimiento de compromisos declarados; la falta de actualización o conservación de antecedentes; y la obstrucción de la fiscalización.
-
-Los responsables serán sancionados con las medidas previstas en el artículo 47 de la Ley 24.240, según corresponda. Para su graduación se considerarán especialmente la gravedad, la cantidad de productos afectados, el beneficio obtenido, la reincidencia y la conducta posterior del infractor.
-
-Resultan aplicables las reglas de procedimiento, prescripción y revisión judicial de la Ley 24.240 y, en las jurisdicciones locales, sus normas procedimentales respectivas, con garantía del derecho de defensa. Ningún sujeto será sancionado por un incumplimiento ajeno a los deberes que esta ley le atribuye, ni podrá recibir una doble sanción administrativa por el mismo hecho y fundamento.
-
-Las sanciones no excluyen las responsabilidades civiles o penales que pudieran corresponder.
-
-**Artículo 8°.— Financiamiento.** Los gastos que demande la implementación de esta ley se atenderán con las partidas asignadas a la autoridad de aplicación en el Presupuesto General de la Administración Nacional. Durante el primer ejercicio, el Jefe de Gabinete de Ministros efectuará las adecuaciones presupuestarias necesarias dentro de los créditos aprobados y de las facultades legalmente vigentes.
-
-La implementación debe aprovechar las estructuras administrativas y capacidades técnicas existentes. La inscripción, consulta y descarga de información del registro serán gratuitas.
-
-**Artículo 9°.— Vigencia y adecuación.** La presente ley entrará en vigencia al día siguiente de su publicación en el Boletín Oficial. El Poder Ejecutivo nacional deberá reglamentarla dentro de los ciento ochenta (180) días corridos.
-
-Las obligaciones de inscripción, declaración y etiquetado serán exigibles a partir de los trescientos sesenta y cinco (365) días corridos de su publicación para todos los productos nuevos ofrecidos a destinatarios finales, incluidas las existencias anteriores. Durante el período de adecuación, la autoridad de aplicación brindará asistencia técnica gratuita, con especial atención a las micro, pequeñas y medianas empresas.
-
-**Artículo 10.—** Comuníquese al Poder Ejecutivo nacional.
+Artículo 10º.- Comuníquese al Poder Ejecutivo nacional.
 
 FUNDAMENTOS
 
 Señor Presidente:
 
-El presente proyecto propone que los teléfonos celulares, las computadoras y los electrodomésticos se comercialicen con una etiqueta visible que informe qué tan fácil resulta repararlos. Su propósito es incorporar al momento de la compra un dato decisivo para el gasto de los hogares y para la duración efectiva de los bienes.
+El presente proyecto de ley tiene como principal objetivo empoderar a los consumidores argentinos y dar un paso fundamental hacia la protección del medio ambiente mediante la creación del Índice de Reparabilidad para aparatos eléctricos y electrónicos. 
 
-Actualmente, una persona puede comparar precios, prestaciones y consumo energético, pero suele desconocer si podrá sustituir una batería, conseguir una pieza o acceder a un servicio de reparación fuera de la red del fabricante. Esa información aparece, muchas veces, recién cuando el aparato deja de funcionar. Para entonces, el consumidor ya realizó la inversión y cuenta con alternativas limitadas.
+En la actualidad, vivimos inmersos en un modelo de consumo lineal basado en la lógica de "comprar, usar y tirar". Este modelo es impulsado, en gran medida, por la obsolescencia programada y por las barreras que los propios fabricantes imponen para la reparación de sus productos. Cuando a un ciudadano se le rompe la pantalla del celular, se le daña un componente de la computadora o deja de funcionar el lavarropas, suele encontrarse con que el costo de reparación es casi igual al de comprar un equipo nuevo, o peor aún, que las piezas de repuesto directamente no existen, que los manuales técnicos son secretos, o que el ensamblaje está hecho con pegamentos que impiden su apertura sin destruir el aparato.
 
-La reparabilidad no depende únicamente de que un producto pueda abrirse. También requiere documentación disponible, repuestos accesibles, procedimientos seguros y ausencia de obstáculos de software que impidan recuperar su funcionamiento. Una reparación técnicamente posible puede resultar inviable si una pieza cuesta casi tanto como un equipo nuevo o si su entrega demora un plazo excesivo.
+Esta dinámica genera dos perjuicios enormes. En primer lugar, un impacto económico severo en el bolsillo de las familias argentinas, que se ven forzadas a adquirir productos nuevos de forma constante por fallas menores en los que ya poseen. En segundo lugar, un impacto ambiental devastador. Los Residuos de Aparatos Eléctricos y Electrónicos (RAEE) son la corriente de desechos que más rápido crece en el mundo. Estos aparatos contienen metales pesados y sustancias tóxicas que, al no ser gestionados adecuadamente, terminan contaminando nuestros suelos y fuentes de agua.
 
-Por esa razón, el proyecto establece una escala de cero a diez integrada por cinco componentes de igual peso. La ley fija los criterios sustantivos y encomienda a la reglamentación su traducción en tablas técnicas por categoría. De este modo, se ofrece previsibilidad sin inmovilizar los procedimientos frente a la evolución tecnológica.
+La Ley de Etiquetado de Reparabilidad viene a corregir la asimetría de información que existe en el mercado. Hoy, el consumidor compra a ciegas. Con esta ley, cada celular, computadora o electrodoméstico deberá exhibir una etiqueta visible, con un puntaje del 1 al 10 y una escala de colores, que le indicará al comprador qué tan fácil será arreglar ese producto si se rompe. 
 
-La información debe describir condiciones reales del mercado argentino. No sería útil otorgar una buena calificación por repuestos disponibles únicamente en otro país o por documentación a la que un reparador local no puede acceder. Asimismo, cuando el puntaje se apoye en compromisos de provisión futura, estos serán públicos y exigibles.
+Este mecanismo, inspirado en modelos exitosos implementados en países como Francia desde el año 2021 y que actualmente se debate en el seno de la Unión Europea, utiliza criterios objetivos: penaliza a las marcas que no venden repuestos o que los cobran a precios desorbitados, y premia a aquellas que diseñan sus productos para durar, que facilitan manuales y que permiten el uso de herramientas comunes para su desarme.
 
-La etiqueta deberá acompañar tanto la venta presencial como la electrónica. El código de respuesta rápida permitirá ampliar la información, pero nunca reemplazará la exhibición directa del índice: conocer la calificación no debe depender de disponer de otro dispositivo ni de realizar búsquedas adicionales.
+A la par de la defensa del consumidor y el cuidado ambiental, este proyecto tiene un claro beneficio económico y productivo para nuestro país. Facilitar la reparación de dispositivos fomenta directamente la creación de empleo local. Los talleres de reparación, los técnicos independientes y las pequeñas y medianas empresas dedicadas al servicio técnico verán revitalizada su actividad al contar con acceso a manuales, repuestos y equipos diseñados para ser arreglados. Esto fortalece una economía de cercanía, retiene el valor en el país y disminuye la dependencia de la importación constante de bienes de consumo final.
 
-Se adopta un esquema de declaración jurada por modelo con fiscalización posterior. Esta solución evita convertir el registro en una autorización previa que demore innecesariamente la comercialización, sin renunciar al control público. La apertura de los datos facilitará, además, el examen por consumidores, organizaciones especializadas y talleres.
+De la misma manera que el etiquetado de eficiencia energética nos enseñó a elegir electrodomésticos que consumen menos luz, y el etiquetado frontal de alimentos nos ayuda a cuidar nuestra salud, el etiquetado de reparabilidad creará una nueva conciencia en el consumidor. Serán los propios ciudadanos quienes, con el poder de su compra, obligarán a los fabricantes a ofrecer productos de mejor calidad, más duraderos y respetuosos con el ambiente.
 
-Las obligaciones se distribuyen según la intervención de cada actor. Fabricantes e importadores responden por el cálculo y su respaldo; distribuidores y vendedores, por la exhibición; y plataformas, por habilitar y exigir el espacio informativo correspondiente. Las sanciones se integran al régimen de defensa del consumidor, respetando las competencias locales y el debido proceso.
+Por estas razones, convencidos de que estamos legislando para el futuro, protegiendo los derechos de los consumidores, fomentando el trabajo local y cuidando nuestra casa común, solicito a mis pares el acompañamiento y la pronta aprobación del presente proyecto de ley.
 
-La medida también puede favorecer a los talleres independientes y a las pequeñas empresas de reparación. Cuando la posibilidad de reparar se vuelve visible y comparable, los proveedores tienen un incentivo para mejorarla y competir sobre la vida útil del producto, además de hacerlo sobre su precio inicial.
 
-Finalmente, prolongar el uso de los aparatos contribuye a reducir residuos y la demanda de materiales y energía asociados a su reemplazo. El etiquetado no resuelve por sí solo esos problemas, pero constituye una herramienta concreta para orientar decisiones individuales y prácticas productivas.
+---
 
-Por las razones expuestas, solicito a mis pares que acompañen el presente proyecto de ley.
+## Texto M
+
+**PROYECTO DE LEY**
+
+**EL SENADO Y LA CÁMARA DE DIPUTADOS
+DE LA NACIÓN ARGENTINA, SANCIONAN CON FUERZA DE
+LEY:**
+
+**LEY DE ETIQUETADO DE REPARABILIDAD DE PRODUCTOS ELECTRÓNICOS Y ELECTRODOMÉSTICOS**
+
+ARTÍCULO 1°.- Objeto y ámbito de aplicación. La presente ley tiene por objeto establecer la obligatoriedad de exhibir una etiqueta de reparabilidad para los productos electrónicos y electrodomésticos que se fabriquen, importen o comercialicen en el territorio de la República Argentina, con el fin de garantizar el derecho a la información del consumidor, promover la economía circular, extender la vida útil de los bienes y reducir el volumen de residuos de aparatos eléctricos y electrónicos (RAEE).
+
+Quedan comprendidos en las disposiciones de esta ley los siguientes bienes:
+a) Teléfonos celulares y smartphones;
+b) Computadoras portátiles, de escritorio, todo-en-uno y tabletas;
+c) Electrodomésticos de línea blanca: heladeras, congeladores, lavarropas, secarropas, lavavajillas, cocinas, hornos eléctricos y de gas, y aires acondicionados;
+d) Electrodomésticos de línea marrón: televisores y equipos de audio;
+e) Pequeños electrodomésticos: aspiradoras, microondas, cafeteras, planchas, freidoras de aire y similares;
+f) Los demás productos que la Autoridad de Aplicación incorpore por vía reglamentaria en atención a su volumen de comercialización, impacto ambiental o complejidad técnica.
+
+ARTÍCULO 2°.- Definiciones. A los efectos de la presente ley se entiende por:
+a) Etiqueta de reparabilidad: el rótulo gráfico de carácter informativo que, con un diseño estandarizado, muestra el puntaje de reparabilidad del producto;
+b) Puntaje de reparabilidad: el valor numérico o alfabético calculado sobre la base de criterios objetivos previamente definidos, que refleja la facilidad con que un producto puede ser desarmado, diagnosticado, reparado y mantenido;
+c) Fabricante: toda persona humana o jurídica que fabrique o ensamble el producto comprendido;
+d) Importador: toda persona humana o jurídica que introduzca el producto al mercado nacional;
+e) Comercializador: toda persona humana o jurídica que ofrezca, venda o ceda de cualquier modo el producto al consumidor final;
+f) Repuesto: toda pieza, componente o módulo destinado a sustituir una parte averiada o desgastada del producto, a fin de restituir su funcionamiento original;
+g) Diseño modular: aquel que permita el acceso, desarme, identificación y reemplazo de los componentes del producto con herramientas de uso común y sin daño irreversible.
+
+ARTÍCULO 3°.- Características de la etiqueta. La etiqueta de reparabilidad deberá cumplir los siguientes requisitos mínimos:
+a) Ser exhibida en el envase, en el propio producto y, cuando corresponda, en el punto de venta físico y en los sitios de venta electrónica;
+b) Tener un tamaño y una ubicación tales que resulten claramente legibles, sin necesidad de recurrir a dispositivos ópticos auxiliares;
+c) Adoptar una escala de fácil comprensión, con código cromático y gráfico, conforme lo determine la reglamentación;
+d) Incluir el puntaje de reparabilidad y, en forma sintética, los criterios que lo integran;
+e) Ser redactada en idioma nacional, sin perjuicio de su coexistencia con otros idiomas.
+
+ARTÍCULO 4°.- Criterios de evaluación. El puntaje de reparabilidad se calculará considerando, al menos, los siguientes parámetros:
+a) Disponibilidad y plazo de comercialización de los repuestos;
+b) Facilidad de acceso a manuales de reparación, esquemas técnicos y documentación de servicio;
+c) Tipo y cantidad de herramientas necesarias para las reparaciones habituales;
+d) Posibilidad de sustituir componentes básicos, tales como batería, pantalla, teclado, disco rígido, motor, compresor, bomba o placa electrónica principal;
+e) Grado de modularidad y reversibilidad del armado;
+f) Relación entre el precio de los repuestos principales y el precio del producto nuevo;
+g) Disponibilidad de actualizaciones de software cuando correspondiere.
+
+La Autoridad de Aplicación establecerá por vía reglamentaria el algoritmo de cálculo, los coeficientes de ponderación y los valores máximos y mínimos del puntaje.
+
+ARTÍCULO 5°.- Obligaciones de los sujetos obligados. Los fabricantes e importadores de productos comprendidos en el artículo 1° deberán:
+a) Determinar, certificar y documentar el puntaje de reparabilidad correspondiente a cada modelo puesto en el mercado;
+b) Proveer la etiqueta de reparabilidad y entregar la documentación técnica mínima exigida por la reglamentación;
+c) Garantizar la disponibilidad de repuestos por los plazos mínimos que establezca la Autoridad de Aplicación.
+
+Los comercializadores deberán exhibir la etiqueta de reparabilidad de manera previa a la decisión de compra y conservarla mientras el producto esté expuesto.
+
+ARTÍCULO 6°.- Autoridad de Aplicación. La Autoridad de Aplicación de la presente ley será la Secretaría de Comercio del Ministerio de Economía de la Nación, o el organismo que en el futuro la reemplace, en articulación con la Secretaría de Ambiente de la Nación, o quien haga sus veces. Tendrá, sin perjuicio de las demás facultades que se le otorguen por vía reglamentaria, las siguientes atribuciones:
+a) Definir, actualizar y publicar los criterios, la escala y la metodología de cálculo del puntaje de reparabilidad;
+b) Establecer los plazos mínimos de disponibilidad de repuestos y manuales;
+c) Llevar un registro público de puntajes asignados a cada modelo;
+d) Realizar auditorías, verificaciones y operativos de control;
+e) Imponer las sanciones previstas en el artículo 7°;
+f) Celebrar convenios de cooperación técnica con provincias, municipios, universidades, cámaras empresarias y organizaciones de la sociedad civil.
+
+ARTÍCULO 7°.- Sanciones. El incumplimiento de las obligaciones establecidas en la presente ley dará lugar a las sanciones que, conforme a la gravedad de la infracción, la reincidencia y el volumen de comercialización, se graduarán de la siguiente manera:
+a) Apercibimiento;
+b) Multas, las cuales podrán ser actualizadas periódicamente conforme los índices oficiales;
+c) Decomiso de los productos en infracción;
+d) Suspensión de la comercialización hasta tanto se subsane la irregularidad;
+e) Publicación de la sanción a costa del infractor.
+
+Las sanciones se aplicarán previo procedimiento sumario que garantice el derecho de defensa y serán recurribles conforme a la legislación vigente. En forma supletoria, resultarán aplicables las disposiciones de la Ley N° 24.240 de Defensa del Consumidor y sus modificatorias.
+
+ARTÍCULO 8°.- Financiamiento. Los gastos que demande el cumplimiento de la presente ley se atenderán con cargo a las partidas que al efecto se incluyan en el Presupuesto General de la Nación para cada ejercicio. Facúltase al Poder Ejecutivo nacional a realizar las adecuaciones presupuestarias que resulten necesarias.
+
+ARTÍCULO 9°.- Vigencia y plazo de reglamentación. La presente ley entrará en vigencia a los NOVENTA (90) días corridos contados a partir de su publicación en el Boletín Oficial de la República Argentina. El Poder Ejecutivo nacional deberá dictar su reglamentación dentro del plazo de CIENTO OCHENTA (180) días corridos contados a partir de la misma fecha.
+
+ARTÍCULO 10.- Comuníquese al Poder Ejecutivo nacional.
+
+---
+
+**FUNDAMENTOS**
+
+Señor Presidente:
+
+El presente proyecto de ley tiene como objetivo central establecer la obligatoriedad de una etiqueta de reparabilidad para los productos electrónicos y electrodomésticos que se comercializan en nuestro país, con el propósito de garantizar a los consumidores el derecho a acceder a información clara, comparable y veraz sobre la facilidad con que un bien puede ser reparado una vez producida una avería o finalizado el período de garantía legal.
+
+La iniciativa se asienta en tres procesos convergentes. El primero es el reconocimiento creciente del derecho a reparar como una dimensión autónoma del derecho del consumidor; el segundo, la necesidad impostergable de avanzar hacia modelos de producción y consumo más sostenibles para atender la crisis climática y la contaminación; el tercero, la consolidación, a nivel internacional, de marcos regulatorios que han demostrado ser efectivos para prolongar la vida útil de los productos y reducir la generación de residuos.
+
+En cuanto al derecho a la información, el artículo 42 de la Constitución Nacional consagra el derecho de los consumidores a una información adecuada y veraz, y nuestro país ha ratificado tratados internacionales con jerarquía constitucional o supralegal que reconocen la tutela de ese derecho. La información sobre reparabilidad resulta, en muchos casos, tan determinante para la decisión de compra como el precio o la eficiencia energética: un producto fácilmente reparable representa un menor costo a lo largo de su vida útil, una menor dependencia del fabricante y una mayor autonomía para el usuario. Sin embargo, esa información es prácticamente inaccesible para el consumidor argentino, que se ve obligado a decidir a ciegas respecto de un atributo esencial del bien que adquiere.
+
+En lo que respecta a la cuestión ambiental, la Argentina enfrenta un crecimiento sostenido de los residuos de aparatos eléctricos y electrónicos (RAEE). Se trata de una de las corrientes de residuos de más rápido crecimiento a nivel global, caracterizada por su volumen, su complejidad y la presencia de sustancias potencialmente tóxicas para la salud humana y para los ecosistemas. Prolongar la vida útil de un teléfono celular, una computadora o un lavarropas reduce la presión sobre los rellenos sanitarios y los sitios de disposición final, disminuye la demanda de materias primas vírgenes, la huella de carbono asociada a la fabricación y el impacto que la minería extractiva tiene sobre los territorios y las comunidades. Promover la reparabilidad es, en consecuencia, una herramienta concreta y de probada eficacia para avanzar hacia una economía circular, en línea con los compromisos asumidos por el país en el Acuerdo de París, en los Objetivos de Desarrollo Sostenible y en los acuerdos regionales de carácter ambiental.
+
+En el plano económico y social, el proyecto busca fortalecer una economía de la reparación que, en la Argentina, ya genera empleo y dinamiza economías regionales. Los talleres de reparación, tanto formales como informales, constituyen una fuente relevante de trabajo, en particular para jóvenes, mujeres y PyMEs de todo el país. Una mayor demanda de reparaciones se traducirá en más empleo local, en mayor formación técnica y en una oferta más diversa y competitiva para los consumidores, que podrán elegir entre reemplazar o reparar con información suficiente para decidir. Las experiencias internacionales disponibles muestran que las medidas de reparación efectiva generan ahorros significativos para los hogares y reducen el desembolso destinado a la reposición prematura de bienes durables.
+
+El derecho a reparar no es, además, una novedad regulatoria. Diversos países han avanzado en legislaciones análogas con resultados positivos. Francia fue pionera, en 2021, con la obligación de exhibir un índice de reparabilidad para ciertos electrodomésticos, posteriormente extendido a los teléfonos celulares. La Unión Europea avanzó más recientemente con un marco común de reparación para consumidores y se encuentra en pleno proceso de implementación de un índice uniforme de reparabilidad. La presente iniciativa toma como referencia esa experiencia comprobada y la adapta a la realidad institucional, productiva y comercial de la Argentina, ofreciendo reglas claras, previsibles y uniformes, sin imponer cargas irrazonables a los fabricantes locales ni obstaculizar el comercio internacional.
+
+En lo que hace al diseño institucional, se propone como Autoridad de Aplicación a la Secretaría de Comercio del Ministerio de Economía, en articulación con la Secretaría de Ambiente, lo que asegura la convergencia entre las políticas de defensa del consumidor y de cuidado ambiental. Se establece un sistema de puntaje objetivo, verificable y auditable, calculado a partir de criterios tales como la disponibilidad y el precio de los repuestos, la facilidad de desarmado, la accesibilidad de los manuales técnicos, la modularidad del diseño y la disponibilidad de actualizaciones de software. La etiqueta será de exhibición obligatoria tanto en los puntos de venta físicos como en los canales digitales, garantizando que la información llegue al consumidor en el momento relevante de la decisión de compra.
+
+Las sanciones previstas son proporcionales a la gravedad de la infracción y se articulan con el régimen general de defensa del consumidor, asegurando un equilibrio entre la protección del interés público y el debido proceso de los administrados. El financiamiento se atenderá con cargo al Presupuesto General de la Nación, sin crear nuevos tributos ni afectar la competitividad de la industria nacional.
+
+Por todo lo expuesto, solicito a mis pares que acompañen el presente proyecto de ley, convencidos de que la reparabilidad no es sólo una cuestión técnica, sino una herramienta de soberanía del consumidor, de cuidado del ambiente y de construcción de una economía más justa y durable.
+
+________________________________
+Diputado/a Nacional
+
+
+---
+
+## Texto N
+
+PROYECTO DE LEY
+
+**LEY DE ETIQUETADO DE REPARABILIDAD DE TELÉFONOS CELULARES, EQUIPOS INFORMÁTICOS Y ELECTRODOMÉSTICOS**
+
+El Senado y la Cámara de Diputados de la Nación Argentina, reunidos en Congreso, sancionan con fuerza de
+
+**LEY:**
+
+**ARTÍCULO 1º — Objeto.** La presente ley tiene por objeto garantizar el derecho de los consumidores y usuarias a una información cierta, clara y detallada sobre la aptitud para ser reparados de los productos que se comercialicen en el territorio nacional, mediante la creación del Índice de Reparabilidad y de la Etiqueta de Reparabilidad de exhibición obligatoria, con el fin de promover la extensión de la vida útil de los bienes, la reducción de la generación de residuos de aparatos eléctricos y electrónicos, el fortalecimiento del sector nacional de servicios técnicos de reparación y el uso eficiente de los recursos.
+
+**ARTÍCULO 2º — Ámbito de aplicación.** Quedan comprendidos en la presente ley los productos nuevos, fabricados en el país o importados, destinados a su comercialización a consumidores finales, pertenecientes a las siguientes categorías:
+
+a) Teléfonos celulares inteligentes y tabletas;
+
+b) Computadoras portátiles, computadoras de escritorio, monitores e impresoras de uso doméstico;
+
+c) Televisores;
+
+d) Heladeras, freezers, lavarropas, lavavajillas, secarropas, cocinas, hornos, hornos de microondas y equipos de aire acondicionado;
+
+e) Aspiradoras, hidrolavadoras y herramientas eléctricas de uso doméstico.
+
+La autoridad de aplicación podrá incorporar progresivamente otras categorías de aparatos eléctricos y electrónicos, previa consulta pública. Quedan excluidos los productos usados, reacondicionados, los productos médicos y los bienes de uso exclusivamente industrial o profesional, sin perjuicio de su etiquetado voluntario conforme la reglamentación.
+
+**ARTÍCULO 3º — Definiciones.** A los efectos de la presente ley se entiende por:
+
+a) **Reparabilidad:** aptitud de un producto para ser diagnosticado, desarmado, reparado o actualizado, total o parcialmente, con restitución de su funcionalidad original, sin requerir conocimientos, herramientas o insumos inaccesibles para un servicio técnico independiente.
+
+b) **Índice de Reparabilidad:** puntaje comparable, expresado de cero (0) a diez (10) con un decimal, que resulta de la aplicación de la metodología establecida en el artículo 4º.
+
+c) **Etiqueta de Reparabilidad:** soporte gráfico normalizado que comunica al consumidor el Índice de Reparabilidad del producto.
+
+d) **Repuesto:** pieza, componente o subconjunto destinado a sustituir una parte del producto para restablecer su funcionamiento.
+
+e) **Sujetos obligados:** fabricantes, importadores y quienes coloquen su marca en los productos alcanzados; y, en lo relativo a la exhibición, los distribuidores y comerciantes minoristas, incluidos los que operen por medios electrónicos.
+
+f) **Reparador independiente:** persona humana o jurídica que presta servicios de reparación sin vínculo contractual de autorización con el fabricante o importador.
+
+**ARTÍCULO 4º — Índice de Reparabilidad.** La autoridad de aplicación aprobará, por categoría de producto, la metodología de cálculo del Índice de Reparabilidad, que deberá ponderar, como mínimo, los siguientes criterios:
+
+a) Disponibilidad gratuita y pública de documentación técnica, manuales de despiece, diagramas y procedimientos de diagnóstico y reparación;
+
+b) Facilidad de desarme y rearme, considerando el tipo de uniones y fijaciones, la cantidad de pasos y operaciones necesarios para acceder a las piezas de desgaste o falla más frecuente y el riesgo de daño irreversible;
+
+c) Plazo de entrega y período de disponibilidad de repuestos, que no podrá ser inferior a los términos que fije la reglamentación para cada categoría;
+
+d) Precio de los repuestos de falla más frecuente, en relación con el precio de venta del producto;
+
+e) Herramientas requeridas, disponibilidad de insumos y ausencia de restricciones técnicas, contractuales o de software que impidan o penalicen la reparación por reparadores independientes o por el propio usuario;
+
+f) Plazo comprometido de provisión de actualizaciones de seguridad y de sistema operativo, y posibilidad de reinstalación del software, cuando corresponda.
+
+La metodología, los formularios y los resultados serán de acceso público y gratuito en un sitio web oficial, en formato de datos abiertos.
+
+**ARTÍCULO 5º — Etiqueta de Reparabilidad.** Los productos alcanzados deberán exhibir, en el punto de venta y en su embalaje, una Etiqueta de Reparabilidad visible, legible e indeleble, redactada en idioma castellano, que contenga el Índice de Reparabilidad, una escala cromática comparativa, la identificación del producto y un código de respuesta rápida (QR) de acceso a la información técnica que respalda el puntaje, al listado y precio de repuestos y a los plazos de disponibilidad.
+
+En la comercialización a distancia o por medios electrónicos, el Índice de Reparabilidad y el enlace a dicha información deberán exhibirse en forma destacada, junto al precio, en la página de descripción del producto. En la publicidad que consigne precio deberá informarse el Índice de Reparabilidad. Se prohíbe la utilización del índice o de expresiones equivalentes en forma engañosa o sin sustento documental.
+
+**ARTÍCULO 6º — Obligaciones de los sujetos obligados.** Los fabricantes, importadores y titulares de marca deberán: a) calcular y declarar el Índice de Reparabilidad de cada modelo mediante declaración jurada, con el respaldo documental correspondiente, antes de su primera comercialización; b) inscribir cada modelo y su índice en el Registro Nacional de Reparabilidad; c) actualizar la declaración ante toda modificación del producto, de los precios de repuestos o de los plazos de provisión; d) proveer las etiquetas a los comerciantes; e) conservar la documentación técnica por cinco (5) años desde el cese de comercialización del modelo y ponerla a disposición de la autoridad. Los distribuidores y comerciantes minoristas son responsables de la correcta exhibición de la etiqueta y de la información prevista en el artículo 5º.
+
+**ARTÍCULO 7º — Autoridad de aplicación.** Es autoridad de aplicación la Secretaría de Industria y Comercio de la Nación, o el organismo que en el futuro la reemplace, con intervención de la autoridad nacional de aplicación de la Ley 24.240 en materia de defensa del consumidor. Son sus funciones: aprobar y actualizar las metodologías y el diseño de la etiqueta; crear y administrar el Registro Nacional de Reparabilidad; verificar la veracidad de las declaraciones, por sí o mediante convenios con el Instituto Nacional de Tecnología Industrial (INTI), universidades nacionales y organismos técnicos; ordenar la rectificación de índices mal declarados y su publicación; fiscalizar y sancionar; promover la capacitación de reparadores y la difusión pública del índice; y convocar a un espacio de consulta permanente con cámaras empresarias, asociaciones de consumidores, cooperativas y organizaciones de reparadores. Se invita a las provincias y a la Ciudad Autónoma de Buenos Aires a adherir a la presente ley y a ejercer facultades concurrentes de verificación en su jurisdicción.
+
+**ARTÍCULO 8º — Sanciones.** Las infracciones a la presente ley serán sancionadas conforme el régimen previsto en el Decreto 274/2019 de Lealtad Comercial y, cuando medie afectación a los derechos de consumidores, conforme la Ley 24.240, sin perjuicio de las acciones que correspondan. La autoridad de aplicación podrá disponer, además, el cese preventivo de la comercialización del modelo hasta la regularización, la publicación de la resolución sancionatoria a cargo del infractor y la exclusión del modelo del Registro. La declaración de un índice sustancialmente superior al que corresponda constituye práctica engañosa y será considerada agravante.
+
+**ARTÍCULO 9º — Financiamiento, reglamentación y vigencia.** Los gastos que demande la aplicación de la presente ley se atenderán con los recursos que anualmente asigne la Ley de Presupuesto General de la Administración Nacional y con el arancel de inscripción y actualización del Registro Nacional de Reparabilidad que fije la reglamentación, cuyo producido se afectará exclusivamente a las tareas de verificación, ensayo y difusión. El Poder Ejecutivo reglamentará la presente ley dentro de los ciento ochenta (180) días de su publicación. Las obligaciones de los artículos 5º y 6º serán exigibles a los doce (12) meses de la publicación de la reglamentación para los productos de los incisos a) y b) del artículo 2º, y a los dieciocho (18) meses para las restantes categorías.
+
+**ARTÍCULO 10 — Comuníquese al Poder Ejecutivo.**
+
+---
+
+**FUNDAMENTOS**
+
+Señor presidente:
+
+Cualquier persona que haya intentado arreglar un celular con la pantalla rota, un lavarropas que dejó de centrifugar o una notebook con la batería agotada conoce la escena: el service dice que "no conviene", que el repuesto "no viene", que la pieza "viene pegada" o que el módulo completo cuesta más que un equipo nuevo. Lo que era un arreglo de rutina se convirtió en una decisión de compra. El resultes un costo que pagan los hogares y un aparato que termina en la basura, muchas veces con la mayor parte de sus componentes en perfecto estado.
+
+Ese desenlace no es un accidente: en buena medida es una decisión de diseño. Uniones pegadas en lugar de tornillos, baterías inaccesibles, componentes serializados que el software rechaza si no los instala un taller autorizado, manuales técnicos reservados, repuestos que se discontinúan a los dos años. Frente a ello, este proyecto no prohíbe ni impone diseños: elige el camino menos intrusivo y más eficaz de la información. Si el consumidor puede comparar, al momento de decidir, cuán reparable es cada producto, la reparabilidad pasa a ser un atributo que compite, como hoy compiten el precio, la memoria o la eficiencia energética.
+
+El antecedente nacional más claro es el etiquetado de eficiencia energética. Cuando la letra y los colores llegaron a la góndola, la oferta se corrió hacia los equipos más eficientes sin necesidad de vedar modelos. La experiencia comparada confirma el mecanismo: Francia implementó en 2021 su *indice de réparabilité* para celulares, notebooks, lavarropas, televisores y otros productos, y registró mejoras medibles en los puntajes declarados por las propias marcas en pocos años; la Unión Europea avanzó con el diseño ecológico, la disponibilidad obligatoria de repuestos y la incorporación de información de reparación en la etiqueta energética; y en Estados Unidos, estados como Nueva York, Minnesota, California y Colorado sancionaron leyes de derecho a reparar que obligan a poner documentación, repuestos y herramientas a disposición de talleres independientes. La discusión no es ideológica: es una tendencia regulatoria global que la Argentina no debería mirar desde afuera.
+
+Los fundamentos constitucionales son directos. El artículo 42 de la Constitución Nacional reconoce a consumidores y usuarios el derecho a la protección de sus intereses económicos y a "una información adecuada y veraz", y el artículo 41 consagra el derecho a un ambiente sano y el deber de utilizar racionalmente los recursos naturales. La Ley 24.240 ya obliga a informar las características esenciales de los bienes y a proveer repuestos durante la vida útil del producto; la práctica muestra que, sin un indicador estandarizado, comparable y exhibido antes de la compra, esa obligación se diluye. El Índice de Reparabilidad traduce un derecho vigente a un dato concreto en la góndola y en la pantalla del comercio electrónico.
+
+La dimensión ambiental es de magnitud. Los residuos de aparatos eléctricos y electrónicos constituyen el flujo de residuos que crece más rápido en el mundo, con más de cincuenta millones de toneladas anuales y tasas de reciclado formal inferiores al veinticinco por ciento. La región latinoamericana genera del orden de los diez kilogramos por habitante por año y la Argentina se ubica entre los mayores generadores del subcontinente, con una fracción reciclada formalmente marginal. Cada mes de vida útil adicional evita extracción minera, consumo de agua y energía, y emisiones asociadas a la fabricación, que concentra la mayor parte de la huella ambiental de un celular o una notebook. Extender la vida útil es la política ambiental más barata disponible: no requiere nueva infraestructura, sólo remover los obstáculos que hoy empujan al descarte.
+
+La dimensión productiva y social no es menor. La reparación es intensiva en trabajo local y territorialmente distribuida: miles de pequeños talleres, cooperativas, técnicos matriculados y emprendimientos barriales en todo el país viven de arreglar lo que otros descartan. Cada reparación que no se hace por falta de repuesto o de información es empleo que no se genera aquí y divisas que se destinan a importar un producto terminado en lugar de una pieza. Un mercado con reglas claras de disponibilidad de repuestos y documentación técnica fortalece a ese sector, mejora la calidad del servicio y amplía la oferta de equipos reacondicionados, que es la puerta de acceso a la tecnología para los hogares de menores ingresos.
+
+El proyecto fue diseñado buscando proporcionalidad y previsibilidad. Adopta una escala de cero a diez, intuitiva y comparable, con criterios objetivos: documentación, desarmabilidad, disponibilidad y precio de repuestos, herramientas e inexistencia de bloqueos de software, y compromiso de actualizaciones. Utiliza el sistema de declaración jurada con respaldo documental y verificación estatal por muestreo —con posibilidad de convenios con el INTI y universidades nacionales—, de modo de no crear una nueva barrera burocrática previa. Encomienda la aplicación a la Secretaría de Industria y Comercio junto a la autoridad de consumo, sin crear organismos nuevos. Remite el régimen sancionatorio a las leyes vigentes de lealtad comercial y defensa del consumidor, con especial severidad frente a la declaración de índices falsos, que es lisa y llanamente publicidad engañosa. Prevé un financiamiento acotado con partidas presupuestarias y un arancel de registro afectado a la verificación. Y establece una implementación escalonada, con ciento ochenta días de reglamentación y plazos de doce y dieciocho meses según categoría, para que fabricantes e importadores adecuen embalajes, catálogos y cadenas de repuestos sin sobresaltos.
+
+En síntesis, se trata de devolverle al consumidor una información que hoy se le niega y de reconocer que un producto que se puede arreglar vale más —para el bolsillo, para el trabajo nacional y para el ambiente— que uno diseñado para ser reemplazado. Por las razones expuestas, solicito a mis pares el acompañamiento del presente proyecto de ley.
+
+
+---
+
+## Texto O
+
+PROYECTO DE LEY
+
+LEY DE ETIQUETADO DE REPARABILIDAD DE APARATOS ELÉCTRICOS Y ELECTRÓNICOS
+
+El Senado y Cámara de Diputados de la Nación Argentina, reunidos en Congreso, sancionan con fuerza de Ley:
+
+Artículo 1°.- Objeto. La presente ley tiene por objeto establecer un sistema nacional obligatorio de etiquetado de reparabilidad para determinados aparatos eléctricos y electrónicos, a fin de garantizar a las personas consumidoras información clara, veraz y comparable sobre la facilidad de reparación de cada modelo, promover la economía circular, reducir la generación de residuos de aparatos eléctricos y electrónicos y prevenir prácticas de obsolescencia que afecten los intereses económicos de quien consume y el ambiente.
+
+Artículo 2°.- Ámbito de aplicación. Quedan alcanzados los productos nuevos, de fabricación nacional o importados, que se ofrezcan o comercialicen en el territorio de la República Argentina, en las siguientes categorías:
+a) Teléfonos celulares y teléfonos inteligentes;
+b) Computadoras portátiles, computadoras de escritorio y tabletas;
+c) Televisores y monitores;
+d) Electrodomésticos de uso doméstico, incluidos refrigeradores, congeladores, lavarropas, secarropas, lavavajillas, hornos, cocinas y equipos de climatización.
+La autoridad de aplicación podrá incorporar otras categorías de aparatos eléctricos y electrónicos, previa consulta pública y con no menos de doce (12) meses de anticipación. Quedan excluidos los productos usados, los reacondicionados por terceros que no sean el productor original, las piezas sueltas y los equipos de uso exclusivamente profesional o industrial, salvo que la reglamentación, de modo fundado, disponga su inclusión.
+
+Artículo 3°.- Definiciones. A los efectos de esta ley se entiende por:
+a) Reparabilidad: grado de facilidad con que un aparato puede ser diagnosticado, desmontado y restablecido a un estado de funcionamiento seguro y conforme a su uso previsto, mediante información técnica, herramientas y piezas de recambio razonablemente disponibles;
+b) Índice de Reparabilidad: puntuación de uno (1) a diez (10) que sintetiza la reparabilidad de un modelo;
+c) Etiqueta de Reparabilidad: soporte gráfico de exhibición obligatoria en el punto de venta físico y digital;
+d) Productor: el fabricante nacional, el importador o quien por primera vez ponga el producto en el mercado argentino;
+e) Pieza de recambio: componente necesario para restaurar la funcionalidad original del aparato;
+f) Documentación técnica: manuales de desmontaje, diagramas, listados de piezas, códigos de error y herramientas de software de diagnóstico imprescindibles para la reparación;
+g) Emparejamiento de piezas: vinculación informática o serial de un componente con un aparato concreto que impide o restringe el recambio por una pieza equivalente.
+
+Artículo 4°.- Índice y etiqueta. El Índice de Reparabilidad se calculará según la metodología que apruebe la autoridad de aplicación por resolución fundada y pública, la que deberá ponderar, como mínimo:
+1) la disponibilidad de documentación técnica para reparadores profesionales independientes y, cuando no comprometa la seguridad, para la persona consumidora;
+2) la facilidad de desmontaje, el tipo de uniones, las herramientas necesarias y el riesgo de daño irreversible;
+3) la disponibilidad de piezas de recambio por un plazo que no podrá ser inferior a siete (7) años contados desde el fin de la comercialización del modelo en el país, y los plazos máximos de entrega;
+4) la relación entre el precio de las piezas de recambio más frecuentes y el precio de venta al público del producto nuevo;
+5) criterios específicos por categoría, incluida la posibilidad de reinstalación de software, actualización de firmware y restablecimiento tras una reparación.
+La etiqueta será clara, visible, legible e uniforme en todo el país, de tamaño no inferior al que fije la reglamentación, e incluirá el Índice, una escala cromática y un código que enlace a la ficha técnica completa. Deberá exhibirse en el envase o de modo asociado al producto, en góndola o exhibidor, en los sitios de comercio electrónico junto al precio y en toda publicidad que informe precio o características del modelo. La autoridad publicará un registro abierto, gratuito y reutilizable de modelos e índices.
+
+Artículo 5°.- Obligaciones. Los productores deberán:
+a) calcular y declarar el Índice de cada modelo, con carácter de declaración jurada, antes de su primera comercialización en el país, y mantenerlo actualizado ante cambios de diseño o de política de recambios;
+b) garantizar, por sí o por terceros, la disponibilidad de piezas, herramientas e información técnica en los plazos y condiciones que fije la reglamentación;
+c) abstenerse de prácticas que impidan o encarezcan de modo desproporcionado la reparación por técnicos independientes, incluida la denegación injustificada de piezas, el emparejamiento de piezas cuando no sea indispensable para la seguridad de la persona usuaria, y las restricciones de software que impidan reparaciones legítimas;
+d) inscribirse, junto con los modelos alcanzados, en el registro que cree la autoridad de aplicación.
+Quienes vendan al por menor no podrán comercializar productos alcanzados sin la etiqueta ni alterarla. El cumplimiento de esta ley no enerva las garantías de la Ley 24.240 ni las normas de seguridad de producto.
+
+Artículo 6°.- Autoridad de aplicación. Será autoridad de aplicación la Secretaría de Comercio del Ministerio de Economía, o el organismo que en el futuro asuma sus competencias en lealtad comercial y defensa de las personas consumidoras, en coordinación con la autoridad ambiental nacional y con la autoridad nacional de defensa del consumidor.
+Son sus facultades: aprobar la metodología y el diseño de la etiqueta; crear y administrar el registro; fiscalizar, requerir información, tomar muestras y ordenar ensayos; disponer el cese de publicidad o de comercialización no conforme; celebrar convenios con el Instituto Nacional de Tecnología Industrial, universidades, provincias y la Ciudad Autónoma de Buenos Aires; y promover la capacitación de reparadores.
+Créase un Consejo Consultivo de Reparabilidad, de carácter honorario, con representación de productores, cámaras de reparadores independientes, organizaciones de personas consumidoras, el INTI y universidades, que emitirá recomendaciones no vinculantes.
+
+Artículo 7°.- Infracciones y sanciones. Constituyen infracciones: comercializar sin etiqueta o con etiqueta falsa, incompleta o engañosa; falsear el Índice o la ficha técnica; incumplir la disponibilidad de piezas, herramientas o documentación; obstaculizar la reparación independiente en los términos del artículo 5°; y no inscribirse o no suministrar información debida.
+Sin perjuicio de la Ley 24.240, de la Ley 22.802 y de la normativa ambiental aplicable, se podrán imponer:
+a) apercibimiento;
+b) multa equivalente a entre diez (10) y cinco mil (5.000) Salarios Mínimos Vitales y Móviles, graduada según gravedad, reincidencia, volumen de facturación y daño causado;
+c) prohibición de comercializar el modelo hasta su regularización, y decomiso en casos de reiteración;
+d) publicación de la sanción a costa del infractor;
+e) clausura temporal del establecimiento en infracciones graves y reiteradas.
+El procedimiento será el de la Ley 22.802 o el régimen que la reemplace, con posterior control judicial suficiente. El cincuenta por ciento (50%) de lo recaudado en multas se destinará al Fondo del artículo 8° y el resto al Tesoro Nacional.
+
+Artículo 8°.- Fondo y financiamiento. Créase el Fondo de Promoción de la Reparación y la Economía Circular, en el ámbito de la autoridad de aplicación, con los siguientes recursos: a) el cincuenta por ciento (50%) de las multas del artículo 7°; b) una tasa de registración a cargo de los productores, que no podrá superar el costo del servicio; c) partidas presupuestarias, donaciones y legados. El Fondo se aplicará a fiscalización, ensayos, campañas de educación, capacitación y apoyo a talleres de reparación, incluidas unidades de la economía popular. No podrá financiarse con cargo al Fondo personal permanente de la Administración Pública Nacional. El Estado Nacional preverá en el Presupuesto General las partidas necesarias para la primera implementación.
+
+Artículo 9°.- Reglamentación, vigencia y transitoriedad. El Poder Ejecutivo reglamentará esta ley dentro de los ciento ochenta (180) días de su publicación en el Boletín Oficial. La obligatoriedad del etiquetado rige a los dieciocho (18) meses de dicha publicación para los productos de los incisos a) y b) del artículo 2°, y a los veinticuatro (24) meses para los restantes. Los modelos ya introducidos al mercado al vencimiento de esos plazos deberán etiquetarse en toda reposición de stock. La autoridad podrá habilitar un régimen voluntario anticipado.
+La presente ley es de orden público y rige en todo el territorio nacional. Se invita a las provincias y a la Ciudad Autónoma de Buenos Aires a dictar normas complementarias de fiscalización local.
+
+Artículo 10°.- Comuníquese al Poder Ejecutivo nacional.
+
+FUNDAMENTOS
+
+Señor presidente:
+
+El presente proyecto instituye un sistema nacional obligatorio de etiquetado de reparabilidad para teléfonos celulares, computadoras, tabletas, televisores y electrodomésticos de uso doméstico. Su propósito es que quien compra un aparato sepa, antes de pagar, qué tan fácil, costoso y duradero será repararlo.
+
+El artículo 42 de la Constitución Nacional garantiza a las personas consumidoras información adecuada y veraz, protección de sus intereses económicos y defensa contra distorsiones del mercado. Hoy esa información es incompleta. Se informa el precio, a veces la eficiencia energética, casi nunca si la batería está adherida de modo irreversible, si el fabricante niega piezas a un taller independiente o si un bloqueo de software condena el equipo al descarte ante una falla menor. El silencio no es neutral: desplaza el costo de la postventa hacia el hogar, el municipio y el ambiente.
+
+La Argentina enfrenta un volumen creciente de residuos de aparatos eléctricos y electrónicos, en un mercado con fuerte componente importado, alta sensibilidad al precio y una extendida cultura de reparación. Miles de técnicos, comercios de barrio y unidades de la economía popular ya sostienen, de hecho, el derecho a reparar cuando las marcas no lo hacen. Al mismo tiempo, la falta de piezas, la documentación cerrada, el emparejamiento serial de componentes y ciertas actualizaciones de software convierten en residuales equipos que todavía podrían usarse. Esa dinámica malgasta materiales, presiona la balanza comercial y destruye trabajo calificado de cercanía.
+
+El etiquetado no prohíbe vender un producto difícil de reparar. Lo hace visible. Francia aplica desde 2021 un índice de 1 a 10 construido sobre documentación, desmontaje, disponibilidad y precio de piezas; la Unión Europea avanza hacia pasaportes digitales de producto y obligaciones de recambio. El instrumento es de transparencia y de competencia: premia al diseño que se puede abrir, diagnosticar y reponer, y permite a la persona consumidora comparar. No se trata de transplantar normas ajenas, sino de adaptar un mecanismo simple a nuestra realidad productiva y de consumo.
+
+El proyecto limita el alcance inicial a categorías de alto volumen e impacto, admite ampliarlo con consulta pública y excluye el usado para no asfixiar el mercado de segunda mano ni a quien reacondiciona. El índice, de 1 a 10, se exhibe también en el comercio electrónico. Los productores —fabricantes e importadores— declaran el puntaje, mantienen piezas durante un mínimo de siete años y no pueden obstaculizar de modo desproporcionado la reparación independiente. El emparejamiento de piezas y los candados de software no se vedan en abstracto: se vedan cuando no son indispensables para la seguridad y operan como cierre de la postventa.
+
+La autoridad de aplicación se radica en la Secretaría de Comercio, por su competencia en lealtad comercial y defensa del consumidor, en coordinación con la autoridad ambiental. Un consejo consultivo honorario da voz a reparadores, consumidores, industria y al INTI. Un registro abierto evita que el índice sea una caja negra. Las sanciones se articulan con las leyes 24.240 y 22.802, se gradúan en salarios mínimos y se destinan en parte a un fondo de fiscalización, ensayos, educación y apoyo a talleres. La tasa de registro no puede exceder el costo del servicio; el fondo no financia personal permanente. No se crea una burocracia paralela ni un impuesto encubierto.
+
+Los plazos de vacancia —dieciocho meses para celulares y computadoras, veinticuatro para el resto— permiten dictar la metodología, adaptar cadenas de suministro y evitar un salto al vacío. La ley es de orden público y de vigencia federal; se invita a las provincias y a la Ciudad Autónoma de Buenos Aires a complementar la inspección local, en un federalismo de concertación.
+
+Informar la reparabilidad es coherente con la Ley General del Ambiente, con el régimen de defensa del consumidor y con cualquier estrategia seria de economía circular. Un número en la góndola no resuelve por sí solo el pasivo de la basura electrónica, pero corrige una asimetría cotidiana: hoy el descarte es fácil de ocultar y la reparación, difícil de conocer. Este Congreso puede devolverle a quien compra una herramienta elemental de decisión, y a quien repara, un mercado menos cerrado por diseño.
+
+Por las razones expuestas, solicito a mis pares la aprobación del presente proyecto de ley.
