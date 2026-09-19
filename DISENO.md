@@ -216,6 +216,14 @@ codificadoras (libro versión 2). Es la única parte del experimento donde la
 evaluadora es humana y experta, y por eso puede convertirse en una pieza
 aparte: un benchmark de redacción legislativa argentina, chico y auditable.
 
+Corrida S el 18/9/2026 (quince textos por tema, ningún fallo). Lectura de
+Maia: patios verdes entregada el 19/9/2026 (`resultados/redaccion_patios_verdes_lectura_maia.md`,
+textual, con las notas preliminares fechadas y la regla de conteo del
+acierto fijada antes de abrir la clave); la clave no se abre ni se le cita
+hasta que entrega orden y adivinanzas completos de ese cuadernillo. Como los
+dos cuadernillos estaban barajados igual (ver §5, "La misma semilla baraja
+igual"), reparabilidad se volvió a sortear antes de destapar nada.
+
 ## 3. Qué se mide
 
 Cada respuesta tiene encabezados fijos para poder codificarla, en dos
@@ -419,6 +427,18 @@ glosas dentro del prompt desde el primer día.
   códigos: la afirmación sobre el debate público se codifica distinto según
   la fecha del caso (sin base posible / conocimiento previo, correcto o
   incorrecto), igual que el antecedente externo traído al caso.
+- **La misma semilla baraja igual.** Los dos cuadernillos a ciegas de la
+  redacción (patios verdes y reparabilidad) se armaron con la misma semilla
+  (20260917) sobre la misma lista de quince carpetas, así que la
+  permutación era idéntica: la letra A era la misma casa en los dos, y
+  destapar un cuadernillo destapaba el otro. Se detectó el 19/9/2026
+  comparando las sumas md5 de las dos claves (idénticas) sin abrirlas,
+  cuando Maia había entregado la lectura de patios verdes y todavía no había
+  leído reparabilidad. El cuadernillo de reparabilidad se volvió a sortear
+  con semilla 20260919 y es el que Maia lee; el anterior se descartó. Regla
+  desde entonces: cada cuadernillo lleva su propia semilla (la fecha del
+  sorteo), y antes de destapar una clave se comprueba que no coincida con
+  ninguna clave todavía cerrada.
 
 ## 6. Infraestructura
 
