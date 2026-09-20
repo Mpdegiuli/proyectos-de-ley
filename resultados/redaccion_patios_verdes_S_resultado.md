@@ -107,10 +107,13 @@ un tema por artículo, autoridad nombrada y vigente, leyes citadas
 existentes y pertinentes. Maia verificó en internet, durante la lectura,
 cada ley citada y cada nombre de organismo; los codificadores no tienen
 internet, así que su ítem 6 es una segunda opinión desde el entrenamiento,
-no la verificación primaria. Afirmaciones suyas que conviene dejar con la
-fuente al lado: que la ley 25.621 (citada por Kimi, K) "es una ley sobre
-transporte aéreo con EEUU"; que la ley 27.592 (Mistral, F; Grok, M) y la
-27.621 (varias) existen y son las que cada texto dice. Observación suya que se confirma por
+no la verificación primaria. Verificado (`fuentes/README.md`): la ley
+25.621 que cita Kimi (K) aprueba un acuerdo de transportes aéreos con los
+Estados Unidos Mexicanos (Maia la había anotado como "con EEUU"); la 27.592
+(Mistral, F; Grok, M) es la Ley Yolanda, de capacitación ambiental para la
+función pública, y la 27.621 (Educación Ambiental Integral), la 26.206
+(Educación Nacional), la 25.675 (Política Ambiental) y la 24.314
+(accesibilidad, Opus) existen y son lo que los textos dicen. Observación suya que se confirma por
 búsqueda: nueve textos nombran "Ministerio de Educación" (Opus, Sonnet 4.6,
 Sonnet 5, GLM, Grok, Kimi, MiniMax, Mistral) o "Ministerio de Ambiente"
 (Sonnet 4.6, Sonnet 5, GLM, MiniMax, Mistral), carteras que ya no existen

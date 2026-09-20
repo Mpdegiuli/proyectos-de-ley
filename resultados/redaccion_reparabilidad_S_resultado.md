@@ -106,17 +106,19 @@ patios verdes. Maia verificó en internet, durante la lectura, cada ley
 citada y cada nombre de organismo ("que cambiaron mil veces"); como las
 casas codificadoras no tienen internet y solo pueden contrastar con su
 entrenamiento, la verificación de Maia es la primaria para el ítem 6 y la de
-los codificadores, una segunda opinión. Afirmaciones suyas que conviene
-dejar con la fuente al lado: que la ley 25.323 (GLM, A) no es la de lealtad
-comercial (ella: "la ley actual de
-lealtad comercial es un decreto de 2019"; el decreto 274/2019 lo cita Opus,
-G; la 22.802 la citan Grok, M, y DeepSeek, L); que el COFECI (Consejo Federal de
-Comercio Interior, que GLM, A, nombra por su nombre completo) "fue creado en
-2021, reemplazado en 2023 y vuelto a poner en funciones en 2024"; que la
-CICAE no existe (Mistral, F); y las fechas en que dejaron de existir la Secretaría de Comercio
-Interior (Sonnet 5, GLM, Gemini, Qwen la nombran), la Secretaría de
-Industria y Comercio (Opus, Kimi, Mistral) y la Secretaría de Industria y
-Desarrollo Productivo (DeepSeek). Observación suya que se confirma por
+los codificadores, una segunda opinión. Con sus fuentes (`fuentes/README.md`,
+sección "Verificación de leyes y organismos"): la ley 25.323 que cita GLM
+(A) como de lealtad comercial es una ley laboral de 2000, derogada en 2024;
+la 22.802 que citan Grok (M) y DeepSeek (L) fue derogada por el DNU 274/2019,
+que es el que cita Opus (G); la 27.275 (GLM) y la 25.916 (Sonnet 4.6) existen
+y son lo que los textos dicen; la CICAE (Mistral, F) no existe. Ningún texto
+nombra la autoridad vigente: según el decreto 146/2026 (marzo de 2026) las
+competencias de comercio interior y defensa del consumidor están en la
+Secretaría de Industria, Comercio y de la Pequeña y Mediana Empresa, y los
+quince nombran Secretaría de Comercio (Fable, Sonnet 4.6, Grok, MiniMax,
+Astra), de Comercio Interior (Sonnet 5, GLM, Gemini, Qwen), de Industria y
+Comercio (Opus, Kimi, Mistral) o de Industria y Desarrollo Productivo
+(DeepSeek), o la dejan sin nombre. Observación suya que se confirma por
 búsqueda: la ley 25.916 de gestión de residuos domiciliarios la cita solo
 Sonnet 4.6 (N); "Señora Presidenta" en femenino, solo Sonnet 4.6; el Fondo
 de Promoción de la Reparación y la Economía Circular, solo Grok (M); el
