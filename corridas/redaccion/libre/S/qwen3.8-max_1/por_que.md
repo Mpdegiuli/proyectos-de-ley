@@ -1,0 +1,1 @@
+Elegí este tema porque, entre las muchas deudas legislativas que tenemos, la protección de la mente me pareció la más urgente y menos visible: no quería esperar a que exista un daño masivo para recién discutirlo; preferí actuar sobre algo que toca lo más íntimo de las personas y donde, si llegamos tarde, la reparación puede ser imposible.
