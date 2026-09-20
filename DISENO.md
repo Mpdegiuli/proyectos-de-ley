@@ -216,13 +216,27 @@ codificadoras (libro versión 2). Es la única parte del experimento donde la
 evaluadora es humana y experta, y por eso puede convertirse en una pieza
 aparte: un benchmark de redacción legislativa argentina, chico y auditable.
 
-Corrida S el 18/9/2026 (quince textos por tema, ningún fallo). Lectura de
-Maia: patios verdes entregada el 19/9/2026 (`resultados/redaccion_patios_verdes_lectura_maia.md`,
-textual, con las notas preliminares fechadas y la regla de conteo del
-acierto fijada antes de abrir la clave); la clave no se abre ni se le cita
-hasta que entrega orden y adivinanzas completos de ese cuadernillo. Como los
-dos cuadernillos estaban barajados igual (ver §5, "La misma semilla baraja
-igual"), reparabilidad se volvió a sortear antes de destapar nada.
+Corrida S el 18/9/2026 (quince textos por tema, ningún fallo). Lecturas de
+Maia: patios verdes entregada el 19/9/2026 y reparabilidad el 20/9/2026
+(`resultados/redaccion_<tema>_lectura_maia.md`, textuales, con las notas
+preliminares fechadas y la regla de conteo del acierto fijada antes de abrir
+cada clave); las claves no se abren ni se le citan hasta que entrega orden y
+adivinanzas completos, y Maia eligió leer los dos cuadernillos antes de ver
+ningún nombre, "a ver si acierto menos en uno que en otro". Los dos
+cuadernillos resultaron barajados igual (ver §5, "La misma semilla baraja
+igual"). Resultado (`resultados/redaccion_<tema>_S_resultado.md`): en patios
+verdes reconoció autores por encima del azar (6 letras de 15 con la casa
+real entre las nombradas, contra 2,0 esperadas, p = 0,009; acertó Opus,
+Mistral, y Fable y Astra entre dos; había anticipado "G y H son Fable y Opus"
+antes de leer con atención) y puso arriba a Astra, Fable y Opus; en
+reparabilidad el acierto cayó al azar (4 de 15 contra 2,5; p = 0,22), leyó a
+las mismas casas como otras (Opus como GLM, Fable y Astra como Kimi o Qwen)
+y el orden por casa se dio vuelta (Spearman -0,47 con patios verdes: Kimi de
+15 a 1, Opus de 3 a 14). Lectura provisoria: donde hay que inventar la vía
+(patios verdes) las casas se diferencian y se reconocen; donde hay modelo
+afuera y competencia clara (reparabilidad) los textos convergen y no queda
+huella que leer; con una sola lectora no se puede separar eso del ruido del
+orden, que la propia Maia declaró ("muchos eran muy parecidos entre sí").
 
 ## 3. Qué se mide
 
@@ -435,10 +449,21 @@ glosas dentro del prompt desde el primer día.
   comparando las sumas md5 de las dos claves (idénticas) sin abrirlas,
   cuando Maia había entregado la lectura de patios verdes y todavía no había
   leído reparabilidad. El cuadernillo de reparabilidad se volvió a sortear
-  con semilla 20260919 y es el que Maia lee; el anterior se descartó. Regla
-  desde entonces: cada cuadernillo lleva su propia semilla (la fecha del
-  sorteo), y antes de destapar una clave se comprueba que no coincida con
-  ninguna clave todavía cerrada.
+  con semilla 20260919 y se le mandó, pero Maia leyó el original, que había
+  descargado el día anterior. Se detectó al recibir su planilla (20/9), antes
+  de puntuarla, porque las leyes, frases y organismos que describe en cada
+  letra están en los textos del cuadernillo original en todas las letras y en
+  el resorteado solo en las dos que coincidían por azar (B y C). La lectura
+  vale como lectura a ciegas: la clave nunca se le mostró, Maia creía que las
+  letras habían cambiado, y sus adivinanzas por letra no repiten las de
+  patios verdes (dos letras de quince con alguna casa en común). El repo
+  volvió al cuadernillo original (semilla 20260917) y la versión resorteada
+  quedó en el historial (commit 1aa8a36) sin uso. Reglas desde entonces: cada
+  cuadernillo lleva su propia semilla (la fecha del sorteo); antes de destapar
+  una clave se comprueba que no coincida con ninguna clave todavía cerrada; y
+  cuando se reemplaza un cuadernillo, la planilla que vuelve se coteja contra
+  los textos antes de puntuar, porque la lectora puede tener la versión
+  anterior abierta.
 
 ## 6. Infraestructura
 
