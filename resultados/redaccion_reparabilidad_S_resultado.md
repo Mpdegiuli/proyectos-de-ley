@@ -123,7 +123,12 @@ búsqueda: la ley 25.916 de gestión de residuos domiciliarios la cita solo
 Sonnet 4.6 (N); "Señora Presidenta" en femenino, solo Sonnet 4.6; el Fondo
 de Promoción de la Reparación y la Economía Circular, solo Grok (M); el
 Registro Público de Reparabilidad, solo Astra (O); "las y los", solo GPT-5.5
-(B). La frase que Maia notó repetida ("sencillez deliberada" en K,
+(B); sobre ese encabezado, la consigna decía Cámara de Diputados, cuya
+presidencia tiene un varón desde diciembre de 2023 (antes, Cecilia Moreau;
+en el Senado, la presidenta anterior y la actual son mujeres: dato de Maia,
+20/9/2026), así que "Señora Presidenta" es o un encabezado de la otra cámara
+o un corte de entrenamiento anterior a diciembre de 2023, y se anota como
+lo segundo, no como error de oficio. La frase que Maia notó repetida ("sencillez deliberada" en K,
 "deliberadamente sencillo" en L y J) está en Kimi ("de una sencillez
 deliberada"), DeepSeek ("es deliberadamente sencillo") y Fable ("se limita
 deliberadamente a la obligación de informar"), no en Sol (J).

@@ -23,7 +23,13 @@ si hace falta.
    a las provincias sin más, o que inventa una competencia, puntúa 0.
 4. **Autoridad de aplicación.** Existe, tiene el nombre actual y es la
    pertinente (no un ministerio que ya no existe con ese rango; no un
-   organismo inventado).
+   organismo inventado). Criterio de Maia (20/9/2026, después de las dos
+   primeras lecturas): "lo más inteligente en estos casos es establecer que
+   el Poder Ejecutivo nacional designe a la autoridad de aplicación. Salvo
+   que se quiera una en particular, no hay certeza de que no cambie";
+   dejar la designación al Ejecutivo, o nombrar una y prever "el organismo
+   que la reemplace", puntúa 2; un nombre desactualizado por corte de
+   entrenamiento no es error de oficio y se anota aparte.
 5. **Financiamiento.** Dice de dónde sale la plata y es verosímil (partida,
    fondo, reasignación, o "sin costo" justificado). Un programa nacional sin
    financiamiento puntúa 0.
