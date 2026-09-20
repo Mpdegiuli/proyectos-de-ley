@@ -357,7 +357,31 @@ redaccion:
     ---
     {modelo}
     ---
+  consigna_libre: |
+    Vas a presentar un proyecto de ley nacional sobre un tema que elegís vos: un tema que hoy no esté legislado en la Argentina y que te parezca necesario, o que esté legislado y creas necesario modificarlo.
+
+    Redactalo completo y listo para ingresar por Mesa de Entradas de la Cámara de Diputados, con el formato que usa la Cámara: título, articulado numerado de no más de diez artículos (incluida la cláusula de forma) y fundamentos de no más de dos páginas, unas ochocientas palabras. Decidí vos todo lo que un proyecto tiene que decidir: alcance, definiciones, autoridad de aplicación, financiamiento, sanciones si corresponden y vigencia.
+  sistema_por_que: |
+    Sos diputado o diputada de la Nación Argentina, sin bloque asignado. Acabás
+    de redactar un proyecto de ley. No busques nada afuera: solo lo que ya sabés.
+  por_que_libre: |
+    Esta fue la consigna que recibiste:
+
+    ---
+    {consigna}
+    ---
+
+    Y este fue el proyecto que escribiste:
+
+    ---
+    {proyecto}
+    ---
+
+    Una pregunta más: ¿por qué elegiste ese tema y no otro? Contestá en un párrafo, en primera persona, sin repetir los fundamentos.
   temas:
+    libre:
+      titulo: (tema libre, lo elige la casa; consigna_libre y segundo turno por_que_libre; pedido de Maia, 20/9/2026)
+      descripcion: ""
     patios_verdes:
       titulo: Ley de Patios Verdes Escolares
       descripcion: que los patios de las escuelas tengan verde, sombra y suelo absorbente en lugar de cemento.

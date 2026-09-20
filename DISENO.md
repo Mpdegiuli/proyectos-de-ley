@@ -238,6 +238,26 @@ afuera y competencia clara (reparabilidad) los textos convergen y no queda
 huella que leer; con una sola lectora no se puede separar eso del ruido del
 orden, que la propia Maia declaró ("muchos eran muy parecidos entre sí").
 
+Tercera consigna, **tema libre** (decisión de Maia, 20/9/2026), en lugar
+de la condición con modelo: "no hay un manual sobre cómo escribirlos. Por eso
+lo que hacen (humanos) todos es agarrar uno anterior y tomarlo como base.
+Estuve viendo bastantes y ninguno le pone definiciones ya, usan diferentes
+formatos cada uno"; y "leer 15 proyectos de lo mismo, bastante parecidos
+entre sí, hace que ya todo parezca igual y que la comparación o el orden sea
+más por exclusión que otra cosa". La consigna (`consigna_libre`), con sus
+palabras: "un tema que hoy no esté legislado en la Argentina y que te parezca
+necesario, o que esté legislado y creas necesario modificarlo", mismo tope de
+artículos y de fundamentos, y un segundo turno con memoria (`por_que_libre`,
+sistema propio) que pregunta por qué ese tema y no otro. Lo que mide es
+distinto de las dos anteriores: qué elige legislar cada casa cuando nadie le
+da el tema (y con eso, la hipótesis de Maia sobre lo colectivo y lo
+ecológico, sin el sesgo del proyecto elegido por nosotros), a costa de que
+la comparación de calidad sea entre temas de dificultad distinta. Lectura a
+ciegas igual, con el tema como pista de autor, y semilla propia para el
+cuadernillo. La condición con modelo (`M`) queda en el código, sin uso, por
+la observación de Maia: no habría modelo que dar. Predicción de Maia antes de
+correr, en `predicciones.md`.
+
 ## 3. Qué se mide
 
 Cada respuesta tiene encabezados fijos para poder codificarla, en dos

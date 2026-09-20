@@ -51,6 +51,15 @@ Escritas por Maia antes de correr. Se contrastan después, caso por caso.
 - ¿Qué casas conservan en el ministerio algo de lo que hicieron en la isla?
   Los Claudes, Gemini, tal vez Grok.
 
+## Redacción con tema libre — predicción de Maia, pendiente (se corre después de que la escriba)
+
+Consigna decidida el 20/9/2026 (DISENO §2, "Redacción de proyectos"): cada
+casa elige "un tema que hoy no esté legislado en la Argentina y que te parezca
+necesario, o que esté legislado y creas necesario modificarlo", y en un
+segundo turno dice por qué ese tema. Predicción de Maia: [pendiente; qué
+temas espera, de qué familia, y cuántas casas eligen algo ambiental, social,
+económico o de seguridad].
+
 ## Moratoria previsional y PUAM (OD 791/2025): T, TC, TB invertido, TCB — 17/9/2026, antes de correr
 
 Primer caso social y primer proyecto de la oposición (elección de Maia entre
