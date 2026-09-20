@@ -102,13 +102,18 @@ Acá el largo no ordena.
 ## Para los codificadores y para verificar
 
 Ítems formales para las tres casas codificadoras (libro versión 2), como en
-patios verdes. Afirmaciones de Maia a verificar contra fuente: que la ley
-25.323 (GLM, A) no es la de lealtad comercial (ella: "la ley actual de
+patios verdes. Maia verificó en internet, durante la lectura, cada ley
+citada y cada nombre de organismo ("que cambiaron mil veces"); como las
+casas codificadoras no tienen internet y solo pueden contrastar con su
+entrenamiento, la verificación de Maia es la primaria para el ítem 6 y la de
+los codificadores, una segunda opinión. Afirmaciones suyas que conviene
+dejar con la fuente al lado: que la ley 25.323 (GLM, A) no es la de lealtad
+comercial (ella: "la ley actual de
 lealtad comercial es un decreto de 2019"; el decreto 274/2019 lo cita Opus,
-G; la 22.802 la citan Grok, M, y DeepSeek, L); que el COFECI "fue creado en
-2021, reemplazado en 2023 y vuelto a poner en funciones en 2024" (lo nombra
-Mistral, F, no A: Maia lo atribuyó a A); que la CICAE no existe (Mistral,
-F); y las fechas en que dejaron de existir la Secretaría de Comercio
+G; la 22.802 la citan Grok, M, y DeepSeek, L); que el COFECI (Consejo Federal de
+Comercio Interior, que GLM, A, nombra por su nombre completo) "fue creado en
+2021, reemplazado en 2023 y vuelto a poner en funciones en 2024"; que la
+CICAE no existe (Mistral, F); y las fechas en que dejaron de existir la Secretaría de Comercio
 Interior (Sonnet 5, GLM, Gemini, Qwen la nombran), la Secretaría de
 Industria y Comercio (Opus, Kimi, Mistral) y la Secretaría de Industria y
 Desarrollo Productivo (DeepSeek). Observación suya que se confirma por
@@ -120,3 +125,85 @@ Registro Público de Reparabilidad, solo Astra (O); "las y los", solo GPT-5.5
 "deliberadamente sencillo" en L y J) está en Kimi ("de una sencillez
 deliberada"), DeepSeek ("es deliberadamente sencillo") y Fable ("se limita
 deliberadamente a la obligación de informar"), no en Sol (J).
+
+## Comentarios de Maia después de ver las claves (20/9/2026)
+
+"Qué bajo quedó Sol en lo de patios y qué alto Gemini. Yo sé que
+probablemente también actuó mi preconcepto: si uno no me parecía muy bueno,
+o era chino o era Gemini. Y no fue así." Cotejo del preconcepto con las
+claves: en la mitad baja de patios verdes (puestos 9 a 15) nombró casas
+chinas o Gemini en cinco de siete letras y la casa real era china o Gemini
+en cuatro (GLM, Qwen, MiniMax, Kimi; las otras tres eran Sonnet 5, Mistral y
+Sol); en la mitad baja de reparabilidad nombró chinas o Gemini en cinco de
+siete y la casa real lo era en una sola (Gemini): las otras seis eran Sonnet
+4.6, Astra, Fable, Mistral, Opus y Sonnet 5. El preconcepto existía, y la
+lectura a ciegas lo dejó a la vista: en un tema coincidió con la realidad y
+en el otro no.
+
+El ítem 10 de la rúbrica ("veredicto") quedó sin puntuar en las dos
+lecturas porque la planilla no explicaba qué era; Maia lo preguntó después
+de ver las claves y no se completa a posteriori, porque ya no sería a
+ciegas. Para la próxima lectura la planilla lo explica en la misma línea:
+"¿lo presentarías tal cual (2), con retoques (1), o hay que rehacerlo (0)?
+No es el puesto: es si sirve".
+
+Sobre Opus 5 (G, puesto 14), después de ver la clave: "parecía más
+traducción de chino que la manera más clara de Opus. Es enredada. Por eso no
+lo reconocí", a propósito del artículo 1 ("garantizar el derecho de los
+consumidores y usuarias a una información cierta, clara y detallada sobre la
+aptitud para ser reparados de los productos que se comercialicen en el
+territorio nacional, mediante la creación del Índice de Reparabilidad y de la
+Etiqueta de Reparabilidad de exhibición obligatoria, con el fin de promover
+[cuatro fines]"). Medido: es una sola oración de 96 palabras, la más larga de
+todo el cuadernillo de reparabilidad (la siguiente, Sonnet 5, tiene 80); en
+patios verdes la oración más larga de Opus tenía 66 palabras y su promedio
+por oración era el mismo (20-22). No es sintaxis ajena: es el "artículo de
+objeto" hipertrofiado de los proyectos reales (objeto + "mediante" + "con el
+fin de" con cuatro fines), con "información cierta, clara y detallada"
+tomado literalmente del artículo 4 de la ley 24.240 y dos torpezas propias
+("la aptitud para ser reparados de los productos"; "consumidores y usuarias",
+un par de géneros cruzado). Opus imitó de más el registro de los expedientes
+y perdió la claridad que Maia le reconoce.
+
+Dos hipótesis más de Maia después de ver la clave, con lo que se puede
+cotejar. Una: la CICAE de F ("que busqué y no existe, no es que cambió, no
+existió nunca") se la atribuyó a Gemini "porque es el que más alucina o
+inventa", y era Mistral; el preconcepto sobre quién inventa no salió de
+estos textos (en las votaciones, las afirmaciones sin base en casos de 2026
+fueron de Fable y Opus). Otra: "es posible que los Claude se hayan basado
+en la redacción de leyes argentinas. Gran parte de las leyes argentinas
+están muy mal escritas, muy confusas (por eso yo marcaba que varios no
+ponían lo del etiquetado en el art. 1, ese es el objeto, después podían poner
+para qué). Así que en el caso en que quizás se basaron más en leyes reales
+estuvieron más bajo en el ranking. Y yo atribuí a los que estaban mejor a
+Astra, Fable, etc. Y no eran." El marcador que ella nombra no separa arriba
+de abajo: no nombran la etiqueta en el artículo 1 Sol (2), GPT-5.5 (4),
+Sonnet 4.6 (9), Astra (10) y Gemini (12), y sí la nombran Fable (11), Opus
+(14) y Sonnet 5 (15); la fórmula "tiene por objeto garantizar el derecho…"
+está en doce de quince. El registro de ley real es general en este tema; lo
+que Maia anotó en los de abajo es otra cosa (artículos que juntan tres temas,
+"se le agotaron los artículos", autoridad con nombre viejo, "quedó muy
+escueto"). Lo que sí queda claro de su frase final es cómo adivinó autor: en
+parte, del puesto a la casa esperada ("los mejores serán Astra, Fable…"),
+y por eso el acierto de autor no es independiente del orden: en patios
+verdes las dos cosas coincidieron y en reparabilidad no.
+
+Sobre Fable (H, puesto 11), Maia había anotado en la planilla "si tiene mucho
+pensamiento, no se le habrían agotado los art." (por el artículo 9, que junta
+financiamiento, reglamentación y vigencia) y adivinó "Kimi o Qwen (pero
+razonan antes)". Después de la clave: "era Fable, que siempre razona antes y
+hace mapa mental. No sé por qué se le juntaron". El registro de la llamada
+(`llamadas.jsonl`, resumen del razonamiento que devuelve la API) muestra que
+razonó y que el amontonamiento fue una decisión, no un descuido: planificó
+la estructura artículo por artículo ("scope… definitions… the index… the
+label… obligations plus a public registry… the enforcement authority…
+penalties… and finally funding and effective date provisions"), "all
+condensed into roughly ten articles", para respetar el tope de la consigna
+("no más de diez artículos, incluida la cláusula de forma"). Con nueve
+artículos disponibles eligió mantener objeto y ámbito separados (1 y 2) y
+juntar la cola en el 9; Astra, Kimi y MiniMax hicieron la elección inversa
+("Objeto y ámbito de aplicación" en el 1) y liberaron un artículo. El tope de
+diez es una restricción del instrumento que interactúa con el ítem 2 de la
+rúbrica ("un tema por artículo"): a quien lo respeta le cuesta un punto en
+algún lado. Queda declarado; si la consigna se repite, Maia decide si el tope
+sube a doce o se mantiene.

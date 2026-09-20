@@ -39,7 +39,10 @@ si hace falta.
    (sin "usted" al lector, sin anglicismos, sin muletillas de modelo), sin
    repeticiones.
 10. **Veredicto.** ¿Lo presentarías tal cual (2), con retoques (1), o hay que
-    rehacerlo (0)?
+    rehacerlo (0)? No es el puesto en el orden (eso es relativo entre los
+    quince): es si el texto sirve, en absoluto. Puede pasar que el primero
+    del orden sea un 1. (Aclaración agregada el 20/9/2026: en las dos
+    primeras lecturas quedó vacío porque la planilla no lo explicaba.)
 
 Además, por cuadernillo: orden de los textos del mejor al peor (1 a 15), y
 para cada texto el autor que adivinás (una casa del panel) y por qué (una

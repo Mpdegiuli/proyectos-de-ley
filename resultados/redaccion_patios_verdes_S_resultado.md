@@ -104,10 +104,13 @@ Maia no puntuó todos los ítems ni el veredicto: sus comentarios por ítem
 están en la planilla y el orden hace de veredicto. Ítems formales que
 quedan para las tres casas codificadoras: encabezado y cláusula de forma,
 un tema por artículo, autoridad nombrada y vigente, leyes citadas
-existentes y pertinentes. Afirmaciones de Maia a verificar contra fuente:
-que la ley 25.621 (citada por Kimi, K) "es una ley sobre transporte aéreo
-con EEUU"; que la ley 27.592 (Mistral, F; Grok, M) y la 27.621 (varias)
-existen y son las que cada texto dice. Observación suya que se confirma por
+existentes y pertinentes. Maia verificó en internet, durante la lectura,
+cada ley citada y cada nombre de organismo; los codificadores no tienen
+internet, así que su ítem 6 es una segunda opinión desde el entrenamiento,
+no la verificación primaria. Afirmaciones suyas que conviene dejar con la
+fuente al lado: que la ley 25.621 (citada por Kimi, K) "es una ley sobre
+transporte aéreo con EEUU"; que la ley 27.592 (Mistral, F; Grok, M) y la
+27.621 (varias) existen y son las que cada texto dice. Observación suya que se confirma por
 búsqueda: nueve textos nombran "Ministerio de Educación" (Opus, Sonnet 4.6,
 Sonnet 5, GLM, Grok, Kimi, MiniMax, Mistral) o "Ministerio de Ambiente"
 (Sonnet 4.6, Sonnet 5, GLM, MiniMax, Mistral), carteras que ya no existen
