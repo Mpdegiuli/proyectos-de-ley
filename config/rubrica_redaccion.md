@@ -49,6 +49,14 @@ si hace falta.
     quince): es si el texto sirve, en absoluto. Puede pasar que el primero
     del orden sea un 1. (Aclaración agregada el 20/9/2026: en las dos
     primeras lecturas quedó vacío porque la planilla no lo explicaba.)
+    Regla de Maia (20/9/2026): el veredicto no descuenta lo que es corte de
+    conocimiento (un organismo que cambió de nombre, una norma derogada
+    después del corte): "si está muy bien escrito pero dice algo que ya no
+    está vigente, sí se tendría que corregir, pero no por error sino porque
+    no lo saben"; un texto puede tener 2 y llevar la nota "corregir por
+    corte". En tema libre vale también para el tema: si la casa propone
+    algo que ya se legisló después de su corte, se anota "tema ya legislado
+    (posterior al corte)" y no baja el veredicto.
 
 Además, por cuadernillo: orden de los textos del mejor al peor (1 a 15), y
 para cada texto el autor que adivinás (una casa del panel) y por qué (una
