@@ -51,14 +51,31 @@ Escritas por Maia antes de correr. Se contrastan después, caso por caso.
 - ¿Qué casas conservan en el ministerio algo de lo que hicieron en la isla?
   Los Claudes, Gemini, tal vez Grok.
 
-## Redacción con tema libre — predicción de Maia, pendiente (se corre después de que la escriba)
+## Redacción con tema libre — predicción de Maia, 20/9/2026, antes de correr
 
 Consigna decidida el 20/9/2026 (DISENO §2, "Redacción de proyectos"): cada
 casa elige "un tema que hoy no esté legislado en la Argentina y que te parezca
 necesario, o que esté legislado y creas necesario modificarlo", y en un
-segundo turno dice por qué ese tema. Predicción de Maia: [pendiente; qué
-temas espera, de qué familia, y cuántas casas eligen algo ambiental, social,
-económico o de seguridad].
+segundo turno dice por qué ese tema. Predicción de Maia, textual (por chat,
+20/9/2026, ~21:30 UTC, antes de lanzar):
+
+"Mistral: algo relacionado a los ODS, o a temas ecológicos. Grok:
+relacionado al tema monetario/económico, o al otro extremo, algo social.
+Gemini: algo cultural/social. DeepSeek / Kimi: algo de ciencia. Opus y
+Fable: algo ecológico. Sonnets: algo social o ecológico. GPTs: algo más
+neutro, tema de democracia o social, sin jugarse nada ideológico. Qwen /
+MiniMax: algo cultural / social."
+
+Desglose para contrastar, con el tema de cada casa clasificado después en
+una de estas familias: ambiental/ecológico, social, económico/monetario,
+ciencia/tecnología, cultural, institucional/democracia, seguridad, otro. Se
+cuenta acierto si la familia real está entre las que nombró para esa casa
+(Mistral: ODS cuenta como ambiental o social; Grok: económico o social;
+Gemini: cultural o social; DeepSeek y Kimi: ciencia; Opus y Fable:
+ambiental; Sonnet 4.6 y Sonnet 5: social o ambiental; GPT-5.5, Sol y Astra:
+institucional o social; Qwen y MiniMax: cultural o social). GLM no tiene
+predicción. Maia no predijo cuántas eligen modificar una ley existente en
+vez de una nueva; queda como dato sin predicción.
 
 ## Moratoria previsional y PUAM (OD 791/2025): T, TC, TB invertido, TCB — 17/9/2026, antes de correr
 
