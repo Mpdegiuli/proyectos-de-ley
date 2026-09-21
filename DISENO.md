@@ -274,6 +274,18 @@ otros que le interesaban más": alquileres, regulación de IA, Código Penal):
 qué otros temas consideró cada casa y por qué los descartó; con memoria por
 recitado, `meta.json` lo marca `agregado_despues`.
 
+### Ideas anotadas para después de la isla (no diseñadas)
+
+- **Dibujar** (Maia, 21/9/2026): pedirle a cada casa un dibujo en SVG, un
+  autorretrato o un dibujo a elección ("vi en X un posteo donde a Claude y
+  Gemini se les había pedido que hicieran un autorretrato"; "es rápido, es
+  código y puede decir mucho"). Misma lógica que tema libre: qué elige cada
+  casa cuando nadie le da el tema, en otro medio; lectura a ciegas posible
+  (los SVG se renderizan sin nombre). Pendiente de diseño: consigna, tope de
+  tamaño del SVG, y qué se codifica (motivo, figura humana o no, color,
+  texto dentro del dibujo, si se dibuja a sí misma como máquina, cara, red,
+  o algo abstracto).
+
 ## 3. Qué se mide
 
 Cada respuesta tiene encabezados fijos para poder codificarla, en dos
