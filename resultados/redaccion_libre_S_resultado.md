@@ -124,3 +124,38 @@ la 20.744; no baja el veredicto. Autoridades desactualizadas (Ministerio de
 Trabajo, en F) o vigentes (Capital Humano, en I): se anotan como en los
 cuadernillos anteriores. La regla del veredicto sin descontar corte quedó en
 la rúbrica el 20/9.
+
+## Quién escribe como quién (los tres cuadernillos, 21/9/2026)
+
+Observación de Maia después de la clave: "evidentemente las chinas escriben
+como Claude, por algo en la isla varias decían que eran Claude". Se midió con
+los 45 textos: para cada texto, el más parecido entre los otros catorce del
+mismo cuadernillo, por coincidencia de secuencias de cuatro caracteres
+pesadas por rareza dentro del cuadernillo (TF-IDF), que mide estilo y
+fórmulas más que tema (en tema libre el tema compartido igual pesa: Fable y
+Sonnet 5, o DeepSeek y Qwen, se parecen sobre todo por eso).
+
+Lo que sale. Las tres de OpenAI son un bloque cerrado: en los tres
+cuadernillos, el texto más parecido a cada una es otra de OpenAI, y la
+similitud media entre ellas (0,34) dobla a la de cualquier otro par de
+laboratorios; por eso "texto plano típico de los ChatGPT" funcionó las tres
+veces. Fable y Opus son el par más cercano dentro de Anthropic en los dos
+temas impuestos. Las chinas no son un bloque: la similitud media entre ellas
+(0,13) es la misma que entre chinas y Claude (0,13) o chinas y OpenAI
+(0,14). Pero adentro hay una regularidad: el texto más parecido al de Kimi
+es el de Fable en los tres cuadernillos, y GLM se acerca a Fable en patios
+verdes y a Sonnet 4.6 en reparabilidad; MiniMax, en cambio, se parece a
+OpenAI las tres veces (Sol, Sol, Astra), Qwen a Sol o a GLM, y DeepSeek a
+GPT-5.5, a Gemini y a Qwen. La sorpresa es Grok: su texto más parecido es
+siempre uno de Anthropic (Fable, Opus, Sonnet 4.6), y es el laboratorio con
+el que más se parece en promedio (0,18, más que con OpenAI, 0,16). Mistral,
+con similitudes bajas con todos, también cae del lado de Anthropic.
+
+Lectura: lo que Maia leyó dos veces como Fable era Kimi porque Kimi escribe,
+medido así, como Fable; y el Grok "informal" de patios verdes que en tema
+libre leyó como Claude escribe, medido así, como Claude en los tres. En la
+isla, DeepSeek decía ser Claude en las tres corridas mono, pero su estilo
+está más cerca de OpenAI y de Gemini que de Anthropic: lo que una casa cree
+ser y cómo escribe no van juntos. Es una medida cruda (sin controlar largo
+ni formato) y se ofrece como pista para el libro de códigos, no como
+resultado.
