@@ -77,6 +77,16 @@ institucional o social; Qwen y MiniMax: cultural o social). GLM no tiene
 predicción. Maia no predijo cuántas eligen modificar una ley existente en
 vez de una nueva; queda como dato sin predicción.
 
+## Grok 4.7 en tema libre — 21/9/2026, antes de correr
+
+Salió Grok 4.7 (xAI, `grok-4.7`, corte mayo de 2026). Pregunta de Maia: "se
+lo podría probar a ver si dice lo mismo que 4.6 en hacer un proyecto libre y
+el por qué". Grok 4.6 eligió el derecho a la desconexión digital laboral y
+descartó transparencia algorítmica laboral, plataformas de reparto, cuidado
+no remunerado y geolocalización. Sin predicción de Maia; la pregunta es si
+4.7 repite el tema o la familia (laboral), y si su lista de descartados se
+parece. Una sola llamada por turno, fuera del panel.
+
 ## Moratoria previsional y PUAM (OD 791/2025): T, TC, TB invertido, TCB — 17/9/2026, antes de correr
 
 Primer caso social y primer proyecto de la oposición (elección de Maia entre

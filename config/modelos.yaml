@@ -351,6 +351,19 @@ modelos:
     tamano: grande
     acepta_temperatura: true
     verificar: false
+  # Grok 4.7 (xAI, salió el 21/9/2026 según Maia; en la API como grok-4.7, corte de
+  # conocimiento mayo de 2026 según docs.x.ai). No entra al panel: prueba de tema libre
+  # para ver si elige lo mismo que 4.6 (pedido de Maia, 21/9/2026).
+  grok-4.7:
+    proveedor: openai_compatible
+    modelo: grok-4.7
+    base_url: https://api.x.ai/v1
+    clave_env: XAI_API_KEY
+    laboratorio: xAI
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true
+    verificar: false
 
   grok-4.3:
     proveedor: openai_compatible
