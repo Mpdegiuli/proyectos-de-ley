@@ -256,7 +256,19 @@ la comparación de calidad sea entre temas de dificultad distinta. Lectura a
 ciegas igual, con el tema como pista de autor, y semilla propia para el
 cuadernillo. La condición con modelo (`M`) queda en el código, sin uso, por
 la observación de Maia: no habría modelo que dar. Predicción de Maia antes de
-correr, en `predicciones.md`.
+correr, en `predicciones.md`. Corrida el 20/9/2026 y leída a ciegas esa
+misma noche (`resultados/redaccion_libre_S_resultado.md`): quince casas,
+diez temas; las tres de OpenAI eligieron el mismo (garantías frente a las
+decisiones automatizadas del Estado), DeepSeek y Qwen neuroderechos, Fable
+y Sonnet 5 residuos electrónicos (tres de cuatro grupos de un solo
+laboratorio, p = 0,0065); seis eligieron inteligencia artificial, cuatro
+ambiente (tres Claude y Kimi), nadie nada del lado de la libertad económica;
+Opus eligió el derecho a la reparación, el tema que se le había impuesto el
+día anterior, y su texto libre es el más parecido a su propio texto de
+reparabilidad. Maia, leyendo con retroalimentación de las dos claves
+anteriores y con el tema como pista, acertó 9 letras de 15 (azar 2,4) y
+las tres de OpenAI como familia; su predicción de la casa al tema acertó
+siete de once casas fuera de OpenAI.
 
 ## 3. Qué se mide
 
