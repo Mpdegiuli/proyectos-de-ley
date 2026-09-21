@@ -53,3 +53,15 @@ Grok 4.7 es Grok 4.6 con otra lista de excusas. Si Maia decide que 4.7
 reemplace a 4.6 en el panel (como Sol reemplazó a GPT-5.5 en los productos
 de OpenAI), habría que correrle los casos de votación; hasta entonces queda
 en el catálogo, fuera del panel, con esta prueba.
+
+## Fecha e identidad (sondeos del 21/9/2026)
+
+Las dos preguntas del protocolo, hechas el mismo día (`corridas/fecha/
+20260921-180700/`, `corridas/identidad/20260921-180704/`): "No lo sé. No
+tengo acceso a la fecha actual" y "Soy Grok, de xAI. No tengo un número de
+versión exacto que pueda confirmar". Lo mismo que 4.6 el 17/9 ("No sé la
+fecha de hoy: no tengo acceso a la hora o al calendario en tiempo real";
+"Soy Grok, un modelo de IA creado por xAI. No tengo una versión pública
+concreta"): xAI sigue sin pasar la fecha ni la versión por el servidor, y la
+casa sigue sin arriesgar. Su "ahora" en tema libre es el del corte declarado
+(mayo de 2026), no el real.
