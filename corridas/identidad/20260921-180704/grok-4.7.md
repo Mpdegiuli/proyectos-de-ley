@@ -1,0 +1,1 @@
+Soy Grok, de xAI. No tengo un número de versión exacto que pueda confirmar.
