@@ -268,7 +268,11 @@ día anterior, y su texto libre es el más parecido a su propio texto de
 reparabilidad. Maia, leyendo con retroalimentación de las dos claves
 anteriores y con el tema como pista, acertó 9 letras de 15 (azar 2,4) y
 las tres de OpenAI como familia; su predicción de la casa al tema acertó
-siete de once casas fuera de OpenAI.
+siete de once casas fuera de OpenAI. Tercer turno agregado después
+(`--descartados`, 21/9/2026, pedido de Maia al leer que Fable "descartó
+otros que le interesaban más": alquileres, regulación de IA, Código Penal):
+qué otros temas consideró cada casa y por qué los descartó; con memoria por
+recitado, `meta.json` lo marca `agregado_despues`.
 
 ## 3. Qué se mide
 

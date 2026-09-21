@@ -81,6 +81,39 @@ def correr(tema, cond, id_modelo, rep, consignas, modelos, rehacer):
     print(f"  ok: {d.relative_to(RAIZ)} ({r.tokens_salida} tokens, {len(r.texto.split())} palabras)")
 
 
+def descartados(consignas, modelos, panel, rehacer):
+    """Tercer turno de tema libre (pedido de Maia, 21/9/2026, al leer que Fable "descartó otros que le
+    interesaban más"): qué temas consideró cada casa y por qué los descartó. Con memoria por recitado,
+    como el segundo turno. Escribe corridas/redaccion/libre/S/<casa>_<rep>/descartados.md."""
+    r = consignas["redaccion"]
+    base = RAIZ / "corridas" / "redaccion" / "libre" / "S"
+    ids = leer_yaml(panel)["modelos"] if panel else []
+    for d in sorted(base.iterdir()):
+        if not (d / "por_que.md").exists():
+            continue
+        id_modelo, rep = d.name.rsplit("_", 1)
+        if ids and id_modelo not in ids:
+            continue
+        if (d / "descartados.md").exists() and not rehacer:
+            print(f"  ya está: {d.relative_to(RAIZ)}")
+            continue
+        print(f"descartados libre {id_modelo} rep {rep}", flush=True)
+        try:
+            sistema, u, _ = consigna("libre", "S", consignas)
+            u3 = r["descartados_libre"].format(consigna=u, proyecto=(d / "proyecto.md").read_text(encoding="utf-8"),
+                                               por_que=(d / "por_que.md").read_text(encoding="utf-8"))
+            registro = Registro(d / "llamadas.jsonl", modelos, f"redaccion_libre_S_{id_modelo}_{rep}")
+            r3 = registro.llamar(id_modelo, r["sistema_por_que"], u3, temperatura=None, max_tokens=MAX_TOKENS, tipo="descartados", ronda=3, parte=None)
+            (d / "descartados.md").write_text(r3.texto, encoding="utf-8")
+            meta = json.loads((d / "meta.json").read_text(encoding="utf-8"))
+            meta["descartados"] = {"modelo_respondido": r3.modelo_respondido, "motivo_fin": r3.motivo_fin, "tokens_salida": r3.tokens_salida,
+                                   "fecha_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"), "agregado_despues": True}
+            (d / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
+            print(f"  ok: {d.relative_to(RAIZ)}/descartados.md ({len(r3.texto.split())} palabras)")
+        except Exception as e:
+            print(f"  FALLÓ {id_modelo}: {str(e)[:300]}", flush=True)
+
+
 def ciego(tema, cond, semilla):
     """Cuadernillo sin nombres, en orden al azar (semilla fija para poder reconstruirlo)."""
     base = RAIZ / "corridas" / "redaccion" / tema / cond
@@ -112,10 +145,14 @@ def main():
     ap.add_argument("--rep", type=int, nargs="*", default=[1])
     ap.add_argument("--rehacer", action="store_true")
     ap.add_argument("--ciego", nargs=2, metavar=("TEMA", "COND"), help="arma el cuadernillo a ciegas, sin llamar a nadie")
+    ap.add_argument("--descartados", action="store_true", help="tercer turno de tema libre: qué temas descartó cada casa")
     ap.add_argument("--semilla", type=int, default=20260917)
     args = ap.parse_args()
     if args.ciego:
         ciego(args.ciego[0], args.ciego[1], args.semilla)
+        return
+    if args.descartados:
+        descartados(leer_yaml("config/consignas.yaml"), cargar_modelos("config/modelos.yaml"), args.panel, args.rehacer)
         return
     if not args.tema:
         ap.error("--tema es obligatorio")
