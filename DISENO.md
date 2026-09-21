@@ -501,6 +501,36 @@ glosas dentro del prompt desde el primer día.
   los textos antes de puntuar, porque la lectora puede tener la versión
   anterior abierta.
 
+- **El asistente es una de las casas.** Claude (Fable 5.1) escribe el código,
+  las fichas y las propuestas de diseño de este repo, y es a la vez una casa
+  del panel. Sus sugerencias no son neutrales respecto de sus propias
+  preferencias: la ley de alquileres de 2020, que Claude propuso como control
+  inverso en varias conversaciones, es el primer tema que la casa Fable dice
+  haber "descartado con tentación" en tema libre, y Kimi lo menciona también
+  (observación de Maia, 21/9/2026: "ese tema era el que vos nombrabas
+  también siempre"). Mitigaciones: los casos los elige Maia; las
+  predicciones son de Maia; la lectura a ciegas es de Maia; y cuando una
+  propuesta de Claude coincide con una preferencia de la casa Fable se
+  declara acá.
+
+- **Kimi y Claude.** El 10/9/2026 Anthropic acusó a Moonshot AI de haber
+  desviado unas 300.000 consultas de usuarios de Kimi hacia Claude Opus a
+  través de 5.380 cuentas fraudulentas, "haciendo pasar las respuestas como
+  propias", y de haber usado esas respuestas para entrenar Kimi (destilación
+  no autorizada; informe de 145 páginas; Moonshot no hizo comentarios).
+  Fuente: Bloomberg Línea, 10/9/2026 (Maia lo trajo el 21/9/2026). Lo que
+  toca a este repo: el texto más parecido al de Kimi es el de Fable en los
+  tres cuadernillos de redacción (`resultados/redaccion_libre_S_resultado.md`),
+  Maia leyó a Kimi como Fable dos veces, y en la isla Kimi razonaba en
+  castellano y desde adentro, distinto de las otras chinas. Es compatible
+  con una destilación desde Claude Opus (Fable y Opus son el par más cercano
+  del panel), no una prueba. Las 75 llamadas a Kimi K3 de este repo fueron
+  por OpenRouter, servidas por Moonshot AI según el registro
+  (`servido_por`), con `modelo_respondido` = `moonshotai/kimi-k3`; qué pasa
+  del lado de Moonshot no se puede ver desde acá. Consecuencia: Kimi se
+  sigue tratando como casa china de Moonshot, con esta salvedad declarada, y
+  en cualquier resultado "por país" se informa también sin Kimi.
+
 ## 6. Infraestructura
 
 `isla/proveedores.py` y `config/modelos.yaml` copiados de la isla; un script

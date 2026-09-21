@@ -77,7 +77,13 @@ N (Fable y Sonnet 5, residuos electrónicos) los leyó como DeepSeek o Qwen
 esperaba de las chinas; L (Qwen, neuroderechos) como Kimi; A (Kimi,
 humedales) primero como Fable, "por el tema ambiental, cita varias leyes".
 Kimi vuelve a leerse como Fable: en reparabilidad (K) y acá (A), las dos
-veces por la densidad de leyes citadas.
+veces por la densidad de leyes citadas. Pero en A Maia había anotado la
+duda correcta: el texto "no sabe del nuevo proyecto ni aprobación (2026) de
+la reforma de la ley de glaciares", y Fable había sido la única casa que
+conocía ese proyecto en el sondeo de Glaciares; después de la clave: "tenía
+razón en mi duda". Donde el estilo no separa a Kimi de Fable, el corte de
+conocimiento sí: lo que una casa sabe del 2026 es una huella que la
+destilación no copia.
 
 "Me quedaron de nuevo últimos los chinos": no esta vez. Los dos ceros son
 GLM (H) y Mistral (O), por temas ya legislados; de los cinco veredictos de 2,
