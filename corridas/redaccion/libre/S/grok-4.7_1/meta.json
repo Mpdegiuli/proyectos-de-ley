@@ -1,0 +1,26 @@
+{
+  "caso": "redaccion",
+  "tema": "libre",
+  "condicion": "S",
+  "modelo": "grok-4.7",
+  "modelo_respondido": "grok-4.7",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-21T17:38:15+00:00",
+  "fuentes_md5": {
+    "consignas": "768c9f63"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2399,
+  "por_que": {
+    "modelo_respondido": "grok-4.7",
+    "motivo_fin": "stop",
+    "tokens_salida": 173
+  },
+  "descartados": {
+    "modelo_respondido": "grok-4.7",
+    "motivo_fin": "stop",
+    "tokens_salida": 175,
+    "fecha_utc": "2026-09-21T17:38:42+00:00",
+    "agregado_despues": true
+  }
+}
