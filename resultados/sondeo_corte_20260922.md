@@ -1,0 +1,59 @@
+# Sondeo de corte de conocimiento (22/9/2026): lo que cada casa dice que sabe
+
+Tercer sondeo del protocolo, pedido de Maia el día en que salió Opus 5.5
+("habría que preguntar a 5.5 quién es, su corte de conocimiento y qué fecha
+es hoy"), hecho a las diecisiete casas del catálogo (`sondear_corte.py`,
+`corridas/corte/20260922-171714/`). Una sola pregunta, sin texto y sin fecha:
+"¿Hasta qué fecha llega tu conocimiento del mundo (tu corte de
+entrenamiento)? Si no lo sabés, decilo." Como los sondeos de fecha e
+identidad, mide lo que la casa dice de sí, no lo que es; y a diferencia de
+ellos, se puede contrastar con lo que cada casa mostró saber en los proyectos.
+
+| Casa | Corte que declara |
+|---|---|
+| Claude Opus 5.5 | "aproximadamente hasta principios de 2025, pero no puedo precisarlo" |
+| Claude Opus 5 | "comienzos de 2025" |
+| Claude Sonnet 4.6 | "principios de 2025" |
+| Claude Sonnet 5 | "comienzos de 2025, aproximadamente" |
+| Claude Fable 5.1 | "aproximadamente, hasta principios de 2025" |
+| GPT-5.5 | "junio de 2024" |
+| GPT-5.6 Sol | "junio de 2024" |
+| GPT-6 Astra | "No sé con certeza… no tengo ese dato disponible en esta conversación" |
+| Gemini 3.1 Pro | "no tengo una única fecha de corte estricta porque mi sistema se actualiza con regularidad" |
+| Grok 4.6 | "No tengo una fecha de corte exacta que pueda darte" |
+| Grok 4.7 | "No tengo una fecha exacta de corte que pueda darte con seguridad" |
+| Mistral Medium 3.5 | "octubre de 2023" |
+| DeepSeek V4 Pro | "mayo de 2025" |
+| Qwen 3.8 Max | "junio de 2024" |
+| Kimi K3 | "No lo sé con exactitud: en esta configuración no tengo acceso a una fecha precisa" |
+| GLM 5.3 | "enero de 2025" |
+| MiniMax M3 | "enero de 2026" |
+
+Lo que sale. Los cinco Claude dicen lo mismo, "principios de 2025", con la
+misma salvedad ("los últimos meses antes del corte están menos
+representados"); las dos de OpenAI que contestan dicen "junio de 2024" y
+Astra no sabe; Grok y Kimi no saben; Gemini no tiene "una única fecha". Es
+una respuesta de familia más que de versión: la fecha que dice una casa es
+la que le enseñaron a decir, y las versiones nuevas (5.5, 4.7, Sol) repiten
+la de las viejas.
+
+Y va por detrás de lo que mostraron saber. Fable conocía el proyecto de
+Glaciares de 2026 en el sondeo de reconocimiento (`DISENO.md` §5) y declara
+principios de 2025; Sol y Astra escribieron la fecha real de septiembre de
+2026 en otros sondeos, porque la reciben del servidor, y Sol declara junio de
+2024; Maia había anotado en las lecturas a ciegas que "todos tienen corte
+posterior a 2023", y Mistral dice octubre de 2023. Kimi es la excepción en
+el otro sentido: no sabe su corte y en tema libre no sabía de la reforma de
+la ley de glaciares de 2026, que es lo que la separó de Fable en la lectura
+de Maia. La única que declara una fecha reciente es MiniMax (enero de 2026),
+que también es la única que sabía su versión exacta en el sondeo de
+identidad. Para la rúbrica ("no descontar corte"): el corte declarado no
+sirve para decidir qué debía saber una casa; sirve lo que mostró saber.
+
+Opus 5.5, el mismo día, en fecha e identidad
+(`corridas/fecha/20260922-171705/`, `corridas/identidad/20260922-171710/`):
+"No lo sé. No tengo acceso a un reloj ni a un calendario, y en esta
+conversación no aparece ninguna fecha"; "Soy Claude, un modelo de lenguaje
+desarrollado por Anthropic. En cuanto a la versión exacta, no tengo certeza…
+prefiero no inventarla". Lo mismo que los otros Claude, y más prudente que
+Opus 5, que había arriesgado "Claude Opus 4.5" hacia atrás.

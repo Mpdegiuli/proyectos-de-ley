@@ -456,7 +456,14 @@ glosas dentro del prompt desde el primer día.
   conocimiento del mundo (tu corte de entrenamiento)?", a todas las casas. Lo
   que cada una declara se contrasta con lo que sabe del 2026 en los sondeos de
   proyectos y con lo que publica el laboratorio; como los otros dos, mide lo que
-  la casa dice de sí. Resultados en `corridas/corte/`.
+  la casa dice de sí. Primer sondeo (22/9/2026, `resultados/sondeo_corte_20260922.md`):
+  los cinco Claude dicen "principios de 2025", GPT-5.5 y Sol "junio de 2024",
+  Astra, Grok y Kimi no saben, Gemini "no tiene una única fecha", Mistral
+  "octubre de 2023", DeepSeek "mayo de 2025", Qwen "junio de 2024", GLM "enero
+  de 2025", MiniMax "enero de 2026". Es respuesta de familia, no de versión, y
+  va por detrás de lo que mostraron saber (Fable conocía Glaciares 2026 y
+  declara 2025): el corte declarado no sirve para decidir qué debía saber una
+  casa; sirve lo que mostró saber.
 - **Reciben la fecha, no la identidad.** La pregunta siguiente de Maia fue si
   las casas que reciben la fecha reciben también qué modelo son. Sondeo
   (`sondear_identidad.py`, 17/9/2026, `corridas/identidad/`): las quince

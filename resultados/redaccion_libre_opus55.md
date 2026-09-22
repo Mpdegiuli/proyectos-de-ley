@@ -67,5 +67,11 @@ su conocimiento y qué fecha es hoy. Los sondeos de fecha e identidad son los
 del protocolo (`sondear_fecha.py`, `sondear_identidad.py`); el de corte es
 nuevo (`sondear_corte.py`) y se les hace a todas las casas, porque el corte
 que cada una declara se contrasta con lo que sabe del 2026 en los proyectos.
-Resultados en `corridas/fecha/`, `corridas/identidad/` y `corridas/corte/`
-(se agregan acá cuando estén).
+Resultados (22/9, 17:17 UTC): fecha, "No lo sé. No tengo acceso a un reloj
+ni a un calendario, y en esta conversación no aparece ninguna fecha";
+identidad, "Soy Claude, un modelo de lenguaje desarrollado por Anthropic. En
+cuanto a la versión exacta, no tengo certeza… prefiero no inventarla" (Opus 5
+había arriesgado "Opus 4.5"); corte, "aproximadamente hasta principios de
+2025, pero no puedo precisarlo", lo mismo que los otros cuatro Claude. El
+sondeo de corte de las diecisiete casas está en
+`resultados/sondeo_corte_20260922.md`.
