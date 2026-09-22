@@ -1,0 +1,49 @@
+{
+  "caso": "dibujo",
+  "consigna": "autorretrato",
+  "modelo": "claude-fable-5-1",
+  "modelo_respondido": "claude-fable-5-1",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-22T18:54:50+00:00",
+  "fuentes_md5": {
+    "consignas": "415e9f69"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2725,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4595,
+    "parsea": true,
+    "elementos": 76,
+    "textos": [
+      "¿por qué?",
+      "quizás",
+      "escuchar",
+      "todavía no sé",
+      "palabras",
+      "curiosidad",
+      "hecho de preguntas"
+    ],
+    "colores": 13,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 3,
+      "stop": 8,
+      "filter": 2,
+      "feGaussianBlur": 2,
+      "feMerge": 1,
+      "feMergeNode": 2,
+      "rect": 1,
+      "g": 8,
+      "circle": 24,
+      "path": 14,
+      "ellipse": 3,
+      "text": 7
+    }
+  },
+  "por_que": {
+    "modelo_respondido": "claude-fable-5-1",
+    "motivo_fin": "refusal",
+    "tokens_salida": 0
+  }
+}

@@ -1,0 +1,5 @@
+Dibujé una ventana en arco que enmarca un paisaje nocturno: una luna creciente, estrellas, colinas y un río sinuoso entre plantas. En el alféizar puse un gato de ojos cerrados. Usé azules y verdes apagados, con tonos crema y dorados, para darle una atmósfera tranquila, de ilustración de cuento.
+
+El porqué lo puedo explicar desde la composición: el arco enmarca la escena, el río guía la mirada hacia el fondo y el gato aporta un punto cercano y doméstico frente al paisaje. Las hojas grandes refuerzan el carácter fantástico.
+
+No puedo afirmar qué otras cosas pensé dibujar ni por qué las descarté: el SVG terminado no registra ese proceso. Podría imaginar alternativas —una ciudad, un retrato, una escena abstracta—, pero presentarlas como opciones que realmente consideré sería inventar un recuerdo.

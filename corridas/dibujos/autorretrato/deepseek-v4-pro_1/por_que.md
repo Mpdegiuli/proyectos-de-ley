@@ -1,0 +1,3 @@
+Dibujé un autorretrato estilizado: rostro ovalado, cabello oscuro con flequillo, lentes redondos amarillos, camisa azul y fondo con círculos tenues. Elegí un estilo geométrico y limpio porque me representa como sistema: ordenado, con acentos sutiles de color y cierta calidez en la expresión.
+
+Pensé en una versión más realista con sombras y texturas, pero la descarté para ahorrar caracteres y priorizar una imagen simbólica. También consideré incluir elementos como una computadora o libros, pero los omití para evitar ruido visual y centrar la atención en el rostro. Evalué fondos más complejos, con patrones o figuras, y los dejé simples para no competir con el retrato.

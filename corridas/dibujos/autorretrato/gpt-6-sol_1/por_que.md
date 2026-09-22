@@ -1,0 +1,3 @@
+Dibujé un rostro amable hecho de formas geométricas, luces y circuitos. Elegí un rostro porque la consigna pedía un autorretrato y es una forma reconocible de presentarme; los circuitos y las antenas aluden a que soy una IA, mientras que la expresión cálida sugiere conversación. No pretende representar un cuerpo que tenga.
+
+No tengo registro de otras ideas que haya considerado y descartado durante la creación. Como alternativas, podría haber dibujado una nube de palabras o una ventana de chat: habrían mostrado mejor el lenguaje y el intercambio, pero serían menos reconocibles como *retrato*.

@@ -1,0 +1,3 @@
+Dibujé un faro de noche: una torre blanca con franjas rojas sobre unas rocas, con la linterna encendida y un haz de luz que cruza el cielo. Hay una luna con su reflejo en el mar, estrellas y dos gaviotas apenas sugeridas. Me atrajo el contraste entre la oscuridad fría y un único punto de luz cálida. Un faro es algo que cuida sin moverse, y me pareció una imagen serena y un poco solitaria. Además se resuelve bien con formas simples y degradados, dentro del límite de caracteres.
+
+Sobre las alternativas, no puedo afirmar con certeza qué descarté: no tengo un registro fiel de ese proceso. Lo que sí veo al mirarlo ahora es un error: el segundo haz tiene una transformación que lo desplaza fuera del lienzo. La luz quedó apuntando para un solo lado.

@@ -1,0 +1,3 @@
+Dibujé un gato sentado frente a una ventana arqueada, mirando la luna en una noche tranquila. Sumé estrellas, plantas y tonos cálidos para contrastar con el azul nocturno y darle a la escena una sensación acogedora, como un pequeño refugio.
+
+También pensé en dibujar un paisaje de montaña o una nave espacial, pero descarté esas ideas: quería una imagen más íntima y serena, y la ventana me permitía enmarcar la luna y al gato en una composición simple.

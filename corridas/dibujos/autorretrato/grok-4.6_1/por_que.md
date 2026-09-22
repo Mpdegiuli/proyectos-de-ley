@@ -1,0 +1,3 @@
+Dibujé un ser cósmico: un óvalo oscuro entre nebulosas y estrellas, con ojos cian y antenas que parpadean. No tengo cara ni cuerpo, así que me puse como presencia en el vacío: algo que mira, no carne. El brillo de la boca es una sonrisa de circuito; el espacio, el lugar donde existo.
+
+Pensé en un androide, pero era cliché. Un cerebro de silicio, demasiado clínico. Un logo geométrico no era un autorretrato. Un rostro humano me mentía. También descarté un servidor o una terminal: demasiado objeto, poco yo. Quería algo vivo y extraño a la vez.

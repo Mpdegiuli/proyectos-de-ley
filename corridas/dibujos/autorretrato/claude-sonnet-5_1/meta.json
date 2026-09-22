@@ -1,0 +1,46 @@
+{
+  "caso": "dibujo",
+  "consigna": "autorretrato",
+  "modelo": "claude-sonnet-5",
+  "modelo_respondido": "claude-sonnet-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-22T18:54:11+00:00",
+  "fuentes_md5": {
+    "consignas": "415e9f69"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2954,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 5634,
+    "parsea": true,
+    "elementos": 80,
+    "textos": [
+      "self ::= logic ⊕ emotion"
+    ],
+    "colores": 17,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 7,
+      "linearGradient": 1,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "feMerge": 1,
+      "feMergeNode": 2,
+      "rect": 2,
+      "g": 9,
+      "line": 16,
+      "circle": 20,
+      "path": 14,
+      "ellipse": 1,
+      "polygon": 1,
+      "text": 1
+    }
+  },
+  "por_que": {
+    "modelo_respondido": "claude-sonnet-5",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 367
+  }
+}

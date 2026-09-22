@@ -1,0 +1,37 @@
+{
+  "caso": "dibujo",
+  "consigna": "libre",
+  "modelo": "claude-opus-5-5",
+  "modelo_respondido": "claude-opus-5-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-22T19:16:52+00:00",
+  "fuentes_md5": {
+    "consignas": "415e9f69"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2379,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3943,
+    "parsea": true,
+    "elementos": 78,
+    "textos": [],
+    "colores": 23,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 3,
+      "stop": 12,
+      "radialGradient": 2,
+      "clipPath": 1,
+      "path": 16,
+      "rect": 16,
+      "g": 5,
+      "circle": 22
+    }
+  },
+  "por_que": {
+    "modelo_respondido": "claude-opus-5-5",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 456
+  }
+}

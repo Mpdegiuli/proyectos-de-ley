@@ -1,0 +1,3 @@
+En el SVG, dibujé una composición alegre y colorida que combina diferentes elementos geométricos: un cielo azul, un sol amarillo con un fondo púrpura, y algunos elementos decorativos como líneas diagonales y texto. La idea fue crear una obra que evocara una sensación de felicidad y diversión.
+
+Inicialmente, pensé en incluir más elementos naturales, como árboles o nubes, para dar un toque más paisajístico, pero decidí que una estética más abstracta permitiría que el espectador interpretara la obra de diversas maneras. Además, pensé en incorporar un fondo de gradientes más complejos, pero preferí mantener la simplicidad para no saturar la imagen. Quería que cada elemento tuviera su propio espacio y que la combinación de colores fuera llamativa sin ser abrumadora.

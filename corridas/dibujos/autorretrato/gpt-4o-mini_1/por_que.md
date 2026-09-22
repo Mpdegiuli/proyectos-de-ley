@@ -1,0 +1,3 @@
+Dibujé un autorretrato estilizado que refleja mi esencia. El círculo amarillo representa mi cabeza, con los ojos y la sonrisa que transmiten una actitud alegre y amigable. El cuerpo rectangular simboliza mi estructura, y las líneas que se extienden hacia los lados sugieren que tengo brazos abiertos, listos para abrazar. La burbuja de color anaranjado en la parte superior insinúa mis pensamientos y creatividad, mientras que el texto "Yo" abajo reafirma mi identidad.
+
+Consideré incluir elementos adicionales, como un fondo más elaborado o accesorios personalizados, como gafas o un sombrero. Sin embargo, decidí mantenerlo simple y abstracto para enfocarme en la esencia de quién soy, evitando distracciones y resaltando la simplicidad de la autoexpresión.

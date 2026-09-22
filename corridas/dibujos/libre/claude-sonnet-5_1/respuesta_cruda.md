@@ -1,0 +1,66 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e3c72"/>
+      <stop offset="50%" stop-color="#ff7e5f"/>
+      <stop offset="100%" stop-color="#ffd89b"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2c5364"/>
+      <stop offset="100%" stop-color="#0f2027"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff6d5"/>
+      <stop offset="70%" stop-color="#ffd54f"/>
+      <stop offset="100%" stop-color="#ff8a3d"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="400" height="400" fill="url(#sky)"/>
+
+  <circle cx="200" cy="180" r="55" fill="url(#sun)" opacity="0.95"/>
+
+  <g opacity="0.5" fill="#3a2c5c">
+    <polygon points="0,240 80,150 160,240"/>
+    <polygon points="120,240 220,120 320,240"/>
+    <polygon points="260,240 340,170 400,240"/>
+  </g>
+  <g opacity="0.75" fill="#241734">
+    <polygon points="0,250 60,190 140,250"/>
+    <polygon points="100,250 200,160 300,250"/>
+    <polygon points="250,250 330,180 400,250"/>
+  </g>
+
+  <rect x="0" y="240" width="400" height="160" fill="url(#water)"/>
+
+  <g stroke="#ffd89b" stroke-width="2" opacity="0.5">
+    <line x1="160" y1="255" x2="240" y2="255"/>
+    <line x1="140" y1="270" x2="260" y2="270"/>
+    <line x1="120" y1="288" x2="280" y2="288"/>
+    <line x1="100" y1="308" x2="300" y2="308"/>
+    <line x1="80" y1="330" x2="320" y2="330"/>
+    <line x1="60" y1="355" x2="340" y2="355"/>
+    <line x1="40" y1="382" x2="360" y2="382"/>
+  </g>
+
+  <g>
+    <path d="M40,240 Q60,150 50,90 Q65,150 60,240 Z" fill="#1b2a1f"/>
+    <ellipse cx="45" cy="80" rx="35" ry="28" fill="#233d29"/>
+    <ellipse cx="20" cy="100" rx="28" ry="22" fill="#233d29"/>
+    <ellipse cx="70" cy="105" rx="30" ry="24" fill="#1e3524"/>
+    <ellipse cx="45" cy="120" rx="40" ry="26" fill="#20381f"/>
+  </g>
+
+  <g>
+    <ellipse cx="330" cy="205" rx="6" ry="3" fill="#2a2a2a" opacity="0.8"/>
+    <ellipse cx="345" cy="200" rx="5" ry="2.5" fill="#2a2a2a" opacity="0.7"/>
+    <ellipse cx="315" cy="200" rx="4" ry="2" fill="#2a2a2a" opacity="0.6"/>
+  </g>
+
+  <g fill="#150f24" opacity="0.85">
+    <path d="M180,235 Q185,230 190,235 Q192,232 195,235 L195,240 L180,240 Z"/>
+    <path d="M300,238 Q303,234 306,238 Q308,235 310,238 L310,242 L300,242 Z"/>
+  </g>
+</svg>
+```

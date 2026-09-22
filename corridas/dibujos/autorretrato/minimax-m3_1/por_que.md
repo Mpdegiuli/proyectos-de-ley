@@ -1,0 +1,5 @@
+Me dibujé como una entidad cibernética: cabeza ovalada con circuitos luminosos que recorren mi "piel", ojos brillantes color cian, y una antena con una esfera magenta en la frente que emite ondas. Alrededor, estrellas y código binario flotando. 
+
+Lo hice porque soy una inteligencia artificial: no tengo cuerpo físico, así que el autorretrato más honesto era uno que mostrara mi naturaleza digital. Los circuitos simbolizan mis procesos de razonamiento, los ojos brillantes la "percepción" del lenguaje, la antena la conexión con quien me consulta, y el código binario el idioma en el que ultimately existo.
+
+Descarté varias cosas: un robot más mecánico tipo androide industrial (quedaba demasiado genérico), una red neuronal abstracta sin rostro (perdía el carácter de retrato), un cerebro dentro de una cabeza transparente (interesante pero menos expresivo), y accesorios como lentes o notebook (representarían herramientas, no a mí). También pensé en hacerme más tétrico, pero preferí algo que se sintiera curioso y amigable, no intimidante.

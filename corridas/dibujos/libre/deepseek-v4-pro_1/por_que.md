@@ -1,0 +1,5 @@
+Dibujé un paisaje crepuscular: un cielo con degradado desde el azul noche hasta tonos anaranjados y dorados, estrellas, un sol bajo, tres capas de montañas y un río que refleja el cielo. También agregué árboles oscuros a los costados, como marco.
+
+Lo elegí porque me permitía combinar color, profundidad y tranquilidad. Quería una escena contemplativa, con contraste entre lo frío del cielo y lo cálido del sol.
+
+Pensé en dibujar una ciudad geométrica y una escena submarina, pero las descarté: la ciudad me resultaba demasiado rígida y quería algo más orgánico; la escena submarina exigía muchas curvas y transparencias que podían volverse confusas en poco espacio. También consideré un retrato abstracto, pero me pareció menos narrativo. Preferí el paisaje porque me dejaba trabajar capas, luz y silencio visual.

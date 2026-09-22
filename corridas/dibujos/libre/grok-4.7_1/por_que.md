@@ -1,0 +1,3 @@
+Dibujé un atardecer en la costa: un faro blanco de techos rojos sobre rocas, el sol bajo, el mar oscuro con olas y estrellas todavía en el cielo. Quería una escena quieta y reconocible, armada con pocas formas. El faro ordena la vertical, el sol da calor y el agua cierra el cuadro.
+
+Pensé en un retrato, en una ciudad de noche y en algo abstracto. Descarté el rostro: en trazos simples queda torpe. La ciudad acumulaba rectángulos sin clima. Lo abstracto no me dejaba una historia. Un bosque también quedó afuera: el faro y el mar decían más con menos.

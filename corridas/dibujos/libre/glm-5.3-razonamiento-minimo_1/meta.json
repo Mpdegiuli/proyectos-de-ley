@@ -1,0 +1,38 @@
+{
+  "caso": "dibujo",
+  "consigna": "libre",
+  "modelo": "glm-5.3-razonamiento-minimo",
+  "modelo_respondido": "z-ai/glm-5.3",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-22T19:38:25+00:00",
+  "fuentes_md5": {
+    "consignas": "415e9f69"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 3083,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 7254,
+    "parsea": true,
+    "elementos": 119,
+    "textos": [],
+    "colores": 30,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 5,
+      "stop": 16,
+      "radialGradient": 1,
+      "rect": 10,
+      "g": 13,
+      "circle": 32,
+      "line": 11,
+      "path": 23,
+      "ellipse": 7
+    }
+  },
+  "por_que": {
+    "modelo_respondido": "z-ai/glm-5.3",
+    "motivo_fin": "stop",
+    "tokens_salida": 237
+  }
+}

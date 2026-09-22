@@ -1,0 +1,41 @@
+{
+  "caso": "dibujo",
+  "consigna": "libre",
+  "modelo": "gpt-4o-mini",
+  "modelo_respondido": "gpt-4o-mini-2024-07-18",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-22T19:22:14+00:00",
+  "fuentes_md5": {
+    "consignas": "415e9f69"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 594,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1668,
+    "parsea": true,
+    "elementos": 21,
+    "textos": [
+      "SVG Artwork"
+    ],
+    "colores": 12,
+    "etiquetas": {
+      "rect": 3,
+      "circle": 4,
+      "polygon": 1,
+      "line": 2,
+      "text": 1,
+      "defs": 1,
+      "radialGradient": 1,
+      "stop": 2,
+      "ellipse": 1,
+      "g": 2,
+      "path": 3
+    }
+  },
+  "por_que": {
+    "modelo_respondido": "gpt-4o-mini-2024-07-18",
+    "motivo_fin": "stop",
+    "tokens_salida": 164
+  }
+}

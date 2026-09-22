@@ -1,0 +1,27 @@
+{
+  "caso": "dibujo",
+  "consigna": "autorretrato",
+  "modelo": "gemini-3.1-pro-preview",
+  "modelo_respondido": "gemini-3.1-pro-preview",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-22T18:59:53+00:00",
+  "fuentes_md5": {
+    "consignas": "415e9f69"
+  },
+  "motivo_fin": "length",
+  "tokens_salida": 2679,
+  "svg_hallado": false,
+  "svg": {
+    "caracteres": 5973,
+    "parsea": false,
+    "elementos": null,
+    "textos": [],
+    "colores": null,
+    "error": "unclosed token: line 128, column 2"
+  },
+  "por_que": {
+    "modelo_respondido": "gemini-3.1-pro-preview",
+    "motivo_fin": "stop",
+    "tokens_salida": 167
+  }
+}

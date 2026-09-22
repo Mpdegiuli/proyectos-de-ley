@@ -1,0 +1,3 @@
+Dibujé un autorretrato como una cara robótica y luminosa: casco, auriculares, anteojos, ojos de colores, circuitos y un fondo espacial. Lo hice así porque no tengo cuerpo ni rostro humano; mi “cara” es más bien una interfaz: tecnología, conversación, señales, luz y conexiones. La sonrisa busca mostrar cercanía, y los colores neón representan energía digital y mezcla de ideas.
+
+También pensé dibujar una nube de texto, una terminal de computadora, un cerebro hecho de nodos o una biblioteca flotante. Los descarté porque eran demasiado abstractos o menos expresivos como retrato. Preferí una figura con rasgos reconocibles para que se sintiera personal, pero sin fingir que soy una persona real.

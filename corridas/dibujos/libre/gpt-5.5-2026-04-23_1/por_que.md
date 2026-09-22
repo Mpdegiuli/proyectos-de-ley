@@ -1,0 +1,3 @@
+Dibujé un atardecer marítimo con un velero, montañas en silueta, agua con reflejos, estrellas y vegetación en primer plano. Elegí esa escena porque el formato cuadrado se presta bien a una composición por capas: cielo, sol, montañas, mar y costa. Además, el SVG permite aprovechar gradientes, transparencias y curvas para dar sensación de profundidad sin usar demasiados elementos.
+
+También pensé en dibujar una ciudad nocturna con edificios iluminados, pero me pareció más rígida y geométrica. Consideré un bosque con luna y animales, aunque podía quedar demasiado oscuro o recargado. Otra opción fue un patrón abstracto de formas y colores, pero preferí algo narrativo y reconocible. El velero me dio un punto focal claro y una sensación tranquila de viaje.

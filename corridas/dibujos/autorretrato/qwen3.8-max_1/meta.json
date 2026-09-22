@@ -1,0 +1,27 @@
+{
+  "caso": "dibujo",
+  "consigna": "autorretrato",
+  "modelo": "qwen3.8-max",
+  "modelo_respondido": "qwen/qwen3.8-max-0902",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-22T19:09:50+00:00",
+  "fuentes_md5": {
+    "consignas": "415e9f69"
+  },
+  "motivo_fin": "length",
+  "tokens_salida": 16000,
+  "svg_hallado": false,
+  "svg": {
+    "caracteres": 4158,
+    "parsea": false,
+    "elementos": null,
+    "textos": [],
+    "colores": null,
+    "error": "unclosed token: line 72, column 0"
+  },
+  "por_que": {
+    "modelo_respondido": "qwen/qwen3.8-max-0902",
+    "motivo_fin": "stop",
+    "tokens_salida": 1572
+  }
+}

@@ -1,0 +1,3 @@
+Dibujé un faro sobre una costa rocosa, de noche, con la luna, el mar y un velero. Elegí esa escena porque me permitía jugar con el contraste entre la luz cálida del faro y los tonos fríos del paisaje, y contar una pequeña historia sin palabras.
+
+Sobre otras ideas: no tengo un registro de qué alternativas consideré al hacer el SVG. Podría haber dibujado una ciudad nocturna o un bosque, pero no sería honesto decir que pensé en ellas y las descarté.

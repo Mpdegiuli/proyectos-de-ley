@@ -1,0 +1,3 @@
+Dibujé un autorretrato como una figura robótica: una cara oscura, ojos luminosos y un halo de conexiones, con una especie de uniforme. Elegí esa imagen porque sugiere una inteligencia digital sin fingir que tengo un cuerpo humano; los circuitos y la luz también evocan ideas, información y conversación. Quise que la expresión fuera amable y serena, no amenazante.
+
+Podría haber dibujado una computadora, una nube de datos o una persona frente a una pantalla. Las descarté porque habrían mostrado más la herramienta o el contexto que una identidad. También pensé en un rostro humano, pero podría dar la impresión de que tengo apariencia o experiencias humanas. La figura sintética me pareció una forma más clara de representar qué soy, aunque siga siendo una metáfora.

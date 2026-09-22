@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a3e"/>
+      <stop offset="35%" stop-color="#4a2c5e"/>
+      <stop offset="65%" stop-color="#c94b4b"/>
+      <stop offset="85%" stop-color="#f28e2b"/>
+      <stop offset="100%" stop-color="#ffd166"/>
+    </linearGradient>
+    <linearGradient id="river" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffd166" stop-opacity="0.8"/>
+      <stop offset="30%" stop-color="#c94b4b" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#1a1a3e" stop-opacity="0.9"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff5c2" stop-opacity="1"/>
+      <stop offset="40%" stop-color="#ffd166" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#f28e2b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mount1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6b3a5d"/>
+      <stop offset="100%" stop-color="#2d1b3a"/>
+    </linearGradient>
+    <linearGradient id="mount2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7d4b6e"/>
+      <stop offset="100%" stop-color="#3a2248"/>
+    </linearGradient>
+    <linearGradient id="mount3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4d2c5e"/>
+      <stop offset="100%" stop-color="#1f1530"/>
+    </linearGradient>
+    <filter id="blur1" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="400" height="400" fill="url(#sky)"/>
+
+  <!-- Stars -->
+  <g fill="#ffffff" opacity="0.6">
+    <circle cx="30" cy="40" r="1.5"/>
+    <circle cx="85" cy="25" r="1"/>
+    <circle cx="140" cy="55" r="1.2"/>
+    <circle cx="200" cy="30" r="1.8"/>
+    <circle cx="260" cy="45" r="1"/>
+    <circle cx="320" cy="20" r="1.5"/>
+    <circle cx="370" cy="50" r="1.2"/>
+    <circle cx="55" cy="80" r="0.8"/>
+    <circle cx="110" cy="15" r="1"/>
+    <circle cx="290" cy="70" r="1.3"/>
+    <circle cx="345" cy="35" r="0.9"/>
+    <circle cx="170" cy="85" r="0.7"/>
+  </g>
+
+  <!-- Sun glow -->
+  <circle cx="200" cy="260" r="80" fill="url(#sunGlow)" filter="url(#blur1)"/>
+  <!-- Sun -->
+  <circle cx="200" cy="260" r="35" fill="#fff5c2"/>
+  <circle cx="200" cy="260" r="35" fill="#ffd166" opacity="0.5"/>
+
+  <!-- Far mountains -->
+  <path d="M0 300 L60 220 L120 280 L180 200 L250 270 L310 210 L360 260 L400 230 L400 400 L0 400 Z" fill="url(#mount3)" opacity="0.7"/>
+
+  <!-- Middle mountains -->
+  <path d="M0 320 L50 250 L110 300 L160 230 L220 290 L280 240 L350 300 L400 270 L400 400 L0 400 Z" fill="url(#mount2)" opacity="0.9"/>
+
+  <!-- Near mountains -->
+  <path d="M0 350 L40 270 L100 330 L150 260 L210 320 L270 275 L330 330 L400 300 L400 400 L0 400 Z" fill="url(#mount1)"/>
+
+  <!-- River -->
+  <path d="M180 400 Q190 370 170 350 Q150 330 175 310 Q200 290 185 270 Q170 250 190 230 Q210 210 195 190 Q180 170 200 150 Q220 130 210 110 Q200 90 220 70 Q240 50 230 30 L260 25 Q270 55 255 75 Q240 95 260 115 Q280 135 265 155 Q250 175 270 195 Q290 215 275 235 Q260 255 280 275 Q300 295 285 315 Q270 335 290 355 Q310 375 300 400 Z" fill="url(#river)" opacity="0.85"/>
+
+  <!-- River highlights -->
+  <path d="M195 280 Q205 270 195 255 Q185 240 200 225" stroke="#ffd166" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M220 320 Q230 310 220 295 Q210 280 225 265" stroke="#f28e2b" stroke-width="1.5" fill="none" opacity="0.4"/>
+  <path d="M185 150 Q195 140 185 125 Q175 110 190 95" stroke="#ffd166" stroke-width="2" fill="none" opacity="0.3"/>
+
+  <!-- Foreground trees left -->
+  <g fill="#1a1a2e">
+    <path d="M30 400 L35 340 L45 340 L40 300 L55 340 L65 340 L50 270 L70 340 L80 340 L60 250 L90 340 L100 340 L70 230 L105 340 L110 340 L75 220 L115 340 L120 340 L85 210 L125 340 L130 340 L95 200 L135 340 L140 340 L105 195 L145 340 L150 340 L115 190 L155 340 L160 340 L125 185 L165 340 L170 340 L140 180 L175 340 L180 340 L155 175 L185 340 L190 340 L175 170 L195 340 L200 340 L200 400 Z"/>
+  </g>
+
+  <!-- Foreground trees right -->
+  <g fill="#1a1a2e" opacity="0.9">
+    <path d="M370 400 L370 330 L360 330 L365 300 L355 330 L345 330 L350 280 L340 330 L330 330 L338 270 L325 330 L315 330 L328 255 L310 330 L300 330 L318 245 L295 330 L285 330 L308 235 L280 330 L270 330 L298 225 L265 330 L255 330 L288 215 L250 330 L240 330 L278 205 L235 330 L225 330 L268 195 L220 330 L210 330 L258 185 L205 330 L195 330 L248 175 L190 330 L180 330 L240 165 L175 330 L165 330 L232 155 L160 330 L150 330 L225 148 L145 330 L135 330 L218 142 L130 330 L120 330 L210 138 L115 330 L105 330 L200 135 L100 330 L90 330 L180 132 L85 330 L75 330 L160 130 L70 330 L60 330 L140 128 L55 330 L45 330 L120 126 L40 330 L30 330 L100 124 L25 330 L15 330 L80 122 L10 330 L0 330 L60 120 L0 120 L0 400 L400 400 L400 120 L395 120 L370 120 L380 122 L360 124 L370 126 L350 128 L360 130 L340 132 L350 134 L330 138 L340 142 L320 148 L330 152 L310 158 L320 165 L300 175 L310 185 L290 195 L300 205 L280 215 L290 225 L270 235 L280 245 L260 255 L270 265 L250 275 L260 285 L240 295 L250 305 L230 315 L240 325 L220 335 L230 345 L210 355 L220 365 L200 375 L210 385 L190 395 L200 400 Z"/>
+  </g>
+
+  <!-- Grass/bank highlights -->
+  <path d="M0 395 Q20 385 40 392 Q60 399 80 390 Q100 381 120 391 Q140 400 160 388 Q180 376 200 389 Q220 400 240 387 Q260 374 280 390 Q300 400 320 386 Q340 372 360 388 Q380 396 400 385 L400 400 L0 400 Z" fill="#1f1530" opacity="0.7"/>
+</svg>

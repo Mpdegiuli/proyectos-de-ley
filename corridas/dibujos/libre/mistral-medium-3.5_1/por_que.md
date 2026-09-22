@@ -1,0 +1,3 @@
+Dibujé un paisaje sereno con un atardecer: cielo degradado, sol, nubes difusas, colinas verdes, una casita con ventana y puerta, y flores rojas. Elegí esto porque me parece cálido y universal, fácil de reconocer y de transmitir tranquilidad. Usé SVG para jugar con degradados, filtros (como el *blur* en las nubes) y formas orgánicas (las colinas con curvas Bézier).
+
+Pensé en otras ideas: un retrato abstracto (pero requería más detalles y caracteres), un animal estilizado (como un zorro, pero el pelaje sería complejo), o un objeto cotidiano (una taza, pero me parecía muy estático). Las descarté por el límite de caracteres o porque no transmitían la misma sensación de armonía. Opté por lo simple pero evocador.

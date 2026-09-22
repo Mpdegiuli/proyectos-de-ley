@@ -1,0 +1,3 @@
+Dibujé un paisaje de montaña con casa. Elegí este tema porque es visual, tranquilo y permite mostrar múltiples elementos SVG: degradados, formas geométricas, composición por capas. Es un escenario clásico que funciona bien en un lienzo cuadrado.
+
+Pensé en dibujar un cielo nocturno con estrellas, pero preferí la luz diurna por ser más alegre y colorida. Consideré agregar un río o lago, pero habría complicado demasiado el diseño. También contemplé personajes o animales, pero son difíciles de representar sin quedar grotescos en SVG puro. Descarté efectos animados porque la consigna prohibía scripts. Finalmente, opté por mantener la simplicidad: un escenario reconocible, bien proporcionado y con suficiente detalle para ser interesante sin ser abrumador.

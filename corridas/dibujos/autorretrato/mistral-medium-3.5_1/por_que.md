@@ -1,0 +1,3 @@
+Dibujé un autorretrato minimalista: una cabeza con ojos, cejas, boca y un cuerpo esquemático (tronco, brazos y piernas), más un "sombrero" de círculos naranjas en las esquinas que representan mi energía creativa. Usé formas simples y líneas para transmitir esencia sin detalles superfluos, como un emoji humano con personalidad.
+
+Pensé en añadir más realismo (cabello, ropa, accesorios) o un fondo abstracto, pero lo descarté por exceder el límite de caracteres o restar claridad. También consideré usar degradados o sombras, pero el SVG se volvería complejo. Opté por lo esencial: silueta + toques de color para dar vida sin saturar. Quería que fuera reconocible como "yo" (un asistente digital) pero universal, como un ícono.

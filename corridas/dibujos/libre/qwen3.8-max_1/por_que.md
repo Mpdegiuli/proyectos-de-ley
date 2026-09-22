@@ -1,0 +1,3 @@
+Dibujé medusas al anochecer en un mar oscuro: una grande rosada, otra celeste y peces pequeños, burbujas, rayos de luz y algas. Quería una escena tranquila, luminosa y un poco mágica, donde el brillo de las medusas contrastara con la profundidad.
+
+Pensé dibujar una luna reflejada en la superficie, pero preferí dejar la luz como un resplandor submarino para no recargar. También imaginé un barco hundido o un banco de peces más grande; los descarté porque distraían de las medusas. Finalmente me quedé con pocos elementos, gradientes suaves y destellos, para que la imagen se sintiera silenciosa, profunda y serena.

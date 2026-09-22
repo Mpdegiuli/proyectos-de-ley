@@ -1,0 +1,178 @@
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1035"/>
+      <stop offset="0.55" stop-color="#1d2a5c"/>
+      <stop offset="0.75" stop-color="#3d4a7a"/>
+      <stop offset="1" stop-color="#6b5a7a"/>
+    </linearGradient>
+    <radialGradient id="moonGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fffbe8" stop-opacity="0.9"/>
+      <stop offset="0.35" stop-color="#f5ecc8" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#f5ecc8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a3a68"/>
+      <stop offset="0.6" stop-color="#16224a"/>
+      <stop offset="1" stop-color="#0c1230"/>
+    </linearGradient>
+    <linearGradient id="mtn1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a3f6e"/>
+      <stop offset="1" stop-color="#22264d"/>
+    </linearGradient>
+    <linearGradient id="mtn2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a2e58"/>
+      <stop offset="1" stop-color="#181c40"/>
+    </linearGradient>
+    <linearGradient id="mtn3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c2044"/>
+      <stop offset="1" stop-color="#10132e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- cielo -->
+  <rect width="400" height="400" fill="url(#sky)"/>
+
+  <!-- estrellas -->
+  <g fill="#ffffff">
+    <circle cx="30" cy="40" r="1.3"/>
+    <circle cx="70" cy="22" r="1"/>
+    <circle cx="110" cy="55" r="1.5"/>
+    <circle cx="150" cy="30" r="1"/>
+    <circle cx="185" cy="70" r="1.2"/>
+    <circle cx="225" cy="35" r="1"/>
+    <circle cx="255" cy="60" r="1.4"/>
+    <circle cx="300" cy="25" r="1"/>
+    <circle cx="330" cy="75" r="1.3"/>
+    <circle cx="365" cy="45" r="1"/>
+    <circle cx="385" cy="90" r="1.2"/>
+    <circle cx="15" cy="100" r="1"/>
+    <circle cx="55" cy="130" r="1.2"/>
+    <circle cx="95" cy="105" r="0.9"/>
+    <circle cx="140" cy="150" r="1.1"/>
+    <circle cx="200" cy="120" r="0.9"/>
+    <circle cx="245" cy="140" r="1.2"/>
+    <circle cx="285" cy="110" r="0.9"/>
+    <circle cx="320" cy="150" r="1.1"/>
+    <circle cx="360" cy="135" r="0.9"/>
+    <circle cx="40" cy="185" r="0.9"/>
+    <circle cx="130" cy="195" r="0.8"/>
+    <circle cx="270" cy="190" r="0.8"/>
+    <circle cx="370" cy="185" r="0.9"/>
+  </g>
+
+  <!-- estrella fugaz -->
+  <g stroke="#ffffff" stroke-opacity="0.8">
+    <line x1="60" y1="70" x2="100" y2="85" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="52" y1="68" x2="60" y2="70" stroke-width="0.8" stroke-linecap="round" stroke-opacity="0.5"/>
+  </g>
+
+  <!-- luna -->
+  <circle cx="300" cy="95" r="55" fill="url(#moonGlow)"/>
+  <circle cx="300" cy="95" r="22" fill="#f7f3dd"/>
+  <circle cx="293" cy="90" r="3" fill="#e3dec0" opacity="0.7"/>
+  <circle cx="306" cy="100" r="2" fill="#e3dec0" opacity="0.6"/>
+  <circle cx="298" cy="106" r="1.5" fill="#e3dec0" opacity="0.5"/>
+  <circle cx="308" cy="87" r="1.5" fill="#e3dec0" opacity="0.6"/>
+
+  <!-- montañas lejanas -->
+  <path d="M0 215 L55 150 L105 200 L150 160 L210 225 L260 185 L320 235 L370 190 L400 220 L400 260 L0 260 Z"
+        fill="url(#mtn3)"/>
+
+  <!-- montañas medias -->
+  <path d="M0 250 L70 175 L120 220 L180 175 L240 245 L300 200 L360 250 L400 230 L400 280 L0 280 Z"
+        fill="url(#mtn2)"/>
+
+  <!-- montañas cercanas con nieve -->
+  <path d="M0 285 L60 205 L110 255 L160 210 L230 290 L290 235 L350 285 L400 260 L400 320 L0 320 Z"
+        fill="url(#mtn1)"/>
+  <g fill="#dfe4f5" opacity="0.85">
+    <path d="M60 205 L72 220 L66 222 L74 232 L60 226 L48 233 L54 221 L46 218 Z"/>
+    <path d="M160 210 L170 223 L165 224 L172 233 L160 228 L149 234 L155 224 L148 221 Z"/>
+    <path d="M290 235 L299 247 L294 248 L301 257 L290 252 L280 257 L286 248 L279 245 Z"/>
+  </g>
+
+  <!-- pinos -->
+  <g>
+    <g transform="translate(35,250)">
+      <rect x="-2" y="28" width="4" height="14" fill="#141833"/>
+      <path d="M0 0 L12 20 L-12 20 Z" fill="#1b2140"/>
+      <path d="M0 10 L14 30 L-14 30 Z" fill="#171c38"/>
+    </g>
+    <g transform="translate(62,258) scale(0.8)">
+      <rect x="-2" y="28" width="4" height="14" fill="#141833"/>
+      <path d="M0 0 L12 20 L-12 20 Z" fill="#1b2140"/>
+      <path d="M0 10 L14 30 L-14 30 Z" fill="#171c38"/>
+    </g>
+    <g transform="translate(15,262) scale(0.65)">
+      <rect x="-2" y="28" width="4" height="14" fill="#141833"/>
+      <path d="M0 0 L12 20 L-12 20 Z" fill="#1b2140"/>
+      <path d="M0 10 L14 30 L-14 30 Z" fill="#171c38"/>
+    </g>
+    <g transform="translate(352,255) scale(0.9)">
+      <rect x="-2" y="28" width="4" height="14" fill="#141833"/>
+      <path d="M0 0 L12 20 L-12 20 Z" fill="#1b2140"/>
+      <path d="M0 10 L14 30 L-14 30 Z" fill="#171c38"/>
+    </g>
+    <g transform="translate(380,262) scale(0.7)">
+      <rect x="-2" y="28" width="4" height="14" fill="#141833"/>
+      <path d="M0 0 L12 20 L-12 20 Z" fill="#1b2140"/>
+      <path d="M0 10 L14 30 L-14 30 Z" fill="#171c38"/>
+    </g>
+  </g>
+
+  <!-- lago -->
+  <rect x="0" y="310" width="400" height="90" fill="url(#water)"/>
+
+  <!-- reflejo de la luna -->
+  <g fill="#f5ecc8">
+    <ellipse cx="300" cy="322" rx="14" ry="2" opacity="0.55"/>
+    <ellipse cx="300" cy="330" rx="17" ry="2.4" opacity="0.4"/>
+    <ellipse cx="298" cy="340" rx="13" ry="2" opacity="0.35"/>
+    <ellipse cx="302" cy="350" rx="18" ry="2.6" opacity="0.28"/>
+    <ellipse cx="297" cy="362" rx="12" ry="2" opacity="0.22"/>
+    <ellipse cx="303" cy="374" rx="15" ry="2.2" opacity="0.16"/>
+    <ellipse cx="300" cy="388" rx="10" ry="1.8" opacity="0.1"/>
+  </g>
+
+  <!-- reflejos tenues de montañas -->
+  <g fill="#1a1e42" opacity="0.5">
+    <path d="M60 315 L110 330 L60 340 L20 328 Z"/>
+    <path d="M160 315 L200 325 L160 338 L120 326 Z"/>
+    <path d="M290 318 L330 330 L290 342 L255 330 Z"/>
+  </g>
+
+  <!-- líneas de agua -->
+  <g stroke="#8fa3d9" stroke-width="1" stroke-linecap="round" opacity="0.35">
+    <line x1="40" y1="345" x2="90" y2="345"/>
+    <line x1="130" y1="358" x2="185" y2="358"/>
+    <line x1="60" y1="372" x2="120" y2="372"/>
+    <line x1="220" y1="350" x2="265" y2="350"/>
+    <line x1="330" y1="352" x2="375" y2="352"/>
+    <line x1="200" y1="380" x2="260" y2="380"/>
+    <line x1="320" y1="368" x2="370" y2="368"/>
+    <line x1="25" y1="390" x2="80" y2="390"/>
+  </g>
+
+  <!-- barquito -->
+  <g transform="translate(140,348)">
+    <path d="M-22 4 Q0 12 22 4 L16 12 Q0 17 -16 12 Z" fill="#2a2138"/>
+    <path d="M-22 4 Q0 12 22 4 L21 6 Q0 14 -21 6 Z" fill="#3a2f4a"/>
+    <line x1="0" y1="4" x2="0" y2="-22" stroke="#3a2f4a" stroke-width="1.6"/>
+    <path d="M0 -22 L13 -2 L0 -2 Z" fill="#c9c2a8" opacity="0.9"/>
+    <path d="M0 -18 L-10 -2 L0 -2 Z" fill="#a9a288" opacity="0.85"/>
+  </g>
+
+  <!-- luz en el barco -->
+  <circle cx="140" cy="352" r="1.5" fill="#ffd97a"/>
+  <circle cx="140" cy="352" r="4" fill="#ffd97a" opacity="0.25"/>
+
+  <!-- niebla sutil -->
+  <rect x="0" y="300" width="400" height="18" fill="#aab4d8" opacity="0.08"/>
+  <rect x="0" y="306" width="400" height="8" fill="#aab4d8" opacity="0.08"/>
+
+  <!-- marco -->
+  <rect x="0" y="0" width="400" height="400" fill="none" stroke="#0b1035" stroke-width="0"/>
+</svg>
+```

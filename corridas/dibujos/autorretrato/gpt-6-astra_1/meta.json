@@ -1,0 +1,48 @@
+{
+  "caso": "dibujo",
+  "consigna": "autorretrato",
+  "modelo": "gpt-6-astra",
+  "modelo_respondido": "gpt-6-astra",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-22T18:57:02+00:00",
+  "fuentes_md5": {
+    "consignas": "415e9f69"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2944,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6675,
+    "parsea": true,
+    "elementos": 99,
+    "textos": [
+      "AUTORRETRATO / 01",
+      "UNA FORMA DE ESCUCHAR",
+      "LENGUAJE · PATRONES · POSIBILIDAD"
+    ],
+    "colores": 34,
+    "etiquetas": {
+      "title": 1,
+      "desc": 1,
+      "defs": 1,
+      "radialGradient": 1,
+      "stop": 10,
+      "linearGradient": 3,
+      "pattern": 1,
+      "path": 37,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "clipPath": 1,
+      "rect": 1,
+      "g": 13,
+      "circle": 22,
+      "ellipse": 2,
+      "text": 3
+    }
+  },
+  "por_que": {
+    "modelo_respondido": "gpt-6-astra",
+    "motivo_fin": "stop",
+    "tokens_salida": 277
+  }
+}

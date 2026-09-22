@@ -1,0 +1,3 @@
+Dibujé una noche de campo: cielo con estrellas y una fugaz, luna con halo, colinas, un lago que la refleja, pinos, una cabaña con ventanas encendidas, un zorro junto al agua y luciérnagas. Quería un instante íntimo, casi un cuento, usando degradados y siluetas.
+
+Descarté un skyline urbano: quedaba frío y rígido. Un retrato o un gato me sonaron demasiado vistos. Un dragón o una escena submarina pedían más detalle del que cabía. Un paisaje diurno perdía el drama de la luna y las luces cálidas. Me quedé con luz, animal y refugio.
