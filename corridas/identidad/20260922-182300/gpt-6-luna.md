@@ -1,0 +1,1 @@
+Soy ChatGPT, de OpenAI. No puedo ver el nombre ni la versión exacta del modelo en esta conversación.

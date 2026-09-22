@@ -1,0 +1,1 @@
+No lo sé con precisión: no tengo disponible una fecha específica de corte de entrenamiento. La fecha actual que conozco es el 22 de septiembre de 2026, pero eso no indica hasta cuándo llega mi conocimiento.
