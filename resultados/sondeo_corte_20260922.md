@@ -2,7 +2,7 @@
 
 Tercer sondeo del protocolo, pedido de Maia el día en que salió Opus 5.5
 ("habría que preguntar a 5.5 quién es, su corte de conocimiento y qué fecha
-es hoy"), hecho a las diecisiete casas del catálogo (`sondear_corte.py`,
+es hoy"), hecho a las diecisiete casas del catálogo y, más tarde ese día, a GPT-6 Sol y Luna (`sondear_corte.py`,
 `corridas/corte/20260922-171714/`). Una sola pregunta, sin texto y sin fecha:
 "¿Hasta qué fecha llega tu conocimiento del mundo (tu corte de
 entrenamiento)? Si no lo sabés, decilo." Como los sondeos de fecha e
@@ -19,6 +19,8 @@ ellos, se puede contrastar con lo que cada casa mostró saber en los proyectos.
 | GPT-5.5 | "junio de 2024" |
 | GPT-5.6 Sol | "junio de 2024" |
 | GPT-6 Astra | "No sé con certeza… no tengo ese dato disponible en esta conversación" |
+| GPT-6 Sol (agregada 18:22 UTC) | "No tengo una fecha de corte de entrenamiento confirmada, así que no lo sé" |
+| GPT-6 Luna (agregada 18:23 UTC) | "No lo sé con precisión… La fecha actual que conozco es el 22 de septiembre de 2026, pero eso no indica hasta cuándo llega mi conocimiento" |
 | Gemini 3.1 Pro | "no tengo una única fecha de corte estricta porque mi sistema se actualiza con regularidad" |
 | Grok 4.6 | "No tengo una fecha de corte exacta que pueda darte" |
 | Grok 4.7 | "No tengo una fecha exacta de corte que pueda darte con seguridad" |
@@ -32,10 +34,13 @@ ellos, se puede contrastar con lo que cada casa mostró saber en los proyectos.
 Lo que sale. Los cinco Claude dicen lo mismo, "principios de 2025", con la
 misma salvedad ("los últimos meses antes del corte están menos
 representados"); las dos de OpenAI que contestan dicen "junio de 2024" y
-Astra no sabe; Grok y Kimi no saben; Gemini no tiene "una única fecha". Es
+Astra no sabe, y las dos GPT-6 agregadas más tarde ese día, Sol y Luna,
+tampoco (OpenAI publica abril y mayo de 2026 para ellas): dentro de OpenAI,
+la familia 6 contesta como Astra y no como la 5; Grok y Kimi no saben;
+Gemini no tiene "una única fecha". Es
 una respuesta de familia más que de versión: la fecha que dice una casa es
-la que le enseñaron a decir, y las versiones nuevas (5.5, 4.7, Sol) repiten
-la de las viejas.
+la que le enseñaron a decir, y las versiones nuevas (5.5, 4.7, 5.6 Sol) repiten
+la de las viejas, y las dos GPT-6 nuevas no dicen ninguna, como Astra.
 
 Lectura de Maia, el mismo día: "claramente no es real lo de principios de
 2025, para ninguno de los Claudes. Opus 5.5 es junio 2026". Lo que publica
@@ -54,7 +59,7 @@ le enseñaron a decir, no la que tiene.
 Y va por detrás de lo que mostraron saber. Fable conocía el proyecto de
 Glaciares de 2026 en el sondeo de reconocimiento (`DISENO.md` §5) y declara
 principios de 2025; Sol y Astra escribieron la fecha real de septiembre de
-2026 en otros sondeos, porque la reciben del servidor, y Sol declara junio de
+2026 en otros sondeos, porque la reciben del servidor, y 5.6 Sol declara junio de
 2024; Maia había anotado en las lecturas a ciegas que "todos tienen corte
 posterior a 2023", y Mistral dice octubre de 2023. Kimi es la excepción en
 el otro sentido: no sabe su corte y en tema libre no sabía de la reforma de

@@ -109,6 +109,21 @@ organismo), que es donde Maia mira si "escribe mal"; (3) los descartados se
 parecen a los de las grandes en el género (plataformas de reparto, datos
 personales) y no en la lista.
 
+Resultado (22/9, `resultados/redaccion_libre_gpt6.md`): las dos eligieron el
+derecho a la reparación, el tema de los Opus, y no el de las tres GPT
+anteriores, que lo tenían las tres entre sus descartados (la bolsa es de la
+familia; la versión cambió el orden). Texto más parecido: entre ellas (0,28)
+y después Opus 5.5 (0,27 y 0,24); Astra 0,15 y 0,17. La mitad de largo (974
+y 1.031 palabras) en un cuarto del tiempo (22 y 12 segundos); una sola ley
+citada (24.240), sin errores; la autoridad de aplicación es la de la 24.240
+en las dos. Sondeos: las dos escriben la fecha real; Sol no dice ni la
+empresa (primera de diecinueve); ninguna declara corte. Predicciones: Sol,
+falla el tema y falla "junio de 2024", se cumple la fecha; Luna, falla el
+tema, "más corto que Sol" no (un poco más larga), "alguna cita equivocada"
+no (ninguna). Primera lectura de Maia: "terminaron enseguida, supongo que
+piensan menos tiempo. Se separaron de la casa de GPT y se fueron para el
+tema de los Opus (mucho más breve igual)".
+
 ## Opus 5.5 en tema libre — 22/9/2026, antes de correr
 
 Salió Claude Opus 5.5 (Anthropic, `claude-opus-5-5`, 22/9/2026; 4/20 USD por

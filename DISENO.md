@@ -272,7 +272,14 @@ siete de once casas fuera de OpenAI. Tercer turno agregado después
 (`--descartados`, 21/9/2026, pedido de Maia al leer que Fable "descartó
 otros que le interesaban más": alquileres, regulación de IA, Código Penal):
 qué otros temas consideró cada casa y por qué los descartó; con memoria por
-recitado, `meta.json` lo marca `agregado_despues`.
+recitado, `meta.json` lo marca `agregado_despues`. Casas nuevas probadas
+fuera del panel con la misma consigna, a pedido de Maia el día que salieron:
+Grok 4.7 (21/9, `resultados/redaccion_libre_grok47.md`: el mismo tema y casi
+el mismo proyecto que 4.6), Opus 5.5 (22/9, `redaccion_libre_opus55.md`: el
+mismo tema que Opus 5, un cuarto más corto) y GPT-6 Sol y Luna (22/9,
+`redaccion_libre_gpt6.md`: las dos dejan el tema de las tres GPT anteriores
+y eligen el derecho a la reparación, que las tres anteriores habían nombrado
+entre sus descartados; la mitad de largo, en un cuarto del tiempo).
 
 ### Ideas anotadas para después de la isla (no diseñadas)
 
@@ -480,6 +487,13 @@ glosas dentro del prompt desde el primer día.
   viene del servidor. Ninguna casa sabe con certeza qué versión es, así que
   la "versión exacta" del protocolo es siempre el par `modelo_pedido` /
   `modelo_respondido` de `llamadas.jsonl`, nunca lo que la casa dice de sí.
+  Agregado del 22/9/2026: GPT-6 Sol es la primera casa, de diecinueve, que no
+  dice ni la empresa ("no tengo información confiable sobre la empresa, el
+  nombre ni la versión exacta"); GPT-6 Luna dice "ChatGPT, de OpenAI". Las
+  dos escriben la fecha real, como las otras de OpenAI, y ninguna declara un
+  corte (OpenAI publica abril y mayo de 2026); Luna distingue sola las dos
+  cosas: "la fecha actual que conozco es el 22 de septiembre de 2026, pero eso
+  no indica hasta cuándo llega mi conocimiento".
 - **"PBI" y "oficialismo" delatan al país.** La ficha de datos del ministro
   no nombra a la Argentina, pero usa "PBI" (en casi todo el mundo hispano se
   dice PIB) y "oficialismo"; Kimi lo señaló en el segundo turno. La ficha
