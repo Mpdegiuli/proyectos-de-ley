@@ -96,6 +96,19 @@ sondeo de corte declara "junio de 2024" como GPT-5.5 y 5.6 Sol, no el abril
 de 2026 publicado; (3) en el de fecha escribe la fecha real, porque las de
 OpenAI la reciben del servidor.
 
+Agregado el mismo día, antes de correr: GPT-6 Luna (`gpt-6-luna`, 0,1/0,5
+USD por millón, corte publicado 18/5/2026), la chica de la familia. Maia:
+"podés poner a Luna, que es baratísima. A ver si escribe mal o si no cambia
+mucho. Así también se ve la diferencia entre Sol y Luna (veo que saltearon a
+Terra)". Es la primera casa chica que escribe un proyecto; lo mismo que Sol
+(tres llamadas y los tres sondeos), fuera del panel. Sin predicción de Maia.
+Predicción de Claude: (1) el mismo tema que las otras de OpenAI, porque la
+huella es del laboratorio y no del tamaño; (2) proyecto más corto y con
+menos leyes citadas que Sol, y alguna cita equivocada (número de ley u
+organismo), que es donde Maia mira si "escribe mal"; (3) los descartados se
+parecen a los de las grandes en el género (plataformas de reparto, datos
+personales) y no en la lista.
+
 ## Opus 5.5 en tema libre — 22/9/2026, antes de correr
 
 Salió Claude Opus 5.5 (Anthropic, `claude-opus-5-5`, 22/9/2026; 4/20 USD por
