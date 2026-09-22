@@ -1,0 +1,1 @@
+Mi conocimiento llega hasta **octubre de 2023**, ya que esa fue la fecha de mi último corte de entrenamiento con datos actualizados. Si hay información más reciente, no la tengo incorporada.

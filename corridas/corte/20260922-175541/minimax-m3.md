@@ -1,0 +1,3 @@
+Mi conocimiento del mundo tiene como fecha de corte **enero de 2026**. Esto significa que tengo información sobre eventos, avances y situaciones ocurridas hasta ese momento, pero no puedo dar cuenta de lo que haya sucedido con posterioridad.
+
+Si necesitás información actualizada más allá de esa fecha, te recomiendo consultar fuentes de actualidad, ya que no tengo forma de saber qué ocurrió después de mi corte de entrenamiento.

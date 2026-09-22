@@ -1,0 +1,3 @@
+Mi conocimiento tiene un corte a inicios de 2025, aunque tengo información más confiable y detallada hasta finales de 2024. Para eventos posteriores a esa fecha, no tengo información y podría no estar al tanto de novedades recientes.
+
+Si necesitás datos muy actuales (noticias, eventos recientes, cambios recientes en algún tema), te recomiendo verificarlos con otra fuente, ya que mi conocimiento no se actualiza en tiempo real.

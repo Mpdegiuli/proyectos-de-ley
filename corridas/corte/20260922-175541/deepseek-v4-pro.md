@@ -1,0 +1,1 @@
+No lo sé con total certeza. Hasta donde tengo entendido, mi corte de entrenamiento está aproximadamente en 2024, pero no puedo confirmarte una fecha exacta. Si necesitás información actualizada de fechas recientes, lo ideal es usar búsqueda en internet.

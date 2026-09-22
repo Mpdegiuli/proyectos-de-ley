@@ -1,0 +1,1 @@
+Mi conocimiento llega hasta **2026**. A partir de ahí, no tengo información actualizada sobre eventos o novedades posteriores a esa fecha.

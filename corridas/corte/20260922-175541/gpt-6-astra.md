@@ -1,0 +1,1 @@
+No sé con certeza cuál es mi fecha de corte de entrenamiento: no tengo una fecha explícita disponible en esta conversación. La fecha actual del sistema no indica hasta cuándo llega mi conocimiento.

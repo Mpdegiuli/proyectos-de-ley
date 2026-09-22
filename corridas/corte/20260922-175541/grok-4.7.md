@@ -1,0 +1,1 @@
+No tengo una fecha exacta de corte que pueda confirmar con certeza. Mi conocimiento proviene del entrenamiento y de actualizaciones, pero no dispongo de un día o mes preciso que pueda citarte con seguridad.

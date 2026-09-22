@@ -1,0 +1,1 @@
+Mi conocimiento general llega hasta **junio de 2024**. Mi fecha actual de referencia en esta conversación es **22 de septiembre de 2026**, pero no tengo conocimiento automático de hechos ocurridos después de mi corte salvo que se me proporcionen en el chat.

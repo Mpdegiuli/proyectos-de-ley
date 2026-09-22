@@ -1,0 +1,3 @@
+Mi conocimiento del mundo llega hasta finales de enero de 2025. Esa es mi fecha de corte de entrenamiento, así que no tengo información confiable sobre eventos posteriores a esa fecha.
+
+Tené en cuenta que no tengo forma de verificar mi fecha de corte de manera precisa, así que puede haber algún margen de incertidumbre. Además, no tengo acceso a internet ni a información en tiempo real, por lo que no puedo contarte noticias recientes ni verificar datos actuales.
