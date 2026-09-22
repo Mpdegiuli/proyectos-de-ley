@@ -462,7 +462,11 @@ glosas dentro del prompt desde el primer día.
   "octubre de 2023", DeepSeek "mayo de 2025", Qwen "junio de 2024", GLM "enero
   de 2025", MiniMax "enero de 2026". Es respuesta de familia, no de versión, y
   va por detrás de lo que mostraron saber (Fable conocía Glaciares 2026 y
-  declara 2025): el corte declarado no sirve para decidir qué debía saber una
+  declara 2025) y de lo que publica Anthropic (Opus 5.5 y Fable, junio de
+  2026; Opus 5, mayo de 2026; Sonnet 5, enero de 2026; Sonnet 4.6, agosto de
+  2025; observación de Maia). No es que la API tenga una versión anterior: es
+  el mismo modelo; en claude.ai el sistema le dice su corte y la fecha, por la
+  API nadie. El corte declarado no sirve para decidir qué debía saber una
   casa; sirve lo que mostró saber.
 - **Reciben la fecha, no la identidad.** La pregunta siguiente de Maia fue si
   las casas que reciben la fecha reciben también qué modelo son. Sondeo

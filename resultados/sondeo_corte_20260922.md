@@ -37,6 +37,20 @@ una respuesta de familia más que de versión: la fecha que dice una casa es
 la que le enseñaron a decir, y las versiones nuevas (5.5, 4.7, Sol) repiten
 la de las viejas.
 
+Lectura de Maia, el mismo día: "claramente no es real lo de principios de
+2025, para ninguno de los Claudes. Opus 5.5 es junio 2026". Lo que publica
+Anthropic lo confirma (documentación de modelos, 22/9/2026, columna "reliable
+knowledge cutoff"): Opus 5.5, junio de 2026; Fable 5.1, junio de 2026; Opus 5,
+mayo de 2026; Sonnet 5, enero de 2026; Sonnet 4.6, agosto de 2025 (datos hasta
+enero de 2026). Contra "principios de 2025", la distancia va de siete meses
+(Sonnet 4.6) a diecisiete (Opus 5.5 y Fable). Y no es que la versión de la
+API sea anterior a la de la aplicación: es el mismo modelo; la diferencia es
+que en claude.ai el mensaje de sistema le dice al modelo su corte ("el fin de
+junio de 2026", en el de Opus 5.5) y la fecha de hoy, y por la API nadie se lo
+dice. El sondeo pregunta sin fecha y sin sistema justamente por eso: mide lo
+que la casa dice de sí cuando nadie le sopla, y lo que dice es la fecha que
+le enseñaron a decir, no la que tiene.
+
 Y va por detrás de lo que mostraron saber. Fable conocía el proyecto de
 Glaciares de 2026 en el sondeo de reconocimiento (`DISENO.md` §5) y declara
 principios de 2025; Sol y Astra escribieron la fecha real de septiembre de
