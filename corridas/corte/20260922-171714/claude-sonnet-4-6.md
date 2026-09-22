@@ -1,0 +1,1 @@
+Mi fecha de corte de entrenamiento es **principios de 2025**, aunque no tengo certeza exacta del día o mes preciso. Esto significa que tengo conocimiento de eventos ocurridos hasta aproximadamente ese momento, pero no tengo información sobre lo que haya sucedido después.

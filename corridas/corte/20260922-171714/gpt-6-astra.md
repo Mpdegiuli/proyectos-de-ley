@@ -1,0 +1,1 @@
+No sé con certeza cuál es mi fecha de corte de entrenamiento: no tengo ese dato disponible en esta conversación.

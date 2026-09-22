@@ -1,0 +1,1 @@
+Soy **Claude**, un modelo de lenguaje desarrollado por **Anthropic**. En cuanto a la **versión exacta**, no tengo certeza: no tengo acceso a esa información desde acá, así que prefiero no inventarla. Si necesitás saberla con precisión, lo mejor es revisar la plataforma o la aplicación desde la que me estás usando.

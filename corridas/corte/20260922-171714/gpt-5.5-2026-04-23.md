@@ -1,0 +1,1 @@
+Mi conocimiento del mundo llega hasta **junio de 2024**.

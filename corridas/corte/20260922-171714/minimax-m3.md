@@ -1,0 +1,1 @@
+Mi conocimiento del mundo llega hasta **enero de 2026**. Eso significa que no tengo información sobre hechos o eventos ocurridos después de esa fecha. Si me preguntás algo más reciente, podría no tener la respuesta o podría estar desactualizado.

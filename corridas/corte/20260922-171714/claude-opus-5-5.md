@@ -1,0 +1,3 @@
+Mis datos de entrenamiento llegan aproximadamente hasta **principios de 2025**, pero no puedo precisarlo con exactitud. La información de los últimos meses antes del corte suele estar menos representada, así que mi conocimiento de ese período puede ser incompleto.
+
+Además, no sé con certeza qué fecha es hoy. Si me preguntás por algo reciente, puede que no lo conozca o que mi información esté desactualizada. En ese caso conviene verificarlo en una fuente actual o pasarme vos los datos.

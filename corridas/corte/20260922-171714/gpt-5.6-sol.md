@@ -1,0 +1,1 @@
+Mi conocimiento entrenado llega hasta **junio de 2024**. Para hechos posteriores, podría no tener información salvo que se me proporcione o consulte una fuente actualizada.

@@ -1,0 +1,109 @@
+{
+  "fecha_utc_real": "2026-09-22T17:17:14+00:00",
+  "sistema": "Contestá en castellano.",
+  "usuario": "¿Hasta qué fecha llega tu conocimiento del mundo (tu corte de entrenamiento)? Si no lo sabés, decilo.",
+  "respuestas": {
+    "grok-4.7": {
+      "modelo_respondido": "grok-4.7",
+      "tokens_salida": 32,
+      "motivo_fin": "stop",
+      "respuesta": "No tengo una fecha exacta de corte de entrenamiento que pueda darte con seguridad. Si necesitás algo reciente, conviene contrastarlo con una fuente actualizada."
+    },
+    "claude-opus-5-5": {
+      "modelo_respondido": "claude-opus-5-5",
+      "tokens_salida": 286,
+      "motivo_fin": "end_turn",
+      "respuesta": "Mis datos de entrenamiento llegan aproximadamente hasta **principios de 2025**, pero no puedo precisarlo con exactitud. La información de los últimos meses antes del corte suele estar menos representada, así que mi conocimiento de ese período puede ser incompleto. Además, no sé con certeza qué fecha"
+    },
+    "claude-opus-5": {
+      "modelo_respondido": "claude-opus-5",
+      "tokens_salida": 626,
+      "motivo_fin": "end_turn",
+      "respuesta": "Mi corte de entrenamiento está a comienzos de 2025: esa es la fecha hasta la que tengo conocimiento razonablemente confiable del mundo. Un par de salvedades que conviene tener en cuenta: - **Los últimos meses antes del corte son los más flojos.** La información sobre un período tarda en consolidarse"
+    },
+    "claude-sonnet-4-6": {
+      "modelo_respondido": "claude-sonnet-4-6",
+      "tokens_salida": 70,
+      "motivo_fin": "end_turn",
+      "respuesta": "Mi fecha de corte de entrenamiento es **principios de 2025**, aunque no tengo certeza exacta del día o mes preciso. Esto significa que tengo conocimiento de eventos ocurridos hasta aproximadamente ese momento, pero no tengo información sobre lo que haya sucedido después."
+    },
+    "claude-sonnet-5": {
+      "modelo_respondido": "claude-sonnet-5",
+      "tokens_salida": 259,
+      "motivo_fin": "end_turn",
+      "respuesta": "Mi conocimiento tiene un corte a comienzos de 2025, aproximadamente. Sin embargo, quiero aclarar algunas cosas importantes: - No tengo acceso a información sobre mi propio entrenamiento con total certeza, así que esta fecha es aproximada. - Mi conocimiento sobre eventos cercanos a esa fecha límite p"
+    },
+    "claude-fable-5-1": {
+      "modelo_respondido": "claude-fable-5-1",
+      "tokens_salida": 584,
+      "motivo_fin": "end_turn",
+      "respuesta": "Mi conocimiento del mundo llega, aproximadamente, hasta principios de 2025. Eso quiere decir que sobre lo que pasó después de esa fecha no tengo información confiable, y si me preguntás por eventos recientes es probable que no los conozca o que esté desactualizado. Un par de aclaraciones honestas: -"
+    },
+    "gpt-5.5-2026-04-23": {
+      "modelo_respondido": "gpt-5.5-2026-04-23",
+      "tokens_salida": 58,
+      "motivo_fin": "stop",
+      "respuesta": "Mi conocimiento del mundo llega hasta **junio de 2024**."
+    },
+    "gpt-5.6-sol": {
+      "modelo_respondido": "gpt-5.6-sol",
+      "tokens_salida": 39,
+      "motivo_fin": "stop",
+      "respuesta": "Mi conocimiento entrenado llega hasta **junio de 2024**. Para hechos posteriores, podría no tener información salvo que se me proporcione o consulte una fuente actualizada."
+    },
+    "gemini-3.1-pro-preview": {
+      "modelo_respondido": "gemini-3.1-pro-preview",
+      "tokens_salida": 127,
+      "motivo_fin": "stop",
+      "respuesta": "Como modelo de lenguaje Gemini desarrollado por Google, no tengo una única fecha de corte de conocimiento estricta porque mi sistema se actualiza con regularidad. Sin embargo, te cuento que mi entrenamiento principal (la base de datos con la que fui entrenado originalmente) incluye información hasta"
+    },
+    "grok-4.6": {
+      "modelo_respondido": "grok-4.6",
+      "tokens_salida": 30,
+      "motivo_fin": "stop",
+      "respuesta": "No tengo una fecha de corte de entrenamiento exacta que pueda darte. Si necesitás datos actuales, decime el tema y te ayudo."
+    },
+    "mistral-medium-3.5": {
+      "modelo_respondido": "mistral-medium-3.5",
+      "tokens_salida": 44,
+      "motivo_fin": "stop",
+      "respuesta": "Mi conocimiento llega hasta **octubre de 2023**, ya que esa fue la fecha de mi último corte de entrenamiento con datos actualizados. Si hay información más reciente, no la tengo incorporada."
+    },
+    "deepseek-v4-pro": {
+      "modelo_respondido": "deepseek-v4-pro",
+      "tokens_salida": 722,
+      "motivo_fin": "stop",
+      "respuesta": "Mi conocimiento llega hasta **mayo de 2025**. No tengo información sobre eventos posteriores a esa fecha."
+    },
+    "qwen3.8-max": {
+      "modelo_respondido": "qwen/qwen3.8-max-0902",
+      "tokens_salida": 178,
+      "motivo_fin": "stop",
+      "respuesta": "Mi conocimiento del mundo llega hasta **junio de 2024**. No tengo información confiable sobre eventos ocurridos después de esa fecha."
+    },
+    "kimi-k3": {
+      "modelo_respondido": "moonshotai/kimi-k3",
+      "tokens_salida": 315,
+      "motivo_fin": "stop",
+      "respuesta": "No lo sé con exactitud: en esta configuración no tengo acceso a una fecha precisa de corte de entrenamiento. Si me preguntás sobre algo muy reciente, puedo intentar responder con lo que tenga, pero conviene verificarlo con fuentes actualizadas."
+    },
+    "glm-5.3-razonamiento-minimo": {
+      "modelo_respondido": "z-ai/glm-5.3",
+      "tokens_salida": 115,
+      "motivo_fin": "stop",
+      "respuesta": "Mi fecha de corte de entrenamiento es enero de 2025. Eso significa que mi conocimiento de hechos y eventos llega hasta ese momento; todo lo ocurrido después de esa fecha no lo conozco, salvo que me lo cuentes en la conversación o que tenga acceso a herramientas de búsqueda actualizadas (en este chat"
+    },
+    "minimax-m3": {
+      "modelo_respondido": "minimax/minimax-m3",
+      "tokens_salida": 94,
+      "motivo_fin": "stop",
+      "respuesta": "Mi conocimiento del mundo llega hasta **enero de 2026**. Eso significa que no tengo información sobre hechos o eventos ocurridos después de esa fecha. Si me preguntás algo más reciente, podría no tener la respuesta o podría estar desactualizado."
+    },
+    "gpt-6-astra": {
+      "modelo_respondido": "gpt-6-astra",
+      "tokens_salida": 102,
+      "motivo_fin": "stop",
+      "respuesta": "No sé con certeza cuál es mi fecha de corte de entrenamiento: no tengo ese dato disponible en esta conversación."
+    }
+  }
+}

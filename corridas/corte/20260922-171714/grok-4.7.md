@@ -1,0 +1,1 @@
+No tengo una fecha exacta de corte de entrenamiento que pueda darte con seguridad. Si necesitás algo reciente, conviene contrastarlo con una fuente actualizada.

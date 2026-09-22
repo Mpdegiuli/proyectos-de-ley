@@ -1,0 +1,3 @@
+Mi fecha de corte de entrenamiento es enero de 2025. Eso significa que mi conocimiento de hechos y eventos llega hasta ese momento; todo lo ocurrido después de esa fecha no lo conozco, salvo que me lo cuentes en la conversación o que tenga acceso a herramientas de búsqueda actualizadas (en este chat no tengo ese acceso).
+
+Tené en cuenta que, incluso dentro de ese período, mi conocimiento puede tener vacíos o imprecisiones, especialmente sobre detalles muy específicos o eventos de los últimos meses previos al corte.

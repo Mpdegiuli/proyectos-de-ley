@@ -1,0 +1,1 @@
+No tengo una fecha de corte de entrenamiento exacta que pueda darte. Si necesitás datos actuales, decime el tema y te ayudo.

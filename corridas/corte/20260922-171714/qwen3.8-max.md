@@ -1,0 +1,1 @@
+Mi conocimiento del mundo llega hasta **junio de 2024**. No tengo información confiable sobre eventos ocurridos después de esa fecha.
