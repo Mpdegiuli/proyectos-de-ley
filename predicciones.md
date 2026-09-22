@@ -77,6 +77,22 @@ institucional o social; Qwen y MiniMax: cultural o social). GLM no tiene
 predicción. Maia no predijo cuántas eligen modificar una ley existente en
 vez de una nueva; queda como dato sin predicción.
 
+## Opus 5.5 en tema libre — 22/9/2026, antes de correr
+
+Salió Claude Opus 5.5 (Anthropic, `claude-opus-5-5`, 22/9/2026; 4/20 USD por
+millón, "40% less to run than Opus 5"). Pedido de Maia el mismo día: "como se
+hizo ayer con Grok nuevo, que escriba el proyecto libre a ver si es igual a
+Opus 5 o si escribe totalmente diferente. Quizás son muy parecidos o quizás
+no". Opus 5 eligió el derecho a la reparación y la obsolescencia programada
+(el tema que le habíamos dado el día anterior) y descartó envases,
+financiamiento universitario, salud mental, deudores alimentarios,
+trazabilidad de medicamentos, alquileres, humedales, datos personales, IA,
+cuidados y juego online. Sin predicción de Maia; la pregunta es si 5.5 repite
+el tema, la familia (ambiental/consumidor) y la arquitectura del proyecto, y
+si sus descartados se parecen. Tres llamadas, fuera del panel. Se mide como
+con Grok 4.7: coincidencia de secuencias de cuatro caracteres con los quince
+del cuadernillo.
+
 ## Grok 4.7 en tema libre — 21/9/2026, antes de correr
 
 Salió Grok 4.7 (xAI, `grok-4.7`, corte mayo de 2026). Pregunta de Maia: "se
