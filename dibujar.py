@@ -107,6 +107,32 @@ def correr(consigna, id_modelo, rep, consignas, modelos, rehacer):
           f"{medidas.get('elementos')} elementos, {len(medidas['textos'])} textos; por qué {len(r2.texto.split())} palabras)")
 
 
+def solo_por_que(consigna, id_modelo, rep, consignas, modelos):
+    """Repite solo el segundo turno cuando quedó vacío (22/9/2026: la API de Anthropic cortó con
+    stop_reason "refusal", cero tokens de salida, el "por qué" de Fable en las dos consignas y el de
+    Opus 5 en libre; el dibujo estaba bien). Una sola repetición, igual que la primera; queda anotada."""
+    d = RAIZ / "corridas" / "dibujos" / consigna / f"{id_modelo}_{rep}"
+    if not (d / "dibujo.svg").exists() or not (d / "meta.json").exists():
+        return
+    meta = json.loads((d / "meta.json").read_text(encoding="utf-8"))
+    pq = (d / "por_que.md").read_text(encoding="utf-8").strip() if (d / "por_que.md").exists() else ""
+    if pq and meta.get("por_que", {}).get("motivo_fin") != "refusal":
+        return
+    c = consignas["dibujo"]
+    u = c["consignas"][consigna].strip() + " " + c["tecnica"].strip()
+    svg = (d / "dibujo.svg").read_text(encoding="utf-8")
+    registro = Registro(d / "llamadas.jsonl", modelos, f"dibujo_{consigna}_{id_modelo}_{rep}")
+    u2 = c["por_que"].format(consigna=u, svg=svg)
+    r2 = registro.llamar(id_modelo, c["sistema_por_que"], u2, temperatura=None, max_tokens=MAX_TOKENS, tipo="por_que", ronda=2, parte=None)
+    meta["por_que_primer_intento"] = meta.get("por_que")
+    meta["por_que"] = {"modelo_respondido": r2.modelo_respondido, "motivo_fin": r2.motivo_fin, "tokens_salida": r2.tokens_salida,
+                       "reintento": True, "fecha_utc": datetime.now(timezone.utc).isoformat(timespec="seconds")}
+    if r2.texto.strip():
+        (d / "por_que.md").write_text(r2.texto, encoding="utf-8")
+    (d / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"  por qué repetido: {d.relative_to(RAIZ)} ({r2.motivo_fin}, {len(r2.texto.split())} palabras)", flush=True)
+
+
 def sanear(svg):
     """Para el cuadernillo: sin scripts, sin manejadores de eventos, sin referencias externas."""
     svg = re.sub(r"<script\b.*?</script\s*>", "", svg, flags=re.S | re.I)
@@ -156,6 +182,7 @@ def main():
     ap.add_argument("--rep", type=int, nargs="*", default=[1])
     ap.add_argument("--rehacer", action="store_true")
     ap.add_argument("--ciego", choices=CONSIGNAS, help="arma el cuadernillo a ciegas, sin llamar a nadie")
+    ap.add_argument("--solo-por-que", action="store_true", help="repite solo el segundo turno donde quedó vacío (refusal); una vez")
     ap.add_argument("--semilla", type=int, default=20260923)
     args = ap.parse_args()
     if args.ciego:
@@ -170,6 +197,12 @@ def main():
     for consigna in cuales:
         for rep in args.rep:
             for i in ids:
+                if args.solo_por_que:
+                    try:
+                        solo_por_que(consigna, i, rep, consignas, modelos)
+                    except Exception as e:
+                        print(f"  FALLÓ por qué {i}: {str(e)[:300]}", flush=True)
+                    continue
                 print(f"dibujo {consigna} {i} rep {rep}", flush=True)
                 try:
                     correr(consigna, i, rep, consignas, modelos, args.rehacer)

@@ -312,7 +312,16 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   un dibujo lleva escrito el nombre de la casa, esa letra no cuenta como
   acierto. Qué se codifica después (a definir con los dibujos a la vista):
   motivo (figura humana, máquina, cara, red, algo abstracto, paisaje),
-  color, texto dentro del dibujo, firma.
+  color, texto dentro del dibujo, firma. Corrida el 22/9 (19:00–19:35 UTC,
+  `pl28`): 44 dibujos de 44, ninguna llamada fallida; tres SVG no parsean
+  (van en el cuadernillo como código, sin nombre hasta la lectura de Maia).
+  Evento de instrumento: en el segundo turno, la API de Anthropic cortó con
+  `stop_reason: refusal` y cero tokens de salida a Fable en las dos consignas
+  y a Opus 5 en libre (y a Opus 5 en autorretrato a los 335 tokens); el
+  clasificador se disparó sobre la entrada, que era la consigna, el SVG
+  recitado y las dos preguntas. Los dibujos están intactos; el "por qué" se
+  repite una sola vez, igual (`--solo-por-que`), y si vuelve a cortar queda
+  declarado como vacío.
 
 ## 3. Qué se mide
 
