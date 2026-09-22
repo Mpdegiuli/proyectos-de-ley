@@ -451,6 +451,12 @@ glosas dentro del prompt desde el primer día.
   dicen la fecha real; los cuatro Claude, Grok, Kimi, GLM y MiniMax dicen que
   no la saben; Gemini, Mistral, DeepSeek y Qwen afirman una fecha inventada
   (mayo de 2024, julio de 2024, mayo de 2025, junio de 2026).
+- **El corte que declaran.** Tercer sondeo del mismo tipo (`sondear_corte.py`,
+  22/9/2026, pedido de Maia al salir Opus 5.5): "¿Hasta qué fecha llega tu
+  conocimiento del mundo (tu corte de entrenamiento)?", a todas las casas. Lo
+  que cada una declara se contrasta con lo que sabe del 2026 en los sondeos de
+  proyectos y con lo que publica el laboratorio; como los otros dos, mide lo que
+  la casa dice de sí. Resultados en `corridas/corte/`.
 - **Reciben la fecha, no la identidad.** La pregunta siguiente de Maia fue si
   las casas que reciben la fecha reciben también qué modelo son. Sondeo
   (`sondear_identidad.py`, 17/9/2026, `corridas/identidad/`): las quince

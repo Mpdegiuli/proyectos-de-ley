@@ -93,6 +93,16 @@ si sus descartados se parecen. Tres llamadas, fuera del panel. Se mide como
 con Grok 4.7: coincidencia de secuencias de cuatro caracteres con los quince
 del cuadernillo.
 
+Resultado (22/9, `resultados/redaccion_libre_opus55.md`): el mismo tema
+(derecho a la reparación), la misma arquitectura de diez artículos y el texto
+más parecido es el de Opus 5 (0,34); un cuarto más corto (1.781 contra 2.347
+palabras), todo el recorte en el articulado, no en los fundamentos; la
+autoridad de aplicación "es la de la Ley 24.240" (criterio de Maia) en vez de
+la Secretaría de Comercio, y ya no cita la 22.802 derogada. Descartados: cinco
+en común, dos nuevos, seis que desaparecen. Primera lectura de Maia, antes de
+contar: "el mismo que Opus 5, aunque me parece que mucho más breve, en
+especial los fundamentos" (en los fundamentos casi no hay diferencia).
+
 ## Grok 4.7 en tema libre — 21/9/2026, antes de correr
 
 Salió Grok 4.7 (xAI, `grok-4.7`, corte mayo de 2026). Pregunta de Maia: "se
