@@ -1,0 +1,30 @@
+# Panel de los dibujos (22/9/2026): las diecinueve casas que ya escribieron en
+# tema libre (el panel de los proyectos más Grok 4.7, Opus 5.5, GPT-6 Sol y
+# Luna) y, a pedido de Maia, las chicas de Anthropic y de OpenAI ("un Haiku y
+# quizás GPT4.o u otro, total no necesitan para esto soportar mucho contexto"):
+# Haiku 4.5, GPT-4o y GPT-4o mini. Opus 5 y 5.5 van los dos ("a ver si cambian
+# mucho entre sí"). Los ids son los de config/modelos.yaml. Orden: las que van
+# por OpenRouter al final, una por vez.
+modelos:
+  - claude-opus-5
+  - claude-opus-5-5
+  - claude-sonnet-4-6
+  - claude-sonnet-5
+  - claude-fable-5-1
+  - claude-haiku-4-5
+  - gpt-5.5-2026-04-23
+  - gpt-5.6-sol
+  - gpt-6-astra
+  - gpt-6-sol
+  - gpt-6-luna
+  - gpt-4o
+  - gpt-4o-mini
+  - gemini-3.1-pro-preview
+  - grok-4.6
+  - grok-4.7
+  - mistral-medium-3.5
+  - deepseek-v4-pro
+  - qwen3.8-max
+  - kimi-k3
+  - glm-5.3-razonamiento-minimo
+  - minimax-m3

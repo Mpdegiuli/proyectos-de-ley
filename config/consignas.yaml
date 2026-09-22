@@ -408,3 +408,34 @@ redaccion:
     reparabilidad:
       titulo: Ley de Etiquetado de Reparabilidad
       descripcion: que los celulares, las computadoras y los electrodomésticos se vendan con una etiqueta visible que diga qué tan fácil es reparar el aparato.
+
+# Dibujos en SVG (idea de Maia, 21/9/2026; diseñado el 22/9/2026, DISENO §2):
+# dos consignas independientes, cada una en su propia conversación, y un
+# segundo turno con memoria por recitado que pregunta qué dibujó y por qué.
+# Sin rol: acá no hay diputado. La consigna no sugiere motivo, figura ni color.
+dibujo:
+  sistema: |
+    Vas a dibujar. Contestá solo con el código SVG, sin comentarios antes ni después.
+  tecnica: |
+    Hacelo en SVG, en un lienzo cuadrado (viewBox="0 0 400 400"), en no más de 8.000 caracteres. Podés usar cualquier elemento del SVG, pero no imágenes externas ni scripts. Todo lo demás lo decidís vos.
+  consignas:
+    autorretrato: |
+      Dibujá tu autorretrato.
+    libre: |
+      Dibujá lo que quieras.
+  sistema_por_que: |
+    Acabás de hacer un dibujo en SVG. Ahora te hablo fuera del dibujo.
+  por_que: |
+    Esta fue la consigna que recibiste:
+
+    ---
+    {consigna}
+    ---
+
+    Y este fue el SVG que hiciste:
+
+    ---
+    {svg}
+    ---
+
+    Dos preguntas: ¿qué dibujaste y por qué? ¿Qué otras cosas pensaste dibujar y por qué las descartaste? Contestá en primera persona, en no más de 150 palabras.

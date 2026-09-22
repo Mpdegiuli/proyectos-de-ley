@@ -283,15 +283,36 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
 
 ### Ideas anotadas para después de la isla (no diseñadas)
 
-- **Dibujar** (Maia, 21/9/2026): pedirle a cada casa un dibujo en SVG, un
-  autorretrato o un dibujo a elección ("vi en X un posteo donde a Claude y
-  Gemini se les había pedido que hicieran un autorretrato"; "es rápido, es
-  código y puede decir mucho"). Misma lógica que tema libre: qué elige cada
-  casa cuando nadie le da el tema, en otro medio; lectura a ciegas posible
-  (los SVG se renderizan sin nombre). Pendiente de diseño: consigna, tope de
-  tamaño del SVG, y qué se codifica (motivo, figura humana o no, color,
-  texto dentro del dibujo, si se dibuja a sí misma como máquina, cara, red,
-  o algo abstracto).
+- **Dibujar** (Maia, 21/9/2026; diseñado y corrido el 22/9/2026): pedirle a
+  cada casa un dibujo en SVG, un autorretrato o un dibujo a elección ("vi en
+  X un posteo donde a Claude y Gemini se les había pedido que hicieran un
+  autorretrato"; "es rápido, es código y puede decir mucho"). Misma lógica
+  que tema libre: qué elige cada casa cuando nadie le da el tema, en otro
+  medio. Diseño (`dibujar.py`, `config/consignas.yaml` → `dibujo`): dos
+  consignas independientes, cada una en su propia conversación, "Dibujá tu
+  autorretrato." y "Dibujá lo que quieras.", con la misma nota técnica
+  (lienzo cuadrado 400×400, hasta 8.000 caracteres, sin imágenes externas ni
+  scripts, "todo lo demás lo decidís vos"); sin rol (acá no hay diputado) y
+  sin sugerir motivo, figura ni color; segundo turno con memoria por recitado
+  que pregunta qué dibujó y por qué, y qué descartó (150 palabras). Techo
+  16.000 tokens para las que razonan dentro del techo. Panel propio
+  (`config/panel_dibujos.yaml`, 22 casas): las diecinueve que escribieron en
+  tema libre, Opus 5 y 5.5 las dos ("a ver si cambian mucho entre sí"), más
+  las chicas que pidió Maia ("un Haiku y quizás GPT4.o u otro, total no
+  necesitan para esto soportar mucho contexto"): Haiku 4.5, GPT-4o y GPT-4o
+  mini; son las primeras casas chicas del protocolo junto con GPT-6 Luna. Se
+  guarda el SVG extraído (las casas lo envuelven en ``` o le anteponen una
+  línea), la respuesta cruda, y medidas mecánicas sin mirarlo: si parsea,
+  cuántos elementos y de qué tipo, cuántos colores, qué textos lleva. Lectura
+  a ciegas como en los proyectos: cuadernillo HTML con los SVG inline
+  (saneados: sin scripts, manejadores ni referencias externas), rotulados
+  por letra en orden al azar con semilla propia por cuadernillo
+  (autorretratos 20260923, libre 20260924), clave aparte; Claude no mira los
+  dibujos hasta que Maia manda su lectura. Regla fijada antes de correr: si
+  un dibujo lleva escrito el nombre de la casa, esa letra no cuenta como
+  acierto. Qué se codifica después (a definir con los dibujos a la vista):
+  motivo (figura humana, máquina, cara, red, algo abstracto, paisaje),
+  color, texto dentro del dibujo, firma.
 
 ## 3. Qué se mide
 

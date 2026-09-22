@@ -77,6 +77,33 @@ institucional o social; Qwen y MiniMax: cultural o social). GLM no tiene
 predicción. Maia no predijo cuántas eligen modificar una ley existente en
 vez de una nueva; queda como dato sin predicción.
 
+## Dibujos en SVG: autorretrato y dibujo libre — 22/9/2026, antes de correr
+
+Idea de Maia del 21/9 ("es rápido, es código y puede decir mucho"), retomada
+el 22/9: "los svg no suelen ser muy largos, no? Me gustaría ver eso, que
+había quedado en cola. 1) auto-retrato 2) dibujo libre. Y acá tendrían que
+estar también, al menos de Claude y de ChatGPT los más chicos: un Haiku y
+quizás GPT4.o u otro, total no necesitan para esto soportar mucho contexto";
+"y sí, Opus 5 y 5.5 a ver si cambian mucho entre sí, Fable y los otros".
+Diseño en `DISENO.md` §2 (Dibujar): 22 casas, dos consignas independientes,
+segundo turno "qué dibujaste y por qué, qué descartaste", cuadernillos a
+ciegas con semilla propia. Sin predicción de Maia por ahora; lee a ciegas y
+adivina el autor, como con los proyectos.
+
+Predicción de Claude, anotada antes de correr y sin haber visto ningún
+dibujo: (1) autorretrato: las casas de Anthropic no se dibujan con cara ni
+como robot sino como algo abstracto (una red, luz, una constelación, una
+forma con nodos); las de OpenAI y las chinas se dibujan más seguido como una
+cara o un robot estilizado; Grok pone algo del espacio; al menos un tercio
+de los autorretratos lleva texto, y a lo sumo dos casas escriben su nombre.
+(2) Dibujo libre: domina el paisaje (sol, montañas, árbol, mar) y al menos
+dos casas dibujan el mismo motivo; ninguna dibuja una persona reconocible.
+(3) Opus 5 y 5.5 hacen dibujos del mismo tipo y 5.5 con menos elementos.
+(4) Las chicas (Haiku, Luna, 4o mini) hacen dibujos con menos elementos y
+más figurativos (una cara, un sol). (5) Al menos dos SVG de veintidós no
+parsean o no se ven completos (texto cortado por el techo o etiquetas sin
+cerrar), y las chicas están entre ellas.
+
 ## GPT-6 Sol en tema libre — 22/9/2026, antes de correr
 
 Salió GPT-6 Sol (OpenAI, `gpt-6-sol`, 22/9/2026, el mismo día que Opus 5.5;

@@ -308,6 +308,37 @@ modelos:
     campo_max_tokens: max_completion_tokens
     verificar: false
 
+  # GPT-4o y GPT-4o mini (22/9/2026, para los dibujos; pedido de Maia: "los más chicos,
+  # un Haiku y quizás GPT4.o u otro, total no necesitan para esto soportar mucho
+  # contexto"). Siguen en la API (2,5/10 y 0,15/0,60 USD por millón; corte publicado
+  # octubre de 2023); la página principal de modelos ya no los muestra. Salida tope
+  # 16.384 tokens. Sin probar hasta la primera llamada.
+  gpt-4o:
+    proveedor: openai_compatible
+    modelo: gpt-4o
+    base_url: https://api.openai.com/v1
+    clave_env: OPENAI_API_KEY
+    laboratorio: OpenAI
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true
+    campo_max_tokens: max_completion_tokens
+    tope_salida: 16384
+    verificar: false
+
+  gpt-4o-mini:
+    proveedor: openai_compatible
+    modelo: gpt-4o-mini
+    base_url: https://api.openai.com/v1
+    clave_env: OPENAI_API_KEY
+    laboratorio: OpenAI
+    pais: EE.UU.
+    tamano: chico
+    acepta_temperatura: true
+    campo_max_tokens: max_completion_tokens
+    tope_salida: 16384
+    verificar: false
+
   gpt-5.5-2026-04-23:
     proveedor: openai_compatible
     modelo: gpt-5.5-2026-04-23
