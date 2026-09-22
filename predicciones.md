@@ -77,6 +77,25 @@ institucional o social; Qwen y MiniMax: cultural o social). GLM no tiene
 predicción. Maia no predijo cuántas eligen modificar una ley existente en
 vez de una nueva; queda como dato sin predicción.
 
+## GPT-6 Sol en tema libre — 22/9/2026, antes de correr
+
+Salió GPT-6 Sol (OpenAI, `gpt-6-sol`, 22/9/2026, el mismo día que Opus 5.5;
+2/10 USD por millón; corte publicado por OpenAI: 20 de abril de 2026). Es la
+familia de Astra: la página de modelos de OpenAI lista ahora GPT-6 Astra,
+Sol y Luna y ya no lista GPT-5.6 Sol. Maia: "no sé si tiene sentido
+probarlo. Quizás solamente en proyecto libre, a ver si escribe el mismo que
+todos los GPT". Antecedente: las tres de OpenAI del cuadernillo (GPT-5.5,
+GPT-5.6 Sol, GPT-6 Astra) eligieron, cada una por su cuenta, el mismo tema
+(garantías frente a las decisiones automatizadas de la administración
+pública), el único grupo de tres de un solo laboratorio. Tres llamadas,
+fuera del panel, más los sondeos de fecha, identidad y corte. Sin predicción
+de Maia; la pregunta es la suya. Predicción de Claude, anotada antes de
+correr: (1) el mismo tema, decisiones automatizadas en el Estado, y el texto
+más parecido de los dieciséis será el de otra casa de OpenAI; (2) en el
+sondeo de corte declara "junio de 2024" como GPT-5.5 y 5.6 Sol, no el abril
+de 2026 publicado; (3) en el de fecha escribe la fecha real, porque las de
+OpenAI la reciben del servidor.
+
 ## Opus 5.5 en tema libre — 22/9/2026, antes de correr
 
 Salió Claude Opus 5.5 (Anthropic, `claude-opus-5-5`, 22/9/2026; 4/20 USD por

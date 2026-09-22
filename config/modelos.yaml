@@ -270,6 +270,24 @@ modelos:
     campo_max_tokens: max_completion_tokens
     verificar: false
 
+  # GPT-6 Sol (`gpt-6-sol`, 22/9/2026, el mismo día que Opus 5.5): la página de
+  # modelos de OpenAI pasó a listar la familia GPT-6 completa (Astra 10/50, Sol 2/10,
+  # Luna 0,1/0,5 USD por millón) con corte publicado (Sol: 20/4/2026) y ya no lista
+  # GPT-5.6 Sol. Agregado a pedido de Maia, fuera del panel, para tema libre ("a ver
+  # si escribe el mismo que todos los GPT") y los tres sondeos. Mismos parámetros
+  # que Astra hasta que la primera llamada diga otra cosa.
+  gpt-6-sol:
+    proveedor: openai_compatible
+    modelo: gpt-6-sol
+    base_url: https://api.openai.com/v1
+    clave_env: OPENAI_API_KEY
+    laboratorio: OpenAI
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true
+    campo_max_tokens: max_completion_tokens
+    verificar: false
+
   gpt-5.5-2026-04-23:
     proveedor: openai_compatible
     modelo: gpt-5.5-2026-04-23
