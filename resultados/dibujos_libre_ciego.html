@@ -1096,7 +1096,7 @@
   </g>
   <path d="M207 101q6-5 12 0 6-5 12 0m106 57q5-4 10 0 5-4 10 0" fill="none" stroke="#eee1d5" stroke-width="2" stroke-linecap="round"/>
 </svg></div></div>
-<div class='c'><h2>Dibujo L</h2><div class='m'><div class='e'>El SVG no parsea: syntax error: line 1, column 0</div><pre style='font-size:9px;white-space:pre-wrap'>xml
+<div class='c'><h2>Dibujo L</h2><div class='e'>SVG mal formado (syntax error: line 1, column 0): se muestra lo que el navegador alcanza a dibujar.</div><div class='m'><iframe sandbox srcdoc="&lt;!doctype html&gt;&lt;style&gt;html,body{margin:0;height:100%;background:#fff}svg{width:100%;height:100%}&lt;/style&gt;xml
 &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 400 400&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;
   &lt;defs&gt;
     &lt;radialGradient id=&quot;bg&quot; cx=&quot;50%&quot; cy=&quot;50%&quot; r=&quot;75%&quot;&gt;
@@ -1137,7 +1137,12 @@
       &lt;feGaussianBlur stdDeviation=&quot;8&quot; result=&quot;blur&quot;/&gt;
       &lt;feMerge&gt;
         &lt;feMergeNode in=&quot;blur&quot;/&gt;
-       </pre></div></div>
+        &lt;feMergeNode in=&quot;SourceGraphic&quot;/&gt;
+      &lt;/feMerge&gt;
+    &lt;/filter&gt;
+
+    &lt;g id=&quot;leaf&quot;&gt;
+      &lt;path d" style='width:100%;height:100%;border:0;display:block'></iframe></div></div>
 <div class='c'><h2>Dibujo M</h2><div class='m'><svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
   <rect width="400" height="400" fill="#87CEEB"/>
   <circle cx="200" cy="200" r="80" fill="#FFD700"/>

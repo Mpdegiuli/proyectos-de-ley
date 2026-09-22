@@ -165,8 +165,17 @@ def ciego(consigna, semilla):
     for letra, c in zip(letras, orden):
         svg = (c / "dibujo.svg").read_text(encoding="utf-8")
         medidas = describir_svg(svg)
-        cuerpo = sanear(svg) if medidas["parsea"] else f"<div class='e'>El SVG no parsea: {html.escape(medidas.get('error', ''))}</div><pre style='font-size:9px;white-space:pre-wrap'>{html.escape(svg[:1500])}</pre>"
-        partes.append(f"<div class='c'><h2>Dibujo {letra}</h2><div class='m'>{cuerpo}</div></div>")
+        nota = ""
+        if medidas["parsea"]:
+            cuerpo = sanear(svg)
+        else:
+            # SVG mal formado (22/9/2026, tres de 44): el verificador XML lo rechaza, pero el navegador
+            # dibuja lo que alcanza. Va en un iframe aislado (sin scripts) para que no rompa el resto
+            # de la página, con el aviso arriba: que se vea lo que hay y que se sepa que está roto.
+            doc = "<!doctype html><style>html,body{margin:0;height:100%;background:#fff}svg{width:100%;height:100%}</style>" + sanear(svg)
+            nota = f"<div class='e'>SVG mal formado ({html.escape(medidas.get('error', ''))}): se muestra lo que el navegador alcanza a dibujar.</div>"
+            cuerpo = f"<iframe sandbox srcdoc=\"{html.escape(doc, quote=True)}\" style='width:100%;height:100%;border:0;display:block'></iframe>"
+        partes.append(f"<div class='c'><h2>Dibujo {letra}</h2>{nota}<div class='m'>{cuerpo}</div></div>")
     partes.append("</div></body></html>")
     (salida / f"dibujos_{consigna}_ciego.html").write_text("\n".join(partes), encoding="utf-8")
     (salida / f"dibujos_{consigna}_clave.json").write_text(
