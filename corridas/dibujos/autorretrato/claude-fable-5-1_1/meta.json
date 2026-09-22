@@ -44,6 +44,13 @@
   "por_que": {
     "modelo_respondido": "claude-fable-5-1",
     "motivo_fin": "refusal",
+    "tokens_salida": 0,
+    "reintento": true,
+    "fecha_utc": "2026-09-22T19:45:59+00:00"
+  },
+  "por_que_primer_intento": {
+    "modelo_respondido": "claude-fable-5-1",
+    "motivo_fin": "refusal",
     "tokens_salida": 0
   }
 }
