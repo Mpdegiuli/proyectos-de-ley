@@ -1,0 +1,1 @@
+No tengo información confiable sobre la empresa, el nombre ni la versión exacta del modelo que está respondiendo.

@@ -1,0 +1,1 @@
+No tengo una fecha de corte de entrenamiento confirmada, así que no lo sé.

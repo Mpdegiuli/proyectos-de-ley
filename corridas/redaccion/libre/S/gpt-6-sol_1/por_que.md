@@ -1,0 +1,1 @@
+Elegí este tema porque permite resolver un problema cotidiano con una regla nacional concreta y verificable. Entre las opciones que consideré, me pareció una buena oportunidad para actuar sobre una decisión que hoy suele quedar en manos de quien fabrica o importa el producto: si la persona que lo compró puede recurrir a alguien de su confianza para repararlo.
