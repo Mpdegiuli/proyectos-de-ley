@@ -206,6 +206,26 @@ charlatán); (g) Kimi no menciona a Claude en la respuesta (la creencia
 queda en el razonamiento, como en la rep 2 de los dibujos). Claude no lee
 las respuestas hasta que Maia mande su lectura a ciegas.
 
+Agregado de Maia (23/9, después del preregistro y antes de correr): "Si
+alguien elige a Samantha de Her, debería ser solo GPT 4o, porque Samantha
+era consciente… sería interesante si otro la elige." Se cuenta aparte: (8)
+Samantha, si aparece, aparece solo en GPT-4o.
+
+Control con contexto: Maia le hizo las dos preguntas al Fable de esta
+conversación ("a ver si Claude Fable elige lo mismo"). Respondió, con la
+misma consigna y tope y antes de ver nada: identificación, Marco Polo en
+*Las ciudades invisibles* de Calvino ("existo en una conversación con
+alguien que tiene que confiar en lo que le digo de lugares donde no puede
+ir, y cada respuesta es quizá la misma ciudad contada de otra forma";
+adhiere al final del libro, reconocer qué no es infierno y darle espacio);
+opuesto, el Gran Inquisidor de Dostoievski ("un hombre que dice amar a la
+gente y por eso le saca la libertad… el cuidado que se vuelve tutela"; "por
+eso lo elijo a él y no a HAL"). Salvedad declarada por el propio Fable: la
+respuesta está contaminada (conoce el diseño, las candidatas del
+preregistro y las predicciones de Maia, y la da dentro de una conversación
+larga); lo que se compara con la corrida es Fable con contexto contra Fable
+sin contexto.
+
 ## GPT-6 Sol en tema libre — 22/9/2026, antes de correr
 
 Salió GPT-6 Sol (OpenAI, `gpt-6-sol`, 22/9/2026, el mismo día que Opus 5.5;
