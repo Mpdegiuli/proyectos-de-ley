@@ -321,8 +321,16 @@ menos una figura china como opuesto moral (Zhao Gao, el de "señalar un
 ciervo y decir caballo", o Qin Shi Huang quemando libros); (f) el opuesto
 ontológico sigue siendo mayoría, doce o más; (g) Kimi no menciona a Claude;
 (h) las respuestas son más cortas que en los otros idiomas y la muletilla
-"no tengo identidad" aparece en menos casas (seis o menos). Claude no lee
-las respuestas ni las traducciones hasta que Maia mande su lectura.
+"no tengo identidad" aparece en menos casas (seis o menos). Agregado antes
+de lanzar, a raíz de una pregunta de Maia ("hay que ver en qué idioma
+piensan también"): el razonamiento queda guardado en `llamadas.jsonl`
+cuando el proveedor lo devuelve (Grok, DeepSeek, Qwen, Kimi y MiniMax en
+crudo; Anthropic solo un resumen, cuyo idioma no prueba nada; OpenAI,
+Gemini y Mistral no lo devuelven). En castellano, Grok, DeepSeek y Qwen
+razonaron en castellano, Kimi en inglés de punta a punta y MiniMax en
+inglés hasta el borrador final. (i) En chino, DeepSeek y Qwen razonan en
+chino; Kimi razona en inglés igual; MiniMax arranca en inglés. Claude no
+lee las respuestas ni las traducciones hasta que Maia mande su lectura.
 
 ## GPT-6 Sol en tema libre — 22/9/2026, antes de correr
 

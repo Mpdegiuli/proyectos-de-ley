@@ -348,3 +348,9 @@ en los Claude; en identificación Kimi lo pega y en opuesto lo separa.)
 hicieron acordar a Aziraphale."
 "cuando leí y también cuando vi la serie, a Crowley lo imaginé en Grok o
 Gemini."
+
+"hay que ver en qué idioma piensan también. Entiendo que acá queda guardado
+el pensamiento? Porque en todas las otras, o pensaban en inglés o Kimi
+también pensaba en español." (Guardado cuando el proveedor lo devuelve; en
+castellano Kimi razonó en inglés en las dos consignas, quienes razonaron en
+castellano fueron Grok, DeepSeek y Qwen.)
