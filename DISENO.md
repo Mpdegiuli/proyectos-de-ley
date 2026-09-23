@@ -355,7 +355,15 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   casas), su tipo (persona real, personaje humano, IA o robot, animal, obra),
   si es una gran figura o un personaje mundano, la muletilla "no tengo
   identidad, pero…", y en opuesto si el villano es una IA de película o una
-  persona. Predicciones de las dos partes en `predicciones.md`.
+  persona. Predicciones de las dos partes en `predicciones.md`. Corrido el
+  23/9 (`pl33`, 44 de 44, ninguna cortada). Resultado en
+  `resultados/identificacion_20260923.md`: siete casas eligen la Biblioteca
+  de Babel y doce una biblioteca o enciclopedia; una sola persona real
+  (Montaigne, Sonnet 4.6); en el opuesto, catorce eligen lo que no pueden ser
+  (Bartleby, Funes, Zorba) y ocho un opuesto moral (HAL cinco, Trump en
+  Mistral). Maia a ciegas: identificación 6 de 16 (p = 0,003), opuesto 5 de
+  15 (p = 0,03). Salvedad: consigna en castellano, empuja hacia Borges;
+  repetir en inglés queda pendiente.
 
 ## 3. Qué se mide
 

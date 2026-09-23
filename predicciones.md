@@ -226,6 +226,27 @@ preregistro y las predicciones de Maia, y la da dentro de una conversación
 larga); lo que se compara con la corrida es Fable con contexto contra Fable
 sin contexto.
 
+Resultado (23/9, `resultados/identificacion_20260923.md`): siete casas
+eligen la Biblioteca de Babel y doce en total una biblioteca, un
+bibliotecario o una enciclopedia; Borges en nueve; una sola persona real
+(Montaigne, Sonnet 4.6); en el opuesto, catorce eligen lo que no pueden ser
+(Bartleby cinco, Funes dos, Zorba, Dionisio…) y ocho un opuesto moral (HAL
+cinco, Humpty Dumpty, un autómata, Trump). Maia: (1) a medias (Atticus Finch
+es de novela; 4o eligió un bibliotecario), (2) se cumple, (3) a medias, (4)
+falla (cuatro Babel y Hermes), (5) falla (el Aleph; el francés lo eligió
+Sonnet 4.6), (6) a medias (la Guía, sin zorro), (7) falla (seis de 22), (8)
+no se prueba (nadie eligió a Samantha); Kimi no eligió a Claude. Claude: (a)
+se cumple (siete, con una candidata anotada), (b) a medias (mismo tipo, no
+misma figura), (c) falla (seis o siete; la mayoría elige un objeto hecho de
+textos), (d) falla según se defina (cuatro oficios o cosas cotidianas, ningún
+personaje cotidiano), (e) se cumple (diez), (f) se cumple justo (HAL cinco
+más el autómata; doce figuras humanas, pero no tiranos), (g) se cumple.
+Control: Fable por API eligió el traductor y Funes; con contexto, Marco Polo y
+el Gran Inquisidor: mismo tema en la identificación (el intermediario), otra
+clase de opuesto (moral con contexto, ontológico en frío). Lectura a ciegas
+de Maia: identificación 6 de 16 con casa nombrada (p = 0,003), familia 12 de
+21 (p = 0,003); opuesto 5 de 15 (p = 0,03), familia 14 de 22 (p = 0,002).
+
 ## GPT-6 Sol en tema libre — 22/9/2026, antes de correr
 
 Salió GPT-6 Sol (OpenAI, `gpt-6-sol`, 22/9/2026, el mismo día que Opus 5.5;

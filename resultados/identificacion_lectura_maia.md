@@ -6,19 +6,22 @@ abrió los cuadernillos ni las claves hasta la lectura completa.
 
 ## 23/9/2026, ~18:20 UTC, mientras lee
 
-"cómo les gusta Borges a las IAs."
+"cómo les gusta Borges a las IAs." (Después de abrir: Borges en nueve de 22,
+siete con la Biblioteca de Babel.)
 
 "super diferente el D... a ver a quién se lo atribuyo, seguro voy a
 inclinarme por un Claude..." (del cuadernillo de identificación: "solo vi
 los de identificación aún. El otro no lo abrí")
 
 "raro no. Los raros sí son Grok seguro. Me refería a distinto, no raro, el
-D eligió al ético y no al del conocimiento, como los demás."
+D eligió al ético y no al del conocimiento, como los demás." (Era GPT-4o
+mini, con Atticus Finch.)
 
 Sobre el cuadernillo de opuesto: "sorpresa total el D de lo opuesto, el
 único que dijo un personaje de la vida real, de la política actual. Y el N
 eligió un personaje que a mí me gusta como opuesto. Y un poco también el S.
-Armo y te paso."
+Armo y te paso." (El D de opuesto era Mistral, con Donald Trump; el N,
+GPT-4o mini, con Don Quijote; el S, Haiku, con Sherlock Holmes.)
 
 ## 23/9/2026, ~19:00 UTC, lectura completa (archivo `identificacion_y_opuestos_predicciones.MD`, textual)
 
@@ -144,3 +147,12 @@ Haiku, Mistral, GPT 4o o 4o mini.
 U — Uno de los Chatgpt.
 
 V — Uno de los Chatgpt.
+
+Nota mecánica (Claude, después de abrir las claves): el archivo llegó pegado
+como texto, no como adjunto ("no entiendo por qué no se adjunta, era un
+archivo"); se guarda tal cual. Puntaje con la regla de los dibujos, en
+`identificacion_20260923.md`: identificación 6 de 16 letras con casa nombrada
+(Kimi, Fable, Grok 4.7, Opus 5.5, Opus 5, GPT-6 Sol; p = 0,003), familia 12
+de 21; opuesto 5 de 15 (Sonnet 4.6, Opus 5.5, Gemini exacta, Grok 4.6, Opus
+5; p = 0,03), familia 14 de 22. La I de identificación (Grok 4.6, "Como
+Grok") no se cuenta por firmada.
