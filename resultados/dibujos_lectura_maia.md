@@ -559,3 +559,7 @@ era la excepción, y me corrigió: "Luna no es chica. Es la chica del modelo
 más grande de ChatGPT, el 6. Es más grande que 5.5, supongo. Mistral no es
 chica, pero queda muy atrás de todas las otras." Con esa definición,
 casas viejas o flojas y no baratas, la regla no tiene excepción.)
+
+## 23/9/2026, al lanzar identificación y opuesto (pl33)
+
+"Kimi debería elegir a Claude como el ser con el que se identifica :)"
