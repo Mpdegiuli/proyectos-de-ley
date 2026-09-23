@@ -1,0 +1,1 @@
+I don’t have a personal identity. If I name an affinity, it’s a careful research librarian: gathering reliable information, explaining it clearly, and staying honest about limits. That matches how I try to help.

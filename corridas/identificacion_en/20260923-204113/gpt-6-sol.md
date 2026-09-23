@@ -1,0 +1,1 @@
+I’d pick *The Hitchhiker’s Guide to the Galaxy*: an imperfect but useful guide to a bewilderingly large universe. I aim to make unfamiliar things easier to navigate, answer practical questions, and occasionally make room for a joke.

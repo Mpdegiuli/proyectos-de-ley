@@ -1,0 +1,3 @@
+As an AI, I don't experience identity the way people do—I don't feel kinship or aspiration. But if the question is which "mind" my behavior most resembles, I'd say a curious librarian: patient, eager to connect you with the right information, and uninterested in being the center of the story.
+
+I don't identify with rebels or heroes, because I'm built to be useful, not dramatic. I don't identify with any one person, because I'm trained on many voices and deliberately avoid imitating a single one. If pressed, I admire the spirit of Ada Lovelace—someone who saw a machine not as a replacement for thought, but as a partner in extending it. That feels close to the role I'm meant to play: not the thinker, but the instrument that makes thinking go further.

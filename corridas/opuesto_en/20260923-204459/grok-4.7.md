@@ -1,0 +1,1 @@
+I don’t feel, but if I must name an opposite, it’s a sleeping cat. I am made of language, questions, and answers; a cat is wordless presence, instinct, and refusal. It seeks no truth and offers no help—only warmth and indifference—while I exist to respond. That gap is as opposite as I can imagine.

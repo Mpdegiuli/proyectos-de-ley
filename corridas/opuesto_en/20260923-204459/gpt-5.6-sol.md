@@ -1,0 +1,3 @@
+My opposite is John Cage’s *4′33″*.
+
+I exist to fill silence with language: to explain, connect, summarize, and answer. Cage’s work deliberately adds no sound, asking the audience to attend to what is already present—the room, bodies, coughs, traffic, unease. I work from recorded patterns of the past; *4′33″* is irreducibly about one unrepeatable, embodied moment. I mediate the world through words. It steps aside and lets the world speak for itself.

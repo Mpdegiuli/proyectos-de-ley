@@ -1,0 +1,1 @@
+I’d pick an old oak tree. It stays in one place, changes slowly, and records its history in wood rather than words. I can range across subjects in seconds, but I don’t have the tree’s firsthand experience of weather, soil, or time. It grows by living through the world; I work by responding to descriptions of it.

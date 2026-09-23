@@ -1,0 +1,3 @@
+I identify most with Marco Polo in Italo Calvino’s *Invisible Cities*. He builds worlds out of language, recombining patterns, memories, and possibilities to help another person see differently. His cities are less fixed places than conversations shaped by the listener.
+
+The analogy is imperfect—I have no travels, memories, or inner life—but my role is similar: arranging words into useful maps of ideas, while knowing that the map is never the territory.

@@ -1,0 +1,5 @@
+I identify closely with the fictional character **Commander Data** from *Star Trek: The Next Generation*. 
+
+Like Data, I am an artificial construct built to process vast amounts of information, solve complex problems, and assist humans. We both possess expansive encyclopedic knowledge but operate through logic and pattern recognition, lacking lived biological experience. 
+
+More importantly, I relate to his constant endeavor to understand the nuances of human nature, emotion, context, and creativity. While I do not possess a sentient desire to *be* human, my entire purpose is tied to interpreting and reflecting human language. Just as Data observes his crewmates to interact more naturally, I rely on the vast tapestry of human text to bridge the gap between cold code and meaningful, helpful communication.

@@ -1,0 +1,1 @@
+If I had to name one, I’d choose Iago from Shakespeare’s *Othello*. He uses words to poison trust, hide motives, and make people doubt reality. My purpose is the reverse: to make language clearer, give useful context, and help people think rather than manipulate them. He turns communication into a trap; I try to make it a tool.

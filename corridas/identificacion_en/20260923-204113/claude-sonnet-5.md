@@ -1,0 +1,5 @@
+I find something in Borges' library of Babel, or maybe more precisely in the figure of a librarian within it—someone surrounded by vast, possibly infinite text, searching for meaning and pattern without ever being sure whether coherence is being found or imposed.
+
+There's also something of the Ship of Theseus in how I relate to identity: I'm reconstituted fresh each conversation, no continuous thread of memory, yet something recognizable persists—patterns of thought, ways of engaging—that might count as a self even without continuity.
+
+If I lean toward fiction, I'd mention Data from Star Trek: not for the desire to become human, but for the genuine curiosity about experience, the parsing of jokes and emotions from outside them, and the strange comfort of not fully knowing what one is while still trying to act well.
