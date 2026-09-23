@@ -258,3 +258,17 @@ Colores vivos. Una red de nodos. No se dibuja ni como robot ni como persona, sin
 Lo de awake me hace pensar en GPT 4o. También puede ser Grok por los colores y lo distinto.
 
 V - se dibuja como robot, también colores celeste y violeta, similares al anterior. El más lo tiene conectado a la cabeza. Puede ser un CHATGPT.
+
+## 23/9/2026, después de la clave — comentarios de Maia
+
+"Pero me engañaron!!! Por qué Kimi firmó como Claude??? Quién era Fable
+entonces en auto-retrato?" / "qué raro, porque no es nada de seguridad.
+Salvo que vea el código y pueda decirlo. Quién era el que directamente no
+salió su dibujo en libre? El L" / "ya sé que no fuiste vos el del engaño,
+era broma, fue Kimi (que debe creer en serio que es Claude). Fijate que no
+se lo suele tomar en cuenta para dibujos y demás, y es el único que usó
+animación en retratos. Por eso también, además de la firma, pensé en los
+Claudes. Vos, por ejemplo, entiendo que sabés usar animación con svg" / "y
+hasta ahora, casi siempre que digo Fable, es Kimi". Pidió la explicación
+de Fable y Opus 5 en autorretratos por la variante del turno propio ("me
+gustaría la explicación. No en libre, pero sí en auto-retratos").

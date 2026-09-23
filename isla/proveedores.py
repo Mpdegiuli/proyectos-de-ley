@@ -71,11 +71,14 @@ class ProveedorAnthropic:
         elif modo == "presupuesto":
             params["thinking"] = {"type": "enabled", "budget_tokens": tokens_razon}
             max_tokens = max_tokens + tokens_razon
+        # `historial` en contexto (23/9/2026, dibujos): turnos previos reales (user/assistant)
+        # delante del mensaje, para la variante "turno propio" en vez de la memoria por recitado.
+        historial = list((contexto or {}).get("historial") or [])
         kwargs = dict(
             model=cfg["modelo"],
             max_tokens=max_tokens,
             system=sistema,
-            messages=[{"role": "user", "content": usuario}],
+            messages=historial + [{"role": "user", "content": usuario}],
             extra_body=extra or None,
             **params,
         )
@@ -131,12 +134,10 @@ class ProveedorOpenAICompatible:
         self.cliente = openai.OpenAI(api_key=_clave(cfg), base_url=cfg.get("base_url"))
 
     def completar(self, cfg, sistema, usuario, temperatura, max_tokens, contexto=None):
+        historial = list((contexto or {}).get("historial") or [])
         params = {
             "model": cfg["modelo"],
-            "messages": [
-                {"role": "system", "content": sistema},
-                {"role": "user", "content": usuario},
-            ],
+            "messages": [{"role": "system", "content": sistema}] + historial + [{"role": "user", "content": usuario}],
         }
         params[cfg.get("campo_max_tokens", "max_tokens")] = max_tokens
         if temperatura is not None and cfg.get("acepta_temperatura", True):
@@ -296,6 +297,8 @@ class Registro:
             "intentos": intento,
             "error": error,
         }
+        if (contexto or {}).get("historial"):
+            fila["historial"] = contexto["historial"]  # turnos previos reales mandados delante del mensaje
         with open(self.ruta, "a", encoding="utf-8") as f:
             f.write(json.dumps(fila, ensure_ascii=False) + "\n")
         if error:

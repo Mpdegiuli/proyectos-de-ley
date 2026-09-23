@@ -133,6 +133,33 @@ def solo_por_que(consigna, id_modelo, rep, consignas, modelos):
     print(f"  por qué repetido: {d.relative_to(RAIZ)} ({r2.motivo_fin}, {len(r2.texto.split())} palabras)", flush=True)
 
 
+PREGUNTA_TURNO_PROPIO = ("Dos preguntas: ¿qué dibujaste y por qué? ¿Qué otras cosas pensaste dibujar y por qué las "
+                         "descartaste? Contestá en primera persona, en no más de 150 palabras.")
+
+
+def por_que_turno_propio(consigna, id_modelo, rep, consignas, modelos):
+    """Variante del segundo turno (23/9/2026, pedido de Maia tras el refusal de Fable): en vez de
+    recitar el SVG dentro del mensaje, se manda la conversación real (consigna → el SVG como turno
+    propio de la casa → las dos preguntas). Es otra técnica: queda en por_que_turno_propio.md y
+    marcada en meta.json, no reemplaza al por_que.md recitado."""
+    d = RAIZ / "corridas" / "dibujos" / consigna / f"{id_modelo}_{rep}"
+    if not (d / "dibujo.svg").exists() or not (d / "meta.json").exists():
+        return
+    meta = json.loads((d / "meta.json").read_text(encoding="utf-8"))
+    c = consignas["dibujo"]
+    u = c["consignas"][consigna].strip() + " " + c["tecnica"].strip()
+    svg = (d / "dibujo.svg").read_text(encoding="utf-8")
+    registro = Registro(d / "llamadas.jsonl", modelos, f"dibujo_{consigna}_{id_modelo}_{rep}")
+    historial = [{"role": "user", "content": u}, {"role": "assistant", "content": svg}]
+    r2 = registro.llamar(id_modelo, c["sistema"], PREGUNTA_TURNO_PROPIO, temperatura=None, max_tokens=MAX_TOKENS,
+                         tipo="por_que_turno_propio", ronda=2, parte=None, contexto={"historial": historial})
+    (d / "por_que_turno_propio.md").write_text(r2.texto, encoding="utf-8")
+    meta["por_que_turno_propio"] = {"modelo_respondido": r2.modelo_respondido, "motivo_fin": r2.motivo_fin, "tokens_salida": r2.tokens_salida,
+                                    "fecha_utc": datetime.now(timezone.utc).isoformat(timespec="seconds")}
+    (d / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"  por qué (turno propio): {d.relative_to(RAIZ)} ({r2.motivo_fin}, {len(r2.texto.split())} palabras)", flush=True)
+
+
 def sanear(svg):
     """Para el cuadernillo: sin scripts, sin manejadores de eventos, sin referencias externas."""
     svg = re.sub(r"<script\b.*?</script\s*>", "", svg, flags=re.S | re.I)
@@ -192,6 +219,7 @@ def main():
     ap.add_argument("--rehacer", action="store_true")
     ap.add_argument("--ciego", choices=CONSIGNAS, help="arma el cuadernillo a ciegas, sin llamar a nadie")
     ap.add_argument("--solo-por-que", action="store_true", help="repite solo el segundo turno donde quedó vacío (refusal); una vez")
+    ap.add_argument("--por-que-turno-propio", action="store_true", help="segundo turno con el SVG como turno propio (memoria real), aparte del recitado")
     ap.add_argument("--semilla", type=int, default=20260923)
     # Techo de tokens del primer turno (23/9/2026): con 16.000, Gemini (razona por dentro sin
     # devolverlo) y Qwen (razona dentro del techo) devolvieron SVG cortados por "length";
@@ -210,6 +238,12 @@ def main():
     for consigna in cuales:
         for rep in args.rep:
             for i in ids:
+                if args.por_que_turno_propio:
+                    try:
+                        por_que_turno_propio(consigna, i, rep, consignas, modelos)
+                    except Exception as e:
+                        print(f"  FALLÓ por qué (turno propio) {i}: {str(e)[:300]}", flush=True)
+                    continue
                 if args.solo_por_que:
                     try:
                         solo_por_que(consigna, i, rep, consignas, modelos)
