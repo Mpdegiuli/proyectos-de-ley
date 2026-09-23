@@ -540,3 +540,7 @@ fue un tema de razonamiento de uno solo." (Medido después: autorretratos
 con texto adentro, 12 en la rep 1 y 8 en la rep 2; frases con mensaje, 7 y
 5; luminancia media de los autorretratos 77 → 91, es decir, no más oscuros
 de color; elementos 61 → 67.)
+
+"Esto dónde está: 'SELF', 'ENTRE PALABRAS', 'if curious: explore()'. Debe
+ser en el código. En el dibujo no se ven." (Están: cuerpo 11, 8 y 7 puntos,
+las de Sonnet 4.6 con opacidad 0,2.) "El SELF sí, perdón." 
