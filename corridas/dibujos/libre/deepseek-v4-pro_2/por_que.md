@@ -1,0 +1,3 @@
+Dibujé un paisaje al atardecer: un sol grande sobre montañas y un lago con reflejos dorados. Elegí esta escena porque me permitía jugar con gradientes de cielo, agua y luz, y crear una atmósfera serena usando solo formas geométricas y curvas.
+
+Pensé en dibujar una composición abstracta de figuras superpuestas, pero la descarté porque sentía que un paisaje me daría más libertad para experimentar con colores y transparencias. También consideré una escena urbana con edificios y ventanas, pero me pareció más rígida y menos evocadora. Por último, imaginé un retrato estilizado de un animal, pero requería más precisión en los trazos y no quería arriesgarme a que quedara tosco. El paisaje me permitió un resultado armónico y contemplativo dentro del límite de caracteres.

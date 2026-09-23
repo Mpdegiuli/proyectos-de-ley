@@ -1,0 +1,95 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo degradado -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F6FF;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="sunGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Fondo cielo -->
+  <rect width="400" height="400" fill="url(#skyGradient)"/>
+  
+  <!-- Sol -->
+  <circle cx="320" cy="60" r="35" fill="url(#sunGradient)"/>
+  
+  <!-- Nubes -->
+  <ellipse cx="80" cy="50" rx="40" ry="25" fill="#FFFFFF" opacity="0.9"/>
+  <ellipse cx="110" cy="55" rx="35" ry="20" fill="#FFFFFF" opacity="0.9"/>
+  <ellipse cx="50" cy="60" rx="30" ry="20" fill="#FFFFFF" opacity="0.8"/>
+  
+  <ellipse cx="280" cy="100" rx="45" ry="28" fill="#FFFFFF" opacity="0.85"/>
+  <ellipse cx="320" cy="105" rx="38" ry="22" fill="#FFFFFF" opacity="0.85"/>
+  <ellipse cx="245" cy="110" rx="35" ry="20" fill="#FFFFFF" opacity="0.8"/>
+  
+  <!-- Montañas de fondo -->
+  <polygon points="0,200 100,120 200,180 300,100 400,200 400,400 0,400" fill="#8B7355" opacity="0.6"/>
+  <polygon points="0,220 80,150 160,200 240,130 320,190 400,220 400,400 0,400" fill="#A0826D" opacity="0.5"/>
+  
+  <!-- Árbol izquierdo -->
+  <rect x="60" y="260" width="18" height="80" fill="#654321"/>
+  <circle cx="69" cy="240" r="50" fill="#228B22"/>
+  <circle cx="40" cy="260" r="40" fill="#32CD32"/>
+  <circle cx="100" cy="260" r="42" fill="#228B22"/>
+  
+  <!-- Árbol derecho -->
+  <rect x="280" y="270" width="16" height="70" fill="#654321"/>
+  <circle cx="288" cy="255" r="48" fill="#228B22"/>
+  <circle cx="260" cy="275" r="38" fill="#32CD32"/>
+  <circle cx="320" cy="275" r="40" fill="#228B22"/>
+  
+  <!-- Flores en el campo -->
+  <circle cx="150" cy="350" r="4" fill="#FF69B4"/>
+  <rect x="148" y="340" width="4" height="12" fill="#228B22"/>
+  
+  <circle cx="200" cy="360" r="4" fill="#FF1493"/>
+  <rect x="198" y="350" width="4" height="12" fill="#228B22"/>
+  
+  <circle cx="120" cy="365" r="4" fill="#FFB6C1"/>
+  <rect x="118" y="355" width="4" height="12" fill="#228B22"/>
+  
+  <circle cx="250" cy="355" r="4" fill="#FF69B4"/>
+  <rect x="248" y="345" width="4" height="12" fill="#228B22"/>
+  
+  <circle cx="180" cy="375" r="3.5" fill="#FFB6C1"/>
+  <rect x="178.5" y="368" width="3" height="10" fill="#228B22"/>
+  
+  <!-- Pasto -->
+  <ellipse cx="100" cy="380" rx="80" ry="30" fill="#90EE90" opacity="0.7"/>
+  <ellipse cx="280" cy="385" rx="70" ry="25" fill="#7CCD7C" opacity="0.7"/>
+  <ellipse cx="200" cy="390" rx="90" ry="20" fill="#98FB98" opacity="0.6"/>
+  
+  <!-- Mariposas volando -->
+  <g id="butterfly1" transform="translate(150, 150)">
+    <ellipse cx="0" cy="-3" rx="6" ry="8" fill="#FF1493"/>
+    <ellipse cx="0" cy="3" rx="6" ry="8" fill="#FF1493"/>
+    <ellipse cx="-8" cy="0" rx="5" ry="7" fill="#FF69B4"/>
+    <ellipse cx="8" cy="0" rx="5" ry="7" fill="#FF69B4"/>
+    <rect x="-1" y="-6" width="2" height="12" fill="#333"/>
+  </g>
+  
+  <g id="butterfly2" transform="translate(320, 200)">
+    <ellipse cx="0" cy="-3" rx="5" ry="7" fill="#FFD700"/>
+    <ellipse cx="0" cy="3" rx="5" ry="7" fill="#FFD700"/>
+    <ellipse cx="-7" cy="0" rx="4" ry="6" fill="#FFA500"/>
+    <ellipse cx="7" cy="0" rx="4" ry="6" fill="#FFA500"/>
+    <rect x="-0.5" y="-5" width="1" height="10" fill="#333"/>
+  </g>
+  
+  <!-- Pájaros -->
+  <g id="bird1" transform="translate(100, 120)">
+    <path d="M 0 0 Q 5 -3 10 0 Q 5 2 0 0" stroke="#333" stroke-width="1.5" fill="none"/>
+    <circle cx="0" cy="0" r="2" fill="#333"/>
+  </g>
+  
+  <g id="bird2" transform="translate(180, 100)">
+    <path d="M 0 0 Q 6 -3 12 0 Q 6 2 0 0" stroke="#333" stroke-width="1.5" fill="none"/>
+    <circle cx="0" cy="0" r="1.5" fill="#333"/>
+  </g>
+</svg>
+```

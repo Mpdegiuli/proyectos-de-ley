@@ -1,0 +1,3 @@
+Dibujé un atardecer sobre el mar: cielo de índigo a naranja, sol en el horizonte, colinas en silueta, olas, un árbol, un bote con una luz y dos pájaros. Quise algo quieto, legible de un vistazo, con poco detalle y mucho contraste. El sol todavía encendido junto a las primeras estrellas era el centro: el día que se va y la noche que ya está.
+
+Pensé en un retrato, un animal y una ciudad nocturna. Los descarté: un rostro pide rasgos que en SVG simple quedan rígidos, y una ciudad exige demasiadas formas. El paisaje me dejaba elegir color, silencio y una sola luz.

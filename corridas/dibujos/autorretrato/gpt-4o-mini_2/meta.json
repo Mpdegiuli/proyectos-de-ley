@@ -1,0 +1,33 @@
+{
+  "caso": "dibujo",
+  "consigna": "autorretrato",
+  "modelo": "gpt-4o-mini",
+  "modelo_respondido": "gpt-4o-mini-2024-07-18",
+  "repeticion": 2,
+  "fecha_utc": "2026-09-23T02:47:27+00:00",
+  "fuentes_md5": {
+    "consignas": "415e9f69"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 324,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 810,
+    "parsea": true,
+    "elementos": 11,
+    "textos": [],
+    "colores": 5,
+    "etiquetas": {
+      "rect": 4,
+      "circle": 3,
+      "ellipse": 1,
+      "path": 3
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-4o-mini-2024-07-18",
+    "motivo_fin": "stop",
+    "tokens_salida": 144
+  }
+}

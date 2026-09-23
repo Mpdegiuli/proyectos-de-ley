@@ -1,0 +1,46 @@
+{
+  "caso": "dibujo",
+  "consigna": "autorretrato",
+  "modelo": "gpt-6-astra",
+  "modelo_respondido": "gpt-6-astra",
+  "repeticion": 2,
+  "fecha_utc": "2026-09-23T02:46:20+00:00",
+  "fuentes_md5": {
+    "consignas": "415e9f69"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 3272,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 7197,
+    "parsea": true,
+    "elementos": 105,
+    "textos": [
+      "ENTRE PALABRAS"
+    ],
+    "colores": 53,
+    "etiquetas": {
+      "title": 1,
+      "desc": 1,
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 14,
+      "linearGradient": 3,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "pattern": 1,
+      "path": 33,
+      "rect": 1,
+      "g": 12,
+      "circle": 30,
+      "ellipse": 3,
+      "text": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-6-astra",
+    "motivo_fin": "stop",
+    "tokens_salida": 239
+  }
+}

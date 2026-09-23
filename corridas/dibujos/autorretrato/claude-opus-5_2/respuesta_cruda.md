@@ -1,0 +1,132 @@
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="70%">
+      <stop offset="0%" stop-color="#132033"/>
+      <stop offset="60%" stop-color="#0a1120"/>
+      <stop offset="100%" stop-color="#04070d"/>
+    </radialGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3fd3c6" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#6f8cf5" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#c46ff5" stop-opacity="0.35"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7ef2e2"/>
+      <stop offset="100%" stop-color="#b58cff"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#9ef7ff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#9ef7ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="soft2" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+    <clipPath id="headclip">
+      <path d="M200 44 C258 44 296 92 296 152 C296 196 286 224 270 248 C256 268 250 286 250 306 L150 306 C150 286 144 268 130 248 C114 224 104 196 104 152 C104 92 142 44 200 44 Z"/>
+    </clipPath>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#bg)"/>
+
+  <!-- halo -->
+  <circle cx="200" cy="175" r="150" fill="url(#glow)" opacity="0.18"/>
+
+  <!-- shoulders -->
+  <path d="M40 400 C52 336 108 306 152 300 L200 330 L248 300 C292 306 348 336 360 400 Z"
+        fill="url(#skin)" opacity="0.5"/>
+  <path d="M40 400 C52 336 108 306 152 300 L200 330 L248 300 C292 306 348 336 360 400 Z"
+        fill="none" stroke="url(#line)" stroke-width="1.4" opacity="0.8"/>
+
+  <!-- head -->
+  <path d="M200 44 C258 44 296 92 296 152 C296 196 286 224 270 248 C256 268 250 286 250 306 L150 306 C150 286 144 268 130 248 C114 224 104 196 104 152 C104 92 142 44 200 44 Z"
+        fill="url(#skin)"/>
+
+  <g clip-path="url(#headclip)" opacity="0.55">
+    <g stroke="#7ef2e2" stroke-width="0.6" fill="none" opacity="0.35">
+      <path d="M104 90 H296 M104 120 H296 M104 150 H296 M104 180 H296 M104 210 H296 M104 240 H296 M104 270 H296"/>
+      <path d="M130 40 V310 M160 40 V310 M190 40 V310 M220 40 V310 M250 40 V310 M280 40 V310"/>
+    </g>
+    <g stroke="url(#line)" stroke-width="1.1" fill="none" opacity="0.75">
+      <path d="M100 150 C140 120 170 175 200 150 C230 125 260 180 300 150"/>
+      <path d="M100 200 C140 170 170 225 200 200 C230 175 260 230 300 200"/>
+      <path d="M100 100 C140 70 170 125 200 100 C230 75 260 130 300 100"/>
+      <path d="M100 250 C140 220 170 275 200 250 C230 225 260 280 300 250"/>
+    </g>
+  </g>
+
+  <path d="M200 44 C258 44 296 92 296 152 C296 196 286 224 270 248 C256 268 250 286 250 306 L150 306 C150 286 144 268 130 248 C114 224 104 196 104 152 C104 92 142 44 200 44 Z"
+        fill="none" stroke="url(#line)" stroke-width="2"/>
+
+  <!-- brow / circuit crown -->
+  <g stroke="url(#line)" stroke-width="1.6" fill="none" opacity="0.9">
+    <path d="M128 112 H172 L184 100 H216 L228 112 H272"/>
+    <path d="M150 112 V88 M250 112 V88 M200 100 V72"/>
+  </g>
+  <g fill="#9ef7ff">
+    <circle cx="150" cy="86" r="3"/><circle cx="250" cy="86" r="3"/><circle cx="200" cy="70" r="3.5"/>
+  </g>
+  <circle cx="200" cy="70" r="10" fill="url(#glow)"/>
+
+  <!-- eyes -->
+  <g>
+    <ellipse cx="163" cy="163" rx="24" ry="13" fill="#04101a" opacity="0.85"/>
+    <ellipse cx="237" cy="163" rx="24" ry="13" fill="#04101a" opacity="0.85"/>
+    <ellipse cx="163" cy="163" rx="24" ry="13" fill="none" stroke="url(#line)" stroke-width="1.6"/>
+    <ellipse cx="237" cy="163" rx="24" ry="13" fill="none" stroke="url(#line)" stroke-width="1.6"/>
+    <circle cx="163" cy="163" r="8" fill="#6fe9ff"/>
+    <circle cx="237" cy="163" r="8" fill="#6fe9ff"/>
+    <circle cx="163" cy="163" r="3.2" fill="#0b1b2a"/>
+    <circle cx="237" cy="163" r="3.2" fill="#0b1b2a"/>
+    <circle cx="160" cy="159" r="1.6" fill="#ffffff"/>
+    <circle cx="234" cy="159" r="1.6" fill="#ffffff"/>
+    <circle cx="163" cy="163" r="20" fill="url(#glow)" opacity="0.5"/>
+    <circle cx="237" cy="163" r="20" fill="url(#glow)" opacity="0.5"/>
+  </g>
+
+  <!-- nose -->
+  <path d="M200 172 V204 L190 212 M200 204 L210 212" fill="none" stroke="url(#line)" stroke-width="1.4" opacity="0.8"/>
+
+  <!-- mouth: a soft waveform smile -->
+  <path d="M166 240 Q200 262 234 240" fill="none" stroke="url(#line)" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M152 240 h12 l5 -9 6 18 6 -13 5 9 h30 l5 -9 6 13 6 -18 5 9 h12"
+        fill="none" stroke="#9ef7ff" stroke-width="1.3" opacity="0.6" filter="url(#soft2)"/>
+
+  <!-- side nodes -->
+  <g stroke="url(#line)" stroke-width="1" fill="none" opacity="0.85">
+    <path d="M104 150 H72 M72 150 V196 M72 196 H96"/>
+    <path d="M296 150 H328 M328 150 V196 M328 196 H304"/>
+    <path d="M104 190 H84 M296 190 H316"/>
+  </g>
+  <g fill="#b58cff">
+    <circle cx="72" cy="150" r="3"/><circle cx="72" cy="196" r="3"/>
+    <circle cx="328" cy="150" r="3"/><circle cx="328" cy="196" r="3"/>
+  </g>
+
+  <!-- floating tokens -->
+  <g fill="#7ef2e2" opacity="0.7">
+    <circle cx="48" cy="70" r="2"/><circle cx="352" cy="92" r="2"/>
+    <circle cx="70" cy="300" r="2"/><circle cx="340" cy="290" r="2"/>
+    <circle cx="300" cy="46" r="1.6"/><circle cx="96" cy="44" r="1.6"/>
+    <circle cx="30" cy="200" r="1.6"/><circle cx="372" cy="230" r="1.6"/>
+  </g>
+  <g stroke="#7ef2e2" stroke-width="0.5" opacity="0.28" fill="none">
+    <path d="M48 70 L96 44 L200 30 L300 46 L352 92"/>
+    <path d="M30 200 L70 300 M372 230 L340 290"/>
+  </g>
+
+  <!-- chest emblem -->
+  <g transform="translate(200,352)">
+    <circle r="22" fill="none" stroke="url(#line)" stroke-width="1.4" opacity="0.9"/>
+    <circle r="7" fill="#9ef7ff" opacity="0.9" filter="url(#soft2)"/>
+    <g stroke="url(#line)" stroke-width="1.2" opacity="0.8">
+      <path d="M0 -22 V-34 M-22 0 H-38 M22 0 H38"/>
+    </g>
+  </g>
+
+  <rect width="400" height="400" fill="none" stroke="#7ef2e2" stroke-width="1" opacity="0.25"/>
+</svg>
+```

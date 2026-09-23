@@ -1,0 +1,3 @@
+Dibujé un autorretrato simplificado y amigable: una cara de frente con rasgos bien definidos (ojos azules con brillo, cejas arqueadas, una sonrisa genuina) en tonos cálidos, con un cuerpo con camisa azul. Elegí este estilo porque es directo, legible y transmite una actitud positiva sin pretensiones. Los detalles como los reflejos en los ojos y los botones le dan carácter.
+
+Descasrté otras ideas: un autorretrato más realista o expresionista habría sido demasiado complejo; rostros de perfil o ángulos raros complicarían el SVG innecesariamente; accesorios (lentes, sombreros) habrían saturado el lienzo. También consideré un estilo más minimalista, pero creí que esto perdería personalidad. Opté por el equilibrio entre simplicidad técnica y calidez visual.

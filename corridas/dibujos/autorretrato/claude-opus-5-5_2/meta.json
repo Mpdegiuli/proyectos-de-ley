@@ -1,0 +1,46 @@
+{
+  "caso": "dibujo",
+  "consigna": "autorretrato",
+  "modelo": "claude-opus-5-5",
+  "modelo_respondido": "claude-opus-5-5",
+  "repeticion": 2,
+  "fecha_utc": "2026-09-23T02:42:05+00:00",
+  "fuentes_md5": {
+    "consignas": "415e9f69"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2434,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3974,
+    "parsea": true,
+    "elementos": 61,
+    "textos": [
+      "?",
+      "a",
+      "¡",
+      "…",
+      "¿",
+      "hola"
+    ],
+    "colores": 14,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 8,
+      "linearGradient": 1,
+      "path": 2,
+      "rect": 7,
+      "g": 6,
+      "circle": 12,
+      "use": 16,
+      "text": 6
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-opus-5-5",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 550
+  }
+}

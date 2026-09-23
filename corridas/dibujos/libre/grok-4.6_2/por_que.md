@@ -1,0 +1,3 @@
+Dibujé un paisaje nocturno: luna llena, montañas, un lago que la refleja, una cabaña con ventanas encendidas, pinos, un zorro y una estrella fugaz. Quería una escena serena, donde el contraste entre el cielo profundo y las luces cálidas contara una historia pequeña sin palabras.
+
+Pensé en un faro sobre un acantilado, pero el mar pedía más ancho. Un bosque otoñal con tren se iba de caracteres. Un gato geométrico me pareció menos evocador que un mundo entero. Elegí la noche porque las siluetas y los degradados rinden muy bien en SVG puro.

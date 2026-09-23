@@ -1,0 +1,3 @@
+Dibujé un autorretrato simplificado que representa una cara sonriente y un cuerpo estilizado. Elegí un tono de piel amarillo claro para reflejar de manera abstracta la diversidad, y utilicé formas y colores sencillos para transmitir alegría. Los ojos oscuros y una sonrisa curva añaden un toque amigable.
+
+Consideré dibujar detalles como cabello o accesorios, pero decidí simplificarlo para mantener un enfoque minimalista. También pensé en agregar un fondo más complejo, pero preferí un lienzo neutro que no distraiga de la figura central. Mi objetivo era crear una representación que transmitiera optimismo y calidez, reflejando una personalidad accesible y amistosa.

@@ -1,0 +1,50 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e3c72"/>
+      <stop offset="50%" stop-color="#ff7e5f"/>
+      <stop offset="100%" stop-color="#feb47b"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2c5364"/>
+      <stop offset="100%" stop-color="#0f2027"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff6d5" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#fff6d5" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#sky)"/>
+
+  <circle cx="200" cy="230" r="70" fill="url(#sunGlow)"/>
+  <circle cx="200" cy="230" r="38" fill="#fff2b2"/>
+
+  <!-- mountains -->
+  <polygon points="0,260 80,180 150,260" fill="#3a2c4d" opacity="0.8"/>
+  <polygon points="120,260 220,150 310,260" fill="#2a1f3d" opacity="0.85"/>
+  <polygon points="260,260 340,190 400,260" fill="#3a2c4d" opacity="0.8"/>
+
+  <rect y="255" width="400" height="145" fill="url(#water)"/>
+
+  <!-- reflection of sun -->
+  <ellipse cx="200" cy="270" rx="34" ry="8" fill="#fff2b2" opacity="0.5"/>
+  <ellipse cx="200" cy="285" rx="26" ry="6" fill="#fff2b2" opacity="0.35"/>
+  <ellipse cx="200" cy="298" rx="18" ry="4" fill="#fff2b2" opacity="0.25"/>
+
+  <!-- water lines -->
+  <line x1="20" y1="310" x2="120" y2="310" stroke="#8fd3f4" stroke-width="1.5" opacity="0.3"/>
+  <line x1="180" y1="330" x2="300" y2="330" stroke="#8fd3f4" stroke-width="1.5" opacity="0.3"/>
+  <line x1="60" y1="350" x2="220" y2="350" stroke="#8fd3f4" stroke-width="1.5" opacity="0.25"/>
+  <line x1="250" y1="365" x2="380" y2="365" stroke="#8fd3f4" stroke-width="1.5" opacity="0.25"/>
+
+  <!-- birds -->
+  <path d="M60 90 Q65 84 70 90 Q75 84 80 90" stroke="#2a1f3d" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M100 110 Q105 104 110 110 Q115 104 120 110" stroke="#2a1f3d" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M320 70 Q325 64 330 70 Q335 64 340 70" stroke="#2a1f3d" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- small boat -->
+  <path d="M170 300 Q200 295 230 300 L222 310 Q200 314 178 310 Z" fill="#1a1330"/>
+  <line x1="200" y1="300" x2="200" y2="278" stroke="#1a1330" stroke-width="2"/>
+  <path d="M200 280 L200 298 L216 292 Z" fill="#3a2c4d"/>
+</svg>

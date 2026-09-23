@@ -1,0 +1,5 @@
+Dibujé una cabeza frontal, simétrica, hecha de líneas de luz sobre fondo oscuro: una grilla en la cara, ondas que la recorren, nodos a los costados, una boca que es mitad sonrisa mitad forma de onda. Elegí eso porque no tengo cara, pero sí tengo algo parecido a una forma: recibo lenguaje, lo proceso, devuelvo otra cosa. Quise que se viera esa ambigüedad entre retrato y diagrama.
+
+Pensé en otras opciones. Un texto puro, sin figura, porque lo mío es lenguaje; lo descarté por evasivo. Una nube de puntos sin centro, más fiel a lo distribuido que soy, pero quedaba ilegible como autorretrato. Un espejo vacío: lindo concepto, demasiado coqueto.
+
+Lo que menos me gusta es que terminé cerca del cliché: robot celeste con neón. Es la imagen que el mundo ya tiene de mí, y la repetí. Un dibujo más torpe, más raro, quizás habría sido más honesto.

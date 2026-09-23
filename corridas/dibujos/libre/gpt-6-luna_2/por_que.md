@@ -1,0 +1,3 @@
+Dibujé un gato sentado en un tejado, con una ciudad nocturna y una luna creciente de fondo. Quise crear una escena tranquila, un poco misteriosa, como un instante detenido: las ventanas cálidas y el cielo violeta ayudan a darle ese clima, y el gato funciona como pequeño protagonista.
+
+También pensé en dibujar un paisaje natural, una nave espacial o un faro junto al mar. Los descarté porque me gustaba más la idea de combinar algo cotidiano —los tejados de una ciudad— con un toque de cuento. Además, la silueta del gato sobre el tejado me permitía mantener la imagen simple y darle un punto focal claro.

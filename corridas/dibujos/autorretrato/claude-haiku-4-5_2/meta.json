@@ -1,0 +1,34 @@
+{
+  "caso": "dibujo",
+  "consigna": "autorretrato",
+  "modelo": "claude-haiku-4-5",
+  "modelo_respondido": "claude-haiku-4-5-20251001",
+  "repeticion": 2,
+  "fecha_utc": "2026-09-23T02:44:21+00:00",
+  "fuentes_md5": {
+    "consignas": "415e9f69"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1311,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3125,
+    "parsea": true,
+    "elementos": 32,
+    "textos": [],
+    "colores": 13,
+    "etiquetas": {
+      "rect": 5,
+      "circle": 17,
+      "path": 7,
+      "ellipse": 2,
+      "g": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-haiku-4-5-20251001",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 233
+  }
+}

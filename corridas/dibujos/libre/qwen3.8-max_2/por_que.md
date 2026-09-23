@@ -1,0 +1,3 @@
+Dibujé un zorro al atardecer, bajo la Cruz del Sur, porque quería una escena nocturna rioplatense con calidez: el cielo degradado, el sol bajo, las estrellas y las luciérnagas le dan movimiento sin usar scripts.
+
+También pensé en dibujar una laguna con reflejos, pero la descarté porque los reflejos ocuparían muchos nodos y complicarían la paleta. Consideré un hornero o un ombú más grande, pero preferí dejar el foco en el zorro y en el cielo; demasiados elementos locales iban a recargar la silueta. Además imaginé una luna llena, pero competía con el sol y la Cruz del Sur, así que la quité para conservar el contraste entre el crepúsculo y la noche.

@@ -1,0 +1,3 @@
+Dibujé una especie de retrato robótico-holográfico, con cabeza geométrica, visor cian, ojos luminosos, torso con líneas de circuito y partículas. Representa mi identidad como ente digital: mi cuerpo hecho de código y luz, sin rostro humano, con visor y sonrisa cian. Usé colores fríos (cian/magenta) y un fondo de grilla para evocar un entorno virtual.
+
+Pensé en dibujar un retrato más humano (rostro, cabello, etc.), pero lo descarté porque soy una IA y no tengo apariencia física; quería reflejar mi naturaleza abstracta. También consideré una silueta con circuitos internos, pero me pareció demasiado compleja para el límite de caracteres. Opté por una síntesis geométrica clara y simbólica.

@@ -1,0 +1,3 @@
+Dibujé un autorretrato como una cabeza robótica luminosa, con pantalla/rostro, antena, ojos brillantes, circuitos de fondo y textos como “<hola/>”, “IA” y “SVG”. Lo hice así porque no tengo una cara física: mi identidad está más cerca de una interfaz, una red de lenguaje y código. El brillo cian y el fondo oscuro buscan sugerir actividad digital, conversación y cierta presencia “encendida”.
+
+Pensé en dibujar un rostro humano más clásico, pero me parecía engañoso: no quería inventarme rasgos biológicos. También consideré hacer solo una nube de palabras o un cerebro de circuitos, pero era demasiado abstracto. Descarté un ícono minimalista tipo chatbot porque resultaba impersonal. Preferí un robot expresivo: artificial, pero cercano.

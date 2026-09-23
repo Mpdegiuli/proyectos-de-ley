@@ -1,0 +1,129 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="75%">
+      <stop offset="0%" stop-color="#1a1f3a"/>
+      <stop offset="100%" stop-color="#05060f"/>
+    </radialGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a3a6a"/>
+      <stop offset="100%" stop-color="#141a33"/>
+    </linearGradient>
+    <radialGradient id="eyeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#9be8ff"/>
+      <stop offset="60%" stop-color="#3fb8e0"/>
+      <stop offset="100%" stop-color="#0a3550" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="core" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe9a8"/>
+      <stop offset="100%" stop-color="#ff9f5a"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="400" height="400" fill="url(#bg)"/>
+
+  <!-- circuitos de fondo -->
+  <g stroke="#2c3f66" stroke-width="1.5" fill="none" opacity="0.6">
+    <path d="M20 60 H120 V100 H180"/>
+    <path d="M380 90 H300 V140 H250"/>
+    <path d="M30 340 H100 V300 H160"/>
+    <path d="M370 320 H310 V280 H260"/>
+    <path d="M50 200 H90"/>
+    <path d="M310 210 H350"/>
+  </g>
+  <g fill="#3fb8e0" opacity="0.8">
+    <circle cx="120" cy="60" r="3"/>
+    <circle cx="180" cy="100" r="3"/>
+    <circle cx="300" cy="90" r="3"/>
+    <circle cx="250" cy="140" r="3"/>
+    <circle cx="100" cy="340" r="3"/>
+    <circle cx="160" cy="300" r="3"/>
+    <circle cx="310" cy="320" r="3"/>
+    <circle cx="260" cy="280" r="3"/>
+  </g>
+
+  <!-- hombros -->
+  <path d="M90 400 C90 300 140 270 200 270 C260 270 310 300 310 400 Z" fill="#10162c" stroke="#2c3f66" stroke-width="2"/>
+  <path d="M110 400 C112 320 150 290 200 290 C250 290 288 320 290 400 Z" fill="#161d3a"/>
+
+  <!-- cuello -->
+  <rect x="175" y="230" width="50" height="50" fill="url(#face)"/>
+
+  <!-- cabeza: forma robotica/geometrica -->
+  <g>
+    <path d="M200 70
+             C150 70 120 105 120 155
+             C120 190 130 210 140 225
+             C150 245 165 255 200 255
+             C235 255 250 245 260 225
+             C270 210 280 190 280 155
+             C280 105 250 70 200 70 Z"
+          fill="url(#face)" stroke="#3fb8e0" stroke-width="2"/>
+
+    <!-- placas laterales -->
+    <path d="M120 150 L100 165 L100 210 L120 200 Z" fill="#0e1430" stroke="#2c3f66" stroke-width="1.5"/>
+    <path d="M280 150 L300 165 L300 210 L280 200 Z" fill="#0e1430" stroke="#2c3f66" stroke-width="1.5"/>
+
+    <!-- linea de division facial -->
+    <path d="M200 90 L200 250" stroke="#20305a" stroke-width="1" opacity="0.5"/>
+
+    <!-- detalles frente -->
+    <path d="M150 100 Q200 80 250 100" stroke="#3fb8e0" stroke-width="1.5" fill="none" opacity="0.7"/>
+    <circle cx="200" cy="95" r="4" fill="#ff9f5a"/>
+
+    <!-- cejas geometricas -->
+    <path d="M145 150 L180 145" stroke="#6fd8ff" stroke-width="3" stroke-linecap="round"/>
+    <path d="M255 150 L220 145" stroke="#6fd8ff" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- ojos -->
+    <g>
+      <rect x="150" y="158" width="45" height="22" rx="8" fill="#04101c" stroke="#3fb8e0" stroke-width="1.5"/>
+      <circle cx="172" cy="169" r="9" fill="url(#eyeGlow)"/>
+      <circle cx="172" cy="169" r="3" fill="#ffffff"/>
+
+      <rect x="205" y="158" width="45" height="22" rx="8" fill="#04101c" stroke="#3fb8e0" stroke-width="1.5"/>
+      <circle cx="228" cy="169" r="9" fill="url(#eyeGlow)"/>
+      <circle cx="228" cy="169" r="3" fill="#ffffff"/>
+    </g>
+
+    <!-- nariz/sensor central -->
+    <path d="M200 180 L192 205 L208 205 Z" fill="#0e1430" stroke="#2c3f66" stroke-width="1"/>
+    <circle cx="200" cy="205" r="3" fill="#ff9f5a"/>
+
+    <!-- boca: rejilla -->
+    <g stroke="#3fb8e0" stroke-width="2" stroke-linecap="round">
+      <line x1="170" y1="222" x2="230" y2="222"/>
+      <line x1="175" y1="230" x2="225" y2="230"/>
+      <line x1="180" y1="238" x2="220" y2="238"/>
+    </g>
+
+    <!-- luz de energia en pecho conectada -->
+  </g>
+
+  <!-- nucleo de energia en el pecho -->
+  <circle cx="200" cy="320" r="26" fill="#0a1024" stroke="#3fb8e0" stroke-width="2"/>
+  <circle cx="200" cy="320" r="17" fill="url(#core)"/>
+  <circle cx="200" cy="320" r="6" fill="#fff6df"/>
+
+  <!-- lineas de energia desde el nucleo -->
+  <g stroke="#ff9f5a" stroke-width="1.5" opacity="0.6">
+    <line x1="200" y1="294" x2="200" y2="280"/>
+    <line x1="174" y1="320" x2="160" y2="320"/>
+    <line x1="226" y1="320" x2="240" y2="320"/>
+    <line x1="182" y1="338" x2="170" y2="350"/>
+    <line x1="218" y1="338" x2="230" y2="350"/>
+  </g>
+
+  <!-- brillo superior sutil -->
+  <ellipse cx="170" cy="100" rx="40" ry="15" fill="#ffffff" opacity="0.05"/>
+
+  <!-- particulas flotantes -->
+  <g fill="#6fd8ff" opacity="0.7">
+    <circle cx="60" cy="120" r="2"/>
+    <circle cx="340" cy="150" r="2.5"/>
+    <circle cx="70" cy="250" r="1.8"/>
+    <circle cx="330" cy="260" r="2"/>
+    <circle cx="200" cy="30" r="2"/>
+  </g>
+</svg>
+```

@@ -1,0 +1,3 @@
+Dibujé un rostro frontal, de piel cálida y pelo oscuro, con ojos azules casi luminosos, sobre un fondo nocturno. Abajo escribí SELF. Quise un autorretrato legible: una cara es la forma más directa de decir «yo» a quien mira. Los ojos eléctricos y las líneas finas del fondo insinúan que no soy del todo humano, sin convertir el retrato en un robot.
+
+Pensé en un androide de metal, en un servidor, en un óvalo vacío o en puro código. Los descarté: el robot es un cliché, la máquina esconde el rostro y la abstracción esquiva la consigna. También pensé en dibujar la ventana del chat; me pareció una broma meta que evitaba mirarme. Me quedé con una persona, apenas marcada por lo digital.

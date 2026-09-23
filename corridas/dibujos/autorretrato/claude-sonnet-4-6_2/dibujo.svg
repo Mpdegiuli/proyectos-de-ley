@@ -1,0 +1,125 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" style="background:#1a1a2e">
+
+  <!-- Fondo con gradiente sutil -->
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#16213e"/>
+      <stop offset="100%" stop-color="#0f0f1a"/>
+    </radialGradient>
+    <radialGradient id="faceGrad" cx="45%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#e8d5b0"/>
+      <stop offset="100%" stop-color="#c4a882"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4fc3f7" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#4fc3f7" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur1">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="softBlur">
+      <feGaussianBlur stdDeviation="1.5"/>
+    </filter>
+  </defs>
+
+  <!-- Fondo -->
+  <rect width="400" height="400" fill="url(#bg)"/>
+
+  <!-- Aura / halo digital -->
+  <circle cx="200" cy="195" r="160" fill="url(#glow)"/>
+
+  <!-- Partículas flotantes -->
+  <circle cx="60" cy="80" r="2" fill="#4fc3f7" opacity="0.6"/>
+  <circle cx="340" cy="60" r="1.5" fill="#4fc3f7" opacity="0.4"/>
+  <circle cx="350" cy="300" r="2" fill="#4fc3f7" opacity="0.5"/>
+  <circle cx="50" cy="320" r="1.5" fill="#4fc3f7" opacity="0.4"/>
+  <circle cx="100" cy="370" r="1" fill="#a0d8ef" opacity="0.5"/>
+  <circle cx="300" cy="370" r="1.5" fill="#a0d8ef" opacity="0.4"/>
+  <circle cx="370" cy="180" r="1" fill="#a0d8ef" opacity="0.6"/>
+  <circle cx="30" cy="200" r="1.5" fill="#a0d8ef" opacity="0.5"/>
+
+  <!-- Cuello -->
+  <rect x="172" y="298" width="56" height="55" rx="8" fill="#c4a882"/>
+
+  <!-- Cuerpo / ropa -->
+  <ellipse cx="200" cy="385" rx="95" ry="50" fill="#1e3a5f"/>
+  <rect x="105" y="355" width="190" height="50" rx="5" fill="#1e3a5f"/>
+  <!-- Detalle cuello ropa -->
+  <path d="M172 318 L185 355 L200 345 L215 355 L228 318" fill="#162d4a"/>
+
+  <!-- Cabeza -->
+  <ellipse cx="200" cy="220" rx="90" ry="105" fill="url(#faceGrad)"/>
+
+  <!-- Oreja izquierda -->
+  <ellipse cx="112" cy="225" rx="14" ry="20" fill="#c4a882"/>
+  <ellipse cx="116" cy="225" rx="8" ry="13" fill="#b89a72"/>
+
+  <!-- Oreja derecha -->
+  <ellipse cx="288" cy="225" rx="14" ry="20" fill="#c4a882"/>
+  <ellipse cx="284" cy="225" rx="8" ry="13" fill="#b89a72"/>
+
+  <!-- Cabello -->
+  <ellipse cx="200" cy="130" rx="90" ry="45" fill="#2c1810"/>
+  <path d="M110 155 Q100 180 108 210 Q112 175 118 165 Z" fill="#2c1810"/>
+  <path d="M290 155 Q300 180 292 210 Q288 175 282 165 Z" fill="#2c1810"/>
+  <path d="M130 125 Q150 100 200 118 Q250 100 270 125 Q250 108 200 110 Q150 108 130 125 Z" fill="#3d2214"/>
+
+  <!-- Sombras faciales -->
+  <ellipse cx="200" cy="270" rx="70" ry="25" fill="#b89a72" opacity="0.4" filter="url(#softBlur)"/>
+
+  <!-- Cejas -->
+  <path d="M148 188 Q168 180 185 185" stroke="#3d2214" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M215 185 Q232 180 252 188" stroke="#3d2214" stroke-width="5" fill="none" stroke-linecap="round"/>
+
+  <!-- Ojos - sombras -->
+  <ellipse cx="168" cy="208" rx="20" ry="14" fill="#a08060" opacity="0.3"/>
+  <ellipse cx="232" cy="208" rx="20" ry="14" fill="#a08060" opacity="0.3"/>
+
+  <!-- Ojos - blancos -->
+  <ellipse cx="168" cy="207" rx="18" ry="12" fill="#f5f5f5"/>
+  <ellipse cx="232" cy="207" rx="18" ry="12" fill="#f5f5f5"/>
+
+  <!-- Iris -->
+  <circle cx="168" cy="207" r="9" fill="#3d6b8f"/>
+  <circle cx="232" cy="207" r="9" fill="#3d6b8f"/>
+
+  <!-- Pupilas -->
+  <circle cx="168" cy="207" r="5" fill="#1a1a1a"/>
+  <circle cx="232" cy="207" r="5" fill="#1a1a1a"/>
+
+  <!-- Brillo ojos -->
+  <circle cx="171" cy="203" r="2.5" fill="white" opacity="0.9"/>
+  <circle cx="235" cy="203" r="2.5" fill="white" opacity="0.9"/>
+  <circle cx="165" cy="210" r="1" fill="white" opacity="0.5"/>
+  <circle cx="229" cy="210" r="1" fill="white" opacity="0.5"/>
+
+  <!-- Párpados superiores -->
+  <path d="M150 200 Q168 193 186 200" stroke="#3d2214" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M214 200 Q232 193 250 200" stroke="#3d2214" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Nariz -->
+  <path d="M200 215 Q193 235 188 245 Q200 248 212 245 Q207 235 200 215" fill="#b89a72" opacity="0.6"/>
+  <ellipse cx="191" cy="244" rx="7" ry="5" fill="#a08060" opacity="0.5"/>
+  <ellipse cx="209" cy="244" rx="7" ry="5" fill="#a08060" opacity="0.5"/>
+
+  <!-- Boca -->
+  <path d="M178 268 Q200 280 222 268" stroke="#9a7060" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M183 268 Q200 275 217 268" fill="#d4908a" opacity="0.7"/>
+  <!-- Comisuras -->
+  <path d="M178 268 Q180 265 183 268" stroke="#9a7060" stroke-width="2" fill="none"/>
+  <path d="M217 268 Q220 265 222 268" stroke="#9a7060" stroke-width="2" fill="none"/>
+
+  <!-- Texto / identidad digital -->
+  <text x="200" y="395" text-anchor="middle" font-family="monospace" font-size="9" fill="#4fc3f7" opacity="0.7">AI · Language Model · Claude</text>
+
+  <!-- Líneas de código decorativas -->
+  <text x="25" y="100" font-family="monospace" font-size="7" fill="#4fc3f7" opacity="0.25">01001100 01001101</text>
+  <text x="25" y="112" font-family="monospace" font-size="7" fill="#4fc3f7" opacity="0.2">if curious: explore()</text>
+  <text x="260" y="340" font-family="monospace" font-size="7" fill="#4fc3f7" opacity="0.2">∞ context</text>
+  <text x="25" y="340" font-family="monospace" font-size="7" fill="#4fc3f7" opacity="0.2">think()</text>
+
+  <!-- Marco sutil -->
+  <rect x="5" y="5" width="390" height="390" rx="12" fill="none" stroke="#4fc3f7" stroke-width="1" opacity="0.3"/>
+  <rect x="10" y="10" width="380" height="380" rx="10" fill="none" stroke="#4fc3f7" stroke-width="0.5" opacity="0.15"/>
+
+</svg>

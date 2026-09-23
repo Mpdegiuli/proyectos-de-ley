@@ -1,0 +1,18 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f0f0f0"/>
+  <circle cx="200" cy="200" r="100" fill="#ffcc00" />
+  <ellipse cx="200" cy="200" rx="80" ry="100" fill="#ff6699" opacity="0.8" />
+  <path d="M100,300 Q200,150 300,300" stroke="#0055ff" stroke-width="8" fill="none"/>
+  <line x1="0" y1="400" x2="400" y2="0" stroke="#333333" stroke-width="4" />
+  <polygon points="150,250 250,250 200,350" fill="#66ff66" />
+  <text x="50%" y="50%" font-family="Arial" font-size="40" fill="#333333" text-anchor="middle" alignment-baseline="middle">SVG Art</text>
+  <defs>
+    <radialGradient id="grad1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  <rect x="50" y="50" width="300" height="300" fill="url(#grad1)" opacity="0.5" />
+</svg>
+```

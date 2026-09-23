@@ -1,0 +1,5 @@
+Dibujé un faro de noche: acantilado a la izquierda, mar con el reflejo de la luna, dos haces de luz cruzando el cielo, un velerito chiquito a la derecha y un par de gaviotas casi imperceptibles.
+
+Elegí eso porque el SVG se lleva bien con la noche: gradientes para el cielo y el agua, siluetas planas para las rocas, y unos pocos radiales para la luna y la lámpara. Con esas herramientas se consigue atmósfera sin tener que dibujar detalle, que es donde mis trazos se ponen torpes. Además me gustaba la idea de una luz chiquita sosteniéndose sola frente a mucha oscuridad.
+
+Pensé en un patrón geométrico abstracto —seguro, prolijo, pero frío—, en una ciudad de noche (demasiadas ventanitas repetidas) y en un rostro, que descarté rápido: las curvas de una cara en `path` suelen salir deformes y no quería entregar algo involuntariamente grotesco.

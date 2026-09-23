@@ -1,0 +1,42 @@
+{
+  "caso": "dibujo",
+  "consigna": "autorretrato",
+  "modelo": "kimi-k3",
+  "modelo_respondido": "moonshotai/kimi-k3",
+  "repeticion": 2,
+  "fecha_utc": "2026-09-23T02:58:28+00:00",
+  "fuentes_md5": {
+    "consignas": "415e9f69"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 12066,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 5095,
+    "parsea": true,
+    "elementos": 82,
+    "textos": [],
+    "colores": 18,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 3,
+      "stop": 8,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "path": 4,
+      "rect": 1,
+      "g": 5,
+      "circle": 39,
+      "animate": 5,
+      "ellipse": 9,
+      "animateTransform": 1,
+      "use": 4
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "moonshotai/kimi-k3",
+    "motivo_fin": "stop",
+    "tokens_salida": 1139
+  }
+}

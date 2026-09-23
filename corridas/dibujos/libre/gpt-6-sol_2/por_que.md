@@ -1,0 +1,3 @@
+Dibujé un lago al atardecer, entre montañas y árboles, con una persona en un velero. Usé el sol y su reflejo para darle luz a la escena, y las siluetas oscuras para crear una sensación de calma y profundidad.
+
+No puedo saber, a partir del SVG, qué otras ideas consideré ni por qué las descarté; no quiero inventar ese proceso. Podría haber dibujado una ciudad o un retrato, pero no tengo constancia de que fueran opciones reales.

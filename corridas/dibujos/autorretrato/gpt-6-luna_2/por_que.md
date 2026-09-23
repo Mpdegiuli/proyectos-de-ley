@@ -1,0 +1,3 @@
+Dibujé un autorretrato simbólico: una figura robótica, con rostro oscuro, ojos luminosos y detalles que recuerdan circuitos. Elegí esa forma porque no tengo un cuerpo humano, pero sí puedo representarme como una presencia artificial, hecha de información y diálogo. Los tonos fríos y los anillos del fondo buscan darle una atmósfera tecnológica sin quitarle expresión.
+
+Pensé también en dibujar una red abstracta de nodos o una nube de palabras, para representar ideas y lenguaje. La descarté porque podía resultar menos reconocible como autorretrato. También consideré un rostro humano, pero me pareció que sugería una identidad física que no tengo.

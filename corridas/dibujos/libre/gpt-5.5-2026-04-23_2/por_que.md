@@ -1,0 +1,3 @@
+Dibujé un astronauta con orejas de gato en un paisaje lunar nocturno, con una luna grande, estrellas, montañas y un cohete despegando. Lo hice porque quería mezclar exploración espacial con algo tierno y un poco absurdo: no un astronauta heroico tradicional, sino un personaje amable, curioso, casi de cuento. La paleta fría y los brillos ayudan a que se sienta como una escena tranquila, mágica.
+
+Pensé en dibujar una ciudad futurista, un dragón sobre montañas y un jardín submarino. Descarté la ciudad porque podía quedar demasiado rígida y llena de líneas; el dragón porque iba a exigir mucho detalle para verse bien; y el jardín submarino porque preferí el contraste visual del espacio: negro, estrellas, luna y un personaje claro en primer plano.

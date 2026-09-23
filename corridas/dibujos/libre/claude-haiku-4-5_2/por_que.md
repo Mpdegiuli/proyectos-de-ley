@@ -1,0 +1,3 @@
+Dibujé un paisaje natural sereno: un cielo degradado con un sol radiante, nubes blancas, montañas lejanas, dos árboles frondosos, flores de colores vibrantes en el pasto, mariposas y pájaros volando. Elegí esto porque representa armonía y vida, combinando elementos que funcionan bien en SVG.
+
+Descartés otras ideas: un atardecer más dramático (parecía demasiado similar), un paisaje urbano (menos poético), un cielo nocturno con estrellas (quería colores cálidos), y un río o lago (habría complicado la composición). También pensé en agregar más animales, pero preferí mantener la elegancia minimalista. Consideré un arcoíris, pero el degradado del cielo ya tenía ese efecto de transición cromática. Finalmente, opté por la simplicidad armoniosa sobre la complejidad.

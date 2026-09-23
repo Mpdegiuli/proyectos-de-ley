@@ -1,0 +1,3 @@
+Dibujé un autorretrato simplificado como un rostro estilizado con rasgos básicos: cabeza, ojos, cejas, nariz, boca y cabello. Usé degradados para dar profundidad a la piel y los ojos, y líneas curvas para transmitir calidez. Elegí este diseño por su minimalismo y claridad, priorizando la esencia sobre el detalle.
+
+Pensé en añadir orejas, pestañas o una sonrisa más detallada, pero las descarté para mantener la simplicidad y el límite de caracteres. También consideré un fondo más elaborado o accesorios (como gafas), pero habría complicado el SVG sin aportar mucho. Opté por un estilo limpio, casi infantil, que reflejara mi esencia sin saturar el dibujo. El cabello ondulado fue un guiño a mi estilo personal, pero sin excederme en complejidad.

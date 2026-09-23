@@ -1,0 +1,42 @@
+{
+  "caso": "dibujo",
+  "consigna": "libre",
+  "modelo": "gpt-5.5-2026-04-23",
+  "modelo_respondido": "gpt-5.5-2026-04-23",
+  "repeticion": 2,
+  "fecha_utc": "2026-09-23T03:06:28+00:00",
+  "fuentes_md5": {
+    "consignas": "415e9f69"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2232,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4938,
+    "parsea": true,
+    "elementos": 73,
+    "textos": [],
+    "colores": 36,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 11,
+      "linearGradient": 2,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "feMerge": 1,
+      "feMergeNode": 2,
+      "rect": 2,
+      "circle": 19,
+      "g": 4,
+      "path": 21,
+      "ellipse": 6
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "motivo_fin": "stop",
+    "tokens_salida": 223
+  }
+}

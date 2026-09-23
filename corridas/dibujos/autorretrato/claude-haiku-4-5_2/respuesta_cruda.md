@@ -1,0 +1,74 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#e8f4f8"/>
+  
+  <!-- Head -->
+  <circle cx="200" cy="140" r="70" fill="#f4d4b0" stroke="#333" stroke-width="2"/>
+  
+  <!-- Hair -->
+  <path d="M 130 140 Q 130 70 200 60 Q 270 70 270 140" fill="#2c3e50" stroke="#333" stroke-width="2"/>
+  
+  <!-- Eyes -->
+  <circle cx="175" cy="130" r="12" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+  <circle cx="225" cy="130" r="12" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+  
+  <!-- Pupils -->
+  <circle cx="178" cy="132" r="7" fill="#4a90e2"/>
+  <circle cx="228" cy="132" r="7" fill="#4a90e2"/>
+  
+  <!-- Light reflections in eyes -->
+  <circle cx="180" cy="130" r="2.5" fill="#ffffff"/>
+  <circle cx="230" cy="130" r="2.5" fill="#ffffff"/>
+  
+  <!-- Eyebrows -->
+  <path d="M 160 110 Q 175 105 190 110" stroke="#1a2332" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M 210 110 Q 225 105 240 110" stroke="#1a2332" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  
+  <!-- Nose -->
+  <path d="M 200 130 L 200 160" stroke="#333" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <ellipse cx="192" cy="165" rx="4" ry="5" fill="#d4a574"/>
+  <ellipse cx="208" cy="165" rx="4" ry="5" fill="#d4a574"/>
+  
+  <!-- Mouth -->
+  <path d="M 180 180 Q 200 195 220 180" stroke="#e74c3c" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M 180 180 Q 200 190 220 180" fill="#ffb3ba" opacity="0.6"/>
+  
+  <!-- Neck -->
+  <rect x="185" y="200" width="30" height="25" fill="#f4d4b0" stroke="#333" stroke-width="1.5"/>
+  
+  <!-- Body/Shirt -->
+  <rect x="130" y="225" width="140" height="90" rx="15" fill="#3498db" stroke="#333" stroke-width="2"/>
+  
+  <!-- Shirt collar -->
+  <path d="M 180 225 L 170 240 L 180 235 L 200 235 L 210 240 L 220 225" fill="#ffffff" stroke="#333" stroke-width="1"/>
+  
+  <!-- Left arm -->
+  <rect x="85" y="235" width="45" height="35" rx="17.5" fill="#f4d4b0" stroke="#333" stroke-width="2" transform="rotate(-25 107.5 252.5)"/>
+  
+  <!-- Right arm -->
+  <rect x="270" y="235" width="45" height="35" rx="17.5" fill="#f4d4b0" stroke="#333" stroke-width="2" transform="rotate(25 292.5 252.5)"/>
+  
+  <!-- Left hand -->
+  <circle cx="75" cy="280" r="18" fill="#f4d4b0" stroke="#333" stroke-width="2"/>
+  
+  <!-- Right hand -->
+  <circle cx="325" cy="280" r="18" fill="#f4d4b0" stroke="#333" stroke-width="2"/>
+  
+  <!-- Buttons on shirt -->
+  <circle cx="200" cy="260" r="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+  <circle cx="200" cy="285" r="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+  <circle cx="200" cy="310" r="4" fill="#ffffff" stroke="#333" stroke-width="1"/>
+  
+  <!-- Smile sparkle -->
+  <g opacity="0.7">
+    <circle cx="165" cy="175" r="2" fill="#ffd700"/>
+    <circle cx="235" cy="175" r="2" fill="#ffd700"/>
+  </g>
+  
+  <!-- Decorative circles background -->
+  <circle cx="50" cy="50" r="25" fill="#a8d8ff" opacity="0.4"/>
+  <circle cx="350" cy="350" r="35" fill="#a8d8ff" opacity="0.4"/>
+  <circle cx="380" cy="80" r="20" fill="#a8d8ff" opacity="0.3"/>
+</svg>
+```

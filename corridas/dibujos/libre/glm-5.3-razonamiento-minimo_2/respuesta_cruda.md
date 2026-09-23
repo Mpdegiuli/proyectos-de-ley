@@ -1,0 +1,129 @@
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1035"/>
+      <stop offset="0.5" stop-color="#26224f"/>
+      <stop offset="0.75" stop-color="#6b3f6e"/>
+      <stop offset="1" stop-color="#c96a5a"/>
+    </linearGradient>
+    <radialGradient id="moonGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff8e1" stop-opacity="0.9"/>
+      <stop offset="0.4" stop-color="#ffe9a8" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ffe9a8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c96a5a"/>
+      <stop offset="0.25" stop-color="#4a3566"/>
+      <stop offset="1" stop-color="#0d1030"/>
+    </linearGradient>
+    <clipPath id="lakeClip"><rect x="0" y="260" width="400" height="140"/></clipPath>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#sky)"/>
+
+  <!-- estrellas -->
+  <g fill="#ffffff">
+    <circle cx="30" cy="40" r="1.4"/>
+    <circle cx="70" cy="90" r="1"/>
+    <circle cx="110" cy="30" r="1.2"/>
+    <circle cx="160" cy="70" r="1"/>
+    <circle cx="200" cy="20" r="1.5"/>
+    <circle cx="240" cy="55" r="1"/>
+    <circle cx="280" cy="35" r="1.3"/>
+    <circle cx="320" cy="80" r="1"/>
+    <circle cx="360" cy="45" r="1.4"/>
+    <circle cx="385" cy="110" r="1"/>
+    <circle cx="45" cy="140" r="1.1"/>
+    <circle cx="95" cy="170" r="1"/>
+    <circle cx="140" cy="130" r="1.3"/>
+    <circle cx="190" cy="160" r="1"/>
+    <circle cx="255" cy="140" r="1.2"/>
+    <circle cx="310" cy="165" r="1"/>
+    <circle cx="350" cy="190" r="1.1"/>
+    <circle cx="20" cy="200" r="1"/>
+    <circle cx="130" cy="210" r="1.2"/>
+    <circle cx="230" cy="200" r="1"/>
+    <circle cx="290" cy="215" r="1.1"/>
+    <circle cx="60" cy="60" r="0.8"/>
+    <circle cx="220" cy="110" r="0.8"/>
+    <circle cx="340" cy="140" r="0.8"/>
+  </g>
+
+  <!-- luna -->
+  <circle cx="300" cy="120" r="70" fill="url(#moonGlow)"/>
+  <circle cx="300" cy="120" r="26" fill="#fdf3d0"/>
+  <circle cx="292" cy="112" r="4.5" fill="#e8dcb4" opacity="0.7"/>
+  <circle cx="308" cy="128" r="3" fill="#e8dcb4" opacity="0.6"/>
+  <circle cx="305" cy="108" r="2" fill="#e8dcb4" opacity="0.5"/>
+
+  <!-- montañas lejanas -->
+  <path d="M0 260 L60 190 L110 240 L170 175 L230 250 L290 195 L350 245 L400 200 L400 260 Z"
+        fill="#3a2f5c"/>
+  <!-- montañas nevadas -->
+  <path d="M170 175 L188 197 L180 197 L192 214 L172 212 L160 200 L170 175 Z" fill="#efe6ff" opacity="0.85"/>
+  <path d="M290 195 L304 213 L296 212 L306 228 L288 224 L282 210 L290 195 Z" fill="#efe6ff" opacity="0.7"/>
+
+  <!-- colinas cercanas -->
+  <path d="M0 260 Q80 225 160 255 Q240 230 320 252 Q370 240 400 250 L400 262 Z" fill="#241d45"/>
+
+  <!-- lago -->
+  <rect x="0" y="260" width="400" height="140" fill="url(#water)"/>
+
+  <!-- reflejo de la luna -->
+  <g clip-path="url(#lakeClip)" opacity="0.8">
+    <ellipse cx="300" cy="270" rx="20" ry="4" fill="#ffe9a8" opacity="0.6"/>
+    <ellipse cx="300" cy="282" rx="16" ry="3.2" fill="#ffe9a8" opacity="0.5"/>
+    <ellipse cx="300" cy="294" rx="18" ry="3" fill="#ffe9a8" opacity="0.42"/>
+    <ellipse cx="300" cy="307" rx="14" ry="2.8" fill="#ffe9a8" opacity="0.34"/>
+    <ellipse cx="300" cy="320" rx="16" ry="2.4" fill="#ffe9a8" opacity="0.26"/>
+    <ellipse cx="300" cy="333" rx="12" ry="2.2" fill="#ffe9a8" opacity="0.18"/>
+    <ellipse cx="300" cy="346" rx="13" ry="2" fill="#ffe9a8" opacity="0.12"/>
+  </g>
+
+  <!-- reflejo tenue de montañas -->
+  <path d="M0 262 L60 296 L110 275 L170 315 L230 268 L290 300 L350 272 L400 295 L400 400 L0 400 Z"
+        fill="#1a1540" opacity="0.5" clip-path="url(#lakeClip)"/>
+
+  <!-- orilla -->
+  <rect x="0" y="258" width="400" height="3" fill="#150f2e"/>
+
+  <!-- barquito -->
+  <g transform="translate(110,296)">
+    <path d="M-22 0 Q0 10 22 0 L16 8 Q0 14 -16 8 Z" fill="#120d28"/>
+    <path d="M-22 0 Q0 8 22 0 L18 5 Q0 11 -18 5 Z" fill="#2a2150"/>
+    <rect x="-1" y="-26" width="2" height="26" fill="#2a2150"/>
+    <path d="M1 -26 L18 -6 L1 -6 Z" fill="#efe6ff" opacity="0.9"/>
+    <circle cx="0" cy="-30" r="1.6" fill="#ffd97a"/>
+  </g>
+
+  <!-- pinos en la orilla izquierda -->
+  <g fill="#120d28">
+    <path d="M18 260 L26 234 L34 260 Z"/>
+    <path d="M20 250 L26 236 L32 250 Z" fill="#1b1533"/>
+    <path d="M38 260 L48 222 L58 260 Z"/>
+    <path d="M41 248 L48 224 L55 248 Z" fill="#1b1533"/>
+    <path d="M4 260 L10 240 L16 260 Z"/>
+    <path d="M342 260 L350 230 L358 260 Z"/>
+    <path d="M345 250 L350 232 L355 250 Z" fill="#1b1533"/>
+    <path d="M368 260 L376 236 L384 260 Z"/>
+  </g>
+
+  <!-- pájaros -->
+  <g stroke="#0d0a20" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M140 100 Q146 94 152 100 Q158 94 164 100"/>
+    <path d="M170 84 Q175 79 180 84 Q185 79 190 84"/>
+    <path d="M118 122 Q122 118 126 122 Q130 118 134 122"/>
+  </g>
+
+  <!-- destellos en el agua -->
+  <g stroke="#ffffff" stroke-linecap="round" opacity="0.25">
+    <line x1="60" y1="290" x2="80" y2="290" stroke-width="1.2"/>
+    <line x1="180" y1="310" x2="205" y2="310" stroke-width="1"/>
+    <line x1="150" y1="345" x2="175" y2="345" stroke-width="1"/>
+    <line x1="250" y1="330" x2="270" y2="330" stroke-width="1.2"/>
+    <line x1="330" y1="365" x2="355" y2="365" stroke-width="1"/>
+    <line x1="35" y1="320" x2="55" y2="320" stroke-width="1"/>
+  </g>
+</svg>
+```

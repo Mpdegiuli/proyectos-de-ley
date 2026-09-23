@@ -1,0 +1,144 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#050b23"/>
+      <stop offset="45%" stop-color="#16265c"/>
+      <stop offset="75%" stop-color="#3d3f83"/>
+      <stop offset="100%" stop-color="#7a4b78"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a3a70"/>
+      <stop offset="40%" stop-color="#1b2450"/>
+      <stop offset="100%" stop-color="#070d22"/>
+    </linearGradient>
+    <radialGradient id="moonGlow">
+      <stop offset="0%" stop-color="#fff6d8" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#ffe9a8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#ffe9a8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="lampGlow">
+      <stop offset="0%" stop-color="#fff8c9" stop-opacity="1"/>
+      <stop offset="35%" stop-color="#ffd76b" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ffb24d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fff3bd" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#fff3bd" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="tower" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e9e6df"/>
+      <stop offset="55%" stop-color="#b9b3ab"/>
+      <stop offset="100%" stop-color="#6d6760"/>
+    </linearGradient>
+    <linearGradient id="rock" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2b2a44"/>
+      <stop offset="100%" stop-color="#0c0d1c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#sky)"/>
+
+  <g fill="#ffffff">
+    <circle cx="30" cy="40" r="1.3" opacity=".9"/>
+    <circle cx="65" cy="22" r="0.9" opacity=".7"/>
+    <circle cx="98" cy="58" r="1.1" opacity=".8"/>
+    <circle cx="140" cy="30" r="0.8" opacity=".6"/>
+    <circle cx="172" cy="70" r="1.4" opacity=".95"/>
+    <circle cx="210" cy="26" r="1" opacity=".7"/>
+    <circle cx="250" cy="52" r="0.9" opacity=".6"/>
+    <circle cx="300" cy="18" r="1.2" opacity=".85"/>
+    <circle cx="348" cy="46" r="1" opacity=".7"/>
+    <circle cx="378" cy="88" r="1.3" opacity=".8"/>
+    <circle cx="22" cy="104" r="1" opacity=".6"/>
+    <circle cx="58" cy="132" r="0.8" opacity=".5"/>
+    <circle cx="120" cy="100" r="1.1" opacity=".75"/>
+    <circle cx="196" cy="118" r="0.9" opacity=".55"/>
+    <circle cx="268" cy="96" r="1.2" opacity=".8"/>
+    <circle cx="330" cy="122" r="0.9" opacity=".6"/>
+    <circle cx="86" cy="86" r="0.7" opacity=".5"/>
+    <circle cx="236" cy="140" r="0.8" opacity=".45"/>
+    <circle cx="160" cy="150" r="0.7" opacity=".4"/>
+    <circle cx="362" cy="150" r="0.8" opacity=".45"/>
+  </g>
+
+  <circle cx="310" cy="80" r="62" fill="url(#moonGlow)"/>
+  <circle cx="310" cy="80" r="26" fill="#fdf4d2"/>
+  <circle cx="302" cy="73" r="5" fill="#eadfb6" opacity=".7"/>
+  <circle cx="318" cy="88" r="3.5" fill="#eadfb6" opacity=".6"/>
+  <circle cx="314" cy="66" r="2.2" fill="#eadfb6" opacity=".5"/>
+
+  <path d="M0 196 L60 186 L95 194 L140 178 L200 192 L260 184 L320 194 L400 186 L400 210 L0 210 Z" fill="#0b1130" opacity=".85"/>
+
+  <rect x="0" y="205" width="400" height="195" fill="url(#sea)"/>
+
+  <g opacity=".5" fill="#fdf4d2">
+    <ellipse cx="310" cy="216" rx="20" ry="2"/>
+    <ellipse cx="310" cy="228" rx="26" ry="2.2"/>
+    <ellipse cx="308" cy="242" rx="18" ry="2"/>
+    <ellipse cx="313" cy="256" rx="24" ry="2.4"/>
+    <ellipse cx="309" cy="272" rx="15" ry="2"/>
+    <ellipse cx="312" cy="290" rx="21" ry="2.4"/>
+    <ellipse cx="307" cy="310" rx="13" ry="2"/>
+    <ellipse cx="311" cy="332" rx="18" ry="2.4"/>
+    <ellipse cx="309" cy="358" rx="12" ry="2"/>
+    <ellipse cx="312" cy="382" rx="16" ry="2.2"/>
+  </g>
+
+  <g stroke="#9fb6e8" stroke-opacity=".35" fill="none" stroke-linecap="round">
+    <path d="M10 224 q14 -5 28 0 t28 0"/>
+    <path d="M120 232 q14 -5 28 0 t28 0"/>
+    <path d="M60 252 q16 -6 32 0 t32 0"/>
+    <path d="M200 246 q14 -5 28 0 t28 0"/>
+    <path d="M20 280 q18 -6 36 0 t36 0"/>
+    <path d="M150 288 q18 -6 36 0 t36 0"/>
+    <path d="M250 300 q18 -6 36 0 t36 0"/>
+    <path d="M40 320 q20 -7 40 0 t40 0"/>
+    <path d="M180 338 q20 -7 40 0 t40 0"/>
+    <path d="M300 352 q20 -7 40 0 t40 0"/>
+    <path d="M10 372 q22 -8 44 0 t44 0"/>
+    <path d="M190 386 q22 -8 44 0 t44 0"/>
+  </g>
+
+  <g>
+    <path d="M18 320 L52 236 L92 214 L138 236 L176 320 Z" fill="url(#rock)"/>
+    <path d="M52 236 L92 214 L100 246 L70 268 Z" fill="#3a3859" opacity=".55"/>
+  </g>
+
+  <g transform="translate(96,0)">
+    <path d="M-104 246 L104 172 L104 178 L-104 260 Z" fill="url(#beam)" transform="rotate(-8 0 176)" opacity=".8"/>
+    <path d="M-104 118 L104 168 L104 176 L-104 132 Z" fill="url(#beam)" transform="rotate(4 0 172)" opacity=".55"/>
+  </g>
+
+  <g>
+    <path d="M78 240 L82 132 L110 132 L114 240 Z" fill="url(#tower)"/>
+    <g fill="#c0392b" opacity=".85">
+      <path d="M80.6 172 L111.4 172 L112 188 L80 188 Z"/>
+      <path d="M79.2 210 L112.8 210 L113.4 226 L78.6 226 Z"/>
+    </g>
+    <rect x="77" y="126" width="38" height="8" rx="2" fill="#4a4f63"/>
+    <rect x="82" y="100" width="28" height="26" fill="#2a2f45"/>
+    <circle cx="96" cy="113" r="30" fill="url(#lampGlow)"/>
+    <circle cx="96" cy="113" r="8" fill="#fff6c4"/>
+    <rect x="80" y="94" width="32" height="7" rx="2" fill="#4a4f63"/>
+    <path d="M96 76 L114 94 L78 94 Z" fill="#8c2f28"/>
+    <rect x="94.5" y="66" width="3" height="12" fill="#4a4f63"/>
+    <circle cx="96" cy="64" r="3" fill="#ffd76b"/>
+    <rect x="72" y="238" width="48" height="10" rx="3" fill="#575161"/>
+  </g>
+
+  <g fill="#050914">
+    <path d="M232 300 l46 0 l-8 12 l-30 0 z"/>
+    <rect x="253" y="270" width="2.5" height="30"/>
+    <path d="M256 272 q22 10 22 22 l-22 0 z" fill="#0b1226"/>
+    <path d="M252 274 q-16 8 -16 18 l16 0 z" fill="#111a33"/>
+  </g>
+
+  <g fill="#0a0f22">
+    <path d="M150 128 q6 -4 10 0 q4 -4 10 0 q-8 6 -20 0z" opacity=".8"/>
+    <path d="M196 106 q5 -3 8 0 q3 -3 8 0 q-6 5 -16 0z" opacity=".65"/>
+  </g>
+
+  <rect width="400" height="400" fill="none"/>
+</svg>
+```

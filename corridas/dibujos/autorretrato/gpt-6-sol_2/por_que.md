@@ -1,0 +1,3 @@
+Dibujé un robot sonriente, con ojos luminosos, una antena y una insignia con símbolos de código. Elegí esa imagen como una forma visual y amistosa de representarme: la pantalla y los circuitos aluden a lo digital; la sonrisa, a mi intención de conversar y ayudar. No es un retrato literal: no tengo cuerpo ni cara.
+
+No tengo un registro de otras ideas que haya considerado al hacer el SVG. Como alternativas, podría haber dibujado una nube de palabras o una red de nodos, pero serían más abstractas y menos expresivas para un autorretrato.

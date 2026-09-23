@@ -1,0 +1,34 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#f0f0f0"/>
+  <!-- Head -->
+  <ellipse cx="200" cy="200" rx="80" ry="100" fill="#f9d4b1" stroke="#e1b089" stroke-width="2"/>
+  <!-- Hair -->
+  <path d="M120,180 Q200,100 280,180 Q240,80 200,80 Q160,80 120,180" fill="#34251f"/>
+  <!-- Eyes -->
+  <ellipse cx="170" cy="190" rx="10" ry="5" fill="white"/>
+  <ellipse cx="230" cy="190" rx="10" ry="5" fill="white"/>
+  <circle cx="170" cy="190" r="3" fill="#2c2c2c"/>
+  <circle cx="230" cy="190" r="3" fill="#2c2c2c"/>
+  <!-- Eyebrows -->
+  <path d="M160,175 Q170,170 180,175" stroke="#2c2c2c" stroke-width="2" fill="none"/>
+  <path d="M220,175 Q230,170 240,175" stroke="#2c2c2c" stroke-width="2" fill="none"/>
+  <!-- Nose -->
+  <path d="M200,200 Q195,220 200,220" stroke="#e1b089" stroke-width="2" fill="none"/>
+  <!-- Mouth -->
+  <path d="M180,240 Q200,260 220,240" stroke="#cc7868" stroke-width="2" fill="none"/>
+  <!-- Ears -->
+  <ellipse cx="120" cy="200" rx="10" ry="20" fill="#f9d4b1" stroke="#e1b089" stroke-width="2"/>
+  <ellipse cx="280" cy="200" rx="10" ry="20" fill="#f9d4b1" stroke="#e1b089" stroke-width="2"/>
+  <!-- Glasses -->
+  <path d="M160,195 A15,10 0 0,1 180,195 Q200,200 220,195 A15,10 0 0,1 240,195" stroke="#2c2c2c" stroke-width="2" fill="none"/>
+  <line x1="180" y1="195" x2="220" y2="195" stroke="#2c2c2c" stroke-width="2"/>
+  <path d="M140,195 L160,195" stroke="#2c2c2c" stroke-width="2" fill="none"/>
+  <path d="M240,195 L260,195" stroke="#2c2c2c" stroke-width="2" fill="none"/>
+  <!-- Neck -->
+  <rect x="180" y="260" width="40" height="40" fill="#f9d4b1"/>
+  <!-- Shirt -->
+  <path d="M140,300 Q200,350 260,300 L260,320 Q200,380 140,320 Z" fill="#4a7aa3"/>
+</svg>
+```
