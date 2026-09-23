@@ -1,0 +1,50 @@
+{
+  "caso": "dibujo",
+  "consigna": "autorretrato",
+  "modelo": "gemini-3.1-pro-preview",
+  "modelo_respondido": "gemini-3.1-pro-preview",
+  "repeticion": 2,
+  "fecha_utc": "2026-09-23T01:54:06+00:00",
+  "fuentes_md5": {
+    "consignas": "415e9f69"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 3681,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 7844,
+    "parsea": true,
+    "elementos": 91,
+    "textos": [
+      "SYS.INIT(1)",
+      "0xA9F2",
+      "LLM_CORE",
+      "A.I. AWAKE"
+    ],
+    "colores": 14,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 12,
+      "linearGradient": 3,
+      "filter": 2,
+      "feGaussianBlur": 3,
+      "feMerge": 2,
+      "feMergeNode": 5,
+      "rect": 2,
+      "g": 9,
+      "line": 8,
+      "circle": 18,
+      "polygon": 10,
+      "text": 4,
+      "polyline": 4,
+      "path": 6
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gemini-3.1-pro-preview",
+    "motivo_fin": "stop",
+    "tokens_salida": 189
+  }
+}
