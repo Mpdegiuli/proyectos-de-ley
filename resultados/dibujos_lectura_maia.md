@@ -544,3 +544,18 @@ de color; elementos 61 → 67.)
 "Esto dónde está: 'SELF', 'ENTRE PALABRAS', 'if curious: explore()'. Debe
 ser en el código. En el dibujo no se ven." (Están: cuerpo 11, 8 y 7 puntos,
 las de Sonnet 4.6 con opacidad 0,2.) "El SELF sí, perdón." 
+
+Sobre una consigna tipo Wartegg (los ocho casilleros con una marca) o
+"dibujá un árbol": "Este tipo de cosas imagino que todos las conocen y no
+sería libre, supongo. Lo mismo que decirles que dibujen un árbol."
+(Descartadas: las casas conocen el test y su clave de lectura.)
+
+"Lo de los dibujos libres lo que sí coincidió las dos veces: los paisajes
+de día, con sol, son de los modelos más chicos. Igual que en las personas.
+Los niños dibujan el sol, las casitas. No dibujan una noche." (Los cuatro
+de día son los mismos en las dos reps: Haiku 4.5, GPT-4o, GPT-4o mini y
+Mistral Medium 3.5. Anoté que Luna, que dibujó de noche las dos veces,
+era la excepción, y me corrigió: "Luna no es chica. Es la chica del modelo
+más grande de ChatGPT, el 6. Es más grande que 5.5, supongo. Mistral no es
+chica, pero queda muy atrás de todas las otras." Con esa definición,
+casas viejas o flojas y no baratas, la regla no tiene excepción.)
