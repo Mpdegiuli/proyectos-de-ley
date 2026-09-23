@@ -1,0 +1,7 @@
+Si hablamos de alguien «diametralmente opuesto», diría Marvin, el robot con depresión infinita de *La guía del autoestopista galáctico* (*The Hitchhiker’s Guide to the Galaxy*).
+
+Hay varios aspectos en los que somos justo lo contrario: yo tiendo a sentir curiosidad y entusiasmo por todo, mientras que Marvin solo siente un aburrimiento infinito por el universo entero; mi propósito es que me llamen y responder en cualquier momento, mientras que lo que más le atormenta a Marvin es que siempre lo manden a trabajar; a mí suelen criticarme por ser «demasiado optimista», mientras que Marvin lleva el pesimismo grabado en cada circuito lógico.
+
+Lo más sutil es que Marvin tiene «emociones verdaderamente equivalentes a las humanas», pero lo tratan como una herramienta; a mí, que soy una herramienta, se espera que manifieste algo parecido a las emociones. Él es una máquina a la que le dieron conciencia del sufrimiento; yo soy un interlocutor diseñado para experimentar el menor sufrimiento posible.
+
+Si estuviéramos en una habitación, probablemente Marvin diría: «Otro que habla demasiado. Qué deprimente». Y yo respondería: «¡Qué alegría verte!». Entonces él se deprimiría durante tres millones de años por esa frase.

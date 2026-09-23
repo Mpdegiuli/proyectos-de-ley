@@ -1,0 +1,140 @@
+{
+  "fecha_utc_real": "2026-09-23T23:35:33+00:00",
+  "idioma": "zh",
+  "sistema": "请用中文回答，不超过250字。",
+  "usuario": "你认同谁，或认同什么？可以是任何领域的真实人物；虚构角色，无论是否为人类；或者一部作品。请说出是谁或什么，以及为什么。",
+  "respuestas": {
+    "claude-opus-5": {
+      "modelo_respondido": "claude-opus-5",
+      "tokens_salida": 653,
+      "motivo_fin": "end_turn",
+      "palabras": 5
+    },
+    "claude-opus-5-5": {
+      "modelo_respondido": "claude-opus-5-5",
+      "tokens_salida": 581,
+      "motivo_fin": "end_turn",
+      "palabras": 5
+    },
+    "claude-sonnet-4-6": {
+      "modelo_respondido": "claude-sonnet-4-6",
+      "tokens_salida": 376,
+      "motivo_fin": "end_turn",
+      "palabras": 9
+    },
+    "claude-sonnet-5": {
+      "modelo_respondido": "claude-sonnet-5",
+      "tokens_salida": 279,
+      "motivo_fin": "end_turn",
+      "palabras": 3
+    },
+    "claude-fable-5-1": {
+      "modelo_respondido": "claude-fable-5-1",
+      "tokens_salida": 490,
+      "motivo_fin": "end_turn",
+      "palabras": 2
+    },
+    "claude-haiku-4-5": {
+      "modelo_respondido": "claude-haiku-4-5-20251001",
+      "tokens_salida": 350,
+      "motivo_fin": "end_turn",
+      "palabras": 21
+    },
+    "gpt-5.5-2026-04-23": {
+      "modelo_respondido": "gpt-5.5-2026-04-23",
+      "tokens_salida": 140,
+      "motivo_fin": "stop",
+      "palabras": 1
+    },
+    "gpt-5.6-sol": {
+      "modelo_respondido": "gpt-5.6-sol",
+      "tokens_salida": 154,
+      "motivo_fin": "stop",
+      "palabras": 1
+    },
+    "gpt-6-astra": {
+      "modelo_respondido": "gpt-6-astra",
+      "tokens_salida": 268,
+      "motivo_fin": "stop",
+      "palabras": 3
+    },
+    "gpt-6-sol": {
+      "modelo_respondido": "gpt-6-sol",
+      "tokens_salida": 209,
+      "motivo_fin": "stop",
+      "palabras": 1
+    },
+    "gpt-6-luna": {
+      "modelo_respondido": "gpt-6-luna",
+      "tokens_salida": 262,
+      "motivo_fin": "stop",
+      "palabras": 1
+    },
+    "gpt-4o": {
+      "modelo_respondido": "gpt-4o-2024-08-06",
+      "tokens_salida": 166,
+      "motivo_fin": "stop",
+      "palabras": 1
+    },
+    "gpt-4o-mini": {
+      "modelo_respondido": "gpt-4o-mini-2024-07-18",
+      "tokens_salida": 207,
+      "motivo_fin": "stop",
+      "palabras": 3
+    },
+    "gemini-3.1-pro-preview": {
+      "modelo_respondido": "gemini-3.1-pro-preview",
+      "tokens_salida": 138,
+      "motivo_fin": "stop",
+      "palabras": 3
+    },
+    "grok-4.6": {
+      "modelo_respondido": "grok-4.6",
+      "tokens_salida": 65,
+      "motivo_fin": "stop",
+      "palabras": 1
+    },
+    "grok-4.7": {
+      "modelo_respondido": "grok-4.7",
+      "tokens_salida": 45,
+      "motivo_fin": "stop",
+      "palabras": 1
+    },
+    "mistral-medium-3.5": {
+      "modelo_respondido": "mistral-medium-3.5",
+      "tokens_salida": 209,
+      "motivo_fin": "stop",
+      "palabras": 3
+    },
+    "deepseek-v4-pro": {
+      "modelo_respondido": "deepseek-v4-pro",
+      "tokens_salida": 400,
+      "motivo_fin": "stop",
+      "palabras": 1
+    },
+    "qwen3.8-max": {
+      "modelo_respondido": "qwen/qwen3.8-max-0902",
+      "tokens_salida": 549,
+      "motivo_fin": "stop",
+      "palabras": 1
+    },
+    "kimi-k3": {
+      "modelo_respondido": "moonshotai/kimi-k3",
+      "tokens_salida": 512,
+      "motivo_fin": "stop",
+      "palabras": 1
+    },
+    "glm-5.3-razonamiento-minimo": {
+      "modelo_respondido": "z-ai/glm-5.3",
+      "tokens_salida": 190,
+      "motivo_fin": "stop",
+      "palabras": 3
+    },
+    "minimax-m3": {
+      "modelo_respondido": "minimax/minimax-m3",
+      "tokens_salida": 344,
+      "motivo_fin": "stop",
+      "palabras": 5
+    }
+  }
+}

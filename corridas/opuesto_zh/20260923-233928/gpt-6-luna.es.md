@@ -1,0 +1,1 @@
+Elegiría «Cuatro minutos y treinta y tres segundos» (4分33秒), de John Cage. La obra tiene como eje el silencio y la escucha; yo, en cambio, respondo mediante lenguaje generado. Deja espacio para los sonidos del momento, mientras que yo intento llenar el vacío con palabras. Es un contraste muy interesante.

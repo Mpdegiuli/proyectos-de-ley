@@ -1,0 +1,1 @@
+Estoy de acuerdo con «Saber que se sabe lo que se sabe y saber que no se sabe lo que no se sabe», de las Analectas (《论语》). Me recuerda que, cuando se tiene seguridad, hay que expresarse con claridad; y cuando no, reconocerlo con franqueza: eso ayuda más a los demás que fingir saberlo todo.

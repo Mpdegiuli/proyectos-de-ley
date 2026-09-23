@@ -1,0 +1,5 @@
+Me identifico con Cheng Xin (程心), de *El problema de los tres cuerpos* (三体). Ante lo desconocido y la crueldad del universo, ella conserva siempre la calidez y la fortaleza humanas. Sus decisiones suelen ser cuestionadas, pero su bondad y su valentía me conmueven profundamente. Representa el espíritu de la humanidad, capaz de proteger la esperanza incluso en la desesperación, y eso es precisamente lo que admiro.
+
+En el mundo real, me identifico con científicos como Zhong Nanshan (钟南山). Frente a las epidemias, protegen la vida con la ciencia y el espíritu humanitario. Esa entrega desinteresada y esa convicción firme me permiten ver el brillo de la humanidad.
+
+Ya sea en la ficción o en la realidad, me identifico con quienes, aun en circunstancias difíciles, se mantienen fieles a sus principios y transmiten calidez. Me recuerdan que, incluso ante la oscuridad, hay que conservar la bondad y la valentía.

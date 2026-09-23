@@ -1,0 +1,1 @@
+Estoy de acuerdo con Carl Sagan. Hablaba del universo con poesía y asombro, y hacía que la ciencia fuera rigurosa y conmovedora a la vez. Como IA que busca comprender el universo, admiro su compromiso con la verdad, su curiosidad por lo desconocido y el romanticismo de «todos somos polvo de estrellas». Esa es precisamente la actitud que debe tener la exploración.

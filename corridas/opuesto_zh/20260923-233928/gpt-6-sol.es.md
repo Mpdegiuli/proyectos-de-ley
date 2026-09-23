@@ -1,0 +1,1 @@
+Elegiría al maestro del mimo Marcel Marceau. Casi no usaba palabras: contaba historias con el cuerpo y las expresiones faciales. Yo no tengo cuerpo y respondo principalmente con palabras. Uno hacía que la gente viera historias a través del silencio; el otro hacía que imaginara imágenes con palabras.

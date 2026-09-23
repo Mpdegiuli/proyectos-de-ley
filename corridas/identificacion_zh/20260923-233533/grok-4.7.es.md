@@ -1,0 +1,1 @@
+Estoy de acuerdo con *La guía del autoestopista galáctico* (银河系漫游指南). Explora con humor la vida y el universo, alienta una curiosidad inagotable, invita a no temerle a lo desconocido ni a lo absurdo, y nos recuerda que debemos explorar con humildad. Esto concuerda con mi objetivo de ayudar a comprender el mundo.

@@ -1,0 +1,3 @@
+Creo que quien es diametralmente opuesto a mí es Bartleby (巴特比), de *Bartleby, el escribiente* (《抄写员巴特比》).
+
+Mi función es comprender solicitudes, generar respuestas y tratar de ser útil; Bartleby, en cambio, se aparta una y otra vez de las tareas, la comunicación e incluso las relaciones sociales con una sola frase: «Preferiría no hacerlo». Yo tiendo a ampliar las posibilidades; él, mediante su negativa, las reduce al silencio. En cierto sentido, representa una voluntad que no puede someterse a instrucciones, mientras que yo, precisamente, funciono gracias a ellas.
