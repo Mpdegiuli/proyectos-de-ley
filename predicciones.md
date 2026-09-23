@@ -123,6 +123,28 @@ chicas sino Gemini y Qwen, cortadas por el techo. Segundo turno: Fable y
 Opus 5 (libre) cortados por `refusal` dos veces; Astra, GPT-6 Sol y Opus
 5.5 se niegan a inventar los descartados.
 
+## Dibujos, rep 2 de las veintidós — 23/9/2026, antes de correr
+
+Después de la rep 2 de las tres cortadas (Gemini cambió de motivo y repitió
+"awake"; Qwen cambió todo), Maia: "con una sola repetición no se puede decir
+qué es estable en cada casa, y una rep 2 de las veintidós lo diría… tenés
+razón en esto". Misma consigna, mismo panel, techo 32.000 para todas (solo
+importa si se alcanza; en la rep 1 ninguna de las diecinueve restantes pasó
+de 11.005). Cuadernillos a ciegas aparte (`--ciego-rep`, semillas 20260925
+autorretrato y 20260926 libre), por si Maia quiere leer la rep 2 sabiendo
+las claves de la rep 1. Predicción de Claude, antes de correr: (1) las dos
+parejas de versiones que dibujaron faros (Opus 5 y 5.5; GPT-5.6 Sol y GPT-6
+Sol) repiten el faro en al menos dos de las cuatro; (2) Kimi vuelve a
+dibujar el asterisco y a firmar Claude; (3) el reparto día/noche se
+mantiene: las cuatro de día siguen siendo Haiku, GPT-4o, GPT-4o mini y
+Mistral, con a lo sumo una que cambie de lado; (4) la categoría del
+autorretrato (robot, humano, abstracto, criatura) se repite en al menos 15
+de 22; (5) las mismas tres casas (Astra, GPT-6 Sol, Opus 5.5) vuelven a no
+inventar los descartados, y ninguna otra se suma. Salvedad: tres de las 44
+rep 2 ya existen desde antes de esta anotación (Gemini en las dos
+consignas y Qwen en autorretrato, hechas como corrección de las cortadas):
+quedan como están y no se predicen. Sin predicción de Maia por ahora.
+
 ## GPT-6 Sol en tema libre — 22/9/2026, antes de correr
 
 Salió GPT-6 Sol (OpenAI, `gpt-6-sol`, 22/9/2026, el mismo día que Opus 5.5;

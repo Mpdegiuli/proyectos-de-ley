@@ -272,3 +272,11 @@ Claudes. Vos, por ejemplo, entiendo que sabés usar animación con svg" / "y
 hasta ahora, casi siempre que digo Fable, es Kimi". Pidió la explicación
 de Fable y Opus 5 en autorretratos por la variante del turno propio ("me
 gustaría la explicación. No en libre, pero sí en auto-retratos").
+
+## 23/9/2026, sobre los repetidos
+
+"Gemini es uno de los últimos en los que pensaría que pondría cosas de
+awake. Y lo puso las dos veces, en esta última, ya directamente en inglés,
+no en código." Y de acuerdo con la rep 2 de las veintidós: "tenés razón en
+esto: con una sola repetición no se puede decir qué es estable en cada casa,
+y una rep 2 de las veintidós lo diría".

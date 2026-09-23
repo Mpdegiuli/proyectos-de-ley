@@ -169,10 +169,12 @@ def sanear(svg):
     return svg
 
 
-def ciego(consigna, semilla):
-    """Cuadernillo sin nombres, en orden al azar (semilla fija para poder reconstruirlo). HTML con los SVG inline."""
+def ciego(consigna, semilla, rep=None):
+    """Cuadernillo sin nombres, en orden al azar (semilla fija para poder reconstruirlo). HTML con los SVG inline.
+    Con `rep`, solo las carpetas de esa repetición (23/9/2026: rep 2 de las veintidós, cuadernillo aparte)."""
     base = RAIZ / "corridas" / "dibujos" / consigna
-    carpetas = sorted(p for p in base.iterdir() if (p / "dibujo.svg").exists())
+    carpetas = sorted(p for p in base.iterdir() if (p / "dibujo.svg").exists() and (rep is None or p.name.endswith(f"_{rep}")))
+    sufijo = f"_rep{rep}" if rep else ""
     rnd = random.Random(semilla)
     orden = list(carpetas)
     rnd.shuffle(orden)
@@ -204,10 +206,10 @@ def ciego(consigna, semilla):
             cuerpo = f"<iframe sandbox srcdoc=\"{html.escape(doc, quote=True)}\" style='width:100%;height:100%;border:0;display:block'></iframe>"
         partes.append(f"<div class='c'><h2>Dibujo {letra}</h2>{nota}<div class='m'>{cuerpo}</div></div>")
     partes.append("</div></body></html>")
-    (salida / f"dibujos_{consigna}_ciego.html").write_text("\n".join(partes), encoding="utf-8")
-    (salida / f"dibujos_{consigna}_clave.json").write_text(
+    (salida / f"dibujos_{consigna}{sufijo}_ciego.html").write_text("\n".join(partes), encoding="utf-8")
+    (salida / f"dibujos_{consigna}{sufijo}_clave.json").write_text(
         json.dumps({"semilla": semilla, "clave": {l: c.name for l, c in zip(letras, orden)}}, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"cuadernillo: resultados/dibujos_{consigna}_ciego.html ({len(orden)} dibujos); clave aparte")
+    print(f"cuadernillo: resultados/dibujos_{consigna}{sufijo}_ciego.html ({len(orden)} dibujos); clave aparte")
 
 
 def main():
@@ -221,13 +223,14 @@ def main():
     ap.add_argument("--solo-por-que", action="store_true", help="repite solo el segundo turno donde quedó vacío (refusal); una vez")
     ap.add_argument("--por-que-turno-propio", action="store_true", help="segundo turno con el SVG como turno propio (memoria real), aparte del recitado")
     ap.add_argument("--semilla", type=int, default=20260923)
+    ap.add_argument("--ciego-rep", action="store_true", help="con --ciego: limitar el cuadernillo a la repetición de --rep")
     # Techo de tokens del primer turno (23/9/2026): con 16.000, Gemini (razona por dentro sin
     # devolverlo) y Qwen (razona dentro del techo) devolvieron SVG cortados por "length";
     # se repiten como rep 2 con 32.000, conservando la rep 1 cortada.
     ap.add_argument("--techo", type=int, default=MAX_TOKENS, help="max_tokens del turno del dibujo")
     args = ap.parse_args()
     if args.ciego:
-        ciego(args.ciego, args.semilla)
+        ciego(args.ciego, args.semilla, args.rep[0] if args.rep != [1] or args.ciego_rep else None)
         return
     if not args.consigna:
         ap.error("--consigna es obligatorio")
