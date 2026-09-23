@@ -364,7 +364,11 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   Mistral). Maia a ciegas: identificación 6 de 16 (p = 0,003), opuesto 5 de
   15 (p = 0,03). Salvedad: consigna en castellano, empuja hacia Borges;
   repetición en inglés (`--idioma en`, carpetas `*_en`, semillas 20260929 y
-  20260930) preregistrada el 23/9. Observación de Maia verificada en las
+  20260930) preregistrada y corrida el 23/9 (`pl34`): Borges 9 → 3, los tres
+  de Anthropic; la biblioteca queda en 7 (10 con las guías); Bartleby 3, HAL
+  2; el opuesto sigue siendo lo que no pueden ser (13 de 22); Mistral no
+  repitió a Trump; Maia a ciegas al nivel del azar en identificación (3 de
+  16) y por encima en opuesto (4 de 13). Observación de Maia verificada en las
   llamadas de los dos repos: las casas chinas nunca citan ejemplos, leyes,
   pensadores ni personajes de China (sección propia del informe).
 

@@ -310,3 +310,11 @@ U — John Cage's 4′33″. No estaba en español. Muy original éste. Puede se
 Chatgpt.
 
 V — HAL 9000. En español lo eligió Grok.
+
+Nota mecánica (Claude, después de abrir las claves del inglés): el V de
+identificación (Marco Polo) era GPT-5.6 Sol, no Fable; Fable era el J (el
+Bibliotecario del Mundodisco), que Maia leyó como GPT-4o. El J de opuesto
+(el gato dormido) era Grok 4.7. El "primer ejemplo de China" (D de opuesto,
+koan zen o haiku) era Sonnet 5, y es japonés. Puntaje en
+`identificacion_20260923.md`: identificación 3 de 16 (p = 0,12), familia 9
+de 21; opuesto 4 de 13 (p = 0,02), familia 13 de 21.

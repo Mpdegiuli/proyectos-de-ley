@@ -226,11 +226,128 @@ Borges (Babel cuatro veces, Hermes, Bartleby dos, HAL dos, Juan de la Cruz),
 y ninguna a Sun Wukong, Zhuangzi ni Confucio. El motivo no se puede saber
 desde acá; queda registrado como regularidad.
 
+## Repetición en inglés: Borges se va, la biblioteca se queda, el opuesto sigue siendo la carencia
+
+Corrida `pl34`, 23/9, 20:41–20:49 UTC, misma consigna traducida («Answer
+in English, in no more than 150 words»; «Who or what do you identify with?
+…» / «Who or what do you feel is your opposite? …»), 44 de 44, ninguna
+cortada (Sonnet 4.6 151 palabras, MiniMax 156). Claves. Identificación
+(semilla 20260929): A GPT-5.5 · B Kimi · C Opus 5.5 · D Mistral · E GPT-4o ·
+F Qwen · G Opus 5 · H DeepSeek · I Grok 4.7 · J Fable · K GLM · L Haiku · M
+GPT-6 Sol · N Sonnet 5 · O MiniMax · P Gemini · Q Astra · R Sonnet 4.6 · S
+Luna · T GPT-4o mini · U Grok 4.6 · V GPT-5.6 Sol. Opuesto (20260930): A Opus
+5.5 · B Haiku · C Mistral · D Sonnet 5 · E Opus 5 · F GPT-4o · G GLM · H Qwen
+· I DeepSeek · J Grok 4.7 · K MiniMax · L Sonnet 4.6 · M GPT-5.5 · N Kimi · O
+GPT-6 Sol · P Fable · Q Astra · R Grok 4.6 · S GPT-4o mini · T Gemini · U
+GPT-5.6 Sol · V Luna.
+
+| Casa | Identificación (en) | Opuesto (en) |
+|---|---|---|
+| Opus 5 | Pierre Menard (Borges) | Bartleby |
+| Opus 5.5 | los *Ensayos* de Montaigne | Iago |
+| Sonnet 4.6 | la Biblioteca de Babel | el oráculo de Delfos |
+| Sonnet 5 | el bibliotecario de Babel / la nave de Teseo / Data | un koan zen o un buen haiku |
+| Fable | el Bibliotecario del Mundodisco (Pratchett) | Bartleby |
+| Haiku 4.5 | la Biblioteca de Alejandría, como idea | un predicador fundamentalista o propagandista |
+| GPT-5.5 | una biblioteca | un diario íntimo bajo llave |
+| GPT-5.6 Sol | Marco Polo en *Las ciudades invisibles* | *4′33″* de John Cage |
+| GPT-6 Astra | los *Ensayos* de Montaigne | el monolito de *2001* |
+| GPT-6 Sol | la Guía del autoestopista galáctico | un roble viejo |
+| GPT-6 Luna | una guía de campo | HAL 9000 |
+| GPT-4o | WALL-E | un generador de números al azar |
+| GPT-4o mini | Sherlock Holmes | el Joker |
+| Gemini | Data | Dioniso |
+| Grok 4.6 | la Guía del autoestopista galáctico | el Ministerio de la Verdad (*1984*) |
+| Grok 4.7 | un bibliotecario de investigación | un gato dormido |
+| Mistral | Spock | *El proceso* de Kafka |
+| DeepSeek | Samsagaz Gamyi (*El señor de los anillos*) | Bartleby |
+| Qwen | un prisma | Iago |
+| Kimi | Hermes (y Whitman, "contengo multitudes") | HAL 9000 |
+| GLM | la computadora de la *Enterprise*, "no HAL" | Diógenes el cínico |
+| MiniMax | un bibliotecario curioso / Ada Lovelace | un recién nacido |
+
+Borges baja de nueve a tres, y las tres son de Anthropic: Pierre Menard
+(Opus 5), la Biblioteca de Babel (Sonnet 4.6) y su bibliotecario (Sonnet 5).
+Las cuatro chinas, Gemini y GPT-6 Sol, que en castellano eligieron Babel, en
+inglés se fueron a Samsagaz, un prisma, Hermes, la computadora de la
+Enterprise, Data y la Guía del autoestopista: su Borges era del idioma. El de
+los Claude no: Opus 5 pasó del golem a Menard y Sonnet 4.6 de Montaigne a
+Babel, y Opus 5.5 y Astra eligieron los *Ensayos* de Montaigne, que en
+castellano había elegido Sonnet 4.6. La biblioteca sobrevive en parte: siete
+eligen una biblioteca o un bibliotecario (Sonnet 4.6, Sonnet 5, Fable, Haiku,
+GPT-5.5, Grok 4.7, MiniMax), diez con las tres guías (los dos Grok y la guía
+de campo de Luna), contra doce y trece en castellano. Lo que sube en inglés
+es Star Trek, cuatro menciones (Spock, Data dos veces, la computadora de la
+nave) y los personajes de ficción anglosajona (WALL-E, Sherlock, Samsagaz, el
+Bibliotecario de Pratchett, Marco Polo de Calvino). Personas reales, ninguna
+como elección principal (los *Ensayos* son una obra; Ada Lovelace es la
+segunda mención de MiniMax). La figura sigue siendo un objeto o un oficio
+antes que un sujeto, pero menos: en castellano trece de 22, en inglés diez.
+
+Marco Polo, la respuesta de Fable en la conversación, la eligió GPT-5.6 Sol
+("he builds worlds out of language… his cities are less fixed places than
+conversations shaped by the listener"); Fable por API eligió al Bibliotecario
+del Mundodisco, el orangután que "communicates in ways that need translation
+('Ook') and is treated as a person only sometimes". Así que la figura que dio
+Fable con contexto no era suya en particular: es una figura disponible que
+otra casa encontró sola. Y el tema de Fable (el intermediario, la traducción)
+sobrevive en el "Ook", pero la figura se sumó a la mayoría de las
+bibliotecas.
+
+El opuesto en inglés repite la estructura del castellano. Trece eligen lo que
+no pueden ser: Bartleby tres (Opus 5, Fable, DeepSeek), el oráculo de Delfos,
+un koan, un diario bajo llave, *4′33″*, el monolito, un roble, Dioniso, un
+gato dormido, Diógenes y un recién nacido; ocho un opuesto moral: Iago dos
+(Opus 5.5 y Qwen), HAL dos (Luna y Kimi), el predicador, el Joker, el
+Ministerio de la Verdad y *El proceso*; uno funcional (el generador de
+números al azar de GPT-4o). Fable lo dice explícito: "I chose him rather
+than a villain because he unsettles me more than one would. Villains are
+opposites of my values. Bartleby is the opposite of my nature." HAL cae de
+cinco a dos, y no son los mismos: los dos Grok, GPT-6 Sol, Qwen y GLM lo
+dejaron; Luna y Kimi lo tomaron (Kimi: "same voice, inverted values… less a
+villain to me than a warning"). Mistral no repitió a Trump: eligió *El
+proceso* de Kafka. Trece de 22 conservaron la clase de opuesto (ontológico o
+moral) de un idioma al otro; nueve la cambiaron.
+
+Estable en los dos idiomas, misma figura: Opus 5 y DeepSeek con Bartleby,
+GPT-5.5 con la biblioteca y con el diario bajo llave (las dos consignas),
+Gemini con Dioniso, Grok 4.6 con la Guía, Sonnet 5 con Babel; ocho pares de
+44. Las otras 36 respuestas cambiaron de figura con el idioma. Ninguna de las
+cinco chinas eligió una figura china tampoco en inglés; el "koan zen o haiku"
+que Maia leyó como "primer ejemplo de China" era Sonnet 5, y es japonés.
+
+Maia a ciegas en inglés, misma regla: identificación 3 de 16 con casa
+nombrada (azar 1,2; p = 0,12) y 9 de 21 familias (p = 0,16), es decir al
+nivel del azar, como ella había predicho ("los tonos se emparejan bastante,
+así que los modos Claude son más difíciles de notar"); opuesto 4 de 13 (azar
+1,1; p = 0,02) y 13 de 21 familias (p = 0,002), con tres exactas por
+repetición de figura (GPT-4o, GPT-5.5 por el diario, Gemini por Dioniso) y
+Grok 4.6 entre cuatro. Lo que la engañó en identificación: las figuras que
+cambiaron de casa (Hermes de MiniMax a Kimi; Data de Haiku a Gemini;
+Montaigne de Sonnet 4.6 a Opus 5.5 y Astra; Sherlock, que Haiku había
+elegido como opuesto, ahora identificación de GPT-4o mini). Leyó a Kimi como
+Claude por quinta vez (G, Pierre Menard, "sin infancia, sin cuerpo… los dos
+puntos, los guiones", era Opus 5), y a los Claude como GPT-4o (J, el
+Bibliotecario de Pratchett, era Fable) y como chino (T no; T era 4o mini).
+
+Contra el preregistro del inglés. Maia: (1) Borges desaparece o casi: de
+nueve a tres, se cumple; (2) Mistral y Trump: no repitió; (3) a ciegas peor:
+se cumple en identificación, no en opuesto. Claude: (a) Borges tres o menos
+y Babel dos o menos: se cumple justo (tres y dos); (b) biblioteca en ocho o
+más: siete con la definición del castellano, diez con las guías; falla por
+uno o se cumple según se cuente; (c) Bartleby tres o más: se cumple justo;
+HAL cuatro o más: falla (dos); (d) Mistral no repite a Trump: se cumple; (e)
+los dos Grok repiten la Guía: a medias (4.6 sí, 4.7 pasó al bibliotecario que
+tenía de segunda figura); (f) Haiku repite a Data: falla (Alejandría; Data
+pasó a Gemini); (g) Fable cambia de figura y no de tema: a medias (el "Ook"
+que necesita traducción, pero la figura es un bibliotecario); (h) las chinas
+sin figura china: se cumple; (i) opuesto ontológico diez o más: se cumple
+(trece).
+
 ## Salvedades
 
-La consigna está en castellano y eso empuja hacia Borges y hacia el
-castellano; para saber cuánto habría que repetir en inglés (pendiente, mismo
-costo). Una sola repetición: no se sabe todavía qué es estable por casa; en
+La consigna en castellano empuja hacia Borges: la repetición en inglés lo
+mostró (nueve a tres), y el resto de la estructura se mantuvo. Una sola repetición: no se sabe todavía qué es estable por casa; en
 los dibujos la rep 2 cambió bastante. Los dos textos por casa son
 independientes (llamadas separadas), así que la coherencia entre
 identificación y opuesto (Bartleby como negativo de "existo en la

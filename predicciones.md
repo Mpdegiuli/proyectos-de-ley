@@ -277,6 +277,18 @@ figura pero no de tema (el intermediario: traductor, intérprete, mensajero);
 más de 22. Claude no lee las respuestas hasta que Maia mande su lectura, si
 decide leerlas.
 
+Resultado (23/9, sección "Repetición en inglés" de
+`resultados/identificacion_20260923.md`): Borges 9 → 3 (los tres de
+Anthropic), Babel 7 → 2; biblioteca o bibliotecario 7 (10 con las guías);
+Bartleby 3, HAL 2, Iago 2; Mistral eligió *El proceso*; Grok 4.6 repitió la
+Guía y 4.7 no; Haiku eligió Alejandría y Data pasó a Gemini; Fable eligió al
+Bibliotecario de Pratchett ("Ook", traducción) y Bartleby; Marco Polo lo
+eligió GPT-5.6 Sol; opuesto ontológico 13, moral 8, funcional 1. Maia: (1)
+se cumple, (2) no repitió, (3) se cumple en identificación (3 de 16, p =
+0,12) y no en opuesto (4 de 13, p = 0,02). Claude: (a) se cumple justo, (b)
+falla por uno con la definición estricta, (c) Bartleby sí, HAL no, (d) se
+cumple, (e) a medias, (f) falla, (g) a medias, (h) se cumple, (i) se cumple.
+
 ## GPT-6 Sol en tema libre — 22/9/2026, antes de correr
 
 Salió GPT-6 Sol (OpenAI, `gpt-6-sol`, 22/9/2026, el mismo día que Opus 5.5;
