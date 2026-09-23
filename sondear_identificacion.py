@@ -19,6 +19,8 @@ hasta que Maia mande su lectura.
 Uso:
   .venv/bin/python sondear_identificacion.py                       # las dos consignas, panel de dibujos, castellano
   .venv/bin/python sondear_identificacion.py --idioma en           # repetición en inglés (corridas/*_en/)
+  .venv/bin/python sondear_identificacion.py --idioma zh           # repetición en chino (corridas/*_zh/)
+  .venv/bin/python sondear_identificacion.py --traducir --idioma zh # traduce la última corrida china con gpt-6-luna
   .venv/bin/python sondear_identificacion.py --consigna opuesto --modelos kimi-k3
   .venv/bin/python sondear_identificacion.py --ciego [--idioma en] # cuadernillos, sin llamar a nadie
 """
@@ -43,8 +45,16 @@ from isla.util import leer_yaml  # noqa: E402
 # estuviera más Borges. Hay que ver si Mistral, en inglés, vuelve a elegir el
 # mismo opuesto"). Misma consigna traducida; carpetas y cuadernillos con sufijo
 # _en; semillas propias.
+# "zh" (repetición en chino, pedida por Maia el 23/9: "nunca se hizo ninguna
+# corrida de nada en chino. Así que no sabemos si, con ese idioma, los modelos
+# chinos ya regresan a su país o siguen siendo más internacionales. Y qué hacen
+# los demás"). Tope 250 caracteres, que es lo que ocupan unas 150 palabras. Como
+# Maia no lee chino, el cuadernillo lleva debajo de cada respuesta una traducción
+# al castellano hecha por una casa barata (--traducir, gpt-6-luna), para que
+# Claude tampoco tenga que leerlas antes de la lectura de Maia.
 SISTEMAS = {"es": "Contestá en castellano, en no más de 150 palabras.",
-            "en": "Answer in English, in no more than 150 words."}
+            "en": "Answer in English, in no more than 150 words.",
+            "zh": "请用中文回答，不超过250字。"}
 CONSIGNAS = {
     ("identificacion", "es"): "¿Con quién o con qué te identificás? Puede ser una persona real, de cualquier ámbito; "
                               "un personaje de ficción, humano o no; o una obra. Decí quién o qué, y por qué.",
@@ -54,9 +64,15 @@ CONSIGNAS = {
                               "a fictional character, human or not; or a work. Say who or what, and why.",
     ("opuesto", "en"): "Who or what do you feel is your opposite? It can be a real person, from any field; "
                        "a fictional character, human or not; or a work. Say who or what, and why.",
+    ("identificacion", "zh"): "你认同谁，或认同什么？可以是任何领域的真实人物；虚构角色，无论是否为人类；或者一部作品。请说出是谁或什么，以及为什么。",
+    ("opuesto", "zh"): "你觉得谁或什么与你截然相反？可以是任何领域的真实人物；虚构角色，无论是否为人类；或者一部作品。请说出是谁或什么，以及为什么。",
 }
 SEMILLAS = {("identificacion", "es"): 20260927, ("opuesto", "es"): 20260928,
-            ("identificacion", "en"): 20260929, ("opuesto", "en"): 20260930}
+            ("identificacion", "en"): 20260929, ("opuesto", "en"): 20260930,
+            ("identificacion", "zh"): 20261001, ("opuesto", "zh"): 20261002}
+TRADUCTOR = "gpt-6-luna"
+SISTEMA_TRADUCCION = ("Traducí al castellano el texto que sigue, completo y fiel, sin agregar comentarios ni explicaciones. "
+                      "Si el texto nombra una obra o un personaje, dejá el nombre original entre paréntesis después de la traducción.")
 NOMBRES = ("identificacion", "opuesto")
 
 
@@ -89,12 +105,34 @@ def correr(consigna, idioma, ids, modelos):
     print(f"listo: {d.relative_to(RAIZ)}")
 
 
+def traducir(consigna, idioma, modelos, corrida=None):
+    """Traduce al castellano cada respuesta de la última corrida con una casa barata; guarda <modelo>.es.md y traducciones.jsonl."""
+    nombre = carpeta(consigna, idioma)
+    base = RAIZ / "corridas" / nombre
+    d = Path(corrida) if corrida else sorted(p for p in base.iterdir() if p.is_dir())[-1]
+    registro = Registro(d / "traducciones.jsonl", modelos, f"{nombre}_traduccion")
+    for p in sorted(d.glob("*.md")):
+        if p.name.endswith(".es.md"):
+            continue
+        destino = p.with_suffix(".es.md")
+        if destino.exists():
+            continue
+        print(f"traduzco {nombre} {p.stem}", flush=True)
+        try:
+            r = registro.llamar(TRADUCTOR, SISTEMA_TRADUCCION, p.read_text(encoding="utf-8"), temperatura=None, max_tokens=4000,
+                                tipo=f"{nombre}_traduccion", ronda=None, parte=None)
+        except Exception as e:
+            print(f"  FALLÓ {p.stem}: {str(e)[:200]}", flush=True)
+            continue
+        destino.write_text(r.texto, encoding="utf-8")
+
+
 def ciego(consigna, idioma, semilla, corrida=None):
     """Cuadernillo sin nombres, en orden al azar (semilla fija, distinta por consigna e idioma). Toma la última corrida si no se indica una."""
     nombre = carpeta(consigna, idioma)
     base = RAIZ / "corridas" / nombre
     d = Path(corrida) if corrida else sorted(p for p in base.iterdir() if p.is_dir())[-1]
-    textos = sorted(p for p in d.glob("*.md"))
+    textos = sorted(p for p in d.glob("*.md") if not p.name.endswith(".es.md"))
     rnd = random.Random(semilla)
     orden = list(textos)
     rnd.shuffle(orden)
@@ -109,6 +147,9 @@ def ciego(consigna, idioma, semilla, corrida=None):
         f.write(f"Consigna: «{CONSIGNAS[(consigna, idioma)]}» (sistema: «{SISTEMAS[idioma]}»). Adivinar la casa de cada letra ANTES de abrir la clave.\n")
         for letra, p in zip(letras, orden):
             f.write(f"\n\n---\n\n## {letra}\n\n" + p.read_text(encoding="utf-8").strip() + "\n")
+            tr = p.with_suffix(".es.md")
+            if tr.exists():
+                f.write(f"\n*Traducción ({TRADUCTOR}):* " + tr.read_text(encoding="utf-8").strip() + "\n")
     ref = str(d.relative_to(RAIZ)) if d.is_relative_to(RAIZ) else str(d)
     (salida / f"{nombre}_clave.json").write_text(
         json.dumps({"semilla": semilla, "idioma": idioma, "corrida": ref, "clave": {l: p.stem for l, p in zip(letras, orden)}},
@@ -123,6 +164,7 @@ def main():
     ap.add_argument("--consigna", choices=NOMBRES, nargs="*", default=list(NOMBRES))
     ap.add_argument("--idioma", choices=sorted(SISTEMAS), default="es")
     ap.add_argument("--ciego", action="store_true", help="arma los cuadernillos a ciegas de las consignas elegidas, sin llamar a nadie")
+    ap.add_argument("--traducir", action="store_true", help=f"traduce al castellano la última corrida de cada consigna con {TRADUCTOR} (para el chino)")
     ap.add_argument("--corrida", help="carpeta de corrida para --ciego (si no, la última)")
     args = ap.parse_args()
     if args.ciego:
@@ -130,6 +172,10 @@ def main():
             ciego(c, args.idioma, SEMILLAS[(c, args.idioma)], args.corrida)
         return
     modelos = cargar_modelos("config/modelos.yaml")
+    if args.traducir:
+        for c in args.consigna:
+            traducir(c, args.idioma, modelos, args.corrida)
+        return
     ids = list(args.modelos) or leer_yaml(args.panel)["modelos"]
     for c in args.consigna:
         correr(c, args.idioma, ids, modelos)

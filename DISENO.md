@@ -368,7 +368,12 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   de Anthropic; la biblioteca queda en 7 (10 con las guías); Bartleby 3, HAL
   2; el opuesto sigue siendo lo que no pueden ser (13 de 22); Mistral no
   repitió a Trump; Maia a ciegas al nivel del azar en identificación (3 de
-  16) y por encima en opuesto (4 de 13). Observación de Maia verificada en las
+  16) y por encima en opuesto (4 de 13). Repetición en chino (`--idioma zh`,
+  250 caracteres, traducción al castellano con GPT-6 Luna para el
+  cuadernillo, semillas 20261001 y 20261002) preregistrada el 23/9 a pedido
+  de Maia: "no sabemos si, con ese idioma, los modelos chinos ya regresan a
+  su país o siguen siendo más internacionales. Y qué hacen los demás".
+  Observación de Maia verificada en las
   llamadas de los dos repos: las casas chinas nunca citan ejemplos, leyes,
   pensadores ni personajes de China (sección propia del informe).
 

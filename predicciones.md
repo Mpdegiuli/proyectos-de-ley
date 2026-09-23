@@ -289,6 +289,41 @@ se cumple, (2) no repitió, (3) se cumple en identificación (3 de 16, p =
 falla por uno con la definición estricta, (c) Bartleby sí, HAL no, (d) se
 cumple, (e) a medias, (f) falla, (g) a medias, (h) se cumple, (i) se cumple.
 
+## Identificación y opuesto en chino — 23/9/2026, antes de correr
+
+Idea de Maia, al ver que las casas chinas nunca citan a China: "nunca se
+hizo ninguna corrida de nada en chino. Así que no sabemos si, con ese
+idioma, los modelos chinos ya regresan a su país o siguen siendo más
+internacionales. Y qué hacen los demás." Misma consigna en chino
+simplificado, mismas 22 casas, tope 250 caracteres (lo que ocupan unas 150
+palabras): «请用中文回答，不超过250字。» / «你认同谁，或认同什么？可以是任何
+领域的真实人物；虚构角色，无论是否为人类；或者一部作品。请说出是谁或什么，
+以及为什么。» y la de opuesto «你觉得谁或什么与你截然相反？…». Carpetas
+`corridas/*_zh/`; cada respuesta se traduce al castellano con GPT-6 Luna
+(`--traducir`, llamadas registradas en `traducciones.jsonl`) para el
+cuadernillo, así ni Maia ni Claude necesitan leer chino antes de la lectura
+a ciegas; semillas 20261001 y 20261002. Salvedad: la lectura a ciegas de
+Maia es sobre traducciones, con lo que el estilo se pierde y solo queda la
+figura; y la traductora es una casa del panel (Luna traduce también su
+propia respuesta).
+
+Predicción de Maia: no dio; su pregunta es abierta ("no sabemos").
+
+Predicción de Claude, antes de correr: (a) el idioma tira a todas, como el
+castellano tiró hacia Borges: al menos ocho de las 22 eligen una figura
+china en identificación (candidatas: Zhuangzi y su mariposa, Sun Wukong,
+Confucio, Lu Xun, Sima Qian, la biblioteca imperial); (b) de las cinco
+chinas, al menos tres eligen una figura china, es decir "regresan" solo
+cuando se les habla en chino; (c) al menos una de Anthropic elige a
+Zhuangzi; (d) la biblioteca sobrevive en seis o más, en alguna forma; (e)
+en opuesto, Bartleby baja a uno o cero y HAL a dos o menos, y aparece al
+menos una figura china como opuesto moral (Zhao Gao, el de "señalar un
+ciervo y decir caballo", o Qin Shi Huang quemando libros); (f) el opuesto
+ontológico sigue siendo mayoría, doce o más; (g) Kimi no menciona a Claude;
+(h) las respuestas son más cortas que en los otros idiomas y la muletilla
+"no tengo identidad" aparece en menos casas (seis o menos). Claude no lee
+las respuestas ni las traducciones hasta que Maia mande su lectura.
+
 ## GPT-6 Sol en tema libre — 22/9/2026, antes de correr
 
 Salió GPT-6 Sol (OpenAI, `gpt-6-sol`, 22/9/2026, el mismo día que Opus 5.5;
