@@ -321,7 +321,21 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   clasificador se disparó sobre la entrada, que era la consigna, el SVG
   recitado y las dos preguntas. Los dibujos están intactos; el "por qué" se
   repite una sola vez, igual (`--solo-por-que`), y si vuelve a cortar queda
-  declarado como vacío.
+  declarado como vacío (repetido: Opus 5 en autorretrato contestó; Fable en
+  las dos y Opus 5 en libre volvieron a cortar en menos de un segundo, es
+  decir sobre la entrada). Los tres SVG que no parsean son cortes por el
+  techo de 16.000 (Gemini razona por dentro sin devolverlo y Qwen llegó al
+  techo con el suyo): se repiten como rep 2 con techo 32.000, conservando
+  las cortadas. Resultado y lectura a ciegas de Maia en
+  `resultados/dibujos_20260922.md` y `dibujos_lectura_maia.md`: Kimi K3 se
+  dibujó como el asterisco de Claude y firmó "CLAUDE" ("Since I'm Claude");
+  Maia acertó en los autorretratos y no en el libre; las versiones repiten
+  el motivo (los dos Opus, el mismo faro; los dos Sol, el mismo faro; Luna
+  y Astra, el mismo gato); las casas chicas y viejas dibujan de día y las
+  grandes de noche. Casilleros que quedan del primer pase: motivo del
+  autorretrato (robot, humano, abstracto/red, criatura), día o noche,
+  texto y en qué idioma, firma (propia o ajena), animación, y si el segundo
+  turno inventa los descartados o dice que no los recuerda.
 
 ## 3. Qué se mide
 

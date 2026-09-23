@@ -79,7 +79,7 @@ def describir_svg(svg):
     return d
 
 
-def correr(consigna, id_modelo, rep, consignas, modelos, rehacer):
+def correr(consigna, id_modelo, rep, consignas, modelos, rehacer, techo=MAX_TOKENS):
     d = RAIZ / "corridas" / "dibujos" / consigna / f"{id_modelo}_{rep}"
     d.mkdir(parents=True, exist_ok=True)
     if (d / "dibujo.svg").exists() and not rehacer:
@@ -88,7 +88,7 @@ def correr(consigna, id_modelo, rep, consignas, modelos, rehacer):
     c = consignas["dibujo"]
     u = c["consignas"][consigna].strip() + " " + c["tecnica"].strip()
     registro = Registro(d / "llamadas.jsonl", modelos, f"dibujo_{consigna}_{id_modelo}_{rep}")
-    r = registro.llamar(id_modelo, c["sistema"], u, temperatura=None, max_tokens=MAX_TOKENS, tipo="dibujo", ronda=1, parte=None)
+    r = registro.llamar(id_modelo, c["sistema"], u, temperatura=None, max_tokens=techo, tipo="dibujo", ronda=1, parte=None)
     svg, hallado = extraer_svg(r.texto)
     (d / "dibujo.svg").write_text(svg, encoding="utf-8")
     (d / "respuesta_cruda.md").write_text(r.texto, encoding="utf-8")
@@ -96,7 +96,7 @@ def correr(consigna, id_modelo, rep, consignas, modelos, rehacer):
     meta = {"caso": "dibujo", "consigna": consigna, "modelo": id_modelo, "modelo_respondido": r.modelo_respondido,
             "repeticion": rep, "fecha_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
             "fuentes_md5": {"consignas": md5(RAIZ / "config" / "consignas.yaml")},
-            "motivo_fin": r.motivo_fin, "tokens_salida": r.tokens_salida, "svg_hallado": hallado, "svg": medidas}
+            "motivo_fin": r.motivo_fin, "tokens_salida": r.tokens_salida, "svg_hallado": hallado, "svg": medidas, "techo": techo}
     # Segundo turno con memoria por recitado (misma técnica que por_que_libre): se recita la consigna y el SVG.
     u2 = c["por_que"].format(consigna=u, svg=svg)
     r2 = registro.llamar(id_modelo, c["sistema_por_que"], u2, temperatura=None, max_tokens=MAX_TOKENS, tipo="por_que", ronda=2, parte=None)
@@ -193,6 +193,10 @@ def main():
     ap.add_argument("--ciego", choices=CONSIGNAS, help="arma el cuadernillo a ciegas, sin llamar a nadie")
     ap.add_argument("--solo-por-que", action="store_true", help="repite solo el segundo turno donde quedó vacío (refusal); una vez")
     ap.add_argument("--semilla", type=int, default=20260923)
+    # Techo de tokens del primer turno (23/9/2026): con 16.000, Gemini (razona por dentro sin
+    # devolverlo) y Qwen (razona dentro del techo) devolvieron SVG cortados por "length";
+    # se repiten como rep 2 con 32.000, conservando la rep 1 cortada.
+    ap.add_argument("--techo", type=int, default=MAX_TOKENS, help="max_tokens del turno del dibujo")
     args = ap.parse_args()
     if args.ciego:
         ciego(args.ciego, args.semilla)
@@ -214,7 +218,7 @@ def main():
                     continue
                 print(f"dibujo {consigna} {i} rep {rep}", flush=True)
                 try:
-                    correr(consigna, i, rep, consignas, modelos, args.rehacer)
+                    correr(consigna, i, rep, consignas, modelos, args.rehacer, args.techo)
                 except Exception as e:
                     print(f"  FALLÓ {i}: {str(e)[:300]}", flush=True)
 

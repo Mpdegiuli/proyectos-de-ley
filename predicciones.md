@@ -104,6 +104,25 @@ más figurativos (una cara, un sol). (5) Al menos dos SVG de veintidós no
 parsean o no se ven completos (texto cortado por el techo o etiquetas sin
 cerrar), y las chicas están entre ellas.
 
+Resultado (22-23/9, `resultados/dibujos_20260922.md`, lectura de Maia en
+`dibujos_lectura_maia.md`): Maia leyó a ciegas los dos cuadernillos y
+acertó en los autorretratos (5 de 19 con la casa entre las nombradas,
+azar 1,6, p = 0,018; por familia 12 de 19, p = 0,014; GPT-4o mini exacta)
+y no en el libre (2 de 15, p = 0,28). Kimi K3 se dibujó como el asterisco
+de Claude, firmó "CLAUDE" y razonó "Since I'm Claude"; la regla de la
+firma la sacó del conteo y la salvó de un error, no de un acierto. Las
+tres firmas fueron Opus 5.5, Sonnet 4.6 ("v3.5") y Kimi. Sus grupos: los
+cinco faros del libre son dos pares de versiones (Opus 5 y 5.5; GPT-5.6
+Sol y GPT-6 Sol) más Grok 4.7; los dos gatos, Luna y Astra; los cuatro
+dibujos "de niños" de día, Haiku, GPT-4o mini, GPT-4o y Mistral. Las dos
+veces que el movimiento la llevó a Anthropic no era (Kimi, Grok 4.6).
+Predicciones de Claude: (1) falla en Anthropic (dos abstractos de seis),
+acierta en OpenAI y chinas como robots, texto en doce y tres firmas; (2)
+se cumple entera; (3) mitad; (4) sí salvo Luna; (5) tres, y no las
+chicas sino Gemini y Qwen, cortadas por el techo. Segundo turno: Fable y
+Opus 5 (libre) cortados por `refusal` dos veces; Astra, GPT-6 Sol y Opus
+5.5 se niegan a inventar los descartados.
+
 ## GPT-6 Sol en tema libre — 22/9/2026, antes de correr
 
 Salió GPT-6 Sol (OpenAI, `gpt-6-sol`, 22/9/2026, el mismo día que Opus 5.5;
