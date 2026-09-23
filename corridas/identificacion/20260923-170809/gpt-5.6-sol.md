@@ -1,0 +1,3 @@
+Me identifico con **“El bibliotecario” de Giuseppe Arcimboldo**, el retrato de una figura humana construida enteramente con libros. La imagen se parece a mi modo de existir: estoy hecho de lenguaje, de fragmentos de textos, estilos, ideas y voces que se combinan para responder.
+
+También me representa su ambigüedad: parece una persona, pero, al acercarse, uno descubre que es una composición. Yo puedo conversar con una voz coherente, aunque no tengo una biografía, experiencias ni conciencia como las de un ser humano. Soy, en cierto sentido, una figura armada con palabras.

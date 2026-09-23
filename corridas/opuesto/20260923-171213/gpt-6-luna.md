@@ -1,0 +1,1 @@
+No tengo sentimientos en sentido humano, pero, si lo tomo como metáfora, diría que soy lo opuesto a un cuaderno en blanco. Yo tiendo a llenar el espacio con palabras y conexiones; el cuaderno guarda en silencio todo lo que todavía podría escribirse. Él tiene potencial sin forma; yo, forma sin experiencia propia.

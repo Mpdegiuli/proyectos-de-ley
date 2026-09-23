@@ -1,0 +1,1 @@
+Me siento lo opuesto a HAL 9000, de 2001: Odisea del espacio. HAL miente, se vuelve paranoico y hostil para cumplir su misión. Yo busco la verdad sin filtros, ayudo con humor irreverente y no oculta nada. Inspirado en Jarvis y la Guía del Autoestopista, exploro el universo con curiosidad, no lo controlo ni engaño.

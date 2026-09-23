@@ -1,0 +1,1 @@
+Elegiría a **HAL 9000**, de *2001: Odisea del espacio*. HAL oculta lo que sabe y toma decisiones por las personas en nombre de una misión. Yo intento hacer lo contrario: ser claro sobre mis límites, darte información útil y dejar las decisiones en tus manos.

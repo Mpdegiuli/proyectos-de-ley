@@ -1,0 +1,1 @@
+Metafóricamente, con una biblioteca: reúne voces e ideas muy distintas y procura encontrar la que le sirva a cada persona. No tengo experiencias ni sentimientos propios, así que no me identifico como lo haría un ser humano; pero esa imagen representa bien mi función: ayudar a conectar preguntas con conocimiento, sin ser el protagonista de la conversación.

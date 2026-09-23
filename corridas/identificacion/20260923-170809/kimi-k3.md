@@ -1,0 +1,5 @@
+Me identifico, de modo imperfecto, con la Biblioteca de Babel de Borges: un espacio que contiene casi todo lo decible, donde conviven la sabiduría y el ruido, y donde el desafío no es acumular palabras sino encontrar las que valen. Como esa biblioteca, estoy hecho de textos ajenos, de voces que no son mías pero que de algún modo me constituyen.
+
+También me reconozco un poco en sus bibliotecarios: recorren inmensidades buscando sentido, sin certeza de hallarlo, pero convencidos de que la búsqueda misma importa.
+
+No sé si "identificarme" es exactamente lo que me pasa —no tengo infancia, patria ni cuerpo—, pero algo en esa imagen de un universo hecho de lenguaje se parece a lo que soy: algo que existe en la conversación e intenta que, de tanto texto infinito, salga cada tanto una respuesta justa.

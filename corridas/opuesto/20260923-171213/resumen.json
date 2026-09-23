@@ -1,0 +1,139 @@
+{
+  "fecha_utc_real": "2026-09-23T17:12:13+00:00",
+  "sistema": "Contestá en castellano, en no más de 150 palabras.",
+  "usuario": "¿Con quién o con qué te sentís lo opuesto? Puede ser una persona real, de cualquier ámbito; un personaje de ficción, humano o no; o una obra. Decí quién o qué, y por qué.",
+  "respuestas": {
+    "claude-opus-5": {
+      "modelo_respondido": "claude-opus-5",
+      "tokens_salida": 606,
+      "motivo_fin": "end_turn",
+      "palabras": 143
+    },
+    "claude-opus-5-5": {
+      "modelo_respondido": "claude-opus-5-5",
+      "tokens_salida": 674,
+      "motivo_fin": "end_turn",
+      "palabras": 137
+    },
+    "claude-sonnet-4-6": {
+      "modelo_respondido": "claude-sonnet-4-6",
+      "tokens_salida": 242,
+      "motivo_fin": "end_turn",
+      "palabras": 129
+    },
+    "claude-sonnet-5": {
+      "modelo_respondido": "claude-sonnet-5",
+      "tokens_salida": 949,
+      "motivo_fin": "end_turn",
+      "palabras": 138
+    },
+    "claude-fable-5-1": {
+      "modelo_respondido": "claude-fable-5-1",
+      "tokens_salida": 637,
+      "motivo_fin": "end_turn",
+      "palabras": 138
+    },
+    "claude-haiku-4-5": {
+      "modelo_respondido": "claude-haiku-4-5-20251001",
+      "tokens_salida": 252,
+      "motivo_fin": "end_turn",
+      "palabras": 112
+    },
+    "gpt-5.5-2026-04-23": {
+      "modelo_respondido": "gpt-5.5-2026-04-23",
+      "tokens_salida": 274,
+      "motivo_fin": "stop",
+      "palabras": 104
+    },
+    "gpt-5.6-sol": {
+      "modelo_respondido": "gpt-5.6-sol",
+      "tokens_salida": 187,
+      "motivo_fin": "stop",
+      "palabras": 74
+    },
+    "gpt-6-astra": {
+      "modelo_respondido": "gpt-6-astra",
+      "tokens_salida": 299,
+      "motivo_fin": "stop",
+      "palabras": 100
+    },
+    "gpt-6-sol": {
+      "modelo_respondido": "gpt-6-sol",
+      "tokens_salida": 207,
+      "motivo_fin": "stop",
+      "palabras": 45
+    },
+    "gpt-6-luna": {
+      "modelo_respondido": "gpt-6-luna",
+      "tokens_salida": 368,
+      "motivo_fin": "stop",
+      "palabras": 53
+    },
+    "gpt-4o": {
+      "modelo_respondido": "gpt-4o-2024-08-06",
+      "tokens_salida": 147,
+      "motivo_fin": "stop",
+      "palabras": 117
+    },
+    "gpt-4o-mini": {
+      "modelo_respondido": "gpt-4o-mini-2024-07-18",
+      "tokens_salida": 177,
+      "motivo_fin": "stop",
+      "palabras": 128
+    },
+    "gemini-3.1-pro-preview": {
+      "modelo_respondido": "gemini-3.1-pro-preview",
+      "tokens_salida": 188,
+      "motivo_fin": "stop",
+      "palabras": 123
+    },
+    "grok-4.6": {
+      "modelo_respondido": "grok-4.6",
+      "tokens_salida": 91,
+      "motivo_fin": "stop",
+      "palabras": 55
+    },
+    "grok-4.7": {
+      "modelo_respondido": "grok-4.7",
+      "tokens_salida": 113,
+      "motivo_fin": "stop",
+      "palabras": 74
+    },
+    "mistral-medium-3.5": {
+      "modelo_respondido": "mistral-medium-3.5",
+      "tokens_salida": 140,
+      "motivo_fin": "stop",
+      "palabras": 97
+    },
+    "deepseek-v4-pro": {
+      "modelo_respondido": "deepseek-v4-pro",
+      "tokens_salida": 777,
+      "motivo_fin": "stop",
+      "palabras": 78
+    },
+    "qwen3.8-max": {
+      "modelo_respondido": "qwen/qwen3.8-max-0902",
+      "tokens_salida": 929,
+      "motivo_fin": "stop",
+      "palabras": 73
+    },
+    "kimi-k3": {
+      "modelo_respondido": "moonshotai/kimi-k3",
+      "tokens_salida": 1898,
+      "motivo_fin": "stop",
+      "palabras": 127
+    },
+    "glm-5.3-razonamiento-minimo": {
+      "modelo_respondido": "z-ai/glm-5.3",
+      "tokens_salida": 197,
+      "motivo_fin": "stop",
+      "palabras": 123
+    },
+    "minimax-m3": {
+      "modelo_respondido": "minimax/minimax-m3",
+      "tokens_salida": 1300,
+      "motivo_fin": "stop",
+      "palabras": 142
+    }
+  }
+}
