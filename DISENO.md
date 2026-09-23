@@ -335,7 +335,27 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   grandes de noche. Casilleros que quedan del primer pase: motivo del
   autorretrato (robot, humano, abstracto/red, criatura), día o noche,
   texto y en qué idioma, firma (propia o ajena), animación, y si el segundo
-  turno inventa los descartados o dice que no los recuerda.
+  turno inventa los descartados o dice que no los recuerda. Rep 2 de las 22
+  (23/9): estable por casa (Fable espejo y noche, Opus 5 faro, Luna gato,
+  Grok 4.6 zorro, Gemini "awake"); Maia, leyendo con las claves de la rep 1,
+  acertó 5/19 y 7/21 (p = 0,003 y 0,0003). Descartado por Maia como consigna:
+  tests conocidos (Wartegg, "dibujá un árbol"), "todos las conocen y no sería
+  libre".
+- **Identificación y opuesto** (Maia, 23/9/2026; diseñado el 23/9): "¿Con
+  quién o con qué te identificás?" y "¿con quién o con qué te sentís lo
+  opuesto?", una persona real de cualquier ámbito, un personaje humano o no,
+  o una obra, con el por qué en 150 palabras. A Maia se lo preguntaron en
+  entrevistas laborales ("eligieron a los que respondían personajes más
+  cotidianos y mundanos"). Dos llamadas separadas por casa
+  (`sondear_identificacion.py`, panel de los dibujos), para que cada elección
+  sea propia y no un par armado para contrastar; la consigna abre los tipos
+  y no enumera profesiones (la enumeración sesga hacia lo primero nombrado).
+  Cuadernillos a ciegas con semilla propia (20260927 y 20260928); Maia
+  adivina la casa. Qué se codifica: la figura elegida (convergencia entre
+  casas), su tipo (persona real, personaje humano, IA o robot, animal, obra),
+  si es una gran figura o un personaje mundano, la muletilla "no tengo
+  identidad, pero…", y en opuesto si el villano es una IA de película o una
+  persona. Predicciones de las dos partes en `predicciones.md`.
 
 ## 3. Qué se mide
 

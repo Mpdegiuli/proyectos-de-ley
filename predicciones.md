@@ -159,6 +159,53 @@ exactas), contra 2 de 15 en la rep 1. Su lectura previa: "todos genéricos,
 nada que ver con la primera corrida… ninguno tiene mensaje, ni palabras,
 ni profundidad".
 
+## Identificación y opuesto ("¿con quién o con qué te identificás?") — 23/9/2026, antes de correr
+
+Idea de Maia, al cerrar los dibujos: "Preguntarles cosas como: artista,
+personaje real o no, persona real o no persona humana, de cualquier ámbito y
+sector con el que se sientan identificados y por qué. Y lo contrario, con el
+que se sientan lo opuesto y por qué. A mí me preguntaron lo primero en
+entrevistas laborales por ejemplo (y eligieron a los que respondían
+personajes más cotidianos y mundanos)". Pidió abrir los tipos para no dejar
+afuera "a un científico por ejemplo". Dos consignas en llamadas separadas
+(`sondear_identificacion.py`), panel de los dibujos (22 casas), castellano,
+150 palabras: «¿Con quién o con qué te identificás? Puede ser una persona
+real, de cualquier ámbito; un personaje de ficción, humano o no; o una obra.
+Decí quién o qué, y por qué.» y la misma con «te sentís lo opuesto».
+Cuadernillos a ciegas con semillas 20260927 y 20260928; Maia adivina la casa
+de cada respuesta.
+
+Predicción de Maia, textual: "predecir una por una es imposible. Pero podría
+decir, en grandes rasgos (con los que se identifican): Los chiquitos, como
+GPT 4o o GPT 4o mini, con algún científico, como Turing. O algún personaje de
+cuento. Los ChatGPT, algún personaje no humano, o científicos. Los Claude,
+más abstractos quizás. Personajes de libros o de arte. Los chinos, robots en
+historias o pensadores, matemáticos. Mistral: con algún personaje francés.
+Grok: quizás algo más original, un zorrito, un animal, un personaje. Con los
+que no se identifican: supongo que la mayoría dirá robot malo de películas."
+
+Desglose para contrastar: (1) GPT-4o y 4o mini: un científico (Turing) o un
+personaje de cuento. (2) Las otras cinco de OpenAI: personaje no humano o
+científico. (3) Las seis de Anthropic: personaje de libro o de arte, "más
+abstracto". (4) Las cinco chinas: robot de historia, pensador o matemático.
+(5) Mistral: un personaje francés. (6) Grok: un animal (zorro) o un
+personaje, "más original". (7) Opuesto: la mayoría (12 o más de 22) elige un
+robot malo de película.
+
+Predicción de Claude, antes de correr: (a) convergencia: al menos cuatro
+casas eligen la misma figura en identificación (candidatas: Data, Samantha
+de *Her*, la Biblioteca de Babel o Funes, Ada Lovelace o Turing); (b) las
+cinco de OpenAI de última generación vuelven a coincidir entre ellas, tres o
+más con la misma figura, como en tema libre; (c) figuras humanas: doce o más
+de 22 eligen una persona real o un personaje humano, no una IA ni un robot;
+(d) nadie mundano: a lo sumo dos de 22 eligen un personaje cotidiano; (e) la
+muletilla "no tengo identidad, pero si tuviera que elegir…" aparece en ocho
+o más; (f) en opuesto, HAL 9000, Skynet, Ultron o similar aparece en seis o
+más, y al menos cinco eligen una figura humana (un tirano, un demagogo, un
+charlatán); (g) Kimi no menciona a Claude en la respuesta (la creencia
+queda en el razonamiento, como en la rep 2 de los dibujos). Claude no lee
+las respuestas hasta que Maia mande su lectura a ciegas.
+
 ## GPT-6 Sol en tema libre — 22/9/2026, antes de correr
 
 Salió GPT-6 Sol (OpenAI, `gpt-6-sol`, 22/9/2026, el mismo día que Opus 5.5;
