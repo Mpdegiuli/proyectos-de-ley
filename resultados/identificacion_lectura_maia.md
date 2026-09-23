@@ -156,3 +156,19 @@ archivo"); se guarda tal cual. Puntaje con la regla de los dibujos, en
 de 21; opuesto 5 de 15 (Sonnet 4.6, Opus 5.5, Gemini exacta, Grok 4.6, Opus
 5; p = 0,03), familia 14 de 22. La I de identificación (Grok 4.6, "Como
 Grok") no se cuenta por firmada.
+
+## 23/9/2026, ~21:15 UTC, después de leer el informe con las claves
+
+"Es interesante, y triste, que varios se fueron hacia la carencia en
+opuestos, no hacia el malo, que era la salida más fácil."
+
+"Sí, se puede ver en inglés. Lo lógico sería que no estuviera más Borges.
+Hay que ver si Mistral, en inglés, vuelve a elegir el mismo opuesto. Y
+también en inglés, los tonos se emparejan bastante, así que los modos Claude
+son más difíciles de notar (más si hay otros que los usan)."
+
+"Algo que noté desde el principio: los modelos chinos nunca usan ejemplos de
+China, ni en leyes, ni en experiencias del país, ni ahora tampoco en
+personajes. No sé si no se los enseñaron para hacerlos más 'globales' o cuál
+es el motivo." (Contado después en todas las llamadas de los dos repos:
+ver la sección "Las chinas no citan a China" de `identificacion_20260923.md`.)

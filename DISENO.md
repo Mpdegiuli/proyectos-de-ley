@@ -363,7 +363,10 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   (Bartleby, Funes, Zorba) y ocho un opuesto moral (HAL cinco, Trump en
   Mistral). Maia a ciegas: identificación 6 de 16 (p = 0,003), opuesto 5 de
   15 (p = 0,03). Salvedad: consigna en castellano, empuja hacia Borges;
-  repetir en inglés queda pendiente.
+  repetición en inglés (`--idioma en`, carpetas `*_en`, semillas 20260929 y
+  20260930) preregistrada el 23/9. Observación de Maia verificada en las
+  llamadas de los dos repos: las casas chinas nunca citan ejemplos, leyes,
+  pensadores ni personajes de China (sección propia del informe).
 
 ## 3. Qué se mide
 

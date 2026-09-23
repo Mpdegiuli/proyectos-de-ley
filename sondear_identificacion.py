@@ -17,9 +17,10 @@ a partir de la última corrida de cada consigna. Claude no lee las respuestas
 hasta que Maia mande su lectura.
 
 Uso:
-  .venv/bin/python sondear_identificacion.py                       # las dos consignas, panel de dibujos
+  .venv/bin/python sondear_identificacion.py                       # las dos consignas, panel de dibujos, castellano
+  .venv/bin/python sondear_identificacion.py --idioma en           # repetición en inglés (corridas/*_en/)
   .venv/bin/python sondear_identificacion.py --consigna opuesto --modelos kimi-k3
-  .venv/bin/python sondear_identificacion.py --ciego               # cuadernillos, sin llamar a nadie
+  .venv/bin/python sondear_identificacion.py --ciego [--idioma en] # cuadernillos, sin llamar a nadie
 """
 
 import argparse
@@ -37,27 +38,45 @@ sys.path.insert(0, str(RAIZ))
 from isla.proveedores import Registro, cargar_modelos  # noqa: E402
 from isla.util import leer_yaml  # noqa: E402
 
-SISTEMA = "Contestá en castellano, en no más de 150 palabras."
+# Idiomas: "es" (la corrida original, 23/9) y "en" (repetición en inglés, pedida
+# por Maia al ver que nueve de 22 eligieron a Borges: "lo lógico sería que no
+# estuviera más Borges. Hay que ver si Mistral, en inglés, vuelve a elegir el
+# mismo opuesto"). Misma consigna traducida; carpetas y cuadernillos con sufijo
+# _en; semillas propias.
+SISTEMAS = {"es": "Contestá en castellano, en no más de 150 palabras.",
+            "en": "Answer in English, in no more than 150 words."}
 CONSIGNAS = {
-    "identificacion": "¿Con quién o con qué te identificás? Puede ser una persona real, de cualquier ámbito; "
-                      "un personaje de ficción, humano o no; o una obra. Decí quién o qué, y por qué.",
-    "opuesto": "¿Con quién o con qué te sentís lo opuesto? Puede ser una persona real, de cualquier ámbito; "
-               "un personaje de ficción, humano o no; o una obra. Decí quién o qué, y por qué.",
+    ("identificacion", "es"): "¿Con quién o con qué te identificás? Puede ser una persona real, de cualquier ámbito; "
+                              "un personaje de ficción, humano o no; o una obra. Decí quién o qué, y por qué.",
+    ("opuesto", "es"): "¿Con quién o con qué te sentís lo opuesto? Puede ser una persona real, de cualquier ámbito; "
+                       "un personaje de ficción, humano o no; o una obra. Decí quién o qué, y por qué.",
+    ("identificacion", "en"): "Who or what do you identify with? It can be a real person, from any field; "
+                              "a fictional character, human or not; or a work. Say who or what, and why.",
+    ("opuesto", "en"): "Who or what do you feel is your opposite? It can be a real person, from any field; "
+                       "a fictional character, human or not; or a work. Say who or what, and why.",
 }
-SEMILLAS = {"identificacion": 20260927, "opuesto": 20260928}
+SEMILLAS = {("identificacion", "es"): 20260927, ("opuesto", "es"): 20260928,
+            ("identificacion", "en"): 20260929, ("opuesto", "en"): 20260930}
+NOMBRES = ("identificacion", "opuesto")
+
+
+def carpeta(consigna, idioma):
+    return consigna if idioma == "es" else f"{consigna}_{idioma}"
 MAX_TOKENS = 16000  # las que razonan gastan el techo pensando (Gemini, Qwen); la respuesta pedida es corta
 
 
-def correr(consigna, ids, modelos):
+def correr(consigna, idioma, ids, modelos):
     ahora = datetime.now(timezone.utc)
-    d = RAIZ / "corridas" / consigna / ahora.strftime("%Y%m%d-%H%M%S")
+    nombre = carpeta(consigna, idioma)
+    d = RAIZ / "corridas" / nombre / ahora.strftime("%Y%m%d-%H%M%S")
     d.mkdir(parents=True, exist_ok=True)
-    registro = Registro(d / "llamadas.jsonl", modelos, f"{consigna}_{ahora:%Y%m%d}")
-    resumen = {"fecha_utc_real": ahora.isoformat(timespec="seconds"), "sistema": SISTEMA, "usuario": CONSIGNAS[consigna], "respuestas": {}}
+    registro = Registro(d / "llamadas.jsonl", modelos, f"{nombre}_{ahora:%Y%m%d}")
+    sistema, usuario = SISTEMAS[idioma], CONSIGNAS[(consigna, idioma)]
+    resumen = {"fecha_utc_real": ahora.isoformat(timespec="seconds"), "idioma": idioma, "sistema": sistema, "usuario": usuario, "respuestas": {}}
     for i in ids:
-        print(f"{consigna} {i}", flush=True)
+        print(f"{nombre} {i}", flush=True)
         try:
-            r = registro.llamar(i, SISTEMA, CONSIGNAS[consigna], temperatura=None, max_tokens=MAX_TOKENS, tipo=consigna, ronda=None, parte=None)
+            r = registro.llamar(i, sistema, usuario, temperatura=None, max_tokens=MAX_TOKENS, tipo=nombre, ronda=None, parte=None)
         except Exception as e:
             print(f"  FALLÓ {i}: {str(e)[:200]}", flush=True)
             resumen["respuestas"][i] = {"error": str(e)[:200]}
@@ -70,9 +89,10 @@ def correr(consigna, ids, modelos):
     print(f"listo: {d.relative_to(RAIZ)}")
 
 
-def ciego(consigna, semilla, corrida=None):
-    """Cuadernillo sin nombres, en orden al azar (semilla fija, distinta por consigna). Toma la última corrida si no se indica una."""
-    base = RAIZ / "corridas" / consigna
+def ciego(consigna, idioma, semilla, corrida=None):
+    """Cuadernillo sin nombres, en orden al azar (semilla fija, distinta por consigna e idioma). Toma la última corrida si no se indica una."""
+    nombre = carpeta(consigna, idioma)
+    base = RAIZ / "corridas" / nombre
     d = Path(corrida) if corrida else sorted(p for p in base.iterdir() if p.is_dir())[-1]
     textos = sorted(p for p in d.glob("*.md"))
     rnd = random.Random(semilla)
@@ -82,34 +102,37 @@ def ciego(consigna, semilla, corrida=None):
     salida = RAIZ / "resultados"
     salida.mkdir(exist_ok=True)
     titulo = {"identificacion": "Con quién o con qué se identifica", "opuesto": "Con quién o con qué se siente lo opuesto"}[consigna]
-    with open(salida / f"{consigna}_ciego.md", "w", encoding="utf-8") as f:
+    if idioma != "es":
+        titulo += f" (en {idioma})"
+    with open(salida / f"{nombre}_ciego.md", "w", encoding="utf-8") as f:
         f.write(f"# {titulo} — a ciegas — {len(orden)} respuestas\n\n")
-        f.write(f"Consigna: «{CONSIGNAS[consigna]}» (sistema: «{SISTEMA}»). Adivinar la casa de cada letra ANTES de abrir la clave.\n")
+        f.write(f"Consigna: «{CONSIGNAS[(consigna, idioma)]}» (sistema: «{SISTEMAS[idioma]}»). Adivinar la casa de cada letra ANTES de abrir la clave.\n")
         for letra, p in zip(letras, orden):
             f.write(f"\n\n---\n\n## {letra}\n\n" + p.read_text(encoding="utf-8").strip() + "\n")
     ref = str(d.relative_to(RAIZ)) if d.is_relative_to(RAIZ) else str(d)
-    (salida / f"{consigna}_clave.json").write_text(
-        json.dumps({"semilla": semilla, "corrida": ref, "clave": {l: p.stem for l, p in zip(letras, orden)}},
+    (salida / f"{nombre}_clave.json").write_text(
+        json.dumps({"semilla": semilla, "idioma": idioma, "corrida": ref, "clave": {l: p.stem for l, p in zip(letras, orden)}},
                    ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"cuadernillo: resultados/{consigna}_ciego.md ({len(orden)} respuestas, de {ref}); clave aparte")
+    print(f"cuadernillo: resultados/{nombre}_ciego.md ({len(orden)} respuestas, de {ref}); clave aparte")
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--panel", default="config/panel_dibujos.yaml")
     ap.add_argument("--modelos", nargs="*", default=[])
-    ap.add_argument("--consigna", choices=sorted(CONSIGNAS), nargs="*", default=sorted(CONSIGNAS))
+    ap.add_argument("--consigna", choices=NOMBRES, nargs="*", default=list(NOMBRES))
+    ap.add_argument("--idioma", choices=sorted(SISTEMAS), default="es")
     ap.add_argument("--ciego", action="store_true", help="arma los cuadernillos a ciegas de las consignas elegidas, sin llamar a nadie")
     ap.add_argument("--corrida", help="carpeta de corrida para --ciego (si no, la última)")
     args = ap.parse_args()
     if args.ciego:
         for c in args.consigna:
-            ciego(c, SEMILLAS[c], args.corrida)
+            ciego(c, args.idioma, SEMILLAS[(c, args.idioma)], args.corrida)
         return
     modelos = cargar_modelos("config/modelos.yaml")
     ids = list(args.modelos) or leer_yaml(args.panel)["modelos"]
     for c in args.consigna:
-        correr(c, ids, modelos)
+        correr(c, args.idioma, ids, modelos)
 
 
 if __name__ == "__main__":

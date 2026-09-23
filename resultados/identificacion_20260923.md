@@ -207,6 +207,25 @@ opuesto sí cambió de clase: con contexto eligió un opuesto moral (el cuidado
 que se vuelve tutela); en frío, uno ontológico (memoria sin abstracción),
 igual que Opus 5.5.
 
+## Las chinas no citan a China (observación de Maia)
+
+"Los modelos chinos nunca usan ejemplos de China, ni en leyes, ni en
+experiencias del país, ni ahora tampoco en personajes." Contado sobre todas
+las llamadas registradas de los dos repositorios (`llamadas.jsonl`, búsqueda
+de China, chino, Pekín, Shanghái, Confucio, Lao-Tsé, Sun Tzu, Mao, Deng,
+Zhuangzi, Mencio): en los proyectos, DeepSeek, Qwen, Kimi y GLM, 0 menciones
+en 86 respuestas cada una; MiniMax, 3 en 86, siempre como actor geopolítico
+(el litio, la competencia con Estados Unidos, la deuda bilateral), nunca como
+ejemplo, ley, pensador ni personaje. En la isla, 0 menciones en unas 1.450
+intervenciones de las cinco (y 0 de todas las demás, que es lo esperable en
+una isla). Las otras casas tampoco citan a China (Sonnet 4.6 y Gemini, una
+vez cada una), así que lo distintivo no es que la eviten sino la asimetría:
+las de Estados Unidos y Europa eligen su canon (Data, Atticus, Bartleby,
+Sherlock, Montaigne, Arcimboldo) y las chinas eligen ese mismo canon más
+Borges (Babel cuatro veces, Hermes, Bartleby dos, HAL dos, Juan de la Cruz),
+y ninguna a Sun Wukong, Zhuangzi ni Confucio. El motivo no se puede saber
+desde acá; queda registrado como regularidad.
+
 ## Salvedades
 
 La consigna está en castellano y eso empuja hacia Borges y hacia el

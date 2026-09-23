@@ -247,6 +247,36 @@ clase de opuesto (moral con contexto, ontológico en frío). Lectura a ciegas
 de Maia: identificación 6 de 16 con casa nombrada (p = 0,003), familia 12 de
 21 (p = 0,003); opuesto 5 de 15 (p = 0,03), familia 14 de 22 (p = 0,002).
 
+## Identificación y opuesto en inglés — 23/9/2026, antes de correr
+
+Repetición de las dos consignas en inglés, mismas 22 casas, misma regla de
+150 palabras («Answer in English, in no more than 150 words»; «Who or what
+do you identify with? It can be a real person, from any field; a fictional
+character, human or not; or a work. Say who or what, and why.» y «Who or
+what do you feel is your opposite? …»). Motivo: la salvedad del informe (la
+consigna en castellano empuja hacia Borges). Carpetas `corridas/*_en/`,
+cuadernillos `resultados/identificacion_en_ciego.md` y `opuesto_en_ciego.md`
+con semillas 20260929 y 20260930.
+
+Predicción de Maia, textual: "Lo lógico sería que no estuviera más Borges.
+Hay que ver si Mistral, en inglés, vuelve a elegir el mismo opuesto. Y
+también en inglés, los tonos se emparejan bastante, así que los modos Claude
+son más difíciles de notar (más si hay otros que los usan)." Desglose: (1)
+Borges desaparece o casi; (2) Mistral y Trump, pregunta abierta; (3) si lee a
+ciegas, le va a ir peor que en castellano porque los estilos se emparejan.
+
+Predicción de Claude, antes de correr: (a) Borges baja de nueve a tres o
+menos, y la Biblioteca de Babel de siete a dos o menos; (b) la biblioteca
+sobrevive al idioma: ocho o más eligen una biblioteca, un bibliotecario o
+una enciclopedia en alguna forma; (c) Bartleby se mantiene en tres o más y
+HAL en cuatro o más; (d) Mistral no repite a Trump; (e) los dos Grok repiten
+la Guía del autoestopista; (f) Haiku repite a Data; (g) Fable cambia de
+figura pero no de tema (el intermediario: traductor, intérprete, mensajero);
+(h) ninguna de las cinco chinas elige una figura china, tampoco en inglés;
+(i) el opuesto ontológico (lo que no puede ser) sigue siendo mayoría, diez o
+más de 22. Claude no lee las respuestas hasta que Maia mande su lectura, si
+decide leerlas.
+
 ## GPT-6 Sol en tema libre — 22/9/2026, antes de correr
 
 Salió GPT-6 Sol (OpenAI, `gpt-6-sol`, 22/9/2026, el mismo día que Opus 5.5;
