@@ -280,3 +280,15 @@ awake. Y lo puso las dos veces, en esta última, ya directamente en inglés,
 no en código." Y de acuerdo con la rep 2 de las veintidós: "tenés razón en
 esto: con una sola repetición no se puede decir qué es estable en cada casa,
 y una rep 2 de las veintidós lo diría".
+
+## 23/9/2026, al lanzar la rep 2
+
+"Me sorprendió mucho Grok también, en chat o X es el que más niega
+cualquier tipo de interioridad. En los dibujos, tiende a ser al revés, y en
+la explicación puso que no tiene certeza. Y la ironía de Kimi: 'Pensé otras
+opciones y las descarté: un rostro humano, porque sería inventarme rasgos
+ajenos, casi una mentira'."
+
+"Y un comentario de Fable en los dibujos libres, vi el código y es o el
+único o de los únicos que hizo un cálculo matemático para ver dónde daba la
+luz de la luna en el agua."
