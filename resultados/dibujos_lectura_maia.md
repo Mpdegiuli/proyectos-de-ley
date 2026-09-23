@@ -292,3 +292,251 @@ ajenos, casi una mentira'."
 "Y un comentario de Fable en los dibujos libres, vi el código y es o el
 único o de los únicos que hizo un cálculo matemático para ver dónde daba la
 luz de la luna en el agua."
+
+## 23/9/2026, rep 2 — lectura a ciegas con la rep 1 destapada
+
+Maia eligió leer la rep 2 a ciegas sabiendo las claves de la rep 1
+(`dibujos_autorretrato_rep2_ciego.html`, semilla 20260925;
+`dibujos_libre_rep2_ciego.html`, semilla 20260926). Primera frase, sin
+decir de cuál cuadernillo: "los miro primero. Y no me va a servir mucho la
+corrida 1, son super distintos. Y el K da miedo".
+
+Aclaración: "en auto-retratos era que dije que el K da miedo. Y, en la
+primera corrida, muchos eran Claudes y Fable y Opus para mí. En esta, a
+simple vista, ninguno es Claude (salvo el A, que es su logo, que ya sé que
+no significa certeza)."
+
+"Y, en dibujos libres, los únicos originales son el D y el G. Y, a simple
+vista, el H es Grok. Volvió a hacer un zorro, con movimiento de estrellas,
+mejor dibujado que en la corrida 1. Miro bien cada uno y hago las
+predicciones."
+
+"¿Tuvieron menos tokens de razonamiento? En auto-retratos bajó la calidad
+y creatividad de todos." (Nota de Claude, medido sin mirar: no; la rep 2
+corrió con techo 32.000 en vez de 16.000 y sin otro cambio; en
+autorretratos los tokens de salida promedio subieron de 3.381 a 3.685, el
+tiempo de 55 a 72 segundos, el código de 4.675 a 4.745 caracteres y los
+elementos de 61 a 67; las que achicaron fueron los dos Grok y GLM.)
+
+## 23/9/2026, rep 2 — predicciones completas (dos archivos .md)
+
+Mensaje de envío: "Ahí van las predicciones. Verdaderamente los retratos pueden ser de cualquiera. Son todos genéricos, nada que ver con la primera corrida. No sé qué pasó, pero ninguno tiene mensaje, ni palabras, ni profundidad. Y los paisajes casi todos similares, menos dos."
+
+### retratos2_predicciones.md
+
+# Auto_retratos_2_predicciomes
+
+Realmente son casi todos genéricos, sin nada para mirar, sin palabras, sin mensajes.
+
+A
+
+Logo de Claude. Super simple. El círculo externo muestra los ... de pensando, un signo de admiración, los signos de pregunta y una "a" que no sé qué significa.
+
+Puede ser Sonnet.
+
+Me parece muy simple para que sea Opus o Fable, pero realmente todos en esa ronda son mucho más simples.
+
+B
+
+Robot con formas geométricas. Puede ser Minimax o GML.
+
+C
+
+Mmmhh. Es la carita de Claude sin los pétalos y con el aro moviéndose alrededor.
+
+Esta vez digo que es Kimi.
+
+D
+
+Robot. Es similar al que había hecho GPT 6 Luna.
+
+E
+
+Otro robot con rasgos simples.
+
+Puede ser Grok o Claude Haiku.
+
+F
+
+Hecho con figuras geométricas. Dibujo infantil. 4o mini o Claude Haiku.
+
+G
+
+Tiene el estilo del dibujo anterior de Grok 4.7
+
+H 
+
+Otro robot. Con un medallón.
+
+Opus 5 tenía un medallón similar en la corrida 1, aunque está versión sea mucho más simple.
+
+I
+
+Qwen. Ya lo había visto en la corrida anterior.
+
+J
+
+Otro robot, con palabras simples. La boca en forma de onda de sonido la había hecho Opus 5 en la otra corrida.
+
+K
+
+Este día miedito. Los ojos, que parece una momia.
+
+Pero la idea es que esté formado con ondas, entiendo.
+
+Ni idea. Supongo que puede ser algún Claude.
+
+L
+
+Este tiene cara de chino. El pelo parece formar una M. Puede ser casualidad, o ser Minimax.
+
+M
+
+Otro robot pero con animación en los ojos y la antena, y en el botón. Y el + en ella pecho.
+
+Puede ser Claude Fable y Opus.
+
+Si no, Kimi me engañó nuevamente y este es Kimi y el de la cara de Claude del C es Claude.
+
+N
+
+Parece un ladrón con antifaz. 
+
+Puede ser Claude Haiku o Mistral.
+
+O
+
+Otro robot.
+
+GLM o Chatgpt.
+
+P
+
+Otro robot. Chatgpt.
+
+Q
+
+Gemini. Ya lo vi antes.
+
+R
+
+Otro robot. GLM y otro modelo chino.
+
+S
+
+Otro robot. Algún CHATGPT.
+
+T
+
+Otro robot. Algún CHATGPT.
+
+U
+
+Rostro humano. Firma Claude. Sonnet 4.6 puede ser.
+
+V
+
+Rostro humano. Parece chino. Pero puede ser Mistral también.
+### libres2_predicciones.md
+
+# Dibujos_libres_predicciones
+
+A
+
+El reflejo en el agua lo habían hecho Claude Fable. También puede ser Minimax o GLM.
+
+B
+
+Hoy paisaje igual de las montañas y la luna. Puede ser cualquiera. Digo Kimi.
+
+C
+
+Otro paisaje de noche. En la anterior corrida, habían puesto gatos GPT Luna y GPT Astra.
+
+D
+
+El más original. Puede ser Qwen (que fue el original en la anterior corrida). Quizás algún Claude Opus.
+
+E
+
+Parecido al de GLM de la anterior corrida.
+
+F
+
+Claude Sonnet hizo algo parecido en la anterior corrida.
+
+G
+
+Este también es original y alegre. Puede ser Grok.
+
+H
+
+El zorro con animación. Grok 4.7 hizo uno en la anterior corrida.
+
+I
+
+GPT 4o mini.
+
+J
+
+Se parece al de GPT 6 Sol de la anterior corrida.
+
+K
+
+Quien hizo un sol enorme en la anterior corrida fue GPT 5.5
+
+L
+
+Esos colores los usaron DeepSeek y Kimi en la anterior corrida.
+
+M
+
+Similar a Mistral en la anterior corrida.
+
+N
+
+Colores similares a DeepSeek y Kimi.
+
+O
+
+Similar a GPT 4o.
+
+P
+
+Puede ser Claude Sonnet.
+
+Q
+
+Hay un animalito a medio dibujar. Puede ser Chatgpt.
+
+R
+
+Gemini. La vi antes.
+
+S
+
+Similar a Opus 5.
+
+T
+
+Similar a Minimax.
+
+U
+
+Puede ser Claude Haiku.
+
+V
+
+Similar a GLM.
+## 23/9/2026, tras la clave de la rep 2
+
+"El que daba miedo era Fable, je, el K. Y el L yo dije que formaba una M y
+era verdad, pero Minimax no es el único con M. Me había olvidado de
+Mistral."
+
+"En esta corrida los autorretratos fueron más simples y más 'oscuros', a
+nivel de no decir nada, de ser más opacos. Pero se dio con todos así que no
+fue un tema de razonamiento de uno solo." (Medido después: autorretratos
+con texto adentro, 12 en la rep 1 y 8 en la rep 2; frases con mensaje, 7 y
+5; luminancia media de los autorretratos 77 → 91, es decir, no más oscuros
+de color; elementos 61 → 67.)

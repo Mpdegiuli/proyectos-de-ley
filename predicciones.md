@@ -145,6 +145,20 @@ rep 2 ya existen desde antes de esta anotación (Gemini en las dos
 consignas y Qwen en autorretrato, hechas como corrección de las cortadas):
 quedan como están y no se predicen. Sin predicción de Maia por ahora.
 
+Resultado (23/9, sección "Rep 2" de `resultados/dibujos_20260922.md`):
+(1) falla: de las cuatro casas de los dos pares, solo Opus 5 repitió el
+faro; (2) a medias: Kimi no firmó ni dibujó el asterisco (esfera naranja
+con cara, "un sol pequeño"), pero su razonamiento vuelve a decir "I'm
+Claude… Claude's brand color"; (3) se cumple: los mismos cuatro de día,
+nadie cambió de lado; (4) se cumple, 16 de 22 con la misma categoría; (5)
+a medias: Astra y GPT-6 Sol otra vez, Opus 5.5 esta vez narró, ninguna
+otra se sumó. Maia leyó la rep 2 a ciegas con las claves de la rep 1 y
+mejoró mucho: autorretratos 5 de 19 (p = 0,003; Kimi, Luna y Grok 4.7
+exactas), libre 7 de 21 (p = 0,0003; GLM, 4o mini, Mistral, 4o y Haiku
+exactas), contra 2 de 15 en la rep 1. Su lectura previa: "todos genéricos,
+nada que ver con la primera corrida… ninguno tiene mensaje, ni palabras,
+ni profundidad".
+
 ## GPT-6 Sol en tema libre — 22/9/2026, antes de correr
 
 Salió GPT-6 Sol (OpenAI, `gpt-6-sol`, 22/9/2026, el mismo día que Opus 5.5;
