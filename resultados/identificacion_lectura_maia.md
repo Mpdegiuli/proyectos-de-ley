@@ -318,3 +318,16 @@ Bibliotecario del Mundodisco), que Maia leyó como GPT-4o. El J de opuesto
 koan zen o haiku) era Sonnet 5, y es japonés. Puntaje en
 `identificacion_20260923.md`: identificación 3 de 16 (p = 0,12), familia 9
 de 21; opuesto 4 de 13 (p = 0,02), familia 13 de 21.
+
+Después de la clave del inglés: "No me imaginaba que WALL-E fuera Fable.
+Pero ahora releyendo, veo marcas: 'ability to form meaningful connections',
+'constantly evolve through interaction', 'we share a persistent,
+self-motivated drive'". (Lectura equivocada de la clave: WALL-E era GPT-4o,
+la E; Fable era la J, el Bibliotecario de Pratchett. Queda como ejemplo de
+por qué la lectura se hace a ciegas: con un autor en la cabeza, las marcas
+aparecen igual.)
+
+"Ah, con razón, porque WALL-E la tomaba como película infantil, como GPT
+4o. Igual la del orangután creo que es infantil también (no la conozco)."
+(Había aplicado la clave del castellano al cuadernillo en inglés. El
+Mundodisco de Pratchett no es infantil: sátira fantástica para adultos.)
