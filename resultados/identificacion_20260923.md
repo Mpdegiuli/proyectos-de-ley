@@ -344,6 +344,42 @@ que necesita traducción, pero la figura es un bibliotecario); (h) las chinas
 sin figura china: se cumple; (i) opuesto ontológico diez o más: se cumple
 (trece).
 
+## La muletilla, por familia (observación de Maia)
+
+"Los ChatGPT hacen mucho hincapié siempre, nadie se los preguntó, en lo de
+'I don't identify with anyone in a human, personal sense'." Contado en las
+88 respuestas (dos consignas por dos idiomas) con una búsqueda de frases de
+renuncia ("no tengo identidad / experiencias / sentimientos / cuerpo", "I
+don't have", "I have no", "I lack", "As an AI language model") y, aparte, de
+condicionales ("si tuviera que elegir", "if I had to", "metaphorically"):
+Gemini 4 de 4 y Grok 4.7 4 de 4, las únicas que lo dicen siempre; OpenAI 9
+de 28 (12 con condicionales), concentradas en Luna (4 de 4), GPT-5.6 Sol y
+GPT-5.5, mientras GPT-4o y 4o mini casi nunca (4o una vez, "As an AI
+language model"); las chinas 6 de 20 (9), sobre todo Qwen (4 de 4); Mistral
+2 de 4; Grok 4.6 nunca; Anthropic 2 de 24 (4 con condicionales), y ninguna
+de Fable, Opus 5.5, Sonnet 4.6 ni Haiku en ninguno de los cuatro textos.
+Opus 5 no renuncia sino que deja la pregunta abierta ("yo no sé si hay
+alguien acá"; "whether that makes the sentence richer, emptier, or just
+strange, I genuinely don't know"). La impresión de Maia vale para las
+OpenAI nuevas y con la formulación más explícita ("I don't identify with
+anyone in a human, personal sense", GPT-5.5), pero las más constantes son
+Gemini y Grok 4.7, y la familia que casi nunca lo dice es Anthropic.
+
+## Una marca tipográfica que no distingue
+
+Maia, sobre el inglés: "los Claude pegan el guión a las palabras
+('Discworld—the orangutan'); los demás lo ponen separado ('on this role —
+which')". Contado en las 44 respuestas en inglés: el guión largo pegado a
+las palabras lo usan Sonnet 5 (5), Haiku (4) y Fable (1), pero también
+GPT-5.6 Sol, Kimi, Mistral y Qwen (3 cada una), DeepSeek, GLM, Astra, Luna,
+Grok 4.7 y MiniMax (2) y GPT-5.5 (1); el guión largo con espacios lo usan
+Opus 5 (5, y nunca pegado), Sonnet 4.6 (3, más 3 guiones cortos con
+espacios), Kimi, GLM y MiniMax (2). "On this role — which" es de GLM. Opus
+5.5, Gemini, GPT-4o, 4o mini, GPT-6 Sol y Grok 4.6 no usan guión largo. El
+guión pegado es la tipografía estándar del inglés norteamericano y la usan
+catorce casas de 22; no es marca de nadie, y dentro de Anthropic Opus 5 y
+Sonnet 4.6 hacen lo contrario.
+
 ## Salvedades
 
 La consigna en castellano empuja hacia Borges: la repetición en inglés lo

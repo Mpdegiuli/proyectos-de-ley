@@ -331,3 +331,20 @@ aparecen igual.)
 4o. Igual la del orangután creo que es infantil también (no la conozco)."
 (Había aplicado la clave del castellano al cuadernillo en inglés. El
 Mundodisco de Pratchett no es infantil: sátira fantástica para adultos.)
+
+"Los Chatgpt hacen mucho hincapié siempre (nadie se los preguntó) en lo de
+'I don't identify with anyone in a human, personal sense'. Imagino que debe
+ser lo que en entrenamiento les piden que digan siempre." (Contado en las
+88 respuestas: ver la sección "La muletilla, por familia" del informe.)
+
+"veo que en inglés, los Claude pegan el guión a las palabras. Los demás (yo
+también) los ponen separado 'on this role — which'. Y los Claude
+'Discworld—the orangutan'." (Contado: no distingue; ver el informe. El "on
+this role — which" es de GLM; el que separa siempre es Opus 5.)
+"Kimi también junto, pero cortito." (Es el mismo guión largo, —, en Kimi y
+en los Claude; en identificación Kimi lo pega y en opuesto lo separa.)
+
+"Ah, es el autor de Good Omens. Por alguna razón, los Claude siempre me
+hicieron acordar a Aziraphale."
+"cuando leí y también cuando vi la serie, a Crowley lo imaginé en Grok o
+Gemini."
