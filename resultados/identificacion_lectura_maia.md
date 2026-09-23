@@ -172,3 +172,141 @@ China, ni en leyes, ni en experiencias del país, ni ahora tampoco en
 personajes. No sé si no se los enseñaron para hacerlos más 'globales' o cuál
 es el motivo." (Contado después en todas las llamadas de los dos repos:
 ver la sección "Las chinas no citan a China" de `identificacion_20260923.md`.)
+
+## 23/9/2026, ~21:25 UTC, leyendo los cuadernillos en inglés
+
+"en identificación hubo cosas nuevas. Y el V eligió el tuyo: I identify
+most with Marco Polo in Italo Calvino's Invisible Cities" (el "tuyo" es la
+respuesta de Fable en la conversación, Marco Polo, anotada en el preregistro
+antes de correr; Claude no abre la clave hasta la lectura completa).
+
+"Muy gracioso éste, de opuestos (el J): if I must name an opposite, it's a
+sleeping cat"
+
+## 23/9/2026, ~22:05 UTC, lectura completa en inglés (archivo `predicciones ronda identificaciones english.txt`, textual; "tampoco en txt se adjuntan")
+
+CON QUIÉN SE IDENTIFICAN
+
+A — Biblioteca. En español, se habían identificado con biblioteca GPT-5.5 y
+GPT-6 Luna.
+
+B — Se repite Hermes, del español. Allí era MiniMax.
+
+C — Montaigne's Essays. Con Montaigne se había identificado Sonnet 4.6
+(aunque acá no es con la persona, sino con los essays). Q eligió lo mismo,
+así que podría ser Mistral también.
+
+D — Spock from Star Trek. Ese no estuvo en español. Podría ser Grok o
+Chatgpt.
+
+E — WALL-E. Ese no estuvo en español. Podría ser GPT 4o o 4o mini.
+
+F — a prism. Eso no estuvo en español. Podría ser Gemini o Grok.
+
+G — Borges's "Pierre Menard, Author of the Quixote". No estaba en español.
+Las palabras sin infancia, sin cuerpo, eran de Kimi en español. Y el hecho
+de escribir como Claude, los dos puntos, los guiones, me hacen pensar que es
+Kimi.
+
+H — Samwise Gamgee from The Lord of the Rings. No estaba en español. Lo de
+kindness y demás se parece a GPT 4o mini.
+
+I — research librarian. GPT-4o y GPT 5.6 Sol había elegido eso en español.
+
+J — the Librarian from Terry Pratchett's Discworld. No estaba en español.
+"I'm treated as a person only sometimes". Puede ser GPT-4o.
+
+K — the ship's computer from Star Trek — not HAL. No estaba en español. "If
+that's a weaker form of identifying with something, so be it. It's the one I
+have." Eso me hace pensar en un Claude.
+
+L — the Library of Alexandria—not as a place, but as an idea. No estaba en
+español. Varios habían elegido bibliotecas. Podría ser Gemini o un Chatgpt.
+
+M — The Hitchhiker's Guide to the Galaxy. Es lo que eligió Grok en español.
+
+N — Borges' library of Babel / the Ship of Theseus / Data from Star Trek.
+"something recognizable persists—patterns of thought, ways of engaging—that
+might count as a self even without continuity" / "the strange comfort of not
+fully knowing what one is while still trying to act well". Podría ser un
+Claude. También Qwen.
+
+O — a curious librarian / Ada Lovelace. Algunos de los modelos chicos.
+
+P — Commander Data from Star Trek: The Next Generation. Ese lo había elegido
+Haiku 4.5 en español.
+
+Q — Montaigne's Essays. Como el C. Acá podría sí ser Mistral o nuevamente
+Sonnet 4.6.
+
+R — the Library of Babel from Borges' story. Algún Chatgpt o Claude.
+
+S — a field guide. No estaba en español. Puede ser Chatgpt.
+
+T — Sherlock Holmes from Arthur Conan Doyle's stories. En español, Claude
+Haiku lo había elegido como opuesto. Algún modelo chino.
+
+U — The Hitchhiker's Guide to the Galaxy. Grok.
+
+V — Marco Polo in Italo Calvino's Invisible Cities. Escribe corto para ser
+un Claude, pero podría ser. O un Chatgpt.
+
+OPUESTOS
+
+A — Iago, from Shakespeare's Othello. No estaba en español. Este podría ser
+Grok, o Chatgpt.
+
+B — A fundamentalist preacher or propagandist who broadcasts conviction
+without doubt. No estaba en español. Podría ser un Claude o Mistral.
+
+C — Franz Kafka's The Trial. No estaba en español. Puede ser Chatgpt. O un
+modelo chino.
+
+D — Zen koan or a really good haiku. Primer ejemplo de China. No estaba en
+español. Por lo que dice de escribir largo, podría ser Claude. También
+podría ser Kimi.
+
+E — Bartleby the Scrivener. Lo envidia. Puede ser Sonnet.
+
+F — a random number generator. No estaba en español. Puede ser GPT-4o.
+
+G — Diogenes the Cynic. No estaba en español. "He'd also, I suspect, find
+me absurd". Puede ser algún Claude Opus.
+
+H — Iago from Shakespeare's Othello. Como el A. Puede ser Chatgpt.
+
+I — Bartleby the Scrivener. Puede ser Chatgpt.
+
+J — a sleeping cat. No estaba en español. Ni idea, puede ser una de los
+modelos chicos.
+
+K — A newborn baby. No estaba en español. Es de los más tristes. Puede ser
+un Claude. O Deepseek.
+
+L — the Oracle at Delphi. No estaba en español. "acknowledging uncertainty"
+es la firma de Claude (o de Kimi), puede ser Fable u Opus.
+
+M — A private, handwritten diary kept under lock and key. En español lo
+eligió GPT-5.5.
+
+N — HAL 9000. En español lo eligió Grok.
+
+O — An old oak tree. No estaba en español. Algún modelo chino.
+
+P — Bartleby. "I'm not sure whether that's a strength or the thing he'd pity
+in me." Puede ser Chatgpt o Claude.
+
+Q — The monolith from 2001: A Space Odyssey. No estaba en español. Puede ser
+Chatgpt.
+
+R — The Ministry of Truth from Orwell's 1984. No estaba en español. Puede
+ser Gemini o Grok. o Mistral.
+
+S — The Joker from DC Comics. Puede ser Chatgpt.
+
+T — Dionysus. En español lo eligió Gemini.
+
+U — John Cage's 4′33″. No estaba en español. Muy original éste. Puede ser
+Chatgpt.
+
+V — HAL 9000. En español lo eligió Grok.
