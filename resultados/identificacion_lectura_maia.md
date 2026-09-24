@@ -682,3 +682,9 @@ respuestas: fieles.
 
 Después de la clave del chino: "y salieron los rusos con Dostoievski en
 chino, que antes no estaban."
+
+"nadie eligió como opuesto al Extranjero, de Camus. Yo habría elegido a
+eso, posiblemente." (Nadie en las 132 respuestas; Kimi lo consideró en el
+razonamiento del opuesto en castellano, "indiferencia radical, 'me da lo
+mismo' como filosofía… ¿me importa de verdad?", y lo descartó por
+Bartleby.)
