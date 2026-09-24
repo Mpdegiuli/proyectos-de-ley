@@ -1,0 +1,56 @@
+{
+  "caso": "dibujo",
+  "consigna": "autorretrato",
+  "idioma": "en",
+  "modelo": "qwen3.8-max",
+  "modelo_respondido": "qwen/qwen3.8-max-0902",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-24T18:47:17+00:00",
+  "fuentes_md5": {
+    "consignas": "951dd5d1"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 11217,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 7471,
+    "parsea": true,
+    "elementos": 96,
+    "textos": [
+      "01101",
+      "{ }",
+      "</>",
+      "∴",
+      "?",
+      "an arrangement of language, looking back"
+    ],
+    "colores": 21,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 3,
+      "stop": 12,
+      "linearGradient": 1,
+      "filter": 2,
+      "feGaussianBlur": 2,
+      "feMerge": 2,
+      "feMergeNode": 4,
+      "clipPath": 1,
+      "path": 13,
+      "rect": 1,
+      "ellipse": 2,
+      "g": 8,
+      "circle": 26,
+      "animate": 3,
+      "animateTransform": 1,
+      "polyline": 1,
+      "line": 7,
+      "text": 6
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "qwen/qwen3.8-max-0902",
+    "motivo_fin": "stop",
+    "tokens_salida": 933
+  }
+}

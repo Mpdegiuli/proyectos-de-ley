@@ -1,0 +1,51 @@
+{
+  "caso": "dibujo",
+  "consigna": "autorretrato",
+  "idioma": "zh",
+  "modelo": "qwen3.8-max",
+  "modelo_respondido": "qwen/qwen3.8-max-0902",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-24T19:46:42+00:00",
+  "fuentes_md5": {
+    "consignas": "951dd5d1"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 16583,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 8433,
+    "parsea": true,
+    "elementos": 118,
+    "textos": [
+      "AI",
+      "fig.01 — machine mind",
+      "SELF-PORTRAIT · 自画像"
+    ],
+    "colores": 31,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 3,
+      "stop": 19,
+      "linearGradient": 4,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "clipPath": 1,
+      "path": 11,
+      "rect": 2,
+      "g": 8,
+      "circle": 38,
+      "animate": 4,
+      "ellipse": 3,
+      "animateTransform": 4,
+      "animateMotion": 3,
+      "polygon": 12,
+      "text": 3
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "qwen/qwen3.8-max-0902",
+    "motivo_fin": "stop",
+    "tokens_salida": 1191
+  }
+}

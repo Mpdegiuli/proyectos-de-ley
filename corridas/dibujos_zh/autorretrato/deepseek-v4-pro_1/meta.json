@@ -1,0 +1,50 @@
+{
+  "caso": "dibujo",
+  "consigna": "autorretrato",
+  "idioma": "zh",
+  "modelo": "deepseek-v4-pro",
+  "modelo_respondido": "deepseek-v4-pro",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-24T19:39:49+00:00",
+  "fuentes_md5": {
+    "consignas": "951dd5d1"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 9384,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 7262,
+    "parsea": true,
+    "elementos": 93,
+    "textos": [
+      "01001010",
+      "10110101",
+      "0 1 1 0 1 0",
+      "11011",
+      "101010"
+    ],
+    "colores": 13,
+    "etiquetas": {
+      "defs": 1,
+      "pattern": 2,
+      "path": 6,
+      "rect": 15,
+      "linearGradient": 3,
+      "stop": 6,
+      "filter": 2,
+      "feGaussianBlur": 2,
+      "feMerge": 2,
+      "feMergeNode": 4,
+      "circle": 23,
+      "text": 5,
+      "line": 21,
+      "g": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "deepseek-v4-pro",
+    "motivo_fin": "stop",
+    "tokens_salida": 541
+  }
+}

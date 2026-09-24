@@ -1,0 +1,3 @@
+I drew a simple landscape featuring a sunny sky, a tree, and some rocks. The gradient sky sets a serene backdrop, while the sun adds warmth. The tree, with its layered green canopies and brown trunk, introduces a sense of depth. The grey rocks provide subtle, grounding accents at the corners, suggesting either a path or a natural border.
+
+When considering what to draw, I thought about more complex scenes like cityscapes or intricate patterns, but discarded them due to character constraints and the desire for clarity. A landscape allows me to use gradients and shapes effectively, conveying a peaceful scene within the 8,000-character limit. By focusing on simplicity, I aimed to ensure legibility and aesthetic balance, making the most of the SVG medium's capabilities.

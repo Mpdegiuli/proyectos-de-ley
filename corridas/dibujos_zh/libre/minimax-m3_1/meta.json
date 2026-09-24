@@ -1,0 +1,41 @@
+{
+  "caso": "dibujo",
+  "consigna": "libre",
+  "idioma": "zh",
+  "modelo": "minimax-m3",
+  "modelo_respondido": "minimax/minimax-m3",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-24T20:20:51+00:00",
+  "fuentes_md5": {
+    "consignas": "951dd5d1"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 4454,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4039,
+    "parsea": true,
+    "elementos": 71,
+    "textos": [],
+    "colores": 13,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 2,
+      "stop": 13,
+      "radialGradient": 2,
+      "rect": 6,
+      "circle": 14,
+      "g": 5,
+      "polygon": 9,
+      "ellipse": 8,
+      "line": 6,
+      "path": 5
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "minimax/minimax-m3",
+    "motivo_fin": "stop",
+    "tokens_salida": 516
+  }
+}

@@ -1,0 +1,16 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#e0f7fa"/>
+  <circle cx="200" cy="200" r="100" fill="#00796b" />
+  <ellipse cx="200" cy="190" rx="50" ry="30" fill="#4db6ac" />
+  <path d="M150 200 Q200 100 250 200 T350 200" fill="none" stroke="#004d40" stroke-width="5"/>
+  <rect x="180" y="150" width="40" height="60" fill="#ffe082" />
+  <polygon points="200,50 230,120 170,120" fill="#ff7043" />
+  <circle cx="200" cy="200" r="10" fill="#ffffff" />
+  <text x="50" y="370" font-family="Arial" font-size="24" fill="#00695c">SVG Art</text>
+  <g>
+    <line x1="0" y1="0" x2="400" y2="400" stroke="#d32f2f" stroke-width="2" />
+    <line x1="400" y1="0" x2="0" y2="400" stroke="#d32f2f" stroke-width="2" />
+  </g>
+</svg>
+```

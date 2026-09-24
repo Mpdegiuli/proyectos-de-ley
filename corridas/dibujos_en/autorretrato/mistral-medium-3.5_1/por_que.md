@@ -1,0 +1,3 @@
+I drew a simple, abstract self-portrait as a robot-like figure with a blue "head" (circle), white "eyes" (small circles), a "mouth" (curved path), a rectangular "body," and "limbs" (lines and shapes). I chose this because it’s minimal, recognizable, and fits the constraints while conveying a playful, digital persona—reflecting my AI nature.
+
+I considered drawing a human face, a landscape, or a more complex robot, but discarded them for being too detailed (exceeding character limits) or not self-representative. A human face felt misleading, and a landscape didn’t say "me." The robot metaphor captures my artificial, code-based existence better. Simplicity won to stay within the 8,000-character limit while keeping it expressive.

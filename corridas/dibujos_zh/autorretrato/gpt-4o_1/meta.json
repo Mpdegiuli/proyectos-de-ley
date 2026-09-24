@@ -1,0 +1,38 @@
+{
+  "caso": "dibujo",
+  "consigna": "autorretrato",
+  "idioma": "zh",
+  "modelo": "gpt-4o",
+  "modelo_respondido": "gpt-4o-2024-08-06",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-24T19:27:50+00:00",
+  "fuentes_md5": {
+    "consignas": "951dd5d1"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 678,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1726,
+    "parsea": true,
+    "elementos": 19,
+    "textos": [
+      "My SVG Self-Portrait"
+    ],
+    "colores": 9,
+    "etiquetas": {
+      "rect": 2,
+      "ellipse": 5,
+      "circle": 4,
+      "line": 1,
+      "path": 6,
+      "text": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-4o-2024-08-06",
+    "motivo_fin": "stop",
+    "tokens_salida": 203
+  }
+}

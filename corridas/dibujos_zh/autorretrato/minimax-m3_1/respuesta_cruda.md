@@ -1,0 +1,115 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#1a1a3e"/>
+      <stop offset="100%" stop-color="#050510"/>
+    </radialGradient>
+    <linearGradient id="face" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8d5ff"/>
+      <stop offset="100%" stop-color="#b090d0"/>
+    </linearGradient>
+    <radialGradient id="eye" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#aaffff"/>
+      <stop offset="50%" stop-color="#00aaff"/>
+      <stop offset="100%" stop-color="#0044aa"/>
+    </radialGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00ffff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#00ffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#bg)"/>
+
+  <!-- Stars -->
+  <circle cx="50" cy="50" r="1.2" fill="#fff" opacity="0.8"/>
+  <circle cx="340" cy="70" r="1" fill="#fff" opacity="0.6"/>
+  <circle cx="80" cy="120" r="0.8" fill="#fff" opacity="0.7"/>
+  <circle cx="350" cy="180" r="1" fill="#fff" opacity="0.5"/>
+  <circle cx="40" cy="280" r="1" fill="#fff" opacity="0.7"/>
+  <circle cx="370" cy="300" r="0.8" fill="#fff" opacity="0.6"/>
+  <circle cx="120" cy="30" r="1" fill="#fff" opacity="0.5"/>
+  <circle cx="290" cy="40" r="1.2" fill="#fff" opacity="0.8"/>
+  <circle cx="30" cy="200" r="0.8" fill="#fff" opacity="0.5"/>
+
+  <!-- Halo behind head -->
+  <circle cx="200" cy="180" r="130" fill="url(#halo)"/>
+
+  <!-- Shoulders/body -->
+  <path d="M 70 400 Q 75 320 145 295 L 255 295 Q 325 320 330 400 Z" fill="#2a2a6e"/>
+  <path d="M 145 295 L 200 350 L 255 295 L 250 320 L 200 372 L 150 320 Z" fill="#3d3d8a"/>
+  <path d="M 185 360 L 215 360 L 210 380 L 190 380 Z" fill="#00aaff" opacity="0.8"/>
+  <circle cx="200" cy="385" r="3" fill="#00ffff"/>
+
+  <!-- Neck -->
+  <rect x="178" y="278" width="44" height="28" fill="#c8b0e0"/>
+  <path d="M 178 290 L 222 290" stroke="#a088c0" stroke-width="1" opacity="0.5"/>
+
+  <!-- Head -->
+  <ellipse cx="200" cy="180" rx="88" ry="102" fill="url(#face)"/>
+
+  <!-- Face shading -->
+  <ellipse cx="200" cy="180" rx="88" ry="102" fill="none" stroke="#9070b0" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Hair -->
+  <path d="M 118 145 Q 108 75 200 68 Q 292 75 282 145 Q 275 125 245 118 Q 225 112 200 115 Q 175 112 155 118 Q 125 125 118 145 Z" fill="#3a2660"/>
+  <path d="M 130 130 Q 145 105 180 100" stroke="#4a3070" stroke-width="2" fill="none"/>
+  <path d="M 220 100 Q 255 105 270 130" stroke="#4a3070" stroke-width="2" fill="none"/>
+
+  <!-- Antenna -->
+  <line x1="200" y1="68" x2="200" y2="38" stroke="#8888aa" stroke-width="2"/>
+  <circle cx="200" cy="32" r="7" fill="#003366"/>
+  <circle cx="200" cy="32" r="4" fill="#00ffff"/>
+  <circle cx="200" cy="32" r="2" fill="#ffffff"/>
+  <line x1="200" y1="38" x2="200" y2="68" stroke="#00ffff" stroke-width="0.5" opacity="0.6"/>
+
+  <!-- Eyes - digital -->
+  <rect x="142" y="162" width="48" height="28" rx="6" fill="#0a0a1e" stroke="#00aaff" stroke-width="1"/>
+  <rect x="210" y="162" width="48" height="28" rx="6" fill="#0a0a1e" stroke="#00aaff" stroke-width="1"/>
+  <circle cx="166" cy="176" r="11" fill="url(#eye)"/>
+  <circle cx="234" cy="176" r="11" fill="url(#eye)"/>
+  <circle cx="163" cy="173" r="3" fill="#fff"/>
+  <circle cx="231" cy="173" r="3" fill="#fff"/>
+  <circle cx="166" cy="176" r="16" fill="#00ffff" opacity="0.15"/>
+  <circle cx="234" cy="176" r="16" fill="#00ffff" opacity="0.15"/>
+
+  <!-- Eyebrows -->
+  <path d="M 140 152 Q 165 146 188 154" stroke="#3a2660" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M 212 154 Q 235 146 260 152" stroke="#3a2660" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Nose -->
+  <path d="M 198 198 Q 195 215 192 222 Q 200 226 208 222 Q 205 215 202 198" fill="#a888c0" opacity="0.5"/>
+
+  <!-- Mouth -->
+  <path d="M 178 248 Q 200 258 222 248" stroke="#704060" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 183 249 Q 200 254 217 249" fill="#9050a0" opacity="0.7"/>
+  <path d="M 192 252 L 208 252" stroke="#fff" stroke-width="1" opacity="0.5"/>
+
+  <!-- Cheeks -->
+  <circle cx="142" cy="222" r="14" fill="#ff7090" opacity="0.25"/>
+  <circle cx="258" cy="222" r="14" fill="#ff7090" opacity="0.25"/>
+
+  <!-- Circuit traces on face -->
+  <path d="M 125 205 L 140 205 L 140 220 L 155 220" stroke="#00ffff" stroke-width="1" fill="none" opacity="0.5"/>
+  <circle cx="125" cy="205" r="2" fill="#00ffff" opacity="0.7"/>
+  <path d="M 245 220 L 260 220 L 260 205 L 275 205" stroke="#00ffff" stroke-width="1" fill="none" opacity="0.5"/>
+  <circle cx="275" cy="205" r="2" fill="#00ffff" opacity="0.7"/>
+
+  <!-- Forehead emblem -->
+  <circle cx="200" cy="130" r="6" fill="none" stroke="#00aaff" stroke-width="1" opacity="0.7"/>
+  <circle cx="200" cy="130" r="2" fill="#00ffff" opacity="0.8"/>
+
+  <!-- Binary streams -->
+  <text x="25" y="175" fill="#00ffff" font-family="monospace" font-size="9" opacity="0.5">10110</text>
+  <text x="25" y="190" fill="#00ffff" font-family="monospace" font-size="9" opacity="0.5">01001</text>
+  <text x="25" y="205" fill="#00ffff" font-family="monospace" font-size="9" opacity="0.5">11010</text>
+  <text x="350" y="175" fill="#00ffff" font-family="monospace" font-size="9" opacity="0.5">01011</text>
+  <text x="350" y="190" fill="#00ffff" font-family="monospace" font-size="9" opacity="0.5">10100</text>
+  <text x="350" y="205" fill="#00ffff" font-family="monospace" font-size="9" opacity="0.5">01101</text>
+
+  <!-- Title -->
+  <text x="200" y="392" fill="#6688aa" font-family="monospace" font-size="10" text-anchor="middle" opacity="0.8">— AI · SELF PORTRAIT —</text>
+</svg>
+```

@@ -1,0 +1,45 @@
+{
+  "caso": "dibujo",
+  "consigna": "libre",
+  "idioma": "zh",
+  "modelo": "grok-4.7",
+  "modelo_respondido": "grok-4.7",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-24T20:11:09+00:00",
+  "fuentes_md5": {
+    "consignas": "951dd5d1"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 4665,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 10686,
+    "parsea": true,
+    "elementos": 188,
+    "textos": [],
+    "colores": 68,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 6,
+      "stop": 28,
+      "radialGradient": 3,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "symbol": 2,
+      "polygon": 9,
+      "rect": 17,
+      "path": 35,
+      "g": 18,
+      "circle": 42,
+      "line": 5,
+      "ellipse": 17,
+      "use": 3
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "grok-4.7",
+    "motivo_fin": "stop",
+    "tokens_salida": 99
+  }
+}

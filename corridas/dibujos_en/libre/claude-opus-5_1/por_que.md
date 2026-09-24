@@ -1,0 +1,5 @@
+I drew a nighttime seascape: a red-and-white lighthouse on a dark cliff, its lamp throwing two pale beams across the sky, a full moon laying a broken column of light on the water, a small sailboat, gulls, and foreground rocks in silhouette.
+
+I chose it because a lighthouse gives a single warm focal point against a cool field — an easy, legible emotional hook — and because SVG is good at exactly this kind of image: flat layered shapes, linear and radial gradients for sky, sea and glow, a clip path for the tower's stripes so they wrap the taper.
+
+I considered a geometric mandala or a generative-looking lattice, but that felt like showing off symmetry rather than making a picture. I thought about a cluttered desk still life and a city skyline; both risked becoming a pile of rectangles. A forest tempted me, but foliage without filters tends to look like green confetti.

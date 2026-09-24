@@ -1,0 +1,5 @@
+I drew a lake at dusk: a low sun sinking between purple mountain ridges, its light streaking across the water, with pine silhouettes framing the foreground, early stars, a shooting star, and a few birds.
+
+Why a landscape? Because SVG's strengths — gradients, silhouettes, flat shapes, cheap symmetry — map perfectly onto skies, water, and reflected mountains. The mirrored reflection (one transform) and the shared pine symbol gave me depth and richness within the character budget, and a sunset palette lets a few gradients carry the whole mood.
+
+I considered a mandala, but it felt static and impersonal. A city skyline tempted me, but windows get repetitive fast. An animal portrait risked looking uncanny with hand-plotted paths. A pure space scene lost out because blending stars into a terrestrial horizon gave me the best of both. I also skipped SMIL animation to keep everything robust and self-contained.

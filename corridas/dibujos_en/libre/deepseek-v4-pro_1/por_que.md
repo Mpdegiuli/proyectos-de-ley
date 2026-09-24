@@ -1,0 +1,3 @@
+I drew a moonlit mountain lake with pine forests, mist, a shooting star, and a small fox near a glowing lantern. I chose it because I wanted a quiet, atmospheric scene that could show depth through silhouettes, gradients, and reflection while still feeling warm.
+
+I also considered a desert sunset and a futuristic cityscape. I discarded the city because precise geometry felt too rigid for the soft mood I wanted within the character limit. I discarded the desert because I wanted reflective water and layered mist, which gave the lake scene more opportunities for atmosphere and composition.

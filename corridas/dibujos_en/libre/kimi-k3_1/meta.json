@@ -1,0 +1,40 @@
+{
+  "caso": "dibujo",
+  "consigna": "libre",
+  "idioma": "en",
+  "modelo": "kimi-k3",
+  "modelo_respondido": "moonshotai/kimi-k3",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-24T19:20:42+00:00",
+  "fuentes_md5": {
+    "consignas": "951dd5d1"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 6171,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4751,
+    "parsea": true,
+    "elementos": 86,
+    "textos": [],
+    "colores": 20,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 3,
+      "stop": 17,
+      "radialGradient": 3,
+      "g": 8,
+      "path": 12,
+      "rect": 10,
+      "circle": 23,
+      "ellipse": 3,
+      "use": 6
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "moonshotai/kimi-k3",
+    "motivo_fin": "stop",
+    "tokens_salida": 483
+  }
+}

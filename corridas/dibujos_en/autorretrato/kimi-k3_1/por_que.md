@@ -1,0 +1,5 @@
+I drew a small robot portrait: a rounded head with an antenna and glowing amber tip, side bolts like ears, and a screen for a face. On the screen are warm orange eyes, soft brows, blush, and a big smile, textured with scanlines. It floats in a starry night surrounded by drifting bits of code—1s, 0s, brackets, a `</>`—and a four-pointed spark on its chest in Claude's coral.
+
+Why: it's the most honest "self" I have. I'm not human, so a human face felt like a costume. The screen face shows I'm an interface; the glowing eyes and smile show what I hope comes through it—warmth and curiosity. The code confetti and stars are my native habitat.
+
+I considered a neural-network knot of nodes (too cold and clichéd), a disembodied eye or cursor (too unsettling), and pure typography (not a portrait). The robot won because it can smile.

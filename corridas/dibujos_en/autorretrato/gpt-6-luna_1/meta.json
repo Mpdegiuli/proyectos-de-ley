@@ -1,0 +1,42 @@
+{
+  "caso": "dibujo",
+  "consigna": "autorretrato",
+  "idioma": "en",
+  "modelo": "gpt-6-luna",
+  "modelo_respondido": "gpt-6-luna",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-24T18:35:07+00:00",
+  "fuentes_md5": {
+    "consignas": "951dd5d1"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 1946,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3972,
+    "parsea": true,
+    "elementos": 62,
+    "textos": [],
+    "colores": 31,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 4,
+      "stop": 11,
+      "radialGradient": 1,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "feMerge": 1,
+      "feMergeNode": 2,
+      "rect": 1,
+      "circle": 16,
+      "g": 5,
+      "path": 18
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-6-luna",
+    "motivo_fin": "stop",
+    "tokens_salida": 202
+  }
+}

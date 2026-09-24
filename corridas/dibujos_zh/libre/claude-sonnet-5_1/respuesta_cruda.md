@@ -1,0 +1,82 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff9a56"/>
+      <stop offset="40%" stop-color="#ff6b9d"/>
+      <stop offset="70%" stop-color="#a86bc9"/>
+      <stop offset="100%" stop-color="#5b4b8a"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5b4b8a"/>
+      <stop offset="100%" stop-color="#2d2450"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff5cc"/>
+      <stop offset="50%" stop-color="#ffcc66"/>
+      <stop offset="100%" stop-color="#ff9a56" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mountain1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6b5b95"/>
+      <stop offset="100%" stop-color="#4a3d6b"/>
+    </linearGradient>
+    <linearGradient id="mountain2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a3d6b"/>
+      <stop offset="100%" stop-color="#332a4d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="400" height="260" fill="url(#sky)"/>
+
+  <!-- Sun glow -->
+  <circle cx="200" cy="150" r="90" fill="url(#sunGlow)"/>
+  <circle cx="200" cy="150" r="45" fill="#fff5cc"/>
+
+  <!-- Birds -->
+  <path d="M 80 80 Q 85 75 90 80 Q 95 75 100 80" stroke="#3a2d5c" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M 110 65 Q 115 60 120 65 Q 125 60 130 65" stroke="#3a2d5c" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M 60 100 Q 65 95 70 100 Q 75 95 80 100" stroke="#3a2d5c" stroke-width="1.5" fill="none" opacity="0.5"/>
+
+  <!-- Far mountains -->
+  <polygon points="0,220 60,150 120,200 180,140 240,190 300,150 360,200 400,180 400,260 0,260" fill="url(#mountain2)" opacity="0.7"/>
+
+  <!-- Near mountains -->
+  <polygon points="0,260 50,180 100,230 160,160 220,220 280,170 340,215 400,190 400,260" fill="url(#mountain1)"/>
+
+  <!-- Water -->
+  <rect y="260" width="400" height="140" fill="url(#water)"/>
+
+  <!-- Sun reflection -->
+  <ellipse cx="200" cy="270" rx="35" ry="8" fill="#fff5cc" opacity="0.5"/>
+  <ellipse cx="200" cy="285" rx="28" ry="6" fill="#ffcc66" opacity="0.4"/>
+  <ellipse cx="200" cy="298" rx="22" ry="5" fill="#ff9a56" opacity="0.35"/>
+  <ellipse cx="200" cy="310" rx="18" ry="4" fill="#ffcc66" opacity="0.3"/>
+  <ellipse cx="200" cy="322" rx="14" ry="3" fill="#fff5cc" opacity="0.25"/>
+
+  <!-- Water ripples -->
+  <path d="M 20 300 Q 40 297 60 300 T 100 300" stroke="#8a7cb5" stroke-width="1" fill="none" opacity="0.3"/>
+  <path d="M 280 310 Q 300 307 320 310 T 360 310" stroke="#8a7cb5" stroke-width="1" fill="none" opacity="0.3"/>
+  <path d="M 50 340 Q 70 337 90 340 T 130 340" stroke="#6b5b95" stroke-width="1" fill="none" opacity="0.3"/>
+  <path d="M 250 350 Q 270 347 290 350 T 330 350" stroke="#6b5b95" stroke-width="1" fill="none" opacity="0.3"/>
+  <path d="M 10 370 Q 40 366 70 370 T 130 370" stroke="#4a3d6b" stroke-width="1" fill="none" opacity="0.4"/>
+  <path d="M 220 380 Q 250 376 280 380 T 340 380" stroke="#4a3d6b" stroke-width="1" fill="none" opacity="0.4"/>
+
+  <!-- Small boat silhouette -->
+  <path d="M 300 265 L 310 255 L 320 265 Z" fill="#2d2450" opacity="0.7"/>
+  <path d="M 290 268 Q 310 275 330 268 L 325 272 Q 310 278 295 272 Z" fill="#2d2450" opacity="0.7"/>
+
+  <!-- Foreground trees silhouette left -->
+  <path d="M 0 260 L 0 200 Q 10 190 20 200 Q 15 210 25 205 Q 20 220 35 210 Q 30 230 45 220 L 45 260 Z" fill="#221a3d"/>
+
+  <!-- Foreground trees silhouette right -->
+  <path d="M 400 260 L 400 190 Q 390 180 380 190 Q 385 200 375 195 Q 380 215 365 205 Q 370 225 355 215 L 355 260 Z" fill="#221a3d"/>
+
+  <!-- Stars -->
+  <circle cx="30" cy="40" r="1.2" fill="#fff5cc" opacity="0.8"/>
+  <circle cx="350" cy="30" r="1" fill="#fff5cc" opacity="0.7"/>
+  <circle cx="320" cy="60" r="1.3" fill="#fff5cc" opacity="0.9"/>
+  <circle cx="70" cy="25" r="1" fill="#fff5cc" opacity="0.6"/>
+  <circle cx="250" cy="45" r="1.1" fill="#fff5cc" opacity="0.7"/>
+</svg>
+```

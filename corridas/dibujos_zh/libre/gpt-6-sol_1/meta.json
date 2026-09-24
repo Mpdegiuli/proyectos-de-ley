@@ -1,0 +1,38 @@
+{
+  "caso": "dibujo",
+  "consigna": "libre",
+  "idioma": "zh",
+  "modelo": "gpt-6-sol",
+  "modelo_respondido": "gpt-6-sol",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-24T19:56:31+00:00",
+  "fuentes_md5": {
+    "consignas": "951dd5d1"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2445,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4387,
+    "parsea": true,
+    "elementos": 74,
+    "textos": [],
+    "colores": 31,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 3,
+      "stop": 8,
+      "radialGradient": 1,
+      "rect": 2,
+      "circle": 29,
+      "g": 9,
+      "path": 21
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-6-sol",
+    "motivo_fin": "stop",
+    "tokens_salida": 280
+  }
+}

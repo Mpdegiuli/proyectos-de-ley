@@ -1,0 +1,42 @@
+{
+  "caso": "dibujo",
+  "consigna": "libre",
+  "idioma": "zh",
+  "modelo": "claude-fable-5-1",
+  "modelo_respondido": "claude-fable-5-1",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-24T19:53:16+00:00",
+  "fuentes_md5": {
+    "consignas": "951dd5d1"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 3529,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6014,
+    "parsea": true,
+    "elementos": 100,
+    "textos": [],
+    "colores": 24,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 4,
+      "stop": 15,
+      "radialGradient": 2,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "rect": 11,
+      "g": 9,
+      "circle": 25,
+      "path": 25,
+      "line": 2,
+      "ellipse": 4
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-fable-5-1",
+    "motivo_fin": "refusal",
+    "tokens_salida": 0
+  }
+}

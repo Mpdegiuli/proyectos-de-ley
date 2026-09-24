@@ -1,0 +1,3 @@
+I drew a winter night in the mountains: aurora, a cratered moon, stars, layered peaks, pines, and a cabin with warm windows. I wanted atmosphere SVG can actually carry—gradients, glow, silhouettes—without looking like clip art, and a still frame that still feels like a place.
+
+I considered a city skyline (too many windows, less mood), a mandala (pretty but empty), a portrait (faces go stiff in pure SVG), and a daytime meadow (weaker contrast). I dropped them because one night scene could hold color, depth, and a little story at once.

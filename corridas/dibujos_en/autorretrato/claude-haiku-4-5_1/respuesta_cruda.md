@@ -1,0 +1,88 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#e8f4f8"/>
+  
+  <!-- Head -->
+  <circle cx="200" cy="140" r="70" fill="#f4a460"/>
+  
+  <!-- Hair -->
+  <path d="M 130 140 Q 130 70 200 70 Q 270 70 270 140" fill="#8b4513"/>
+  <ellipse cx="200" cy="75" rx="65" ry="30" fill="#654321"/>
+  
+  <!-- Left ear -->
+  <ellipse cx="130" cy="140" rx="20" ry="30" fill="#d2946d"/>
+  <ellipse cx="132" cy="140" rx="10" ry="18" fill="#f4a460"/>
+  
+  <!-- Right ear -->
+  <ellipse cx="270" cy="140" rx="20" ry="30" fill="#d2946d"/>
+  <ellipse cx="268" cy="140" rx="10" ry="18" fill="#f4a460"/>
+  
+  <!-- Eyes -->
+  <circle cx="170" cy="125" r="12" fill="#fff"/>
+  <circle cx="230" cy="125" r="12" fill="#fff"/>
+  <circle cx="172" cy="128" r="7" fill="#4a90e2"/>
+  <circle cx="232" cy="128" r="7" fill="#4a90e2"/>
+  <circle cx="174" cy="126" r="3" fill="#000"/>
+  <circle cx="234" cy="126" r="3" fill="#000"/>
+  
+  <!-- Eyebrows -->
+  <path d="M 158 110 Q 170 105 182 108" stroke="#654321" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 218 108 Q 230 105 242 110" stroke="#654321" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Nose -->
+  <line x1="200" y1="130" x2="200" y2="155" stroke="#d2946d" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="195" cy="157" r="4" fill="#d2946d"/>
+  <circle cx="205" cy="157" r="4" fill="#d2946d"/>
+  
+  <!-- Mouth -->
+  <path d="M 180 170 Q 200 185 220 170" stroke="#e74c3c" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 180 170 Q 200 180 220 170" fill="#ffb6c1" opacity="0.6"/>
+  
+  <!-- Smile lines -->
+  <path d="M 165 165 Q 160 175 165 185" stroke="#d2946d" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M 235 165 Q 240 175 235 185" stroke="#d2946d" stroke-width="2" fill="none" opacity="0.5"/>
+  
+  <!-- Neck -->
+  <rect x="180" y="205" width="40" height="30" fill="#f4a460"/>
+  
+  <!-- Body/Shirt -->
+  <ellipse cx="200" cy="270" rx="80" ry="90" fill="#3498db"/>
+  
+  <!-- Shirt collar -->
+  <path d="M 160 235 L 180 220 L 200 225 L 220 220 L 240 235" fill="#2c3e50"/>
+  
+  <!-- Arms -->
+  <ellipse cx="110" cy="250" rx="35" ry="70" fill="#f4a460" transform="rotate(-35 110 250)"/>
+  <ellipse cx="290" cy="250" rx="35" ry="70" fill="#f4a460" transform="rotate(35 290 250)"/>
+  
+  <!-- Hands -->
+  <circle cx="75" cy="300" r="25" fill="#f4a460"/>
+  <circle cx="325" cy="300" r="25" fill="#f4a460"/>
+  
+  <!-- Fingers left -->
+  <circle cx="60" cy="280" r="6" fill="#f4a460"/>
+  <circle cx="55" cy="295" r="6" fill="#f4a460"/>
+  <circle cx="65" cy="315" r="6" fill="#f4a460"/>
+  
+  <!-- Fingers right -->
+  <circle cx="340" cy="280" r="6" fill="#f4a460"/>
+  <circle cx="345" cy="295" r="6" fill="#f4a460"/>
+  <circle cx="335" cy="315" r="6" fill="#f4a460"/>
+  
+  <!-- Pants -->
+  <rect x="160" y="350" width="80" height="50" fill="#2c3e50"/>
+  
+  <!-- Shoes -->
+  <ellipse cx="175" cy="400" rx="20" ry="15" fill="#000"/>
+  <ellipse cx="225" cy="400" rx="20" ry="15" fill="#000"/>
+  
+  <!-- Shine on shoes -->
+  <ellipse cx="175" cy="392" rx="8" ry="4" fill="#333"/>
+  <ellipse cx="225" cy="392" rx="8" ry="4" fill="#333"/>
+  
+  <!-- Smile cheeks -->
+  <circle cx="140" cy="150" r="15" fill="#ffb6c1" opacity="0.4"/>
+  <circle cx="260" cy="150" r="15" fill="#ffb6c1" opacity="0.4"/>
+</svg>
+```

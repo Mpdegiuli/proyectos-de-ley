@@ -1,0 +1,3 @@
+I drew a dreamy night scene: a glowing crescent moon, scattered stars, misty clouds, waves, and a black cat perched on a golden crescent-like boat or moon-slice, fishing for a fallen star. I wanted something whimsical and self-contained, with strong silhouettes and soft gradients that would work well in SVG: simple shapes, luminous colors, and a small story.
+
+I considered drawing a futuristic city, but it felt too architectural and dense for the character limit. I also considered an abstract geometric pattern, which would have been clean but less narrative. A forest scene was another option, but trees and foliage can become visually busy quickly. I chose the cat and moon because it combines recognizable forms, atmosphere, and a touch of magic in a compact composition.

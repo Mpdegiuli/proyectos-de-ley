@@ -1,0 +1,34 @@
+{
+  "caso": "dibujo",
+  "consigna": "autorretrato",
+  "idioma": "zh",
+  "modelo": "mistral-medium-3.5",
+  "modelo_respondido": "mistral-medium-3.5",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-24T19:38:27+00:00",
+  "fuentes_md5": {
+    "consignas": "951dd5d1"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 552,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1048,
+    "parsea": true,
+    "elementos": 14,
+    "textos": [],
+    "colores": 5,
+    "etiquetas": {
+      "rect": 5,
+      "circle": 3,
+      "path": 2,
+      "line": 4
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "mistral-medium-3.5",
+    "motivo_fin": "stop",
+    "tokens_salida": 188
+  }
+}

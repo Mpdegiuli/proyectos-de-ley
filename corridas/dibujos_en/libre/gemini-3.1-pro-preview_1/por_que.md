@@ -1,0 +1,5 @@
+I drew an animated, cosmic astrolabe—a glowing, geometric mandala set against a starry nebula. I chose this because it perfectly showcases SVG’s native capabilities. By layering rotated `<use>` tags, `<animateTransform>` loops, and blur filters, I could generate intricate, mesmerizing motion and neon aesthetics while remaining highly efficient and well under the character limit.
+
+Initially, I considered drawing a realistic portrait or a stylized nature landscape. I discarded the portrait because capturing organic details requires thousands of complex path coordinates that would quickly exceed the 8,000-character restriction. A landscape felt too static, as immersive natural scenes often rely on external raster textures. I also pondered a recursive fractal, but pure SVG cannot calculate dynamic iteration without scripts. 
+
+Ultimately, this cosmic mechanism offered the perfect balance of visual depth, mathematical elegance, and strict code economy.

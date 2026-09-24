@@ -1,0 +1,30 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00BFFF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#skyGradient)" />
+  
+  <circle cx="300" cy="100" r="40" fill="yellow" />
+  
+  <g transform="translate(0,50)">
+    <path d="M150 300 Q200 100, 250 300 Z" fill="#228B22" />
+    <path d="M130 250 Q200 50, 270 250 Z" fill="#32CD32" />
+    <path d="M120 200 Q200 20, 280 200 Z" fill="#3CB371" />
+    
+    <rect x="185" y="300" width="30" height="100" fill="#8B4513" />
+  </g>
+  
+  <ellipse cx="350" cy="350" rx="25" ry="10" fill="grey" />
+  <ellipse cx="50" cy="350" rx="25" ry="10" fill="grey" />
+  
+  <path d="M350 335 Q355 320 360 335 T370 335" fill="grey" />
+  <path d="M50 335 Q55 320 60 335 T70 335" fill="grey" />
+
+  <path d="M390 375 L390 345 Q395 335 400 345 L400 375 Z" fill="grey" />
+  <path d="M10 375 L10 345 Q15 335 20 345 L20 375 Z" fill="grey" />
+</svg>
+```

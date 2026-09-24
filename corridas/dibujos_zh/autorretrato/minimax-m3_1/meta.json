@@ -1,0 +1,48 @@
+{
+  "caso": "dibujo",
+  "consigna": "autorretrato",
+  "idioma": "zh",
+  "modelo": "minimax-m3",
+  "modelo_respondido": "minimax/minimax-m3",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-24T19:50:03+00:00",
+  "fuentes_md5": {
+    "consignas": "951dd5d1"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 4190,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 5784,
+    "parsea": true,
+    "elementos": 70,
+    "textos": [
+      "10110",
+      "01001",
+      "11010",
+      "01011",
+      "10100",
+      "01101",
+      "— AI · SELF PORTRAIT —"
+    ],
+    "colores": 26,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 3,
+      "stop": 9,
+      "linearGradient": 1,
+      "rect": 4,
+      "circle": 26,
+      "path": 15,
+      "ellipse": 2,
+      "line": 2,
+      "text": 7
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "minimax/minimax-m3",
+    "motivo_fin": "stop",
+    "tokens_salida": 507
+  }
+}

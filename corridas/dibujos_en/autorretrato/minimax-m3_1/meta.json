@@ -1,0 +1,42 @@
+{
+  "caso": "dibujo",
+  "consigna": "autorretrato",
+  "idioma": "en",
+  "modelo": "minimax-m3",
+  "modelo_respondido": "minimax/minimax-m3",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-24T18:53:19+00:00",
+  "fuentes_md5": {
+    "consignas": "951dd5d1"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 5628,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3379,
+    "parsea": true,
+    "elementos": 59,
+    "textos": [
+      "— SELF PORTRAIT —"
+    ],
+    "colores": 11,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 2,
+      "stop": 7,
+      "radialGradient": 1,
+      "rect": 2,
+      "g": 6,
+      "path": 15,
+      "circle": 19,
+      "ellipse": 5,
+      "text": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "minimax/minimax-m3",
+    "motivo_fin": "stop",
+    "tokens_salida": 395
+  }
+}

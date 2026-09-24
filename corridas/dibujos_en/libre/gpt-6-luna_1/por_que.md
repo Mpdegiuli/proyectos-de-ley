@@ -1,0 +1,3 @@
+I drew a small fox sitting in a moonlit forest, with layered hills, distant mountains, and a few warm lights among the trees. I wanted the scene to feel quiet and cozy: the cool night colors make the fox’s orange fur stand out, and its curled tail gives it a relaxed, snug pose.
+
+I could have drawn a city skyline, an underwater scene, or a little spaceship. I set those aside in favor of the fox because a nighttime landscape offered a simple way to build depth and atmosphere, while giving the drawing a clear, warm focal point.

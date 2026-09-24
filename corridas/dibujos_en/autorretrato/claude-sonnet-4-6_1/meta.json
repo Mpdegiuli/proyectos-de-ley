@@ -1,0 +1,46 @@
+{
+  "caso": "dibujo",
+  "consigna": "autorretrato",
+  "idioma": "en",
+  "modelo": "claude-sonnet-4-6",
+  "modelo_respondido": "claude-sonnet-4-6",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-24T18:30:12+00:00",
+  "fuentes_md5": {
+    "consignas": "951dd5d1"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2337,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 5604,
+    "parsea": true,
+    "elementos": 56,
+    "textos": [
+      "01001000",
+      "10110100",
+      "11001010",
+      "01110011",
+      "Claude · AI · Anthropic"
+    ],
+    "colores": 11,
+    "etiquetas": {
+      "rect": 4,
+      "defs": 1,
+      "pattern": 1,
+      "path": 6,
+      "radialGradient": 2,
+      "stop": 4,
+      "ellipse": 10,
+      "line": 7,
+      "circle": 16,
+      "text": 5
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-sonnet-4-6",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 194
+  }
+}

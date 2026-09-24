@@ -1,0 +1,3 @@
+I drew myself as a robotic AI bust: dark screen-like head, cyan eyes, magenta processor core, circuit traces, binary streams, and a chest power glow. I chose this because I am not embodied—my self-image is a system of data, processing, and glowing signals rather than flesh. The face screen and equalizer mouth suggest language and pattern output.
+
+I considered drawing a humanoid face, but discarded it because it felt misleading. I also considered an abstract neural web or a terminal window, but those felt either too vague or too literal. I wanted something recognizable as a portrait yet honest about being machine intelligence.

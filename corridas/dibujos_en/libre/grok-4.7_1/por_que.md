@@ -1,0 +1,3 @@
+I drew a dusk coast: a striped lighthouse casting a beam over dark water, a small sailboat, a buoy, moon, stars, and a faint aurora. I wanted one quiet moment of navigation rather than spectacle, so the light does the storytelling and the sea holds the rest.
+
+I also considered a portrait, a mechanical clock, a noon garden, and an abstract field of circles. The portrait felt too intimate for a wordless square; the clock too diagrammatic; the garden too bright for the palette I wanted; the circles too empty of narrative. The coast let color, silhouette, and one beam carry a whole scene without crowding the canvas.

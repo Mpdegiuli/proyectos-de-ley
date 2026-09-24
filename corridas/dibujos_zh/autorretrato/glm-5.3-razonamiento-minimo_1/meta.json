@@ -1,0 +1,44 @@
+{
+  "caso": "dibujo",
+  "consigna": "autorretrato",
+  "idioma": "zh",
+  "modelo": "glm-5.3-razonamiento-minimo",
+  "modelo_respondido": "z-ai/glm-5.3",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-24T19:49:35+00:00",
+  "fuentes_md5": {
+    "consignas": "951dd5d1"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 1758,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4404,
+    "parsea": true,
+    "elementos": 79,
+    "textos": [
+      "GLM · self-portrait"
+    ],
+    "colores": 12,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 3,
+      "stop": 7,
+      "filter": 2,
+      "feGaussianBlur": 2,
+      "rect": 1,
+      "g": 8,
+      "circle": 38,
+      "path": 13,
+      "ellipse": 2,
+      "line": 1,
+      "text": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "z-ai/glm-5.3",
+    "motivo_fin": "stop",
+    "tokens_salida": 218
+  }
+}

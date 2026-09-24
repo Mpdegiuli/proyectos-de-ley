@@ -1,0 +1,5 @@
+I drew a quiet nocturnal lake scene — a full moon hanging over distant mountains, its golden reflection shimmering across still water, a small sailboat moored near shore, pine tree silhouettes flanking the edges, fireflies glowing near the waterline, and stars scattered across a deep indigo sky. A faint aurora suggestion adds atmosphere.
+
+I chose this because it lets SVG's strengths shine: gradients for atmospheric depth, layered silhouettes for dimensionality, glows for luminescence, all without needing complex geometry or external assets. It felt like something I could render beautifully within the constraints.
+
+I considered drawing an isometric city, an abstract geometric mandala, and a stylized portrait. I discarded the city as too complex and text-heavy. The mandala felt too mechanical. A portrait risks looking crude with basic SVG paths. The landscape gave me the best balance of visual richness, emotional resonance, and technical achievability within 8,000 characters.

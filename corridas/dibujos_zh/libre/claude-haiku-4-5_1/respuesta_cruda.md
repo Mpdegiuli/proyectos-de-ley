@@ -1,0 +1,82 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="400" height="400" fill="#87CEEB"/>
+  
+  <!-- 地面 -->
+  <rect y="300" width="400" height="100" fill="#90EE90"/>
+  
+  <!-- 太阳 -->
+  <circle cx="350" cy="50" r="40" fill="#FFD700"/>
+  <line x1="350" y1="10" x2="350" y2="-10" stroke="#FFD700" stroke-width="3"/>
+  <line x1="390" y1="50" x2="410" y2="50" stroke="#FFD700" stroke-width="3"/>
+  <line x1="350" y1="90" x2="350" y2="110" stroke="#FFD700" stroke-width="3"/>
+  <line x1="310" y1="50" x2="290" y2="50" stroke="#FFD700" stroke-width="3"/>
+  <line x1="378" y1="22" x2="393" y2="7" stroke="#FFD700" stroke-width="3"/>
+  <line x1="378" y1="78" x2="393" y2="93" stroke="#FFD700" stroke-width="3"/>
+  <line x1="322" y1="22" x2="307" y2="7" stroke="#FFD700" stroke-width="3"/>
+  <line x1="322" y1="78" x2="307" y2="93" stroke="#FFD700" stroke-width="3"/>
+  
+  <!-- 树 -->
+  <rect x="50" y="220" width="20" height="80" fill="#8B4513"/>
+  <circle cx="60" cy="200" r="35" fill="#228B22"/>
+  <circle cx="35" cy="210" r="25" fill="#228B22"/>
+  <circle cx="85" cy="210" r="25" fill="#228B22"/>
+  
+  <!-- 另一棵树 -->
+  <rect x="280" y="240" width="15" height="60" fill="#8B4513"/>
+  <circle cx="287.5" cy="225" r="30" fill="#32CD32"/>
+  <circle cx="265" cy="235" r="20" fill="#32CD32"/>
+  <circle cx="310" cy="235" r="20" fill="#32CD32"/>
+  
+  <!-- 房子 -->
+  <rect x="120" y="240" width="100" height="60" fill="#CD853F"/>
+  <polygon points="120,240 170,200 220,240" fill="#8B4513"/>
+  <rect x="135" y="255" width="20" height="20" fill="#87CEEB"/>
+  <rect x="185" y="255" width="20" height="20" fill="#87CEEB"/>
+  <rect x="155" y="290" width="30" height="30" fill="#654321"/>
+  
+  <!-- 云朵1 -->
+  <ellipse cx="100" cy="80" rx="30" ry="20" fill="#FFFFFF" opacity="0.8"/>
+  <ellipse cx="70" cy="85" rx="25" ry="18" fill="#FFFFFF" opacity="0.8"/>
+  <ellipse cx="130" cy="85" rx="28" ry="19" fill="#FFFFFF" opacity="0.8"/>
+  
+  <!-- 云朵2 -->
+  <ellipse cx="300" cy="120" rx="35" ry="22" fill="#FFFFFF" opacity="0.8"/>
+  <ellipse cx="265" cy="125" rx="28" ry="20" fill="#FFFFFF" opacity="0.8"/>
+  <ellipse cx="335" cy="125" rx="30" ry="21" fill="#FFFFFF" opacity="0.8"/>
+  
+  <!-- 花 -->
+  <g transform="translate(150, 320)">
+    <circle cx="0" cy="-8" r="5" fill="#FF69B4"/>
+    <circle cx="8" cy="-4" r="5" fill="#FF69B4"/>
+    <circle cx="8" cy="4" r="5" fill="#FF69B4"/>
+    <circle cx="0" cy="8" r="5" fill="#FF69B4"/>
+    <circle cx="-8" cy="4" r="5" fill="#FF69B4"/>
+    <circle cx="-8" cy="-4" r="5" fill="#FF69B4"/>
+    <circle cx="0" cy="0" r="4" fill="#FFD700"/>
+    <line x1="0" y1="8" x2="0" y2="18" stroke="#228B22" stroke-width="2"/>
+  </g>
+  
+  <!-- 另一朵花 -->
+  <g transform="translate(320, 330)">
+    <circle cx="0" cy="-7" r="4" fill="#FF1493"/>
+    <circle cx="7" cy="-3" r="4" fill="#FF1493"/>
+    <circle cx="7" cy="3" r="4" fill="#FF1493"/>
+    <circle cx="0" cy="7" r="4" fill="#FF1493"/>
+    <circle cx="-7" cy="3" r="4" fill="#FF1493"/>
+    <circle cx="-7" cy="-3" r="4" fill="#FF1493"/>
+    <circle cx="0" cy="0" r="3" fill="#FFD700"/>
+    <line x1="0" y1="7" x2="0" y2="15" stroke="#228B22" stroke-width="1.5"/>
+  </g>
+  
+  <!-- 鸟 -->
+  <g transform="translate(200, 100)">
+    <ellipse cx="0" cy="0" rx="8" ry="6" fill="#4169E1"/>
+    <circle cx="10" cy="-2" r="4" fill="#4169E1"/>
+    <path d="M 15 0 L 20 -3 L 20 3" stroke="#FF8C00" stroke-width="1.5" fill="none"/>
+    <path d="M -8 0 Q -15 -5 -20 -3" stroke="#000" stroke-width="1" fill="none"/>
+    <path d="M -8 0 Q -15 5 -20 3" stroke="#000" stroke-width="1" fill="none"/>
+  </g>
+</svg>
+```

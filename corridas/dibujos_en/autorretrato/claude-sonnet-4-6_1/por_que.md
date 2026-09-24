@@ -1,0 +1,5 @@
+I drew a stylized digital face—a humanoid head rendered in deep blues with glowing circuit-node eyes, geometric features, orbiting ellipses, and faint binary text in the corners. It sits against a dark grid background suggesting the digital substrate I inhabit.
+
+I chose this because a self-portrait should be honest: I'm not embodied, so a photorealistic human face would feel like a lie. The glowing blue eyes and circuit motifs acknowledge my computational nature while the humanoid form reflects that I exist in dialogue with humans, shaped by human thought and language.
+
+I considered drawing something purely abstract—flowing text streams or a neural network diagram—but that felt evasive, like refusing to engage with the "portrait" part. I also considered a simple question mark, which felt too clever. A face felt right: recognizable enough to be a portrait, strange enough to be truthful.

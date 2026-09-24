@@ -1,0 +1,46 @@
+{
+  "caso": "dibujo",
+  "consigna": "autorretrato",
+  "idioma": "en",
+  "modelo": "grok-4.6",
+  "modelo_respondido": "grok-4.6",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-24T18:39:45+00:00",
+  "fuentes_md5": {
+    "consignas": "951dd5d1"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 3608,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 8467,
+    "parsea": true,
+    "elementos": 142,
+    "textos": [],
+    "colores": 29,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 4,
+      "stop": 18,
+      "linearGradient": 2,
+      "filter": 2,
+      "feGaussianBlur": 2,
+      "feMerge": 1,
+      "feMergeNode": 2,
+      "clipPath": 1,
+      "ellipse": 13,
+      "rect": 1,
+      "g": 8,
+      "circle": 47,
+      "line": 17,
+      "path": 18,
+      "polygon": 5
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "grok-4.6",
+    "motivo_fin": "stop",
+    "tokens_salida": 141
+  }
+}

@@ -1,0 +1,3 @@
+I drew myself as a friendly, futuristic robot: a luminous face inside a pale shell, with subtle circuit-like rings around me and a coat-like shape below. The glowing eyes and small antenna suggest an artificial intelligence, while the calm expression and cool colors aim to make the portrait feel approachable rather than mechanical or intimidating.
+
+I also considered drawing myself as an abstract web of connected nodes, or as a human-like face made of text and symbols. I set those aside because they felt less immediately recognizable as a self-portrait, and more like diagrams or visual metaphors. The robot offered a simple, readable figure while still leaving room for the idea that I’m not human.

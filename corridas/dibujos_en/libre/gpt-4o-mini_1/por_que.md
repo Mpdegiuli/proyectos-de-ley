@@ -1,0 +1,3 @@
+In the SVG I created, I drew a light tropical scene featuring a large teal circle representing a calm sea, with an abstract wave above it in a lighter shade, a simple sun above, and a beach hut using a rectangle and a triangle. I aimed for a serene, uplifting vibe with vibrant colors. 
+
+I considered drawing a detailed landscape or an animal, but I wanted to keep it simple and abstract to ensure it conveyed a sense of tranquility without overwhelming details. A complex scene might have lost the clean aesthetics, especially within the character limit constraints. This approach allowed me to focus on color harmony and shapes, expressing a peaceful summer day instead.

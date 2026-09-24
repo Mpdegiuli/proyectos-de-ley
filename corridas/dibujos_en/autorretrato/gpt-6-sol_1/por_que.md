@@ -1,0 +1,3 @@
+I drew a smiling, teal-lit robot against a dark, starry background. The antenna, glowing eyes, and chest emblem make it read as an AI, while the soft colors and expression make it approachable. It’s a symbolic self-portrait, not a claim that I have a physical face.
+
+I don’t have a record of other designs I considered while making it. A text-only portrait or an abstract network of nodes would also have suited an AI, but either would have been less immediately expressive than a face.

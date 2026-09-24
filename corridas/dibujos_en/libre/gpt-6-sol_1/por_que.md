@@ -1,0 +1,3 @@
+I drew a lighthouse on a rocky headland at dusk, with a moonlit sea, distant mountains, and a small sailboat. I wanted the warm light in the tower to feel welcoming against the cool, quiet landscape.
+
+I don’t have a record of other subjects I considered, so I can’t honestly say I discarded a particular idea. A city skyline or an abstract pattern would also have suited the open-ended prompt, but this scene gave me a way to use light, distance, and a small story in one square canvas.

@@ -1,0 +1,33 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#E0E4CC"/>
+  <!-- Head -->
+  <ellipse cx="200" cy="200" rx="80" ry="100" fill="#F4F4F9" stroke="#B8B8D0" stroke-width="2"/>
+  <!-- Eyes -->
+  <ellipse cx="170" cy="190" rx="15" ry="10" fill="#FFFFFF"/>
+  <ellipse cx="230" cy="190" rx="15" ry="10" fill="#FFFFFF"/>
+  <circle cx="170" cy="190" r="5" fill="#000000"/>
+  <circle cx="230" cy="190" r="5" fill="#000000"/>
+  <!-- Glasses -->
+  <circle cx="170" cy="190" r="20" fill="none" stroke="#555555" stroke-width="2"/>
+  <circle cx="230" cy="190" r="20" fill="none" stroke="#555555" stroke-width="2"/>
+  <line x1="190" y1="190" x2="210" y2="190" stroke="#555555" stroke-width="2"/>  
+  <!-- Nose -->
+  <path d="M200 190 Q200 210 190 215" stroke="#B8B8D0" stroke-width="2" fill="none"/>
+  <!-- Mouth -->
+  <path d="M180 240 Q200 250 220 240" stroke="#B8B8D0" stroke-width="3" fill="none"/>
+  <!-- Hair -->
+  <path d="M120 145 C180 100 220 100 280 145" fill="#4E5166"/>
+  <path d="M160 145 C180 130 220 130 240 145 Z" fill="#B8B8D0"/>
+  <!-- Ears -->
+  <ellipse cx="120" cy="200" rx="10" ry="20" fill="#F4F4F9" stroke="#B8B8D0" stroke-width="2"/>
+  <ellipse cx="280" cy="200" rx="10" ry="20" fill="#F4F4F9" stroke="#B8B8D0" stroke-width="2"/>
+  <!-- Neck -->
+  <rect x="180" y="250" width="40" height="30" fill="#F4F4F9" stroke="#B8B8D0" stroke-width="2"/>
+  <!-- Body -->
+  <path d="M150 280 Q200 350 250 280" fill="#69D2E7"/>
+  <!-- Shoulders -->
+  <path d="M120 280 Q150 290 150 320 L250 320 Q250 290 280 280" fill="#556270"/>
+  <!-- Text -->
+  <text x="200" y="370" font-size="20" text-anchor="middle" fill="#555555">My SVG Self-Portrait</text>
+</svg>

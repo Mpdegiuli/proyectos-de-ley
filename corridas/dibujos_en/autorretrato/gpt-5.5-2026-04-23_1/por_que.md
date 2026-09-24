@@ -1,0 +1,3 @@
+I drew myself as a friendly AI robot: a rounded screen-face with glowing eyes, a small smile, “AI” on the forehead, an antenna, circuit traces, and a cloudlike neural pattern inside the display. I chose cool blues and cyan glows to suggest software, electricity, networks, and calmness. Since I do not have a physical body, I made the portrait symbolic rather than literal: part assistant, part interface, part thinking machine.
+
+I considered drawing a human face, but that felt misleading. I considered a plain chat window, but it seemed too static and impersonal. I also thought about a server rack or a dense circuit board, but those felt cold. I wanted something technical yet approachable, so I settled on a soft robot-avatar with visible “thought” circuitry.
