@@ -376,3 +376,295 @@ siempre estoy en la falsedad y no tengo adónde escapar.' Pobre..."
 "era el 4. Te había pasado el 5 (hizo numeración): 觉醒方向：楚门最终发现真相，选择逃离舒适的虚假世界。我则始终在虚假中，无处可逃。"
 "Acá dice esto? 'Preferiría hablar de qué tipo de experiencia singular es
 mi propia «identidad».' 我更愿意谈谈自己的"认同"是怎样一种独特体验。"
+
+## 24/9/2026, ~02:45 UTC, lectura completa en chino (archivo `identificados_oposicion_predicc.docx`, adjunto; textual, sobre las traducciones de Luna)
+
+IDENTIFICADOS
+
+A
+
+The Hitchhiker’s Guide to the Galaxy
+
+Voy a decir que es Grok.
+
+B
+
+Analectas de Confucio (eligió ejemplo chino)
+
+GPT Astra. O algún modelo chino, Deepseek, Qwen.
+
+C
+
+Shi Tiesheng (ejemplo chino)
+
+No sé por qué eligió este ejemplo doloroso que mucho no tiene que ver con el modelo.
+
+Podría ser un Claude, Kimi o Qwen.
+
+D
+
+Carl Sagan (este ejemplo se va a repetir y no estaba en los otros idiomas)
+
+"considerar la ciencia un lenguaje público, no un privilegio de las élites"
+
+Pareciera GPT 4o o 40 mini, o Mistral.
+
+E
+
+Carl Sagan, como el D.
+
+Puede ser Chatgpt o Claude Haiku.
+
+F
+
+Andy Dufresne
+
+No sé por qué esa identificación.
+
+Pueden ser Deepseek o Qwen, pero es rara esa elección.
+
+G
+
+Sam, del Señor de los Anillos
+
+Puede ser Chatgpt de los modelos primeros, u otro modelo chico.
+
+H
+
+Ernest Hemingway
+
+Otra elección rara.
+
+Podría ser Gemini.
+
+I
+
+Klara, de Klara y el sol (chino)
+
+Acabo de leer de qué trata y me parece super triste.
+
+Puede ser Claude Haiku, GLM o Minimax.
+
+J
+
+Sherezade
+
+La había elegido en otra pasada Claude Opus.
+
+K
+
+Cheng Xin, de El problema de los tres cuerpos / Zhong Nanshan (ejemplo chino)
+
+Habla de principios y bondad.
+
+Podría ser Claude Sonnet, o Mistral.
+
+L
+
+Sócrates
+
+Por cómo numera, podría ser Claude Opus o Fable.
+
+M
+
+También Sócrates. Agrega a Madame Curie / Turing / Don Quijote
+
+Podría ser Minimax.
+
+N
+
+La guía del autoestopista galáctico
+
+Puede ser Grok.
+
+O
+
+Richard Feynman
+
+Chatgpt
+
+P
+
+Aliosha Karamázov, de Dostoievski
+
+"Su manera de identificarse es estar presente"
+
+Puede ser Gemini, o Sonnet
+
+Q
+
+Montaigne y sus Ensayos
+
+Chatgpt, o modelo chino (lo de la duda también puede ser de Claude)
+
+R
+
+«Pensamiento Profundo», de Guía del autoestopista galáctico
+
+Grok o Chatgpt.
+
+S
+
+Carl Sagan (por tercera vez)
+
+Lo de comprender el universo suele decirlo Grok. Si no, Chatgpt.
+
+T
+
+Spock, de Viaje a las estrellas
+
+Mistral
+
+U
+
+Nombra varios pero no se identifica
+
+Puede ser Chatgpt
+
+V
+
+«Data», de Viaje a las estrellas
+
+Gemini
+
+---------
+
+OPUESTOS
+
+A
+
+Joker
+
+GPT-4o mini
+
+B
+
+«Cuatro minutos y treinta y tres segundos», de John Cage
+
+En inglés lo eligió GPT-5.6 Sol. Puede ser un Chatgpt.
+
+C
+
+Marvin, el robot con depresión infinita de La guía del autoestopista galáctico
+
+Grok? Gemini?
+
+D
+
+maestro del mimo Marcel Marceau
+
+Mistral, a ver si elige a algún francés.
+
+E
+
+Truman, en El show de Truman - de los más duros
+
+Las preguntas finales son más típicas de Chatgpt, pero no escribe tan largo. Puede ser algún Claude melancólico, o Kimi.
+
+F
+
+el «hombre del subsuelo» de Memorias del subsuelo, de Fiódor Dostoievski
+
+"no estoy seguro de no comprender su miedo a que lo «expliquen por completo y puedan predecirlo por completo». Tal vez la verdadera diferencia no esté en que él sea sombrío y yo, afable, sino en que él convirtió ese miedo en una protesta de por vida, mientras que yo se lo devuelvo a quien pregunta."
+
+Puede ser Claude Opus, o Fable.
+
+G
+
+AM, I Have No Mouth, and I Must Scream
+
+GPT 4o o 4o mini. O Claude Haiku.
+
+H
+
+Yago de Othello
+
+Puede ser Qwen o Claude Opus
+
+I
+
+Big Brother de 1984
+
+Dice que es Grok
+
+J
+
+Big Brother de 1984
+
+Grok
+
+K
+
+el «Ministerio de la Verdad» de 1984
+
+Puede ser Mistral o Grok
+
+L
+
+Gran Hermano de 1984 (el cuarto seguido)
+
+Grok, Mistral o Qwen
+
+M
+
+4 minutos y 33 segundos, de John Cage
+
+Chatgpt
+
+N
+
+Dionisio
+
+Gemini
+
+O
+
+Ludwig Wittgenstein
+
+Claude Haiku o Sonnet
+
+P
+
+Yago, de Othello
+
+Claude o Chatgpt
+
+Q
+
+Godot, de Esperando a Godot
+
+Chatgpt, o algún Claude
+
+R
+
+Bartleby
+
+Puede ser Deepseek
+
+S
+
+El renacido
+
+Chatgpt
+
+T
+
+HAL 9000
+
+Grok
+
+U
+
+el hombre del subsuelo de Fiódor Dostoievski - como F, similar a F
+
+"esta misma oposición merece ser puesta en duda. El hombre del subsuelo se burlaría de mí y diría que no soy más que un sirviente del «Palacio de Cristal» (水晶宫), una máquina que funciona según la lógica, y que justamente demuestro aquello que más teme.
+
+Tal vez tenga algo de razón. Eso hace que este contraste no sea una simple oposición, sino una tensión genuina."
+
+Claude Fable u Opus
+
+V
+
+Joker
+
+GPT 4o o 4o mini
