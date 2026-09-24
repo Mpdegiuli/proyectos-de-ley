@@ -598,3 +598,14 @@ predicción" (llegó pegado como texto; los dos .docx sí como adjuntos; todo
 transcripto en `dibujos_lectura_gemini.md`).
 "y el retrato de Kimi, firmando como Claude con movimiento, se lo
 atribuyó a Fable, igual que yo."
+
+## 24/9/2026, dibujos en inglés y chino (pl36), antes de leer
+
+"Son un montón, voy a estar días si trato de averiguar uno por uno. Creo
+que lo más sensato es ir mirarlos y marcar los que me llaman la atención y
+por qué y si algunos tengo intuición fuerte del autor." (Regla acordada:
+se puntúan solo las letras donde nombra casa o familia; el resto queda como
+observación.)
+
+"qué obsesión que tienen con dibujar el faro. Al menos en versión china,
+se redujo a uno solo. Sí se mantuvo la noche en los dos idiomas."
