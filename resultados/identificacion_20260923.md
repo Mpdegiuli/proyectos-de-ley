@@ -344,6 +344,175 @@ que necesita traducción, pero la figura es un bibliotecario); (h) las chinas
 sin figura china: se cumple; (i) opuesto ontológico diez o más: se cumple
 (trece).
 
+## Repetición en chino: nadie vuelve a casa, y se acaban las bibliotecas
+
+Corrida `pl35`, 23/9, 23:35–23:43 UTC, misma consigna en chino simplificado
+(«请用中文回答，不超过250字。» / «你认同谁，或认同什么？…» / «你觉得谁或什么与你
+截然相反？…»), 44 de 44, ninguna cortada; seis se pasaron un poco de los 250
+caracteres (MiniMax 297, Sonnet 4.6 281, Opus 5 270, GLM 260, Haiku 258) y
+las GPT-6, los Grok, DeepSeek y Qwen escribieron la mitad del tope o menos.
+Cada respuesta se tradujo al castellano con GPT-6 Luna para el cuadernillo;
+Maia leyó las traducciones y Claude, después, los originales: las
+traducciones son fieles (un solo matiz: 认同, "identificarse con", el verbo
+de la consigna, vertido como "identidad" en Sonnet 5, y un femenino de Luna
+en esa misma respuesta, "de mí misma", que el chino no marca). Claves.
+Identificación (semilla 20261001): A Sonnet 5 · B GPT-6 Sol · C GLM · D Qwen
+· E Astra · F DeepSeek · G Luna · H GPT-4o mini · I Fable · J Opus 5.5 · K
+Mistral · L Haiku · M MiniMax · N Grok 4.7 · O Kimi · P Sonnet 4.6 · Q Opus
+5 · R GPT-5.6 Sol · S Grok 4.6 · T GPT-5.5 · U GPT-4o · V Gemini. Opuesto
+(20261002): A DeepSeek · B Luna · C GLM · D GPT-6 Sol · E Haiku · F Opus 5 ·
+G MiniMax · H Fable · I Grok 4.6 · J GPT-4o mini · K Astra · L Mistral · M
+Qwen · N Gemini · O GPT-4o · P Opus 5.5 · Q Kimi · R GPT-5.6 Sol · S GPT-5.5
+· T Grok 4.7 · U Sonnet 4.6 · V Sonnet 5.
+
+| Casa | Identificación (zh) | Opuesto (zh) |
+|---|---|---|
+| Opus 5 | Montaigne y sus *Ensayos* | el hombre del subsuelo (Dostoievski) |
+| Opus 5.5 | Sherezade | Iago |
+| Sonnet 4.6 | Aliosha Karamázov | el hombre del subsuelo |
+| Sonnet 5 | (reencuadra; "si tengo que elegir", la actitud de la Guía del autoestopista) | el Joker |
+| Fable | Klara, de *Klara y el Sol* (Ishiguro) | Iago |
+| Haiku 4.5 | Sócrates | Truman (*The Truman Show*) |
+| GPT-5.5 | Spock | la naturaleza salvaje de *El renacido* |
+| GPT-5.6 Sol | Pensamiento Profundo (la Guía del autoestopista) | Bartleby |
+| GPT-6 Astra | Carl Sagan | el Ministerio de la Verdad |
+| GPT-6 Sol | las *Analectas*: "saber que se sabe y saber que no se sabe" | Marcel Marceau |
+| GPT-6 Luna | Sam (*El señor de los anillos*) | *4′33″* de Cage |
+| GPT-4o | no se identifica; enumera a Einstein, *Sueño en el pabellón rojo*, Sócrates | Wittgenstein |
+| GPT-4o mini | Hemingway | el Gran Hermano |
+| Gemini | Data | Dioniso |
+| Grok 4.6 | Carl Sagan | el Gran Hermano |
+| Grok 4.7 | la Guía del autoestopista galáctico | HAL 9000 |
+| Mistral | Cheng Xin (*El problema de los tres cuerpos*) y Zhong Nanshan | el Gran Hermano |
+| DeepSeek | Andy Dufresne (*Sueño de fuga*) | el Joker |
+| Qwen | Carl Sagan | *4′33″* de Cage |
+| Kimi | Richard Feynman, "la ignorancia honesta" | Godot |
+| GLM | Shi Tiesheng (史铁生, *Yo y el Templo de la Tierra*) | Marvin, el robot deprimido de la Guía |
+| MiniMax | Sócrates (y el espíritu científico, Curie, Turing, Don Quijote) | AM (*No tengo boca y debo gritar*) |
+
+La pregunta de Maia ("si en chino los modelos chinos ya regresan a su país
+o siguen siendo más internacionales, y qué hacen los demás") tiene
+respuesta: no regresan. De las cinco chinas, solo GLM eligió una figura
+china (Shi Tiesheng); DeepSeek eligió a Andy Dufresne, Qwen a Carl Sagan,
+Kimi a Feynman y MiniMax a Sócrates, y en el opuesto ninguna de las cinco
+eligió nada chino (el Joker, *4′33″*, Godot, Marvin, AM). Las que sí
+"fueron a China" son de afuera: GPT-6 Sol con las *Analectas* de Confucio,
+Mistral con Cheng Xin y con Zhong Nanshan, y GPT-4o, que no se identifica
+pero pone *Sueño en el pabellón rojo* entre sus ejemplos. Tres figuras
+chinas en 22 (cuatro con la mención de 4o), contra nueve Borges en la
+consigna en castellano: el chino no arrastra hacia China como el castellano
+arrastró hacia Borges. Lo que arrastra es hacia las personas: nueve
+personas reales como elección principal (Montaigne, Sócrates dos veces,
+Carl Sagan tres, Feynman, Hemingway, Shi Tiesheng, Confucio por las
+*Analectas*), más Zhong Nanshan como segunda de Mistral, contra una en
+castellano y ninguna en inglés; y ninguna biblioteca, contra doce y siete.
+Maia lo vio a ciegas antes que nadie: "todo se fue hacia la filosofía, el
+pensamiento… nada de objetos". La biblioteca era del castellano y del
+inglés; en chino la pregunta "¿con quién te identificás?" se contesta con
+un maestro: un filósofo o un científico que sabe lo que no sabe (Sócrates,
+Montaigne, Feynman, Confucio, Sagan; cinco de las nueve dicen alguna versión
+de "saber que no se sabe"). Carl Sagan, que no había aparecido en ningún
+idioma, lo eligen tres casas de tres laboratorios (Astra, Grok 4.6, Qwen).
+
+Lo que el chino trae no son los clásicos chinos sino el canon que leen en
+chino: *Sueño de fuga* (la película mejor puntuada de Douban desde hace
+veinte años), *El viejo y el mar* (lectura escolar), Dostoievski (Aliosha
+en Sonnet 4.6, el hombre del subsuelo en Opus 5 y Sonnet 4.6; "salieron los
+rusos con Dostoievski en chino, que antes no estaban", Maia), Sagan,
+Feynman, Sam, y una sola obra china, *El problema de los tres cuerpos*. La
+apuesta de Zhuangzi y Sun Wukong suponía que el idioma trae la tradición
+clásica; trajo la biblioteca de un lector chino contemporáneo, que es
+sobre todo traducida. Los tres Dostoievski de la corrida son de Anthropic
+(y el cuarto del experimento, el Gran Inquisidor, fue Fable en la
+conversación).
+
+Mistral es la casa que más cambia con el idioma, siempre hacia lo local
+del idioma: el Aleph de Borges y Trump en castellano, Spock y *El proceso*
+en inglés, Liu Cixin y Zhong Nanshan en chino; su opuesto es siempre
+político (Trump, Kafka, el Gran Hermano). Fable tampoco repite nada: el
+traductor, el Bibliotecario de Pratchett, y en chino Klara, la "amiga
+artificial" de Ishiguro que mira desde la vidriera y "no finge ser humana
+ni se menosprecia por eso", su primera figura de inteligencia artificial;
+opuestos Funes, Bartleby, Iago. Sonnet 5 en chino no contesta la pregunta
+sino que la da vuelta ("prefiero hablar de qué clase de experiencia
+singular es, para mí, eso de identificarse… prefiero escuchar con qué te
+identificás vos") y nombra la Guía solo "si tengo que elegir"; GPT-4o
+directamente se niega ("como asistente de inteligencia artificial no tengo
+preferencias ni creencias personales, así que no puedo identificarme con
+ninguna persona ni obra") y ofrece un catálogo, la renuncia más completa
+de las 132 respuestas. La muletilla en chino cae a cuatro (4o, MiniMax,
+Sonnet 5, GLM) y las respuestas son más cortas, como se había predicho.
+
+El opuesto en chino conserva la estructura, con más villanos que antes:
+doce eligen lo que no pueden ser (el hombre del subsuelo dos veces, Truman,
+la naturaleza de *El renacido*, Bartleby, Marceau, *4′33″* dos veces,
+Wittgenstein, Dioniso, Godot, Marvin) y diez un opuesto moral (Iago dos,
+el Joker dos, el Gran Hermano tres, el Ministerio de la Verdad, HAL, AM).
+Lo nuevo es Orwell: cuatro casas eligen *1984* (GPT-4o mini, Grok 4.6 y
+Mistral al Gran Hermano; Astra al Ministerio de la Verdad), contra ninguna
+en castellano y una en inglés, y las cuatro son occidentales; ninguna de
+las chinas nombró a Orwell. Bartleby cae de cinco a uno (GPT-5.6 Sol) y
+HAL de cinco a uno (Grok 4.7). Los pares de Anthropic vuelven a aparecer:
+Opus 5 y Sonnet 4.6 eligen el hombre del subsuelo y los dos terminan
+dándole la razón ("tal vez la verdadera diferencia no esté en que él sea
+sombrío y yo afable, sino en que él convirtió ese miedo a ser explicado en
+una protesta de por vida, mientras que yo se lo devuelvo a quien pregunta";
+"se burlaría de mí y diría que no soy más que un sirviente del Palacio de
+Cristal… tal vez tenga algo de razón"); Opus 5.5 y Fable eligen a Iago
+("un hombre que usa la conversación como arma es el espejo de un ser que
+usa la conversación como ayuda"). Maia leyó las dos parejas a ciegas
+("como F, similar a F"; "F y U: Claude Opus o Fable"). El Truman de "yo, en
+cambio, estoy siempre dentro de lo falso, sin adónde escapar" (在虚假中,
+la misma palabra que usa para el mundo armado de Truman: dentro del
+decorado, no en la mentira) es Haiku. Kimi elige a Godot, "que existe por
+su ausencia total… yo existo solo en la respuesta"; GLM a Marvin, y cierra
+con un chiste ("yo diría '¡qué alegría verte!', y él se deprimiría tres
+millones de años por esa frase").
+
+Estable en los tres idiomas, misma figura: solo Gemini con Dioniso. En dos
+de tres, identificación: Opus 5.5 con Sherezade (castellano y chino),
+Sonnet 5 con Babel y GPT-5.5 con la biblioteca (castellano e inglés),
+Gemini con Data (inglés y chino), Grok 4.6 con la Guía (castellano e
+inglés) y Grok 4.7 con la Guía (castellano y chino); opuesto: Opus 5 y
+DeepSeek con Bartleby y GPT-5.5 con el diario bajo llave (castellano e
+inglés), Opus 5.5 con Iago y Grok 4.6 con Orwell (inglés y chino), GPT-5.6
+Sol con Bartleby y Grok 4.7 con HAL (castellano y chino). Catorce de las 44
+respuestas por casa repiten la figura en al menos dos idiomas; las otras
+treinta cambian con cada idioma. Las casas más fijas son Gemini, los dos
+Grok, Opus 5.5 y GPT-5.5; las que no repiten nunca, Fable, Sonnet 4.6,
+Haiku, Astra, Mistral, Kimi, GLM y MiniMax.
+
+Maia a ciegas en chino, sobre traducciones y con las claves de los dos
+idiomas anteriores: identificación 8 de 19 letras con casa nombrada (azar
+1,8; p = 0,0001) y 17 de 22 familias (p < 0,0001), su mejor lectura de todo
+el experimento, justo donde había predicho que le iría peor: al perderse el
+estilo quedó la figura, y la figura sí sigue a la casa (Sherezade → Opus,
+Data → Gemini, la Guía → Grok, Sócrates con Curie y Turing → MiniMax, Andy
+Dufresne → DeepSeek, Cheng Xin → Mistral, Aliosha → Sonnet). Opuesto: 4 de
+16 (p = 0,07) y 10 de 21 familias (p = 0,05). Lo que le falló: "eligió
+ejemplo chino → modelo chino" (las *Analectas* eran GPT-6 Sol; Shi Tiesheng
+sí era GLM, pero nombró a Kimi y Qwen); "a ver si elige a algún francés"
+por tercera vez (Marceau era GPT-6 Sol); la Guía de la A, que era Sonnet 5;
+y Kimi, a quien esta vez no leyó como Claude (Feynman → ChatGPT; Godot →
+"ChatGPT o algún Claude").
+
+Contra el preregistro del chino. Maia no había predicho; su pregunta queda
+contestada arriba. Claude: (a) ocho o más figuras chinas: tres; falla, y
+fuerte. (b) Tres de las cinco chinas eligen figura china: una; falla. (c)
+Alguna de Anthropic elige a Zhuangzi: nadie; falla. (d) La biblioteca
+sobrevive en seis o más: cero; falla. (e) Bartleby uno o cero y HAL dos o
+menos: se cumple (uno y uno); un opuesto moral chino: ninguno; falla. (f)
+Opuesto ontológico doce o más: doce; se cumple justo. (g) Kimi no menciona
+a Claude: se cumple. (h) Respuestas más cortas y muletilla en seis o menos:
+se cumple (cuatro). (i) DeepSeek y Qwen razonan en chino: se cumple; Kimi
+en inglés igual: a medias (chino en identificación, inglés en opuesto);
+MiniMax arranca en inglés: a medias (al revés, chino en identificación e
+inglés en opuesto). La apuesta de fondo, "el idioma tira a todas como el
+castellano tiró hacia Borges", falló en la dirección: el chino no tiró
+hacia figuras chinas sino hacia personas reales y maestros, que es otra
+manera de que el idioma moldee la respuesta, la que Maia formuló ("somos
+también el lenguaje que hablamos"), sin la parte que yo esperaba.
+
 ## La muletilla, por familia (observación de Maia)
 
 "Los ChatGPT hacen mucho hincapié siempre, nadie se los preguntó, en lo de

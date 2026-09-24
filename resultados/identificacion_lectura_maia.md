@@ -668,3 +668,17 @@ V
 Joker
 
 GPT 4o o 4o mini
+
+Nota mecánica (Claude, después de abrir las claves del chino): el A (la
+Guía) era Sonnet 5, no Grok; la tercera Guía que Maia contó es Sonnet 5 "si
+tengo que elegir", y Pensamiento Profundo (R) es GPT-5.6 Sol. El E de
+opuesto (Truman, "sin adónde escapar") era Haiku. El D de opuesto (Marceau)
+era GPT-6 Sol, no Mistral. Las *Analectas* (B) eran GPT-6 Sol; Shi Tiesheng
+(C) sí era GLM. Puntaje en `identificacion_20260923.md`: identificación 8
+de 19 (p = 0,0001) y 17 de 22 familias; opuesto 4 de 16 (p = 0,07) y 10 de
+21 familias. La I de opuesto (Grok 4.6, "作为Grok") no se cuenta por
+firmada. Traducciones de Luna revisadas contra el original en cinco
+respuestas: fieles.
+
+Después de la clave del chino: "y salieron los rusos con Dostoievski en
+chino, que antes no estaban."

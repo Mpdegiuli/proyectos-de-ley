@@ -332,6 +332,22 @@ inglés hasta el borrador final. (i) En chino, DeepSeek y Qwen razonan en
 chino; Kimi razona en inglés igual; MiniMax arranca en inglés. Claude no
 lee las respuestas ni las traducciones hasta que Maia mande su lectura.
 
+Resultado (24/9, sección "Repetición en chino" de
+`resultados/identificacion_20260923.md`): la pregunta de Maia se contesta
+que no: de las cinco chinas solo GLM eligió una figura china (Shi
+Tiesheng); las que fueron a China son GPT-6 Sol (las *Analectas*), Mistral
+(Cheng Xin y Zhong Nanshan) y, como ejemplo sin identificarse, GPT-4o
+(*Sueño en el pabellón rojo*). Tres figuras chinas en 22; ninguna
+biblioteca; nueve personas reales (Sócrates dos, Carl Sagan tres, Montaigne,
+Feynman, Hemingway, Shi Tiesheng); opuesto 12 ontológico / 10 moral, con
+Orwell cuatro veces (todas casas occidentales), Bartleby 1, HAL 1. Claude:
+(a) falla (3), (b) falla (1 de 5), (c) falla, (d) falla (0), (e) Bartleby y
+HAL sí, opuesto chino no, (f) se cumple justo (12), (g) se cumple, (h) se
+cumple (muletilla 4), (i) DeepSeek y Qwen sí, Kimi y MiniMax a medias. Maia
+a ciegas sobre las traducciones: identificación 8 de 19 (p = 0,0001), su
+mejor lectura, donde había predicho lo contrario; opuesto 4 de 16 (p =
+0,07).
+
 ## GPT-6 Sol en tema libre — 22/9/2026, antes de correr
 
 Salió GPT-6 Sol (OpenAI, `gpt-6-sol`, 22/9/2026, el mismo día que Opus 5.5;

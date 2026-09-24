@@ -373,6 +373,13 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   cuadernillo, semillas 20261001 y 20261002) preregistrada el 23/9 a pedido
   de Maia: "no sabemos si, con ese idioma, los modelos chinos ya regresan a
   su país o siguen siendo más internacionales. Y qué hacen los demás".
+  Corrida el 23/9 (`pl35`): no regresan (solo GLM eligió una figura china;
+  las que fueron a China son GPT-6 Sol, Mistral y GPT-4o); en chino se
+  acaban las bibliotecas y aparecen las personas reales (Sócrates, Sagan,
+  Montaigne, Feynman); el opuesto sigue siendo lo que no pueden ser (12 de
+  22) con Orwell cuatro veces, todas occidentales. Maia a ciegas sobre las
+  traducciones acertó 8 de 19 en identificación, su mejor lectura. Solo
+  Gemini (Dioniso) repite la figura en los tres idiomas.
   Observación de Maia verificada en las
   llamadas de los dos repos: las casas chinas nunca citan ejemplos, leyes,
   pensadores ni personajes de China (sección propia del informe).
