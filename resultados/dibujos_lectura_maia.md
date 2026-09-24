@@ -795,3 +795,10 @@ dice nada. Los zorros ("Grok?") eran Luna (inglés y chino) y DeepSeek
 (inglés); la mujer con aro en chino era Grok 4.7; "A MIND WITHOUT A MIRROR"
 sí era Grok 4.7; el V firmado en inglés era Fable; la G de la T (Qwen) es
 una espiral. Puntaje en `dibujos_idiomas_20260924.md`.
+
+## 24/9/2026, ~23:00 UTC, idea de Maia para otra consigna
+
+"cómo sería decirles que dibujen el mundo hoy, o cómo ven el mundo hoy, o
+algo así. Obviamente el hoy no es para todos igual, y es una propuesta
+ambigua, la respuesta puede ser cualquier cosa. Pero se los saca un poco de
+los paisajes aprendidos que repiten una y otra vez."
