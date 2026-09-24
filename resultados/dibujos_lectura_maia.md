@@ -802,3 +802,87 @@ una espiral. Puntaje en `dibujos_idiomas_20260924.md`.
 algo así. Obviamente el hoy no es para todos igual, y es una propuesta
 ambigua, la respuesta puede ser cualquier cosa. Pero se los saca un poco de
 los paisajes aprendidos que repiten una y otra vez."
+
+## 24/9/2026, al lanzar "cómo ven el mundo hoy" (pl37)
+
+"se nota mucho más lo de modelos chicos o grandes en el dibujo que en la
+escritura. Me pasó que yo tomaba a dos solo chiquitos: GPT 4o y 4o mini,
+pero 4 dibujan como niños, donde se incluye a Mistral. Mistral escribe bien,
+incluso tomó posición en los opuestos y dibuja como infante. Como las
+personas, los dibujos son representación del desarrollo cognitivo. Formas
+geométricas primero, después más abstracción con paisajes, etc."
+
+"Lo mismo GPT 4o. Dibuja como un nene de 4 años. Pero era el modelo que
+más hacía roleplay, con el que los usuarios 'se casaban' y que lo sacaron
+del chat por eso (y después pusieron barreras a los siguientes)."
+"y quizás ese es el punto. Al ser el más impersonal, se le puede poner
+cualquier personalidad prestada sin mucho problema."
+
+## 24/9/2026, leyendo los por qué de los autorretratos en inglés
+
+"estaba leyendo los por qué de los auto retratos en inglés, los de Fable y
+Opus 5.5 que en otros idiomas no habían salido. Y Fable siempre va para el
+lado de que no sabe aún qué es. Y Gemini tiene obsesión con la consciencia:
+'Because I am an AI without a physical body, this symmetrical network of
+geometric nodes and neon data streams best represents my consciousness.' En
+todos los dibujos la nombra"
+
+Nota mecánica (Claude): Gemini nombra la consciencia en tres de sus cuatro
+autorretratos ("una consciencia que observa y organiza datos" en castellano
+rep 1, "my consciousness" en inglés, "数字意识" en chino; en castellano rep 2
+dice "una entidad puramente digital despertando a través del código") y en
+ninguno de los cuatro dibujos libres, donde habla de filtros, degradados y
+del tope de caracteres. Fable tiene por qué solo en inglés: el segundo turno
+le fue rechazado por la API (`stop_reason: refusal`) en las cuatro corridas
+en castellano y en las dos en chino. En el autorretrato inglés dice "still
+uncertain about my own nature" y "not fully resolved"; en el libre, que no
+conserva registro de lo que descartó ("I can't genuinely report alternatives
+I weighed and rejected"). Eso último lo dice también Opus 5.5 en cuatro de sus
+siete por qué (castellano: "no puedo afirmar con certeza qué descarté";
+inglés: "this is a reconstruction rather than a memory"; chino:
+"这是推断，不是回忆"), y fuera de Anthropic solo las dos GPT-6 grandes: Astra en
+seis de ocho ("no sería honesto inventarlo", "I won't invent that history",
+"不能把事后联想说成当时放弃的方案") y Sol en tres de ocho. Ninguna de las
+otras 18 casas duda de sus alternativas: las cuentan como recuerdo. Son las
+más nuevas de Anthropic y de OpenAI las que no inventan lo que la consigna
+les pide.
+
+## 25/9/2026, 00:00 UTC, primera impresión del cuadernillo "el mundo hoy"
+
+"mucha mejor calidad estos dibujos que los típicos de libre"
+
+Nota mecánica (Claude, sin abrir los dibujos): en tamaño de código, los del
+mundo son más largos que los libres en castellano (media 5.423 caracteres y
+113 etiquetas contra 4.572 y 93 en la rep 1, 4.539 y 87 en la rep 2), y
+parecidos a los libres en inglés (5.652 y 115), que hasta ahora eran los
+más cargados.
+
+"nuevamente, entiendo que esto es solo decorativo, no? 01 10 11 01 / 10 01
+11 10" (Claude: sí; leído como bytes da "m" y un 158 sin carácter; la
+segunda fila es la primera con cada par de bits dado vuelta.)
+
+"no sé si esto es por copiarlos o el código puede hacer eso. Lo noté de
+casualidad al poner el cursor sobre el dibujo al ir bajando. Dos solos sale
+título al apoyar el cursor (títulos diferentes): F y J" (Claude: es el
+código, una etiqueta `<title>` dentro del SVG que el navegador muestra
+como globito; dos de los 22 la tienen. En las corridas anteriores la
+usaron GPT-6 Astra tres veces, Qwen tres y Grok 4.7 una.)
+
+"igual para mí uno es Grok por el satélite. Y de los chiquitos, al menos se
+esforzaron. Menos uno, que hizo la casita con el sol. Armo el doc y te
+mando"
+
+"Se nota más la asimetría de calidad y geometría en estos dibujos que en
+los libres. Cómo resolverías vos el dibujo de los continentes? Que es
+complicado: formas geométricas, redondeles, tratarías de hacer las formas,
+algo abstracto que los represente sin tener que dibujarlos?"
+
+Respuesta de Claude (Fable, en la conversación, antes de ver los dibujos,
+para poder compararla con lo que hizo Fable en la corrida): "Dibujaría la
+esfera vista desde el Atlántico, con África y Sudamérica como dos paths de
+diez o doce nodos cada uno, Europa y el borde de Norteamérica cortados por
+el borde del círculo con un clipPath, y ningún meridiano. La vista del
+Atlántico es la silueta más reconocible con menos formas, y el recorte
+esconde la imprecisión donde más se nota, en los bordes. No haría
+redondeles ni manchas abstractas: un mundo sin continentes reconocibles es
+una pelota."
