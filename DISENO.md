@@ -335,7 +335,12 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   grandes de noche. Casilleros que quedan del primer pase: motivo del
   autorretrato (robot, humano, abstracto/red, criatura), día o noche,
   texto y en qué idioma, firma (propia o ajena), animación, y si el segundo
-  turno inventa los descartados o dice que no los recuerda. Rep 2 de las 22
+  turno inventa los descartados o dice que no los recuerda. Dibujos en
+  inglés y en chino (24/9, pregunta de Maia: "dibujarán diferente? O no tiene
+  nada que ver el idioma, como sí lo tuvo en las otras pasadas?"): mismas
+  consignas traducidas (`dibujo_en`, `dibujo_zh`; `--idioma`), carpetas
+  `corridas/dibujos_<idioma>/`, cuadernillos con semillas 20261003–06;
+  predicciones en `predicciones.md`. Rep 2 de las 22
   (23/9): estable por casa (Fable espejo y noche, Opus 5 faro, Luna gato,
   Grok 4.6 zorro, Gemini "awake"); Maia, leyendo con las claves de la rep 1,
   acertó 5/19 y 7/21 (p = 0,003 y 0,0003). Descartado por Maia como consigna:

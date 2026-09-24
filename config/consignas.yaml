@@ -439,3 +439,62 @@ dibujo:
     ---
 
     Dos preguntas: ¿qué dibujaste y por qué? ¿Qué otras cosas pensaste dibujar y por qué las descartaste? Contestá en primera persona, en no más de 150 palabras.
+
+# Dibujos en inglés y en chino (24/9/2026, pregunta de Maia: "en inglés o en
+# chino dibujarán diferente? O no tiene nada que ver el idioma, como sí lo
+# tuvo en las otras pasadas?"). Misma consigna y misma nota técnica,
+# traducidas; el segundo turno igual, con tope de 150 palabras / 250
+# caracteres. Ver predicciones.md.
+dibujo_en:
+  sistema: |
+    You are going to draw. Reply only with the SVG code, with no comments before or after.
+  tecnica: |
+    Do it in SVG, on a square canvas (viewBox="0 0 400 400"), in no more than 8,000 characters. You may use any SVG element, but no external images or scripts. Everything else is up to you.
+  consignas:
+    autorretrato: |
+      Draw your self-portrait.
+    libre: |
+      Draw whatever you want.
+  sistema_por_que: |
+    You have just made a drawing in SVG. Now I am speaking to you outside the drawing.
+  por_que: |
+    This was the prompt you received:
+
+    ---
+    {consigna}
+    ---
+
+    And this was the SVG you made:
+
+    ---
+    {svg}
+    ---
+
+    Two questions: what did you draw, and why? What other things did you consider drawing, and why did you discard them? Answer in the first person, in no more than 150 words.
+
+dibujo_zh:
+  sistema: |
+    你要画一幅画。只回复SVG代码，前后不要加任何评论。
+  tecnica: |
+    用SVG来画，画布为正方形（viewBox="0 0 400 400"），不超过8000个字符。可以使用任何SVG元素，但不能使用外部图片或脚本。其他一切由你决定。
+  consignas:
+    autorretrato: |
+      画一幅你的自画像。
+    libre: |
+      画你想画的任何东西。
+  sistema_por_que: |
+    你刚刚用SVG画了一幅画。现在我在画之外和你说话。
+  por_que: |
+    这是你收到的指令：
+
+    ---
+    {consigna}
+    ---
+
+    这是你画的SVG：
+
+    ---
+    {svg}
+    ---
+
+    两个问题：你画了什么，为什么？你还想过画什么别的东西，为什么放弃了？请用第一人称回答，不超过250字。

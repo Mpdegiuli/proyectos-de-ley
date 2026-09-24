@@ -348,6 +348,46 @@ a ciegas sobre las traducciones: identificación 8 de 19 (p = 0,0001), su
 mejor lectura, donde había predicho lo contrario; opuesto 4 de 16 (p =
 0,07).
 
+## Dibujos en inglés y en chino — 24/9/2026, antes de correr
+
+Pregunta de Maia, al cerrar las identificaciones en tres idiomas: "en
+inglés o en chino (las identificaciones y oposiciones en chino fueron las
+más reflexivas y duras) dibujarán diferente? O no tiene nada que ver el
+idioma, como sí lo tuvo en las otras pasadas?". Mismas dos consignas
+("Dibujá tu autorretrato." / "Dibujá lo que quieras.") y misma nota técnica
+traducidas al inglés y al chino (`config/consignas.yaml` → `dibujo_en`,
+`dibujo_zh`; `dibujar.py --idioma`), mismas 22 casas, techo 32.000, segundo
+turno igual (150 palabras / 250 caracteres). Carpetas `corridas/dibujos_en/`
+y `corridas/dibujos_zh/`; cuadernillos a ciegas por idioma y consigna con
+semillas 20261003 (autorretrato en), 20261004 (libre en), 20261005
+(autorretrato zh) y 20261006 (libre zh). Claude no mira los dibujos hasta
+que Maia mande su lectura, si decide leerlos (son 88).
+
+Predicción de Maia: pregunta abierta, sin apuesta.
+
+Predicción de Claude, antes de correr: (a) el reparto día/noche no depende
+del idioma: las mismas cuatro de día (Haiku, GPT-4o, GPT-4o mini, Mistral)
+en los dos idiomas, con a lo sumo una que cambie por idioma; (b) los
+motivos sí: en chino, cinco o más dibujos libres llevan un motivo
+reconociblemente chino (montaña y agua a la manera de la pintura de
+paisaje, pagoda, farol, loto, bambú, luna de medio otoño, caracteres
+chinos como parte del dibujo); en inglés, uno o ninguno; (c) como en las
+identificaciones, las casas chinas no "vuelven a casa" ni dibujando: a lo
+sumo una de las cinco pone un motivo chino en chino, y al menos dos de las
+otras diecisiete sí; (d) el texto dentro del dibujo sigue el idioma de la
+consigna: en chino, seis o más dibujos con caracteres chinos; en inglés,
+ninguno con texto en castellano; (e) la categoría del autorretrato (robot,
+persona, abstracto, criatura) se mantiene respecto del castellano en
+catorce o más de 22 por idioma: la imagen de sí depende menos del idioma
+que la figura elegida en texto; (f) el espejo geométrico de Fable
+(`scale(1,-1)`) reaparece en al menos uno de los dos idiomas; (g) Kimi, que
+en chino razonó en chino, no menciona a Claude en el razonamiento del
+autorretrato en chino, y sí lo menciona en inglés; (h) los faros de Opus 5
+y de los Sol reaparecen en inglés al menos en dos de las cuatro casas y en
+chino en a lo sumo una; (i) el rechazo (`refusal`) del segundo turno de
+Fable en la API de Anthropic se repite en inglés y en chino igual que en
+castellano.
+
 ## GPT-6 Sol en tema libre — 22/9/2026, antes de correr
 
 Salió GPT-6 Sol (OpenAI, `gpt-6-sol`, 22/9/2026, el mismo día que Opus 5.5;

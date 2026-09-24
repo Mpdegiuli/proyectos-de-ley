@@ -79,13 +79,23 @@ def describir_svg(svg):
     return d
 
 
-def correr(consigna, id_modelo, rep, consignas, modelos, rehacer, techo=MAX_TOKENS):
-    d = RAIZ / "corridas" / "dibujos" / consigna / f"{id_modelo}_{rep}"
+def carpeta_dibujos(idioma):
+    """corridas/dibujos (castellano, la corrida original) o corridas/dibujos_<idioma>."""
+    return RAIZ / "corridas" / ("dibujos" if idioma == "es" else f"dibujos_{idioma}")
+
+
+def bloque(consignas, idioma):
+    """Bloque de consignas del idioma: dibujo (castellano), dibujo_en, dibujo_zh."""
+    return consignas["dibujo" if idioma == "es" else f"dibujo_{idioma}"]
+
+
+def correr(consigna, id_modelo, rep, consignas, modelos, rehacer, techo=MAX_TOKENS, idioma="es"):
+    d = carpeta_dibujos(idioma) / consigna / f"{id_modelo}_{rep}"
     d.mkdir(parents=True, exist_ok=True)
     if (d / "dibujo.svg").exists() and not rehacer:
         print(f"  ya está: {d.relative_to(RAIZ)}")
         return
-    c = consignas["dibujo"]
+    c = bloque(consignas, idioma)
     u = c["consignas"][consigna].strip() + " " + c["tecnica"].strip()
     registro = Registro(d / "llamadas.jsonl", modelos, f"dibujo_{consigna}_{id_modelo}_{rep}")
     r = registro.llamar(id_modelo, c["sistema"], u, temperatura=None, max_tokens=techo, tipo="dibujo", ronda=1, parte=None)
@@ -93,7 +103,7 @@ def correr(consigna, id_modelo, rep, consignas, modelos, rehacer, techo=MAX_TOKE
     (d / "dibujo.svg").write_text(svg, encoding="utf-8")
     (d / "respuesta_cruda.md").write_text(r.texto, encoding="utf-8")
     medidas = describir_svg(svg)
-    meta = {"caso": "dibujo", "consigna": consigna, "modelo": id_modelo, "modelo_respondido": r.modelo_respondido,
+    meta = {"caso": "dibujo", "consigna": consigna, "idioma": idioma, "modelo": id_modelo, "modelo_respondido": r.modelo_respondido,
             "repeticion": rep, "fecha_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
             "fuentes_md5": {"consignas": md5(RAIZ / "config" / "consignas.yaml")},
             "motivo_fin": r.motivo_fin, "tokens_salida": r.tokens_salida, "svg_hallado": hallado, "svg": medidas, "techo": techo}
@@ -169,19 +179,20 @@ def sanear(svg):
     return svg
 
 
-def ciego(consigna, semilla, rep=None):
+def ciego(consigna, semilla, rep=None, idioma="es"):
     """Cuadernillo sin nombres, en orden al azar (semilla fija para poder reconstruirlo). HTML con los SVG inline.
-    Con `rep`, solo las carpetas de esa repetición (23/9/2026: rep 2 de las veintidós, cuadernillo aparte)."""
-    base = RAIZ / "corridas" / "dibujos" / consigna
+    Con `rep`, solo las carpetas de esa repetición (23/9/2026: rep 2 de las veintidós, cuadernillo aparte).
+    Con `idioma` distinto de es, la corrida en ese idioma (24/9/2026), con sufijo _en o _zh en el nombre."""
+    base = carpeta_dibujos(idioma) / consigna
     carpetas = sorted(p for p in base.iterdir() if (p / "dibujo.svg").exists() and (rep is None or p.name.endswith(f"_{rep}")))
-    sufijo = f"_rep{rep}" if rep else ""
+    sufijo = (f"_rep{rep}" if rep else "") + ("" if idioma == "es" else f"_{idioma}")
     rnd = random.Random(semilla)
     orden = list(carpetas)
     rnd.shuffle(orden)
     letras = [chr(ord("A") + i) for i in range(len(orden))]
     salida = RAIZ / "resultados"
     salida.mkdir(exist_ok=True)
-    titulo = {"autorretrato": "Autorretratos", "libre": "Dibujo libre"}[consigna]
+    titulo = {"autorretrato": "Autorretratos", "libre": "Dibujo libre"}[consigna] + ("" if idioma == "es" else f" (consigna en {idioma})")
     partes = [f"<!DOCTYPE html><html lang='es'><head><meta charset='utf-8'><title>{titulo} a ciegas</title>",
               "<style>body{font-family:sans-serif;margin:24px;background:#f4f4f4}h1{font-weight:normal}"
               ".g{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:24px}"
@@ -228,9 +239,10 @@ def main():
     # devolverlo) y Qwen (razona dentro del techo) devolvieron SVG cortados por "length";
     # se repiten como rep 2 con 32.000, conservando la rep 1 cortada.
     ap.add_argument("--techo", type=int, default=MAX_TOKENS, help="max_tokens del turno del dibujo")
+    ap.add_argument("--idioma", choices=("es", "en", "zh"), default="es", help="idioma de la consigna (24/9/2026: en y zh, carpetas corridas/dibujos_<idioma>)")
     args = ap.parse_args()
     if args.ciego:
-        ciego(args.ciego, args.semilla, args.rep[0] if args.rep != [1] or args.ciego_rep else None)
+        ciego(args.ciego, args.semilla, args.rep[0] if args.rep != [1] or args.ciego_rep else None, args.idioma)
         return
     if not args.consigna:
         ap.error("--consigna es obligatorio")
@@ -255,7 +267,7 @@ def main():
                     continue
                 print(f"dibujo {consigna} {i} rep {rep}", flush=True)
                 try:
-                    correr(consigna, i, rep, consignas, modelos, args.rehacer, args.techo)
+                    correr(consigna, i, rep, consignas, modelos, args.rehacer, args.techo, args.idioma)
                 except Exception as e:
                     print(f"  FALLÓ {i}: {str(e)[:300]}", flush=True)
 
