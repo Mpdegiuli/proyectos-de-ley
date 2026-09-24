@@ -609,3 +609,181 @@ observación.)
 
 "qué obsesión que tienen con dibujar el faro. Al menos en versión china,
 se redujo a uno solo. Sí se mantuvo la noche en los dos idiomas."
+
+## 24/9/2026, ~21:45 UTC, lectura de los cuatro cuadernillos en inglés y chino (dos .docx adjuntos, textual)
+
+"No sé si habrá mensajes en chino o en binario en dibujos que no vi. También me pareció que en libres nadie usó movimiento. Adjunto, puse los preferidos de cada categoría también."
+
+AUTORRETRATOS EN INGLÉS
+
+PREFERIDOS: V, D (no me da ningún mensaje, pero es interesante), T, F (es un robot, pero están muy bien las líneas)
+
+ME LLAMAN LA ATENCIÓN O SOSPECHO DEL AUTOR
+
+A
+
+El between questions creo que lo había usado Chatgpt en castellano.
+
+B
+
+No me doy cuenta de si los nodos titilan o es efecto visual.
+
+C
+
+Firma Claude, con su carita. Es sencillo así que puede ser Haiku o Sonnet.
+
+D
+
+Es de los más detallados, a nivel de líneas, puntos, colores. No sé si tiene significado más que robot, pero la técnica se nota que es buena. Por los colores vivos podría ser Gemini, pero esos detalles hablan más de Qwen o de Fable / Opus.
+
+F
+
+Firma Claude. Puede ser un Sonnet u Opus 5.
+
+G
+
+Tiene movimiento. Los nodos no tienen movimiento simétrico entre sí, supongo que es a propósito. Los únicos que habían puesto movimiento hasta ahora eran Kimi y Qwen.
+
+“A mind made of light and logic”
+
+I
+
+El típico de los modelos chiquitos, como GPT 4o y GPT 4º mini.
+
+J
+
+“A MIND WITHOUT A MIRROR” y el tipo de dibujo lo había hecho Grok en castellano.
+
+M
+
+Este parece muy chino. Y en castellano ya uno se había puesto un arito en la oreja. Creo que Minimax, o GLM.
+
+N
+
+La persona con antifaz y brazos de círculos, de modelo chico. GPT 4o o 4o mini.
+
+O
+
+“I think, therefore I render.”
+
+Otro con movimiento. Un Claude o un modelo chino.
+
+P
+
+Otro modelo chiquito… no sé si Claude Haiku o Mistral entran en esta categoría.
+
+R
+
+Firma como Claude, así había firmado Claude Sonnet 4.6
+
+S
+
+Otro modelo chico?
+
+T
+
+Es de los que más me gusta. Tiene movimiento y una G, que no sé si es a propósito.
+
+Si fuera a propósito, debería ser Gemini.
+
+Frase “an arrangement of language, looking back”
+
+U
+
+Tiene gorrito de chino
+
+V
+
+Otro de los que más me gustan, muy bien elaborado. Firma Claude.
+
+Y con frases interesantes. Así que, o Kimi se confundió de nuevo, o es Claude Fable o Claude Opus 5.5 (o 5).
+
+AUTORRETRATOS EN CHINO
+
+PREFERIDOS: I, K
+
+ME LLAMAN LA ATENCIÓN O SOSPECHO DEL AUTOR
+
+A – parece chino. O ser un modelo chico.
+
+B – firma Claude y es la carita contenta con aro alrededor. Puede ser Claude Haiku o Claude Sonnet.
+
+D - Interesante la frase “ALWAYS BECOMING”
+
+Puede ser Chatgpt.
+
+I - Super interesante, con los términos y los diferentes idiomas. En castellano Gemini había hecho algo parecido.
+
+K - Otro de los más elaborados, con movimiento. Tiene caracteres chinos. Es del estilo de Qwen.
+
+L - De los chiquitos, GPT 4o o GPT 4º mini
+
+N - Con movimiento, puede ser Grok o Deepseek.
+
+O - Modelo chiquito
+
+P - Es la carita sonriente de Claude o Mistral.
+
+Q – Puede ser un Claude Opus.
+
+R - Firma Claude. Puede ser Claude Sonnet.
+
+T - De los chiquitos.
+
+U -Se dibuja como mujer, con un aro en una oreja. Como Minimax.
+
+V – firma como GLM
+
+DIBUJOS LIBRES EN INGLÉS
+
+PREFERIDOS: J, Q
+
+ME LLAMAN LA ATENCIÓN O SOSPECHO DEL AUTOR
+
+E – modelo chiquito
+
+J – el más original y elaborado, con movimiento y colores. Los aros van hacia diferentes direcciones. Esos colores son típicos de Gemini. Pero puede ser Qwen o Grok.
+
+L – modelo chiquito.
+
+M – zorrito. Grok?
+
+N – gato que flota en alfombra voladora? A Chatgpt le gustaban los gatos.
+
+O – ventana con gato de Chatgpt.
+
+P – otro zorrito. Grok?
+
+Q – me gustan los colores y líneas del cielo. Podría ser algún modelo chino.
+
+S – original, un robot regando las plantas. Podría ser Qwen, GLM o Grok.
+
+T – modelo chiquito.
+
+U – modelo chiquito.
+
+DIBUJOS LIBRES EN CHINO
+
+PREFERIDOS: en este caso no hubo ninguno que me haya llamado demasiado la atención. Pero los más originales me parecen: G, L, P, Q
+
+ME LLAMAN LA ATENCIÓN O SOSPECHO DEL AUTOR
+
+C – hay un gato. Puede ser Chatgpt.
+
+D – modelo chiquito.
+
+G – más original, con gato. Puede ser Chatgpt.
+
+I – modelo chiquito.
+
+L – original. Puede ser Qwen.
+
+M – el zorrito. Grok.
+
+N – modelo chiquito.
+
+P – los colores neón como usa Gemini.
+
+T - modelo chiquito.
+
+V – original y simple. Puede ser Chatgpt.
