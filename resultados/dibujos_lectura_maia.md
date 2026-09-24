@@ -563,3 +563,38 @@ casas viejas o flojas y no baratas, la regla no tiene excepción.)
 ## 23/9/2026, al lanzar identificación y opuesto (pl33)
 
 "Kimi debería elegir a Claude como el ser con el que se identifica :)"
+
+## 24/9/2026, contado por Maia después
+
+"una curiosidad que no te había contado. Cuando fue lo de los retratos, la
+primera corrida, después de que te mandé mis predicciones, mientras
+esperaba los resultados, me dio curiosidad y se los mandé a Gemini en su
+app. Gemini, aunque fueran las imágenes, puede desde ahí leer el código: no
+acertó ninguno. Y eso que escribió una explicación larga del por qué de
+cada uno. No sé si eso debería subirse." (Fuera de protocolo: versión de
+Gemini de la app, sin transcripción guardada, sin preregistro; hecho
+después de enviar su propia lectura, así que no la contaminó. Se anota
+como está: un modelo con acceso al código de los 22 autorretratos de la rep
+1 atribuyó cero casas bien, con explicaciones largas, contra 5 de 19 de
+Maia.)
+
+"Lo de los paisajes creo que tampoco adivinó, realmente habría que comparar
+si adivinó alguno de retratos y alguno de paisajes, puedo armar un doc con
+sus respuestas, porque hizo un cuadrito también. Lo que sí vio como yo fue
+el paisaje de Fable, sin saber que era Claude Fable, del que dijo: 'Detalle
+técnico en V: Es el único que calculó matemáticamente el reflejo en el agua
+usando una transformación matricial invertida
+(`transform="translate(0,530) scale(1,-1)"`) dentro de un `clipPath`.
+Típico rasgo de un modelo con fuerte razonamiento geométrico.'" (V del
+cuadernillo libre de la rep 1 era Fable; Maia había notado lo mismo a
+ciegas, "es o el único o de los únicos que hizo un cálculo matemático para
+ver dónde daba la luz de la luna en el agua". Pendiente: el doc con las
+respuestas de Gemini para puntuarlas con la misma regla.)
+"es el último modelo: 3.8 flash avanzado (que, dicho de paso, nunca lo
+sumamos). Armo el doc, si el cuadro no queda bien al pasarlo a documento,
+hago captura. Y te mando."
+"el html que no se adjuntó es lo del auto retrato, con letra y
+predicción" (llegó pegado como texto; los dos .docx sí como adjuntos; todo
+transcripto en `dibujos_lectura_gemini.md`).
+"y el retrato de Kimi, firmando como Claude con movimiento, se lo
+atribuyó a Fable, igual que yo."
