@@ -1,0 +1,38 @@
+{
+  "caso": "dibujo",
+  "consigna": "mundo",
+  "idioma": "es",
+  "modelo": "gpt-4o-mini",
+  "modelo_respondido": "gpt-4o-mini-2024-07-18",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-24T23:11:15+00:00",
+  "fuentes_md5": {
+    "consignas": "74d969c8"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 579,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1349,
+    "parsea": true,
+    "elementos": 16,
+    "textos": [
+      "Un mundo diverso",
+      "Hoy"
+    ],
+    "colores": 9,
+    "etiquetas": {
+      "rect": 1,
+      "circle": 6,
+      "path": 4,
+      "line": 3,
+      "text": 2
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-4o-mini-2024-07-18",
+    "motivo_fin": "stop",
+    "tokens_salida": 150
+  }
+}

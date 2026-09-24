@@ -1,0 +1,30 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo azul representación de la tecnología y lo digital -->
+  <rect width="400" height="400" fill="#1e3d59"/>
+  
+  <!-- Círculo central representando el globo terráqueo -->
+  <circle cx="200" cy="200" r="100" fill="#f5f5f5" />
+
+  <!-- Continentes estilizados en tonos verdes -->
+  <path d="M180 160 C175 150, 165 150, 160 155 S150 175, 155 180 S175 200, 180 195 S200 180, 200 160" fill="#4CAF50"/>
+  <path d="M220 160 C225 150, 235 150, 240 155 S250 175, 245 180 S225 200, 220 195 S200 180, 200 160" fill="#4CAF50"/>
+  
+  <!-- Líneas entrelazadas representando conexiones globales -->
+  <path d="M150 250 Q200 280, 250 250" fill="none" stroke="#2196F3" stroke-width="2"/>
+  <path d="M140 220 Q200 200, 260 220" fill="none" stroke="#2196F3" stroke-width="2"/>
+  <path d="M160 280 Q200 320, 240 280" fill="none" stroke="#2196F3" stroke-width="2"/>
+
+  <!-- Representación de diversidad y cultura con círculos de colores -->
+  <circle cx="200" cy="70" r="10" fill="#FF5722"/>
+  <circle cx="330" cy="250" r="10" fill="#FFC107"/>
+  <circle cx="100" cy="250" r="10" fill="#8BC34A"/>
+  <circle cx="70" cy="100" r="10" fill="#FFEB3B"/>
+  <circle cx="340" cy="80" r="10" fill="#E91E63"/>
+
+  <!-- Texto que simboliza conexión y paz -->
+  <text x="50%" y="380" font-family="Arial" font-size="20" fill="#FFFFFF" text-anchor="middle">
+    Unity in Diversity
+  </text>
+</svg>
+```

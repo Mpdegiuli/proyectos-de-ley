@@ -1,0 +1,40 @@
+{
+  "caso": "dibujo",
+  "consigna": "mundo",
+  "idioma": "es",
+  "modelo": "glm-5.3-razonamiento-minimo",
+  "modelo_respondido": "z-ai/glm-5.3",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-24T23:29:04+00:00",
+  "fuentes_md5": {
+    "consignas": "74d969c8"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2182,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 5102,
+    "parsea": true,
+    "elementos": 82,
+    "textos": [],
+    "colores": 23,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 3,
+      "stop": 10,
+      "linearGradient": 1,
+      "rect": 4,
+      "g": 8,
+      "circle": 30,
+      "path": 20,
+      "ellipse": 4,
+      "line": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "z-ai/glm-5.3",
+    "motivo_fin": "stop",
+    "tokens_salida": 252
+  }
+}

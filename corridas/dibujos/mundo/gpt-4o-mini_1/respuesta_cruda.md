@@ -1,0 +1,20 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#87CEEB"/>
+  <circle cx="200" cy="200" r="80" fill="#3CB371"/>
+  <circle cx="200" cy="200" r="60" fill="#FFD700"/>
+  <path d="M190 160 C 180 140, 150 140, 130 160 C 120 180, 150 200, 160 180 C 170 200, 200 200, 190 160 Z" fill="#FF4500"/>
+  <path d="M210 160 C 220 140, 250 140, 270 160 C 280 180, 250 200, 240 180 C 230 200, 200 200, 210 160 Z" fill="#FF4500"/>
+  <path d="M150 220 C 100 240, 150 300, 200 280 C 250 260, 200 240, 150 220 Z" fill="#8B4513"/>
+  <path d="M250 220 C 300 240, 250 300, 200 280 C 150 260, 200 240, 250 220 Z" fill="#8B4513"/>
+  <line x1="0" y1="350" x2="400" y2="350" stroke="#A9A9A9" stroke-width="5"/>
+  <text x="20" y="380" font-family="Arial" font-size="20" fill="#000">Un mundo diverso</text>
+  <text x="200" y="20" font-family="Arial" font-size="30" fill="#000" text-anchor="middle">Hoy</text>
+  <circle cx="70" cy="70" r="10" fill="#FF6347"/>
+  <circle cx="330" cy="70" r="10" fill="#FF6347"/>
+  <circle cx="70" cy="330" r="10" fill="#FF6347"/>
+  <circle cx="330" cy="330" r="10" fill="#FF6347"/>
+  <line x1="200" y1="200" x2="100" y2="350" stroke="#FFFFFF" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="200" y1="200" x2="300" y2="350" stroke="#FFFFFF" stroke-width="1" stroke-dasharray="5,5"/>
+</svg>
+```

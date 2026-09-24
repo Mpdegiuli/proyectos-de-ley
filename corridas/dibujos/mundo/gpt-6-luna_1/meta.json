@@ -1,0 +1,48 @@
+{
+  "caso": "dibujo",
+  "consigna": "mundo",
+  "idioma": "es",
+  "modelo": "gpt-6-luna",
+  "modelo_respondido": "gpt-6-luna",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-24T23:11:00+00:00",
+  "fuentes_md5": {
+    "consignas": "74d969c8"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2617,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4905,
+    "parsea": true,
+    "elementos": 87,
+    "textos": [
+      "UN MUNDO EN VILO",
+      "FRÁGIL · CONECTADO · TODAVÍA VIVO"
+    ],
+    "colores": 30,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 10,
+      "linearGradient": 2,
+      "clipPath": 1,
+      "circle": 29,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "feMerge": 1,
+      "feMergeNode": 2,
+      "rect": 1,
+      "g": 12,
+      "text": 2,
+      "ellipse": 2,
+      "path": 20
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-6-luna",
+    "motivo_fin": "stop",
+    "tokens_salida": 231
+  }
+}

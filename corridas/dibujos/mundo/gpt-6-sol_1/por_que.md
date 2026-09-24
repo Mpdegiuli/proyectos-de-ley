@@ -1,0 +1,3 @@
+Dibujé la Tierra sostenida por dos manos. Sobre ella puse conexiones entre distintos puntos, una ciudad con humo y aerogeneradores; debajo, un brote. Quise mostrar cómo veo el mundo hoy: conectado y capaz de crear soluciones, pero también contaminado y frágil. Las manos y el brote expresan que cuidarlo depende de lo que hagamos.
+
+Como alternativas, habría dibujado una ciudad partida entre desastre y esperanza, pero esa división me parecía demasiado tajante. También podría haber hecho un mapa lleno de noticias; lo descartaría porque habría quedado recargado y atado a un día concreto.

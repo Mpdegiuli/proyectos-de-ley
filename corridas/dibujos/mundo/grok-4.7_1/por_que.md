@@ -1,0 +1,3 @@
+Dibujé la Tierra al anochecer, vista desde afuera: el día partido de la noche, ciudades encendidas y unidas por una red, dos órbitas, un satélite y una línea que sale hacia una estrella. Quise el mundo de hoy como algo pequeño, ya inseparable de sus enlaces —datos, rutas, una mirada desde arriba—. El atardecer no es nostalgia: es cuando se ve a la vez la luz que queda y la que pusimos nosotros.
+
+Pensé en una ciudad abarrotada, en un teléfono lleno de notificaciones, en un mapa de incendios. Los descarté porque cerraban la escala: o eran demasiado locales, o pura denuncia. Desde la órbita caben la red, la noche y la fragilidad sin elegir un solo conflicto.

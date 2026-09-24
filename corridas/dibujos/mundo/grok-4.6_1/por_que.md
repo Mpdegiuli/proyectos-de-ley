@@ -1,0 +1,3 @@
+Dibujé un planeta en una noche oscura y cuadriculada: océano, continentes, un velo de calor y hielo que se va. Puntos y líneas doradas unen ciudades o satélites. Alrededor hay pantallas —un rostro, datos, un árbol, una mira— y abajo una planta que nace de la tierra. El lema es «un mundo roto, aún sostenido»: quise ver la Tierra de hoy, conectada, caliente, observada, frágil, pero todavía viva.
+
+Pensé en una ciudad en llamas, un feed de noticias o un reloj derretido. Los descarté por ser demasiado literales o apocalípticos; preferí un solo símbolo —el globo y un brote— para que la tensión entre rotura y cuidado se lea de un vistazo.

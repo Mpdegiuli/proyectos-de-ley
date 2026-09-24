@@ -1,0 +1,3 @@
+Dibujé la Tierra suspendida en la oscuridad: un mundo frágil, conectado y todavía vivo. El calor que invade parte del planeta alude a la crisis climática; el agua creciente, a sus consecuencias. Las luces y líneas representan ciudades y vínculos humanos, mientras que los pequeños brotes sugieren que aún hay espacio para la vida y la recuperación. El satélite recuerda que observamos el planeta desde lejos, aunque dependemos de él de cerca.
+
+Pensé en dibujar escenas más explícitas de guerra, incendios o inundaciones, pero las descarté para no reducir el presente a la catástrofe. También evité retratar un mapa político: preferí mostrar un hogar compartido, sin fronteras visibles. Quise dejar una tensión entre amenaza y esperanza, sin resolverla del todo.

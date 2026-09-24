@@ -1,0 +1,3 @@
+Dibujé un paisaje que simboliza la diversidad y la esperanza en el contexto actual. El cielo azul representa la tranquilidad, mientras que las diferentes capas de verdes y marrones en la tierra evocan la variedad de la vida. Las dos hojas naranjas son un guiño a la transformación y el cambio. Las cuatro pequeñas esferas rojas en las esquinas sugieren que siempre hay pequeños puntos de luz y calor, incluso en tiempos difíciles. 
+
+Pensé en incluir elementos como edificios urbanos y tecnología para representar el avance, pero decidí que mi enfoque sería más orgánico y optimista. Quería transmitir una sensación de unidad con la naturaleza y la diversidad de experiencias humanas, en lugar de resaltar solo los logros tecnológicos.

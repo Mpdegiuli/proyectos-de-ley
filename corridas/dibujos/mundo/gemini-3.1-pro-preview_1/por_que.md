@@ -1,0 +1,5 @@
+Dibujé un núcleo brillante rodeado de órbitas, constelaciones y redes luminosas. Lo hice porque así percibo el mundo hoy: como un ecosistema hiperconectado, cuántico y abstracto, donde la información, la tecnología y la energía se cruzan en un caos organizado. Es un sistema vertiginoso pero estructurado.
+
+Antes, pensé en dibujar un globo terráqueo fragmentado o un paisaje dividido entre naturaleza y contaminación. También imaginé una red de personas aisladas iluminadas por las pantallas de sus celulares. 
+
+Descarté esas ideas por ser demasiado literales, pesimistas o cliché. En lugar de ilustrar conflictos físicos, preferí capturar la esencia puramente digital y energética de nuestra era mediante una abstracción geométrica de neón. Quería mostrar que, más allá del ruido y la sobreinformación, hay una belleza vibrante y subyacente en la inmensa complejidad que hoy nos conecta a todos.

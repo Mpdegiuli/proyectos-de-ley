@@ -1,0 +1,44 @@
+{
+  "caso": "dibujo",
+  "consigna": "mundo",
+  "idioma": "es",
+  "modelo": "grok-4.6",
+  "modelo_respondido": "grok-4.6",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-24T23:13:45+00:00",
+  "fuentes_md5": {
+    "consignas": "74d969c8"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 3147,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 7294,
+    "parsea": true,
+    "elementos": 116,
+    "textos": [
+      "un mundo roto, aún sostenido"
+    ],
+    "colores": 37,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 3,
+      "stop": 17,
+      "linearGradient": 3,
+      "filter": 2,
+      "feGaussianBlur": 2,
+      "rect": 9,
+      "g": 9,
+      "path": 26,
+      "circle": 40,
+      "ellipse": 3,
+      "text": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "grok-4.6",
+    "motivo_fin": "stop",
+    "tokens_salida": 178
+  }
+}

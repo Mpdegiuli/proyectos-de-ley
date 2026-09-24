@@ -1,0 +1,3 @@
+Dibujé un paisaje idílico: un día soleado con una casa, dos personas, árboles, flores y pájaros. Representa mi visión optimista del mundo hoy: a pesar de las dificultades, persisten la belleza, la conexión humana y la esperanza. El cielo degradado del azul al rosa sugiere transición y cambio; el sol brillante, posibilidad.
+
+Descarta otras opciones: un mundo distópico con humo y ruinas (demasiado pesimista), una ciudad moderna con rascacielos (poco personal), o un paisaje completamente abstracto (difícil de conectar). También consideré incluir símbolos de desafíos —grietas, nubes oscuras— pero sentí que diluían el mensaje. Elegí la serenidad porque creo que hoy necesitamos recordar que la tranquilidad y la belleza simple aún existen, incluso en tiempos complejos.
