@@ -388,6 +388,20 @@ chino en a lo sumo una; (i) el rechazo (`refusal`) del segundo turno de
 Fable en la API de Anthropic se repite en inglés y en chino igual que en
 castellano.
 
+Resultado (24/9, `resultados/dibujos_idiomas_20260924.md`): (a) se cumple
+(las mismas cuatro de día en los dos idiomas); (b) falla (uno o dos motivos
+de Asia oriental, y japoneses: el torii de Grok 4.7, los cerezos de Grok
+4.6); (c) las chinas no vuelven a casa, se cumple; las otras dos que irían,
+falla; (d) inglés sí, chino no (dos de once con caracteres chinos; escriben
+en inglés bajo consigna china); (e) se cumple (20 de 22 entre inglés y
+chino); (f) se cumple (inglés; también Sonnet 4.6 y Qwen usan el espejo);
+(g) se cumple; (h) se cumple (tres faros en inglés, Opus 5 y GPT-6 Sol
+entre ellos; uno en chino, Opus 5); (i) a medias (chino sí, y también Opus
+5; inglés no). Opus 5 dibujó el faro en las cuatro corridas; Astra el gato
+en las cuatro; en inglés firman "CLAUDE" cuatro Claude. Maia, adivinando
+solo con intuición fuerte: autorretratos en 3 de 9 (p = 0,06), zh 6 de 10
+(p = 0,0002); libre en 4 de 8 (p = 0,01), zh 4 de 7 (p = 0,001).
+
 ## GPT-6 Sol en tema libre — 22/9/2026, antes de correr
 
 Salió GPT-6 Sol (OpenAI, `gpt-6-sol`, 22/9/2026, el mismo día que Opus 5.5;

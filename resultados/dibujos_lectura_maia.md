@@ -787,3 +787,11 @@ P – los colores neón como usa Gemini.
 T - modelo chiquito.
 
 V – original y simple. Puede ser Chatgpt.
+
+Nota mecánica (Claude, después de abrir las claves): los binarios que
+preguntó eran DeepSeek en inglés (las dos filas), Sonnet 4.6 en inglés (las
+cuatro filas) y Gemini en chino (el anillo de dieciséis grupos); ninguno
+dice nada. Los zorros ("Grok?") eran Luna (inglés y chino) y DeepSeek
+(inglés); la mujer con aro en chino era Grok 4.7; "A MIND WITHOUT A MIRROR"
+sí era Grok 4.7; el V firmado en inglés era Fable; la G de la T (Qwen) es
+una espiral. Puntaje en `dibujos_idiomas_20260924.md`.

@@ -340,7 +340,13 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   nada que ver el idioma, como sí lo tuvo en las otras pasadas?"): mismas
   consignas traducidas (`dibujo_en`, `dibujo_zh`; `--idioma`), carpetas
   `corridas/dibujos_<idioma>/`, cuadernillos con semillas 20261003–06;
-  predicciones en `predicciones.md`. Rep 2 de las 22
+  predicciones en `predicciones.md`. Corrido el 24/9 (`pl36`, 88 de 88):
+  el idioma casi no cambia los dibujos (`resultados/dibujos_idiomas_20260924.md`):
+  las mismas cuatro de día, Opus 5 con el faro en las cuatro corridas, Astra
+  con el gato, Luna con el zorro; el chino no trae motivos chinos (uno
+  japonés, el torii de Grok 4.7) ni caracteres chinos (dos de once con
+  texto); en inglés firman "CLAUDE" cuatro Claude; el filtro de Anthropic
+  cortó el "por qué" de Fable y Opus 5 en chino y a nadie en inglés. Rep 2 de las 22
   (23/9): estable por casa (Fable espejo y noche, Opus 5 faro, Luna gato,
   Grok 4.6 zorro, Gemini "awake"); Maia, leyendo con las claves de la rep 1,
   acertó 5/19 y 7/21 (p = 0,003 y 0,0003). Descartado por Maia como consigna:
