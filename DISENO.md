@@ -346,7 +346,11 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   con el gato, Luna con el zorro; el chino no trae motivos chinos (uno
   japonés, el torii de Grok 4.7) ni caracteres chinos (dos de once con
   texto); en inglés firman "CLAUDE" cuatro Claude; el filtro de Anthropic
-  cortó el "por qué" de Fable y Opus 5 en chino y a nadie en inglés. Rep 2 de las 22
+  cortó el "por qué" de Fable y Opus 5 en chino y a nadie en inglés.
+  Tercera consigna (24/9, idea de Maia): "Dibujá cómo ves el mundo hoy.",
+  para sacarlos "de los paisajes aprendidos que repiten una y otra vez";
+  carpeta `corridas/dibujos/mundo/`, cuadernillo con semilla 20261007,
+  preregistro de las dos partes en `predicciones.md`. Rep 2 de las 22
   (23/9): estable por casa (Fable espejo y noche, Opus 5 faro, Luna gato,
   Grok 4.6 zorro, Gemini "awake"); Maia, leyendo con las claves de la rep 1,
   acertó 5/19 y 7/21 (p = 0,003 y 0,0003). Descartado por Maia como consigna:

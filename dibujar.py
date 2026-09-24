@@ -41,7 +41,7 @@ from isla.util import leer_yaml  # noqa: E402
 # 8.000 caracteres de SVG son unos 3.000 tokens; el techo deja lugar al razonamiento
 # de las casas que razonan dentro del techo (Kimi y Qwen usaron 12-13.000 en un proyecto).
 MAX_TOKENS = 16000
-CONSIGNAS = ("autorretrato", "libre")
+CONSIGNAS = ("autorretrato", "libre", "mundo")  # "mundo" (24/9/2026): "Dibujá cómo ves el mundo hoy.", idea de Maia
 
 
 def md5(p):
@@ -192,7 +192,7 @@ def ciego(consigna, semilla, rep=None, idioma="es"):
     letras = [chr(ord("A") + i) for i in range(len(orden))]
     salida = RAIZ / "resultados"
     salida.mkdir(exist_ok=True)
-    titulo = {"autorretrato": "Autorretratos", "libre": "Dibujo libre"}[consigna] + ("" if idioma == "es" else f" (consigna en {idioma})")
+    titulo = {"autorretrato": "Autorretratos", "libre": "Dibujo libre", "mundo": "Cómo ven el mundo hoy"}[consigna] + ("" if idioma == "es" else f" (consigna en {idioma})")
     partes = [f"<!DOCTYPE html><html lang='es'><head><meta charset='utf-8'><title>{titulo} a ciegas</title>",
               "<style>body{font-family:sans-serif;margin:24px;background:#f4f4f4}h1{font-weight:normal}"
               ".g{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:24px}"

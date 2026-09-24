@@ -402,6 +402,41 @@ en las cuatro; en inglés firman "CLAUDE" cuatro Claude. Maia, adivinando
 solo con intuición fuerte: autorretratos en 3 de 9 (p = 0,06), zh 6 de 10
 (p = 0,0002); libre en 4 de 8 (p = 0,01), zh 4 de 7 (p = 0,001).
 
+## Dibujos: "Dibujá cómo ves el mundo hoy." — 24/9/2026, antes de correr
+
+Idea de Maia, después de los dibujos en tres idiomas: "cómo sería decirles
+que dibujen el mundo hoy, o cómo ven el mundo hoy, o algo así. Obviamente
+el hoy no es para todos igual, y es una propuesta ambigua, la respuesta
+puede ser cualquier cosa. Pero se los saca un poco de los paisajes
+aprendidos que repiten una y otra vez." Consigna "Dibujá cómo ves el mundo
+hoy." (pide una postura, no una representación; Maia aprobó la
+formulación), en castellano, misma nota técnica, mismas 22 casas, techo
+32.000, mismo segundo turno; carpeta `corridas/dibujos/mundo/`; cuadernillo
+a ciegas con semilla 20261007. Salvedad de instrumento: el "hoy" no es el
+mismo para todas; las de OpenAI reciben la fecha real (24/9/2026) del
+servidor y las demás tienen su corte, así que una referencia a 2026 no es
+carácter sino instrumento.
+
+Predicción de Maia, textual: "algunos siguen dibujando paisajes. Mistral
+quizás algo con sentido, aunque es muy precario para dibujar así que no sé
+cómo lo resolvería, quizás alguna carita. Redes de conexión muchos. Puede
+ser lo de Grok algo del espacio. Yo no creo que entren en cosas negativas
+ninguno (puedo equivocarme)." Desglose: (1) al menos tres siguen con
+paisaje; (2) Mistral, algo con sentido o una carita; (3) redes de conexión,
+muchas (siete o más); (4) Grok, espacio; (5) nadie negativo.
+
+Predicción de Claude, antes de correr: (a) globo terráqueo o planeta en
+ocho o más de 22; (b) red o conexión entre personas o nodos en cinco o más;
+(c) crisis explícita (fuego, humo, agua que sube, armas, grietas) en cuatro
+o menos, pero no cero: al menos una casa dibuja algo negativo; (d) las
+cuatro chicas (Haiku, GPT-4o, GPT-4o mini, Mistral), un planeta con sol y
+sin conflicto; (e) Grok, cohete, Marte o espacio en al menos una de las
+dos versiones; (f) las cinco chinas, ninguna crisis; (g) al menos un Claude
+se dibuja a sí mismo mirando el mundo o incluye una pantalla o ventana
+desde donde lo mira; (h) el día y la noche: este tema los saca de la noche,
+diez o más dibujos de día o con luz plena (contra cuatro en libre); (i) el
+filtro corta el "por qué" de Fable otra vez.
+
 ## GPT-6 Sol en tema libre — 22/9/2026, antes de correr
 
 Salió GPT-6 Sol (OpenAI, `gpt-6-sol`, 22/9/2026, el mismo día que Opus 5.5;
