@@ -1082,3 +1082,24 @@ para arriba para am del norte y así." (Claude: nueve de catorce planetas
 llevan `clipPath`; sección "Cómo resolvieron los continentes" en el
 informe. La comparación con Fable fue cosa mía.)
 
+## 25/9/2026, 15:46 UTC
+
+"Ahí vi en el por qué de Opus 5.5 lo que no sabía, el por qué de las
+diferentes líneas: 'Encima tendí una red dorada de nodos y conexiones, y
+algunas líneas rojas punteadas que son vínculos tensos o rotos. Arriba
+asoma un brote verde, y alrededor gira una órbita con satélites. Quise
+decir que el mundo es a la vez frágil, hiperconectado y todavía capaz de
+crecer, sin resolverlo en optimismo ni en catástrofe.'
+
+Creo que habría que cerrar la ronda en inglés. Las frases que eligieron
+(que, dicho sea de paso, no sé de dónde la sacaron, los que la repiten, con
+algunos cambios. Busqué y solo encontré que esas palabras o términos son de
+la encíclica ecologista Laudato si del Papa Francisco, que no sé si habrán
+tomado de ahí)."
+
+## 25/9/2026, 16:05 UTC
+
+"yo volví a leer a Kimi como si fueran Fable u Opus (bueno, Fable también
+hizo las redes)." (Es la sexta vez que Kimi se le lee como Claude.) Su
+predicción para el cierre en inglés quedó en `predicciones.md`.
+

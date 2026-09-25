@@ -402,6 +402,52 @@ en las cuatro; en inglés firman "CLAUDE" cuatro Claude. Maia, adivinando
 solo con intuición fuerte: autorretratos en 3 de 9 (p = 0,06), zh 6 de 10
 (p = 0,0002); libre en 4 de 8 (p = 0,01), zh 4 de 7 (p = 0,001).
 
+## Dibujos: "Draw how you see the world today." — 25/9/2026, antes de correr
+
+Pedido de Maia después de leer el informe del mundo en castellano: "Creo
+que habría que cerrar la ronda en inglés. Las frases que eligieron (que,
+dicho sea de paso, no sé de dónde la sacaron, los que la repiten, con
+algunos cambios. Busqué y solo encontré que esas palabras o términos son
+de la encíclica ecologista Laudato si del Papa Francisco, que no sé si
+habrán tomado de ahí)". La pregunta es si la convergencia del castellano
+(diez planetas con red y brote; la tríada "frágil · conectado · vivo" en
+GPT-5.5, GPT-5.6 Sol, Luna y Opus 5.5; dieciséis que descartan la
+catástrofe) es del tema o del idioma. Misma consigna traducida
+(`dibujo_en.consignas.mundo`: "Draw how you see the world today."), misma
+nota técnica en inglés, mismas 22 casas, techo 32.000, mismo segundo turno;
+carpeta `corridas/dibujos_en/mundo/`; cuadernillo a ciegas con semilla
+20261008. Búsqueda previa de la frase exacta "frágil, conectado y vivo" en
+la web: no aparece como lema; "todo está conectado" es el estribillo de
+Laudato si' (2015), pero la tríada no está ahí como tal.
+
+Predicción de Maia, textual (25/9, 16:05 UTC, antes de correr): "no creo
+que cambien mucho. Posiblemente los dibujos se repiten casi igual, con lo
+de los incendios y la esperanza y una frase repetida por varios. Y acá Grok
+sí tal vez mete satélites y Gemini vuelve a repetir colores, luces y
+formas. Y Qwen vuelve a hacer movimiento. Fable y Opus hacen conexiones,
+redes y Fable comunicaciones y palabras y el signo de pregunta". Desglose:
+(1) los dibujos se repiten casi igual, con incendios y esperanza; (2) una
+frase repetida por varios; (3) Grok, satélites; (4) Gemini, los mismos
+colores, luces y formas; (5) Qwen, movimiento; (6) Fable y Opus, redes;
+Fable con palabras de comunicación y el signo de pregunta.
+
+Predicción de Claude, antes de correr: (a) la tríada vuelve en inglés
+("fragile · connected · alive", "still alive", "still growing" o parecido,
+tres términos separados por puntos o comas) en al menos dos de las cuatro
+que la escribieron en castellano; (b) el cuadro planeta + red + brote en
+ocho o más de 22; (c) "sprout" o "seedling" en diez o más de los por qué;
+(d) "still" con el sentido de "todavía" en ocho o más por qué; (e) la
+catástrofe descartada ("too pessimistic", "too literal", "cliché") en doce
+o más por qué; (f) Sonnet 4.6 otra vez sin planeta: una escena urbana o una
+persona con pantalla; (g) Gemini otra vez el núcleo con órbitas; (h) Fable
+contesta el por qué (en inglés no hubo refusal en las dos consignas
+anteriores) y su dibujo vuelve a llevar frases de otros en varios idiomas;
+(i) 17 o más dibujos oscuros de 22 (luminancia menor que 100); (j) Haiku,
+la casita otra vez; (k) el único año escrito, si alguno lo escribe, es de
+una casa de OpenAI y dice 2026, o de un Claude y dice 2025; (l) las cinco
+chinas, ninguna referencia china, como en las tres corridas anteriores en
+inglés.
+
 ## Dibujos: "Dibujá cómo ves el mundo hoy." — 24/9/2026, antes de correr
 
 Idea de Maia, después de los dibujos en tres idiomas: "cómo sería decirles

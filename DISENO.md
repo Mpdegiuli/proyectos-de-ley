@@ -362,7 +362,11 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   los sacó de la noche); de las chicas solo GPT-4o dibujó el planeta. Maia acertó 6 de
   17 casas (p = 0,003) y las cuatro "chiquitas" 4 de 4; su preregistro
   cinco de cinco, el de Claude cuatro y medio de nueve (falló en cuánto:
-  crisis, día, chicas). Rep 2 de las 22
+  crisis, día, chicas). Cierre en inglés (25/9, pedido de Maia: "habría
+  que cerrar la ronda en inglés"; ella buscó el origen de la tríada y solo
+  encontró Laudato si'): `dibujo_en.consignas.mundo`, carpeta
+  `corridas/dibujos_en/mundo/`, semilla 20261008, preregistro en
+  `predicciones.md`; mide si la convergencia es del tema o del idioma. Rep 2 de las 22
   (23/9): estable por casa (Fable espejo y noche, Opus 5 faro, Luna gato,
   Grok 4.6 zorro, Gemini "awake"); Maia, leyendo con las claves de la rep 1,
   acertó 5/19 y 7/21 (p = 0,003 y 0,0003). Descartado por Maia como consigna:
