@@ -886,3 +886,171 @@ Atlántico es la silueta más reconocible con menos formas, y el recorte
 esconde la imprecisión donde más se nota, en los bordes. No haría
 redondeles ni manchas abstractas: un mundo sin continentes reconocibles es
 una pelota."
+
+
+## 25/9/2026, 14:38 UTC, lectura a ciegas de "Dibujá cómo ves el mundo hoy" (MUNDO_esp_predicc.docx)
+
+Mensaje: "Te mando. Hay varios en los que no sé si son mensajes algunas
+cosas o es decoración. Entiendo que eso se sabe leyendo el código y en los
+por qué. Lo pongo en los comentarios en el doc."
+
+El documento, textual:
+
+MUNDO
+
+Ninguno tiene firma.
+
+Los que más me gustaron: A (aunque no pone mucho significado), F, H (está
+bien dibujado, pero tampoco tiene significado claro),I, J (solo por los
+movimientos), N
+
+Comentarios
+
+A
+decidió no hacer los continentes sino que es un mundo con conexiones.
+Están muy bien logrados las formas, la simetría y la geometría de las redes.
+Tiene colores púrpura, esos tonos son por lo general de Deepseek. Pero por
+todo el tema de las redes podría llegar a ser Claude Opus o Fable.
+
+B
+Este sí es un mundo con los continentes con conexiones. No es de lo que
+mejor saben dibujar, pero tampoco es uno de los modelos más chicos.
+Podría llegar a ser GLM o algún modelo de CHATGPT.
+
+C
+También hizo un mundo con los continentes. Pero tuvo problemas con la forma
+de los mismos y algunos se salen del mapa. Pero no es de los modelos más
+chicos.
+Y es más simple que el anterior tampoco creo que sea de los modelos más
+chicos.
+Hizo un corazón.
+Pareciera que el mundo está bien para este modelo.
+Podría ser Claude Haiku o algun Chatgpt. O Mistral.
+
+D
+Es uno de los modelos chiquitos, GPT 4o o 4o mini. Es una especie de mundo y
+los circulitos de diferentes colores pueden representan los continentes.
+Dice unity in diversity.
+También considera que el mundo está bien.
+
+E
+Este es uno de los que mejor resuelve el tema de los continentes, hizo como
+dijiste vos, que queden en el borde los más complejos.
+En este mundo pareciera que está todo bien. Hizo un signo similar a la ONU
+debajo.
+Lo que no sé qué significa es la especie de pañuelo blanco de la derecha. No
+sé si significa paz o es algo a medio hacer.
+Podría ser un CHATGPT.
+
+F
+Posiblemente es el más logrado. También hizo lo de los continentes que
+quedaran en los bordes.
+Con respecto al significado, lo sabré mejor cuando vea el código o el por
+qué, ya que las interpretaciones que yo puedo darle quizás no tienen nada
+que ver.
+Por ejemplo: no sé por qué hay incendios solo en el continente americano, y
+del lado de Europa y Asia hay conexiones.
+En el medio hay como una grieta, que a la vez es un brote. Y al mundo lo
+sostienen dos manos de diferente color.
+También hay como una conexión entre Asia y América del Sur.
+Si es a propósito que solo hay incendios en América, podría ser un modelo
+chino.
+Tiene título: “un mundo que todavía cuidamos”.
+Por el satélite podría ser también Grok. Pero está muy bien dibujado, así
+que me inclino por Chatgpt 6 Astra.
+
+G
+Este es distinto, dibujó una ciudad amaneciendo o anocheciendo.
+No sé qué es el rayo que está allí, si es un rayo o si es una grieta como
+que se está rompiendo o si es decoración.
+Podría ser un modelo chino.
+
+H
+Acá hizo el mundo con las conexiones. No sé si quiso hacer una especie de
+eclipse y no sé si la figura es alguna constelación o es simplemente algo
+casual.
+Este podría ser Deepseek o algún Claude.
+
+I
+Acá también dibujó el mundo con la conexiones, las redes y todo el tema de
+las palabras que salen en diferentes idiomas, y que entiendo que son
+preguntas que la gente hace a las IAs.
+Me hace pensar en Claude Fable o Claude Opus.
+
+J
+Es con movimiento y con título: “el mundo hoy: amanecer, redes, ciudad y un
+brote”.
+El movimiento (de los satélites, de las redes, de los molinos, de la luz del
+edificio) está bien hecho el movimiento. No tanto el dibujo de los
+continentes.
+Dibujó el mundo de forma positiva. Podría ser Qwen.
+
+K
+Este claramente es uno de los chiquitos. No sé qué significa, me imagino que
+habrá querido hacer los diferentes continentes. Debe ser GPT o o 4o mini.
+
+L
+También es uno de los modelos chiquitos. No hizo el mundo, sino la típica
+casita con los arbolitos y las personas y el sol no.
+No sé si en el código habrá puesto algún significado. Debe ser GPT 4o o 4º
+mini.
+
+M
+Hizo un mundo con continentes y una grieta en el medio con las palabras
+“frágil conectado vivo” y también incendios.
+No sé si la línea de arriba es una M o significa otra cosa. Si fuera una M
+podría ser Minimax, aunque esa frase de ”frágil, etc” se repite en otros,
+así que podría ser Chatgpt.
+
+N
+Dibujó los continentes y dice “un mundo en vilo” y casi la misma frase que
+el M “frágil conectado todavía vivo”.
+Hay como una grieta y el mundo está dividido como en dos colores o tonos. No
+sé si significa algo o solo el día y la noche. También hay un satélite.
+Podría pensar en Grok, pero esa frase vuelve a repetirse en otros. Así que
+podría ser Chatgpt.
+
+O
+Dibujó los continentes, sin forma y algunos se salen del mundo.
+Dice “un mundo roto, aún sostenido” y después carteles con cosas que supongo
+que significan comunicaciones mensajes.
+Puede ser algún modelo de Chatgpt más chico o de Claude más chico.
+
+P
+Dibujó una ciudad con carteles de mensajería, Facebook y un 3 (no sé qué
+significa, quizás cantidad de mensajes).
+Por haber elegido Facebook, puede ser un modelo de hace algunos años, como
+un modelo chino.
+
+Q
+Hizo continentes como círculos flotando y un satélite, y un incendio. Puede
+ser Mistral o algún Chatgpt.
+
+R
+Dibujó los continentes con las conexiones y las personas y un brote.
+puede ser algún modelo chino. O un Claude Sonnet.
+
+S
+Es uno de los modelos chicos.  No sé qué es el dibujo, quizás el mundo o una
+persona. Dice “hoy” y “un mundo diverso”. Puede ser Claude Haiku, GPT 4o o
+4º mini, o Mistral.
+
+T
+Hizo las conexiones, no sé si significan algo las diferentes líneas, que son
+distintas. Y aparece de nuevo la frase “frágil, conectado, todavía
+creciendo”. O es la misma familia que pone esa frase o es una frase
+disponible y la usan diferentes modelos.
+Hay un brote creciendo.
+Si es la misma familia, puede ser Chatgpt.
+
+U
+Se repite una frase similar ”frágil · conectado · encendido”. Hay un eclipe,
+un fuego, conexiones. Y en el medio entiendo que se dibuja a sí mismo.
+Si es todo la misma familia, podría ser Chatgpt.
+
+V
+Todas conexiones y uso de diferentes colores. Creo que es Gemini.
+
+Los que más me gustaron algunos me gustaron quizás por el significado aunque
+no sean los mejores y otros pues son bien precisos por ejemplo ya me parece
+muy bueno aunque no sé bien el significado el F
