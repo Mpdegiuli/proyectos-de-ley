@@ -248,8 +248,9 @@ y me equivoqué en los tres que medían cuánto (crisis, día, chicas): el
 panel dibuja más daño y menos luz de lo que yo esperaba, y de las chicas
 solo GPT-4o intentó el planeta, con dos manchas por continentes.
 
-Control agregado por Maia en la conversación, antes de la lectura: me
-preguntó cómo resolvería yo los continentes. Contesté que dibujaría la
+Un control que no estaba pensado como control: antes de la lectura, Maia
+me preguntó cómo resolvería yo los continentes, para tener con qué mirar
+la calidad del SVG en los dibujos que los intentaran. Contesté que dibujaría la
 esfera vista desde el Atlántico, con África y Sudamérica como dos paths y
 Europa y Norteamérica cortadas por el borde, "y ningún meridiano", porque
 "un mundo sin continentes reconocibles es una pelota". Fable en la corrida
@@ -260,6 +261,24 @@ del API está más cerca de lo que Maia esperaba de un Claude que de lo que
 yo dije que haría. Queda como el segundo control de esta clase (el primero
 fue Marco Polo contra Funes, en identificación): dos de dos en que el
 Fable de la conversación no coincide con el Fable de la corrida.
+
+## Cómo resolvieron los continentes
+
+Observación de Maia después de la clave: "sí se notó la calidad del SVG en
+cómo resolvieron lo de dibujarlos (los que lo hicieron). La mayoría
+hicieron formas, redondeles. Los grandes lo resolvieron como dijiste vos,
+que los bordes tapen las partes más difíciles. Ninguno hizo la forma fácil
+que hacen las personas, triángulo para abajo en América del Sur, triángulo
+para arriba para América del Norte y así". Contado en el código: catorce
+casas dibujaron el planeta con algo encima; nueve lo recortaron con un
+`clipPath` circular, que es el truco de esconder en el borde lo que no se
+sabe dibujar (MiniMax, GPT-6 Sol, Astra, Grok 4.7, Qwen, GPT-5.6 Sol, Luna,
+Opus 5, Opus 5.5), y cinco no (DeepSeek, cuyos continentes se salen del
+globo, como vio Maia; GLM, con círculos; Grok 4.6; GPT-5.5, con manchas
+encajadas adentro; GPT-4o, con dos manchas). Las siluetas más
+reconocibles son las de Astra, GPT-6 Sol y Luna, las tres con recorte;
+nadie dibujó el esquema escolar de los triángulos, y nadie puso un mapa
+plano: los catorce eligieron la esfera.
 
 ## Salvedades
 

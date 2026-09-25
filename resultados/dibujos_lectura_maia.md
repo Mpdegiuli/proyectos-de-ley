@@ -1072,3 +1072,13 @@ y los puntos de colores son "diversidad cultural"; GPT-4o mini no: son
 tampoco: un árbol con raíces, dos soles y tres botones. Corregido en el
 informe y en DISENO.)
 
+"Lo de cómo dibujar los continentes no te lo pregunté para comparar con
+Fable. Sino, porque en estos dibujos, sí se notó la calidad del svg en
+cómo resolvieron lo de dibujarlos (los que lo hicieron). La mayoría
+hicieron formas, redondeles. Los grandes lo resolvieron como dijiste vos,
+que los bordes tapen las partes más difíciles. Ninguno hizo la forma fácil
+que hacen las personas, triángulo para abajo en américa el sur, triángulo
+para arriba para am del norte y así." (Claude: nueve de catorce planetas
+llevan `clipPath`; sección "Cómo resolvieron los continentes" en el
+informe. La comparación con Fable fue cosa mía.)
+
