@@ -359,7 +359,7 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   literal"); Sonnet 4.6 fue la única sin planeta ni brote (una persona sola
   con el teléfono) y fechó el dibujo "2025", su corte; Gemini dibujó para el
   mundo lo mismo que para su autorretrato; 19 de 22 oscuros (la consigna no
-  los sacó de la noche); las chicas no dibujan un planeta. Maia acertó 6 de
+  los sacó de la noche); de las chicas solo GPT-4o dibujó el planeta. Maia acertó 6 de
   17 casas (p = 0,003) y las cuatro "chiquitas" 4 de 4; su preregistro
   cinco de cinco, el de Claude cuatro y medio de nueve (falló en cuánto:
   crisis, día, chicas). Rep 2 de las 22

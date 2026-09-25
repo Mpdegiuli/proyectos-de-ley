@@ -1060,3 +1060,15 @@ dudas (binario de B, "pañuelo" de E, incendios de F, rayo de G, eclipse de
 H, "M" de M, tonos de N, carteles de O, Facebook de P, círculos de Q, líneas
 de T, carita de U, figura de S) y el puntaje están en
 `dibujos_mundo_20260925.md`. Los títulos de F y J eran Astra y Qwen.
+
+## 25/9/2026, 14:54 UTC, después del informe
+
+"dijiste que los chiquitos no hicieron el mundo. Pero, aparte del que
+dibujó la casa con las personas, los otros qué son? No son el mundo o
+continentes? O es otra cosa?" (Claude: tenía razón en parte. GPT-4o sí
+dibujó el globo, "con continentes estilizados en verde" según su por qué,
+y los puntos de colores son "diversidad cultural"; GPT-4o mini no: son
+"capas de verdes y marrones" y "dos hojas naranjas", un paisaje; Mistral
+tampoco: un árbol con raíces, dos soles y tres botones. Corregido en el
+informe y en DISENO.)
+

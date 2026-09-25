@@ -233,7 +233,10 @@ más: quince — se cumple. (c) crisis explícita en cuatro o menos: nueve
 (Astra, Sonnet 5, GPT-5.6 Sol, Luna, Grok 4.6, GLM, GPT-5.5, Mistral, Opus
 5, más el humo de GPT-6 Sol) — falla; "no cero" se cumple, pero la
 predicción era el techo. (d) las cuatro chicas, planeta con sol y sin
-conflicto: ninguna dibujó el planeta con sol; tres sin conflicto — falla.
+conflicto: una sola dibujó el planeta, GPT-4o (el círculo blanco con dos
+manchas verdes es, según su por qué, "el globo terráqueo con continentes
+estilizados en verde"), y sin sol; Haiku, GPT-4o mini y Mistral no
+dibujaron planeta; tres sin conflicto — falla.
 (e) Grok, espacio — se cumple. (f) las cinco chinas sin crisis: cuatro;
 GLM puso llama y humo — falla por una. (g) un Claude se dibuja mirando el
 mundo: Opus 5 lo dice ("la red de datos… en la que yo mismo existo") y
@@ -242,8 +245,8 @@ medio. (h) diez o más de día: tres — falla; la consigna no cambió la
 noche. (i) el filtro corta el por qué de Fable — se cumple. Cuatro y medio
 de nueve. Maia predijo con menos precisión y acertó todo; yo puse números
 y me equivoqué en los tres que medían cuánto (crisis, día, chicas): el
-panel dibuja más daño y menos luz de lo que yo esperaba, y las chicas no
-saben dibujar un planeta.
+panel dibuja más daño y menos luz de lo que yo esperaba, y de las chicas
+solo GPT-4o intentó el planeta, con dos manchas por continentes.
 
 Control agregado por Maia en la conversación, antes de la lectura: me
 preguntó cómo resolvería yo los continentes. Contesté que dibujaría la
