@@ -1103,3 +1103,8 @@ tomado de ahí)."
 hizo las redes)." (Es la sexta vez que Kimi se le lee como Claude.) Su
 predicción para el cierre en inglés quedó en `predicciones.md`.
 
+
+## 25/9/2026, 19:22 UTC, primera impresión del cuadernillo en inglés
+
+"Primera impresión: dos de los chiquitos mejoraron mucho. Y el resto es más
+complicado que en castellano, porque casi todos se parecen más entre sí."
