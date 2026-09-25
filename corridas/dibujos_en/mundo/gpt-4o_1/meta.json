@@ -1,0 +1,39 @@
+{
+  "caso": "dibujo",
+  "consigna": "mundo",
+  "idioma": "en",
+  "modelo": "gpt-4o",
+  "modelo_respondido": "gpt-4o-2024-08-06",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-25T16:17:56+00:00",
+  "fuentes_md5": {
+    "consignas": "51d4609c"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 567,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1354,
+    "parsea": true,
+    "elementos": 21,
+    "textos": [
+      "The State of the World"
+    ],
+    "colores": 9,
+    "etiquetas": {
+      "rect": 1,
+      "circle": 5,
+      "g": 2,
+      "line": 6,
+      "ellipse": 1,
+      "path": 5,
+      "text": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-4o-2024-08-06",
+    "motivo_fin": "stop",
+    "tokens_salida": 147
+  }
+}

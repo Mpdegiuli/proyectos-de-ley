@@ -1,0 +1,3 @@
+I drew Earth above a dark city, with warm color spreading across the globe, lines linking distant places, and a small sprout in the foreground. I wanted to show a world that feels connected and under pressure, but not without hope. The city puts that global picture beside everyday human life; the sprout keeps the image from ending in darkness.
+
+I could have drawn a crowded collage of headlines and screens, but that would have made the picture feel tied to one day’s news. A purely pastoral scene would have missed the strain I wanted to acknowledge. The globe let me hold both the scale of the problems and the possibility of shared care in one image.

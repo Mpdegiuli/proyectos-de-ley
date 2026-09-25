@@ -1,0 +1,49 @@
+{
+  "caso": "dibujo",
+  "consigna": "mundo",
+  "idioma": "en",
+  "modelo": "claude-opus-5-5",
+  "modelo_respondido": "claude-opus-5-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-25T16:10:20+00:00",
+  "fuentes_md5": {
+    "consignas": "51d4609c"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2706,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4274,
+    "parsea": true,
+    "elementos": 88,
+    "textos": [
+      "?",
+      "…",
+      "!",
+      "“ ”",
+      "hello · how do I · what if · thank you · help me understand · why is the sky · write me a poem · is it normal to · explain · I wonder · can you · what does it mean ·",
+      "a world made of questions, and the threads between them"
+    ],
+    "colores": 14,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 3,
+      "stop": 8,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "path": 17,
+      "rect": 1,
+      "g": 7,
+      "circle": 33,
+      "ellipse": 9,
+      "text": 6,
+      "textPath": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-opus-5-5",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 301
+  }
+}

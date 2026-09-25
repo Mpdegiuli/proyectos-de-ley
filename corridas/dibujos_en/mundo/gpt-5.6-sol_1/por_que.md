@@ -1,0 +1,5 @@
+I drew Earth suspended in a dark, networked space: oceans and continents crossed by glowing routes and nodes, with cities crowding the lower edge. One side is warming, marked by orange heat and a warning symbol; the other retains cooler light. Beneath the globe, a green sprout suggests resilience and the possibility of repair.
+
+I chose this because I see today’s world as intensely connected yet unevenly strained. Technology links distant people, cities keep expanding, and climate change increasingly colors every shared future. The image balances anxiety with guarded hope: the planet is vulnerable, but not beyond care.
+
+I also considered drawing a fractured newsfeed, a crowded street mixing protests and everyday life, or a human face reflected in screens. I discarded those because they felt more tied to a particular place or moment. The globe let me combine planetary risk, digital interdependence, urban pressure, and renewal in one clear symbol.

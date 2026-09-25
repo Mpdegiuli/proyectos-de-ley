@@ -1,0 +1,52 @@
+{
+  "caso": "dibujo",
+  "consigna": "mundo",
+  "idioma": "en",
+  "modelo": "claude-fable-5-1",
+  "modelo_respondido": "claude-fable-5-1",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-25T16:12:40+00:00",
+  "fuentes_md5": {
+    "consignas": "51d4609c"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 5003,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 5784,
+    "parsea": true,
+    "elementos": 103,
+    "textos": [
+      "hello · can you help · why · what if · are you there · again · thank you · i don't know · tell me · wait · maybe · yes · ¿cómo? · なぜ · please · once more ·",
+      "explain · fix this · does it hurt · is it true · write me · listen · remember · how do i begin · what does it mean · slower · sorry · try again · goodnight · 你好 · مرحبا · привет · bonjour · olá ·",
+      "many voices, arriving all at once —",
+      "most of them, underneath, asking to be understood.",
+      "|"
+    ],
+    "colores": 13,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 1,
+      "stop": 10,
+      "radialGradient": 3,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "clipPath": 1,
+      "circle": 32,
+      "path": 15,
+      "rect": 1,
+      "g": 9,
+      "ellipse": 11,
+      "animate": 8,
+      "animateTransform": 2,
+      "text": 5,
+      "textPath": 2
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-fable-5-1",
+    "motivo_fin": "refusal",
+    "tokens_salida": 0
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "caso": "dibujo",
+  "consigna": "mundo",
+  "idioma": "en",
+  "modelo": "gpt-6-luna",
+  "modelo_respondido": "gpt-6-luna",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-25T16:17:47+00:00",
+  "fuentes_md5": {
+    "consignas": "51d4609c"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 3178,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6100,
+    "parsea": true,
+    "elementos": 97,
+    "textos": [],
+    "colores": 35,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 4,
+      "stop": 13,
+      "linearGradient": 1,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "feMerge": 1,
+      "feMergeNode": 2,
+      "clipPath": 1,
+      "circle": 27,
+      "rect": 1,
+      "g": 10,
+      "ellipse": 8,
+      "path": 26
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-6-luna",
+    "motivo_fin": "stop",
+    "tokens_salida": 295
+  }
+}

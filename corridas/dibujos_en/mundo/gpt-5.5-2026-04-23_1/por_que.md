@@ -1,0 +1,5 @@
+I drew a small, luminous Earth suspended between day and night: ocean, green land, latitude lines, clouds, stars, a sunlike glow, dark foreground waves/city shapes, and a bright path connecting red nodes across the lower half. I meant it as today’s world: beautiful and fragile, technologically connected, shadowed by uncertainty, but still threaded with warmth and cooperation.
+
+The globe is central because climate, conflict, migration, markets, and information all feel planetary now. The glowing route suggests networks—people, ideas, warnings, care—crossing borders. The dark horizon and vertical bars hint at cities, infrastructure, and anxiety without making the image hopeless.
+
+I considered drawing a fractured phone screen, a crowded news feed, or an abstract storm of icons. I discarded them because they felt too cynical or too literal. I wanted something calmer: not denial, but perspective.

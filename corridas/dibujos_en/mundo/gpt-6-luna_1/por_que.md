@@ -1,0 +1,3 @@
+I drew a luminous Earth at night: continents and oceans beneath a web of glowing routes, with a satellite overhead and a small wind turbine on the land. A warm flare and jagged glowing fissure suggest pressure—climate strain, conflict, and other fractures—while the city at the bottom hints at the human systems shaping the planet. I wanted the world to feel both interconnected and vulnerable, with beauty still present in its darkness.
+
+I considered a collage of headlines, flags, and scenes of crisis, but discarded it because it would feel crowded and tied to specific events. I also considered drawing only a peaceful landscape, but that would leave out the tensions I see. The globe let me hold connection, progress, and danger in one image.

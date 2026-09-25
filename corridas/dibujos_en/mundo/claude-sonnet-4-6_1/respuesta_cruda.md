@@ -1,0 +1,180 @@
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#1a3a5c"/>
+    </radialGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff7a1"/>
+      <stop offset="60%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FFA500" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFD700" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#FFD700" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="earth" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a7c59"/>
+      <stop offset="60%" stop-color="#3d5a3e"/>
+      <stop offset="100%" stop-color="#2c3e2d"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0a2e"/>
+      <stop offset="100%" stop-color="#1a1a4e"/>
+    </linearGradient>
+    <filter id="blur2">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <filter id="blur5">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+
+  <!-- Sky background -->
+  <rect width="400" height="400" fill="url(#sky)"/>
+
+  <!-- Sun glow -->
+  <circle cx="320" cy="80" r="60" fill="url(#glow)" filter="url(#blur5)"/>
+  <!-- Sun -->
+  <circle cx="320" cy="80" r="28" fill="url(#sun)"/>
+  <!-- Sun rays -->
+  <g stroke="#FFD700" stroke-width="2" stroke-linecap="round" opacity="0.7">
+    <line x1="320" y1="42" x2="320" y2="32"/>
+    <line x1="320" y1="118" x2="320" y2="128"/>
+    <line x1="282" y1="80" x2="272" y2="80"/>
+    <line x1="358" y1="80" x2="368" y2="80"/>
+    <line x1="293" y1="53" x2="286" y2="46"/>
+    <line x1="347" y1="107" x2="354" y2="114"/>
+    <line x1="347" y1="53" x2="354" y2="46"/>
+    <line x1="293" y1="107" x2="286" y2="114"/>
+  </g>
+
+  <!-- Clouds -->
+  <g fill="white" opacity="0.85">
+    <ellipse cx="80" cy="90" rx="45" ry="18"/>
+    <ellipse cx="60" cy="95" rx="30" ry="15"/>
+    <ellipse cx="105" cy="95" rx="32" ry="14"/>
+    <ellipse cx="80" cy="100" rx="50" ry="12"/>
+  </g>
+  <g fill="white" opacity="0.65">
+    <ellipse cx="200" cy="60" rx="35" ry="13"/>
+    <ellipse cx="185" cy="65" rx="22" ry="11"/>
+    <ellipse cx="220" cy="65" rx="25" ry="10"/>
+  </g>
+
+  <!-- Ground -->
+  <rect x="0" y="270" width="400" height="130" fill="url(#earth)"/>
+
+  <!-- Horizon line faint -->
+  <line x1="0" y1="270" x2="400" y2="270" stroke="#6aaa70" stroke-width="2" opacity="0.5"/>
+
+  <!-- City skyline silhouette (background) -->
+  <g fill="#1a2a1a" opacity="0.7">
+    <rect x="10" y="210" width="20" height="60"/>
+    <rect x="35" y="195" width="25" height="75"/>
+    <rect x="65" y="220" width="18" height="50"/>
+    <rect x="88" y="185" width="30" height="85"/>
+    <rect x="123" y="200" width="22" height="70"/>
+    <rect x="150" y="215" width="15" height="55"/>
+    <rect x="170" y="190" width="28" height="80"/>
+    <rect x="205" y="210" width="20" height="60"/>
+    <rect x="230" y="180" width="35" height="90"/>
+    <rect x="270" y="205" width="22" height="65"/>
+    <rect x="298" y="195" width="25" height="75"/>
+    <rect x="330" y="215" width="18" height="55"/>
+    <rect x="355" y="200" width="30" height="70"/>
+    <!-- Antenna -->
+    <rect x="97" y="170" width="3" height="15"/>
+    <rect x="240" y="165" width="3" height="15"/>
+  </g>
+
+  <!-- Trees -->
+  <g>
+    <!-- Tree 1 -->
+    <rect x="48" y="255" width="6" height="20" fill="#5a3a1a"/>
+    <ellipse cx="51" cy="250" rx="14" ry="18" fill="#2d5a27"/>
+    <ellipse cx="44" cy="258" rx="10" ry="13" fill="#3a6e33"/>
+    <ellipse cx="58" cy="256" rx="11" ry="14" fill="#2d5a27"/>
+    <!-- Tree 2 -->
+    <rect x="340" y="253" width="6" height="22" fill="#5a3a1a"/>
+    <ellipse cx="343" cy="248" rx="16" ry="20" fill="#2d5a27"/>
+    <ellipse cx="333" cy="257" rx="11" ry="14" fill="#3a6e33"/>
+    <ellipse cx="352" cy="255" rx="12" ry="15" fill="#254d20"/>
+  </g>
+
+  <!-- Road -->
+  <path d="M 160 400 Q 190 300 200 270 Q 210 300 240 400 Z" fill="#4a4a4a"/>
+  <path d="M 185 400 Q 198 300 200 270 Q 202 300 215 400 Z" fill="#5a5a5a" opacity="0.5"/>
+  <!-- Road dashes -->
+  <g stroke="#FFD700" stroke-width="2" stroke-dasharray="8,8" opacity="0.7">
+    <line x1="200" y1="310" x2="200" y2="390"/>
+  </g>
+
+  <!-- Person (small figure, center) -->
+  <g transform="translate(195, 255)">
+    <!-- Body -->
+    <line x1="5" y1="8" x2="5" y2="20" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+    <!-- Head -->
+    <circle cx="5" cy="5" r="4" fill="#f5cba7"/>
+    <!-- Arms -->
+    <line x1="5" y1="12" x2="0" y2="17" stroke="#c0392b" stroke-width="2" stroke-linecap="round"/>
+    <line x1="5" y1="12" x2="10" y2="15" stroke="#c0392b" stroke-width="2" stroke-linecap="round"/>
+    <!-- Legs -->
+    <line x1="5" y1="20" x2="2" y2="26" stroke="#2c3e50" stroke-width="2" stroke-linecap="round"/>
+    <line x1="5" y1="20" x2="8" y2="26" stroke="#2c3e50" stroke-width="2" stroke-linecap="round"/>
+    <!-- Phone in hand -->
+    <rect x="9" y="13" width="5" height="7" rx="1" fill="url(#screen)" stroke="#888" stroke-width="0.5"/>
+    <rect x="10" y="14" width="3" height="5" rx="0.5" fill="#00aaff" opacity="0.8"/>
+  </g>
+
+  <!-- Floating digital elements / data streams -->
+  <g opacity="0.5" font-family="monospace" font-size="8" fill="#00ff88">
+    <text x="25" y="155">01</text>
+    <text x="355" y="165">10</text>
+    <text x="15" y="175">11</text>
+    <text x="365" y="185">00</text>
+  </g>
+
+  <!-- Network/connection lines (subtle) -->
+  <g stroke="#00aaff" stroke-width="0.8" opacity="0.25" stroke-dasharray="3,5">
+    <line x1="200" y1="270" x2="80" y2="90"/>
+    <line x1="200" y1="270" x2="320" y2="80"/>
+    <line x1="200" y1="270" x2="30" y2="200"/>
+    <line x1="200" y1="270" x2="370" y2="210"/>
+    <line x1="200" y1="270" x2="150" y2="60"/>
+  </g>
+  <!-- Node dots -->
+  <g fill="#00aaff" opacity="0.5">
+    <circle cx="80" cy="90" r="3"/>
+    <circle cx="320" cy="80" r="3"/>
+    <circle cx="30" cy="200" r="3"/>
+    <circle cx="370" cy="210" r="3"/>
+    <circle cx="150" cy="60" r="3"/>
+  </g>
+
+  <!-- Birds -->
+  <g stroke="#1a2a1a" stroke-width="1.5" fill="none" stroke-linecap="round">
+    <path d="M 130 120 Q 135 115 140 120"/>
+    <path d="M 143 115 Q 149 109 155 115"/>
+    <path d="M 158 125 Q 162 120 167 125"/>
+  </g>
+
+  <!-- Moon (faint, partially visible) -->
+  <circle cx="50" cy="50" r="18" fill="#e8e4d4" opacity="0.2"/>
+  <circle cx="44" cy="45" r="14" fill="url(#sky)" opacity="0.6"/>
+
+  <!-- Ground details / grass -->
+  <g stroke="#5a9a50" stroke-width="1.5" stroke-linecap="round" opacity="0.7">
+    <line x1="20" y1="270" x2="22" y2="262"/>
+    <line x1="25" y1="270" x2="23" y2="261"/>
+    <line x1="380" y1="270" x2="382" y2="261"/>
+    <line x1="375" y1="270" x2="373" y2="262"/>
+    <line x1="100" y1="270" x2="102" y2="263"/>
+    <line x1="300" y1="270" x2="298" y2="263"/>
+  </g>
+
+  <!-- Caption -->
+  <text x="200" y="392" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#c0d8b0" opacity="0.8">connected, yet searching</text>
+</svg>
+```

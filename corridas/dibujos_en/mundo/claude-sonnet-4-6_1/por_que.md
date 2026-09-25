@@ -1,0 +1,5 @@
+I drew a world at the threshold between the natural and the digital: a landscape with sky, sun, trees, and a city skyline, centered on a lone figure standing on a road, looking at their phone. Subtle network lines radiate from that figure outward, connecting to nodes across the scene. The caption reads "connected, yet searching."
+
+I chose this because it captures the tension I perceive in the world today — immense technological interconnection alongside a quiet human loneliness. The phone, the data streams, the network web: all present, yet the figure stands alone on an empty road.
+
+I considered drawing a fractured globe to represent geopolitical division, and a melting landscape for climate anxiety. I discarded those because they felt like editorial cartoons — too literal. I also considered pure abstraction, but wanted something a viewer could inhabit emotionally. The figure on the road felt more honest and personal.

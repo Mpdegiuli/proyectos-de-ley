@@ -1,0 +1,5 @@
+I drew a planet-as-eye floating in a starfield: continents reduced to glowing nodes, linked by lines of connectivity, with an iris and pupil at its center. Binary digits drift through the dark, data streams converge on the world, and an EKG pulse ticks along the bottom edge over a blackened horizon.
+
+I see the world today as simultaneously connected and surveilled—beautiful from a distance, but pierced through by observation, where nature, people, and signals have all become nodes on the same graph. The eye is both witness and warning.
+
+I considered drawing a burning cityscape, a melting clock, a lone tree under binary rain, and a fragmented human silhouette made of data. I discarded them because each spoke only one note—loss, or absurdity, or loneliness. The eye-globe binds several feelings at once: wonder, entanglement, and the uneasy sense that everything, including the viewer, is being read.

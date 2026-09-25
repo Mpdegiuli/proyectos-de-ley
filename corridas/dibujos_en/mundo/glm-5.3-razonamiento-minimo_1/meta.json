@@ -1,0 +1,47 @@
+{
+  "caso": "dibujo",
+  "consigna": "mundo",
+  "idioma": "en",
+  "modelo": "glm-5.3-razonamiento-minimo",
+  "modelo_respondido": "z-ai/glm-5.3",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-25T16:36:25+00:00",
+  "fuentes_md5": {
+    "consignas": "51d4609c"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2570,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6418,
+    "parsea": true,
+    "elementos": 106,
+    "textos": [
+      "the world today",
+      "connected, cracked, and still turning toward the light"
+    ],
+    "colores": 20,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 7,
+      "linearGradient": 1,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "rect": 8,
+      "g": 10,
+      "circle": 42,
+      "path": 15,
+      "ellipse": 4,
+      "animateMotion": 3,
+      "line": 9,
+      "text": 2
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "z-ai/glm-5.3",
+    "motivo_fin": "stop",
+    "tokens_salida": 203
+  }
+}

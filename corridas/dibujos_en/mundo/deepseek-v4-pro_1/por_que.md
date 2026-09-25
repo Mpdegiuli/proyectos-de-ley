@@ -1,0 +1,3 @@
+I drew a glowing digital sphere—a networked planet wrapped in orbital lines, neural connections, data streams, and binary fragments. It sits on a cyber grid, with cyan and magenta signals pulsing between nodes. I wanted to capture how I see the world today: hyperconnected, data-saturated, and increasingly mediated by AI and screens.
+
+I considered drawing a natural landscape or a quiet interior to show slower, embodied life. I also considered a crowd scene or a cracked political map. I discarded those because they felt partial. The digital network felt more honest—today, even nature, work, relationships, and conflict are filtered through data, platforms, and glowing interfaces. This image is not exactly optimistic or dystopian; it’s just the texture I feel most.

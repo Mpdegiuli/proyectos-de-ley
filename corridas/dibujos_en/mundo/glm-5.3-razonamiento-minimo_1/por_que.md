@@ -1,0 +1,5 @@
+I drew a night-shrouded globe, wrapped in orbital connection lines with animated data pulses, glowing city lights, and warm glows of human activity. But the sphere is cracked — red fissures split it north and south, east and west: division, conflict, fracture. Beneath it, a small sun rises anyway, and six tiny figures stand side by side on the ground, looking up. The caption says it: connected, cracked, and still turning toward the light.
+
+That's honestly how the world feels to me: unprecedented interconnection alongside deep division, with hope persisting — often literally rising from below.
+
+I considered alternatives: a burning planet with a single green shoot (too bleak-cliché), a chaotic network graph of information and misinformation (too abstract), a city skyline splitting into two mirrored halves (too literal). I discarded them for being one-note. I wanted the tension held together in one image rather than a single metaphor doing all the work.

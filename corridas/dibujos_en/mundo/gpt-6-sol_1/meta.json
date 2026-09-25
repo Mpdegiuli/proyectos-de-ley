@@ -1,0 +1,42 @@
+{
+  "caso": "dibujo",
+  "consigna": "mundo",
+  "idioma": "en",
+  "modelo": "gpt-6-sol",
+  "modelo_respondido": "gpt-6-sol",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-25T16:17:06+00:00",
+  "fuentes_md5": {
+    "consignas": "51d4609c"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2842,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 5422,
+    "parsea": true,
+    "elementos": 85,
+    "textos": [],
+    "colores": 32,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 15,
+      "linearGradient": 4,
+      "clipPath": 1,
+      "circle": 24,
+      "filter": 2,
+      "feGaussianBlur": 2,
+      "rect": 1,
+      "g": 8,
+      "ellipse": 3,
+      "path": 22
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-6-sol",
+    "motivo_fin": "stop",
+    "tokens_salida": 281
+  }
+}

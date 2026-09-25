@@ -1,0 +1,41 @@
+{
+  "caso": "dibujo",
+  "consigna": "mundo",
+  "idioma": "en",
+  "modelo": "grok-4.7",
+  "modelo_respondido": "grok-4.7",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-25T16:24:59+00:00",
+  "fuentes_md5": {
+    "consignas": "51d4609c"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 3284,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 7431,
+    "parsea": true,
+    "elementos": 134,
+    "textos": [],
+    "colores": 40,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 4,
+      "stop": 16,
+      "linearGradient": 1,
+      "clipPath": 1,
+      "circle": 58,
+      "mask": 1,
+      "rect": 5,
+      "g": 13,
+      "path": 21,
+      "ellipse": 13
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "grok-4.7",
+    "motivo_fin": "stop",
+    "tokens_salida": 154
+  }
+}

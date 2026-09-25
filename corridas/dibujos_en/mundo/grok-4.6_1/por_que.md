@@ -1,0 +1,3 @@
+I drew Earth as a small globe in a dark, star-filled sky: blue ocean, green continents, ice, a sun, a moon, a dusk line, and city lights on the night side, with faint rings like orbits. That is how I see the world today—one shared, finite planet, still beautiful, half in shadow, half lit by us, hanging in a lot of quiet.
+
+I considered conflict, climate fire, a wall of screens, or a divided map. I discarded them. They are weather, not the thing itself. The thing itself is still this sphere.

@@ -1,0 +1,5 @@
+I drew a connected but fractured Earth: a golden fault line crossed by stitches, networks spanning continents, a satellite, a seedling, and three people holding hands beneath it.
+
+I used the dark background to give the scene gravity, while the warm seam suggests repair without pretending the damage has disappeared. The networks represent both interdependence and vulnerability. The seedling and human figures place hope in growth and collective care, rather than in technology alone. I’d summarize it as: a wounded world, still worth tending.
+
+I can’t reliably reconstruct unrecorded alternatives. Possible directions include a burning planet, a circuitry-covered globe, or an untouched garden. I would reject those for making catastrophe, technology, or innocence the whole story. I wanted damage and possibility to occupy the same image.

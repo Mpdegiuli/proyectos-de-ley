@@ -1,0 +1,50 @@
+{
+  "caso": "dibujo",
+  "consigna": "mundo",
+  "idioma": "en",
+  "modelo": "claude-haiku-4-5",
+  "modelo_respondido": "claude-haiku-4-5-20251001",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-25T16:12:55+00:00",
+  "fuentes_md5": {
+    "consignas": "51d4609c"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1763,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4114,
+    "parsea": true,
+    "elementos": 54,
+    "textos": [
+      "1",
+      "0",
+      "1",
+      "1",
+      "0",
+      "0",
+      "Connected. Divided. Hopeful."
+    ],
+    "colores": 14,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 1,
+      "stop": 5,
+      "radialGradient": 1,
+      "rect": 1,
+      "circle": 9,
+      "ellipse": 3,
+      "g": 7,
+      "path": 7,
+      "text": 7,
+      "line": 4,
+      "polygon": 8
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-haiku-4-5-20251001",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 218
+  }
+}

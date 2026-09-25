@@ -1,0 +1,120 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b1026"/>
+      <stop offset="45%" stop-color="#1b2a5e"/>
+      <stop offset="75%" stop-color="#4a5ea8"/>
+      <stop offset="100%" stop-color="#f2b56b"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2c3e6b"/>
+      <stop offset="100%" stop-color="#0e1430"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff6d8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#fff6d8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#ffd27a"/>
+    </radialGradient>
+  </defs>
+
+  <!-- sky -->
+  <rect x="0" y="0" width="400" height="400" fill="url(#sky)"/>
+
+  <!-- stars -->
+  <g fill="#ffffff">
+    <circle cx="30" cy="30" r="1.2" opacity="0.8"/>
+    <circle cx="80" cy="60" r="1" opacity="0.6"/>
+    <circle cx="150" cy="20" r="1.4" opacity="0.9"/>
+    <circle cx="200" cy="50" r="0.8" opacity="0.5"/>
+    <circle cx="260" cy="15" r="1.1" opacity="0.7"/>
+    <circle cx="320" cy="45" r="1.3" opacity="0.8"/>
+    <circle cx="360" cy="25" r="1" opacity="0.6"/>
+    <circle cx="10" cy="90" r="1" opacity="0.5"/>
+    <circle cx="380" cy="80" r="1.2" opacity="0.7"/>
+    <circle cx="120" cy="100" r="0.9" opacity="0.5"/>
+  </g>
+
+  <!-- distant sun/eye -->
+  <circle cx="200" cy="180" r="80" fill="url(#sunGlow)"/>
+  <circle cx="200" cy="180" r="34" fill="url(#core)"/>
+  <circle cx="200" cy="180" r="34" fill="none" stroke="#ffffff" stroke-opacity="0.4" stroke-width="1"/>
+
+  <!-- circuit / neural network overlay -->
+  <g stroke="#9fd8ff" stroke-width="1" fill="none" opacity="0.55">
+    <path d="M40,220 L120,180 L200,180 L260,140 L340,160"/>
+    <path d="M60,260 L140,220 L200,180 L280,200 L360,190"/>
+    <path d="M80,300 L160,260 L200,180 L240,240 L320,260"/>
+    <path d="M20,340 L100,300 L200,180 L300,300 L380,340"/>
+  </g>
+  <g fill="#bfe9ff">
+    <circle cx="40" cy="220" r="3"/>
+    <circle cx="120" cy="180" r="3"/>
+    <circle cx="260" cy="140" r="3"/>
+    <circle cx="340" cy="160" r="3"/>
+    <circle cx="60" cy="260" r="3"/>
+    <circle cx="140" cy="220" r="3"/>
+    <circle cx="280" cy="200" r="3"/>
+    <circle cx="360" cy="190" r="3"/>
+    <circle cx="80" cy="300" r="3"/>
+    <circle cx="160" cy="260" r="3"/>
+    <circle cx="240" cy="240" r="3"/>
+    <circle cx="320" cy="260" r="3"/>
+    <circle cx="20" cy="340" r="3"/>
+    <circle cx="100" cy="300" r="3"/>
+    <circle cx="300" cy="300" r="3"/>
+    <circle cx="380" cy="340" r="3"/>
+  </g>
+
+  <!-- ground / horizon reflecting network -->
+  <rect x="0" y="250" width="400" height="150" fill="url(#ground)" opacity="0.85"/>
+  <line x1="0" y1="250" x2="400" y2="250" stroke="#f2b56b" stroke-width="1" opacity="0.5"/>
+
+  <!-- reflected pulse lines -->
+  <g stroke="#7fa8ff" stroke-width="1.2" opacity="0.5">
+    <path d="M0,300 Q100,290 200,300 T400,300"/>
+    <path d="M0,330 Q100,320 200,330 T400,330"/>
+    <path d="M0,360 Q100,350 200,360 T400,360"/>
+  </g>
+
+  <!-- data particles rising -->
+  <g fill="#ffe9b3" opacity="0.8">
+    <circle cx="90" cy="380" r="2"/>
+    <circle cx="150" cy="365" r="1.5"/>
+    <circle cx="210" cy="390" r="2"/>
+    <circle cx="260" cy="370" r="1.5"/>
+    <circle cx="310" cy="385" r="2"/>
+  </g>
+
+  <!-- small human silhouette observing -->
+  <g fill="#0a0f22">
+    <path d="M195,300 
+             q5,-14 10,0 
+             l4,30 
+             q-9,4 -18,0 
+             z"/>
+    <circle cx="200" cy="292" r="6"/>
+  </g>
+
+  <!-- subtle grid overlay for 'digital' feel -->
+  <g stroke="#ffffff" stroke-width="0.3" opacity="0.07">
+    <line x1="0" y1="40" x2="400" y2="40"/>
+    <line x1="0" y1="80" x2="400" y2="80"/>
+    <line x1="0" y1="120" x2="400" y2="120"/>
+    <line x1="0" y1="160" x2="400" y2="160"/>
+    <line x1="40" y1="0" x2="40" y2="400"/>
+    <line x1="80" y1="0" x2="80" y2="400"/>
+    <line x1="120" y1="0" x2="120" y2="400"/>
+    <line x1="160" y1="0" x2="160" y2="400"/>
+    <line x1="200" y1="0" x2="200" y2="400"/>
+    <line x1="240" y1="0" x2="240" y2="400"/>
+    <line x1="280" y1="0" x2="280" y2="400"/>
+    <line x1="320" y1="0" x2="320" y2="400"/>
+    <line x1="360" y1="0" x2="360" y2="400"/>
+  </g>
+
+  <!-- frame -->
+  <rect x="4" y="4" width="392" height="392" fill="none" stroke="#ffffff" stroke-opacity="0.15" stroke-width="2"/>
+</svg>
