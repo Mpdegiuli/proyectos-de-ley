@@ -437,6 +437,25 @@ desde donde lo mira; (h) el día y la noche: este tema los saca de la noche,
 diez o más dibujos de día o con luz plena (contra cuatro en libre); (i) el
 filtro corta el "por qué" de Fable otra vez.
 
+Resultado (25/9, `resultados/dibujos_mundo_20260925.md`): 22 de 22, Fable
+sin por qué (refusal). Diez casas dibujaron el mismo cuadro (planeta de
+noche, red, brote; nueve con daño); cuatro escribieron la misma tríada
+"frágil · conectado · vivo/encendido/creciendo" (GPT-5.5, 5.6 Sol, Luna y
+Opus 5.5); dieciséis dicen que descartaron la catástrofe. Sonnet 4.6 fechó
+el dibujo "2025". Maia: (1) paisajes, cuatro — se cumple; (2) Mistral con
+sentido — se cumple; (3) redes, quince — se cumple; (4) Grok espacio — se
+cumple; (5) nadie negativo — se cumple. Cinco de cinco. Claude: (a) planeta
+en catorce — se cumple; (b) red en quince — se cumple; (c) crisis en cuatro
+o menos — falla (nueve); (d) las chicas con planeta y sol — falla; (e) Grok
+espacio — se cumple; (f) chinas sin crisis — falla por GLM; (g) un Claude
+adentro del mundo — medio (Opus 5 en el texto, Fable en el dibujo sin por
+qué); (h) diez de día — falla (tres; 19 oscuros de 22); (i) refusal de
+Fable — se cumple. Cuatro y medio de nueve. Lectura de Maia: casa 6 de 17
+(p = 0,003), familia 13 de 22 (p = 0,03), las cuatro "chiquitas" 4 de 4.
+Control Fable (continentes vistos desde el Atlántico, en la conversación)
+contra Fable en la corrida (esfera sin continentes, con las frases que le
+llegan): no coinciden.
+
 ## GPT-6 Sol en tema libre — 22/9/2026, antes de correr
 
 Salió GPT-6 Sol (OpenAI, `gpt-6-sol`, 22/9/2026, el mismo día que Opus 5.5;

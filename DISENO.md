@@ -350,7 +350,19 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   Tercera consigna (24/9, idea de Maia): "Dibujá cómo ves el mundo hoy.",
   para sacarlos "de los paisajes aprendidos que repiten una y otra vez";
   carpeta `corridas/dibujos/mundo/`, cuadernillo con semilla 20261007,
-  preregistro de las dos partes en `predicciones.md`. Rep 2 de las 22
+  preregistro de las dos partes en `predicciones.md`. Corrida el 24/9
+  (`pl37`, 22 de 22; `resultados/dibujos_mundo_20260925.md`): diez casas
+  dibujaron el mismo cuadro (planeta de noche, red, brote, y daño en nueve);
+  cuatro escribieron la misma tríada "frágil · conectado · vivo" (tres de
+  OpenAI y Opus 5.5: la frase cruza familias); dieciséis por qué dicen que
+  descartaron la catástrofe ("pesimismo fácil", "panfleto", "demasiado
+  literal"); Sonnet 4.6 fue la única sin planeta ni brote (una persona sola
+  con el teléfono) y fechó el dibujo "2025", su corte; Gemini dibujó para el
+  mundo lo mismo que para su autorretrato; 19 de 22 oscuros (la consigna no
+  los sacó de la noche); las chicas no dibujan un planeta. Maia acertó 6 de
+  17 casas (p = 0,003) y las cuatro "chiquitas" 4 de 4; su preregistro
+  cinco de cinco, el de Claude cuatro y medio de nueve (falló en cuánto:
+  crisis, día, chicas). Rep 2 de las 22
   (23/9): estable por casa (Fable espejo y noche, Opus 5 faro, Luna gato,
   Grok 4.6 zorro, Gemini "awake"); Maia, leyendo con las claves de la rep 1,
   acertó 5/19 y 7/21 (p = 0,003 y 0,0003). Descartado por Maia como consigna:

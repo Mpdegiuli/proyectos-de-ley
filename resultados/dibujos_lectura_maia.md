@@ -1054,3 +1054,9 @@ Todas conexiones y uso de diferentes colores. Creo que es Gemini.
 Los que más me gustaron algunos me gustaron quizás por el significado aunque
 no sean los mejores y otros pues son bien precisos por ejemplo ya me parece
 muy bueno aunque no sé bien el significado el F
+
+Nota mecánica (Claude, después de abrir la clave): las respuestas a sus
+dudas (binario de B, "pañuelo" de E, incendios de F, rayo de G, eclipse de
+H, "M" de M, tonos de N, carteles de O, Facebook de P, círculos de Q, líneas
+de T, carita de U, figura de S) y el puntaje están en
+`dibujos_mundo_20260925.md`. Los títulos de F y J eran Astra y Qwen.
