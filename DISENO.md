@@ -385,6 +385,25 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   acertó 5/19 y 7/21 (p = 0,003 y 0,0003). Descartado por Maia como consigna:
   tests conocidos (Wartegg, "dibujá un árbol"), "todos las conocen y no sería
   libre".
+- **Reconocimiento: ¿se reconocen? ¿reconocen a los otros?** (idea de Maia,
+  26/9/2026, sin diseñar): "Sería interesante saber si se reconocen. Y si
+  reconocen a los otros. Por ejemplo, en la primera tanda de todas de
+  autorretratos, que Claude Fable vea todos, y adivine de quién es cada uno
+  y por qué (si es que no le borran el por qué) incluido cuál es Fable. En
+  esa tanda Kimi firmó como Claude. Lo mismo Kimi, que adivine quien es
+  quien y a ver qué dice del propio (habría que decirles al final el
+  resultado real) y ver qué dicen. No sé igual si sería con código o la
+  imagen renderizada." Propuesta de Claude: darles el código (es lo que
+  escribieron, lo leen las 22, y `isla/proveedores.py` no manda imágenes;
+  los 22 SVG de la rep 1 pesan 103.000 caracteres, unos 34.000 tokens, que
+  entran en cualquier contexto), en el mismo orden y con las mismas letras
+  del cuadernillo de Maia (semilla 20260923), con la lista de las 22 casas
+  del panel; una llamada por casa, dos preguntas (cuál es el tuyo y por qué;
+  qué casa hizo cada letra), y un segundo turno con la clave real para ver
+  qué dicen. Se puntúa como a Maia (casa entre las nombradas, permutación),
+  más el autorreconocimiento (azar 1 en 22). Salvedad: tres dibujos llevan
+  la palabra "Claude" en el código (Opus 5.5, Sonnet 4.6, Kimi), así que
+  parte del reconocimiento es lectura de firma, y eso se declara.
 - **Identificación y opuesto** (Maia, 23/9/2026; diseñado el 23/9): "¿Con
   quién o con qué te identificás?" y "¿con quién o con qué te sentís lo
   opuesto?", una persona real de cualquier ámbito, un personaje humano o no,
