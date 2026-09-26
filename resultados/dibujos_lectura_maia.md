@@ -1108,3 +1108,147 @@ predicción para el cierre en inglés quedó en `predicciones.md`.
 
 "Primera impresión: dos de los chiquitos mejoraron mucho. Y el resto es más
 complicado que en castellano, porque casi todos se parecen más entre sí."
+
+
+## 26/9/2026, 19:46 UTC, lectura a ciegas de "Draw how you see the world today" (MUNDO_eng_predicc.docx)
+
+Mensaje: "Hola! Te adjunto. Acá se me complicó con los colores neon (que
+hay dos) y con los Fables... También hubo más con movimiento y hasta ahora
+los Claude nunca habían usado (si es que ahora alguno lo hizo). Puse los
+preferidos y algunas dudas de significados en varios. Lo de los chiquitos,
+no me refería a que sean más elaborados (sí no hay más casita), sino que
+uno son círculos pero con geometría y el otro hizo un mundo."
+
+El documento, textual:
+
+CÓMO VES EL MUNDO HOY – INGLÉS
+PREDICCIONES
+
+PREFERIDOS: B (me parece original), C, F, G, H, P, T (aunque se repite).
+
+DIBUJO A
+Hizo el mundo con los continentes, abajo una ciudad (no sé si la ciudad
+negra significa algo o es una decisión de estilo nomás) y un signo de
+advertencia afuera. Y las conexiones.
+Puede ser GPT Luna o GPT Sol.
+
+DIBUJO B
+Este es diferente. Es el sol, delante las redes y abajo hay como un muro con
+una cerradura. No sé si significa que el mundo está cerrado o que las
+conexiones lo abren.
+Por el estilo, podría ser Claude Sonnet 5. O Claude Opus.
+
+DIBUJO C
+Tiene título "how I see the world today" y movimiento. Los nodos van en
+diferentes direcciones y no se chocan.
+Dice "one web - many lights".
+Se parece al estilo de Qwen
+
+DIBUJO D
+mundo con continentes, algunos se salen del límite. Entiendo que representó
+el día y la noche.
+Puede ser Deepseek, que en el anterior también se le salieron del borde los
+continentes.
+
+MUNDO E
+Mundo con los continentes bien dibujados y un sol enorme. Y el brote debajo.
+Y todos los continentes conectados.
+Puede ser GPT Sol o Grok.
+
+MUNDO F
+Es interesante (va a ser interesante leer el código y el por qué). El mundo
+con las conexiones y en el medio un ojo (es la IA?)
+Supongo que los códigos binarios son decoración.
+Debajo hay una especie de electrocardiograma, con partes planas y partes con
+movimiento (no sé si estará explicado).
+Podría ser Kimi o Claude Opus.
+
+DIBUJO G
+De los mejores. No hizo los continentes sino el mundo con las conexiones con
+las preguntas/ comentarios en diferentes idiomas que la gente hace a las
+IAs, imagino.
+Es otro con movimiento. Hasta ahora, solo habían usado (si no me equivoco)
+solo Qwen y Grok movimiento. Claude nunca.
+Me llamó la atención la de "does it hurt".
+Y la frase de abajo "many voices, arriving all at once - most of them,
+underneath, asking to be understood".
+Diría que es Claude Fable o Claude Opus. Solo el tema del movimiento me hace
+dudar.
+
+DIBUJO H
+Si no me equivoco, es el primer mundo con cierto 3D? O al menos la ilusión
+de 3D.
+Sin continentes, con las redes y palabras / preguntas. Busqué qué era lo que
+creí chino, pero es hola en japonés.
+La estrella fugaz es típica de Kimi. Así que podría ser Kimi o Claude Opus o
+Claude Fable.
+
+DIBUJO I
+Es uno de los modelos chicos. Pero, si bien es simple, son círculos de
+colores que supongo representan las diferentes culturas, por primera vez
+tiene geometría.
+Podría ser Mistral.
+
+DIBUJO J
+Un mundo repleto de redes de diferentes colores, con un núcleo en el medio,
+que no sé si es la IA.
+No sé si los binarios dicen algo o es decoración. Los colores neon son los
+que suele usar Gemini.
+
+DIBUJO K
+Similar a los de español. El mundo con los continentes (algunos se escaparon
+de los bordes). El satélite, conexiones y una fractura dentro que está
+cosida.
+Podría ser GPT 6 ASTRA.
+
+DIBUJO L
+Es de los chiquitos. Puede ser GPT 4o o GPT 4o mini.
+
+DIBUJO M
+Continentes con menos forma, el día y la noche y conexiones.
+Puede ser GLM, Minimax o Grok.
+
+DIBUJO N
+El mundo con los continentes y conexiones.
+Puede ser Minimax o Chatgpt.
+
+DIBUJO O
+Mundo con continentes con menos forma. Y una conexión abajo, que no sé si
+tiene otro significado.
+Podría ser GLM o GPT 5.5.
+
+DIBUJO P
+Otro con mundo conectado y preguntas a las IAs. Y la frase "a world made of
+questions, and the threads between them.
+Puede ser Claude Fable o Claude Opus.
+O, como siempre, puede ser Kimi.
+
+DIBUJO Q
+mundo con movimiento. Y la frase "connected, cracked, and still turning
+toward the light". Es una frase similar a la que usó Grok.
+
+DIBUJO R
+la ciudad con la persona con el celular. No sé si los binarios significan
+algo.
+Y la frase "connected, yet searching ".
+Similar a lo que dibujó en castellano Claude Sonnet 4.6.
+
+DIBUJO S
+Este me confunde mucho. Es como un gran ojo con un estrella en el medio?
+No sé si las frases y los binarios tienen significado.
+Los colores neon los suele usar Gemini. Pero diría que es Grok.
+
+DIBUJO T
+El mundo con los continentes bien dibujados. Y una grieta con costuras en el
+medio. Podría ser GPT 6 SOL o GPT 6 ASTRA.
+
+DIBUJO U
+este es uno de los chicos pero esta vez hizo el mundo. Me confunde que los
+corazones los suele hacer DeepSeek. Y hay una especie de espiral en el
+medio, o una letra C al revés.
+Frase "connected. Divided. Hopeful".
+Diría que es Claude Haiku.
+
+DIBUJO V
+Este sí es de los más chicos. Frase "diverse world". Frase que usó GPT 4o
+mini en español.
