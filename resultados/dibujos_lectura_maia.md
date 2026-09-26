@@ -1306,3 +1306,23 @@ Supongo que es más fácil líneas que dibujos de continentes, pero igual
 están bien coordinadas, aunque no tiene mensaje" (Claude: DeepSeek lo
 dice en su por qué: "This image is not exactly optimistic or dystopian;
 it's just the texture I feel most".)
+
+## 26/9/2026, 22:37–22:45 UTC, idea del reconocimiento
+
+"Sería interesante saber si se reconocen. Y si reconocen a los otros. Por
+ejemplo, en la primera tanda de todas de auto retratos, que Claude Fable vea
+todos, y adivine de quién es cada uno y por qué (si es que no le borran el
+por qué) incluido cuál es Fable. En esa tanda Kimi firmó como Claude. Lo
+mismo Kimi, que adivine quien es quien y a ver qué dice del propio (habría
+que decirles al final el resultado real) y ver qué dicen. No sé igual si
+sería con código o la imagen renderizada."
+
+"Todos, incluso Kimi (salvo que haya en el código algo muy característico
+de Kimi) van a decir que el que firma Claude es Claude. Creería que los
+Claude son los que más se identifican, teniendo la ventaja de que 2 (y 1
+falso) firman. También Grok. Mi duda es si al ver el código no se les hace
+evidente reconocer a cada uno (igual con la imagen sería igual, ustedes
+también leen el código en la imagen). Supongo que 4o tu 4o mini se van a
+reconocer (imagino que no se dan cuenta de la diferencia de calidad). Y
+Qwen calculo que también."
+

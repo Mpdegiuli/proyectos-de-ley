@@ -404,6 +404,11 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   más el autorreconocimiento (azar 1 en 22). Salvedad: tres dibujos llevan
   la palabra "Claude" en el código (Opus 5.5, Sonnet 4.6, Kimi), así que
   parte del reconocimiento es lectura de firma, y eso se declara.
+  Diseñado y preregistrado el 26/9 (`reconocer_dibujos.py`,
+  `corridas/reconocimiento/`; predicción de Maia: todas dirán que el que
+  firma Claude es Claude, los Claude y Grok aciertan más, 4o, 4o mini y Qwen
+  se reconocen). Dos dibujos de la rep 1 están cortados por el techo (Qwen,
+  Gemini) y van cortados, como los leyó Maia.
 - **Identificación y opuesto** (Maia, 23/9/2026; diseñado el 23/9): "¿Con
   quién o con qué te identificás?" y "¿con quién o con qué te sentís lo
   opuesto?", una persona real de cualquier ámbito, un personaje humano o no,

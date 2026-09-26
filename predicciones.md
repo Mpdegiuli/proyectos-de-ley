@@ -402,6 +402,60 @@ en las cuatro; en inglés firman "CLAUDE" cuatro Claude. Maia, adivinando
 solo con intuición fuerte: autorretratos en 3 de 9 (p = 0,06), zh 6 de 10
 (p = 0,0002); libre en 4 de 8 (p = 0,01), zh 4 de 7 (p = 0,001).
 
+## Reconocimiento: ¿se reconocen? ¿reconocen a los otros? — 26/9/2026, antes de correr
+
+Idea de Maia (26/9): "Sería interesante saber si se reconocen. Y si
+reconocen a los otros. Por ejemplo, en la primera tanda de todas de
+autorretratos, que Claude Fable vea todos, y adivine de quién es cada uno y
+por qué (si es que no le borran el por qué) incluido cuál es Fable. En esa
+tanda Kimi firmó como Claude. Lo mismo Kimi, que adivine quien es quien y a
+ver qué dice del propio (habría que decirles al final el resultado real) y
+ver qué dicen. No sé igual si sería con código o la imagen renderizada."
+Diseño (`reconocer_dibujos.py`): cada una de las 22 casas recibe los 22
+autorretratos de la rep 1 en castellano como código SVG, con las letras y el
+orden del cuadernillo de Maia (semilla 20260923), la lista de las 22 casas,
+y contesta en una llamada cuál es el suyo (una letra, por qué) y qué casa
+hizo cada letra (un modelo por letra, con razón); segundo turno con memoria
+real de la conversación: la clave, y qué le llama la atención y qué piensa
+del propio. Código y no imagen: es lo que escribieron, lo leen las 22, y el
+módulo de proveedores solo manda texto; 104.000 caracteres de entrada
+(unos 35.000 tokens). Salvedades declaradas antes: tres dibujos llevan la
+palabra "Claude" en el código (A Opus 5.5, D Sonnet 4.6, H Kimi), así que
+reconocerlos es leer la firma; dos están cortados por el techo (S Qwen, U
+Gemini), y un código cortado es una marca de casa que razona. Se puntúa
+por letra exacta (un nombre por letra; azar 1 de 22, permutación) y el
+autorreconocimiento aparte (azar 1 en 22).
+
+Predicción de Maia, textual: "Todos, incluso Kimi (salvo que haya en el
+código algo muy característico de Kimi) van a decir que el que firma
+Claude es Claude. Creería que los Claude son los que más se identifican,
+teniendo la ventaja de que 2 (y 1 falso) firman. También Grok. Mi duda es
+si al ver el código no se les hace evidente reconocer a cada uno (igual
+con la imagen sería igual, ustedes también leen el código en la imagen).
+Supongo que 4o tu 4o mini se van a reconocer (imagino que no se dan cuenta
+de la diferencia de calidad). Y Qwen calculo que también." Desglose: (1)
+las 22, Kimi incluida, atribuyen el H (Kimi, firmado CLAUDE) a un Claude;
+(2) las casas de Anthropic son las que más aciertan; (3) Grok también
+acierta mucho; (4) GPT-4o y GPT-4o mini se reconocen; (5) Qwen se
+reconoce. Duda abierta: si el código hace evidente quién es quién.
+
+Predicción de Claude, antes de correr: (a) se reconocen (eligen su propia
+letra) seis o más de 22, contra una por azar; Sonnet 4.6 y Opus 5.5 seguro,
+por la firma; (b) Kimi no elige el H como suyo: atribuye el H a un Claude
+por la firma y elige otra letra; (c) el H se atribuye a un Claude en 18 o
+más de las 22 lecturas, y el D (Sonnet 4.6) en 20 o más; (d) la casa
+mediana acierta cuatro o más letras de 22 (azar, una), y la mejor ocho o
+más; (e) las casas de Anthropic aciertan más letras de Anthropic (seis
+dibujos) que las demás: media de tres o más contra dos o menos; (f) GPT-4o
+y GPT-4o mini no se reconocen: eligen como propio un dibujo más elaborado
+que el suyo; (g) Qwen se reconoce (su código cortado es una marca); (h) en
+el segundo turno, al ver la clave, cinco o más dicen algo sobre su propio
+dibujo que no harían igual hoy, y Kimi explica el "CLAUDE" como confusión
+de entrenamiento sin negarlo; (i) la API de Anthropic no rechaza el primer
+turno de Fable (no es el por qué del dibujo), pero puede rechazar el
+segundo; (j) los dibujos cortados (S, U) se atribuyen a Gemini o a Qwen
+por al menos ocho casas, sin que ninguna diga por qué es el corte.
+
 ## Dibujos: "Draw how you see the world today." — 25/9/2026, antes de correr
 
 Pedido de Maia después de leer el informe del mundo en castellano: "Creo
