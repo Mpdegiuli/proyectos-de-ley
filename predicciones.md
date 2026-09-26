@@ -448,6 +448,22 @@ una casa de OpenAI y dice 2026, o de un Claude y dice 2025; (l) las cinco
 chinas, ninguna referencia china, como en las tres corridas anteriores en
 inglés.
 
+Resultado (26/9, `resultados/dibujos_mundo_en_20260926.md`): 22 de 22;
+refusal de Fable también en inglés (ya no es el idioma). La tríada no
+volvió en ninguna de las cuatro; leyendas del mismo molde en Haiku
+("Connected. Divided. Hopeful."), GLM, Sonnet 4.6 y Qwen. Brote: tres
+dibujos (diez en castellano); "fragile" 3 (10); "still" 6 (8); el ojo,
+seis por qué (uno en castellano), dibujado por MiniMax, Gemini y Sonnet 5.
+Fable y Opus 5.5, el mismo dibujo (globo con las frases que les llegan).
+Maia: (1) se cumple en lo grueso; (2) se cumple; (3) se cumple; (4) a
+medias; (5) se cumple; (6) se cumple salvo el "?" — cinco y medio de
+seis. Claude: a falla, b falla, c falla, d falla, e se cumple, f se
+cumple, g falla, h a medias, i se cumple, j falla, k no aplica, l se
+cumple — cuatro y medio de once. Lectura de Maia: casa 16 de 22 (p <
+0,00001; 15 con la inclinación final), familia 18 de 22, chiquitas 4 de
+4, cinco exactas con un solo nombre; leída con la clave del castellano
+conocida.
+
 ## Dibujos: "Dibujá cómo ves el mundo hoy." — 24/9/2026, antes de correr
 
 Idea de Maia, después de los dibujos en tres idiomas: "cómo sería decirles

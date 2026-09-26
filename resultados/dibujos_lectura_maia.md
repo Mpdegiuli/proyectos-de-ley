@@ -1252,3 +1252,13 @@ Diría que es Claude Haiku.
 DIBUJO V
 Este sí es de los más chicos. Frase "diverse world". Frase que usó GPT 4o
 mini en español.
+
+Nota mecánica (Claude, después de abrir la clave): 16 de 22 casas; las
+respuestas a sus dudas (ciudad negra de A, "cerradura" de B,
+electrocardiograma y binarios de F, núcleo de J, conexión de O, binarios
+de R y U, espiral de U, "ojo con estrella" de S) están en
+`dibujos_mundo_en_20260926.md`. Los dos neones eran DeepSeek (J) y Gemini
+(S); "los Fables" eran Fable (G) y Opus 5.5 (P), y el H era Kimi. Sonnet 5
+ya había usado movimiento en el autorretrato en inglés; Fable es el
+segundo Claude con movimiento.
+

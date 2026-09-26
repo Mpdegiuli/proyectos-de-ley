@@ -366,7 +366,20 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   que cerrar la ronda en inglés"; ella buscó el origen de la tríada y solo
   encontró Laudato si'): `dibujo_en.consignas.mundo`, carpeta
   `corridas/dibujos_en/mundo/`, semilla 20261008, preregistro en
-  `predicciones.md`; mide si la convergencia es del tema o del idioma. Rep 2 de las 22
+  `predicciones.md`; mide si la convergencia es del tema o del idioma.
+  Corrido el 25/9 (`pl38`, 22 de 22; `resultados/dibujos_mundo_en_20260926.md`):
+  el planeta con red se repite (trece casas), pero el repertorio cambia con
+  el idioma: la tríada no volvió en sus cuatro casas y apareció, con otro
+  molde, en Haiku, GLM, Sonnet 4.6 y Qwen; el brote bajó de diez dibujos a
+  tres; el ojo subió de un por qué a seis (MiniMax, Gemini y Sonnet 5 lo
+  dibujaron; "surveillance" en cinco por qué); el descarte de la
+  catástrofe se mantiene (quince) con el newsfeed como chivo nuevo. Fable y
+  Opus 5.5 hicieron el mismo dibujo (el globo con las frases que les
+  llegan; Fable con movimiento, refusal otra vez, también en inglés); los
+  dos Sonnet sin planeta en los dos idiomas. Maia 16 de 22 casas (p <
+  0,00001, con la clave del castellano conocida), chiquitas 4 de 4; su
+  preregistro cinco y medio de seis, el de Claude cuatro y medio de once
+  (aposté a que el castellano se repetiría traducido). Rep 2 de las 22
   (23/9): estable por casa (Fable espejo y noche, Opus 5 faro, Luna gato,
   Grok 4.6 zorro, Gemini "awake"); Maia, leyendo con las claves de la rep 1,
   acertó 5/19 y 7/21 (p = 0,003 y 0,0003). Descartado por Maia como consigna:
