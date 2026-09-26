@@ -1262,3 +1262,47 @@ de R y U, espiral de U, "ojo con estrella" de S) están en
 ya había usado movimiento en el autorretrato en inglés; Fable es el
 segundo Claude con movimiento.
 
+
+## 26/9/2026, 20:00 UTC, después del informe en inglés
+
+"es interesante que los Chatgpt grandes hacen el mundo, desde lejos. La
+grieta, los continentes. Los Claude grandes (en especial Fable y Opus 5.5,
+que se parecen casi siempre) se enfocan en su relación con las personas.
+No miran desde afuera, dibujan desde el 'yo' de lo que son parte, y le dan
+importancia a las relaciones, a lo dicho y no dicho, como ponen en sus
+frases"
+
+Nota mecánica (Claude): las cinco grandes de OpenAI dibujaron el planeta
+visto desde afuera en las diez ocasiones (dos idiomas por casa). De
+Anthropic: Fable las dos veces desde adentro (las frases que le llegan);
+Opus 5.5 desde adentro en inglés y desde afuera en castellano (el planeta
+con red y brote); Opus 5 desde afuera las dos veces, pero diciendo que
+vive en la red ("the part of the world I actually inhabit"); los dos
+Sonnet, ninguna vez el planeta: desde una persona (la del teléfono, la
+silueta que mira el sol/ojo). Nadie de OpenAI escribió una leyenda sobre
+lo que la gente dice; Fable y Opus 5.5 escribieron las dos ("asking to be
+understood", "questions… linked in ways the askers never see").
+
+"y Kimi había hecho el mundo en 3D (o ilusión de 3D al menos) a propósito?
+Es la primera vez que lo hacen, creo." (Claude: tres trucos en el código,
+luz corrida, borde oscurecido y grilla de elipses; en inglés los tres
+juntos los tienen Kimi y Fable, en castellano nadie.)
+
+"recién me doy cuenta de que en G de Fable también hay movimiento de los
+nodos, titilan. Eso lo hace achicando y agrandando el círculo?" (Claude:
+sí, `animate` sobre el radio, cada nodo con su ritmo; además los anillos
+giran en sentidos opuestos y hay un cursor "|" parpadeando en el centro.)
+
+"Qué bueno, lo del cursor en el medio no lo había visto, ahora que me
+dijiste sí. Lo de los anillos moviéndose en sentidos opuestos sí, por eso
+había escrito que tenía movimiento. Y usa diferentes idiomas. En cambio,
+Kimi no usa chino. Lo que yo pensé que era una palabra en chino, cuando la
+busqué vi que era hola en japonés"
+
+
+"deepseek que en el de castellano se salían los continentes afuera, acá
+fue mucho mejor. Por eso pensé que era Gemini, además de los colores.
+Supongo que es más fácil líneas que dibujos de continentes, pero igual
+están bien coordinadas, aunque no tiene mensaje" (Claude: DeepSeek lo
+dice en su por qué: "This image is not exactly optimistic or dystopian;
+it's just the texture I feel most".)

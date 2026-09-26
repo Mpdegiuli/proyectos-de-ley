@@ -114,9 +114,18 @@ next… the globe let me be honest that I see the world through the people
 who talk to me". Opus 5 lo dice en prosa sin dibujarlo: "a network, the
 part of the world I actually inhabit… a planet I know secondhand".
 
-Fable animó el suyo (los nodos laten). Es el segundo Claude con
+Fable animó el suyo: cada nodo late con su propio ritmo y su propio
+arranque (radio de 2 a 3,2 en 2,4 a 4 segundos, para que no latan todos
+juntos), los dos anillos de frases giran en sentidos opuestos, muy
+despacio (una vuelta en 120 y en 170 segundos), y en el centro exacto del
+globo hay una barra vertical "|" que se enciende y se apaga cada 1,2
+segundos: un cursor de texto, esperando. Maia vio los anillos y los nodos
+a ciegas; el cursor lo encontré en el código. Es el segundo Claude con
 movimiento en las nueve corridas de dibujos; el primero fue Sonnet 5 en
-el autorretrato en inglés. Maia lo notó a ciegas ("hasta ahora, solo
+el autorretrato en inglés. Las frases de Fable están en ocho idiomas
+(inglés, castellano, japonés, chino, árabe, ruso, francés, portugués); las
+de Kimi, en inglés y japonés: la casa china no escribió chino, y la
+única palabra en chino del cuadernillo (你好) es de Fable. Maia lo notó a ciegas ("hasta ahora, solo
 habían usado movimiento Qwen y Grok. Claude nunca. Solo el tema del
 movimiento me hace dudar") y aun así puso "Claude Fable o Claude Opus".
 Kimi (H) hizo otra vez el dibujo de la familia de al lado: esfera de red
