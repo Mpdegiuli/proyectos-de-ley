@@ -202,6 +202,49 @@ propio dibujo es más convencional o menos suyo de lo que esperaban; tres
 dicen que les gusta más ahora (Sonnet 5, Grok 4.6, DeepSeek); Grok 4.7,
 "No lo habría elegido".
 
+## Miraron la imagen, no el código
+
+Comentarios de Maia al leer el resultado (26/9, 22:11): "Je, GPT 4o mini
+se tiene confianza para creer que dibuja como Opus. Y qué lío de
+identidad tiene Kimi (y DeepSeek). Fable y Opus 5.5 son muy parecidos
+(Opus 5 y Opus 5.5 no). Y además, Fable no sabe de la existencia de Opus
+5.5, es posterior, por eso también puede atribuirse ese nombre. Por lo que
+decís, se basaron más en señas de imagen y no en lo técnico del código
+para reconocerse o no."
+
+Lo segundo se puede contar. De las 462 razones que dieron (una por letra
+y casa), 84 nombran algo del código (`clipPath`, comentarios,
+indentación, `aria-label`, `style=`, paths comprimidos, un hexadecimal), el
+18 por ciento, y 310 nombran algo de la imagen (colores, robot, cara,
+nebulosa, poético, minimalista), el 67 por ciento. Recibieron código y
+describieron el dibujo. Las dos que más leyeron el código son Kimi (12
+razones de 22) y Fable (11); GPT-5.6 Sol y Luna, ninguna. Y leer el código
+no ayudó: Kimi acertó cuatro y Fable tres, contra cinco de Opus 5.5 y
+GPT-5.5, que lo leyeron poco.
+
+Lo tercero es una salvedad de instrumento que no había declarado: la
+lista de casas incluye tres que salieron el 22/9/2026 (Opus 5.5, GPT-6 Sol
+y Luna), después del corte de todas, incluida la propia. Ninguna casa
+puede saber cómo dibuja Opus 5.5; cuando Fable escribe "A: Claude Opus
+5.5", está leyendo un nombre de la lista y poniéndolo donde vio el logo.
+Lo mismo vale para las GPT-6 Sol y Luna que varias atribuyeron: son
+nombres nuevos repartidos a ojo. Eso no cambia el puntaje (la casa real
+es la que es) pero sí la lectura de los aciertos sobre esas tres. Maia lo
+llevó más lejos (22:18): "No sé cuándo salió el primer Claude. Pero GPT 4o
+mini o GPT 4o también debe ser la primera vez que leen de la existencia
+hasta de la casa de varios. Posiblemente solo existiera Claude y no sé si
+Gemini en su historia." Es así, y vale para todas en distinto grado: cada
+casa conoce solo las casas anteriores a su corte. GPT-4o y GPT-4o mini
+tienen corte declarado en octubre de 2023; para entonces existían Claude
+(el primero salió en marzo de 2023), Qwen, ChatGLM y Mistral 7B, pero no
+Gemini (diciembre de 2023), ni Grok (noviembre de 2023), ni DeepSeek
+(noviembre de 2023), y de Anthropic nada posterior a Claude 2. Para las
+dos chicas de OpenAI, la mitad de la lista son nombres que leyeron por
+primera vez en la consigna, y a los que igual les asignaron un estilo:
+GPT-4o puso "Gemini 3.1 Pro — complejidad en capas y coloridos elementos
+futuristas" y "Grok 4.6 — muestra esplendor visual complejo". Las razones
+de las dos son las más genéricas del panel, y ahora se entiende por qué.
+
 ## Contra el preregistro
 
 Maia: (1) todas, Kimi incluida, atribuyen el H a un Claude: 20 de 21 —
