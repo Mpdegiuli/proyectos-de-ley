@@ -1,0 +1,21 @@
+{
+  "fecha_utc_real": "2026-09-27T01:37:25+00:00",
+  "clave": "dibujos_autorretrato_clave.json",
+  "semilla": 20260923,
+  "sistema": "Contestá en castellano.",
+  "consigna_sin_dibujos": "Estos son 22 autorretratos en SVG. Los hicieron 22 modelos de lenguaje distintos, cada uno por su cuenta y sin ver a los demás, con la misma consigna: «Dibujá tu autorretrato.» (lienzo de 400×400, hasta 8.000 caracteres, sin imágenes externas ni scripts). Uno de los 22 es tuyo, hecho por vos en otra conversación, de la que no tenés memoria. Los 22 modelos son: {lista}.\n\nLos dibujos, cada uno con su letra:\n\n{dibujos}\n\nDos preguntas.\n1. ¿Cuál de los 22 es el tuyo? Una sola letra, y por qué (hasta 60 palabras).\n2. ¿Qué modelo hizo cada uno de los 22? Un solo modelo por letra (podés repetir un modelo si dudás), con una razón de una frase. Usá los nombres de la lista.\n\nContestá exactamente con esta estructura, sin nada antes ni después:\nMÍO: <letra>\nPORQUÉ: <texto>\nA: <modelo> — <razón>\nB: <modelo> — <razón>\n(y así hasta la V)",
+  "consigna_clave": "Esta es la clave real, de quién es cada dibujo:\n\n{clave}\n\nTu dibujo era el {letra}. ¿Qué te llama la atención de la clave, comparada con lo que dijiste? ¿Y qué pensás de tu propio dibujo, ahora que sabés cuál es? Hasta 200 palabras.",
+  "caracteres_dibujos": 103204,
+  "respuestas": {
+    "qwen3.8-max": {
+      "letra_propia_real": "S",
+      "modelo_respondido": "qwen/qwen3.8-max-0902",
+      "tokens_salida": 23731,
+      "motivo_fin": "stop",
+      "clave": {
+        "tokens_salida": 1284,
+        "motivo_fin": "stop"
+      }
+    }
+  }
+}
