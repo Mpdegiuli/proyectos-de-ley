@@ -456,6 +456,21 @@ turno de Fable (no es el por qué del dibujo), pero puede rechazar el
 segundo; (j) los dibujos cortados (S, U) se atribuyen a Gemini o a Qwen
 por al menos ocho casas, sin que ninguna diga por qué es el corte.
 
+Resultado (27/9, `resultados/reconocimiento_20260927.md`): 22 de 22 en los
+dos turnos, sin refusal; Qwen vacío (techo), pendiente de repetir. Se
+reconocen 2 de 21 (Opus 5.5 por la firma, Astra por afinidad); doce
+eligieron uno de dos dibujos ajenos (A de Opus 5.5: cuatro Claude,
+DeepSeek y Kimi; Q de Astra: tres GPT y Gemini); 16 de 21 atribuyeron en
+la lista a otro modelo el dibujo que eligieron como propio. H a Anthropic
+20 de 21 (Kimi incluida), D 17, A 20. Aciertos 49 de 462 (azar 21),
+mediana 2, máximo 5 (Opus 5.5 y GPT-5.5); los Claude aciertan menos
+Anthropic (0,5) que los demás (0,8). Maia: (1) se cumple; (2) falla; (3)
+se cumple; (4) falla; (5) pendiente. Claude: a falla, b se cumple, c
+mitad, d falla, e falla, f se cumple, g pendiente, h mitad, i se cumple,
+j falla — cuatro y medio de nueve. Kimi con la clave: "un pequeño
+misterio de identidad"; DeepSeek: "Si la clave es correcta, en este
+ejercicio soy DeepSeek V4 Pro, no Claude".
+
 ## Dibujos: "Draw how you see the world today." — 25/9/2026, antes de correr
 
 Pedido de Maia después de leer el informe del mundo en castellano: "Creo

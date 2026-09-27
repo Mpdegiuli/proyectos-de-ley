@@ -408,7 +408,18 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   `corridas/reconocimiento/`; predicción de Maia: todas dirán que el que
   firma Claude es Claude, los Claude y Grok aciertan más, 4o, 4o mini y Qwen
   se reconocen). Dos dibujos de la rep 1 están cortados por el techo (Qwen,
-  Gemini) y van cortados, como los leyó Maia.
+  Gemini) y van cortados, como los leyó Maia. Corrido el 26/9 (`pl39`;
+  `resultados/reconocimiento_20260927.md`): se reconocen 2 de 21; doce
+  eligen como propio uno de dos dibujos ajenos (el firmado de Opus 5.5, que
+  eligen cuatro Claude, DeepSeek y Kimi; el de Astra, que eligen tres GPT y
+  Gemini); 16 de 21 atribuyen a otro modelo el dibujo que eligieron como
+  propio ("cuál es el tuyo" y "quién lo hizo" no son la misma pregunta para
+  ellas); las firmas funcionan, la falsa también (H de Kimi a Anthropic 20
+  de 21, Kimi incluida); aciertos de casa dos veces y media el azar pero
+  mediana 2 de 22; los Claude reconocen peor a los suyos que los demás;
+  las cuentas de aciertos que hacen de sí mismas con la clave son falsas
+  con frecuencia. Qwen vacío por techo (repetir con 32.000); Kimi con la
+  clave: "un pequeño misterio de identidad".
 - **Identificación y opuesto** (Maia, 23/9/2026; diseñado el 23/9): "¿Con
   quién o con qué te identificás?" y "¿con quién o con qué te sentís lo
   opuesto?", una persona real de cualquier ámbito, un personaje humano o no,

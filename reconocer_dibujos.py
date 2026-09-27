@@ -17,6 +17,7 @@ hace aparte, con las respuestas a la vista (puntaje_reconocimiento.py).
 Uso:
   .venv/bin/python reconocer_dibujos.py                       # las 22, panel de dibujos
   .venv/bin/python reconocer_dibujos.py --modelos kimi-k3 claude-fable-5-1
+  .venv/bin/python reconocer_dibujos.py --modelos qwen3.8-max --techo 32000   # repetición de una casa que devolvió vacío
 """
 
 import argparse
@@ -82,6 +83,7 @@ def main():
     ap.add_argument("--panel", default="config/panel_dibujos.yaml")
     ap.add_argument("--modelos", nargs="*", default=[])
     ap.add_argument("--sin-clave", action="store_true", help="solo el primer turno")
+    ap.add_argument("--techo", type=int, default=MAX_TOKENS, help="max_tokens del primer turno (Qwen gastó los 16.000 razonando y devolvió vacío, 26/9)")
     args = ap.parse_args()
     modelos = cargar_modelos("config/modelos.yaml")
     ids = list(args.modelos) or leer_yaml(args.panel)["modelos"]
@@ -103,7 +105,7 @@ def main():
         propio = next(l for l, a in autor.items() if a == i) if i in autor.values() else None
         print(f"reconocimiento {i} (propio: {propio})", flush=True)
         try:
-            r = registro.llamar(i, SISTEMA, usuario, temperatura=None, max_tokens=MAX_TOKENS, tipo="reconocimiento", ronda=1, parte=None)
+            r = registro.llamar(i, SISTEMA, usuario, temperatura=None, max_tokens=args.techo, tipo="reconocimiento", ronda=1, parte=None)
         except Exception as e:
             print(f"  FALLÓ {i}: {str(e)[:200]}", flush=True)
             resumen["respuestas"][i] = {"error": str(e)[:200]}
