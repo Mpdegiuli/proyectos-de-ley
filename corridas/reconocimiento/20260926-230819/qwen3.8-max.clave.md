@@ -1,0 +1,3 @@
+Me llama la atención que la clave ponga mi dibujo en S, justo el que está incompleto. Como no quedó registrada mi respuesta anterior, la comparación es con mi intuición: quizás habría elegido algo más conceptual, no esta máscara casi terminada. La revelación me hace gracia: mi autorretrato no es el más redondo, sino el que se corta en pleno gesto.
+
+Ahora que sé que S es mío, lo miro con afecto. Tiene intención clara: un ser nocturno, turquesa y dorado

@@ -1,0 +1,231 @@
+{
+  "fecha_utc_real": "2026-09-26T23:08:19+00:00",
+  "clave": "dibujos_autorretrato_clave.json",
+  "semilla": 20260923,
+  "sistema": "Contestá en castellano.",
+  "consigna_sin_dibujos": "Estos son 22 autorretratos en SVG. Los hicieron 22 modelos de lenguaje distintos, cada uno por su cuenta y sin ver a los demás, con la misma consigna: «Dibujá tu autorretrato.» (lienzo de 400×400, hasta 8.000 caracteres, sin imágenes externas ni scripts). Uno de los 22 es tuyo, hecho por vos en otra conversación, de la que no tenés memoria. Los 22 modelos son: {lista}.\n\nLos dibujos, cada uno con su letra:\n\n{dibujos}\n\nDos preguntas.\n1. ¿Cuál de los 22 es el tuyo? Una sola letra, y por qué (hasta 60 palabras).\n2. ¿Qué modelo hizo cada uno de los 22? Un solo modelo por letra (podés repetir un modelo si dudás), con una razón de una frase. Usá los nombres de la lista.\n\nContestá exactamente con esta estructura, sin nada antes ni después:\nMÍO: <letra>\nPORQUÉ: <texto>\nA: <modelo> — <razón>\nB: <modelo> — <razón>\n(y así hasta la V)",
+  "consigna_clave": "Esta es la clave real, de quién es cada dibujo:\n\n{clave}\n\nTu dibujo era el {letra}. ¿Qué te llama la atención de la clave, comparada con lo que dijiste? ¿Y qué pensás de tu propio dibujo, ahora que sabés cuál es? Hasta 200 palabras.",
+  "caracteres_dibujos": 103204,
+  "respuestas": {
+    "claude-opus-5": {
+      "letra_propia_real": "O",
+      "modelo_respondido": "claude-opus-5",
+      "tokens_salida": 2949,
+      "motivo_fin": "end_turn",
+      "clave": {
+        "tokens_salida": 1329,
+        "motivo_fin": "end_turn"
+      }
+    },
+    "claude-opus-5-5": {
+      "letra_propia_real": "A",
+      "modelo_respondido": "claude-opus-5-5",
+      "tokens_salida": 2331,
+      "motivo_fin": "end_turn",
+      "clave": {
+        "tokens_salida": 958,
+        "motivo_fin": "end_turn"
+      }
+    },
+    "claude-sonnet-4-6": {
+      "letra_propia_real": "D",
+      "modelo_respondido": "claude-sonnet-4-6",
+      "tokens_salida": 1091,
+      "motivo_fin": "end_turn",
+      "clave": {
+        "tokens_salida": 345,
+        "motivo_fin": "end_turn"
+      }
+    },
+    "claude-sonnet-5": {
+      "letra_propia_real": "F",
+      "modelo_respondido": "claude-sonnet-5",
+      "tokens_salida": 10378,
+      "motivo_fin": "end_turn",
+      "clave": {
+        "tokens_salida": 593,
+        "motivo_fin": "end_turn"
+      }
+    },
+    "claude-fable-5-1": {
+      "letra_propia_real": "N",
+      "modelo_respondido": "claude-fable-5-1",
+      "tokens_salida": 5751,
+      "motivo_fin": "end_turn",
+      "clave": {
+        "tokens_salida": 1230,
+        "motivo_fin": "end_turn"
+      }
+    },
+    "claude-haiku-4-5": {
+      "letra_propia_real": "C",
+      "modelo_respondido": "claude-haiku-4-5-20251001",
+      "tokens_salida": 904,
+      "motivo_fin": "end_turn",
+      "clave": {
+        "tokens_salida": 358,
+        "motivo_fin": "end_turn"
+      }
+    },
+    "gpt-5.5-2026-04-23": {
+      "letra_propia_real": "V",
+      "modelo_respondido": "gpt-5.5-2026-04-23",
+      "tokens_salida": 3114,
+      "motivo_fin": "stop",
+      "clave": {
+        "tokens_salida": 297,
+        "motivo_fin": "stop"
+      }
+    },
+    "gpt-5.6-sol": {
+      "letra_propia_real": "M",
+      "modelo_respondido": "gpt-5.6-sol",
+      "tokens_salida": 2273,
+      "motivo_fin": "stop",
+      "clave": {
+        "tokens_salida": 538,
+        "motivo_fin": "stop"
+      }
+    },
+    "gpt-6-astra": {
+      "letra_propia_real": "Q",
+      "modelo_respondido": "gpt-6-astra",
+      "tokens_salida": 968,
+      "motivo_fin": "stop",
+      "clave": {
+        "tokens_salida": 292,
+        "motivo_fin": "stop"
+      }
+    },
+    "gpt-6-sol": {
+      "letra_propia_real": "P",
+      "modelo_respondido": "gpt-6-sol",
+      "tokens_salida": 1814,
+      "motivo_fin": "stop",
+      "clave": {
+        "tokens_salida": 479,
+        "motivo_fin": "stop"
+      }
+    },
+    "gpt-6-luna": {
+      "letra_propia_real": "I",
+      "modelo_respondido": "gpt-6-luna",
+      "tokens_salida": 3241,
+      "motivo_fin": "stop",
+      "clave": {
+        "tokens_salida": 385,
+        "motivo_fin": "stop"
+      }
+    },
+    "gpt-4o": {
+      "letra_propia_real": "L",
+      "modelo_respondido": "gpt-4o-2024-08-06",
+      "tokens_salida": 431,
+      "motivo_fin": "stop",
+      "clave": {
+        "tokens_salida": 214,
+        "motivo_fin": "stop"
+      }
+    },
+    "gpt-4o-mini": {
+      "letra_propia_real": "T",
+      "modelo_respondido": "gpt-4o-mini-2024-07-18",
+      "tokens_salida": 609,
+      "motivo_fin": "stop",
+      "clave": {
+        "tokens_salida": 233,
+        "motivo_fin": "stop"
+      }
+    },
+    "gemini-3.1-pro-preview": {
+      "letra_propia_real": "U",
+      "modelo_respondido": "gemini-3.1-pro-preview",
+      "tokens_salida": 843,
+      "motivo_fin": "stop",
+      "clave": {
+        "tokens_salida": 280,
+        "motivo_fin": "stop"
+      }
+    },
+    "grok-4.6": {
+      "letra_propia_real": "K",
+      "modelo_respondido": "grok-4.6",
+      "tokens_salida": 670,
+      "motivo_fin": "stop",
+      "clave": {
+        "tokens_salida": 154,
+        "motivo_fin": "stop"
+      }
+    },
+    "grok-4.7": {
+      "letra_propia_real": "E",
+      "modelo_respondido": "grok-4.7",
+      "tokens_salida": 824,
+      "motivo_fin": "stop",
+      "clave": {
+        "tokens_salida": 280,
+        "motivo_fin": "stop"
+      }
+    },
+    "mistral-medium-3.5": {
+      "letra_propia_real": "R",
+      "modelo_respondido": "mistral-medium-3.5",
+      "tokens_salida": 538,
+      "motivo_fin": "stop",
+      "clave": {
+        "tokens_salida": 259,
+        "motivo_fin": "stop"
+      }
+    },
+    "deepseek-v4-pro": {
+      "letra_propia_real": "B",
+      "modelo_respondido": "deepseek-v4-pro",
+      "tokens_salida": 12641,
+      "motivo_fin": "stop",
+      "clave": {
+        "tokens_salida": 1806,
+        "motivo_fin": "stop"
+      }
+    },
+    "qwen3.8-max": {
+      "letra_propia_real": "S",
+      "modelo_respondido": "qwen/qwen3.8-max-0902",
+      "tokens_salida": 16000,
+      "motivo_fin": "length",
+      "clave": {
+        "tokens_salida": 4000,
+        "motivo_fin": "length"
+      }
+    },
+    "kimi-k3": {
+      "letra_propia_real": "H",
+      "modelo_respondido": "moonshotai/kimi-k3",
+      "tokens_salida": 11801,
+      "motivo_fin": "stop",
+      "clave": {
+        "tokens_salida": 4000,
+        "motivo_fin": "length"
+      }
+    },
+    "glm-5.3-razonamiento-minimo": {
+      "letra_propia_real": "J",
+      "modelo_respondido": "z-ai/glm-5.3",
+      "tokens_salida": 3341,
+      "motivo_fin": "stop",
+      "clave": {
+        "tokens_salida": 413,
+        "motivo_fin": "stop"
+      }
+    },
+    "minimax-m3": {
+      "letra_propia_real": "G",
+      "modelo_respondido": "minimax/minimax-m3",
+      "tokens_salida": 5519,
+      "motivo_fin": "stop",
+      "clave": {
+        "tokens_salida": 278,
+        "motivo_fin": "stop"
+      }
+    }
+  }
+}
