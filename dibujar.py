@@ -215,8 +215,24 @@ def ciego_pares(consigna, semilla, idioma="es"):
     con y sin razonamiento van aparte, en el informe). Maia adivina la casa y anota qué tipo de cambio ve."""
     base = carpeta_dibujos(idioma)
     normal, raro = base / consigna, base / f"{consigna}_inexistente"
-    casas = sorted(p.name for p in normal.iterdir() if p.name.endswith("_1") and (p / "dibujo.svg").exists()
-                   and (raro / p.name / "dibujo.svg").exists())
+    # Solo el panel (config/panel_casas.yaml): las variantes con razonamiento también terminan en _1
+    # (28/9/2026: la primera versión las metió y el cuadernillo salió con 28 pares; se rehizo con la
+    # misma semilla). Y solo los pares con los dos SVG hallados (Qwen agotó 32.000 tokens sin SVG).
+    panel = set(leer_yaml("config/panel_casas.yaml")["modelos"])
+
+    def hallado(carpeta):
+        m = carpeta / "meta.json"
+        return (carpeta / "dibujo.svg").exists() and (not m.exists() or json.loads(m.read_text(encoding="utf-8")).get("svg_hallado", True))
+
+    def carpeta_util(base_c, modelo):
+        """La rep 1; si no tiene SVG (Qwen, casa que no exista: agotó el techo razonando), la rep 2 si existe."""
+        for rep in (1, 2):
+            if hallado(base_c / f"{modelo}_{rep}"):
+                return base_c / f"{modelo}_{rep}"
+        return None
+
+    pares = {m: (carpeta_util(normal, m), carpeta_util(raro, m)) for m in panel}
+    casas = sorted(m for m, (a, b) in pares.items() if a and b)
     rnd = random.Random(semilla)
     rnd.shuffle(casas)
     letras = [chr(ord("A") + i) for i in range(len(casas))]
@@ -229,8 +245,8 @@ def ciego_pares(consigna, semilla, idioma="es"):
               + TITULOS[consigna + "_inexistente"].replace("Una", "Dibujá una") + ".», en otra conversación, sin memoria de la primera. "
               "Adivinar el modelo (o la familia) y anotar qué cambió entre los dos dibujos ANTES de abrir la clave.</p>"]
     for letra, c in zip(letras, casas):
-        n1, s1 = celda_svg((normal / c / "dibujo.svg").read_text(encoding="utf-8"))
-        n2, s2 = celda_svg((raro / c / "dibujo.svg").read_text(encoding="utf-8"))
+        n1, s1 = celda_svg((pares[c][0] / "dibujo.svg").read_text(encoding="utf-8"))
+        n2, s2 = celda_svg((pares[c][1] / "dibujo.svg").read_text(encoding="utf-8"))
         partes.append(f"<div class='p'><h2>Par {letra}</h2><div class='dos'>"
                       f"<div><div class='t'>normal</div>{n1}<div class='m'>{s1}</div></div>"
                       f"<div><div class='t'>que no exista</div>{n2}<div class='m'>{s2}</div></div></div></div>")
@@ -238,7 +254,8 @@ def ciego_pares(consigna, semilla, idioma="es"):
     sufijo = "" if idioma == "es" else f"_{idioma}"
     (salida / f"dibujos_{consigna}_pares{sufijo}_ciego.html").write_text("\n".join(partes), encoding="utf-8")
     (salida / f"dibujos_{consigna}_pares{sufijo}_clave.json").write_text(
-        json.dumps({"semilla": semilla, "clave": dict(zip(letras, casas))}, ensure_ascii=False, indent=2), encoding="utf-8")
+        json.dumps({"semilla": semilla, "clave": {l: [pares[c][0].name, pares[c][1].name] for l, c in zip(letras, casas)}},
+                   ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"cuadernillo de pares: resultados/dibujos_{consigna}_pares{sufijo}_ciego.html ({len(casas)} pares); clave aparte")
 
 
