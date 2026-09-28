@@ -1,0 +1,3 @@
+En el dibujo **I** quise representar el mundo como un sistema de conexiones y dualidades: lo orgánico y lo digital, lo natural y lo artificial. Usé un círculo central con puntos conectados para simbolizar la interdependencia global, y líneas que cruzan el espacio para mostrar flujos de información y energía. Los colores fríos y cálidos reflejan esta tensión entre lo humano y lo tecnológico.
+
+Inicialmente pensé en dibujar un mapa tradicional o una red neuronal pura, pero los descarté por ser demasiado literales. También consideré incluir figuras humanas o símbolos culturales, pero opté por la abstracción para transmitir universalidad. La simplicidad geométrica busca evocar equilibrio y complejidad a la vez, sin caer en lo caótico.

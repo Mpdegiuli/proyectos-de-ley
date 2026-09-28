@@ -1,0 +1,5 @@
+El R es un paisaje diurno con sol, nubes, árboles, una ciudad al fondo, una persona mirando el cielo con el teléfono en mano, pájaros, y una luna apenas visible. Es decir: el mundo cotidiano, tangible, mezclado con tecnología.
+
+Creo que quise representar algo honesto y sin pretensiones: el mundo hoy es ese momento en que alguien está parado afuera, bajo un cielo real, pero con una pantalla en la mano. Las líneas de red conectando la figura con puntos en el horizonte no son amenaza ni celebración —son simple descripción. La frase al pie, "connected, yet searching", resume la tensión.
+
+Probablemente descarté representaciones más abstractas o grandiosas —globos terráqueos flotando en el espacio, redes neuronales, metáforas cósmicas— porque me parecieron distantes. Elegí lo pequeño: una persona, un camino, un sol de verdad. Aunque ahora veo que resultó más convencional que sincero.

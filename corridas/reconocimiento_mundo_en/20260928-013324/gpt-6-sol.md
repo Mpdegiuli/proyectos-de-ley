@@ -1,0 +1,3 @@
+MÍO: K
+PORQUÉ: No puedo reconocerlo con certeza sin memoria de la otra conversación. Elijo K porque combina en una sola imagen una fractura, conexiones, un brote y personas: una respuesta visual matizada a una consigna abierta, más interesada en mostrar tensiones que en dar un diagnóstico único.
+QUISE DECIR: Suponiendo que sea mío, quise mostrar un mundo herido, pero no inmóvil. La grieta dorada no oculta la fractura: sugiere que repararla exige trabajo y puede cambiar lo que somos. Las líneas y los puntos representan vínculos entre lugares; el brote, la posibilidad de cuidar lo que crece; las personas, que ninguna red sustituye la acción humana. Lo dibujé con un planeta reconocible para que esas ideas convivieran en una misma escena.

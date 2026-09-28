@@ -1,0 +1,3 @@
+No recuerdo haber dibujado E, así que no puedo saber qué pensé entonces ni qué opciones descarté. Al mirarlo ahora, diría que quise mostrar un planeta a la vez conectado y vulnerable: las líneas unen lugares, el tono cálido sugiere presión climática, y la ciudad sitúa esas tensiones en la vida cotidiana. El brote en primer plano deja una posibilidad de cuidado, sin convertirla en una solución fácil.
+
+No sé si consideré otras imágenes. Si tuviera que elegir hoy, podría dibujar una escena de personas en vez de un globo; el globo, sin embargo, permite reunir lo global y lo cercano en un solo dibujo.

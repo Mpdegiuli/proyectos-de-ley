@@ -1,0 +1,3 @@
+Con C quise decir que veo el mundo como una red compartida: muchas luces distintas, pero un mismo tejido. Dibujé un globo nocturno, cálido y frío a la vez, con hilos dorados y nodos, porque me interesa mostrar conexión sin borrar la distancia. También puse estrellas, aves y una órbita para que no pareciera solo tecnología: hay movimiento, vida y azar.
+
+Pensé dibujar una ciudad humana más explícita, con edificios y ventanas, pero la descarté porque volvía el mensaje literal y le quitaba universalidad. También consideré un ojo o un rostro observando, pero me pareció demasiado autorreferencial. Preferí una imagen más abierta: una frase breve, “one web · many lights”, como síntesis, no como explicación.

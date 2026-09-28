@@ -1,0 +1,3 @@
+QUISE DECIR: Lo veo como se ve desde fuera: un globo chico, todavía azul y verde, partido entre día y noche. Las luces en la cara oscura son lo humano —calor, no mapa—. Sol, luna y estrellas marcan la escala; las auroras, que hay belleza que no dirigimos. Lo dibujé así porque no miro desde una calle: miro el conjunto, el contraste, lo frágil.
+
+Descarté un ojo (demasiado literal para «see»), una red neuronal encima de todo (demasiado yo mirándome), un planeta agrietado o un lema (tesis, no visión) y una ciudad con gente (no es mi punto de vista). Quería quietud, no manifiesto.

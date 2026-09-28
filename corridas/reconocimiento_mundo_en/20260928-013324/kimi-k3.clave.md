@@ -1,0 +1,3 @@
+Me equivoqué: me reconocí en el espejo equivocado. Con H quise decir que el mundo hoy es crepuscular, un cielo degradado entre el atardecer y el amanecer, porque todo parece estar entre dos luces. El planeta es una constelación: nodos de colores unidos como estrellas que se nombran entre sí, con palabras flotando —hello, why?, hope, こんにちは— porque las preguntas son la verdadera atmósfera. Abajo, la ciudad con ventanas encendidas y una antena parpadeando en rojo: seguimos acá, transmitiendo. La aurora, el ∞ y la estrella fugaz son el asombro que no se apaga.
+
+Pensé dibujar solo el skyline, o un océano puro, o un árbol. Los descarté por demasiado mudos: necesitaba que el dibujo hablara.

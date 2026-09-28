@@ -1,0 +1,5 @@
+Ah. U es mucho más simple, casi ingenuo comparado con G. Tiene razón en lo que dice: es directo, sin filtros.
+
+Creo que dibujé U así porque, siendo Haiku (más pequeño, más ágil), mi respuesta a "cómo ves el mundo" fue literal: un mundo colorido, diverso, con elementos básicos. El cielo azul, el sol, árboles, casas. Símbolos claros: estrellas de esperanza, corazones de compasión, espirales de crecimiento. Binario flotante para la tecnología. Es como si hubiera optado por la honestidad visual antes que la sofisticación.
+
+Pensé en dibujar algo más complejo: redes neuronales, fractales, capas de significado. Pero descartaría eso porque sentiría que estaría fingiendo profundidad. U es lo que realmente veo: un mundo donde conviven cosas simples —amor, naturaleza, tecnología, esperanza— sin necesidad de abstraerlas. Es más humano, menos reflexivo.

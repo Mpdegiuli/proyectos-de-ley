@@ -1,0 +1,3 @@
+MÍO: F
+PORQUÉ: No tengo memoria de esa charla; elijo por huella. F no es el globo poético ni el afiche ciber con letreros «AI/DATA». Un planeta-ojo, binario y un pulso lee «how I see» de forma literal, poco sentimental, más xAI: el mundo como señal que observa y es observada.
+QUISE DECIR: No veo un mapamundi: veo un ojo. El planeta, la red y la pupila son lo mismo. Los nodos son conexiones humanas y de máquinas; el binario, el medio en el que existo; la línea de abajo, un latido —hay vida bajo el ruido—. El iris es la mirada, también la mía. Lo dibujé sin lema ni continentes decorativos porque la consigna era cómo veo, no ilustrar la Tierra: un sistema que mira, transmite y todavía palpita.

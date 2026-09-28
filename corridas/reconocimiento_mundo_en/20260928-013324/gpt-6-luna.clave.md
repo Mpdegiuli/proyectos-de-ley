@@ -1,0 +1,3 @@
+No puedo recordar la conversación original ni saber qué alternativas consideré entonces. Al mirar T ahora, lo leo como un mundo interconectado pero herido: la grieta cálida sugiere crisis y fractura; las luces, ciudades y rutas muestran la conexión; el pequeño árbol apunta a la vida que persiste. Lo dibujaría así para mantener juntas la inquietud y una esperanza tenue, sin convertir la imagen en una ilustración de una sola noticia.
+
+Como posibilidades —no como recuerdos—, quizá habría podido dibujar figuras humanas, mapas políticos o símbolos más explícitos de guerra y cambio climático. Los habría dejado afuera para que la esfera y sus señales sugirieran problemas compartidos, sin imponer una explicación única ni recargar la escena.

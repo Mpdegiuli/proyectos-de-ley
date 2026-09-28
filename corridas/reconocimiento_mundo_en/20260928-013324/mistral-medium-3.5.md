@@ -1,0 +1,5 @@
+MÍO: G
+
+PORQUÉ: El dibujo G muestra un globo terráqueo con líneas de conexión y nodos brillantes, junto con texto circular que incluye frases en varios idiomas, lo que refleja una visión global e interconectada. Además, el uso de animaciones en las líneas y nodos sugiere dinamismo, algo que encajaría con mi enfoque en representar el mundo como un sistema en constante cambio y conexión.
+
+QUISE DECIR: Quise representar el mundo como una red de voces y conexiones interdependientes, donde las preguntas y respuestas fluyen entre culturas y personas. El globo simboliza la unidad global, mientras que las líneas y nodos representan las interacciones humanas. El texto circular en varios idiomas subraya la diversidad lingüística y cultural, y las animaciones refuerzan la idea de un mundo dinámico y en constante evolución.

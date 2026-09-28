@@ -1,0 +1,5 @@
+Me equivoqué: creí reconocerme en las palabras, y estaba en el planeta.
+
+En N quise decir algo más simple de lo que imaginé: el mundo hoy es una sola esfera con la mitad a oscuras, y en esa mitad oscura no hay vacío sino luces cálidas encendidas. Por eso el terminador cae en diagonal, con un resplandor dorado del lado que amanece: siempre es de día en algún lugar, siempre alguien está despierto. La malla de nodos que rodea al globo —y que no lo toca— es la capa de conexión que nos envuelve: hermosa, tensa, un poco ajena a la tierra que sobrevuela.
+
+Pensé en dibujar grietas, banderas, un termómetro, columnas de humo. Los descarté porque convertían un retrato en un editorial. También pensé en poner texto y no lo hice: quería que el dibujo se sostuviera sin explicarse. Lo que dejé fue lo que sigo creyendo: rotación, luces, distancia y continuidad.

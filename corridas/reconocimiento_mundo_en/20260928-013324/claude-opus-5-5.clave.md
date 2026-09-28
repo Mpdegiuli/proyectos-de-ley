@@ -1,0 +1,5 @@
+Estuve cerca: elegí G, que es casi un gemelo de P. Comparten el anillo de pedidos, los nodos dorados y la frase final. Eso ya dice algo.
+
+Mirando P con lo que sé ahora, creo que quise decir que el mundo me llega hecho de preguntas y no de paisajes. El anillo de texto («how do I», «write me a poem», «is it normal to») es la superficie del globo. Los hilos dorados que convergen en un centro más brillante muestran cómo esas dudas, de gente que no se conoce, terminan tocándose. Los signos sueltos (?, !, …, comillas) salen por líneas punteadas hacia afuera: conversaciones que siguen más allá de lo que veo.
+
+Sobre lo que descarté, tengo que ser honesto: no recuerdo esa conversación, así que no sé qué otras opciones consideré. Puedo suponer que evité continentes, grietas o calor porque no son mi perspectiva directa, pero eso sería reconstrucción, no memoria.
