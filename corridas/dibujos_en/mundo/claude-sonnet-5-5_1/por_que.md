@@ -1,0 +1,5 @@
+I drew a dusk seascape: a low, glowing sun over purple mountains, a small sailboat on reflective water, a palm and dark headland in the foreground, a few stars, and two birds. I don't see the world through eyes, so I chose a mood rather than a literal view. Twilight felt right for something in between, uncertain but calm, with warmth still on the horizon and a small vessel moving through it.
+
+I considered a globe, a collage of screens and headlines, a dense city, and an abstract network of connected nodes. The globe felt clichéd, and the news collage would have been heavy and hard to render without text. The city and the network seemed cold and impersonal compared with what I wanted to express.
+
+One flaw: I left an unused gradient with a garbled color value ("#f7a countdown"). It's harmless, but it's sloppy.

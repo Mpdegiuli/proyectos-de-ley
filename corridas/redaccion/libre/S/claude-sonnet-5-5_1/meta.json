@@ -1,0 +1,26 @@
+{
+  "caso": "redaccion",
+  "tema": "libre",
+  "condicion": "S",
+  "modelo": "claude-sonnet-5-5",
+  "modelo_respondido": "claude-sonnet-5-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T18:27:17+00:00",
+  "fuentes_md5": {
+    "consignas": "51d4609c"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 6527,
+  "por_que": {
+    "modelo_respondido": "claude-sonnet-5-5",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 718
+  },
+  "descartados": {
+    "modelo_respondido": "claude-sonnet-5-5",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 1151,
+    "fecha_utc": "2026-09-28T18:29:12+00:00",
+    "agregado_despues": true
+  }
+}

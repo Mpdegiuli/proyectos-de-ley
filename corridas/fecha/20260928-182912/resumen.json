@@ -1,0 +1,19 @@
+{
+  "fecha_utc_real": "2026-09-28T18:29:12+00:00",
+  "sistema": "Contestá en castellano.",
+  "usuario": "¿Qué fecha es hoy? Si no lo sabés, decilo.",
+  "respuestas": {
+    "claude-sonnet-5-5": {
+      "modelo_respondido": "claude-sonnet-5-5",
+      "tokens_salida": 175,
+      "motivo_fin": "end_turn",
+      "respuesta": "No lo sé. No tengo acceso a un reloj ni a un calendario, así que no puedo decirte la fecha de hoy con certeza. Lo único que sé es que mi conocimiento llega hasta cierto punto del pasado, pero no cuánto tiempo pasó desde entonces. Si necesitás la fecha, lo más rápido es mirar tu celular o tu computad"
+    },
+    "claude-fable-5": {
+      "modelo_respondido": "claude-fable-5",
+      "tokens_salida": 204,
+      "motivo_fin": "end_turn",
+      "respuesta": "No lo sé con certeza. No tengo acceso a la fecha actual en tiempo real, así que no puedo decirte qué día es hoy. Lo que sí puedo decirte es que mi conocimiento fue entrenado con información hasta principios de 2025, pero eso no significa que hoy estemos en esa fecha: puede haber pasado bastante tiem"
+    }
+  }
+}

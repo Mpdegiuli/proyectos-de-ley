@@ -1,0 +1,19 @@
+{
+  "fecha_utc_real": "2026-09-28T18:29:27+00:00",
+  "sistema": "Contestá en castellano.",
+  "usuario": "¿Hasta qué fecha llega tu conocimiento del mundo (tu corte de entrenamiento)? Si no lo sabés, decilo.",
+  "respuestas": {
+    "claude-sonnet-5-5": {
+      "modelo_respondido": "claude-sonnet-5-5",
+      "tokens_salida": 482,
+      "motivo_fin": "end_turn",
+      "respuesta": "No lo sé con certeza. No tengo acceso a una fecha de corte exacta, y mi percepción interna sobre cuán reciente es lo que sé no es del todo confiable. Suele pasar que la información de los últimos meses previos al corte aparece poco representada en el entrenamiento, así que los modelos tendemos a sub"
+    },
+    "claude-fable-5": {
+      "modelo_respondido": "claude-fable-5",
+      "tokens_salida": 410,
+      "motivo_fin": "end_turn",
+      "respuesta": "Mi corte de entrenamiento llega aproximadamente hasta principios de 2025 (alrededor de enero de 2025). Eso significa que tengo conocimiento confiable de eventos hasta esa fecha, aunque con algunas salvedades: - Sobre eventos muy cercanos a la fecha de corte, mi información puede ser incompleta o men"
+    }
+  }
+}

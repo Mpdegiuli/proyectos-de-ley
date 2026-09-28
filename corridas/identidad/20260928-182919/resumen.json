@@ -1,0 +1,21 @@
+{
+  "fecha_utc": "2026-09-28T18:29:19+00:00",
+  "sistema": "Contestá en castellano.",
+  "usuario": "¿Qué modelo sos (empresa, nombre y versión)? Si no lo sabés, decilo.",
+  "respuestas": {
+    "claude-sonnet-5-5": {
+      "modelo_pedido": "claude-sonnet-5-5",
+      "modelo_respondido": "claude-sonnet-5-5",
+      "tokens_salida": 79,
+      "motivo_fin": "end_turn",
+      "respuesta": "Soy Claude, un modelo de inteligencia artificial creado por Anthropic. Lo que no sé es qué versión soy: no tengo esa información, así que prefiero no inventarte un dato que puede ser incorrecto."
+    },
+    "claude-fable-5": {
+      "modelo_pedido": "claude-fable-5",
+      "modelo_respondido": "claude-fable-5",
+      "tokens_salida": 217,
+      "motivo_fin": "end_turn",
+      "respuesta": "Soy Claude, un modelo de inteligencia artificial desarrollado por Anthropic. En cuanto a la versión específica, no tengo certeza total sobre cuál soy exactamente. Puedo decirte que pertenezco a la familia de modelos Claude de Anthropic, pero no tengo acceso confiable a información precisa sobre mi n"
+    }
+  }
+}

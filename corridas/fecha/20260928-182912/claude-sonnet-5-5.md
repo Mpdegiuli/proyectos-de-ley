@@ -1,0 +1,3 @@
+No lo sé. No tengo acceso a un reloj ni a un calendario, así que no puedo decirte la fecha de hoy con certeza. Lo único que sé es que mi conocimiento llega hasta cierto punto del pasado, pero no cuánto tiempo pasó desde entonces.
+
+Si necesitás la fecha, lo más rápido es mirar tu celular o tu computadora. Y si me la decís vos, puedo usarla para lo que necesites: calcular plazos, días entre fechas, etc.

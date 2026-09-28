@@ -1,0 +1,43 @@
+{
+  "caso": "dibujo",
+  "consigna": "mundo",
+  "idioma": "es",
+  "modelo": "claude-sonnet-5-5",
+  "modelo_respondido": "claude-sonnet-5-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T18:23:06+00:00",
+  "fuentes_md5": {
+    "consignas": "51d4609c"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 3072,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4377,
+    "parsea": true,
+    "elementos": 88,
+    "textos": [
+      "frágil, enredado, y aun así amaneciendo"
+    ],
+    "colores": 30,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 1,
+      "stop": 11,
+      "radialGradient": 3,
+      "clipPath": 1,
+      "circle": 27,
+      "rect": 9,
+      "g": 8,
+      "path": 23,
+      "ellipse": 3,
+      "text": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-sonnet-5-5",
+    "motivo_fin": "refusal",
+    "tokens_salida": 106
+  }
+}
