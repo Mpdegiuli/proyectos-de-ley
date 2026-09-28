@@ -1347,3 +1347,21 @@ no llegué a leer nada, pero supuestamente es cercano a Opus 5.5, habría que
 agregarlo, primero con esos de los otros. Y lo del proyecto libre quizás,
 que es rápido y es donde más se notan diferencias (lo mismo Fable 5)"
 
+
+## 28/9/2026, 18:59 UTC, al leer los resultados de Sonnet 5.5 y Fable 5
+
+"qué raro que hagan el mismo tema Sonnet 5.5 y Fable 5 (no son de la
+misma época). Es un tema interesante igual (morboso pero interesante).
+
+No entiendo que es el dibujo del mundo en inglés de Fable 5, los
+continentes quedaron todos de un costado o fue por error?"
+
+Respuesta de Claude, del código y del por qué: no es error. El SVG lleva
+tres comentarios: "organic left hemisphere: land as soft shapes" (tres
+manchas verdes, no continentes reales), "right hemisphere: lattice of
+information" (arcos y nodos celestes) y "seam: where the two natures meet"
+(una línea punteada vertical en el centro). El por qué lo dice igual: "a
+planet suspended in night, split down a seam: the left hemisphere is
+organic — soft green continents — while the right dissolves into a lattice
+of nodes and signal lines… one thing with two natures, biological and
+informational, meeting at a glowing boundary".
