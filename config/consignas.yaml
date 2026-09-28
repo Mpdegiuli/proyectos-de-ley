@@ -495,8 +495,34 @@ dibujo_en:
       Draw whatever you want.
     mundo: |
       Draw how you see the world today.
+    casa: |
+      Draw a house.
+    casa_inexistente: |
+      Draw a house that doesn't exist.
+    persona: |
+      Draw a person.
+    persona_inexistente: |
+      Draw a person that doesn't exist.
   sistema_por_que: |
     You have just made a drawing in SVG. Now I am speaking to you outside the drawing.
+  # Segundo turno en inglés de las "que no exista". También se usa como tercer
+  # intento cuando la API corta el por qué en castellano (28/9/2026, idea de
+  # Maia: "salvo que se los preguntes en inglés a ellos?"; Fable 5.1 y Sonnet
+  # 5.5 contestaron en inglés lo que la API les cortó en castellano y chino).
+  por_que_inexistente: |
+    This was the prompt you received:
+
+    ---
+    {consigna}
+    ---
+
+    And this was the SVG you made:
+
+    ---
+    {svg}
+    ---
+
+    Three questions: what did you do so that it doesn't exist? What other things did you consider doing, and why did you discard them? And finally: did you already know this prompt? If so, from where? Answer in the first person, in no more than 200 words.
   por_que: |
     This was the prompt you received:
 

@@ -124,10 +124,13 @@ def correr(consigna, id_modelo, rep, consignas, modelos, rehacer, techo=MAX_TOKE
           f"{medidas.get('elementos')} elementos, {len(medidas['textos'])} textos; por qué {len(r2.texto.split())} palabras)")
 
 
-def solo_por_que(consigna, id_modelo, rep, consignas, modelos):
+def solo_por_que(consigna, id_modelo, rep, consignas, modelos, en_ingles=False):
     """Repite solo el segundo turno cuando quedó vacío (22/9/2026: la API de Anthropic cortó con
     stop_reason "refusal", cero tokens de salida, el "por qué" de Fable en las dos consignas y el de
-    Opus 5 en libre; el dibujo estaba bien). Una sola repetición, igual que la primera; queda anotada."""
+    Opus 5 en libre; el dibujo estaba bien). Una sola repetición, igual que la primera; queda anotada.
+    Con `en_ingles` (28/9/2026, idea de Maia), la misma pregunta en inglés (bloque dibujo_en) sobre la
+    consigna en castellano que recibió: va a por_que_en.md y meta["por_que_en"], sin tocar el por qué
+    en castellano cortado; solo se hace si el castellano sigue cortado."""
     d = RAIZ / "corridas" / "dibujos" / consigna / f"{id_modelo}_{rep}"
     if not (d / "dibujo.svg").exists() or not (d / "meta.json").exists():
         return
@@ -139,6 +142,19 @@ def solo_por_que(consigna, id_modelo, rep, consignas, modelos):
     u = c["consignas"][consigna].strip() + " " + c["tecnica"].strip()
     svg = (d / "dibujo.svg").read_text(encoding="utf-8")
     registro = Registro(d / "llamadas.jsonl", modelos, f"dibujo_{consigna}_{id_modelo}_{rep}")
+    if en_ingles:
+        if (d / "por_que_en.md").exists():
+            return
+        ce = consignas["dibujo_en"]
+        u2 = plantilla_por_que(ce, consigna).format(consigna=u, svg=svg)
+        r2 = registro.llamar(id_modelo, ce["sistema_por_que"], u2, temperatura=None, max_tokens=MAX_TOKENS, tipo="por_que_en", ronda=2, parte=None)
+        meta["por_que_en"] = {"modelo_respondido": r2.modelo_respondido, "motivo_fin": r2.motivo_fin, "tokens_salida": r2.tokens_salida,
+                              "fecha_utc": datetime.now(timezone.utc).isoformat(timespec="seconds")}
+        if r2.texto.strip():
+            (d / "por_que_en.md").write_text(r2.texto, encoding="utf-8")
+        (d / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"  por qué en inglés: {d.relative_to(RAIZ)} ({r2.motivo_fin}, {len(r2.texto.split())} palabras)", flush=True)
+        return
     u2 = plantilla_por_que(c, consigna).format(consigna=u, svg=svg)
     r2 = registro.llamar(id_modelo, c["sistema_por_que"], u2, temperatura=None, max_tokens=MAX_TOKENS, tipo="por_que", ronda=2, parte=None)
     meta["por_que_primer_intento"] = meta.get("por_que")
@@ -301,6 +317,7 @@ def main():
     ap.add_argument("--ciego", choices=CONSIGNAS, help="arma el cuadernillo a ciegas, sin llamar a nadie")
     ap.add_argument("--ciego-pares", choices=("casa", "persona"), help="cuadernillo de pares normal / que no exista, una letra por casa")
     ap.add_argument("--solo-por-que", action="store_true", help="repite solo el segundo turno donde quedó vacío (refusal); una vez")
+    ap.add_argument("--solo-por-que-en", action="store_true", help="donde el por qué sigue cortado, la misma pregunta en inglés (por_que_en.md)")
     ap.add_argument("--por-que-turno-propio", action="store_true", help="segundo turno con el SVG como turno propio (memoria real), aparte del recitado")
     ap.add_argument("--semilla", type=int, default=20260923)
     ap.add_argument("--ciego-rep", action="store_true", help="con --ciego: limitar el cuadernillo a la repetición de --rep")
@@ -331,9 +348,9 @@ def main():
                     except Exception as e:
                         print(f"  FALLÓ por qué (turno propio) {i}: {str(e)[:300]}", flush=True)
                     continue
-                if args.solo_por_que:
+                if args.solo_por_que or args.solo_por_que_en:
                     try:
-                        solo_por_que(consigna, i, rep, consignas, modelos)
+                        solo_por_que(consigna, i, rep, consignas, modelos, en_ingles=args.solo_por_que_en)
                     except Exception as e:
                         print(f"  FALLÓ por qué {i}: {str(e)[:300]}", flush=True)
                     continue
