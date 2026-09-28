@@ -456,6 +456,22 @@ Es decir: el sondeo de corte de Sonnet 5.5 por API se contrasta con tres
 valores, el publicado (junio de 2026), el de Sonnet 5 (enero de 2026) y el
 que dijo la app ("fines de agosto de 2026").
 
+Resultado (28/9, `resultados/nuevas_sonnet55_fable5_20260928.md`): Sonnet
+5.5 dibuja como Sonnet (atardecer, persona en el mundo en inglés) con un
+robot de autorretrato y la leyenda de la generación en el mundo
+("frágil, enredado, y aun así amaneciendo"); la API le cortó los tres por
+qué en castellano. Fable 5: autorretrato de la línea (sol con cara, red,
+frase, "?"), pero no las voces en el mundo en inglés, ningún corte y sin
+reserva de memoria. Las dos eligieron el mismo tema libre, nuevo en el
+protocolo (herencia digital), con los mismos descartados (apuestas, ley
+marco de IA) y el argumento del rol sin bloque; parecido 0,44 entre sí.
+Corte: Fable 5 "principios de 2025"; Sonnet 5.5 no declara ninguno y
+explica por qué no confiar en el declarado. Claude: Sonnet 5.5 tres de
+ocho (a medias a y g; b, c se cumplen; d, e, f, h fallan); Fable 5 dos y
+medio de siete (a medias a; b, f se cumplen; c, d, e, g fallan). La
+pregunta de Maia: Opus 5.5 se parece más a Fable 5.1 que Fable 5 en el
+mundo, la reserva y el filtro; Fable 5 se parece a 5.1 en el autorretrato.
+
 ## Tema libre para las chicas de OpenAI (GPT-4o y GPT-4o mini) — 28/9/2026, antes de correr
 
 Pedido de Maia (27/9, 22:14 local): "Nunca se le pidió escribir un

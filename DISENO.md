@@ -437,6 +437,18 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   por millón, como 5.1; sigue disponible por API. Se agrega al catálogo y
   corre lo mismo que Sonnet 5.5, para ver si Fable 5.1 se parece más a Opus
   5.5 que a su propio antecesor. Preregistrado en `predicciones.md`.
+  Corrido el 28/9 (`pl42`; `resultados/nuevas_sonnet55_fable5_20260928.md`):
+  Sonnet 5.5 dibuja como Sonnet (atardecer; persona y sin planeta en el
+  mundo en inglés), con un robot de autorretrato y la leyenda de la
+  generación en el mundo en castellano; la API le cortó los tres por qué en
+  castellano (ningún Sonnet había sido cortado). Fable 5 hereda el
+  autorretrato de la línea (sol con cara, red, frase) pero no las voces
+  del mundo en inglés, no fue cortado y narra los descartados como
+  recuerdo: el filtro y la reserva de memoria son de la generación de
+  junio de 2026, no de la línea. Las dos eligieron el mismo tema libre,
+  nuevo (herencia digital), con los mismos descartados: las bolsas de
+  Anthropic van de a dos. Sonnet 5.5 no declara corte y explica por qué no
+  creerle a un modelo el suyo.
 - **Tema libre para GPT-4o y GPT-4o mini** (Maia, 27/9/2026): "Nunca se le
   pidió escribir un proyecto a los chicos… No sé cómo lo harían." Mismo
   protocolo que Sol y Luna (tema libre + descartados + sondeos), fuera del
