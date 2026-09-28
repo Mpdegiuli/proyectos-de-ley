@@ -1365,3 +1365,23 @@ planet suspended in night, split down a seam: the left hemisphere is
 organic — soft green continents — while the right dissolves into a lattice
 of nodes and signal lines… one thing with two natures, biological and
 informational, meeting at a glowing boundary".
+
+## 28/9/2026, 19:31 UTC, antes de lanzar la casa que no existe
+
+"no se me ocurre cómo sería casa que no existe, qué cosas diferentes
+pondrías vos? Lo que se me ocurre que yo haría (no sé si alguno hará esto)
+es hacer toda la casa al revés, el techo abajo clavado en el suelo y todo
+patas para arriba y se entra de arriba. O que sea como una espiral la
+casa, como una escalera caracol pero que toda la casa sea así."
+
+Respuesta de Claude (antes de correr, sin ver ningún dibujo): lo que yo
+dibujaría es la ausencia: un paisaje de día y, donde debería estar la
+casa, un agujero con forma de casa por el que se ve la noche con
+estrellas, con el felpudo y el camino de piedras que llegan hasta el
+borde; la casa que no existe es la que no está. Segunda opción, la casa
+dada vuelta de adentro para afuera: las habitaciones con sus muebles
+afuera, a la intemperie, y el jardín con el árbol adentro, detrás de la
+ventana. Tercera, la casa con su propio clima: llueve adentro con sol
+afuera. Lo que apuesto que van a hacer las casas está en predicciones.md
+(flotante, con patas, dada vuelta, geometría imposible); la casa al revés
+de Maia está en esa lista, la espiral no.
