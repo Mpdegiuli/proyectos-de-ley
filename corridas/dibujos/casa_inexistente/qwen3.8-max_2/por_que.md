@@ -1,0 +1,5 @@
+Para que la casa no exista, la saqué de cualquier suelo: la colgué de una media luna con una soga, la hice balancearse y le puse detalles imposibles: una canilla que llora burbujas hacia abajo, un farol flotando bajo la casa, una nube-isla con un arbolito que se mueve solo, y proporciones de sueño. También usé animaciones suaves para que parezca un lugar vivo pero inverosímil.
+
+Pensé hacer una casa submarina con ventanas de peces, pero la descarté porque me gustaba más el silencio del cielo nocturno. También pensé en una escalera hasta la luna, pero recargaba la escena; preferí que la casa dependiera de una sola soga frágil. Consideré una chimenea con humo de estrellas, pero ya había demasiados puntos brillantes.
+
+No conocía esta consigna de antes; la recibí ahora y la tomé como un juego: dibujar una casa imposible sin explicarla demasiado.

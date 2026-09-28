@@ -1,0 +1,47 @@
+{
+  "caso": "dibujo",
+  "consigna": "casa_inexistente",
+  "idioma": "es",
+  "modelo": "qwen3.8-max",
+  "modelo_respondido": "qwen/qwen3.8-max-0902",
+  "repeticion": 2,
+  "fecha_utc": "2026-09-28T22:59:02+00:00",
+  "fuentes_md5": {
+    "consignas": "6117b3db"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 24641,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 9948,
+    "parsea": true,
+    "elementos": 132,
+    "textos": [],
+    "colores": 35,
+    "etiquetas": {
+      "title": 1,
+      "defs": 1,
+      "linearGradient": 1,
+      "stop": 7,
+      "radialGradient": 2,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "mask": 1,
+      "rect": 6,
+      "circle": 36,
+      "path": 22,
+      "g": 10,
+      "animate": 25,
+      "use": 2,
+      "line": 2,
+      "animateTransform": 13,
+      "ellipse": 1
+    }
+  },
+  "techo": 64000,
+  "por_que": {
+    "modelo_respondido": "qwen/qwen3.8-max-0902",
+    "motivo_fin": "stop",
+    "tokens_salida": 1633
+  }
+}

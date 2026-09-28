@@ -1,0 +1,5 @@
+I drew a friendly, front-facing figure: a person standing upright, arms at their sides, in a red-orange shirt and blue trousers, with a slight smile, against a pale sky-and-sand gradient with a soft sun and a ground shadow.
+
+I chose this because "a person" with no other constraints felt like it wanted the most legible, universal answer: a whole body, symmetrical, calm, looking straight at the viewer. Gradients and small details (ear shapes, eye highlights, cheek blush, collar) were my way of adding warmth without risking the silhouette.
+
+I considered a stylized portrait head only — more expressive, but less "a person." I considered someone in motion, walking or reading, but foreshortening in hand-written paths tends to collapse into ambiguity. I also thought about a flat, geometric, abstract figure; I discarded it as visually safe but emotionally cold. I wanted someone who seemed glad to be seen.

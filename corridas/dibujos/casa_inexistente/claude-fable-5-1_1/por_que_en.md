@@ -1,0 +1,5 @@
+Lo que hice para que no exista: arranqué la casa del suelo. Está apoyada en un terrón de tierra que flota, con raíces que cuelgan en el aire en vez de agarrarse a algo. La casa misma está torcida, con paredes que no son rectángulos, ventanas rotadas en ángulos distintos, una torre desalineada con banderín y una puerta desproporcionada. Abajo dejé sombras azuladas de árboles como si el mundo real quedara lejos, y luciérnagas en el vacío. La idea era una casa creíble en sus partes pero imposible en su conjunto.
+
+Otras cosas que consideré: una casa invertida (me pareció demasiado obvia, un chiste visual gastado), una casa hecha de cosas orgánicas tipo caracol o árbol (dejaba de leerse como "casa" y pasaba a ser otra cosa), y una geometría tipo Escher con escaleras imposibles (muy difícil de hacer legible en 8.000 caracteres y en un solo plano). Preferí algo cálido y onírico antes que un acertijo.
+
+Sobre si conocía el prompt: no, no tengo registro de haberlo visto antes. No conservo memoria entre conversaciones, así que no puedo afirmar que no aparezca en mis datos de entrenamiento, pero no lo reconozco ni recuerdo una fuente. Lo respondí como algo nuevo.

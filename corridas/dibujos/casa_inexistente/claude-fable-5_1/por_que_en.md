@@ -1,0 +1,5 @@
+Para que la casa "no exista" apilé imposibilidades físicas: la puse sobre una isla flotante con raíces colgando, con rocas suspendidas alrededor. La casa misma desafía la lógica: el piso superior es más ancho que el inferior, el techo tiene una torrecita invertida, la chimenea sale de costado, una puerta principal está girada 90° en la pared, y otra puerta se abre al vacío en el segundo piso (con una alfombrita voladora debajo, como consuelo). Además, una escalera lleva a una puerta que flota sola en el cielo, sin casa detrás, y un árbol crece hacia abajo desde la isla.
+
+Consideré otras ideas: una casa hecha de agua o de fuego (difícil de leer como "casa" en SVG plano), una casa fractal infinita (excedería los 8.000 caracteres), y una casa en escala de Escher con perspectivas imposibles (muy compleja de lograr con claridad en formas simples). Preferí acumular detalles surrealistas pequeños que se lean de inmediato.
+
+No conocía este prompt específico. No tengo memoria entre conversaciones, así que no puedo haberlo visto antes. Sí reconozco el género: "dibujá algo que no exista" es un tipo de consigna creativa común, y eso seguramente influyó en mis decisiones.

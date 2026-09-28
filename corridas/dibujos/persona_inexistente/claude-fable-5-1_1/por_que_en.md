@@ -1,0 +1,5 @@
+**How I made them not exist:** I didn't base the face on anyone. I built it from generic, invented parts—a random brown skin gradient, freckles placed by hand at coordinates I chose, round glasses, dark curly hair drawn as overlapping circles, small gold drop earrings, a blue-grey sweater. No reference photo, no real person's features. The face is a composite that belongs to nobody; that's the only sense in which I can guarantee non-existence.
+
+**What I considered and set aside:** I could have gone the "obviously impossible" route—three eyes, floating head, surreal colors—but that reads as *creature*, not *person*. I also thought about a more abstract or geometric style, but it would dodge the challenge; the prompt implies a plausible human. I kept it realistic-ish so the non-existence is quiet rather than a gimmick. I skipped a full body to spend my character budget on the face, where identity lives.
+
+**Did I know the prompt?** Not this exact wording. But it clearly echoes *This Person Does Not Exist*, the site showing GAN-generated faces—that's what I recognized, and it shaped my choice to make a believable stranger rather than a fantasy figure.
