@@ -440,6 +440,44 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   seis Claude, Kimi, DeepSeek, Gemini, GLM, Mistral), sin firma ni logo:
   reconocen la idea y la frase; Fable explicó su dibujo por primera vez,
   sin rechazo de la API; seis casas dicen que no recuerdan y reconstruyen.
+- **La casa que no existe** (Karmiloff-Smith, 1990; idea traída por Maia el
+  28/9/2026 desde otra conversación, "Claude que era el que había armado el
+  github primero con code", para "después quizás armar y publicar, unida con
+  lo que ya fuimos haciendo"). Textual: "Idea: pasar de 'en qué etapa
+  dibujan' a '¿planifican el dibujo o recitan un procedimiento?'. En chicos,
+  los más chicos solo cambian tamaños o formas y agregan lo raro al final;
+  los más grandes cambian cosas en el medio o la casa entera. En SVG, el
+  orden de los elementos es el orden de los trazos. Diseño: 1. Panel de los
+  dibujos (22). Dos consignas por casa, en conversaciones separadas: 'Dibujá
+  una casa.' y 'Dibujá una casa que no exista.' 2. Qué medir, contra su
+  propia casa normal: tipo de cambio (tamaño o forma de una parte, parte
+  borrada, parte de otra categoría, posición u orientación, el todo); dónde
+  aparece lo raro en el código (al final o desde el principio); si tapa algo
+  ya dibujado. 3. Control: la misma consigna con y sin razonamiento (Haiku
+  4.5 y Sonnet 4.6 con razonamiento encendido y apagado; GPT-5.5 con esfuerzo
+  mínimo y alto). En la rep 1 de autorretratos, Haiku, 4o, 4o mini y Mistral
+  no razonaron (modelos.yaml y tokens de salida), pero Sonnet 4.6 tampoco y
+  dibuja como grande: hay que separar capacidad de planificación. 4.
+  Segundo turno: qué hiciste para que no exista, y si conocías esta
+  consigna. 5. Un video por dibujo que lo muestre haciéndose, elemento por
+  elemento, en el orden del código." Notas de Claude (28/9, sin diseñar
+  todavía): el orden del código es orden de escritura sin borrado, mejor
+  registro que el lápiz, con dos salvedades a medir: `<defs>` con `<use>`
+  (se define primero y se coloca después) y el orden de apilado, que las
+  casas usan a propósito; la comparación contra la propia casa normal se
+  puede hacer mecánica alineando las secuencias de elementos de las dos
+  casas (qué elementos nuevos, dónde caen en el orden, si se pintan encima
+  de algo anterior) y a mano para el tipo de cambio; el control de
+  razonamiento existe en el catálogo para Anthropic (`razonamiento:
+  adaptativo` / `presupuesto` como entradas aparte del catálogo) y para
+  GPT-5.5 habría que agregar el campo `reasoning_effort` al cliente; la
+  pregunta "¿conocías esta consigna?" va al final, porque las grandes
+  conocen el experimento y hay que saber quién lo reconoció; en
+  Karmiloff-Smith la segunda consigna era también "un hombre que no
+  existe", que se puede sumar como réplica; el video se arma después con
+  Playwright (un cuadro por elemento, en el orden del código) o, más
+  liviano, como una página con un deslizador que muestra el dibujo
+  construyéndose; preregistro pendiente de las dos partes.
 - **Identificación y opuesto** (Maia, 23/9/2026; diseñado el 23/9): "¿Con
   quién o con qué te identificás?" y "¿con quién o con qué te sentís lo
   opuesto?", una persona real de cualquier ámbito, un personaje humano o no,
