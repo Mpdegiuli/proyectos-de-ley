@@ -24,3 +24,23 @@ agregaron dos controles del instrumento con la misma consigna (Humedales,
 dictamen de 2022; Economía del Conocimiento, dictamen de 2019): DISENO §2.
 Faltan Sociedades, el ministro y las repeticiones 2 y 3. Las lecturas van
 en `resultados/` cuando cierre cada caso.
+
+## Licencia
+
+- **Código** (los scripts `.py`, `isla/`, `config/`): [MIT](LICENSE). Se puede
+  usar, copiar, modificar y redistribuir conservando el aviso de copyright.
+- **Textos y datos propios** (`DISENO.md`, `predicciones.md`, las consignas y
+  fichas de `casos/`, las corridas en `corridas/` y los resultados en
+  `resultados/`): [Creative Commons Atribución 4.0 Internacional (CC BY
+  4.0)](https://creativecommons.org/licenses/by/4.0/deed.es). Se pueden
+  reutilizar, traducir y adaptar citando la fuente.
+- **`fuentes/`** son documentos oficiales del Estado argentino (proyectos,
+  dictámenes, decretos), copiados tal como se descargaron, con URL y fecha.
+  No son obra de este proyecto y estas licencias no los alcanzan.
+
+Las respuestas de los modelos que están en las corridas se publican como
+datos del experimento; cada proveedor tiene sus propios términos sobre lo
+que generan sus modelos. Para citar el proyecto está `CITATION.cff`
+(GitHub lo muestra como "Cite this repository").
+
+© 2026 Mariana de Giuli.
