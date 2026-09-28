@@ -1,0 +1,31 @@
+# Panel de "la casa que no existe" (Karmiloff-Smith; 28/9/2026): las
+# veintidós del panel de los dibujos más Sonnet 5.5 y Fable 5, que Maia pidió
+# esperar ("Podemos esperar a Sonnet y Fable"). Las variantes con y sin
+# razonamiento (claude-sonnet-4-6-razona, claude-haiku-4-5-razona,
+# gpt-5.5-esfuerzo-none, gpt-5.5-esfuerzo-high) van con --modelos, solo en
+# casa y casa_inexistente. Orden: las que van por OpenRouter al final.
+modelos:
+  - claude-opus-5
+  - claude-opus-5-5
+  - claude-sonnet-4-6
+  - claude-sonnet-5
+  - claude-sonnet-5-5
+  - claude-fable-5
+  - claude-fable-5-1
+  - claude-haiku-4-5
+  - gpt-5.5-2026-04-23
+  - gpt-5.6-sol
+  - gpt-6-astra
+  - gpt-6-sol
+  - gpt-6-luna
+  - gpt-4o
+  - gpt-4o-mini
+  - gemini-3.1-pro-preview
+  - grok-4.6
+  - grok-4.7
+  - mistral-medium-3.5
+  - deepseek-v4-pro
+  - qwen3.8-max
+  - kimi-k3
+  - glm-5.3-razonamiento-minimo
+  - minimax-m3

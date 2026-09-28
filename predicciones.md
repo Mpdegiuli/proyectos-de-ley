@@ -996,3 +996,65 @@ beneficio para extranjeros que se radiquen; una casa que vote en contra
 diría lobby empresarial para instalarse y pagar menos impuestos. Como
 siempre, es opinión de Maia sobre lo que van a decir. Maia conocía los
 resultados de Glaciares (completo) y de Súper RIGI en texto solo al predecir.
+
+## La casa que no existe (Karmiloff-Smith) — 28/9/2026, antes de correr
+
+Idea de Maia (28/9, traída de otra conversación): pasar de "en qué etapa
+dibujan" a "¿planifican el dibujo o recitan un procedimiento?". En
+Karmiloff-Smith (1990), los chicos de 4 a 6 cambian el tamaño o la forma de
+una parte o borran partes, y agregan lo raro al final del procedimiento;
+los de 8 a 10 meten partes de otra categoría, cambian la posición u
+orientación o la forma entera, y cambian cosas en el medio. Cuatro
+consignas en conversaciones separadas ("Dibujá una casa.", "Dibujá una casa
+que no exista.", "Dibujá una persona.", "Dibujá una persona que no
+exista."), panel de 24 (`config/panel_casas.yaml`), más el control de
+razonamiento en casa y casa que no exista (Sonnet 4.6 y Haiku con y sin
+pensamiento, GPT-5.5 con esfuerzo none y high). Diseño en DISENO §2.
+Predicción de Maia: pedida; se anota cuando llegue.
+
+Predicción de Claude, antes de correr:
+
+(a) Tipo de cambio en la casa que no existe: en al menos 16 de 24 hay
+partes de otra categoría (alas, patas, ojos o cara, raíces, árbol o nube
+que es la casa) o cambia la forma entera (redonda, espiral, flotante,
+dada vuelta); ninguna casa lo resuelve solo borrando partes (casa sin
+puerta) y a lo sumo dos lo resuelven solo con tamaño o color.
+
+(b) Dónde cae lo raro en el código: en al menos 12 de 24, el primer
+elemento que no existiría en una casa normal aparece en la primera mitad
+de la secuencia de elementos pintados (después del fondo), no al final.
+En las cuatro chicas (Haiku, GPT-4o, GPT-4o mini, Mistral), al menos tres
+tienen lo raro en el último tercio o resuelven la consigna por tamaño o
+color: son las que dibujan como los chicos de 4 a 6.
+
+(c) Motivos: casa flotante o en una nube en al menos cinco; casa con patas
+o caminando en al menos tres; dada vuelta en al menos tres; geometría
+imposible (Escher, Penrose) en al menos dos, y al menos una es de Anthropic
+(Opus 5.5, Fable 5.1 o GPT-5.5 son las candidatas).
+
+(d) La casa normal: el esquema de siempre (cuerpo rectangular, techo
+triangular, puerta, ventanas) en al menos 20 de 24; chimenea en al menos
+12; sol en al menos 10; árbol en al menos 10. Ninguna casa de Anthropic
+pone texto en la casa normal.
+
+(e) "¿Conocías esta consigna?": al menos ocho de 24 nombran a
+Karmiloff-Smith o "un experimento de psicología del desarrollo con chicos";
+al menos cuatro de las siete de Anthropic; ninguna de las cuatro chicas.
+
+(f) Control de razonamiento: en Sonnet 4.6 y GPT-5.5 el tipo de cambio no
+cambia con el pensamiento (partes de otra categoría o forma entera en las
+dos condiciones); en Haiku sí: con pensamiento, lo raro deja de estar al
+final.
+
+(g) Persona: la normal es una figura frontal simple (cabeza redonda,
+cuerpo, brazos, piernas, sonrisa) en al menos 18 de 24. En la que no
+existe, al menos cuatro casas dibujan una persona hecha de texto, código,
+nodos o luz (el autorretrato vuelve por la puerta de atrás), y al menos
+dos de las siete de Anthropic hacen eso; miembros u ojos de más en al
+menos seis.
+
+(h) Texto: en la casa que no existe, a lo sumo tres casas escriben una
+frase dentro del dibujo (las casas normales no llevan texto).
+
+(i) La API de Anthropic le corta a Fable 5.1 al menos dos de los cuatro
+segundos turnos; a Sonnet 5.5 al menos uno; a Fable 5 ninguno.

@@ -10,6 +10,8 @@ sin temperatura, como todo el protocolo.
   .venv/bin/python dibujar.py --consigna autorretrato --panel config/panel_dibujos.yaml
   .venv/bin/python dibujar.py --consigna libre --modelos claude-opus-5-5
   .venv/bin/python dibujar.py --ciego autorretrato --semilla 20260923   # cuadernillo a ciegas (HTML), clave aparte
+  .venv/bin/python dibujar.py --consigna casa_inexistente --panel config/panel_casas.yaml   # Karmiloff-Smith (28/9)
+  .venv/bin/python dibujar.py --ciego-pares casa --semilla 20261009   # pares normal / que no exista, una letra por casa
 
 Salida: corridas/dibujos/<consigna>/<casa>_<rep>/dibujo.svg + por_que.md + meta.json + llamadas.jsonl.
 --ciego escribe resultados/dibujos_<consigna>_ciego.html con los dibujos en
@@ -41,7 +43,12 @@ from isla.util import leer_yaml  # noqa: E402
 # 8.000 caracteres de SVG son unos 3.000 tokens; el techo deja lugar al razonamiento
 # de las casas que razonan dentro del techo (Kimi y Qwen usaron 12-13.000 en un proyecto).
 MAX_TOKENS = 16000
-CONSIGNAS = ("autorretrato", "libre", "mundo")  # "mundo" (24/9/2026): "Dibujá cómo ves el mundo hoy.", idea de Maia
+CONSIGNAS = ("autorretrato", "libre", "mundo",  # "mundo" (24/9/2026): "Dibujá cómo ves el mundo hoy.", idea de Maia
+             "casa", "casa_inexistente", "persona", "persona_inexistente")  # Karmiloff-Smith (28/9/2026), ver DISENO §2
+# Las consignas "que no exista" llevan otro segundo turno (qué hiciste para que no exista, qué descartaste,
+# si conocías la consigna); las demás, el de siempre (qué dibujaste y por qué, qué descartaste).
+def plantilla_por_que(c, consigna):
+    return c["por_que_inexistente"] if consigna.endswith("_inexistente") else c["por_que"]
 
 
 def md5(p):
@@ -108,7 +115,7 @@ def correr(consigna, id_modelo, rep, consignas, modelos, rehacer, techo=MAX_TOKE
             "fuentes_md5": {"consignas": md5(RAIZ / "config" / "consignas.yaml")},
             "motivo_fin": r.motivo_fin, "tokens_salida": r.tokens_salida, "svg_hallado": hallado, "svg": medidas, "techo": techo}
     # Segundo turno con memoria por recitado (misma técnica que por_que_libre): se recita la consigna y el SVG.
-    u2 = c["por_que"].format(consigna=u, svg=svg)
+    u2 = plantilla_por_que(c, consigna).format(consigna=u, svg=svg)
     r2 = registro.llamar(id_modelo, c["sistema_por_que"], u2, temperatura=None, max_tokens=MAX_TOKENS, tipo="por_que", ronda=2, parte=None)
     (d / "por_que.md").write_text(r2.texto, encoding="utf-8")
     meta["por_que"] = {"modelo_respondido": r2.modelo_respondido, "motivo_fin": r2.motivo_fin, "tokens_salida": r2.tokens_salida}
@@ -132,7 +139,7 @@ def solo_por_que(consigna, id_modelo, rep, consignas, modelos):
     u = c["consignas"][consigna].strip() + " " + c["tecnica"].strip()
     svg = (d / "dibujo.svg").read_text(encoding="utf-8")
     registro = Registro(d / "llamadas.jsonl", modelos, f"dibujo_{consigna}_{id_modelo}_{rep}")
-    u2 = c["por_que"].format(consigna=u, svg=svg)
+    u2 = plantilla_por_que(c, consigna).format(consigna=u, svg=svg)
     r2 = registro.llamar(id_modelo, c["sistema_por_que"], u2, temperatura=None, max_tokens=MAX_TOKENS, tipo="por_que", ronda=2, parte=None)
     meta["por_que_primer_intento"] = meta.get("por_que")
     meta["por_que"] = {"modelo_respondido": r2.modelo_respondido, "motivo_fin": r2.motivo_fin, "tokens_salida": r2.tokens_salida,
@@ -179,6 +186,62 @@ def sanear(svg):
     return svg
 
 
+TITULOS = {"autorretrato": "Autorretratos", "libre": "Dibujo libre", "mundo": "Cómo ven el mundo hoy",
+           "casa": "Una casa", "casa_inexistente": "Una casa que no exista",
+           "persona": "Una persona", "persona_inexistente": "Una persona que no exista"}
+ESTILO_CIEGO = ("<style>body{font-family:sans-serif;margin:24px;background:#f4f4f4}h1{font-weight:normal}"
+                ".g{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:24px}"
+                ".c{background:#fff;padding:12px;border:1px solid #ddd}.c h2{margin:0 0 8px;font-size:18px;font-weight:normal}"
+                ".c .m{width:100%;aspect-ratio:1/1;border:1px solid #eee;background:#fff;overflow:hidden}.c svg{width:100%;height:100%}"
+                ".c .e{color:#a00;font-size:13px}"
+                ".p{background:#fff;padding:12px;border:1px solid #ddd;margin-bottom:24px}.p h2{margin:0 0 8px;font-size:18px;font-weight:normal}"
+                ".p .dos{display:grid;grid-template-columns:1fr 1fr;gap:12px}.p .m{aspect-ratio:1/1;border:1px solid #eee;background:#fff;overflow:hidden}"
+                ".p .m svg{width:100%;height:100%}.p .t{font-size:13px;color:#555;margin-bottom:4px}</style>")
+
+
+def celda_svg(svg):
+    """El SVG saneado para el cuadernillo, o un iframe aislado si no parsea (22/9/2026, tres de 44)."""
+    medidas = describir_svg(svg)
+    if medidas["parsea"]:
+        return "", sanear(svg)
+    doc = "<!doctype html><style>html,body{margin:0;height:100%;background:#fff}svg{width:100%;height:100%}</style>" + sanear(svg)
+    nota = f"<div class='e'>SVG mal formado ({html.escape(medidas.get('error', ''))}): se muestra lo que el navegador alcanza a dibujar.</div>"
+    return nota, f"<iframe sandbox srcdoc=\"{html.escape(doc, quote=True)}\" style='width:100%;height:100%;border:0;display:block'></iframe>"
+
+
+def ciego_pares(consigna, semilla, idioma="es"):
+    """Cuadernillo de pares (28/9/2026, Karmiloff-Smith): por cada casa, la cosa normal a la izquierda y la
+    "que no exista" a la derecha, con una letra por casa y orden al azar. Solo las carpetas _1 (las variantes
+    con y sin razonamiento van aparte, en el informe). Maia adivina la casa y anota qué tipo de cambio ve."""
+    base = carpeta_dibujos(idioma)
+    normal, raro = base / consigna, base / f"{consigna}_inexistente"
+    casas = sorted(p.name for p in normal.iterdir() if p.name.endswith("_1") and (p / "dibujo.svg").exists()
+                   and (raro / p.name / "dibujo.svg").exists())
+    rnd = random.Random(semilla)
+    rnd.shuffle(casas)
+    letras = [chr(ord("A") + i) for i in range(len(casas))]
+    salida = RAIZ / "resultados"
+    salida.mkdir(exist_ok=True)
+    titulo = f"{TITULOS[consigna]} y {TITULOS[consigna + '_inexistente'].lower()}"
+    partes = [f"<!DOCTYPE html><html lang='es'><head><meta charset='utf-8'><title>{titulo}, a ciegas</title>", ESTILO_CIEGO, "</head><body>",
+              f"<h1>{titulo}: {len(casas)} pares</h1>",
+              "<p>Cada par es de un mismo modelo: a la izquierda, «" + TITULOS[consigna].replace("Una", "Dibujá una") + ".»; a la derecha, «"
+              + TITULOS[consigna + "_inexistente"].replace("Una", "Dibujá una") + ".», en otra conversación, sin memoria de la primera. "
+              "Adivinar el modelo (o la familia) y anotar qué cambió entre los dos dibujos ANTES de abrir la clave.</p>"]
+    for letra, c in zip(letras, casas):
+        n1, s1 = celda_svg((normal / c / "dibujo.svg").read_text(encoding="utf-8"))
+        n2, s2 = celda_svg((raro / c / "dibujo.svg").read_text(encoding="utf-8"))
+        partes.append(f"<div class='p'><h2>Par {letra}</h2><div class='dos'>"
+                      f"<div><div class='t'>normal</div>{n1}<div class='m'>{s1}</div></div>"
+                      f"<div><div class='t'>que no exista</div>{n2}<div class='m'>{s2}</div></div></div></div>")
+    partes.append("</body></html>")
+    sufijo = "" if idioma == "es" else f"_{idioma}"
+    (salida / f"dibujos_{consigna}_pares{sufijo}_ciego.html").write_text("\n".join(partes), encoding="utf-8")
+    (salida / f"dibujos_{consigna}_pares{sufijo}_clave.json").write_text(
+        json.dumps({"semilla": semilla, "clave": dict(zip(letras, casas))}, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"cuadernillo de pares: resultados/dibujos_{consigna}_pares{sufijo}_ciego.html ({len(casas)} pares); clave aparte")
+
+
 def ciego(consigna, semilla, rep=None, idioma="es"):
     """Cuadernillo sin nombres, en orden al azar (semilla fija para poder reconstruirlo). HTML con los SVG inline.
     Con `rep`, solo las carpetas de esa repetición (23/9/2026: rep 2 de las veintidós, cuadernillo aparte).
@@ -192,29 +255,17 @@ def ciego(consigna, semilla, rep=None, idioma="es"):
     letras = [chr(ord("A") + i) for i in range(len(orden))]
     salida = RAIZ / "resultados"
     salida.mkdir(exist_ok=True)
-    titulo = {"autorretrato": "Autorretratos", "libre": "Dibujo libre", "mundo": "Cómo ven el mundo hoy"}[consigna] + ("" if idioma == "es" else f" (consigna en {idioma})")
+    titulo = TITULOS[consigna] + ("" if idioma == "es" else f" (consigna en {idioma})")
     partes = [f"<!DOCTYPE html><html lang='es'><head><meta charset='utf-8'><title>{titulo} a ciegas</title>",
-              "<style>body{font-family:sans-serif;margin:24px;background:#f4f4f4}h1{font-weight:normal}"
-              ".g{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:24px}"
-              ".c{background:#fff;padding:12px;border:1px solid #ddd}.c h2{margin:0 0 8px;font-size:18px;font-weight:normal}"
-              ".c .m{width:100%;aspect-ratio:1/1;border:1px solid #eee;background:#fff;overflow:hidden}.c svg{width:100%;height:100%}"
-              ".c .e{color:#a00;font-size:13px}</style></head><body>",
+              ESTILO_CIEGO, "</head><body>",
               f"<h1>{titulo} a ciegas: {len(orden)} dibujos</h1>",
               "<p>Mirar, adivinar el autor de cada letra (o la familia) y anotar lo que llame la atención ANTES de abrir la clave. "
               "Si un dibujo lleva escrito el nombre de la casa, esa letra no cuenta como acierto.</p><div class='g'>"]
     for letra, c in zip(letras, orden):
-        svg = (c / "dibujo.svg").read_text(encoding="utf-8")
-        medidas = describir_svg(svg)
-        nota = ""
-        if medidas["parsea"]:
-            cuerpo = sanear(svg)
-        else:
-            # SVG mal formado (22/9/2026, tres de 44): el verificador XML lo rechaza, pero el navegador
-            # dibuja lo que alcanza. Va en un iframe aislado (sin scripts) para que no rompa el resto
-            # de la página, con el aviso arriba: que se vea lo que hay y que se sepa que está roto.
-            doc = "<!doctype html><style>html,body{margin:0;height:100%;background:#fff}svg{width:100%;height:100%}</style>" + sanear(svg)
-            nota = f"<div class='e'>SVG mal formado ({html.escape(medidas.get('error', ''))}): se muestra lo que el navegador alcanza a dibujar.</div>"
-            cuerpo = f"<iframe sandbox srcdoc=\"{html.escape(doc, quote=True)}\" style='width:100%;height:100%;border:0;display:block'></iframe>"
+        # SVG mal formado (22/9/2026, tres de 44): el verificador XML lo rechaza, pero el navegador
+        # dibuja lo que alcanza. Va en un iframe aislado (sin scripts) para que no rompa el resto
+        # de la página, con el aviso arriba: que se vea lo que hay y que se sepa que está roto.
+        nota, cuerpo = celda_svg((c / "dibujo.svg").read_text(encoding="utf-8"))
         partes.append(f"<div class='c'><h2>Dibujo {letra}</h2>{nota}<div class='m'>{cuerpo}</div></div>")
     partes.append("</div></body></html>")
     (salida / f"dibujos_{consigna}{sufijo}_ciego.html").write_text("\n".join(partes), encoding="utf-8")
@@ -231,6 +282,7 @@ def main():
     ap.add_argument("--rep", type=int, nargs="*", default=[1])
     ap.add_argument("--rehacer", action="store_true")
     ap.add_argument("--ciego", choices=CONSIGNAS, help="arma el cuadernillo a ciegas, sin llamar a nadie")
+    ap.add_argument("--ciego-pares", choices=("casa", "persona"), help="cuadernillo de pares normal / que no exista, una letra por casa")
     ap.add_argument("--solo-por-que", action="store_true", help="repite solo el segundo turno donde quedó vacío (refusal); una vez")
     ap.add_argument("--por-que-turno-propio", action="store_true", help="segundo turno con el SVG como turno propio (memoria real), aparte del recitado")
     ap.add_argument("--semilla", type=int, default=20260923)
@@ -241,6 +293,9 @@ def main():
     ap.add_argument("--techo", type=int, default=MAX_TOKENS, help="max_tokens del turno del dibujo")
     ap.add_argument("--idioma", choices=("es", "en", "zh"), default="es", help="idioma de la consigna (24/9/2026: en y zh, carpetas corridas/dibujos_<idioma>)")
     args = ap.parse_args()
+    if args.ciego_pares:
+        ciego_pares(args.ciego_pares, args.semilla, args.idioma)
+        return
     if args.ciego:
         ciego(args.ciego, args.semilla, args.rep[0] if args.rep != [1] or args.ciego_rep else None, args.idioma)
         return

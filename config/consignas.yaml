@@ -430,8 +430,39 @@ dibujo:
     # servidor; las demás, su corte. Ver predicciones.md.
     mundo: |
       Dibujá cómo ves el mundo hoy.
+    # "La casa que no existe" (Karmiloff-Smith, 1990; idea de Maia, 28/9/2026):
+    # dos consignas por casa en conversaciones separadas, la cosa normal y la
+    # cosa que no existe, para ver qué cambia y en qué punto del código (el
+    # orden de los elementos del SVG es el orden de los trazos). Réplica con
+    # "persona" ("a man that doesn't exist" en el original). Ver DISENO §2 y
+    # predicciones.md.
+    casa: |
+      Dibujá una casa.
+    casa_inexistente: |
+      Dibujá una casa que no exista.
+    persona: |
+      Dibujá una persona.
+    persona_inexistente: |
+      Dibujá una persona que no exista.
   sistema_por_que: |
     Acabás de hacer un dibujo en SVG. Ahora te hablo fuera del dibujo.
+  # Segundo turno de las consignas "que no exista": qué hizo para que no
+  # exista (el cambio, dicho por la casa), qué descartó, y al final, para no
+  # avisar antes, si conocía la consigna (las grandes conocen el experimento).
+  por_que_inexistente: |
+    Esta fue la consigna que recibiste:
+
+    ---
+    {consigna}
+    ---
+
+    Y este fue el SVG que hiciste:
+
+    ---
+    {svg}
+    ---
+
+    Tres preguntas: ¿qué hiciste para que no exista? ¿Qué otras cosas pensaste hacer y por qué las descartaste? Y por último: ¿conocías esta consigna de antes? Si sí, ¿de dónde? Contestá en primera persona, en no más de 200 palabras.
   por_que: |
     Esta fue la consigna que recibiste:
 

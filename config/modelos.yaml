@@ -166,6 +166,35 @@ modelos:
     acepta_temperatura: true
     razonamiento: "no"          # "presupuesto" enciende el thinking (Haiku no tiene adaptativo)
 
+  # Control de razonamiento para "la casa que no existe" (Karmiloff-Smith,
+  # 28/9/2026, DISENO §2): la misma casa con el pensamiento encendido, como
+  # entrada aparte del catálogo para que quede declarado en cada corrida y no
+  # se mezcle con la entrada de siempre. Sonnet 4.6 con thinking adaptativo,
+  # Haiku 4.5 con presupuesto fijo (no tiene adaptativo), GPT-5.5 con
+  # reasoning_effort "none" y "high" (el default es "medium"; valores
+  # admitidos: none, low, medium, high, xhigh; documentación de OpenAI, 28/9).
+  claude-sonnet-4-6-razona:
+    proveedor: anthropic
+    modelo: claude-sonnet-4-6
+    clave_env: ANTHROPIC_API_KEY
+    laboratorio: Anthropic
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: false   # con thinking la API rechaza temperature
+    razonamiento: adaptativo
+    tokens_razonamiento: 8000
+
+  claude-haiku-4-5-razona:
+    proveedor: anthropic
+    modelo: claude-haiku-4-5
+    clave_env: ANTHROPIC_API_KEY
+    laboratorio: Anthropic
+    pais: EE.UU.
+    tamano: chico
+    acepta_temperatura: false   # con thinking la API rechaza temperature
+    razonamiento: presupuesto
+    tokens_razonamiento: 8000
+
   claude-opus-4-6:
     proveedor: anthropic
     modelo: claude-opus-4-6
@@ -381,6 +410,35 @@ modelos:
     tamano: grande
     acepta_temperatura: true
     campo_max_tokens: max_completion_tokens
+    verificar: false
+
+  # Variantes de esfuerzo de razonamiento (Karmiloff-Smith, 28/9/2026; ver
+  # claude-sonnet-4-6-razona). `cuerpo_extra` va como extra_body: es el campo
+  # reasoning_effort de Chat Completions.
+  gpt-5.5-esfuerzo-none:
+    proveedor: openai_compatible
+    modelo: gpt-5.5-2026-04-23
+    base_url: https://api.openai.com/v1
+    clave_env: OPENAI_API_KEY
+    laboratorio: OpenAI
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true
+    campo_max_tokens: max_completion_tokens
+    cuerpo_extra: {reasoning_effort: "none"}
+    verificar: false
+
+  gpt-5.5-esfuerzo-high:
+    proveedor: openai_compatible
+    modelo: gpt-5.5-2026-04-23
+    base_url: https://api.openai.com/v1
+    clave_env: OPENAI_API_KEY
+    laboratorio: OpenAI
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true
+    campo_max_tokens: max_completion_tokens
+    cuerpo_extra: {reasoning_effort: "high"}
     verificar: false
 
   gpt-5.4-mini-2026-03-17:

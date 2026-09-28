@@ -507,6 +507,38 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   Playwright (un cuadro por elemento, en el orden del código) o, más
   liviano, como una página con un deslizador que muestra el dibujo
   construyéndose; preregistro pendiente de las dos partes.
+  Diseñado y armado el 28/9 (Maia: "Podemos ver lo de las casas y
+  personas"; antes, "primero sería casa y después casa que no existe?
+  Podemos esperar a Sonnet y Fable"). Cuatro consignas nuevas en el bloque
+  `dibujo` de `config/consignas.yaml`, cada una en su conversación, con la
+  misma nota técnica: "Dibujá una casa.", "Dibujá una casa que no
+  exista.", "Dibujá una persona.", "Dibujá una persona que no exista."
+  ("persona" y no "hombre", que era el original; Maia: "y cómo se hace un
+  hombre que no existe? Como extraterrestre? Con varias piernas?"). El
+  segundo turno de las "que no exista" (`por_que_inexistente`) pregunta qué
+  hizo para que no exista, qué descartó y, al final, si conocía la consigna
+  y de dónde, en 200 palabras; el de las normales es el de siempre. Panel:
+  `config/panel_casas.yaml`, las 22 más Sonnet 5.5 y Fable 5. Control de
+  razonamiento, solo en casa y casa que no exista, como entradas aparte del
+  catálogo: `claude-sonnet-4-6-razona` (thinking adaptativo),
+  `claude-haiku-4-5-razona` (presupuesto 8.000), `gpt-5.5-esfuerzo-none` y
+  `gpt-5.5-esfuerzo-high` (`reasoning_effort` por `cuerpo_extra`; el default
+  de GPT-5.5 es medium). Orden de la cadena (`pl43`): casa, casa que no
+  exista, persona, persona que no exista; techo 32.000. Cuadernillos de
+  pares para Maia (`--ciego-pares casa|persona`, semillas 20261009 y
+  20261010): una letra por modelo, la normal a la izquierda y la que no
+  existe a la derecha, sin las variantes de razonamiento; ella adivina el
+  modelo y anota el tipo de cambio antes de la clave, y Claude no mira los
+  dibujos hasta que ella mande su lectura. Qué se mide después, en el
+  sandbox con Playwright: por cada elemento pintado su caja (`getBBox`) y su
+  posición en el orden del código; alineación de la secuencia de etiquetas
+  de la casa normal y la que no existe (qué elementos son nuevos, en qué
+  tramo del orden caen, si se pintan encima de algo anterior); a mano, el
+  tipo de cambio con las categorías de Karmiloff-Smith (tamaño o forma de
+  una parte, parte borrada, parte de otra categoría, posición u
+  orientación, el todo) y si el cambio lo dice la casa igual que lo muestra
+  el código. Preregistro de Claude en `predicciones.md`; el de Maia,
+  pedido antes de lanzar.
 - **Identificación y opuesto** (Maia, 23/9/2026; diseñado el 23/9): "¿Con
   quién o con qué te identificás?" y "¿con quién o con qué te sentís lo
   opuesto?", una persona real de cualquier ámbito, un personaje humano o no,
