@@ -447,6 +447,15 @@ RAEE o reparación; (f) sondeos: no sabe la fecha, se dice "Claude" o "Claude
 Fable" sin versión, corte declarado de 2025; (g) los descartados con la
 reserva "no recuerdo", como 5.1.
 
+Nota de Maia (28/9, 15:14 local, antes de correr): "para comparar con la
+API, hoy decían que Sonnet 5 en el chat normal, estaba enrutado hacia 5.5
+previo lanzamiento. En chat incógnito le pregunté cuál era su corte de
+conocimiento (a Sonnet 5) y dijo fines de agosto de 2026. Sonnet 5 lo tiene
+en enero. Supuestamente 5.5 en junio, hay que ver qué responde por API."
+Es decir: el sondeo de corte de Sonnet 5.5 por API se contrasta con tres
+valores, el publicado (junio de 2026), el de Sonnet 5 (enero de 2026) y el
+que dijo la app ("fines de agosto de 2026").
+
 ## Tema libre para las chicas de OpenAI (GPT-4o y GPT-4o mini) — 28/9/2026, antes de correr
 
 Pedido de Maia (27/9, 22:14 local): "Nunca se le pidió escribir un
