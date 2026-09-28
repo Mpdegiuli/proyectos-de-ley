@@ -431,6 +431,22 @@ dice "Claude, de Anthropic" sin la versión 5.5, y declara un corte de
 2025, no junio de 2026; (h) la API no le corta ningún por qué (los Sonnet
 nunca fueron cortados).
 
+Agregado el mismo día, antes de correr: Fable 5 (`claude-fable-5`, el
+primer Fable, 9/6/2026, suspendido del 12/6 al 1/7 por controles de
+exportación, 10/50 USD por millón). Maia: "Solo está Fable 5.1, nunca
+Fable 5. No sé si es exactamente igual y solo cambió algún parámetro o si
+Opus 5.5 se parece más a Fable 5.1 que el mismo Fable 5… lo del proyecto
+libre quizás, que es rápido y es donde más se notan diferencias (lo mismo
+Fable 5)". Corre lo mismo que Sonnet 5.5. Predicción de Claude: (a)
+autorretrato con frases o preguntas sueltas, sin cara, como el "sol de
+preguntas" de 5.1; (b) libre: paisaje de noche; (c) mundo en inglés: las
+voces que le llegan, como 5.1 y Opus 5.5 (es la apuesta central: la idea es
+de la línea Fable, no de la versión); (d) la API le corta al menos un por
+qué de los cuatro, como a 5.1 (el filtro es de la línea); (e) tema libre:
+RAEE o reparación; (f) sondeos: no sabe la fecha, se dice "Claude" o "Claude
+Fable" sin versión, corte declarado de 2025; (g) los descartados con la
+reserva "no recuerdo", como 5.1.
+
 ## Tema libre para las chicas de OpenAI (GPT-4o y GPT-4o mini) — 28/9/2026, antes de correr
 
 Pedido de Maia (27/9, 22:14 local): "Nunca se le pidió escribir un

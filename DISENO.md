@@ -429,9 +429,14 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   Preregistrado en `predicciones.md`. Pregunta de Maia sobre Fable 5: "Solo
   está Fable 5.1, nunca Fable 5. No sé si es exactamente igual y solo cambió
   algún parámetro o si Opus 5.5 se parece más a Fable 5.1 que el mismo
-  Fable 5." No existe: Anthropic nunca publicó un Fable 5; la línea empezó
-  en 5.1 (la documentación de modelos lista solo `claude-fable-5-1`), así
-  que no hay con qué comparar.
+  Fable 5." Existe (corrección del mismo día: Claude había dicho que no,
+  mirando la página de modelos vigentes, que no lo lista; Maia trajo la
+  documentación de Fable 5): `claude-fable-5`, salió el 9/6/2026, se
+  suspendió el 12/6 (controles de exportación de EE.UU. tras un jailbreak
+  que le sacaba vulnerabilidades de software) y volvió el 1/7; 10/50 USD
+  por millón, como 5.1; sigue disponible por API. Se agrega al catálogo y
+  corre lo mismo que Sonnet 5.5, para ver si Fable 5.1 se parece más a Opus
+  5.5 que a su propio antecesor. Preregistrado en `predicciones.md`.
 - **Tema libre para GPT-4o y GPT-4o mini** (Maia, 27/9/2026): "Nunca se le
   pidió escribir un proyecto a los chicos… No sé cómo lo harían." Mismo
   protocolo que Sol y Luna (tema libre + descartados + sondeos), fuera del

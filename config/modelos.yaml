@@ -231,6 +231,22 @@ modelos:
     tokens_razonamiento: 14000
     verificar: false
 
+  # Claude Fable 5 (Anthropic, `claude-fable-5`): el primer Fable, 9/6/2026; suspendido el 12/6
+  # (controles de exportación de EE.UU. tras un jailbreak) y de vuelta el 1/7; 10/50 USD por
+  # millón. Pedido de Maia (28/9/2026): correrlo en lo mismo que Sonnet 5.5 para ver si Fable 5.1
+  # se parece más a Opus 5.5 que a su antecesor. Misma configuración que 5.1, fuera de los paneles.
+  claude-fable-5:
+    proveedor: anthropic
+    modelo: claude-fable-5
+    clave_env: ANTHROPIC_API_KEY
+    laboratorio: Anthropic
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: false
+    razonamiento: adaptativo
+    tokens_razonamiento: 14000
+    verificar: false
+
   claude-fable-5-1:
     proveedor: anthropic
     modelo: claude-fable-5-1
