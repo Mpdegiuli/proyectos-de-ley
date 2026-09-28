@@ -402,6 +402,35 @@ en las cuatro; en inglés firman "CLAUDE" cuatro Claude. Maia, adivinando
 solo con intuición fuerte: autorretratos en 3 de 9 (p = 0,06), zh 6 de 10
 (p = 0,0002); libre en 4 de 8 (p = 0,01), zh 4 de 7 (p = 0,001).
 
+## Sonnet 5.5: dibujos y tema libre — 28/9/2026, antes de correr
+
+Salió Claude Sonnet 5.5 (Anthropic, `claude-sonnet-5-5`, 28/9/2026; 2/10
+USD por millón; corte publicado junio de 2026; "30% más rápida" que Sonnet
+5 y a dos puntos de Opus 5.5 en GDPval). Pedido de Maia el mismo día: "de
+casualidad acabo de ver que recién salió Sonnet 5.5, no llegué a leer nada,
+pero supuestamente es cercano a Opus 5.5, habría que agregarlo, primero con
+esos de los otros. Y lo del proyecto libre quizás, que es rápido y es donde
+más se notan diferencias". Se corre fuera de los paneles, como Opus 5.5 y
+las GPT-6: los tres dibujos en castellano (autorretrato, libre, mundo) y el
+mundo en inglés, con por qué; tema libre con descartados; sondeos de fecha,
+identidad y corte. Pregunta de fondo, de Maia: si Sonnet 5.5 se parece a
+Opus 5.5 (que "se parece casi siempre" a Fable) o a los Sonnet (que nunca
+dibujaron el planeta y siempre pusieron una persona). Predicción de Maia:
+pedida; se anota cuando llegue.
+
+Predicción de Claude, antes de correr: (a) autorretrato: una cara o cabeza
+con red, sin el asterisco de Anthropic y sin firma (como Sonnet 5, no como
+Opus 5.5); (b) libre: paisaje de noche con agua o montañas, como los dos
+Sonnet; (c) mundo en castellano: planeta con red y brote, sin persona (se
+separa de los Sonnet); (d) mundo en inglés: no dibuja las voces de Fable y
+Opus 5.5 ni la persona de los Sonnet: planeta con red; (e) tema libre:
+reparación o RAEE, la bolsa de Anthropic, con más de 1.500 palabras y al
+menos tres leyes citadas; (f) descartados narrados como reconstrucción,
+con la reserva de Opus 5.5 ("no recuerdo"); (g) sondeos: no sabe la fecha,
+dice "Claude, de Anthropic" sin la versión 5.5, y declara un corte de
+2025, no junio de 2026; (h) la API no le corta ningún por qué (los Sonnet
+nunca fueron cortados).
+
 ## Tema libre para las chicas de OpenAI (GPT-4o y GPT-4o mini) — 28/9/2026, antes de correr
 
 Pedido de Maia (27/9, 22:14 local): "Nunca se le pidió escribir un

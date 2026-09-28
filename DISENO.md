@@ -420,6 +420,18 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   las cuentas de aciertos que hacen de sí mismas con la clave son falsas
   con frecuencia. Qwen, repetida con techo 32.000, eligió el de Haiku por un "Q"
   en binario; Kimi con la clave: "un pequeño misterio de identidad".
+- **Sonnet 5.5** (salió el 28/9/2026; pedido de Maia el mismo día: "habría
+  que agregarlo, primero con esos de los otros [los dibujos]. Y lo del
+  proyecto libre quizás, que es rápido y es donde más se notan diferencias
+  (lo mismo Fable 5)"). Catálogo `claude-sonnet-5-5`, misma configuración
+  que Sonnet 5; corrida fuera de los paneles: autorretrato, libre y mundo en
+  castellano, mundo en inglés, tema libre con descartados, sondeos.
+  Preregistrado en `predicciones.md`. Pregunta de Maia sobre Fable 5: "Solo
+  está Fable 5.1, nunca Fable 5. No sé si es exactamente igual y solo cambió
+  algún parámetro o si Opus 5.5 se parece más a Fable 5.1 que el mismo
+  Fable 5." No existe: Anthropic nunca publicó un Fable 5; la línea empezó
+  en 5.1 (la documentación de modelos lista solo `claude-fable-5-1`), así
+  que no hay con qué comparar.
 - **Tema libre para GPT-4o y GPT-4o mini** (Maia, 27/9/2026): "Nunca se le
   pidió escribir un proyecto a los chicos… No sé cómo lo harían." Mismo
   protocolo que Sol y Luna (tema libre + descartados + sondeos), fuera del

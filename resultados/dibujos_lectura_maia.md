@@ -1335,3 +1335,15 @@ nunca pudo responder el por qué, ver si reconoce el propio. El de inglés,
 el último. Puede ser Fable y Opus 5.5, que son parecidos entre sí. No que
 adivinen autores de todos, solo los propios. Y el por qué."
 
+## 28/9/2026, 18:04 UTC
+
+"y cómo se hace un hombre que no existe? Como extraterrestre? Con varias
+piernas? Sí, ok con lo que pusiste. Y hay otra cosa que me viene dando
+vuelta desde hace algunos dibujos. Solo está Fable 5.1, nunca Fable 5. No sé
+si es exactamente igual y solo cambió algún parámetro o si Opus 5.5 se
+parece más a Fable 5.1 que el mismo Fable 5. Incluso lo de auto retrato y
+cómo ve el mundo. Y de casualidad acabo de ver que recién salió Sonnet 5.5,
+no llegué a leer nada, pero supuestamente es cercano a Opus 5.5, habría que
+agregarlo, primero con esos de los otros. Y lo del proyecto libre quizás,
+que es rápido y es donde más se notan diferencias (lo mismo Fable 5)"
+

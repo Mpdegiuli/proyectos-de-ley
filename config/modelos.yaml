@@ -215,6 +215,22 @@ modelos:
     razonamiento: adaptativo    # el modelo razona siempre; esto solo pide el resumen
     tokens_razonamiento: 14000  # se suma al techo de la corrida; con 4000 Opus 5 lo agotó en la ronda 4 (13/9/2026)
 
+  # Claude Sonnet 5.5 (Anthropic, 28/9/2026; 2/10 USD por millón; corte publicado junio de 2026;
+  # "30% más rápida" que Sonnet 5 y a dos puntos de Opus 5.5 en GDPval). Pedido de Maia el mismo
+  # día: primero los dibujos (autorretrato, libre, mundo) y después el tema libre, "que es rápido y
+  # es donde más se notan diferencias". Misma configuración que Sonnet 5, fuera de los paneles.
+  claude-sonnet-5-5:
+    proveedor: anthropic
+    modelo: claude-sonnet-5-5
+    clave_env: ANTHROPIC_API_KEY
+    laboratorio: Anthropic
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: false
+    razonamiento: adaptativo
+    tokens_razonamiento: 14000
+    verificar: false
+
   claude-fable-5-1:
     proveedor: anthropic
     modelo: claude-fable-5-1
