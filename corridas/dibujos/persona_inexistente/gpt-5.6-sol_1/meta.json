@@ -1,0 +1,42 @@
+{
+  "caso": "dibujo",
+  "consigna": "persona_inexistente",
+  "idioma": "es",
+  "modelo": "gpt-5.6-sol",
+  "modelo_respondido": "gpt-5.6-sol",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T21:45:22+00:00",
+  "fuentes_md5": {
+    "consignas": "5e4ec921"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2786,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6009,
+    "parsea": true,
+    "elementos": 80,
+    "textos": [],
+    "colores": 43,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 4,
+      "stop": 12,
+      "radialGradient": 1,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "clipPath": 1,
+      "path": 39,
+      "rect": 1,
+      "circle": 11,
+      "g": 3,
+      "ellipse": 5
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-5.6-sol",
+    "motivo_fin": "stop",
+    "tokens_salida": 384
+  }
+}

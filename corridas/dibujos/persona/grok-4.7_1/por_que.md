@@ -1,0 +1,3 @@
+Dibujé a una persona de cuerpo entero, de frente, con pelo oscuro, saco verde, camisa clara y una sonrisa. Quise que se leyera al instante como una persona, con cara, torso, brazos y piernas, sin texto. Elegí colores cálidos y formas simples porque el lienzo es chico y el límite de caracteres no da para mucho detalle.
+
+Pensé en un retrato solo de cara, pero el encargo pedía una persona y el cuerpo la aclara. Descarté una pose en movimiento: con pocos trazos se confunde. También dejé de lado un perfil y una figura abstracta, porque de frente y figurativa se reconoce mejor. No quise un famoso ni un rasgo muy marcado: preferí a alguien genérico y amable.

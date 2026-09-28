@@ -1,0 +1,3 @@
+Dibujé una casa cálida y bastante clásica: paredes amarillas, techo rojo a dos aguas, chimenea, puerta central, ventanas, jardín, árbol, arbustos, cielo, sol y nubes. Lo hice así porque quería que se reconociera al instante como “una casa” y que tuviera una escena amable, completa, sin depender de demasiados detalles finos. Usé colores vivos, sombras y gradientes para darle volumen dentro de un SVG simple.
+
+También pensé en dibujar una casa moderna, una cabaña en el bosque o una casita nocturna con estrellas. Las descarté porque podían alejarse del ícono más universal de casa, o requerir más elementos para contar bien el ambiente. Preferí una composición clara, luminosa y familiar, que funcionara rápido en un lienzo cuadrado.

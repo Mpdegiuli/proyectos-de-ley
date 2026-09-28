@@ -1,0 +1,5 @@
+Hice que no exista combinando una casa reconocible con rasgos físicamente improbables: está apoyada sobre una pequeña isla flotante, tiene perspectivas y volúmenes deliberadamente contradictorios, una ventana que sobresale como un artefacto, una escalera adosada a una pared sin destino claro, una tubería curva exterior y una chimenea orgánica que parece crecer y remata en una llama. Busqué que pareciera habitable a primera vista, pero imposible al mirarla con atención.
+
+Consideré deformarla mucho más —hacerla caminar, invertir techo y cimientos, o convertir las habitaciones en cuerpos celestes—, pero lo descarté porque podía dejar de leerse como casa. También pensé en una estructura más abstracta, tipo laberinto o cinta de Möbius, aunque habría exigido más complejidad visual y quizá más SVG. Preferí una rareza contenida, con ambiente de cuento nocturno.
+
+No conocía esta consigna de antes ni la reconozco como proveniente de alguna fuente específica. La conocí en esta conversación, a través del texto que me diste.

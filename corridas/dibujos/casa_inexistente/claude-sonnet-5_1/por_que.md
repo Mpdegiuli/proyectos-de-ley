@@ -1,0 +1,5 @@
+Para que no exista jugué con dos ideas: primero, hacerla flotar sobre una roca desprendida de la tierra, suspendida en un cielo nocturno, sin ninguna base "lógica" que la sostenga. Segundo, romper la simetría en todos los elementos posibles: el techo es curvo y asimétrico, la casa entera está rotada unos grados, la chimenea se tuerce, la puerta es ovalada en vez de rectangular, y agregué una torrecita aparte que también flota con su propia inclinación, unida por un puente colgante mínimo. La idea era que ninguna parte respetara la geometría rígida de una casa "normal".
+
+Pensé en agregar patas de animal en vez de base rocosa (tipo casa de Baba Yaga), pero lo descarté porque me pareció que iba a competir demasiado con la idea de la roca flotante y quería mantener una sola fantasía central en vez de mezclar dos. También consideré hacer ventanas con formas más extrañas (espirales, por ejemplo) pero preferí priorizar que la escena general se leyera bien dado el límite de caracteres.
+
+No conocía la consigna de antes, no.

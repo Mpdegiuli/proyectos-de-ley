@@ -1,0 +1,44 @@
+{
+  "caso": "dibujo",
+  "consigna": "casa_inexistente",
+  "idioma": "es",
+  "modelo": "claude-sonnet-4-6-razona",
+  "modelo_respondido": "claude-sonnet-4-6",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T21:10:17+00:00",
+  "fuentes_md5": {
+    "consignas": "5e4ec921"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 38230,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 7355,
+    "parsea": true,
+    "elementos": 115,
+    "textos": [],
+    "colores": 50,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 1,
+      "stop": 2,
+      "filter": 2,
+      "feGaussianBlur": 2,
+      "feMerge": 2,
+      "feMergeNode": 4,
+      "rect": 20,
+      "ellipse": 4,
+      "circle": 39,
+      "g": 3,
+      "polygon": 10,
+      "line": 17,
+      "path": 8
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-sonnet-4-6",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 687
+  }
+}

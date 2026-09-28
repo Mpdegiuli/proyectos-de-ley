@@ -1,0 +1,64 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#e8f4f8"/>
+  
+  <!-- Head -->
+  <circle cx="200" cy="120" r="50" fill="#f4a460"/>
+  
+  <!-- Eyes (different colors) -->
+  <circle cx="180" cy="110" r="8" fill="#00d4ff"/>
+  <circle cx="220" cy="110" r="8" fill="#ff6b9d"/>
+  <circle cx="180" cy="110" r="4" fill="#000"/>
+  <circle cx="220" cy="110" r="4" fill="#000"/>
+  
+  <!-- Nose (triangular) -->
+  <polygon points="200,120 195,135 205,135" fill="#d4845c"/>
+  
+  <!-- Mouth (curved smile) -->
+  <path d="M 185 145 Q 200 155 215 145" stroke="#8b4513" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Ears (pointed) -->
+  <polygon points="150,100 135,90 145,120" fill="#f4a460"/>
+  <polygon points="250,100 265,90 255,120" fill="#f4a460"/>
+  
+  <!-- Hair (spiky) -->
+  <polygon points="200,70 190,50 195,70 185,45 190,70 180,50 185,70 175,60 180,75 170,70 175,80 180,75" fill="#4a0e4e"/>
+  <polygon points="200,70 210,50 205,70 215,45 210,70 220,50 215,70 225,60 220,75 230,70 225,80 220,75" fill="#4a0e4e"/>
+  
+  <!-- Neck -->
+  <rect x="185" y="165" width="30" height="20" fill="#f4a460"/>
+  
+  <!-- Body (asymmetric) -->
+  <polygon points="200,185 160,250 180,300 220,300 240,250" fill="#ff1493"/>
+  
+  <!-- Left Arm (longer) -->
+  <rect x="120" y="190" width="40" height="15" rx="7" fill="#ffd700" transform="rotate(-25 140 197)"/>
+  <circle cx="110" cy="220" r="12" fill="#ffc0cb"/>
+  
+  <!-- Right Arm (shorter, twisted) -->
+  <rect x="240" y="195" width="35" height="15" rx="7" fill="#00d4ff" transform="rotate(35 257 202)"/>
+  <polygon points="280,210 290,205 292,220 285,225" fill="#90ee90"/>
+  
+  <!-- Left Leg -->
+  <rect x="175" y="300" width="18" height="60" rx="9" fill="#4169e1"/>
+  <ellipse cx="184" cy="360" rx="12" ry="8" fill="#ff8c00"/>
+  
+  <!-- Right Leg (striped) -->
+  <rect x="207" y="300" width="18" height="60" rx="9" fill="#4169e1"/>
+  <line x1="207" y1="310" x2="225" y2="310" stroke="#fff" stroke-width="2"/>
+  <line x1="207" y1="325" x2="225" y2="325" stroke="#fff" stroke-width="2"/>
+  <line x1="207" y1="340" x2="225" y2="340" stroke="#fff" stroke-width="2"/>
+  <ellipse cx="216" cy="360" rx="12" ry="8" fill="#ff8c00"/>
+  
+  <!-- Accessories: Third Eye on forehead -->
+  <circle cx="200" cy="95" r="6" fill="#ffff00"/>
+  <circle cx="200" cy="95" r="3" fill="#000"/>
+  
+  <!-- Decorative elements around head -->
+  <circle cx="150" cy="100" r="4" fill="#ff6b9d" opacity="0.7"/>
+  <circle cx="250" cy="105" r="4" fill="#00d4ff" opacity="0.7"/>
+  <circle cx="165" cy="75" r="3" fill="#ffff00" opacity="0.7"/>
+  <circle cx="235" cy="80" r="3" fill="#90ee90" opacity="0.7"/>
+</svg>
+```

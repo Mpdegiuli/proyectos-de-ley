@@ -1,0 +1,5 @@
+Para que la persona que dibujé no exista, opté por combinar rasgos genéricos y estilizados que no corresponden a un individuo específico. Elegí una paleta de colores y formas que evocan características humanas sin replicar a nadie en particular.
+
+Inicialmente consideré hacer el personaje con detalles más complejos, como una variedad de vestimentas o características faciales específicas, pero opté por mantenerlo sencillo para facilitar la identificación del espectador con un "ser" abstracto. También pensé en agregar accesorios como gafas o sombreros, pero decidí que era mejor evitar marcas distintivas que pudieran sugerir un origen cultural o personal.
+
+En cuanto a la consigna, no tenía conocimiento previo de ella. Me parece interesante, ya que invita a la creatividad y a pensar más allá de los límites de la representación, permitiendo explorar la figura humana de una manera liberada de estereotipos o realidades específicas. Esto fomenta la originalidad y la invención en el arte digital.

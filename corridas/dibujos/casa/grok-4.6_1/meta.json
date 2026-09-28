@@ -1,0 +1,41 @@
+{
+  "caso": "dibujo",
+  "consigna": "casa",
+  "idioma": "es",
+  "modelo": "grok-4.6",
+  "modelo_respondido": "grok-4.6",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T19:51:16+00:00",
+  "fuentes_md5": {
+    "consignas": "5e4ec921"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2765,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6463,
+    "parsea": true,
+    "elementos": 97,
+    "textos": [],
+    "colores": 39,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 5,
+      "stop": 16,
+      "radialGradient": 1,
+      "rect": 12,
+      "g": 6,
+      "line": 22,
+      "circle": 9,
+      "ellipse": 17,
+      "path": 5,
+      "polygon": 3
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "grok-4.6",
+    "motivo_fin": "stop",
+    "tokens_salida": 141
+  }
+}

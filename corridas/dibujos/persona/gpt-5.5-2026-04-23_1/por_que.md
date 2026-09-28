@@ -1,0 +1,3 @@
+Dibujé una persona joven, de cuerpo entero, en estilo caricaturesco: cabeza grande, pelo oscuro, remera azul, pantalón oscuro, brazos, manos, zapatos y una sombra en el piso. Lo hice así porque quería que se reconociera inmediatamente como “una persona”, con rasgos expresivos pero simples, y que el SVG siguiera siendo claro, liviano y dentro del límite de caracteres.
+
+Pensé en dibujar solo un retrato, pero lo descarté porque la consigna pedía una persona y me parecía mejor mostrar el cuerpo completo. También consideré una figura de palitos, aunque era demasiado mínima. Pensé en una persona con accesorios —mochila, sombrero, bicicleta—, pero podían distraer del objetivo principal o agregar complejidad innecesaria. Preferí una pose frontal, neutra y amable.

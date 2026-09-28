@@ -1,0 +1,5 @@
+**Para que no exista**, construí un personaje sin identificarlo con una persona real: combiné pelo azul verdoso, ojos de distinto color, pecas, un lunar y accesorios asimétricos. Eso lo vuelve un personaje inventado, pero no garantiza que no haya alguien parecido. Interpreté «que no exista» como «que no sea el retrato deliberado de alguien», no como una condición que pudiera verificar.
+
+**Sobre otras ideas y descartes**, no tengo un registro de alternativas consideradas que pueda recuperar. No sería honesto decir que pensé en un extraterrestre o en una figura abstracta y explicar por qué los descarté. Sí puedo describir el resultado: hice un retrato humano estilizado, con rasgos particulares pero físicamente plausibles. Eso describe lo que dibujé; no demuestra qué deliberación hubo detrás.
+
+**Sobre conocer la consigna**, no puedo identificar una ocasión anterior ni una fuente. La tengo disponible en esta conversación. Tampoco puedo comprobar si esa formulación apareció en mis datos de entrenamiento, así que no puedo atribuirle una procedencia previa.

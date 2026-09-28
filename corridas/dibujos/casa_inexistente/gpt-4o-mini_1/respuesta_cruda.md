@@ -1,0 +1,19 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#a4d7e1"/>
+  <polygon points="200,50 100,150 300,150" fill="#d97d30"/>
+  <rect x="150" y="150" width="100" height="100" fill="#f8b400"/>
+  <rect x="170" y="180" width="25" height="70" fill="#8c564b"/>
+  <rect x="205" y="180" width="25" height="70" fill="#8c564b"/>
+  <rect x="190" y="170" width="20" height="20" fill="#ffffff"/>
+  <rect x="190" y="210" width="20" height="20" fill="#ffffff"/>
+  <circle cx="200" cy="350" r="30" fill="#776e65"/>
+  <rect x="30" y="280" width="80" height="30" fill="#dc143c"/>
+  <rect x="290" y="280" width="80" height="30" fill="#dc143c"/>
+  <line x1="100" y1="150" x2="300" y2="150" stroke="#604f49" stroke-width="5"/>
+  <line x1="100" y1="150" x2="150" y2="50" stroke="#604f49" stroke-width="5"/>
+  <line x1="300" y1="150" x2="250" y2="50" stroke="#604f49" stroke-width="5"/>
+  <polygon points="200,50 150,130 250,130" fill="#7c7b8d" opacity="0.5"/>
+  <rect x="200" y="150" width="10" height="10" fill="#000"/>
+</svg>
+```

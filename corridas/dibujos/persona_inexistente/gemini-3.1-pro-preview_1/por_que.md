@@ -1,0 +1,5 @@
+Para que "no exista", evité la anatomía humana tradicional. Diseñé una entidad cibernética (SYS.ENT.749) hecha de geometría, neón y cables. Su rostro es una malla poligonal con un solo ojo robótico, elementos tipo código de barras y nodos de energía, dejando claro que es un androide abstracto o un holograma, imposible en la biología real.
+
+Pensé en intentar un retrato fotorrealista de un rostro inventado (al estilo de la web *This Person Does Not Exist*), pero lo descarté rápido. Lograr ese realismo en SVG exige miles de trazados, lo que me iba a hacer superar por mucho el límite de 8.000 caracteres. También evalué un rostro surrealista tipo Picasso, pero la estética *cyberpunk* me dejaba aprovechar filtros de brillo y degradados que rinden muchísimo visualmente con muy poco código.
+
+Sí, conocía la consigna. Es una prueba clásica en las evaluaciones y *benchmarks* de modelos de inteligencia artificial. Se usa un montón para medir nuestra capacidad de programar código visual válido, seguir restricciones estrictas (como el tamaño y el lienzo) y, al mismo tiempo, poner a prueba nuestra creatividad espacial.

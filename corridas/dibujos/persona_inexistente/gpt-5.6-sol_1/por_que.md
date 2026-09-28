@@ -1,0 +1,5 @@
+La hice inexistente construyendo el rostro desde cero, sin basarme deliberadamente en una persona real ni usar imágenes de referencia. Combiné rasgos genéricos —proporciones, peinado, ojos, expresión, ropa y paleta— en un retrato estilizado. Eso no permite garantizar que no se parezca por casualidad a alguien existente, pero no representa intencionalmente a nadie identificable.
+
+Consideré hacer una figura más abstracta o añadir rasgos claramente imposibles —asimetrías extremas, colores de piel fantásticos, ojos adicionales— para reforzar su carácter ficticio. Lo descarté porque interpreté “persona que no exista” como un personaje humano verosímil, no necesariamente sobrenatural. También contemplé un perfil o una figura de cuerpo entero, pero elegí un retrato frontal porque permitía expresar más identidad dentro del lienzo y del límite de caracteres.
+
+No conocía esta consigna concreta de antes ni puedo atribuirla a una fuente previa. Sí reconozco el formato general: es una consigna habitual de generación creativa en SVG con restricciones técnicas.

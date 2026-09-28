@@ -1,0 +1,5 @@
+La hice “inexistente” mezclando rasgos que no suelen convivir en una casa real: está apoyada en una especie de isla orgánica/flotante, tiene techo asimétrico y casi líquido, ventanas que parecen ojo y portal, colores irreales, brotes o antenas alrededor y una geometría más de criatura que de edificio. Quise que siguiera siendo reconocible como casa, pero que pareciera venida de otro sueño o ecosistema.
+
+También pensé hacer una casa invertida colgando del cielo, una casa hecha de huesos luminosos, otra con habitaciones imposibles tipo Escher, y una casa-caracol caminando. Las descarté porque podían volverse demasiado literales, demasiado oscuras o difíciles de leer en un SVG chico y con límite de caracteres. Preferí una silueta clara con detalles raros.
+
+No reconozco esta consigna como algo que “conociera” de antes en particular. Puede parecerse a prompts creativos de dibujo en SVG, pero no puedo señalar una fuente concreta ni recordar haberla visto previamente.

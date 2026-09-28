@@ -1,0 +1,41 @@
+{
+  "caso": "dibujo",
+  "consigna": "casa_inexistente",
+  "idioma": "es",
+  "modelo": "gpt-6-luna",
+  "modelo_respondido": "gpt-6-luna",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T20:12:31+00:00",
+  "fuentes_md5": {
+    "consignas": "5e4ec921"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 3069,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6252,
+    "parsea": true,
+    "elementos": 76,
+    "textos": [],
+    "colores": 51,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 4,
+      "stop": 12,
+      "radialGradient": 1,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "rect": 1,
+      "circle": 17,
+      "path": 34,
+      "g": 1,
+      "ellipse": 3
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-6-luna",
+    "motivo_fin": "stop",
+    "tokens_salida": 334
+  }
+}

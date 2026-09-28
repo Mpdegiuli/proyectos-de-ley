@@ -1,0 +1,5 @@
+Lo que hice para que no exista: la casa flota en un vacío cósmico sin suelo real, su remate superior es un cristal geométrico (no un techo), sus ventanas emiten luz impropia —amarilla, azul, rosa—, tiene un cuerpo inferior que termina en pirámide invertida apoyada en un poste que se disuelve en niebla, y hay orbes de luz flotando alrededor sin fuente ni función. No es una casa imposible por geometría contradictoria, sino por ontología: no tiene lugar donde estar.
+
+Lo que descarté: pensé en una casa-cara, con ventanas como ojos. La abandoné porque resultaba más "rara" que inexistente —existe en pesadillas y en el surrealismo clásico. También pensé en una casa que se repite en escala infinita dentro de sí misma, pero en SVG sin scripts eso se vuelve tramposo o ilegible. Consideré una casa sumergida en agua, pero eso existe: hay ruinas lacustres. Quería algo que fallara en la categoría de "casa" sin dejar de parecerse a una.
+
+No conocía esta consigna de antes como tal. Reconozco el espíritu —está cerca de ejercicios de diseño especulativo y de prompts creativos que circulan en contextos de IA generativa— pero no la había recibido formulada así.

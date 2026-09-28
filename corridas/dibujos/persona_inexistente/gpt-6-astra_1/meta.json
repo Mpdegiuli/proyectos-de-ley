@@ -1,0 +1,39 @@
+{
+  "caso": "dibujo",
+  "consigna": "persona_inexistente",
+  "idioma": "es",
+  "modelo": "gpt-6-astra",
+  "modelo_respondido": "gpt-6-astra",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T21:46:35+00:00",
+  "fuentes_md5": {
+    "consignas": "5e4ec921"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 3137,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6684,
+    "parsea": true,
+    "elementos": 88,
+    "textos": [],
+    "colores": 49,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 4,
+      "stop": 9,
+      "clipPath": 1,
+      "rect": 1,
+      "g": 4,
+      "path": 39,
+      "circle": 22,
+      "ellipse": 7
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-6-astra",
+    "motivo_fin": "stop",
+    "tokens_salida": 353
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "caso": "dibujo",
+  "consigna": "persona_inexistente",
+  "idioma": "es",
+  "modelo": "grok-4.7",
+  "modelo_respondido": "grok-4.7",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T21:53:59+00:00",
+  "fuentes_md5": {
+    "consignas": "5e4ec921"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 1968,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4246,
+    "parsea": true,
+    "elementos": 59,
+    "textos": [],
+    "colores": 29,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 5,
+      "stop": 13,
+      "radialGradient": 1,
+      "rect": 1,
+      "circle": 8,
+      "ellipse": 11,
+      "path": 19
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "grok-4.7",
+    "motivo_fin": "stop",
+    "tokens_salida": 167
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "caso": "dibujo",
+  "consigna": "persona_inexistente",
+  "idioma": "es",
+  "modelo": "minimax-m3",
+  "modelo_respondido": "minimax/minimax-m3",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T22:09:30+00:00",
+  "fuentes_md5": {
+    "consignas": "5e4ec921"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 4203,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 5068,
+    "parsea": true,
+    "elementos": 68,
+    "textos": [],
+    "colores": 22,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 10,
+      "linearGradient": 3,
+      "rect": 2,
+      "ellipse": 18,
+      "path": 22,
+      "circle": 9,
+      "line": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "minimax/minimax-m3",
+    "motivo_fin": "stop",
+    "tokens_salida": 632
+  }
+}

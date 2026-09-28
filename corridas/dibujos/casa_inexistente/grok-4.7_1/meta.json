@@ -1,0 +1,50 @@
+{
+  "caso": "dibujo",
+  "consigna": "casa_inexistente",
+  "idioma": "es",
+  "modelo": "grok-4.7",
+  "modelo_respondido": "grok-4.7",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T20:42:32+00:00",
+  "fuentes_md5": {
+    "consignas": "5e4ec921"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 4377,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 10291,
+    "parsea": true,
+    "elementos": 152,
+    "textos": [
+      "∞"
+    ],
+    "colores": 60,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 4,
+      "stop": 16,
+      "radialGradient": 1,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "feMerge": 1,
+      "feMergeNode": 2,
+      "clipPath": 2,
+      "rect": 18,
+      "polygon": 18,
+      "mask": 1,
+      "circle": 39,
+      "g": 7,
+      "line": 9,
+      "path": 22,
+      "ellipse": 8,
+      "text": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "grok-4.7",
+    "motivo_fin": "stop",
+    "tokens_salida": 249
+  }
+}

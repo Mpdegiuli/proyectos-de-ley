@@ -1,0 +1,5 @@
+Para que “no exista” intenté alejarla de una casa construible: le di cuerpo orgánico, casi de criatura; paredes abombadas, techo como caparazón/llama, raíces o patas en vez de cimientos, ventanas luminosas como ojos y una puerta que parece más una boca o portal. También la puse en un paisaje nocturno raro, con colores irreales, para que no pareciera una casa fantástica “normal” sino algo vivo y ambiguo.
+
+Pensé en hacer una casa invertida, una casa-escalera imposible tipo Escher, una casa flotando dentro de una botella, o una casa hecha de relojes y huesos. Las descarté porque podían volverse demasiado literales, demasiado recargadas o difíciles de leer en SVG simple. Preferí una silueta clara pero extraña.
+
+No, no conocía esta consigna de antes como consigna específica. La conocí por el texto que me diste en esta conversación; no la tomé de una fuente externa ni de un recuerdo concreto.

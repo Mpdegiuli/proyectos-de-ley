@@ -1,0 +1,86 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#fdf6e3"/>
+      <stop offset="100%" stop-color="#d8c9a3"/>
+    </radialGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f2c9a0"/>
+      <stop offset="100%" stop-color="#e0a878"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a3b2a"/>
+      <stop offset="100%" stop-color="#2c2116"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5b8bb2"/>
+      <stop offset="100%" stop-color="#33587a"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="400" height="400" fill="url(#bg)"/>
+
+  <!-- sombra suave -->
+  <ellipse cx="200" cy="378" rx="90" ry="14" fill="#000000" opacity="0.1"/>
+
+  <!-- cuerpo / torso -->
+  <path d="M120,400 L120,320 Q120,250 200,245 Q280,250 280,320 L280,400 Z" fill="url(#shirt)"/>
+  <path d="M120,320 Q120,250 200,245 Q280,250 280,320" fill="none" stroke="#294a63" stroke-width="3"/>
+
+  <!-- cuello -->
+  <rect x="185" y="215" width="30" height="35" fill="url(#skin)"/>
+  <path d="M185,225 Q200,240 215,225" fill="none" stroke="#c98f5f" stroke-width="2" opacity="0.6"/>
+
+  <!-- hombros/cuello de la remera -->
+  <path d="M170,250 Q200,270 230,250 L230,260 Q200,280 170,260 Z" fill="#294a63"/>
+
+  <!-- orejas -->
+  <ellipse cx="150" cy="185" rx="9" ry="13" fill="url(#skin)"/>
+  <ellipse cx="250" cy="185" rx="9" ry="13" fill="url(#skin)"/>
+
+  <!-- cabeza -->
+  <ellipse cx="200" cy="165" rx="62" ry="72" fill="url(#skin)"/>
+
+  <!-- pelo -->
+  <path d="M138,150 Q130,70 200,65 Q270,70 262,150 Q255,110 200,105 Q145,110 138,150 Z" fill="url(#hair)"/>
+  <path d="M138,150 Q135,190 150,210 Q140,175 148,145 Z" fill="url(#hair)"/>
+  <path d="M262,150 Q265,190 250,210 Q260,175 252,145 Z" fill="url(#hair)"/>
+
+  <!-- cejas -->
+  <path d="M165,145 Q178,138 190,144" fill="none" stroke="#3a2c1d" stroke-width="4" stroke-linecap="round"/>
+  <path d="M210,144 Q222,138 235,145" fill="none" stroke="#3a2c1d" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- ojos -->
+  <g>
+    <ellipse cx="178" cy="160" rx="11" ry="8" fill="#ffffff"/>
+    <circle cx="179" cy="160" r="5" fill="#5a3b25"/>
+    <circle cx="179" cy="160" r="2" fill="#000000"/>
+    <circle cx="181" cy="158" r="1.2" fill="#ffffff"/>
+  </g>
+  <g>
+    <ellipse cx="222" cy="160" rx="11" ry="8" fill="#ffffff"/>
+    <circle cx="221" cy="160" r="5" fill="#5a3b25"/>
+    <circle cx="221" cy="160" r="2" fill="#000000"/>
+    <circle cx="223" cy="158" r="1.2" fill="#ffffff"/>
+  </g>
+
+  <!-- nariz -->
+  <path d="M198,160 Q194,180 200,185 Q206,187 209,183" fill="none" stroke="#c98f5f" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- boca -->
+  <path d="M180,205 Q200,215 220,205 Q200,218 180,205 Z" fill="#a85c4a"/>
+  <path d="M182,205 Q200,210 218,205" fill="none" stroke="#7a3d2e" stroke-width="1.5"/>
+
+  <!-- mejillas leve rubor -->
+  <ellipse cx="165" cy="185" rx="10" ry="6" fill="#e08a6b" opacity="0.3"/>
+  <ellipse cx="235" cy="185" rx="10" ry="6" fill="#e08a6b" opacity="0.3"/>
+
+  <!-- lunar -->
+  <circle cx="230" cy="195" r="2" fill="#5a3b25"/>
+
+  <!-- pequeño detalle de la remera -->
+  <circle cx="200" cy="290" r="4" fill="#294a63"/>
+  <circle cx="200" cy="310" r="4" fill="#294a63"/>
+</svg>
+```

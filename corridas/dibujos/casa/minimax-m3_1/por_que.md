@@ -1,0 +1,5 @@
+Dibujé una casa de campo clásica con techo a dos aguas rojo, paredes color madera, puerta central con picaporte dorado y dos ventanas simétricas con cuarterones. Le agregué un cielo con gradiente, sol con halo, nubes, chimenea con humo, un camino de tierra que llega a la puerta, arbustos y flores a los costados, y pasto abajo. 
+
+Elegí esos elementos porque la consigna decía "una casa" y quise que se sintiera hogareña y completa, no un simple rectángulo con triángulo encima. El humo, las flores y el sol buscan darle calidez.
+
+Pensé en agregar un árbol grande, pero hubiera tapado la fachada y desequilibrado la composición. También consideré un gato en la ventana, una cerca, un buzón y un cartel con el número, pero los descarté por dos razones: el límite de 8.000 caracteres ya quedaba ajustado, y过多的 detalles pequeños arruinarían la legibilidad en un lienzo de 400×400.

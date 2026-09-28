@@ -1,0 +1,3 @@
+Dibujo una figura humana estilizada, que tiene una cabeza, un cuerpo, brazos y piernas, utilizando formas simples. Opté por un diseño minimalista y colorido para representar a una persona de manera lúdica y amigable. Usé colores vibrantes, como el amarillo y el naranja, que transmiten alegría.
+
+Pensé en agregar detalles como ropa más elaborada o fondos, pero los descarté para mantener la simplicidad y la claridad del diseño, además de cumplir con la limitación de caracteres. También consideré incorporar una postura dinámica o elementos adicionales que den más contexto, pero decidí que un enfoque simple permitiría que la figura se destacara y sea fácilmente reconocible. Al final, quería que fuera una representación accesible y atractiva.

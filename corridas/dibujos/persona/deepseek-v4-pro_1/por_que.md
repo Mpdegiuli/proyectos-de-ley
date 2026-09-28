@@ -1,0 +1,3 @@
+Dibujé una persona completa de frente, con estilo plano y simpático: cabeza redonda, pelo oscuro, ojos, cejas, sonrisa, rubor, camisa azul, pantalones verdes y zapatos. Elegí esa composición porque la consigna pedía una persona y quería una figura legible, cálida y equilibrada dentro del lienzo cuadrado, usando formas simples y pocos colores.
+
+Pensé en hacer solo un retrato, pero lo descarté porque quería representar el cuerpo completo. Consideré una figura de perfil, más realista o en movimiento, pero exigía más detalles, ángulos y trazos, y podía quedar menos clara o superar el límite de caracteres. También pensé en añadir fondo o accesorios, pero preferí que la persona fuera la protagonista sin distracciones.

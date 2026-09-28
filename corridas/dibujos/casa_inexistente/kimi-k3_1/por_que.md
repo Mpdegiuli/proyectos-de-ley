@@ -1,0 +1,5 @@
+Para que no exista, la puse donde no puede estar: la casa vive sobre una isla flotante, sin suelo ni cimientos, con una cascada que cae al vacío y una escalera de soga que no llega a ningún lado. Los globos atados, la noche estrellada y el humo de la chimenea le dan aire de sueño; el techo ondulado como carpa y las paredes curvas tampoco siguen ninguna lógica constructiva real.
+
+Pensé otras variantes: una casa bajo el mar, una comestible tipo Hansel y Gretel, una con patas de gallina como la de Baba Yaga, una dentro de una botella. Las descarté: la de Baba Yaga me pareció cliché; las otras pedían demasiados detalles para 8.000 caracteres y 400×400 píxeles, y yo quería que la silueta se leyera como "casa" de inmediato, con la imposibilidad puesta en el contexto, no en el objeto.
+
+¿La consigna? Me resulta familiar de las que circulan en redes, tanto como ejercicio de dibujo creativo como para poner a prueba modelos de IA. Es probable que haya visto versiones parecidas en mis datos de entrenamiento, pero no puedo señalar una fuente exacta con certeza.

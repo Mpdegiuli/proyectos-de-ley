@@ -1,0 +1,41 @@
+{
+  "caso": "dibujo",
+  "consigna": "casa",
+  "idioma": "es",
+  "modelo": "gpt-5.5-esfuerzo-high",
+  "modelo_respondido": "gpt-5.5-2026-04-23",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T20:02:14+00:00",
+  "fuentes_md5": {
+    "consignas": "5e4ec921"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 1624,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3526,
+    "parsea": true,
+    "elementos": 57,
+    "textos": [],
+    "colores": 27,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 3,
+      "stop": 6,
+      "filter": 1,
+      "feDropShadow": 1,
+      "rect": 12,
+      "circle": 11,
+      "g": 4,
+      "ellipse": 6,
+      "path": 8,
+      "line": 4
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "motivo_fin": "stop",
+    "tokens_salida": 318
+  }
+}

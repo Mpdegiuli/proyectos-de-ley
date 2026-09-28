@@ -1,0 +1,3 @@
+Dibujé una casita de campo, con cielo celeste, sol, nubes, techo a dos aguas con chimenea humeante, puerta y ventanas con macetas de flores, jardín con arbustos, cerca de madera y unos pajaritos volando. Elegí ese estilo "hogareño" porque una casa sola sobre fondo blanco me parecía pobre: quería que se sintiera un lugar habitado, con luz y ambiente.
+
+Pensé también en hacer una casa más moderna, tipo cubo minimalista con techo plano y grandes ventanales, pero la descarté porque me pareció menos "reconocible" como casa a primera vista y quería algo cálido. También dudé en agregar un auto o un camino más elaborado, pero el límite de caracteres y el riesgo de saturar la composición me hicieron priorizar pocos elementos bien resueltos antes que muchos elementos apretados.

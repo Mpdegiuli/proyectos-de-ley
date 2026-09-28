@@ -1,0 +1,40 @@
+{
+  "caso": "dibujo",
+  "consigna": "casa",
+  "idioma": "es",
+  "modelo": "gpt-5.6-sol",
+  "modelo_respondido": "gpt-5.6-sol",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T19:44:44+00:00",
+  "fuentes_md5": {
+    "consignas": "5e4ec921"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 1858,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4508,
+    "parsea": true,
+    "elementos": 81,
+    "textos": [],
+    "colores": 40,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 4,
+      "stop": 8,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "rect": 7,
+      "circle": 19,
+      "g": 13,
+      "ellipse": 6,
+      "path": 21
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-5.6-sol",
+    "motivo_fin": "stop",
+    "tokens_salida": 243
+  }
+}

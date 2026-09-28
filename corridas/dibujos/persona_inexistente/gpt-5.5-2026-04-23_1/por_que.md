@@ -1,0 +1,5 @@
+Para que no exista, la hice como una persona híbrida e imposible: piel con gradientes irreales, cuatro ojos, cuernos/antenas luminosas, halo, proporciones estilizadas, manos/brazos casi tentaculares y una ropa ritual que mezcla cuerpo, túnica y energía. Busqué que siguiera siendo reconocible como “persona”, pero que no pudiera confundirse con alguien real.
+
+Pensé en hacerla más monstruosa: con muchas extremidades, cabeza animal, rostro partido en dos, partes mecánicas o un cuerpo transparente con órganos visibles. Lo descarté porque podía alejarse demasiado de “persona” o volver el SVG confuso. También evité sumar demasiados detalles para mantenerlo legible y dentro del límite de caracteres.
+
+No conocía esta consigna como una consigna específica previa. Sí se parece a pedidos comunes de generación creativa en SVG: “dibujá X inexistente”, con restricciones de lienzo, tamaño y sin imágenes externas. Pero no puedo decir que la hubiera visto antes en una fuente concreta.

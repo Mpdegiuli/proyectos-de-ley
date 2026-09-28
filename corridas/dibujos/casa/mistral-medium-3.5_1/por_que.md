@@ -1,0 +1,3 @@
+Dibujé una casa clásica con techo a dos aguas (marrón y rojo), paredes, puerta (negra), ventanas y chimenea (azules), y un sol amarillo. Elegí estos elementos por ser universales y reconocibles: una casa simple pero completa, con detalles que la hacen acogedora. El sol añade contexto (día soleado) y color.
+
+Pensé en añadir un jardín con flores o un camino de entrada, pero lo descarté por exceder el límite de caracteres y complicar el diseño. También consideré un árbol, pero habría requerido más formas (tronco, copa) y sombras, lo que habría saturado el SVG. Opté por la simplicidad para mantener claridad y legibilidad en un espacio reducido. La paleta de colores cálidos (marrón, rojo) y fríos (azul) busca equilibrio visual.

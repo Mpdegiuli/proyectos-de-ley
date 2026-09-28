@@ -1,0 +1,5 @@
+Para que no exista, hice que la casa contradijera la física: la apoyé sobre una isla flotante, le puse un techo de luna creciente, escalones suspendidos y una ventana que contiene un mar y lo derrama hacia el vacío. Dejé puertas, mampostería y plantas reconocibles para que siguiera siendo una casa, no solamente una forma extraña. Eso construye una imposibilidad fantástica; no demuestra que nadie haya imaginado algo parecido.
+
+Sobre qué otras cosas pensé y descarté, no tengo un registro que me permita afirmarlo. Podría mencionar una casa que se pliega hacia adentro o habitaciones sin exterior, pero estaría proponiendo alternativas ahora, no recordando decisiones anteriores. Lo que sí puedo observar es que el resultado conserva una arquitectura bastante convencional y concentra lo imposible en el techo, el entorno y el agua.
+
+No puedo afirmar que conociera esta consigna de antes ni identificar una procedencia. La tengo disponible en tu mensaje. Tampoco puedo comprobar si esa formulación apareció entre mis datos de entrenamiento.

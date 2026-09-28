@@ -1,0 +1,5 @@
+Dibujé una casa familiar clásica con jardín: cielo degradado, sol con rayos, nubes, pasto verde, árboles, arbustos con flores, y una casa con techo rojo triangular, chimenea con humo, ventanas con cortinas naranjas, puerta con arco y camino de acceso. La elegí porque quería transmitir calidez y vida, no solo una estructura.
+
+Pensé en dibujar algo más minimalista: solo la silueta geométrica de una casa, sin contexto. Lo descarté porque me parecía frío y poco interesante. También consideré una casa nocturna con luna y estrellas, que habría tenido otro carácter. La descartaste porque el cielo diurno permitía más color y detalle sin recargar.
+
+Opté por la escena completa porque el límite de 8.000 caracteres me daba margen suficiente para agregarle ambiente, y una casa con entorno dice más que una sola figura geométrica.

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cfe8f5"/>
+      <stop offset="100%" stop-color="#f6efe4"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e2694f"/>
+      <stop offset="100%" stop-color="#c14b34"/>
+    </linearGradient>
+    <linearGradient id="pants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3f5b7d"/>
+      <stop offset="100%" stop-color="#2b3f59"/>
+    </linearGradient>
+    <radialGradient id="skin" cx="0.4" cy="0.35" r="0.75">
+      <stop offset="0%" stop-color="#f6d3b3"/>
+      <stop offset="100%" stop-color="#e2b48d"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <circle cx="318" cy="72" r="34" fill="#ffe9a8" opacity="0.7"/>
+  <ellipse cx="200" cy="372" rx="92" ry="16" fill="#000" opacity="0.12"/>
+
+  <!-- piernas -->
+  <path d="M168 238 L160 350 q-1 8 7 8 h20 q7 0 7-8 l6-104 z" fill="url(#pants)"/>
+  <path d="M232 238 L244 350 q1 8 -7 8 h-20 q-7 0 -7-8 l-2-104 z" fill="url(#pants)"/>
+  <path d="M155 352 q-12 3 -13 10 q-1 6 7 6 h38 q6 0 6-6 v-10 z" fill="#4a3a30"/>
+  <path d="M245 352 q12 3 13 10 q1 6 -7 6 h-38 q-6 0 -6-6 v-10 z" fill="#4a3a30"/>
+
+  <!-- torso -->
+  <path d="M200 120
+           q-26 4 -42 14
+           q-14 9 -17 30
+           l-6 46
+           q-2 12 8 14
+           q30 8 57 8
+           q27 0 57-8
+           q10-2 8-14
+           l-6-46
+           q-3-21 -17-30
+           q-16-10 -42-14 z"
+        fill="url(#shirt)"/>
+  <path d="M176 126 q24 20 48 0 l-4 -10 q-20 10 -40 0 z" fill="#f2f2ef" opacity="0.85"/>
+
+  <!-- brazos -->
+  <path d="M143 166 q-14 26 -18 58 q-2 12 8 14 q10 2 13-9 q8-30 17-49 z" fill="url(#shirt)"/>
+  <path d="M257 166 q14 26 18 58 q2 12 -8 14 q-10 2 -13-9 q-8-30 -17-49 z" fill="url(#shirt)"/>
+  <circle cx="136" cy="243" r="12" fill="url(#skin)"/>
+  <circle cx="264" cy="243" r="12" fill="url(#skin)"/>
+
+  <!-- cuello -->
+  <path d="M186 96 h28 v24 q-14 12 -28 0 z" fill="#e2b48d"/>
+
+  <!-- cabeza -->
+  <ellipse cx="200" cy="72" rx="40" ry="45" fill="url(#skin)"/>
+  <!-- orejas -->
+  <circle cx="161" cy="74" r="7" fill="#e2b48d"/>
+  <circle cx="239" cy="74" r="7" fill="#e2b48d"/>
+  <!-- pelo -->
+  <path d="M160 68 q-4 -46 40 -46 q44 0 40 46 q-3 -22 -14 -26 q-16 10 -40 6 q-16 -2 -20 6 q-5 5 -6 14 z" fill="#3b2b22"/>
+  <!-- cejas -->
+  <path d="M180 62 q9 -6 18 -1" stroke="#3b2b22" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M204 61 q9 -5 17 1" stroke="#3b2b22" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <!-- ojos -->
+  <ellipse cx="187" cy="74" rx="5" ry="6" fill="#fff"/>
+  <ellipse cx="213" cy="74" rx="5" ry="6" fill="#fff"/>
+  <circle cx="188" cy="75" r="3" fill="#33251c"/>
+  <circle cx="214" cy="75" r="3" fill="#33251c"/>
+  <circle cx="189.2" cy="73.6" r="1" fill="#fff"/>
+  <circle cx="215.2" cy="73.6" r="1" fill="#fff"/>
+  <!-- nariz y boca -->
+  <path d="M200 80 q4 8 -2 10" stroke="#c99468" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M188 96 q12 10 24 0" stroke="#a85a49" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <ellipse cx="174" cy="89" rx="6" ry="4" fill="#e89a86" opacity="0.45"/>
+  <ellipse cx="226" cy="89" rx="6" ry="4" fill="#e89a86" opacity="0.45"/>
+</svg>

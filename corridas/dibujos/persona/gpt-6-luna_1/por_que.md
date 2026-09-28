@@ -1,0 +1,3 @@
+Dibujé una persona de pie, con una campera verde, pantalón oscuro y una expresión amable. Elegí una figura de cuerpo entero para que se reconociera claramente como persona y para poder darle detalles de ropa, postura y rostro. Usé colores cálidos en la piel y el fondo, y tonos más fríos en la ropa para que la figura se destacara sin que la escena quedara recargada.
+
+También podría haber dibujado a alguien sentado, haciendo una actividad o acompañado por otras personas. Lo descarté porque una pose sencilla y una sola figura me permitían mantener el dibujo claro dentro del espacio cuadrado. Pensé en agregar más elementos al fondo, pero preferí dejarlo simple para que la atención quedara en la persona.

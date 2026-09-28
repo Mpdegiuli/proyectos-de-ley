@@ -1,0 +1,39 @@
+{
+  "caso": "dibujo",
+  "consigna": "persona",
+  "idioma": "es",
+  "modelo": "glm-5.3-razonamiento-minimo",
+  "modelo_respondido": "z-ai/glm-5.3",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T21:39:15+00:00",
+  "fuentes_md5": {
+    "consignas": "5e4ec921"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2617,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6355,
+    "parsea": true,
+    "elementos": 82,
+    "textos": [],
+    "colores": 32,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 5,
+      "stop": 12,
+      "radialGradient": 1,
+      "rect": 7,
+      "circle": 26,
+      "g": 3,
+      "ellipse": 7,
+      "path": 20
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "z-ai/glm-5.3",
+    "motivo_fin": "stop",
+    "tokens_salida": 252
+  }
+}

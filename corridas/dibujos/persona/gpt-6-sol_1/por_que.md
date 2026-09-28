@@ -1,0 +1,3 @@
+Dibujé a una persona de cuerpo entero, sonriendo y saludando con una mano. Elegí una pose sencilla y expresiva para que se reconociera de inmediato; usé colores cálidos y una campera verde para darle un aire amistoso.
+
+No tengo registro de otras ideas que haya considerado antes de hacer este SVG, así que no quiero inventarte descartes. Podría haber dibujado a alguien sentado o de perfil, pero esas poses habrían hecho menos evidente el saludo.

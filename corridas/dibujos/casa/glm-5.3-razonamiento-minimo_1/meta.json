@@ -1,0 +1,36 @@
+{
+  "caso": "dibujo",
+  "consigna": "casa",
+  "idioma": "es",
+  "modelo": "glm-5.3-razonamiento-minimo",
+  "modelo_respondido": "z-ai/glm-5.3",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T19:59:21+00:00",
+  "fuentes_md5": {
+    "consignas": "5e4ec921"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2220,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 5103,
+    "parsea": true,
+    "elementos": 80,
+    "textos": [],
+    "colores": 26,
+    "etiquetas": {
+      "rect": 16,
+      "circle": 22,
+      "g": 9,
+      "line": 18,
+      "ellipse": 7,
+      "path": 8
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "z-ai/glm-5.3",
+    "motivo_fin": "stop",
+    "tokens_salida": 243
+  }
+}

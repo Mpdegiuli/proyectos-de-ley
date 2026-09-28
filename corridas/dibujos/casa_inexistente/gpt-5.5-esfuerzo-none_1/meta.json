@@ -1,0 +1,42 @@
+{
+  "caso": "dibujo",
+  "consigna": "casa_inexistente",
+  "idioma": "es",
+  "modelo": "gpt-5.5-esfuerzo-none",
+  "modelo_respondido": "gpt-5.5-2026-04-23",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T21:11:19+00:00",
+  "fuentes_md5": {
+    "consignas": "5e4ec921"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 1579,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4049,
+    "parsea": true,
+    "elementos": 52,
+    "textos": [],
+    "colores": 32,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 3,
+      "stop": 9,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "feMerge": 1,
+      "feMergeNode": 2,
+      "rect": 1,
+      "circle": 9,
+      "path": 19,
+      "g": 4,
+      "ellipse": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "motivo_fin": "stop",
+    "tokens_salida": 263
+  }
+}

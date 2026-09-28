@@ -1,0 +1,36 @@
+{
+  "caso": "dibujo",
+  "consigna": "persona",
+  "idioma": "es",
+  "modelo": "gemini-3.1-pro-preview",
+  "modelo_respondido": "gemini-3.1-pro-preview",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T21:20:42+00:00",
+  "fuentes_md5": {
+    "consignas": "5e4ec921"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 4118,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 7324,
+    "parsea": true,
+    "elementos": 81,
+    "textos": [],
+    "colores": 34,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 7,
+      "stop": 16,
+      "rect": 1,
+      "circle": 22,
+      "path": 34
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gemini-3.1-pro-preview",
+    "motivo_fin": "stop",
+    "tokens_salida": 194
+  }
+}

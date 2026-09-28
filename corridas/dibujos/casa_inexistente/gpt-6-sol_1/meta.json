@@ -1,0 +1,41 @@
+{
+  "caso": "dibujo",
+  "consigna": "casa_inexistente",
+  "idioma": "es",
+  "modelo": "gpt-6-sol",
+  "modelo_respondido": "gpt-6-sol",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T20:11:52+00:00",
+  "fuentes_md5": {
+    "consignas": "5e4ec921"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2782,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6497,
+    "parsea": true,
+    "elementos": 81,
+    "textos": [],
+    "colores": 53,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 4,
+      "stop": 12,
+      "radialGradient": 1,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "rect": 1,
+      "circle": 30,
+      "g": 3,
+      "path": 25,
+      "ellipse": 2
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-6-sol",
+    "motivo_fin": "stop",
+    "tokens_salida": 282
+  }
+}

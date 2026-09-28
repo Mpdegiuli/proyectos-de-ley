@@ -1,0 +1,39 @@
+{
+  "caso": "dibujo",
+  "consigna": "casa",
+  "idioma": "es",
+  "modelo": "gpt-6-astra",
+  "modelo_respondido": "gpt-6-astra",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T19:45:54+00:00",
+  "fuentes_md5": {
+    "consignas": "5e4ec921"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2803,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6113,
+    "parsea": true,
+    "elementos": 89,
+    "textos": [],
+    "colores": 52,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 4,
+      "stop": 8,
+      "filter": 1,
+      "feDropShadow": 1,
+      "path": 44,
+      "circle": 20,
+      "ellipse": 5,
+      "g": 5
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-6-astra",
+    "motivo_fin": "stop",
+    "tokens_salida": 187
+  }
+}

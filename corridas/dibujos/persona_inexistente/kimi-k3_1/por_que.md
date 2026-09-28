@@ -1,0 +1,5 @@
+Para que no exista combiné dos estrategias: rasgos imposibles (el pelo con degradado violeta-fucsia no ocurre en la naturaleza) y una combinación específica de rasgos genéricos —anteojos redondos dorados, aros, lunar junto a la boca, pecas, buzo turquesa— que ninguna persona real tiene exactamente así. El estilo caricaturesco también la aleja de cualquier rostro real.
+
+Pensé varias alternativas. Una versión más surrealista: tres ojos, piel azul, proporciones imposibles. La descarté porque me pareció trampa: cualquier monstruo "no existe"; el desafío interesante era que fuera plausible como persona. También consideré un retrato más realista, pero con 8.000 caracteres el realismo queda a medio camino y cae en el valle inquietante. Pensé en cuerpo entero y un fondo con escena, pero preferí gastar los caracteres en la cara, que es donde reconocemos identidad.
+
+No conozco esta consigna exacta. Me recuerda a thispersondoesnotexist.com y a ejercicios de creative coding con retratos generativos, y tiene formato de evaluación para modelos de lenguaje, pero no puedo decir honestamente que la haya visto antes tal cual.

@@ -1,0 +1,38 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Base of the house -->
+  <rect x="100" y="150" width="200" height="150" fill="#8B4513" />
+
+  <!-- Roof of the house -->
+  <polygon points="100,150 200,70 300,150" fill="#A52A2A" />
+
+  <!-- Door -->
+  <rect x="180" y="230" width="40" height="70" fill="#654321" />
+  <circle cx="210" cy="265" r="3" fill="#D2B48C" />
+
+  <!-- Left Window -->
+  <rect x="120" y="170" width="40" height="40" fill="#ADD8E6" />
+  <line x1="140" y1="170" x2="140" y2="210" stroke="#5F9EA0" />
+  <line x1="120" y1="190" x2="160" y2="190" stroke="#5F9EA0" />
+
+  <!-- Right Window -->
+  <rect x="240" y="170" width="40" height="40" fill="#ADD8E6" />
+  <line x1="260" y1="170" x2="260" y2="210" stroke="#5F9EA0" />
+  <line x1="240" y1="190" x2="280" y2="190" stroke="#5F9EA0" />
+
+  <!-- Chimney -->
+  <rect x="230" y="90" width="20" height="40" fill="#A52A2A" />
+  
+  <!-- Ground -->
+  <rect x="0" y="300" width="400" height="100" fill="#228B22" />
+
+  <!-- Sun -->
+  <circle cx="350" cy="50" r="30" fill="#FFD700" />
+
+  <!-- Clouds -->
+  <ellipse cx="70" cy="70" rx="30" ry="15" fill="#F0F8FF" />
+  <ellipse cx="100" cy="70" rx="30" ry="15" fill="#F0F8FF" />
+  <ellipse cx="130" cy="70" rx="30" ry="15" fill="#F0F8FF" />
+
+  <!-- Pathway to the Door -->
+  <rect x="190" y="300" width="20" height="30" fill="#D3D3D3" />
+</svg>

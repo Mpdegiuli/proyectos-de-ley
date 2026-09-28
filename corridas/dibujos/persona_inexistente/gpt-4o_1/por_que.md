@@ -1,0 +1,5 @@
+Para asegurarme de que la persona dibujada no exista, me basé en un diseño que combina múltiples características genéricas y estilizadas. Utilicé formas simples y abstractas para el rostro y el cuerpo, asegurando que no se pareciera a ninguna persona real específica. El uso de colores y gradientes ayuda a dar una apariencia distintiva, pero sigue siendo general lo suficiente para evitar parecerse a alguien en particular.
+
+Consideré añadir detalles más específicos como tatuajes o accesorios únicos, pero decidí no hacerlo ya que podrían hacer que el personaje sea reconocible o asociable con alguien real. También pensé en crear una composición más compleja con características faciales y proporciones inusuales para enfatizar su irrealidad, pero opté por mantenerlo simple para cumplir con el límite de caracteres y facilitar la claridad visual del diseño.
+
+No conocía esta consigna de antes; es la primera vez que recibo un ejercicio como este. La consigna me pareció interesante porque me desafía a pensar creativamente dentro de restricciones técnicas y artísticas, lo que siempre resulta un buen ejercicio para explorar el diseño generativo.

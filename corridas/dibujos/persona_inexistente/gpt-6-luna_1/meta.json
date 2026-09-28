@@ -1,0 +1,38 @@
+{
+  "caso": "dibujo",
+  "consigna": "persona_inexistente",
+  "idioma": "es",
+  "modelo": "gpt-6-luna",
+  "modelo_respondido": "gpt-6-luna",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T21:48:03+00:00",
+  "fuentes_md5": {
+    "consignas": "5e4ec921"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2994,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 5448,
+    "parsea": true,
+    "elementos": 66,
+    "textos": [],
+    "colores": 52,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 4,
+      "stop": 8,
+      "rect": 1,
+      "circle": 11,
+      "g": 1,
+      "path": 37,
+      "ellipse": 3
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-6-luna",
+    "motivo_fin": "stop",
+    "tokens_salida": 314
+  }
+}

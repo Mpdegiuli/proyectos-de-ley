@@ -1,0 +1,3 @@
+Dibujé una casa cálida con techo a dos aguas, ventanas con flores, chimenea, sol, nubes, árbol, cerca y sendero, porque quería una escena amable, luminosa y hogareña, con colores suaves y detalles simples.
+
+También pensé en un perro, una persona o un auto, pero los descarté para no recargar el lienzo y dejar la casa como protagonista. Consideré un arcoíris o estrellas, pero rompían el clima diurno y la paleta.

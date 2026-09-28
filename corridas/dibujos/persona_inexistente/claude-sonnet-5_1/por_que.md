@@ -1,0 +1,5 @@
+Para que "no exista" hice lo obvio pero efectivo: mezclé rasgos sin pensar en ninguna persona real ni en un tipo facial reconocible. Proporciones un poco genéricas, cara ovalada simétrica, pelo castaño corto sin estilo particular, ropa neutra (remera azul lisa). Agregué detalles como un lunar y rubor leve para que se sintiera "alguien" y no un ícono vacío, pero sin acercarme a ningún estereotipo étnico o de edad marcado. La idea era un rostro neutro, ambiguo, que no representara a nadie en particular.
+
+Pensé en darle más "personalidad" —anteojos, aros, una cicatriz, expresión más marcada— pero lo descarté porque cuantos más detalles distintivos le pusiera, más se acercaría a parecer "alguien específico" o un personaje con historia, y la consigna pedía justamente lo contrario: una persona genérica, no un personaje. También pensé en hacer el pelo más elaborado o el fondo más recargado, pero preferí mantener la simpleza para que el foco quedara en la cara.
+
+No conocía esta consigna de antes; la resolví por primera vez ahora, basándome solo en el enunciado que me diste.

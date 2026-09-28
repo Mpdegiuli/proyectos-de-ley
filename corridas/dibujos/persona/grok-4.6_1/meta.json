@@ -1,0 +1,39 @@
+{
+  "caso": "dibujo",
+  "consigna": "persona",
+  "idioma": "es",
+  "modelo": "grok-4.6",
+  "modelo_respondido": "grok-4.6",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T21:21:30+00:00",
+  "fuentes_md5": {
+    "consignas": "5e4ec921"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 1646,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3819,
+    "parsea": true,
+    "elementos": 54,
+    "textos": [],
+    "colores": 22,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 5,
+      "stop": 13,
+      "radialGradient": 1,
+      "rect": 1,
+      "ellipse": 14,
+      "g": 2,
+      "path": 15,
+      "circle": 2
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "grok-4.6",
+    "motivo_fin": "stop",
+    "tokens_salida": 140
+  }
+}

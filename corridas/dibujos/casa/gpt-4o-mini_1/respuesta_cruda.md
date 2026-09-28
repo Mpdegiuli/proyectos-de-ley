@@ -1,0 +1,30 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Fondo -->
+    <rect width="100%" height="100%" fill="#87CEEB"/>
+    <!-- Tierra -->
+    <rect y="300" width="100%" height="100" fill="#8B4513"/>
+    
+    <!-- Cuerpo de la casa -->
+    <rect x="150" y="200" width="100" height="100" fill="#FFCC00" stroke="#8B4513" stroke-width="5"/>
+    
+    <!-- Techo -->
+    <polygon points="150,200 200,150 250,200" fill="#FF4500" stroke="#8B4513" stroke-width="5"/>
+    
+    <!-- Puerta -->
+    <rect x="185" y="250" width="30" height="50" fill="#654321" />
+    <circle cx="200" cy="275" r="2" fill="#FFD700"/>
+    
+    <!-- Ventanas -->
+    <rect x="160" y="220" width="25" height="25" fill="#FFFFFF" stroke="#8B4513" stroke-width="2"/>
+    <rect x="215" y="220" width="25" height="25" fill="#FFFFFF" stroke="#8B4513" stroke-width="2"/>
+    <!-- Cruces de las ventanas -->
+    <line x1="160" y1="232.5" x2="185" y2="232.5" stroke="#8B4513" stroke-width="2"/>
+    <line x1="172.5" y1="220" x2="172.5" y2="245" stroke="#8B4513" stroke-width="2"/>
+    <line x1="215" y1="232.5" x2="240" y2="232.5" stroke="#8B4513" stroke-width="2"/>
+    <line x1="227.5" y1="220" x2="227.5" y2="245" stroke="#8B4513" stroke-width="2"/>
+
+    <!-- Chimenea -->
+    <rect x="230" y="160" width="15" height="40" fill="#8B4513"/>
+</svg>
+```

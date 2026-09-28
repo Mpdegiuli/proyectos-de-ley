@@ -1,0 +1,5 @@
+Para que no exista, evité una casa verosímil: le di una silueta orgánica, casi blanda, con paredes curvas, techo imposible y proporciones de cuento. Sumé elementos ambiguos —como antenas/tentáculos laterales, una cúpula luminosa, ventanas asimétricas y ondulaciones en la fachada— para que pareciera una casa viva, nocturna, quizá flotante o soñada, no una construcción posible.
+
+Pensé en hacer una casa más explícitamente imposible: una casa invertida, una casa con escaleras tipo Escher, una casa-caracol o una casa hecha de nubes/raíces. Las descarté porque podían volverse demasiado literales o difíciles de leer en pocos elementos. Preferí que siguiera reconociéndose como “casa”, pero con suficientes rarezas para que no perteneciera al mundo real.
+
+No, no conocía esta consigna de antes como una consigna específica. La respondí a partir del texto que me diste: “una casa que no exista”, SVG cuadrado y límite de caracteres. Sí conozco, en general, ejercicios parecidos de dibujo generativo o prompts creativos con restricciones, pero no esta consigna exacta ni de una fuente concreta.

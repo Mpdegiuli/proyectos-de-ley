@@ -1,0 +1,42 @@
+{
+  "caso": "dibujo",
+  "consigna": "casa",
+  "idioma": "es",
+  "modelo": "gemini-3.1-pro-preview",
+  "modelo_respondido": "gemini-3.1-pro-preview",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T19:50:21+00:00",
+  "fuentes_md5": {
+    "consignas": "5e4ec921"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 4496,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 8175,
+    "parsea": true,
+    "elementos": 113,
+    "textos": [],
+    "colores": 44,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 2,
+      "stop": 9,
+      "radialGradient": 2,
+      "pattern": 1,
+      "rect": 15,
+      "path": 24,
+      "mask": 1,
+      "circle": 41,
+      "g": 3,
+      "ellipse": 10,
+      "polygon": 4
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gemini-3.1-pro-preview",
+    "motivo_fin": "stop",
+    "tokens_salida": 202
+  }
+}

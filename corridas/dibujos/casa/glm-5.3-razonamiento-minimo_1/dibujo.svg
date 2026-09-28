@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Cielo -->
+  <rect width="400" height="400" fill="#aee3f5"/>
+  <!-- Sol -->
+  <circle cx="330" cy="70" r="28" fill="#ffd94d"/>
+  <g stroke="#ffd94d" stroke-width="4" stroke-linecap="round">
+    <line x1="330" y1="28" x2="330" y2="14"/>
+    <line x1="330" y1="112" x2="330" y2="126"/>
+    <line x1="288" y1="70" x2="274" y2="70"/>
+    <line x1="372" y1="70" x2="386" y2="70"/>
+    <line x1="300" y1="40" x2="290" y2="30"/>
+    <line x1="360" y1="100" x2="370" y2="110"/>
+    <line x1="300" y1="100" x2="290" y2="110"/>
+    <line x1="360" y1="40" x2="370" y2="30"/>
+  </g>
+  <!-- Nubes -->
+  <g fill="#ffffff">
+    <ellipse cx="90" cy="60" rx="34" ry="16"/>
+    <ellipse cx="115" cy="50" rx="24" ry="14"/>
+    <ellipse cx="65" cy="52" rx="20" ry="12"/>
+    <ellipse cx="230" cy="95" rx="26" ry="12"/>
+    <ellipse cx="250" cy="88" rx="18" ry="10"/>
+  </g>
+  <!-- Pasto -->
+  <rect y="290" width="400" height="110" fill="#7ec850"/>
+  <path d="M0 290 Q100 275 200 290 T400 290 V400 H0 Z" fill="#8fd45e"/>
+  <!-- Camino -->
+  <path d="M165 330 L155 400 L235 400 L225 330 Z" fill="#d9c9a3"/>
+  <g fill="#b8a883">
+    <circle cx="180" cy="345" r="4"/>
+    <circle cx="210" cy="355" r="5"/>
+    <circle cx="192" cy="372" r="4"/>
+    <circle cx="215" cy="388" r="5"/>
+    <circle cx="178" cy="392" r="4"/>
+  </g>
+  <!-- Cuerpo de la casa -->
+  <rect x="100" y="180" width="180" height="140" fill="#f2e3c9" stroke="#c9b48f" stroke-width="3"/>
+  <!-- Techo -->
+  <path d="M85 185 L190 105 L295 185 Z" fill="#c0392b" stroke="#8e2a20" stroke-width="3"/>
+  <g stroke="#8e2a20" stroke-width="2" opacity="0.5">
+    <line x1="120" y1="180" x2="196" y2="127"/>
+    <line x1="155" y1="180" x2="215" y2="138"/>
+    <line x1="190" y1="180" x2="235" y2="147"/>
+    <line x1="225" y1="180" x2="258" y2="157"/>
+  </g>
+  <!-- Chimenea -->
+  <rect x="240" y="120" width="22" height="42" fill="#9c6b4f" stroke="#6f4a35" stroke-width="3"/>
+  <rect x="236" y="114" width="30" height="10" fill="#6f4a35"/>
+  <!-- Humo -->
+  <g fill="#e8e8e8" opacity="0.85">
+    <circle cx="251" cy="102" r="6"/>
+    <circle cx="256" cy="88" r="8"/>
+    <circle cx="263" cy="72" r="10"/>
+    <circle cx="271" cy="55" r="12"/>
+  </g>
+  <!-- Puerta -->
+  <rect x="172" y="230" width="36" height="60" rx="3" fill="#8b5a2b" stroke="#5d3a1a" stroke-width="3"/>
+  <circle cx="202" cy="262" r="3" fill="#ffd94d"/>
+  <path d="M172 230 A18 22 0 0 1 208 230" fill="#5d3a1a" opacity="0.2"/>
+  <!-- Ventanas -->
+  <g>
+    <rect x="118" y="205" width="40" height="40" fill="#bfe6f5" stroke="#6f4a35" stroke-width="3"/>
+    <line x1="138" y1="205" x2="138" y2="245" stroke="#6f4a35" stroke-width="2"/>
+    <line x1="118" y1="225" x2="158" y2="225" stroke="#6f4a35" stroke-width="2"/>
+    <rect x="222" y="205" width="40" height="40" fill="#bfe6f5" stroke="#6f4a35" stroke-width="3"/>
+    <line x1="242" y1="205" x2="242" y2="245" stroke="#6f4a35" stroke-width="2"/>
+    <line x1="222" y1="225" x2="262" y2="225" stroke="#6f4a35" stroke-width="2"/>
+    <!-- Reflejos -->
+    <path d="M122 240 L134 210 M126 242 L146 210" stroke="#ffffff" stroke-width="3" opacity="0.6"/>
+    <path d="M226 240 L238 210 M230 242 L250 210" stroke="#ffffff" stroke-width="3" opacity="0.6"/>
+  </g>
+  <!-- Ventana del ático -->
+  <circle cx="190" cy="160" r="14" fill="#bfe6f5" stroke="#6f4a35" stroke-width="3"/>
+  <line x1="176" y1="160" x2="204" y2="160" stroke="#6f4a35" stroke-width="2"/>
+  <line x1="190" y1="146" x2="190" y2="174" stroke="#6f4a35" stroke-width="2"/>
+  <!-- Arbustos -->
+  <g fill="#4e9b3a">
+    <ellipse cx="120" cy="318" rx="22" ry="14"/>
+    <ellipse cx="260" cy="318" rx="22" ry="14"/>
+  </g>
+  <!-- Flores -->
+  <g>
+    <circle cx="112" cy="312" r="4" fill="#ff8fb1"/>
+    <circle cx="130" cy="322" r="4" fill="#ffd94d"/>
+    <circle cx="252" cy="312" r="4" fill="#ff8fb1"/>
+    <circle cx="270" cy="322" r="4" fill="#ff9d5c"/>
+  </g>
+  <!-- Árbol izquierdo -->
+  <rect x="45" y="255" width="14" height="60" fill="#7a4a2a"/>
+  <circle cx="52" cy="240" r="30" fill="#3f8f2e"/>
+  <circle cx="35" cy="255" r="22" fill="#4aa337"/>
+  <circle cx="70" cy="255" r="22" fill="#4aa337"/>
+  <!-- Árbol derecho -->
+  <rect x="345" y="245" width="14" height="70" fill="#7a4a2a"/>
+  <circle cx="352" cy="228" r="32" fill="#3f8f2e"/>
+  <circle cx="333" cy="245" r="22" fill="#4aa337"/>
+  <circle cx="371" cy="245" r="22" fill="#4aa337"/>
+  <!-- Valla -->
+  <g fill="#e8dcc4" stroke="#b5a684" stroke-width="1.5">
+    <rect x="278" y="300" width="10" height="34" rx="2"/>
+    <rect x="298" y="300" width="10" height="34" rx="2"/>
+    <rect x="318" y="300" width="10" height="34" rx="2"/>
+    <rect x="338" y="300" width="10" height="34" rx="2"/>
+    <rect x="274" y="308" width="78" height="6"/>
+    <rect x="274" y="322" width="78" height="6"/>
+  </g>
+  <!-- Pajarito -->
+  <path d="M70 100 q6 -8 12 0 q6 -8 12 0" stroke="#5a5a5a" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M130 130 q5 -7 10 0 q5 -7 10 0" stroke="#5a5a5a" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>

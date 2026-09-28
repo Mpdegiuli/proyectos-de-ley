@@ -1,0 +1,5 @@
+Dibujé una persona de cuerpo entero, sonriente y con una mano levantada en señal de saludo. Le puse pelo corto, piel marrón, chaqueta verde azulada, camiseta mostaza y pantalones oscuros. Completé la escena con una planta, un fondo suave y pequeños detalles decorativos.
+
+Mi criterio fue resolver una consigna abierta con una figura reconocible y una composición amable: el saludo aporta expresividad; los colores y las formas redondeadas refuerzan ese tono. No le asigné una identidad ni una historia específicas.
+
+No puedo reconstruir qué otras opciones consideré realmente ni afirmar que las descarté. Como alternativas posibles, podría haber dibujado un retrato, una silueta minimalista o alguien en movimiento. Frente a ellas, esta solución permite mostrar rostro, vestimenta y gesto sin complicar demasiado el SVG.

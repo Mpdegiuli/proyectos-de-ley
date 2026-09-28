@@ -1,0 +1,35 @@
+{
+  "caso": "dibujo",
+  "consigna": "casa",
+  "idioma": "es",
+  "modelo": "claude-haiku-4-5",
+  "modelo_respondido": "claude-haiku-4-5-20251001",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T19:43:58+00:00",
+  "fuentes_md5": {
+    "consignas": "5e4ec921"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 970,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 2212,
+    "parsea": true,
+    "elementos": 27,
+    "textos": [],
+    "colores": 10,
+    "etiquetas": {
+      "rect": 8,
+      "polygon": 2,
+      "circle": 2,
+      "line": 12,
+      "ellipse": 3
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-haiku-4-5-20251001",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 233
+  }
+}

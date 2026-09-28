@@ -1,0 +1,3 @@
+Dibujé una casa de campo de frente: techo a dos aguas, paredes crema, puerta, dos ventanas y una buhardilla, con sol, nubes, césped, flores y dos árboles. Quise algo reconocible al instante, cálido y equilibrado, con formas simples y degradados para dar volumen sin pasar el límite ni usar imágenes externas.
+
+Pensé en una noche con luna y ventanas iluminadas, pero el cielo claro me pareció más amable. También consideré una persona, un perro o un auto, y los descarté: competían con la casa y alargaban el archivo. Una cabaña en el bosque o una fachada más detallada habrían recargado el lienzo. Preferí pocos elementos, centrados, para que la casa fuera la protagonista.

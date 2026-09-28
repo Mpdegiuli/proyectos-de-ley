@@ -1,0 +1,5 @@
+Dibujé una persona de cuerpo entero, estilo caricatura amable: una figura sonriente con camiseta roja y pantalón azul, parada en un pasto verde, bajo un cielo celeste con sol y nubes. Le agregué detalles: pelo castaño con mechón, mejillas rosadas, un brazo en la cadera y el otro saludando, un bolso naranja, flores y una sombra para anclarla al suelo.
+
+Elegí eso porque quería que la persona se sintiera viva y alegre, no un maniquí genérico. Un fondo simple con gradiente le da contexto sin competir con la figura, y la pose asimétrica (saludar + cadera) aporta personalidad.
+
+Descarté: un retrato solo de busto (menos narrativo), una figura en movimiento corriendo (más difícil de que se lea bien), y un estilo minimalista de palitos (me pareció desaprovechar el límite de caracteres). También consideré una escena nocturna o lluviosa, pero el día soleado refuerza la vibra optimista del personaje.

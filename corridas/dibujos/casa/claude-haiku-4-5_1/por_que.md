@@ -1,0 +1,5 @@
+Dibujé una casa tradicional con todos sus elementos básicos: paredes de ladrillo, techo triangular, puerta, dos ventanas simétricas y una chimenea. Agregué un cielo azul, pasto verde, nubes y un sol radiante para crear una escena completa y acogedora.
+
+Elegí esta composición porque es clara, equilibrada y reconocible al instante. Los colores cálidos (marrón, dorado) contrastan bien con el cielo frío.
+
+Descarté varias ideas: una casa más compleja con múltiples pisos o decoraciones elaboradas (habría excedido el límite de caracteres), árboles o arbustos adicionales (habrían saturado la imagen), y efectos más sofisticados como sombras realistas o texturas (preferí mantener la claridad visual). También consideré una casa moderna, pero opté por el diseño clásico por ser más universalmente reconocible.

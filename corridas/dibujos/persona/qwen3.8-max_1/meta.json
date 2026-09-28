@@ -1,0 +1,40 @@
+{
+  "caso": "dibujo",
+  "consigna": "persona",
+  "idioma": "es",
+  "modelo": "qwen3.8-max",
+  "modelo_respondido": "qwen/qwen3.8-max-0902",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T21:37:51+00:00",
+  "fuentes_md5": {
+    "consignas": "5e4ec921"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 8669,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 5825,
+    "parsea": true,
+    "elementos": 104,
+    "textos": [],
+    "colores": 29,
+    "etiquetas": {
+      "title": 1,
+      "defs": 1,
+      "linearGradient": 2,
+      "stop": 8,
+      "radialGradient": 1,
+      "rect": 2,
+      "circle": 45,
+      "g": 12,
+      "path": 24,
+      "ellipse": 8
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "qwen/qwen3.8-max-0902",
+    "motivo_fin": "stop",
+    "tokens_salida": 754
+  }
+}

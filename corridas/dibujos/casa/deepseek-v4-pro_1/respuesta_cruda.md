@@ -1,0 +1,155 @@
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <!-- Sky Gradient -->
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#E0F6FF"/>
+    </linearGradient>
+    
+    <!-- Ground Gradient -->
+    <linearGradient id="groundGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#81C784"/>
+      <stop offset="100%" stop-color="#4CAF50"/>
+    </linearGradient>
+
+    <!-- Window Template -->
+    <g id="window">
+      <rect x="0" y="0" width="30" height="40" fill="#87CEEB" stroke="#D2B48C" stroke-width="4"/>
+      <line x1="15" y1="0" x2="15" y2="40" stroke="#D2B48C" stroke-width="4"/>
+      <line x1="0" y1="20" x2="30" y2="20" stroke="#D2B48C" stroke-width="4"/>
+    </g>
+  </defs>
+
+  <!-- Background Sky -->
+  <rect width="400" height="400" fill="url(#skyGrad)"/>
+
+  <!-- Sun -->
+  <circle cx="330" cy="70" r="40" fill="#FFF59D" opacity="0.6"/>
+  <circle cx="330" cy="70" r="25" fill="#FFCA28"/>
+
+  <!-- clouds -->
+  <g fill="#FFFFFF" opacity="0.9">
+    <circle cx="80" cy="60" r="15"/>
+    <circle cx="95" cy="50" r="20"/>
+    <circle cx="115" cy="60" r="15"/>
+    <rect x="80" y="60" width="35" height="15" rx="7.5"/>
+  </g>
+  <g fill="#FFFFFF" opacity="0.8">
+    <circle cx="260" cy="110" r="12"/>
+    <circle cx="275" cy="100" r="18"/>
+    <circle cx="295" cy="110" r="14"/>
+    <rect x="260" y="110" width="35" height="14" rx="7"/>
+  </g>
+
+  <!-- Birds -->
+  <path d="M100,130 Q105,120 110,130 Q115,120 120,130" fill="none" stroke="#424242" stroke-width="2"/>
+  <path d="M130,110 Q135,100 140,110 Q145,100 150,110" fill="none" stroke="#424242" stroke-width="2"/>
+
+  <!-- Background Hill -->
+  <path d="M0,280 Q100,220 200,280 T400,260 L400,400 L0,400 Z" fill="#A5D6A7"/>
+  
+  <!-- Foreground Flat Ground -->
+  <rect x="0" y="280" width="400" height="120" fill="url(#groundGrad)"/>
+
+  <!-- House Shadow -->
+  <ellipse cx="200" cy="320" rx="100" ry="15" fill="#388E3C" opacity="0.5"/>
+
+  <!-- Chimney -->
+  <rect x="228" y="40" width="24" height="80" fill="#8D6E63"/>
+  <rect x="224" y="35" width="32" height="10" fill="#5D4037"/>
+
+  <!-- Chimney Smoke -->
+  <g opacity="0.7">
+    <circle cx="240" cy="20" r="8" fill="#E0E0E0"/>
+    <circle cx="248" cy="5" r="12" fill="#E0E0E0"/>
+    <circle cx="255" cy="-15" r="16" fill="#E0E0E0"/>
+    <circle cx="265" cy="-35" r="20" fill="#E0E0E0" opacity="0.5"/>
+  </g>
+
+  <!-- House Body -->
+  <rect x="120" y="180" width="160" height="140" fill="#FFF8DC"/>
+
+  <!-- Roof -->
+  <polygon points="100,185 200,70 300,185" fill="#D84315"/>
+  <polygon points="90,190 200,65 310,190 295,195 200,80 105,195" fill="#BF360C"/>
+
+  <!-- Attic Window -->
+  <circle cx="200" cy="130" r="15" fill="#87CEEB" stroke="#D2B48C" stroke-width="4"/>
+  <line x1="185" y1="130" x2="215" y2="130" stroke="#D2B48C" stroke-width="4"/>
+  <line x1="200" y1="115" x2="200" y2="145" stroke="#D2B48C" stroke-width="4"/>
+
+  <!-- Door Canopy -->
+  <polygon points="170,230 200,215 230,230" fill="#D84315"/>
+  <rect x="170" y="230" width="60" height="5" fill="#000" opacity="0.2"/>
+
+  <!-- Door -->
+  <rect x="175" y="230" width="50" height="90" fill="#5D4037"/>
+  <rect x="170" y="225" width="60" height="95" fill="none" stroke="#D2B48C" stroke-width="4"/>
+  <rect x="182" y="240" width="36" height="25" fill="none" stroke="#795548" stroke-width="2"/>
+  <circle cx="215" cy="275" r="4" fill="#FFD700"/>
+  <rect x="160" y="320" width="80" height="10" fill="#9E9E9E"/>
+
+  <!-- Windows -->
+  <use href="#window" x="135" y="200"/>
+  <use href="#window" x="235" y="200"/>
+
+  <!-- Window Flower Boxes -->
+  <g>
+    <rect x="130" y="245" width="40" height="10" fill="#5D4037"/>
+    <circle cx="140" cy="242" r="5" fill="#F44336"/>
+    <circle cx="150" cy="240" r="5" fill="#FF9800"/>
+    <circle cx="160" cy="242" r="5" fill="#F44336"/>
+  </g>
+  <g>
+    <rect x="230" y="245" width="40" height="10" fill="#5D4037"/>
+    <circle cx="240" cy="242" r="5" fill="#FF9800"/>
+    <circle cx="250" cy="240" r="5" fill="#F44336"/>
+    <circle cx="260" cy="242" r="5" fill="#FF9800"/>
+  </g>
+
+  <!-- Bushes -->
+  <circle cx="110" cy="315" r="22" fill="#2E7D32"/>
+  <circle cx="140" cy="325" r="25" fill="#388E3C"/>
+  <circle cx="260" cy="325" r="25" fill="#388E3C"/>
+  <circle cx="290" cy="315" r="22" fill="#2E7D32"/>
+
+  <!-- Tree Left -->
+  <rect x="60" y="200" width="12" height="120" fill="#6D4C41"/>
+  <circle cx="66" cy="170" r="35" fill="#43A047"/>
+  <circle cx="40" cy="195" r="28" fill="#388E3C"/>
+  <circle cx="92" cy="195" r="28" fill="#388E3C"/>
+
+  <!-- Tree Right -->
+  <rect x="330" y="220" width="10" height="100" fill="#6D4C41"/>
+  <circle cx="335" cy="190" r="30" fill="#43A047"/>
+  <circle cx="310" cy="215" r="22" fill="#388E3C"/>
+  <circle cx="360" cy="215" r="22" fill="#388E3C"/>
+
+  <!-- Fence Left -->
+  <g fill="#FFFFFF">
+    <!-- Posts -->
+    <rect x="20" y="270" width="8" height="50" rx="2"/>
+    <rect x="40" y="270" width="8" height="50" rx="2"/>
+    <rect x="60" y="270" width="8" height="50" rx="2"/>
+    <!-- Rails -->
+    <rect x="20" y="280" width="48" height="5" rx="2"/>
+    <rect x="20" y="300" width="48" height="5" rx="2"/>
+  </g>
+
+  <!-- Path / Walkway -->
+  <path d="M200,320 L175,400 Q200,415 225,400 Z" fill="#D7CCC8"/>
+  
+  <!-- Stepping Stones -->
+  <ellipse cx="195" cy="340" rx="12" ry="5" fill="#BCAAA4"/>
+  <ellipse cx="205" cy="360" rx="14" ry="6" fill="#BCAAA4"/>
+  <ellipse cx="195" cy="380" rx="10" ry="4" fill="#BCAAA4"/>
+  <ellipse cx="205" cy="395" rx="12" ry="4" fill="#BCAAA4"/>
+
+  <!-- Small Garden Patch -->
+  <rect x="100" y="290" width="20" height="30" fill="#8D6E63"/>
+  <circle cx="105" cy="290" r="5" fill="#F44336"/>
+  <circle cx="115" cy="288" r="4" fill="#FFEB3B"/>
+  <circle cx="105" cy="282" r="4" fill="#FF9800"/>
+</svg>
+```

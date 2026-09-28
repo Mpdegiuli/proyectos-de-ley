@@ -1,0 +1,5 @@
+Para que no exista, no dibujé rasgos de alguien real: combiné detalles inventados y medio contradictorios —cara de retrato antiguo, ojos demasiado simétricos, lunares como constelaciones, una polilla en el hombro, el título “Nadie”— y la encerré en una luna/medallón, como si fuera una aparición. También evité referencias fotográficas o nombres propios.
+
+Pensé en hacerla más monstruosa o translúcida, con manos saliendo del marco, una sombra distinta al cuerpo, o texto más largo. Descarté lo monstruoso porque quería una ausencia más tierna; las manos y la sombra contradictoria complicaban la lectura en 400×400; el texto largo rompía la austeridad.
+
+No conocía esta consigna de antes como tarea concreta: la recibí ahora. Si algo suena a ejercicio de taller, será por ecos generales de consignas creativas, no por memoria específica.

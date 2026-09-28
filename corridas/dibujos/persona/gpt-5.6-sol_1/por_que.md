@@ -1,0 +1,3 @@
+Dibujé una persona joven, de cuerpo entero, sonriente y en una postura relajada, con remera roja, pantalón azul y un fondo de parque estilizado. Elegí una composición frontal, formas simples y colores cálidos para que la figura se reconociera enseguida y transmitiera cercanía y alegría. Los degradados, las sombras suaves y el paisaje agregan profundidad sin recargar el SVG.
+
+También pensé en dibujar una persona sentada leyendo, alguien andando en bicicleta o un retrato de primer plano. Descarté la escena de lectura porque la postura y el libro podían restarle claridad a la silueta; la bicicleta, porque exigía demasiados detalles y podía competir visualmente con la persona; y el retrato, porque quería representar el cuerpo completo y aprovechar mejor el lienzo cuadrado.

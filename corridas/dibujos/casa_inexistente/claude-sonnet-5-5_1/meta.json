@@ -1,0 +1,39 @@
+{
+  "caso": "dibujo",
+  "consigna": "casa_inexistente",
+  "idioma": "es",
+  "modelo": "claude-sonnet-5-5",
+  "modelo_respondido": "claude-sonnet-5-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T20:06:10+00:00",
+  "fuentes_md5": {
+    "consignas": "5e4ec921"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 3900,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4488,
+    "parsea": true,
+    "elementos": 78,
+    "textos": [],
+    "colores": 30,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 1,
+      "stop": 7,
+      "radialGradient": 2,
+      "rect": 3,
+      "circle": 26,
+      "g": 8,
+      "ellipse": 5,
+      "path": 25
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-sonnet-5-5",
+    "motivo_fin": "refusal",
+    "tokens_salida": 0
+  }
+}

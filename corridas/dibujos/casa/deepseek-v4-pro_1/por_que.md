@@ -1,0 +1,3 @@
+Dibujé una casa de campo en un paisaje diurno: cielo con degradado, sol, nubes, pájaros, colinas, árboles, arbustos, cerca, sendero y cantero. La casa tiene techo inclinado, chimenea con humo, ventanas con macetas, puerta y ventana circular. Elegí una escena cálida y equilibrada porque permitía mostrar profundidad con capas y detalles sin sobrecargar el SVG.
+
+Pensé en hacer una casa nevada de noche, con luna y estrellas, o una casa más estilizada con personajes y mascotas. También consideré mostrar un interior visible o agregar animaciones. Las descarté porque requerían más elementos o complejidad, y preferí mantener una composición clara, reconocible y dentro del límite de caracteres.

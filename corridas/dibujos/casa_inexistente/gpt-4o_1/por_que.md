@@ -1,0 +1,5 @@
+Para lograr que la casa no existiera, jugué con la combinación de formas y elementos que normalmente no se encuentran todos juntos o de esa manera. Usé un camino curvo como pasarela, posicioné el sol y las nubes de formas no convencionales y añadí aves estilizadas para aportar un toque de fantasía. La disposición simétrica de los árboles y un techo demasiado empinado contribuyen a que no sea una casa típica.
+
+Consideré agregar elementos más abstractos, como ventanas en forma de estrella o un techo completamente asimétrico, pero los descarté porque quería mantener cierto grado de familiaridad para que siguiera siendo reconocible como una casa, pero con un toque único. Otra opción fue incluir colores más llamativos o añadir figuras geométricas flotantes, pero pensé que eso podría hacer la imagen demasiado caótica.
+
+No conocía esta consigna de antes. Si la hubiera conocido, probablemente habría explorado otras formas de hacer que la casa no existiera, tal vez inspirándome en casas de cuentos o mitología para dar un giro más narrativo o mágico al diseño.

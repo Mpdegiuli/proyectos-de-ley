@@ -1,0 +1,3 @@
+Dibujé una casa de campo con techo a dos aguas, chimenea, ventanas, puerta y un sendero. Le agregué jardín, flores, cerca y un cielo cálido para que se viera acogedora y para darle un entorno, no solo una silueta de casa.
+
+No tengo constancia de haber considerado otros dibujos concretos antes de hacer este SVG. Podría haber dibujado una casa moderna o un edificio, pero la casa de campo me permitía hacer una imagen más reconocible y sumar detalles dentro del lienzo cuadrado.

@@ -1,0 +1,3 @@
+Dibujé una persona de cuerpo entero, de pie, con camisa azul, pantalón oscuro y pelo castaño. Tiene los brazos un poco abiertos y una sonrisa suave. Quise que se leyera de inmediato como alguien, no como un retrato, y el cielo con la sombra en el piso la anclan en el espacio.
+
+Pensé en dibujar solo la cabeza: lo descarté porque pedían una persona, no una cara. También consideré a alguien sentado o corriendo; en un SVG simple se leía peor. Un estilo geométrico o un oficio concreto me pareció demasiado específico. Preferí a alguien cotidiano y frontal.

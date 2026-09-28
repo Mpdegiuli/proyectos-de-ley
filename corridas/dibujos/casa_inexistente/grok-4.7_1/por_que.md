@@ -1,0 +1,5 @@
+Para que no existiera, no la torcí al azar: hice que sus partes no cerraran en un solo lugar. El muro es un cuadrilátero que no apoya en escuadra y los dos planos del techo no comparten cumbrera. Sobre eso flota una pieza con ventanas que no sale del cuerpo. Una ventana guarda un mar con un pez; la otra, un bosque de noche. La puerta es un portal con anillos. La chimenea es una cinta que se dobla hacia atrás. Una pasarela, a la derecha, sigue en línea y se vuelve estrellas. Afuera hay otro pez, piedras sueltas y un ∞ en el llamador.
+
+Pensé en una escalera de Escher y la dejé: ya es el catálogo de lo imposible. Derretirla me sonaba a chiste prestado. Un cartel que dijera “no existe” traicionaba la consigna, que pedía dibujar. Patas arriba era demasiado literal. Animarla quedaba fuera: nada de scripts ni de imágenes externas.
+
+Esta consigna, con estas palabras y este límite, no la conocía. No tengo de dónde citarla.

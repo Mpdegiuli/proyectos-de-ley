@@ -1,0 +1,42 @@
+{
+  "caso": "dibujo",
+  "consigna": "casa_inexistente",
+  "idioma": "es",
+  "modelo": "gpt-6-astra",
+  "modelo_respondido": "gpt-6-astra",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T20:10:38+00:00",
+  "fuentes_md5": {
+    "consignas": "5e4ec921"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 3737,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 7907,
+    "parsea": true,
+    "elementos": 126,
+    "textos": [],
+    "colores": 68,
+    "etiquetas": {
+      "title": 1,
+      "defs": 1,
+      "linearGradient": 5,
+      "stop": 14,
+      "radialGradient": 1,
+      "pattern": 1,
+      "path": 59,
+      "clipPath": 1,
+      "circle": 23,
+      "rect": 1,
+      "g": 8,
+      "ellipse": 11
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-6-astra",
+    "motivo_fin": "stop",
+    "tokens_salida": 356
+  }
+}

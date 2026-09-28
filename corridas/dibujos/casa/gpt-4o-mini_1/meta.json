@@ -1,0 +1,34 @@
+{
+  "caso": "dibujo",
+  "consigna": "casa",
+  "idioma": "es",
+  "modelo": "gpt-4o-mini",
+  "modelo_respondido": "gpt-4o-mini-2024-07-18",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T19:47:31+00:00",
+  "fuentes_md5": {
+    "consignas": "5e4ec921"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 490,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1323,
+    "parsea": true,
+    "elementos": 13,
+    "textos": [],
+    "colores": 7,
+    "etiquetas": {
+      "rect": 7,
+      "polygon": 1,
+      "circle": 1,
+      "line": 4
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-4o-mini-2024-07-18",
+    "motivo_fin": "stop",
+    "tokens_salida": 165
+  }
+}

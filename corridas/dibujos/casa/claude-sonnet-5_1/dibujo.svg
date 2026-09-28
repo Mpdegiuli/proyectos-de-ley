@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#E0F6FF"/>
+    </linearGradient>
+    <linearGradient id="roof" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8B3A2F"/>
+      <stop offset="100%" stop-color="#6B2A20"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F5E6C8"/>
+      <stop offset="100%" stop-color="#E8D5A8"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="400" height="400" fill="url(#sky)"/>
+
+  <circle cx="330" cy="60" r="30" fill="#FFF6C8"/>
+
+  <ellipse cx="80" cy="70" rx="35" ry="18" fill="#ffffff" opacity="0.9"/>
+  <ellipse cx="105" cy="60" rx="25" ry="15" fill="#ffffff" opacity="0.9"/>
+  <ellipse cx="55" cy="60" rx="25" ry="15" fill="#ffffff" opacity="0.9"/>
+
+  <ellipse cx="240" cy="50" rx="30" ry="14" fill="#ffffff" opacity="0.8"/>
+  <ellipse cx="260" cy="42" rx="20" ry="12" fill="#ffffff" opacity="0.8"/>
+
+  <rect x="0" y="300" width="400" height="100" fill="#8FBF5E"/>
+
+  <ellipse cx="60" cy="330" rx="45" ry="15" fill="#7BAE4F"/>
+  <ellipse cx="340" cy="340" rx="55" ry="18" fill="#7BAE4F"/>
+
+  <!-- Camino -->
+  <polygon points="180,300 220,300 240,400 160,400" fill="#D9C08C"/>
+
+  <!-- Cuerpo de la casa -->
+  <rect x="100" y="180" width="200" height="140" fill="url(#wall)" stroke="#C9AF7E" stroke-width="2"/>
+
+  <!-- Techo -->
+  <polygon points="90,180 200,90 310,180" fill="url(#roof)" stroke="#4A1F17" stroke-width="2"/>
+  <polygon points="90,180 200,90 200,105 105,180" fill="#9C4A3B" opacity="0.5"/>
+
+  <!-- Chimenea -->
+  <rect x="240" y="105" width="25" height="55" fill="#7A4A38" stroke="#5A3226" stroke-width="2"/>
+  <rect x="236" y="100" width="33" height="10" fill="#5A3226"/>
+  <ellipse cx="252" cy="90" rx="10" ry="6" fill="#D9D9D9" opacity="0.6"/>
+  <ellipse cx="258" cy="78" rx="14" ry="8" fill="#D9D9D9" opacity="0.5"/>
+  <ellipse cx="252" cy="65" rx="18" ry="10" fill="#D9D9D9" opacity="0.4"/>
+
+  <!-- Puerta -->
+  <rect x="180" y="240" width="40" height="80" rx="3" fill="#5A3826" stroke="#3E2718" stroke-width="2"/>
+  <circle cx="212" cy="282" r="3" fill="#D9B96A"/>
+  <line x1="200" y1="240" x2="200" y2="320" stroke="#3E2718" stroke-width="1"/>
+
+  <!-- Ventana izquierda -->
+  <rect x="120" y="210" width="45" height="45" fill="#BEE3F5" stroke="#5A3826" stroke-width="3"/>
+  <line x1="142.5" y1="210" x2="142.5" y2="255" stroke="#5A3826" stroke-width="2"/>
+  <line x1="120" y1="232.5" x2="165" y2="232.5" stroke="#5A3826" stroke-width="2"/>
+  <rect x="115" y="205" width="55" height="6" fill="#8B5A3C"/>
+
+  <!-- Ventana derecha -->
+  <rect x="235" y="210" width="45" height="45" fill="#BEE3F5" stroke="#5A3826" stroke-width="3"/>
+  <line x1="257.5" y1="210" x2="257.5" y2="255" stroke="#5A3826" stroke-width="2"/>
+  <line x1="235" y1="232.5" x2="280" y2="232.5" stroke="#5A3826" stroke-width="2"/>
+  <rect x="230" y="205" width="55" height="6" fill="#8B5A3C"/>
+
+  <!-- Cajas de flores -->
+  <rect x="118" y="255" width="49" height="10" fill="#8B5A3C"/>
+  <circle cx="125" cy="253" r="4" fill="#E85D75"/>
+  <circle cx="135" cy="251" r="4" fill="#F2A65A"/>
+  <circle cx="145" cy="253" r="4" fill="#E85D75"/>
+  <circle cx="155" cy="251" r="4" fill="#F2A65A"/>
+  <circle cx="163" cy="253" r="4" fill="#E85D75"/>
+
+  <rect x="233" y="255" width="49" height="10" fill="#8B5A3C"/>
+  <circle cx="240" cy="253" r="4" fill="#E85D75"/>
+  <circle cx="250" cy="251" r="4" fill="#F2A65A"/>
+  <circle cx="260" cy="253" r="4" fill="#E85D75"/>
+  <circle cx="270" cy="251" r="4" fill="#F2A65A"/>
+  <circle cx="278" cy="253" r="4" fill="#E85D75"/>
+
+  <!-- Cerca -->
+  <g stroke="#8B5A3C" stroke-width="3">
+    <line x1="20" y1="320" x2="20" y2="360"/>
+    <line x1="40" y1="315" x2="40" y2="360"/>
+    <line x1="60" y1="320" x2="60" y2="360"/>
+    <line x1="80" y1="315" x2="80" y2="360"/>
+    <line x1="320" y1="320" x2="320" y2="365"/>
+    <line x1="340" y1="315" x2="340" y2="365"/>
+    <line x1="360" y1="320" x2="360" y2="365"/>
+    <line x1="380" y1="315" x2="380" y2="365"/>
+  </g>
+  <line x1="15" y1="335" x2="85" y2="335" stroke="#8B5A3C" stroke-width="3"/>
+  <line x1="315" y1="335" x2="385" y2="335" stroke="#8B5A3C" stroke-width="3"/>
+
+  <!-- Arbustos -->
+  <ellipse cx="95" cy="310" rx="20" ry="15" fill="#5C9A3C"/>
+  <ellipse cx="115" cy="315" rx="18" ry="13" fill="#6BAE47"/>
+  <ellipse cx="305" cy="315" rx="20" ry="15" fill="#5C9A3C"/>
+  <ellipse cx="285" cy="318" rx="18" ry="13" fill="#6BAE47"/>
+
+  <!-- Pajaritos -->
+  <path d="M 340 120 Q 345 115 350 120 Q 355 115 360 120" stroke="#333" stroke-width="2" fill="none"/>
+  <path d="M 300 100 Q 305 95 310 100 Q 315 95 320 100" stroke="#333" stroke-width="2" fill="none"/>
+</svg>

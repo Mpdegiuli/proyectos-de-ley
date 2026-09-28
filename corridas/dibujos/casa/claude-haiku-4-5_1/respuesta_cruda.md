@@ -1,0 +1,52 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cielo -->
+  <rect width="400" height="400" fill="#87CEEB"/>
+  
+  <!-- Pasto -->
+  <rect y="280" width="400" height="120" fill="#2D5016"/>
+  
+  <!-- Casa - Paredes -->
+  <rect x="100" y="150" width="200" height="150" fill="#D2691E"/>
+  
+  <!-- Techo -->
+  <polygon points="100,150 200,80 300,150" fill="#8B4513"/>
+  
+  <!-- Puerta -->
+  <rect x="175" y="230" width="50" height="70" fill="#654321"/>
+  <circle cx="220" cy="265" r="3" fill="#FFD700"/>
+  
+  <!-- Ventana izquierda -->
+  <rect x="125" y="175" width="40" height="40" fill="#87CEEB"/>
+  <line x1="145" y1="175" x2="145" y2="215" stroke="#333" stroke-width="2"/>
+  <line x1="125" y1="195" x2="165" y2="195" stroke="#333" stroke-width="2"/>
+  
+  <!-- Ventana derecha -->
+  <rect x="235" y="175" width="40" height="40" fill="#87CEEB"/>
+  <line x1="255" y1="175" x2="255" y2="215" stroke="#333" stroke-width="2"/>
+  <line x1="235" y1="195" x2="275" y2="195" stroke="#333" stroke-width="2"/>
+  
+  <!-- Chimenea -->
+  <rect x="270" y="100" width="20" height="60" fill="#8B4513"/>
+  <rect x="268" y="95" width="24" height="8" fill="#696969"/>
+  
+  <!-- Sombra del techo -->
+  <polygon points="100,150 200,80 300,150" fill="#000000" opacity="0.1"/>
+  
+  <!-- Sol -->
+  <circle cx="350" cy="50" r="25" fill="#FFD700"/>
+  <line x1="350" y1="10" x2="350" y2="0" stroke="#FFD700" stroke-width="3"/>
+  <line x1="350" y1="90" x2="350" y2="100" stroke="#FFD700" stroke-width="3"/>
+  <line x1="390" y1="50" x2="400" y2="50" stroke="#FFD700" stroke-width="3"/>
+  <line x1="310" y1="50" x2="300" y2="50" stroke="#FFD700" stroke-width="3"/>
+  <line x1="378" y1="22" x2="386" y2="14" stroke="#FFD700" stroke-width="3"/>
+  <line x1="314" y1="86" x2="322" y2="94" stroke="#FFD700" stroke-width="3"/>
+  <line x1="378" y1="78" x2="386" y2="86" stroke="#FFD700" stroke-width="3"/>
+  <line x1="314" y1="14" x2="322" y2="22" stroke="#FFD700" stroke-width="3"/>
+  
+  <!-- Nubes -->
+  <ellipse cx="60" cy="60" rx="30" ry="20" fill="#FFFFFF" opacity="0.8"/>
+  <ellipse cx="85" cy="65" rx="25" ry="18" fill="#FFFFFF" opacity="0.8"/>
+  <ellipse cx="35" cy="70" rx="20" ry="15" fill="#FFFFFF" opacity="0.8"/>
+</svg>
+```

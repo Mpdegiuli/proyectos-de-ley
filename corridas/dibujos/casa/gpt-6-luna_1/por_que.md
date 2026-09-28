@@ -1,0 +1,3 @@
+Dibujé una casa de campo en un paisaje soleado: le puse techo rojizo, ventanas con postigos, una puerta central, chimenea y un caminito que conduce hasta ella. Elegí colores cálidos y formas simples para que se sintiera acogedora; sumé árboles, pasto, flores, nubes y sol para situarla en un entorno tranquilo y completar la escena.
+
+Podría haber dibujado una casa moderna, un castillo o una cabaña junto al mar. Los descarté porque quería que la imagen se reconociera enseguida como una casa familiar y pudiera contar una pequeña escena alrededor de ella, sin recargarla con demasiados elementos.

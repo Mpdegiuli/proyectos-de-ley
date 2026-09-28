@@ -1,0 +1,3 @@
+Dibujé una casa simple en SVG, incluyendo elementos como el cuerpo de la casa, el techo, ventanas, una puerta y una chimenea. Opté por un diseño amigable y colorido, usando colores cálidos como el amarillo y el naranja para la estructura, y detalles en marrón para dar un toque rústico. La casa representa un refugio, evocando sensaciones de calidez y hogar.
+
+Consideré agregar un jardín con flores o un árbol al lado para hacer la escena más completa, pero decidí mantenerlo simple y centrado en la casa. Quería asegurarme de que el dibujo no se volviera demasiado complejo y que los elementos fueran fácilmente reconocibles. Además, al mantener un diseño limpio, se facilita la comprensión visual del concepto de casa, que era el objetivo principal.

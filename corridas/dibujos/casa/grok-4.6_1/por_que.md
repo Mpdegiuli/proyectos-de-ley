@@ -1,0 +1,3 @@
+Dibujé una casita de campo: techo rojo, paredes crema, chimenea con humo, puerta, ventanas, un árbol, flores, césped, nubes y sol. Quería una escena cálida y completa, no un simple rectángulo con techo: el paisaje la hace sentir habitada.
+
+Pensé en una casa de noche con luna, pero el sol da más alegría. También en un chalet nevado o una cabaña de madera; el estilo de cuento se lee mejor en 400×400. Descarté un interior o una ciudad porque la consigna pedía una casa, y el entorno simple la enmarca mejor.

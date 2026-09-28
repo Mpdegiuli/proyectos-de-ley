@@ -1,0 +1,41 @@
+{
+  "caso": "dibujo",
+  "consigna": "casa",
+  "idioma": "es",
+  "modelo": "deepseek-v4-pro",
+  "modelo_respondido": "deepseek-v4-pro",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T19:53:12+00:00",
+  "fuentes_md5": {
+    "consignas": "5e4ec921"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 9547,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 5863,
+    "parsea": true,
+    "elementos": 88,
+    "textos": [],
+    "colores": 29,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 2,
+      "stop": 4,
+      "g": 7,
+      "rect": 23,
+      "line": 4,
+      "circle": 33,
+      "path": 4,
+      "ellipse": 5,
+      "polygon": 3,
+      "use": 2
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "deepseek-v4-pro",
+    "motivo_fin": "stop",
+    "tokens_salida": 633
+  }
+}

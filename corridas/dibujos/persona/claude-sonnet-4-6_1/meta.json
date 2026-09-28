@@ -1,0 +1,35 @@
+{
+  "caso": "dibujo",
+  "consigna": "persona",
+  "idioma": "es",
+  "modelo": "claude-sonnet-4-6",
+  "modelo_respondido": "claude-sonnet-4-6",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T21:13:26+00:00",
+  "fuentes_md5": {
+    "consignas": "5e4ec921"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2142,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4801,
+    "parsea": true,
+    "elementos": 58,
+    "textos": [],
+    "colores": 18,
+    "etiquetas": {
+      "rect": 14,
+      "ellipse": 27,
+      "polygon": 1,
+      "path": 14,
+      "circle": 2
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-sonnet-4-6",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 246
+  }
+}

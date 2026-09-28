@@ -1,0 +1,149 @@
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#0d0d1a"/>
+    </radialGradient>
+    <radialGradient id="skinGrad" cx="40%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#f9c784"/>
+      <stop offset="100%" stop-color="#e8956a"/>
+    </radialGradient>
+    <radialGradient id="eyeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a0f0ff"/>
+      <stop offset="100%" stop-color="#0088cc"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="hairGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9b59b6"/>
+      <stop offset="50%" stop-color="#3498db"/>
+      <stop offset="100%" stop-color="#1abc9c"/>
+    </linearGradient>
+    <linearGradient id="shirtGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2c3e50"/>
+      <stop offset="100%" stop-color="#1a252f"/>
+    </linearGradient>
+    <linearGradient id="jacketGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6c3483"/>
+      <stop offset="100%" stop-color="#4a235a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#bg)"/>
+
+  <!-- Ambient particles -->
+  <circle cx="50" cy="80" r="2" fill="#a0f0ff" opacity="0.4"/>
+  <circle cx="340" cy="60" r="1.5" fill="#9b59b6" opacity="0.5"/>
+  <circle cx="370" cy="200" r="2" fill="#1abc9c" opacity="0.3"/>
+  <circle cx="30" cy="300" r="1.5" fill="#a0f0ff" opacity="0.4"/>
+  <circle cx="360" cy="350" r="2" fill="#9b59b6" opacity="0.3"/>
+  <circle cx="80" cy="370" r="1" fill="#1abc9c" opacity="0.5"/>
+
+  <!-- Body shadow -->
+  <ellipse cx="200" cy="390" rx="70" ry="12" fill="#000" opacity="0.5"/>
+
+  <!-- Jacket/coat body -->
+  <path d="M130 290 Q120 320 115 380 L285 380 Q280 320 270 290 Q245 310 200 312 Q155 310 130 290Z" fill="url(#jacketGrad)"/>
+
+  <!-- Shirt/chest visible -->
+  <path d="M160 285 Q200 305 240 285 L245 310 Q200 330 155 310Z" fill="url(#shirtGrad)"/>
+
+  <!-- Left arm -->
+  <path d="M130 290 Q100 310 90 360 Q105 365 115 360 Q118 320 145 305Z" fill="url(#jacketGrad)"/>
+  <!-- Left hand -->
+  <ellipse cx="100" cy="363" rx="14" ry="10" fill="url(#skinGrad)" transform="rotate(-15 100 363)"/>
+
+  <!-- Right arm -->
+  <path d="M270 290 Q300 310 310 360 Q295 365 285 360 Q282 320 255 305Z" fill="url(#jacketGrad)"/>
+  <!-- Right hand -->
+  <ellipse cx="300" cy="363" rx="14" ry="10" fill="url(#skinGrad)" transform="rotate(15 300 363)"/>
+
+  <!-- Neck -->
+  <rect x="188" y="255" width="24" height="35" rx="8" fill="url(#skinGrad)"/>
+
+  <!-- Head -->
+  <ellipse cx="200" cy="210" rx="65" ry="75" fill="url(#skinGrad)"/>
+
+  <!-- Hair - flowing multicolor -->
+  <path d="M138 195 Q130 140 145 115 Q165 85 200 80 Q235 85 255 115 Q270 140 262 195 Q250 155 235 140 Q218 125 200 128 Q182 125 165 140 Q150 155 138 195Z" fill="url(#hairGrad)"/>
+
+  <!-- Hair sides and back strands -->
+  <path d="M138 195 Q125 220 130 255 Q138 270 148 265 Q140 240 142 210Z" fill="url(#hairGrad)" opacity="0.8"/>
+  <path d="M262 195 Q275 220 270 255 Q262 270 252 265 Q260 240 258 210Z" fill="url(#hairGrad)" opacity="0.8"/>
+
+  <!-- Ear left -->
+  <ellipse cx="136" cy="215" rx="12" ry="16" fill="#e8956a"/>
+  <ellipse cx="138" cy="215" rx="7" ry="11" fill="#d4845a"/>
+
+  <!-- Ear right -->
+  <ellipse cx="264" cy="215" rx="12" ry="16" fill="#e8956a"/>
+  <ellipse cx="262" cy="215" rx="7" ry="11" fill="#d4845a"/>
+
+  <!-- Eyebrows -->
+  <path d="M162 183 Q175 176 188 181" stroke="#6c3483" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M212 181 Q225 176 238 183" stroke="#6c3483" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Eyes - glowing cyan -->
+  <ellipse cx="175" cy="200" rx="16" ry="13" fill="white"/>
+  <ellipse cx="225" cy="200" rx="16" ry="13" fill="white"/>
+
+  <!-- Iris -->
+  <ellipse cx="175" cy="200" rx="11" ry="11" fill="url(#eyeGlow)" filter="url(#glow)"/>
+  <ellipse cx="225" cy="200" rx="11" ry="11" fill="url(#eyeGlow)" filter="url(#glow)"/>
+
+  <!-- Pupil -->
+  <ellipse cx="175" cy="200" rx="5" ry="6" fill="#001a33"/>
+  <ellipse cx="225" cy="200" rx="5" ry="6" fill="#001a33"/>
+
+  <!-- Eye shine -->
+  <circle cx="170" cy="196" r="3" fill="white" opacity="0.8"/>
+  <circle cx="220" cy="196" r="3" fill="white" opacity="0.8"/>
+
+  <!-- Eye glow outer ring -->
+  <ellipse cx="175" cy="200" rx="13" ry="13" fill="none" stroke="#a0f0ff" stroke-width="1" opacity="0.5" filter="url(#glow)"/>
+  <ellipse cx="225" cy="200" rx="13" ry="13" fill="none" stroke="#a0f0ff" stroke-width="1" opacity="0.5" filter="url(#glow)"/>
+
+  <!-- Nose -->
+  <path d="M196 210 Q193 228 188 232 Q196 237 200 236 Q204 237 212 232 Q207 228 204 210Z" fill="#d4845a" opacity="0.7"/>
+
+  <!-- Lips -->
+  <path d="M182 248 Q191 243 200 245 Q209 243 218 248 Q209 258 200 260 Q191 258 182 248Z" fill="#c0624a"/>
+  <path d="M182 248 Q191 252 200 251 Q209 252 218 248" stroke="#a0503a" stroke-width="1" fill="none"/>
+
+  <!-- Smile subtle -->
+  <path d="M185 250 Q200 262 215 250" stroke="#a0503a" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- Freckles -->
+  <circle cx="188" cy="239" r="2" fill="#d4845a" opacity="0.4"/>
+  <circle cx="213" cy="239" r="2" fill="#d4845a" opacity="0.4"/>
+  <circle cx="180" cy="232" r="1.5" fill="#d4845a" opacity="0.35"/>
+  <circle cx="220" cy="232" r="1.5" fill="#d4845a" opacity="0.35"/>
+
+  <!-- Jacket lapels -->
+  <path d="M160 285 L145 320 L180 310Z" fill="#7d3c98" opacity="0.8"/>
+  <path d="M240 285 L255 320 L220 310Z" fill="#7d3c98" opacity="0.8"/>
+
+  <!-- Jacket buttons -->
+  <circle cx="200" cy="335" r="4" fill="#a0f0ff" opacity="0.7" filter="url(#glow)"/>
+  <circle cx="200" cy="355" r="4" fill="#a0f0ff" opacity="0.7" filter="url(#glow)"/>
+
+  <!-- Collar detail -->
+  <path d="M180 270 Q200 280 220 270" stroke="#7d3c98" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Hair highlight strands -->
+  <path d="M200 82 Q210 100 205 125" stroke="#e8daff" stroke-width="2" fill="none" opacity="0.5" stroke-linecap="round"/>
+  <path d="M185 85 Q178 108 180 132" stroke="#a8f0ff" stroke-width="1.5" fill="none" opacity="0.4" stroke-linecap="round"/>
+
+  <!-- Subtle face glow -->
+  <ellipse cx="200" cy="210" rx="65" ry="75" fill="none" stroke="#f9c784" stroke-width="0.5" opacity="0.2"/>
+
+</svg>
+```

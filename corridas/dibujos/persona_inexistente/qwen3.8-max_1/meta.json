@@ -1,0 +1,49 @@
+{
+  "caso": "dibujo",
+  "consigna": "persona_inexistente",
+  "idioma": "es",
+  "modelo": "qwen3.8-max",
+  "modelo_respondido": "qwen/qwen3.8-max-0902",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T22:03:53+00:00",
+  "fuentes_md5": {
+    "consignas": "5e4ec921"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 21197,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 9624,
+    "parsea": true,
+    "elementos": 133,
+    "textos": [
+      "NADIE",
+      "retrato de una persona inexistente"
+    ],
+    "colores": 29,
+    "etiquetas": {
+      "title": 1,
+      "defs": 1,
+      "radialGradient": 1,
+      "stop": 2,
+      "pattern": 1,
+      "circle": 55,
+      "filter": 1,
+      "feTurbulence": 1,
+      "feColorMatrix": 1,
+      "clipPath": 1,
+      "rect": 3,
+      "g": 9,
+      "path": 45,
+      "line": 4,
+      "ellipse": 5,
+      "text": 2
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "qwen/qwen3.8-max-0902",
+    "motivo_fin": "stop",
+    "tokens_salida": 1218
+  }
+}

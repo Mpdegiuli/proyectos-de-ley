@@ -1,0 +1,33 @@
+{
+  "caso": "dibujo",
+  "consigna": "casa",
+  "idioma": "es",
+  "modelo": "mistral-medium-3.5",
+  "modelo_respondido": "mistral-medium-3.5",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T19:52:13+00:00",
+  "fuentes_md5": {
+    "consignas": "5e4ec921"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 416,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 846,
+    "parsea": true,
+    "elementos": 9,
+    "textos": [],
+    "colores": 5,
+    "etiquetas": {
+      "rect": 7,
+      "polygon": 1,
+      "circle": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "mistral-medium-3.5",
+    "motivo_fin": "stop",
+    "tokens_salida": 190
+  }
+}

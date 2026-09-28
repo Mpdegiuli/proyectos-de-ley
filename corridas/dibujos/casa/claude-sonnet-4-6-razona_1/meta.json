@@ -1,0 +1,37 @@
+{
+  "caso": "dibujo",
+  "consigna": "casa",
+  "idioma": "es",
+  "modelo": "claude-sonnet-4-6-razona",
+  "modelo_respondido": "claude-sonnet-4-6",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T20:01:15+00:00",
+  "fuentes_md5": {
+    "consignas": "5e4ec921"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 6894,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4900,
+    "parsea": true,
+    "elementos": 77,
+    "textos": [],
+    "colores": 28,
+    "etiquetas": {
+      "rect": 20,
+      "circle": 20,
+      "g": 6,
+      "line": 21,
+      "ellipse": 6,
+      "polygon": 3,
+      "path": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-sonnet-4-6",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 309
+  }
+}

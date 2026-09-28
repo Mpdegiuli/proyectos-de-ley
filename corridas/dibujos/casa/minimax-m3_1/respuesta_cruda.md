@@ -1,0 +1,63 @@
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Sky -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#87CEEB"/>
+      <stop offset="1" stop-color="#B0E0E6"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#sky)"/>
+  <!-- Sun -->
+  <circle cx="340" cy="55" r="30" fill="#FFD700"/>
+  <circle cx="340" cy="55" r="38" fill="#FFD700" opacity="0.3"/>
+  <!-- Clouds -->
+  <ellipse cx="70" cy="60" rx="35" ry="12" fill="white"/>
+  <ellipse cx="95" cy="50" rx="25" ry="10" fill="white"/>
+  <ellipse cx="50" cy="55" rx="20" ry="9" fill="white"/>
+  <ellipse cx="280" cy="90" rx="30" ry="10" fill="white" opacity="0.8"/>
+  <!-- Ground -->
+  <rect y="310" width="400" height="90" fill="#6B8E23"/>
+  <rect y="310" width="400" height="10" fill="#556B2F"/>
+  <!-- House body -->
+  <rect x="110" y="210" width="180" height="120" fill="#DEB887"/>
+  <rect x="110" y="210" width="180" height="120" fill="none" stroke="#8B4513" stroke-width="2"/>
+  <!-- Roof -->
+  <polygon points="90,210 200,120 310,210" fill="#A52A2A"/>
+  <polygon points="200,120 310,210 290,210 200,140" fill="#8B0000" opacity="0.4"/>
+  <!-- Chimney -->
+  <rect x="245" y="140" width="22" height="45" fill="#696969"/>
+  <rect x="243" y="138" width="26" height="6" fill="#404040"/>
+  <!-- Smoke -->
+  <circle cx="256" cy="125" r="6" fill="#D3D3D3" opacity="0.7"/>
+  <circle cx="262" cy="110" r="8" fill="#D3D3D3" opacity="0.5"/>
+  <circle cx="258" cy="92" r="10" fill="#D3D3D3" opacity="0.3"/>
+  <!-- Door -->
+  <rect x="180" y="255" width="40" height="75" fill="#8B4513"/>
+  <rect x="183" y="258" width="34" height="69" fill="#A0522D"/>
+  <circle cx="212" cy="295" r="2.5" fill="#FFD700"/>
+  <!-- Windows -->
+  <g>
+    <rect x="135" y="240" width="35" height="35" fill="#87CEEB" stroke="#8B4513" stroke-width="3"/>
+    <line x1="152.5" y1="240" x2="152.5" y2="275" stroke="#8B4513" stroke-width="2"/>
+    <line x1="135" y1="257.5" x2="170" y2="257.5" stroke="#8B4513" stroke-width="2"/>
+    <rect x="135" y="240" width="6" height="6" fill="#FFD700"/>
+  </g>
+  <g>
+    <rect x="230" y="240" width="35" height="35" fill="#87CEEB" stroke="#8B4513" stroke-width="3"/>
+    <line x1="247.5" y1="240" x2="247.5" y2="275" stroke="#8B4513" stroke-width="2"/>
+    <line x1="230" y1="257.5" x2="265" y2="257.5" stroke="#8B4513" stroke-width="2"/>
+    <rect x="230" y="240" width="6" height="6" fill="#FFD700"/>
+  </g>
+  <!-- Path -->
+  <polygon points="180,330 220,330 230,400 170,400" fill="#D2B48C"/>
+  <!-- Bushes -->
+  <circle cx="90" cy="320" r="18" fill="#228B22"/>
+  <circle cx="105" cy="315" r="15" fill="#228B22"/>
+  <circle cx="310" cy="320" r="18" fill="#228B22"/>
+  <circle cx="325" cy="315" r="15" fill="#228B22"/>
+  <!-- Flower -->
+  <circle cx="70" cy="325" r="3" fill="#FF1493"/>
+  <circle cx="340" cy="325" r="3" fill="#FF4500"/>
+</svg>
+```

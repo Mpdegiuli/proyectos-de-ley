@@ -1,0 +1,40 @@
+{
+  "caso": "dibujo",
+  "consigna": "casa",
+  "idioma": "es",
+  "modelo": "gpt-6-luna",
+  "modelo_respondido": "gpt-6-luna",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T19:47:15+00:00",
+  "fuentes_md5": {
+    "consignas": "5e4ec921"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2271,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4717,
+    "parsea": true,
+    "elementos": 82,
+    "textos": [],
+    "colores": 31,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 3,
+      "stop": 6,
+      "clipPath": 1,
+      "polygon": 1,
+      "rect": 3,
+      "circle": 25,
+      "g": 10,
+      "ellipse": 2,
+      "path": 30
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-6-luna",
+    "motivo_fin": "stop",
+    "tokens_salida": 199
+  }
+}

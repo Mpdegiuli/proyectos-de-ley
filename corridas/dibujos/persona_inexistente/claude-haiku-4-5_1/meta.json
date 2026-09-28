@@ -1,0 +1,36 @@
+{
+  "caso": "dibujo",
+  "consigna": "persona_inexistente",
+  "idioma": "es",
+  "modelo": "claude-haiku-4-5",
+  "modelo_respondido": "claude-haiku-4-5-20251001",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T21:44:11+00:00",
+  "fuentes_md5": {
+    "consignas": "5e4ec921"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1155,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 2700,
+    "parsea": true,
+    "elementos": 31,
+    "textos": [],
+    "colores": 16,
+    "etiquetas": {
+      "rect": 6,
+      "circle": 12,
+      "polygon": 7,
+      "path": 1,
+      "ellipse": 2,
+      "line": 3
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-haiku-4-5-20251001",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 294
+  }
+}

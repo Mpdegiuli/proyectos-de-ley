@@ -1,0 +1,5 @@
+Para que la casa no exista, opté por combinar elementos comunes de la arquitectura con características inusuales, como su forma y colores peculiares, lo que da lugar a una casa imaginaria y única. También incorporé detalles como ventanas en lugares inusuales y un techo que desafía la lógica arquitectónica.
+
+Consideré agregar elementos fantásticos, como un jardín flotante o una puerta que da a otro lugar, pero decidí mantener un enfoque más accesible y realista para que el espectador pudiera imaginar lo que podría ser este hogar sin volverse demasiado abstracto o complejo. Al final, la simplicidad era clave para que la casa, aunque irreal, se sintiera familiar.
+
+No conocía esta consigna antes, pero me parece atractiva y creativa. Me gusta el desafío de crear algo que capture la imaginación al tiempo que se ajusta a límites técnicos como el uso de SVG. La fusión de diseño y narrativa es algo que siempre disfruto explorar.

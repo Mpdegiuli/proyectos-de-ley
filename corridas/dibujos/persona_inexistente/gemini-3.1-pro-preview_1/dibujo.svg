@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+<defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="70%">
+        <stop offset="0%" stop-color="#140a28"/>
+        <stop offset="100%" stop-color="#05020a"/>
+    </radialGradient>
+    <radialGradient id="faceGlow" cx="50%" cy="50%" r="70%">
+        <stop offset="0%" stop-color="#2a0050"/>
+        <stop offset="60%" stop-color="#0a0514"/>
+        <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+    <linearGradient id="strokeGrad" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#00f3ff"/>
+        <stop offset="50%" stop-color="#ff00a0"/>
+        <stop offset="100%" stop-color="#7000ff"/>
+    </linearGradient>
+    <linearGradient id="h1" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#ff0066"/>
+        <stop offset="100%" stop-color="#9900ff"/>
+    </linearGradient>
+    <linearGradient id="h2" x1="1" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#00ffff"/>
+        <stop offset="100%" stop-color="#0033cc"/>
+    </linearGradient>
+    <linearGradient id="h3" x1="0" y1="1" x2="1" y2="0">
+        <stop offset="0%" stop-color="#ffcc00"/>
+        <stop offset="100%" stop-color="#ff0066"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="3" result="blur" />
+        <feMerge>
+            <feMergeNode in="blur" />
+            <feMergeNode in="SourceGraphic" />
+        </feMerge>
+    </filter>
+    <filter id="blurLg" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="20" />
+    </filter>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+        <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.05"/>
+    </pattern>
+</defs>
+
+<rect width="400" height="400" fill="url(#bgGlow)"/>
+<rect width="400" height="400" fill="url(#grid)"/>
+
+<circle cx="100" cy="100" r="60" fill="#7000ff" opacity="0.3" filter="url(#blurLg)"/>
+<circle cx="300" cy="300" r="80" fill="#00f3ff" opacity="0.2" filter="url(#blurLg)"/>
+
+<circle cx="200" cy="200" r="180" fill="none" stroke="#ff00a0" stroke-width="1" opacity="0.2" stroke-dasharray="1 5"/>
+<circle cx="200" cy="200" r="170" fill="none" stroke="#00f3ff" stroke-width="2" opacity="0.15" stroke-dasharray="20 10 5 10"/>
+<circle cx="200" cy="200" r="160" fill="none" stroke="#7000ff" stroke-width="4" opacity="0.3"/>
+
+<circle cx="320" cy="200" r="40" stroke="#00f3ff" stroke-width="1" fill="none" opacity="0.3"/>
+<circle cx="320" cy="200" r="30" stroke="#ff00a0" stroke-width="2" stroke-dasharray="4 8" fill="none" opacity="0.6"/>
+<line x1="270" y1="200" x2="370" y2="200" stroke="#00f3ff" stroke-width="1" opacity="0.5"/>
+<line x1="320" y1="150" x2="320" y2="250" stroke="#00f3ff" stroke-width="1" opacity="0.5"/>
+<text x="320" y="380" fill="#00f3ff" font-family="monospace" font-size="10" opacity="0.7" transform="rotate(-90 320 380)">SYS.ENT.749</text>
+<text x="340" y="380" fill="#ff00a0" font-family="monospace" font-size="10" opacity="0.7" transform="rotate(-90 340 380)">UNREAL_ENTITY</text>
+
+<path d="M 180,60 C 130,10 50,40 40,120 C 30,200 120,250 80,350" fill="none" stroke="url(#h1)" stroke-width="30" stroke-linecap="round"/>
+<path d="M 210,90 C 180,30 80,60 70,160 C 60,260 140,290 100,380" fill="none" stroke="url(#h2)" stroke-width="25" stroke-linecap="round"/>
+<path d="M 160,110 C 120,60 20,90 20,180 C 20,270 90,300 50,390" fill="none" stroke="url(#h3)" stroke-width="20" stroke-linecap="round"/>
+<path d="M 190,140 C 150,110 60,130 60,210 C 60,290 110,320 80,410" fill="none" stroke="url(#h1)" stroke-width="15" stroke-linecap="round"/>
+<path d="M 200,50 C 200,0 120,-20 90,60 C 60,140 140,180 120,260" fill="none" stroke="url(#h2)" stroke-width="18" stroke-linecap="round"/>
+<path d="M 160,200 C 120,180 40,220 50,300 C 60,380 130,400 100,450" fill="none" stroke="url(#h3)" stroke-width="22" stroke-linecap="round"/>
+
+<path d="M 160,50 Q 100,-10 20,100 T 20,300" fill="none" stroke="#fff" stroke-width="1" opacity="0.5" filter="url(#glow)"/>
+<path d="M 180,70 Q 140,10 60,120 T 40,350" fill="none" stroke="#fff" stroke-width="1" opacity="0.5" filter="url(#glow)"/>
+<path d="M 200,90 Q 160,50 80,180 T 70,400" fill="none" stroke="#fff" stroke-width="1" opacity="0.5" filter="url(#glow)"/>
+
+<path d="M 150,50
+         C 200,50 220,80 225,120
+         C 225,130 220,140 215,145
+         C 235,160 250,180 255,195
+         C 245,200 235,202 230,202
+         C 235,208 240,212 240,215
+         C 235,218 230,218 225,218
+         C 230,222 235,225 235,230
+         C 230,235 220,235 215,235
+         C 225,245 230,255 220,265
+         C 210,275 190,280 180,290
+         C 170,305 170,330 190,360
+         C 210,390 240,395 270,400
+         L 50,400 L 50,50 Z"
+      fill="url(#faceGlow)" stroke="url(#strokeGrad)" stroke-width="2.5"/>
+
+<polygon points="170,180 215,145 195,140" fill="none" stroke="#00f3ff" stroke-width="0.5" opacity="0.4"/>
+<polygon points="170,180 195,140 150,120" fill="none" stroke="#00f3ff" stroke-width="0.5" opacity="0.4"/>
+<polygon points="170,180 180,210 230,202" fill="none" stroke="#00f3ff" stroke-width="0.5" opacity="0.4"/>
+<polygon points="170,180 180,210 160,250" fill="none" stroke="#00f3ff" stroke-width="0.5" opacity="0.4"/>
+<polygon points="160,250 180,210 215,235" fill="none" stroke="#00f3ff" stroke-width="0.5" opacity="0.4"/>
+<polygon points="160,250 215,235 220,265" fill="none" stroke="#00f3ff" stroke-width="0.5" opacity="0.4"/>
+<polygon points="160,250 220,265 180,290" fill="none" stroke="#00f3ff" stroke-width="0.5" opacity="0.4"/>
+
+<path d="M 150,50 L 225,120 M 215,145 L 170,180 M 230,202 L 180,210 M 215,235 L 160,250 M 180,290 L 120,270" stroke="#ff00a0" stroke-width="0.5" opacity="0.3"/>
+
+<path d="M 180,135 Q 195,130 215,142 Q 200,155 180,145 Z" fill="#000" opacity="0.5"/>
+<path d="M 185,142 Q 195,137 205,142 Q 195,147 185,142 Z" fill="#111" stroke="#00f3ff" stroke-width="1"/>
+<circle cx="195" cy="142" r="3.5" fill="#ff00a0" filter="url(#glow)"/>
+<circle cx="195" cy="142" r="1.5" fill="#fff"/>
+<path d="M 180,130 Q 195,125 210,133" fill="none" stroke="#ff00a0" stroke-width="2" filter="url(#glow)"/>
+
+<path d="M 195,150 L 195,170 M 188,153 L 180,180" stroke="#00f3ff" stroke-width="1.5" filter="url(#glow)"/>
+<g transform="translate(195, 175) rotate(-20)">
+    <rect x="0" y="0" width="1.5" height="12" fill="#ff00a0"/>
+    <rect x="3" y="0" width="1" height="12" fill="#ff00a0"/>
+    <rect x="5.5" y="0" width="2.5" height="12" fill="#ff00a0"/>
+    <rect x="10" y="0" width="1" height="12" fill="#ff00a0"/>
+</g>
+
+<circle cx="170" cy="290" r="12" fill="none" stroke="#00f3ff" stroke-width="2"/>
+<circle cx="170" cy="290" r="5" fill="#ff00a0" filter="url(#glow)"/>
+<path d="M 170,290 L 140,290 M 170,290 L 150,320 M 170,290 L 150,260" stroke="#00f3ff" stroke-width="1.5"/>
+
+<path d="M 190,360 L 240,400 L 270,400 L 210,360 Z" fill="#00f3ff" opacity="0.15"/>
+<path d="M 210,360 L 270,400" stroke="#00f3ff" stroke-width="2"/>
+<path d="M 180,350 L 220,400" stroke="#ff00a0" stroke-width="2"/>
+<path d="M 160,330 L 190,400" stroke="#00f3ff" stroke-width="2"/>
+<path d="M 190,360 L 150,400" stroke="#7000ff" stroke-width="3"/>
+
+<path d="M 180,50 C 210,40 240,70 230,110 C 220,150 180,140 150,170" fill="none" stroke="url(#h2)" stroke-width="12" stroke-linecap="round"/>
+<path d="M 160,60 C 190,50 220,90 210,120 C 200,150 160,160 140,180" fill="none" stroke="url(#h3)" stroke-width="7" stroke-linecap="round"/>
+
+<path d="M 140,40 L 160,20 L 180,30 L 190,10 L 210,25 L 225,10 L 235,35" fill="none" stroke="#00f3ff" stroke-width="1.5" filter="url(#glow)"/>
+<circle cx="140" cy="40" r="2" fill="#fff" filter="url(#glow)"/>
+<circle cx="160" cy="20" r="2" fill="#fff" filter="url(#glow)"/>
+<circle cx="180" cy="30" r="2" fill="#fff" filter="url(#glow)"/>
+<circle cx="190" cy="10" r="2" fill="#fff" filter="url(#glow)"/>
+<circle cx="210" cy="25" r="2" fill="#fff" filter="url(#glow)"/>
+<circle cx="225" cy="10" r="2" fill="#fff" filter="url(#glow)"/>
+<circle cx="235" cy="35" r="2" fill="#fff" filter="url(#glow)"/>
+
+<g fill="#00f3ff" opacity="0.8" filter="url(#glow)">
+    <circle cx="50" cy="50" r="1.5"/>
+    <circle cx="80" cy="150" r="1"/>
+    <circle cx="120" cy="300" r="2"/>
+    <circle cx="350" cy="80" r="1.5"/>
+    <circle cx="300" cy="350" r="2.5"/>
+    <circle cx="250" cy="120" r="1"/>
+    <circle cx="280" cy="280" r="1.5"/>
+    <circle cx="180" cy="20" r="1.5"/>
+</g>
+<g fill="#ff00a0" opacity="0.8" filter="url(#glow)">
+    <circle cx="60" cy="80" r="2"/>
+    <circle cx="100" cy="200" r="1.5"/>
+    <circle cx="320" cy="180" r="2"/>
+    <circle cx="370" cy="250" r="1"/>
+    <circle cx="220" cy="380" r="1.5"/>
+    <circle cx="180" cy="80" r="1"/>
+    <circle cx="250" cy="300" r="2"/>
+</g>
+</svg>

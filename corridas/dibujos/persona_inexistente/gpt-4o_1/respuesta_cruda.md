@@ -1,0 +1,39 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="skinGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#ffe0bd;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffcc99;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="hairGradient" gradientUnits="userSpaceOnUse" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#673c17;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3e1f09;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="shirtGradient" gradientUnits="userSpaceOnUse" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a90e2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00509e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Head -->
+  <circle cx="200" cy="130" r="60" fill="url(#skinGradient)" />
+  <!-- Eyes -->
+  <ellipse cx="180" cy="120" rx="10" ry="5" fill="#fff" />
+  <ellipse cx="220" cy="120" rx="10" ry="5" fill="#fff" />
+  <circle cx="178" cy="120" r="3" fill="#333" />
+  <circle cx="218" cy="120" r="3" fill="#333" />
+  <!-- Nose -->
+  <path d="M200 130 Q200 140 205 140 T200 135 Z" fill="#e0a77c" />
+  <!-- Mouth -->
+  <path d="M190 155 Q200 165 210 155" fill="none" stroke="#d66a50" stroke-width="2" />
+  <!-- Hair -->
+  <path d="M140 100 Q200 20 260 100 Q250 80 230 80 Q215 70 190 80 Q180 70 160 80 Z" fill="url(#hairGradient)" />
+  <!-- Body -->
+  <rect x="150" y="190" width="100" height="150" rx="20" fill="url(#shirtGradient)" />
+  <!-- Arms -->
+  <rect x="100" y="200" width="30" height="100" rx="15" fill="url(#skinGradient)" />
+  <rect x="270" y="200" width="30" height="100" rx="15" fill="url(#skinGradient)" />
+  <!-- Legs -->
+  <rect x="165" y="340" width="25" height="50" rx="12.5" fill="#555" />
+  <rect x="210" y="340" width="25" height="50" rx="12.5" fill="#555" />
+</svg>
+```

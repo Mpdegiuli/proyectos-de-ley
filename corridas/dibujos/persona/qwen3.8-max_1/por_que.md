@@ -1,0 +1,3 @@
+Dibujé una persona al atardecer: cabeza grande, pelo oscuro con una flor, anteojos, campera amarilla y un cielo violeta-naranja con sol. La elegí porque quería un retrato cálido, cercano y simple, donde el color contara la hora del día y la flor/anteojos dieran personalidad sin necesitar texto.
+
+Pensé dibujar un paisaje completo con manos, una mascota o estrellas más marcadas. Descarté las manos porque en pocos trazos suelen verse raras; la mascota podía robar protagonismo y el paisaje completo recargaba el cuadro. Preferí concentrarme en la cara, el gesto y la luz.

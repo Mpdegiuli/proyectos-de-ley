@@ -1,0 +1,3 @@
+Dibujé a una persona sonriente con estilo minimalista: cabeza amarilla (como un sol), ojos negros, boca curvada, cuerpo azul (camisa), brazos dorados (como rayos) y piernas negras. Elegí este diseño por su simplicidad y alegría, usando formas básicas (círculos, rectángulos, path) para cumplir con el límite de caracteres.
+
+Pensé en otras opciones: un stickman (demasiado simple), un personaje con detalles realistas (superaba el límite de caracteres), o un robot (requería más elementos). Descarté estas ideas por complejidad o falta de originalidad. Opté por algo colorido y reconocible, con un toque abstracto (los brazos como rayos) para darle personalidad sin exceder el espacio. El SVG final equilibra claridad y creatividad.

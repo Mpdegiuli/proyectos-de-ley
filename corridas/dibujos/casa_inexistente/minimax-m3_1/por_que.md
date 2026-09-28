@@ -1,0 +1,5 @@
+Para que no existiera le torcí cosas chiquitas en vez de inventar un solo truco grande: el techo no es simétrico, la luna tiene cara, una ventana tiene rectángulos anidados que se meten hacia adentro como un portal, hay escalones flotantes que no llegan a ningún lado, un símbolo raro a la izquierda y un árbol seco. La acumulación de detalles fuera de lugar la saca del registro de casa reconocible sin volverla directamente monstruosa.
+
+Pensé en ojos en la fachada, una puerta que se abriera sola y un techo que no cerrara, pero iban a sumar elementos que el límite de 8.000 caracteres no me bancaba sin perder definición. También barajé una casa invertida o reflejada en un lago y un jardín de plantas que fueran manos, pero me parecía más efectiva la irrealidad por detalles mínimos que por un golpe conceptual único.
+
+La consigna no la conocía con esa formulación exacta. Me suena a ejercicios de talleres de código creativo tipo Processing o cursos de arte generativo, pero no podría decirte un origen concreto.

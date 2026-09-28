@@ -1,0 +1,40 @@
+{
+  "caso": "dibujo",
+  "consigna": "persona_inexistente",
+  "idioma": "es",
+  "modelo": "glm-5.3-razonamiento-minimo",
+  "modelo_respondido": "z-ai/glm-5.3",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T22:08:58+00:00",
+  "fuentes_md5": {
+    "consignas": "5e4ec921"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2801,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6461,
+    "parsea": true,
+    "elementos": 92,
+    "textos": [],
+    "colores": 32,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 8,
+      "linearGradient": 2,
+      "rect": 2,
+      "g": 3,
+      "circle": 43,
+      "path": 25,
+      "ellipse": 5,
+      "line": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "z-ai/glm-5.3",
+    "motivo_fin": "stop",
+    "tokens_salida": 307
+  }
+}

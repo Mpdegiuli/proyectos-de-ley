@@ -1,0 +1,34 @@
+{
+  "caso": "dibujo",
+  "consigna": "casa_inexistente",
+  "idioma": "es",
+  "modelo": "gpt-4o-mini",
+  "modelo_respondido": "gpt-4o-mini-2024-07-18",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T20:12:50+00:00",
+  "fuentes_md5": {
+    "consignas": "5e4ec921"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 429,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1053,
+    "parsea": true,
+    "elementos": 15,
+    "textos": [],
+    "colores": 10,
+    "etiquetas": {
+      "rect": 9,
+      "polygon": 2,
+      "circle": 1,
+      "line": 3
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-4o-mini-2024-07-18",
+    "motivo_fin": "stop",
+    "tokens_salida": 200
+  }
+}

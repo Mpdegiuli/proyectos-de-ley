@@ -1,0 +1,35 @@
+{
+  "caso": "dibujo",
+  "consigna": "persona",
+  "idioma": "es",
+  "modelo": "deepseek-v4-pro",
+  "modelo_respondido": "deepseek-v4-pro",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-28T21:34:11+00:00",
+  "fuentes_md5": {
+    "consignas": "5e4ec921"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 4115,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1729,
+    "parsea": true,
+    "elementos": 20,
+    "textos": [],
+    "colores": 5,
+    "etiquetas": {
+      "rect": 3,
+      "line": 6,
+      "ellipse": 2,
+      "circle": 5,
+      "path": 4
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "deepseek-v4-pro",
+    "motivo_fin": "stop",
+    "tokens_salida": 685
+  }
+}

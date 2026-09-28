@@ -1,0 +1,147 @@
+```xml
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <radialGradient id="space" cx="50%" cy="50%" r="75%">
+            <stop offset="0%" stop-color="#1b1236"/>
+            <stop offset="50%" stop-color="#0c071c"/>
+            <stop offset="100%" stop-color="#000000"/>
+        </radialGradient>
+        <linearGradient id="waterGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#4fd1c5"/>
+            <stop offset="50%" stop-color="#9f7aea"/>
+            <stop offset="100%" stop-color="#4fd1c5"/>
+        </linearGradient>
+        <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="3" result="blur" />
+            <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+        </filter>
+        <filter id="strongGlow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="5" result="blur" />
+            <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+        </filter>
+    </defs>
+
+    <rect width="400" height="400" fill="url(#space)"/>
+
+    <ellipse cx="250" cy="150" rx="120" ry="80" fill="#805ad5" filter="url(#strongGlow)" opacity="0.15"/>
+    <ellipse cx="150" cy="250" rx="100" ry="90" fill="#319795" filter="url(#strongGlow)" opacity="0.15"/>
+
+    <g fill="#fff" opacity="0.7">
+        <circle cx="50" cy="80" r="1.5"/><circle cx="120" cy="40" r="1"/>
+        <circle cx="350" cy="120" r="1.5"/><circle cx="380" cy="280" r="1"/>
+        <circle cx="80" cy="320" r="1.5"/><circle cx="40" cy="220" r="1"/>
+        <circle cx="300" cy="50" r="1.5"/><circle cx="180" cy="380" r="1"/>
+        <circle cx="280" cy="350" r="1.5"/><circle cx="210" cy="30" r="1"/>
+        <path d="M 90 90 L 110 90 M 100 80 L 100 100" stroke="#fff" stroke-width="1"/>
+        <path d="M 320 220 L 330 220 M 325 215 L 325 225" stroke="#fff" stroke-width="1"/>
+    </g>
+
+    <g fill="none" stroke="#fff" stroke-width="0.5" stroke-dasharray="2 2" opacity="0.4">
+        <polyline points="40,40 70,60 100,50 120,80"/>
+        <circle cx="40" cy="40" r="1.5"/><circle cx="70" cy="60" r="1.5"/>
+        <circle cx="100" cy="50" r="1.5"/><circle cx="120" cy="80" r="1.5"/>
+        <polyline points="320,320 340,350 310,370"/>
+        <circle cx="320" cy="320" r="1.5"/><circle cx="340" cy="350" r="1.5"/>
+        <circle cx="310" cy="370" r="1.5"/>
+    </g>
+
+    <g stroke="#4a5568" stroke-width="0.5" opacity="0.4" fill="none">
+        <circle cx="200" cy="200" r="140"/>
+        <circle cx="200" cy="200" r="135" stroke-dasharray="2 4"/>
+        <line x1="200" y1="50" x2="200" y2="60"/>
+        <line x1="200" y1="340" x2="200" y2="350"/>
+        <line x1="50" y1="200" x2="60" y2="200"/>
+        <line x1="340" y1="200" x2="350" y2="200"/>
+    </g>
+
+    <path d="M 30 200 A 170 45 0 0 1 370 200" fill="none" stroke="#9f7aea" stroke-width="1" opacity="0.4" transform="rotate(-10 200 200)"/>
+
+    <g opacity="0.8">
+        <path d="M 330 70 C 360 60, 380 80, 390 75 C 385 85, 360 90, 330 80 C 310 73, 290 80, 280 85 C 295 75, 310 75, 330 70 Z" fill="#90cdf4" filter="url(#glow)"/>
+        <path d="M 330 80 C 340 85, 350 90, 345 95 C 340 90, 335 85, 330 80 Z" fill="#90cdf4"/>
+        <circle cx="370" cy="76" r="1.5" fill="#fff" filter="url(#glow)"/>
+        <path d="M 280 85 C 275 80, 265 75, 270 90 Z" fill="#90cdf4"/>
+        <path d="M 280 85 C 275 95, 265 100, 270 85 Z" fill="#90cdf4"/>
+    </g>
+
+    <path d="M 100 180 C 150 200, 250 200, 300 180 L 300 220 C 250 200, 150 200, 100 220 Z" fill="#3a2f29"/>
+    <path d="M 120 200 L 150 210 M 180 190 L 220 205 M 250 195 L 280 210 M 140 215 L 170 205 M 240 215 L 260 205" stroke="#2d241f" stroke-width="2" stroke-linecap="round"/>
+    
+    <path d="M 100 180 Q 110 190 120 183 Q 130 195 140 185 Q 160 200 180 188 Q 210 205 240 188 Q 260 195 280 183 Q 290 190 300 180 Z" fill="#426b52"/>
+    <path d="M 100 220 Q 110 210 120 217 Q 130 205 140 215 Q 160 200 180 212 Q 210 195 240 212 Q 260 205 280 217 Q 290 210 300 220 Z" fill="#6b425b"/>
+
+    <polygon points="200,185 220,200 200,215 180,200" fill="#fbd38d" filter="url(#strongGlow)"/>
+    <polygon points="200,185 220,200 200,200" fill="#ed8936"/>
+
+    <path d="M 260 170 Q 265 140 280 120 Q 260 130 250 140 Q 255 155 255 170 Z" fill="#5c4b3a"/>
+    <circle cx="280" cy="120" r="25" fill="#f687b3" opacity="0.8"/>
+    <circle cx="265" cy="105" r="20" fill="#fbb6ce" opacity="0.9"/>
+    <path d="M 270 170 Q 280 190 275 210 T 285 230" fill="none" stroke="#5c4b3a" stroke-width="2"/>
+    
+    <path d="M 140 225 Q 135 255 120 275 Q 140 265 150 255 Q 145 240 145 225 Z" fill="#3a4b5c"/>
+    <circle cx="120" cy="275" r="25" fill="#4fd1c5" opacity="0.8"/>
+    <circle cx="135" cy="290" r="20" fill="#81e6d9" opacity="0.9"/>
+    <path d="M 130 225 Q 120 205 125 185 T 115 165" fill="none" stroke="#3a4b5c" stroke-width="2"/>
+
+    <g id="topHouse">
+        <rect x="130" y="110" width="60" height="73" fill="#2d3748" />
+        <polygon points="120,110 200,110 160,60" fill="#c53030" />
+        <path d="M 125 105 L 195 105 M 135 85 L 185 85" stroke="#9b2c2c" stroke-width="2"/>
+        <rect x="115" y="160" width="15" height="8" fill="#718096"/>
+        <rect x="150" y="150" width="20" height="33" rx="10" ry="10" fill="url(#waterGlow)" filter="url(#glow)"/>
+        <circle cx="140" cy="130" r="6" fill="#fbd38d" filter="url(#glow)"/>
+        <circle cx="180" cy="130" r="6" fill="#fbd38d" filter="url(#glow)"/>
+        <polygon points="160,85 165,95 155,95" fill="#fbd38d" filter="url(#glow)"/>
+        <path d="M 124 105 Q 120 80 135 60 T 130 30" fill="none" stroke="#cbd5e0" stroke-width="3" stroke-linecap="round" filter="url(#glow)" opacity="0.6"/>
+        <polygon points="160,20 168,35 160,50 152,35" fill="#e9d8fd" filter="url(#glow)"/>
+        <polygon points="160,20 168,35 160,35" fill="#d6bcfa"/>
+    </g>
+
+    <g id="bottomHouse">
+        <rect x="210" y="215" width="60" height="73" fill="#1a365d" />
+        <polygon points="200,288 280,288 240,338" fill="#2b6cb0" />
+        <path d="M 205 293 L 275 293 M 215 313 L 265 313" stroke="#2c5282" stroke-width="2"/>
+        <rect x="270" y="270" width="15" height="8" fill="#718096"/>
+        <path d="M 230 215 L 250 215 L 250 238 C 250 253, 230 253, 230 238 Z" fill="url(#waterGlow)" filter="url(#glow)"/>
+        <circle cx="225" cy="265" r="6" fill="#fbd38d" filter="url(#glow)"/>
+        <circle cx="265" cy="265" r="6" fill="#fbd38d" filter="url(#glow)"/>
+        <polygon points="240,313 245,303 235,303" fill="#fbd38d" filter="url(#glow)"/>
+        <rect x="260" y="288" width="8" height="35" fill="#4a5568"/>
+        <path d="M 264 323 Q 270 345 255 365 T 260 395" fill="none" stroke="#cbd5e0" stroke-width="3" stroke-linecap="round" filter="url(#glow)" opacity="0.6"/>
+        <polygon points="240,380 248,365 240,350 232,365" fill="#e9d8fd" filter="url(#glow)"/>
+        <polygon points="240,380 248,365 240,365" fill="#d6bcfa"/>
+    </g>
+
+    <path d="M 30 200 A 170 45 0 0 0 370 200" fill="none" stroke="#4fd1c5" stroke-width="3" opacity="0.7" filter="url(#glow)" transform="rotate(-10 200 200)"/>
+    <path d="M 15 200 A 185 55 0 0 0 385 200" fill="none" stroke="#9f7aea" stroke-width="1" opacity="0.5" transform="rotate(-10 200 200)"/>
+
+    <path d="M 115 164 C 10 164, 10 350, 160 360 C 310 370, 360 274, 285 274" fill="none" stroke="url(#waterGlow)" stroke-width="8" opacity="0.85" filter="url(#strongGlow)" stroke-linecap="round"/>
+    <path d="M 115 164 C 10 164, 10 350, 160 360 C 310 370, 360 274, 285 274" fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="10 15" opacity="0.8" stroke-linecap="round"/>
+
+    <g fill="#a0aec0">
+        <rect x="285" y="170" width="12" height="3" transform="rotate(15 291 171)"/>
+        <rect x="302" y="180" width="12" height="3" transform="rotate(35 308 181)"/>
+        <rect x="315" y="195" width="12" height="3" transform="rotate(60 321 196)"/>
+        <rect x="320" y="215" width="12" height="3" transform="rotate(90 326 216)"/>
+        <rect x="312" y="235" width="12" height="3" transform="rotate(120 318 236)"/>
+        <rect x="295" y="250" width="12" height="3" transform="rotate(150 301 251)"/>
+        <rect x="272" y="257" width="12" height="3" transform="rotate(170 278 258)"/>
+    </g>
+
+    <g fill="#f6e05e" filter="url(#glow)">
+        <circle cx="291" cy="165" r="2.5"/>
+        <circle cx="308" cy="175" r="2.5"/>
+        <circle cx="321" cy="190" r="2.5"/>
+        <circle cx="326" cy="210" r="2.5"/>
+        <circle cx="318" cy="230" r="2.5"/>
+        <circle cx="301" cy="245" r="2.5"/>
+        <circle cx="278" cy="252" r="2.5"/>
+    </g>
+
+    <rect x="60" y="90" width="12" height="12" fill="#805ad5" filter="url(#glow)" transform="rotate(20 66 96)"/>
+    <rect x="45" y="115" width="8" height="8" fill="#d6bcfa" filter="url(#glow)" transform="rotate(45 49 119)"/>
+    <rect x="330" y="280" width="15" height="15" fill="#4fd1c5" filter="url(#glow)" transform="rotate(15 337 287)"/>
+    <rect x="355" y="260" width="10" height="10" fill="#81e6d9" filter="url(#glow)" transform="rotate(60 360 265)"/>
+
+</svg>
+```
