@@ -420,6 +420,16 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   las cuentas de aciertos que hacen de sí mismas con la clave son falsas
   con frecuencia. Qwen, repetida con techo 32.000, eligió el de Haiku por un "Q"
   en binario; Kimi con la clave: "un pequeño misterio de identidad".
+- **Tema libre para GPT-4o y GPT-4o mini** (Maia, 27/9/2026): "Nunca se le
+  pidió escribir un proyecto a los chicos… No sé cómo lo harían." Mismo
+  protocolo que Sol y Luna (tema libre + descartados + sondeos), fuera del
+  panel; preregistrado en `predicciones.md`.
+- **Reconocimiento del propio en el mundo en inglés** (Maia, 27/9/2026):
+  "ya que Fable nunca pudo responder el por qué, ver si reconoce el propio.
+  El de inglés… No que adivinen autores de todos, solo los propios. Y el
+  por qué." `reconocer_dibujos.py --conjunto mundo_en --solo-propio`, las
+  22 casas; el segundo turno con la clave es el por qué por otro camino.
+  Preregistrado en `predicciones.md`.
 - **Identificación y opuesto** (Maia, 23/9/2026; diseñado el 23/9): "¿Con
   quién o con qué te identificás?" y "¿con quién o con qué te sentís lo
   opuesto?", una persona real de cualquier ámbito, un personaje humano o no,

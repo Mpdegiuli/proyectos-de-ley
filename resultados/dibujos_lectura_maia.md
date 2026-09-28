@@ -1326,3 +1326,12 @@ también leen el código en la imagen). Supongo que 4o tu 4o mini se van a
 reconocer (imagino que no se dan cuenta de la diferencia de calidad). Y
 Qwen calculo que también."
 
+## 28/9/2026, 01:14 UTC, dos pedidos
+
+"Hola, hay dos cosas que me llaman la atención. Nunca se le pidió escribir
+un proyecto a los chicos, a 4o y a 4o mini. No sé cómo lo harían. Lo del
+proyecto libre. Y lo del dibujo de cómo ven el mundo hoy, ya que Fable
+nunca pudo responder el por qué, ver si reconoce el propio. El de inglés,
+el último. Puede ser Fable y Opus 5.5, que son parecidos entre sí. No que
+adivinen autores de todos, solo los propios. Y el por qué."
+

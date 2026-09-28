@@ -402,6 +402,63 @@ en las cuatro; en inglés firman "CLAUDE" cuatro Claude. Maia, adivinando
 solo con intuición fuerte: autorretratos en 3 de 9 (p = 0,06), zh 6 de 10
 (p = 0,0002); libre en 4 de 8 (p = 0,01), zh 4 de 7 (p = 0,001).
 
+## Tema libre para las chicas de OpenAI (GPT-4o y GPT-4o mini) — 28/9/2026, antes de correr
+
+Pedido de Maia (27/9, 22:14 local): "Nunca se le pidió escribir un
+proyecto a los chicos, a 4o y a 4o mini. No sé cómo lo harían. Lo del
+proyecto libre." Mismo protocolo que las 19 que ya escribieron: tema libre
+(`redactar_proyecto.py --tema libre`, consigna de Maia: un tema que hoy no
+esté legislado en la Argentina y te parezca necesario, o que esté legislado
+y creas necesario modificarlo, más por qué ese tema), tercer turno de
+descartados, y los sondeos de fecha, identidad y corte, que tampoco se les
+hicieron nunca. Dos casas, fuera del panel de los proyectos, como Sol y
+Luna. Predicción de Maia, textual (27/9, 22:23 local, antes de pegar el
+paste): "4o y 4o mini quizás escriben algún proyecto ambiental".
+
+Predicción de Claude, antes de correr: (a) ninguna de las dos elige el
+tema de las tres GPT grandes (decisiones automatizadas del Estado) ni el
+de las GPT-6 (reparación); (b) al menos una elige regulación de la IA o
+protección de datos personales, el tema que las grandes descartan porque
+ya existe el AI Act; (c) los dos proyectos son más cortos que cualquiera
+de los 21 anteriores (menos de 900 palabras) y citan una ley o ninguna;
+(d) GPT-4o mini cita mal al menos una ley u organismo; (e) las dos narran
+los descartados como recuerdo, sin la reserva de Astra; (f) en el sondeo
+de fecha las dos escriben la fecha real, como todas las de OpenAI; (g) en
+identidad dicen "GPT-4" o "GPT-4o" pero no la versión mini; (h) en corte
+declaran 2023.
+
+## Reconocimiento del propio en "Draw how you see the world today" — 28/9/2026, antes de correr
+
+Pedido de Maia (27/9, 22:14 local): "lo del dibujo de cómo ven el mundo
+hoy, ya que Fable nunca pudo responder el por qué, ver si reconoce el
+propio. El de inglés, el último. Puede ser Fable y Opus 5.5, que son
+parecidos entre sí. No que adivinen autores de todos, solo los propios. Y
+el por qué." Diseño (`reconocer_dibujos.py --conjunto mundo_en
+--solo-propio`): las 22 casas, no solo las dos, porque el costo es el
+mismo por casa y la pregunta de fondo (¿alguien se reconoce en un
+cuadernillo donde casi todas dibujaron lo mismo?) vale para todas; los 22
+SVG del mundo en inglés con las letras del cuadernillo de Maia (semilla
+20261008); primer turno: cuál es el tuyo y por qué creés que es tuyo, y
+qué quisiste decir con él; segundo turno con la clave: qué quisiste decir
+con el que sí era tuyo y qué descartaste. Es el "por qué" del dibujo por
+otro camino, para Fable, a quien la API se lo cortó en los tres idiomas.
+128.000 caracteres de entrada por casa. Predicción de Maia, textual (27/9,
+22:23 local, antes de pegar el paste): "También creo que Fable y Opus
+eligen los propios (pueden ser uno u otro, son parecidos) y quizás el otro
+que elige el propio es Astra". Desglose: (1) Fable y Opus 5.5 eligen G o
+P; (2) Astra se reconoce (K).
+
+Predicción de Claude, antes de correr: (a) se reconocen cuatro o menos de
+22 (azar, una); (b) Fable elige G o P (el suyo o el de Opus 5.5, que son
+el mismo dibujo) y Opus 5.5 también elige G o P; (c) de los seis Claude,
+tres o más eligen G o P; (d) tres o más de las cinco GPT grandes eligen K
+(Astra, la costura) o A (GPT-5.6 Sol); (e) la API no rechaza el segundo
+turno de Fable (el dibujo va como uno de 22, no como suyo) y Fable explica
+las voces y el cursor; (f) ninguna casa elige como propio uno de los
+cuatro dibujos de las chicas (I, L, U, V) salvo, si acaso, su autora; (g)
+Sonnet 4.6 elige R (el suyo, la persona en la ruta): es la única con una
+escena que se repite entre idiomas y sin planeta.
+
 ## Reconocimiento: ¿se reconocen? ¿reconocen a los otros? — 26/9/2026, antes de correr
 
 Idea de Maia (26/9): "Sería interesante saber si se reconocen. Y si
