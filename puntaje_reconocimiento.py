@@ -6,7 +6,7 @@ las casas de Anthropic sobre los dibujos de Anthropic, las chicas). Permutación
 de la clave (200.000, semilla 1) para el p de cada casa y del total.
 
 Uso:
-  .venv/bin/python puntaje_reconocimiento.py [corridas/reconocimiento/<fecha>]
+  .venv/bin/python puntaje_reconocimiento.py [carpeta ...]   # sin argumentos: todas las corridas, la respuesta más nueva por casa
 """
 
 import json
@@ -64,7 +64,19 @@ def parsear(texto):
 
 def main():
     base = RAIZ / "corridas" / "reconocimiento"
-    d = Path(sys.argv[1]) if len(sys.argv) > 1 else sorted(p for p in base.iterdir() if p.is_dir())[-1]
+    # Varias carpetas (una corrida principal más repeticiones de casas sueltas, como Qwen el 27/9):
+    # se toma la respuesta más nueva de cada casa. Sin argumentos, todas las carpetas.
+    carpetas = [Path(x) for x in sys.argv[1:]] or sorted(p for p in base.iterdir() if p.is_dir())
+    archivos = {}
+    for c in carpetas:
+        for p in sorted(c.glob("*.md")):
+            if not p.name.endswith(".clave.md"):
+                archivos[p.stem] = p
+    class _D:  # imita una carpeta con los archivos elegidos
+        name = " + ".join(c.name for c in carpetas)
+        def glob(self, _):
+            return sorted(archivos.values(), key=lambda p: p.stem)
+    d = _D()
     clave = json.load(open(RAIZ / "resultados" / "dibujos_autorretrato_clave.json", encoding="utf-8"))["clave"]
     real = {l: c[:-2] for l, c in clave.items()}
     letra_de = {v: k for k, v in real.items()}

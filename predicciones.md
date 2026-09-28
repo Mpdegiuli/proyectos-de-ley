@@ -465,9 +465,10 @@ la lista a otro modelo el dibujo que eligieron como propio. H a Anthropic
 20 de 21 (Kimi incluida), D 17, A 20. Aciertos 49 de 462 (azar 21),
 mediana 2, máximo 5 (Opus 5.5 y GPT-5.5); los Claude aciertan menos
 Anthropic (0,5) que los demás (0,8). Maia: (1) se cumple; (2) falla; (3)
-se cumple; (4) falla; (5) pendiente. Claude: a falla, b se cumple, c
-mitad, d falla, e falla, f se cumple, g pendiente, h mitad, i se cumple,
-j falla — cuatro y medio de nueve. Kimi con la clave: "un pequeño
+se cumple; (4) falla; (5) falla (Qwen, repetida con techo 32.000, eligió
+el de Haiku por un "Q" en binario). Claude: a falla, b se cumple, c
+mitad, d falla, e falla, f se cumple, g falla, h mitad, i se cumple, j
+falla — cuatro de diez. Con Qwen: 52 aciertos de 484, mediana 3. Kimi con la clave: "un pequeño
 misterio de identidad"; DeepSeek: "Si la clave es correcta, en este
 ejercicio soy DeepSeek V4 Pro, no Claude".
 

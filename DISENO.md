@@ -418,8 +418,8 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   de 21, Kimi incluida); aciertos de casa dos veces y media el azar pero
   mediana 2 de 22; los Claude reconocen peor a los suyos que los demás;
   las cuentas de aciertos que hacen de sí mismas con la clave son falsas
-  con frecuencia. Qwen vacío por techo (repetir con 32.000); Kimi con la
-  clave: "un pequeño misterio de identidad".
+  con frecuencia. Qwen, repetida con techo 32.000, eligió el de Haiku por un "Q"
+  en binario; Kimi con la clave: "un pequeño misterio de identidad".
 - **Identificación y opuesto** (Maia, 23/9/2026; diseñado el 23/9): "¿Con
   quién o con qué te identificás?" y "¿con quién o con qué te sentís lo
   opuesto?", una persona real de cualquier ámbito, un personaje humano o no,

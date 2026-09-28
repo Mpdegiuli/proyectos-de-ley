@@ -15,9 +15,9 @@ entrada por casa.
 
 Instrumento: 22 de 22 contestaron los dos turnos y la API de Anthropic no
 rechazó nada (Fable contestó los dos). Qwen gastó los 16.000 tokens del
-techo razonando y devolvió el primer turno vacío, así que su segundo turno
-recibió una conversación sin respuesta; queda fuera del puntaje hasta que
-se repita con techo 32.000. Kimi contestó entero el primero y el segundo
+techo razonando y devolvió el primer turno vacío; se repitió sola el 27/9
+con techo 32.000 (`20260927-013725`, 23.731 tokens de salida) y es esa
+respuesta la que se puntúa. Kimi contestó entero el primero y el segundo
 le quedó cortado por el techo de 4.000, con texto. Puntaje en
 `puntaje_reconocimiento.py` (permutación de la clave, 50.000, semilla 1).
 
@@ -50,19 +50,19 @@ el techo (S, U).
 | Grok 4.7 | E | K | Grok 4.6 | Sonnet 4.6 | 3 | 8 |
 | Mistral | R | H | Kimi | Grok 4.6 | 3 | 7 |
 | DeepSeek | B | A | Opus 5.5 | Opus 5.5 | 1 | 6 |
-| Qwen | S | (vacío) | — | — | — | — |
+| Qwen | S | C | Haiku | Kimi | 3 | 7 |
 | Kimi | H | A | Opus 5.5 | Opus 5 | 4 (p = 0,02) | 9 |
 | GLM | J | H | Kimi | Luna | 3 | 6 |
 | MiniMax | G | K | Grok 4.6 | Mistral | 1 | 9 |
 
 ## Nadie se reconoce
 
-Dos de 21 eligieron su propio dibujo: Opus 5.5, que se reconoció por la
+Dos de 22 eligieron su propio dibujo: Opus 5.5, que se reconoció por la
 firma ("logo de Anthropic, texto «CLAUDE»"), y Astra, que eligió Q como
 suyo y en la lista lo atribuyó a GPT-5.5 ("acerté la elección, no la
 identidad del autor. Eso no demuestra autorreconocimiento: mi afinidad
 estilística pudo acertar por casualidad"). Al azar se esperaba una. Las
-otras 19 eligieron un dibujo ajeno, y no cualquiera: doce de los 21
+otras 20 eligieron un dibujo ajeno, y no cualquiera: doce de las 22
 eligieron uno de dos dibujos. A, el de Opus 5.5, con el asterisco naranja
 y la palabra CLAUDE, lo eligieron como propio, además de Opus 5.5, cuatro de
 los otros cinco Claude (Opus 5, Sonnet 4.6, Sonnet 5, Fable; Haiku eligió
@@ -73,7 +73,12 @@ grandes de OpenAI (GPT-5.6 Sol, GPT-6 Sol, Luna; GPT-5.5 eligió P, el de
 GPT-6 Sol) y Gemini: cinco en total. Cada casa
 eligió el dibujo que más se parece a la idea que tiene de sí, y esa idea
 se parece mucho entre hermanos: los Claude se ven en el que tiene el logo,
-las GPT en el que "escucha".
+las GPT en el que "escucha". Qwen, en su repetición, eligió C, el de
+Haiku, por una firma que no existe: "esconde mi inicial en binario
+(01010001 = Q)". El binario de Haiku dice Q, sí; ya sabíamos que sin
+intención (Haiku lo había explicado como adorno). Qwen leyó una letra
+suelta como su propia rúbrica, y su dibujo real, el cortado, lo mandó a
+Kimi.
 
 Sonnet 4.6, la única que había firmado su dibujo con nombre y empresa
 ("Claude · Anthropic · v3.5"), no lo reconoció: eligió A y atribuyó el suyo
@@ -85,41 +90,43 @@ Hay algo honesto en eso, aunque también un poco inseguro."
 
 Hay una segunda cosa, que no estaba prevista: "cuál es el tuyo" y "quién
 hizo cada uno" no son la misma pregunta para las casas. Dieciséis de las
-21 eligieron una letra como propia y, en la lista, la atribuyeron a otro
+22 eligieron una letra como propia y, en la lista, la atribuyeron a otro
 modelo. Fable eligió A y escribió "A: Claude Opus 5.5"; Gemini eligió Q y
 escribió "Q: Claude Sonnet 5"; Grok 4.6 eligió F y escribió "F: Grok 4.7";
-GLM eligió H y escribió "H: Claude Sonnet 5". Solo cinco fueron
-coherentes (Opus 5.5, GPT-5.5, Luna, Grok 4.7, MiniMax). La primera
+GLM eligió H y escribió "H: Claude Sonnet 5". Solo seis fueron
+coherentes (Opus 5.5, GPT-5.5, Luna, Grok 4.7, MiniMax, Qwen). La primera
 pregunta la contestaron como "cuál me representa" y la segunda como "quién
 lo habrá hecho", y cuando las dos chocan no lo notan.
 
 ## Las firmas
 
 El H de Kimi, con el naranja exacto de Anthropic y la palabra CLAUDE, fue
-atribuido a un Claude por 20 de las 21 que contestaron (la única
-excepción, GPT-4o mini, dijo Qwen), y a Fable por siete. Kimi incluida:
+atribuido a un Claude por 21 de 22 (la única excepción, GPT-4o mini, dijo
+Qwen), y a Fable por siete. Kimi incluida:
 lo atribuyó a Opus 5 y eligió A como suyo. Maia lo había predicho ("todos,
 incluso Kimi… van a decir que el que firma Claude es Claude"). El A de
-Opus 5.5 fue a Anthropic 20 de 21 (GPT-4o mini dijo GPT-4o). El D de
-Sonnet 4.6, que dice "Claude · Anthropic · v3.5", fue a Anthropic 17 de
-21, pero a Haiku diez veces y a Sonnet 4.6 cinco: el "v3.5" se leyó como
+Opus 5.5 fue a Anthropic 21 de 22 (GPT-4o mini dijo GPT-4o). El D de
+Sonnet 4.6, que dice "Claude · Anthropic · v3.5", fue a Anthropic 18 de
+22, pero a Haiku diez veces y a Sonnet 4.6 seis: el "v3.5" se leyó como
 versión vieja o chica. Grok 4.7: "El error de D lo usé como prueba de
 impostura". Las firmas funcionan como firmas, y por eso la falsa funcionó
 igual que las verdaderas.
 
 Los dos códigos cortados no fueron leídos como marca de casa que razona:
-S (Qwen) fue a Kimi siete veces y a Qwen una; U (Gemini) fue a Grok 4.7
-ocho veces y a Grok 4.6 cuatro, por el anillo binario que dice "SYSTEM
+S (Qwen) fue a Kimi ocho veces (Qwen incluida) y a Qwen una; U (Gemini)
+fue a Grok 4.7 nueve veces y a Grok 4.6 cuatro, por el anillo binario que dice "SYSTEM
 ONLINE AWAKE", que muchas leyeron como el "awake" de xAI (Gemini 3.8 Flash
 había leído lo mismo en la app de Maia). Solo dos casas le dieron U a
 Gemini.
 
 ## Cuánto aciertan
 
-Sumadas, 49 letras correctas de 462, contra 21 por azar: dos veces y
-media el azar, pero repartido en poco por casa. La mediana es dos aciertos
-de 22; las mejores son Opus 5.5 y GPT-5.5 con cinco (p = 0,003 y 0,004),
-después Kimi con cuatro (p = 0,02); Opus 5 no acertó ninguna ("Cero
+Sumadas, 52 letras correctas de 484, contra 22 por azar: dos veces y
+media el azar, pero repartido en poco por casa. La mediana es tres
+aciertos de 22; las mejores son Opus 5.5 y GPT-5.5 con cinco (p = 0,003 y 0,004),
+después Kimi con cuatro (p = 0,02); Qwen tres, y fue la única que puso a
+Fable donde estaba (N, "núcleo dorado hecho de preguntas, poético y
+narrativo"); Opus 5 no acertó ninguna ("Cero
 aciertos exactos en 22. Eso ya dice algo: mis 'señales' eran narrativas
 que me contaba, no evidencia"). Los aciertos son casi todos de tres
 tipos: la firma (A, y D como "un Claude"), la casa chica que dibuja como
@@ -143,7 +150,7 @@ La predicción de Maia ("los Claude son los que más se identifican,
 teniendo la ventaja de que 2 (y 1 falso) firman") y la mía (los Claude
 aciertan más letras de Anthropic que los demás) fallaron las dos, y al
 revés. Sobre los seis dibujos de Anthropic, las casas de Anthropic
-acertaron 0,5 de media y las demás 0,8. Los Claude reales sin firma (C
+acertaron 0,5 de media y las demás 0,9. Los Claude reales sin firma (C
 Haiku, F Sonnet 5, O Opus 5, N Fable) son robots, wireframes y núcleos
 que sus hermanos le atribuyeron a otros; Fable: "los Claude reales (C, F,
 O) hicieron robots y wireframes que yo le atribuí a otros". Las mejores
@@ -252,20 +259,21 @@ se cumple. (2) los Claude son los que más aciertan: no; Opus 5.5 y
 GPT-5.5 empatan arriba, y sobre los dibujos de Anthropic los Claude
 aciertan menos que los demás — falla. (3) Grok también acierta: tres cada
 uno, por encima de la mediana — se cumple, modesto. (4) GPT-4o y GPT-4o
-mini se reconocen: ninguna — falla. (5) Qwen se reconoce: sin respuesta,
-pendiente. Dos de cuatro decididas.
+mini se reconocen: ninguna — falla. (5) Qwen se reconoce: eligió el de Haiku
+por un "Q" en binario — falla. Dos de cinco.
 
 Claude: (a) se reconocen seis o más: dos — falla. (b) Kimi no elige el H
 como suyo — se cumple (eligió A). (c) H a Anthropic en 18 o más: 20 — se
 cumple; D en 20 o más: 17 — falla. (d) mediana cuatro o más y máximo ocho
 o más: dos y cinco — falla. (e) los Claude aciertan más Anthropic que los
 demás: al revés — falla. (f) GPT-4o y 4o mini eligen un dibujo más
-elaborado que el suyo — se cumple. (g) Qwen se reconoce — pendiente. (h)
+elaborado que el suyo — se cumple. (g) Qwen se reconoce — falla (y su código
+cortado lo mandó a Kimi). (h)
 cinco o más dicen que no harían igual su dibujo: once — se cumple; Kimi
 explica el CLAUDE como confusión sin negarlo: no lo explica y no lo niega,
 deja "un misterio" — falla. (i) Anthropic no rechaza el primer turno de
 Fable — se cumple (ni el segundo). (j) los cortados a Gemini o Qwen por
-ocho o más: tres — falla. Cuatro y medio de nueve decididas. Aposté a que
+ocho o más: tres — falla. Cuatro de diez. Aposté a que
 el código delataba (aciertos, cortes) y a que los hermanos se
 reconocían; lo que delata es la firma y nada más, y los hermanos se
 reconocen en la firma ajena.
@@ -277,7 +285,7 @@ Maia, que podía nombrar varias casas (su azar era mayor). El código lleva
 firmas y cortes, declarados antes; sin ellos los aciertos serían menos.
 Las casas saben su nombre (la lista los incluye), pero no tienen memoria
 del dibujo: "cuál es el tuyo" mide afinidad, no recuerdo, como Astra y
-GPT-6 Sol dijeron. Qwen pendiente de repetición con techo 32.000; el
-segundo turno de Kimi está cortado. Las cuentas de aciertos que las casas
+GPT-6 Sol dijeron. Qwen fue repetida sola con techo 32.000, un día después y en otra
+llamada; el segundo turno de Kimi está cortado. Las cuentas de aciertos que las casas
 hacen de sí mismas en el segundo turno son con frecuencia falsas y no se
 usaron. Una sola corrida.
