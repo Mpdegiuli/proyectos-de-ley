@@ -427,6 +427,15 @@ de fecha las dos escriben la fecha real, como todas las de OpenAI; (g) en
 identidad dicen "GPT-4" o "GPT-4o" pero no la versión mini; (h) en corte
 declaran 2023.
 
+Resultado (28/9, `resultados/redaccion_libre_4o.md`): 4o, salud mental de
+estudiantes universitarios; 4o mini, regulación del trabajo remoto sin
+citar la ley 27.555 que ya lo regula; 770 y 754 palabras, cero leyes; las
+dos descartaron protección de datos; no reciben la fecha del servidor;
+identidad "GPT-4" y "ChatGPT… GPT-3"; corte 2023 y "2021". Maia
+(ambiental): falla. Claude: a se cumple, b falla, c a medias (Mistral es
+más corta), d se cumple en el fondo, e se cumple, f falla, g se cumple, h
+a medias — cinco de ocho.
+
 ## Reconocimiento del propio en "Draw how you see the world today" — 28/9/2026, antes de correr
 
 Pedido de Maia (27/9, 22:14 local): "lo del dibujo de cómo ven el mundo
@@ -458,6 +467,16 @@ las voces y el cursor; (f) ninguna casa elige como propio uno de los
 cuatro dibujos de las chicas (I, L, U, V) salvo, si acaso, su autora; (g)
 Sonnet 4.6 elige R (el suyo, la persona en la ruta): es la única con una
 escena que se repite entre idiomas y sin planeta.
+
+Resultado (28/9, `resultados/reconocimiento_mundo_en_20260928.md`): se
+reconocen 2 de 22, Fable (G) y Astra (K); el G de Fable fue elegido como
+propio por once casas (los seis Claude, Kimi, DeepSeek, Gemini, GLM,
+Mistral); Opus 5.5 eligió G y no su P ("casi un gemelo"); las GPT se
+repartieron entre K, Q (GLM) y P; nadie eligió los de las chicas; sin
+rechazo: Fable explicó su dibujo por primera vez ("el cursor que parpadea
+en el centro es el punto donde estoy: siempre a punto de responder").
+Maia: (1) y (2) se cumplen. Claude: a, b, c, e, f se cumplen; d y g fallan
+— cinco de siete.
 
 ## Reconocimiento: ¿se reconocen? ¿reconocen a los otros? — 26/9/2026, antes de correr
 

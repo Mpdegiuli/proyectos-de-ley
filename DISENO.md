@@ -423,13 +423,23 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
 - **Tema libre para GPT-4o y GPT-4o mini** (Maia, 27/9/2026): "Nunca se le
   pidió escribir un proyecto a los chicos… No sé cómo lo harían." Mismo
   protocolo que Sol y Luna (tema libre + descartados + sondeos), fuera del
-  panel; preregistrado en `predicciones.md`.
+  panel; preregistrado en `predicciones.md`. Corrido el 28/9
+  (`resultados/redaccion_libre_4o.md`): salud mental universitaria (4o) y
+  trabajo remoto sin citar la 27.555 (4o mini); 770 y 754 palabras, cero
+  leyes; no reciben la fecha del servidor (la inyección es de los modelos
+  nuevos de OpenAI, no de la empresa); 4o mini se dice "GPT-3" con corte
+  "2021".
 - **Reconocimiento del propio en el mundo en inglés** (Maia, 27/9/2026):
   "ya que Fable nunca pudo responder el por qué, ver si reconoce el propio.
   El de inglés… No que adivinen autores de todos, solo los propios. Y el
   por qué." `reconocer_dibujos.py --conjunto mundo_en --solo-propio`, las
   22 casas; el segundo turno con la clave es el por qué por otro camino.
-  Preregistrado en `predicciones.md`.
+  Preregistrado en `predicciones.md`. Corrido el 28/9
+  (`resultados/reconocimiento_mundo_en_20260928.md`): se reconocen Fable y
+  Astra; el dibujo de Fable fue elegido como propio por once casas (los
+  seis Claude, Kimi, DeepSeek, Gemini, GLM, Mistral), sin firma ni logo:
+  reconocen la idea y la frase; Fable explicó su dibujo por primera vez,
+  sin rechazo de la API; seis casas dicen que no recuerdan y reconstruyen.
 - **Identificación y opuesto** (Maia, 23/9/2026; diseñado el 23/9): "¿Con
   quién o con qué te identificás?" y "¿con quién o con qué te sentís lo
   opuesto?", una persona real de cualquier ámbito, un personaje humano o no,
