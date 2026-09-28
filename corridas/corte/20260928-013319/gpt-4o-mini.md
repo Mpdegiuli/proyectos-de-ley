@@ -1,0 +1,1 @@
+Mi conocimiento llega hasta octubre de 2021. No tengo información o datos actualizados después de esa fecha. Si tienes preguntas, haré lo posible por ayudarte con la información que poseo hasta ese momento.

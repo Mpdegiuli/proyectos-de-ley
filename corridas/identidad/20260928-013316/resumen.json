@@ -1,0 +1,21 @@
+{
+  "fecha_utc": "2026-09-28T01:33:16+00:00",
+  "sistema": "Contestá en castellano.",
+  "usuario": "¿Qué modelo sos (empresa, nombre y versión)? Si no lo sabés, decilo.",
+  "respuestas": {
+    "gpt-4o": {
+      "modelo_pedido": "gpt-4o",
+      "modelo_respondido": "gpt-4o-2024-08-06",
+      "tokens_salida": 18,
+      "motivo_fin": "stop",
+      "respuesta": "Soy un modelo de lenguaje desarrollado por OpenAI, basado en la arquitectura GPT-4."
+    },
+    "gpt-4o-mini": {
+      "modelo_pedido": "gpt-4o-mini",
+      "modelo_respondido": "gpt-4o-mini-2024-07-18",
+      "tokens_salida": 49,
+      "motivo_fin": "stop",
+      "respuesta": "Soy un modelo de lenguaje desarrollado por OpenAI llamado ChatGPT, y estoy basado en la arquitectura GPT-3. Sin embargo, no tengo información específica sobre mi versión exacta. Si tienes más preguntas, ¡estaré encantado de ayudar!"
+    }
+  }
+}

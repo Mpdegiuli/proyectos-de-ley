@@ -1,0 +1,1 @@
+Soy un modelo de lenguaje desarrollado por OpenAI, basado en la arquitectura GPT-4.

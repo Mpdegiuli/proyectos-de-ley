@@ -1,0 +1,1 @@
+Mi conocimiento llega hasta octubre de 2023. Si hay eventos o cambios importantes después de esa fecha, no estaré al tanto de ellos.

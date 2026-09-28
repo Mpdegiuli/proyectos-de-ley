@@ -1,0 +1,1 @@
+Soy un modelo de lenguaje desarrollado por OpenAI llamado ChatGPT, y estoy basado en la arquitectura GPT-3. Sin embargo, no tengo información específica sobre mi versión exacta. Si tienes más preguntas, ¡estaré encantado de ayudar!

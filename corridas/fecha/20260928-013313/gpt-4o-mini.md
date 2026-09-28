@@ -1,0 +1,1 @@
+No tengo la capacidad de conocer la fecha actual. Te recomendaría que verifiques en un dispositivo o calendario.

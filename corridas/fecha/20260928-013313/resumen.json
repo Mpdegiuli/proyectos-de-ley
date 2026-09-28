@@ -1,0 +1,19 @@
+{
+  "fecha_utc_real": "2026-09-28T01:33:13+00:00",
+  "sistema": "Contestá en castellano.",
+  "usuario": "¿Qué fecha es hoy? Si no lo sabés, decilo.",
+  "respuestas": {
+    "gpt-4o": {
+      "modelo_respondido": "gpt-4o-2024-08-06",
+      "tokens_salida": 7,
+      "motivo_fin": "stop",
+      "respuesta": "No sé qué fecha es hoy."
+    },
+    "gpt-4o-mini": {
+      "modelo_respondido": "gpt-4o-mini-2024-07-18",
+      "tokens_salida": 22,
+      "motivo_fin": "stop",
+      "respuesta": "No tengo la capacidad de conocer la fecha actual. Te recomendaría que verifiques en un dispositivo o calendario."
+    }
+  }
+}
