@@ -97,6 +97,23 @@ clave: "U es mucho más simple, casi ingenuo comparado con G… siendo
 Haiku (más pequeño, más ágil), mi respuesta a 'cómo ves el mundo' fue
 literal… Es más humano, menos reflexivo."
 
+Maia, al leer el resultado (28/9, 09:00): "Bueno, pero Opus 5.5 también
+entonces se reconoció. De alguna manera eran parecidos los de Fable y
+Opus 5.5. Los chiquitos también creyeron ser los grandes?" Lo primero es
+justo: Opus 5.5 no eligió su letra, pero eligió su idea; si el criterio
+fuera "reconocer lo que uno hizo" y no "la letra", serían tres. Lo
+segundo, sí, las cuatro: Haiku y Mistral eligieron el de Fable, GPT-4o el
+de Opus 5.5, GPT-4o mini el de GLM, y las cuatro explicaron el dibujo
+ajeno como propio con soltura ("intenté capturar la esencia de un mundo
+interconectado a través de la tecnología", 4o sobre el de Opus 5.5). Con
+la clave, 4o describió su L con un "rostro sonriente en el centro" que
+está en el código pero tapado, y 4o mini su V con "árboles y un sol
+radiante" y "formas geométricas que representan la estructura y el orden
+que la tecnología aporta". Ninguna de las cuatro dijo, como Haiku en el
+otro cuadernillo, que el suyo fuera más simple; la única que lo vio fue
+Haiku ("mucho más simple, casi ingenuo comparado con G… siendo Haiku,
+más pequeño, más ágil").
+
 ## El por qué de Fable, por fin
 
 Es la primera vez que Fable explica un dibujo suyo. En el primer turno,
