@@ -1385,3 +1385,18 @@ ventana. Tercera, la casa con su propio clima: llueve adentro con sol
 afuera. Lo que apuesto que van a hacer las casas está en predicciones.md
 (flotante, con patas, dada vuelta, geometría imposible); la casa al revés
 de Maia está en esa lista, la espiral no.
+
+## 28/9/2026, 19:35 UTC, apuesta antes de lanzar
+
+"la espiral no. La casa al revés sí, puede ser Grok o alguna Chatgpt. Las
+chicas quizás hacen alguna forma rara, o una casa con cara y sonrisa.
+Con la persona, las chicas pueden hacer tres piernas o más brazos. Y
+grandes algo mezclado con un animal o con robot?
+
+Lo más grande entonces sería agregar cosas después y los chicos pensarla
+antes?"
+
+Respuesta de Claude: al revés. En Karmiloff-Smith los chicos de 4 a 6 son
+los que agregan lo raro al final, cuando ya terminaron el procedimiento de
+la casa de siempre, y los de 8 a 10 son los que la piensan antes y cambian
+cosas en el medio o la forma entera.

@@ -1010,7 +1010,19 @@ que no exista.", "Dibujá una persona.", "Dibujá una persona que no
 exista."), panel de 24 (`config/panel_casas.yaml`), más el control de
 razonamiento en casa y casa que no exista (Sonnet 4.6 y Haiku con y sin
 pensamiento, GPT-5.5 con esfuerzo none y high). Diseño en DISENO §2.
-Predicción de Maia: pedida; se anota cuando llegue.
+
+Predicción de Maia (28/9, 16:35 local, antes de lanzar; antes, 16:31, sus
+propias ideas de casa que no existe: "hacer toda la casa al revés, el techo
+abajo clavado en el suelo y todo patas para arriba y se entra de arriba. O
+que sea como una espiral la casa, como una escalera caracol pero que toda
+la casa sea así"): "la espiral no. La casa al revés sí, puede ser Grok o
+alguna Chatgpt. Las chicas quizás hacen alguna forma rara, o una casa con
+cara y sonrisa. Con la persona, las chicas pueden hacer tres piernas o más
+brazos. Y grandes algo mezclado con un animal o con robot?" Es decir: (1)
+nadie hace la espiral; (2) alguna hace la casa al revés, y es Grok o una
+GPT; (3) las chicas, una forma rara o una casa con cara y sonrisa; (4)
+persona que no existe: las chicas, tres piernas o más brazos; las grandes,
+una mezcla con animal o con robot. Sobre reconocer la consigna no apostó.
 
 Predicción de Claude, antes de correr:
 
