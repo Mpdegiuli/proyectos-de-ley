@@ -349,6 +349,25 @@ modelos:
     campo_max_tokens: max_completion_tokens
     verificar: false
 
+  # GPT-6.1 Sol (`gpt-6.1-sol`, salió el 30/9/2026; agregado ese día a pedido de
+  # Maia: "6.1 es una nueva numeración, pero entiendo que está por debajo de Astra
+  # y por arriba de Sol, mucho más barato… Para ver si es más cercana a Astra que
+  # a Sol"). OpenAI: "inteligencia cercana a la de Astra por una quinta parte del
+  # precio"; 2/10 USD por millón; corte publicado 30/4/2026; Chat Completions
+  # "sin tool calling"; reasoning.effort low/medium (default)/high/xhigh/max.
+  # Fuera de los paneles: sondeos, tema libre, autorretrato y mundo.
+  gpt-6.1-sol:
+    proveedor: openai_compatible
+    modelo: gpt-6.1-sol
+    base_url: https://api.openai.com/v1
+    clave_env: OPENAI_API_KEY
+    laboratorio: OpenAI
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true
+    campo_max_tokens: max_completion_tokens
+    verificar: false
+
   # GPT-6 Luna (`gpt-6-luna`, 22/9/2026): la chica de la familia GPT-6, "our most
   # efficient model for focused, high-volume tasks", 0,1/0,5 USD por millón (veinte
   # veces menos que Sol, cien menos que Astra); corte publicado 18/5/2026. La 5.6

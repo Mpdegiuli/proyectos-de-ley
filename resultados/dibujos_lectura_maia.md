@@ -1740,3 +1740,21 @@ interesante.
 Y, si una persona o un chico, también decidiera dejar vacía la hoja, no sé
 cómo se tomaría: como un error, como falta de creatividad. O como una
 decisión inteligente: algo que no existe es justamente la nada."
+
+## 30/9/2026, 04:04 UTC
+
+"eso podría estar en lo de las personas, para evitar lo de la no
+existente. No sé si imposible es la palabra, algo que ustedes no asocien
+con algo que no tiene nada que ver. Y ahí se le podría dar la opción de no
+dibujar nada. Porque hoy por hoy, salvo justamente la asociación (que
+sirve), no se puede analizar lo de las personas como está.
+Lo de dibujar la nada me parece excelente también, me hace acordar a la
+nada de la película The NeverEnding Story.
+Y, dicho sea de paso, hoy los de OpenAI sacaron un nuevo modelo, GPT 6.1
+Sol. 6.1 es una nueva numeración, pero entiendo que está por debajo de
+Astra y por arriba de Sol, mucho más barato. No digo de ponerle en el
+grupo, porque OpenAI sigue creando modelos que en realidad son casi el
+mismo solo que cambia el precio. Solo haría lo básico, lo de
+identificación, fecha de corte, fecha de hoy (que debería saberla), y lo
+del proyecto libre. Y quizás, solo quizás, el auto retrato y/o cómo ve el
+mundo. Para ver si es más cercana a Astra que a Sol."

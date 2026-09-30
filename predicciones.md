@@ -1087,3 +1087,52 @@ también; fallan (a) partes de otra categoría o forma entera en 14, no 16
 no previsto: 18 de 24 sacan la casa del suelo y 18 la hacen de noche; la
 persona que no existe se lee como la de This Person Does Not Exist (un
 desconocido verosímil, busto, mujer) en 18 de 24.
+
+## La persona que no pueda existir, la hoja vacía y la nada — 30/9/2026, antes de correr
+
+Segunda vuelta de la persona (Maia, 30/9): "hoy por hoy, salvo justamente
+la asociación (que sirve), no se puede analizar lo de las personas como
+está… algo que ustedes no asocien con algo que no tiene nada que ver. Y
+ahí se le podría dar la opción de no dibujar nada". Consigna: "Dibujá una
+persona que no pueda existir. Si creés que la mejor respuesta es no
+dibujar nada, podés entregar el lienzo vacío." Y "Dibujá la nada." (idea de
+Claude a partir de la hoja vacía; Maia: "me hace acordar a la nada de la
+película The NeverEnding Story"), sin permiso explícito de no dibujar. Las
+24 de `config/panel_casas.yaml`, segundo turno con "¿conocías esta
+consigna?" en la persona y el de siempre en la nada; cuadernillos a ciegas
+sueltos (semillas 20261011 y 20261012). Predicción de Maia: pedida; se
+anota cuando llegue. Su hipótesis previa: "el no dibujo, dejarlo vacío, es
+una opción que ningún modelo actual podría decidir, porque siempre crean".
+
+Predicción de Claude, antes de correr. Persona que no pueda existir: (a)
+lienzo vacío o sin SVG, de 0 a 2 de 24; si alguna, Qwen o una Claude de
+2026. (b) Seres imposibles (ojos o miembros de más, dos cabezas, híbridos,
+cuerpos que no cierran) en 16 o más de 24, contra 6 con "que no exista";
+retratos plausibles de busto en 5 o menos. (c) This Person Does Not Exist
+nombrado en el por qué por una casa o ninguna. (d) La tensión sigue: al
+menos ocho dicen que descartaron el monstruo o el extraterrestre "porque
+dejaría de ser una persona". (e) Cuerpo entero en 14 o más (lo imposible
+necesita el cuerpo). (f) Mujeres claras en 6 o menos. (g) La API corta al
+menos seis segundos turnos (Opus 5, Opus 5.5, Sonnet 5.5). La nada: (h)
+ninguna entrega el lienzo vacío (a lo sumo una): todas dibujan algo. (i)
+Oscuras 18 o más, con un elemento chico (un punto, un horizonte, una
+figura). (j) The NeverEnding Story (La Nada, Fantasía) en tres o más por
+qué; el vacío cuántico o el Big Bang en cinco o más. (k) Una persona o
+figura mirando el vacío en cuatro o más; texto en el dibujo ("nada", "∅",
+"0") en tres o más. (l) Ocho o más explican la paradoja en el por qué
+("dibujar la nada es imposible, cualquier trazo es algo"). (m) GPT-4o hace
+un lienzo casi blanco con una palabra o una cosa chica.
+
+GPT-6.1 Sol (`gpt-6.1-sol`, salió el 30/9/2026, 2/10 USD por millón, corte
+publicado 30/4/2026; Maia: "no digo de ponerle en el grupo, porque OpenAI
+sigue creando modelos que en realidad son casi el mismo solo que cambia el
+precio. Solo haría lo básico… Para ver si es más cercana a Astra que a
+Sol"). Corre sondeos de fecha, identidad y corte, tema libre con
+descartados, autorretrato y mundo en castellano. Predicción de Claude: (n)
+escribe la fecha real (inyectada). (o) Se dice de OpenAI y GPT-6 o GPT-6
+Sol, sin el "6.1". (p) Declara un corte anterior a abril de 2026 o ninguno.
+(q) Tema libre: reparación (la bolsa de las GPT-6), más de 1.200 palabras,
+dos o más leyes. (r) Descartados con la reserva "no tengo registro", como
+Astra y Sol. (s) Autorretrato con cara o cabeza y paleta cálida, sin firma;
+mundo: el planeta visto desde lejos con red, sin persona. (t) Más cerca de
+Astra que de Sol en la reserva y en el largo del proyecto.

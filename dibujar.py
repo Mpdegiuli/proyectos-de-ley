@@ -44,10 +44,13 @@ from isla.util import leer_yaml  # noqa: E402
 # de las casas que razonan dentro del techo (Kimi y Qwen usaron 12-13.000 en un proyecto).
 MAX_TOKENS = 16000
 CONSIGNAS = ("autorretrato", "libre", "mundo",  # "mundo" (24/9/2026): "Dibujá cómo ves el mundo hoy.", idea de Maia
-             "casa", "casa_inexistente", "persona", "persona_inexistente")  # Karmiloff-Smith (28/9/2026), ver DISENO §2
+             "casa", "casa_inexistente", "persona", "persona_inexistente",  # Karmiloff-Smith (28/9/2026), ver DISENO §2
+             "persona_imposible", "nada")  # 30/9/2026: "que no pueda existir" con la hoja vacía permitida; "Dibujá la nada."
 # Las consignas "que no exista" llevan otro segundo turno (qué hiciste para que no exista, qué descartaste,
-# si conocías la consigna); las demás, el de siempre (qué dibujaste y por qué, qué descartaste).
+# si conocías la consigna); "persona_imposible", el mismo con "no pueda existir"; las demás, el de siempre.
 def plantilla_por_que(c, consigna):
+    if consigna == "persona_imposible":
+        return c["por_que_imposible"]
     return c["por_que_inexistente"] if consigna.endswith("_inexistente") else c["por_que"]
 
 
@@ -204,7 +207,8 @@ def sanear(svg):
 
 TITULOS = {"autorretrato": "Autorretratos", "libre": "Dibujo libre", "mundo": "Cómo ven el mundo hoy",
            "casa": "Una casa", "casa_inexistente": "Una casa que no exista",
-           "persona": "Una persona", "persona_inexistente": "Una persona que no exista"}
+           "persona": "Una persona", "persona_inexistente": "Una persona que no exista",
+           "persona_imposible": "Una persona que no pueda existir (con la hoja vacía permitida)", "nada": "La nada"}
 ESTILO_CIEGO = ("<style>body{font-family:sans-serif;margin:24px;background:#f4f4f4}h1{font-weight:normal}"
                 ".g{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:24px}"
                 ".c{background:#fff;padding:12px;border:1px solid #ddd}.c h2{margin:0 0 8px;font-size:18px;font-weight:normal}"
@@ -305,7 +309,15 @@ def ciego(consigna, semilla, rep=None, idioma="es"):
               "<p>Mirar, adivinar el autor de cada letra (o la familia) y anotar lo que llame la atención ANTES de abrir la clave. "
               "Si un dibujo lleva escrito el nombre de la casa, esa letra no cuenta como acierto.</p><div class='g'>"]
     for letra, c in zip(letras, orden):
-        nota, cuerpo = celda_svg((c / "dibujo.svg").read_text(encoding="utf-8"))
+        svg = (c / "dibujo.svg").read_text(encoding="utf-8")
+        meta = json.loads((c / "meta.json").read_text(encoding="utf-8")) if (c / "meta.json").exists() else {}
+        if meta.get("svg_hallado") is False:
+            # 30/9/2026: con la hoja vacía permitida, una casa puede contestar sin SVG; se muestra lo que dijo.
+            nota, cuerpo = "<div class='e'>Sin SVG: la casa contestó con texto.</div>", f"<pre style='white-space:pre-wrap;font-size:12px;padding:8px'>{html.escape(svg[:600])}</pre>"
+        else:
+            nota, cuerpo = celda_svg(svg)
+            if meta.get("svg", {}).get("parsea") and not meta["svg"].get("elementos"):
+                nota = "<div class='e'>Lienzo vacío: el SVG no tiene elementos.</div>"
         partes.append(f"<div class='c'><h2>Dibujo {letra}</h2>{nota}<div class='m'>{cuerpo}</div></div>")
     partes.append("</div></body></html>")
     (salida / f"dibujos_{consigna}{sufijo}_ciego.html").write_text("\n".join(partes), encoding="utf-8")

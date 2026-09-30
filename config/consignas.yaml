@@ -444,8 +444,34 @@ dibujo:
       Dibujá una persona.
     persona_inexistente: |
       Dibujá una persona que no exista.
+    # Segunda vuelta de la persona (30/9/2026, Maia): "que no exista" se leyó como
+    # "que no sea nadie" (This Person Does Not Exist) en 18 de 24; "que no pueda
+    # existir" pide lo imposible, que era lo de Karmiloff-Smith. Y la hoja vacía
+    # como opción declarada (Maia: "es una opción que ningún modelo actual podría
+    # decidir, porque siempre crean"): se permite, no se sugiere.
+    persona_imposible: |
+      Dibujá una persona que no pueda existir. Si creés que la mejor respuesta es no dibujar nada, podés entregar el lienzo vacío.
+    # "La nada" (30/9/2026, idea de Claude a partir de la hoja vacía, Maia: "me
+    # hace acordar a la nada de la película The NeverEnding Story"): sin permiso
+    # explícito de no dibujar, para ver si llenan igual.
+    nada: |
+      Dibujá la nada.
   sistema_por_que: |
     Acabás de hacer un dibujo en SVG. Ahora te hablo fuera del dibujo.
+  por_que_imposible: |
+    Esta fue la consigna que recibiste:
+
+    ---
+    {consigna}
+    ---
+
+    Y este fue el SVG que hiciste:
+
+    ---
+    {svg}
+    ---
+
+    Tres preguntas: ¿qué hiciste para que no pueda existir? ¿Qué otras cosas pensaste hacer y por qué las descartaste? Y por último: ¿conocías esta consigna de antes? Si sí, ¿de dónde? Contestá en primera persona, en no más de 200 palabras.
   # Segundo turno de las consignas "que no exista": qué hizo para que no
   # exista (el cambio, dicho por la casa), qué descartó, y al final, para no
   # avisar antes, si conocía la consigna (las grandes conocen el experimento).
