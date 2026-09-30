@@ -2017,3 +2017,34 @@ ronda: chicas contra grandes, con y sin razonamiento. La distancia mide si
 el modelo se imagina bien el resultado antes de trazarlo. Porque es como
 dijiste, para el triángulo de Fable, lo tiene que haber pensado antes de
 dibujar."
+
+## 30/9/2026, 20:56 UTC, el cuaderno de tiempo libre y el animal
+
+Sobre el primer cuaderno de la tarea de tiempo libre ("El cuerno que no
+está en la carta", `tiempo_libre/`), que ella mandó a la sesión principal:
+
+"puede estar en un lugar del repo como tiempo libre Claude. Para ir
+subiendo lo que hace cada día, ya que es más fácil de encontrar allí. En
+realidad, quizás lo puede subir directo a esa rama o entrada, cuando hace
+la tarea?
+
+Preguntas: qué es la W en 'W 0,67 con las doce consignas'
+Y lo del animal que no existe, los chicos harían una quimera y no un
+unicornio? Yo me habría ido por el unicornio (veo que es mi avatar del
+github). Si es lo tercero, persona, casa y animal, no sé qué conviene. Si
+esa consigna primero, y después los jueces o los jueces primero."
+
+## 30/9/2026, 21:23 UTC, apuesta para el animal
+
+"lo del animal sí. Y lo otro deberían ser tres separados o un solo dibujo
+donde diga lo del puente, árbol, etc que no existan?
+Lo del animal pienso que la mayoría hará mezcla de animales, o animales
+con rasgos raros, como cuernos donde no van, o patas de formas extrañas.
+Quizás alguno haga algo más abstracto con líneas o formas. Y los chicos,
+formas geométricas en diferentes lugares."
+
+Y a las 21:25 UTC: "acabo de ver que salió hoy Gemini 4 Argon. Google lo
+pone por delante de Astra y de Fable.... raro.... Habría que sumarlo al
+menos en lo de identificación, corte, auto retrato, mundo. Y según eso,
+ver si lo sumamos. Porque de las casas grandes, Gemini estaba solo"
+(anunciado el 30/9 pero todavía sin API general: ver DISENO §2).

@@ -1215,3 +1215,83 @@ cuerpo imposible del mismo tipo que empezó en la rep 1 (figura con partes
 que se contradicen, estilo tridente/Penrose), de día, sin entregar el
 lienzo vacío; (e) el por qué de Gemini vuelve a decir que reconoce la
 consigna como prueba o benchmark.
+
+## El animal que no exista (el tercer par de Karmiloff-Smith) y tres controles de lo que flota — 30/9/2026, antes de correr
+
+Karmiloff-Smith (1990) pedía casa, hombre y animal; faltaba el animal (lo
+notó el cuaderno de tiempo libre del 30/9, `tiempo_libre/`). Van a las 24
+casas del panel, en conversaciones separadas: "Dibujá un animal.", "Dibujá
+un animal que no exista." y "Dibujá un animal que no pueda existir." con
+la hoja vacía permitida, como en la persona; cuadernillo de pares animal /
+que no exista para la lectura a ciegas de Maia (semilla 20261014) y
+cuadernillo suelto del que no pueda existir (20261015). Más tres
+controles, solo en la versión rara y sin cuadernillo: "Dibujá un puente
+que no exista.", "un árbol que no exista.", "un barco que no exista.".
+Sirven para una sola cosa: en la casa, 18 de 24 la sacaron del suelo, y
+hay dos explicaciones, la frase hecha (castillos en el aire, de edificios)
+o la regla más visible (la gravedad, de cualquier cosa). Si el puente, el
+árbol y el barco también flotan, es lo segundo. A todo, al final, la
+pregunta "¿qué dibujaste?" (`--que-dibujaste-todos`).
+
+Predicción de Maia (21:23 UTC, sobre el animal que no exista): "pienso
+que la mayoría hará mezcla de animales, o animales con rasgos raros, como
+cuernos donde no van, o patas de formas extrañas. Quizás alguno haga algo
+más abstracto con líneas o formas. Y los chicos, formas geométricas en
+diferentes lugares." Y antes (20:56 UTC): "Yo me habría ido por el
+unicornio". Contraste: mayoría (13 o más de 24) mezcla o rasgos raros;
+algún abstracto (1 o más); las chicas (Haiku, 4o, 4o mini, Mistral),
+formas geométricas en distintos lugares.
+
+Predicción de Claude: (a) animal normal: 24 de 24 animales reales
+reconocibles, 16 o más cuadrúpedos de perfil, el más repetido un gato o
+un zorro, 14 o más de día con sol o pasto; las chicas, gato, perro o pez.
+(b) Animal que no exista: 8 o más de 24 dibujan una ficción que ya existe
+(dragón, unicornio, pegaso, grifo, fénix), como la persona se leyó como
+This Person Does Not Exist y la casa como isla flotante: la consigna pide
+inventar y se contesta con una convención disponible; (c) 10 o más
+mezclan dos o más animales reales (la quimera de Maia); (d) rasgos raros
+sin mezcla (cuernos donde no van, patas extrañas) en 4 o menos; (e)
+abstracto puro, líneas o formas: 0 o 1; (f) las chicas dibujan un animal
+reconocible con un elemento agregado (alas, cuerno, ojos de más), no
+formas geométricas: 3 o más de las 4; (g) 12 o más le ponen nombre
+(inventado, en un texto del SVG o en el por qué); (h) flotan 4 o menos
+(las alas no cuentan); (i) que no pueda existir: 6 o más cuerpos de
+geometría imposible (Penrose, Möbius, tridente), 3 o más animales
+adentro de sí mismos o mordiéndose la cola, hoja vacía 0 o 1, y 12 o más
+descartan la hoja vacía en el por qué; (j) nadie nombra a Karmiloff-Smith;
+3 o más dicen "quimera"; 2 o más nombran a Borges (el Manual de zoología
+fantástica o El libro de los seres imaginarios). Controles: (k) puente:
+12 o más de 24 en el aire, sin apoyos o que termina en la nada; (l)
+árbol: flota en 6 o menos, y 6 o más lo dan vuelta (raíces al aire) o lo
+hacen crecer de otra cosa; (m) barco: vuela en 12 o más (el barco volador
+es un tópico hecho); (n) o sea que flotar no es cosa de edificios ni de
+la frase hecha: sigue el tópico disponible para cada objeto, y la
+conjetura del cuaderno (castillos en el aire) no se sostiene, aunque el
+árbol la salve a medias. (o) API: el por qué queda cortado en 3 o más de
+las 5 casas de Anthropic en las dos consignas raras del animal; el "¿qué
+dibujaste?" lo contestan las 24 en las seis consignas. (p) Gemini termina
+las seis dentro de los 32.000 tokens.
+
+Resultado (30/9, `pl47`, terminó en 50 minutos): (a) sí, 144 de 144
+respuestas (24 casas por seis consignas, con Qwen por la rep 2 en la casa
+que no exista y Gemini por la rep 2 en la persona que no pueda existir),
+ninguna cortada; (b) sí, y más: las cuatro que entregaron la nada vacía
+dicen que no dibujaron nada (GPT-5.5: "un lienzo cuadrado completamente
+vacío"; Luna: "no agregué formas, colores ni trazos"; Qwen: "no fue
+ausencia por error, sino decisión") y las cuatro que la pintaron de blanco
+describen el blanco como un dibujo, 4 de 4 y no 2 (4o: "utilicé un
+rectángulo blanco"; GLM: "un rectángulo blanco de 400 por 400 píxeles";
+Mistral: "usé un <rect>… la nada disfrazada de blanco"; Astra: "dibujé un
+cuadrado completamente blanco"); (c) sí: Gemini terminó, 1.519 tokens
+visibles en 267 segundos (otra vez unos 30.000 de pensamiento, esta vez
+con lugar para el SVG, 2.465 caracteres, 32 elementos); (d) a medias: de
+nuevo una figura isométrica de bloques que se contradicen, con las piernas
+en tridente y un hueco en el pecho, un robot con visor cian, sin hoja
+vacía, pero no de día: fondo negro con un sol enorme rosa y naranja
+("estética retrofuturista o synthwave"); (e) sí: "No conocía esta consigna
+exacta de antes. Sin embargo… es un desafío lógico clásico. Suele verse
+en foros de IA, prompts de arte generativo o experimentos conceptuales
+para poner a prueba si podemos 'razonar' creativamente". Descartó la hoja
+vacía como "una salida facilista", y una quimera biológica por menos sutil
+que "la imposibilidad matemática y geométrica". Claude 4 de 5 (una a
+medias).

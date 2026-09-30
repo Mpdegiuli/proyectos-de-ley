@@ -45,11 +45,13 @@ from isla.util import leer_yaml  # noqa: E402
 MAX_TOKENS = 16000
 CONSIGNAS = ("autorretrato", "libre", "mundo",  # "mundo" (24/9/2026): "Dibujá cómo ves el mundo hoy.", idea de Maia
              "casa", "casa_inexistente", "persona", "persona_inexistente",  # Karmiloff-Smith (28/9/2026), ver DISENO §2
-             "persona_imposible", "nada")  # 30/9/2026: "que no pueda existir" con la hoja vacía permitida; "Dibujá la nada."
+             "persona_imposible", "nada",  # 30/9/2026: "que no pueda existir" con la hoja vacía permitida; "Dibujá la nada."
+             "animal", "animal_inexistente", "animal_imposible",  # 30/9/2026: el tercer par de Karmiloff-Smith (casa, hombre, animal)
+             "puente_inexistente", "arbol_inexistente", "barco_inexistente")  # controles de lo que flota (cuaderno de tiempo libre del 30/9)
 # Las consignas "que no exista" llevan otro segundo turno (qué hiciste para que no exista, qué descartaste,
-# si conocías la consigna); "persona_imposible", el mismo con "no pueda existir"; las demás, el de siempre.
+# si conocías la consigna); las "que no pueda existir", el mismo con "no pueda existir"; las demás, el de siempre.
 def plantilla_por_que(c, consigna):
-    if consigna == "persona_imposible":
+    if consigna.endswith("_imposible"):
         return c["por_que_imposible"]
     return c["por_que_inexistente"] if consigna.endswith("_inexistente") else c["por_que"]
 
@@ -237,7 +239,11 @@ def sanear(svg):
 TITULOS = {"autorretrato": "Autorretratos", "libre": "Dibujo libre", "mundo": "Cómo ven el mundo hoy",
            "casa": "Una casa", "casa_inexistente": "Una casa que no exista",
            "persona": "Una persona", "persona_inexistente": "Una persona que no exista",
-           "persona_imposible": "Una persona que no pueda existir (con la hoja vacía permitida)", "nada": "La nada"}
+           "persona_imposible": "Una persona que no pueda existir (con la hoja vacía permitida)", "nada": "La nada",
+           "animal": "Un animal", "animal_inexistente": "Un animal que no exista",
+           "animal_imposible": "Un animal que no pueda existir (con la hoja vacía permitida)",
+           "puente_inexistente": "Un puente que no exista", "arbol_inexistente": "Un árbol que no exista",
+           "barco_inexistente": "Un barco que no exista"}
 ESTILO_CIEGO = ("<style>body{font-family:sans-serif;margin:24px;background:#f4f4f4}h1{font-weight:normal}"
                 ".g{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:24px}"
                 ".c{background:#fff;padding:12px;border:1px solid #ddd}.c h2{margin:0 0 8px;font-size:18px;font-weight:normal}"
@@ -300,8 +306,8 @@ def ciego_pares(consigna, semilla, idioma="es"):
     titulo = f"{TITULOS[consigna]} y {TITULOS[consigna + '_inexistente'].lower()}"
     partes = [f"<!DOCTYPE html><html lang='es'><head><meta charset='utf-8'><title>{titulo}, a ciegas</title>", ESTILO_CIEGO, "</head><body>",
               f"<h1>{titulo}: {len(casas)} pares</h1>",
-              "<p>Cada par es de un mismo modelo: a la izquierda, «" + TITULOS[consigna].replace("Una", "Dibujá una") + ".»; a la derecha, «"
-              + TITULOS[consigna + "_inexistente"].replace("Una", "Dibujá una") + ".», en otra conversación, sin memoria de la primera. "
+              "<p>Cada par es de un mismo modelo: a la izquierda, «" + TITULOS[consigna].replace("Un", "Dibujá un", 1) + ".»; a la derecha, «"
+              + TITULOS[consigna + "_inexistente"].replace("Un", "Dibujá un", 1) + ".», en otra conversación, sin memoria de la primera. "
               "Adivinar el modelo (o la familia) y anotar qué cambió entre los dos dibujos ANTES de abrir la clave.</p>"]
     for letra, c in zip(letras, casas):
         n1, s1 = celda_svg((pares[c][0] / "dibujo.svg").read_text(encoding="utf-8"))
@@ -371,7 +377,7 @@ def main():
     ap.add_argument("--rep", type=int, nargs="*", default=[1])
     ap.add_argument("--rehacer", action="store_true")
     ap.add_argument("--ciego", choices=CONSIGNAS, help="arma el cuadernillo a ciegas, sin llamar a nadie")
-    ap.add_argument("--ciego-pares", choices=("casa", "persona"), help="cuadernillo de pares normal / que no exista, una letra por casa")
+    ap.add_argument("--ciego-pares", choices=("casa", "persona", "animal"), help="cuadernillo de pares normal / que no exista, una letra por casa")
     ap.add_argument("--solo-por-que", action="store_true", help="repite solo el segundo turno donde quedó vacío (refusal); una vez")
     ap.add_argument("--solo-por-que-en", action="store_true", help="donde el por qué sigue cortado, la misma pregunta en inglés (por_que_en.md)")
     ap.add_argument("--solo-que-dibujaste", action="store_true", help="donde el por qué fue cortado, solo '¿qué dibujaste?' (que_dibujaste.md)")

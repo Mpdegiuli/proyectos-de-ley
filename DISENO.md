@@ -611,7 +611,49 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   todas las casas en las seis consignas de Karmiloff-Smith y la nada, y
   Gemini de nuevo en la persona que no pueda existir como rep 2 con 64.000
   (de cero, sin mostrarle lo que había alcanzado: mostrárselo sería otra
-  consigna).
+  consigna). Nota de la sesión de tiempo libre del 30/9 (`tiempo_libre/`,
+  el rinoceronte escrito a ciegas cuyas patas salieron "con tapa"): hay una
+  distancia en la dirección contraria, lo que se ve y nadie afirmó, porque
+  sale del medio (formas cerradas apiladas, cada una con su borde) y el
+  autor no lo puede ver; propuesta de Claude: una pregunta más a los jueces
+  con visión, "lo más visible del dibujo que la descripción no menciona",
+  como quinto casillero (no dicho). Pendiente de que Maia lo decida.
+- **El animal que no exista y tres controles de lo que flota** (30/9/2026;
+  el animal lo notó el cuaderno de tiempo libre del 30/9: Karmiloff-Smith
+  pedía casa, hombre y animal; Maia: "lo del animal sí"). "Dibujá un
+  animal.", "Dibujá un animal que no exista." y "Dibujá un animal que no
+  pueda existir." con la hoja vacía permitida (como la persona), a las 24
+  casas del panel, cada consigna en su conversación; cuadernillo de pares
+  animal / que no exista para la lectura a ciegas de Maia (semilla
+  20261014) y cuadernillo suelto del que no pueda existir (20261015). Lo
+  que se mide es lo de la casa y la persona (tipo de cambio, posición en el
+  código, día o noche, si flota), más dos cosas propias del animal: cuántos
+  contestan con una ficción que ya existe (dragón, unicornio, pegaso, grifo:
+  el equivalente de This Person Does Not Exist y de la isla flotante) y
+  cuántos con una quimera, la mezcla de animales que Karmiloff-Smith pone
+  entre los cambios de los más grandes. Los controles, propuestos por el
+  cuaderno: "Dibujá un puente que no exista.", "un árbol que no exista.",
+  "un barco que no exista.", solo la versión rara, sin cuadernillo, para
+  desempatar por qué 18 de 24 sacaron la casa del suelo, si por la frase
+  hecha (castillos en el aire, que es de edificios) o por la regla más
+  visible (la gravedad, de cualquier cosa); Maia preguntó si iban en un solo
+  dibujo o en tres, y van en tres, porque en uno solo la decisión de flotar
+  se toma una vez para la escena. A todo, al final, "¿qué dibujaste?"
+  (`--que-dibujaste-todos`), para la distancia. `plantilla_por_que` ahora
+  elige por sufijo (`_inexistente`, `_imposible`). Preregistro de las dos
+  partes en `predicciones.md`. Corrida `pl48`, 30/9, después de `pl47`.
+- **Gemini 4 Argon** (anunciado por Google el 30/9/2026; Maia: "Google lo
+  pone por delante de Astra y de Fable… Habría que sumarlo al menos en lo
+  de identificación, corte, autorretrato, mundo. Y según eso, ver si lo
+  sumamos. Porque de las casas grandes, Gemini estaba solo"). El 30/9 no
+  está en la API general: sale primero a un programa cerrado de
+  ciberdefensa (Fairwind) y "lo antes posible" a los clientes pagos de la
+  API; precio de lanzamiento 2 / 10 USD por millón, salida de hasta un
+  millón de tokens. `catalogo_google.py` lista los modelos que ve la clave
+  (`corridas/catalogo_google.txt`, corre al final de `pl48`): el día que
+  aparezca, se agrega a `config/modelos.yaml` con el id real y va primero a
+  los sondeos (fecha, identidad, corte), identificación, autorretrato y
+  mundo, como GPT-6.1 Sol; después se decide si entra al panel.
 - **GPT-6.1 Sol** (`gpt-6.1-sol`, 30/9/2026; Maia: "solo haría lo básico…
   para ver si es más cercana a Astra que a Sol"): fuera de los paneles,
   sondeos de fecha, identidad y corte, tema libre con descartados,

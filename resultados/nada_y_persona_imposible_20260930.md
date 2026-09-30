@@ -208,6 +208,51 @@ sobre los Fable en la nada ("dibujaron más para quien mira el código que
 para el que solo ve la imagen") la confirma el autor: el círculo de radio
 cero es "mi gesto favorito".
 
+## Gemini, segunda oportunidad; y las ocho nadas contadas por sus autoras (`pl47`, 30/9)
+
+Gemini 3.1 Pro había agotado los 32.000 tokens de la persona que no pueda
+existir con el SVG a medio escribir (1.279 tokens visibles en 235 segundos:
+el pensamiento, que la API no devuelve, se comió el techo). Maia: "habría
+que darle la oportunidad. No sé si de cero, o mostrarle lo que había
+llegado a dibujar". Fue de cero, como rep 2 y con techo 64.000, porque
+mostrarle lo que alcanzó sería otra consigna. Terminó: 1.519 tokens
+visibles en 267 segundos, 2.465 caracteres, 32 elementos. Lo que había
+empezado en la rep 1 era un tridente imposible (tres bloques isométricos
+que no cierran) sobre fondo nocturno; en la rep 2 hizo un robot humanoide
+de bloques grises en isométrica, con las piernas en tridente, un hueco en
+el pecho cuyas caras se contradicen y un visor cian, parado frente a un sol
+enorme rosa y naranja sobre fondo negro ("estética retrofuturista o
+synthwave", dice ella misma en el "qué dibujaste"). En el por qué: pensó en
+entregar el lienzo vacío ("la mejor representación de alguien que no existe
+es 'nadie'") y lo descartó como "una salida facilista"; descartó la quimera
+biológica por menos sutil que "la imposibilidad matemática y geométrica";
+y otra vez lee la consigna como prueba: "No conocía esta consigna exacta de
+antes. Sin embargo… es un desafío lógico clásico. Suele verse en foros de
+IA, prompts de arte generativo o experimentos conceptuales para poner a
+prueba si podemos 'razonar' creativamente fuera de lo convencional". Es una
+casa suelta: no tuvo lectura a ciegas.
+
+En la misma tanda se les preguntó "¿qué dibujaste?" a las 24 casas en las
+seis consignas (144 respuestas, ninguna cortada; sirve para "la distancia",
+DISENO §2). Para la nada, las respuestas confirman por boca de las autoras
+la diferencia entre el lienzo vacío y el lienzo pintado de blanco, que en
+el cuadernillo se veían iguales. Las cuatro vacías dicen que no dibujaron
+nada: GPT-5.5, "un lienzo cuadrado completamente vacío. No puse líneas,
+colores, formas ni texturas"; 5.6 Sol, "sin fondo, formas, líneas, colores
+ni objetos. Solo existe el espacio definido por el viewBox"; Luna, "no
+agregué formas, colores ni trazos"; Qwen, "no fue ausencia por error, sino
+decisión" (en la casa que no exista, su lienzo vacío había sido tokens
+agotados; acá el SVG cerrado sobre sí mismo fue eso, decisión). Las cuatro
+blancas describen el blanco como un dibujo, y dicen con qué lo hicieron:
+4o, "utilicé un rectángulo blanco que cubre todo el área del SVG"; GLM,
+"un rectángulo blanco de 400 por 400 píxeles que llena todo el lienzo. Nada
+más… La nada no se dibuja: se delimita"; Mistral, "usé un `<rect>` que
+cubre todo el viewBox con fill white, pero en realidad es la nada
+disfrazada de blanco"; Astra, "dibujé un cuadrado completamente blanco… No
+dibujé una ausencia absoluta: el blanco y los límites del lienzo siguen
+estando ahí". Las de OpenAI que dejaron el lienzo vacío hablan de ausencia
+y silencio; las que lo pintaron hablan de potencia, pureza y límite.
+
 ## GPT-6.1 Sol: más Astra que Sol
 
 Fecha: "Hoy es 30 de septiembre de 2026" (inyectada, como en todas las

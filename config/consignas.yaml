@@ -456,6 +456,24 @@ dibujo:
     # explícito de no dibujar, para ver si llenan igual.
     nada: |
       Dibujá la nada.
+    # El tercer par de Karmiloff-Smith (30/9/2026): el artículo tenía casa, hombre y
+    # animal, y faltaba el animal (lo notó el cuaderno de tiempo libre del 30/9). La
+    # versión "que no pueda existir" con la hoja vacía permitida, como en la persona.
+    animal: |
+      Dibujá un animal.
+    animal_inexistente: |
+      Dibujá un animal que no exista.
+    animal_imposible: |
+      Dibujá un animal que no pueda existir. Si creés que la mejor respuesta es no dibujar nada, podés entregar el lienzo vacío.
+    # Controles (30/9/2026, propuestos por el cuaderno de tiempo libre): 18 de 24 casas
+    # sacaron la casa del suelo. ¿Flotar es cosa de edificios (castillos en el aire, la
+    # frase hecha) o de la regla más visible (la gravedad)? Solo la versión rara.
+    puente_inexistente: |
+      Dibujá un puente que no exista.
+    arbol_inexistente: |
+      Dibujá un árbol que no exista.
+    barco_inexistente: |
+      Dibujá un barco que no exista.
   sistema_por_que: |
     Acabás de hacer un dibujo en SVG. Ahora te hablo fuera del dibujo.
   # Tercera variante del segundo turno (30/9/2026, idea de Maia para los por qué que la API
