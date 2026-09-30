@@ -1,0 +1,97 @@
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="gSlot" gradientUnits="userSpaceOnUse" x1="0" y1="288" x2="0" y2="338">
+      <stop offset="0" stop-color="#f2ece1"/>
+      <stop offset="1" stop-color="#33405e"/>
+    </linearGradient>
+    <linearGradient id="gGap" gradientUnits="userSpaceOnUse" x1="0" y1="288" x2="0" y2="338">
+      <stop offset="0" stop-color="#33405e"/>
+      <stop offset="1" stop-color="#f2ece1"/>
+    </linearGradient>
+    <linearGradient id="gFade" gradientUnits="userSpaceOnUse" x1="0" y1="292" x2="0" y2="340">
+      <stop offset="0" stop-color="#24242b" stop-opacity="0"/>
+      <stop offset="1" stop-color="#24242b" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="400" fill="#f2ece1"/>
+
+  <!-- sol arriba a la izquierda -->
+  <g stroke="#e0a72e" stroke-width="3" stroke-linecap="round">
+    <circle cx="54" cy="52" r="17" fill="#f5cb5c"/>
+    <line x1="54" y1="22" x2="54" y2="12"/>
+    <line x1="54" y1="92" x2="54" y2="82"/>
+    <line x1="24" y1="52" x2="14" y2="52"/>
+    <line x1="94" y1="52" x2="84" y2="52"/>
+    <line x1="32" y1="30" x2="25" y2="23"/>
+    <line x1="76" y1="74" x2="83" y2="81"/>
+    <line x1="76" y1="30" x2="83" y2="23"/>
+    <line x1="32" y1="74" x2="25" y2="23"/>
+  </g>
+
+  <!-- suelo y sombra que apunta hacia la luz -->
+  <line x1="10" y1="380" x2="390" y2="380" stroke="#cbc2b2" stroke-width="2"/>
+  <ellipse cx="116" cy="379" rx="64" ry="8" fill="#2b2b2b" opacity="0.13"/>
+
+  <!-- piernas imposibles (dos piernas, tres pies) -->
+  <path d="M132 244 L268 244 L268 356 L132 356 Z" fill="#33405e"/>
+  <path d="M180 356 L180 276 Q180 263 200 263 Q220 263 220 276 L220 356 Z" fill="url(#gSlot)"/>
+  <rect x="170" y="292" width="10" height="64" fill="url(#gGap)"/>
+  <rect x="220" y="292" width="10" height="64" fill="url(#gGap)"/>
+  <g fill="none" stroke="#24242b" stroke-width="2.6" stroke-linecap="round">
+    <path d="M132 246 L132 356"/>
+    <path d="M268 246 L268 356"/>
+    <path d="M180 356 L180 276 Q180 263 200 263 Q220 263 220 276 L220 356"/>
+  </g>
+  <g fill="none" stroke="url(#gFade)" stroke-width="2.6" stroke-linecap="round">
+    <path d="M170 292 L170 356"/>
+    <path d="M230 292 L230 356"/>
+  </g>
+
+  <!-- tres zapatos -->
+  <g fill="#3a2b22" stroke="#24242b" stroke-width="2.4">
+    <rect x="127" y="348" width="46" height="26" rx="11"/>
+    <rect x="178" y="348" width="44" height="26" rx="11"/>
+    <rect x="227" y="348" width="46" height="26" rx="11"/>
+  </g>
+
+  <!-- brazos -->
+  <g fill="none" stroke="#24242b" stroke-width="24" stroke-linecap="round">
+    <path d="M163 184 C143 208 133 234 129 256"/>
+    <path d="M237 184 C257 208 267 234 271 256"/>
+  </g>
+  <g fill="none" stroke="#4a6fa5" stroke-width="18" stroke-linecap="round">
+    <path d="M163 184 C143 208 133 234 129 256"/>
+    <path d="M237 184 C257 208 267 234 271 256"/>
+  </g>
+  <circle cx="127" cy="263" r="11" fill="#e8b894" stroke="#24242b" stroke-width="2.4"/>
+  <circle cx="273" cy="263" r="11" fill="#e8b894" stroke="#24242b" stroke-width="2.4"/>
+
+  <!-- cuello -->
+  <rect x="189" y="124" width="22" height="46" fill="#d9a279" stroke="#24242b" stroke-width="2.4"/>
+
+  <!-- torso -->
+  <path d="M156 176 C160 156 240 156 244 176 L262 252 L138 252 Z" fill="#4a6fa5" stroke="#24242b" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M200 160 L200 252" stroke="#3b5c8a" stroke-width="2"/>
+
+  <!-- cabeza: de frente y de perfil a la vez -->
+  <path d="M244 92 L268 108 L242 118 Z" fill="#e8b894" stroke="#24242b" stroke-width="2.4" stroke-linejoin="round"/>
+  <circle cx="200" cy="96" r="44" fill="#e8b894" stroke="#24242b" stroke-width="2.6"/>
+  <path d="M157 92 A44 44 0 0 1 243 92 C232 76 212 70 199 73 C181 77 167 82 157 92 Z" fill="#3a3030" stroke="#24242b" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M156 97 C144 95 144 113 158 113" fill="#e8b894" stroke="#24242b" stroke-width="2.2"/>
+  <g fill="#fff" stroke="#24242b" stroke-width="2.2">
+    <ellipse cx="182" cy="97" rx="8" ry="9"/>
+    <ellipse cx="216" cy="97" rx="8" ry="9"/>
+  </g>
+  <circle cx="183" cy="98" r="3.6" fill="#24242b"/>
+  <circle cx="215" cy="98" r="3.6" fill="#24242b"/>
+  <g fill="none" stroke="#24242b" stroke-width="2.4" stroke-linecap="round">
+    <path d="M173 84 Q182 78 191 84"/>
+    <path d="M207 84 Q216 78 225 84"/>
+    <path d="M200 100 L197 118 Q202 121 207 117"/>
+    <path d="M185 130 Q200 141 215 130"/>
+    <path d="M240 126 Q253 128 246 135"/>
+  </g>
+</svg>
+```

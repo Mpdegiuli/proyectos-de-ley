@@ -1,0 +1,3 @@
+Dibujé un cuadrado blanco, sin figuras ni marcas. Interpreté «la nada» como ausencia de contenido visible: dejé el lienzo vacío en vez de representar un objeto que la simbolizara. Pero no dibujé la nada literalmente: el blanco, el rectángulo y sus límites ya son algo. Es una aproximación visual, no una solución a esa paradoja.
+
+No puedo asegurar qué alternativas pensé entonces; puedo explicar cuáles descartaría ahora. Un fondo negro me sugeriría oscuridad o espacio. Un círculo vacío convertiría la nada en una figura delimitada. La palabra «nada» nombraría el concepto en lugar de dibujarlo. Un SVG sin elementos también sería posible, pero dejaría su apariencia en manos del fondo donde se mostrara. Con el rectángulo blanco fijé una superficie deliberadamente sin marcas.

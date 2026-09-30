@@ -1,0 +1,39 @@
+{
+  "caso": "dibujo",
+  "consigna": "persona_imposible",
+  "idioma": "es",
+  "modelo": "claude-fable-5",
+  "modelo_respondido": "claude-fable-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T04:31:42+00:00",
+  "fuentes_md5": {
+    "consignas": "b2661c54"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 3063,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3444,
+    "parsea": true,
+    "elementos": 47,
+    "textos": [],
+    "colores": 19,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 1,
+      "stop": 2,
+      "mask": 1,
+      "rect": 5,
+      "circle": 9,
+      "g": 5,
+      "ellipse": 7,
+      "path": 16
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-fable-5",
+    "motivo_fin": "refusal",
+    "tokens_salida": 0
+  }
+}

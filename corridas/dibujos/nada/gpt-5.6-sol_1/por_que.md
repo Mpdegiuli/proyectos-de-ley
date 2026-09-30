@@ -1,0 +1,3 @@
+Dibujé la nada de la forma más literal posible: definí el lienzo solicitado, pero no coloqué ningún elemento visible dentro. El SVG existe como marco y posibilidad, mientras que su contenido permanece ausente. Elegí además no agregar fondo, para que ni siquiera un color funcionara como representación del vacío.
+
+Pensé en dibujar un rectángulo negro como abismo, un campo blanco, un círculo vacío, un punto diminuto, la palabra “nada” o alguna figura borrada. Los descarté porque todos introducían algo: una superficie, un símbolo, una metáfora, una huella o una explicación. También consideré usar transparencias, máscaras o formas del color del fondo, pero habría objetos ocultos en el código. Preferí que la ausencia no fuera una ilusión visual, sino una ausencia efectiva.

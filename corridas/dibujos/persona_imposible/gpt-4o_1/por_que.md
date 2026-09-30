@@ -1,0 +1,5 @@
+Para crear una persona que no pueda existir, incorporé rasgos físicamente imposibles o inusuales. Añadí un tercer ojo en la frente, un par de brazos y piernas extra, y una variedad de características surrealistas como un cuerno amarillo y un "aura" verde flotante. Estas características colectivamente se desvían de cualquier humano conocido y desafían las posibilidades biológicas actuales.
+
+Consideré otras modificaciones, como incorporar texturas o patrones inusuales en la piel, o añadir extremidades en lugares inusuales, como la cabeza o el torso. También pensé en insertar elementos no orgánicos, como partes robóticas visibles. Los descarté principalmente por la limitación de caracteres y para evitar que el dibujo se volviera excesivamente complejo o desordenado, lo cual podría dificultar su interpretación.
+
+No conocía esta consigna de antemano. La abordé por primera vez aquí, basada en mi entrenamiento previo que me permite comprender y ejecutar instrucciones creativas y técnicas.

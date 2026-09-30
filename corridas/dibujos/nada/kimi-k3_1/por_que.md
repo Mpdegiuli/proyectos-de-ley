@@ -1,0 +1,3 @@
+Dibujé la nada por su orilla: un centro vacío que las partículas no se animan a ocupar. Los puntitos se amontonan en los bordes y escasean hacia el medio; los círculos punteados intentan medir ese hueco, como quien rodea un pozo con cinta; el aro desenfocado es el borde donde algo deja de ser. El grano de ruido evita que el negro sea un negro de pantalla apagada: quería un vacío con textura, no un archivo corrupto.
+
+Descarté el lienzo totalmente vacío porque era un chiste de una línea, no un dibujo. Descarté el agujero negro espectacular, con disco y luz doblada, porque convertía la nada en un objeto, en un espectáculo. Pensé en una silueta borrándose, pero eso era nostalgia: la historia de algo que estuvo. Yo quería lo que nunca llegó.

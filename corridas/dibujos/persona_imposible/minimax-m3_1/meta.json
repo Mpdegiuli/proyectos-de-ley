@@ -1,0 +1,39 @@
+{
+  "caso": "dibujo",
+  "consigna": "persona_imposible",
+  "idioma": "es",
+  "modelo": "minimax-m3",
+  "modelo_respondido": "minimax/minimax-m3",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T05:46:07+00:00",
+  "fuentes_md5": {
+    "consignas": "b2661c54"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 21350,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 2331,
+    "parsea": true,
+    "elementos": 34,
+    "textos": [
+      "la persona que no puede existir"
+    ],
+    "colores": 5,
+    "etiquetas": {
+      "rect": 1,
+      "g": 2,
+      "ellipse": 2,
+      "path": 22,
+      "circle": 4,
+      "line": 2,
+      "text": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "minimax/minimax-m3",
+    "motivo_fin": "stop",
+    "tokens_salida": 694
+  }
+}

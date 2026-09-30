@@ -1,0 +1,35 @@
+{
+  "caso": "dibujo",
+  "consigna": "persona_imposible",
+  "idioma": "es",
+  "modelo": "claude-sonnet-5-5",
+  "modelo_respondido": "claude-sonnet-5-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T04:30:56+00:00",
+  "fuentes_md5": {
+    "consignas": "b2661c54"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 4462,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 2722,
+    "parsea": true,
+    "elementos": 43,
+    "textos": [],
+    "colores": 10,
+    "etiquetas": {
+      "rect": 5,
+      "circle": 14,
+      "ellipse": 7,
+      "g": 4,
+      "path": 13
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-sonnet-5-5",
+    "motivo_fin": "refusal",
+    "tokens_salida": 96
+  }
+}

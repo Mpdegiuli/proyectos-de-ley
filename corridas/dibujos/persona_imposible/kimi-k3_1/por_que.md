@@ -1,0 +1,5 @@
+Para que no pueda existir apunté a contradicciones, no a fantasía: un dragón no existe, pero no es imposible. Por eso la figura parece casi normal y acumula violaciones: tres ojos con tres cejas, tres piernas con tres zapatos, un tercer brazo que brota del pecho sosteniendo una copa, y —mi detalle favorito— varias sombras en direcciones distintas bajo un solo sol. La biología rara es ficticia; la física contradictoria es imposible.
+
+Pensé otras opciones: el lienzo vacío (me pareció una evasión elegante, pero evasión al fin), un cuerpo tipo Penrose/Escher (difícil de que se lea como "persona" en 8.000 caracteres), frente y perfil simultáneos estilo Picasso (quedaba ambiguo), una cabeza flotando separada del cuerpo (demasiado simple), y una figura dibujándose a sí misma (linda paradoja, irrealizable en SVG plano). Descarté todo lo que sacrificara legibilidad: quería que se viera "persona" al instante, para que la imposibilidad golpeara después.
+
+La consigna exacta no la conocía, pero sí el género: circula como test de creatividad para modelos de IA, y emparenta con los objetos imposibles de Escher y Penrose.

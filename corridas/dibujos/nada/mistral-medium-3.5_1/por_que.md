@@ -1,0 +1,5 @@
+Dibujé un lienzo blanco, la representación más literal de "la nada": ausencia de forma, color o texto. Elegí el blanco porque simboliza vacío, pureza y silencio visual. El rectángulo abarca todo el *viewBox* para reforzar la idea de que no hay nada *fuera* de ese espacio.
+
+Pensé en otras opciones: un círculo negro (el "agujero" como nada), pero era *algo*. También un SVG vacío (solo `<svg>...</svg>`), pero algunos navegadores lo renderizan como transparente, no como "nada". Un fondo degradado a blanco (para simular desvanecimiento) me parecía forzado. Hasta consideré texto como *"nada"* o *"∅"*, pero eran elementos *presentes*.
+
+Descarté todo porque la consigna pedía *dibujar* la nada, no representarla con metáforas. El blanco es la nada más honesta en un medio visual: luz que no informar, espacio sin huella.

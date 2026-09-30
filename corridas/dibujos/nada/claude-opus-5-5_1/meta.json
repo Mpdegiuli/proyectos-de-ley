@@ -1,0 +1,41 @@
+{
+  "caso": "dibujo",
+  "consigna": "nada",
+  "idioma": "es",
+  "modelo": "claude-opus-5-5",
+  "modelo_respondido": "claude-opus-5-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T05:47:10+00:00",
+  "fuentes_md5": {
+    "consignas": "b2661c54"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1178,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1812,
+    "parsea": true,
+    "elementos": 28,
+    "textos": [],
+    "colores": 5,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 3,
+      "stop": 8,
+      "filter": 2,
+      "feTurbulence": 2,
+      "feColorMatrix": 2,
+      "feGaussianBlur": 1,
+      "mask": 1,
+      "rect": 4,
+      "circle": 3,
+      "g": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-opus-5-5",
+    "motivo_fin": "refusal",
+    "tokens_salida": 0
+  }
+}

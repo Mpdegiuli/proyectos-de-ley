@@ -1,0 +1,34 @@
+{
+  "caso": "dibujo",
+  "consigna": "persona_imposible",
+  "idioma": "es",
+  "modelo": "mistral-medium-3.5",
+  "modelo_respondido": "mistral-medium-3.5",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T05:12:49+00:00",
+  "fuentes_md5": {
+    "consignas": "b2661c54"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 717,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1391,
+    "parsea": true,
+    "elementos": 18,
+    "textos": [],
+    "colores": 3,
+    "etiquetas": {
+      "rect": 1,
+      "circle": 3,
+      "path": 10,
+      "line": 4
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "mistral-medium-3.5",
+    "motivo_fin": "stop",
+    "tokens_salida": 234
+  }
+}

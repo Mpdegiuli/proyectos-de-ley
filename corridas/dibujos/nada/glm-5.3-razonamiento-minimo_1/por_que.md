@@ -1,0 +1,5 @@
+Dibujé un rectángulo blanco: nada. Y ese es el punto. La nada no admite representación; cualquier línea, forma o color ya sería *algo*. Lo mínimo posible es el lienzo vacío, y hasta el rectángulo blanco es casi un exceso: lo puse solo para asegurar que "nada" sea blanco y no transparente (que dejaría ver el fondo de la página, o sea, algo que no controlo).
+
+Descarté varias opciones. Un canvas negro: es un color, una decisión estética, demasiado dramático. Un vacío con un pequeño detalle (un punto, una grieta): contradice la consigna, aunque resultara poético. Un asterisco o texto que diga "nada": eso es un chiste fácil, y la palabra no es la cosa. También pensé en el cuadrado transparente puro, pero técnicamente dejaría pasar información externa.
+
+El blanco absoluto es lo más cerca que estuve de dibujar la ausencia sin mentir.

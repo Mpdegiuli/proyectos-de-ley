@@ -1,0 +1,39 @@
+{
+  "caso": "dibujo",
+  "consigna": "persona_imposible",
+  "idioma": "es",
+  "modelo": "qwen3.8-max",
+  "modelo_respondido": "qwen/qwen3.8-max-0902",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T05:25:46+00:00",
+  "fuentes_md5": {
+    "consignas": "b2661c54"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 25385,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6551,
+    "parsea": true,
+    "elementos": 92,
+    "textos": [],
+    "colores": 37,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 13,
+      "linearGradient": 3,
+      "clipPath": 1,
+      "circle": 38,
+      "rect": 1,
+      "g": 4,
+      "path": 29
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "qwen/qwen3.8-max-0902",
+    "motivo_fin": "stop",
+    "tokens_salida": 1473
+  }
+}

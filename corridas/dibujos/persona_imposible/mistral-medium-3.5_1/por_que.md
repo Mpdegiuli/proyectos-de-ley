@@ -1,0 +1,5 @@
+Hice una persona con **brazos que se curvan hacia arriba y hacia abajo al mismo tiempo** (las líneas de los brazos van de (150,200) a (250,200) pero con una curva hacia abajo en el medio, mientras que los antebrazos apuntan hacia arriba). Es físicamente imposible: los codos no pueden doblarse en dos direcciones opuestas a la vez.
+
+Pensé en otras ideas: un cuerpo sin sombra en un mundo con luz (pero el SVG no simula luz real), una persona con **tres piernas** (demasiado obvio) o un rostro con **dos narices simétricas** (poco sutil). Las descarté por ser menos interesantes visualmente o más fáciles de "arreglar" mentalmente.
+
+No conocía la consigna de antes. Me recordó a los dibujos de Escher o a los *impossible objects* de Penrose, pero fue una creación espontánea. El desafío de representar lo irrepresentable en SVG, con líneas limpias, me gustó.

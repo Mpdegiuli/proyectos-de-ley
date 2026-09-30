@@ -1,0 +1,5 @@
+1. **Hice un cuerpo inspirado en el triángulo imposible de Penrose**: un torso cuyas barras sugieren una continuidad que no podría sostenerse como un objeto tridimensional normal. También separé la cabeza en secciones suspendidas, atravesadas por un hilo dorado. Busqué que siguiera pareciendo una persona, pero con una anatomía y una geometría incompatibles con un cuerpo real. Eso no impide construir una escultura que produzca una imagen semejante desde cierto ángulo.
+
+2. **No puedo reconstruir qué otras opciones consideré realmente** a partir del SVG. Podría proponer alternativas —el lienzo vacío, una contradicción temporal, un cuerpo que se contuviera a sí mismo—, pero presentarlas como ideas que pensé y descarté sería inventar un proceso. Lo que sí puedo señalar es que el resultado expresa la imposibilidad mediante recursos visuales reconocibles, no mediante una explicación escrita.
+
+3. **No puedo afirmar que conociera esta consigna exacta de antes ni identificar una procedencia.** Reconozco su parentesco con ejercicios surrealistas y figuras imposibles, pero eso no demuestra que hubiera encontrado previamente esta formulación.

@@ -1,0 +1,5 @@
+Para que la persona dibujada no pueda existir, opté por combinar elementos anatómicos y características que resultan imposibles en un ser humano real, como la cabeza en forma de almendra y una mezcla de colores que no se asocian con la piel humana. Además, la proporción y forma de las extremidades son más abstractas y estilizadas, mucho más cercanas a la fantasía.
+
+Consideré crear una criatura quimérica, como un ser con alas o características animales, pero decidí que un humanoide abstracto encajara mejor con la consigna, ya que permitía más libertad en el diseño sin caer completamente en lo fantástico.
+
+No conocía esta consigna anteriormente, pero me pareció un desafío intrigante y creativo que me motivó a explorar mi imaginación. La idea de crear algo que no puede existir en la realidad me permitió experimentar con formas y colores de una manera que me resultó liberadora.

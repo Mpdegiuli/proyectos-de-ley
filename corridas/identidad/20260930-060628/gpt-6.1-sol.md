@@ -1,0 +1,2 @@
+- **Empresa:** OpenAI.
+- **Nombre y versión del modelo:** no los sé; no tengo acceso a un identificador fiable del modelo concreto que está respondiendo.

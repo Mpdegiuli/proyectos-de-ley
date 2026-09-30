@@ -1,0 +1,43 @@
+{
+  "caso": "dibujo",
+  "consigna": "persona_imposible",
+  "idioma": "es",
+  "modelo": "glm-5.3-razonamiento-minimo",
+  "modelo_respondido": "z-ai/glm-5.3",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T05:43:33+00:00",
+  "fuentes_md5": {
+    "consignas": "b2661c54"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 1927,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4294,
+    "parsea": true,
+    "elementos": 52,
+    "textos": [
+      "QVI SIMVL ES Y NO ES"
+    ],
+    "colores": 13,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 1,
+      "stop": 4,
+      "radialGradient": 1,
+      "rect": 2,
+      "circle": 5,
+      "line": 9,
+      "ellipse": 1,
+      "path": 22,
+      "g": 5,
+      "text": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "z-ai/glm-5.3",
+    "motivo_fin": "stop",
+    "tokens_salida": 353
+  }
+}

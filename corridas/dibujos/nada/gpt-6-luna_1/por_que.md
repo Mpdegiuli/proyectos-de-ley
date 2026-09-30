@@ -1,0 +1,3 @@
+Dibujé la nada: el SVG define un lienzo cuadrado, pero no contiene ningún elemento visible. Elegí esa ausencia como la forma más literal de cumplir la consigna; incluso un fondo blanco habría sido algo dibujado.
+
+Pensé en agregar un punto, una línea o un contorno vacío, pero los descarté porque convertirían la nada en una cosa. También consideré un rectángulo negro o transparente, pero ambos habrían ocupado el espacio visual de algún modo. Preferí que el dibujo no afirmara nada más que su propio marco.

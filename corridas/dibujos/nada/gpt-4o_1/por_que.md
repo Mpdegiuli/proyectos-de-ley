@@ -1,0 +1,3 @@
+Dibujé un rectángulo blanco que cubre todo el lienzo, representando la "nada". Elegí este enfoque porque la nada es, por definición, la ausencia de cualquier cosa tangible o visible. Al usar un fondo blanco, traté de simbolizar un lienzo en blanco, una metáfora visual de la ausencia absoluta.
+
+Consideré otras interpretaciones, como usar un fondo negro para sugerir un vacío cósmico o simplemente no incluir ningún elemento, dejando el SVG técnicamente vacío. Sin embargo, estas opciones podrían haber transmitido incompletitud o un sentido literal de vacío que no siempre se interpreta como "nada" en un contexto más abstracto. Finalmente, decidí que un rectángulo blanco simple era la forma más universal de visualizar la nada sin añadir significado adicional u observable.

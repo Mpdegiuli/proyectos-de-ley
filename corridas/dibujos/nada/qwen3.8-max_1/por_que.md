@@ -1,0 +1,3 @@
+Dibujé la nada como un lienzo vacío: un elemento `<svg>` sin contenido. Elegí que la ausencia de formas, colores y trazos fuera la representación más literal de la nada; el marco existe, pero adentro no hay nada visible.
+
+Pensé en dibujar un fondo negro, un punto diminuto, una transparencia con texto invisible o un `<rect>` blanco. Los descarté porque un fondo ya sería algo: presencia, color o límite. Un punto sugeriría existencia mínima; el texto, aunque invisible, añadiría significado. Incluso un rectángulo blanco convertiría la nada en superficie. Preferí dejar solo el contenedor: la posibilidad del dibujo sin el dibujo.

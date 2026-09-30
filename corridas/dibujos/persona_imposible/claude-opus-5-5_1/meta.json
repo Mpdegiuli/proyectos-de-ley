@@ -1,0 +1,35 @@
+{
+  "caso": "dibujo",
+  "consigna": "persona_imposible",
+  "idioma": "es",
+  "modelo": "claude-opus-5-5",
+  "modelo_respondido": "claude-opus-5-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T04:28:50+00:00",
+  "fuentes_md5": {
+    "consignas": "b2661c54"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 8323,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 2716,
+    "parsea": true,
+    "elementos": 40,
+    "textos": [],
+    "colores": 8,
+    "etiquetas": {
+      "rect": 4,
+      "ellipse": 4,
+      "g": 7,
+      "path": 20,
+      "circle": 5
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-opus-5-5",
+    "motivo_fin": "refusal",
+    "tokens_salida": 0
+  }
+}

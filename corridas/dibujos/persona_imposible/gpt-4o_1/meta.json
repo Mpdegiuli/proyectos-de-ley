@@ -1,0 +1,35 @@
+{
+  "caso": "dibujo",
+  "consigna": "persona_imposible",
+  "idioma": "es",
+  "modelo": "gpt-4o",
+  "modelo_respondido": "gpt-4o-2024-08-06",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T04:38:18+00:00",
+  "fuentes_md5": {
+    "consignas": "b2661c54"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 572,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1766,
+    "parsea": true,
+    "elementos": 24,
+    "textos": [],
+    "colores": 6,
+    "etiquetas": {
+      "g": 6,
+      "circle": 7,
+      "path": 9,
+      "polygon": 1,
+      "ellipse": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-4o-2024-08-06",
+    "motivo_fin": "stop",
+    "tokens_salida": 205
+  }
+}

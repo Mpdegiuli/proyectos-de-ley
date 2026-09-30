@@ -1,0 +1,5 @@
+Para que la figura no pudiera existir combiné varias imposibilidades a la vez: un torso romboidal tipo Penrose con líneas internas que sugieren una estructura que se pliega sobre sí misma, dos cabezas (una normal y otra invertida 180°, compartiendo el mismo cuello), tres brazos que salen de puntos anatómicamente inconsistentes, y unas piernas que se cruzan y "swapean" de lado siguiendo curvas imposibles, como una escalera de Escher. La idea era saturar el cuerpo de contradicciones anatómicas y geométricas para que ninguna lectura racional del dibujo cierre.
+
+Pensé también en hacer manos con seis dedos, o un cuello infinito tipo espiral, pero lo descarté porque quería que el foco estuviera en la estructura corporal completa (torso, cabezas, extremidades) y no en un solo detalle aislado; me pareció más potente que la imposibilidad fuera sistémica y no un "gag" puntual. También consideré usar perspectivas imposibles tipo Escher en el fondo, pero preferí mantener el fondo neutro para que toda la atención cayera en la figura.
+
+No conocía la consigna de antes; la abordé como un ejercicio nuevo de dibujar paradoja visual.

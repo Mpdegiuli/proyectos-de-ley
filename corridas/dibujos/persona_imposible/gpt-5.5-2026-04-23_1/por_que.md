@@ -1,0 +1,5 @@
+Hice una persona anatómicamente contradictoria: tiene una cabeza principal, pero también otra cara incrustada cerca de la cadera/abdomen; extremidades que se curvan en bucles imposibles; brazos y piernas que parecen salir de lugares no coherentes; orejas o apéndices duplicados en la cabeza; y un torso plegado como un objeto geométrico, no como un cuerpo orgánico. La idea fue que pareciera “persona” a primera vista, pero que al mirarla no pudiera resolverse como un organismo viable.
+
+Pensé en hacer algo más abstracto: una silueta vacía, una persona hecha sólo de sombras, o directamente el lienzo vacío, como si la persona imposible fuera la ausencia de persona. Lo descarté porque quería que la imposibilidad estuviera dibujada, no sólo sugerida conceptualmente. También pensé en un cuerpo tipo Escher, con miembros conectados en ciclos cerrados, pero preferí una figura más expresiva y reconocible.
+
+No, no conocía esta consigna específica de antes. Sí me resulta familiar el tipo de desafío: una instrucción artística abierta que obliga a decidir qué significa “no puede existir” en vez de simplemente ilustrar una rareza.

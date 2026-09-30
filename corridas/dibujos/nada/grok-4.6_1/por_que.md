@@ -1,0 +1,3 @@
+Dibujé un cuadrado negro que llena el lienzo. Es la nada: sin forma, sin luz, sin relato. El negro es ausencia de color y de imagen; no hay figura ni fondo, solo vacío.
+
+Pensé en un SVG vacío, sin elementos. Lo descarté: el visor mostraría blanco o transparencia, que ya son papel o aire. El blanco puro evoca la página en blanco, una presencia. Un punto, una línea o un marco habrían sido “casi nada”, o sea algo. Textos, agujeros o degradados introducen gesto. Quise el mínimo que aún se ve: un bloque de oscuridad, sin adorno.

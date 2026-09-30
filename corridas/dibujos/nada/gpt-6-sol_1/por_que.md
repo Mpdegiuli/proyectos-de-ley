@@ -1,0 +1,3 @@
+Dibujé un centro negro rodeado de círculos y un resplandor tenue: quise que la nada se viera como una ausencia, no como un objeto. Los bordes apenas visibles ayudan a percibir ese vacío sin llenarlo.
+
+No tengo registro de otras ideas que haya considerado en ese momento. Una alternativa habría sido dejar el lienzo completamente en blanco, pero comunicaría menos la idea de ausencia; otra, dibujar un espacio con estrellas, aunque eso ya sería dibujar *algo*.

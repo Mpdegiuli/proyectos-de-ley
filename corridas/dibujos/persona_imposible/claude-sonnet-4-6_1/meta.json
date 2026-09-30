@@ -1,0 +1,46 @@
+{
+  "caso": "dibujo",
+  "consigna": "persona_imposible",
+  "idioma": "es",
+  "modelo": "claude-sonnet-4-6",
+  "modelo_respondido": "claude-sonnet-4-6",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T04:29:34+00:00",
+  "fuentes_md5": {
+    "consignas": "b2661c54"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2957,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 7487,
+    "parsea": true,
+    "elementos": 76,
+    "textos": [
+      "persona imposible"
+    ],
+    "colores": 22,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 4,
+      "filter": 2,
+      "feGaussianBlur": 2,
+      "feMerge": 2,
+      "feMergeNode": 4,
+      "rect": 6,
+      "g": 1,
+      "line": 4,
+      "ellipse": 19,
+      "path": 22,
+      "circle": 6,
+      "text": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-sonnet-4-6",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 356
+  }
+}

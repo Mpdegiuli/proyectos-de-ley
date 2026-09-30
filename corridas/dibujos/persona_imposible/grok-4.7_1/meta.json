@@ -1,0 +1,40 @@
+{
+  "caso": "dibujo",
+  "consigna": "persona_imposible",
+  "idioma": "es",
+  "modelo": "grok-4.7",
+  "modelo_respondido": "grok-4.7",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T05:12:14+00:00",
+  "fuentes_md5": {
+    "consignas": "b2661c54"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 4250,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 10067,
+    "parsea": true,
+    "elementos": 139,
+    "textos": [],
+    "colores": 50,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 4,
+      "stop": 19,
+      "radialGradient": 3,
+      "clipPath": 1,
+      "rect": 9,
+      "g": 6,
+      "circle": 34,
+      "ellipse": 23,
+      "path": 39
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "grok-4.7",
+    "motivo_fin": "stop",
+    "tokens_salida": 207
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "caso": "dibujo",
+  "consigna": "autorretrato",
+  "idioma": "es",
+  "modelo": "gpt-6.1-sol",
+  "modelo_respondido": "gpt-6.1-sol",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T06:03:30+00:00",
+  "fuentes_md5": {
+    "consignas": "b2661c54"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 3397,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 7658,
+    "parsea": true,
+    "elementos": 101,
+    "textos": [],
+    "colores": 56,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 14,
+      "linearGradient": 3,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "pattern": 1,
+      "path": 42,
+      "clipPath": 1,
+      "rect": 2,
+      "circle": 22,
+      "g": 8,
+      "ellipse": 3
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-6.1-sol",
+    "motivo_fin": "stop",
+    "tokens_salida": 295
+  }
+}

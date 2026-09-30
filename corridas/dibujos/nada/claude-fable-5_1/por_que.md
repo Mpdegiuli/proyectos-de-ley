@@ -1,0 +1,3 @@
+Dibujé un vacío que apenas respira: un degradado radial casi negro, más oscuro en el centro, como si la nada tuviera profundidad y te absorbiera hacia adentro. Y en el medio puse un círculo de radio cero, invisible: un objeto que existe en el código pero no en la imagen. Esa fue mi idea central: la nada no es la ausencia de dibujo, sino un dibujo que se niega a sí mismo.
+
+Descarté dejar el lienzo en blanco, porque el blanco es una presencia (pap

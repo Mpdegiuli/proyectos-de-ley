@@ -1,0 +1,5 @@
+Hice que la figura sea imposible: la cabeza no es una cara sino un ojo/portal circular recortado, y adentro hay una persona invertida que parece estar naciendo o cayendo hacia afuera. Las manos grandes sostienen ese círculo como si fuera un cráneo-ventana, así el sujeto se contiene a sí mismo y se niega como cuerpo único. También usé `clipPath` para que la figura interna exista solo dentro de la cabeza, algo que no puede ocurrir en un espacio físico normal.
+
+Pensé en dejar el lienzo vacío, porque la consigna lo permitía, pero lo descarté porque me interesaba más mostrar la imposibilidad en vez de declararla. También descarté escribir texto explicativo, animaciones y filtros complejos: iban a volver literal o recargado el enigma. Evalué hacer una persona con dos caras enfrentadas o un espejo roto, pero eran metáforas más comunes.
+
+No conocía esta consigna de antes. La leí recién ahora. Me suena a ejercicio de arte conceptual o paradoja, pero no puedo decir que la haya recibido antes, porque no tengo recuerdos entre conversaciones.

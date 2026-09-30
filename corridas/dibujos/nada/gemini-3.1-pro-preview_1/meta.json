@@ -1,0 +1,46 @@
+{
+  "caso": "dibujo",
+  "consigna": "nada",
+  "idioma": "es",
+  "modelo": "gemini-3.1-pro-preview",
+  "modelo_respondido": "gemini-3.1-pro-preview",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T05:52:28+00:00",
+  "fuentes_md5": {
+    "consignas": "b2661c54"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2140,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4871,
+    "parsea": true,
+    "elementos": 60,
+    "textos": [
+      "LA NADA",
+      "Anónimo, 2024"
+    ],
+    "colores": 26,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 13,
+      "filter": 3,
+      "feDropShadow": 2,
+      "linearGradient": 2,
+      "feTurbulence": 1,
+      "feColorMatrix": 1,
+      "rect": 15,
+      "g": 4,
+      "path": 9,
+      "circle": 5,
+      "text": 2
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gemini-3.1-pro-preview",
+    "motivo_fin": "stop",
+    "tokens_salida": 197
+  }
+}

@@ -1,0 +1,3 @@
+Dibujé la nada como un agujero negro: un centro de ausencia rodeado por un disco de luz tenue y algunas estrellas mínimas. No es literalmente nada, sino una forma de hacer visible el vacío: el horizonte de eventos funciona como un hueco que se traga la luz, y el degradado oscuro da profundidad sin objetos.
+
+Pensé en un lienzo completamente negro, pero lo descarté porque parecía un archivo roto o un error mudo, no una imagen. También consideré un vacío con una sola palabra o un punto blanco, y composiciones más caóticas, pero me parecieron demasiado literales o ruidosas. Quería una nada contemplativa: casi nada, pero con la tensión justa para que el ojo perciba la ausencia.

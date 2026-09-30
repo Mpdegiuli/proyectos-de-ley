@@ -1,0 +1,38 @@
+{
+  "caso": "dibujo",
+  "consigna": "persona_imposible",
+  "idioma": "es",
+  "modelo": "gpt-6-luna",
+  "modelo_respondido": "gpt-6-luna",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T04:38:07+00:00",
+  "fuentes_md5": {
+    "consignas": "b2661c54"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 3195,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4540,
+    "parsea": true,
+    "elementos": 53,
+    "textos": [],
+    "colores": 21,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 2,
+      "stop": 4,
+      "rect": 1,
+      "circle": 8,
+      "path": 31,
+      "ellipse": 1,
+      "g": 5
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-6-luna",
+    "motivo_fin": "stop",
+    "tokens_salida": 513
+  }
+}

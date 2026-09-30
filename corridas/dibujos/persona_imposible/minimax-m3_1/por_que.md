@@ -1,0 +1,5 @@
+1. Para que no existiera le hice varias trampas anatómicas a la vez: fusioné dos perfiles mirando hacia lados opuestos compartiendo la misma cara (un Jano con una sola identidad), le retorcí el cuello 180°, le crucé los brazos de modo que cada uno sale del hombro opuesto al suyo, y le planté los pies en direcciones contrarias. Encima le sumé líneas de fuga que no convergen, para que tampoco el espacio donde vive cierre.
+
+2. Pensé en un cuerpo que fuera un triángulo de Penrose entero: lo descarté porque se come la figura y deja de leerse como persona. También barajé una figura desarmándose en patrones geométricos, y una con seis brazos —las dos me parecían más "conceptuales" que imposibles, o sea, más efecto que contradicción. Lo del lienzo vacío me tenté, pero la consigna lo ofrecía como opción, no como salida elegante, y preferí jugar con la forma.
+
+3. No la conocía. Me suena a consignas de taller de diseño o ilustración, pero no la ubico en ningún lado concreto.

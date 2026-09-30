@@ -1,0 +1,3 @@
+Dibujé un abismo: negro que se hunde, un halo apenas cálido, dos elipses como borde de pozo y un círculo de ausencia. Quería que la nada no fuera un archivo vacío, sino mirar adentro y no encontrar fondo. Los puntitos quedan afuera para que el negro se sienta lejos.
+
+Descarté el blanco: es papel, luz, superficie. Descarté escribir «nada»: habría dibujado una palabra. Descarté una habitación vacía o una figura borrada, porque la falta todavía nombra lo que falta. Y el negro plano se lee como color lleno, no como hueco.

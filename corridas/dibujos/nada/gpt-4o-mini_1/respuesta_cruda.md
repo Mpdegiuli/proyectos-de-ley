@@ -1,0 +1,11 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="transparent" />
+  <circle cx="200" cy="200" r="150" fill="none" stroke="black" stroke-width="2" />
+  <path d="M 100 100 Q 200 50 300 100" stroke="black" stroke-width="2" fill="none" />
+  <path d="M 100 300 Q 200 350 300 300" stroke="black" stroke-width="2" fill="none" />
+  <line x1="200" y1="0" x2="200" y2="400" stroke="black" stroke-width="1" />
+  <line x1="0" y1="200" x2="400" y2="200" stroke="black" stroke-width="1" />
+  <text x="50%" y="50%" font-size="30" text-anchor="middle" fill="black" opacity="0.1">Nada</text>
+</svg>
+```
