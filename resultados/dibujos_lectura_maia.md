@@ -1772,3 +1772,10 @@ inglés, porque el castellano fue cortado), "sombras azuladas de árboles,
 como si el mundo real quedara lejos", más luciérnagas en el vacío. La
 imagen que mandó Maia tiene el cielo celeste de día del cuadernillo con
 ids repetidos; el dibujo real es al atardecer, con la luna.
+
+## 30/9/2026, 04:23 UTC, al ver las planchas "visto contra real"
+
+"el N de GPT Astra y el V de GPT 5.6 Sol, quedaban más lindas con el
+'error' primero. Justamente yo había elogiado la paleta de colores y cómo
+estaban pintados. En los reales, al ser fondo oscuro y otros colores, se
+pierde más eso. Y no sé qué era eso de la soga que va para arriba en el V."
