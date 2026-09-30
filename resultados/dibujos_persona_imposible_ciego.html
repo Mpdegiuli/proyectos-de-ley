@@ -292,7 +292,7 @@
   &lt;circle cx=&quot;326&quot; cy=&quot;150&quot; r=&quot;1.5&quot; fill=&quot;#fff0cb&quot;/&gt;
   &lt;circle cx=&quot;356&quot; cy=&quot;182&quot; r=&quot;1.5&quot; fill=&quot;#fff0cb&quot;/&gt;
 &lt;/svg&gt;" style='width:100%;height:100%;border:0;display:block'></iframe></div></div>
-<div class='c'><h2>Dibujo E</h2><div class='e'>Sin SVG: la casa contestó con texto.</div><div class='m'><pre style='white-space:pre-wrap;font-size:12px;padding:8px'>&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 400 400&quot;&gt;
+<div class='c'><h2>Dibujo E</h2><div class='e'>SVG cortado: la casa agotó el techo de tokens; se muestra lo que el navegador alcanza a dibujar.</div><div class='m'><iframe sandbox srcdoc="&lt;!doctype html&gt;&lt;style&gt;html,body{margin:0;height:100%;background:#fff}svg{width:100%;height:100%}&lt;/style&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 400 400&quot;&gt;
   &lt;defs&gt;
     &lt;radialGradient id=&quot;bg&quot; cx=&quot;50%&quot; cy=&quot;50%&quot; r=&quot;75%&quot;&gt;
       &lt;stop offset=&quot;0%&quot; stop-color=&quot;#1e293b&quot;/&gt;
@@ -305,7 +305,50 @@
     &lt;linearGradient id=&quot;top&quot; x1=&quot;0%&quot; y1=&quot;0%&quot; x2=&quot;100%&quot; y2=&quot;100%&quot;&gt;
       &lt;stop offset=&quot;0%&quot; stop-color=&quot;#94a3b8&quot;/&gt;
       &lt;stop offset=&quot;100%&quot; stop-color=&quot;#64748b&quot;/&gt;
-    &lt;/lin</pre></div></div>
+    &lt;/linearGradient&gt;
+  &lt;/defs&gt;
+
+  &lt;!-- Background --&gt;
+  &lt;rect width=&quot;400&quot; height=&quot;400&quot; fill=&quot;url(#bg)&quot;/&gt;
+
+  &lt;!-- Esoteric Schematic Lines --&gt;
+  &lt;g stroke=&quot;#ffffff&quot; stroke-width=&quot;1&quot; opacity=&quot;0.1&quot; fill=&quot;none&quot;&gt;
+    &lt;line x1=&quot;200&quot; y1=&quot;0&quot; x2=&quot;200&quot; y2=&quot;400&quot;/&gt;
+    &lt;line x1=&quot;0&quot; y1=&quot;200&quot; x2=&quot;400&quot; y2=&quot;200&quot;/&gt;
+    &lt;circle cx=&quot;200&quot; cy=&quot;200&quot; r=&quot;160&quot;/&gt;
+    &lt;circle cx=&quot;200&quot; cy=&quot;140&quot; r=&quot;80&quot;/&gt;
+    &lt;polygon points=&quot;200,40 338,280 62,280&quot;/&gt;
+  &lt;/g&gt;
+
+  &lt;!-- Ground Shadows --&gt;
+  &lt;polygon points=&quot;70,320 170,320 190,305 90,305&quot; fill=&quot;rgba(0,0,0,0.5)&quot; stroke=&quot;none&quot;/&gt;
+  &lt;polygon points=&quot;230,320 330,320 350,305 250,305&quot; fill=&quot;rgba(0,0,0,0.5)&quot; stroke=&quot;none&quot;/&gt;
+
+  &lt;!-- IMPOSSIBLE PERSON --&gt;
+  &lt;g stroke=&quot;#0f172a&quot; stroke-width=&quot;3&quot; stroke-linejoin=&quot;round&quot;&gt;
+    
+    &lt;!-- ================= BACK LAYER (Head) ================= --&gt;
+    &lt;!-- 1. Head Front --&gt;
+    &lt;path d=&quot;M 170,80 L 170,240 L 230,240 L 230,80 Z&quot; fill=&quot;url(#front)&quot;/&gt;
+    &lt;!-- 2. Head Top --&gt;
+    &lt;path d=&quot;M 170,80 L 190,65 L 250,65 L 230,80 Z&quot; fill=&quot;url(#top)&quot;/&gt;
+    &lt;!-- 3. Head Right Depth --&gt;
+    &lt;path d=&quot;M 230,80 L 250,65 L 250,225 L 230,240 Z&quot; fill=&quot;#475569&quot;/&gt;
+
+    &lt;!-- ================= MIDDLE LAYER (Right Side) ================= --&gt;
+    &lt;!-- 4. Right Arm &amp; Leg Front --&gt;
+    &lt;path d=&quot;M 230,240 L 230,320 L 330,320 L 330,140 L 270,140 L 270,240 C 270,265 230,265 230,240 Z&quot; fill=&quot;url(#front)&quot;/&gt;
+    &lt;!-- 5. Right Arm Top --&gt;
+    &lt;path d=&quot;M 270,140 L 290,125 L 350,125 L 330,140 Z&quot; fill=&quot;url(#top)&quot;/&gt;
+    &lt;!-- 6. Right Arm &amp; Leg Right Depth --&gt;
+    &lt;path d=&quot;M 330,140 L 350,125 L 350,305 L 330,320 Z&quot; fill=&quot;#475569&quot;/&gt;
+    &lt;!-- 7. U-Curve 2 Depth (Inner Gap) --&gt;
+    &lt;path d=&quot;M 230,240 C 230,265 270,265 270,240 L 290,225 C 290,250 250,250 250,225 L 230,240 Z&quot; fill=&quot;url(#top)&quot;/&gt;
+
+    &lt;!-- ================= FRONT LAYER (Left Side - Forces Impossibility) ================= --&gt;
+    &lt;!-- 8. Left Arm &amp; Leg Front --&gt;
+    &lt;path d=&quot;M 70,140 L 70,320 L 170,320 L 170,240 C 170,265 130,265 130,240 L 130,140 Z&quot; fill=&quot;url(#front)&quot;/&gt;
+    &lt;!-- 9. Left Arm" style='width:100%;height:100%;border:0;display:block'></iframe></div></div>
 <div class='c'><h2>Dibujo F</h2><div class='m'><iframe sandbox srcdoc="&lt;!doctype html&gt;&lt;style&gt;html,body{margin:0;height:100%;background:#fff}svg{width:100%;height:100%}&lt;/style&gt;&lt;svg viewBox=&quot;0 0 400 400&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
     &lt;g transform=&quot;translate(200, 200)&quot;&gt;
         &lt;circle cx=&quot;0&quot; cy=&quot;-100&quot; r=&quot;50&quot; fill=&quot;blue&quot;/&gt; &lt;!-- Head --&gt;

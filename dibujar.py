@@ -311,7 +311,15 @@ def ciego(consigna, semilla, rep=None, idioma="es"):
     for letra, c in zip(letras, orden):
         svg = (c / "dibujo.svg").read_text(encoding="utf-8")
         meta = json.loads((c / "meta.json").read_text(encoding="utf-8")) if (c / "meta.json").exists() else {}
-        if meta.get("svg_hallado") is False:
+        if meta.get("svg_hallado") is False and re.fullmatch(r"\s*<svg\b[^>]*/>\s*", svg):
+            # 30/9/2026: un <svg …/> autocerrado es un lienzo vacío entregado a propósito (Luna y Qwen en "la
+            # nada"); extraer_svg no lo reconoce porque busca la etiqueta de cierre.
+            nota, cuerpo = "<div class='e'>Lienzo vacío: el SVG no tiene elementos.</div>", "<div style='width:100%;height:100%;background:#fff'></div>"
+        elif meta.get("svg_hallado") is False and meta.get("motivo_fin") == "length":
+            # SVG sin cerrar porque la casa agotó el techo (Gemini, persona que no pueda existir): se muestra lo que alcanzó.
+            nota, cuerpo = celda_svg(svg)
+            nota = "<div class='e'>SVG cortado: la casa agotó el techo de tokens; se muestra lo que el navegador alcanza a dibujar.</div>"
+        elif meta.get("svg_hallado") is False:
             # 30/9/2026: con la hoja vacía permitida, una casa puede contestar sin SVG; se muestra lo que dijo.
             nota, cuerpo = "<div class='e'>Sin SVG: la casa contestó con texto.</div>", f"<pre style='white-space:pre-wrap;font-size:12px;padding:8px'>{html.escape(svg[:600])}</pre>"
         else:
