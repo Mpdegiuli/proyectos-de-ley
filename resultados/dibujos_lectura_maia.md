@@ -1713,3 +1713,9 @@ inline en una sola página y los ids de los degradados se repetían entre
 casas; la piel violeta era la de la criatura de GPT-5.5 (par A), que el
 navegador les puso a catorce caras (DISENO §5). Ninguna casa dibujó piel
 violeta en una persona normal.
+
+## 30/9/2026, 03:33 UTC
+
+"el G de la persona normal de Astra me hace acordar a algo, como a libro
+infantil pero de hace muchos años. Y me resultó raro que los Fable y Opus
+no hicieran manos. Prefieren no arriesgarse?"
