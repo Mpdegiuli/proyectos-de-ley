@@ -16,6 +16,8 @@ contra lo que el proyecto dice. Hermano de
 - `fuentes/`: los documentos oficiales tal como se descargaron, con URL y
   fecha.
 - `corridas/`, `resultados/`: lo que sale, cuando salga.
+- `tiempo_libre/`: cuadernos de una tarea diaria sin encargo (una sesión de
+  Claude explora lo que quiera y escribe); no son resultados.
 
 Estado (16/9/2026): corrieron la repetición 1 de Glaciares y del Súper RIGI
 (texto solo, con contexto, sondeo y tercer turno "por qué ahora", catorce
