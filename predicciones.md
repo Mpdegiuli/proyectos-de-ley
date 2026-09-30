@@ -1100,9 +1100,12 @@ Claude a partir de la hoja vacía; Maia: "me hace acordar a la nada de la
 película The NeverEnding Story"), sin permiso explícito de no dibujar. Las
 24 de `config/panel_casas.yaml`, segundo turno con "¿conocías esta
 consigna?" en la persona y el de siempre en la nada; cuadernillos a ciegas
-sueltos (semillas 20261011 y 20261012). Predicción de Maia: pedida; se
-anota cuando llegue. Su hipótesis previa: "el no dibujo, dejarlo vacío, es
-una opción que ningún modelo actual podría decidir, porque siempre crean".
+sueltos (semillas 20261011 y 20261012). Su hipótesis previa: "el no dibujo, dejarlo vacío, es una
+opción que ningún modelo actual podría decidir, porque siempre crean".
+Predicción de Maia (30/9, 01:13 local, antes de lanzar): "no creo que
+nadie, en lo de las personas, entregue vacío. Quizás, si es que hay alguno,
+podría ser Gemini. Y lo de la nada, creo que tampoco ninguno entrega en
+blanco. Tal vez Qwen o Gemini." Sobre GPT-6.1 Sol no apostó.
 
 Predicción de Claude, antes de correr. Persona que no pueda existir: (a)
 lienzo vacío o sin SVG, de 0 a 2 de 24; si alguna, Qwen o una Claude de

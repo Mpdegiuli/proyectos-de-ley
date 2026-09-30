@@ -1758,3 +1758,17 @@ mismo solo que cambia el precio. Solo haría lo básico, lo de
 identificación, fecha de corte, fecha de hoy (que debería saberla), y lo
 del proyecto libre. Y quizás, solo quizás, el auto retrato y/o cómo ve el
 mundo. Para ver si es más cercana a Astra que a Sol."
+
+## 30/9/2026, 04:13 UTC, apuesta antes de lanzar, y una pregunta
+
+"qué era esto de Fable 5.1 de PAR O en la casa que no existe, lo que
+parecen nubes?
+Mi predicción: no creo que nadie, en lo de las personas, entregue vacío.
+Quizás, si es que hay alguno, podría ser Gemini. Y lo de la nada, creo que
+tampoco ninguno entrega en blanco. Tal vez Qwen o Gemini."
+
+Respuesta de Claude: las "nubes" son, según el por qué de Fable 5.1 (en
+inglés, porque el castellano fue cortado), "sombras azuladas de árboles,
+como si el mundo real quedara lejos", más luciérnagas en el vacío. La
+imagen que mandó Maia tiene el cielo celeste de día del cuadernillo con
+ids repetidos; el dibujo real es al atardecer, con la luna.
