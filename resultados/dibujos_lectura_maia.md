@@ -1785,3 +1785,13 @@ pierde más eso. Y no sé qué era eso de la soga que va para arriba en el V."
 "y qué obsesión tienen ustedes, en general, en hacer todo con fondo
 oscuro, de noche. Las webs también las IAs, en especial los Claudes, las
 hacen con fondo oscuro."
+
+## 30/9/2026, 04:37 UTC, sobre GPT-4o
+
+"el único que no pudo hacer una casa no existente o rara fue GPT 4o, en J.
+Hasta el L de GPT 4o mini pudo (no se entiende qué dibujó, pero al menos no
+es una casa normal). 4o directamente hizo una casa normal con dos árboles.
+Y me llama muchísimo la atención cómo muchas personas lo siguen
+defendiendo como el modelo más creativo que haya existido. Porque tampoco
+el proyecto lo escribió de una manera super creativa. No sé si en chat
+tendría otros valores y sería mucho más creativo."
