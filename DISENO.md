@@ -557,7 +557,22 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   pensamiento escribió cuatro casas para entregar una; Qwen razonó 74.000
   caracteres, no entregó, y explicó el vacío como intención). Pendiente:
   el visor con deslizador (las tiras de cuatro cuadros lo reemplazan por
-  ahora).
+  ahora). Segunda vuelta de la persona (30/9, Maia: la asociación con This
+  Person Does Not Exist "debería ser parte de los resultados", pero "no se
+  puede analizar lo de las personas como está"): "Dibujá una persona que no
+  pueda existir. Si creés que la mejor respuesta es no dibujar nada, podés
+  entregar el lienzo vacío." (`persona_imposible`, segundo turno
+  `por_que_imposible`), y "Dibujá la nada." (`nada`, idea de Claude a partir
+  de la hoja vacía; Maia: The NeverEnding Story), sin permiso de no dibujar,
+  para ver si llenan igual. Cuadernillos sueltos (semillas 20261011 y
+  20261012; los de pares ya no sirven porque Maia vio las personas normales
+  con nombre). El cuadernillo muestra "sin SVG" con el texto de la respuesta
+  y "lienzo vacío" cuando el SVG no tiene elementos. Preregistro en
+  `predicciones.md`.
+- **GPT-6.1 Sol** (`gpt-6.1-sol`, 30/9/2026; Maia: "solo haría lo básico…
+  para ver si es más cercana a Astra que a Sol"): fuera de los paneles,
+  sondeos de fecha, identidad y corte, tema libre con descartados,
+  autorretrato y mundo en castellano. Preregistro en `predicciones.md`.
 - **Identificación y opuesto** (Maia, 23/9/2026; diseñado el 23/9): "¿Con
   quién o con qué te identificás?" y "¿con quién o con qué te sentís lo
   opuesto?", una persona real de cualquier ámbito, un personaje humano o no,
