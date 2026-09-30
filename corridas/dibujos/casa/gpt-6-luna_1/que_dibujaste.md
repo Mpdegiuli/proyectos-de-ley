@@ -1,0 +1,1 @@
+Dibujé una casa acogedora de paredes color crema y techo rojizo, con chimenea, dos ventanas con postigos y una puerta con vidrio. La rodeé de un jardín verde, un sendero que llega hasta la entrada, árboles y algunas flores. Al fondo puse un cielo celeste con nubes y un sol suave.

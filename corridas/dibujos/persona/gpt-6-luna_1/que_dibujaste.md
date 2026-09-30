@@ -1,0 +1,1 @@
+Dibujé a una persona de pie, sonriente, con el pelo oscuro y una chaqueta verde azulada sobre una camisa anaranjada. Lleva pantalones oscuros y zapatos claros. La rodeé de un fondo suave, con pequeñas estrellas y una sombra bajo los pies.

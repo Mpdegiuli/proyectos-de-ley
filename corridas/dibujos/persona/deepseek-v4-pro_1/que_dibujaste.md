@@ -1,0 +1,1 @@
+Dibujé una figura humana sencilla sobre fondo blanco. Tiene cabeza redonda con piel clara, pelo oscuro, ojos, cejas, boca sonriente y mejillas rosadas. El torso es una camisa azul con cinturón oscuro, brazos azules que terminan en manos color piel, piernas verdes y zapatos oscuros. El estilo es limpio y geométrico, con colores planos y formas básicas.

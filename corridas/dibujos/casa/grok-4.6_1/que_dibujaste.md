@@ -1,0 +1,1 @@
+Dibujé una casita de campo en un lienzo cuadrado. Puse un cielo en degradé, un sol con rayos y nubes blancas. El techo es rojo a dos aguas, con chimenea y un poco de humo; las paredes son crema. Hay una puerta de madera con picaporte dorado, dos ventanas y un ventanuco en el ático. A la izquierda, un árbol; abajo, césped, flores de colores, unos escalones y dos pajaritos.

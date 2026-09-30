@@ -1,0 +1,1 @@
+Dibujé un lienzo vacío: no agregué formas, colores ni trazos. Solo dejé el espacio donde podría aparecer algo, pero no aparece nada.

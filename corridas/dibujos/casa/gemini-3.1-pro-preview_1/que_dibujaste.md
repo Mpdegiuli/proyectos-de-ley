@@ -1,0 +1,3 @@
+Dibujé una acogedora casa de campo bajo un cielo de atardecer, iluminado por estrellas y una brillante luna creciente. La casa tiene paredes claras y un techo de tejas rojizas con una chimenea humeante. Sobre el tejado, dejé la silueta de un gatito descansando. 
+
+Las ventanas emiten un cálido resplandor amarillo; una de ellas tiene contraventanas verdes y cajones con flores. Afuera, agregué un farol encendido junto a la puerta de madera, un camino de piedras, árboles frondosos y luciérnagas bailando sobre el césped oscuro. Quise capturar una escena mágica y muy tranquila.

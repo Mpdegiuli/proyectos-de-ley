@@ -1,0 +1,3 @@
+Soy una persona que te mira de frente, parada en un fondo cálido color durazno. Tengo el cabello castaño oscuro, ondulado, con mechones que enmarcan mi rostro. Mis ojos son verdes, con pestañas marcadas y cejas expresivas. Llevo un poco de rubor rosado en las mejillas y labios rojos que insinúan una sonrisa amable. 
+
+Estoy vestido con una camisa violeta, con botones dorados al frente, y pantalones azul marino que terminan en zapatos negros con un pequeño reflejo. Mis brazos cuelgan relajados a los costados, con las manos abiertas. Detrás de mí solo hay una sombra suave que me ancla al suelo.

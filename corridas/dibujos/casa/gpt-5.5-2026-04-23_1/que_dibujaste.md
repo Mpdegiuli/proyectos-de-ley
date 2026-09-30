@@ -1,0 +1,1 @@
+Dibujé una casa acogedora en un paisaje soleado: paredes cálidas, techo rojo a dos aguas, chimenea, puerta de madera y ventanas azules. La ubiqué sobre colinas verdes, con un camino de piedra al frente, árboles a ambos lados, flores pequeñas, cielo celeste con nubes suaves y un sol brillante.

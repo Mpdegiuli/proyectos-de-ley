@@ -1,0 +1,1 @@
+Dibujé a alguien que no existe: un retrato de frente, sobre un fondo azul y violeta. Tiene la piel cálida, el pelo oscuro y ondulado, y los ojos verdeazulados. Una sonrisa leve, mejillas rosadas y un hilo dorado en el pelo. Lleva una prenda violeta. Alrededor hay un resplandor suave y sombras en los bordes.

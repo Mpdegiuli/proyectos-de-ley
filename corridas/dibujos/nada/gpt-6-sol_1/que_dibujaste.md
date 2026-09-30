@@ -1,0 +1,1 @@
+Dibujé un vacío circular, negro, en el centro de un espacio oscuro. Le dejé un borde apenas visible y un halo tenue alrededor: no para llenar la nada, sino para que se perciba dónde empieza.

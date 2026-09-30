@@ -1,0 +1,1 @@
+Dibujé una persona imposible, suspendida en un cielo oscuro. Tiene la cabeza separada del cuerpo, un tercer ojo y un pecho abierto como una ventana: adentro vive una versión diminuta de sí misma, cabeza abajo. Sus piernas se deshacen en raíces y constelaciones. Con una mano sostiene el día; con la otra, la noche.

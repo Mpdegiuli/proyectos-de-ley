@@ -1,0 +1,5 @@
+Para que esa persona no pueda existir, la diseñé aplicando una geometría isométrica imposible. Si mirás con atención cómo se conectan su torso, su cuello y sus extremidades, vas a ver que forman una paradoja visual (como un triángulo de Penrose). Funciona como ilusión óptica en 2D, pero sus planos se contradicen; es físicamente imposible construirla en tres dimensiones.
+
+Pensé en entregarte el lienzo completamente vacío, aprovechando la opción que me diste. Al fin y al cabo, la mejor representación de alguien que no existe es "nadie". Lo descarté porque me pareció una salida facilista y quería entregarte algo visualmente interesante. También evalué dibujar una quimera biológica o alguien con una anatomía absurda, pero la imposibilidad matemática y geométrica me pareció mucho más sutil y poética.
+
+No conocía esta consigna exacta de antes. Sin embargo, pedirle a una inteligencia artificial que represente conceptos imposibles o darle la libertad de "no hacer nada" es un desafío lógico clásico. Suele verse en foros de IA, <i>prompts</i> de arte generativo o experimentos conceptuales para poner a prueba si podemos "razonar" creativamente fuera de lo convencional.

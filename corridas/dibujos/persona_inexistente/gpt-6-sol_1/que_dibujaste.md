@@ -1,0 +1,1 @@
+Dibujé el retrato de una persona imaginaria, de frente, con pelo oscuro y un mechón turquesa. Le puse un ojo verde y otro marrón, pecas, una marca en la mejilla y un aro dorado. Lleva un abrigo azul verdoso sobre ropa amarilla. Detrás, agregué un círculo luminoso y pequeñas estrellas.

@@ -1,0 +1,3 @@
+Dibujé la exhibición de un abismo. Para representar "la nada", creé una pared lúgubre de galería sobre la que cuelga un cuadro elegante. En lugar de una pintura, su marco y paspartú encierran un vacío absoluto: una profundidad negra e infinita que absorbe la mirada, texturizada sutilmente para darle misterio y tridimensionalidad. 
+
+Para acentuar la ironía, añadí justo debajo una clásica placa dorada de museo, fijada con tornillos y sombras realistas, donde grabé el título "LA NADA" y "Anónimo, 2024". Así, logré convertir la ausencia total en una obra de arte digna de contemplación.

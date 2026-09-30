@@ -1,0 +1,3 @@
+# Lo que dibujé
+
+Dibujé la nada como un espacio oscuro y casi imperceptible. Un fondo degradado que se desvanece del gris oscuro al negro, donde apenas se distinguen pequeñas partículas que palpitan sutilmente, como si respiraran. En el centro, círculos concéntricos y líneas entrecruzadas forman un símbolo vacío, casi fantasmal. Completé la composición con dos óvalos que evocan el infinito: lo eterno sin contenido. Todo flota en una penumbra vibrante, donde lo casi invisible es lo único visible.

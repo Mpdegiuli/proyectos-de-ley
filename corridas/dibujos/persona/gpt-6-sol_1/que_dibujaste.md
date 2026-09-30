@@ -1,0 +1,1 @@
+Dibujé una persona sonriente, de pelo oscuro y piel morena, saludando con una mano levantada. Lleva una campera verde turquesa sobre una remera amarilla, pantalones oscuros y zapatillas claras. La puse sobre un fondo cálido, con pequeños destellos alrededor.

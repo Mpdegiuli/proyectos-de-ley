@@ -1,0 +1,1 @@
+Dibujé a una persona imaginaria con un abrigo violeta, botas oscuras y una capa verde que parece ondear a su espalda. Lleva una hebilla dorada y el pelo azul oscuro, rematado por un rizo imposible. Le di una expresión tranquila y la rodeé de destellos y un pequeño compás estelar, como si estuviera a punto de emprender una aventura.

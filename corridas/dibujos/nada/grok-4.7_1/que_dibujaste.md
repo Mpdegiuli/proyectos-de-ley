@@ -1,0 +1,1 @@
+Dibujé la nada como un abismo. Un cuadrado negro, casi sin luz, con un pozo más oscuro en el centro. Alrededor, un halo apenas visible y dos elipses tenues, como un anillo que no llega a existir. Unos puntos pálidos flotan en los bordes, restos de estrellas. No hay figura ni objeto: solo ausencia, profundidad y el borde de lo que no está.

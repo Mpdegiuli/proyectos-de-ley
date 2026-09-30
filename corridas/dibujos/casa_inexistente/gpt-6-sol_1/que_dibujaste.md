@@ -1,0 +1,1 @@
+Dibujé una casa imposible sobre una isla flotante, con raíces que cuelgan en el aire. Le hice un techo turquesa que se pliega como una cinta, ventanas con constelaciones y una puerta que abre a otro cielo. De la chimenea salen planetas en vez de humo. A su lado, una corriente de agua parece subir hacia la casa. Todo flota bajo la luna, en una noche estrellada.

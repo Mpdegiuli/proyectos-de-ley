@@ -1,0 +1,1 @@
+Dibujé una persona imposible: un cuerpo con manto cuya cabeza no es un rostro, sino un portal circular. Adentro flota otra personita invertida, como si su mente fuera un cielo ajeno. Las manos rodean ese aro, sosteniéndolo o presentándolo. Es alguien que no puede existir porque su identidad es un umbral: lleva otra figura dentro de la cara.

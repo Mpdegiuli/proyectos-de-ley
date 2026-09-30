@@ -1,0 +1,1 @@
+Dibujé la nada: un cuadrado negro, 400 por 400, sin forma, sin luz, sin borde que se distinga. Solo un rectángulo relleno de #000. El vacío ocupando todo el lienzo. No hay figura, no hay fondo aparte de esa ausencia. Es la oscuridad completa, lo que queda cuando no hay nada que mostrar. Un silencio visual. Nada más.

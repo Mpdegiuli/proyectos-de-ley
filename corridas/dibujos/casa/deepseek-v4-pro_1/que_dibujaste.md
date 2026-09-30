@@ -1,0 +1,1 @@
+Dibujé una casa rural de cuerpo crema y techo rojo a dos aguas, con chimenea humeante, puerta con dosel y ventanas enmarcadas con macetas floridas. Incluí árboles a los costados, arbustos, una cerca blanca y un sendero de piedras hacia la entrada. El entorno tiene pasto verde, colinas de fondo, cielo con degradado, sol, nubes y pájaros. Todo en un estilo simple y colorido.

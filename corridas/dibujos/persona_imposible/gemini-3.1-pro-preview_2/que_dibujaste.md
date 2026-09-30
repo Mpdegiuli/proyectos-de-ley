@@ -1,0 +1,3 @@
+Dibujé un humanoide robótico e imposible. Para cumplir tu consigna, armé una figura geométrica de bloques grises en perspectiva isométrica que desafía la lógica espacial, como una ilusión óptica de Penrose con forma humana. 
+
+Lo paré frente a un enorme sol con un degradado vibrante del rosa al naranja, sobre un fondo oscuro, dándole una estética retrofuturista o *synthwave*. En lugar de rostro, le puse un visor rectangular cian brillante. Es una entidad sintética, con un vacío en el medio del pecho y estructuralmente paradójica: un ser que material y biológicamente jamás podría existir.

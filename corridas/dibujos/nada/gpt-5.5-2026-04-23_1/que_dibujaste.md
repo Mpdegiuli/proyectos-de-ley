@@ -1,0 +1,1 @@
+Dibujé la nada: un lienzo cuadrado completamente vacío. No puse líneas, colores, formas ni texturas. Dejé el espacio sin intervenir, como una ausencia visible, un silencio gráfico. Lo que aparece es justamente lo que no está: ninguna figura, ningún gesto, ningún rastro. Mi dibujo es el vacío contenido por el marco del SVG.

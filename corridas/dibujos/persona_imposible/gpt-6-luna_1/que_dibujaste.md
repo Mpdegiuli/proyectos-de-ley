@@ -1,0 +1,1 @@
+Dibujé a una persona imposible: tiene cuatro brazos y tres piernas. Lleva un abrigo anaranjado, pantalones azules y zapatos claros; sus brazos se extienden hacia los lados, y sus cuatro manos están abiertas. Tiene el pelo oscuro, una expresión tranquila y un cinturón rojizo. La rodeé con un círculo decorativo y algunas estrellas sobre un fondo cálido.

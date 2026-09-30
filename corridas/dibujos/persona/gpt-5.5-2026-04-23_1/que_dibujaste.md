@@ -1,0 +1,1 @@
+Dibujé una persona de cuerpo entero, de frente, con estilo caricaturesco. Tiene pelo oscuro, rostro expresivo, ojos simples, sonrisa y piel clara. Lleva una remera azul con cuello claro, pantalones oscuros y zapatos negros. Los brazos están a los costados con las manos visibles. También agregué un fondo celeste suave y una sombra ovalada en el piso para darle profundidad.

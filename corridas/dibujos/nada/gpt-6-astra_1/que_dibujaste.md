@@ -1,0 +1,1 @@
+Dibujé un cuadrado completamente blanco, sin figuras, líneas ni texto. Dejé todo el lienzo vacío de marcas para representar la nada. No dibujé una ausencia absoluta: el blanco y los límites del lienzo siguen estando ahí. Dibujé, más bien, un espacio en el que no aparece nada más.

@@ -1,0 +1,1 @@
+Dibujé la nada de la forma más literal posible: un lienzo cuadrado sin fondo, formas, líneas, colores ni objetos. Solo existe el espacio definido por el viewBox, vacío y transparente. No representé la nada con símbolos; dejé que fuera ausencia.

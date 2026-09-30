@@ -1,0 +1,1 @@
+Dibujé a alguien que no puede existir: un cuerpo que se desdobla. Tiene cuatro ojos en la cabeza, otro rostro en el pecho y miembros de más —brazos que se abren, manos extras, pies duplicados—. Un apéndice parece una segunda cabeza. Está de pie sobre un fondo oscuro, como si la anatomía se hubiera equivocado a propósito: demasiado de todo para ser una sola persona.

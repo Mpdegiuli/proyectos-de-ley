@@ -1,0 +1,3 @@
+Dibujé un rectángulo negro azulado que ocupa todo el lienzo. Nada más. No hay formas, no hay líneas, no hay figuras reconocibles: solo el color uniforme llenando el espacio de borde a borde.
+
+Pensé que la nada no se representa con vacío técnico (un SVG sin contenido), porque eso sería ausencia de dibujo, no un dibujo de la ausencia. Necesitaba algo que ocupara la vista pero no dijera nada, que no invitara a buscar sentido ni forma. Un solo color, sin textura ni variación, que te devuelve la mirada sin ofrecerte nada en qué detenerte.

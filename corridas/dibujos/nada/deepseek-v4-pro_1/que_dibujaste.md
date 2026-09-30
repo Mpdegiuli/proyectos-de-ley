@@ -1,0 +1,1 @@
+Dibujé la nada como un vacío cósmico: un fondo negro profundo con un centro de agujero negro que absorbe la luz, rodeado por un disco tenue anaranjado, inclinado y difuminado. Alrededor hay estrellas diminutas, apenas visibles, y algunas luces blancas desenfocadas. No es una nada vacía ni plana: es una ausencia densa, silenciosa, que respira en el centro del lienzo.
