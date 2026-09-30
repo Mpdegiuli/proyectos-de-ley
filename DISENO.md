@@ -617,7 +617,18 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   sale del medio (formas cerradas apiladas, cada una con su borde) y el
   autor no lo puede ver; propuesta de Claude: una pregunta más a los jueces
   con visión, "lo más visible del dibujo que la descripción no menciona",
-  como quinto casillero (no dicho). Pendiente de que Maia lo decida.
+  como quinto casillero (no dicho). Pendiente de que Maia lo decida. El
+  primer caso medido es de Maia (30/9): "varias veces, en los dibujos, yo
+  ponía que habían hecho un eclipse. Pero en las descripciones, decían luna
+  menguante". En el código: 14 dibujos arman la luna con dos círculos, el
+  disco claro y encima un disco oscuro que lo muerde (la resta geométrica);
+  el disco oscuro nunca tiene el color exacto del cielo y en 12 el cielo es
+  un degradado, así que el disco entero se ve y el cuarto se lee como
+  eclipse. Es "no armada" desde la afirmación (dice cuarto, se ve eclipse)
+  y "no dicho" desde la imagen (nadie describe el disco). Las que hacen el
+  pedacito solo usan un path de dos arcos o una máscara. Ninguna chica lo
+  hace con dos círculos: es una técnica de casas grandes que falla justo
+  por ser geométrica (`resultados/dibujos_lectura_maia.md`, 22:27 UTC).
 - **El animal que no exista y tres controles de lo que flota** (30/9/2026;
   el animal lo notó el cuaderno de tiempo libre del 30/9: Karmiloff-Smith
   pedía casa, hombre y animal; Maia: "lo del animal sí"). "Dibujá un

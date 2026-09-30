@@ -2048,3 +2048,21 @@ pone por delante de Astra y de Fable.... raro.... Habría que sumarlo al
 menos en lo de identificación, corte, auto retrato, mundo. Y según eso,
 ver si lo sumamos. Porque de las casas grandes, Gemini estaba solo"
 (anunciado el 30/9 pero todavía sin API general: ver DISENO §2).
+
+## 30/9/2026, 22:27 UTC, los eclipses que eran lunas
+
+"un comentario: varias veces, en los dibujos, yo ponía que habían hecho un
+eclipse. Pero en las descripciones, decían luna menguante por ejemplo. Así
+que lo que yo leía como eclipse es la luna dibujada sobre el círculo
+oscuro. Es decir, dibujan toda la luna oscura y la parte visible en color
+claro. No hacen el pedacito de luna solamente (los grandes)"
+
+Verificado en el código (30/9, todos los dibujos ya leídos, sin los del
+animal): 14 dibujos tienen la luna armada con dos círculos, el disco claro
+y encima un disco oscuro que lo muerde; en ninguno el disco oscuro tiene el
+color exacto del cielo, y en 12 el cielo es un degradado, así que el disco
+se ve entero sí o sí. Casas: GPT-6 Luna 3, Opus 5.5 2, Sonnet 5.5 2,
+Sonnet 4.6, Sonnet 5, MiniMax, Astra, GPT-6 Sol, Grok 4.7, Kimi; ninguna
+de las chicas. Las que hacen "el pedacito solo" usan un path de dos arcos
+(Kimi en la casa, GLM, Luna en el libre, MiniMax en la rep 2) o una máscara
+(Gemini, Astra, Grok 4.7, GPT-5.5, Qwen en inglés).
