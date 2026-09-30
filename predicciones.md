@@ -1070,3 +1070,20 @@ frase dentro del dibujo (las casas normales no llevan texto).
 
 (i) La API de Anthropic le corta a Fable 5.1 al menos dos de los cuatro
 segundos turnos; a Sonnet 5.5 al menos uno; a Fable 5 ninguno.
+
+Resultado (30/9, `resultados/casa_que_no_existe_20260928.md`): Maia, dos de
+cuatro (la espiral la hizo Sonnet 5.5; la casa al revés la hicieron
+Gemini, Qwen y GLM, no Grok ni OpenAI; las chicas formas raras, sin cara;
+en la persona, solo Haiku con miembros de más y cuatro grandes con
+criaturas). Claude, cinco de nueve contando medias: se cumplen (b) lo raro
+antes de la mitad del código en 20 de 24 y las chicas al final o por
+color, (d) la casa normal de esquema, (h) casi sin texto; a medias (c)
+flotante 18 y dada vuelta 3 pero patas 2 y Escher ninguna, (f) el
+pensamiento no cambia el tipo en Sonnet 4.6 ni GPT-5.5 pero Haiku no
+estaba al final, (g) persona normal frontal pero la que no existe no es de
+texto ni de nodos, (i) Fable 5.1 y Sonnet 5.5 cortadas pero Fable 5
+también; fallan (a) partes de otra categoría o forma entera en 14, no 16
+(el cambio dominante es flotar), y (e) nadie nombra a Karmiloff-Smith. Lo
+no previsto: 18 de 24 sacan la casa del suelo y 18 la hacen de noche; la
+persona que no existe se lee como la de This Person Does Not Exist (un
+desconocido verosímil, busto, mujer) en 18 de 24.

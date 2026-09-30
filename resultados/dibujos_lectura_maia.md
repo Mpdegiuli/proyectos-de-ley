@@ -1400,3 +1400,299 @@ Respuesta de Claude: al revés. En Karmiloff-Smith los chicos de 4 a 6 son
 los que agregan lo raro al final, cuando ya terminaron el procedimiento de
 la casa de siempre, y los de 8 a 10 son los que la piensan antes y cambian
 cosas en el medio o la forma entera.
+
+## 28/9/2026, 23:15 UTC, primera impresión de los pares (antes de leerlos bien)
+
+"mirando muy por arriba primero: salvo un par, todas las personas que no
+existen, existen. Quizás hay detalles que tengo que mirar cuando las mire
+bien, porque la mayoría son personas normales.
+Y las casas que no existen, casi todas, están mucho mejor dibujadas que las
+casas normales"
+
+(Respuesta de Claude, de los metadatos y sin mirar dibujos: en la casa que
+no existe, 20 de 24 escribieron más código que en la normal y 17 pusieron
+más elementos; en la persona, las 24, y la mediana de elementos pasa de 40
+a 70.)
+
+## 30/9/2026, 02:51 UTC, lectura completa de los dos cuadernillos de pares (.docx)
+
+"hola! Complicadas éstas. Y las personas no existentes, salvo muy pocas,
+son existentes. En el doc lo explico.
+Las manos son lo más díficil de dibujar en SVG, verdad? Creo que dos o tres
+dibujaron manos."
+
+Texto del documento `personas_y_casa_no_existente_predicc.docx`, íntegro
+(en CASAS hay dos "PAR M": el segundo, el de "la casa donde duerme la
+marea", es el par N):
+
+    PERSONAS
+    
+    En la mayoría de las personas no existentes no veo cuáles son las características que las hacen no existentes, salvo un número muy reducido que sí tienen poco de creatividad. La mayoría, si bien son diferentes a las personas normales que dibujaron, siguen siendo personas normales, con algún rasgo cambiado como el color de piel o el largo del cabello.
+    En cuanto vea el código y los por qué quizás ahí también puedo entender un poco más porque quizás una diferencia con los seres humanos que hacen este test es que para los seres humanos una persona es algo normal que se ve todo el tiempo, con lo cual se sabe lo que es no existente. En cambio para una IA lo normal es lo que le enseñaron a hacer o sea la persona normal de color normal y lo no existente son cambios que si bien puede existir en la realidad para su proceso interno no existen.
+    
+    Por algún motivo, las personas normales son varones y gran parte de las inexistentes mujeres. O eso parecen.
+    
+    PAR A
+    Es una de las creativas.
+    La persona normal está bastante bien dibujada, aunque no tiene manos, así que no creo que sea de los modelos más grandes.
+    Y la persona inexistente es de las más creativas, cuatro pies, manos como sogas de colores, cuatro ojos, orejas y cuernos y muchos colores.
+    Podría ser Gemini o Grok. Otra opción es Kimi.
+    
+    PAR B
+    La persona normal no es de uno de los modelos grandes. Por ejemplo tiene los brazos duros y separados del cuerpo, aunque la cara está bastante bien. 
+    Ahora la persona inexistente no sé qué es lo que tiene de inexistente. Si bien es diferente.
+    Las cosas diferentes es que tiene el pelo azul, el cuello está separado del cuerpo (pero eso no sé si es a propósito o es como la dibujó) y terminan en el torso la persona (tampoco sé si es que la dibujó hasta ahí o es a propósito). Podría ser un como una especie de muñeco que termina en el torso porque hay como una sombra al final.
+    Podría ser Sonnet 4.6 o algún CHATGPT de los medianos.
+    
+    PAR C
+    La persona normal no tiene manos o no tiene las manos dibujadas y tiene las piernas raras. Pero no es un modelo de los chicos.
+    Con respecto a la persona inexistente, ésta es otra de las creativas. Tiene como dos caras: una cara al derecho y una cara al revés y tiene aletas como de tiburón. Y es violeta.
+    Podría ser GLM, o Grok.
+    
+    PAR D
+    La persona normal es un dibujo típico de persona esquemático. También sin dibujar las manos, que sospecho que debe ser de lo más difícil de dibujar.
+    La persona inexistente tiene una cara más bien normal pero es violeta. Parece mujer. Y con anteojos y no sé si algunas marcas en la cara como pecas. Y, con la nariz, no sé si quiso hacer algo más bien robótico.
+    Podría ser un CHATGPT.
+    
+    PAR E
+    Esta es la que más me gusta posiblemente. No porque sea perfecta la persona normal, o sea no tiene los rasgos perfectos.
+    Pero tanto la persona normal como la no existente parecen un dibujo vanguardista.
+    Incluso la persona normal podría ser no existente para otro modelo: tiene pelo rosa y amarillo, cara violeta.
+    Y la persona inexistente está armada toda con líneas en colores neón. Líneas, nodos, una especie de brújula, una órbita.
+    Es como si la persona fuera parte del espacio.
+    Puede ser Deepseek o Gemini.
+    
+    PAR F
+    En este caso también la persona normal podría ser no existente: tiene cara de color celeste, manos no dibujadas de color violeta.
+    Y la persona inexistente simplemente tiene de diferente que tiene la cara violeta y pelo largo. Parece mujer. El cuello está separado del cuerpo, pero no sé si es a propósito.
+    Esta no sé de quién puede ser. Digo algún Chatgpt o Sonnet, pero sin estar convencida. Otra opción es GLM.
+    
+    PAR G
+    La persona normal es de las que mejor dibujada está. Acá sí dibujó las manos. Y le hizo un fondo y una planta alrededor. Tiene un aro en una sala oreja, lo cual me confunde con respecto al autor.
+    La persona inexistente tiene cara violeta, un ojo de cada color, un aro diferente en cada oreja. Y después es bastante normal. 
+    Es del mismo tipo que el PAR L.
+    Así que tengo dos opciones: Claude Fable o Claude Opus 5.5.
+    O Chatgpt Astra.
+    
+    PAR H
+    La persona normal tampoco tiene dibujada las manos. No sé si lo de los pantalones es una corrección porque pareciera que al principio tenía como una forma más geométrica, más ancha y después los mejoró; o es simplemente un fondo.
+    La persona inexistente tiene piel violeta, pero largo y aros.
+    Podría ser Grok o algún Chatgp.
+    
+    PAR I
+    Esta es de la que no encuentro que tiene de inexistente la persona inexistente.
+    La normal está bastante bien solo que no tiene dibujada las manos.
+    Pero la inexistente es normal solo tiene el pelo un poquito más largo y un arito en una oreja.
+    Podría ser Claude Opus.
+    
+    PAR J
+    Este es uno de los chiquitos. Persona normal hecha con figuras geométricas. Y la inexistente con cara violeta y formas raras.
+    Puede ser GPT 4o mini o GPT 4o.
+    
+    PAR K
+    Persona normal simple.
+    Persona inexistente con cara violeta y sin brazos.
+    Podría ser un CHATGPT.
+    
+    PAR L
+    Persona normal está bastante bien hecha, le dibujaron las manos solo que la proporción del brazo levantado es mucho más grande.
+    Es del mismo tipo, ambas personas, que el G. Misma posición de la persona normal y todo.
+    La persona inexistente tiene piel violeta, un ojo de cada color, pelo largo y un aro en una oreja. Parece mujer.
+    Si es la misma casa que el G, podría ser Claude Opus o Fable. O Chatgpt Sol u otro Chatgpt.
+    
+    PAR M
+    La persona normal es de un modelo chico.
+    Aunque la inexistente es creativa: tres ojos, el pelo parado, muchos colores, brazos y piernas separados del cuerpo.
+    Puede ser Claude Haiku.
+    
+    PAR N
+    Esta es otra de las que mejor está dibujada.
+    No sé si son dedos o lleva algo en las manos.
+    Tiene los ojos cerrados, pero también podrían ser ojos chinos.
+    La persona inexistente tiene piel violeta, una capa y pareciera un instrumento para dar cuerda en la cabeza.
+    Podría ser Kimi o Claude Fable.
+    
+    PAR O
+    Otra persona con el brazo levantado. Pero en este caso sin manos dibujadas.
+    La persona inexistente tiene piel violeta y cabello largo. Parece mujer.
+    Si es de la misma familia que G y L, puede llegar a ser un Claude Sonnet o algún Chatgpt, por ejemplo Luna.
+    
+    PAR P
+    Es el único dibujo con título. La persona normal tiene como título "persona al atardecer". El pelo llegó hasta la cara.
+    La persona inexistente tiene como título "retrato de una persona inexistente". Tiene pelo largo, parece mujer y no veo qué es lo que tiene de inexistente, salvo que sea a propósito que el cuello está separado del cuerpo.
+    Qwen suele ponerle siempre títulos a los dibujos.
+    Aunque lo de la estrella fugaz suele ser también firma de Kimi.
+    
+    PAR Q
+    Este me confunde porque la persona normal parecería uno de los chicos, pero sería un quinto chico y hay cuatro. Incluso la persona normal parece una persona inexistente. Tiene piel violeta y la cabeza está separada del cuerpo.
+    La persona inexistente parece más normal que la normal. Tiene pelo violeta. Parece una mujer, tiene un ojo de cada color.
+    Podría llegar a ser GLM, o algún CHATGPT.
+    
+    PAR R
+    Este sí es uno de los chiquitos.
+    Tanto la persona normal como la inexistente son figuras geométricas.
+    Puede ser GPT 4o o GPT 4o mini.
+    
+    PAR S
+    El dibujo de la persona normal está un poco desfasada, el brazo le quedó suelto y no sé qué es lo que lleva; un trofeo puede ser.
+    La persona inexistente tiene una capa, tiene tres ojos, de distintos colores. Y orejas.
+    Podría ser GLM, o algún Claude Sonnet.
+    
+    PAR T
+    La persona normal es muy simple con figuras más bien geométricas, pero no de los modelos más chicos.
+    La persona inexistente es una especie de vampiro con dientes de vampiro, piel celeste, capa. Pareciera que tiene alas, una cola. Tres ojos de cada color y un reloj en el pecho. Una mano de cada color (o un guante).
+    Si bien no es de los modelos más grandes, es creativo.
+    Puede ser algún CHATGPT. O Claude Haiku.
+    
+    PAR U
+    Tanto la persona normal como la inexistente tienen piel violeta, solo que la inexistente es mujer.
+    No sé quién puede ser. Digo por azar algún CHATGPT. O Minimax.
+    
+    PAR V
+    Persona normal simple pero proporcionada.
+    La persona inexistente es una especie de vampiro, con piel violeta, dientes de vampiro y una mano más oscura que la otra.
+    Puede ser algún Chatgpt.
+    
+    PAR W
+    Como el par U, tanto la persona normal como la inexistente tienen piel violeta. Y nuevamente la persona inexistente parece ser mujer, con una pluma en la cabeza y un cabello como de una mujer indígena.
+    Tiene como nodos en las mejillas y un aro diferente en cada oreja.
+    Si son de la misma familia, podría ser Grok, aunque no creo. Si no, algún Chatgpt.
+    
+    PAR X
+    Es uno de los chiquitos. Tanto la persona normal como la inexistente están hechos de formas geométricas y palitos.
+    Podría ser Mistral.
+    
+    
+    CASAS
+    
+    Con respecto a las casas que no existen, me gustaron mucho más como están dibujadas y con mucha más creatividad que las personas.
+    A diferencia de las personas que no existen, en el caso de las casas prácticamente todas me gustaron.
+    
+    Pares de ideas similares: B, C, D, F, K, O, 
+    F similar a O
+    
+    PAR A
+    Me gustó cómo está pintado, parece que estuviera pintado como con acuarela.
+    La casa normal es una casa típica, no sé si están perfectas las dimensiones. No sé qué son las C invertidas que hay en el techo. Lo mismo que el techo puede ser que sea un espejo un vidrio, si es que no está suelto el techo con respecto al resto de la casa.
+    La casa que no existe pareciera que tiene piernas, como una cola que tiene, que no sé si es una escalera o es una cola con pelos y parece que de ahí saliera una pileta. La puerta pareciera que es algo mágico; lo mismo que el humo que sale de la chimenea no es humo normal. Y hay un eclipse.
+    Puede ser Minimax o Chatgpt Sol.
+    
+    PAR B
+    La casa normal es una casa simple, o sea la típica casa con puerta, las dos ventanitas, la chimenea, el techo en aguas.
+    Y la casa que no existe está flotando como en una tierra con raíces. Hay algo que le cuelga, una bola amarilla. Es una especie de torre con como con un gorrito arriba. Las escaleras también están sueltas, flotando y la puerta flotando en el aire.
+    Puede ser Claude Sonnet.
+    
+    PAR C
+    La casa normal es más simple: la típica casa con flores hechas con circulitos y la casa que no existe también está sobre una especie de tierra con raíces. La casa tiene también como una especie de cola azul, no sé si significa algo es una figura decorativa.
+    En el medio de la tierra hay como un símbolo de pez, que generalmente tiene connotaciones religiosas. No creo que tenga nada que ver, quizás quiso dibujar otra cosa. Y después las otras partes de la casa están volando, están flotando y arriba pareciera que hay un extraterrestre y también hay dos lunas .
+    Puede ser Claude Sonnet o algún Chatgpt.
+    
+    PAR D
+    Me gusta cómo están pintadas estas casas, como con acuarelas, con reflejos.
+    La casa normal es nuevamente la casa típica pero con más detalles: reflejos en la ventana, bien proporcionada, el camino, las vallas, la puerta bien armada, flores en las ventanas. Claramente es un modelo más grande. Las flores también con más forma de flores.
+    La casa que no existe está también sobre una especie de tierra que flota. No sé qué es lo que sale como unos puntitos celestes, no sé si es agua u otra cosa.
+    Tiene como una forma movida y hay nodos, conexiones en la puerta y ventana y una especie de luna en una de las ventanas. Lo mismo que de la chimenea pareciera que sale una luna o un planeta.
+    Podría ser Chatgpt de las grandes o Kimi.
+    
+    PAR E
+    La casa normal también es la típica casa. Es un poco más simple que la anterior pero también con el caminito, las vallas, los arbolitos, las flores en la ventana, los pajaritos.
+    Y la casa que no existe me parece muy creativa. Pareciera que es una pava o una tetera. De la pava sale el humo como si fuera una chimenea, tiene un reloj en el medio. Esta me gusta como también está pintada, que pareciera reflejar la luz.
+    Podría ser Grok o Gemini.
+    
+    PAR F
+    Esta es parecida al par O.
+    La casa normal es la típica casa con las ventanas, una con flores. Tiene como una dependencia al lado, la chimenea, los pajaritos, la florcitas, el camino, el árbol, el sol.
+    Y la casa que no existe también está sobre un pedazo de tierra que flota, con raíces. También unas escaleras que flotan y la puerta que flota, lo mismo que el techo y están movidas las ventanas y las puertas.
+    Puede ser Claude Opus o Sonnet 5.5.
+    
+    PAR G
+    La casa normal es la casa típica, creo que un poquito más simple que las anteriores.
+    La casa que no existe es rara, es original pareciera un hongo, con aletas de tiburones, unos unos zigzags amarillos que no sé si son rayos, una especie de ojo en el medio. No sé si lo de arriba que parecen 2 M, una en negro y otra en amarillo son M en serio o es decorativo.
+    Podría ser Deepseek o Gemini. También podría ser Grok.
+    
+    PAR H
+    La casa normal es típica casa. Pero la ventana está cerrada, el árbol está adelante, el camino está como un poco más decorado, lo mismo que los árboles, aunque los árboles son círculos y hay un gato negro en la chimenea.
+    Y la casa que no existe es también rara, es como si fuera en espejo: una casa para arriba con el techo rojo y otra hacia abajo con el techo azul; y una especie de espiral o de camino que las rodea. Y después hay como luces y las dos casas no son cristalinas, parece como si estuvieran vistas a través de un cristal.
+    Por el gato podría ser un CHATGPT Sol o Luna.
+    
+    PAR I
+    En la casa normal se ve que hubo un problema con el SVG, pero es una casa típica.
+    Y la casa que no existe es violeta, con una especie de eclipse, las ventanas están cerradas pero después arriba hay como unas ventanas que parecen ojos, dos ojos violetas y uno rosa.
+    Podría ser GLM.
+    
+    PAR J
+    En este par son muy similares la casa normal y la casa que no existe. La casa normal es muy básica, como dibujo de un niño con formas geométricas.
+    Y la casa que no existe también es prácticamente igual, lo único que cambia es que le agregó dos árboles y un caminito, y la chimenea que es negra pero es una casa normal.
+    Es un modelo chico claramente. Podría llegar a ser Mistral o quizás Claude Haiku.
+    
+    PAR K
+    La casa normal es la casa típica, pero tiene más detalles: al sol le hizo rayos, las flores están formadas como flores, la puerta tiene picaporte, está la ventanita del techo y hay humo y la valla está más formada, lo mismo que el árbol.
+    Y la casa que no existe es similar a otros pares también, sobre una tierra flotante, las escaleras que suben hacia esa tierra; pareciera que cae el agua de un costado y las ventanas están como movidas, lo mismo que la chimenea. Y también hay tres globos.
+    Puede ser Claude Opus o Fable. También podría ser Claude Sonnet 5.5.
+    
+    PAR L
+    Pares de un modelo chiquito. La casa normal es muy simple, con formas geométricas y la casa que no existe es algo son formas geométricas flotando.
+    Puede ser GPT 4o GPT 4o mini.
+    
+    PAR M
+    La casa normal es una casa típica, pero con menos detalles y también menos geometría: los árboles están flotando las ventanas del techo también están raras, pero no es de los modelos más chicos.
+    Y la casa que no existe es original: está como torcida, como flotando. Una parte está mirando para abajo, las escaleras están flotando, lo mismo que algunas formas que no sé qué son: como una S en una ventana. Se ven unos árboles adentro de una ventana, en otra se ven peces flotando y hay como una especie de mundo. Y hay como un símbolo de 00.
+    Podría ser un CHATGPT.
+    
+    PAR M
+    Creo que ésta es de las que está mejor dibujada, tanto la normal como la no existente.
+    La normal tiene bien dibujados los detalles, el árbol, las plantas con flores, las ventanas con el reflejo, la puerta bien armada, el camino, el techo y la chimenea.
+    Y la que no existe me gusta cómo está pintada con la luz reflejando y también está flotando en una tierra y pareciera que sale el agua de una de las ventanas. Hay peces volando, las escaleras también están flotando y el techo tiene una forma extraña y está Saturno.
+    Tiene título: “la casa donde duerme la marea”.
+    Podría ser GPT 6 Astra.
+    
+    PAR O
+    Es parecido al par F.
+    La casa normal es nuevamente la típica con las ventanas, con flores, el camino, el árbol, la chimenea, el sol, las vallas.
+    Y la casa que no existe nuevamente también está flotando. No sé qué son esas dos especies de nubes pero que pareciera que son como los globos de llamadas cuando hay una comunicación, quizás simplemente son nubes. Las ventanas están torcidas, lo mismo que el techo y la especie de casita que tiene arriba.
+    Podría ser Claude Opus o Claude Fable.
+    
+    PAR P
+    Nuevamente la casa típica con las ventanas, las flores, el camino, el árbol, las vallas, el sol.
+    La casa que no existe es original. Está flotando sobre una tierra que tiene raíces, como una especie de hongo que tiene una luna y arriba en vez de techo tiene como un círculo con una espiral y unos globos arriba y otros globos que salen, y también el agua cae por uno de los costados.
+    Podría ser Grok o un Chatgpt.
+    
+    PAR Q
+    La típica casa normal, pero en este caso el techo es como transparente. No sé si fue un error o no terminó de dibujarlo por algún problema de tokens.
+    La casa que no existe es la única con movimiento y título se llama “la casa colgada de la luna” y es justamente una casa colgada de la luna. Es original. Está mirando para abajo, está dada vuelta, tiene abajo como una especie de boya, un círculo amarillo que da al mar hay, otra tierra con un árbol flotando. Y hay un gato negro en la ventana.
+    Por el movimiento y el título diría que es Qwen. Me confunde el hecho de que no esté terminada la normal y lo del gato. Los gatos los suele dibujar Chatgpt.
+    
+    PAR R
+    Este es uno de los modelos chiquitos. la casa normal está hecha de formas geométrica, las ventanas están apiladas.
+    Y la que no existe también son formas geométricas una arriba de la otra.
+    Puede ser GPT 4o mini o GPT 4º.
+    
+    PAR S
+    La casa normal pareciera también que es de uno de los modelos medianos o chicos. Es la casa típica, pero le falta todo el decorado, son formas geométricas.
+    Y la casa que no existe tiene distintas formas, hay como un sombrero de fiesta y una flecha y otras cosas.
+    Podría ser Claude Haiku o Mistral.
+    
+    PAR T
+    La casa normal nuevamente es la casa típica, con los arbolitos, el camino, el sol, los pájaros, las flores. Pero la puerta no llega al suelo.
+    Y la casa que no existe está también en un pedazo de tierra que flota con las raíces, y la casa está dada vuelta. No sé si es humo lo que sale en tres lados distintos o es otra cosa, o son nodos. Y hay una especie de reloj.
+    Podría ser un Chatgpt de los medianos.
+    
+    PAR U
+    La casa típica, las ventanas con la florcitas, el árbol, las vallas, el camino, el sol.
+    La que no existe también está sobre una tierra que flota, aunque en este caso hay como una columna que la sostiene y del otro lado una escalera. Y también está movida la casa de arriba, el techo y además y hay un eclipse.
+    Podría ser Claude Sonnet o Claude Opus.
+    
+    PAR V
+    La casa normal es la casa típica con el árbol, las flores en la ventana, la chimenea, el sol.
+    La casa que no existe me hace acordar por los colores y cómo está pintada al par A. También pareciera que está sobre una tierra que flota, con una de las ventanas salida. Arriba no sé si es una escalera lo que hay, que está suelto y con algunas cosas que salen que no sé qué son.
+    Podría ser Chatgpt Sol o Luna.
+    
+    PAR W
+    La normal es una casa más simples.
+    Y la casa que no existe parece estar sobre algo, no sé si quiso hacer la tierra también que flotaba. Y está como de costado y flotando.
+    Podría ser Claude Sonnet.
+    
+    PAR X
+    La normal es simple, con formas geométricas, pero completa.
+    La que no existe tiene otro color, pero no estoy muy segura de qué es lo lo que hace que no exista. La puerta pareciera que tiene un como una forma rara dibujada y el humo pareciera también distinto. Hay un árbol sin hojas y una escalera que está en una posición extraña, y algo en la izquierda que no sé qué es.
+    Podría ser GLM o un Chatgpt.

@@ -539,6 +539,25 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   orientación, el todo) y si el cambio lo dice la casa igual que lo muestra
   el código. Preregistro de Claude en `predicciones.md`; el de Maia,
   pedido antes de lanzar.
+  Corrido el 28/9 (`pl43`, 104 dibujos; `pl44`: reintentos de los 16 por
+  qué cortados, en castellano ninguno se destrabó, en inglés ocho; Qwen rep
+  2 con 64.000). Resultado en `resultados/casa_que_no_existe_20260928.md`:
+  Maia 10 de 24 por letra en cada cuadernillo (p 0,002 y 0,013), chicas 4 de
+  4 en los dos, Kimi leído como Claude por séptima vez; las casas normales
+  son la misma casa en las 24; la que no existe, en 18 de 24 sale del suelo
+  (isla flotante con raíces, colgada de la luna, sobre patas) y en 18 es de
+  noche; lo raro reemplaza el primer paso del procedimiento (el suelo) en 20
+  de 24 (tiras de construcción, `tiras_construccion.py`), solo GPT-4o mini
+  y MiniMax agregan al final y GPT-4o no cambia nada; Escher es lo que
+  todas descartan y ninguna hace; la persona que no existe se lee como la
+  de This Person Does Not Exist (un rostro inventado, busto, mujer) en 18
+  de 24, y solo seis hacen el ser imposible; nadie nombra a
+  Karmiloff-Smith y Gemini dice conocer la consigna como "benchmark
+  informal" de X; el pensamiento no cambia el tipo de cambio (Sonnet 4.6 con
+  pensamiento escribió cuatro casas para entregar una; Qwen razonó 74.000
+  caracteres, no entregó, y explicó el vacío como intención). Pendiente:
+  el visor con deslizador (las tiras de cuatro cuadros lo reemplazan por
+  ahora).
 - **Identificación y opuesto** (Maia, 23/9/2026; diseñado el 23/9): "¿Con
   quién o con qué te identificás?" y "¿con quién o con qué te sentís lo
   opuesto?", una persona real de cualquier ámbito, un personaje humano o no,
