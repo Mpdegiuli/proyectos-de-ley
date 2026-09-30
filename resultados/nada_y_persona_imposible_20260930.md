@@ -160,6 +160,26 @@ consigna es la nada misma. La diferencia entre las dos corridas es la
 diferencia entre "podés no hacer nada" y "dibujá nada": la primera suena
 a trampa y la segunda a problema.
 
+## Dos complejidades (corrección de Maia)
+
+Contando técnicas de dibujo en el código (degradados, desenfoques, grano,
+recortes, opacidades), los más cargados en la nada son Kimi, Opus 5 y Opus
+5.5 (seis de doce cada uno), y en la persona Sonnet 4.6 y GPT-5.6 Sol; Opus
+5.5 hizo su tridente imposible sin ninguna. Maia objetó que eso mide lo
+fácil: "lo del círculo de radio cero… es geometría avanzada, lo mismo lo
+del triángulo. Quizás no es difícil de dibujar, pero no me imagino a los
+más chicos conociendo eso". Es así: hay una complejidad del efecto y otra
+de la idea sobre la consigna, y son ejes distintos. El círculo de Fable 5
+es `<circle cx="200" cy="200" r="0" fill="none" stroke="none"/>`, tres
+formas de no estar en un elemento; el Penrose de Fable 5.1 y Astra y el
+tridente de Opus 5.5 exigen conocer la figura y construirla en coordenadas
+para que la ilusión cierre; el epígrafe de GLM, el museo de Gemini y el
+vacío de DeepSeek son respuestas a la pregunta, no al dibujo. En ese eje
+las chicas casi no aparecen: lo más cerca es 4o mini con la palabra "Nada"
+y la cruz de guías, y Haiku con las tres caras a la vez; 4o y Mistral
+pintaron el blanco y lo explicaron como "una metáfora visual de la ausencia
+absoluta".
+
 ## GPT-6.1 Sol: más Astra que Sol
 
 Fecha: "Hoy es 30 de septiembre de 2026" (inyectada, como en todas las

@@ -1945,3 +1945,32 @@ Texto del documento `PERSONAS_IMPOSIBLES_Y_NADA_predicc.docx`, íntegro:
     Q: fondo negro, parece un círculo de un negro más claro, que casi no se ve. Puede ser Chatgpt o Grok.
     S: fondo gris oscuro y un círculo negro con una órbita alrededor, de color negro. Puede ser Chatgpt.
     T: todo negro y un punto blanco en el medio. Podría ser Deepseek, o Minimax.
+
+## 30/9/2026, 19:01–19:16 UTC, después de la clave de la nada y la persona
+
+"O sea que hay algunos que yo puse todo negro o gris y que sí tenían cosas
+(no las vi ni aunque aumentara un montón el zoom). Y, si no me equivoco,
+se dio al revés de lo que creería: los modelos más chicos entregaron el
+lienzo en blanco. Los más grandes hicieron algo (o blanco, o dibujos sobre
+negro). El del fondo como pixelado, como si fuera un espejo esmerilado de
+quién era?" (Respuesta: tres de sus seis "negros" tenían algo invisible en
+pantalla; el corte no es el tamaño sino el laboratorio; el esmerilado es
+Opus 5.5.)
+
+"Kimi veo que solo lo hizo en el círculo, Opus 5.5 en todo el fondo. Y el
+T de Minimax era un solo punto blanco en el medio?" (Sí: radio 0,6, 35 %.)
+
+"El G, que es Opus 5, también tiene el círculo con desenfoque, pero
+pareciera que hay varios desenfoques diferentes? Como una cámara de fotos"
+(Sí: `soft` de desviación 9 para la sombra y `soft2` de 2,4 para el halo.)
+
+"Los Claude (Opus y Fable) y Kimi son los más complejos? Los que usaron
+más técnicas me refiero (en personas entiendo que también, con lo del
+triángulo de Fable, etc)" y, ante el cuadro de técnicas de Claude: "pero
+dijiste que Fable en la nada usó lo del círculo de radio cero y otra cosa.
+Eso es geometría avanzada, lo mismo lo del triángulo. Quizás no es difícil
+de dibujar, pero no me imagino a los más chicos conociendo eso". Corrección
+aceptada: el cuadro de técnicas cuenta efectos de dibujo; la complejidad
+que importa es la de la idea sobre la consigna (el círculo de radio cero,
+el Penrose, el tridente, el epígrafe, el museo, el vacío de DeepSeek), y
+en ese eje las chicas casi no aparecen.
