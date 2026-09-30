@@ -1731,3 +1731,12 @@ cosa, pueden hacer asociación libre hacia otra y mover todo lo creado
 hacia allí. Ojo, con personas puede pasar también, en algún caso.
 Lo que, en el caso de las personas (salvo los chiquitos) no se ve, por irse
 para otro lado, es lo del desarrollo cognitivo."
+
+## 30/9/2026, 03:55 UTC, sobre la hoja vacía
+
+"Yo creo que esa opción, el no dibujo, dejarlo vacío, es una opción que
+ningún modelo actual podría decidir, porque siempre crean. Sería muy
+interesante.
+Y, si una persona o un chico, también decidiera dejar vacía la hoja, no sé
+cómo se tomaría: como un error, como falta de creatividad. O como una
+decisión inteligente: algo que no existe es justamente la nada."
