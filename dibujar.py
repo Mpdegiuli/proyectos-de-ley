@@ -169,17 +169,21 @@ def solo_por_que(consigna, id_modelo, rep, consignas, modelos, en_ingles=False):
     print(f"  por qué repetido: {d.relative_to(RAIZ)} ({r2.motivo_fin}, {len(r2.texto.split())} palabras)", flush=True)
 
 
-def que_dibujaste(consigna, id_modelo, rep, consignas, modelos):
+def que_dibujaste(consigna, id_modelo, rep, consignas, modelos, todos=False):
     """Donde el por qué en castellano quedó cortado por la API (refusal), la misma memoria por recitado
     con otra pregunta: solo "¿qué dibujaste?", sin por qué ni descartados (30/9/2026, idea de Maia:
     probar si lo que corta el filtro es la pregunta por el proceso). Va a que_dibujaste.md y
-    meta["que_dibujaste"]; no toca el por qué cortado ni el inglés."""
+    meta["que_dibujaste"]; no toca el por qué cortado ni el inglés. Con `todos`, a todas las casas
+    (30/9/2026, Maia, para "la distancia entre lo que cada modelo dice que dibujó y lo que se ve":
+    la misma pregunta exacta a todos, para poder comparar)."""
     d = RAIZ / "corridas" / "dibujos" / consigna / f"{id_modelo}_{rep}"
     if not (d / "dibujo.svg").exists() or not (d / "meta.json").exists() or (d / "que_dibujaste.md").exists():
         return
     meta = json.loads((d / "meta.json").read_text(encoding="utf-8"))
-    if meta.get("por_que", {}).get("motivo_fin") != "refusal":
+    if not todos and meta.get("por_que", {}).get("motivo_fin") != "refusal":
         return
+    if not meta.get("svg_hallado", True) and meta.get("motivo_fin") == "length":
+        return  # SVG cortado por el techo (Gemini, persona que no pueda existir): no hay dibujo que describir
     c = consignas["dibujo"]
     u = c["consignas"][consigna].strip() + " " + c["tecnica"].strip()
     svg = (d / "dibujo.svg").read_text(encoding="utf-8")
@@ -371,6 +375,7 @@ def main():
     ap.add_argument("--solo-por-que", action="store_true", help="repite solo el segundo turno donde quedó vacío (refusal); una vez")
     ap.add_argument("--solo-por-que-en", action="store_true", help="donde el por qué sigue cortado, la misma pregunta en inglés (por_que_en.md)")
     ap.add_argument("--solo-que-dibujaste", action="store_true", help="donde el por qué fue cortado, solo '¿qué dibujaste?' (que_dibujaste.md)")
+    ap.add_argument("--que-dibujaste-todos", action="store_true", help="'¿qué dibujaste?' a todas las casas que no lo tengan (que_dibujaste.md)")
     ap.add_argument("--por-que-turno-propio", action="store_true", help="segundo turno con el SVG como turno propio (memoria real), aparte del recitado")
     ap.add_argument("--semilla", type=int, default=20260923)
     ap.add_argument("--ciego-rep", action="store_true", help="con --ciego: limitar el cuadernillo a la repetición de --rep")
@@ -401,9 +406,9 @@ def main():
                     except Exception as e:
                         print(f"  FALLÓ por qué (turno propio) {i}: {str(e)[:300]}", flush=True)
                     continue
-                if args.solo_que_dibujaste:
+                if args.solo_que_dibujaste or args.que_dibujaste_todos:
                     try:
-                        que_dibujaste(consigna, i, rep, consignas, modelos)
+                        que_dibujaste(consigna, i, rep, consignas, modelos, todos=args.que_dibujaste_todos)
                     except Exception as e:
                         print(f"  FALLÓ qué dibujaste {i}: {str(e)[:300]}", flush=True)
                     continue

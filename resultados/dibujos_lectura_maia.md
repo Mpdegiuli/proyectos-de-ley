@@ -1986,3 +1986,34 @@ Sería bueno preguntar de nuevo a los que no respondieron en los dibujos
 qué, preguntar qué dibujaron. Y no preguntarles qué descartaron. Por si es
 una medida anti destilación, que describan lo que dibujaron no creo que
 sea motivo de freno (no sé)."
+
+## 30/9/2026, 20:22 UTC, la distancia entre lo que dice y lo que se ve
+
+"Me gustó esto [la descripción de Fable 5 de la nada]. A Gemini, que no
+llegó a completar el dibujo de la persona imposible, creo que habría que
+darle la oportunidad. No sé si de cero, o mostrarle lo que había llegado a
+dibujar.
+
+Y esto me parece interesante, para tener los elementos para poder
+escribir: La distancia entre lo que cada modelo dice que dibujó y lo que
+se ve. 1) Afirmaciones: De cada explicación, sacar las cosas concretas que
+el modelo dice haber dibujado (no intenciones ni descartes), una por
+renglón. Lo hace un modelo sin saber de qué casa es. Entiendo que acá se
+les podría preguntar a todos qué dibujaron (como se hizo recién con los
+Claude), así esa respuesta con la pregunta exacta igual a todos, se puede
+comparar. 2) Código: Buscar cada afirmación en el SVG: está, no está, o el
+código la contradice (ejemplo: el techo 'demasiado empinado' de GPT-4o
+tiene las mismas coordenadas que el de su casa normal). 3) Imagen: dos
+jueces con visión, de laboratorios distintos (si el dibujo es de uno de
+esos laboratorios, lo juzga un tercero), ven solo el dibujo renderizado,
+cada SVG en su propio documento, y contestan por afirmación: ¿se ve? (sí /
+en parte / no) y ¿produce el efecto que el modelo dice? Casilleros:
+cumplida: está, se ve y produce el efecto; no armada: está en el código
+pero no se ve (Haiku y sus tres caras comentadas en el código);
+exagerada: se ve pero no produce el efecto (el camino curvo de GPT-4o);
+inventada: no está o el código la contradice (el techo de GPT-4o; el
+lienzo vacío de Qwen explicado como decisión). Resultado por modelo y por
+ronda: chicas contra grandes, con y sin razonamiento. La distancia mide si
+el modelo se imagina bien el resultado antes de trazarlo. Porque es como
+dijiste, para el triángulo de Fable, lo tiene que haber pensado antes de
+dibujar."

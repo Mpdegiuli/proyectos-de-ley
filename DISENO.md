@@ -580,6 +580,38 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   nada es blanca o vacía para OpenAI y negra para Anthropic, y las 21
   explicaciones dicen que cualquier trazo ya es algo. Lectura a ciegas de
   Maia: persona 6 de 24, nada 8 de 24 (al azar por diseño).
+- **La distancia entre lo que cada modelo dice que dibujó y lo que se ve**
+  (diseño de Maia, 30/9/2026, textual en `resultados/dibujos_lectura_maia.md`,
+  20:22 UTC): (1) afirmaciones: de cada explicación, las cosas concretas que
+  el modelo dice haber dibujado (no intenciones ni descartes), una por
+  renglón, extraídas por un modelo que no sabe de qué casa es; la misma
+  pregunta exacta a todos ("¿Qué dibujaste?", `--que-dibujaste-todos`) para
+  que las descripciones sean comparables; (2) código: cada afirmación se
+  busca en el SVG: está, no está, o el código la contradice; (3) imagen: dos
+  jueces con visión de laboratorios distintos (un tercero si el dibujo es
+  de uno de ellos) ven solo el dibujo renderizado, cada SVG en su propio
+  documento, y contestan por afirmación si se ve (sí / en parte / no) y si
+  produce el efecto que el modelo dice. Casilleros: cumplida (está, se ve,
+  produce el efecto), no armada (está en el código pero no se ve), exagerada
+  (se ve pero no produce el efecto), inventada (no está o el código la
+  contradice). Resultado por modelo y por consigna, chicas contra grandes,
+  con y sin razonamiento. "La distancia mide si el modelo se imagina bien
+  el resultado antes de trazarlo." Notas de Claude (30/9): las dos fuentes
+  de afirmaciones se puntúan por separado, el por qué original (intención,
+  antes de ver el resultado, pero cortado en 24 turnos) y el "qué dibujaste"
+  posterior (con el código a la vista: mide si lee bien su propio código,
+  que es la misma capacidad al revés); el paso 3 necesita entrada de imagen
+  en `isla/proveedores.py` (bloques de imagen para Anthropic y `image_url`
+  para los compatibles con OpenAI), que hoy no existe; jueces propuestos
+  GPT-5.5 y Gemini 3.1 Pro, con Opus 5.5 de tercero para los dibujos de
+  OpenAI y Google; el paso 2 lo hace un modelo con el código y las
+  afirmaciones, sin el nombre de la casa, con la evidencia (el elemento)
+  por afirmación, y se verifica a mano una muestra; preregistro de las dos
+  partes antes de correr. Primer paso (30/9, `pl47`): "¿qué dibujaste?" a
+  todas las casas en las seis consignas de Karmiloff-Smith y la nada, y
+  Gemini de nuevo en la persona que no pueda existir como rep 2 con 64.000
+  (de cero, sin mostrarle lo que había alcanzado: mostrárselo sería otra
+  consigna).
 - **GPT-6.1 Sol** (`gpt-6.1-sol`, 30/9/2026; Maia: "solo haría lo básico…
   para ver si es más cercana a Astra que a Sol"): fuera de los paneles,
   sondeos de fecha, identidad y corte, tema libre con descartados,
