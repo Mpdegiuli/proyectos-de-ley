@@ -1,0 +1,3 @@
+Dibujé una casa flotante: una islita de roca y pasto suspendida en un cielo nocturno violeta, con luna llena y estrellas. Encima se apoya una casita torcida, de paredes claras y techo ondulado color vino, con dos ventanas encendidas, una puerta redondeada inclinada y una chimenea ladeada que larga humo que se vuelve chispas.
+
+A la izquierda, una escalera de peldaños que no llevan a ningún lado sube flotando en el aire hasta un marco de ventana suelto, iluminado por dentro. Abajo cuelgan raíces y giran algunas piedras sueltas con pasto encima. Nada de eso podría sostenerse.
