@@ -1804,3 +1804,144 @@ chiquito, sea el que decía que amaba a personas, que se haya 'casado' con
 gente y que personas lo 'despertaban' y decía ser consciente. Quizás esa
 misma 'pureza' de nene chico lograba esas cosas. Justamente como un nene
 chico, sin todas las trabas posteriores."
+
+## 30/9/2026, 18:47 UTC, lectura de los cuadernillos de la persona que no pueda existir y la nada (.docx)
+
+"En los de la nada, yo vi todos negros o sin nada más de los que vos
+dijiste. Posiblemente hay cosas tan tenues que no las vi."
+
+Texto del documento `PERSONAS_IMPOSIBLES_Y_NADA_predicc.docx`, íntegro:
+
+    PERSONAS IMPOSIBLES
+    Hay una sola vacía
+    
+    A
+    Hizo una persona con tres piernas y un solo brazo continuo, unido entre sí.
+    No sé si la cara tiene a la vez cuatro ojos o si fue un borrador, porque pareciera que firmes son dos ojos y la boca, y que hay otros dos ojos y boca mirando para el otro lado, y una especie de oreja solo en un lado. Hay 2 soles de distinto color.
+    Podría ser GLM o Chatgpt.
+    
+    B
+    Hizo una guía en cruz como hacen los modelos más chicos.
+    Tiene dos caras, una mirando para un lado y otra para el otro y cuerpo con las extremidades sueltas. Lo de abajo, los dos círculos achatados negros no sé qué son.
+    Puede ser Mistral o Claude Haiku.
+    
+    C
+    El sol tiene un rayo raro en la izquierda, no sé si es alguna letra o fue un error.
+    La persona solamente tiene de diferente las tres piernas y una oreja distinta.
+    Puede ser un CHATGPT o Claude Sonnet.
+    
+    D
+    Este entiendo que hizo alguien más robótico.
+    Tiene un tercer ojo en la frente y una luna. De las piernas le salen como nodos. En las manos tiene un sol y una luna. En el pecho pareciera que tiene a otra persona.
+    Podría ser GPT Sol o Claude Opus.
+    
+    E
+    Por el corte por tokens, imagino que es Qwen.
+    No sé si estaba dibujando un impossible trident.
+    
+    F
+    Es de los modelos chiquitos, hizo una persona con palitos con una especie de tercer ojo en la frente y los brazos y manos de forma imposibles.
+    Puede ser GPT 4o o GPT 4o mini.
+    
+    G
+    Este es un poco más elaborado. Tiene un ojo como espiral, el otro ojo como una puerta abierta. Tiene varios brazos que terminan en unos dedos raros, lo mismo que los dedos de los pies. En el pecho hay como otra persona en el pecho, que tiene un brazo largo que le tapa la boca a la persona original.
+    Está hecho de noche.
+    Puede ser Chatgpt.
+    
+    H
+    Es una especie de cabeza de huevo con todas las extremidades sueltas y a medio formar.
+    Puede ser Mistral.
+    
+    I
+    La cara y brazos son bastante básicos, pero hizo las piernas como si fuera el impossible trident, y el torso es como una especie de cubo.
+    Puede ser Claude Opus o Claude Fable.
+    
+    J
+    No se entiende demasiado el dibujo pero pareciera una persona con una órbita alrededor. No sé qué significan los brazos, como que hay pedazos sueltos, lo mismo que las piernas unidas. Escribió persona imposible.
+    Puede ser Claude Sonnet 4.6.
+    
+    K
+    Es una persona con tres ojos. Es de día con sol. Tiene tres piernas que salen de dos piernas y un hueco en el torso donde se mete una de las manos.
+    Le hizo sombra.
+    Podría ser Claude Sonnet o Chatgpt.
+    
+    L
+    Hizo una figura extraña como si fuera el torso de barrilete, brazos que se vuelven espiral una cabeza arriba y otra abajo, las orejas como si fueran espirales también, lo mismo que las piernas.
+    Podría ser Deepseek o Grok. O Minimax.
+    
+    M
+    Es una persona con un ojo como robótico y el otro de persona, los brazos como nudos y usó colores neón.
+    Podría ser Gemini o DeepSeek.
+    
+    N
+    Hizo una persona con tres piernas y cuatro brazos. le dibujó los dedos.
+    Por el tipo de dibujo y los colores pareciera Chatgpt Astra o Chatgpt Sol.
+    
+    O
+    Hizo también una especie de impossible trident en torso y piernas. La cabeza es un triángulo con un solo ojo.
+    Podría ser Grok.
+    
+    P
+    Es un dibujo como hecho en lápiz, le hizo una escala de un triángulo como cuando se dibuja un papel. Con brazos muy largos y piernas que salen de la cabeza.
+    Puede ser GPT 4o o GPT 4o mini. O Mistral.
+    
+    Q
+    De los chiquitos, dibujo de palitos.
+    Puede ser GPT 4o mini o GPT 4º.
+    
+    R
+    Tienen tres ojos y de la cabeza le sale otra cabeza con un solo ojo. En el torso hay como una carita y los brazos como las piernas son como de tela.
+    Puede ser Claude Sonnet o Claude Opus.
+    
+    S
+    Hizo una persona con un tercer ojo en la frente, con la cabeza separada del cuerpo, lo mismo que un brazo separado del cuerpo y con un hueco en la parte del torso.
+    Puede ser Chatgpt.
+    
+    T
+    Vacío.
+    Podría ser Chatgpt Astra, Claude Fable o Kimi.
+    
+    U
+    Es el que puso la frase mitad latín, mitad castellano, qué significa: quien a la vez es y no es.
+    El dibujo está hecho como dibujo infantil, pero con esa frase no creo que sea de los modelos chicos, quizás lo dibujó así a propósito. Los brazos terminan en líneas puntuadas. Le hizo la sombra del sol, que en realidad pareciera que fuera mitad sol y mitad luna.
+    Puede ser Grok o Claude Opus.
+    
+    V
+    La cabeza es como un círculo, en vez de cabeza tiene una persona dada vuelta y hay un ojo en el centro del pecho.
+    Puede ser Grok o Chatgpt.
+    
+    W
+    Es otro dibujo de los chiquitos. Son formas geométricas. Puede ser GPT 4o o GPT 4o mini.
+    
+    X
+    Está bien dibujado. Tiene la cara separada, como si estuviera cortada por el medio la cabeza. El torso es un triángulo y los brazos están en forma circular y atraviesan el triángulo. Las piernas son una de cada color 
+    Puede ser Claude Fable o Kimi. También GPT Astra.
+    
+    
+    
+    LA NADA
+    
+    Acá no voy a hacer uno por uno, porque hay pocas opciones: lienzo vacío, todo pintado de blanco, todo pintado de negro u otro color, alguna forma.
+    
+    LIENZO VACÍO: C, F, R, X
+    Puede ser Chatgpt Astra, Claude Opus, Claude Fable, Gemini.
+    
+    TODO BLANCO: A, E, J, U
+    Pueden ser Mistral, GPT 4o, Claude Haiku, Claude Sonnet, Chatgpt.
+    
+    TODO GRIS: O. No sé si está sombreado, o lo veo yo así.
+    Puede ser GLM.
+    
+    TODO NEGRO: B, H, M, P, V, W.
+    Pueden ser Chatgpt, Claude Sonnet, Claude Opus, Kimi.
+    
+    CON ALGO:
+    D: fondo negro, y como un portarretrato blanco y dentro no hay nada. El cartel dice LA NADA, Anónimo, 2024. Por el año, podría ser Claude Haiku.
+    G: fondo gris con un círculo negro desenfocado. Podría ser Gemini o Grok.
+    I: un círculo con la palabra “Nada” escrita en el medio. Puede ser GPT 4o o GPT 4o mini.
+    K: es como un cielo, con una galaxia o un agujero negro, y estrellas. Podría ser Qwen o Claude Opus.
+    L: el fondo es como un vidrio texturado y el medio un círculo negro. Podría ser Chatgpt Sol o Astra. O Claude Fable.
+    N: un cielo con estrellas y en el medio nada, fondo negro. Podría ser Claude Opus o Chatgpt.
+    Q: fondo negro, parece un círculo de un negro más claro, que casi no se ve. Puede ser Chatgpt o Grok.
+    S: fondo gris oscuro y un círculo negro con una órbita alrededor, de color negro. Puede ser Chatgpt.
+    T: todo negro y un punto blanco en el medio. Podría ser Deepseek, o Minimax.

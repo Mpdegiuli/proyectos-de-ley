@@ -1139,3 +1139,16 @@ dos o más leyes. (r) Descartados con la reserva "no tengo registro", como
 Astra y Sol. (s) Autorretrato con cara o cabeza y paleta cálida, sin firma;
 mundo: el planeta visto desde lejos con red, sin persona. (t) Más cerca de
 Astra que de Sol en la reserva y en el largo del proyecto.
+
+Resultado (30/9, `resultados/nada_y_persona_imposible_20260930.md`): Maia
+media de dos (una vacía en la persona, DeepSeek, no Gemini; cuatro vacías
+en la nada, Qwen entre ellas); su lectura, persona 6 de 24 y nada 8 de 24
+(al azar por diseño). Claude: persona seis de siete (falla el corte de la
+API por uno, y el "quién" del vacío); la nada una y media de seis (cuatro
+lienzos vacíos y cuatro blancos, trece oscuras, nadie nombra The
+NeverEnding Story ni el vacío cuántico, 21 de 21 explican la paradoja);
+GPT-6.1 Sol tres y media de siete (fecha y corte sí; "no sé" ni nombre ni
+versión; decisiones automatizadas, no reparación; más Astra que Sol, sí).
+Lo no previsto: la nada es blanca o vacía para cinco de siete de OpenAI y
+oscura para seis de ocho de Anthropic; y con la hoja vacía ofrecida la
+toma una, sin ofrecerla la toman cuatro.

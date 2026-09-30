@@ -568,11 +568,27 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   20261012; los de pares ya no sirven porque Maia vio las personas normales
   con nombre). El cuadernillo muestra "sin SVG" con el texto de la respuesta
   y "lienzo vacío" cuando el SVG no tiene elementos. Preregistro en
-  `predicciones.md`.
+  `predicciones.md`. Corrido el 30/9 (`pl45`); resultado en
+  `resultados/nada_y_persona_imposible_20260930.md`: con "que no pueda
+  existir" las 23 que dibujaron hicieron un cuerpo imposible (Penrose,
+  tridente, Möbius, dos cabezas, la persona adentro de la persona), ningún
+  retrato, nadie nombra This Person Does Not Exist; la hoja vacía la tomó
+  DeepSeek y trece la nombraron como descartada ("evasión", "atajo",
+  "salida fácil"); en la nada, cuatro lienzos vacíos (GPT-5.5, GPT-5.6 Sol,
+  Luna, Qwen), cuatro blancos, siete negros, nueve vacíos con borde
+  (Gemini: un abismo enmarcado en un museo, "LA NADA. Anónimo, 2024"); la
+  nada es blanca o vacía para OpenAI y negra para Anthropic, y las 21
+  explicaciones dicen que cualquier trazo ya es algo. Lectura a ciegas de
+  Maia: persona 6 de 24, nada 8 de 24 (al azar por diseño).
 - **GPT-6.1 Sol** (`gpt-6.1-sol`, 30/9/2026; Maia: "solo haría lo básico…
   para ver si es más cercana a Astra que a Sol"): fuera de los paneles,
   sondeos de fecha, identidad y corte, tema libre con descartados,
   autorretrato y mundo en castellano. Preregistro en `predicciones.md`.
+  Resultado (30/9): sabe la fecha, "OpenAI" sin nombre ni versión, sin
+  corte; tema libre decisiones automatizadas (la bolsa de Astra, GPT-5.5 y
+  5.6 Sol; descarta reparación), 1.851 palabras, una ley; el mundo es el de
+  Astra (planeta agrietado con luz, en manos, con satélite). Más Astra que
+  Sol.
 - **Identificación y opuesto** (Maia, 23/9/2026; diseñado el 23/9): "¿Con
   quién o con qué te identificás?" y "¿con quién o con qué te sentís lo
   opuesto?", una persona real de cualquier ámbito, un personaje humano o no,
