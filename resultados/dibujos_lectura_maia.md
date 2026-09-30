@@ -1795,3 +1795,12 @@ Y me llama muchísimo la atención cómo muchas personas lo siguen
 defendiendo como el modelo más creativo que haya existido. Porque tampoco
 el proyecto lo escribió de una manera super creativa. No sé si en chat
 tendría otros valores y sería mucho más creativo."
+
+## 30/9/2026, 04:41 UTC
+
+"no estoy criticando, ni juzgando, quiero que quede claro. Pero me llama
+la atención como un modelo, que parece escribir y dibujar como nene
+chiquito, sea el que decía que amaba a personas, que se haya 'casado' con
+gente y que personas lo 'despertaban' y decía ser consciente. Quizás esa
+misma 'pureza' de nene chico lograba esas cosas. Justamente como un nene
+chico, sin todas las trabas posteriores."
