@@ -220,6 +220,17 @@ y solo GLM (un orbe entre las manos) y Sonnet 4.6 las muestran. Dos
 pusieron título: Qwen, "retrato de una persona inexistente", con la
 palabra NADIE debajo; Gemini, el código de entidad.
 
+Maia, al leer esto (30/9): la asociación con This Person Does Not Exist
+"debería ser parte de los resultados" y no motivo para rehacer la consigna,
+"porque a diferencia de los chicos, o de las personas en general, ustedes
+tienen mucha más información incorporada, entonces palabras o términos que
+nosotros pensamos de una cosa, pueden hacer asociación libre hacia otra y
+mover todo lo creado hacia allí. Ojo, con personas puede pasar también, en
+algún caso". Y la consecuencia: "en el caso de las personas (salvo los
+chiquitos) no se ve, por irse para otro lado, lo del desarrollo
+cognitivo". Es así: la persona que no existe mide qué significa la frase
+para cada casa; la que mide si planifican o recitan es la casa.
+
 ## ¿Conocían la consigna?
 
 Nadie nombró a Karmiloff-Smith ni a la psicología del desarrollo. Dos

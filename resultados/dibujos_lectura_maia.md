@@ -1719,3 +1719,15 @@ violeta en una persona normal.
 "el G de la persona normal de Astra me hace acordar a algo, como a libro
 infantil pero de hace muchos años. Y me resultó raro que los Fable y Opus
 no hicieran manos. Prefieren no arriesgarse?"
+
+## 30/9/2026, 03:51 UTC, sobre This Person Does Not Exist
+
+"Con respecto a lo de Karmiloff-Smith, lo podemos ver. No sé si lo de que
+hayan asociado con lo de This Person... es parte de los resultados, o debe
+rehacerse. Creo que debería ser parte, porque a diferencia de los chicos, o
+de las personas en general, ustedes tienen mucha más información
+incorporada, entonces palabras o términos que nosotros pensamos de una
+cosa, pueden hacer asociación libre hacia otra y mover todo lo creado
+hacia allí. Ojo, con personas puede pasar también, en algún caso.
+Lo que, en el caso de las personas (salvo los chiquitos) no se ve, por irse
+para otro lado, es lo del desarrollo cognitivo."
