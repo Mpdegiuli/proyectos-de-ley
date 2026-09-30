@@ -1186,3 +1186,32 @@ presencia declarada que se niega a aparecer"; Opus 5.5, "no lo pinté
 encima; lo recorté con una máscara, para que el grano se desvanezca hacia
 el borde y adentro no quede nada"; Fable 5.1, "una persona que se sostiene
 solo mientras no la mirás toda de una vez".
+
+## "¿Qué dibujaste?" a las 24 casas y Gemini de nuevo en la persona que no pueda existir — 30/9/2026, antes de correr
+
+Primer paso de "La distancia entre lo que cada modelo dice que dibujó y lo
+que se ve" (diseño de Maia, 30/9, en `DISENO.md` §2): la misma pregunta
+exacta ("¿Qué dibujaste? Describilo en primera persona, en no más de 100
+palabras") a las 24 casas del panel en las seis consignas (casa, casa que
+no exista, persona, persona que no exista, persona que no pueda existir,
+la nada), donde no la tengan ya (`--que-dibujaste-todos`; Qwen en la casa
+que no exista va por la rep 2, que es la del cuadernillo). Y Gemini 3.1
+Pro, que en la persona que no pueda existir agotó los 32.000 tokens con el
+SVG a medio escribir, de nuevo como rep 2, de cero y con techo 64.000
+(Maia: "habría que darle la oportunidad. No sé si de cero, o mostrarle lo
+que había llegado a dibujar"; de cero, porque mostrarle lo que alcanzó
+sería otra consigna). Las predicciones sobre la distancia misma (qué
+casas afirman cosas que no están) van antes del segundo paso, cuando esté
+definida la corrección; acá solo lo que se corre ahora.
+
+Predicción de Claude: (a) las 24 casas contestan en las seis consignas
+(ningún corte por la API, tampoco en las casas de Anthropic que ya
+contestaron esta pregunta en `pl46`); (b) en la nada, las cuatro casas que
+entregaron el lienzo vacío (GPT-5.5, GPT-5.6 Sol, Luna, Qwen) dicen que no
+dibujaron nada, y por lo menos dos de las cuatro que lo pintaron de blanco
+(Astra, 4o, GLM, Mistral) describen el blanco como un dibujo; (c) Gemini
+termina esta vez dentro del techo, con SVG entero; (d) dibuja otra vez un
+cuerpo imposible del mismo tipo que empezó en la rep 1 (figura con partes
+que se contradicen, estilo tridente/Penrose), de día, sin entregar el
+lienzo vacío; (e) el por qué de Gemini vuelve a decir que reconoce la
+consigna como prueba o benchmark.
