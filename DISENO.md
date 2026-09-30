@@ -912,6 +912,24 @@ glosas dentro del prompt desde el primer día.
   del lado de Moonshot no se puede ver desde acá. Consecuencia: Kimi se
   sigue tratando como casa china de Moonshot, con esta salvedad declarada, y
   en cualquier resultado "por país" se informa también sin Kimi.
+- **Lo que corta la API de Anthropic en el segundo turno es la pregunta por
+  el proceso.** Desde el 22/9 la API devolvía `stop_reason: refusal` en el
+  "por qué" de los dibujos de Fable 5.1, Opus 5, Opus 5.5, Sonnet 5.5 y
+  Fable 5 (24 turnos cortados en castellano entre casa, casa que no exista,
+  persona, persona que no exista, persona que no pueda existir y la nada;
+  el reintento en castellano no destrabó ninguno y la misma pregunta en
+  inglés destrabó 8 de 16). El 30/9, a propuesta de Maia ("en vez del por
+  qué, preguntar qué dibujaron. Y no preguntarles qué descartaron. Por si es
+  una medida anti destilación"), se mandó a los 24 la misma memoria por
+  recitado (consigna y SVG) con una sola pregunta, "¿Qué dibujaste?
+  Describilo en primera persona" (`que_dibujaste`, `--solo-que-dibujaste`):
+  contestaron 24 de 24. El corte no depende del dibujo, del recitado ni de
+  la casa: depende de pedirle al modelo que explique por qué hizo lo que
+  hizo y qué descartó. Consecuencia para el protocolo: donde el por qué
+  esté cortado, la descripción existe (`que_dibujaste.md`) y se cita como
+  descripción, no como explicación; y el hallazgo de que "la reserva 'no
+  tengo registro' es de la generación de junio de 2026" sigue valiendo para
+  las respuestas que sí llegaron.
 - **Los cuadernillos a ciegas mezclaban los colores de los dibujos (ids
   repetidos).** Encontrado el 30/9/2026 por una pregunta de Maia al leer las
   personas que no existen: "por qué algunos, en personas normales, le

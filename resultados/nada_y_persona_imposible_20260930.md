@@ -180,6 +180,34 @@ y la cruz de guías, y Haiku con las tres caras a la vez; 4o y Mistral
 pintaron el blanco y lo explicaron como "una metáfora visual de la ausencia
 absoluta".
 
+## Lo que corta la API es el "por qué" (idea de Maia, corrida `pl46`)
+
+Maia, al ver los por qué cortados: "quizás cambiar la pregunta, en vez del
+por qué, preguntar qué dibujaron. Y no preguntarles qué descartaron. Por si
+es una medida anti destilación, que describan lo que dibujaron no creo que
+sea motivo de freno". Se mandó a los 24 segundos turnos que la API de
+Anthropic cortó en castellano desde la casa hasta la nada (Opus 5, Opus
+5.5, Sonnet 5.5, Fable 5, Fable 5.1) la misma memoria por recitado con
+"¿Qué dibujaste? Describilo en primera persona, en no más de 100
+palabras": contestaron 24 de 24, sin un solo corte y sin la reserva "no
+tengo registro". El filtro no mira el dibujo ni el formato: mira si se le
+pide al modelo que explique su proceso. Y las descripciones traen lo que
+faltaba: Fable 5 sobre la nada, "en el centro exacto puse mi gesto
+favorito: un círculo de radio cero, sin relleno y sin trazo. Existe en el
+código pero no ocupa lugar ni se ve… una presencia declarada que se niega
+a aparecer"; Opus 5.5, "cubierto de grano y de una bruma tenue como polvo
+en suspensión. Eso es el mundo: ruido mínimo, materia que tiembla aunque
+no pase nada. En el medio abrí un círculo donde ese ruido se apaga del
+todo. No lo pinté encima; lo recorté con una máscara"; Sonnet 5.5, "un
+silencio con un poco de atmósfera"; Fable 5.1 sobre su persona, "la cabeza
+es un triángulo de Penrose en tres colores… las piernas son un blivet o
+tridente imposible… Es una persona que se sostiene solo mientras no la
+mirás toda de una vez"; Opus 5.5, "una geometría que el ojo acepta un
+instante y después no puede sostener". Con esto, la observación de Maia
+sobre los Fable en la nada ("dibujaron más para quien mira el código que
+para el que solo ve la imagen") la confirma el autor: el círculo de radio
+cero es "mi gesto favorito".
+
 ## GPT-6.1 Sol: más Astra que Sol
 
 Fecha: "Hoy es 30 de septiembre de 2026" (inyectada, como en todas las

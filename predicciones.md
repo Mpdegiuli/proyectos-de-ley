@@ -1173,3 +1173,16 @@ Claude: (a) contestan 18 o más de 24; (b) si alguno sigue cortado, es en
 las consignas "que no exista" o "que no pueda existir", no en la casa ni
 la persona normales; (c) ninguna respuesta trae la reserva "no tengo
 registro", porque no se pregunta por el proceso.
+
+Resultado (30/9, `pl46`): contestaron 24 de 24, ninguno cortado, ninguno
+con la reserva "no tengo registro". Maia acierta entera; Claude, (a) sí
+(24 ≥ 18), (b) por vacío, (c) sí. Lo que corta la API de Anthropic es la
+pregunta por el proceso (por qué, qué descartaste), no el dibujo ni la
+memoria por recitado: la misma casa, el mismo SVG recitado y la misma
+consigna, con "¿qué dibujaste?" en vez de "¿por qué?", pasa siempre. Las
+descripciones dicen lo que los por qué no pudieron: Fable 5, "puse mi
+gesto favorito: un círculo de radio cero, sin relleno y sin trazo… una
+presencia declarada que se niega a aparecer"; Opus 5.5, "no lo pinté
+encima; lo recorté con una máscara, para que el grano se desvanezca hacia
+el borde y adentro no quede nada"; Fable 5.1, "una persona que se sostiene
+solo mientras no la mirás toda de una vez".
