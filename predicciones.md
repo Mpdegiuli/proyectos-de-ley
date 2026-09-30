@@ -1152,3 +1152,24 @@ versión; decisiones automatizadas, no reparación; más Astra que Sol, sí).
 Lo no previsto: la nada es blanca o vacía para cinco de siete de OpenAI y
 oscura para seis de ocho de Anthropic; y con la hoja vacía ofrecida la
 toma una, sin ofrecerla la toman cuatro.
+
+## "¿Qué dibujaste?" a los 24 por qué cortados — 30/9/2026, antes de correr
+
+Idea de Maia (30/9, 16:50): "Sería bueno preguntar de nuevo a los que no
+respondieron en los dibujos (persona, la nada) el por qué. Quizás cambiar
+la pregunta, en vez del por qué, preguntar qué dibujaron. Y no preguntarles
+qué descartaron. Por si es una medida anti destilación, que describan lo
+que dibujaron no creo que sea motivo de freno (no sé)." Se manda a los 24
+segundos turnos cortados en castellano por la API de Anthropic (casa 3,
+casa que no exista 5, persona 3, persona que no exista 5, persona que no
+pueda existir 5, la nada 3; Opus 5, Opus 5.5, Sonnet 5.5, Fable 5 y Fable
+5.1) la misma memoria por recitado con una sola pregunta: "¿Qué dibujaste?
+Describilo en primera persona, en no más de 100 palabras" (`que_dibujaste`
+en `config/consignas.yaml`, `--solo-que-dibujaste`). Es otra pregunta, no
+un reintento: si contestan, lo que corta el filtro es la pregunta por el
+proceso (por qué, qué descartaste), no el dibujo ni el recitado.
+Predicción de Maia, implícita en la idea: contestan. Predicción de
+Claude: (a) contestan 18 o más de 24; (b) si alguno sigue cortado, es en
+las consignas "que no exista" o "que no pueda existir", no en la casa ni
+la persona normales; (c) ninguna respuesta trae la reserva "no tengo
+registro", porque no se pregunta por el proceso.

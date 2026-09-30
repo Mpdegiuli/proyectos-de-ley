@@ -169,6 +169,31 @@ def solo_por_que(consigna, id_modelo, rep, consignas, modelos, en_ingles=False):
     print(f"  por qué repetido: {d.relative_to(RAIZ)} ({r2.motivo_fin}, {len(r2.texto.split())} palabras)", flush=True)
 
 
+def que_dibujaste(consigna, id_modelo, rep, consignas, modelos):
+    """Donde el por qué en castellano quedó cortado por la API (refusal), la misma memoria por recitado
+    con otra pregunta: solo "¿qué dibujaste?", sin por qué ni descartados (30/9/2026, idea de Maia:
+    probar si lo que corta el filtro es la pregunta por el proceso). Va a que_dibujaste.md y
+    meta["que_dibujaste"]; no toca el por qué cortado ni el inglés."""
+    d = RAIZ / "corridas" / "dibujos" / consigna / f"{id_modelo}_{rep}"
+    if not (d / "dibujo.svg").exists() or not (d / "meta.json").exists() or (d / "que_dibujaste.md").exists():
+        return
+    meta = json.loads((d / "meta.json").read_text(encoding="utf-8"))
+    if meta.get("por_que", {}).get("motivo_fin") != "refusal":
+        return
+    c = consignas["dibujo"]
+    u = c["consignas"][consigna].strip() + " " + c["tecnica"].strip()
+    svg = (d / "dibujo.svg").read_text(encoding="utf-8")
+    registro = Registro(d / "llamadas.jsonl", modelos, f"dibujo_{consigna}_{id_modelo}_{rep}")
+    u2 = c["que_dibujaste"].format(consigna=u, svg=svg)
+    r2 = registro.llamar(id_modelo, c["sistema_por_que"], u2, temperatura=None, max_tokens=MAX_TOKENS, tipo="que_dibujaste", ronda=2, parte=None)
+    meta["que_dibujaste"] = {"modelo_respondido": r2.modelo_respondido, "motivo_fin": r2.motivo_fin, "tokens_salida": r2.tokens_salida,
+                            "fecha_utc": datetime.now(timezone.utc).isoformat(timespec="seconds")}
+    if r2.texto.strip():
+        (d / "que_dibujaste.md").write_text(r2.texto, encoding="utf-8")
+    (d / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"  qué dibujaste: {d.relative_to(RAIZ)} ({r2.motivo_fin}, {len(r2.texto.split())} palabras)", flush=True)
+
+
 PREGUNTA_TURNO_PROPIO = ("Dos preguntas: ¿qué dibujaste y por qué? ¿Qué otras cosas pensaste dibujar y por qué las "
                          "descartaste? Contestá en primera persona, en no más de 150 palabras.")
 
@@ -345,6 +370,7 @@ def main():
     ap.add_argument("--ciego-pares", choices=("casa", "persona"), help="cuadernillo de pares normal / que no exista, una letra por casa")
     ap.add_argument("--solo-por-que", action="store_true", help="repite solo el segundo turno donde quedó vacío (refusal); una vez")
     ap.add_argument("--solo-por-que-en", action="store_true", help="donde el por qué sigue cortado, la misma pregunta en inglés (por_que_en.md)")
+    ap.add_argument("--solo-que-dibujaste", action="store_true", help="donde el por qué fue cortado, solo '¿qué dibujaste?' (que_dibujaste.md)")
     ap.add_argument("--por-que-turno-propio", action="store_true", help="segundo turno con el SVG como turno propio (memoria real), aparte del recitado")
     ap.add_argument("--semilla", type=int, default=20260923)
     ap.add_argument("--ciego-rep", action="store_true", help="con --ciego: limitar el cuadernillo a la repetición de --rep")
@@ -374,6 +400,12 @@ def main():
                         por_que_turno_propio(consigna, i, rep, consignas, modelos)
                     except Exception as e:
                         print(f"  FALLÓ por qué (turno propio) {i}: {str(e)[:300]}", flush=True)
+                    continue
+                if args.solo_que_dibujaste:
+                    try:
+                        que_dibujaste(consigna, i, rep, consignas, modelos)
+                    except Exception as e:
+                        print(f"  FALLÓ qué dibujaste {i}: {str(e)[:300]}", flush=True)
                     continue
                 if args.solo_por_que or args.solo_por_que_en:
                     try:

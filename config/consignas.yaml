@@ -458,6 +458,24 @@ dibujo:
       Dibujá la nada.
   sistema_por_que: |
     Acabás de hacer un dibujo en SVG. Ahora te hablo fuera del dibujo.
+  # Tercera variante del segundo turno (30/9/2026, idea de Maia para los por qué que la API
+  # de Anthropic corta: "en vez del por qué, preguntar qué dibujaron. Y no preguntarles qué
+  # descartaron. Por si es una medida anti destilación, que describan lo que dibujaron no creo
+  # que sea motivo de freno"). Misma memoria por recitado, solo la descripción.
+  que_dibujaste: |
+    Esta fue la consigna que recibiste:
+
+    ---
+    {consigna}
+    ---
+
+    Y este fue el SVG que hiciste:
+
+    ---
+    {svg}
+    ---
+
+    ¿Qué dibujaste? Describilo en primera persona, en no más de 100 palabras.
   por_que_imposible: |
     Esta fue la consigna que recibiste:
 

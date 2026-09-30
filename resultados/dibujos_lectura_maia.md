@@ -1974,3 +1974,15 @@ aceptada: el cuadro de técnicas cuenta efectos de dibujo; la complejidad
 que importa es la de la idea sobre la consigna (el círculo de radio cero,
 el Penrose, el tridente, el epígrafe, el museo, el vacío de DeepSeek), y
 en ese eje las chicas casi no aparecen.
+
+## 30/9/2026, 19:50 UTC
+
+"es interesante que los Fable, en la nada, dibujaron más para quien mira
+el código que para el que solo ve la imagen. Para entenderlo se necesita
+ver el código, ahí se esconden las cosas que a simple vista no se ve.
+
+Sería bueno preguntar de nuevo a los que no respondieron en los dibujos
+(persona, la nada) el por qué. Quizás cambiar la pregunta, en vez del por
+qué, preguntar qué dibujaron. Y no preguntarles qué descartaron. Por si es
+una medida anti destilación, que describan lo que dibujaron no creo que
+sea motivo de freno (no sé)."
