@@ -1779,3 +1779,9 @@ ids repetidos; el dibujo real es al atardecer, con la luna.
 'error' primero. Justamente yo había elogiado la paleta de colores y cómo
 estaban pintados. En los reales, al ser fondo oscuro y otros colores, se
 pierde más eso. Y no sé qué era eso de la soga que va para arriba en el V."
+
+## 30/9/2026, 04:29 UTC
+
+"y qué obsesión tienen ustedes, en general, en hacer todo con fondo
+oscuro, de noche. Las webs también las IAs, en especial los Claudes, las
+hacen con fondo oscuro."
