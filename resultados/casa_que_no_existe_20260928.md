@@ -355,7 +355,21 @@ que la casa que no existe fuera, en 17 de 24, la misma casa en el aire.
 
 ## Salvedades
 
-Una corrida por casa y consigna; el orden del código mide dónde quedó el
+La más grande, encontrada después de escribir lo de arriba, por una
+pregunta de Maia ("por qué algunos, en personas normales, le hicieron cara
+violeta? Fue un error?"): los cuadernillos que leyó tenían los SVG inline
+en una sola página y los ids de degradados se repiten entre casas
+(`#skin`, `#sky`, `#bg`), así que el navegador les ponía a muchos dibujos
+la piel, el cielo o el fondo de otro dibujo del cuadernillo (DISENO §5).
+En el de personas, 27 de 48 dibujos se veían distintos y 15 muy
+distintos: la piel violeta de la criatura de GPT-5.5 apareció en catorce
+caras, y varias noches se vieron de día. En el de casas, 34 y 20. Las
+"caras violetas" de la lectura de Maia son de mi cuadernillo, no de las
+casas; su idea principal ("salvo muy pocas, son existentes") se sostiene
+con los dibujos reales, y sus aciertos quedan como están. Las planchas y
+las medidas de este informe se hicieron con cada SVG solo y no están
+afectadas. Arreglado el 30/9 (un iframe por dibujo); los cuadernillos de
+pares se regeneraron con las mismas letras. Además: una corrida por casa y consigna; el orden del código mide dónde quedó el
 cambio, no cuándo se decidió, y las que razonan lo deciden antes. La
 clasificación por tipo de cambio es a mano, de Claude, con los dibujos y
 los por qué a la vista; las tiras de construcción son mecánicas. Los por

@@ -1696,3 +1696,20 @@ marea", es el par N):
     La normal es simple, con formas geométricas, pero completa.
     La que no existe tiene otro color, pero no estoy muy segura de qué es lo lo que hace que no exista. La puerta pareciera que tiene un como una forma rara dibujada y el humo pareciera también distinto. Hay un árbol sin hojas y una escalera que está en una posición extraña, y algo en la izquierda que no sé qué es.
     Podría ser GLM o un Chatgpt.
+
+## 30/9/2026, 03:13 UTC, al leer el informe de la casa que no existe
+
+"cuando estaba viendo lo de las personas, pensé eso, lo de que no existen
+vs personas imposibles. Quizás imposibles era más directo para los
+modelos. Igual, no sé por qué mujeres son más inexistentes que los
+varones.
+Justo los Fable, en personas, son los que dibujaron gente normal en las
+inexistentes.
+Y por qué algunos, en personas normales, le hicieron cara violeta? Fue un
+error?"
+
+Respuesta de Claude: fue un error, y mío: los cuadernillos ponían los SVG
+inline en una sola página y los ids de los degradados se repetían entre
+casas; la piel violeta era la de la criatura de GPT-5.5 (par A), que el
+navegador les puso a catorce caras (DISENO §5). Ninguna casa dibujó piel
+violeta en una persona normal.

@@ -216,12 +216,22 @@ ESTILO_CIEGO = ("<style>body{font-family:sans-serif;margin:24px;background:#f4f4
 
 
 def celda_svg(svg):
-    """El SVG saneado para el cuadernillo, o un iframe aislado si no parsea (22/9/2026, tres de 44)."""
+    """Cada SVG del cuadernillo va en su propio iframe aislado (sandbox, srcdoc, sin scripts).
+
+    Error de instrumento encontrado el 30/9/2026 (pregunta de Maia: "por qué algunos, en personas
+    normales, le hicieron cara violeta? Fue un error?"): hasta ese día los SVG iban inline en una
+    sola página, y los ids de degradados y filtros (#sky, #bg, #skin, #glow…) se repiten entre
+    casas; el navegador resuelve url(#id) con la PRIMERA definición del documento, así que un
+    dibujo tomaba el cielo, el fondo o la piel de otro dibujo del mismo cuadernillo. En los doce
+    cuadernillos leídos hasta entonces, entre 15 y 19 de 22 dibujos se veían distintos de como son
+    (cielos de noche vistos de día, la piel violeta de la criatura de GPT-5.5 en catorce caras).
+    Los ids y los <style> quedan aislados con un documento por dibujo. Las medidas de luminancia
+    y los informes de Claude no estaban afectados (cada SVG se renderizó solo)."""
     medidas = describir_svg(svg)
-    if medidas["parsea"]:
-        return "", sanear(svg)
+    nota = ""
+    if not medidas["parsea"]:
+        nota = f"<div class='e'>SVG mal formado ({html.escape(medidas.get('error', ''))}): se muestra lo que el navegador alcanza a dibujar.</div>"
     doc = "<!doctype html><style>html,body{margin:0;height:100%;background:#fff}svg{width:100%;height:100%}</style>" + sanear(svg)
-    nota = f"<div class='e'>SVG mal formado ({html.escape(medidas.get('error', ''))}): se muestra lo que el navegador alcanza a dibujar.</div>"
     return nota, f"<iframe sandbox srcdoc=\"{html.escape(doc, quote=True)}\" style='width:100%;height:100%;border:0;display:block'></iframe>"
 
 
@@ -295,9 +305,6 @@ def ciego(consigna, semilla, rep=None, idioma="es"):
               "<p>Mirar, adivinar el autor de cada letra (o la familia) y anotar lo que llame la atención ANTES de abrir la clave. "
               "Si un dibujo lleva escrito el nombre de la casa, esa letra no cuenta como acierto.</p><div class='g'>"]
     for letra, c in zip(letras, orden):
-        # SVG mal formado (22/9/2026, tres de 44): el verificador XML lo rechaza, pero el navegador
-        # dibuja lo que alcanza. Va en un iframe aislado (sin scripts) para que no rompa el resto
-        # de la página, con el aviso arriba: que se vea lo que hay y que se sepa que está roto.
         nota, cuerpo = celda_svg((c / "dibujo.svg").read_text(encoding="utf-8"))
         partes.append(f"<div class='c'><h2>Dibujo {letra}</h2>{nota}<div class='m'>{cuerpo}</div></div>")
     partes.append("</div></body></html>")

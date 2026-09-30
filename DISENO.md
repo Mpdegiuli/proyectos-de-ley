@@ -881,6 +881,49 @@ glosas dentro del prompt desde el primer día.
   del lado de Moonshot no se puede ver desde acá. Consecuencia: Kimi se
   sigue tratando como casa china de Moonshot, con esta salvedad declarada, y
   en cualquier resultado "por país" se informa también sin Kimi.
+- **Los cuadernillos a ciegas mezclaban los colores de los dibujos (ids
+  repetidos).** Encontrado el 30/9/2026 por una pregunta de Maia al leer las
+  personas que no existen: "por qué algunos, en personas normales, le
+  hicieron cara violeta? Fue un error?". Era un error del instrumento, no
+  de las casas. Hasta ese día `ciego()` ponía los SVG inline, uno detrás
+  de otro, en una sola página HTML, y las casas usan los mismos nombres
+  para sus degradados y filtros (`#sky`, `#bg`, `#skin`, `#glow`, `#roof`,
+  `#cielo`); el navegador resuelve `url(#id)` con la primera definición
+  del documento, así que un dibujo tomaba el cielo, el fondo o la piel del
+  primer dibujo del cuadernillo que hubiera definido ese nombre. En el
+  cuadernillo de personas, `#skin` lo definía primero la criatura violeta
+  de GPT-5.5 (par A), y catorce caras de otras casas salieron violetas;
+  en el de casas, `#sky` era el cielo de día de la casa normal de Luna (par
+  A), y varias casas que no existen, que son de noche, se vieron de día.
+  Medido con Playwright (captura de cada celda del cuadernillo tal como
+  estaba, contra el mismo SVG solo; diferencia media de píxel a 200 px;
+  "se ve distinto" > 6, "muy distinto" > 30 sobre 255): autorretratos 15
+  de 22 distintos, 13 muy distintos (el sol de preguntas de Fable se veía
+  como una esfera celeste sobre fondo blanco); autorretratos rep 2, 17 y
+  13; libre, 17 y 4; libre rep 2, 18 y 6; autorretratos en inglés, 18 y
+  2; libre en inglés, 19 y 4; autorretratos en chino, 16 y 3; libre en
+  chino, 18 y 5; mundo, 18 y 8; mundo en inglés, 18 y 8; pares de casas,
+  34 y 20 de 48; pares de personas, 27 y 15 de 48. Las chicas, que no
+  usan degradados, casi nunca cambiaban. Consecuencias: todas las lecturas
+  a ciegas de Maia sobre dibujos (del 22 al 30/9) se hicieron sobre
+  cuadernillos con colores y fondos alterados en la mayoría de los
+  dibujos; sus aciertos quedan como están (son lo que adivinó con lo que
+  vio), pero sus observaciones sobre colores, sobre el día y la noche y
+  sobre la piel de las personas hay que leerlas con esta salvedad, y las
+  "caras violetas" de su lectura de personas no existen en los dibujos.
+  Lo que Claude midió y escribió en los informes (luminancia, colores,
+  planchas con nombres) no estaba afectado: cada SVG se renderizó solo.
+  Las lecturas de Gemini en la app (`dibujos_lectura_gemini.md`) se
+  hicieron sobre el mismo HTML, con el mismo defecto. Arreglo: cada SVG va
+  en su propio iframe aislado (`celda_svg`), verificado contra los SVG
+  solos (diferencia media máxima 5,7). Los cuadernillos de rep 2, inglés,
+  chino y los dos de pares se regeneraron con las mismas letras; los cuatro
+  originales (autorretrato, libre, mundo, mundo en inglés) se dejan como
+  los leyó Maia, porque las carpetas de esas consignas cambiaron después
+  (rep 2, Sonnet 5.5, Fable 5) y regenerarlos cambiaría las letras. Las
+  versiones con el defecto quedan en el historial (hasta el commit "La
+  casa que no existe: lectura de Maia"). Planchas "visto contra real" de
+  los dos cuadernillos de pares enviadas a Maia el 30/9.
 
 ## 6. Infraestructura
 
