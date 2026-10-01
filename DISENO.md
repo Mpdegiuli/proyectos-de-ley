@@ -651,7 +651,30 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   catálogo en 162 de 192, "cuento" o "infantil" en 96: así que la tercera
   fuente trae afirmaciones comprobables sobre lo que no existe (geometría,
   recursión, "navega sobre nubes") y una autodescripción de estilo que los
-  jueces pueden cotejar con la imagen (`predicciones.md`, pl50).
+  jueces pueden cotejar con la imagen (`predicciones.md`, pl50). Decisiones
+  de Maia del 1/10 (19:09–19:34 UTC) para la fase de los jueces: (i) entran
+  también autorretrato, tema libre y mundo, previa pregunta "¿qué dibujaste?"
+  a esos 118 dibujos (`pl51`), con lo que el corpus es de 406 dibujos en
+  quince consignas; (ii) un juez chino, "por si tiene otra perspectiva"
+  (los tres propuestos eran de EE. UU.), y "no a Qwen, que piensa
+  muchísimo": el candidato es Kimi K3 si acepta imagen, lo dice el catálogo
+  de OpenRouter (`catalogo_openrouter.py`, en `pl51`); con cuatro jueces
+  grandes (GPT-5.5, Gemini 3.1 Pro, Kimi K3 u otro chino con visión, Opus
+  5.5) cada dibujo lo juzgan los tres laboratorios ajenos y se descarta el
+  juez de la propia casa; (iii) un juez chico como control, fuera del
+  puntaje: su pregunta fue si "un juez como 4o diría que todo está perfecto
+  o juzgaría más" (a preregistrar: Maia, que dice que todo está perfecto;
+  Claude, que dice "sí, se ve" donde los grandes dicen "en parte" y falla
+  sobre todo en si produce el efecto); (iv) quinto casillero "no dicho", sí,
+  con la corrección de Maia: "las orejas sueltas no es lo no dicho, es un
+  error"; "no dicho" es lo visible que ninguna afirmación menciona (el
+  disco del eclipse), y los errores de armado (orejas despegadas, colas
+  sueltas, piezas superpuestas) son otra cosa, que Claude propone preguntar
+  aparte a los jueces ("¿hay partes mal armadas?"), pendiente de Maia. Los
+  jueces no leen los textos crudos sino afirmaciones extraídas a ciegas,
+  porque la prosa delata la casa (la autocrítica es de Opus; "no conservo
+  memoria" es de los Fable). Renderizado en el VPS: Chromium (EPEL) con
+  Playwright, instalación aparte.
 - **El animal que no exista y tres controles de lo que flota** (30/9/2026;
   el animal lo notó el cuaderno de tiempo libre del 30/9: Karmiloff-Smith
   pedía casa, hombre y animal; Maia: "lo del animal sí"). "Dibujá un

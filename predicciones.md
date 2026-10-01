@@ -1395,3 +1395,17 @@ la lista preregistrada ("ilustración" 130, "vectorial" 87, "plano/plana/flat"
 infantil: contornos oscuros, formas simples, colores cálidos con degradados
 suaves, una paleta de atardecer. Algo entre naïf y onírico, más amable que
 realista." Maia ✓ (contestan, no se corta); Claude 4/4.
+
+## "¿Qué dibujaste?" a autorretrato, tema libre y mundo, y catálogo de OpenRouter — 1/10/2026, antes de correr
+
+Maia (1/10, 19:19 UTC): "quizás se puede incluir lo de auto retrato, libre y
+mundo" en la distancia. Para eso, la misma pregunta exacta que ya tienen las
+otras doce consignas (`--que-dibujaste-todos`) a los 118 dibujos en
+castellano de esas tres (autorretrato 47, libre 46, mundo 25, con las
+repeticiones 2 y GPT-6.1 Sol), y `catalogo_openrouter.py` para saber qué
+casas chinas aceptan imagen (Maia: un juez chino, no Qwen). Sin dibujo nuevo
+ni pregunta nueva: es completar el corpus. Predicción de Claude: (a) contestan
+118 de 118 (el "¿qué dibujaste?" nunca fue rechazado: 143 y 144 de 144); (b)
+en el autorretrato, 20 o más de las 24 casas describen el dibujo en primera
+persona ("me dibujé", "soy") y no en tercera; (c) Kimi K3 acepta imagen según
+el catálogo y GLM 5.3 y MiniMax M3 no. Maia no apostó.
