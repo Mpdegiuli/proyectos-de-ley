@@ -230,8 +230,18 @@ infantil… tiene perspectiva, buena geometría… ¿lo hizo a propósito así?"
 tiene por qué: solo la descripción ("un barco de madera que navega por el
 cielo, flotando sobre nubes rosadas… en vez de mástil tiene un árbol cuyas
 hojas enormes hacen de velas… sobre cubierta hay una casita con techo rojo").
-Los 24 cortados van de nuevo en inglés (`--solo-por-que-en`, como con la casa
-y la persona, donde el inglés destrabó 8 de 16).
+Los 24 cortados fueron de nuevo en inglés (`--solo-por-que-en`, `pl49`, 1/10),
+como con la casa y la persona, donde el inglés había destrabado 8 de 16.
+Esta vez destrabó 2 de 24, los dos de Fable 5.1: el animal que no exista
+("I don't retain my reasoning from the drawing step, so the above is a
+reconstruction from the SVG itself, not a memory") y el puente, donde dice
+lo que los controles median: "To make it impossible, I removed the ground.
+The bridge spans two islands of rock that hover above a cloud layer… a
+structure supporting itself", y descartó "a Möbius or Escher-style loop
+(clever but cold), a bridge between two moons (too much empty sky)". Opus
+5.5, Sonnet 5.5, Opus 5 y Fable 5 siguen cortados en los dos idiomas, 22 de
+24; el barco de Fable 5.1 también. El "qué dibujaste" que faltaba (Sonnet
+5.5, barco) se completó: 144 de 144.
 
 ## Contra el preregistro
 

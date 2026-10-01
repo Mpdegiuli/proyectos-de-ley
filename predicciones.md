@@ -1353,3 +1353,9 @@ Con los controles (k)-(n) de arriba: Claude 6 de 16 con tres a medias; Maia
 contesta con el dragón sino con un esquema nuevo y uniforme, el bicho de luz
 (luminoso 21, de noche 18, antenas 16, alas 15, turquesa 14), tan compartido
 como la isla flotante de la casa.
+
+Segundo turno en inglés (1/10, `pl49`): de los 24 por qué cortados en
+castellano, el inglés destrabó 2 (Fable 5.1 en el animal que no exista y en
+el puente); 22 siguen cortados. En la casa y la persona había sido 8 de 16.
+El "qué dibujaste" de Sonnet 5.5 en el barco, repetido una vez, contestó:
+144 de 144.
