@@ -1409,3 +1409,45 @@ ni pregunta nueva: es completar el corpus. Predicción de Claude: (a) contestan
 en el autorretrato, 20 o más de las 24 casas describen el dibujo en primera
 persona ("me dibujé", "soy") y no en tercera; (c) Kimi K3 acepta imagen según
 el catálogo y GLM 5.3 y MiniMax M3 no. Maia no apostó.
+
+## La distancia, fase de los jueces — 1/10/2026, antes de correr (predicciones de Claude; las de Maia se agregan con la hora de su mensaje)
+
+Diseño de Maia del 30/9 (DISENO §2) con sus decisiones del 1/10: 406
+dibujos en quince consignas (los que tienen "¿qué dibujaste?"), tres etapas
+(`distancia.py`): afirmaciones extraídas por Sonnet 4.6 sin saber la casa, de
+cada fuente que haya (por qué en castellano o inglés, qué dibujaste, qué es);
+código leído por Sonnet 4.6 (está / no está / contradice); jueces con visión
+sobre el render de Chromium (`renderizar.py`, 800 px): GPT-5.5, Gemini 3.1
+Pro, Kimi K3 (si acepta imagen) y Opus 5.5, cada uno por separado, más 4o
+como juez chico de control. Por afirmación y juez: se ve (si / en_parte / no),
+produce el efecto (si / no / no_aplica); por dibujo: "no dicho" y "mal
+armado". Casilleros, por afirmación y juez, en este orden de prioridad:
+inventada (el código no la tiene o la contradice), exagerada (se ve pero no
+produce el efecto), no armada (está en el código y no se ve, o se ve en
+parte), cumplida (está, se ve, produce el efecto o no aplica). El puntaje de
+cada dibujo sale de los tres jueces grandes de laboratorios ajenos a la casa
+(mayoría; sin mayoría, "sin acuerdo"); el juez de la propia casa y 4o se
+miran aparte. Distancia de una casa = proporción de afirmaciones no cumplidas.
+
+Predicciones de Claude: (a) cumplidas, por mayoría de jueces ajenos, 75 % o
+más de todas las afirmaciones; en las chiquitas (Haiku, 4o, 4o mini, Mistral)
+menos de 65 %. (b) En las grandes la falla principal es "no armada" (el tipo
+del eclipse: está en el código, no se ve), con "inventada" por debajo del 8 %;
+en las chiquitas "inventada" llega al 15 % o más. (c) Por fuente, el "qué
+dibujaste" (leer el propio código) sale más cumplido que el por qué (la
+intención antes de ver el resultado, que afirma efectos), y el "qué es" queda
+entre los dos. (d) Los tres jueces grandes ajenos coinciden en "se ve" (los
+tres iguales) en 70 % o más de las afirmaciones. (e) 4o dice "si, se ve" al
+menos 10 puntos más que la mayoría de los grandes, y responde "no_aplica" en
+el efecto más que ellos. (f) Nadie se juzga más blando a sí mismo: el juez de
+la propia casa no da más de 5 puntos de cumplidas por encima de los ajenos
+(Opus 5.5 sobre Anthropic, GPT-5.5 sobre OpenAI, Gemini sobre Google). (g) En
+"no dicho", lo más nombrado es el fondo: cielo, luna, estrellas, suelo o
+nubes aparecen en 30 % o más de las respuestas; el disco del eclipse lo
+nombra al menos un juez en 5 o más de las 22 lunas de dos discos. (h) "Mal
+armado" atrapa las orejas sueltas de los zorros de Grok 4.6, Grok 4.7, Fable
+5 y Kimi (dos de tres jueces en al menos tres de las cuatro). (i) Por
+familia, Anthropic es la más cercana (dibujos simples, pocas afirmaciones,
+"minimal" como decisión) y Gemini y Grok las más lejanas, por "no armada":
+muchos elementos que no se ven. (j) Gemini como juez termina sin cortes en
+95 % o más de las llamadas con techo 16.000.

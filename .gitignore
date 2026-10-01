@@ -11,3 +11,6 @@ venv/
 
 # Corridas del simulador (--dry-run): no son datos
 corridas_prueba/
+
+# Renders de los dibujos para los jueces (renderizar.py): se rehacen del SVG; en git queda solo render.json
+corridas/distancia/**/dibujo.png

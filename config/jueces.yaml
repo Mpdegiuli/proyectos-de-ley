@@ -1,0 +1,14 @@
+# "La distancia" (DISENO §2): quién extrae, quién lee el código y quién juzga la imagen.
+# Decisiones de Maia del 1/10/2026: un juez chino que no sea Qwen ("piensa muchísimo"),
+# grandes de tres países, y uno chico como control fuera del puntaje. En el análisis, cada
+# dibujo lo puntúan los jueces de laboratorios ajenos al de la casa que lo hizo; el juez de
+# la propia casa se llama igual y se mira aparte (si se juzga más blando a sí mismo).
+extractor: claude-sonnet-4-6     # texto -> afirmaciones, sin saber la casa
+lector: claude-sonnet-4-6        # código + afirmaciones -> está / no está / contradice
+jueces:
+  - gpt-5.5-2026-04-23
+  - gemini-3.1-pro-preview
+  - kimi-k3                      # si el catálogo de OpenRouter confirma que acepta imagen (pl51)
+  - claude-opus-5-5
+control:
+  - gpt-4o                       # juez chico: ¿dice que todo está perfecto? (pregunta de Maia)

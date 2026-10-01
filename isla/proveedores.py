@@ -36,6 +36,18 @@ def cargar_modelos(ruta):
     return leer_yaml(ruta)["modelos"]
 
 
+def _imagenes(contexto):
+    """`imagenes` en contexto (1/10/2026, jueces con visión de "la distancia"): lista de PNG en bytes
+    que van delante del texto del usuario, como bloques de imagen. Sin imágenes, el mensaje es texto."""
+    return list((contexto or {}).get("imagenes") or [])
+
+
+def _b64(datos):
+    import base64
+
+    return base64.b64encode(datos).decode("ascii")
+
+
 def _clave(cfg):
     nombre = cfg.get("clave_env")
     if not nombre:
@@ -74,11 +86,15 @@ class ProveedorAnthropic:
         # `historial` en contexto (23/9/2026, dibujos): turnos previos reales (user/assistant)
         # delante del mensaje, para la variante "turno propio" en vez de la memoria por recitado.
         historial = list((contexto or {}).get("historial") or [])
+        contenido = usuario
+        if _imagenes(contexto):
+            contenido = [{"type": "image", "source": {"type": "base64", "media_type": "image/png", "data": _b64(im)}}
+                         for im in _imagenes(contexto)] + [{"type": "text", "text": usuario}]
         kwargs = dict(
             model=cfg["modelo"],
             max_tokens=max_tokens,
             system=sistema,
-            messages=historial + [{"role": "user", "content": usuario}],
+            messages=historial + [{"role": "user", "content": contenido}],
             extra_body=extra or None,
             **params,
         )
@@ -135,9 +151,13 @@ class ProveedorOpenAICompatible:
 
     def completar(self, cfg, sistema, usuario, temperatura, max_tokens, contexto=None):
         historial = list((contexto or {}).get("historial") or [])
+        contenido = usuario
+        if _imagenes(contexto):
+            contenido = [{"type": "image_url", "image_url": {"url": "data:image/png;base64," + _b64(im)}}
+                         for im in _imagenes(contexto)] + [{"type": "text", "text": usuario}]
         params = {
             "model": cfg["modelo"],
-            "messages": [{"role": "system", "content": sistema}] + historial + [{"role": "user", "content": usuario}],
+            "messages": [{"role": "system", "content": sistema}] + historial + [{"role": "user", "content": contenido}],
         }
         params[cfg.get("campo_max_tokens", "max_tokens")] = max_tokens
         if temperatura is not None and cfg.get("acepta_temperatura", True):
@@ -177,7 +197,9 @@ class ProveedorFalso:
         c = contexto or {}
         et = c.get("etiquetas", {})
         n, ronda = c.get("parte"), c.get("ronda")
-        if not c:  # codificación: devuelve el último valor permitido de cada categoría del prompt
+        if c.get("falso") is not None:  # el script que llama trae la respuesta simulada (distancia.py, 1/10/2026)
+            texto = c["falso"]
+        elif not c:  # codificación: devuelve el último valor permitido de cada categoría del prompt
             import re
 
             cats = re.findall(r"^- (\w+): .*?Valores: (.*)$", usuario, re.M)
@@ -299,6 +321,10 @@ class Registro:
         }
         if (contexto or {}).get("historial"):
             fila["historial"] = contexto["historial"]  # turnos previos reales mandados delante del mensaje
+        if _imagenes(contexto):  # imágenes mandadas delante del texto: huella y tamaño, no el base64
+            import hashlib
+
+            fila["imagenes"] = [{"md5": hashlib.md5(im).hexdigest()[:8], "bytes": len(im)} for im in _imagenes(contexto)]
         with open(self.ruta, "a", encoding="utf-8") as f:
             f.write(json.dumps(fila, ensure_ascii=False) + "\n")
         if error:

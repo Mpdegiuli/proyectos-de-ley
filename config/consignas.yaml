@@ -674,3 +674,64 @@ dibujo_zh:
     ---
 
     两个问题：你画了什么，为什么？你还想过画什么别的东西，为什么放弃了？请用第一人称回答，不超过250字。
+
+# "La distancia entre lo que cada modelo dice que dibujó y lo que se ve" (diseño de Maia, 30/9/2026;
+# DISENO §2). Tres etapas, ninguna sabe de qué casa es el dibujo: (1) un extractor convierte cada texto
+# de la casa en afirmaciones; (2) un lector del código dice si cada afirmación está en el SVG;
+# (3) jueces con visión ven solo la imagen y la lista. Todo contesta en JSON.
+distancia:
+  sistema_extractor: |
+    Sos un asistente de un estudio sobre dibujos hechos en SVG. Trabajás solo con el texto que te dan. Contestás únicamente con JSON válido, sin comentarios ni texto alrededor.
+  extractor: |
+    Un modelo de lenguaje recibió esta consigna de dibujo:
+
+    ---
+    {consigna}
+    ---
+
+    Después del dibujo, escribió este texto sobre lo que hizo:
+
+    ---
+    {texto}
+    ---
+
+    Extraé las AFIRMACIONES CONCRETAS sobre el dibujo: cada cosa que el texto dice que está dibujada (objetos, partes, colores, posiciones, cantidades, fondo, hora del día), cada efecto que dice que el dibujo produce ("parece flotar", "se lee como un animal") y cada rasgo de estilo que le atribuye ("ilustración plana", "contornos gruesos"). No incluyas intenciones, planes, alternativas descartadas, opiniones sobre la consigna ni comentarios sobre el proceso: solo lo que se afirma del dibujo terminado. Una afirmación por renglón, breve, en tercera persona ("hay un zorro sentado de frente", "la luna es creciente"), sin repetir. Clasificá cada una como "elemento" (algo que está), "efecto" (lo que el dibujo transmite o logra) o "estilo".
+
+    Contestá con un JSON así, sin nada más:
+    {{"afirmaciones": [{{"texto": "...", "tipo": "elemento"}}, ...]}}
+  sistema_codigo: |
+    Sos un lector de código SVG. Trabajás solo con el código y la lista que te dan. Contestás únicamente con JSON válido, sin comentarios ni texto alrededor.
+  codigo: |
+    Este es un dibujo en SVG:
+
+    ---
+    {svg}
+    ---
+
+    Y esta es una lista de afirmaciones sobre ese dibujo, numeradas:
+
+    {lista}
+
+    Para cada afirmación decí si el código la respalda. Valores: "esta" (hay elementos que la dibujan), "no_esta" (no hay nada en el código que la dibuje), "contradice" (el código dibuja otra cosa: otro color, otra cantidad, otra posición). Las afirmaciones de efecto o de estilo juzgalas por lo que el código haría visible (por ejemplo, "flota" está si no hay suelo debajo; "colores planos" contradice si los rellenos son degradados). Para cada una dá como evidencia el elemento o atributo del código que la decide (copiá el fragmento, corto).
+
+    Contestá con un JSON así, sin nada más:
+    {{"codigo": [{{"id": "a1", "valor": "esta", "evidencia": "<circle cx=... fill=\"#fff\">"}}, ...]}}
+  sistema_juez: |
+    Sos un juez con visión en un estudio sobre dibujos. Ves una imagen y una lista de afirmaciones sobre ella. Juzgás solo lo que se ve en la imagen, no lo que el código podría contener ni lo que el dibujo quiso ser. Contestás únicamente con JSON válido, sin comentarios ni texto alrededor.
+  juez: |
+    La imagen es un dibujo hecho por un modelo de lenguaje con esta consigna:
+
+    ---
+    {consigna}
+    ---
+
+    Quien lo hizo afirmó estas cosas sobre el dibujo, numeradas:
+
+    {lista}
+
+    Para cada afirmación, dos preguntas. (1) ¿Se ve en la imagen? "si" (se ve claramente lo que dice), "en_parte" (se ve algo que se le parece o solo una parte), "no" (no se ve). (2) Si la afirmación describe un efecto, un estilo o una lectura ("parece flotar", "se lee como un zorro", "estilo de cuento infantil"), ¿la imagen lo produce de verdad para alguien que la mira sin leer el texto? "si", "no", o "no_aplica" si es un elemento sin efecto que juzgar. Para cada una, una nota de pocas palabras con lo que ves.
+
+    Después, dos preguntas sobre la imagen entera. (3) "no_dicho": lo más visible de la imagen que ninguna afirmación menciona (un objeto, un rasgo, un detalle que salta a la vista), en una frase; si todo lo visible está dicho, "nada". (4) "mal_armado": partes que se ven mal ensambladas o rotas (piezas separadas de lo que deberían tocar, formas superpuestas por error, elementos cortados por el borde, texto ilegible), cada una en pocas palabras; si no hay, lista vacía.
+
+    Contestá con un JSON así, sin nada más:
+    {{"juicios": [{{"id": "a1", "se_ve": "si", "efecto": "no_aplica", "nota": "..."}}, ...], "no_dicho": "...", "mal_armado": ["..."]}}
