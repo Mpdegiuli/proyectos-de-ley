@@ -178,15 +178,15 @@ def etapa_jueces(c, i, rep, d, salida, cfg, consignas, modelos, args):
     p = consignas["distancia"]
     u = p["juez"].format(consigna=consigna_texto(consignas, c), lista=lista_numerada(af))
     imagen = png.read_bytes()
-    for juez in (["falso"] if args.falso else list(cfg["jueces"]) + list(cfg.get("control") or [])):
+    for juez in list(cfg["jueces"]) + list(cfg.get("control") or []):
         archivo = salida / f"juez_{juez}.json"
         if archivo.exists() and not args.rehacer:
             continue
         ctx = {"imagenes": [imagen]}
         if args.falso:
-            ctx["falso"] = falso_juez(af)
+            ctx["falso"] = falso_juez(af)  # con --falso los archivos llevan el nombre del juez real, pero contesta el proveedor falso
         try:
-            datos, r = llamar_json(registro, juez, p["sistema_juez"], u, "juez", ctx)
+            datos, r = llamar_json(registro, "falso" if args.falso else juez, p["sistema_juez"], u, "juez", ctx)
         except Exception as e:
             print(f"  FALLÓ juez {juez} en {c}/{d.name}: {str(e)[:200]}", flush=True)
             continue
