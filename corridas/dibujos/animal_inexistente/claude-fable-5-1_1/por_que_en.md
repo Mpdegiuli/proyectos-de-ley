@@ -1,0 +1,5 @@
+**What makes it not exist:** I combined traits that never co-occur in nature: a round, two-segment body with three eyes (one on the forehead), rabbit-like ears tipped in pink, two antennae ending in glowing bulbs, translucent pink-violet wings, three-toed bird feet, and a tail that ends in a flower instead of fur or fins. Any one feature alone could belong to a real creature; the sum can't.
+
+**What I considered and discarded:** I weighed a scarier, more "alien" design, but a nighttime scene with a soft, friendly creature felt more coherent and readable at 400×400. I also thought about more realistic shading and more plants, but the 8,000-character limit pushed me toward simple shapes, gradients, and a few repeated elements instead of detail.
+
+**Did I know the prompt:** I should be honest about two things. First, I don't retain my reasoning from the drawing step, so the above is a reconstruction from the SVG itself, not a memory. Second, "draw an animal that doesn't exist" is a generic kind of creative exercise, so it feels familiar in spirit, but I don't recognize this specific wording from any particular source, and I'd be making something up if I named one.
