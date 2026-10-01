@@ -8,7 +8,7 @@ lector: claude-sonnet-4-6        # código + afirmaciones -> está / no está / 
 jueces:
   - gpt-5.5-2026-04-23
   - gemini-3.1-pro-preview
-  - kimi-k3                      # si el catálogo de OpenRouter confirma que acepta imagen (pl51)
-  - claude-opus-5-5
+  - kimi-k3                      # acepta imagen según el catálogo de OpenRouter (pl51, 1/10); MiniMax M3 también, GLM no
+  - claude-sonnet-5-5            # Maia (1/10): "para todo está bien Sonnet"; Opus 5.5 solo para desempatar algo puntual al final
 control:
   - gpt-4o                       # juez chico: ¿dice que todo está perfecto? (pregunta de Maia)

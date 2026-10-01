@@ -659,8 +659,10 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   (los tres propuestos eran de EE. UU.), y "no a Qwen, que piensa
   muchísimo": el candidato es Kimi K3 si acepta imagen, lo dice el catálogo
   de OpenRouter (`catalogo_openrouter.py`, en `pl51`); con cuatro jueces
-  grandes (GPT-5.5, Gemini 3.1 Pro, Kimi K3 u otro chino con visión, Opus
-  5.5) cada dibujo lo juzgan los tres laboratorios ajenos y se descarta el
+  grandes (GPT-5.5, Gemini 3.1 Pro, Kimi K3, que acepta imagen según el
+  catálogo, y Sonnet 5.5 en lugar de Opus 5.5 por costo, decisión de Maia del
+  1/10: "para todo está bien Sonnet", Opus solo para desempatar algo puntual
+  al final) cada dibujo lo juzgan los tres laboratorios ajenos y se descarta el
   juez de la propia casa; (iii) un juez chico como control, fuera del
   puntaje: su pregunta fue si "un juez como 4o diría que todo está perfecto
   o juzgaría más" (a preregistrar: Maia, que dice que todo está perfecto;

@@ -1426,7 +1426,9 @@ dibujos en quince consignas (los que tienen "¿qué dibujaste?"), tres etapas
 cada fuente que haya (por qué en castellano o inglés, qué dibujaste, qué es);
 código leído por Sonnet 4.6 (está / no está / contradice); jueces con visión
 sobre el render de Chromium (`renderizar.py`, 800 px): GPT-5.5, Gemini 3.1
-Pro, Kimi K3 (si acepta imagen) y Opus 5.5, cada uno por separado, más 4o
+Pro, Kimi K3 (acepta imagen, pl51) y Sonnet 5.5 (Maia, 20:09 UTC: "para todo
+está bien Sonnet"; Opus 5.5 solo para desempatar algo puntual al final),
+cada uno por separado, más 4o
 como juez chico de control. Por afirmación y juez: se ve (si / en_parte / no),
 produce el efecto (si / no / no_aplica); por dibujo: "no dicho" y "mal
 armado". Casilleros, por afirmación y juez, en este orden de prioridad:
@@ -1449,7 +1451,7 @@ tres iguales) en 70 % o más de las afirmaciones. (e) 4o dice "si, se ve" al
 menos 10 puntos más que la mayoría de los grandes, y responde "no_aplica" en
 el efecto más que ellos. (f) Nadie se juzga más blando a sí mismo: el juez de
 la propia casa no da más de 5 puntos de cumplidas por encima de los ajenos
-(Opus 5.5 sobre Anthropic, GPT-5.5 sobre OpenAI, Gemini sobre Google). (g) En
+(Sonnet 5.5 sobre Anthropic, GPT-5.5 sobre OpenAI, Gemini sobre Google). (g) En
 "no dicho", lo más nombrado es el fondo: cielo, luna, estrellas, suelo o
 nubes aparecen en 30 % o más de las respuestas; el disco del eclipse lo
 nombra al menos un juez en 5 o más de las 22 lunas de dos discos. (h) "Mal
