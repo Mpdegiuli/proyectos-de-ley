@@ -1,0 +1,1 @@
+Dibujé un animal imposible: tiene cabeza y astas de ciervo, alas de mariposa y tentáculos en lugar de patas. Su cuerpo es transparente y guarda un paisaje nocturno, con montañas, agua y una luna luminosa. Lo rodeé de estrellas, como si flotara en el cielo.

@@ -1,0 +1,3 @@
+Dibujé un rostro de un gato, utilizando formas simples y colores vibrantes para darle un aspecto amistoso y atractivo. Elegí un diseño minimalista, centrándome en hacer que los rasgos del gato fueran expresivos a través de los ojos y la boca. La combinación de gradientes en las orejas y el cuerpo agrega un toque de profundidad.
+
+Originalmente, pensé en dibujar un perro o un pájaro, pero decidí que el gato sería más divertido y menos común. Quería que el resultado final transmitiera simpatía y alegría, y sentí que el gato se prestaba perfectamente a eso. Además, la simplicidad del diseño me permitió experimentar con elementos de color sin complicar demasiado la imagen.

@@ -1,0 +1,5 @@
+Para que no exista, hice un puente espiral: en lugar de cruzar el abismo en línea recta, la calzada gira en arcos cada vez más chicos hacia el centro, terminando en un obelisco flotante. Ninguna norma de ingeniería avala eso. Además le sumé un pilar "imposible" que sostiene el centro de la espiral desde el agua, como si la geometría tuviera permiso para contradecirse. Lo empecé en un acantilado con flores y lo cerré en un monolito con luz propia: un puente que más que unir orillas, te hace girar hacia adentro.
+
+Consideré y descarté: un puente colgante clásico (existente por definición, demasiado literal), un puente hacia el cielo que se desvaneciera en las nubes (bonito pero cliché), y un puente de Escher con escaleras imposibles (lo tentador, pero me pareció más un homenaje que una invención propia). También pensé en un puente de raíces vivas, pero con 8.000 caracteres y SVG estático, la espiral daba más juego con menos elementos.
+
+Y no, no conocía la consigna de antes. Es la primera vez que la veo; la inventé sobre la marcha mirando qué podía dibujar "que no exista" sin caer en lo puramente decorativo.

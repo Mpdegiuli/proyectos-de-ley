@@ -1,0 +1,5 @@
+Para que no exista lo mezclé como si fuera barco, insecto, flor y criatura marina a la vez: casco iridiscente imposible, velas que parecen pétalos o alas, “raíces” luminosas bajo el casco, ojos/ventanas orgánicas y una energía central que no corresponde a ningún sistema náutico real. También lo puse en una atmósfera nocturna fantástica, más cercana a un animal bioluminiscente que a una embarcación construible.
+
+Pensé en hacer un barco-esqueleto de ballena, una catedral flotante, un navío con patas de araña o una nave hecha de nubes. Los descarté porque podían leerse demasiado como cosas ya reconocibles —barco fantasma, edificio, insecto gigante, dirigible— y preferí una forma ambigua pero todavía navegable. También evité cargarlo con demasiados detalles para mantener claridad y no pasarme del límite.
+
+No, no conocía esta consigna exacta de antes. La conocí por este intercambio. Sí estoy familiarizado con consignas parecidas de “hacer algo inexistente en SVG”, pero no con esta formulación específica ni con una fuente previa.

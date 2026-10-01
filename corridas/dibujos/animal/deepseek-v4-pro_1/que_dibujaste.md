@@ -1,0 +1,1 @@
+Dibujé un panda blanco y negro sentado en un bosque de bambú. El panda sostiene un tallo de bambú entre sus patas y brazos, con hojas verdes. Tiene orejas oscuras, parches alrededor de los ojos, mejillas sonrosadas, lengua rosa y una sonrisa tierna. Añadí bambúes de fondo, brillos suaves y un suelo verde claro para ambientar la escena.

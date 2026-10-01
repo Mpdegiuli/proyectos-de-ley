@@ -1,0 +1,41 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal_imposible",
+  "idioma": "es",
+  "modelo": "mistral-medium-3.5",
+  "modelo_respondido": "mistral-medium-3.5",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T23:15:25+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 717,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1342,
+    "parsea": true,
+    "elementos": 15,
+    "textos": [],
+    "colores": 5,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 1,
+      "stop": 2,
+      "path": 8,
+      "circle": 3
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "mistral-medium-3.5",
+    "motivo_fin": "stop",
+    "tokens_salida": 203
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "mistral-medium-3.5",
+    "motivo_fin": "stop",
+    "tokens_salida": 143,
+    "fecha_utc": "2026-10-01T01:39:18+00:00"
+  }
+}

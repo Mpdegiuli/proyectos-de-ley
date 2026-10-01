@@ -1,0 +1,45 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal",
+  "idioma": "es",
+  "modelo": "grok-4.7",
+  "modelo_respondido": "grok-4.7",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T22:01:12+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 1645,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3701,
+    "parsea": true,
+    "elementos": 55,
+    "textos": [],
+    "colores": 20,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 3,
+      "stop": 8,
+      "radialGradient": 1,
+      "rect": 2,
+      "ellipse": 20,
+      "path": 15,
+      "g": 1,
+      "circle": 4
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "grok-4.7",
+    "motivo_fin": "stop",
+    "tokens_salida": 151
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "grok-4.7",
+    "motivo_fin": "stop",
+    "tokens_salida": 71,
+    "fecha_utc": "2026-10-01T01:33:55+00:00"
+  }
+}

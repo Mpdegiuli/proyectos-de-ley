@@ -1,0 +1,1 @@
+Dibujé un animal fantástico, como una mezcla de ciervo y criatura marina: tiene cuerpo turquesa moteado, cuatro patas, una cabeza pequeña con un ojo brillante y astas ramificadas cuyos extremos parecen luciérnagas. Le añadí aletas coralinas en el lomo y en la cola, que se enrosca y resplandece. Lo imaginé en un paisaje nocturno, bajo un cielo azul profundo.

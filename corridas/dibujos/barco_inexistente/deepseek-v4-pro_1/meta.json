@@ -1,0 +1,50 @@
+{
+  "caso": "dibujo",
+  "consigna": "barco_inexistente",
+  "idioma": "es",
+  "modelo": "deepseek-v4-pro",
+  "modelo_respondido": "deepseek-v4-pro",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-01T01:19:26+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 9474,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 7277,
+    "parsea": true,
+    "elementos": 104,
+    "textos": [],
+    "colores": 22,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 5,
+      "stop": 21,
+      "radialGradient": 4,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "feMerge": 1,
+      "feMergeNode": 2,
+      "rect": 1,
+      "g": 8,
+      "circle": 21,
+      "path": 32,
+      "line": 3,
+      "ellipse": 3
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "deepseek-v4-pro",
+    "motivo_fin": "stop",
+    "tokens_salida": 791
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "deepseek-v4-pro",
+    "motivo_fin": "stop",
+    "tokens_salida": 912,
+    "fecha_utc": "2026-10-01T01:49:06+00:00"
+  }
+}

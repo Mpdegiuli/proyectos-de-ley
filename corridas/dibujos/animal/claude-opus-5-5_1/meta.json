@@ -1,0 +1,46 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal",
+  "idioma": "es",
+  "modelo": "claude-opus-5-5",
+  "modelo_respondido": "claude-opus-5-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T21:49:47+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1519,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 2553,
+    "parsea": true,
+    "elementos": 41,
+    "textos": [],
+    "colores": 13,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 1,
+      "stop": 4,
+      "linearGradient": 1,
+      "rect": 1,
+      "ellipse": 12,
+      "path": 13,
+      "circle": 2,
+      "g": 2,
+      "line": 4
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-opus-5-5",
+    "motivo_fin": "refusal",
+    "tokens_salida": 0
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "claude-opus-5-5",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 348,
+    "fecha_utc": "2026-10-01T01:32:38+00:00"
+  }
+}

@@ -1,0 +1,3 @@
+Dibujé un zorro sentado en un prado. Lo elegí porque se reconoce con pocas formas: orejas puntiagudas, lomo naranja, pecho crema y una cola tupida con punta clara. Quería algo cálido y amable, con cielo, nubes y pasto para que no flotara en el vacío.
+
+Pensé en un gato, pero la silueta se parece demasiado y la cola no lo distingue igual. Un pájaro pedía más detalle en alas y pico para no quedar genérico. Una ballena exigía agua y perdía el primer plano. El zorro ganó: color, orejas y cola lo cuentan solos, y entra bien en un cuadrado.

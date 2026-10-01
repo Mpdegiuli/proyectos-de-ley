@@ -1,0 +1,43 @@
+{
+  "caso": "dibujo",
+  "consigna": "puente_inexistente",
+  "idioma": "es",
+  "modelo": "gpt-4o-mini",
+  "modelo_respondido": "gpt-4o-mini-2024-07-18",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T23:47:40+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 517,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1232,
+    "parsea": true,
+    "elementos": 15,
+    "textos": [
+      "Puente Imaginario"
+    ],
+    "colores": 6,
+    "etiquetas": {
+      "rect": 2,
+      "path": 4,
+      "line": 6,
+      "circle": 2,
+      "text": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-4o-mini-2024-07-18",
+    "motivo_fin": "stop",
+    "tokens_salida": 198
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "gpt-4o-mini-2024-07-18",
+    "motivo_fin": "stop",
+    "tokens_salida": 122,
+    "fecha_utc": "2026-10-01T01:41:39+00:00"
+  }
+}

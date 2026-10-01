@@ -1,0 +1,43 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal_inexistente",
+  "idioma": "es",
+  "modelo": "gpt-4o-mini",
+  "modelo_respondido": "gpt-4o-mini-2024-07-18",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T22:24:45+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 693,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1910,
+    "parsea": true,
+    "elementos": 25,
+    "textos": [],
+    "colores": 10,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 4,
+      "g": 2,
+      "ellipse": 3,
+      "path": 9,
+      "circle": 4
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-4o-mini-2024-07-18",
+    "motivo_fin": "stop",
+    "tokens_salida": 197
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "gpt-4o-mini-2024-07-18",
+    "motivo_fin": "stop",
+    "tokens_salida": 138,
+    "fecha_utc": "2026-10-01T01:35:41+00:00"
+  }
+}

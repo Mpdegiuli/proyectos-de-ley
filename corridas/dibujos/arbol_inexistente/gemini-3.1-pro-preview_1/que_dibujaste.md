@@ -1,0 +1,3 @@
+Dibujé un árbol cibernético de pura energía. Sus raíces son anillos de luz y su tronco está formado por flujos entrelazados en tonos neón: cian, magenta y violeta. En el medio le puse un núcleo flotante que parece un ojo o un corazón digital. 
+
+En lugar de hojas, creé cristales luminosos, estrellas con forma de diamante y esporas que flotan a su alrededor. Lo rodeé con un aura mística sobre un fondo de geometrías tenues. Es una mezcla entre tecnología y magia, un árbol futurista que cobra vida y brilla en la oscuridad.

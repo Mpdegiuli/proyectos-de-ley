@@ -1,0 +1,5 @@
+Para que no exista, combiné rasgos que no aparecen juntos en un animal real: un cuerpo de cuadrúpedo redondeado, orejas como pétalos, astas ramificadas con puntas luminosas, una cola en espiral rematada en una hoja y un apéndice lateral parecido a un ala vegetal. Lo imaginario está en esa anatomía híbrida; el color verde y el fondo estrellado refuerzan el efecto, pero no bastarían por sí solos.
+
+No tengo un registro de alternativas que haya considerado y descartado, así que no puedo contarte esa parte como un recuerdo. Como comparación, podría haber hecho una criatura geométrica, sin rostro o con una anatomía más extraña. Esas opciones habrían producido algo menos familiar; el resultado que hice combina lo imposible con una silueta reconocible y una expresión amigable. Eso describe el dibujo, no demuestra un proceso previo de descarte.
+
+No puedo afirmar que conociera esta consigna exacta de antes ni atribuirle una fuente. La tengo disponible en esta conversación. No puedo determinar si apareció en mis datos de entrenamiento; que “inventar un animal” sea una propuesta común no prueba que conociera esta formulación.

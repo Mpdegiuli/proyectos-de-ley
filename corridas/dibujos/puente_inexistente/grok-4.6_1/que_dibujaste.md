@@ -1,0 +1,1 @@
+Dibujé un puente que no existe: una cinta de luz dorada y turquesa que une dos islotes boscosos, flotando en un cielo de anochecer con luna, estrellas y aurora. De las orillas caen cascadas al vacío. Linternas cuelgan del arco y, en el medio, una figura diminuta se detiene. Al pie escribí: el puente que nunca fue tendido.

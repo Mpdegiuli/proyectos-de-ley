@@ -1,0 +1,51 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal_imposible",
+  "idioma": "es",
+  "modelo": "claude-opus-5-5",
+  "modelo_respondido": "claude-opus-5-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T22:55:57+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 8166,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3205,
+    "parsea": true,
+    "elementos": 44,
+    "textos": [
+      "el pez que vive en la pecera que vive en el pez"
+    ],
+    "colores": 18,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 6,
+      "linearGradient": 1,
+      "clipPath": 1,
+      "rect": 2,
+      "g": 2,
+      "circle": 14,
+      "path": 6,
+      "ellipse": 2,
+      "polygon": 1,
+      "use": 5,
+      "text": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-opus-5-5",
+    "motivo_fin": "refusal",
+    "tokens_salida": 67
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "claude-opus-5-5",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 298,
+    "fecha_utc": "2026-10-01T01:37:35+00:00"
+  }
+}

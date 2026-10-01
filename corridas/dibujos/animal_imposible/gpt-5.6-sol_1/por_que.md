@@ -1,0 +1,5 @@
+Hice una quimera anatómicamente incompatible: combina rasgos de mamífero, ave, insecto, pez y criatura fantástica; tiene alas de estructuras distintas, extremidades desparejas, cornamenta imposible y una cola que se transforma en aleta o flor. Además, el torso funciona como una abertura que parece contener un espacio estelar mayor que el propio cuerpo. Esa contradicción entre interior y exterior es la imposibilidad principal, más que la simple mezcla de especies. El tercer ojo y la falta de una anatomía funcional refuerzan la idea.
+
+Consideré dejar el lienzo vacío, interpretando que un animal inexistente no puede representarse. También pensé en usar geometría imposible, como un cuerpo construido al estilo de Escher, o dibujar sólo una sombra sin criatura. Descarté el vacío porque preferí responder visualmente; la geometría pura podía perder el carácter animal, y la sombra resultaba demasiado ambigua. Elegí una criatura reconocible pero internamente contradictoria.
+
+No conocía esta consigna de antes ni la tomé de una fuente concreta: la recibí en esta conversación. Tampoco puedo determinar si formulaciones parecidas aparecieron en mis datos de entrenamiento.

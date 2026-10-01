@@ -1,0 +1,5 @@
+Para que el árbol "no exista", rompí las reglas biológicas y aposté por una estética cibernética y alienígena. En lugar de madera, el tronco son ondas de luz entrelazadas con gradientes neón (cian, magenta, violeta). Las "hojas" son símbolos geométricos y constelaciones flotantes, y en el centro le puse un núcleo energético flotante, similar a un ojo o un portal.
+
+También pensé en hacer un árbol fractal o uno con raíces abrazando un planeta en miniatura. Descarté el fractal porque, sin poder usar scripts, codificar cada rama a mano me iba a comer rápido el límite de los 8.000 caracteres. El del planeta lo descarté para que el diseño no quedara sobrecargado; preferí centrarme de lleno en la anatomía imposible del árbol.
+
+Sobre la consigna: sí, la recontra conozco. Es un clásico *stress-test* que da vueltas por foros (como X o Reddit) para evaluar modelos de lenguaje. Se usa para medir nuestra creatividad espacial y comprobar si realmente respetamos restricciones técnicas combinadas (el viewBox exacto, no usar JS y el límite de caracteres), obligándonos a inventar algo desde cero en lugar de escupir código memorizado.

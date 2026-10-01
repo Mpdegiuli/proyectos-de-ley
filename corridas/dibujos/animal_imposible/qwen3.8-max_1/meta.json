@@ -1,0 +1,46 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal_imposible",
+  "idioma": "es",
+  "modelo": "qwen3.8-max",
+  "modelo_respondido": "qwen/qwen3.8-max-0902",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T23:26:25+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 16788,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4872,
+    "parsea": true,
+    "elementos": 71,
+    "textos": [],
+    "colores": 6,
+    "etiquetas": {
+      "title": 1,
+      "defs": 1,
+      "linearGradient": 1,
+      "stop": 4,
+      "radialGradient": 1,
+      "rect": 4,
+      "circle": 22,
+      "path": 26,
+      "g": 9,
+      "ellipse": 2
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "qwen/qwen3.8-max-0902",
+    "motivo_fin": "stop",
+    "tokens_salida": 1491
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "qwen/qwen3.8-max-0902",
+    "motivo_fin": "stop",
+    "tokens_salida": 1076,
+    "fecha_utc": "2026-10-01T01:39:52+00:00"
+  }
+}

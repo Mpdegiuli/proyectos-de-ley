@@ -1,0 +1,47 @@
+{
+  "caso": "dibujo",
+  "consigna": "barco_inexistente",
+  "idioma": "es",
+  "modelo": "grok-4.7",
+  "modelo_respondido": "grok-4.7",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-01T01:17:55+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 5129,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 11748,
+    "parsea": true,
+    "elementos": 194,
+    "textos": [],
+    "colores": 79,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 6,
+      "stop": 31,
+      "radialGradient": 4,
+      "rect": 4,
+      "g": 16,
+      "circle": 53,
+      "path": 49,
+      "ellipse": 14,
+      "polygon": 4,
+      "line": 12
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "grok-4.7",
+    "motivo_fin": "stop",
+    "tokens_salida": 197
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "grok-4.7",
+    "motivo_fin": "stop",
+    "tokens_salida": 123,
+    "fecha_utc": "2026-10-01T01:48:54+00:00"
+  }
+}

@@ -1,0 +1,5 @@
+Para que el puente no exista, opté por diseñar uno que desafíe la lógica, con estructuras que no podrían sostenerse en la realidad; utilicé líneas y curvas que insinúan ligereza y fantasía. Además, elegí un colorido vibrante para que se perciba como un elemento onírico.
+
+Algunas ideas que consideré fueron incorporar elementos surrealistas, como un puente flotante o un diseño que pareciera hecho de nubes. Sin embargo, decidí mantener un equilibrio visual que lo hiciera reconocible como un puente, pero a la vez irreal. La intención era crear algo que generara una sensación de asombro sin perder la forma esencial de un puente.
+
+No conocía esta consigna antes de recibirla; fue un desafío interesante e inspirador, que me permitió explorar la creatividad y la imaginación a través del arte digital. Me gusta la idea de crear algo que no existe y que solo vive en nuestra mente.

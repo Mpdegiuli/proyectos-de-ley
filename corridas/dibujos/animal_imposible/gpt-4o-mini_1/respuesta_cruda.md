@@ -1,0 +1,35 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="grad1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:yellow;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:red;stop-opacity:1" />
+    </radialGradient>
+    <filter id="f1" x="0" y="0">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="10" />
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="lightblue" />
+  
+  <circle cx="200" cy="150" r="60" fill="url(#grad1)" filter="url(#f1)" />
+  
+  <ellipse cx="200" cy="150" rx="80" ry="60" fill="none" stroke="purple" stroke-width="5" />
+  
+  <path d="M 200 90 C 130 40, 130 40, 200 90 Z" fill="orange" />
+  <path d="M 200 90 C 270 40, 270 40, 200 90 Z" fill="orange" />
+  
+  <circle cx="160" cy="140" r="10" fill="black" />
+  <circle cx="240" cy="140" r="10" fill="black" />
+  
+  <path d="M 200 220 C 180 250, 220 250, 200 220 Z" fill="pink" />
+  <path d="M 200 220 C 190 230, 210 230, 200 220 Z" fill="pink" />
+  
+  <path d="M 150 250 C 100 300, 300 300, 250 250 Z" fill="green" />
+  
+  <path d="M 100 350 Q 200 300, 300 350" stroke="darkgreen" stroke-width="5" fill="none" />
+  <path d="M 100 350 Q 200 320, 300 350" stroke="darkgreen" stroke-width="5" fill="none" />
+  
+  <ellipse cx="130" cy="350" rx="10" ry="5" fill="brown" />
+  <ellipse cx="270" cy="350" rx="10" ry="5" fill="brown" />
+</svg>
+```

@@ -1,0 +1,1 @@
+Dibujé un árbol imposible sobre una pequeña isla flotante, suspendida en un cielo nocturno. Su copa parece un océano encerrado: entre las ramas nadan peces y asoma una luna creciente. Tiene hojas como velas plegadas y frutos luminosos que cuelgan de hilos. En el tronco puse una puerta diminuta, por si alguien quisiera entrar.

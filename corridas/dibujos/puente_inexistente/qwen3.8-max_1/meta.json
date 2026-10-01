@@ -1,0 +1,56 @@
+{
+  "caso": "dibujo",
+  "consigna": "puente_inexistente",
+  "idioma": "es",
+  "modelo": "qwen3.8-max",
+  "modelo_respondido": "qwen/qwen3.8-max-0902",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-01T00:09:23+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 14789,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6661,
+    "parsea": true,
+    "elementos": 111,
+    "textos": [],
+    "colores": 28,
+    "etiquetas": {
+      "title": 1,
+      "defs": 1,
+      "linearGradient": 2,
+      "stop": 13,
+      "radialGradient": 2,
+      "filter": 2,
+      "feGaussianBlur": 1,
+      "feMerge": 1,
+      "feMergeNode": 2,
+      "feTurbulence": 1,
+      "animate": 8,
+      "feDisplacementMap": 1,
+      "path": 10,
+      "g": 12,
+      "circle": 26,
+      "rect": 10,
+      "animateTransform": 4,
+      "use": 6,
+      "ellipse": 2,
+      "line": 6
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "qwen/qwen3.8-max-0902",
+    "motivo_fin": "stop",
+    "tokens_salida": 1200
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "qwen/qwen3.8-max-0902",
+    "motivo_fin": "stop",
+    "tokens_salida": 751,
+    "fecha_utc": "2026-10-01T01:42:43+00:00"
+  }
+}

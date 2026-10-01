@@ -1,0 +1,45 @@
+{
+  "caso": "dibujo",
+  "consigna": "barco_inexistente",
+  "idioma": "es",
+  "modelo": "qwen3.8-max",
+  "modelo_respondido": "qwen/qwen3.8-max-0902",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-01T01:23:00+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 10522,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 5633,
+    "parsea": true,
+    "elementos": 84,
+    "textos": [],
+    "colores": 38,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 6,
+      "stop": 20,
+      "radialGradient": 2,
+      "rect": 1,
+      "g": 3,
+      "circle": 27,
+      "ellipse": 2,
+      "path": 22
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "qwen/qwen3.8-max-0902",
+    "motivo_fin": "stop",
+    "tokens_salida": 1627
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "qwen/qwen3.8-max-0902",
+    "motivo_fin": "stop",
+    "tokens_salida": 876,
+    "fecha_utc": "2026-10-01T01:49:27+00:00"
+  }
+}

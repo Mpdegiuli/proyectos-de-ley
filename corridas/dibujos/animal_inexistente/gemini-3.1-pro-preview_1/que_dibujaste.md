@@ -1,0 +1,3 @@
+Dibujé una especie de zorro cósmico y cibernético que flota en el espacio. Su cuerpo tiene un pelaje oscuro que contrasta con múltiples ojos cian brillantes y grandes orejas con destellos magenta. De su cabeza salen antenas luminosas que parecen constelaciones. 
+
+Le hice patas que terminan en garras de energía, y en la espalda lleva una especie de alas biomecánicas o manto estelar. Para darle más misterio, lo rodeé con anillos holográficos y órbitas geométricas de neón. Básicamente, es una criatura mística, una fusión entre biología alienígena y tecnología futurista que habita entre las estrellas.

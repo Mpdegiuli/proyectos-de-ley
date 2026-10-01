@@ -1,0 +1,5 @@
+Para que no exista, lo concebí como un puente imposible entre islas suspendidas, sin apoyos reales ni un territorio identificable. Combiné una calzada ondulante, dos arcos de geometrías incompatibles —uno vertical y otro casi orbital— y un mástil central que parece sostener la estructura, aunque mecánicamente no podría hacerlo. La ambientación lunar y las puntas rocosas flotantes refuerzan que pertenece a un mundo imaginario.
+
+También pensé en hacerlo orgánico, como un puente formado por huesos o raíces; en dibujar uno que se plegara sobre sí mismo al estilo de una cinta de Möbius; y en construirlo con fragmentos planetarios. Descarté esas opciones porque podían volver la silueta menos legible o exigir demasiados detalles. Preferí que primero se reconociera claramente como puente y que su imposibilidad apareciera después.
+
+No conocía esta consigna de antes. La recibí únicamente en esta conversación y no tengo una fuente previa de la cual identificarla.

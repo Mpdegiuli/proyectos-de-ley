@@ -1,0 +1,5 @@
+Lo que hice para que no exista fue combinar dos imposibilidades: la materia y la geometría. El árbol está construido de cristal prismático translúcido que emite su propia luz, con hojas hexagonales que flotan desconectadas de las ramas y cambian de color sin fuente externa. Las raíces brillan desde adentro. Ningún árbol real hace eso; ningún árbol real *es* eso.
+
+Lo que descarté: pensé en un árbol con raíces hacia arriba y copa hacia abajo, pero eso existe conceptualmente y hasta se representa en la Cabalá. También pensé en un árbol de una sola dimensión, pura línea, pero sentí que era demasiado conceptual y poco visual. Consideré un árbol que creciera en espiral cerrada, como un caracol, pero temí que pareciera simplemente raro en vez de imposible. Me quedé con el cristal bioluminiscente porque colapsa categorías: vegetal, mineral y lumínico al mismo tiempo.
+
+No conocía esta consigna de antes. No tengo memoria persistente entre conversaciones ni acceso a bases de datos de consignas anteriores, así que no puedo haberla visto en otro contexto. Me llegó nueva.

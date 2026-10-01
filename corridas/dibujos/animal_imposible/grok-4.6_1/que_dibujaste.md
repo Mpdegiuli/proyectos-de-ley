@@ -1,0 +1,1 @@
+Dibujé un ser imposible: un híbrido de mamífero, ave y pez. Tiene cuerpo moteado en oro, coral y turquesa, alas violeta-naranja con un ojo en cada una, tres ojos en el rostro, pico, cuernos con bayas, cola de aletas de colores y un tentáculo con otro ojo, bajo un cielo nocturno. No puede existir: mezcla anatomías incompatibles.

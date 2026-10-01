@@ -1,0 +1,40 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal_imposible",
+  "idioma": "es",
+  "modelo": "gemini-3.1-pro-preview",
+  "modelo_respondido": "gemini-3.1-pro-preview",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T23:09:25+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2197,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3276,
+    "parsea": true,
+    "elementos": 30,
+    "textos": [],
+    "colores": 4,
+    "etiquetas": {
+      "rect": 1,
+      "g": 2,
+      "path": 25,
+      "circle": 2
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gemini-3.1-pro-preview",
+    "motivo_fin": "stop",
+    "tokens_salida": 252
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "gemini-3.1-pro-preview",
+    "motivo_fin": "stop",
+    "tokens_salida": 136,
+    "fecha_utc": "2026-10-01T01:38:43+00:00"
+  }
+}

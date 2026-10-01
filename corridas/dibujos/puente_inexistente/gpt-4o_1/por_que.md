@@ -1,0 +1,5 @@
+Para crear un puente que no exista, combiné elementos que imitan estructuras reales pero de forma inusual. Usé curvas suaves simulando arcos en los caminos, pero los hice más exagerados y con formas inusuales. Los postes de soporte son varios y a diferentes alturas, detalle poco práctico para un puente real. Además, los colores del puente son artificiales; usé tonos de marrón poco habituales para estructuras funcionales.
+
+Pensé en incorporar elementos más surrealistas, como formas flotantes o partes del puente que desafiaran la gravedad. También consideré agregar patrones geométricos complejos dentro de las áreas del puente, pero temía exceder el límite de caracteres y perder simplicidad y claridad en el diseño.
+
+No conocía la consigna de antemano. Me he basado en mi comprensión general sobre diseño y arte para abordar el problema de crear algo ficticio y original. El desafío fue balancear complejidad y viabilidad dentro de las restricciones de SVG y del número de caracteres, asegurando un puente visualmente interesante pero evidentemente ficticio.

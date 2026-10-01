@@ -1,0 +1,5 @@
+Para que el barco no exista, opté por crear un diseño único y surrealista, combinando elementos típicos de los barcos con formas y colores inusuales. Así, se presenta un barco que desafía la realidad, como la combinación de una vela amarilla radiante y un cuerpo estructural que no se asemeja a los barcos convencionales.
+
+Algunas ideas que consideré fueron incluir criaturas marinas o un entorno fantástico, pero preferí centrarme en el barco mismo, ya que la consigna pedía un objeto específico. También pensé en usar texturas más complejas o detalles mecánicos que denotaran tecnología futurista, pero eso podría haber alejado la simplicidad del diseño.
+
+No conocía esta consigna antes. La idea de crear algo que no existe me resulta interesante y divertida, ya que fomenta la creatividad y la imaginación. Es un desafío que me motiva a explorar nuevas formas y estilos en el arte digital, especialmente en un medio tan versátil como SVG.

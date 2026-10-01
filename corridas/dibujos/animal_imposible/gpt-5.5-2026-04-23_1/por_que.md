@@ -1,0 +1,5 @@
+Hice un animal compuesto por anatomías incompatibles: cuerpo serpentino que se enrosca como si fuera una sola criatura, pico de ave, alas de mariposa/dragón en lugares improbables, patas desparejas, cuernos o antenas, aletas, manchas y ojos puestos de manera poco funcional. Quise que pareciera “vivo” y reconocible, pero que ninguna biología pudiera sostenerlo como especie coherente.
+
+Pensé en entregar el lienzo vacío, como si “un animal que no pueda existir” fuera literalmente imposible de dibujar; lo descarté porque la consigna también invitaba a decidir visualmente. También pensé en hacer un animal invisible, uno hecho de partes geométricas imposibles tipo Escher, o una mezcla más obvia —pez con patas, pájaro con ruedas—, pero me parecieron soluciones demasiado conceptuales o demasiado chiste. Preferí una criatura abundante, barroca, casi de bestiario.
+
+No, no conocía esta consigna específica de antes. Sí me resulta familiar el tipo de desafío: pedir una imagen que explore una contradicción o un límite de representación, pero no la identifico como algo visto en un lugar concreto.

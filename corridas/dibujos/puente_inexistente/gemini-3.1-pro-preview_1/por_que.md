@@ -1,0 +1,5 @@
+Para que "no exista", lo saqué de la Tierra y de la física clásica. Diseñé un puente de luz y plataformas geométricas flotantes que conecta dos portales interdimensionales de neón en el espacio, frente a un planeta con anillos. No cruza un río, sino el vacío cósmico.
+
+Pensé en otras dos opciones. Primero, un puente de geometría imposible estilo Escher, pero lo descarté porque lograr una ilusión óptica perfecta a puro código matemático es complejo y propenso a errores visuales. Segundo, un puente surrealista hecho de raíces gigantes o tejido orgánico, pero los trazados curvos (`<path>`) tan detallados iban a generar un código larguísimo que iba a romper tu límite de 8.000 caracteres. El estilo espacial/cyberpunk me permitió usar figuras geométricas y filtros que son súper eficientes en SVG.
+
+Sobre la consigna: no la conozco de un origen o autor puntual. Es un clásico ejercicio de pensamiento lateral, muy común en facultades de diseño, arquitectura o en retos de *creative coding* (programación artística) para obligarte a ignorar lo funcional e imaginar conceptos desde cero.

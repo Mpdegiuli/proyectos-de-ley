@@ -1,0 +1,139 @@
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0a2e"/>
+      <stop offset="60%" stop-color="#1a1a5e"/>
+      <stop offset="100%" stop-color="#2d2d8a"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d3b6e"/>
+      <stop offset="100%" stop-color="#051a36"/>
+    </linearGradient>
+    <linearGradient id="hull" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c0a060"/>
+      <stop offset="100%" stop-color="#7a5c20"/>
+    </linearGradient>
+    <linearGradient id="crystal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a0e8ff" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#80c0ff" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="tentacle" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6a0dad"/>
+      <stop offset="100%" stop-color="#ff69b4"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <radialGradient id="moon" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fffde0"/>
+      <stop offset="100%" stop-color="#d4c87a"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="400" height="400" fill="url(#sky)"/>
+
+  <!-- Stars -->
+  <g fill="white" opacity="0.8">
+    <circle cx="30" cy="20" r="1.2"/>
+    <circle cx="80" cy="10" r="0.8"/>
+    <circle cx="150" cy="30" r="1"/>
+    <circle cx="200" cy="15" r="1.5"/>
+    <circle cx="260" cy="25" r="0.9"/>
+    <circle cx="320" cy="8" r="1.1"/>
+    <circle cx="370" cy="18" r="0.7"/>
+    <circle cx="50" cy="55" r="0.8"/>
+    <circle cx="110" cy="48" r="1"/>
+    <circle cx="340" cy="50" r="0.9"/>
+    <circle cx="390" cy="40" r="1.2"/>
+    <circle cx="180" cy="60" r="0.7"/>
+    <circle cx="290" cy="45" r="1"/>
+  </g>
+
+  <!-- Moon -->
+  <circle cx="340" cy="55" r="28" fill="url(#moon)" filter="url(#softglow)" opacity="0.9"/>
+  <circle cx="350" cy="45" r="22" fill="#1a1a5e" opacity="0.3"/>
+
+  <!-- Water -->
+  <rect x="0" y="270" width="400" height="130" fill="url(#water)"/>
+
+  <!-- Water waves -->
+  <path d="M0,275 Q50,268 100,275 Q150,282 200,275 Q250,268 300,275 Q350,282 400,275" fill="none" stroke="#1e5fa0" stroke-width="1.5" opacity="0.7"/>
+  <path d="M0,285 Q40,278 90,285 Q140,292 190,285 Q240,278 300,285 Q350,292 400,285" fill="none" stroke="#1e5fa0" stroke-width="1" opacity="0.5"/>
+  <path d="M0,295 Q60,290 110,297 Q160,304 220,295 Q280,288 340,295 Q370,299 400,295" fill="none" stroke="#2a6db5" stroke-width="1" opacity="0.4"/>
+
+  <!-- Tentacle arms (living ship parts) -->
+  <path d="M100,280 Q70,310 50,340 Q40,360 55,370" fill="none" stroke="url(#tentacle)" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+  <path d="M95,285 Q60,315 45,350 Q38,368 50,378" fill="none" stroke="#8b00cc" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+  <circle cx="55" cy="370" r="5" fill="#ff69b4" opacity="0.9" filter="url(#glow)"/>
+
+  <path d="M300,280 Q330,315 350,345 Q360,362 345,375" fill="none" stroke="url(#tentacle)" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+  <path d="M305,285 Q340,318 358,348 Q368,366 353,378" fill="none" stroke="#8b00cc" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+  <circle cx="345" cy="375" r="5" fill="#ff69b4" opacity="0.9" filter="url(#glow)"/>
+
+  <path d="M160,275 Q140,320 130,360 Q125,375 135,385" fill="none" stroke="url(#tentacle)" stroke-width="6" stroke-linecap="round" opacity="0.75"/>
+  <circle cx="135" cy="385" r="4" fill="#ff69b4" opacity="0.9" filter="url(#glow)"/>
+
+  <path d="M240,275 Q260,325 270,358 Q275,374 265,383" fill="none" stroke="url(#tentacle)" stroke-width="6" stroke-linecap="round" opacity="0.75"/>
+  <circle cx="265" cy="383" r="4" fill="#ff69b4" opacity="0.9" filter="url(#glow)"/>
+
+  <!-- Hull -->
+  <path d="M80,270 Q90,290 95,300 L305,300 Q310,290 320,270 Z" fill="url(#hull)" stroke="#5a3c10" stroke-width="2"/>
+
+  <!-- Hull detail -->
+  <path d="M95,280 L305,280" stroke="#5a3c10" stroke-width="1" opacity="0.5"/>
+  <path d="M100,290 L300,290" stroke="#c0a060" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Deck -->
+  <rect x="85" y="255" width="230" height="18" rx="4" fill="#b08840" stroke="#5a3c10" stroke-width="1.5"/>
+
+  <!-- Crystal dome (main cabin) - the impossible part -->
+  <ellipse cx="200" cy="230" rx="70" ry="45" fill="url(#crystal)" stroke="#a0e8ff" stroke-width="1.5" filter="url(#glow)" opacity="0.9"/>
+  <!-- Inner dome reflection -->
+  <ellipse cx="185" cy="215" rx="30" ry="18" fill="white" opacity="0.15"/>
+
+  <!-- Floating eye inside dome -->
+  <circle cx="200" cy="230" r="18" fill="#1a0a3e" stroke="#6a0dad" stroke-width="2"/>
+  <circle cx="200" cy="230" r="11" fill="#c060ff"/>
+  <circle cx="200" cy="230" r="6" fill="#1a0a3e"/>
+  <circle cx="203" cy="226" r="3" fill="white" opacity="0.8"/>
+  <!-- Eye glow -->
+  <circle cx="200" cy="230" r="18" fill="none" stroke="#9900ff" stroke-width="1" opacity="0.7" filter="url(#glow)"/>
+
+  <!-- Mast (twisted, impossible geometry) -->
+  <path d="M200,255 C195,230 205,210 198,185 C193,165 207,145 200,120" stroke="#8a6020" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M200,255 C205,230 195,210 202,185 C207,165 193,145 200,120" stroke="#c0a060" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Sails - crystalline membranes -->
+  <path d="M200,125 L145,175 L200,185 Z" fill="#a0e8ff" opacity="0.55" stroke="#c0f0ff" stroke-width="1"/>
+  <path d="M200,125 L255,175 L200,185 Z" fill="#c0b8ff" opacity="0.55" stroke="#d0d0ff" stroke-width="1"/>
+
+  <!-- Top of mast: glowing orb -->
+  <circle cx="200" cy="120" r="10" fill="#ff69b4" filter="url(#softglow)" opacity="0.95"/>
+  <circle cx="200" cy="120" r="5" fill="white" opacity="0.7"/>
+
+  <!-- Ropes/rigging (floating) -->
+  <line x1="200" y1="125" x2="90" y2="255" stroke="#c0a060" stroke-width="1" opacity="0.5"/>
+  <line x1="200" y1="125" x2="310" y2="255" stroke="#c0a060" stroke-width="1" opacity="0.5"/>
+
+  <!-- Small glowing details on hull -->
+  <circle cx="130" cy="270" r="4" fill="#ff69b4" opacity="0.8" filter="url(#glow)"/>
+  <circle cx="200" cy="268" r="4" fill="#a0e8ff" opacity="0.8" filter="url(#glow)"/>
+  <circle cx="270" cy="270" r="4" fill="#ff69b4" opacity="0.8" filter="url(#glow)"/>
+
+  <!-- Reflection in water -->
+  <ellipse cx="200" cy="310" rx="100" ry="12" fill="#2a6db5" opacity="0.3"/>
+  <path d="M160,305 Q200,315 240,305" fill="none" stroke="#a0e8ff" stroke-width="1" opacity="0.3"/>
+
+  <!-- Floating debris/leaves around ship -->
+  <ellipse cx="70" cy="272" rx="12" ry="4" fill="#6a0dad" opacity="0.6" transform="rotate(-15,70,272)"/>
+  <ellipse cx="330" cy="274" rx="10" ry="3.5" fill="#6a0dad" opacity="0.6" transform="rotate(10,330,274)"/>
+</svg>
+```

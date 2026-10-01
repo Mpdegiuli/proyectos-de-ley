@@ -1,0 +1,48 @@
+{
+  "caso": "dibujo",
+  "consigna": "arbol_inexistente",
+  "idioma": "es",
+  "modelo": "gpt-6-sol",
+  "modelo_respondido": "gpt-6-sol",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-01T00:31:59+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 3945,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 7748,
+    "parsea": true,
+    "elementos": 116,
+    "textos": [],
+    "colores": 50,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 15,
+      "linearGradient": 3,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "clipPath": 1,
+      "path": 39,
+      "rect": 1,
+      "circle": 39,
+      "g": 12,
+      "ellipse": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-6-sol",
+    "motivo_fin": "stop",
+    "tokens_salida": 450
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "gpt-6-sol",
+    "motivo_fin": "stop",
+    "tokens_salida": 82,
+    "fecha_utc": "2026-10-01T01:44:17+00:00"
+  }
+}

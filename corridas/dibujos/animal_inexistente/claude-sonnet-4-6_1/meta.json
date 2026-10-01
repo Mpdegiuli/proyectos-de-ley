@@ -1,0 +1,48 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal_inexistente",
+  "idioma": "es",
+  "modelo": "claude-sonnet-4-6",
+  "modelo_respondido": "claude-sonnet-4-6",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T22:17:25+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 3559,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 8102,
+    "parsea": true,
+    "elementos": 94,
+    "textos": [],
+    "colores": 22,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 4,
+      "stop": 8,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "feMerge": 1,
+      "feMergeNode": 2,
+      "rect": 1,
+      "circle": 39,
+      "ellipse": 11,
+      "path": 19,
+      "line": 6
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-sonnet-4-6",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 357
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "claude-sonnet-4-6",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 185,
+    "fecha_utc": "2026-10-01T01:34:56+00:00"
+  }
+}

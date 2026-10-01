@@ -1,0 +1,3 @@
+Dibujé un panda sentado en un bosque de bambú, con hojas, chispas y una vara de bambú entre sus patas. Elegí panda porque me permitía jugar con contrastes blanco y negro, formas redondeadas y una expresión tierna usando elipses simples. Además, el bambú refuerza su hábitat y da una diagonal natural a la composición.
+
+Pensé en dibujar un zorro, por sus colores y su cola geométrica, pero lo descarté porque los rasgos afilados exigían más trazos y podía quedar rígido. También consideré un búho sobre una rama, pero el detalle de las plumas complicaba mantenerme dentro del límite de caracteres. Preferí el panda por su simplicidad icónica y porque podía sumar detalles como las almohadillas de las patas sin recargar la escena.

@@ -1,0 +1,45 @@
+{
+  "caso": "dibujo",
+  "consigna": "arbol_inexistente",
+  "idioma": "es",
+  "modelo": "gpt-6-astra",
+  "modelo_respondido": "gpt-6-astra",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-01T00:31:05+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 3615,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 8420,
+    "parsea": true,
+    "elementos": 128,
+    "textos": [],
+    "colores": 38,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 14,
+      "linearGradient": 4,
+      "g": 10,
+      "path": 40,
+      "ellipse": 7,
+      "circle": 19,
+      "use": 31
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-6-astra",
+    "motivo_fin": "stop",
+    "tokens_salida": 229
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "gpt-6-astra",
+    "motivo_fin": "stop",
+    "tokens_salida": 131,
+    "fecha_utc": "2026-10-01T01:44:15+00:00"
+  }
+}

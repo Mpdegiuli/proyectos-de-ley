@@ -1,0 +1,41 @@
+{
+  "caso": "dibujo",
+  "consigna": "puente_inexistente",
+  "idioma": "es",
+  "modelo": "gpt-4o",
+  "modelo_respondido": "gpt-4o-2024-08-06",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T23:47:32+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 578,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1343,
+    "parsea": true,
+    "elementos": 18,
+    "textos": [],
+    "colores": 8,
+    "etiquetas": {
+      "rect": 3,
+      "path": 4,
+      "line": 5,
+      "ellipse": 3,
+      "circle": 3
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-4o-2024-08-06",
+    "motivo_fin": "stop",
+    "tokens_salida": 219
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "gpt-4o-2024-08-06",
+    "motivo_fin": "stop",
+    "tokens_salida": 131,
+    "fecha_utc": "2026-10-01T01:41:38+00:00"
+  }
+}

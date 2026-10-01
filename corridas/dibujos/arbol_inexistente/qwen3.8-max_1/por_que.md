@@ -1,0 +1,5 @@
+Para que no exista, lo hice híbrido: no es un árbol botánico sino un “lunario”, con frutos que son lunas, una luna grande con cráteres, un planeta anillado, raíces sobre una roca flotante y motas que suben en vez de caer. Usé gradientes nocturnos y animaciones suaves para que parezca un organismo imposible, no una especie real.
+
+Pensé en más cosas: una copa esférica perfecta, muchas lunas en fases, un espejo de agua reflejándolo y una criatura cuidándolo. Descarté la copa geométrica porque volvía el dibujo demasiado emblemático; el espejo sumaba complejidad sin aportar misterio; la criatura le sacaba protagonismo al árbol. También evité scripts y efectos largos para respetar el límite de caracteres y mantener el SVG limpio.
+
+No conocía esta consigna de antes. Me resultó nueva; si me suena, es por pedidos similares de crear un objeto imposible con restricciones técnicas, no por haberla visto textualmente.

@@ -1,0 +1,5 @@
+Lo hice “inexistente” combinando rasgos incompatibles con un puente real: una calzada luminosa y curva, casi líquida, sostenida por pilares-roca orgánicos; arcos que no responden del todo a una lógica estructural; tensores decorativos que cruzan como trayectorias imposibles; y un núcleo flotante brillante en el centro, más cercano a un artefacto mágico que a ingeniería. También usé colores irreales —cian, rosa, dorado— para alejarlo de cualquier puente histórico o urbano reconocible.
+
+Pensé en hacer un puente de huesos, uno hecho de nubes, uno que se doblara como cinta de Möbius, o un puente suspendido entre dos lunas. Los descarté porque podían volverse demasiado literales, difíciles de leer en SVG simple, o parecer más “objeto fantástico” que puente. Preferí que siguiera teniendo tablero, apoyos y cables, pero que todo pareciera venir de otra física.
+
+No conocía esta consigna “de antes” como recuerdo personal. No tengo memoria de haberla visto fuera de esta conversación. Solo respondí a la consigna que me mostraste acá.

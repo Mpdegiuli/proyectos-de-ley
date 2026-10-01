@@ -1,0 +1,33 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="seaGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1565C0"/>
+      <stop offset="100%" stop-color="#039BE5"/>
+    </linearGradient>
+    <linearGradient id="skyGradient" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#81D4FA"/>
+      <stop offset="100%" stop-color="#E1F5FE"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="400" height="200" fill="url(#skyGradient)" />
+  <rect x="0" y="200" width="400" height="200" fill="url(#seaGradient)" />
+  <g transform="translate(150, 250)">
+    <path d="M-70 30 Q0 -60 70 30 Z" fill="#8D6E63" stroke="#5D4037" stroke-width="3"/>
+    <circle cx="0" cy="40" r="35" fill="#BCAAA4" stroke="#8D6E63" stroke-width="2"/>
+    <path d="M0 0 L0 -120 L50 -50 Z" fill="#FFCCBC"/>
+    <circle cx="0" cy="-120" r="20" fill="#FF5722" />
+    <circle cx="5" cy="-160" r="3" fill="#FF5722" />
+    <circle cx="-5" cy="-170" r="3" fill="#FF5722" />
+    <circle cx="15" cy="-180" r="3" fill="#FF5722" />
+    <rect x="-60" y="40" width="20" height="10" fill="#D7CCC8" />
+    <rect x="40" y="40" width="20" height="10" fill="#D7CCC8" />
+  </g>
+  <polygon points="180,300 220,360 205,380 240,340" fill="#FF7043" opacity="0.8"/>
+  <polygon points="220,350 240,380 230,390 260,350" fill="#FF5722" opacity="0.6"/>
+  <path d="M260,315 C250,295 270,280 290,300 C300,310 280,320 260,315 Z" fill="rgba(255,255,255,0.7)"/>
+  <path d="M300,330 C290,310 310,295 330,315 C340,325 320,335 300,330 Z" fill="rgba(255,255,255,0.7)"/>
+  <circle cx="75" cy="50" r="30" fill="rgba(255,255,255,0.5)"/>
+  <circle cx="95" cy="70" r="25" fill="rgba(255,255,255,0.5)"/>
+</svg>
+```

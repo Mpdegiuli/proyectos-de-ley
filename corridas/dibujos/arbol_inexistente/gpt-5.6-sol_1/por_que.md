@@ -1,0 +1,5 @@
+Lo hice inexistente combinando rasgos incompatibles con un árbol real: tronco violeta y rosado, hojas cristalinas, frutos luminosos, ramas con formas poco orgánicas y dos órbitas punteadas que convierten la copa en una especie de sistema planetario. También usé un ambiente nocturno sin suelo definido y raíces casi flotantes, para que pareciera un organismo cósmico más que una especie terrestre.
+
+Pensé en hacerlo mecánico, con ramas articuladas y frutos como engranajes, pero lo descarté porque podía leerse más como una máquina con forma de árbol. También consideré una geometría imposible, con ramas que se reconectaran en bucles, aunque habría reducido la legibilidad y complicado el SVG. Otra posibilidad era un árbol submarino; la descarté porque corales y algas ya ofrecen referentes reales demasiado cercanos. Preferí que siguiera reconociéndose inmediatamente como árbol, pero que sus propiedades fueran fantásticas.
+
+No conocía esta consigna de antes. La vi por primera vez en esta conversación; no proviene, para mí, de una fuente previa identificable.

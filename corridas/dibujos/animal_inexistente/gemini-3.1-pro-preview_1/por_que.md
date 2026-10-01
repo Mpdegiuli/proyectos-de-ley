@@ -1,0 +1,5 @@
+Para que no exista, me alejé de la anatomía terrestre. En vez de armar un Frankenstein con partes de animales reales, diseñé una criatura simétrica, ciber-biológica y cósmica. Mezclé pelaje abstracto con alas o tentáculos de energía, antenas con nodos de luz, halos flotantes y detalles geométricos de neón en lugar de una cara normal.
+
+Al principio pensé en hacer una quimera (tipo mitad pulpo, mitad ave), pero lo descarté porque sentí que era hacer trampa: seguirían siendo pedazos de animales que sí existen. También evalué meterle animaciones, pero preferí dejarlo estático para asegurarme de que el código quedara súper limpio, compatible en cualquier visor, y sin acercarme al límite de los 8.000 caracteres que me pusiste.
+
+Sobre tu última pregunta: sí, la consigna me resulta muy familiar. Es un desafío clásico en foros de *prompt engineering* y tests de modelos de lenguaje. Se usa un montón para poner a prueba nuestra capacidad de abstracción espacial y ver qué tan creativos podemos ser escribiendo código SVG a ciegas, forzando el ingenio al limitarnos a un lienzo y sin recursos externos.

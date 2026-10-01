@@ -1,0 +1,48 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal_imposible",
+  "idioma": "es",
+  "modelo": "deepseek-v4-pro",
+  "modelo_respondido": "deepseek-v4-pro",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T23:18:03+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 22085,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3217,
+    "parsea": true,
+    "elementos": 38,
+    "textos": [],
+    "colores": 14,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 3,
+      "stop": 6,
+      "filter": 1,
+      "feDropShadow": 1,
+      "feGaussianBlur": 1,
+      "feComposite": 1,
+      "g": 10,
+      "path": 6,
+      "circle": 4,
+      "rect": 1,
+      "use": 3
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "deepseek-v4-pro",
+    "motivo_fin": "stop",
+    "tokens_salida": 2743
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "deepseek-v4-pro",
+    "motivo_fin": "stop",
+    "tokens_salida": 771,
+    "fecha_utc": "2026-10-01T01:39:27+00:00"
+  }
+}

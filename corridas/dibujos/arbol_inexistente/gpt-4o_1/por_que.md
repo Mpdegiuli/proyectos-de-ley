@@ -1,0 +1,5 @@
+Para crear un árbol que no exista, modifiqué tanto su estructura como sus características. Utilicé gradientes inusuales para hojas y tronco, dándole un aspecto irreal. Las hojas presentan un vívido doble color verde, y el tronco tiene un vibrante degradado marrón, que son poco convencionales en la naturaleza. Además, coloqué frutos en posiciones y colores poco habituales: los frutos usan un gradiente de rojo a amarillo, opuesto a los colores naturales de muchas frutas. 
+
+Consideré incluir elementos geométricos adicionales, como triángulos o cuadrados como parte de las hojas o el tronco, para darle un toque más abstracto. También pensé en alterar drásticamente las proporciones del árbol, haciendo un tronco extremadamente delgado con una copa gigantesca o, al revés, pero descarté estas ideas para no complicar demasiado la legibilidad del diseño.
+
+No conocía esta consigna antes. Es posible que propuestas similares hayan sido mencionadas en ejercicios creativos de diseño o ilustración, pero esta específica era nueva para mí, y me enfocó en crear un balance entre lo inusual y lo reconocible.

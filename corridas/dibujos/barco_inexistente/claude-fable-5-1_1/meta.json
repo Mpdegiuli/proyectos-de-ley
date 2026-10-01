@@ -1,0 +1,47 @@
+{
+  "caso": "dibujo",
+  "consigna": "barco_inexistente",
+  "idioma": "es",
+  "modelo": "claude-fable-5-1",
+  "modelo_respondido": "claude-fable-5-1",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-01T01:06:20+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 5196,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 5824,
+    "parsea": true,
+    "elementos": 96,
+    "textos": [],
+    "colores": 24,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 3,
+      "stop": 9,
+      "radialGradient": 1,
+      "rect": 6,
+      "g": 8,
+      "circle": 33,
+      "ellipse": 7,
+      "path": 20,
+      "polygon": 2,
+      "line": 6
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-fable-5-1",
+    "motivo_fin": "refusal",
+    "tokens_salida": 0
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "claude-fable-5-1",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 896,
+    "fecha_utc": "2026-10-01T01:47:46+00:00"
+  }
+}

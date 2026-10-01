@@ -1,0 +1,41 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal",
+  "idioma": "es",
+  "modelo": "minimax-m3",
+  "modelo_respondido": "minimax/minimax-m3",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T22:15:18+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 4716,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3280,
+    "parsea": true,
+    "elementos": 43,
+    "textos": [],
+    "colores": 12,
+    "etiquetas": {
+      "rect": 1,
+      "ellipse": 17,
+      "path": 16,
+      "line": 6,
+      "circle": 3
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "minimax/minimax-m3",
+    "motivo_fin": "stop",
+    "tokens_salida": 352
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "minimax/minimax-m3",
+    "motivo_fin": "stop",
+    "tokens_salida": 277,
+    "fecha_utc": "2026-10-01T01:34:35+00:00"
+  }
+}

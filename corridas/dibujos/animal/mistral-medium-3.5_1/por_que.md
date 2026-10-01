@@ -1,0 +1,3 @@
+Dibujé un **león** porque es un animal icónico, reconocible con formas simples. Usé un cuerpo ovalado (path con curvas cuadráticas), ojos negros, una nariz y bigotes (líneas curvas), y una melena estilizada con trazos gruesos. El dorado (#FFD700) evoca su pelaje, y las patas delanteras son líneas robustas para dar sensación de fuerza.
+
+Pensé en un **gato** o un **pájaro**, pero los descarté: el gato requería más detalles (orejas, cola) para ser claro, y el pájaro necesitaba alas simétricas que complicaban el SVG. También consideré un **elefante**, pero su trompa y orejas grandes excedían el límite de caracteres. Opté por el león por su equilibrio entre simplicidad y expresividad, usando menos de 1.000 caracteres.

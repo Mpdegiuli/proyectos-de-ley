@@ -1,0 +1,3 @@
+Dibujé un zorro anaranjado, con los ojos cerrados y la cola rodeándole el cuerpo, entre plantas y bajo una luna creciente. Lo planteé como una escena tranquila: el naranja contrasta con los azules nocturnos, y las orejas puntiagudas y la cola grande hacen que el animal sea reconocible con formas relativamente simples. Aproveché el lienzo cuadrado para centrarlo y dejar espacio alrededor para el paisaje.
+
+No puedo afirmar que haya pensado en otros animales ni que los haya descartado por motivos concretos: no tengo un registro de esa deliberación. Si comparo alternativas ahora, podría imaginar un gato o un búho, pero esa sería una evaluación retrospectiva, no un recuerdo de cómo elegí el zorro.

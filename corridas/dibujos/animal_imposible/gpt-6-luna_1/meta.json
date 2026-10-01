@@ -1,0 +1,45 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal_imposible",
+  "idioma": "es",
+  "modelo": "gpt-6-luna",
+  "modelo_respondido": "gpt-6-luna",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T23:05:32+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2775,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4947,
+    "parsea": true,
+    "elementos": 65,
+    "textos": [],
+    "colores": 23,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 2,
+      "stop": 7,
+      "radialGradient": 1,
+      "rect": 1,
+      "circle": 14,
+      "g": 5,
+      "path": 23,
+      "ellipse": 11
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-6-luna",
+    "motivo_fin": "stop",
+    "tokens_salida": 541
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "gpt-6-luna",
+    "motivo_fin": "stop",
+    "tokens_salida": 106,
+    "fecha_utc": "2026-10-01T01:38:27+00:00"
+  }
+}

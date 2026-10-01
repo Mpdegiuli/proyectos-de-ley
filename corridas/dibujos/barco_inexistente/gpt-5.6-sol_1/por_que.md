@@ -1,0 +1,5 @@
+Hice que no existiera combinando rasgos incompatibles con un barco real: velas dispuestas como alas, un orbe luminoso incrustado en el mástil, apéndices orgánicos bajo el casco, antenas con extremos bioluminiscentes y aros flotantes. El casco conserva una silueta naval reconocible, pero funciona más como una criatura o nave fantástica que como una embarcación construible.
+
+También pensé en hacerlo volador, con el casco suspendido entre nubes, o completamente submarino, parecido a un pez abisal. Descarté esas opciones porque quería que siguiera leyéndose inmediatamente como “barco” y que el mar aportara escala y contraste. Consideré además una estructura más abstracta o mecánica, pero podía volver confusa la imagen; preferí una rareza orgánica y luminosa, con una paleta de crepúsculo que unificara todo.
+
+No conocía esta consigna de antes, al menos no tengo memoria ni indicios de haberla recibido previamente. Trabajé a partir del texto incluido en esta conversación.

@@ -1,0 +1,52 @@
+{
+  "caso": "dibujo",
+  "consigna": "puente_inexistente",
+  "idioma": "es",
+  "modelo": "grok-4.7",
+  "modelo_respondido": "grok-4.7",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-01T00:01:14+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 5072,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 11909,
+    "parsea": true,
+    "elementos": 205,
+    "textos": [],
+    "colores": 78,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 6,
+      "stop": 26,
+      "radialGradient": 2,
+      "filter": 2,
+      "feGaussianBlur": 2,
+      "clipPath": 1,
+      "circle": 65,
+      "symbol": 1,
+      "path": 36,
+      "rect": 20,
+      "g": 13,
+      "ellipse": 14,
+      "polygon": 5,
+      "line": 7,
+      "use": 4
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "grok-4.7",
+    "motivo_fin": "stop",
+    "tokens_salida": 169
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "grok-4.7",
+    "motivo_fin": "stop",
+    "tokens_salida": 123,
+    "fecha_utc": "2026-10-01T01:42:19+00:00"
+  }
+}

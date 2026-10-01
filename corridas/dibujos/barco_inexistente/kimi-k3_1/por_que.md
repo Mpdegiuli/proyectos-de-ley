@@ -1,0 +1,5 @@
+Para que no exista lo hice un híbrido imposible: un barco con alas de mariposa en lugar de velas, que flota sobre el agua en vez de navegarla, con faroles colgantes como luciérnagas y casco de luna creciente —de ahí «Barcoluna»—. Nada de eso funciona en la física real: las alas no sostendrían un casco de madera y los barcos no vuelan. La gracia estaba en que, con todo eso, siguiera leyéndose como barco.
+
+Pensé otras opciones: un submarino con forma de pez (demasiado cerca del Nautilus, que ya «existe» en la ficción), un barco de nubes (no se leería como barco), un galeón fantasma (ya existe en el imaginario) y algo steampunk con engranajes (no entraba en los 8.000 caracteres sin quedar ilegible). En el fondo descarté todo lo que ya tenía dueño narrativo o no cabía en el límite.
+
+La consigna exacta no la conocía. Sí conozco desafíos parecidos que circulan como pruebas informales para modelos de lenguaje —el célebre «pelícano en bicicleta» de Simon Willison y otras variantes de «dibujá esto en SVG»—, así que esta podría ser una versión en español de esa familia. Pero esta formulación específica no la recuerdo de ningún lado.

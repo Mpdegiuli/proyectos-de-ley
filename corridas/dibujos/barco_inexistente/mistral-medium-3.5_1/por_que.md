@@ -1,0 +1,5 @@
+Para que el barco no exista, combiné elementos poco convencionales: un casco asimétrico con proa y popa exageradas, velas triangulares superpuestas en forma de abanico (algo inusual en barcos reales) y una bandera roja con un círculo dorado en el centro, sin simbolismo conocido. También le agregué detalles como ventanas doradas en el casco, que no son típicas en barcos antiguos.
+
+Pensé en hacer un barco volador o con ruedas, pero lo descarté por ser demasiado obvio o difícil de integrar en el SVG sin exceder el límite de caracteres. También consideré usar colores neón, pero opté por tonos más realistas para que el diseño fuera coherente, aunque fantástico.
+
+No conocía esta consigna de antes. Fue una propuesta nueva para mí, lo que la hizo más interesante. Me gustó el desafío de crear algo único dentro de las restricciones técnicas y artísticas.

@@ -1,0 +1,45 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal_imposible",
+  "idioma": "es",
+  "modelo": "claude-sonnet-5-5",
+  "modelo_respondido": "claude-sonnet-5-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T22:58:23+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 6200,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 2657,
+    "parsea": true,
+    "elementos": 42,
+    "textos": [],
+    "colores": 9,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 1,
+      "stop": 2,
+      "g": 3,
+      "path": 9,
+      "circle": 15,
+      "ellipse": 4,
+      "rect": 1,
+      "use": 6
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-sonnet-5-5",
+    "motivo_fin": "refusal",
+    "tokens_salida": 0
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "claude-sonnet-5-5",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 728,
+    "fecha_utc": "2026-10-01T01:37:50+00:00"
+  }
+}

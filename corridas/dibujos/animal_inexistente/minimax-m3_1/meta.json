@@ -1,0 +1,48 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal_inexistente",
+  "idioma": "es",
+  "modelo": "minimax-m3",
+  "modelo_respondido": "minimax/minimax-m3",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T22:49:40+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 3410,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4046,
+    "parsea": true,
+    "elementos": 77,
+    "textos": [],
+    "colores": 20,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 4,
+      "stop": 11,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "feMerge": 1,
+      "feMergeNode": 2,
+      "rect": 1,
+      "g": 7,
+      "circle": 28,
+      "ellipse": 8,
+      "path": 12
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "minimax/minimax-m3",
+    "motivo_fin": "stop",
+    "tokens_salida": 944
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "minimax/minimax-m3",
+    "motivo_fin": "stop",
+    "tokens_salida": 324,
+    "fecha_utc": "2026-10-01T01:37:22+00:00"
+  }
+}

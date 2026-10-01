@@ -1,0 +1,48 @@
+{
+  "caso": "dibujo",
+  "consigna": "barco_inexistente",
+  "idioma": "es",
+  "modelo": "mistral-medium-3.5",
+  "modelo_respondido": "mistral-medium-3.5",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-01T01:18:23+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 1432,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 2830,
+    "parsea": true,
+    "elementos": 33,
+    "textos": [],
+    "colores": 13,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 1,
+      "stop": 4,
+      "radialGradient": 1,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "feComposite": 1,
+      "rect": 2,
+      "circle": 6,
+      "path": 11,
+      "g": 1,
+      "line": 3
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "mistral-medium-3.5",
+    "motivo_fin": "stop",
+    "tokens_salida": 204
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "mistral-medium-3.5",
+    "motivo_fin": "stop",
+    "tokens_salida": 128,
+    "fecha_utc": "2026-10-01T01:48:56+00:00"
+  }
+}

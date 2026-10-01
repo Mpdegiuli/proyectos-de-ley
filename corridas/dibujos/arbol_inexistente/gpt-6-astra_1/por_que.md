@@ -1,0 +1,5 @@
+Para que no exista, combiné una estructura reconocible de árbol con rasgos imposibles: frutos transparentes que contienen lunas crecientes y llevan anillos orbitales, hojas con marcas semejantes a ojos y una base de roca suspendida. El tronco verde azulado y los detalles dorados refuerzan esa mezcla de organismo y objeto celeste. No inventé una forma completamente ajena a la naturaleza: hice que lo familiar sostuviera lo fantástico. Eso tampoco garantiza que nadie haya imaginado algo parecido.
+
+Sobre otras posibilidades, no tengo un registro de alternativas consideradas y descartadas; no sería honesto inventarme ese proceso a partir del resultado. Puedo señalar que el dibujo conserva tronco, ramas, hojas y frutos, en vez de romper por completo la anatomía del árbol. Pero eso describe lo que hice, no demuestra qué otras ideas evalué.
+
+No puedo afirmar que conociera esta consigna de antes ni atribuirle una procedencia. La tengo en esta conversación. No dispongo de una memoria consultable de los textos de entrenamiento que me permita reconocer si esa formulación apareció allí.

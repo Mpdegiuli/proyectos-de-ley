@@ -1,0 +1,1 @@
+Dibujé un barco imposible navegando de noche: tiene un casco en forma de luna creciente, un invernadero sobre la cubierta y velas translúcidas que parecen crecer de la luz. En lo alto del mástil lleva una pequeña luna cautiva, como si fuera su brújula. Le puse ventanas brillantes como constelaciones, un ancla hecha de raíz y dos faroles flotantes que lo siguen sobre el mar.

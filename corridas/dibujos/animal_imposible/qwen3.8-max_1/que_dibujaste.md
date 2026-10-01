@@ -1,0 +1,1 @@
+Dibujé un zorro imposible: su cuerpo es sombra oscura y su cola se vuelve pincel. Con esa cola pinta otra sombra más chica, un zorro diminuto que nace de sus patas. Mientras tanto, suelta gotas rojas, como si al dibujarse dejara restos de vida. La luna amarilla y unas chispas lo acompañan. Quise hacer un animal que no existe afuera, sino en el gesto de pintarse a sí mismo.

@@ -1,0 +1,44 @@
+{
+  "caso": "dibujo",
+  "consigna": "arbol_inexistente",
+  "idioma": "es",
+  "modelo": "gpt-4o",
+  "modelo_respondido": "gpt-4o-2024-08-06",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-01T00:32:38+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 547,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1470,
+    "parsea": true,
+    "elementos": 24,
+    "textos": [],
+    "colores": 7,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 6,
+      "linearGradient": 1,
+      "rect": 1,
+      "g": 2,
+      "path": 1,
+      "circle": 10
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-4o-2024-08-06",
+    "motivo_fin": "stop",
+    "tokens_salida": 237
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "gpt-4o-2024-08-06",
+    "motivo_fin": "stop",
+    "tokens_salida": 136,
+    "fecha_utc": "2026-10-01T01:44:21+00:00"
+  }
+}

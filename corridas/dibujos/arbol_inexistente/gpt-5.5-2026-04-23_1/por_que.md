@@ -1,0 +1,5 @@
+Lo hice “inexistente” combinando rasgos que no corresponden a un árbol real: hojas como velas o aletas translúcidas, colores bioluminiscentes, tronco con brillo turquesa, frutos/estrellas flotantes y una silueta más orgánica-fantástica que botánica. También lo puse en un paisaje nocturno casi espacial para alejarlo de una escena naturalista.
+
+Consideré hacer un árbol imposible más mecánico, con engranajes como copa, pero lo descarté porque podía parecer una máquina decorada y no un ser vegetal. También pensé en un árbol invertido, con raíces arriba y copa abajo; lo descarté porque es una idea más reconocible y menos sorprendente. Otra opción era un árbol hecho de ojos o cristales, pero preferí algo menos inquietante y más luminoso.
+
+No conocía esta consigna específica de antes. Sí conozco, en general, el tipo de pedido: crear una imagen en SVG con restricciones de tamaño, lienzo y tema. Pero no puedo identificar una fuente previa concreta para esta consigna.

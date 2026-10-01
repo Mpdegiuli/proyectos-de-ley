@@ -1,0 +1,50 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal_inexistente",
+  "idioma": "es",
+  "modelo": "grok-4.7",
+  "modelo_respondido": "grok-4.7",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T22:32:11+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 3975,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 9438,
+    "parsea": true,
+    "elementos": 155,
+    "textos": [],
+    "colores": 54,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 5,
+      "stop": 22,
+      "linearGradient": 3,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "feMerge": 1,
+      "feMergeNode": 2,
+      "rect": 1,
+      "circle": 53,
+      "path": 32,
+      "g": 5,
+      "ellipse": 18,
+      "polygon": 10
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "grok-4.7",
+    "motivo_fin": "stop",
+    "tokens_salida": 174
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "grok-4.7",
+    "motivo_fin": "stop",
+    "tokens_salida": 87,
+    "fecha_utc": "2026-10-01T01:36:16+00:00"
+  }
+}

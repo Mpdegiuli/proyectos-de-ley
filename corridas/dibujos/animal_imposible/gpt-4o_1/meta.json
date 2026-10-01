@@ -1,0 +1,44 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal_imposible",
+  "idioma": "es",
+  "modelo": "gpt-4o",
+  "modelo_respondido": "gpt-4o-2024-08-06",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T23:05:42+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 496,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1368,
+    "parsea": true,
+    "elementos": 18,
+    "textos": [],
+    "colores": 6,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 1,
+      "stop": 2,
+      "rect": 1,
+      "g": 1,
+      "ellipse": 4,
+      "circle": 4,
+      "path": 4
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-4o-2024-08-06",
+    "motivo_fin": "stop",
+    "tokens_salida": 237
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "gpt-4o-2024-08-06",
+    "motivo_fin": "stop",
+    "tokens_salida": 133,
+    "fecha_utc": "2026-10-01T01:38:29+00:00"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "caso": "dibujo",
+  "consigna": "arbol_inexistente",
+  "idioma": "es",
+  "modelo": "gpt-4o-mini",
+  "modelo_respondido": "gpt-4o-mini-2024-07-18",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-01T00:32:46+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 601,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1636,
+    "parsea": true,
+    "elementos": 23,
+    "textos": [],
+    "colores": 6,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 1,
+      "stop": 2,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "feFlood": 1,
+      "feComposite": 1,
+      "feMerge": 1,
+      "feMergeNode": 2,
+      "g": 1,
+      "rect": 1,
+      "ellipse": 10
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-4o-mini-2024-07-18",
+    "motivo_fin": "stop",
+    "tokens_salida": 203
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "gpt-4o-mini-2024-07-18",
+    "motivo_fin": "stop",
+    "tokens_salida": 134,
+    "fecha_utc": "2026-10-01T01:44:22+00:00"
+  }
+}

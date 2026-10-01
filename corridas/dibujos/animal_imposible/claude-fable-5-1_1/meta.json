@@ -1,0 +1,42 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal_imposible",
+  "idioma": "es",
+  "modelo": "claude-fable-5-1",
+  "modelo_respondido": "claude-fable-5-1",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T23:01:13+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 8876,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 2855,
+    "parsea": true,
+    "elementos": 41,
+    "textos": [],
+    "colores": 9,
+    "etiquetas": {
+      "rect": 1,
+      "ellipse": 16,
+      "g": 6,
+      "path": 12,
+      "polygon": 3,
+      "circle": 3
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-fable-5-1",
+    "motivo_fin": "refusal",
+    "tokens_salida": 0
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "claude-fable-5-1",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 418,
+    "fecha_utc": "2026-10-01T01:38:07+00:00"
+  }
+}

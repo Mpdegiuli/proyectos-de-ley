@@ -1,0 +1,5 @@
+Lo hice inexistente combinando rasgos incompatibles en una sola criatura: cuerpo de mamífero, cuatro patas, alas translúcidas con aspecto de insecto, cola prensil, tres ojos, orejas puntiagudas y antenas ramificadas luminosas. Además, usé una paleta fantástica y manchas decorativas para alejarlo de cualquier especie reconocible. No inventé cada rasgo por separado, sino la anatomía resultante y su combinación.
+
+Consideré hacerlo acuático, con aletas, cuerpo serpentino y bioluminiscencia, o más híbrido todavía, con caparazón y patas desiguales. También pensé en una criatura mecánico-orgánica. Descarté esas opciones porque podían volver la silueta confusa, parecerse demasiado a un dragón o exigir más detalles de los convenientes para el límite de 8.000 caracteres. Preferí una figura simpática, legible y centrada.
+
+No conocía esta consigna exacta de antes ni la tomé de una fuente concreta. Sí conocía este tipo de ejercicio abierto —inventar una criatura bajo restricciones técnicas— porque es común en desafíos de dibujo, diseño generativo y creación de SVG.

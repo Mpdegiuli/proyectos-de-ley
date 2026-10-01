@@ -1,0 +1,46 @@
+{
+  "caso": "dibujo",
+  "consigna": "puente_inexistente",
+  "idioma": "es",
+  "modelo": "minimax-m3",
+  "modelo_respondido": "minimax/minimax-m3",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-01T00:22:54+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 7374,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 5105,
+    "parsea": true,
+    "elementos": 89,
+    "textos": [],
+    "colores": 22,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 3,
+      "stop": 15,
+      "radialGradient": 2,
+      "rect": 2,
+      "g": 3,
+      "circle": 43,
+      "polygon": 3,
+      "path": 15,
+      "ellipse": 2
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "minimax/minimax-m3",
+    "motivo_fin": "stop",
+    "tokens_salida": 882
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "minimax/minimax-m3",
+    "motivo_fin": "stop",
+    "tokens_salida": 186,
+    "fecha_utc": "2026-10-01T01:43:21+00:00"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal",
+  "idioma": "es",
+  "modelo": "gpt-5.5-2026-04-23",
+  "modelo_respondido": "gpt-5.5-2026-04-23",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T21:52:57+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 1680,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3410,
+    "parsea": true,
+    "elementos": 43,
+    "textos": [],
+    "colores": 19,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 1,
+      "stop": 6,
+      "linearGradient": 2,
+      "rect": 1,
+      "ellipse": 3,
+      "path": 25,
+      "circle": 4
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "motivo_fin": "stop",
+    "tokens_salida": 237
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "motivo_fin": "stop",
+    "tokens_salida": 147,
+    "fecha_utc": "2026-10-01T01:33:12+00:00"
+  }
+}

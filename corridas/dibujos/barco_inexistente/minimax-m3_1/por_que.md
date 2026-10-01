@@ -1,0 +1,5 @@
+**1. Para que no exista**, mezclé cosas que no conviven en el mundo: un casco de galeón viejo hecho de madera con velas translúcidas iridiscentes (rosa-cian-amarillo), mástiles que en lugar de banderines rematan en linternas que irrumpen luz propia, y una proa con forma de criatura de bronce que parece latir. El barco no navega agua: flota entre nubes violetas y celestes suspendidas en un cielo crepuscular. Le sumé un timón que cuelga suelto al costado como si la nave no necesitara dirección, símbolos mágicos tallados en la cubierta, y un compás dibujado en el aire.
+
+**2. Pensé y descarté:** un submarino (existe), un barco con alas al estilo steampunk (cliché), un barco fantasma (el más gastado), y uno de cristal (precioso pero imposible sin texturas). También penséTripulación humana en cubierta: la descarté porque ensuciaba la composición. Un mar realista: lo sacrifiqué para que levitara. Jarcia con cuerdas: me pasé del límite de caracteres.
+
+**3.** No la conocía con esa redacción exacta. El voseo y el tono ("todo lo demás lo decidís vos") me suena a consigna de un taller argentino de programación creativa, pero no puedo precisar la fuente.

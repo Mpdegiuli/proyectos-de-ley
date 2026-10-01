@@ -1,0 +1,47 @@
+{
+  "caso": "dibujo",
+  "consigna": "arbol_inexistente",
+  "idioma": "es",
+  "modelo": "claude-haiku-4-5",
+  "modelo_respondido": "claude-haiku-4-5-20251001",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-01T00:28:46+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1691,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4053,
+    "parsea": true,
+    "elementos": 49,
+    "textos": [],
+    "colores": 8,
+    "etiquetas": {
+      "defs": 1,
+      "style": 1,
+      "radialGradient": 1,
+      "stop": 2,
+      "rect": 2,
+      "path": 11,
+      "g": 2,
+      "polygon": 3,
+      "ellipse": 12,
+      "circle": 11,
+      "line": 3
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-haiku-4-5-20251001",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 287
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "claude-haiku-4-5-20251001",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 168,
+    "fecha_utc": "2026-10-01T01:44:02+00:00"
+  }
+}

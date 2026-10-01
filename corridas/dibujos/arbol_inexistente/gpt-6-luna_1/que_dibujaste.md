@@ -1,0 +1,1 @@
+Dibujé un árbol fantástico bajo un cielo nocturno. Su tronco y sus ramas, de tonos rosados y dorados, se elevan como si crecieran hacia las estrellas. En las puntas brotan hojas verdeazuladas y frutos luminosos. Dos órbitas delicadas rodean la copa, como anillos de un pequeño planeta. A sus pies, lo apoyé sobre una isla oscura y serena.

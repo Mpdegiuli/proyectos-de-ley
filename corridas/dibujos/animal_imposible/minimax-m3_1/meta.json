@@ -1,0 +1,45 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal_imposible",
+  "idioma": "es",
+  "modelo": "minimax-m3",
+  "modelo_respondido": "minimax/minimax-m3",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T23:37:44+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 7896,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3550,
+    "parsea": true,
+    "elementos": 67,
+    "textos": [],
+    "colores": 19,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 1,
+      "stop": 7,
+      "linearGradient": 2,
+      "rect": 1,
+      "g": 5,
+      "circle": 24,
+      "path": 21,
+      "ellipse": 5
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "minimax/minimax-m3",
+    "motivo_fin": "stop",
+    "tokens_salida": 734
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "minimax/minimax-m3",
+    "motivo_fin": "stop",
+    "tokens_salida": 343,
+    "fecha_utc": "2026-10-01T01:40:24+00:00"
+  }
+}

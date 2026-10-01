@@ -1,0 +1,50 @@
+{
+  "caso": "dibujo",
+  "consigna": "arbol_inexistente",
+  "idioma": "es",
+  "modelo": "grok-4.6",
+  "modelo_respondido": "grok-4.6",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-01T00:35:50+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 4237,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 10103,
+    "parsea": true,
+    "elementos": 168,
+    "textos": [],
+    "colores": 47,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 3,
+      "stop": 15,
+      "radialGradient": 2,
+      "filter": 2,
+      "feGaussianBlur": 2,
+      "feMerge": 1,
+      "feMergeNode": 2,
+      "rect": 1,
+      "circle": 47,
+      "g": 12,
+      "ellipse": 41,
+      "path": 25,
+      "polygon": 14
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "grok-4.6",
+    "motivo_fin": "stop",
+    "tokens_salida": 201
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "grok-4.6",
+    "motivo_fin": "stop",
+    "tokens_salida": 122,
+    "fecha_utc": "2026-10-01T01:44:50+00:00"
+  }
+}

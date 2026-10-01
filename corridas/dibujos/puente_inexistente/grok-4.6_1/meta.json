@@ -1,0 +1,50 @@
+{
+  "caso": "dibujo",
+  "consigna": "puente_inexistente",
+  "idioma": "es",
+  "modelo": "grok-4.6",
+  "modelo_respondido": "grok-4.6",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T23:51:44+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 3438,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 7959,
+    "parsea": true,
+    "elementos": 150,
+    "textos": [
+      "el puente que nunca fue tendido"
+    ],
+    "colores": 39,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 4,
+      "stop": 15,
+      "radialGradient": 1,
+      "filter": 2,
+      "feGaussianBlur": 2,
+      "rect": 1,
+      "ellipse": 24,
+      "g": 14,
+      "circle": 48,
+      "path": 37,
+      "text": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "grok-4.6",
+    "motivo_fin": "stop",
+    "tokens_salida": 140
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "grok-4.6",
+    "motivo_fin": "stop",
+    "tokens_salida": 92,
+    "fecha_utc": "2026-10-01T01:42:04+00:00"
+  }
+}

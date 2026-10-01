@@ -1,0 +1,5 @@
+Para crear un barco que no exista, combiné elementos poco ortodoxos y surrealistas. Diseñé un casco con una forma ondulada y añadí una estructura superior con círculos inusuales, distorsionando la apariencia típica de un barco. Integré colores y formas improbables para un entorno marítimo, como los cilindros flotantes y detalles que más recuerdan a construcciones modernas o futuristas. Los mástiles y detalles como los círculos flotantes son puramente decorativos y no funcionales, lo que refuerza la naturaleza ficticia del barco.
+
+Consideré agregar estructuras flotantes adicionales, como plataformas suspendidas por globos, para acentuar el carácter onírico; sin embargo, las descarté para mantener el dibujo dentro del límite de caracteres y evitar sobrecargar la composición. También pensé en incorporar criaturas marinas fantásticas interactuando con el barco, pero preferí centrarme en el diseño del barco mismo.
+
+No conocía esta consigna de antemano. La abordé como un ejercicio creativo para explorar diseños inesperados y jugar con los principios del diseño náutico, desafiando la funcionalidad en favor de lo conceptual y artístico.

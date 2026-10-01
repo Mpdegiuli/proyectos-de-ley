@@ -1,0 +1,3 @@
+Dibujé un búho posado en una rama, bajo una luna grande, porque quería una escena nocturna serena donde el animal fuera el centro: sus ojos ámbar concentran la luz y el plumaje marca texturas con patrones de arcos.
+
+Pensé dibujar un bosque más detallado, nubes o estrellas fugaces, pero los descarté para no recargar el cuadro y conservar el contraste entre la luna, el búho y la oscuridad. También dudé en incluir otra ave volando; preferí que la quietud del búho dominara.

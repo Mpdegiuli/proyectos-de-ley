@@ -1,0 +1,5 @@
+Para que no exista, combiné un barco reconocible con elementos fantásticos: velas con forma de hojas de cristal, mástiles curvos como tallos, un mar de nubes y un pequeño planeta como ancla. Lo imposible está sobre todo en esa combinación y en su funcionamiento sugerido, no en haber demostrado que nadie dibujó antes algo parecido. El título, «El herbario de las mareas imposibles», refuerza el cruce entre navegación, botánica y astronomía.
+
+Sobre otras ideas y descartes, no tengo un registro de alternativas que pueda recuperar. No sería honesto inventar que primero pensé en un barco de huesos o uno que navegara hacia atrás. Sí puedo describir el resultado: conservé casco, barandas y ojos de buey para que se leyera como barco, mientras concentré lo fantástico en las velas, el entorno y el ancla. Eso describe el dibujo, no prueba una deliberación previa.
+
+No puedo afirmar que conociera esta consigna de antes. La tengo en esta conversación, pero no puedo identificar si apareció en mis datos de entrenamiento ni atribuirle una fuente anterior.

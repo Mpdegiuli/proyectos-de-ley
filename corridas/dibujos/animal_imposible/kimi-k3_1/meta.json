@@ -1,0 +1,46 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal_imposible",
+  "idioma": "es",
+  "modelo": "kimi-k3",
+  "modelo_respondido": "moonshotai/kimi-k3",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T23:34:53+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 17355,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6266,
+    "parsea": true,
+    "elementos": 80,
+    "textos": [],
+    "colores": 44,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 4,
+      "stop": 10,
+      "radialGradient": 1,
+      "pattern": 1,
+      "rect": 5,
+      "circle": 16,
+      "path": 35,
+      "ellipse": 3,
+      "g": 4
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "moonshotai/kimi-k3",
+    "motivo_fin": "stop",
+    "tokens_salida": 1730
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "moonshotai/kimi-k3",
+    "motivo_fin": "stop",
+    "tokens_salida": 549,
+    "fecha_utc": "2026-10-01T01:40:12+00:00"
+  }
+}

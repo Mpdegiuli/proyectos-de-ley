@@ -1,0 +1,1 @@
+Dibujé un animal que no existe: un ser nocturno de pelaje lila, panza crema y cuatro patas con almohadillas rosadas. Tiene orejas grandes, cuernos de cristal, alas iridiscentes y un tercer ojo que brilla en la frente. Flota junto a una esfera luminosa, bajo una luna, auroras y estrellas, entre púas de hielo.

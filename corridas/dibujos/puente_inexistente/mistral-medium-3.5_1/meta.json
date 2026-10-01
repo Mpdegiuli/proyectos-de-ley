@@ -1,0 +1,44 @@
+{
+  "caso": "dibujo",
+  "consigna": "puente_inexistente",
+  "idioma": "es",
+  "modelo": "mistral-medium-3.5",
+  "modelo_respondido": "mistral-medium-3.5",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-01T00:01:49+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 732,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1495,
+    "parsea": true,
+    "elementos": 20,
+    "textos": [],
+    "colores": 8,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 2,
+      "stop": 4,
+      "filter": 1,
+      "feDropShadow": 1,
+      "rect": 2,
+      "path": 5,
+      "circle": 4
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "mistral-medium-3.5",
+    "motivo_fin": "stop",
+    "tokens_salida": 195
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "mistral-medium-3.5",
+    "motivo_fin": "stop",
+    "tokens_salida": 99,
+    "fecha_utc": "2026-10-01T01:42:20+00:00"
+  }
+}

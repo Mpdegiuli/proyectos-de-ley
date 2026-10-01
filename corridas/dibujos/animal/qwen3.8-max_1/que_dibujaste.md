@@ -1,0 +1,1 @@
+Dibujé un búho de plumas cálidas posado sobre una rama, bajo una noche azulada. Su cara clara enmarca dos ojos ámbar con brillos, y el pecho tiene un patrón de plumas suaves. Detrás, una luna llena ilumina el cielo con estrellas y pequeñas luciérnagas. Quise que transmitiera calma, misterio y compañía nocturna.

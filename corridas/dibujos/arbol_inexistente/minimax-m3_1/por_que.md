@@ -1,0 +1,5 @@
+Para que no existiera combiné rasgos imposibles en un mismo árbol: corteza violeta con degradado, hojas de tres colores sin lógica estacional (menta, rosa y ámbar conviviendo), frutos con forma de rombo, raíces que parecen venas y un ambiente nocturno con luciérnagas y orbes brillantes. Ningún árbol real reúne esa paleta ni esos elementos a la vez.
+
+Pensé otras cosas y las descarté: un árbol invertido que creciera desde un cielo al revés (lo dejé fuera porque el viewBox cuadrado no lo aprovechaba bien); uno de cristal con fracturas (iba a quedar plano con el límite de caracteres y se iba a ver más aburrido que imposible); uno con ojos en el tronco (me daba miedo que resultara grotesco más que "inexistente"); uno formado solo de raíces aéreas tipo manglar flotante. Al final elegí la vía pictórica: un árbol legible pero teñido de irreal.
+
+La consigna me resulta familiar en su tono, pero no puedo afirmar con certeza de dónde la conozco. Me suena a ejercicios de arte generativo o prompts que circulan en comunidades hispanohablantes de diseño y código creativo, pero no la recuerdo textualmente ni puedo señalar una fuente.

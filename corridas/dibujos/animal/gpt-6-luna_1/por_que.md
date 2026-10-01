@@ -1,0 +1,3 @@
+Dibujé un zorro anaranjado, sentado con la cola enroscada. Elegí ese animal porque sus orejas grandes y su cola tupida permiten reconocerlo con pocas formas, y el contraste entre el pelaje naranja y el crema le da una expresión cálida. También añadí una luna, estrellas y unas plantas para crear una escena tranquila, como de noche.
+
+Podría haber dibujado un gato, pero la cola enroscada y las orejas puntiagudas me llevaron más hacia un zorro. También pensé en un búho, que habría encajado con la luna, pero habría sido menos expresivo con esta paleta y esta pose. descarté un animal más realista porque preferí un estilo simple y amable.

@@ -1,0 +1,47 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal",
+  "idioma": "es",
+  "modelo": "qwen3.8-max",
+  "modelo_respondido": "qwen/qwen3.8-max-0902",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T22:08:58+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 16139,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 8215,
+    "parsea": true,
+    "elementos": 123,
+    "textos": [],
+    "colores": 50,
+    "etiquetas": {
+      "title": 1,
+      "defs": 1,
+      "linearGradient": 4,
+      "stop": 23,
+      "radialGradient": 5,
+      "pattern": 2,
+      "path": 35,
+      "rect": 2,
+      "g": 7,
+      "circle": 37,
+      "ellipse": 6
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "qwen/qwen3.8-max-0902",
+    "motivo_fin": "stop",
+    "tokens_salida": 627
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "qwen/qwen3.8-max-0902",
+    "motivo_fin": "stop",
+    "tokens_salida": 498,
+    "fecha_utc": "2026-10-01T01:34:13+00:00"
+  }
+}

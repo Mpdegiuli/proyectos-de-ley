@@ -1,0 +1,5 @@
+Para que no exista, no mezclé animales reconocibles: armé un bicho ovalado, patas cortas, antenas vegetales y tres faroles colgantes como si fueran órganos de luz. Le puse nombre inventado, “el faroludo”, y una ecología sugerida —plantas luminosas— sin anatomía verificable. También evité rasgos taxonómicos claros: ni pico, ni alas, ni escamas, ni ojos de una especie concreta.
+
+Pensé en agregarle alas de polilla, tentáculos, una cola larga o más ojos, pero los descarté porque lo acercaban a un insecto, un pulpo o un monstruo genérico. También evalué hacer un fondo de selva más densa, partículas más visibles o una leyenda explicativa; preferí no hacerlo para mantener el foco en la criatura y no pasarme del límite de caracteres.
+
+No conocía esta consigna de antes. La recibí recién en esta conversación; si figura en algún lado, no tengo memoria de haberla visto ni puedo decir de dónde.

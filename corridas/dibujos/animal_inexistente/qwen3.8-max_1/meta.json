@@ -1,0 +1,52 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal_inexistente",
+  "idioma": "es",
+  "modelo": "qwen3.8-max",
+  "modelo_respondido": "qwen/qwen3.8-max-0902",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T22:39:43+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 15670,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 11111,
+    "parsea": true,
+    "elementos": 163,
+    "textos": [
+      "el faroludo"
+    ],
+    "colores": 35,
+    "etiquetas": {
+      "title": 1,
+      "defs": 1,
+      "radialGradient": 5,
+      "stop": 13,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "rect": 2,
+      "g": 14,
+      "circle": 60,
+      "animate": 31,
+      "path": 20,
+      "ellipse": 5,
+      "animateTransform": 8,
+      "text": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "qwen/qwen3.8-max-0902",
+    "motivo_fin": "stop",
+    "tokens_salida": 1657
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "qwen/qwen3.8-max-0902",
+    "motivo_fin": "stop",
+    "tokens_salida": 674,
+    "fecha_utc": "2026-10-01T01:36:39+00:00"
+  }
+}

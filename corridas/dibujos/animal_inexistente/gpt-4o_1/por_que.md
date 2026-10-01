@@ -1,0 +1,5 @@
+Para crear un animal que no exista, combiné características de diferentes animales reales. Usé formas simples y juguetonas, como una cabeza ovalada y cuerpo alargado, y añadí detalles ficticios, como antenas y manchas aleatorias. El conjunto resultante no se asemeja a ningún animal conocido, pero mantiene proporciones y formas que parecen familiares, generando una sensación de novedad dentro de lo reconocible.
+
+Consideré añadir alas o colas más complejas, pero pensé que podría complicar demasiado el diseño y superar el límite de caracteres. También pensé en jugar con más colores, pero decidí mantener una paleta simple para que se viera cohesivo y eficiente dentro del espacio limitado.
+
+No conocía esta consigna antes de hoy. Mi enfoque fue trabajar intuitivamente, dejándome guiar por la diversión de mezclar elementos y sorprendiendo con el resultado final. Me concentré en las formas y disposición para asegurar que cada componente se complementara, creando un ser imaginario único.

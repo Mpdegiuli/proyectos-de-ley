@@ -1,0 +1,5 @@
+Para que no exista jugué con la estructura: en vez de torres rectas convencionales, hice torres en espiral (esas curvas tipo sacacorchos con esferas doradas arriba), y el tablero no es recto sino una cinta ondulada que sube y baja, casi como un listón torcido. Ninguna combinación así funcionaría estructuralmente, pero visualmente evoca un puente colgante al atardecer.
+
+Pensé también en hacer un puente flotante sin torres, sostenido solo por globos o nubes, pero lo descarté porque se alejaba demasiado del lenguaje reconocible de "puente" y quería que se leyera como tal a primera vista, aunque fuera imposible. También consideré un puente circular (un aro completo), pero con el viewBox cuadrado y querer mantener agua, cielo y reflejos, no entraba bien la composición.
+
+No conocía esta consigna de antes. La aborde como un ejercicio fresco, pensando en qué elemento típico de un puente (torres, cables, tablero) podía distorsionar sin que dejara de ser identificable como puente, y ahí llegué a las espirales y la cinta ondulada.

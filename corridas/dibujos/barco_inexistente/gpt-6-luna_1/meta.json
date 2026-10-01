@@ -1,0 +1,43 @@
+{
+  "caso": "dibujo",
+  "consigna": "barco_inexistente",
+  "idioma": "es",
+  "modelo": "gpt-6-luna",
+  "modelo_respondido": "gpt-6-luna",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-01T01:09:57+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 1907,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3367,
+    "parsea": true,
+    "elementos": 57,
+    "textos": [],
+    "colores": 33,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 3,
+      "stop": 10,
+      "radialGradient": 1,
+      "path": 26,
+      "circle": 14,
+      "g": 2
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-6-luna",
+    "motivo_fin": "stop",
+    "tokens_salida": 377
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "gpt-6-luna",
+    "motivo_fin": "stop",
+    "tokens_salida": 107,
+    "fecha_utc": "2026-10-01T01:48:07+00:00"
+  }
+}

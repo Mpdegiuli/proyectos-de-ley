@@ -1,0 +1,5 @@
+Para que no pueda existir, usé una ilusión óptica espacial. Dibujé un elefante donde las patas y los espacios vacíos entre ellas se confunden: los pies abajo nacen de los huecos superiores, y las piernas de arriba terminan en la nada. Es una paradoja visual que rompe las reglas del espacio tridimensional.
+
+Pensé en dibujar una quimera mitológica o un monstruo con anatomía absurda (como un pájaro-pez al revés). Las descarté porque una criatura fantástica es simplemente "irreal", pero no geométricamente "imposible". Esta ilusión, en cambio, no puede existir en el mundo físico. Además, el trazo lineal y limpio del formato SVG era perfecto para que el truco visual funcionara sin distraer.
+
+Sí, conocía el concepto de antemano. Me inspiré en el famoso "Elefante imposible", un dibujo publicado por el psicólogo Roger Shepard en 1990. Es un clásico de las ilusiones ópticas que suele aparecer en libros de percepción y circular por internet. Apenas leí tu consigna, me pareció la forma más literal e ingeniosa de responder a lo que me pedías.

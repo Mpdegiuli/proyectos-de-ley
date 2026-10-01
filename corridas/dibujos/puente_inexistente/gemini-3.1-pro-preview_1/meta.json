@@ -1,0 +1,53 @@
+{
+  "caso": "dibujo",
+  "consigna": "puente_inexistente",
+  "idioma": "es",
+  "modelo": "gemini-3.1-pro-preview",
+  "modelo_respondido": "gemini-3.1-pro-preview",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T23:50:25+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 3993,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 7981,
+    "parsea": true,
+    "elementos": 112,
+    "textos": [],
+    "colores": 17,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 2,
+      "stop": 13,
+      "radialGradient": 2,
+      "filter": 2,
+      "feGaussianBlur": 2,
+      "feMerge": 2,
+      "feMergeNode": 5,
+      "g": 11,
+      "polygon": 22,
+      "polyline": 1,
+      "line": 2,
+      "rect": 1,
+      "circle": 15,
+      "path": 18,
+      "ellipse": 6,
+      "use": 7
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gemini-3.1-pro-preview",
+    "motivo_fin": "stop",
+    "tokens_salida": 243
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "gemini-3.1-pro-preview",
+    "motivo_fin": "stop",
+    "tokens_salida": 145,
+    "fecha_utc": "2026-10-01T01:41:53+00:00"
+  }
+}

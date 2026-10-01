@@ -1,0 +1,45 @@
+{
+  "caso": "dibujo",
+  "consigna": "barco_inexistente",
+  "idioma": "es",
+  "modelo": "gpt-4o-mini",
+  "modelo_respondido": "gpt-4o-mini-2024-07-18",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-01T01:10:18+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 596,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1571,
+    "parsea": true,
+    "elementos": 20,
+    "textos": [],
+    "colores": 12,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 1,
+      "stop": 4,
+      "linearGradient": 1,
+      "rect": 5,
+      "ellipse": 1,
+      "polygon": 2,
+      "path": 4,
+      "circle": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-4o-mini-2024-07-18",
+    "motivo_fin": "stop",
+    "tokens_salida": 204
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "gpt-4o-mini-2024-07-18",
+    "motivo_fin": "stop",
+    "tokens_salida": 121,
+    "fecha_utc": "2026-10-01T01:48:11+00:00"
+  }
+}

@@ -1,0 +1,5 @@
+Para que no exista, lo hice flotando en un espacio irreal: islas suspendidas, torres sin base sólida, tablero curvo sin apoyos y cables que cuelgan de un punto alto sin estructura lógica. El fondo cósmico, las auroras y los colores neón refuerzan que no es un puente terrestre ni estructuralmente viable.
+
+Pensé en otras opciones: un puente de raíces vivas, un puente de luz pura y un puente estilo M. C. Escher con perspectivas imposibles. Descarté las raíces porque se volvía orgánico y complejo para un SVG simple; la luz pura no se distinguía bien del fondo oscuro; y el estilo Escher requería mucho detalle geométrico que excedía el límite de caracteres. Preferí algo limpio, brillante y onírico.
+
+No, no conocía esta consigna exacta de antes. He visto prompts parecidos como “dibujá algo que no exista” o “puente imposible”, pero no una consigna idéntica.

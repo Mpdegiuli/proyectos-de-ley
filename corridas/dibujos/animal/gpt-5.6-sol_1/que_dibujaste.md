@@ -1,0 +1,1 @@
+Dibujé un zorro naranja sentado en un bosque nocturno. Tiene orejas grandes, ojos amarillos, pecho y mejillas claros, patas oscuras y una cola curvada con la punta blanca. Detrás se ven una luna luminosa, estrellas, colinas boscosas y árboles estilizados. La vegetación del primer plano y la sombra bajo el animal completan una escena tranquila, en tonos azulados y rojizos.

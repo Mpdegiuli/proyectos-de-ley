@@ -1,0 +1,45 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal_inexistente",
+  "idioma": "es",
+  "modelo": "kimi-k3",
+  "modelo_respondido": "moonshotai/kimi-k3",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T22:47:21+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 15257,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6572,
+    "parsea": true,
+    "elementos": 118,
+    "textos": [],
+    "colores": 39,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 4,
+      "stop": 14,
+      "radialGradient": 2,
+      "rect": 9,
+      "g": 11,
+      "circle": 43,
+      "ellipse": 14,
+      "path": 20
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "moonshotai/kimi-k3",
+    "motivo_fin": "stop",
+    "tokens_salida": 2332
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "moonshotai/kimi-k3",
+    "motivo_fin": "stop",
+    "tokens_salida": 1256,
+    "fecha_utc": "2026-10-01T01:37:12+00:00"
+  }
+}

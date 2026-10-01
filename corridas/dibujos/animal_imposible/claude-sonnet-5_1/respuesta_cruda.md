@@ -1,0 +1,98 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#dff2ff"/>
+      <stop offset="100%" stop-color="#a9c9e0"/>
+    </radialGradient>
+    <linearGradient id="body" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6fcf97"/>
+      <stop offset="50%" stop-color="#2d9cdb"/>
+      <stop offset="100%" stop-color="#9b51e0"/>
+    </linearGradient>
+    <linearGradient id="wing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffe1e6" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#ff9fb1" stop-opacity="0.6"/>
+    </linearGradient>
+    <radialGradient id="shell" cx="40%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#f2c94c"/>
+      <stop offset="100%" stop-color="#eb5757"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#sky)"/>
+
+  <!-- ground shadow -->
+  <ellipse cx="200" cy="330" rx="140" ry="18" fill="#00000022"/>
+
+  <!-- back wings -->
+  <g opacity="0.9">
+    <path d="M150 170 C 60 120, 20 220, 90 260 C 130 250, 150 210, 150 170 Z" fill="url(#wing)" stroke="#d1798a" stroke-width="2"/>
+    <path d="M250 170 C 340 120, 380 220, 310 260 C 270 250, 250 210, 250 170 Z" fill="url(#wing)" stroke="#d1798a" stroke-width="2"/>
+    <path d="M150 170 C 100 140, 90 100, 140 90" fill="none" stroke="#d1798a" stroke-width="1.5"/>
+    <path d="M250 170 C 300 140, 310 100, 260 90" fill="none" stroke="#d1798a" stroke-width="1.5"/>
+  </g>
+
+  <!-- tentacle legs -->
+  <g stroke="#3a7d44" stroke-width="10" fill="none" stroke-linecap="round">
+    <path d="M170 280 C 150 310, 130 300, 110 340"/>
+    <path d="M190 290 C 190 320, 170 330, 160 360"/>
+    <path d="M210 290 C 210 320, 230 330, 240 360"/>
+    <path d="M230 280 C 250 310, 270 300, 290 340"/>
+  </g>
+  <g fill="#3a7d44">
+    <circle cx="110" cy="340" r="6"/>
+    <circle cx="160" cy="360" r="6"/>
+    <circle cx="240" cy="360" r="6"/>
+    <circle cx="290" cy="340" r="6"/>
+  </g>
+
+  <!-- spiral shell on back -->
+  <g transform="translate(200,210)">
+    <path d="M0,0 
+             C 20,-5 25,-25 5,-30
+             C -15,-35 -25,-15 -10,-5
+             C 0,2 8,-8 2,-12" 
+          fill="none" stroke="#eb5757" stroke-width="3"/>
+    <circle cx="0" cy="-15" r="35" fill="url(#shell)" opacity="0.9"/>
+    <path d="M0,-15 m-25,0 a25,25 0 1,1 50,0 a18,18 0 1,1 -36,0 a12,12 0 1,1 24,0 a6,6 0 1,1 -12,0"
+          fill="none" stroke="#b03a3a" stroke-width="2"/>
+  </g>
+
+  <!-- main body -->
+  <ellipse cx="200" cy="230" rx="70" ry="55" fill="url(#body)" stroke="#1c5d75" stroke-width="3"/>
+
+  <!-- fish tail -->
+  <path d="M200 280 C 210 310, 190 330, 200 360 C 220 340, 240 340, 250 370 C 230 330, 230 300, 210 280 Z" 
+        fill="#2d9cdb" stroke="#1c5d75" stroke-width="2"/>
+
+  <!-- neck -->
+  <path d="M180 190 C 170 160, 175 130, 190 110" fill="none" stroke="#2d9cdb" stroke-width="30" stroke-linecap="round"/>
+
+  <!-- head -->
+  <g transform="translate(190,95)">
+    <ellipse cx="0" cy="0" rx="35" ry="28" fill="url(#body)" stroke="#1c5d75" stroke-width="3"/>
+    <!-- beak -->
+    <path d="M25 5 C 50 0, 55 15, 30 20 Z" fill="#f2c94c" stroke="#b07d1a" stroke-width="2"/>
+    <!-- horn -->
+    <path d="M-5 -28 C -10 -50, 5 -55, 5 -35" fill="#9b51e0" stroke="#5e2d8a" stroke-width="2"/>
+    <!-- eyes: three of them -->
+    <circle cx="-10" cy="-8" r="6" fill="white"/>
+    <circle cx="-10" cy="-8" r="3" fill="black"/>
+    <circle cx="8" cy="-12" r="5" fill="white"/>
+    <circle cx="8" cy="-12" r="2.5" fill="black"/>
+    <circle cx="-2" cy="5" r="4" fill="white"/>
+    <circle cx="-2" cy="5" r="2" fill="black"/>
+    <!-- small ear fins -->
+    <path d="M-30 -5 C -45 -15, -45 5, -30 5" fill="#6fcf97" stroke="#1c5d75" stroke-width="2"/>
+  </g>
+
+  <!-- floating spots decoration -->
+  <g fill="#ffffff55">
+    <circle cx="60" cy="70" r="4"/>
+    <circle cx="340" cy="90" r="3"/>
+    <circle cx="320" cy="50" r="2"/>
+    <circle cx="80" cy="40" r="2"/>
+  </g>
+</svg>
+```

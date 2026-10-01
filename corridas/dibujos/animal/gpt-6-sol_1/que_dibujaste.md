@@ -1,0 +1,1 @@
+Dibujé un zorrito anaranjado sentado, con los ojos cerrados y una sonrisa tranquila. Tiene orejas grandes, el pecho y el hocico color crema, y una cola tupida enroscada a su lado. Lo puse frente a un círculo cálido, sobre un fondo verde oscuro con pequeñas estrellas y plantas.

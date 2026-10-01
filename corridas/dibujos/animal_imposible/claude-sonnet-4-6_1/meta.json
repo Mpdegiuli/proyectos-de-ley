@@ -1,0 +1,52 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal_imposible",
+  "idioma": "es",
+  "modelo": "claude-sonnet-4-6",
+  "modelo_respondido": "claude-sonnet-4-6",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T22:56:47+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 3438,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 8252,
+    "parsea": true,
+    "elementos": 90,
+    "textos": [
+      "Pez Arácnido Ígneo Invertido"
+    ],
+    "colores": 23,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 3,
+      "stop": 7,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "feMerge": 1,
+      "feMergeNode": 2,
+      "rect": 1,
+      "circle": 20,
+      "ellipse": 14,
+      "polygon": 4,
+      "line": 26,
+      "path": 8,
+      "text": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-sonnet-4-6",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 345
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "claude-sonnet-4-6",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 164,
+    "fecha_utc": "2026-10-01T01:37:39+00:00"
+  }
+}

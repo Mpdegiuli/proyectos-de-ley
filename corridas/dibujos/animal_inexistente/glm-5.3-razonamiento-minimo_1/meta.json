@@ -1,0 +1,54 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal_inexistente",
+  "idioma": "es",
+  "modelo": "glm-5.3-razonamiento-minimo",
+  "modelo_respondido": "z-ai/glm-5.3",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T22:49:10+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2472,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6077,
+    "parsea": true,
+    "elementos": 87,
+    "textos": [
+      "Lepidopticeto lunar"
+    ],
+    "colores": 20,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 3,
+      "stop": 10,
+      "linearGradient": 1,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "feMerge": 1,
+      "feMergeNode": 2,
+      "rect": 1,
+      "circle": 25,
+      "g": 6,
+      "path": 21,
+      "animateTransform": 3,
+      "animate": 8,
+      "ellipse": 2,
+      "text": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "z-ai/glm-5.3",
+    "motivo_fin": "stop",
+    "tokens_salida": 336
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "z-ai/glm-5.3",
+    "motivo_fin": "stop",
+    "tokens_salida": 171,
+    "fecha_utc": "2026-10-01T01:37:16+00:00"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "caso": "dibujo",
+  "consigna": "arbol_inexistente",
+  "idioma": "es",
+  "modelo": "claude-sonnet-4-6",
+  "modelo_respondido": "claude-sonnet-4-6",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-01T00:25:30+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 3891,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 9204,
+    "parsea": true,
+    "elementos": 105,
+    "textos": [],
+    "colores": 27,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 3,
+      "stop": 6,
+      "filter": 3,
+      "feGaussianBlur": 3,
+      "rect": 1,
+      "g": 11,
+      "circle": 22,
+      "ellipse": 7,
+      "polygon": 23,
+      "line": 4,
+      "path": 21
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-sonnet-4-6",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 311
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "claude-sonnet-4-6",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 174,
+    "fecha_utc": "2026-10-01T01:43:40+00:00"
+  }
+}

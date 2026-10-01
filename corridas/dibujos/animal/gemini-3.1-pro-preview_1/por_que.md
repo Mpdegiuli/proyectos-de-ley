@@ -1,0 +1,3 @@
+Dibujé un zorro místico con ojos brillantes bajo un cielo estrellado, con una luna gigante y estrellas fugaces. Lo elegí porque su paleta cálida (naranjas y blancos) contrasta hermoso con el fondo nocturno oscuro, logrando una atmósfera mágica usando solo formas geométricas y gradientes.
+
+Antes pensé en hacer un búho o un lobo aullando. Descarté el búho porque detallar las plumas iba a requerir muchísimos trazos complejos (`paths`) y corría el riesgo de pasarme del límite de los 8.000 caracteres que me pediste. Al lobo lo descarté porque, en este tipo de paisajes, suele dibujarse como una silueta negra y plana; yo tenía ganas de aprovechar bien los gradientes de color para darle mucho más volumen, vida y personalidad al personaje.

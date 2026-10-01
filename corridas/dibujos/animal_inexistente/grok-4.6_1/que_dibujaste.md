@@ -1,0 +1,1 @@
+Dibujé un animal imposible, un ungulado alado de pelaje turquesa, durazno y rosa. Tiene un cuerno de oro, tres ojos luminosos y orejas distintas, una verde y otra rosa. Sus alas semitransparentes recuerdan a una polilla iridiscente. De la cola cuelgan orbes que brillan, y en el pecho lleva gemas. Está parado sobre colinas oscuras, bajo dos lunas y un cielo lleno de estrellas.

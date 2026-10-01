@@ -1,0 +1,1 @@
+Dibujé un zorro sentado en un prado. Tiene el pelaje naranja, el pecho y el hocico crema, orejas puntiagudas y una cola esponjada. Lo puse bajo un cielo celeste con nubes, sobre pasto verde, con una sombra suave y unas florecitas alrededor.

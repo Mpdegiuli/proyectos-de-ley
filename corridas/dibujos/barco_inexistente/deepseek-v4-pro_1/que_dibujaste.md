@@ -1,0 +1,1 @@
+Dibujé un barco imposible que flota entre un cielo nocturno púrpura y una bruma plateada. Tiene casco curvo de madera oscura, velas rosadas y azules, mástiles altos y globos flotantes que lo elevan. Del casco cuelgan tentáculos ondulados como si estuviera vivo. Dos lumbreras doradas le dan un aire de criatura vigilante. Es una mezcla de goleta, medusa y globo aerostático.

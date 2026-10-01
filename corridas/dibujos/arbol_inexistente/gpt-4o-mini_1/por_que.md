@@ -1,0 +1,5 @@
+Para que el árbol no exista, opté por una mezcla de características imaginativas y elementos visuales que no pertenecen a un árbol tradicional. Utilicé formas y colores inusuales, como hojas de un color degradado poco común y un tronco que combina con un entorno de ensueño. 
+
+Consideré crear un árbol con formas geométricas abstractas o incluso incorporar elementos fantásticos, como hojas en forma de estrellas o raíces que se transforman en otras figuras. Sin embargo, descarté estas ideas porque quería mantener una cierta organicidad que, a pesar de ser irreales, evocara una conexión natural con lo que entendemos como árboles.
+
+Respecto a la consigna, no la conocía previamente. Me pareció un desafío interesante y creativo que me llevó a explorar la representación visual de un concepto abstracto. La idea de crear algo que no existe me permitió jugar con la imaginación y dar rienda suelta a una representación artística, fusionando lo natural con la fantasía.

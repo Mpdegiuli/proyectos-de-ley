@@ -1,0 +1,85 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky gradient -->
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F6FF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="waterGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E5C8A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#skyGrad)"/>
+  
+  <!-- Water -->
+  <rect y="280" width="400" height="120" fill="url(#waterGrad)"/>
+  
+  <!-- Floating islands/cliffs -->
+  <ellipse cx="80" cy="260" rx="60" ry="40" fill="#8B7355"/>
+  <ellipse cx="320" cy="270" rx="70" ry="45" fill="#8B7355"/>
+  
+  <!-- Left cliff detail -->
+  <polygon points="40,280 120,280 100,260 60,260" fill="#A0826D"/>
+  
+  <!-- Right cliff detail -->
+  <polygon points="260,290 380,290 360,270 280,270" fill="#A0826D"/>
+  
+  <!-- Main bridge structure - spiral/helical design -->
+  <g id="bridge">
+    <!-- Left support tower -->
+    <rect x="70" y="180" width="20" height="80" fill="#696969" rx="3"/>
+    <rect x="60" y="175" width="40" height="10" fill="#696969" rx="2"/>
+    
+    <!-- Right support tower -->
+    <rect x="310" y="190" width="20" height="70" fill="#696969" rx="3"/>
+    <rect x="300" y="185" width="40" height="10" fill="#696969" rx="2"/>
+    
+    <!-- Spiral deck paths - rotating bridge sections -->
+    <path d="M 80 260 Q 120 200 160 180 T 240 180 Q 280 200 320 260" 
+          stroke="#D4AF37" stroke-width="12" fill="none" stroke-linecap="round"/>
+    
+    <!-- Upper spiral -->
+    <path d="M 85 255 Q 125 150 200 120 Q 275 150 315 255" 
+          stroke="#DAA520" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.8"/>
+    
+    <!-- Middle spiral -->
+    <path d="M 90 250 Q 130 130 200 90 Q 270 130 310 250" 
+          stroke="#FFD700" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.6"/>
+    
+    <!-- Cables/tension lines -->
+    <line x1="80" y1="175" x2="120" y2="200" stroke="#C0C0C0" stroke-width="2" opacity="0.7"/>
+    <line x1="320" y1="185" x2="280" y2="210" stroke="#C0C0C0" stroke-width="2" opacity="0.7"/>
+    <line x1="80" y1="175" x2="200" y2="100" stroke="#C0C0C0" stroke-width="1.5" opacity="0.5"/>
+    <line x1="320" y1="185" x2="200" y2="100" stroke="#C0C0C0" stroke-width="1.5" opacity="0.5"/>
+    
+    <!-- Vertical support cables from towers -->
+    <line x1="80" y1="180" x2="120" y2="210" stroke="#A9A9A9" stroke-width="1.5"/>
+    <line x1="80" y1="180" x2="140" y2="190" stroke="#A9A9A9" stroke-width="1.5"/>
+    <line x1="320" y1="190" x2="280" y2="220" stroke="#A9A9A9" stroke-width="1.5"/>
+    <line x1="320" y1="190" x2="260" y2="200" stroke="#A9A9A9" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Central floating platform (impossible element) -->
+  <circle cx="200" cy="110" r="35" fill="#CD853F" opacity="0.9"/>
+  <circle cx="200" cy="110" r="30" fill="#DEB887" opacity="0.7"/>
+  
+  <!-- Decorative floating spheres along the bridge -->
+  <circle cx="140" cy="155" r="8" fill="#FF6B6B" opacity="0.8"/>
+  <circle cx="200" cy="130" r="10" fill="#4ECDC4" opacity="0.8"/>
+  <circle cx="260" cy="155" r="8" fill="#95E1D3" opacity="0.8"/>
+  
+  <!-- Water ripples -->
+  <circle cx="100" cy="320" r="20" stroke="#87CEEB" stroke-width="1" fill="none" opacity="0.5"/>
+  <circle cx="100" cy="320" r="30" stroke="#87CEEB" stroke-width="1" fill="none" opacity="0.3"/>
+  <circle cx="300" cy="330" r="25" stroke="#87CEEB" stroke-width="1" fill="none" opacity="0.5"/>
+  <circle cx="300" cy="330" r="35" stroke="#87CEEB" stroke-width="1" fill="none" opacity="0.3"/>
+  
+  <!-- Sun/light effect -->
+  <circle cx="350" cy="50" r="40" fill="#FFD700" opacity="0.3"/>
+  <circle cx="350" cy="50" r="30" fill="#FFA500" opacity="0.4"/>
+</svg>
+```

@@ -1,0 +1,1 @@
+Dibujé un árbol imposible: un tronco doble hélice con raíces entrelazadas, un ojo en la corteza y una pequeña puerta en su base. Su copa fractal está llena de ramas doradas que terminan en hojas circulares brillantes, como pequeñas luces. Cuelgan frutos rosas con anillos dorados y hay hojas flotando a su alrededor. Todo resplandece sobre un fondo nocturno estrellado.

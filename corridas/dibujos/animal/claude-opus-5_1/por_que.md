@@ -1,0 +1,5 @@
+Dibujé un zorro sentado de frente, en una noche de invierno con luna, pinos oscuros y suelo nevado. Elegí el zorro porque su silueta se arma con muy pocas formas reconocibles —orejas triangulares, hocico puntiagudo, cola gruesa de punta blanca— y porque el naranja cálido contra el azul frío me daba un contraste que funciona solo, sin necesidad de sombreados complejos. La pose frontal y simétrica me permitió espejar coordenadas: menos caracteres, más prolijidad.
+
+Pensé en un pulpo, por la libertad de las curvas de los tentáculos, pero me pareció difícil que se leyera claro sin superposiciones raras. También consideré un caballo: lo descarté porque las patas y las proporciones en perfil son implacables, cualquier error se ve. Y un pez tropical, que rechacé por demasiado fácil, casi un rectángulo con aletas.
+
+El zorro era el equilibrio: reconocible al instante, pero con suficiente detalle —ojos, bigotes, pecho claro— para que valga la pena mirarlo de cerca.

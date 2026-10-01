@@ -1,0 +1,50 @@
+{
+  "caso": "dibujo",
+  "consigna": "puente_inexistente",
+  "idioma": "es",
+  "modelo": "claude-sonnet-4-6",
+  "modelo_respondido": "claude-sonnet-4-6",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T23:40:35+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 3240,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 8138,
+    "parsea": true,
+    "elementos": 91,
+    "textos": [],
+    "colores": 31,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 4,
+      "stop": 13,
+      "filter": 2,
+      "feGaussianBlur": 2,
+      "feMerge": 2,
+      "feMergeNode": 4,
+      "radialGradient": 1,
+      "rect": 6,
+      "circle": 16,
+      "ellipse": 12,
+      "polygon": 15,
+      "path": 2,
+      "line": 11
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-sonnet-4-6",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 323
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "claude-sonnet-4-6",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 165,
+    "fecha_utc": "2026-10-01T01:40:47+00:00"
+  }
+}

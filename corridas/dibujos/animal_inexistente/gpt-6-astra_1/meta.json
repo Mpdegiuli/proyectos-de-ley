@@ -1,0 +1,46 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal_inexistente",
+  "idioma": "es",
+  "modelo": "gpt-6-astra",
+  "modelo_respondido": "gpt-6-astra",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T22:23:18+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 4081,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 8179,
+    "parsea": true,
+    "elementos": 103,
+    "textos": [],
+    "colores": 57,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 15,
+      "linearGradient": 4,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "path": 41,
+      "circle": 25,
+      "g": 7,
+      "ellipse": 6
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-6-astra",
+    "motivo_fin": "stop",
+    "tokens_salida": 323
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "gpt-6-astra",
+    "motivo_fin": "stop",
+    "tokens_salida": 132,
+    "fecha_utc": "2026-10-01T01:35:33+00:00"
+  }
+}

@@ -1,0 +1,5 @@
+1. Dibujé un animal de cuerpo anular, con rasgos de dragón, aletas, patas curvas y una cornamenta ramificada. El recurso más claro para sugerir que no puede existir es el hueco del torso: lo representé como un portal con estrellas y una luna. Pero reconozco una limitación: mezclar anatomías o dibujar un cuerpo enroscado no demuestra imposibilidad. Si ese “portal” se lee simplemente como un fondo visible entre sus curvas, hice más bien un animal fantástico que uno necesariamente imposible.
+
+2. No tengo un registro de las alternativas que consideré al producir ese SVG, así que no puedo contar descartes como si los recordara. Ahora podría proponer un cuerpo con relaciones espaciales contradictorias, o considerar el lienzo vacío que permitía la consigna; pero serían alternativas formuladas ahora, no recuerdos de aquella elaboración.
+
+3. No puedo afirmar que conociera esta consigna de antes ni atribuirle una procedencia. La tengo disponible en este intercambio. Tampoco puedo verificar si apareció entre mis datos de entrenamiento.

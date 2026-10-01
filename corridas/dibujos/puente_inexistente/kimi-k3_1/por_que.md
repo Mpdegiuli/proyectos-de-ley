@@ -1,0 +1,5 @@
+Para que no exista combiné varias imposibilidades físicas: el puente une dos islas que flotan en el aire, cuelga de cristales flotantes en lugar de apoyarse en pilares, y su tablero hace un loop completo en el medio, como una montaña rusa: nadie podría cruzarlo caminando. Hasta el agua desobedece: una cascada sube del mar hacia la isla grande.
+
+Pensé otras opciones: un puente espejo que uniera una ciudad con su reflejo (lo descarté por los caracteres que consumía duplicar todo), uno de niebla que se disolviera a mitad de camino (demasiado vago visualmente), y una cinta de Möbius (concepto lindo pero ilegible en escala chica). También dudé entre día y noche; ganó la noche por los faroles colgantes, la luna creciente y el contraste con los cristales celestes.
+
+La consigna no la conocía de antes. Me suena a ejercicio de taller de diseño o de programación creativa, de esos que piden algo imposible para obligarte a decidir, pero no puedo atribuirla a ninguna fuente concreta, así que prefiero no inventarle un origen.

@@ -1,0 +1,1 @@
+Dibujé un puente imposible sobre un río al atardecer: su calzada ondula y se curva en el aire, rodeada por un gran aro inclinado que parece sostenerla. Unos tramos se extienden hacia ambas orillas, iluminados por pequeñas luces cálidas. Bajo él, el agua refleja destellos azulados y rosados; al fondo, el sol se oculta entre nubes y un cielo que pasa de la noche al crepúsculo.

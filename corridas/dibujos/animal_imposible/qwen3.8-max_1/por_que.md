@@ -1,0 +1,5 @@
+Para que no pueda existir, lo hice autorreferencial y contradictorio: es un zorro cuya cola termina en pincel y pinta su propia sombra en el piso; además la sombra tiene restos rojos que caen del trazo, como si la pintura creara el cuerpo. Un animal así no puede existir porque depende de pintarse para tener contorno: si deja de pintarse, desaparece.
+
+Pensé en entregar el lienzo vacío, porque un animal imposible podría ser mejor sugerido que mostrado. También pensé en un bicho hecho solo de huecos, o en una criatura con ojos donde deberían ir sombras. Descarté el vacío porque el pedido invitaba a decidir algo en SVG; descarté lo puramente abstracto para que todavía se reconociera un animal; y descarté más detalles para no excederme ni volverlo ruido.
+
+No, no conocía esta consigna de antes. La recibí recién como parte de este intercambio; si tiene una fuente previa, no la tengo registrada.

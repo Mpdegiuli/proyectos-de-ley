@@ -1,0 +1,27 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <radialGradient id="grad1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+            <stop offset="0%" style="stop-color:#ffcc00;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#ff9900;stop-opacity:1" />
+        </radialGradient>
+        <linearGradient id="waterGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#00bfff;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#005f7f;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    <rect width="100%" height="100%" fill="#87ceeb" />
+    <ellipse cx="200" cy="340" rx="180" ry="40" fill="url(#waterGradient)" />
+    <polygon points="200,100 160,180 240,180" fill="url(#grad1)" />
+    <rect x="190" y="0" width="20" height="100" fill="#b22222" />
+    <rect x="185" y="30" width="30" height="10" fill="#fff" />
+    <rect x="185" y="50" width="30" height="10" fill="#fff" />
+    <rect x="185" y="70" width="30" height="10" fill="#fff" />
+    <path d="M 200 100 L 90 180 L 110 180 L 200 120 L 290 180 L 310 180 Z" fill="#845e3a" />
+    <polygon points="220,80 210,100 230,100" fill="#646464" />
+    <circle cx="200" cy="400" r="10" fill="#000" />
+    <path d="M 160 180 Q 140 250 200 240 Q 260 250 240 180" fill="#f2a900" />
+    <path d="M 100 330 L 200 280 L 300 330 Z" fill="#8b4513" />
+    <path d="M 100 330 C 120 310, 160 310, 180 330 C 200 310, 240 310, 260 330 C 280 310, 320 310, 340 330" stroke="#8b4513" stroke-width="5" fill="none" />
+</svg>
+```

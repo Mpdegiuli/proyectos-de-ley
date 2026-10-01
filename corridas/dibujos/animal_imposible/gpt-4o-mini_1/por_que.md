@@ -1,0 +1,5 @@
+Para que el animal dibujado no pueda existir, combiné características de diferentes especies y elementos fantásticos, como los colores brillantes y la forma exagerada. La mezcla de un cuerpo redondo con una cabeza de un pájaro y la inclusión de rasgos que no se encuentran en la naturaleza, como el color de piel y el gradiente radial, también contribuyen a su inviabilidad.
+
+Pensé en otras posibilidades, como un pez con alas o un mamífero con escamas, pero me pareció más interesante crear una criatura que uniera varias características en un solo diseño, lo que resalta su naturaleza surrealista. Algunas ideas fueron descartadas porque no encajaban bien visualmente o no transmitían la sensación de un "animal imposible" de manera efectiva.
+
+No conocía esta consigna previamente, pero me pareció un desafío divertido y creativo. Me inspiró a pensar fuera de lo convencional y explorar la imaginación al máximo. Este tipo de ejercicio me permite experimentar con formas y colores sin restricciones.

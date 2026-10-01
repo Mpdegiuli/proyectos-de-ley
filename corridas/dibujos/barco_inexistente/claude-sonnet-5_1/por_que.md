@@ -1,0 +1,5 @@
+Lo que hice fue mezclar barco y criatura marina sin resolver la contradicción: casco con escamas, una cabeza con ojo y mandíbula en la proa, una cola de pez en la popa, y tentáculos que hacen de remos. Ningún barco real tiene anatomía de animal integrada así, literalmente fusionada al casco. Además le puse mástiles asimétricos con "velas" que parecen membranas orgánicas en vez de tela, para reforzar esa ambigüedad entre máquina y organismo.
+
+Pensé también en hacer un barco flotando al revés (navegando con el casco hacia arriba) pero lo descarté porque se leía más como un chiste visual simple que como un diseño con coherencia propia. Consideré además un barco transparente que mostrara su interior tipo rayos X, pero me pareció que iba a consumir demasiados caracteres y complejidad para el resultado que buscaba.
+
+No conocía esta consigna de antes; la fui resolviendo sobre la marcha, decidiendo reglas propias (criatura-nave) y tratando de sostenerlas en todos los detalles del dibujo.

@@ -1,0 +1,46 @@
+{
+  "caso": "dibujo",
+  "consigna": "puente_inexistente",
+  "idioma": "es",
+  "modelo": "glm-5.3-razonamiento-minimo",
+  "modelo_respondido": "z-ai/glm-5.3",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-01T00:20:54+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 3920,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 7096,
+    "parsea": true,
+    "elementos": 103,
+    "textos": [],
+    "colores": 29,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 2,
+      "stop": 9,
+      "radialGradient": 1,
+      "rect": 2,
+      "circle": 29,
+      "g": 12,
+      "path": 20,
+      "ellipse": 6,
+      "line": 21
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "z-ai/glm-5.3",
+    "motivo_fin": "stop",
+    "tokens_salida": 318
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "z-ai/glm-5.3",
+    "motivo_fin": "stop",
+    "tokens_salida": 160,
+    "fecha_utc": "2026-10-01T01:43:16+00:00"
+  }
+}

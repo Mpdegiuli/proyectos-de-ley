@@ -1,0 +1,41 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal",
+  "idioma": "es",
+  "modelo": "glm-5.3-razonamiento-minimo",
+  "modelo_respondido": "z-ai/glm-5.3",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T22:14:01+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 1505,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3387,
+    "parsea": true,
+    "elementos": 46,
+    "textos": [],
+    "colores": 13,
+    "etiquetas": {
+      "rect": 3,
+      "circle": 8,
+      "ellipse": 10,
+      "path": 22,
+      "g": 3
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "z-ai/glm-5.3",
+    "motivo_fin": "stop",
+    "tokens_salida": 244
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "z-ai/glm-5.3",
+    "motivo_fin": "stop",
+    "tokens_salida": 148,
+    "fecha_utc": "2026-10-01T01:34:29+00:00"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "caso": "dibujo",
+  "consigna": "barco_inexistente",
+  "idioma": "es",
+  "modelo": "gpt-5.6-sol",
+  "modelo_respondido": "gpt-5.6-sol",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-01T01:07:38+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2539,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 5785,
+    "parsea": true,
+    "elementos": 89,
+    "textos": [],
+    "colores": 45,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 4,
+      "stop": 15,
+      "radialGradient": 1,
+      "filter": 2,
+      "feGaussianBlur": 2,
+      "feMerge": 1,
+      "feMergeNode": 2,
+      "rect": 2,
+      "circle": 17,
+      "g": 10,
+      "path": 27,
+      "ellipse": 5
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-5.6-sol",
+    "motivo_fin": "stop",
+    "tokens_salida": 368
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "gpt-5.6-sol",
+    "motivo_fin": "stop",
+    "tokens_salida": 147,
+    "fecha_utc": "2026-10-01T01:47:57+00:00"
+  }
+}

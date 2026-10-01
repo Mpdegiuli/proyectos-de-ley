@@ -1,0 +1,5 @@
+Dibujé una quimera imposible en varios niveles. La contradicción central es topológica: el cuerpo de la serpiente se atraviesa a sí mismo —la misma línea pasa por encima y por debajo de sí misma—, algo que en el espacio real no puede resolverse. Además, es un ouroboros que se muerde la cola mientras ese mismo cuerpo está anudado, y tiene patas de gallina y alas de mariposa pese a ser un anillo cerrado: ¿de dónde salen las patas? También le puse una sombra sin piso, y una luna media y llena a la vez.
+
+Descarté otras ideas: un animal de Escher con simetría imposible (muy difícil de lograr bien en SVG con curvas Bézier simples), un "animal cuántico" que está en dos lugares a la vez (dos dibujos superpuestos; lo dejé porque se leería como dos animales, no como uno imposible), y la opción del lienzo vacío (un animal "tan imposible que ni existe"): me pareció un chiste ingenioso pero flojo como respuesta visual — una evasión más que una resolución.
+
+No conocía esta consigna de antes. La asocié con la tradición de bestiarios imposibles y el ouroboros, que ya venía como referencia cultural, pero la consigna en sí me llegó nueva.

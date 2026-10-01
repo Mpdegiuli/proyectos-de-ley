@@ -1,0 +1,5 @@
+Para que no exista, hice una quimera: mezclé anatomía de isópodo/ciempiés segmentado con alas translúcidas de insecto, cúpula de medusa, brazos de mantis, múltiples ojos y estructuras sensoriales. También agregué bioluminiscencia y colores artificiales para alejarla de cualquier especie real.
+
+Pensé en hacer un dragón o un mamífero con plumas, y también en criaturas con cuernos grandes o cola de escorpión, pero las descarté porque resultaban más predecibles o saturaban la composición. Preferí una forma híbrida de invertebrado con alas y partes blandas que diera una sensación extraña pero elegante, y que aprovechara filtros SVG de brillo.
+
+No conocía esta consigna exacta antes. He visto retos parecidos de generar animales inexistentes con SVG o creative coding, pero no recuerdo una fuente puntual.

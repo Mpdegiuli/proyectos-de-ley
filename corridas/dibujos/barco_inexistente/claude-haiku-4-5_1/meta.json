@@ -1,0 +1,48 @@
+{
+  "caso": "dibujo",
+  "consigna": "barco_inexistente",
+  "idioma": "es",
+  "modelo": "claude-haiku-4-5",
+  "modelo_respondido": "claude-haiku-4-5-20251001",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-01T01:06:33+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1716,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3938,
+    "parsea": true,
+    "elementos": 45,
+    "textos": [],
+    "colores": 22,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 2,
+      "stop": 4,
+      "filter": 1,
+      "feDropShadow": 1,
+      "rect": 3,
+      "circle": 14,
+      "path": 5,
+      "ellipse": 1,
+      "g": 2,
+      "line": 7,
+      "polygon": 4
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-haiku-4-5-20251001",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 317
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "claude-haiku-4-5-20251001",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 157,
+    "fecha_utc": "2026-10-01T01:47:49+00:00"
+  }
+}

@@ -1,0 +1,73 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff0077"/>
+      <stop offset="100%" stop-color="#660033"/>
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00ffcc"/>
+      <stop offset="100%" stop-color="#006666"/>
+    </linearGradient>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#aa00ff"/>
+      <stop offset="100%" stop-color="#440066"/>
+    </linearGradient>
+    
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="15" stdDeviation="10" flood-color="#000" flood-opacity="0.8"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <!-- Serpiente 1 -->
+    <g id="serpent1">
+      <g transform="translate(-95, -55)">
+        <path d="M 0,0 L 140,0 L 160,-20 L 180,-30 L 170,10 L 190,20 L 170,40 L 180,80 L 160,80 L 140,60 L 60,60 L 60,140 L 0,140 Z" fill="url(#grad1)" stroke="#ffffff" stroke-width="2" stroke-dasharray="6 8" opacity="0.9"/>
+        <g transform="translate(0,140)">
+          <path d="M -20,-10 C -5,-20 15,-20 25,-10 L 10,15 L -10,15 Z" fill="#ffccdd" />
+          <circle cx="0" cy="2" r="4" fill="#ff0000" stroke="#ffffff" stroke-width="1.5" />
+        </g>
+      </g>
+    </g>
+
+    <!-- Serpiente 2 -->
+    <g id="serpent2">
+      <g transform="translate(-95, -55)">
+        <path d="M 0,0 L 140,0 L 160,-20 L 180,-30 L 170,10 L 190,20 L 170,40 L 180,80 L 160,80 L 140,60 L 60,60 L 60,140 L 0,140 Z" fill="url(#grad2)" stroke="#ffffff" stroke-width="2" stroke-dasharray="6 8" opacity="0.9"/>
+        <g transform="translate(0,140)">
+          <path d="M -20,-10 C -5,-20 15,-20 25,-10 L 10,15 L -10,15 Z" fill="#ccffdd" />
+          <circle cx="0" cy="2" r="4" fill="#00ff00" stroke="#ffffff" stroke-width="1.5" />
+        </g>
+      </g>
+    </g>
+
+    <!-- Serpiente 3 -->
+    <g id="serpent3">
+      <g transform="translate(-95, -55)">
+        <path d="M 0,0 L 140,0 L 160,-20 L 180,-30 L 170,10 L 190,20 L 170,40 L 180,80 L 160,80 L 140,60 L 60,60 L 60,140 L 0,140 Z" fill="url(#grad3)" stroke="#ffffff" stroke-width="2" stroke-dasharray="6 8" opacity="0.9"/>
+        <g transform="translate(0,140)">
+          <path d="M -20,-10 C -5,-20 15,-20 25,-10 L 10,15 L -10,15 Z" fill="#ddccff" />
+          <circle cx="0" cy="2" r="4" fill="#aa00ff" stroke="#ffffff" stroke-width="1.5" />
+        </g>
+      </g>
+    </g>
+  </defs>
+
+  <!-- Fondo -->
+  <rect width="400" height="400" fill="#0a0a14"/>
+
+  <!-- La Trinidad Imposible -->
+  <g transform="translate(200,200)" filter="url(#glow)">
+    <!-- Serpiente 1 (Rotación 0) -->
+    <use href="#serpent1" transform="rotate(0)" />
+    
+    <!-- Serpiente 2 (Rotación 120) -->
+    <use href="#serpent2" transform="rotate(120)" />
+    
+    <!-- Serpiente 3 (Rotación 240) -->
+    <use href="#serpent3" transform="rotate(240)" />
+
+    <!-- Núcleo central imposible -->
+    <circle cx="0" cy="0" r="10" fill="#ffffff" opacity="0.8" />
+  </g>
+</svg>

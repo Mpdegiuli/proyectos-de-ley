@@ -1,0 +1,1 @@
+Dibujé un árbol imposible: tronco de corteza clara con vetas de neón rosa y cian, y un ojo oscuro en la madera. Sus ramas cargan hojas de cristal, cubos y anillos que brillan contra un cielo violeta con estrellas. Las raíces se abren en gemas y aros de luz sobre un suelo nocturno. No es un árbol: es un altar vegetal, luminoso e irreal.

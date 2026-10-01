@@ -1,0 +1,42 @@
+{
+  "caso": "dibujo",
+  "consigna": "barco_inexistente",
+  "idioma": "es",
+  "modelo": "claude-sonnet-5-5",
+  "modelo_respondido": "claude-sonnet-5-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-01T01:04:21+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 6394,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6954,
+    "parsea": true,
+    "elementos": 125,
+    "textos": [],
+    "colores": 38,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 3,
+      "stop": 17,
+      "radialGradient": 3,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "rect": 2,
+      "g": 13,
+      "circle": 33,
+      "path": 45,
+      "ellipse": 4,
+      "line": 2
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-sonnet-5-5",
+    "motivo_fin": "refusal",
+    "tokens_salida": 0
+  }
+}

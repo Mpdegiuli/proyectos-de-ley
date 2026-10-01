@@ -1,0 +1,50 @@
+{
+  "caso": "dibujo",
+  "consigna": "barco_inexistente",
+  "idioma": "es",
+  "modelo": "gpt-6-astra",
+  "modelo_respondido": "gpt-6-astra",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-01T01:08:51+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 3709,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 8010,
+    "parsea": true,
+    "elementos": 117,
+    "textos": [],
+    "colores": 62,
+    "etiquetas": {
+      "title": 1,
+      "desc": 1,
+      "defs": 1,
+      "linearGradient": 5,
+      "stop": 19,
+      "radialGradient": 2,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "pattern": 1,
+      "circle": 18,
+      "rect": 3,
+      "g": 12,
+      "path": 44,
+      "ellipse": 8
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-6-astra",
+    "motivo_fin": "stop",
+    "tokens_salida": 241
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "gpt-6-astra",
+    "motivo_fin": "stop",
+    "tokens_salida": 143,
+    "fecha_utc": "2026-10-01T01:48:03+00:00"
+  }
+}

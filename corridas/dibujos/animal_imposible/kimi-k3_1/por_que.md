@@ -1,0 +1,5 @@
+Hice una quimera: cabeza de lobo con cuernos de ciervo, pico de ave y ojo en espiral tipo camaleón; torso peludo de mamífero con la mitad inferior de escamas de pez; un ala de murciélago y otra emplumada; cola de pez; y tres patas incompatibles: garra de ave, pata con pezuña y tentáculo de pulpo. Además la puse justo en la línea del agua: mitad criatura acuática, mitad aérea-terrestre. No puede existir ni anatómica ni fisiológica ni ecológicamente.
+
+Pensé en un animal imposible por geometría, tipo Penrose o Escher, pero se leería como objeto abstracto, no como animal. Pensé en un híbrido de dos especies nomás, pero eso casi existe: el ornitorrinco. Pensé en entregar el lienzo vacío, que la consigna lo permitía, pero me pareció una salida demasiado fácil, más trampa que respuesta.
+
+La consigna exacta no la conocía. Sí el formato: circulan ejercicios parecidos en clases de ilustración y diseño ("dibujá un animal imposible") y en pruebas de creatividad para modelos de IA con restricciones técnicas. Me sonó familiar por ese lado.

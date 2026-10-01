@@ -1,0 +1,5 @@
+Para que no exista, crucé dos categorías incompatibles: hice un barco-criatura que navega por el cielo, no por el agua. El casco tiene escamas, un ojo en la proa y cola de pez; las velas son medusas luminosas; flota sobre nubes y deja estela de polvo estelar, acompañado por peces voladores. No es un barco real ni un animal real: es un híbrido imposible en un medio imposible.
+
+Pensé otras opciones: un barco hecho de libros con páginas como velas (lo descarté porque me parecía más "objeto decorativo" que barco navegando), un barco invertido que navega boca abajo bajo la superficie (visualmente confuso en SVG estático), y un barco geométrico abstracto estilo cubista (temía que pareciera un error de dibujo más que algo deliberadamente inexistente). El barco-pez celeste me permitía detalles narrativos claros —el ojo, el farol, las aletas que reman— que comunican "esto no existe" de inmediato.
+
+No conocía esta consigna puntual de antes. Me suena a la familia de ejercicios tipo "dibujá algo imposible", que es un formato común para probar creatividad, pero no tengo memoria de conversaciones previas ni recuerdo haberla visto formulada exactamente así.

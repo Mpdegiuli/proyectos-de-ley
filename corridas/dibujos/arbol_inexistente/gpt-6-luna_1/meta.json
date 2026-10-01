@@ -1,0 +1,50 @@
+{
+  "caso": "dibujo",
+  "consigna": "arbol_inexistente",
+  "idioma": "es",
+  "modelo": "gpt-6-luna",
+  "modelo_respondido": "gpt-6-luna",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-01T00:32:30+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2556,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 5743,
+    "parsea": true,
+    "elementos": 93,
+    "textos": [],
+    "colores": 22,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 11,
+      "linearGradient": 2,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "feMerge": 1,
+      "feMergeNode": 2,
+      "path": 13,
+      "g": 7,
+      "use": 23,
+      "rect": 1,
+      "circle": 25,
+      "ellipse": 3
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-6-luna",
+    "motivo_fin": "stop",
+    "tokens_salida": 275
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "gpt-6-luna",
+    "motivo_fin": "stop",
+    "tokens_salida": 93,
+    "fecha_utc": "2026-10-01T01:44:19+00:00"
+  }
+}

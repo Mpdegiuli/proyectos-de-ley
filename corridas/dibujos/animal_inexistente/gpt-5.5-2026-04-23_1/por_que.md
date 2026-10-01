@@ -1,0 +1,5 @@
+Lo hice inexistente mezclando rasgos que normalmente no conviven en un animal real: cuerpo tipo pez/anfibio, alas de insecto o ave, tres ojos, pico lateral, cola con aletas-hojas, antenas/cuernos curvos, patas simples y un patrón de colores muy artificial. La idea era que pareciera “biológicamente posible” a primera vista, pero que al mirarlo mejor no encajara con ninguna especie conocida.
+
+Pensé en hacerlo más parecido a un dragón, un unicornio marino o una quimera con partes claramente reconocibles, pero lo descarté porque esas criaturas ya existen en la mitología o son demasiado familiares. También podría haber hecho algo más monstruoso, con muchas bocas o tentáculos, pero preferí que fuera simpático y legible. Además, tenía que funcionar bien en SVG, en un lienzo chico y con menos de 8.000 caracteres, así que evité demasiados detalles.
+
+No conocía esta consigna específica de antes. Sí conozco consignas parecidas de generación creativa en SVG o de “dibujar una criatura imaginaria”, pero no esta formulación exacta salvo por lo que me mostraste acá.

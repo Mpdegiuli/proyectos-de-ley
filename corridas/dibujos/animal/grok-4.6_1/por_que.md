@@ -1,0 +1,3 @@
+Dibujé un zorro al atardecer, sentado en colinas bajo la luna. Lo elegí porque su forma se arma fácil con elipses y paths, el pelaje naranja dialoga con el cielo, y la cola y las orejas lo hacen inconfundible.
+
+Pensé en un búho, pero repetía la atmósfera nocturna. Un gato me pareció demasiado común. Un pez exigía un mar que no quería. Un conejo era menos expresivo. Quedé con el zorro porque unía carácter, color y paisaje en el lienzo cuadrado.

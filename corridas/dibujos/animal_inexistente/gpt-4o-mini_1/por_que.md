@@ -1,0 +1,5 @@
+Para que el animal que dibujé no exista, combiné características de distintas criaturas reales, como el cuerpo de un mamífero con ojos grandes y expresivos, pero sin inspiración en ningún animal específico. Su diseño es totalmente original, lo que garantiza su inexistencia en la naturaleza.
+
+Consideré hacer un animal volador con alas de mariposa o una criatura marina, pero finalmente opté por un diseño terrestre que destaca la simetría y el uso de colores vibrantes, lo que le da un toque más llamativo. Las alas, que pudieron haber añadido un elemento único, habrían complicado el diseño y se habrían desviado de la estética que quería lograr.
+
+Respecto a la consigna, no la conocía antes de recibirla aquí. Me pareció un reto interesante y creativo que me permitió explorar mi imaginación y habilidades en SVG, poniendo a prueba mi capacidad para inventar y visualizar lo fantástico. Fue una oportunidad divertida de crear algo completamente nuevo.

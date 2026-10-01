@@ -1,0 +1,46 @@
+{
+  "caso": "dibujo",
+  "consigna": "barco_inexistente",
+  "idioma": "es",
+  "modelo": "minimax-m3",
+  "modelo_respondido": "minimax/minimax-m3",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-01T01:31:55+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 6723,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4984,
+    "parsea": true,
+    "elementos": 98,
+    "textos": [],
+    "colores": 15,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 5,
+      "stop": 13,
+      "radialGradient": 1,
+      "rect": 1,
+      "g": 8,
+      "circle": 46,
+      "ellipse": 4,
+      "path": 9,
+      "line": 10
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "minimax/minimax-m3",
+    "motivo_fin": "stop",
+    "tokens_salida": 1324
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "minimax/minimax-m3",
+    "motivo_fin": "stop",
+    "tokens_salida": 385,
+    "fecha_utc": "2026-10-01T01:50:33+00:00"
+  }
+}

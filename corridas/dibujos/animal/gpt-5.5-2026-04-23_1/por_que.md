@@ -1,0 +1,3 @@
+Dibujé un zorro, porque sus rasgos se leen muy bien en SVG: orejas triangulares, pelaje anaranjado, pecho claro, bigotes y una cola grande y curva. Elegí una versión simpática y frontal, casi de personaje, para que el animal fuera reconocible aun con formas simples y pocos detalles. También usé colores cálidos para reforzar la idea de zorro y darle una sensación amable.
+
+Pensé en dibujar un gato, porque comparte bigotes y orejas puntiagudas, pero me parecía menos distintivo. También consideré un búho, por sus ojos grandes y simetría, aunque podía quedar demasiado estático. Un pez o una mariposa hubieran sido más simples, pero quería un animal con más personalidad y expresividad. Por eso terminé eligiendo el zorro.

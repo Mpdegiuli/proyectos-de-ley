@@ -1,0 +1,3 @@
+Dibujé un zorro sentado, con la cola enroscada y los ojos cerrados. Elegí sus orejas puntiagudas, el pelaje anaranjado y la cola de punta clara porque lo hacen reconocible incluso con formas simples; el fondo cálido le da un aire tranquilo.
+
+No tengo registro de haber pensado en otros animales antes de hacer este SVG, así que no puedo decir que descarté alguno. Un gato o un búho también habrían funcionado, pero eso es una comparación posterior, no una decisión que pueda atribuirme.

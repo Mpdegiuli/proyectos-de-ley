@@ -1,0 +1,1 @@
+Dibujé un zorro anaranjado, sentado y con la cola enrollada a un costado. Tengo orejas grandes, hocico y pecho color crema, ojos cerrados y una expresión tranquila. Estoy sobre un fondo cálido, bajo una luna pálida, con unas plantitas alrededor.

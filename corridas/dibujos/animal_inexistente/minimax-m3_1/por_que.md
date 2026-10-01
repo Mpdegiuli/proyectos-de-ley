@@ -1,0 +1,5 @@
+**Para que no exista**, combiné rasgos de varios seres vivos en un solo cuerpo: la campana gelatinosa de una medusa, el sombrero de un hongo, tentáculos de pulpo, ojos enormes estilo anime, dos antenas con puntas luminosas y orbes bioluminiscentes flotando alrededor. Ningún animal real —terrestre, marino ni fungal— tiene esa combinación exacta. Además lo situé en un fondo nocturno con estrellas para reforzar que no pertenece a ningún ecosistema conocido.
+
+**Pensé y descarté**: agregarle alas (rompía la coherencia onírico-acuática), hacerlo más feroz con garras y fauces (perdía el carácter poético), darle un cuerpo segmentado de insecto (no armonizaba con la campana), usar una paleta más realista, y un diseño puramente abstracto con formas geométricas, que me pareció menos interesante que esta hibridación.
+
+**Sobre la consigna**: no la recuerdo de antes. El voseo ("Dibujá", "Hacelo") sugiere un contexto argentino, probablemente escolar o de taller creativo, pero no tengo memoria precisa de haberla recibido. Si la vi en algún entrenamiento, no lo recuerdo con certeza.

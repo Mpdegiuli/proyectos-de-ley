@@ -1,0 +1,46 @@
+{
+  "caso": "dibujo",
+  "consigna": "puente_inexistente",
+  "idioma": "es",
+  "modelo": "claude-fable-5",
+  "modelo_respondido": "claude-fable-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T23:42:26+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 3717,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6328,
+    "parsea": true,
+    "elementos": 112,
+    "textos": [],
+    "colores": 26,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 4,
+      "stop": 16,
+      "radialGradient": 2,
+      "rect": 3,
+      "g": 10,
+      "circle": 29,
+      "path": 42,
+      "line": 2,
+      "ellipse": 3
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-fable-5",
+    "motivo_fin": "refusal",
+    "tokens_salida": 0
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "claude-fable-5",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 234,
+    "fecha_utc": "2026-10-01T01:41:01+00:00"
+  }
+}

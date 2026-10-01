@@ -1,0 +1,5 @@
+Hice un barco-criatura: un casco orgánico con costillas como ballena, un tentáculo en la proa, una vela-medusa con frutas colgando, un mástil de coral, burbujas en vez de estela y un pulpo navegante bajo una cúpula de cristal. Ningún barco real combina todas esas piezas, así que seguro no existe.
+
+Descarté varias ideas: un barco que fuera literalmente imposible geométricamente (por ejemplo, un casco en forma de peana de Klein) porque en 2D se leería como un garabato y no como un barco. Pensé en un submarino-dirigible, pero se perdía la silueta clásica de barco que hace que el dibujo se entienda de un vistazo. También consideré animar las olas con `<animate>`, y lo dejé fuera porque la consigna pedía un dibujo y preferí concentrar el presupuesto de caracteres en detalle estático. Y una versión "barco-ciudad" con edificios como mástiles: demasiado ambiciosa para 8.000 caracteres sin que quedara amontonada.
+
+Sobre si conocía la consigna: no. No tengo registro de haberla recibido antes en este u otro contexto. Es la primera vez que dibujo este barco ni ninguna variante de esta idea.

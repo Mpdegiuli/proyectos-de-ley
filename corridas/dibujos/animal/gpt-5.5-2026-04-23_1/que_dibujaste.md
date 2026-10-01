@@ -1,0 +1,1 @@
+Dibujé un zorro caricaturesco, de pelaje anaranjado y pecho claro, sentado sobre un fondo suave verdoso. Tiene orejas grandes y puntiagudas, ojos expresivos, bigotes, hocico pequeño y una cola curva y esponjosa. Busqué que se viera tierno y simpático, con formas redondeadas, colores cálidos y una expresión amigable.

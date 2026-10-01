@@ -1,0 +1,1 @@
+Dibujé un zorro al atardecer. El cielo va del azul noche al naranja, con luna llena y estrellas. El animal está sentado en colinas oscuras: pelaje anaranjado, pecho blanco, orejas puntiagudas, bigotes y una cola espesa con punta clara. A los lados hay árboles chicos y, abajo, unas flores.

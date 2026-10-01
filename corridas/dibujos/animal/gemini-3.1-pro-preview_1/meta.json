@@ -1,0 +1,45 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal",
+  "idioma": "es",
+  "modelo": "gemini-3.1-pro-preview",
+  "modelo_respondido": "gemini-3.1-pro-preview",
+  "repeticion": 1,
+  "fecha_utc": "2026-09-30T21:59:22+00:00",
+  "fuentes_md5": {
+    "consignas": "da7a488a"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 3964,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6777,
+    "parsea": true,
+    "elementos": 74,
+    "textos": [],
+    "colores": 19,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 4,
+      "stop": 13,
+      "radialGradient": 1,
+      "rect": 7,
+      "path": 26,
+      "circle": 16,
+      "line": 3,
+      "g": 3
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gemini-3.1-pro-preview",
+    "motivo_fin": "stop",
+    "tokens_salida": 179
+  },
+  "que_dibujaste": {
+    "modelo_respondido": "gemini-3.1-pro-preview",
+    "motivo_fin": "stop",
+    "tokens_salida": 141,
+    "fecha_utc": "2026-10-01T01:33:38+00:00"
+  }
+}
