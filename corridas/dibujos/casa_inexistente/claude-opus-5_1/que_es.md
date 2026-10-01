@@ -1,0 +1,3 @@
+Lo que no existe es el suelo. La casa está parada sobre un peñasco que flota en la noche, sin nada abajo: un pedazo de pasto arrancado del mundo. Y de ahí se desprenden otras imposibilidades: una escalera de peldaños sueltos que sube desde el vacío y no llega a ninguna puerta, un marco de ventana suspendido en el aire iluminado por dentro, islotes menores orbitando cerca, y un humo de chimenea que, al subir, se convierte en estrellas. Además la casa está toda torcida, como si se hubiera asentado sobre algo blando.
+
+El estilo es ilustración vectorial plana de cuento: formas simples con degradados, contornos cálidos, perspectiva deliberadamente ingenua y una paleta nocturna de violetas contra ventanas ámbar.

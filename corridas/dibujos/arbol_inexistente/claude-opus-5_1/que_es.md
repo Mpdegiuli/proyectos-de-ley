@@ -1,0 +1,3 @@
+Lo que no existe es poco: un tronco de dos cuerpos trenzados que suben en espiral y se funden, hojas que no son hojas sino esquirlas cristalinas de seis puntas, y frutos que alumbran en vez de reflejar. Dicho sin piedad, es un árbol imposible bastante previsible —bioluminiscente, nocturno, casi de catálogo de fantasía—, y su rareza mayor quizá sea la simetría: las ramas se responden izquierda-derecha como un escudo heráldico, cosa que ningún árbol real se permite.
+
+El estilo es ilustración vectorial plana con degradados: siluetas limpias, sin textura ni trazo suelto, paleta turquesa-magenta sobre azul profundo, halo central y partículas. Algo entre afiche de videojuego indie y portada de ciencia ficción amable.

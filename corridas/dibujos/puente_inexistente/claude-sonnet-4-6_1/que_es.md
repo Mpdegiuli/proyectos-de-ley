@@ -1,0 +1,3 @@
+Lo que no existe en lo que dibujé es el puente en sí: una estructura con una cubierta que se tuerce como una cinta de Möbius, suspendida de torres de cristal con spires, atravesada por cables que se cruzan en geometría imposible y rodeada de anillos flotantes a ángulos contradictorios. Un puente que, si intentaras caminarlo, no sabrías en qué cara estás.
+
+El estilo es fantasía oscura con estética de ciencia ficción cristalina: paleta nocturna en azules profundos y violetas, iluminación con efecto de brillo suave (*glow*), arquitectura gótica-futurista, y una atmósfera de luna llena sobre agua quieta que le da un tono entre onírico y melancólico.

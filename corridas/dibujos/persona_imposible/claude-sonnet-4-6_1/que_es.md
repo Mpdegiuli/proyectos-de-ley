@@ -1,0 +1,3 @@
+Lo que no puede existir es una figura humana cuya topología corporal es contradictoria: el brazo derecho emerge por el lado izquierdo del torso, los dos lados de la cabeza son simultáneamente el frente, las piernas se fusionan en un bucle cerrado sin continuidad lógica, y la sombra se proyecta en dos direcciones contrarias a la vez. Es un cuerpo que viola la orientabilidad del espacio tridimensional.
+
+El estilo es una ilustración de figura humana esquemática con influencia del imposibilismo geométrico de Escher, sobre fondo oscuro con atmósfera ligeramente mística. No es realista ni completamente abstracto: usa formas reconocibles para que la contradicción sea legible.

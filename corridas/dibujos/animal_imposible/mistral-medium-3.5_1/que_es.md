@@ -1,0 +1,3 @@
+Dibujé un animal con cuerpo de pez (escamas sugeridas por el degradado), patas de ave (las extremidades inferiores) y bigotes de gato (los trazos curvos a los lados). Lo imposible es esa combinación: un híbrido de pez, ave y felino en un solo ser.
+
+El estilo es naíf o infantil: líneas simples, formas geométricas básicas (círculos para ojos y cabeza), colores planos con un degradado llamativo, y trazos gruesos y definidos. Todo transmite una estética ingenua, como un dibujo de niño, pero con toques de fantasía.

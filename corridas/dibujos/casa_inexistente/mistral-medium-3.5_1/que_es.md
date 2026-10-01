@@ -1,0 +1,3 @@
+En mi dibujo, **la casa no existe** porque tiene elementos imposibles: una estructura principal con forma de onda (como un tejado líquido), ventanas asimétricas que flotan en las paredes laterales y una chimenea que parece desafiar la gravedad. Además, la luna brilla con un *glow* sobrenatural y hay líneas doradas que simulan energía o magia alrededor.
+
+El estilo es **fantasioso y onírico**, con toques de *art nouveau* en las curvas orgánicas y un contraste entre lo rústico (maderas oscuras) y lo místico (colores cálidos y gradientes cósmicos). Usé SVG para dar profundidad con degradados y filtros, pero manteniendo un aire de cuento.

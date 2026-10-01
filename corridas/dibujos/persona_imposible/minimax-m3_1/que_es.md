@@ -1,0 +1,3 @@
+Lo que no puede existir es un ser con dos perfiles fundidos en una sola cabeza, con cuello que gira 180°, brazos que nacen del hombro opuesto y se cruzan a través del torso sin solución anatómica, y pies apuntando en direcciones contrarias. Cada parte viola la topología o la simetría del cuerpo humano: es un Janus imposible, una criatura de Escher.
+
+El estilo es un dibujo a línea suelta, casi de tinta sobre papel envejecido, con paleta sepia y pergamino. Tiene aire de ilustración surrealista o de bestiario esotérico, con líneas finas, trazo inseguro y perspectiva que deliberadamente no cierra. Busqué algo entre el boceto anatómico renacentista y el grabado onírico.

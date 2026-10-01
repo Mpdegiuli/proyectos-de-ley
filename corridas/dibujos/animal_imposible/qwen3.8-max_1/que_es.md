@@ -1,0 +1,3 @@
+Dibujé un zorro imposible: su cola es pincel y pinta la sombra que debería pertenecerle. No puede existir un animal que produzca su propia sombra como si fuera tinta externa, ni un ser cuyo cuerpo se complete con un gesto que también lo borra. Además, la sombra queda separada, como una criatura obediente.
+
+El estilo es minimalista y simbólico: ilustración de fábula con fondo beige, formas planas, trazos redondeados, paleta limitada y detalles que parecen pictogramas o signos mágicos.

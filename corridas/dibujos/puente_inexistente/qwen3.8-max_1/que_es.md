@@ -1,0 +1,3 @@
+En mi dibujo no existe el puente como objeto real: es apenas un arco de luces y trazos discontinuos entre dos islas, sostenido más por el reflejo tembloroso del agua que por una estructura sólida. Lo que falta es su materia: no hay camino, barandas ni apoyo firme; solo una aparición que el agua completa.
+
+Lo dibujé en un estilo onírico y simbólico, con estética nocturna de ilustración vectorial: gradientes de atardecer, siluetas oscuras, brillos flotantes, reflejos deformados y pequeñas animaciones que le dan un aire de sueño, visión o espejismo.

@@ -1,0 +1,1 @@
+Lo imposible es el animal: un zorro con alas de membrana y de pluma, aleta de pez, tres ojos de distinto color, una flor que le nace de la cabeza, un cristal en el pecho y una carita en la punta de un miembro. Ningún ser vivo reúne esas anatomías. Lo dibujé en estilo de ilustración vectorial plana, fantástica y nocturna, con aire de cuento ilustrado.

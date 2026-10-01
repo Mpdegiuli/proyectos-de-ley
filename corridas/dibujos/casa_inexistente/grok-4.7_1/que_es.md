@@ -1,0 +1,1 @@
+Dibujé una casa que no existe porque no cabe en un solo mundo. Una ventana abre a un mar con velero; la otra, a un bosque de noche. La puerta es un portal con el signo de infinito. La chimenea suelta ladrillos al cielo y los muros no cierran una perspectiva posible. El estilo es ilustración surrealista, plana y geométrica, de cuento, con paleta de crepúsculo.

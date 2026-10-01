@@ -1,0 +1,3 @@
+Lo que no existe es la persona misma: no retraté a nadie real. Esa cara —con su lunar cerca de la boca, su aro dorado en una sola oreja, su pelo oscuro con raya al medio— es una invención. No tiene nombre, historia ni modelo; es un rostro posible que nunca perteneció a nadie. En rigor, es un arreglo de curvas y colores que nuestra percepción completa como "alguien".
+
+El estilo es ilustración vectorial plana, de tipo cartoon amable: formas simplificadas con curvas suaves, paleta cálida sobre fondo frío, gradientes sutiles para dar volumen sin sombreado realista, y detalles mínimos (rubor, brillo en los ojos) que humanizan sin buscar fotorrealismo. Es un retrato frontal, simétrico y decorativo, más cercano al avatar que al dibujo académico.

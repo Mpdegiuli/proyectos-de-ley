@@ -1,0 +1,3 @@
+Lo imposible está en dos lugares. Primero, las patas: intenté el truco del "tenedor del diablo", un contorno que al bajar se vuelve ambiguo, con una pata de más o de menos según cómo la mires; es el chiste central, aunque admito que ahí quedó más confuso que ilusorio. Segundo, la biología: una cola que termina en otra cabeza y una sola ala, descentrada, que no podría equilibrar ningún vuelo. Más las antenas con pompones, que no van con un cuerpo así.
+
+El estilo es vectorial plano: contornos gruesos azul oscuro, relleno con degradados suaves, paleta pastel fría sobre fondo crema, ojos grandes con brillo, sombra como elipse borrosa. Ilustración amable, tipo libro infantil o sticker, no enciclopedia zoológica.

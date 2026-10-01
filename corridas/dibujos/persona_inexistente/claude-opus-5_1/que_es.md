@@ -1,0 +1,3 @@
+Lo que no existe es la persona: no hay nadie con esa cara. Pero tampoco existen muchas cosas más puntuales que armé para sostenerla. El cráneo no cierra: el pelo es una elipse y dos mechones laterales pegados detrás, sin nuca. Las orejas asoman al costado como pastillas, con aros flotando sobre el pelo. La nariz es una sola línea, sin volumen. Los ojos miran de frente desde una cara que no tiene perfil posible. Es una persona que solo funciona desde este ángulo.
+
+El estilo es ilustración vectorial plana con degradados suaves —retrato de avatar, casi de ilustración editorial amable—: formas grandes y limpias, contorno ausente, luz difusa de halo, pecas y rubor puestos para dar calidez más que para describir.

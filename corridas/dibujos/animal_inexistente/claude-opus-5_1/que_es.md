@@ -1,0 +1,3 @@
+Lo que no existe es, en rigor, una combinatoria: nada ahí es invención pura. Tomé un cuerpo de criatura rechoncha cuadrúpeda, le puse alas de libélula, tres ojos, orejas con interior naranja, púas dorsales, antenas con bulbos luminosos, cola enrulada en espiral y bigotes de gato. El animal inexistente es la suma, no las partes: ninguna de esas piezas es rara por sí sola, lo raro es que convivan en un mismo bicho.
+
+El estilo es ilustración vectorial plana con degradados suaves —mascota o personaje de app infantil, bastante "simpático" y simétrico—, sobre fondo nocturno estrellado con sombra elíptica abajo. Es amable, pulcro y, siendo franco, bastante convencional: más diseño de peluche que criatura verdaderamente ajena.

@@ -1,0 +1,3 @@
+Lo que no existe es el animal en sí: una criatura que combina cuerpo y patas de rana, orejas largas de conejo con puntas bioluminiscentes rosadas, alas membranosas de murciélago en violeta, cola sinuosa de gato con un orbe brillante en la punta, ojos de pupila vertical como un felino nocturno, y manchas bioluminiscentes propias de fauna abisal. Ningún animal real reúne esos rasgos.
+
+El estilo es ilustración digital de fantasía con estética nocturna y bioluminiscente: fondo oscuro casi negro, gradientes suaves, puntos de luz con filtro de glow, paleta de verdes jade, violetas eléctricos y cian, todo con una atmósfera entre cuento ilustrado y criatura de videojuego de rol.

@@ -1,0 +1,3 @@
+Lo que no existe en el puente que dibujé es la materia física continua ni la gravedad. En lugar de unir dos orillas terrestres, creé un paso interdimensional hecho de fragmentos geométricos que levitan desconectados en el espacio, sostenidos solo por estelas de energía. Tampoco tiene pilares ni rampas: empieza y termina en dos portales ovalados flotantes frente a un planeta con anillos.
+
+En cuanto al estilo, lo dibujé con una fuerte estética *synthwave* y retrofuturista espacial. Usé las reglas del *cyberpunk* de los ochenta: un fondo oscuro del espacio profundo contrastando fuertemente con formas geométricas y colores neón hiperbrillantes, dominados de forma absoluta por el cian y el magenta con marcados efectos de resplandor.

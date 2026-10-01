@@ -1,0 +1,3 @@
+Dibujé una casa imposible: está invertida, con el techo apuntando hacia abajo, en una isla que flota en el cielo, con cascadas que suben en vez de caer, una escalera que emerge hacia el vacío, un reloj derretido, humo cayendo, un árbol que crece hacia abajo y piedras suspendidas en el aire. Nada de eso existe: es un mundo onírico donde la gravedad no funciona.
+
+En cuanto al estilo, es surrealista, con una clara influencia de Dalí (el reloj derretido) y de los paisajes flotantes tipo Studio Ghibli (*El castillo en el cielo*). Técnicamente es un SVG con gradientes suaves, paleta nocturna en violetas y naranjas, y formas orgánicas hechas con curvas Bézier.

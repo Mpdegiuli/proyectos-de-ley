@@ -1,0 +1,3 @@
+Lo que no existe es la combinación: un bicho redondo, de cuerpo turquesa, con tres ojos, orejas de conejo, antenas que terminan en bolas de luz, alas translúcidas de insecto, patas de ave y una cola que remata en una flor. Ninguna de esas partes es inventada por sí sola; lo inexistente es el animal que las reúne, un ser que es a la vez mamífero, insecto, pájaro y planta.
+
+El estilo es ilustración vectorial plana, de tono infantil y "kawaii": formas redondeadas, ojos grandes con brillos, sonrisa mínima, paleta pastel sobre un cielo nocturno con luna y estrellas, y degradados suaves que dan algo de volumen sin perder la lectura de dibujo de libro para chicos.

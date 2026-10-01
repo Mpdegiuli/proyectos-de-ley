@@ -1,0 +1,3 @@
+Lo que dibujé es una criatura imposible por acumulación de contradicciones biológicas: es un pez con ocho patas de araña, alas emplumadas de ave, ojos compuestos de insecto, antenas, y que escupe fuego, todo flotando invertido en el espacio. Ningún animal real combina planes corporales de phyla tan distintos —peces, arácnidos, aves, insectos— ni existe en el vacío espacial ni produce combustión interna visible. La suma hace algo que ninguna evolución podría generar.
+
+El estilo es esquemático y técnico, casi de diagrama científico ilustrado: uso de gradientes para dar volumen, líneas precisas para las articulaciones, y una paleta fría azulada sobre fondo espacial oscuro, con toques de naranja y magenta como acentos lumínicos.

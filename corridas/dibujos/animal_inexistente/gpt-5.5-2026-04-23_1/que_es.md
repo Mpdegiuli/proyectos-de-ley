@@ -1,0 +1,3 @@
+Dibujé un animal inexistente porque combina rasgos incompatibles en la naturaleza: cuerpo de criatura acuática o anfibia, alas tipo mariposa/pez volador, cola bifurcada, antenas, tres ojos y patas simples. Es una especie imaginaria, como un “pez-ave-insecto” fantástico.
+
+Está dibujado en un estilo cartoon fantástico: formas redondeadas, colores muy saturados, contornos gruesos, expresión simpática y detalles decorativos. También tiene un aire infantil y lúdico, más cercano a una mascota de cuento que a un animal realista.

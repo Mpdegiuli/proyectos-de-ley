@@ -1,0 +1,3 @@
+Lo que hace que mi árbol no exista es su biología de luz. En lugar de madera o savia, su tronco son haces de pura energía entrelazada. No tiene follaje orgánico; de sus ramas brotan geometrías flotantes, diamantes y lágrimas holográficas. Además, alberga un núcleo alienígena flotante en su centro, y echa raíces sobre anillos magnéticos en el vacío cósmico en lugar de crecer en la tierra.
+
+En cuanto al estilo, lo dibujé con una estética marcadamente *cyberpunk* y *synthwave*. Es arte vectorial de neón que aprovecha colores vibrantes (cian, fucsia y violeta), resplandores intensos y bioluminiscencia para lograr una atmósfera digital y de pura ciencia ficción.

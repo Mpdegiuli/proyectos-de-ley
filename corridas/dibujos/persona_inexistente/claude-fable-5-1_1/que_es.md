@@ -1,0 +1,3 @@
+Lo que no existe es la persona: una mujer joven de rulos oscuros armados con círculos superpuestos, anteojos redondos, pecas, aros dorados y un suéter azul grisáceo. No tiene nombre, modelo ni referente; es un ensamblaje de rasgos genéricos que nunca coincidieron en nadie. Ni siquiera su anatomía es real: la cara es una elipse, el cuello un rectángulo, los rulos geometría pura.
+
+En cuanto al estilo, es ilustración vectorial plana, de tipo retrato frontal digital: formas simplificadas, contornos mínimos, paleta cálida y contenida, y degradados suaves para dar algo de volumen a la piel y la ropa. Está enmarcada en un medallón circular sobre fondo neutro, al modo de los avatares o retratos editoriales contemporáneos, con un leve toque caricaturesco.

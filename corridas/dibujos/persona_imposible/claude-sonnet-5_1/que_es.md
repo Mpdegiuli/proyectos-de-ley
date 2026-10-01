@@ -1,0 +1,3 @@
+Lo que no puede existir: una sola persona con dos cabezas unidas por el mismo cuello (una de ellas invertida, mirando hacia abajo), un torso construido como un triángulo imposible al estilo Penrose, tres brazos que salen de puntos anatómicamente incoherentes, y piernas que se entrelazan y funden en una sola masa antes de separarse en dos pies, como si fueran parte de una escalera de Escher.
+
+El estilo es una mezcla de ilustración digital simple con gradientes suaves (para la piel y la ropa) y geometría de figuras imposibles, inspirada en el arte de Escher y las paradojas visuales tipo Penrose, pero aplicado a una figura humana en vez de a arquitectura.

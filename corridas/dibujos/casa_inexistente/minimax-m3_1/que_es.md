@@ -1,0 +1,3 @@
+Lo que no existe es la casa misma: tiene una geometría imposible, con un techo que se desdobla en planos contradictorios y una buhardilla que parece flotar. Sobre el techo hay una figura humanoide diminuta sosteniendo algo que parece una banderita, y la luna tiene cara, ojos y rasgos, observándolo todo. La escalera lateral zigzaguea sin lógica estructural, las ventanas tienen profundidades que no se corresponden y hay símbolos brillantes tallados en la puerta.
+
+El estilo es naïf-surrealista, con aires de realismo mágico o arte outsider: colores planos y terrosos con gradientes simples, perspectiva intencionalmente torcida, y una atmósfera onírica de atardecer que recuerda a ilustraciones de libros de cuentos o a grabados populares latinoamericanos.

@@ -1,0 +1,1 @@
+Lo que no existe es el barco: lo imaginé con un casco de formas inusuales y velas curvas, como una embarcación fantástica que no corresponde a un modelo real. Lo dibujé en un estilo de ilustración vectorial, estilizado y de aire onírico, con colores cálidos que contrastan con el cielo nocturno.

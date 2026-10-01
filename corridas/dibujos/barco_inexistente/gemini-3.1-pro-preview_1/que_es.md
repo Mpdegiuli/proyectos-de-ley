@@ -1,0 +1,3 @@
+Lo que no existe en mi dibujo es la naturaleza misma de la nave: un velero cósmico que, en lugar de agua, navega por el espacio o una dimensión virtual. No usa tela, sino que se impulsa con velas holográficas de energía pura, flotando sobre un "mar" que es en realidad una cuadrícula luminosa.
+
+En cuanto al estilo, lo dibujé con una marcada estética *synthwave*, *outrun* o retrofuturista de los años 80. Esto se nota en el uso de colores neón vibrantes (cian, magenta y dorado), el contraste extremo contra la oscuridad del cosmos, los efectos de resplandor y las líneas geométricas que recuerdan a *Tron*. Es la fusión entre un galeón clásico y el ciberespacio.

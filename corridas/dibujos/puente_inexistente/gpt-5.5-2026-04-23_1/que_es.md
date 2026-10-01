@@ -1,0 +1,3 @@
+Dibujé un puente que no existe porque no responde a una ingeniería real: nace de rocas cristalinas, se sostiene con arcos de luz, cables imposibles y una calzada flotante de colores, como si uniera dos orillas mediante energía más que por estructura física.
+
+El estilo lo pensé como una fantasía surrealista de ciencia ficción, con estética neón/synthwave: cielo nocturno degradado, brillos mágicos, colores eléctricos y formas orgánicas, entre puente mítico, portal y paisaje onírico.

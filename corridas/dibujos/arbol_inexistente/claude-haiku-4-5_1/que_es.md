@@ -1,0 +1,3 @@
+Lo que no existe en mi dibujo es la combinación de características botánicas imposibles: un árbol con hojas rosadas intenso, flores doradas en las puntas y frutos turquesas brillantes simultáneamente. Además, el tronco ondulante como una serpiente y las raíces cristalinas triangulares le dan una anatomía irreal. Nunca encontrarías un árbol con esta paleta de colores tan vibrante y artificial en la naturaleza.
+
+En cuanto al estilo, es **arte digital fantástico**: utilicé formas geométricas simples, colores saturados y degradados que evocan lo onírico y lo surrealista, más cercano a ilustración vectorial moderna que al realismo botánico. Es estilizado, decorativo, casi como un árbol de cuento de hadas.

@@ -1,0 +1,3 @@
+Lo que no puede existir es la criatura misma: una quimera que reúne en un solo cuerpo partes de animales incompatibles —melena de león, escamas de pez, pico de pato, astas de ciervo, oreja de gato, ala emplumada, cola de tiburón, una pata de ave, una pata con pezuña y una serpiente como extremidad extra—. Ningún linaje evolutivo podría combinar esas piezas, y menos en un animal que vive mitad fuera y mitad dentro del agua.
+
+El estilo es ilustración vectorial plana: formas geométricas simples, contornos limpios, colores alegres con degradados suaves. Algo entre dibujo de libro infantil y bestiario caprichoso, con un aire naif y juguetón.

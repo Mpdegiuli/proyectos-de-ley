@@ -1,0 +1,3 @@
+Lo que no puede existir es el cuerpo. El torso del animal es un triángulo de Penrose: tres vigas que, vistas de a dos, encajan como un objeto sólido en perspectiva, pero que en conjunto se conectan de una manera que ninguna forma tridimensional puede cumplir. El resto (cuello largo, orejitas, manchas, cola con pompón, cuatro patas) es una jirafa perfectamente verosímil; la imposibilidad no es biológica sino geométrica. No es un animal con partes raras, sino uno cuya anatomía es contradictoria en el espacio.
+
+Lo dibujé en estilo plano, vectorial y geométrico: formas simples sin contornos, tres tonos de ocre marcando las caras de la figura imposible, fondo crema y una sombra tenue. Algo entre ilustración infantil y gráfica de afiche minimalista.

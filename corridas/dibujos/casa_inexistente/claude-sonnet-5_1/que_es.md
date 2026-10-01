@@ -1,0 +1,3 @@
+Lo que no existe es la casa misma flotando sobre un fragmento de roca suspendido en el cielo nocturno, sin ninguna columna ni sostén visible —solo raíces y cuerdas colgando en el vacío—, con una torre aparte unida apenas por un puentecito, y una chimenea torcida que igual larga humo como si la física fuera opcional.
+
+Está dibujado en un estilo de ilustración fantástica tipo cuento infantil o "whimsical", con geometría deliberadamente imperfecta: techos asimétricos, paredes levemente rotadas, ventanas de formas distintas entre sí. La paleta con gradientes de atardecer-noche, luciérnagas y luna doble le da un aire onírico, como de portada de libro de fantasía más que de arquitectura realista.

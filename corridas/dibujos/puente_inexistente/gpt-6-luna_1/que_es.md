@@ -1,0 +1,1 @@
+Dibujé un puente imaginario: su calzada serpentea y se curva en una especie de arco ovalado inclinado, como si flotara sobre el agua. No representa una estructura real. Lo dibujé en un estilo de ilustración vectorial, con un aire surrealista y onírico: degradados, luces cálidas y una atmósfera de crepúsculo.

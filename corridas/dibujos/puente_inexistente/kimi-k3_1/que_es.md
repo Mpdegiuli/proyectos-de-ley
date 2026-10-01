@@ -1,0 +1,3 @@
+Lo que no existe es el puente mismo y todo su entorno: dibujé un puente de cuerda trenzada que se anuda sobre sí mismo en un lazo imposible, suspendido entre dos islas que flotan en el aire. No se apoya en pilares: lo sostienen cristales levitantes atados con hilos de luz. Además, de la isla mayor cae una gota al mar, pero de la isla chica el agua sube en lugar de bajar, una cascada invertida. Cuelgan farolitos que se mecen.
+
+El estilo es ilustración vectorial plana (flat design) de fantasía: formas simples y redondeadas, degradados suaves, paleta nocturna de violetas y turquesas con acentos luminosos cálidos, aire de cuento onírico o de lámina infantil, con algo de animación sutil.

@@ -1,0 +1,3 @@
+Lo que no existe es un árbol cristalino bioluminiscente que crece en un espacio interestelar, con hojas hexagonales que emiten luz propia en frecuencias imposibles —cian, magenta, naranja— y un tronco hecho de prismas translúcidos con runas grabadas. Sus raíces flotan sobre un suelo que es apenas una sugerencia de materia oscura, y sus esporas viajan sin viento hacia ningún lado.
+
+El estilo es cyberpunk-cósmico con geometría cristalina: combina la estética de neón sobre fondo oscuro del cyberpunk con formas poligonales duras y halos de luz difusa, como si un mineral radiactivo hubiera decidido volverse árbol en algún rincón del universo que todavía no tiene nombre.

@@ -1,0 +1,3 @@
+Lo que no existe es el barco mismo: un híbrido entre casco, globos, velas imposibles y tentáculos que cuelgan como si estuviera vivo. No es una embarcación real ni funcional, sino una criatura-flotante.
+
+El estilo es surrealista y onírico, con aire de ilustración fantástica nocturna. Usé una paleta cósmica con violetas, azules, rosas y toques dorados, más una luna brumosa y estrellas. Hay ornamentos, líneas curvas y una atmósfera de sueño: ni mar ni cielo se distinguen del todo.

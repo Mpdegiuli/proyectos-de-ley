@@ -1,0 +1,1 @@
+En lo que dibujé no existe un barco real: existe solo un barco imaginario, una nave nocturna con velas luminosas. Está dibujado en un estilo de ilustración vectorial sintética, con formas simples, gradientes suaves y atmósfera onírica de cuento nocturno.

@@ -1,0 +1,3 @@
+Lo que no existe en mi dibujo es el árbol mismo: no es ninguna especie real, sino un híbrido imposible con tronco en doble hélice, un ojo abierto, una puerta en la base, raíces que se curvan hacia arriba, frutos rosados con anillos orbitales y ramas doradas que se bifurcan como fractales. Es una criatura vegetal inventada.
+
+Está dibujado en un estilo surrealista-fantástico, con ecos de arte fractal y paisaje onírico cósmico: fondo nocturno estrellado, halo de neblina brillante, colores cálidos metálicos y formas orgánicas que desafían la lógica.

@@ -1,0 +1,3 @@
+Lo que dibujé y no existe es un árbol que da frutos de vidrio con pequeñas lunas crecientes y anillos orbitales adentro y alrededor. Tiene hojas con marcas que parecen ojos, un tronco verde azulado y raíces sobre una isla de roca suspendida. La imposibilidad está en esa combinación: conserva la estructura reconocible de un árbol, pero mezcla botánica y cuerpos celestes.
+
+Lo ubico en una fantasía botánica de aire onírico, con ecos del art nouveau en las curvas del tronco y las formas vegetales ornamentales. Lo dibujé como una ilustración vectorial decorativa: contornos limpios, degradados suaves y una paleta nocturna de turquesas, rosas y dorados.

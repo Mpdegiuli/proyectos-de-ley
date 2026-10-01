@@ -1,0 +1,3 @@
+Lo que no existe es la persona entera: nadie posó, no copié ningún rostro. Pero cada pieza sí existe: el pelo voluminoso y rizado, los anteojos de marco rojizo, las pecas, los aros dorados, el suéter verde azulado y la bufanda amarilla. Lo inexistente es la combinación, y un nombre que no tiene. También hay detalles que en el mundo real no se sostendrían, como las patillas de los anteojos que terminan en el aire y un cuello sin nuca debajo del pelo.
+
+El estilo es ilustración vectorial plana, casi de avatar o libro infantil: formas geométricas simples (círculos para el pelo, elipses para los ojos), degradados suaves, colores cálidos y una simetría deliberada.

@@ -1,0 +1,1 @@
+No existe mi casa: la dibujé como una vivienda imposible, colgada de la luna y balanceada sobre la noche, con ventanas encendidas, péndolo y gotas de luz. Es un hogar soñado, no real. Está dibujada en un estilo de ilustración vectorial onírica e infantil: formas simples y planas, colores nocturnos, degradados suaves, brillos redondeados y un aire de cuento con movimiento sutil.

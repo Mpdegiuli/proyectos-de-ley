@@ -1,0 +1,3 @@
+Lo que no existe en mi dibujo es, precisamente, un ser humano de carne y hueso. Lo que retraté es una entidad puramente digital, un constructo sintético o inteligencia artificial (como lo delata la etiqueta "UNREAL_ENTITY" en la interfaz). Carece de anatomía biológica; es un sujeto formado únicamente por energía, nodos y geometría.
+
+Respecto al estilo, lo dibujé con una fuerte estética *cyberpunk* y *synthwave*. Tiene el aspecto visual de una interfaz holográfica futurista (tipo HUD) y modelado *wireframe*. Se basa en colores neón muy saturados (cian, magenta y violeta) brillando sobre un fondo oscuro, logrando un clima de ciencia ficción retro-futurista.

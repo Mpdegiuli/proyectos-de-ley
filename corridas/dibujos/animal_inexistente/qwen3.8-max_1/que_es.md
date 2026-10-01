@@ -1,0 +1,3 @@
+Lo que no existe es el animal: inventé al “faroludo”, una criatura nocturna y luminosa con cuerpo redondeado, patitas, cola, antenas con faroles y ojos grandes. Es un ser imposible, parecido a un insecto o mascotita de fantasía.
+
+Está dibujado en un estilo de ilustración vectorial infantil o fantástica, con colores suaves, gradientes, brillo, cielo nocturno y un tono tierno, casi de cuento animado.

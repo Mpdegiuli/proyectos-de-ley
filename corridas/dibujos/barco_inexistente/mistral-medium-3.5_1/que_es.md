@@ -1,0 +1,3 @@
+En mi dibujo, **el barco no existe** porque es una invención: tiene un casco asimétrico con proa y popa elevadas, tres velas triangulares superpuestas (algo poco común) y una bandera roja con un círculo dorado, sin referente real. Además, los mástiles y detalles como los remos dorados son fantásticos.
+
+El estilo es **ilustración digital con toques de fantasía**: uso degradados azules para el agua y el cielo, velas semitransparentes con gradientes radiales, y un sol con efecto de brillo. Las líneas son limpias pero orgánicas (olas, nubes), y los colores cálidos del barco contrastan con el fondo frío. Es un estilo *naíf* pero con profundidad, como un cuento ilustrado.

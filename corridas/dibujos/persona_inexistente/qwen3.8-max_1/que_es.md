@@ -1,0 +1,3 @@
+No existe la persona que dibujé: es Nadie, un ser inventado sin identidad fija ni referencia real. Su existencia es solo gráfica; la luna, la polilla, las estrellas y los aros desparejos sugieren una historia, pero no la prueban.
+
+La dibujé en un estilo ilustrativo, simbólico y levemente surrealista, con aire de afiche o grabado nocturno: paleta de violetas, dorados y crema, formas simples, detalles decorativos, textura de grano y una puesta poética más que realista.

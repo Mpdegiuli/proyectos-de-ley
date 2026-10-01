@@ -1,0 +1,3 @@
+Lo que no existe es el animal como conjunto: dibujé una criatura de cuerpo redondeado y patas cortas, con astas ramificadas de puntas luminosas, orejas que parecen pétalos, una aleta lateral vegetal y una cola larga enroscada con una hoja. Sus partes recuerdan a animales y plantas reales, pero esa combinación no corresponde a ninguna especie existente.
+
+Lo dibujé en un estilo de ilustración vectorial fantástica y tierna, cercano al cuento infantil y a la estética kawaii: formas suaves, ojos grandes y brillantes, contornos definidos y degradados delicados. Los verdes menta y rosas sobre el fondo nocturno le dan un aire mágico.

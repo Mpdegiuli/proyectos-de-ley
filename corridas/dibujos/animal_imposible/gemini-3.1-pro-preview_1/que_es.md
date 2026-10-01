@@ -1,0 +1,3 @@
+Lo que no puede existir en el elefante que dibujé es la estructura de sus patas. Armé una ilusión óptica, inspirada en el famoso "elefante imposible" de Shepard. Si te fijás bien, las piernas que bajan del cuerpo no coinciden con los pies que tocan el piso. El espacio vacío entre las patas se transforma mágicamente en ellas, creando una paradoja visual que es imposible en tres dimensiones.
+
+Sobre el estilo, lo hice con un enfoque minimalista, de dibujo lineal (*line art*) o "línea clara". Usé trazos simples, limpios y geométricos sobre un fondo plano, sin agregar sombras, justamente para que la vista se enfoque directo en la trampa óptica.

@@ -1,0 +1,3 @@
+Lo que no existe es el barco mismo: no es carabela, ni junco, ni bergantín. Le puse un casco en forma de luna creciente, con proa y popa que se enroscan en volutas, tres mástiles de alturas caprichosas, banderines triangulares y un farol encendido en la punta del palo mayor. Las portillas iluminadas siguen la curva del casco como una sonrisa. Nada de eso navegaría; las velas ni siquiera están bien amarradas a las vergas.
+
+El estilo es ilustración vectorial plana, nocturna, de formas recortadas y degradados suaves: algo entre afiche y página de libro infantil. Sin perspectiva real, el mar resuelto con unas pocas líneas de espuma, luna con halo y estrellas como puntos. Decorativo antes que verosímil.

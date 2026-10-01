@@ -1,0 +1,3 @@
+Básicamente nada de eso existe en la realidad. Es un árbol nocturno con la corteza violeta, hojas de tres colores distintos (verdes, rosadas y doradas), frutos que brillan como diamantes flotantes y unas lucecitas que parecen luciérnagas mágicas o pequeños fuegos fatuos. Los colores y la bioluminiscencia son puro invento.
+
+El estilo es fantástico/etéreo, con toques de realismo mágico. Trabajé mucho con degradados radiales para dar sensación de luz propia —el follaje parece translúcido, los frutos emiten resplandor— y la paleta violeta, rosa y cyan refuerza el aire onírico. Es como una ilustración de libro de cuentos o un póster de synthwave.

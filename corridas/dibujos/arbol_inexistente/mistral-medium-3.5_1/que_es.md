@@ -1,0 +1,3 @@
+Dibujé un árbol con **hojas bioluminiscentes** (esos círculos y degradados brillantes en tonos turquesa y dorado), algo que no existe en la naturaleza. También le di un **tronco con textura de gradiente oscuro** y raíces visibles, pero lo fantástico son las hojas que emiten luz, como si fueran orgánicas y a la vez mágicas.
+
+El estilo es **ilustración digital con toques de fantasía y realismo onírico**: líneas orgánicas, degradados suaves, detalles minimalistas (como las raíces) y un fondo oscuro que resalta lo etéreo. Usé SVG puro, con filtros de brillo para simular luminosidad.

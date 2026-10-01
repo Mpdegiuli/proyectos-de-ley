@@ -1,0 +1,1 @@
+Lo que no puede existir es la persona misma: no hay ninguna figura, solo la ausencia total en el lienzo. Esa nada es la imposibilidad hecha visible. En cuanto al estilo, está dibujado como un vacío absoluto: minimalismo conceptual, lienzo en blanco, no-representación.

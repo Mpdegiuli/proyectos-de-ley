@@ -1,0 +1,3 @@
+Lo que no existe es la casa en sí: dibujé una tetera gigante habitable, flotando sobre nubes, con puerta, ventanas, reloj, chimenea y una escalera colgante. Es un híbrido imposible entre objeto doméstico y vivienda, que desafía la lógica.
+
+El estilo es una ilustración vectorial fantástica, con aires de cuento infantil caprichoso o surrealismo amable: colores saturados, gradientes, formas redondeadas y detalles decorativos que evocan un mundo de ensueño.

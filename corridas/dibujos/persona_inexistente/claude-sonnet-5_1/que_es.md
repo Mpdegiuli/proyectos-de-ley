@@ -1,0 +1,3 @@
+Lo que no existe es la persona misma: no hay un modelo real detrás, es un rostro genérico armado por combinación de rasgos "promedio" —simetría marcada, piel sin textura real, proporciones idealizadas— que no corresponde a nadie en particular. Es una cara creíble pero inventada por completo, sin referencia fotográfica.
+
+En cuanto al estilo, lo hice como una ilustración plana tipo vectorial/flat design, con gradientes suaves para dar volumen básico (en piel, pelo y remera), líneas limpias y un aire semi-realista pero simplificado, más cercano a un ícono o avatar estilizado que a un retrato detallado.

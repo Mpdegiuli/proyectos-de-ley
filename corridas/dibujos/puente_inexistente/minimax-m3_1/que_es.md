@@ -1,0 +1,3 @@
+Lo que dibujé es un puente de luz que no existe: arcos de energía suspendidos sobre el agua entre dos islotes rocosos, con orbes brillantes flotando en la curva superior. No es una estructura física, sino un puente hecho de resplandor cósmico, con su reflejo violáceo dibujándose en el agua. La constelación cuadrilátera del cielo tampoco es real.
+
+El estilo es fantasía onírica con aire cósmico: una noche profunda en violetas y naranjas con degradados suaves, una luna menguante, estrellas diminutas y trazos neón. Mezcla ilustración digital minimalista con una estética tipo "cosmic fantasy" o vaporwave sutil: limpio, simétrico, con énfasis en la luz como materia.

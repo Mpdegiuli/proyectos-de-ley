@@ -1,0 +1,3 @@
+Lo que no existe es el árbol: no es una especie, es un híbrido imposible. Tiene hojas de gema tallada, savia que brilla en cian y magenta, ojos en el tronco, raíces de cristal y anillos que orbitan la base como si fuera un planeta. El cielo tampoco es real: un astro geométrico, niebla de aurora y trazos de oro.
+
+Lo dibujé en fantasía oscura bioluminiscente, entre el surrealismo cósmico y la ilustración cristalina: noche profunda, neón y geometría de gema sobre curvas orgánicas.

@@ -1,0 +1,1 @@
+Dibujé un árbol imaginario: no representa una especie real en particular. Lo que no existe es ese árbol de ramas curvas, hojas verde turquesa y frutos luminosos, suspendido en una atmósfera nocturna casi cósmica. Lo hice en un estilo de ilustración vectorial fantástica, con formas estilizadas, degradados suaves y pequeños efectos de brillo.

@@ -1,0 +1,3 @@
+Lo que no existe en lo que dibujé es una casa con ventanas-ojo que parecen pupilas vivas, un techo flotante desconectado de las paredes, torres simétricas con iris brillantes, y una puerta arqueada que emite luz interna violeta. Es una arquitectura orgánica e imposible: una estructura que observa, que respira, construida con lógica de ser vivo más que de edificio.
+
+El estilo es gótico-psicodélico de ciencia ficción, con influencias del art nouveau oscuro y la estética *dark fantasy*. Usé gradientes profundos en púrpura y negro, resplandores neón, una luna en cuarto creciente y orbes flotantes que crean una atmósfera de pesadilla onírica elegante.

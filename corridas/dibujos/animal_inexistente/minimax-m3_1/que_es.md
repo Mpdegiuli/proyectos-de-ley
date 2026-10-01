@@ -1,0 +1,3 @@
+Es una criatura imposible: un híbrido de hongo y arácnido. Tiene cuerpo globular azul, una capucha rosada con lunares blancos (típica de un *Amanita muscaria*), cinco patas articuladas como las de un insecto, y dos antenas que terminan en orbes luminosos. Nada de eso existe: ni en la naturaleza hay un animal así, ni los hongos tienen patas ni los arácnidos llevan sombrero. Es una invención onírica.
+
+El estilo es digital con gradientes radiales y un toque de ilustración *fantasy* o *kawaii* oscuro, sobre un fondo cósmico con estrellas y orbes flotantes. Los filtros de brillo le dan un aire mágico, casi de cuento o de *storybook* moderno.

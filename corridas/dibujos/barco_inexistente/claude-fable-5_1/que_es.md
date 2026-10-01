@@ -1,0 +1,3 @@
+Lo que no existe es el barco mismo: un barco-criatura, mitad embarcación y mitad pez-ballena, con escamas en el casco, un ojo en la proa, cola de pez en la popa y aletas que reman en el aire. Además navega por el cielo nocturno sobre nubes en vez de agua, deja una estela de polvo estelar y sus velas son medusas luminosas y translúcidas. Nada de eso existe: ni barcos vivos, ni veleros voladores, ni velas de medusa.
+
+El estilo es de ilustración plana y decorativa, tipo cuento infantil o cartel onírico: formas simples con contornos marcados, gradientes suaves, paleta nocturna de violetas y rosas contrastada con turquesas brillantes, y detalles fantásticos como luna dorada, peces voladores y faroles que brillan.

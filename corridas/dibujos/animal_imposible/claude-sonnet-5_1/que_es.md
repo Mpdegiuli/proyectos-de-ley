@@ -1,0 +1,3 @@
+Lo que no puede existir: es una criatura imposible por acumulación —tiene caparazón de caracol, alas de insecto o hada, cola de pez, patas de tentáculo con ventosas, cuello de ave, pico, un cuerno de cabra y tres ojos. Ningún plan corporal real mezcla moluscos, artrópodos, peces y aves en un solo cuerpo funcional; además la simetría de tres ojos rompe la bilateralidad típica de los animales.
+
+Estilo: es una ilustración digital plana con gradientes suaves, de aire infantil o de cuento, cercana al "flat design" con toques de acuarela digital. Los contornos marcados y los colores saturados le dan un aspecto de criatura de libro de fantasía más que de estudio naturalista.

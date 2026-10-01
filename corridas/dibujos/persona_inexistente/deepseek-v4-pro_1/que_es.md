@@ -1,0 +1,3 @@
+Lo que no existe es la persona que dibujé: un ser inventado, híbrido entre humanoide y criatura, con alas rosadas, piel celeste, un ojo grande verde y otro pequeño violeta, nariz amarilla, sombrero alto y traje violeta. No corresponde a ninguna persona real ni especie conocida.
+
+El estilo es ilustración vectorial plana, naíf y algo surrealista, con formas geométricas simples, colores saturados y un aire lúdico/onírico.

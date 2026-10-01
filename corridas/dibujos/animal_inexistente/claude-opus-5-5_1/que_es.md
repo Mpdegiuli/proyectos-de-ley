@@ -1,0 +1,3 @@
+Lo que no existe es la mezcla. Dibujé una criatura de cuatro patas con cuerpo verde agua manchado y un caparazón de caracol en espiral sobre el lomo. Tiene alas translúcidas de insecto, rosas y violetas, y una cola que termina en un penacho rosa. La cabeza, con un pico corto anaranjado, tiene tres ojos sobre tallos, como antenas de caracol, y cada uno brilla con un halo amarillo. Las patas terminan en pies naranjas, parecidos a almohadillas.
+
+El estilo es una ilustración vectorial de dibujo animado, tierna, como de libro infantil. Usé formas simples y redondeadas, degradados suaves y casi nada de contorno. La escena es un atardecer que ya se vuelve noche, con luna, estrellas, colinas oscuras y algunas luciérnagas.

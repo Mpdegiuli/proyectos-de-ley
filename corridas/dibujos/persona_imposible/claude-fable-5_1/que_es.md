@@ -1,0 +1,3 @@
+Dibujé una persona imposible por varias razones a la vez: la cabeza flota separada del cuello (marqué el corte con una línea punteada), tiene tres ojos, y en el pecho hay un agujero por el que se ve el cielo de fondo —nubes incluidas—, como si el cuerpo fuera hueco o transparente. Además, un antebrazo está desprendido y saluda flotando en el aire, las rodillas se doblan hacia atrás y los zapatos apuntan en direcciones contradictorias. Ningún cuerpo humano puede sostener todo eso junto.
+
+El estilo es caricatura plana y amable: formas geométricas simples, colores pastel, trazos redondeados y un fondo infantil con sol, nubes y pasto. Lo imposible contrasta con esa estética alegre, casi de libro ilustrado para chicos.

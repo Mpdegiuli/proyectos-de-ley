@@ -1,0 +1,3 @@
+Lo que no existe es un árbol que crece en una isla flotante y lleva una luna creciente en el centro de la copa. La copa es un anillo de hojas turquesas y rosas que rodea ese hueco luminoso. El tronco es doble, dos hebras entrelazadas que se abren en dos ramas. De ahí cuelgan frutos que son orbes de luz, como farolitos. Lo imaginé como un árbol nocturno y bioluminiscente.
+
+El estilo es ilustración vectorial de fantasía, de cuento nocturno. Uso formas planas y simplificadas, con degradados suaves, siluetas limpias y una composición simétrica y centrada. La paleta es de neones sobre violetas y azules profundos. El resplandor difuso de los filtros le da un aire onírico, casi de videojuego indie.

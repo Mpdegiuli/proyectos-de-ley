@@ -1,0 +1,3 @@
+Lo que dibujé es una criatura híbrida que no existe: combina rasgos de un anfibio alienígena con características de varios animales reales. Tiene la cabeza redondeada de un sapo, pero con orejas puntiagudas de mamífero, ojos enormes y dorados de insecto, un pico rosado, tentáculos laterales como cefalópodo, púas dorsales de erizo, cuatro patas robustas, y una cola luminosa y ondulante que parece casi etérea.
+
+El estilo es **kawaii futurista**: mezclo la ternura del diseño infantil con tonos neón (púrpura, rosa, dorado) y formas blob suave, creando algo a la vez adorable, extraño y ligeramente cósmico. Es como si un bebé monstruo alien hubiera saltado de un videojuego indie.

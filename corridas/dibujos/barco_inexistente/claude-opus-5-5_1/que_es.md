@@ -1,0 +1,3 @@
+Lo que no existe es el barco entero: un caracol que hace de nave. La concha espiralada es el casco, con cuatro ojos de buey amarillos; en lugar de velas tiene dos alas de mariposa translúcidas, con ocelos, colgadas de un mástil con banderín y farol. Debajo no hay remos sino patas de insecto. No navega agua: avanza sobre un mar de nubes rosadas, al atardecer, mientras pasan peces voladores frente a la luna.
+
+El estilo es ilustración vectorial plana, de libro infantil o fábula: formas simples y redondeadas, contornos marrones, degradados suaves, paleta cálida de violetas, durazno y verdes pastel. Es más naif que detallado, y algunas uniones quedaron toscas.

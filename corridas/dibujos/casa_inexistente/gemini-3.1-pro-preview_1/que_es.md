@@ -1,0 +1,3 @@
+Lo que no existe en mi dibujo es la física. Diseñé una vivienda partida en dos que flota en el espacio sobre un pequeño asteroide; una mitad está al derecho y la otra cuelga boca abajo, desafiando la gravedad. Están conectadas por un circuito de luz líquida que viaja por el vacío, rodeadas por anillos de energía y cristales que levitan.
+
+Sobre el estilo, la dibujé con una estética de ciencia ficción surrealista y fantasía cósmica. Es un arte vectorial geométrico, con una paleta muy inspirada en el *synthwave* y el *cyberpunk* (tonos violetas, cian y dorados con intensos brillos neón), ideal para resaltar ese ambiente futurista, onírico e irreal.

@@ -1,0 +1,3 @@
+Lo que no existe es el árbol mismo: en lugar de hojas tiene una copa hecha de esferas luminosas, como burbujas o frutos de vidrio en tonos turquesa, magenta y violeta; sus ramas terminan en espirales de helecho imposible, cuelgan de él gotas de luz como luciérnagas cautivas y a sus pies crecen hongos bioluminiscentes. Ninguna especie combina esas cosas: es un árbol-lámpara, un árbol de otro mundo.
+
+El estilo es ilustración vectorial de fantasía, con aire de cuento infantil nocturno: formas planas y redondeadas, degradados suaves, brillos y desenfoques que simulan luz propia. Una escena onírica y amable, más cercana a un libro ilustrado o a un fondo de animación que al realismo.

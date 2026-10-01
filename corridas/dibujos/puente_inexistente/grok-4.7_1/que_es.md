@@ -1,0 +1,3 @@
+Lo que no existe es el puente: un anillo de piedra cerrado, suspendido entre dos acantilados, por el que caminan figuras. No une orillas en línea ni se apoya en el agua; es un círculo y, a la vez, una ventana: en su centro se ve otro paisaje, con luna, casa y árbol.
+
+Lo dibujé como ilustración vectorial plana, de cuento fantástico nocturno: gradientes suaves, paleta de crepúsculo, contornos simples y un aire de viñeta soñada, más decorativo que realista.

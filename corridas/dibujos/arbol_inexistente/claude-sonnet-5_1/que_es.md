@@ -1,0 +1,3 @@
+Lo que no existe es un árbol con tronco en espiral que crece como si girara sobre su propio eje, con hojas cristalinas en forma de rombos que brillan con luz propia (cian) y frutos que parecen pequeños soles (dorados), todo flotando en una atmósfera nocturna con partículas mágicas suspendidas en el aire. No es un árbol de ninguna especie real: es más bien un híbrido entre planta y criatura luminosa.
+
+El estilo es una mezcla de fantasía digital y simbolismo onírico, con paleta nocturna violeta-azulada, gradientes suaves y resplandores (glow) que le dan un aire místico, casi de ilustración de cuento o videojuego fantástico.

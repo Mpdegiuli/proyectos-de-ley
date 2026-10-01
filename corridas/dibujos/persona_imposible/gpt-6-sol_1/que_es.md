@@ -1,0 +1,3 @@
+Dibujé una persona imposible: tiene un tercer ojo, la cabeza separada del cuerpo y, donde debería estar el corazón, una ventana en la que vive una versión diminuta de sí misma, cabeza abajo. Sus piernas se deshacen en raíces y constelaciones; una mano sostiene el día y la otra, la noche.
+
+La dibujé en un estilo de ilustración digital fantástica y surrealista, con formas simples, colores suaves sobre un fondo oscuro y detalles de aire cósmico.

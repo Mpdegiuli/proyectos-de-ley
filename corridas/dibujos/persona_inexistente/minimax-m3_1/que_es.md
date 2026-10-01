@@ -1,0 +1,3 @@
+Lo que dibujé no existe: inventé cada rasgo —los ojos verdes, el pelo castaño oscuro, la boca roja, la camisa violeta con botonadura— sin参照a nadie real. No es retrato de una persona concreta ni mezcla de una foto; es una persona imaginaria de pies a cabeza, creada solo con formas y gradientes.
+
+El estilo es ilustración vectorial plana con degradados: siluetas limpias y redondeadas, sin contornos duros, con sombreado suave por gradientes lineales y radiales. Tiene algo de retrato moderno tipo avatar de app o personaje de cuento ilustrado: anatómicamente sencillo, expresivo, con detalles simpáticos como los brillos en los ojos y el rubor en las mejillas, pero sin asperezas realistas.

@@ -1,0 +1,3 @@
+Lo que no existe es el árbol: inventé un “lunario”, un árbol nocturno que en lugar de frutos hace brotar pequeñas lunas. Tampoco existe su ecosistema: un cielo verdeazulado con estrellas que parpadean, hojas que caen girando como chispas y raíces sobre una roca flotante.
+
+Está dibujado en un estilo fantástico y onírico de ilustración vectorial: escena nocturna estilizada, con gradientes suaves, brillos cálidos, siluetas simples y detalles decorativos, como una lámina de cuento.

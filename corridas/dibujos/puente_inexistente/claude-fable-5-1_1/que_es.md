@@ -1,0 +1,3 @@
+Lo que no existe es el lugar y la física del puente. Dibujé dos islas de roca que flotan en el cielo, con árboles arriba y cascadas que caen hacia un mar de nubes, sin tocar suelo alguno. Entre ellas tendí un arco de piedra que no se apoya en pilares: lo sostiene un único mástil que nace del propio tablero, con cables dorados tirando hacia las orillas. El mástil se para sobre lo que sostiene, algo imposible. Debajo cuelgan faroles encendidos sobre el vacío.
+
+El estilo es ilustración vectorial plana, de cuento nocturno: formas simples sin contornos, gradientes para el cielo y la luna, resplandores suaves y una paleta de violetas, rosados y dorados, más atmosférica que realista.

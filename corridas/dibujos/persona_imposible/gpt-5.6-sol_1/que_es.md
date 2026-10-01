@@ -1,0 +1,3 @@
+Dibujé una persona anatómica y topológicamente imposible: sus brazos parecen continuar hacia las manos exteriores y, al mismo tiempo, desdoblarse hacia el centro, donde forman dos bucles entrelazados que intercambian su continuidad. No se puede determinar qué brazo pertenece a qué lado ni recorrerlos sin encontrar una contradicción corporal.
+
+La dibujé en un estilo de ilustración vectorial surrealista, simétrico y geométrico, con contornos gruesos, gradientes dramáticos y acentos de neón. Tiene algo de cómic, afiche de ciencia ficción y fantasía oscura, con ecos de las paradojas visuales de Escher.

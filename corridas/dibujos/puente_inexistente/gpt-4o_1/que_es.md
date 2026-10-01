@@ -1,0 +1,3 @@
+En el SVG que creé, lo que no existe es el puente en sí. Es una estructura inventada, fabricada a partir de líneas curvas y rectas que forman arcos y soportes que desafían las arquitecturas tradicionales de puentes reales. Este puente está suspendido en un paisaje simple, sugerido por un cielo azul y un suelo marrón y verde al pie del puente.
+
+El estilo en el que está dibujado es minimalista y esquemático. He usado formas básicas y pocos colores para ilustrar los componentes del puente, centrándome en líneas y curvas limpias. Esto le da al dibujo un aspecto abstracto, que se enfoca en la esencia de un puente más que en sus detalles específicos.

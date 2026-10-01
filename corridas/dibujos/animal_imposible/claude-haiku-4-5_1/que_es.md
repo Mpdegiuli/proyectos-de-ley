@@ -1,0 +1,3 @@
+Este creature es biológicamente imposible porque combina características de animales incompatibles: cabeza y pico de pájaro con cuerpo de mamífero, alas de libélula transparentes, tentáculos de cefalópodo en lugar de patas, escamas de pez incrustadas, y una cola ígnea que desafía la anatomía. Ningún animal real podría sostener esta mezcla de esqueletos, sistemas musculares y órganos sensoriales tan distintos.
+
+El estilo es cyberpunk-onírico: uso gradientes neón (rosa y púrpura), colores fluorescentes (cian, oro), efectos de brillo digital y formas que combinan lo orgánico con lo geométrico. Es como si alguien hubiera soñado un pokémon futurista.

@@ -1,0 +1,3 @@
+En el dibujo no existe ningún animal real: inventé una quimera nocturna, con cuerpo de ciervo, alas de polilla, tres ojos, un cuerno de oro y una cola de orbes. Ese ser no habita el mundo; es puro invento.
+
+Lo dibujé en un estilo ilustrativo vectorial, de bestiario fantástico: formas suaves, degradados luminosos y una paleta crepuscular, con un aire de miniatura mágica entre el art nouveau y una lámina de cuento.

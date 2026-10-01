@@ -1,0 +1,3 @@
+Lo imposible no es el pez, que es bastante común, sino su relación con la pecera. En la panza del pez hay una ventana oscura, y adentro está otra vez la misma pecera con el mismo pez, que a su vez la lleva en la panza, y así sucesivamente. El pez vive dentro de algo que vive dentro de él. Es un bucle de contención: cada uno es a la vez continente y contenido, algo que ningún animal real puede ser.
+
+El estilo es ilustración vectorial plana, de libro infantil o caricatura amable: formas simples, contornos marcados, degradados suaves, un fondo nocturno con estrellas y una leyenda en cursiva serif, como el título de una fábula.

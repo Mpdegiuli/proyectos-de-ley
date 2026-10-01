@@ -1,0 +1,3 @@
+Lo que no existe es el barco mismo: el "Barcoluna". Su casco tiene forma de luna creciente dorada, en lugar de velas despliega alas de mariposa translúcidas que se mueven, cuelgan faroles encendidos de proa, popa y quilla, y una lamparita brilla en lo alto del mástil. Parece flotar entre el mar y el cielo, más cerca de volar que de navegar, acompañado por un pajarito y destellos dorados. Ningún astillero podría construirlo: es una nave de sueño.
+
+El estilo es ilustración vectorial fantástica, con aire de cuento infantil: formas planas y curvas, degradados suaves, brillos y halos de luz, paleta nocturna de azules y turquesas con acentos cálidos, y animaciones sutiles que le dan un clima onírico, tierno y luminoso.

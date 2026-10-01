@@ -1,0 +1,3 @@
+Lo que no existe de este animal es su anatomía híbrida y cósmica. Diseñé una criatura que mezcla los rasgos de un felino con una polilla alienígena; tiene antenas ramificadas, múltiples ojos luminosos, alas de energía y anillos geométricos punteados que orbitan su cuerpo como si tuviera gravedad propia. Además, posee fragmentos y gemas que flotan desconectados de su cabeza.
+
+En cuanto al estilo, lo dibujé con una estética *synthwave* o neón-futurista, combinada con arte vectorial geométrico y abstracto. Usé una paleta de colores cian, magenta y violeta vibrantes, simetría perfecta y un fuerte efecto de brillo (glow) sobre un fondo espacial oscuro, lo que le da un aspecto holográfico, digital y puramente extraterrestre.

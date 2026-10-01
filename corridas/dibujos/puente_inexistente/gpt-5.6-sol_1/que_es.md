@@ -1,0 +1,3 @@
+Lo que no existe es el puente mismo: una estructura fantástica suspendida entre islotes, con arcos entrelazados casi imposibles, una calzada curva y un remate central parecido a una aguja luminosa. No representa ningún puente real identificable.
+
+Lo dibujé en un estilo de ilustración vectorial fantástica, con aire de cuento y estética nocturna. Usé formas simplificadas, degradados, siluetas en capas y luces suaves para crear profundidad y una atmósfera onírica, entre romántica y surrealista.

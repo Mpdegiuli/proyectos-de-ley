@@ -1,0 +1,1 @@
+Lo que no puede existir es el animal: tiene un cuerpo en forma de anillo, atravesado por un cuello, dos cabezas distintas —una de zorro y otra de pez— y una extremidad que termina en flor. Lo dibujé como una ilustración vectorial fantástica, con contornos gruesos, formas simples, algunos degradados y una paleta luminosa sobre un fondo nocturno.

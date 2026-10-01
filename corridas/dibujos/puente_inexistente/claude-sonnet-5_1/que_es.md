@@ -1,0 +1,3 @@
+Lo que no existe es la estructura misma: un puente con torres en espiral helicoidal (como sacacorchos retorcidos) en lugar de pilones rectos, y un tablero que ondula en curvas sinuosas en vez de ser plano y horizontal. Ningún puente real podría sostenerse así, con cables colgando entre formas tan caprichosas y un piso que sube y baja como una cinta torcida.
+
+En cuanto al estilo, lo pensé como un paisaje crepuscular de atmósfera onírica, casi ilustración editorial: gradientes suaves para el cielo y el agua, siluetas con cierto romanticismo (farolitos, pájaros, niebla tenue) que buscan transmitir calma, pero sobre una arquitectura imposible, como si perteneciera a un cuento o a un mundo de fantasía silenciosa.

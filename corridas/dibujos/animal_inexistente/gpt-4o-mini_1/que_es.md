@@ -1,0 +1,3 @@
+Lo que no existe en el dibujo es el animal en sí, que es una criatura imaginaria, combinando características de diferentes animales con un diseño único. Su forma general, colores y detalles, como los ojos y la apariencia de los labios, son inventados y no corresponden a ninguna especie real.
+
+El estilo del dibujo es caricaturesco y colorido, con un enfoque en la simplicidad y la expresividad. Utiliza gradientes y formas suaves, lo que le da un aspecto juguetón y amigable. Los contornos definidos y las proporciones exageradas contribuyen a su naturaleza lúdica, lo que lo hace atractivo y accesible para una audiencia amplia.

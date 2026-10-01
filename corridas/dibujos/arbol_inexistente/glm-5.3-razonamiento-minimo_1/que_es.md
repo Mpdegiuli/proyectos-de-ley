@@ -1,0 +1,3 @@
+Dibujé un árbol nocturno que no existe: un árbol bioluminiscente con tronco espiralado, como un tallo retorcido, cuya copa no es de follaje denso sino de ramas finas abiertas en abanico, coronadas por hojas de cristal turquesa y orbes luminosos que brillan y flotan entre las ramas. Nada de eso existe en la naturaleza: es una especie fantástica, entre planta, mineral y luz.
+
+El estilo es ilustración digital fantástica, con estética onírica y algo de fantasía élfica. Usé una paleta nocturna de violetas y azules profundos, contrastada por el verde turquesa de la bioluminiscencia, gradientes suaves para dar atmósfera, un filtro de brillo en los orbes y pequeñas partículas cayendo para sugerir vida y movimiento.

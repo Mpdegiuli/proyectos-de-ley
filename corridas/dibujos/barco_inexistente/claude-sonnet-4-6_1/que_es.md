@@ -1,0 +1,3 @@
+Lo que no existe es el barco en sí: una embarcación con casco dorado, una cúpula de cristal translúcido por cabina, un ojo flotante y consciente en su interior, tentáculos vivos como anclas, y un mástil que se retuerce contra su propia geometría. Es un barco que navega por voluntad propia, mitad criatura marina, mitad nave.
+
+El estilo es fantasía oscura con estética bioluminiscente: paleta nocturna de azules profundos, violetas y rosas neón, con elementos que brillan desde adentro. Hay influencias del art nouveau en las formas orgánicas y del weird fiction —Lovecraft filtrado por algo más delicado— en la criatura que habita la nave.

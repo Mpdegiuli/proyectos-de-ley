@@ -1,0 +1,3 @@
+Dibujé una casa imposible: combina volúmenes torcidos, perspectivas incompatibles, escaleras exteriores que no conducen a una entrada clara, una chimenea orgánica y extensiones suspendidas que parecen desafiar la estructura y la gravedad. No existe como construcción real, sino como una vivienda fantástica ensamblada con formas inesperadas.
+
+La dibujé en un estilo de ilustración vectorial fantástica y surrealista, cercano a un cuento infantil: formas geométricas, líneas limpias, colores cálidos y turquesas, degradados, luces suaves y una atmósfera nocturna mágica.

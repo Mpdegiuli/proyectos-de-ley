@@ -1,0 +1,3 @@
+Lo que no existe es el animal en sí: una especie imaginaria, mezcla de cabrita, dragón y mariposa, con antenas como de insecto pero rematadas en bolitas, orejas con cuernitos en espiral, alitas diminutas e inútiles para volar, y una cola con una esfera brillante en la punta. Ningún animal real combina esas partes de esa manera.
+
+En cuanto al estilo, lo hice como una ilustración infantil, plana y geométrica, con gradientes suaves para dar volumen y una paleta pastel (violetas, celestes, naranjas). Es un estilo "friendly", tipo mascota o personaje de cuento, pensado para resultar tierno y curioso antes que realista o amenazante.

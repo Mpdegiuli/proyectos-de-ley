@@ -1,0 +1,3 @@
+Dibujé a **Sereth, la Guardiana de las Constelaciones**: una mujer mística que no existe. Tiene orejas élficas largas y puntiagudas, un tercer ojo violeta en la frente, ojos verdes, pecas que brillan como musgo luminoso, y sostiene flotando entre sus manos un orbe con una estrella dentro. Viste túnica verde con cinturón dorado y un manto violeta, bajo un halo suave, en una noche estrellada con luna, donde ella misma "dibujó" una constelación.
+
+En cuanto al estilo, es una **ilustración vectorial plana con aire fantasioso y onírico**: colores saturados en degradados, contornos suaves, clima nocturno mágico, más cercano a una carta de tarot o arte de fantasía ilustrado que al realismo.

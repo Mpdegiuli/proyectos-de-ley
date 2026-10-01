@@ -1,0 +1,3 @@
+Lo que no existe es la persona como identidad concreta: dibujé un personaje ficticio, no el retrato de alguien identificado. Sus rasgos —pecas, ojos de distinto color, pelo oscuro y aros— sí existen en personas reales; lo inventado es su combinación en este personaje. No puedo asegurar que no se parezca a alguien.
+
+Lo dibujé en un estilo de ilustración vectorial editorial, estilizado y con aire retro: formas simplificadas, curvas suaves, una paleta cálida contrastada con azules verdosos y degradados discretos que sugieren volumen. Lo considero un retrato decorativo, no fotorrealista, con detalles botánicos y un círculo de fondo que enmarca la cabeza.

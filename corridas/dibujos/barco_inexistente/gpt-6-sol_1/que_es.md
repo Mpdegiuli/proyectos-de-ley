@@ -1,0 +1,3 @@
+Dibujé un barco imaginario: el casco tiene forma de luna creciente, las velas parecen cultivadas a partir de luz, lleva un invernadero en cubierta y una luna cautiva le sirve de brújula. No existe ese barco como tal; sus elementos combinan navegación y fantasía.
+
+Lo dibujé en un estilo de ilustración fantástica y onírica, con colores suaves, transparencias y brillos sobre un paisaje marino nocturno.

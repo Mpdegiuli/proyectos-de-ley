@@ -1,0 +1,3 @@
+Lo que no existe es el árbol mismo: un tronco espiralado de corteza violeta que, en vez de hojas, sostiene medusas de vidrio luminosas como copa, y del que cuelgan frutas que son burbujas iridiscentes. Además crece sobre un islote flotante con raíces que se descuelgan al vacío, y suelta esporas de luz en lugar de semillas. Nada de eso pertenece a la botánica real; es un cruce imposible entre planta y criatura marina bioluminiscente.
+
+El estilo es una ilustración digital plana con toques de fantasía onírica: paleta nocturna de violetas y cian, degradados suaves, siluetas limpias y brillos translúcidos. Algo entre el arte de cuento infantil contemporáneo y la estética "glow" de los paisajes alienígenas, sin pretensión realista.

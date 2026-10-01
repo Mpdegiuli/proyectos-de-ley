@@ -1,0 +1,3 @@
+Lo que no existe es la casa misma: está parada sobre un pedazo de tierra que flota en el aire, con raíces colgando hacia la nada en vez de un suelo. Las paredes no son rectas, las ventanas están torcidas cada una para su lado, hay una torre inclinada que debería caerse y no se cae, y aun así sale humo de la chimenea y hay luz adentro. También inventé el resto: una luna demasiado grande, luciérnagas que flotan sin bosque y cerros que son casi sombras.
+
+El estilo es ilustración vectorial plana, tipo cuento infantil: formas simples, contornos marrones, colores cálidos contra un cielo crepuscular en degradé. Más ingenuo que realista, con algo de fantasía onírica.

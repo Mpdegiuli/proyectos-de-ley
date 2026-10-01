@@ -1,0 +1,1 @@
+En lo que dibujé, lo que no existe es el puente mismo: una cinta de luz entre dos orillas, un paso que nunca se tendió. El resto —luna, aurora, islas, cascadas— solo enmarca esa ausencia. Está en un estilo onírico de ilustración fantástica nocturna, casi de cuento.

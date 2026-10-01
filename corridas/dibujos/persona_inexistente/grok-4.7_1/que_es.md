@@ -1,0 +1,3 @@
+Lo que no existe es la persona. Ese rostro no es de nadie: no hay un cuerpo, una vida ni una identidad real detrás de los ojos, el pelo y la ropa. Solo hay formas que sugieren a alguien que nunca estuvo.
+
+Está dibujado como un retrato vectorial de busto, estilizado y semi-realista: contornos simples, degradados suaves, fondo oscuro y una paleta cálida sobre violeta. Se lee como ilustración, no como fotografía.

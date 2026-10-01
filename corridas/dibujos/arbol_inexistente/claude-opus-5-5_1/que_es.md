@@ -1,0 +1,3 @@
+Lo que no existe es un árbol de corteza violeta cuyos frutos son esferas de luz, ámbar y turquesa, que cuelgan con filamentos terminados en gotas, crece en el borde de un agua quieta y suelta chispas al aire. Pero la rareza está casi toda en el color y en los frutos. La estructura es un árbol bastante común: tronco, ramas que se bifurcan simétricas, raíces. Lo imposible es más decorativo que estructural.
+
+El estilo es ilustración vectorial plana, con degradados y resplandores, de fantasía nocturna, cercano a la gráfica de videojuego o de libro infantil digital. Es prolijo y algo genérico. El reflejo en el agua quedó incompleto: refleja el tronco y algunos frutos, pero no las ramas.

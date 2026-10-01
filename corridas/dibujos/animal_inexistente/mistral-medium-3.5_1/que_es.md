@@ -1,0 +1,3 @@
+Dibujé un **flotador de bosque**: un ser imaginario con cuerpo de nube (gradiente radial verde) y base difusa (gradiente naranja borroso), ojos, boca y patas de líneas negras. No existe porque mezcla rasgos de animales (ojos, extremidades) con elementos naturales (niebla, vegetación) de forma fantástica.
+
+El estilo es **minimalista orgánico**: líneas simples y curvas suaves, con degradados que simulan texturas naturales (hojas, luz). Usé SVG puro, sin sombras complejas, priorizando la esencia sobre el detalle. Los trazos gruesos y la paleta cálida/fría refuerzan su aspecto onírico pero limpio.

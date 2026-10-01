@@ -1,0 +1,3 @@
+Dibujé una casa imposible: está sobre una isla flotante con las raíces al aire; el agua parece subir hacia ella, el techo se pliega como una cinta y la puerta abre a otro cielo. No es una casa real, sino una mezcla de lugares y fenómenos que no podrían existir juntos.
+
+La dibujé en un estilo de ilustración fantástica, cercano al cuento: formas suaves, colores pastel sobre un cielo nocturno y detalles luminosos.

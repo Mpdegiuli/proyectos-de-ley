@@ -1,0 +1,3 @@
+Lo que no puede existir son dos partes del cuerpo. La cabeza es un triángulo de Penrose: tres barras que parecen encajar en ángulo recto, pero esa unión es imposible en tres dimensiones; en ella puse un solo ojo. Las piernas son un blivet o "tridente del diablo": arriba salen dos prismas rectangulares del torso, abajo apoyan tres cilindros en el piso, y el degradé en el medio disimula dónde dos se convierten en tres. El resto —torso, cuello, brazos— es deliberadamente normal, para que lo imposible se note.
+
+El estilo es plano y geométrico, casi de pictograma: líneas de tinta uniformes, colores sólidos apagados (crema, gris lavanda, terracota, verde, índigo), sin perspectiva ni textura, en la tradición de las figuras imposibles de Reutersvärd y Escher.

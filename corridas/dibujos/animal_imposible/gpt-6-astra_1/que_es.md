@@ -1,0 +1,3 @@
+Lo que dibujé como imposible es un animal cuyo cuerpo se curva alrededor de una cavidad que contiene un pequeño cosmos: una luna, estrellas y una órbita. Si leo esa cavidad como un portal real, y no como un hueco decorado, ahí está la imposibilidad física. La mezcla de dragón, pez y ciervo, por sí sola, lo vuelve fantástico, pero no demuestra que no pueda existir.
+
+Lo dibujé en un estilo de ilustración vectorial fantástica, cercano al cuento infantil: contornos limpios, formas redondeadas, degradados suaves y una paleta turquesa y coral sobre un fondo nocturno. Tiene un tono amable y ornamental, más mágico que inquietante.

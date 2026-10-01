@@ -1,0 +1,3 @@
+Lo que no puede existir: es una serpiente que se muerde la cola (ouroboros) pero cuyo cuerpo además se atraviesa a sí mismo, formando un nudo imposible en el plano, como en una banda de Möbius. A eso se suma que tiene patas de gallina y alas de mariposa sobre un cuerpo de reptil, vuela en círculo sin poder salir de su propio anillo, y proyecta una sombra sobre un piso que no existe. Su lengua, además, es un signo de interrogación.
+
+En cuanto al estilo: es una ilustración plana y estilizada, de corte simbólico-heráldico, con paleta nocturna en tonos violetas y verdes, gradientes suaves y cierto aire de grabado esotérico o emblema mitológico.

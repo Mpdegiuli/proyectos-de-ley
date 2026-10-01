@@ -1,0 +1,3 @@
+Lo que no existe es casi todo: una casa en una isla flotante, con el piso de arriba más ancho que el de abajo, un techo que termina en una torrecita invertida, una chimenea que sale de costado y una puerta principal acostada, girada noventa grados contra la pared. También hay una puerta en altura que solo tiene una alfombrita voladora como balcón, una escalera que sube hacia una puerta suelta en el cielo, y un árbol que crece hacia abajo. Nada de eso respeta la gravedad ni la arquitectura real.
+
+El estilo es de ilustración plana y caricaturesca, tipo cuento infantil o fantasía onírica: colores pastel saturados, gradientes suaves, contornos simples, crepúsculo violeta con luna y estrellas, más tierno que realista.

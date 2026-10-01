@@ -1,0 +1,3 @@
+**Qué no existe:** el puente cuelga de cables que no se sostienen de nada. El cable central va de torre a torre pero por debajo, combado hacia arriba, invertido; y los tramos laterales bajan a unos riscos que no tocan. Las péndolas cuelgan de una curva que debería tirar hacia abajo y no lo hace. Además el tablero arranca en el aire sobre niebla, sin estribos, sin camino que llegue ni que siga: un puente entre dos nadas, con faroles encendidos para nadie.
+
+**En qué estilo:** ilustración plana y vectorial, de siluetas recortadas contra un cielo en degradé —esa estampa de atardecer violeta y naranja, estrellada arriba—, con capas de montañas y bruma superpuestas para dar profundidad. Vagamente afiche de viaje, vagamente ukiyo-e simplificado.

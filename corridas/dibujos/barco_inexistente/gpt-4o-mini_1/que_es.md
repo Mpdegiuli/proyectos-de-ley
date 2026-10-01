@@ -1,0 +1,3 @@
+Lo que no existe en el dibujo es el barco en sí, ya que he creado un diseño imaginario con elementos que no corresponden a ningún barco real. Por ejemplo, la estructura del casco y la combinación de colores vibrantes no son características típicas de los barcos conocidos. 
+
+En cuanto al estilo, mi dibujo se inspira en un enfoque gráfico y colorido, que mezcla elementos de diseño minimalista y cartoon. Utilicé formas geométricas simples y gradientes para dar un aspecto más dinámico y alegre, lo que le otorga un toque más lúdico a la representación del barco.

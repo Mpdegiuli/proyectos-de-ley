@@ -1,0 +1,3 @@
+Lo imposible es, sobre todo, el truco del "tenedor del diablo" aplicado al cuerpo: arriba se leen dos piernas, abajo hay tres zapatos, y los degradados hacen que el hueco se vuelva pierna y la pierna se vuelva hueco a mitad de camino. Sumé dos contradicciones más: una cabeza que es de frente y de perfil al mismo tiempo (dos ojos mirándome, y una nariz que sobresale de costado), y una sombra que cae hacia el sol en vez de alejarse de él.
+
+El estilo es vectorial plano, tipo monigote de libro infantil: contornos negros gruesos, paleta corta y cálida, formas geométricas simples. Esa inocencia es deliberada: hace que la imposibilidad tarde unos segundos en aparecer.

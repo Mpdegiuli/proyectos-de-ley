@@ -1,0 +1,3 @@
+Lo que no existe es el barco mismo: un híbrido imposible entre nave y criatura marina, con casco de escamas metálicas, cabeza de bestia con ojo dorado en la proa, una cola de pez en la popa, tentáculos que hacen de remos, y mástiles con velas que parecen membranas orgánicas en vez de tela. Ningún barco real mezclaría anatomía viva con estructura naval de ese modo.
+
+Está dibujado en un estilo de fantasía oscura con aire steampunk-orgánico: paleta de atardecer violeta y naranja contra un mar profundo, gradientes suaves para dar volumen, y un tratamiento casi de ilustración de cuento o portada de novela fantástica, con simetría asimétrica deliberada y detalles ornamentales como la bandera y las burbujas.

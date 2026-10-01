@@ -1,0 +1,3 @@
+Lo que no existe es la casa misma: parece orgánica, casi viva, con paredes curvas, techo blando como una criatura, raíces/patas que la sostienen, ventanas luminosas como ojos y alas o aletas laterales. No responde a una arquitectura posible o funcional, sino a una vivienda fantástica, entre refugio, animal y sueño.
+
+La dibujé en un estilo de fantasía surreal, nocturno y algo onírico, con colores brillantes sobre fondo oscuro. Tiene influencias de ilustración infantil oscura, cuento mágico y estética psicodélica suave.

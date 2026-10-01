@@ -1,0 +1,1 @@
+Lo que no existe es el animal: una criatura fantástica, con cuerpo de anfibio, astas ramificadas y luminosas, aletas y una cola enrollada que brilla. Está dibujado en un estilo de ilustración digital fantástica, con formas suaves, contornos definidos y degradados que le dan volumen y una atmósfera submarina.

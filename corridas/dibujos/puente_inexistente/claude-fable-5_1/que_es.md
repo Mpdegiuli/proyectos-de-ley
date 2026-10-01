@@ -1,0 +1,3 @@
+Lo que no existe es el puente mismo: un puente colgante de madera que, a mitad de camino, se enrosca en un bucle imposible sobre sí mismo antes de seguir hacia la otra orilla. Ningún puente real podría sostener ese nudo en el aire. Además, conecta dos islas que flotan sobre las nubes, chorreando agua hacia el vacío, con faroles suspendidos sin soporte y peces que nadan por el cielo.
+
+El estilo es una ilustración plana con aire de cuento onírico: formas simples, gradientes suaves, paleta nocturna de violetas y dorados, luna con halo y estrellas puntuales. Algo entre lo naïf y lo fantástico, más poético que realista, pensado para que lo imposible se sienta tranquilo y natural.

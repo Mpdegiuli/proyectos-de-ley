@@ -1,0 +1,3 @@
+Dibujé el *Lepidopticeto lunar*, una criatura inventada que no existe en ningún ecosistema: tiene cuerpo de ballenato rechoncho, alas de mariposa, orejas-antena con puntas que brillan como luciérnagas, escamas en el lomo, bigotes de gato, patas cortas con almohadillas, y una cola terminada en una estrella luminosa de la que parecen desprenderse esporas flotantes. Es una quimera amable, mitad mamífero, mitad insecto, mitad constelación.
+
+En cuanto al estilo, está dibujado de manera ilustrativa y onírica, tipo cartón o cuento infantil nocturno: líneas suaves y redondeadas, paleta fría de azules y turquesas con acentos cálidos dorados, luna, estrellas y colinas de silueta, más animaciones sutiles que le dan vida.

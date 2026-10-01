@@ -1,0 +1,3 @@
+Lo que no puede existir es la relación espacial entre las tres serpientes: forman una trinidad imposible, como un triángulo de Penrose. Cada cuerpo parece pasar por delante y por detrás de los otros a la vez, así que no hay una profundidad coherente; solo puede existir dibujado, no como objeto real.
+
+Está dibujado en un estilo vectorial synthwave/neón: fondo oscuro, gradientes vibrantes en magenta, cian y violeta, contornos punteados blancos, cabezas con ojos brillantes y un núcleo central que resplandece.

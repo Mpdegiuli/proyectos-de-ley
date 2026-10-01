@@ -1,0 +1,3 @@
+Lo que no puede existir en el dibujo que hice es la naturaleza misma de esta "persona". La diseñé como un constructo geométrico y hueco, con extremidades de bloques rígidos y líneas isométricas que, en la realidad tridimensional, desafían la anatomía biológica. No tiene órganos ni humanidad; es un ente puramente artificial coronado por un visor de luz donde debería haber un rostro.
+
+En cuanto al estilo, elegí una clara estética *synthwave* y *cyberpunk*. Está dibujado en perspectiva isométrica usando caras planas y tonos sólidos —con un aire a *low-poly* o *voxel art*—, contrastando la frialdad de la figura con un enorme sol degradado retrofuturista y un brillo de neón.

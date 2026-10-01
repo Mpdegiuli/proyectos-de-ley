@@ -1,0 +1,3 @@
+Lo que no puede existir: una persona con dos caras al frente —un rostro mirando a la izquierda y otro a la derecha sobre el mismo cráneo—, cuyas piernas avanzan en direcciones opuestas, con una sombra que apunta hacia la luz y que además se despega del cuerpo y camina sola. Sus manos sostienen lápices que dibujan sus propios brazos: se autorretratan en un círculo vicioso. El reflejo en el suelo no coincide con la figura. Y arriba, la luna y el sol son el mismo cuerpo, simultáneos.
+
+El estilo es ilustración lineal nocturna: trazos de "hombre palito" elegante, paleta violeta y dorado, aire onírico-surrealista, con guiños al grabado renacentista (el texto en pseudo-latín lo remata).

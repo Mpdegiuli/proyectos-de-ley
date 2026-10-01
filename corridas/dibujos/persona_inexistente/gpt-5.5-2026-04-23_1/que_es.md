@@ -1,0 +1,3 @@
+Dibujé una persona que no existe porque es un ser híbrido e imaginario: tiene cuatro ojos, piel con degradados irreales azul-violeta, cuernos o antenas luminosas, una especie de halo flotante y una cola/tentáculo energético. No representa a nadie real, sino a una figura fantástica inventada.
+
+El estilo lo pensé como fantasía cósmica en SVG, con estética neón, algo alienígena y mística. Usa colores saturados, brillos, degradados y simetría para parecer un retrato de personaje de otro mundo, entre criatura celestial, extraterrestre y hechicera.

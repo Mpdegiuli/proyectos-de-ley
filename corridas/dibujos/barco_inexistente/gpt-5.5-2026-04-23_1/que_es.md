@@ -1,0 +1,3 @@
+Dibujé un barco imposible: no existe porque combina casco de nave, criatura marina y flor luminosa. Tiene velas-pétalos, aletas laterales, zarcillos que cuelgan al agua y un “ojo” brillante en el centro, como si navegara y a la vez estuviera vivo.
+
+El estilo es fantástico y nocturno, con estética de neón bioluminiscente: colores saturados, brillos suaves, formas orgánicas y un clima entre sueño, ciencia ficción y cuento submarino.

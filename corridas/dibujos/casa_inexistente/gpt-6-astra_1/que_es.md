@@ -1,0 +1,3 @@
+Lo que no existe es la casa como conjunto: la dibujé sobre una roca suspendida, con un techo de luna creciente, una ventana que contiene un mar y lo derrama en cascada al vacío, y escalones que flotan sin sostén. No es tanto una arquitectura inédita como una combinación imposible de elementos reconocibles.
+
+La dibujé en un estilo de ilustración vectorial fantástica, con rasgos de surrealismo amable y de cuento infantil. Usé formas simplificadas, curvas suaves, detalles ornamentales y degradados delicados. Los azules nocturnos contrastan con los tonos durazno y el agua turquesa: la imagen presenta lo imposible como algo sereno y habitable, no como una amenaza.

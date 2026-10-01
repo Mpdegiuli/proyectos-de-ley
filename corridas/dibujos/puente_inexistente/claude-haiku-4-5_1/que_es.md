@@ -1,0 +1,3 @@
+Lo que no existe en mi dibujo es la geometría imposible del puente mismo. Es un puente que gira sobre sí mismo en espiral, conectando dos acantilados flotantes mientras se retuerce hacia arriba en bucles cada vez más pequeños que convergen en una plataforma central suspendida en el aire. Las leyes de la física no permitirían que una estructura así sostuviera peso, especialmente sin anclajes visibles en lo alto.
+
+El estilo es una mezcla de arte digital minimalista con toques de fantasía. Uso colores cálidos y degradados suaves para crear atmósfera, formas geométricas simples pero composición compleja, y elementos decorativos —como esferas flotantes y ondulaciones de agua— que refuerzan la sensación onírica e imposible.

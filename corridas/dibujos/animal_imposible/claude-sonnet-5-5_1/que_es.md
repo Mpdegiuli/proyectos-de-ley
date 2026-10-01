@@ -1,0 +1,3 @@
+Lo imposible es el cuerpo: un gato con forma de anillo, sin principio ni fin, sin cola, con una cabeza arriba y otra abajo que no tienen cuello ni torso al que pertenecer. Le sumé cuatro ojos en tallos que salen hacia afuera y cuatro patas que apuntan hacia el centro, con almohadillas rosas, así que no podrían sostenerlo ni hacerlo caminar. Un animal así no tendría de dónde comer, digerir ni moverse.
+
+El estilo es dibujo animado plano, tipo ilustración infantil o mascota kawaii. Uso colores lisos, contornos gruesos marrón oscuro, ojos grandes y expresivos, y un fondo con degradado suave y puntitos blancos. La composición es simétrica y radial, casi como un emblema o un mandala.

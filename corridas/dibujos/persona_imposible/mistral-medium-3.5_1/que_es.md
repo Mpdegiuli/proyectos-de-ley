@@ -1,0 +1,3 @@
+Dibujé una persona con **tres brazos**: dos normales y uno extra que sale de su espalda (las líneas rojas son los brazos adicionales). Eso es lo que no puede existir en la realidad.
+
+El estilo es **minimalista y lineal**, con trazos simples en negro (y rojo para los brazos imposibles), sin rellenos, solo contornos. Usé formas geométricas básicas (círculos, líneas, curvas) para crear una figura humana esquemática, casi como un boceto a mano alzada pero en SVG.

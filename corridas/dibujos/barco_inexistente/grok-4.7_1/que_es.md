@@ -1,0 +1,3 @@
+Lo que no existe es el barco. El mástil es un árbol con hojas y una flor, la vela abre un portal encendido, el casco tiene un ojo y de la popa cuelga una llave de oro. Pasa sobre una ciudad hundida, bajo una luna y un planeta con anillo. Cada parte se reconoce; juntas no forman ningún barco del mundo.
+
+Está en estilo de ilustración fantástica, como miniatura de cuento nocturno: formas planas, degradados suaves, línea decorativa y paleta de ocaso.

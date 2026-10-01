@@ -1,0 +1,3 @@
+Dibujé un barco-imposible: una criatura naval híbrida que no existe en ningún mar. Tiene un casco orgánico con costillas, como si fuera un animal pez-ballena; un mástil de coral con ramificaciones y una vela-medusa de doble lóbulo con frutas colgando; un ojo-lámpara como faro de proa; un tentáculo en la proa y burbujas como sistema de propulsión; remos-pétalos, una cúpula de cristal con un pulpo navegante y una aleta dorsal que funciona de timón. Navega de noche bajo una luna doble.
+
+En cuanto al estilo, es un dibujo vectorial ilustrativo, tipo cartoon nocturno, con contornos oscuros definidos, gradientes suaves y paleta de violetas, turquesas y dorados. Más fantasía caprichosa que realismo.

@@ -1,0 +1,1 @@
+Dibujé una persona con cuatro brazos y tres piernas, una anatomía imposible para un ser humano. La representé en un estilo de ilustración vectorial, caricaturesco y de contornos marcados, con formas simples y colores cálidos.

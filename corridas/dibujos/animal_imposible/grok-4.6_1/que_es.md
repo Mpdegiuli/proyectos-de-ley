@@ -1,0 +1,3 @@
+Lo que no puede existir en mi dibujo es el animal entero: una quimera cuyas alas tienen ojos propios, el torso parece mamífero, la cola es de pez, hay tres ojos en la cara y más en alas y cola, y cuernos con bayas. Esos planes corporales no conviven en ningún ser vivo.
+
+El estilo es ilustración vectorial fantástica, de bestiario surrealista: formas orgánicas, colores saturados en degradado y un tono decorativo.

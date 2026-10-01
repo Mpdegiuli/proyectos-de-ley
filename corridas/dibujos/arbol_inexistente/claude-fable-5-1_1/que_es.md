@@ -1,0 +1,3 @@
+Lo que no existe es el árbol mismo: un tronco violeta que se retuerce como una cinta, ramas que terminan en espirales en lugar de afinarse, y de esas puntas cuelgan esferas que brillan como soles pequeños, no como frutos. Las hojas son medialunas turquesa, sueltas, sin tallo. De las ramas gotean hilos dorados con luces en el extremo, y las raíces no se hunden: corren luminosas por la superficie y rematan en nodos encendidos, como si el suelo fuera un circuito. Nada de eso crece en ningún lado.
+
+El estilo es ilustración vectorial plana con degradados y resplandor, de paleta nocturna, composición casi simétrica y aire de cuento onírico: más cercano a un libro ilustrado digital que a cualquier botánica.

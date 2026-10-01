@@ -1,0 +1,3 @@
+Lo que dibujé no existe porque es un barco soñado: las velas no son de tela sino de aurora (gradientes rosados y turquesa como luces del cielo), los mástiles terminan en esferas luminosas que parecen pequeñas lunas, la proa lleva una figura de latón con cara de criatura, y hay una estrella mágica flotando sobre el casco. Nada de eso flota en mares reales.
+
+El estilo es fantástico-onírico: una estética entre ilustración de cuento y arte cósmico, con paleta neón sobre fondo nocturno, brillos suaves y elementos decorativos que evocan un navío de un sueño más que un vehículo naval.

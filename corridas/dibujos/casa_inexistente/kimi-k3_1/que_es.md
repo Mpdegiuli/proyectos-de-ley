@@ -1,0 +1,3 @@
+Lo que no existe es la idea misma de la casa: una vivienda construida sobre un pedazo de tierra flotante, suspendida en el cielo al atardecer. No tiene cimientos ni calle ni vecinos; se sostiene en el aire, con globos atados, una cascada que cae al vacío y una escalera de cuerda que cuelga hacia las nubes, como si se pudiera subir desde el cielo. Es una casa imposible, sacada de un sueño.
+
+El estilo es ilustración vectorial plana (*flat design*) con toques de fantasía: formas simples y redondeadas, colores sólidos, degradados suaves en el cielo y la cascada, brillos cálidos en las ventanas. Tiene un aire de cuento infantil o de *storybook* whimsical, más cercano al cartón animado que al realismo.

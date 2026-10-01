@@ -1,0 +1,3 @@
+Lo que no existe en mi dibujo es esta persona específica: tiene características imposibles como ojos de colores diferentes (uno azul, otro rosa), tres ojos, orejas puntiagudas, brazos de colores distintos (uno dorado, otro celeste), un brazo mucho más largo que el otro, y manos de formas raras. Su cuerpo es asimétrico, con piernas de colores vibrantes y un tercer ojo amarillo en la frente. Es una combinación surrealista de rasgos humanos y fantásticos.
+
+El estilo es ilustración digital pop-art: colores vibrantes y contrastantes, formas geométricas simples, líneas limpias y una paleta visual muy saturada. Tiene ese toque de ilustración digital moderna, casi como un personaje de videojuego o cómic conceptual.

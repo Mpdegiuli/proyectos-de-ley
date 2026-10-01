@@ -1,0 +1,3 @@
+Lo que no existe es la especie: un árbol bioluminiscente con hojas imposibles, casi como velas o aletas translúcidas, que crecen en direcciones simétricas pero antinaturales. Su tronco parece orgánico y mineral a la vez, con savia luminosa, raíces oscuras y frutos/estrellas flotantes.
+
+Lo dibujé en un estilo de fantasía cósmica, con estética psicodélica y algo surrealista: colores neón, brillos, gradientes intensos y una atmósfera nocturna de otro planeta.

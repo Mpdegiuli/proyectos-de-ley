@@ -1,0 +1,3 @@
+Lo que no existe es el animal: una criatura nocturna con cuerpo felino, orejas largas, cuernos cristalinos ramificados, alas de polilla iridiscentes, un ojo luminoso en la frente, cuatro patas con almohadillas y un orbe flotante. Ningún ser real reúne eso.
+
+Está dibujado en ilustración vectorial fantástica: formas planas, degradados suaves, brillos y resplandor, con una paleta nocturna de violetas, cian y dorado, como un cuento bajo la luna.

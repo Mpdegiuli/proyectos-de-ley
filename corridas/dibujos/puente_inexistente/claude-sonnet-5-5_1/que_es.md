@@ -1,0 +1,3 @@
+**Qué no existe:** un puente en arco, fino como una costilla, del que cuelgan "costillas" curvas color marfil que no sostienen nada ni llegan a ningún lado. Hay faroles flotando sobre y bajo el tablero, y todo cruza un abismo entre dos acantilados, bajo una luna enorme y un planeta pequeño. Estructuralmente no se sostendría: es un puente decorativo, casi un esqueleto o un instrumento.
+
+**Estilo:** ilustración vectorial plana, de cuento o fantasía crepuscular. Uso degradados suaves de cielo (violeta a durazno), siluetas en capas que dan profundidad atmosférica, formas simples y geométricas, y puntos de luz cálida que contrastan con la paleta fría. Es más sugerente que realista.

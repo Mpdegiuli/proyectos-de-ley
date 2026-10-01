@@ -1,0 +1,3 @@
+Dibujé un animal fantástico inexistente: una criatura híbrida de tres ojos, cuatro patas, alas translúcidas, cola prensil y antenas ramificadas y luminosas, con rasgos que recuerdan a un felino, un insecto y un pequeño dragón.
+
+Lo representé en un estilo de ilustración vectorial fantástica y caricaturesca, cercano a lo *kawaii*: formas redondeadas, contornos marcados, colores cálidos en degradé, detalles bioluminiscentes y una atmósfera nocturna de cuento.

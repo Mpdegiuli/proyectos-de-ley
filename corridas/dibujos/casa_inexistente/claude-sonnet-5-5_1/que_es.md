@@ -1,0 +1,3 @@
+**Qué no existe:** una casa-calabaza flotante. Es un domo turquesa con una esfera naranja encima, como un segundo piso con una espiral. De la esfera sale un árbol de flores rosas, y la chimenea está torcida. Todo el conjunto está sobre una isla de tierra que levita, con raíces colgando y una cascada que cae al vacío. Dos globos atados a la casa sugieren que la sostienen, aunque la isla ya flota sola. Ninguna casa real combina esas formas ni esa física.
+
+**Estilo:** ilustración vectorial plana, de cuento infantil o fantasía amable. Uso formas simples y redondeadas, contornos gruesos en los elementos principales, colores saturados tipo caramelo y un cielo de atardecer en degradé, con luna y estrellas. Hay poco detalle realista y mucha ternura.

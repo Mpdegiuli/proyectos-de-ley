@@ -1,0 +1,1 @@
+Dibujé a una persona inventada, con un peinado imposible y un pequeño compás estelar, como parte de un mundo fantástico. La representé en un estilo de ilustración vectorial, con formas simples, contornos definidos y degradados; tiene un aire de cuento fantástico.

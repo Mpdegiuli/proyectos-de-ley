@@ -1,0 +1,3 @@
+Lo que no existe es una criatura híbrida: un cuerpo ovalado turquesa, cuadrúpedo, con patas amarillas y una cola enroscada que termina en un caracol rosa, como una concha. Tiene hocico y mejillas de mamífero, orejas grandes de dos tonos y, sobre la cabeza, dos antenas que terminan en bolitas luminosas, como un pez abisal. Además lleva una cresta de púas rosas en el lomo y dos alas translúcidas violetas, medio fantasmales, que no parecen servir para volar.
+
+El estilo es ilustración vectorial plana, tierna y de cuento infantil, con degradados suaves y formas redondeadas. Los ojos son grandes y brillantes, al estilo kawaii. El fondo es un paisaje nocturno de atardecer, con luna, estrellas y colinas en capas, que da una atmósfera onírica y fantástica.

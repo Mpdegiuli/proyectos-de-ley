@@ -1,0 +1,3 @@
+Lo que no existe es el barco entero como idea: un casco de madera que navega sobre nubes rosadas en lugar de agua, con un ancla que cuelga hacia el vacío. En vez de mástil tiene un árbol vivo, y las velas son hojas enormes con frutos naranjas. Sobre cubierta hay una casita con chimenea humeando, como si alguien viviera ahí arriba. La proa termina en una cola de pez, y alrededor nadan peces en el aire, al crepúsculo, bajo una luna creciente. Nada de eso ocurre en el mundo real.
+
+El estilo es de ilustración plana tipo cuento infantil: contornos oscuros, formas simples, colores cálidos con degradados suaves, una paleta de atardecer. Algo entre naïf y onírico, más amable que realista.

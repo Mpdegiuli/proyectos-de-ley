@@ -1,0 +1,3 @@
+Lo que no existe es un puente colgante que no se sostiene en sus orillas sino de la luna. Los tensores no bajan de torres: son hilos de luz que caen desde la medialuna y sostienen cada tabla. En el centro falta un tramo, y esas tablas que faltan van subiendo hacia la luna, como si ella las estuviera recogiendo o como si el puente se le estuviera escapando hacia arriba. Une dos peñascos que flotan sobre un mar de nubes, con una casita encendida del otro lado.
+
+El estilo es una ilustración vectorial plana, de libro de cuentos: formas geométricas simples, degradados suaves, un crepúsculo violeta y durazno, y pequeñas luces cálidas para que el lugar se sienta habitado.

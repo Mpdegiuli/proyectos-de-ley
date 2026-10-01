@@ -1,0 +1,3 @@
+Lo que no existe es el animal en sí: una criatura nocturna que inventé mezclando rasgos de varios bichos reales. Tiene seis patas, cuello largo casi de jirafa, una antena con farol luminoso como la de un pez abisal, la cola enroscada que también termina en una lucecita, una aleta o ala membranosa en el lomo, manchas, oreja grande y dos ojos desparejos. No hay especie así: es un híbrido imaginario, una especie de "gato-linterna" anfibio que camina entre hongos y luciérnagas.
+
+El estilo es ilustración vectorial plana, tierna y redondeada, tipo kawaii o libro infantil: formas suaves, degradados pastel, paleta de noche violeta y turquesa, brillos amarillos cálidos y sombras simples. Todo muy limpio y decorativo, sin realismo.

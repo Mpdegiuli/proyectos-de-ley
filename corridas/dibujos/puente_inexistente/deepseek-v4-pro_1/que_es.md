@@ -1,0 +1,1 @@
+Dibujé un puente colgante entre dos islas flotantes que no existe: no es una estructura real ni un lugar conocido, sino una invención suspendida en un cielo con auroras, estrellas y partículas. El estilo es una fantasía espacial cyberpunk retro, con paleta neón, degradados saturados, brillos y siluetas flotantes que remiten al synthwave y a la ciencia ficción onírica.

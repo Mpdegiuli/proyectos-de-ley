@@ -1,0 +1,3 @@
+Lo que no existe es la especie de árbol: tiene un tronco sinuoso de tonos rosados, hojas cristalinas, frutos u orbes bioluminiscentes y anillos que parecen orbitar su copa, como si combinara rasgos vegetales y cósmicos.
+
+Lo dibujé en un estilo de fantasía bioluminiscente con elementos de ciencia ficción. Es una ilustración vectorial estilizada, de formas orgánicas, degradados suaves, resplandores y una paleta nocturna de turquesas, violetas y rosas neón.

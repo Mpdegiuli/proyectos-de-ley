@@ -1,0 +1,3 @@
+Dibujé a una persona imaginaria, un rostro con rasgos abstractos y proporciones exageradas (como los ojos grandes y la boca curva) que no corresponden a nadie real. No existe porque es una creación ficticia, sin referencia en la realidad.
+
+El estilo es **naïf o primitivista**: líneas simples, formas geométricas básicas (círculos, elipses) y colores planos con degradados sutiles. Tiene un aire infantil, casi como un dibujo de niño, pero con toques de modernidad en los gradientes y la estructura SVG. Es minimalista, pero expresivo.

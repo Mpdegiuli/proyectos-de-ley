@@ -1,0 +1,3 @@
+Dibujé una persona imposible porque su anatomía se contradice: tiene extremidades que se enroscan y vuelven sobre sí mismas, una cara adicional en el cuerpo, proporciones incompatibles y un torso facetado que parece unir partes que no podrían pertenecer al mismo organismo.
+
+El estilo es de ilustración vectorial surrealista: colores saturados, contornos gruesos, formas blandas y geométricas, con algo de caricatura fantástica y collage anatómico.

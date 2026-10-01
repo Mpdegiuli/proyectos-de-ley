@@ -1,0 +1,3 @@
+Dibujé el Gatopez Alado: un gato con cuerpo de pez escamado, cola de pez, seis patas, alas de insecto, branquias en las mejillas, aleta dorsal y un tercer ojo. Lo imposible es la suma de contradicciones biológicas: es mamífero, pez e insecto a la vez; respira agua pero vive en el cielo nocturno, donde suelta burbujas que no tendrían dónde formarse. Ningún plan corporal real combina seis patas con esqueleto de vertebrado, ni branquias con cara de felino.
+
+El estilo es de ilustración plana y caricaturesca, tipo cuento infantil o afiche: formas simples con contornos gruesos, colores saturados en gradientes (violetas, turquesas, naranjas), escena nocturna decorativa con luna y estrellas, y una leyenda final a modo de bestiario fantástico.

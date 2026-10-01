@@ -1,0 +1,3 @@
+Lo imposible es que no es una sola cosa, sino varias a la vez. Tiene tres patas con tres pies. Los brazos son un único tubo que sale de un hombro, baja, pasa por debajo del cuerpo y sube hasta el otro. En el torso hay una ventana abierta a un cielo nocturno con luna y estrellas. La cara está de frente, pero la nariz sale de perfil, y detrás hay un segundo rostro tenue superpuesto. Además, el sol y la luna conviven en el cielo y proyectan sombras opuestas.
+
+El estilo es de ilustración plana y naíf, casi de libro infantil: colores lisos y apagados, contornos oscuros gruesos y formas geométricas simples. La cara de frente con la nariz de perfil le suma algo de cubismo de juguete.

@@ -1,0 +1,3 @@
+Lo que no puede existir es la persona misma: tiene tres ojos en hilera, tres piernas con sus tres zapatos saliendo de un short de dos canillas, y un tercer brazo que nace de una ventana triangular en el pecho, a través de la cual se ve el cielo, como si el cuerpo fuera hueco. Además, su sombra no le corresponde: en el suelo hay tirada la sombra de otra figura, como si el cuerpo proyectara a alguien que ya se cayó.
+
+El estilo es caricatura plana vectorial, casi infantil: formas redondeadas, contornos gruesos, paleta pastel con celestes, cremas y azules, sombras mínimas y sin texturas. Algo entre ilustración de cuaderno escolar y personaje de animación tierna, lo que hace más raro lo imposible del cuerpo.

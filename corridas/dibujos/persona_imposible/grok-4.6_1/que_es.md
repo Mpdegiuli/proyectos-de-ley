@@ -1,0 +1,1 @@
+Dibujé una persona imposible: dos cabezas, cuatro ojos, un segundo rostro en el pecho y extremidades de más que brotan donde no deberían. Esa anatomía no puede existir. El estilo es surrealista y biomórfico, con formas orgánicas, degradados de piel y un fondo oscuro, casi pictórico.

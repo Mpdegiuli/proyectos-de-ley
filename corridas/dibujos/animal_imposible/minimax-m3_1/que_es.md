@@ -1,0 +1,3 @@
+Lo que dibujé es una criatura híbrida imposible: tiene cuatro alas de mariposa, cuerpo con escamas de pez, bigotes como un siluro, una trompa enrollada, cinco ojos y dos patas con almohadillas. Ningún animal real combina todas esas características, así que lo que no puede existir es ese extraño mosaico de partes de animales distintos.
+
+El estilo es ilustrativo y *whimsical*, con gradientes suaves en las alas (rosa-violeta-azul), contornos finos delineados, una paleta luminosa y un aire de ilustración de libro infantil o de fantasía digital.

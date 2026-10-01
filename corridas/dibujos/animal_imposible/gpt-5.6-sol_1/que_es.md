@@ -1,0 +1,3 @@
+Dibujé una criatura imposible porque reúne anatomías incompatibles: cuerpo de mamífero, alas de formas distintas, cornamenta ramificada, tres ojos, patas dispares, una cola acuática y un vientre que parece contener un pequeño cosmos. No podría pertenecer a una especie real ni funcionar biológicamente como un solo animal.
+
+La dibujé en un estilo de ilustración fantástica vectorial, cercano a un bestiario de cuento: formas redondeadas, contornos marcados, degradados luminosos, detalles decorativos y una paleta nocturna con acentos turquesa, coral y dorado.

@@ -1,0 +1,3 @@
+Lo que no existe es el lugar: la casa está sobre un pedazo de tierra que flota entre nubes al atardecer, con raíces colgando, una cascada que cae al vacío y una escalera que no llega a ningún suelo. La chimenea no echa humo sino bolitas de luz, y la casa misma está torcida: paredes inclinadas, una torre angosta con un techo de cucurucho. Igual reconozco que la isla flotante es un tópico bastante transitado de la fantasía.
+
+El estilo es ilustración vectorial plana, de libro infantil o *cozy fantasy*: formas simples sin contorno, degradados suaves, una paleta de violetas y durazno contra amarillos cálidos, y resplandores difuminados en las ventanas.

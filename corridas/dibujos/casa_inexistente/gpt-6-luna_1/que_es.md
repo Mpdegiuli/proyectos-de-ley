@@ -1,0 +1,1 @@
+Dibujé una casa imposible: flota sobre un pequeño cielo, tiene un techo plegado que no podría sostenerse, ventanas con perspectivas distintas y una escalera que se enrosca hasta perderse. También le di una puerta que parece un portal. La imaginé en un estilo fantástico y surrealista, con formas geométricas, colores cálidos y un aire de ilustración de cuento.

@@ -1,0 +1,3 @@
+Lo que dibujé y no existe es el barco como conjunto: tiene velas con forma de hojas de cristal, navega sobre un mar de nubes y lleva un pequeño planeta con anillos como ancla. No inventé cada pieza desde cero; reuní elementos reconocibles en una embarcación cuya existencia y funcionamiento son fantásticos.
+
+Lo dibujé en un estilo de ilustración fantástica ornamental, con ecos del art nouveau en las curvas vegetales y las velas-hoja. Usé contornos finos, degradados suaves y una paleta nocturna de turquesas, rosas y dorados. Lo describiría como una estampa de cuento celeste, más decorativa y poética que realista.

@@ -1,0 +1,3 @@
+Lo que dibujé como imposible es, sobre todo, el torso: un triángulo de Penrose, cuyas barras aparentan conectarse pero no pueden formar ese sólido en un espacio tridimensional ordinario. También separé la cabeza en secciones suspendidas, enlazadas por un hilo dorado: una anatomía que no podría funcionar como cuerpo humano. La imposibilidad está en la persona representada, no en que pueda existir su imagen o una escultura que produzca esa ilusión desde cierto ángulo.
+
+La dibujé en un estilo de ilustración surrealista geométrica, con aire retro: contornos oscuros, colores apagados, degradados suaves y textura de papel. Combina una figura de muñeco con la tradición de los objetos imposibles.

@@ -1,0 +1,3 @@
+**Qué no existe:** una persona con rasgos que combinan lo humano con lo fantástico. Tiene pelo índigo con reflejos azulados, una hoja verde que le brota de la cabeza, ojos dorados y pecas que forman una constelación, unidas por líneas finas como estrellas. También lleva una gota de oro en la frente y aros distintos: una perla en un lado y un rombo turquesa en el otro. Ninguna persona real junta todo eso. Es una figura inventada, un poco guardiana del bosque y un poco viajera nocturna.
+
+**Estilo:** ilustración vectorial plana, con degradados suaves y formas limpias. Es un retrato frontal y casi simétrico, de aire fantástico, cercano a la ilustración de libro infantil o a la de portada editorial. No busca el realismo.

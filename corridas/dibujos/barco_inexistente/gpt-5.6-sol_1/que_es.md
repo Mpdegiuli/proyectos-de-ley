@@ -1,0 +1,3 @@
+Lo que no existe es el barco mismo: una nave fantástica con cuatro velas de formas y colores distintos, un orbe luminoso incrustado en el mástil, apéndices orgánicos, anillos flotantes y tentáculos bajo el casco. Combina rasgos de velero, criatura marina y artefacto mágico.
+
+Lo dibujé en un estilo de ilustración vectorial fantástica, cercano a un cuento de aventuras o a un videojuego indie: formas geométricas, contornos oscuros y gruesos, degradados intensos, paleta crepuscular y brillos sobrenaturales.

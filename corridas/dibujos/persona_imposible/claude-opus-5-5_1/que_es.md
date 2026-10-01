@@ -1,0 +1,3 @@
+Lo imposible está en el cuerpo. El torso es un cubo de alambre cuyas aristas se cruzan de un modo que no admite una lectura coherente: una arista trasera pasa por delante, como en el cubo imposible de Escher. Las piernas siguen la lógica del tridente imposible: arriba hay dos bloques rectangulares y abajo tres cilindros con sus pies, sin un punto donde se resuelva la transición. Admito que el cubo puede leerse como un simple cubo transparente si no se mira con atención el cruce.
+
+El estilo es plano y esquemático: contornos gruesos azul oscuro, colores apagados de piel, gris y azul sobre fondo crema, sin sombreado real. Está a medio camino entre una ilustración de manual y un diagrama de ilusión óptica.

@@ -1,0 +1,3 @@
+Dibujé un animal imposible porque mezcla anatomías incompatibles: cuerpo serpentino en espiral, pico de ave, alas de mariposa/dragón, astas, patas desparejas, aletas y una cola tentacular, todo en una sola criatura. Además, su cuerpo cambia de color y textura como si perteneciera a varias especies a la vez.
+
+Lo dibujé en un estilo de fantasía lúdica, tipo ilustración infantil vectorial: colores saturados, formas redondeadas, contornos marcados, brillos suaves y un aire de criatura mágica de cuento.

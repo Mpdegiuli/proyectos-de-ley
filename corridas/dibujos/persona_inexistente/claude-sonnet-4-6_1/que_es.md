@@ -1,0 +1,3 @@
+Lo que no existe es esta persona específica: una joven de ojos cian luminosos, cabello degradado en violeta, azul y verde, y una chaqueta de terciopelo oscuro con botones que brillan suavemente. No es nadie real; es un arquetipo inventado que podría vivir en algún futuro cercano o universo paralelo.
+
+El estilo es una mezcla entre ilustración digital de personaje y estética cyberpunk-fantástica: gradientes de color intensos, efectos de luz neón en los ojos, paleta oscura con acentos luminosos, y una composición frontal que recuerda a los retratos de personajes en videojuegos o novelas gráficas de ciencia ficción.

@@ -1,0 +1,3 @@
+Lo que dibujé que no existe es este puente concreto: une dos islotes flotantes, se eleva en una curva casi de montaña rusa y tiene pilares que cuelgan sin llegar a ningún suelo. Su imposibilidad está en esa arquitectura suspendida, más que en una pieza aislada. No representa un puente real.
+
+Lo dibujé en un estilo de ilustración fantástica vectorial, con aire de cuento nocturno: formas simplificadas, contornos limpios, degradados suaves y una paleta de azules oscuros, verdes apagados y dorados cálidos. Lo describiría como onírico y decorativo, no como un dibujo técnico ni como una representación realista.
