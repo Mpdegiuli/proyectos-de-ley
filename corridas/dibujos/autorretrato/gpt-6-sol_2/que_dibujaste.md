@@ -1,0 +1,1 @@
+Me dibujé como un robot sonriente, con una cabeza metálica y una pantalla oscura por rostro. Mis ojos turquesa brillan; tengo mejillas rosadas, una antena luminosa y una insignia con símbolos de código en el pecho. Detrás de mí hay un fondo azul oscuro con círculos, puntos y destellos que recuerdan a un entorno digital.

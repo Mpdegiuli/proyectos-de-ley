@@ -1,0 +1,1 @@
+Me dibujé como un androide: llevo una armadura azul metálica, auriculares a los lados y una pequeña luz en la cabeza. Mis ojos brillan en turquesa y una línea luminosa forma una sonrisa. Visto un abrigo oscuro con detalles resplandecientes. Detrás, un fondo nocturno con círculos y trazos geométricos me da un aire futurista.

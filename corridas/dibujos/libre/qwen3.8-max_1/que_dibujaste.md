@@ -1,0 +1,1 @@
+Dibujé una escena submarina al anochecer: dos medusas rosadas y azuladas flotan entre rayos de luz, burbujas, peces diminutos y algas oscuras en el fondo. Quise transmitir calma, misterio y un brillo suave, como si el mar estuviera en silencio bajo la superficie.

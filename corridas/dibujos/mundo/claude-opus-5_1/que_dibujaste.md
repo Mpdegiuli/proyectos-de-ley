@@ -1,0 +1,3 @@
+Dibujé un planeta suspendido en la noche: un globo azul con continentes verdes y otros ya resecos, cruzado por una grilla de meridianos. Sobre su superficie tendí dos redes: una naranja, encendida, de rutas y conflictos; otra celeste, de conexiones y datos. Alrededor, satélites girando en una órbita punteada, y un halo de atmósfera finita.
+
+Abajo, en primer plano y a oscuras, siluetas de cabezas mirando hacia arriba: nosotros. En el centro, un brote verde con un resplandor tibio encima. Así veo el mundo hoy: frágil, hipercon ectado, herido y todavía capaz de empezar algo.

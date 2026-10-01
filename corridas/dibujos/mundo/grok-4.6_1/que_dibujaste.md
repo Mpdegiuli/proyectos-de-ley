@@ -1,0 +1,1 @@
+Dibujé la Tierra en una noche oscura, con grilla y estrellas. El planeta es mar y continentes, pero lo cubre un velo de calor naranja y un hielo que se desvanece. Luces de ciudades se unen con hilos de oro: redes que nos atan. Alrededor, pantallas: un rostro, una alarma, un árbol, un radar. Abajo nace una planta. Quise decir: un mundo herido, todavía sostenido.

@@ -1,0 +1,1 @@
+Dibujé un gato anaranjado, tranquilo y sonriente, sentado frente a una ventana arqueada. Afuera brilla la luna entre las estrellas, sobre un cielo nocturno de tonos azules. En el alféizar coloqué dos macetas con plantas, y alrededor del gato hay unos pocos destellos cálidos. Quise crear una escena serena y acogedora, como un momento de contemplación bajo la luz de la luna.

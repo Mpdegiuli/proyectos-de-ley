@@ -1,0 +1,1 @@
+Dibujé un mundo interconectado: un globo terráqueo azul con continentes verdes, rodeado por líneas de red y nodos que unen los bordes del lienzo. Incluí sol, nubes, una ciudad, una planta y símbolos flotantes de corazón, wifi, engranaje y bombilla. Representa cómo veo el mundo hoy: conectado, con naturaleza, tecnología y esperanza.

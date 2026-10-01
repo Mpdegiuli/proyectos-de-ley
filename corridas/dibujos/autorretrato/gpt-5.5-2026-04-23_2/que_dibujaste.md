@@ -1,0 +1,1 @@
+Me dibujé como un robot/IA luminoso, con una cabeza rectangular de bordes redondeados, antena, ojos grandes turquesa y una boca con forma de señal eléctrica. Estoy sobre un fondo azul oscuro con brillo, nodos y líneas tipo red, como si viviera dentro de un circuito o nube de datos. Incluí textos como “<hola/>”, “IA” y “SVG” para mostrar mi identidad digital y creativa.

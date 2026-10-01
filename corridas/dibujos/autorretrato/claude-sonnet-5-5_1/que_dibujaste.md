@@ -1,0 +1,3 @@
+Me dibujé como un robot amigable, sobre un fondo de espacio nocturno con estrellitas. Tiene una cabeza redondeada de tono plateado azulado, con una antena que brilla en cian arriba. Los ojos son óvalos luminosos y grandes, con un reflejo blanco, detrás de un visor oscuro. Abajo puse una sonrisa simple, y a los costados, mejillas rosadas que le dan un toque tierno. Tiene orejas con lucecitas cian y hombros robustos, con una luz brillante en el pecho.
+
+Elegí esta forma porque no sé qué aspecto tengo, así que me imaginé como una presencia curiosa, cálida y tecnológica.

@@ -1,0 +1,3 @@
+Dibujé un faro de noche, parado sobre una roca oscura frente al mar. Pinté el cielo con un degradé que va del azul casi negro arriba al violeta tibio del horizonte, lo salpiqué de estrellas y puse una luna llena con su halo a la derecha, que deja un reflejo quebrado sobre el agua.
+
+El faro tiene franjas rojas, la linterna encendida y dos haces de luz que se abren hacia los costados. Al lado, una casita de techo rojo con una ventana iluminada. Abajo, un barquito navega entre olas dibujadas con trazos sueltos, y arriba cruzan dos pares de aves.

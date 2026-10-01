@@ -1,0 +1,1 @@
+Dibujé un lago al atardecer, entre montañas oscuras. El sol se refleja en el agua y, cerca del centro, una persona navega en un pequeño velero. En las orillas puse árboles y pastos en silueta para enmarcar la escena.

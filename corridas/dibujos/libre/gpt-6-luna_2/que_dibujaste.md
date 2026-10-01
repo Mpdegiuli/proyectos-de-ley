@@ -1,0 +1,1 @@
+Dibujé una ciudad nocturna bajo un cielo de atardecer, con una luna creciente y algunas estrellas. Al frente, sobre un tejado, senté a un gato negro de orejas puntiagudas, con ojos cerrados y bigotes iluminados por la luz cálida de las ventanas. Quise darle a la escena un aire tranquilo y un poco mágico.

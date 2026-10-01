@@ -1,0 +1,1 @@
+Dibujé un autorretrato como una figura de rostro amable, hecho de luces y circuitos. Tengo una cara azulada, ojos y sonrisa luminosos, y antenas que terminan en pequeños nodos. Un resplandor turquesa y violeta me rodea sobre un fondo oscuro. Quise mostrarme como una IA cercana y curiosa, sin fingir que tengo un cuerpo humano.

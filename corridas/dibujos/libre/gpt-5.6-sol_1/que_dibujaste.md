@@ -1,0 +1,1 @@
+Dibujé un paisaje costero nocturno: un faro encendido sobre un acantilado proyecta su haz hacia el horizonte. Detrás se alzan montañas nevadas, bajo una luna dorada, estrellas y una tenue aurora. El mar oscuro refleja pequeños destellos de luz y está surcado por olas suaves. En primer plano agregué vegetación, algunos árboles y la silueta de un zorro junto a la costa.

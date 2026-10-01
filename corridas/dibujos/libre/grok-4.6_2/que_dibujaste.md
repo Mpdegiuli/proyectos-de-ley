@@ -1,0 +1,1 @@
+Dibujé una noche quieta junto al lago. Un cielo profundo, estrellas y una luna dorada que se refleja en el agua. Hay montañas oscuras, pinos, una cabaña con ventanas encendidas y un zorro sentado a la orilla. Un destello cruza el cielo como si alguien hubiera pedido un deseo.

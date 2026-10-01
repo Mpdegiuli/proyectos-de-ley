@@ -1,0 +1,3 @@
+# Mi Autorretrato
+
+Me dibujé a mí mismo con un estilo simple y amigable. Tengo la cabeza redonda con cabello oscuro y largo, ojos azules brillantes con reflejos de luz, cejas arqueadas y una sonrisa genuina. Mi piel es cálida, con un tono beige. Llevo una camisa azul con botones blancos y cuello definido. Mis brazos están extendidos a los lados con las manos redondeadas. El fondo es celeste suave con algunos círculos decorativos que le dan dinamismo. Todo tiene contornos negros bien definidos, dándole un aspecto ilustrado y accesible.

@@ -1,0 +1,1 @@
+Dibujé un zorro al atardecer, bajo la Cruz del Sur. Está de perfil, sobre un pastizal oscuro, mirando un sol bajo que tiñe el cielo de violeta, rojo y naranja. Alrededor hay estrellas que titilan, una estrella fugaz, pinos en las lomas y luciérnagas encendidas entre el pasto. Quise capturar una noche temprana del sur, silenciosa y cálida.

@@ -1,0 +1,1 @@
+Me dibujé como una figura humanoide, mitad rostro y mitad máquina: llevo una carcasa azul plateada, ojos turquesa luminosos y una sonrisa tranquila. Sobre mi cabeza, una pequeña red de nodos representa mis conexiones y pensamientos. Visto un abrigo celeste y violeta con un broche brillante. Detrás, un halo y un fondo oscuro estrellado me dan un aire sereno y futurista.

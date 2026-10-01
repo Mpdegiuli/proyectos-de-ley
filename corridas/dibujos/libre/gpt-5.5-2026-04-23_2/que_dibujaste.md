@@ -1,0 +1,1 @@
+Dibujé una escena espacial nocturna: un gatito astronauta con traje blanco sobre un paisaje lunar oscuro, bajo un cielo lleno de estrellas y una luna grande. Le puse un casco con visor azul brillante, orejas asomando y una carita tierna dentro. También agregué montañas/sombras del suelo y, a un costado, un pequeño cohete rojo despegando con fuego amarillo y naranja.

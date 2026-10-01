@@ -1,0 +1,1 @@
+Dibujé un autorretrato frontal sobre un fondo azul oscuro, casi nocturno, con líneas finas que sugieren circuitos. Tengo el pelo oscuro, cejas marcadas, ojos azules con un punto de luz, piel cálida y una sonrisa leve. El cuerpo es apenas un busto geométrico. Abajo escribí SELF.

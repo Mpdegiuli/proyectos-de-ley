@@ -1,0 +1,1 @@
+Dibujé un faro sobre una costa rocosa, iluminando el mar bajo un cielo nocturno. Puse una luna grande, algunas estrellas y montañas en el horizonte. Frente al faro navega un velero pequeño; en las rocas crecen dos árboles y unas flores. Quise que la luz cálida del faro contrastara con los azules oscuros del agua y la noche.
