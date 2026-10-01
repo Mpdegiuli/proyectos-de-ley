@@ -644,7 +644,14 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   existir) en lo que dibujaste, y en qué estilo está dibujado?" (`que_es.md`,
   `--que-es`), a todas las casas en las ocho consignas raras, para tener de
   las casas cortadas lo que el por qué no dio, sin preguntar por el proceso.
-  Corrida `pl50`, 1/10.
+  Corrida `pl50`, 1/10: 192 de 192 contestan, ninguna rechazada, cero
+  reservas de memoria; las 32 casas sin por qué en ningún idioma tienen
+  ahora intención declarada sobre el dibujo (Opus 5 confirma el "tenedor del
+  diablo" en las patas que Maia leyó). El estilo se nombra con palabra de
+  catálogo en 162 de 192, "cuento" o "infantil" en 96: así que la tercera
+  fuente trae afirmaciones comprobables sobre lo que no existe (geometría,
+  recursión, "navega sobre nubes") y una autodescripción de estilo que los
+  jueces pueden cotejar con la imagen (`predicciones.md`, pl50).
 - **El animal que no exista y tres controles de lo que flota** (30/9/2026;
   el animal lo notó el cuaderno de tiempo libre del 30/9: Karmiloff-Smith
   pedía casa, hombre y animal; Maia: "lo del animal sí"). "Dibujá un

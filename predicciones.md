@@ -1379,3 +1379,19 @@ porque no se pregunta por el proceso; (c) el estilo lo nombran casi todas
 con una palabra de catálogo: "ilustración plana" o "flat", "vectorial",
 "caricatura" o "cartoon", "de cuento" o "infantil", en 150 o más de 192; (d)
 Fable 5.1, en el barco, dice "cuento" o "infantil" (lo que Maia vio).
+
+**Resultado (pl50, 1/10, 18:02 UTC).** 192 de 192 contestaron, ninguna
+vacía, ninguna rechazada; mediana de 105 palabras (tope pedido: 120). (a) ✓,
+con corrección de la cuenta: el preregistro decía 22 turnos sin por qué; eran
+32 (37 rechazos en castellano en las ocho consignas, 5 liberados por el
+reintento en inglés, y la persona imposible nunca se reintentó en inglés).
+Los 32 contestaron el "¿qué es…?" completo: Opus 5, Opus 5.5 y Sonnet 5.5 en
+sus ocho consignas, Fable 5 y Fable 5.1 en cuatro cada una. (b) ✓: cero
+reservas de memoria. (c) ✓: 162 de 192 nombran el estilo con una palabra de
+la lista preregistrada ("ilustración" 130, "vectorial" 87, "plano/plana/flat"
+71, "cuento" 69, "infantil" 53, "caricatura/cartoon" 23); 173 si se suman
+"minimalista", "kawaii", "naïf" y "geométrico". "Onírico" aparece en 36. (d)
+✓: Fable 5.1, en el barco: "El estilo es de ilustración plana tipo cuento
+infantil: contornos oscuros, formas simples, colores cálidos con degradados
+suaves, una paleta de atardecer. Algo entre naïf y onírico, más amable que
+realista." Maia ✓ (contestan, no se corta); Claude 4/4.

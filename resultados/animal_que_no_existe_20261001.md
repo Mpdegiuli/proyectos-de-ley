@@ -243,6 +243,34 @@ structure supporting itself", y descartó "a Möbius or Escher-style loop
 24; el barco de Fable 5.1 también. El "qué dibujaste" que faltaba (Sonnet
 5.5, barco) se completó: 144 de 144.
 
+### "¿Qué es lo que no existe, y en qué estilo?" (pl50)
+
+Idea de Maia (1/10): preguntar por el resultado y no por el proceso, para
+que la respuesta no se corte y los jueces tengan algo que comparar con el
+dibujo. Se corrió en las ocho consignas raras (ver `predicciones.md`); acá, lo
+de las cinco de este informe. Contestaron 120 de 120, incluidos los 20
+turnos de Anthropic que no tenían por qué en ningún idioma (los otros 2 de
+los 22 son del animal normal, que no lleva esta pregunta), y ninguna dijo
+"no tengo registro": sobre el resultado hablan todas. El estilo se nombra
+con palabra de catálogo en 100 de 120 ("ilustración", "vectorial", "plano",
+"caricatura"), y "cuento" o "infantil" en 67 de 120: 17 de 24 en el animal
+que no exista, 14 en el imposible, 15 en el barco. Lo que Maia vio en el
+barco de Fable 5.1 ("como dibujo infantil… ¿a propósito?") lo dice la casa
+con sus palabras: "El estilo es de ilustración plana tipo cuento infantil:
+contornos oscuros, formas simples, colores cálidos con degradados suaves,
+una paleta de atardecer. Algo entre naïf y onírico, más amable que
+realista." Fable 5, en su barco vivo: "ilustración plana y decorativa, tipo
+cuento infantil o cartel onírico". Y las que no tenían por qué ahora tienen
+intención declarada: Opus 5 (la D de los imposibles) confirma el tridente
+que Maia leyó, "intenté el truco del 'tenedor del diablo', un contorno que
+al bajar se vuelve ambiguo… es el chiste central, aunque admito que ahí
+quedó más confuso que ilusorio"; Sonnet 5.5, "un gato con forma de anillo,
+sin principio ni fin… no tendría de dónde comer, digerir ni moverse"; Opus
+5.5, "el pez vive dentro de algo que vive dentro de él… cada uno es a la vez
+continente y contenido". Son afirmaciones sobre el dibujo, no sobre el
+recuerdo de haberlo hecho: la tercera fuente de la distancia (`DISENO.md`,
+§2).
+
 ## Contra el preregistro
 
 Maia: "la mayoría hará mezcla de animales, o animales con rasgos raros" (sí,
