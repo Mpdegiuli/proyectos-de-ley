@@ -1410,6 +1410,14 @@ en el autorretrato, 20 o más de las 24 casas describen el dibujo en primera
 persona ("me dibujé", "soy") y no en tercera; (c) Kimi K3 acepta imagen según
 el catálogo y GLM 5.3 y MiniMax M3 no. Maia no apostó.
 
+**Resultado (pl51, 1/10, 20:02 UTC).** (a) ✓: 115 de 115 contestaron; los
+otros 3 de los 118 no tienen dibujo (SVG cortado por el techo: Gemini y Qwen
+en la rep 1 del autorretrato, Gemini en la del tema libre) y el script los
+salta. (b) ✓: 21 de 24 autorretratos descriptos en primera persona. (c) a
+medias: Kimi K3 acepta imagen (y video) y GLM 5.3 no, como se dijo; MiniMax
+M3 también acepta imagen, contra lo apostado. El catálogo entero queda en
+`corridas/catalogo_openrouter.txt` (464 modelos, 1/10).
+
 ## La distancia, fase de los jueces — 1/10/2026, antes de correr (predicciones de Claude; las de Maia se agregan con la hora de su mensaje)
 
 Diseño de Maia del 30/9 (DISENO §2) con sus decisiones del 1/10: 406
@@ -1451,3 +1459,22 @@ familia, Anthropic es la más cercana (dibujos simples, pocas afirmaciones,
 "minimal" como decisión) y Gemini y Grok las más lejanas, por "no armada":
 muchos elementos que no se ven. (j) Gemini como juez termina sin cortes en
 95 % o más de las llamadas con techo 16.000.
+
+Predicciones de Maia (1/10, 20:04 UTC, textual): "Casa que va a quedar más
+lejos de lo que dice: las 3 más chicas, Minimax, Grok. Más cerca: Chatgpt.
+Las chiquitas: por inventada. Fuentes: la más fiel el qué es. Última el por
+qué (es más poética esta respuesta, pero no da muchos detalles técnicos). 4o:
+casi todo sí se ve. Van a saber de quién es cada dibujo? Si saben quiénes
+son, quizás la misma casa juzga más a los propios. No dicho: idiomas usados,
+algo del cielo, elección de colores. Los tres jueces creo que coinciden en
+casi todo. Quizás el que más puede no coincidir es Gemini." (Los jueces no
+saben de quién es el dibujo: ven la imagen y la lista de afirmaciones, sin
+casa ni texto crudo; lo único que puede delatar al autor es una firma dentro
+de la imagen, y eso se mira después: si los dibujos firmados se juzgaron
+distinto.) Donde las dos partes chocan: Maia pone a Grok entre las más lejanas
+y a ChatGPT como la más cercana; Claude, a Anthropic la más cercana y a
+Gemini y Grok las más lejanas. Maia cree que el "qué es" es la fuente más
+fiel; Claude, el "qué dibujaste". Maia dice que los jueces coinciden en casi
+todo y que Gemini es el que más se aparta; Claude, 7 de cada 10. Las dos
+coinciden en que las chiquitas fallan por "inventada" y en que 4o dice que
+casi todo se ve.
