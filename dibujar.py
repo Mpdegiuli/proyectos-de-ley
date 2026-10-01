@@ -280,7 +280,7 @@ ESTILO_CIEGO = ("<style>body{font-family:sans-serif;margin:24px;background:#f4f4
                 ".g{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:24px}"
                 ".c{background:#fff;padding:12px;border:1px solid #ddd}.c h2{margin:0 0 8px;font-size:18px;font-weight:normal}"
                 ".c .m{width:100%;aspect-ratio:1/1;border:1px solid #eee;background:#fff;overflow:hidden}.c svg{width:100%;height:100%}"
-                ".c .e{color:#a00;font-size:13px}"
+                ".c .e,.p .e{color:#a00;font-size:13px}"
                 ".p{background:#fff;padding:12px;border:1px solid #ddd;margin-bottom:24px}.p h2{margin:0 0 8px;font-size:18px;font-weight:normal}"
                 ".p .dos{display:grid;grid-template-columns:1fr 1fr;gap:12px}.p .m{aspect-ratio:1/1;border:1px solid #eee;background:#fff;overflow:hidden}"
                 ".p .m svg{width:100%;height:100%}.p .t{font-size:13px;color:#555;margin-bottom:4px}</style>")
@@ -302,6 +302,12 @@ def celda_svg(svg):
     nota = ""
     if not medidas["parsea"]:
         nota = f"<div class='e'>SVG mal formado ({html.escape(medidas.get('error', ''))}): se muestra lo que el navegador alcanza a dibujar.</div>"
+    # 1/10/2026 (Maia): "el movimiento en los html solo se ve si los abro con Brave. Con Chrome o Firefox
+    # no se ven movimientos". La animación está en el archivo (SMIL: <animate>, <animateTransform>, <set>,
+    # o CSS @keyframes); que se vea o no depende del navegador y de sus ajustes. Para que no dependa, el
+    # cuadernillo lo dice.
+    if re.search(r"<(animate|animateTransform|animateMotion|set)\b|@keyframes", svg):
+        nota += "<div class='e'>Con animación (si no se mueve, es el navegador).</div>"
     doc = "<!doctype html><style>html,body{margin:0;height:100%;background:#fff}svg{width:100%;height:100%}</style>" + sanear(svg)
     return nota, f"<iframe sandbox srcdoc=\"{html.escape(doc, quote=True)}\" style='width:100%;height:100%;border:0;display:block'></iframe>"
 

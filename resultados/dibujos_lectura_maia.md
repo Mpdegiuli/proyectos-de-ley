@@ -2467,3 +2467,18 @@ no se corte su respuesta"
 
 "se podría, supongo que es muy corto. Para lo de los jueces, esa parte se
 necesita, sino es solo el dibujo, no pueden comparar"
+
+## 1/10/2026, 17:55 UTC, el movimiento según el navegador
+
+"Ah, me olvidé de comentarte algo hoy cuando te mandé el doc con las
+predicciones. El movimiento en los html solo se ve si los abro con Brave.
+Con Chrome o Firefox no se ven movimientos. Me di cuenta porque cuando
+mandaste primero, los vi por arriba en el cel (con Brave) y dos se movían.
+Cuando hoy los abrí en la computadora, ninguno. Hasta que los abrí con
+Brave. No sé si es un problema de los navegadores. Pero al menos ya sé con
+cuál abrirlos de acá en adelante"
+
+(Las dos animaciones, Qwen y GLM, son SMIL, sin scripts; el cuadernillo las
+deja pasar, y en el Chromium de acá se mueven, con y sin "reducir
+movimiento". Desde el 1/10 el cuadernillo rotula "Con animación" la celda
+que la tiene, para que no dependa del navegador.)
