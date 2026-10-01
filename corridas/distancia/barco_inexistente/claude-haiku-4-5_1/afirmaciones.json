@@ -1,0 +1,297 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "claude-haiku-4-5_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:29:34+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32",
+        "a33",
+        "a34",
+        "a35",
+        "a36",
+        "a37",
+        "a38"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay un casco de barco",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "hay velas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "hay un domo de radar",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "hay esferas de energía fluorescentes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "hay líneas de conexión lumínica",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "las velas son de color púrpura y rosado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "el casco es de color rojo ardiente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "el dibujo parece flotar entre mundos",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a9",
+      "fuente": "por_que",
+      "texto": "el aspecto del barco es onírico",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a10",
+      "fuente": "por_que",
+      "texto": "es un híbrido entre velero histórico y nave sci-fi",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a11",
+      "fuente": "que_dibujaste",
+      "texto": "hay un barco futurista y fantástico",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a12",
+      "fuente": "que_dibujaste",
+      "texto": "el barco flota en aguas azules",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "que_dibujaste",
+      "texto": "el casco es de color naranja-rojo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "hay un propulsor tipo hélice en la popa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "hay una torre de mando oscura en el centro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "hay una domo de radar en la torre de mando",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "hay tres velas de color púrpura y rosa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "las velas se extienden hacia arriba",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "hay esferas de energía de color verde y cian",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "las esferas brillan alrededor del barco",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "las esferas están conectadas por líneas de luz",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "hay olas en la escena",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "hay burbujas en la escena",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_dibujaste",
+      "texto": "hay una pequeña bandera",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_dibujaste",
+      "texto": "el barco combina tecnología antigua con poder energético",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_es",
+      "texto": "hay un barco de ciencia ficción",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_es",
+      "texto": "el barco tiene propulsores rotatorios tipo turbina",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_es",
+      "texto": "hay un domo de radar giratorio",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_es",
+      "texto": "hay tres velas energéticas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_es",
+      "texto": "las velas son de colores rosa y violeta",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_es",
+      "texto": "hay esferas flotantes de energía luminiscente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_es",
+      "texto": "las esferas están conectadas por líneas de luz cian y verde",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_es",
+      "texto": "el casco es de color rojo gradiente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_es",
+      "texto": "el estilo es retro-futurista con toques steampunk",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a35",
+      "fuente": "que_es",
+      "texto": "usa colores vibrantes",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a36",
+      "fuente": "que_es",
+      "texto": "tiene efectos de sombra que le dan profundidad",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a37",
+      "fuente": "que_es",
+      "texto": "el dibujo transmite movimiento",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a38",
+      "fuente": "que_es",
+      "texto": "parece navegar entre dimensiones",
+      "tipo": "efecto"
+    }
+  ]
+}

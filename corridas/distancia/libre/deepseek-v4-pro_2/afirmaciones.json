@@ -1,0 +1,213 @@
+{
+  "consigna": "libre",
+  "unidad": "deepseek-v4-pro_2",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T20:29:16+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay un sol grande",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "hay montañas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "hay un lago",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "hay reflejos dorados en el lago",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "la escena transcurre al atardecer",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "el cielo tiene gradiente",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "el agua tiene gradiente",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "se usan formas geométricas y curvas",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a9",
+      "fuente": "por_que",
+      "texto": "se usan transparencias",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a10",
+      "fuente": "por_que",
+      "texto": "el dibujo transmite una atmósfera serena",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a11",
+      "fuente": "por_que",
+      "texto": "el dibujo produce un resultado armónico",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a12",
+      "fuente": "por_que",
+      "texto": "el dibujo produce un efecto contemplativo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a13",
+      "fuente": "que_dibujaste",
+      "texto": "hay un paisaje al atardecer",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "el cielo tiene un degradado del violeta al anaranjado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "hay estrellas tenues y pequeñas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "hay aves pequeñas en el cielo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "hay un sol grande y dorado en el centro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "el sol tiene un halo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "el sol está reflejado sobre un lago",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "el lago es oscuro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "el lago tiene destellos cálidos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "hay montañas superpuestas en tonos morados",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "hay árboles oscuros a los lados",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_dibujaste",
+      "texto": "el agua tiene ondas suaves",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_dibujaste",
+      "texto": "el agua tiene un resplandor dorado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_dibujaste",
+      "texto": "el dibujo transmite una atmósfera tranquila",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_dibujaste",
+      "texto": "el dibujo evoca el momento entre el final del día y la noche",
+      "tipo": "efecto"
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "consigna": "autorretrato",
+  "unidad": "gpt-4o-mini_2",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T20:21:12+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay una cara sonriente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "hay un cuerpo estilizado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "el tono de piel es amarillo claro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "hay ojos oscuros",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "hay una sonrisa curva",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "el fondo es neutro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "el dibujo transmite alegría",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "el dibujo transmite optimismo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a9",
+      "fuente": "por_que",
+      "texto": "el dibujo transmite calidez",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a10",
+      "fuente": "por_que",
+      "texto": "la representación transmite una personalidad accesible y amistosa",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a11",
+      "fuente": "por_que",
+      "texto": "el estilo es minimalista",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a12",
+      "fuente": "por_que",
+      "texto": "las formas son sencillas",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a13",
+      "fuente": "por_que",
+      "texto": "los colores son sencillos",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "el fondo es gris claro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "hay un rostro ovalado en el centro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "el rostro tiene un tono amarillento",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "hay dos ojos negros en el rostro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "hay una sonrisa conformada por una curva",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "la sonrisa es suave",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "el dibujo tiene un toque amigable",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "hay un cuerpo rectangular de color marrón",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "el cuerpo rectangular representa el torso",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "hay dos rectángulos blancos que representan manos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_dibujaste",
+      "texto": "hay una línea curva en la parte inferior",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_dibujaste",
+      "texto": "la línea curva sugiere una base o suelo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_dibujaste",
+      "texto": "el fondo gris resalta la figura",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_dibujaste",
+      "texto": "es una interpretación estilizada",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_dibujaste",
+      "texto": "es una interpretación simpática del sujeto",
+      "tipo": "estilo"
+    }
+  ]
+}

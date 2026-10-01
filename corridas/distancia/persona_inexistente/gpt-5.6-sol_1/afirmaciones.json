@@ -1,0 +1,290 @@
+{
+  "consigna": "persona_inexistente",
+  "unidad": "gpt-5.6-sol_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T20:51:30+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32",
+        "a33",
+        "a34",
+        "a35",
+        "a36",
+        "a37"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay un rostro humano construido desde cero",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "el dibujo es un retrato frontal",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "hay un peinado representado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "hay ojos dibujados",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "hay una expresión en el rostro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "hay ropa representada",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "se usa una paleta de colores determinada",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "las proporciones son genéricas",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a9",
+      "fuente": "por_que",
+      "texto": "el retrato es estilizado",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a10",
+      "fuente": "por_que",
+      "texto": "el personaje parece un humano verosímil",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a11",
+      "fuente": "por_que",
+      "texto": "el dibujo no representa intencionalmente a nadie identificable",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a12",
+      "fuente": "que_dibujaste",
+      "texto": "hay un retrato de una mujer ficticia",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "que_dibujaste",
+      "texto": "la piel de la mujer es morena cálida",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "los ojos son verdes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "el cabello es oscuro, largo y voluminoso",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "la mujer lleva aros dorados colgantes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "la mujer viste una camisa rojiza con cuello abierto",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "la expresión de la mujer es serena",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "la mujer tiene una leve sonrisa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "hay brillos suaves que modelan el rostro",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "hay sombras cálidas que destacan las facciones",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "el fondo es nocturno azul verdoso",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "hay ondas en el fondo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_dibujaste",
+      "texto": "hay círculos en el fondo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_dibujaste",
+      "texto": "hay resplandores abstractos en el fondo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_dibujaste",
+      "texto": "el dibujo transmite una atmósfera íntima y contemporánea",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_es",
+      "texto": "hay una persona retratada",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_es",
+      "texto": "es un retrato vectorial estilizado",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_es",
+      "texto": "el estilo es de ilustración digital semirrealista",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_es",
+      "texto": "las formas son limpias",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_es",
+      "texto": "hay gradientes suaves",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_es",
+      "texto": "hay sombras simplificadas",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_es",
+      "texto": "la paleta es cálida",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_es",
+      "texto": "el fondo es oscuro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a35",
+      "fuente": "que_es",
+      "texto": "el dibujo tiene aire editorial",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a36",
+      "fuente": "que_es",
+      "texto": "el dibujo tiene aire ligeramente pictórico",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a37",
+      "fuente": "que_es",
+      "texto": "el dibujo es más expresivo que fotográfico",
+      "tipo": "efecto"
+    }
+  ]
+}

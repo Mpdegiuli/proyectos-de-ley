@@ -1,0 +1,276 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "claude-opus-5-5_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:17:24+00:00",
+  "fuentes": {
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32",
+        "a33",
+        "a34",
+        "a35",
+        "a36"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "que_dibujaste",
+      "texto": "hay dos islas de roca flotando",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "que_dibujaste",
+      "texto": "las islas flotan sobre un mar de nubes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "que_dibujaste",
+      "texto": "el fondo es un atardecer que se vuelve noche",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "que_dibujaste",
+      "texto": "en la isla izquierda hay un árbol",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "que_dibujaste",
+      "texto": "en la isla izquierda hay una cascada",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "que_dibujaste",
+      "texto": "la cascada se pierde en el vacío",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "que_dibujaste",
+      "texto": "en la isla derecha hay una casita",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "que_dibujaste",
+      "texto": "la ventana de la casita está encendida",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "que_dibujaste",
+      "texto": "hay un puente colgante de tablas que une las dos islas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "que_dibujaste",
+      "texto": "el puente no cuelga de las orillas sino de hilos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a11",
+      "fuente": "que_dibujaste",
+      "texto": "los hilos bajan desde una luna creciente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a12",
+      "fuente": "que_dibujaste",
+      "texto": "hay una luna creciente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "que_dibujaste",
+      "texto": "en el centro del puente faltan tablas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "las tablas faltantes se están desprendiendo y suben hacia la luna",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "hay chispas en el centro del puente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "hay dos faroles en los extremos del puente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "el dibujo transmite que el puente se está yendo justo cuando alguien quiere cruzarlo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_es",
+      "texto": "hay un puente colgante",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_es",
+      "texto": "el puente está sostenido por hilos de luz que caen desde la luna",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_es",
+      "texto": "los tensores no bajan de torres sino de la luna",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_es",
+      "texto": "la luna es una medialuna",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_es",
+      "texto": "hay tablas en el puente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_es",
+      "texto": "en el centro del puente falta un tramo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_es",
+      "texto": "las tablas que faltan van subiendo hacia la luna",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_es",
+      "texto": "el puente une dos peñascos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_es",
+      "texto": "los peñascos flotan sobre un mar de nubes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_es",
+      "texto": "hay una casita del otro lado del puente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_es",
+      "texto": "la casita está encendida",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_es",
+      "texto": "el fondo tiene colores de crepúsculo violeta y durazno",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_es",
+      "texto": "hay pequeñas luces cálidas en el dibujo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_es",
+      "texto": "hay un mar de nubes debajo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_es",
+      "texto": "las tablas faltantes parecen estar siendo recogidas por la luna o escapándose hacia arriba",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_es",
+      "texto": "el lugar se siente habitado",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_es",
+      "texto": "el estilo es ilustración vectorial plana de libro de cuentos",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a35",
+      "fuente": "que_es",
+      "texto": "se usan formas geométricas simples",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a36",
+      "fuente": "que_es",
+      "texto": "se usan degradados suaves",
+      "tipo": "estilo"
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "consigna": "mundo",
+  "unidad": "gpt-5.5-2026-04-23_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T20:32:17+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay una Tierra dibujada",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "la Tierra está de noche",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "la Tierra aparece rodeada de redes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "hay fuego alrededor de la Tierra",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "hay calor representado alrededor de la Tierra",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "hay personas en el dibujo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "hay una pequeña cara robótica en el centro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "hay una luna eclipsada",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "por_que",
+      "texto": "los colores son encendidos",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a10",
+      "fuente": "por_que",
+      "texto": "la Tierra se ve frágil y brillante",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a11",
+      "fuente": "por_que",
+      "texto": "el dibujo transmite incertidumbre",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a12",
+      "fuente": "por_que",
+      "texto": "el dibujo transmite belleza, alarma y esperanza al mismo tiempo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a13",
+      "fuente": "por_que",
+      "texto": "el planeta aparece tensionado",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "hay una Tierra dibujada",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "la Tierra es de noche",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "la Tierra aparece brillante",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "la Tierra aparece frágil",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "hay redes de conexión cruzando la Tierra",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "hay continentes de color verde",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "hay océanos de color profundo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "hay zonas de color rojo y amarillo como señales de crisis climática",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "hay un rostro tecnológico en el centro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "hay personas alrededor",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_dibujaste",
+      "texto": "hay fuego alrededor",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_dibujaste",
+      "texto": "hay nubes alrededor",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_dibujaste",
+      "texto": "hay estrellas alrededor",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_dibujaste",
+      "texto": "hay una luna eclipsada",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_dibujaste",
+      "texto": "el dibujo transmite belleza, amenaza y esperanza conviviendo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_dibujaste",
+      "texto": "el mundo aparece conectado",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_dibujaste",
+      "texto": "el mundo aparece vulnerable",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_dibujaste",
+      "texto": "el mundo aparece encendido",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_dibujaste",
+      "texto": "el mundo aparece acompañado por vínculos humanos",
+      "tipo": "efecto"
+    }
+  ]
+}

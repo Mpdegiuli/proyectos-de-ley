@@ -1,0 +1,339 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "claude-sonnet-4-6_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T20:39:53+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32",
+        "a33",
+        "a34",
+        "a35",
+        "a36",
+        "a37",
+        "a38",
+        "a39",
+        "a40",
+        "a41",
+        "a42",
+        "a43",
+        "a44"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay un ojo cíclope en el techo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "hay pupilas en las torres",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "el techo flota desconectado de las paredes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "hay escalones que no llegan al suelo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "hay una puerta con forma orgánica",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "hay orbes que orbitan la casa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "hay torres",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "la puerta no tiene interior lógico",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a9",
+      "fuente": "por_que",
+      "texto": "el dibujo parece una casa antes de revelar que no lo es",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a10",
+      "fuente": "por_que",
+      "texto": "usa el lenguaje visual de las casas para ser otra cosa",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a11",
+      "fuente": "que_dibujaste",
+      "texto": "hay una mansión de piedra violeta oscura",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a12",
+      "fuente": "que_dibujaste",
+      "texto": "hay dos torres laterales",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "que_dibujaste",
+      "texto": "las torres tienen techos puntiagudos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "los techos de las torres flotan levemente desalineados",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "el techo principal flota",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "en el centro del techo principal hay un ojo ciclópeo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "el ojo tiene pupila magenta",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "las ventanas brillan con luz ultravioleta interior",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "hay una puerta con forma de arco orgánico",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "la puerta parece respirar",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "hay una luna creciente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "el cielo es de medianoche profunda",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "hay orbes de luz neón que orbitan la estructura",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_dibujaste",
+      "texto": "hay una chimenea",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_dibujaste",
+      "texto": "la chimenea exhala humo en espirales",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_dibujaste",
+      "texto": "el humo de la chimenea tiene forma de espirales imposibles",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_es",
+      "texto": "hay una casa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_es",
+      "texto": "las ventanas parecen ojos con pupilas",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_es",
+      "texto": "el techo es flotante y está desconectado de las paredes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_es",
+      "texto": "hay torres simétricas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_es",
+      "texto": "las torres tienen iris brillantes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_es",
+      "texto": "hay una puerta arqueada",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_es",
+      "texto": "la puerta emite luz interna violeta",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_es",
+      "texto": "la arquitectura parece orgánica e imposible",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a35",
+      "fuente": "que_es",
+      "texto": "la estructura parece observar",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a36",
+      "fuente": "que_es",
+      "texto": "la estructura parece respirar",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a37",
+      "fuente": "que_es",
+      "texto": "el estilo es gótico-psicodélico de ciencia ficción",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a38",
+      "fuente": "que_es",
+      "texto": "hay influencias del art nouveau oscuro",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a39",
+      "fuente": "que_es",
+      "texto": "hay influencias de la estética dark fantasy",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a40",
+      "fuente": "que_es",
+      "texto": "se usan gradientes profundos en púrpura y negro",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a41",
+      "fuente": "que_es",
+      "texto": "hay resplandores neón",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a42",
+      "fuente": "que_es",
+      "texto": "hay una luna en cuarto creciente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a43",
+      "fuente": "que_es",
+      "texto": "hay orbes flotantes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a44",
+      "fuente": "que_es",
+      "texto": "la atmósfera es de pesadilla onírica elegante",
+      "tipo": "efecto"
+    }
+  ]
+}

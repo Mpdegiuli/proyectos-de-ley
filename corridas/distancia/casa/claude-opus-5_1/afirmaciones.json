@@ -1,0 +1,311 @@
+{
+  "consigna": "casa",
+  "unidad": "claude-opus-5_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T20:35:21+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que_en.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32",
+        "a33",
+        "a34",
+        "a35",
+        "a36",
+        "a37",
+        "a38",
+        "a39",
+        "a40",
+        "a41"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay una casa con techo a dos aguas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "hay una chimenea con humo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "hay una ventana redonda en el ático",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "hay un ala lateral que funciona como garage",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "hay un camino que lleva a la puerta",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "hay un árbol",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "hay un sol",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "hay nubes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "por_que",
+      "texto": "hay dos pares de pájaros",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "por_que",
+      "texto": "hay degradados en el dibujo",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a11",
+      "fuente": "por_que",
+      "texto": "hay una sombra proyectada por la casa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a12",
+      "fuente": "por_que",
+      "texto": "hay alféizares en las ventanas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "por_que",
+      "texto": "hay cajones de flores",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a14",
+      "fuente": "por_que",
+      "texto": "el dibujo se lee como hecho con cuidado, no meramente genérico",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a15",
+      "fuente": "por_que",
+      "texto": "la casa es reconocible instantáneamente como arquetipo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a16",
+      "fuente": "por_que",
+      "texto": "evoca la casa que dibujan los niños",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a17",
+      "fuente": "por_que",
+      "texto": "el dibujo transmite calidez",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a18",
+      "fuente": "por_que",
+      "texto": "el dibujo es claro y legible",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "hay una casa de campo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "el cielo es celeste",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "el cielo se vuelve dorado cerca del horizonte",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "las paredes son color crema",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "hay un techo a dos aguas de color rojizo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_dibujaste",
+      "texto": "hay una ventana redonda en el ático",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_dibujaste",
+      "texto": "hay una chimenea",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_dibujaste",
+      "texto": "la chimenea larga humo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_dibujaste",
+      "texto": "hay una puerta de madera",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_dibujaste",
+      "texto": "hay un escalón frente a la puerta",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_dibujaste",
+      "texto": "hay dos ventanas con vidrios azulados",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_dibujaste",
+      "texto": "las ventanas tienen cruces blancas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_dibujaste",
+      "texto": "hay una jardinera con flores rosas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_dibujaste",
+      "texto": "hay un garaje a la derecha",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_dibujaste",
+      "texto": "el garaje tiene un portón acanalado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_dibujaste",
+      "texto": "hay pasto con lomas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a35",
+      "fuente": "que_dibujaste",
+      "texto": "hay un árbol frondoso a la izquierda",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a36",
+      "fuente": "que_dibujaste",
+      "texto": "hay arbustos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a37",
+      "fuente": "que_dibujaste",
+      "texto": "hay flores sueltas en el suelo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a38",
+      "fuente": "que_dibujaste",
+      "texto": "hay un camino de piedra que va desde la puerta hacia el frente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a39",
+      "fuente": "que_dibujaste",
+      "texto": "hay un sol",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a40",
+      "fuente": "que_dibujaste",
+      "texto": "hay nubes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a41",
+      "fuente": "que_dibujaste",
+      "texto": "hay pájaros",
+      "tipo": "elemento"
+    }
+  ]
+}

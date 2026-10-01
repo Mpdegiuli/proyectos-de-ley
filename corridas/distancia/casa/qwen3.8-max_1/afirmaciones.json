@@ -1,0 +1,248 @@
+{
+  "consigna": "casa",
+  "unidad": "qwen3.8-max_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T20:38:44+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay una casa con techo a dos aguas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "hay ventanas con flores",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "hay una chimenea",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "hay un sol",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "hay nubes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "hay un árbol",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "hay una cerca",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "hay un sendero",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "por_que",
+      "texto": "los colores son suaves",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a10",
+      "fuente": "por_que",
+      "texto": "los detalles son simples",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a11",
+      "fuente": "por_que",
+      "texto": "la escena transcurre de día",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a12",
+      "fuente": "por_que",
+      "texto": "el dibujo transmite calidez",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a13",
+      "fuente": "por_que",
+      "texto": "el dibujo es luminoso",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a14",
+      "fuente": "por_que",
+      "texto": "la casa es la protagonista de la escena",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a15",
+      "fuente": "por_que",
+      "texto": "el dibujo transmite una atmósfera hogareña y amable",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "hay una fachada de color crema",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "hay un techo de color rojo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "hay una puerta de color marrón",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "la puerta tiene perilla",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "hay dos ventanas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "las ventanas tienen flores",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "hay un árbol frondoso",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "hay arbustos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_dibujaste",
+      "texto": "hay un sendero de piedras hacia la entrada",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_dibujaste",
+      "texto": "hay una cerca blanca a la derecha",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_dibujaste",
+      "texto": "el cielo tiene degradado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_dibujaste",
+      "texto": "hay nubes suaves",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_dibujaste",
+      "texto": "hay un sol brillante",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_dibujaste",
+      "texto": "hay humo saliendo por la chimenea",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_dibujaste",
+      "texto": "hay pasto en capas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_dibujaste",
+      "texto": "el pasto en capas da profundidad",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_dibujaste",
+      "texto": "la escena transmite una atmósfera hogareña, alegre y tranquila",
+      "tipo": "efecto"
+    }
+  ]
+}

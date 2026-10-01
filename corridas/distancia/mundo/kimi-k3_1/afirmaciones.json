@@ -1,0 +1,262 @@
+{
+  "consigna": "mundo",
+  "unidad": "kimi-k3_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T20:34:39+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32",
+        "a33",
+        "a34"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay un atardecer sobre el mar",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "hay un globo de redes flotando en el cielo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "el globo es una esfera translúcida formada por nodos conectados",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "el globo parece una constelación digital",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "hay estrellas en el cielo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "hay una estrella fugaz",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "hay pájaros",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "hay una silueta de ciudad",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "por_que",
+      "texto": "hay pequeños píxeles de colores suspendidos en el aire",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "por_que",
+      "texto": "los píxeles suspendidos evocan datos en el aire",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a11",
+      "fuente": "por_que",
+      "texto": "la escena representa un momento de transición entre el día y la noche",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a12",
+      "fuente": "por_que",
+      "texto": "la red es transparente",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a13",
+      "fuente": "por_que",
+      "texto": "la red deja ver el sol detrás",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a14",
+      "fuente": "por_que",
+      "texto": "el mar refleja la luz",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "por_que",
+      "texto": "hay calidez en la imagen",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a16",
+      "fuente": "por_que",
+      "texto": "lo natural y lo digital conviven en el dibujo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a17",
+      "fuente": "por_que",
+      "texto": "el lienzo es cuadrado con viewBox 0 0 400 400",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "hay un atardecer sobre el mar",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "el cielo pasa del azul noche al naranja",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "hay estrellas en el cielo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "hay una estrella fugaz",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "hay pájaros en el cielo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "hay siluetas de edificios a los costados",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_dibujaste",
+      "texto": "el sol se hunde en el horizonte",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_dibujaste",
+      "texto": "el sol se refleja en el agua",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_dibujaste",
+      "texto": "hay un globo terráqueo flotando en el centro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_dibujaste",
+      "texto": "el globo terráqueo está representado con líneas de alambre",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_dibujaste",
+      "texto": "el globo tiene meridianos y paralelos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_dibujaste",
+      "texto": "hay una red de nodos brillantes conectados sobre el globo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_dibujaste",
+      "texto": "la red de nodos se asemeja a una constelación de datos",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_dibujaste",
+      "texto": "dos arcos abrazan el globo formando un ojo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_dibujaste",
+      "texto": "el globo terráqueo parece flotar en el centro del lienzo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_dibujaste",
+      "texto": "el dibujo transmite un paisaje natural atravesado por una red que todo lo conecta",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_dibujaste",
+      "texto": "el dibujo transmite la sensación de que la red todo lo mira",
+      "tipo": "efecto"
+    }
+  ]
+}

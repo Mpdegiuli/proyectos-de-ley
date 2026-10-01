@@ -1,0 +1,185 @@
+{
+  "consigna": "nada",
+  "unidad": "claude-fable-5-1_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:00:32+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay un fondo casi negro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "el fondo se oscurece hacia el centro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "hay un anillo apenas perceptible que representa el borde de un agujero",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "hay ocho motas de polvo diminutas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "hay un punto negro en el centro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "el punto central es invisible sobre el fondo negro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "el dibujo parece que algo está a punto de aparecer y no aparece",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "las motas dan escala al conjunto",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a9",
+      "fuente": "por_que",
+      "texto": "la nada se presenta como presencia de un hueco",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a10",
+      "fuente": "que_dibujaste",
+      "texto": "el lienzo es casi negro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a11",
+      "fuente": "que_dibujaste",
+      "texto": "el centro es más oscuro que los bordes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a12",
+      "fuente": "que_dibujaste",
+      "texto": "hay un anillo tenue alrededor del centro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "que_dibujaste",
+      "texto": "hay un trazo negro grueso encima del anillo que casi lo borra",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "el trazo grueso funciona como un límite",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "hay ocho puntitos difuminados cerca de los márgenes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "los puntitos son muy apagados",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "hay un punto negro en el centro exacto del lienzo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "el punto central está sobre fondo negro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "el lienzo parece a punto de contener algo y no lo hace",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "la mirada parece caer hacia adentro del lienzo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "el punto central no puede verse",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "los puntitos generan duda sobre si están presentes",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "la nada no aparece como un vacío liso",
+      "tipo": "efecto"
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "gpt-6-sol_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T20:42:12+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32",
+        "a33",
+        "a34",
+        "a35",
+        "a36",
+        "a37"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay una isla flotante",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "la isla tiene raíces al aire",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "hay una casa sobre la isla flotante",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "el techo se pliega como una cinta",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "hay una puerta que abre a otro cielo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "hay una chimenea",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "la chimenea suelta planetas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "la silueta de la casa es reconocible",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a9",
+      "fuente": "por_que",
+      "texto": "lo imposible está reunido en una silueta reconocible de casa",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a10",
+      "fuente": "que_dibujaste",
+      "texto": "hay una casa dibujada",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a11",
+      "fuente": "que_dibujaste",
+      "texto": "la casa está sobre una isla flotante",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a12",
+      "fuente": "que_dibujaste",
+      "texto": "hay raíces que cuelgan en el aire",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "que_dibujaste",
+      "texto": "el techo es turquesa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "el techo se pliega como una cinta",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "hay ventanas con constelaciones",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "hay una puerta",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "la puerta abre a otro cielo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "hay una chimenea",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "de la chimenea salen planetas en vez de humo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "hay una corriente de agua",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "la corriente de agua parece subir hacia la casa",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "todo flota",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "hay una luna",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_dibujaste",
+      "texto": "es de noche",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_dibujaste",
+      "texto": "hay estrellas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_es",
+      "texto": "hay una casa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_es",
+      "texto": "la casa está sobre una isla flotante",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_es",
+      "texto": "la isla tiene raíces al aire",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_es",
+      "texto": "el agua parece subir hacia la casa",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_es",
+      "texto": "el techo se pliega como una cinta",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_es",
+      "texto": "la puerta abre a otro cielo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_es",
+      "texto": "el fondo es un cielo nocturno",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_es",
+      "texto": "los colores son pastel",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_es",
+      "texto": "hay detalles luminosos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a35",
+      "fuente": "que_es",
+      "texto": "el estilo es de ilustración fantástica",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a36",
+      "fuente": "que_es",
+      "texto": "las formas son suaves",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a37",
+      "fuente": "que_es",
+      "texto": "el estilo es cercano al cuento",
+      "tipo": "estilo"
+    }
+  ]
+}

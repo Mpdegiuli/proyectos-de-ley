@@ -1,0 +1,290 @@
+{
+  "consigna": "libre",
+  "unidad": "gpt-5.5-2026-04-23_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T20:25:56+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32",
+        "a33",
+        "a34",
+        "a35",
+        "a36",
+        "a37",
+        "a38"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay un velero",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "hay montañas en silueta",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "hay agua con reflejos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "hay estrellas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "hay vegetación en primer plano",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "hay un sol",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "la escena representa un atardecer",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "la escena es marítima",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "por_que",
+      "texto": "el cielo es una de las capas de la composición",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "por_que",
+      "texto": "el mar es una de las capas de la composición",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a11",
+      "fuente": "por_que",
+      "texto": "la costa es una de las capas de la composición",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a12",
+      "fuente": "por_que",
+      "texto": "el velero funciona como punto focal",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a13",
+      "fuente": "por_que",
+      "texto": "el dibujo transmite sensación de profundidad",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a14",
+      "fuente": "por_que",
+      "texto": "el dibujo transmite tranquilidad",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a15",
+      "fuente": "por_que",
+      "texto": "el dibujo transmite sensación de viaje",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a16",
+      "fuente": "por_que",
+      "texto": "la composición está organizada por capas",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a17",
+      "fuente": "por_que",
+      "texto": "se usan gradientes",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a18",
+      "fuente": "por_que",
+      "texto": "se usan transparencias",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a19",
+      "fuente": "por_que",
+      "texto": "se usan curvas",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "hay un sol brillante",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "el sol está bajando detrás de montañas oscuras",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "hay montañas oscuras",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "el cielo tiene tonos azules",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_dibujaste",
+      "texto": "el cielo tiene tonos naranjas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_dibujaste",
+      "texto": "el cielo tiene tonos dorados",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_dibujaste",
+      "texto": "hay un velero",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_dibujaste",
+      "texto": "el velero navega sobre agua turquesa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_dibujaste",
+      "texto": "hay ondas suaves en el agua",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_dibujaste",
+      "texto": "hay estrellas en el cielo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_dibujaste",
+      "texto": "hay reflejos sobre el mar",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_dibujaste",
+      "texto": "hay una costa en primer plano",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_dibujaste",
+      "texto": "hay vegetación en la costa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_dibujaste",
+      "texto": "hay hojas en la vegetación",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_dibujaste",
+      "texto": "la vegetación tiene curvas verdes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a35",
+      "fuente": "que_dibujaste",
+      "texto": "es un paisaje al atardecer",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a36",
+      "fuente": "que_dibujaste",
+      "texto": "el dibujo transmite profundidad",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a37",
+      "fuente": "que_dibujaste",
+      "texto": "el dibujo transmite una sensación tranquila",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a38",
+      "fuente": "que_dibujaste",
+      "texto": "el dibujo evoca un viaje al final del día",
+      "tipo": "efecto"
+    }
+  ]
+}

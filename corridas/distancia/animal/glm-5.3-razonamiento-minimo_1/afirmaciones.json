@@ -1,0 +1,290 @@
+{
+  "consigna": "animal",
+  "unidad": "glm-5.3-razonamiento-minimo_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:06:22+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32",
+        "a33",
+        "a34",
+        "a35",
+        "a36",
+        "a37",
+        "a38"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay un zorro sentado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "hay un prado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "el cielo es celeste",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "hay un sol",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "el cuerpo del zorro es elíptico",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "el cuerpo del zorro es naranja",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "la panza del zorro es blanca",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "las orejas del zorro son puntiagudas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "por_que",
+      "texto": "hay una cola tupida",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "por_que",
+      "texto": "la punta de la cola es blanca",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a11",
+      "fuente": "por_que",
+      "texto": "los ojos tienen brillo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a12",
+      "fuente": "por_que",
+      "texto": "hay bigotes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "por_que",
+      "texto": "hay mejillas rosadas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a14",
+      "fuente": "por_que",
+      "texto": "hay una mariposa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "por_que",
+      "texto": "la mariposa está revoloteando",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "por_que",
+      "texto": "el dibujo transmite vida",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a17",
+      "fuente": "por_que",
+      "texto": "el dibujo transmite encanto",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a18",
+      "fuente": "por_que",
+      "texto": "la silueta del zorro es reconocible",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "hay un zorrito sentado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "el cuerpo del zorro es naranja",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "el pecho y la panza son blancos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "las patitas son oscuras",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "hay una cola grande y esponjosa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_dibujaste",
+      "texto": "la punta de la cola es blanca",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_dibujaste",
+      "texto": "la cara del zorro es blanca",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_dibujaste",
+      "texto": "hay ojitos marrones brillantes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_dibujaste",
+      "texto": "hay una naricita",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_dibujaste",
+      "texto": "hay bigotes finos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_dibujaste",
+      "texto": "hay mejillas rosadas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_dibujaste",
+      "texto": "las orejas son puntiagudas hacia arriba",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_dibujaste",
+      "texto": "el interior de las orejas es oscuro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_dibujaste",
+      "texto": "el fondo es celeste",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_dibujaste",
+      "texto": "hay un sol amarillo en el cielo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_dibujaste",
+      "texto": "hay pastitos verdes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a35",
+      "fuente": "que_dibujaste",
+      "texto": "hay una mariposita amarilla volando cerca",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a36",
+      "fuente": "que_dibujaste",
+      "texto": "el zorro está en un prado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a37",
+      "fuente": "que_dibujaste",
+      "texto": "el dibujo produce una impresión tierna",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a38",
+      "fuente": "que_dibujaste",
+      "texto": "el estilo es simple como de ilustración infantil",
+      "tipo": "estilo"
+    }
+  ]
+}

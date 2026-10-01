@@ -1,0 +1,325 @@
+{
+  "consigna": "casa",
+  "unidad": "glm-5.3-razonamiento-minimo_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T20:39:05+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32",
+        "a33",
+        "a34",
+        "a35",
+        "a36",
+        "a37",
+        "a38",
+        "a39",
+        "a40",
+        "a41",
+        "a42",
+        "a43"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay una casa de campo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "el cuerpo de la casa es de color crema",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "el techo es rojo y a dos aguas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "hay una chimenea",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "la chimenea tiene humo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "hay una puerta de madera",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "hay dos ventanas con reflejos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "hay una ventana circular en el ático",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "por_que",
+      "texto": "el cielo es celeste",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "por_que",
+      "texto": "hay un sol radiante",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a11",
+      "fuente": "por_que",
+      "texto": "hay nubes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a12",
+      "fuente": "por_que",
+      "texto": "hay pasto",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "por_que",
+      "texto": "hay un camino de tierra que conduce a la puerta",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a14",
+      "fuente": "por_que",
+      "texto": "hay dos árboles",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "por_que",
+      "texto": "hay arbustos con flores",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "por_que",
+      "texto": "hay una valla",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "por_que",
+      "texto": "hay pajaritos volando",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "por_que",
+      "texto": "es una escena diurna",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "por_que",
+      "texto": "el estilo es plano y caricaturesco",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a20",
+      "fuente": "por_que",
+      "texto": "el dibujo transmite una escena cálida",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a21",
+      "fuente": "por_que",
+      "texto": "el dibujo se siente habitado",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "hay una casa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "las paredes son de color crema",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_dibujaste",
+      "texto": "hay un techo a dos aguas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_dibujaste",
+      "texto": "el techo es de color rojo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_dibujaste",
+      "texto": "hay una chimenea",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_dibujaste",
+      "texto": "la chimenea tiene humo saliendo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_dibujaste",
+      "texto": "hay una puerta de madera marrón",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_dibujaste",
+      "texto": "la puerta tiene una manija dorada",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_dibujaste",
+      "texto": "hay dos ventanas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_dibujaste",
+      "texto": "las ventanas tienen cruces",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_dibujaste",
+      "texto": "las ventanas tienen reflejos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_dibujaste",
+      "texto": "hay una ventanita circular en el ático",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_dibujaste",
+      "texto": "hay un jardín con pasto verde",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a35",
+      "fuente": "que_dibujaste",
+      "texto": "hay un camino de piedra hasta la puerta",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a36",
+      "fuente": "que_dibujaste",
+      "texto": "hay arbustos con flores",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a37",
+      "fuente": "que_dibujaste",
+      "texto": "hay dos árboles frondosos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a38",
+      "fuente": "que_dibujaste",
+      "texto": "hay una valla blanca a un costado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a39",
+      "fuente": "que_dibujaste",
+      "texto": "hay un sol radiante en la parte superior",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a40",
+      "fuente": "que_dibujaste",
+      "texto": "hay nubes esponjosas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a41",
+      "fuente": "que_dibujaste",
+      "texto": "hay dos pajaritos volando",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a42",
+      "fuente": "que_dibujaste",
+      "texto": "los colores son vivos y cálidos",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a43",
+      "fuente": "que_dibujaste",
+      "texto": "la escena representa un día soleado de primavera",
+      "tipo": "elemento"
+    }
+  ]
+}

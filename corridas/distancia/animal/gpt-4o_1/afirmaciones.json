@@ -1,0 +1,199 @@
+{
+  "consigna": "animal",
+  "unidad": "gpt-4o_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:04:59+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay un oso dibujado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "el cuerpo está representado con elipses",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "la cara está representada con círculos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "las patas están representadas con formas simples",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "las orejas están representadas con formas simples",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "el color principal del oso es dorado (#FFD700)",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "los ojos están hechos con círculos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "la nariz está hecha con círculos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "por_que",
+      "texto": "la boca está hecha con curvas sencillas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "por_que",
+      "texto": "el diseño usa formas básicas",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a11",
+      "fuente": "por_que",
+      "texto": "el diseño es simple y claro",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a12",
+      "fuente": "por_que",
+      "texto": "el oso resulta reconocible con las formas simplificadas",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a13",
+      "fuente": "por_que",
+      "texto": "el diseño es amigable y llamativo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "el animal es de color amarillo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "el animal puede reconocerse como un oso de peluche",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "el cuerpo es ovalado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "el cuerpo tiene tonos dorados",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "hay patas inferiores",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "hay una cola en forma de rizo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "la cabeza es un círculo grande",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "hay orejas formadas por pequeños círculos en la cima de la cabeza",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "los ojos están formados por círculos concéntricos en blanco y negro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "hay una nariz formada por un pequeño círculo negro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_dibujaste",
+      "texto": "hay una línea curva que representa la boca",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_dibujaste",
+      "texto": "la boca sugiere una suave sonrisa",
+      "tipo": "efecto"
+    }
+  ]
+}

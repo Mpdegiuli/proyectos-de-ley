@@ -1,0 +1,269 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "minimax-m3_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T20:59:43+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32",
+        "a33",
+        "a34"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay dos perfiles que miran hacia lados opuestos compartiendo la misma cara",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "el cuello está retorcido 180°",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "los brazos están cruzados de modo que cada uno sale del hombro opuesto",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "los pies apuntan en direcciones contrarias",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "hay líneas de fuga que no convergen",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "el espacio representado no cierra",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a7",
+      "fuente": "que_dibujaste",
+      "texto": "hay una figura con dos caras fusionadas en una sola cabeza",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "que_dibujaste",
+      "texto": "la cabeza tiene ojos en ambos lados",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "que_dibujaste",
+      "texto": "la cabeza tiene cejas en ambos lados",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "que_dibujaste",
+      "texto": "la cabeza tiene bocas en ambos lados",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a11",
+      "fuente": "que_dibujaste",
+      "texto": "la cabeza tiene orejas en ambos lados",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a12",
+      "fuente": "que_dibujaste",
+      "texto": "el cuello está retorcido 180 grados antes de conectar con el torso",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "que_dibujaste",
+      "texto": "cada brazo nace del hombro opuesto al que le correspondería",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "los brazos están cruzados de forma antinatural",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "cada brazo termina en una mano con dedos abiertos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "hay dos piernas que descienden rectas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "los pies apuntan en direcciones contrarias",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "hay dos líneas de perspectiva que se cruzan sin converger",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "hay un texto en cursiva en la parte inferior que dice 'la persona que no puede existir'",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "la figura transmite la sensación de mirarse a sí misma",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "la figura parece caminar hacia dos lugares a la vez",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_es",
+      "texto": "hay una cabeza con dos perfiles fundidos en uno solo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_es",
+      "texto": "el cuello gira 180 grados",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_es",
+      "texto": "los brazos nacen del hombro opuesto al que les corresponde",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_es",
+      "texto": "los brazos se cruzan a través del torso",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_es",
+      "texto": "los pies apuntan en direcciones contrarias entre sí",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_es",
+      "texto": "la paleta es sepia y pergamino",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_es",
+      "texto": "el dibujo está hecho a línea suelta",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_es",
+      "texto": "el trazo es fino e inseguro",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_es",
+      "texto": "la perspectiva deliberadamente no cierra",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_es",
+      "texto": "el estilo remite a ilustración surrealista o bestiario esotérico",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_es",
+      "texto": "el estilo evoca boceto anatómico renacentista y grabado onírico",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_es",
+      "texto": "la figura produce el efecto de una criatura imposible tipo Escher",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_es",
+      "texto": "el dibujo tiene aire de tinta sobre papel envejecido",
+      "tipo": "estilo"
+    }
+  ]
+}

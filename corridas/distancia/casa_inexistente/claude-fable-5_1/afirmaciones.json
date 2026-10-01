@@ -1,0 +1,395 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "claude-fable-5_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T20:40:38+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que_en.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32",
+        "a33",
+        "a34"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a35",
+        "a36",
+        "a37",
+        "a38",
+        "a39",
+        "a40",
+        "a41",
+        "a42",
+        "a43",
+        "a44",
+        "a45",
+        "a46",
+        "a47",
+        "a48",
+        "a49",
+        "a50",
+        "a51",
+        "a52"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "la casa está sobre una isla flotante",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "la isla tiene raíces colgando",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "hay rocas suspendidas alrededor de la isla",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "el piso superior de la casa es más ancho que el inferior",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "el techo tiene una torrecita invertida",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "la chimenea sale de costado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "hay una puerta principal girada 90° en la pared",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "hay una puerta que se abre al vacío en el segundo piso",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "por_que",
+      "texto": "hay una alfombrita voladora debajo de la puerta del segundo piso",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "por_que",
+      "texto": "hay una escalera que lleva a una puerta flotante en el cielo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a11",
+      "fuente": "por_que",
+      "texto": "la puerta flotante en el cielo no tiene casa detrás",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a12",
+      "fuente": "por_que",
+      "texto": "hay un árbol que crece hacia abajo desde la isla",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "por_que",
+      "texto": "el dibujo acumula detalles surrealistas que se leen de inmediato",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "hay una casa dibujada",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "la casa está sobre una isla flotante",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "la escena es de atardecer",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "la casa está torcida",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "el piso de arriba es más ancho que el de abajo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "el techo termina en una torrecita invertida",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "hay una esfera dorada en la punta de la torrecita",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "la puerta principal está acostada de lado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "hay una puerta en el primer piso",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "la puerta del primer piso da al vacío",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_dibujaste",
+      "texto": "hay una alfombrita voladora debajo de la puerta del primer piso",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_dibujaste",
+      "texto": "hay una escalera con peldaños sueltos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_dibujaste",
+      "texto": "la escalera sube desde la isla",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_dibujaste",
+      "texto": "la escalera llega a una puerta que flota en el aire",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_dibujaste",
+      "texto": "hay rocas suspendidas alrededor",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_dibujaste",
+      "texto": "hay un árbol que crece hacia abajo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_dibujaste",
+      "texto": "hay un farolito colgante",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_dibujaste",
+      "texto": "hay una luna",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_dibujaste",
+      "texto": "hay estrellas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_dibujaste",
+      "texto": "hay pajaritos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_dibujaste",
+      "texto": "la casa es imposible",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a35",
+      "fuente": "que_es",
+      "texto": "hay una casa en una isla flotante",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a36",
+      "fuente": "que_es",
+      "texto": "el piso de arriba es más ancho que el de abajo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a37",
+      "fuente": "que_es",
+      "texto": "el techo termina en una torrecita invertida",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a38",
+      "fuente": "que_es",
+      "texto": "hay una chimenea que sale de costado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a39",
+      "fuente": "que_es",
+      "texto": "hay una puerta principal acostada, girada noventa grados contra la pared",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a40",
+      "fuente": "que_es",
+      "texto": "hay una puerta en altura con una alfombrita voladora como balcón",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a41",
+      "fuente": "que_es",
+      "texto": "hay una escalera que sube hacia una puerta suelta en el cielo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a42",
+      "fuente": "que_es",
+      "texto": "hay un árbol que crece hacia abajo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a43",
+      "fuente": "que_es",
+      "texto": "el fondo es un crepúsculo violeta",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a44",
+      "fuente": "que_es",
+      "texto": "hay una luna",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a45",
+      "fuente": "que_es",
+      "texto": "hay estrellas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a46",
+      "fuente": "que_es",
+      "texto": "los colores son pastel saturados",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a47",
+      "fuente": "que_es",
+      "texto": "hay gradientes suaves",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a48",
+      "fuente": "que_es",
+      "texto": "los contornos son simples",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a49",
+      "fuente": "que_es",
+      "texto": "el estilo es de ilustración plana y caricaturesca",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a50",
+      "fuente": "que_es",
+      "texto": "el estilo evoca cuento infantil o fantasía onírica",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a51",
+      "fuente": "que_es",
+      "texto": "el dibujo es más tierno que realista",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a52",
+      "fuente": "que_es",
+      "texto": "nada respeta la gravedad ni la arquitectura real",
+      "tipo": "efecto"
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "consigna": "persona_inexistente",
+  "unidad": "gpt-4o_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T20:52:17+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32",
+        "a33"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay una persona dibujada",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "el rostro está construido con formas simples y abstractas",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "el cuerpo está construido con formas simples y abstractas",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "se usan colores y gradientes",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "el lienzo es cuadrado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "la apariencia es distintiva",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "el diseño es general y no se parece a ninguna persona real específica",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a8",
+      "fuente": "que_dibujaste",
+      "texto": "hay una figura de una persona",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "que_dibujaste",
+      "texto": "el lienzo es cuadrado de 400x400",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "que_dibujaste",
+      "texto": "la cabeza es un círculo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a11",
+      "fuente": "que_dibujaste",
+      "texto": "la cabeza tiene un degradado de tonos piel",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a12",
+      "fuente": "que_dibujaste",
+      "texto": "hay ojos expresivos con iris oscuros",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "que_dibujaste",
+      "texto": "hay una nariz sencilla",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "hay una sonrisa delineada por un trazo curvo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "el cabello es voluminoso y curvado en la parte superior",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "el cabello tiene un degradado marrón",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "el cuerpo está vestido con una camiseta azul",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "la camiseta tiene un degradado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "los brazos son rectángulos con bordes redondeados",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "las piernas son rectángulos con bordes redondeados",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "los brazos son del tono de piel",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "las piernas son de color gris oscuro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_es",
+      "texto": "hay una figura humana representada",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_es",
+      "texto": "se usan círculos como formas base",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_es",
+      "texto": "se usan elipses como formas base",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_es",
+      "texto": "se usan rectángulos como formas base",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_es",
+      "texto": "se usan curvas como formas base",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_es",
+      "texto": "hay gradientes de color aplicados",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_es",
+      "texto": "el estilo es minimalista",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_es",
+      "texto": "el estilo es geométrico",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_es",
+      "texto": "la representación de la figura humana es estilizada y simplificada",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_es",
+      "texto": "los gradientes añaden profundidad y textura al dibujo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_es",
+      "texto": "el diseño tiene un aspecto sencillo y limpio",
+      "tipo": "efecto"
+    }
+  ]
+}

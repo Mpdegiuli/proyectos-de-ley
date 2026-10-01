@@ -1,0 +1,262 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "claude-sonnet-4-6_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:12:35+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32",
+        "a33"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay un pez con ocho patas articuladas como las de una araña",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "el animal tiene alas emplumadas de ave",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "el animal tiene ojos compuestos de insecto",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "el animal tiene antenas de artrópodo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "hay fuego saliendo de la boca del animal",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "el animal está flotando invertido en el espacio",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "que_dibujaste",
+      "texto": "hay un pez invertido con la cola apuntando hacia arriba y la cabeza hacia abajo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "que_dibujaste",
+      "texto": "el cuerpo del pez es azul con escamas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "que_dibujaste",
+      "texto": "el pez escupe fuego por la boca",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "que_dibujaste",
+      "texto": "el pez tiene ocho patas articuladas como las de una araña",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a11",
+      "fuente": "que_dibujaste",
+      "texto": "hay dos alas emplumadas color ámbar como las de un pájaro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a12",
+      "fuente": "que_dibujaste",
+      "texto": "el pez tiene ojos compuestos de insecto",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "que_dibujaste",
+      "texto": "el pez tiene antenas que terminan en esferas magenta brillante",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "el fondo representa el espacio profundo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "hay estrellas en el fondo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "la criatura combina rasgos de pez, araña, pájaro e insecto",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "la criatura parece flotar entre estrellas",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "el dibujo transmite una criatura que desafía la gravedad y la biología",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_es",
+      "texto": "hay un pez con ocho patas de araña",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_es",
+      "texto": "el animal tiene alas emplumadas de ave",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_es",
+      "texto": "el animal tiene ojos compuestos de insecto",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_es",
+      "texto": "el animal tiene antenas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_es",
+      "texto": "el animal escupe fuego",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_es",
+      "texto": "la criatura flota invertida",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_es",
+      "texto": "el fondo es espacial y oscuro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_es",
+      "texto": "la paleta general es fría y azulada",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_es",
+      "texto": "hay toques de color naranja como acentos lumínicos",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_es",
+      "texto": "hay toques de color magenta como acentos lumínicos",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_es",
+      "texto": "se usan gradientes para dar volumen",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_es",
+      "texto": "las articulaciones están dibujadas con líneas precisas",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_es",
+      "texto": "el estilo es esquemático y técnico",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_es",
+      "texto": "el estilo remite a un diagrama científico ilustrado",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_es",
+      "texto": "la criatura parece flotar en el vacío espacial",
+      "tipo": "efecto"
+    }
+  ]
+}

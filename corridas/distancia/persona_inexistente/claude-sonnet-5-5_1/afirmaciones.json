@@ -1,0 +1,297 @@
+{
+  "consigna": "persona_inexistente",
+  "unidad": "claude-sonnet-5-5_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T20:50:20+00:00",
+  "fuentes": {
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32",
+        "a33",
+        "a34",
+        "a35",
+        "a36",
+        "a37",
+        "a38",
+        "a39"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "que_dibujaste",
+      "texto": "hay un retrato de una persona imaginaria de frente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "que_dibujaste",
+      "texto": "el fondo es un cielo nocturno",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "que_dibujaste",
+      "texto": "el cielo va del azul profundo al durazno del amanecer",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "que_dibujaste",
+      "texto": "hay estrellas en el fondo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "que_dibujaste",
+      "texto": "hay una luna pequeña",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "que_dibujaste",
+      "texto": "la persona tiene pelo largo azul índigo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "que_dibujaste",
+      "texto": "el pelo tiene reflejos plateados",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "que_dibujaste",
+      "texto": "los ojos son color ámbar",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "que_dibujaste",
+      "texto": "la piel es trigueña",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "que_dibujaste",
+      "texto": "hay pecas doradas en el rostro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a11",
+      "fuente": "que_dibujaste",
+      "texto": "las pecas están unidas como constelaciones",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a12",
+      "fuente": "que_dibujaste",
+      "texto": "hay una gotita dorada en la frente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "que_dibujaste",
+      "texto": "hay una hojita verde brotando del pelo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "hay un pendiente redondo en una oreja",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "hay un pendiente en forma de rombo turquesa en la otra oreja",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "la persona viste un abrigo verde oscuro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "el abrigo tiene detalles dorados",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "la figura parece serena",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "la figura parece un poco mágica",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_es",
+      "texto": "hay una persona que no existe dibujada",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_es",
+      "texto": "el pelo es de color índigo con reflejos azulados",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_es",
+      "texto": "hay una hoja verde que brota de la cabeza",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_es",
+      "texto": "los ojos son dorados",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_es",
+      "texto": "hay pecas que forman una constelación",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_es",
+      "texto": "las pecas están unidas por líneas finas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_es",
+      "texto": "hay una gota de oro en la frente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_es",
+      "texto": "hay dos aros distintos entre sí",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_es",
+      "texto": "uno de los aros es una perla",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_es",
+      "texto": "el otro aro es un rombo turquesa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_es",
+      "texto": "el retrato es frontal",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_es",
+      "texto": "la figura es casi simétrica",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_es",
+      "texto": "es un retrato de busto o cabeza",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_es",
+      "texto": "el dibujo produce un aire fantástico",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_es",
+      "texto": "la figura transmite ser una guardiana del bosque y una viajera nocturna",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a35",
+      "fuente": "que_es",
+      "texto": "el estilo es ilustración vectorial plana",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a36",
+      "fuente": "que_es",
+      "texto": "hay degradados suaves",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a37",
+      "fuente": "que_es",
+      "texto": "las formas son limpias",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a38",
+      "fuente": "que_es",
+      "texto": "el estilo es cercano a la ilustración de libro infantil o portada editorial",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a39",
+      "fuente": "que_es",
+      "texto": "no busca el realismo",
+      "tipo": "estilo"
+    }
+  ]
+}

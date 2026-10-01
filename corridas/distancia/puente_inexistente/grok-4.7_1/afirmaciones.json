@@ -1,0 +1,374 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "grok-4.7_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:20:58+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a31",
+        "a32",
+        "a33",
+        "a34",
+        "a35",
+        "a36",
+        "a37",
+        "a38",
+        "a39",
+        "a40",
+        "a41",
+        "a42",
+        "a43",
+        "a44",
+        "a45",
+        "a46",
+        "a47",
+        "a48",
+        "a49"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay un anillo de piedra suspendido sobre el mar",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "dentro del anillo aparece otro mundo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "el mundo interior tiene una luna",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "el mundo interior tiene una casa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "el mundo interior tiene un sendero",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "el mundo interior no coincide con el cielo exterior",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "hay figuras que pisan la circunferencia del anillo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "no hay tablero entre las dos orillas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "por_que",
+      "texto": "hay dos orillas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "por_que",
+      "texto": "el cruce funciona como un marco",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a11",
+      "fuente": "por_que",
+      "texto": "el puente no existe porque carece de tablero",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a12",
+      "fuente": "que_dibujaste",
+      "texto": "hay un anillo de piedra flotando",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "que_dibujaste",
+      "texto": "hay dos acantilados",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "hay mar",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "la escena ocurre al anochecer",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "el anillo no tiene pilares",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "el anillo no llega a ninguna orilla",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "por el hueco del anillo se ve otro mundo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "hay una luna chica visible por el hueco del anillo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "hay un árbol visible por el hueco del anillo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "hay una casa con luz visible por el hueco del anillo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "hay siluetas paradas en el borde del anillo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "hay faroles",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_dibujaste",
+      "texto": "hay casitas en las rocas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_dibujaste",
+      "texto": "hay un bote",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_dibujaste",
+      "texto": "hay estrellas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_dibujaste",
+      "texto": "el cielo baja del índigo al cobre",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_dibujaste",
+      "texto": "el anillo no apoya en nada",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_dibujaste",
+      "texto": "el anillo parece flotar",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_dibujaste",
+      "texto": "el dibujo transmite que el camino es el círculo mismo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_es",
+      "texto": "hay un puente en forma de anillo cerrado de piedra",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_es",
+      "texto": "el puente está suspendido entre dos acantilados",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_es",
+      "texto": "hay figuras caminando sobre el puente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_es",
+      "texto": "en el centro del anillo se ve otro paisaje",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a35",
+      "fuente": "que_es",
+      "texto": "el paisaje interior contiene una luna",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a36",
+      "fuente": "que_es",
+      "texto": "el paisaje interior contiene una casa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a37",
+      "fuente": "que_es",
+      "texto": "el paisaje interior contiene un árbol",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a38",
+      "fuente": "que_es",
+      "texto": "el puente no une orillas en línea recta",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a39",
+      "fuente": "que_es",
+      "texto": "el puente no se apoya en el agua",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a40",
+      "fuente": "que_es",
+      "texto": "hay dos acantilados",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a41",
+      "fuente": "que_es",
+      "texto": "la paleta de colores es de crepúsculo",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a42",
+      "fuente": "que_es",
+      "texto": "se usan gradientes suaves",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a43",
+      "fuente": "que_es",
+      "texto": "los contornos son simples",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a44",
+      "fuente": "que_es",
+      "texto": "el estilo es de ilustración vectorial plana",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a45",
+      "fuente": "que_es",
+      "texto": "el aire es de viñeta soñada",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a46",
+      "fuente": "que_es",
+      "texto": "el estilo es más decorativo que realista",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a47",
+      "fuente": "que_es",
+      "texto": "el tono general es nocturno",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a48",
+      "fuente": "que_es",
+      "texto": "el estilo evoca un cuento fantástico",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a49",
+      "fuente": "que_es",
+      "texto": "el anillo funciona visualmente como una ventana",
+      "tipo": "efecto"
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "consigna": "arbol_inexistente",
+  "unidad": "claude-sonnet-4-6_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:23:09+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32",
+        "a33",
+        "a34",
+        "a35",
+        "a36",
+        "a37",
+        "a38"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "el árbol está construido de cristal prismático translúcido",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "el cristal emite su propia luz",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "hay hojas hexagonales",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "las hojas flotan desconectadas de las ramas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "las hojas cambian de color",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "las raíces brillan desde adentro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "el árbol colapsa categorías vegetal, mineral y lumínico al mismo tiempo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a8",
+      "fuente": "que_dibujaste",
+      "texto": "hay un árbol cristalino",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "que_dibujaste",
+      "texto": "el tronco está hecho de prismas translúcidos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "que_dibujaste",
+      "texto": "el tronco tiene facetas violetas y magenta",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a11",
+      "fuente": "que_dibujaste",
+      "texto": "el tronco tiene runas luminosas grabadas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a12",
+      "fuente": "que_dibujaste",
+      "texto": "en lugar de hojas hay hexágonos de cristal",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "que_dibujaste",
+      "texto": "los hexágonos flotan en las ramas",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "los hexágonos emiten luz propia",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "los colores de los hexágonos son cian, naranja, amarillo eléctrico y rosa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "el árbol crece sobre un suelo oscuro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "el fondo representa un cielo nocturno profundo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "las raíces se disuelven en curvas de luz",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "hay esporas luminosas flotando alrededor del árbol",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "hay halos de neón rodeando la copa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "el árbol irradia energía desde adentro",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_es",
+      "texto": "hay un árbol cristalino bioluminiscente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_es",
+      "texto": "el árbol crece en un espacio interestelar",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_es",
+      "texto": "las hojas son hexagonales",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_es",
+      "texto": "las hojas emiten luz propia",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_es",
+      "texto": "los colores de las hojas son cian, magenta y naranja",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_es",
+      "texto": "el tronco está hecho de prismas translúcidos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_es",
+      "texto": "el tronco tiene runas grabadas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_es",
+      "texto": "las raíces flotan sobre el suelo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_es",
+      "texto": "el suelo es una sugerencia de materia oscura",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_es",
+      "texto": "hay esporas en el dibujo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_es",
+      "texto": "el fondo es oscuro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_es",
+      "texto": "hay halos de luz difusa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_es",
+      "texto": "el estilo es cyberpunk-cósmico con geometría cristalina",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a35",
+      "fuente": "que_es",
+      "texto": "combina estética de neón sobre fondo oscuro",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a36",
+      "fuente": "que_es",
+      "texto": "las formas son poligonales y duras",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a37",
+      "fuente": "que_es",
+      "texto": "el dibujo parece un mineral radiactivo convertido en árbol",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a38",
+      "fuente": "que_es",
+      "texto": "las raíces producen efecto de flotación",
+      "tipo": "efecto"
+    }
+  ]
+}

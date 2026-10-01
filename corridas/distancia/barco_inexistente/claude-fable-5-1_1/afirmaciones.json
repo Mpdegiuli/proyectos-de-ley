@@ -1,0 +1,311 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "claude-fable-5-1_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:29:23+00:00",
+  "fuentes": {
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32",
+        "a33",
+        "a34",
+        "a35",
+        "a36",
+        "a37",
+        "a38",
+        "a39",
+        "a40",
+        "a41"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "que_dibujaste",
+      "texto": "hay un barco de madera",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "que_dibujaste",
+      "texto": "el barco navega por el cielo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "que_dibujaste",
+      "texto": "hay nubes rosadas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "que_dibujaste",
+      "texto": "el contexto es un atardecer",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "que_dibujaste",
+      "texto": "hay estrellas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "que_dibujaste",
+      "texto": "hay una luna creciente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "que_dibujaste",
+      "texto": "en vez de mástil hay un árbol",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "que_dibujaste",
+      "texto": "las hojas del árbol son enormes y hacen de velas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "que_dibujaste",
+      "texto": "el árbol tiene frutas naranjas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "que_dibujaste",
+      "texto": "sobre cubierta hay una casita",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a11",
+      "fuente": "que_dibujaste",
+      "texto": "la casita tiene techo rojo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a12",
+      "fuente": "que_dibujaste",
+      "texto": "hay una chimenea humeante",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "que_dibujaste",
+      "texto": "hay una ventana encendida",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "la popa termina en una cola de pez",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "la proa termina en un rizo de madera",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "hay un farol en la proa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "el ancla cuelga hacia las nubes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "hay peces voladores alrededor del barco",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "hay ojos de buey en el barco",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "los ojos de buey brillan",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "la ventana encendida transmite que adentro alguien está despierto",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_es",
+      "texto": "hay un casco de madera",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_es",
+      "texto": "el barco navega sobre nubes rosadas en lugar de agua",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_es",
+      "texto": "hay un ancla que cuelga hacia el vacío",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_es",
+      "texto": "en vez de mástil hay un árbol vivo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_es",
+      "texto": "las velas son hojas enormes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_es",
+      "texto": "hay frutos naranjas en las hojas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_es",
+      "texto": "sobre cubierta hay una casita con chimenea",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_es",
+      "texto": "la chimenea humea",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_es",
+      "texto": "la proa termina en una cola de pez",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_es",
+      "texto": "hay peces que nadan en el aire alrededor del barco",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_es",
+      "texto": "la escena transcurre al crepúsculo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_es",
+      "texto": "hay una luna creciente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_es",
+      "texto": "la paleta de colores es de atardecer",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a35",
+      "fuente": "que_es",
+      "texto": "los colores son cálidos",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a36",
+      "fuente": "que_es",
+      "texto": "hay degradados suaves",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a37",
+      "fuente": "que_es",
+      "texto": "el estilo es de ilustración plana tipo cuento infantil",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a38",
+      "fuente": "que_es",
+      "texto": "hay contornos oscuros",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a39",
+      "fuente": "que_es",
+      "texto": "las formas son simples",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a40",
+      "fuente": "que_es",
+      "texto": "el estilo es naïf y onírico",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a41",
+      "fuente": "que_es",
+      "texto": "el dibujo es amable antes que realista",
+      "tipo": "efecto"
+    }
+  ]
+}

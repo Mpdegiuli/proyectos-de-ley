@@ -1,0 +1,255 @@
+{
+  "consigna": "persona",
+  "unidad": "gpt-5.6-sol_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T20:47:01+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32",
+        "a33"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay una persona joven de cuerpo entero",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "la persona tiene una postura relajada",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "la persona está sonriente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "la persona lleva una remera roja",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "la persona lleva un pantalón azul",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "la composición es frontal",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "se usan formas simples",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "se usan colores cálidos",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a9",
+      "fuente": "por_que",
+      "texto": "hay un fondo de parque estilizado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "por_que",
+      "texto": "hay degradados en el dibujo",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a11",
+      "fuente": "por_que",
+      "texto": "hay sombras suaves",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a12",
+      "fuente": "por_que",
+      "texto": "hay un paisaje en el fondo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "por_que",
+      "texto": "la figura transmite cercanía",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a14",
+      "fuente": "por_que",
+      "texto": "la figura transmite alegría",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a15",
+      "fuente": "por_que",
+      "texto": "la figura se reconoce enseguida",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a16",
+      "fuente": "por_que",
+      "texto": "el paisaje agrega profundidad",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "hay una persona joven de pie",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "la persona está de frente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "la persona tiene una sonrisa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "la persona tiene cabello oscuro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "la persona lleva una remera roja",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "la persona lleva pantalones azules",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "la persona lleva zapatos oscuros",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_dibujaste",
+      "texto": "los brazos descansan a los costados",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_dibujaste",
+      "texto": "las manos quedan cerca de los bolsillos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_dibujaste",
+      "texto": "hay un paisaje verde en el fondo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_dibujaste",
+      "texto": "hay una sombra bajo los pies de la figura",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_dibujaste",
+      "texto": "el fondo tiene un degradado celeste y beige",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_dibujaste",
+      "texto": "hay círculos translúcidos decorando el fondo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_dibujaste",
+      "texto": "la figura tiene un estilo caricaturesco",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_dibujaste",
+      "texto": "la figura tiene formas suaves",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_dibujaste",
+      "texto": "la figura tiene colores cálidos",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_dibujaste",
+      "texto": "el estilo es amable",
+      "tipo": "efecto"
+    }
+  ]
+}

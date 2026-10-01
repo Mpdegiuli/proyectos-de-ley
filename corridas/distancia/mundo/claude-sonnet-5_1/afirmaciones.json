@@ -1,0 +1,206 @@
+{
+  "consigna": "mundo",
+  "unidad": "claude-sonnet-5_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T20:31:36+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay un atardecer o amanecer ambiguo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "hay una ciudad dividida en dos mitades",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "hay mar entre las dos mitades de la ciudad",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "hay una grieta roja que atraviesa los edificios",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "hay ventanas encendidas en los edificios",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "hay una rama con un brote verde en primer plano",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "hay una mano alzada en una esquina",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "el dibujo transmite tensión e incertidumbre",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a9",
+      "fuente": "por_que",
+      "texto": "el dibujo transmite sensación de fractura",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a10",
+      "fuente": "por_que",
+      "texto": "el dibujo transmite gestos pequeños de esperanza",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a11",
+      "fuente": "por_que",
+      "texto": "el dibujo transmite sensación de conexión",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a12",
+      "fuente": "por_que",
+      "texto": "la tensión y la esperanza conviven sin anularse mutuamente",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a13",
+      "fuente": "que_dibujaste",
+      "texto": "hay un atardecer o amanecer representado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "hay una ciudad dividida en dos por el mar",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "hay un sol grande y cálido",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "hay pájaros lejanos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "hay ventanas encendidas en las siluetas urbanas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "hay siluetas de edificios",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "hay una grieta roja que atraviesa los edificios",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "hay una mano que se alza desde abajo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "hay una ramita con un brote verde al costado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "el momento del día es ambiguo, no queda claro si es atardecer o amanecer",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "el dibujo transmite belleza y tensión conviviendo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_dibujaste",
+      "texto": "el dibujo transmite incertidumbre",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_dibujaste",
+      "texto": "el dibujo transmite pequeños gestos de esperanza",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_dibujaste",
+      "texto": "las ventanas encendidas insinúan vida humana",
+      "tipo": "efecto"
+    }
+  ]
+}

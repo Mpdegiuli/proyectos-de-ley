@@ -1,0 +1,255 @@
+{
+  "consigna": "persona_inexistente",
+  "unidad": "claude-sonnet-4-6_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T20:49:52+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "los ojos tienen bioluminiscencia cian",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "el cabello tiene un gradiente tricolor violeta-azul-verde",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "el cabello con ese gradiente no ocurre naturalmente",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "la figura es casi humana pero imposible",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "parece alguien que casi podrías ver en la calle pero no del todo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a6",
+      "fuente": "que_dibujaste",
+      "texto": "hay una persona de apariencia andrógina",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "que_dibujaste",
+      "texto": "la persona tiene ojos de color cyan",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "que_dibujaste",
+      "texto": "los ojos emiten una luz sobrenatural",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a9",
+      "fuente": "que_dibujaste",
+      "texto": "la persona tiene cabello multicolor",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "que_dibujaste",
+      "texto": "el cabello tiene colores violeta, azul y verde",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a11",
+      "fuente": "que_dibujaste",
+      "texto": "el cabello fluye libremente",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a12",
+      "fuente": "que_dibujaste",
+      "texto": "la piel de la persona es cálida",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "que_dibujaste",
+      "texto": "hay pequeñas pecas en la piel",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "la persona viste una chaqueta oscura",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "la chaqueta es de tonos púrpura profundo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "la chaqueta tiene botones",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "los botones emiten un resplandor cian",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "el fondo es nocturno y casi negro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "hay pequeñas partículas flotando alrededor de la figura",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "la persona transmite una apariencia entre lo humano y lo etéreo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_es",
+      "texto": "hay una joven representada de frente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_es",
+      "texto": "los ojos son de color cian",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_es",
+      "texto": "los ojos tienen un efecto luminoso",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_es",
+      "texto": "el cabello tiene un degradado en violeta, azul y verde",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_es",
+      "texto": "la figura lleva una chaqueta de terciopelo oscuro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_es",
+      "texto": "la chaqueta tiene botones que brillan suavemente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_es",
+      "texto": "la paleta de colores es oscura con acentos luminosos",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_es",
+      "texto": "la composición es frontal",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_es",
+      "texto": "se usan gradientes de color intensos",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_es",
+      "texto": "hay efectos de luz neón en los ojos",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_es",
+      "texto": "el estilo mezcla ilustración digital de personaje con estética cyberpunk-fantástica",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_es",
+      "texto": "el dibujo recuerda a retratos de personajes en videojuegos o novelas gráficas de ciencia ficción",
+      "tipo": "efecto"
+    }
+  ]
+}

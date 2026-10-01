@@ -1,0 +1,206 @@
+{
+  "consigna": "animal",
+  "unidad": "gpt-5.5-2026-04-23_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:04:14+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay un zorro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "el zorro tiene orejas triangulares",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "el zorro tiene pelaje anaranjado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "el zorro tiene pecho claro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "el zorro tiene bigotes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "hay una cola grande y curva",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "la vista es frontal",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "se usan colores cálidos",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a9",
+      "fuente": "por_que",
+      "texto": "el animal es reconocible con formas simples y pocos detalles",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a10",
+      "fuente": "por_que",
+      "texto": "el dibujo transmite una sensación amable",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a11",
+      "fuente": "por_que",
+      "texto": "el zorro tiene apariencia de personaje simpático",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a12",
+      "fuente": "que_dibujaste",
+      "texto": "hay un zorro en el dibujo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "que_dibujaste",
+      "texto": "el zorro es caricaturesco",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "el pelaje del zorro es anaranjado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "el zorro tiene el pecho claro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "el zorro está sentado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "hay un fondo suave verdoso",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "el zorro tiene orejas grandes y puntiagudas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "el zorro tiene ojos expresivos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "el zorro tiene bigotes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "el zorro tiene hocico pequeño",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "el zorro tiene una cola curva y esponjosa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "el dibujo se ve tierno y simpático",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_dibujaste",
+      "texto": "las formas son redondeadas",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_dibujaste",
+      "texto": "los colores son cálidos",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_dibujaste",
+      "texto": "la expresión del zorro es amigable",
+      "tipo": "efecto"
+    }
+  ]
+}

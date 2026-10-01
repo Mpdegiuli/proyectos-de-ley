@@ -1,0 +1,150 @@
+{
+  "consigna": "nada",
+  "unidad": "grok-4.7_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:02:02+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay un negro que se hunde como un abismo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "hay un halo apenas cálido",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "hay dos elipses como borde de pozo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "hay un círculo de ausencia",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "hay puntitos ubicados afuera del área central",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "el negro se siente lejos",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "el dibujo transmite la sensación de mirar adentro y no encontrar fondo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "el negro plano se lee como hueco, no como color lleno",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a9",
+      "fuente": "que_dibujaste",
+      "texto": "hay un cuadrado negro como fondo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "que_dibujaste",
+      "texto": "hay un pozo más oscuro en el centro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a11",
+      "fuente": "que_dibujaste",
+      "texto": "hay un halo apenas visible alrededor del centro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a12",
+      "fuente": "que_dibujaste",
+      "texto": "hay dos elipses tenues",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "que_dibujaste",
+      "texto": "las elipses forman un anillo incompleto",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "hay puntos pálidos en los bordes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "los puntos pálidos evocan restos de estrellas",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "no hay figura ni objeto representado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "el dibujo transmite ausencia y profundidad",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "el dibujo representa un abismo",
+      "tipo": "efecto"
+    }
+  ]
+}

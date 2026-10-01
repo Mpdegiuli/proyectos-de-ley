@@ -1,0 +1,318 @@
+{
+  "consigna": "animal_inexistente",
+  "unidad": "claude-sonnet-5_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:07:22+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a30",
+        "a31",
+        "a32",
+        "a33",
+        "a34",
+        "a35",
+        "a36",
+        "a37",
+        "a38",
+        "a39",
+        "a40",
+        "a41"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay cuernitos de caracol",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "hay antenas de mariposa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "hay alas pequeñas que no sirven para volar",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "hay una cola con una bolita como de mazo en la punta",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "el cuerpo es demasiado pesado para las alas",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "la paleta de colores va de violeta a turquesa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "hay manchas naranjas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "el animal tiene estructura cuadrúpeda",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "por_que",
+      "texto": "cada parte es reconocible individualmente",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a10",
+      "fuente": "por_que",
+      "texto": "la combinación total resulta imposible biológicamente",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a11",
+      "fuente": "por_que",
+      "texto": "el dibujo transmite ternura y curiosidad",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a12",
+      "fuente": "por_que",
+      "texto": "hay gradientes que dan riqueza visual",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a13",
+      "fuente": "por_que",
+      "texto": "el animal da ganas de imaginar cómo se mueve o qué come",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "hay una criatura imaginaria dibujada",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "el cuerpo tiene un degradé violeta-turquesa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "el cuerpo está cubierto de manchas doradas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "hay un cuello largo y curvo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "hay una cabeza con orejas puntiagudas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "hay cuernitos en espiral dorados",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "hay antenas largas con bolitas en las puntas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "las antenas se asemejan a las de una mariposa",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "los ojos son grandes y expresivos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "hay un hocico pequeño anaranjado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_dibujaste",
+      "texto": "hay patas delgadas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_dibujaste",
+      "texto": "hay una cola curva",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_dibujaste",
+      "texto": "la cola termina en una esfera dorada en la punta",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_dibujaste",
+      "texto": "hay un par de alas decorativas violetas en la espalda",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_dibujaste",
+      "texto": "las alas son pequeñas y probablemente insuficientes para volar",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_dibujaste",
+      "texto": "las alas le dan un toque mágico a la figura",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_es",
+      "texto": "hay un animal imaginario que mezcla cabrita, dragón y mariposa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_es",
+      "texto": "el animal tiene antenas de insecto rematadas en bolitas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_es",
+      "texto": "el animal tiene orejas con cuernitos en espiral",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_es",
+      "texto": "el animal tiene alitas diminutas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_es",
+      "texto": "el animal tiene una cola con una esfera brillante en la punta",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a35",
+      "fuente": "que_es",
+      "texto": "la paleta de colores es pastel, con violetas, celestes y naranjas",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a36",
+      "fuente": "que_es",
+      "texto": "el dibujo usa gradientes suaves",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a37",
+      "fuente": "que_es",
+      "texto": "el estilo es ilustración infantil plana y geométrica",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a38",
+      "fuente": "que_es",
+      "texto": "el dibujo transmite una apariencia tierna y curiosa",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a39",
+      "fuente": "que_es",
+      "texto": "el estilo es friendly, tipo mascota o personaje de cuento",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a40",
+      "fuente": "que_es",
+      "texto": "el dibujo no resulta realista ni amenazante",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a41",
+      "fuente": "que_es",
+      "texto": "los gradientes dan volumen al dibujo",
+      "tipo": "efecto"
+    }
+  ]
+}

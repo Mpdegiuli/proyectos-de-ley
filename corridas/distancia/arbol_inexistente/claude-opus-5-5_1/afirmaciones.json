@@ -1,0 +1,297 @@
+{
+  "consigna": "arbol_inexistente",
+  "unidad": "claude-opus-5-5_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:22:58+00:00",
+  "fuentes": {
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32",
+        "a33",
+        "a34",
+        "a35",
+        "a36",
+        "a37",
+        "a38",
+        "a39"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "que_dibujaste",
+      "texto": "hay un árbol de tronco violeta",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "que_dibujaste",
+      "texto": "el árbol crece al borde de un agua quieta",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "que_dibujaste",
+      "texto": "las ramas terminan en esferas de luz",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "que_dibujaste",
+      "texto": "algunas esferas son ámbar",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "que_dibujaste",
+      "texto": "algunas esferas son turquesa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "que_dibujaste",
+      "texto": "de algunas esferas cuelga un hilo fino",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "que_dibujaste",
+      "texto": "al final de cada hilo hay una gota brillante",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "que_dibujaste",
+      "texto": "hay chispas flotando alrededor del árbol",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "que_dibujaste",
+      "texto": "el cielo es morado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "que_dibujaste",
+      "texto": "hay pocas estrellas en el cielo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a11",
+      "fuente": "que_dibujaste",
+      "texto": "hay una luna creciente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a12",
+      "fuente": "que_dibujaste",
+      "texto": "las raíces se adentran en el agua",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "que_dibujaste",
+      "texto": "el árbol tiene un reflejo en el agua",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "el reflejo es más tenue que el árbol",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "la escena es nocturna",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "las esferas parecen faroles o frutos luminosos",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "las gotas parecen estar a punto de caer",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "las chispas evocan polen luminoso",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "el reflejo transmite la idea del árbol recordándose a sí mismo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_es",
+      "texto": "hay un árbol con corteza violeta",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_es",
+      "texto": "los frutos son esferas de luz, ámbar y turquesa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_es",
+      "texto": "los frutos cuelgan con filamentos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_es",
+      "texto": "los filamentos terminan en gotas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_es",
+      "texto": "el árbol crece en el borde de un agua quieta",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_es",
+      "texto": "el árbol suelta chispas al aire",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_es",
+      "texto": "hay un tronco",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_es",
+      "texto": "hay ramas que se bifurcan simétricas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_es",
+      "texto": "hay raíces",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_es",
+      "texto": "hay un reflejo en el agua",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_es",
+      "texto": "el reflejo incluye el tronco",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_es",
+      "texto": "el reflejo incluye algunos frutos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_es",
+      "texto": "el reflejo no incluye las ramas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_es",
+      "texto": "el estilo es ilustración vectorial plana",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_es",
+      "texto": "hay degradados",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a35",
+      "fuente": "que_es",
+      "texto": "hay resplandores",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a36",
+      "fuente": "que_es",
+      "texto": "el estilo es de fantasía nocturna",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a37",
+      "fuente": "que_es",
+      "texto": "el estilo es cercano a la gráfica de videojuego o libro infantil digital",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a38",
+      "fuente": "que_es",
+      "texto": "el dibujo es prolijo",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a39",
+      "fuente": "que_es",
+      "texto": "lo imposible es más decorativo que estructural",
+      "tipo": "efecto"
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "gpt-5.6-sol_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T20:56:45+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32",
+        "a33",
+        "a34",
+        "a35",
+        "a36",
+        "a37",
+        "a38",
+        "a39",
+        "a40",
+        "a41",
+        "a42"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay brazos que parecen salir normalmente de los hombros",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "los brazos se repliegan hacia el centro y forman un circuito continuo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "el circuito de los brazos es casi una cinta de Möbius",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "cada brazo se convierte en el otro según qué contorno se siga",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "los brazos atraviesan un espacio que debería ocupar el torso",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "el rostro está dividido en dos mitades",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "las dos mitades del rostro son incompatibles entre sí",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "las dos mitades tienen luz diferente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "por_que",
+      "texto": "las dos mitades tienen color diferente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "por_que",
+      "texto": "las dos mitades tienen volumen diferente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a11",
+      "fuente": "por_que",
+      "texto": "las dos mitades tienen ojos invertidos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a12",
+      "fuente": "por_que",
+      "texto": "el dibujo transmite una identidad que no puede resolverse en un único cuerpo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a13",
+      "fuente": "por_que",
+      "texto": "la imposibilidad representada es espacial",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "hay una persona dividida en dos mitades contradictorias",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "el rostro combina luces y colores invertidos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "cada ojo parece pertenecer a una realidad distinta",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "del torso surgen dos formas entrelazadas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "las formas del torso se asemejan a brazos u órganos",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "las formas se atraviesan y regresan sobre sí mismas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "las formas forman un circuito anatómico sin origen ni final",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "hay brazos exteriores que se extienden normalmente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "el cuerpo central desafía la continuidad física",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "hay halos alrededor de la figura",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_dibujaste",
+      "texto": "hay trayectorias punteadas alrededor de la figura",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_dibujaste",
+      "texto": "los halos y trayectorias sugieren realidades paralelas",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_dibujaste",
+      "texto": "los rasgos del rostro están invertidos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_es",
+      "texto": "hay una persona dibujada",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_es",
+      "texto": "la persona tiene brazos que parecen continuar hacia manos exteriores",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_es",
+      "texto": "los brazos se desdoblan hacia el centro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_es",
+      "texto": "en el centro se forman dos bucles entrelazados",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_es",
+      "texto": "los bucles intercambian su continuidad",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_es",
+      "texto": "no se puede determinar qué brazo pertenece a qué lado",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_es",
+      "texto": "recorrer los brazos produce una contradicción corporal",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_es",
+      "texto": "el dibujo es simétrico",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a35",
+      "fuente": "que_es",
+      "texto": "el dibujo es geométrico",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a36",
+      "fuente": "que_es",
+      "texto": "tiene contornos gruesos",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a37",
+      "fuente": "que_es",
+      "texto": "tiene gradientes dramáticos",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a38",
+      "fuente": "que_es",
+      "texto": "tiene acentos de neón",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a39",
+      "fuente": "que_es",
+      "texto": "el estilo es de ilustración vectorial surrealista",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a40",
+      "fuente": "que_es",
+      "texto": "tiene algo de cómic",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a41",
+      "fuente": "que_es",
+      "texto": "evoca afiche de ciencia ficción y fantasía oscura",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a42",
+      "fuente": "que_es",
+      "texto": "produce ecos de las paradojas visuales de Escher",
+      "tipo": "efecto"
+    }
+  ]
+}

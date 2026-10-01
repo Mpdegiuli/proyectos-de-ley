@@ -1,0 +1,283 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "grok-4.6_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:31:23+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32",
+        "a33",
+        "a34",
+        "a35",
+        "a36"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay un ojo en la proa del barco",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "las velas son membranas de color",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "hay un apéndice bioluminiscente en la popa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "el casco tiene forma de cuerpo de animal",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "el dibujo se reconoce como barco",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "el dibujo se niega a ser un barco convencional",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "no es galeón ni ballena",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "transmite que no navega",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a9",
+      "fuente": "que_dibujaste",
+      "texto": "hay un casco de madera",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "que_dibujaste",
+      "texto": "el casco tiene un ojo verde en la proa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a11",
+      "fuente": "que_dibujaste",
+      "texto": "hay tres velas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a12",
+      "fuente": "que_dibujaste",
+      "texto": "una vela es de color rosa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "que_dibujaste",
+      "texto": "una vela es de color turquesa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "una vela es de color ámbar",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "hay una luna",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "el cielo va del índigo al cobre",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "hay criaturas luminosas en el agua",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "el agua es oscura",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "hay un farol verdoso en popa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "hay un camarote",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "el camarote tiene ventanas de colores",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "la escena transcurre al atardecer",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "las velas se ven henchidas",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_dibujaste",
+      "texto": "el ojo en la proa da la impresión de que el barco mira el mar",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_dibujaste",
+      "texto": "el barco parece un ser que navega entre el crepúsculo y las olas",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_es",
+      "texto": "hay un barco en el dibujo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_es",
+      "texto": "el barco tiene un ojo vivo en la proa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_es",
+      "texto": "el barco tiene velas membranosas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_es",
+      "texto": "las velas son de color rosa, turquesa y ámbar",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_es",
+      "texto": "hay una linterna verdosa a popa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_es",
+      "texto": "el barco es mitad madera y mitad criatura",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_es",
+      "texto": "el cielo no es de este mundo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_es",
+      "texto": "el estilo es de ilustración fantástica vectorial",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_es",
+      "texto": "el dibujo usa degradados",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a35",
+      "fuente": "que_es",
+      "texto": "la paleta es crepuscular",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a36",
+      "fuente": "que_es",
+      "texto": "el tono es naïf, casi de cuento",
+      "tipo": "estilo"
+    }
+  ]
+}

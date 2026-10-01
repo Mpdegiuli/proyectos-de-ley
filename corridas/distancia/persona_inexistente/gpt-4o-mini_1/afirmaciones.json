@@ -1,0 +1,283 @@
+{
+  "consigna": "persona_inexistente",
+  "unidad": "gpt-4o-mini_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T20:52:28+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32",
+        "a33",
+        "a34",
+        "a35",
+        "a36"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "los rasgos son genéricos y estilizados",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "los rasgos no corresponden a un individuo específico",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "hay una paleta de colores que evoca características humanas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "el personaje es sencillo",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "el dibujo evoca un ser abstracto",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "no hay accesorios como gafas ni sombreros",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "el dibujo no tiene marcas distintivas de origen cultural o personal",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a8",
+      "fuente": "que_dibujaste",
+      "texto": "hay una cara circular",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "que_dibujaste",
+      "texto": "la cara tiene un degradado que simula tono de piel",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "que_dibujaste",
+      "texto": "hay ojos representados por pequeños círculos negros",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a11",
+      "fuente": "que_dibujaste",
+      "texto": "hay una boca en forma de curva suave",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a12",
+      "fuente": "que_dibujaste",
+      "texto": "la boca sugiere una sonrisa",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a13",
+      "fuente": "que_dibujaste",
+      "texto": "hay una camiseta azul",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "la camiseta tiene un degradado en tonos de azul",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "hay un cuerpo rectangular que representa un torso",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "hay líneas que representan brazos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "hay líneas que representan piernas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "hay cabello representado por formas elípticas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "el cabello es de tonos marrones",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "el cabello cae sobre la frente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "el estilo es simplificado",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "la figura emana simplicidad y alegría",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "la figura refleja una personalidad amigable",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_es",
+      "texto": "hay una figura humana imaginaria que no corresponde a nadie real",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_es",
+      "texto": "la figura tiene piel con gradiente",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_es",
+      "texto": "la figura tiene cabello con gradiente",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_es",
+      "texto": "la figura tiene ropa con gradiente",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_es",
+      "texto": "el dibujo usa formas básicas",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_es",
+      "texto": "el dibujo usa colores planos",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_es",
+      "texto": "el dibujo tiene líneas limpias",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_es",
+      "texto": "el estilo es estilizado y simplificado",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_es",
+      "texto": "el dibujo tiene una estética fresca y moderna",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_es",
+      "texto": "la figura produce un aire amigable y caricaturesco",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_es",
+      "texto": "los gradientes dan profundidad a la figura",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a35",
+      "fuente": "que_es",
+      "texto": "el estilo es reminiscente del arte digital contemporáneo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a36",
+      "fuente": "que_es",
+      "texto": "no hay detalles hiperrealistas",
+      "tipo": "estilo"
+    }
+  ]
+}

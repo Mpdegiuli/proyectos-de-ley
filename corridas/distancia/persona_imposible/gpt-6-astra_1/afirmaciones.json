@@ -1,0 +1,276 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "gpt-6-astra_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T20:57:00+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32",
+        "a33",
+        "a34",
+        "a35"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay un torso cuyas barras sugieren una continuidad geométrica imposible",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "la cabeza está separada en secciones suspendidas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "hay un hilo dorado que atraviesa las secciones de la cabeza",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "el cuerpo está inspirado en el triángulo imposible de Penrose",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "la figura sigue pareciendo una persona",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "la anatomía de la figura es incompatible con un cuerpo real",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "la geometría de la figura es incompatible con un objeto tridimensional normal",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "la imposibilidad se expresa mediante recursos visuales reconocibles",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a9",
+      "fuente": "que_dibujaste",
+      "texto": "hay un torso en forma de triángulo imposible",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "que_dibujaste",
+      "texto": "el torso tiene tres bandas de colores azul, rojo y dorado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a11",
+      "fuente": "que_dibujaste",
+      "texto": "las bandas parecen unirse pero no podrían hacerlo en el espacio real",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a12",
+      "fuente": "que_dibujaste",
+      "texto": "la figura tiene brazos curvados",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "que_dibujaste",
+      "texto": "la figura tiene manos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "la figura tiene piernas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "la figura tiene zapatos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "la cabeza está dividida en secciones suspendidas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "un hilo dorado atraviesa la cabeza",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "el fondo simula papel envejecido",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "hay círculos tenues que enmarcan la figura",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "el dibujo parece una ilustración de un antiguo tratado",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "la figura transmite tranquilidad y apariencia cotidiana",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "el cuerpo contradice la geometría posible",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "estilo de ilustración de tratado antiguo",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_es",
+      "texto": "hay un torso en forma de triángulo de Penrose",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_es",
+      "texto": "las barras del triángulo aparentan conectarse",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_es",
+      "texto": "la cabeza está separada en secciones suspendidas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_es",
+      "texto": "las secciones de la cabeza están enlazadas por un hilo dorado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_es",
+      "texto": "la figura combina forma de muñeco con objetos imposibles",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_es",
+      "texto": "el estilo es de ilustración surrealista geométrica",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_es",
+      "texto": "tiene aire retro",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_es",
+      "texto": "hay contornos oscuros",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_es",
+      "texto": "los colores son apagados",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_es",
+      "texto": "hay degradados suaves",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_es",
+      "texto": "hay textura de papel",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a35",
+      "fuente": "que_es",
+      "texto": "la imposibilidad está en la anatomía de la persona representada",
+      "tipo": "efecto"
+    }
+  ]
+}

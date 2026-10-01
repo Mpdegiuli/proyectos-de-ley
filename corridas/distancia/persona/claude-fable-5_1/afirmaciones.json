@@ -1,0 +1,297 @@
+{
+  "consigna": "persona",
+  "unidad": "claude-fable-5_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T20:46:21+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32",
+        "a33",
+        "a34",
+        "a35",
+        "a36",
+        "a37",
+        "a38",
+        "a39"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay una persona parada",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "la persona está sobre el pasto",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "hay un sol en la escena",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "hay cielo de fondo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "hay pasto en la escena",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "la persona lleva remera roja",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "la persona lleva jeans azules",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "la persona tiene una sonrisa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "por_que",
+      "texto": "la persona tiene mejillas rosadas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "por_que",
+      "texto": "la persona tiene brillos en los ojos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a11",
+      "fuente": "por_que",
+      "texto": "la persona tiene cejas expresivas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a12",
+      "fuente": "por_que",
+      "texto": "la figura es frontal",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "por_que",
+      "texto": "el estilo es caricaturesco",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a14",
+      "fuente": "por_que",
+      "texto": "se usan formas geométricas básicas (círculos, rectángulos, curvas)",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a15",
+      "fuente": "por_que",
+      "texto": "el estilo es simple y amigable",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a16",
+      "fuente": "por_que",
+      "texto": "la escena transmite calidez",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a17",
+      "fuente": "por_que",
+      "texto": "la escena se siente viva",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "hay una persona parada",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "hay pasto verde en la parte inferior",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "el fondo tiene cielo celeste",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "hay un sol amarillo arriba a la derecha",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "la persona tiene pelo castaño",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "el pelo tiene mechones ondulados",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_dibujaste",
+      "texto": "la persona tiene ojos grandes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_dibujaste",
+      "texto": "los ojos tienen brillo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_dibujaste",
+      "texto": "la persona tiene cejas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_dibujaste",
+      "texto": "la persona tiene una nariz curvita",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_dibujaste",
+      "texto": "la persona tiene mejillas rosadas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_dibujaste",
+      "texto": "la persona tiene una sonrisa amplia",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_dibujaste",
+      "texto": "la persona lleva una remera roja",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_dibujaste",
+      "texto": "la remera tiene un detalle en el cuello",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_dibujaste",
+      "texto": "la persona lleva pantalón azul",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_dibujaste",
+      "texto": "la persona lleva zapatos marrones",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_dibujaste",
+      "texto": "los brazos caen a los costados",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a35",
+      "fuente": "que_dibujaste",
+      "texto": "las manos son visibles",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a36",
+      "fuente": "que_dibujaste",
+      "texto": "hay una sombra suave bajo los pies",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a37",
+      "fuente": "que_dibujaste",
+      "texto": "la persona es sonriente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a38",
+      "fuente": "que_dibujaste",
+      "texto": "la sombra le da peso y presencia en la escena",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a39",
+      "fuente": "que_dibujaste",
+      "texto": "el estilo es amigable tipo caricatura",
+      "tipo": "estilo"
+    }
+  ]
+}

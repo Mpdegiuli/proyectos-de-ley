@@ -1,0 +1,381 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "glm-5.3-razonamiento-minimo_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:32:44+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a32",
+        "a33",
+        "a34",
+        "a35",
+        "a36",
+        "a37",
+        "a38",
+        "a39",
+        "a40",
+        "a41",
+        "a42",
+        "a43",
+        "a44",
+        "a45",
+        "a46",
+        "a47",
+        "a48",
+        "a49",
+        "a50"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay un casco orgánico con costillas como de ballena",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "hay un tentáculo en la proa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "hay una vela con forma de medusa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "hay frutas colgando de la vela",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "hay un mástil de coral",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "hay burbujas en lugar de estela",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "hay un pulpo navegante",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "el pulpo está bajo una cúpula de cristal",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "por_que",
+      "texto": "el dibujo se lee como un barco de un vistazo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a10",
+      "fuente": "que_dibujaste",
+      "texto": "hay un barco-criatura imposible",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a11",
+      "fuente": "que_dibujaste",
+      "texto": "el barco navega de noche",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a12",
+      "fuente": "que_dibujaste",
+      "texto": "hay una luna doble",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "que_dibujaste",
+      "texto": "el casco tiene forma de lágrima orgánica",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "el casco tiene costillas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "el casco es de color verde azulado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "hay un ojo-lámpara dorado en la proa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "hay ventanillas iluminadas en el casco",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "de la proa brota un mástil de coral",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "hay una vela doble en forma de medusa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "la vela tiene frutos de colores",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "hay un pequeño pulpo rosado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "el pulpo está en una cúpula de cristal",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "la cúpula de cristal está en la parte inferior del barco",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_dibujaste",
+      "texto": "hay burbujas alrededor del barco",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_dibujaste",
+      "texto": "hay remos con forma de pétalo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_dibujaste",
+      "texto": "hay un tentáculo que sale desde la proa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_dibujaste",
+      "texto": "el tentáculo parece curiosear",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_dibujaste",
+      "texto": "hay mar ondulado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_dibujaste",
+      "texto": "hay estrellas en el fondo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_dibujaste",
+      "texto": "hay gaviotas fantasma",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_dibujaste",
+      "texto": "el casco evoca un pez-cetáceo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_es",
+      "texto": "hay un casco orgánico con costillas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_es",
+      "texto": "el casco se asemeja a un animal pez-ballena",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_es",
+      "texto": "hay un mástil de coral con ramificaciones",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a35",
+      "fuente": "que_es",
+      "texto": "hay una vela de doble lóbulo con forma de medusa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a36",
+      "fuente": "que_es",
+      "texto": "hay frutas colgando de la vela",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a37",
+      "fuente": "que_es",
+      "texto": "hay un ojo-lámpara como faro en la proa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a38",
+      "fuente": "que_es",
+      "texto": "hay un tentáculo en la proa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a39",
+      "fuente": "que_es",
+      "texto": "hay burbujas que funcionan como sistema de propulsión",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a40",
+      "fuente": "que_es",
+      "texto": "hay remos con forma de pétalos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a41",
+      "fuente": "que_es",
+      "texto": "hay una cúpula de cristal",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a42",
+      "fuente": "que_es",
+      "texto": "hay un pulpo navegante dentro de la cúpula",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a43",
+      "fuente": "que_es",
+      "texto": "hay una aleta dorsal que funciona de timón",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a44",
+      "fuente": "que_es",
+      "texto": "la escena es nocturna",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a45",
+      "fuente": "que_es",
+      "texto": "hay una luna doble",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a46",
+      "fuente": "que_es",
+      "texto": "el estilo es ilustrativo tipo cartoon nocturno",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a47",
+      "fuente": "que_es",
+      "texto": "hay contornos oscuros definidos",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a48",
+      "fuente": "que_es",
+      "texto": "hay gradientes suaves",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a49",
+      "fuente": "que_es",
+      "texto": "la paleta incluye violetas, turquesas y dorados",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a50",
+      "fuente": "que_es",
+      "texto": "el estilo es de fantasía caprichosa más que realista",
+      "tipo": "estilo"
+    }
+  ]
+}

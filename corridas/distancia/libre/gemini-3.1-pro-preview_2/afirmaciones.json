@@ -1,0 +1,220 @@
+{
+  "consigna": "libre",
+  "unidad": "gemini-3.1-pro-preview_2",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T20:28:01+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay un sol fragmentado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "hay montañas de neón",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "hay una cuadrícula en perspectiva",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "el diseño es de estilo synthwave retrofuturista",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "el diseño es geométrico",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "se usan degradados",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "se usan máscaras",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "se usan filtros de brillo",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a9",
+      "fuente": "por_que",
+      "texto": "el código es limpio y ligero",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a10",
+      "fuente": "por_que",
+      "texto": "el dibujo produce gran impacto visual",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a11",
+      "fuente": "que_dibujaste",
+      "texto": "el dibujo es un paisaje retro-futurista de estilo synthwave",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a12",
+      "fuente": "que_dibujaste",
+      "texto": "el lienzo es cuadrado con viewBox 0 0 400 400",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "que_dibujaste",
+      "texto": "hay un sol gigante en el centro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "el sol tiene cortes horizontales",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "el sol está hundiéndose detrás del horizonte",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "el cielo tiene un degradado que va del azul oscuro al magenta",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "hay estrellas en el cielo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "hay un cometa de color cian cruzando el cielo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "hay siluetas de montañas en el plano medio",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "hay una ciudad oscura en el plano medio",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "la ciudad tiene contornos de neón fucsia",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "la ciudad tiene contornos de neón turquesa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "hay una cuadrícula en el suelo en perspectiva",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_dibujaste",
+      "texto": "la cuadrícula es brillante",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_dibujaste",
+      "texto": "la cuadrícula da un efecto digital y tridimensional",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_dibujaste",
+      "texto": "el estilo es inspirado en la estética de los años 80",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_dibujaste",
+      "texto": "el estilo es outrun",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_dibujaste",
+      "texto": "hay un horizonte brillante",
+      "tipo": "elemento"
+    }
+  ]
+}

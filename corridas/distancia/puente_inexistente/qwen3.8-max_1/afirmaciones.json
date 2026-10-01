@@ -1,0 +1,374 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "qwen3.8-max_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:21:40+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a32",
+        "a33",
+        "a34",
+        "a35",
+        "a36",
+        "a37",
+        "a38",
+        "a39",
+        "a40",
+        "a41",
+        "a42",
+        "a43",
+        "a44",
+        "a45",
+        "a46",
+        "a47",
+        "a48",
+        "a49"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay un arco discontinuo de luz sobre el agua",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "el arco principal es el puente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "el cuerpo real del puente aparece invertido en el reflejo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "el reflejo es tembloroso",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "se usan filtros feTurbulence y feDisplacementMap en el reflejo",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "el puente está fragmentado con dashes",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "hay farolas sueltas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "hay objetos flotantes sin apoyo estructural",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "por_que",
+      "texto": "hay un título en el dibujo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "por_que",
+      "texto": "el puente parece depender del reflejo para existir",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a11",
+      "fuente": "por_que",
+      "texto": "hay agua representada en la escena",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a12",
+      "fuente": "que_dibujaste",
+      "texto": "hay un atardecer con colores violeta y naranja en el cielo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "que_dibujaste",
+      "texto": "hay estrellas en el cielo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "hay una luna brillante",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "hay dos islas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "las islas tienen ruinas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "las islas tienen faros",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "el puente es un arco flotante",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "el puente tiene luces",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "el puente tiene tramos discontinuos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "hay farolas encendidas que sostienen el puente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "hay agua oscura debajo del puente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "el reflejo del puente aparece en el agua",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_dibujaste",
+      "texto": "el reflejo está deformado por ondas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_dibujaste",
+      "texto": "hay pequeñas barcas o fragmentos flotando",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_dibujaste",
+      "texto": "hay una columna de luz lunar sobre la superficie del agua",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_dibujaste",
+      "texto": "el puente parece sólido en la parte superior",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_dibujaste",
+      "texto": "el puente parece tembloroso en la parte inferior reflejada",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_dibujaste",
+      "texto": "el puente parece un sueño",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_dibujaste",
+      "texto": "el puente da la impresión de estar hecho de memoria y reflejo más que de piedra",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_dibujaste",
+      "texto": "la verdadera construcción parece estar en el reflejo del agua",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_es",
+      "texto": "hay un arco de luces entre dos islas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_es",
+      "texto": "hay trazos discontinuos que forman el puente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_es",
+      "texto": "hay dos islas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a35",
+      "fuente": "que_es",
+      "texto": "hay un reflejo del puente en el agua",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a36",
+      "fuente": "que_es",
+      "texto": "el reflejo está deformado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a37",
+      "fuente": "que_es",
+      "texto": "no hay camino dibujado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a38",
+      "fuente": "que_es",
+      "texto": "no hay barandas dibujadas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a39",
+      "fuente": "que_es",
+      "texto": "no hay apoyo firme o estructura sólida",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a40",
+      "fuente": "que_es",
+      "texto": "hay brillos flotantes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a41",
+      "fuente": "que_es",
+      "texto": "hay siluetas oscuras",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a42",
+      "fuente": "que_es",
+      "texto": "la estética es nocturna",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a43",
+      "fuente": "que_es",
+      "texto": "hay gradientes de atardecer",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a44",
+      "fuente": "que_es",
+      "texto": "el estilo es onírico y simbólico",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a45",
+      "fuente": "que_es",
+      "texto": "el estilo es de ilustración vectorial",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a46",
+      "fuente": "que_es",
+      "texto": "hay pequeñas animaciones en el dibujo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a47",
+      "fuente": "que_es",
+      "texto": "el reflejo del agua sostiene visualmente la estructura",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a48",
+      "fuente": "que_es",
+      "texto": "el puente parece una aparición o espejismo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a49",
+      "fuente": "que_es",
+      "texto": "el dibujo transmite aire de sueño o visión",
+      "tipo": "efecto"
+    }
+  ]
+}

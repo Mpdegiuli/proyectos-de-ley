@@ -1,0 +1,367 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "gpt-5.6-sol_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:30:00+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a32",
+        "a33",
+        "a34",
+        "a35",
+        "a36",
+        "a37",
+        "a38",
+        "a39",
+        "a40",
+        "a41",
+        "a42",
+        "a43",
+        "a44",
+        "a45",
+        "a46",
+        "a47",
+        "a48"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay velas dispuestas como alas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "hay un orbe luminoso incrustado en el mástil",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "hay apéndices orgánicos bajo el casco",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "hay antenas con extremos bioluminiscentes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "hay aros flotantes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "el casco tiene una silueta naval reconocible",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "hay mar en la imagen",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "la paleta de colores es de crepúsculo",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a9",
+      "fuente": "por_que",
+      "texto": "el dibujo se lee inmediatamente como un barco",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a10",
+      "fuente": "por_que",
+      "texto": "funciona como una criatura o nave fantástica",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a11",
+      "fuente": "por_que",
+      "texto": "el mar aporta escala y contraste",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a12",
+      "fuente": "por_que",
+      "texto": "la rareza es orgánica y luminosa",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a13",
+      "fuente": "por_que",
+      "texto": "la paleta unifica todo el dibujo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "hay un barco fantástico",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "el barco navega de noche",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "hay un mar ondulante",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "el casco es oscuro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "el casco es orgánico",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "hay cuatro velas triangulares",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "las velas son de colores",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "hay un mástil",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "el mástil está coronado por una punta dorada",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "hay un orbe luminoso en el centro del barco",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_dibujaste",
+      "texto": "del casco cuelgan tentáculos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_dibujaste",
+      "texto": "la nave parece estar viva",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_dibujaste",
+      "texto": "a los lados flotan aros brillantes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_dibujaste",
+      "texto": "hay pequeñas cabinas en la cubierta",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_dibujaste",
+      "texto": "las cabinas tienen ventanas turquesas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_dibujaste",
+      "texto": "hay estrellas en el fondo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_dibujaste",
+      "texto": "hay una luna creciente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_dibujaste",
+      "texto": "el cielo se funde con tonos rosados en el horizonte",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_es",
+      "texto": "hay un barco fantástico dibujado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_es",
+      "texto": "el barco tiene cuatro velas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_es",
+      "texto": "las velas tienen formas distintas entre sí",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a35",
+      "fuente": "que_es",
+      "texto": "las velas tienen colores distintos entre sí",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a36",
+      "fuente": "que_es",
+      "texto": "hay un mástil",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a37",
+      "fuente": "que_es",
+      "texto": "hay un orbe luminoso incrustado en el mástil",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a38",
+      "fuente": "que_es",
+      "texto": "el barco tiene apéndices orgánicos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a39",
+      "fuente": "que_es",
+      "texto": "hay anillos flotantes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a40",
+      "fuente": "que_es",
+      "texto": "hay tentáculos bajo el casco",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a41",
+      "fuente": "que_es",
+      "texto": "el barco combina rasgos de velero, criatura marina y artefacto mágico",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a42",
+      "fuente": "que_es",
+      "texto": "el estilo es de ilustración vectorial fantástica",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a43",
+      "fuente": "que_es",
+      "texto": "las formas son geométricas",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a44",
+      "fuente": "que_es",
+      "texto": "los contornos son oscuros y gruesos",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a45",
+      "fuente": "que_es",
+      "texto": "hay degradados intensos",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a46",
+      "fuente": "que_es",
+      "texto": "la paleta es crepuscular",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a47",
+      "fuente": "que_es",
+      "texto": "hay brillos sobrenaturales",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a48",
+      "fuente": "que_es",
+      "texto": "el estilo es cercano al de un cuento de aventuras o videojuego indie",
+      "tipo": "efecto"
+    }
+  ]
+}

@@ -1,0 +1,353 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "qwen3.8-max_2",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T20:44:14+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a33",
+        "a34",
+        "a35",
+        "a36",
+        "a37",
+        "a38",
+        "a39",
+        "a40",
+        "a41",
+        "a42",
+        "a43",
+        "a44",
+        "a45",
+        "a46"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "la casa está colgada de una media luna con una soga",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "hay una media luna en el dibujo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "hay una soga que une la luna con la casa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "la casa se balancea",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "hay una canilla que llora burbujas hacia abajo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "hay un farol flotando bajo la casa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "hay una nube con forma de isla",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "sobre la nube-isla hay un arbolito",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "por_que",
+      "texto": "el arbolito se mueve solo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "por_que",
+      "texto": "la casa tiene proporciones de sueño",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a11",
+      "fuente": "por_que",
+      "texto": "hay animaciones suaves en el dibujo",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a12",
+      "fuente": "por_que",
+      "texto": "el fondo es un cielo nocturno",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "por_que",
+      "texto": "hay puntos brillantes en la escena",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a14",
+      "fuente": "por_que",
+      "texto": "la casa no tiene suelo bajo ella",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "por_que",
+      "texto": "el dibujo parece un lugar vivo pero inverosímil",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "hay una casa colgada de la luna por una cuerda",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "la casa está suspendida en el aire",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "el fondo es un cielo nocturno azul",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "hay una luna visible",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "hay una ventana encendida en la casa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "hay un péndulo que se balancea",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "hay una lámpara suspendida",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "la lámpara ilumina la oscuridad",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_dibujaste",
+      "texto": "hay estrellas en el cielo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_dibujaste",
+      "texto": "hay una estrella fugaz",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_dibujaste",
+      "texto": "hay una nube baja",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_dibujaste",
+      "texto": "hay una isla flotante pequeña",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_dibujaste",
+      "texto": "hay un árbol sobre la isla flotante",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_dibujaste",
+      "texto": "caen gotas de luz desde el techo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_dibujaste",
+      "texto": "la casa es una casita de aspecto cálido",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_dibujaste",
+      "texto": "el dibujo transmite la sensación de un refugio tranquilo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_dibujaste",
+      "texto": "el dibujo evoca la estética de un sueño",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_es",
+      "texto": "hay una casa colgada de la luna",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_es",
+      "texto": "la casa está balanceada sobre la noche",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a35",
+      "fuente": "que_es",
+      "texto": "hay ventanas encendidas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a36",
+      "fuente": "que_es",
+      "texto": "hay un péndulo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a37",
+      "fuente": "que_es",
+      "texto": "hay gotas de luz",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a38",
+      "fuente": "que_es",
+      "texto": "el fondo es nocturno",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a39",
+      "fuente": "que_es",
+      "texto": "los colores son nocturnos",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a40",
+      "fuente": "que_es",
+      "texto": "hay degradados suaves",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a41",
+      "fuente": "que_es",
+      "texto": "hay brillos redondeados",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a42",
+      "fuente": "que_es",
+      "texto": "las formas son simples y planas",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a43",
+      "fuente": "que_es",
+      "texto": "el estilo es de ilustración vectorial onírica e infantil",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a44",
+      "fuente": "que_es",
+      "texto": "el dibujo tiene un aire de cuento",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a45",
+      "fuente": "que_es",
+      "texto": "el dibujo transmite movimiento sutil",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a46",
+      "fuente": "que_es",
+      "texto": "la casa parece un hogar soñado, no real",
+      "tipo": "efecto"
+    }
+  ]
+}

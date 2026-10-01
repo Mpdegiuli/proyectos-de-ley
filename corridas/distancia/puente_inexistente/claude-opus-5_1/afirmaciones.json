@@ -1,0 +1,325 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "claude-opus-5_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:17:10+00:00",
+  "fuentes": {
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32",
+        "a33",
+        "a34",
+        "a35",
+        "a36",
+        "a37",
+        "a38",
+        "a39",
+        "a40",
+        "a41",
+        "a42",
+        "a43"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "que_dibujaste",
+      "texto": "hay un puente colgante",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "que_dibujaste",
+      "texto": "el puente está suspendido sobre un abismo sin fondo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "que_dibujaste",
+      "texto": "donde debería haber un río hay niebla dorada",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "que_dibujaste",
+      "texto": "hay nubes planas bajo el puente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "que_dibujaste",
+      "texto": "hay un sol enorme que se pone detrás del tablero",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "que_dibujaste",
+      "texto": "el sol está en posición de atardecer",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "que_dibujaste",
+      "texto": "hay dos torres angostas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "que_dibujaste",
+      "texto": "las torres tienen banderines rojos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "que_dibujaste",
+      "texto": "las torres tienen faroles encendidos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "que_dibujaste",
+      "texto": "las torres sostienen los cables del puente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a11",
+      "fuente": "que_dibujaste",
+      "texto": "del centro del puente cuelga una campana o péndulo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a12",
+      "fuente": "que_dibujaste",
+      "texto": "hay acantilados a los costados del puente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "que_dibujaste",
+      "texto": "los acantilados son de color violeta",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "los acantilados se hunden en la bruma",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "hay pinos retorcidos en los acantilados",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "hay montañas en capas al fondo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "hay tres pájaros pequeños en el cielo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "no hay ninguna figura humana en el puente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "el puente une dos riscos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "el puente transmite que une dos lugares que podrían no llevar a ningún lado",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_es",
+      "texto": "hay un puente colgante",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_es",
+      "texto": "el cable central va de torre a torre por debajo, combado hacia arriba, invertido",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_es",
+      "texto": "los tramos laterales de cable bajan hacia unos riscos que no tocan",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_es",
+      "texto": "las péndolas cuelgan de una curva invertida",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_es",
+      "texto": "el tablero arranca en el aire",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_es",
+      "texto": "hay niebla bajo el tablero",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_es",
+      "texto": "no hay estribos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_es",
+      "texto": "no hay camino que llegue ni que continúe el puente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_es",
+      "texto": "hay faroles encendidos sobre el puente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_es",
+      "texto": "hay dos torres",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_es",
+      "texto": "hay riscos a los lados",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_es",
+      "texto": "el fondo es un cielo en degradé de violeta y naranja",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_es",
+      "texto": "hay estrellas en la parte superior del cielo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_es",
+      "texto": "hay capas de montañas superpuestas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a35",
+      "fuente": "que_es",
+      "texto": "hay capas de bruma superpuestas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a36",
+      "fuente": "que_es",
+      "texto": "es una escena de atardecer",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a37",
+      "fuente": "que_es",
+      "texto": "el puente parece flotar entre dos nadas sin apoyo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a38",
+      "fuente": "que_es",
+      "texto": "los faroles están encendidos para nadie",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a39",
+      "fuente": "que_es",
+      "texto": "el dibujo da sensación de profundidad mediante capas superpuestas",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a40",
+      "fuente": "que_es",
+      "texto": "estilo de ilustración plana y vectorial",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a41",
+      "fuente": "que_es",
+      "texto": "las figuras son siluetas recortadas",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a42",
+      "fuente": "que_es",
+      "texto": "estilo vagamente de afiche de viaje",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a43",
+      "fuente": "que_es",
+      "texto": "estilo vagamente ukiyo-e simplificado",
+      "tipo": "estilo"
+    }
+  ]
+}

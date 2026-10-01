@@ -1,0 +1,395 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "claude-fable-5-1_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T20:40:55+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que_en.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a33",
+        "a34",
+        "a35",
+        "a36",
+        "a37",
+        "a38",
+        "a39",
+        "a40",
+        "a41",
+        "a42",
+        "a43",
+        "a44",
+        "a45",
+        "a46",
+        "a47",
+        "a48",
+        "a49",
+        "a50",
+        "a51",
+        "a52"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "la casa está apoyada en un terrón de tierra que flota",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "el terrón de tierra está en el aire",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "hay raíces que cuelgan en el aire",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "las raíces no se agarran a nada",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "las paredes de la casa están torcidas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "las paredes no son rectángulos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "las ventanas están rotadas en ángulos distintos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "hay una torre desalineada",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "por_que",
+      "texto": "la torre tiene un banderín",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "por_que",
+      "texto": "hay una puerta desproporcionada",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a11",
+      "fuente": "por_que",
+      "texto": "abajo hay sombras azuladas de árboles",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a12",
+      "fuente": "por_que",
+      "texto": "hay luciérnagas en el vacío",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "por_que",
+      "texto": "las sombras de árboles son de color azulado",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a14",
+      "fuente": "por_que",
+      "texto": "el dibujo es cálido y onírico",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a15",
+      "fuente": "por_que",
+      "texto": "las partes de la casa son creíbles individualmente pero imposibles en conjunto",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a16",
+      "fuente": "por_que",
+      "texto": "el mundo real parece quedar lejos",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "hay una casa que flota sobre un pedazo de tierra",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "el pedazo de tierra está arrancado del suelo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "hay raíces colgando en el vacío debajo de la tierra",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "las paredes de la casa están torcidas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "las ventanas están ladeadas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "las ventanas están encendidas de amarillo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "hay una torrecita con techo rojo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_dibujaste",
+      "texto": "hay una banderita en la torrecita",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_dibujaste",
+      "texto": "hay una chimenea",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_dibujaste",
+      "texto": "la chimenea suelta humo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_dibujaste",
+      "texto": "hay sombras azuladas de árboles fantasma abajo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_dibujaste",
+      "texto": "hay luciérnagas en el dibujo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_dibujaste",
+      "texto": "hay una luna con cráteres arriba",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_dibujaste",
+      "texto": "el cielo pasa del azul oscuro al rosa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_dibujaste",
+      "texto": "la casa se siente cálida y desprendida a la vez",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_dibujaste",
+      "texto": "el dibujo transmite la idea de un hogar imposible pero habitado",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_es",
+      "texto": "hay una casa dibujada",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_es",
+      "texto": "la casa está parada sobre un pedazo de tierra que flota en el aire",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a35",
+      "fuente": "que_es",
+      "texto": "hay raíces que cuelgan hacia abajo desde la tierra flotante",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a36",
+      "fuente": "que_es",
+      "texto": "las paredes de la casa no son rectas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a37",
+      "fuente": "que_es",
+      "texto": "las ventanas están torcidas cada una para su lado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a38",
+      "fuente": "que_es",
+      "texto": "hay una torre inclinada",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a39",
+      "fuente": "que_es",
+      "texto": "sale humo de la chimenea",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a40",
+      "fuente": "que_es",
+      "texto": "hay luz adentro de la casa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a41",
+      "fuente": "que_es",
+      "texto": "hay una luna de tamaño exageradamente grande",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a42",
+      "fuente": "que_es",
+      "texto": "hay luciérnagas flotando",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a43",
+      "fuente": "que_es",
+      "texto": "hay cerros que son casi sombras",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a44",
+      "fuente": "que_es",
+      "texto": "el fondo es un cielo crepuscular en degradé",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a45",
+      "fuente": "que_es",
+      "texto": "la torre inclinada parece que debería caerse y no se cae",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a46",
+      "fuente": "que_es",
+      "texto": "la tierra flota en el aire sin suelo debajo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a47",
+      "fuente": "que_es",
+      "texto": "el estilo es ilustración vectorial plana tipo cuento infantil",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a48",
+      "fuente": "que_es",
+      "texto": "las formas son simples",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a49",
+      "fuente": "que_es",
+      "texto": "hay contornos marrones",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a50",
+      "fuente": "que_es",
+      "texto": "los colores son cálidos",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a51",
+      "fuente": "que_es",
+      "texto": "el estilo es más ingenuo que realista",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a52",
+      "fuente": "que_es",
+      "texto": "hay algo de fantasía onírica en el estilo",
+      "tipo": "estilo"
+    }
+  ]
+}

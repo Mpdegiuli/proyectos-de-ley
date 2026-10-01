@@ -1,0 +1,402 @@
+{
+  "consigna": "animal_inexistente",
+  "unidad": "glm-5.3-razonamiento-minimo_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:11:44+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32",
+        "a33",
+        "a34"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a35",
+        "a36",
+        "a37",
+        "a38",
+        "a39",
+        "a40",
+        "a41",
+        "a42",
+        "a43",
+        "a44",
+        "a45",
+        "a46",
+        "a47",
+        "a48",
+        "a49",
+        "a50",
+        "a51",
+        "a52",
+        "a53"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay un animal llamado Lepidopticeto lunar",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "el animal tiene orejas-antena luminosas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "el animal tiene alas de mariposa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "el animal tiene vientre de ballena",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "el animal tiene cola de estrella",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "hay una luna grande",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "hay esporas flotantes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "el lienzo es cuadrado con viewBox 0 0 400 400",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "por_que",
+      "texto": "hay animación de parpadeo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "por_que",
+      "texto": "hay animación de aleteo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a11",
+      "fuente": "por_que",
+      "texto": "las esporas tienen animación",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a12",
+      "fuente": "por_que",
+      "texto": "el entorno es de ambientación lunar",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "por_que",
+      "texto": "el parpadeo, el aleteo y las esporas le dan vida al dibujo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a14",
+      "fuente": "por_que",
+      "texto": "el animal transmite imposibilidad por cruzar clases naturales separadas",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "hay un animal inventado llamado Lepidopiceto lunar",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "el cuerpo es regordete",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "hay escamas en el lomo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "hay dos alas de mariposa de color rosa-violeta",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "las alas aletean (están animadas)",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "hay orejas-antena que terminan en puntitos luminosos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "los puntitos luminosos titilan (están animados)",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "los ojos son enormes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "los ojos parpadean (están animados)",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_dibujaste",
+      "texto": "hay bigotes finos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_dibujaste",
+      "texto": "hay patitas cortas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_dibujaste",
+      "texto": "en lugar de cola hay una estrella dorada brillante",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_dibujaste",
+      "texto": "la estrella se balancea (está animada)",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_dibujaste",
+      "texto": "el fondo representa un paisaje nocturno",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_dibujaste",
+      "texto": "hay un cielo estrellado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_dibujaste",
+      "texto": "hay una luna de color crema",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_dibujaste",
+      "texto": "hay colinas oscuras",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_dibujaste",
+      "texto": "hay esporas turquesa flotando alrededor del animal",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_dibujaste",
+      "texto": "la escena transcurre de noche",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_dibujaste",
+      "texto": "el dibujo incluye animaciones de parpadeos, aleteos y destellos",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a35",
+      "fuente": "que_es",
+      "texto": "hay un cuerpo de ballenato rechoncho",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a36",
+      "fuente": "que_es",
+      "texto": "el animal tiene alas de mariposa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a37",
+      "fuente": "que_es",
+      "texto": "hay orejas en forma de antena con puntas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a38",
+      "fuente": "que_es",
+      "texto": "las puntas de las orejas-antena brillan como luciérnagas",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a39",
+      "fuente": "que_es",
+      "texto": "hay escamas en el lomo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a40",
+      "fuente": "que_es",
+      "texto": "el animal tiene bigotes de gato",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a41",
+      "fuente": "que_es",
+      "texto": "hay patas cortas con almohadillas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a42",
+      "fuente": "que_es",
+      "texto": "la cola termina en una estrella luminosa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a43",
+      "fuente": "que_es",
+      "texto": "de la cola parecen desprenderse esporas flotantes",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a44",
+      "fuente": "que_es",
+      "texto": "hay una luna en la escena",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a45",
+      "fuente": "que_es",
+      "texto": "hay estrellas en la escena",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a46",
+      "fuente": "que_es",
+      "texto": "hay colinas de silueta en el fondo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a47",
+      "fuente": "que_es",
+      "texto": "la paleta es fría, de azules y turquesas",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a48",
+      "fuente": "que_es",
+      "texto": "hay acentos cálidos dorados",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a49",
+      "fuente": "que_es",
+      "texto": "las líneas son suaves y redondeadas",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a50",
+      "fuente": "que_es",
+      "texto": "el estilo es ilustrativo y onírico, tipo cartón o cuento infantil nocturno",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a51",
+      "fuente": "que_es",
+      "texto": "hay animaciones sutiles en el dibujo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a52",
+      "fuente": "que_es",
+      "texto": "la escena transcurre de noche",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a53",
+      "fuente": "que_es",
+      "texto": "el dibujo transmite la sensación de una quimera amable",
+      "tipo": "efecto"
+    }
+  ]
+}

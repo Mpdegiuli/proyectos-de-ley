@@ -1,0 +1,248 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "gpt-4o-mini_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:20:18+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay un puente dibujado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "las estructuras del puente no podrían sostenerse en la realidad",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "hay líneas y curvas que insinúan ligereza",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "el colorido es vibrante",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "el puente se percibe como un elemento onírico",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "el diseño es reconocible como un puente",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "el diseño resulta irreal",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "el dibujo genera una sensación de asombro",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a9",
+      "fuente": "que_dibujaste",
+      "texto": "hay un puente dibujado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "que_dibujaste",
+      "texto": "el puente se eleva sobre un río azul",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a11",
+      "fuente": "que_dibujaste",
+      "texto": "la estructura principal tiene arcos suaves",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a12",
+      "fuente": "que_dibujaste",
+      "texto": "hay pilares que sostienen el camino del puente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "que_dibujaste",
+      "texto": "hay detalles en color dorado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "el fondo del cielo es de tono celeste",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "en ambos extremos del puente hay estructuras rojas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "hay un título que dice 'Puente Imaginario'",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "el puente se enmarca en un entorno sereno",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "los detalles dorados añaden un toque brillante",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "las estructuras rojas evocan un sentido de fortaleza",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "el título resalta la naturaleza creativa de la obra",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "el puente tiene elegancia en su elevación",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_es",
+      "texto": "hay un puente imaginario dibujado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_es",
+      "texto": "el puente tiene curvas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_es",
+      "texto": "el puente tiene estructuras poco convencionales",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_es",
+      "texto": "el dibujo usa colores combinados",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_es",
+      "texto": "el dibujo usa líneas limpias",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_es",
+      "texto": "el dibujo usa formas básicas",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_es",
+      "texto": "el estilo es simplificado",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_es",
+      "texto": "el estilo es colorido",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_es",
+      "texto": "el dibujo transmite fantasía y creatividad",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_es",
+      "texto": "la combinación de colores evoca alegría y asombro",
+      "tipo": "efecto"
+    }
+  ]
+}

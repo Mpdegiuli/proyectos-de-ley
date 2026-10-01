@@ -1,0 +1,444 @@
+{
+  "consigna": "animal_inexistente",
+  "unidad": "claude-fable-5-1_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:08:08+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que_en.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32",
+        "a33",
+        "a34",
+        "a35",
+        "a36",
+        "a37",
+        "a38",
+        "a39"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a40",
+        "a41",
+        "a42",
+        "a43",
+        "a44",
+        "a45",
+        "a46",
+        "a47",
+        "a48",
+        "a49",
+        "a50",
+        "a51",
+        "a52",
+        "a53",
+        "a54",
+        "a55",
+        "a56",
+        "a57",
+        "a58",
+        "a59"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "el cuerpo del animal tiene dos segmentos y es redondo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "el animal tiene tres ojos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "hay un ojo en la frente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "el animal tiene orejas de conejo con puntas rosadas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "el animal tiene dos antenas que terminan en bulbos brillantes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "las alas son translúcidas de color rosa-violeta",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "el animal tiene patas de pájaro con tres dedos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "la cola termina en una flor",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "por_que",
+      "texto": "hay una escena nocturna de fondo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "por_que",
+      "texto": "el dibujo usa gradientes",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a11",
+      "fuente": "por_que",
+      "texto": "el dibujo usa formas simples",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a12",
+      "fuente": "por_que",
+      "texto": "la criatura tiene una apariencia amigable y suave",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a13",
+      "fuente": "por_que",
+      "texto": "la escena es nocturna y coherente",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "el cuerpo del animal es redondo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "el cuerpo es de color turquesa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "la panza es de color claro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "hay pecas oscuras en el cuerpo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "el animal tiene dos patitas naranjas de ave",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "el animal tiene tres ojos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "dos ojos están al frente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "un ojo está en la frente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "hay un pico pequeño",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "hay una sonrisa tímida",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_dibujaste",
+      "texto": "el animal tiene dos orejas largas como de conejo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_dibujaste",
+      "texto": "las orejas son pintadas de rosa por dentro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_dibujaste",
+      "texto": "hay dos antenas finas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_dibujaste",
+      "texto": "las antenas terminan en esferas luminosas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_dibujaste",
+      "texto": "el animal tiene alas en la espalda",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_dibujaste",
+      "texto": "las alas son translúcidas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_dibujaste",
+      "texto": "las alas son rosadas y violetas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_dibujaste",
+      "texto": "las alas tienen venas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_dibujaste",
+      "texto": "las alas tienen manchas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_dibujaste",
+      "texto": "hay una cola gruesa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_dibujaste",
+      "texto": "la cola remata en una flor rosa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a35",
+      "fuente": "que_dibujaste",
+      "texto": "la flor tiene centro amarillo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a36",
+      "fuente": "que_dibujaste",
+      "texto": "el fondo es un prado de noche",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a37",
+      "fuente": "que_dibujaste",
+      "texto": "hay una luna en el fondo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a38",
+      "fuente": "que_dibujaste",
+      "texto": "hay estrellas en el fondo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a39",
+      "fuente": "que_dibujaste",
+      "texto": "la escena transcurre de noche",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a40",
+      "fuente": "que_es",
+      "texto": "el cuerpo del animal es redondo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a41",
+      "fuente": "que_es",
+      "texto": "el cuerpo es de color turquesa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a42",
+      "fuente": "que_es",
+      "texto": "el animal tiene tres ojos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a43",
+      "fuente": "que_es",
+      "texto": "el animal tiene orejas de conejo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a44",
+      "fuente": "que_es",
+      "texto": "el animal tiene antenas que terminan en bolas de luz",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a45",
+      "fuente": "que_es",
+      "texto": "el animal tiene alas translúcidas de insecto",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a46",
+      "fuente": "que_es",
+      "texto": "el animal tiene patas de ave",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a47",
+      "fuente": "que_es",
+      "texto": "el animal tiene una cola que remata en una flor",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a48",
+      "fuente": "que_es",
+      "texto": "hay un fondo de cielo nocturno",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a49",
+      "fuente": "que_es",
+      "texto": "hay una luna en el fondo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a50",
+      "fuente": "que_es",
+      "texto": "hay estrellas en el fondo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a51",
+      "fuente": "que_es",
+      "texto": "los ojos son grandes y tienen brillos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a52",
+      "fuente": "que_es",
+      "texto": "hay una sonrisa mínima",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a53",
+      "fuente": "que_es",
+      "texto": "la paleta es pastel",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a54",
+      "fuente": "que_es",
+      "texto": "el estilo es ilustración vectorial plana",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a55",
+      "fuente": "que_es",
+      "texto": "el tono es infantil y kawaii",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a56",
+      "fuente": "que_es",
+      "texto": "las formas son redondeadas",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a57",
+      "fuente": "que_es",
+      "texto": "hay degradados suaves que dan algo de volumen",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a58",
+      "fuente": "que_es",
+      "texto": "el dibujo mantiene la lectura de ilustración de libro para chicos",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a59",
+      "fuente": "que_es",
+      "texto": "el animal reúne rasgos de mamífero, insecto, pájaro y planta",
+      "tipo": "efecto"
+    }
+  ]
+}

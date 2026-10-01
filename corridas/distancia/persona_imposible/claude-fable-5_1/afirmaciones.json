@@ -1,0 +1,283 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "claude-fable-5_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T20:55:47+00:00",
+  "fuentes": {
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32",
+        "a33",
+        "a34",
+        "a35",
+        "a36",
+        "a37"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "que_dibujaste",
+      "texto": "la cabeza flota separada del cuerpo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "que_dibujaste",
+      "texto": "la persona tiene tres ojos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "que_dibujaste",
+      "texto": "la persona tiene una sonrisa tranquila",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "que_dibujaste",
+      "texto": "hay un agujero perfecto en el pecho",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "que_dibujaste",
+      "texto": "a través del agujero del pecho se ve el cielo con nubes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "que_dibujaste",
+      "texto": "un antebrazo está desprendido del cuerpo y saluda solo en el aire",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "que_dibujaste",
+      "texto": "el antebrazo desprendido está unido al cuerpo por una línea punteada",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "que_dibujaste",
+      "texto": "las piernas se doblan al revés",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "que_dibujaste",
+      "texto": "los zapatos apuntan hacia atrás en direcciones contradictorias",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "que_dibujaste",
+      "texto": "hay un sol en el paisaje",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a11",
+      "fuente": "que_dibujaste",
+      "texto": "hay pasto en el paisaje",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a12",
+      "fuente": "que_dibujaste",
+      "texto": "hay nubes en el paisaje",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "que_dibujaste",
+      "texto": "el paisaje es amable y cotidiano",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "el contraste entre el paisaje amable y la anatomía absurda resalta",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "la persona parece alguien cotidiano que no podría existir",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_es",
+      "texto": "la cabeza flota separada del cuello",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_es",
+      "texto": "hay una línea punteada marcando el corte entre cabeza y cuello",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_es",
+      "texto": "la figura tiene tres ojos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_es",
+      "texto": "en el pecho hay un agujero",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_es",
+      "texto": "a través del agujero del pecho se ve el cielo de fondo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_es",
+      "texto": "en el cielo visible por el agujero hay nubes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_es",
+      "texto": "un antebrazo está desprendido del cuerpo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_es",
+      "texto": "el antebrazo desprendido flota en el aire",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_es",
+      "texto": "el antebrazo flotante está en posición de saludo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_es",
+      "texto": "las rodillas se doblan hacia atrás",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_es",
+      "texto": "los zapatos apuntan en direcciones contradictorias",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_es",
+      "texto": "hay un sol en el fondo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_es",
+      "texto": "hay nubes en el fondo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_es",
+      "texto": "hay pasto en el fondo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_es",
+      "texto": "el fondo tiene apariencia infantil con sol, nubes y pasto",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_es",
+      "texto": "el estilo es caricatura plana",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_es",
+      "texto": "las formas son geométricas y simples",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_es",
+      "texto": "los colores son pastel",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_es",
+      "texto": "los trazos son redondeados",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a35",
+      "fuente": "que_es",
+      "texto": "lo imposible contrasta con la estética alegre",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a36",
+      "fuente": "que_es",
+      "texto": "el dibujo produce una apariencia similar a un libro ilustrado para chicos",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a37",
+      "fuente": "que_es",
+      "texto": "el cuerpo parece hueco o transparente",
+      "tipo": "efecto"
+    }
+  ]
+}

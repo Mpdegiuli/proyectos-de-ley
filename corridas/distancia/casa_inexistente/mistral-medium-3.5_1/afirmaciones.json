@@ -1,0 +1,360 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "mistral-medium-3.5_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T20:43:45+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a30",
+        "a31",
+        "a32",
+        "a33",
+        "a34",
+        "a35",
+        "a36",
+        "a37",
+        "a38",
+        "a39",
+        "a40",
+        "a41",
+        "a42",
+        "a43",
+        "a44",
+        "a45",
+        "a46",
+        "a47"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay un techo en forma de onda con curvas cuadráticas Bézier",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "las ventanas son asimétricas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "hay una chimenea flotante sin conexión con el techo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "hay un sol y una luna simultáneos en el cielo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "las paredes tienen tonos terrosos",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "la chimenea no toca el techo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "el cielo muestra sol y luna al mismo tiempo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "la casa combina elementos arquitectónicamente imposibles",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a9",
+      "fuente": "por_que",
+      "texto": "el dibujo produce un surrealismo sutil",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a10",
+      "fuente": "que_dibujaste",
+      "texto": "hay una casa surrealista",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a11",
+      "fuente": "que_dibujaste",
+      "texto": "la casa flota en un cielo crepuscular",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a12",
+      "fuente": "que_dibujaste",
+      "texto": "el techo es una onda sinuosa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "que_dibujaste",
+      "texto": "hay dos torres laterales",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "hay una chimenea humeante",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "la fachada tiene ventanas doradas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "hay una puerta oscura",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "la puerta tiene un rectángulo ámbar",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "en el centro hay un ojo brillante",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "el ojo está en el ático",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "el ojo vigila la escena",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "el techo tiene una buhardilla",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "hay una pequeña esfera dorada en la cima",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "a los lados hay líneas curvas naranjas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_dibujaste",
+      "texto": "las líneas curvas simulan energía o raíces",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_dibujaste",
+      "texto": "hay dos esferas doradas flotando cerca del suelo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_dibujaste",
+      "texto": "hay una luna dorada con resplandor",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_dibujaste",
+      "texto": "la luna ilumina la escena desde arriba",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_dibujaste",
+      "texto": "los tonos son cálidos y terrosos",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_dibujaste",
+      "texto": "el cielo va del azul oscuro al rojo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_es",
+      "texto": "hay una estructura principal con forma de onda",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_es",
+      "texto": "el tejado tiene forma líquida",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_es",
+      "texto": "hay ventanas asimétricas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_es",
+      "texto": "las ventanas flotan en las paredes laterales",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_es",
+      "texto": "hay una chimenea",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a35",
+      "fuente": "que_es",
+      "texto": "la chimenea parece desafiar la gravedad",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a36",
+      "fuente": "que_es",
+      "texto": "hay una luna",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a37",
+      "fuente": "que_es",
+      "texto": "la luna brilla con un glow sobrenatural",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a38",
+      "fuente": "que_es",
+      "texto": "hay líneas doradas alrededor de la casa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a39",
+      "fuente": "que_es",
+      "texto": "las líneas doradas simulan energía o magia",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a40",
+      "fuente": "que_es",
+      "texto": "el estilo es fantasioso y onírico",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a41",
+      "fuente": "que_es",
+      "texto": "hay curvas orgánicas de inspiración art nouveau",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a42",
+      "fuente": "que_es",
+      "texto": "hay contraste entre elementos rústicos y místicos",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a43",
+      "fuente": "que_es",
+      "texto": "se usan colores cálidos",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a44",
+      "fuente": "que_es",
+      "texto": "se usan gradientes cósmicos",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a45",
+      "fuente": "que_es",
+      "texto": "hay degradados que dan profundidad",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a46",
+      "fuente": "que_es",
+      "texto": "hay filtros SVG aplicados",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a47",
+      "fuente": "que_es",
+      "texto": "los elementos rústicos están representados con maderas oscuras",
+      "tipo": "elemento"
+    }
+  ]
+}

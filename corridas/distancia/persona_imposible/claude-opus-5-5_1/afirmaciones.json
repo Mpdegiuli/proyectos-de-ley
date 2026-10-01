@@ -1,0 +1,199 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "claude-opus-5-5_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T20:54:58+00:00",
+  "fuentes": {
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "que_dibujaste",
+      "texto": "hay una persona dibujada",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "que_dibujaste",
+      "texto": "la persona tiene cara redonda",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "que_dibujaste",
+      "texto": "la persona tiene una leve sonrisa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "que_dibujaste",
+      "texto": "la persona tiene expresión serena",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a5",
+      "fuente": "que_dibujaste",
+      "texto": "el torso es un cubo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "que_dibujaste",
+      "texto": "el cubo del torso tiene aristas que se contradicen: una pasa por delante de otra que debería taparla",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "que_dibujaste",
+      "texto": "las piernas tienen forma de tridente imposible",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "que_dibujaste",
+      "texto": "arriba las piernas parecen dos piernas sólidas",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a9",
+      "fuente": "que_dibujaste",
+      "texto": "abajo las piernas terminan en tres pies redondos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "que_dibujaste",
+      "texto": "los brazos cuelgan a los costados",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a11",
+      "fuente": "que_dibujaste",
+      "texto": "la imposibilidad está en la geometría y no en algo monstruoso",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a12",
+      "fuente": "que_dibujaste",
+      "texto": "el dibujo produce una geometría que el ojo acepta un instante y después no puede sostener",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a13",
+      "fuente": "que_es",
+      "texto": "hay un torso dibujado como un cubo de alambre",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_es",
+      "texto": "las aristas del cubo se cruzan de modo que una arista trasera pasa por delante",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_es",
+      "texto": "hay piernas que siguen la lógica del tridente imposible",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_es",
+      "texto": "arriba de las piernas hay dos bloques rectangulares",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_es",
+      "texto": "abajo de las piernas hay tres cilindros con sus pies",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_es",
+      "texto": "no hay un punto donde se resuelva la transición entre los bloques y los cilindros",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_es",
+      "texto": "el cubo puede leerse como un simple cubo transparente si no se mira con atención el cruce",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_es",
+      "texto": "el fondo es color crema",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_es",
+      "texto": "los contornos son gruesos y de color azul oscuro",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_es",
+      "texto": "los colores usados son apagados: tono piel, gris y azul",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_es",
+      "texto": "no hay sombreado real",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_es",
+      "texto": "el estilo es plano y esquemático",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_es",
+      "texto": "el dibujo se lee a medio camino entre una ilustración de manual y un diagrama de ilusión óptica",
+      "tipo": "efecto"
+    }
+  ]
+}

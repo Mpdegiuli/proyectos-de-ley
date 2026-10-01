@@ -1,0 +1,276 @@
+{
+  "consigna": "libre",
+  "unidad": "mistral-medium-3.5_2",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T20:28:56+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32",
+        "a33",
+        "a34",
+        "a35",
+        "a36"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay un cielo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "hay un sol",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "hay nubes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "hay colinas verdes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "hay un árbol marrón",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "el árbol tiene tronco",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "el árbol tiene hojas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "el árbol tiene una ventana amarilla",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "por_que",
+      "texto": "el árbol tiene una cara sonriente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "por_que",
+      "texto": "hay un grupo de globos naranjas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a11",
+      "fuente": "por_que",
+      "texto": "los globos están flotando",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a12",
+      "fuente": "por_que",
+      "texto": "el dibujo es colorido",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a13",
+      "fuente": "por_que",
+      "texto": "el dibujo es alegre",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a14",
+      "fuente": "por_que",
+      "texto": "se usan círculos como formas básicas",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a15",
+      "fuente": "por_que",
+      "texto": "se usan elipses como formas básicas",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a16",
+      "fuente": "por_que",
+      "texto": "se usan paths como formas básicas",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a17",
+      "fuente": "por_que",
+      "texto": "el dibujo tiene capas: cielo, tierra y elementos",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a18",
+      "fuente": "por_que",
+      "texto": "los globos le dan un toque lúdico al dibujo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "hay un cielo azul con degradado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "hay un sol brillante en la esquina superior derecha",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "hay dos nubes esponjosas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "las nubes tienen efecto de difuminado",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "hay colinas verdes en capas en la parte inferior",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_dibujaste",
+      "texto": "hay un muñeco de nieve sonriente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_dibujaste",
+      "texto": "el muñeco de nieve tiene un sombrero marrón",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_dibujaste",
+      "texto": "el muñeco de nieve tiene ojos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_dibujaste",
+      "texto": "el muñeco de nieve tiene botones",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_dibujaste",
+      "texto": "el muñeco de nieve tiene una boca curvada",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_dibujaste",
+      "texto": "hay un grupo de cuatro calabazas naranjas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_dibujaste",
+      "texto": "las calabazas están al lado del muñeco de nieve",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_dibujaste",
+      "texto": "las calabazas funcionan como decoración otoñal",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_dibujaste",
+      "texto": "se usan formas simples",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_dibujaste",
+      "texto": "se usan degradados",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_dibujaste",
+      "texto": "se usan filtros",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a35",
+      "fuente": "que_dibujaste",
+      "texto": "el escenario parece festivo y colorido",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a36",
+      "fuente": "que_dibujaste",
+      "texto": "el lienzo es cuadrado de 400x400",
+      "tipo": "elemento"
+    }
+  ]
+}

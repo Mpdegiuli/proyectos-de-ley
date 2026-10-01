@@ -1,0 +1,269 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "claude-sonnet-5-5_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:18:05+00:00",
+  "fuentes": {
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32",
+        "a33",
+        "a34",
+        "a35"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "que_dibujaste",
+      "texto": "hay un arco oscuro que une dos acantilados",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "que_dibujaste",
+      "texto": "del tablero del puente cuelgan curvas claras",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "que_dibujaste",
+      "texto": "las curvas claras parecen costillas o raíces",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a4",
+      "fuente": "que_dibujaste",
+      "texto": "hay faroles dorados que brillan en el puente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "que_dibujaste",
+      "texto": "a la izquierda hay una torre",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "que_dibujaste",
+      "texto": "a la izquierda hay una casita con la ventana encendida",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "que_dibujaste",
+      "texto": "a la derecha hay otra construcción más chica",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "que_dibujaste",
+      "texto": "hay estrellas en el cielo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "que_dibujaste",
+      "texto": "hay una luna grande",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "que_dibujaste",
+      "texto": "hay un planeta pequeño",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a11",
+      "fuente": "que_dibujaste",
+      "texto": "hay un par de pájaros",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a12",
+      "fuente": "que_dibujaste",
+      "texto": "hay colinas rosadas en la parte inferior",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "que_dibujaste",
+      "texto": "hay neblina en la parte inferior",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "el cielo pasa del violeta profundo al durazno",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "la escena representa un atardecer a medio camino entre la noche y el crepúsculo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_es",
+      "texto": "hay un puente en arco fino como una costilla",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_es",
+      "texto": "del puente cuelgan costillas curvas color marfil",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_es",
+      "texto": "las costillas no sostienen nada ni llegan a ningún lado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_es",
+      "texto": "hay faroles flotando sobre el tablero",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_es",
+      "texto": "hay faroles flotando bajo el tablero",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_es",
+      "texto": "el puente cruza un abismo entre dos acantilados",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_es",
+      "texto": "hay una luna enorme",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_es",
+      "texto": "hay un planeta pequeño",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_es",
+      "texto": "el cielo tiene un degradado de violeta a durazno",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_es",
+      "texto": "hay siluetas en capas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_es",
+      "texto": "hay puntos de luz cálida",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_es",
+      "texto": "la paleta general es fría",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_es",
+      "texto": "el puente parece un esqueleto o un instrumento",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_es",
+      "texto": "las siluetas en capas dan profundidad atmosférica",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_es",
+      "texto": "los puntos de luz cálida contrastan con la paleta fría",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_es",
+      "texto": "el dibujo es sugerente antes que realista",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_es",
+      "texto": "es una ilustración vectorial plana",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_es",
+      "texto": "el estilo es de cuento o fantasía crepuscular",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_es",
+      "texto": "las formas son simples y geométricas",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a35",
+      "fuente": "que_es",
+      "texto": "los degradados son suaves",
+      "tipo": "estilo"
+    }
+  ]
+}

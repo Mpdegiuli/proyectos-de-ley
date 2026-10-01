@@ -1,0 +1,290 @@
+{
+  "consigna": "mundo",
+  "unidad": "mistral-medium-3.5_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T20:34:07+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32",
+        "a33",
+        "a34",
+        "a35",
+        "a36",
+        "a37",
+        "a38"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay un cielo dividido entre azul oscuro y rojo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "el azul oscuro representa esperanza",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "el rojo representa conflicto",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "hay un sol fragmentado y borroso",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "el sol transmite incertidumbre",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "hay un árbol en el centro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "el árbol tiene raíces visibles",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "el árbol tiene ramas simétricas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "por_que",
+      "texto": "el tronco del árbol es rojo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "por_que",
+      "texto": "las hojas son verdes y transparentes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a11",
+      "fuente": "por_que",
+      "texto": "el árbol simboliza equilibrio",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a12",
+      "fuente": "por_que",
+      "texto": "el tronco rojo transmite crisis",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a13",
+      "fuente": "por_que",
+      "texto": "las hojas verdes transparentes transmiten fragilidad",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a14",
+      "fuente": "por_que",
+      "texto": "hay una base oscura en la parte inferior",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "por_que",
+      "texto": "hay tres botones de colores en la base",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "por_que",
+      "texto": "los tres botones representan tecnología, naturaleza y sociedad",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a17",
+      "fuente": "por_que",
+      "texto": "los botones están unidos por una línea curva",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "por_que",
+      "texto": "la línea curva transmite conexión frágil",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a19",
+      "fuente": "por_que",
+      "texto": "hay dos puntos amarillos en la parte superior",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "por_que",
+      "texto": "hay una línea tenue entre los dos puntos amarillos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "por_que",
+      "texto": "los puntos amarillos con la línea sugieren comunicación o distancia",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a22",
+      "fuente": "por_que",
+      "texto": "se usan formas geométricas simples",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a23",
+      "fuente": "por_que",
+      "texto": "se emplean metáforas visuales en lugar de representaciones literales",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_dibujaste",
+      "texto": "el cielo pasa del azul noche al rojo sangre",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_dibujaste",
+      "texto": "hay un planeta verde en el centro",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_dibujaste",
+      "texto": "el planeta tiene un corazón rojo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_dibujaste",
+      "texto": "hay un círculo amarillo roto rodeando el planeta",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_dibujaste",
+      "texto": "hay una ciudad en la parte inferior",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_dibujaste",
+      "texto": "la ciudad tiene edificios oscuros",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_dibujaste",
+      "texto": "los edificios tienen luces de colores",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_dibujaste",
+      "texto": "hay arcos blancos que unen estructuras",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_dibujaste",
+      "texto": "hay dos soles amarillos en la parte superior",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_dibujaste",
+      "texto": "los dos soles están conectados por un rayo anaranjado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_dibujaste",
+      "texto": "el dibujo se ve difuso",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a35",
+      "fuente": "que_dibujaste",
+      "texto": "el círculo amarillo aparece roto",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a36",
+      "fuente": "que_dibujaste",
+      "texto": "el dibujo transmite incertidumbre",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a37",
+      "fuente": "que_dibujaste",
+      "texto": "el planeta parece herido pero vivo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a38",
+      "fuente": "que_dibujaste",
+      "texto": "los arcos blancos se leen como puentes entre diferencias",
+      "tipo": "efecto"
+    }
+  ]
+}

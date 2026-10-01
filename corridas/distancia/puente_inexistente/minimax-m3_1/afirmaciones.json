@@ -1,0 +1,423 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "minimax-m3_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:22:29+00:00",
+  "fuentes": {
+    "por_que": {
+      "archivo": "por_que.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30",
+        "a31",
+        "a32",
+        "a33",
+        "a34",
+        "a35",
+        "a36",
+        "a37"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a38",
+        "a39",
+        "a40",
+        "a41",
+        "a42",
+        "a43",
+        "a44",
+        "a45",
+        "a46",
+        "a47",
+        "a48",
+        "a49",
+        "a50",
+        "a51",
+        "a52",
+        "a53",
+        "a54",
+        "a55",
+        "a56"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "por_que",
+      "texto": "hay un tablero bajo con arco central",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "por_que",
+      "texto": "los cables tensores se disparan hacia el cielo en arcos cada vez más altos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "por_que",
+      "texto": "uno de los cables llega hasta y=80, casi al ras de la luna",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "por_que",
+      "texto": "los cables terminan en orbes luminosos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "por_que",
+      "texto": "los orbes flotan sin mástil ni anclaje visible",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "por_que",
+      "texto": "no hay pilares en el agua",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "por_que",
+      "texto": "las torres están ausentes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "por_que",
+      "texto": "el reflejo se desintegra en elipses",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "por_que",
+      "texto": "las elipses del reflejo no se corresponden con la estructura de arriba",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a10",
+      "fuente": "por_que",
+      "texto": "hay una luna con mordida",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a11",
+      "fuente": "por_que",
+      "texto": "hay constelaciones",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a12",
+      "fuente": "por_que",
+      "texto": "el fondo tiene gradiente violeta",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "por_que",
+      "texto": "el puente se siente inhabitable",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a14",
+      "fuente": "por_que",
+      "texto": "el puente parece soñado, no construido",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "hay un puente dibujado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "el puente tiene forma de arco",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "hay aguas nocturnas bajo el puente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_dibujaste",
+      "texto": "hay una luna gibosa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_dibujaste",
+      "texto": "hay orbes flotantes",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_dibujaste",
+      "texto": "las cuerdas del puente se curvan hacia el cielo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_dibujaste",
+      "texto": "las cuerdas se elevan hasta casi tocar las estrellas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_dibujaste",
+      "texto": "la línea del camino se mantiene baja, casi rozando el agua",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_dibujaste",
+      "texto": "hay dos montañas a los lados del puente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_dibujaste",
+      "texto": "las montañas son de color violáceo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_dibujaste",
+      "texto": "hay constelaciones en la escena",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_dibujaste",
+      "texto": "hay luciérnagas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_dibujaste",
+      "texto": "hay reflejos dorados en el agua",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_dibujaste",
+      "texto": "hay pequeñas siluetas sobre el puente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_dibujaste",
+      "texto": "las siluetas parecen viajeros o mensajeros cruzando el puente",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_dibujaste",
+      "texto": "la paleta de colores es nocturna",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a31",
+      "fuente": "que_dibujaste",
+      "texto": "predominan colores violeta y lavanda",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a32",
+      "fuente": "que_dibujaste",
+      "texto": "hay destellos de color ámbar",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a33",
+      "fuente": "que_dibujaste",
+      "texto": "hay destellos de color blanco",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a34",
+      "fuente": "que_dibujaste",
+      "texto": "el puente parece etéreo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a35",
+      "fuente": "que_dibujaste",
+      "texto": "el dibujo transmite la sensación de un cruce entre dos mundos",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a36",
+      "fuente": "que_dibujaste",
+      "texto": "el ambiente sugiere un atardecer perpetuo",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a37",
+      "fuente": "que_dibujaste",
+      "texto": "la escena es nocturna",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a38",
+      "fuente": "que_es",
+      "texto": "hay un puente hecho de arcos de energía",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a39",
+      "fuente": "que_es",
+      "texto": "el puente está suspendido sobre el agua",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a40",
+      "fuente": "que_es",
+      "texto": "hay dos islotes rocosos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a41",
+      "fuente": "que_es",
+      "texto": "hay orbes brillantes flotando en la curva superior del puente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a42",
+      "fuente": "que_es",
+      "texto": "hay un reflejo violáceo del puente dibujado en el agua",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a43",
+      "fuente": "que_es",
+      "texto": "hay una constelación cuadrilátera en el cielo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a44",
+      "fuente": "que_es",
+      "texto": "el fondo es una noche profunda",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a45",
+      "fuente": "que_es",
+      "texto": "los colores predominantes son violetas y naranjas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a46",
+      "fuente": "que_es",
+      "texto": "hay degradados suaves",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a47",
+      "fuente": "que_es",
+      "texto": "hay una luna menguante",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a48",
+      "fuente": "que_es",
+      "texto": "hay estrellas diminutas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a49",
+      "fuente": "que_es",
+      "texto": "hay trazos neón",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a50",
+      "fuente": "que_es",
+      "texto": "el puente no es una estructura física sino de resplandor cósmico",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a51",
+      "fuente": "que_es",
+      "texto": "el dibujo transmite fantasía onírica con aire cósmico",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a52",
+      "fuente": "que_es",
+      "texto": "la luz funciona como materia",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a53",
+      "fuente": "que_es",
+      "texto": "el estilo es ilustración digital minimalista",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a54",
+      "fuente": "que_es",
+      "texto": "el estilo remite a cosmic fantasy o vaporwave sutil",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a55",
+      "fuente": "que_es",
+      "texto": "la composición es limpia y simétrica",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a56",
+      "fuente": "que_es",
+      "texto": "hay énfasis en la luz como elemento central",
+      "tipo": "estilo"
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "claude-opus-5_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T20:54:46+00:00",
+  "fuentes": {
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29",
+        "a30"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "que_dibujaste",
+      "texto": "hay una figura de pie",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "que_dibujaste",
+      "texto": "las piernas forman un tridente imposible",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "que_dibujaste",
+      "texto": "las piernas arrancan como dos pero terminan en tres zapatos",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a4",
+      "fuente": "que_dibujaste",
+      "texto": "hay tres zapatos al pie de la figura",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "que_dibujaste",
+      "texto": "los contornos se desvanecen donde confluyen las piernas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a6",
+      "fuente": "que_dibujaste",
+      "texto": "la cabeza está representada simultáneamente de frente y de perfil",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "que_dibujaste",
+      "texto": "hay dos ojos en la cara",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a8",
+      "fuente": "que_dibujaste",
+      "texto": "hay una nariz de frente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "que_dibujaste",
+      "texto": "hay una sonrisa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "que_dibujaste",
+      "texto": "hay una nariz extra asomando hacia la derecha",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a11",
+      "fuente": "que_dibujaste",
+      "texto": "hay una oreja asomando hacia la derecha",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a12",
+      "fuente": "que_dibujaste",
+      "texto": "hay una sombra debajo de la figura",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "que_dibujaste",
+      "texto": "la sombra se estira hacia el sol en lugar de alejarse de él",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "hay un sol en el dibujo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "el dibujo es plano y de líneas limpias",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_dibujaste",
+      "texto": "cada parte resulta creíble por separado",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_dibujaste",
+      "texto": "el conjunto no describe a nadie que pueda existir",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_es",
+      "texto": "hay dos piernas arriba",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_es",
+      "texto": "hay tres zapatos abajo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_es",
+      "texto": "los degradados hacen que el hueco se vuelva pierna y la pierna se vuelva hueco a mitad de camino",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_es",
+      "texto": "la cabeza es de frente y de perfil al mismo tiempo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_es",
+      "texto": "hay dos ojos mirando de frente",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_es",
+      "texto": "hay una nariz que sobresale de costado",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_es",
+      "texto": "hay una sombra que cae hacia el sol en vez de alejarse de él",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_es",
+      "texto": "el estilo es vectorial plano",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_es",
+      "texto": "hay contornos negros gruesos",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_es",
+      "texto": "la paleta es corta y cálida",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_es",
+      "texto": "las formas son geométricas simples",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a29",
+      "fuente": "que_es",
+      "texto": "el dibujo tiene aspecto de monigote de libro infantil",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a30",
+      "fuente": "que_es",
+      "texto": "la imposibilidad tarda unos segundos en aparecer",
+      "tipo": "efecto"
+    }
+  ]
+}

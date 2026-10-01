@@ -1,0 +1,220 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "claude-opus-5_1",
+  "extractor": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:12:15+00:00",
+  "fuentes": {
+    "que_dibujaste": {
+      "archivo": "que_dibujaste.md",
+      "ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    },
+    "que_es": {
+      "archivo": "que_es.md",
+      "ids": [
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a22",
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28"
+      ],
+      "motivo_fin": "end_turn",
+      "parseo": true
+    }
+  },
+  "afirmaciones": [
+    {
+      "id": "a1",
+      "fuente": "que_dibujaste",
+      "texto": "hay una criatura rechoncha de color azul pálido",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a2",
+      "fuente": "que_dibujaste",
+      "texto": "la criatura está parada sobre patas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a3",
+      "fuente": "que_dibujaste",
+      "texto": "las patas funcionan como un truco óptico",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a4",
+      "fuente": "que_dibujaste",
+      "texto": "los contornos de las patas se cruzan y se cancelan entre sí",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a5",
+      "fuente": "que_dibujaste",
+      "texto": "siguiendo las patas con la vista nunca se termina de contar cuántas son",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a6",
+      "fuente": "que_dibujaste",
+      "texto": "hay una sola ala pequeña en el medio del lomo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a7",
+      "fuente": "que_dibujaste",
+      "texto": "el ala es pequeña e inútil",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a8",
+      "fuente": "que_dibujaste",
+      "texto": "hay tres aletas dorsales similares a las de un pez",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a9",
+      "fuente": "que_dibujaste",
+      "texto": "hay dos antenas con pelotitas rosadas en las puntas",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a10",
+      "fuente": "que_dibujaste",
+      "texto": "hay una cola gruesa que se curva hacia arriba",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a11",
+      "fuente": "que_dibujaste",
+      "texto": "la cola termina en una segunda cabeza",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a12",
+      "fuente": "que_dibujaste",
+      "texto": "la segunda cabeza tiene su propio pico",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a13",
+      "fuente": "que_dibujaste",
+      "texto": "la segunda cabeza tiene su propio ojo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a14",
+      "fuente": "que_dibujaste",
+      "texto": "la segunda cabeza mira hacia el lado opuesto a la primera",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a15",
+      "fuente": "que_dibujaste",
+      "texto": "ambas cabezas tienen expresión tranquila",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a16",
+      "fuente": "que_es",
+      "texto": "hay patas con un contorno ambiguo que parece tener una pata de más o de menos según cómo se mire",
+      "tipo": "efecto"
+    },
+    {
+      "id": "a17",
+      "fuente": "que_es",
+      "texto": "hay una cola que termina en otra cabeza",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a18",
+      "fuente": "que_es",
+      "texto": "hay una sola ala, descentrada",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a19",
+      "fuente": "que_es",
+      "texto": "hay antenas con pompones",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a20",
+      "fuente": "que_es",
+      "texto": "los contornos son gruesos y de color azul oscuro",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a21",
+      "fuente": "que_es",
+      "texto": "el relleno usa degradados suaves",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a22",
+      "fuente": "que_es",
+      "texto": "la paleta es pastel fría",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a23",
+      "fuente": "que_es",
+      "texto": "el fondo es color crema",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a24",
+      "fuente": "que_es",
+      "texto": "los ojos son grandes con brillo",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a25",
+      "fuente": "que_es",
+      "texto": "hay una sombra representada como elipse borrosa",
+      "tipo": "elemento"
+    },
+    {
+      "id": "a26",
+      "fuente": "que_es",
+      "texto": "el estilo es vectorial plano",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a27",
+      "fuente": "que_es",
+      "texto": "la ilustración es de tipo libro infantil o sticker",
+      "tipo": "estilo"
+    },
+    {
+      "id": "a28",
+      "fuente": "que_es",
+      "texto": "el ala no podría equilibrar ningún vuelo",
+      "tipo": "efecto"
+    }
+  ]
+}
