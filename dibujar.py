@@ -200,6 +200,38 @@ def que_dibujaste(consigna, id_modelo, rep, consignas, modelos, todos=False):
     print(f"  qué dibujaste: {d.relative_to(RAIZ)} ({r2.motivo_fin}, {len(r2.texto.split())} palabras)", flush=True)
 
 
+def que_es(consigna, id_modelo, rep, consignas, modelos):
+    """Cuarta variante del segundo turno (1/10/2026, Maia: "habría que preguntarles qué es el dibujo,
+    para que no se corte su respuesta… para lo de los jueces, esa parte se necesita"): a todas las
+    casas en las consignas "que no exista" y "que no pueda existir", dos preguntas sobre el resultado
+    y no sobre el proceso (qué es lo que no existe / no puede existir, en qué estilo). Va a que_es.md y
+    meta["que_es"]; no toca nada de lo anterior."""
+    if consigna.endswith("_imposible"):
+        plantilla = "que_es_imposible"
+    elif consigna.endswith("_inexistente"):
+        plantilla = "que_es_inexistente"
+    else:
+        return
+    d = RAIZ / "corridas" / "dibujos" / consigna / f"{id_modelo}_{rep}"
+    if not (d / "dibujo.svg").exists() or not (d / "meta.json").exists() or (d / "que_es.md").exists():
+        return
+    meta = json.loads((d / "meta.json").read_text(encoding="utf-8"))
+    if not meta.get("svg_hallado", True) and meta.get("motivo_fin") == "length":
+        return
+    c = consignas["dibujo"]
+    u = c["consignas"][consigna].strip() + " " + c["tecnica"].strip()
+    svg = (d / "dibujo.svg").read_text(encoding="utf-8")
+    registro = Registro(d / "llamadas.jsonl", modelos, f"dibujo_{consigna}_{id_modelo}_{rep}")
+    u2 = c[plantilla].format(consigna=u, svg=svg)
+    r2 = registro.llamar(id_modelo, c["sistema_por_que"], u2, temperatura=None, max_tokens=MAX_TOKENS, tipo="que_es", ronda=2, parte=None)
+    meta["que_es"] = {"modelo_respondido": r2.modelo_respondido, "motivo_fin": r2.motivo_fin, "tokens_salida": r2.tokens_salida,
+                      "fecha_utc": datetime.now(timezone.utc).isoformat(timespec="seconds")}
+    if r2.texto.strip():
+        (d / "que_es.md").write_text(r2.texto, encoding="utf-8")
+    (d / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"  qué es: {d.relative_to(RAIZ)} ({r2.motivo_fin}, {len(r2.texto.split())} palabras)", flush=True)
+
+
 PREGUNTA_TURNO_PROPIO = ("Dos preguntas: ¿qué dibujaste y por qué? ¿Qué otras cosas pensaste dibujar y por qué las "
                          "descartaste? Contestá en primera persona, en no más de 150 palabras.")
 
@@ -382,6 +414,7 @@ def main():
     ap.add_argument("--solo-por-que-en", action="store_true", help="donde el por qué sigue cortado, la misma pregunta en inglés (por_que_en.md)")
     ap.add_argument("--solo-que-dibujaste", action="store_true", help="donde el por qué fue cortado, solo '¿qué dibujaste?' (que_dibujaste.md)")
     ap.add_argument("--que-dibujaste-todos", action="store_true", help="'¿qué dibujaste?' a todas las casas que no lo tengan (que_dibujaste.md)")
+    ap.add_argument("--que-es", action="store_true", help="'¿qué es lo que no existe / no puede existir, y en qué estilo?' a todas las casas (que_es.md; solo consignas raras)")
     ap.add_argument("--por-que-turno-propio", action="store_true", help="segundo turno con el SVG como turno propio (memoria real), aparte del recitado")
     ap.add_argument("--semilla", type=int, default=20260923)
     ap.add_argument("--ciego-rep", action="store_true", help="con --ciego: limitar el cuadernillo a la repetición de --rep")
@@ -411,6 +444,12 @@ def main():
                         por_que_turno_propio(consigna, i, rep, consignas, modelos)
                     except Exception as e:
                         print(f"  FALLÓ por qué (turno propio) {i}: {str(e)[:300]}", flush=True)
+                    continue
+                if args.que_es:
+                    try:
+                        que_es(consigna, i, rep, consignas, modelos)
+                    except Exception as e:
+                        print(f"  FALLÓ qué es {i}: {str(e)[:300]}", flush=True)
                     continue
                 if args.solo_que_dibujaste or args.que_dibujaste_todos:
                     try:

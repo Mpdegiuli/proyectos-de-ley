@@ -1359,3 +1359,23 @@ castellano, el inglés destrabó 2 (Fable 5.1 en el animal que no exista y en
 el puente); 22 siguen cortados. En la casa y la persona había sido 8 de 16.
 El "qué dibujaste" de Sonnet 5.5 en el barco, repetido una vez, contestó:
 144 de 144.
+
+## "¿Qué es lo que no existe, y en qué estilo?" a las casas en las consignas raras — 1/10/2026, antes de correr
+
+Idea de Maia (1/10, 17:25 UTC): "en lo de los por qué, habría que
+preguntarles qué es el dibujo, para que no se corte su respuesta"; y para
+la distancia, "para lo de los jueces, esa parte se necesita, sino es solo el
+dibujo, no pueden comparar". Cuarta variante del segundo turno
+(`que_es_inexistente` / `que_es_imposible`, `--que-es`): a las 24 casas en
+las ocho consignas raras (casa, persona y animal que no existan; persona y
+animal que no puedan existir; puente, árbol y barco que no existan), dos
+preguntas sobre el resultado y no sobre el proceso: qué es lo que no existe
+(o no puede existir) en lo que dibujaste, y en qué estilo está dibujado. 192
+llamadas cortas (más Qwen rep 2 en la casa y Gemini rep 2 en la persona).
+Predicción de Maia, implícita: contestan, no se corta. Predicción de Claude:
+(a) de los 22 turnos que siguen cortados en los dos idiomas, contestan 20 o
+más; (b) en las 192, ninguna "reserva de memoria" ("no tengo registro"),
+porque no se pregunta por el proceso; (c) el estilo lo nombran casi todas
+con una palabra de catálogo: "ilustración plana" o "flat", "vectorial",
+"caricatura" o "cartoon", "de cuento" o "infantil", en 150 o más de 192; (d)
+Fable 5.1, en el barco, dice "cuento" o "infantil" (lo que Maia vio).

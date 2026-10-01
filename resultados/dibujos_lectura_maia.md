@@ -2454,3 +2454,16 @@ Hoy en la tarea de Tiempo Libre escribieron sobre las lunas, entiendo que
 quedó en el drive, no sé si lo podés ver. Duda con eso: es más fácil en SVG
 dibujar primero un círculo oscuro y adentro una luna? No es más fácil
 directamente la medialuna? O el círculo se precisa para medir?"
+
+## 1/10/2026, 17:24 a 17:31 UTC
+
+"lo de la luna que queda solo el círculo negro, está en el R de GPT Luna en
+animales que no pueden existir. No sé si fue deliberado." (Es el par R, el
+animal que no exista de Luna: un disco al 8 % de opacidad, deliberado, sin
+mencionar en la descripción.)
+
+"y en lo de los por qué, habría que preguntarles qué es el dibujo, para que
+no se corte su respuesta"
+
+"se podría, supongo que es muy corto. Para lo de los jueces, esa parte se
+necesita, sino es solo el dibujo, no pueden comparar"

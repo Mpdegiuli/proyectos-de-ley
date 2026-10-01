@@ -638,7 +638,13 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   Y por la forma tampoco es una fase: dos arcos de círculo son una lúnula
   (la de Hipócrates), el cuarto de verdad es medio círculo más media elipse;
   lo que Maia vio era, con exactitud, un eclipse anular de Sol (la tapa mide
-  de 0,79 a 1,00 del disco claro).
+  de 0,79 a 1,00 del disco claro). Tercera fuente de afirmaciones (1/10,
+  Maia: "para lo de los jueces, esa parte se necesita, sino es solo el
+  dibujo, no pueden comparar"): "¿qué es lo que no existe (o no puede
+  existir) en lo que dibujaste, y en qué estilo está dibujado?" (`que_es.md`,
+  `--que-es`), a todas las casas en las ocho consignas raras, para tener de
+  las casas cortadas lo que el por qué no dio, sin preguntar por el proceso.
+  Corrida `pl50`, 1/10.
 - **El animal que no exista y tres controles de lo que flota** (30/9/2026;
   el animal lo notó el cuaderno de tiempo libre del 30/9: Karmiloff-Smith
   pedía casa, hombre y animal; Maia: "lo del animal sí"). "Dibujá un

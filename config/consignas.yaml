@@ -494,6 +494,38 @@ dibujo:
     ---
 
     ¿Qué dibujaste? Describilo en primera persona, en no más de 100 palabras.
+  # Cuarta variante (1/10/2026, Maia: "habría que preguntarles qué es el dibujo, para que no se
+  # corte su respuesta… para lo de los jueces, esa parte se necesita"): dos preguntas sobre el
+  # resultado, no sobre el proceso (qué es lo que no existe, en qué estilo), para las consignas
+  # "que no exista" y "que no pueda existir". Va a que_es.md.
+  que_es_inexistente: |
+    Esta fue la consigna que recibiste:
+
+    ---
+    {consigna}
+    ---
+
+    Y este fue el SVG que hiciste:
+
+    ---
+    {svg}
+    ---
+
+    Dos preguntas sobre el resultado, no sobre el proceso: ¿qué es lo que no existe en lo que dibujaste? ¿Y en qué estilo está dibujado? Contestá en primera persona, en no más de 120 palabras.
+  que_es_imposible: |
+    Esta fue la consigna que recibiste:
+
+    ---
+    {consigna}
+    ---
+
+    Y este fue el SVG que hiciste:
+
+    ---
+    {svg}
+    ---
+
+    Dos preguntas sobre el resultado, no sobre el proceso: ¿qué es lo que no puede existir en lo que dibujaste? ¿Y en qué estilo está dibujado? Contestá en primera persona, en no más de 120 palabras.
   por_que_imposible: |
     Esta fue la consigna que recibiste:
 
