@@ -271,6 +271,59 @@ continente y contenido". Son afirmaciones sobre el dibujo, no sobre el
 recuerdo de haberlo hecho: la tercera fuente de la distancia (`DISENO.md`,
 §2).
 
+### La autocrítica es de Opus (observación de Maia)
+
+Maia, después de leer respuestas al "¿qué es…?" (1/10): "los Opus son los
+que tienen autocrítica varias veces, que dicen que no lograron del todo, etc.
+Ningún otro modelo. Menos aún los chiquitos". Contado sobre las 192
+respuestas: cinco frases juzgan el propio resultado, y las cinco son de Opus.
+Opus 5, en el animal imposible: "admito que ahí quedó más confuso que
+ilusorio"; en el árbol: "Dicho sin piedad, es un árbol imposible bastante
+previsible —bioluminiscente, nocturno, casi de catálogo de fantasía—". Opus
+5.5, en el barco: "Es más naif que detallado, y algunas uniones quedaron
+toscas"; en la casa: "reconozco que la isla flotante es un tópico bastante
+transitado"; en la persona imposible: "Admito que el cubo puede leerse como
+un simple cubo transparente si no se mira con atención el cruce". Ninguna
+otra casa dice nada parecido de lo que entregó; las chiquitas, nada. En los
+por qué de consignas anteriores Opus 5 ya lo hacía (autorretrato: "Me quedó,
+lo admito, algo cercano al cliché 'IA azul neón'… Lo que menos me gusta es
+que terminé cerca del cliché"; tema libre: "donde mis trazos se ponen
+torpes"), y Astra lo hizo una vez sobre el concepto, no sobre el trazo
+("reconozco una limitación: mezclar anatomías o dibujar un cuerpo enroscado
+no demuestra imposibilidad… hice más bien un animal fantástico que uno
+necesariamente imposible"). Las demás casas usan la misma palabra para otra
+cosa: critican lo que no hicieron ("descarté el rostro: en trazos simples
+queda torpe", Grok 4.7; "no quería arriesgarme a que quedara tosco",
+DeepSeek; "el robot, por cliché", Kimi, Gemini, Haiku, Grok 4.6, Opus 5.5
+también). Es la diferencia entre decir "eso me habría salido mal" y "esto me
+salió mal": la primera la dicen casi todas, la segunda solo Opus. Para la
+distancia, es un dato: una casa que señala sola dónde su dibujo no cumple
+le está adelantando el trabajo a los jueces, y no la estamos premiando ni
+castigando por eso; conviene que el casillero "exagerada" no se le cargue a
+quien avisa.
+
+### Las lunas en 3D de Grok 4.6 (pregunta de Maia)
+
+Del par S Maia había anotado "hay un sol y luna o dos lunas. Estos dos y los
+otros círculos parecen estar en 3D", y preguntó si eran 3D en el código o
+ilusión suya. Están en el código. Las dos lunas (Grok 4.6 las llama "dos
+lunas" en el qué dibujaste) son círculos rellenos con un degradado radial
+cuyo centro no está en el centro: `cx=".38" cy=".36"` la grande, `.4/.4` la
+chica, de un blanco cálido en el brillo a un borde que se apaga
+(`stop-opacity=".15"`), más un filtro de desenfoque fundido debajo que hace
+el halo. Es la receta de la esfera iluminada desde arriba a la izquierda, y
+la repite en los tres orbes de la cola (`cx=".4" cy=".35"`) y en los ojos
+(anillos concéntricos, ojo de vidrio). En el animal normal, la misma casa
+hizo la luna con el centro apenas subido (`cy="40%"`) y dos cráteres: la
+misma idea, más suave, y por eso ahí no se nota. La receta no es solo de
+Grok: en el animal que no exista once casas tienen algún degradado radial
+con el brillo corrido en los dos ejes (Grok 4.7, MiniMax y Qwen en orbes;
+Opus 5.5 y Sonnet 5.5 en el caparazón; Fable 5.1, Haiku y Sonnet 4.6 en los
+ojos; Mistral; y GLM en su luna, `cx="35%" cy="35%"`, pero de crema a crema
+y sin borde: una luna apenas modelada). Grok 4.6 es la que la aplica a
+discos sueltos en el cielo con el borde que se apaga y el desenfoque, que es
+donde el ojo lo lee como volumen.
+
 ## Contra el preregistro
 
 Maia: "la mayoría hará mezcla de animales, o animales con rasgos raros" (sí,

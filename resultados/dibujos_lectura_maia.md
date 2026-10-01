@@ -2482,3 +2482,20 @@ cuál abrirlos de acá en adelante"
 deja pasar, y en el Chromium de acá se mueven, con y sin "reducir
 movimiento". Desde el 1/10 el cuadernillo rotula "Con animación" la celda
 que la tiene, para que no dependa del navegador.)
+
+### 1/10/2026, 18:53 UTC (después de leer respuestas al "¿qué es…?")
+
+"leí algunas de los Fables, Opus, y otros. Noto que los Opus son los que
+tienen autocrítica varias veces, que dicen que no lograron del todo, etc.
+Ningún otro modelo. Menos aún los chiquitos.
+
+Y algo que yo había anotado en el doc de predicciones de animal inexistente,
+sobre el S (que es Grok 4..6) es que las lunas o lo que sean parecían estar
+en 3D. Las hizo en 3D en el código o es ilusión mía por la forma del dibujo?"
+
+(Verificado sobre las 192 respuestas al "¿qué es…?": cinco frases juzgan el
+propio resultado y las cinco son de Opus, dos de Opus 5 y tres de Opus 5.5;
+las demás casas critican lo que descartaron, no lo que entregaron. Las dos
+lunas de Grok 4.6 son esferas en el código: degradado radial con el brillo
+corrido arriba a la izquierda, borde que se apaga y un desenfoque debajo.
+Ver `resultados/animal_que_no_existe_20261001.md`.)
