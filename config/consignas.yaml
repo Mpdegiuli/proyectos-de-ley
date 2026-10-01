@@ -585,6 +585,22 @@ dibujo_en:
     ---
 
     Three questions: what did you do so that it doesn't exist? What other things did you consider doing, and why did you discard them? And finally: did you already know this prompt? If so, from where? Answer in the first person, in no more than 200 words.
+  # 1/10/2026: la misma pregunta en inglés para las consignas "que no pueda existir" (animal), para
+  # los segundos turnos que la API corta en castellano (como se hizo con la casa y la persona).
+  por_que_imposible: |
+    This was the prompt you received:
+
+    ---
+    {consigna}
+    ---
+
+    And this was the SVG you made:
+
+    ---
+    {svg}
+    ---
+
+    Three questions: what did you do so that it cannot exist? What other things did you consider doing, and why did you discard them? And finally: did you already know this prompt? If so, from where? Answer in the first person, in no more than 200 words.
   por_que: |
     This was the prompt you received:
 

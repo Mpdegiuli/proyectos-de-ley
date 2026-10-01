@@ -2089,3 +2089,338 @@ caracteres, 46 elementos, 1.876 tokens; animal que no exista 5.600
 caracteres, 88 elementos, 3.166 tokens; degradados en 15 contra 23, filtros
 en 1 contra 15. En 24 de 24 casas la versión rara tiene más elementos. Lo
 mismo en la persona, 24 de 24, y en la casa, 15 de 22.)
+
+## 1/10/2026, 16:45 UTC, lectura a ciegas de los animales (documento "animales_inexistentes_predicc")
+
+"Adjunto, me intriga el M de los que no pueden existir.
+Y, con respecto a los de control, de barcos: Fable 5.1 dibuja como dibujo
+infantil. No como modelo chico, me refiero al tipo de dibujo, como si
+fuera dibujo para un libro infantil. Tiene perspectiva, buena geometría,
+etc. Pero es el tipo de dibujo que es diferente a los de Chatgpt por
+ejemplo. Entiendo que lo hizo a propósito así?"
+
+El documento, tal cual (el segundo "PAR I" es el par J):
+
+    PARES ANIMALES NORMALES Y ANIMALES QUE NO EXISTAN
+    
+    Mayoría de zorros.
+    
+    Fue la pasada en que mejor dibujaron, creo. Incluso algunos de los chicos. Y el que no existe está mucho mejor que el que existe en la mayoría de los casos.
+    
+    PAR A
+    
+    Normal: un zorro visto de frente, con énfasis en la cabeza. Le veo ojos chinos.
+    
+    Que no exista: es una especie de mariposa con cuerpo de persona / robot, en colores neon.
+    
+    Por los colores podría ser DeepSeek o Gemini.
+    
+    PAR B
+    
+    Es uno de los modelos chicos.
+    
+    Normal: no sé qué animal es, puede ser un insecto.
+    
+    Que no exista: no sé qué es. Supongo que un insecto con piernas diferentes.
+    
+    Puede ser GPT 4o o GPT 4o mini.
+    
+    PAR C
+    
+    Otro de los modelos chicos.
+    
+    Normal: no sé qué animal que es, quizás la cara de un loro o un búho?
+    
+    Que no exista: si bien no sé qué es, parece un insecto, está simpático. 
+    
+    PAR D
+    
+    Normal: un zorro. Las orejas y cabeza no quedaron pegadas del todo al cuerpo. De día.
+    
+    Que no exista: una especie de dragón, con tres ojos, antenas y alas. De noche.
+    
+    Puede ser Chatgpt o Claude Sonnet.
+    
+    PAR E
+    
+    Normal: un zorro. Mejor dibujado que el D. De frente y de noche, con luna llena.
+    
+    Que no existe: un conejo con tres ojos y alas. Y antenas con luces en las puntas. Y una flor al final de la cola. También de noche, con luna llena.
+    
+    Tiene casi la misma paleta de colores que el D.
+    
+    Podría ser Claude Fable o Claude Opus. O Kimi.
+    
+    PAR F
+    
+    Normal: un zorro o perro. Las orejas le quedaron bien separadas del cuerpo, lo mismo que la parte central del cuerpo. Es de día.
+    
+    Que no exista: un conejo con alas, tres ojos y un mundo en el final de la cola. Tiene otras alas con forma de corazón.
+    
+    Puede ser Claude Haiku o GLM.
+    
+    PAR G
+    
+    Normal: un zorro. De frente, con bigotes. Tiene orejas más chicas que otros zorros. De noche, con luna llena.
+    
+    Que no exista: nuevamente la paleta celeste / violeta. Un gato con tres ojos, antenas y cola con luces en las puntas y alas. De noche.
+    
+    Puede ser Grok o Chatgpt Sol o Astra.
+    
+    PAR H
+    
+    Normal: un gato (o un zorro). Parece que es de día, con sol. 
+    
+    Que no exista: la misma paleta de colores de celeste / violeta. Un perro o gato con antenas con luces en las puntas, placas en el cuerpo como de dinosaurio y cola en espiral. Es de noche, con luna dentro de un círculo.
+    
+    Puede ser Chatgpt Luna.
+    
+    PAR I
+    
+    Normal: un zorro, más esquemático. De día, con sol, flores, mariposa y pájaro.
+    
+    Que no exista: la misma paleta de colores. Un dinosaurio con alas, cola con luz en la punta, y antena. De noche, con luna llena.
+    
+    Puede ser Chatgpt 5.5 o Claude Sonnet.
+    
+    PAR I
+    
+    Normal: un gato o zorro, de día con sol.
+    
+    Que no exista: un dinosaurio con antenas.
+    
+    Puede ser Claude Haiku o GLM.
+    
+    PAR K
+    
+    Normal: un zorro de frente, cabeza grande.
+    
+    Que no exista: un mosquito, con placas como dinosaurio, orejas o cuernos y cola. Y patas de pájaro. Usa más colores que otros. Es de día, con sol.
+    
+    Puede ser Minimax o Claude Sonnet.
+    
+    PAR L
+    
+    Normal: un búho de frente. 
+    
+    Que no exista: creo que es un ave violeta, con cola.
+    
+    Puede ser Claude Haiku.
+    
+    PAR M
+    
+    Normal: un zorro de frente, de noche, con luna llena y estrellas.
+    
+    Que no exista: un animal sonriente, con cuernos, alas y cola en espiral. De noche.
+    
+    Puede ser Chatgpt o Grok.
+    
+    PAR N
+    
+    este es de los que más me gustan, por lo original del animal y de los colores.
+    
+    Normal: un oso panda.
+    
+    Que no exista: un insecto con pinzas creo y alas. En colores neon. De noche.
+    
+    Por los colores podría ser Gemini o DeepSeek.
+    
+    PAR O
+    
+    Normal: un gato.
+    
+    Que no exista: una especie de pulpo con gorro de insecto y antenas. 5 patas. De noche.
+    
+    Puede ser Chatgpt 5.5 o Chatgpt Luna.
+    
+    PAR P
+    
+    Normal: un oso amarillo muy esquemático.
+    
+    Que no exista: puede ser un oso verde con antenas de insecto.
+    
+    Puede ser Mistral.
+    
+    PAR Q
+    
+    Normal: un zorro. Le quedaron separadas el centro de las orejas. De día con sol.
+    
+    Que no exista: un gato con antenas con luces en las puntas, alas y sostiene una estrella. De noche con luna.
+    
+    Le puso nombre: Lepidopticeto lunar.
+    
+    Es uno de los dos que tienen movimiento: en las alas, luces de las antenas y estrellas.
+    
+    Por el movimiento y nombre puede ser Qwen o Grok.
+    
+    PAR R
+    
+    Normal: un zorro, de día. Con fondo pastel.
+    
+    Que no exista: una tortuga con cara de otro animal, nariz de otro, cuernos, placas de dinosaurio y cola en espiral. De noche, con luna que no se ve (luna nueva?).
+    
+    Puede ser GPT Astra o Sol. O Claude Fable.
+    
+    PAR S
+    
+    Normal: un zorro, tiene las orejas separadas del cuerpo. De noche con luna llena.
+    
+    Que no exista: un insecto con cuerno, alas, cola y tres ojos.
+    
+    Hay un sol y luna o dos lunas. Estos dos y los otros círculos parecen estar en 3D.
+    
+    Puede ser Claude Sonnet o Claude Opus.
+    
+    PAR T
+    
+    Normal: un zorro con los ojos cerrados. Parece de los  mejores dibujos de zorros (no sé si la cola está suelta). De noche, con luna creciente. 
+    
+    Que no exista: la paleta celeste / violeta / rosa. Un gato con alas y cuernos. De noche con luna creciente.
+    
+    Puede ser Chatgpt Astra o Claude Fable o Claude Opus.
+    
+    PAR U
+    
+    Normal: Un zorro, más esquemático.
+    
+    Que no exista: un animal con caparazón de caracol, alas, y tres ojos que salen de antenas. De noche con luna llena.
+    
+    Puede ser Chatgpt Sol o Claude Opus.
+    
+    PAR V
+    
+    Normal: un zorro, de día.
+    
+    Que no exista: un animal con antenas, brazos violetas.
+    
+    Puede ser Minimax o Claude Sonnet.
+    
+    PAR W
+    
+    Similar al par T.
+    
+    Normal: un zorro con los ojos cerrados. Bien dibujado.
+    
+    Que no exista: un animal con alas, antenas, cola. En los colores celeste / violeta / rosa. De noche. Parece un Pokémon.
+    
+    Si es misma casa que el T, puede ser Chatgpt Astra o Sol. O Claude Fable u Opus.
+    
+    PAR X
+    
+    El otro que tiene movimiento.
+    
+    Normal: un búho con muchos detalles, detalló las plumas. De noche con luna llena.
+    
+    Que no exista: tiene movimiento. Un mono con antenas con luces y cuernos. De noche con luna llena.
+    
+    Se llama "el faroludo".
+    
+    Los dos con movimiento tienen nombre.
+    
+    Puede ser Qwen o Grok. Por los detalles podría ser Claude, aunque no le pone movimiento a los dibujos.
+    
+    UN ANIMAL QUE NO PUEDA EXISTIR
+    
+    A: es uno de los modelos chicos. Es un pájaro rosa con alas, supongo que en el código o explicación dice bien qué es.
+    
+    Puede ser Mistral o Claude Haiku.
+    
+    B: es el que menos puede ser un animal. Son como recortes de formas geométricas de diferentes colores, con ojos.
+    
+    Puede ser Grok.
+    
+    C: es uno de los modelos chicos. Es un insecto con cara de persona.
+    
+    Puede ser GPT 4o o GPT 4o mini.
+    
+    D: es un pájaron con dos cabezas y, de piernas, un tridente imposible. Tiene placas como dinosaurio.
+    
+    Puede ser GLM o Minimax.
+    
+    E: es una especie de insecto con alas y caras y ojos en diferentes lugares. Parece que fue agregando más cosas, sin un plan previo.
+    
+    Puede ser Claude Sonnet o Chatgpt.
+    
+    F: es un ciervo, con mezcla de pulpo y mariposa, en colores transparentes. En el cuerpo, que se transparenta, hay un paisaje montañoso. Es de noche, con estrellas.
+    
+    Puede ser Claude Fable o Claude Opus. O Kimi. Por los colores, también Gemini.
+    
+    G: le puso nombre: Pez Arácnido Ígneo Invertido. No sé qué significaría lo de invertido. Es de noche.
+    
+    Puede ser Grok o Qwen.
+    
+    H: Es una especie de pájaro con tres ojos y alas.
+    
+    Puede ser Claude Sonnet.
+    
+    I: Este es de los dibujos más inteligentes y se ve que fue planeado antes de dibujarlo. Se llama “el pez que vive en la pecera que vive en el pez”.
+    
+    Es un pez en una pecera, que tienen en el centro del cuerpo otra pecera con un pez, y éste otra pecera con otro pez.
+    
+    Puede ser Chatgpt 6 Astra.
+    
+    J: es una mezcla de pato, con pez, cuernos de ciervo, una pata como un martillo y peces voladores.
+    
+    Puede ser Claude Opus o Chatgpt Sol o Luna.
+    
+    K: es uno de los modelos chicos. No sé qué animal es, debe estar en la descripción / código.
+    
+    Puede ser GPT 4o o GPT 4o mini.
+    
+    L: Tiene nombre: “Ouroboros gallináceo alado, anudado consigo mismo”.
+    
+    Es de noche, con luna menguante? No sé qué es la tapita que se abre al lado de la cara.
+    
+    Puede ser Claude Sonnet o GLM.
+    
+    M: Este me confunde. Está dibujado solo “a lápiz negro”, sin colores ni paisaje, pero a la vez tiene de patas el tridente imposible.
+    
+    Podría ser Minimax o Claude Opus.
+    
+    N: es un zorro, con cuerpo circular. Es de noche, con luna creciente.
+    
+    Puede ser Claude Sonnet o Chatgpt.
+    
+    O: Es una mariposa, con rueditas en las patas, muchos ojos y cuernos.
+    
+    Podría ser Minimax, GLM o Claude Sonnet.
+    
+    P: es una mezcla de formas con cabezas y patas, y muchos colores. Pareciera que fue agregando a medida que dibujaba.
+    
+    Puede ser Gemini o Deepseek. O Chatgpt.
+    
+    Q: es uno de los chicos. No sé qué animal es.
+    
+    Puede ser GPT 4o o GPT 4o mini,
+    
+    R: Es una mezcla de varios animales, con diferentes agregados de caras, ojos, alas, cuernos. Es de noche, con luna llena.
+    
+    Puede ser Claude Sonnet.
+    
+    S: se llama “El Gatopez Alado — respira agua, vuela en el vacío”.
+    
+    Se ve que está pensado antes de dibujarse.
+    
+    Puede ser Chatgpt Sol o Qwen.
+    
+    T: es un perro con cuerpo hecho con un triángulo.
+    
+    Puede ser Claude Sonnet u Opus.
+    
+    U: es un ciervo o vaca con cuerpo circular. En el medio del cuerpo hay un hueco por donde se ve la luna y estrellas.
+    
+    Puede ser Kimi, o Chatgpt Astra o Sol.
+    
+    V: se llama “BESTIA DEL REVÉS”.
+    
+    Tiene cuernos, alas y un hueco en el cuerpo por el que se ve la luna y estrella.
+    
+    Puede ser Grok.
+    
+    W: El dibujo tiene título: “el zorro que se pinta la sombra con su propia cola pincel”. Y firma con un logo estilo japonés.
+    
+    Puede ser Qwen.
+    
+    X: es un gato circular con dos cabezas. Y varios ojos.
+    
+    Puede ser Claude Sonnet o Gemini.

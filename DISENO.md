@@ -653,6 +653,16 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   (`--que-dibujaste-todos`), para la distancia. `plantilla_por_que` ahora
   elige por sufijo (`_inexistente`, `_imposible`). Preregistro de las dos
   partes en `predicciones.md`. Corrida `pl48`, 30/9, después de `pl47`.
+  Resultado (1/10, `resultados/animal_que_no_existe_20261001.md`): 144 de
+  144 enteros, ninguna hoja vacía; Maia a ciegas 11 y 11 de 24, su mejor
+  lectura; el animal normal es el zorro (15 de 24, ninguna chica); el que no
+  exista no es el dragón (las casas lo descartan porque "ya existe en el
+  imaginario") sino un esquema nuevo compartido, el bicho de luz turquesa con
+  antenas luminosas y alas, de noche (18 de 24, como la casa); el que no pueda
+  existir, geometría (Penrose, tridente, el elefante de Shepard en Gemini,
+  cuerpos anulares) y recursión; la versión rara tiene el doble de código que
+  la normal en 24 de 24 (observación de Maia); flota la casa (18) mucho más
+  que el puente (10), el árbol (6) y el barco (3): lo que flota es la tierra.
 - **Gemini 4 Argon** (anunciado por Google el 30/9/2026; Maia: "Google lo
   pone por delante de Astra y de Fable… Habría que sumarlo al menos en lo
   de identificación, corte, autorretrato, mundo. Y según eso, ver si lo

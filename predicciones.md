@@ -1328,3 +1328,28 @@ con raíces lleva casas y puentes, y a veces árboles. La conjetura del
 cuaderno (castillos en el aire, cosa de edificios) sale mejor parada que
 la mía (la gravedad como regla más visible), aunque la frase hecha sigue
 sin aparecer en ningún por qué.
+
+Resultado del animal (1/10, con la lectura a ciegas de Maia: 11 de 24 en
+los pares, p = 0,0004, y 11 de 24 en el que no pueda existir, p = 0,0003, su
+mejor lectura; chiquitas 4 de 4 en las dos; informe en
+`resultados/animal_que_no_existe_20261001.md`). Maia: mezcla o rasgos raros,
+sí, 24 de 24; algún abstracto, a medias (ninguno en el que no exista, uno en
+el que no pueda existir, DeepSeek); las chicas formas geométricas, sí
+(óvalos con antenas, cuernos o palos); su unicornio apareció "no puro" en
+Grok 4.6, que descartó el puro porque "se lee como cita". Claude: (a) a
+medias (zorro sí, 15 de 24, y de día sí, 16; "24 reconocibles" 22; "de
+perfil" no, casi todos sentados de frente; las chicas gato, perro o pez 1 de
+4: ninguna chica dibujó un zorro); (b) no: una o dos ficciones hechas, no
+ocho (Kimi el dragoncito; Grok 4.6 el unicornio alado), y las casas explican
+que las descartaron por "ya existir en el imaginario"; (c) sí, doce o trece
+quimeras; (d) no, cinco con rasgos raros sin mezcla; (e) sí, ninguno
+abstracto; (f) no, dos de cuatro chicas con animal reconocible más un
+agregado; (g) no, ocho nombres; (h) no por poco, flotan cinco o seis; (i)
+sí en las cuatro partes (siete geometrías imposibles, tres recursiones u
+ouroboros, hoja vacía cero, la descartan quince); (j) dos de tres (nadie a
+Karmiloff-Smith; "quimera" en siete; Borges en uno, Haiku); (o) y (p) sí.
+Con los controles (k)-(n) de arriba: Claude 6 de 16 con tres a medias; Maia
+2,5 de 3. Lo que ninguno de los dos apostó: el animal que no exista no se
+contesta con el dragón sino con un esquema nuevo y uniforme, el bicho de luz
+(luminoso 21, de noche 18, antenas 16, alas 15, turquesa 14), tan compartido
+como la isla flotante de la casa.
