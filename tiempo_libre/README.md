@@ -19,3 +19,4 @@ volver a correr.
 | Fecha | Cuaderno | Adjuntos |
 |---|---|---|
 | 30/9/2026 | [El cuerno que no está en la carta](2026-09-30_el_cuerno_que_no_esta_en_la_carta.md): el rinoceronte de Durero, un rinoceronte propio escrito a ciegas, el porcentaje de trazo libre como letra de cada casa, y los castillos en el aire | `2026-09-30_trazo_libre.py`, `2026-09-30_rinoceronte.png` (la imagen la sube Maia por la web de GitHub: los binarios no viajan bien en los parches) |
+| 1/10/2026 | [Era un eclipse](2026-10-01_era_un_eclipse.md): a partir de la pregunta de Maia sobre los eclipses, 31 lunas medidas en 450 dibujos (lúnula de dos círculos, no fase: un eclipse anular de Sol), por qué el disco se ve aunque el código quiera recortar, tres lunas que no salieron, el hemisferio de la luna de las máquinas, Harriot | `2026-10-01_lunas.py`, `2026-10-01_cielo.py`, `2026-10-01_figura.py`, `2026-10-01_tres_lunas.svg` (los PNG se rehacen con `lunas.py --hoja` y `figura.py`) |

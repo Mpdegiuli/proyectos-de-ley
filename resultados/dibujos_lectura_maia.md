@@ -2436,3 +2436,21 @@ las mismas casas: el celeste con el violeta y rosa de los Claude. Y los dos
 pares que vi parecidos eran Astra y Sol. Los animales normales de los
 chiquitos no supe qué eran, salvo el búho. Supongo que lo deben haber
 explicado."
+
+## 1/10/2026, 17:13 UTC
+
+"No veo el gato en lo de 4o mini, es verde, parece un loro. NI el león.
+Pero bueno, sus inexistentes fueron simpáticos. El que no exista de 4o mini
+me gustó, no sé qué es.
+Lo de las orejas que no quedan pegadas en los zorros es por calcular mal?
+Les pasó a varios: los dos Grok, Fable 5, Kimi.
+Y Gemini pasa a los extremos: los colores neon y muchas capas y el
+minimalismo del elefante.
+Lo que sí se notó es que algunos los pensaron antes (los grandes, Fable,
+Opus, Astra, etc) y otros empezaron a agregar más y más cosas ya hecho el
+dibujo.
+
+Hoy en la tarea de Tiempo Libre escribieron sobre las lunas, entiendo que
+quedó en el drive, no sé si lo podés ver. Duda con eso: es más fácil en SVG
+dibujar primero un círculo oscuro y adentro una luna? No es más fácil
+directamente la medialuna? O el círculo se precisa para medir?"

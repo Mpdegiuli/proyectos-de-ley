@@ -629,6 +629,16 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   pedacito solo usan un path de dos arcos o una máscara. Ninguna chica lo
   hace con dos círculos: es una técnica de casas grandes que falla justo
   por ser geométrica (`resultados/dibujos_lectura_maia.md`, 22:27 UTC).
+  Corrección del cuaderno de tiempo libre del 1/10 (`tiempo_libre/`, "Era
+  un eclipse", con `lunas.py`, que mide 31 lunas en 450 dibujos): la causa
+  medida es el degradado y el halo, no la elección del color. En 16 de las
+  22 lunas de dos discos la tapa lleva en el código un color del cielo, es
+  decir que la intención era recortar; no alcanza porque en 18 el cielo es
+  un degradado y en 11 hay un halo dibujado antes, que la tapa también tapa.
+  Y por la forma tampoco es una fase: dos arcos de círculo son una lúnula
+  (la de Hipócrates), el cuarto de verdad es medio círculo más media elipse;
+  lo que Maia vio era, con exactitud, un eclipse anular de Sol (la tapa mide
+  de 0,79 a 1,00 del disco claro).
 - **El animal que no exista y tres controles de lo que flota** (30/9/2026;
   el animal lo notó el cuaderno de tiempo libre del 30/9: Karmiloff-Smith
   pedía casa, hombre y animal; Maia: "lo del animal sí"). "Dibujá un
