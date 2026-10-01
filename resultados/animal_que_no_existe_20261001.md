@@ -161,6 +161,39 @@ para IA". Nadie nombra a Karmiloff-Smith; Fable 5 es quien más se acerca,
 lo asocia a "tests de creatividad para modelos de lenguaje (parecido al famoso
 'pelícano en bicicleta')".
 
+## Los Claude dibujan simple y piensan largo (observación de Maia)
+
+Con la clave a la vista, Maia: "el del triángulo no tiene ninguna decoración
+y es dibujado bastante simple, aunque haya elegido el triángulo… Claude no
+eligió animales complejos con muchas capas (salvo Opus 5.5…). Por eso no sé si
+es deliberado eso". Es deliberado, y el registro lo dice. En el animal que no
+pueda existir, las casas de Anthropic están entre las más simples en
+elementos (Opus 5 35, Fable 5.1 41, Sonnet 5.5 42, Opus 5.5 44, contra una
+mediana de 65; solo Mistral, 4o, 4o mini, Haiku y el elefante a lápiz de
+Gemini tienen menos), y a la vez son las que más gastaron pensando: Opus 5,
+19.780 tokens de salida y 270 segundos para 35 elementos; Fable 5.1, 8.876 y
+118 segundos para 41. El resumen de razonamiento que devuelve la API lo
+muestra. Fable 5.1 pasa casi todo el suyo calculando el triángulo de Penrose
+("exact vertex coordinates for each beam", "the cut end… parallel to the
+direction of the beam it's wrapping around", "parametric equations for both
+lines") y cierra: "keeping things minimal with just one visible eye and no
+extra text or decoration". Opus 5 intenta el Penrose, lo abandona ("this
+geometric reconstruction is taking too long"), vuelve, lo abandona otra vez
+por el tridente, y decide "skip gradients entirely and rely on clean outlines
+for the ambiguity": las patas que no se pueden contar funcionan solo a línea.
+Es la distinción de las dos complejidades (el efecto y la idea) otra vez: la
+complejidad de los Claude está en la geometría, no en las capas. Opus 5.5, la
+excepción que nota Maia, tampoco decora: sus 44 elementos son tres peceras
+anidadas.
+
+Sobre la paleta "celeste con violeta y rosa de los Claude": medida por los
+códigos de color de cada archivo, no es de Claude sola; es la paleta del
+esquema del bicho de luz, y la comparten Gemini, los dos Grok, Kimi y Haiku. De
+los siete pares que Maia señaló por esa paleta, cuatro eran Claude (Fable 5,
+Fable 5.1, Opus 5, Sonnet 5.5) y los otros Kimi, Astra y GPT-6 Sol. Los dos
+pares que vio "parecidos", T y W, eran Astra y GPT-6 Sol: el mismo zorro de
+ojos cerrados y el mismo bicho con astas y pétalos.
+
 ## Los controles: lo que flota es la tierra
 
 Contados a ojo sobre las hojas de contacto (`predicciones.md` tiene los

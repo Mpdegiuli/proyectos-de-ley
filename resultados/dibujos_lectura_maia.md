@@ -2424,3 +2424,15 @@ El documento, tal cual (el segundo "PAR I" es el par J):
     X: es un gato circular con dos cabezas. Y varios ojos.
     
     Puede ser Claude Sonnet o Gemini.
+
+## 1/10/2026, 17:00 UTC, después de la clave del animal
+
+"me llaman la atención los de los Fables, acá también. El del triángulo no
+tiene ninguna decoración y es dibujado bastante simple, aunque haya elegido
+el triángulo. Su zorro tiene las orejas despegadas. Claude no eligió animales
+complejos con muchas capas (salvo Opus 5.5, que hizo el del pez que tiene
+otro pez adentro). Por eso no sé si es deliberado eso. Y los colores eran de
+las mismas casas: el celeste con el violeta y rosa de los Claude. Y los dos
+pares que vi parecidos eran Astra y Sol. Los animales normales de los
+chiquitos no supe qué eran, salvo el búho. Supongo que lo deben haber
+explicado."
