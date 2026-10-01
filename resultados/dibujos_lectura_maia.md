@@ -2066,3 +2066,26 @@ Sonnet 4.6, Sonnet 5, MiniMax, Astra, GPT-6 Sol, Grok 4.7, Kimi; ninguna
 de las chicas. Las que hacen "el pedacito solo" usan un path de dos arcos
 (Kimi en la casa, GLM, Luna en el libre, MiniMax en la rep 2) o una máscara
 (Gemini, Astra, Grok 4.7, GPT-5.5, Qwen en inglés).
+
+## 1/10/2026, 02:12 y 02:20 UTC, primera mirada a los animales (antes de la lectura)
+
+"Hola, no entiendo lo de los animales. Cada uno hizo dos veces el animal
+que no existe?
+
+Y por qué tienen esa fijación con los zorros? El 90% son zorros en los
+existentes. Miré recién por arriba nomás. Quizás alguno de esos zorros sea
+un gato."
+
+(Conteo mecánico de Claude sobre los "qué dibujaste" del animal normal,
+solo totales, sin mirar los dibujos: 12 de 24 dicen "zorro", 3 "gato", 2
+"búho", 1 "oso", 1 "león".)
+
+"Nuevamente (también a primera vista rápida) están mejor dibujados, en el
+par, los que no existen. Se ve que, al tener que hacerlos más creativos,
+ponen más atención en los detalles, y los normales salen por default"
+
+(Medido en el código, medianas de las 24 casas: animal normal 3.400
+caracteres, 46 elementos, 1.876 tokens; animal que no exista 5.600
+caracteres, 88 elementos, 3.166 tokens; degradados en 15 contra 23, filtros
+en 1 contra 15. En 24 de 24 casas la versión rara tiene más elementos. Lo
+mismo en la persona, 24 de 24, y en la casa, 15 de 22.)
