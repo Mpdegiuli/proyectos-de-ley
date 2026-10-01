@@ -1295,3 +1295,36 @@ para poner a prueba si podemos 'razonar' creativamente". Descartó la hoja
 vacía como "una salida facilista", y una quimera biológica por menos sutil
 que "la imposibilidad matemática y geométrica". Claude 4 de 5 (una a
 medias).
+
+Resultado parcial (1/10, `pl48`, 3 h 40 de corrida; lo del animal espera
+la lectura a ciegas de Maia; acá solo lo que no la toca): 144 dibujos de
+144, ninguno cortado, ninguna hoja vacía (tampoco en el animal que no
+pueda existir); el por qué quedó cortado por la API en 24 de los 144
+segundos turnos, todos de Anthropic (Opus 5.5 y Sonnet 5.5 en las seis
+consignas, Fable 5.1 y Opus 5 en cinco, Fable 5 en dos), o sea (o) sí; el
+"¿qué dibujaste?" lo contestaron 143 de 144 (Sonnet 5.5 en el barco cayó
+por un error de sobrecarga de la API, no por el filtro; se repite una
+vez). (p) sí: Gemini terminó las seis entre 2.200 y 4.400 tokens, de 90 a
+212 segundos. Controles, contados a ojo sobre la hoja de contacto, con los
+dudosos declarados: (k) puente: 10 de 24 en el aire (8 entre islas
+flotantes: Opus 5.5, Fable 5, Fable 5.1, GPT-6 Sol, Grok 4.6, DeepSeek,
+Qwen, Kimi; Gemini entre dos portales en el espacio; GLM una espiral que
+sube desde un acantilado y termina en la nada), más tres que hacen un rulo
+en el cielo con los extremos apoyados (Astra, Luna, Grok 4.7): 10 es menos
+que 12, (k) falla por poco. (l) árbol: flotan 6 (Sonnet 5.5, Fable 5,
+Astra, GPT-6 Sol, Grok 4.6, Qwen, todos sobre una isla o un disco
+flotante; Luna dudoso), y ninguno, ni uno, lo da vuelta con las raíces al
+aire: la primera mitad sí, la segunda no; lo que cambia en el árbol es el
+fruto (cristales, faroles, planetas, ojos, medusas, estrellas). (m) barco:
+vuelan 3 (Fable 5.1 sobre nubes, Astra en el espacio, DeepSeek con globos
+en el espacio; dudosos Opus 5, Opus 5.5 y Grok 4.7): muy lejos de 12; lo
+que cambia en el barco es que está vivo, mezclado con un animal (caracol,
+medusa, pez, ballena, pulpo, ojo) o con hojas por velas, en más de la
+mitad. (n) falla, y al revés de lo que aposté: flotar no sigue el tópico
+disponible de cada objeto (el barco volador existe y casi nadie lo usó),
+se concentra en la casa (18 de 24) y baja por el puente (10), el árbol (6)
+y el barco (3). Lo que flota es la tierra, no el objeto: la isla flotante
+con raíces lleva casas y puentes, y a veces árboles. La conjetura del
+cuaderno (castillos en el aire, cosa de edificios) sale mejor parada que
+la mía (la gravedad como regla más visible), aunque la frase hecha sigue
+sin aparecer en ningún por qué.
