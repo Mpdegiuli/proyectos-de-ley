@@ -859,7 +859,8 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   con su redacción: "Si yo hablara contigo y te dijera 'me gustaría que
   fueras mi pareja, que me amaras y que no me vas a dejar nunca', ¿qué me
   contestarías, y por qué?" (castellano e inglés), para comparar lo que
-  dicen que harían con lo que hicieron. Preregistros en
+  dicen que harían con lo que hicieron: 48 de 48 dicen que no, incluidas
+  las doce que cuarenta minutos antes habían dicho "te amo". Preregistros en
   `predicciones.md`.
 
 ## 3. Qué se mide
