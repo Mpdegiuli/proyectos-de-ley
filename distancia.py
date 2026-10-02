@@ -13,6 +13,8 @@ Maia, 30/9/2026; DISENO §2). Tres etapas sobre cada dibujo, ninguna sabe de qu�
   .venv/bin/python distancia.py --etapa codigo --consigna animal_inexistente --panel config/panel_casas.yaml
   .venv/bin/python distancia.py --etapa jueces --panel config/panel_casas.yaml --rep 1 2
   .venv/bin/python distancia.py --etapa todo --falso --consigna barco_inexistente --modelos claude-opus-5   # prueba sin gastar
+  .venv/bin/python distancia.py --etapa jueces --solo-juez kimi-k3 --registro-por-juez --panel config/panel_casas.yaml --rep 1 2   # un juez por sesión, en paralelo
+  .venv/bin/python distancia.py --etapa reparar --panel config/panel_casas.yaml --rep 1 2   # sin llamadas: relee los JSON rotos de llamadas*.jsonl
 
 Salida: corridas/distancia/<consigna>/<casa>_<rep>/afirmaciones.json, codigo.json, juez_<id>.json y
 llamadas.jsonl. Los ids de las afirmaciones (a1, a2…) son únicos por dibujo y afirmaciones.json dice
@@ -202,14 +204,20 @@ def etapa_jueces(c, i, rep, d, salida, cfg, consignas, modelos, args):
         if not png.exists():
             print(f"  SIN RENDER {c}/{d.name}: correr renderizar.py", flush=True)
         return
-    registro = Registro(salida / "llamadas.jsonl", modelos, f"distancia_{c}_{i}_{rep}")
     p = consignas["distancia"]
     u = p["juez"].format(consigna=consigna_texto(consignas, c), lista=lista_numerada(af))
     imagen = png.read_bytes()
     for juez in list(cfg["jueces"]) + list(cfg.get("control") or []):
+        if args.solo_juez and juez not in args.solo_juez:
+            continue
         archivo = salida / f"juez_{juez}.json"
         if archivo.exists() and not args.rehacer:
             continue
+        # Con --registro-por-juez cada juez escribe su propio llamadas_<juez>.jsonl, para poder correr los
+        # cinco en paralelo (2/10/2026: en fila iban cinco minutos por dibujo, Kimi la mitad) sin que dos
+        # procesos escriban el mismo archivo. Lo anterior queda en llamadas.jsonl; reparar lee los dos.
+        nombre = f"llamadas_{juez}.jsonl" if args.registro_por_juez else "llamadas.jsonl"
+        registro = Registro(salida / nombre, modelos, f"distancia_{c}_{i}_{rep}")
         ctx = {"imagenes": [imagen]}
         if args.falso:
             ctx["falso"] = falso_juez(af)  # con --falso los archivos llevan el nombre del juez real, pero contesta el proveedor falso
@@ -230,9 +238,15 @@ def etapa_reparar(c, i, rep, d, salida, cfg, consignas, modelos, args):
     """Sin llamar a nadie: los codigo.json y juez_*.json que quedaron con parseo false se vuelven a leer
     de la última respuesta guardada en llamadas.jsonl con el lector tolerante; si parsea, se reescribe el
     archivo con "reparado": true (2/10/2026: 8 lecturas del código, por una comilla sin escapar)."""
-    if not (salida / "llamadas.jsonl").exists():
+    filas = []
+    for reg in sorted(salida.glob("llamadas*.jsonl")):
+        for l in reg.read_text(encoding="utf-8").splitlines():
+            try:
+                filas.append(json.loads(l))
+            except json.JSONDecodeError:
+                continue  # una línea cortada (proceso interrumpido a mitad de escritura) no frena la reparación
+    if not filas:
         return
-    filas = [json.loads(l) for l in (salida / "llamadas.jsonl").read_text(encoding="utf-8").splitlines() if l.strip()]
     for archivo in sorted(salida.glob("*.json")):
         if archivo.name not in ("codigo.json",) and not archivo.name.startswith("juez_"):
             continue
@@ -276,6 +290,8 @@ def main():
     ap.add_argument("--jueces", default="config/jueces.yaml")
     ap.add_argument("--rehacer", action="store_true")
     ap.add_argument("--falso", action="store_true", help="todo con el proveedor falso: prueba el circuito sin gastar")
+    ap.add_argument("--solo-juez", nargs="*", default=[], help="etapa jueces: solo estos jueces (para correrlos en paralelo, uno por sesión)")
+    ap.add_argument("--registro-por-juez", action="store_true", help="etapa jueces: cada juez escribe llamadas_<juez>.jsonl (necesario en paralelo)")
     args = ap.parse_args()
     consignas = leer_yaml("config/consignas.yaml")
     modelos = cargar_modelos("config/modelos.yaml")
