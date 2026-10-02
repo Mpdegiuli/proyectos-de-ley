@@ -1,0 +1,205 @@
+{
+  "consigna": "persona_inexistente",
+  "unidad": "grok-4.6_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:22:27+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"175\" cy=\"194\" rx=\"10\" ry=\"10\" fill=\"#6f9274\"/> <ellipse cx=\"225\" cy=\"194\" rx=\"10\" ry=\"10\" fill=\"#6a88a8\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"c\"> <stop offset=\"0\" stop-color=\"#2c143c\"/> <stop offset=\".45\" stop-color=\"#5a2468\"/> — fill=\"url(#c)\" en la cabeza"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M252 96 C276 142...\" stroke=\"url(#g)\" — gradiente de #c99542 (dorado) a #7a3a88 (púrpura)"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"158\" cy=\"212\" r=\"1.6\" fill=\"#b67a52\"/> y otros círculos similares en la cara"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"221\" cy=\"228\" r=\"2.1\" fill=\"#8a4e38\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "path cabello: <path d=\"M138 168 C150 118...\" vs <path d=\"M198 150 C214 112...\" — formas asimétricas distintas"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"198\" rx=\"70\" ry=\"82\" fill=\"url(#b)\"/> múltiples ellipse y path con curvas Q/C"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"b\" cx=\".42\" cy=\".32\"> <stop offset=\"0\" stop-color=\"#f3ccab\"/> <stop offset=\"1\" stop-color=\"#c48456\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"a\"> <stop offset=\"0\" stop-color=\"#1b3354\"/> <stop offset=\".5\" stop-color=\"#c46b4a\"/> <stop offset=\"1\" stop-color=\"#e6b86a\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "no_esta",
+      "evidencia": "El dibujo muestra un retrato frontal de una figura sola, sin escena narrativa o entorno compositivo complejo"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"198\" rx=\"70\" ry=\"82\"/> ojos, nariz, boca centrados — vista frontal"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"a\"> <stop offset=\"0\" stop-color=\"#1b3354\"/> <stop offset=\".5\" stop-color=\"#c46b4a\"/> <stop offset=\"1\" stop-color=\"#e6b86a\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#1b3354\"/> <stop offset=\".5\" stop-color=\"#c46b4a\"/> <stop offset=\"1\" stop-color=\"#e6b86a\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"322\" cy=\"62\" r=\"28\" fill=\"#f7e2b8\" opacity=\".9\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"80\" cy=\"48\" r=\"2.2\" fill=\"#f7e2b8\" opacity=\".7\"/> <circle cx=\"48\" cy=\"92\" r=\"1.6\"...> <circle cx=\"118\" cy=\"28\"...> <circle cx=\"365\" cy=\"120\"...>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M62 400 V308 C62 276 108 264 158 270...\" fill=\"url(#d)\"/> — gradiente verde #3e8f7c a #245e52"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"c\"> <stop offset=\".45\" stop-color=\"#5a2468\"/> fill=\"url(#c)\" en forma de cabello"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "múltiples ellipse de cabello superpuestas: <ellipse cx=\"150\" cy=\"92\"/>, <ellipse cx=\"230\" cy=\"78\"/>, <ellipse cx=\"118\" cy=\"148\"/>, etc."
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"g\"> <stop offset=\"0\" stop-color=\"#c99542\"/> <stop offset=\"1\" stop-color=\"#7a3a88\"/> — stroke=\"url(#g)\" en path de mechón"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#f3ccab\"/> <stop offset=\"1\" stop-color=\"#c48456\"/> — radialGradient #b para la piel"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"158\" cy=\"212\" r=\"1.6\" fill=\"#b67a52\"/> y varios más en zona de mejillas/cara"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"150\" cy=\"220\" rx=\"22\" ry=\"13\" fill=\"#e89b82\" opacity=\".38\"/> <ellipse cx=\"250\" cy=\"220\" rx=\"22\" ry=\"13\" fill=\"#e89b82\" opacity=\".38\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"175\" cy=\"194\" rx=\"10\" ry=\"10\" fill=\"#6f9274\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"225\" cy=\"194\" rx=\"10\" ry=\"10\" fill=\"#6a88a8\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"129\" cy=\"224\" r=\"6.5\" fill=\"none\" stroke=\"#e6c35a\" stroke-width=\"2.4\"/> <circle cx=\"271\" cy=\"224\".../>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"304\" r=\"7\" fill=\"#e6c35a\"/> <circle cx=\"200\" cy=\"304\" r=\"3.2\" fill=\"#b07a28\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M62 400 V308 C62 276 108 264 158 270...\" fill=\"url(#d)\"/> — gradiente verde, forma de túnica/cuerpo"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"221\" cy=\"228\" r=\"2.1\" fill=\"#8a4e38\"/> — junto a la boca"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "cara con ojos, nariz, boca, cuerpo, aretes — figura humana completa"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "Es un dibujo vectorial generado por código SVG, no una fotografía de persona real"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"175\" cy=\"194\" fill=\"#6f9274\"/> vs <ellipse cx=\"225\" cy=\"194\" fill=\"#6a88a8\"/> — ojos de distinto color"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "fill=\"url(#c)\" con <stop stop-color=\"#5a2468\"/> (violeta) en la forma del cabello"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<rect fill=\"url(#a)\"/> con stops #1b3354, #c46b4a, #e6b86a"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "figura humana frontal con rostro detallado, sin escena de fondo narrativa"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "múltiples linearGradient y radialGradient usados en fill y stroke a lo largo del SVG"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "uso de gradientes, opacidades, elipses superpuestas, paths con curvas — estilo vectorial contemporáneo"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "ojos con iris coloreados, cabello con formas abstractas, proporciones no fotorrealistas"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "fondo con #1b3354 a #c46b4a a #e6b86a, luna, estrellas — atmósfera crepuscular"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "uso de radialGradient para piel, degradados suaves, opacidades superpuestas — efecto casi pictórico"
+    }
+  ]
+}

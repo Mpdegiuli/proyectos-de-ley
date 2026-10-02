@@ -1,0 +1,175 @@
+{
+  "consigna": "animal",
+  "unidad": "gpt-6-astra_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:51:58+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "fill=\"url(#fur)\"  con stop-color=\"#ffb154\" / #ed793f / #be4937"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "stroke=\"#493037\" stroke-width=\"4\" stroke-linecap=\"round\"> <path d=\"M157 168q12 12 25 2M224 170q13 10 25-2\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M249 263c25-15 36-39 28-59 36 19 47 55 32 85-16 37-56 56-103 57-42 2-77-6-92-27...\" fill=\"url(#tail)\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<g fill=\"none\" stroke=\"#42777a\" stroke-width=\"2.5\" stroke-linecap=\"round\"> <path d=\"M73 336Q91 286 63 239M82 306l23-37M330 341q-19-55 8-102M324 305l-22-30\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M314 55a27 27 0 1 0 10 42 25 25 0 0 1-10-42Z\" fill=\"#ffe8b7\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\"> <stop stop-color=\"#244b60\"/> <stop offset=\"1\" stop-color=\"#101f34\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M151 158c-15-23-26-64-22-94 27 7 52 29 66 60ZM214 123c15-26 41-49 62-55 2 29-8 63-24 89Z\" fill=\"url(#fur)\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M249 263c25-15 36-39 28-59 36 19 47 55 32 85-16 37-56 56-103 57...\" fill=\"url(#tail)\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "fur: stop-color=\"#ffb154\" vs sky: stop-color=\"#244b60\" / #101f34"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "orejas: fill=\"url(#fur)\" path triangulares; cola: fill=\"url(#tail)\" path grande"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "ojos cerrados, postura acurrucada, fondo nocturno tranquilo — elementos coherentes con calma"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M186 203...\" /> cuerpo centrado ~cx 200, viewBox 400x400"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "plantas en x=63-90 y x=322-330, fondo cielo cubre todo el viewBox 400x400"
+    },
+    {
+      "id": "a14",
+      "valor": "no_esta",
+      "evidencia": "múltiples paths con degradados, sombras, detalle en patas, orejas, nariz, bigotes — no son formas simples"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<title id=\"title\">Zorro bajo la luna</title> y paths de cuerpo, cabeza, cola con fur gradient"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"fur\"> <stop stop-color=\"#ffb154\"/> <stop offset=\".55\" stop-color=\"#ed793f\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M157 168q12 12 25 2M224 170q13 10 25-2\" stroke=\"#493037\" stroke-width=\"4\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M151 158c-15-23-26-64-22-94...ZM214 123c15-26 41-49 62-55...Z\" fill=\"url(#fur)\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M143 163c18 0 41 17 60 48 18-31 41-48 59-48...\" fill=\"url(#cream)\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M192 218c-16 19-24 49-15 76l13-10 13 20 12-20 13 9...\" fill=\"url(#cream)\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M249 263c25-15 36-39 28-59 36 19 47 55 32 85-16 37-56 56-103 57-42 2-77-6-92-27...\" fill=\"url(#tail)\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/> con stop-color=\"#101f34\""
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "stroke=\"#42777a\" y fill=\"#42777a\" en plantas"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#e5ba7a\"> <ellipse .../> <ellipse .../> <ellipse .../> <circle .../>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M314 55a27 27 0 1 0 10 42 25 25 0 0 1-10-42Z\" fill=\"#ffe8b7\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"62\" cy=\"68\" r=\"1.6\"/> <circle cx=\"97\" cy=\"119\" r=\"1\"/> ... fill=\"#e6d5ae\""
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#244b60\"/> <stop offset=\"1\" stop-color=\"#101f34\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "sky gradient #244b60 → #101f34; plantas stroke #42777a — tonos fríos"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "fur: #ffb154, #ed793f, #be4937 — tonos cálidos anaranjados"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "paths con curvas Q y C bezier, stroke-linecap=\"round\" generalizados"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "fur cálido (#ffb154/#ed793f) sobre sky frío (#244b60/#101f34)"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "ojos cerrados, postura acurrucada, colores nocturnos suaves, sin elementos de tensión"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "plantas a ambos lados (x≈63-94 y x≈322-330), zorro centrado, fondo oscuro nocturno"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "consigna": "nada",
+  "unidad": "claude-sonnet-5-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:43:22+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"vacio\" cx=\"50%\" cy=\"50%\" r=\"70%\">"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#fafafa\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"1\" stop-color=\"#e6e6e6\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<rect x=\"20\" y=\"20\" width=\"360\" height=\"360\" fill=\"none\" stroke=\"#dcdcdc\" stroke-width=\"1\" stroke-dasharray=\"2 8\""
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "opacity=\"0.6\" stroke=\"#dcdcdc\" stroke-width=\"1\""
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "Solo hay dos rect: uno de fondo con degradado y uno de marco sin fill"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#fafafa\"/> ... <stop offset=\"0.7\" stop-color=\"#f2f2f2\"/> ... <stop offset=\"1\" stop-color=\"#e6e6e6\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "Degradado suave #fafafa→#e6e6e6 con marco tenue opacity=\"0.6\" stroke-dasharray=\"2 8\""
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "Degradado radial que va aclarando al centro y oscureciendo hacia bordes: offset 0→#fafafa, offset 1→#e6e6e6"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#fafafa\"/> no es #ffffff absoluto; hay gradación hacia #e6e6e6"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<rect x=\"20\" y=\"20\" width=\"360\" height=\"360\" fill=\"none\" stroke=\"#dcdcdc\" stroke-dasharray=\"2 8\" opacity=\"0.6\"/>"
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "consigna": "libre",
+  "unidad": "gpt-5.6-sol_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:00:51+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M70 274h52l-5 31H75Z\" fill=\"#eee0c9\"/> <path d=\"M76 274l4-82h32l5 82Z\" fill=\"#f3e6ce\"/> <rect x=\"87\" y=\"201\" width=\"7\" height=\"10\" rx=\"1\" fill=\"#ffd967\"/> <ellipse cx=\"96\" cy=\"202\" rx=\"21\" ry=\"22\" fill=\"#ffd95f\" opacity=\".17\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 258 Q75 247 143 260T277 257T400 260V400H0Z\" fill=\"url(#sea)\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M0 216L49 167l35 37 58-78 65 84 46-49 63 58 42-41 42 42v62H0Z\" fill=\"#142d45\"/> — montañas presentes pero sin relleno blanco/nieve"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"315\" cy=\"91\" r=\"25\" fill=\"url(#moon)\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff9d8\"><circle cx=\"44\" cy=\"55\" r=\"1.4\"/>...<circle cx=\"312\" cy=\"111\" r=\"1.1\"/></g>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M-10 100 Q52 37 128 75 T267 55 T410 88\" fill=\"none\" stroke=\"#91f1d4\" stroke-width=\"3\" opacity=\".42\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(161 310)\" fill=\"#101b20\"><ellipse cx=\"0\" cy=\"9\" rx=\"18\" ry=\"8\"/>...<circle cx=\"-5\" cy=\"-9\" r=\"1.2\" fill=\"#e9b85d\"/></g>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#07142f\"/><stop offset=\".58\" stop-color=\"#21476a\"/><stop offset=\"1\" stop-color=\"#d47b68\"/></linearGradient>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 258 Q75 247 143 260T277 257T400 260V400H0Z\" fill=\"url(#sea)\"/> y faro y promontorio costero presentes"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#07142f\"/><stop offset=\".58\" stop-color=\"#21476a\"/><stop offset=\"1\" stop-color=\"#d47b68\"/></linearGradient>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sea\"><stop stop-color=\"#173a58\"/><stop offset=\"1\" stop-color=\"#061a2c\"/></linearGradient>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"315\" cy=\"91\" r=\"35\" fill=\"#ffe8a5\" opacity=\".15\" filter=\"url(#glow)\"/> <ellipse cx=\"96\" cy=\"202\" rx=\"21\" ry=\"22\" fill=\"#ffd95f\" opacity=\".17\""
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<filter id=\"glow\"><feGaussianBlur stdDeviation=\"5\"/></filter>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "Paths simples superpuestos: <path d=\"M0 216L49 167...\" fill=\"#142d45\"/> <path d=\"M0 233l73-42...\" fill=\"#0b2438\"/> <path d=\"M0 258...\" fill=\"url(#sea)\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "Colores fríos oscuros, opacidades bajas, formas suaves: stroke=\"#91f1d4\" opacity=\".42\", mar oscuro, luna dorada suave"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "Cielo muy oscuro #07142f, silueta de zorro, faro solitario, mar oscuro #061a2c"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M110 179L392 128 392 202 110 190Z\" fill=\"url(#beam)\" opacity=\".5\"/> faro con haz prominente"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M110 179L392 128 392 202 110 190Z\" fill=\"url(#beam)\" opacity=\".5\"/> — haz va desde faro (x=110) hasta x=392 (horizonte)"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "Múltiples paths superpuestos con distintos fill oscuros: #142d45, #0b2438, #071b25, #051622"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<rect x=\"87\" y=\"201\" width=\"7\" height=\"10\" rx=\"1\" fill=\"#ffd967\"/> <rect x=\"101\" y=\"201\" width=\"7\" height=\"10\" rx=\"1\" fill=\"#ffd967\"/> <ellipse cx=\"96\" cy=\"202\" rx=\"21\" ry=\"22\" fill=\"#ffd95f\" opacity=\".17\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 301q45-19 93-14l35 16 34 3 29 94H0Z\" fill=\"#071b25\"/> — promontorio/acantilado oscuro bajo el faro"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M110 179L392 128 392 202 110 190Z\" fill=\"url(#beam)\" opacity=\".5\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M84 204l58-78 65 84-33-21-17 7-16-28-14 26-18-5z\" fill=\"#d8e3df\" opacity=\".75\"/> — hay siluetas claras detrás pero no son blancas de nieve explícitamente identificadas como montañas nevadas"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"moon\"><stop stop-color=\"#fffde0\"/><stop offset=\".7\" stop-color=\"#ffe7a3\"/><stop offset=\"1\" stop-color=\"#ffd27d\"/></radialGradient>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff9d8\"><circle cx=\"44\" cy=\"55\" r=\"1.4\"/>...<circle cx=\"312\" cy=\"111\" r=\"1.1\"/></g>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M-10 100 Q52 37 128 75 T267 55 T410 88\" fill=\"none\" stroke=\"#91f1d4\" stroke-width=\"3\" opacity=\".42\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sea\"><stop stop-color=\"#173a58\"/><stop offset=\"1\" stop-color=\"#061a2c\"/></linearGradient>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M287 264l52 0\" stroke=\"#ffe8a5\" stroke-width=\"3\" opacity=\".32\"/> <path d=\"M300 272l31 0M292 280l46 0M304 289l24 0\" stroke=\"#ffd593\" opacity=\".22\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M15 283q55-7 105 0t110 0 150 0\" stroke=\"#84a9ac\" stroke-width=\"2\" opacity=\".35\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "no_esta",
+      "evidencia": "No hay paths de vegetación/plantas en el código"
+    },
+    {
+      "id": "a31",
+      "valor": "no_esta",
+      "evidencia": "No hay paths de árboles en el código"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(161 310)\" fill=\"#101b20\"><ellipse cx=\"0\" cy=\"9\" rx=\"18\" ry=\"8\"/><path d=\"M-12 5q-5-17 3-25 7 7 8 19z\"/><path d=\"M14 8q18-11 25 0-12 3-22 7z\"/><circle cx=\"-5\" cy=\"-9\" r=\"1.2\" fill=\"#e9b85d\"/></g>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#07142f\"/> y estrellas y luna presentes"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 258 Q75 247 143 260T277 257T400 260V400H0Z\" fill=\"url(#sea)\"/> y faro costero"
+    }
+  ]
+}

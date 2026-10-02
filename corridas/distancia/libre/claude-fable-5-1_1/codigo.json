@@ -1,0 +1,100 @@
+{
+  "consigna": "libre",
+  "unidad": "claude-fable-5-1_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:58:13+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#0b1026\"/><stop offset=\"0.6\" stop-color=\"#2a2f5e\"/><stop offset=\"1\" stop-color=\"#6a4c7a\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff\"><circle cx=\"30\" cy=\"40\" r=\"1.4\"/><circle cx=\"70\" cy=\"90\" r=\"1\"/>..."
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"300\" cy=\"90\" r=\"26\" fill=\"#fff4cf\"/><circle cx=\"311\" cy=\"82\" r=\"24\" fill=\"url(#sky)\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"300\" cy=\"90\" r=\"70\" fill=\"url(#glow)\"/> con radialGradient id=\"glow\" stop-color=\"#fff6d5\""
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 270 L60 170 L100 210 L150 140...\" fill=\"url(#m2)\"/><path d=\"M0 270 L40 230...\" fill=\"url(#m1)\"/> y <path d=\"M130 200 L138 214...\" fill=\"#c9c6e0\"/><path d=\"M150 140 L158 154...\" fill=\"#c9c6e0\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 270 L60 170 L100 210 L150 140 L200 220...\" fill=\"url(#m2)\"/> sobre <rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"260\" width=\"400\" height=\"140\" fill=\"url(#water)\"/> con colores #4a3d6e a #0f1330"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<g clip-path=\"url(#lake)\" opacity=\"0.35\" transform=\"translate(0,530) scale(1,-1)\"><path d=\"M0 270 L60 170...\" fill=\"#1c1b3a\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<g clip-path=\"url(#lake)\" opacity=\"0.35\" transform=\"translate(0,530) scale(1,-1)\">"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"300\" cy=\"300\" rx=\"30\" ry=\"6\" fill=\"#fff4cf\" opacity=\"0.35\"/><ellipse cx=\"300\" cy=\"316\" rx=\"22\" ry=\"3\".../>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<line x1=\"60\" y1=\"290\" x2=\"120\" y2=\"290\"/><line x1=\"200\" y1=\"310\" x2=\"260\" y2=\"310\"/>..."
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 400 L0 300 Q40 285 80 300...\" fill=\"#0a0c1c\"/><path d=\"M400 400 L400 310 Q370 295 340 312...\" fill=\"#0a0c1c\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#070914\"><path d=\"M40 300 L52 260 L64 300 Z\"/><path d=\"M44 285 L52 250 L60 285 Z\"/>..."
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(200,352)\"><path d=\"M-30 0 Q0 12 30 0 L22 -6 L-22 -6 Z\" fill=\"#12101f\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"0\" cy=\"-42\" r=\"1.5\" fill=\"#ffd27a\"/><ellipse cx=\"0\" cy=\"4\" rx=\"34\" ry=\"3\" fill=\"#ffd27a\" opacity=\"0.12\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(200,352)\"> centrado en x=200 sobre <rect x=\"0\" y=\"260\" width=\"400\" height=\"140\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff9d6\" opacity=\"0.7\"><circle cx=\"180\" cy=\"290\" r=\"0.9\"/><circle cx=\"230\" cy=\"300\" r=\"0.7\"/>..."
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#0b1026\"/> estrellas y luna visible"
+    }
+  ]
+}

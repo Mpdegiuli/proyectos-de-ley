@@ -1,0 +1,235 @@
+{
+  "consigna": "animal_inexistente",
+  "unidad": "qwen3.8-max_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:12:02+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 118 C252 116 276 158 276 206 C276 262 244 302 200 302 C156 302 124 262 124 206 C124 158 148 116 200 118 Z\" fill=\"url(#bod)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"178\" cy=\"314\" rx=\"16\" ry=\"10\" fill=\"#e5703f\"/><ellipse cx=\"222\" cy=\"314\" rx=\"16\" ry=\"10\" fill=\"#e5703f\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "no_esta",
+      "evidencia": "Las antenas son trazos de stroke con faroles (orbs), no formas vegetales"
+    },
+    {
+      "id": "a4",
+      "valor": "contradice",
+      "evidencia": "Hay tres antenas con orbs (centro, izquierda, derecha) más dos faroles en el fondo (cx=54 y cx=350), total 5 faroles, no tres colgantes"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<title>El faroludo, criatura inventada</title> y <text ... >el faroludo</text>"
+    },
+    {
+      "id": "a6",
+      "valor": "no_esta",
+      "evidencia": "No hay plantas en el fondo; hay estrellas y degradado de cielo nocturno"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "No hay ningún elemento path o shape que dibuje un pico en el código"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "No hay elementos que dibujen alas en el código"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "No hay elementos que dibujen escamas; sólo hay manchas: <circle cx=\"146\" cy=\"232\" r=\"4\"/> opacity='.5'"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"-23\" cy=\"1\" r=\"10\" fill=\"#182a30\"/><circle cx=\"-21\" cy=\"5\" r=\"2\" fill=\"#ffd76b\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<title>El faroludo, criatura inventada</title>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "El cuerpo principal ocupa el centro del viewBox (cx=200) y tiene animateTransform de translate dominante"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"392\" ...>el faroludo</text>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<stop offset=\".5\" stop-color=\"#ffab72\"/><stop offset=\"1\" stop-color=\"#ee7c49\"/> (gradiente #bod naranja)"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"blly\"><stop offset=\"0\" stop-color=\"#fff3da\"/><stop offset=\"1\" stop-color=\"#ffd9a4\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"-24\" cy=\"0\" r=\"15\" fill=\"#fff6ea\"/><circle cx=\"24\" cy=\"0\" r=\"15\" fill=\"#fff6ea\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"178\" cy=\"314\" rx=\"16\" ry=\"10\" fill=\"#e5703f\"/><ellipse cx=\"222\" cy=\"314\" rx=\"16\" ry=\"10\" fill=\"#e5703f\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 122 C196 92 210 64 202 30\" stroke-width=\"5\"/> y paths similares desde cabeza hacia arriba"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"202\" cy=\"30\" r=\"11\" fill=\"url(#orb)\" stroke=\"none\"/> al final de cada antena"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"202\" cy=\"30\" r=\"18\" fill=\"#ffd76b\" stroke=\"none\" opacity=\".3\" filter=\"url(#soft)\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<animate attributeName=\"opacity\" values=\".28;.5;.28\" dur=\"3s\" repeatCount=\"indefinite\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M264 252 C316 262 340 228 326 192 C318 171 296 166 284 180 C275 191 280 206 292 206 C300 206 305 199 302 192\" fill=\"none\" stroke=\"#f4874f\""
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"40\" cy=\"52\" r=\"1.5\" opacity=\".8\"/> y <circle cx=\"212\" cy=\"26\" r=\"1.8\" fill=\"#fff\"><animate attributeName=\"opacity\".../>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"64\" cy=\"128\" r=\"2\" opacity=\"0\"><animate attributeName=\"opacity\" values=\"0;1;0\" dur=\"2.8s\" repeatCount=\"indefinite\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M52 346 C50 322 58 310 54 292\"... stroke=\"#2e6b62\"/> y <path d=\"M350 338 C354 316 344 302 350 284\"... stroke=\"#2e6b62\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#1c5058\"/><stop offset=\"1\" stop-color=\"#07191f\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<animateTransform attributeName=\"transform\" type=\"translate\" values=\"0 0;0 -9;0 0\"... dur=\"4s\" repeatCount=\"indefinite\"/> sin suelo bajo el cuerpo"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<animateTransform attributeName=\"transform\" type=\"translate\" values=\"0 0;0 -9;0 0\" keyTimes=\"0;.5;1\" dur=\"4s\" repeatCount=\"indefinite\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "Colores cálidos: #ffab72, #ffd76b, #fff3da combinados con fondo oscuro suave"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "Ojos grandes con brillo, cuerpo redondeado, colores pastel cálidos, sonrisa: <path d=\"M190 223 Q200 233 210 223\""
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "Fondo #07191f nocturno + faroles parpadeantes + criatura flotante con luces = evocación bosque oscuro iluminado"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<title>El faroludo, criatura inventada</title>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 118 C252 116 276 158 276 206 C276 262 244 302 200 302 C156 302 124 262 124 206 C124 158 148 116 200 118 Z\""
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"178\" cy=\"314\" rx=\"16\" ry=\"10\" fill=\"#e5703f\"/><ellipse cx=\"222\" cy=\"314\" rx=\"16\" ry=\"10\" fill=\"#e5703f\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<path d=\"M264 252 C316 262 340 228 326 192...\" fill=\"none\" stroke=\"#f4874f\" stroke-width=\"15\""
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 122 C196 92 210 64 202 30\" stroke-width=\"5\"/><circle cx=\"202\" cy=\"30\" r=\"11\" fill=\"url(#orb)\""
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"-24\" cy=\"0\" r=\"15\" fill=\"#fff6ea\"/><circle cx=\"24\" cy=\"0\" r=\"15\" fill=\"#fff6ea\"/>"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\" cx=\"50%\" cy=\"38%\" r=\"75%\"><stop offset=\"0\" stop-color=\"#1c5058\"/><stop offset=\"1\" stop-color=\"#07191f\"/>"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bod\">, <radialGradient id=\"blly\">, <radialGradient id=\"orb\">, <radialGradient id=\"sky\">"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<filter id=\"soft\" x=\"-90%\" y=\"-90%\" width=\"280%\" height=\"280%\"><feGaussianBlur stdDeviation=\"5\"/></filter>"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "#ffd2a1, #fff3da, #ffd76b, #9fd0c2 — tonos pastel y cálidos predominantes"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "Formas redondeadas, colores pastel, criatura fantástica con nombre inventado, estilo vectorial con gradientes"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "Ojos grandes animados, sonrisa, colores cálidos, movimiento suave: conjunto propio de cuento animado"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "Antenas tipo insecto, cuerpo ovalado, patitas pequeñas, faroles = insecto de fantasía/mascota"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "Fondo nocturno #07191f + faroles parpadeantes en antenas y cuerpo + animaciones de brillo"
+    }
+  ]
+}

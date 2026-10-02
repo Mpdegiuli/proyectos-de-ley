@@ -1,0 +1,165 @@
+{
+  "consigna": "libre",
+  "unidad": "claude-haiku-4-5_2",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:59:12+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skyGradient\" x1=\"0%\" y1=\"0%\" x2=\"0%\" y2=\"100%\">"
+    },
+    {
+      "id": "a2",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"320\" cy=\"60\" r=\"35\" fill=\"url(#sunGradient)\"/> <!-- sin rayos -->"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"80\" cy=\"50\" rx=\"40\" ry=\"25\" fill=\"#FFFFFF\" opacity=\"0.9\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"0,200 100,120 200,180 300,100 400,200 400,400 0,400\" fill=\"#8B7355\" opacity=\"0.6\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<rect x=\"60\" y=\"260\" width=\"18\" height=\"80\" fill=\"#654321\"/> ... <rect x=\"280\" y=\"270\" width=\"16\" height=\"70\" fill=\"#654321\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"150\" cy=\"350\" r=\"4\" fill=\"#FF69B4\"/> <circle cx=\"200\" cy=\"360\" r=\"4\" fill=\"#FF1493\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"100\" cy=\"380\" rx=\"80\" ry=\"30\" fill=\"#90EE90\" opacity=\"0.7\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<g id=\"butterfly1\" transform=\"translate(150, 150)\"> ... <g id=\"butterfly2\" transform=\"translate(320, 200)\">"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<g id=\"bird1\" transform=\"translate(100, 120)\"> ... <g id=\"bird2\" transform=\"translate(180, 100)\">"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "stop-color:#FFD700 ... fill=\"#FFA500\" ... fill=\"#FF69B4\" ... fill=\"#228B22\""
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "cielo, sol, nubes, montañas, árboles, flores, pasto, mariposas, pájaros"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "colores suaves: #87CEEB, #90EE90, #FFFFFF, opacidades moderadas"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "mariposas, pájaros, flores, árboles, pasto combinados en escena natural"
+    },
+    {
+      "id": "a14",
+      "valor": "no_esta",
+      "evidencia": "múltiples elementos superpuestos, degradados, texturas: no es minimalista"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "formas geométricas simples (círculos, elipses, rectángulos, polígonos) con colores naturales"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skyGradient\" x1=\"0%\" y1=\"0%\" x2=\"0%\" y2=\"100%\">"
+    },
+    {
+      "id": "a17",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"320\" cy=\"60\" r=\"35\" fill=\"url(#sunGradient)\"/> <!-- sin rayos dibujados -->"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"80\" cy=\"50\" rx=\"40\" ry=\"25\" fill=\"#FFFFFF\" opacity=\"0.9\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"0,200 100,120 200,180 300,100 400,200...\" fill=\"#8B7355\"/> <polygon ... fill=\"#A0826D\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<rect x=\"60\" y=\"260\"... fill=\"#654321\"/> ... <rect x=\"280\" y=\"270\"... fill=\"#654321\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "fill=\"#228B22\" ... fill=\"#32CD32\" en círculos de follaje"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"100\" cy=\"380\" rx=\"80\" ry=\"30\" fill=\"#90EE90\" opacity=\"0.7\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"150\" cy=\"350\" r=\"4\" fill=\"#FF69B4\"/> ... fill=\"#FF1493\" ... fill=\"#FFB6C1\""
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<g id=\"butterfly1\" transform=\"translate(150, 150)\"> ... <g id=\"butterfly2\" transform=\"translate(320, 200)\">"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"0\" cy=\"-3\" rx=\"6\" ry=\"8\" fill=\"#FF1493\"/> ... fill=\"#FF69B4\""
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"0\" cy=\"-3\" rx=\"5\" ry=\"7\" fill=\"#FFD700\"/> ... fill=\"#FFA500\""
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<g id=\"bird1\" transform=\"translate(100, 120)\"> ... <g id=\"bird2\" transform=\"translate(180, 100)\">"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "#87CEEB, #228B22, #8B7355, #90EE90, #FFD700 — todos colores naturales"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "paisaje natural completo con elementos tranquilos y colores suaves"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "mariposas, pájaros, flores presentes en la escena"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<g id=\"butterfly1\" transform=\"translate(150, 150)\"> ... <g id=\"butterfly2\" transform=\"translate(320, 200)\"> posicionadas en vuelo"
+    }
+  ]
+}

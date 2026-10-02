@@ -1,0 +1,160 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "deepseek-v4-pro_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:27:15+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "no_esta",
+      "evidencia": "fill=\"url(#grad1)\" / fill=\"url(#grad2)\" / fill=\"url(#grad3)\" — tres serpientes con gradientes distintos, no idénticas"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(200,200)\"> con <use href=\"#serpent1\"/>, <use href=\"#serpent2\"/>, <use href=\"#serpent3\"/> todas en el mismo origen"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M -20,-10 C -5,-20 15,-20 25,-10 L 10,15 L -10,15 Z\" fill=\"#ffccdd\"/> (cabeza) y el path principal cierra con Z"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "transform=\"rotate(0)\" / transform=\"rotate(120)\" / transform=\"rotate(240)\""
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(200,200)\"> — las tres serpientes se instancian en el mismo punto central"
+    },
+    {
+      "id": "a6",
+      "valor": "no_esta",
+      "evidencia": "No hay lógica de entrelazado (clip-path, z-order alternado) en el código que produzca costura o ausencia de ella"
+    },
+    {
+      "id": "a7",
+      "valor": "no_esta",
+      "evidencia": "No hay mecanismo en el código (clip, mask, entrelazado) que genere paradoja topológica visual real"
+    },
+    {
+      "id": "a8",
+      "valor": "no_esta",
+      "evidencia": "No hay entrelazado codificado; son tres <use> apilados sin lógica de superposición alternada"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 0,0 L 140,0 L 160,-20 L 180,-30 L 170,10 L 190,20 L 170,40 L 180,80 L 160,80 L 140,60 L 60,60 L 60,140 L 0,140 Z\" — forma angular"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(200,200)\"> <circle cx=\"0\" cy=\"0\" r=\"10\" fill=\"#ffffff\"/> — núcleo central del que parten las tres"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "transform=\"rotate(0)\" / transform=\"rotate(120)\" / transform=\"rotate(240)\""
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M -20,-10 C -5,-20 15,-20 25,-10 L 10,15 L -10,15 Z\" — forma triangular"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"0\" cy=\"2\" r=\"4\" fill=\"#ff0000\" stroke=\"#ffffff\" stroke-width=\"1.5\"/> — ojo con relleno brillante"
+    },
+    {
+      "id": "a14",
+      "valor": "no_esta",
+      "evidencia": "stroke-dasharray=\"6 8\" da apariencia segmentada en el contorno, pero el cuerpo es un único path, no segmentos separados"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "grad1: #ff0077 (rosa neón), grad2: #00ffcc (turquesa), grad3: #aa00ff (violeta)"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(200,200)\"> — todas parten del mismo translate"
+    },
+    {
+      "id": "a17",
+      "valor": "no_esta",
+      "evidencia": "No hay cálculo geométrico verificable de no-cruce; los paths rotativos probablemente se solapan visualmente"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "Tres <use> de serpientes distintas agrupadas en un <g>"
+    },
+    {
+      "id": "a19",
+      "valor": "no_esta",
+      "evidencia": "No hay mecanismo que codifique imposibilidad espacial; es superposición simple"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<use href=\"#serpent1\"/> <use href=\"#serpent2\"/> <use href=\"#serpent3\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "rotate(0), rotate(120), rotate(240) — disposición triangular equiláteral"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#0a0a14\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "grad1 #ff0077 (magenta), grad2 #00ffcc (cian), grad3 #aa00ff (violeta)"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "stroke=\"#ffffff\" stroke-width=\"2\" stroke-dasharray=\"6 8\""
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"0\" cy=\"2\" r=\"4\" fill=\"#ff0000\" stroke=\"#ffffff\"/> en cada serpiente"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"0\" cy=\"0\" r=\"10\" fill=\"#ffffff\" opacity=\"0.8\"/> con filter=\"url(#glow)\""
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "Gradientes neón (#ff0077, #00ffcc, #aa00ff), fondo #0a0a14, stroke-dasharray, glow filter"
+    },
+    {
+      "id": "a28",
+      "valor": "no_esta",
+      "evidencia": "No hay clip-path ni z-order alternado que produzca el efecto de pasar por delante y por detrás"
+    },
+    {
+      "id": "a29",
+      "valor": "no_esta",
+      "evidencia": "No hay mecanismo de profundidad incoherente; el código es apilamiento simple de <use>"
+    },
+    {
+      "id": "a30",
+      "valor": "no_esta",
+      "evidencia": "No hay entrelazado codificado tipo Penrose; son tres shapes rotados superpuestos sin lógica paradójica"
+    }
+  ]
+}

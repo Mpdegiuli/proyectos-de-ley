@@ -1,0 +1,185 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "claude-sonnet-5-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:33:34+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M50 205 Q200 120 350 205\" fill=\"none\" stroke=\"#3a2446\" stroke-width=\"7\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M80 190 q16 34 6 50 M110 178 q18 48 8 64 ...\" stroke=\"#f3e6d3\" fill=\"none\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M80 190 q16 34 6 50 M110 178 q18 48 8 64 ...\" stroke=\"#f3e6d3\" fill=\"none\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<g fill=\"url(#g)\"><circle cx=\"80\" cy=\"172\" r=\"12\"/>...<g fill=\"#fff3b0\"><circle cx=\"80\" cy=\"172\" r=\"3\"/>..."
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<rect x=\"8\" y=\"160\" width=\"20\" height=\"40\"/><path d=\"M4 160 L18 138 L32 160Z\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<rect x=\"8\" y=\"160\" width=\"20\" height=\"40\"/><rect x=\"15\" y=\"172\" width=\"5\" height=\"8\" fill=\"#ffd36b\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<rect x=\"372\" y=\"170\" width=\"16\" height=\"30\"/><path d=\"M368 170 L380 150 L392 170Z\"/><rect x=\"377\" y=\"180\" width=\"5\" height=\"7\" fill=\"#ffd36b\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff\"><circle cx=\"30\" cy=\"30\" r=\"1.2\"/><circle cx=\"80\" cy=\"60\" r=\"1\"/>..."
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"280\" cy=\"90\" r=\"38\" fill=\"#ffe9c9\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"90\" cy=\"95\" r=\"12\" fill=\"#b9c8ff\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#140a33\" opacity=\".8\"><path d=\"M150 60q6-5 12 0q6-5 12 0...\"/><path d=\"M225 120q5-4 10 0q5-4 10 0...\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 330 Q50 300 110 325 T230 320 T340 325 T400 312 V400 H0Z\" fill=\"#d98aa8\" opacity=\".9\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffd7c2\" opacity=\".7\"><ellipse cx=\"60\" cy=\"300\" rx=\"30\" ry=\"6\"/><ellipse cx=\"340\" cy=\"305\" rx=\"34\" ry=\"6\"/><ellipse cx=\"200\" cy=\"300\" rx=\"40\" ry=\"5\"/></g>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"s\"><stop offset=\"0\" stop-color=\"#140a33\"/><stop offset=\".55\" stop-color=\"#6a2f7a\"/><stop offset=\"1\" stop-color=\"#f29a6b\"/></linearGradient>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"s\"><stop offset=\"0\" stop-color=\"#140a33\"/><stop offset=\".55\" stop-color=\"#6a2f7a\"/><stop offset=\"1\" stop-color=\"#f29a6b\"/></linearGradient>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M50 205 Q200 120 350 205\" fill=\"none\" stroke=\"#3a2446\" stroke-width=\"7\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M80 190 q16 34 6 50...\" stroke=\"#f3e6d3\" fill=\"none\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M80 190 q16 34 6 50 M110 178 q18 48 8 64...\" stroke=\"#f3e6d3\" fill=\"none\"/> (curvas libres sin ancla inferior)"
+    },
+    {
+      "id": "a19",
+      "valor": "no_esta",
+      "evidencia": "Los círculos con url(#g) están sobre el tablero: <circle cx=\"80\" cy=\"172\" r=\"12\"/> (cy=172 vs tablero cy≈205), no bajo él"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<g fill=\"url(#g)\"><circle cx=\"110\" cy=\"200\" r=\"10\"/><circle cx=\"170\" cy=\"190\" r=\"10\"/>... (por debajo del arco principal Q200 120)"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 198 L52 205...\" fill=\"url(#r)\"/> y <path d=\"M400 198 L348 205...\" fill=\"url(#r)\"/> flanqueando el puente"
+    },
+    {
+      "id": "a22",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"280\" cy=\"90\" r=\"38\" fill=\"#ffe9c9\"/> (r=38, tamaño considerable pero no enorme respecto a 400px)"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"90\" cy=\"95\" r=\"12\" fill=\"#b9c8ff\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"s\"><stop offset=\"0\" stop-color=\"#140a33\"/><stop offset=\".55\" stop-color=\"#6a2f7a\"/><stop offset=\"1\" stop-color=\"#f29a6b\"/></linearGradient>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "múltiples paths con distintas opacidades y posiciones: <path d=\"M0 290 Q40 260...\" opacity=\".8\"/>, <path d=\"M0 330...\" opacity=\".9\"/>, <path d=\"M0 360...\" opacity=\".95\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff3b0\"><circle cx=\"80\" cy=\"172\" r=\"3\"/>...<rect x=\"15\" y=\"172\" width=\"5\" height=\"8\" fill=\"#ffd36b\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "contradice",
+      "evidencia": "<stop offset=\"1\" stop-color=\"#f29a6b\"/> y fill=\"#d98aa8\", fill=\"#f29a6b\" — la paleta incluye tonos cálidos durazno y rosa prominentes"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "arco + costillas colgantes: <path d=\"M50 205 Q200 120 350 205\" stroke=\"#3a2446\"/> + paths en q con stroke=\"#f3e6d3\" + ellipses en extremos"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 290...\" opacity=\".8\"/><path d=\"M0 330...\" opacity=\".9\"/><path d=\"M0 360...\" opacity=\".95\"/> capas sucesivas"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff3b0\"><circle cx=\"80\" cy=\"172\" r=\"3\"/>... sobre fondo <stop stop-color=\"#140a33\"/> y <stop stop-color=\"#6a2f7a\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "estrellas, luna, pájaros estilizados, puente fantástico con costillas — conjunto sugiere más que describe"
+    },
+    {
+      "id": "a32",
+      "valor": "contradice",
+      "evidencia": "uso extenso de degradados: <linearGradient id=\"s\">, <radialGradient id=\"g\">, <linearGradient id=\"c\">, <linearGradient id=\"r\"/> — no es plana"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "cielo degradado nocturno-crepuscular, luna, estrellas, pájaros, puente fantasioso, colores #6a2f7a #f29a6b"
+    },
+    {
+      "id": "a34",
+      "valor": "contradice",
+      "evidencia": "formas curvas complejas con múltiples paths Q y q, degradados, opacidades — no son simples ni geométricas básicas"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"s\"><stop offset=\"0\" stop-color=\"#140a33\"/><stop offset=\".55\" stop-color=\"#6a2f7a\"/><stop offset=\"1\" stop-color=\"#f29a6b\"/></linearGradient> — transición gradual en 3 pasos"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "consigna": "libre",
+  "unidad": "gpt-5.5-2026-04-23_2",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:00:13+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"77\" cy=\"96\" rx=\"67\" ry=\"62\" fill=\"#eef5fb\" stroke=\"#65768a\" stroke-width=\"5\"/> (casco astronauta con traje, visor, brazos, piernas)"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"58\" cy=\"103\" rx=\"8\" ry=\"11\"/> <ellipse cx=\"97\" cy=\"103\" rx=\"8\" ry=\"11\"/> fill=\"#ffd08a\" (orejas dentro del casco)"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 321c48-24 80-12 119-22...\" fill=\"#2b2857\"/> <ellipse cx=\"125\" cy=\"354\" rx=\"58\" ry=\"10\" fill=\"#080913\" opacity=\".5\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#273b8f\"/><stop offset=\"55%\" stop-color=\"#14133f\"/><stop offset=\"100%\" stop-color=\"#070616\"/></radialGradient>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"323\" cy=\"74\" r=\"42\" fill=\"url(#moon)\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"44\" cy=\"52\" r=\"1.5\"/><circle cx=\"80\" cy=\"96\" r=\"1.2\"/>... <path d=\"M164 79l3 7 7 3-7 3-3 7-3-7-7-3 7-3z\"/> fill=\"#fff\""
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 321c48-24 80-12 119-22 50-13 75-45 128-32 54 14 82 43 153 18v115H0z\" fill=\"#2b2857\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(291 203) rotate(16)\"><path d=\"M27 0c22 18 32 42 28 70...\" fill=\"#ff5a75\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "sky gradient #273b8f → #14133f → #070616; suit gradient #f7fbff → #b9c7d8; glass gradient #b9ffff → #4aa3d8 → #171d4d"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<filter id=\"glow\"><feGaussianBlur stdDeviation=\"3\" result=\"b\"/><feMerge>...</feMerge></filter> aplicado a estrellas"
+    },
+    {
+      "id": "a11",
+      "valor": "contradice",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#273b8f\"/> (el fondo es azul oscuro, no negro puro)"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(92 74)\"> (personaje centrado y grande en el SVG de 400x400)"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "suit fill=\"url(#suit)\" con #f7fbff sobre fondo sky #14133f/#070616"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "escena nocturna tranquila, sin elementos de acción brusca; luna y estrellas con glow suave"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "filter glow en estrellas, gradientes de luna y cielo, figura astronauta con cara tierna y cohete"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M70 119c5 5 12 5 17 0\" fill=\"none\" stroke=\"#ffd08a\" (sonrisa)"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "ojos con reflejo <path d=\"M45 91c14-19 39-30 66-21\" stroke=\"#e7ffff\" opacity=\".65\"/> y expresión de cara tierna"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "gatito astronauta con cara tierna, estrellas brillantes, luna grande, cohete: composición de cuento ilustrado"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"58\" cy=\"103\" rx=\"8\" ry=\"11\"/> orejas; suit fill #f7fbff (blanco); astronauta completo"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 321...\" fill=\"#2b2857\"/> <path d=\"M0 346...\" fill=\"#15162e\"/> paisaje oscuro debajo del personaje"
+    },
+    {
+      "id": "a21",
+      "valor": "contradice",
+      "evidencia": "hay estrellas pero pocas y dispersas: <circle cx=\"44\" cy=\"52\" r=\"1.5\"/>... (no es un cielo 'lleno' de estrellas)"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"323\" cy=\"74\" r=\"42\" fill=\"url(#moon)\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"77\" cy=\"99\" rx=\"50\" ry=\"42\" fill=\"url(#glass)\"/> con #b9ffff → #4aa3d8 (azul brillante)"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"58\" cy=\"103\" rx=\"8\" ry=\"11\"/> <ellipse cx=\"97\" cy=\"103\" rx=\"8\" ry=\"11\"/> fill=\"#ffd08a\" (orejas dentro/sobre el casco)"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffd08a\"><ellipse cx=\"58\" cy=\"103\"/><ellipse cx=\"97\" cy=\"103\"/></g> <path d=\"M70 119c5 5 12 5 17 0\" (sonrisa) <path d=\"M77 110l-5 5 5 4 5-4z\" fill=\"#ff9a8c\" (nariz)"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 321c48-24 80-12 119-22...\" fill=\"#2b2857\"/> <ellipse cx=\"125\" cy=\"354\" rx=\"58\" ry=\"10\" fill=\"#080913\" opacity=\".5\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(291 203) rotate(16)\"><path d=\"M27 0c22 18 32 42 28 70...\" fill=\"#ff5a75\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M21 72c-2 13-10 24-23 32...\" fill=\"#ff8a2a\"/> y llamas amarillas, cohete inclinado con rotate(16)"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M21 72c-2 13-10 24-23 32 2-16 7-28 16-36z\" fill=\"#ff8a2a\"/> <path d=\"M24 74...\" fill=\"#ffe76b\"/> <path d=\"M10 48L-4 65l20-4z\" fill=\"#ffcf4a\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#273b8f\"/><stop offset=\"100%\" stop-color=\"#070616\"/></radialGradient>"
+    }
+  ]
+}

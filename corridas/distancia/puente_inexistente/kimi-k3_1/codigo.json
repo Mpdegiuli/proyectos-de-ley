@@ -1,0 +1,280 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "kimi-k3_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:45:21+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "contradice",
+      "evidencia": "Las islas tienen base de roca que llega hasta coordenadas Y altas (338 el mar), no flotan en el aire visualmente como islas aéreas; la isla chica está en y~258-338 y la grande en y~205-286"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#8ef0ff\" stroke-width=\"1.5\" stroke-opacity=\".35\"><line x1=\"150\" y1=\"158\" x2=\"128\" y2=\"240\"/>... conectan cristales con el puente"
+    },
+    {
+      "id": "a3",
+      "valor": "no_esta",
+      "evidencia": "El path del puente es una curva simple: \"M130 250 C155 241 168 232 182 227 C194 223 200 214 199 203 C198 190 189 181 177 182 C164 183 156 194 159 206 C162 218 172 226 185 227 C205 225 220 219 247 208\" — forma un bucle en S pero no un loop completo cerrado"
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "No hay ningún elemento que dibuje agua subiendo desde el mar a la isla chica"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"145\" cy=\"255\" r=\"2.6\" fill=\"#ffd98a\"/> con línea colgante: <line x1=\"145\" y1=\"243\" x2=\"145\" y2=\"252\" stroke=\"#3a2418\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"337\" cy=\"62\" r=\"27\" fill=\"#ffeab0\" mask=\"url(#mm)\"/> con mask: <circle cx=\"337\" cy=\"62\" r=\"27\" fill=\"#fff\"/><circle cx=\"349\" cy=\"54\" r=\"24\" fill=\"#000\"/> — crea forma de luna creciente"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"crys\"><stop offset=\"0\" stop-color=\"#e6ffff\"/><stop offset=\"1\" stop-color=\"#43cfe0\"/></linearGradient> y <radialGradient id=\"cglow\"><stop offset=\"0\" stop-color=\"#8ef0ff\""
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#12082b\"/><stop offset=\".55\" stop-color=\"#3b1d63\"/><stop offset=\"1\" stop-color=\"#0e5b63\"/></linearGradient>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<rect y=\"338\" width=\"400\" height=\"62\" fill=\"url(#sea)\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "Isla chica: <ellipse cx=\"95\" cy=\"256\" rx=\"62\" ry=\"15\" fill=\"url(#grass)\"/> e isla grande: <ellipse cx=\"305\" cy=\"203\" rx=\"66\" ry=\"16\" fill=\"url(#grass)\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<g><animateTransform attributeName=\"transform\" type=\"translate\" values=\"150 146;150 140;150 146\" dur=\"4s\" repeatCount=\"indefinite\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "no_esta",
+      "evidencia": "El tablero no forma un loop completo; la curva en S permite continuidad de paso aunque visualmente sea irregular"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "Cristales con fill url(#crys) color #e6ffff/#43cfe0 sobre fondo sky #12082b/#3b1d63"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "El puente tiene líneas que lo sostienen desde cristales: <line x1=\"150\" y1=\"158\" x2=\"128\" y2=\"240\"/> etc., stroke=\"#8ef0ff\""
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "Puente path va de x~130,y~250 (isla chica) a x~247,y~208 (isla grande), ambas con ellipse grass"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#12082b\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path ... stroke=\"#8b5a35\" stroke-width=\"8\"/> (madera) y <path ... stroke=\"#d9a066\" stroke-width=\"2\" opacity=\".85\"/> con stroke-dasharray=\"1 9\" (aspecto de soga/tablones)"
+    },
+    {
+      "id": "a18",
+      "valor": "no_esta",
+      "evidencia": "El path hace un bucle en S pero no un moño; no hay forma de lazo con dos lazos simétricos"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "No hay ningún elemento rect o path que represente pilares bajo el puente"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "Tres grupos de cristales en translate(150 146), translate(200 116), translate(262 142) con líneas desde ellos a x1=\"150\" y1=\"158\", x1=\"200\" y1=\"128\", x1=\"262\" y1=\"150\""
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<animateTransform attributeName=\"transform\" type=\"translate\" values=\"150 146;150 140;150 146\"... sin suelo debajo"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#8ef0ff\" stroke-width=\"1.5\" stroke-opacity=\".35\"><line x1=\"150\" y1=\"158\" x2=\"128\" y2=\"240\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<line x1=\"145\" y1=\"243\" x2=\"145\" y2=\"252\" stroke=\"#3a2418\" stroke-width=\"1.5\"/> con círculo farol colgando del path del puente"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<animateTransform attributeName=\"transform\" type=\"rotate\" values=\"-7 145 243;7 145 243;-7 145 243\" dur=\"3.2s\" repeatCount=\"indefinite\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<rect y=\"338\" width=\"400\" height=\"62\" fill=\"url(#sea)\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "no_esta",
+      "evidencia": "Solo hay un elemento de cascada: <path d=\"M305 336 C297 322...\" stroke=\"#c9f7ff\"... en la isla grande; no hay cascada en la isla chica"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"337\" cy=\"362\" rx=\"12\" ry=\"24\" fill=\"#ffeab0\" opacity=\".1\"/> y <path d=\"M322 352 h30 M326 366 h22 M330 380 h14\" stroke=\"#ffeab0\""
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "mask id=\"mm\": <circle cx=\"337\" cy=\"62\" r=\"27\" fill=\"#fff\"/><circle cx=\"349\" cy=\"54\" r=\"24\" fill=\"#000\"/> crea creciente"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"30\" cy=\"40\" r=\"1.5\" opacity=\".8\"/> y múltiples círculos fill=\"#fff\" en el cielo"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<animate attributeName=\"opacity\" values=\".9;.25;.9\" dur=\"2.6s\" repeatCount=\"indefinite\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "contradice",
+      "evidencia": "Las islas tienen bases rocosas que se extienden hacia abajo pero no hay suelo explícito; sin embargo la isla chica llega y~338 (nivel del mar) y la grande a y~286, por lo que no flotan claramente en el aire"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "El puente path forma bucle (loop en S) con la curva que sube y baja: C198 190 189 181 177 182 C164 183 156 194 159 206"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "path puente de x~130,y~250 a x~247,y~208 entre isla chica (cx=95) e isla grande (cx=305)"
+    },
+    {
+      "id": "a34",
+      "valor": "no_esta",
+      "evidencia": "El puente muestra stroke=\"#8b5a35\" y stroke-dasharray pero no hay elementos que muestren cuerda trenzada específicamente"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "\"M130 250 C155 241 168 232 182 227 C194 223 200 214 199 203 C198 190 189 181 177 182 C164 183 156 194 159 206 C162 218 172 226 185 227\" — la curva hace un bucle sobre sí misma"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "path puente conecta x=130,y=250 (isla chica cx=95) con x=247,y=208 (isla grande cx=305)"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "Las islas tienen bases rocosas que se cierran antes del mar: <path d=\"M35 258 C42 298 68 322 95 338...fill=\"url(#rock)\"/> — la pequeña llega al nivel del mar, la grande no"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "No hay ningún path o rect representando pilares en el código"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#8ef0ff\"...<line x1=\"150\" y1=\"158\" x2=\"128\" y2=\"240\"/>... líneas desde cristales hacia el puente"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#8ef0ff\" stroke-width=\"1.5\" stroke-opacity=\".35\"><line x1=\"150\" y1=\"158\" x2=\"128\" y2=\"240\"/>"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"95\" cy=\"340\" r=\"2\" fill=\"#9df2ff\"><animate attributeName=\"cy\" values=\"340;362\" dur=\"1.8s\"/><animate attributeName=\"opacity\" values=\".9;0\"/>"
+    },
+    {
+      "id": "a42",
+      "valor": "no_esta",
+      "evidencia": "No hay ningún elemento que muestre agua subiendo en la isla chica"
+    },
+    {
+      "id": "a43",
+      "valor": "no_esta",
+      "evidencia": "No hay path de cascada en la isla chica (cx=95); solo hay en la isla grande"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "<line x1=\"145\" y1=\"243\" x2=\"145\" y2=\"252\"/>...<circle cy=\"255\" r=\"2.6\" fill=\"#ffd98a\"/> — tres faroles colgantes"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "<animateTransform attributeName=\"transform\" type=\"rotate\" values=\"-7 145 243;7 145 243;-7 145 243\" dur=\"3.2s\" repeatCount=\"indefinite\"/>"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 400\">"
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "sky: #12082b, #3b1d63 (violeta), #0e5b63 (turquesa); grass: #9df5c9; sea: #0f7076"
+    },
+    {
+      "id": "a48",
+      "valor": "esta",
+      "evidencia": "fill=\"#ffd98a\" (faroles), fill=\"#ffeab0\" (luna), stop-color=\"#ffedb8\" (glow)"
+    },
+    {
+      "id": "a49",
+      "valor": "contradice",
+      "evidencia": "Los rellenos usan múltiples linearGradient y radialGradient: url(#sky), url(#rock), url(#grass), url(#sea), url(#crys) — no es flat design"
+    },
+    {
+      "id": "a50",
+      "valor": "esta",
+      "evidencia": "Círculos, elipses, paths con rx/ry redondeados predominan en el diseño"
+    },
+    {
+      "id": "a51",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#12082b\"/><stop offset=\".55\" stop-color=\"#3b1d63\"/><stop offset=\"1\" stop-color=\"#0e5b63\"/>"
+    },
+    {
+      "id": "a52",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/> con #12082b oscuro nocturno"
+    },
+    {
+      "id": "a53",
+      "valor": "esta",
+      "evidencia": "Cristales flotantes, puente con bucle, luna creciente, faroles, islas flotantes — conjunto onírico/ilustración infantil"
+    },
+    {
+      "id": "a54",
+      "valor": "esta",
+      "evidencia": "<animate attributeName=\"opacity\" values=\".9;.25;.9\" dur=\"2.6s\" repeatCount=\"indefinite\"/> y <animateTransform... repeatCount=\"indefinite\"/>"
+    }
+  ]
+}

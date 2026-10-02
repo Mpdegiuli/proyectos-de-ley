@@ -1,0 +1,245 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "claude-sonnet-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T01:06:23+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<g fill=\"none\" stroke=\"#4a5a6a\" stroke-width=\"1.5\" opacity=\"0.7\"> <path d=\"M-120 20 Q-110 35 -100 20\"/>..."
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"30\" cy=\"8\" r=\"5\" fill=\"#ffd700\"/> <circle cx=\"30\" cy=\"8\" r=\"2\" fill=\"#111\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M45 10 Q60 8 65 15 Q60 20 45 18\" fill=\"#2c3e50\" stroke=\"#0a0f14\" stroke-width=\"1.5\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 0 Q-30 -30 -10 -10 Q-40 -5 -15 5 Q-45 20 -10 15 Q-30 35 0 10 Z\" fill=\"url(#finG)\""
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<!-- Tentáculos colgando del casco, sirviendo de remos --> <g stroke=\"#2c3e50\" stroke-width=\"5\" fill=\"none\""
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<line x1=\"-40\" y1=\"-5\" x2=\"-50\" y2=\"-110\"/> <line x1=\"10\" y1=\"-10\" x2=\"25\" y2=\"-150\"/> <line x1=\"60\" y1=\"-5\" x2=\"80\" y2=\"-80\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M-50 -110 Q-20 -90 -50 -40 Q-70 -80 -50 -110 Z\" fill=\"#c49ed9\" opacity=\"0.85\""
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<!-- Barco imposible: criatura marina mecánica --> (casco con escamas, tentáculos, cabeza, cola de pez, mástiles)"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "cabeza en proa: <g transform=\"translate(150,10)\">, cola en popa: <g transform=\"translate(-150,10)\">, tentáculos: <path d=\"M-100 60 Q-110 90..."
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<!-- Barco imposible: criatura marina mecánica -->"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<!-- Barco imposible: criatura marina mecánica -->"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M-150 20 Q-140 70 -60 85 Q0 95 60 85 Q140 70 150 20 Q140 0 100 -5 Q0 10 -100 -5 Q-140 0 -150 20 Z\""
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"hull\"> <stop offset=\"0%\" stop-color=\"#3a4a5a\"/> <stop offset=\"100%\" stop-color=\"#15202b\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<!-- Escamas en el casco --> <g fill=\"none\" stroke=\"#4a5a6a\" stroke-width=\"1.5\" opacity=\"0.7\">"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<!-- Ojo de buey con bulbo luminoso --> <circle cx=\"-60\" cy=\"30\" r=\"12\" fill=\"url(#bulb)\"/> <circle cx=\"0\" cy=\"35\" r=\"10\"/> <circle cx=\"60\" cy=\"28\" r=\"12\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bulb\"> <stop offset=\"0%\" stop-color=\"#fff8c4\"/> <stop offset=\"100%\" stop-color=\"#ffb100\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<!-- Cabeza de criatura en la proa --> <path d=\"M0 0 Q30 -10 45 10 Q50 25 30 30 Q10 35 -5 20 Z\""
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"30\" cy=\"8\" r=\"5\" fill=\"#ffd700\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M45 10 Q60 8 65 15 Q60 20 45 18\" fill=\"#2c3e50\" stroke=\"#0a0f14\" stroke-width=\"1.5\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<!-- Cola trasera tipo pez --> <g transform=\"translate(-150,10)\"> <path d=\"M0 0 Q-30 -30 -10 -10 Q-40 -5 -15 5 Q-45 20 -10 15 Q-30 35 0 10 Z\""
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"finG\"> <stop offset=\"0%\" stop-color=\"#8e44ad\"/> <stop offset=\"100%\" stop-color=\"#2c3e50\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<!-- Tentáculos colgando del casco, sirviendo de remos --> <path d=\"M-100 60 Q-110 90 -95 110 Q-85 125 -95 140\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<line x1=\"-40\" y1=\"-5\" x2=\"-50\" y2=\"-110\"/> <line x1=\"10\" y1=\"-10\" x2=\"25\" y2=\"-150\"/> <line x1=\"60\" y1=\"-5\" x2=\"80\" y2=\"-80\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M-50 -110 Q-20 -90 -50 -40...\" fill=\"#c49ed9\" opacity=\"0.85\"/> (opacity < 1 da traslucidez)"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<!-- Mástiles asimétricos con velas de membrana --> <path d=\"M-50 -110 Q-20 -90 -50 -40 Q-70 -80 -50 -110 Z\" fill=\"#c49ed9\""
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<!-- Bandera con símbolo extraño --> <path d=\"M25 -170 L55 -162 L25 -154 Z\" fill=\"#ff5e5e\"/> <circle cx=\"35\" cy=\"-162\" r=\"3\" fill=\"#fff\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"> <stop offset=\"0%\" stop-color=\"#2b1055\"/> (tonos oscuros nocturnos) + <rect y=\"230\" width=\"400\" height=\"170\" fill=\"url(#sea)\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<!-- Reflejo en el agua --> <g transform=\"translate(200,320) scale(1,-0.4)\" opacity=\"0.25\">"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<!-- Pequeñas burbujas --> <g fill=\"#8fd3ff\" opacity=\"0.5\"> <circle cx=\"-70\" cy=\"100\" r=\"3\"/>..."
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"> <stop offset=\"50%\" stop-color=\"#7b4397\"/> <stop offset=\"100%\" stop-color=\"#ff7e5f\"/> (degradado crepuscular)"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<!-- Barco imposible: criatura marina mecánica --> (casco, cabeza, cola, tentáculos, mástiles fusionados)"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "escamas: stroke=\"#4a5a6a\" sobre casco fill=\"url(#hull)\" con colores #3a4a5a/#15202b (metálicos oscuros)"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<!-- Cabeza de criatura en la proa --> <g transform=\"translate(150,10)\">"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"30\" cy=\"8\" r=\"5\" fill=\"#ffd700\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<!-- Cola trasera tipo pez --> <g transform=\"translate(-150,10)\"> <path d=\"M0 0 Q-30 -30 -10 -10...\""
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<!-- Tentáculos colgando del casco, sirviendo de remos --> <g stroke=\"#2c3e50\" stroke-width=\"5\" fill=\"none\""
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<line x1=\"-40\" y1=\"-5\" x2=\"-50\" y2=\"-110\"/> + <path d=\"M-50 -110 Q-20 -90 -50 -40...\" (mástiles y velas)"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<!-- Mástiles asimétricos con velas de membrana --> fill=\"#c49ed9\" opacity=\"0.85\""
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "sky: #7b4397 (violeta), #ff7e5f (naranja); velas: #c49ed9, #e8c6ff (violeta)"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"100%\" stop-color=\"#ff7e5f\"/> (naranja rojizo al horizonte en gradiente sky)"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<rect y=\"230\" width=\"400\" height=\"170\" fill=\"url(#sea)\"/> <linearGradient id=\"sea\"> <stop offset=\"100%\" stop-color=\"#0b2545\"/>"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "linearGradient id=\"hull\", id=\"sky\", id=\"sea\"; radialGradient id=\"bulb\""
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "casco metálico oscuro + escamas + tentáculos + velas orgánicas + colores púrpura: combinación steampunk-orgánica de fantasía oscura"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "composición con gradientes, criatura mecánica, atardecer nocturno, detalles ornamentales: estilo ilustración fantástica"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "tres mástiles a distintas alturas y posiciones: x1=\"-40\", x1=\"10\", x1=\"60\"; cola en popa, cabeza en proa"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "<!-- Bandera con símbolo extraño --> <path d=\"M25 -170 L55 -162 L25 -154 Z\" fill=\"#ff5e5e\"/>"
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "<!-- Pequeñas burbujas --> <g fill=\"#8fd3ff\" opacity=\"0.5\"> <circle cx=\"-70\" cy=\"100\" r=\"3\"/>..."
+    }
+  ]
+}

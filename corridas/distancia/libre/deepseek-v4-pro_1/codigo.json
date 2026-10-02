@@ -1,0 +1,145 @@
+{
+  "consigna": "libre",
+  "unidad": "deepseek-v4-pro_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:09:31+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#1a1a3e\"/><stop offset=\"35%\" stop-color=\"#4a2c5e\"/><stop offset=\"65%\" stop-color=\"#c94b4b\"/><stop offset=\"85%\" stop-color=\"#f28e2b\"/><stop offset=\"100%\" stop-color=\"#ffd166\"/></linearGradient>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffffff\" opacity=\"0.6\"><circle cx=\"30\" cy=\"40\" r=\"1.5\"/>..."
+    },
+    {
+      "id": "a3",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"200\" cy=\"260\" r=\"35\" fill=\"#fff5c2\"/> <!-- El sol está en cy=260, bien dentro del cuadro, no en el horizonte -->"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<!-- Far mountains --> ... <!-- Middle mountains --> ... <!-- Near mountains -->"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180 400 Q190 370 170 350...\" fill=\"url(#river)\"/> <linearGradient id=\"river\"><stop offset=\"0%\" stop-color=\"#ffd166\"/>..."
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<!-- Foreground trees left --> <g fill=\"#1a1a2e\"> ... <!-- Foreground trees right --> <g fill=\"#1a1a2e\" opacity=\"0.9\">"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<!-- Foreground trees left --> y <!-- Foreground trees right --> flanquean la escena a ambos lados"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"65%\" stop-color=\"#c94b4b\"/><stop offset=\"85%\" stop-color=\"#f28e2b\"/><stop offset=\"100%\" stop-color=\"#ffd166\"/></linearGradient>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<!-- Far mountains --> ... <!-- Middle mountains --> ... <!-- Near mountains --> <!-- Foreground trees -->"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "Degradados suaves, colores cálidos, escena sin elementos disruptivos: sky, mountains, river en capas tranquilas"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#1a1a3e\"/> (frío) vs <circle cx=\"200\" cy=\"260\" r=\"35\" fill=\"#fff5c2\"/> y stop-color=\"#ffd166\" (cálido)"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "Paisaje estático sin figuras humanas, árboles enmarcando, río serpenteando, montañas en capas"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "No hay elementos sonoros ni agitados; escena estática con siluetas y degradados suaves"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "Montañas a ambos lados, río central, degradado de atardecer en el cielo"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#1a1a3e\"/><stop offset=\"35%\" stop-color=\"#4a2c5e\"/><stop offset=\"65%\" stop-color=\"#c94b4b\"/><stop offset=\"85%\" stop-color=\"#f28e2b\"/><stop offset=\"100%\" stop-color=\"#ffd166\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffffff\" opacity=\"0.6\"><circle cx=\"30\" cy=\"40\" r=\"1.5\"/>..."
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"260\" r=\"35\" fill=\"#fff5c2\"/> <circle cx=\"200\" cy=\"260\" r=\"80\" fill=\"url(#sunGlow)\" filter=\"url(#blur1)\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"200\" cy=\"260\" r=\"35\"/> el sol está en y=260, las montañas tienen picos entre y=200-270, pero el sol no está posado entre montañas sino sobre el río/valle"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"mount1\"><stop offset=\"0%\" stop-color=\"#6b3a5d\"/></linearGradient> <linearGradient id=\"mount2\"><stop offset=\"0%\" stop-color=\"#7d4b6e\"/></linearGradient> <linearGradient id=\"mount3\"><stop offset=\"0%\" stop-color=\"#4d2c5e\"/></linearGradient>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180 400 Q190 370 170 350 Q150 330 175 310 Q200 290 185 270 Q170 250 190 230 Q210 210 195 190 Q180 170 200 150 Q220 130 210 110 Q200 90 220 70 Q240 50 230 30..."
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"river\"><stop offset=\"0%\" stop-color=\"#ffd166\"/><stop offset=\"30%\" stop-color=\"#c94b4b\"/><stop offset=\"100%\" stop-color=\"#1a1a3e\"/></linearGradient>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180 400 Q190 370 170 350...L260 25 L260 25...Z\" fill=\"url(#river)\"/> corre verticalmente por el centro del cuadro"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<!-- Foreground trees left --> <g fill=\"#1a1a2e\"> ... <!-- Foreground trees right --> <g fill=\"#1a1a2e\" opacity=\"0.9\">"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "Árboles izquierda y derecha flanqueando la escena central con el río y las montañas"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 395 Q20 385 40 392 Q60 399 80 390...\" fill=\"#1f1530\" opacity=\"0.7\"/> <!-- Grass/bank highlights -->"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"65%\" stop-color=\"#c94b4b\"/><stop offset=\"85%\" stop-color=\"#f28e2b\"/><stop offset=\"100%\" stop-color=\"#ffd166\"/> con estrella visibles aún"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "Colores oscuros #1a1a3e, #4a2c5e combinados con naranjas cálidos, escena estática sin figuras, siluetas negras de árboles"
+    }
+  ]
+}

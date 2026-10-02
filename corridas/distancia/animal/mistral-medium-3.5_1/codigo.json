@@ -1,0 +1,145 @@
+{
+  "consigna": "animal",
+  "unidad": "mistral-medium-3.5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:54:53+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200,100 Q250,50 300,100 Q350,150 300,200 Q250,250 200,200 Q150,250 100,200 Q50,150 100,100 Q150,50 200,100 Z\" fill=\"#FFD700\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200,100 Q250,50 300,100 Q350,150 300,200 Q250,250 200,200 Q150,250 100,200 Q50,150 100,100 Q150,50 200,100 Z\" fill=\"#FFD700\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"180\" cy=\"120\" r=\"15\" fill=\"black\"/> <circle cx=\"220\" cy=\"120\" r=\"15\" fill=\"black\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "No hay ningún elemento que represente explícitamente una nariz en el código."
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150,180 Q170,200 190,180\" stroke=\"black\" stroke-width=\"3\" fill=\"none\"/> <path d=\"M210,180 Q230,200 250,180\" stroke=\"black\" stroke-width=\"3\" fill=\"none\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "no_esta",
+      "evidencia": "No hay paths con trazos gruesos que representen una melena; el path principal es el cuerpo con fill=\"#FFD700\"."
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200,100 Q250,50 300,100 ...\" fill=\"#FFD700\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M120,250 Q140,270 160,250\" stroke=\"black\" stroke-width=\"5\" fill=\"none\"/> <path d=\"M240,250 Q260,270 280,250\" stroke=\"black\" stroke-width=\"5\" fill=\"none\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M120,250 Q140,270 160,250\" stroke=\"black\" stroke-width=\"5\" fill=\"none\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "no_esta",
+      "evidencia": "No hay paths identificables como melena con trazos gruesos; solo el cuerpo fill=\"#FFD700\"."
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "El SVG usa pocos elementos: un path, dos circles y varios paths de trazo simple."
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "Ojos, boca, bigotes y cuerpo ovalado dorado componen una figura animal reconocible."
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200,100 Q250,50 300,100 ...\" fill=\"#FFD700\"/> con ojos, boca y bigotes."
+    },
+    {
+      "id": "a14",
+      "valor": "no_esta",
+      "evidencia": "No hay un path separado para la melena con fill=\"#FFD700\"; el único path con ese color es el cuerpo."
+    },
+    {
+      "id": "a15",
+      "valor": "no_esta",
+      "evidencia": "No hay un path de melena separado con curvas suaves."
+    },
+    {
+      "id": "a16",
+      "valor": "no_esta",
+      "evidencia": "No hay un path cuadrático identificado como melena."
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"180\" cy=\"120\" r=\"15\" fill=\"black\"/> <circle cx=\"220\" cy=\"120\" r=\"15\" fill=\"black\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "no_esta",
+      "evidencia": "No hay ningún elemento que represente explícitamente una nariz."
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180,140 Q200,160 220,140\" stroke=\"black\" stroke-width=\"3\" fill=\"none\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "contradice",
+      "evidencia": "<path d=\"M150,180 Q170,200 190,180\" stroke-width=\"3\"/> los bigotes tienen stroke-width=\"3\", no trazos gruesos."
+    },
+    {
+      "id": "a21",
+      "valor": "no_esta",
+      "evidencia": "Los paths de patas en y=250 son curvas en U, no U invertida: Q140,270 baja hacia abajo."
+    },
+    {
+      "id": "a22",
+      "valor": "no_esta",
+      "evidencia": "No hay ningún path identificado como cola en el código."
+    },
+    {
+      "id": "a23",
+      "valor": "no_esta",
+      "evidencia": "No hay paths identificados como patas traseras separadas de las delanteras."
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path .../> <circle .../> stroke=\"black\" stroke-width=\"3\""
+    },
+    {
+      "id": "a25",
+      "valor": "no_esta",
+      "evidencia": "No hay cola ni patas traseras identificadas en el código."
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "El dibujo usa formas simplificadas con paths cuadráticos y pocos elementos."
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<svg viewBox=\"0 0 400 400\" xmlns=\"http://www.w3.org/2000/svg\">"
+    }
+  ]
+}

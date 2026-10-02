@@ -1,0 +1,145 @@
+{
+  "consigna": "animal",
+  "unidad": "qwen3.8-max_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:55:45+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 92C142 92 114 142 116 200C118 256 154 296 200 296C246 296 282 256 284 200C286 142 258 92 200 92Z\" fill=\"url(#bo)\""
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M-6 292C70 286 130 290 190 288C260 286 330 278 406 268L406 284C330 294 260 302 190 304C130 306 70 300 -6 308Z\" fill=\"url(#br)\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"318\" cy=\"78\" r=\"32\" fill=\"url(#mo)\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#050f20\"/><stop offset=\".55\" stop-color=\"#0d2740\"/><stop offset=\"1\" stop-color=\"#17444f\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"ir\"><stop offset=\"0\" stop-color=\"#ffe27a\"/><stop offset=\".6\" stop-color=\"#f09b1f\"/><stop offset=\"1\" stop-color=\"#b95f07\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<pattern id=\"fc\" width=\"22\" height=\"16\"><path d=\"M0 0A11 11 0 0 0 22 0M-11 8A11 11 0 0 0 11 8M11 8A11 11 0 0 0 33 8\" fill=\"none\" stroke=\"#c08a4d\""
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 400\""
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"166.5\" cy=\"143.5\" r=\"3\" fill=\"#fff\" opacity=\".95\"/><circle cx=\"175\" cy=\"152\" r=\"1.4\" fill=\"#fff\" opacity=\".7\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#050f20\"/> (fondo oscuro) vs <circle cx=\"318\" cy=\"78\" r=\"32\" fill=\"url(#mo)\"/> (luna clara) vs <path fill=\"url(#bo)\" (búho cálido)"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 92C142 92 114 142 116 200C118 256 154 296 200 296\" fill=\"url(#bo)\"/> centrado, sin elementos de movimiento"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "Composición estática: búho centrado, fondo degradado oscuro, sin elementos de agitación"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 92C142 92 114 142 116 200...\" fill=\"url(#bo)\"/> centrado en x=200 del viewBox 0 0 400 400"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 92C142 92 114 142 116 200C118 256 154 296 200 296C246 296 282 256 284 200C286 142 258 92 200 92Z\" fill=\"url(#bo)\""
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"bo\"><stop offset=\"0\" stop-color=\"#d98d4b\"/><stop offset=\"1\" stop-color=\"#9a5526\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M-6 292C70 286 130 290 190 288C260 286 330 278 406 268L406 284...\" fill=\"url(#br)\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#050f20\"/><stop offset=\".55\" stop-color=\"#0d2740\"/><stop offset=\"1\" stop-color=\"#17444f\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 100C160 100 132 126 132 156C132 186 162 206 200 206C238 206 268 186 268 156C268 126 240 100 200 100Z\" fill=\"#f4e4bf\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"ir\"><stop offset=\"0\" stop-color=\"#ffe27a\"/><stop offset=\".6\" stop-color=\"#f09b1f\"/><stop offset=\"1\" stop-color=\"#b95f07\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"166.5\" cy=\"143.5\" r=\"3\" fill=\"#fff\" opacity=\".95\"/><circle cx=\"175\" cy=\"152\" r=\"1.4\" fill=\"#fff\" opacity=\".7\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"234\" rx=\"56\" ry=\"60\" fill=\"#efd6a2\"/><ellipse cx=\"200\" cy=\"234\" rx=\"56\" ry=\"60\" fill=\"url(#fc)\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"318\" cy=\"78\" r=\"32\" fill=\"url(#mo)\"/> (luna en esquina superior derecha, búho centrado debajo)"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"318\" cy=\"78\" r=\"60\" fill=\"url(#gl)\"/> (halo luminoso alrededor de la luna)"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"30\" cy=\"40\" r=\"1.4\" opacity=\".9\"/><circle cx=\"72\" cy=\"86\" r=\"1\" opacity=\".6\"/>... fill=\"#dfeaff\""
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"66\" cy=\"232\" r=\"8\" fill=\"url(#fg)\"/><circle cx=\"66\" cy=\"232\" r=\"2\" fill=\"#f2ffbe\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "Escena nocturna estática con degradados suaves, sin elementos de agitación"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#vg)\"/> (viñeta oscura sobre todo) + fondo nocturno profundo #050f20"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<title id=\"t\">El búho de la luna</title> + búho central prominente en escena nocturna"
+    }
+  ]
+}

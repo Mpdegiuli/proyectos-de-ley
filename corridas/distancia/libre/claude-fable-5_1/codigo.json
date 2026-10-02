@@ -1,0 +1,170 @@
+{
+  "consigna": "libre",
+  "unidad": "claude-fable-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:57:54+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"230\" r=\"55\" fill=\"url(#sol)\"/> y <path d=\"M0,260 L60,190 L110,240 L160,180 ...\" fill=\"#3d3560\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0,260 L60,190 L110,240 L160,180 L210,250 L270,175 L330,245 L400,195 L400,260 Z\" fill=\"#3d3560\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(300,272)\"><path d=\"M-22,8 Q0,16 22,8 L16,2 L-16,2 Z\" fill=\"#1d1a33\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M100,110 Q106,104 112,110 Q118,104 124,110\"/> <path d=\"M140,90 Q145,85 150,90 Q155,85 160,90\"/> <path d=\"M270,120 Q275,115 280,120 Q285,115 290,120\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"70\" cy=\"308\" r=\"6\"/> y <rect x=\"0\" y=\"330\" width=\"110\" height=\"10\" fill=\"#26203d\"/> y <line x1=\"86\" y1=\"326\" x2=\"130\" y2=\"290\" stroke=\"#1d1a33\" stroke-width=\"1.5\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"40%\" stop-color=\"#6a4c93\"/> <stop offset=\"70%\" stop-color=\"#e07a5f\"/> y sol a cx=\"200\" cy=\"230\""
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"260\" width=\"400\" height=\"140\" fill=\"url(#mar)\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"40%\" stop-color=\"#6a4c93\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"70%\" stop-color=\"#e07a5f\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"40%\" stop-color=\"#6a4c93\"/> <stop offset=\"70%\" stop-color=\"#e07a5f\"/> en gradiente id=\"cielo\""
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"270\" rx=\"45\" ry=\"4\" opacity=\"0.7\"/> fill=\"#ffd166\""
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M20,285 Q40,282 60,285 T100,285\"/> y las elipses del reflejo se desplazan en cx: 200,195,205,198,203,199,201"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#1a2456\"/> (frío) y <stop offset=\"70%\" stop-color=\"#e07a5f\"/> (cálido) en mismo gradiente id=\"cielo\""
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<!-- Persona sentada en el muelle --> <circle cx=\"70\" cy=\"308\" r=\"6\"/> con caña y reflejo, posicionada sobre el muelle"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "escena estática con olas suaves stroke-width=\"1.5\" opacity=\"0.4\", reflejo sereno, persona sola pescando"
+    },
+    {
+      "id": "a16",
+      "valor": "contradice",
+      "evidencia": "hay estrellas, nubes, montañas lejanas y cercanas, mar, sol, velero, pájaros, muelle, persona, caña, reflejo, olas — múltiples elementos complejos"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"230\" r=\"55\" fill=\"url(#sol)\"/> con halos r=\"70\" y r=\"90\""
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "cy=\"230\" del sol cerca del horizonte y=\"260\", gradiente de atardecer en cielo"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0,260 L60,190 L110,240 L160,180 L210,250 L270,175 L330,245 L400,195 L400,260 Z\" fill=\"#3d3560\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"40%\" stop-color=\"#6a4c93\"/> <stop offset=\"70%\" stop-color=\"#e07a5f\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"40\" cy=\"30\" r=\"1.5\" opacity=\"0.9\"/> ... <!-- Estrellas -->"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffd166\"><ellipse cx=\"200\" cy=\"270\" rx=\"45\" ry=\"4\" opacity=\"0.7\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"270\" rx=\"45\" ry=\"4\"/> <ellipse cx=\"195\" cy=\"282\" rx=\"38\" ry=\"3.5\"/> ... múltiples franjas"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(300,272)\"> con casco y velas, a la derecha"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M100,110 Q106,104 112,110 Q118,104 124,110\"/> cy aprox 90-120, parte superior"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"330\" width=\"110\" height=\"10\" fill=\"#26203d\"/> <!-- Muelle -->"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"70\" cy=\"308\" r=\"6\"/> <path d=\"M64,314 Q70,312 76,314 L77,330 L63,330 Z\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<line x1=\"86\" y1=\"326\" x2=\"130\" y2=\"290\" stroke=\"#1d1a33\" stroke-width=\"1.5\"/> <!-- Caña de pescar -->"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<line x1=\"130\" y1=\"290\" x2=\"130\" y2=\"360\" stroke=\"#1d1a33\" stroke-width=\"0.8\" opacity=\"0.7\"/> <circle cx=\"130\" cy=\"360\" r=\"1.5\" fill=\"#f2cc8f\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"260\" width=\"400\" height=\"140\" fill=\"url(#mar)\"/> y gradiente cielo atardecer y sol en horizonte"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#1a2456\"/> cielo oscuro arriba con estrellas, sol en horizonte"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "olas opacity=\"0.4\" stroke-width=\"1.5\", persona sola, reflejo suave, escena estática sin elementos de agitación"
+    }
+  ]
+}

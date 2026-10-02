@@ -1,0 +1,115 @@
+{
+  "consigna": "nada",
+  "unidad": "claude-haiku-4-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:44:06+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"nada\" cx=\"50%\" cy=\"50%\" r=\"50%\"><stop offset=\"0%\" style=\"stop-color:#1a1a1a\"/><stop offset=\"100%\" style=\"stop-color:#0a0a0a\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "@keyframes fade { 0%, 100% { opacity: 0.3; } 50% { opacity: 0.8; } } .void { animation: fade 4s infinite; }"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"40\"/><circle cx=\"200\" cy=\"200\" r=\"25\"/><circle cx=\"200\" cy=\"200\" r=\"10\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "<line x1=\"160\" y1=\"200\" x2=\"240\" y2=\"200\"/><line x1=\"200\" y1=\"160\" x2=\"200\" y2=\"240\"/><line x1=\"170\" y1=\"170\" x2=\"230\" y2=\"230\"/><line x1=\"230\" y1=\"170\" x2=\"170\" y2=\"230\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "@keyframes fade { 0%, 100% { opacity: 0.3; } 50% { opacity: 0.8; } } y elementos con fill=\"none\" stroke=\"#222222\" opacity muy bajos"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "stroke-width=\"0.5\" opacity=\"0.2\" / opacity=\"0.15\" / fill=\"#333333\" sobre fondo #0a0a0a"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "opacity=\"0.15\", opacity=\"0.2\", opacity=\"0.25\", stroke-width=\"0.5\", r=\"0.8\" a r=\"1.5\""
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "@keyframes fade { 0%, 100% { opacity: 0.3; } 50% { opacity: 0.8; } } partículas con fill=\"#333333\" sobre fondo #1a1a1a"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" style=\"stop-color:#1a1a1a\"/><stop offset=\"100%\" style=\"stop-color:#0a0a0a\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"50\" cy=\"80\" r=\"1.5\"/><circle cx=\"150\" cy=\"120\" r=\"1\"/>...<circle cx=\"320\" cy=\"300\" r=\"1.1\"/> (8 partículas)"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"40\" fill=\"none\"/><circle cx=\"200\" cy=\"200\" r=\"25\" fill=\"none\"/><circle cx=\"200\" cy=\"200\" r=\"10\" fill=\"none\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<line x1=\"160\" y1=\"200\" x2=\"240\" y2=\"200\"/><line x1=\"200\" y1=\"160\" x2=\"200\" y2=\"240\"/><line x1=\"170\" y1=\"170\" x2=\"230\" y2=\"230\"/><line x1=\"230\" y1=\"170\" x2=\"170\" y2=\"230\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 180 195 Q 170 200 180 205...\"/> <path d=\"M 220 195 Q 210 200 220 205...\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "@keyframes fade { 0%, 100% { opacity: 0.3; } 50% { opacity: 0.8; } } .void { animation: fade 4s infinite; }"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "círculos concéntricos + líneas entrecruzadas + paths de óvalos, todos fill=\"none\" con opacidades muy bajas"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "stroke=\"#222222\" stroke-width=\"0.5\" opacity=\"0.2\" fill=\"none\" sobre fondo #1a1a1a"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 180 195 Q...\"/> <path d=\"M 220 195 Q...\"/> comentario: <!-- Infinito (símbolo del eterno vacío) -->"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "@keyframes fade 4s infinite + radialGradient oscuro + partículas con opacidades bajas"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "opacity=\"0.15\" a opacity=\"0.4\", stroke-width=\"0.5\", fill=\"#333333\" sobre #0a0a0a"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "r=\"0.8\" a r=\"1.5\", fill=\"#333333\" clase void con opacity 0.3-0.8 sobre fondo #1a1a1a"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#nada)\"/> con colores #1a1a1a y #0a0a0a"
+    }
+  ]
+}

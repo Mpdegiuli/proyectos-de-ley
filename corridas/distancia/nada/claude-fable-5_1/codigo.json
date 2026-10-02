@@ -1,0 +1,55 @@
+{
+  "consigna": "nada",
+  "unidad": "claude-fable-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:43:26+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#000000\"/><stop offset=\"60%\" stop-color=\"#020204\"/><stop offset=\"100%\" stop-color=\"#050508\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#000000\"/><stop offset=\"100%\" stop-color=\"#050508\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"0\""
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "fill=\"none\""
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "stroke=\"none\""
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#000000\"/><stop offset=\"100%\" stop-color=\"#050508\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "no_esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#vacio)\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"0\" fill=\"none\" stroke=\"none\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "no_esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"0\" fill=\"none\" stroke=\"none\"/>"
+    }
+  ]
+}

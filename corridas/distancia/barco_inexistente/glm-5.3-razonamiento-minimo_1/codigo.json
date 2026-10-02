@@ -1,0 +1,260 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "glm-5.3-razonamiento-minimo_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T01:19:30+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 205 q 8 30 2 55\"/> ... <!-- costillas del casco -->"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M110 235 C 85 240 70 255 58 250 C 48 246 52 236 62 236 C 70 236 68 244 60 243\" ... <!-- tentáculo proa -->"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M182 95 C 130 100 112 140 128 172 ... <!-- vela-medusa -->"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<!-- frutas de la vela --> <circle cx=\"150\" cy=\"128\" r=\"4\" fill=\"#e88\" />"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<!-- mástil-coral --> <path d=\"M185 190 L 182 60\" stroke=\"#d9b98a\" stroke-width=\"6\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<!-- burbujas-propulsión --> <circle cx=\"88\" cy=\"248\" r=\"6\"/> ... fill=\"none\" stroke=\"#9fe8dd\""
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<!-- navegante pulpo --> <circle cx=\"200\" cy=\"180\" r=\"9\" fill=\"#e07aa8\" stroke=\"#0c333d\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<!-- cúpula de cristal --> <path d=\"M170 190 A 30 30 0 0 1 230 190 Z\" fill=\"url(#dome)\"/> y el pulpo está en cx=\"200\" cy=\"180\""
+    },
+    {
+      "id": "a9",
+      "valor": "no_esta",
+      "evidencia": "<!-- ===== EL BARCO INEXISTENTE ===== --> el comentario indica que no es un barco reconocible de un vistazo"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<!-- ===== EL BARCO INEXISTENTE ===== --> casco orgánico, tentáculo, ojo-lámpara, mástil-coral, vela-medusa, navegante pulpo"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"> <stop offset=\"0\" stop-color=\"#1a1440\"/> ... stop-color=\"#4b2a6b\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<!-- luna doble --> <circle cx=\"310\" cy=\"95\" r=\"38\" fill=\"url(#moon)\"/> <circle cx=\"340\" cy=\"70\" r=\"14\" fill=\"#ffe9a8\" opacity=\"0.85\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<!-- casco-orgánico tipo lágrima --> <path d=\"M120 240 C 130 265 175 275 210 270 C 250 264 275 245 278 222 C 280 205 268 192 248 190 C 240 170 215 160 195 165 ..."
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<!-- costillas del casco --> <path d=\"M150 205 q 8 30 2 55\"/> <path d=\"M172 195 q 6 35 0 62\"/> ..."
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"hull\"> <stop offset=\"0\" stop-color=\"#2e8f83\"/> <stop offset=\"0.5\" stop-color=\"#1f6f6b\"/> <stop offset=\"1\" stop-color=\"#123f4a\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<!-- ojo-lámpara (linterna de proa) --> <circle cx=\"140\" cy=\"225\" r=\"11\" fill=\"#ffd97a\" stroke=\"#0c333d\" stroke-width=\"2.5\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<!-- ventanillas --> <circle cx=\"240\" cy=\"222\" r=\"7\"/> <circle cx=\"258\" cy=\"214\" r=\"6\"/> <circle cx=\"272\" cy=\"204\" r=\"5\"/> fill=\"#bfefff\""
+    },
+    {
+      "id": "a18",
+      "valor": "contradice",
+      "evidencia": "El mástil parte de M185 190 (casco), no de la proa. La proa tiene el tentáculo y el ojo-lámpara en cx=\"140\""
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M182 95 C 130 100 112 140 128 172 ...Z\"/> y <path d=\"M182 95 C 234 100 252 140 236 172 ...Z\"/> <!-- vela-medusa -->"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<!-- frutas de la vela --> <circle cx=\"150\" cy=\"128\" r=\"4\" fill=\"#e88\" /> <circle cx=\"210\" cy=\"122\" r=\"4\" fill=\"#8be\"/> ..."
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"180\" r=\"9\" fill=\"#e07aa8\" stroke=\"#0c333d\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<!-- cúpula de cristal --> <path d=\"M170 190 A 30 30 0 0 1 230 190 Z\"/> pulpo en cy=\"180\" dentro del arco"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<!-- cúpula de cristal --> <path d=\"M170 190 A 30 30 0 0 1 230 190 Z\"/> en la parte inferior del casco que va de y≈160 a y≈275"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<!-- burbujas-propulsión --> <circle cx=\"88\" cy=\"248\" r=\"6\"/> <circle cx=\"76\" cy=\"258\" r=\"4\"/> <circle cx=\"66\" cy=\"252\" r=\"3\"/> <circle cx=\"58\" cy=\"260\" r=\"2.5\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<!-- remos-pétalos --> <ellipse cx=\"268\" cy=\"260\" rx=\"10\" ry=\"5\" transform=\"rotate(35 268 260)\" fill=\"#2e8f83\"/> <ellipse cx=\"276\" cy=\"266\" rx=\"9\" ry=\"4.5\" transform=\"rotate(40 276 266)\""
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M110 235 C 85 240 70 255 58 250 C 48 246 52 236 62 236 C 70 236 68 244 60 243\" <!-- tentáculo proa -->"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "La curva del tentáculo C 85 240 70 255 58 250 C 48 246 52 236 62 236 C 70 236 68 244 60 243 sugiere un giro exploratorio"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 260 Q 50 248 100 260 T 200 260 T 300 260 T 400 260 L400 400 L0 400 Z\" fill=\"url(#sea)\"/> y olas con stroke=\"#3f7fae\""
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<!-- estrellas --> <circle cx=\"40\" cy=\"40\" r=\"1.6\"/> <circle cx=\"90\" cy=\"70\" r=\"1.1\"/> ..."
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<!-- gaviota-fantasmas --> <path d=\"M70 100 q 8 -8 16 0 q 8 -8 16 0\"/> stroke=\"#f4e9d0\" opacity=\"0.8\""
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<!-- casco-orgánico tipo lágrima --> forma curva biológica con costillas y aleta dorsal: <path d=\"M198 165 C 195 140 205 118 220 108 ...\" <!-- aleta dorsal-timón -->"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<!-- costillas del casco --> <path d=\"M150 205 q 8 30 2 55\"/> fill=\"url(#hull)\" <!-- casco-orgánico tipo lágrima -->"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<!-- casco-orgánico tipo lágrima --> con <!-- aleta dorsal-timón --> y <!-- costillas del casco -->"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<!-- mástil-coral --> <path d=\"M182 90 l -16 -8\"/> <path d=\"M182 120 l 15 7\"/> <path d=\"M182 78 l 13 -10\"/> <path d=\"M182 148 l -14 -6\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<path d=\"M182 95 C 130 100 112 140 128 172 ...Z\"/> y <path d=\"M182 95 C 234 100 252 140 236 172 ...Z\"/> dos lóbulos"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<!-- frutas de la vela --> <circle cx=\"150\" cy=\"128\" r=\"4\" fill=\"#e88\" /> <circle cx=\"210\" cy=\"122\" r=\"4\" fill=\"#8be\"/> <circle cx=\"168\" cy=\"150\" r=\"3.5\" fill=\"#ed8\"/> <circle cx=\"196\" cy=\"148\" r=\"3.5\" fill=\"#b8e\"/>"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<!-- ojo-lámpara (linterna de proa) --> <circle cx=\"140\" cy=\"225\" r=\"11\" fill=\"#ffd97a\"/>"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<!-- tentáculo proa --> <path d=\"M110 235 C 85 240 70 255 58 250 ...\""
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<!-- burbujas-propulsión --> <circle cx=\"88\" cy=\"248\" r=\"6\"/> ... stroke=\"#9fe8dd\" opacity=\"0.8\""
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<!-- remos-pétalos --> <ellipse cx=\"268\" cy=\"260\" rx=\"10\" ry=\"5\" transform=\"rotate(35 268 260)\" fill=\"#2e8f83\"/>"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<!-- cúpula de cristal --> <path d=\"M170 190 A 30 30 0 0 1 230 190 Z\" fill=\"url(#dome)\" stroke=\"#0c333d\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "<!-- navegante pulpo --> cx=\"200\" cy=\"180\" dentro de <!-- cúpula de cristal --> M170 190 A 30 30 0 0 1 230 190"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "<!-- aleta dorsal-timón --> <path d=\"M198 165 C 195 140 205 118 220 108 C 214 128 216 148 224 162 Z\" fill=\"#2e8f83\""
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#1a1440\"/> <!-- cielo --> y estrellas y luna"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "<!-- luna doble --> <circle cx=\"310\" cy=\"95\" r=\"38\" fill=\"url(#moon)\"/> <circle cx=\"340\" cy=\"70\" r=\"14\" fill=\"#ffe9a8\" opacity=\"0.85\"/>"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "Contornos stroke=\"#0c333d\", gradientes, paleta nocturna, formas fantásticas: hull, dome, sail, moon"
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "stroke=\"#0c333d\" stroke-width=\"3\" en casco, cúpula, ojo, aleta, ventanillas"
+    },
+    {
+      "id": "a48",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"> <linearGradient id=\"sea\"> <radialGradient id=\"moon\"> <linearGradient id=\"hull\"> <linearGradient id=\"dome\"> <linearGradient id=\"sail\">"
+    },
+    {
+      "id": "a49",
+      "valor": "esta",
+      "evidencia": "violetas: stop-color=\"#4b2a6b\"; turquesas: stop-color=\"#2e8f83\" stroke=\"#9fe8dd\"; dorados: stop-color=\"#ffd066\" fill=\"#ffd97a\""
+    },
+    {
+      "id": "a50",
+      "valor": "esta",
+      "evidencia": "<!-- ===== EL BARCO INEXISTENTE ===== --> tentáculo, pulpo navegante, vela-medusa, mástil-coral, ojo-lámpara, frutas en vela"
+    }
+  ]
+}

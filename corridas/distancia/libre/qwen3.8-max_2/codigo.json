@@ -1,0 +1,125 @@
+{
+  "consigna": "libre",
+  "unidad": "qwen3.8-max_2",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:10:44+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path fill=\"url(#zorro)\" d=\"M236 263L249 254L254 248L250 227L262 241L272 226L278 248Q290 258 296 268Q315 284 322 302Q327 315 323 323L256 323L256 300Q254 284 249 274Q241 269 236 263Z\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<stop offset=\".75\" stop-color=\"#8a3d4e\"/><stop offset=\"1\" stop-color=\"#e08a4a\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#141432\"/><stop offset=\".45\" stop-color=\"#3b2450\"/><stop offset=\".75\" stop-color=\"#8a3d4e\"/><stop offset=\"1\" stop-color=\"#e08a4a\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"128\" cy=\"242\" r=\"14\" fill=\"#ffd98f\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path fill=\"none\" stroke=\"#fff\" stroke-width=\"1.4\" stroke-linecap=\"round\" opacity=\".8\" d=\"M18 30h.1M34 72h.1M52 20h.1...\""
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(118,88)\"><circle cx=\"0\" cy=\"-24\" r=\"2.2\" fill=\"#eaf1ff\"/><circle cx=\"-16\" cy=\"6\" r=\"1.6\" fill=\"#eaf1ff\"/><circle cx=\"16\" cy=\"2\" r=\"1.7\" fill=\"#eaf1ff\"/><circle cx=\"4\" cy=\"30\" r=\"1.9\" fill=\"#eaf1ff\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<g id=\"f\"><circle r=\"6\" fill=\"url(#luz)\"/><circle r=\"1.2\" fill=\"#ffe89a\"/></g> ... <use href=\"#f\" x=\"70\" y=\"330\">"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"1\" stop-color=\"#e08a4a\"/> y <linearGradient id=\"zorro\"><stop offset=\"0\" stop-color=\"#e98a3c\"/><stop offset=\"1\" stop-color=\"#a84a1f\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<use href=\"#f\" x=\"206\" y=\"300\"><animate attributeName=\"opacity\" values=\"0;1;0\" dur=\"3.2s\" begin=\".5s\" repeatCount=\"indefinite\"/><animate attributeName=\"y\" values=\"300;292;300\" dur=\"5s\" repeatCount=\"indefinite\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 400\""
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#141432\"/> vs <stop offset=\"1\" stop-color=\"#e08a4a\"/> y <path fill=\"#1d1433\" d=\"M0 350Q130 330 250 322...\""
+    },
+    {
+      "id": "a12",
+      "valor": "no_esta",
+      "evidencia": "El zorro se dibuja con paths frontales/laterales ambiguos, no hay indicación explícita de perfil; la forma es más bien una silueta lateral pero el código no especifica \"de perfil\" y tiene elementos como ojos en posición frontal: <circle cx=\"236.5\" cy=\"262.5\" r=\"1.6\" fill=\"#3a1c10\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path fill=\"#1d1433\" d=\"M0 350Q130 330 250 322Q330 316 400 308V400H0Z\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"128\" cy=\"242\" r=\"14\" fill=\"#ffd98f\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<stop offset=\".45\" stop-color=\"#3b2450\"/><stop offset=\".75\" stop-color=\"#8a3d4e\"/><stop offset=\"1\" stop-color=\"#e08a4a\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path fill=\"none\" stroke=\"#fff\" stroke-width=\"1.4\" stroke-linecap=\"round\" opacity=\".8\" d=\"M18 30h.1M34 72h.1...\""
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"95\" cy=\"150\" r=\"1.8\" fill=\"#fff\"><animate attributeName=\"opacity\" values=\"1;.15;1\" dur=\"2.6s\" repeatCount=\"indefinite\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<line x1=\"300\" y1=\"42\" x2=\"258\" y2=\"60\" stroke=\"url(#cometa)\" stroke-width=\"2\"/><circle cx=\"258\" cy=\"60\" r=\"1.8\" fill=\"#fff\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<use href=\"#pino\" transform=\"translate(70,224)\" fill=\"#221636\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<use href=\"#f\" x=\"70\" y=\"330\"><animate attributeName=\"opacity\" values=\"0;1;.2;1;0\" dur=\"4s\" repeatCount=\"indefinite\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(118,88)\"><circle cx=\"0\" cy=\"-24\" r=\"2.2\" fill=\"#eaf1ff\"/><circle cx=\"-16\" cy=\"6\" r=\"1.6\" fill=\"#eaf1ff\"/><circle cx=\"16\" cy=\"2\" r=\"1.7\" fill=\"#eaf1ff\"/><circle cx=\"4\" cy=\"30\" r=\"1.9\" fill=\"#eaf1ff\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#141432\"/> (cielo oscuro arriba) con sol aún visible <circle cx=\"128\" cy=\"242\" r=\"14\" fill=\"#ffd98f\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "Luciérnagas animadas suaves, degradado cálido <stop offset=\"1\" stop-color=\"#e08a4a\"/>, colores naranjas del zorro <stop offset=\"0\" stop-color=\"#e98a3c\"/>, sin elementos de ruido o agitación"
+    }
+  ]
+}

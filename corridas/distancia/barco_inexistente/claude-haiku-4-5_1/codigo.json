@@ -1,0 +1,200 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "claude-haiku-4-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T01:09:03+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"240\" rx=\"85\" ry=\"35\" fill=\"url(#hullGradient)\" filter=\"url(#shadow)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"0 0 -45 -70 -35 10\" fill=\"#FFB6C1\" opacity=\"0.7\"/> <polygon points=\"0 0 0 -90 30 10\" fill=\"#DDA0DD\" opacity=\"0.7\"/> <polygon points=\"0 0 45 -70 35 10\" fill=\"#FFB6C1\" opacity=\"0.7\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"170\" r=\"18\" fill=\"#95A5A6\" filter=\"url(#shadow)\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"120\" cy=\"200\" r=\"6\" fill=\"#00FF00\" opacity=\"0.6\"/> <circle cx=\"280\" cy=\"220\" r=\"6\" fill=\"#00FF00\" opacity=\"0.6\"/> <circle cx=\"200\" cy=\"140\" r=\"8\" fill=\"#00FFFF\" opacity=\"0.5\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<line x1=\"200\" y1=\"140\" x2=\"200\" y2=\"170\" stroke=\"#00FFFF\" stroke-width=\"1\" opacity=\"0.4\"/> <line x1=\"120\" y1=\"200\" x2=\"200\" y2=\"240\" stroke=\"#00FF00\" stroke-width=\"1\" opacity=\"0.4\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"0 0 -45 -70 -35 10\" fill=\"#FFB6C1\"/> <polygon points=\"0 0 0 -90 30 10\" fill=\"#DDA0DD\"/> <polygon points=\"0 0 45 -70 35 10\" fill=\"#FFB6C1\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "contradice",
+      "evidencia": "<stop offset=\"0%\" style=\"stop-color:#FF6B35;stop-opacity:1\" /> <stop offset=\"100%\" style=\"stop-color:#D32F2F;stop-opacity:1\" /> — es naranja-rojo degradado, no rojo ardiente puro"
+    },
+    {
+      "id": "a8",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos en el código que representen múltiples mundos o dimensiones flotantes"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "Combinación de velas en colores pastel (#FFB6C1, #DDA0DD), esferas de energía (#00FF00, #00FFFF), radar y casco en gradiente — efecto onírico por la combinación visual"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "Velas tipo velero: <polygon points=\"0 0 -45 -70 -35 10\"/> + radar: <circle cx=\"200\" cy=\"170\" r=\"18\" fill=\"#95A5A6\"/> + esferas de energía futuristas"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "Combinación de casco, velas, radar giratorio, esferas de energía y líneas de luz configuran un barco futurista y fantástico"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"waterGradient\"><stop offset=\"0%\" style=\"stop-color:#87CEEB\"/><stop offset=\"100%\" style=\"stop-color:#1E90FF\"/></linearGradient> <rect width=\"400\" height=\"400\" fill=\"url(#waterGradient)\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" style=\"stop-color:#FF6B35;stop-opacity:1\" /> <stop offset=\"100%\" style=\"stop-color:#D32F2F;stop-opacity:1\" />"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(95, 260)\"><circle cx=\"0\" cy=\"0\" r=\"8\" fill=\"#FFD700\"/><path d=\"M 0 -12 L 8 -2 L 0 2 L -8 -2 Z\" fill=\"#FFA500\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<rect x=\"170\" y=\"180\" width=\"60\" height=\"50\" rx=\"8\" fill=\"#2C3E50\" filter=\"url(#shadow)\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"170\" r=\"18\" fill=\"#95A5A6\"/> posicionado sobre <rect x=\"170\" y=\"180\" width=\"60\" height=\"50\" fill=\"#2C3E50\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"0 0 -45 -70 -35 10\" fill=\"#FFB6C1\"/> <polygon points=\"0 0 0 -90 30 10\" fill=\"#DDA0DD\"/> <polygon points=\"0 0 45 -70 35 10\" fill=\"#FFB6C1\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "points=\"0 0 -45 -70 -35 10\" — los puntos negativos en Y indican dirección hacia arriba"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"120\" cy=\"200\" r=\"6\" fill=\"#00FF00\"/> <circle cx=\"280\" cy=\"220\" r=\"6\" fill=\"#00FF00\"/> <circle cx=\"200\" cy=\"140\" r=\"8\" fill=\"#00FFFF\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"120\" cy=\"200\" r=\"6\" fill=\"#00FF00\" opacity=\"0.6\"/> <circle cx=\"280\" cy=\"220\" r=\"6\" fill=\"#00FF00\" opacity=\"0.6\"/> <circle cx=\"200\" cy=\"140\" r=\"8\" fill=\"#00FFFF\" opacity=\"0.5\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<line x1=\"200\" y1=\"140\" x2=\"200\" y2=\"170\" stroke=\"#00FFFF\"/> <line x1=\"120\" y1=\"200\" x2=\"200\" y2=\"240\" stroke=\"#00FF00\"/> <line x1=\"280\" y1=\"220\" x2=\"200\" y2=\"240\" stroke=\"#00FF00\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 0 320 Q 50 310 100 320 T 200 320 T 300 320 T 400 320\" stroke=\"#B0E0E6\"/> <path d=\"M 0 350 Q 50 340 100 350 T 200 350 T 300 350 T 400 350\" stroke=\"#B0E0E6\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"280\" cy=\"260\" r=\"4\" fill=\"#87CEEB\" opacity=\"0.5\"/> <circle cx=\"290\" cy=\"270\" r=\"3\" fill=\"#87CEEB\" opacity=\"0.4\"/> <circle cx=\"285\" cy=\"280\" r=\"2.5\" fill=\"#87CEEB\" opacity=\"0.3\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"110 185 100 165 130 170\" fill=\"#FF4500\" filter=\"url(#shadow)\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "Velas (antiguas) + radar + esferas de energía (#00FF00, #00FFFF) combinados en el mismo dibujo"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "Radar, esferas de energía, líneas de luz y torre de mando configuran un barco de ciencia ficción"
+    },
+    {
+      "id": "a27",
+      "valor": "contradice",
+      "evidencia": "<g transform=\"translate(95, 260)\"><path d=\"M 0 -12 L 8 -2 L 0 2 L -8 -2 Z\" fill=\"#FFA500\"/> — es una hélice/aleta, no un propulsor rotatorio tipo turbina"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"170\" r=\"18\" fill=\"#95A5A6\"/> con comentario <!-- Rotating radar dome on top --> — el código lo describe como giratorio"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "Tres polígonos de velas con colores llamativos y líneas de energía: <polygon points=\"0 0 -45 -70 -35 10\"/> <polygon points=\"0 0 0 -90 30 10\"/> <polygon points=\"0 0 45 -70 35 10\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<polygon fill=\"#FFB6C1\"/> (rosa) y <polygon fill=\"#DDA0DD\"/> (violeta/lila)"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"120\" cy=\"200\" r=\"6\" fill=\"#00FF00\" opacity=\"0.6\" filter=\"url(#shadow)\"/> <circle cx=\"280\" cy=\"220\" r=\"6\" fill=\"#00FF00\" opacity=\"0.6\" filter=\"url(#shadow)\"/> <circle cx=\"200\" cy=\"140\" r=\"8\" fill=\"#00FFFF\" opacity=\"0.5\" filter=\"url(#shadow)\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<line x1=\"120\" y1=\"200\" x2=\"200\" y2=\"240\" stroke=\"#00FF00\"/> <line x1=\"280\" y1=\"220\" x2=\"200\" y2=\"240\" stroke=\"#00FF00\"/> <line x1=\"200\" y1=\"140\" x2=\"200\" y2=\"170\" stroke=\"#00FFFF\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"hullGradient\"><stop offset=\"0%\" style=\"stop-color:#FF6B35\"/><stop offset=\"100%\" style=\"stop-color:#D32F2F\"/></linearGradient>"
+    },
+    {
+      "id": "a34",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos visuales específicos de steampunk (engranajes, vapor, tuberías de bronce) en el código"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "Colores: #FF6B35, #D32F2F, #FFB6C1, #DDA0DD, #00FF00, #00FFFF, #FFD700 — paleta vibrante"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "filter=\"url(#shadow)\" aplicado a múltiples elementos: <feDropShadow dx=\"2\" dy=\"2\" stdDeviation=\"3\" flood-opacity=\"0.3\"/>"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "Olas con paths curvos, burbujas, velas inclinadas y esferas de energía sugieren movimiento visual"
+    },
+    {
+      "id": "a38",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos en el código que representen dimensiones múltiples o portales dimensionales"
+    }
+  ]
+}

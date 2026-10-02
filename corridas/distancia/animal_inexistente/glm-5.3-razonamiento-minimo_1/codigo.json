@@ -1,0 +1,275 @@
+{
+  "consigna": "animal_inexistente",
+  "unidad": "glm-5.3-razonamiento-minimo_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:13:53+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"388\" ...>Lepidopticeto lunar</text>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"122\" cy=\"44\" r=\"6\" fill=\"#ffe28a\" filter=\"url(#brillo)\"><animate attributeName=\"opacity\" values=\"1;0.4;1\" dur=\"2s\" repeatCount=\"indefinite\"/></circle>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M195 185 Q120 90 55 110 Q85 150 100 190 Q70 200 60 235 Q120 245 195 220 Z\" fill=\"url(#ala)\" stroke=\"#d9b8f0\" stroke-width=\"2\">"
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "No hay referencia a vientre de ballena; el vientre es: <ellipse cx=\"200\" cy=\"228\" rx=\"36\" ry=\"44\" fill=\"#d9f7ee\" opacity=\"0.85\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 277 l6 18 19 2 -14 13 4 19 -15 -10 -15 10 4 -19 -14 -13 19 -2 Z\" fill=\"#ffe28a\">"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"315\" cy=\"78\" r=\"42\" fill=\"url(#luna)\" opacity=\"0.9\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#8be8d8\"><circle cx=\"90\" cy=\"290\" r=\"3\"><animate attributeName=\"cy\" values=\"290;270;290\" dur=\"4s\" repeatCount=\"indefinite\"/></circle>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 400\">"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<animate attributeName=\"r\" values=\"7;7;2;7;7\" dur=\"5s\" repeatCount=\"indefinite\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<animateTransform attributeName=\"transform\" type=\"rotate\" values=\"-4 195 200; 5 195 200; -4 195 200\" dur=\"3s\" repeatCount=\"indefinite\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<animate attributeName=\"cy\" values=\"290;270;290\" dur=\"4s\" repeatCount=\"indefinite\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"315\" cy=\"78\" r=\"42\" fill=\"url(#luna)\" opacity=\"0.9\"/> y <rect width=\"400\" height=\"400\" fill=\"url(#cielo)\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "animateTransform en alas, animate r en ojos, animate cy en esporas"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "Combina alas (lepidóptero), cuerpo de cetáceo, escamas, bigotes, cola-estrella en un solo SVG"
+    },
+    {
+      "id": "a15",
+      "valor": "contradice",
+      "evidencia": "<text ...>Lepidopticeto lunar</text> (es 'Lepidopticeto', no 'Lepidopiceto')"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"205\" rx=\"62\" ry=\"72\" fill=\"url(#cuerpo)\" stroke=\"#1f4f73\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#2c6a8f\" opacity=\"0.8\"><path d=\"M148 175 q6 -12 12 0 q-6 6 -12 0\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"ala\"><stop offset=\"0%\" stop-color=\"#ffd6f2\"/><stop offset=\"100%\" stop-color=\"#b388e0\"/></linearGradient> aplicado a dos paths de alas"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<animateTransform attributeName=\"transform\" type=\"rotate\" values=\"-4 195 200; 5 195 200; -4 195 200\" dur=\"3s\" repeatCount=\"indefinite\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M170 118 Q150 60 120 42 ...\"/> y <circle cx=\"122\" cy=\"44\" r=\"6\" fill=\"#ffe28a\" filter=\"url(#brillo)\">"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<animate attributeName=\"opacity\" values=\"1;0.4;1\" dur=\"2s\" repeatCount=\"indefinite\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"180\" cy=\"192\" r=\"14\" fill=\"#fdfdf5\"/> y <circle cx=\"220\" cy=\"192\" r=\"14\" fill=\"#fdfdf5\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<animate attributeName=\"r\" values=\"7;7;2;7;7\" dur=\"5s\" repeatCount=\"indefinite\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#d9f7ee\" stroke-width=\"1.5\" stroke-linecap=\"round\" opacity=\"0.8\"><path d=\"M170 214 L138 208\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M172 268 q-6 20 2 30\" stroke=\"#2c6a8f\" stroke-width=\"7\" fill=\"none\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 277 l6 18 19 2 -14 13 4 19 -15 -10 -15 10 4 -19 -14 -13 19 -2 Z\" fill=\"#ffe28a\">"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<animateTransform attributeName=\"transform\" type=\"rotate\" values=\"-10 200 295; 10 200 295; -10 200 295\" dur=\"2.5s\" repeatCount=\"indefinite\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"cielo\"><stop offset=\"0%\" stop-color=\"#2b3a67\"/><stop offset=\"100%\" stop-color=\"#0d1226\"/></radialGradient> y colinas oscuras"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffffff\" opacity=\"0.7\"><circle cx=\"50\" cy=\"50\" r=\"1.5\"/>..."
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"luna\"><stop offset=\"0%\" stop-color=\"#fffbe8\"/><stop offset=\"100%\" stop-color=\"#e8d9a0\"/></radialGradient>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 400 L0 320 Q60 280 130 318 ...\" fill=\"#131c33\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#8be8d8\"><circle cx=\"90\" cy=\"290\" r=\"3\">..."
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"cielo\"><stop offset=\"0%\" stop-color=\"#2b3a67\"/><stop offset=\"100%\" stop-color=\"#0d1226\"/></radialGradient>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "animateTransform en alas y estrella, animate r en ojos, animate opacity en antenas, animate cy en esporas"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"205\" rx=\"62\" ry=\"72\" fill=\"url(#cuerpo)\"/>"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<path d=\"M195 185 Q120 90 55 110 ...\" fill=\"url(#ala)\">"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<path d=\"M170 118 Q150 60 120 42 Q140 100 158 128 Z\" fill=\"#4aa8b8\"/>"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"122\" cy=\"44\" r=\"6\" fill=\"#ffe28a\" filter=\"url(#brillo)\"><animate attributeName=\"opacity\" values=\"1;0.4;1\" dur=\"2s\" repeatCount=\"indefinite\"/>"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#2c6a8f\" opacity=\"0.8\"><path d=\"M148 175 q6 -12 12 0 q-6 6 -12 0\"/>"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#d9f7ee\" stroke-width=\"1.5\" stroke-linecap=\"round\" opacity=\"0.8\"><path d=\"M170 214 L138 208\"/>"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"173\" cy=\"301\" r=\"7\" fill=\"#d9f7ee\"/> y <circle cx=\"227\" cy=\"301\" r=\"7\" fill=\"#d9f7ee\"/>"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 277 l6 18 19 2 -14 13 4 19 -15 -10 -15 10 4 -19 -14 -13 19 -2 Z\" fill=\"#ffe28a\"> con filter brillo"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#8be8d8\"><circle cx=\"90\" cy=\"290\" r=\"3\">... posicionadas debajo/alrededor del cuerpo y cerca de la cola"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"315\" cy=\"78\" r=\"42\" fill=\"url(#luna)\" opacity=\"0.9\"/>"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffffff\" opacity=\"0.7\"><circle cx=\"50\" cy=\"50\" r=\"1.5\"/>..."
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 400 L0 320 Q60 280 130 318 Q200 355 270 315 Q340 278 400 320 L400 400 Z\" fill=\"#131c33\"/>"
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "stop-color=\"#2b3a67\", stop-color=\"#4aa8b8\", stop-color=\"#8be8d8\", stop-color=\"#2c6a8f\""
+    },
+    {
+      "id": "a48",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"122\" cy=\"44\" r=\"6\" fill=\"#ffe28a\"/> y <path ... fill=\"#ffe28a\">"
+    },
+    {
+      "id": "a49",
+      "valor": "esta",
+      "evidencia": "Uso extensivo de Q (curvas cuadráticas) y q en todos los paths principales"
+    },
+    {
+      "id": "a50",
+      "valor": "esta",
+      "evidencia": "Combinación de gradientes, animaciones sutiles, criatura fantástica, fondo nocturno con luna y estrellas"
+    },
+    {
+      "id": "a51",
+      "valor": "esta",
+      "evidencia": "animateTransform, animate en múltiples elementos con dur entre 2s y 5s"
+    },
+    {
+      "id": "a52",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"cielo\"><stop offset=\"0%\" stop-color=\"#2b3a67\"/><stop offset=\"100%\" stop-color=\"#0d1226\"/></radialGradient>"
+    },
+    {
+      "id": "a53",
+      "valor": "esta",
+      "evidencia": "Criatura con ojos grandes, bigotes, alas, vientre claro, colores suaves, animaciones amables"
+    }
+  ]
+}

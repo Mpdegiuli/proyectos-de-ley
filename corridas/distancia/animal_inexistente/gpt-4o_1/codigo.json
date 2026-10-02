@@ -1,0 +1,195 @@
+{
+  "consigna": "animal_inexistente",
+  "unidad": "gpt-4o_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:07:38+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"100\" rx=\"70\" ry=\"90\" fill=\"lightgreen\" stroke=\"darkgreen\" stroke-width=\"4\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"250\" rx=\"100\" ry=\"150\" fill=\"lightgreen\" stroke=\"darkgreen\" stroke-width=\"4\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<line x1=\"160\" y1=\"40\" x2=\"140\" y2=\"10\" stroke=\"darkgreen\" stroke-width=\"4\"/><line x1=\"240\" y1=\"40\" x2=\"260\" y2=\"10\" stroke=\"darkgreen\" stroke-width=\"4\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"230\" r=\"15\" fill=\"darkgreen\" /><circle cx=\"170\" cy=\"270\" r=\"10\" fill=\"darkgreen\" /><circle cx=\"230\" cy=\"280\" r=\"20\" fill=\"darkgreen\" /><circle cx=\"210\" cy=\"190\" r=\"10\" fill=\"darkgreen\" />"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "fill=\"lightgreen\" stroke=\"darkgreen\" fill=\"black\" fill=\"white\""
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "ellipse, circle, rect, line, path — formas básicas con fill=\"lightgreen\" y colores simples"
+    },
+    {
+      "id": "a7",
+      "valor": "no_esta",
+      "evidencia": "El conjunto tiene cabeza, cuerpo, patas, cola, ojos, nariz, boca — reconocible como animal"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "antenas de insecto + cuerpo/patas de mamífero con formas básicas reconocibles"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "ellipse para cabeza y cuerpo, circle para ojos, rect para patas — proporciones de animal caricaturesco"
+    },
+    {
+      "id": "a10",
+      "valor": "no_esta",
+      "evidencia": "No hay ningún texto ni comentario que mencione 'Verdomopólis' en el código"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"250\" rx=\"100\" ry=\"150\" fill=\"lightgreen\" stroke=\"darkgreen\" stroke-width=\"4\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"230\" r=\"15\" fill=\"darkgreen\" /><circle cx=\"170\" cy=\"270\" r=\"10\" fill=\"darkgreen\" />"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "cabeza: rx=\"70\" ry=\"90\"; cuerpo: rx=\"100\" ry=\"150\" — cuerpo mayor"
+    },
+    {
+      "id": "a14",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"170\" cy=\"90\" r=\"10\" fill=\"white\"/> — radio 10, ojos pequeños no grandes"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<line x1=\"160\" y1=\"40\" x2=\"140\" y2=\"10\"/><line x1=\"240\" y1=\"40\" x2=\"260\" y2=\"10\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"120\" rx=\"10\" ry=\"5\" fill=\"black\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180 135 Q200 150 220 135\" stroke=\"black\" stroke-width=\"3\" fill=\"none\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<rect x=\"110\" y=\"320\" width=\"20\" height=\"60\" fill=\"lightgreen\" stroke=\"darkgreen\" stroke-width=\"4\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<rect x=\"130\" y=\"370\" width=\"30\" height=\"30\" fill=\"lightgreen\" stroke=\"darkgreen\" stroke-width=\"4\"/> — height=30 vs height=60"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M300 250 Q400 250 350 180\" stroke=\"darkgreen\" stroke-width=\"4\" fill=\"none\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "contradice",
+      "evidencia": "Los contornos son stroke-width=\"4\" angulares/definidos, no suaves — fill sólido sin degradado"
+    },
+    {
+      "id": "a22",
+      "valor": "contradice",
+      "evidencia": "stroke-width=\"4\" con líneas definidas, no hay filtro de suavizado ni stroke linecap redondeado explícito"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "Paleta uniforme lightgreen/darkgreen en todos los elementos, smile con path curvo"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M300 250 Q400 250 350 180\" stroke=\"darkgreen\" stroke-width=\"4\" fill=\"none\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "antenas (insecto): line x1=\"160\" y1=\"40\"; patas/cola/cuerpo (mamífero): rect, ellipse, path"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "antenas + cuerpo ovoide alargado similar a insecto grande"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<line x1=\"160\" y1=\"40\" x2=\"140\" y2=\"10\" stroke=\"darkgreen\" stroke-width=\"4\"/><line x1=\"240\" y1=\"40\" x2=\"260\" y2=\"10\" stroke=\"darkgreen\" stroke-width=\"4\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"250\" rx=\"100\" ry=\"150\" fill=\"lightgreen\"/> + círculos fill=\"darkgreen\""
+    },
+    {
+      "id": "a29",
+      "valor": "contradice",
+      "evidencia": "La cabeza <ellipse cx=\"200\" cy=\"100\" rx=\"70\" ry=\"90\" fill=\"lightgreen\"/> no tiene manchas — los círculos darkgreen están sobre el cuerpo"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<path d=\"M300 250 Q400 250 350 180\" stroke=\"darkgreen\" stroke-width=\"4\" fill=\"none\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<rect x=\"110\" y=\"320\" width=\"20\" height=\"60\"/><rect x=\"270\" y=\"320\" width=\"20\" height=\"60\"/><rect x=\"130\" y=\"370\" width=\"30\" height=\"30\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "antenas en cabeza + cuerpo enorme ry=150 vs cabeza ry=90, patas pequeñas rectangulares"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "ellipse, circle, line, rect, path — todas formas SVG básicas"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "formas básicas, colores planos fill=\"lightgreen\", ojos simples con dos círculos"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "animal imaginario con antenas, manchas, cola curva — no corresponde a animal real"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "proporciones exageradas, antenas, manchas darkgreen, sonrisa curva — caricaturesco"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "combinación insecto+mamífero, colores fantásticos lightgreen/darkgreen, formas estilizadas"
+    }
+  ]
+}

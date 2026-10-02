@@ -1,0 +1,195 @@
+{
+  "consigna": "mundo",
+  "unidad": "qwen3.8-max_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:25:28+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\".86\" stop-color=\"#7a4a35\"/><stop offset=\"1\" stop-color=\"#e08a4a\"/></linearGradient>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"170\" r=\"95\" fill=\"url(#oc)\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"oc\"><stop offset=\"0\" stop-color=\"#4db3dd\"/><stop offset=\".55\" stop-color=\"#1e6f9c\"/><stop offset=\"1\" stop-color=\"#0c3052\"/></radialGradient>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M128 128q10-22 34-26t40 8q10 10 2 20-14 16-36 14t-34 4q-10-8-6-20z\" fill=\"#5f8f4c\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 128Q196 98 236 118\"/><path d=\"M236 118Q266 154 262 196\"/> stroke=\"#8ff2ff\" stroke-dasharray=\"3 5\""
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"170\" rx=\"146\" ry=\"44\" stroke-dasharray=\"2 7\"/> <ellipse cx=\"200\" cy=\"170\" rx=\"162\" ry=\"56\" stroke-dasharray=\"2 8\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M6 308V278h9v-20h8v12h7v-30h12v34h9v-22h10v16h7v-34h14v44h8v-26h10v20h6v-14h11v34h6v-8h9V308Z\" fill=\"#0c1526\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"296\" r=\"44\" fill=\"url(#su)\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<use href=\"#tb\" transform=\"translate(322 306)\"/><use href=\"#tb\" transform=\"translate(356 310) scale(.78)\"/><use href=\"#tb\" transform=\"translate(292 308) scale(.6)\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(250 332)\"><path d=\"M0 0Q-2-8 0-15\" stroke=\"#7fc95c\"/><path d=\"M0-13q-8-7-14-3 4 8 14 3z\" fill=\"#8fd06a\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"170\" r=\"95\" fill=\"url(#oc)\"/> con redes animadas y pulsos, y brote pequeño frágil"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "turbinas #tb, redes stroke=\"#8ff2ff\", ciudad fill=\"#0c1526\", brote fill=\"#8fd06a\""
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"296\" r=\"44\" fill=\"url(#su)\"/>, <use href=\"#tb\"/>, <path d=\"M0-13q-8-7-14-3\" fill=\"#8fd06a\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "No hay elementos <text> ni <tspan> en el código SVG (el <title> no es visible en el lienzo)"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "No hay elementos de bandera ni mapas exactos; los continentes son formas abstractas fill=\"#5f8f4c\""
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<stop offset=\".86\" stop-color=\"#7a4a35\"/><stop offset=\"1\" stop-color=\"#e08a4a\"/> en gradiente sky"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 310Q90 296 200 302T400 304V400H0Z\" fill=\"#0a1120\"/> con silueta oscura y ventanas amarillas"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"24\" cy=\"34\" r=\"1.1\"/><circle cx=\"58\" cy=\"20\" r=\".9\"/>... fill=\"#cfe6ff\""
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<g transform=\"rotate(-14 200 170)\"><g><animateMotion dur=\"16s\" path=\"M54 170a146 44 0 1 1 292 0\"/><rect x=\"-3.5\" y=\"-2\" width=\"7\" height=\"4\" rx=\"1\" fill=\"#e8f1f8\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"170\" r=\"95\" fill=\"url(#oc)\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 128Q196 98 236 118\" stroke=\"#8ff2ff\" stroke-dasharray=\"3 5\"/> clip-path=\"url(#c)\""
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"170\" r=\"96\" fill=\"none\" stroke=\"#7fe6ff\"><animate attributeName=\"r\" values=\"96;150\" dur=\"8s\"/><animate attributeName=\"opacity\" values=\".55;0\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M6 308V278h9v-20h8v12h7v-30h12v34h9v-22h10v16h7v-34h14v44...\" fill=\"#0c1526\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<rect x=\"9\" y=\"282\" width=\"2\" height=\"3\"/><rect x=\"17\" y=\"262\" width=\"2\" height=\"3\"/>... fill=\"#ffd98c\""
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"75\" cy=\"227\" r=\"1.7\" fill=\"#ff7a5c\"><animate attributeName=\"opacity\" values=\"1;.1;1\" dur=\"1.4s\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<use href=\"#tb\" transform=\"translate(322 306)\"/><use href=\"#tb\" transform=\"translate(356 310) scale(.78)\"/><use href=\"#tb\" transform=\"translate(292 308) scale(.6)\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(250 332)\"><animateTransform type=\"rotate\" values=\"-5;5;-5\" dur=\"6s\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos que representen aves en el código; las formas onduladas son nubes: <path d=\"M104 88Q109 82 114 88Q119 82 124 88\"/> stroke=\"#e8f1f8\""
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<circle r=\"1.7\" fill=\"#fff\"><animateMotion path=\"M318 30L368 78\" dur=\"12s\"/><animate attributeName=\"opacity\" values=\"0;0;1;0;0\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "redes animadas, pulsos expansivos, antena parpadeante fill=\"#ff7a5c\""
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "brote fill=\"#8fd06a\", turbinas <use href=\"#tb\"/>, sol fill=\"url(#su)\""
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "satélites con animateMotion, redes stroke=\"#8ff2ff\", turbinas eólicas #tb"
+    },
+    {
+      "id": "a33",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos que representen vigilancia explícita (cámaras, ojos, radares) en el código"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 128Q196 98 236 118Q266 154 262 196\" stroke=\"#8ff2ff\"/> con nodos fill=\"#ffe08a\" y partículas animadas"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "brote frágil, turbinas eólicas, planeta con continentes verdes pequeños vs océano dominante"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<use href=\"#tb\" transform=\"translate(322 306)\"/> turbinas eólicas con aspas giratorias animadas"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(250 332)\"><path d=\"M0 0Q-2-8 0-15\" stroke=\"#7fc95c\"/><path d=\"M0-13q-8-7-14-3 4 8 14 3z\" fill=\"#8fd06a\"/>"
+    }
+  ]
+}

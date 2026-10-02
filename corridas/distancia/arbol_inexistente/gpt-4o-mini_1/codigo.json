@@ -1,0 +1,175 @@
+{
+  "consigna": "arbol_inexistente",
+  "unidad": "gpt-4o-mini_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:57:14+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<g id=\"tree\">"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "stop-color:#A8D8B9 ... stop-color:#6D9B91"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<rect x=\"190\" y=\"300\" width=\"20\" height=\"80\" fill=\"#854B32\" />"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "filter=\"url(#glow)\" ... feFlood flood-color=\"rgba(255, 204, 0, 0.6)\""
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<g id=\"tree\"> con tronco, copa y raíces"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "múltiples ellipses superpuestas con leafGradient formando copa orgánica"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "filter=\"url(#glow)\" con feFlood flood-color=\"rgba(255, 204, 0, 0.6)\""
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<rect x=\"190\" y=\"300\" width=\"20\" height=\"80\" fill=\"#854B32\" />"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<rect x=\"190\" y=\"300\" width=\"20\" height=\"80\" fill=\"#854B32\" />"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"250\" rx=\"80\" ry=\"50\" /> <ellipse cx=\"150\" cy=\"230\" ... /> <ellipse cx=\"250\" cy=\"230\" ... /> etc."
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "stop-color:#A8D8B9 ... stop-color:#6D9B91"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "ellipses con cx/cy/rx/ry superpuestos: cx=\"200\" cy=\"250\" rx=\"80\", cx=\"150\" cy=\"230\" rx=\"50\""
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"leafGradient\" ... fill=\"url(#leafGradient)\""
+    },
+    {
+      "id": "a14",
+      "valor": "no_esta",
+      "evidencia": "stop-opacity:1 en ambos stops, no hay transparencia"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "filter=\"url(#glow)\""
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "feFlood flood-color=\"rgba(255, 204, 0, 0.6)\" en filter glow"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"320\" cy=\"300\" rx=\"10\" ry=\"20\" fill=\"#8D5A2D\" /> <ellipse cx=\"80\" cy=\"300\" rx=\"10\" ry=\"20\" fill=\"#8D5A2D\" /> <ellipse cx=\"180\" cy=\"380\" ... /> <ellipse cx=\"220\" cy=\"380\" ... />"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"320\" cy=\"300\" rx=\"10\" ry=\"20\" /> rx=10 ry=20, delgadas"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"180\" cy=\"380\" rx=\"40\" ry=\"10\" /> cy=\"380\" cerca de la base"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "múltiples ellipses superpuestas con distintos cx/cy/rx/ry"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<ellipse ... fill=\"url(#leafGradient)\" filter=\"url(#glow)\" />"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<rect x=\"190\" y=\"300\" width=\"20\" height=\"80\" fill=\"#854B32\" />"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "ellipses con leafGradient agrupadas en parte superior del árbol"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "filter=\"url(#glow)\" con feFlood flood-color=\"rgba(255, 204, 0, 0.6)\""
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"250\" rx=\"80\" ry=\"50\" ... />"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"leafGradient\" ...>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<filter id=\"glow\" ...>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "ellipses estilizadas con gradientes y filtros de brillo"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "ellipses superpuestas con radialGradient formando formas orgánicas"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "stop-color:#A8D8B9 suave, feGaussianBlur stdDeviation=\"5\""
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "feFlood flood-color=\"rgba(255, 204, 0, 0.6)\" creando brillo dorado fantástico"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "fill=\"#854B32\" tronco, fill=\"url(#leafGradient)\" hojas con colores específicos"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "múltiples ellipses superpuestas en lugar de forma de copa convencional"
+    }
+  ]
+}

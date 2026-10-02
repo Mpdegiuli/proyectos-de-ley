@@ -1,0 +1,95 @@
+{
+  "consigna": "libre",
+  "unidad": "claude-opus-5-5_2",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:55:05+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#0b1030\"/><stop offset=\"0.55\" stop-color=\"#3a2a6b\"/><stop offset=\"1\" stop-color=\"#e08a6a\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"30\" cy=\"40\" r=\"1.2\"/><circle cx=\"80\" cy=\"20\" r=\"0.8\"/>..."
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"295\" cy=\"95\" r=\"70\" fill=\"url(#glow)\"/><circle cx=\"295\" cy=\"95\" r=\"26\" fill=\"#fff4d6\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"287\" cy=\"88\" r=\"5\" fill=\"#eadcb8\"/><circle cx=\"304\" cy=\"102\" r=\"3.5\" fill=\"#eadcb8\"/><circle cx=\"298\" cy=\"84\" r=\"2\" fill=\"#eadcb8\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M330,70 q4,-3 8,0 q4,-3 8,0\" fill=\"none\" stroke=\"#0a0c1c\" stroke-width=\"1.3\"/><path d=\"M350,82 q3,-2 6,0 q3,-2 6,0\" fill=\"none\" stroke=\"#0a0c1c\" stroke-width=\"1.1\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"0,250 60,170 100,205 160,130 220,200 260,170 330,215 370,180 400,200 400,250\" fill=\"#4b3a7a\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"160,130 175,148 165,146 155,155 148,142\" fill=\"#8f7fb8\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"0,250 60,330 100,295 160,370 220,300 260,330 330,285 370,320 400,300 400,250\" fill=\"#4b3a7a\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<rect x=\"280\" y=\"262\" width=\"30\" height=\"2\" rx=\"1\"/><rect x=\"285\" y=\"272\" width=\"22\" height=\"2\" rx=\"1\"/>...fill=\"#fff4d6\" opacity=\"0.7\""
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<rect y=\"250\" width=\"400\" height=\"150\" fill=\"url(#lake)\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"48,232 72,212 96,232\" fill=\"#0a0c1c\"/><rect x=\"52\" y=\"232\" width=\"40\" height=\"28\" fill=\"#0a0c1c\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<use href=\"#pine\" x=\"15\" y=\"250\"/><use href=\"#pine\" x=\"118\" y=\"258\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<rect x=\"60\" y=\"238\" width=\"10\" height=\"9\" fill=\"#ffc861\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M85,208 C80,198 92,192 86,182 C80,172 92,166 88,156\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M-18,0 L18,0 L12,6 L-12,6 Z\" fill=\"#0a0c1c\"/><line x1=\"0\" y1=\"0\" x2=\"0\" y2=\"-26\" stroke=\"#0a0c1c\" stroke-width=\"1.5\"/><polygon points=\"1,-25 1,-3 15,-3\" fill=\"#0a0c1c\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"1\" stop-color=\"#e08a6a\"/> (horizonte cálido) + luna visible + estrellas"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "cabaña con luz (#ffc861), lago tranquilo, luna con glow, reflejo de luz en agua"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "consigna": "libre",
+  "unidad": "claude-sonnet-5-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:57:25+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#1b1b4b\"/><stop offset=\"0.55\" stop-color=\"#c2477a\"/><stop offset=\"1\" stop-color=\"#ffb26b\"/></linearGradient>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"40\" cy=\"40\" r=\"1.5\"/> ... <circle cx=\"360\" cy=\"130\" r=\"1\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"230\" r=\"110\" fill=\"url(#sun)\"/><circle cx=\"200\" cy=\"230\" r=\"48\" fill=\"#ffe79a\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 240 L60 180 ... L400 235 L400 250 L0 250Z\" fill=\"#5a2a6b\"/> el sol está en cy=230 y las montañas cubren desde y=160"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 240 L60 180 ... fill=\"#5a2a6b\"/> y <path d=\"M0 250 L50 215 ... fill=\"#3a1d55\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<rect y=\"250\" width=\"400\" height=\"150\" fill=\"url(#lake)\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#ffd98a\" stroke-linecap=\"round\" opacity=\"0.85\"><line x1=\"170\" y1=\"258\" x2=\"230\" y2=\"258\" stroke-width=\"4\"/>..."
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "stroke-width decrece: 4, 4, 3.5, 3, 3, 2.5, 2 y x1/x2 se achican: x1=170/x2=230 arriba, x1=185/x2=215 abajo"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M60 330 Q100 322 140 330 L132 340 Q100 346 68 340Z\" fill=\"#1a1338\"/> (casco) y <path d=\"M100 282 L100 322 L128 322Z\" fill=\"#f4b183\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "contradice",
+      "evidencia": "<path d=\"M100 282 L100 322 L128 322Z\" fill=\"#f4b183\"/> y <path d=\"M98 286 L98 322 L78 322Z\" fill=\"#e07a5f\"/> (colores melocotón/salmón, no naranja puro)"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 400 L0 365 Q40 350 80 372 ... fill=\"#120d2b\"/> y <path d=\"M400 400 L400 350 Q360 340 330 365 ... fill=\"#120d2b\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M350 352 L350 290 M350 320 L336 306 M350 305 L364 292\" stroke=\"#120d2b\" stroke-width=\"3\" fill=\"none\"/> y <path d=\"M30 368 L30 310 ...\""
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M280 120 q8 -8 16 0 q8 -8 16 0 ...\"/> <path d=\"M320 90 q6 -6 12 0 ...\"/> <path d=\"M80 130 q5 -5 10 0 ...\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "degradados cálidos (#ffb26b, #ffd166), reflejo dorado en lago, sol grande central: conjunto visual produce calidez y tranquilidad"
+    }
+  ]
+}

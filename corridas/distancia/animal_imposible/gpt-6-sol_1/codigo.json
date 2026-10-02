@@ -1,0 +1,155 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "gpt-6-sol_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:23:11+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<!-- Deer head and long neck. -->\n<path d=\"M191 190c17-21 20-49 32-68 7-11 19-20 35-17 13 2 18 12 29 15l13 3c8 2 8 10 1 14-11 6-27 5-40 3-9 13-12 34-7 54Z\" fill=\"url(#neck)\""
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<!-- Antlers: one carries stars, the other a tiny moon. -->\n<path d=\"M238 115C227 91 218 73 207 60c-11-13-17-24-15-39M219 77c-16-3-25-14-29-29...\" stroke-width=\"5\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<g id=\"oneWing\">\n<path d=\"M196 203C159 149 106 80 52 92c-31 8-21 54 13 82 19 16 43 24 65 29-42-3-78 10-77 37 1 29 41 45 73 31 31-13 51-36 70-54Z\" fill=\"url(#wing)\""
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<!-- Tentacles grow where legs should be. -->\n<path d=\"M154 249C134 273 152 295 119 320c-25 19-49 9-48-8 0-9 12-14 19-7M170 258c-8 31 5 44-14 76...\" stroke=\"#85d6cb\" stroke-width=\"8\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M135 218C139 181 169 163 204 164c37 1 63 21 66 56 4 31-26 48-68 48-43 0-72-19-67-50Z\" fill=\"url(#glass)\" stroke=\"#b6fff0\" stroke-width=\"3\"/>\n<!-- glass gradient has stop-opacity values .72, .4, .85 -->"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<g clip-path=\"url(#bell)\">\n<path d=\"m124 247 30-31 20 20 22-34 34 40 16-22 38 33v30H124Z\" fill=\"#203d69\"/>\n<path d=\"m145 267 35-29 18 13 28-24 28 21 25-10v49H145Z\" fill=\"#122c50\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M191 190c17-21 20-49 32-68 7-11 19-20 35-17 13 2 18 12 29 15l13 3c8 2 8 10 1 14-11 6-27 5-40 3-9 13-12 34-7 54Z\" fill=\"url(#neck)\""
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M238 115C227 91 218 73 207 60c-11-13-17-24-15-39M219 77c-16-3-25-14-29-29M228 91c-5-17 1-28 8-37M246 108c9-23 25-40 43-51...\" stroke-width=\"5\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<use href=\"#oneWing\"/>\n<use href=\"#oneWing\" transform=\"translate(400 0) scale(-1 1)\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M154 249C134 273 152 295 119 320c-25 19-49 9-48-8 0-9 12-14 19-7M170 258c-8 31 5 44-14 76-13 23-43 21-47 5M189 264...\" stroke=\"#85d6cb\" stroke-width=\"8\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "fill=\"url(#glass)\" -- glass gradient: stop-opacity=\".72\", stop-opacity=\".4\", stop-opacity=\".85\""
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"m124 247 30-31 20 20 22-34 34 40 16-22 38 33v30H124Z\" fill=\"#203d69\"/>\n<path d=\"m145 267 35-29 18 13 28-24 28 21 25-10v49H145Z\" fill=\"#122c50\"/> (colores oscuros nocturnos)"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"m124 247 30-31 20 20 22-34 34 40 16-22 38 33v30H124Z\" fill=\"#203d69\"/> (siluetas de montañas/colinas)"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M126 253c28-8 47 6 73 2 28-4 46-13 82-4m-152 10c33-7 49 4 71 3 33-1 54-12 78-7\" fill=\"none\" stroke=\"#81e4d2\" stroke-opacity=\".8\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"227\" cy=\"193\" r=\"13\" fill=\"#fff1bd\" opacity=\".35\" filter=\"url(#glow)\"/>\n<circle cx=\"227\" cy=\"193\" r=\"8\" fill=\"#fff1bd\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#e8f6e9\">\n<circle cx=\"42\" cy=\"44\" r=\"1.4\"/><circle cx=\"107\" cy=\"45\" r=\"1\"/>... (múltiples estrellas alrededor)"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/> (fondo de cielo sin suelo) -- no hay suelo debajo del animal"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M191 190c17-21 20-49 32-68 7-11 19-20 35-17 13 2 18 12 29 15l13 3c8 2 8 10 1 14-11 6-27 5-40 3-9 13-12 34-7 54Z\" fill=\"url(#neck)\""
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M238 115C227 91 218 73 207 60c-11-13-17-24-15-39...\" stroke=\"#f4d3aa\" stroke-width=\"5\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<g id=\"oneWing\"><path d=\"M196 203C159 149 106 80 52 92...\" fill=\"url(#wing)\""
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<!-- Tentacles grow where legs should be. --> <path d=\"M154 249C134 273 152 295 119 320...\" stroke=\"#85d6cb\" stroke-width=\"8\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "fill=\"url(#glass)\" con stop-opacity=\".72\", stop-opacity=\".4\", stop-opacity=\".85\""
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"m124 247 30-31 20 20 22-34 34 40 16-22 38 33v30H124Z\" fill=\"#203d69\"/> (formas de montañas)"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M126 253c28-8 47 6 73 2 28-4 46-13 82-4...\" stroke=\"#81e4d2\" stroke-opacity=\".8\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"227\" cy=\"193\" r=\"8\" fill=\"#fff1bd\"/> dentro de clip-path=\"url(#bell)\""
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\"><stop stop-color=\"#233956\"/><stop offset=\".65\" stop-color=\"#101d35\"/><stop offset=\"1\" stop-color=\"#090e20\"/></radialGradient>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "Degradados: url(#wing) con #f4aa85, #a364a7, #473e83; url(#glass) con #a3f3e3; strokes #ffe0b1, #f1b99d, #81e4d2, #85d6cb"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "Combinación: ciervo con astas (#f4d3aa), alas (url(#wing)), tentáculos (#85d6cb), cuerpo transparente con paisaje interior (url(#glass)), fondo nocturno (url(#sky))"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "Estrellas decorativas, cruces <path d=\"M64 65v9m-4-4h9M326 24v8m-4-4h8...\">, círculos orbitales <circle cx=\"200\" cy=\"191\" r=\"155\" stroke=\"#b2d7dd\" stroke-opacity=\".1\"/>"
+    }
+  ]
+}

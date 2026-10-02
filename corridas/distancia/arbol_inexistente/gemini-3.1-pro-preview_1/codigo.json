@@ -1,0 +1,205 @@
+{
+  "consigna": "arbol_inexistente",
+  "unidad": "gemini-3.1-pro-preview_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:57:52+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M190,385 C120,280 280,180 190,70\" stroke=\"url(#t1)\" stroke-width=\"15\"/><path d=\"M210,385 C280,280 120,180 210,70\" stroke=\"url(#t2)\" stroke-width=\"10\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"35%\" stop-color=\"#9900ff\"/><stop offset=\"70%\" stop-color=\"#ff00a0\"/><stop offset=\"100%\" stop-color=\"#00f3ff\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "no_esta",
+      "evidencia": "Las hojas no existen como tales; hay elementos jc y jm (llamas/jets) y diamantes d en ramas, no hojas geométricas"
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "No hay agrupaciones de estrellas formando constelaciones conectadas; solo puntos dispersos"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(200, 250)\" filter=\"url(#g)\"><ellipse cx=\"0\" cy=\"0\" rx=\"14\" ry=\"28\" fill=\"none\" stroke=\"#00f3ff\" stroke-width=\"2.5\"/><ellipse cx=\"0\" cy=\"0\" rx=\"6\" ry=\"15\" fill=\"#fff\"/><circle cx=\"0\" cy=\"0\" r=\"3\" fill=\"#ff00a0\"/></g>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"0\" cy=\"0\" rx=\"14\" ry=\"28\" fill=\"none\" stroke=\"#00f3ff\" stroke-width=\"2.5\"/><ellipse cx=\"0\" cy=\"0\" rx=\"6\" ry=\"15\" fill=\"#fff\"/><circle cx=\"0\" cy=\"0\" r=\"3\" fill=\"#ff00a0\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "Combinación de gradientes neón, filtros glow, formas geométricas y paleta #00f3ff #ff00a0 #9900ff"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M190,385 C120,280 280,180 190,70\" stroke=\"url(#t1)\" stroke-width=\"15\"/> tronco + ramas + raíces elípticas"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"385\" rx=\"140\" ry=\"20\" fill=\"none\" stroke=\"#300066\" stroke-width=\"4\"/><ellipse cx=\"200\" cy=\"385\" rx=\"90\" ry=\"12\" fill=\"none\" stroke=\"#9900ff\" stroke-width=\"2.5\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M190,385 C120,280 280,180 190,70\" stroke=\"url(#t1)\" stroke-width=\"15\"/><path d=\"M210,385 C280,280 120,180 210,70\" stroke=\"url(#t2)\" stroke-width=\"10\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"35%\" stop-color=\"#9900ff\"/><stop offset=\"70%\" stop-color=\"#ff00a0\"/><stop offset=\"100%\" stop-color=\"#00f3ff\"/> y <stop offset=\"50%\" stop-color=\"#00f3ff\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(200, 250)\" filter=\"url(#g)\"><ellipse cx=\"0\" cy=\"0\" rx=\"14\" ry=\"28\"..."
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"0\" cy=\"0\" rx=\"14\" ry=\"28\" fill=\"none\" stroke=\"#00f3ff\"/><ellipse cx=\"0\" cy=\"0\" rx=\"6\" ry=\"15\" fill=\"#fff\"/><circle cx=\"0\" cy=\"0\" r=\"3\" fill=\"#ff00a0\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "no_esta",
+      "evidencia": "No hay cristales; hay elementos jc/jm (llamas) y diamantes d en las ramas"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<g id=\"d\"><polygon points=\"0,-12 5,0 0,12 -5,0\" fill=\"none\" stroke=\"#00f3ff\" stroke-width=\"1.5\" filter=\"url(#g)\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos etiquetados como esporas flotando; los puntos son estrellas de fondo"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"180\" r=\"180\" fill=\"url(#aura)\"/> con radialGradient id aura stop-color #9900ff stop-opacity 0.25"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"50,150 140,20 350,150 260,20\"/><polygon points=\"30,100 200,10 370,100 200,380\"/> stroke #00f3ff opacity 0.4"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#140626\"/><stop offset=\"60%\" stop-color=\"#080212\"/><stop offset=\"100%\" stop-color=\"#020005\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "Estética neón cyberpunk con formas geométricas místicas, gradientes mágicos y filtros glow"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "Filtros glow (filter url #g) en todo el árbol dan efecto de energía viva"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<filter id=\"g\"><feGaussianBlur stdDeviation=\"5\"/> aplicado a tronco, ramas y núcleo sobre fondo oscuro"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "Paleta neón #00f3ff #ff00a0 #9900ff, formas geométricas, filtros glow: estética futurista"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M190,385 C120,280 280,180 190,70\" stroke=\"url(#t1)\" stroke-width=\"15\"/><path d=\"M210,385 C280,280 120,180 210,70\" stroke=\"url(#t2)\" stroke-width=\"10\"/><path d=\"M200,385 C180,260 220,160 200,50\" stroke=\"#fff\" stroke-width=\"3\""
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<use href=\"#d\" transform=\"translate(160, 140) scale(1.1)\"/><use href=\"#d\" transform=\"translate(240, 140) scale(1.1)\"/> en ramas"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<use href=\"#d\" transform=\"translate(110, 215) scale(0.9)\"/><use href=\"#d\" transform=\"translate(290, 215) scale(0.9)\"/> id d es un diamante"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<use href=\"#jc\" .../><use href=\"#jm\" .../> con paths de llamas/lágrimas holográficas en las ramas"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(200, 250)\" filter=\"url(#g)\"><ellipse cx=\"0\" cy=\"0\" rx=\"14\" ry=\"28\" fill=\"none\" stroke=\"#00f3ff\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "no_esta",
+      "evidencia": "Las raíces son elipses concéntricas, no hay referencia a anillos magnéticos específicamente; son anillos de luz"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "No hay suelo terreno; las raíces son elipses de luz sobre fondo cósmico oscuro rect fill url(#bg)"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "stroke=\"#00f3ff\" (cian), stroke=\"#ff00a0\" (fucsia), stroke=\"#9900ff\" (violeta) presentes en múltiples elementos"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<filter id=\"g\"><feGaussianBlur stdDeviation=\"5\" result=\"b\"/><feMerge><feMergeNode in=\"b\"/><feMergeNode in=\"b\"/><feMergeNode in=\"SourceGraphic\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "Efecto glow con feGaussianBlur sobre colores neón sobre fondo oscuro simula bioluminiscencia"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "Paleta neón #00f3ff #ff00a0 #9900ff, gradientes synthwave, estética oscura cyberpunk"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "SVG con trazos neón #00f3ff #ff00a0 #9900ff y filtros glow feGaussianBlur"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "stop-color=\"#00f3ff\" stop-color=\"#ff00a0\" stop-color=\"#9900ff\" colores saturados vibrantes"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "Geometrías, neón, vacío cósmico, núcleo tipo portal: atmósfera de ciencia ficción digital"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "El tronco son paths de stroke con gradientes neón, sin relleno sólido de materia orgánica"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<use href=\"#d\" transform=\"translate(200, 160) scale(1.5)\"/> sin suelo debajo, sobre fondo vacío"
+    }
+  ]
+}

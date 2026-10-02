@@ -1,0 +1,155 @@
+{
+  "consigna": "animal",
+  "unidad": "claude-sonnet-4-6_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:48:11+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "contradice",
+      "evidencia": "El zorro está dibujado de lado (perfil), no de frente. La cabeza tiene cx=175, los ojos en cx=155 y cx=195, las orejas asimétricas, sugiriendo vista lateral/3/4."
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "fill=\"#E8621A\" en cuerpo, cabeza, patas, cola"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"130,175 115,120 160,160\" fill=\"#E8621A\"/> <polygon points=\"210,170 230,118 195,158\" fill=\"#E8621A\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "contradice",
+      "evidencia": "<polygon points=\"132,172 120,132 158,162\" fill=\"#CC2244\"/> — el color es #CC2244, un rojo-rosado, no rosado puro"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<line x1=\"140\" y1=\"225\" x2=\"100\" y2=\"218\" stroke=\"#888\" stroke-width=\"1.5\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "no_esta",
+      "evidencia": "Las patas son <rect> con rx=10 y <ellipse> para patas sin ningún elemento de garras dibujado"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M270 290 Q340 250 350 310 Q340 360 280 330 Z\" fill=\"#E8621A\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M340 310 Q345 360 280 330 Q310 320 330 330 Z\" fill=\"white\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<rect x=\"150\" y=\"320\" width=\"22\" height=\"45\" rx=\"10\" fill=\"#E8621A\"/> (cuatro patas apoyadas en el suelo)"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"370\" rx=\"180\" ry=\"30\" fill=\"#90EE90\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#87CEEB\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "fill=\"#E8621A\" — naranja"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"130,175 115,120 160,160\"/> <polygon points=\"210,170 230,118 195,158\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"132,172 120,132 158,162\" fill=\"#CC2244\"/> — rosado-rojizo"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"175\" cy=\"220\" rx=\"35\" ry=\"28\" fill=\"white\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"175\" cy=\"222\" rx=\"10\" ry=\"7\" fill=\"#222\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"172\" cy=\"219\" rx=\"3\" ry=\"2\" fill=\"#555\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<line x1=\"140\" y1=\"225\" x2=\"100\" y2=\"218\" stroke=\"#888\" stroke-width=\"1.5\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"157\" cy=\"200\" rx=\"8\" ry=\"9\" fill=\"#8B4513\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"158\" cy=\"201\" rx=\"5\" ry=\"7\" fill=\"#111\"/> — pupila más alta que ancha, vertical"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"161\" cy=\"197\" r=\"2\" fill=\"white\"/> <circle cx=\"201\" cy=\"197\" r=\"2\" fill=\"white\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<rect x=\"150\"... /><rect x=\"185\"... /><rect x=\"215\"... /><rect x=\"248\"... /> — cuatro patas"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"161\" cy=\"367\" rx=\"13\" ry=\"7\" fill=\"#CC4A00\"/> — patas con color más oscuro #CC4A00"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M270 290 Q340 250 350 310 Q340 360 280 330 Z\" fill=\"#E8621A\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M340 310 Q345 360 280 330 Q310 320 330 330 Z\" fill=\"white\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"295\" rx=\"40\" ry=\"35\" fill=\"white\" opacity=\"0.7\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "Formas simples con colores planos, sin texturas ni degradados, estilo ilustración simple/cartoon"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "Ojos grandes con brillo, boca curva, mejillas blancas — rasgos de expresión amigable"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"161\" cy=\"197\" r=\"2\" fill=\"white\"/> <ellipse cx=\"172\" cy=\"219\" rx=\"3\" ry=\"2\" fill=\"#555\"/>"
+    }
+  ]
+}

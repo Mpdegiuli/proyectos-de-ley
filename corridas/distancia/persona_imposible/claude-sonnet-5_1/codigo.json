@@ -1,0 +1,225 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "claude-sonnet-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:29:59+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 120 L260 200 L200 280 L140 200 Z\" fill=\"url(#cloth)\" stroke=\"#22314a\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 120 L260 200 L230 210 L200 150 Z\" fill=\"#7291bd\"/> <path d=\"M200 280 L140 200 L170 190 L200 250 Z\" fill=\"#7291bd\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"160\" cy=\"70\" r=\"30\" fill=\"url(#skin)\"/> ... <g transform=\"translate(240,70) rotate(180)\"><circle cx=\"0\" cy=\"0\" r=\"30\" fill=\"url(#skin)\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"160\" cy=\"70\" r=\"30\" fill=\"url(#skin)\"/> (sin transform de rotación)"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(240,70) rotate(180)\">"
+    },
+    {
+      "id": "a6",
+      "valor": "no_esta",
+      "evidencia": "<rect x=\"185\" y=\"90\" width=\"30\" height=\"40\" fill=\"url(#skin)\"/> (un solo cuello centrado, no conecta geométricamente a ambas cabezas)"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M140 160 Q80 150 60 200\"/> <path d=\"M260 160 Q320 150 340 200\"/> <path d=\"M200 200 Q200 260 260 260\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 200 Q200 260 260 260\" stroke=\"url(#skin)\" stroke-width=\"16\" fill=\"none\" stroke-linecap=\"round\"/> (sale del centro del torso)"
+    },
+    {
+      "id": "a9",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M180 280 C 160 320, 220 320, 200 360 C 180 400, 260 400, 240 360 C 220 320, 180 320, 200 280 Z\"/> (forma fusionada, no cruce explícito)"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180 280 C 160 320, 220 320, 200 360 C 180 400, 260 400, 240 360 C 220 320, 180 320, 200 280 Z\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#eef2f7\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "Combinación de rotate(180), tres brazos, piernas fusionadas, torso romboidal imposible"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "Dos cabezas en direcciones opuestas, tres brazos, piernas que se fusionan y cruzan, torso Penrose"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#eef2f7\"/> (fondo neutro sin elementos adicionales)"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "Figura completa con geometría imposible: dos cabezas, tres brazos, piernas fusionadas, torso Penrose"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 120 L260 200 L200 280 L140 200 Z\" fill=\"url(#cloth)\"/> (rombo de 4 vértices)"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 120 L260 200 L200 280 L140 200 Z\"/> con iluminación interna imposible en <path d=\"M200 120 L260 200 L230 210 L200 150 Z\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<rect x=\"185\" y=\"90\" width=\"30\" height=\"40\" fill=\"url(#skin)\"/> con dos cabezas: cx=160 cy=70 y translate(240,70)"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"160\" cy=\"70\" r=\"30\" fill=\"url(#skin)\"/> (cabeza izquierda sin rotación, orientada normalmente hacia arriba)"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(240,70) rotate(180)\"><circle cx=\"0\" cy=\"0\" r=\"30\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(240,70) rotate(180)\">"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M140 160 Q80 150 60 200\"/> <path d=\"M260 160 Q320 150 340 200\"/> <path d=\"M200 200 Q200 260 260 260\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 200 Q200 260 260 260\" stroke=\"url(#skin)\" stroke-width=\"16\"/> (sale del centro/abdomen)"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "Brazo central: M200 200, brazos laterales desde M140 160 y M260 160 del torso romboidal"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180 280 C 160 320, 220 320, 200 360 C 180 400, 260 400, 240 360 C 220 320, 180 320, 200 280 Z\" fill=\"url(#skin)\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"195\" cy=\"368\" rx=\"18\" ry=\"8\" fill=\"#3a2a1a\"/> <ellipse cx=\"235\" cy=\"368\" rx=\"18\" ry=\"8\" fill=\"#3a2a1a\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 120 L200 280\" stroke=\"#1c2740\" stroke-width=\"1\" stroke-dasharray=\"4 3\" opacity=\"0.4\"/> <path d=\"M140 200 L260 200\" stroke=\"#1c2740\" stroke-width=\"1\" stroke-dasharray=\"4 3\" opacity=\"0.4\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 120 L200 280\" stroke-dasharray=\"4 3\" opacity=\"0.4\"/> <path d=\"M140 200 L260 200\" stroke-dasharray=\"4 3\" opacity=\"0.4\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<!-- Impossible legs: they merge and swap, like an Escher staircase -->"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "Dos cabezas opuestas, tres brazos, piernas fusionadas, torso imposible tipo Penrose"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<rect x=\"185\" y=\"90\" width=\"30\" height=\"40\"/> con circle cx=160 cy=70 y g translate(240,70)"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(240,70) rotate(180)\"><circle cx=\"0\" cy=\"0\" r=\"30\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<!-- Impossible torso: a Penrose-like triangular body --> <path d=\"M200 120 L260 200 L200 280 L140 200 Z\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<path d=\"M140 160 Q80 150 60 200\"/> <path d=\"M260 160 Q320 150 340 200\"/> <path d=\"M200 200 Q200 260 260 260\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<!-- Three arms, impossible connections --> con puntos de origen M140 160, M260 160, M200 200"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180 280 C 160 320, 220 320, 200 360 C 180 400, 260 400, 240 360 C 220 320, 180 320, 200 280 Z\"/>"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"195\" cy=\"368\" rx=\"18\" ry=\"8\"/> <ellipse cx=\"235\" cy=\"368\" rx=\"18\" ry=\"8\"/>"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<!-- Impossible legs: they merge and swap, like an Escher staircase -->"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skin\"><stop offset=\"0%\" stop-color=\"#f4c9a0\"/><stop offset=\"100%\" stop-color=\"#e0a876\"/></linearGradient>"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"cloth\"><stop offset=\"0%\" stop-color=\"#5b7fae\"/><stop offset=\"100%\" stop-color=\"#33507a\"/></linearGradient>"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "Gradientes simples + geometría imposible Penrose + rotate(180) en cabeza"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "<!-- Impossible torso: a Penrose-like triangular body --> <!-- Impossible legs: they merge and swap, like an Escher staircase -->"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "Figura humana completa (cabezas, brazos, piernas, torso) con geometría imposible Penrose aplicada al cuerpo"
+    }
+  ]
+}

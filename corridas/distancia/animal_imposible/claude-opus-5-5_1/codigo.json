@@ -1,0 +1,160 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "claude-opus-5-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:15:28+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"230\" rx=\"85\" ry=\"50\" fill=\"url(#fishG)\" stroke=\"#c9480c\" stroke-width=\"3\"/> con fishG: stop-color=\"#ffb347\" y stop-color=\"#ff6a1f\""
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"220\" r=\"145\" fill=\"url(#water)\" clip-path=\"url(#wclip)\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M70 300 Q200 280 330 300 L320 330 Q200 390 80 330 Z\" fill=\"#e9d59a\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 330 q-8 -30 4 -55 M160 332 q10 -25 2 -50\" stroke=\"#3aa35a\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"105\" cy=\"190\" r=\"6\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2\" opacity=\"0.8\"/><circle cx=\"95\" cy=\"165\" r=\"4\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2\" opacity=\"0.8\"/><circle cx=\"100\" cy=\"143\" r=\"3\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2\" opacity=\"0.8\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\"><stop offset=\"0\" stop-color=\"#2b3a67\"/><stop offset=\"1\" stop-color=\"#0d1330\"/></radialGradient>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff\" opacity=\"0.7\"><circle cx=\"30\" cy=\"40\" r=\"1.5\"/><circle cx=\"370\" cy=\"60\" r=\"1.2\"/>...</g>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"190\" cy=\"245\" r=\"31\" fill=\"#0d1330\" stroke=\"#fff4d6\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<use href=\"#s\" transform=\"translate(150 201) scale(0.2)\"/> — la instancia completa (con pecera) aparece en miniatura"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<use href=\"#s\" transform=\"translate(150 201) scale(0.2)\"/> incluye el pez (ellipse fishG) escalado"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<use href=\"#s\" transform=\"translate(180 241.2) scale(0.04)\"/> — cada instancia de #s contiene el círculo oscuro en la panza"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<use href=\"#s\" transform=\"translate(186 249.24) scale(0.008)\"/><use href=\"#s\" transform=\"translate(187.2 250.848) scale(0.0016)\"/> — escala 0.0016 es prácticamente invisible"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"392\" ...>el pez que vive en la pecera que vive en el pez</text>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "Múltiples <use href=\"#s\" transform=\"translate(...) scale(...)\"/> anidados visualmente"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "El símbolo #s (pez) contiene la pecera, y dentro de la pecera vuelve a aparecer #s con scale decreciente"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"230\" rx=\"85\" ry=\"50\" fill=\"url(#fishG)\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"190\" cy=\"245\" r=\"31\" fill=\"#0d1330\" stroke=\"#fff4d6\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<use href=\"#s\" transform=\"translate(150 201) scale(0.2)\"/> — #s contiene la pecera completa"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<use href=\"#s\" transform=\"translate(150 201) scale(0.2)\"/> incluye la ellipse del pez escalada"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<use href=\"#s\" transform=\"translate(180 241.2) scale(0.04)\"/> — cada #s tiene <circle cx=\"190\" cy=\"245\" r=\"31\" fill=\"#0d1330\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\"><stop offset=\"0\" stop-color=\"#2b3a67\"/><stop offset=\"1\" stop-color=\"#0d1330\"/></radialGradient>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff\" opacity=\"0.7\"><circle cx=\"30\" cy=\"40\" r=\"1.5\"/>...</g>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"392\" text-anchor=\"middle\" font-family=\"Georgia, serif\" font-size=\"13\" fill=\"#cdeefa\" font-style=\"italic\">"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "font-family=\"Georgia, serif\" font-style=\"italic\" — tipografía serif itálica evoca título de fábula"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "La pecera está dentro del pez y el pez está dentro de la pecera mediante los <use> recursivos"
+    },
+    {
+      "id": "a26",
+      "valor": "contradice",
+      "evidencia": "<radialGradient id=\"water\"/><linearGradient id=\"fishG\"/> — hay degradados, no ilustración plana"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "Formas redondeadas, colores cálidos naranja/azul, pez con ojo grande: <circle cx=\"145\" cy=\"214\" r=\"10\" fill=\"#fff\"/><circle cx=\"142\" cy=\"214\" r=\"4.5\" fill=\"#111\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "Ellipses, círculos, polygons y paths simples componen el pez y la pecera"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "stroke=\"#c9480c\" stroke-width=\"3\" en ellipse y path del pez; stroke=\"#6b2a08\" stroke-width=\"2\" en el ojo"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"water\"><stop offset=\"0\" stop-color=\"#9fe3f5\"/><stop offset=\"1\" stop-color=\"#2a8fb8\"/></radialGradient>"
+    }
+  ]
+}

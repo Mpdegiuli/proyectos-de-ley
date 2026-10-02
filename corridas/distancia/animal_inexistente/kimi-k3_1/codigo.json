@@ -1,0 +1,300 @@
+{
+  "consigna": "animal_inexistente",
+  "unidad": "kimi-k3_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:13:08+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<rect x=\"140\" y=\"294\" width=\"16\" height=\"48\" rx=\"8\"/><rect x=\"184\" y=\"298\" width=\"16\" height=\"46\" rx=\"8\"/><rect x=\"226\" y=\"294\" width=\"16\" height=\"48\" rx=\"8\"/> (3 patas oscuras) + <rect x=\"158\" y=\"300\" width=\"17\" height=\"44\" rx=\"8.5\"/><rect x=\"204\" y=\"303\" width=\"17\" height=\"43\" rx=\"8.5\"/><rect x=\"248\" y=\"298\" width=\"17\" height=\"46\" rx=\"8.5\"/> (3 patas turquesa) = 6"
+    },
+    {
+      "id": "a2",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos que indiquen mamífero; el animal tiene escamas/manchas, alas, cuello de ave/serpiente"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M188 216 C 168 172 182 138 218 128 C 210 150 214 168 232 182 C 214 190 200 204 200 224 Z\" fill=\"url(#ala)\"/> sobre el cuerpo donde están las patas"
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "No hay antena colgante desde la frente; hay un cuello largo y una cabeza con ojos pero sin antena frontal estilo pez abisal"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"266\" cy=\"120\" r=\"9.5\" fill=\"#ffffff\"/> (ojo grande) y <circle cx=\"279\" cy=\"138\" r=\"4.5\" fill=\"#ffffff\"/> (ojo pequeño), tamaños distintos"
+    },
+    {
+      "id": "a6",
+      "valor": "no_esta",
+      "evidencia": "No hay cola definida con bulbo; los elementos brillantes son círculos flotantes independientes"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#8fd8e8\"><path d=\"M284 166 l12 -7 -4 13 z\"/><path d=\"M286 189 l13 -6 -5 13 z\"/><path d=\"M279 213 l13 -5 -6 13 z\"/></g> sobre el cuello"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"cielo\"><stop offset=\"0\" stop-color=\"#0b1533\"/><stop offset=\".55\" stop-color=\"#232a52\"/><stop offset=\"1\" stop-color=\"#3b2a5e\"/></linearGradient>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"108\" cy=\"226\" r=\"6\" fill=\"#ffe98a\"/> <circle cx=\"320\" cy=\"70\" r=\"6.5\" fill=\"#ffe98a\"/> elementos brillantes/luminosos y honguitos con brillo"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "Fondo oscuro #0b1533/#232a52 con elementos de brillo radialGradient #fff6c4/#ffdd75 y círculos luminosos sobre él"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "Tiene cuerpo (ellipse cx=\"194\" cy=\"258\"), cabeza (ellipse cx=\"274\" cy=\"124\"), cuello, patas (6 rects), ala y ojos"
+    },
+    {
+      "id": "a12",
+      "valor": "no_esta",
+      "evidencia": "No aparece el nombre 'fulgorcito' en ningún elemento del código SVG"
+    },
+    {
+      "id": "a13",
+      "valor": "no_esta",
+      "evidencia": "No hay colina; hay <ellipse cx=\"200\" cy=\"385\" rx=\"245\" ry=\"72\" fill=\"#16223f\"/> suelo plano/piso"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"58\" cy=\"62\" r=\"25\" fill=\"#f6f0cf\"/> con <circle cx=\"51\" cy=\"56\" r=\"5\" fill=\"#e0d7a8\"/> cráteres, y <circle cx=\"320\" cy=\"70\" r=\"6.5\" fill=\"#ffe98a\"/> segunda luna/sol"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffffff\"><circle cx=\"30\" cy=\"128\" r=\"1.7\" opacity=\".9\"/><circle cx=\"108\" cy=\"34\" r=\"1.2\" opacity=\".6\"/>...</g>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"cielo\"><stop offset=\"0\" stop-color=\"#0b1533\"/><stop offset=\".55\" stop-color=\"#232a52\"/><stop offset=\"1\" stop-color=\"#3b2a5e\"/></linearGradient>"
+    },
+    {
+      "id": "a17",
+      "valor": "contradice",
+      "evidencia": "<ellipse cx=\"194\" cy=\"258\" rx=\"82\" ry=\"57\" fill=\"url(#cuerpo)\"/> es elíptico/ovalado, no redondo perfecto"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"198\" cy=\"276\" rx=\"52\" ry=\"33\" fill=\"url(#panza)\" opacity=\".9\"/> con radialGradient panza: #f2fff9 a #b3ece0"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#2e7d79\" opacity=\".45\"><circle cx=\"150\" cy=\"238\" r=\"8\"/><circle cx=\"172\" cy=\"222\" r=\"5.5\"/><circle cx=\"130\" cy=\"262\" r=\"6\"/><circle cx=\"236\" cy=\"230\" r=\"7\"/><circle cx=\"256\" cy=\"252\" r=\"5\"/></g>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "Seis patas en pares: fill=#3a8b86 (3 rects) y fill=#59c2ba (3 rects), total 6 patas"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<rect x=\"140\" y=\"294\"/> <rect x=\"184\" y=\"298\"/> <rect x=\"226\" y=\"294\"/> + <rect x=\"158\" y=\"300\"/> <rect x=\"204\" y=\"303\"/> <rect x=\"248\" y=\"298\"/> = 6 patas"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M248 240 C 272 214 280 180 270 142\" fill=\"none\" stroke=\"url(#cuello)\" stroke-width=\"27\" stroke-linecap=\"round\"/> cuello curvo y largo"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#8fd8e8\"><path d=\"M284 166 l12 -7 -4 13 z\"/><path d=\"M286 189 l13 -6 -5 13 z\"/><path d=\"M279 213 l13 -5 -6 13 z\"/></g> aletitas sobre el cuello"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<g transform=\"rotate(-14 274 124)\"><ellipse cx=\"274\" cy=\"124\" rx=\"31\" ry=\"24\" fill=\"url(#cuello)\"/>... cabeza con ojos y mejilla"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"266\" cy=\"120\" r=\"9.5\" fill=\"#ffffff\"/><circle cx=\"268\" cy=\"121\" r=\"5.5\" fill=\"#241f3d\"/> ojo grande, y <circle cx=\"279\" cy=\"138\" r=\"4.5\"/> segundo ojo"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"288\" cy=\"147\" rx=\"5\" ry=\"3\" fill=\"#ff9fb0\" opacity=\".65\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "no_esta",
+      "evidencia": "No hay forma de oreja tipo hoja; hay una pequeña aleta <path d=\"M256 104 C 244 84 248 64 264 58...\" fill=\"#7fd4c9\"/> pero no es oreja en forma de hoja"
+    },
+    {
+      "id": "a28",
+      "valor": "no_esta",
+      "evidencia": "No hay antena colgante de la frente en la cabeza; el cuello conecta pero no hay antena frontal"
+    },
+    {
+      "id": "a29",
+      "valor": "no_esta",
+      "evidencia": "Sin antena, no puede terminar en lucecita"
+    },
+    {
+      "id": "a30",
+      "valor": "no_esta",
+      "evidencia": "No hay cola enroscada; el path de cuello M248 240 C 272 214 280 180 270 142 es el cuello, no cola enroscada"
+    },
+    {
+      "id": "a31",
+      "valor": "no_esta",
+      "evidencia": "No hay cola con farol; los brillos son elementos independientes flotantes"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<path d=\"M188 216 C 168 172 182 138 218 128 C 210 150 214 168 232 182 C 214 190 200 204 200 224 Z\" fill=\"url(#ala)\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "no_esta",
+      "evidencia": "No hay luciérnagas como tal; hay círculos brillantes pero se leen como destellos/luces, no insectos"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<path d=\"M55 329 q7 -15 14 0 z\" fill=\"#6fe3c6\"/><rect x=\"60\" y=\"329\" width=\"4\" height=\"9\" rx=\"2\" fill=\"#d6f5ea\"/> y similar en cx=342, honguitos luminosos"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffe98a\"><path d=\"M140 96 l2.4 6 6 2.4 -6 2.4 -2.4 6...\"/><path d=\"M356 206 l2 5 5 2...\"/><path d=\"M52 252 l1.8 4.4...\"/></g> estrellas doradas"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<path d=\"M294 138 q6 4 12 1\" stroke=\"#4e3674\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/> sonrisa, y <ellipse cx=\"288\" cy=\"147\" rx=\"5\" ry=\"3\" fill=\"#ff9fb0\"/> mejilla"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "El conjunto forma un animal con 6 patas, cuello largo curvo, ala, aletitas en cuello, manchas, ojos dispares: animal imaginario"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "6 rectángulos de patas: fill=#3a8b86 (3) + fill=#59c2ba (3)"
+    },
+    {
+      "id": "a39",
+      "valor": "contradice",
+      "evidencia": "<path d=\"M248 240 C 272 214 280 180 270 142\" stroke-width=\"27\"/> cuello curvo hacia arriba/costado, no vertical como jirafa"
+    },
+    {
+      "id": "a40",
+      "valor": "no_esta",
+      "evidencia": "No hay antena con farol colgando de la frente estilo pez abisal"
+    },
+    {
+      "id": "a41",
+      "valor": "no_esta",
+      "evidencia": "No hay cola identificable como enroscada en el código"
+    },
+    {
+      "id": "a42",
+      "valor": "no_esta",
+      "evidencia": "Sin cola definida, no puede terminar en lucecita"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "<path d=\"M188 216 C 168 172 182 138 218 128 C 210 150 214 168 232 182 C 214 190 200 204 200 224 Z\" fill=\"url(#ala)\"/> ala/aleta en el lomo"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#2e7d79\" opacity=\".45\"><circle cx=\"150\" cy=\"238\" r=\"8\"/><circle cx=\"172\" cy=\"222\" r=\"5.5\"/>...</g> manchas sobre el cuerpo"
+    },
+    {
+      "id": "a45",
+      "valor": "no_esta",
+      "evidencia": "No hay oreja grande; <path d=\"M256 104 C 244 84 248 64 264 58...\" fill=\"#7fd4c9\"/> es pequeña, más aleta que oreja"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"266\" cy=\"120\" r=\"9.5\"/> (grande) vs <circle cx=\"279\" cy=\"138\" r=\"4.5\"/> (pequeño), distintos tamaños"
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "<path d=\"M55 329 q7 -15 14 0 z\" fill=\"#6fe3c6\"/><rect x=\"60\" y=\"329\" width=\"4\" height=\"9\" rx=\"2\"/> y <path d=\"M337 337 q5 -12 10 0 z\"/> hongos con pie y sombrero"
+    },
+    {
+      "id": "a48",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos codificados como luciérnagas; los brillos son círculos estáticos"
+    },
+    {
+      "id": "a49",
+      "valor": "esta",
+      "evidencia": "stop-color=\"#3b2a5e\" (violeta nocturno), stop-color=\"#55d6c8\" y #4cc3bb (turquesa) en gradientes cuerpo/cuello"
+    },
+    {
+      "id": "a50",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#fff6c4\"/><stop offset=\".45\" stop-color=\"#ffdd75\"/> en radialGradient brillo, y fill=\"#ffe98a\" en estrellas"
+    },
+    {
+      "id": "a51",
+      "valor": "no_esta",
+      "evidencia": "No hay sombras proyectadas; hay <ellipse cx=\"196\" cy=\"347\" rx=\"100\" ry=\"13\" fill=\"#050a1c\" opacity=\".45\"/> sombra bajo animal, muy simple/mínima"
+    },
+    {
+      "id": "a52",
+      "valor": "contradice",
+      "evidencia": "Se usan múltiples linearGradient y radialGradient en todos los elementos principales, no es ilustración plana"
+    },
+    {
+      "id": "a53",
+      "valor": "esta",
+      "evidencia": "Formas redondeadas (rx en rects), colores pastel suaves, mejilla rosada, expresión con sonrisa, escala kawaii/infantil"
+    },
+    {
+      "id": "a54",
+      "valor": "esta",
+      "evidencia": "stroke-linecap=\"round\" generalizado, rx/ry en rectángulos, ellipses para cuerpo y cabeza"
+    },
+    {
+      "id": "a55",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#55d6c8\"/><stop offset=\"1\" stop-color=\"#8a63c9\"/> cuerpo; <stop offset=\"0\" stop-color=\"#f2fff9\"/><stop offset=\"1\" stop-color=\"#b3ece0\"/> panza; tonos pastel"
+    },
+    {
+      "id": "a56",
+      "valor": "esta",
+      "evidencia": "No hay texturas complejas, trazos limpios con paths definidos, degradados suaves, composición ordenada"
+    },
+    {
+      "id": "a57",
+      "valor": "esta",
+      "evidencia": "Colores no naturalistas (#55d6c8 cuerpo turquesa, #8a63c9 violeta), formas estilizadas, sin textura fotorrealista"
+    },
+    {
+      "id": "a58",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"cielo\"><stop offset=\"0\" stop-color=\"#0b1533\"/><stop offset=\".55\" stop-color=\"#232a52\"/><stop offset=\"1\" stop-color=\"#3b2a5e\"/></linearGradient>"
+    }
+  ]
+}

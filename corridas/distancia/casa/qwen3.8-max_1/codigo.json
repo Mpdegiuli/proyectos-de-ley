@@ -1,0 +1,170 @@
+{
+  "consigna": "casa",
+  "unidad": "qwen3.8-max_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:37:45+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M94 190L200 104L306 190Z\" fill=\"url(#b)\" stroke=\"#8e2f20\"/> <rect x=\"112\" y=\"184\" width=\"176\" height=\"126\" rx=\"6\" fill=\"url(#c)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"135\" cy=\"251\" r=\"4\" fill=\"#ff6f61\"/> <circle cx=\"150\" cy=\"249\" r=\"4\" fill=\"#ffd166\"/> (círculos de colores sobre las ventanas)"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<rect x=\"247\" y=\"112\" width=\"24\" height=\"50\" rx=\"3\" fill=\"#b0604d\" stroke=\"#7d4034\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"332\" cy=\"72\" r=\"26\" fill=\"#ffd54d\"/> <circle cx=\"332\" cy=\"72\" r=\"58\" fill=\"url(#d)\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"86\" cy=\"70\" rx=\"34\" ry=\"15\"/> <ellipse cx=\"112\" cy=\"62\" rx=\"28\" ry=\"13\"/> fill=\"#fff\" opacity=\".92\""
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"60\" cy=\"210\" r=\"34\" fill=\"#3e8e41\"/> <rect x=\"52\" y=\"238\" width=\"16\" height=\"80\" rx=\"7\" fill=\"#8a5a33\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#f8f4e6\" stroke-width=\"5\" stroke-linecap=\"round\"><line x1=\"310\" y1=\"284\" x2=\"310\" y2=\"322\"/>...<line x1=\"298\" y1=\"296\" x2=\"396\" y2=\"290\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "no_esta",
+      "evidencia": "No hay path o rect que represente un sendero de piedras hacia la entrada."
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "Gradientes suaves: url(#a) cielo #8fd3ff a #eefaff, url(#c) #fff4d8 a #f3d794, colores pasteles predominantes."
+    },
+    {
+      "id": "a10",
+      "valor": "no_esta",
+      "evidencia": "El código tiene múltiples capas, gradientes, decoraciones en ventanas, arbustos, nubes, cerca, árbol con ramas. Los detalles no son simples."
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"332\" cy=\"72\" r=\"26\" fill=\"#ffd54d\"/> sol visible + cielo claro url(#a) #8fd3ff"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "Colores cálidos: #f26a4b techo, #ffd54d sol, #fff4d8 fachada, #7cc35f pasto, escena hogareña."
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"332\" cy=\"72\" r=\"58\" fill=\"url(#d)\"/> radialGradient con #fff7c2 centro, sol brillante + cielo claro."
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<rect x=\"112\" y=\"184\" width=\"176\" height=\"126\"/> <path d=\"M94 190L200 104L306 190Z\"/> casa centrada y grande en la escena."
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "Casa con flores, árbol, arbustos, colores cálidos y suaves, sol, nubes: atmósfera hogareña y amable."
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<rect x=\"112\" y=\"184\" width=\"176\" height=\"126\" rx=\"6\" fill=\"url(#c)\"/> stop-color=\"#fff4d8\" stop-color=\"#f3d794\" (crema)"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M94 190L200 104L306 190Z\" fill=\"url(#b)\"/> stop-color=\"#f26a4b\" stop-color=\"#b73a28\" (rojo)"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M184 310v-44a16 16 0 0 1 32 0v44z\" fill=\"#955f37\" stroke=\"#6f4325\"/> (marrón)"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"210\" cy=\"284\" r=\"3\" fill=\"#f4d99d\"/> (círculo pequeño en la puerta, representa perilla)"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<rect x=\"130\" y=\"212\" width=\"40\" height=\"40\" rx=\"5\"/> <rect x=\"230\" y=\"212\" width=\"40\" height=\"40\" rx=\"5\"/> exactamente dos ventanas"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"135\" cy=\"251\" r=\"4\" fill=\"#ff6f61\"/> <circle cx=\"150\" cy=\"249\" r=\"4\" fill=\"#ffd166\"/> círculos de colores bajo las ventanas"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"60\" cy=\"210\" r=\"34\" fill=\"#3e8e41\"/> <circle cx=\"37\" cy=\"231\" r=\"24\" fill=\"#4aa04d\"/> <circle cx=\"83\" cy=\"229\" r=\"25\" fill=\"#57b35a\"/> árbol con copa frondosa"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"106\" cy=\"310\" r=\"16\" fill=\"#4aa04d\"/> <circle cx=\"124\" cy=\"314\" r=\"12\"/> <circle cx=\"292\" cy=\"312\" r=\"15\"/> <circle cx=\"276\" cy=\"316\" r=\"11\"/> arbustos a ambos lados"
+    },
+    {
+      "id": "a24",
+      "valor": "no_esta",
+      "evidencia": "No hay path o elementos que representen un sendero de piedras hacia la entrada."
+    },
+    {
+      "id": "a25",
+      "valor": "contradice",
+      "evidencia": "<g stroke=\"#f8f4e6\" stroke-width=\"5\"> líneas verticales y horizontales a la derecha, pero el color es #f8f4e6 (casi blanco crema) no blanco puro, y es una cerca, no explícitamente blanca."
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"a\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#8fd3ff\"/><stop offset=\"1\" stop-color=\"#eefaff\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff\" opacity=\".92\"><ellipse cx=\"86\" cy=\"70\" rx=\"34\" ry=\"15\"/>... nubes blancas con opacidad suave"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"332\" cy=\"72\" r=\"58\" fill=\"url(#d)\"/> radialGradient #fff7c2 centro irradiando, sol brillante"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<g><circle cx=\"259\" cy=\"92\" r=\"7\" fill=\"#fff\" opacity=\".85\"/><circle cx=\"266\" cy=\"77\" r=\"9\" fill=\"#fff\" opacity=\".65\"/><circle cx=\"257\" cy=\"58\" r=\"11\" fill=\"#fff\" opacity=\".45\"/> círculos blancos sobre la chimenea representando humo"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<rect y=\"298\" width=\"400\" height=\"102\" fill=\"#7cc35f\"/> <path d=\"M0 318Q96 296 190 314T400 310V400H0Z\" fill=\"#63ab49\"/> dos capas de pasto"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "Dos capas de pasto con colores distintos (#7cc35f y #63ab49) y path ondulado superpuesto dan sensación de profundidad."
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "Casa centrada, flores coloridas, árbol, arbustos, sol brillante, cielo claro, colores cálidos: atmósfera hogareña, alegre y tranquila."
+    }
+  ]
+}

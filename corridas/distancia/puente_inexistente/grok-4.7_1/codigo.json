@@ -1,0 +1,255 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "grok-4.7_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:42:39+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"208\" r=\"92\" fill=\"none\" stroke=\"url(#ring)\" stroke-width=\"22\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<g clip-path=\"url(#in)\"><rect x=\"120\" y=\"120\" width=\"170\" height=\"180\" fill=\"#06101c\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"168\" cy=\"248\" r=\"13\" fill=\"#fff4cc\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<rect x=\"214\" y=\"148\" width=\"16\" height=\"12\" fill=\"#8a7060\"/><polygon points=\"210,160 222,178 234,160\" fill=\"#4a382e\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M156,228 Q200,200 244,230\" fill=\"none\" stroke=\"#d9c4a4\" stroke-width=\"3\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<rect x=\"120\" y=\"120\" width=\"170\" height=\"180\" fill=\"#06101c\"/> vs <rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<use href=\"#p\" xlink:href=\"#p\" transform=\"translate(200,105)\"/><use href=\"#p\" xlink:href=\"#p\" transform=\"translate(200,311) rotate(180)\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "No hay elemento rect o path que dibuje un tablero entre orillas."
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0,252 C70,236 130,270 200,244 C274,216 338,256 400,232 L400,400 L0,400 Z\" fill=\"url(#sea)\"/> con rocas a ambos lados"
+    },
+    {
+      "id": "a10",
+      "valor": "no_esta",
+      "evidencia": "No hay puente ni cruce entre orillas en el código."
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "No existe ningún path o rect que forme el tablero de un puente entre las dos rocas."
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"208\" r=\"92\" fill=\"none\" stroke=\"url(#ring)\" stroke-width=\"22\"/> sin apoyo estructural en el suelo"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0,170 C24,148 ... fill=\"url(#rock)\"/> y <path d=\"M400,142 C368,118 ... fill=\"url(#rock2)\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0,252 C70,236 130,270 200,244 C274,216 338,256 400,232 L400,400 L0,400 Z\" fill=\"url(#sea)\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<stop offset=\".5\" stop-color=\"#b85a48\"/><stop offset=\".6\" stop-color=\"#f0b36b\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "El anillo es solo <circle cx=\"200\" cy=\"208\" r=\"92\" fill=\"none\" stroke=\"url(#ring)\" stroke-width=\"22\"/> sin pilares."
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "El anillo está centrado en cx=\"200\" cy=\"208\", las rocas están en los bordes laterales sin contacto con el círculo."
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<g clip-path=\"url(#in)\"> con escena interior distinta al exterior"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"168\" cy=\"248\" r=\"13\" fill=\"#fff4cc\"/> dentro del clip-path del anillo"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200,162 V198\" stroke=\"#3a2a22\" stroke-width=\"2\"/> con hojas: <path d=\"M188,186 L200,170 L212,186 Z\" fill=\"#245038\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<rect x=\"219\" y=\"151\" width=\"5\" height=\"5\" fill=\"#f6c86a\"/> dentro de la casa en el clip-path"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<use href=\"#p\" xlink:href=\"#p\" transform=\"translate(200,105)\"/><use href=\"#p\" xlink:href=\"#p\" transform=\"translate(141,124) rotate(-35)\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"92\" r=\"2.3\" fill=\"#fff1c2\"/> con glow <circle cx=\"200\" cy=\"92\" r=\"8\" fill=\"#f6c86a\" opacity=\".45\" filter=\"url(#s)\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "no_esta",
+      "evidencia": "Las casas aparecen dentro del anillo, no sobre las rocas."
+    },
+    {
+      "id": "a25",
+      "valor": "no_esta",
+      "evidencia": "No hay ningún elemento que dibuje un bote en el código."
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"16\" cy=\"22\" r=\"1\" opacity=\".8\"/><circle cx=\"88\" cy=\"18\" r=\"1.2\" opacity=\".9\"/> etc."
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#070814\"/><stop offset=\".32\" stop-color=\"#142743\"/><stop offset=\".5\" stop-color=\"#b85a48\"/><stop offset=\".6\" stop-color=\"#f0b36b\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "El círculo del anillo no tiene path de apoyo hacia el suelo o el agua."
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"208\" r=\"92\" fill=\"none\" stroke=\"url(#ring)\" stroke-width=\"22\"/> sin contacto con roca ni suelo"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "El anillo cerrado con figuras sobre él y sin tablero sugiere que el camino es el propio círculo."
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"208\" r=\"92\" fill=\"none\" stroke=\"url(#ring)\" stroke-width=\"22\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "no_esta",
+      "evidencia": "El anillo no toca las rocas: está flotando en el centro, no suspendido entre ellas."
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<use href=\"#p\" xlink:href=\"#p\" transform=\"translate(200,105)\"/> sobre el borde superior del anillo"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<g clip-path=\"url(#in)\"><rect x=\"120\" y=\"120\" width=\"170\" height=\"180\" fill=\"#06101c\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"168\" cy=\"248\" r=\"13\" fill=\"#fff4cc\"/>"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<rect x=\"214\" y=\"148\" width=\"16\" height=\"12\" fill=\"#8a7060\"/>"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200,162 V198\" stroke=\"#3a2a22\" stroke-width=\"2\"/><path d=\"M188,186 L200,170 L212,186 Z\" fill=\"#245038\"/>"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "El anillo es un círculo cerrado, no una línea recta entre orillas."
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "El anillo cy=\"208\" está por encima del mar que empieza en y=\"252\"."
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0,170 ... fill=\"url(#rock)\"/> y <path d=\"M400,142 ... fill=\"url(#rock2)\"/>"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<stop offset=\".5\" stop-color=\"#b85a48\"/><stop offset=\".6\" stop-color=\"#f0b36b\"/>"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "linearGradient id=\"sky\", linearGradient id=\"sea\", linearGradient id=\"ring\", radialGradient id=\"mg\""
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "Paths simples como <path d=\"M0,170 C24,148 50,160 66,178...\" y polígonos básicos."
+    },
+    {
+      "id": "a44",
+      "valor": "contradice",
+      "evidencia": "El código usa múltiples gradientes (url(#sky), url(#rock), url(#ring)) en lugar de colores planos."
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#vig)\"/> con viñeta oscura en bordes"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "Gradientes decorativos, anillo flotante, mundo interior: estilo claramente decorativo/fantástico."
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#070814\"/><stop offset=\".32\" stop-color=\"#142743\"/> dominan el cielo"
+    },
+    {
+      "id": "a48",
+      "valor": "esta",
+      "evidencia": "Anillo flotante con mundo interior, figuras sobre el borde, luna y casa dentro del portal."
+    },
+    {
+      "id": "a49",
+      "valor": "esta",
+      "evidencia": "<g clip-path=\"url(#in)\"> muestra otro paisaje dentro del círculo, funcionando como ventana."
+    }
+  ]
+}

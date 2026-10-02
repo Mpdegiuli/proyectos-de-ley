@@ -1,0 +1,170 @@
+{
+  "consigna": "arbol_inexistente",
+  "unidad": "gpt-6-luna_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:56:29+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 350 C190 313 205 286 197 254 C190 224 204 201 198 174\" stroke-width=\"19\"/><path d=\"M196 283 C171 271 155 246 139 222 C128 205 113 194 95 187\" stroke-width=\"10\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path id=\"l\" d=\"M0 0 C-11-10-12-27 0-39 C12-27 11-10 0 0Z\"/> <stop stop-color=\"#59d7bb\"/><stop offset=\".52\" stop-color=\"#a2f0ce\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<g fill=\"url(#fruit)\" filter=\"url(#glow)\"><circle cx=\"115\" cy=\"177\" r=\"5\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"201\" cy=\"167\" rx=\"118\" ry=\"49\" transform=\"rotate(-31 201 167)\"/><ellipse cx=\"201\" cy=\"167\" rx=\"98\" ry=\"35\" transform=\"rotate(33 201 167)\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\"><stop stop-color=\"#193c55\"/><stop offset=\"1\" stop-color=\"#091622\"/></radialGradient>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#193c55\"/><stop offset=\"1\" stop-color=\"#091622\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<g fill=\"url(#fruit)\" filter=\"url(#glow)\"/> <radialGradient id=\"fruit\"><stop stop-color=\"#fff4b8\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 350 C190 313 205 286 197 254...\" stroke-width=\"19\"/> con ramas y hojas"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "filter=\"url(#glow)\" fill=\"url(#fruit)\" <radialGradient id=\"sky\"> stop-color=\"#193c55\""
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "árbol con degradados, frutos luminosos con glow, hojas turquesa, fondo cósmico"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\" cx=\"50%\" cy=\"38%\" r=\"70%\"><stop stop-color=\"#193c55\"/><stop offset=\"1\" stop-color=\"#091622\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"wood\"><stop stop-color=\"#a75b72\"/><stop offset=\".48\" stop-color=\"#f1a779\"/><stop offset=\"1\" stop-color=\"#f5df9b\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "stroke=\"url(#wood)\" aplicado a todas las ramas: <path d=\"M196 283 C171 271...\" stroke-width=\"10\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 350 C190 313 205 286 197 254 C190 224 204 201 198 174\" stroke-width=\"19\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"leaf\"><stop stop-color=\"#59d7bb\"/><stop offset=\".52\" stop-color=\"#a2f0ce\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<g fill=\"url(#fruit)\" filter=\"url(#glow)\"><circle cx=\"115\" cy=\"177\" r=\"5\"/><circle cx=\"145\" cy=\"147\" r=\"4\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"201\" cy=\"167\" rx=\"118\" ry=\"49\" transform=\"rotate(-31 201 167)\"/><ellipse cx=\"201\" cy=\"167\" rx=\"98\" ry=\"35\" transform=\"rotate(33 201 167)\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "fill=\"none\" stroke=\"#d8f2d1\" stroke-opacity=\".6\""
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"201\" cy=\"167\" rx=\"118\" ry=\"49\" transform=\"rotate(-31 201 167)\"/><ellipse cx=\"201\" cy=\"167\" rx=\"98\" ry=\"35\" transform=\"rotate(33 201 167)\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M83 354 Q138 338 200 350 Q267 335 325 354 Q269 365 200 360 Q134 366 83 354Z\" fill=\"#183643\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M115 353 Q160 348 200 356 Q250 347 290 354\" fill=\"none\" stroke=\"#5fc0a8\" stroke-opacity=\".45\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#e5efd0\" opacity=\".72\"><circle cx=\"42\" cy=\"70\" r=\"1.2\"/>... con ramas apuntando hacia zona superior del canvas"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 350 C190 313 205 286 197 254 C190 224 204 201 198 174\" stroke-width=\"19\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#59d7bb\"/><stop offset=\".52\" stop-color=\"#a2f0ce\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<g fill=\"url(#fruit)\" filter=\"url(#glow)\"><circle cx=\"115\" cy=\"177\" r=\"5\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\"><stop stop-color=\"#193c55\"/><stop offset=\"1\" stop-color=\"#091622\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"204\" cy=\"174\" r=\"143\" fill=\"#54c9b4\" opacity=\".045\"/> <ellipse ... transform=\"rotate(-31 201 167)\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "hojas con gradiente turquesa, frutos con glow, tronco rosado-dorado, órbitas: no corresponde a especie real"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "fill=\"url(#leaf)\" fill=\"url(#wood)\" fill=\"url(#fruit)\" filter=\"url(#glow)\""
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<path id=\"l\" d=\"M0 0 C-11-10-12-27 0-39 C12-27 11-10 0 0Z\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"wood\"><stop stop-color=\"#a75b72\"/><stop offset=\".48\" stop-color=\"#f1a779\"/><stop offset=\"1\" stop-color=\"#f5df9b\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<filter id=\"glow\"><feGaussianBlur stdDeviation=\"5\" result=\"b\"/><feMerge><feMergeNode in=\"b\"/><feMergeNode in=\"SourceGraphic\"/></feMerge></filter>"
+    }
+  ]
+}

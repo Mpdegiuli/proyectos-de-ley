@@ -1,0 +1,130 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "gpt-4o-mini_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T01:13:24+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "contradice",
+      "evidencia": "<polygon points=\"200,100 160,180 240,180\" fill=\"url(#grad1)\" /> con stop-color:#ffcc00 y #ff9900 (dorada/naranja, no amarilla radiante simple)"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 200 100 L 90 180 L 110 180 L 200 120 L 290 180 L 310 180 Z\" fill=\"#845e3a\" />"
+    },
+    {
+      "id": "a3",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos explícitos de surrealismo; el código muestra un barco estilizado simple"
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos que desafíen la realidad explícitamente en el código"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 200 100 L 90 180 L 110 180 L 200 120 L 290 180 L 310 180 Z\" fill=\"#845e3a\" /> forma geométrica no convencional"
+    },
+    {
+      "id": "a6",
+      "valor": "no_esta",
+      "evidencia": "El código dibuja un barco estilizado, no explícitamente imaginario"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 100 330 L 200 280 L 300 330 Z\" fill=\"#8b4513\" /> color marrón oscuro"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"200,100 160,180 240,180\" fill=\"url(#grad1)\" /> con stop-color:#ffcc00;stop-color:#ff9900 (dorada, triangular)"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"340\" rx=\"180\" ry=\"40\" fill=\"url(#waterGradient)\" /> con stop-color:#00bfff y #005f7f"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"waterGradient\"><stop offset=\"100%\" style=\"stop-color:#005f7f\" /></linearGradient>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<rect x=\"190\" y=\"0\" width=\"20\" height=\"100\" fill=\"#b22222\" />"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<rect x=\"185\" y=\"30\" width=\"30\" height=\"10\" fill=\"#fff\" /><rect x=\"185\" y=\"50\" .../><rect x=\"185\" y=\"70\" .../>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 100 330 C 120 310, 160 310, 180 330 C 200 310, 240 310, 260 330 C 280 310, 320 310, 340 330\" stroke=\"#8b4513\" fill=\"none\" />"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 100 330 C 120 310, 160 310, 180 330...\" con curvas sinuosas que sugieren movimiento"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<rect width=\"100%\" height=\"100%\" fill=\"#87ceeb\" />"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "Cielo #87ceeb, agua gradiente azul, formas simples y ordenadas sugieren serenidad"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 100 330 L 200 280 L 300 330 Z\" fill=\"#8b4513\" /> junto con mástil y vela"
+    },
+    {
+      "id": "a18",
+      "valor": "no_esta",
+      "evidencia": "El casco usa fill=\"#8b4513\" (marrón uniforme) y fill=\"#845e3a\", no combinación vibrante"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "polygon, rect, ellipse, circle, path con formas básicas geométricas"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"grad1\"...> y <linearGradient id=\"waterGradient\"...>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "Formas simples, colores planos/degradados básicos, sin detalles complejos"
+    },
+    {
+      "id": "a22",
+      "valor": "no_esta",
+      "evidencia": "No hay rasgos típicos de cartoon (contornos gruesos negros, expresiones); es estilo ilustración geométrica"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "Colores brillantes (#ffcc00, #87ceeb, #b22222) y formas dinámicas sugieren aspecto alegre"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "Formas geométricas simples y colores vivos como #ffcc00, #b22222, #87ceeb dan toque lúdico"
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "consigna": "arbol_inexistente",
+  "unidad": "minimax-m3_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T01:03:30+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "stroke=\"url(#bark)\" stroke-width=\"26\" ... #bark: stop-color=\"#a07fd8\" ... stop-color=\"#5a3a8a\""
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"bark\"><stop offset=\"0%\" stop-color=\"#a07fd8\"/><stop offset=\"50%\" stop-color=\"#5a3a8a\"/><stop offset=\"100%\" stop-color=\"#2a1850\"/></linearGradient>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"leafA\"><stop offset=\"0%\" stop-color=\"#b0ffd0\"/><stop offset=\"100%\" stop-color=\"#1a7050\"/></radialGradient>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"leafB\"><stop offset=\"0%\" stop-color=\"#ffb8e8\"/><stop offset=\"100%\" stop-color=\"#7030a0\"/></radialGradient>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"leafC\"><stop offset=\"0%\" stop-color=\"#ffe8a0\"/><stop offset=\"100%\" stop-color=\"#a06020\"/></radialGradient>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "ellipses fill=\"url(#leafA)\", fill=\"url(#leafB)\", fill=\"url(#leafC)\" all present across the tree branches"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"70,200 82,184 95,200 82,218\" fill=\"url(#fruit1)\"/> (4 puntos formando rombo)"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 200 360 Q 150 370 110 395\" stroke=\"#3a2060\" stroke-width=\"6\"/> <path d=\"M 200 360 Q 250 372 300 395\"... ramificaciones delgadas en la base"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#3a2068\"/><stop offset=\"100%\" stop-color=\"#06031a\"/></radialGradient>"
+    },
+    {
+      "id": "a10",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos etiquetados como luciérnagas; hay círculos glow pero no animados ni posicionados como insectos"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"120\" cy=\"60\" r=\"18\" fill=\"url(#glow)\"/> <circle cx=\"60\" cy=\"240\" r=\"14\" fill=\"url(#glow)\"/>..."
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "tronco con stroke=\"url(#bark)\" stroke-width=\"26\", ramas laterales, raíces en la base, hojas en ellipses"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "paleta violeta/rosa/cyan, degradados mágicos, frutos en forma de diamante, orbes brillantes"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 200 360 C 175 300 225 270 195 220 C 165 170 240 150 210 100 C 195 70 215 50 205 30\" stroke=\"url(#bark)\" stroke-width=\"26\".../>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "path con curvas C que zigzaguean: \"C 175 300 225 270 195 220 C 165 170 240 150 210 100 C 195 70 215 50 205 30\""
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 195 240 Q 130 220 70 200 Q 40 185 30 150\"... <path d=\"M 200 180 Q 270 170 330 140 Q 360 125 365 95\"..."
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 200 360 Q 150 370 110 395\"... <path d=\"M 200 360 Q 250 372 300 395\"... <path d=\"M 200 360 Q 200 380 195 395\"..."
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"385\" rx=\"220\" ry=\"25\" fill=\"#ff60a0\" opacity=\"0.25\"/> <ellipse cx=\"200\" cy=\"395\" rx=\"180\" ry=\"15\" fill=\"#a060ff\" opacity=\"0.4\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "leafA (#b0ffd0 verde), leafB (#ffb8e8 rosa), leafC (#ffe8a0 dorado)"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"70,200 82,184 95,200 82,218\" fill=\"url(#fruit1)\"/> distribuidos entre las hojas"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "polygons con gradientes fruit1/fruit2 en rosa brillante y azul celeste, forma de diamante"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"100%\" stop-color=\"#06031a\"/> fondo casi negro"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"320\" cy=\"80\" r=\"40\" fill=\"url(#moon)\" opacity=\"0.95\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "no_esta",
+      "evidencia": "Los círculos glow no tienen color propio de luciérnaga ni movimiento; son orbes estáticos, no luciérnagas de colores explícitos"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"20\" cy=\"30\" r=\"1.2\" fill=\"#fff\"/> <circle cx=\"100\" cy=\"20\" r=\"0.8\" fill=\"#fff\"/>... varios círculos pequeños blancos"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "cielo con gradiente oscuro #06031a, luna visible, estrellas presentes"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "tronco serpenteante con curvas C, ramas orgánicas, raíces ramificadas sugieren movimiento vital"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "árbol completo sobre fondo nocturno url(#sky) oscuro con luna"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"bark\"><stop offset=\"0%\" stop-color=\"#a07fd8\"/><stop offset=\"50%\" stop-color=\"#5a3a8a\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "leafA (verde #b0ffd0), leafB (rosado #ffb8e8), leafC (dorado #ffe8a0)"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"70,200 82,184 95,200 82,218\" fill=\"url(#fruit1)\"/> forma de diamante, 6 polígonos distribuidos"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"280\" cy=\"250\" r=\"6\" fill=\"#aaffff\"/> <circle cx=\"130\" cy=\"320\" r=\"5\" fill=\"#ffaaff\"/> <circle cx=\"200\" cy=\"220\" r=\"5\" fill=\"#aaffaa\"/> con glow"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "ellipses con radialGradient que va de color claro a oscuro, sin opacidad sólida, sugiere translucidez"
+    },
+    {
+      "id": "a34",
+      "valor": "no_esta",
+      "evidencia": "Los frutos (polygons) no tienen círculo glow asociado; los glow circles están en otras posiciones"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "círculos pequeños de color (#aaffff, #ffaaff, #aaffaa) con radialGradient glow sugieren fuegos fatuos mágicos"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"glow\">... <radialGradient id=\"moon\">... <radialGradient id=\"leafA\">... todos con sensación de luz central"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "violeta: #3a2068, #5a3a8a; rosa: #ff60a0, #ffb8e8; cyan: #aaffff, stop-color=\"#aaffff\""
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "paleta irreal, árbol con anatomía reconocible pero colores fantásticos, frutos-diamante, orbes mágicos"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "cielo violeta profundo, árbol serpenteante, frutos de diamante, orbes flotantes, colores oníricos"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "paleta neon sobre fondo oscuro (synthwave), árbol fantástico (cuento), degradados radiales brillantes"
+    }
+  ]
+}

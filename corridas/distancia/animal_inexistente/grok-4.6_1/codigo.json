@@ -1,0 +1,215 @@
+{
+  "consigna": "animal_inexistente",
+  "unidad": "grok-4.6_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:09:28+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"fur\"><stop offset=\"0\" stop-color=\"#6fd4c8\"/><stop offset=\".45\" stop-color=\"#e8b07a\"/><stop offset=\"1\" stop-color=\"#c45e86\"/></linearGradient>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M168 168 C90 70 28 118 52 188 C70 232 128 210 168 176 Z\" fill=\"url(#wing)\"/> ... <linearGradient id=\"wing\"><stop offset=\"0\" stop-color=\"#a78bdb\" stop-opacity=\".88\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M176 118 C168 64 186 28 198 18 C206 52 198 88 186 118 Z\" fill=\"url(#horn)\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"186\" cy=\"128\" r=\"6.5\" fill=\"url(#eye)\"/> <ellipse cx=\"158\" cy=\"156\" rx=\"11\" ry=\"10\" fill=\"url(#eye)\"/> <ellipse cx=\"198\" cy=\"152\" rx=\"10.5\" ry=\"9.5\" fill=\"url(#eye)\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"186\" cy=\"128\" r=\"6.5\" fill=\"url(#eye)\" filter=\"url(#g)\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"348\" cy=\"196\" rx=\"10\" ry=\"10\" fill=\"url(#orb)\" filter=\"url(#g)\"/> <ellipse cx=\"372\" cy=\"248\" rx=\"8\" ry=\"8\" fill=\"url(#orb)\"/> <ellipse cx=\"332\" cy=\"278\" rx=\"7\" ry=\"7\" fill=\"url(#orb)\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "Combinación de fur, wing, horn, tres ojos y orbes en un único animal ficticio"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "Combinación de cuerno, alas, tres ojos, orbes y pelaje iridiscente sin base biológica real"
+    },
+    {
+      "id": "a9",
+      "valor": "no_esta",
+      "evidencia": "No hay pezuñas ni forma de ungulado; el cuerpo es genérico con fill=\"url(#fur)\""
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M168 168 C90 70 28 118 52 188...\" fill=\"url(#wing)\"/> <path d=\"M232 176 C318 86 372 148 338 214...\" fill=\"url(#wing)\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#6fd4c8\"/> en linearGradient id=\"fur\""
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<stop offset=\".45\" stop-color=\"#e8b07a\"/><stop offset=\"1\" stop-color=\"#c45e86\"/> en linearGradient id=\"fur\""
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"horn\"><stop offset=\"0\" stop-color=\"#c9a44a\"/><stop offset=\".5\" stop-color=\"#ffe9a8\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"186\" cy=\"128\" r=\"6.5\" fill=\"url(#eye)\"/> <ellipse cx=\"158\" cy=\"156\"/> <ellipse cx=\"198\" cy=\"152\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"eye\"><stop offset=\"0\" stop-color=\"#f5ffe8\"/><stop offset=\".22\" stop-color=\"#7dffc8\"/> filter=\"url(#g)\""
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M158 132 C142 88 118 78 128 128\" fill=\"#5ec4b8\"/> <path d=\"M198 122 C218 72 248 78 228 128\" fill=\"#e07a9a\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M158 132 C142 88 118 78 128 128\" fill=\"#5ec4b8\"/> es turquesa/cian, no verde"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M198 122 C218 72 248 78 228 128\" fill=\"#e07a9a\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#a78bdb\" stop-opacity=\".88\"/><stop offset=\".5\" stop-color=\"#f4a8c8\" stop-opacity=\".72\"/><stop offset=\"1\" stop-color=\"#6ee0c8\" stop-opacity=\".55\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M168 168 C90 70 28 118 52 188...\" fill=\"url(#wing)\"/> con gradiente translúcido iridiscente"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"348\" cy=\"196\" rx=\"10\" ry=\"10\" fill=\"url(#orb)\"/> <ellipse cx=\"372\" cy=\"248\"/> <ellipse cx=\"332\" cy=\"278\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"348\" cy=\"196\" rx=\"10\" ry=\"10\" fill=\"url(#orb)\" filter=\"url(#g)\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"176\" cy=\"208\" r=\"3.2\" fill=\"#7ef0d0\"/> <circle cx=\"198\" cy=\"202\" r=\"2.6\" fill=\"#f4a8c8\"/> <circle cx=\"218\" cy=\"214\" r=\"2.8\" fill=\"#f0c56a\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 318 C60 292 140 308 200 300...\" fill=\"#16352f\"/> <path d=\"M0 338 C90 318 180 342...\" fill=\"#0f2a26\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"78\" cy=\"62\" r=\"28\" fill=\"url(#m1)\"/> <circle cx=\"318\" cy=\"48\" r=\"16\" fill=\"url(#m2)\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff8e0\" opacity=\".85\"><circle cx=\"40\" cy=\"30\" r=\"1.1\"/><circle cx=\"120\" cy=\"18\" r=\".8\"/>..."
+    },
+    {
+      "id": "a27",
+      "valor": "no_esta",
+      "evidencia": "Solo 11 círculos de estrellas dispersos: <circle cx=\"40\" cy=\"30\" r=\"1.1\"/>... no llena el cielo"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"bg\"><stop offset=\"0\" stop-color=\"#12081f\"/><stop offset=\".4\" stop-color=\"#1c1548\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "Animal con fur, wing, horn, tres ojos y orbes sobre fondo nocturno oscuro"
+    },
+    {
+      "id": "a30",
+      "valor": "no_esta",
+      "evidencia": "No hay forma de ciervo; el cuerpo es una elipse genérica fill=\"url(#fur)\" sin patas de ciervo"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<path d=\"M168 168 C90 70 28 118 52 188...\" fill=\"url(#wing)\"/> con gradiente iridiscente translúcido"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"186\" cy=\"128\" r=\"6.5\" fill=\"url(#eye)\"/> <ellipse cx=\"158\" cy=\"156\"/> <ellipse cx=\"198\" cy=\"152\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"horn\"><stop offset=\"0\" stop-color=\"#c9a44a\"/><stop offset=\".5\" stop-color=\"#ffe9a8\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"348\" cy=\"196\" rx=\"10\" ry=\"10\" fill=\"url(#orb)\"/> <ellipse cx=\"372\" cy=\"248\"/> <ellipse cx=\"332\" cy=\"278\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "Todas las formas son paths con curvas bezier suaves y elipses"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "linearGradient id=\"fur\", id=\"wing\", id=\"horn\", radialGradient id=\"eye\", id=\"orb\""
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#12081f\"/><stop offset=\".72\" stop-color=\"#24365a\"/><stop offset=\"1\" stop-color=\"#1a3d38\"/>"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "SVG con paths, gradientes y filtros gausianos; formato vectorial ilustrativo"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "Animal fantástico compuesto con cuerno, alas, tres ojos y orbes sobre fondo nocturno"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "Escala pequeña de detalles, degradados y filtros glow sobre fondo oscuro estrellado"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "Curvas orgánicas, degradados iridiscentes, detalles de pelaje y ornamentación con horn y wing"
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "consigna": "animal_inexistente",
+  "unidad": "deepseek-v4-pro_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:11:22+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<!-- ABDOMEN SEGMENTS (Isopod/Centipede hybrid) --> ... <ellipse cx=\"200\" cy=\"220\" rx=\"20\" ry=\"25\""
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 190 160 C 120 100, 40 110, 30 180 ... fill=\"url(#wingGradUpper)\" opacity=\"0.8\" stroke=\"#00F2FE\""
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<!-- CARAPACE (Translucent Jellyfish Dome) --> <path d=\"M 150 180 C 150 80, 250 80, 250 180 C 230 165, 170 165, 150 180 Z\" fill=\"url(#carapaceGrad)\""
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<!-- THORAX APPENDAGES (Mantis-like arms) --> <path d=\"M 175 180 L 130 160 L 110 170 L 100 160\" />"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<!-- EYES (Bioluminescent Cluster inside Carapace) --> <circle cx=\"180\" cy=\"150\" r=\"7\" fill=\"#FF5733\" /> <circle cx=\"220\" cy=\"150\" r=\"7\""
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<!-- CROWN / SENSORY STRUCTURE (on top of Carapace) --> ... <!-- ANTENNAE / TENDRILS (Sweeping from the head) -->"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "stop-color=\"#00F2FE\" ... stop-color=\"#FF0844\" ... stop-color=\"#FFD700\" ... stop-color=\"#4FACFE\""
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<!-- Left Upper Wing Bioluminescent Nodes --> <g fill=\"#FFD700\" filter=\"url(#glow)\"> ... <!-- Background Bioluminescent Particles -->"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<filter id=\"glow\" ...><feGaussianBlur stdDeviation=\"3\" result=\"blur\" /> ... <filter id=\"glow-heavy\" ...><feGaussianBlur stdDeviation=\"8\""
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<!-- WINGS --> ... <!-- ABDOMEN SEGMENTS (Isopod/Centipede hybrid) --> ... <!-- CARAPACE (Translucent Jellyfish Dome) -->"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "fill=\"url(#carapaceGrad)\" ... filter=\"url(#glow-heavy)\" ... fill=\"#FF5733\" ... fill=\"#FFD700\""
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<!-- ABDOMEN SEGMENTS (Isopod/Centipede hybrid) --> ... <!-- CARAPACE (Translucent Jellyfish Dome) --> ... <!-- THORAX APPENDAGES (Mantis-like arms) -->"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 150 180 C 150 80, 250 80, 250 180 ... fill=\"url(#carapaceGrad)\" stroke=\"#00F2FE\" stroke-width=\"2\" /> ... <stop offset=\"0%\" stop-color=\"#00F2FE\" stop-opacity=\"0.6\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<!-- Left Upper Wing --> ... <!-- Right Upper Wing --> ... <!-- Left Lower Wing --> ... <!-- Right Lower Wing --> ... <!-- Left Upper Wing Veins --> <g stroke=\"#00F2FE\""
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 180 225 L 140 240 L 120 260\" /> <path d=\"M 178 265 L 135 290 L 115 315\" />"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<!-- THORAX APPENDAGES (Mantis-like arms) --> <path d=\"M 175 180 L 130 160 L 110 170 L 100 160\" /> <path d=\"M 225 180 L 270 160 L 290 170 L 300 160\" />"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<!-- Spikes on Segments --> <polygon points=\"178,272 165,250 180,272\" fill=\"#1D2B64\" stroke=\"#00F2FE\" stroke-width=\"1\" /> ... <ellipse cx=\"140\" cy=\"320\" rx=\"10\" ry=\"12\""
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<!-- EYES (Bioluminescent Cluster inside Carapace) --> <g filter=\"url(#glow)\"> <circle cx=\"180\" cy=\"150\" r=\"7\" fill=\"#FF5733\" /> <circle cx=\"220\" cy=\"150\" r=\"7\" fill=\"#FF5733\" />"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<!-- MOUTH / MANDIBLES --> <path d=\"M 190 195 L 180 210 L 195 205 Z\" fill=\"#FF0844\" /> <path d=\"M 210 195 L 220 210 L 205 205 Z\" fill=\"#FF0844\" />"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<!-- Tendril Bulbs --> <circle cx=\"50\" cy=\"20\" r=\"4\" fill=\"#00F2FE\" /> <circle cx=\"350\" cy=\"20\" r=\"4\" fill=\"#00F2FE\" /> <circle cx=\"100\" cy=\"10\" r=\"3\" fill=\"#FF0844\" />"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<!-- CROWN / SENSORY STRUCTURE (on top of Carapace) --> <path d=\"M 200 90 L 190 60 L 200 70 L 210 60 Z\" fill=\"#FFD700\""
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bgGrad\"> <stop offset=\"0%\" stop-color=\"#1D2B64\" /> <stop offset=\"100%\" stop-color=\"#0D1321\" />"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<!-- Background Bioluminescent Particles --> <g fill=\"#00F2FE\" opacity=\"0.5\" filter=\"url(#glow)\"> <circle cx=\"50\" cy=\"60\" r=\"1.5\" />"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<!-- Aura Behind Creature --> <g filter=\"url(#glow-heavy)\"> <ellipse cx=\"200\" cy=\"220\" rx=\"40\" ry=\"60\" fill=\"#FF0844\" opacity=\"0.15\" />"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#bgGrad)\" /> (no hay suelo ni superficie debajo de la criatura, fondo uniforme oscuro)"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<!-- Left Upper Wing Bioluminescent Nodes --> <g fill=\"#FFD700\" filter=\"url(#glow)\"> ... <!-- Background Bioluminescent Particles --> <g fill=\"#00F2FE\" opacity=\"0.5\" filter=\"url(#glow)\">"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<!-- ABDOMEN SEGMENTS (Isopod/Centipede hybrid) --> ... <!-- THORAX APPENDAGES (Mantis-like arms) --> ... <!-- CARAPACE (Translucent Jellyfish Dome) -->"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 150 180 C 150 80, 250 80, 250 180 ... fill=\"url(#carapaceGrad)\" ... <stop offset=\"0%\" stop-color=\"#00F2FE\" stop-opacity=\"0.6\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"180\" cy=\"150\" r=\"7\" fill=\"#FF5733\" /> <circle cx=\"220\" cy=\"150\" r=\"7\" fill=\"#FF5733\" /> <circle cx=\"165\" cy=\"165\" r=\"5\" fill=\"#FFC300\" /> <circle cx=\"235\" cy=\"165\" r=\"5\""
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<!-- Left Upper Wing Bioluminescent Nodes --> <g fill=\"#FFD700\" filter=\"url(#glow)\"> <circle cx=\"60\" cy=\"160\" r=\"2.5\" /> ... fill=\"url(#wingGradUpper)\" opacity=\"0.8\""
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<!-- ANTENNAE / TENDRILS (Sweeping from the head) --> <path d=\"M 160 110 C 130 40, 80 40, 50 20\" stroke=\"#00F2FE\" stroke-width=\"2\" />"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 180 225 L 140 240 L 120 260\" /> ... <!-- Leg Joints --> <g fill=\"#FF0844\" filter=\"url(#glow)\"> <circle cx=\"140\" cy=\"240\" r=\"2.5\" />"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bgGrad\"> <stop offset=\"0%\" stop-color=\"#1D2B64\" /> <stop offset=\"100%\" stop-color=\"#0D1321\" />"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "stroke=\"#00F2FE\" ... fill=\"#00F2FE\" ... stop-color=\"#00F2FE\""
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "fill=\"#FF0844\" ... stroke=\"#FF0844\" ... stop-color=\"#FF0844\""
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "fill=\"#FFD700\" filter=\"url(#glow)\" ... stop-color=\"#FFD700\""
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<filter id=\"glow\"> <feGaussianBlur stdDeviation=\"3\" /> ... <filter id=\"glow-heavy\"> <feGaussianBlur stdDeviation=\"8\""
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<!-- Left Upper Wing --> ... <!-- Right Upper Wing --> (posiciones simétricas: cx=180/220, cx=165/235, path izquierda/derecha espejadas)"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "fill=\"url(#bgGrad)\" (oscuro) + filter=\"url(#glow)\" (brillo) + fill=\"#00F2FE\"/\"#FF0844\"/\"#FFD700\" (neón bioluminiscente)"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<!-- CARAPACE (Translucent Jellyfish Dome) --> ... <!-- ABDOMEN SEGMENTS (Isopod/Centipede hybrid) --> ... fill=\"url(#bgGrad)\" stop-color=\"#0D1321\""
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<!-- Left Upper Wing Veins --> ... <!-- Leg Joints --> ... <!-- Spikes on Segments --> ... <!-- DELICATE CILIA / HAIRS around Thorax -->"
+    }
+  ]
+}

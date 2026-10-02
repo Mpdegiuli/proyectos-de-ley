@@ -1,0 +1,200 @@
+{
+  "consigna": "animal",
+  "unidad": "glm-5.3-razonamiento-minimo_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:57:00+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"215\" cy=\"255\" rx=\"85\" ry=\"70\" fill=\"#e07b39\"/> <rect x=\"165\" y=\"295\" width=\"24\" height=\"60\" rx=\"10\" fill=\"#c96a2e\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"385\" rx=\"150\" ry=\"30\" fill=\"#94c98e\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#bfe3f0\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"320\" cy=\"80\" r=\"36\" fill=\"#ffe9a8\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"215\" cy=\"255\" rx=\"85\" ry=\"70\" fill=\"#e07b39\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"215\" cy=\"255\" rx=\"85\" ry=\"70\" fill=\"#e07b39\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"215\" cy=\"275\" rx=\"60\" ry=\"48\" fill=\"#f7f3ee\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M165 128 L150 88 Q148 82 154 84 L190 100 Z\" fill=\"#c96a2e\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M280 250 Q360 240 370 180 Q375 150 355 145 Q352 175 335 190 Q310 210 275 215 Z\" fill=\"#e07b39\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M355 145 Q352 175 335 190 Q322 200 305 206 Q340 205 362 190 Q378 175 370 158 Q364 146 355 145 Z\" fill=\"#f7f3ee\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"191\" cy=\"179\" r=\"3\" fill=\"#ffffff\"/> <circle cx=\"235\" cy=\"179\" r=\"3\" fill=\"#ffffff\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180 210 Q150 205 135 212\"/> <path d=\"M180 218 Q152 222 140 232\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"172\" cy=\"212\" r=\"7\" fill=\"#f2a29b\" opacity=\"0.7\"/> <circle cx=\"248\" cy=\"212\" r=\"7\" fill=\"#f2a29b\" opacity=\"0.7\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(320,300)\"> <ellipse cx=\"-8\" cy=\"0\" rx=\"9\" ry=\"6\" fill=\"#f2c14e\""
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"-8\" cy=\"0\" rx=\"9\" ry=\"6\" fill=\"#f2c14e\" transform=\"rotate(-25 -8 0)\"/> <ellipse cx=\"8\" cy=\"0\" rx=\"9\" ry=\"6\" fill=\"#f2c14e\" transform=\"rotate(25 8 0)\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#6faf65\" stroke-width=\"3\"> <path d=\"M70 350 Q66 335 72 328\"/> <!-- hierba, mariposa, sol, prado -->"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"172\" cy=\"212\" r=\"7\" fill=\"#f2a29b\" opacity=\"0.7\"/> <!-- mejillas, bigotes, mariposa -->"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"210\" cy=\"175\" r=\"62\" fill=\"#e07b39\"/> <path d=\"M165 128 L150 88 Q148 82 154 84 L190 100 Z\" fill=\"#c96a2e\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<rect x=\"165\" y=\"295\" width=\"24\" height=\"60\" rx=\"10\" fill=\"#c96a2e\"/> <rect x=\"235\" y=\"295\" width=\"24\" height=\"60\" rx=\"10\" fill=\"#c96a2e\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"215\" cy=\"255\" rx=\"85\" ry=\"70\" fill=\"#e07b39\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"215\" cy=\"275\" rx=\"60\" ry=\"48\" fill=\"#f7f3ee\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"177\" cy=\"356\" rx=\"18\" ry=\"9\" fill=\"#5c3317\"/> <ellipse cx=\"247\" cy=\"356\" rx=\"18\" ry=\"9\" fill=\"#5c3317\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M280 250 Q360 240 370 180 Q375 150 355 145 Q352 175 335 190 Q310 210 275 215 Z\" fill=\"#e07b39\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M355 145 Q352 175 335 190 Q322 200 305 206 Q340 205 362 190 Q378 175 370 158 Q364 146 355 145 Z\" fill=\"#f7f3ee\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M210 150 Q165 165 168 200 Q172 230 210 235 Q248 230 252 200 Q255 165 210 150 Z\" fill=\"#f7f3ee\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"188\" cy=\"182\" r=\"9\" fill=\"#3a2415\"/> <!-- color muy oscuro, casi negro, no marrón claro -->"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M202 208 Q210 204 218 208 Q216 218 210 221 Q204 218 202 208 Z\" fill=\"#3a2415\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#5c3317\" stroke-width=\"2\" stroke-linecap=\"round\" fill=\"none\" opacity=\"0.8\">"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"172\" cy=\"212\" r=\"7\" fill=\"#f2a29b\" opacity=\"0.7\"/> <circle cx=\"248\" cy=\"212\" r=\"7\" fill=\"#f2a29b\" opacity=\"0.7\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<path d=\"M165 128 L150 88 Q148 82 154 84 L190 100 Z\" fill=\"#c96a2e\"/> <path d=\"M255 128 L270 88 Q272 82 266 84 L230 100 Z\" fill=\"#c96a2e\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<path d=\"M168 122 L158 96 L184 106 Z\" fill=\"#5c3317\"/> <path d=\"M252 122 L262 96 L236 106 Z\" fill=\"#5c3317\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#bfe3f0\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"320\" cy=\"80\" r=\"36\" fill=\"#ffe9a8\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#6faf65\" stroke-width=\"3\" stroke-linecap=\"round\" fill=\"none\"> <path d=\"M70 350 Q66 335 72 328\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"-8\" cy=\"0\" rx=\"9\" ry=\"6\" fill=\"#f2c14e\" transform=\"rotate(-25 -8 0)\"/> <g transform=\"translate(320,300)\">"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"385\" rx=\"150\" ry=\"30\" fill=\"#94c98e\"/> <ellipse cx=\"60\" cy=\"360\" rx=\"90\" ry=\"26\" fill=\"#a8d5a2\"/>"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"172\" cy=\"212\" r=\"7\" fill=\"#f2a29b\" opacity=\"0.7\"/> <circle cx=\"191\" cy=\"179\" r=\"3\" fill=\"#ffffff\"/>"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"215\" cy=\"255\" rx=\"85\" ry=\"70\" fill=\"#e07b39\"/> <!-- formas simples, colores planos, sin degradados -->"
+    }
+  ]
+}

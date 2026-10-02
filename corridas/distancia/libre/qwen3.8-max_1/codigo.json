@@ -1,0 +1,170 @@
+{
+  "consigna": "libre",
+  "unidad": "qwen3.8-max_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:10:17+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<title>Medusas al anochecer</title> + múltiples grupos con bell/tent gradients"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<title>Medusas al anochecer</title>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"1\" stop-color=\"#04102a\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bell\" ...><stop offset=\".38\" stop-color=\"#ffb7ea\"/><stop offset=\".75\" stop-color=\"#ff7ad2\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bell2\" ...><stop offset=\".4\" stop-color=\"#9df1ff\"/><stop offset=\".8\" stop-color=\"#3ec0f2\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<g id=\"fish\"><path d=\"M0 0c3-2.6 6.5-2.6 9.5 0..."
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"352\" cy=\"150\" r=\"5\" opacity=\".55\"/><circle cx=\"342\" cy=\"188\" r=\"3\" opacity=\".5\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M96 0h64L64 400H-20z\" fill=\"url(#ray)\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M34 400q-14-44 4-84t-6-70\" stroke-width=\"8\"/><path d=\"M56 400q10-36-4-66t8-58\""
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"-16\" cy=\"-34\" rx=\"24\" ry=\"13\" fill=\"#fff\" opacity=\".35\" filter=\"url(#b2)\""
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "bell gradients con #fff4fe vs fondo <stop offset=\"1\" stop-color=\"#04102a\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "múltiples linearGradient y radialGradient definidos en defs"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M146 150v8M142 154h8\"/><path d=\"M312 216v6M309 219h6\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M96 0h64L64 400H-20z\" fill=\"url(#ray)\"/> filter=\"url(#b5)\" opacity=\".5\""
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "no hay elementos de movimiento ni sonido; composición estática con opacidades suaves"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"vig\" ...><stop offset=\"1\" stop-color=\"#010615\" stop-opacity=\".6\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "gradientes suaves, opacidades bajas, composición estática"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "colores neón suaves, gradientes radiales, destellos y halos"
+    },
+    {
+      "id": "a19",
+      "valor": "contradice",
+      "evidencia": "hay medusas grandes, pequeñas, peces, algas, rayos, burbujas, destellos, estrellas"
+    },
+    {
+      "id": "a20",
+      "valor": "contradice",
+      "evidencia": "hay tres grupos de medusa: translate(104 96), translate(328 64), translate(242 164)"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "bell usa #ffb7ea/#ff7ad2 (rosado) y bell2 usa #9df1ff/#3ec0f2 (azulado)"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M96 0h64L64 400H-20z\" fill=\"url(#ray)\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"352\" cy=\"150\" r=\"5\" opacity=\".55\"/> fill=\"none\" stroke=\"#bfeaff\""
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<use href=\"#fish\" transform=\"translate(48 214)\"/> scale(.8) scale(.65) scale(.7)"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M34 400q-14-44 4-84t-6-70\" stroke-width=\"8\" fill=\"none\" stroke=\"#0c3552\""
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#sea)\"/> gradiente oscuro marino"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<title>Medusas al anochecer</title>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "medusas posicionadas en distintas alturas sin suelo debajo: translate(104 96), translate(242 164), translate(328 64)"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "paleta oscura con acentos suaves, opacidades bajas, sin elementos agresivos"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "fondo muy oscuro #04102a, viñeta oscura url(#vig), profundidad submarina"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"-16\" cy=\"-34\" rx=\"24\" ry=\"13\" fill=\"#fff\" opacity=\".35\" filter=\"url(#b2)\""
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "escena submarina estática, sin elementos sonoros, composición quieta con gradientes profundos"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "consigna": "nada",
+  "unidad": "deepseek-v4-pro_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:45:55+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"55\" fill=\"#000000\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"200\" rx=\"130\" ry=\"28\" fill=\"none\" stroke=\"url(#diskGrad)\" stroke-width=\"3\" filter=\"url(#blur5)\""
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"30\" cy=\"50\" r=\"0.7\" opacity=\"0.3\"/> ... (30 círculos pequeños en g fill=\"#ffffff\")"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"55\" fill=\"#000000\"/> y <circle cx=\"200\" cy=\"200\" r=\"90\" fill=\"url(#bhGrad)\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#0a0a0a\"/><stop offset=\"60%\" stop-color=\"#050505\"/><stop offset=\"100%\" stop-color=\"#1a1a1a\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bgGrad\" cx=\"50%\" cy=\"50%\" r=\"50%\"> con stops muy oscuros aplicado a <rect width=\"400\" height=\"400\" fill=\"url(#bgGrad)\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 400\">"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "composición centrada, fondo oscuro, círculo negro central, estrellas mínimas"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"90\" fill=\"url(#bhGrad)\"/> contrasta con disco luminoso alrededor"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#0a0a0a\"/><stop offset=\"60%\" stop-color=\"#050505\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"55\" fill=\"#000000\"/> con <circle cx=\"200\" cy=\"200\" r=\"90\" fill=\"url(#bhGrad)\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"20%\" stop-color=\"#ffb46b\" stop-opacity=\"0.3\"/><stop offset=\"40%\" stop-color=\"#ffd9a0\" stop-opacity=\"0.6\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "transform=\"rotate(-15 200 200)\" y transform=\"rotate(-25 200 200)\" y transform=\"rotate(10 200 200)\""
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "filter=\"url(#blur5)\" aplicado a las tres elipses del disco"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffffff\"> con 30 círculos de radio 0.5 a 1.2"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "r=\"0.5\" opacity=\"0.25\" ... r=\"0.7\" opacity=\"0.3\" (radios y opacidades muy bajos)"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"60\" cy=\"100\" r=\"1.6\" fill=\"#ffffff\" opacity=\"0.8\" filter=\"url(#blur5)\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"90\"... /><circle cx=\"200\" cy=\"200\" r=\"55\"... /> centrados en viewBox 400x400"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "centro negro absoluto rodeado de disco tenue y estrellas dispersas con baja opacidad"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "paleta casi completamente negra, elementos muy sutiles, sin formas ruidosas"
+    },
+    {
+      "id": "a21",
+      "valor": "no_esta",
+      "evidencia": "no hay animación ni elemento que sugiera movimiento en el código"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"90\" fill=\"url(#bhGrad)\"/> con gradiente radial y disco con blur sugieren densidad visual"
+    }
+  ]
+}

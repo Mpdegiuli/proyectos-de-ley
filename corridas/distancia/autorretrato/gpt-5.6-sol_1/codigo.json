@@ -1,0 +1,175 @@
+{
+  "consigna": "autorretrato",
+  "unidad": "gpt-5.6-sol_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:42:09+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 48c-60 0-108 46-108 106v72...\" fill=\"url(#face)\" stroke=\"#b9f7f4\" stroke-width=\"4\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"151\" cy=\"182\" rx=\"20\" ry=\"14\" fill=\"url(#eye)\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "no_esta",
+      "evidencia": "No hay paths o elementos que representen circuitos electrónicos típicos en el código."
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"180\" r=\"156\"/> <circle cx=\"200\" cy=\"180\" r=\"139\" stroke-dasharray=\"2 11\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "stop-color=\"#172e46\", stop-color=\"#9ddce8\", stop-color=\"#467d9b\", fill=\"#22c9da\""
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M72 159l20-11v83l-20-13zM328 159l-20-11v83l20-13z\"/> <ellipse cx=\"151\" cy=\"182\"/> <ellipse cx=\"249\" cy=\"182\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 48c-60 0-108 46-108 106v72...\" fill=\"url(#face)\"/> con ojos, torso, cuello y detalles tecnológicos"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "filtros glow, gradientes, elementos HUD: <path d=\"M130 226h26l8 9h18M270 226h-26l-8 9h-18\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos que sugieran lenguaje (texto, bocadillos, letras)."
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"151\" cy=\"182\" rx=\"20\" ry=\"14\" fill=\"url(#eye)\" filter=\"url(#glow)\"/> ojos prominentes orientados al frente"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M168 257c21 10 43 10 64 0\" fill=\"none\" stroke=\"#b7fbf5\" stroke-width=\"3\" stroke-linecap=\"round\"/> sonrisa suave"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "Sonrisa: <path d=\"M158 256c26 18 58 18 84 0\"/> colores celestes suaves, sin elementos amenazantes"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<filter id=\"glow\"><feGaussianBlur stdDeviation=\"5\" result=\"b\"/><feMerge>..."
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "Ojos, nariz y boca claramente definidos con paths y elipses distintos"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 400\"/> figura centrada en el cuadrado"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 48c-60 0-108 46-108 106v72...\" fill=\"url(#face)\"/> con torso, cuello, cabeza y ojos"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\"><stop offset=\"0\" stop-color=\"#172e46\"/><stop offset=\"1\" stop-color=\"#050a12\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "no_esta",
+      "evidencia": "No hay paths de circuitos en el fondo, solo círculos y líneas HUD decorativas."
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"180\" r=\"156\"/> <circle cx=\"200\" cy=\"180\" r=\"139\" stroke-dasharray=\"2 11\"/> stroke=\"#49dceb\" opacity=\".22\""
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"face\"><stop stop-color=\"#eefcff\"/><stop offset=\".45\" stop-color=\"#9ddce8\"/><stop offset=\"1\" stop-color=\"#467d9b\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"151\" cy=\"182\" rx=\"20\" ry=\"14\" fill=\"url(#eye)\" filter=\"url(#glow)\"/> stop-color=\"#31d9e8\""
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M72 159...M328 159...\"/> <rect x=\"61\"...> <rect x=\"322\"...> simetría bilateral"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 48c-60 0-108 46-108 106v46c19-9 28-31 30-61 45-1 70-17 88-48...\" fill=\"#132c42\" stroke=\"#74cad7\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "no_esta",
+      "evidencia": "No hay paths específicos que representen el cuello con líneas de placas ensambladas."
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M151 278v39l49 30 49-30v-39\" fill=\"#18384f\" stroke=\"#70c8d5\" stroke-width=\"3\"/> <path d=\"M166 291l34 40 34-40\""
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<rect x=\"61\" y=\"174\" width=\"17\" height=\"32\" rx=\"7\" fill=\"#22c9da\" opacity=\".75\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"371\" r=\"19\"/> <path d=\"M190 371h20M200 361v20\" stroke=\"#bfffff\"/> forma de cruz"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M190 371h20M200 361v20\" stroke=\"#bfffff\" stroke-width=\"3\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "fondo oscuro #050a12 vs figura con gradiente claro #eefcff y glow filters"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "Simetría perfecta, degradados, filtros glow, detalles HUD <path d=\"M130 226h26l8 9h18\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<path d=\"M168 257c21 10 43 10 64 0\" fill=\"none\" stroke=\"#b7fbf5\" stroke-width=\"3\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos específicos en el código que comuniquen curiosidad visualmente."
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "Ojos frontales prominentes + sonrisa suave: <ellipse cx=\"151\" cy=\"182\"/> <path d=\"M168 257c21 10 43 10 64 0\"/>"
+    }
+  ]
+}

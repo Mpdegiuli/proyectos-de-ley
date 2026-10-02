@@ -1,0 +1,185 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "gpt-4o_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:24:01+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"220\" rx=\"100\" ry=\"160\" fill=\"url(#bodyGradient)\"/> con gradiente azul marino y extremidades tipo aleta"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M110,220 Q50,180 60,230 Q50,280 110,240\"/> (aletas) y <ellipse cx=\"130\" cy=\"300\" rx=\"20\" ry=\"40\" ... transform=\"rotate(-20 130 300)\"/> (patas)"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"100\" rx=\"65\" ry=\"65\" fill=\"lightcoral\"/> cabeza redonda con ojos, boca, combinando rasgos"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"130\" cy=\"300\" rx=\"20\" ry=\"40\" ... transform=\"rotate(-20 130 300)\"/> y <ellipse cx=\"270\" cy=\"300\" rx=\"20\" ry=\"40\" ... transform=\"rotate(20 270 300)\"/> posición lateral inusual"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "fill=\"lightcoral\" en cabeza y patas, gradiente azul en cuerpo, fondo lightblue"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"100\" rx=\"65\" ry=\"65\"/> cabeza grande, <ellipse cx=\"200\" cy=\"220\" rx=\"100\" ry=\"160\"/> cuerpo alargado"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "combinación de path aletas, ellipse patas, cabeza coral, cuerpo azul marino degradado"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "aletas con path, patas con ellipse rotadas, cola con path curvo, ojos con circle"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "cuerpo marino + aletas + patas + cabeza coral + cola"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"220\" rx=\"100\" ry=\"160\" fill=\"url(#bodyGradient)\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" style=\"stop-color:rgb(173,216,230)\"/> <stop offset=\"100%\" style=\"stop-color:rgb(0,105,148)\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "gradiente azul marino: stop-color:rgb(0,105,148) y forma elíptica alargada"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"100\" rx=\"65\" ry=\"65\" fill=\"lightcoral\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"100\" rx=\"65\" ry=\"65\" fill=\"lightcoral\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"175\" cy=\"85\" r=\"10\" fill=\"white\"/> <circle cx=\"225\" cy=\"85\" r=\"10\" fill=\"white\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"175\" cy=\"85\" r=\"5\" fill=\"black\"/> <circle cx=\"225\" cy=\"85\" r=\"5\" fill=\"black\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M165,115 C200,140 220,140 235,115\" fill=\"transparent\" stroke=\"black\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M110,220 Q50,180 60,230 Q50,280 110,240\" fill=\"none\" stroke=\"black\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M110,220 Q50,180 60,230 Q50,280 110,240\"/> curvas Q"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M110,220 Q50,180 60,230...\"/> izquierda y <path d=\"M290,220 Q350,180 340,230...\"/> derecha"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"130\" cy=\"300\" rx=\"20\" ry=\"40\"/> y <ellipse cx=\"270\" cy=\"300\" rx=\"20\" ry=\"40\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "no_esta",
+      "evidencia": "<ellipse cx=\"130\" cy=\"300\" rx=\"20\" ry=\"40\" fill=\"lightcoral\" ... transform=\"rotate(-20 130 300)\"/> forma elíptica sin dedos ni rasgos de pájaro"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"130\" cy=\"300\" rx=\"20\" ry=\"40\" transform=\"rotate(-20 130 300)\"/> y <ellipse cx=\"270\" cy=\"300\" rx=\"20\" ry=\"40\" transform=\"rotate(20 270 300)\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150,400 Q200,360 250,400\" fill=\"none\" stroke=\"black\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"220\" rx=\"100\" ry=\"160\" fill=\"url(#bodyGradient)\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "cabeza rx=65 ry=65 vs cuerpo rx=100 ry=160, proporción grande relativa"
+    },
+    {
+      "id": "a27",
+      "valor": "no_esta",
+      "evidencia": "las extremidades son paths ondulados y ellipses rotadas, no formas humanas"
+    },
+    {
+      "id": "a28",
+      "valor": "no_esta",
+      "evidencia": "no hay elementos etiquetados como orejas en el código"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" style=\"stop-color:rgb(173,216,230)\"/> <stop offset=\"100%\" style=\"stop-color:rgb(0,105,148)\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"130\" cy=\"300\" ... fill=\"lightcoral\"/> <ellipse cx=\"270\" cy=\"300\" ... fill=\"lightcoral\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "stroke=\"black\" en todos los elementos principales"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "cabeza desproporcionada, colores planos/coral, ojos simples, boca curva simple"
+    },
+    {
+      "id": "a33",
+      "valor": "no_esta",
+      "evidencia": "no hay orejas en el código"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "combinación de gradiente marino, aletas path, patas ellipse rotadas, cabeza coral"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "lightcoral en cabeza y patas, gradiente azul marino en cuerpo: combinación no natural"
+    }
+  ]
+}

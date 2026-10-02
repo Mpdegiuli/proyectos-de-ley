@@ -1,0 +1,185 @@
+{
+  "consigna": "arbol_inexistente",
+  "unidad": "grok-4.7_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:59:12+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<symbol id=\"sa\" viewBox=\"-12 -18 24 36\"><polygon points=\"0,-17 11,-2 4,16 -8,12 -11,-4\" fill=\"url(#a)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"272\" rx=\"48\" ry=\"13\" fill=\"none\" stroke=\"url(#ring)\" stroke-width=\"2.5\" transform=\"rotate(-16 200 272)\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"198\" cy=\"214\" rx=\"6.5\" ry=\"11\" fill=\"#070914\" stroke=\"#e7c99a\" stroke-width=\".7\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"148,314 126,292 138,266 154,288 162,262 156,304\" fill=\"url(#a)\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"50%\" stop-color=\"#f2d7b0\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M214,262 C198,238 184,216 210,198 C226,184 214,168 196,156\" stroke=\"#ff5ccc\" stroke-width=\"1.7\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200,266 C196,224 198,188 203,154\" stroke=\"url(#vein)\" stroke-width=\"2.2\"/> <stop offset=\"48%\" stop-color=\"#79f7ff\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"198\" cy=\"214\" rx=\"6.5\" ry=\"11\" fill=\"#070914\" stroke=\"#e7c99a\" stroke-width=\".7\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<use xlink:href=\"#sa\" transform=\"translate(74,112) rotate(-28) scale(1.35)\"/> <symbol id=\"sa\"><polygon points=\"0,-17 11,-2 4,16 -8,12 -11,-4\" fill=\"url(#a)\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<symbol id=\"cu\" viewBox=\"-9 -11 18 22\"><polygon points=\"0,-10 8,-6 0,-2 -8,-6\"/> ... <use xlink:href=\"#cu\" transform=\"translate(98,122) scale(.82)\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos ring/ellipse posicionados sobre las ramas, solo en la base y un círculo decorativo en el cielo."
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#2c1848\"/> en radialGradient id=\"bg\""
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"28\" cy=\"36\" r=\".7\" opacity=\".8\"/> ... múltiples círculos pequeños fill=\"#fff\" en el fondo"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"148,314 126,292 138,266 154,288 162,262 156,304\" fill=\"url(#a)\"/> <polygon points=\"252,312 274,290 262,264 246,286 236,258 248,306\" fill=\"url(#b)\""
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"272\" rx=\"48\" ry=\"13\" fill=\"none\" stroke=\"url(#ring)\" stroke-width=\"2.5\" transform=\"rotate(-16 200 272)\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"326\" rx=\"62\" ry=\"9\" fill=\"#020208\" opacity=\".5\"/> <path d=\"M0,338 H146 M254,338 H400\" stroke=\"#24385f\""
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<filter id=\"glow\"><feGaussianBlur stdDeviation=\"2.1\" result=\"b\"/><feMerge><feMergeNode in=\"b\"/><feMergeNode in=\"SourceGraphic\"/></feMerge></filter>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "Combinación de bark, vein neón, anillos orbitales, hojas de gema, raíces de cristal — ningún árbol real."
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "Tronco central con venas luminosas, anillos en la base, hojas-gema, brillo neón — composición de árbol sagrado luminoso."
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M192,176 C148,164 108,138 74,112\" stroke=\"#6b3e22\"/> tronco y ramas dibujados"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "Hojas poligonales, venas neón, anillos orbitales, raíces-gema — no corresponde a ninguna especie real."
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<symbol id=\"sa\"><polygon points=\"0,-17 11,-2 4,16 -8,12 -11,-4\" fill=\"url(#a)\"/> forma de gema tallada de 5 vértices"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M186,262 ... stroke=\"#7af7ff\"/> <path d=\"M214,262 ... stroke=\"#ff5ccc\"/> filter glow"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"198\" cy=\"214\" rx=\"6.5\" ry=\"11\" fill=\"#070914\"/> <ellipse cx=\"206\" cy=\"184\" rx=\"5.2\" ry=\"8\" fill=\"#1a0830\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "no_esta",
+      "evidencia": "Las raíces usan fill=\"url(#root)\" (degradado azul-blanco) y fill=\"url(#a)\" (gema), no hay atributo de cristal transparente explícito."
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"272\" rx=\"48\" ry=\"13\" stroke=\"url(#ring)\" transform=\"rotate(-16 200 272)\"/> <ellipse cx=\"200\" cy=\"272\" rx=\"40\" ry=\"10.5\" stroke=\"url(#ring)\" transform=\"rotate(26 200 272)\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"272\" rx=\"48\" ry=\"13\" ... transform=\"rotate(-16 200 272)\"/> múltiples elipses orbitales alrededor de la base"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(324,58)\"><circle r=\"20\"/><rect x=\"-13\" y=\"-13\" width=\"26\" height=\"26\" transform=\"rotate(20)\"/><circle r=\"3\" fill=\"#f6e2b0\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"118\" rx=\"138\" ry=\"82\" fill=\"url(#mist)\"/> <stop offset=\"0%\" stop-color=\"#8af6ff\" stop-opacity=\".2\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#fff1b8\"/> en ring; <path ... stroke=\"#ffe38a\" stroke-dasharray=\"6 5\"/>; <stop stop-color=\"#ffe38a\"/> en vein"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"100%\" stop-color=\"#05060c\"/> en bg; <stop offset=\"46%\" stop-color=\"#0c1226\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "stroke=\"#7af7ff\" stroke=\"#ff5ccc\" stroke=\"#ff6ad4\" fill=\"#5dffe0\" — colores neón presentes"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "Fondo cósmico oscuro + anillos orbitales + bioluminiscencia neón + formas fantásticas orgánicas"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<symbol id=\"sa\"> polygon gema + radialGradient con blancos y transparencias cristalinas"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "Polígonos-gema (sa,sb,sc,cu) sobre paths curvos orgánicos de ramas y raíces"
+    }
+  ]
+}

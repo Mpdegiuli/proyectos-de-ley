@@ -1,0 +1,165 @@
+{
+  "consigna": "autorretrato",
+  "unidad": "mistral-medium-3.5_2",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:49:19+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"150\" r=\"100\" fill=\"url(#skin)\"/> con ojos, boca, cejas"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"150\" r=\"100\" fill=\"url(#skin)\" stroke=\"#5a3921\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"170\" cy=\"130\" rx=\"20\" ry=\"15\" fill=\"url(#eye)\"/> <ellipse cx=\"230\" cy=\"130\" rx=\"20\" ry=\"15\" fill=\"url(#eye)\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento path o shape etiquetado como ceja en el código"
+    },
+    {
+      "id": "a5",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento que dibuje una nariz en el código"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180 170 Q200 190 220 170\" stroke=\"#5a3921\" stroke-width=\"3\" fill=\"none\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M100 100 Q150 50 200 100 Q250 50 300 100\" stroke=\"#5a3921\" stroke-width=\"20\" fill=\"none\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skin\"><stop offset=\"0%\" stop-color=\"#f5d5b0\"/><stop offset=\"100%\" stop-color=\"#e8a87c\"/></linearGradient>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"eye\"><stop offset=\"0%\" stop-color=\"#2c1810\"/><stop offset=\"100%\" stop-color=\"#000000\"/></radialGradient>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<svg viewBox=\"0 0 400 400\""
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "Pocas formas simples: círculo, elipses, paths básicos"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "Formas geométricas básicas sin detalle complejo"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "Formas simples y colores suaves, estilo básico de dibujo"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180 170 Q200 190 220 170\"/> <path d=\"M100 100 Q150 50 200 100 Q250 50 300 100\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skin\"> y <radialGradient id=\"eye\"> aportan variación de color que simula volumen"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "Curvas Q en paths transmiten suavidad: <path d=\"M180 170 Q200 190 220 170\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"150\" r=\"100\" fill=\"url(#skin)\"/> con ojos, boca"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"150\" r=\"100\" fill=\"url(#skin)\" stroke=\"#5a3921\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skin\"><stop offset=\"0%\" stop-color=\"#f5d5b0\"/><stop offset=\"100%\" stop-color=\"#e8a87c\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "stroke=\"#5a3921\" stroke-width=\"2\" en el círculo de la cabeza"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"170\" cy=\"130\" rx=\"20\" ry=\"15\" fill=\"url(#eye)\"/> <ellipse cx=\"230\" cy=\"130\" rx=\"20\" ry=\"15\" fill=\"url(#eye)\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"170\" cy=\"130\" r=\"8\" fill=\"#ffffff\"/> <circle cx=\"230\" cy=\"130\" r=\"8\" fill=\"#ffffff\"/> <circle cx=\"180\" cy=\"120\" r=\"3\" fill=\"#ffffff\"/> <circle cx=\"220\" cy=\"120\" r=\"3\" fill=\"#ffffff\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "no_esta",
+      "evidencia": "No hay path en forma de V que represente una nariz"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180 170 Q200 190 220 170\" stroke=\"#5a3921\" stroke-width=\"3\" fill=\"none\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos que dibujen cejas en el código"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M100 100 Q150 50 200 100 Q250 50 300 100\" stroke=\"#5a3921\" stroke-width=\"20\" fill=\"none\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<rect x=\"160\" y=\"220\" width=\"80\" height=\"40\" rx=\"10\" fill=\"#5a3921\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "Pocas formas simples: círculo cabeza, elipses ojos, paths básicos"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "Boca curva <path d=\"M180 170 Q200 190 220 170\"/> y ojos grandes con brillos"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "circle, ellipse, rect, path simples sin complejidad"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "stop-color=\"#f5d5b0\" stop-color=\"#e8a87c\" stop-color=\"#2c1810\" fill=\"#5a3921\""
+    }
+  ]
+}

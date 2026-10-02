@@ -1,0 +1,145 @@
+{
+  "consigna": "autorretrato",
+  "unidad": "claude-sonnet-4-6_2",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:36:52+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"220\" rx=\"90\" ry=\"105\" fill=\"url(#faceGrad)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#bg)\"/> stop-color=\"#0f0f1a\""
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"60\" cy=\"80\" r=\"2\" fill=\"#4fc3f7\" opacity=\"0.6\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<text x=\"25\" y=\"100\" font-family=\"monospace\" font-size=\"7\" fill=\"#4fc3f7\" opacity=\"0.25\">01001100 01001101</text>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"195\" r=\"160\" fill=\"url(#glow)\"/> stop-color=\"#4fc3f7\""
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"168\" cy=\"207\" r=\"9\" fill=\"#3d6b8f\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#e8d5b0\"/> <stop offset=\"100%\" stop-color=\"#c4a882\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<svg viewBox=\"0 0 400 400\""
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"220\" rx=\"90\" ry=\"105\" fill=\"url(#faceGrad)\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"395\" ... fill=\"#4fc3f7\">AI · Language Model · Claude</text>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"220\" rx=\"90\" ry=\"105\" fill=\"url(#faceGrad)\"/> <text x=\"25\" y=\"112\" ... >if curious: explore()</text>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"220\" rx=\"90\" ry=\"105\" fill=\"url(#faceGrad)\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#e8d5b0\"/> <stop offset=\"100%\" stop-color=\"#c4a882\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#16213e\"/> <stop offset=\"100%\" stop-color=\"#0f0f1a\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#16213e\"/> <stop offset=\"100%\" stop-color=\"#0f0f1a\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"130\" rx=\"90\" ry=\"45\" fill=\"#2c1810\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"168\" cy=\"207\" r=\"9\" fill=\"#3d6b8f\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"171\" cy=\"203\" r=\"2.5\" fill=\"white\" opacity=\"0.9\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<filter id=\"softBlur\"><feGaussianBlur stdDeviation=\"1.5\"/></filter>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M178 268 Q200 280 222 268\" stroke=\"#9a7060\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"385\" rx=\"95\" ry=\"50\" fill=\"#1e3a5f\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"60\" cy=\"80\" r=\"2\" fill=\"#4fc3f7\" opacity=\"0.6\"/> <circle cx=\"340\" cy=\"60\" r=\"1.5\" fill=\"#4fc3f7\" opacity=\"0.4\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"195\" r=\"160\" fill=\"url(#glow)\"/> stop-opacity=\"0.3\""
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"220\" rx=\"90\" ry=\"105\" fill=\"url(#faceGrad)\"/> <text x=\"25\" y=\"100\" ...>01001100 01001101</text>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<text x=\"25\" y=\"100\" font-family=\"monospace\" font-size=\"7\" fill=\"#4fc3f7\" opacity=\"0.25\">01001100 01001101</text>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<text x=\"25\" y=\"112\" font-family=\"monospace\" font-size=\"7\" fill=\"#4fc3f7\" opacity=\"0.2\">if curious: explore()</text>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"395\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\" fill=\"#4fc3f7\" opacity=\"0.7\">AI · Language Model · Claude</text>"
+    }
+  ]
+}

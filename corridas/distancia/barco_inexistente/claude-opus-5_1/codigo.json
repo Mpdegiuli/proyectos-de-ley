@@ -1,0 +1,235 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "claude-opus-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T01:04:14+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M86 252 Q200 350 318 252 Q200 300 86 252 Z\" fill=\"url(#hull)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "contradice",
+      "evidencia": "<path d=\"M86 252 Q200 350 318 252 Q200 300 86 252 Z\" fill=\"url(#hull)\"/> — forma de barco/curva abierta, no media luna"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"hull\"><stop offset=\"0%\" stop-color=\"#8a5a33\"/><stop offset=\"55%\" stop-color=\"#5a3620\"/><stop offset=\"100%\" stop-color=\"#2b1810\"/></linearGradient>"
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M318 252 C336 236 344 212 334 196 C330 188 320 188 318 196 C316 206 326 210 330 204\" — curva pero no voluta cerrada"
+    },
+    {
+      "id": "a5",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M86 252 C70 240 64 220 74 208 C80 200 90 204 88 212\" — curva pero no voluta cerrada"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "No hay ningún elemento dibujando una quilla en el código"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M152 258 L150 118\"/><path d=\"M208 262 L206 72\"/><path d=\"M262 256 L266 130\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M206 92 C264 116 268 184 240 236 L206 236 Z\" fill=\"url(#sail)\"/> — curvas convexas que simulan hinchazón"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "fill=\"url(#sail)\" y fill=\"url(#sail2)\" — dos gradientes distintos para cada par de velas"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#e6dcc5\" stroke-width=\"0.7\" opacity=\"0.55\" fill=\"none\"><path d=\"M206 78 L112 250\"/>..."
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M206 70 L250 80 L206 90 Z\" fill=\"#e0476b\"/><path d=\"M150 116 L182 124 L150 132 Z\" fill=\"#4fc0c0\"/><path d=\"M266 128 L294 135 L266 142 Z\" fill=\"#f0a93b\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M206 70 L250 80 L206 90 Z\" fill=\"#e0476b\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 116 L182 124 L150 132 Z\" fill=\"#4fc0c0\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M266 128 L294 135 L266 142 Z\" fill=\"#f0a93b\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"150\" cy=\"256\" r=\"4.5\" fill=\"#ffd47a\"/><circle cx=\"182\" cy=\"262\" r=\"4.5\"/><circle cx=\"214\" cy=\"264\" r=\"4.5\"/><circle cx=\"246\" cy=\"261\" r=\"4.5\"/><circle cx=\"276\" cy=\"255\" r=\"4.5\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "cx=\"150\" cy=\"256\", cx=\"182\" cy=\"262\", cx=\"214\" cy=\"264\", cx=\"246\" cy=\"261\", cx=\"276\" cy=\"255\" — curva ascendente-descendente similar a sonrisa"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"206\" cy=\"66\" r=\"14\" fill=\"url(#lamp)\"/><circle cx=\"94\" cy=\"236\" r=\"12\" fill=\"url(#lamp)\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"206\" cy=\"66\" r=\"14\" fill=\"url(#lamp)\"/> — posicionado en la punta del mástil mayor (y=\"66\" cerca del tope del mástil y=\"72\")"
+    },
+    {
+      "id": "a19",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"94\" cy=\"236\" r=\"12\" fill=\"url(#lamp)\"/> — está en la zona de la popa del casco, no colgando de la popa propiamente"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sea\"><stop offset=\"60%\" stop-color=\"#141c45\"/><stop offset=\"100%\" stop-color=\"#070b22\"/></linearGradient>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<g opacity=\"0.5\" stroke=\"#d9c6e8\" fill=\"none\"> — crestas en color lila/lavanda"
+    },
+    {
+      "id": "a22",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"312\" cy=\"78\" r=\"26\" fill=\"#fdf6d9\"/> — círculo visible pero no se puede confirmar fase; sin embargo el halo grande sugiere luna llena; r=\"26\" es un círculo completo"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff8e0\"><circle cx=\"40\" cy=\"40\" r=\"1.6\"/><circle cx=\"88\" cy=\"22\" r=\"1.1\"/>..."
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#0b1033\"/><stop offset=\"45%\" stop-color=\"#23306b\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "No hay ningún elemento en el código que dibuje personas o tripulación"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "No hay animación ni elementos de movimiento; el barco está estático en la composición"
+    },
+    {
+      "id": "a27",
+      "valor": "no_esta",
+      "evidencia": "El barco tiene mástiles, velas, casco, jarcias — es un velero reconocible como tipo histórico"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M86 252 Q200 350 318 252 Q200 300 86 252 Z\" — la curva inferior del casco recuerda una luna creciente"
+    },
+    {
+      "id": "a29",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M318 252 C336 236 344 212 334 196 C330 188 320 188 318 196 C316 206 326 210 330 204\" — es una curva pero no cierra en voluta"
+    },
+    {
+      "id": "a30",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M86 252 C70 240 64 220 74 208 C80 200 90 204 88 212\" — curva que regresa pero no forma voluta cerrada"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "M152 258 L150 118 (alto≈140), M208 262 L206 72 (alto≈190), M262 256 L266 130 (alto≈126) — alturas distintas y desiguales"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<path d=\"M206 70 L250 80 L206 90 Z\"/> — forma de triángulo (tres puntos con Z)"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"206\" cy=\"66\" r=\"14\" fill=\"url(#lamp)\"/> — farol en la punta del mástil mayor (M208 262 L206 72)"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "cy=\"256\",\"262\",\"264\",\"261\",\"255\" — los ojos de buey siguen la curva del casco"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "Mismo que a16: disposición curva de los cinco ojos de buey simula una sonrisa"
+    },
+    {
+      "id": "a36",
+      "valor": "contradice",
+      "evidencia": "Los rellenos son gradientes (url(#sail), url(#hull), url(#sea), url(#sky)) — no es ilustración plana sino con degradados"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#0b1033\"/> — cielo nocturno oscuro"
+    },
+    {
+      "id": "a38",
+      "valor": "no_esta",
+      "evidencia": "Las formas tienen curvas suaves y gradientes; no hay clip-path ni formas geométricas recortadas duras"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "Múltiples linearGradient y radialGradient con múltiples stops: id=\"sky\", id=\"sea\", id=\"sail\", id=\"hull\", id=\"moonGlow\""
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "Composición con luna, estrellas, barco, mar — estilo decorativo con colores nocturnos evocadores"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "No hay transformaciones de perspectiva, vanishing points ni profundidad 3D real en el código"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "<g opacity=\"0.5\" stroke=\"#d9c6e8\" fill=\"none\" stroke-linecap=\"round\"><path d=\"M250 320 q18 -6 36 0\"/>... — pocas líneas curvas"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"312\" cy=\"78\" r=\"62\" fill=\"url(#moonGlow)\"/> — halo radial alrededor de la luna"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"40\" cy=\"40\" r=\"1.6\"/><circle cx=\"88\" cy=\"22\" r=\"1.1\"/>... — círculos pequeños como puntos"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "Composición estilizada con gradientes, banderines de colores, formas ornamentales — claramente decorativa"
+    }
+  ]
+}

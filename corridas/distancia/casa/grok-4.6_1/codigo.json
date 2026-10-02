@@ -1,0 +1,185 @@
+{
+  "consigna": "casa",
+  "unidad": "grok-4.6_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:35:59+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"200,104 90,196 310,196\" fill=\"url(#roofG)\"/> con stop-color=\"#D32F2F\" y #C62828"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<rect x=\"108\" y=\"196\" width=\"184\" height=\"132\" fill=\"url(#wall)\"/> con stop-color=\"#FFF8E1\" y #F5E6C8"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<rect x=\"268\" y=\"118\" width=\"28\" height=\"52\" fill=\"#6D4C41\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"282\" cy=\"98\" rx=\"8\" ry=\"6\"/> <ellipse cx=\"290\" cy=\"86\" rx=\"10\" ry=\"7\"/> <ellipse cx=\"300\" cy=\"74\" rx=\"12\" ry=\"8\"/> fill=\"#CFD8DC\""
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<rect x=\"172\" y=\"248\" width=\"56\" height=\"80\" rx=\"2\" fill=\"url(#doorG)\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<rect x=\"124\" y=\"218\" width=\"40\" height=\"40\" fill=\"#4FC3F7\"/> <rect x=\"236\" y=\"218\" width=\"40\" height=\"40\" fill=\"#4FC3F7\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"42\" cy=\"200\" rx=\"28\" ry=\"36\" fill=\"#2E7D32\"/> <ellipse cx=\"68\" cy=\"208\" rx=\"24\" ry=\"30\" fill=\"#388E3C\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"42\" cy=\"314\" r=\"6\" fill=\"#E53935\"/> <circle cx=\"68\" cy=\"318\" r=\"5\" fill=\"#FDD835\"/> <circle cx=\"88\" cy=\"322\" r=\"5\" fill=\"#FB8C00\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 268 C60 248 110 258 160 252 C220 244 270 258 400 242 L400 400 L0 400 Z\" fill=\"url(#grass)\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"78\" cy=\"72\" rx=\"28\" ry=\"16\"/> <ellipse cx=\"102\" cy=\"68\" rx=\"22\" ry=\"18\"/> fill=\"#FFFFFF\" opacity=\"0.92\""
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"322\" cy=\"52\" r=\"32\" fill=\"url(#sunG)\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/> con degradé azul diurno y sol visible"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "casa con techo, paredes, puerta, ventanas, árbol, flores, césped componen escena rural"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "colores vivos, formas simples, flores de colores, cielo degradé pastel, sol con rayos"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "colores cálidos: stop-color=\"#FFF8E1\", stop-color=\"#FFD54F\", stop-color=\"#D32F2F\", flores coloridas"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "árbol, flores, césped, escalones, chimenea con humo rodean la casa"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"> stop 0% #5BA3D9, 55% #A8D8F0, 100% #E8F4FC"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<line x1=\"322\" y1=\"28\" x2=\"322\" y2=\"8\" stroke=\"#FFD54F\"/> y otras 5 líneas radiales desde cx=\"322\" cy=\"52\""
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#FFFFFF\" opacity=\"0.92\"> con múltiples ellipse"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"roofG\"> stop-color=\"#D32F2F\" stop-color=\"#C62828\" stop-color=\"#8E1B1B\""
+    },
+    {
+      "id": "a21",
+      "valor": "contradice",
+      "evidencia": "<polygon points=\"200,104 90,196 310,196\"/> es un triángulo a una sola agua (frontón triangular), no a dos aguas"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<rect x=\"268\" y=\"118\" width=\"28\" height=\"52\" fill=\"#6D4C41\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"282\" cy=\"98\" rx=\"8\" ry=\"6\"/> <ellipse cx=\"290\" cy=\"86\"/> <ellipse cx=\"300\" cy=\"74\"/> fill=\"#CFD8DC\" opacity=\"0.75\""
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"wall\"> stop-color=\"#FFF8E1\" stop-color=\"#F5E6C8\""
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<rect x=\"172\" y=\"248\" width=\"56\" height=\"80\" rx=\"2\" fill=\"url(#doorG)\"/> con stop-color=\"#6D4C41\" marrón madera"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"214\" cy=\"292\" r=\"4\" fill=\"#FFD54F\"/> <circle cx=\"214\" cy=\"292\" r=\"2\" fill=\"#FFC107\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<rect x=\"124\" y=\"218\" width=\"40\" height=\"40\" fill=\"#4FC3F7\"/> y <rect x=\"236\" y=\"218\" width=\"40\" height=\"40\" fill=\"#4FC3F7\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<rect x=\"178\" y=\"168\" width=\"44\" height=\"28\" fill=\"#81D4FA\" stroke=\"#5D4037\" stroke-width=\"3\"/> ubicado en la zona del techo"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<rect x=\"48\" y=\"210\" width=\"14\" height=\"70\" fill=\"#6D4C41\"/> <ellipse cx=\"42\" cy=\"200\"/> árbol a la izquierda"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 268 ... L400 400 L0 400 Z\" fill=\"url(#grass)\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"42\" cy=\"314\" r=\"6\" fill=\"#E53935\"/> <circle cx=\"68\" cy=\"318\" fill=\"#FDD835\"/> <circle cx=\"88\" cy=\"322\" fill=\"#FB8C00\"/> <circle cx=\"352\" cy=\"310\" fill=\"#EC407A\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<path d=\"M168 328 L168 348 Q200 362 232 348 L232 328 Z\" fill=\"#A1887F\"/> <path d=\"M172 328 L172 346 Q200 358 228 346 L228 328 Z\" fill=\"#BCAAA4\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<path d=\"M70 90 Q90 78 110 92\"/> <ellipse cx=\"70\" cy=\"90\"/> y <path d=\"M300 110 Q318 98 336 108\"/> <ellipse cx=\"300\" cy=\"110\"/> fill=\"#37474F\""
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<svg viewBox=\"0 0 400 400\"/> ancho=400 alto=400"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "casa rural con árbol, flores, césped, chimenea, techo rojo"
+    }
+  ]
+}

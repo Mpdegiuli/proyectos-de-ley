@@ -1,0 +1,250 @@
+{
+  "consigna": "persona_inexistente",
+  "unidad": "deepseek-v4-pro_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:24:26+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"182\" cy=\"92\" r=\"12\" fill=\"#2a9d8f\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"218\" cy=\"95\" r=\"7\" fill=\"#9b5de5\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M188 118 Q200 128 212 118\" ... /><path d=\"M192 120 L194 123 ... L208 120\" fill=\"#fff\""
+    },
+    {
+      "id": "a4",
+      "valor": "contradice",
+      "evidencia": "<line x1=\"175\" y1=\"165\" x2=\"140\" y2=\"225\" stroke=\"#b8d8e3\" stroke-width=\"10\"/> — salen del cuerpo/torso, no de la cabeza"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<line x1=\"185\" y1=\"230\" x2=\"175\" y2=\"310\" stroke=\"#4a4e69\"/> — no hay suelo dibujado"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M170 170 C130 120 110 130 90 160 ...\" fill=\"url(#wing)\"/> con stop-opacity=\"0.5\" y \"0.2\""
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"100\" r=\"80\" fill=\"url(#halo)\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M255 290 L270 285 L258 270 Z\" fill=\"#e76f51\"/> — forma triangular al final de la cola"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<rect x=\"170\" y=\"145\" width=\"60\" height=\"95\" rx=\"15\" fill=\"url(#jacket)\"/> — sin cuello ni caderas definidas"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"182\" cy=\"92\" r=\"12\" fill=\"#2a9d8f\"/> vs <circle cx=\"218\" cy=\"95\" r=\"7\" fill=\"#9b5de5\"/> — ojos distintos tamaños y colores"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "fondo cósmico, ojos asimétricos, alas translúcidas, cola con aguijón, halo — conjunto de elementos incongruentes"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "combinación de alas, cola, ojos asimétricos distintos, piel celeste, chaqueta, sombrero — figura imposible"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "no hay suelo; <line x1=\"185\" y1=\"230\" x2=\"175\" y2=\"310\" stroke=\"#4a4e69\"/> piernas terminan en el aire con zapatos"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\"><stop offset=\"0%\" stop-color=\"#2d1b4e\"/><stop offset=\"100%\" stop-color=\"#0d0a1a\"/> con estrellas <circle ... fill=\"#fff\" opacity=\"0.7\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"95\" rx=\"48\" ry=\"55\" fill=\"#b8d8e3\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M152 90 Q150 40 200 35 Q250 40 248 90 ... Z\" fill=\"#ff6b6b\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M155 75 Q120 80 125 55 ... Z\" fill=\"#ffd166\"/> y <path d=\"M245 75 Q280 80 275 55 ... Z\" fill=\"#ffd166\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"182\" cy=\"92\" r=\"12\" fill=\"#2a9d8f\"/> — #2a9d8f es turquesa"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"218\" cy=\"95\" r=\"7\" fill=\"#9b5de5\"/> — r=\"7\" es pequeño"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"182\" cy=\"92\" r=\"12\"/> vs <circle cx=\"218\" cy=\"95\" r=\"7\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "contradice",
+      "evidencia": "<ellipse cx=\"200\" cy=\"68\" rx=\"7\" ry=\"4\" fill=\"#ffd166\"/> — es una elipse dorada, no tiene forma de pico"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M192 120 L194 123 L196 120 L198 123 L200 120 L202 123 L204 120 L206 123 L208 120\" fill=\"#fff\" stroke=\"#c0392b\" stroke-width=\"0.5\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<rect x=\"170\" y=\"145\" width=\"60\" height=\"95\" rx=\"15\" fill=\"url(#jacket)\"/> con <stop offset=\"0%\" stop-color=\"#5f3dc4\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "no_esta",
+      "evidencia": "no hay elemento rect o path etiquetado como bolsillo en la chaqueta"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"190\" cy=\"165\" r=\"2\" fill=\"#f4a261\"/><circle cx=\"200\" cy=\"165\" r=\"2\" fill=\"#f4a261\"/><circle cx=\"210\" cy=\"165\" r=\"2\" fill=\"#f4a261\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<line x1=\"175\" y1=\"165\" x2=\"140\" y2=\"225\" stroke=\"#b8d8e3\" stroke-width=\"10\"/> — #b8d8e3 es azul claro"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<line x1=\"185\" y1=\"230\" x2=\"175\" y2=\"310\" stroke=\"#4a4e69\" stroke-width=\"12\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"170\" cy=\"315\" rx=\"18\" ry=\"8\" fill=\"#e63946\"/><ellipse cx=\"230\" cy=\"315\" rx=\"18\" ry=\"8\" fill=\"#e63946\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M170 170 C130 120 ...\" fill=\"url(#wing)\"/> con stop-color=\"#ff9ff3\" stop-opacity=\"0.5\""
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"halo\"><stop offset=\"0%\" stop-color=\"#ffd166\" stop-opacity=\"0.6\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "fondo cósmico, halo, alas, figura flotante — conjunto evoca viajero onírico"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "ojos asimétricos de colores distintos, boca cosida, proporciones extrañas — evoca experimento"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "alas (ángel), boca cosida/colorida (payaso), ojos asimétricos grandes (alien)"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "combinación única de rasgos: piel celeste, alas, cola con aguijón, ojos asimétricos distintos, boca cosida"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "alas translúcidas, cola con aguijón, ojos alienígenas + forma humanoide con chaqueta"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#ff9ff3\" stop-opacity=\"0.5\"/> en gradiente de alas"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"95\" rx=\"48\" ry=\"55\" fill=\"#b8d8e3\"/> — #b8d8e3 es celeste"
+    },
+    {
+      "id": "a38",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"182\" cy=\"92\" r=\"12\" fill=\"#2a9d8f\"/> — es turquesa/verde azulado, no verde puro"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"218\" cy=\"95\" r=\"7\" fill=\"#9b5de5\"/> — pequeño y violeta"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"68\" rx=\"7\" ry=\"4\" fill=\"#ffd166\"/> — dorado/amarillo"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<rect x=\"175\" y=\"0\" width=\"50\" height=\"40\" fill=\"#2b2d42\"/> con <ellipse cx=\"200\" cy=\"42\" rx=\"45\" ry=\"10\" fill=\"#2b2d42\"/>"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "<rect x=\"170\" y=\"145\" width=\"60\" height=\"95\" rx=\"15\" fill=\"url(#jacket)\"/> con stop-color=\"#5f3dc4\""
+    },
+    {
+      "id": "a43",
+      "valor": "contradice",
+      "evidencia": "uso de radialGradient, linearGradient en cuerpo y alas — no es plana sino con degradados"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "formas simples, proporciones exageradas, ojos dispares — estilo naíf"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "combinación incongruente de elementos: alas, cola aguijón, ojos asimétricos, boca cosida, halo cósmico"
+    },
+    {
+      "id": "a46",
+      "valor": "contradice",
+      "evidencia": "uso de paths curvos complejos, gradientes radiales y lineales — no puramente geométrico y simple"
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "#e63946, #ffd166, #2a9d8f, #9b5de5, #ff6b6b — colores saturados"
+    },
+    {
+      "id": "a48",
+      "valor": "esta",
+      "evidencia": "fondo cósmico + figura híbrida con sombrero, chaqueta, alas y cola — aire lúdico y onírico"
+    }
+  ]
+}

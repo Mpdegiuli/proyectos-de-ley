@@ -1,0 +1,170 @@
+{
+  "consigna": "libre",
+  "unidad": "claude-sonnet-4-6_2",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:56:01+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"0,220 60,140 120,200 180,130 240,195 300,145 360,190 400,150 400,280 0,280\" fill=\"#0f1535\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"285\" width=\"400\" height=\"115\" fill=\"url(#water)\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<g fill=\"white\" filter=\"url(#glow)\"><circle cx=\"30\" cy=\"20\" r=\"1.2\"/>..."
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"300\" cy=\"80\" r=\"30\" fill=\"url(#moon)\" filter=\"url(#softglow)\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"300\" cy=\"310\" rx=\"20\" ry=\"6\" fill=\"#fffde0\" opacity=\"0.15\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#060e1c\"><!-- Pine trees left --><polygon points=\"40,285 55,220 70,285\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"0,220 60,140 120,200 180,130 240,195 300,145 360,190 400,150 400,280 0,280\" fill=\"#0f1535\"/><polygon points=\"0,280 50,200 110,250 170,185 230,245 290,195 350,240 400,200 400,290 0,290\" fill=\"#0d1228\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\" cx=\"50%\" cy=\"40%\" r=\"60%\"><stop offset=\"0%\" stop-color=\"#1a1a4e\"/><stop offset=\"100%\" stop-color=\"#0a0a1a\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<line x1=\"300\" y1=\"285\" x2=\"300\" y2=\"400\" stroke=\"#fffde0\" stroke-width=\"3\" opacity=\"0.15\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"270\" width=\"400\" height=\"20\" fill=\"#1a2a5e\" opacity=\"0.12\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\"...><radialGradient id=\"moon\"...><radialGradient id=\"water\"...>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<filter id=\"glow\"><feGaussianBlur stdDeviation=\"2\" result=\"blur\"/><feMerge><feMergeNode in=\"blur\"/><feMergeNode in=\"SourceGraphic\"/></feMerge></filter>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"0,220 60,140 120,200 180,130 240,195 300,145 360,190 400,150 400,280 0,280\" fill=\"#0f1535\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<filter id=\"softglow\"><feGaussianBlur stdDeviation=\"4\" result=\"blur\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"0,220...\" fill=\"#0f1535\"/><polygon points=\"0,280...\" fill=\"#0d1228\"/><rect x=\"0\" y=\"285\".../>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"0,220 60,140 120,200 180,130 240,195 300,145 360,190 400,150 400,280 0,280\" fill=\"#0f1535\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#1a1a4e\"/><stop offset=\"100%\" stop-color=\"#0a0a1a\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"30\" cy=\"20\" r=\"1.2\"/><circle cx=\"75\" cy=\"45\" r=\"0.8\"/>... (24 estrellas en total)"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<g fill=\"white\" filter=\"url(#glow)\">"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"300\" cy=\"80\" r=\"30\" fill=\"url(#moon)\" filter=\"url(#softglow)\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"300\" cy=\"80\" r=\"30\" fill=\"url(#moon)\" filter=\"url(#softglow)\"/><stop offset=\"0%\" stop-color=\"#fffde0\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"290\" cy=\"70\" r=\"5\" fill=\"#b8a440\" opacity=\"0.5\"/><circle cx=\"312\" cy=\"88\" r=\"3.5\" fill=\"#b8a440\" opacity=\"0.4\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"0,220 60,140 120,200 180,130 240,195 300,145 360,190 400,150 400,280 0,280\" fill=\"#0f1535\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"285\" width=\"400\" height=\"115\" fill=\"url(#water)\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"300\" cy=\"310\" rx=\"20\" ry=\"6\" fill=\"#fffde0\" opacity=\"0.15\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<line x1=\"300\" y1=\"285\" x2=\"300\" y2=\"400\" stroke=\"#fffde0\" stroke-width=\"18\" opacity=\"0.05\"/><line x1=\"300\" y1=\"285\" x2=\"300\" y2=\"400\" stroke=\"#fffde0\" stroke-width=\"3\" opacity=\"0.15\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"300\" cy=\"320\" rx=\"35\" ry=\"4\" fill=\"none\" stroke=\"#fffde0\" stroke-width=\"0.8\" opacity=\"0.15\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<!-- Pine trees left --><g fill=\"#060e1c\">... <!-- Pine trees right --><g fill=\"#060e1c\">"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#060e1c\"><!-- Pine trees left --> ... <g fill=\"#060e1c\"><!-- Pine trees right -->"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<line x1=\"100\" y1=\"50\" x2=\"140\" y2=\"70\" stroke=\"white\" stroke-width=\"1.5\" opacity=\"0.8\" stroke-linecap=\"round\"/><circle cx=\"100\" cy=\"50\" r=\"1.5\" fill=\"white\" opacity=\"0.9\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"285\" width=\"400\" height=\"115\" fill=\"url(#water)\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#1a1a4e\"/><stop offset=\"100%\" stop-color=\"#0a0a1a\"/>"
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "consigna": "arbol_inexistente",
+  "unidad": "glm-5.3-razonamiento-minimo_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T01:02:54+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 338 C 205 320, 185 305, 197 288 C 210 271, 186 255, 198 238 C 208 224, 192 210, 200 195\" stroke-width=\"14\"/> ... stroke=\"#8a5f9e\""
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M203 320 C 190 312, 208 300, 196 292 M202 296 C 214 288, 194 276, 204 268 M203 254 C 190 248, 208 236, 198 230\" fill=\"none\" stroke=\"#c39ad6\" stroke-width=\"1.5\" opacity=\"0.6\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 196 C 160 186, 122 188, 92 200\" stroke=\"#5a3d70\" stroke-width=\"6\"/> <path d=\"M200 196 C 240 184, 278 186, 308 200\" stroke=\"#5a3d70\" stroke-width=\"6\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#54e0c7\" opacity=\"0.85\"> <path d=\"M92 200 l-8 -14 l8 -6 l8 8 z\" />"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<g filter=\"url(#brillo)\"> <circle cx=\"150\" cy=\"178\" r=\"9\" fill=\"url(#orbe)\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#54e0c7\"> <path d=\"M150 250 l-4 6 l5 2 l3 -5 z\" opacity=\"0.7\"/> ... <circle cx=\"235\" cy=\"270\" r=\"2.5\" fill=\"#54e0c7\" opacity=\"0.7\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"cielo\"> <stop offset=\"0%\" stop-color=\"#1a2340\"/> <stop offset=\"60%\" stop-color=\"#0d1226\"/> <stop offset=\"100%\" stop-color=\"#05070f\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"320\" cy=\"70\" r=\"30\" fill=\"url(#luna)\" opacity=\"0.9\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"suelo\"> <stop offset=\"0%\" stop-color=\"#2a2140\"/> <stop offset=\"100%\" stop-color=\"#0b0918\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "fill=\"#54e0c7\" sobre fondo <stop offset=\"0%\" stop-color=\"#1a2340\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "orbes, hojas de cristal, tronco espiralado, bioluminiscencia — elementos no naturales combinados"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<g filter=\"url(#brillo)\"> <circle cx=\"150\" cy=\"178\" r=\"9\" fill=\"url(#orbe)\"/> con <radialGradient id=\"orbe\"> <stop offset=\"0%\" stop-color=\"#d8fff4\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "No hay elementos <animate>, <animateTransform> ni <animateMotion> en el código"
+    },
+    {
+      "id": "a14",
+      "valor": "no_esta",
+      "evidencia": "No hay ningún texto ni atributo title/label que nombre al árbol como 'Árbol de Orbes'"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"cielo\"> <stop offset=\"0%\" stop-color=\"#1a2340\"/> <stop offset=\"100%\" stop-color=\"#05070f\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"320\" cy=\"70\" r=\"30\" fill=\"url(#luna)\" opacity=\"0.9\"/> <stop offset=\"0%\" stop-color=\"#fffbe8\"/> <stop offset=\"100%\" stop-color=\"#c9c2a0\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 338 C 205 320, 185 305, 197 288 C 210 271, 186 255, 198 238 C 208 224, 192 210, 200 195\" stroke-width=\"14\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 196 C 160 186, 122 188, 92 200\"/> <path d=\"M200 196 C 240 184, 278 186, 308 200\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#54e0c7\" opacity=\"0.85\"> <path d=\"M92 200 l-8 -14 l8 -6 l8 8 z\" />"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "Formas angulares tipo polígono con fill=\"#54e0c7\" sugieren fragmentos vítreos; no hay stroke ni textura que lo contradiga"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<g filter=\"url(#brillo)\"> <circle cx=\"150\" cy=\"178\" r=\"9\" fill=\"url(#orbe)\"/> posicionados entre ramas de la copa"
+    },
+    {
+      "id": "a22",
+      "valor": "contradice",
+      "evidencia": "<radialGradient id=\"orbe\"> <stop offset=\"0%\" stop-color=\"#d8fff4\"/> <stop offset=\"45%\" stop-color=\"#54e0c7\"/> — es turquesa/cian, no esmeralda"
+    },
+    {
+      "id": "a23",
+      "valor": "no_esta",
+      "evidencia": "No hay animación en el código; filter brillo da glow pero no pulso animado"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#54e0c7\"> <path d=\"M150 250 l-4 6 l5 2 l3 -5 z\" opacity=\"0.7\"/> <path d=\"M260 240 l4 6 l-5 2 l-3 -5 z\" opacity=\"0.6\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"345\" rx=\"70\" ry=\"6\" fill=\"#54e0c7\" opacity=\"0.15\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "Combinación de orbes, hojas cristal, fondo nocturno, bioluminiscencia — atmósfera onírica visual"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<g filter=\"url(#brillo)\"> con orbes fill=\"url(#orbe)\" y hojas fill=\"#54e0c7\" que emiten luz visualmente"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 338 C 205 320, 185 305, 197 288 C 210 271, 186 255, 198 238 C 208 224, 192 210, 200 195\" stroke-width=\"14\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "Copa formada por paths curvos abiertos sin área de relleno denso: <path d=\"M200 188 C 200 165, 195 142, 186 124\" stroke=\"#7a5588\" stroke-width=\"4\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#54e0c7\" opacity=\"0.85\"> <path d=\"M112 162 l-6 -12 l7 -7 l8 7 z\" opacity=\"0.8\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"150\" cy=\"178\" r=\"9\" fill=\"url(#orbe)\"/> <circle cx=\"255\" cy=\"172\" r=\"8\" fill=\"url(#orbe)\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"235\" cy=\"270\" r=\"2.5\" fill=\"#54e0c7\" opacity=\"0.7\"/> <circle cx=\"185\" cy=\"275\" r=\"2\" fill=\"#54e0c7\" opacity=\"0.6\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "stroke=\"#5a3d70\" stroke=\"#6b4a7a\" stroke=\"#7a5588\" y fondo <stop stop-color=\"#1a2340\"/> <stop stop-color=\"#0d1226\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#d8fff4\"/> <stop offset=\"45%\" stop-color=\"#54e0c7\"/> fill=\"#54e0c7\""
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"cielo\"> <stop offset=\"0%\" stop-color=\"#1a2340\"/> <stop offset=\"100%\" stop-color=\"#05070f\"/>"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"cielo\"> con múltiples stops y <linearGradient id=\"suelo\">"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<filter id=\"brillo\"> <feGaussianBlur stdDeviation=\"3\" result=\"b\"/> <feMerge>...</feMerge> ... <g filter=\"url(#brillo)\">"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "Tronco vegetal espiralado + hojas angulares cristalinas + orbes luminosos combinados en un solo árbol"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "Fondo nocturno degradado + bioluminiscencia turquesa + orbes con glow + luna pálida = atmósfera onírica"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "Uso de gradientes, filtros, formas fantásticas, paleta nocturna — estilo ilustración digital"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "Orbes, hojas cristal, bioluminiscencia, noche estrellada, luna — estética onírica"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "Árbol fantástico con orbes, cristales turquesa, tronco espiralado violeta, luna — evoca fantasía élfica"
+    }
+  ]
+}

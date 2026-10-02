@@ -1,0 +1,200 @@
+{
+  "consigna": "persona",
+  "unidad": "deepseek-v4-pro_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:09:47+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"90\" r=\"35\" fill=\"#F5C9A6\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"155\" cy=\"365\" rx=\"20\" ry=\"10\" fill=\"#333\"/> <ellipse cx=\"245\" cy=\"365\" rx=\"20\" ry=\"10\" fill=\"#333\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"90\" r=\"35\" fill=\"#F5C9A6\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 165 85 Q 165 45 200 45 Q 235 45 235 85 Q 235 65 200 65 Q 165 65 165 85 Z\" fill=\"#333\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"185\" cy=\"90\" r=\"4\" fill=\"#333\"/> <circle cx=\"215\" cy=\"90\" r=\"4\" fill=\"#333\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 178 82 Q 185 78 192 82\" stroke=\"#333\" stroke-width=\"2\" fill=\"none\"/> <path d=\"M 208 82 Q 215 78 222 82\" stroke=\"#333\" stroke-width=\"2\" fill=\"none\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 190 105 Q 200 112 210 105\" stroke=\"#333\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"178\" cy=\"100\" r=\"5\" fill=\"#F08080\" opacity=\"0.5\"/> <circle cx=\"222\" cy=\"100\" r=\"5\" fill=\"#F08080\" opacity=\"0.5\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<rect x=\"145\" y=\"130\" width=\"110\" height=\"125\" rx=\"8\" fill=\"#4A90D9\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<line x1=\"180\" y1=\"260\" x2=\"160\" y2=\"360\" stroke=\"#2E5C31\" stroke-width=\"22\"/> <line x1=\"220\" y1=\"260\" x2=\"240\" y2=\"360\" stroke=\"#2E5C31\" stroke-width=\"22\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"155\" cy=\"365\" rx=\"20\" ry=\"10\" fill=\"#333\"/> <ellipse cx=\"245\" cy=\"365\" rx=\"20\" ry=\"10\" fill=\"#333\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "fill=\"#4A90D9\" fill=\"#2E5C31\" fill=\"#333\" — rellenos planos sin degradados"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"178\" cy=\"100\" r=\"5\" fill=\"#F08080\" opacity=\"0.5\"/> <path d=\"M 190 105 Q 200 112 210 105\" stroke=\"#333\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "formas básicas identificables: círculo cabeza, rect torso, líneas brazos/piernas, elipses zapatos"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "fill=\"#F5C9A6\" fill=\"#F08080\" — colores cálidos en piel y mejillas"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "figura centrada en cx~200, viewBox=\"0 0 400 400\""
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<rect> <circle> <ellipse> <line> — formas primitivas SVG"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "colores usados: #4A90D9, #333, #2E5C31, #F5C9A6, #F08080 — paleta reducida"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "no hay otros elementos decorativos ni fondos distintos al blanco por defecto"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "no hay rect de fondo ni elemento que rellene el fondo"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"90\" r=\"35\" fill=\"#F5C9A6\"/> <rect x=\"145\" y=\"130\" width=\"110\" height=\"125\" rx=\"8\" fill=\"#4A90D9\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "sin rect de fondo, el fondo SVG por defecto es blanco"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"90\" r=\"35\" fill=\"#F5C9A6\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"90\" r=\"35\" fill=\"#F5C9A6\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 165 85 Q 165 45 200 45 Q 235 45 235 85 Q 235 65 200 65 Q 165 65 165 85 Z\" fill=\"#333\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"185\" cy=\"90\" r=\"4\" fill=\"#333\"/> <circle cx=\"215\" cy=\"90\" r=\"4\" fill=\"#333\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 178 82 Q 185 78 192 82\" stroke=\"#333\"/> <path d=\"M 208 82 Q 215 78 222 82\" stroke=\"#333\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 190 105 Q 200 112 210 105\" stroke=\"#333\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"178\" cy=\"100\" r=\"5\" fill=\"#F08080\" opacity=\"0.5\"/> <circle cx=\"222\" cy=\"100\" r=\"5\" fill=\"#F08080\" opacity=\"0.5\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<rect x=\"145\" y=\"130\" width=\"110\" height=\"125\" rx=\"8\" fill=\"#4A90D9\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<rect x=\"145\" y=\"250\" width=\"110\" height=\"10\" fill=\"#333\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<line x1=\"155\" y1=\"145\" x2=\"130\" y2=\"190\" stroke=\"#4A90D9\" stroke-width=\"22\"/> <line x1=\"245\" y1=\"145\" x2=\"270\" y2=\"190\" stroke=\"#4A90D9\" stroke-width=\"22\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<line x1=\"130\" y1=\"190\" x2=\"105\" y2=\"230\" stroke=\"#F5C9A6\" stroke-width=\"18\"/> <line x1=\"270\" y1=\"190\" x2=\"295\" y2=\"230\" stroke=\"#F5C9A6\" stroke-width=\"18\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<line x1=\"180\" y1=\"260\" x2=\"160\" y2=\"360\" stroke=\"#2E5C31\" stroke-width=\"22\"/> <line x1=\"220\" y1=\"260\" x2=\"240\" y2=\"360\" stroke=\"#2E5C31\" stroke-width=\"22\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"155\" cy=\"365\" rx=\"20\" ry=\"10\" fill=\"#333\"/> <ellipse cx=\"245\" cy=\"365\" rx=\"20\" ry=\"10\" fill=\"#333\"/>"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<rect> <circle> <ellipse> <line> — geometría básica y limpia"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "todos los fill son colores sólidos sin degradados: fill=\"#4A90D9\" fill=\"#2E5C31\" fill=\"#F5C9A6\""
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<rect> <circle> <ellipse> <line> — formas primitivas básicas"
+    }
+  ]
+}

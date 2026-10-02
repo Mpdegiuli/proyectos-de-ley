@@ -1,0 +1,130 @@
+{
+  "consigna": "animal",
+  "unidad": "grok-4.7_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:54:34+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(200,210)\"> con cuerpo, orejas, ojos, nariz y patas dibujadas como zorro"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M-22 -42 L-48 -108 L-6 -58 Z\" fill=\"url(#fur)\"/> <path d=\"M22 -42 L48 -108 L6 -58 Z\""
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"fur\"><stop offset=\"0%\" stop-color=\"#e8783a\"/><stop offset=\"100%\" stop-color=\"#c45520\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"0\" cy=\"48\" rx=\"38\" ry=\"32\" fill=\"#f6e6d0\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "no_esta",
+      "evidencia": "No hay path o elemento que dibuje una cola tupida separada del cuerpo"
+    },
+    {
+      "id": "a6",
+      "valor": "no_esta",
+      "evidencia": "No existe cola dibujada con punta clara en el código"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<rect y=\"290\" width=\"400\" height=\"110\" fill=\"url(#grass)\"/> <ellipse cx=\"200\" cy=\"300\" rx=\"170\" ry=\"22\" fill=\"#4e9a3a\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"70\" cy=\"55\" rx=\"38\" ry=\"18\" fill=\"#fff\" opacity=\"0.85\"/> <ellipse cx=\"98\" cy=\"50\""
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M30 310 q8-18 16 0 q8-22 16 0 q8-16 16 0\" fill=\"none\" stroke=\"#2f7a28\""
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "Colores cálidos (#e8783a, #f6e6d0), cielo celeste, prado verde, expresión con sonrisa <path d=\"M-8 38 q8 10 16 0\""
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<rect y=\"290\" width=\"400\" height=\"110\" fill=\"url(#grass)\"/> posiciona suelo bajo el zorro en y=290, zorro en translate(200,210)"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(200,210)\"> con cuerpo, orejas, ojos, nariz y patas dibujadas como zorro"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"fur\"><stop offset=\"0%\" stop-color=\"#e8783a\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"0\" cy=\"48\" rx=\"38\" ry=\"32\" fill=\"#f6e6d0\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"0\" cy=\"48\" rx=\"38\" ry=\"32\" fill=\"#f6e6d0\"/> cubre zona del hocico"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M-22 -42 L-48 -108 L-6 -58 Z\"/> <path d=\"M22 -42 L48 -108 L6 -58 Z\""
+    },
+    {
+      "id": "a18",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento que dibuje una cola esponjada en el código"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#7ec8e3\"/><stop offset=\"100%\" stop-color=\"#c5e8f5\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"70\" cy=\"55\" rx=\"38\" ry=\"18\" fill=\"#fff\" opacity=\"0.85\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"grass\"><stop offset=\"0%\" stop-color=\"#6db84a\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"318\" rx=\"95\" ry=\"10\" fill=\"#000\" opacity=\"0.12\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"48\" cy=\"250\" r=\"5\" fill=\"#f2d24b\"/> <circle cx=\"62\" cy=\"262\" r=\"4\" fill=\"#fff\"/> <circle cx=\"340\" cy=\"240\" r=\"4\" fill=\"#f2d24b\"/> <circle cx=\"355\" cy=\"255\" r=\"6\" fill=\"#fff6c8\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<rect y=\"290\" width=\"400\" height=\"110\" fill=\"url(#grass)\"/> <ellipse cx=\"200\" cy=\"300\" rx=\"170\" ry=\"22\" fill=\"#4e9a3a\"/>"
+    }
+  ]
+}

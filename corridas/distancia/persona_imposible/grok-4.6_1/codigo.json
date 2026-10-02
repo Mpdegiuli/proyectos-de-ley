@@ -1,0 +1,175 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "grok-4.6_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:38:17+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"194\" cy=\"86\" rx=\"40\" ry=\"46\" fill=\"url(#skin)\"/> <ellipse cx=\"236\" cy=\"70\" rx=\"26\" ry=\"30\" fill=\"url(#skin2)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"182\" cy=\"86\" rx=\"8\" ry=\"5.5\" fill=\"#f4eae0\"/> <ellipse cx=\"210\" cy=\"84\" rx=\"8\" ry=\"5.5\" fill=\"#f4eae0\"/> <ellipse cx=\"196\" cy=\"68\" rx=\"6.5\" ry=\"4.5\" fill=\"#f4eae0\"/> <ellipse cx=\"244\" cy=\"68\" rx=\"6\" ry=\"4.2\" fill=\"#f4eae0\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"192\" r=\"22\" fill=\"#09080c\"/> <ellipse cx=\"200\" cy=\"190\" rx=\"9\" ry=\"11\" fill=\"url(#skin2)\"/> <ellipse cx=\"197\" cy=\"188\" rx=\"2\" ry=\"1.6\" fill=\"#1c1210\"/> <ellipse cx=\"204\" cy=\"188\" rx=\"2\" ry=\"1.6\" fill=\"#1c1210\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "Los brazos están definidos como paths simples sin ramificaciones: <path d=\"M168 148 C152 150 138 168 128 196...\" fill=\"url(#skin)\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M54 280 C48 286 46 296 52 302 C60 298 64 292 62 284...\" fill=\"url(#skin)\"/> aparece en zona de cadera/muslo"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M124 348 C112 350 100 358 108 364...\" fill=\"url(#skin2)\"/> <path d=\"M268 346 C282 348 298 354 292 364...\" fill=\"url(#skin2)\"/> <path d=\"M208 350 C214 358 222 362 218 370...\" fill=\"#7a5a4a\"/> tres pies"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "Todos los paths y ellipses forman una sola figura conectada sin separación explícita en dos objetos distintos"
+    },
+    {
+      "id": "a8",
+      "valor": "no_esta",
+      "evidencia": "Los paths del cuerpo cierran con Z: <path d=\"M200 214 C188 268 196 250 178 322...200 214Z\" fill=\"#6b5344\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "Dos cabezas, rostro en el pecho, tres pies, brazos extra en posiciones anatómicamente imposibles"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "Hay una figura humanoide central con cabeza, torso, brazos y piernas"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"194\" cy=\"86\" rx=\"40\" ry=\"46\"/> y <ellipse cx=\"236\" cy=\"70\" rx=\"26\" ry=\"30\"/> dos cabezas superpuestas/desdobladas"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"182\" cy=\"86\"/> <ellipse cx=\"210\" cy=\"84\"/> en cabeza principal; <ellipse cx=\"196\" cy=\"68\"/> <ellipse cx=\"244\" cy=\"68\"/> en segunda cabeza: cuatro ojos en el área de las cabezas"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"192\" r=\"22\" fill=\"#09080c\"/> con ojos <ellipse cx=\"197\" cy=\"188\"/> <ellipse cx=\"204\" cy=\"188\"/> y boca <path d=\"M197 194 C199 197 202 197 204 193\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "no_esta",
+      "evidencia": "Los brazos no se ramifican, hay brazos adicionales pero no se abren en ramas"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M54 280...\" fill=\"url(#skin)\"/> mano/extremidad en posición lateral inesperada; <path d=\"M304 292...\" fill=\"url(#skin)\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M124 348...\"/> <path d=\"M268 346...\"/> <path d=\"M208 350...\"/> tres formaciones de pie"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"236\" cy=\"70\" rx=\"26\" ry=\"30\" fill=\"url(#skin2)\"/> segunda cabeza adosada a la principal"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "Las sombras al pie <ellipse cx=\"128\" cy=\"358\" rx=\"78\" ry=\"14\"/> <ellipse cx=\"278\" cy=\"358\" rx=\"72\" ry=\"13\"/> y los pies en y≈350-370 sugieren posición vertical"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\"><stop offset=\"0%\" stop-color=\"#241c2e\"/><stop offset=\"100%\" stop-color=\"#09080c\"/></radialGradient> <rect width=\"400\" height=\"400\" fill=\"url(#bg)\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "Dos cabezas, rostro en el pecho, tres pies, posiciones anatómicamente imposibles indican intencionalidad"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "Dos cabezas, cuatro ojos, rostro en pecho, múltiples pies, brazos extra"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"194\" cy=\"86\" rx=\"40\" ry=\"46\"/> cabeza principal y <ellipse cx=\"236\" cy=\"70\" rx=\"26\" ry=\"30\"/> segunda cabeza"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"182\" cy=\"86\" rx=\"8\"/> <ellipse cx=\"210\" cy=\"84\" rx=\"8\"/> <ellipse cx=\"196\" cy=\"68\" rx=\"6.5\"/> <ellipse cx=\"244\" cy=\"68\" rx=\"6\"/> cuatro ojos"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"192\" r=\"22\"/> con <ellipse cx=\"197\" cy=\"188\" rx=\"2\" ry=\"1.6\" fill=\"#1c1210\"/> <ellipse cx=\"204\" cy=\"188\"/> y <path d=\"M197 194 C199 197 202 197 204 193\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "Brazos adicionales: <path d=\"M368 196...\"/> <path d=\"M100 124...\"/> además de los dos principales"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M54 280...\" fill=\"url(#skin)\"/> en zona baja lateral; <path d=\"M304 292...\" fill=\"url(#skin)\"/> en zona glútea"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#bg)\"/> con bg oscuro #241c2e a #09080c"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skin\"><stop offset=\"0%\" stop-color=\"#edd6c2\"/><stop offset=\"100%\" stop-color=\"#c4a48c\"/></linearGradient> usado en fill=\"url(#skin)\""
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "Dos cabezas, rostro en pecho, anatomía imposible constituyen elementos surrealistas"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "Formas orgánicas curvas con paths de bezier que imitan tejido biológico"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "Todos los contornos usan curvas C (bezier cúbicas) simulando formas orgánicas"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "Degradados de piel, sombras, volumen con skin/skin2 y múltiples capas superpuestas"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "Dos cabezas, cuatro ojos, rostro en pecho, tres pies, extremidades extra en posiciones imposibles"
+    }
+  ]
+}

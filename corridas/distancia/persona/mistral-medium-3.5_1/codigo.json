@@ -1,0 +1,190 @@
+{
+  "consigna": "persona",
+  "unidad": "mistral-medium-3.5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:09:22+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"100\" r=\"30\" fill=\"#FFD700\"/> <rect x=\"170\" y=\"150\" width=\"60\" height=\"100\" rx=\"10\" fill=\"#4169E1\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"100\" r=\"30\" fill=\"#FFD700\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"100\" r=\"30\" fill=\"#FFD700\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"180\" cy=\"90\" r=\"5\" fill=\"black\"/> <circle cx=\"220\" cy=\"90\" r=\"5\" fill=\"black\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180 120 Q200 140 220 120\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180 120 Q200 140 220 120\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<rect x=\"170\" y=\"150\" width=\"60\" height=\"100\" rx=\"10\" fill=\"#4169E1\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<rect x=\"170\" y=\"150\" width=\"60\" height=\"100\" rx=\"10\" fill=\"#4169E1\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<rect x=\"160\" y=\"140\" width=\"20\" height=\"60\" fill=\"#FFD700\"/> <rect x=\"220\" y=\"140\" width=\"20\" height=\"60\" fill=\"#FFD700\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "no_esta",
+      "evidencia": "<rect x=\"160\" y=\"140\" width=\"20\" height=\"60\" fill=\"#FFD700\"/> <rect x=\"220\" y=\"140\" width=\"20\" height=\"60\" fill=\"#FFD700\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<rect x=\"150\" y=\"250\" width=\"40\" height=\"100\" fill=\"#000000\"/> <rect x=\"210\" y=\"250\" width=\"40\" height=\"100\" fill=\"#000000\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "formas simples: circle, rect, path sin detalles complejos"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle .../> <rect .../> <path d=\"M180 120 Q200 140 220 120\".../>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180 120 Q200 140 220 120\" fill=\"none\"/> colores vivos #FFD700 #4169E1"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "fill=\"#FFD700\" fill=\"#4169E1\" fill=\"#000000\""
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "formas geométricas básicas combinadas para representar una figura humana"
+    },
+    {
+      "id": "a17",
+      "valor": "no_esta",
+      "evidencia": "<circle cx=\"200\" cy=\"100\" r=\"30\" fill=\"#FFD700\"/> sin rayos ni elementos de sol"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"100\" r=\"30\" fill=\"#FFD700\"/> <rect x=\"170\" y=\"150\" width=\"60\" height=\"100\" rx=\"10\" fill=\"#4169E1\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"100\" r=\"30\" fill=\"#FFD700\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"100\" r=\"30\" fill=\"#FFD700\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"180\" cy=\"90\" r=\"5\" fill=\"black\"/> <circle cx=\"220\" cy=\"90\" r=\"5\" fill=\"black\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180 120 Q200 140 220 120\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<rect x=\"170\" y=\"150\" width=\"60\" height=\"100\" rx=\"10\" fill=\"#4169E1\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "no_esta",
+      "evidencia": "<rect x=\"170\" y=\"150\" width=\"60\" height=\"100\" rx=\"10\" fill=\"#4169E1\"/> sin detalles de traje"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<rect x=\"160\" y=\"140\" width=\"20\" height=\"60\" fill=\"#FFD700\"/> <rect x=\"220\" y=\"140\" width=\"20\" height=\"60\" fill=\"#FFD700\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<rect x=\"160\" y=\"140\" .../> <rect x=\"220\" y=\"140\" .../> a ambos lados del cuerpo en x=\"170\""
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<rect x=\"150\" y=\"250\" width=\"40\" height=\"100\" fill=\"#000000\"/> <rect x=\"210\" y=\"250\" width=\"40\" height=\"100\" fill=\"#000000\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<rect x=\"150\" y=\"250\" width=\"40\" height=\"100\" fill=\"#000000\"/> <rect x=\"210\" y=\"250\" width=\"40\" height=\"100\" fill=\"#000000\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "figura con cabeza, cuerpo, brazos y piernas verticales sin suelo ni inclinación"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<circle .../> <rect .../> <path .../>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "formas geométricas simples sin detalles decorativos complejos"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "fill=\"#FFD700\" fill=\"#4169E1\" fill=\"#000000\""
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180 120 Q200 140 220 120\"/> sonrisa + colores vivos"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "formas básicas sin complejidad visual"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "figura humana simplificada con sonrisa y colores vivos"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "fill=\"#FFD700\" fill=\"#4169E1\" formas limpias y geométricas"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "consigna": "mundo",
+  "unidad": "gpt-4o-mini_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:22:35+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<rect width=\"100%\" height=\"100%\" fill=\"#87CEEB\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"80\" fill=\"#3CB371\"/> <circle cx=\"200\" cy=\"200\" r=\"60\" fill=\"#FFD700\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 220 C 100 240...\" fill=\"#8B4513\"/> <path d=\"M250 220 C 300 240...\" fill=\"#8B4513\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "contradice",
+      "evidencia": "<path ... fill=\"#FF4500\"/> — el color es #FF4500 (naranja-rojo), no naranja puro, y son formas de llama/hoja pero el color no es exactamente naranja"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"70\" cy=\"70\" r=\"10\" fill=\"#FF6347\"/> <circle cx=\"330\" cy=\"70\" r=\"10\" fill=\"#FF6347\"/> <circle cx=\"70\" cy=\"330\" r=\"10\" fill=\"#FF6347\"/> <circle cx=\"330\" cy=\"330\" r=\"10\" fill=\"#FF6347\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"70\" cy=\"70\" r=\"10\"/> <circle cx=\"330\" cy=\"70\" r=\"10\"/> <circle cx=\"70\" cy=\"330\" r=\"10\"/> <circle cx=\"330\" cy=\"330\" r=\"10\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<rect width=\"100%\" height=\"100%\" fill=\"#87CEEB\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"80\" fill=\"#3CB371\"/> <path ... fill=\"#8B4513\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M190 160 C 180 140...\" fill=\"#FF4500\"/> <path d=\"M210 160 C 220 140...\" fill=\"#FF4500\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"70\" cy=\"70\" r=\"10\" fill=\"#FF6347\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "elementos combinados: cielo, verde, marrón, texto \"Un mundo diverso\""
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "formas curvas dominantes: circles y paths con curvas bezier"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"20\" ...>Hoy</text> <text x=\"20\" y=\"380\" ...>Un mundo diverso</text>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<rect width=\"100%\" height=\"100%\" fill=\"#87CEEB\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"60\" fill=\"#FFD700\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "no_esta",
+      "evidencia": "no hay elementos que representen árboles verticales con tronco y copa diferenciados"
+    },
+    {
+      "id": "a17",
+      "valor": "contradice",
+      "evidencia": "<path d=\"M150 220 C 100 240, 150 300, 200 280...\" fill=\"#8B4513\"/> — son formas curvas orgánicas, no montañas triangulares"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"70\" cy=\"70\" r=\"10\" fill=\"#FF6347\"/> <circle cx=\"330\" cy=\"70\" r=\"10\" fill=\"#FF6347\"/> <circle cx=\"70\" cy=\"330\" r=\"10\" fill=\"#FF6347\"/> <circle cx=\"330\" cy=\"330\" r=\"10\" fill=\"#FF6347\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "contradice",
+      "evidencia": "<line x1=\"200\" y1=\"200\" x2=\"100\" y2=\"350\" stroke=\"#FFFFFF\" stroke-dasharray=\"5,5\"/> — las líneas punteadas son blancas, no grises. La línea gris es sólida: stroke=\"#A9A9A9\" stroke-width=\"5\""
+    },
+    {
+      "id": "a20",
+      "valor": "no_esta",
+      "evidencia": "<line x1=\"0\" y1=\"350\" x2=\"400\" y2=\"350\" stroke=\"#A9A9A9\"/> — la línea gris es horizontal en y=350, no conecta elementos entre sí"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<rect width=\"100%\" height=\"100%\" fill=\"#87CEEB\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "no_esta",
+      "evidencia": "las formas marrones son curvas orgánicas inferiores, no montañas reconocibles"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<text x=\"20\" y=\"380\" ...>Un mundo diverso</text> y combinación de múltiples formas y colores"
+    }
+  ]
+}

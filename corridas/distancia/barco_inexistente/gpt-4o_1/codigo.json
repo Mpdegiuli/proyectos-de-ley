@@ -1,0 +1,200 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "gpt-4o_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T01:13:05+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M-70 30 Q0 -60 70 30 Z\" fill=\"#8D6E63\" stroke=\"#5D4037\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"5\" cy=\"-160\" r=\"3\" fill=\"#FF5722\" /><circle cx=\"-5\" cy=\"-170\" r=\"3\" fill=\"#FF5722\" /><circle cx=\"15\" cy=\"-180\" r=\"3\" fill=\"#FF5722\" />"
+    },
+    {
+      "id": "a3",
+      "valor": "no_esta",
+      "evidencia": "No hay cilindros en el código"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 0 L0 -120 L50 -50 Z\" fill=\"#FFCCBC\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"75\" cy=\"50\" r=\"30\" fill=\"rgba(255,255,255,0.5)\"/><circle cx=\"95\" cy=\"70\" r=\"25\" fill=\"rgba(255,255,255,0.5)\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "no_esta",
+      "evidencia": "Azul para el mar, celeste para el cielo, colores típicos marítimos"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "Casco con forma de parábola, círculos flotantes, antenas naranjas, vela triangular asimétrica"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"5\" cy=\"-160\" r=\"3\" fill=\"#FF5722\" /> círculos flotantes y formas geométricas abstractas"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "Los mástiles y círculos no tienen función náutica representada en el código"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "Combinación de formas abstractas: casco parabólico, esferas flotantes, antenas, polígonos de fuego"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "Formas no funcionales: <path d=\"M-70 30 Q0 -60 70 30 Z\"/>, círculos flotantes, antenas decorativas"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M-70 30 Q0 -60 70 30 Z\" fill=\"#8D6E63\"/> con vela y estructura"
+    },
+    {
+      "id": "a13",
+      "valor": "no_esta",
+      "evidencia": "No hay indicadores de movimiento en el código"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"200\" width=\"400\" height=\"200\" fill=\"url(#seaGradient)\" />"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"0\" width=\"400\" height=\"200\" fill=\"url(#skyGradient)\" />"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M-70 30 Q0 -60 70 30 Z\" fill=\"#8D6E63\"/> curva suave con Bezier cuadrático"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 0 L0 -120 L50 -50 Z\" fill=\"#FFCCBC\"/> color #FFCCBC es melocotón"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"5\" cy=\"-160\" r=\"3\" fill=\"#FF5722\" /><circle cx=\"-5\" cy=\"-170\" r=\"3\" fill=\"#FF5722\" /><circle cx=\"15\" cy=\"-180\" r=\"3\" fill=\"#FF5722\" />"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "El barco está en transform=\"translate(150, 250)\" sobre el mar en y=200"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"seaGradient\"><stop offset=\"0%\" stop-color=\"#1565C0\"/><stop offset=\"100%\" stop-color=\"#039BE5\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skyGradient\"><stop offset=\"0%\" stop-color=\"#81D4FA\"/><stop offset=\"100%\" stop-color=\"#E1F5FE\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M260,315 C250,295 270,280 290,300...\" fill=\"rgba(255,255,255,0.7)\"/><path d=\"M300,330 C290,310...\" fill=\"rgba(255,255,255,0.7)\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"75\" cy=\"50\" r=\"30\" fill=\"rgba(255,255,255,0.5)\"/><circle cx=\"95\" cy=\"70\" r=\"25\" fill=\"rgba(255,255,255,0.5)\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "no_esta",
+      "evidencia": "No hay ventanillas en el código"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"5\" cy=\"-160\" r=\"3\" fill=\"#FF5722\" /><circle cx=\"-5\" cy=\"-170\" r=\"3\" fill=\"#FF5722\" /><circle cx=\"15\" cy=\"-180\" r=\"3\" fill=\"#FF5722\" />"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M-70 30 Q0 -60 70 30 Z\" fill=\"#8D6E63\"/> arco curvo hacia arriba como media luna invertida"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"0\" cy=\"40\" r=\"35\" fill=\"#BCAAA4\" stroke=\"#8D6E63\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 0 L0 -120 L50 -50 Z\" fill=\"#FFCCBC\"/> el palo vertical L0 -120"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 0 L0 -120 L50 -50 Z\" fill=\"#FFCCBC\"/> triángulo asimétrico"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"5\" cy=\"-160\" r=\"3\"/><circle cx=\"-5\" cy=\"-170\" r=\"3\"/><circle cx=\"15\" cy=\"-180\" r=\"3\"/> y <circle cx=\"75\" cy=\"50\" r=\"30\"/><circle cx=\"95\" cy=\"70\" r=\"25\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "no_esta",
+      "evidencia": "El globo/círculo está en cy=40 bajo el casco, pero no hay representación de ancla"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 0 L0 -120 L50 -50 Z\" fill=\"#FFCCBC\"/> forma triangular pequeña poco funcional"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"5\" cy=\"-160\" r=\"3\" fill=\"#FF5722\" /> esferas flotando alrededor del mástil"
+    },
+    {
+      "id": "a34",
+      "valor": "no_esta",
+      "evidencia": "El dibujo tiene múltiples detalles, degradados, polígonos, no es minimalista"
+    },
+    {
+      "id": "a35",
+      "valor": "no_esta",
+      "evidencia": "Predominan azules y celestes: #1565C0, #039BE5, #81D4FA; no es paleta cálida predominante"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"seaGradient\"/> y <linearGradient id=\"skyGradient\"/>"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "Barco con casco parabólico, globo como quilla, antenas flotantes, polígonos de fuego en el mar"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "Uso de gradientes, opacidades rgba, formas geométricas abstractas combinadas digitalmente"
+    }
+  ]
+}

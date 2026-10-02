@@ -1,0 +1,170 @@
+{
+  "consigna": "persona_inexistente",
+  "unidad": "claude-sonnet-4-6_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:13:44+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"175\" cy=\"200\" rx=\"11\" ry=\"11\" fill=\"url(#eyeGlow)\" filter=\"url(#glow)\"/> <!-- eyeGlow: #a0f0ff to #0088cc -->"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"hairGrad\"><stop offset=\"0%\" stop-color=\"#9b59b6\"/><stop offset=\"50%\" stop-color=\"#3498db\"/><stop offset=\"100%\" stop-color=\"#1abc9c\"/></linearGradient>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"hairGrad\"><stop offset=\"0%\" stop-color=\"#9b59b6\"/><stop offset=\"50%\" stop-color=\"#3498db\"/><stop offset=\"100%\" stop-color=\"#1abc9c\"/></linearGradient>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "ojos con filter glow (#a0f0ff), cabello tricolor (#9b59b6/#3498db/#1abc9c), partículas flotantes, efecto sobrenatural combinado"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "forma humana con cabeza, ojos, nariz, labios, cuello, chaqueta; pero con elementos irreales como ojos glowing y cabello multicolor"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "rasgos faciales sin marcadores de género explícito, figura simétrica, labios <path d=\"M182 248 Q191 243 200 245...\" fill=\"#c0624a\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"175\" cy=\"200\" rx=\"11\" ry=\"11\" fill=\"url(#eyeGlow)\"/> <!-- eyeGlow stop-color=\"#a0f0ff\" -->"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"175\" cy=\"200\" rx=\"11\" ry=\"11\" fill=\"url(#eyeGlow)\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M138 195 Q130 140...\" fill=\"url(#hairGrad)\"/> con hairGrad tricolor"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#9b59b6\"/><stop offset=\"50%\" stop-color=\"#3498db\"/><stop offset=\"100%\" stop-color=\"#1abc9c\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M138 195 Q130 140 145 115...262 195Z\" fill=\"url(#hairGrad)\"/> con strands laterales adicionales"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"skinGrad\"><stop offset=\"0%\" stop-color=\"#f9c784\"/><stop offset=\"100%\" stop-color=\"#e8956a\"/></radialGradient>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"188\" cy=\"239\" r=\"2\" fill=\"#d4845a\" opacity=\"0.4\"/><circle cx=\"213\" cy=\"239\" r=\"2\" fill=\"#d4845a\" opacity=\"0.4\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M130 290 Q120 320 115 380 L285 380...\" fill=\"url(#jacketGrad)\"/> <!-- jacketGrad: #6c3483 to #4a235a -->"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"jacketGrad\"><stop offset=\"0%\" stop-color=\"#6c3483\"/><stop offset=\"100%\" stop-color=\"#4a235a\"/></linearGradient>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"335\" r=\"4\" fill=\"#a0f0ff\" opacity=\"0.7\" filter=\"url(#glow)\"/><circle cx=\"200\" cy=\"355\" r=\"4\" fill=\"#a0f0ff\" opacity=\"0.7\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"335\" r=\"4\" fill=\"#a0f0ff\" opacity=\"0.7\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\"><stop offset=\"0%\" stop-color=\"#1a1a2e\"/><stop offset=\"100%\" stop-color=\"#0d0d1a\"/></radialGradient>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"50\" cy=\"80\" r=\"2\" fill=\"#a0f0ff\" opacity=\"0.4\"/><circle cx=\"340\" cy=\"60\" r=\"1.5\" fill=\"#9b59b6\" opacity=\"0.5\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "forma humana completa con ojos glowing, cabello tricolor, partículas y fondo oscuro combinados"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "figura simétrica frontal con <ellipse cx=\"200\" cy=\"210\" rx=\"65\" ry=\"75\" fill=\"url(#skinGrad)\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"175\" cy=\"200\" rx=\"11\" ry=\"11\" fill=\"url(#eyeGlow)\"/> eyeGlow: #a0f0ff"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"175\" cy=\"200\" rx=\"11\" ry=\"11\" fill=\"url(#eyeGlow)\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#9b59b6\"/><stop offset=\"50%\" stop-color=\"#3498db\"/><stop offset=\"100%\" stop-color=\"#1abc9c\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "no_esta",
+      "evidencia": "el código no menciona terciopelo, solo fill=\"url(#jacketGrad)\" con gradiente púrpura"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"335\" r=\"4\" fill=\"#a0f0ff\" opacity=\"0.7\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "fondo #0d0d1a/#1a1a2e con acentos #a0f0ff, #9b59b6, #1abc9c en partículas y ojos"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"210\" rx=\"65\" ry=\"75\" fill=\"url(#skinGrad)\"/> figura centrada en x=200, simétrica"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "hairGrad, skinGrad, jacketGrad, eyeGlow, shirtGrad, bg — todos radialGradient o linearGradient"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"175\" cy=\"200\" rx=\"13\" ry=\"13\" fill=\"none\" stroke=\"#a0f0ff\" stroke-width=\"1\" opacity=\"0.5\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "combinación de ojos glowing #a0f0ff, cabello tricolor, chaqueta púrpura oscura, partículas y fondo casi negro"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "retrato frontal detallado con efectos glow, gradientes intensos, paleta cyberpunk/fantástica consistente con arte de videojuegos/novelas gráficas"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "qwen3.8-max_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:28:18+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M84 208 C92 198 100 192 110 189 ... fill=\"#2a2440\"/> con orejas <path d=\"M112 190 L121 150 L137 186 Z\" fill=\"#2a2440\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<rect x=\"-5\" y=\"-13\" width=\"10\" height=\"26\" rx=\"2\" fill=\"#e2a83e\"/> (pincel en transform translate(293 131) rotate(24))"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M236 314 C222 300 ...\" fill=\"#2a2440\"/> y <ellipse cx=\"240\" cy=\"316\" rx=\"19\" ry=\"6.5\"/> (sombra en el piso cerca del pincel)"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"240\" cy=\"316\" rx=\"19\" ry=\"6.5\"/> y <path d=\"M236 314 C222 300 206 291 190 287 ...\" fill=\"#2a2440\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"247\" cy=\"311\" rx=\"7\" ry=\"3\" fill=\"#d1493a\" opacity=\".9\"/> <circle cx=\"258\" cy=\"306\" r=\"2\" fill=\"#d1493a\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"330\" cy=\"118\" r=\"3\"/> ... <circle cx=\"271\" cy=\"292\" r=\"5\"/> fill=\"#d1493a\" (gotas rojas en trayectoria descendente)"
+    },
+    {
+      "id": "a7",
+      "valor": "no_esta",
+      "evidencia": "Las gotas rojas son círculos dispersos, no forman un contorno del cuerpo visible"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M112 190 L121 150 L137 186 Z\" fill=\"#2a2440\"/> (orejas puntiagudas) + cuerpo oscuro reconocible como zorro"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M84 208 C92 198 ... fill=\"#2a2440\"/> cuerpo completamente oscuro/sombra"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(293 131) rotate(24)\"><rect x=\"-5\" y=\"-13\" width=\"10\" height=\"26\" rx=\"2\" fill=\"#e2a83e\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "no_esta",
+      "evidencia": "Solo hay una sombra principal, no hay una sombra adicional más pequeña pintada por la cola"
+    },
+    {
+      "id": "a12",
+      "valor": "no_esta",
+      "evidencia": "No hay ningún zorro pequeño en el código"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"330\" cy=\"118\" r=\"3\"/><circle cx=\"337\" cy=\"152\" r=\"3.4\"/>...<circle cx=\"271\" cy=\"292\" r=\"5\"/> fill=\"#d1493a\""
+    },
+    {
+      "id": "a14",
+      "valor": "no_esta",
+      "evidencia": "No hay luna; el elemento circular es <path d=\"M78 52 A30 30 0 1 0 78 104 A27 27 0 1 1 78 52 Z\" fill=\"#e2a83e\"/> (forma de media luna pero no identificada así)"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M168 74 L171 82 L179 84 L171 87 L168 95 L165 87 L157 84 L165 82 Z\" fill=\"#e2a83e\"/> (estrella/chispa) y círculos pequeños dorados"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "El pincel (cola) en translate(293 131) dibuja la sombra <path d=\"M236 314...\" del propio cuerpo del zorro"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "Gotas rojas en trayectoria descendente: fill=\"#d1493a\" desde cy=118 hasta cy=292, sugieren rastro"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "El cuerpo es fill=\"#2a2440\" (sombra) y la sombra en el piso es también fill=\"#2a2440\", el zorro existe como gesto de pintura"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M84 208 C92 198 100 192 110 189 ... fill=\"#2a2440\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<rect x=\"-5\" y=\"-13\" width=\"10\" height=\"26\" rx=\"2\" fill=\"#e2a83e\"/> dentro de <g transform=\"translate(293 131) rotate(24)\">"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M236 314 C222 300 206 291 190 287...\" fill=\"#2a2440\"/> y <ellipse cx=\"240\" cy=\"316\"/> (sombra pintada)"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "Cuerpo en y≈208, sombra en y≈314-320, separados espacialmente"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#f8f1e0\"/><stop offset=\"1\" stop-color=\"#e9d9ba\"/> (tono beige/crema)"
+    },
+    {
+      "id": "a24",
+      "valor": "no_esta",
+      "evidencia": "La sombra es una forma estática, no hay elementos que sugieran que es una criatura obediente"
+    },
+    {
+      "id": "a25",
+      "valor": "no_esta",
+      "evidencia": "El código tiene múltiples capas, detalles decorativos, estrellas, gotas, círculos, gradientes; no es minimalista"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "Uso de formas simbólicas: pincel-cola, sombra separada, gotas rojas como rastro de vida"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<title>El zorro que se pinta la sombra con su propia cola-pincel</title>"
+    },
+    {
+      "id": "a28",
+      "valor": "contradice",
+      "evidencia": "<linearGradient id=\"bg\"> y <radialGradient id=\"halo\"> indican rellenos con gradiente, no planos"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "stroke-linecap=\"round\" aparece repetidamente en múltiples paths"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "Paleta reducida: #2a2440, #e2a83e, #d1493a, #f8f1e0, #e9d9ba"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<path d=\"M168 74 L171 82 L179 84...Z\" fill=\"#e2a83e\"/> (estrella), <path d=\"M282 54 C277 47...\" fill=\"#e2a83e\"/> (forma de hoja/signo), círculos decorativos dorados"
+    }
+  ]
+}

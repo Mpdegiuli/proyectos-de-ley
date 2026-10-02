@@ -1,0 +1,210 @@
+{
+  "consigna": "casa",
+  "unidad": "claude-sonnet-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:29:45+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"0\" width=\"400\" height=\"400\" fill=\"url(#sky)\"/> con stop-color=\"#87CEEB\" y \"#E0F6FF\""
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"330\" cy=\"60\" r=\"30\" fill=\"#FFF6C8\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"80\" cy=\"70\" rx=\"35\" ry=\"18\" fill=\"#ffffff\" opacity=\"0.9\"/> y otras elipses blancas"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"90,180 200,90 310,180\" fill=\"url(#roof)\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"252\" cy=\"90\" rx=\"10\" ry=\"6\" fill=\"#D9D9D9\" opacity=\"0.6\"/> <ellipse cx=\"258\" cy=\"78\" rx=\"14\" ry=\"8\" fill=\"#D9D9D9\" opacity=\"0.5\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<rect x=\"180\" y=\"240\" width=\"40\" height=\"80\" rx=\"3\" fill=\"#5A3826\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<rect x=\"120\" y=\"210\" width=\"45\" height=\"45\" fill=\"#BEE3F5\"/> <rect x=\"235\" y=\"210\" width=\"45\" height=\"45\" fill=\"#BEE3F5\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"125\" cy=\"253\" r=\"4\" fill=\"#E85D75\"/> sobre <rect x=\"118\" y=\"255\" width=\"49\" height=\"10\" fill=\"#8B5A3C\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"300\" width=\"400\" height=\"100\" fill=\"#8FBF5E\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"95\" cy=\"310\" rx=\"20\" ry=\"15\" fill=\"#5C9A3C\"/> <ellipse cx=\"115\" cy=\"315\" rx=\"18\" ry=\"13\" fill=\"#6BAE47\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<line x1=\"20\" y1=\"320\" x2=\"20\" y2=\"360\"/> stroke=\"#8B5A3C\" y <line x1=\"15\" y1=\"335\" x2=\"85\" y2=\"335\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 340 120 Q 345 115 350 120 Q 355 115 360 120\" stroke=\"#333\" fill=\"none\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "viewBox=\"0 0 400 400\" width y height iguales"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "casa con puerta, ventanas, flores, cerca, chimenea con humo, pájaros"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "degradé de cielo, sol en cx=\"330\" cy=\"60\", colores cálidos en paredes"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "casa con flores, cerca, césped, chimenea, pájaros, colores cálidos"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "casa con jardín, cerca, arbustos, camino, césped verde"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<rect x=\"100\" y=\"180\" width=\"200\" height=\"140\" fill=\"url(#wall)\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"> stop-color=\"#87CEEB\" y \"#E0F6FF\""
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"330\" cy=\"60\" r=\"30\" fill=\"#FFF6C8\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"80\" cy=\"70\" rx=\"35\" ry=\"18\" fill=\"#ffffff\" opacity=\"0.9\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"90,180 200,90 310,180\" fill=\"url(#roof)\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"roof\"> stop-color=\"#8B3A2F\" y \"#6B2A20\""
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<rect x=\"240\" y=\"105\" width=\"25\" height=\"55\" fill=\"#7A4A38\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"252\" cy=\"90\" rx=\"10\" ry=\"6\" fill=\"#D9D9D9\" opacity=\"0.6\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"wall\"> stop-color=\"#F5E6C8\" y \"#E8D5A8\""
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<rect x=\"180\" y=\"240\" width=\"40\" height=\"80\" rx=\"3\" fill=\"#5A3826\" stroke=\"#3E2718\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<rect x=\"120\" y=\"210\" width=\"45\" height=\"45\"/> y <rect x=\"235\" y=\"210\" width=\"45\" height=\"45\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos de cortinas en el código"
+    },
+    {
+      "id": "a30",
+      "valor": "contradice",
+      "evidencia": "Las macetas floridas están en cajas bajo ventanas, no en cortinas: <rect x=\"118\" y=\"255\" width=\"49\" height=\"10\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"300\" width=\"400\" height=\"100\" fill=\"#8FBF5E\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"180,300 220,300 240,400 160,400\" fill=\"#D9C08C\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"95\" cy=\"310\" rx=\"20\" ry=\"15\" fill=\"#5C9A3C\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "líneas verticales y horizontales stroke=\"#8B5A3C\" a ambos costados"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 340 120 Q 345 115 350 120 Q 355 115 360 120\"/> y <path d=\"M 300 100 Q 305 95 310 100 Q 315 95 320 100\"/>"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"> stop offset=\"0%\" stop-color=\"#87CEEB\" stop offset=\"100%\" stop-color=\"#E0F6FF\""
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"roof\"> stop-color=\"#8B3A2F\" a \"#6B2A20\""
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"wall\"> stop-color=\"#F5E6C8\" a \"#E8D5A8\""
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "colores cálidos, flores, cerca, chimenea con humo, pájaros, camino"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "degradés en sky, roof y wall dan sensación de volumen y profundidad"
+    }
+  ]
+}

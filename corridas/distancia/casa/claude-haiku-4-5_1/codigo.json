@@ -1,0 +1,160 @@
+{
+  "consigna": "casa",
+  "unidad": "claude-haiku-4-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:31:45+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "no_esta",
+      "evidencia": "<rect x=\"100\" y=\"150\" width=\"200\" height=\"150\" fill=\"#D2691E\"/> — es un rectángulo liso, sin textura ni patrón de ladrillo"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"100,150 200,80 300,150\" fill=\"#8B4513\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<rect x=\"175\" y=\"230\" width=\"50\" height=\"70\" fill=\"#654321\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<rect x=\"125\" y=\"175\" width=\"40\" height=\"40\" fill=\"#87CEEB\"/> y <rect x=\"235\" y=\"175\" width=\"40\" height=\"40\" fill=\"#87CEEB\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<rect x=\"270\" y=\"100\" width=\"20\" height=\"60\" fill=\"#8B4513\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#87CEEB\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<rect y=\"280\" width=\"400\" height=\"120\" fill=\"#2D5016\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"60\" cy=\"60\" rx=\"30\" ry=\"20\" fill=\"#FFFFFF\" opacity=\"0.8\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"350\" cy=\"50\" r=\"25\" fill=\"#FFD700\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "fill=\"#D2691E\" (paredes), fill=\"#8B4513\" (techo), fill=\"#FFD700\" (picaporte)"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<line x1=\"350\" y1=\"10\" x2=\"350\" y2=\"0\" stroke=\"#FFD700\" stroke-width=\"3\"/> — 8 rayos alrededor del sol"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "casa, cielo, pasto, sol, nubes, puerta, ventanas, chimenea — todos presentes en el código"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "casa centrada x=100-300, sol esquina superior derecha, nubes izquierda, pasto en base — composición equilibrada"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "paredes, techo triangular, puerta, ventanas, chimenea — elementos reconocibles de casa"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "fill=\"#87CEEB\" (cielo frío) vs fill=\"#D2691E\" fill=\"#8B4513\" (casa cálida)"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "techo triangular, chimenea, ventanas con cruz, puerta central — diseño clásico"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<rect x=\"100\" y=\"150\" width=\"200\" height=\"150\" fill=\"#D2691E\"/> — marrón chocolate"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"100,150 200,80 300,150\" fill=\"#8B4513\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<rect x=\"175\" y=\"230\" width=\"50\" height=\"70\" fill=\"#654321\"/> — centrada en x=175-225 sobre pared x=100-300"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"220\" cy=\"265\" r=\"3\" fill=\"#FFD700\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<line x1=\"145\" y1=\"175\" x2=\"145\" y2=\"215\"/> <line x1=\"125\" y1=\"195\" x2=\"165\" y2=\"195\"/> — cruz en cada ventana"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<rect x=\"270\" y=\"100\" width=\"20\" height=\"60\" fill=\"#8B4513\"/> — lado derecho del techo"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#87CEEB\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"350\" cy=\"50\" r=\"25\" fill=\"#FFD700\"/> — esquina superior derecha"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<line x1=\"350\" y1=\"10\" x2=\"350\" y2=\"0\" stroke=\"#FFD700\" stroke-width=\"3\"/> — 8 líneas de rayos"
+    },
+    {
+      "id": "a26",
+      "valor": "contradice",
+      "evidencia": "<ellipse cx=\"60\"/> <ellipse cx=\"85\"/> <ellipse cx=\"35\"/> — hay tres elipses de nube, no dos"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<rect y=\"280\" width=\"400\" height=\"120\" fill=\"#2D5016\"/> — verde muy oscuro"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "sol presente <circle cx=\"350\" cy=\"50\" fill=\"#FFD700\"/>, cielo azul, nubes — día soleado"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "casa completa con puerta, ventanas, chimenea, jardín, sol — escena doméstica"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "rect, polygon, circle, ellipse, line — todas formas geométricas simples"
+    }
+  ]
+}

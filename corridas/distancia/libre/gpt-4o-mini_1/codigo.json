@@ -1,0 +1,125 @@
+{
+  "consigna": "libre",
+  "unidad": "gpt-4o-mini_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:05:41+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "no_esta",
+      "evidencia": "<rect width=\"100%\" height=\"100%\" fill=\"lightblue\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"100\" fill=\"yellow\" stroke=\"orange\" stroke-width=\"5\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "no_esta",
+      "evidencia": "<rect width=\"100%\" height=\"100%\" fill=\"lightblue\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<line x1=\"50\" y1=\"350\" x2=\"350\" y2=\"50\" stroke=\"black\" stroke-width=\"3\" stroke-dasharray=\"5,5\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"380\" font-family=\"Verdana\" font-size=\"20\" text-anchor=\"middle\" fill=\"darkblue\">SVG Artwork</text>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "fill=\"yellow\", fill=\"red\", fill=\"purple\", fill=\"green\", fill=\"pink\""
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 140 210 C 170 240, 230 240, 260 210\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"200,40 250,150 150,150\" fill=\"purple\"/> <ellipse cx=\"200\" cy=\"300\" rx=\"80\" ry=\"40\" fill=\"url(#grad1)\" />"
+    },
+    {
+      "id": "a9",
+      "valor": "no_esta",
+      "evidencia": "<rect x=\"150\" y=\"150\" width=\"100\" height=\"100\" fill=\"red\" opacity=\"0.6\"/> <circle cx=\"200\" cy=\"200\" r=\"100\" fill=\"yellow\""
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "fill=\"yellow\", fill=\"red\" opacity=\"0.6\", fill=\"purple\", fill=\"green\", fill=\"pink\", fill=\"lightblue\""
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<rect width=\"100%\" height=\"100%\" fill=\"lightblue\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"100\" fill=\"yellow\" stroke=\"orange\" stroke-width=\"5\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<rect x=\"150\" y=\"150\" width=\"100\" height=\"100\" fill=\"red\" opacity=\"0.6\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"200,40 250,150 150,150\" fill=\"purple\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<line x1=\"50\" y1=\"350\" x2=\"350\" y2=\"50\" stroke=\"black\" stroke-dasharray=\"5,5\"/> <line x1=\"50\" y1=\"50\" x2=\"350\" y2=\"350\" stroke=\"black\" stroke-dasharray=\"5,5\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"300\" rx=\"80\" ry=\"40\" fill=\"url(#grad1)\" />"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(320, 100) rotate(45)\"><rect x=\"0\" y=\"0\" width=\"40\" height=\"40\" fill=\"green\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(320, 100) rotate(45)\"><circle cx=\"20\" cy=\"60\" r=\"15\" fill=\"pink\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 100 250 Q 150 200 200 250 T 300 250\" stroke=\"brown\" fill=\"transparent\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<g fill=\"black\"><circle cx=\"160\" cy=\"180\" r=\"5\"/><circle cx=\"240\" cy=\"180\" r=\"5\"/></g>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 140 210 C 170 240, 230 240, 260 210\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<line x1=\"50\" y1=\"350\" x2=\"350\" y2=\"50\"/> <line x1=\"50\" y1=\"50\" x2=\"350\" y2=\"350\""
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"grad1\"><stop offset=\"0%\" style=\"stop-color:rgb(255,255,255);stop-opacity:0\" /><stop offset=\"100%\" style=\"stop-color:rgb(0,0,255);stop-opacity:1\" /></radialGradient>"
+    }
+  ]
+}

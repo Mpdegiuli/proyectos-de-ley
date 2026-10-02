@@ -1,0 +1,215 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "claude-sonnet-4-6_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T01:05:40+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M80,270 Q90,290 95,300 L305,300 Q310,290 320,270 Z\" fill=\"url(#hull)\" stroke=\"#5a3c10\" stroke-width=\"2\"/> con gradiente hull: stop offset=\"0%\" stop-color=\"#c0a060\" stop offset=\"100%\" stop-color=\"#7a5c20\""
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"230\" rx=\"70\" ry=\"45\" fill=\"url(#crystal)\" stroke=\"#a0e8ff\" stroke-width=\"1.5\" filter=\"url(#glow)\" opacity=\"0.9\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"230\" r=\"18\" fill=\"#1a0a3e\" stroke=\"#6a0dad\" stroke-width=\"2\"/> dentro de la ellipse de la cúpula"
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "Los tentáculos están dibujados pero el código no indica propulsión; comment dice 'living ship parts' pero no propulsión"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200,255 C195,230 205,210 198,185 C193,165 207,145 200,120\" stroke=\"#8a6020\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "Dos paths del mástil con curvas opuestas: C195,230 205,210 y C205,230 195,210 — se tuercen en direcciones contradictorias"
+    },
+    {
+      "id": "a7",
+      "valor": "no_esta",
+      "evidencia": "No hay código que represente 'reinos ontológicos'; es una afirmación interpretativa no dibujada"
+    },
+    {
+      "id": "a8",
+      "valor": "no_esta",
+      "evidencia": "Afirmación interpretativa sobre física/biología/tradición naval; no hay elemento de código que la dibuje"
+    },
+    {
+      "id": "a9",
+      "valor": "no_esta",
+      "evidencia": "No hay ningún texto ni atributo en el SVG que mencione el nombre 'Ojo Errante'"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"hull\"><stop offset=\"0%\" stop-color=\"#c0a060\"/><stop offset=\"100%\" stop-color=\"#7a5c20\"/></linearGradient> aplicado al casco"
+    },
+    {
+      "id": "a11",
+      "valor": "no_esta",
+      "evidencia": "Los tentáculos están en el agua/debajo del barco, no en el casco; stroke=\"url(#tentacle)\" de #6a0dad a #ff69b4"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M100,280 Q70,310 50,340 Q40,360 55,370\" — parten desde y=280 y van hacia y=370, hundiéndose hacia el agua"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"water\"><stop offset=\"0%\" stop-color=\"#0d3b6e\"/><stop offset=\"100%\" stop-color=\"#051a36\"/></linearGradient>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"230\" rx=\"70\" ry=\"45\" fill=\"url(#crystal)\" ... opacity=\"0.9\"/> sobre la cubierta <rect x=\"85\" y=\"255\""
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"230\" r=\"18\"/> con círculos concéntricos formando un ojo dentro de la cúpula en cy=230"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"230\" r=\"11\" fill=\"#c060ff\"/> — color púrpura/violeta"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "El ojo está dibujado dentro de la cúpula sin soporte visible, solo centrado en la elipse"
+    },
+    {
+      "id": "a18",
+      "valor": "no_esta",
+      "evidencia": "Afirmación de efecto psicológico/semántico; el código no puede dibujar 'vigilancia'"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "Dos paths con curvas inversas: C195,230 205,210 198,185 y C205,230 195,210 202,185"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200,125 L145,175 L200,185 Z\" fill=\"#a0e8ff\" opacity=\"0.55\"/> y <path d=\"M200,125 L255,175 L200,185 Z\" fill=\"#c0b8ff\" opacity=\"0.55\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"120\" r=\"10\" fill=\"#ff69b4\" filter=\"url(#softglow)\" opacity=\"0.95\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "filter=\"url(#softglow)\" con feGaussianBlur stdDeviation=\"6\" da efecto de brillo tipo faro"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"340\" cy=\"55\" r=\"28\" fill=\"url(#moon)\" filter=\"url(#softglow)\" opacity=\"0.9\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#0a0a2e\"/><stop offset=\"60%\" stop-color=\"#1a1a5e\"/><stop offset=\"100%\" stop-color=\"#2d2d8a\"/> — solo tonos nocturnos, sin amanecer"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"310\" rx=\"100\" ry=\"12\" fill=\"#2a6db5\" opacity=\"0.3\"/> y <path d=\"M160,305 Q200,315 240,305\""
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"270\" width=\"400\" height=\"130\" fill=\"url(#water)\"/> con colores oscuros y sin olas agitadas"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M80,270 Q90,290 95,300 L305,300 Q310,290 320,270 Z\" fill=\"url(#hull)\"/> con gradiente dorado"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"230\" rx=\"70\" ry=\"45\" fill=\"url(#crystal)\" ... opacity=\"0.9\"/> con crystal que tiene stop-opacity=\"0.4\" al 50%"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "Círculos concéntricos en cx=200 cy=230 dentro de la elipse cúpula"
+    },
+    {
+      "id": "a30",
+      "valor": "no_esta",
+      "evidencia": "Los tentáculos no tienen comportamiento de ancla en el código; simplemente descienden hacia el agua"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200,255 C195,230 205,210 198,185 C193,165 207,145 200,120\" — curvas alternadas"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<!-- Tentacle arms (living ship parts) --> y stroke=\"url(#tentacle)\" con colores orgánicos #6a0dad a #ff69b4"
+    },
+    {
+      "id": "a33",
+      "valor": "no_esta",
+      "evidencia": "No hay código que represente navegación autónoma"
+    },
+    {
+      "id": "a34",
+      "valor": "no_esta",
+      "evidencia": "Afirmación interpretativa; no hay elemento de código que dibuje explícitamente esta dualidad"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "sky con #0a0a2e, #1a1a5e, #2d2d8a; water con #0d3b6e, #051a36 — paleta nocturna azul profunda"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "stroke=\"url(#tentacle)\" con stop-color=\"#6a0dad\"; fill=\"#c060ff\"; fill=\"#8b00cc\""
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "fill=\"#ff69b4\" en múltiples círculos (tentáculos tips, orbe, etc.)"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "filter=\"url(#glow)\" y filter=\"url(#softglow)\" en múltiples elementos dan efecto de brillo interior"
+    },
+    {
+      "id": "a39",
+      "valor": "no_esta",
+      "evidencia": "Afirmación de estilo/género artístico; no hay atributo en SVG que lo codifique explícitamente"
+    },
+    {
+      "id": "a40",
+      "valor": "no_esta",
+      "evidencia": "Afirmación de estilo artístico (art nouveau); no hay atributo de código que lo especifique"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "El ojo con círculos concéntricos <circle cx=\"200\" cy=\"230\" r=\"18\"/>... r=\"11\"... r=\"6\" representa una criatura dentro de la nave"
+    }
+  ]
+}

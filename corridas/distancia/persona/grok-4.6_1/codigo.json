@@ -1,0 +1,150 @@
+{
+  "consigna": "persona",
+  "unidad": "grok-4.6_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:08:33+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M168 268 C166 300 170 330 174 352 ...\">, <path d=\"M148 128 C146 96 164 72 200 70 ...\">"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M168 268 C166 300 170 330 174 352 C176 360 182 362 190 360 ...\"/> <ellipse cx=\"176\" cy=\"358\" rx=\"16\" ry=\"8\" fill=\"#2a2a2e\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M168 198 C160 200 154 210 156 230 ...\" fill=\"url(#shirt)\"/> <linearGradient id=\"shirt\"><stop offset=\"0%\" stop-color=\"#4ea3e8\"/><stop offset=\"100%\" stop-color=\"#2b7bc4\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M168 268 C166 300 170 330 174 352 ...\" fill=\"url(#pants)\"/> <linearGradient id=\"pants\"><stop offset=\"0%\" stop-color=\"#2c4a6e\"/><stop offset=\"100%\" stop-color=\"#1a3050\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "contradice",
+      "evidencia": "<linearGradient id=\"hair\"><stop offset=\"0%\" stop-color=\"#3a2418\"/><stop offset=\"100%\" stop-color=\"#1f120c\"/> — es castaño muy oscuro, casi negro"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M156 208 C138 198 118 178 112 158 ...\"/> <path d=\"M244 208 C262 198 282 178 288 158 ...\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M188 132 Q200 142 212 132\" fill=\"none\" stroke=\"#c07868\" stroke-width=\"2.4\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/> <linearGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#b8d4f0\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"368\" rx=\"78\" ry=\"10\" fill=\"#8aa070\" opacity=\".45\"/> <ellipse cx=\"200\" cy=\"360\" rx=\"52\" ry=\"8\" fill=\"#6b8058\" opacity=\".25\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "Cabeza, torso, brazos, piernas y zapatos están dibujados con paths y ellipses formando figura humana reconocible."
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/> + <ellipse cx=\"200\" cy=\"368\" rx=\"78\" ry=\"10\" fill=\"#8aa070\" opacity=\".45\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "La figura es simétrica respecto a cx=200, cara frontal con dos ojos: <ellipse cx=\"176\" cy=\"112\"/> <ellipse cx=\"224\" cy=\"112\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "Camisa azul, pantalón oscuro, zapatos simples — atuendo ordinario sin elementos especiales."
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "Figura completa vertical con piernas hacia abajo y cara al frente, simétrica."
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#b8d4f0\"/><stop offset=\"70%\" stop-color=\"#e8f0e0\"/><stop offset=\"100%\" stop-color=\"#c9d9b8\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"368\" rx=\"78\" ry=\"10\" fill=\"#8aa070\" opacity=\".45\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skin\"><stop offset=\"0%\" stop-color=\"#f3c7a0\"/><stop offset=\"100%\" stop-color=\"#e8b089\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"hair\"><stop offset=\"0%\" stop-color=\"#3a2418\"/><stop offset=\"100%\" stop-color=\"#1f120c\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"176\" cy=\"128\" rx=\"11\" ry=\"7\" fill=\"url(#cheek)\"/> <radialGradient id=\"cheek\"><stop offset=\"0%\" stop-color=\"#e89a8a\" stop-opacity=\".55\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M168 92 Q176 86 186 92\" fill=\"none\" stroke=\"#2a1810\"/> <path d=\"M214 92 Q224 86 232 92\" fill=\"none\" stroke=\"#2a1810\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "contradice",
+      "evidencia": "<ellipse cx=\"177\" cy=\"113\" rx=\"4.2\" ry=\"4.8\" fill=\"#3d2918\"/> — iris marrón oscuro, no claro"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M188 132 Q200 142 212 132\" fill=\"none\" stroke=\"#c07868\" stroke-width=\"2.4\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M168 198 ...\" fill=\"url(#shirt)\"/> con degradado azul #4ea3e8 a #2b7bc4"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M168 268 ...\" fill=\"url(#pants)\"/> degradado #2c4a6e a #1a3050"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"176\" cy=\"358\" rx=\"16\" ry=\"8\" fill=\"#2a2a2e\"/> <ellipse cx=\"224\" cy=\"358\" rx=\"16\" ry=\"8\" fill=\"#2a2a2e\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M156 208 C138 198 118 178 112 158...\"/> <path d=\"M244 208 C262 198 282 178 288 158...\"/> — brazos extendidos a ambos lados"
+    },
+    {
+      "id": "a27",
+      "valor": "no_esta",
+      "evidencia": "Los brazos están extendidos a los costados sin elementos gestuales que indiquen saludo; no hay mano levantada."
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<svg viewBox=\"0 0 400 400\"> — ancho y alto iguales"
+    }
+  ]
+}

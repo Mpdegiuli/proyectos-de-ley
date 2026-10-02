@@ -1,0 +1,215 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "grok-4.7_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:26:21+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M124,214 C124,176 158,166 192,172 C236,180 270,196 276,228 C282,264 244,286 196,284 C146,282 112,262 124,214Z\" fill=\"url(#fur)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos que dibujen alas de insecto (venación de insecto). El ala presente usa fill=\"url(#wing)\" con gradiente translúcido, no nervaduras de insecto."
+    },
+    {
+      "id": "a3",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos que dibujen plumas individuales. Las formas blancas son fill=\"#f6f0e2\" stroke=\"#e4d7bf\" pero representan escamas/plumas estilizadas sin estructura de pluma clara."
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "No hay código que dibuje una cola con ojo y cara propia en la cola."
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M232,252 C258,274 286,286 278,310 C252,300 228,282 224,258Z\" fill=\"#2f9eb4\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"127\" cy=\"108\" r=\"3.3\" fill=\"#16324a\"/><circle cx=\"149\" cy=\"102\" r=\"3.3\" fill=\"#0d6e68\"/><circle cx=\"161\" cy=\"118\" r=\"2.8\" fill=\"#5c2a72\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M126,88 C122,58 136,46 132,28\" fill=\"none\" stroke=\"#f0c95a\" stroke-width=\"5.5\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "no_esta",
+      "evidencia": "No hay flor que salga del lomo. La flor/estructura circular está en la cabeza/cuello area."
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"176,214 190,204 204,214 198,234 182,234\" fill=\"#10242e\"/><polygon points=\"186,210 198,218 192,230 180,220\" fill=\"#9ff6ff\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "El animal combina pelaje, ala de membrana, aleta, cuerno, tres ojos distintos, flor, cristal, cola de pez, pata de raíz: elementos de múltiples especies/objetos yuxtapuestos."
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "Combinación de zorro+ala+aleta+tres ojos+cuerno+cristal+pata raíz hace un animal imposible."
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"312\" cy=\"74\" r=\"40\" fill=\"url(#moon)\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"138\" cy=\"112\" rx=\"36\" ry=\"29\" fill=\"#f18440\"/><ellipse cx=\"108\" cy=\"122\" rx=\"16\" ry=\"11\" fill=\"#ffb784\"/> con hocico y orejas características de zorro."
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"fur\"><stop offset=\"0\" stop-color=\"#ffb06a\"/><stop offset=\"1\" stop-color=\"#e15c2a\"/></linearGradient>"
+    },
+    {
+      "id": "a15",
+      "valor": "no_esta",
+      "evidencia": "El ala usa fill=\"url(#wing)\" con gradiente translúcido azulado, no hay descripción explícita de cristal para el ala."
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M214,178 C262,132 304,142 296,176 C268,162 238,168 214,186Z\" fill=\"#f6f0e2\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"126\" cy=\"106\" rx=\"7.2\" ry=\"8.2\" fill=\"#fff\"/><ellipse cx=\"148\" cy=\"100\" rx=\"7.2\" ry=\"8.2\" fill=\"#fff\"/><ellipse cx=\"160\" cy=\"116\" rx=\"6.2\" ry=\"7.2\" fill=\"#fff\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"127\" cy=\"108\" r=\"3.3\" fill=\"#16324a\"/><circle cx=\"149\" cy=\"102\" r=\"3.3\" fill=\"#0d6e68\"/><circle cx=\"161\" cy=\"118\" r=\"2.8\" fill=\"#5c2a72\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M196,186 C188,164 214,148 236,162 C252,174 246,194 226,196 C214,184 214,174 226,172 C236,172 236,184 226,188\" fill=\"none\" stroke=\"#8a5cc4\" stroke-width=\"8\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M126,88 C122,58 136,46 132,28\" fill=\"none\" stroke=\"#f0c95a\" stroke-width=\"5.5\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M132,36 L120,24 M132,36 L144,22\" stroke=\"#f0c95a\" stroke-width=\"3.2\"/> La antena termina en forma de Y/horquilla, no de estrella."
+    },
+    {
+      "id": "a22",
+      "valor": "no_esta",
+      "evidencia": "La flor/elemento circular está en la zona del cuello/cabeza, no del pecho: <circle cx=\"206\" cy=\"192\" r=\"5.5\" fill=\"#ff6d96\"/> con path arriba en la cabeza area."
+    },
+    {
+      "id": "a23",
+      "valor": "no_esta",
+      "evidencia": "El cristal poligonal está en el vientre/pecho: <polygon points=\"176,214 190,204 204,214 198,234 182,234\"/>, no en el lomo."
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M158,258 C148,292 136,304 124,316\" stroke=\"#6a4630\" stroke-width=\"3.2\"/><path d=\"M150,286 L140,300 M154,296 L166,310 M146,304 L136,314\" stroke=\"#6a4630\"/> ramificaciones como raíz."
+    },
+    {
+      "id": "a25",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento que dibuje explícitamente una pezuña en otra pata."
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M232,252 C258,274 286,286 278,310 C252,300 228,282 224,258Z\" fill=\"#2f9eb4\"/> aleta/cola de pez azul."
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"366\" cy=\"256\" r=\"9\" fill=\"#ffd0ae\"/><circle cx=\"363\" cy=\"254\" r=\"1.3\" fill=\"#1c1424\"/><circle cx=\"369\" cy=\"254\" r=\"1.3\" fill=\"#1c1424\"/><path d=\"M363,259 Q366,262 369,259\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "no_esta",
+      "evidencia": "Tiene ala (puede volar), aleta (puede nadar), patas (puede caminar). No hay evidencia de que no pueda hacer ninguna de las tres."
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"138\" cy=\"112\" rx=\"36\" ry=\"29\" fill=\"#f18440\"/><path d=\"M118,90 C104,48 82,58 92,96Z\" fill=\"#ef7340\"/> orejas puntiagudas y hocico de zorro."
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<path d=\"M132,196 C78,150 32,166 22,214 C34,262 92,270 140,230 C122,214 116,202 132,196Z\" fill=\"url(#wing)\" stroke=\"#e9fffb\" stroke-width=\"1.2\"/> ala translúcida de membrana."
+    },
+    {
+      "id": "a31",
+      "valor": "no_esta",
+      "evidencia": "Las formas blancas fill=\"#f6f0e2\" podrían ser plumas pero no están en el zorro sino en otra zona; no hay plumas claramente en las alas del zorro."
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<path d=\"M232,252 C258,274 286,286 278,310 C252,300 228,282 224,258Z\" fill=\"#2f9eb4\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"126\" cy=\"106\" rx=\"7.2\" ry=\"8.2\"/><ellipse cx=\"148\" cy=\"100\" rx=\"7.2\" ry=\"8.2\"/><ellipse cx=\"160\" cy=\"116\" rx=\"6.2\" ry=\"7.2\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"127\" cy=\"108\" r=\"3.3\" fill=\"#16324a\"/><circle cx=\"149\" cy=\"102\" r=\"3.3\" fill=\"#0d6e68\"/><circle cx=\"161\" cy=\"118\" r=\"2.8\" fill=\"#5c2a72\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "no_esta",
+      "evidencia": "La flor <circle cx=\"206\" cy=\"192\" r=\"5.5\" fill=\"#ff6d96\"/> está en la zona del cuello/cuerpo, no de la cabeza."
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"176,214 190,204 204,214 198,234 182,234\" fill=\"#10242e\"/><polygon points=\"186,210 198,218 192,230 180,220\" fill=\"#9ff6ff\"/> cristal en zona del pecho/vientre."
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"366\" cy=\"256\" r=\"9\" fill=\"#ffd0ae\"/><circle cx=\"363\" cy=\"254\" r=\"1.3\"/><circle cx=\"369\" cy=\"254\" r=\"1.3\"/><path d=\"M363,259 Q366,262 369,259\"/> carita en la punta de la cola/miembro."
+    },
+    {
+      "id": "a38",
+      "valor": "contradice",
+      "evidencia": "Los rellenos usan gradientes: fill=\"url(#fur)\", fill=\"url(#wing)\", fill=\"url(#moon)\", fill=\"url(#glow)\". No es ilustración plana."
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "Animal con ala translúcida, tres ojos de colores, cuerno violeta, aleta de pez, cristal incrustado, carita en cola: claramente fantástico."
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"bg\"><stop offset=\"0\" stop-color=\"#141028\"/><stop offset=\"0.62\" stop-color=\"#243458\"/><stop offset=\"1\" stop-color=\"#1a3336\"/></linearGradient> fondo nocturno oscuro con estrellas."
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "Fondo nocturno con luna, animal fantástico detallado, estrellas, colores cálidos y luminosos: estilo de cuento ilustrado."
+    }
+  ]
+}

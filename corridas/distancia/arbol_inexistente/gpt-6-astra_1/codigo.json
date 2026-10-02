@@ -1,0 +1,240 @@
+{
+  "consigna": "arbol_inexistente",
+  "unidad": "gpt-6-astra_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:55:23+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"glass\" cx=\".35\" cy=\".25\" r=\".8\"><stop stop-color=\"#b9ffeb\" stop-opacity=\".3\"/><stop offset=\".7\" stop-color=\"#75c6d8\" stop-opacity=\".06\"/><stop offset=\"1\" stop-color=\"#6ac3d0\" stop-opacity=\".35\"/></radialGradient> y <circle r=\"22\" fill=\"url(#glass)\" stroke=\"#a4ded6\" stroke-width=\".8\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "no_esta",
+      "evidencia": "El elemento fruit contiene: <path d=\"M5-12A13 13 0 1 0 9 10A11 11 0 0 1 5-12Z\" fill=\"#ffe2a6\"/> y <ellipse rx=\"29\" ry=\"6\" transform=\"rotate(-22)\"/> pero no hay forma de luna creciente explícita"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<ellipse rx=\"29\" ry=\"6\" transform=\"rotate(-22)\" fill=\"none\" stroke=\"#e6b883\" stroke-width=\".9\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"-10\" cy=\"-29\" rx=\"5\" ry=\"8\" fill=\"#183f54\"/><ellipse cx=\"-10\" cy=\"-30\" rx=\"2\" ry=\"4\" fill=\"#f7dfab\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M120 314L149 343L175 345L199 369L219 344L247 338L278 314Z\" fill=\"url(#rock)\"/> con sombra <ellipse cx=\"202\" cy=\"366\" rx=\"63\" ry=\"7\" fill=\"#020a1d\" opacity=\".35\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"wood\"><stop stop-color=\"#327b83\"/><stop offset=\".48\" stop-color=\"#85cab7\"/><stop offset=\"1\" stop-color=\"#dfedbd\"/></linearGradient> aplicado al tronco"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#ffd7a6\"/> en rose gradient, <circle cx=\"17\" cy=\"-10\" r=\"2\" fill=\"#fff1c4\"/>, stroke=\"#f2d39a\", fill=\"#f4d5a0\""
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "Tronco sinuoso con ramas, hojas (blade), pétalos (petal) y frutos planetarios (fruit con ellipse orbital)"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<ellipse rx=\"29\" ry=\"6\" transform=\"rotate(-22)\" fill=\"none\" stroke=\"#e6b883\"/> (anillo planetario) dentro del elemento fruit que cuelga de ramas"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "Estructura de árbol reconocible (tronco, ramas, hojas) con elementos fantásticos (frutos con anillos, isla de roca, fondo nocturno con estrellas)"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "tronco: <path d=\"M196 305C182 274...\" stroke-width=\"15\"/>, ramas múltiples, <use href=\"#blade\">, <use href=\"#fruit\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M196 305C182 274 184 247 200 224C219 196 218 174 203 145C190 122 197 99 210 75\" stroke-width=\"15\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"wood\"><stop stop-color=\"#327b83\"/><stop offset=\".48\" stop-color=\"#85cab7\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M195 309C180 280...\" stroke=\"#f2d39a\" stroke-width=\"1.7\"/> y <path d=\"M204 278...\" fill=\"url(#wood)\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "no_esta",
+      "evidencia": "Las hojas usan el elemento blade con forma de hoja simple, no hay estructura de pluma (barbas laterales)"
+    },
+    {
+      "id": "a16",
+      "valor": "no_esta",
+      "evidencia": "Las marcas en blade son <ellipse cx=\"-10\" cy=\"-29\" rx=\"5\" ry=\"8\"/> que sugieren ojos pero la afirmación dice 'las hojas tienen ojos' como elemento literal; son marcas semejantes, no ojos explícitos"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<g id=\"petal\"><path d=\"M0 0C-19-11-20-35-5-49C12-29 13-11 0 0Z\" fill=\"url(#rose)\"/> con <stop stop-color=\"#d76f95\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<use href=\"#fruit\" transform=\"translate(91 211) scale(.9)\"/> etc., con <g fill=\"none\" stroke=\"#e4c393\" stroke-width=\".9\"><path d=\"M88 161Q94 175 91 188\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle r=\"22\" fill=\"url(#glass)\"/> escalado con scale(.9), scale(.65), scale(.78), scale(.85), scale(.44)"
+    },
+    {
+      "id": "a20",
+      "valor": "no_esta",
+      "evidencia": "El fruit contiene <path d=\"M5-12A13 13 0 1 0 9 10A11 11 0 0 1 5-12Z\"/> que es un arco pero no una luna creciente clásica; y <path d=\"M-3-22L0-26L3-22\"/> es una pequeña flecha/tallo"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<ellipse rx=\"29\" ry=\"6\" transform=\"rotate(-22)\" fill=\"none\" stroke=\"#e6b883\" stroke-width=\".9\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M120 314L149 343L175 345L199 369L219 344L247 338L278 314Z\" fill=\"url(#rock)\"/> sin suelo real debajo, solo sombra proyectada"
+    },
+    {
+      "id": "a23",
+      "valor": "no_esta",
+      "evidencia": "El tronco termina en <path d=\"M196 305C182 274...\" y la base de roca es separada; no hay paths de raíces que abracen explícitamente la isla"
+    },
+    {
+      "id": "a24",
+      "valor": "no_esta",
+      "evidencia": "No hay paths de gotas cayendo; hay sparks (<use href=\"#spark\">) y pequeñas formas <path d=\"M73 261Q68 270 73 273Q79 270 73 261Z\" fill=\"#f4d5a0\"/> que son estáticas"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"night\"><stop stop-color=\"#233b50\"/><stop offset=\"1\" stop-color=\"#090f25\"/></radialGradient> aplicado al fondo <path fill=\"url(#night)\" d=\"M0 0H400V400H0Z\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#bbdbcf\" opacity=\".65\"><circle cx=\"39\" cy=\"84\" r=\"1\"/><circle cx=\"69\" cy=\"42\" r=\".8\"/>..."
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<use href=\"#spark\" transform=\"translate(324 80) scale(.8)\"/> etc."
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M57 251A159 159 0 0 1 308 53M336 93A159 159 0 0 1 347 233\" fill=\"none\" stroke=\"#d6d6ac\" stroke-width=\".6\" opacity=\".22\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento que dibuje una órbita alrededor del árbol en sí; el círculo guía <circle cx=\"201\" cy=\"171\" r=\"134\"/> es muy tenue (opacity=.055)"
+    },
+    {
+      "id": "a30",
+      "valor": "no_esta",
+      "evidencia": "Las hojas (blade) tienen marcas de ojo pero no barbas como plumas; la afirmación combina ambos efectos"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<ellipse rx=\"29\" ry=\"6\" transform=\"rotate(-22)\" fill=\"none\" stroke=\"#e6b883\"/> y fill=\"url(#glass)\" hacen que los frutos parezcan planetas"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "Árbol con frutos de vidrio con anillos planetarios, pétalos rosados, hojas con marcas de ojos, sobre isla de roca, fondo nocturno"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"glass\"> con stop-opacity=\".3\" y .06 da efecto de vidrio; <circle r=\"22\" fill=\"url(#glass)\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M5-12A13 13 0 1 0 9 10A11 11 0 0 1 5-12Z\" fill=\"#ffe2a6\"/> es un arco cerrado, no claramente una luna creciente"
+    },
+    {
+      "id": "a35",
+      "valor": "no_esta",
+      "evidencia": "Los anillos son alrededor (<ellipse rx=\"29\" ry=\"6\"/>) pero no hay anillos adentro de la esfera además del arco"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"-10\" cy=\"-29\" rx=\"5\" ry=\"8\" fill=\"#183f54\"/><ellipse cx=\"-10\" cy=\"-30\" rx=\"2\" ry=\"4\" fill=\"#f7dfab\"/>"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"wood\"><stop stop-color=\"#327b83\"/><stop offset=\".48\" stop-color=\"#85cab7\"/>"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "El tronco llega a <path d=\"M196 305...\" y la isla es <path d=\"M120 314L149 343...\"/>; no hay suelo bajo la isla"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"202\" cy=\"366\" rx=\"63\" ry=\"7\" fill=\"#020a1d\" opacity=\".35\"/> es sombra proyectada lejos debajo, sugiriendo flotación"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "Fondo nocturno, árbol fantástico, frutos planetarios, isla flotante, estrellas y destellos combinados"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "tronco central, ramas laterales, hojas (blade), frutos (fruit) en estructura reconocible de árbol"
+    },
+    {
+      "id": "a42",
+      "valor": "no_esta",
+      "evidencia": "Los paths tienen stroke suaves y formas orgánicas complejas; no hay contornos marcadamente limpios/geométricos"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "Múltiples gradientes: url(#night), url(#wood), url(#leaf), url(#rose), url(#glass), url(#rock)"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "Fondo: #090f25 (nocturno); turquesas: #327b83, #85cab7; rosas: #d76f95; dorados: #ffd7a6, #f2d39a, #f4d5a0"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "<path d=\"M196 305C182 274 184 247 200 224C219 196 218 174 203 145...\" curvas sinuosas orgánicas, formas vegetales ornamentales con petal y blade"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "SVG con defs, gradientes, elementos reutilizables (use), paths decorativos complejos"
+    }
+  ]
+}

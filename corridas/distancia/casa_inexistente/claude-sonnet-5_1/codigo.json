@@ -1,0 +1,280 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "claude-sonnet-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:42:25+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M120 260 Q100 300 150 320 Q200 340 260 320 Q310 300 280 265 Q300 250 270 235 Q230 210 180 220 Q130 225 120 260 Z\" fill=\"url(#rock)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#2b1055\"/> <!-- sky gradient starts dark purple -->"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<g transform=\"rotate(-4 200 210)\">"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M125 165 Q200 90 285 170 Q260 155 200 150 Q150 150 125 165 Z\" fill=\"url(#roof)\""
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M225 130 L235 60 L250 62 L242 132 Z\" fill=\"#9a7350\""
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 250 Q150 205 168 200 Q186 205 186 250 Z\" fill=\"#5c3a24\""
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<g transform=\"rotate(3 300 220)\"> <rect x=\"278\" y=\"190\" width=\"40\" height=\"55\""
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<g transform=\"rotate(3 300 220)\">"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M260 235 Q290 245 278 245\" fill=\"none\" stroke=\"#5c4a35\" stroke-width=\"2\" opacity=\"0.6\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "La roca flota sin anclaje: <path d=\"M120 260 Q100 300 150 320 ...Z\" fill=\"url(#rock)\"/> sin línea al suelo"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "rotate(-4), techo curvo asimétrico Q200 90, puerta ovalada Q150 205, ventana triangular, chimenea torcida"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "techo: Q200 90 285 170 Q260 155 200 150 Q150 150 125 165 (asimétrico), chimenea descentrada, puerta lateral"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "Estructura legible: roca + casa + torre + puente + luna + estrellas componen una escena coherente"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<g transform=\"rotate(-4 200 210)\"> casa sobre roca flotante con fondo <rect fill=\"url(#sky)\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M120 260 Q100 300 150 320 Q200 340 260 320 Q310 300 280 265...Z\" fill=\"url(#rock)\"/> bajo la casa"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 280 Q145 300 140 315\" stroke=\"#5c4a35\"/> <path d=\"M250 280 Q258 300 265 318\"/> <path d=\"M200 300 Q202 315 198 330\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<g transform=\"rotate(-4 200 210)\">"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M125 165 Q200 90 285 170 Q260 155 200 150 Q150 150 125 165 Z\" fill=\"url(#roof)\""
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M225 130 L235 60 L250 62 L242 132 Z\" — los puntos x varían creando inclinación"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M232 62 Q245 45 260 55\" stroke=\"#cfcfcf\" stroke-width=\"4\" fill=\"none\" opacity=\"0.6\"/> <path d=\"M240 45 Q255 30 268 42\" stroke=\"#cfcfcf\""
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"195\" r=\"20\" fill=\"#ffe9a8\" opacity=\"0.85\"/> con <circle cx=\"200\" cy=\"195\" r=\"26\" fill=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"195\" r=\"20\" fill=\"#ffe9a8\" opacity=\"0.85\"/> circular iluminada con glow radial"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 250 Q150 205 168 200 Q186 205 186 250 Z\" fill=\"#5c3a24\""
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M235 210 L250 190 L265 210 Z\" fill=\"#ffe9a8\" stroke=\"#7a5a34\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<g transform=\"rotate(3 300 220)\"> <rect x=\"278\" y=\"190\" width=\"40\" height=\"55\""
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M270 192 L298 150 L326 192 Z\" fill=\"#b23a52\""
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M260 235 Q290 245 278 245\" fill=\"none\" stroke=\"#5c4a35\" stroke-width=\"2\" opacity=\"0.6\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"330\" cy=\"90\" r=\"28\" fill=\"#fff3d0\" opacity=\"0.9\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"40\" cy=\"40\" r=\"1.5\" fill=\"#fff\"/> <!-- estrellas -->"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"90\" cy=\"130\" rx=\"45\" ry=\"14\" fill=\"#ffffff\" opacity=\"0.25\"/> <ellipse cx=\"130\" cy=\"120\" rx=\"35\" ry=\"11\" fill=\"#ffffff\" opacity=\"0.2\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<path d=\"M60 150 Q65 145 70 150 Q75 145 80 150\" stroke=\"#fff\" stroke-width=\"1.5\" fill=\"none\"/> <!-- pajaros -->"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"160\" cy=\"270\" r=\"2\" fill=\"#fff6c9\" opacity=\"0.8\"/> <!-- luciernagas -->"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#2b1055\"/> <stop offset=\"50%\" stop-color=\"#7597de\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "Casa torcida sobre roca flotante, techo curvo, puerta ovalada, luciérnagas, luna — conjunto fantástico"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "Roca sin suelo, casa rotada, geometría orgánica: Q curves en techo/puerta, chimenea torcida"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<rect fill=\"url(#sky)\"/> + roca <path d=\"M120 260...Z\" fill=\"url(#rock)\"/> + casa <g transform=\"rotate(-4 200 210)\">"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "No hay líneas/columnas de soporte en el código bajo la roca"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 280 Q145 300 140 315\" stroke=\"#5c4a35\"/> <path d=\"M200 300 Q202 315 198 330\"/>"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 280 Q145 300 140 315\" stroke=\"#5c4a35\" stroke-width=\"2\" fill=\"none\" opacity=\"0.6\"/> <!-- raices/cuerdas -->"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<g transform=\"rotate(3 300 220)\"> <rect x=\"278\" y=\"190\" width=\"40\" height=\"55\""
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<path d=\"M260 235 Q290 245 278 245\" fill=\"none\" stroke=\"#5c4a35\" stroke-width=\"2\" opacity=\"0.6\"/>"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "<path d=\"M225 130 L235 60 L250 62 L242 132 Z\" — coordenadas x asimetric crean torsión"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "<path d=\"M232 62 Q245 45 260 55\" stroke=\"#cfcfcf\" stroke-width=\"4\" opacity=\"0.6\"/> <path d=\"M240 45 Q255 30 268 42\" stroke=\"#cfcfcf\""
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"> <stop offset=\"0%\" stop-color=\"#2b1055\"/> con estrellas y luna"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#2b1055\"/> <stop offset=\"50%\" stop-color=\"#7597de\"/> <stop offset=\"100%\" stop-color=\"#ffd9a0\"/>"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"160\" cy=\"270\" r=\"2\" fill=\"#fff6c9\" opacity=\"0.8\"/> <!-- luciernagas -->"
+    },
+    {
+      "id": "a47",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"330\" cy=\"90\" r=\"28\" fill=\"#fff3d0\" opacity=\"0.9\"/> <circle cx=\"322\" cy=\"82\" r=\"28\" fill=\"#2b1055\" opacity=\"0.35\"/> — una luna con sombra superpuesta, no dos lunas"
+    },
+    {
+      "id": "a48",
+      "valor": "esta",
+      "evidencia": "Techo casa: Q200 90 asimétrico; techo torre: M270 192 L298 150 L326 192 — triángulo levemente asimétrico"
+    },
+    {
+      "id": "a49",
+      "valor": "esta",
+      "evidencia": "<g transform=\"rotate(-4 200 210)\"> y <g transform=\"rotate(3 300 220)\">"
+    },
+    {
+      "id": "a50",
+      "valor": "esta",
+      "evidencia": "Ventana redonda r=\"20\", ventana triangular M235 210 L250 190 L265 210, ventana torre r=\"8\""
+    },
+    {
+      "id": "a51",
+      "valor": "esta",
+      "evidencia": "rotate(-4), curvas Q asimétrico en techo, chimenea L235 60 L250 62, puerta ovalada Q"
+    },
+    {
+      "id": "a52",
+      "valor": "esta",
+      "evidencia": "Casa flotante torcida, luciérnagas, luna, colores pastel-fantásticos, geometría whimsical"
+    },
+    {
+      "id": "a53",
+      "valor": "esta",
+      "evidencia": "Roca flotante, casa torcida, luciérnagas, gradiente nocturno, formas orgánicas — conjunto onírico"
+    },
+    {
+      "id": "a54",
+      "valor": "esta",
+      "evidencia": "Composición: cielo nocturno + casa fantástica flotante + luna + estrellas + luciérnagas = estética portada fantasía"
+    }
+  ]
+}

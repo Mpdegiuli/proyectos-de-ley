@@ -1,0 +1,200 @@
+{
+  "consigna": "libre",
+  "unidad": "gpt-5.5-2026-04-23_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:59:41+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M170 224 C178 194 186 170 201 135 C216 171 223 196 230 224 Z\" fill=\"#f8fafc\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "no_esta",
+      "evidencia": "Las siluetas oscuras son olas/colinas costeras: <path d=\"M0 175 C35 150 60 151 95 177...\" fill=\"#1e293b\"/> no representan montañas"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 238 C45 226 85 226 130 238 S215 250 260 238 350 226 400 238\" fill=\"none\" stroke=\"#67e8f9\" stroke-width=\"3\" opacity=\".5\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"324\" cy=\"60\" r=\"3\" fill=\"#fff7ed\"/> <circle cx=\"286\" cy=\"97\" r=\"2\" fill=\"#fff7ed\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M51 333 C49 315 57 300 69 289 C78 306 76 322 63 337 Z\" fill=\"#166534\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"164\" r=\"56\" fill=\"url(#sun)\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#172554\"/><stop offset=\"55%\" stop-color=\"#7c2d12\"/><stop offset=\"100%\" stop-color=\"#fbbf24\"/></linearGradient>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<rect y=\"222\" width=\"400\" height=\"178\" fill=\"url(#water)\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<rect y=\"222\" width=\"400\" height=\"178\" fill=\"url(#water)\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M46 356 C89 335 133 337 173 358 C216 381 263 379 306 356 C338 339 369 339 400 354 L400 400 L0 400 L0 360 C15 363 30 363 46 356 Z\" fill=\"#062c22\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M170 224 C178 194 186 170 201 135 C216 171 223 196 230 224 Z\" fill=\"#f8fafc\"/> centrado en cx=200"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "Capas superpuestas: cielo, siluetas oscuras, agua, costa, vegetación a distintas profundidades"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "Gradientes suaves, ondas con opacity baja: stroke=\"#67e8f9\" opacity=\".5\""
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "Velero en agua: <path d=\"M170 224...\" /> sobre <rect y=\"222\" fill=\"url(#water)\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "cielo, siluetas, agua, velero, costa, vegetación en orden de y creciente"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"/> <radialGradient id=\"sun\"/> <linearGradient id=\"water\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "opacity=\".85\" opacity=\".9\" opacity=\".5\" opacity=\".35\" opacity=\".25\""
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 238 C45 226 85 226 130 238 S215 250 260 238...\" (curvas bezier)"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"164\" r=\"56\" fill=\"url(#sun)\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "no_esta",
+      "evidencia": "El sol está sobre el horizonte (cy=164) y no hay montañas oscuras detrás de él"
+    },
+    {
+      "id": "a22",
+      "valor": "no_esta",
+      "evidencia": "Las formas oscuras son siluetas de colinas/olas costeras no montañas: <path d=\"M0 175 C35 150...\" fill=\"#1e293b\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#172554\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"55%\" stop-color=\"#7c2d12\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"100%\" stop-color=\"#fbbf24\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M170 224 C178 194 186 170 201 135 C216 171 223 196 230 224 Z\" fill=\"#f8fafc\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"water\"><stop offset=\"0%\" stop-color=\"#0e7490\"/> y velero sobre rect y=222"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 238 C45 226 85 226 130 238...\" stroke=\"#67e8f9\" stroke-width=\"3\" opacity=\".5\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"324\" cy=\"60\" r=\"3\" fill=\"#fff7ed\"/> <circle cx=\"120\" cy=\"48\" r=\"2.5\" fill=\"#fff7ed\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"276\" rx=\"58\" ry=\"9\" fill=\"#020617\" opacity=\".25\"/> y ondas stroke=\"#67e8f9\""
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<path d=\"M46 356 C89 335 133 337 173 358...\" fill=\"#062c22\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<path d=\"M51 333 C49 315 57 300 69 289 C78 306 76 322 63 337 Z\" fill=\"#166534\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "no_esta",
+      "evidencia": "La vegetación son paths triangulares/curvos sin hojas individuales: fill=\"#166534\" fill=\"#15803d\""
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<path d=\"M62 337 C73 320 88 312 107 314 C101 333 86 343 64 344 Z\" fill=\"#15803d\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop stop-color=\"#172554\"/><stop stop-color=\"#7c2d12\"/><stop stop-color=\"#fbbf24\"/></linearGradient>"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "Capas superpuestas a distintas alturas y opacidades crean profundidad visual"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "Ondas suaves con opacity baja, gradientes cálidos, colores fríos del agua: stroke-width=\"2\" opacity=\".35\""
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "Velero sobre agua al atardecer con estrellas apareciendo: cielo degradado oscuro+naranja+dorado"
+    }
+  ]
+}

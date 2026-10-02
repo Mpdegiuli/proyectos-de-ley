@@ -1,0 +1,165 @@
+{
+  "consigna": "autorretrato",
+  "unidad": "deepseek-v4-pro_2",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:50:18+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<rect x=\"130\" y=\"70\" width=\"140\" height=\"180\" rx=\"30\" ry=\"30\" fill=\"url(#head)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 145 120 L 255 120 ... fill=\"#0f172a\" stroke=\"#00f0ff\" stroke-width=\"2\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"175\" cy=\"155\" r=\"10\" fill=\"#00f0ff\" filter=\"url(#glow-intense)\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M 120 400 L 140 280 L 260 280 L 280 400 Z\" fill=\"url(#torso)\"/> — no hay líneas de circuito explícitas en el torso"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"60\" cy=\"80\" r=\"2\" fill=\"#00f0ff\" opacity=\"0.6\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 180 215 Q 200 230 220 215\" stroke=\"#00f0ff\" stroke-width=\"4\" stroke-linecap=\"round\" fill=\"none\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<pattern id=\"grid\" width=\"20\" height=\"20\" patternUnits=\"userSpaceOnUse\"><path d=\"M 20 0 L 0 0 0 20\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"0.5\"/></pattern>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "fill=\"#00f0ff\" ... fill=\"#ff007f\""
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "filtros glow, colores #00f0ff y #ff007f, marco holográfico, circuitos — conjunto robótico-holográfico"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#grid)\"/> + <circle cx=\"200\" cy=\"200\" r=\"150\" fill=\"#00f0ff\" opacity=\"0.05\" filter=\"url(#glow-intense)\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "figura robótica con flujos binarios: <text x=\"140\" y=\"320\" fill=\"#00f0ff\" font-family=\"monospace\" ...>0</text>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<text ... font-family=\"monospace\">0</text> + filter=\"url(#glow)\" en múltiples elementos"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "ojos son círculos cian, sonrisa es arco, no hay rasgos faciales humanos realistas"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<rect x=\"130\" y=\"70\" width=\"140\" height=\"180\" rx=\"30\"/> + <polygon points=\"200,30 370,200 200,370 30,200\".../>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<rect x=\"130\" y=\"70\" width=\"140\" height=\"180\" rx=\"30\" ry=\"30\" fill=\"url(#head)\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 145 120 ... fill=\"#0f172a\" stroke=\"#00f0ff\".../>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"175\" cy=\"155\" r=\"10\" fill=\"#00f0ff\" filter=\"url(#glow-intense)\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 180 215 Q 200 230 220 215\" stroke=\"#00f0ff\" ... filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 120 400 L 140 280 L 260 280 L 280 400 Z\" fill=\"url(#torso)\"/> — gradiente de tonos oscuros #1e293b/#0f172a"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<rect x=\"100\" y=\"270\" width=\"40\" height=\"110\" rx=\"10\" fill=\"#1e293b\"/> <rect x=\"260\" y=\"270\" width=\"40\" height=\"110\" rx=\"10\" fill=\"#1e293b\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<line x1=\"105\" y1=\"285\" x2=\"135\" y2=\"285\" stroke=\"#00f0ff\" stroke-width=\"3\" filter=\"url(#glow)\"/> en los brazos/hombros"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<rect x=\"185\" y=\"250\" width=\"4\" height=\"40\" fill=\"#334155\"/> <rect x=\"195\" y=\"250\" width=\"4\" height=\"40\" fill=\"#334155\"/> ..."
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"200,30 370,200 200,370 30,200\" fill=\"none\" stroke=\"#00f0ff\" ... opacity=\"0.4\"/> <polygon points=\"200,70 330,200 200,330 70,200\" fill=\"none\" stroke=\"#ff007f\".../>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<text x=\"140\" y=\"320\" fill=\"#00f0ff\" font-family=\"monospace\" font-size=\"14\" opacity=\"0.6\">0</text>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"60\" cy=\"80\" r=\"2\" fill=\"#00f0ff\" opacity=\"0.6\" filter=\"url(#glow)\"/> ... <circle cx=\"350\" cy=\"250\" r=\"2\" fill=\"#00f0ff\" opacity=\"0.6\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#grid)\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "múltiples filter=\"url(#glow)\" y fill=\"#00f0ff\" en figura completa"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 180 215 Q 200 230 220 215\" stroke=\"#00f0ff\" stroke-width=\"4\" stroke-linecap=\"round\" fill=\"none\"/> — sonrisa presente"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "colores #00f0ff y #ff007f, grilla, marco holográfico, glow, binarios — estética cyberpunk"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<text ... font-family=\"monospace\">0</text> ... <circle ... filter=\"url(#glow)\"/> múltiples señales digitales"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "filtros glow, gradientes oscuros, marco holográfico, ojos cian — estética robótica-holográfica"
+    }
+  ]
+}

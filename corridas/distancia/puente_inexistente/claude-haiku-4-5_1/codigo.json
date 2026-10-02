@@ -1,0 +1,210 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "claude-haiku-4-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:35:25+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 80 260 Q 120 200 160 180 T 240 180 Q 280 200 320 260\"/><path d=\"M 85 255 Q 125 150 200 120 Q 275 150 315 255\"/><path d=\"M 90 250 Q 130 130 200 90 Q 270 130 310 250\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 90 250 Q 130 130 200 90 Q 270 130 310 250\"/> y <circle cx=\"200\" cy=\"110\" r=\"35\" fill=\"#CD853F\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"110\" r=\"35\" fill=\"#CD853F\" opacity=\"0.9\"/> sin soporte estructural visible"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "stroke=\"#D4AF37\", stroke=\"#DAA520\", stroke=\"#FFD700\" en tres path distintos"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "los tres path convergen hacia cx=\"200\" cy=\"110\" donde está <circle cx=\"200\" cy=\"110\" r=\"35\" fill=\"#CD853F\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<line x1=\"80\" y1=\"175\" x2=\"200\" y2=\"100\" stroke=\"#C0C0C0\"/> llega a y=100 sin anclaje real"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "stroke=\"#D4AF37\", stroke=\"#DAA520\", stroke=\"#FFD700\" degradando de dorado a amarillo"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "opacity=\"0.6\" en el path superior stroke=\"#FFD700\""
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "plataforma flotante sin soporte, cables sin anclaje, visualmente integrados en composición armoniosa"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 90 250 Q 130 130 200 90...\" stroke-width=\"8\" opacity=\"0.6\"/> nivel superior estrecho y tenue"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "tres path con curvas Q en forma de espiral: d=\"M 80 260 Q 120 200 160 180 T 240 180...\""
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"80\" cy=\"260\" rx=\"60\" ry=\"40\" fill=\"#8B7355\"/> y <ellipse cx=\"320\" cy=\"270\" rx=\"70\" ry=\"45\" fill=\"#8B7355\"/> flotando sobre el agua"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "tres path con stroke dorado a distintas alturas"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "los tres path suben progresivamente: y=260, y=120, y=90"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<rect x=\"70\" y=\"180\" width=\"20\" height=\"80\" fill=\"#696969\"/> y <rect x=\"310\" y=\"190\" width=\"20\" height=\"70\" fill=\"#696969\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<line x1=\"80\" y1=\"175\" x2=\"120\" y2=\"200\" stroke=\"#C0C0C0\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"110\" r=\"35\" fill=\"#CD853F\" opacity=\"0.9\"/> sin soporte"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"140\" cy=\"155\" r=\"8\" fill=\"#FF6B6B\"/><circle cx=\"200\" cy=\"130\" r=\"10\" fill=\"#4ECDC4\"/><circle cx=\"260\" cy=\"155\" r=\"8\" fill=\"#95E1D3\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "las esferas están sobre los paths sin contacto con suelo: cy=\"155\", cy=\"130\""
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<rect y=\"280\" width=\"400\" height=\"120\" fill=\"url(#waterGrad)\"/> y <circle cx=\"100\" cy=\"320\" r=\"20\" stroke=\"#87CEEB\" fill=\"none\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#skyGrad)\"/> con linearGradient de #87CEEB a #E0F6FF"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"350\" cy=\"50\" r=\"40\" fill=\"#FFD700\" opacity=\"0.3\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "plataforma flotante sin soporte, bridge en espiral sin física real"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "degradados suaves, opacidades graduales, colores complementarios armoniosos"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "plataforma a cy=110 sin soporte, bridge sin pilares intermedios"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "tres path curvos superpuestos simulando rotación en espiral"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"80\" cy=\"260\"/> y <ellipse cx=\"320\" cy=\"270\"/> sobre agua, conectadas por el bridge"
+    },
+    {
+      "id": "a28",
+      "valor": "no_esta",
+      "evidencia": "los path no forman bucles cerrados, son curvas abiertas Q sin enrollamiento real"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "los tres path convergen hacia y≈90-110 donde está <circle cx=\"200\" cy=\"110\" r=\"35\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"110\" r=\"35\" fill=\"#CD853F\"/> sin rect ni soporte debajo"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "líneas van a y=100 pero no hay estructura de anclaje en esa zona"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"140\" cy=\"155\" r=\"8\"/><circle cx=\"200\" cy=\"130\" r=\"10\"/><circle cx=\"260\" cy=\"155\" r=\"8\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"100\" cy=\"320\" r=\"20\" stroke=\"#87CEEB\" fill=\"none\" opacity=\"0.5\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "fill=\"#FFD700\", fill=\"#FFA500\", fill=\"#D4AF37\", fill=\"#FF6B6B\""
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "linearGradient skyGrad, waterGrad, y opacity graduales en los paths"
+    },
+    {
+      "id": "a36",
+      "valor": "contradice",
+      "evidencia": "hay paths curvos complejos, múltiples líneas, círculos, polígonos, elipses: composición no simple"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "múltiples elementos superpuestos: gradientes, paths, líneas, círculos, torres, elipses, ripples"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "plataforma flotante, esferas de colores, bridge imposible con colores dorados y fondo de cielo"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "plataforma flotante, cables sin anclaje, bridge en espiral arquitectónicamente imposible"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "esferas de colores, ripples de agua, sol con opacity, gradientes de cielo refuerzan atmósfera"
+    }
+  ]
+}

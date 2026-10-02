@@ -1,0 +1,270 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "claude-fable-5-1_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:45:36+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M110 240 q90 -20 180 0 q10 30 -30 40 q-60 -10 -120 5 q-40 -10 -30 -45 z\" fill=\"#6b4a33\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "No hay suelo debajo del terrón; el fondo es el cielo: <rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M120 250 q-30 40 -2 80 q-6 30 8 60\" stroke=\"#5a3a2a\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "Las raíces terminan en el aire sin conectarse a nada: <path d=\"M275 250 q30 30 6 70 q10 25 0 45\" stroke=\"#5a3a2a\" stroke-width=\"4\" fill=\"none\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "no_esta",
+      "evidencia": "<polygon points=\"140,236 250,232 262,140 128,150\" fill=\"url(#wall)\"/> — los puntos forman un cuadrilátero con lados rectos, no torcidos"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"140,236 250,232 262,140 128,150\" fill=\"url(#wall)\"/> — es un polígono irregular, no un rectángulo"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<g transform=\"rotate(12 215 180)\"> y <g transform=\"rotate(-15 155 168)\"> — ángulos distintos"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"235,150 262,148 258,90 240,88\" fill=\"#e8c384\" stroke=\"#7a5230\" stroke-width=\"2\"/> — torre desplazada lateralmente"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M249 30 l16 6 l-16 6 z\" fill=\"#ffd94a\"/> — banderín en la torre"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 236 q0 -30 22 -30 q22 0 22 30 z\" fill=\"#8a3b4a\"/> — puerta de tamaño notable respecto a la casa"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<g opacity=\"0.55\" fill=\"#2a2d5c\"> con ellipses y paths de árboles"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"94\" cy=\"300\" r=\"2\" fill=\"#ffd94a\" opacity=\"0.9\"/> sobre fondo de cielo"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<g opacity=\"0.55\" fill=\"#2a2d5c\"> — color #2a2d5c es azulado oscuro"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "Gradiente cálido <stop offset=\"1\" stop-color=\"#c76b7a\"/> + glow amarillo <radialGradient id=\"glow\"> + luna"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "Ventanas rotadas en ángulos opuestos, torre lateral, puerta arqueada, todo sobre terrón flotante"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "Fondo cielo puro sin suelo real: <rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"140,236 250,232 262,140 128,150\"/> sobre <path d=\"M110 240 q90 -20 180 0...\" fill=\"#6b4a33\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "El terrón está aislado sin suelo continuo debajo; sólo sky de fondo"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M120 250 q-30 40 -2 80 q-6 30 8 60\" stroke=\"#5a3a2a\"/> cuelga desde la tierra hacia abajo"
+    },
+    {
+      "id": "a20",
+      "valor": "no_esta",
+      "evidencia": "<polygon points=\"140,236 250,232 262,140 128,150\"/> — lados rectos aunque inclinados, no torcidos/curvados"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<g transform=\"rotate(12 215 180)\"> y <g transform=\"rotate(-15 155 168)\">"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<rect x=\"203\" y=\"165\" width=\"24\" height=\"30\" fill=\"#ffd97a\"/> y <rect x=\"146\" y=\"158\" width=\"18\" height=\"20\" fill=\"#ffd97a\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"232,92 266,90 249,50\" fill=\"#b04a5a\" stroke=\"#6b2733\"/> — techo rojo/rosado"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M249 30 l16 6 l-16 6 z\" fill=\"#ffd94a\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<rect x=\"175\" y=\"86\" width=\"14\" height=\"30\" fill=\"#8a5a44\" stroke=\"#5a3a2a\" stroke-width=\"1.5\" transform=\"rotate(-8 182 100)\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"180\" cy=\"72\" rx=\"10\" ry=\"6\" fill=\"#dcdcf0\"/> y demás ellipses de humo sobre la chimenea"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<g opacity=\"0.55\" fill=\"#2a2d5c\"> con ellipses y paths de sombras de árboles"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"94\" cy=\"300\" r=\"2\" fill=\"#ffd94a\" opacity=\"0.9\"/> con path de luciérnaga"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"320\" cy=\"70\" r=\"28\" fill=\"url(#moon)\"/> con <circle cx=\"310\" cy=\"62\" r=\"4\" fill=\"#cfc9a0\"/> y <circle cx=\"328\" cy=\"80\" r=\"6\" fill=\"#cfc9a0\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#1b1f4a\"/> ... <stop offset=\"1\" stop-color=\"#c76b7a\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "Ventanas amarillas cálidas + tierra flotante aislada"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "Casa con luz interior, flotando, raíces en el aire, luciérnagas"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"140,236 250,232 262,140 128,150\" fill=\"url(#wall)\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "Casa sobre terrón <fill=\"#6b4a33\"/> sin suelo debajo, fondo sky"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<path d=\"M120 250 q-30 40 -2 80\"/> <path d=\"M200 262 q10 40 -4 70\"/> — raíces bajo la tierra"
+    },
+    {
+      "id": "a36",
+      "valor": "no_esta",
+      "evidencia": "<polygon points=\"140,236 250,232 262,140 128,150\"/> — lados son segmentos rectos"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "rotate(12 ...) y rotate(-15 ...) en las dos ventanas"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"235,150 262,148 258,90 240,88\"/> — torre no centrada, desalineada/inclinada visualmente"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"180\" cy=\"72\" rx=\"10\" ry=\"6\" fill=\"#dcdcf0\" opacity=\"0.6\"/>"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"165\" cy=\"205\" r=\"24\" fill=\"url(#glow)\"/> y ventanas amarillas"
+    },
+    {
+      "id": "a41",
+      "valor": "no_esta",
+      "evidencia": "<circle cx=\"320\" cy=\"70\" r=\"28\"/> — r=28 en viewBox 400x400, tamaño moderado, no exageradamente grande"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"94\" cy=\"300\" r=\"2\" fill=\"#ffd94a\"/> <circle cx=\"164\" cy=\"320\" r=\"2\"/> <circle cx=\"294\" cy=\"300\" r=\"2\"/>"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "<g opacity=\"0.55\" fill=\"#2a2d5c\"> con ellipses grandes tipo colinas/cerros"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#1b1f4a\"/><stop offset=\"0.6\" stop-color=\"#4a3c7a\"/><stop offset=\"1\" stop-color=\"#c76b7a\"/>"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "Torre lateral sin soporte central visible: <polygon points=\"235,150 262,148 258,90 240,88\"/>"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "Fondo es solo sky gradient, sin línea de suelo"
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "Formas geométricas simples con rellenos planos/gradientes suaves y contornos definidos"
+    },
+    {
+      "id": "a48",
+      "valor": "esta",
+      "evidencia": "Polígonos y rectángulos básicos para casa, torre, ventanas"
+    },
+    {
+      "id": "a49",
+      "valor": "esta",
+      "evidencia": "stroke=\"#7a5230\" en múltiples elementos"
+    },
+    {
+      "id": "a50",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"1\" stop-color=\"#c76b7a\"/> + <stop offset=\"0\" stop-color=\"#ffe89a\"/> + fill=\"#ffd97a\""
+    },
+    {
+      "id": "a51",
+      "valor": "esta",
+      "evidencia": "Formas geométricas simples, sin perspectiva realista, proporciones fantásticas"
+    },
+    {
+      "id": "a52",
+      "valor": "esta",
+      "evidencia": "Casa flotante, raíces en el aire, luciérnagas, humo, luna con cráteres, cielo degradé onírico"
+    }
+  ]
+}

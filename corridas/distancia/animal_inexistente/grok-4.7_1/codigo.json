@@ -1,0 +1,220 @@
+{
+  "consigna": "animal_inexistente",
+  "unidad": "grok-4.7_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:10:14+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "no_esta",
+      "evidencia": "Las orejas se representan como polígonos triangulares cortos: <path d=\"M124,156C112,108 98,68 118,50...\" fill=\"#e4d4ff\"/> y similares, no largas"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"116\" cy=\"188\" rx=\"16\" ry=\"11\" fill=\"#fff1e4\"/><ellipse cx=\"108\" cy=\"186\" rx=\"4.2\" ry=\"3.2\" fill=\"#d45b86\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M104,186L78,180\"/><path d=\"M104,190L76,192\"/><path d=\"M106,194L80,202\"/> stroke=\"#fff\" stroke-width=\".7\""
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"134,146 124,108 132,104 142,132\"/><polygon points=\"126,108 112,80 122,74 136,104\"/><polygon points=\"118,92 98,82 104,72 128,86\"/> etc."
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"146\" cy=\"148\" r=\"5.5\" fill=\"#7dfff0\" filter=\"url(#g)\"/><circle cx=\"146\" cy=\"148\" r=\"2.4\" fill=\"#fff\" opacity=\".8\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"214\" cy=\"238\" rx=\"70\" ry=\"50\" fill=\"url(#fur)\" .../> <radialGradient id=\"fur\" ...>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M176,198C128,162 74,128 36,86...\" fill=\"url(#wL)\"/><path d=\"M228,188C276,136 332,96 368,70...\" fill=\"url(#wR)\"/> con gradientes irisados"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"150\" cy=\"316\" rx=\"13\" ry=\"6.5\" fill=\"#efe6ff\"/><circle cx=\"142\" cy=\"316\" r=\"2.2\" fill=\"#e7a0c0\"/> x4 grupos de patas"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "Combinación: fondo nocturno url(#sky), cuerpo quimérico con alas, cuernos ramificados, tercer ojo, pelaje, orbe"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "Animal fantástico con alas, cuernos de cristal, tercer ojo luminoso, pelaje lila: no existe en la naturaleza"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"fur\"><stop offset=\"52%\" stop-color=\"#d8c6f6\"/><stop offset=\"100%\" stop-color=\"#9b84e0\"/></radialGradient>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"belly\"><stop offset=\"0%\" stop-color=\"#fffaf0\"/><stop offset=\"100%\" stop-color=\"#f3d48a\"/></radialGradient> <ellipse cx=\"198\" cy=\"248\" ... fill=\"url(#belly)\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "Cuatro grupos de patas: cx=150, cx=196, cx=268, cx=304, cada uno con ellipse y círculos de almohadillas"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"142\" cy=\"316\" r=\"2.2\" fill=\"#e7a0c0\"/><circle cx=\"150\" cy=\"318\" r=\"2.2\" fill=\"#e7a0c0\"/> (repetido en 4 patas)"
+    },
+    {
+      "id": "a15",
+      "valor": "no_esta",
+      "evidencia": "Las orejas son triángulos pequeños/medianos: <path d=\"M124,156C112,108 98,68 118,50C136,66 140,112 138,158Z\"/> no particularmente grandes"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"horn\" x1=\"0\" y1=\"1\" x2=\"1\" y2=\"0\"><stop offset=\"0%\" stop-color=\"#f4e8ff\"/><stop offset=\"100%\" stop-color=\"#7ee7ff\"/></linearGradient> aplicado en polígonos de cuernos"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"wL\"><stop stop-color=\"#b6fff6\"/><stop stop-color=\"#8b7cff\"/><stop stop-color=\"#ff8ad4\"/></linearGradient> y wR similar, aplicados a las alas"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"146\" cy=\"148\" r=\"5.5\" fill=\"#7dfff0\" filter=\"url(#g)\"/><circle cx=\"146\" cy=\"148\" r=\"2.4\" fill=\"#fff\" opacity=\".8\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"146\" cy=\"148\" r=\"5.5\" fill=\"#7dfff0\" filter=\"url(#g)\"/> con feGaussianBlur stdDeviation=\"3.2\" produciendo resplandor"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "No hay suelo debajo del animal; hay sombra/elipse debajo: <ellipse cx=\"206\" cy=\"318\" rx=\"78\" ry=\"11\" fill=\"#000\" opacity=\".32\"/> sugiriendo flotación"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"308\" cy=\"126\" r=\"15\" fill=\"url(#orb)\"/><circle cx=\"312\" cy=\"128\" r=\"22\" fill=\"#7dfff0\" opacity=\".28\" filter=\"url(#g)\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"312\" cy=\"68\" r=\"34\" fill=\"url(#moon)\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M18,168C90,118 150,188 214,136...\" stroke=\"#7ee0ff\" stroke-width=\"16\" fill=\"none\" opacity=\".13\"/> y path similar en rosa"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"28\" cy=\"36\" r=\"1.3\"/><circle cx=\"62\" cy=\"78\" r=\".8\"/> ... múltiples círculos fill=\"#fff8d8\""
+    },
+    {
+      "id": "a25",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos que representen púas de hielo en el código"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#2a3d68\"/><stop offset=\"58%\" stop-color=\"#12182e\"/><stop offset=\"100%\" stop-color=\"#070910\"/></radialGradient>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"214\" cy=\"238\" rx=\"70\" ry=\"50\" fill=\"url(#fur)\"/> cuerpo ovalado con patas, hocico, bigotes, ojos: morfología felina"
+    },
+    {
+      "id": "a28",
+      "valor": "no_esta",
+      "evidencia": "Las orejas son path triangulares de tamaño mediano, no largas: <path d=\"M124,156C112,108 98,68 118,50C136,66 140,112 138,158Z\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "Polígonos de cuernos con gradiente cristalino: <polygon points=\"134,146 124,108 132,104 142,132\"/> ... fill=\"url(#horn)\" con color #f4e8ff a #7ee7ff"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<path d=\"M176,198C128,162 74,128 36,86...\" fill=\"url(#wL)\"/> gradiente multicolor (cian, violeta, rosa) = iridiscente, forma de polilla"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"146\" cy=\"148\" r=\"5.5\" fill=\"#7dfff0\" filter=\"url(#g)\"/><circle cx=\"146\" cy=\"148\" r=\"2.4\" fill=\"#fff\" opacity=\".8\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "4 grupos: ellipse cx=150/196/268/304 con círculos fill=\"#e7a0c0\" como almohadillas"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"308\" cy=\"126\" r=\"15\" fill=\"url(#orb)\"/><circle cx=\"312\" cy=\"128\" r=\"22\" fill=\"#7dfff0\" opacity=\".28\" filter=\"url(#g)\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"52%\" stop-color=\"#d8c6f6\"/><stop offset=\"100%\" stop-color=\"#9b84e0\"/> fur; <stop stop-color=\"#8b7cff\"/> wL; <stop stop-color=\"#c084fc\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#b6fff6\"/> wL; fill=\"#7dfff0\"; stroke=\"#7ee0ff\"; stop-color=\"#7dfff0\""
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"moon\"><stop offset=\"72%\" stop-color=\"#f0d48a\"/></radialGradient>; <stop stop-color=\"#ffe08a\"/>; fill=\"#ffe08a\""
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#2a3d68\"/><stop offset=\"100%\" stop-color=\"#070910\"/></radialGradient> azul oscuro/negro"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "SVG con gradientes, filtros, animal fantástico, estrellas, luna, auroras: ilustración vectorial fantástica"
+    },
+    {
+      "id": "a39",
+      "valor": "contradice",
+      "evidencia": "Múltiples gradientes: url(#fur), url(#belly), url(#wL), url(#wR), url(#orb), url(#moon) - no son formas planas"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"fur\"><stop offset=\"0%\" stop-color=\"#f8f4ff\"/><stop offset=\"52%\" stop-color=\"#d8c6f6\"/><stop offset=\"100%\" stop-color=\"#9b84e0\"/></radialGradient>"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<filter id=\"g\"><feGaussianBlur stdDeviation=\"3.2\"/><feMerge>...</feMerge></filter> aplicado a múltiples círculos luminosos"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "Luna, estrellas, auroras, animal fantástico flotando, orbe luminoso, paleta nocturna con violetas y cian"
+    }
+  ]
+}

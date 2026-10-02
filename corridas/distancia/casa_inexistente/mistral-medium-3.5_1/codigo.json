@@ -1,0 +1,245 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "mistral-medium-3.5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:54:27+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M100,250 Q150,150 200,250 Q250,150 300,250 L300,400 L100,400 Z\""
+    },
+    {
+      "id": "a2",
+      "valor": "contradice",
+      "evidencia": "<rect x=\"120\" y=\"200\" width=\"60\" height=\"100\"/> <rect x=\"220\" y=\"200\" width=\"60\" height=\"100\"/> — simétricas"
+    },
+    {
+      "id": "a3",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M180,100 L180,50 L220,50 L220,100\" — la chimenea toca el techo en y=100"
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "solo hay luna: <circle cx=\"320\" cy=\"80\" r=\"40\" fill=\"url(#moon)\"/> y la esfera dorada pequeña no es un sol"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path fill=\"#4a3728\"/> <rect fill=\"#6b4f3f\"/> — tonos terrosos"
+    },
+    {
+      "id": "a6",
+      "valor": "contradice",
+      "evidencia": "<path d=\"M180,100 L180,50 L220,50 L220,100\" y techo termina en y=100, se conectan"
+    },
+    {
+      "id": "a7",
+      "valor": "no_esta",
+      "evidencia": "solo luna <circle cx=\"320\" cy=\"80\" r=\"40\" fill=\"url(#moon)\"/>, no hay sol en el cielo"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "techo en onda sinuosa, chimenea encima, ojo/esfera en centro, torres laterales — combinación inusual"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "combinación de luna, ojo central <circle cx=\"200\" cy=\"150\" r=\"20\" fill=\"#f5a623\"/>, líneas curvas naranjas"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M100,250 Q150,150 200,250...\"/> estructura de casa con techo, paredes, puerta"
+    },
+    {
+      "id": "a11",
+      "valor": "no_esta",
+      "evidencia": "L300,400 L100,400 Z — la casa toca el borde inferior, no flota"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M100,250 Q150,150 200,250 Q250,150 300,250\""
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M100,250 L50,200 L50,300 L100,300\"/> <path d=\"M300,250 L350,200 L350,300 L300,300\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180,100 L180,50 L220,50 L220,100\" fill=\"#8b5a2b\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "no_esta",
+      "evidencia": "<rect x=\"120\" y=\"200\" width=\"60\" height=\"100\" fill=\"#6b4f3f\"/> — ventanas color marrón, no dorado"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180,250 L220,250 L220,300 L180,300 Z\" fill=\"#2d1b10\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<rect x=\"185\" y=\"260\" width=\"30\" height=\"40\" fill=\"#f5a623\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"150\" r=\"20\" fill=\"#f5a623\" opacity=\"0.8\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"150\" r=\"20\"/> dentro del triángulo <polygon points=\"150,200 250,200 200,100\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "no_esta",
+      "evidencia": "no hay código que indique comportamiento de vigilancia, solo la forma visual"
+    },
+    {
+      "id": "a21",
+      "valor": "no_esta",
+      "evidencia": "no hay elemento buhardilla explícito, solo chimenea y techo onda"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"30\" r=\"10\" fill=\"#f5f3ce\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M50,250 Q70,200 Q110,200 Q130,250\" stroke=\"#f5a623\"/> <path d=\"M310,250 Q330,200...\" stroke=\"#f5a623\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "no_esta",
+      "evidencia": "no hay etiqueta ni semántica de energía/raíces, es interpretación subjetiva no codificada"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"150\" cy=\"350\" r=\"15\" fill=\"#f5a623\"/> <circle cx=\"250\" cy=\"350\" r=\"15\" fill=\"#f5a623\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"320\" cy=\"80\" r=\"40\" fill=\"url(#moon)\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"320\" cy=\"80\" r=\"40\"/> — posición superior derecha"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "stop-color=\"#b21f1f\" fill=\"#4a3728\" fill=\"#6b4f3f\" fill=\"#f5a623\""
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#1a2a6c\"/> <stop offset=\"100%\" stop-color=\"#b21f1f\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<path d=\"M100,250 Q150,150 200,250 Q250,150 300,250 L300,400 L100,400 Z\""
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<path d=\"M100,250 Q150,150 200,250 Q250,150 300,250\" — curvas ondulantes"
+    },
+    {
+      "id": "a32",
+      "valor": "contradice",
+      "evidencia": "<rect x=\"120\" y=\"200\" width=\"60\" height=\"100\"/> <rect x=\"220\" y=\"200\" width=\"60\" height=\"100\"/> — simétricas"
+    },
+    {
+      "id": "a33",
+      "valor": "no_esta",
+      "evidencia": "las ventanas están ancladas a los rectángulos de pared, no flotan"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180,100 L180,50 L220,50 L220,100\" fill=\"#8b5a2b\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "no_esta",
+      "evidencia": "la chimenea está conectada al techo en y=100, no desafía gravedad visualmente"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"320\" cy=\"80\" r=\"40\" fill=\"url(#moon)\"/>"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "filter=\"url(#glow)\" con <feGaussianBlur stdDeviation=\"5\"/>"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<path stroke=\"#f5a623\"/> curvas a ambos lados y círculos dorados alrededor"
+    },
+    {
+      "id": "a39",
+      "valor": "no_esta",
+      "evidencia": "no hay código que codifique semántica de energía/magia, es interpretación"
+    },
+    {
+      "id": "a40",
+      "valor": "no_esta",
+      "evidencia": "es apreciación subjetiva no codificada directamente en SVG"
+    },
+    {
+      "id": "a41",
+      "valor": "no_esta",
+      "evidencia": "es apreciación estilística subjetiva no codificada"
+    },
+    {
+      "id": "a42",
+      "valor": "no_esta",
+      "evidencia": "es apreciación interpretativa no codificada"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "fill=\"#f5a623\" fill=\"#4a3728\" stop-color=\"#b21f1f\" — predominan cálidos"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"/> <radialGradient id=\"moon\"/>"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"> <stop offset=\"0%\" stop-color=\"#1a2a6c\"/> <stop offset=\"100%\" stop-color=\"#b21f1f\"/>"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "<filter id=\"glow\"><feGaussianBlur stdDeviation=\"5\"/><feComposite.../></filter>"
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "<path fill=\"#4a3728\" stroke=\"#2d1b10\"/> <rect fill=\"#6b4f3f\" stroke=\"#2d1b10\"/>"
+    }
+  ]
+}

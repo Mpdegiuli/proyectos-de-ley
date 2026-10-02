@@ -1,0 +1,215 @@
+{
+  "consigna": "animal_inexistente",
+  "unidad": "gpt-5.5-2026-04-23_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:04:28+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M104 217 C131 153 214 125 285 153 C345 177 345 244 296 272 C236 306 142 285 104 217Z\" fill=\"url(#body)\""
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M157 191 C139 150 126 117 111 91 C153 91 186 122 191 176\" fill=\"url(#wing)\"/> <path d=\"M181 184 C172 140 177 105 190 73 ... fill=\"#78e4ff\"/> <path d=\"M206 190 C220 145 248 119 285 104 ... fill=\"#d9ff7a\""
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"284\" cy=\"176\" r=\"5\" fill=\"#222844\"/> <circle cx=\"317\" cy=\"169\" r=\"5\" fill=\"#222844\"/> <circle cx=\"299\" cy=\"202\" r=\"5\" fill=\"#222844\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "No hay ningún path o elemento que represente un pico lateral"
+    },
+    {
+      "id": "a5",
+      "valor": "no_esta",
+      "evidencia": "No hay path que dibuje una cola con aletas en forma de hojas"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M278 151 C295 125 293 103 274 81 C304 89 321 110 316 138\" fill=\"none\" stroke=\"#243b62\" stroke-width=\"8\"/> <path d=\"M303 154 C328 137 337 114 329 88 C355 105 363 133 347 157\""
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M194 270 L184 312\" stroke=\"#243b62\" stroke-width=\"8\" fill=\"none\"/> <path d=\"M250 275 L267 316\" stroke=\"#243b62\" stroke-width=\"8\" fill=\"none\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"body\" ... stop-color=\"#7b3fb5\"/> stop-color=\"#24b7a6\"/> stop-color=\"#f06a9b\"/> fill=\"#78e4ff\" fill=\"#d9ff7a\" fill=\"#f5b1cf\""
+    },
+    {
+      "id": "a9",
+      "valor": "no_esta",
+      "evidencia": "Combinación de alas, tres ojos, antenas, cuerpo con gradiente multicolor no corresponde a ningún animal real"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "Mezcla de alas múltiples, tres ojos, antenas curvas, cuerpo degradado multicolor, patas simples — no encaja con especie conocida"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"345\" cy=\"213\" r=\"4\" fill=\"#ff6c9c\"/> <path d=\"M332 231 C318 238 303 238 290 231\" fill=\"none\" stroke=\"#243b62\" stroke-width=\"4\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "Combinación de body tipo anfibio, alas tipo insecto/ave, antenas, tres ojos, patas — criatura fantástica híbrida"
+    },
+    {
+      "id": "a13",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M104 217 C131 153 214 125 285 153 C345 177 345 244 296 272 C236 306 142 285 104 217Z\" — cuerpo más bien compacto/redondeado"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "fill=\"url(#body)\" (morado/turquesa/rosa), fill=\"url(#wing)\" (amarillo/rojo), fill=\"#78e4ff\", fill=\"#d9ff7a\", fill=\"#f5b1cf\""
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "body acuático/anfibio + alas tipo ave/insecto + aletas/patas — mezcla pez, ave e insecto"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M181 184 ... fill=\"#78e4ff\" stroke=\"#243b62\"/> <path d=\"M206 190 ... fill=\"#d9ff7a\" — alas translúcidas con colores tipo pétalo"
+    },
+    {
+      "id": "a17",
+      "valor": "no_esta",
+      "evidencia": "No hay path explícito que dibuje una cola bífida"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M194 270 L184 312\" stroke-width=\"8\"/> <path d=\"M250 275 L267 316\" stroke-width=\"8\"/> — patas delgadas"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"284\" cy=\"176\" r=\"5\" fill=\"#222844\"/> <circle cx=\"317\" cy=\"169\" r=\"5\" fill=\"#222844\"/> <circle cx=\"299\" cy=\"202\" r=\"5\" fill=\"#222844\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M284 145 C325 150 350 178 351 216 ... fill=\"#f5b1cf\" — cabeza/zona facial rosada"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M327 197 C344 198 358 207 364 222 C346 224 333 220 322 209\" fill=\"#ffcf4d\" — pico amarillo lateral"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M278 151 C295 125 293 103 274 81 ... stroke=\"#243b62\" stroke-width=\"8\"/> <path d=\"M303 154 C328 137 337 114 329 88 ...\" — cuernos/antenas curvos"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#243b62\"><circle cx=\"148\" cy=\"157\" r=\"3\"/> <circle cx=\"174\" cy=\"148\" r=\"3\"/> ... múltiples círculos pequeños sobre el cuerpo"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff7ad\" stroke=\"#243b62\" stroke-width=\"3\"><path d=\"M136 234 l15 8 -16 7z\"/> <path d=\"M171 252 l15 8 -16 7z\"/> — triángulos pequeños tipo escamas"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\" cx=\"50%\" cy=\"42%\"><stop offset=\"0\" stop-color=\"#fff7c8\"/><stop offset=\"1\" stop-color=\"#6cc6d9\"/> — fondo luminoso degradado"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"206\" cy=\"332\" rx=\"120\" ry=\"24\" fill=\"#21536b\" opacity=\".18\"/> — sombra tenue bajo la criatura, sin suelo firme, da sensación de flotar"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "Fondo degradado azul-celeste, colores turquesa/rosa/amarillo, elementos acuáticos y aéreos combinados — evoca agua, aire y sueño tropical"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M104 217 C131 153 214 125 285 153 C345 177 345 244 296 272 C236 306 142 285 104 217Z\" fill=\"url(#body)\" — cuerpo oval tipo acuático/anfibio"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M157 191 ... fill=\"url(#wing)\"/> <path d=\"M181 184 ... fill=\"#78e4ff\"/> <path d=\"M206 190 ... fill=\"#d9ff7a\" — alas tipo mariposa/pez volador"
+    },
+    {
+      "id": "a30",
+      "valor": "no_esta",
+      "evidencia": "No hay path que dibuje explícitamente una cola bifurcada"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<path d=\"M278 151 C295 125 293 103 274 81 ... stroke-width=\"8\"/> <path d=\"M303 154 C328 137 337 114 329 88 ...\" — antenas curvas"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"284\" cy=\"176\" r=\"5\" fill=\"#222844\"/> <circle cx=\"317\" cy=\"169\" r=\"5\" fill=\"#222844\"/> <circle cx=\"299\" cy=\"202\" r=\"5\" fill=\"#222844\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<path d=\"M194 270 L184 312\" stroke=\"#243b62\" stroke-width=\"8\" fill=\"none\"/> <path d=\"M250 275 L267 316\" stroke=\"#243b62\" stroke-width=\"8\" fill=\"none\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<path d=\"M104 217 C131 153 214 125 285 153 C345 177 345 244 296 272 C236 306 142 285 104 217Z\" — cuerpo redondeado con curvas Bezier"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "stop-color=\"#7b3fb5\", stop-color=\"#24b7a6\", stop-color=\"#f06a9b\", fill=\"#78e4ff\", fill=\"#d9ff7a\" — colores muy saturados"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "stroke-width=\"5\", stroke-width=\"8\", stroke-width=\"16\" en múltiples paths"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "Criatura fantástica con degradados multicolor, alas, antenas, tres ojos, escamas triangulares — estilo cartoon fantástico"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "Colores vivos, formas redondeadas, escamas triangulares decorativas, expresión con boca sonriente — aire infantil y lúdico"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "Diseño colorido, simpático, con ojos grandes y boca sonriente — parece mascota de cuento"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<path d=\"M332 231 C318 238 303 238 290 231\" fill=\"none\" stroke=\"#243b62\" stroke-width=\"4\"/> <circle cx=\"345\" cy=\"213\" r=\"4\" fill=\"#ff6c9c\"/> — boca sonriente y mejilla rosada"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff7ad\" stroke=\"#243b62\" stroke-width=\"3\"><path d=\"M136 234 l15 8 -16 7z\"/>... <g fill=\"#243b62\"><circle cx=\"148\" cy=\"157\" r=\"3\"/>... <path d=\"M284 153 ... stroke=\"#ffd36b\"... — múltiples detalles decorativos"
+    }
+  ]
+}

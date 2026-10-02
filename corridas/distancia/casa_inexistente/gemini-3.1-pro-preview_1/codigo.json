@@ -1,0 +1,250 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "gemini-3.1-pro-preview_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:51:45+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<g id=\"topHouse\"> y <g id=\"bottomHouse\"> con <rect width=\"400\" height=\"400\" fill=\"url(#space)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<g id=\"topHouse\"><rect x=\"130\" y=\"110\" width=\"60\" height=\"73\" fill=\"#2d3748\" /><polygon points=\"120,110 200,110 160,60\" fill=\"#c53030\" />"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<g id=\"bottomHouse\"><polygon points=\"200,288 280,288 240,338\" fill=\"#2b6cb0\" /> (techo apunta hacia abajo)"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 115 164 C 10 164, 10 350, 160 360 C 310 370, 360 274, 285 274\" fill=\"none\" stroke=\"url(#waterGlow)\" stroke-width=\"8\""
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 115 164 C 10 164, 10 350, 160 360 C 310 370, 360 274, 285 274\" fill=\"none\" stroke=\"url(#waterGlow)\" stroke-width=\"8\" opacity=\"0.85\" filter=\"url(#strongGlow)\""
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 100 180 C 150 200, 250 200, 300 180 L 300 220 C 250 200, 150 200, 100 220 Z\" fill=\"#3a2f29\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 30 200 A 170 45 0 0 1 370 200\" fill=\"none\" stroke=\"#9f7aea\" stroke-width=\"1\"/> y <path d=\"M 30 200 A 170 45 0 0 0 370 200\" fill=\"none\" stroke=\"#4fd1c5\" stroke-width=\"3\""
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#space)\"/> con <radialGradient id=\"space\"><stop offset=\"0%\" stop-color=\"#1b1236\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "topHouse con techo arriba y bottomHouse con techo abajo conectadas por tubo curvo"
+    },
+    {
+      "id": "a10",
+      "valor": "no_esta",
+      "evidencia": "Se usan gradientes: fill=\"url(#waterGlow)\", fill=\"url(#space)\", filtros filter=\"url(#glow)\""
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<filter id=\"glow\"><feGaussianBlur stdDeviation=\"3\" result=\"blur\" /></filter> y filter=\"url(#glow)\" en múltiples elementos"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<rect x=\"130\" y=\"110\" width=\"60\" height=\"73\" fill=\"#2d3748\" /><polygon points=\"120,110 200,110 160,60\" fill=\"#c53030\" />"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<g id=\"bottomHouse\"><rect x=\"210\" y=\"215\" width=\"60\" height=\"73\" fill=\"#1a365d\" /><polygon points=\"200,288 280,288 240,338\" fill=\"#2b6cb0\" />"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 115 164 C 10 164, 10 350, 160 360 C 310 370, 360 274, 285 274\" stroke=\"url(#waterGlow)\" stroke-width=\"8\" filter=\"url(#strongGlow)\""
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 115 164 C 10 164, 10 350, 160 360 C 310 370, 360 274, 285 274\" (curva que forma bucle)"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "stroke=\"url(#waterGlow)\" filter=\"url(#strongGlow)\" con dasharray=\"10 15\" opacity=\"0.8\""
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "casas sobre fragmento suspendido con fondo espacial fill=\"url(#space)\""
+    },
+    {
+      "id": "a18",
+      "valor": "contradice",
+      "evidencia": "<path d=\"M 100 180 C 150 200, 250 200, 300 180 L 300 220\" fill=\"#3a2f29\"/> es un fragmento de tierra, no un asteroide con forma definida"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<g id=\"topHouse\"><rect x=\"130\" y=\"110\" width=\"60\" height=\"73\" fill=\"#2d3748\" /> (oscuro, arriba)"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<g id=\"bottomHouse\"><rect x=\"210\" y=\"215\" width=\"60\" height=\"73\" fill=\"#1a365d\" /> con techo apuntando hacia abajo"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 30 200 A 170 45 0 0 1 370 200\" stroke=\"#9f7aea\"/> <path d=\"M 30 200 A 170 45 0 0 0 370 200\" stroke=\"#4fd1c5\" stroke-width=\"3\""
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<g fill=\"none\" stroke=\"#fff\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" opacity=\"0.4\"><polyline points=\"40,40 70,60 100,50 120,80\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<rect x=\"60\" y=\"90\" width=\"12\" height=\"12\" fill=\"#805ad5\" filter=\"url(#glow)\" transform=\"rotate(20 66 96)\"/> y otros rects rotados"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"280\" cy=\"120\" r=\"25\" fill=\"#f687b3\"/> y <circle cx=\"120\" cy=\"275\" r=\"25\" fill=\"#4fd1c5\"/> con troncos"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#a0aec0\"><rect x=\"285\" y=\"170\" width=\"12\" height=\"3\" transform=\"rotate(15 291 171)\"/> ... (serie de rectángulos rotados) y <g fill=\"#f6e05e\" filter=\"url(#glow)\"><circle cx=\"291\" cy=\"165\" r=\"2.5\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "la escalera termina en <circle cx=\"291\" cy=\"165\" r=\"2.5\"/> primero y los peldaños van desde y=170 hasta y=257 hacia el espacio"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#space)\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "dos casas con tubo de agua, árboles de burbujas, escalera iluminada, fondo espacial"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "casa invertida, tubo curvo en espacio, anillos planetarios, árboles de burbujas"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "casa invertida, fragmento suspendido sin suelo, tubo curvo desafiando gravedad"
+    },
+    {
+      "id": "a31",
+      "valor": "no_esta",
+      "evidencia": "son dos casas separadas (<g id=\"topHouse\"> y <g id=\"bottomHouse\">), no una sola partida en dos"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<g id=\"topHouse\"><polygon points=\"120,110 200,110 160,60\" fill=\"#c53030\" /> (techo apunta arriba, posición normal)"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<g id=\"bottomHouse\"><polygon points=\"200,288 280,288 240,338\" fill=\"#2b6cb0\" /> (techo apunta abajo)"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "casas sobre fragmento con fondo espacial, sin suelo firme"
+    },
+    {
+      "id": "a35",
+      "valor": "no_esta",
+      "evidencia": "el fragmento es grande: <path d=\"M 100 180 C 150 200, 250 200, 300 180 L 300 220\" fill=\"#3a2f29\"/>, no es pequeño asteroide debajo"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 115 164 C 10 164, 10 350, 160 360 C 310 370, 360 274, 285 274\" stroke=\"url(#waterGlow)\" stroke-width=\"8\" filter=\"url(#strongGlow)\""
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "el path del tubo pasa por coordenadas x=10 alejadas del fragmento de tierra, sobre fondo espacial"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 30 200 A 170 45 0 0 1 370 200\" stroke=\"#9f7aea\" opacity=\"0.4\"/> <path d=\"M 30 200 A 170 45 0 0 0 370 200\" stroke=\"#4fd1c5\" stroke-width=\"3\""
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<rect x=\"60\" y=\"90\" width=\"12\" height=\"12\" fill=\"#805ad5\" filter=\"url(#glow)\" transform=\"rotate(20 66 96)\"/> y <rect x=\"45\" y=\"115\" width=\"8\" height=\"8\" fill=\"#d6bcfa\" filter=\"url(#glow)\" transform=\"rotate(45 49 119)\"/>"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "fill=\"#805ad5\", fill=\"#9f7aea\", stroke=\"#9f7aea\", fill=\"#e9d8fd\", fill=\"#d6bcfa\""
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "fill=\"#4fd1c5\", fill=\"#81e6d9\", stroke=\"#4fd1c5\""
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "fill=\"#fbd38d\", fill=\"#f6e05e\", fill=\"#ed8936\""
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "filter=\"url(#glow)\" y filter=\"url(#strongGlow)\" en múltiples elementos con colores brillantes neón"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "espacio profundo + casas invertidas + anillos planetarios + tubo de agua luminosa + árboles de burbujas"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "SVG con paths, polygons, circles, rects definidos geométricamente"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "colores neón (#4fd1c5, #9f7aea, #f6e05e), fondo oscuro espacial, filtros de brillo"
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "casa invertida + fragmento suspendido + tubo curvo sin gravedad aparente"
+    },
+    {
+      "id": "a48",
+      "valor": "esta",
+      "evidencia": "fondo espacial + casas invertidas + anillos + árboles de burbujas + escalera cósmica + tubo luminoso"
+    }
+  ]
+}

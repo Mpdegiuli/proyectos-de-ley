@@ -1,0 +1,140 @@
+{
+  "consigna": "autorretrato",
+  "unidad": "gpt-6-luna_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:45:24+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M112 122c0-54 35-88 88-88s88 34 88 88v76c0 54-39 89-88 89s-88-35-88-89z\" fill=\"url(#shell)\""
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"face\"><stop stop-color=\"#182c49\"/><stop offset=\"1\" stop-color=\"#101b32\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"164\" cy=\"166\" rx=\"9\" ry=\"12\" fill=\"#76f5e8\"/><ellipse cx=\"236\" cy=\"166\" rx=\"9\" ry=\"12\" fill=\"#76f5e8\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M145 80c11-20 29-31 55-31s44 11 55 31\" fill=\"none\" stroke=\"#a4fff2\"/><g fill=\"#c1fff4\" stroke=\"#5fe1dc\"><circle cx=\"151\" cy=\"71\" r=\"4\"/>..."
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M99 366c6-59 34-91 83-99h36c49 8 77 40 83 99z\" fill=\"url(#coat)\""
+    },
+    {
+      "id": "a6",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos que representen circuitos (pistas, grillas o patrones de PCB) en el código."
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"glow\"><stop stop-color=\"#75f5eb\" stop-opacity=\".36\"/></radialGradient> y <circle cx=\"200\" cy=\"180\" r=\"166\" fill=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M172 220q28 22 56 0\" fill=\"none\" stroke=\"#8af0df\" stroke-width=\"3\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "Colores pastel, sonrisa, ojos luminosos suaves: <ellipse cx=\"164\" cy=\"166\" rx=\"9\" ry=\"12\" fill=\"#76f5e8\"/> y <path d=\"M172 220q28 22 56 0\""
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "Figura robótica con halo de nodos conectados: <circle cx=\"200\" cy=\"49\" r=\"5\"/><path d=\"M151 71l23-16 26-6 26 6 23 16\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "Red de nodos sobre la cabeza y expresión amable sugieren comunicación: <path d=\"M151 71l23-16 26-6 26 6 23 16\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M112 122...\" /> cabeza, <path d=\"M99 366...\" /> hombros y cuerpo con forma humanoide."
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "Rostro con cara oscura (url(#face)) y carcasa brillante (url(#shell)): <path d=\"M124 127...\" fill=\"url(#face)\"/> sobre <path d=\"M112 122...\" fill=\"url(#shell)\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"shell\"><stop stop-color=\"#eefaff\"/><stop offset=\".48\" stop-color=\"#91c8dc\"/><stop offset=\"1\" stop-color=\"#517caa\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"164\" cy=\"166\" rx=\"9\" ry=\"12\" fill=\"#76f5e8\"/> (#76f5e8 es turquesa)"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"164\" cy=\"166\" rx=\"9\" ry=\"12\" fill=\"#76f5e8\"/><ellipse cx=\"164\" cy=\"166\" rx=\"3\" ry=\"7\" fill=\"#e8ffff\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M172 220q28 22 56 0\" fill=\"none\" stroke=\"#8af0df\" stroke-width=\"3\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#c1fff4\" stroke=\"#5fe1dc\" stroke-width=\"1.5\"><circle cx=\"151\" cy=\"71\" r=\"4\"/><circle cx=\"174\" cy=\"55\" r=\"4\"/><circle cx=\"200\" cy=\"49\" r=\"5\"/>..."
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M151 71l23-16 26-6 26 6 23 16\"/><path d=\"M174 55l8 18m18-24v27m26-21-8 18\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"coat\"><stop stop-color=\"#83d9df\"/><stop offset=\"1\" stop-color=\"#5874bf\"/> (#83d9df=celeste, #5874bf=violeta)"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 334l9 10-9 10-9-10z\" fill=\"#bbfff2\" stroke=\"#efffff\" stroke-width=\"1.5\"/> (broche/pin en el abrigo)"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"180\" r=\"166\" fill=\"url(#glow)\"/> con radialGradient glow detrás de la figura"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"bg\"><stop stop-color=\"#10192e\"/><stop offset=\"1\" stop-color=\"#26385a\"/></linearGradient><rect width=\"400\" height=\"400\" fill=\"url(#bg)\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#a4fff2\" opacity=\".7\"><circle cx=\"61\" cy=\"106\" r=\"2\"/><circle cx=\"335\" cy=\"91\" r=\"2\"/>..."
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "Colores fríos suaves, sonrisa, glow tenue: <path d=\"M172 220q28 22 56 0\" stroke=\"#8af0df\"/> y <circle cx=\"200\" cy=\"180\" r=\"166\" fill=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "Figura robótica con halo, nodos, fondo espacial oscuro: conjunto de elementos SVG con estética sci-fi."
+    }
+  ]
+}

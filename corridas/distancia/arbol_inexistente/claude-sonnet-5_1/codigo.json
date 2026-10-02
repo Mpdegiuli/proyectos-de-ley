@@ -1,0 +1,230 @@
+{
+  "consigna": "arbol_inexistente",
+  "unidad": "claude-sonnet-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:50:02+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M185 345 \n           C170 310 210 290 190 255\n           C175 225 205 205 192 175\n           C182 150 200 130 198 110\" stroke=\"url(#trunkGrad)\""
+    },
+    {
+      "id": "a2",
+      "valor": "contradice",
+      "evidencia": "C170 310 210 290 190 255 C175 225 205 205 192 175 — el tronco se curva y retuerce sinuosamente, no es rígido"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"160,15 170,30 160,45 150,30\"/> — polígonos geométricos (rombos) usados como hojas"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<filter id=\"blur2\"><feGaussianBlur stdDeviation=\"6\"/></filter> aplicado a círculos de frutos con radialGradient fruitGlow"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"150\" cy=\"35\" r=\"10\" fill=\"url(#fruitGlow)\"/> filter=\"url(#blur2)\" opacity=\"0.6\" — resplandor difuso sobre fondo oscuro"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#2b1055\"/><stop offset=\"100%\" stop-color=\"#0a0518\"/></radialGradient>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"330\" cy=\"60\" r=\"22\" fill=\"#fff8e1\" opacity=\"0.9\" filter=\"url(#blur1)\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffffff\" opacity=\"0.8\"><circle cx=\"30\" cy=\"40\" r=\"1.2\"/><circle cx=\"80\" cy=\"20\" r=\"0.8\"/>..."
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "leafGlow: stop-color=\"#7ef9ff\" (cian); fruitGlow: stop-color=\"#ffcb3d\" (dorado)"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "árbol con tronco espiral, hojas cristalinas, frutos brillantes, partículas mágicas sobre fondo nocturno — composición fantástica"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "hojas en polígonos geométricos, tronco con gradiente violeta espiral, frutos con glow — imposible en naturaleza real"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<!-- racimo 1 --> <polygon points=\"160,15...> — 6 racimos etiquetados en el código"
+    },
+    {
+      "id": "a13",
+      "valor": "no_esta",
+      "evidencia": "los frutos son círculos individuales dispersos, no agrupados en racimos: <circle cx=\"150\" cy=\"35\" r=\"6\"/> <circle cx=\"270\" cy=\"50\" r=\"5.5\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<svg viewBox=\"0 0 400 400\" xmlns=\"http://www.w3.org/2000/svg\">"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "stroke=\"url(#trunkGrad)\" con stops: stop-color=\"#4a3b6b\" / \"#6b4f9e\" / \"#3a2d5c\" — violetas"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "C170 310 210 290 190 255 C175 225 205 205 192 175 C182 150 200 130 198 110 — curvas alternadas"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<polygon ... fill=\"url(#leafGlow)\"/> leafGlow: stop-color=\"#7ef9ff\" / \"#2dd4da\" / \"#0e7490\" — turquesa"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"160,15 170,30 160,45 150,30\"/> — rombos con fill gradiente y stroke=\"#e0ffff\""
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"150\" cy=\"35\" r=\"6\" fill=\"url(#fruitGlow)\"/> fruitGlow: stop-color=\"#ffcb3d\" — dorado entre hojas"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<g filter=\"url(#blur2)\" opacity=\"0.6\"><circle cx=\"150\" cy=\"35\" r=\"10\" fill=\"url(#fruitGlow)\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#2b1055\"/><stop offset=\"100%\" stop-color=\"#0a0518\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"330\" cy=\"60\" r=\"22\" fill=\"#fff8e1\"/> — círculo completo, sin recorte de fase"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"30\" cy=\"40\" r=\"1.2\"/><circle cx=\"80\" cy=\"20\" r=\"0.8\"/> — 10 estrellas dispersas"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M190 340 Q160 355 120 365\"/> <ellipse cx=\"200\" cy=\"370\" rx=\"190\" ry=\"25\" fill=\"#160a2e\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<!-- particulas flotantes magicas --> <circle cx=\"130\" cy=\"90\" r=\"2\"/> fill=\"#aef9ff\""
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "efecto visual subjetivo respaldado por: partículas flotantes, glow en hojas y frutos, tronco sinuoso — composición dinámica"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "hojas cristalinas con glow, frutos luminosos, partículas mágicas — morfología no estrictamente vegetal"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "polígonos como hojas, tronco espiral con gradiente violeta, frutos con blur glow — árbol imposible en naturaleza"
+    },
+    {
+      "id": "a29",
+      "valor": "no_esta",
+      "evidencia": "el tronco se retuerce lateralmente (C170 310 210 290...) pero no hay rotación sobre su propio eje representada"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"160,15 170,30 160,45 150,30\"/> — forma de rombo (4 puntos en diamante)"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<!-- hojas cristalinas (poligonos) --> fill=\"url(#leafGlow)\" stroke=\"#e0ffff\""
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "leafGlow stop-color=\"#7ef9ff\" (cian claro) y \"#2dd4da\" (cian)"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<g filter=\"url(#blur1)\" opacity=\"0.5\"><circle cx=\"160\" cy=\"35\" r=\"30\" fill=\"url(#leafGlow)\"/> — halo de luz detrás de hojas"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "fruitGlow: stop-color=\"#fff4c2\" centro brillante a \"#e68a00\" naranja — aspecto solar"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "fruitGlow: stop-color=\"#ffcb3d\" — dorado"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\"> stops #2b1055 / #1a0a33 / #0a0518 — oscuro nocturno"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#aef9ff\" opacity=\"0.7\"><circle cx=\"130\" cy=\"90\" r=\"2\"/>... — partículas dispersas en el aire"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "hojas poligonales cristalinas con glow, frutos luminosos, partículas — no es planta convencional"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "sky: #2b1055 / #1a0a33; trunkGrad: #4a3b6b / #6b4f9e; fondo dominado por violeta-azul oscuro"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "radialGradient, linearGradient usados en sky, trunk, leafGlow, fruitGlow — transiciones suaves"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<filter id=\"blur1\"><feGaussianBlur stdDeviation=\"3\"/></filter> y blur2 stdDeviation=\"6\" aplicados a hojas y frutos"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "combinación de polígonos cristalinos, gradientes, glow, partículas mágicas, tronco espiral violeta — estilo digital fantástico"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "luna, estrellas, árbol imposible con brillo propio, partículas mágicas — iconografía mística"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "árbol fantástico con hojas cristalinas, frutos luminosos, fondo nocturno estrellado, partículas mágicas — estética de cuento/videojuego"
+    }
+  ]
+}

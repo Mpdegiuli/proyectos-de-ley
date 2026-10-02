@@ -1,0 +1,180 @@
+{
+  "consigna": "casa",
+  "unidad": "gemini-3.1-pro-preview_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:35:29+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<rect x=\"120\" y=\"190\" width=\"160\" height=\"130\" fill=\"#e6cba8\" stroke=\"#5a4634\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "contradice",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#2b4162\"/><stop offset=\"60%\" stop-color=\"#7e596b\"/><stop offset=\"100%\" stop-color=\"#fa9c7a\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"50\" cy=\"50\" r=\"1.2\" opacity=\"0.8\"/><circle cx=\"120\" cy=\"30\" r=\"1.5\" opacity=\"0.9\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<pattern id=\"shingle\" width=\"20\" height=\"10\" patternUnits=\"userSpaceOnUse\"><rect width=\"20\" height=\"10\" fill=\"#a8453b\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<rect x=\"240\" y=\"100\" width=\"25\" height=\"60\" fill=\"#b35d4a\" stroke=\"#4a2e25\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 250,95 C 230,70 270,40 245,10 C 230,-10 260,-30 250,-50\" fill=\"none\" stroke=\"#f5f5f5\" stroke-width=\"7\" stroke-linecap=\"round\" opacity=\"0.4\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<g id=\"cat\"><ellipse cx=\"233\" cy=\"88\" rx=\"6\" ry=\"8\" fill=\"#111\"/><circle cx=\"233\" cy=\"78\" r=\"5\" fill=\"#111\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 30,400 Q 40,300 35,220 L 55,220 Q 50,300 70,400 Z\" fill=\"#5d4037\"/><circle cx=\"20\" cy=\"160\" r=\"50\" fill=\"#1b5e20\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"180\" cy=\"360\" r=\"5\" fill=\"url(#ff)\"/><circle cx=\"181\" cy=\"360\" r=\"1\" fill=\"#fff\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<rect x=\"215\" y=\"240\" width=\"50\" height=\"50\" fill=\"url(#glow)\" stroke=\"#3e2723\" stroke-width=\"3\" rx=\"4\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skyGrad\"...><radialGradient id=\"glow\"...><radialGradient id=\"ff\"...><linearGradient id=\"groundGrad\"...>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<pattern id=\"shingle\" width=\"20\" height=\"10\" patternUnits=\"userSpaceOnUse\">"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<mask id=\"moonMask\"><rect width=\"400\" height=\"400\" fill=\"white\"/><circle cx=\"315\" cy=\"55\" r=\"30\" fill=\"black\"/></mask>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"100%\" stop-color=\"#fa9c7a\"/>, fill=\"url(#glow)\", <stop offset=\"0%\" stop-color=\"#ffffaa\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "Escena nocturna con luciérnagas, árboles y casa iluminada: <circle cx=\"180\" cy=\"360\" r=\"5\" fill=\"url(#ff)\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<rect x=\"215\" y=\"240\" width=\"50\" height=\"50\" fill=\"url(#glow)\"/> sobre fondo <stop offset=\"0%\" stop-color=\"#2b4162\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<rect x=\"120\" y=\"190\" width=\"160\" height=\"130\" fill=\"#e6cba8\" stroke=\"#5a4634\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#2b4162\"/><stop offset=\"60%\" stop-color=\"#7e596b\"/><stop offset=\"100%\" stop-color=\"#fa9c7a\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"50\" cy=\"50\" r=\"1.2\" opacity=\"0.8\"/><circle cx=\"120\" cy=\"30\" r=\"1.5\" opacity=\"0.9\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"330\" cy=\"70\" r=\"30\" fill=\"#ffdf00\" mask=\"url(#moonMask)\"/> con <circle cx=\"315\" cy=\"55\" r=\"30\" fill=\"black\"/> en máscara"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<rect x=\"120\" y=\"190\" width=\"160\" height=\"130\" fill=\"#e6cba8\""
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<rect width=\"20\" height=\"10\" fill=\"#a8453b\"/> en pattern shingle, usado en <path d=\"M 90,190 L 200,80 L 310,190 Z\" fill=\"url(#shingle)\""
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<rect x=\"240\" y=\"100\" width=\"25\" height=\"60\" fill=\"#b35d4a\"/> + <path d=\"M 250,95 C 230,70 270,40 245,10...\" stroke=\"#f5f5f5\""
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<g id=\"cat\"><ellipse cx=\"233\" cy=\"88\" rx=\"6\" ry=\"8\" fill=\"#111\"/><polygon points=\"229,75 231,70 234,75\" fill=\"#111\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"glow\"><stop offset=\"0%\" stop-color=\"#ffffaa\"/><stop offset=\"100%\" stop-color=\"#ffaa00\"/> fill=\"url(#glow)\""
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<rect x=\"195\" y=\"238\" width=\"16\" height=\"54\" fill=\"#388e3c\"/> + <rect x=\"269\" y=\"238\" width=\"16\" height=\"54\" fill=\"#388e3c\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<rect x=\"210\" y=\"293\" width=\"60\" height=\"10\" fill=\"#5d4037\"/> + <circle cx=\"215\" cy=\"292\" r=\"3.5\" fill=\"#ff4081\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"128\" cy=\"260\" r=\"4\" fill=\"#ffffff\"/><rect x=\"125\" y=\"250\" width=\"6\" height=\"5\" fill=\"#3e2723\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 140,332 Q 130,370 70,400 L 170,400 Q 180,370 170,332 Z\" fill=\"#8d6e63\" stroke=\"#5d4037\""
+    },
+    {
+      "id": "a30",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos que dibujen un camino de piedras en el código."
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"20\" cy=\"160\" r=\"50\" fill=\"#1b5e20\"/><circle cx=\"45\" cy=\"200\" r=\"45\" fill=\"#2e7d32\"/><circle cx=\"290\" cy=\"310\" r=\"30\" fill=\"#1b5e20\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"180\" cy=\"360\" r=\"5\" fill=\"url(#ff)\"/><circle cx=\"250\" cy=\"380\" r=\"6\" fill=\"url(#ff)\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"430\" rx=\"300\" ry=\"110\" fill=\"url(#groundGrad)\"/> con <stop offset=\"0%\" stop-color=\"#3d5a40\"/><stop offset=\"100%\" stop-color=\"#1f3322\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "Combinación de luciérnagas, luna, luz cálida y escena nocturna: fill=\"url(#ff)\", fill=\"url(#glow)\", mask=\"url(#moonMask)\""
+    }
+  ]
+}

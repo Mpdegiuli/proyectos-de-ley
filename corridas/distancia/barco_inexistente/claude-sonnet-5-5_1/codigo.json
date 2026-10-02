@@ -1,0 +1,205 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "claude-sonnet-5-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T01:07:00+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M65 245 Q80 308 190 310 Q300 312 340 235 Q200 266 65 245 Z\" fill=\"url(#hull)\""
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#1a1545\"/><stop offset=\".6\" stop-color=\"#7a3f7d\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"1\" stop-color=\"#f0956f\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"305\" cy=\"95\" r=\"40\" fill=\"#fff3d2\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"1\" stop-color=\"#f0956f\"/> (cielo con naranja/violeta), luna visible"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M155 140 C155 52 270 52 270 140 Q250 126 Q212 124 Q172 126 155 140 Z\" fill=\"url(#bell)\""
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bell\"><stop offset=\"0\" stop-color=\"#ffd6f5\"/><stop offset=\".6\" stop-color=\"#d27ae8\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M170 138 Q160 165 175 185 T168 232\"/> (tentáculos que bajan desde campana hacia cubierta)"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M108 245 L50 224 A62 62 0 0 1 169 234 Z\" fill=\"#ffcf8a\""
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "fill=\"#ffcf8a\" (tono durazno/melocotón)"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M68 244 C40 242 32 214 48 202 C52 222 66 226 80 232 Z\" fill=\"#5fd1c6\""
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M290 232 m0 0 a3 3 0 1 1 5 2 a8 8 0 1 1 -12 -6 a13 13 0 1 1 19 12\" (espiral de caracol)"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M338 240 C358 226 364 202 348 190 C338 184 328 192 336 200 C341 205 346 200 343 196\" stroke=\"#e86a9a\" stroke-width=\"8\""
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<g fill=\"none\" stroke=\"#fff4dc\" stroke-width=\"3\"><path d=\"M92 255 Q98 285 125 298\"/>... (costillas/nervaduras en casco)"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#5fd1c6\" stroke=\"#2a7f86\"><circle cx=\"150\" cy=\"270\" r=\"4\"/><circle cx=\"220\" cy=\"272\" r=\"4\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"258\" cy=\"107\" r=\"12\" fill=\"url(#lamp)\"/><circle cx=\"300\" cy=\"148\" r=\"12\" fill=\"url(#lamp)\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sea\"><stop offset=\"0\" stop-color=\"#27507a\"/><stop offset=\"1\" stop-color=\"#08142b\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<g filter=\"url(#gl)\" fill=\"#9ff3ff\" opacity=\".8\"><circle cx=\"40\" cy=\"350\" r=\"3\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M65 245 Q80 308 190 310 Q300 312 340 235 Z\" fill=\"url(#hull)\""
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M155 140 C155 52 270 52 270 140 ... Z\" fill=\"url(#bell)\" (vela principal es la medusa)"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bell\"><stop offset=\"1\" stop-color=\"#6a5ae0\" stop-opacity=\".55\"/> (transparencias en campana)"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M168 232\"/> <path d=\"T188 245\"/> <path d=\"T220 240\"/> (tentáculos llegan a ~245, cubierta ~245-258)"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<g fill=\"none\" stroke=\"#fff4dc\" stroke-width=\"3\" stroke-linecap=\"round\"><path d=\"M92 255 Q98 285 125 298\"/>... (costillar)"
+    },
+    {
+      "id": "a24",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M68 244 C40 242 32 214 48 202\" (la aleta está a babor/proa izquierda, no a popa)"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M338 240 C358 226 364 202 348 190\" stroke=\"#e86a9a\" (figura en proa derecha con flecha/cabeza)"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M108 245 L50 224 A62 62 0 0 1 169 234 Z\" fill=\"#ffcf8a\" (membrana naranja/durazno)"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#b2623f\" stroke-width=\"1.2\" fill=\"none\"><path d=\"M108 245 L68 197\"/><path d=\"M108 245 L97 184\"/>... (nervaduras)"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M290 232 m0 0 a3 3 0 1 1 5 2 a8 8 0 1 1 -12 -6 a13 13 0 1 1 19 12\" (espirales concéntricas = caracol)"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<g fill=\"none\" stroke=\"#4a3330\" stroke-width=\"1\"><path d=\"M210 76 Q280 130 346 192\"/> (cables con faroles)"
+    },
+    {
+      "id": "a30",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos que representen criaturas aladas en el cielo"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#1a1545\"/><stop offset=\".6\" stop-color=\"#7a3f7d\"/><stop offset=\"1\" stop-color=\"#f0956f\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#27507a\"/><stop offset=\"1\" stop-color=\"#08142b\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "SVG con gradientes, medusa, casco orgánico, caballito de mar = ilustración vectorial de fantasía"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "Combinación de luna, estrellas, barco fantástico, colores nocturnos y formas redondeadas"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "fill=\"url(#hull)\" fill=\"url(#bell)\" fill=\"url(#sky)\" (degradados suaves en formas definidas)"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "stroke=\"#4a3330\" stroke-width=\"2.5\" (contornos marrones oscuros en casco y mástiles)"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "stop-opacity=\".55\" opacity=\".45\" opacity=\".6\" (múltiples transparencias)"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<filter id=\"gl\"><feGaussianBlur stdDeviation=\"2.5\"/></filter> aplicado a círculos en el mar"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "Medusa como vela, caballito de mar en proa, luna grande, colores crepusculares, criaturas marinas = atmósfera onírica"
+    }
+  ]
+}

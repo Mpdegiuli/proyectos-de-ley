@@ -1,0 +1,160 @@
+{
+  "consigna": "libre",
+  "unidad": "gpt-4o_2",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:05:26+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"0\" width=\"400\" height=\"400\" fill=\"url(#skyGradient)\" />"
+    },
+    {
+      "id": "a2",
+      "valor": "no_esta",
+      "evidencia": "<circle cx=\"320\" cy=\"80\" r=\"50\" fill=\"url(#sunGradient)\" /> — no hay rayos dibujados"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<rect x=\"60\" y=\"220\" width=\"30\" height=\"130\" fill=\"url(#trunkGradient)\" /> + círculos de hojas"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"120\" cy=\"80\" rx=\"30\" ry=\"15\" fill=\"white\" /> — múltiples elipses blancas superpuestas"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"400\" rx=\"400\" ry=\"100\" fill=\"url(#groundGradient)\" />"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<svg viewBox=\"0 0 400 400\" — ancho y alto iguales"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "groundGradient de rgb(34,139,34) a rgb(85,107,47) — tonos verdes, elipse amplia rx=400"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "paisaje simple con cielo, sol, árbol y nubes en composición ordenada"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "árbol a la izquierda, sol a la derecha, nubes distribuidas, composición balanceada"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "elementos en posiciones distintas: sol cy=80, nubes cy=60-90, árbol x=60, suelo cy=400"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "pocos elementos: rect cielo, circle sol, ellipse suelo, rect tronco, círculos hojas, elipses nubes"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "viewBox 400x400 con cielo dominante y campo abierto"
+    },
+    {
+      "id": "a13",
+      "valor": "no_esta",
+      "evidencia": "skyGradient va de rgb(135,206,235) a rgb(70,130,180) — azul de día, no tonos anaranjados de atardecer"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" style=\"stop-color:rgb(135,206,235)\" /> <stop offset=\"100%\" style=\"stop-color:rgb(70,130,180)\" />"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "sunGradient: stop-color:rgb(255,255,224) a rgb(255,215,0) — amarillo dorado"
+    },
+    {
+      "id": "a16",
+      "valor": "no_esta",
+      "evidencia": "<circle cx=\"320\" cy=\"80\" r=\"50\" fill=\"url(#sunGradient)\" /> — solo círculo con gradiente, sin rayos"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "groundGradient: stop-color:rgb(34,139,34) a stop-color:rgb(85,107,47) — verdes"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"400\" rx=\"400\" ry=\"100\" — aparece en el borde inferior"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"400\" rx=\"400\" ry=\"100\" fill=\"url(#groundGradient)\" /> — verde amplio"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "tronco width=30 height=130 + 4 círculos de hojas r=30-40"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "trunkGradient: rgb(139,69,19) a rgb(160,82,45) — marrón"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "treeLeavesGradient: rgb(0,100,0) a rgb(34,139,34) — verde, 4 círculos superpuestos"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"120\" cy=\"80\" ... fill=\"white\" /> + 5 elipses más"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "fill=\"white\" en todas las elipses de nubes"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "múltiples elipses blancas superpuestas simulando textura algodonosa"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "nubes blancas sobre skyGradient azul — contraste de color y forma"
+    },
+    {
+      "id": "a27",
+      "valor": "contradice",
+      "evidencia": "<path d=\"M200,400 C230,350 280,350 310,400 Z\" — forma triangular/cerrada, no serpentea desde el borde inferior"
+    },
+    {
+      "id": "a28",
+      "valor": "no_esta",
+      "evidencia": "path es una forma cerrada pequeña fill=\"rgba(139,69,19,0.5)\" — no sugiere recorrido ni misterio"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "formas básicas: rect, circle, ellipse, path simples sin detalles complejos"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "gradientes en todos los elementos, composición de paisaje natural reconocible"
+    }
+  ]
+}

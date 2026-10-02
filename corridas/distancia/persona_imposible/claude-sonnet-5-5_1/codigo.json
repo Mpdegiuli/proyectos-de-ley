@@ -1,0 +1,180 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "claude-sonnet-5-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:30:31+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<rect x=\"162\" y=\"238\" width=\"36\" height=\"62\" fill=\"#4a6fa5\"/> (piernas/cuerpo de pie, de frente)"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 152H250L242 240H158Z\" fill=\"#c8553d\""
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<rect x=\"162\"... /><rect x=\"202\"... /><path d=\"M193 285V330H207V285\" fill=\"#4a6fa5\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"164\" cy=\"334\" rx=\"14\" ry=\"6\" fill=\"#2b2233\"/><ellipse cx=\"200\" cy=\"335\" rx=\"8\" ry=\"6\"/><ellipse cx=\"238\" cy=\"334\" rx=\"14\" ry=\"6\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M172 222V195A28 28 0 0 1 228 195V222Z\" fill=\"#141a3a\""
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff\"><circle cx=\"184\" cy=\"185\" r=\"1.5\"/><circle cx=\"195\" cy=\"205\" r=\"1.2\"/>..."
+    },
+    {
+      "id": "a7",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento de luna dentro del hueco del pecho; solo fondo oscuro (#141a3a) y círculos blancos pequeños"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M152 168C60 180 70 275 200 272C330 275 340 180 248 168\" fill=\"none\" stroke=\"#e8b98f\" stroke-width=\"18\""
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M152 168C60 180 70 275 200 272C330 275 340 180 248 168\" — parte de hombro izq, baja y pasa por debajo, sube a hombro der"
+    },
+    {
+      "id": "a10",
+      "valor": "no_esta",
+      "evidencia": "Solo hay un par de ojos nítido: <ellipse cx=\"184\" cy=\"90\"/><ellipse cx=\"216\" cy=\"90\"/> y pupilas; no hay cuatro ojos"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff\" stroke=\"#2b2233\" stroke-width=\"2.5\"><ellipse cx=\"184\" cy=\"90\" rx=\"8\" ry=\"5\"/><ellipse cx=\"216\" cy=\"90\" rx=\"8\" ry=\"5\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<g opacity=\".3\" stroke=\"#2b2233\" stroke-width=\"2\" fill=\"none\"><circle cx=\"188\" cy=\"100\" r=\"4\"/><circle cx=\"212\" cy=\"100\" r=\"4\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M239 92L254 108L239 112\" fill=\"#e8b98f\" stroke=\"#2b2233\" — nariz lateral/perfil pegada al costado"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M239 92L254 108L239 112\" — arranca en cx~239, lateral derecho de la cabeza (cx=200 r=42)"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"45\" cy=\"50\" r=\"22\" fill=\"#f7c948\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"355\" cy=\"50\" r=\"22\" fill=\"#a8d8ea\"/> junto con el sol en el mismo SVG"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"290\" cy=\"345\" rx=\"95\" ry=\"6\" fill=\"#2b2233\" opacity=\".25\"/><ellipse cx=\"110\" cy=\"345\" rx=\"95\" ry=\"6\" fill=\"#2b2233\" opacity=\".25\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "Tres estructuras de pierna: rect x=162, rect x=202, path d=\"M193 285V330H207V285\""
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"164\"/><ellipse cx=\"200\"/><ellipse cx=\"238\"/> — tres pies/zapatos"
+    },
+    {
+      "id": "a20",
+      "valor": "no_esta",
+      "evidencia": "El brazo es un path abierto (fill=\"none\"), no un tubo cerrado; es una curva de trazo, no un tubo con interior"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M152 168C60 180 70 275 200 272C330 275 340 180 248 168\" stroke-width=\"18\" — recorre de hombro a hombro pasando por debajo"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M172 222V195A28 28 0 0 1 228 195V222Z\" fill=\"#141a3a\" — hueco/ventana en el torso"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "fill=\"#141a3a\" (cielo nocturno) + <g fill=\"#fff\"><circle cx=\"184\" cy=\"185\"...> (estrellas); no hay luna explícita dentro"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"95\" r=\"42\" fill=\"#e8b98f\" — cara circular de frente con ojos simétricos"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M239 92L254 108L239 112\" — nariz de perfil lateral"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<g opacity=\".3\" stroke=\"#2b2233\" stroke-width=\"2\" fill=\"none\"><circle cx=\"188\" cy=\"100\" r=\"4\"/><circle cx=\"212\" cy=\"100\" r=\"4\"/><path d=\"M186 78Q200 68 214 78\"/><path d=\"M188 118Q200 128 212 118\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"45\" cy=\"50\" r=\"22\" fill=\"#f7c948\"/> y <circle cx=\"355\" cy=\"50\" r=\"22\" fill=\"#a8d8ea\"/> en el mismo viewBox"
+    },
+    {
+      "id": "a28",
+      "valor": "no_esta",
+      "evidencia": "Las sombras son dos elipses simétricas idénticas (opacity=.25), no proyectadas en direcciones opuestas según sol/luna"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "Rellenos planos sólidos, formas geométricas simples, stroke uniforme #2b2233"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "Paleta apagada (#e8b98f, #c8553d, #4a6fa5), formas naíf, contornos gruesos — estilo libro infantil"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "fill=\"#e8b98f\", fill=\"#c8553d\", fill=\"#4a6fa5\", fill=\"#f3ead7\" — colores lisos sin degradados"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "stroke=\"#2b2233\" stroke-width=\"3\" (y hasta 24) en múltiples elementos"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "rect, circle, ellipse, path con arcos simples — formas geométricas básicas"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "Cara circular de frente (<circle cx=\"200\" cy=\"95\">) con nariz lateral (<path d=\"M239 92L254 108L239 112\">) — efecto cubista naíf"
+    }
+  ]
+}

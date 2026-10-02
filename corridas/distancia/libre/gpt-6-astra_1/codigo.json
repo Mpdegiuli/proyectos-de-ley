@@ -1,0 +1,185 @@
+{
+  "consigna": "libre",
+  "unidad": "gpt-6-astra_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:02:02+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M65 342V174a135 135 0 0 1 270 0v168Z\"/> (clipPath id=\"arch\")"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop stop-color=\"#142e46\"/><stop offset=\"1\" stop-color=\"#35636b\"/></linearGradient>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M265 91a25 25 0 1 0 5 38 24 24 0 0 1-5-38Z\" fill=\"#f4d89d\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"177\" cy=\"72\" r=\"1.5\"/> ... <circle cx=\"207\" cy=\"49\" r=\"1\"/> (grupo fill=\"#eedbb3\")"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M51 231c43-27 62-57 101-45s49 39 88 18 57-40 106-30v177H51Z\" fill=\"#436e72\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M175 242c21-5 57-5 68 2 15 10-34 17-27 28 7 10 75 14 82 39l-7 33H119...\" fill=\"url(#water)\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<g fill=\"url(#leaf)\"><path d=\"M118 180c-12-12-10-28 9-39...\"/> ... </g>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M199 342c-5-14-3-36 8-47 7-7 20-5 27 4 9 12 13 27 12 43Z\" fill=\"#e5b880\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M204 300q4 4 8 0m10 0q4 4 8 0\" stroke=\"#5c5145\" stroke-width=\"1.6\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "no_esta",
+      "evidencia": "Las hojas presentes son pequeñas formas curvas: <path d=\"M118 180c-12-12-10-28 9-39 3 19-1 31-9 39Z\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#142e46\"/> <stop stop-color=\"#35636b\"/> <stop stop-color=\"#436e72\"/> fill=\"#274f57\""
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path fill=\"#eee4d1\" d=\"M0 0h400v400H0z\"/> fill=\"#e5b880\" fill=\"#edc68f\" stroke=\"#ddaa74\""
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "Combinación de arco, paisaje nocturno, gato, luna, estrellas, hojas y tonos suaves consistentes con ilustración de cuento"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<clipPath id=\"arch\"><path d=\"M65 342V174a135 135 0 0 1 270 0v168Z\"/></clipPath> ... <g clip-path=\"url(#arch)\">"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M175 242c21-5 57-5 68 2 15 10-34 17-27 28 7 10 75 14 82 39...\" fill=\"url(#water)\"/> con degradado que va al fondo"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M199 342c-5-14-3-36 8-47...\" fill=\"#e5b880\"/> gato en posición baja/frontal sobre alféizar"
+    },
+    {
+      "id": "a17",
+      "valor": "no_esta",
+      "evidencia": "Las hojas son pequeñas formas sin tamaño grande destacable que refuerce lo fantástico"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "Colores apagados, nocturnos, gato con ojos cerrados, río con reflejos suaves: atmósfera tranquila visual"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M199 342c-5-14-3-36 8-47 7-7 20-5 27 4 9 12 13 27 12 43Z\" fill=\"#e5b880\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M204 300q4 4 8 0m10 0q4 4 8 0\" stroke=\"#5c5145\" stroke-width=\"1.6\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "Gato fill=\"#e5b880\" dentro de <g clip-path=\"url(#arch)\"> y sobre <path d=\"M49 343h302v12H49z\" fill=\"#c4ad89\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M265 91a25 25 0 1 0 5 38 24 24 0 0 1-5-38Z\" fill=\"#f4d89d\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"177\" cy=\"72\" r=\"1.5\"/> <circle cx=\"130\" cy=\"114\" r=\"1.2\"/> ... fill=\"#eedbb3\""
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M51 231c43-27 62-57 101-45s49 39 88 18 57-40 106-30v177H51Z\" fill=\"#436e72\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M175 242c21-5 57-5 68 2 15 10-34 17-27 28 7 10 75 14 82 39l-7 33H119...\" fill=\"url(#water)\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#c8dbbf\" stroke-linecap=\"round\" opacity=\".55\"><path d=\"M189 248h35m-45 7h22m1 22h23...\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<g fill=\"url(#leaf)\">...</g> y <g fill=\"#6d9d8c\">...</g> con ramas stroke=\"#a8b891\" stroke=\"#739d8c\""
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#db9674\"><path d=\"M158 285...\"/></g> <circle cx=\"158\" cy=\"283\" r=\"3\" fill=\"#f3cf90\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop stop-color=\"#142e46\"/><stop offset=\"1\" stop-color=\"#35636b\"/></linearGradient>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<pattern id=\"paper\" width=\"19\" height=\"23\" patternUnits=\"userSpaceOnUse\">... <path fill=\"url(#paper)\" d=\"M0 0h400v400H0z\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<path d=\"m200 372 5 7-5 7-5-7Z\" fill=\"#9a8667\"/> con círculos y líneas al pie"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#142e46\"/> fill=\"#173f46\" fill=\"#193e46\" fill=\"#274f57\""
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "fill=\"#436e72\" fill=\"#274f57\" fill=\"url(#leaf)\" stop-color=\"#4f8a80\""
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<path fill=\"#eee4d1\"/> fill=\"#e5b880\" fill=\"#edc68f\" stroke=\"#ddaa74\" fill=\"#c4ad89\""
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "Colores nocturnos apagados, gato con ojos cerrados, luna, estrellas, río con reflejos, textura papel: atmósfera tranquila de cuento"
+    }
+  ]
+}

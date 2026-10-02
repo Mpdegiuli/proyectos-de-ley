@@ -1,0 +1,175 @@
+{
+  "consigna": "mundo",
+  "unidad": "gpt-5.6-sol_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:20:01+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"203\" r=\"126\" fill=\"url(#sea)\" stroke=\"#81dbe3\" stroke-width=\"2\"/> sobre <rect width=\"400\" height=\"400\" fill=\"url(#bg)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#8bf3f0\" stroke-width=\"1.2\" opacity=\".75\"><path d=\"M117 177L180 143 247 151 286 207 218 239 147 246 117 177\" fill=\"none\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "no_esta",
+      "evidencia": "No hay path que dibuje una grieta; el path zigzagueante es una línea de color amarillo: stroke=\"#ffbb58\""
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M263 81C315 101 350 147 350 204...\" fill=\"url(#heat)\" opacity=\".7\"/> con gradiente heat de #ffd05a a #921f38"
+    },
+    {
+      "id": "a5",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento que represente hielo explícitamente; las franjas blancas son líneas de océano/ecuador: stroke=\"#b9eff0\" y stroke=\"#fff\""
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"203\" r=\"126\" fill=\"url(#sea)\"/> con gradiente sea de #0d8fa4 a #20295d"
+    },
+    {
+      "id": "a7",
+      "valor": "no_esta",
+      "evidencia": "El elemento inferior izquierdo es un edificio/ciudad con fuego pero no hay indicio de que esté incendiada en su totalidad; es una estructura con llama pequeña: <path d=\"M11-7c-8-10 2-15-2-24...\" fill=\"#ff783f\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M3 6C-18 4-24-9-21-25-3-25 8-14 3 6z\" fill=\"#50c87d\"/> y <path d=\"M3-3C8-20 22-24 35-18 31-2 19 5 3-3z\" fill=\"#9be967\"/> en translate(319 298)"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\"><stop offset=\"0\" stop-color=\"#183653\"/><stop offset=\".55\" stop-color=\"#091827\"/><stop offset=\"1\" stop-color=\"#02060c\"/></radialGradient>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"377\" ...>FRÁGIL · CONECTADO · VIVO</text>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"377\" ...>FRÁGIL · CONECTADO · VIVO</text> y redes: <path d=\"M117 177L180 143 247 151 286 207 218 239 147 246 117 177\" fill=\"none\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "Coexisten sector de calor url(#heat), brote verde fill=\"#50c87d\", fuego fill=\"#ff783f\" y agua url(#sea)"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "Brote verde <path d=\"M0 39c-3-19-1-37 4-53\" fill=\"none\" stroke=\"url(#hope)\"/> con gradiente hope de #38b87c a #b8f56a"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M3 6C-18 4-24-9-21-25...\" fill=\"#50c87d\"/> y gradiente id=\"hope\" con stop-color=\"#38b87c\" y stop-color=\"#b8f56a\""
+    },
+    {
+      "id": "a15",
+      "valor": "no_esta",
+      "evidencia": "La estructura con fuego es un edificio pequeño con llama, no una ciudad incendiada: <g transform=\"translate(58 300)\"><path d=\"M0 24h41M5 24V5l8-9v28M18 24V-15h10v39M31 24V-5l7 5v24\""
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M263 81C315 101...\" fill=\"url(#heat)\" opacity=\".7\"/> con gradiente heat de #ffd05a a #921f38"
+    },
+    {
+      "id": "a17",
+      "valor": "no_esta",
+      "evidencia": "No hay representación de hielo; las líneas blancas son franjas del océano/ecuador, no glaciares: stroke=\"#fff\" opacity=\".8\""
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#8bf3f0\" stroke-width=\"1.2\" opacity=\".75\"><path d=\"M117 177L180 143 247 151 286 207 218 239 147 246 117 177\"/> con nodos <circle cx=\"117\" cy=\"177\" r=\"3\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"203\" r=\"126\" fill=\"url(#sea)\"/> sobre fondo oscuro url(#bg)"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M117 177L180 143 247 151 286 207 218 239 147 246 117 177\" fill=\"none\"/> clip-path=\"url(#globe)\""
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#8bf3f0\"><path d=\"M117 177L180 143 247 151 286 207 218 239 147 246 117 177\"/></g> y nodos <circle cx=\"180\" cy=\"143\" r=\"3\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "no_esta",
+      "evidencia": "La línea central zigzagueante tiene stroke=\"#ffbb58\" pero no hay forma de grieta abierta/encendida; es un path de línea simple sin relleno"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M263 81C315 101 350 147 350 204...\" fill=\"url(#heat)\" opacity=\".7\"/> en el lado derecho del globo"
+    },
+    {
+      "id": "a24",
+      "valor": "no_esta",
+      "evidencia": "El elemento con fuego está fuera del globo en translate(58 300) y es una estructura pequeña, no una ciudad ardiendo en llamas"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(319 298)\"><path d=\"M3 6C-18 4-24-9-21-25-3-25 8-14 3 6z\" fill=\"#50c87d\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M74 272c46 20 79 32 125 33...\" stroke=\"#b9eff0\" stroke-width=\"5\"/> y <path d=\"M67 282...\" stroke=\"#fff\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#bg)\"/> con stop-color=\"#02060c\""
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"377\">FRÁGIL · CONECTADO · VIVO</text>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "Redes con nodos conectados: <path d=\"M117 177L180 143 247 151 286 207 218 239 147 246 117 177\" fill=\"none\"/> y texto CONECTADO"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 39c-3-19-1-37 4-53\" stroke=\"url(#hope)\"/> con gradiente hope y hojas fill=\"#50c87d\" fill=\"#9be967\""
+    },
+    {
+      "id": "a31",
+      "valor": "no_esta",
+      "evidencia": "No hay grieta representada; el path zigzagueante es una línea decorativa stroke=\"#ffbb58\" sin representar división/grieta"
+    },
+    {
+      "id": "a32",
+      "valor": "no_esta",
+      "evidencia": "Las franjas blancas son líneas curvas de océano/latitud, no representan límites inestables: stroke=\"#b9eff0\" stroke-width=\"5\" opacity=\".7\""
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "Coexisten zona de calor url(#heat), zonas verdes fill=\"#5ead68\", agua url(#sea) y texto FRÁGIL, sugiriendo desigualdad y herida"
+    }
+  ]
+}

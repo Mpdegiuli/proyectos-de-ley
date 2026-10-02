@@ -1,0 +1,175 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "gpt-5.5-2026-04-23_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:33:14+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M185 71 C171 51 201 35 218 51 C238 69 232 111 209 121 C185 132 162 103 185 71Z\" fill=\"url(#skin)\" stroke=\"#33233b\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M205 298 C201 277 218 263 238 269 C260 276 264 302 247 315 C229 328 210 318 205 298Z\" fill=\"url(#skin)\" stroke=\"#33233b\" stroke-width=\"3\"/> <circle cx=\"220\" cy=\"284\" r=\"3.5\" fill=\"#171325\"/> <circle cx=\"240\" cy=\"286\" r=\"3.5\" fill=\"#171325\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M137 155 C96 130 70 138 62 171 C56 194 79 205 94 188 C104 176 89 162 77 172\" fill=\"none\" stroke=\"url(#skin)\" stroke-width=\"21\" stroke-linecap=\"round\"/> <path d=\"M77 172 C93 151 128 191 105 223 C88 247 45 233 41 199\""
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M137 155 C96 130 70 138 62 171...\" (brazo sale del torso lateralmente) y <path d=\"M165 238 C129 254 107 287 121 320...\" (pierna desde zona media)"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M184 55 C182 25 156 18 140 40...\" fill=\"none\" stroke=\"url(#skin)\" stroke-width=\"14\"/> <path d=\"M214 54 C223 24 251 22 263 46...\" fill=\"none\" stroke=\"url(#skin)\" stroke-width=\"14\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M129 147 L225 122 L278 203 L237 232 L203 173 L150 190Z\" fill=\"url(#clothA)\"/> <path d=\"M278 203 L226 304 L133 278 L150 190 L203 173 L180 248 L237 232Z\" fill=\"url(#clothB)\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "Presencia de cabeza con ojos y boca, torso, brazos y piernas reconocibles como figura humana general."
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "Segunda cara en abdomen, brazos que se enroscan en bucles, piernas en posiciones imposibles, anatomía contradictoria globalmente."
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M129 147 L225 122 L278 203 L237 232 L203 173 L150 190Z\" fill=\"url(#clothA)\"/> torso formado por polígonos con vértices angulares y degradados."
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "Segunda cara en cadera, extremidades en bucles imposibles, apéndices craneales con zapatos, anatomía contradictoria."
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M185 71 C171 51 201 35 218 51 C238 69 232 111 209 121 C185 132 162 103 185 71Z\" fill=\"url(#skin)\""
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"191\" cy=\"91\" r=\"4\" fill=\"#171325\"/> <circle cx=\"213\" cy=\"91\" r=\"4\" fill=\"#171325\"/> <circle cx=\"163\" cy=\"95\" r=\"3\" fill=\"#171325\"/> <circle cx=\"241\" cy=\"96\" r=\"3\" fill=\"#171325\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"163\" cy=\"95\" r=\"3\"/> y <circle cx=\"241\" cy=\"96\" r=\"3\"/> ubicados en las orejas laterales; <circle cx=\"191\" cy=\"91\"/> y <circle cx=\"213\" cy=\"91\"/> en el rostro central."
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M77 172 C93 151 128 191 105 223 C88 247 45 233 41 199\" fill=\"none\" stroke=\"url(#skin)\" stroke-width=\"13\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M139 38 C127 28 125 16 134 6 C148 14 157 25 159 40Z\" fill=\"#2a2140\"/> y <path d=\"M263 46 C277 38 281 27 274 15 C258 20 247 31 242 47Z\" fill=\"#2a2140\"/> en la cabeza"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M205 298 C201 277 218 263 238 269 C260 276 264 302 247 315 C229 328 210 318 205 298Z\" fill=\"url(#skin)\"/> con ojos y boca en zona inferior del cuerpo"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M129 147 L225 122 L278 203 L237 232 L203 173 L150 190Z\" fill=\"url(#clothA)\"/> <path d=\"M278 203 L226 304 L133 278 L150 190...\" fill=\"url(#clothB)\"/> <path d=\"M133 278 L129 147 L150 190 L180 248 L226 304Z\" fill=\"#35d09a\""
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M184 55...\" stroke=\"url(#skin)\" stroke-width=\"14\"/> con zapatos: <path d=\"M139 38 C127 28 125 16 134 6 C148 14 157 25 159 40Z\" fill=\"#2a2140\"/> <path d=\"M263 46 C277 38 281 27 274 15...\" fill=\"#2a2140\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "Torso con planos en múltiples direcciones: L225 122, L278 203, L133 278, L129 147 formando polígonos en distintos planos con gradientes divergentes."
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M139 38...\" fill=\"#2a2140\"/> y <path d=\"M263 46...\" fill=\"#2a2140\"/> son zapatos oscuros en lo alto de la cabeza, reforzando imposibilidad anatómica."
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "fill=\"url(#clothA)\" (azul-violeta), fill=\"url(#clothB)\" (rosa-naranja), fill=\"#35d09a\" (verde turquesa) en los tres paneles del torso."
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M77 172 C93 151 128 191 105 223 C88 247 45 233 41 199\" (brazo izquierdo se enrosca sobre sí mismo)"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M205 298...\" fill=\"url(#skin)\"/> con <circle cx=\"220\" cy=\"284\"/> <circle cx=\"240\" cy=\"286\"/> <path d=\"M211 308 C220 304 235 305 246 311\" stroke=\"#8b3445\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "Brazos de grosor stroke-width=\"21\"/\"17\", cabeza con orejas propias (apéndices craneales), segunda cara en abdomen, zapatos en la cabeza — proporciones mutuamente incompatibles."
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M129 147 L225 122 L278 203 L237 232 L203 173 L150 190Z\"/> <path d=\"M278 203 L226 304 L133 278...\"/> <path d=\"M133 278 L129 147 L150 190 L180 248 L226 304Z\"/> — tres facetas poligonales distintas."
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "Torso conecta cabeza principal, segunda cara abdominal, brazos en bucle y piernas en posiciones incompatibles entre sí."
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "Segunda cara en cadera, cuatro ojos en cabeza con dos en orejas, zapatos en cima de cabeza, extremidades en bucles — anatomía se contradice."
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "Múltiples degradados (linearGradient), formas imposibles, segunda cara, zapatos en cabeza, torso geométrico multifacetado — estilo surrealista vectorial."
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "stop-color=\"#6ee7ff\" stop-color=\"#7467ff\" stop-color=\"#ff6bb5\" stop-color=\"#ffb23f\" stop-color=\"#35d09a\" — colores muy saturados."
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "stroke-width=\"4\" stroke-linejoin=\"round\" en torso; stroke-width=\"22\" y \"25\" en extremidades; stroke-width=\"3\" en cabeza — contornos gruesos."
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "Torso con vértices angulares (formas geométricas) y extremidades con paths curvos redondeados (blandas) coexisten en la misma figura."
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "Colores vibrantes, formas exageradas, segunda cara, zapatos en cabeza, bucles en extremidades — caricatura fantástica."
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "Torso dividido en tres piezas de colores/gradientes independientes, segunda cara incrustada, apéndices craneales con zapatos — aspecto de collage anatómico."
+    }
+  ]
+}

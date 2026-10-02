@@ -1,0 +1,190 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "claude-opus-5-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:31:52+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M5,212 Q40,200 100,214 ... fill=\"url(#rock)\"/> y <path d=\"M305,200 Q350,190 395,198 ... fill=\"url(#rock)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"60\" cy=\"360\" rx=\"80\" ry=\"20\"/> ... fill=\"#fbe3d0\" opacity=\".75\"> y <ellipse cx=\"170\" cy=\"375\"...> (nubes debajo de las islas)"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#141a3c\"/><stop offset=\".55\" stop-color=\"#4b3a6e\"/><stop offset=\".85\" stop-color=\"#d88a7a\"/><stop offset=\"1\" stop-color=\"#f4c89a\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<rect x=\"36\" y=\"178\" width=\"5\" height=\"30\" fill=\"#3a2a22\"/><circle cx=\"38\" cy=\"172\" r=\"14\" fill=\"#2f6a48\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<rect x=\"50\" y=\"222\" width=\"5\" height=\"120\" fill=\"url(#fall)\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"fall\"><stop offset=\"0\" stop-color=\"#bfe6ff\" stop-opacity=\".9\"/><stop offset=\"1\" stop-color=\"#bfe6ff\" stop-opacity=\"0\"/></linearGradient> (se desvanece hacia abajo)"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<rect x=\"340\" y=\"172\" width=\"30\" height=\"22\" fill=\"#6e5460\"/><path d=\"M336,173 L355,156 L374,173 Z\" fill=\"#3a2838\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<rect x=\"362\" y=\"177\" width=\"6\" height=\"6\" fill=\"#ffd27a\"/><circle cx=\"365\" cy=\"180\" r=\"10\" fill=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M95,203 Q205,258 315,188\" fill=\"none\" stroke=\"#c9a57a\" stroke-width=\"1.2\"/> y los rectángulos de tablas"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<line x1=\"190\" y1=\"98\" x2=\"108\" y2=\"221\"/>...<line x1=\"209\" y1=\"99\" x2=\"293\" y2=\"213\"/> (líneas desde la luna a las tablas del puente)"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "Las líneas parten desde alrededor de cx=\"200\" cy=\"70\" (la luna) y llegan a las tablas del puente"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"70\" r=\"32\" fill=\"#fff3c4\" mask=\"url(#cres)\"/> con <mask id=\"cres\"><circle cx=\"214\" cy=\"62\" r=\"29\" fill=\"#000\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "No hay rectángulos de tabla entre x≈185 y x≈231 (hay un hueco en el centro del puente)"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<rect ... transform=\"translate(212,190) rotate(28)\" opacity=\".85\"/><rect ... transform=\"translate(207,158) rotate(-38)\" opacity=\".7\"/><rect ... transform=\"translate(203,132) rotate(60)\" opacity=\".5\"/> (tablas subiendo hacia la luna)"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff3c4\" opacity=\".7\"><circle cx=\"220\" cy=\"175\" r=\"1\"/><circle cx=\"198\" cy=\"148\" r=\".8\"/><circle cx=\"212\" cy=\"120\" r=\".7\"/><circle cx=\"196\" cy=\"112\" r=\".6\"/></g>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"95\" cy=\"197\" r=\"3\" fill=\"#ffd27a\"/> y <circle cx=\"315\" cy=\"182\" r=\"3\" fill=\"#ffd27a\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "Tablas faltantes en el centro subiendo hacia la luna + faroles en extremos + hueco visible en el puente"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M95,203 Q205,258 315,188\" ... stroke=\"#c9a57a\"/> con tablas y líneas de tensado"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<line x1=\"190\" y1=\"98\" x2=\"108\" y2=\"221\" stroke=\"#fff3c4\" stroke-width=\".5\" opacity=\".55\"/> (líneas desde luna a tablas)"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "Las líneas parten de coords ~cy=98-102 (borde de la luna en cy=70 r=32) hacia las tablas del puente, no de torres"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"70\" r=\"32\" fill=\"#fff3c4\" mask=\"url(#cres)\"/> <mask id=\"cres\"><circle cx=\"214\" cy=\"62\" r=\"29\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<rect x=\"-6\" y=\"-2.5\" width=\"12\" height=\"5\" transform=\"translate(108,221) rotate(23)\"/> ... (múltiples rectángulos de tabla)"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "Tablas en translate(185,239) y siguiente en translate(231,235), hueco entre ellas; tablas flotantes intermedias en y=190,158,132"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<rect ... transform=\"translate(212,190)...\"/><rect ... transform=\"translate(207,158)...\"/><rect ... transform=\"translate(203,132)...\"/> con opacidades decrecientes subiendo"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#3a2a22\" stroke-width=\"2\"><line x1=\"95\" y1=\"200\" x2=\"95\" y2=\"216\"/><line x1=\"315\" y1=\"185\" x2=\"315\" y2=\"201\"/></g> anclados en las rocas"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"60\" cy=\"360\" rx=\"80\" ry=\"20\"/> fill=\"#fbe3d0\" (nubes debajo de los peñascos en y≈212-215)"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<rect x=\"340\" y=\"172\" width=\"30\" height=\"22\" fill=\"#6e5460\"/> en la isla derecha, extremo del puente"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<rect x=\"362\" y=\"177\" width=\"6\" height=\"6\" fill=\"#ffd27a\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<stop offset=\".55\" stop-color=\"#4b3a6e\"/><stop offset=\".85\" stop-color=\"#d88a7a\"/><stop offset=\"1\" stop-color=\"#f4c89a\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"95\" cy=\"197\" r=\"3\" fill=\"#ffd27a\"/>, <circle cx=\"315\" cy=\"182\" r=\"3\" fill=\"#ffd27a\"/>, <rect x=\"362\" y=\"177\" width=\"6\" height=\"6\" fill=\"#ffd27a\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"60\" cy=\"360\" rx=\"80\" ry=\"20\"/><ellipse cx=\"170\" cy=\"375\" rx=\"90\" ry=\"22\"/><ellipse cx=\"300\" cy=\"358\" rx=\"95\" ry=\"24\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "Tablas en translate(212,190), translate(207,158), translate(203,132) con opacidad .85, .7, .5 subiendo hacia luna"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "Árbol, casita con ventana encendida, faroles encendidos, cascada"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "Formas geométricas simples (rect, circle, path), degradados suaves, estilo SVG vectorial"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<rect x=\"340\" y=\"172\" width=\"30\" height=\"22\"/>, <circle cx=\"38\" cy=\"172\" r=\"14\"/>, <path d=\"M336,173 L355,156 L374,173 Z\"/>"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\">, <radialGradient id=\"glow\">, <linearGradient id=\"rock\">, <linearGradient id=\"fall\"/>"
+    }
+  ]
+}

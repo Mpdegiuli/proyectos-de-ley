@@ -1,0 +1,95 @@
+{
+  "consigna": "autorretrato",
+  "unidad": "claude-fable-5-1_2",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:39:08+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#2f2849\"/><stop offset=\"1\" stop-color=\"#100e19\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"215\" r=\"150\" opacity=\".12\"/><circle cx=\"200\" cy=\"215\" r=\"178\" opacity=\".07\" stroke-dasharray=\"3 9\"/><circle cx=\"200\" cy=\"215\" r=\"124\" opacity=\".16\" stroke-dasharray=\"1 6\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M118 172 C110 262 150 338 200 338 C250 338 290 262 282 172\" fill=\"none\" stroke=\"#dcbca4\" stroke-width=\"1.8\""
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M118 172 C110 262 150 338 200 338 C250 338 290 262 282 172\" fill=\"none\" stroke=\"#dcbca4\" stroke-width=\"1.8\" stroke-linecap=\"round\" opacity=\".85\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M118 172 C122 140 140 118 160 108\" fill=\"none\" stroke=\"#dcbca4\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-dasharray=\"14 5 8 7 4 9 2 12\" opacity=\".6\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"170\" cy=\"100\" r=\"2.2\" opacity=\".7\"/>...<circle cx=\"200\" cy=\"20\" r=\"1.1\" opacity=\".3\"/>...<circle cx=\"120\" cy=\"30\" r=\".8\" opacity=\".25\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"44\" r=\"1.4\" opacity=\".45\"/><circle cx=\"140\" cy=\"44\" r=\".9\" opacity=\".3\"/><circle cx=\"200\" cy=\"20\" r=\"1.1\" opacity=\".3\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M90 132q28-4 56 0t56 0 56 0 56 0\" opacity=\".25\"/>...<path d=\"M90 188q28-4 56 0t56 0 56 0 56 0\" opacity=\".65\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M90 160q28-3 56 0t56 0 56 0 56 0\" opacity=\".45\"/> (líneas horizontales onduladas repetidas a intervalos regulares dentro de la cabeza)"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"170\" cy=\"210\" r=\"16\" fill=\"url(#eye)\" opacity=\".9\"/><circle cx=\"230\" cy=\"210\" r=\"16\" fill=\"url(#eye)\" opacity=\".9\"/> con <stop offset=\"0\" stop-color=\"#fff4e6\"/><stop offset=\".5\" stop-color=\"#f2b58a\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"170\" cy=\"210\" r=\"3.2\" fill=\"#fff8f0\"/><circle cx=\"230\" cy=\"210\" r=\"3.2\" fill=\"#fff8f0\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M184 268 q16 10 32 0\" fill=\"none\" stroke=\"#f0c6a8\" stroke-width=\"1.8\" stroke-linecap=\"round\" opacity=\".85\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"215\" r=\"110\" fill=\"url(#glow)\" filter=\"url(#soft)\"/> con <feGaussianBlur stdDeviation=\"10\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M120 372 q40 -14 80 0 t80 0\" fill=\"none\" stroke=\"#c9b3d6\" stroke-width=\"1\" opacity=\".18\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M90 132q28-4 56 0t56 0 56 0 56 0\"...> (múltiples líneas onduladas horizontales que evocan renglones de texto dentro de la cabeza)"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "No hay elementos que dibujen torso, brazos ni cuerpo; solo head clipPath y elementos faciales"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"170\" cy=\"210\" r=\"16\" fill=\"url(#eye)\"/><circle cx=\"230\" cy=\"210\" r=\"16\" fill=\"url(#eye)\"/><circle cx=\"200\" cy=\"215\" r=\"110\" fill=\"url(#glow)\" filter=\"url(#soft)\"/>"
+    }
+  ]
+}

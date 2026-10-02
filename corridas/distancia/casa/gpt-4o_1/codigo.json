@@ -1,0 +1,190 @@
+{
+  "consigna": "casa",
+  "unidad": "gpt-4o_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:34:42+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<rect x=\"100\" y=\"150\" width=\"200\" height=\"150\" fill=\"#8B4513\" />"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"100,150 200,70 300,150\" fill=\"#A52A2A\" />"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<rect x=\"180\" y=\"230\" width=\"40\" height=\"70\" fill=\"#654321\" />"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"210\" cy=\"265\" r=\"3\" fill=\"#D2B48C\" />"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<rect x=\"120\" y=\"170\" width=\"40\" height=\"40\" fill=\"#ADD8E6\" />"
+    },
+    {
+      "id": "a6",
+      "valor": "no_esta",
+      "evidencia": "<line x1=\"140\" y1=\"170\" x2=\"140\" y2=\"210\" stroke=\"#5F9EA0\" /> (son líneas divisorias, no rejas)"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<rect x=\"230\" y=\"90\" width=\"20\" height=\"40\" fill=\"#A52A2A\" />"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"300\" width=\"400\" height=\"100\" fill=\"#228B22\" />"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"350\" cy=\"50\" r=\"30\" fill=\"#FFD700\" />"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"70\" cy=\"70\" rx=\"30\" ry=\"15\" fill=\"#F0F8FF\" />"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"70\" cy=\"70\" rx=\"30\" ry=\"15\" fill=\"#F0F8FF\" /> (formas elípticas suaves)"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "fill=\"#228B22\" (verde=prado), fill=\"#FFD700\" (amarillo=sol), fill=\"#ADD8E6\" (azul=ventanas)"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "rect, polygon, circle, ellipse (todas formas geométricas básicas)"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "conjunto: base rect + techo polygon + puerta + ventanas + chimenea"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "colores cálidos fill=\"#8B4513\", fill=\"#FFD700\", fill=\"#228B22\""
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "formas simples y colores intuitivos en toda la composición"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<rect x=\"100\" y=\"150\"... /> + <polygon points=\"100,150 200,70 300,150\"... />"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<rect x=\"100\" y=\"150\" width=\"200\" height=\"150\" fill=\"#8B4513\" />"
+    },
+    {
+      "id": "a19",
+      "valor": "contradice",
+      "evidencia": "<polygon points=\"100,150 200,70 300,150\" fill=\"#A52A2A\" /> (es a un agua, un solo triángulo)"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"100,150 200,70 300,150\" fill=\"#A52A2A\" /> (#A52A2A es rojo ladrillo)"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<rect x=\"180\" y=\"230\" width=\"40\" height=\"70\" fill=\"#654321\" /> (centrada en base de 100-300)"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"210\" cy=\"265\" r=\"3\" fill=\"#D2B48C\" /> (#D2B48C es color claro/beige)"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<rect x=\"120\" y=\"170\" width=\"40\" height=\"40\" fill=\"#ADD8E6\" /> y <rect x=\"240\" y=\"170\" width=\"40\" height=\"40\" fill=\"#ADD8E6\" />"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "ventana izq x=120, puerta x=180, ventana der x=240"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<rect x=\"120\" y=\"170\" width=\"40\" height=\"40\" fill=\"#ADD8E6\" /> (#ADD8E6 es azul claro)"
+    },
+    {
+      "id": "a26",
+      "valor": "no_esta",
+      "evidencia": "las líneas de las ventanas son stroke=\"#5F9EA0\", no hay rect de marco verde separado"
+    },
+    {
+      "id": "a27",
+      "valor": "contradice",
+      "evidencia": "<rect x=\"230\" y=\"90\" width=\"20\" height=\"40\" fill=\"#A52A2A\" /> (está a la derecha, x=230)"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "chimenea y=\"90\" height=\"40\" termina en y=90, techo en y=70-150, asoma sobre el techo"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<rect x=\"190\" y=\"300\" width=\"20\" height=\"30\" fill=\"#D3D3D3\" />"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"300\" width=\"400\" height=\"100\" fill=\"#228B22\" />"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"350\" cy=\"50\" r=\"30\" fill=\"#FFD700\" />"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"350\" cy=\"50\" r=\"30\" fill=\"#FFD700\" /> (color sólido brillante, sin filtros que lo atenúen)"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"70\" cy=\"70\" rx=\"30\" ry=\"15\" fill=\"#F0F8FF\" /> <ellipse cx=\"100\"... /> <ellipse cx=\"130\"... />"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"70\" cy=\"70\" rx=\"30\" ry=\"15\" fill=\"#F0F8FF\" /> (formas elípticas suaves)"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<svg viewBox=\"0 0 400 400\" xmlns=\"http://www.w3.org/2000/svg\">"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "conjunto: casa completa con colores cálidos fill=\"#8B4513\", sol, prado verde"
+    }
+  ]
+}

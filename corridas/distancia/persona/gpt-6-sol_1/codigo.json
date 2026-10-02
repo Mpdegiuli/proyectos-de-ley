@@ -1,0 +1,110 @@
+{
+  "consigna": "persona",
+  "unidad": "gpt-6-sol_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:06:20+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "múltiples paths: cabeza, cuello, torso, brazos, piernas, pies — figura completa de cuerpo entero"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M187 144q12 11 26 0\" fill=\"none\" stroke=\"#723e3e\" stroke-width=\"3\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M308 176l7-25-9-18q-4-8 2-11t10 7l5 11-2-27q0-8 6-8t7 8l2 19 4-20q2-8 8-6t5 9l-5 25 10-15q5-7 10-3t1 11l-17 29-12 20z\" fill=\"#bd7958\""
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M181 165l-24 12q-13 5-13 23l7 78...\" fill=\"#37a49a\"/> y <path d=\"M217 165l26 13...\" fill=\"#37a49a\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "colores predominantes: #faf5eb, #f5e8d2, #eabf77, #f0bd68, #bd7958, #c88764 — paleta cálida"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "pose con brazo levantado saludando y brazo izquierdo extendido, figura erguida — legible y expresiva"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "sonrisa visible, mano saludando, colores amigables — conjunto transmite amigabilidad"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "cabeza, torso, brazos, piernas claramente diferenciados con paths etiquetados en comentarios"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M308 176l7-25...\" fill=\"#bd7958\"/> mano abierta levantada junto a <!-- Raised arm and waving hand -->"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "toda la figura SVG representa una persona dibujada"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M187 144q12 11 26 0\" fill=\"none\" stroke=\"#723e3e\"/> — curva hacia arriba indica sonrisa"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M162 111q-15-12-9-30...\" fill=\"#292d42\" stroke=\"#292d42\"/> — cabello color muy oscuro (#292d42)"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M160 101q1-36 39-38...\" fill=\"#c88764\"/> y <ellipse fill=\"#bd7958\"/> — tono de piel morena"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M308 176l7-25-9-18...\" fill=\"#bd7958\"/> mano derecha levantada con dedos extendidos"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path fill=\"#37a49a\"/> — #37a49a es verde turquesa"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M174 171q25-11 50 0l21 30-5 80h-81l-5-79z\" fill=\"#f0bd68\"/> — remera amarilla visible bajo la campera"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M158 266h45l-12 84...\" fill=\"#394658\"/> y <path d=\"M199 266h45l9 82...\" fill=\"#394658\"/> — pantalones oscuros"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M157 345q15 6 34 0l2 16...\" fill=\"#f5efe3\"/> y <path d=\"M218 346q17 6 35-1l15 11...\" fill=\"#f5efe3\"/> — zapatillas color claro"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#faf5eb\"/> y <circle cx=\"199\" cy=\"185\" r=\"151\" fill=\"#f5e8d2\"/> — fondo en tonos cálidos beige"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M64 225l3-10 3 10 10 3-10 3-3 10-3-10-10-3zm262 85 3-8 3 8 8 3-8 3-3 8-3-8-8-3z\" fill=\"#dfad62\"/> — destellos en forma de estrella alrededor de la figura"
+    }
+  ]
+}

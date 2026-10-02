@@ -1,0 +1,170 @@
+{
+  "consigna": "mundo",
+  "unidad": "gpt-6.1-sol_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:14:26+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"m203 78-12 33 16 23-14 25 18 22-13 21 13 19-19 29 12 19-5 24\" fill=\"none\" stroke=\"#122e3b\" stroke-width=\"9\"/> y stroke=\"#ffcf79\" — fractura zigzagueante sobre la Tierra"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M124 151q-8-8 0-20-1 7 5 8 5-5 3-9 12 16 1 22z\" fill=\"#f6954c\"/> y <path d=\"M156 213q-9-7-1-20...\" fill=\"#f6954c\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#153e3b\" stroke-width=\"2\" fill=\"#9fdb9b\"><path d=\"M273 148v-23\"/>...<path d=\"M273 137q-15 0-16-12 14-2 16 12z\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"190\" rx=\"172\" ry=\"69\" transform=\"rotate(-28 200 190)\" opacity=\".3\"/> y <ellipse cx=\"200\" cy=\"190\" rx=\"158\" ry=\"116\" transform=\"rotate(29 200 190)\" opacity=\".18\" stroke-dasharray=\"3 7\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M98 400 86 349...\" fill=\"url(#hands)\"/> y <path d=\"m302 400 12-51...\" fill=\"url(#hands)\"/> — las manos sostienen desde abajo pero apuntan hacia el horizonte, no rodean la Tierra"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"m203 78-12 33 16 23-14 25 18 22-13 21 13 19-19 29 12 19-5 24\" stroke=\"#ffcf79\" stroke-width=\"5\" filter=\"url(#glow)\" opacity=\".7\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(316 92) rotate(30)\"><path d=\"M-20-8h13v16h-13zm27 0h13v16H7z\" fill=\"#518292\"/>...<path d=\"M0-5v-8m-3 0h6\" stroke=\"#e5c68e\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#26394b\" stroke=\"#795962\" stroke-width=\".7\"><path d=\"M41 284v-29h15v-19h7v22h14v-31h8v28h9v29z\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<g fill=\"none\" stroke=\"#78b9b0\" stroke-linecap=\"round\"><path d=\"M318 286v-48m0 1-15-9m15 9 16-9m-16 9v-18\" stroke-width=\"2\"/>...<path d=\"M344 300v-36m0 0-12-6m12 6 12-8m-12 8-2-15\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#edcf9b\" stroke-width=\"2\" stroke-linecap=\"round\" fill=\"none\"><path d=\"m163 326 3-15 6-1 4 18m-10-11-10 3m15-6 9 8\"/>...<circle cx=\"169\" cy=\"304\" r=\"4\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 378v-29\"/><path d=\"M200 364q-19 0-22-15 18-1 22 15zm0-8q2-18 21-21-1 19-21 21z\" fill=\"#87c9a0\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"m203 78-12 33 16 23-14 25 18 22-13 21 13 19-19 29 12 19-5 24\" stroke=\"#ffcf79\" stroke-width=\"5\" filter=\"url(#glow)\"/> — luz dorada atravesando la grieta sugiere reparación"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "incendios fill=\"#f6954c\", fábricas fill=\"#26394b\", coexisten con brotes fill=\"#9fdb9b\", manos url(#hands) y brote fill=\"#87c9a0\""
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "personas <circle cx=\"169\" cy=\"304\" r=\"4\"/><circle cx=\"199\" cy=\"307\" r=\"4\"/><circle cx=\"231\" cy=\"303\" r=\"4\"/> sobre horizonte curvo, manos url(#hands), brote fill=\"#87c9a0\""
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "satélite translate(316 92), aerogeneradores stroke=\"#78b9b0\", fábricas fill=\"#26394b\", red de conexiones stroke=\"#77b8b4\""
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"185\" r=\"108\" fill=\"url(#ocean)\"/> con clip-path y continentes fill=\"url(#land)\""
+    },
+    {
+      "id": "a17",
+      "valor": "no_esta",
+      "evidencia": "Los incendios fill=\"#f6954c\" están dentro del clip-path id=\"world\" (sobre la Tierra), no alrededor de ella"
+    },
+    {
+      "id": "a18",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento que dibuje humo; las líneas onduladas stroke=\"#e9f1dd\" son nubes/viento, no humo explícito"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#153e3b\" stroke-width=\"2\" fill=\"#9fdb9b\"> y <path d=\"M200 364...\" fill=\"#87c9a0\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"m203 78-12 33 16 23-14 25 18 22-13 21 13 19-19 29 12 19-5 24\" stroke=\"#ffcf79\" stroke-width=\"5\" filter=\"url(#glow)\"/> dentro del clip-path de la Tierra"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"m203 78-12 33 16 23-14 25 18 22-13 21 13 19-19 29 12 19-5 24\" fill=\"none\" stroke=\"#122e3b\" stroke-width=\"9\"/> — trazo oscuro grueso subyacente sugiere herida"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path ... stroke=\"#ffcf79\" stroke-width=\"5\" filter=\"url(#glow)\" opacity=\".7\"/> — luz dorada sobre la fractura sugiere reparación"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"190\" rx=\"172\" ry=\"69\" transform=\"rotate(-28 200 190)\"/> y <path d=\"M47 150 86 75 181 59 303 100 353 222 291 297 122 303 47 150\" opacity=\".15\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(316 92) rotate(30)\"><path d=\"M-20-8h13v16h-13zm27 0h13v16H7z\" fill=\"#518292\"/><path d=\"M-6-5H6V5H-6z\" fill=\"#e5c68e\"/><path d=\"M0-5v-8m-3 0h6\" stroke=\"#e5c68e\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M98 400 86 349...\" fill=\"url(#hands)\"/> y <path d=\"m302 400 12-51...\" fill=\"url(#hands)\"/> — parten desde y=400 (parte inferior)"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M139 326q61 16 122 0\"/> horizonte curvo con figuras <circle cx=\"169\" cy=\"304\" r=\"4\"/><circle cx=\"199\" cy=\"307\" r=\"4\"/><circle cx=\"231\" cy=\"303\" r=\"4\"/> y líneas de cuerpos encima"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M139 326q61 16 122 0\" fill=\"none\" stroke=\"#edcf9b\" stroke-width=\"2\"/> — curva de Bézier cuadrática"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "personas en y≈303-330, parte inferior del viewBox (0 0 400 400)"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 378v-29\"/><path d=\"M200 364q-19 0-22-15 18-1 22 15zm0-8q2-18 21-21-1 19-21 21z\" fill=\"#87c9a0\"/> — y≈364-380"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "incendios+fábricas vs. brotes+manos+brote inferior — elementos contrastantes coexisten"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "fractura stroke=\"#122e3b\" stroke-width=\"9\" (fragilidad) + luz stroke=\"#ffcf79\" filter glow (resistencia/reparación)"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 364q-19 0-22-15 18-1 22 15zm0-8q2-18 21-21-1 19-21 21z\" fill=\"#87c9a0\"/> — único brote aislado al pie, posición final del dibujo"
+    }
+  ]
+}

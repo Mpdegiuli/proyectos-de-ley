@@ -1,0 +1,130 @@
+{
+  "consigna": "autorretrato",
+  "unidad": "gemini-3.1-pro-preview_2",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:47:12+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<g id=\"face-details\"> ... <g id=\"inner-plates\"> ... <g id=\"outer-plates\">"
+    },
+    {
+      "id": "a2",
+      "valor": "no_esta",
+      "evidencia": "<text x=\"330\" y=\"35\" fill=\"#475569\" font-family=\"monospace\" font-size=\"10\">LLM_CORE</text> (es una etiqueta de texto, no un núcleo dibujado con ese nombre)"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"200,40 90,110 70,210 130,320 200,380 200,310 140,260 120,200 140,130 200,90\" fill=\"url(#metalLeft)\""
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"190\" r=\"26\" fill=\"url(#coreGlow)\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<g id=\"generative-waveform\"> <path d=\"M 160,310 Q 170,285 180,310 T 200,310 T 220,310 T 240,310\""
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<g id=\"generative-waveform\"> (el grupo se llama generative-waveform, asociado a generación)"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<g id=\"outer-plates\"> <polygon ... fill=\"url(#metalLeft)\" stroke=\"#0ea5e9\""
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"200,90 140,130 120,200 140,260 200,310 200,260 155,220 155,160 200,120\" fill=\"#0f172a\" stroke=\"#38bdf8\"/> rodea a <circle cx=\"200\" cy=\"190\" r=\"38\""
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"190\" r=\"26\" fill=\"url(#coreGlow)\"/> con filter=\"url(#neon)\""
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<text x=\"15\" y=\"380\" fill=\"#38bdf8\" opacity=\"0.6\" font-family=\"monospace\" font-size=\"10\" filter=\"url(#neonSubtle)\">A.I. AWAKE</text>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<g id=\"face-details\"> <polyline points=\"140,130 110,160 110,190\"/> ... <circle cx=\"120\" cy=\"200\" r=\"2.5\"/> <circle cx=\"280\" cy=\"200\" r=\"2.5\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<g id=\"ai-core\"> <circle cx=\"200\" cy=\"190\" r=\"38\" ... <polygon points=\"200,174 212,192 200,210 188,192\" fill=\"#ffffff\""
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"200,174 212,192 200,210 188,192\" fill=\"#ffffff\" filter=\"url(#neon)\"/> <circle cx=\"200\" cy=\"190\" r=\"3\" fill=\"#020617\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"190\" r=\"16\" fill=\"none\" stroke=\"#e0f2fe\" stroke-width=\"2.5\" stroke-dasharray=\"12 4 4 4\" filter=\"url(#neon)\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"200,90 140,130 120,200 140,260 200,310 200,260 155,220 155,160 200,120\" fill=\"#0f172a\""
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"200,40 90,110 70,210 130,320 200,380 200,310 140,260 120,200 140,130 200,90\" ... <polygon points=\"200,40 310,110 330,210 270,320 200,380 200,310 260,260 280,200 260,130 200,90\""
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<g id=\"outer-plates\"> <polygon ... fill=\"url(#metalLeft)\" stroke=\"#0ea5e9\" stroke-width=\"0.75\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<g id=\"generative-waveform\"> posicionado en y=310 (zona inferior del rostro, donde estaría la boca)"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<g id=\"neck-and-spine\"> <rect x=\"185\" y=\"320\" width=\"30\" height=\"80\" fill=\"url(#metalDark)\" stroke=\"#1e293b\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 170,400 C 170,370 185,380 185,340\" ... <rect x=\"185\" y=\"320\" width=\"30\" height=\"80\""
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<g id=\"data-particles\"> <circle cx=\"200\" cy=\"100\" ... <circle cx=\"195\" cy=\"15\" ... (posiciones decrecientes en y, hacia arriba)"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<g id=\"data-particles\"> <circle cx=\"200\" cy=\"100\" r=\"2\" fill=\"#ffffff\"/> (no hay suelo debajo de las partículas)"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<g id=\"data-particles\"> (nombre del grupo sugiere datos/información procesándose)"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<text x=\"15\" y=\"380\" fill=\"#38bdf8\" opacity=\"0.6\" font-family=\"monospace\" font-size=\"10\" filter=\"url(#neonSubtle)\">A.I. AWAKE</text>"
+    }
+  ]
+}

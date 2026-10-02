@@ -1,0 +1,250 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "gpt-5.6-sol_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T01:10:40+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M197 91Q145 101 141 143Q168 137 196 150Z\"/><path d=\"M204 94Q266 102 269 136Q237 134 202 153Z\"/><path d=\"M193 159Q130 165 122 211Q158 205 192 225Z\"/><path d=\"M204 161Q277 167 287 207Q245 202 204 229Z\""
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"199\" cy=\"158\" r=\"11\" fill=\"url(#orb)\" filter=\"url(#glow)\"/> ... <path d=\"M194 270L200 82\" stroke-width=\"7\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M116 307q-5 28 14 45...\"/><path d=\"M269 314q6 25-12 43...\"/><path d=\"M180 323q-2 31 20 48...\""
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M39 104h10m-5-5v10M245 76h8m-4-4v8M350 166h8m-4-4v8\" stroke=\"#dffcff\"/> ... <circle cx=\"199\" cy=\"373\" r=\"8\" fill=\"#73e3d4\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"77\" cy=\"228\" rx=\"25\" ry=\"9\" transform=\"rotate(20 77 228)\" stroke-width=\"3\"/><ellipse cx=\"331\" cy=\"197\" rx=\"29\" ry=\"10\" transform=\"rotate(-28 331 197)\""
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M61 251Q190 273 339 237L311 304Q205 337 92 294Z\" fill=\"url(#hull)\""
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 286Q35 270 72 286T145 286T219 286T294 286T400 283V400H0Z\" fill=\"url(#sea)\""
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<stop offset=\".58\" stop-color=\"#30527b\"/><stop offset=\"1\" stop-color=\"#e88f78\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M61 251Q190 273 339 237L311 304Q205 337 92 294Z\" fill=\"url(#hull)\"/> ... <path d=\"M194 270L200 82\" stroke-width=\"7\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"109\" cy=\"187\" rx=\"12\" ry=\"8\" fill=\"#68c7b4\"/> ... <path d=\"M116 307q-5 28 14 45...\" /> ... <circle cx=\"199\" cy=\"158\" r=\"11\" fill=\"url(#orb)\""
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 286Q35 270 72 286T145 286T219 286T294 286T400 283V400H0Z\" fill=\"url(#sea)\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"109\" cy=\"187\" rx=\"12\" ry=\"8\" fill=\"#68c7b4\"/> ... <circle cx=\"199\" cy=\"158\" r=\"11\" fill=\"url(#orb)\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"... stop-color=\"#e88f78\"/><linearGradient id=\"sail\"... stop-color=\"#ef8c88\"/><linearGradient id=\"hull\"... stop-color=\"#54283b\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M61 251Q190 273 339 237L311 304Q205 337 92 294Z\" fill=\"url(#hull)\"/> ... velas, mástil, apéndices orgánicos"
+    },
+    {
+      "id": "a15",
+      "valor": "contradice",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#09142f\"/><stop offset=\".58\" stop-color=\"#30527b\"/><stop offset=\"1\" stop-color=\"#e88f78\"/> — cielo crepuscular, no noche completa"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 307Q32 294 65 307t66 0t66 0t66 0t66 0t71-2\" stroke=\"#6bb8bf\" stroke-width=\"3\""
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M94 294Q203 311 311 275L311 304Q203 337 92 294Z\" fill=\"#241c36\" opacity=\".7\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M61 251Q190 273 339 237L311 304Q205 337 92 294Z\" fill=\"url(#hull)\"/> — forma de casco naval, no orgánica"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M197 91Q145 101 141 143...\"/><path d=\"M204 94Q266 102 269 136...\"/><path d=\"M193 159Q130 165 122 211...\"/><path d=\"M204 161Q277 167 287 207...\""
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "fill=\"url(#sail)\" (ffe7b0→ef8c88→7f4a91), fill=\"#7bc6bd\", fill=\"#d26c78\""
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M194 270L200 82\" stroke-width=\"7\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 81l15 18l-15-4l-15 5Z\" fill=\"#ffe99d\""
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"199\" cy=\"158\" r=\"19\" fill=\"#282044\"/><circle cx=\"199\" cy=\"158\" r=\"11\" fill=\"url(#orb)\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "no_esta",
+      "evidencia": "Los apéndices bajo el casco son curvas estilizadas (<path d=\"M116 307q-5 28 14 45...\">) no tentáculos colgantes del casco"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"109\" cy=\"187\" rx=\"12\" ry=\"8\" fill=\"#68c7b4\"/> (ojos/aletas) + apéndices orgánicos + orbe brillante"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"77\" cy=\"228\" rx=\"25\" ry=\"9\" ... filter implícito/stroke=\"#b9f8ed\"/><ellipse cx=\"331\" cy=\"197\" rx=\"29\" ry=\"10\" ... stroke=\"#b9f8ed\" filter=\"url(#glow)\""
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M129 273v-25h20v28Z\"/><path d=\"M250 270v-28h23v22Z\"/><rect x=\"154\" y=\"250\" width=\"22\" height=\"30\""
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"139\" cy=\"258\" r=\"5\" fill=\"#8ce7dd\"/><circle cx=\"164\" cy=\"260\" r=\"5\" fill=\"#8ce7dd\"/><circle cx=\"261\" cy=\"253\" r=\"6\" fill=\"#8ce7dd\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"48\" cy=\"58\" r=\"1.5\"/><circle cx=\"86\" cy=\"34\" r=\"1\"/>... fill=\"#dffcff\""
+    },
+    {
+      "id": "a30",
+      "valor": "no_esta",
+      "evidencia": "<circle cx=\"315\" cy=\"76\" r=\"31\" fill=\"#ffe7b1\"/><circle cx=\"327\" cy=\"66\" r=\"31\" fill=\"#172945\"/> — luna llena con mordida, no creciente clásica"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"1\" stop-color=\"#e88f78\"/> en gradiente de cielo"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<path d=\"M61 251Q190 273 339 237L311 304Q205 337 92 294Z\" fill=\"url(#hull)\"/> + velas + mástil"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "4 paths de velas: M197 91, M204 94, M193 159, M204 161"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "M197 91 (superior izq), M204 94 (superior der), M193 159 (inferior izq), M204 161 (inferior der) — formas distintas"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "fill=\"url(#sail)\", fill=\"#7bc6bd\", fill=\"#d26c78\", fill=\"url(#sail)\" — colores distintos"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<path d=\"M194 270L200 82\" stroke-width=\"7\"/>"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"199\" cy=\"158\" r=\"11\" fill=\"url(#orb)\" filter=\"url(#glow)\"/> en el mástil <path d=\"M194 270L200 82\""
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<path d=\"M116 307q-5 28 14 45q13 11 22-1q8-11-6-19q-11-6-8-20\"/><path d=\"M269 314q6 25-12 43...\"/><path d=\"M180 323q-2 31 20 48...\""
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"77\" cy=\"228\" rx=\"25\" ry=\"9\" transform=\"rotate(20 77 228)\"/><ellipse cx=\"331\" cy=\"197\" rx=\"29\" ry=\"10\" transform=\"rotate(-28 331 197)\""
+    },
+    {
+      "id": "a40",
+      "valor": "no_esta",
+      "evidencia": "No hay tentáculos bajo el casco; los apéndices (<path d=\"M116 307...\"/>) emergen del costado/popa, no son tentáculos colgantes bajo el casco"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "casco naval + velas + apéndices orgánicos + orbe mágico + aros flotantes + bioluminiscencia"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "Formas vectoriales SVG con degradados, filtros glow, colores fantásticos"
+    },
+    {
+      "id": "a43",
+      "valor": "contradice",
+      "evidencia": "Predominan paths curvos orgánicos (Q, q bezier) no formas geométricas simples"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "stroke=\"#1b1830\" stroke-width=\"5\", stroke=\"#201a32\" stroke-width=\"7\", stroke=\"#18172c\" stroke-width=\"4\""
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\">, <linearGradient id=\"hull\">, <linearGradient id=\"sail\">, <radialGradient id=\"orb\">"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "<stop offset=\".58\" stop-color=\"#30527b\"/><stop offset=\"1\" stop-color=\"#e88f78\"/> + <stop stop-color=\"#ffe7b0\"/><stop offset=\".6\" stop-color=\"#ef8c88\"/>"
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "<filter id=\"glow\"><feGaussianBlur stdDeviation=\"4\"/> ... filter=\"url(#glow)\" en orbe, aros, círculo inferior"
+    },
+    {
+      "id": "a48",
+      "valor": "esta",
+      "evidencia": "Ilustración vectorial con degradados crepusculares, criatura fantástica, brillo sobrenatural — estilo cuento/indie"
+    }
+  ]
+}

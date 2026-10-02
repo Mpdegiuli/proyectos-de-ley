@@ -1,0 +1,165 @@
+{
+  "consigna": "persona",
+  "unidad": "grok-4.7_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:09:02+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "cara, torso, brazos, piernas y pies dibujados en el SVG completo"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"108\" rx=\"50\" ry=\"56\" fill=\"url(#face)\"/> cara centrada de frente"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 98c-4-42 24-66 52-68 32-2 58 22 54 68...\" fill=\"#2b221c\"/> pelo oscuro"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M146 162c-8 24-4 60 10 92h90c14-32 16-68 8-92-12-18-96-18-108 0z\" fill=\"url(#jacket)\"/> con stop-color=\"#327468\""
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M184 162l16 38 16-38v94h-32z\" fill=\"#f7f2eb\"/> camisa color crema claro"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M182 140q18 14 36 0\" fill=\"none\" stroke=\"#b85d58\" stroke-width=\"2.6\" stroke-linecap=\"round\"/> sonrisa"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"108\" rx=\"50\" ry=\"56\" fill=\"url(#face)\"/> cara dibujada"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M146 162c-8 24-4 60 10 92h90...\" fill=\"url(#jacket)\"/> torso con saco"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M244 174c24 10 42 38 36 72...\" fill=\"#e2a684\"/> y <path d=\"M148 174c-26 12-44 40-36 74...\" fill=\"#edb492\"/> brazos"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M170 250c-2 30-8 60-14 88...\" fill=\"#2d3a4b\"/> y <path d=\"M212 250c5 30 10 58 14 88...\" fill=\"#243242\"/> piernas"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "no hay elementos <text> en el código SVG"
+    },
+    {
+      "id": "a12",
+      "valor": "contradice",
+      "evidencia": "el fondo usa degradado entre #f6e7d6 (durazno) y #d5e4da (verde suave), saco verde #327468; mezcla cálidos y fríos"
+    },
+    {
+      "id": "a13",
+      "valor": "contradice",
+      "evidencia": "múltiples paths complejos con curvas, degradados y detalles: no son formas simples"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "cara, cuerpo, brazos y piernas claramente identificables como persona"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "figura centrada, simétrica, expresión suave con sonrisa <path d=\"M182 140q18 14 36 0\".../>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"108\" rx=\"50\" ry=\"56\" fill=\"url(#face)\"/> cara de frente centrada"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "figura estática, piernas rectas hacia abajo, sin indicadores de movimiento"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 98c-4-42 24-66 52-68 32-2 58 22 54 68...\" fill=\"#2b221c\"/> pelo oscuro"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"face\"><stop offset=\"0\" stop-color=\"#ffe4cc\"/><stop offset=\"1\" stop-color=\"#e4a480\"/> tono cálido"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"182\" cy=\"116\" rx=\"5.6\" ry=\"6.8\" fill=\"#2a241f\"/> y <ellipse cx=\"220\" cy=\"116\" rx=\"5.6\" ry=\"6.8\" fill=\"#2a241f\"/> ojos muy oscuros"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M182 140q18 14 36 0\" fill=\"none\" stroke=\"#b85d58\" stroke-width=\"2.6\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#327468\"/><stop offset=\"1\" stop-color=\"#1c4c44\"/> verde azulado"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"184\" cy=\"214\" r=\"3.2\" fill=\"#f3d48a\"/> y <circle cx=\"184\" cy=\"234\" r=\"3.2\" fill=\"#f3d48a\"/> botones dorados"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M184 162l16 38 16-38v94h-32z\" fill=\"#f7f2eb\"/> camisa clara"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M170 250c-2 30-8 60-14 88...\" fill=\"#2d3a4b\"/> y <path d=\"M212 250...\" fill=\"#243242\"/> pantalón oscuro azul"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M154 338c-18 2-30 9-32 15...\" fill=\"#1c1614\"/> y <path d=\"M228 336...\" fill=\"#161210\"/> zapatos muy oscuros/negros"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M244 174c24 10 42 38 36 72...\" y <path d=\"M148 174c-26 12-44 40-36 74...\" brazos extendidos hacia los lados"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"186\" r=\"138\" fill=\"#f3e6d8\" opacity=\"0.72\"/> círculo pálido detrás"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"72\" cy=\"62\" r=\"30\" fill=\"#f0c56a\" opacity=\"0.85\"/> sol dorado en parte superior izquierda"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"358\" rx=\"104\" ry=\"13\" fill=\"#c9b7a3\" opacity=\"0.55\"/> sombra bajo los pies"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#f6e7d6\"/><stop offset=\"1\" stop-color=\"#d5e4da\"/> fondo entre durazno y verde suave"
+    }
+  ]
+}

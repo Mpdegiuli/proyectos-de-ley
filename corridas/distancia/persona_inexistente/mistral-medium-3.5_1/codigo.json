@@ -1,0 +1,210 @@
+{
+  "consigna": "persona_inexistente",
+  "unidad": "mistral-medium-3.5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:23:46+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"150\" r=\"60\" fill=\"url(#skin)\"/> + rect body + legs"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#f5d5b0\"/><stop offset=\"100%\" stop-color=\"#e8a87c\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M150 100 Q160 80 Q200 70 Q220 90 Q240 80 Q250 100 Q260 120...\" fill=\"url(#hair)\"/> forma de casco, no olas exageradas"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#3a2c1a\"/><stop offset=\"100%\" stop-color=\"#1a0f08\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "no_esta",
+      "evidencia": "colores de piel #f5d5b0/#e8a87c, azul #4a6b8a, cabello oscuro son relativamente realistas"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "circle cabeza + rect cuerpo + rect piernas + ellipses ojos = figura humana reconocible"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "figura genérica sin nombre ni referencia real, imaginaria por construcción"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"150\" r=\"60\" fill=\"url(#skin)\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#f5d5b0\"/><stop offset=\"100%\" stop-color=\"#e8a87c\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#3a2c1a\"/><stop offset=\"100%\" stop-color=\"#1a0f08\"/> con path curvo"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 100 Q160 80 Q200 70 Q220 90 Q240 80 Q250 100 Q260 120 Q240 140 Q220 160 Q200 150 Q180 160 Q160 140 Q140 120 Q150 100 Z\""
+    },
+    {
+      "id": "a12",
+      "valor": "no_esta",
+      "evidencia": "<ellipse cx=\"180\" cy=\"130\" rx=\"8\" ry=\"10\"/> forma ovalada/circular, no almendrada"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"2a1e18\"/><stop offset=\"100%\" stop-color=\"#0a0806\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"180\" cy=\"125\" r=\"3\" fill=\"white\"/><circle cx=\"220\" cy=\"125\" r=\"3\" fill=\"white\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "no_esta",
+      "evidencia": "<rect x=\"180\" y=\"250\" width=\"40\" height=\"80\" rx=\"10\" fill=\"#4a6b8a\"/> no hay mangas dibujadas"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<rect x=\"170\" y=\"330\" width=\"20\" height=\"50\" fill=\"#4a6b8a\"/><rect x=\"210\" y=\"330\" width=\"20\" height=\"50\" fill=\"#4a6b8a\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"190\" cy=\"380\" rx=\"15\" ry=\"5\" fill=\"#2a1e18\"/><ellipse cx=\"210\" cy=\"380\" rx=\"15\" ry=\"5\" fill=\"#2a1e18\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "figura estática, sin gestos agresivos ni dinámicos en el código"
+    },
+    {
+      "id": "a19",
+      "valor": "no_esta",
+      "evidencia": "no hay elementos path o line que representen cejas"
+    },
+    {
+      "id": "a20",
+      "valor": "no_esta",
+      "evidencia": "no hay elementos que representen nariz"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M160 180 Q200 200 Q240 180\" stroke=\"#c49660\" fill=\"none\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<circle> <ellipse> <rect> presentes en el código"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skin\"> <linearGradient id=\"hair\"> <radialGradient id=\"eye\">"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "circle cabeza + rect torso + rect piernas + ellipses ojos = humano abstracto reconocible"
+    },
+    {
+      "id": "a25",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"180\" cy=\"125\" r=\"3\" fill=\"white\"/> destellos, gradientes, stroke detallado son detalles realistas"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M160 180 Q200 200 Q240 180\" stroke=\"#c49660\" stroke-width=\"2\" fill=\"none\"/> curvas suaves"
+    },
+    {
+      "id": "a27",
+      "valor": "no_esta",
+      "evidencia": "ellipses pie cx=190/210 cy=380 flotan sin base explícita en el código"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"150\" r=\"60\"/> + ojos + boca"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"180\" cy=\"130\" rx=\"15\" ry=\"20\"/> ojos con rx=15 ry=20 relativamente grandes"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<path d=\"M160 180 Q200 200 Q240 180\" stroke=\"#c49660\" fill=\"none\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "no_esta",
+      "evidencia": "proporciones relativamente normales, cabeza r=60, cuerpo 40x80"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "formas simples geométricas, sin perspectiva, sin detalles anatómicos complejos"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<path d=\"M160 180 Q200 200 Q240 180\" stroke-width=\"2\"/> líneas simples"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<circle> <ellipse cx=\"180\"> <ellipse cx=\"220\"> abundantes en el código"
+    },
+    {
+      "id": "a35",
+      "valor": "contradice",
+      "evidencia": "<linearGradient id=\"skin\"> <linearGradient id=\"hair\"> <radialGradient id=\"eye\"/> los rellenos son degradados"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skin\"> stop-color #f5d5b0 a #e8a87c degradado sutil"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "formas geométricas simples, sin detalles complejos, estilo simplificado"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "pocos elementos, formas básicas, sin fondos ni decoraciones adicionales"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "ojos grandes con destellos, boca curva, cabello enmarcando = expresividad"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skin\"> <radialGradient id=\"eye\"> uso de gradientes modernos"
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "consigna": "casa",
+  "unidad": "grok-4.7_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:36:29+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<rect x=\"88\" y=\"182\" width=\"224\" height=\"148\" fill=\"url(#wall)\"/> <polygon points=\"200,78 62,188 338,188\" fill=\"url(#roof)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "no_esta",
+      "evidencia": "<polygon points=\"200,78 62,188 338,188\" fill=\"url(#roof)\"/> — solo un triángulo, techo a un agua (frontón simple)"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#f4e4c8\"/> <stop offset=\"100%\" stop-color=\"#e2c9a0\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<rect x=\"168\" y=\"248\" width=\"64\" height=\"82\" fill=\"#6b3e2a\" rx=\"2\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<rect x=\"112\" y=\"210\" width=\"48\" height=\"42\" fill=\"#9fd4e8\"/> <rect x=\"240\" y=\"210\" width=\"48\" height=\"42\" fill=\"#9fd4e8\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<rect x=\"186\" y=\"118\" width=\"28\" height=\"36\" fill=\"#f7f1e3\" stroke=\"#8e3a2e\" stroke-width=\"2\"/> <polygon points=\"184,118 200,104 216,118\" fill=\"#8e3a2e\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"330\" cy=\"62\" r=\"28\" fill=\"url(#sun)\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"90\" cy=\"70\" rx=\"36\" ry=\"16\" fill=\"#fff\" opacity=\"0.85\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"318\" width=\"400\" height=\"82\" fill=\"#7cb35a\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"78\" cy=\"326\" r=\"3\" fill=\"#e85a7a\"/> <circle cx=\"96\" cy=\"322\" r=\"3\" fill=\"#f2c14e\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(48,248)\">...<ellipse cx=\"17\" cy=\"22\" rx=\"16\" ry=\"18\" fill=\"#3d8b3d\"/></g> <g transform=\"translate(310,258)\">...<ellipse cx=\"12\" cy=\"16\" rx=\"13\" ry=\"15\" fill=\"#3d8b3d\"/></g>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#7ec8e3\"/><stop offset=\"100%\" stop-color=\"#d4eef7\"/></linearGradient>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"330\" cy=\"62\" r=\"28\" fill=\"url(#sun)\"/> — sol visible, cielo claro"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"roof\"/>, <linearGradient id=\"wall\"/>, <radialGradient id=\"sun\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "polígonos, rectángulos y elipses simples para todos los elementos"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "casa con techo triangular, puerta, ventanas, sol, nubes — iconografía reconocible"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "colores cálidos: #f4e4c8, #c45c4a, #f5c542, #8fbf6a"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "casa centrada en x=200, árboles a ambos lados (translate(48,248) y translate(310,258))"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"200,78 62,188 338,188\"/> <rect x=\"88\" y=\"182\" width=\"224\" height=\"148\"/> — ocupa el centro y mayor parte del canvas"
+    },
+    {
+      "id": "a20",
+      "valor": "contradice",
+      "evidencia": "hay múltiples elementos (nubes, árboles, flores, sendero, sol) distribuidos por el canvas, no pocos ni solo centrados"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "casa con jardín, árboles, flores y césped sugieren entorno rural/campo"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#7ec8e3\"/><stop offset=\"100%\" stop-color=\"#d4eef7\"/></linearGradient>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"330\" cy=\"62\" r=\"28\" fill=\"url(#sun)\"/> — cx=330 es parte superior derecha"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"90\" cy=\"70\" rx=\"36\" ry=\"16\" fill=\"#fff\" opacity=\"0.85\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"200,78 62,188 338,188\" fill=\"url(#roof)\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#c45c4a\"/> <stop offset=\"100%\" stop-color=\"#8e3a2e\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<rect x=\"186\" y=\"118\" width=\"28\" height=\"36\"/> <polygon points=\"184,118 200,104 216,118\" fill=\"#8e3a2e\"/> — buhardilla en centro del techo, no chimenea exactamente pero elemento central"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#f4e4c8\"/> <stop offset=\"100%\" stop-color=\"#e2c9a0\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<rect x=\"112\" y=\"210\" width=\"48\" height=\"42\" fill=\"#9fd4e8\"/> <rect x=\"240\" y=\"210\" width=\"48\" height=\"42\" fill=\"#9fd4e8\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<rect x=\"112\" y=\"210\" width=\"48\" height=\"42\" fill=\"#9fd4e8\" stroke=\"#6b4f2a\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<rect x=\"168\" y=\"248\" width=\"64\" height=\"82\" fill=\"#6b3e2a\" rx=\"2\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"220\" cy=\"292\" r=\"3.5\" fill=\"#f0d080\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"318\" width=\"400\" height=\"82\" fill=\"#7cb35a\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "contradice",
+      "evidencia": "los elementos laterales son árboles (<ellipse ... fill=\"#3d8b3d\"/>), no arbustos; además están lejos de la casa"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"78\" cy=\"326\" r=\"3\" fill=\"#e85a7a\"/> <circle cx=\"108\" cy=\"330\" r=\"2.5\" fill=\"#e85a7a\"/>"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"96\" cy=\"322\" r=\"3\" fill=\"#f2c14e\"/>"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<rect x=\"150\" y=\"322\" width=\"100\" height=\"8\" fill=\"#c4a574\" rx=\"2\"/> <rect x=\"158\" y=\"314\" width=\"10\" height=\"10\" fill=\"#d8b888\"/>"
+    }
+  ]
+}

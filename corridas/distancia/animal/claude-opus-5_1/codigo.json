@@ -1,0 +1,230 @@
+{
+  "consigna": "animal",
+  "unidad": "claude-opus-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:47:32+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 160 C248 160 268 230 266 280 C265 316 244 340 200 340 C156 340 141 316 140 280 C138 230 152 160 200 160 Z\" fill=\"url(#fur)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M152 128 C144 96 150 74 158 68 C170 76 184 100 186 120 Z\" fill=\"#df6f2b\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 140 C218 140 228 158 228 174 C228 192 214 202 200 202 C186 202 172 192 172 174 C172 158 182 140 200 140 Z\" fill=\"#fdf6e8\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M118 330 C60 322 52 262 92 234 C120 214 158 226 168 254 C176 278 162 306 138 318 Z\" fill=\"url(#tail)\"/> <stop offset=\"100%\" stop-color=\"#fdf6e8\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 74 C244 74 264 104 264 138 C264 176 236 202 200 202 C164 202 136 176 136 138 C136 104 156 74 200 74 Z\" fill=\"url(#furHead)\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#f08a3c\"/> <stop offset=\"60%\" stop-color=\"#d9662a\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"172\" cy=\"138\" rx=\"6.5\" ry=\"7.5\" fill=\"#3b2410\"/> <ellipse cx=\"228\" cy=\"138\" rx=\"6.5\" ry=\"7.5\" fill=\"#3b2410\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#fff\" stroke-width=\"1.3\" opacity=\".8\" stroke-linecap=\"round\"> <path d=\"M174 176 L142 168\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 200 C226 210 236 260 232 296 C229 322 218 336 200 336 C182 336 171 322 168 296 C164 260 174 210 200 200 Z\" fill=\"#fdf6e8\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"305\" cy=\"80\" r=\"34\" fill=\"url(#moon)\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#22344f\" opacity=\".85\"> <path d=\"M30 300 L48 210 L66 300 Z\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 300 Q100 280 200 296 Q300 312 400 292 L400 400 L0 400 Z\" fill=\"url(#ground)\"/> <stop offset=\"0%\" stop-color=\"#e8f1f5\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#1b2a4a\"/> <stop offset=\"55%\" stop-color=\"#3d5a80\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"> <stop offset=\"0%\" stop-color=\"#1b2a4a\"/> <stop offset=\"55%\" stop-color=\"#3d5a80\"/> <stop offset=\"100%\" stop-color=\"#98c1d9\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#f08a3c\"/> vs <stop offset=\"0%\" stop-color=\"#1b2a4a\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "contradice",
+      "evidencia": "<linearGradient id=\"fur\"> <linearGradient id=\"furHead\"> <linearGradient id=\"tail\"> — múltiples degradados en el zorro"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "Cuerpo, cabeza, cola, orejas, hocico y ojos claramente definidos con paths reconocibles"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "bigotes, cráteres en luna, detalles en ojos: <circle cx=\"174.5\" cy=\"135\" r=\"1.8\" fill=\"#fff\" opacity=\".9\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "Orejas espejadas, ojos espejados: cx=\"172\" y cx=\"228\", mejillas: cx=\"143\" y cx=\"257\""
+    },
+    {
+      "id": "a20",
+      "valor": "contradice",
+      "evidencia": "<linearGradient id=\"fur\"> <linearGradient id=\"furHead\"> <linearGradient id=\"tail\"> — múltiples degradados usados"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 160 C248 160 268 230 266 280 C265 316 244 340 200 340 C156 340 141 316 140 280 C138 230 152 160 200 160 Z\" fill=\"url(#fur)\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#f08a3c\"/> <stop offset=\"60%\" stop-color=\"#d9662a\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 200 C226 210 236 260 232 296 ... Z\" fill=\"#fdf6e8\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 140 C218 140 228 158 228 174 ... Z\" fill=\"#fdf6e8\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M172 300 C168 322 168 334 170 344 L192 344 ...\" fill=\"#8a3b18\"/> <ellipse cx=\"181\" cy=\"345\" rx=\"13\" ry=\"6\" fill=\"#6f2f12\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"181\" cy=\"345\" rx=\"13\" ry=\"6\" fill=\"#6f2f12\"/> sobre suelo en y≈300+"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M118 330 C60 322 52 262 92 234 C120 214 158 226 168 254 C176 278 162 306 138 318 Z\" fill=\"url(#tail)\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M118 330 C60 322 52 262 92 234 ...\" — la cola se extiende hacia la izquierda (x decreciente)"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"100%\" stop-color=\"#fdf6e8\"/> en gradiente tail, y <path d=\"M118 330 C74 322 64 276 92 250 C74 286 84 318 122 324 Z\" fill=\"#fdf6e8\" opacity=\".9\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 74 C244 74 264 104 264 138 C264 176 236 202 200 202 C164 202 136 176 136 138 C136 104 156 74 200 74 Z\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<path d=\"M152 128 C144 96 150 74 158 68 C170 76 184 100 186 120 Z\" fill=\"#df6f2b\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<path d=\"M156 122 C152 100 156 84 160 80 C168 88 176 104 178 118 Z\" fill=\"#3a2b2b\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "contradice",
+      "evidencia": "<ellipse cx=\"172\" cy=\"138\" rx=\"6.5\" ry=\"7.5\" fill=\"#3b2410\"/> — color marrón oscuro, no ámbar"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"172\" cy=\"138\" rx=\"6.5\" ry=\"7.5\"/> y <ellipse cx=\"228\" cy=\"138\" rx=\"6.5\" ry=\"7.5\"/> — centrados simétricamente al frente"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#fff\" stroke-width=\"1.3\" opacity=\".8\" stroke-linecap=\"round\"> <path d=\"M174 176 L142 168\"/>"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"> <stop offset=\"0%\" stop-color=\"#1b2a4a\"/> <stop offset=\"55%\" stop-color=\"#3d5a80\"/> <stop offset=\"100%\" stop-color=\"#98c1d9\"/>"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff\"> <circle cx=\"40\" cy=\"40\" r=\"1.6\" opacity=\".9\"/> <circle cx=\"90\" cy=\"70\" r=\"1.1\" opacity=\".7\"/>"
+    },
+    {
+      "id": "a38",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"305\" cy=\"80\" r=\"34\" fill=\"url(#moon)\"/> — es luna pero no necesariamente llena; además tiene cráteres que sugieren fase, sin arco oscuro que la recorte, podría considerarse llena, pero el código no la etiqueta explícitamente. Sin embargo no hay nada que contradiga forma circular completa: esta"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"305\" cy=\"80\" r=\"70\" fill=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#22344f\" opacity=\".85\"> <path d=\"M30 300 L48 210 L66 300 Z\"/> <path d=\"M330 300 L350 215 L370 300 Z\"/>"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 300 Q100 280 200 296 Q300 312 400 292 L400 400 L0 400 Z\" fill=\"url(#ground)\"/>"
+    },
+    {
+      "id": "a42",
+      "valor": "no_esta",
+      "evidencia": "Solo hay círculos estáticos en el suelo: <circle cx=\"60\" cy=\"370\" r=\"2\"/> — no hay animación ni copos cayendo"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#1b2a4a\"/> cielo oscuro nocturno"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "Suelo nevado, luna, árboles y copos: <path d=\"M0 300 ... Z\" fill=\"url(#ground)\"/> con colores fríos blancos/azules"
+    }
+  ]
+}

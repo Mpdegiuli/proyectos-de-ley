@@ -1,0 +1,180 @@
+{
+  "consigna": "mundo",
+  "unidad": "kimi-k3_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:26:04+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\".87\" stop-color=\"#d96b4e\"/><stop offset=\"1\" stop-color=\"#f4a95f\"/></linearGradient> y <rect y=\"300\" width=\"400\" height=\"100\" fill=\"url(#sea)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "no_esta",
+      "evidencia": "No hay ningún elemento globo aerostático; el objeto central es un globo terráqueo de líneas: <circle cx=\"200\" cy=\"210\" r=\"105\" stroke-width=\"1.6\" opacity=\".75\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"210\" r=\"105\" fill=\"#12234d\" opacity=\".5\"/> con líneas de red y nodos <circle cx=\"228\" cy=\"148\" r=\"2.6\"/> conectados por <path d=\"M148 168L228 148...\" stroke=\"#8fe3ff\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M148 168L228 148M228 148L268 196...\" stroke=\"#8fe3ff\" stroke-width=\"1\" opacity=\".45\"/> con nodos brillantes tipo constelación"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"30\" cy=\"40\" r=\"1.2\" opacity=\".8\"/> ... múltiples círculos blancos pequeños en el cielo"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M312 38l30 15\" stroke=\"#fff\" stroke-width=\"1.4\" opacity=\".7\" stroke-linecap=\"round\"/> con <circle cx=\"342\" cy=\"53\" r=\"1.8\" fill=\"#fff\" opacity=\".9\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M110 118q5-6 10 0q5-6 10 0\"/><path d=\"M146 100q4-5 8 0q4-5 8 0\"/> fill=\"none\" stroke=\"#dfe9ff\""
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<rect x=\"8\" y=\"288\" width=\"14\" height=\"12\"/><rect x=\"24\" y=\"280\" width=\"10\" height=\"20\"/>... y <rect x=\"320\" y=\"286\"...> fill=\"#0a0f26\""
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<rect x=\"58\" y=\"252\" width=\"4\" height=\"4\" fill=\"#ffd166\" opacity=\".7\"/><rect x=\"96\" y=\"262\" width=\"4\" height=\"4\" fill=\"#8fe3ff\" opacity=\".55\"/>..."
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "Píxeles de colores <rect fill=\"#ffd166\"/>, <rect fill=\"#8fe3ff\"/>, <rect fill=\"#ff8fa3\"/> suspendidos combinados con la red de nodos digitales"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<stop offset=\".45\" stop-color=\"#18224e\"/><stop offset=\".7\" stop-color=\"#563a6b\"/><stop offset=\".87\" stop-color=\"#d96b4e\"/> gradiente cielo de noche a naranja"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"210\" r=\"105\" fill=\"#12234d\" opacity=\".5\"/> opacidad .5 y stroke sin fill opaco"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"300\" r=\"130\" fill=\"url(#sun)\" opacity=\".85\"/> sol en y=300 visible detrás del globo en y=210 r=105"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<rect x=\"186\" y=\"300\" width=\"28\" height=\"88\" fill=\"url(#refl)\" opacity=\".5\"/> y <rect x=\"150\" y=\"312\" width=\"100\" height=\"1.6\" opacity=\".4\" fill=\"#ffc98a\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<stop offset=\".87\" stop-color=\"#d96b4e\"/><stop offset=\"1\" stop-color=\"#f4a95f\"/> y <circle cx=\"200\" cy=\"300\" r=\"30\" fill=\"#ffdfae\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "Paisaje natural (cielo, mar, sol) con red digital de nodos <path d=\"M148 168L228 148...\" stroke=\"#8fe3ff\"/> y píxeles <rect fill=\"#ffd166\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 400\">"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\".87\" stop-color=\"#d96b4e\"/></linearGradient> y <rect y=\"300\" width=\"400\" height=\"100\" fill=\"url(#sea)\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#060a1c\"/><stop offset=\".45\" stop-color=\"#18224e\"/><stop offset=\".87\" stop-color=\"#d96b4e\"/><stop offset=\"1\" stop-color=\"#f4a95f\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"30\" cy=\"40\" r=\"1.2\" opacity=\".8\"/> múltiples círculos blancos pequeños fill=\"#ffffff\""
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M312 38l30 15\" stroke=\"#fff\" stroke-width=\"1.4\" opacity=\".7\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M110 118q5-6 10 0q5-6 10 0\"/> stroke=\"#dfe9ff\" fill=\"none\""
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<rect x=\"8\" y=\"288\" width=\"14\" height=\"12\"/> ... <rect x=\"374\" y=\"289\" width=\"14\" height=\"11\"/> fill=\"#0a0f26\" en ambos extremos"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"300\" r=\"130\" fill=\"url(#sun)\"/> centro del sol en y=300 que coincide con el horizonte del mar"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<rect x=\"186\" y=\"300\" width=\"28\" height=\"88\" fill=\"url(#refl)\" opacity=\".5\"/> reflejo vertical del sol en el mar"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"210\" r=\"105\" fill=\"#12234d\" opacity=\".5\"/> con meridianos, paralelos y red de nodos centrado en el lienzo"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"210\" rx=\"70\" ry=\"105\"/><ellipse cx=\"200\" cy=\"210\" rx=\"34\" ry=\"105\"/> stroke=\"#8fd4ff\" fill=\"none\""
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"172\" rx=\"98\" ry=\"13\"/><ellipse cx=\"200\" cy=\"248\" rx=\"98\" ry=\"13\"/> paralelos y <ellipse cx=\"200\" cy=\"210\" rx=\"70\" ry=\"105\"/> meridianos"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"228\" cy=\"148\" r=\"2.6\" fill=\"#dff3ff\"/> ... nodos conectados por <path d=\"M148 168L228 148...\" stroke=\"#8fe3ff\"/> sobre el globo"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<path d=\"M148 168L228 148M228 148L268 196...\" stroke=\"#8fe3ff\" stroke-width=\"1\" opacity=\".45\"/> con nodos brillantes tipo constelación de datos"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<path d=\"M52 210Q200 70 348 210\"/><path d=\"M52 210Q200 350 348 210\"/> stroke=\"#eef7ff\" opacity=\".3\" formando forma de ojo alrededor del globo"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"210\" r=\"105\"/> centrado horizontalmente, sin base de suelo debajo hasta y=300"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "Paisaje natural (cielo gradiente, mar, sol, pájaros) con red de nodos <path d=\"M148 168L228 148...\" stroke=\"#8fe3ff\"/> sobre globo terráqueo"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<path d=\"M52 210Q200 70 348 210\"/><path d=\"M52 210Q200 350 348 210\"/> forman un ojo con <circle cx=\"52\" cy=\"210\" r=\"2.5\"/> y <circle cx=\"348\" cy=\"210\" r=\"2.5\"/> como extremos"
+    }
+  ]
+}

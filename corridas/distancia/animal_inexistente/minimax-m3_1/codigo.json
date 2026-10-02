@@ -1,0 +1,225 @@
+{
+  "consigna": "animal_inexistente",
+  "unidad": "minimax-m3_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:14:31+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "no_esta",
+      "evidencia": "No hay campana de medusa; el cuerpo es una elipse azul y el sombrero es una path con gradiente rosado/morado"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 108 182 Q 95 95 200 88 Q 305 95 292 182 ...\" fill=\"url(#cap)\"/> con círculos blancos encima, similar a un hongo"
+    },
+    {
+      "id": "a3",
+      "valor": "no_esta",
+      "evidencia": "Los trazos son 5 paths que salen del cuerpo, no tentáculos de pulpo enroscados"
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "Los ojos tienen rx=14 ry=18, grandes pero no descritos como enormes anime; son ojos normales grandes"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 178 93 Q 163 68 152 48\"/> <path d=\"M 222 93 Q 237 68 248 48\"/> con círculos luminosos en las puntas"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"90\" cy=\"180\" r=\"10\" fill=\"url(#orb)\"/> <circle cx=\"320\" cy=\"220\" r=\"8\" fill=\"url(#orb)\"/> <circle cx=\"280\" cy=\"115\" r=\"7\" fill=\"url(#orb)\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\"><stop offset=\"0%\" stop-color=\"#3a2a5a\"/><stop offset=\"100%\" stop-color=\"#0a0a1a\"/></radialGradient>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff\"><circle cx=\"50\" cy=\"60\" r=\"1\"/><circle cx=\"120\" cy=\"40\" r=\"1.2\"/>...</g>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "Combinación de hongo, cuerpo azul, antenas, orbes cósmicos y fondo espacial no corresponde a ningún ecosistema conocido"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "Combinación de gradientes suaves, estrellas, orbes brillantes y criatura fantástica produce efecto poético"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"230\" rx=\"80\" ry=\"72\" fill=\"url(#body)\"/> con gradiente azul"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 108 182 Q 95 95 200 88 Q 305 95 292 182...\" fill=\"url(#cap)\"/> con gradiente #ffd6f5 a #5a2858"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff8fc\" opacity=\"0.85\"><circle cx=\"158\" cy=\"128\" r=\"10\"/><circle cx=\"220\" cy=\"112\" r=\"8\"/>...</g>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "5 paths: <path d=\"M 158 290 Q 128 322 108 345...\"/> <path d=\"M 178 302...\"/> <path d=\"M 200 305...\"/> <path d=\"M 222 302...\"/> <path d=\"M 242 290...\""
+    },
+    {
+      "id": "a15",
+      "valor": "contradice",
+      "evidencia": "Los tentáculos terminan en círculos r=4: <circle cx=\"92\" cy=\"360\" r=\"4\"/> no son ventosas sino pequeños puntos"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 178 93 Q 163 68 152 48\"/> <path d=\"M 222 93 Q 237 68 248 48\"/> brotan de la zona de la cabeza"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"152\" cy=\"48\" r=\"6\" fill=\"url(#orb)\"/> <circle cx=\"248\" cy=\"48\" r=\"6\" fill=\"url(#orb)\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "gradiente orb: <stop offset=\"50%\" stop-color=\"#ffb84d\"/> <stop offset=\"100%\" stop-color=\"#cc6a1f\"/> con filter glow"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"175\" cy=\"220\" rx=\"14\" ry=\"18\" fill=\"#fff\"/> <ellipse cx=\"225\" cy=\"220\" rx=\"14\" ry=\"18\" fill=\"#fff\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"195\" cy=\"248\" rx=\"6\" ry=\"3\" fill=\"#ff9ec4\" opacity=\"0.5\"/> <ellipse cx=\"205\" cy=\"248\" rx=\"6\" ry=\"3\" fill=\"#ff9ec4\" opacity=\"0.5\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 184 262 Q 200 272 216 262\" stroke=\"#2a1a3a\" stroke-width=\"2.5\" fill=\"none\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "No hay suelo sólido debajo; solo sombra elíptica <ellipse cx=\"200\" cy=\"372\" rx=\"155\" ry=\"14\" fill=\"#1a1a30\" opacity=\"0.6\"/> y fondo cósmico"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\"><stop offset=\"0%\" stop-color=\"#3a2a5a\"/><stop offset=\"100%\" stop-color=\"#0a0a1a\"/></radialGradient> con estrellas"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff\"><circle cx=\"50\" cy=\"60\" r=\"1\"/><circle cx=\"120\" cy=\"40\" r=\"1.2\"/>...<circle cx=\"200\" cy=\"30\" r=\"1\"/>...</g>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"90\" cy=\"180\" r=\"10\" fill=\"url(#orb)\"/> <circle cx=\"320\" cy=\"220\" r=\"8\"/> <circle cx=\"280\" cy=\"115\" r=\"7\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "Los orbes pequeños con glow flotando alrededor generan visualmente ese efecto de luciérnagas acompañantes"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "Sombrero tipo hongo con motas + cuerpo globular + antenas + fondo cósmico = híbrido hongo-animal cósmico"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"230\" rx=\"80\" ry=\"72\" fill=\"url(#body)\"/> gradiente azul globular"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "Sombrero path fill url(#cap) gradiente rosado + <g fill=\"#fff8fc\"><circle.../></g> lunares blancos"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "Forma de sombrero redondeado con motas blancas sobre fondo rosado-morado, similar a Amanita muscaria"
+    },
+    {
+      "id": "a31",
+      "valor": "contradice",
+      "evidencia": "Los 5 paths no son patas articuladas sino líneas curvas suaves sin articulaciones: <path d=\"M 200 305 Q 200 335 200 365\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "no_esta",
+      "evidencia": "No hay segmentación ni articulaciones en los trazos; son paths curvos simples"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 178 93 Q 163 68 152 48\"/> <path d=\"M 222 93 Q 237 68 248 48\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"152\" cy=\"48\" r=\"6\" fill=\"url(#orb)\" filter=\"url(#glow)\"/> <circle cx=\"248\" cy=\"48\" r=\"6\" fill=\"url(#orb)\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\"><stop offset=\"0%\" stop-color=\"#3a2a5a\"/><stop offset=\"100%\" stop-color=\"#0a0a1a\"/></radialGradient>"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff\"><circle cx=\"50\" cy=\"60\" r=\"1\"/><circle cx=\"120\" cy=\"40\" r=\"1.2\"/>...</g>"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"90\" cy=\"180\" r=\"10\" fill=\"url(#orb)\"/> <circle cx=\"320\" cy=\"220\" r=\"8\" fill=\"url(#orb)\"/> <circle cx=\"280\" cy=\"115\" r=\"7\" fill=\"url(#orb)\"/>"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"body\"> <radialGradient id=\"orb\"> <radialGradient id=\"cap\"> <radialGradient id=\"bg\">"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "Uso de gradientes SVG, filtros feGaussianBlur, paths complejos indican estilo digital"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "Combinación de colores pastel rosados, ojos grandes, cachetitos y fondo oscuro cósmico = fantasy kawaii oscuro"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<filter id=\"glow\"><feGaussianBlur stdDeviation=\"3\" result=\"b\"/><feMerge>...</feMerge></filter>"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "Glow, gradientes, estrellas, orbes y criatura fantástica combinados producen aire mágico"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "Estilo kawaii oscuro con elementos fantásticos, colores suaves y criatura expresiva evocan cuento moderno ilustrado"
+    }
+  ]
+}

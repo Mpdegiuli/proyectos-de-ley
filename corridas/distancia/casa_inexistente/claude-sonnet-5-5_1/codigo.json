@@ -1,0 +1,245 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "claude-sonnet-5-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:43:16+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M140 282 C105 250 118 200 148 178 C160 140 240 140 252 178 C282 200 295 250 260 282Z\" fill=\"#3fb8a5\" stroke=\"#1d6f66\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M140 282 C105 250 118 200 148 178 C160 140 240 140 252 178 C282 200 295 250 260 282Z\" fill=\"#3fb8a5\".../>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"120\" r=\"52\" fill=\"#e8734a\" stroke=\"#9c3f28\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 120 a6 6 0 0 1 7 6 a13 13 0 0 1 -19 11 a22 22 0 0 1 -13 -30 a32 32 0 0 1 46 -12 a42 42 0 0 1 20 42\" fill=\"none\" stroke=\"#ffd0a6\" stroke-width=\"4\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 70 Q196 50 205 32 M203 50 Q220 42 228 28 M201 42 Q185 35 180 22\" .../> <g fill=\"#ff9ec4\"><circle cx=\"205\" cy=\"26\" r=\"11\"/><circle cx=\"230\" cy=\"24\" r=\"9\"/><circle cx=\"180\" cy=\"18\" r=\"9\"/><circle cx=\"215\" cy=\"14\" r=\"8\"/></g>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<rect x=\"250\" y=\"120\" width=\"22\" height=\"50\" rx=\"4\" fill=\"#8c4a3a\" transform=\"rotate(18 260 150)\"/> <rect x=\"246\" y=\"114\" width=\"30\" height=\"10\" rx=\"4\" fill=\"#5a2f26\" transform=\"rotate(18 260 150)\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M283 108 C300 95 275 85 292 70 C305 58 285 50 300 38\" stroke=\"#fff\" stroke-width=\"5\" fill=\"none\" opacity=\".6\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#ffe27a\" stroke-width=\"1.5\"><path d=\"M150 210 L112 120\"/><path d=\"M250 205 L300 105\"/></g>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"112\" cy=\"115\" r=\"12\" fill=\"#ff6f91\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"300\" cy=\"98\" r=\"15\" fill=\"#6fd1ff\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento que dibuje una puerta en arco. El rectángulo de la puerta es: <path d=\"M187 284 V262 a13 13 0 0 1 26 0 V284Z\" fill=\"#6b3a24\".../>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"198\" r=\"15\" fill=\"url(#g)\"/> <path d=\"M200 183 V213 M185 198 H215\" stroke=\"#c88a2e\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento con forma de luna para ventana."
+    },
+    {
+      "id": "a14",
+      "valor": "no_esta",
+      "evidencia": "No hay ventana con arco visible en el código."
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"284\" rx=\"152\" ry=\"16\" fill=\"#5cbf5a\"/> <path d=\"M50 285 Q200 302 350 285 Q335 335 262 350 ... fill=\"#7a4a2e\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#5a3a26\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\"><path d=\"M150 345 Q140 365 150 380\"/><path d=\"M190 385 Q185 396 195 400\"/><path d=\"M230 365 Q245 380 235 395\"/><path d=\"M110 325 Q100 340 108 352\"/></g>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M335 292 Q332 340 338 400 L350 400 Q344 340 346 288Z\" fill=\"#9fe3ff\" opacity=\".6\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"s\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#2b1b5a\"/><stop offset=\".6\" stop-color=\"#b3476f\"/><stop offset=\"1\" stop-color=\"#ffb26b\"/></linearGradient>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"70\" cy=\"70\" r=\"30\" fill=\"#fff3d6\"/> <circle cx=\"70\" cy=\"70\" r=\"55\" fill=\"url(#m)\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff\"><circle cx=\"150\" cy=\"30\" r=\"1.5\"/><circle cx=\"220\" cy=\"55\" r=\"1.2\"/><circle cx=\"300\" cy=\"25\" r=\"1.8\"/>...</g>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffd9c0\" opacity=\".55\"><ellipse cx=\"60\" cy=\"330\" rx=\"45\" ry=\"10\"/><ellipse cx=\"90\" cy=\"323\" rx=\"30\" ry=\"10\"/><ellipse cx=\"340\" cy=\"230\" rx=\"40\" ry=\"8\"/><ellipse cx=\"365\" cy=\"223\" rx=\"25\" ry=\"8\"/></g>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#2b1b5a\"/><stop offset=\".6\" stop-color=\"#b3476f\"/><stop offset=\"1\" stop-color=\"#ffb26b\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "La isla no toca el suelo del SVG; <ellipse cx=\"200\" cy=\"284\" rx=\"152\" ry=\"16\" fill=\"#5cbf5a\"/> está centrada en y=284 sin suelo debajo."
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M140 282 C105 250 118 200 148 178...\" fill=\"#3fb8a5\"/> combinado con la isla flotante <ellipse cy=\"284\".../>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M140 282 C105 250 118 200 148 178 C160 140 240 140 252 178 C282 200 295 250 260 282Z\" fill=\"#3fb8a5\".../>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"120\" r=\"52\" fill=\"#e8734a\" stroke=\"#9c3f28\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"120\" r=\"52\" fill=\"#e8734a\"/> posicionada encima de la casa turquesa que va de y≈140 a y≈282."
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 120 a6 6 0 0 1 7 6 a13 13 0 0 1 -19 11 a22 22 0 0 1 -13 -30 a32 32 0 0 1 46 -12 a42 42 0 0 1 20 42\" fill=\"none\" stroke=\"#ffd0a6\".../>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 70 Q196 50 205 32...\" stroke=\"#5a3a26\"/> <g fill=\"#ff9ec4\"><circle cx=\"205\" cy=\"26\" r=\"11\"/>...</g>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<rect x=\"250\" y=\"120\" width=\"22\" height=\"50\" rx=\"4\" fill=\"#8c4a3a\" transform=\"rotate(18 260 150)\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<path d=\"M50 285 Q200 302 350 285 Q335 335 262 350 Q230 385 200 392 Q170 375 140 350 Q65 335 50 285Z\" fill=\"#7a4a2e\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "No hay suelo en el SVG; la isla termina en raíces que no conectan con nada: <path d=\"M150 345 Q140 365 150 380\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#5a3a26\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\"><path d=\"M150 345 Q140 365 150 380\"/><path d=\"M190 385 Q185 396 195 400\"/><path d=\"M230 365 Q245 380 235 395\"/><path d=\"M110 325 Q100 340 108 352\"/></g>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<path d=\"M335 292 Q332 340 338 400 L350 400 Q344 340 346 288Z\" fill=\"#9fe3ff\" opacity=\".6\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "no_esta",
+      "evidencia": "Los farolitos cuelgan de cables, no son globos atados a la casa: <circle cx=\"112\" cy=\"115\" r=\"12\" fill=\"#ff6f91\"/> <circle cx=\"300\" cy=\"98\" r=\"15\" fill=\"#6fd1ff\"/>"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"s\"><stop offset=\"0\" stop-color=\"#2b1b5a\"/><stop offset=\".6\" stop-color=\"#b3476f\"/><stop offset=\"1\" stop-color=\"#ffb26b\"/></linearGradient>"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"70\" cy=\"70\" r=\"30\" fill=\"#fff3d6\"/> <circle cx=\"70\" cy=\"70\" r=\"55\" fill=\"url(#m)\"/>"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff\"><circle cx=\"150\" cy=\"30\" r=\"1.5\"/><circle cx=\"220\" cy=\"55\" r=\"1.2\"/><circle cx=\"300\" cy=\"25\" r=\"1.8\"/>...</g>"
+    },
+    {
+      "id": "a39",
+      "valor": "no_esta",
+      "evidencia": "Los farolitos cuelgan de cables desde la casa, no están atados como globos que sostengan nada."
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "La isla (<ellipse cx=\"200\" cy=\"284\" rx=\"152\" ry=\"16\" fill=\"#5cbf5a\"/>) no toca ningún suelo y sus raíces cuelgan al vacío."
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "Formas redondeadas, colores cálidos, flores rosadas, farolitos: conjunto de elementos que producen efecto tierno."
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "Todos los elementos son paths, círculos y rectángulos con rellenos planos o gradientes simples, sin texturas fotográficas."
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "Casa-calabaza flotante, flores rosadas, farolitos, luna, degradé de atardecer: vocabulario visual de cuento ilustrado."
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"120\" r=\"52\"...> <path d=\"M140 282 C105 250 118 200 148 178...Z\"> formas curvas y redondeadas."
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"120\" r=\"52\" fill=\"#e8734a\" stroke=\"#9c3f28\" stroke-width=\"3\"/> <path ... stroke=\"#1d6f66\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "fill=\"#e8734a\" fill=\"#3fb8a5\" fill=\"#ffd24d\" fill=\"#ff9ec4\" fill=\"#6fd1ff\" — colores vivos y saturados."
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "No hay texturas, sombras realistas ni perspectiva; todo son formas geométricas simples con colores planos o gradientes básicos."
+    }
+  ]
+}

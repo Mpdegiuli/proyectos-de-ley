@@ -1,0 +1,245 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "grok-4.7_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T01:15:27+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<line x1=\"176\" y1=\"184\" x2=\"176\" y2=\"40\" stroke=\"#3a2418\" stroke-width=\"3\"/> + <g fill=\"url(#leaf)\"> (hojas) + <path d=\"M176 42C190 34 186 50 200 42C188 48 192 56 176 52Z\" fill=\"#e25b4a\"/> (flor)"
+    },
+    {
+      "id": "a2",
+      "valor": "contradice",
+      "evidencia": "El portal está en la vela (<circle cx=\"240\" cy=\"110\" r=\"23\" fill=\"url(#portal)\"/>) con gradiente radial que va de amarillo a naranja a rojo a morado, no un sol sino un portal de fuego"
+    },
+    {
+      "id": "a3",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento SVG que dibuje un ancla en el código"
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "No hay ancla en el código SVG"
+    },
+    {
+      "id": "a5",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos que representen arquitectura hundida bajo el agua"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<line x1=\"126\" y1=\"194\" x2=\"84\" y2=\"242\" stroke=\"#f2c14e\" stroke-width=\"3\"/> + <circle cx=\"122\" cy=\"196\" r=\"2.3\" fill=\"#e07a8a\"/> (caña con elemento rosa en punta)"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<g opacity=\".4\"><ellipse cx=\"52\" cy=\"322\" rx=\"11\" ry=\"6\" fill=\"#7dffe1\"/><path d=\"M46 326C44 344 40 352 42 366\" stroke=\"#7dffe1\" fill=\"none\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"64\" cy=\"66\" r=\"20\" fill=\"#fff4d2\"/> (luna blanca en el cielo)"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<ellipse rx=\"13\" ry=\"3.2\" transform=\"rotate(-22)\" fill=\"none\" stroke=\"#d2c4ee\" stroke-width=\"1.2\"/> (anillo alrededor del planeta)"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M392 10C368 22 350 30 334 38\" stroke=\"#fff6d8\" stroke-width=\"1\" opacity=\".75\" fill=\"none\"/> + <circle cx=\"332\" cy=\"39\" r=\"1.7\" fill=\"#fff\"/> (cometa/estrella fugaz)"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "Múltiples afirmaciones sobre elementos inexistentes (ancla, ciudad hundida, pájaro) no tienen representación en el código"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "La escena combina barco, árbol-mástil, portal, luna, planeta, cometa, medusa, farol, caña de pescar — demasiado compleja para un solo nombre"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M72 198C96 184 140 176 196 178...\" fill=\"url(#hull)\"/> con gradiente hull: #a15a3a (madera marrón)"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"114\" cy=\"208\" r=\"8.5\" fill=\"#f4efe4\"/><circle cx=\"115\" cy=\"208\" r=\"4.2\" fill=\"#c4552a\"/><circle cx=\"115.4\" cy=\"208\" r=\"2\" fill=\"#1a0a08\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M172 56C150 48 124 78 116 120...\" fill=\"url(#sail)\"/> gradiente sail: #fff8ea a #d7b48a (color claro)"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"240\" cy=\"110\" r=\"23\" fill=\"url(#portal)\"/> portal radial con #ffb15a y #e85d4c (fuego) dentro de la vela"
+    },
+    {
+      "id": "a17",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento que dibuje un pájaro dentro del portal"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<line x1=\"176\" y1=\"184\" x2=\"176\" y2=\"40\" stroke=\"#3a2418\"/> (mástil-tronco) + <g fill=\"url(#leaf)\"> (hojas en elipses)"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M176 42C190 34 186 50 200 42C188 48 192 56 176 52Z\" fill=\"#e25b4a\"/> (flor roja en el mástil)"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "Gradiente sky: #070314 arriba a #e39a62 abajo (cielo oscuro con horizonte anaranjado = anochecer)"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"64\" cy=\"66\" r=\"20\" fill=\"#fff4d2\"/> (luna)"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(322 32)\"><ellipse rx=\"13\" ry=\"3.2\" transform=\"rotate(-22)\" fill=\"none\" stroke=\"#d2c4ee\"/><circle r=\"7\" fill=\"#c2b0e4\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M392 10C368 22 350 30 334 38\" stroke=\"#fff6d8\" stroke-width=\"1\" opacity=\".75\"/> + <circle cx=\"332\" cy=\"39\" r=\"1.7\" fill=\"#fff\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 232C40 220 70 246 110 232...L400 400L0 400Z\" fill=\"url(#sea)\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<g opacity=\".5\"><polygon points=\"168,268 246,268 246,316 168,316\" fill=\"#a9cbff\"/>... (reflejo del barco bajo el agua)"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<g opacity=\".4\"><ellipse cx=\"52\" cy=\"322\" rx=\"11\" ry=\"6\" fill=\"#7dffe1\"/>... tentáculos debajo"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M58 240Q202 268 346 228\" fill=\"none\" stroke=\"#f0d78a\" stroke-width=\"1.7\" opacity=\".85\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<rect x=\"301\" y=\"186\" width=\"10\" height=\"13\" rx=\"1.4\" fill=\"#3a2814\" stroke=\"#e2b65a\"/> + <rect x=\"303\" y=\"189\" width=\"6\" height=\"7\" fill=\"#ffe08a\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"354\" cy=\"156\" r=\"7.5\" fill=\"none\" stroke-width=\"2.6\"/><line x1=\"348\" y1=\"162\" x2=\"334\" y2=\"196\"/> stroke=\"url(#gold)\" (llave dorada en popa)"
+    },
+    {
+      "id": "a30",
+      "valor": "no_esta",
+      "evidencia": "No hay estela explícita detrás del barco; el sendero de luz es de la luna, no una estela"
+    },
+    {
+      "id": "a31",
+      "valor": "no_esta",
+      "evidencia": "No hay estela en el código"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<path d=\"M72 198C96 184 140 176 196 178C252 180 300 186 334 198L326 206C292 226 246 236 190 236C134 236 96 222 76 208Z\" fill=\"url(#hull)\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<line x1=\"176\" y1=\"184\" x2=\"176\" y2=\"40\" stroke=\"#3a2418\"/> + <g fill=\"url(#leaf)\"><ellipse.../> (mástil-árbol con hojas)"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<path d=\"M176 42C190 34 186 50 200 42C188 48 192 56 176 52Z\" fill=\"#e25b4a\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"240\" cy=\"110\" r=\"23\" fill=\"url(#portal)\"/> con colores de fuego (#ffb15a, #e85d4c) en la vela"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"114\" cy=\"208\" r=\"8.5\" fill=\"#f4efe4\"/><circle cx=\"115\" cy=\"208\" r=\"4.2\" fill=\"#c4552a\"/><circle cx=\"115.4\" cy=\"208\" r=\"2\" fill=\"#1a0a08\"/><circle cx=\"113.6\" cy=\"206.6\" r=\".9\" fill=\"#fff\"/>"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"url(#gold)\" stroke-linecap=\"round\"><circle cx=\"354\" cy=\"156\" r=\"7.5\"/><line x1=\"348\" y1=\"162\" x2=\"334\" y2=\"196\"/>... (llave de oro en popa)"
+    },
+    {
+      "id": "a38",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos de ciudad hundida en el código SVG"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"64\" cy=\"66\" r=\"20\" fill=\"#fff4d2\"/>"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(322 32)\"><ellipse rx=\"13\" ry=\"3.2\" transform=\"rotate(-22)\" fill=\"none\" stroke=\"#d2c4ee\"/><circle r=\"7\" fill=\"#c2b0e4\"/>"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "Gradiente sky: #070314 → #1b1036 → #4c2b5e → #e39a62 (paleta nocturna/ocaso); mar con #6eb0c8 → #0c1a32"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "Combinación de portal mágico, árbol-mástil, luna, planeta, medusa, farol, llave dorada — ilustración fantástica"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "Colores nocturnos, luna, estrellas, barco fantástico, escala detallada de miniatura — evoca cuento nocturno"
+    },
+    {
+      "id": "a44",
+      "valor": "contradice",
+      "evidencia": "Múltiples gradientes: fill=\"url(#hull)\", fill=\"url(#sail)\", fill=\"url(#portal)\", fill=\"url(#sky)\", fill=\"url(#sea)\" — no son formas planas"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "Gradientes con múltiples stops suaves: <linearGradient id=\"sky\"> con stops en 0, .45, .78, 1; <radialGradient id=\"portal\"> con stops suaves"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"202\" cy=\"226\" rx=\"146\" ry=\"18\" fill=\"none\" stroke=\"#e6c56a\" stroke-width=\"1.3\" opacity=\".55\"/> + <path d=\"M72 198...\" stroke=\"url(#gold)\"/>"
+    },
+    {
+      "id": "a47",
+      "valor": "contradice",
+      "evidencia": "El conjunto forma claramente un barco reconocible: casco (<path fill=\"url(#hull)\"/>), velas, mástil, farol, ojo en proa — es un barco real dibujado"
+    }
+  ]
+}

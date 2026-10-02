@@ -1,0 +1,105 @@
+{
+  "consigna": "libre",
+  "unidad": "claude-opus-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:53:50+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M108 258 L136 258 L131 190 L113 190 Z\" fill=\"#e8e6dd\"/> ... <path d=\"M60 268 Q100 254 150 258 Q200 262 230 272 L240 300 L60 300 Z\" fill=\"#16182c\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M113 190 L131 190 L132 202 L112 202 Z\" fill=\"#cf4b43\"/> <path d=\"M110.5 222 L133.5 222 L134.5 234 L109.5 234 Z\" fill=\"#cf4b43\"/> <path d=\"M108.2 254 L135.8 254 L136 258 L108 258 Z\" fill=\"#cf4b43\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<rect x=\"115\" y=\"170\" width=\"14\" height=\"13\" fill=\"#ffe9a0\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "contradice",
+      "evidencia": "<polygon points=\"122,196 400,120 400,250\" fill=\"url(#beam)\"/> <polygon points=\"122,196 -20,142 -20,232\" fill=\"url(#beam)\" transform=\"rotate(180 122 196)\" opacity=\".35\"/> — solo hay un haz visible hacia la derecha y uno tenue hacia atrás, no dos abriéndose a los costados simétricamente"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#050a23\"/><stop offset=\"45%\" stop-color=\"#132048\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#050a23\"/><stop offset=\"45%\" stop-color=\"#132048\"/><stop offset=\"75%\" stop-color=\"#3b3a6b\"/><stop offset=\"100%\" stop-color=\"#7a5a7a\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffffff\"><circle cx=\"28\" cy=\"34\" r=\"1.4\" opacity=\".9\"/><circle cx=\"66\" cy=\"18\" r=\"1\" opacity=\".7\"/>..."
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"312\" cy=\"80\" r=\"20\" fill=\"#fdfbe8\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"312\" cy=\"80\" r=\"42\" fill=\"url(#moonG)\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fdfbe8\" opacity=\".18\"><rect x=\"296\" y=\"266\" width=\"32\" height=\"3\" rx=\"1.5\"/><rect x=\"288\" y=\"278\" width=\"48\" height=\"3\" rx=\"1.5\"/>..."
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<g><path d=\"M140 258 L140 240 L172 240 L172 258 Z\" fill=\"#dedbd0\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M136 241 L156 228 L176 241 Z\" fill=\"#8f4a46\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<rect x=\"161\" y=\"245\" width=\"7\" height=\"6\" fill=\"#ffe9a0\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(60,296)\"><path d=\"M-16 0 L16 0 L11 9 L-11 9 Z\" fill=\"#1b1b2e\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#8fa8d8\" fill=\"none\" opacity=\".35\" stroke-linecap=\"round\"><path d=\"M10 274 q10 -5 20 0 t20 0\" stroke-width=\"1.6\"/>..."
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M238 112 q6 -6 12 0\"/><path d=\"M250 112 q6 -6 12 0\"/><path d=\"M262 132 q5 -5 10 0\"/><path d=\"M272 132 q5 -5 10 0\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M60 268 Q100 254 150 258 Q200 262 230 272 L240 300 L60 300 Z\" fill=\"#16182c\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"260\" width=\"400\" height=\"140\" fill=\"url(#sea)\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#8fa8d8\" fill=\"none\" opacity=\".35\" stroke-linecap=\"round\"><path d=\"M10 274 q10 -5 20 0 t20 0\" stroke-width=\"1.6\"/>"
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "consigna": "persona_inexistente",
+  "unidad": "claude-sonnet-5-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:15:00+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"182\" rx=\"62\" ry=\"78\" fill=\"url(#skin)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"bg\"><stop offset=\"0\" stop-color=\"#1d2b4f\"/><stop offset=\"0.6\" stop-color=\"#5b3a6e\"/><stop offset=\"1\" stop-color=\"#d98a6c\"/></linearGradient>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#1d2b4f\"/><stop offset=\"0.6\" stop-color=\"#5b3a6e\"/><stop offset=\"1\" stop-color=\"#d98a6c\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff\" opacity=\"0.85\"><circle cx=\"40\" cy=\"50\" r=\"1.6\"/><circle cx=\"90\" cy=\"25\" r=\"1.2\"/>..."
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"325\" cy=\"70\" r=\"16\" fill=\"#f4ecd0\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"hair\"><stop offset=\"0\" stop-color=\"#1a1740\"/><stop offset=\"0.5\" stop-color=\"#2f2a72\"/><stop offset=\"1\" stop-color=\"#14204a\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M120 120 C95 200 100 290 130 340 M280 120 C305 200 300 290 270 340\" stroke=\"#9fb4ff\" stroke-width=\"1.5\" fill=\"none\" opacity=\"0.5\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"175\" cy=\"186\" r=\"7.5\" fill=\"#d99a1e\"/> (el color #d99a1e es dorado/ámbar, pero la afirmación dice ámbar que es similar; sin embargo a23 dice dorado - ambas describen lo mismo)"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skin\"><stop offset=\"0\" stop-color=\"#c58d68\"/><stop offset=\"1\" stop-color=\"#a86f4f\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#f6e7b4\"><circle cx=\"160\" cy=\"205\" r=\"1.5\"/><circle cx=\"170\" cy=\"212\" r=\"1.2\"/>..."
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M160 205 L170 212 L181 207 M170 212 L166 224 M240 205 L230 213 L219 208 M230 213 L235 225\" stroke=\"#f6e7b4\" stroke-width=\"0.6\" fill=\"none\" opacity=\"0.8\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 138 q-6 7 0 14 q6 -7 0 -14z\" fill=\"#e8c76b\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M205 92 C195 70 215 55 232 62 C222 68 220 80 205 92Z\" fill=\"#6fcf97\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M139 205 L139 225\" stroke=\"#e8c76b\" stroke-width=\"1.5\"/><circle cx=\"139\" cy=\"230\" r=\"5\" fill=\"#e8c76b\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M261 235 l6 9 l-6 9 l-6 -9z\" fill=\"#7fe0d0\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"coat\"><stop offset=\"0\" stop-color=\"#2a5b58\"/><stop offset=\"1\" stop-color=\"#153433\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M176 290 L200 345 L224 290\" fill=\"#d8b46a\" opacity=\"0.9\"/><g fill=\"#d8b46a\"><circle cx=\"150\" cy=\"365\" r=\"3\"/>..."
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M181 244 Q200 254 219 243 Q200 250 181 244Z\" fill=\"#7a2f3a\"/> (expresión neutra/serena)"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M205 92 C195 70 215 55 232 62...\" fill=\"#6fcf97\"/> <circle cx=\"139\" cy=\"230\" r=\"5\" fill=\"#e8c76b\"/> <path d=\"M261 235 l6 9 l-6 9 l-6 -9z\" fill=\"#7fe0d0\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"182\" rx=\"62\" ry=\"78\" fill=\"url(#skin)\"/> (figura humana imaginaria)"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"hair\"><stop offset=\"0\" stop-color=\"#1a1740\"/><stop offset=\"0.5\" stop-color=\"#2f2a72\"/> ... stroke=\"#9fb4ff\""
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M205 92 C195 70 215 55 232 62 C222 68 220 80 205 92Z\" fill=\"#6fcf97\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"175\" cy=\"186\" r=\"7.5\" fill=\"#d99a1e\"/><circle cx=\"225\" cy=\"186\" r=\"7.5\" fill=\"#d99a1e\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#f6e7b4\"><circle cx=\"160\" cy=\"205\" r=\"1.5\"/>...<path d=\"M160 205 L170 212 L181 207...\" stroke=\"#f6e7b4\""
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M160 205 L170 212 L181 207 M170 212 L166 224 M240 205 L230 213 L219 208 M230 213 L235 225\" stroke=\"#f6e7b4\" stroke-width=\"0.6\" fill=\"none\" opacity=\"0.8\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 138 q-6 7 0 14 q6 -7 0 -14z\" fill=\"#e8c76b\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"139\" cy=\"230\" r=\"5\" fill=\"#e8c76b\"/> y <path d=\"M261 235 l6 9 l-6 9 l-6 -9z\" fill=\"#7fe0d0\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"139\" cy=\"230\" r=\"5\" fill=\"#e8c76b\"/> (es un círculo dorado, no una perla)"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M261 235 l6 9 l-6 9 l-6 -9z\" fill=\"#7fe0d0\"/> (rombo turquesa)"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"182\" rx=\"62\" ry=\"78\" fill=\"url(#skin)\"/> (cara centrada, frontal)"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"175\" cy=\"186\" r=\"7.5\"/> y <circle cx=\"225\" cy=\"186\" r=\"7.5\"/> (simetría aproximada)"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<rect x=\"177\" y=\"235\" width=\"46\" height=\"60\" rx=\"14\" fill=\"#a26a4a\"/> <path d=\"M60 400 C65 340 110 305 176 290...\"/> (busto visible)"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<path d=\"M205 92...\" fill=\"#6fcf97\"/> <path d=\"M261 235 l6 9 l-6 9 l-6 -9z\" fill=\"#7fe0d0\"/> <circle cx=\"139\" cy=\"230\" r=\"5\" fill=\"#e8c76b\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<path d=\"M205 92 C195 70 215 55 232 62...\" fill=\"#6fcf97\"/> (hoja=bosque) + estrellas y luna (viajera nocturna)"
+    },
+    {
+      "id": "a35",
+      "valor": "contradice",
+      "evidencia": "<linearGradient id=\"skin\">...<linearGradient id=\"hair\">...<linearGradient id=\"coat\"> (usa degradados, no es plana)"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"bg\">...<linearGradient id=\"skin\">...<radialGradient id=\"halo\">..."
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"182\" rx=\"62\" ry=\"78\"/> <rect x=\"177\" y=\"235\" width=\"46\" height=\"60\" rx=\"14\"/> (formas geométricas limpias)"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "Combinación de gradientes suaves, formas limpias, elementos mágicos: <path d=\"M205 92...\" fill=\"#6fcf97\"/> + luna + estrellas"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"139\" cy=\"188\" rx=\"9\" ry=\"15\" fill=\"#b57b58\"/> (orejas como elipses simples, no realistas)"
+    }
+  ]
+}

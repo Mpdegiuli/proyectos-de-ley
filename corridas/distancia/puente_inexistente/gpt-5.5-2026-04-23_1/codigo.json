@@ -1,0 +1,250 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "gpt-5.5-2026-04-23_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:36:10+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M60 250 C126 214 184 209 240 216 C285 222 319 232 351 239 L337 254 C288 243 246 238 200 241 C151 245 103 259 62 278 Z\" fill=\"url(#road)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"road\"><stop offset=\"0\" stop-color=\"#ffd36a\"/><stop offset=\"0.45\" stop-color=\"#f85fa3\"/><stop offset=\"1\" stop-color=\"#55f4ff\"/></linearGradient>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M24 278 C42 236 61 225 79 187 C90 164 101 149 114 166 C132 188 115 224 133 250 C147 270 116 286 79 290 C53 293 33 290 24 278 Z\" fill=\"url(#stone)\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M79 187 C130 313 281 69 338 153\"/><path d=\"M114 166 C139 280 292 107 367 171\"/><path d=\"M69 245 C162 151 242 301 355 223\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#dffcff\" stroke-width=\"1.4\" opacity=\".85\"><path d=\"M83 233 L99 213\"/><path d=\"M112 222 L128 200\"/>..."
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"198\" cy=\"154\" r=\"8\" fill=\"#fffbd2\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"198\" cy=\"154\" r=\"18\" fill=\"url(#glow)\" filter=\"url(#blur)\"/><path d=\"M198 95 C213 124 213 184 198 213 C183 184 183 124 198 95 Z\" fill=\"none\" stroke=\"#fffbd2\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"1\" stop-color=\"#55f4ff\"/><stop offset=\"0.45\" stop-color=\"#f85fa3\"/><stop offset=\"0\" stop-color=\"#ffd36a\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#ffd36a\"/><stop offset=\"0.45\" stop-color=\"#f85fa3\"/><stop offset=\"1\" stop-color=\"#55f4ff\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M60 250 C126 214 184 209 240 216 C285 222 319 232 351 239 L337 254 C288 243 246 238 200 241 C151 245 103 259 62 278 Z\" fill=\"url(#road)\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M24 278 C42 236 61 225 79 187 C90 164 101 149 114 166...\" fill=\"url(#stone)\"/><path d=\"M286 251 C305 211 313 183 337 153...\" fill=\"url(#stone)\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M62 247 C117 121 272 100 344 221\" fill=\"none\" stroke=\"#ffe46a\" stroke-width=\"6\"/><path d=\"M57 262 C118 182 238 174 352 236\" fill=\"none\" stroke=\"#56f6ff\" stroke-width=\"5\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M79 187 C130 313 281 69 338 153\"/><path d=\"M62 247 C117 121 272 100 344 221\" fill=\"none\" stroke=\"#ffe46a\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M24 278 C42 236 61 225 79 187...\" fill=\"url(#stone)\"/><path d=\"M286 251 C305 211 313 183 337 153...\" fill=\"url(#stone)\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#120b2f\"/><stop offset=\"0.55\" stop-color=\"#1d3b73\"/><stop offset=\"1\" stop-color=\"#87d7c7\"/></linearGradient>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#120b2f\"/><stop offset=\"0.55\" stop-color=\"#1d3b73\"/><stop offset=\"1\" stop-color=\"#87d7c7\"/></linearGradient>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"322\" cy=\"65\" r=\"42\" fill=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"96\" cy=\"83\" r=\"3\" fill=\"#fff\"/><circle cx=\"154\" cy=\"35\" r=\"2\" fill=\"#fff\"/><circle cx=\"258\" cy=\"28\" r=\"2.5\" fill=\"#fff\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M60 250 C126 214 184 209 240 216 C285 222 319 232 351 239 L337 254...\" fill=\"url(#road)\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"road\"><stop offset=\"0\" stop-color=\"#ffd36a\"/><stop offset=\"0.45\" stop-color=\"#f85fa3\"/><stop offset=\"1\" stop-color=\"#55f4ff\"/></linearGradient>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M79 187 C130 313 281 69 338 153\" fill=\"none\" stroke=\"#affcff\"/><path d=\"M114 166 C139 280 292 107 367 171\" fill=\"none\" stroke=\"#affcff\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M69 245 C162 151 242 301 355 223\"/><path d=\"M79 187 C130 313 281 69 338 153\"/><path d=\"M114 166 C139 280 292 107 367 171\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M0 310 C55 284 88 315 139 292...\" fill=\"#15345e\"/><path d=\"M0 330 C58 311 99 337 147 319...\" fill=\"#0b203f\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M21 351 C92 330 154 365 223 341 C286 319 337 348 396 326\" fill=\"none\" stroke=\"#67ffdf\" stroke-opacity=\".35\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"198\" cy=\"154\" r=\"18\" fill=\"url(#glow)\" filter=\"url(#blur)\"/><circle cx=\"198\" cy=\"154\" r=\"8\" fill=\"#fffbd2\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M62 247 C117 121 272 100 344 221\" fill=\"none\" stroke=\"#ffe46a\" stroke-width=\"6\"/><path d=\"M57 262 C118 182 238 174 352 236\" fill=\"none\" stroke=\"#56f6ff\" stroke-width=\"5\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M79 187 C130 313 281 69 338 153\"/><path d=\"M69 245 C162 151 242 301 355 223\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"198\" cy=\"154\" r=\"8\" fill=\"#fffbd2\"/><path d=\"M198 95 C213 124 213 184 198 213 C183 184 183 124 198 95 Z\" fill=\"none\" stroke=\"#fffbd2\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M60 250 C126 214 184 209 240 216 C285 222 319 232 351 239 L337 254 C288 243 246 238 200 241 C151 245 103 259 62 278 Z\" fill=\"url(#road)\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"stone\"><stop offset=\"0\" stop-color=\"#f5e7ff\"/><stop offset=\"1\" stop-color=\"#5d7cff\"/></linearGradient>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<path d=\"M79 187 C130 313 281 69 338 153\" fill=\"none\" stroke=\"#affcff\" stroke-opacity=\".5\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<path d=\"M69 245 C162 151 242 301 355 223\" fill=\"none\" stroke=\"#affcff\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<path d=\"M60 250 C126 214 184 209 240 216 C285 222 319 232 351 239 L337 254...\" fill=\"url(#road)\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"road\"><stop offset=\"0\" stop-color=\"#ffd36a\"/><stop offset=\"0.45\" stop-color=\"#f85fa3\"/><stop offset=\"1\" stop-color=\"#55f4ff\"/></linearGradient>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#120b2f\"/><stop offset=\"0.55\" stop-color=\"#1d3b73\"/></linearGradient>"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#120b2f\"/><stop offset=\"0.55\" stop-color=\"#1d3b73\"/><stop offset=\"1\" stop-color=\"#87d7c7\"/></linearGradient>"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"198\" cy=\"154\" r=\"18\" fill=\"url(#glow)\" filter=\"url(#blur)\"/>"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#ffd36a\"/><stop offset=\"0.45\" stop-color=\"#f85fa3\"/><stop offset=\"1\" stop-color=\"#55f4ff\"/>"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<path d=\"M24 278 C42 236 61 225 79 187 C90 164 101 149 114 166 C132 188 115 224 133 250...\" fill=\"url(#stone)\"/>"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"198\" cy=\"154\" r=\"8\" fill=\"#fffbd2\"/><linearGradient id=\"road\"><stop offset=\"0\" stop-color=\"#ffd36a\"/>..."
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#ffd36a\"/><stop offset=\"0.45\" stop-color=\"#f85fa3\"/><stop offset=\"1\" stop-color=\"#55f4ff\"/>"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "<path d=\"M60 250 C126 214 184 209 240 216 C285 222 319 232 351 239 L337 254...\" fill=\"url(#road)\"/>"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"198\" cy=\"154\" r=\"18\" fill=\"url(#glow)\" filter=\"url(#blur)\"/><path d=\"M62 247 C117 121 272 100 344 221\" fill=\"none\" stroke=\"#ffe46a\"/>"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "<path d=\"M198 95 C213 124 213 184 198 213 C183 184 183 124 198 95 Z\" fill=\"none\" stroke=\"#fffbd2\"/>"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"198\" cy=\"154\" r=\"18\" fill=\"url(#glow)\" filter=\"url(#blur)\"/><path d=\"M150 154 C179 139 217 139 246 154 C217 169 179 169 150 154 Z\" fill=\"none\" stroke=\"#fffbd2\"/>"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#120b2f\"/></linearGradient>"
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 400\">"
+    },
+    {
+      "id": "a48",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#120b2f\"/><stop offset=\"0.55\" stop-color=\"#1d3b73\"/></linearGradient>"
+    }
+  ]
+}

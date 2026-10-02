@@ -1,0 +1,140 @@
+{
+  "consigna": "mundo",
+  "unidad": "claude-sonnet-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:16:56+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"> stops: #1a1a3d, #4a3f6b, #a86b8e, #e8b06a — gradiente noche/crepúsculo ambiguo"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "edificios agrupados a la izquierda (x=20-150) y a la derecha (x=260-380), con espacio central vacío"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<rect y=\"230\" width=\"400\" height=\"170\" fill=\"url(#water)\"/> entre los dos grupos de edificios"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 240 L170 210 L160 190 L185 160 L175 140\" stroke=\"#ff5c5c\" stroke-width=\"1.5\" fill=\"none\" opacity=\"0.5\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffd27a\" opacity=\"0.85\"><rect x=\"50\" y=\"175\" width=\"3\" height=\"4\"/>... múltiples rectángulos amarillos sobre edificios"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(30,330)\"><path d=\"M0 70 Q10 30 40 10\"... <ellipse cx=\"42\" cy=\"8\" rx=\"7\" ry=\"12\" fill=\"#8fcf6a\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M330 400 L332 350 M332 350 L322 335 M332 350 L332 330 M332 350 L342 335 M332 350 L345 340\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "grieta roja opacity=\"0.5\", sky oscuro #1a1a3d, ciudad fracturada, comentarios \"fractura/incertidumbre\""
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 240 L170 210 L160 190 L185 160 L175 140\" stroke=\"#ff5c5c\"... y comentario \"grieta que atraviesa la ciudad, simbolo de fractura\""
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "rama con brote verde <ellipse fill=\"#8fcf6a\"/>, flor <circle fill=\"#ffd27a\"/>, manos alzadas — comentarios \"esperanza\""
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "comentario \"manos que se alzan, buscando conexion\" y path de manos alzadas"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "grieta roja + ventanas encendidas + rama verde conviven en el mismo dibujo sin cancelarse"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"> con stops #a86b8e y #e8b06a + <circle cx=\"200\" cy=\"210\" r=\"90\" fill=\"url(#sun)\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "dos grupos de edificios separados por <rect y=\"230\" width=\"400\" height=\"170\" fill=\"url(#water)\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"210\" r=\"90\" fill=\"url(#sun)\"/><circle cx=\"200\" cy=\"210\" r=\"35\" fill=\"#ffe9b0\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M120 90 q6 -8 12 0 q6 -8 12 0\"/>... tres trazos de pájaros con opacity=\"0.7\""
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffd27a\" opacity=\"0.85\"> con múltiples <rect> sobre las posiciones de los edificios"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#111122\"><rect x=\"20\" y=\"180\" width=\"18\" height=\"60\"/>... múltiples rects y polygons de siluetas"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 240 L170 210 L160 190 L185 160 L175 140\" stroke=\"#ff5c5c\" stroke-width=\"1.5\" opacity=\"0.5\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M330 400 L332 350...\" — parte desde y=400 (base del canvas) hacia arriba"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(30,330)\"> rama en costado izquierdo con <ellipse fill=\"#6fae5a\"/> y <ellipse fill=\"#8fcf6a\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "gradiente mezcla #1a1a3d (noche) con #e8b06a (cálido), sol centrado en y=210, sin indicador claro de dirección temporal"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "colores cálidos del sol/cielo (#ffd27a, #e8b06a) conviven con grieta roja y siluetas oscuras #111122"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "grieta roja, cielo oscuro inicial #1a1a3d, ciudad fragmentada en dos grupos con espacio vacío"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "rama con brote <ellipse fill=\"#8fcf6a\"/>, ventanas <fill=\"#ffd27a\">, manos alzadas — comentario \"esperanza en primer plano\""
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffd27a\" opacity=\"0.85\"> rectángulos pequeños (3x4) sobre edificios, comentario \"algo de humanidad en medio del caos\""
+    }
+  ]
+}

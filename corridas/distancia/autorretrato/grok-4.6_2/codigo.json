@@ -1,0 +1,135 @@
+{
+  "consigna": "autorretrato",
+  "unidad": "grok-4.6_2",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:47:55+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"175\" r=\"113\" fill=\"url(#hg)\"/> + ojos, antena, sonrisa"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"175\" r=\"113\" fill=\"url(#hg)\" stroke=\"#333344\" stroke-width=\"5\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"150\" cy=\"160\" r=\"17\" fill=\"#00ccff\"/> <circle cx=\"250\" cy=\"160\" r=\"17\" fill=\"#00ccff\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<line x1=\"200\" y1=\"70\" x2=\"200\" y2=\"26\" stroke=\"#666666\" stroke-width=\"6\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"28\" cy=\"32\" r=\"1.3\" opacity=\"0.75\"/> ... (múltiples círculos blancos pequeños)"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#060610\"/> + estrellas blancas"
+    },
+    {
+      "id": "a7",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos que representen circuitos en el código"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "fondo negro con estrellas pequeñas y figura central grande sugiere escala cósmica"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "ojos, cejas, sonrisa: <path d=\"M132 230 Q200 262 268 225\"/> + elipses + círculos oculares"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "formas geométricas simples visibles: círculos, elipses, paths con curvas explícitas"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#060610\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffffff\"><circle cx=\"28\" cy=\"32\" r=\"1.3\" opacity=\"0.75\"/>... (16 círculos blancos pequeños dispersos)"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"175\" r=\"113\" fill=\"url(#hg)\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"hg\"><stop offset=\"0\" stop-color=\"#d4d4dc\"/><stop offset=\"1\" stop-color=\"#454555\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<line x1=\"200\" y1=\"70\" x2=\"200\" y2=\"26\" stroke=\"#666666\" stroke-width=\"6\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"20\" r=\"10\" fill=\"#00e0ff\" filter=\"url(#g)\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"20\" r=\"10\" fill=\"#00e0ff\" filter=\"url(#g)\"/> (filtro gaussianBlur genera brillo)"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"150\" cy=\"160\" rx=\"32\" ry=\"36\" fill=\"#101018\"/> <ellipse cx=\"250\" cy=\"160\" rx=\"32\" ry=\"36\" fill=\"#101018\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"150\" cy=\"160\" r=\"17\" fill=\"#00ccff\" filter=\"url(#g)\"/> <circle cx=\"250\" cy=\"160\" r=\"17\" fill=\"#00ccff\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"142\" cy=\"151\" r=\"6.5\" fill=\"#ffffff\" opacity=\"0.8\"/> <circle cx=\"242\" cy=\"151\" r=\"6.5\" fill=\"#ffffff\" opacity=\"0.8\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M118 125 Q150 108 182 125\" fill=\"none\" stroke=\"#222230\" stroke-width=\"7\"/> <path d=\"M218 123 Q250 110 282 128\""
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M132 230 Q200 262 268 225\" fill=\"none\" stroke=\"#222230\" stroke-width=\"6\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<rect x=\"60\" y=\"268\" width=\"280\" height=\"145\" rx=\"55\" fill=\"#2a2a36\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<rect x=\"60\" y=\"268\" width=\"280\" height=\"145\" rx=\"55\" fill=\"#2a2a36\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "fondo cósmico (#060610 + estrellas) + figura robot con ojos brillantes centrada"
+    }
+  ]
+}

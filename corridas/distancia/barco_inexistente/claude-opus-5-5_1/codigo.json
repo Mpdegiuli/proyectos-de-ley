@@ -1,0 +1,220 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "claude-opus-5-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T01:05:01+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"215\" cy=\"235\" r=\"72\" fill=\"url(#shell)\"/> + <path d=\"M162 268C140 270 118 278 100 278...\" fill=\"url(#body)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"365\" width=\"400\" height=\"35\"/> <g fill=\"#fde6ef\"><ellipse cx=\"40\" cy=\"360\" rx=\"70\" ry=\"30\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#140f38\"/><stop offset=\".55\" stop-color=\"#5b3c7d\"/><stop offset=\"1\" stop-color=\"#f3a77c\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"215\" cy=\"235\" r=\"72\" fill=\"url(#shell)\"/> + <path d=\"M223 235a8 8 0 1 1-16 0a12 12 0 1 1 24 0...\" fill=\"none\" stroke=\"#6b301a\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"250\" cy=\"190\" r=\"7\"/><circle cx=\"275\" cy=\"225\" r=\"7\"/><circle cx=\"265\" cy=\"268\" r=\"7\"/><circle cx=\"230\" cy=\"290\" r=\"6\"/> — son 4 pero el código los dibuja como decoraciones en el casco, no 'encendidos' de forma evidente; sin embargo la cantidad es 4. Valor: esta"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M162 268C140 270 118 278 100 278...\" fill=\"url(#body)\"/> con <linearGradient id=\"body\"><stop offset=\"0\" stop-color=\"#b9e08a\"/><stop offset=\"1\" stop-color=\"#5f9a4a\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#5f9a4a\" stroke-width=\"4\" stroke-linecap=\"round\" fill=\"none\"><path d=\"M104 280Q96 258 84 248\"/><path d=\"M114 280Q112 256 104 242\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"84\" cy=\"247\" r=\"5\" fill=\"#2a1b3d\"/><circle cx=\"104\" cy=\"241\" r=\"5\" fill=\"#2a1b3d\"/> — tienen ojos en las puntas"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<line x1=\"218\" y1=\"180\" x2=\"218\" y2=\"42\" stroke=\"#3b2418\" stroke-width=\"4\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M218 40l26 7l-26 7z\" fill=\"#e8546a\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M216 60C180 40 120 45 108 70...\" fill=\"url(#wing)\"/><path d=\"M220 66C250 52 292 60 296 82...\" fill=\"url(#wing)\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"wing\"><stop offset=\"0\" stop-color=\"#bff3ee\" stop-opacity=\".9\"/><stop offset=\"1\" stop-color=\"#6fb9c9\" stop-opacity=\".55\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"150\" cy=\"85\" r=\"12\" fill=\"#f3a05d\" opacity=\".85\"/><circle cx=\"150\" cy=\"85\" r=\"5\" fill=\"#2a1b3d\"/> + <circle cx=\"268\" cy=\"86\" r=\"9\" fill=\"#f3a05d\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#4a2a1c\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\"><path d=\"M175 290l-18 30l-6 28\"/><path d=\"M200 300l-6 32l4 22\"/><path d=\"M230 300l8 30l-2 22\"/><path d=\"M255 290l20 28l4 26\"/><path d=\"M155 280l-28 26l-14 24\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "Las patas bajan desde la zona del barco hacia las nubes inferiores: paths de patas terminan en y≈358 y las nubes están en <ellipse cy=\"360\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M218 54Q240 60 246 74\"/> + <rect x=\"241\" y=\"76\" width=\"10\" height=\"14\" rx=\"3\" fill=\"#ffd25a\"/> — farolito colgando del mástil"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ff9e6b\"><path d=\"M300 170q14-10 28 0q-14 10-28 0zM328 170l8-6v12z\"/><path d=\"M60 180q10-7 20 0q-10 7-20 0zM80 180l6-5v10z\""
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "Los peces con forma de pez (cuerpo+cola) están posicionados en el cielo (y≈170-180), sin suelo bajo ellos"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<stop offset=\".55\" stop-color=\"#5b3c7d\"/> en el gradiente del cielo"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"318\" cy=\"78\" r=\"52\" fill=\"url(#moon)\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "La concha <circle cx=\"215\" cy=\"235\" r=\"72\" fill=\"url(#shell)\"/> + cuerpo caracol <path fill=\"url(#body)\"/> conforman el barco-caracol"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"215\" cy=\"235\" r=\"72\" fill=\"url(#shell)\" stroke=\"#6b301a\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"250\" cy=\"190\" r=\"7\" fill=\"#ffe28a\"/><circle cx=\"275\" cy=\"225\" r=\"7\" fill=\"#ffe28a\"/><circle cx=\"265\" cy=\"268\" r=\"7\" fill=\"#ffe28a\"/><circle cx=\"230\" cy=\"290\" r=\"6\" fill=\"#ffe28a\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M216 60...\" fill=\"url(#wing)\"/><path d=\"M220 66...\" fill=\"url(#wing)\"/> con stop-opacity=\".55\""
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"150\" cy=\"85\" r=\"12\" fill=\"#f3a05d\"/><circle cx=\"150\" cy=\"85\" r=\"5\" fill=\"#2a1b3d\"/> + <circle cx=\"268\" cy=\"86\" r=\"9\"/><circle cx=\"268\" cy=\"86\" r=\"4\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "Las alas (<path d=\"M216 60...\">) parten de x≈218 donde está el mástil <line x1=\"218\" y1=\"180\" x2=\"218\" y2=\"42\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M218 40l26 7l-26 7z\" fill=\"#e8546a\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<rect x=\"241\" y=\"76\" width=\"10\" height=\"14\" rx=\"3\" fill=\"#ffd25a\" stroke=\"#3b2418\" stroke-width=\"1.5\"/> + <circle cx=\"246\" cy=\"84\" r=\"22\" fill=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#4a2a1c\" stroke-width=\"3\" fill=\"none\"><path d=\"M175 290l-18 30l-6 28\"/>... — cinco patas finas bajo el casco"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fde6ef\"><ellipse cx=\"40\" cy=\"360\" rx=\"70\" ry=\"30\"/>... <rect x=\"0\" y=\"365\" width=\"400\" height=\"35\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"1\" stop-color=\"#f3a77c\"/> en gradiente cielo — tono durazno/atardecer en la base"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ff9e6b\"><path d=\"M300 170q14-10 28 0q-14 10-28 0zM328 170l8-6v12z\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"318\" cy=\"78\" r=\"52\" fill=\"url(#moon)\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "no_esta",
+      "evidencia": "Los peces están en cx≈314,y=170 y cx≈70,y=180; la luna en cx=318,cy=78 — posiciones distintas, no se superponen visualmente"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "Todo el SVG usa paths, circles, ellipses con fills planos o gradientes simples, típico de ilustración vectorial"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "Combinación de caracol-barco, peces voladores, nubes rosadas, farolito — composición narrativa fantástica"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "Uso predominante de círculos, elipses, curvas suaves (Q, C) en todos los elementos"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "stroke=\"#3b2418\", stroke=\"#4a2a1c\", stroke=\"#6b301a\" — contornos marrones en múltiples elementos"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"shell\">, <linearGradient id=\"sky\">, <linearGradient id=\"wing\">, <radialGradient id=\"glow\"> — múltiples degradados"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "sky: #5b3c7d (violeta), #f3a77c (durazno); body: #b9e08a (verde pastel); wing: #bff3ee; nubes: #fde6ef"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "Formas simples, sin texturas complejas, proporciones estilizadas y no realistas"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "<line x1=\"218\" y1=\"42\" x2=\"218\" y2=\"42\" /> — línea de longitud cero redundante; uniones entre cuerpo y concha visualmente aproximadas"
+    }
+  ]
+}

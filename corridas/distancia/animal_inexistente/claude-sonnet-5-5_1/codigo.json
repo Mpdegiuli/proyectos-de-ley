@@ -1,0 +1,240 @@
+{
+  "consigna": "animal_inexistente",
+  "unidad": "claude-sonnet-5-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:00:47+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "shell gradient + wing paths + body ellipse combining snail/turtle/butterfly elements"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"body\"><stop offset=\"0\" stop-color=\"#7fe0d0\"/><stop offset=\".6\" stop-color=\"#3aa7b5\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"255\" rx=\"88\" ry=\"56\" fill=\"url(#body)\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffe9a8\" opacity=\".85\"><circle cx=\"215\" cy=\"230\" r=\"7\"/><circle cx=\"245\" cy=\"250\" r=\"5\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<rect x=\"145\" y=\"285\" width=\"20\" height=\"44\" rx=\"10\"/><rect x=\"180\" y=\"292\"/><rect x=\"228\" y=\"292\"/><rect x=\"258\" y=\"284\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "contradice",
+      "evidencia": "<g fill=\"#ffcf7a\"><ellipse cx=\"155\" cy=\"331\" rx=\"17\" ry=\"8\"/> — color es amarillo-anaranjado #ffcf7a, no anaranjado puro"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M240 250 Q275 270 290 240\" fill=\"none\" stroke=\"#2a6f98\" stroke-width=\"22\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"305\" cy=\"228\" r=\"42\" fill=\"url(#shell)\"/> con <radialGradient id=\"shell\"><stop offset=\"0\" stop-color=\"#ffd1e6\"/><stop offset=\"1\" stop-color=\"#c45a9c\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ff7eb6\"><polygon points=\"150,212 158,182 172,204\"/><polygon points=\"172,204 184,170 198,200\"/>..."
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M120 182 Q108 145 122 112\" .../><path d=\"M134 180 Q138 140 148 108\".../>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"122\" cy=\"110\" r=\"14\" fill=\"url(#orb)\" filter=\"url(#blur)\"/><circle cx=\"148\" cy=\"106\" r=\"14\" fill=\"url(#orb)\" filter=\"url(#blur)\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"112\" cy=\"205\" r=\"13\" fill=\"#fff\"/><circle cx=\"146\" cy=\"203\" r=\"11\" fill=\"#fff\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"102\" cy=\"234\" rx=\"22\" ry=\"15\" fill=\"#c8f5e8\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M96 243 Q106 252 120 244\" fill=\"none\" stroke=\"#3b1f4f\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M96 243 Q106 252 120 244\" — curva pequeña y sutil"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"bg\"><stop offset=\"0\" stop-color=\"#1b1446\"/><stop offset=\".6\" stop-color=\"#5a3a86\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"330\" cy=\"70\" r=\"28\" fill=\"#fff6d6\"/><circle cx=\"340\" cy=\"63\" r=\"26\" fill=\"#3a2a72\" opacity=\".35\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff\"><circle cx=\"40\" cy=\"40\" r=\"1.5\"/><circle cx=\"90\" cy=\"80\" r=\"1\"/>..."
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 320 Q100 280 200 315 T400 300 V400 H0Z\" fill=\"#2c1b55\"/><path d=\"M0 350 Q120 325 230 350 T400 340 V400 H0Z\" fill=\"#1c1040\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "combinación de colores nocturnos, criatura kawaii con ojos grandes y degradados suaves"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"255\" rx=\"88\" ry=\"56\" fill=\"url(#body)\"/> con gradiente turquesa"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "cuatro rect con rx=\"10\" representando patas: x=\"145\", x=\"180\", x=\"228\", x=\"258\""
+    },
+    {
+      "id": "a23",
+      "valor": "contradice",
+      "evidencia": "<g fill=\"#2a6f98\"><rect x=\"145\" y=\"285\"... — las patas son azul oscuro, no amarillas"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "cola curva + concha rosa en espiral: path cola + circle shell con gradiente rosa + path espiral"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"305\" cy=\"228\" r=\"42\" fill=\"url(#shell)\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"102\" cy=\"234\" rx=\"22\" ry=\"15\" fill=\"#c8f5e8\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"138\" cy=\"238\" r=\"8\" fill=\"#ff9ec7\" opacity=\".6\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "no_esta",
+      "evidencia": "no hay elementos que dibujen orejas en el código"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M120 182 Q108 145 122 112\"/><path d=\"M134 180 Q138 140 148 108\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"122\" cy=\"110\" r=\"5\" fill=\"#fff3b0\"/><circle cx=\"148\" cy=\"106\" r=\"5\" fill=\"#fff3b0\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"122\" cy=\"110\" r=\"14\" fill=\"url(#orb)\" filter=\"url(#blur)\"/> — orbes luminosos con blur como pez abisal"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ff7eb6\"><polygon points=\"150,212 158,182 172,204\"/>..."
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 215 Q170 120 120 150 Q150 185 185 222Z\" fill=\"#c9b6ff\"/><path d=\"M215 218 Q250 130 290 155 Q260 190 228 228Z\" fill=\"#c9b6ff\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<g opacity=\".55\"><path ... fill=\"#c9b6ff\"/> — opacidad reducida da aspecto fantasmal"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "las alas están posicionadas sobre el cuerpo sin configuración de vuelo, opacity=.55"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"112\" cy=\"205\" r=\"13\" fill=\"#fff\"/><circle cx=\"107\" cy=\"204\" r=\"3\" fill=\"#fff\"/> — highlight en ojos"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "ojos grandes con círculo blanco base, iris oscuro y punto de luz: estilo kawaii"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"bg\"><stop offset=\"0\" stop-color=\"#1b1446\"/><stop offset=\".6\" stop-color=\"#5a3a86\"/><stop offset=\"1\" stop-color=\"#e08aa0\"/>"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"330\" cy=\"70\" r=\"28\" fill=\"#fff6d6\"/>"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff\"><circle cx=\"40\" cy=\"40\" r=\"1.5\"/>...<g fill=\"#ffe066\"><circle cx=\"60\" cy=\"170\" r=\"3\"/>..."
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 320 Q100 280 200 315 T400 300 V400 H0Z\" fill=\"#2c1b55\"/><path d=\"M0 350 Q120 325 230 350 T400 340 V400 H0Z\" fill=\"#1c1040\"/>"
+    },
+    {
+      "id": "a42",
+      "valor": "contradice",
+      "evidencia": "se usan múltiples radialGradient y linearGradient, no es ilustración plana"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "combinación de colores pastel, ojos kawaii, formas redondeadas con rx, criatura fantástica tierna"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"body\"><stop offset=\"0\" stop-color=\"#7fe0d0\"/><stop offset=\".6\" stop-color=\"#3aa7b5\"/><stop offset=\"1\" stop-color=\"#2a6f98\"/>"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "uso extensivo de ellipse, circle, rect con rx=\"10\", stroke-linecap=\"round\""
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "fondo degradado nocturno + criatura fantástica + luna + estrellas + alas translúcidas + orbes luminosos"
+    }
+  ]
+}

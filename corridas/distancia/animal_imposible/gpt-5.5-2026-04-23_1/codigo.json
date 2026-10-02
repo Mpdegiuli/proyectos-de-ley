@@ -1,0 +1,220 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "gpt-5.5-2026-04-23_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:19:45+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M110 215 C55 178 91 86 172 111 C233 130 217 274 132 265 C84 260 71 207 113 181 C157 154 219 181 241 220 C269 271 336 236 326 181 C316 123 253 105 220 139 C185 175 215 232 264 221\" fill=\"none\" stroke=\"url(#skin)\" stroke-width=\"36\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M298 141 C323 146 341 158 359 178 C330 180 309 168 296 146Z\" fill=\"#ffcc4d\" stroke=\"#243057\" stroke-width=\"4\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M177 119 C130 61 59 68 31 138 C87 136 139 145 177 119Z\" fill=\"url(#wing)\" stroke=\"#243057\" stroke-width=\"4\"/> <path d=\"M212 240 C171 309 217 363 303 344 C267 318 245 278 212 240Z\" fill=\"url(#wing)\" stroke=\"#243057\" stroke-width=\"4\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M119 261 C101 282 94 313 79 337\" fill=\"none\" stroke=\"#7ee8b5\" stroke-width=\"12\"/> <path d=\"M174 263 C177 294 164 318 162 351\" fill=\"none\" stroke=\"#7aa7ff\" stroke-width=\"12\"/> <path d=\"M281 227 C294 252 293 282 303 307\" fill=\"none\" stroke=\"#ffe36d\" stroke-width=\"10\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M216 112 C190 54 250 47 248 102 C280 50 321 77 279 122\" fill=\"none\" stroke=\"#f2e3b3\" stroke-width=\"9\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M261 222 C285 211 306 211 330 231 C310 238 282 239 261 222Z\" fill=\"#46d9a5\" stroke=\"#243057\" stroke-width=\"4\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#20304f\" opacity=\".32\"><circle cx=\"119\" cy=\"213\" r=\"5\"/><circle cx=\"144\" cy=\"240\" r=\"4\"/><circle cx=\"182\" cy=\"249\" r=\"5\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(105 101)\"><ellipse cx=\"0\" cy=\"0\" rx=\"23\" ry=\"18\" fill=\"#f7fbff\"/><circle cx=\"-3\" cy=\"0\" r=\"10\" fill=\"#201835\"/> ... <ellipse cx=\"272\" cy=\"129\" rx=\"12\" ry=\"16\" fill=\"#fff\"/><circle cx=\"276\" cy=\"129\" r=\"7\" fill=\"#17192c\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M93 177 C55 151 30 196 53 222 C73 246 105 225 86 204\" fill=\"none\" stroke=\"#ff8ecf\" stroke-width=\"12\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "no_esta",
+      "evidencia": "La criatura mezcla elementos de múltiples especies de forma híbrida y fantástica sin forma reconocible estándar"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "Múltiples paths: alas, patas, aletas, antenas, ojos, pico, manchas, cuernos, cola, todo en un solo cuerpo serpentino"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "Criatura híbrida fantástica con partes de múltiples animales: ala url(#wing), pico #ffcc4d, aleta #46d9a5, antenas stroke=\"#f2e3b3\""
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M110 215 C55 178 91 86 172 111 C233 130 217 274 132 265 C84 260 71 207 113 181 C157 154 219 181 241 220 C269 271 336 236 326 181\" fill=\"none\" stroke=\"url(#skin)\" stroke-width=\"36\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skin\"><stop offset=\"0\" stop-color=\"#ff6fcf\"/><stop offset=\".35\" stop-color=\"#7ee8b5\"/><stop offset=\".7\" stop-color=\"#7aa7ff\"/><stop offset=\"1\" stop-color=\"#ffe36d\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M119 261...\" stroke=\"#7ee8b5\" stroke-width=\"12\"/> <path d=\"M174 263...\" stroke=\"#7aa7ff\" stroke-width=\"12\"/> <path d=\"M281 227...\" stroke=\"#ffe36d\" stroke-width=\"10\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M177 119 C130 61 59 68 31 138 C87 136 139 145 177 119Z\" fill=\"url(#wing)\"/> <path d=\"M212 240 C171 309 217 363 303 344 C267 318 245 278 212 240Z\" fill=\"url(#wing)\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M298 141 C323 146 341 158 359 178 C330 180 309 168 296 146Z\" fill=\"#ffcc4d\" stroke=\"#243057\" stroke-width=\"4\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"0\" cy=\"0\" rx=\"23\" ry=\"18\" fill=\"#f7fbff\"/><circle cx=\"-3\" cy=\"0\" r=\"10\" fill=\"#201835\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M216 112 C190 54 250 47 248 102 C280 50 321 77 279 122\" fill=\"none\" stroke=\"#f2e3b3\" stroke-width=\"9\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "no_esta",
+      "evidencia": "No hay paths que representen cuernos específicos; las estructuras en la cabeza son antenas (stroke=\"#f2e3b3\")"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M261 222 C285 211 306 211 330 231 C310 238 282 239 261 222Z\" fill=\"#46d9a5\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\"><stop offset=\"0%\" stop-color=\"#fff7d6\"/><stop offset=\"65%\" stop-color=\"#bfe9ff\"/><stop offset=\"100%\" stop-color=\"#30436b\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "stop-color=\"#ff6fcf\", stop-color=\"#7ee8b5\", stop-color=\"#7aa7ff\", stop-color=\"#ffe36d\", fill=\"#8ce8ff\", fill=\"#ff7ab6\""
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "Alas: fill=\"url(#wing)\", pico: fill=\"#ffcc4d\", aleta: fill=\"#46d9a5\", antenas: stroke=\"#f2e3b3\", cuerpo serpentino multicolor"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"363\" rx=\"130\" ry=\"16\" fill=\"#102033\" opacity=\".22\"/> — sombra difusa sin suelo definido"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "Mezcla ala url(#wing) + pico #ffcc4d + aleta #46d9a5 + antenas #f2e3b3 + cuerpo serpentino + 3 patas dispares en un solo ser"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "dragón/insecto: url(#wing), pájaro: fill=\"#ffcc4d\" pico, pez: fill=\"#46d9a5\" aleta, mamífero: <path d=\"M93 177...\" stroke=\"#ff8ecf\">, serpiente: stroke=\"url(#skin)\" serpentino"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M110 215 C55 178 91 86 172 111 C233 130 217 274 132 265 C84 260 71 207 113 181 C157 154 219 181 241 220 C269 271 336 236 326 181 C316 123 253 105 220 139 C185 175 215 232 264 221\""
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M298 141 C323 146 341 158 359 178 C330 180 309 168 296 146Z\" fill=\"#ffcc4d\" stroke=\"#243057\" stroke-width=\"4\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<path d=\"M177 119 C130 61 59 68 31 138...\" fill=\"url(#wing)\"/> <path d=\"M212 240 C171 309 217 363 303 344...\" fill=\"url(#wing)\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "no_esta",
+      "evidencia": "No hay paths que representen astas; las estructuras sobre la cabeza son antenas curvas stroke=\"#f2e3b3\""
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "stroke-width=\"12\" pata verde, stroke-width=\"12\" pata azul, stroke-width=\"10\" pata amarilla — distintos colores y grosores"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<path d=\"M261 222 C285 211 306 211 330 231 C310 238 282 239 261 222Z\" fill=\"#46d9a5\" stroke=\"#243057\" stroke-width=\"4\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "no_esta",
+      "evidencia": "No hay paths que representen una cola tentacular; hay patas lineales simples"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skin\"><stop offset=\"0\" stop-color=\"#ff6fcf\"/><stop offset=\".35\" stop-color=\"#7ee8b5\"/><stop offset=\".7\" stop-color=\"#7aa7ff\"/><stop offset=\"1\" stop-color=\"#ffe36d\"/>"
+    },
+    {
+      "id": "a36",
+      "valor": "no_esta",
+      "evidencia": "El cuerpo es un único path con stroke uniforme; no hay cambios de textura codificados"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "stop-color=\"#ff6fcf\", stop-color=\"#7ee8b5\", stop-color=\"#7aa7ff\", fill=\"#8ce8ff\", fill=\"#ff7ab6\", fill=\"#ffcc4d\""
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "stroke-linecap=\"round\" en múltiples paths, círculos y elipses predominan: <circle>, <ellipse>, curvas bezier suaves"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "stroke=\"#33245d\" stroke-width=\"46\" (contorno exterior oscuro) + stroke=\"#243057\" stroke-width=\"4\" en alas, pico, aleta"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<path d=\"M108 202 C76 178 96 120 149 121\" fill=\"none\" stroke=\"#fff\" stroke-width=\"5\" opacity=\".45\"/> <circle cx=\"279\" cy=\"126\" r=\"2.5\" fill=\"#fff\"/>"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "Colores saturados degradados, formas redondeadas, contornos marcados, criatura híbrida fantástica con partes claramente delineadas"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "Criatura multicolor serpentina con alas url(#wing), ojo grande, pico dorado, aleta verde, antenas, patas de colores distintos sobre fondo luminoso"
+    }
+  ]
+}

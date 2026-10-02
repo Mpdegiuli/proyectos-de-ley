@@ -1,0 +1,145 @@
+{
+  "consigna": "animal",
+  "unidad": "grok-4.6_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:54:15+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"198\" cy=\"148\" rx=\"62\" ry=\"58\" fill=\"url(#fur)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"198\" cy=\"268\" rx=\"78\" ry=\"86\" fill=\"url(#fur)\"/> <ellipse cx=\"168\" cy=\"338\" rx=\"22\" ry=\"14\" fill=\"#1D1A19\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 268 C70 238 140 258 200 248 C270 236 330 258 400 242 L400 400 L0 400 Z\" fill=\"url(#hill)\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"318\" cy=\"78\" r=\"36\" fill=\"url(#moon)\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"72%\" stop-color=\"#C45C26\"/><stop offset=\"100%\" stop-color=\"#F4A261\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#F4A261\"/><stop offset=\"55%\" stop-color=\"#E76F51\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M292 248 C330 200 372 168 378 214 C384 258 348 292 300 278 C278 272 272 258 292 248 Z\" fill=\"url(#tailg)\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M148 86 L128 28 L178 72 Z\" fill=\"url(#fur)\"/> <path d=\"M248 86 L272 28 L222 72 Z\" fill=\"url(#fur)\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"100%\" stop-color=\"#F4A261\"/> (sky) y <stop offset=\"0%\" stop-color=\"#F4A261\"/> (fur)"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M148 86 L128 28 L178 72 Z\"/> <path d=\"M292 248 C330 200 372 168 378 214\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"198\" cy=\"148\" rx=\"62\" ry=\"58\" fill=\"url(#fur)\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"168\" cy=\"338\" rx=\"22\" ry=\"14\" fill=\"#1D1A19\"/> <ellipse cx=\"228\" cy=\"338\" rx=\"22\" ry=\"14\" fill=\"#1D1A19\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"72%\" stop-color=\"#C45C26\"/><stop offset=\"100%\" stop-color=\"#F4A261\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#1B2845\"/><stop offset=\"45%\" stop-color=\"#3D2B56\"/><stop offset=\"100%\" stop-color=\"#F4A261\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"332\" cy=\"68\" r=\"10\" fill=\"#E8D090\" opacity=\".45\"/> (manchas sobre la luna, no es perfectamente llena/uniforme, y r=36 sin fase explícita pero con manchas sugiere no llena)"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"42\" cy=\"38\" r=\"1.4\"/> <circle cx=\"88\" cy=\"62\" r=\"1.1\"/> ... fill=\"#F8F0C8\" opacity=\".9\""
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 312 C90 288 170 318 250 298 C320 282 360 308 400 294 L400 400 L0 400 Z\" fill=\"#162820\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#F4A261\"/><stop offset=\"55%\" stop-color=\"#E76F51\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"198\" cy=\"286\" rx=\"42\" ry=\"58\" fill=\"#F1FAEE\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M148 86 L128 28 L178 72 Z\" fill=\"url(#fur)\"/> <path d=\"M248 86 L272 28 L222 72 Z\" fill=\"url(#fur)\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M158 168 L118 158\"/> <path d=\"M160 176 L116 176\"/> stroke=\"#1A1412\""
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M292 248 C330 200 372 168 378 214 C384 258 348 292 300 278 C278 272 272 258 292 248 Z\" fill=\"url(#tailg)\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M300 252 C328 218 358 198 362 226 C366 254 338 276 306 268 C292 264 288 258 300 252 Z\" fill=\"#F1FAEE\" opacity=\".85\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"78\" cy=\"228\" rx=\"16\" ry=\"10\" fill=\"#24503F\"/> <ellipse cx=\"348\" cy=\"218\" rx=\"13\" ry=\"8\" fill=\"#24503F\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"40\" cy=\"366\" r=\"4\" fill=\"#E76F51\"/> <circle cx=\"52\" cy=\"358\" r=\"3.5\" fill=\"#E9C46A\"/> <circle cx=\"60\" cy=\"368\" r=\"3\" fill=\"#2A9D8F\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 400\">"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "consigna": "libre",
+  "unidad": "gpt-6-luna_2",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:04:50+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M178 295c-11-10-14-23-8-31 4-5 9-4 10 1 1 5-3 8-5 12-3 7 2 13 11 16Z\" fill=\"#111528\"/> ... <path d=\"M0 315 82 293l54 11 53-22 66 24 63-18 82 22v90H0Z\" fill=\"url(#roof)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 236h34v-28h21v18h33v-44h26v25h24v-37h30v45h30v-26h25v31h34v-51h30v30h23v-41h26v42h34v-22h20v120H0Z\" fill=\"#24294e\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M302 48a48 48 0 1 0 42 72 42 42 0 0 1-42-72Z\" fill=\"#ffe7ad\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<stop offset=\".58\" stop-color=\"#343b70\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#f5bd8e\" opacity=\".7\"><path d=\"M43 219h6v9h-6zm34 12h6v9h-6zm..."
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"199\" cy=\"300\" rx=\"42\" ry=\"10\" fill=\"#0b1128\" opacity=\".45\"/> (gato centrado en la escena sobre el tejado)"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "cielo degradado nocturno, luna, estrellas, gato sentado — composición tranquila"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "colores oscuros <stop stop-color=\"#111b43\"/>, luna, ciudad nocturna, gato negro"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"199\" cy=\"300\" rx=\"42\" ry=\"10\"/> gato centrado en cx=199"
+    },
+    {
+      "id": "a10",
+      "valor": "contradice",
+      "evidencia": "múltiples capas: edificios, tejados, gato, luna, estrellas, degradados, filtros — composición compleja"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 315 82 293...\" fill=\"url(#roof)\"/> y gato en cy~295 sobre tejado"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 236h34v-28h21v18h33v-44...\" fill=\"#24294e\"/> <path d=\"M0 268h57v-18h37v22...\" fill=\"#1a203f\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"1\" stop-color=\"#e47776\"/> en gradiente de cielo"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M302 48a48 48 0 1 0 42 72 42 42 0 0 1-42-72Z\" fill=\"#ffe7ad\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"47\" cy=\"62\" r=\"1.8\"/><circle cx=\"91\" cy=\"113\" r=\"1.3\"/>... fill=\"#fff0cf\""
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M177 291...\" fill=\"#111528\"/> <path d=\"M178 295...\" fill=\"#111528\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "gato fill=\"#111528\" sobre <path d=\"M0 315 82 293...\" fill=\"url(#roof)\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"m180 266 0-17 8 9m18 0 8-9v18\" fill=\"#111528\"/> (orejas triangulares)"
+    },
+    {
+      "id": "a19",
+      "valor": "no_esta",
+      "evidencia": "no hay elementos que dibujen ojos cerrados; no hay ojos dibujados explícitamente"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M183 281l-11-2m11 5-10 2m32-5 11-2m-11 5 10 2\" stroke=\"#f6d9b6\" stroke-width=\".8\" opacity=\".8\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M183 281l-11-2m11 5-10 2m32-5 11-2m-11 5 10 2\" stroke=\"#f6d9b6\"/> color cálido #f6d9b6"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#f2b98d\" opacity=\".75\"><rect x=\"14\" y=\"278\" width=\"7\" height=\"12\"/>..."
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "composición nocturna serena con luna, estrellas y gato sentado"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "luna creciente <path d=\"M302 48a48 48 0 1 0 42 72...\"/>, estrellas, gato negro nocturno, degradados"
+    }
+  ]
+}

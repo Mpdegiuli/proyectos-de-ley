@@ -1,0 +1,150 @@
+{
+  "consigna": "libre",
+  "unidad": "gemini-3.1-pro-preview_2",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:06:26+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<mask id=\"sun-mask\"> ... <rect x=\"0\" y=\"200\" width=\"400\" height=\"2\" fill=\"#000000\"/> ... </mask> aplicada al sol, creando cortes/fragmentos"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M-40,260 L40,190 L120,260\" fill=\"none\" stroke=\"#00e5ff\" stroke-width=\"2\" filter=\"url(#glow-cyan)\"/> y <path ... stroke=\"#ff0055\" ... filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<line x1=\"200\" y1=\"260\" x2=\"160\" y2=\"400\" .../> y <line x1=\"0\" y1=\"264\" x2=\"400\" y2=\"264\" .../> líneas convergentes y horizontales en el suelo"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "Combinación de degradados morado-magenta, sol con bandas, cuadrícula en perspectiva, neón fucsia y cian"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M100,260 V220 H115 V195 H125 V210 H135 V180 H155 V215 H165 V170 ...\" fill=\"#02000a\"/> formas geométricas rectangulares y triangulares"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\">, <linearGradient id=\"sun\">, <linearGradient id=\"mnt\">, <linearGradient id=\"ground\">"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<mask id=\"sun-mask\"> ... </mask> aplicada con mask=\"url(#sun-mask)\" en el círculo del sol"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<filter id=\"glow\">, <filter id=\"glow-cyan\">, <filter id=\"sun-glow\"> con feGaussianBlur"
+    },
+    {
+      "id": "a9",
+      "valor": "no_esta",
+      "evidencia": "Múltiples filtros, gradientes, máscaras, numerosas líneas de cuadrícula y paths complejos hacen el código extenso y pesado"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "Sol grande con glow, montañas con neón, cuadrícula en perspectiva, degradados vibrantes, filtros de brillo en múltiples elementos"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "Conjunto: cielo morado-magenta, sol fragmentado, montañas de neón, cuadrícula retro, estrellas, cometa"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 400\" width=\"100%\" height=\"100%\">"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"160\" r=\"90\" fill=\"url(#sun)\" mask=\"url(#sun-mask)\"/> y <circle cx=\"200\" cy=\"160\" r=\"95\" fill=\"#ff0077\" filter=\"url(#sun-glow)\" opacity=\"0.6\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"200\" width=\"400\" height=\"2\" fill=\"#000000\"/> <rect x=\"0\" y=\"207\" width=\"400\" height=\"3\" fill=\"#000000\"/> ... dentro de <mask id=\"sun-mask\">"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"160\" r=\"90\" .../> centro en y=160, horizonte en y=260, la mitad inferior del sol queda bajo el horizonte con la máscara"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"> stop #050014 -> #14022e -> #4a044e -> #8a0054 (azul muy oscuro a magenta/morado)"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"30\" cy=\"40\" r=\"1\" opacity=\"0.6\"/> ... múltiples círculos blancos pequeños en el cielo"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<line x1=\"320\" y1=\"30\" x2=\"220\" y2=\"80\" stroke=\"url(#comet)\" stroke-width=\"1.5\" filter=\"url(#glow-cyan)\"/> <circle cx=\"320\" cy=\"30\" r=\"1.5\" fill=\"#ffffff\" filter=\"url(#glow-cyan)\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M-20,260 L60,170 L140,260 Z\" fill=\"url(#mnt)\"/> y <path d=\"M250,260 L330,150 L420,260 Z\" fill=\"url(#mnt)\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M100,260 V220 H115 V195 H125 V210 H135 V180 H155 V215 H165 V170 H180 V205 H195 V185 H210 V220 H225 V190 H240 V230 H255 V200 H265 V215 H275 V180 H290 V260 Z\" fill=\"#02000a\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M100,260 V220 H115 ...\" fill=\"none\" stroke=\"#ff0055\" stroke-width=\"1.5\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M-40,260 L40,190 L120,260\" fill=\"none\" stroke=\"#00e5ff\" stroke-width=\"2\" filter=\"url(#glow-cyan)\"/> montañas con contorno turquesa"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "Líneas convergentes desde (200,260) hacia y=400 y líneas horizontales: <line x1=\"0\" y1=\"264\" x2=\"400\" y2=\"264\" .../> ... <line x1=\"0\" y1=\"400\" x2=\"400\" y2=\"400\" .../>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "stroke=\"#ff00aa\" filter=\"url(#glow)\" opacity=\"0.8\" aplicado al grupo de la cuadrícula"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "Líneas radiales convergentes en (200,260) y horizontales con perspectiva, stroke=\"#ff00aa\" filter=\"url(#glow)\""
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "Estética synthwave/outrun: neón, cuadrícula en perspectiva, sol fragmentado, colores morado-magenta-cian típicos de los 80"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "Estilo outrun: sol en horizonte con bandas, cuadrícula en perspectiva, montañas de neón, paleta fucsia/cian/morado"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<line x1=\"0\" y1=\"260\" x2=\"400\" y2=\"260\" stroke=\"#00e5ff\" stroke-width=\"3\" filter=\"url(#glow-cyan)\"/> y <line x1=\"120\" y1=\"260\" x2=\"280\" y2=\"260\" stroke=\"#ffffff\" stroke-width=\"1.5\" filter=\"url(#glow-cyan)\"/>"
+    }
+  ]
+}

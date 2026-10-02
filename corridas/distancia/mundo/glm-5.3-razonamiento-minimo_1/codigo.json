@@ -1,0 +1,175 @@
+{
+  "consigna": "mundo",
+  "unidad": "glm-5.3-razonamiento-minimo_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:26:34+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"210\" r=\"130\" fill=\"url(#globe)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\" cx=\"50%\" cy=\"45%\" r=\"75%\"><stop offset=\"0%\" stop-color=\"#1a2b4a\"/><stop offset=\"100%\" stop-color=\"#05070f\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffffff\"><circle cx=\"30\" cy=\"40\" r=\"1.2\" opacity=\"0.8\"/>..."
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#8fd0ff\" stroke-width=\"1\" fill=\"none\" opacity=\"0.65\">...<g fill=\"#bfe6ff\"><circle cx=\"140\" cy=\"165\" r=\"2.4\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(320 95) rotate(-20)\"><rect x=\"-8\" y=\"-5\" width=\"16\" height=\"10\" rx=\"2\" fill=\"#cdd6e4\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M244 210 q4 -12 8 -14 q2 6 6 8 q4 4 2 10 q-3 8 -10 6 q-7 -2 -6 -10z\" fill=\"#ff7a3c\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#6b6f7a\" opacity=\"0.55\"><ellipse cx=\"248\" cy=\"196\" rx=\"20\" ry=\"9\"/><ellipse cx=\"262\" cy=\"188\" rx=\"13\" ry=\"7\"/></g>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M60 330 A150 150 0 0 1 340 330\" fill=\"none\" stroke=\"url(#dawn)\" stroke-width=\"6\" stroke-linecap=\"round\" opacity=\"0.8\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#5cc47a\" stroke-width=\"2.5\" fill=\"none\" stroke-linecap=\"round\"><path d=\"M200 355 q0 -18 0 -30\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"70\" cy=\"85\" r=\"10\" fill=\"#e9eef5\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"215\" cy=\"92\" rx=\"34\" ry=\"14\" fill=\"#e8f4ff\" opacity=\"0.9\"/><ellipse cx=\"185\" cy=\"330\" rx=\"28\" ry=\"12\" fill=\"#dff0fa\" opacity=\"0.85\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"248\" cy=\"196\" rx=\"20\" ry=\"9\"/>... frente a <circle cx=\"200\" cy=\"210\" r=\"130\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#8fd0ff\" stroke-width=\"1\" fill=\"none\" opacity=\"0.65\"><path d=\"M140 165 Q200 120 265 150\"/>...<g fill=\"#bfe6ff\"><circle cx=\"140\" cy=\"165\" r=\"2.4\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M244 210 q4 -12 8 -14...\" fill=\"#ff7a3c\"/>...<g fill=\"#6b6f7a\" opacity=\"0.55\">"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#5cc47a\" stroke-width=\"2.5\" fill=\"none\" stroke-linecap=\"round\"><path d=\"M200 355 q0 -18 0 -30\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M60 330 A150 150 0 0 1 340 330\" fill=\"none\" stroke=\"url(#dawn)\" stroke-width=\"6\".../>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "No hay elementos de audio ni animaciones; todo es estático en el SVG."
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"210\" r=\"130\" fill=\"url(#globe)\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/> fondo oscuro sin suelo, planeta centrado flotando"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffffff\"><circle cx=\"30\" cy=\"40\" r=\"1.2\" opacity=\"0.8\"/>...(15 estrellas)"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#8fd0ff\"...><path d=\"M140 165 Q200 120 265 150\"/>...<g fill=\"#bfe6ff\"><circle cx=\"140\" cy=\"165\" r=\"2.4\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#6b6f7a\" opacity=\"0.55\"><ellipse cx=\"248\" cy=\"196\".../>...<path d=\"M244 210...\" fill=\"#ff7a3c\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"210\" r=\"165\" fill=\"url(#glow)\" opacity=\"0.35\"/><path d=\"M60 330 A150 150 0 0 1 340 330\" fill=\"none\" stroke=\"url(#dawn)\".../>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 340 q-12 -4 -16 -16 q12 0 16 8\"/><path d=\"M200 340 q12 -4 16 -16 q-12 0 -16 8\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 355 q0 -18 0 -30\"/> ubicado en cy≈340-355, parte inferior del planeta centrado en cy=210"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(320 95) rotate(-20)\"> satélite en y=95, parte superior"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"70\" cy=\"85\" r=\"10\" fill=\"#e9eef5\"/> luna en y=85, parte superior"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#1a2b4a\"/><stop offset=\"100%\" stop-color=\"#05070f\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "llama+humo (herido): fill=\"#ff7a3c\"; red de nodos (conectado): stroke=\"#8fd0ff\"; brote+amanecer (esperanzado): stroke=\"#5cc47a\""
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#8fd0ff\" stroke-width=\"1\" fill=\"none\" opacity=\"0.65\"><path d=\"M140 165 Q200 120 265 150\"/>...<g fill=\"#bfe6ff\"><circle cx=\"140\" cy=\"165\" r=\"2.4\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<path d=\"M60 330 A150 150 0 0 1 340 330\" fill=\"none\" stroke=\"url(#dawn)\" stroke-width=\"6\"../>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#5cc47a\" stroke-width=\"2.5\" fill=\"none\" stroke-linecap=\"round\"><path d=\"M200 327 q-10 -3 -13 -12 q10 0 13 6\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(320 95) rotate(-20)\">...<circle cx=\"70\" cy=\"85\" r=\"10\" fill=\"#e9eef5\"/> ambos estáticos y separados de la acción principal"
+    }
+  ]
+}

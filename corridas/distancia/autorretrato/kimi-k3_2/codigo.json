@@ -1,0 +1,160 @@
+{
+  "consigna": "autorretrato",
+  "unidad": "kimi-k3_2",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:51:55+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"195\" r=\"82\" fill=\"url(#fc)\" stroke=\"#B85C3E\".../>  con #fc que va de #F8C48E a #D97757 (naranja)"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"172\" cy=\"188\" rx=\"9\" ry=\"12\" fill=\"#33231F\"/> <ellipse cx=\"228\" cy=\"188\" rx=\"9\" ry=\"12\" fill=\"#33231F\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M178,223 Q200,241 222,223\" fill=\"none\" stroke=\"#33231F\" stroke-width=\"5.5\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"195\" r=\"104\" ... stroke-dasharray=\"0.1 11.5\" opacity=\".55\">"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<use href=\"#sp\" transform=\"translate(118 108) scale(.85)\" fill=\"#F6B17A\">... <use href=\"#sp\" transform=\"translate(296 112)..."
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\"><stop offset=\"0\" stop-color=\"#3B2E4F\"/><stop offset=\"1\" stop-color=\"#140F1F\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200,42 L312,88 L358,200 L312,312 L200,358 L88,312 L42,200 L88,88 Z\"/> <path d=\"M200,42 L358,200 L200,358 L42,200 Z\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"28\" cy=\"52\" r=\"1.5\" opacity=\".5\"/> <circle cx=\"66\" cy=\"150\" r=\"1.2\" opacity=\".35\"/>..."
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"322\" rx=\"62\" ry=\"11\" fill=\"#000\" opacity=\".35\" filter=\"url(#sf)\"/> (sombra debajo, fondo espacial sin suelo)"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "colores cálidos #F8C48E, #EF9C60, #F6B17A, sonrisa, ojos, fondo suave nocturno"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M178,223 Q200,241 222,223\" stroke-width=\"5.5\"/> y opacidades bajas en highlights como opacity=\".16\""
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "no hay efectos dramáticos extremos; animaciones lentas dur=\"6s\", dur=\"90s\", opacidades moderadas"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"195\" r=\"82\" fill=\"url(#fc)\"/> con degradado naranja #F8C48E a #D97757"
+    },
+    {
+      "id": "a14",
+      "valor": "no_esta",
+      "evidencia": "no hay texto ni metadato que indique que representa un sol; es una cara con ojos y boca"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#3B2E4F\"/> <stop offset=\"1\" stop-color=\"#140F1F\"/> (violeta/morado oscuro)"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "fondo #140F1F a #3B2E4F muy oscuro con estrellas dispersas"
+    },
+    {
+      "id": "a17",
+      "valor": "contradice",
+      "evidencia": "<ellipse cx=\"172\" cy=\"188\" rx=\"9\" ry=\"12\" fill=\"#33231F\"/> rx=9 ry=12, ojos pequeños-medianos, no grandes"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M178,223 Q200,241 222,223\" fill=\"none\" stroke=\"#33231F\" stroke-width=\"5.5\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"149\" cy=\"213\" rx=\"10\" ry=\"5.5\" fill=\"#B64A2E\" opacity=\".3\"/> <ellipse cx=\"251\" cy=\"213\" rx=\"10\" ry=\"5.5\" fill=\"#B64A2E\" opacity=\".3\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"195\" r=\"125\" fill=\"url(#gl)\"> con radialGradient id=\"gl\" stop-color=\"#F2A56B\""
+    },
+    {
+      "id": "a21",
+      "valor": "contradice",
+      "evidencia": "las órbitas son elipses inclinadas: <ellipse cx=\"200\" cy=\"195\" rx=\"128\" ry=\"44\" transform=\"rotate(-18 200 195)\"/> no circulares"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"195\" r=\"104\" ... stroke-dasharray=\"0.1 11.5\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"312\" cy=\"182\" r=\"4.2\" fill=\"#F8C48E\"/> <circle cx=\"88\" cy=\"208\" r=\"4.2\" fill=\"#F8C48E\"/> <circle cx=\"90\" cy=\"170\" r=\"3.6\"/> <circle cx=\"310\" cy=\"220\" r=\"3.6\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<use href=\"#sp\" ...><animate attributeName=\"opacity\" values=\"1;.3;1\" dur=\"3.2s\" repeatCount=\"indefinite\"/></use>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200,42 L312,88 L358,200 L312,312 L200,358 L88,312 L42,200 L88,88 Z\"/> octágono de 8 vértices"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"28\" cy=\"52\" r=\"1.5\" opacity=\".5\"/> ... múltiples círculos pequeños dispersos fill=\"#F5E6D3\""
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"fc\"><stop offset=\"0\" stop-color=\"#F8C48E\"/><stop offset=\"1\" stop-color=\"#D97757\"/> naranja predomina"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "esfera naranja con cara amigable sobre fondo oscuro con estrellas, colores cálidos vs fondo frío"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "ojos abiertos, expresión suave, elementos orbitando, composición espacial misteriosa"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "fondo espacial oscuro, sombra elíptica debajo <ellipse cx=\"200\" cy=\"322\"...>, sin suelo definido"
+    }
+  ]
+}

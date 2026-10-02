@@ -1,0 +1,185 @@
+{
+  "consigna": "persona",
+  "unidad": "claude-sonnet-4-6_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:00:48+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"120\" rx=\"52\" ry=\"58\" fill=\"#FDBCB4\"/> <!-- Head --> con cuerpo, piernas, pestañas y mejillas sugieren figura femenina joven parada"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"320\" width=\"400\" height=\"80\" fill=\"#90EE90\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<rect x=\"160\" y=\"165\" width=\"80\" height=\"100\" rx=\"15\" fill=\"#E63946\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<rect x=\"170\" y=\"255\" width=\"25\" height=\"75\" rx=\"10\" fill=\"#2E4A8B\"/> <!-- Left leg --> <rect x=\"205\" y=\"255\" width=\"25\" height=\"75\" rx=\"10\" fill=\"#2E4A8B\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"70\" rx=\"52\" ry=\"28\" fill=\"#3D1C02\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M172,106 L170,99\" stroke=\"#3D1C02\" stroke-width=\"1.5\"/> <!-- Eyelashes --> <ellipse cx=\"184\" cy=\"116\" rx=\"9\" ry=\"10\" fill=\"#4A90D9\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"168\" cy=\"138\" rx=\"15\" ry=\"9\" fill=\"rgba(255,150,150,0.35)\"/> <ellipse cx=\"232\" cy=\"138\" rx=\"15\" ry=\"9\" fill=\"rgba(255,150,150,0.35)\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M183,148 Q200,162 217,148\" stroke=\"#C07870\" stroke-width=\"2.5\" fill=\"#FF8FA3\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "Todos los elementos (ojos, nariz, boca, orejas simétricas) están dispuestos frontalmente: <ellipse cx=\"148\" cy=\"120\"/> y <ellipse cx=\"252\" cy=\"120\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "Formas redondeadas con rx, pestañas, mejillas rosadas y proporciones exageradas sugieren estilo semi-cartoon"
+    },
+    {
+      "id": "a11",
+      "valor": "no_esta",
+      "evidencia": "Las formas faciales incluyen pestañas individuales, iris, pupilas, reflejo, nariz con detalle: <circle cx=\"195\" cy=\"133\" r=\"3\" fill=\"#E8908A\"/> no son simples"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "Cabeza, cuerpo, brazos, piernas, manos, pies presentes con colores de piel #FDBCB4"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "Mejillas rosadas, sonrisa, ojos expresivos y colores cálidos transmiten calidez visual"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "Figura completa centrada en el canvas con tamaño prominente y postura erguida"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<rect x=\"170\" y=\"255\" width=\"25\" height=\"75\" rx=\"10\" fill=\"#2E4A8B\"/> piernas rectas de pie"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"320\" width=\"400\" height=\"80\" fill=\"#90EE90\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#87CEEB\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"66\" rx=\"50\" ry=\"20\" fill=\"#3D1C02\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"184\" cy=\"116\" rx=\"9\" ry=\"10\" fill=\"#4A90D9\"/> <ellipse cx=\"216\" cy=\"116\" rx=\"9\" ry=\"10\" fill=\"#4A90D9\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M172,106 L170,99\" stroke=\"#3D1C02\" stroke-width=\"1.5\"/> <!-- Eyelashes top left -->"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"168\" cy=\"138\" rx=\"15\" ry=\"9\" fill=\"rgba(255,150,150,0.35)\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M183,148 Q200,162 217,148\" stroke=\"#C07870\" stroke-width=\"2.5\" fill=\"#FF8FA3\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M186,150 Q200,158 214,150 Q200,153 186,150\" fill=\"white\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<rect x=\"160\" y=\"165\" width=\"80\" height=\"100\" rx=\"15\" fill=\"#E63946\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"200,165 185,185 200,178 215,185\" fill=\"white\"/> <!-- Shirt collar detail -->"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<rect x=\"160\" y=\"248\" width=\"80\" height=\"12\" rx=\"3\" fill=\"#8B4513\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<rect x=\"192\" y=\"249\" width=\"16\" height=\"10\" rx=\"2\" fill=\"#D4AF37\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<rect x=\"170\" y=\"255\" width=\"25\" height=\"75\" rx=\"10\" fill=\"#2E4A8B\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"182\" cy=\"326\" rx=\"20\" ry=\"9\" fill=\"#333\"/> <ellipse cx=\"218\" cy=\"326\" rx=\"20\" ry=\"9\" fill=\"#333\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<rect x=\"120\" y=\"168\" width=\"42\" height=\"22\" rx=\"10\" fill=\"#E63946\"/> <!-- Left arm --> <rect x=\"238\" y=\"168\" ...> cuerpo en x=160, brazos en x=120 y x=238"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"102\" cy=\"246\" rx=\"7\" ry=\"5\" fill=\"#FDBCB4\"/> <ellipse cx=\"100\" cy=\"238\" rx=\"6\" ry=\"4\" fill=\"#FDBCB4\"/> <!-- Left fingers -->"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"148\" cy=\"120\" rx=\"7\" ry=\"9\" fill=\"#F0A090\"/> <!-- Inner ear -->"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"132\" rx=\"7\" ry=\"5\" fill=\"#F0A090\"/> <circle cx=\"195\" cy=\"133\" r=\"3\" fill=\"#E8908A\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "Pestañas individuales, iris/pupila/reflejo en ojos, detalle de nariz y orejas interiores junto con estilo cartoon general"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "Cejas con curva: <path d=\"M172,100 Q186,94 196,99\"/> sonrisa amplia, mejillas rosadas, ojos con reflejo"
+    }
+  ]
+}

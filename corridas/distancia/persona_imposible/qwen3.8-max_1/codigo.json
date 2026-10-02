@@ -1,0 +1,165 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "qwen3.8-max_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:40:37+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"150\" r=\"58\" fill=\"url(#portal)\"/> ... <clipPath id=\"head\"><circle cx=\"200\" cy=\"150\" r=\"58\"/></clipPath>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(200 150) rotate(180)\"> ... <circle cx=\"0\" cy=\"-36\" r=\"13\" fill=\"url(#skin)\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "no_esta",
+      "evidencia": "la figura interior está rotada 180° pero no hay animación ni dirección de movimiento hacia afuera representada"
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "no hay paths ni elementos que dibujen manos grandes sosteniendo el círculo; las paths de brazos terminan en círculos pequeños <circle cx=\"145\" cy=\"178\" r=\"11\"/> y <circle cx=\"255\" cy=\"178\" r=\"11\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"150\" r=\"58\" fill=\"url(#portal)\"/> ocupa el lugar de la cabeza y contiene una escena interior vía clipPath"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "la figura interior dentro de clipPath es otra persona dentro de la cabeza de la figura principal: <g clip-path=\"url(#head)\"><g transform=\"translate(200 150) rotate(180)\">"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<clipPath id=\"head\"><circle cx=\"200\" cy=\"150\" r=\"58\"/></clipPath> ... <g clip-path=\"url(#head)\">"
+    },
+    {
+      "id": "a8",
+      "valor": "no_esta",
+      "evidencia": "no hay ningún elemento que dibuje explícitamente negación de cuerpo único; es una interpretación no respaldada directamente por el código"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M60,400 C72,322 108,288 156,270 ... Z\" fill=\"url(#robe)\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"150\" r=\"58\" fill=\"url(#portal)\"/> con gradiente radial que simula profundidad/portal"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(200 150) rotate(180)\"><circle cx=\"0\" cy=\"-36\" r=\"13\" fill=\"url(#skin)\"/> dentro de <g clip-path=\"url(#head)\">"
+    },
+    {
+      "id": "a12",
+      "valor": "no_esta",
+      "evidencia": "los brazos terminan en <circle cx=\"145\" cy=\"178\" r=\"11\"/> y <circle cx=\"255\" cy=\"178\" r=\"11\"/> que están por debajo del aro, no rodeándolo"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(200 150) rotate(180)\">"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "el círculo <circle cx=\"200\" cy=\"150\" r=\"58\" fill=\"url(#portal)\"/> ocupa la posición de la cabeza en el cuerpo (por encima del cuello/ropa)"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "la personita interior está dentro del clipPath sin suelo: <g transform=\"translate(200 150) rotate(180)\"> sin ningún elemento de apoyo debajo"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"portal\" cx=\"50%\" cy=\"42%\" r=\"70%\"><stop offset=\"0\" stop-color=\"#2c3c86\"/><stop offset=\".55\" stop-color=\"#131b45\"/><stop offset=\"1\" stop-color=\"#040611\"/> y estrellas dentro del clipPath"
+    },
+    {
+      "id": "a17",
+      "valor": "no_esta",
+      "evidencia": "es interpretación simbólica, no hay elemento de código que dibuje explícitamente 'umbral de identidad'"
+    },
+    {
+      "id": "a18",
+      "valor": "no_esta",
+      "evidencia": "los brazos/manos <circle cx=\"145\" cy=\"178\" r=\"11\"/> están por debajo del aro y no lo rodean ni presentan"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M60,400 ... Z\" fill=\"url(#robe)\"/> y cuerpo completo con cabeza, brazos, manto"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"150\" r=\"58\" fill=\"url(#portal)\"/> con interior estrellado en lugar de rostro"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<g clip-path=\"url(#head)\"><g transform=\"translate(200 150) rotate(180)\"><circle cx=\"0\" cy=\"-36\" r=\"13\" fill=\"url(#skin)\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(200 150) rotate(180)\">"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "la personita interior no tiene suelo ni apoyo dentro del clipPath, aparece suspendida"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#eef3ff\"><circle cx=\"172\" cy=\"116\" r=\"1.6\" opacity=\".9\"/>...<circle cx=\"236\" cy=\"153\" r=\"1\" opacity=\".65\"/> dentro de <g clip-path=\"url(#head)\">"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"150\" r=\"58\" fill=\"url(#portal)\"/> rellena con gradiente de portal/cosmos, sin rasgos faciales"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\"><stop offset=\"0\" stop-color=\"#182052\"/><stop offset=\".55\" stop-color=\"#0b1030\"/><stop offset=\"1\" stop-color=\"#04050d\"/> y <linearGradient id=\"robe\"><stop offset=\"0\" stop-color=\"#3d3378\"/><stop offset=\"1\" stop-color=\"#150f31\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "múltiples stroke-linecap=\"round\" y formas curvas con paths C y Q"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "combinación de portal cósmico, figura invertida, manto, gradientes nocturnos y símbolos geométricos"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "todo el dibujo usa paths SVG, círculos, gradientes y clipPath sin texturas raster"
+    },
+    {
+      "id": "a30",
+      "valor": "no_esta",
+      "evidencia": "la composición es narrativa y compleja, no simplificada como ícono; tiene múltiples capas y detalles"
+    },
+    {
+      "id": "a31",
+      "valor": "no_esta",
+      "evidencia": "el código dibuja un cuerpo completo con manto, brazos, cuello y cabeza; no hay nada que lo niegue visualmente"
+    }
+  ]
+}

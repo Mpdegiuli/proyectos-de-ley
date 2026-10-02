@@ -1,0 +1,275 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "gpt-6-astra_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:48:47+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "no_esta",
+      "evidencia": "La roca no es una isla flotante; está sobre un plano de hierba/agua: <ellipse cx=\"195\" cy=\"265\" rx=\"91\" ry=\"17\" fill=\"#97b6a2\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M108 145q-3-60 45-82c-18 42 22 70 77 51 26-9 44-22 54-39-2 51-48 86-94 89-29 2-59-4-82-19Z\" fill=\"url(#moon)\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#efd0ae\"><path d=\"m130 271 39 5-10 7-40-5Z\"/>...<path d=\"m72 331 31 3-10 7-30-3Z\"/></g>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<clipPath id=\"window\"><path d=\"M192 228V193a23 23 0 0 1 46 0v35Z\"/></clipPath> con interior: <path d=\"M189 207q12-9 25-2t27-3v34h-52Z\" fill=\"#57a8ac\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M203 225c1 19 21 26 19 50s-17 42-9 75h28c-13-35 11-55 6-78s-23-30-22-47Z\" fill=\"url(#water)\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento de puerta (rectángulo con umbral, manija, etc.); la forma oscura bajo la ventana es otra ventana/arco: <path d=\"M143 257v-53a15 15 0 0 1 30 0v57Z\" fill=\"#795d72\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<pattern id=\"tiles\" width=\"17\" height=\"14\"><path d=\"M0 13H17M8 0V13\" stroke=\"#7b737f\"/></pattern> aplicado a la pared"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"267\" cy=\"233\" rx=\"5\" ry=\"9\" transform=\"rotate(-44 267 233)\"/> (hojas) y <circle cx=\"278\" cy=\"208\" r=\"3\"/> (flores)"
+    },
+    {
+      "id": "a9",
+      "valor": "no_esta",
+      "evidencia": "El techo es una luna creciente y el agua se derrama de la ventana; nada es convencional"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "El techo-luna, los escalones sin soporte y el agua desbordándose concentran lo imposible; las paredes tienen patrón de tiles normal"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "Combinación de techo-luna, agua desbordándose y escalones flotantes en fondo nocturno estrellado"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M128 150 232 140 273 166V257l-42 17-103-18Z\" fill=\"url(#wall)\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M107 270 141 309 169 301 197 335 226 310 246 318 284 272Z\" fill=\"url(#rock)\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path fill=\"url(#sky)\" d=\"M0 0h400v400H0z\"/> (fondo oscuro nocturno) con estrellas: <circle cx=\"59\" cy=\"91\" r=\"1.4\"/> etc."
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M108 145q-3-60 45-82...\" fill=\"url(#moon)\"/> — forma curva orgánica"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M108 145q-3-60 45-82c-18 42 22 70 77 51 26-9 44-22 54-39-2 51-48 86-94 89-29 2-59-4-82-19Z\" fill=\"url(#moon)\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M187 232v-39a28 28 0 0 1 56 0v39Z\" fill=\"#a4777c\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M189 207q12-9 25-2t27-3v34h-52Z\" fill=\"#57a8ac\"/> y <path d=\"M190 216q13-8 27-1t26-2v26h-53Z\" fill=\"#8bddc8\"/> dentro del clipPath de la ventana"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M203 225c1 19 21 26 19 50s-17 42-9 75h28...\" fill=\"url(#water)\"/> partiendo desde la base de la ventana"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M203 225c1 19 21 26 19 50s-17 42-9 75h28c-13-35 11-55 6-78s-23-30-22-47Z\" fill=\"url(#water)\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"water\">...<stop offset=\"1\" stop-color=\"#64c6c8\" stop-opacity=\"0\"/></linearGradient>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#efd0ae\"><path d=\"m130 271 39 5-10 7-40-5Z\"/>...<path d=\"m72 331 31 3-10 7-30-3Z\"/></g> sin soporte visible"
+    },
+    {
+      "id": "a23",
+      "valor": "no_esta",
+      "evidencia": "No hay puerta reconocible; los escalones están al lado de la roca, no conectan a ninguna abertura identificable como puerta"
+    },
+    {
+      "id": "a24",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento que dibuje una puerta convencional (rectángulo con umbral/marco de puerta)"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"267\" cy=\"233\" rx=\"5\" ry=\"9\" transform=\"rotate(-44 267 233)\"/> y similares junto a las paredes"
+    },
+    {
+      "id": "a26",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos que representen peces nadando en el cielo"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M242 118V90l14-5v27Z\" fill=\"#a8858c\"/> (tubo vertical sobre el techo)"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M247 71c-13-15 14-14 5-26\" stroke=\"#e6cfb6\" stroke-opacity=\".5\" stroke-width=\"2\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"250\" cy=\"38\" rx=\"18\" ry=\"5\" transform=\"rotate(-18 250 38)\" stroke=\"#dfcbb0\"/> con <circle cx=\"250\" cy=\"38\" r=\"8\" fill=\"#86b7b3\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"250\" cy=\"38\" r=\"8\" fill=\"#86b7b3\"/> — radio de 8px es muy pequeño"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "El humo <path d=\"M247 71c-13-15 14-14 5-26\"/> termina cerca del planeta en cy=\"38\"; el planeta está en cy=\"38\""
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"59\" cy=\"91\" r=\"1.4\"/><circle cx=\"87\" cy=\"47\" r=\".9\"/>... (múltiples círculos pequeños en el fondo oscuro)"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop stop-color=\"#17283e\"/><stop offset=\"1\" stop-color=\"#34304d\"/></linearGradient>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"moon\"><stop stop-color=\"#ffe3ac\"/><stop offset=\".55\" stop-color=\"#f8b593\"/><stop offset=\"1\" stop-color=\"#da7e87\"/></linearGradient>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"water\"><stop stop-color=\"#b6f5df\"/><stop offset=\".5\" stop-color=\"#64c6c8\"/>...</linearGradient>"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<path d=\"M128 150 232 140 273 166V257l-42 17-103-18Z\" fill=\"url(#wall)\"/>"
+    },
+    {
+      "id": "a37",
+      "valor": "no_esta",
+      "evidencia": "La roca tiene base sobre un plano de hierba/agua visible: <ellipse cx=\"195\" cy=\"265\" rx=\"91\" ry=\"17\" fill=\"#97b6a2\"/> — no está suspendida"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<path d=\"M108 145q-3-60 45-82c-18 42 22 70 77 51 26-9 44-22 54-39-2 51-48 86-94 89-29 2-59-4-82-19Z\" fill=\"url(#moon)\"/>"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "Ventana con clipPath y <path d=\"M190 216q13-8 27-1t26-2v26h-53Z\" fill=\"#8bddc8\"/> interior"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<path d=\"M203 225c1 19 21 26 19 50s-17 42-9 75h28...\" fill=\"url(#water)\"/> con degradado a opacidad 0"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#efd0ae\"><path d=\"m130 271 39 5-10 7-40-5Z\"/>...</g> sin pilares ni suporte estructural"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#17283e\"/> y <stop offset=\"1\" stop-color=\"#34304d\"/>"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#f8b593\"/> y <stop stop-color=\"#f9e0bc\"/> y <stop stop-color=\"#ffe3ac\"/>"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#64c6c8\"/> y <stop stop-color=\"#b6f5df\"/>"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "Múltiples linearGradient y radialGradient con stops suaves: <linearGradient id=\"wall\">, <linearGradient id=\"water\">, <radialGradient id=\"halo\">"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "Formas geométricas básicas (paths con pocos puntos, círculos, elipses) sin detalles fotorrealistas"
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "Abundancia de curvas bezier: <path d=\"M108 145q-3-60 45-82c-18 42 22 70 77 51...\">, <path d=\"M203 225c1 19 21 26 19 50...\">"
+    },
+    {
+      "id": "a48",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"204\" cy=\"211\" rx=\"151\" ry=\"67\" stroke=\"#d5b491\" stroke-opacity=\".22\" stroke-dasharray=\"2 7\"/> y estrellas decorativas y cruces"
+    },
+    {
+      "id": "a49",
+      "valor": "esta",
+      "evidencia": "SVG vectorial con degradados, elementos fantásticos (luna-techo, agua en ventana), estilo ilustración limpia"
+    },
+    {
+      "id": "a50",
+      "valor": "esta",
+      "evidencia": "Paleta suave, formas redondeadas, imposibilidades presentadas con calma: agua que se desvanece, luna-techo habitada"
+    },
+    {
+      "id": "a51",
+      "valor": "esta",
+      "evidencia": "Paleta de durazno y turquesa, formas simples, elementos mágicos amables (planeta pequeño, escalones flotantes)"
+    },
+    {
+      "id": "a52",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#17283e\"/> (azul nocturno) vs <stop stop-color=\"#f8b593\"/> (durazno) vs <stop stop-color=\"#64c6c8\"/> (turquesa agua)"
+    },
+    {
+      "id": "a53",
+      "valor": "esta",
+      "evidencia": "Degradados suaves, colores cálidos, título 'La casa donde duerme la marea', agua desvaneciéndose gradualmente: todo lo imposible es sereno"
+    }
+  ]
+}

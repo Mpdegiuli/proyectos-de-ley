@@ -1,0 +1,180 @@
+{
+  "consigna": "libre",
+  "unidad": "minimax-m3_2",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:13:43+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#1a0a3e\"/><stop offset=\"35%\" stop-color=\"#6b2d5c\"/><stop offset=\"65%\" stop-color=\"#ff8c42\"/><stop offset=\"100%\" stop-color=\"#ffd97d\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "no_esta",
+      "evidencia": "<circle cx=\"60\" cy=\"70\" r=\"11\" fill=\"#e6d9ff\" opacity=\"0.9\"/> — es un círculo completo, no creciente"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"60\" cy=\"70\" r=\"22\" fill=\"url(#moon)\" opacity=\"0.5\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"190\" r=\"90\" fill=\"url(#sun)\" opacity=\"0.9\"/><circle cx=\"200\" cy=\"190\" r=\"38\" fill=\"#fff5cc\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"0,235 50,175 ...\"/><polygon points=\"0,270 35,215 ...\"/><polygon points=\"0,300 45,240 ...\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#3d1a5c\"/><stop offset=\"0%\" stop-color=\"#4a2055\" opacity=\"0.55\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"310\" rx=\"65\" ry=\"3\" fill=\"#fff5cc\" opacity=\"0.85\"/><ellipse cx=\"200\" cy=\"318\" rx=\"45\" ry=\"2\" fill=\"#ffd966\" opacity=\"0.7\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 95,355 L 95,348 Q 95,344 99,344 L 116,344 Q 120,344 120,348 L 120,355 Z\" fill=\"#0a0418\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"107,338 113,341 107,344\" fill=\"#ff7755\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"65%\" stop-color=\"#ff8c42\"/><stop offset=\"100%\" stop-color=\"#ffd97d\"/> combinado con el sol bajo"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<rect y=\"305\" width=\"400\" height=\"95\" fill=\"url(#water)\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "rect sky, polygon montañas lejanas, polygon mt1, polygon mt2, rect water, path primer plano"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\">, <radialGradient id=\"sun\">, <radialGradient id=\"moon\">, <linearGradient id=\"water\">"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "solo una embarcación: <path d=\"M 95,355 L 95,348 Q 95,344 99,344 L 116,344 ...\""
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "barca solitaria con bandera en lago al atardecer — elementos narrativos presentes en código"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 400\">"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#1a0a3e\"/><stop offset=\"35%\" stop-color=\"#6b2d5c\"/><stop offset=\"65%\" stop-color=\"#ff8c42\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"40\" cy=\"35\" r=\"1\" fill=\"#fff\"/><circle cx=\"110\" cy=\"55\" r=\"1.2\" fill=\"#fff\"/>..."
+    },
+    {
+      "id": "a19",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"60\" cy=\"70\" r=\"11\" fill=\"#e6d9ff\"/> — está a la izquierda pero es luna llena/circular, no creciente"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"190\" r=\"90\" fill=\"url(#sun)\" opacity=\"0.9\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"40%\" stop-color=\"#ffd966\"/><circle cx=\"200\" cy=\"190\" r=\"38\" fill=\"#fff5cc\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "tres polygon de montañas: points=\"0,235...\", points=\"0,270...\", points=\"0,300...\""
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#3d1a5c\"/> mt1, <stop offset=\"0%\" stop-color=\"#2a1245\"/> mt2, <stop offset=\"0%\" stop-color=\"#1a0830\"/> mt3"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<rect y=\"305\" width=\"400\" height=\"95\" fill=\"url(#water)\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"310\" rx=\"65\" ry=\"3\" fill=\"#fff5cc\" opacity=\"0.85\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "opacidades decrecientes: 0.85, 0.7, 0.5, 0.4, 0.3 en elipses sucesivas hacia abajo"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 95,355 L 95,348 Q 95,344 99,344 L 116,344 Q 120,344 120,348 L 120,355 Z\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"107,338 113,341 107,344\" fill=\"#ff7755\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 280,140 Q 286,134 292,140 Q 298,134 304,140\" stroke=\"#1a0a3e\"/><path d=\"M 305,160 Q 309,156 313,160...\"/><path d=\"M 130,130 Q 135,125 140,130...\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "cielo naranja-ámbar, sol bajo, agua con reflejos cálidos"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "luna y estrellas visibles junto con sol y cielo naranja — coexistencia día/noche"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"35%\" stop-color=\"#6b2d5c\"/><polygon ... fill=\"#4a2055\" opacity=\"0.55\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "escena estática sin movimiento, agua tranquila con elipses suaves, barca solitaria"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "composición estática, sol en horizonte, barca inmóvil, reflejos suaves"
+    }
+  ]
+}

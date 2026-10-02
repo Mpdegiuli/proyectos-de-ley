@@ -1,0 +1,230 @@
+{
+  "consigna": "persona_inexistente",
+  "unidad": "gpt-6-astra_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:18:57+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"hair\"><stop stop-color=\"#27505a\"/><stop offset=\"1\" stop-color=\"#152e3d\"/></linearGradient>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"170\" cy=\"167\" r=\"6.5\" fill=\"#657e73\"/><circle cx=\"225\" cy=\"168\" r=\"6.5\" fill=\"#b79047\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#864e42\" opacity=\".65\"><circle cx=\"158\" cy=\"190\" r=\"1.2\"/>...<circle cx=\"238\" cy=\"191\" r=\"1.1\"/></g>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"236\" cy=\"210\" r=\"1.8\" fill=\"#673d38\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"136\" cy=\"207\"... fill=\"#f5ce70\"/> solo a un lado, <circle cx=\"261\" cy=\"207\" r=\"4\" fill=\"#f5ce70\"/> y detalles asimétricos en hebillas/aros"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "rostro con ojos, nariz, boca, pelo, cuerpo vestido con saco"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "ojos de distintos colores, pecas, pelo oscuro, piel cobriza — rasgos inhabituales pero plausibles"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "personaje construido con degradados de piel, pelo, ropa; no corresponde a persona real"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skin\"><stop stop-color=\"#d39169\"/><stop offset=\".55\" stop-color=\"#bf7457\"/><stop offset=\"1\" stop-color=\"#995047\"/></linearGradient>"
+    },
+    {
+      "id": "a10",
+      "valor": "no_esta",
+      "evidencia": "el pelo cubre desde la cabeza hasta la zona alta del cuello sin indicación de corte corto; forma amplia pero no claramente corta"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"hair\"><stop stop-color=\"#27505a\"/><stop offset=\"1\" stop-color=\"#152e3d\"/></linearGradient> — azul petróleo/teal oscuro"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"170\" cy=\"167\" r=\"6.5\" fill=\"#657e73\"/> — verde grisáceo"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"225\" cy=\"168\" r=\"6.5\" fill=\"#b79047\"/> — dorado"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#864e42\" opacity=\".65\"><circle cx=\"158\" cy=\"190\" r=\"1.2\"/>...</g>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"236\" cy=\"210\" r=\"1.8\" fill=\"#673d38\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "no_esta",
+      "evidencia": "no hay path que dibuje una sonrisa; la boca tiene labios cerrados sin curva de sonrisa"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"coat\"><stop stop-color=\"#e8af48\"/><stop offset=\"1\" stop-color=\"#b9693a\"/></linearGradient> — saco mostaza/dorado"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"m149 290 52 19 47-19 17 110H134Z\" fill=\"#263e46\"/> — oscuro debajo del saco"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"136\" cy=\"207\"... fill=\"#f5ce70\"/><circle cx=\"261\" cy=\"207\" r=\"4\" fill=\"#f5ce70\"/> — aros dorados a ambos lados"
+    },
+    {
+      "id": "a20",
+      "valor": "no_esta",
+      "evidencia": "no hay elementos que representen hebillas en el pelo"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "el rostro está centrado con ojos, nariz y boca visibles de frente"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "el cuerpo se recorta en la zona del pecho/torso con el saco y la camisa debajo"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"bg\"><stop stop-color=\"#f7ddc2\"/><stop offset=\"1\" stop-color=\"#dfa997\"/></linearGradient> — fondo cálido"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"211\" cy=\"173\" r=\"139\" fill=\"#f8e8cd\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 316c75-37 129-15 179 13...\" fill=\"#9eaaa0\"/><path d=\"M0 351...\" fill=\"#718f88\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#687d75\" stroke-width=\"2\" stroke-linecap=\"round\"><path d=\"M45 309c16-24 21-57 18-94m-7 66-19-15...\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "expresión sin marcas de tensión; boca cerrada neutra, sin ceño"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "ojos de distinto color, pelo azul petróleo, pecas, lunar — combinación singular"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "personaje ilustrado no fotorrealista con rasgos fantásticos"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#864e42\" opacity=\".65\"><circle cx=\"158\" cy=\"190\" r=\"1.2\"/>...</g>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"170\" cy=\"167\" r=\"6.5\" fill=\"#657e73\"/><circle cx=\"225\" cy=\"168\" r=\"6.5\" fill=\"#b79047\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"hair\"><stop stop-color=\"#27505a\"/><stop offset=\"1\" stop-color=\"#152e3d\"/></linearGradient>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"136\" cy=\"207\"... fill=\"#f5ce70\"/><circle cx=\"261\" cy=\"207\" r=\"4\" fill=\"#f5ce70\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"211\" cy=\"173\" r=\"139\" fill=\"#f8e8cd\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#687d75\"><ellipse cx=\"38\".../>...(hojas) y ramas <path d=\"M45 309...\"/>"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "fondo #f7ddc2/#dfa997 cálido; pelo #27505a/#152e3d azul verdoso oscuro; saco #e8af48 mostaza"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "múltiples linearGradient: id=\"skin\", id=\"coat\", id=\"hair\", id=\"bg\""
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "formas geométricas simples: circles, paths con curvas básicas, sin detalle anatómico fino"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "paths con curvas bezier suaves en rostro, pelo, cuerpo"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "SVG vectorial con degradados, formas planas y estilizadas típicas de ilustración editorial"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "paleta terrosa, formas simplificadas, estrella decorativa <path d=\"m320 74 3 9 9 3...\" fill=\"#fff5dc\"/>"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "retrato con elementos decorativos: círculo de fondo, colinas, ramitas, estrella"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "formas geométricas simples, degradados visibles, sin texturas fotorrealistas"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skin\"><stop stop-color=\"#d39169\"/><stop offset=\".55\" stop-color=\"#bf7457\"/><stop offset=\"1\" stop-color=\"#995047\"/></linearGradient>"
+    }
+  ]
+}

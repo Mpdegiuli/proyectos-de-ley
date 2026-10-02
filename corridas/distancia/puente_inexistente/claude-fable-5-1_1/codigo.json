@@ -1,0 +1,275 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "claude-fable-5-1_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:34:55+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "M15 250 Q60 235 120 248 ... fill=\"url(#rock)\" y M290 208 Q340 195 392 210 ... fill=\"url(#rock)\" con nubes debajo: <ellipse cx=\"60\" cy=\"360\" ... fill=\"#fff\" opacity=\"0.35\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "Las islas flotan sin estructura de soporte debajo; las nubes están en y≈345-380, las islas en y≈208-300"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<rect x=\"58\" y=\"298\" width=\"12\" height=\"100\" fill=\"url(#fall)\"/> <rect x=\"328\" y=\"262\" width=\"9\" height=\"130\" fill=\"url(#fall)\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M110 245 Q205 140 300 205 L300 217 Q205 152 110 257 Z\" fill=\"url(#stone)\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#c9a04a\" stroke-width=\"1\" opacity=\"0.8\"><line x1=\"205\" y1=\"92\" x2=\"115\" y2=\"244\"/><line x1=\"205\" y1=\"92\" x2=\"295\" y2=\"204\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "Todos los cables parten de cx≈205: <line x1=\"205\" y1=\"92\" x2=\"115\" y2=\"244\"/><line x1=\"205\" y1=\"92\" x2=\"295\" y2=\"204\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<rect x=\"199\" y=\"100\" width=\"12\" height=\"84\" fill=\"url(#stone)\"/> — el mástil nace en y=184 sobre el tablero que está en y≈205"
+    },
+    {
+      "id": "a8",
+      "valor": "no_esta",
+      "evidencia": "Los faroles están sobre el tablero (circle cy=242,220,212,218), no colgando por debajo"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"205\" cy=\"68\" r=\"10\" fill=\"url(#glow)\"/><circle cx=\"205\" cy=\"68\" r=\"3.5\" fill=\"#fff4c2\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 300 ...\"/><path d=\"M230 285 ...\"/><path d=\"M200 330 ...\" fill=\"url(#rock)\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "El arco Q205 140 no tiene pilares hasta el suelo; las islas flotan; no hay suelo representado"
+    },
+    {
+      "id": "a12",
+      "valor": "no_esta",
+      "evidencia": "El estilo es claramente esquemático/vectorial con gradientes simples, no fotorrealista"
+    },
+    {
+      "id": "a13",
+      "valor": "no_esta",
+      "evidencia": "La imposibilidad (islas flotantes, arco sin apoyo) es evidente desde el primer vistazo en el código"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M110 245 Q205 140 300 205 L300 217 Q205 152 110 257 Z\" fill=\"url(#stone)\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "M15 250 Q60 235 120 248 (isla izq) y M290 208 Q340 195 392 210 (isla der) conectadas por el arco"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#0b0a2a\"/> cielo muy oscuro + luna visible"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M15 250 Q60 233 120 248 Q70 258 15 250 Z\" fill=\"#4f9a5a\"/> y <path d=\"M290 208 Q340 193 392 210 Q340 219 290 208 Z\" fill=\"#4f9a5a\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "contradice",
+      "evidencia": "Isla izquierda tiene 2 árboles (L48,L95), isla derecha tiene 2 (L363,L318), pero visualmente son triángulos/pinos simples — cantidad sí, pero la isla derecha: <path d=\"M355 206 L363 178 L371 206 Z\"/><path d=\"M312 208 L318 190 L324 208 Z\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<rect x=\"58\" y=\"298\" width=\"12\" height=\"100\" fill=\"url(#fall)\"/> y <rect x=\"328\" y=\"262\" width=\"9\" height=\"130\" fill=\"url(#fall)\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "Las cascadas caen hacia y=398/392 donde están las nubes: <ellipse cx=\"150\" cy=\"380\" rx=\"90\" ry=\"24\" fill=\"#fff\" opacity=\"0.35\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 300 ...\"/><path d=\"M230 285 ...\"/><path d=\"M200 330 ...\" fill=\"url(#rock)\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<rect x=\"199\" y=\"100\" width=\"12\" height=\"84\" fill=\"url(#stone)\"/><path d=\"M195 100 L205 70 L215 100 Z\" fill=\"#7d8598\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"205\" cy=\"68\" r=\"10\" fill=\"url(#glow)\"/><circle cx=\"205\" cy=\"68\" r=\"3.5\" fill=\"#fff4c2\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<line x1=\"205\" y1=\"92\" x2=\"115\" y2=\"244\"/><line x1=\"205\" y1=\"92\" x2=\"295\" y2=\"204\"/> stroke=\"#c9a04a\""
+    },
+    {
+      "id": "a25",
+      "valor": "contradice",
+      "evidencia": "Los faroles (4 círculos) están sobre/junto al tablero, no colgando bajo la baranda: cy=242,220,212,218 vs tablero Q205 140"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"148\" cy=\"242\" r=\"12\" fill=\"url(#glow)\"/> — glow tiene stop-color=\"#ffe89a\""
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"285\" cy=\"115\" r=\"62\" fill=\"url(#moon)\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"265\" cy=\"95\" r=\"8\" fill=\"#d9bf85\" opacity=\"0.5\"/><circle cx=\"305\" cy=\"130\" r=\"12\" fill=\"#d9bf85\" opacity=\"0.4\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#0b0a2a\"/><stop offset=\"0.6\" stop-color=\"#3a1f5e\"/><stop offset=\"1\" stop-color=\"#b05a7a\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "Formas geométricas simples: triángulos para árboles, rectángulos para mástil, paths básicos para islas"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "Islas flotantes (imposible) + paleta nocturna suave con gradientes y resplandores dorados"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<path d=\"M15 250 Q60 235 120 248 ... fill=\"url(#rock)\"/> y <path d=\"M290 208 Q340 195 392 210 ... fill=\"url(#rock)\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<path d=\"M40 246 L48 222 L56 246 Z\" fill=\"#2f6b3d\"/> etc. en ambas islas"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<rect x=\"58\" y=\"298\" width=\"12\" height=\"100\" fill=\"url(#fall)\"/> <rect x=\"328\" y=\"262\" width=\"9\" height=\"130\" fill=\"url(#fall)\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"150\" cy=\"380\" rx=\"90\" ry=\"24\" fill=\"#fff\" opacity=\"0.35\"/> bajo las cascadas"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "No hay ningún elemento de suelo o base sólida bajo las islas en el código"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<path d=\"M110 245 Q205 140 300 205 L300 217 Q205 152 110 257 Z\" fill=\"url(#stone)\"/>"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "El arco Q205 140 va directamente de isla a isla sin paths de pilares hasta suelo"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<rect x=\"199\" y=\"100\" width=\"12\" height=\"84\" fill=\"url(#stone)\"/>"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<line x1=\"205\" y1=\"92\" x2=\"115\" y2=\"244\"/> <line x1=\"205\" y1=\"92\" x2=\"295\" y2=\"204\"/> stroke=\"#c9a04a\""
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "El mástil (rect y=100 a y=184) se apoya sobre el tablero (path Q205 140) que a su vez flota"
+    },
+    {
+      "id": "a42",
+      "valor": "no_esta",
+      "evidencia": "Los faroles están posicionados sobre/junto al tablero (cy=212-242), no colgando debajo"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "Los faroles cy=212-242 están sobre el arco que atraviesa el vacío entre islas flotantes"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "Shapes geométricas con fill plano o gradiente, sin texturas complejas ni efectos 3D avanzados"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "Cielo #0b0a2a, luna, estrellas, faroles dorados — iconografía de cuento nocturno"
+    },
+    {
+      "id": "a46",
+      "valor": "contradice",
+      "evidencia": "Hay contornos: <path d=\"M110 245 Q205 140 300 205\" fill=\"none\" stroke=\"#c7cfe0\" stroke-width=\"1.5\"/> y otros strokes"
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\">...</linearGradient> aplicado en <rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/>"
+    },
+    {
+      "id": "a48",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"moon\">...</radialGradient> aplicado en <circle cx=\"285\" cy=\"115\" r=\"62\" fill=\"url(#moon)\"/>"
+    },
+    {
+      "id": "a49",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"glow\"><stop offset=\"0\" stop-color=\"#ffe89a\" stop-opacity=\"0.9\"/><stop offset=\"1\" stop-color=\"#ffb347\" stop-opacity=\"0\"/>"
+    },
+    {
+      "id": "a50",
+      "valor": "esta",
+      "evidencia": "#3a1f5e (violeta), #b05a7a (rosado), #c9a04a/#e8d7a0 (dorado) en el código"
+    },
+    {
+      "id": "a51",
+      "valor": "esta",
+      "evidencia": "Gradientes de cielo, resplandores, luna con gradiente radial — atmósfera sobre precisión realista"
+    },
+    {
+      "id": "a52",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"285\" cy=\"115\" r=\"62\" fill=\"url(#moon)\"/>"
+    },
+    {
+      "id": "a53",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#0b0a2a\"/> — cielo muy oscuro con estrellas y luna"
+    }
+  ]
+}

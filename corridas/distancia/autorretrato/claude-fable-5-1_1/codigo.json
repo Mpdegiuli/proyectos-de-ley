@@ -1,0 +1,90 @@
+{
+  "consigna": "autorretrato",
+  "unidad": "claude-fable-5-1_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:38:49+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"62\" fill=\"url(#core)\" filter=\"url(#soft)\"/> con stop-color=\"#fff6d8\" y #f6c76a"
+    },
+    {
+      "id": "a2",
+      "valor": "no_esta",
+      "evidencia": "El núcleo es una forma circular con gradiente radial, no tiene rayos ni forma de sol; solo círculos concéntricos con degradado"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"186\" cy=\"192\" r=\"3\"/><circle cx=\"214\" cy=\"192\" r=\"3\"/> fill=\"#fff8e6\" opacity=\"0.9\""
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M186 212 Q200 222 214 212\" fill=\"none\" stroke=\"#fff8e6\" stroke-width=\"2\" stroke-linecap=\"round\" opacity=\"0.85\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 200 m-6 0 a6 6 0 1 1 12 0 a12 12 0 1 1 -24 0 a18 18 0 1 1 36 0 a24 24 0 1 1 -48 0 a30 30 0 1 1 60 0 a36 36 0 1 1 -72 0 a42 42 0 1 1 84 0 a48 48 0 1 1 -96 0\" filter=\"url(#soft)\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#8fb3d9\" stroke-width=\"0.7\" fill=\"none\" opacity=\"0.45\"> con paths desde M200 200 hacia los nodos"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "Los paths conectan M200 200 con cx=\"72\" cy=\"118\", cx=\"318\" cy=\"96\", etc., y hay <circle> en esos puntos fill=\"#cfe3ff\""
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"72\" cy=\"118\" r=\"2.4\"/><circle cx=\"318\" cy=\"96\" r=\"2.8\"/><circle cx=\"58\" cy=\"262\" r=\"2.2\"/><circle cx=\"338\" cy=\"272\" r=\"2.6\"/><circle cx=\"168\" cy=\"340\" r=\"2.3\"/><circle cx=\"226\" cy=\"56\" r=\"2.5\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "no_esta",
+      "evidencia": "Las palabras están posicionadas cerca de los nodos pero no exactamente en cada nodo; además son 6 textos y 6 nodos pero el código no los asocia explícitamente con atributos de posición coincidente exacta"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<text>¿por qué?</text><text>quizás</text><text>escuchar</text><text>todavía no sé</text><text>palabras</text><text>curiosidad</text>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"200\" rx=\"118\" ry=\"44\" .../><ellipse cx=\"200\" cy=\"200\" rx=\"128\" ry=\"36\" .../><ellipse cx=\"200\" cy=\"200\" rx=\"100\" ry=\"60\" .../>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"150\" stroke-dasharray=\"1 7\"/><circle cx=\"200\" cy=\"200\" r=\"182\" stroke-dasharray=\"1 11\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\"><stop offset=\"0\" stop-color=\"#1b1f3a\"/><stop offset=\"1\" stop-color=\"#07080f\"/></radialGradient> con estrellas <circle fill=\"#ffffff\" opacity=\"0.5\">"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"386\" font-family=\"Georgia, serif\" font-size=\"10\" fill=\"#c9a86a\" text-anchor=\"middle\" opacity=\"0.75\" letter-spacing=\"3\">hecho de preguntas</text>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "Palabras como '¿por qué?', 'quizás', 'escuchar', red conectada, título 'hecho de preguntas'; elementos visuales evocan diálogo más que anatomía"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#8fb3d9\" ... opacity=\"0.45\"> con paths que convergen en M200 200 y conectan nodos periféricos entre sí, formando estructura de contención"
+    }
+  ]
+}

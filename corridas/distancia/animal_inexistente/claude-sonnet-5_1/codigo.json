@@ -1,0 +1,215 @@
+{
+  "consigna": "animal_inexistente",
+  "unidad": "claude-sonnet-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:00:06+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"180\" cy=\"55\" r=\"6\" fill=\"#ffd86b\"/> <circle cx=\"230\" cy=\"55\" r=\"6\" fill=\"#ffd86b\"/> — son círculos simples, no espirales de caracol"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M205,55 Q195,30 175,20\" stroke=\"#ff9f43\"/> <circle cx=\"175\" cy=\"20\" r=\"5\" fill=\"#ff9f43\"/> — antenas con bolitas"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150,230 Q120,210 100,230 Q120,245 150,245 Z\" fill=\"#c9aefc\" opacity=\"0.8\"/> — alitas pequeñas decorativas"
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "La cola termina en <circle cx=\"335\" cy=\"160\" r=\"14\" fill=\"url(#spot)\"/> pero no está en la punta morfológica de la cola como mazo; la forma es Q330,230 340,170"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "cuerpo: <ellipse cx=\"200\" cy=\"260\" rx=\"90\" ry=\"60\"/> vs alas: Q120,210 100,230 Q120,245 150,245 — alas muy pequeñas para cuerpo grande"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"body\"><stop offset=\"0%\" stop-color=\"#8a5cf6\"/><stop offset=\"100%\" stop-color=\"#4fb0c6\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"160\" cy=\"250\" r=\"10\" fill=\"url(#spot)\"/> — spot va de #ffd86b a #ff9f43 (dorado-naranja)"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "patas traseras: <line x1=\"150\" y1=\"290\" x2=\"140\" y2=\"345\"/> <line x1=\"250\" y1=\"290\" x2=\"260\" y2=\"345\"/> + patas delanteras: <line x1=\"175\" y1=\"300\" x2=\"165\" y2=\"350\"/> <line x1=\"225\" y1=\"300\" x2=\"235\" y2=\"350\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "cabeza, cuello, cuerpo, patas, cola, alas, orejas, ojos, hocico — cada uno con elemento SVG propio"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "mezcla de antenas de insecto, alas, cuernos, patas de cuadrúpedo, cola — combinación biológicamente imposible"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"188\" cy=\"90\" r=\"12\" fill=\"#fff\"/> ojos grandes, hocico pequeño anaranjado, colores pastel — efecto visual tierno"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"/> <linearGradient id=\"body\"/> <radialGradient id=\"spot\"/> — tres gradientes definidos y usados"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "criatura fantástica con múltiples partes mezcladas — subjetivo pero respaldado por la riqueza de elementos"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "animal con antenas, alas, cuernos, manchas, cola — criatura imaginaria completa"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"body\"><stop offset=\"0%\" stop-color=\"#8a5cf6\"/><stop offset=\"100%\" stop-color=\"#4fb0c6\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "contradice",
+      "evidencia": "manchas usan url(#spot) que es dorado-naranja (#ffd86b a #ff9f43), no cubre todo el cuerpo; solo 3 círculos pequeños"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M170,220 Q160,150 190,100 Q210,80 220,100 Q200,150 210,220 Z\" fill=\"url(#body)\"/> — cuello curvo largo"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M175,60 Q160,30 185,35 Q185,55 195,65 Z\" fill=\"#4fb0c6\"/> <path d=\"M235,60 Q255,30 230,35 Q228,55 220,65 Z\" fill=\"#4fb0c6\"/> — orejas puntiagudas"
+    },
+    {
+      "id": "a19",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"180\" cy=\"55\" r=\"6\" fill=\"#ffd86b\"/> — son círculos simples dorados, no espirales"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M205,55 Q195,30 175,20\"/> <circle cx=\"175\" cy=\"20\" r=\"5\" fill=\"#ff9f43\"/> <path d=\"M205,55 Q215,30 235,20\"/> <circle cx=\"235\" cy=\"20\" r=\"5\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "antenas curvas con bolitas: <path d=\"M205,55 Q195,30 175,20\" stroke=\"#ff9f43\"/> <circle cx=\"175\" cy=\"20\" r=\"5\" fill=\"#ff9f43\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"188\" cy=\"90\" r=\"12\" fill=\"#fff\"/> <circle cx=\"222\" cy=\"90\" r=\"12\" fill=\"#fff\"/> <circle cx=\"190\" cy=\"92\" r=\"6\" fill=\"#222\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M195,105 Q205,120 215,105 Q210,115 205,115 Q200,115 195,105 Z\" fill=\"#ff9f43\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<line x1=\"150\" y1=\"290\" x2=\"140\" y2=\"345\" stroke-width=\"10\"/> — patas como líneas delgadas"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M260,250 Q330,230 340,170 Q345,150 325,155 Q330,190 280,220 Z\" fill=\"url(#body)\"/> — cola curva"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"335\" cy=\"160\" r=\"14\" fill=\"url(#spot)\"/> — esfera dorada asociada a la cola"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150,230 Q120,210 100,230 Q120,245 150,245 Z\" fill=\"#c9aefc\" opacity=\"0.8\"/> <path d=\"M250,230 Q280,210 300,230 Q280,245 250,245 Z\" fill=\"#c9aefc\" opacity=\"0.8\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "alas muy pequeñas (ancho ~50px) vs cuerpo grande rx=\"90\" ry=\"60\" — insuficientes para volar"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path fill=\"#c9aefc\" opacity=\"0.8\"/> — color violeta suave con transparencia, efecto mágico"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "cuello/cuerpo tipo dragón, orejas tipo cabra, antenas de mariposa — mezcla visible en el código"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<path d=\"M205,55 Q195,30 175,20\" stroke=\"#ff9f43\"/> <circle cx=\"175\" cy=\"20\" r=\"5\" fill=\"#ff9f43\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "contradice",
+      "evidencia": "orejas: paths puntiagudos; cuernitos: <circle cx=\"180\" cy=\"55\" r=\"6\" fill=\"#ffd86b\"/> — simples círculos, no espirales"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150,230 Q120,210 100,230 Q120,245 150,245 Z\" fill=\"#c9aefc\" opacity=\"0.8\"/> — alitas diminutas"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"335\" cy=\"160\" r=\"14\" fill=\"url(#spot)\"/> junto a la cola"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "fondo #cfe8f3, cuerpo #8a5cf6-#4fb0c6, manchas #ffd86b-#ff9f43 — paleta pastel con violetas, celestes y naranjas"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"/> <linearGradient id=\"body\"/> <radialGradient id=\"spot\"/> — gradientes suaves definidos"
+    },
+    {
+      "id": "a37",
+      "valor": "contradice",
+      "evidencia": "rellenos con gradientes: fill=\"url(#body)\" fill=\"url(#spot)\" — no es plano; tiene gradientes"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "ojos grandes con brillo, hocico pequeño, colores pastel, antenas con bolitas — apariencia tierna y curiosa"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "colores pastel, ojos grandes, elementos fantásticos — estilo friendly de mascota"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "colores suaves #cfe8f3 fondo, #8a5cf6 cuerpo, sin elementos agresivos — no amenazante"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"body\"><stop offset=\"0%\" stop-color=\"#8a5cf6\"/><stop offset=\"100%\" stop-color=\"#4fb0c6\"/> — gradientes dan sensación de volumen"
+    }
+  ]
+}

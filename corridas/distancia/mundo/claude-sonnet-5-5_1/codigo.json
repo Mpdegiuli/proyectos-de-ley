@@ -1,0 +1,90 @@
+{
+  "consigna": "mundo",
+  "unidad": "claude-sonnet-5-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:17:10+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"175\" r=\"95\" fill=\"url(#globe)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"bg\" ...><stop offset=\"0\" stop-color=\"#0d1033\"/><stop offset=\"0.85\" stop-color=\"#c8567a\"/><stop offset=\"1\" stop-color=\"#ffb26b\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0.6\" stop-color=\"#3b2a63\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0.85\" stop-color=\"#c8567a\"/><stop offset=\"1\" stop-color=\"#ffb26b\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"175\" r=\"150\" fill=\"url(#glow)\"/> con <radialGradient id=\"glow\"><stop offset=\"0.6\" stop-color=\"#ffd9a0\" stop-opacity=\"0.35\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<g fill=\"none\" stroke=\"#ffe6b0\" stroke-width=\"0.8\" opacity=\"0.85\">"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"150\" cy=\"140\" r=\"3\"/><circle cx=\"245\" cy=\"135\" r=\"3\"/><circle cx=\"262\" cy=\"215\" r=\"3\"/><circle cx=\"165\" cy=\"235\" r=\"3\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 140 Q60 90 40 60\" stroke-dasharray=\"2 3\"/><path d=\"M245 135 Q330 80 365 55\" stroke-dasharray=\"2 3\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"65\" cy=\"290\" rx=\"38\" ry=\"16\" fill=\"#2a2440\"/><ellipse cx=\"90\" cy=\"282\" rx=\"30\" ry=\"14\" fill=\"#352d52\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M68 283 l-6 12 h6 l-3 10 l10-15 h-6 l4-7z\" fill=\"#ffe27a\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 360 Q80 335 160 352 T320 345 T400 350 V400 H0z\" fill=\"#1a1230\"/> con <rect x=\"40\" y=\"356\" width=\"10\" height=\"12\" fill=\"#2a1f45\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<rect x=\"43\" y=\"359\" width=\"3\" height=\"3\"/><rect x=\"64\" y=\"363\" width=\"3\" height=\"3\"/> fill=\"#ffcf70\""
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M335 360 Q333 335 338 315\" stroke=\"#6fc27a\" .../><path d=\"M337 330 Q322 318 318 322 ...\" fill=\"#7fd68a\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"385\" ...>frágil, enredado, y aun así amaneciendo</text>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<g fill=\"none\" stroke=\"#ffe6b0\" stroke-width=\"0.8\" opacity=\"0.85\"> con múltiples paths que unen puntos sobre el globo y se extienden a los bordes"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "fondo oscuro (#0d1033) con rayo de tormenta (#ffe27a) pero con brote verde (#7fd68a) y amanecer (#ffb26b) y texto 'amaneciendo'"
+    }
+  ]
+}

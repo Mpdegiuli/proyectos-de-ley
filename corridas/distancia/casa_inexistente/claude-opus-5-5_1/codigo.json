@@ -1,0 +1,215 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "claude-opus-5-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:40:57+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M145 250 L152 168 L240 162 L252 250Z\" fill=\"#e3b58a\"/> (paredes no verticales, casa con geometría inclinada)"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M85 250 Q200 235 315 250 L270 300 L215 375 L180 330 L130 300 Z\" fill=\"url(#r)\"/> (isla de tierra con la casa encima)"
+    },
+    {
+      "id": "a3",
+      "valor": "no_esta",
+      "evidencia": "<g fill=\"#f7d6e0\" opacity=\".5\"><ellipse cx=\"70\" cy=\"330\" .../> (color rosado pero son nubes/niebla en la parte inferior, no nubes rosadas típicas)"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"s\">...<stop offset=\"1\" stop-color=\"#f29b6b\"/> (degradado de cielo con naranja atardecer)"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"330\" cy=\"80\" r=\"26\" fill=\"#fdf0c8\"/><circle cx=\"341\" cy=\"72\" r=\"24\" fill=\"#3a2458\" opacity=\".85\"/> (luna con círculo oscuro superpuesto = menguante)"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#3a2a22\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"><path d=\"M150 305 q-5 30 5 55 ...\"/> (trazos curvos colgando de la isla = raíces)"
+    },
+    {
+      "id": "a7",
+      "valor": "no_esta",
+      "evidencia": "No hay ningún elemento que represente agua cayendo o cascada en el código."
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#c9a070\" stroke-width=\"2\"><line x1=\"285\" y1=\"258\" x2=\"300\" y2=\"398\"/><line x1=\"299\" y1=\"257\" x2=\"314\" y2=\"397\"/> con líneas horizontales transversales = escalera de cuerda"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "Las líneas de la escalera terminan en y=398 (borde del canvas) sin suelo representado debajo."
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M145 250 L152 168 L240 162 L252 250Z\"/> y <path d=\"M145 250 L152 168 L170 167 L165 250Z\"/> (paredes con puntos no alineados verticalmente = chuecas)"
+    },
+    {
+      "id": "a11",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M132 174 Q185 88 258 164 Q200 150 132 174Z\" fill=\"#4a3a6a\"/> (techo curvo existe pero color es violeta oscuro/índigo, no exactamente violeta llamativo; podría considerarse)"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M220 104 L252 30 L272 108 Q246 96 220 104Z\" fill=\"#b04a5a\"/> (techo de cucurucho rojo/rosado sobre torre)"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"252\" cy=\"30\" r=\"3\" fill=\"#fff6b0\"/> (círculo luminoso en la punta de la torrecita)"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M160 145 L165 100 L180 101 L177 150Z\" fill=\"#8a4b5c\"/> (rectángulo inclinado = chimenea inclinada)"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff6b0\"><circle cx=\"172\" cy=\"88\" r=\"3\"/><circle cx=\"165\" cy=\"72\" r=\"2.5\" opacity=\".8\"/>... (círculos luminosos saliendo de la chimenea = burbujas de luz)"
+    },
+    {
+      "id": "a16",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento circle o ellipse identificado como ventana redonda en el código de la casa."
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"195\" cy=\"200\" r=\"30\" fill=\"url(#g)\" filter=\"url(#b)\"/> con radialGradient amarillo-naranja y blur = resplandor cálido"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M212 250 V228 Q224 212 236 228 V250Z\" fill=\"#5a3a3a\"/> (forma con arco superior = puerta en arco)"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M210 250 h28 l4 6 h-36Z\" fill=\"#8a6a5a\"/> (trapecio pequeño frente a la puerta = escalón)"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "El escalón está en y=250 que es el borde de la isla; no hay suelo debajo al que lleve."
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffd66b\"><circle cx=\"120\" cy=\"190\" r=\"1.6\"/><circle cx=\"275\" cy=\"200\" r=\"1.4\"/><circle cx=\"300\" cy=\"170\" r=\"1.2\"/><circle cx=\"110\" cy=\"160\" r=\"1\"/> (puntos luminosos alrededor de la casa = luciérnagas)"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "La isla <path d=\"M85 250 Q200 235 315 250 L270 300 L215 375 L180 330 L130 300 Z\"/> aparece sobre fondo de cielo sin suelo, implica flotación."
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M145 250 L152 168 L240 162 L252 250Z\" fill=\"#e3b58a\"/> (estructura de casa con paredes y techo)"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M85 250 Q200 235 315 250 L270 300 L215 375 L180 330 L130 300 Z\" fill=\"url(#r)\"/> (pedazo de tierra con la casa encima)"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#f7d6e0\" opacity=\".5\"><ellipse cx=\"70\" cy=\"330\" rx=\"70\" ry=\"18\"/>... (elipses difusas alrededor/debajo de la isla = nubes)"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"s\">...<stop offset=\".6\" stop-color=\"#6b3a78\"/><stop offset=\"1\" stop-color=\"#f29b6b\"/> (degradado violeta-naranja = atardecer)"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 305 q-5 30 5 55 q4 10 -2 20\"/>... (paths curvos colgando de la isla)"
+    },
+    {
+      "id": "a28",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento que represente agua o cascada cayendo al vacío."
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<line x1=\"285\" y1=\"258\" x2=\"300\" y2=\"398\"/><line x1=\"299\" y1=\"257\" x2=\"314\" y2=\"397\"/> con travesaños, termina en el aire sin suelo."
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff6b0\"><circle cx=\"172\" cy=\"88\" r=\"3\"/><circle cx=\"165\" cy=\"72\" r=\"2.5\" opacity=\".8\"/>... (bolitas luminosas saliendo de la chimenea)"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<path d=\"M145 250 L152 168 L240 162 L252 250Z\"/> (coordenadas asimétricas dan paredes inclinadas/torcidas)"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<path d=\"M226 168 L234 98 L264 103 L258 170Z\" fill=\"#9fc3c9\"/> (rectángulo angosto y alto = torre angosta)"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<path d=\"M220 104 L252 30 L272 108 Q246 96 220 104Z\" fill=\"#b04a5a\"/> (forma triangular/cucurucho sobre la torre)"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#f7d6e0\" opacity=\".5\"><ellipse cx=\"70\" cy=\"330\" rx=\"70\" ry=\"18\"/>... (elipses = nubes)"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"195\" cy=\"200\" r=\"30\" fill=\"url(#g)\" filter=\"url(#b)\"/> y <circle cx=\"246\" cy=\"132\" r=\"18\" fill=\"url(#g)\" opacity=\".5\" filter=\"url(#b)\"/> (resplandores difuminados en ventanas)"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "stop-color=\"#6b3a78\" (violeta), stop-color=\"#f29b6b\" (durazno), fill=\"#ffd66b\" (amarillo cálido) presentes en el código."
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "Paths geométricos simples, colores planos o degradados lineales, sin texturas fotográficas = ilustración vectorial plana."
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "Combinación de isla flotante, casa torcida, luciérnagas, luna, colores cálidos/fantásticos remite a cozy fantasy/libro infantil."
+    },
+    {
+      "id": "a39",
+      "valor": "contradice",
+      "evidencia": "<path d=\"M132 174 Q185 88 258 164...\" (techo sin contorno explícito) pero <ellipse cx=\"246\" cy=\"132\" rx=\"7\" ry=\"11\" stroke=\"#3a4a5a\" stroke-width=\"2\"/> y <circle cx=\"195\" cy=\"200\" r=\"15\" stroke=\"#5a3a3a\" stroke-width=\"3\"/> tienen contornos/strokes explícitos."
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"s\">...<linearGradient id=\"r\">...<radialGradient id=\"g\">... (múltiples degradados suaves usados en el dibujo)"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<filter id=\"b\"><feGaussianBlur stdDeviation=\"3\"/></filter> aplicado a los resplandores: filter=\"url(#b)\" en los círculos de ventanas."
+    }
+  ]
+}

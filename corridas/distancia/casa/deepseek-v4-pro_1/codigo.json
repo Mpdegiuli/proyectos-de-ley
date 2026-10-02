@@ -1,0 +1,190 @@
+{
+  "consigna": "casa",
+  "unidad": "deepseek-v4-pro_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:37:12+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<rect x=\"120\" y=\"180\" width=\"160\" height=\"140\" fill=\"#FFF8DC\"/> <!-- House Body -->"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#skyGrad)\"/> <!-- Background Sky --> <circle cx=\"330\" cy=\"70\" r=\"25\" fill=\"#FFCA28\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skyGrad\" x1=\"0%\" y1=\"0%\" x2=\"0%\" y2=\"100%\"><stop offset=\"0%\" stop-color=\"#87CEEB\"/><stop offset=\"100%\" stop-color=\"#E0F6FF\"/></linearGradient>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"330\" cy=\"70\" r=\"40\" fill=\"#FFF59D\" opacity=\"0.6\"/><circle cx=\"330\" cy=\"70\" r=\"25\" fill=\"#FFCA28\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#FFFFFF\" opacity=\"0.9\"><circle cx=\"80\" cy=\"60\" r=\"15\"/>..."
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M100,130 Q105,120 110,130 Q115,120 120,130\" fill=\"none\" stroke=\"#424242\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0,280 Q100,220 200,280 T400,260 L400,400 L0,400 Z\" fill=\"#A5D6A7\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<rect x=\"60\" y=\"200\" width=\"12\" height=\"120\" fill=\"#6D4C41\"/><circle cx=\"66\" cy=\"170\" r=\"35\" fill=\"#43A047\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"110\" cy=\"315\" r=\"22\" fill=\"#2E7D32\"/><circle cx=\"140\" cy=\"325\" r=\"25\" fill=\"#388E3C\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#FFFFFF\"><!-- Posts --><rect x=\"20\" y=\"270\" width=\"8\" height=\"50\" rx=\"2\"/>..."
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200,320 L175,400 Q200,415 225,400 Z\" fill=\"#D7CCC8\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<rect x=\"100\" y=\"290\" width=\"20\" height=\"30\" fill=\"#8D6E63\"/><circle cx=\"105\" cy=\"290\" r=\"5\" fill=\"#F44336\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"100,185 200,70 300,185\" fill=\"#D84315\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<rect x=\"228\" y=\"40\" width=\"24\" height=\"80\" fill=\"#8D6E63\"/> <circle cx=\"240\" cy=\"20\" r=\"8\" fill=\"#E0E0E0\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<rect x=\"130\" y=\"245\" width=\"40\" height=\"10\" fill=\"#5D4037\"/><circle cx=\"140\" cy=\"242\" r=\"5\" fill=\"#F44336\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<rect x=\"175\" y=\"230\" width=\"50\" height=\"90\" fill=\"#5D4037\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"130\" r=\"15\" fill=\"#87CEEB\" stroke=\"#D2B48C\" stroke-width=\"4\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "fill=\"#FFCA28\" (sol cálido), fill=\"#81C784\" (pasto verde), composición centrada con casa, árboles y cielo equilibrados"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0,280 Q100,220 200,280...\" fill=\"#A5D6A7\"/> (colina fondo), <rect x=\"0\" y=\"280\"... fill=\"url(#groundGrad)\"/> (suelo frente)"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<rect x=\"120\" y=\"180\" width=\"160\" height=\"140\" fill=\"#FFF8DC\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"100,185 200,70 300,185\" fill=\"#D84315\"/> (triángulo simétrico, color rojo)"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"240\" cy=\"20\" r=\"8\" fill=\"#E0E0E0\"/><circle cx=\"248\" cy=\"5\" r=\"12\" fill=\"#E0E0E0\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"170,230 200,215 230,230\" fill=\"#D84315\"/> <!-- Door Canopy -->"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<use href=\"#window\" x=\"135\" y=\"200\"/><use href=\"#window\" x=\"235\" y=\"200\"/> con stroke=\"#D2B48C\""
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<rect x=\"130\" y=\"245\" width=\"40\" height=\"10\" fill=\"#5D4037\"/><circle cx=\"140\" cy=\"242\" r=\"5\" fill=\"#F44336\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<rect x=\"60\" y=\"200\" width=\"12\" height=\"120\" fill=\"#6D4C41\"/> (izq) <rect x=\"330\" y=\"220\" width=\"10\" height=\"100\" fill=\"#6D4C41\"/> (der)"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"110\" cy=\"315\" r=\"22\" fill=\"#2E7D32\"/><circle cx=\"140\" cy=\"325\" r=\"25\" fill=\"#388E3C\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#FFFFFF\"><!-- Posts --><rect x=\"20\" y=\"270\" width=\"8\" height=\"50\" rx=\"2\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200,320 L175,400 Q200,415 225,400 Z\" fill=\"#D7CCC8\"/> <ellipse cx=\"195\" cy=\"340\" rx=\"12\" ry=\"5\" fill=\"#BCAAA4\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"280\" width=\"400\" height=\"120\" fill=\"url(#groundGrad)\"/> con stop-color=\"#81C784\""
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0,280 Q100,220 200,280 T400,260 L400,400 L0,400 Z\" fill=\"#A5D6A7\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skyGrad\"><stop offset=\"0%\" stop-color=\"#87CEEB\"/><stop offset=\"100%\" stop-color=\"#E0F6FF\"/></linearGradient>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"330\" cy=\"70\" r=\"25\" fill=\"#FFCA28\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#FFFFFF\" opacity=\"0.9\"><circle cx=\"80\" cy=\"60\" r=\"15\"/>..."
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<path d=\"M130,110 Q135,100 140,110 Q145,100 150,110\" fill=\"none\" stroke=\"#424242\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "formas geométricas simples (rect, circle, polygon) con colores sólidos y vivos como fill=\"#D84315\", fill=\"#43A047\", fill=\"#FFCA28\""
+    }
+  ]
+}

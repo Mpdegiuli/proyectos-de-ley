@@ -1,0 +1,245 @@
+{
+  "consigna": "animal_inexistente",
+  "unidad": "gpt-6-astra_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:06:03+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "no_esta",
+      "evidencia": "El cuerpo se dibuja con path y ellipse pero no hay forma de cuadrúpedo clásico; es más una silueta redondeada frontal sin cuatro patas visibles como cuadrúpedo"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M139 135c-19-25-51-35-73-25 ... m82-36c14-27 41-46 67-40 ...\" fill=\"url(#petal)\""
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"131\" cy=\"50\" r=\"7\" filter=\"url(#glow)\"/> <circle cx=\"236\" cy=\"45\" r=\"7\" filter=\"url(#glow)\"/> con g stroke para astas ramificadas"
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "La cola es un trazo curvo: <path d=\"M243 284c44 14 97-9 110-49 ...\" stroke=\"url(#tail)\"/> sin forma de espiral ni hoja al remate"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M240 218c14-24 36-31 58-24-8 9-16 18-29 23 10-1 20 1 30 7-15 13-36 18-56 12\" fill=\"url(#petal)\""
+    },
+    {
+      "id": "a6",
+      "valor": "contradice",
+      "evidencia": "fill=\"url(#fur)\" con stops #b1f0d7, #60c7c0, #328695 — es verde agua/turquesa, no verde simple"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#c4d6cb\"><circle cx=\"49\" cy=\"116\" r=\"1.3\"/>...<circle cx=\"231\" cy=\"362\" r=\"1.1\"/></g>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"142\" cy=\"182\" rx=\"11\" ry=\"6\" fill=\"#eea9a1\" opacity=\".75\"/> mejillas rosadas y ojos con brillo sugieren expresión amigable"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M145 196c-18 23-32 46-27 73 ... fill=\"url(#fur)\" stroke=\"#203e52\" — silueta de cuerpo con cara, orejas, patas"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "Orejas tipo pétalo, aleta vegetal, cola curva, cara con ojos oscuros — mezcla rasgos animales e imposibles en forma familiar"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M145 196c-18 23-32 46-27 73 4 23 29 39 65 42 43 5 77-9 85-35 8-29-14-62-39-79Z\" fill=\"url(#fur)\" — cuerpo redondeado y compacto"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "url(#fur) stops: #b1f0d7, #60c7c0, #328695 — verde agua/turquesa"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M164 276c-8 12-13 25-10 39 ... M131 270c-6 11-12 26-9 39 ... — cuatro segmentos de patas"
+    },
+    {
+      "id": "a14",
+      "valor": "no_esta",
+      "evidencia": "Las patas terminan con fill=\"#efd0a0\" y #d1bb98 — tono beige/dorado pero no hay dedos explícitos; \"dorados\" es aproximado y sin forma de dedos"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "Ojos oscuros, mejillas rosadas, nariz pequeña: <path d=\"M170 179c4-8 28-10 34-1 ...\" fill=\"#e3f3d4\"/> <ellipse cx=\"142\" cy=\"182\" fill=\"#eea9a1\""
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M146 164c0-12 18-14 20-1 ...\" fill=\"#183344\"/> <ellipse cx=\"152\" cy=\"159\" rx=\"3\" ry=\"4\" fill=\"#f4ffe9\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"142\" cy=\"182\" rx=\"11\" ry=\"6\" fill=\"#eea9a1\" opacity=\".75\"/> <ellipse cx=\"232\" cy=\"180\" rx=\"11\" ry=\"6\" fill=\"#eea9a1\" opacity=\".75\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"m186 135-4 8 5 7 5-8Z\" fill=\"#f8dda5\"/> — rombo pequeño en la frente"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M139 135c-19-25-51-35-73-25 ... m82-36c14-27 41-46 67-40 ...\" fill=\"url(#petal)\" — orejas grandes con relleno pétalo"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#ffd7a4\"><path d=\"M157 129c-2-25-24-32-21-53m9 30 ...m73 50c1-23 23-35 19-56\" stroke-width=\"6\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"131\" cy=\"50\" r=\"7\" filter=\"url(#glow)\" opacity=\".65\"/> <circle cx=\"236\" cy=\"45\" r=\"7\" filter=\"url(#glow)\" opacity=\".65\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M243 284c44 14 97-9 110-49 12-37-3-72-28-70-25 1-31 32-16 39 10 5 20-2 18-12\" stroke=\"url(#tail)\" stroke-width=\"22\""
+    },
+    {
+      "id": "a23",
+      "valor": "no_esta",
+      "evidencia": "La cola no termina en hoja; el apéndice con fill=\"url(#petal)\" está en el costado, no en la cola"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M240 218c14-24 36-31 58-24-8 9-16 18-29 23 10-1 20 1 30 7-15 13-36 18-56 12\" fill=\"url(#petal)\""
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path fill=\"url(#night)\" d=\"M0 0h400v400H0z\"/> con radialGradient stops #303857 y #101b30"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#c4d6cb\"><circle cx=\"49\" cy=\"116\" r=\"1.3\"/>...<circle cx=\"231\" cy=\"362\" r=\"1.1\"/></g>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M297 34a14 14 0 1 0 17 20 14 14 0 0 1-17-20Z\" fill=\"#f5d69e\"/> — forma de luna creciente"
+    },
+    {
+      "id": "a28",
+      "valor": "no_esta",
+      "evidencia": "No hay ningún elemento que represente un insecto alado en el código"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M145 196c-18 23-32 46-27 73 4 23 29 39 65 42 43 5 77-9 85-35 8-29-14-62-39-79Z\" fill=\"url(#fur)\" — cuerpo redondeado"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<path d=\"M164 276c-8 12-13 25-10 39 ... M131 270c-6 11-12 26-9 39 ...\" — patas cortas debajo del cuerpo"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"131\" cy=\"50\" r=\"7\" filter=\"url(#glow)\"/> astas con glow y círculos luminosos"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<path ... fill=\"url(#petal)\" stroke=\"#263f55\" — orejas con relleno de gradiente pétalo"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<path d=\"M240 218c14-24 36-31 58-24...\" fill=\"url(#petal)\" — aleta lateral vegetal"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<path d=\"M243 284c44 14 97-9 110-49 12-37-3-72-28-70-25 1-31 32-16 39 10 5 20-2 18-12\" stroke=\"url(#tail)\" stroke-width=\"22\""
+    },
+    {
+      "id": "a35",
+      "valor": "no_esta",
+      "evidencia": "La cola no tiene hoja al final; termina en un trazo redondeado sin forma de hoja"
+    },
+    {
+      "id": "a36",
+      "valor": "contradice",
+      "evidencia": "<path d=\"M146 164c0-12 18-14 20-1 ...\" fill=\"#183344\"/> — ojos pequeños y oscuros, no grandes"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<path fill=\"url(#night)\" d=\"M0 0h400v400H0z\"/> stops #303857 #101b30 — fondo nocturno oscuro"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "url(#fur) stop-color=\"#b1f0d7\" #60c7c0; url(#face) stop-color=\"#c9f5d7\" #78d5c6"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "url(#petal) stop-color=\"#ffcfad\" #ec93a0 #9a668f; <ellipse fill=\"#eea9a1\""
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "stroke=\"#203e52\" stroke-width=\"3\" en múltiples paths principales"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "linearGradient id=\"fur\", id=\"face\", id=\"petal\", id=\"tail\" con múltiples stops de color"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "Combinación de degradados, contornos definidos, elementos fantásticos (orejas pétalo, aleta, cola curva) en estilo vectorial"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "Formas suaves, colores pastel, cara tierna con mejillas — estética de cuento infantil"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "Ojos brillantes, mejillas rosadas, cuerpo rechoncho, colores pastel — estética kawaii"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "stroke-linecap=\"round\" stroke-linejoin=\"round\" generalizados; curvas suaves en todos los paths"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "Fondo nocturno, estrellas, luna, halo radial, degradados mágicos, glow filter — conjunto mágico"
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "Orejas tipo flor/pétalo, cola curva (como zorro/gato), aleta vegetal, cuerpo mamífero — mezcla animal-planta"
+    }
+  ]
+}

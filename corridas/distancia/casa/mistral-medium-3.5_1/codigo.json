@@ -1,0 +1,135 @@
+{
+  "consigna": "casa",
+  "unidad": "mistral-medium-3.5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:36:44+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<rect x=\"100\" y=\"200\" width=\"200\" height=\"150\" fill=\"#8B4513\"/> <polygon points=\"100,200 200,100 300,200\" fill=\"#FF6347\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"100,200 200,100 300,200\" fill=\"#FF6347\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "contradice",
+      "evidencia": "<rect ... fill=\"#8B4513\"/> es la pared (marrón), el techo es <polygon ... fill=\"#FF6347\"/> solo rojo"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<rect x=\"100\" y=\"200\" width=\"200\" height=\"150\" fill=\"#8B4513\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "contradice",
+      "evidencia": "<rect x=\"190\" y=\"320\" width=\"20\" height=\"30\" fill=\"#000\"/> existe pero no hay puerta negra explícita con label; el rect negro podría ser puerta"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<rect x=\"150\" y=\"250\" width=\"40\" height=\"60\" fill=\"#4169E1\"/> <rect x=\"210\" y=\"250\" width=\"40\" height=\"60\" fill=\"#4169E1\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento que represente una chimenea en el código"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"150\" r=\"10\" fill=\"#FFD700\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"150\" r=\"10\" fill=\"#FFD700\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "fill=\"#8B4513\" fill=\"#FF6347\" (cálidos) fill=\"#4169E1\" (frío)"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "Formas básicas: rect, polygon, circle con rellenos planos simples"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "Combinación de casa con techo, ventanas, puerta y sol visible"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<rect x=\"100\" y=\"200\" width=\"200\" height=\"150\" fill=\"#8B4513\"/> <polygon points=\"100,200 200,100 300,200\" fill=\"#FF6347\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"100,200 200,100 300,200\" fill=\"#FF6347\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<rect x=\"100\" y=\"200\" width=\"200\" height=\"150\" fill=\"#8B4513\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"100,200 200,100 300,200\" fill=\"#FF6347\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<rect x=\"150\" y=\"250\" width=\"40\" height=\"60\" fill=\"#4169E1\"/> <rect x=\"210\" y=\"250\" width=\"40\" height=\"60\" fill=\"#4169E1\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "contradice",
+      "evidencia": "<rect x=\"190\" y=\"320\" width=\"20\" height=\"30\" fill=\"#000\"/> la puerta es negra, no azul"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"150\" r=\"10\" fill=\"#FFD700\"/> ubicado sobre el techo"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"150\" r=\"10\" fill=\"#FFD700\"/> pequeño círculo sobre el techo"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<rect x=\"190\" y=\"320\" width=\"20\" height=\"30\" fill=\"#000\"/> centrado en x=190-210, parte inferior"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<rect x=\"190\" y=\"320\" width=\"20\" height=\"30\" fill=\"#000\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<rect x=\"120\" y=\"220\" width=\"30\" height=\"40\" fill=\"#4169E1\"/> <rect x=\"250\" y=\"220\" width=\"30\" height=\"40\" fill=\"#4169E1\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<rect x=\"180\" y=\"280\" width=\"40\" height=\"30\" fill=\"#4169E1\"/> posición central"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<svg viewBox=\"0 0 400 400\">"
+    }
+  ]
+}

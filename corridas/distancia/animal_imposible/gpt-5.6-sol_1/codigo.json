@@ -1,0 +1,245 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "gpt-5.6-sol_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:20:36+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "no_esta",
+      "evidencia": "El código muestra un cuerpo felino con una ala de ave, una ala morada, cola y orejas, pero no combina insecto ni pez como rasgo explícito"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M134 183 C91 151...\" fill=\"url(#wing)\"/> y <path d=\"M253 170 C284 125...\" fill=\"#6d537f\"/> — dos alas con rellenos distintos"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M140 239 C128 264...\" stroke=\"#a95d69\" stroke-width=\"17\"/> y <path d=\"M219 259 C212 281...\" stroke=\"#73506f\" stroke-width=\"17\"/> — patas con colores y trayectorias distintas"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M146 85 C127 68...\" stroke=\"#e2c58a\"/> y <path d=\"M195 85 C215 68...\" stroke=\"#e2c58a\"/> — apéndices curvos sobre la cabeza que funcionan como astas"
+    },
+    {
+      "id": "a5",
+      "valor": "no_esta",
+      "evidencia": "La cola termina en <path d=\"M317 268...\" fill=\"#e28b69\"/> una forma lobular, no hay aleta ni flor explícita"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M151 190...\" fill=\"#13243a\" stroke=\"#efb877\"/> y <circle cx=\"209\" cy=\"216\" r=\"5\" fill=\"#f8d889\" filter=\"url(#glow)\"/> — interior oscuro con punto luminoso central"
+    },
+    {
+      "id": "a7",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos de código que indiquen que el espacio interior parece mayor que el cuerpo"
+    },
+    {
+      "id": "a8",
+      "valor": "no_esta",
+      "evidencia": "Solo hay dos ojos: <ellipse cx=\"172.5\" cy=\"106\" rx=\"7\" ry=\"10\"/> — no hay un tercer ojo codificado"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "Patas como trazos stroke sin estructura ósea, alas asimétricas, cola que no conecta anatómicamente — no hay anatomía funcional coherente"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "Exterior con fur gradient cálido <linearGradient id=\"fur\"/> e interior oscuro <path fill=\"#13243a\"/> con luz central — contraste visual interior/exterior"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "Cuerpo felino <path d=\"M125 179...\" fill=\"url(#fur)\"/> con alas dispares, interior cósmico y cola transformada — reconocible pero contradictorio"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M125 179 C142 151 186 139 231 145...\" fill=\"url(#fur)\"/> — cuerpo ovoide con pelaje típico de felino"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"fur\"><stop stop-color=\"#f4b66a\"/><stop offset=\".45\" stop-color=\"#b95d68\"/></linearGradient> — tonos naranjas y rosados cálidos"
+    },
+    {
+      "id": "a14",
+      "valor": "no_esta",
+      "evidencia": "Solo dos estructuras de ojo: <path d=\"M150 118 Q158 110 166 118...\" fill=\"#101729\"/> y <path d=\"M179 118 Q187 110 195 118...\"/> — dos ojos, no tres"
+    },
+    {
+      "id": "a15",
+      "valor": "no_esta",
+      "evidencia": "Las astas <path d=\"M146 85 C127 68...\"/> son simples curvas sin ramificación explícita"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M134 183...\" fill=\"url(#wing)\"/> (ala translúcida-turquesa) y <path d=\"M253 170...\" fill=\"#6d537f\"/> (ala morada) — exactamente dos alas dispares"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"wing\"><stop stop-color=\"#8de1d1\"/><stop offset=\"1\" stop-color=\"#316e83\"/></linearGradient> y trazos internos stroke=\"#d4fff2\" stroke-opacity=\".48\" — efecto translúcido"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M253 170...\" fill=\"#6d537f\" stroke=\"#312d56\"/> — relleno violeta/púrpura"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "Pata izquierda stroke=\"#a95d69\" y pata derecha stroke=\"#73506f\" con terminaciones distintas en colores y formas"
+    },
+    {
+      "id": "a20",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos de código que dibujen garras acuáticas explícitamente"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M270 224 C305 225 325 244 320 267 C316 287 290 292 281 275 C276 265 283 254 293 257...\" — trayectoria curva en espiral"
+    },
+    {
+      "id": "a22",
+      "valor": "no_esta",
+      "evidencia": "La cola termina en <path d=\"M317 268...\" fill=\"#e28b69\"/> una forma lobulada, no una aleta floral identificable"
+    },
+    {
+      "id": "a23",
+      "valor": "no_esta",
+      "evidencia": "No hay path o forma que dibuje un pico en el código"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M151 190...\" fill=\"#13243a\"/> con <circle cx=\"209\" cy=\"216\" r=\"5\" fill=\"#f8d889\"/> y estrellas internas — universo nocturno en el vientre"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"177\" cy=\"194\" r=\"2\" fill=\"#fff0b5\"/><circle cx=\"229\" cy=\"198\" r=\"1.5\" fill=\"#fff0b5\"/><circle cx=\"222\" cy=\"228\" r=\"1.5\" fill=\"#fff0b5\"/><circle cx=\"181\" cy=\"224\" r=\"1\" fill=\"#fff0b5\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M168 204 C181 188 202 184 220 193...\" stroke=\"#8de1d1\" stroke-width=\"4\"/> — arco luminoso tipo órbita"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"209\" cy=\"216\" r=\"5\" fill=\"#f8d889\" filter=\"url(#glow)\"/> — círculo central luminoso como sol"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\"><stop offset=\"0\" stop-color=\"#263b57\"/><stop offset=\"1\" stop-color=\"#080d19\"/></radialGradient> — fondo muy oscuro"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"202\" cy=\"306\" rx=\"124\" ry=\"18\" fill=\"#02050b\" opacity=\".42\"/> sombra difusa bajo la criatura, sin suelo sólido — efecto de flotación"
+    },
+    {
+      "id": "a30",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos de mar ni cielo explícitos en el código; es una afirmación interpretativa sin respaldo directo"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<path d=\"M125 179 C142 151 186 139 231 145...\" fill=\"url(#fur)\"/> — cuerpo ovoide con gradiente de pelaje"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "Ala turquesa <path fill=\"url(#wing)\"/> y ala morada <path fill=\"#6d537f\"/> — formas distintas"
+    },
+    {
+      "id": "a33",
+      "valor": "no_esta",
+      "evidencia": "Las astas son curvas simples sin ramificación: <path d=\"M146 85 C127 68 124 49 132 32...\"/> — no ramificadas"
+    },
+    {
+      "id": "a34",
+      "valor": "no_esta",
+      "evidencia": "Solo dos ojos dibujados: <path d=\"M150 118 Q158 110 166 118...\"/> y <path d=\"M179 118 Q187 110 195 118...\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "Pata izquierda <path stroke=\"#a95d69\" stroke-width=\"17\"/> y pata derecha <path stroke=\"#73506f\" stroke-width=\"17\"/> — dispares en color y forma"
+    },
+    {
+      "id": "a36",
+      "valor": "no_esta",
+      "evidencia": "La cola es una curva stroke con terminación lobular, no una cola acuática/aleta"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<path d=\"M151 190...\" fill=\"#13243a\"/> con estrellas y círculo luminoso interior — cosmos en el vientre"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\"> con stops #263b57, #101a2d, #080d19 — paleta nocturna azul-negro"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "stroke=\"#8de1d1\" aparece en múltiples elementos: alas, órbita interior, pata derecha terminación"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<path d=\"M317 268...\" fill=\"#e28b69\"/> y stroke=\"#d18c70\" — tonos coral en cola y pata"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "stroke=\"#efb877\", stroke=\"#f5d893\", fill=\"#f8d889\", stroke=\"#e2c58a\" — múltiples acentos dorados"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "SVG con gradientes <linearGradient>, filtros <filter>, paths precisos — estilo vectorial de ilustración fantástica"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "<text>BESTIA DEL REVÉS</text> y estilo de criatura fantástica con detalles decorativos — cercano a bestiario"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "Cuerpo <path d=\"M125 179 C142 151...\" — paths con curvas C dominantes, formas redondeadas"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "stroke-width=\"5\" en cuerpo, stroke-width=\"4\" en alas y vientre — contornos marcados"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"fur\">, <linearGradient id=\"wing\">, <linearGradient id=\"tail\">, <radialGradient id=\"bg\"/> — múltiples degradados"
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "Líneas internas en alas stroke-opacity=\".48\", estrellas decorativas, órbita en vientre, texto con letter-spacing — detalles decorativos"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "gemini-3.1-pro-preview_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T01:13:57+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 50,240 Q 100,290 220,290 T 380,250 Q 250,270 150,240 Q 100,220 50,240 Z\" fill=\"url(#hullBase)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#bg)\"/> con fondo oscuro espacial y nebulosas"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M -50,325 Q 200,310 450,325\" stroke=\"url(#magentaGrad)\" ... /><path d=\"M -50,305 Q 200,290 450,305\" stroke=\"url(#cyanGrad)\""
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 162,50 C 280,80 340,160 270,275 C 230,200 200,120 162,50 Z\" fill=\"url(#cyanGrad)\" filter=\"url(#glow)\" opacity=\"0.6\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "casco con forma de barco: <path d=\"M 50,240 Q 100,290 220,290 T 380,250...\" fill=\"url(#hullBase)\"/> y velas de luz: fill=\"url(#cyanGrad)\" filter=\"url(#glow)\""
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"planetGrad\">, <linearGradient id=\"hullBase\">, <linearGradient id=\"gold\">, <linearGradient id=\"cyanGrad\">..."
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<filter id=\"glow\"><feGaussianBlur stdDeviation=\"3\" result=\"blur\"/></filter> y <filter id=\"nebula\"><feGaussianBlur stdDeviation=\"25\"/></filter>"
+    },
+    {
+      "id": "a8",
+      "valor": "contradice",
+      "evidencia": "paths complejos con curvas bezier: <path d=\"M 162,50 C 280,80 340,160 270,275 C 230,200 200,120 162,50 Z\">, gradientes múltiples, filtros, transformaciones"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "fondo espacial oscuro + colores neón: stop-color=\"#00f2fe\", stop-color=\"#ff007f\", filter=\"url(#glow)\""
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 50,240 Q 100,290 220,290 T 380,250...\" fill=\"url(#hullBase)\"/> con mástil y velas de luz"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"hullBase\"><stop offset=\"0%\" stop-color=\"#0f0c29\"/><stop offset=\"50%\" stop-color=\"#302b63\"/><stop offset=\"100%\" stop-color=\"#141424\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 60,243 Q 105,285 220,285 T 365,250 Q 250,265 150,243 Q 100,225 60,243 Z\" fill=\"url(#gold)\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M -50,305 Q 200,290 450,305\" stroke=\"url(#cyanGrad)\" .../> <path d=\"M -50,325 Q 200,310 450,325\" stroke=\"url(#magentaGrad)\".../>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 162,50 C 280,80 340,160 270,275...\" fill=\"url(#cyanGrad)\" filter=\"url(#glow)\" opacity=\"0.6\"/> <path d=\"M 158,80 C 80,100 30,160 70,245...\" fill=\"url(#magentaGrad)\" filter=\"url(#glow)\""
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 158,260 L 158,40 L 162,40 L 162,260 Z\" fill=\"url(#gold)\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"160,15 165,30 180,35 165,40 160,55 155,40 140,35 155,30\" fill=\"url(#cyanGrad)\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"80\" cy=\"100\" r=\"90\" fill=\"#9d00ff\" filter=\"url(#nebula)\" opacity=\"0.25\"/> <circle cx=\"320\" cy=\"180\" r=\"110\" fill=\"#00e5ff\" filter=\"url(#nebula)\" opacity=\"0.2\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 350,20 L 230,80\" stroke=\"url(#shoot)\" stroke-width=\"2\" filter=\"url(#glow)\"/> <path d=\"M 380,50 L 290,95\" stroke=\"url(#shoot)\".../>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"350\" cy=\"100\" r=\"120\" fill=\"url(#planetGrad)\" opacity=\"0.6\"/> <ellipse cx=\"350\" cy=\"100\" rx=\"190\" ry=\"35\" fill=\"none\" stroke=\"#00f2fe\"... transform=\"rotate(-15 350 100)\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"350\" cy=\"100\" r=\"120\" fill=\"url(#planetGrad)\" opacity=\"0.6\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "barco sobre ondas de energía, fondo estrellado con nebulosas, planeta con anillos"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "casco naval <path d=\"M 50,240 Q 100,290 220,290 T 380,250...\" sobre fondo espacial oscuro con nebulosas y planeta"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 162,50 C 280,80 340,160 270,275...\" fill=\"url(#cyanGrad)\" filter=\"url(#glow)\" opacity=\"0.6\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 200,285 L -50,400 M 200,285 L 30,400 M 200,285 L 110,400 M 200,285 L 190,400 M 200,285 L 270,400 M 200,285 L 350,400 M 200,285 L 450,400\" stroke=\"#00e5ff\" stroke-width=\"0.5\" opacity=\"0.3\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "el casco reposa sobre la línea de la cuadrícula: <ellipse cx=\"200\" cy=\"285\" rx=\"200\" ry=\"12\" fill=\"#00f2fe\" filter=\"url(#nebula)\"/> y las líneas parten de y=285"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "stop-color=\"#00f2fe\" (cian), stop-color=\"#ff0844\" (magenta), fill=\"url(#gold)\" (dorado)"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#bg)\"/> con stop-color=\"#030108\" contrastando con colores neón brillantes"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "filter=\"url(#glow)\" en múltiples elementos: velas, mástil, estrella, casco"
+    },
+    {
+      "id": "a29",
+      "valor": "no_esta",
+      "evidencia": "las líneas predominantes son curvas bezier: <path d=\"M 162,50 C 280,80 340,160 270,275...\">, <path d=\"M -50,305 Q 200,290 450,305\"...>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "cuadrícula de perspectiva + ondas cian/magenta + colores neón sobre fondo oscuro: estética synthwave/outrun"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#bg)\"/> stop-color=\"#030108\", stop-color=\"#0a0520\", stop-color=\"#001226\""
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "casco naval clásico <path d=\"M 50,240 Q 100,290 220,290 T 380,250...\" con velas de energía digital sobre cuadrícula luminosa de perspectiva"
+    }
+  ]
+}

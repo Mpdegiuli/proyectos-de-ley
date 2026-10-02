@@ -1,0 +1,190 @@
+{
+  "consigna": "casa",
+  "unidad": "minimax-m3_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:39:14+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"90,210 200,120 310,210\" fill=\"#A52A2A\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"90,210 200,120 310,210\" fill=\"#A52A2A\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<rect x=\"110\" y=\"210\" width=\"180\" height=\"120\" fill=\"#DEB887\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<rect x=\"180\" y=\"255\" width=\"40\" height=\"75\" fill=\"#8B4513\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"212\" cy=\"295\" r=\"2.5\" fill=\"#FFD700\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<rect x=\"135\" y=\"240\" width=\"35\" height=\"35\" .../> <rect x=\"230\" y=\"240\" width=\"35\" height=\"35\" .../>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<line x1=\"152.5\" y1=\"240\" x2=\"152.5\" y2=\"275\"/> <line x1=\"135\" y1=\"257.5\" x2=\"170\" y2=\"257.5\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#87CEEB\"/><stop offset=\"1\" stop-color=\"#B0E0E6\"/></linearGradient>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"340\" cy=\"55\" r=\"30\" fill=\"#FFD700\"/> <circle cx=\"340\" cy=\"55\" r=\"38\" fill=\"#FFD700\" opacity=\"0.3\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"70\" cy=\"60\" rx=\"35\" ry=\"12\" fill=\"white\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<rect x=\"245\" y=\"140\" width=\"22\" height=\"45\" fill=\"#696969\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"256\" cy=\"125\" r=\"6\" fill=\"#D3D3D3\" opacity=\"0.7\"/> <circle cx=\"262\" cy=\"110\" r=\"8\" fill=\"#D3D3D3\" opacity=\"0.5\"/> <circle cx=\"258\" cy=\"92\" r=\"10\" fill=\"#D3D3D3\" opacity=\"0.3\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"180,330 220,330 230,400 170,400\" fill=\"#D2B48C\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"90\" cy=\"320\" r=\"18\" fill=\"#228B22\"/> <circle cx=\"310\" cy=\"320\" r=\"18\" fill=\"#228B22\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"70\" cy=\"325\" r=\"3\" fill=\"#FF1493\"/> <circle cx=\"340\" cy=\"325\" r=\"3\" fill=\"#FF4500\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<rect y=\"310\" width=\"400\" height=\"90\" fill=\"#6B8E23\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "Colores cálidos: #FFD700 sol, #DEB887 paredes, #A52A2A techo, gradiente celeste cielo"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "Casa completa con techo, paredes, puerta, ventanas, chimenea, humo, jardín, camino, cielo, sol, nubes"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<rect x=\"110\" y=\"210\" width=\"180\" height=\"120\" fill=\"#DEB887\"/> con arbustos y camino de tierra"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#87CEEB\"/><stop offset=\"1\" stop-color=\"#B0E0E6\"/></linearGradient>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<rect x=\"110\" y=\"210\" width=\"180\" height=\"120\" fill=\"#DEB887\"/> (#DEB887 es color arena/trigo)"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"90,210 200,120 310,210\" fill=\"#A52A2A\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<rect x=\"245\" y=\"140\" width=\"22\" height=\"45\" fill=\"#696969\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"256\" cy=\"125\" r=\"6\"/> <circle cx=\"262\" cy=\"110\" r=\"8\"/> <circle cx=\"258\" cy=\"92\" r=\"10\"/> tres círculos de tamaño creciente"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<rect x=\"180\" y=\"255\" width=\"40\" height=\"75\" fill=\"#8B4513\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"212\" cy=\"295\" r=\"2.5\" fill=\"#FFD700\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<rect x=\"135\" y=\"240\" width=\"35\" height=\"35\"/> <rect x=\"230\" y=\"240\" width=\"35\" height=\"35\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "stroke=\"#8B4513\" stroke-width=\"3\" en ambas ventanas"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<rect x=\"135\" y=\"240\" width=\"35\" height=\"35\" fill=\"#87CEEB\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<rect x=\"135\" y=\"240\" width=\"6\" height=\"6\" fill=\"#FFD700\"/> <rect x=\"230\" y=\"240\" width=\"6\" height=\"6\" fill=\"#FFD700\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"340\" cy=\"55\" r=\"30\" fill=\"#FFD700\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"340\" cy=\"55\" r=\"38\" fill=\"#FFD700\" opacity=\"0.3\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"70\" cy=\"60\" rx=\"35\" ry=\"12\" fill=\"white\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"180,330 220,330 230,400 170,400\" fill=\"#D2B48C\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "contradice",
+      "evidencia": "Los arbustos están a los costados de la casa, no flanqueando el camino: <circle cx=\"90\" cy=\"320\"/> y <circle cx=\"310\" cy=\"320\"/>"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"70\" cy=\"325\" r=\"3\" fill=\"#FF1493\"/> <circle cx=\"340\" cy=\"325\" r=\"3\" fill=\"#FF4500\"/>"
+    }
+  ]
+}

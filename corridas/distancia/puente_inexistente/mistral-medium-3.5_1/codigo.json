@@ -1,0 +1,215 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "mistral-medium-3.5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:43:09+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M50,280 L50,200 M150,250 L150,170 M250,250 L250,170 M350,280 L350,200\" stroke=\"url(#bridge)\" stroke-width=\"5\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "Los cables verticales no conectan con el rectángulo central: M50,280 L50,200 M150,250 L150,170 M250,250 L250,170 M350,280 L350,200"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<rect x=\"180\" y=\"150\" width=\"40\" height=\"60\" fill=\"url(#bridge)\" opacity=\"0.7\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180,150 L200,130 L220,150\" fill=\"url(#bridge)\" opacity=\"0.7\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<rect x=\"180\" y=\"150\" width=\"40\" height=\"60\" fill=\"url(#bridge)\" opacity=\"0.7\"/> — la base del rectángulo (y=210) no toca el puente ni el suelo visualmente"
+    },
+    {
+      "id": "a6",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M50,280 Q100,200 150,250 Q200,180 250,250 Q300,200 350,280\" — la curva es simétrica respecto al centro"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "Los cables verticales no conectan con la torre central rect x=180; la lógica física no se sostiene"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "Combinación de cables, torre fantasma y curva sin anclaje real produce estructura imposible"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "Estructura con torre fantasma, esfera dorada y degradados metálicos sugiere estilo futurista"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0,300 Q100,250 200,280 T400,300 L400,400 L0,400 Z\" fill=\"#228B22\"/> — suelo ondulado bajo el puente"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0,300 Q100,250 200,280 T400,300 L400,400 L0,400 Z\" fill=\"#228B22\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#87CEEB\"/><stop offset=\"100%\" stop-color=\"#1E90FF\"/></linearGradient>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M50,280 Q100,200 150,250 Q200,180 250,250 Q300,200 350,280\" stroke=\"url(#bridge)\" stroke-width=\"10\" fill=\"none\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M50,280 L50,200 M150,250 L150,170 M250,250 L250,170 M350,280 L350,200\" stroke=\"url(#bridge)\" stroke-width=\"5\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "no_esta",
+      "evidencia": "No hay torres metálicas estructurales reales; el rectángulo opacity=0.7 es fantasma y no hay pilones"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"100\" cy=\"200\" r=\"15\" fill=\"url(#bridge)\"/> <circle cx=\"200\" cy=\"180\" r=\"15\"/> <circle cx=\"300\" cy=\"200\" r=\"15\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<rect x=\"180\" y=\"150\" width=\"40\" height=\"60\" fill=\"url(#bridge)\" opacity=\"0.7\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180,150 L200,130 L220,150\" fill=\"url(#bridge)\" opacity=\"0.7\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"120\" r=\"10\" fill=\"#FFD700\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "Triángulo + círculo dorado superpuestos sobre la plataforma central generan efecto simbólico/misterioso"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<filter id=\"shadow\"><feDropShadow dx=\"5\" dy=\"5\" stdDeviation=\"3\" flood-color=\"rgba(0,0,0,0.5)\"/></filter>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"> <linearGradient id=\"bridge\">"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "filter=\"url(#shadow)\" y degradados url(#sky), url(#bridge) añaden profundidad visual"
+    },
+    {
+      "id": "a24",
+      "valor": "contradice",
+      "evidencia": "Torre fantasma opacity=0.7, cables sin anclaje, esfera dorada — estructura no realista"
+    },
+    {
+      "id": "a25",
+      "valor": "no_esta",
+      "evidencia": "Hay soportes verticales: M50,280 L50,200 M150,250 L150,170 M250,250 L250,170 M350,280 L350,200"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M50,280 L50,200 M150,250 L150,170 M250,250 L250,170 M350,280 L350,200\" stroke=\"url(#bridge)\" stroke-width=\"5\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<rect x=\"180\" y=\"150\" width=\"40\" height=\"60\" fill=\"url(#bridge)\" opacity=\"0.7\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180,150 L200,130 L220,150\" fill=\"url(#bridge)\" opacity=\"0.7\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"120\" r=\"10\" fill=\"#FFD700\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#87CEEB\"/><stop offset=\"100%\" stop-color=\"#1E90FF\"/></linearGradient>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0,300 Q100,250 200,280 T400,300 L400,400 L0,400 Z\" fill=\"#228B22\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<svg viewBox=\"0 0 400 400\">"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "Formas geométricas simples, degradados y pocos elementos — estilo futurista minimalista"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "Trazos con stroke-width definidos y paths geométricos precisos"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"bridge\"><stop offset=\"0%\" stop-color=\"#A0A0A0\"/><stop offset=\"100%\" stop-color=\"#696969\"/></linearGradient>"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<feDropShadow dx=\"5\" dy=\"5\" stdDeviation=\"3\" flood-color=\"rgba(0,0,0,0.5)\"/>"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "Círculos, rectángulo, triángulo, líneas rectas y curvas — múltiples detalles geométricos"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0,300 Q100,250 200,280 T400,300...\" y curva del puente con Q — trazos orgánicos curvos"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "Estructura curva, sombras suaves y torre semitransparente transmiten ligereza"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "Degradados metálicos, esfera dorada, torre fantasma y estructura curva sugieren tecnología avanzada"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "Cielo degradado azul + suelo verde ondulado + esfera dorada crean atmósfera de fantasía"
+    }
+  ]
+}

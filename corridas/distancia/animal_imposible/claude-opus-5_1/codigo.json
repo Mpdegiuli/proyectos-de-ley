@@ -1,0 +1,150 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "claude-opus-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:15:01+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"bd\"><stop offset=\"0\" stop-color=\"#c2dde6\"/><stop offset=\"1\" stop-color=\"#8bb1c4\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M100,326.5 L100,248 ... L240,326.5 A23.5,23.5 0 0 1 193,326.5 L193,254 Q170,242 147,254 L147,326.5 A23.5,23.5 0 0 1 100,326.5 Z\""
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M100,326.5 L100,248 ... L240,326.5 A23.5,23.5 0 0 1 193,326.5 L193,254 Q170,242 147,254 L147,326.5 A23.5,23.5 0 0 1 100,326.5 Z\" ... <!-- cuerpo + patas imposibles -->"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<!-- cuerpo + patas imposibles --> <path d=\"M100,326.5 L100,248 ... L240,326.5 A23.5,23.5 0 0 1 193,326.5 L193,254 Q170,242 147,254 L147,326.5\""
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<!-- cuerpo + patas imposibles --> (contornos que se cruzan y generan ambigüedad en el conteo)"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<!-- ala unica --> <path d=\"M168,166 C188,144 218,146 230,164 C216,176 188,182 168,174 Z\""
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<!-- ala unica --> <path d=\"M168,166 C188,144 218,146 230,164 C216,176 188,182 168,174 Z\" fill=\"#a9cbd9\"/> (pequeña, una sola)"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<!-- aletas dorsales --> <path d=\"M128,146 L134,116 L150,142 Z\"/> <path d=\"M152,140 L160,108 L176,138 Z\"/> <path d=\"M178,140 L188,114 L200,146 Z\""
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"80\" cy=\"37\" r=\"5.5\" fill=\"#e88f7a\"/> <circle cx=\"143\" cy=\"37\" r=\"5.5\" fill=\"#e88f7a\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<!-- cola con segunda cabeza --> <path d=\"M226,232 C272,246 308,226 316,186 C324,146 307,114 289,104 L272,127 C289,138 300,160 296,184 C290,212 258,217 222,206 Z\""
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<!-- cola con segunda cabeza --> <ellipse cx=\"283\" cy=\"104\" rx=\"22\" ry=\"18\" fill=\"url(#bd)\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M263,104 L246,111 L264,115 Z\" fill=\"#e8b96a\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"278\" cy=\"99\" r=\"6.5\" fill=\"#fff\"/> <circle cx=\"277\" cy=\"100\" r=\"3\" fill=\"#20303a\""
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "cabeza principal en cx~112 mirando izquierda (pico en L52,107), segunda cabeza en cx~283 con pico en L246,111 mirando izquierda también — ambas miran hacia la izquierda, no lados opuestos"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"114\" cy=\"91\" r=\"5.5\" fill=\"#20303a\"/> <circle cx=\"277\" cy=\"100\" r=\"3\" fill=\"#20303a\"/> (ojos simples sin ceño)"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<!-- cuerpo + patas imposibles --> <path d=\"M100,326.5 L100,248 ... L193,254 L147,254 L147,326.5\""
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<!-- cola con segunda cabeza --> <path d=\"M226,232 C272,246 308,226 316,186...\" <ellipse cx=\"283\" cy=\"104\""
+    },
+    {
+      "id": "a18",
+      "valor": "contradice",
+      "evidencia": "<!-- ala unica --> <path d=\"M168,166 C188,144 218,146 230,164 C216,176 188,182 168,174 Z\" (está centrada en el lomo, no descentrada)"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"80\" cy=\"37\" r=\"5.5\" fill=\"#e88f7a\"/> <circle cx=\"143\" cy=\"37\" r=\"5.5\" fill=\"#e88f7a\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "contradice",
+      "evidencia": "<g stroke=\"#2c3b45\" stroke-width=\"3.5\" (oscuro azul-gris, no azul oscuro claro; grosor 3.5 sí es grueso)"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"bd\"><stop offset=\"0\" stop-color=\"#c2dde6\"/><stop offset=\"1\" stop-color=\"#8bb1c4\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "stop-color=\"#c2dde6\" stop-color=\"#8bb1c4\" stop-color=\"#9dc2d2\" stop-color=\"#b8d6e1\" fill=\"#a9cbd9\" (pastel fría)"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"bg\"><stop offset=\"0\" stop-color=\"#f7f0e5\"/><stop offset=\"1\" stop-color=\"#e2d6c4\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"112\" cy=\"90\" r=\"12\" fill=\"#fff\"/> <circle cx=\"109\" cy=\"86\" r=\"2.6\" fill=\"#fff\" stroke=\"none\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"170\" cy=\"358\" rx=\"98\" ry=\"13\" fill=\"#3a3026\" opacity=\"0.13\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "contradice",
+      "evidencia": "fill=\"url(#bd)\" fill=\"url(#bg)\" fill=\"url(#tl)\" (usa degradados, no es plano)"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "estilo general: colores pastel, contornos redondeados, formas simpáticas con stroke-linecap=\"round\" stroke-linejoin=\"round\""
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<!-- ala unica --> <path d=\"M168,166 C188,144 218,146 230,164 C216,176 188,182 168,174 Z\" (una sola ala pequeña no puede generar sustentación)"
+    }
+  ]
+}

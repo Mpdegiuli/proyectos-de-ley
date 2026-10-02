@@ -1,0 +1,220 @@
+{
+  "consigna": "animal_inexistente",
+  "unidad": "claude-opus-5-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:58:40+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"205\" cy=\"260\" rx=\"85\" ry=\"48\" fill=\"url(#body)\"/> con alas, antenas, caracola"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"body\"><stop offset=\"0\" stop-color=\"#9ff0d8\"/><stop offset=\"0.6\" stop-color=\"#3cb8a0\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 285 Q140 310 148 330\"/><path d=\"M185 295 Q185 315 180 332\"/><path d=\"M225 295 Q228 315 235 332\"/><path d=\"M260 282 Q275 305 268 330\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffb45a\"><ellipse cx=\"146\" cy=\"333\" rx=\"10\" ry=\"5\"/>..."
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"225\" cy=\"225\" r=\"45\" fill=\"url(#shell)\"/> con path espiral"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"shell\"><stop offset=\"0\" stop-color=\"#ffd98a\"/><stop offset=\"1\" stop-color=\"#d0672e\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#8fe3ff\" stroke-width=\"1.5\" fill=\"url(#wing)\"> con stop-opacity=\"0.9\" y stop-opacity=\"0.6\""
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"wing\"><stop offset=\"0\" stop-color=\"#ff9ad5\"/><stop offset=\"1\" stop-color=\"#7b6cff\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "no_esta",
+      "evidencia": "Las alas tienen forma de dos paths curvos, no hay indicación de forma de libélula (no hay cuatro alas simétricas)"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M115 155 Q100 120 90 110\"/><path d=\"M130 150 Q132 110 128 95\"/><path d=\"M145 155 Q165 125 175 115\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"90\" cy=\"108\" r=\"9\"/><circle cx=\"128\" cy=\"93\" r=\"11\"/><circle cx=\"175\" cy=\"113\" r=\"9\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"90\" cy=\"108\" r=\"22\" fill=\"url(#glow)\"/><circle cx=\"128\" cy=\"93\" r=\"22\" fill=\"url(#glow)\"/><circle cx=\"175\" cy=\"113\" r=\"22\" fill=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M100 182 Q85 190 92 200 Q105 198 110 188Z\" fill=\"#ff9d6b\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"140\" cy=\"185\" rx=\"7\" ry=\"4\" fill=\"#ff7fb8\" opacity=\"0.6\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M280 260 C330 250 350 210 340 180 C335 165 320 170 325 185 C332 210 310 240 275 245Z\""
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M338 178 C330 150 355 135 365 150 C372 165 355 180 338 178Z\" fill=\"#ff7fb8\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 330 Q100 300 200 320 T400 315 V400 H0Z\" fill=\"#2e3b5c\"/><path d=\"M0 350 Q120 335 220 350 T400 345 V400 H0Z\" fill=\"#23304d\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#1b2a4e\"/><stop offset=\"0.6\" stop-color=\"#5b4b8a\"/><stop offset=\"1\" stop-color=\"#e59a8c\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"320\" cy=\"70\" r=\"30\" fill=\"#fdf3d0\" opacity=\"0.9\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff\" opacity=\"0.8\"><circle cx=\"40\" cy=\"40\" r=\"1.5\"/><circle cx=\"110\" cy=\"80\" r=\"1\"/>..."
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff6b0\"><circle cx=\"60\" cy=\"250\" r=\"2\"/><circle cx=\"330\" cy=\"120\" r=\"1.8\"/><circle cx=\"300\" cy=\"300\" r=\"1.5\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"90\" cy=\"108\" r=\"22\" fill=\"url(#glow)\"/> halos de luz + fondo oscuro noche"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 285...\"/><path d=\"M185 295...\"/><path d=\"M225 295...\"/><path d=\"M260 282...\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#1d6f6a\" opacity=\"0.5\"><circle cx=\"170\" cy=\"280\" r=\"6\"/>... sobre body verde agua"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"225\" cy=\"225\" r=\"45\" fill=\"url(#shell)\"/> con path espiral stroke=\"#8a3c1a\""
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#8fe3ff\" stroke-width=\"1.5\" fill=\"url(#wing)\"> con opacidades parciales"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#ff9ad5\"/><stop offset=\"1\" stop-color=\"#7b6cff\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M338 178 C330 150 355 135 365 150 C372 165 355 180 338 178Z\" fill=\"#ff7fb8\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M100 182 Q85 190 92 200 Q105 198 110 188Z\" fill=\"#ff9d6b\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "tres paths antenas + <circle cx=\"90\" cy=\"108\" r=\"9\"/><circle cx=\"128\" cy=\"93\" r=\"11\"/><circle cx=\"175\" cy=\"113\" r=\"9\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"90\" cy=\"108\" r=\"22\" fill=\"url(#glow)\"/> glow con stop-color=\"#fff6b0\""
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffb45a\"><ellipse cx=\"146\" cy=\"333\" rx=\"10\" ry=\"5\"/>..."
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "sky gradiente de #1b2a4e (noche) a #e59a8c (atardecer), luna y estrellas presentes"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"320\" cy=\"70\" r=\"30\" fill=\"#fdf3d0\" opacity=\"0.9\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff\" opacity=\"0.8\"><circle cx=\"40\" cy=\"40\" r=\"1.5\"/>..."
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 330 Q100 300 200 320 T400 315 V400 H0Z\" fill=\"#2e3b5c\"/>"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff6b0\"><circle cx=\"60\" cy=\"250\" r=\"2\"/><circle cx=\"330\" cy=\"120\" r=\"1.8\"/><circle cx=\"300\" cy=\"300\" r=\"1.5\"/>"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "uso de SVG con paths, ellipses, gradientes radiales/lineales, colores planos y degradados"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "colores pastel, formas redondeadas, degradados suaves, sin contornos fuertes"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "ellipses, circles y paths curvos suaves predominan en toda la figura"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "múltiples radialGradient y linearGradient con transiciones suaves de color"
+    },
+    {
+      "id": "a42",
+      "valor": "contradice",
+      "evidencia": "stroke=\"#8a3c1a\" stroke-width=\"3\", stroke=\"#155a55\" stroke-width=\"7\", stroke=\"#1d6f6a\" stroke-width=\"3\" son contornos visibles"
+    }
+  ]
+}

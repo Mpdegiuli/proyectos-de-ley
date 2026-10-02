@@ -1,0 +1,180 @@
+{
+  "consigna": "arbol_inexistente",
+  "unidad": "claude-haiku-4-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:52:18+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"50\" cy=\"85\" rx=\"8\" ry=\"12\" fill=\"#FF1493\""
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"220\" r=\"7\" class=\"fruit\"/> .fruit { fill: #00CED1; }"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"50\" cy=\"90\" r=\"6\" class=\"flower\"/> .flower { fill: #FFD700; }"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<!-- Raíces cristalinas --> <g class=\"leaf\" opacity=\"0.6\">"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 200 350 Q 190 320 195 290 Q 200 260 190 230 Q 185 200 200 170\" class=\"branch\""
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "tronco, ramas principales, sub-ramas, hojas: estructura reconocible de árbol"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": ".leaf { fill: #FF1493; } .flower { fill: #FFD700; } .fruit { fill: #00CED1; } colores no naturales"
+    },
+    {
+      "id": "a8",
+      "valor": "no_esta",
+      "evidencia": "el tronco va de y=350 (base) a y=170 (arriba), dirección normal con gravedad"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 200 350 Q 190 320 195 290 Q 200 260 190 230 Q 185 200 200 170\" <!-- Tronco principal ondulante -->"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<!-- Raíces cristalinas --> <polygon points=\"200,350 180,370 185,360\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "no_esta",
+      "evidencia": "las raíces tienen opacity=\"0.6\" pero no hay gradiente, glow ni efecto de brillo explícito"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 200 170 Q 140 140 100 120\"/> <path d=\"M 200 170 Q 260 140 300 120\"/> simétricas"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"50\" cy=\"85\" rx=\"8\" ry=\"12\" fill=\"#FF1493\""
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"50\" cy=\"90\" r=\"6\" class=\"flower\"/> en puntas de ramas (cx=50,350,85,315,70,330)"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"220\" r=\"7\" class=\"fruit\"/> .fruit { fill: #00CED1; }"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"220\" r=\"7\" class=\"fruit\"/> <circle cx=\"210\" cy=\"200\" r=\"7\" class=\"fruit\"/> agrupados en zona central del tronco"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<!-- Venas de luz en el árbol --> <line x1=\"200\" y1=\"170\" x2=\"200\" y2=\"150\" stroke=\"#FFD700\""
+    },
+    {
+      "id": "a18",
+      "valor": "no_esta",
+      "evidencia": "no hay efectos de glow, filter o animación que sugieran energía propia"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\"><stop offset=\"0%\" style=\"stop-color:#87CEEB\"/><stop offset=\"100%\" style=\"stop-color:#E0FFFF\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<rect y=\"300\" width=\"400\" height=\"100\" fill=\"#90EE90\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "colores #FF1493, #FFD700, #00CED1, formas flotantes, árbol fantástico sugieren atmósfera etérea"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"220\" cy=\"250\" rx=\"10\" ry=\"16\" fill=\"#FF1493\""
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"50\" cy=\"90\" r=\"6\" class=\"flower\"/> .flower { fill: #FFD700; }"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"220\" r=\"7\" class=\"fruit\"/> .fruit { fill: #00CED1; }"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 200 350 Q 190 320 195 290 Q 200 260 190 230 Q 185 200 200 170\" ondulaciones con curvas Q"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"200,350 180,370 185,360\"/> triángulos en la base"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": ".leaf { fill: #FF1493; } .flower { fill: #FFD700; } .fruit { fill: #00CED1; } colores saturados artificiales"
+    },
+    {
+      "id": "a28",
+      "valor": "no_esta",
+      "evidencia": "se usan paths con curvas Q, ellipses rotadas, polygons: no son formas geométricas simples"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "fill: #FF1493; fill: #FFD700; fill: #00CED1; colores muy saturados"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\"><stop offset=\"0%\" style=\"stop-color:#87CEEB\"/><stop offset=\"100%\" style=\"stop-color:#E0FFFF\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "colores no naturales #FF1493 #00CED1, frutos flotantes, raíces triangulares, venas doradas"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "SVG con paths, ellipses, degradados, colores planos: estilo ilustración vectorial moderna"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "simetría, colores vivos, formas estilizadas en todo el dibujo"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "colores fantásticos #FF1493 #FFD700 #00CED1, estructura mágica del árbol completo"
+    }
+  ]
+}

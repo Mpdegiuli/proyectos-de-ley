@@ -1,0 +1,155 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "gpt-6-sol_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T01:12:02+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<!-- Casco de luna creciente --> <path d=\"M46 248q144 71 300-17-6 53-55 80-45 25-91 22Q91 331 46 248Z\""
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M196 111q-56 22-65 81-7 39 66 52-32-62-1-133Z\" fill=\"url(#sail)\"/> <path d=\"M214 105q65 31 72 82 5 39-75 57 38-70 3-139Z\" fill=\"url(#sail)\""
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<!-- Mástil y velas cultivadas a partir de luz --> ... fill=\"url(#sail)\" con stop-color=\"#baf5dd\" y gradientes luminosos"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<!-- Invernadero sobre cubierta --> <path d=\"M104 262v-22q21-33 50-29 29 3 44 47\" fill=\"#28465b\" stroke=\"#efc19c\""
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<!-- Una luna cautiva hace de brújula --> <circle cx=\"207\" cy=\"91\" r=\"19\" fill=\"url(#moon)\"/> <ellipse cx=\"207\" cy=\"91\" rx=\"28\" ry=\"8\" transform=\"rotate(-23 207 91)\""
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "invernadero sobre cubierta, ancla de raíz, velas cultivadas de luz, luna como brújula: elementos imposibles en un barco real"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "casco, mástil, velas, ventanas, cubierta: estructura reconocible como barco"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<!-- Casco de luna creciente --> <path d=\"M46 248q144 71 300-17-6 53-55 80-45 25-91 22Q91 331 46 248Z\" fill=\"url(#hull)\""
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"> <stop stop-color=\"#101936\"/> fondo oscuro nocturno, estrellas, luna"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<!-- Invernadero sobre cubierta --> <path d=\"M104 262v-22q21-33 50-29 29 3 44 47\""
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#baf5dd\" stop-opacity=\".9\"/> ... <stop offset=\"1\" stop-color=\"#6372a4\" stop-opacity=\".5\"/> fill-opacity parcial en las velas"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<!-- Mástil y velas cultivadas a partir de luz --> gradiente sail con colores luminosos y líneas decorativas tipo nervaduras"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"207\" cy=\"91\" r=\"19\" fill=\"url(#moon)\"/> <circle cx=\"207\" cy=\"91\" r=\"9\" fill=\"#fff4c5\"/> encima del mástil <path d=\"M207 98v166\""
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<!-- Una luna cautiva hace de brújula --> <ellipse cx=\"207\" cy=\"91\" rx=\"28\" ry=\"8\" transform=\"rotate(-23 207 91)\" fill=\"none\" stroke=\"#f7d5a2\""
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffe3a6\" stroke=\"#553c59\" stroke-width=\"3\"> <circle cx=\"122\" cy=\"292\" r=\"10\"/> ... <g fill=\"#fff8d5\"> <circle cx=\"119\" cy=\"289\" r=\"2\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<!-- Ventanas, como pequeñas constelaciones --> <circle cx=\"122\" cy=\"292\" r=\"10\"/> ... patrón de círculos luminosos"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<!-- Un ancla hecha de raíz, suspendida sobre el agua --> <path d=\"M92 299q-12 24 1 44m0 0q-13 9-24-2m24 2q10 8 23-4\" fill=\"none\" stroke=\"#d9a884\""
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M55 213v23m-5 0h10l-2 10h-6Z\" fill=\"#fbd797\"/> <path d=\"M364 274v15m-5 0h10l-2 9h-6Z\" fill=\"#fbd797\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<!-- Faroles flotantes siguen al barco --> <circle cx=\"55\" cy=\"240\" r=\"12\" fill=\"url(#moon)\"/> <circle cx=\"364\" cy=\"293\" r=\"12\" fill=\"url(#moon)\"/> sobre el mar"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#101936\"/> fondo muy oscuro con estrellas y luna"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<!-- Casco de luna creciente --> <path d=\"M46 248q144 71 300-17-6 53-55 80-45 25-91 22Q91 331 46 248Z\""
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<!-- Mástil y velas cultivadas a partir de luz --> fill=\"url(#sail)\" con gradientes luminosos y nervaduras decorativas"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<!-- Invernadero sobre cubierta --> <path d=\"M104 262v-22q21-33 50-29 29 3 44 47\" fill=\"#28465b\""
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<!-- Una luna cautiva hace de brújula --> <circle cx=\"207\" cy=\"91\" r=\"19\" fill=\"url(#moon)\"/> <ellipse cx=\"207\" cy=\"91\" rx=\"28\" ry=\"8\" transform=\"rotate(-23 207 91)\""
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<rect fill=\"url(#sky)\"/> fondo nocturno + <path d=\"M0 308q55-13 105 0...\" fill=\"url(#sea)\"/> mar"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "ancla de raíz, velas de luz, luna brújula, invernadero en barco, faroles flotantes: elementos oníricos y fantásticos combinados"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "colores: #baf5dd, #f9e9bd, #ffe3a6, #8bd5c5, #f6d99a — paleta suave y desaturada"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "stop-opacity=\".5\", fill-opacity=\".38\", stroke-opacity=\".65\", opacity=\".4\" múltiples transparencias"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"119\" cy=\"289\" r=\"2\" fill=\"#fff8d5\"/> <circle cx=\"346\" cy=\"218\" r=\"3\" fill=\"#fff0bb\"/> puntos blancos brillantes sobre ventanas y mástil"
+    }
+  ]
+}

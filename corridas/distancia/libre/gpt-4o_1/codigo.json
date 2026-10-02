@@ -1,0 +1,130 @@
+{
+  "consigna": "libre",
+  "unidad": "gpt-4o_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:05:04+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#87CEEB\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"80\" fill=\"#FFD700\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"300\" width=\"400\" height=\"100\" fill=\"#228B22\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"80\" cy=\"300\" rx=\"40\" ry=\"100\" fill=\"#8B4513\"/> <circle cx=\"80\" cy=\"200\" r=\"60\" fill=\"#32CD32\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"80\" cy=\"300\" rx=\"40\" ry=\"100\" fill=\"#8B4513\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"80\" cy=\"200\" r=\"60\" fill=\"#32CD32\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos que representen setas en el código."
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"70\" r=\"18\" fill=\"#FFFFFF\" opacity=\"0.6\"/> <circle cx=\"220\" cy=\"50\" r=\"14\" fill=\"#FFFFFF\" opacity=\"0.8\"/> <circle cx=\"180\" cy=\"45\" r=\"15\" fill=\"#FFFFFF\" opacity=\"0.7\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "Colores suaves y naturales: #87CEEB, #FFD700, #228B22, #32CD32"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "Paleta cálida y natural: #FFD700, #228B22, #32CD32, #87CEEB"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "Formas simples reconocibles: rect, circle, ellipse para cielo, sol, árbol, prado"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "Escena natural con sol, árbol, prado y nubes usando formas y colores universales"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"50\" cy=\"180\" r=\"10\" fill=\"#ADFF2F\"/> detalles sobre formas simples como <circle cx=\"80\" cy=\"200\" r=\"60\" fill=\"#32CD32\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#87CEEB\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"80\" fill=\"#FFD700\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"300\" width=\"400\" height=\"100\" fill=\"#228B22\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"370,300 350,250 390,250\" fill=\"#2E8B57\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"80\" cy=\"300\" rx=\"40\" ry=\"100\" fill=\"#8B4513\"/> <circle cx=\"80\" cy=\"200\" r=\"60\" fill=\"#32CD32\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"80\" cy=\"300\" rx=\"40\" ry=\"100\" fill=\"#8B4513\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"80\" cy=\"200\" r=\"60\" fill=\"#32CD32\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "no_esta",
+      "evidencia": "Los círculos en el árbol son fill=\"#ADFF2F\" (verde amarillento), no hay manzanas rojas ni elementos que representen manzanas."
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"70\" r=\"18\" fill=\"#FFFFFF\" opacity=\"0.6\"/> <circle cx=\"320\" cy=\"150\" r=\"15\" fill=\"#FFFFFF\" opacity=\"0.6\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "Colores brillantes y naturales: #FFD700, #87CEEB, #32CD32, #228B22"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"80\" fill=\"#FFD700\"/> <rect x=\"0\" y=\"300\" width=\"400\" height=\"100\" fill=\"#228B22\"/> <circle cx=\"80\" cy=\"200\" r=\"60\" fill=\"#32CD32\"/>"
+    }
+  ]
+}

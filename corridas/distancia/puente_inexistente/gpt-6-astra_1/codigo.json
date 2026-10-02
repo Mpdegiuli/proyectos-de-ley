@@ -1,0 +1,240 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "gpt-6-astra_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:38:35+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"m17 289 21 36 13-11 13 25 23-44-28-18Z\" fill=\"#182d40\"/> ... <path d=\"m314 190 19 27 11-8 13 15 23-43-37-5Z\" fill=\"#182d40\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M41 282C100 282 126 239 150 206 185 158 161 68 215 61 274 52 286 128 241 160 192 197 186 240 238 240 290 240 313 198 353 174\""
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M83 274v43l7 8 7-8v-55l-6 5v39q0 6-4 3v-36Z\" fill=\"url(#stone)\"/> (los pilares no tienen suelo debajo en los islotes)"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M43 297c2 36-6 54-9 80h28c-5-29 7-48 3-80Z\" fill=\"url(#water)\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M41 282C100 282 126 239 150 206 185 158 161 68 215 61 274 52 286 128 241 160 192 197 186 240 238 240 290 240 313 198 353 174\" fill=\"none\" stroke=\"#f3bc8e\" stroke-width=\"24\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M43 259C102 262 141 205 158 174S160 42 215 39C274 34 285 106 241 141S183 230 238 230C288 230 316 185 353 154\" stroke-width=\"1.1\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(94 263)\"> <path d=\"m-2 0-3 7h9L1 0Z\" fill=\"#ef795f\"/> <circle cy=\"-3\" r=\"2.3\" fill=\"#ffe0b0\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M341 179v-34q0-9 7-12 7 2 7 12v24\" fill=\"#172f40\" stroke=\"#edbd8c\" stroke-width=\"3\"/> <path d=\"m337 137 11-12 12 8-5 4-7-6-7 9Z\""
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M41 282C100 282 126 239 150 206 185 158 161 68 215 61 274 52 286 128 241 160 192 197 186 240 238 240 290 240 313 198 353 174\" fill=\"none\" stroke=\"#f3bc8e\" stroke-width=\"24\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "pilares colgantes sin suelo y curva de montaña rusa: <path d=\"M83 274v43l7 8 7-8v-55...\"/> sobre islotes flotantes sin base"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M83 274v43l7 8 7-8v-55l-6 5v39q0 6-4 3v-36Z\" fill=\"url(#stone)\"/> pilares colgantes integrados al puente"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M41 282C100 282 126 239 150 206 185 158 161 68 215 61 274 52 286 128 241 160 192 197 186 240 238 240 290 240 313 198 353 174\" fill=\"none\" stroke=\"#f3bc8e\" stroke-width=\"24\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "no_esta",
+      "evidencia": "el puente existe en el código, aunque sea imposible físicamente"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"m17 289 21 36...\"/> y <path d=\"m314 190 19 27...\"/> dos islotes"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M41 282C100 282 126 239 150 206 185 158 161 68 215 61 274 52 286 128 241 160 192 197 186 240 238 240 290 240 313 198 353 174\""
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M83 274v43l7 8 7-8v-55l-6 5v39q0 6-4 3v-36Z\" fill=\"url(#stone)\"/> los pilares arrancan desde el puente hacia abajo sin tocar suelo"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "stroke=\"#f3bc8e\" stroke-width=\"24\" y <linearGradient id=\"stone\"><stop stop-color=\"#ffdaa0\"/><stop offset=\".5\" stop-color=\"#dc9275\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<g fill=\"none\" stroke=\"#ffdfaa\" stroke-width=\"1.7\" stroke-linecap=\"round\">"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop stop-color=\"#101b35\"/><stop offset=\"1\" stop-color=\"#305564\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<pattern id=\"stars\"><circle cx=\"18\" cy=\"22\" r=\".8\" fill=\"#bad6d6\"/><circle cx=\"73\" cy=\"58\" r=\".6\" fill=\"#bad6d6\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M242 89a28 28 0 1 0 10 40 25 25 0 0 1-10-40Z\" fill=\"#ffe3aa\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M43 297c2 36-6 54-9 80h28c-5-29 7-48 3-80Z\" fill=\"url(#water)\"/> en el islote izquierdo"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"water\"><stop stop-color=\"#a0e1d4\" stop-opacity=\".8\"/><stop offset=\"1\" stop-color=\"#79c9ce\" stop-opacity=\"0\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M341 179v-34q0-9 7-12 7 2 7 12v24\" fill=\"#172f40\" stroke=\"#edbd8c\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(94 263)\"><path d=\"m-2 0-3 7h9L1 0Z\" fill=\"#ef795f\"/><circle cy=\"-3\" r=\"2.3\" fill=\"#ffe0b0\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"m3 2 6-4m0-2v8\" fill=\"none\" stroke=\"#ffe0b0\" stroke-width=\"1\"/> <path d=\"m9-3-3-4 3-4 3 4Z\" fill=\"#ffdf90\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#a8d0ca\" opacity=\" .16\"><ellipse cx=\"208\" cy=\"354\" rx=\"155\" ry=\"23\"/><path d=\"M0 322c73-22 121 17 180 0s134-32 220-9...\""
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#84b5b7\" opacity=\".11\"><path d=\"M-20 163c16-13 37-12 48-5...\"/> <path d=\"M274 276c11-13 29-15 43-9...\""
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<g fill=\"none\" stroke=\"#d4ba8c\" stroke-width=\".8\"><path d=\"M235 298v20\"/><circle cx=\"235\" cy=\"322\" r=\"4\"/><path d=\"M151 263v17m-3 0h6l-3 6Z\"/><path d=\"M90 325v12\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#a8d0ca\" opacity=\".16\"><ellipse cx=\"208\" cy=\"354\" rx=\"155\" ry=\"23\"/> islotes y puente flotando sobre elipses de agua distante"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<path d=\"m17 289 21 36 13-11 13 25 23-44-28-18Z\"/> y <path d=\"m314 190 19 27 11-8 13 15 23-43-37-5Z\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<path d=\"M41 282C100 282 126 239 150 206 185 158 161 68 215 61 274 52 286 128 241 160 192 197 186 240 238 240 290 240 313 198 353 174\""
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<path d=\"M41 282C100 282 126 239 150 206 185 158 161 68 215 61 274 52 286 128 241 160 192 197 186 240 238 240 290 240 313 198 353 174\" stroke-width=\"24\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<path d=\"M83 274v43l7 8 7-8v-55l-6 5v39q0 6-4 3v-36Z\" fill=\"url(#stone)\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<path d=\"m112 249 1 37 7 9 7-11v-52l-5 4v39q-3 9-5 2v-33Z\" fill=\"url(#stone)\"/> pilares sin base en el suelo"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 400\">"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#101b35\"/> <stop offset=\"1\" stop-color=\"#305564\"/>"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<path d=\"m17 289 21-16 34 4 19 14-33 12Z\" fill=\"#6c8a80\"/> fill=\"#9bb99c\""
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "stroke=\"#ffdfaa\" fill=\"#f8db9d\" stop-color=\"#ffdaa0\""
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"> <linearGradient id=\"stone\"> <radialGradient id=\"glow\"> <linearGradient id=\"water\">"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "formas geométricas simples: path, ellipse, circle sin detalle complejo"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "stroke-linecap=\"round\" y trazos definidos con stroke en paths principales"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "combinación de gradientes, estrellas, islotes flotantes, paleta nocturna fantástica"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#101b35\"/> cielo nocturno + luna + figura con linterna + islotes flotantes"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "islotes flotantes, puente imposible, luna, estrellas, cascada que se desvanece, adornos colgantes"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "<path d=\"M83 274v43l7 8 7-8v-55l-6 5v39q0 6-4 3v-36Z\" fill=\"url(#stone)\"/> pilares suspendidos sin base"
+    }
+  ]
+}

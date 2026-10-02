@@ -1,0 +1,165 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "grok-4.6_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:25:33+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M168 168 C70 40 28 150 96 188 ...\" fill=\"url(#wing)\"/> <circle cx=\"86\" cy=\"128\" r=\"16\" fill=\"url(#eye)\"/> ... <path d=\"M188 178 C250 48 348 90 292 176 ...\" fill=\"url(#wing)\"/> <circle cx=\"292\" cy=\"118\" r=\"13\" fill=\"url(#eye)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"270\" cy=\"142\" rx=\"3.2\" ry=\"3.4\" fill=\"url(#eye)\"/> <circle cx=\"270\" cy=\"142\" r=\"1.2\" fill=\"#05070c\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos que dibujen un tentáculo con ojo en el código."
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos que dibujen frutos brotando del cráneo."
+    },
+    {
+      "id": "a5",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos que dibujen garra, pezuña y aleta como patas distintas."
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M128 214 C118 168 156 132 208 146 C258 158 292 196 274 242 ...\" fill=\"url(#fur)\"/> alas, ojos, cola, cuerpo componen un animal."
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path ... fill=\"url(#wing)\"/> (ave), <path ... fill=\"url(#fur)\"/> (mamífero), <path d=\"M156 276 C132 304 148 348 186 334 ...\" fill=\"url(#tailg)\"/> (pez/cola)"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"3.5\" fill=\"url(#spot)\" opacity=\".8\"/> <circle cx=\"228\" cy=\"248\" r=\"4.2\" fill=\"url(#spot)\" opacity=\".75\"/> <circle cx=\"176\" cy=\"230\" r=\"3\" fill=\"url(#spot)\" opacity=\".7\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"fur\"><stop offset=\"0%\" stop-color=\"#f2c14e\"/><stop offset=\"45%\" stop-color=\"#e07a5f\"/><stop offset=\"100%\" stop-color=\"#3dccc7\"/></linearGradient>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"wing\"><stop offset=\"0%\" stop-color=\"#5b2a86\"/><stop offset=\"50%\" stop-color=\"#c44569\"/><stop offset=\"100%\" stop-color=\"#ff9a3c\"/></linearGradient>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"86\" cy=\"128\" r=\"16\" fill=\"url(#eye)\"/> (ala izq) <circle cx=\"292\" cy=\"118\" r=\"13\" fill=\"url(#eye)\"/> (ala der)"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"262\" cy=\"156\" rx=\"7.5\" ry=\"8\" fill=\"url(#eye)\"/> <ellipse cx=\"278\" cy=\"154\" rx=\"6.2\" ry=\"6.8\" fill=\"url(#eye)\"/> <ellipse cx=\"270\" cy=\"142\" rx=\"3.2\" ry=\"3.4\" fill=\"url(#eye)\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "no_esta",
+      "evidencia": "No hay ningún elemento path o shape que dibuje un pico en el código."
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M242 138 C236 92 198 78 214 128\" .../> <path d=\"M252 136 C270 74 312 86 286 138\"/> <circle cx=\"214\" cy=\"86\" r=\"5\" fill=\"#80ed99\"/> <circle cx=\"198\" cy=\"102\" r=\"3.5\" fill=\"#ffd166\"/> <circle cx=\"292\" cy=\"92\" r=\"4.5\" fill=\"#80ed99\"/> <circle cx=\"308\" cy=\"108\" r=\"3.2\" fill=\"#ef476f\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M176 328 C186 356 214 350 208 322\" fill=\"#ef476f\"/> <path d=\"M188 330 C198 360 226 348 216 320\" fill=\"#ffd166\"/> <path d=\"M198 326 C214 358 242 340 226 316\" fill=\"#80ed99\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos que dibujen un tentáculo con ojo en el código."
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#071018\"/><stop offset=\"55%\" stop-color=\"#123044\"/><stop offset=\"100%\" stop-color=\"#1c4d4a\"/></linearGradient> <g fill=\"#d8f3dc\" opacity=\".55\"><circle cx=\"46\" cy=\"38\" r=\"1.2\"/>..."
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "Alas de ave, cuerpo de mamífero con fur gradient, cola de pez multicolor, ojos en alas y cuerpo: anatomías incompatibles mezcladas."
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "La combinación de alas, cuerpo peludo, cola de pez, tres ojos en la cara y ojos en las alas es un animal imposible."
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"86\" cy=\"128\" r=\"16\" fill=\"url(#eye)\"/> dentro del grupo del ala izquierda; <circle cx=\"292\" cy=\"118\" r=\"13\" fill=\"url(#eye)\"/> dentro del grupo del ala derecha."
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M128 214 ... fill=\"url(#fur)\"/> con gradiente que evoca pelaje: #f2c14e, #e07a5f, #3dccc7"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M156 276 C132 304 148 348 186 334 ...\" fill=\"url(#tailg)\"/> <path d=\"M176 328 ...\" fill=\"#ef476f\"/> <path d=\"M188 330 ...\" fill=\"#ffd166\"/> con aletas de colores"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"262\" cy=\"156\" rx=\"7.5\" ry=\"8\" fill=\"url(#eye)\"/> <ellipse cx=\"278\" cy=\"154\" rx=\"6.2\" ry=\"6.8\" fill=\"url(#eye)\"/> <ellipse cx=\"270\" cy=\"142\" rx=\"3.2\" ry=\"3.4\" fill=\"url(#eye)\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"86\" cy=\"128\" r=\"16\" fill=\"url(#eye)\"/> <circle cx=\"292\" cy=\"118\" r=\"13\" fill=\"url(#eye)\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "no_esta",
+      "evidencia": "No hay círculos o elipses con fill=\"url(#eye)\" posicionados en la zona de la cola."
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M242 138 C236 92 198 78 214 128\"/> <circle cx=\"214\" cy=\"86\" r=\"5\" fill=\"#80ed99\"/> <circle cx=\"198\" cy=\"102\" r=\"3.5\" fill=\"#ffd166\"/> <circle cx=\"292\" cy=\"92\" r=\"4.5\"/> <circle cx=\"308\" cy=\"108\" r=\"3.2\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "Uso de gradientes, filtros gaussianos, formas orgánicas complejas con paths curvos y paleta fantástica."
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "Animal quimérico con ojos en las alas, tres ojos en la cara, cola multicolor, anatomías mezcladas evoca bestiario surrealista."
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "Predominan paths con curvas C y Q: d=\"M128 214 C118 168 156 132 208 146 C258 158 292 196 274 242...\" y múltiples ellipse."
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"fur\"><stop offset=\"0%\" stop-color=\"#f2c14e\"/><stop offset=\"45%\" stop-color=\"#e07a5f\"/><stop offset=\"100%\" stop-color=\"#3dccc7\"/></linearGradient> y otros gradientes saturados."
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "Múltiples capas decorativas: manchas, spots, tentáculos de cola en colores, detalles de bayas, filtros suaves: orientación decorativa clara."
+    }
+  ]
+}

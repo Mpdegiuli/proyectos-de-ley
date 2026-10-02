@@ -1,0 +1,180 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "gpt-6-luna_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T01:12:36+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path fill=\"url(#hull)\" stroke=\"#ffe0a0\" stroke-width=\"2\" d=\"M54 237q51 17 119 13 85-3 158-29-21 44-64 63-94 39-184-4-21-10-29-43z\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path fill=\"url(#sail)\" ... d=\"M190 100q-59 25-54 77 2 28 46 57 9-55 8-134z\"/> <path fill=\"#ef9b86\" ... d=\"M205 119q58-8 71 36 9 30-62 75 8-52-9-111z\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path fill=\"url(#sail)\" d=\"M190 100q-59 25-54 77...\"/> (izquierda) vs <path fill=\"#ef9b86\" d=\"M205 119q58-8 71 36...\"/> (derecha), formas distintas"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop stop-color=\"#101a42\"/><stop offset=\"1\" stop-color=\"#385b83\"/></linearGradient> y colores cálidos del casco"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"310\" cy=\"92\" r=\"60\" fill=\"url(#moon)\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "combinación de luna grande, barco curvo, colores fantásticos, estrellas en forma de destellos"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path fill=\"url(#hull)\" d=\"M54 237q51 17 119 13 85-3 158-29-21 44-64 63-94 39-184-4-21-10-29-43z\"/> con mástil y velas"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "casco curvo inusual, velas asimétricas, luna enorme, colores fantásticos"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "colores de cuento, luna grande, barco estilizado con degradados cálidos"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "barco con casco degradado dorado-coral-púrpura, velas curvas, luna grande, escena nocturna"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path fill=\"url(#hull)\" d=\"M54 237q51 17 119 13 85-3 158-29-21 44-64 63-94 39-184-4-21-10-29-43z\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"hull\"><stop stop-color=\"#ffd47a\"/><stop offset=\".48\" stop-color=\"#e47758\"/><stop offset=\"1\" stop-color=\"#733f60\"/></linearGradient>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"104\" cy=\"254\" r=\"4\" fill=\"#fff0bc\"/> <circle cx=\"124\" cy=\"260\" r=\"4\" fill=\"#fff0bc\"/> <circle cx=\"145\" cy=\"264\" r=\"4\" fill=\"#fff0bc\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path fill=\"url(#sail)\" d=\"M190 100q-59 25-54 77...\"/> y <path fill=\"#ef9b86\" d=\"M205 119q58-8 71 36...\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sail\"><stop stop-color=\"#fff0ba\"/><stop offset=\"1\" stop-color=\"#f38a83\"/></linearGradient> y <path fill=\"#ef9b86\".../>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "vela izquierda: d=\"M190 100q-59 25...\" y vela derecha: d=\"M205 119q58-8 71...\" respecto al mástil en x=197"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path fill=\"none\" stroke=\"#f7cf83\" stroke-width=\"5\" stroke-linecap=\"round\" d=\"M197 238V79\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path fill=\"#ffe3a4\" d=\"M195 77q-11-12 2-19 13 7 2 19z\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop stop-color=\"#101a42\"/><stop offset=\"1\" stop-color=\"#385b83\"/></linearGradient>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"310\" cy=\"92\" r=\"60\" fill=\"url(#moon)\"/> <circle cx=\"310\" cy=\"92\" r=\"25\" fill=\"#fff0bd\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M54 55l2 7 7 2-7 2-2 7-2-7-7-2 7-2z\"/> <circle cx=\"162\" cy=\"52\" r=\"2\"/> <circle cx=\"225\" cy=\"73\" r=\"2\"/>... en g fill=\"#fff3cf\""
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path fill=\"#18385c\" d=\"M0 256q54-16 108 0t108 0 108 0 76 0v144H0z\"/> <path fill=\"#245275\" d=\"M0 282q60-20 120 0t120 0 120 0 40 0v118H0z\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M17 299q22-9 44 0t44 0 44 0\"/> <path d=\"M245 310q26-10 52 0t52 0 44 0\"/> stroke=\"#83bdc1\""
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "cielo oscuro #101a42 + barco sobre el mar"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "colores fantásticos del casco, velas curvas, luna grande, estrellas, escena nocturna"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path fill=\"url(#hull)\" d=\"M54 237q51 17 119 13 85-3 158-29-21 44-64 63-94 39-184-4-21-10-29-43z\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path fill=\"url(#hull)\" d=\"M54 237q51 17 119 13 85-3 158-29...\"/> forma curva inusual con cubierta <path fill=\"#503858\" d=\"M98 238h204l-20 17H111z\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path fill=\"url(#sail)\" d=\"M190 100q-59 25-54 77 2 28 46 57 9-55 8-134z\"/> curvas bezier"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path fill=\"url(#sky)\" d=\"M0 0h400v400H0z\"/> con gradiente #101a42 a #385b83"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "hull: #ffd47a, #e47758, #733f60; sail: #fff0ba, #f38a83; moon: #fff8cc, #f9d990"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "cielo #101a42-#385b83 (frío oscuro) vs casco #ffd47a-#e47758 y velas #fff0ba-#f38a83 (cálidos)"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "SVG con paths, gradientes lineales/radiales, formas geométricas definidas"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "formas simplificadas, degradados, estrellas en forma de destellos, velas curvas no realistas"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "luna grande, colores fantásticos, barco curvo, estrellas en destellos, escena nocturna con tonos cálidos"
+    }
+  ]
+}

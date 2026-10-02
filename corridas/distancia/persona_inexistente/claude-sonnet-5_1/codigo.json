@@ -1,0 +1,250 @@
+{
+  "consigna": "persona_inexistente",
+  "unidad": "claude-sonnet-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:14:23+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"165\" rx=\"62\" ry=\"72\" fill=\"url(#skin)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "contradice",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#4a3b2a\"/><stop offset=\"100%\" stop-color=\"#2c2116\"/> (castaño oscuro, no corto - el pelo llega hasta y más allá de las orejas)"
+    },
+    {
+      "id": "a3",
+      "valor": "contradice",
+      "evidencia": "<path d=\"M138,150 Q130,70 200,65 Q270,70 262,150 Q255,110 200,105 Q145,110 138,150 Z\" fill=\"url(#hair)\"/> (tiene estilo peinado hacia atrás con mechones)"
+    },
+    {
+      "id": "a4",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"200\" cy=\"290\" r=\"4\" fill=\"#294a63\"/><circle cx=\"200\" cy=\"310\" r=\"4\" fill=\"#294a63\"/> (tiene detalles/botones, no es lisa)"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"230\" cy=\"195\" r=\"2\" fill=\"#5a3b25\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"165\" cy=\"185\" rx=\"10\" ry=\"6\" fill=\"#e08a6b\" opacity=\"0.3\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"165\" rx=\"62\" ry=\"72\" fill=\"url(#skin)\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M120,400 L120,320 Q120,250 200,245 Q280,250 280,320 L280,400 Z\" fill=\"url(#shirt)\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180,205 Q200,215 Q200,218 180,205 Z\" fill=\"#a85c4a\"/> (expresión neutra, leve sonrisa ambigua)"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "No hay texto ni atributo que identifique a una persona real"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"179\" cy=\"160\" r=\"5\" fill=\"#5a3b25\"/><circle cx=\"181\" cy=\"158\" r=\"1.2\" fill=\"#ffffff\"/> (detalles de ojos, lunar, rubor dan presencia de persona)"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"165\" rx=\"62\" ry=\"72\" fill=\"url(#skin)\"/> (rasgos genéricos sin marcadores étnicos o de edad específicos)"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"0\" width=\"400\" height=\"400\" fill=\"url(#bg)\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"165\" rx=\"62\" ry=\"72\" fill=\"url(#skin)\"/> (cabeza centrada y grande en el encuadre)"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M120,400 L120,320 Q120,250 200,245 Q280,250 280,320 L280,400 Z\" fill=\"url(#shirt)\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"165\" rx=\"62\" ry=\"72\" fill=\"url(#skin)\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#f2c9a0\"/><stop offset=\"100%\" stop-color=\"#e0a878\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#4a3b2a\"/><stop offset=\"100%\" stop-color=\"#2c2116\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M138,150 Q130,70 200,65 Q270,70 262,150 Q255,110 200,105 Q145,110 138,150 Z\" fill=\"url(#hair)\"/> (pelo barrido hacia atrás desde la frente)"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M138,150 Q135,190 150,210 Q140,175 148,145 Z\" fill=\"url(#hair)\"/><path d=\"M262,150 Q265,190 250,210 Q260,175 252,145 Z\" fill=\"url(#hair)\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"178\" cy=\"160\" rx=\"11\" ry=\"8\" fill=\"#ffffff\"/><circle cx=\"179\" cy=\"160\" r=\"5\" fill=\"#5a3b25\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"181\" cy=\"158\" r=\"1.2\" fill=\"#ffffff\"/><circle cx=\"223\" cy=\"158\" r=\"1.2\" fill=\"#ffffff\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M165,145 Q178,138 190,144\" fill=\"none\" stroke=\"#3a2c1d\" stroke-width=\"4\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M198,160 Q194,180 200,185 Q206,187 209,183\" fill=\"none\" stroke=\"#c98f5f\" stroke-width=\"3\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180,205 Q200,215 220,205 Q200,218 180,205 Z\" fill=\"#a85c4a\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M120,400 L120,320 Q120,250 200,245 Q280,250 280,320 L280,400 Z\" fill=\"url(#shirt)\"/><stop offset=\"0%\" stop-color=\"#5b8bb2\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M170,250 Q200,270 230,250 L230,260 Q200,280 170,260 Z\" fill=\"#294a63\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"290\" r=\"4\" fill=\"#294a63\"/><circle cx=\"200\" cy=\"310\" r=\"4\" fill=\"#294a63\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"165\" cy=\"185\" rx=\"10\" ry=\"6\" fill=\"#e08a6b\" opacity=\"0.3\"/><ellipse cx=\"235\" cy=\"185\" rx=\"10\" ry=\"6\" fill=\"#e08a6b\" opacity=\"0.3\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"230\" cy=\"195\" r=\"2\" fill=\"#5a3b25\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"378\" rx=\"90\" ry=\"14\" fill=\"#000000\" opacity=\"0.1\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "no_esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"378\" rx=\"90\" ry=\"14\" fill=\"#000000\" opacity=\"0.1\"/> (la sombra está debajo del cuerpo, da sensación de suelo, no volumen de figura)"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\" cx=\"50%\" cy=\"30%\" r=\"80%\"><stop offset=\"0%\" stop-color=\"#fdf6e3\"/><stop offset=\"100%\" stop-color=\"#d8c9a3\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"165\" rx=\"62\" ry=\"72\" fill=\"url(#skin)\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"150\" cy=\"185\" rx=\"9\" ry=\"13\"/><ellipse cx=\"250\" cy=\"185\" rx=\"9\" ry=\"13\"/> (elementos simétricos respecto a cx=200)"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skin\"> (gradiente sin textura real, superficie lisa)"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"165\" rx=\"62\" ry=\"72\" fill=\"url(#skin)\"/> (proporciones idealizadas, no realistas)"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<path d=\"M138,150 Q130,70 200,65 Q270,70 262,150 Q255,110 200,105 Q145,110 138,150 Z\" fill=\"url(#hair)\"/>"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<path d=\"M120,400 L120,320 Q120,250 200,245 Q280,250 280,320 L280,400 Z\" fill=\"url(#shirt)\"/>"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skin\"><stop offset=\"0%\" stop-color=\"#f2c9a0\"/><stop offset=\"100%\" stop-color=\"#e0a878\"/>"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"hair\"><stop offset=\"0%\" stop-color=\"#4a3b2a\"/><stop offset=\"100%\" stop-color=\"#2c2116\"/>"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"shirt\"><stop offset=\"0%\" stop-color=\"#5b8bb2\"/><stop offset=\"100%\" stop-color=\"#33587a\"/>"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180,205 Q200,215 220,205 Q200,218 180,205 Z\" fill=\"#a85c4a\"/> (paths con curvas limpias)"
+    },
+    {
+      "id": "a44",
+      "valor": "contradice",
+      "evidencia": "<linearGradient id=\"skin\"/><linearGradient id=\"hair\"/><linearGradient id=\"shirt\"/> (usa gradientes, no es flat design puro)"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "Gradientes en piel, pelo y ropa combinados con formas simples y sin texturas reales"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"165\" rx=\"62\" ry=\"72\" fill=\"url(#skin)\"/> (figura centrada, simplificada, tipo avatar)"
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "Combinación de ojos con detalles, lunar, rubor, nariz y boca dan presencia creíble"
+    },
+    {
+      "id": "a48",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skin\"><stop offset=\"0%\" stop-color=\"#f2c9a0\"/><stop offset=\"100%\" stop-color=\"#e0a878\"/>"
+    }
+  ]
+}

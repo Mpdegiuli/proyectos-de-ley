@@ -1,0 +1,140 @@
+{
+  "consigna": "libre",
+  "unidad": "gpt-6-astra_2",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:02:33+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M187 113v90\" stroke=\"#d6b880\" stroke-width=\"2.6\"/> <path d=\"M182 125c-8 25-18 44-34 62 14-4 25-3 34 3Z\" fill=\"url(#sail)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"190\" cy=\"211\" rx=\"103\" ry=\"34\" fill=\"url(#sea)\"/> con velero encima"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M83 210c3 45 22 82 61 96 26 10 67 10 94-1 36-15 58-48 59-95Z\" fill=\"url(#porcelain)\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M282 66a29 29 0 1 0 9 46 26 26 0 0 1-9-46Z\" fill=\"#ffe5a2\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<use href=\"#star\" x=\"84\" y=\"96\"/> <use href=\"#star\" x=\"179\" y=\"55\".../>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M119 182c-35-31 30-42 10-76-7-12-19-15-14-31\" opacity=\".25\" stroke-width=\"1.6\"/> <path d=\"M252 180c28-24-18-35-7-58\" opacity=\".22\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(193 279)\" fill=\"none\" stroke=\"#6d8788\"><path d=\"M-18 0h36M0-14v28\"/><path d=\"M0-14 4-4 14 0 4 4 0 14-4 4-14 0-4-4Z\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path fill=\"url(#night)\" d=\"M0 0h400v400H0z\"/> con stop-color=\"#223d55\" y #090f23; velas fill=\"url(#sail)\" stop-color=\"#fff4cf\" y #dca96c"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "opacidades bajas, degradados suaves, estrellas pequeñas, mar con ondas suaves stroke-width=\"1.5\""
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "combinación de luna, estrellas, velero en taza, rosa de los vientos, noche azul profunda"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M83 210...\" fill=\"url(#porcelain)\"/> (taza) conteniendo mar y velero"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M187 113v90\"/> (mástil) sobre <ellipse cx=\"190\" cy=\"211\" rx=\"103\" ry=\"34\" fill=\"url(#sea)\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M83 210c3 45 22 82 61 96...\" fill=\"url(#porcelain)\"/> con mar dentro"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path fill=\"url(#night)\" d=\"M0 0h400v400H0z\"/> radialGradient stop-color=\"#223d55\" offset=\"0\" y \"#090f23\""
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0-5 1.2-1.2 5 0 1.2 1.2 0 5-1.2 1.2-5 0-1.2-1.2Z\" fill=\"#f8df9e\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M282 66a29 29 0 1 0 9 46 26 26 0 0 1-9-46Z\" fill=\"#ffe5a2\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"194\" cy=\"318\" rx=\"120\" ry=\"23\" fill=\"#748f95\"/> <ellipse cx=\"194\" cy=\"313\" rx=\"120\" ry=\"22\" fill=\"#c1c4ac\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(193 279)\"><path d=\"M0-14 4-4 14 0 4 4 0 14-4 4-14 0-4-4Z\"/> (rosa de los vientos en la taza)"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M119 182c-35-31 30-42 10-76-7-12-19-15-14-31\" opacity=\".25\" stroke-width=\"1.6\"/> <path d=\"M252 180c28-24-18-35-7-58\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#faf0cf\"/> <stop offset=\"1\" stop-color=\"#dca96c\"/> fill=\"#ecdcba\""
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<stop offset=\".5\" stop-color=\"#23697a\"/> <stop offset=\"1\" stop-color=\"#73b6aa\"/> stroke=\"#a9d3c9\""
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#ffd987\"/> fill=\"#f8df9e\" fill=\"#ffe5a2\""
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path fill=\"url(#night)\" d=\"M0 0h400v400H0z\"/> stop-color=\"#090f23\""
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "líneas de vapor desde la taza hacia el cielo implican calor; el mar tiene fill=\"url(#sea)\" pero el vapor sube desde el interior"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "opacidades suaves, luna, estrellas, velero, taza, rosa de los vientos, paleta armónica"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "velero (mástil path d=\"M187 113v90\") dentro de taza (ellipse rx=\"103\" ry=\"34\"), escala relativa pequeña"
+    }
+  ]
+}

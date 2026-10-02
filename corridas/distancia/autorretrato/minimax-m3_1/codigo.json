@@ -1,0 +1,135 @@
+{
+  "consigna": "autorretrato",
+  "unidad": "minimax-m3_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:53:09+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"210\" rx=\"105\" ry=\"125\" fill=\"url(#face)\" stroke=\"#6a7a9a\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#00ddff\" stroke-width=\"1.2\" fill=\"none\" opacity=\".75\">"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"168\" cy=\"195\" rx=\"20\" ry=\"13\" fill=\"url(#eye)\"/> ... <stop offset=\"50%\" stop-color=\"#00ccff\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<line x1=\"200\" y1=\"85\" x2=\"200\" y2=\"55\" stroke=\"#6a7a9a\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"48\" r=\"7\" fill=\"#ff44aa\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"48\" r=\"12\" fill=\"none\" stroke=\"#ff44aa\" stroke-width=\"1\" opacity=\".5\"/><circle cx=\"200\" cy=\"48\" r=\"18\" fill=\"none\" stroke=\"#ff44aa\" stroke-width=\".5\" opacity=\".3\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"40\" cy=\"60\" r=\"1\" fill=\"#fff\" opacity=\".7\"/><circle cx=\"360\" cy=\"40\" r=\"1.5\" fill=\"#fff\" opacity=\".8\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<text x=\"20\" y=\"200\">01010</text><text x=\"330\" y=\"120\">10101</text><text x=\"340\" y=\"290\">01</text>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#00ddff\" stroke-width=\"1.2\" fill=\"none\" opacity=\".75\"> ... circuitos, ojos tipo pantalla, código binario"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"48\" r=\"7\" fill=\"#ff44aa\"/> ... <path d=\"M175 278 Q200 290 225 278\" fill=\"none\" stroke=\"#6a7a9a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M175 278 Q200 290 225 278\" fill=\"none\" stroke=\"#6a7a9a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#4a5a7a\"/><stop offset=\"100%\" stop-color=\"#2a3a5a\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#aaffff\"/><stop offset=\"50%\" stop-color=\"#00ccff\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"168\" cy=\"195\" rx=\"20\" ry=\"13\" fill=\"url(#eye)\"/> con gradiente radial brillante"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#00ddff\" stroke-width=\"1.2\" fill=\"none\" opacity=\".75\"><path d=\"M130 230 L150 230 L150 250\"/><path d=\"M250 250 L270 250 L270 270 L290 270\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"170\" cy=\"130\" r=\"3\" fill=\"#00ddff\"/><circle cx=\"275\" cy=\"165\" r=\"3\" fill=\"#00ddff\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<line x1=\"200\" y1=\"85\" x2=\"200\" y2=\"55\" stroke=\"#6a7a9a\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"200\" cy=\"48\" r=\"7\" fill=\"#ff44aa\"/> — el color es magenta/rosa (#ff44aa), no rosado suave"
+    },
+    {
+      "id": "a19",
+      "valor": "contradice",
+      "evidencia": "<path d=\"M175 278 Q200 290 225 278\" fill=\"none\" stroke=\"#6a7a9a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/> — es una curva, no una línea recta"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#bg)\"/> con gradiente oscuro + estrellas círculos blancos"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "No hay suelo debajo de la figura; el fondo es el gradiente oscuro estrellado sin línea de suelo"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<text x=\"20\" y=\"200\">01010</text><text x=\"330\" y=\"120\">10101</text><text x=\"340\" y=\"290\">01</text>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<text x=\"20\" y=\"200\">01010</text><text x=\"330\" y=\"120\">10101</text>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#00ddff\" stroke-width=\"1.2\" fill=\"none\" opacity=\".75\"><path d=\"M130 230 L150 230 L150 250\"/><path d=\"M250 250 L270 250 L270 270 L290 270\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"210\" rx=\"105\" ry=\"125\" fill=\"url(#face)\"/> forma humana + <g stroke=\"#00ddff\"> trazos de circuito sobre ella"
+    }
+  ]
+}

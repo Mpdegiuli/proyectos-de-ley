@@ -1,0 +1,155 @@
+{
+  "consigna": "mundo",
+  "unidad": "gpt-6-luna_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:22:06+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"202\" r=\"137\" fill=\"url(#sea)\"/> con fondo <rect width=\"400\" height=\"400\" fill=\"url(#space)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"space\"><stop stop-color=\"#183b50\"/><stop offset=\"1\" stop-color=\"#07111f\"/></radialGradient>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M206 66h131v274H206z\" fill=\"url(#heat)\" opacity=\".9\"/> y <linearGradient id=\"heat\"><stop stop-color=\"#ffbd61\"/>...<stop stop-color=\"#e5684f\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M68 284q44-20 84 0t84 0 101 0v64H63z\" fill=\"#43b9c0\" opacity=\".42\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffdb8a\" filter=\"url(#glow)\"><circle cx=\"125\" cy=\"190\" r=\"2\"/><circle cx=\"235\" cy=\"174\" r=\"2\"/>..."
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#9fe2d4\" stroke-opacity=\".62\" stroke-width=\"1\" fill=\"none\"><path d=\"M125 190l36 8 74-24 44 4M161 198l67 20 51-40M235 174l25 46\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#eaf0ce\" stroke-width=\"2\" stroke-linecap=\"round\" fill=\"none\" opacity=\".9\"><path d=\"M99 287v-29m0 0l-10-11m10 11 11-13...\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(314 98)\" stroke=\"#d7e6df\" stroke-width=\"1.2\" fill=\"none\" opacity=\".9\"><path d=\"M0 0l12-6 9 5-12 6zM9 4l-2 9m-3-17-8-7m25 10 8-7\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "Las tierras se dibujan con <g fill=\"url(#land)\"> sin paths de fronteras políticas, solo formas geográficas orgánicas"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"373\">FRÁGIL · CONECTADO · TODAVÍA VIVO</text>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"373\">FRÁGIL · CONECTADO · TODAVÍA VIVO</text> y líneas <path d=\"M125 190l36 8 74-24 44 4...\""
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"373\">FRÁGIL · CONECTADO · TODAVÍA VIVO</text>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "calor invasivo <path fill=\"url(#heat)\" opacity=\".9\"/> junto a brotes <path d=\"M99 287v-29...\"/> y luces de ciudad <circle fill=\"#ffdb8a\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#eaf0ce\" stroke-width=\"2\" stroke-linecap=\"round\" fill=\"none\" opacity=\".9\"><path d=\"M99 287v-29m0 0l-10-11m10 11 11-13m-11 13 1-16\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(314 98)\"><path d=\"M0 0l12-6 9 5-12 6zM9 4l-2 9m-3-17-8-7m25 10 8-7\"/><circle cx=\"9\" cy=\"4\" r=\"2\" fill=\"#f3c879\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "ciudades, brotes, agua y texto «FRÁGIL · CONECTADO · TODAVÍA VIVO» + «UN MUNDO EN VILO» sugieren hogar compartido"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"202\" r=\"137\" fill=\"url(#sea)\"/> con continentes <g fill=\"url(#land)\">"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#space)\"/> oscuro y <circle cx=\"200\" cy=\"202\" r=\"137\"/> sin base de apoyo"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"space\"><stop stop-color=\"#183b50\"/><stop offset=\"1\" stop-color=\"#07111f\"/></radialGradient>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#9fe2d4\" stroke-opacity=\".62\"><path d=\"M125 190l36 8 74-24 44 4M161 198l67 20 51-40M235 174l25 46\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M125 190l36 8 74-24 44 4M161 198l67 20 51-40M235 174l25 46\"/> conectando nodos en distintas posiciones del globo"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M206 66h131v274H206z\" fill=\"url(#heat)\" opacity=\".9\"/> franja vertical derecha + <path d=\"M234 92c-20 32 22 39 3 67s29 37 12 64 24 40 9 77\""
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M68 284q44-20 84 0t84 0 101 0v64H63z\" fill=\"#43b9c0\" opacity=\".42\"/> y <path d=\"M62 298q43-13 86 0t85 0 105 0M67 316q42-12 83 0t84 0 101 0\""
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#eaf0ce\" stroke-width=\"2\" stroke-linecap=\"round\"><path d=\"M99 287v-29m0 0l-10-11m10 11 11-13...\"/><path d=\"M109 287v-21...\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#102c40\" opacity=\".8\"><path d=\"M254 289v-22h8v22m4 0v-32h11v32m4 0v-18h8v18m4 0v-26h10v26\"/><path d=\"M246 289h42v4h-42z\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"28\" fill=\"#bcd3d1\" font-family=\"sans-serif\" font-size=\"9\" letter-spacing=\"3\" text-anchor=\"middle\">UN MUNDO EN VILO</text>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"373\">FRÁGIL · CONECTADO · TODAVÍA VIVO</text> y <circle cx=\"200\" cy=\"202\" r=\"137\" fill=\"none\" stroke=\"#a8d7c8\" stroke-opacity=\".72\" stroke-width=\"1.4\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "calor <path fill=\"url(#heat)\"/> vs brotes <path d=\"M99 287v-29...\"/> y agua creciente <path fill=\"#43b9c0\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M206 66h131v274H206z\" fill=\"url(#heat)\" opacity=\".9\"/> + agua creciente + texto «UN MUNDO EN VILO»"
+    }
+  ]
+}

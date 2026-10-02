@@ -1,0 +1,145 @@
+{
+  "consigna": "autorretrato",
+  "unidad": "gpt-4o-mini_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:46:36+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"150\" r=\"80\" fill=\"#ffcc66\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"160\" cy=\"130\" rx=\"10\" ry=\"15\" fill=\"#000\"/> <ellipse cx=\"240\" cy=\"130\" rx=\"10\" ry=\"15\" fill=\"#000\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150,180 Q200,230 250,180\" stroke=\"#cc3300\" stroke-width=\"5\" fill=\"none\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<rect x=\"160\" y=\"250\" width=\"80\" height=\"100\" fill=\"#ffcc66\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<line x1=\"160\" y1=\"250\" x2=\"100\" y2=\"350\" stroke=\"#cc3300\" stroke-width=\"5\"/> <line x1=\"240\" y1=\"250\" x2=\"300\" y2=\"350\" stroke=\"#cc3300\" stroke-width=\"5\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"0\" r=\"50\" fill=\"#ff9933\" opacity=\"0.5\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"380\" font-family=\"Arial\" font-size=\"24\" text-anchor=\"middle\" fill=\"#333\">Yo</text>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"150\" r=\"80\" fill=\"#ffcc66\"/> <rect x=\"160\" y=\"250\" width=\"80\" height=\"100\" fill=\"#ffcc66\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"150\" r=\"80\" fill=\"#ffcc66\"/> <rect x=\"160\" y=\"250\" width=\"80\" height=\"100\" fill=\"#ffcc66\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150,180 Q200,230 250,180\" stroke=\"#cc3300\" stroke-width=\"5\" fill=\"none\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<line x1=\"160\" y1=\"250\" x2=\"100\" y2=\"350\"/> <line x1=\"240\" y1=\"250\" x2=\"300\" y2=\"350\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"0\" r=\"50\" fill=\"#ff9933\" opacity=\"0.5\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"380\" font-family=\"Arial\" font-size=\"24\" text-anchor=\"middle\" fill=\"#333\">Yo</text>"
+    },
+    {
+      "id": "a14",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"200\" cy=\"150\" r=\"80\" fill=\"#ffcc66\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"160\" cy=\"130\" rx=\"10\" ry=\"15\" fill=\"#000\"/> <ellipse cx=\"240\" cy=\"130\" rx=\"10\" ry=\"15\" fill=\"#000\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150,180 Q200,230 250,180\" stroke=\"#cc3300\" stroke-width=\"5\" fill=\"none\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<rect x=\"160\" y=\"250\" width=\"80\" height=\"100\" fill=\"#ffcc66\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "no_esta",
+      "evidencia": "<rect x=\"160\" y=\"250\" width=\"80\" height=\"100\" fill=\"#ffcc66\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<line x1=\"160\" y1=\"250\" x2=\"100\" y2=\"350\" stroke=\"#cc3300\" stroke-width=\"5\"/> <line x1=\"240\" y1=\"250\" x2=\"300\" y2=\"350\" stroke=\"#cc3300\" stroke-width=\"5\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"60\" r=\"10\" fill=\"#000\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"380\" font-family=\"Arial\" font-size=\"24\" text-anchor=\"middle\" fill=\"#333\">Yo</text>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#f0f0f0\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"60\" r=\"10\" fill=\"#000\"/> <circle cx=\"200\" cy=\"0\" r=\"50\" fill=\"#ff9933\" opacity=\"0.5\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"380\" font-family=\"Arial\" font-size=\"24\" text-anchor=\"middle\" fill=\"#333\">Yo</text>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#f0f0f0\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"150\" r=\"80\" fill=\"#ffcc66\"/> <rect x=\"160\" y=\"250\" width=\"80\" height=\"100\" fill=\"#ffcc66\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"150\" r=\"80\" fill=\"#ffcc66\"/> <rect x=\"160\" y=\"250\" width=\"80\" height=\"100\" fill=\"#ffcc66\"/>"
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "claude-sonnet-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:16:39+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"0\" cy=\"-15\" r=\"35\" fill=\"url(#shell)\" opacity=\"0.9\"/> <path d=\"M0,-15 m-25,0 a25,25 0 1,1 50,0 a18,18 0 1,1 -36,0 a12,12 0 1,1 24,0 a6,6 0 1,1 -12,0\" fill=\"none\" stroke=\"#b03a3a\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 170 C 60 120, 20 220, 90 260 C 130 250, 150 210, 150 170 Z\" fill=\"url(#wing)\" stroke=\"#d1798a\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 280 C 210 310, 190 330, 200 360 C 220 340, 240 340, 250 370 C 230 330, 230 300, 210 280 Z\" fill=\"#2d9cdb\" stroke=\"#1c5d75\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "<g stroke=\"#3a7d44\" stroke-width=\"10\" fill=\"none\" stroke-linecap=\"round\"> <!-- solo hay paths de tentáculos sin círculos de ventosas -->"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180 190 C 170 160, 175 130, 190 110\" fill=\"none\" stroke=\"#2d9cdb\" stroke-width=\"30\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M25 5 C 50 0, 55 15, 30 20 Z\" fill=\"#f2c94c\" stroke=\"#b07d1a\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M-5 -28 C -10 -50, 5 -55, 5 -35\" fill=\"#9b51e0\" stroke=\"#5e2d8a\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"-10\" cy=\"-8\" r=\"6\"/> <circle cx=\"8\" cy=\"-12\" r=\"5\"/> <circle cx=\"-2\" cy=\"5\" r=\"4\"/> <!-- tres ojos de distintos radios en posiciones distintas -->"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "alas, tentáculos, cola de pez, pico, cuerno, caparazón: cada elemento corresponde a una criatura conocida"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "combinación de wing, tentacle legs, shell, fish tail, beak, horn en un solo SVG"
+    },
+    {
+      "id": "a11",
+      "valor": "no_esta",
+      "evidencia": "el código usa gradientes y colores planos, no hay filtros de textura ni patterns de textura definidos en <defs>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"230\" rx=\"70\" ry=\"55\" fill=\"url(#body)\"/> con cuello y cabeza tipo ave, cuerpo ovoide tipo reptil"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180 190 C 170 160, 175 130, 190 110\" fill=\"none\" stroke=\"#2d9cdb\" stroke-width=\"30\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M25 5 C 50 0, 55 15, 30 20 Z\" fill=\"#f2c94c\" stroke=\"#b07d1a\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(200,210)\"> <circle cx=\"0\" cy=\"-15\" r=\"35\" fill=\"url(#shell)\"/> <!-- shell on back -->"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 170 C 60 120, 20 220, 90 260...\" fill=\"url(#wing)\"/> <!-- alas en lugar de patas delanteras, opacidad parcial -->"
+    },
+    {
+      "id": "a17",
+      "valor": "contradice",
+      "evidencia": "<g stroke=\"#3a7d44\" stroke-width=\"10\" fill=\"none\" stroke-linecap=\"round\"> <!-- cuatro tentáculos presentes pero sin ventosas dibujadas -->"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 280 C 210 310, 190 330, 200 360 C 220 340, 240 340, 250 370 C 230 330, 230 300, 210 280 Z\" fill=\"#2d9cdb\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M-5 -28 C -10 -50, 5 -55, 5 -35\" fill=\"#9b51e0\" stroke=\"#5e2d8a\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"-10\" cy=\"-8\" r=\"6\"/> r=6, <circle cx=\"8\" cy=\"-12\" r=\"5\"/> r=5, <circle cx=\"-2\" cy=\"5\" r=\"4\"/> r=4"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/> <stop offset=\"0%\" stop-color=\"#dff2ff\"/> <stop offset=\"100%\" stop-color=\"#a9c9e0\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"330\" rx=\"140\" ry=\"18\" fill=\"#00000022\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "no_esta",
+      "evidencia": "hay sombra en el suelo y patas que tocan y=340/360, la criatura no flota claramente"
+    },
+    {
+      "id": "a24",
+      "valor": "no_esta",
+      "evidencia": "la criatura es claramente fantástica/ilustrada, no fotorrealista"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "combinación de alas de hada + tentáculos + cola de pez + caparazón + cuerno + tres ojos en un solo ser"
+    },
+    {
+      "id": "a26",
+      "valor": "no_esta",
+      "evidencia": "la mezcla de partes de distintas criaturas no sigue una lógica anatómica coherente"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"0\" cy=\"-15\" r=\"35\" fill=\"url(#shell)\"/> <path d=\"M0,-15 m-25,0 a25,25 0 1,1 50,0...\" fill=\"none\" stroke=\"#b03a3a\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 170 C 60 120, 20 220, 90 260 C 130 250, 150 210, 150 170 Z\" fill=\"url(#wing)\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 280 C 210 310, 190 330, 200 360 C 220 340, 240 340, 250 370 C 230 330, 230 300, 210 280 Z\" fill=\"#2d9cdb\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "contradice",
+      "evidencia": "<g stroke=\"#3a7d44\" stroke-width=\"10\" fill=\"none\"> <!-- hay tentáculos pero no hay ventosas dibujadas -->"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180 190 C 170 160, 175 130, 190 110\" fill=\"none\" stroke=\"#2d9cdb\" stroke-width=\"30\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<path d=\"M25 5 C 50 0, 55 15, 30 20 Z\" fill=\"#f2c94c\" stroke=\"#b07d1a\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M-5 -28 C -10 -50, 5 -55, 5 -35\" fill=\"#9b51e0\"/> -- es un cuerno recto/curvo de unicornio, no de cabra"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"-10\" cy=\"-8\" r=\"6\"/> <circle cx=\"8\" cy=\"-12\" r=\"5\"/> <circle cx=\"-2\" cy=\"5\" r=\"4\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "contradice",
+      "evidencia": "<linearGradient id=\"body\"> <stop offset=\"0%\" stop-color=\"#6fcf97\"/> <stop offset=\"50%\" stop-color=\"#2d9cdb\"/> -- hay gradientes, no es flat"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\"> <linearGradient id=\"body\"> <linearGradient id=\"wing\"> <radialGradient id=\"shell\"> -- múltiples gradientes"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "colores pastel/brillantes, criatura fantástica con cuerno, tres ojos, alas translúcidas, caparazón colorido"
+    },
+    {
+      "id": "a38",
+      "valor": "no_esta",
+      "evidencia": "hay gradientes y contornos marcados (stroke) pero no hay texturas de acuarela digital; es más ilustración vectorial que acuarela"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "stroke=\"#1c5d75\" stroke-width=\"3\" en el cuerpo, stroke=\"#d1798a\" stroke-width=\"2\" en las alas, stroke=\"#b07d1a\" en el pico"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "stop-color=\"#6fcf97\" stop-color=\"#2d9cdb\" stop-color=\"#9b51e0\" stop-color=\"#f2c94c\" stop-color=\"#eb5757\" -- colores saturados"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "criatura con cuerno, tres ojos, alas de hada, caparazón, cola de pez, tentáculos -- típico de bestiario de fantasía"
+    }
+  ]
+}

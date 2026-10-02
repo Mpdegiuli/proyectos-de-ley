@@ -1,0 +1,275 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "claude-fable-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T01:07:47+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M110 268 Q118 280 110 292\"/> (escamas del casco)"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"92\" cy=\"278\" r=\"9\" fill=\"#fff\" /> <!-- ojo del barco en la proa -->"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M345 245 Q370 225 380 200 Q375 235 385 260 Q360 255 340 262 Z\" <!-- cola de pez en la popa -->"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<!-- vela mayor: medusa luminosa --> <path d=\"M200 110 Q130 160 140 235 Q200 215 260 235 Q270 160 200 110 Z\" fill=\"url(#vela)\""
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<!-- nubes bajo el barco (navega por el cielo) --> <ellipse cx=\"80\" cy=\"330\" rx=\"70\" ry=\"18\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<!-- estela de polvo estelar --> <circle cx=\"70\" cy=\"290\" r=\"2.5\" opacity=\"0.8\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<!-- peces voladores acompañando --> <path d=\"M60 180 q10 -8 20 0 q-10 8 -20 0 Z\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<!-- farol colgante --> <circle cx=\"200\" cy=\"80\" r=\"10\" fill=\"#ffe17a\" stroke=\"#c9a53a\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<!-- aletas laterales que reman en el aire --> <path d=\"M120 300 Q100 330 70 338 Q95 315 105 295 Z\""
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<!-- nubes bajo el barco (navega por el cielo) --> <ellipse cx=\"80\" cy=\"330\" rx=\"70\" ry=\"18\"/> (no hay agua)"
+    },
+    {
+      "id": "a11",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento visual que dibuje explícitamente la sensación de 'no existir de inmediato'; es una afirmación subjetiva no codificada"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<!-- casco con forma de pez-ballena --> + escamas + ojo + cola de pez + aletas: conjunto hibridado visible en el código"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<!-- cielo --> <rect width=\"400\" height=\"400\" fill=\"url(#cielo)\"/> + barco + nubes debajo"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<!-- casco con forma de pez-ballena --> <path d=\"M90 285 Q70 270 60 245 Q85 262 105 262 L300 262 Q330 262 345 245 Q345 285 310 300 ...\""
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"casco\"><stop offset=\"0\" stop-color=\"#3fe0c5\"/><stop offset=\"1\" stop-color=\"#0d6b63\"/></linearGradient>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<!-- escamas del casco --> <path d=\"M110 268 Q118 280 110 292\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"92\" cy=\"278\" r=\"9\" fill=\"#fff\" /><circle cx=\"94\" cy=\"279\" r=\"4.5\" fill=\"#1a1040\"/><circle cx=\"92\" cy=\"276\" r=\"1.5\" fill=\"#fff\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<!-- cola de pez en la popa --> <path d=\"M345 245 Q370 225 380 200 Q375 235 385 260 Q360 255 340 262 Z\""
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<!-- vela mayor: medusa luminosa --> fill=\"url(#vela)\""
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#ffd6f2\" stop-opacity=\"0.9\"/> (rosado) en gradiente vela; stroke=\"#ffd6f2\""
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"1\" stop-color=\"#8affec\" stop-opacity=\"0.5\"/> (opacidad parcial); opacity=\"0.9\" en velas secundarias"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M160 238 Q155 252 162 262\"/> (tentáculos colgando bajo vela mayor)"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"80\" cy=\"330\" rx=\"70\" ry=\"18\" fill=\"#e8d8f5\" opacity=\"0.5\"/> (color violeta-lila)"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<!-- estela de polvo estelar --> <circle cx=\"70\" cy=\"290\" r=\"2.5\" fill=\"#8affec\" opacity=\"0.8\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<!-- aletas laterales que reman en el aire --> <path d=\"M120 300 Q100 330 70 338 ...Z\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ff9ec4\"> <!-- peces voladores acompañando --> (color rosado)"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"320\" cy=\"75\" r=\"32\" fill=\"#fff3c4\"/> + <radialGradient id=\"luna\"><stop offset=\"0\" stop-color=\"#fff7d0\"/><stop offset=\"0.7\" stop-color=\"#ffe9a0\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"310\" cy=\"68\" r=\"6\" fill=\"#f0dfa8\"/><circle cx=\"330\" cy=\"85\" r=\"4\" fill=\"#f0dfa8\"/> (manchas tipo cráteres)"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<!-- farol colgante --> <line x1=\"200\" y1=\"105\" x2=\"200\" y2=\"88\"/> + <circle cx=\"200\" cy=\"80\" r=\"10\" fill=\"#ffe17a\"/> en mástil mayor"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 88 L200 70 L235 78 L200 86 Z\" fill=\"#ff6b9d\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "no_esta",
+      "evidencia": "El banderín existe pero no hay ningún elemento que indique dirección de rumbo en el código"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffffff\"><circle cx=\"40\" cy=\"40\" r=\"1.8\"/>... <!-- estrellas -->"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"cielo\"><stop offset=\"0\" stop-color=\"#1a1040\"/>... <rect width=\"400\" height=\"400\" fill=\"url(#cielo)\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "nubes debajo, no hay agua ni suelo: <ellipse cx=\"80\" cy=\"330\" rx=\"70\" ry=\"18\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "ojo vivo + escamas + cola + aletas + forma orgánica del casco sugieren ser vivo visualmente en el código"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<!-- casco con forma de pez-ballena --> + cola + escamas + ojo + cubierta y mástiles de embarcación"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<!-- escamas del casco --> <path d=\"M140 268 Q148 282 140 298\"/>"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"92\" cy=\"278\" r=\"9\" fill=\"#fff\" /> <!-- ojo del barco en la proa -->"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<path d=\"M345 245 Q370 225 380 200 Q375 235 385 260 Q360 255 340 262 Z\" <!-- cola de pez en la popa -->"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<path d=\"M120 300 Q100 330 70 338 Q95 315 105 295 Z\" fill=\"#3fe0c5\"/> <!-- aletas laterales -->"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "cielo nocturno url(#cielo) + nubes debajo del barco + estrellas"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "<!-- nubes bajo el barco (navega por el cielo) --> <ellipse cx=\"300\" cy=\"350\" rx=\"90\" ry=\"20\"/>"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "<!-- estela de polvo estelar --> <circle cx=\"70\" cy=\"290\" r=\"2.5\" fill=\"#8affec\"/>"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "url(#vela) con stop-opacity=\"0.5\" (translúcidas) + <!-- vela mayor: medusa luminosa --> + tentáculos"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"320\" cy=\"75\" r=\"32\" fill=\"#fff3c4\"/> tono dorado-amarillo"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "<!-- peces voladores acompañando --> <path d=\"M60 180 q10 -8 20 0 q-10 8 -20 0 Z\"/>"
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"80\" r=\"10\" fill=\"#ffe17a\"/> + <circle cx=\"200\" cy=\"80\" r=\"20\" fill=\"url(#brillo)\" opacity=\"0.6\"/>"
+    },
+    {
+      "id": "a48",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#1a1040\"/><stop offset=\"0.6\" stop-color=\"#4a2c6e\"/><stop offset=\"1\" stop-color=\"#b85c8a\"/> (violetas y rosas)"
+    },
+    {
+      "id": "a49",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#3fe0c5\"/> (casco turquesa) + fill=\"#8affec\" (estela) contrasta con fondo oscuro"
+    },
+    {
+      "id": "a50",
+      "valor": "contradice",
+      "evidencia": "Hay múltiples gradientes: url(#cielo), url(#casco), url(#vela), url(#luna), url(#brillo); no es ilustración plana"
+    },
+    {
+      "id": "a51",
+      "valor": "contradice",
+      "evidencia": "Las formas usan Q (curvas Bezier) orgánicas y no son simples; hay gradientes en lugar de colores planos"
+    },
+    {
+      "id": "a52",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"cielo\">, <linearGradient id=\"casco\">, <radialGradient id=\"luna\"> etc. (múltiples gradientes suaves)"
+    },
+    {
+      "id": "a53",
+      "valor": "esta",
+      "evidencia": "Barco-criatura en cielo nocturno con luna, estrellas, nubes, peces voladores, velas-medusa: conjunto onírico/fantástico visible en el código"
+    }
+  ]
+}

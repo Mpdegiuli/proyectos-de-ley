@@ -1,0 +1,245 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "claude-haiku-4-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:46:14+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 80 280 Q 100 200 150 180 L 250 180 Q 300 200 320 280 Z\" fill=\"url(#wallGrad)\""
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"250\" r=\"45\" fill=\"#87CEEB\" stroke=\"#00008B\" stroke-width=\"2\" opacity=\"0.9\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"90\" cy=\"220\" r=\"35\"/> y <polygon points=\"310,280 330,220 350,280\""
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<line x1=\"200\" y1=\"125\" x2=\"200\" y2=\"85\" stroke=\"#FFD700\" stroke-width=\"3\"/> <polygon points=\"200,85 195,95 205,95\" fill=\"#FFD700\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos de partículas emitidas por la antena en el código"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 0 -20 Q 10 -15 10 0 Q 10 15 0 20 Q -10 15 -10 0 Q -10 -15 0 -20\" fill=\"#8B4513\""
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"140\" cy=\"210\" rx=\"12\" ry=\"18\" fill=\"#87CEEB\"/> <path d=\"M 260 200 Q 270 190 280 200 Q 270 210 260 200\""
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<rect x=\"245\" y=\"160\" width=\"15\" height=\"50\" fill=\"#DC143C\" stroke=\"#8B0000\" transform=\"rotate(15 252.5 185)\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"380\" rx=\"180\" ry=\"40\" fill=\"#90EE90\"/> la estructura principal está en y=180-280 sin contacto con el suelo en y=380"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 80 280 Q 100 200 150 180 L 250 180 Q 300 200 320 280 Z\" con curvas imposibles estructuralmente"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "Esfera flotante como plataforma, puerta espiral, torres asimétricas, todo desconectado de física real"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "Torres, esfera, balcón y puerta en proporciones y posiciones no coherentes entre sí"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"250\" r=\"45\"/> estructura principal flotando sobre <ellipse cx=\"200\" cy=\"380\" ry=\"40\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 80 280 Q 100 200 150 180 L 250 180 Q 300 200 320 280 Z\""
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" style=\"stop-color:#FF6B9D\"/> <stop offset=\"100%\" style=\"stop-color:#FFA500\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"90\" cy=\"220\" r=\"35\"/> (izquierda circular) y <polygon points=\"310,280 330,220 350,280\"/> (derecha cónica)"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"90\" cy=\"220\" r=\"35\" fill=\"#FFB6C1\" stroke=\"#8B4513\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"310,280 330,220 350,280\" fill=\"#FF69B4\""
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 120 180 Q 140 140 180 130 Q 200 125 220 135 Q 250 150 280 180\" fill=\"#9370DB\""
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path ... fill=\"#9370DB\" stroke=\"#4B0082\"/> (#9370DB es púrpura medio)"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"250\" r=\"45\" fill=\"#87CEEB\" stroke=\"#00008B\" stroke-width=\"2\" opacity=\"0.9\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"0\" cy=\"0\" r=\"3\" fill=\"#FFD700\"/> solo el pomo es dorado; la puerta es fill=\"#8B4513\" (marrón)"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(200, 260)\"> puerta centrada en cy=260, esfera en cy=250 r=45, la puerta está sobre la esfera"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"140\" cy=\"210\" rx=\"12\" ry=\"18\"/> y <path d=\"M 260 200 Q 270 190 280 200 Q 270 210 260 200\""
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<rect x=\"160\" y=\"240\" width=\"80\" height=\"8\" fill=\"#8B4513\" rx=\"2\"/> <circle cx=\"170\" cy=\"238\" r=\"5\" fill=\"#228B22\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<rect x=\"245\" y=\"160\" width=\"15\" height=\"50\" fill=\"#DC143C\" transform=\"rotate(15 252.5 185)\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<line x1=\"200\" y1=\"125\" x2=\"200\" y2=\"85\" stroke=\"#FFD700\"/> <polygon points=\"200,85 195,95 205,95\" fill=\"#FFD700\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"80\" cy=\"80\" rx=\"40\" ry=\"25\" fill=\"white\"/> <ellipse cx=\"320\" cy=\"120\" rx=\"45\" ry=\"28\" fill=\"white\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"150\" cy=\"130\" r=\"4\" fill=\"#FF1493\"/> <circle cx=\"250\" cy=\"145\" r=\"4\" fill=\"#00CED1\"/> <circle cx=\"200\" cy=\"100\" r=\"3\" fill=\"#32CD32\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "Combinación de esfera flotante, torres asimétricas, puerta espiral, colores pastel y estructura suspendida"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "Estructura flotante sin soporte: <circle cx=\"200\" cy=\"250\" r=\"45\"/> como base suspendida sobre terreno lejano"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "Esfera como plataforma, paredes curvas sin apoyo, balcón en plataforma esférica"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "Combinación de elementos surreales: esfera flotante, puerta espiral, torres asimétricas, colores pastel"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"250\" r=\"45\" fill=\"#87CEEB\" opacity=\"0.9\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 80 280 Q 100 200 150 180 L 250 180 Q 300 200 320 280 Z\" curvatura imposible estructuralmente"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "Torre izquierda en cx=90 y torre derecha en cx=310-350, posiciones y formas asimétricas"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 120 180 Q 140 140 180 130 Q 200 125 220 135 Q 250 150 280 180\" asimétrico y ondulante"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<line x1=\"200\" y1=\"125\" x2=\"200\" y2=\"85\"/> emerge del techo curvo sin soporte aparente"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"140\" cy=\"210\"/> y <path d=\"M 260 200 Q 270 190 280 200\"/> ubicadas en la pared curva sin marco coherente"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(200, 260)\"> puerta posicionada en la esfera flotante, no en una pared convencional"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<rect x=\"160\" y=\"240\" width=\"80\" height=\"8\"/> balcón sobre la esfera flotante sin apoyo lógico"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "Rosa: #FF6B9D, #FFB6C1; Púrpura: #9370DB; Azul cielo: #87CEEB"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "Paredes con Q curves, ventana orgánica <path d=\"M 260 200 Q 270 190 280 200 Q 270 210 260 200\">, puerta espiral"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "Gradientes pastel, colores #FFB6C1, #87CEEB, #9370DB, #E0F6FF combinados con formas surrealistas"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "Esfera flotante como plataforma, paredes curvas sin apoyo, puerta en esfera, balcón sin soporte"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "Combinación total: colores pastel, formas imposibles, esfera flotante, puerta espiral, torres asimétricas"
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "Colores como #FF69B4, #FFD700, #32CD32, formas redondeadas y elementos flotantes decorativos"
+    }
+  ]
+}

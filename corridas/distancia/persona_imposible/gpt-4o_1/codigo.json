@@ -1,0 +1,210 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "gpt-4o_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:36:46+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"0\" cy=\"-140\" r=\"10\" fill=\"purple\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M -100,-30 Q -150,0 -130,50\" fill=\"none\"/> <!-- Extra left arm --> <path d=\"M 100,-30 Q 150,0 130,50\" fill=\"none\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M -80,100 Q -130,150 -110,200\" fill=\"none\"/> <!-- Extra left leg --> <path d=\"M 80,100 Q 130,150 110,200\" fill=\"none\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"0,-180 20,-160 -20,-160\" fill=\"yellow\"/> <!-- Horn -->"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"0\" cy=\"-230\" rx=\"15\" ry=\"30\" fill=\"green\" opacity=\"0.5\"/> <!-- Floating Aura -->"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M -100,-30 Q -150,0 -130,50\"/> <!-- Extra left arm --> <path d=\"M -80,100 Q -130,150 -110,200\"/> <!-- Extra left leg -->"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"0\" cy=\"-100\" r=\"50\" fill=\"blue\"/> <!-- Head --> <path d=\"M 0,-50 L 0,100\" stroke=\"black\" stroke-width=\"5\"/> <!-- Body -->"
+    },
+    {
+      "id": "a8",
+      "valor": "no_esta",
+      "evidencia": "La figura tiene extremidades adicionales y rasgos fantásticos, no un cuerpo tradicional"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"0\" cy=\"-100\" r=\"50\" fill=\"blue\"/> <!-- Head -->"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"0\" cy=\"-140\" r=\"10\" fill=\"purple\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"0\" cy=\"-140\" r=\"10\" fill=\"purple\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"0,-180 20,-160 -20,-160\" fill=\"yellow\"/> <!-- Horn -->"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"0,-180 20,-160 -20,-160\" fill=\"yellow\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"0\" cy=\"-230\" rx=\"15\" ry=\"30\" fill=\"green\" opacity=\"0.5\"/> <!-- Floating Aura -->"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"0\" cy=\"-230\" rx=\"15\" ry=\"30\" fill=\"green\" opacity=\"0.5\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M -100,-30 Q -150,0 -130,50\" fill=\"none\"/> <path d=\"M -80,100 Q -130,150 -110,200\" fill=\"none\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M -100,-30 Q -150,0 -130,50\" fill=\"none\"/> <!-- Extra left arm --> <path d=\"M 100,-30 Q 150,0 130,50\" fill=\"none\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M -80,100 Q -130,150 -110,200\" fill=\"none\"/> <!-- Extra left leg --> <path d=\"M 80,100 Q 130,150 110,200\" fill=\"none\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M -100,-30 Q -150,0 -130,50\" fill=\"none\"/> (curva Q indica arco)"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M -80,100 Q -130,150 -110,200\" fill=\"none\"/> (curva Q indica arco)"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 0,-30 Q -50,0 -100,-30\" fill=\"none\"/> <path d=\"M -100,-30 Q -150,0 -130,50\" fill=\"none\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 0,100 Q -30,150 -80,100\" fill=\"none\"/> <path d=\"M -80,100 Q -130,150 -110,200\" fill=\"none\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"0\" cy=\"-100\" r=\"50\" fill=\"blue\"/> <!-- Head -->"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"-15\" cy=\"-110\" r=\"7\"/> <circle cx=\"15\" cy=\"-110\" r=\"7\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "Combinación de cuerpo humanoide con cuerno, tercer ojo y aura"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "Cuatro brazos, cuatro piernas, tercer ojo, cuerno"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"0\" cy=\"-230\" rx=\"15\" ry=\"30\" fill=\"green\" opacity=\"0.5\"/> sin suelo debajo"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"0\" cy=\"-100\" r=\"50\" fill=\"blue\"/> <!-- Head --> <path d=\"M 0,-50 L 0,100\" stroke=\"black\"/> <!-- Body -->"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"0\" cy=\"-140\" r=\"10\" fill=\"purple\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<path d=\"M -100,-30 Q -150,0 -130,50\"/> <path d=\"M -80,100 Q -130,150 -110,200\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"0,-180 20,-160 -20,-160\" fill=\"yellow\"/> <!-- Horn -->"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"0\" cy=\"-230\" rx=\"15\" ry=\"30\" fill=\"green\" opacity=\"0.5\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "Formas simples: circle, path, polygon sin detalles complejos"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "fill=\"blue\" fill=\"purple\" fill=\"yellow\" fill=\"green\" sin gradientes"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "stroke=\"black\" stroke-width=\"5\" en paths simples"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<circle> <ellipse> <polygon> <path>"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "fill=\"blue\" fill=\"purple\" fill=\"yellow\" fill=\"green\" fill=\"white\" fill=\"black\""
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "Extremidades extra y rasgos fantásticos exageran la figura"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "Cuerno, tercer ojo púrpura, aura verde, extremidades extra"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "Combinación de elementos surrealistas: cuerno, tercer ojo, aura, extremidades extra"
+    }
+  ]
+}

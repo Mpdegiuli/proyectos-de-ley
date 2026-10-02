@@ -1,0 +1,170 @@
+{
+  "consigna": "libre",
+  "unidad": "gpt-5.6-sol_2",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:01:27+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 231 43 192 74 215 121 158 170 217 218 171 276 222 319 177 400 235V278H0Z\" fill=\"#192b49\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 268c69-20 111 6 173 2 70-4 132-31 227-3v133H0Z\" fill=\"url(#water)\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"m92 190 29-32 18 28-17-8-10 13-8-9zM196 190l22-19 25 26-24-10-10 11zM297 198l22-21 28 27-28-11-13 12z\" fill=\"#bbc1ce\" opacity=\".8\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M48 330h21l-8-13h6l-11-18h6l-14-27-14 27h6l-11 18h7l-9 13h21v40h10z\"/> <path d=\"M102 347h25l-9-15h7l-13-20h7l-17-32-17 32h7l-13 20h8l-10 15h25v38h10z\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"298\" cy=\"82\" r=\"30\" fill=\"url(#moon)\"/> <circle cx=\"298\" cy=\"82\" r=\"43\" fill=\"#ffe6aa\" opacity=\".22\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"47\" cy=\"52\" r=\"1.7\"/> <circle cx=\"84\" cy=\"89\" r=\"1.1\"/> <circle cx=\"124\" cy=\"38\" r=\"1.5\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M184 266c8-8 16-8 24 0 8-8 16-8 24 0\"/> <path d=\"M79 236c5-5 10-5 15 0 5-5 10-5 15 0\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M271 267c18 8 37 9 55 1M255 282c27 10 62 10 91-1M271 299c19 5 39 5 59-1M281 317c14 3 31 3 45-1\" fill=\"none\" stroke=\"#ffd898\" stroke-linecap=\"round\" opacity=\".45\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#07152f\"/><stop offset=\".55\" stop-color=\"#233765\"/><stop offset=\"1\" stop-color=\"#e27d75\"/></linearGradient>"
+    },
+    {
+      "id": "a10",
+      "valor": "no_esta",
+      "evidencia": "<circle cx=\"298\" cy=\"82\" r=\"30\" fill=\"url(#moon)\"/> — la luna está en la esquina superior derecha, no centrada como foco visual principal"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "Paisaje nocturno con gradiente suave, reflejos dorados con opacity=\".45\", agua oscura, siluetas, atmósfera tranquila general"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "Uso de path, circle y rect básicos para componer la escena"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "Múltiples path superpuestos: cielo, montañas, colinas intermedias, agua, primer plano, pinos"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"/> <linearGradient id=\"water\"/> <radialGradient id=\"moon\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#071521\"> pinos con fill=\"#071521\" y montañas fill=\"#192b49\", fill=\"#101f31\""
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "Pinos en ambos lados: izquierda (cx48, cx102) y derecha (cx344, cx297); luna a la derecha, estrellas distribuidas"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<svg viewBox=\"0 0 400 400\"> — ancho y alto iguales"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 231 43 192 74 215 121 158 170 217 218 171 276 222 319 177 400 235V278H0Z\" fill=\"#192b49\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 268c69-20 111 6 173 2 70-4 132-31 227-3v133H0Z\" fill=\"url(#water)\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"298\" cy=\"82\" r=\"30\" fill=\"url(#moon)\"/> con halo r=\"43\" filter=\"url(#glow)\""
+    },
+    {
+      "id": "a21",
+      "valor": "no_esta",
+      "evidencia": "La luna está en cy=\"82\", las montañas comienzan alrededor de y=\"158-231\"; la luna está muy por encima, no sobre las cumbres"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"355\" cy=\"42\" r=\"1.4\"/> <circle cx=\"373\" cy=\"124\" r=\"1\"/> — estrellas próximas a la luna en cx=\"298\" cy=\"82\""
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"1\" stop-color=\"#e27d75\"/> en gradiente sky"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"water\"><stop stop-color=\"#294b68\"/><stop offset=\"1\" stop-color=\"#071b2c\"/></linearGradient>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M271 267c18 8 37 9 55 1...\" stroke=\"#ffd898\" opacity=\".45\"/> — reflejos color dorado lunar"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<g fill=\"none\" stroke=\"#7ba0ad\" stroke-linecap=\"round\" opacity=\".5\"><path d=\"M20 290h75M42 307h91M8 337h112...\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 251c52-16 91-11 139 2 53 14 93 6 131-7 52-18 88-13 130 0v48H0Z\" fill=\"#101f31\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#071521\"><path d=\"M48 330...\"/><path d=\"M102 347...\"/><path d=\"M344 335...\"/><path d=\"M297 358...\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "contradice",
+      "evidencia": "<path d=\"M184 266c8-8 16-8 24 0 8-8 16-8 24 0\"/> <path d=\"M79 236c5-5 10-5 15 0 5-5 10-5 15 0\"/> — son 2 pares pero no están a lo lejos sino en agua/primer plano"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" rx=\"24\"/> en clipPath id=\"frame\""
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<path d=\"M271 267...\" stroke=\"#ffd898\" stroke-linecap=\"round\" opacity=\".45\"/> — curvas suaves con opacidad reducida"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#07152f\"/><stop offset=\"1\" stop-color=\"#e27d75\"/></linearGradient> con paleta fría dominante y tono crepuscular"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "consigna": "nada",
+  "unidad": "grok-4.7_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:45:33+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"abismo\" cx=\"50%\" cy=\"48%\" r=\"62%\"><stop offset=\"0%\" stop-color=\"#1a1c28\"/><stop offset=\"100%\" stop-color=\"#000000\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"halo\"><stop offset=\"86%\" stop-color=\"#2a2418\" stop-opacity=\"0.18\"/><stop offset=\"93%\" stop-color=\"#6a5840\" stop-opacity=\"0.08\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"200\" rx=\"118\" ry=\"28\" stroke-width=\"0.6\"/><ellipse cx=\"200\" cy=\"200\" rx=\"96\" ry=\"18\" stroke-width=\"0.35\""
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"ausencia\"><stop offset=\"0%\" stop-color=\"#000000\" stop-opacity=\"1\"/>...<circle cx=\"200\" cy=\"200\" r=\"72\" fill=\"url(#ausencia)\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"62\" cy=\"48\" r=\"0.6\"/><circle cx=\"310\" cy=\"36\" r=\"0.5\"/><circle cx=\"348\" cy=\"112\" r=\"0.4\"/>..."
+    },
+    {
+      "id": "a6",
+      "valor": "no_esta",
+      "evidencia": "El negro es el fondo inmediato: <rect width=\"400\" height=\"400\" fill=\"#000000\"/>. No hay elemento que genere sensación de distancia."
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"abismo\"/> + <circle r=\"72\" fill=\"url(#ausencia)\"/> + <circle r=\"36\" fill=\"#000000\"/> generan profundidad visual hacia el centro"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"36\" fill=\"#000000\"/> + <circle r=\"72\" fill=\"url(#ausencia)\"/> el negro central se lee como vacío por capas de degradado alrededor"
+    },
+    {
+      "id": "a9",
+      "valor": "contradice",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#000000\"/> es un rectángulo, no un cuadrado: viewBox=\"0 0 400 400\" sí es cuadrado, pero el elemento es rect no square. En rigor el rect es cuadrado: esta"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"36\" fill=\"#000000\"/> centro sólido negro rodeado de degradado más claro"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"196\" r=\"168\" fill=\"url(#halo)\"/> con stop-opacity máximo 0.18"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"200\" rx=\"118\" ry=\"28\" stroke-width=\"0.6\"/><ellipse cx=\"200\" cy=\"200\" rx=\"96\" ry=\"18\" stroke-width=\"0.35\" opacity=\"0.7\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "no_esta",
+      "evidencia": "Las ellipses son completas: <ellipse cx=\"200\" cy=\"200\" rx=\"118\" ry=\"28\"/> sin dasharray ni arco parcial"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#d8d2c8\" opacity=\"0.35\"><circle cx=\"62\" cy=\"48\" r=\"0.6\"/>... posicionados en los bordes del viewBox"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#d8d2c8\" opacity=\"0.35\"><circle cx=\"62\" cy=\"48\" r=\"0.6\"/><circle cx=\"310\" cy=\"36\" r=\"0.5\"/>... puntos pequeños pálidos dispersos"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "No hay paths de figuras ni objetos; solo círculos, elipses, rectángulos y degradados abstractos"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"ausencia\"/> + capas concéntricas de negro + <circle r=\"36\" fill=\"#000000\"/> generan ausencia y profundidad"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"abismo\"/> + estructura concéntrica hundida hacia el centro negro"
+    }
+  ]
+}

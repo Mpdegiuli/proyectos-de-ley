@@ -1,0 +1,120 @@
+{
+  "consigna": "animal",
+  "unidad": "gpt-6-sol_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:52:23+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 97c-42-13-83 9-93 47...\" fill=\"url(#fur)\" stroke=\"#53352d\" stroke-width=\"4\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M153 225c-31 9-48 40-43 75 4 29 29 45 89 45s88-16 92-45c5-37-18-66-48-75Z\" fill=\"url(#fur)\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M237 265c34-36 75-42 101-16 29 29 15 71-20 87-34 16-76 8-106-15 29-15 44-35 25-56Z\" fill=\"url(#fur)\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M140 174q15-13 30 0m60 0q15-13 30 0\" fill=\"none\" stroke=\"#53352d\" stroke-width=\"5\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M119 156Q95 115 99 60q35 17 68 56m114 40q24-41 20-96-35 17-68 56\" fill=\"url(#fur)\" stroke=\"#53352d\" stroke-width=\"4\" stroke-linejoin=\"round\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"fur\"><stop stop-color=\"#f7a34d\"/><stop offset=\"1\" stop-color=\"#dc653d\"/></linearGradient>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M317 239c-5 19 3 31 18 40-18 2-24 15-19 24-18-3-27 9-27 21-8-2-16 3-20 14 30 21 91 9 105-28l-12-65Z\" fill=\"#fff0d3\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "contradice",
+      "evidencia": "<linearGradient id=\"sky\"><stop stop-color=\"#173b45\"/><stop offset=\"1\" stop-color=\"#315b58\"/></linearGradient>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M140 174q15-13 30 0m60 0q15-13 30 0\" fill=\"none\" stroke=\"#53352d\"/> <path d=\"M190 211q10-7 20 0-2 10-10 10t-10-10Z\" fill=\"#53352d\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"183\" r=\"157\" fill=\"#f6dfac\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"fur\"><stop stop-color=\"#f7a34d\"/><stop offset=\"1\" stop-color=\"#dc653d\"/></linearGradient>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M153 225c-31 9-48 40-43 75 4 29 29 45 89 45s88-16 92-45c5-37-18-66-48-75Z\" fill=\"url(#fur)\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M140 174q15-13 30 0m60 0q15-13 30 0\" fill=\"none\" stroke=\"#53352d\" stroke-width=\"5\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 221v6m0 0q-8 9-17 2m17-2q8 9 17 2\" fill=\"none\" stroke=\"#53352d\" stroke-width=\"3\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M119 156Q95 115 99 60q35 17 68 56m114 40q24-41 20-96-35 17-68 56\" fill=\"url(#fur)\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M177 232c-3 23-24 40-17 69 4 19 18 35 39 39 22-4 37-21 40-41 5-26-15-44-17-67Z\" fill=\"#fff0d3\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M111 176c15 8 33 5 48-5 5 19 20 29 41 32 21-3 36-13 41-32...\" fill=\"#fff0d3\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M237 265c34-36 75-42 101-16 29 29 15 71-20 87-34 16-76 8-106-15 29-15 44-35 25-56Z\" fill=\"url(#fur)\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"183\" r=\"157\" fill=\"#f6dfac\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "contradice",
+      "evidencia": "<linearGradient id=\"sky\"><stop stop-color=\"#173b45\"/><stop offset=\"1\" stop-color=\"#315b58\"/></linearGradient>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"m49 91 3 8 8 3-8 3-3 8-3-8-8-3 8-3Z\"/> <circle cx=\"327\" cy=\"63\" r=\"3\"/> <circle cx=\"64\" cy=\"151\" r=\"2\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<g fill=\"none\" stroke=\"#90a77d\" stroke-width=\"3\" stroke-linecap=\"round\"><path d=\"M40 350q19-34 13-67m-13 67q-3-37-21-53m35 52q5-26 23-42\"/>"
+    }
+  ]
+}

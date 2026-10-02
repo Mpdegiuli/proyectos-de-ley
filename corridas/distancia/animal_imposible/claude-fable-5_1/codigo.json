@@ -1,0 +1,275 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "claude-fable-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:17:56+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"205\" cy=\"240\" rx=\"100\" ry=\"62\" fill=\"url(#cuerpo)\" stroke=\"#1d6b75\" stroke-width=\"3\"/> ... <path d=\"M160 210 q10 12 0 24 ...\" (escamas)"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M290 235 Q330 200 355 190 Q345 225 335 240 Q350 250 365 275 Q330 270 300 260 Z\" fill=\"url(#cuerpo)\" stroke=\"#1d6b75\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<!-- cabeza de gato --> <circle cx=\"165\" cy=\"160\" r=\"58\" fill=\"#8f6bd6\" stroke=\"#5c3e9e\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<!-- branquias en las mejillas --> <path d=\"M120 165 q-6 8 0 16 M113 160 q-7 10 0 22\" stroke=\"#5c3e9e\" stroke-width=\"2.5\" fill=\"none\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M128 178 Q100 174 82 168\"/> <path d=\"M202 178 Q228 174 246 170\"/> (bigotes)"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<!-- patas (seis) --> <g stroke=\"#1d6b75\" stroke-width=\"3\" fill=\"#3aa8a0\"> (seis path de patas)"
+    },
+    {
+      "id": "a7",
+      "valor": "contradice",
+      "evidencia": "<!-- ala delantera --> <path d=\"M175 185 Q120 85 45 100 ...\" fill=\"url(#ala)\"/> <!-- ala trasera --> (son alas de ave/insecto tipo pluma, no de mariposa con forma característica)"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<!-- tercer ojo --> <ellipse cx=\"165\" cy=\"132\" rx=\"10\" ry=\"14\" fill=\"#fff\"/> <ellipse cx=\"165\" cy=\"132\" rx=\"4\" ry=\"9\" fill=\"#e63946\"/> (vertical por rx<ry)"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<!-- burbujas imposibles en el cielo --> <circle cx=\"285\" cy=\"150\" r=\"7\"/> <circle cx=\"305\" cy=\"128\" r=\"5\"/> <circle cx=\"322\" cy=\"110\" r=\"4\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"cielo\"> <stop offset=\"0\" stop-color=\"#2b1b4d\"/> <stop offset=\"1\" stop-color=\"#6a3f8f\"/> </linearGradient> <rect width=\"400\" height=\"400\" fill=\"url(#cielo)\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<text ...>El Gatopez Alado — respira agua, vuela en el vacío</text>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"382\" ...>El Gatopez Alado — respira agua, vuela en el vacío</text>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<!-- cabeza de gato --> <circle cx=\"165\" cy=\"160\" r=\"58\" fill=\"#8f6bd6\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"165\" cy=\"160\" r=\"58\" fill=\"#8f6bd6\" stroke=\"#5c3e9e\"/> (#8f6bd6 es violeta)"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"165\" cy=\"132\" rx=\"4\" ry=\"9\" fill=\"#e63946\"/> (#e63946 es rojo)"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<!-- branquias en las mejillas --> <path d=\"M120 165 q-6 8 0 16 M113 160 q-7 10 0 22\" stroke=\"#5c3e9e\" stroke-width=\"2.5\" fill=\"none\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M118 128 L105 78 L148 105 Z\" fill=\"#8f6bd6\"/> <path d=\"M182 122 L205 76 L222 122 Z\" fill=\"#8f6bd6\"/> (triángulos puntiagudos)"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"205\" cy=\"240\" rx=\"100\" ry=\"62\" fill=\"url(#cuerpo)\"/> con escamas y cola de pez"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"cuerpo\"> <stop offset=\"0\" stop-color=\"#4dd0c4\"/> <stop offset=\"1\" stop-color=\"#2a8f9c\"/> </linearGradient> (#4dd0c4 es turquesa)"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M160 210 q10 12 0 24 M185 205 q10 12 0 24 M210 205 q10 12 0 24 ...\" (patrón de escamas sobre el cuerpo)"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M290 235 Q330 200 355 190 Q345 225 335 240 Q350 250 365 275 Q330 270 300 260 Z\" fill=\"url(#cuerpo)\"/> <!-- cola de pez -->"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<!-- patas (seis) --> seis elementos <path> dentro del grupo de patas"
+    },
+    {
+      "id": "a23",
+      "valor": "contradice",
+      "evidencia": "Las alas son formas irregulares tipo pluma/membrana: <path d=\"M175 185 Q120 85 45 100 ...\"/> no tienen forma de mariposa"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"ala\"> <stop offset=\"0\" stop-color=\"#ffd166\"/> <stop offset=\"1\" stop-color=\"#ef8354\"/> </linearGradient> (amarillo-anaranjado)"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "No hay suelo dibujado, fondo es cielo nocturno <rect fill=\"url(#cielo)\"/>, la criatura aparece suspendida en el aire"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#cielo)\"/> con gradiente #2b1b4d a #6a3f8f (oscuro nocturno)"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<!-- estrellas --> <circle cx=\"40\" cy=\"50\" r=\"2\"/> <circle cx=\"90\" cy=\"30\" r=\"1.5\"/> ... (siete estrellas)"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"330\" cy=\"70\" r=\"26\" fill=\"#f6f1d5\" opacity=\"0.9\"/> (luna con cráteres)"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<!-- burbujas imposibles en el cielo --> <circle cx=\"285\" cy=\"150\" r=\"7\"/> ... cerca de la criatura"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"382\" text-anchor=\"middle\" font-family=\"Georgia, serif\" font-size=\"17\" fill=\"#e8e0ff\" font-style=\"italic\">El Gatopez Alado — respira agua, vuela en el vacío</text>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<text ...>El Gatopez Alado — respira agua, vuela en el vacío</text> (contradicción: respira agua en el cielo, vuela en el vacío)"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "Combinación de gato con ojos grandes (#8f6bd6), cuerpo de pez turquesa, alas naranjas, tercer ojo, bigotes — absurdo tierno visible"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "Gato + pez + alas + seis patas + tercer ojo + branquias + burbujas en el cielo — biológicamente imposible por composición del código"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<!-- cabeza de gato --> + <ellipse cx=\"205\" cy=\"240\" rx=\"100\" ry=\"62\"/> (cuerpo pez) + escamas"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<path d=\"M290 235 Q330 200 355 190 ...\" fill=\"url(#cuerpo)\"/> <!-- cola de pez -->"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<!-- patas (seis) --> seis path dibujados en el grupo"
+    },
+    {
+      "id": "a37",
+      "valor": "contradice",
+      "evidencia": "Las alas son tipo membrana/pluma con trazos internos curvos: <path d=\"M175 185 Q120 85 45 100 Q80 130 95 152 ...\"/> no tienen venación de insecto típica"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<!-- branquias en las mejillas --> <path d=\"M120 165 q-6 8 0 16 M113 160 q-7 10 0 22\" stroke=\"#5c3e9e\"/>"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<!-- aleta dorsal saliendo del lomo --> <path d=\"M205 178 Q215 145 245 138 Q238 158 240 170 Q255 160 272 158 Q258 178 245 186 Z\" fill=\"#4dd0c4\"/>"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<!-- tercer ojo --> <ellipse cx=\"165\" cy=\"132\" rx=\"10\" ry=\"14\" fill=\"#fff\"/> <ellipse cx=\"165\" cy=\"132\" rx=\"4\" ry=\"9\" fill=\"#e63946\"/>"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<!-- burbujas imposibles en el cielo --> <circle cx=\"285\" cy=\"150\" r=\"7\"/> <circle cx=\"305\" cy=\"128\" r=\"5\"/> <circle cx=\"322\" cy=\"110\" r=\"4\"/>"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"330\" cy=\"70\" r=\"26\" fill=\"#f6f1d5\" opacity=\"0.9\"/>"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "<!-- estrellas --> <g fill=\"#fff\"> <circle cx=\"40\" cy=\"50\" r=\"2\"/> ... (siete círculos blancos pequeños)"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"cielo\"> <stop offset=\"0\" stop-color=\"#2b1b4d\"/> <stop offset=\"1\" stop-color=\"#6a3f8f\"/> (azul oscuro/púrpura nocturno)"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"382\" font-style=\"italic\">El Gatopez Alado — respira agua, vuela en el vacío</text>"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "fill=\"#8f6bd6\" (violeta), fill=\"#4dd0c4\" (turquesa), stop-color=\"#ef8354\" (naranja) — todos presentes"
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"cielo\">, <linearGradient id=\"cuerpo\">, <linearGradient id=\"ala\"/> — tres gradientes usados en rellenos"
+    },
+    {
+      "id": "a48",
+      "valor": "contradice",
+      "evidencia": "Los rellenos son gradientes (url(#cuerpo), url(#ala), url(#cielo)) — no es ilustración plana"
+    },
+    {
+      "id": "a49",
+      "valor": "esta",
+      "evidencia": "Formas simples, colores vivos, texto con leyenda, estrellas y luna estilizadas — remite a cuento o afiche"
+    },
+    {
+      "id": "a50",
+      "valor": "esta",
+      "evidencia": "Formas geométricas básicas: ellipse, circle, path con curvas simples Q — sin detalle fotorrealista"
+    },
+    {
+      "id": "a51",
+      "valor": "esta",
+      "evidencia": "stroke-width=\"3\", stroke-width=\"2.5\", stroke-width=\"3\" en cuerpo, cabeza, cola — contornos gruesos"
+    },
+    {
+      "id": "a52",
+      "valor": "esta",
+      "evidencia": "stop-color=\"#4dd0c4\", stop-color=\"#ffd166\", fill=\"#8f6bd6\", fill=\"#e63946\" — colores saturados"
+    },
+    {
+      "id": "a53",
+      "valor": "esta",
+      "evidencia": "Escena sin narrativa de acción, fondo estrellado, criatura fantástica centrada, texto ornamental — carácter decorativo"
+    }
+  ]
+}

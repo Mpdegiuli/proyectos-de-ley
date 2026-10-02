@@ -1,0 +1,170 @@
+{
+  "consigna": "animal",
+  "unidad": "claude-sonnet-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:48:35+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"250\" rx=\"95\" ry=\"65\" fill=\"#f0b35c\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M160 200 Q170 230 160 260\" stroke=\"#c97f28\" stroke-width=\"8\" fill=\"none\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<rect x=\"140\" y=\"295\" width=\"18\" height=\"45\" rx=\"8\" fill=\"#e8a33d\"/> (patas cortas con cuerpo sobre ellas)"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M255 150 L235 110 L275 135 Z\" fill=\"#e8a33d\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M265 200 L225 195\" stroke=\"#333\" stroke-width=\"1.5\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M110 230 Q60 210 55 250 Q50 280 90 270 Q120 260 120 230 Z\" fill=\"#e8a33d\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "contradice",
+      "evidencia": "hay también rect y path además de óvalos y círculos"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M20 340 q5 -20 10 0 M40 345 q5 -25 10 0...\" stroke=\"#5aa85a\" stroke-width=\"4\" fill=\"none\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#bfe6f5\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"330\" cy=\"60\" r=\"30\" fill=\"#fff6b0\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "cuerpo, cabeza, orejas, ojos con brillo, bigotes, nariz, rayas"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "orejas puntiagudas de gato, cola enroscada, rayas de tigre, hocico alargado"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "uso de rect, ellipse, circle, path simples"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"250\" rx=\"95\" ry=\"65\"/> con patas cortas <rect x=\"140\" y=\"295\" height=\"45\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"250\" rx=\"95\" ry=\"65\" fill=\"#f0b35c\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"270\" rx=\"80\" ry=\"40\" fill=\"#fbe0b0\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<rect x=\"140\" y=\"295\"/> <rect x=\"180\" y=\"300\"/> <rect x=\"220\" y=\"300\"/> <rect x=\"255\" y=\"295\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M110 230 Q60 210 55 250 Q50 280 90 270 Q120 260 120 230 Z\" fill=\"#e8a33d\"/> (curva hacia la izquierda)"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M255 150 L235 110 L275 135 Z\"/> <path d=\"M320 150 L340 105 L345 145 Z\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "contradice",
+      "evidencia": "interior de orejas: <path d=\"M255 150 L245 120 L272 140 Z\" fill=\"#fbe0b0\"/> (color crema, no rosado)"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"275\" cy=\"185\" r=\"6\" fill=\"#2b2b2b\"/> <circle cx=\"277\" cy=\"183\" r=\"2\" fill=\"#fff\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"300\" cy=\"205\" rx=\"9\" ry=\"6\" fill=\"#d97b4a\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M265 200 L225 195\"/> <path d=\"M320 200 L360 193\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "contradice",
+      "evidencia": "las rayas son de color #c97f28 (marrón oscuro/café), no naranja: stroke=\"#c97f28\""
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<rect y=\"300\" width=\"400\" height=\"100\" fill=\"#8fd18f\"/> con patas en y=295-340"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#bfe6f5\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"330\" cy=\"60\" r=\"30\" fill=\"#fff6b0\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M160 200 Q170 230 160 260\" stroke=\"#c97f28\" stroke-width=\"8\" fill=\"none\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "ojos con brillo, bigotes, boca curva pequeña, nariz pequeña"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "formas redondeadas: ellipse, circle, rx en rect, proporciones compactas"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "proporciones no realistas: cabeza grande, patas muy cortas, formas geométricas simples"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"250\" rx=\"95\" ry=\"65\"/> <circle cx=\"290\" cy=\"190\" r=\"55\"/>"
+    }
+  ]
+}

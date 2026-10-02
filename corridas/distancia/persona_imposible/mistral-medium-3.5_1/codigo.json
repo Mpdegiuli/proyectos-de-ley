@@ -1,0 +1,195 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "mistral-medium-3.5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:40:02+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"150\" r=\"50\" fill=\"none\" stroke=\"#333\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 200 Q200 250 250 200\" .../> + <path d=\"M150 200 L130 220\"/> <path d=\"M130 220 L150 250\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "contradice",
+      "evidencia": "<path d=\"M150 200 Q200 250 250 200\" fill=\"none\" stroke=\"#333\" stroke-width=\"2\"/> (es curva, no línea recta)"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 200 Q200 250 250 200\" fill=\"none\" stroke=\"#333\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 200 L130 220\"/> <path d=\"M130 220 L150 250\"/> y <path d=\"M250 200 L270 220\"/> <path d=\"M270 220 L250 250\"/> (los codos bajan pero los antebrazos apuntan hacia abajo-adentro; sin embargo los codos van hacia afuera-arriba desde la cadera)"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 200 Q200 250 250 200\"/> combinado con <line x1=\"180\" y1=\"180\" x2=\"160\" y2=\"200\"/> y <line x1=\"220\" y1=\"180\" x2=\"240\" y2=\"200\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "stroke=\"#333\" stroke-width=\"2\" en todos los elementos, sin texturas ni efectos"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "brazos que salen del cuerpo en múltiples direcciones contradictorias simultáneamente"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "líneas de brazos en direcciones imposibles: <line x1=\"180\" y1=\"180\" x2=\"160\" y2=\"200\"/> y <path d=\"M150 200 L130 220\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"150\" r=\"50\" fill=\"none\" stroke=\"#333\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"180\" cy=\"140\" r=\"5\" fill=\"#333\"/> <circle cx=\"220\" cy=\"140\" r=\"5\" fill=\"#333\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<line x1=\"180\" y1=\"120\" x2=\"160\" y2=\"100\" stroke=\"#333\" stroke-width=\"2\"/> <line x1=\"220\" y1=\"120\" x2=\"240\" y2=\"100\" stroke=\"#333\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "no_esta",
+      "evidencia": "no hay elemento que represente nariz"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M190 160 Q200 170 210 160\" fill=\"none\" stroke=\"#333\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "no_esta",
+      "evidencia": "hay líneas que conectan la cabeza con las piernas: <path d=\"M200 250 L200 350\"/> y los brazos salen de la zona del cuerpo"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 200 Q200 250 250 200\" fill=\"none\" stroke=\"#333\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<line x1=\"180\" y1=\"180\" x2=\"160\" y2=\"200\"/> parte desde el borde inferior de la cabeza (cy=150, r=50, bottom=200)"
+    },
+    {
+      "id": "a18",
+      "valor": "no_esta",
+      "evidencia": "no hay elementos que representen manos"
+    },
+    {
+      "id": "a19",
+      "valor": "no_esta",
+      "evidencia": "no hay conexión explícita entre brazos y piernas en el código"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 350 L250 350\" fill=\"none\" stroke=\"#333\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "contradice",
+      "evidencia": "<path d=\"M100 100 L120 80 L140 100\" stroke=\"#ff0000\"/> y <path d=\"M260 100 L280 80 L300 100\" stroke=\"#ff0000\"/> (son rojos pero no están encima de la cabeza centrada en cx=200)"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#f0f0f0\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "no hay suelo bajo la figura; <path d=\"M150 350 L250 350\"/> es una línea horizontal pero no está conectada al borde del canvas"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "múltiples brazos en direcciones contradictorias: <line x1=\"180\" y1=\"180\" x2=\"160\" y2=\"200\"/> y <path d=\"M150 200 L130 220\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "cabeza humana + <path d=\"M100 100 L120 80 L140 100\" stroke=\"#ff0000\"/> (cuernos) + figura abstracta"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "cabeza r=50 muy grande respecto al cuerpo <path d=\"M200 250 L200 350\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "brazos salen del borde inferior de cabeza en múltiples direcciones"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"150\" r=\"50\"/> con ojos, boca, piernas"
+    },
+    {
+      "id": "a29",
+      "valor": "no_esta",
+      "evidencia": "hay dos líneas de brazos superiores y una curva inferior, no tres brazos claramente diferenciados"
+    },
+    {
+      "id": "a30",
+      "valor": "no_esta",
+      "evidencia": "ningún par de brazos es anatómicamente normal"
+    },
+    {
+      "id": "a31",
+      "valor": "no_esta",
+      "evidencia": "no hay un tercer brazo explícito que salga de la espalda"
+    },
+    {
+      "id": "a32",
+      "valor": "no_esta",
+      "evidencia": "los elementos rojos son <path d=\"M100 100 L120 80 L140 100\" stroke=\"#ff0000\"/> (cuernos, no brazos)"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "stroke=\"#333\" en la mayoría de elementos"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "stroke-width=\"2\" fill=\"none\" en casi todos los elementos, sin decoración"
+    },
+    {
+      "id": "a35",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"180\" cy=\"140\" r=\"5\" fill=\"#333\"/> y <circle cx=\"220\" cy=\"140\" r=\"5\" fill=\"#333\"/> tienen relleno"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"150\" r=\"50\"/> <path d=\"M150 200 Q200 250 250 200\"/> <line x1=\"180\" y1=\"120\" x2=\"160\" y2=\"100\"/>"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "stroke-width=\"2\" fill=\"none\" con trazos simples en todos los elementos"
+    }
+  ]
+}

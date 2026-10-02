@@ -1,0 +1,185 @@
+{
+  "consigna": "animal_inexistente",
+  "unidad": "claude-opus-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:58:03+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"112\" rx=\"66\" ry=\"56\" fill=\"url(#body)\"/> (criatura facing front, nocturna por fondo oscuro)"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\"><stop offset=\"0%\" stop-color=\"#1b2a4a\"/><stop offset=\"100%\" stop-color=\"#070d1a\"/></radialGradient> + <circle cx=\"40\" cy=\"50\" r=\"1.4\"/> (estrellas)"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"352\" rx=\"120\" ry=\"16\" fill=\"#000\" opacity=\".35\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"248\" rx=\"96\" ry=\"66\" fill=\"url(#body)\"/> con stop-color=\"#7ce0c8\" (turquesa), forma elíptica/redonda"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"belly\"><stop offset=\"0%\" stop-color=\"#ffe9a8\"/><stop offset=\"100%\" stop-color=\"#f2a65a\"/></linearGradient>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M140 285 L 128 335\"/> <path d=\"M180 292 L 176 340\"/> <path d=\"M225 292 L 232 340\"/> <path d=\"M265 283 L 280 332\"/> (cuatro patas)"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#f2a65a\"><ellipse cx=\"126\" cy=\"341\"/><ellipse cx=\"175\" cy=\"346\"/><ellipse cx=\"233\" cy=\"346\"/><ellipse cx=\"282\" cy=\"338\"/></g>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffef9f\"><path d=\"M160 190 l 10 -22 l 10 22 z\"/><path d=\"M190 182 l 10 -26 l 10 26 z\"/><path d=\"M220 190 l 10 -22 l 10 22 z\"/></g>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M275 265 C 320 268, 350 250, 352 222 C 354 198, 330 188, 318 202 C 308 214, 320 228, 332 220\" fill=\"none\" stroke=\"#2f8f92\" stroke-width=\"13\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"332\" cy=\"220\" r=\"6\" fill=\"#ffef9f\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"wing\"><stop offset=\"0%\" stop-color=\"#c8a6ff\" stop-opacity=\".85\"/><stop offset=\"100%\" stop-color=\"#63d9ff\" stop-opacity=\".35\"/></linearGradient>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M148 78 C 128 40, 140 30, 166 52 C 172 60, 170 70, 166 80 Z\" fill=\"#3fb0a5\"/> (forma puntiaguda)"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180 62 C 172 34, 152 28, 148 14\"/> <circle cx=\"148\" cy=\"12\" r=\"10\" fill=\"url(#glow)\"/> <circle cx=\"148\" cy=\"12\" r=\"5\" fill=\"#fff3b0\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"172\" cy=\"104\" rx=\"17\" ry=\"19\" fill=\"#fff\"/> <ellipse cx=\"228\" cy=\"104\" rx=\"17\" ry=\"19\" fill=\"#fff\"/> <ellipse cx=\"200\" cy=\"76\" rx=\"12\" ry=\"13\" fill=\"#fff\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"132\" rx=\"14\" ry=\"10\" fill=\"#f8c98a\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffb4c6\" opacity=\".55\"><ellipse cx=\"158\" cy=\"132\" rx=\"12\" ry=\"7\"/><ellipse cx=\"242\" cy=\"132\" rx=\"12\" ry=\"7\"/></g>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#dff7f0\" stroke-width=\"1.6\" opacity=\".7\" fill=\"none\"><path d=\"M172 136 C 150 138, 138 134, 128 128\"/>..."
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "cachetes rosados, tres ojos grandes, colores pastel, bigotes, hocico tierno — elementos visuales combinados"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "expresión frontal con ojos grandes, cachetes #ffb4c6, colores cálidos — diseño visualmente amable"
+    },
+    {
+      "id": "a20",
+      "valor": "contradice",
+      "evidencia": "la criatura tiene alas y cola enrulada, no es cuadrúpeda convencional; las patas cuelgan verticalmente como bípedo con 4 patas"
+    },
+    {
+      "id": "a21",
+      "valor": "contradice",
+      "evidencia": "<path d=\"M150 190 C 90 120, 60 140, 62 185...\" fill=\"url(#wing)\"/> — son alas membranosas redondeadas, no de libélula (que son horizontales y estrechas)"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"172\" cy=\"104\"/> <ellipse cx=\"228\" cy=\"104\"/> <ellipse cx=\"200\" cy=\"76\"/> (tres blancos de ojo)"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M152 74 C 142 52, 148 46, 162 60 Z\" fill=\"#f2a65a\" opacity=\".8\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffef9f\"><path d=\"M160 190 l 10 -22 l 10 22 z\"/><path d=\"M190 182 l 10 -26 l 10 26 z\"/><path d=\"M220 190 l 10 -22 l 10 22 z\"/></g>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"148\" cy=\"12\" r=\"10\" fill=\"url(#glow)\"/> <circle cx=\"148\" cy=\"12\" r=\"5\" fill=\"#fff3b0\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M275 265 C 320 268, 350 250, 352 222 C 354 198, 330 188, 318 202 C 308 214, 320 228, 332 220\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#dff7f0\" stroke-width=\"1.6\" opacity=\".7\"><path d=\"M172 136 C 150 138, 138 134, 128 128\"/>..."
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\"><stop offset=\"0%\" stop-color=\"#1b2a4a\"/></radialGradient> + círculos blancos pequeños como estrellas"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"352\" rx=\"120\" ry=\"16\" fill=\"#000\" opacity=\".35\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "múltiples linearGradient y radialGradient en body, belly, wing, bg, glow"
+    },
+    {
+      "id": "a31",
+      "valor": "contradice",
+      "evidencia": "el código usa degradados (url(#body), url(#belly), url(#wing)) — no es plano sino con gradientes"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "orejas simétricas cx=148/252, ojos cx=172/228, alas simétricas, antenas simétricas — diseño bilateral"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "colores pastel, formas redondeadas, ojos grandes, cachetes rosados — conjunto visualmente pulcro y amable"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "combinación de cachetes rosados, tres ojos, colores pastel, bigotes y alas evoca personaje infantil o app"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "cuerpo rechoncho redondeado, colores suaves, formas simplificadas — estética de peluche/mascota más que criatura extraña"
+    }
+  ]
+}

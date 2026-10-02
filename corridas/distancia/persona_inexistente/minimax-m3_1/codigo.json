@@ -1,0 +1,255 @@
+{
+  "consigna": "persona_inexistente",
+  "unidad": "minimax-m3_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:28:03+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"181\" cy=\"110\" r=\"4.5\" fill=\"#2d5a3d\"/> — ojos verdes presentes, pero no hay pestañas marcadas en el código"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M170 92 Q180 86 192 92\" stroke=\"#2c1810\" stroke-width=\"3.5\" fill=\"none\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"hairG\"><stop offset=\"0%\" stop-color=\"#5d2e0c\"/><stop offset=\"100%\" stop-color=\"#1f0e04\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M152 80 Q165 60 180 55 Q175 70 165 88 Z\" fill=\"url(#hairG)\"/> y <path d=\"M248 80 Q235 60 220 55 Q225 70 235 88 Z\""
+    },
+    {
+      "id": "a5",
+      "valor": "no_esta",
+      "evidencia": "No hay ningún elemento que dibuje un lunar bajo la nariz"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M184 144 Q200 154 216 144 Q200 150 184 144 Z\" fill=\"#c0392b\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"162\" cy=\"128\" rx=\"9\" ry=\"6\" fill=\"#e87b6a\" opacity=\"0.45\"/> <ellipse cx=\"238\" cy=\"128\" rx=\"9\" ry=\"6\" fill=\"#e87b6a\" opacity=\"0.45\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"shirt\"><stop offset=\"0%\" stop-color=\"#8b5cf6\"/><stop offset=\"100%\" stop-color=\"#5b21b6\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"178\" r=\"2.5\" fill=\"#fbbf24\"/> <circle cx=\"200\" cy=\"195\" r=\"2.5\" fill=\"#fbbf24\"/> <circle cx=\"200\" cy=\"212\" r=\"2.5\" fill=\"#fbbf24\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"pants\"><stop offset=\"0%\" stop-color=\"#1e3a8a\"/><stop offset=\"100%\" stop-color=\"#0c1a3d\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "Posiciones ligeramente distintas en ojos, cejas y mechones de cabello: cx=\"180\" vs cx=\"220\", path asimétricos"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"380\" rx=\"90\" ry=\"6\" fill=\"#000\" opacity=\"0.25\"/> y múltiples gradientes con variaciones"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "Combinación de degradados, asimetrías menores y estilo ilustrado no fotorrealista"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "Toda la figura está centrada de frente: <ellipse cx=\"200\" cy=\"108\" rx=\"56\" ry=\"63\"/> con ojos, nariz, boca centrados"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\"><stop offset=\"0%\" stop-color=\"#fef3e7\"/><stop offset=\"100%\" stop-color=\"#d4a574\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#5d2e0c\"/><stop offset=\"100%\" stop-color=\"#1f0e04\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "no_esta",
+      "evidencia": "El cabello se dibuja con paths angulares y radialGradient, sin curvas onduladas explícitas"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M158 90 Q150 100 152 115 Q145 105 150 88 Z\"/> y <path d=\"M242 90 Q250 100 248 115 Q255 105 250 88 Z\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"181\" cy=\"110\" r=\"4.5\" fill=\"#2d5a3d\"/> <circle cx=\"221\" cy=\"110\" r=\"4.5\" fill=\"#2d5a3d\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "no_esta",
+      "evidencia": "No hay ningún elemento path o stroke que dibuje pestañas"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M170 92 Q180 86 192 92\" stroke=\"#2c1810\" stroke-width=\"3.5\"/> — cejas arqueadas con trazo grueso"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"162\" cy=\"128\" rx=\"9\" ry=\"6\" fill=\"#e87b6a\" opacity=\"0.45\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M184 144 Q200 154 216 144 Q200 150 184 144 Z\" fill=\"#c0392b\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "no_esta",
+      "evidencia": "No hay curva ascendente en las comisuras que indique sonrisa; la boca es un arco simple"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M140 185 ... fill=\"url(#shirt)\"/> con gradiente #8b5cf6 a #5b21b6"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"178\" r=\"2.5\" fill=\"#fbbf24\"/> <circle cx=\"200\" cy=\"195\" r=\"2.5\" fill=\"#fbbf24\"/> <circle cx=\"200\" cy=\"212\" r=\"2.5\" fill=\"#fbbf24\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"pants\"><stop offset=\"0%\" stop-color=\"#1e3a8a\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"178\" cy=\"372\" rx=\"24\" ry=\"8\" fill=\"#0a0a0a\"/> <ellipse cx=\"222\" cy=\"372\" rx=\"24\" ry=\"8\" fill=\"#0a0a0a\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"166\" cy=\"370\" rx=\"6\" ry=\"3\" fill=\"#fff\" opacity=\"0.4\"/> <ellipse cx=\"210\" cy=\"370\" rx=\"6\" ry=\"3\" fill=\"#fff\" opacity=\"0.4\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"125\" cy=\"296\" rx=\"13\" ry=\"16\"/> <ellipse cx=\"275\" cy=\"296\" rx=\"13\" ry=\"16\"/> — manos a los costados del cuerpo"
+    },
+    {
+      "id": "a31",
+      "valor": "no_esta",
+      "evidencia": "Las manos son simples elipses, no hay detalle de dedos abiertos"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"380\" rx=\"90\" ry=\"6\" fill=\"#000\" opacity=\"0.25\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"380\" rx=\"90\" ry=\"6\" fill=\"#000\" opacity=\"0.25\"/> — sombra al pie de la figura"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "Toda la figura es una construcción SVG de formas geométricas, no un trazo de persona real"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"181\" cy=\"110\" r=\"4.5\" fill=\"#2d5a3d\"/>"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#5d2e0c\"/><stop offset=\"100%\" stop-color=\"#1f0e04\"/>"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<path d=\"M184 144 Q200 154 216 144 Q200 150 184 144 Z\" fill=\"#c0392b\"/>"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#8b5cf6\"/><stop offset=\"100%\" stop-color=\"#5b21b6\"/>"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"178\" r=\"2.5\" fill=\"#fbbf24\"/> — botones en línea vertical sobre la camisa"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"182.5\" cy=\"108.5\" r=\"1.5\" fill=\"#fff\"/> <circle cx=\"222.5\" cy=\"108.5\" r=\"1.5\" fill=\"#fff\"/>"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"162\" cy=\"128\" rx=\"9\" ry=\"6\" fill=\"#e87b6a\" opacity=\"0.45\"/>"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "Uso de linearGradient y radialGradient en piel, camisa, pantalón, cabello y fondo"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "Formas: <ellipse cx=\"200\" cy=\"108\" rx=\"56\" ry=\"63\"/>, paths con curvas Q suaves"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "No hay stroke de contorno en las siluetas principales; los bordes emergen de los rellenos"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skin\"/>, <radialGradient id=\"hairG\"/>, <linearGradient id=\"shirt\"/> — sombreado por gradientes"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "Estilo de formas geométricas simples con gradientes, botones, rubor y brillos — característico de avatar/ilustración app"
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "Cuerpo compuesto por elipses y paths simples sin detalle anatómico complejo"
+    },
+    {
+      "id": "a48",
+      "valor": "esta",
+      "evidencia": "Cejas arqueadas stroke-width=\"3.5\", rubor, labios rojos, ojos con iris y brillo"
+    },
+    {
+      "id": "a49",
+      "valor": "esta",
+      "evidencia": "Todos los rellenos son degradados suaves o colores planos; no hay texturas ni trazos irregulares"
+    }
+  ]
+}

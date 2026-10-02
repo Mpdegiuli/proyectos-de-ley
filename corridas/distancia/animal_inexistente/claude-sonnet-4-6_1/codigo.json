@@ -1,0 +1,255 @@
+{
+  "consigna": "animal_inexistente",
+  "unidad": "claude-sonnet-4-6_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:59:25+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 320 Q130 340 125 355 Q135 360 150 355 Q155 345 160 335\" fill=\"#2a7a5c\"/> <ellipse cx=\"185\" cy=\"290\" rx=\"75\" ry=\"65\" fill=\"url(#bodyGrad)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M160 160 Q145 100 150 60 Q153 40 165 55 Q170 75 165 100 Q163 130 162 160\" fill=\"#2a7a5c\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"158\" cy=\"55\" r=\"10\" fill=\"#ff6b9d\" opacity=\"0.9\" filter=\"url(#glow)\"/> <circle cx=\"222\" cy=\"55\" r=\"10\" fill=\"#ff6b9d\" opacity=\"0.9\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M135 275 Q80 230 50 180 Q40 150 70 145 Q90 140 100 170 Q80 175 85 195 Q110 230 145 265\" fill=\"url(#wingGrad)\" opacity=\"0.85\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"wingGrad\"><stop offset=\"0%\" stop-color=\"#b388ff\"/><stop offset=\"100%\" stop-color=\"#6200ea\"/></radialGradient> stroke=\"#b388ff\""
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M230 300 Q310 280 340 240 Q360 210 340 190 Q325 175 310 195 Q330 205 315 225 Q295 255 250 280\" fill=\"none\" stroke=\"#2a7a5c\" stroke-width=\"18\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "no_esta",
+      "evidencia": "<circle cx=\"310\" cy=\"195\" r=\"14\" fill=\"#5dade2\" opacity=\"0.8\" filter=\"url(#glow)\"/> (es una esfera azul brillante, no evoca medusa)"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"162\" cy=\"195\" rx=\"6\" ry=\"12\" fill=\"#111\"/> <ellipse cx=\"208\" cy=\"195\" rx=\"6\" ry=\"12\" fill=\"#111\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"eyeGrad\"><stop offset=\"0%\" stop-color=\"#ffffaa\"/><stop offset=\"100%\" stop-color=\"#cc8800\"/></radialGradient>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "Combinación de cuerpo, cabeza, ojos, orejas, patas, cola, alas forman figura animal reconocible"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "Mezcla de partes de rana, conejo, murciélago, gato en un solo ser produce efecto de casi reconocimiento"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"185\" cy=\"290\" rx=\"75\" ry=\"65\" fill=\"url(#bodyGrad)\"/> con gradiente verde y patas cortas"
+    },
+    {
+      "id": "a13",
+      "valor": "contradice",
+      "evidencia": "El cuerpo usa gradiente radial y manchas circulares: <circle cx=\"155\" cy=\"270\" r=\"8\" fill=\"#1a6645\" opacity=\"0.4\"/> No hay escamas dibujadas"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"175\" cy=\"285\" r=\"4\" fill=\"#00ffaa\" opacity=\"0.7\" filter=\"url(#glow)\"/> <circle cx=\"200\" cy=\"295\" r=\"3\" fill=\"#00ffaa\" opacity=\"0.7\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "no_esta",
+      "evidencia": "Los colores están presentes (#00ffaa, #7af5ff) pero no hay animación ni pulso definido en el código SVG estático"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M160 160 Q145 100 150 60 Q153 40 165 55 Q170 75 165 100 Q163 130 162 160\" fill=\"#2a7a5c\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"158\" cy=\"55\" r=\"10\" fill=\"#ff6b9d\" opacity=\"0.9\" filter=\"url(#glow)\"/> <circle cx=\"222\" cy=\"55\" r=\"10\" fill=\"#ff6b9d\" opacity=\"0.9\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M135 275 Q80 230 50 180 Q40 150 70 145 Q90 140 100 170 Q80 175 85 195 Q110 230 145 265\" fill=\"url(#wingGrad)\" opacity=\"0.85\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"wingGrad\"><stop offset=\"0%\" stop-color=\"#b388ff\"/><stop offset=\"100%\" stop-color=\"#6200ea\"/></radialGradient>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M230 300 Q310 280 340 240 Q360 210 340 190 Q325 175 310 195 Q330 205 315 225 Q295 255 250 280\" fill=\"none\" stroke=\"#2a7a5c\" stroke-width=\"18\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"310\" cy=\"195\" r=\"14\" fill=\"#5dade2\" opacity=\"0.8\" filter=\"url(#glow)\"/> <circle cx=\"310\" cy=\"195\" r=\"8\" fill=\"#aed6f1\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"162\" cy=\"195\" r=\"15\" fill=\"url(#eyeGrad)\"/> <ellipse cx=\"162\" cy=\"195\" rx=\"6\" ry=\"12\" fill=\"#111\"/> (eyeGrad va de #ffffaa a #cc8800)"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M162 225 Q185 240 208 225\" fill=\"none\" stroke=\"#1a5c44\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#0d1b2a\"/> <circle cx=\"30\" cy=\"20\" r=\"1.5\" fill=\"white\" opacity=\"0.8\"/> (múltiples estrellas)"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"355\" rx=\"155\" ry=\"18\" fill=\"#2d5a27\"/> <path d=\"M100 355 Q105 340 110 355\" fill=\"none\" stroke=\"#4a8a40\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"175\" cy=\"285\" r=\"4\" fill=\"#00ffaa\" opacity=\"0.7\" filter=\"url(#glow)\"/> con filtro glow aplicado a múltiples puntos"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"162\" cy=\"195\" rx=\"6\" ry=\"12\" fill=\"#111\"/> pupilas verticales grandes evocando visión nocturna"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "Combinación de rana+conejo+murciélago+gato en un único ser que no existe en la naturaleza"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"185\" cy=\"290\" rx=\"75\" ry=\"65\" fill=\"url(#bodyGrad)\"/> <ellipse cx=\"185\" cy=\"218\" rx=\"38\" ry=\"28\" fill=\"url(#bodyGrad)\"/> forma rechoncha tipo rana"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"118\" cy=\"358\" r=\"5\" fill=\"#3a9a75\"/> (cuatro dedos por pata, patas cortas y anchas tipo rana)"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<path d=\"M160 160 Q145 100 150 60 Q153 40 165 55\" fill=\"#2a7a5c\"/> orejas largas y estrechas"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"158\" cy=\"55\" r=\"10\" fill=\"#ff6b9d\" opacity=\"0.9\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<path d=\"M135 275 Q80 230 50 180 Q40 150 70 145...\" fill=\"url(#wingGrad)\"/> alas membranosas izquierda y derecha"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#b388ff\"/> <stop offset=\"100%\" stop-color=\"#6200ea\"/> (violeta/púrpura)"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<path d=\"M230 300 Q310 280 340 240 Q360 210 340 190 Q325 175 310 195 Q330 205 315 225 Q295 255 250 280\" fill=\"none\" stroke=\"#2a7a5c\" stroke-width=\"18\"/>"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"310\" cy=\"195\" r=\"14\" fill=\"#5dade2\" opacity=\"0.8\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"162\" cy=\"195\" rx=\"6\" ry=\"12\" fill=\"#111\"/> <ellipse cx=\"208\" cy=\"195\" rx=\"6\" ry=\"12\" fill=\"#111\"/> (pupila vertical elongada)"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"175\" cy=\"285\" r=\"4\" fill=\"#00ffaa\" opacity=\"0.7\" filter=\"url(#glow)\"/> <circle cx=\"160\" cy=\"300\" r=\"3\" fill=\"#7af5ff\" opacity=\"0.7\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#0d1b2a\"/>"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<svg viewBox=\"0 0 400 400\" width=\"400\" height=\"400\">"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bodyGrad\"> <radialGradient id=\"bellyGrad\"> <radialGradient id=\"eyeGrad\"> <radialGradient id=\"wingGrad\"/>"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "<filter id=\"glow\"><feGaussianBlur stdDeviation=\"3\" result=\"blur\"/><feMerge>...</feMerge></filter> usado en múltiples elementos"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#7ecfb0\"/> <stop offset=\"100%\" stop-color=\"#2a7a5c\"/> (verdes jade)"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#b388ff\"/> <stop offset=\"100%\" stop-color=\"#6200ea\"/>"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"160\" cy=\"300\" r=\"3\" fill=\"#7af5ff\" opacity=\"0.7\" filter=\"url(#glow)\"/> <circle cx=\"310\" cy=\"195\" r=\"14\" fill=\"#5dade2\"/>"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "Uso de gradientes radiales, filtro glow, criatura fantástica, fondo estrellado y bioluminiscencia"
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "<rect fill=\"#0d1b2a\"/> + múltiples <circle fill=\"#00ffaa\" filter=\"url(#glow)\"/> conforman estética nocturna bioluminiscente"
+    },
+    {
+      "id": "a48",
+      "valor": "esta",
+      "evidencia": "Ilustración de criatura fantástica con fondo nocturno estrellado, musgo y bioluminiscencia evoca cuento ilustrado"
+    },
+    {
+      "id": "a49",
+      "valor": "esta",
+      "evidencia": "Criatura híbrida fantástica con stats visuales (bioluminiscencia, alas, cola especial) evoca diseño de bestia de RPG"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "consigna": "animal_inexistente",
+  "unidad": "gpt-6-sol_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:06:34+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M177 237C126 215 75 164 74 102c37 1 102 23 134 100-2-67 22-111 58-138 14 61 2 124-30 170Z\" fill=\"url(#wing)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M146 173q-35-38-51-29 1 23 44 45Z\"/> ... fill=\"#f7a6b8\" stroke=\"#ad608b\""
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffe6a3\" opacity=\".55\" filter=\"url(#glow)\"><circle cx=\"150\" cy=\"74\" r=\"12\"/><circle cx=\"250\" cy=\"70\" r=\"12\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "<ellipse cx=\"201\" cy=\"264\" rx=\"93\" ry=\"67\" fill=\"url(#fur)\" stroke=\"#245b7e\" stroke-width=\"3\"/> (el gradiente se llama 'fur' pero no hay textura de pelo dibujada)"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M268 271c40-20 77-1 77 28 0 26-33 35-49 17-12-13-1-29 12-24 7 3 8 10 4 14\" fill=\"none\" stroke=\"#71d9cd\" stroke-width=\"18\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "Combinación de alas de polilla (wing), branquias (gills), antenas (feelers), cuerpo axolote (fur gradient turquesa)"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"201\" cy=\"264\" rx=\"93\" ry=\"67\" fill=\"url(#fur)\"/> donde fur va de #a0f5df a #55c9c5 a #3785af (turquesa)"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"wing\"><stop stop-color=\"#ffe6a3\" stop-opacity=\".85\"/><stop offset=\".55\" stop-color=\"#f59dc4\" stop-opacity=\".65\"/><stop offset=\"1\" stop-color=\"#aa9ef3\" stop-opacity=\".7\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#f7a6b8\" stroke=\"#ad608b\" stroke-width=\"2.5\"><path d=\"M146 173q-35-38-51-29 1 23 44 45Z\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<g fill=\"none\" stroke=\"#ffc994\" stroke-width=\"4\" stroke-linecap=\"round\"><path d=\"M150 93l-16-13m17 5 15-20m80 23 17-16m-15 9-14-21\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffe6a3\" opacity=\".55\" filter=\"url(#glow)\"><circle cx=\"150\" cy=\"74\" r=\"12\"/><circle cx=\"250\" cy=\"70\" r=\"12\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M268 271c40-20 77-1 77 28 0 26-33 35-49 17-12-13-1-29 12-24 7 3 8 10 4 14\" fill=\"none\" stroke=\"#71d9cd\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#64bec2\" stroke=\"#245b7e\" stroke-width=\"3\"><path d=\"M126 301q-13 4-16 21-2 16 14 18 16 2 25-14Z\"/><path d=\"M265 301q16 4 18 21...\""
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"169\" cy=\"186\" rx=\"8\" ry=\"12\"/> ojos, <path d=\"M194 206q6-6 12 0-1 7-6 7t-6-7Z\" fill=\"#ad608b\"/> boca, <ellipse cx=\"152\" cy=\"207\" rx=\"12\" ry=\"6\"/> mejillas"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\"><stop stop-color=\"#34477b\"/><stop offset=\"1\" stop-color=\"#11172f\"/></radialGradient> <rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff0b9\"><circle cx=\"43\" cy=\"72\" r=\"2\"/><circle cx=\"90\" cy=\"45\" r=\"1.5\"/>..."
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"201\" cy=\"264\" rx=\"93\" ry=\"67\" fill=\"url(#fur)\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"fur\"><stop stop-color=\"#a0f5df\"/><stop offset=\".55\" stop-color=\"#55c9c5\"/><stop offset=\"1\" stop-color=\"#3785af\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M177 237C126 215 75 164 74 102...\" fill=\"url(#wing)\"/> con opacidades parciales"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#f7a6b8\" stroke=\"#ad608b\" stroke-width=\"2.5\"><path d=\"M146 173q-35-38-51-29 1 23 44 45Z\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffe6a3\" opacity=\".55\" filter=\"url(#glow)\"><circle cx=\"150\" cy=\"74\" r=\"12\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M268 271c40-20 77-1 77 28 0 26-33 35-49 17-12-13-1-29 12-24 7 3 8 10 4 14\""
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<rect fill=\"url(#sky)\"/> (oscuro) + <circle cx=\"43\" cy=\"72\" r=\"2\"/> estrellas"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "Colores predominantes: #a0f5df, #ffe6a3, #f59dc4, #aa9ef3, #f7a6b8 (tonos pastel)"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"fur\">, <linearGradient id=\"wing\">, <radialGradient id=\"sky\">, <radialGradient id=\"belly\">"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "Combinación de gradientes pastel, alas translúcidas, branquias decorativas, mejillas rosadas, ojos grandes"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"201\" cy=\"264\" rx=\"93\" ry=\"67\"/> cuerpo ovalado, paths con curvas Q y C suaves"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "Mejillas <ellipse fill=\"#f28fa4\">, ojos grandes <ellipse rx=\"8\" ry=\"12\">, colores pastel, formas redondeadas"
+    }
+  ]
+}

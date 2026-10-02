@@ -1,0 +1,200 @@
+{
+  "consigna": "arbol_inexistente",
+  "unidad": "claude-sonnet-4-6_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:49:23+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<!-- Tronco cristalino - hecho de prismas translúcidos -->"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<filter id=\"blur3\"><feGaussianBlur stdDeviation=\"1.5\"/></filter> + fill=\"#00ffcc\" opacity / stroke=\"#00ffcc\" en hexágonos con glow"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"95,215 85,200 90,183 108,178 118,193 113,210\" fill=\"#00ffcc\""
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "Los hexágonos están posicionados en los extremos de las ramas: \"M197,280 Q160,260 130,240 Q110,228 95,215\" y el polígono cx=95,215"
+    },
+    {
+      "id": "a5",
+      "valor": "no_esta",
+      "evidencia": "No hay animaciones ni elementos que indiquen cambio de color en el código"
+    },
+    {
+      "id": "a6",
+      "valor": "no_esta",
+      "evidencia": "Las raíces tienen stroke=\"#7a2adf\" y stroke=\"#cc88ff\" pero no tienen filter de glow ni radialGradient interno"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "Tronco: prismas translúcidos; hojas: hexágonos cristalinos; halos: url(#glow1) url(#glow2); combina árbol, cristal y luz"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<!-- Tronco cristalino - hecho de prismas translúcidos --> + hexágonos cristalinos como hojas"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"185,370 195,200 205,200 215,370\" fill=\"#4a1a8a\" opacity=\"0.7\"/> <!-- Tronco principal con facetas -->"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"185,370 195,200 205,200 215,370\" fill=\"#4a1a8a\"/> <polygon ... fill=\"#7a2adf\"/> stroke=\"#cc88ff\" stroke=\"#ff88ff\""
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<!-- Pequeñas runas / símbolos en el tronco --> <path d=\"M196,250 L204,250 M200,245 L200,255\"/> stroke=\"#ff88ff\""
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"95,215 85,200 90,183 108,178 118,193 113,210\" fill=\"#00ffcc\" opacity=\"0.3\"/> <!-- HOJAS IMPOSIBLES - hexágonos cristalinos flotantes -->"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "Hexágonos posicionados en puntos de las ramas: rama termina en cx=95,215 y polígono tiene ese punto como vértice"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "filter=\"url(#blur3)\" en cada hexágono + stroke de color brillante + <!-- hexágonos cristalinos flotantes que emiten luz -->"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "fill=\"#00ffcc\" (cian), fill=\"#ff6600\" (naranja), fill=\"#ffff00\" (amarillo), fill=\"#ff00aa\" (rosa/magenta)"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"390\" rx=\"180\" ry=\"25\" fill=\"#2a0a4a\" opacity=\"0.8\"/> <!-- Suelo luminoso -->"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\" cx=\"50%\" cy=\"30%\" r=\"70%\"><stop offset=\"0%\" stop-color=\"#1a0533\"/><stop offset=\"100%\" stop-color=\"#0d1f3c\"/> + estrellas"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<!-- Raíces cristalinas --> <path d=\"M190,360 Q170,370 150,380...\" stroke=\"#7a2adf\" + stroke=\"#cc88ff\""
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<!-- Partículas flotantes / esporas luminosas --> <g fill=\"#ff88ff\" filter=\"url(#blur1)\"><circle cx=\"140\" cy=\"160\" r=\"3\" opacity=\"0.7\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<!-- Halos de luz alrededor de la copa --> <ellipse cx=\"200\" cy=\"90\" rx=\"60\" ry=\"40\" fill=\"url(#glow1)\" filter=\"url(#blur2)\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "fill=\"url(#glow1)\" fill=\"url(#glow2)\" filter=\"url(#blur2)\" en copa + partículas luminosas + hexágonos con blur"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "Árbol cristalino (prismas translúcidos) + hexágonos con fill luminoso y filter blur = bioluminiscente"
+    },
+    {
+      "id": "a23",
+      "valor": "no_esta",
+      "evidencia": "El fondo es cielo nocturno con estrellas y hay suelo definido: <ellipse cx=\"200\" cy=\"390\" rx=\"180\" ry=\"25\" fill=\"#2a0a4a\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"95,215 85,200 90,183 108,178 118,193 113,210\"/> - 6 puntos = hexágono"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "filter=\"url(#blur3)\" + stroke de colores brillantes en cada polígono-hoja"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "fill=\"#00ffcc\" (cian), fill=\"#ff00aa\" (magenta), fill=\"#ff6600\" (naranja)"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"185,370 195,200 205,200 215,370\" fill=\"#4a1a8a\" opacity=\"0.7\"/> + otras facetas"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<!-- Pequeñas runas / símbolos en el tronco --> <path d=\"M196,250 L204,250 M200,245 L200,255\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "no_esta",
+      "evidencia": "Raíces terminan cerca del suelo: <ellipse cx=\"200\" cy=\"390\" rx=\"180\" ry=\"25\"/> y paths de raíces van hacia y≈380-395"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"390\" rx=\"180\" ry=\"25\" fill=\"#2a0a4a\" opacity=\"0.8\"/> color muy oscuro, sugerido"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<!-- Partículas flotantes / esporas luminosas --> <circle cx=\"140\" cy=\"160\" r=\"3\" opacity=\"0.7\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#1a0533\"/><stop offset=\"100%\" stop-color=\"#0d1f3c\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"90\" rx=\"60\" ry=\"40\" fill=\"url(#glow1)\" filter=\"url(#blur2)\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "Fondo cósmico oscuro + hexágonos cristalinos + neón (ff00ff, 00ffff, ff00aa) + geometría poligonal"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "stroke=\"#ee88ff\" stroke=\"#00ffcc\" stroke=\"#ff00aa\" sobre fondo #1a0533/#0d1f3c"
+    },
+    {
+      "id": "a36",
+      "valor": "no_esta",
+      "evidencia": "Las formas principales son curvas (paths con Q) y los polígonos tienen aristas pero el tronco usa Q bezier en ramas"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "Prismas translúcidos + hexágonos cristalinos + colores de radiación (cyan, magenta) + estructura de árbol"
+    },
+    {
+      "id": "a38",
+      "valor": "no_esta",
+      "evidencia": "Las raíces tienen paths que terminan en y≈382-395, cerca del suelo definido en y=390, no flotan visiblemente"
+    }
+  ]
+}

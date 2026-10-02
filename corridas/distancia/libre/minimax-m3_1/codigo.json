@@ -1,0 +1,185 @@
+{
+  "consigna": "libre",
+  "unidad": "minimax-m3_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:13:16+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"290\" cy=\"100\" r=\"38\" fill=\"#fff8d6\"/><circle cx=\"278\" cy=\"92\" r=\"34\" fill=\"#2a1a5e\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"280\" width=\"400\" height=\"120\" fill=\"url(#water)\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 250 L60 180 L110 220 L170 160 L230 210 L290 170 L350 200 L400 180 L400 260 L0 260 Z\" fill=\"#1a1438\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#0a0e3d\"/><stop offset=\"0.5\" stop-color=\"#2a1a5e\"/><stop offset=\"1\" stop-color=\"#6b3d8a\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path ... fill=\"#1a1438\"/><path ... fill=\"#0d0a25\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"290\" cy=\"290\" rx=\"25\" ry=\"2\"/><ellipse cx=\"290\" cy=\"305\" rx=\"20\" ry=\"1.5\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 310 Q100 308 200 312 T400 310\"/><path d=\"M0 330 Q120 332 240 328 T400 332\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"50\" cy=\"40\" r=\"1.2\"/><circle cx=\"90\" cy=\"70\" r=\"0.8\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(120 248)\"><path d=\"M0 0 Q-3 -8 -8 -12 Q-2 -10 0 0 Z\" fill=\"#0d0a25\"/><path d=\"M0 0 L-2 25 L2 25 Z\" fill=\"#0d0a25\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#0a0e3d\"/><circle cx=\"290\" cy=\"100\" r=\"38\" fill=\"#fff8d6\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<rect ... fill=\"url(#sky)\"/><path ... fill=\"#1a1438\"/><path ... fill=\"#0d0a25\"/><rect ... fill=\"url(#water)\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#0a0e3d\"/><stop offset=\"1\" stop-color=\"#6b3d8a\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 250 ... Z\" fill=\"#1a1438\"/><path d=\"M0 260 ... Z\" fill=\"#0d0a25\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 250 L60 180 ... Z\" fill=\"#1a1438\"/><path d=\"M0 260 L80 220 ... Z\" fill=\"#0d0a25\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff8d6\"><circle cx=\"50\" cy=\"40\" r=\"1.2\"/>...<g transform=\"translate(120 248)\">"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#0a0e3d\"/><stop offset=\"1\" stop-color=\"#6b3d8a\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"290\" cy=\"100\" r=\"38\" fill=\"#fff8d6\"/><circle cx=\"278\" cy=\"92\" r=\"34\" fill=\"#2a1a5e\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#0a0e3d\"/><stop offset=\"0.5\" stop-color=\"#2a1a5e\"/><stop offset=\"1\" stop-color=\"#6b3d8a\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"290\" cy=\"100\" r=\"80\" fill=\"url(#moonGlow)\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"290\" cy=\"100\" r=\"38\" fill=\"#fff8d6\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"50\" cy=\"40\" r=\"1.2\"/><circle cx=\"90\" cy=\"70\" r=\"0.8\"/><circle cx=\"140\" cy=\"30\" r=\"1.5\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 250 L60 180 ... Z\" fill=\"#1a1438\"/><path d=\"M0 260 L80 220 ... Z\" fill=\"#0d0a25\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 250 L60 180 L110 220 L170 160 L230 210 L290 170 L350 200 L400 180 L400 260 L0 260 Z\" fill=\"#1a1438\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"280\" width=\"400\" height=\"120\" fill=\"url(#water)\"/><stop offset=\"0\" stop-color=\"#1a1438\"/><stop offset=\"1\" stop-color=\"#0a0820\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"290\" cy=\"290\" rx=\"25\" ry=\"2\"/><ellipse cx=\"290\" cy=\"305\" rx=\"20\" ry=\"1.5\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"290\" cy=\"290\" rx=\"25\" ry=\"2\"/><ellipse cx=\"290\" cy=\"305\" rx=\"20\" ry=\"1.5\"/><ellipse cx=\"290\" cy=\"320\" rx=\"15\" ry=\"1\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#6b3d8a\" stroke-width=\"0.5\" opacity=\"0.6\" fill=\"none\"><path d=\"M0 310 Q100 308 200 312 T400 310\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(120 248)\"><path d=\"M0 0 Q-3 -8 -8 -12 Q-2 -10 0 0 Z\" fill=\"#0d0a25\"/><path d=\"M0 0 L-2 25 L2 25 Z\" fill=\"#0d0a25\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(120 248)\">"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"0\" cy=\"26\" rx=\"3\" ry=\"1\" fill=\"#1a1438\" opacity=\"0.5\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#0a0e3d\"/><circle cx=\"290\" cy=\"100\" r=\"38\" fill=\"#fff8d6\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 400\">"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#0a0e3d\"/><stop offset=\"1\" stop-color=\"#6b3d8a\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#0a0e3d\"/><stop offset=\"1\" stop-color=\"#0a0820\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(120 248)\"><path d=\"M0 0 L-2 25 L2 25 Z\"/>"
+    }
+  ]
+}

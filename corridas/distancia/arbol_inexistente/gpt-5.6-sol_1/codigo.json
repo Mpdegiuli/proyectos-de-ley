@@ -1,0 +1,205 @@
+{
+  "consigna": "arbol_inexistente",
+  "unidad": "gpt-5.6-sol_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:53:34+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"trunk\"><stop stop-color=\"#402757\"/><stop offset=\".45\" stop-color=\"#8c4f83\"/><stop offset=\".72\" stop-color=\"#cf8ba0\"/><stop offset=\"1\" stop-color=\"#ffd2ba\"/></linearGradient>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"leaf\"><stop stop-color=\"#d7fff0\"/><stop offset=\".35\" stop-color=\"#7cf4d3\"/><stop offset=\"1\" stop-color=\"#586ed7\"/></linearGradient>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<g filter=\"url(#glow)\"><circle cx=\"75\" cy=\"151\" r=\"5\" fill=\"url(#orb)\"/>..."
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M185 273 C149 267 126 249 111 220\" stroke=\"url(#branch)\" stroke-width=\"11\"/> (curvas orgánicas con cubic bezier)"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"207\" cy=\"165\" rx=\"122\" ry=\"36\" transform=\"rotate(-18 207 165)\" stroke-dasharray=\"2 7\"/><ellipse cx=\"200\" cy=\"207\" rx=\"151\" ry=\"57\" transform=\"rotate(12 200 207)\" stroke-dasharray=\"1 10\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\"><stop offset=\"0\" stop-color=\"#182b46\"/><stop offset=\".55\" stop-color=\"#091524\"/><stop offset=\"1\" stop-color=\"#03070e\"/></radialGradient>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"343\" rx=\"119\" ry=\"22\" fill=\"#3dd9c2\" opacity=\".12\" filter=\"url(#soft)\"/> (solo una sombra difusa, no suelo definido)"
+    },
+    {
+      "id": "a8",
+      "valor": "no_esta",
+      "evidencia": "No hay paths de raíces en el código; solo hay paths de ramas y tronco."
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"207\" cy=\"165\" rx=\"122\" ry=\"36\" stroke-dasharray=\"2 7\"/><ellipse cx=\"200\" cy=\"207\" rx=\"151\" ry=\"57\" stroke-dasharray=\"1 10\"/> con orbes: <circle cx=\"75\" cy=\"151\" r=\"5\" fill=\"url(#orb)\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "Combinación de <radialGradient id=\"bg\"> oscuro nocturno, órbitas elípticas punteadas, orbes con gradiente cósmico url(#orb) y hojas url(#leaf) con degradados turquesa/azul"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M199 340 C178 319 169 301 180 278 C195 246 194 220 181 190 C169 164 180 137 204 119 C222 105 225 83 214 62\" stroke=\"url(#trunk)\" stroke-width=\"24\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M199 340 C178 319 169 301 180 278...\" stroke=\"url(#trunk)\" stroke-width=\"24\"/> (centrado en x≈200)"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M199 340 C178 319 169 301 180 278 C195 246 194 220 181 190 C169 164 180 137 204 119 C222 105 225 83 214 62\" stroke=\"url(#trunk)\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"trunk\"><stop stop-color=\"#402757\"/><stop offset=\".45\" stop-color=\"#8c4f83\"/><stop offset=\".72\" stop-color=\"#cf8ba0\"/><stop offset=\"1\" stop-color=\"#ffd2ba\"/></linearGradient>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M190 233 C226 228 253 209 270 180\" stroke=\"url(#branch)\"/><path d=\"M186 158 C218 156 243 139 257 113\" stroke=\"url(#branch)\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"leaf\"><stop stop-color=\"#d7fff0\"/><stop offset=\".35\" stop-color=\"#7cf4d3\"/>...</linearGradient> fill=\"url(#leaf)\""
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<g filter=\"url(#glow)\"><circle cx=\"75\" cy=\"151\" r=\"5\" fill=\"url(#orb)\"/><circle cx=\"111\" cy=\"198\" r=\"4\" fill=\"url(#orb)\"/>..."
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"207\" cy=\"165\" rx=\"122\" ry=\"36\" transform=\"rotate(-18 207 165)\" stroke-dasharray=\"2 7\"/><ellipse cx=\"200\" cy=\"207\" rx=\"151\" ry=\"57\" transform=\"rotate(12 200 207)\" stroke-dasharray=\"1 10\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "Órbitas punteadas: stroke-dasharray=\"2 7\" y orbes: <circle fill=\"url(#orb)\"/> con <radialGradient id=\"orb\"><stop offset=\"0\" stop-color=\"#fffbd1\"/>..."
+    },
+    {
+      "id": "a20",
+      "valor": "no_esta",
+      "evidencia": "No hay paths etiquetados como raíces; el tronco termina en M199 340 sin ramificaciones hacia abajo."
+    },
+    {
+      "id": "a21",
+      "valor": "no_esta",
+      "evidencia": "No hay suelo resplandeciente; solo <ellipse cy=\"343\" opacity=\".12\" filter=\"url(#soft)\"/> muy tenue."
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#9fffe9\"><circle cx=\"44\" cy=\"82\" r=\"1.2\"/><circle cx=\"82\" cy=\"42\" r=\".8\"/>...</g>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<filter id=\"glow\"><feGaussianBlur stdDeviation=\"5\" result=\"b\"/><feMerge>...</feMerge></filter>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\"><stop offset=\"0\" stop-color=\"#182b46\"/><stop offset=\"1\" stop-color=\"#03070e\"/></radialGradient>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"343\" rx=\"119\" ry=\"22\" fill=\"#3dd9c2\" opacity=\".12\" filter=\"url(#soft)\"/> (suelo casi invisible, árbol sin anclaje firme)"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "Fondo oscuro url(#bg), órbitas punteadas, orbes url(#orb), estrellas <circle fill=\"#9fffe9\">, hojas url(#leaf) con degradados cósmicos"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#9fffe9\"><circle cx=\"44\" cy=\"82\" r=\"1.2\"/>...</g> + ramas ramificadas + órbitas elípticas punteadas"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M199 340 C178 319...\" stroke=\"url(#trunk)\"/> con <stop offset=\".72\" stop-color=\"#cf8ba0\"/><stop offset=\"1\" stop-color=\"#ffd2ba\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"leaf\"><stop stop-color=\"#d7fff0\"/><stop offset=\".35\" stop-color=\"#7cf4d3\"/><stop offset=\"1\" stop-color=\"#586ed7\"/></linearGradient>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<g filter=\"url(#glow)\"><circle cx=\"75\" cy=\"151\" r=\"5\" fill=\"url(#orb)\"/>... <radialGradient id=\"orb\"><stop offset=\"0\" stop-color=\"#fffbd1\"/><stop offset=\".25\" stop-color=\"#9fffe9\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"207\" cy=\"165\" rx=\"122\" ry=\"36\" transform=\"rotate(-18 207 165)\" stroke-dasharray=\"2 7\"/><ellipse cx=\"200\" cy=\"207\" rx=\"151\" ry=\"57\" stroke-dasharray=\"1 10\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "Tronco/ramas orgánicos url(#trunk) + órbitas elípticas + orbes url(#orb) + fondo cósmico url(#bg) + estrellas"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "filter=\"url(#glow)\" en orbes, colores #9fffe9 #7cf4d3 #40c2cf, órbitas punteadas, fondo oscuro #03070e"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "SVG con paths, gradientes lineales/radiales, filtros: toda la imagen es vectorial"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<path d=\"M199 340 C178 319 169 301 180 278...\" (curvas cúbicas de Bezier para tronco y ramas)"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"trunk\">...</linearGradient> <radialGradient id=\"bg\">...</radialGradient> <linearGradient id=\"leaf\">"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<filter id=\"glow\"><feGaussianBlur stdDeviation=\"5\" result=\"b\"/><feMerge><feMergeNode in=\"b\"/><feMergeNode in=\"SourceGraphic\"/></feMerge></filter>"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\"><stop offset=\"0\" stop-color=\"#182b46\"/><stop offset=\".55\" stop-color=\"#091524\"/><stop offset=\"1\" stop-color=\"#03070e\"/></radialGradient>"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "#9fffe9 (turquesa), #40c2cf (turquesa), #402757 #8c4f83 (violeta), #cf8ba0 #ffd2ba (rosa), #7cf4d3 (turquesa neón)"
+    }
+  ]
+}

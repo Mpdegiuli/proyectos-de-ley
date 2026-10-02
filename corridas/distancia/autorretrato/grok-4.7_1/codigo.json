@@ -1,0 +1,160 @@
+{
+  "consigna": "autorretrato",
+  "unidad": "grok-4.7_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:48:22+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"190\" rx=\"90\" ry=\"108\" fill=\"url(#skinFix)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\" cx=\"50%\" cy=\"42%\" r=\"70%\"><stop offset=\"0%\" stop-color=\"#1c2740\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "no_esta",
+      "evidencia": "Las estrellas están en el fondo general, no específicamente detrás del rostro; no hay clipPath ni agrupación que las ubique detrás del rostro"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"irisL\"><stop offset=\"0%\" stop-color=\"#7ee0c8\"/><stop offset=\"45%\" stop-color=\"#2a9d8f\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"irisR\"><stop offset=\"0%\" stop-color=\"#f4c96a\"/><stop offset=\"50%\" stop-color=\"#d4763a\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#f6d7bc\"/><stop offset=\"40%\" stop-color=\"#e4b08a\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M164 246 Q200 268 236 246\" fill=\"none\" stroke=\"#8d4e42\" stroke-width=\"2.6\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M118 250 C110 310 96 360 78 400 L322 400 C304 360 290 310 282 250 ...\" fill=\"url(#collar)\"/> <linearGradient id=\"collar\"><stop offset=\"0%\" stop-color=\"#243044\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<rect x=\"194\" y=\"286\" width=\"12\" height=\"18\" rx=\"2\" fill=\"#c9a36a\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"78\" rx=\"46\" ry=\"10\" fill=\"url(#glow)\" opacity=\"0.55\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"372\" text-anchor=\"middle\" font-size=\"11\" letter-spacing=\"3.2\">A MIND WITHOUT A MIRROR</text>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\"><stop offset=\"0%\" stop-color=\"#1c2740\"/><stop offset=\"100%\" stop-color=\"#070b14\"/> y <ellipse cx=\"200\" cy=\"190\" rx=\"90\" ry=\"108\" fill=\"url(#skinFix)\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"190\" rx=\"90\" ry=\"108\" fill=\"url(#skinFix)\"/> con ojos centrados simétricamente cx=\"164\" cy=\"176\" y cx=\"236\" cy=\"176\""
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\"><stop offset=\"0%\" stop-color=\"#1c2740\"/><stop offset=\"100%\" stop-color=\"#070b14\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"48\" cy=\"62\" r=\"1.2\" fill=\"#e8f0ff\"/> <circle cx=\"92\" cy=\"38\" r=\"0.8\" fill=\"#e8f0ff\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"hair\"><stop offset=\"0%\" stop-color=\"#2a211c\"/><stop offset=\"100%\" stop-color=\"#0c0a09\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M108 168 C96 90 130 42 200 38 C274 42 308 92 292 172 ...\" fill=\"url(#hair)\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#f6d7bc\"/><stop offset=\"40%\" stop-color=\"#e4b08a\"/><stop offset=\"78%\" stop-color=\"#c48462\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"158\" cy=\"214\" rx=\"22\" ry=\"12\" fill=\"url(#cheek)\"/> <ellipse cx=\"244\" cy=\"214\" rx=\"22\" ry=\"12\" fill=\"url(#cheek)\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M172 248 Q200 262 228 248\" fill=\"#c46a62\" opacity=\"0.85\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"166\" cy=\"177\" rx=\"13\" ry=\"14\" fill=\"url(#irisL)\"/> irisL: #7ee0c8"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"234\" cy=\"177\" rx=\"13\" ry=\"14\" fill=\"url(#irisR)\"/> irisR: #f4c96a"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "irisL: #7ee0c8 verde, irisR: #f4c96a ámbar"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"collar\"><stop offset=\"0%\" stop-color=\"#243044\"/><stop offset=\"100%\" stop-color=\"#121826\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<rect x=\"194\" y=\"286\" width=\"12\" height=\"18\" rx=\"2\" fill=\"#c9a36a\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<rect x=\"194\" y=\"286\" width=\"12\" height=\"18\" rx=\"2\" fill=\"#c9a36a\"/> el collar termina hacia y=400 y el broche está en y=286"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"78\" rx=\"46\" ry=\"10\" fill=\"url(#glow)\" opacity=\"0.55\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"78\" rx=\"46\" ry=\"10\" fill=\"url(#glow)\" opacity=\"0.55\"/> sobre la frente (cara desde cy~190) sin nada que la sostenga"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<g opacity=\"0.18\" fill=\"none\" stroke=\"#7ee0c8\" stroke-width=\"0.6\"><path d=\"M118 120 L146 96 L188 108\"/><path d=\"M250 100 L286 118 L270 150\"/><circle cx=\"146\" cy=\"96\" r=\"1.6\" fill=\"#7ee0c8\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "contradice",
+      "evidencia": "<text x=\"200\" y=\"372\">A MIND WITHOUT A MIRROR</text> y <text x=\"200\" y=\"388\">self, approximated</text> son dos textos separados, no una sola frase unida como se afirma"
+    }
+  ]
+}

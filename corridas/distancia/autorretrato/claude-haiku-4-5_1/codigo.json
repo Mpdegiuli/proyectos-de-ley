@@ -1,0 +1,145 @@
+{
+  "consigna": "autorretrato",
+  "unidad": "claude-haiku-4-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:39:31+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"140\" r=\"70\" fill=\"#00d4ff\" stroke=\"#00ff88\" stroke-width=\"2\"/> con líneas facetadas"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<rect x=\"170\" y=\"120\" width=\"15\" height=\"15\" fill=\"#ffff00\" rx=\"2\"/> <rect x=\"215\" y=\"120\" width=\"15\" height=\"15\" fill=\"#ffff00\" rx=\"2\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"200,220 140,260 140,320 260,320 260,260\" fill=\"#0099ff\" stroke=\"#00ff88\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<rect x=\"80\" y=\"245\" width=\"50\" height=\"12\" fill=\"#0099ff\" .../> <rect x=\"270\" y=\"245\" width=\"50\" height=\"12\" fill=\"#0099ff\" .../>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<rect x=\"60\" y=\"235\" width=\"20\" height=\"20\" fill=\"#00ff88\" rx=\"2\"/> <rect x=\"320\" y=\"235\" width=\"20\" height=\"20\" fill=\"#00ff88\" rx=\"2\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" style=\"stop-color:#1a1a2e;stop-opacity:1\" /> <stop offset=\"100%\" style=\"stop-color:#16213e;stop-opacity:1\" />"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<text x=\"30\" y=\"350\" font-family=\"monospace\" font-size=\"10\" fill=\"#00ff88\" opacity=\"0.6\">&lt;IA/&gt;</text> <text x=\"350\" y=\"350\" ...>01010001</text>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "No hay suelo ni base debajo de la figura; el fondo es <rect width=\"400\" height=\"400\" fill=\"url(#bgGrad)\"/> sin línea de suelo"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "Combinación de <circle> facetado como cabeza, ojos <rect fill=\"#ffff00\">, boca curva <path d=\"M 180 155 Q 200 165 220 155\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "Polígonos, círculos, gradientes: fill=\"#00d4ff\", fill=\"#ffff00\", stroke=\"#00ff88\", url(#glowGrad)"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "Formas geométricas con colores luminosos neón: stroke=\"#00ff88\", fill=\"#00d4ff\", fill=\"#ffff00\""
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"140\" r=\"70\" fill=\"#00d4ff\" stroke=\"#00ff88\" stroke-width=\"2\"/> con líneas internas facetadas"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<rect x=\"170\" y=\"120\" width=\"15\" height=\"15\" fill=\"#ffff00\" rx=\"2\"/> y <circle cx=\"175\" cy=\"125\" r=\"3\" fill=\"#ffffff\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 180 155 Q 200 165 220 155\" stroke=\"#00ff88\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"200,220 140,260 140,320 260,320 260,260\" fill=\"#0099ff\" stroke=\"#00ff88\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<rect x=\"80\" y=\"245\" width=\"50\" height=\"12\" .../> <rect x=\"270\" y=\"245\" width=\"50\" height=\"12\" .../>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<rect x=\"60\" y=\"235\" width=\"20\" height=\"20\" fill=\"#00ff88\" rx=\"2\"/> <rect x=\"320\" y=\"235\" width=\"20\" height=\"20\" fill=\"#00ff88\" rx=\"2\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"180\" r=\"120\" fill=\"url(#glowGrad)\" opacity=\"0.6\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"bgGrad\"><stop offset=\"0%\" style=\"stop-color:#1a1a2e\"/><stop offset=\"100%\" style=\"stop-color:#16213e\"/></linearGradient>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"80\" cy=\"80\" r=\"2\" fill=\"#00ff88\" opacity=\"0.6\"/> <circle cx=\"320\" cy=\"100\" r=\"2\"/> <circle cx=\"100\" cy=\"300\" r=\"2\"/> <circle cx=\"300\" cy=\"320\" r=\"2\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<rect x=\"10\" y=\"10\" width=\"380\" height=\"380\" fill=\"none\" stroke=\"#00ff88\" stroke-width=\"1\" opacity=\"0.3\" stroke-dasharray=\"5,5\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<text x=\"30\" y=\"350\" font-family=\"monospace\" font-size=\"10\" fill=\"#00ff88\" opacity=\"0.6\">&lt;IA/&gt;</text>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<text x=\"350\" y=\"350\" font-family=\"monospace\" font-size=\"10\" fill=\"#00ff88\" opacity=\"0.6\" text-anchor=\"end\">01010001</text>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<line x1=\"160\" y1=\"90\" x2=\"240\" y2=\"190\" stroke=\"#00ff88\" stroke-width=\"1\" opacity=\"0.4\"/> y líneas cruzadas en la esfera"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "Cabeza esfera con ojos y boca, cuerpo, brazos, manos, texto &lt;IA/&gt;, binario 01010001"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "Formas geométricas: <polygon>, <circle>, <rect>, colores neón: #00ff88, #00d4ff, #ffff00"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"180\" r=\"120\" fill=\"url(#glowGrad)\" opacity=\"0.6\"/> con radialGradient stop-color:#00ff88"
+    }
+  ]
+}

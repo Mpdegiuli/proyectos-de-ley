@@ -1,0 +1,195 @@
+{
+  "consigna": "arbol_inexistente",
+  "unidad": "gpt-6-sol_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:56:01+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M198 327c-9-52-1-97-4-139-2-25-17-48-45-70\" stroke-width=\"26\"/> (tronco y ramas de árbol)"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M77 334c21 10 70 15 123 15 55 0 101-5 124-15l-48 34-49 7-27 15-28-16-46-8Z\" fill=\"url(#island)\"/> (isla debajo del árbol)"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M184 321v-28a14 14 0 0 1 28 0v28Z\" fill=\"#10273c\" stroke=\"#a0d1c7\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 52C180 32 151 39 139 57...\" fill=\"url(#crown)\" stroke=\"#79c9ca\"/> y ondas internas: <path d=\"M43 168c64-35 108 24 162-4s95-54 159-7\""
+    },
+    {
+      "id": "a5",
+      "valor": "no_esta",
+      "evidencia": "No hay ningún elemento con forma de pez en el código."
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"224\" cy=\"116\" r=\"18\" fill=\"#f7dfbc\"/> <circle cx=\"232\" cy=\"109\" r=\"18\" fill=\"#344a70\"/> (luna dentro de la copa)"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<g fill=\"url(#fruit)\" stroke=\"#ffe2ba\" stroke-width=\"1.2\"> (frutos con degradado luminoso)"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "Predominan paths curvos y círculos: <path d=\"M200 52C180 32 151 39...\"/>, hojas con Q y C."
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "Tronco: <path d=\"M198 327c-9-52...\" stroke-width=\"26\"/>, copa: <path d=\"M200 52C180 32...\"/>, estructura reconocible de árbol."
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "Árbol con copa conteniendo luna, océano y puerta: elementos imposibles combinados con forma de árbol."
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M77 334c21 10 70 15 123 15...\" fill=\"url(#island)\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/> fondo nocturno + isla en y≈334 sin suelo."
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\"><stop stop-color=\"#26345e\"/><stop offset=\".65\" stop-color=\"#111b3b\"/><stop offset=\"1\" stop-color=\"#080e23\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M43 168c64-35 108 24 162-4s95-54 159-7M43 189c64-35 109 24 163-4s95-54 159-7\" fill=\"none\" stroke=\"#98d9d4\"/> ondas marinas dentro de la copa."
+    },
+    {
+      "id": "a15",
+      "valor": "no_esta",
+      "evidencia": "No existe ningún elemento con forma de pez en el código."
+    },
+    {
+      "id": "a16",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"224\" cy=\"116\" r=\"18\" fill=\"#f7dfbc\"/> <circle cx=\"232\" cy=\"109\" r=\"18\" fill=\"#344a70\"/> — es una luna (fase creciente visible), pero se dibuja como círculo completo mordido, no creciente explícita con path propio."
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#8ad7c7\" stroke=\"#b9e9d6\" stroke-width=\"1\"><path d=\"M94 122Q76 103 81 85q22 4 29 26-3 10-16 11Z\"/> (formas triangulares como velas)"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<g fill=\"url(#fruit)\" stroke=\"#ffe2ba\"> con <g fill=\"#ffcb92\" opacity=\".65\" filter=\"url(#glow)\">"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#a8d4cf\" fill=\"none\" stroke-width=\"1.2\"><path d=\"M114 119v34m150-24v55m-86-66v46m119-11v29\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M184 321v-28a14 14 0 0 1 28 0v28Z\" fill=\"#10273c\" stroke=\"#a0d1c7\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "Árbol con copa conteniendo luna y océano sobre isla flotante — elementos imposibles."
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "Isla en y≈334 sobre fondo de cielo nocturno sin suelo: <rect fill=\"url(#sky)\"/> + <path d=\"M77 334...\" fill=\"url(#island)\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"224\" cy=\"116\" r=\"18\" fill=\"#f7dfbc\"/> dentro del clip-path canopy (copa del árbol)."
+    },
+    {
+      "id": "a24",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos con forma de pez en el código."
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<g fill=\"url(#fruit)\" stroke=\"#ffe2ba\" stroke-width=\"1.2\"> frutos en la copa del árbol."
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M184 321v-28a14 14 0 0 1 28 0v28Z\" fill=\"#10273c\" stroke=\"#a0d1c7\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "Isla sobre fondo de cielo puro sin suelo: <rect fill=\"url(#sky)\"/> + isla a y≈334."
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "Luna en copa, isla flotante, puerta en tronco, océano encerrado — conjunto onírico-fantástico visible en el código."
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "Formas suaves, colores degradados, elementos narrativos (puerta, luna, frutos): estilo ilustración cuento."
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "Predominio de curvas bezier y círculos en todo el SVG: <path d=\"M200 52C180 32 151 39...\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"203\" cy=\"307\" r=\"1.3\" fill=\"#fff2cf\"/> (pomo de puerta), estrellas pequeñas, hilos de frutos — detalles finos."
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#26345e\"/><stop offset=\".65\" stop-color=\"#111b3b\"/><stop offset=\"1\" stop-color=\"#080e23\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "stop-color=\"#26345e\", #111b3b, #235a72, #394778, #163850, #3c7281 — múltiples azules."
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#8ad7c7\" stroke=\"#b9e9d6\"> (hojas verdes), fill=\"#54a5a9\", fill=\"#70a5a7\"."
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#b7a9d7\" stroke=\"#e1c8e6\"> (hojas violetas), fill=\"#c9b8d4\"."
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffcb92\" opacity=\".65\" filter=\"url(#glow)\"> y <path ... fill=\"#e5a875\"/> y <stop stop-color=\"#ffd18b\"/>"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\"><stop stop-color=\"#26345e\"/><stop offset=\"1\" stop-color=\"#080e23\"/> (cielo oscuro nocturno)"
+    }
+  ]
+}

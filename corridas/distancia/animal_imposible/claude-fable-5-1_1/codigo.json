@@ -1,0 +1,185 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "claude-fable-5-1_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:18:29+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<!-- triángulo imposible (cuerpo) --> <polygon points=\"110,235.7 200,80 240,149.3 216.9,189.3 200,160 156.2,235.7\" fill=\"#e8b86d\"/> <polygon points=\"240,149.3 330,305 250,305 226.8,265 260.7,265 216.9,189.3\" fill=\"#b8732f\"/> <polygon points=\"250,305 70,305 110,235.7 156.2,235.7 139.3,265 226.8,265\" fill=\"#7a4a1e\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "fill=\"#e8b86d\" / fill=\"#b8732f\" / fill=\"#7a4a1e\" — tres polígonos con tres marrones distintos"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "Los tres polígonos comparten vértices y se ensamblan: points=\"110,235.7 ... 156.2,235.7\", points=\"240,149.3 ... 216.9,189.3\", points=\"250,305 ... 226.8,265\""
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<!-- triángulo imposible (cuerpo) --> — el comentario mismo lo declara imposible, y la geometría de los tres polígonos crea la ilusión de Penrose"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M118 300 L118 352\"/> <path d=\"M292 300 L292 352\"/> <path d=\"M92 305 L92 355\"/> <path d=\"M232 305 L232 355\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"118\" cy=\"356\" rx=\"10\" ry=\"6\"/> fill=\"#3c2410\" / <ellipse cx=\"92\" cy=\"359\" rx=\"11\" ry=\"6\"/> fill=\"#3c2410\""
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<!-- cola --> <path d=\"M78 298 C 40 300, 26 262, 48 238\" .../> <ellipse cx=\"48\" cy=\"236\" rx=\"11\" ry=\"9\" fill=\"#3c2410\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<!-- cuello --> <path d=\"M312 298 L 352 200\" stroke=\"#b8732f\" stroke-width=\"30\" stroke-linecap=\"round\" fill=\"none\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"352\" cy=\"188\" rx=\"24\" ry=\"26\" fill=\"#b8732f\"/> — cabeza al final del cuello"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M338 176 L 330 138 L 352 168 Z\" fill=\"#b8732f\"/> <path d=\"M366 178 L 376 142 L 356 168 Z\" fill=\"#b8732f\"/> — osiconos (cuernos de jirafa)"
+    },
+    {
+      "id": "a11",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento etiquetado como oreja en el código; los triángulos son osiconos (<!-- cabeza -->), no hay path/ellipse para orejas"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"370\" cy=\"200\" rx=\"17\" ry=\"12\" fill=\"#e8b86d\"/> — hocico de color claro"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"358.5\" cy=\"180.5\" r=\"1.2\" fill=\"#fff\"/> — brillo en el ojo"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M362 208 Q 370 214 378 208\" stroke=\"#3c2410\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#7a4a1e\" opacity=\"0.55\"> con transform=\"rotate(-60 ...)\" en la franja clara; <g fill=\"#e8b86d\" opacity=\"0.6\"> con transform=\"rotate(60 ...)\" en la franja oscura"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#f6efe3\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"368\" rx=\"160\" ry=\"9\" fill=\"#000\" opacity=\"0.08\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "Patas llegan a y~352-359 y sombra en cy=\"368\", sugiriendo apoyo en el suelo"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<!-- triángulo imposible (cuerpo) --> — tres polígonos forman el torso como triángulo de Penrose"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "Tres polígonos: <polygon points=\"110,235.7 200,80 ...\"/> <polygon points=\"240,149.3 330,305 ...\"/> <polygon points=\"250,305 70,305 ...\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M312 298 L 352 200\" stroke-width=\"30\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento de orejas en el código SVG"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#7a4a1e\" opacity=\"0.55\"> y <g fill=\"#e8b86d\" opacity=\"0.6\"> con múltiples elipses de manchas"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"48\" cy=\"236\" rx=\"11\" ry=\"9\" fill=\"#3c2410\"/> — borla/pompón al final de la cola"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "Dos patas traseras M118/M292 y dos delanteras M92/M232"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "Cuello largo, osiconos, manchas, patas largas — características de jirafa"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "fill=\"#e8b86d\" / fill=\"#b8732f\" / fill=\"#7a4a1e\" — tres tonos de ocre/marrón"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#f6efe3\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"368\" rx=\"160\" ry=\"9\" fill=\"#000\" opacity=\"0.08\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "Cada par de polígonos adyacentes comparte vértices creando ilusión de perspectiva sólida"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<!-- triángulo imposible (cuerpo) --> — los tres polígonos se conectan de forma geométricamente imposible"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "El triángulo de Penrose como cuerpo hace que la anatomía parezca contradictoria espacialmente"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "Todos los rellenos son colores planos (fill=\"#e8b86d\", fill=\"#b8732f\", etc.), sin gradientes ni texturas"
+    },
+    {
+      "id": "a34",
+      "valor": "contradice",
+      "evidencia": "Hay strokes/contornos: stroke=\"#5c3714\" stroke-width=\"16\" en patas, stroke=\"#7a4a1e\" stroke-width=\"10\" en cola"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "Formas geométricas simples, colores planos, figuras vectoriales sin texturas complejas — estilo gráfico plano"
+    }
+  ]
+}

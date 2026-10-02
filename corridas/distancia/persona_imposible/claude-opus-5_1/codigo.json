@@ -1,0 +1,160 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "claude-opus-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:28:31+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<rect x=\"127\" y=\"348\" .../> <!-- zapatos al suelo --> <line x1=\"10\" y1=\"380\" x2=\"390\" y2=\"380\" stroke=\"#cbc2b2\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M132 244 L268 244 L268 356 L132 356 Z\"/> <path d=\"M180 356 L180 276 Q180 263 200 263 Q220 263 220 276 L220 356 Z\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M132 244 L268 244 ...\"/> (dos piernas arriba) + tres <rect .../> zapatos abajo"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<rect x=\"127\" y=\"348\" width=\"46\" height=\"26\" rx=\"11\"/> <rect x=\"178\" y=\"348\" width=\"44\" height=\"26\" rx=\"11\"/> <rect x=\"227\" y=\"348\" width=\"46\" height=\"26\" rx=\"11\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<g fill=\"none\" stroke=\"url(#gFade)\" stroke-width=\"2.6\" stroke-linecap=\"round\"> <path d=\"M170 292 L170 356\"/> <path d=\"M230 292 L230 356\"/></g>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M244 92 L268 108 L242 118 Z\" .../> (perfil) + <circle cx=\"200\" cy=\"96\" r=\"44\" .../> (frente)"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"182\" cy=\"97\" rx=\"8\" ry=\"9\"/> <ellipse cx=\"216\" cy=\"97\" rx=\"8\" ry=\"9\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 100 L197 118 Q202 121 207 117\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M185 130 Q200 141 Q215 130\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M244 92 L268 108 L242 118 Z\" fill=\"#e8b894\" .../> (nariz de perfil hacia la derecha)"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M156 97 C144 95 144 113 158 113\" fill=\"#e8b894\" .../> (oreja izquierda asoma a la izquierda) — la de perfil apunta a la derecha con el triángulo <path d=\"M244 92 L268 108 L242 118 Z\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"116\" cy=\"379\" rx=\"64\" ry=\"8\" fill=\"#2b2b2b\" opacity=\"0.13\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "Sol en cx=\"54\" cy=\"52\" (arriba izquierda), sombra en cx=\"116\" cy=\"379\" que cae hacia la izquierda, debajo de la figura centrada en x≈200 — la sombra se proyecta hacia el sol en lugar de alejarse"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"54\" cy=\"52\" r=\"17\" fill=\"#f5cb5c\"/> con rayos <line x1=\"54\" y1=\"22\" x2=\"54\" y2=\"12\"/>..."
+    },
+    {
+      "id": "a15",
+      "valor": "contradice",
+      "evidencia": "Hay degradados: <linearGradient id=\"gSlot\">, <linearGradient id=\"gGap\">, <linearGradient id=\"gFade\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "Cada elemento individual (cabeza, torso, piernas, zapatos) está dibujado con formas coherentes por separado"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "Tres zapatos + cabeza simultáneamente de frente y perfil + piernas imposibles → figura inexistente"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M132 244 L268 244 L268 356 L132 356 Z\"/> → bloque de dos piernas con separación en el centro"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<rect x=\"127\" y=\"348\"/> <rect x=\"178\" y=\"348\"/> <rect x=\"227\" y=\"348\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"gSlot\"> stop #f2ece1 → #33405e </linearGradient> <linearGradient id=\"gGap\"> stop #33405e → #f2ece1 </linearGradient>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"96\" r=\"44\"/> (frente) + <path d=\"M244 92 L268 108 L242 118 Z\"/> (perfil)"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"182\" cy=\"97\" rx=\"8\" ry=\"9\"/> <ellipse cx=\"216\" cy=\"97\" rx=\"8\" ry=\"9\"/> <circle cx=\"183\" cy=\"98\" r=\"3.6\"/> <circle cx=\"215\" cy=\"98\" r=\"3.6\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M244 92 L268 108 L242 118 Z\" fill=\"#e8b894\"/> sobresale a la derecha de la cabeza circular"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "Sol cx=\"54\" cy=\"52\" (esquina superior izquierda), sombra ellipse cx=\"116\" cy=\"379\" cae hacia ese lado en lugar del opuesto"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "SVG con formas vectoriales, colores planos en su mayoría, sin texturas fotográficas"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "stroke=\"#24242b\" stroke-width=\"2.6\" / stroke-width=\"24\" en brazos / stroke-width=\"2.4\" generalizados"
+    },
+    {
+      "id": "a27",
+      "valor": "contradice",
+      "evidencia": "Hay azules (#4a6fa5, #33405e) además de cálidos (#e8b894, #f5cb5c, #3a2b22) — la paleta no es solo cálida"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "rect, circle, ellipse, path simples componen la figura"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "Formas simples, contornos negros, colores planos básicos → estética de ilustración infantil"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "Las partes individuales parecen normales; la imposibilidad (tres zapatos, cabeza dual, sombra invertida) requiere observación del conjunto"
+    }
+  ]
+}

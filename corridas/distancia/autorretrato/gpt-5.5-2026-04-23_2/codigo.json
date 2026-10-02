@@ -1,0 +1,150 @@
+{
+  "consigna": "autorretrato",
+  "unidad": "gpt-5.5-2026-04-23_2",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:41:39+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<rect x=\"92\" y=\"70\" width=\"216\" height=\"248\" rx=\"52\" fill=\"#182638\" stroke=\"#78f7ff\" stroke-width=\"5\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<rect x=\"112\" y=\"94\" width=\"176\" height=\"196\" rx=\"36\" fill=\"url(#face)\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"48\" r=\"13\" fill=\"#75f4ff\"/><path d=\"M200 61v21\" stroke=\"#75f4ff\" stroke-width=\"5\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"161\" cy=\"185\" r=\"11\" fill=\"#6fffe9\"/><circle cx=\"239\" cy=\"185\" r=\"11\" fill=\"#6fffe9\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "no_esta",
+      "evidencia": "No hay trazados de circuito; el fondo tiene líneas y nodos tipo red: <path d=\"M68 91C123 53 161 73 200 112S277 69 332 102\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<text x=\"135\" y=\"116\">&lt;hola/&gt;</text>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<text x=\"146\" y=\"305\">IA</text>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<text x=\"226\" y=\"305\">SVG</text>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#101827\"/><stop offset=\"1\" stop-color=\"#253a5c\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "stroke=\"#75f4ff\" fill=\"#75f4ff\" fill=\"#6fffe9\" stroke=\"#78f7ff\" — cian predomina en contornos, ojos, antena, nodos"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "texto <hola/>, IA, SVG; boca con señal eléctrica; red de nodos en fondo"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<text x=\"135\" y=\"116\">&lt;hola/&gt;</text> sugiere saludo/conversación"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"48\" r=\"13\" fill=\"#75f4ff\"/> ojos brillantes cian, brillo radial: <stop offset=\"0\" stop-color=\"#6fffe9\" stop-opacity=\".55\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "fondo #101827 oscuro vs stroke=\"#75f4ff\" fill=\"#6fffe9\" cian brillante"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "ojos grandes con pupila y reflejo, boca con forma de onda, texto <hola/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<rect x=\"92\" y=\"70\" width=\"216\" height=\"248\" rx=\"52\" fill=\"#182638\" stroke=\"#78f7ff\" stroke-width=\"5\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M154 64h92l-16 31h-60z\"/><circle cx=\"200\" cy=\"48\" r=\"13\" fill=\"#75f4ff\"/><path d=\"M200 61v21\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"161\" cy=\"185\" r=\"25\" fill=\"#16324a\"/><circle cx=\"161\" cy=\"185\" r=\"11\" fill=\"#6fffe9\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M149 244h10l7-12 10 24 10-24 10 24 10-24 10 24 10-24 7 12h18\" stroke=\"#6fffe9\" stroke-width=\"5\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#101827\"/><stop offset=\"1\" stop-color=\"#253a5c\"/> + <circle cx=\"200\" cy=\"178\" r=\"175\" fill=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"68\" cy=\"91\" r=\"4\"/><circle cx=\"200\" cy=\"112\" r=\"4\"/><circle cx=\"332\" cy=\"102\" r=\"4\"/> (9 nodos en total)"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M68 91C123 53 161 73 200 112S277 69 332 102\"/> <path d=\"M55 300c63-27 100 8 145-29s80-8 145-35\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "red de líneas curvas con nodos: <g stroke=\"#75f4ff\" stroke-width=\"2\" opacity=\".55\" fill=\"none\">"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<text x=\"135\" y=\"116\">&lt;hola/&gt;</text>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<text x=\"146\" y=\"305\">IA</text>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<text x=\"226\" y=\"305\">SVG</text>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "cabeza robótica con ojos cian brillantes, texto IA, antena luminosa, brillo radial"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 400\">"
+    }
+  ]
+}

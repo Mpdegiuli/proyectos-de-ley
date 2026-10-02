@@ -1,0 +1,160 @@
+{
+  "consigna": "mundo",
+  "unidad": "grok-4.7_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:24:03+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"196\" cy=\"196\" r=\"112\" fill=\"url(#globe)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\" cx=\"68%\" cy=\"74%\" r=\"88%\"><stop offset=\"0%\" stop-color=\"#ffe0ae\"/><stop offset=\"16%\" stop-color=\"#e56d45\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<rect x=\"84\" y=\"84\" width=\"224\" height=\"224\" fill=\"url(#night)\"/> con linearGradient id=\"night\" que va de opacidad .78 a 0"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffd98a\"><circle cx=\"118\" cy=\"156\" r=\"1.3\"/>...<circle cx=\"136\" cy=\"220\" r=\"1.2\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M132 172 L154 178 L176 150 L210 142 L236 164 L214 196 L176 188 L146 196 L128 206\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"196\" cy=\"196\" rx=\"156\" ry=\"48\" fill=\"none\" stroke=\"#fff\" stroke-opacity=\".28\" stroke-dasharray=\"1.5 7\" transform=\"rotate(-16 196 196)\"/> y <ellipse cx=\"196\" cy=\"196\" rx=\"138\" ry=\"78\" fill=\"none\" stroke=\"#9fd6ff\" stroke-opacity=\".16\" transform=\"rotate(28 196 196)\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"348\" cy=\"188\" r=\"2.4\" fill=\"#fff6d2\"/><circle cx=\"348\" cy=\"188\" r=\"6\" fill=\"#fff6d2\" opacity=\".25\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M210 142 L70 70\" fill=\"none\" stroke=\"#fff6d0\" stroke-opacity=\".35\" stroke-width=\".8\"/> y <circle cx=\"70\" cy=\"70\" r=\"1.6\" fill=\"#fff\" opacity=\".8\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "no_esta",
+      "evidencia": "El globo tiene r=\"112\" sobre un viewBox de 400x400, ocupa más de la mitad del encuadre, no aparece pequeño"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M132 172 L154 178 L176 150 L210 142 L236 164 L214 196 L176 188 L146 196 L128 206\"/> red sobre el globo"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "El globo terrestre completo visible con fondo espacial y estrellas: <rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/> + estrellas + globo completo"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "Zona de día con sol <circle cx=\"292\" cy=\"168\" r=\"46\" fill=\"url(#sun)\"/> y ciudades iluminadas <g fill=\"#ffd98a\"> en zona de noche"
+    },
+    {
+      "id": "a13",
+      "valor": "no_esta",
+      "evidencia": "No hay texto ni etiqueta en el código que indique datos o rutas; es una inferencia semántica no codificada"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "Globo pequeño en espacio oscuro, líneas tenues stroke-opacity=\".35\", estrellas pequeñas, efecto de fragilidad visual"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"196\" cy=\"196\" r=\"112\" fill=\"url(#globe)\"/> vista completa del globo desde el exterior"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"36%\" stop-color=\"#6d3c78\"/><stop offset=\"62%\" stop-color=\"#1b1846\"/><stop offset=\"100%\" stop-color=\"#05060e\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff\"><circle cx=\"24\" cy=\"28\" r=\"1.1\" opacity=\".8\"/>...<circle cx=\"188\" cy=\"78\" r=\".4\" opacity=\".5\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"292\" cy=\"168\" r=\"46\" fill=\"url(#sun)\"/><circle cx=\"292\" cy=\"168\" r=\"14\" fill=\"#fff6d8\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path fill=\"#2f9a78\" d=\"M126 124...\"/><path fill=\"#3eae86\" d=\"M186 118...\"/><path fill=\"#2a8f72\" d=\"M228 136...\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path fill=\"#d7b07a\" d=\"M198 162c16 2 20 18 6 26-12 6-24-2-20-16 2-6 8-10 14-10z\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"196\" cy=\"98\" rx=\"42\" ry=\"16\" fill=\"#f4fbff\" opacity=\".88\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<rect x=\"84\" y=\"84\" width=\"224\" height=\"224\" fill=\"url(#night)\"/> con stop-opacity de .78 a 0 cubriendo medio globo"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffd98a\"><circle cx=\"118\" cy=\"156\"...> en zona izquierda cubierta por gradiente night"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M132 172 L154 178...\" stroke=\"#ffe7b0\" stroke-opacity=\".72\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"196\" cy=\"196\" rx=\"156\" ry=\"48\" fill=\"none\" stroke=\"#fff\" stroke-opacity=\".28\" stroke-dasharray=\"1.5 7\" transform=\"rotate(-16 196 196)\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<g transform=\"rotate(-16 196 196)\"><circle cx=\"348\" cy=\"188\" r=\"2.4\" fill=\"#fff6d2\"/> sobre la misma elipse punteada"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M210 142 L70 70\" fill=\"none\" stroke=\"#fff6d0\" stroke-opacity=\".35\" stroke-width=\".8\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "Globo r=\"112\" en viewBox 400x400 rodeado de espacio vacío y estrellas, transmite escala pequeña"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M132 172 L154 178 L176 150 L210 142 L236 164 L214 196 L176 188 L146 196 L128 206\"/> red de conexiones sobre el globo"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<rect x=\"84\" y=\"84\" width=\"224\" height=\"224\" fill=\"url(#night)\"/> cubre aproximadamente la mitad izquierda del globo"
+    }
+  ]
+}

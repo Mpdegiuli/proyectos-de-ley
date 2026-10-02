@@ -1,0 +1,230 @@
+{
+  "consigna": "arbol_inexistente",
+  "unidad": "kimi-k3_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T01:02:13+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180,356 C176,330 186,306 194,282 C201,260 199,238 186,214 C179,201 178,189 184,181 C189,174 200,174 205,181 C210,189 207,200 202,210 C192,232 191,258 200,282 C209,307 216,332 214,356 C206,361 188,361 180,356 Z\" fill=\"url(#trunk)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"128\" cy=\"150\" r=\"16\" fill=\"url(#orb1)\"/><circle cx=\"205\" cy=\"104\" r=\"15\" fill=\"url(#orb3)\"/><circle cx=\"272\" cy=\"150\" r=\"15\" fill=\"url(#orb2)\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"orb1\">...<stop offset=\"1\" stop-color=\"#1fae9e\"/></radialGradient> <radialGradient id=\"orb2\">...<stop offset=\"1\" stop-color=\"#b13fae\"/></radialGradient> <radialGradient id=\"orb3\">...<stop offset=\"1\" stop-color=\"#5a3fb8\"/></radialGradient>"
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M116,161 C112,152 122,147 127,154 C131,160 125,167 120,163\" stroke-width=\"3\"/> las ramas terminan en pequeños bucles, no en espirales decorativas"
+    },
+    {
+      "id": "a5",
+      "valor": "no_esta",
+      "evidencia": "Las terminaciones de ramas son pequeños bucles cerrados: <path d=\"M116,161 C112,152 122,147 127,154 C131,160 125,167 120,163\" stroke-width=\"3\"/> sin forma de zarcillo de helecho"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"90\" cy=\"302\" r=\"3\" fill=\"url(#glow)\"><animate attributeName=\"opacity\" values=\"1;.2;1\" dur=\"2.2s\" repeatCount=\"indefinite\"/></circle>"
+    },
+    {
+      "id": "a7",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos con animación de movimiento ascendente hacia el cielo"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<rect x=\"148\" y=\"348\" width=\"4\" height=\"9\" rx=\"2\" fill=\"#d9c8ff\" opacity=\".85\"/><path d=\"M143,350 A8,8 0 0 1 159,350 Z\" fill=\"url(#orb2)\"/> y <rect x=\"254\" y=\"352\" width=\"3\" height=\"7\" rx=\"1.5\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "fill=\"url(#trunk)\" con gradiente violeta, esferas luminosas con radialGradients, filter blur y glow circles alrededor del árbol"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "Tronco: <path d=\"M180,356 C176,330 ... 214,356 Z\" fill=\"url(#trunk)\"/> con ramas y copa de esferas"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "Forma general reconocible como árbol, con esferas luminosas y hongos en lugar de elementos naturales"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<animate attributeName=\"opacity\" values=\"1;.55;1\" dur=\"2.6s\" repeatCount=\"indefinite\"/> sobre círculos simples"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"trunk\"><stop offset=\"0\" stop-color=\"#241436\"/><stop offset=\".5\" stop-color=\"#52306a\"/><stop offset=\"1\" stop-color=\"#1a0e2a\"/></linearGradient> y path con curvas"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M192,228 C168,214 140,206 122,186 C114,177 112,168 116,161\" stroke-width=\"7\"/> y otras rutas de ramas"
+    },
+    {
+      "id": "a15",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M116,161 C112,152 122,147 127,154 C131,160 125,167 120,163\" stroke-width=\"3\"/> pequeño bucle, no espiral de zarcillo"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"128\" cy=\"150\" r=\"16\" fill=\"url(#orb1)\"/> múltiples círculos con radialGradient formando copa"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "orb1: turquesa (#1fae9e), orb2: rosa (#ffd9f4/#b13fae), orb3: lila (#eae2ff/#5a3fb8)"
+    },
+    {
+      "id": "a18",
+      "valor": "no_esta",
+      "evidencia": "No hay animación de movimiento ascendente en las esferas"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#e8ecff\"><circle cx=\"30\" cy=\"40\" r=\"1.5\" opacity=\".9\"/>... múltiples estrellas pequeñas en el cielo"
+    },
+    {
+      "id": "a20",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos de farolito colgante dorado; los puntos de luz son círculos con glow, no farolitos"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"90\" cy=\"302\" r=\"3\" fill=\"url(#glow)\"><animate .../> <circle cx=\"262\" cy=\"322\" r=\"3\" fill=\"url(#glow)\"><animate...> sobre colinas oscuras"
+    },
+    {
+      "id": "a22",
+      "valor": "no_esta",
+      "evidencia": "<circle cx=\"72\" cy=\"70\" r=\"21\" fill=\"#f7efdc\"/><circle cx=\"81\" cy=\"64\" r=\"17\" fill=\"#161640\"/> luna llena con sombra, no creciente"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<rect x=\"148\" y=\"348\" width=\"4\" height=\"9\" rx=\"2\" fill=\"#d9c8ff\"/><path d=\"M143,350 A8,8 0 0 1 159,350 Z\" fill=\"url(#orb2)\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"72\" cy=\"70\" r=\"36\" fill=\"url(#glow)\" opacity=\".5\"/> y múltiples círculos glow con filter soft"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#0b0b2e\"/><stop offset=\".6\" stop-color=\"#2a1b5e\"/><stop offset=\"1\" stop-color=\"#4b2a7a\"/></linearGradient>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"110\" cy=\"374\" rx=\"300\" ry=\"56\" fill=\"#0a2830\"/><ellipse cx=\"300\" cy=\"388\" rx=\"290\" ry=\"60\" fill=\"url(#hill)\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "Animaciones de opacidad pulsante: <animate attributeName=\"opacity\" values=\"1;.55;1\" dur=\"2.6s\" repeatCount=\"indefinite\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "Animaciones sutiles de opacidad que simulan respiración: <animate attributeName=\"opacity\" values=\"1;.55;1\" dur=\"2.6s\" repeatCount=\"indefinite\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "Copa de esferas luminosas con gradientes orb1/orb2/orb3, tronco violeta, hongos bioluminiscentes"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"128\" cy=\"150\" r=\"16\" fill=\"url(#orb1)\"/><circle cx=\"205\" cy=\"104\" r=\"15\" fill=\"url(#orb3)\"/><circle cx=\"272\" cy=\"150\" r=\"15\" fill=\"url(#orb2)\"/> y más"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "Círculos con radialGradient de colores traslúcidos que semejan burbujas o frutos: <circle cx=\"128\" cy=\"150\" r=\"16\" fill=\"url(#orb1)\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "orb1 turquesa, orb2 magenta, orb3 violeta en la copa del árbol"
+    },
+    {
+      "id": "a33",
+      "valor": "no_esta",
+      "evidencia": "Las terminaciones son bucles simples, no espirales de helecho"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"131\" cy=\"199\" r=\"3.4\" fill=\"#fff7d6\"/> <circle cx=\"267\" cy=\"211\" r=\"3.8\" fill=\"#fff7d6\"/> <circle cx=\"211\" cy=\"177\" r=\"3\" fill=\"#fff7d6\"/> puntos de luz en el árbol"
+    },
+    {
+      "id": "a35",
+      "valor": "no_esta",
+      "evidencia": "Las gotas de luz son círculos estáticos o con parpadeo simple, sin indicación de estar cautivas"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<rect x=\"148\" y=\"348\" width=\"4\" height=\"9\" rx=\"2\" fill=\"#d9c8ff\" opacity=\".85\"/><path d=\"M143,350 A8,8 0 0 1 159,350 Z\" fill=\"url(#orb2)\"/> hongos con glow"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "Gradientes radiales, filtros de desenfoque, formas vectoriales estilizadas con paleta fantástica"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "Paleta nocturna suave, elementos bioluminiscentes, hongos y esferas de colores pastel"
+    },
+    {
+      "id": "a39",
+      "valor": "contradice",
+      "evidencia": "Los rellenos son radialGradient y linearGradient: <circle cx=\"128\" cy=\"150\" r=\"16\" fill=\"url(#orb1)\"/>, no planos"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\">...<linearGradient id=\"hill\">...<radialGradient id=\"glow\">... múltiples degradados suaves"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<filter id=\"soft\" x=\"-60%\" y=\"-60%\" width=\"220%\" height=\"220%\"><feGaussianBlur stdDeviation=\"6\"/></filter> y radialGradient glow con opacity"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "Paleta suave nocturna, elementos luminosos, animaciones suaves de parpadeo"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "Estilo vectorial con gradientes, formas redondeadas, paleta fantástica, escena narrativa completa"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "Tronco violeta con gradiente, copa de esferas luminosas, hongos geométricos: nada fotorrealista"
+    }
+  ]
+}

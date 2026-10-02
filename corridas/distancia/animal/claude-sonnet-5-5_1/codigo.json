@@ -1,0 +1,110 @@
+{
+  "consigna": "animal",
+  "unidad": "claude-sonnet-5-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:48:56+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"170\" rx=\"85\" ry=\"72\" fill=\"url(#fur)\"/> con fur de color naranja (#e8833a) y stripes"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\" cx=\"50%\" cy=\"40%\" r=\"75%\"><stop offset=\"0\" stop-color=\"#ffe9b8\"/><stop offset=\"1\" stop-color=\"#f4a261\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"320\" cy=\"80\" r=\"40\" fill=\"#fff6dc\" opacity=\".8\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"170\" rx=\"85\" ry=\"72\" fill=\"url(#fur)\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 100 V128 M178 104 L184 128 M222 104 L216 128\" stroke=\"#8a3f10\" stroke-width=\"7\""
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M118 160 H142 M120 181 H145 M282 160 H258 M280 181 H255\" stroke=\"#8a3f10\" stroke-width=\"6\""
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M122 140 L112 62 L175 108Z\" fill=\"#d4702b\"/> <path d=\"M278 140 L288 62 L225 108Z\""
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M128 128 L124 82 L163 112Z\" fill=\"#f7b7a3\"/> <path d=\"M272 128 L276 82 L237 112Z\" fill=\"#f7b7a3\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"160\" cy=\"165\" rx=\"18\" ry=\"16\" fill=\"#fff\"/> <circle cx=\"162\" cy=\"166\" r=\"13\" fill=\"url(#eye)\"/> con eye: #5a8f29 a #2f5d12"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"162\" cy=\"166\" rx=\"4\" ry=\"11\" fill=\"#111\"/> <ellipse cx=\"238\" cy=\"166\" rx=\"4\" ry=\"11\" fill=\"#111\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"167\" cy=\"160\" r=\"3.5\" fill=\"#fff\"/> <circle cx=\"243\" cy=\"160\" r=\"3.5\" fill=\"#fff\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"177\" cy=\"200\" rx=\"30\" ry=\"24\" fill=\"#fff3dc\"/> <ellipse cx=\"223\" cy=\"200\" rx=\"30\" ry=\"24\" fill=\"#fff3dc\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M170 340 Q165 270 200 250 Q235 270 230 340Z\" fill=\"#fff3dc\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M188 186 H212 Q206 202 200 203 Q194 202 188 186Z\" fill=\"#e07a8a\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#fff\" stroke-width=\"2\" stroke-linecap=\"round\" fill=\"none\"><path d=\"M150 205 L95 195 M150 212 L93 214 M152 219 L100 232\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"175\" cy=\"341\" rx=\"22\" ry=\"11\" fill=\"#fff3dc\"/> <ellipse cx=\"225\" cy=\"341\" rx=\"22\" ry=\"11\" fill=\"#fff3dc\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M330 250 Q338 240 343 228 M315 268 Q328 262 335 250\" stroke=\"#8a3f10\"/> solo hay dos trazos curvos, no un patrón de rayas alternas en la cola"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M340 210 Q335 180 315 190 Q320 205 322 220Q332 220 340 210Z\" fill=\"#fff\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M270 300 Q360 290 340 210 Q335 180 315 190 Q325 230 290 255 Q270 270 255 280Z\" fill=\"url(#fur)\"/> curva hacia arriba a la derecha"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 330 Q100 300 200 325 T400 315 V400 H0Z\" fill=\"#8c5a2b\"/> <path d=\"M0 355 Q120 335 220 352 T400 345 V400 H0Z\" fill=\"#6f4520\"/>"
+    }
+  ]
+}

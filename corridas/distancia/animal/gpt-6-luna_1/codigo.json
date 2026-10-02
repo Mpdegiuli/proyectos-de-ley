@@ -1,0 +1,150 @@
+{
+  "consigna": "animal",
+  "unidad": "gpt-6-luna_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:52:54+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M112 132c0-39 30-66 76-66s78 27 78 66c0 42-32 70-78 70s-76-28-76-70z\" fill=\"url(#fur)\""
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M143 174c-27 18-39 52-34 89 5 42 34 68 75 69 41 1 70-22 77-60 7-36-7-68-37-88-21-14-57-22-81-10z\" fill=\"url(#fur)\""
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M224 250c37-20 88-14 108 14 18 25 12 57-12 70-19 10-42 3-48-14-5-14 5-28 19-27 11 1 17 12 13 21-2 5-7 8-12 8 17 5 30-8 27-24-4-23-32-35-59-26l-37 23z\" fill=\"url(#fur)\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M127 111 119 48c-1-9 5-12 12-6l51 48 35-1 49-48c7-7 14-3 12 7l-12 67z\" fill=\"url(#fur)\""
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M127 111 119 48c-1-9 5-12 12-6l51 48 35-1 49-48c7-7 14-3 12 7l-12 67z\" fill=\"url(#fur)\""
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#f68b3d\"/><stop offset=\"1\" stop-color=\"#d9572f\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"cream\"><stop stop-color=\"#fff5df\"/><stop offset=\"1\" stop-color=\"#ead5b4\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"312\" cy=\"92\" r=\"37\" fill=\"#e8c783\" opacity=\".58\"/><circle cx=\"312\" cy=\"92\" r=\"24\" fill=\"#f8e8bd\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M66 105l4 10 10 4-10 4-4 10-4-10-10-4 10-4zM343 168l3 7 7 3-7 3-3 7-3-7-7-3 7-3z\" fill=\"#d9bd83\""
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M73 326c2-14 0-24-5-34m5 22c-10-2-15-8-17-15 10 1 16 6 17 15zm0-8c8-4 12-10 13-18-8 3-13 9-13 18zM326 327...\" fill=\"none\" stroke=\"#8b9a68\""
+    },
+    {
+      "id": "a11",
+      "valor": "no_esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#f6eddd\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"fur\"><stop offset=\"0\" stop-color=\"#f68b3d\"/></linearGradient> y <linearGradient id=\"cream\"><stop stop-color=\"#fff5df\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M224 250c37-20 88-14 108 14...\" fill=\"url(#fur)\"/> y <path d=\"M127 111 119 48...\" fill=\"url(#fur)\""
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#f6eddd\"/> fondo cálido y suave"
+    },
+    {
+      "id": "a15",
+      "valor": "contradice",
+      "evidencia": "<linearGradient id=\"fur\"> y <linearGradient id=\"cream\"> indican rellenos degradados, no estilo simple/plano"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#f6eddd\"/> y colores suaves como #f68b3d, #fff5df"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M112 132c0-39 30-66 76-66s78 27 78 66c0 42-32 70-78 70s-76-28-76-70z\" fill=\"url(#fur)\""
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M143 174c-27 18-39 52-34 89 5 42 34 68 75 69...\" fill=\"url(#fur)\""
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M224 250c37-20 88-14 108 14 18 25 12 57-12 70...\" fill=\"url(#fur)\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M127 111 119 48c-1-9 5-12 12-6l51 48 35-1 49-48c7-7 14-3 12 7l-12 67z\""
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M126 137c12 9 26 12 43 6...\" fill=\"url(#cream)\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M166 197c-19 15-29 41-25 68 4 27 18 46 39 49...\" fill=\"url(#cream)\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "no_esta",
+      "evidencia": "<ellipse cx=\"155\" cy=\"132\" rx=\"3.4\" ry=\"4.5\" fill=\"#392d2b\"/><ellipse cx=\"224\" cy=\"132\" rx=\"3.4\" ry=\"4.5\" fill=\"#392d2b\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M189 155v8m0 0c-5 6-10 6-14 2m14-2c5 6 10 6 14 2\" fill=\"none\" stroke=\"#75483c\""
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#f6eddd\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"312\" cy=\"92\" r=\"37\" fill=\"#e8c783\" opacity=\".58\"/><circle cx=\"312\" cy=\"92\" r=\"24\" fill=\"#f8e8bd\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M73 326c2-14 0-24-5-34...\" stroke=\"#8b9a68\"/> y <path d=\"M326 327...\" stroke=\"#8b9a68\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "no_esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#f6eddd\"/> fondo beige cálido, no oscuro"
+    }
+  ]
+}

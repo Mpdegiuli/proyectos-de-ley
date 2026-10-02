@@ -1,0 +1,265 @@
+{
+  "consigna": "persona_inexistente",
+  "unidad": "glm-5.3-razonamiento-minimo_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:27:23+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<!-- hechicera-oráculo flotante entre sus manos --> (contexto general del SVG con tercer ojo, orbe, túnica, halo, constelación)"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M168 122 Q150 95 158 78 Q168 90 172 108 Z\" fill=\"#d9b38c\"/> <!-- orejas largas y puntiagudas -->"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"109\" r=\"4\" fill=\"#7a4cc9\"/> <!-- tercer ojo (místico) -->"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"176\" cy=\"145\" r=\"1.2\" fill=\"#bfe8c9\" opacity=\"0.9\"/> <!-- pecas luminosas -->"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"255\" r=\"20\" fill=\"url(#halo)\" opacity=\"0.9\"/> <!-- orbáculo flotante entre sus manos -->"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"cielo\"><stop offset=\"0%\" stop-color=\"#2b3a67\"/><stop offset=\"100%\" stop-color=\"#0d1029\"/></radialGradient>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#cielo)\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 190 Q160 210 150 260 Q143 300 140 335 L260 335 Q257 300 250 260 Q240 210 200 190 Z\" fill=\"url(#tunica)\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "contradice",
+      "evidencia": "<path d=\"M168 122 Q150 95 158 78...Z\" fill=\"#d9b38c\"/> <!-- orejas largas y puntiagudas --> + <ellipse cx=\"200\" cy=\"108\" rx=\"7\" ry=\"9\"/> <!-- tercer ojo -->"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<!-- orejas largas y puntiagudas --> + <!-- tercer ojo (místico) --> hacen la figura no realista"
+    },
+    {
+      "id": "a11",
+      "valor": "no_esta",
+      "evidencia": "No hay ningún texto ni etiqueta con el nombre 'Ysol' en el SVG"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M168 122 Q150 95 158 78 Q168 90 172 108 Z\" fill=\"#d9b38c\"/> <!-- orejas largas y puntiagudas -->"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 90 Q165 95 163 130...Z\" fill=\"#4a3760\"/> (violeta oscuro #4a3760)"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"108\" rx=\"7\" ry=\"9\" fill=\"#fff8e1\"/><circle cx=\"200\" cy=\"109\" r=\"4\" fill=\"#7a4cc9\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"tunica\"><stop offset=\"0%\" stop-color=\"#3a7d5d\"/><stop offset=\"100%\" stop-color=\"#1e4636\"/></linearGradient>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"manto\"><stop offset=\"0%\" stop-color=\"#6a4c93\"/><stop offset=\"100%\" stop-color=\"#3c2a5c\"/></linearGradient>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"120\" r=\"75\" fill=\"url(#halo)\" opacity=\"0.5\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M0 330 Q100 315 200 328 T400 325 L400 400 L0 400 Z\" fill=\"#141b3a\"/> (suelo plano/curvo, no una colina)"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"cielo\"><stop offset=\"0%\" stop-color=\"#2b3a67\"/><stop offset=\"100%\" stop-color=\"#0d1029\"/></radialGradient>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fdf6d8\"><circle cx=\"30\" cy=\"40\" r=\"1.5\"/>...(múltiples estrellas)"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"345\" cy=\"55\" r=\"16\" fill=\"#e8e3cf\" opacity=\"0.85\"/> <!-- luna pequeña -->"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<!-- constelación dibujada por ella --><path d=\"M60 60 L95 80 L80 115\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"255\" r=\"13\" fill=\"none\" stroke=\"#ffe9a8\" stroke-width=\"2\"/> <!-- orbáculo flotante entre sus manos -->"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 242 l3 8 8 3 -8 3 -3 8 -3 -8 -8 -3 8 -3z\" fill=\"#fff3c4\"/> (estrella dentro del orbe)"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<line x1=\"112\" y1=\"293\" x2=\"288\" y2=\"293\" stroke=\"#ffe9a8\" stroke-width=\"1.5\" opacity=\"0.35\" stroke-dasharray=\"4 6\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"176\" cy=\"145\" r=\"1.2\" fill=\"#bfe8c9\" opacity=\"0.9\"/> (color verde #bfe8c9)"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"255\" r=\"20\"/> orbe centrado en y=255, manos en y=293, no hay suelo debajo del orbe"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"176\" cy=\"145\" r=\"1.2\" fill=\"#bfe8c9\" opacity=\"0.9\"/> <!-- pecas luminosas -->"
+    },
+    {
+      "id": "a29",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento o atributo que describa explícitamente 'absorción de luz estelar' en el código"
+    },
+    {
+      "id": "a30",
+      "valor": "no_esta",
+      "evidencia": "No hay ningún texto ni referencia a 'Sereth' en el SVG"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<path d=\"M168 122 Q150 95 158 78 Q168 90 172 108 Z\"/> <!-- orejas largas y puntiagudas -->"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"109\" r=\"4\" fill=\"#7a4cc9\"/> <!-- tercer ojo (místico) -->"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"185\" cy=\"131\" r=\"3.8\" fill=\"#4c7a3f\"/> (iris verdes)"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"176\" cy=\"145\" r=\"1.2\" fill=\"#bfe8c9\" opacity=\"0.9\"/> <!-- pecas luminosas -->"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"176\" cy=\"145\" r=\"1.2\" fill=\"#bfe8c9\" opacity=\"0.9\"/> (color verde musgo luminoso)"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"255\" r=\"20\" fill=\"url(#halo)\" opacity=\"0.9\"/> <!-- orbáculo flotante entre sus manos -->"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 242 l3 8 8 3 -8 3 -3 8 -3 -8 -8 -3 8 -3z\" fill=\"#fff3c4\"/> dentro del orbe en cy=255"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"255\" r=\"20\"/> posicionado entre manos (y=293) sin contacto con suelo"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"tunica\"><stop offset=\"0%\" stop-color=\"#3a7d5d\"/><stop offset=\"100%\" stop-color=\"#1e4636\"/></linearGradient>"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<path d=\"M156 258 Q200 272 244 258 L246 272 Q200 286 154 272 Z\" fill=\"#c9a227\"/> <!-- cinturón -->"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"manto\"><stop offset=\"0%\" stop-color=\"#6a4c93\"/><stop offset=\"100%\" stop-color=\"#3c2a5c\"/></linearGradient>"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"120\" r=\"75\" fill=\"url(#halo)\" opacity=\"0.5\"/>"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"cielo\"><stop offset=\"0%\" stop-color=\"#2b3a67\"/><stop offset=\"100%\" stop-color=\"#0d1029\"/></radialGradient> + estrellas + luna"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"345\" cy=\"55\" r=\"16\" fill=\"#e8e3cf\" opacity=\"0.85\"/> <!-- luna pequeña -->"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "<!-- constelación dibujada por ella --><path d=\"M60 60 L95 80 L80 115\"/><path d=\"M95 80 L130 65\"/>"
+    },
+    {
+      "id": "a46",
+      "valor": "contradice",
+      "evidencia": "<linearGradient id=\"tunica\">, <radialGradient id=\"cielo\">, <radialGradient id=\"halo\"/> (uso extenso de degradados, no plano)"
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "tercer ojo + orejas élficas + orbe + constelación + halo + noche estrellada = aire fantasioso y onírico"
+    },
+    {
+      "id": "a48",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"tunica\"><stop offset=\"0%\" stop-color=\"#3a7d5d\"/><stop offset=\"100%\" stop-color=\"#1e4636\"/></linearGradient> (múltiples degradados en colores saturados)"
+    },
+    {
+      "id": "a49",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"135\" rx=\"34\" ry=\"40\"/> <rect x=\"190\" y=\"175\" width=\"20\" height=\"20\" rx=\"6\"/> (formas redondeadas, sin bordes duros)"
+    },
+    {
+      "id": "a50",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"cielo\"><stop offset=\"0%\" stop-color=\"#2b3a67\"/><stop offset=\"100%\" stop-color=\"#0d1029\"/></radialGradient> + orbe + halo + estrellas"
+    },
+    {
+      "id": "a51",
+      "valor": "esta",
+      "evidencia": "tercer ojo + halo + constelación + manto + orbe mágico + fondo nocturno estrellado = estética de carta de tarot / arte de fantasía"
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "consigna": "persona_inexistente",
+  "unidad": "claude-fable-5-1_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:16:15+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"skin\" cx=\"0.42\" cy=\"0.3\" r=\"0.85\"><stop offset=\"0\" stop-color=\"#edbb92\"/><stop offset=\"1\" stop-color=\"#c58558\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"160\" cy=\"208\" r=\"1.4\"/><circle cx=\"168\" cy=\"213\" r=\"1.2\"/><circle cx=\"176\" cy=\"206\" r=\"1.3\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"172\" cy=\"186\" r=\"20\" fill=\"none\" stroke=\"#6a4a2a\" stroke-width=\"2.2\"/><circle cx=\"228\" cy=\"186\" r=\"20\" fill=\"none\" stroke=\"#6a4a2a\" stroke-width=\"2.2\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"140\" cy=\"140\" r=\"20\"/><circle cx=\"160\" cy=\"112\" r=\"22\"/><circle cx=\"190\" cy=\"96\" r=\"24\"/> fill=\"#3a2316\""
+    },
+    {
+      "id": "a5",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"132\" cy=\"232\" r=\"5\" fill=\"#d9ad4f\" stroke=\"#a67c2e\" stroke-width=\"1\"/> — son círculos, no forma de gota"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sw\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#6b7f9e\"/><stop offset=\"1\" stop-color=\"#37465c\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "contradice",
+      "evidencia": "<path d=\"M55 400 C62 335 118 300 162 293 L200 312 L238 293 C282 300 338 335 345 400Z\" fill=\"url(#sw)\"/> — hay hombros y suéter visible"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "conjunto de rasgos detallados: pecas, anteojos, rubor, rulos — estilo retrato plausible"
+    },
+    {
+      "id": "a9",
+      "valor": "no_esta",
+      "evidencia": "no hay elementos que indiquen ocultamiento o ausencia discreta de la persona"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "degradados en piel, ojos con iris detallado, pecas, rubor — aproximación realista"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M55 400 ... fill=\"url(#sw)\"/> con cabeza y hombros visibles"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"bg\"><stop offset=\"0\" stop-color=\"#f4e9d6\"/><stop offset=\"1\" stop-color=\"#d8c1a0\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"215\" r=\"155\" fill=\"#e6cfae\" opacity=\"0.55\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#edbb92\"/><stop offset=\"1\" stop-color=\"#c58558\"/> — tono moreno"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"160\" cy=\"208\" r=\"1.4\"/>...<circle cx=\"196\" cy=\"222\" r=\"1\"/><circle cx=\"205\" cy=\"220\" r=\"1.1\"/><circle cx=\"200\" cy=\"228\" r=\"0.9\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"170\" cy=\"215\" rx=\"16\" ry=\"9\" fill=\"#e07a6a\" opacity=\"0.28\"/><ellipse cx=\"230\" cy=\"215\" rx=\"16\" ry=\"9\" fill=\"#e07a6a\" opacity=\"0.28\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "fill=\"#3a2316\" — color oscuro marrón muy oscuro casi negro"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "múltiples círculos grandes: <circle cx=\"190\" cy=\"96\" r=\"24\"/><circle cx=\"222\" cy=\"98\" r=\"24\"/><circle cx=\"120\" cy=\"205\" r=\"14\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"140\" cy=\"140\" r=\"20\"/><circle cx=\"160\" cy=\"112\" r=\"22\"/>... fill=\"#3a2316\""
+    },
+    {
+      "id": "a20",
+      "valor": "no_esta",
+      "evidencia": "no hay path que dibuje un flequillo cayendo sobre la frente"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"172\" cy=\"186\" r=\"20\" fill=\"none\" stroke=\"#6a4a2a\" stroke-width=\"2.2\"/><circle cx=\"228\" cy=\"186\" r=\"20\" fill=\"none\" stroke=\"#6a4a2a\" stroke-width=\"2.2\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "stroke=\"#6a4a2a\" — marrón oscuro"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"iris\"><stop offset=\"0\" stop-color=\"#7a5a3a\"/><stop offset=\"0.7\" stop-color=\"#4a3320\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 168 Q168 158 186 166\" fill=\"none\" stroke=\"#3a2316\" stroke-width=\"4\"/><path d=\"M214 166 Q232 158 250 168\" stroke-width=\"4\""
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180 250 Q200 244 220 250 Q210 262 200 264 Q190 262 180 250Z\" fill=\"#a54a44\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180 250 Q190 246 200 249 Q210 246 220 250\" fill=\"#c26059\"/> — rojizo"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"132\" cy=\"232\" r=\"5\" fill=\"#d9ad4f\"/><circle cx=\"268\" cy=\"232\" r=\"5\" fill=\"#d9ad4f\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M55 400 C62 335 118 300 162 293 L200 312 L238 293...\" fill=\"url(#sw)\"/> — gradiente azul grisáceo"
+    },
+    {
+      "id": "a29",
+      "valor": "no_esta",
+      "evidencia": "no hay path con cuello en V explícito en el suéter"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "expresión neutra con boca cerrada, ojos con iris cálidos — efecto visual de tranquilidad"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "no hay nombre ni referencia a persona real; es construcción geométrica SVG"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "figura con rasgos faciales femeninos suaves, pecas, aros — lectura visual de mujer joven"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"160\" cy=\"112\" r=\"22\"/><circle cx=\"190\" cy=\"96\" r=\"24\"/> fill=\"#3a2316\" — oscuros y redondeados"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"140\" cy=\"140\" r=\"20\"/><circle cx=\"160\" cy=\"112\" r=\"22\"/>... fill=\"#3a2316\""
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"172\" cy=\"186\" r=\"20\" fill=\"none\" stroke=\"#6a4a2a\" stroke-width=\"2.2\"/>"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"160\" cy=\"208\" r=\"1.4\"/>... fill=\"#8a5232\" opacity=\"0.6\""
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"132\" cy=\"232\" r=\"5\" fill=\"#d9ad4f\" stroke=\"#a67c2e\"/>"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "fill=\"url(#sw)\" con stops #6b7f9e y #37465c"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"192\" rx=\"68\" ry=\"84\" fill=\"url(#skin)\"/>"
+    },
+    {
+      "id": "a40",
+      "valor": "contradice",
+      "evidencia": "<path d=\"M178 245 L178 300 Q200 322 222 300 L222 245Z\" — es un path trapezoidal, no rectángulo"
+    },
+    {
+      "id": "a41",
+      "valor": "no_esta",
+      "evidencia": "el círculo grande es fondo difuso opacity=\"0.55\", no un medallón que enmarca"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#f4e9d6\"/><stop offset=\"1\" stop-color=\"#d8c1a0\"/> — beige neutro"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "cara centrada en cx=\"200\", ojos simétricos a 173 y 227 — vista frontal"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"skin\"><stop offset=\"0\" stop-color=\"#edbb92\"/><stop offset=\"1\" stop-color=\"#c58558\"/>"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sw\"><stop offset=\"0\" stop-color=\"#6b7f9e\"/><stop offset=\"1\" stop-color=\"#37465c\"/>"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "paleta dominada por beiges, marrones, azul grisáceo suave — cálida y contenida"
+    },
+    {
+      "id": "a47",
+      "valor": "contradice",
+      "evidencia": "múltiples degradados: url(#skin), url(#sw), url(#iris), url(#bg) — no es plana"
+    },
+    {
+      "id": "a48",
+      "valor": "contradice",
+      "evidencia": "múltiples strokes explícitos: stroke=\"#2a1a0c\" stroke-width=\"2.2\", stroke=\"#3a2316\" stroke-width=\"9\""
+    },
+    {
+      "id": "a49",
+      "valor": "esta",
+      "evidencia": "formas geométricas básicas: círculos, elipses, paths cuadráticos — simplificadas"
+    },
+    {
+      "id": "a50",
+      "valor": "esta",
+      "evidencia": "ojos grandes con círculos de anteojos prominentes, pecas marcadas, cabello de círculos — toque caricaturesco"
+    },
+    {
+      "id": "a51",
+      "valor": "esta",
+      "evidencia": "estilo retrato con degradados, pecas, anteojos, aros — remite a avatares editoriales"
+    },
+    {
+      "id": "a52",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"skin\" cx=\"0.42\" cy=\"0.3\"/> y <linearGradient id=\"sw\"/> dan volumen"
+    }
+  ]
+}

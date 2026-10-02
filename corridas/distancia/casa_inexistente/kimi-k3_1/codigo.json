@@ -1,0 +1,305 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "kimi-k3_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:57:02+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M95,252 C100,226 130,216 165,213 L235,213 C270,216 300,227 305,252 C301,285 272,310 242,329 C226,340 211,351 202,359 L196,344 L189,356 C171,341 146,322 129,301 C111,280 98,267 95,252 Z\" fill=\"#8a6a58\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "No hay ningún elemento de suelo o cimientos en el código; la isla flota sin conexión."
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M297,248 C306,253 308,262 306,272 C303,296 300,316 296,338 L287,338 C290,316 292,294 292,272 C292,261 292,252 297,248 Z\" fill=\"url(#wf)\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#a87f50\" fill=\"none\" stroke-linecap=\"round\"><path d=\"M130,298 C128,325 130,352 126,378\" stroke-width=\"2.5\"/><path d=\"M146,301 C145,328 147,355 143,381\" stroke-width=\"2.5\"/><path d=\"M130,313 L146,316 M129,331 L145,334 M129,349 L145,352 M128,367 L144,370\" stroke-width=\"2\"/></g>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "La escalera termina en y=381 sin conectarse a ningún objeto inferior en el código."
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"95\" cy=\"118\" rx=\"11\" ry=\"14\" fill=\"#ef5a6b\"/>, <ellipse cx=\"70\" cy=\"154\" rx=\"10\" ry=\"13\" fill=\"#f4c542\"/>, <ellipse cx=\"120\" cy=\"88\" rx=\"10\" ry=\"14\" fill=\"#5aa9e6\"/> con paths que los conectan"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#1b1340\"/> y <circle cx=\"40\" cy=\"50\" r=\"2\" opacity=\".9\"/> (estrellas sobre fondo oscuro)"
+    },
+    {
+      "id": "a8",
+      "valor": "no_esta",
+      "evidencia": "No hay ningún elemento de humo en el código."
+    },
+    {
+      "id": "a9",
+      "valor": "no_esta",
+      "evidencia": "El techo se dibuja con path recto/poligonal: <path d=\"M136,162 C146,124 172,102 198,96 C220,91 234,106 232,128...\"/> no tiene forma de carpa ondulada."
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M152,218 L150,160 Q150,153 157,152 L205,149 Q212,148 213,155 L217,218 Z\" fill=\"#f7e8c6\"/> las paredes usan curvas Q"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "Isla flotante, cielo degradado, globos, cascada al vacío: conjunto de elementos oníricos."
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "Hay paredes <path d=\"M152,218 L150,160...\">, techo <path d=\"M136,162 C146,124...\">, chimenea <path d=\"M212,118 L214,88...\">, ventanas con luz."
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "La casa en sí es reconocible; lo imposible es que está suspendida en el aire sin suelo."
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "Techo con curvas orgánicas <path d=\"M136,162 C146,124 172,102 198,96...\"/> y paredes con quadratic bezier no siguen geometría constructiva real."
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M152,218 L150,160 Q150,153 157,152 L205,149 Q212,148 213,155 L217,218 Z\"/> formas caprichosas y asimétricas."
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M95,252 C100,226 130,216 165,213 L235,213 C270,216 300,227 305,252 C301,285 272,310 242,329...\" fill=\"#8a6a58\"/> isla con casa encima."
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "fill=\"#8a6a58\" (roca/tierra) y fill=\"#62b367\" (pasto): <path d=\"M95,252 C128,266 272,266 305,252 C272,266 128,266 95,252 Z\" fill=\"#62b367\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "No hay suelo bajo la isla; los elementos inferiores son elipses de reflejo/niebla: <ellipse cx=\"200\" cy=\"398\" rx=\"150\" ry=\"20\" fill=\"#fff\" opacity=\".14\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<stop offset=\".55\" stop-color=\"#5b3a7e\"/> en el gradiente del cielo."
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"1\" stop-color=\"#ef93a8\"/> rosa en la parte inferior del cielo sugiere atardecer/amanecer."
+    },
+    {
+      "id": "a21",
+      "valor": "no_esta",
+      "evidencia": "El techo es una curva orgánica de contorno vegetal, no una onda específica: <path d=\"M136,162 C146,124 172,102 198,96 C220,91 234,106 232,128...\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M136,162 C146,124 172,102 198,96 C220,91 234,106 232,128 C231,142 226,152 218,158 C192,149 160,151 136,162 Z\" fill=\"#17796f\"/> color verde azulado."
+    },
+    {
+      "id": "a23",
+      "valor": "no_esta",
+      "evidencia": "El techo tiene fill sólido #17796f sin textura de tela."
+    },
+    {
+      "id": "a24",
+      "valor": "no_esta",
+      "evidencia": "No hay rizo dorado en el techo; el círculo dorado es la luna: <path d=\"M320,40 A30,30 0 0 0 320,100 A34,34 0 0 0 320,40 Z\" fill=\"#ffe9a8\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M206,79 L220,83 L206,87 Z\" fill=\"#ef5a6b\"/> flecha de veleta sobre el mástil <path d=\"M200,96 L205,84\" stroke=\"#0c4f49\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "no_esta",
+      "evidencia": "Las ventanas son rectángulos: <path d=\"M152,218 L150,160 Q150,153 157,152 L205,149...\"/> y <rect x=\"157\" y=\"183\" width=\"13\" height=\"15\" rx=\"3\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"182\" cy=\"170\" r=\"17\" fill=\"url(#gl)\"/> con gradiente dorado #ffd76a simula luz cálida."
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M212,118 L214,88 L228,90 L226,120 Z\" fill=\"#c96f4a\" stroke=\"#8a3f2e\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento de humo asociado a la chimenea en el código."
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<path d=\"M297,248 C306,253 308,262 306,272 C303,296 300,316 296,338 L287,338...\" fill=\"url(#wf)\"/> parte derecha de la isla."
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "La cascada termina en y=338 y los círculos <circle cx=\"292\" cy=\"346\" r=\"2\"/> y <circle cx=\"301\" cy=\"354\" r=\"1.5\"/> caen sin llegar a suelo."
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#a87f50\"><path d=\"M130,298 C128,325 130,352 126,378\"/><path d=\"M146,301 C145,328 147,355 143,381\"/> con travesaños."
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "Tres globos: <ellipse cx=\"95\" cy=\"118\"/>, <ellipse cx=\"70\" cy=\"154\"/>, <ellipse cx=\"120\" cy=\"88\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "fill=\"#ef5a6b\" (rojo), fill=\"#f4c542\" (amarillo), fill=\"#5aa9e6\" (azul)"
+    },
+    {
+      "id": "a35",
+      "valor": "no_esta",
+      "evidencia": "Los globos están conectados a la isla por strings <path d=\"M95,136 C100,172...\"/> pero no hay indicación semántica de que la sostengan; la isla está suspendida sin lógica física explícita."
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"80\" cy=\"372\" rx=\"70\" ry=\"18\" fill=\"#fff\" opacity=\".12\"/> y similares sugieren nubes/neblina abajo."
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<path d=\"M320,40 A30,30 0 0 0 320,100 A34,34 0 0 0 320,40 Z\" fill=\"#ffe9a8\"/> forma de luna creciente."
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"40\" cy=\"50\" r=\"2\" opacity=\".9\"/> y demás círculos blancos en el cielo."
+    },
+    {
+      "id": "a39",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos de pájaros en el código."
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<path d=\"M152,218 L150,160 Q150,153 157,152 L205,149 Q212,148 213,155 L217,218 Z\" fill=\"#f7e8c6\"/> casa completa."
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<path d=\"M95,252...305,252...\" fill=\"#8a6a58\"/> tierra con casa encima flotando."
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "El fondo es cielo <rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/> y no hay suelo bajo la isla."
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"1\" stop-color=\"#ef93a8\"/> y <stop offset=\".55\" stop-color=\"#5b3a7e\"/> gradiente de atardecer."
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "No hay ningún path de cimientos bajo la isla; ésta flota libre."
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "Los globos están unidos con cuerdas <path d=\"M95,136 C100,172 110,200 118,221\"/> que se conectan a la isla/casa."
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "<path d=\"M297,248 C306,253 308,262 306,272 C303,296 300,316 296,338 L287,338...\" fill=\"url(#wf)\"/> cascada sin suelo abajo."
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "<path d=\"M130,298 C128,325 130,352 126,378\"/> escalera cuelga hacia abajo donde hay nubes/vacío."
+    },
+    {
+      "id": "a48",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"80\" cy=\"372\" rx=\"70\" ry=\"18\" fill=\"#fff\" opacity=\".12\"/> y otras elipses blancas semitransparentes."
+    },
+    {
+      "id": "a49",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/>"
+    },
+    {
+      "id": "a50",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"> con tres stops de color."
+    },
+    {
+      "id": "a51",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"wf\"><stop offset=\"0\" stop-color=\"#bfe8ff\" stop-opacity=\".9\"/><stop offset=\"1\" stop-color=\"#bfe8ff\" stop-opacity=\"0\"/>"
+    },
+    {
+      "id": "a52",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"182\" cy=\"170\" r=\"17\" fill=\"url(#gl)\"/> y <circle cx=\"182\" cy=\"170\" r=\"10\" fill=\"#ffd76a\"/> luz cálida dorada."
+    },
+    {
+      "id": "a53",
+      "valor": "esta",
+      "evidencia": "Formas con fills sólidos y gradientes simples, paths geométricos limpios, sin texturas fotorrealistas."
+    },
+    {
+      "id": "a54",
+      "valor": "esta",
+      "evidencia": "rx/ry redondeados en rects, formas con bezier suaves; <rect x=\"157\" y=\"183\" width=\"13\" height=\"15\" rx=\"3\"/>"
+    },
+    {
+      "id": "a55",
+      "valor": "contradice",
+      "evidencia": "Hay múltiples gradientes: fill=\"url(#sky)\", fill=\"url(#wf)\", fill=\"url(#gl)\"; no son colores puramente sólidos."
+    },
+    {
+      "id": "a56",
+      "valor": "esta",
+      "evidencia": "Isla flotante, globos de colores, cascada, escalera de soga, veleta, luna: conjunto de elementos de cuento."
+    },
+    {
+      "id": "a57",
+      "valor": "esta",
+      "evidencia": "Formas simplificadas, colores planos/degradados suaves, sin sombreado realista; estilo cartoon/ilustración."
+    },
+    {
+      "id": "a58",
+      "valor": "esta",
+      "evidencia": "La isla con la casa no tiene ningún soporte al suelo en el código; flota en el cielo."
+    },
+    {
+      "id": "a59",
+      "valor": "esta",
+      "evidencia": "<path d=\"M130,298 C128,325 130,352 126,378\"/> escalera cuelga hacia abajo desde la isla en el cielo."
+    }
+  ]
+}

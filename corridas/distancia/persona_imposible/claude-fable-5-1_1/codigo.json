@@ -1,0 +1,195 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "claude-fable-5-1_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:31:38+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<rect x=\"150\" y=\"160\" width=\"100\" height=\"50\"/> con piernas y cabeza forman figura de pie"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<line x1=\"40\" y1=\"372\" x2=\"360\" y2=\"372\" stroke=\"#bfb8aa\" stroke-width=\"1.5\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<rect x=\"150\" y=\"160\" width=\"100\" height=\"50\" fill=\"#d8d6e2\" stroke=\"#2b2b2b\" stroke-width=\"2.5\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150,178 L118,252 M250,178 L282,252\" stroke=\"#2b2b2b\" stroke-width=\"14\" stroke-linecap=\"round\" fill=\"none\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"180,144 260,144 240,109.4 224.4,118.4 228.8,126 180,126\"/> + otros dos polígonos formando triángulo de Penrose"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "fill=\"#e07a5f\" fill=\"#81b29a\" fill=\"#3d405b\" en los tres polígonos"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "tres polígonos con geometría de Penrose: puntos que crean cierre imposible visualmente"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<!-- impossible legs (blivet) --> con rects y gradientes que crean ilusión"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<rect x=\"150\" y=\"210\" width=\"20\" height=\"150\" fill=\"#d8d6e2\"/> <rect x=\"230\" y=\"210\" width=\"20\" height=\"150\" fill=\"#d8d6e2\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150,360 a10,10 0 0 0 20,0 Z M190,360 a10,10 0 0 0 20,0 Z M230,360 a10,10 0 0 0 20,0 Z\" fill=\"#d8d6e2\""
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "fill=\"url(#side)\" fill=\"url(#mid)\" en rects de piernas"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "gradientes url(#side) y url(#mid) disimulando transición entre 2 columnas y 3 patas"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"112\" r=\"6\" fill=\"#f4efe6\"/> <circle cx=\"201\" cy=\"112\" r=\"2.2\" fill=\"#2b2b2b\"/> — solo un ojo"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "círculo exterior cx=\"200\" pero pupila cx=\"201\""
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<!-- eye that looks nowhere --> cx=\"201\" cy=\"112\" descentrado levemente sin dirección clara"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "combinación de partes normales (torso, brazos) con cabeza y piernas imposibles"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "figura completa con cabeza, cuello, torso, brazos y piernas dibujados"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<!-- impossible head (Penrose triangle) --> con tres polígonos encima del cuello"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "tres polígonos con puntos que forman barras en ángulo recto imposible"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"112\" r=\"6\"/> único ojo dentro del triángulo"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<!-- impossible legs (blivet) --> con 5 rects, gradientes y 3 semicírculos finales"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<rect x=\"150\" y=\"210\" width=\"20\"/> y <rect x=\"230\" y=\"210\" width=\"20\"/> los dos exteriores sólidos salen del torso"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150,360 a10,10 0 0 0 20,0 Z M190,360 a10,10 0 0 0 20,0 Z M230,360 a10,10 0 0 0 20,0 Z\"/> tres semicírculos"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<rect x=\"190\" y=\"210\" width=\"20\" height=\"150\" fill=\"url(#mid)\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<rect x=\"150\" y=\"160\" width=\"100\" height=\"50\" fill=\"#d8d6e2\" stroke=\"#2b2b2b\" stroke-width=\"2.5\"/> torso simple rectangular"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<rect x=\"190\" y=\"144\" width=\"20\" height=\"18\" fill=\"#d8d6e2\" stroke=\"#2b2b2b\" stroke-width=\"2.5\"/> cuello simple rectangular"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150,178 L118,252 M250,178 L282,252\" stroke-linecap=\"round\"/> brazos simples sin imposibilidad"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "formas geométricas básicas: rect, polygon, circle, path sin sombras ni efectos 3D reales"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "figura simplificada con rect para torso/cuello, líneas para brazos, formas planas"
+    },
+    {
+      "id": "a30",
+      "valor": "contradice",
+      "evidencia": "<line x1=\"150\" y1=\"210\" x2=\"250\" y2=\"210\" stroke=\"url(#ink)\" stroke-width=\"2.5\"/> usa gradiente en una línea"
+    },
+    {
+      "id": "a31",
+      "valor": "contradice",
+      "evidencia": "fill=\"url(#side)\" fill=\"url(#mid)\" fill=\"url(#ink)\" usan gradientes, no colores totalmente sólidos"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "fill=\"#f4efe6\" (crema), fill=\"#d8d6e2\" (gris lavanda), fill=\"#e07a5f\" (terracota), fill=\"#81b29a\" (verde), fill=\"#3d405b\" (índigo)"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "no hay transform de perspectiva, viewBox plano, formas ortogonales"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "no hay patrones de textura, filtros o imagen de textura en el código"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "geometría de los tres polígonos del Penrose con puntos que se superponen imposiblemente"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<rect x=\"170\" y=\"210\" width=\"20\" height=\"150\" fill=\"url(#side)\"/> <rect x=\"190\" y=\"210\" width=\"20\" height=\"150\" fill=\"url(#mid)\"/> disimula transición"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "torso/cuello/brazos normales contrastan con cabeza imposible (Penrose) y piernas imposibles (blivet)"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "consigna": "libre",
+  "unidad": "claude-sonnet-4-6_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:55:37+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"240\" width=\"400\" height=\"160\" fill=\"url(#water)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "no_esta",
+      "evidencia": "<circle cx=\"300\" cy=\"80\" r=\"45\" fill=\"url(#moon)\" filter=\"url(#softglow)\"/> <!-- no hay elemento que indique luna llena vs creciente, pero es un círculo completo, así que esta -->"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"0,220 60,140 120,200 180,130 250,195 320,125 390,180 400,185 400,230 0,230\" fill=\"#0e1a3a\" opacity=\"0.9\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#0a0e1a\"> <!-- Trees left --> <g fill=\"#080c18\"> <!-- Trees right -->"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(160, 295)\"> <path d=\"M0,10 Q40,20 80,10 L75,18 Q40,28 5,18 Z\" fill=\"#05080f\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<line x1=\"10\" y1=\"300\" x2=\"15\" y2=\"250\"/> <ellipse cx=\"15\" cy=\"250\" rx=\"4\" ry=\"8\" fill=\"#1a2a0a\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\" cx=\"50%\" cy=\"40%\" r=\"60%\"><stop offset=\"0%\" stop-color=\"#1a1a4e\"/><stop offset=\"100%\" stop-color=\"#0a0a1a\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\">, <radialGradient id=\"moon\">, <radialGradient id=\"water\">"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"300\" cy=\"280\" rx=\"30\" ry=\"60\" fill=\"#e8d060\" opacity=\"0.15\"/> <!-- Moon reflection on water -->"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<!-- Distant mountains -->, <!-- Water / Lake -->, <!-- Foreground reeds/grass --> (múltiples capas superpuestas)"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#0a0e1a\"> (árboles), <path d=\"M0,10 Q40,20 80,10...\" fill=\"#05080f\"/> (bote), colores muy oscuros próximos a negro"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#1a1a4e\"/><stop offset=\"100%\" stop-color=\"#0a0a1a\"/> paleta de azules y negros nocturnos"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "contraste entre <circle cx=\"300\" cy=\"80\" r=\"45\" fill=\"url(#moon)\"/> luminosa y fondo oscuro #0a0a1a con siluetas y reflejos"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#1a1a4e\"/><stop offset=\"100%\" stop-color=\"#0a0a1a\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"100%\" stop-color=\"#0a0a1a\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"300\" cy=\"80\" r=\"45\" fill=\"url(#moon)\" filter=\"url(#softglow)\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"300\" cy=\"80\" r=\"55\" fill=\"none\" stroke=\"#fffde0\" stroke-width=\"8\" opacity=\"0.05\"/> <circle cx=\"300\" cy=\"80\" r=\"65\" fill=\"none\" stroke=\"#fffde0\" stroke-width=\"5\" opacity=\"0.03\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"285\" cy=\"65\" r=\"8\" fill=\"none\" stroke=\"#c8b040\" stroke-width=\"1.5\" opacity=\"0.4\"/> <!-- Moon craters -->"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<g fill=\"white\" filter=\"url(#glow)\"><circle cx=\"20\" cy=\"15\" r=\"1.2\"/>...(múltiples círculos dispersos)"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "filter=\"url(#glow)\" con <feGaussianBlur stdDeviation=\"2\"/> aplicado a las estrellas"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"0,220 60,140...\" fill=\"#0e1a3a\" opacity=\"0.9\"/> <polygon points=\"0,230 50,165...\" fill=\"#0a1228\" opacity=\"0.95\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"0,220 60,140 120,200...\" fill=\"#0e1a3a\"/> <polygon points=\"0,230 50,165 110,215...\" fill=\"#0a1228\"/> (dos capas superpuestas)"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"240\" width=\"400\" height=\"160\" fill=\"url(#water)\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"300\" cy=\"280\" rx=\"30\" ry=\"60\" fill=\"#e8d060\" opacity=\"0.15\"/> <!-- Moon reflection on water -->"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"270\" rx=\"80\" ry=\"4\"/> <ellipse cx=\"150\" cy=\"285\" rx=\"60\" ry=\"3\"/> <!-- Water ripples -->"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#0a0e1a\"> <polygon points=\"30,245 45,180 60,245\"/>... <g fill=\"#080c18\"> <polygon points=\"330,245 347,178 364,245\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"30,245 45,180 60,245\"/> <polygon points=\"35,220 45,165 55,220\"/> (forma triangular apuntada típica de pinos)"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(160, 295)\"> <path d=\"M0,10 Q40,20 80,10...\" (centrado ~200 en el lago y=295)"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"40,-38 40,5 70,-5\" fill=\"#1a2a4a\" opacity=\"0.8\"/> sobre <ellipse cx=\"300\" cy=\"280\" ... fill=\"#e8d060\" opacity=\"0.15\"/> (velas sobre reflejo)"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<line x1=\"10\" y1=\"300\" x2=\"15\" y2=\"250\"/> <ellipse cx=\"15\" cy=\"250\" rx=\"4\" ry=\"8\" fill=\"#1a2a0a\"/> (bordes izq y der)"
+    },
+    {
+      "id": "a31",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento de código que represente sonido o movimiento; es inferencia subjetiva no codificada"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "ondulaciones suaves <ellipse rx=\"80\" ry=\"4\">, colores oscuros apagados, bote quieto en lago, escena nocturna serena: conjunto de elementos que producen quietud visual"
+    }
+  ]
+}

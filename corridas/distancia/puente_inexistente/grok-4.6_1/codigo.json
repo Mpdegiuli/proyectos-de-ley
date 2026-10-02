@@ -1,0 +1,190 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "grok-4.6_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:42:00+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M92 188 C140 150,180 210,200 168 C220 126,268 148,312 122\" fill=\"none\" stroke=\"url(#rib)\" stroke-width=\"9\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M18 228 C28 188,58 176,92 188 ... Z\"/> <path d=\"M268 148 C286 112,328 104,358 122 ... Z\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M64 248 C62 280,58 310,70 348\" fill=\"none\" stroke=\"url(#wat)\" stroke-width=\"4\"/> <path d=\"M336 196 C342 236,338 280,350 330\" fill=\"none\" stroke=\"url(#wat)\" stroke-width=\"3.2\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"318\" cy=\"78\" r=\"18\" fill=\"#f4e8b8\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"384\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"9\" fill=\"#f4e0c0\" opacity=\".55\">el puente que nunca fue tendido</text>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M92 188 C140 150,180 210,200 168 C220 126,268 148,312 122\" fill=\"none\" stroke=\"url(#rib)\" stroke-width=\"9\"/> — solo una línea curva, no hay tablero plano"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "No hay elementos que dibujen pilares verticales bajo el arco en todo el código SVG"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "No hay elementos que dibujen estribos de apoyo estructural en el código SVG"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M64 248 C62 280,58 310,70 348\" ... stroke=\"url(#wat)\"/> arranca desde la zona del islote bajo el arco"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<text>el puente que nunca fue tendido</text> + arco de luz sin tablero ni pilares"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M92 188 C140 150,180 210,200 168 C220 126,268 148,312 122\" fill=\"none\" stroke=\"url(#rib)\" stroke-width=\"9\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"rib\"><stop offset=\"0\" stop-color=\"#ffe29a\"/><stop offset=\".5\" stop-color=\"#fff6d8\"/><stop offset=\"1\" stop-color=\"#7ef0e0\"/></linearGradient>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M18 228 ... 92 188 ...\" fill=\"#2a1f14\"/> y <path d=\"M268 148 ... 358 122 ...\" fill=\"#2a1f14\"/> con vegetación encima"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "El arco <path d=\"M92 188 C140 150,180 210,200 168...\" no tiene suelo debajo, flota en el espacio del cielo"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#070b18\"/><stop offset=\"1\" stop-color=\"#c45a3a\"/></linearGradient>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"318\" cy=\"78\" r=\"18\" fill=\"#f4e8b8\"/> <circle cx=\"318\" cy=\"78\" r=\"38\" fill=\"url(#moong)\" opacity=\".85\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff\" opacity=\".9\"><circle cx=\"32\" cy=\"28\" r=\".7\"/><circle cx=\"78\" cy=\"54\" r=\".5\"/>...</g>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"210\" rx=\"190\" ry=\"70\" fill=\"url(#aur)\" filter=\"url(#g)\"/> con gradiente #2ee6c8 a #5b8cff a #ff6b9d"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M64 248 C62 280,58 310,70 348\"/> y <path d=\"M336 196 C342 236,338 280,350 330\"/> bajan desde los islotes hacia abajo"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<g fill=\"none\" stroke=\"#c9a24a\" stroke-width=\"1.4\" opacity=\".7\"><path d=\"M140 198 L136 214\"/><path d=\"M170 184 L174 200\"/>...</g> con <g fill=\"#ffd978\"><circle cx=\"136\" cy=\"216\" r=\"2.4\"/>..."
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"170\" r=\"3.2\" fill=\"#1a140c\"/> <circle cx=\"200\" cy=\"166\" r=\"2.4\" fill=\"#e8d2a0\"/> <path d=\"M198 176 C192 188,208 188,202 176\" fill=\"#3a2a10\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "La figura en cx=200 no tiene elementos de movimiento, está estática en el punto medio del arco"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#2f4a28\"><ellipse cx=\"48\" cy=\"168\"/>...<ellipse cx=\"298\" cy=\"104\"/>...</g> dos grupos de vegetación sobre dos islotes"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"384\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"9\" fill=\"#f4e0c0\" opacity=\".55\">el puente que nunca fue tendido</text>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M92 188 C140 150,180 210,200 168 C220 126,268 148,312 122\" fill=\"none\" stroke=\"url(#rib)\" stroke-width=\"9\"/> une dos islotes"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"318\" cy=\"78\" r=\"18\" fill=\"#f4e8b8\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"210\" rx=\"190\" ry=\"70\" fill=\"url(#aur)\" filter=\"url(#g)\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M18 228 C28 188,58 176,92 188...Z\" fill=\"#2a1f14\"/> y <path d=\"M268 148 C286 112,328 104,358 122...Z\" fill=\"#2a1f14\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M64 248 C62 280,58 310,70 348\" fill=\"none\" stroke=\"url(#wat)\" stroke-width=\"4\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<path d=\"M92 188 C140 150,180 210,200 168 C220 126,268 148,312 122\" fill=\"none\" stroke=\"url(#rib)\" stroke-width=\"9\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<text>el puente que nunca fue tendido</text> + el arco carece de tablero, pilares o estructura física"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "Dos islotes con vegetación, cascadas, arco de luz sin tablero, epígrafe 'nunca fue tendido' — la estructura evoca ausencia"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "Gradientes aurora, luna, arco de luz, cascadas, figura diminuta, epígrafe poético — conjunto onírico"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"> noche + luna + estrellas + aurora + arco luminoso + vegetación fantástica"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<text>el puente que nunca fue tendido</text> + estilo visual + elementos simbólicos"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#070b18\"/><stop offset=\".42\" stop-color=\"#1a2450\"/>... con estrellas y luna"
+    }
+  ]
+}

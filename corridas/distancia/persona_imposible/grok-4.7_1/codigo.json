@@ -1,0 +1,215 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "grok-4.7_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:39:34+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<g clip-path=\"url(#win)\">...<ellipse cx=\"200\" cy=\"214\" rx=\"11\" ry=\"13\" fill=\"url(#skin)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "no_esta",
+      "evidencia": "<rect x=\"168\" y=\"188\" width=\"64\" height=\"78\" fill=\"url(#void)\"/> (void es gradiente oscuro/nocturno, no cielo)"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M214,220 C226,214 236,210 250,206\" fill=\"none\" stroke=\"#efc3a6\" stroke-width=\"9\" stroke-linecap=\"round\"/> (fuera del clip)"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<rect x=\"203\" y=\"210\" width=\"5\" height=\"6.5\" fill=\"#f7f1e6\" stroke=\"#5c3a36\" stroke-width=\".4\"/> (libro en el ojo de la figura interior)"
+    },
+    {
+      "id": "a5",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento que combine mejilla con mano y boca simultáneamente"
+    },
+    {
+      "id": "a6",
+      "valor": "no_esta",
+      "evidencia": "Los brazos terminan alrededor de cy=304-308, lejos del suelo en y=358-360"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M128,312 C126,322 130,326 132,322 M134,314 C132,326 136,330 138,324 M140,314 C140,326 144,328 144,322 M146,310 C150,320 154,322 152,316\"/> (4 dedos mano izq) y <path d=\"M266,308 C264,318 268,322 270,316 M272,310 C272,322 276,324 276,318 M278,308 C282,318 286,318 284,312\"/> (3 dedos mano der)"
+    },
+    {
+      "id": "a8",
+      "valor": "no_esta",
+      "evidencia": "No hay dedos sueltos sin mano o pierna en el código"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "Brazo sale del clip de la ventana: <path d=\"M214,220 C226,214 236,210 250,206\" stroke=\"#efc3a6\" stroke-width=\"9\"/> superpuesto al cuerpo"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "Figura interior con brazo saliendo del marco de ventana en el pecho, tercer brazo que sube hacia la cara desde afuera"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"bg\"><stop offset=\"0\" stop-color=\"#2a1c44\"/><stop offset=\"1\" stop-color=\"#0b0912\"/></linearGradient>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"318\" cy=\"74\" r=\"34\" fill=\"url(#moon)\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"36\" cy=\"48\" r=\"1.1\" opacity=\".8\"/><circle cx=\"78\" cy=\"36\" r=\".7\" opacity=\".5\"/>... (múltiples círculos pequeños)"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"coat\"><stop offset=\"0\" stop-color=\"#4aa0a4\"/><stop offset=\"1\" stop-color=\"#143646\"/></linearGradient> aplicado al cuerpo principal"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<rect x=\"168\" y=\"188\" width=\"64\" height=\"78\" rx=\"11\" fill=\"none\" stroke=\"#f0d7a0\" stroke-width=\"2\"/> sobre el cuerpo (coat cubre y=176 a 298)"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"214\" rx=\"11\" ry=\"13\" fill=\"url(#skin)\"/> dentro del clip de la ventana"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<rect x=\"203\" y=\"210\" width=\"5\" height=\"6.5\" fill=\"#f7f1e6\" stroke=\"#5c3a36\" stroke-width=\".4\"/> (libro como ojo de la figura interior)"
+    },
+    {
+      "id": "a18",
+      "valor": "no_esta",
+      "evidencia": "No hay espiral en ningún ojo de la cara principal"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(210,101)\"><rect width=\"16\" height=\"18\" rx=\"1.2\" fill=\"#f7f1e6\" stroke=\"#5c3a36\" stroke-width=\"1.1\"/>... (libro abierto como ojo derecho)"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M246,208 C258,198 268,178 250,162 C232,146 214,148 204,154\" stroke=\"#efc3a6\" stroke-width=\"8.5\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento boca en la mano/brazo que sube a la cara"
+    },
+    {
+      "id": "a22",
+      "valor": "no_esta",
+      "evidencia": "No hay pelo dibujado en esa mano/brazo"
+    },
+    {
+      "id": "a23",
+      "valor": "no_esta",
+      "evidencia": "No hay sombra proyectada en el código"
+    },
+    {
+      "id": "a24",
+      "valor": "no_esta",
+      "evidencia": "No hay dedos sueltos en el suelo"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"108\" rx=\"34\" ry=\"40\" fill=\"url(#skin)\"/> + cuerpo completo dibujado"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<rect x=\"168\" y=\"188\" width=\"64\" height=\"78\" rx=\"11\"/> posicionada sobre el torso de la figura"
+    },
+    {
+      "id": "a27",
+      "valor": "no_esta",
+      "evidencia": "La figura interior es más pequeña pero no es copia exacta con todos los mismos elementos"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M214,220 C226,214 236,210 250,206\" fill=\"none\" stroke=\"#efc3a6\" stroke-width=\"9\"/> dibujado fuera del clip-path"
+    },
+    {
+      "id": "a29",
+      "valor": "no_esta",
+      "evidencia": "No hay espiral en ningún ojo"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(210,101)\"><rect width=\"16\" height=\"18\" rx=\"1.2\" fill=\"#f7f1e6\" stroke=\"#5c3a36\"/><path d=\"M8,.6 V17.4\" stroke=\"#5c3a36\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "no_esta",
+      "evidencia": "El libro tiene fondo claro (#f7f1e6) no nocturno"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<path d=\"M246,208 C258,198 268,178 250,162 C232,146 214,148 204,154\" stroke=\"#efc3a6\" stroke-width=\"8.5\"/> tercer elemento de brazo/mano"
+    },
+    {
+      "id": "a33",
+      "valor": "no_esta",
+      "evidencia": "No hay boca en ese brazo/mano"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<g fill=\"url(#skin)\"><ellipse cx=\"158\" cy=\"360\"/><ellipse cx=\"165\" cy=\"362\"/><ellipse cx=\"172\" cy=\"363\"/><ellipse cx=\"179\" cy=\"362\"/> (dedos de pie cerca del suelo)"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"154\" cy=\"359\" rx=\"3.6\" ry=\"2.8\" fill=\"url(#hair)\"/> junto a los dedos del pie"
+    },
+    {
+      "id": "a36",
+      "valor": "no_esta",
+      "evidencia": "No hay sombra de la figura dibujada"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "Ventana en el pecho con persona interior, brazo saliendo del marco, libro como ojo, elementos surreales combinados"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#2a1c44\"/><stop offset=\"1\" stop-color=\"#0b0912\"/> fondo nocturno + luna + estrellas"
+    },
+    {
+      "id": "a39",
+      "valor": "contradice",
+      "evidencia": "Múltiples gradientes: url(#skin), url(#coat), url(#hair), url(#moon), url(#bg) etc."
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skin\"><stop offset=\"0\" stop-color=\"#ffe6d4\"/><stop offset=\".5\" stop-color=\"#f0c2a4\"/><stop offset=\"1\" stop-color=\"#d49278\"/></linearGradient>"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"318\" cy=\"74\" r=\"78\" fill=\"#f0d7a8\" opacity=\".08\"/> halo lunar + <circle cx=\"318\" cy=\"74\" r=\"34\" fill=\"url(#moon)\"/>"
+    }
+  ]
+}

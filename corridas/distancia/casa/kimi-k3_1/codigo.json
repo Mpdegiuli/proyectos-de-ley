@@ -1,0 +1,235 @@
+{
+  "consigna": "casa",
+  "unidad": "kimi-k3_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:38:20+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<rect x=\"110\" y=\"192\" width=\"180\" height=\"118\" fill=\"#F7E8C9\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"92,192 308,192 200,102\" fill=\"#C0392B\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<rect x=\"248\" y=\"112\" width=\"24\" height=\"52\" fill=\"#9E6B4F\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"260\" cy=\"98\" r=\"7\" opacity=\"0.85\"/><circle cx=\"267\" cy=\"82\" r=\"9\" opacity=\"0.6\"/><circle cx=\"275\" cy=\"64\" r=\"11\" opacity=\"0.4\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M184 310 v-54 a17 17 0 0 1 34 0 v54 z\" fill=\"#7B4B2A\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<rect x=\"130\" y=\"216\" width=\"44\" height=\"44\" fill=\"#BEE3F0\" stroke-width=\"5\"/> stroke=\"#FFFFFF\""
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#FFC93C\" stroke-width=\"4\" stroke-linecap=\"round\"><line x1=\"70\" y1=\"16\" x2=\"70\" y2=\"32\"/>..."
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"300\" cy=\"58\" rx=\"38\" ry=\"16\"/><ellipse cx=\"272\" cy=\"65\" rx=\"24\" ry=\"12\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M146 96 q6 -6 12 0 q6 -6 12 0\"/><path d=\"M182 76 q5 -5 10 0 q5 -5 10 0\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<rect x=\"336\" y=\"258\" width=\"11\" height=\"54\" rx=\"3\" fill=\"#8A5A33\"/><circle cx=\"341\" cy=\"236\" r=\"28\" fill=\"#4E944F\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"113\" cy=\"305\" rx=\"21\" ry=\"13\" fill=\"#5FA85F\"/><ellipse cx=\"289\" cy=\"305\" rx=\"21\" ry=\"13\" fill=\"#5FA85F\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<use href=\"#flor\" transform=\"translate(52 336)\" color=\"#FF8FAB\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<rect x=\"8\" y=\"299\" width=\"102\" height=\"5\" rx=\"2\"/> fill=\"#FFFFFF\""
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"182,312 220,312 244,400 158,400\" fill=\"#D9CFBD\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"cielo\"><stop offset=\"0\" stop-color=\"#9BD8FF\"/><stop offset=\"1\" stop-color=\"#EAF8FF\"/></linearGradient>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"pasto\"><stop offset=\"0\" stop-color=\"#93CC6F\"/><stop offset=\"1\" stop-color=\"#67A848\"/></linearGradient>"
+    },
+    {
+      "id": "a17",
+      "valor": "contradice",
+      "evidencia": "fill=\"url(#cielo)\" y fill=\"url(#pasto)\" indican degradados, no colores planos"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "rect, polygon, circle, ellipse son las formas dominantes en todo el SVG"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "colores cálidos: #FFD54F, #C0392B, #F7E8C9, #93CC6F, flores, sol"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "casa con techo triangular rojo, paredes crema, ventanas, puerta, sol, flores"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<rect x=\"110\" y=\"192\" width=\"180\" height=\"118\" fill=\"#F7E8C9\"/> + <polygon points=\"92,192 308,192 200,102\" fill=\"#C0392B\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<rect x=\"110\" y=\"192\" width=\"180\" height=\"118\" fill=\"#F7E8C9\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"92,192 308,192 200,102\" fill=\"#C0392B\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<line x1=\"109\" y1=\"178\" x2=\"291\" y2=\"178\" stroke=\"#A93226\"/><line x1=\"157\" y1=\"138\" x2=\"243\" y2=\"138\" stroke=\"#A93226\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<rect x=\"248\" y=\"112\" width=\"24\" height=\"52\" fill=\"#9E6B4F\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#C9CDD2\"><circle cx=\"260\" cy=\"98\" r=\"7\" opacity=\"0.85\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"160\" r=\"13\" fill=\"#BEE3F0\" stroke=\"#FFFFFF\" stroke-width=\"4\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<rect x=\"130\" y=\"216\" width=\"44\" height=\"44\" fill=\"#BEE3F0\"/><rect x=\"226\" y=\"216\" width=\"44\" height=\"44\" fill=\"#BEE3F0\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "stroke=\"#FFFFFF\" en <rect x=\"130\" y=\"216\"...> y <rect x=\"226\" y=\"216\"...>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<path d=\"M184 310 v-54 a17 17 0 0 1 34 0 v54 z\" fill=\"#7B4B2A\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"212\" cy=\"282\" r=\"3\" fill=\"#FFD54F\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"182,312 220,312 244,400 158,400\" fill=\"#D9CFBD\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"70\" cy=\"70\" r=\"30\" fill=\"#FFD54F\"/> con líneas radiantes <g stroke=\"#FFC93C\">"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"300\" cy=\"58\" rx=\"38\" ry=\"16\"/><ellipse cx=\"272\" cy=\"65\" rx=\"24\" ry=\"12\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<path d=\"M146 96 q6 -6 12 0 q6 -6 12 0\"/><path d=\"M182 76 q5 -5 10 0 q5 -5 10 0\"/>"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"341\" cy=\"236\" r=\"28\" fill=\"#4E944F\"/><circle cx=\"321\" cy=\"252\" r=\"19\" fill=\"#5FA85F\"/><circle cx=\"361\" cy=\"252\" r=\"19\" fill=\"#5FA85F\"/>"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"113\" cy=\"305\" rx=\"21\" ry=\"13\" fill=\"#5FA85F\"/><ellipse cx=\"289\" cy=\"305\" rx=\"21\" ry=\"13\" fill=\"#5FA85F\"/>"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<rect x=\"8\" y=\"299\" width=\"102\" height=\"5\" fill=\"#FFFFFF\"/> con postes verticales blancos"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<use href=\"#flor\" transform=\"translate(52 336)\" color=\"#FF8FAB\"/><use href=\"#flor\" ... color=\"#C58AF9\"/>"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<rect y=\"300\" width=\"400\" height=\"100\" fill=\"url(#pasto)\"/>"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"cielo\"><stop offset=\"0\" stop-color=\"#9BD8FF\"/><stop offset=\"1\" stop-color=\"#EAF8FF\"/></linearGradient>"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"pasto\"><stop offset=\"0\" stop-color=\"#93CC6F\"/><stop offset=\"1\" stop-color=\"#67A848\"/></linearGradient>"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "flores, colores pastel, formas redondeadas y simples, sol con rayos"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"70\" cy=\"70\" r=\"30\" fill=\"#FFD54F\"/> con rayos, cielo azul claro"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "casa con jardín, árbol, flores, arbustos y cerca en entorno rural"
+    }
+  ]
+}

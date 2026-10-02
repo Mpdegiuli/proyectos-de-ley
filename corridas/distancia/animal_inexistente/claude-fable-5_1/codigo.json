@@ -1,0 +1,275 @@
+{
+  "consigna": "animal_inexistente",
+  "unidad": "claude-fable-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:01:34+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"205\" cy=\"270\" rx=\"85\" ry=\"65\" fill=\"url(#cuerpo)\"/> <ellipse cx=\"195\" cy=\"290\" rx=\"55\" ry=\"40\" fill=\"url(#panza)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M195 190 Q90 110 55 150 Q80 195 190 205 Z\" fill=\"url(#ala)\" stroke=\"#e0aaff\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M275 280 Q340 290 345 250 Q350 215 315 218 Q290 220 295 245 Q298 262 318 255\" fill=\"none\" stroke=\"#3a9e94\" stroke-width=\"14\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"318\" cy=\"252\" r=\"9\" fill=\"url(#glow)\"/> <circle cx=\"318\" cy=\"252\" r=\"5\" fill=\"#ffd166\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"160\" cy=\"112\" r=\"14\" fill=\"#fff\"/> ... <circle cx=\"195\" cy=\"118\" r=\"11\" fill=\"#fff\"/> ... <circle cx=\"177\" cy=\"90\" r=\"8\" fill=\"#fff\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "no_esta",
+      "evidencia": "<circle cx=\"160\" cy=\"112\" r=\"14\"/> <circle cx=\"195\" cy=\"118\" r=\"11\"/> <circle cx=\"177\" cy=\"90\" r=\"8\"/> — distribuidos en posiciones distintas de la cabeza, no alineados frontalmente"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"93\" cy=\"38\" r=\"12\" fill=\"url(#glow)\"/> <circle cx=\"93\" cy=\"38\" r=\"6\" fill=\"#ffd166\"/> <circle cx=\"230\" cy=\"30\" r=\"12\" fill=\"url(#glow)\"/> <circle cx=\"230\" cy=\"30\" r=\"6\" fill=\"#ffd166\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "no_esta",
+      "evidencia": "Las patas no tienen círculos glow ni ffd166; los glow están en cola, antenas y lucecitas flotantes"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "Conjunto de elementos: cabeza, cuerpo, patas, cola, ojos, hocico forman figura animal reconocible"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"140\" cy=\"130\" r=\"8\" fill=\"#ff8fa3\" opacity=\"0.5\"/> mejilla rosada + ojos grandes + formas redondeadas"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "Cuerpo anfibio con color #7de3c8 + #ffd166 bioluminiscencia en antenas, cola y lucecitas"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#cielo)\"/> + múltiples <circle fill=\"#fff\" opacity...> estrellas"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"205\" cy=\"270\" rx=\"85\" ry=\"65\" fill=\"url(#cuerpo)\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#7de3c8\"/> <stop offset=\"100%\" stop-color=\"#3a9e94\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#eafff5\"/> <stop offset=\"100%\" stop-color=\"#bfe8d8\"/> — gradiente panza muy claro"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "Tres grupos <g> con circle para ojos: cx=160, cx=195, cx=177"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"154\" cy=\"111\" r=\"2.5\" fill=\"#fff\"/> brillos en ojos + tamaños grandes relativos a cabeza"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M135 90 Q110 45 95 40\"/> <path d=\"M190 85 Q210 40 228 32\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M275 280 Q340 290 345 250 Q350 215 315 218 Q290 220 295 245 Q298 262 318 255\" fill=\"none\" stroke=\"#3a9e94\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"93\" cy=\"38\" r=\"6\" fill=\"#ffd166\"/> <circle cx=\"230\" cy=\"30\" r=\"6\" fill=\"#ffd166\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"318\" cy=\"252\" r=\"5\" fill=\"#ffd166\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"93\" cy=\"38\" r=\"12\" fill=\"url(#glow)\"/> <circle cx=\"93\" cy=\"38\" r=\"6\" fill=\"#ffd166\"/> — glow radial dorado"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M195 190 Q90 110 55 150 Q80 195 190 205 Z\" fill=\"url(#ala)\" stroke=\"#e0aaff\"/> — ala con stop-color #c77dff y #7b2cbf con opacidad"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M195 190 Q90 110 55 150 Q80 195 190 205 Z\" .../> <path d=\"M200 195 Q120 70 85 95 Q95 150 198 208 Z\"/> forma de alas de libélula doble"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M210 210 Q215 195 225 205 Q230 190 242 202 Q250 192 258 208 Q268 200 272 218\" fill=\"none\" stroke=\"#c77dff\" stroke-width=\"5\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"255\" cy=\"245\" r=\"10\" fill=\"#2f857c\" opacity=\"0.7\"/> <circle cx=\"270\" cy=\"275\" r=\"7\" fill=\"#2f857c\" opacity=\"0.7\"/> <circle cx=\"240\" cy=\"220\" r=\"6\" fill=\"#2f857c\" opacity=\"0.7\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"140\" cy=\"130\" r=\"8\" fill=\"#ff8fa3\" opacity=\"0.5\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"90\" cy=\"230\" r=\"6\" fill=\"url(#glow)\"/> <circle cx=\"320\" cy=\"150\" r=\"6\" fill=\"url(#glow)\"/> <circle cx=\"60\" cy=\"310\" r=\"5\" fill=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"cielo\"> stop #2b1e4f / #0d0a24 — fondo oscuro nocturno + bioluminiscencia"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "Mejilla rosada + lucecitas doradas + colores turquesa y violeta suaves + formas redondeadas"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"140\" cy=\"130\" r=\"8\" fill=\"#ff8fa3\" opacity=\"0.5\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"205\" cy=\"270\" rx=\"85\" ry=\"65\"/> cuerpo rechoncho + cola espiral tipo dragón + color anfibio"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "Tres grupos <g> de ojos con círculos en cx=160, cx=195, cx=177"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<path d=\"M195 190 Q90 110 55 150 Q80 195 190 205 Z\" fill=\"url(#ala)\" stroke=\"#e0aaff\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "Alas: aproximadamente 140px de envergadura vs cuerpo de rx=85; proporcionalmente pequeñas para un animal de ese tamaño"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<path d=\"M135 90 Q110 45 95 40\"/> <path d=\"M190 85 Q210 40 228 32\"/>"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<path d=\"M275 280 Q340 290 345 250 Q350 215 315 218 Q290 220 295 245 Q298 262 318 255\"/>"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"318\" cy=\"252\" r=\"9\" fill=\"url(#glow)\"/> <circle cx=\"318\" cy=\"252\" r=\"5\" fill=\"#ffd166\"/>"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"93\" cy=\"38\" r=\"12\" fill=\"url(#glow)\"/> <circle cx=\"230\" cy=\"30\" r=\"12\" fill=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<path ... stroke=\"#c77dff\" stroke-width=\"5\" stroke-linecap=\"round\"/> — púas lomo violeta"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "Fondo: #2b1e4f/#0d0a24; alas: #c77dff/#7b2cbf; cuerpo: #7de3c8/#3a9e94"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "<circle fill=\"#ffd166\"/> en antenas, cola y lucecitas"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"60\" cy=\"60\" r=\"2\" fill=\"#fff\" opacity=\"0.8\"/> y otros 6 círculos blancos pequeños en el fondo"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"90\" cy=\"230\" r=\"6\" fill=\"url(#glow)\"/> <circle cx=\"320\" cy=\"150\" r=\"6\" fill=\"url(#glow)\"/> <circle cx=\"60\" cy=\"310\" r=\"5\" fill=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "Fondo oscuro #0d0a24 + estrellas + criatura bioluminiscente + lucecitas flotantes"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"160\" cy=\"112\" r=\"14\" fill=\"#fff\"/> radio 14 grande + <circle cx=\"154\" cy=\"111\" r=\"2.5\" fill=\"#fff\"/> brillo"
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"140\" cy=\"130\" r=\"8\" fill=\"#ff8fa3\" opacity=\"0.5\"/>"
+    },
+    {
+      "id": "a48",
+      "valor": "esta",
+      "evidencia": "Cuerpo rechoncho rx=85 ry=65, formas redondeadas, mejilla rosada, ojos grandes"
+    },
+    {
+      "id": "a49",
+      "valor": "contradice",
+      "evidencia": "<linearGradient id=\"cuerpo\"> <radialGradient id=\"glow\"> — múltiples gradientes aplicados, no es ilustración plana"
+    },
+    {
+      "id": "a50",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"cuerpo\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"> <linearGradient id=\"panza\"> — gradientes lineales en cuerpo y panza"
+    },
+    {
+      "id": "a51",
+      "valor": "esta",
+      "evidencia": "Uso predominante de ellipse, circle y path con curvas Q — formas simples y redondeadas"
+    },
+    {
+      "id": "a52",
+      "valor": "esta",
+      "evidencia": "Mejilla rosada, ojos grandes con brillo, formas redondeadas, colores suaves pasteles y vibrantes"
+    },
+    {
+      "id": "a53",
+      "valor": "esta",
+      "evidencia": "Gradientes de fondo radial + gradientes en cuerpo/panza + sombra <ellipse cx=\"200\" cy=\"360\" rx=\"150\" ry=\"25\" fill=\"#1a1440\"/>"
+    }
+  ]
+}

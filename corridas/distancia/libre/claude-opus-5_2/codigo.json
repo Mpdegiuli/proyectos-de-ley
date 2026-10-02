@@ -1,0 +1,180 @@
+{
+  "consigna": "libre",
+  "unidad": "claude-opus-5_2",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:54:19+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M78 240 L82 132 L110 132 L114 240 Z\" fill=\"url(#tower)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#050b23\"/> (sky gradient, very dark)"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M18 320 L52 236 L92 214 L138 236 L176 320 Z\" fill=\"url(#rock)\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"205\" width=\"400\" height=\"195\" fill=\"url(#sea)\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"310\" cy=\"216\" rx=\"20\" ry=\"2\"/> ... fill=\"#fdf4d2\" opacity=\".5\""
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M-104 246 L104 172 L104 178 L-104 260 Z\" fill=\"url(#beam)\"/> and <path d=\"M-104 118 L104 168 L104 176 L-104 132 Z\" fill=\"url(#beam)\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "no_esta",
+      "evidencia": "No hay velero en el código"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 128 q6 -4 10 0 q4 -4 10 0 q-8 6 -20 0z\" opacity=\".8\"/> <path d=\"M196 106 q5 -3 8 0 q3 -3 8 0 q-6 5 -16 0z\" opacity=\".65\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"310\" cy=\"80\" r=\"26\" fill=\"#fdf4d2\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"> ... </linearGradient>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sea\"> ... </linearGradient>"
+    },
+    {
+      "id": "a12",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M78 240 L82 132 L110 132 L114 240 Z\" fill=\"url(#tower)\"/> - el faro tiene gradiente, no es plano; las rocas sí son paths con gradiente oscuro pero no planas exactamente"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"moonGlow\"> y <radialGradient id=\"lampGlow\">"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "Combinación de gradientes de cielo oscuro, luna, estrellas, faro con resplandor, reflejos en el mar"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"96\" cy=\"113\" r=\"8\" fill=\"#fff6c4\"/> sobre fondo oscuro sky #050b23"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M78 240 L82 132 L110 132 L114 240 Z\" fill=\"url(#tower)\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "Faro en x~96, roca en M18 320 L52 236 L92 214 L138 236 - ambos a la izquierda"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M18 320 L52 236 L92 214 L138 236 L176 320 Z\" fill=\"url(#rock)\"/> con stops #2b2a44 y #0c0d1c"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M80.6 172 L111.4 172 L112 188 L80 188 Z\" fill=\"#c0392b\"/> y <path d=\"M79.2 210 L112.8 210 L113.4 226 L78.6 226 Z\" fill=\"#c0392b\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"96\" cy=\"113\" r=\"8\" fill=\"#fff6c4\"/> y <circle cx=\"96\" cy=\"113\" r=\"30\" fill=\"url(#lampGlow)\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M-104 246 L104 172...\" fill=\"url(#beam)\"/> con beam gradient amarillento #fff3bd"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#050b23\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#050b23\"/> ... <stop offset=\"100%\" stop-color=\"#7a4b78\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"30\" cy=\"40\" r=\"1.3\" opacity=\".9\"/> ... (20 círculos blancos pequeños)"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"310\" cy=\"80\" r=\"26\" fill=\"#fdf4d2\"/> a la derecha"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"302\" cy=\"73\" r=\"5\" fill=\"#eadfb6\" opacity=\".7\"/> <circle cx=\"318\" cy=\"88\" r=\"3.5\" fill=\"#eadfb6\" opacity=\".6\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"310\" cy=\"216\" rx=\"20\" ry=\"2\"/> ... serie de elipses desplazadas en y"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"205\" width=\"400\" height=\"195\" fill=\"url(#sea)\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M10 224 q14 -5 28 0 t28 0\"/> stroke=\"#9fb6e8\" stroke-opacity=\".35\""
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<path d=\"M232 300 l46 0 l-8 12 l-30 0 z\" fill=\"#050914\"/> <rect x=\"253\" y=\"270\" width=\"2.5\" height=\"30\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "no_esta",
+      "evidencia": "Afirmación subjetiva/poética sin representación en código"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 128 q6 -4 10 0 q4 -4 10 0...\" opacity=\".8\"/> <path d=\"M196 106 q5 -3 8 0 q3 -3 8 0...\" opacity=\".65\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "opacity=\".8\" y opacity=\".65\" - muy tenues, casi imperceptibles"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "Serie de elipses con cx ligeramente variados: cx=\"310\",\"310\",\"308\",\"313\",\"309\",\"312\"..."
+    }
+  ]
+}

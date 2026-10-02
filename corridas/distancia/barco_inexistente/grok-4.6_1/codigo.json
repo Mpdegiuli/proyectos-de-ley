@@ -1,0 +1,190 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "grok-4.6_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T01:14:36+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"34\" cy=\"204\" rx=\"11\" ry=\"9\" fill=\"url(#ojo)\"/> <path d=\"M48 228 C28 222 18 208 22 196 C30 186 48 188 58 198 C52 210 52 220 48 228 Z\" fill=\"#6b3a1c\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 62 C248 66 268 78 274 128 ...\" fill=\"url(#s1)\"/> <path d=\"M126 96 C86 108 ...\" fill=\"url(#s2)\"/> <path d=\"M286 122 C328 128 ...\" fill=\"url(#s3)\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"352\" cy=\"226\" r=\"5\" fill=\"#7dffb3\" opacity=\".8\"/> <g fill=\"none\" stroke=\"#3ee0b0\" stroke-width=\"1.6\" opacity=\".7\"><path d=\"M352 226 C362 218 372 230 368 242\"/><path d=\"M352 226 C344 216 334 228 338 240\"/></g>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M58 236 C78 258 140 276 200 278 C262 276 322 258 344 236 C350 230 346 222 336 220 L300 216 C292 198 278 186 262 186 L254 216 L148 216 L140 178 C122 176 108 188 102 216 L72 220 C62 222 54 230 58 236 Z\" fill=\"url(#h)\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<line x1=\"200\" y1=\"216\" x2=\"200\" y2=\"58\" stroke=\"#3e2412\" stroke-width=\"5\"/> mástil, velas, casco: estructura reconocible como barco"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"34\" cy=\"204\" rx=\"11\" ry=\"9\" fill=\"url(#ojo)\"/> velas membranosas con degradados orgánicos, apéndice bioluminiscente, ojo en proa"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "El casco tiene forma orgánica con ojo, apéndices y velas membranosas; no hay elementos típicos de galeón ni forma de ballena explícita"
+    },
+    {
+      "id": "a8",
+      "valor": "no_esta",
+      "evidencia": "El barco está sobre agua <path d=\"M0 228 C40 218 70 236 110 228 ...\" fill=\"url(#w)\"/> sin indicación de que no navega"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M58 236 ... Z\" fill=\"url(#h)\"/> donde #h va de #d4a574 a #3e1f10 (tonos de madera)"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"34\" cy=\"204\" rx=\"11\" ry=\"9\" fill=\"url(#ojo)\"/> con #ojo: stop offset=\".35\" stop-color=\"#7dffb3\""
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path ... fill=\"url(#s1)\"/> <path ... fill=\"url(#s2)\"/> <path ... fill=\"url(#s3)\"/> tres velas"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"s1\"><stop offset=\"0\" stop-color=\"#ff7eb3\" .../></linearGradient> fill=\"url(#s1)\""
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"s2\"><stop offset=\"0\" stop-color=\"#7ee8fa\" .../></linearGradient> fill=\"url(#s2)\""
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"s3\"><stop offset=\"0\" stop-color=\"#ffe66d\" stop-opacity=\".85\"/><stop offset=\"1\" stop-color=\"#f08a24\"/></linearGradient>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"312\" cy=\"78\" r=\"46\" fill=\"url(#luna)\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"c\"><stop offset=\"0\" stop-color=\"#0b1026\"/><stop offset=\".38\" stop-color=\"#2a1650\"/><stop offset=\".62\" stop-color=\"#c45c4a\"/><stop offset=\"1\" stop-color=\"#f0a36b\"/></linearGradient>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"58\" cy=\"314\" r=\"3\" fill=\"#7dffb3\"/> <circle cx=\"328\" cy=\"328\" r=\"3.5\" fill=\"#7ee8fa\"/> <circle cx=\"188\" cy=\"348\" r=\"2.4\" fill=\"#ff7eb3\" opacity=\".7\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"w\"><stop offset=\"0\" stop-color=\"#1a6b7a\"/><stop offset=\".45\" stop-color=\"#0e4a5c\"/><stop offset=\"1\" stop-color=\"#082836\"/></linearGradient>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"352\" cy=\"226\" r=\"5\" fill=\"#7dffb3\" opacity=\".8\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<rect x=\"168\" y=\"196\" width=\"64\" height=\"22\" rx=\"3\" fill=\"#5c3317\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<rect x=\"176\" y=\"202\" width=\"12\" height=\"10\" rx=\"1\" fill=\"#7ee8fa\" opacity=\".55\"/> <rect x=\"194\" y=\"202\" width=\"12\" height=\"10\" rx=\"1\" fill=\"#ff7eb3\" opacity=\".5\"/> <rect x=\"212\" y=\"202\" width=\"12\" height=\"10\" rx=\"1\" fill=\"#ffe66d\" opacity=\".5\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"c\"><stop offset=\".62\" stop-color=\"#c45c4a\"/><stop offset=\"1\" stop-color=\"#f0a36b\"/></linearGradient> tonos crepusculares con luna visible"
+    },
+    {
+      "id": "a23",
+      "valor": "no_esta",
+      "evidencia": "Las velas son paths planos sin curvas que sugieran viento henchido: <path d=\"M200 62 C248 66 268 78 274 128 C260 168 228 188 200 196 C200 140 200 90 200 62 Z\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"34\" cy=\"204\" rx=\"11\" ry=\"9\" fill=\"url(#ojo)\"/> en la proa izquierda del barco, orientado hacia el exterior"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "Combinación de ojo orgánico, velas membranosas, apéndice bioluminiscente y gradiente crepuscular del cielo y agua"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M58 236 C78 258 140 276 200 278 ...Z\" fill=\"url(#h)\"/> casco + mástiles + velas"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"34\" cy=\"204\" rx=\"11\" ry=\"9\" fill=\"url(#ojo)\"/> <circle cx=\"36\" cy=\"204\" r=\"3.2\" fill=\"#041a12\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 62 ... Z\" fill=\"url(#s1)\"/> degradados traslúcidos con stop-opacity sugieren membranas"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "s1:#ff7eb3 rosa, s2:#7ee8fa turquesa, s3:#ffe66d ámbar"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"352\" cy=\"226\" r=\"5\" fill=\"#7dffb3\" opacity=\".8\"/> con tentáculos stroke=\"#3ee0b0\""
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "Casco fill=\"url(#h)\" (madera) + ojo vivo + apéndice bioluminiscente + velas membranosas"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"c\"><stop offset=\"0\" stop-color=\"#0b1026\"/><stop offset=\".38\" stop-color=\"#2a1650\"/><stop offset=\".62\" stop-color=\"#c45c4a\"/></linearGradient> paleta irreal"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "Uso de degradados radiales y lineales, formas orgánicas vectoriales, elementos fantásticos (ojo, bioluminiscencia)"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"c\"/><linearGradient id=\"w\"/><linearGradient id=\"h\"/><linearGradient id=\"s1\"/><radialGradient id=\"luna\"/><radialGradient id=\"ojo\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<stop offset=\".62\" stop-color=\"#c45c4a\"/><stop offset=\"1\" stop-color=\"#f0a36b\"/> tonos naranja/cobre del crepúsculo"
+    },
+    {
+      "id": "a36",
+      "valor": "no_esta",
+      "evidencia": "El código muestra complejidad con múltiples degradados, opacidades y detalles orgánicos; no es naïf sino fantástico elaborado"
+    }
+  ]
+}

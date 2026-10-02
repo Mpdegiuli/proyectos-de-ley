@@ -1,0 +1,110 @@
+{
+  "consigna": "animal",
+  "unidad": "claude-opus-5-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:47:50+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"280\" rx=\"85\" ry=\"70\" fill=\"url(#fur)\"/> <ellipse cx=\"200\" cy=\"295\" rx=\"48\" ry=\"52\" fill=\"#fff5e6\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"280\" rx=\"85\" ry=\"70\" .../> múltiples elipses redondeadas componen la figura"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"fur\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#f08a3c\"/><stop offset=\"1\" stop-color=\"#d0601f\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"295\" rx=\"48\" ry=\"52\" fill=\"#fff5e6\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 235 C160 228 ... \" fill=\"#fff5e6\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M120 110 L105 30 L175 85 Z\" fill=\"#d0601f\"/> <path d=\"M280 110 L295 30 L225 85 Z\" fill=\"#d0601f\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M128 100 L117 50 L162 86 Z\" fill=\"#3a2418\"/> <path d=\"M272 100 L283 50 L238 86 Z\" fill=\"#3a2418\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"160\" cy=\"145\" rx=\"15\" ry=\"17\" fill=\"#2b1a10\"/> <ellipse cx=\"240\" cy=\"145\" rx=\"15\" ry=\"17\" fill=\"#2b1a10\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"165\" cy=\"139\" r=\"5\" fill=\"#fff\"/> <circle cx=\"245\" cy=\"139\" r=\"5\" fill=\"#fff\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"200\" rx=\"13\" ry=\"9\" fill=\"#2b1a10\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 209 Q200 220 188 222 M200 209 Q200 220 212 222\" stroke=\"#2b1a10\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<line x1=\"175\" y1=\"205\" x2=\"130\" y2=\"198\"/> <line x1=\"175\" y1=\"210\" x2=\"132\" y2=\"214\"/> <line x1=\"225\" y1=\"205\" x2=\"270\" y2=\"198\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"135\" cy=\"180\" rx=\"12\" ry=\"7\" fill=\"#f7a08a\" opacity=\"0.6\"/> <ellipse cx=\"265\" cy=\"180\" rx=\"12\" ry=\"7\" fill=\"#f7a08a\" opacity=\"0.6\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M270 300 C360 290 380 200 330 170 C310 160 300 185 320 195 C345 210 330 265 265 275 Z\" fill=\"url(#fur)\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M270 300 C360 290 380 200 330 170 ...\" fill=\"url(#fur)\"/> curva hacia arriba a la derecha"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M330 170 C310 160 300 185 320 195 C335 200 345 185 330 170 Z\" fill=\"#fff\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos que dibujen patitas delanteras oscuras; las patas traseras son <ellipse cx=\"160\" cy=\"348\" rx=\"18\" ry=\"9\" fill=\"#3a2418\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"355\" rx=\"130\" ry=\"18\" fill=\"#c9a66b\" opacity=\"0.5\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#6b8f3a\"><path d=\"M40 360 Q45 320 55 360 Z\"/> <path d=\"M55 360 Q65 330 70 360 Z\"/> <path d=\"M340 360 Q350 325 358 360 Z\"/> <path d=\"M355 360 Q362 335 372 360 Z\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\"><stop offset=\"0\" stop-color=\"#fdf3d8\"/><stop offset=\"1\" stop-color=\"#e9c98f\"/></radialGradient>"
+    }
+  ]
+}

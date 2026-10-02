@@ -1,0 +1,145 @@
+{
+  "consigna": "libre",
+  "unidad": "deepseek-v4-pro_2",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:09:54+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"55\" fill=\"url(#sunGrad)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0,280 L80,180 L140,240 L220,160 L300,230 L360,190 L400,260 L400,300 L0,300 Z\" fill=\"#5b3a6b\" opacity=\"0.85\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"290\" width=\"400\" height=\"110\" fill=\"url(#lakeGrad)\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M140,320 Q160,315 180,320 Q200,325 220,320 Q240,315 260,320 Q280,325 300,320\" stroke=\"url(#reflGrad)\" stroke-width=\"4\" opacity=\"0.8\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"80%\" stop-color=\"#d06c4a\"/><stop offset=\"100%\" stop-color=\"#f4b26a\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skyGrad\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"lakeGrad\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<rect x=\"28\" y=\"275\" width=\"4\" height=\"15\"/> <path d=\"M18,280 L30,260 L42,280 Z\"/> <path d=\"M140,320 Q160,315 180,320...\""
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "opacity=\"0.85\" opacity=\"0.9\" stop-opacity=\"0\" stop-opacity=\"0.6\""
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "gradientes suaves, reflejo en lago, estrellas tenues, colores atardecer componen escena serena"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "gradientes coordinados #skyGrad #lakeGrad #sunGrad #reflGrad con paleta cálida coherente"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "paisaje lago-montañas-sol-reflejo con opacidades suaves y gradientes contemplativos"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"80%\" stop-color=\"#d06c4a\"/> montañas + lago + sol en cielo atardecer"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"30%\" stop-color=\"#2c1e4a\"/> <stop offset=\"80%\" stop-color=\"#d06c4a\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"30\" cy=\"40\" r=\"1.5\" opacity=\"0.8\"/> <circle cx=\"80\" cy=\"25\" r=\"1\" opacity=\"0.6\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M60,130 q5,-5 10,0 q5,-5 10,0\" stroke-width=\"1.5\"/> <path d=\"M90,115 q4,-4 8,0 q4,-4 8,0\""
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"55\" fill=\"url(#sunGrad)\"/> <stop offset=\"25%\" stop-color=\"#ffd166\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"100\" fill=\"url(#haloGrad)\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M140,320 Q160,315 180,320 Q200,325 220,320...\" stroke=\"url(#reflGrad)\" sobre rect lakeGrad"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#2c1e4a\"/> <stop offset=\"100%\" stop-color=\"#0b0b2a\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"50%\" stop-color=\"#ffd166\" stop-opacity=\"0.7\"/> en reflGrad sobre el lago"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path ... fill=\"#5b3a6b\" opacity=\"0.85\"/> <path ... fill=\"#432758\" opacity=\"0.9\"/> <path ... fill=\"#2e1c42\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<rect x=\"28\" y=\"275\" width=\"4\" height=\"15\"/> <path d=\"M18,280 L30,260 L42,280 Z\"/> fill=\"#0f0a1e\" a ambos lados"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0,290 Q50,288 100,292 Q150,295 200,291 Q250,287 300,293 Q350,296 400,290 ...\" fill=\"#1b1236\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path ... stroke=\"url(#reflGrad)\" stroke-width=\"4\" opacity=\"0.8\"/> con stop-color=\"#ffd166\""
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "opacidades suaves, gradientes armónicos, paleta fría-cálida equilibrada transmiten tranquilidad"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#0b0b2a\"/> <stop offset=\"30%\" stop-color=\"#2c1e4a\"/> con naranjas bajos evoca crepúsculo/noche"
+    }
+  ]
+}

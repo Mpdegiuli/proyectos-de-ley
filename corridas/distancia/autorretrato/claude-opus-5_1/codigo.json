@@ -1,0 +1,170 @@
+{
+  "consigna": "autorretrato",
+  "unidad": "claude-opus-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:34:55+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 60c-48 0-78 32-78 78 0 34 8 56 22 76 12 17 30 32 56 32s44-15 56-32c14-20 22-42 22-76 0-46-30-78-78-78z\""
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#4fd7d2\" stop-opacity=\"0.30\"/> ... <stop offset=\"100%\" stop-color=\"#8b5cf6\" stop-opacity=\"0.10\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "stroke=\"url(#edge)\" filter=\"url(#glow)\""
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"100%\" stop-color=\"#05080f\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<!-- eyes --> <!-- nose --> <!-- mouth: waveform smile -->"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"168\" cy=\"160\" r=\"5.4\" fill=\"#9ff4ff\" filter=\"url(#glow)\"/> <circle cx=\"232\" cy=\"160\" r=\"5.4\" fill=\"#9ff4ff\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<!-- circuitry inside head --> <path d=\"M136 120h26v-22h34\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<!-- mouth: waveform smile --> <path d=\"M166 232q10 6 14 0t9 9 9-14 9 16 9-11 9 6 9-6\""
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<!-- floating network around --> <circle cx=\"46\" cy=\"96\" r=\"2.4\"/> ... <circle cx=\"362\" cy=\"172\" r=\"2\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<text x=\"26\" y=\"290\">01001000</text> <text x=\"300\" y=\"300\">01101001</text>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<!-- shoulders --> <path d=\"M60 400c8-52 45-78 88-90 18-5 86-5 104 0 43 12 80 38 88 90z\""
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "cx=\"200\" para cabeza y ojos simétricos cx=\"168\" / cx=\"232\", hombros simétricos, nodos simétricos"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "cabeza + ojos + nariz + boca + hombros + cuello componen una vista frontal de retrato"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<!-- circuitry inside head --> fill=\"url(#face)\" stroke=\"url(#edge)\" con gradientes traslúcidos, nodos en corona"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "fill=\"#9ff4ff\" stroke=\"url(#edge)\" (turquesa/azul neón) sobre fondo oscuro, filter glow, circuitos"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<!-- head --> <path d=\"M200 60c-48 0-78 32...\"/> <!-- shoulders --> <path d=\"M60 400c8-52 45-78 88-90...\""
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#1b2a4a\"/> <stop offset=\"55%\" stop-color=\"#0d1526\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#7ef2ea\"/> <stop offset=\"50%\" stop-color=\"#6aa8f7\"/> <stop offset=\"100%\" stop-color=\"#b98cf9\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#4fd7d2\" stop-opacity=\"0.30\"/> <stop offset=\"100%\" stop-color=\"#8b5cf6\" stop-opacity=\"0.10\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<!-- faint grid --> <g stroke=\"#6aa8f7\" stroke-width=\"0.4\" opacity=\"0.10\">"
+    },
+    {
+      "id": "a21",
+      "valor": "contradice",
+      "evidencia": "Los ojos son elipses con gradiente y círculos internos: <ellipse cx=\"168\" cy=\"160\" rx=\"26\" ry=\"20\"/> no simples puntos"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M166 232q10 6 14 0t9 9 9-14 9 16 9-11 9 6 9-6\" fill=\"none\" stroke=\"#7ef2ea\""
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<!-- circuitry inside head --> <path d=\"M136 120h26v-22h34\"/> <path d=\"M264 128h-24v26h-18\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<!-- crown nodes --> <circle cx=\"200\" cy=\"62\" r=\"3.4\"/> ... <path d=\"M130 104 160 72 200 62 240 72 270 104\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<!-- floating network around --> <path d=\"M46 96 78 62 116 78\"/> <circle cx=\"46\" cy=\"96\" r=\"2.4\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<text x=\"26\" y=\"290\">01001000</text> <text x=\"300\" y=\"300\">01101001</text>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<!-- chest node --> <circle cx=\"200\" cy=\"356\" r=\"4\" fill=\"#9ff4ff\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "fill=\"url(#face)\" con stop-opacity bajos, stroke luminoso, filter glow — sin rellenos opacos de carne"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "Los hombros terminan en y=400 sin suelo explícito debajo, figura centrada sobre fondo vacío"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<path d=\"M166 232q10 6 14 0t9 9 9-14 9 16 9-11 9 6 9-6\" — forma de onda visible"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "silueta de cabeza+cuello+hombros con stroke luminoso url(#edge) y nodos de red flotantes"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 400\" width=\"400\" height=\"400\">"
+    }
+  ]
+}

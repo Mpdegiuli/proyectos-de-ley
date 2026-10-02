@@ -1,0 +1,215 @@
+{
+  "consigna": "arbol_inexistente",
+  "unidad": "deepseek-v4-pro_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T01:00:44+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 190 350 C 170 320, 230 300, 200 270 C 170 240, 230 220, 200 190\" .../> <path d=\"M 210 350 C 230 320, 170 300, 200 270 C 230 240, 170 220, 200 190\" .../>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"branchGrad\"><stop offset=\"0%\" stop-color=\"#FFD700\"/> ... </linearGradient> con id=\"branch0/1/2/3\" recursivos"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<filter id=\"glow\"> ... <use href=\"#leaf\" .../> con leafGrad que tiene stop color #FFD700 y #FFFFFF"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(200,280)\"><ellipse cx=\"0\" cy=\"0\" rx=\"10\" ry=\"6\" fill=\"white\"/><circle cx=\"0\" cy=\"0\" r=\"3.5\" fill=\"black\"/></g>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(200,345)\"><path d=\"M-8,0 L-8,-15 A8,8 0 0 1 8,-15 L8,0 Z\" fill=\"#4B2E1B\" stroke=\"#8B5A2B\"/></g>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 190 350 C 170 370, 230 390, 200 400\"/> <path d=\"M 210 350 C 230 370, 170 390, 200 400\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<g id=\"fruto\"><circle r=\"5\" fill=\"#FF69B4\"/></g>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"0\" cy=\"0\" rx=\"9\" ry=\"2.5\" fill=\"none\" stroke=\"#FFD700\" stroke-width=\"1\" transform=\"rotate(-30)\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<use href=\"#estrella\" transform=\"translate(20,30)\"/> ... 14 instancias de estrella sobre fondo <rect fill=\"#0a0a1a\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "ojo en tronco, puerta, estructura fractal branch0/1/2/3, filter glow, gradientes metálicos, fondo estrellado"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "tronco doble hélice, ojo en corteza, puerta, hojas radiales con gradiente, frutos con anillos orbitales: nada es representación botánica realista"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<use href=\"#leaf\" .../> con filter glow y leafGrad con stop #FFFFFF al 0%, distribuidas por el canvas como estrellas"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 190 350 C 170 320, 230 300, 200 270...\"/> y <path d=\"M 210 350 C 230 320, 170 300, 200 270...\"/> entrelazadas"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 190 350 C 170 370, 230 390, 200 400\"/> <path d=\"M 210 350 C 230 370, 170 390, 200 400\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(200,280)\"><ellipse rx=\"10\" ry=\"6\" fill=\"white\"/><circle r=\"3.5\" fill=\"black\"/></g>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(200,345)\"><path d=\"M-8,0 L-8,-15 A8,8 0 0 1 8,-15 L8,0 Z\"/></g>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "branch0 usa branch1, branch1 usa branch2, branch2 usa branch3, cada nivel con scale(0.8) y rotaciones: estructura fractal"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"branchGrad\"><stop offset=\"0%\" stop-color=\"#FFD700\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<g id=\"leaf\"><circle r=\"7\" fill=\"url(#leafGrad)\"/></g>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"leafGrad\"><stop offset=\"0%\" stop-color=\"#FFFFFF\"/> con filter glow aplicado"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<use href=\"#leaf\"> con leafGrad blanco central y filter glow, distribuidas como puntos luminosos"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<use href=\"#fruto\" transform=\"translate(140,160)\"/> ... 8 instancias, fruto tiene <circle r=\"5\" fill=\"#FF69B4\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<ellipse rx=\"9\" ry=\"2.5\" fill=\"none\" stroke=\"#FFD700\" stroke-width=\"1\" transform=\"rotate(-30)\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<use href=\"#leaf\" transform=\"translate(100,80)\"/> ... 10 instancias fuera de la copa del árbol"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<rect fill=\"#0a0a1a\"/> con 14 x <use href=\"#estrella\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<filter id=\"glow\"><feGaussianBlur stdDeviation=\"4\"/> aplicado a tronco, raíces, copa, hojas flotantes"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "tronco doble hélice + branch0 en translate(200,190) + raíces"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<ellipse rx=\"10\" ry=\"6\" fill=\"white\"/><circle r=\"3.5\" fill=\"black\"/><circle r=\"1.2\" fill=\"white\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M-8,0 L-8,-15 A8,8 0 0 1 8,-15 L8,0 Z\" fill=\"#4B2E1B\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 190 350 C 170 370, 230 390, 200 400\"/> curva que sube hacia 400 desde 350, curvándose"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<circle r=\"5\" fill=\"#FF69B4\"/> + <ellipse rx=\"9\" ry=\"2.5\" stroke=\"#FFD700\" transform=\"rotate(-30)\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#FFD700\"/> en branchGrad"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "branch0 -> branch1 -> branch2 -> branch3 con rotate y scale recursivos"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<rect fill=\"#0a0a1a\"/> + múltiples <use href=\"#estrella\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<feGaussianBlur stdDeviation=\"4\" result=\"blur\"/> en filter glow aplicado a múltiples grupos"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "stop-color=\"#FFD700\", #FF8C00, #FF4500, #D4A056 en gradientes de ramas y tronco"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "paths con curvas Q y C, stroke-linecap=\"round\", formas de árbol, raíces, ramas curvas"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "ojo en tronco, puerta, doble hélice, frutos orbitales, fondo cósmico: combinación surrealista-fantástica"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "branch0->branch1->branch2->branch3 con scale(0.8) recursivo: arte fractal"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "fondo #0a0a1a estrellado, árbol imposible con ojo y puerta, hojas flotantes, brillo: paisaje onírico cósmico"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "tronco ADN + ojo + puerta + copa fractal + frutos orbitales + hojas constelación: árbol imposible híbrido"
+    }
+  ]
+}

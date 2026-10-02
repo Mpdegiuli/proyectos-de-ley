@@ -1,0 +1,135 @@
+{
+  "consigna": "autorretrato",
+  "unidad": "grok-4.6_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:47:38+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "no_esta",
+      "evidencia": "No hay un único óvalo oscuro en el centro; los óvalos oscuros son los ojos: <ellipse cx=\"148\" cy=\"168\" rx=\"32\" ry=\"22\" fill=\"#0a0a14\"/> y <ellipse cx=\"252\" cy=\"168\" rx=\"32\" ry=\"22\" fill=\"#0a0a14\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"110\" cy=\"90\" rx=\"160\" ry=\"110\" fill=\"url(#neb)\"/> <ellipse cx=\"310\" cy=\"280\" rx=\"140\" ry=\"120\" fill=\"url(#neb2)\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"32\" cy=\"48\" r=\"1.1\"/> ... (múltiples círculos pequeños blancos)"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"35%\" stop-color=\"#5eeeff\"/> en gradiente id=\"eye\""
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 58 L200 28\"/><path d=\"M168 72 L145 42\"/><path d=\"M232 72 L258 40\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M172 246 C185 261,215 262,228 244\" fill=\"none\" stroke=\"#c8f4ff\" stroke-width=\".7\" ... opacity=\".85\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M168 248 C180 268,220 270,232 248\" fill=\"none\" stroke=\"#1a1a28\" stroke-width=\"7\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#sp)\"/> con gradiente oscuro tipo espacio y nebulosas"
+    },
+    {
+      "id": "a9",
+      "valor": "no_esta",
+      "evidencia": "No hay animación ni efecto de parpadeo en el código SVG para las antenas"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "Fondo espacial oscuro <radialGradient id=\"sp\"> con stop-color=\"#030208\"/>, figura aislada flotando"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"148\" cy=\"170\" rx=\"22\" ry=\"18\" fill=\"url(#eye)\" filter=\"url(#g)\"/> <ellipse cx=\"252\" cy=\"170\" rx=\"22\" ry=\"18\" fill=\"url(#eye)\" filter=\"url(#g)\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "Combinación de rostro alienígena con ojos cian brillantes, antenas, piel metálica degradada y fondo espacial"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M70 210 ...\" fill=\"url(#skin)\"/> con <stop offset=\"40%\" stop-color=\"#1c1c2e\"/> <stop offset=\"100%\" stop-color=\"#0e0e18\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"110\" cy=\"90\" fill=\"url(#neb)\"/> (violeta #5b2d8a) y <ellipse cx=\"310\" cy=\"280\" fill=\"url(#neb2)\"/> (azul #1a4a8a)"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"35%\" stop-color=\"#5eeeff\"/> en id=\"eye\"; también <circle cx=\"148\" cy=\"170\" r=\"28\" fill=\"#3ad4ff\".../>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"100%\" stop-color=\"#030208\"/> en gradiente id=\"sp\""
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "Múltiples <circle> blancos pequeños y <circle cx=\"60\" cy=\"60\" r=\"1.8\"/> fill=\"#c8e8ff\""
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 58 L200 28\"/><path d=\"M168 72 L145 42\"/><path d=\"M232 72 L258 40\"/> — tres líneas desde el cráneo"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"24\" r=\"1.4\" filter=\"url(#g)\"/> <circle cx=\"142\" cy=\"38\" r=\"1.1\" filter=\"url(#g)\"/> <circle cx=\"262\" cy=\"36\" r=\"1.1\" filter=\"url(#g)\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M168 248 C180 268,220 270,232 248\" fill=\"none\" stroke=\"#1a1a28\" stroke-width=\"7\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M172 246 C184 264,216 266,228 246\" fill=\"none\" stroke=\"#5eeeff\" stroke-width=\"1.6\"... opacity=\".7\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "neb: stop-color=\"#5b2d8a\" (violeta), neb2: stop-color=\"#1a4a8a\" (azul)"
+    },
+    {
+      "id": "a23",
+      "valor": "no_esta",
+      "evidencia": "Los ojos son elipses con gradiente radial tipo iris, no tienen forma de estrella con puntas"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "Fondo espacial oscuro, figura aislada sin entorno, círculos orbitales tenues: <circle cx=\"200\" cy=\"200\" r=\"175\" fill=\"none\" stroke=\"#5eeeff\" stroke-width=\".3\" opacity=\".12\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 400\"> <rect width=\"400\" height=\"400\".../>"
+    }
+  ]
+}

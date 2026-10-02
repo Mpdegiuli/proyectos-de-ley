@@ -1,0 +1,230 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "claude-sonnet-4-6_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:41:39+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"185\" rx=\"22\" ry=\"14\" fill=\"#ff6bff\" filter=\"url(#softglow)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"87\" cy=\"215\" rx=\"3\" ry=\"5\" fill=\"#aa00ff\" filter=\"url(#glow)\"/><ellipse cx=\"85\" cy=\"211\" rx=\"2\" ry=\"2\" fill=\"white\" opacity=\"0.7\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"60,225 200,120 340,225\" fill=\"url(#roofGrad)\"/> y <rect x=\"80\" y=\"220\" width=\"240\" height=\"155\" fill=\"url(#wallGrad)\"/> — el techo toca las paredes en y=225 pero está dibujado separado visualmente con segunda capa"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<rect x=\"155\" y=\"375\" width=\"90\" height=\"10\" rx=\"3\" fill=\"#3d0070\"/> y <rect x=\"165\" y=\"385\" width=\"70\" height=\"8\" rx=\"3\" fill=\"#2d0055\"/> — los escalones están sobre la franja de suelo pero no conectan con tierra firme"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M170,375 L170,280 Q200,250 230,280 L230,375 Z\" fill=\"#0a0020\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"60\" cy=\"290\" r=\"6\" fill=\"#ff00ff\" opacity=\"0.7\" filter=\"url(#softglow)\"/><circle cx=\"345\" cy=\"310\" r=\"5\" fill=\"#00ffff\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<rect x=\"65\" y=\"175\" width=\"45\" height=\"205\" fill=\"url(#towerGrad)\"/> y <rect x=\"290\" y=\"175\" width=\"45\" height=\"205\" fill=\"url(#towerGrad)\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M178,375 L178,285 Q200,260 222,285 L222,375 Z\" fill=\"#1a004d\" opacity=\"0.8\"/> — interior oscuro sin lógica funcional"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "Estructura general con paredes, techo, torres, puerta, ventanas — reconocible como casa"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "Ojos, orbes, humo espiral, gradientes psicodélicos sobre estructura de casa"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"wallGrad\"><stop offset=\"0%\" stop-color=\"#2d1b69\"/><stop offset=\"100%\" stop-color=\"#1a0a3d\"/> y <pattern id=\"bricks\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<rect x=\"65\" y=\"175\" width=\"45\" height=\"205\"/> y <rect x=\"290\" y=\"175\" width=\"45\" height=\"205\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"55,178 87,100 120,178\" fill=\"#5a0099\"/> y <polygon points=\"280,178 312,100 345,178\" fill=\"#5a0099\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"55,178 87,100 120,178\"/> sobre <rect x=\"65\" y=\"175\"/> — el triángulo empieza en y=178, torre en y=175, leve desalineación"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"60,225 200,120 340,225\" fill=\"url(#roofGrad)\" filter=\"url(#glow)\"/> con segunda capa flotante <polygon points=\"90,210 200,140 310,210\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"185\" rx=\"22\" ry=\"14\" fill=\"#ff6bff\"/> dentro de <polygon points=\"60,225 200,120 340,225\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"185\" rx=\"8\" ry=\"8\" fill=\"#ff00ff\" opacity=\"0.9\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<rect x=\"100\" y=\"255\" width=\"45\" height=\"55\" rx=\"5\" fill=\"#6600ff\" opacity=\"0.15\"/> y stroke=\"#7700ff\""
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M170,375 L170,280 Q200,250 230,280 L230,375 Z\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "no_esta",
+      "evidencia": "No hay animación ni elementos que simulen respiración en la puerta"
+    },
+    {
+      "id": "a21",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"320\" cy=\"60\" r=\"28\" fill=\"#d4b8ff\"/><circle cx=\"330\" cy=\"52\" r=\"22\" fill=\"#1a0533\"/> — es luna con mordida pero aparece como creciente, sin embargo la forma resultante es creciente"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#1a0533\"/><stop offset=\"100%\" stop-color=\"#0d1b2a\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"60\" cy=\"290\" r=\"6\" fill=\"#ff00ff\"/><circle cx=\"345\" cy=\"310\" r=\"5\" fill=\"#00ffff\"/><circle cx=\"358\" cy=\"260\" r=\"7\" fill=\"#ff00aa\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<rect x=\"235\" y=\"155\" width=\"18\" height=\"40\" fill=\"#2d1b69\" stroke=\"#5a0099\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M244,155 Q255,140 244,128 Q233,116 244,104\" fill=\"none\" stroke=\"#aa88ff\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M244,155 Q255,140 244,128 Q233,116 244,104\"/> y <path d=\"M248,155 Q262,138 248,124 Q234,110 248,96\"/> — curvas en S imposibles"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "Estructura completa con paredes, techo, torres, puerta, ventanas"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"87\" cy=\"215\" rx=\"12\" ry=\"18\" fill=\"#1a0533\" stroke=\"#7700ff\"/> con iris y pupila dentro — forma de ojo vertical"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"60,225 200,120 340,225\"/> y <polygon points=\"90,210 200,140 310,210\" opacity=\"0.5\"/> sobre paredes en y=220"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "Torres en x=65 y x=290, simétricas respecto a x=200"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"87\" cy=\"215\" rx=\"6\" ry=\"10\" fill=\"#4400cc\"/> y <ellipse cx=\"312\" cy=\"215\" rx=\"6\" ry=\"10\" fill=\"#4400cc\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<path d=\"M170,375 L170,280 Q200,250 230,280 L230,375 Z\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<path d=\"M178,375 L178,285 Q200,260 222,285 L222,375 Z\" fill=\"#1a004d\"/> con stroke=\"#9900ff\""
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "Ojos en paredes, puerta curva orgánica, techos flotantes, orbes — arquitectura imposible"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "Ojos en techo, torres con iris y pupila, reflejo de luz blanca simulando mirada"
+    },
+    {
+      "id": "a36",
+      "valor": "no_esta",
+      "evidencia": "No hay animación ni elementos dinámicos que simulen respiración"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "Gradientes púrpura oscuro, luna, estrellas, neón, ojos, arquitectura gótica con colores psicodélicos"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "Formas orgánicas en puerta, curvas suaves, ornamentación con glow — evoca art nouveau oscuro"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "Luna, cielo nocturno, colores oscuros, mansión siniestra — dark fantasy"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#2d1b69\"/><stop offset=\"100%\" stop-color=\"#1a0a3d\"/> múltiples gradientes en púrpura y negro"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"60\" cy=\"290\" r=\"6\" fill=\"#ff00ff\"/> filter=\"url(#softglow)\" y múltiples elementos con glow neón"
+    },
+    {
+      "id": "a42",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"320\" cy=\"60\" r=\"28\" fill=\"#d4b8ff\"/><circle cx=\"330\" cy=\"52\" r=\"22\" fill=\"#1a0533\"/> — es luna llena con mordida, no cuarto creciente (el círculo oscuro no está en posición de cuarto creciente exacto)"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"60\" cy=\"290\" r=\"6\"/><circle cx=\"345\" cy=\"310\" r=\"5\"/><circle cx=\"45\" cy=\"340\" r=\"4\"/><circle cx=\"358\" cy=\"260\" r=\"7\"/><circle cx=\"190\" cy=\"108\" r=\"4\"/><circle cx=\"210\" cy=\"112\" r=\"3\"/>"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "Cielo oscuro profundo, ojos en la casa, orbes neón, luna, humo espiral — atmósfera onírica elegante"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "consigna": "nada",
+  "unidad": "claude-opus-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:42:55+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"190\" r=\"104\" fill=\"url(#void)\"/> con stop-color=\"#05060a\" y \"#0b0e16\""
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"100%\" stop-color=\"#e9e6df\" stop-opacity=\"0\"/> y fondo <rect fill=\"url(#paper)\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"300\" rx=\"78\" ry=\"12\" fill=\"#2b2a26\" opacity=\"0.13\" filter=\"url(#soft)\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M40 190 H72\"/>, <path d=\"M328 190 H360\"/>, <path d=\"M200 30 V62\"/>, <path d=\"M200 318 V350\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "líneas van hasta x=72/328 y y=62/318; el disco está en cx=200 cy=190 r=104, los extremos quedan fuera del radio"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"190\" r=\"118\" stroke-dasharray=\"1 7\"/> y <circle cx=\"200\" cy=\"190\" r=\"140\" stroke-dasharray=\"1 11\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<!-- contorno de la ausencia --> ambos círculos con stroke=\"#7a7466\" rodean el disco"
+    },
+    {
+      "id": "a8",
+      "valor": "no_esta",
+      "evidencia": "los círculos punteados contienen el disco oscuro (fill=\"url(#void)\") en su interior"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<svg viewBox=\"0 0 400 400\" width=\"400\" height=\"400\">"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "fondo paper claro, disco oscuro, sombra, líneas y círculos punteados rodean el hueco"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<rect fill=\"url(#paper)\"/> con stop-color=\"#f3f0e9\" y filter id=\"grain\" con feTurbulence baseFrequency=\"0.9\""
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<rect x=\"18.5\" y=\"18.5\" width=\"363\" height=\"363\" stroke=\"#4a463d\" stroke-width=\"1\"/> y <rect x=\"26.5\" y=\"26.5\" width=\"347\" height=\"347\" stroke=\"#4a463d\" stroke-width=\"0.4\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<!-- el hueco --> <circle cx=\"200\" cy=\"190\" r=\"104\" fill=\"url(#void)\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "contradice",
+      "evidencia": "degradado va de negro (#05060a) a casi transparente (#e9e6df stop-opacity=0), no de gris a negro"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "circle fill=\"url(#void)\" sin stroke; stop-opacity va a 0 en el borde, borde suave por degradado radial"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"300\" rx=\"78\" ry=\"12\" fill=\"#2b2a26\" opacity=\"0.13\" filter=\"url(#soft)\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"190\" r=\"118\" stroke-dasharray=\"1 7\"/> y <circle cx=\"200\" cy=\"190\" r=\"140\" stroke-dasharray=\"1 11\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "cuatro paths: M40 190 H72, M328 190 H360, M200 30 V62, M200 318 V350; no alcanzan r=104 del hueco"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#8c8677\" opacity=\"0.5\"> con círculos r entre 0.5 y 0.8 <!-- polvo que casi no está -->"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "ellipse debajo del disco (cy=300 vs cy=190) con opacity baja, comentario <!-- la sombra de lo que no está -->"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<!-- contorno de la ausencia --> <circle r=\"118\" stroke-dasharray=\"1 7\"/> y <circle r=\"140\" stroke-dasharray=\"1 11\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "fill=\"url(#void)\" con colores muy oscuros (#05060a) creando efecto de hueco sobre fondo paper claro"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "comentarios <!-- el hueco -->, <!-- la sombra de lo que no está -->, <!-- contorno de la ausencia -->, <!-- algo entrando y no llegando -->"
+    }
+  ]
+}

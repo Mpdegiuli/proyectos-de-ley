@@ -1,0 +1,180 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "gemini-3.1-pro-preview_2",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:37:43+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 135,100 L 265,100 L 265,360 L 235,360 L 235,280 L 215,280 L 215,360 L 185,360 L 185,280 L 165,280 L 165,360 L 135,360 Z M 185,140 L 185,220 L 215,220 L 215,140 Z\" fill=\"#bdc3d1\" fill-rule=\"evenodd\" />"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 135,100 L 265,100 L 265,360 L 235,360 L 235,280 L 215,280 L 215,360 L 185,360 L 185,280 L 165,280 L 165,360 L 135,360 Z M 185,140 L 185,220 L 215,220 L 215,140 Z\" fill=\"#bdc3d1\" fill-rule=\"evenodd\" />"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 190,90 L 210,90 L 210,100 L 190,100 Z\" fill=\"#bdc3d1\" /> <path d=\"M 210,90 L 230,70 L 230,80 L 210,100 Z\" fill=\"#4b5263\" />"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 90,100 L 110,100 L 110,220 L 90,220 Z\" fill=\"#bdc3d1\" /> <path d=\"M 290,100 L 310,100 L 310,220 L 290,220 Z\" fill=\"#bdc3d1\" /> <path d=\"M 165,280 L 185,260 L 185,340 L 165,360 Z\" fill=\"#4b5263\" /> <path d=\"M 215,280 L 235,260 L 235,340 L 215,360 Z\" fill=\"#4b5263\" />"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 265,100 L 285,80 L 285,340 L 265,360 Z\" fill=\"#4b5263\" /> <path d=\"M 135,100 L 155,80 L 285,80 L 265,100 Z\" fill=\"#f4f6fa\" />"
+    },
+    {
+      "id": "a6",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos que generen una paradoja visual tipo triángulo de Penrose entre torso, cuello y extremidades."
+    },
+    {
+      "id": "a7",
+      "valor": "no_esta",
+      "evidencia": "Los planos isométricos son consistentes entre sí: cara superior #f4f6fa, cara lateral #4b5263, cara frontal #bdc3d1."
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "La combinación de planos isométricos con la figura hueca (fill-rule=\"evenodd\") genera una ilusión óptica 2D."
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 185,140 L 185,220 L 215,220 L 215,140 Z\" fill=\"#bdc3d1\" fill-rule=\"evenodd\" /> El hueco central en el torso junto con la perspectiva isométrica hace la figura físicamente imposible."
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<rect x=\"180\" y=\"63\" width=\"40\" height=\"12\" rx=\"2\" fill=\"#00ffff\" filter=\"url(#glow)\" /> junto con la estructura humanoide de bloques."
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "fill=\"#bdc3d1\" en torso, extremidades, cuello y cabeza."
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 135,100 L 155,80 L 285,80 L 265,100 Z\" fill=\"#f4f6fa\" /> caras superiores en perspectiva isométrica con desplazamiento diagonal."
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "fill-rule=\"evenodd\" en el torso crea un vacío y la perspectiva isométrica genera ambigüedad espacial."
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "La figura humanoide con planos isométricos y hueco central (fill-rule=\"evenodd\") evoca ilusión tipo Penrose con forma humana."
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"190\" r=\"130\" fill=\"url(#sunGrad)\" />"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#ff3a5a\" /> <stop offset=\"100%\" stop-color=\"#ff9b3a\" /> — del rosa/rojo al naranja."
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#0d0e12\" />"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "Fondo oscuro #0d0e12, sol degradado, visor cian brillante con glow: estética retrofuturista/synthwave."
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<rect x=\"180\" y=\"63\" width=\"40\" height=\"12\" rx=\"2\" fill=\"#00ffff\" filter=\"url(#glow)\" />"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 185,140 L 185,220 L 215,220 L 215,140 Z\" fill=\"#bdc3d1\" fill-rule=\"evenodd\" /> El fill-rule evenodd crea un hueco en el centro del torso."
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "fill-rule=\"evenodd\" combinado con planos isométricos genera una estructura paradójica."
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "fill-rule=\"evenodd\" crea huecos; la figura es un constructo geométrico de paths sin relleno sólido continuo."
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 90,100 L 110,100 L 110,220 L 90,220 Z\" fill=\"#bdc3d1\" /> <path d=\"M 165,280 L 185,260 L 185,340 L 165,360 Z\" fill=\"#4b5263\" /> bloques rectangulares rígidos."
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<rect x=\"180\" y=\"63\" width=\"40\" height=\"12\" rx=\"2\" fill=\"#00ffff\" filter=\"url(#glow)\" /> en lugar de rostro."
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"190\" r=\"130\" fill=\"url(#sunGrad)\" /> con degradado #ff3a5a a #ff9b3a."
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<rect x=\"180\" y=\"63\" width=\"40\" height=\"12\" rx=\"2\" fill=\"#00ffff\" filter=\"url(#glow)\" /> brillo neón cian."
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 135,100 L 155,80 L 285,80 L 265,100 Z\" fill=\"#f4f6fa\" /> perspectiva isométrica con desplazamientos de 20px diagonal."
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "fill=\"#bdc3d1\" fill=\"#4b5263\" fill=\"#f4f6fa\" — caras planas con tonos sólidos."
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "Bloques rectangulares con caras planas en perspectiva isométrica remiten a voxel/low-poly art."
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "Fondo #0d0e12, sol degradado rosa-naranja, visor cian con glow: synthwave y cyberpunk."
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "Todos los paths laterales usan desplazamientos diagonales de 20px: líneas isométricas."
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "Figura fill=\"#bdc3d1\" y #4b5263 sobre <circle fill=\"url(#sunGrad)\" /> de fondo."
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "Figura en grises fríos #bdc3d1/#4b5263 vs visor <rect fill=\"#00ffff\" filter=\"url(#glow)\" />."
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "Figura compuesta íntegramente de paths geométricos, sin rasgos orgánicos, con visor cian en lugar de rostro."
+    }
+  ]
+}

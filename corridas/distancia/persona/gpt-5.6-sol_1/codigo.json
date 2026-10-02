@@ -1,0 +1,175 @@
+{
+  "consigna": "persona",
+  "unidad": "gpt-5.6-sol_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:04:59+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M157 81q3-41 43-42 42 0 45 43l-4 28q-7 30-40 34-32-4-40-34z\" fill=\"#efad7d\"/> ... <path d=\"M156 348l-5 29h-38.../>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M24 257l16 10 17-10\" fill=\"none\" stroke=\"#203e61\"/> brazos a los costados, postura erguida sin tensión"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M185 119q16 13 32 0\" fill=\"#fff\" stroke=\"#a95855\" stroke-width=\"3\" stroke-linejoin=\"round\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M157 153q15-9 29-10h29q20 2 31 11 12 35 6 89-48 20-104 0-5-55 9-90z\" fill=\"url(#shirt)\"/> <stop stop-color=\"#f05f57\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M151 236q48 15 96 0l23 104h-32l-38-73-34 73h-34z\" fill=\"#345e86\"/> <path d=\"M151 237l7 115h-25l-11-112z\" fill=\"#294b70\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M157 153q15-9 29-10h29... figura centrada frontalmente en el viewBox 0 0 400 400"
+    },
+    {
+      "id": "a7",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M157 81q3-41 43-42 42 0 45 43l-4 28q-7 30-40 34-32-4-40-34z\"/> formas curvas complejas con múltiples puntos de control"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#f05f57\"/> fill=\"#efad7d\" fill=\"#e7a071\" fill=\"#f8d9b7\""
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 330 Q95 290 185 330T400 315V400H0Z\" fill=\"#7ebc92\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"bg\"> <linearGradient id=\"shirt\"> fill=\"url(#bg)\" fill=\"url(#shirt)\""
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"203\" cy=\"370\" rx=\"92\" ry=\"14\" fill=\"#315548\" opacity=\".25\" filter=\"url(#shadow)\"/> <feGaussianBlur stdDeviation=\"5\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 330 Q95 290 185 330T400 315V400H0Z\" fill=\"#7ebc92\"/> <rect width=\"400\" height=\"400\" rx=\"28\" fill=\"url(#bg)\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "estilo caricaturesco con colores cálidos, sonrisa y postura frontal accesible"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M185 119q16 13 32 0\" fill=\"#fff\" stroke=\"#a95855\"/> sonrisa visible"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "figura humana completa con cabeza, torso, brazos, piernas claramente diferenciados"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 330 Q95 290 185 330T400 315V400H0Z\" fill=\"#7ebc92\"/> plano de suelo verde que da profundidad"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M156 348l-5 29h-38... <path d=\"M245 348l7 29h38... pies en la parte baja, figura erguida"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M157 153q15-9 29-10h29q20 2 31 11... torso frontal, ojos y boca visibles al frente"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M185 119q16 13 32 0\" fill=\"#fff\" stroke=\"#a95855\" stroke-width=\"3\" stroke-linejoin=\"round\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M157 92q-15-11-7-39 10-34 48-34 38 0 51 29 8 20-5 45l-7-24q-17 2-31-15-13 17-45 18z\" fill=\"#3a2928\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#f05f57\"/> <stop offset=\"1\" stop-color=\"#c9344b\"/> fill=\"url(#shirt)\""
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M151 236q48 15 96 0l23 104h-32l-38-73-34 73h-34z\" fill=\"#345e86\"/> fill=\"#294b70\""
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M156 348l-5 29h-38c-8 0-10-9-3-13l26-16z\" fill=\"#333c52\"/> <path d=\"M245 348l7 29h38c8 0 10-9 3-13l-27-16z\" fill=\"#333c52\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M151 160q-22 5-31 31l-23 70 19 7 35-64z\" fill=\"#e7a071\"/> <path d=\"M248 160q24 6 32 32l20 68-19 7-34-64z\" fill=\"#e7a071\"/> brazos a los costados"
+    },
+    {
+      "id": "a25",
+      "valor": "no_esta",
+      "evidencia": "no hay bolsillos dibujados en el código; las manos terminan en los brazos laterales sin referencia a bolsillos"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 330 Q95 290 185 330T400 315V400H0Z\" fill=\"#7ebc92\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"203\" cy=\"370\" rx=\"92\" ry=\"14\" fill=\"#315548\" opacity=\".25\" filter=\"url(#shadow)\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#b9e4e7\"/> <stop offset=\"1\" stop-color=\"#f8d9b7\"/> fill=\"url(#bg)\""
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"58\" cy=\"70\" r=\"22\" fill=\"#fff\" opacity=\".35\"/> <circle cx=\"340\" cy=\"105\" r=\"38\" fill=\"#fff\" opacity=\".22\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "proporciones exageradas de cabeza, ojos grandes como elipses, boca curva simple: estilo caricaturesco"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "curvas suaves en todos los paths: Q, q bezier curves en cabeza, cuerpo y fondo"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "fill=\"#efad7d\" fill=\"#e7a071\" fill=\"#efb083\" tonos piel cálidos en cara y brazos"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "colores pastel, sonrisa, fondo verde y celeste, estilo redondeado caricaturesco amable"
+    }
+  ]
+}

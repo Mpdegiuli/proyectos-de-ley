@@ -1,0 +1,180 @@
+{
+  "consigna": "casa",
+  "unidad": "gpt-5.5-2026-04-23_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:32:15+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#8ed8ff\"/><stop offset=\"100%\" stop-color=\"#d9f4ff\"/></linearGradient><rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"324\" cy=\"68\" r=\"30\" fill=\"#ffd75a\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"76\" cy=\"74\" rx=\"28\" ry=\"15\"/> ... <ellipse cx=\"321\" cy=\"107\" rx=\"22\" ry=\"11\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 310 C70 286 126 302 190 284 ...\" fill=\"#7bc96f\"/><path d=\"M0 340 C75 320 130 342 205 322 ...\" fill=\"#54ad5f\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<rect x=\"92\" y=\"170\" width=\"216\" height=\"150\" rx=\"5\" fill=\"url(#wall)\"/><path d=\"M70 174 L200 70 L330 174 Z\" fill=\"#9c3f34\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M70 174 L200 70 L330 174 Z\" fill=\"#9c3f34\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<rect x=\"252\" y=\"95\" width=\"34\" height=\"58\" rx=\"3\" fill=\"#8b3b32\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<rect x=\"168\" y=\"230\" width=\"64\" height=\"90\" rx=\"4\" fill=\"#7a4b32\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<rect x=\"115\" y=\"202\" width=\"48\" height=\"45\" rx=\"3\" fill=\"#8fd2ff\"/><rect x=\"237\" y=\"202\" width=\"48\" height=\"45\" rx=\"3\" fill=\"#8fd2ff\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M155 320 L245 320 L268 370 L132 370 Z\" fill=\"#d8c0a0\"/><path d=\"M167 332 H233 M157 354 H243\" stroke=\"#b69b7c\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"54\" cy=\"286\" r=\"23\"/><circle cx=\"342\" cy=\"282\" r=\"25\"/> ... fill=\"#3e8f45\""
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"324\" cy=\"68\" r=\"30\" fill=\"#ffd75a\"/><rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"wall\"><stop offset=\"0%\" stop-color=\"#ffe0a8\"/><stop offset=\"100%\" stop-color=\"#f2b56f\"/></linearGradient><circle cx=\"324\" cy=\"68\" r=\"30\" fill=\"#ffd75a\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<rect x=\"92\" y=\"170\" width=\"216\" height=\"150\" fill=\"url(#wall)\"/><path fill=\"#9c3f34\"/><circle fill=\"#3e8f45\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"324\" cy=\"68\" r=\"30\" fill=\"#ffd75a\"/><path d=\"M70 174 L200 70 L330 174 Z\" fill=\"#9c3f34\"/><g fill=\"#3e8f45\">"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<rect x=\"92\" y=\"170\" width=\"216\" height=\"150\" fill=\"url(#wall)\"/><path d=\"M70 174 L200 70 L330 174 Z\" fill=\"#9c3f34\"/><rect x=\"168\" y=\"230\" width=\"64\" height=\"90\" fill=\"#7a4b32\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<rect x=\"92\" y=\"170\" width=\"216\" height=\"150\" rx=\"5\"/><path d=\"M70 174 L200 70 L330 174 Z\"/><circle cx=\"54\" cy=\"286\" r=\"23\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "fill=\"#ffd75a\" fill=\"#9c3f34\" fill=\"#7bc96f\" fill=\"#8fd2ff\" fill=\"#ffe0a8\""
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "Casa centrada, árboles a los lados, cielo arriba, prado abajo: <rect x=\"92\" y=\"170\"/><path d=\"M0 310...\"/><circle cx=\"54\"/><circle cx=\"342\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<rect x=\"92\" y=\"170\" width=\"216\" height=\"150\" rx=\"5\" fill=\"url(#wall)\"/><path d=\"M70 174 L200 70 L330 174 Z\" fill=\"#9c3f34\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"wall\"><stop offset=\"0%\" stop-color=\"#ffe0a8\"/><stop offset=\"100%\" stop-color=\"#f2b56f\"/></linearGradient>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M70 174 L200 70 L330 174 Z\" fill=\"#9c3f34\"/><path d=\"M98 169 L200 88 L302 169 Z\" fill=\"#c85543\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<rect x=\"252\" y=\"95\" width=\"34\" height=\"58\" rx=\"3\" fill=\"#8b3b32\"/><rect x=\"246\" y=\"84\" width=\"46\" height=\"13\" rx=\"3\" fill=\"#6b2c29\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<rect x=\"168\" y=\"230\" width=\"64\" height=\"90\" rx=\"4\" fill=\"#7a4b32\" stroke=\"#573421\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<rect x=\"115\" y=\"202\" width=\"48\" height=\"45\" rx=\"3\" fill=\"#8fd2ff\"/><rect x=\"237\" y=\"202\" width=\"48\" height=\"45\" rx=\"3\" fill=\"#8fd2ff\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 310 C70 286 126 302 190 284 ...\" fill=\"#7bc96f\"/><rect x=\"92\" y=\"170\" width=\"216\" height=\"150\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M155 320 L245 320 L268 370 L132 370 Z\" fill=\"#d8c0a0\"/><path d=\"M167 332 H233 M157 354 H243\" stroke=\"#b69b7c\" stroke-width=\"4\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"54\" cy=\"286\" r=\"23\"/><rect x=\"51\" y=\"300\" width=\"10\" height=\"35\" fill=\"#7a4a2a\"/><circle cx=\"342\" cy=\"282\" r=\"25\"/><rect x=\"338\" y=\"300\" width=\"11\" height=\"36\" fill=\"#7a4a2a\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffe26b\" opacity=\".9\"><circle cx=\"124\" cy=\"222\" r=\"3\"/><circle cx=\"151\" cy=\"216\" r=\"3\"/><circle cx=\"248\" cy=\"218\" r=\"3\"/><circle cx=\"276\" cy=\"232\" r=\"3\"/></g>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#8ed8ff\"/><stop offset=\"100%\" stop-color=\"#d9f4ff\"/></linearGradient>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff\" opacity=\".85\"><ellipse cx=\"76\" cy=\"74\" rx=\"28\" ry=\"15\"/>...<ellipse cx=\"321\" cy=\"107\" rx=\"22\" ry=\"11\"/></g>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"324\" cy=\"68\" r=\"30\" fill=\"#ffd75a\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#ffe0a8\"/><stop offset=\"100%\" stop-color=\"#f2b56f\"/><path fill=\"#7bc96f\"/><circle cx=\"54\" fill=\"#3e8f45\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"324\" cy=\"68\" r=\"30\" fill=\"#ffd75a\"/><rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/>"
+    }
+  ]
+}

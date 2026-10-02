@@ -1,0 +1,155 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "gpt-6-luna_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:23:37+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"216\" rx=\"82\" ry=\"49\" fill=\"none\" stroke=\"url(#ring)\" stroke-width=\"34\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M245 188Q270 166 287 151\" fill=\"none\" stroke=\"url(#neck)\" stroke-width=\"22\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M272 151L276 112 300 131 321 106 327 147Q327 174 302 181Q278 177 272 151Z\" .../> y <path d=\"M105 246Q86 237 71 249Q81 261 105 259Z\" .../>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M272 151L276 112 300 131 321 106 327 147Q327 174 302 181Q278 177 272 151Z\" fill=\"#ffad77\" stroke=\"#0b142b\" stroke-width=\"6\" stroke-linejoin=\"round\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M105 246Q86 237 71 249Q81 261 105 259Z\" fill=\"#77dfcf\" stroke=\"#0b142b\" stroke-width=\"5\" stroke-linejoin=\"round\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M202 172Q197 143 206 123\" .../> y <g fill=\"#f29a89\" stroke=\"#0b142b\" stroke-width=\"3\"><ellipse cx=\"206\" cy=\"111\" rx=\"7\" ry=\"15\"/>..."
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "El anillo, el cuello que lo cruza, las dos cabezas y la flor son todos elementos de silueta con stroke grueso visible"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"216\" rx=\"82\" ry=\"49\" fill=\"none\" stroke=\"#0b142b\" stroke-width=\"48\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"ring\"><stop stop-color=\"#69ead0\"/><stop offset=\".55\" stop-color=\"#35bfc4\"/><stop offset=\"1\" stop-color=\"#528ee0\"/></linearGradient>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M155 239Q130 266 124 299l-14 10\"/><path d=\"M182 251Q179 282 191 310l-5 12\"/><path d=\"M231 246Q253 274 259 301l14 9\"/><path d=\"M250 219Q280 234 291 263l15 7\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M105 246Q86 237 71 249Q81 261 105 259Z\" fill=\"#77dfcf\".../>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M245 188Q270 166 287 151\" fill=\"none\" stroke=\"url(#neck)\" stroke-width=\"22\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M272 151L276 112 300 131 321 106 327 147Q327 174 302 181Q278 177 272 151Z\" fill=\"#ffad77\".../>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#f29a89\" stroke=\"#0b142b\" stroke-width=\"3\"><ellipse cx=\"206\" cy=\"111\" rx=\"7\" ry=\"15\"/><ellipse cx=\"193\" cy=\"116\".../>...(5 elipses)"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"323\" cy=\"73\" r=\"28\" fill=\"url(#moon)\"/><circle cx=\"334\" cy=\"64\" r=\"27\" fill=\"#151d38\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff0c4\"><circle cx=\"58\" cy=\"68\" r=\"2\"/><circle cx=\"114\" cy=\"43\" r=\"1.5\"/>..."
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" rx=\"28\" fill=\"#151d38\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"216\" rx=\"82\" ry=\"49\" fill=\"none\" stroke=\"url(#ring)\" stroke-width=\"34\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M245 188Q270 166 287 151\" fill=\"none\" stroke=\"url(#neck)\" stroke-width=\"22\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "Cabeza de zorro: <path d=\"M272 151L276 112...Z\"/> y cabeza de pez: <path d=\"M105 246Q86 237 71 249Q81 261 105 259Z\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M272 151L276 112 300 131 321 106 327 147Q327 174 302 181Q278 177 272 151Z\" fill=\"#ffad77\".../>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M105 246Q86 237 71 249Q81 261 105 259Z\" fill=\"#77dfcf\".../>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#f29a89\" stroke=\"#0b142b\" stroke-width=\"3\"><ellipse cx=\"206\" cy=\"111\" rx=\"7\" ry=\"15\"/>...(5 pétalos)"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" rx=\"28\" fill=\"#151d38\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "Colores: #69ead0, #ffd579, #f4b86c, #77dfcf, #ffad77, #fff0c4 — todos colores saturados y claros sobre fondo oscuro"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "stroke-width=\"48\", stroke-width=\"34\", stroke-width=\"31\", stroke-width=\"24\", stroke-width=\"19\""
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "Formas geométricas básicas: ellipse, path con curvas Q simples, circles"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"ring\"...>, <linearGradient id=\"neck\"...>, <radialGradient id=\"moon\"...>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "Animal con cuerpo anular, dos cabezas distintas, flor-extremidad, luna creciente y estrellas — composición fantástica en SVG vectorial"
+    }
+  ]
+}

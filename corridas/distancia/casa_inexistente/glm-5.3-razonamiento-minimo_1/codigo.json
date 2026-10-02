@@ -1,0 +1,250 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "glm-5.3-razonamiento-minimo_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:57:51+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<rect x=\"140\" y=\"140\" width=\"120\" height=\"90\" fill=\"url(#pared)\"/> sobre <path d=\"M110 250 Q200 220 290 250 Q300 290 260 320 Q200 360 140 320 Q100 290 110 250 Z\" fill=\"#5a8f5a\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M120 252 q-20 -40 -12 -70 q-14 -30 -4 -55\" stroke=\"#9fd8ff\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M132 232 L200 282 L268 232 Z\" fill=\"url(#techo)\"/> (el pico del techo apunta hacia abajo en y=282)"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<rect x=\"188\" y=\"236\" width=\"24\" height=\"34\" rx=\"4\" fill=\"#3a2a4a\"/> (puerta sobre el techo invertido, sin piso accesible)"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M188 276 L188 284 L212 284 L212 276\"/> <path d=\"M186 286 L186 294 L214 294 L214 286\"/> (escalera bajo el techo invertido, hacia el vacío)"
+    },
+    {
+      "id": "a6",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M236 252 q-8 -18 2 -32 q10 -14 2 -30\" stroke=\"#d8d0e8\"/> (el humo sube desde la chimenea hacia arriba, no cae desde abajo)"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M96 262 q4 -14 -2 -26\" stroke=\"#8a6a45\"/> <ellipse cx=\"88\" cy=\"228\" rx=\"16\" ry=\"11\" fill=\"#5a8f5a\"/> (tronco sube y copa está arriba, pero el comentario dice 'creciendo hacia abajo'; la copa está en y=228 sobre la isla en y=250)"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M132 210 q-22 -6 -18 -26 q4 -22 -14 -28\" stroke=\"#f5e6b8\" stroke-width=\"4\" fill=\"none\"/> <circle cx=\"100\" cy=\"152\" r=\"11\" fill=\"#f5e6b8\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#1a2a5e\"/> <stop offset=\"0.5\" stop-color=\"#5a4a9e\"/> <stop offset=\"1\" stop-color=\"#e88a6a\"/> (morados/violetas y naranja)"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"70\" cy=\"60\" r=\"34\" fill=\"url(#luna)\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"330\" cy=\"90\" r=\"3\" fill=\"#fff\"/> <circle cx=\"300\" cy=\"50\" r=\"2\" fill=\"#fff\" opacity=\"0.8\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"1\" stop-color=\"#e88a6a\"/> (naranja crepuscular en la base del gradiente de cielo)"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "casa invertida, cascadas que suben, isla flotante, piedras flotantes, árbol invertido, reloj derretido — múltiples elementos visibles"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "combinación de isla flotante, casa invertida, cascadas ascendentes, reloj derretido, piedras suspendidas"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "todos los elementos imposibles están dibujados con gradientes suaves y formas orgánicas coherentes, sin marcadores de 'error'"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M132 232 L200 282 L268 232 Z\" fill=\"url(#techo)\"/> con pico en y=282 (hacia abajo)"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<rect x=\"188\" y=\"236\" width=\"24\" height=\"34\" rx=\"4\"/> (y=236, techo en y=232-282, puerta sobre el techo)"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M110 250 Q200 220 290 250 Q300 290 260 320 Q200 360 140 320 Q100 290 110 250 Z\" fill=\"#5a8f5a\"/> con casa encima, sin suelo visible"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "la isla está en y≈250-360 sobre fondo de cielo <rect width=\"400\" height=\"400\" fill=\"url(#cielo)\"/>, sin suelo debajo"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0.5\" stop-color=\"#5a4a9e\"/> <stop offset=\"1\" stop-color=\"#e88a6a\"/> (gradiente crepuscular)"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M120 252 q-20 -40 -12 -70 q-14 -30 -4 -55\" stroke=\"#9fd8ff\" stroke-width=\"5\" fill=\"none\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M132 210 q-22 -6 -18 -26 q4 -22 -14 -28\" stroke=\"#f5e6b8\"/> <circle cx=\"100\" cy=\"152\" r=\"11\" fill=\"#f5e6b8\"/> (al costado izquierdo de la casa)"
+    },
+    {
+      "id": "a23",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M236 252 q-8 -18 2 -32 q10 -14 2 -30\" stroke=\"#d8d0e8\"/> (el humo va hacia arriba, no cae; q-8 -18 indica movimiento hacia y menor = arriba)"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<!-- arbolito creciendo hacia abajo --> <path d=\"M96 262 q4 -14 -2 -26\"/> con copa en y=228 sobre la isla"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"60\" cy=\"300\" rx=\"14\" ry=\"9\" opacity=\"0.9\"/> <ellipse cx=\"340\" cy=\"280\" rx=\"10\" ry=\"7\"/> <ellipse cx=\"330\" cy=\"330\" rx=\"16\" ry=\"10\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"70\" cy=\"60\" r=\"34\" fill=\"url(#luna)\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"330\" cy=\"90\" r=\"3\" fill=\"#fff\"/> <circle cx=\"300\" cy=\"50\" r=\"2\" fill=\"#fff\" opacity=\"0.8\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M310 60 q8 -8 16 0 q8 -8 16 0\"/> <path d=\"M60 200 q7 -7 14 0 q7 -7 14 0\" opacity=\"0.7\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M188 276 L188 284 L212 284 L212 276\"/> (escalera emerge del techo invertido hacia abajo/vacío)"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"152\" cy=\"140\" r=\"7\"/> <path d=\"M146 148 q6 -4 12 0 l4 18 h-20 Z\"/> (persona en borde superior de la casa/isla)"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0.5\" stop-color=\"#5a4a9e\"/> (púrpura) <stop offset=\"0\" stop-color=\"#c94f6d\"/> (rosa) <circle cx=\"106\" cy=\"122\" r=\"4\" fill=\"#cfeeff\"/> (celeste)"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "isla flotante + casa invertida + cascadas ascendentes + reloj derretido + piedras suspendidas"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"100\" cy=\"152\" r=\"11\" fill=\"#f5e6b8\"/> con <path d=\"M132 210 q-22 -6 -18 -26 q4 -22 -14 -28\" stroke=\"#f5e6b8\" stroke-width=\"4\"/> (reloj que se derrite/cuelga)"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<path d=\"M132 232 L200 282 L268 232 Z\" fill=\"url(#techo)\"/> (techo con pico apuntando a y=282, hacia abajo)"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "isla en fondo de cielo sin suelo: <rect width=\"400\" height=\"400\" fill=\"url(#cielo)\"/> y <path d=\"M110 250 Q200 220 290 250...\" fill=\"#5a8f5a\"/>"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<path d=\"M282 252 q18 -35 10 -62 q12 -28 4 -50\" stroke=\"#9fd8ff\" stroke-width=\"4\" fill=\"none\"/>"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<path d=\"M184 296 L184 304 L216 304 L216 296\"/> (último peldaño termina en y=304, debajo del techo, hacia el vacío)"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"100\" cy=\"152\" r=\"11\" fill=\"#f5e6b8\" stroke=\"#a89050\" stroke-width=\"2\"/> con trazo colgante"
+    },
+    {
+      "id": "a39",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M236 252 q-8 -18 2 -32 q10 -14 2 -30\" stroke=\"#d8d0e8\"/> (humo sube hacia valores menores de y = hacia arriba)"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<!-- arbolito creciendo hacia abajo --> <ellipse cx=\"88\" cy=\"228\" rx=\"16\" ry=\"11\" fill=\"#5a8f5a\"/> (copa en y menor que base)"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"60\" cy=\"300\" rx=\"14\" ry=\"9\" opacity=\"0.9\"/> sin soporte visible debajo"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#1a2a5e\"/> <stop offset=\"0.5\" stop-color=\"#5a4a9e\"/> (violetas) <stop offset=\"1\" stop-color=\"#e88a6a\"/> (naranja)"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "isla flotante + casa invertida + cascadas ascendentes + piedras suspendidas + árbol invertido"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "reloj derretido + isla flotante + gravedad invertida + elementos imposibles combinados coherentemente"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "<path d=\"M132 210 q-22 -6 -18 -26 q4 -22 -14 -28\" stroke=\"#f5e6b8\" stroke-width=\"4\"/> <circle cx=\"100\" cy=\"152\" r=\"11\" fill=\"#f5e6b8\"/>"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "<path d=\"M110 250 Q200 220 290 250 Q300 290 260 320 Q200 360 140 320 Q100 290 110 250 Z\" fill=\"#5a8f5a\"/> (isla flotante orgánica estilo Ghibli)"
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"cielo\"> <linearGradient id=\"pared\"> <linearGradient id=\"techo\"> <radialGradient id=\"luna\"> (múltiples gradientes suaves)"
+    },
+    {
+      "id": "a48",
+      "valor": "esta",
+      "evidencia": "<path d=\"M110 250 Q200 220 290 250 Q300 290 260 320 Q200 360 140 320 Q100 290 110 250 Z\"/> (curvas Bézier cuadráticas Q) y <path d=\"M120 252 q-20 -40 -12 -70 q-14 -30 -4 -55\"/> (curvas q relativas)"
+    }
+  ]
+}

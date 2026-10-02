@@ -1,0 +1,215 @@
+{
+  "consigna": "casa",
+  "unidad": "gpt-5.6-sol_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:32:50+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M55 188 198 72 346 188Z\" fill=\"url(#roof)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff\" opacity=\".45\"><circle cx=\"283\" cy=\"38\" r=\"10\"/><circle cx=\"297\" cy=\"25\" r=\"14\"/><circle cx=\"312\" cy=\"12\" r=\"17\"/></g>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<rect x=\"168\" y=\"226\" width=\"68\" height=\"109\" rx=\"3\" fill=\"#7e442b\""
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<rect x=\"96\" y=\"221\" width=\"52\" height=\"57\" rx=\"2\" fill=\"#bcecff\"/> <rect x=\"255\" y=\"221\" width=\"50\" height=\"57\" rx=\"2\" fill=\"#bcecff\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#db5a68\"><circle cx=\"96\" cy=\"287\" r=\"9\"/><circle cx=\"111\" cy=\"291\" r=\"10\"/>..."
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"35\" cy=\"215\" r=\"38\" fill=\"#3b883f\"/> ... <g fill=\"#d74b42\"><circle cx=\"18\" cy=\"217\" r=\"4\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "no_esta",
+      "evidencia": "No hay paths o formas que representen colinas en el fondo; el fondo es cielo y césped plano."
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff\" opacity=\".8\"><ellipse cx=\"75\" cy=\"69\" rx=\"39\" ry=\"14\"/>..."
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"328\" cy=\"68\" r=\"31\" fill=\"#fff4a8\" opacity=\".95\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 267 Q70 230 142 263 T279 254 T400 265 V400H0Z\" fill=\"url(#grass)\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M183 347 Q203 336 224 347 L255 400H143Z\" fill=\"#d8c6a2\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/> con cielo azul claro y sol visible"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "Casa con jardín, árbol, flores, sendero y césped componen un entorno rural"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "Colores como #8ed6ff, #ffe3a5, #78bd57 son tonos suaves y pastel"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\">, <linearGradient id=\"grass\">, <linearGradient id=\"wall\">, <linearGradient id=\"roof\">"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#7e3127\" stroke-width=\"2\" opacity=\".7\"><path d=\"M83 168h234M98 155h204...\""
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "Combinación de casa con degradados, árbol frutal, flores y sendero evoca ilustración de cuento"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "Colores cálidos #ffe3a5, #e9b86d en paredes, techo rojo, flores y árbol componen escena acogedora"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "Estructura clara: techo triangular, paredes, puerta central y ventanas simétricas"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "Árbol a un lado, flores en cantero, pequeñas flores dispersas sin sobrecargar"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"206\" cy=\"342\" rx=\"150\" ry=\"24\" fill=\"#265d35\" opacity=\".25\" filter=\"url(#shadow)\"/> y gradientes"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<rect x=\"76\" y=\"175\" width=\"249\" height=\"160\" rx=\"3\" fill=\"url(#wall)\"/> con stop-color=\"#ffe3a5\""
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M55 188 198 72 346 188Z\" fill=\"url(#roof)\"/> con stop-color=\"#c85542\""
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M265 114V61h34v80\" fill=\"#a84d3d\" stroke=\"#682b25\" stroke-width=\"5\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff\" opacity=\".45\"><circle cx=\"283\" cy=\"38\" r=\"10\"/><circle cx=\"297\" cy=\"25\" r=\"14\"/><circle cx=\"312\" cy=\"12\" r=\"17\"/></g>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<rect x=\"168\" y=\"226\" width=\"68\" height=\"109\" rx=\"3\" fill=\"#7e442b\" stroke=\"#59301f\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<rect x=\"96\" y=\"221\" width=\"52\" height=\"57\" rx=\"2\" fill=\"#bcecff\"/> y <rect x=\"255\" y=\"221\" width=\"50\" height=\"57\" rx=\"2\" fill=\"#bcecff\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<rect x=\"85\" y=\"289\" width=\"73\" height=\"12\" rx=\"4\" fill=\"#6c3f2c\"/> con flores <g fill=\"#db5a68\">"
+    },
+    {
+      "id": "a29",
+      "valor": "no_esta",
+      "evidencia": "No hay formas de colinas alrededor de la casa; solo césped plano con path ondulado"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"35\" cy=\"215\" r=\"38\" fill=\"#3b883f\"/> con <g fill=\"#d74b42\"><circle cx=\"18\" cy=\"217\" r=\"4\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#f3d555\"><circle cx=\"80\" cy=\"350\" r=\"5\"/><circle cx=\"323\" cy=\"340\" r=\"5\"/><circle cx=\"355\" cy=\"363\" r=\"5\"/></g>"
+    },
+    {
+      "id": "a32",
+      "valor": "no_esta",
+      "evidencia": "El sendero <path d=\"M183 347 Q203 336 224 347 L255 400H143Z\" fill=\"#d8c6a2\"/> no muestra piedras individuales"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/> con stop-color=\"#8ed6ff\""
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff\" opacity=\".8\"><ellipse cx=\"75\" cy=\"69\" rx=\"39\" ry=\"14\"/>..."
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"328\" cy=\"68\" r=\"31\" fill=\"#fff4a8\" opacity=\".95\"/>"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\">, <linearGradient id=\"grass\">, <linearGradient id=\"wall\">, <linearGradient id=\"roof\">"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"206\" cy=\"342\" rx=\"150\" ry=\"24\" fill=\"#265d35\" opacity=\".25\" filter=\"url(#shadow)\"/>"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#7e3127\" stroke-width=\"2\" opacity=\".7\"><path d=\"M83 168h234M98 155h204M114 142h172...\""
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "Estilo visual con degradados suaves, casa colorida, árbol frutal y flores evoca ilustración de cuento"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "Paleta cálida #ffe3a5, #c85542, flores rosas, árbol verde y cielo azul claro transmiten calidez"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "Gradientes en cielo, pared y techo + sombra <filter id=\"shadow\"> dan profundidad visual"
+    }
+  ]
+}

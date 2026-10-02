@@ -1,0 +1,220 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "deepseek-v4-pro_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T01:16:44+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "path d=\"M85,230 C95,245 110,260 140,275 C170,290 230,300 280,295 C310,290 335,275 345,255 L355,225 C360,210 350,195 335,190...\""
+    },
+    {
+      "id": "a2",
+      "valor": "contradice",
+      "evidencia": "path d=\"M130,280 Q110,320 90,350 Q80,370 100,380\" — los tentáculos cuelgan bajo el casco pero no hay agua; salen hacia abajo en el aire"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "path d=\"M120,140 Q145,160 160,140 Q155,190 145,200 Q130,190 120,140 Z\" fill=\"url(#sailGrad)\" — formas curvas como membranas"
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "hay mástiles: line x1=\"200\" y1=\"220\" x2=\"195\" y2=\"80\"; los globos son adicionales, no reemplazan mástiles"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "casco + tentáculos + globos + velas + ojo en proa + lumbreras: combinación de criatura y nave"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "tentáculos: path d=\"M130,280 Q110,320 90,350...\"; casco curvado; globos; velas membranosas — lectura de medusa-nave"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "barco con globos aerostáticos, tentáculos, velas membranosas, ojo: configuración imposible como nave real"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "linearGradient id=\"sky\": stop stop-color=\"#0d0221\", stop-color=\"#1a0b2e\", stop-color=\"#3c1b5a\" — nocturno púrpura"
+    },
+    {
+      "id": "a9",
+      "valor": "no_esta",
+      "evidencia": "no hay elemento con color plateado/plata ni etiqueta de bruma; los paths de neblina son fill=\"#ffffff\" opacity=\"0.08\""
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "path d=\"M85,230 C95,245 110,260 140,275 C170,290 230,300 280,295...\" — casco con curvas"
+    },
+    {
+      "id": "a11",
+      "valor": "no_esta",
+      "evidencia": "fill=\"url(#hullGrad)\" con colores #1a0b2e, #4a2a5a, #2a1a3a — tonos morado oscuro, no madera"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "linearGradient id=\"sailGrad\": stop-color=\"#c07ab0\" ... stop-color=\"#6a3a6a\" — rosado/rosa"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "linearGradient id=\"sailGrad2\": stop-color=\"#80c0e0\" ... stop-color=\"#2a5a7a\" — azul"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "line x1=\"200\" y1=\"220\" x2=\"195\" y2=\"80\" — mástil de 140px de alto"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "ellipse cx=\"120\" cy=\"100\" rx=\"22\" ry=\"28\" fill=\"url(#balloon1)\"; ellipse cx=\"180\" cy=\"70\"...; ellipse cx=\"240\" cy=\"85\"..."
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "path d=\"M120,128 Q125,150 140,220\" stroke=\"#c0a0c0\" — líneas que conectan globos al casco, sugiriendo que elevan"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "g stroke=\"url(#tentacleGrad)\" stroke-width=\"6\": path d=\"M130,280 Q110,320 90,350 Q80,370 100,380\" — tentáculos bajo casco"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "circle cx=\"180\" cy=\"250\" r=\"6\" fill=\"#ffd699\"; circle cx=\"260\" cy=\"255\" r=\"6\" fill=\"#ffd699\" — dos lumbreras doradas"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "circle cx=\"70\" cy=\"245\" r=\"4\" fill=\"#ffd699\"; circle cx=\"180\" cy=\"250\" r=\"3\" fill=\"#1a0b2e\" — pupila oscura en círculo dorado, aire de ojo vigilante"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "ojo en proa (circle cx=\"70\" cy=\"245\"), tentáculos, boca: path d=\"M60,260 Q75,275 Q90,265\" — elementos de criatura viva"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "casco (goleta), ellipse balloon1/2/3 (globo aerostático), tentáculos (medusa) — todos presentes"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "linearGradient id=\"sky\" stop-color=\"#0d0221\" — fondo nocturno oscuro"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "path casco + ellipse globos + path velas + path tentáculos — todos en el código"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "g stroke=\"url(#tentacleGrad)\": path d=\"M130,280 Q110,320 90,350...\" — tentáculos desde la zona del casco hacia abajo"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "path d=\"M120,140 Q145,160 160,140 Q155,190 145,200 Q130,190 120,140 Z\" — formas cerradas curvas no convencionales"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "ellipse cx=\"120\" cy=\"100\" rx=\"22\" ry=\"28\" fill=\"url(#balloon1)\" — globos integrados al conjunto del barco"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "circle cx=\"320\" cy=\"80\" r=\"18\" fill=\"#fff8d6\" filter=\"url(#glow)\" — glow difumina la luna"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "g fill=\"#ffffff\" opacity=\"0.7\": circle cx=\"30\" cy=\"50\" r=\"1.5\" ... — múltiples estrellas"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "stop-color=\"#3c1b5a\", fill=\"#4a2a5a\", fill=\"#c07ab0\" — violetas presentes"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "stop-color=\"#80c0e0\", stop-color=\"#2a5a7a\", stop-color=\"#3a6a9a\" — azules presentes"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "stop-color=\"#ffb3c6\", stop-color=\"#c04a6a\", stop-color=\"#c07ab0\" — rosas presentes"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "fill=\"#ffd699\", stop-color=\"#ffd699\", stop-color=\"#c07a2a\" — dorados presentes"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "path d=\"M370,255 Q390,260 400,275...\" fill=\"#c07ab0\" — elemento decorativo en popa; detalle de ojo y boca"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "path d=\"M130,280 Q110,320 90,350...\"; múltiples Q y C en paths — curvas abundantes"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "linearGradient id=\"sky\" stop-color=\"#0d0221\" — fondo nocturno"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "g fill=\"#ffffff\" opacity=\"0.08\": path d=\"M0,300 Q50,270...\" — neblina blanca translúcida que difumina límite mar/cielo"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "tentáculos + ojo + boca + sin suelo visible — barco como criatura flotante"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "degradados oscuros nocturnos, globos, tentáculos, luna con glow, paleta onírica — atmósfera de sueño"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "nave imposible con globos, tentáculos, velas membranosas, ojo — elementos surrealistas"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "paleta nocturna, formas imposibles, glow en luna, tentáculos — estilo onírico"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "fondo sky nocturno + luna con glow + estrellas + nave fantástica — ilustración fantástica nocturna"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "stop-color=\"#0d0221\" cielo casi negro cósmico + estrellas + luna + paleta espacial profunda"
+    }
+  ]
+}

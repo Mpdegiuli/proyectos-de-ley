@@ -1,0 +1,170 @@
+{
+  "consigna": "mundo",
+  "unidad": "claude-fable-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:17:36+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"110\" fill=\"url(#mundo)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<!-- continentes imaginarios --> <path d=\"M150 130 q20 -18 45 -10 ..."
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<!-- grietas del mundo, con luz saliendo --> <path d=\"M175 100 q10 30 -5 55 ..."
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"grieta\"><stop offset=\"0%\" stop-color=\"#ff9a56\"/><stop offset=\"100%\" stop-color=\"#ffd166\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<!-- brotes verdes creciendo de las grietas --> <g stroke=\"#7ee08a\" ...> <ellipse cx=\"161\" cy=\"176\" .../>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<!-- red de conexiones humanas alrededor --> <g stroke=\"#ffd166\" stroke-width=\"1\" opacity=\"0.55\" fill=\"none\">"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<!-- puntos de luz: personas --> <circle cx=\"90\" cy=\"40\" r=\"4.5\" fill=\"#ffd166\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<!-- red de conexiones humanas alrededor --> paths van a cx=90 cy=40, cx=315 cy=35, etc., fuera del radio 110 del planeta centrado en 200,200"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<!-- pequeña luna testigo --> <circle cx=\"345\" cy=\"80\" r=\"14\" fill=\"#e8e8f0\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<!-- pequeña luna testigo --> (comentario del código)"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<!-- cometa de esperanza --> <circle cx=\"97\" cy=\"119\" r=\"3\" fill=\"#ffffff\"/> <path d=\"M55 130 L95 118\" stroke=\"#ffffff\".../>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<!-- fondo nocturno --> <rect width=\"400\" height=\"400\" fill=\"url(#cielo)\"/> <radialGradient id=\"cielo\"><stop stop-color=\"#1a2a4a\"/>...<stop stop-color=\"#060a1a\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "grietas presentes pero planeta completo: <circle cx=\"200\" cy=\"200\" r=\"110\" fill=\"url(#mundo)\"/> sin roturas en la forma"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"url(#grieta)\" fill=\"none\"...> con grieta en naranjas/dorados #ff9a56 y #ffd166"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<!-- cometa de esperanza --> y <!-- brotes verdes creciendo de las grietas -->"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"110\" fill=\"url(#mundo)\"/> con gradiente azul terrestre"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#cielo)\"/> fondo oscuro nocturno, estrellas presentes"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "el planeta está en el centro sin suelo ni soporte: <circle cx=\"200\" cy=\"200\" r=\"110\" fill=\"url(#mundo)\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M175 100 q10 30 -5 55 q-12 22 2 45\" stroke-width=\"2.5\" opacity=\"0.9\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"grieta\"><stop offset=\"0%\" stop-color=\"#ff9a56\"/><stop offset=\"100%\" stop-color=\"#ffd166\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#7ee08a\" stroke-width=\"2\" fill=\"none\"> y <g fill=\"#7ee08a\"><ellipse .../>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#ffd166\" stroke-width=\"1\" opacity=\"0.55\" fill=\"none\"> <!-- red de conexiones humanas alrededor -->"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "paths conectan puntos: <circle cx=\"90\" cy=\"40\" r=\"4.5\" fill=\"#ffd166\"/> con <path d=\"M110 105 Q60 60 90 40\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"345\" cy=\"80\" r=\"14\" fill=\"#e8e8f0\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<!-- pequeña luna testigo --> sin interacción visual con otros elementos"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M55 130 L95 118\" stroke=\"#ffffff\" stroke-width=\"1.5\" opacity=\"0.5\"/> <circle cx=\"97\" cy=\"119\" r=\"3\" fill=\"#ffffff\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "grietas en el planeta y brotes pequeños sugieren fragilidad: <path d=\"M175 100 q10 30 -5 55...\" stroke-width=\"2.5\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "no_esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"110\" fill=\"url(#mundo)\"/> forma completa sin divisiones"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "brotes verdes, red de conexiones doradas y puntos de personas alrededor del planeta completo"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<!-- grietas del mundo, con luz saliendo --> stroke=\"url(#grieta)\" con colores cálidos #ff9a56 y #ffd166"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "grietas con luz cálida y brotes verdes simultáneos sobre planeta entero"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<!-- cometa de esperanza --> <path d=\"M55 130 L95 118\".../>"
+    }
+  ]
+}

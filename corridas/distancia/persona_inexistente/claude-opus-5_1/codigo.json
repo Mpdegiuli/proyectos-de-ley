@@ -1,0 +1,205 @@
+{
+  "consigna": "persona_inexistente",
+  "unidad": "claude-opus-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:12:42+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 88 C246 88 272 124 272 172 ... fill=\"url(#skin)\"/> con hombros/ropa y cuello"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "ojos en cx=\"175\" y cx=\"225\" simétricos, nariz centrada en x=200, boca centrada"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M120 162 C116 104 152 72 201 72 C252 72 286 104 282 166 C276 132 264 112 240 110 C214 108 188 126 160 142 C144 151 130 158 120 162 Z\" fill=\"url(#hair)\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M112 170 C104 232 108 268 120 296 ...\" fill=\"url(#hair)\"/> y <path d=\"M288 170 C296 232 292 272 278 302 ...\" fill=\"url(#hair)\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"175\" cy=\"182\" r=\"8.5\" fill=\"#4a6b4a\"/> y <circle cx=\"225\" cy=\"182\" r=\"8.5\" fill=\"#4a6b4a\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M154 158 C164 149 186 148 196 156\" stroke=\"#33200f\" stroke-width=\"7\" fill=\"none\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#b9805c\" opacity=\"0.55\"><circle cx=\"180\" cy=\"205\" r=\"1.5\"/><circle cx=\"190\" cy=\"212\" r=\"1.2\"/>..."
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180 230 C188 224 194 227 200 227 C206 227 212 224 220 230 C212 242 188 242 180 230 Z\" fill=\"#b5605a\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"132\" cy=\"202\" r=\"6\" fill=\"none\" stroke=\"#e8c15e\" stroke-width=\"3\"/> y <circle cx=\"268\" cy=\"202\" r=\"6\" fill=\"none\" stroke=\"#e8c15e\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M60 400 C66 336 112 312 165 300 L235 300 C288 312 334 336 340 400 Z\" fill=\"url(#shirt)\"/> con <stop offset=\"0%\" stop-color=\"#3c6e78\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M165 300 L200 340 L235 300 L222 296 L200 318 L178 296 Z\" fill=\"#f2f0e8\" opacity=\"0.92\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"bg\"><stop offset=\"0%\" stop-color=\"#cfe3e6\"/><stop offset=\"100%\" stop-color=\"#8fb0bb\"/></linearGradient>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"halo\"><stop offset=\"0%\" stop-color=\"#fdf6e8\" stop-opacity=\"0.9\"/><stop offset=\"100%\" stop-color=\"#fdf6e8\" stop-opacity=\"0\"/></radialGradient> aplicado en <circle cx=\"200\" cy=\"180\" r=\"165\" fill=\"url(#halo)\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"180\" r=\"165\" fill=\"url(#halo)\"/> con degradado cálido que contrasta con el fondo frío #cfe3e6"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "múltiples linearGradient y radialGradient, paths con curvas C y Q en todo el dibujo"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180 230 C188 224 194 227 200 227 C206 227 212 224 220 230 ...\" fill=\"#b5605a\"/> boca contenida, no abierta"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "rubor en mejillas <ellipse cx=\"157\" cy=\"207\" ... fill=\"url(#cheek)\"/>, sonrisa, pecas y halo cálido"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "cara, cuello, hombros, ojos, nariz, boca dibujados"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "la cabeza se forma con <ellipse cx=\"200\" cy=\"158\" rx=\"88\" ry=\"92\" fill=\"url(#hair)\"/> (pelo) y cara <path d=\"M200 88 C246 88 272 124 272 172 ...\">, sin cierre explícito del cráneo óseo"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"158\" rx=\"88\" ry=\"92\" fill=\"url(#hair)\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M112 170 C104 232 108 268 120 296 ...\" fill=\"url(#hair)\"/> y <path d=\"M288 170 C296 232 292 272 278 302 ...\" fill=\"url(#hair)\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "no hay ningún path que dibuje la nuca; los mechones laterales terminan en los hombros sin cerrar por detrás"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"131\" cy=\"182\" rx=\"12\" ry=\"18\" fill=\"#dda87f\"/> y <ellipse cx=\"269\" cy=\"182\" rx=\"12\" ry=\"18\" fill=\"#dda87f\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "no_esta",
+      "evidencia": "<circle cx=\"132\" cy=\"202\" r=\"6\" .../> y <circle cx=\"268\" cy=\"202\" r=\"6\" .../> están en cy=202, debajo del pelo (elipse ry=92 desde cy=158, borde inferior ~250), aros están dentro de la zona de la oreja/cara"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 186 C197 200 192 208 190 212 C193 216 204 217 209 213\" stroke=\"#bc8158\" stroke-width=\"3\" fill=\"none\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "nariz dibujada solo con stroke, fill=\"none\", sin relleno de volumen"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "ambos ojos centrados simétricamente cx=\"175\" y cx=\"225\" mirando al frente"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#b9805c\" opacity=\"0.55\"><circle cx=\"180\" cy=\"205\" r=\"1.5\"/>...<circle cx=\"221\" cy=\"203\" r=\"1.3\"/>...</g>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"157\" cy=\"207\" rx=\"19\" ry=\"13\" fill=\"url(#cheek)\"/> y <ellipse cx=\"243\" cy=\"207\" rx=\"19\" ry=\"13\" fill=\"url(#cheek)\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "contradice",
+      "evidencia": "múltiples gradientes: url(#skin), url(#hair), url(#shirt), url(#cheek), url(#halo) — no es plana"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skin\"><stop offset=\"0%\" stop-color=\"#f0c39c\"/><stop offset=\"60%\" stop-color=\"#e3ad84\"/><stop offset=\"100%\" stop-color=\"#c98f68\"/></linearGradient>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "retrato de busto frontal con rasgos estilizados, colores planos-graduados, sin fondo complejo"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "uso de gradientes, halo, pecas, rubor, ilustración vectorial con detalles cuidados"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "paths grandes para cara, pelo, ropa sin detalles menudos, formas amplias"
+    },
+    {
+      "id": "a35",
+      "valor": "contradice",
+      "evidencia": "<path d=\"M156 182 ... \" stroke=\"#2d1f14\" stroke-width=\"3.2\" fill=\"none\"/> contornos en ojos, cejas stroke=\"#33200f\" stroke-width=\"7\""
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"180\" r=\"165\" fill=\"url(#halo)\"/> con radialGradient difuso sin fuente puntual"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "pecas fill=\"#b9805c\" opacity=\"0.55\" y rubor url(#cheek) con stop-color=\"#d9745c\""
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "cara dibujada como path frontal simétrico, sin construcción lateral; orejas como elipses planas"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "toda la geometría es simétrica y frontal; no hay perspectiva ni información lateral en ningún elemento"
+    }
+  ]
+}

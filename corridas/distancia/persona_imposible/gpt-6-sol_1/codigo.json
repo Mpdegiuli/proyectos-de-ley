@@ -1,0 +1,190 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "gpt-6-sol_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:35:55+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M189 150v-13m22 13v-13\" stroke=\"#f6c69e\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-dasharray=\"3 6\"/> <circle cx=\"200\" cy=\"137\" r=\"2\" fill=\"#ffe5bd\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<!-- Cuerpo: una ventana donde debería haber un corazón --> <path d=\"M165 183Q200 170 235 183L227 248Q201 267 173 248Z\" fill=\"#111b38\" stroke=\"#ffd9ae\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<!-- Dentro del pecho vive la misma persona, cabeza abajo --> <g transform=\"rotate(180 200 222)\">"
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento que dibuje un tercer ojo en el código."
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<!-- Piernas que se deshacen en raíces y constelaciones --> <path d=\"M140 360q-18 3-29 17m31-14q-2 14-16 22m33-23q7 10 3 23\" fill=\"none\" stroke=\"#d5a1ab\" stroke-width=\"5\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<!-- Piernas que se deshacen en raíces y constelaciones --> <circle cx=\"111\" cy=\"377\" r=\"3\" fill=\"#ffd59c\"/> <circle cx=\"270\" cy=\"384\" r=\"3\" fill=\"#ffd59c\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<!-- Una mano sostiene el día; la otra, la noche --> <circle cx=\"60\" cy=\"181\" r=\"17\" fill=\"#ffcb83\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"339\" cy=\"164\" r=\"19\" fill=\"#c0b8d8\"/> <circle cx=\"348\" cy=\"157\" r=\"18\" fill=\"#10152d\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M166 78Q166 48 199 46Q234 48 234 79L229 104Q218 128 200 128Q181 128 171 105Z\" fill=\"url(#skin)\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#10152d\"/> — no hay suelo, la figura flota sobre fondo oscuro."
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#10152d\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M189 150v-13m22 13v-13\" stroke-dasharray=\"3 6\"/> — cuello con línea discontinua sugiere separación."
+    },
+    {
+      "id": "a13",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento que dibuje un tercer ojo en el código."
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M165 183Q200 170 235 183L227 248Q201 267 173 248Z\" fill=\"#111b38\" stroke=\"#ffd9ae\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<g transform=\"rotate(180 200 222)\"> <circle cx=\"200\" cy=\"232\" r=\"8\" fill=\"#e9b2a8\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<g transform=\"rotate(180 200 222)\">"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M140 360q-18 3-29 17m31-14q-2 14-16 22m33-23q7 10 3 23\" fill=\"none\" stroke=\"#d5a1ab\" stroke-width=\"5\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"111\" cy=\"377\" r=\"3\" fill=\"#ffd59c\"/> <circle cx=\"270\" cy=\"384\" r=\"3\" fill=\"#ffd59c\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<!-- Una mano sostiene el día; la otra, la noche --> <circle cx=\"60\" cy=\"181\" r=\"17\" fill=\"#ffcb83\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"339\" cy=\"164\" r=\"19\" fill=\"#c0b8d8\"/> <circle cx=\"348\" cy=\"157\" r=\"18\" fill=\"#10152d\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "no_esta",
+      "evidencia": "El código no contiene elementos que expresen directamente esa impresión subjetiva."
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M166 78Q166 48 199 46Q234 48 234 79L229 104Q218 128 200 128Q181 128 171 105Z\" fill=\"url(#skin)\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento que dibuje un tercer ojo en el código."
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M189 150v-13m22 13v-13\" stroke-dasharray=\"3 6\"/> — cuello discontinuo indica separación."
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<!-- Cuerpo: una ventana donde debería haber un corazón --> <path d=\"M165 183...\" fill=\"#111b38\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<g transform=\"rotate(180 200 222)\"> <circle cx=\"200\" cy=\"232\" r=\"8\" fill=\"#e9b2a8\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<g transform=\"rotate(180 200 222)\">"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M140 360q-18 3-29 17m31-14q-2 14-16 22m33-23q7 10 3 23\" fill=\"none\" stroke=\"#d5a1ab\" stroke-width=\"5\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"111\" cy=\"377\" r=\"3\" fill=\"#ffd59c\"/> <circle cx=\"270\" cy=\"384\" r=\"3\" fill=\"#ffd59c\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"60\" cy=\"181\" r=\"17\" fill=\"#ffcb83\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"339\" cy=\"164\" r=\"19\" fill=\"#c0b8d8\"/> <circle cx=\"348\" cy=\"157\" r=\"18\" fill=\"#10152d\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#10152d\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"190\" r=\"156\" fill=\"none\" stroke=\"#77749a\" stroke-opacity=\".32\"/> <circle cx=\"200\" cy=\"190\" r=\"132\" fill=\"none\" stroke=\"#e6ba9b\" stroke-opacity=\".2\" stroke-dasharray=\"2 9\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "contradice",
+      "evidencia": "Las formas usan múltiples paths complejos, gradientes, clipPaths y transformaciones: <linearGradient id=\"skin\"> ... <clipPath id=\"face\">"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#ffd6a0\"/> <stop offset=\".55\" stop-color=\"#db8eaa\"/> <stop offset=\"1\" stop-color=\"#7967a5\"/>"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "Combinación de: figura humana flotante, <g transform=\"rotate(180 200 222)\">, piernas en raíces/constelaciones, ventana en el pecho, sol y luna en manos — ilustración fantástica y surrealista."
+    }
+  ]
+}

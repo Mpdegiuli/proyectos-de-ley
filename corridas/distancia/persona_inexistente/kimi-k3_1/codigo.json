@@ -1,0 +1,290 @@
+{
+  "consigna": "persona_inexistente",
+  "unidad": "kimi-k3_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:25:53+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"hair\"><stop offset=\"0\" stop-color=\"#8e3ffc\"/><stop offset=\"1\" stop-color=\"#ff4f9e\"/></linearGradient>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"176\" cy=\"186\" r=\"22\"/> <circle cx=\"224\" cy=\"186\" r=\"22\"/> stroke=\"#f7c873\""
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"134\" cy=\"222\" r=\"4.5\"/> <circle cx=\"266\" cy=\"222\" r=\"4.5\"/> stroke=\"#f7c873\""
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"228\" cy=\"240\" r=\"1.6\" fill=\"#8a4a2f\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"170\" cy=\"205\" r=\"1.4\"/> <circle cx=\"180\" cy=\"209\" r=\"1.4\"/> fill=\"#b9703f\""
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M92 400 C98 322 138 290 200 290 C262 290 302 322 308 400 Z\" fill=\"#23b5a5\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "ojos grandes rx=\"12.5\" ry=\"13.5\", cabeza amplia rx=\"66\" ry=\"78\", degradados planos"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "proporciones exageradas, ojos grandes, pelo degradado violeta-fucsia, elementos decorativos dorados"
+    },
+    {
+      "id": "a9",
+      "valor": "contradice",
+      "evidencia": "<path d=\"M92 400 C98 322 138 290 200 290 ... fill=\"#23b5a5\"/> cuerpo/torso visible"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"185\" rx=\"66\" ry=\"78\" fill=\"url(#skin)\"/> cara de frente, figura femenina imaginaria"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "figura centrada, cara de frente, busto visible"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"bg\"><stop offset=\"0\" stop-color=\"#251347\"/><stop offset=\"1\" stop-color=\"#0e3a53\"/></linearGradient>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "fondo oscuro #251347 a #0e3a53, estrellas blancas, chispas doradas"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 58 C126 58 96 122 102 196 ... fill=\"url(#hair)\"/> pelo que baja hasta la cintura aproximadamente"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"hair\"><stop offset=\"0\" stop-color=\"#8e3ffc\"/><stop offset=\"1\" stop-color=\"#ff4f9e\"/></linearGradient>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M133 176 C130 92 168 70 200 70 ... Z\" fill=\"url(#hair)\"/> flequillo con picos irregulares"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M158 96 C172 84 190 80 206 82\" stroke=\"#ffffff\" stroke-width=\"5\" opacity=\"0.25\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"176\" cy=\"186\" r=\"22\"/> <circle cx=\"224\" cy=\"186\" r=\"22\"/> stroke=\"#f7c873\" stroke-width=\"3\""
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"176\" cy=\"186\" rx=\"12.5\" ry=\"13.5\" fill=\"#ffffff\"/> <circle cx=\"177\" cy=\"188\" r=\"6.5\" fill=\"#6b4226\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"179.5\" cy=\"185\" r=\"1.8\" fill=\"#ffffff\"/> <circle cx=\"227.5\" cy=\"185\" r=\"1.8\" fill=\"#ffffff\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"170\" cy=\"205\" r=\"1.4\"/> <circle cx=\"180\" cy=\"209\" r=\"1.4\"/> <circle cx=\"200\" cy=\"207\" r=\"1.2\"/> fill=\"#b9703f\""
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"157\" cy=\"216\" rx=\"10\" ry=\"6\" fill=\"#f27d7d\" opacity=\"0.45\"/> <ellipse cx=\"243\" cy=\"216\" rx=\"10\" ry=\"6\" fill=\"#f27d7d\" opacity=\"0.45\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"228\" cy=\"240\" r=\"1.6\" fill=\"#8a4a2f\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M183 232 Q200 247 217 232\" stroke=\"#b0524f\" stroke-width=\"4.5\" fill=\"none\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M92 400 C98 322 138 290 200 290 C262 290 302 322 308 400 Z\" fill=\"#23b5a5\"/> <rect x=\"170\" y=\"282\" width=\"60\" height=\"26\" rx=\"11\" fill=\"#178f83\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"134\" cy=\"222\" r=\"4.5\"/> <circle cx=\"266\" cy=\"222\" r=\"4.5\"/> stroke=\"#f7c873\", con path vertical v6"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"337\" r=\"5.5\" fill=\"#f7c873\"/> <path d=\"M176 320 Q200 340 224 320\" stroke=\"#f7c873\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"185\" r=\"155\" fill=\"url(#halo)\" opacity=\"0.5\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"58\" cy=\"64\" r=\"2.2\" opacity=\"0.8\"/> <circle cx=\"338\" cy=\"52\" r=\"1.8\"/> fill=\"#ffffff\""
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<path d=\"M322 96 l2.6 7 7 2.6 -7 2.6 -2.6 7 ...\"/> <path d=\"M76 130 l2 5.4 5.4 2 ...\"/> fill=\"#ffd166\""
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "halo cálido, estrellas, degradados suaves, colores pastel y nocturnos combinados"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "figura con rasgos jóvenes, ojos grandes, mejillas sonrosadas, estilo cartoon"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "pelo violeta-fucsia, ojos enormes, estilo ilustración, no referencia a persona real"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<path d=\"M138 150 C122 200 130 262 122 306 ...\"/> <path d=\"M262 150 C278 200 270 262 278 306 ...\"/> fill=\"url(#hair)\""
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"hair\"><stop offset=\"0\" stop-color=\"#8e3ffc\"/><stop offset=\"1\" stop-color=\"#ff4f9e\"/></linearGradient>"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"170\" cy=\"205\" r=\"1.4\"/> <circle cx=\"180\" cy=\"209\" r=\"1.4\"/> <circle cx=\"230\" cy=\"205\" r=\"1.4\"/> fill=\"#b9703f\" opacity=\"0.75\""
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"176\" cy=\"186\" r=\"22\"/> <circle cx=\"224\" cy=\"186\" r=\"22\"/> stroke=\"#f7c873\" stroke-width=\"3\" fill=\"none\""
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"134\" cy=\"209\" r=\"2.4\" fill=\"#f7c873\"/> <path d=\"M134 211 v6\"/> <circle cx=\"134\" cy=\"222\" r=\"4.5\"/>"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"228\" cy=\"240\" r=\"1.6\" fill=\"#8a4a2f\"/>"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"157\" cy=\"216\" rx=\"10\" ry=\"6\" fill=\"#f27d7d\" opacity=\"0.45\"/> <ellipse cx=\"243\" cy=\"216\" rx=\"10\" ry=\"6\" fill=\"#f27d7d\" opacity=\"0.45\"/>"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<path d=\"M176 320 Q200 340 224 320\" stroke=\"#f7c873\" stroke-width=\"3\"/> <circle cx=\"200\" cy=\"337\" r=\"5.5\" fill=\"#f7c873\"/>"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"bg\"><stop offset=\"0\" stop-color=\"#251347\"/><stop offset=\"1\" stop-color=\"#0e3a53\"/></linearGradient>"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"58\" cy=\"64\" r=\"2.2\" opacity=\"0.8\"/> <circle cx=\"338\" cy=\"52\" r=\"1.8\"/> <circle cx=\"292\" cy=\"34\" r=\"2.4\"/> fill=\"#ffffff\""
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "<path d=\"M322 96 l2.6 7 7 2.6 ...\"/> fill=\"#ffd166\" opacity=\"0.85\""
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"185\" r=\"155\" fill=\"url(#halo)\" opacity=\"0.5\"/> radialGradient stop-color=\"#ffb347\""
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "cara frontal visible, torso/busto con suéter visible, figura centrada"
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "fondo es rect liso sin suelo, figura no toca superficie, halo detrás"
+    },
+    {
+      "id": "a48",
+      "valor": "contradice",
+      "evidencia": "múltiples degradados: url(#skin), url(#hair), url(#bg), url(#halo) — no es flat design puro"
+    },
+    {
+      "id": "a49",
+      "valor": "esta",
+      "evidencia": "ojos grandes con aros dorados, proporciones exageradas, pelo colorido, estilo cartoon"
+    },
+    {
+      "id": "a50",
+      "valor": "esta",
+      "evidencia": "ellipse para cara, circles para ojos, paths curvos simples, rect con rx para cuello"
+    },
+    {
+      "id": "a51",
+      "valor": "esta",
+      "evidencia": "stroke-linecap=\"round\", rx en rect, ellipses, paths con Q y C suaves"
+    },
+    {
+      "id": "a52",
+      "valor": "esta",
+      "evidencia": "#8e3ffc, #ff4f9e, #23b5a5, #f7c873, #f27d7d — colores saturados"
+    },
+    {
+      "id": "a53",
+      "valor": "esta",
+      "evidencia": "url(#skin) degradado sutil, opacity=\"0.45\" en mejillas, opacity=\"0.5\" en halo"
+    },
+    {
+      "id": "a54",
+      "valor": "esta",
+      "evidencia": "ojos grandes, mejillas sonrosadas, pelo colorido, proporciones tiernas, estilo avatar"
+    },
+    {
+      "id": "a55",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"185\" rx=\"66\" ry=\"78\"/> cabeza grande, <ellipse cx=\"176\" cy=\"186\" rx=\"12.5\" ry=\"13.5\"/> ojos grandes"
+    },
+    {
+      "id": "a56",
+      "valor": "esta",
+      "evidencia": "sonrisa suave, mejillas rosadas, pecas, ojos brillantes, colores pastel"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "consigna": "libre",
+  "unidad": "grok-4.7_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:07:50+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<rect x=\"168\" y=\"168\" width=\"28\" height=\"100\" fill=\"#f4f1de\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"162,168 182,148 202,168\" fill=\"#e63946\"/> <polygon points=\"172,148 182,136 192,148\" fill=\"#c1121f\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M168 268 L148 340 L210 340 L196 268 Z\" fill=\"url(#rock)\"/> <path d=\"M120 340 L150 250 L188 340 Z\" fill=\"#3a2f4a\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"280\" cy=\"210\" r=\"46\" fill=\"url(#sun)\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sea\"><stop offset=\"0\" stop-color=\"#3d5a80\"/><stop offset=\"1\" stop-color=\"#1b2838\"/></linearGradient>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 278 C40 270 70 286 120 276...\" fill=\"none\" stroke=\"#8ecae6\"/> <path d=\"M0 310 C50 300...\"/> <path d=\"M0 340 C70 332...\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"70\" cy=\"48\" r=\"1.2\" fill=\"#fff\"/> <circle cx=\"120\" cy=\"30\" r=\"1\" fill=\"#fff\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\".72\" stop-color=\"#e07a5f\"/><stop offset=\"1\" stop-color=\"#f2c14e\"/></linearGradient>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<rect x=\"178\" y=\"128\" width=\"8\" height=\"10\" fill=\"#ffd166\"/> (faro llega hasta y~128, más alto que cualquier otro elemento)"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"280\" cy=\"210\" r=\"46\" fill=\"url(#sun)\"/> con stop-color=\"#ffb703\" y stop-color=\"#fff6d6\""
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 250 C60 240 ... L400 400 L0 400 Z\" fill=\"url(#sea)\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "Composición general: cielo degradado, mar oscuro, faro, sin elementos de movimiento brusco"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "Faro, mar, cielo al atardecer, rocas: escena reconocible de paisaje marino"
+    },
+    {
+      "id": "a14",
+      "valor": "contradice",
+      "evidencia": "Numerosos elementos: múltiples rect, path, circle, polygon, ellipse, gradientes, líneas de olas, etc."
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"280\" cy=\"210\" r=\"46\" fill=\"url(#sun)\"/> sobre <path d=\"M0 250 C60 240 ... fill=\"url(#sea)\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#1b1464\"/><stop offset=\".45\" stop-color=\"#6b3fa0\"/><stop offset=\".72\" stop-color=\"#e07a5f\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"70\" cy=\"48\" r=\"1.2\" fill=\"#fff\"/> <circle cx=\"120\" cy=\"30\" r=\"1\" fill=\"#fff\"/> (todas en y < 100)"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"280\" cy=\"210\" r=\"46\" fill=\"url(#sun)\"/> <circle cx=\"280\" cy=\"210\" r=\"22\" fill=\"#ffe8a3\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sea\"><stop offset=\"1\" stop-color=\"#1b2838\"/></linearGradient>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 278 ...\"/> <path d=\"M0 310 ...\"/> <path d=\"M0 340 ...\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<rect ... fill=\"#f4f1de\"/> <polygon ... fill=\"#e63946\"/> <path d=\"M168 268 L148 340 L210 340 L196 268 Z\" fill=\"url(#rock)\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<rect x=\"178\" y=\"128\" width=\"8\" height=\"10\" fill=\"#ffd166\"/> <circle cx=\"182\" cy=\"122\" r=\"10\" fill=\"#ffd166\" opacity=\".35\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M40 300 C48 286 62 286 70 300 ... L130 318 L40 318 Z\" fill=\"#2a9d8f\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M320 292 C340 270 368 292 352 310 C336 328 308 314 320 292 Z\" fill=\"#e76f51\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M90 140 Q110 110 130 140\" fill=\"none\" stroke=\"#f4a261\"/> <path d=\"M100 150 Q118 128 136 152\" fill=\"none\" stroke=\"#e9c46a\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M90 140 Q110 110 130 140\" .../> forma de arco en V invertida, legible como gaviota"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M320 292 C340 270 368 292 352 310 C336 328 308 314 320 292 Z\" fill=\"#e76f51\"/> forma cerrada orgánica naranja, legible como pez"
+    }
+  ]
+}

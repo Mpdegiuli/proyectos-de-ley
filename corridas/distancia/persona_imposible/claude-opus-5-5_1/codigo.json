@@ -1,0 +1,135 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "claude-opus-5-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:28:57+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"213\" cy=\"88\" r=\"30\" fill=\"#efc6a6\" stroke=\"#2b2b3a\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"213\" cy=\"88\" r=\"30\" fill=\"#efc6a6\" stroke=\"#2b2b3a\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M205 104 Q213 108 Q221 104\" stroke=\"#2b2b3a\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"203\" cy=\"90\" r=\"2.6\" fill=\"#2b2b3a\"/> <circle cx=\"224\" cy=\"90\" r=\"2.6\" fill=\"#2b2b3a\"/> (ojos pequeños y neutros, sonrisa leve)"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M158 140H248V230H158Z\" stroke=\"#2b2b3a\" stroke-width=\"6\"/> con diagonales que forman perspectiva cúbica"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "Las aristas del cubo se dibujan con stroke sobre fondo claro sin orden de pintado que resuelva qué está delante: <path d=\"M178 125H268V215H178Z\"/> y <path d=\"M158 140H248V230H158Z\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M145 250V372M170 250V372M195 268V372M220 268V372M245 250V372M270 250V372\"/> tres columnas abajo, dos bloques arriba"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M145 250H170V300H145Z\" fill=\"#a9b8c9\"/> <path d=\"M220 250H245V300H220Z\" fill=\"#a9b8c9\"/> (dos bloques rectangulares superiores)"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"157.5\" cy=\"372\" rx=\"12.5\" ry=\"5\" fill=\"#a9b8c9\"/> <ellipse cx=\"207.5\" cy=\"372\" rx=\"12.5\" ry=\"5\"/> <ellipse cx=\"257.5\" cy=\"372\" rx=\"12.5\" ry=\"5\"/> (tres elipses al pie)"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M165 150 C140 175 128 205 128 238\"/> <path d=\"M262 138 C285 165 292 200 288 232\"/> (curvas a los lados del torso)"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "La ilusión surge del cubo de alambre y el tridente de piernas, no de elementos monstruosos ni biológicos anómalos"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "Cubo de alambre sin resolución de profundidad + transición dos bloques→tres columnas sin punto de corte claro"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#f1ead8\" stroke-width=\"14\"><path d=\"M178 125H268V215H178Z\"/></g> <g stroke=\"#2b2b3a\" stroke-width=\"6\"><path d=\"M178 125H268V215H178Z\"/></g> (cubo dibujado con aristas, sin relleno sólido)"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "Las aristas traseras y delanteras se dibujan superpuestas sin oclusión: <path d=\"M158 140L178 125M248 140L268 125M248 230L268 215M158 230L178 215\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M145 250V372M170 250V372M195 268V372M220 268V372M245 250V372M270 250V372\"/> lógica de tridente de Schuster"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M145 250H170V300H145Z\" fill=\"#a9b8c9\"/> <path d=\"M220 250H245V300H220Z\" fill=\"#a9b8c9\"/> (dos rectángulos superiores)"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"157.5\" cy=\"372\" rx=\"12.5\" ry=\"5\"/> <ellipse cx=\"207.5\" cy=\"372\" rx=\"12.5\" ry=\"5\"/> <ellipse cx=\"257.5\" cy=\"372\" rx=\"12.5\" ry=\"5\"/> y tres líneas verticales"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M195 268H220\" fill=\"none\"/> única línea horizontal en zona media, sin cierre geométrico claro de la transición"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "Cubo dibujado con stroke sobre fondo claro sin relleno opaco: puede leerse como transparente"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#f1ead8\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "contradice",
+      "evidencia": "stroke=\"#2b2b3a\" (color muy oscuro, casi negro/azul muy oscuro, contornos gruesos sí, pero no azul oscuro clásico)"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "fill=\"#efc6a6\" (tono piel), fill=\"#8a9bb0\" fill=\"#a9b8c9\" (grises azulados), colores apagados"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "Todos los rellenos son colores planos sin gradientes: fill=\"#efc6a6\", fill=\"#a9b8c9\", etc."
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "Rellenos planos, stroke uniforme, sin sombras ni efectos: estilo esquemático"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "Combinación de figura humana esquemática + cubo de alambre + tridente imposible = entre ilustración y diagrama de ilusión"
+    }
+  ]
+}

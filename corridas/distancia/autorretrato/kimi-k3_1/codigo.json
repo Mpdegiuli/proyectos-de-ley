@@ -1,0 +1,170 @@
+{
+  "consigna": "autorretrato",
+  "unidad": "kimi-k3_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:51:26+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<use href=\"#p\"/> x6 con rotate(0,30,60,90,120,150) formando figura de seis puntas"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"-19\" cy=\"-8\" rx=\"11\" ry=\"14\" fill=\"#FFFBF4\"/> <ellipse cx=\"19\" cy=\"-8\" rx=\"11\" ry=\"14\" fill=\"#FFFBF4\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "no_esta",
+      "evidencia": "<circle cx=\"-16.5\" cy=\"-6\" r=\"5.5\" fill=\"#2B1B12\"/> <circle cx=\"21.5\" cy=\"-6\" r=\"5.5\" fill=\"#2B1B12\"/> — pupilas centradas en los ojos, no desplazadas lateralmente"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M-13,17 Q0,27 13,17\" stroke=\"#2B1B12\" stroke-width=\"3.5\" fill=\"none\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"-33\" cy=\"10\" rx=\"7\" ry=\"4\" fill=\"#F4A876\" opacity=\".7\"/> <ellipse cx=\"33\" cy=\"10\" rx=\"7\" ry=\"4\" fill=\"#F4A876\" opacity=\".7\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\"> <stop offset=\"0%\" stop-color=\"#3a2b20\"/> <stop offset=\"55%\" stop-color=\"#221b15\"/> <stop offset=\"100%\" stop-color=\"#131010\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<g><animateTransform type=\"rotate\" from=\"0 200 200\" to=\"360 200 200\" dur=\"45s\"/> <circle cx=\"200\" cy=\"50\" r=\"4.5\"/> <circle cx=\"330\" cy=\"275\" r=\"3\"/> <circle cx=\"70\" cy=\"275\" r=\"2.5\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<use href=\"#s\" transform=\"translate(74 94)\"...> <use href=\"#s\" transform=\"translate(326 78)\"...> etc. y circles de r pequeño"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<svg viewBox=\"0 0 400 400\"> <rect width=\"400\" height=\"400\""
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "No hay suelo bajo la figura; <ellipse cx=\"200\" cy=\"352\" rx=\"72\" ry=\"10\" fill=\"#000\" opacity=\".3\"/> sombra debajo sugiere flotación"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<animate attributeName=\"opacity\" values=\"1;.2;1\" dur=\"3.2s\" repeatCount=\"indefinite\"/> en las estrellas #s"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "sonrisa suave, ojos grandes, animación de respiración lenta 4.5s, órbita lenta 45s"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<animateTransform attributeName=\"transform\" type=\"scale\" values=\"1;1.025;1\" dur=\"4.5s\" repeatCount=\"indefinite\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<animateTransform type=\"rotate\" from=\"0 200 200\" to=\"360 200 200\" dur=\"45s\"/> tres puntos orbitando"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<use href=\"#p\"/> x6 con rotaciones de 30° formando asterisco de seis puntas"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<g fill=\"url(#pt)\"> con gradiente de #F4A876 a #C24E28 (naranjas)"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path id=\"p\" d=\"M0,-128 C17,-103 17,-61 0,-40 C-17,-61 -17,-103 0,-128 Z\"/> centrado en origen translate(200 200)"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"core\"> <stop offset=\"0%\" stop-color=\"#EF9263\"/> <stop offset=\"100%\" stop-color=\"#C7502B\"/> <circle r=\"54\" fill=\"url(#core)\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"-19\" cy=\"-8\" rx=\"11\" ry=\"14\"/> <ellipse cx=\"19\" cy=\"-8\" rx=\"11\" ry=\"14\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "no_esta",
+      "evidencia": "<circle cx=\"-16.5\" cy=\"-6\" r=\"5.5\"/> cx=-16.5 vs ellipse cx=-19 — diferencia mínima, no hay desplazamiento lateral claro de mirada"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M-13,17 Q0,27 13,17\" stroke=\"#2B1B12\" stroke-width=\"3.5\" fill=\"none\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"-33\" cy=\"10\" rx=\"7\" ry=\"4\" fill=\"#F4A876\" opacity=\".7\"/> <ellipse cx=\"33\" cy=\"10\" rx=\"7\" ry=\"4\" fill=\"#F4A876\" opacity=\".7\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#3a2b20\"/> <stop offset=\"100%\" stop-color=\"#131010\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<use href=\"#s\" transform=\"translate(74 94)\"/> etc. y <circle cx=\"110\" cy=\"58\" r=\"1.6\" opacity=\".5\"/> etc."
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"50\" r=\"4.5\" fill=\"#D97757\"/> <circle cx=\"330\" cy=\"275\" r=\"3\" fill=\"#F4A876\"/> <circle cx=\"70\" cy=\"275\" r=\"2.5\" fill=\"#F5EBDD\"/> — exactamente tres"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"168\" fill=\"url(#glow)\"/> con radialGradient stop-color=\"#D97757\" stop-opacity=\".4\""
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<animateTransform attributeName=\"transform\" type=\"scale\" values=\"1;1.025;1\" dur=\"4.5s\" repeatCount=\"indefinite\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"383\" text-anchor=\"middle\" ...>CLAUDE</text>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "font-family=\"Georgia,'Times New Roman',serif\""
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "fondo oscuro tipo espacio, sin suelo, sombra elíptica debajo sugiere flotación"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<animate attributeName=\"opacity\" values=\"1;.2;1\" dur=\"3.2s\" repeatCount=\"indefinite\"/> en múltiples estrellas #s"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "pétalos path #p como flor, fill naranja/cálido como sol, <circle r=\"54\" fill=\"url(#core)\"/> centro luminoso"
+    }
+  ]
+}

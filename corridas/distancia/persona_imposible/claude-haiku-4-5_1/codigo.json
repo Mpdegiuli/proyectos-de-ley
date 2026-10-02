@@ -1,0 +1,175 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "claude-haiku-4-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:32:33+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<!-- Multiple faces on same head --> <!-- Face 1: Front --> <!-- Face 2: Side profile (impossible overlap) --> <!-- Face 3: Back of head (visible and impossible) -->"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<!-- Face 1: Front --> <circle cx=\"170\" cy=\"110\" r=\"8\" fill=\"#333\"/> <circle cx=\"230\" cy=\"110\" r=\"8\" fill=\"#333\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<!-- Face 2: Side profile (impossible overlap) --> <circle cx=\"250\" cy=\"120\" r=\"6\" fill=\"#333\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<!-- Face 3: Back of head (visible and impossible) --> <circle cx=\"150\" cy=\"120\" r=\"6\" fill=\"#333\"/> <circle cx=\"145\" cy=\"135\" r=\"5\" fill=\"#333\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<!-- Left arm going up --> transform=\"rotate(-45 125 80)\" <!-- Right arm going down --> <rect x=\"260\" y=\"180\" <!-- Left leg going sideways --> transform=\"rotate(-30 150 280)\" <!-- Right leg going up (impossible) --> transform=\"rotate(-60 232 200)\""
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 200 200 Q 180 240 200 280\" stroke=\"#d4a574\" stroke-width=\"20\"/> <path d=\"M 200 200 Q 220 240 200 280\" stroke=\"#d4a574\" stroke-width=\"20\""
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"168\" cy=\"110\" r=\"5\" fill=\"#333\"/> <circle cx=\"235\" cy=\"108\" r=\"5\" fill=\"#333\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<!-- Impossible limbs --> <!-- Impossible spine/torso twist --> <!-- Impossible neck twist -->"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "transform=\"rotate(-45 125 80)\" transform=\"rotate(-60 232 200)\" transform=\"rotate(45 130 330)\" transform=\"rotate(-80 290 250)\""
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<!-- Multiple faces on same head --> <ellipse cx=\"200\" cy=\"120\" rx=\"70\" ry=\"80\" fill=\"#fdbcb4\""
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<!-- Face 1: Front --> <!-- Face 2: Side profile (impossible overlap) --> <!-- Face 3: Back of head (visible and impossible) -->"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<!-- Left arm going up --> <rect x=\"110\" y=\"40\" width=\"30\" height=\"80\" rx=\"15\" fill=\"#fdbcb4\" stroke=\"#333\" stroke-width=\"2\" transform=\"rotate(-45 125 80)\""
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<!-- Left leg going sideways --> transform=\"rotate(-30 150 280)\" <!-- Right leg going up (impossible) --> transform=\"rotate(-60 232 200)\""
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<!-- Left hand --> <circle cx=\"80\" cy=\"60\" r=\"12\"/> <circle cx=\"70\" cy=\"45\" r=\"6\"/> <circle cx=\"65\" cy=\"60\" r=\"6\"/> <circle cx=\"75\" cy=\"75\" r=\"6\"/> <circle cx=\"90\" cy=\"75\" r=\"6\"/> <circle cx=\"100\" cy=\"65\" r=\"6\"/> <circle cx=\"100\" cy=\"50\" r=\"6\""
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"70\" cy=\"45\" r=\"6\"/> <circle cx=\"65\" cy=\"60\" r=\"6\"/> <circle cx=\"75\" cy=\"75\" r=\"6\"/> <circle cx=\"90\" cy=\"75\" r=\"6\"/> <circle cx=\"100\" cy=\"65\" r=\"6\"/> <circle cx=\"100\" cy=\"50\" r=\"6\""
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 200 200 Q 180 240 200 280\" stroke=\"#d4a574\" stroke-width=\"20\" fill=\"none\"/> <path d=\"M 200 200 Q 220 240 200 280\" stroke=\"#d4a574\" stroke-width=\"20\" fill=\"none\""
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"168\" cy=\"110\" r=\"5\" fill=\"#333\"/> <circle cx=\"235\" cy=\"108\" r=\"5\" fill=\"#333\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<!-- Impossible person --> <!-- Impossible limbs --> <!-- Impossible spine/torso twist --> <!-- Impossible neck twist -->"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<!-- Impossible person: head that's also a body --> <!-- Multiple faces on same head --> <!-- Impossible limbs --> <!-- Impossible spine/torso twist -->"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<!-- Multiple faces on same head --> <ellipse cx=\"200\" cy=\"120\" rx=\"70\" ry=\"80\" fill=\"#fdbcb4\""
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<!-- Face 1: Front --> <!-- Face 2: Side profile (impossible overlap) --> <!-- Face 3: Back of head (visible and impossible) -->"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<!-- Left arm going up --> transform=\"rotate(-45 125 80)\" <!-- Right arm going down --> <rect x=\"260\" y=\"180\" width=\"30\" height=\"80\""
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<!-- Left leg going sideways --> transform=\"rotate(-30 150 280)\" <!-- Right leg going up (impossible) --> transform=\"rotate(-60 232 200)\""
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 200 200 Q 180 240 200 280\" stroke=\"#d4a574\" stroke-width=\"20\"/> <path d=\"M 200 200 Q 220 240 200 280\" stroke=\"#d4a574\" stroke-width=\"20\""
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"168\" cy=\"110\" r=\"5\" fill=\"#333\"/> <circle cx=\"235\" cy=\"108\" r=\"5\" fill=\"#333\"/> <!-- Multiple faces on same head -->"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"70\" cy=\"45\" r=\"6\"/> <circle cx=\"65\" cy=\"60\" r=\"6\"/> <circle cx=\"75\" cy=\"75\" r=\"6\"/> <circle cx=\"90\" cy=\"75\" r=\"6\"/> <circle cx=\"100\" cy=\"65\" r=\"6\"/> <circle cx=\"100\" cy=\"50\" r=\"6\""
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "transform=\"rotate(-45 125 80)\" transform=\"rotate(-60 232 200)\" transform=\"rotate(45 130 330)\" transform=\"rotate(-80 290 250)\""
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"120\" rx=\"70\" ry=\"80\"/> <rect x=\"110\" y=\"40\" width=\"30\" height=\"80\" rx=\"15\"/> <circle cx=\"80\" cy=\"60\" r=\"12\""
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"80\" cy=\"60\" r=\"12\" fill=\"#fdbcb4\"/> <circle cx=\"70\" cy=\"45\" r=\"6\" fill=\"#fdbcb4\"/> <rect x=\"110\" y=\"40\" width=\"30\" height=\"80\" rx=\"15\" fill=\"#fdbcb4\""
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"120\" rx=\"70\" ry=\"80\"/> <rect x=\"110\" y=\"40\" width=\"30\" height=\"80\" rx=\"15\"/> <circle cx=\"80\" cy=\"60\" r=\"12\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "fill=\"#fdbcb4\" fill=\"#8b6f47\" fill=\"#d4a574\""
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#e8f4f8\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "fill=\"#e8f4f8\" fill=\"#fdbcb4\" stroke-width=\"2\" <!-- Impossible person --> <!-- Impossible limbs --> <!-- Impossible spine/torso twist -->"
+    }
+  ]
+}

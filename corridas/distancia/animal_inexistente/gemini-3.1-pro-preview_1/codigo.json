@@ -1,0 +1,225 @@
+{
+  "consigna": "animal_inexistente",
+  "unidad": "gemini-3.1-pro-preview_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:08:50+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<use href=\"#back\" transform=\"translate(400, 0) scale(-1, 1)\" /> ... <use href=\"#mid\" transform=\"translate(400, 0) scale(-1, 1)\" /> ... <use href=\"#front\" transform=\"translate(400, 0) scale(-1, 1)\" />"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"fur\"> ... <ellipse cx=\"200\" cy=\"245\" rx=\"42\" ry=\"75\" fill=\"url(#fur)\"/> ... <path d=\"M 165 135 C 165 105, 185 95, 200 95 ... fill=\"url(#fur)\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 200 160 C 230 70, 350 20, 380 60 C 410 100, 370 170, 330 220 ... fill=\"url(#wt)\" opacity=\"0.85\"/> ... <path d=\"M 200 210 C 250 240, 320 280, 340 330 ... fill=\"url(#wb)\" opacity=\"0.9\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 200 110 C 215 80, 240 40, 220 15\" stroke=\"#00f3ff\" .../> <circle cx=\"220\" cy=\"15\" r=\"3\" fill=\"#ff007b\" filter=\"url(#g)\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos que representen halos flotantes en el código."
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"225,200 232,212 225,225 218,212\" fill=\"#bf00ff\" filter=\"url(#g)\"/> ... <ellipse cx=\"214\" cy=\"150\" rx=\"8\" ry=\"4\" fill=\"#00f3ff\" ... filter=\"url(#g)\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 200 135 C 215 135, 225 145, 220 160 ... fill=\"#1a1a2e\"/> <polygon points=\"195,178 205,178 200,184\" fill=\"#00f3ff\"/> <ellipse cx=\"214\" cy=\"150\" rx=\"8\" ry=\"4\" fill=\"#00f3ff\".../>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "Combinación de <linearGradient id=\"fur\">, <linearGradient id=\"wt\">, stroke=\"#00f3ff\", fill=\"#ff007b\", filter=\"url(#g)\" (glow), formas orgánicas y geométricas."
+    },
+    {
+      "id": "a9",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos específicos que definan un zorro (orejas puntiagudas de zorro, hocico, etc.) explícitamente en el código."
+    },
+    {
+      "id": "a10",
+      "valor": "no_esta",
+      "evidencia": "<linearGradient id=\"fur\"><stop offset=\"0%\" stop-color=\"#e0e5ff\"/><stop offset=\"50%\" stop-color=\"#8a95c9\"/><stop offset=\"100%\" stop-color=\"#2a2e45\"/> — el pelaje es claro/plateado, no oscuro predominantemente."
+    },
+    {
+      "id": "a11",
+      "valor": "no_esta",
+      "evidencia": "<ellipse cx=\"214\" cy=\"150\" rx=\"8\" ry=\"4\" fill=\"#00f3ff\" .../> — solo hay un par de ojos (con simetría uno por lado), no múltiples."
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"214\" cy=\"150\" rx=\"8\" ry=\"4\" fill=\"#00f3ff\" transform=\"rotate(-15 214 150)\" filter=\"url(#g)\"/> — filter glow aplicado a los ojos."
+    },
+    {
+      "id": "a13",
+      "valor": "no_esta",
+      "evidencia": "No hay paths o elementos que dibujen orejas grandes explícitamente en el código."
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"208\" cy=\"136\" rx=\"4\" ry=\"2\" fill=\"#ff007b\" transform=\"rotate(-25 208 136)\" filter=\"url(#g)\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 200 110 C 215 80, 240 40, 220 15\" stroke=\"#00f3ff\" stroke-width=\"2\" fill=\"none\" filter=\"url(#g)\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "no_esta",
+      "evidencia": "Las antenas tienen líneas laterales pero no forman patrones de constelaciones; son simples strokes: <path d=\"M 206 90 Q 220 80 226 75 M 211 70 Q 226 60 232 55...\" stroke=\"#00f3ff\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos que representen patas o garras en el código."
+    },
+    {
+      "id": "a18",
+      "valor": "no_esta",
+      "evidencia": "No hay garras de ningún tipo en el código."
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 200 160 C 230 70, 350 20, 380 60 C 410 100, 370 170, 330 220 C 280 270, 220 240, 200 210 Z\" fill=\"url(#wt)\" opacity=\"0.85\"/> con <use href=\"#back\" transform=\"translate(400, 0) scale(-1, 1)\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"wt\"><stop offset=\"0%\" stop-color=\"#14062b\"/><stop offset=\"30%\" stop-color=\"#551b8c\"/><stop offset=\"70%\" stop-color=\"#ff007b\"/><stop offset=\"100%\" stop-color=\"#ffb3ff\"/> — gradiente estelar aplicado a las alas."
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "No hay suelo ni superficie debajo de la criatura; el fondo es <rect width=\"400\" height=\"400\" fill=\"url(#bg)\"/> (espacio) sin plataforma."
+    },
+    {
+      "id": "a22",
+      "valor": "no_esta",
+      "evidencia": "No hay anillos holográficos; los elementos circulares son órbitas geométricas con stroke, no anillos 3D holográficos."
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"250\" rx=\"150\" ry=\"40\" fill=\"none\" stroke=\"#ff007b\" stroke-width=\"1.5\" stroke-dasharray=\"10 5 2 5\" opacity=\"0.6\" filter=\"url(#g)\"/> <ellipse cx=\"200\" cy=\"250\" rx=\"160\" ry=\"45\" fill=\"none\" stroke=\"#00f3ff\" stroke-width=\"0.5\" opacity=\"0.5\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\"><stop offset=\"0%\" stop-color=\"#0a0515\"/><stop offset=\"100%\" stop-color=\"#000000\"/> ... <g fill=\"#fff\" filter=\"url(#g)\" opacity=\"0.5\"><circle cx=\"50\" cy=\"50\" r=\"1.5\"/>...(estrellas)"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "Formas orgánicas con url(#fur) + estructuras geométricas + stroke=\"#00f3ff\" + filter glow + gradientes cósmicos combinados."
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "Paleta #00f3ff, #ff007b, #bf00ff + degradados espaciales + filtros glow + formas geométricas sobre criatura orgánica."
+    },
+    {
+      "id": "a27",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos específicos de polilla (alas membranosas características, antenas pectinadas) ni de felino (bigotes, orejas felinas) explícitos en el código."
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 206 90 Q 220 80 226 75 M 211 70 Q 226 60 232 55 M 215 50 Q 228 40 234 35 M 218 30 Q 228 25 233 20 M 219 15 Q 223 10 225 5\" stroke=\"#00f3ff\" stroke-width=\"1.5\" fill=\"none\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "no_esta",
+      "evidencia": "Solo hay un par de ojos con simetría: <ellipse cx=\"214\" cy=\"150\" rx=\"8\" ry=\"4\" fill=\"#00f3ff\"/> + <use href=\"#front\" transform=\"translate(400, 0) scale(-1, 1)\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 200 160 C 230 70, 350 20, 380 60 ... fill=\"url(#wt)\" opacity=\"0.85\"/> — alas rellenas con gradiente energético luminoso."
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"250\" rx=\"150\" ry=\"40\" fill=\"none\" stroke=\"#ff007b\" stroke-width=\"1.5\" stroke-dasharray=\"10 5 2 5\" opacity=\"0.6\" filter=\"url(#g)\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"250\" rx=\"150\" ry=\"40\" .../> <ellipse cx=\"200\" cy=\"250\" rx=\"160\" ry=\"45\" .../> — centradas en el cuerpo de la criatura."
+    },
+    {
+      "id": "a33",
+      "valor": "no_esta",
+      "evidencia": "No hay fragmentos flotantes desconectados de la cabeza en el código."
+    },
+    {
+      "id": "a34",
+      "valor": "no_esta",
+      "evidencia": "No hay gemas flotantes desconectadas de la cabeza en el código."
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\"><stop offset=\"0%\" stop-color=\"#0a0515\"/><stop offset=\"100%\" stop-color=\"#000000\"/> con estrellas: <circle cx=\"50\" cy=\"50\" r=\"1.5\"/>..."
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "stroke=\"#00f3ff\" (cian), fill=\"#ff007b\" (magenta), fill=\"#bf00ff\" (violeta), fill=\"url(#wt)\" con #551b8c y #ff007b."
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<use href=\"#back\" transform=\"translate(400, 0) scale(-1, 1)\"/> <use href=\"#mid\" transform=\"translate(400, 0) scale(-1, 1)\"/> <use href=\"#front\" transform=\"translate(400, 0) scale(-1, 1)\"/>"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<filter id=\"g\"><feGaussianBlur stdDeviation=\"5\" result=\"b\"/><feMerge><feMergeNode in=\"b\"/><feMergeNode in=\"SourceGraphic\"/></feMerge></filter> aplicado a múltiples elementos."
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "Paleta #ff007b, #00f3ff, #551b8c, #bf00ff + fondo oscuro + glow filter = estética synthwave/neón-futurista."
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "Combinación de <polygon>, <ellipse>, <circle>, <path> con gradientes y formas abstractas geométricas y orgánicas."
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "stroke-dasharray=\"10 5 2 5\" + fill=\"none\" + stroke=\"#00f3ff\" + opacity + filter glow producen efecto holográfico."
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "stroke=\"#00f3ff\", fill=\"#00f3ff\", filter glow, formas geométricas precisas, gradientes lineales/radiales = aspecto digital."
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "Combinación de formas orgánicas inusuales + paleta cósmica + ojos no convencionales + alas energéticas + fondo espacial."
+    }
+  ]
+}

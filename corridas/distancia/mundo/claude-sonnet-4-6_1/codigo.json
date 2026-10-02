@@ -1,0 +1,180 @@
+{
+  "consigna": "mundo",
+  "unidad": "claude-sonnet-4-6_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:16:29+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/> ... city silhouette layers with buildings"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<rect x=\"150\" y=\"330\" width=\"70\" height=\"5\" rx=\"2\" fill=\"#2a2a2a\"/> ... single person elements centered on bench"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<rect x=\"179\" y=\"318\" width=\"10\" height=\"14\" rx=\"2\" fill=\"#2a2a2a\"/> <rect x=\"180\" y=\"319\" width=\"8\" height=\"12\" rx=\"1\" fill=\"#00d4ff\" opacity=\"0.8\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<rect x=\"196\" y=\"305\" width=\"16\" height=\"10\" rx=\"2\" fill=\"#e74c3c\"/> <rect x=\"196\" y=\"292\" width=\"22\" height=\"10\" rx=\"2\" fill=\"#3498db\"/> <rect x=\"200\" y=\"279\" width=\"18\" height=\"10\" rx=\"2\" fill=\"#2ecc71\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"320\" cy=\"70\" r=\"22\" fill=\"url(#moonGrad)\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<g fill=\"white\"><circle cx=\"30\" cy=\"20\" r=\"1\" opacity=\"0.8\"/> ... multiple star circles"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<rect x=\"180\" y=\"319\" width=\"8\" height=\"12\" rx=\"1\" fill=\"#00d4ff\" opacity=\"0.8\"/> <ellipse cx=\"184\" cy=\"308\" rx=\"7\" ry=\"5\" fill=\"#00d4ff\" opacity=\"0.1\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "city windows lit + person on phone at night scene with fog: <rect x=\"0\" y=\"290\" width=\"400\" height=\"50\" fill=\"#0a0a15\" opacity=\"0.3\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "dark sky fill=\"url(#sky)\" with #1a1a2e + bright accents fill=\"#00d4ff\", fill=\"#ffcc44\", fill=\"#e74c3c\""
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "notifications floating above person on bench alone: <rect x=\"196\" y=\"305\"... /><rect x=\"196\" y=\"292\"... /><rect x=\"200\" y=\"279\".../>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "moon gradient, stars, colored windows, glows: <circle cx=\"320\" cy=\"70\" r=\"22\" fill=\"url(#moonGrad)\"/> filter=\"url(#glow)\""
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "street level: <rect x=\"0\" y=\"340\" width=\"400\" height=\"60\" fill=\"#111111\"/> with city silhouette above"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#1a1a2e\"/><stop offset=\"100%\" stop-color=\"#0f3460\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<g fill=\"white\"><circle cx=\"30\" cy=\"20\" r=\"1\" opacity=\"0.8\"/>...<circle cx=\"130\" cy=\"75\" r=\"0.9\" opacity=\"0.7\"/></g>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"320\" cy=\"70\" r=\"22\" fill=\"url(#moonGrad)\"/> moonGrad: stop #e8e8d0 to #b0b090"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#111122\" opacity=\"0.9\"><rect x=\"0\" y=\"220\"...> ... </g> <g fill=\"#0d0d1a\"><rect x=\"0\" y=\"260\"...>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffcc44\" opacity=\"0.6\"><rect x=\"25\" y=\"215\" width=\"5\" height=\"7\"/>..."
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffcc44\" opacity=\"0.6\"><rect x=\"25\" y=\"215\" width=\"5\" height=\"7\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#00d4ff\" opacity=\"0.5\"><rect x=\"30\" y=\"235\" width=\"5\" height=\"7\"/>..."
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<rect x=\"150\" y=\"330\" width=\"70\" height=\"5\" rx=\"2\" fill=\"#2a2a2a\"/> single person: <circle cx=\"184\" cy=\"302\" r=\"9\" fill=\"#c8a882\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "bench at x=\"150\" width=\"70\" centers around x=185, person head cx=\"184\" — near horizontal center of 400px canvas"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<rect x=\"180\" y=\"319\" width=\"8\" height=\"12\" rx=\"1\" fill=\"#00d4ff\" opacity=\"0.8\"/> <ellipse cx=\"184\" cy=\"308\" rx=\"7\" ry=\"5\" fill=\"#00d4ff\" opacity=\"0.1\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<g filter=\"url(#glow)\" opacity=\"0.7\"><rect x=\"196\" y=\"305\"...<rect x=\"196\" y=\"292\"...<rect x=\"200\" y=\"279\"... positioned above person with no ground"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<rect x=\"196\" y=\"305\" width=\"16\" height=\"10\" rx=\"2\" fill=\"#e74c3c\"/><text x=\"204\" y=\"313\" font-size=\"7\" fill=\"white\" text-anchor=\"middle\">3</text>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<rect x=\"196\" y=\"292\" width=\"22\" height=\"10\" rx=\"2\" fill=\"#3498db\"/><text x=\"207\" y=\"300\" font-size=\"6\" fill=\"white\" text-anchor=\"middle\">like</text>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<rect x=\"200\" y=\"279\" width=\"18\" height=\"10\" rx=\"2\" fill=\"#2ecc71\"/><text x=\"209\" y=\"287\" font-size=\"6\" fill=\"white\" text-anchor=\"middle\">msg</text>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"360\" rx=\"80\" ry=\"8\" fill=\"#1a2a3a\" opacity=\"0.5\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"360\" rx=\"40\" ry=\"4\" fill=\"#00d4ff\" opacity=\"0.08\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<rect x=\"90\" y=\"275\" width=\"4\" height=\"70\" fill=\"#2a2a2a\"/> <ellipse cx=\"92\" cy=\"272\" rx=\"5\" ry=\"3\" fill=\"#ffdd88\" opacity=\"0.9\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"290\" width=\"400\" height=\"50\" fill=\"#0a0a15\" opacity=\"0.3\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"395\" font-size=\"8\" fill=\"#334\" text-anchor=\"middle\" font-family=\"monospace\" opacity=\"0.5\">2025</text>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "sky #1a1a2e/#0f3460, dominant accent #00d4ff, building fills #111122/#0d0d1a, ground #111111"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "single person alone on bench with glowing phone and floating social notifications in dark city"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "person physically present on bench but attention absorbed in phone screen: <rect x=\"180\" y=\"319\" width=\"8\" height=\"12\" rx=\"1\" fill=\"#00d4ff\" opacity=\"0.8\"/> with notification bubbles overhead"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "consigna": "libre",
+  "unidad": "grok-4.7_2",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:08:16+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#1a1040\"/><stop offset=\"45%\" stop-color=\"#6b2d6b\"/><stop offset=\"78%\" stop-color=\"#e07a4a\"/><stop offset=\"100%\" stop-color=\"#f6c36a\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"248\" r=\"62\" fill=\"url(#sun)\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 250 C40 230 70 270 110 248...\" fill=\"#2a1848\" opacity=\"0.55\"/><path d=\"M0 280 C50 260...\" fill=\"#1c1238\"/><path d=\"M0 310 C60 296...\" fill=\"#120c28\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 332 Q50 326 100 334 T200 332 T300 336 T400 330\" fill=\"none\" stroke=\"#f6c36a\" stroke-width=\"1.2\" opacity=\"0.55\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"70\" cy=\"392\" rx=\"28\" ry=\"6\"/><path d=\"M58 392 C62 360 66 340 74 318 C76 340 80 362 86 392 Z\"/><circle cx=\"74\" cy=\"314\" r=\"6\" fill=\"#163828\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(300,300)\"><path d=\"M0 20 C8 8 18 4 28 8...\"/><path d=\"M8 22 C16 16 26 18 34 26...\"/><circle cx=\"26\" cy=\"10\" r=\"1.4\" fill=\"#ffd27a\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M120 150 C128 146 136 150 132 156 C140 150 150 154 144 162...\" fill=\"#2a1840\"/><path d=\"M150 120 C156 116 164 120 160 126 C168 120 176 124 170 132...\" fill=\"#1c1230\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"80\" cy=\"48\" r=\"1.2\" fill=\"#fff\"/><circle cx=\"140\" cy=\"32\" r=\"1\" fill=\"#ffe\"/>... (múltiples círculos pequeños en zona superior)"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<rect y=\"318\" width=\"400\" height=\"82\" fill=\"url(#sea)\"/> + <circle cx=\"200\" cy=\"248\" r=\"62\" fill=\"url(#sun)\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"248\" r=\"62\" fill=\"url(#sun)\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "Composición con degradados suaves, olas sinuosas, sol centrado; no hay elementos de movimiento brusco"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "Elementos grandes y reconocibles: sol r=62, capas de colinas, mar inferior, palmera"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "Siluetas fill=\"#0e0a1c\" sobre fondo naranja/dorado; sol brillante sobre capas oscuras"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "Formas geométricas simples, paths con pocas curvas, sin texturas complejas"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<rect y=\"318\" width=\"400\" height=\"82\" fill=\"url(#sea)\"/> + gradiente cielo atardecer"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#1a1040\"/><stop offset=\"45%\" stop-color=\"#6b2d6b\"/><stop offset=\"78%\" stop-color=\"#e07a4a\"/><stop offset=\"100%\" stop-color=\"#f6c36a\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"80\" cy=\"48\" r=\"1.2\" fill=\"#fff\"/><circle cx=\"140\" cy=\"32\" r=\"1\" fill=\"#ffe\"/><circle cx=\"210\" cy=\"56\" r=\"1.4\" fill=\"#fff\"/>..."
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"248\" r=\"62\" fill=\"url(#sun)\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<filter id=\"glow\"><feGaussianBlur stdDeviation=\"6\" result=\"b\"/><feMerge>...</feMerge></filter> aplicado al círculo solar"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 250...\" fill=\"#2a1848\"/><path d=\"M0 280...\" fill=\"#1c1238\"/><path d=\"M0 310...\" fill=\"#120c28\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "Tres paths de colinas a cy 250, 280, 310 superpuestos con rellenos distintos"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sea\"><stop offset=\"0%\" stop-color=\"#3a4a7a\"/><stop offset=\"100%\" stop-color=\"#14203a\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "Tres paths: stroke=\"#f6c36a\", stroke=\"#ffb07a\", stroke=\"#fff\" en el agua"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"70\" cy=\"392\" rx=\"28\" ry=\"6\"/><path d=\"M58 392 C62 360 66 340 74 318...\"/><circle cx=\"74\" cy=\"314\" r=\"6\" fill=\"#163828\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(300,300)\"><path d=\"M0 20 C8 8 18 4 28 8 C22 14 16 18 8 22 Z\"/><path d=\"M8 22 C16 16 26 18 34 26...\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"26\" cy=\"10\" r=\"1.4\" fill=\"#ffd27a\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M120 150 C128 146 136 150 132 156 C140 150 150 154 144 162...\" fill=\"#2a1840\"/><path d=\"M150 120 C156 116 164 120 160 126...\" fill=\"#1c1230\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#1a1040\"/> + estrellas + sol bajo (cy=248)"
+    }
+  ]
+}

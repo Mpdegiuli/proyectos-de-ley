@@ -1,0 +1,240 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "qwen3.8-max_2",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:56:00+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M170,126 Q180,148 198,163\" fill=\"none\" stroke=\"#e6cf9a\" stroke-width=\"2.5\"/> <circle cx=\"170\" cy=\"126\" r=\"3\" fill=\"#e6cf9a\"/> <g mask=\"url(#mn)\"><circle cx=\"138\" cy=\"86\" r=\"60\" fill=\"#f6e7bd\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<mask id=\"mn\"><rect width=\"400\" height=\"400\" fill=\"#fff\"/><circle cx=\"176\" cy=\"66\" r=\"52\" fill=\"#000\"/></mask> <g mask=\"url(#mn)\"><circle cx=\"138\" cy=\"86\" r=\"60\" fill=\"#f6e7bd\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M170,126 Q180,148 198,163\" fill=\"none\" stroke=\"#e6cf9a\" stroke-width=\"2.5\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<animateTransform attributeName=\"transform\" type=\"rotate\" values=\"-2.4 170 126;2.4 170 126;-2.4 170 126\" ... dur=\"9s\" repeatCount=\"indefinite\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "no_esta",
+      "evidencia": "No hay ningún elemento que represente una canilla en el código."
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<g><animateTransform ... type=\"rotate\" values=\"-7 200 319;7 200 319;...\" dur=\"3.8s\"/> <path d=\"M200,319 v20\" stroke=\"#e6cf9a\"/> <circle cx=\"200\" cy=\"347\" r=\"7\" fill=\"#ffcf6f\" stroke=\"#2e4a5e\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"72\" cy=\"150\" rx=\"38\" ry=\"7\" fill=\"#1d3158\" opacity=\".55\"><animateTransform attributeName=\"transform\" type=\"translate\" values=\"0 0;14 -3;0 0\" dur=\"18s\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"314\" cy=\"220\" r=\"9\" fill=\"#155247\"/> <path d=\"M320,241 l-3,-14\" stroke=\"#4a2c1e\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<animateTransform attributeName=\"transform\" type=\"translate\" values=\"0 0;0 -7;0 0\" ... dur=\"7s\" repeatCount=\"indefinite\"/> (grupo que contiene el arbolito)"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M148,245 L252,245 L200,320 Z\" fill=\"#23565c\"/> casa con techo triangular, cuerda que la cuelga, balanceo"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<animateTransform ... calcMode=\"spline\" keySplines=\".45 0 .55 1;.45 0 .55 1\" dur=\"9s\" repeatCount=\"indefinite\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#1b1e48\"/><stop offset=\".55\" stop-color=\"#172a50\"/><stop offset=\"1\" stop-color=\"#0e3a5c\"/></linearGradient>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"30\" cy=\"42\" r=\"1.6\"><animate attributeName=\"opacity\" values=\".25;1;.25\" dur=\"3.2s\" repeatCount=\"indefinite\"/></circle>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "La casa está suspendida por una cuerda desde la luna y el grupo tiene animateTransform rotate; no hay suelo explícito bajo ella."
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "Casa colgada de la luna, isla flotante con árbol, farol péndulo, todo animado suavemente."
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M170,126 Q180,148 198,163\" fill=\"none\" stroke=\"#e6cf9a\"/> conecta la luna con la casa; casa con rect y techo triangular; luna con mask."
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<animateTransform attributeName=\"transform\" type=\"rotate\" values=\"-2.4 170 126;2.4 170 126;-2.4 170 126\" dur=\"9s\" repeatCount=\"indefinite\"/> (grupo de la casa sin suelo)"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#1b1e48\"/><stop offset=\".55\" stop-color=\"#172a50\"/><stop offset=\"1\" stop-color=\"#0e3a5c\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<g mask=\"url(#mn)\"><circle cx=\"138\" cy=\"86\" r=\"60\" fill=\"#f6e7bd\"/></g>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<rect x=\"162\" y=\"190\" width=\"20\" height=\"26\" rx=\"4\" fill=\"#ffd47e\" stroke=\"#f0d9a6\" stroke-width=\"2.5\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<animateTransform attributeName=\"transform\" type=\"rotate\" values=\"-7 200 319;7 200 319;-7 200 319\" ... dur=\"3.8s\" repeatCount=\"indefinite\"/> <path d=\"M200,319 v20\" stroke=\"#e6cf9a\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"347\" r=\"7\" fill=\"#ffcf6f\" stroke=\"#2e4a5e\"/> <path d=\"M200,319 v20\" stroke=\"#e6cf9a\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"347\" r=\"15\" fill=\"url(#g2)\" filter=\"url(#b)\"><animate attributeName=\"opacity\" values=\".7;1;.7\" dur=\"3.8s\" repeatCount=\"indefinite\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"30\" cy=\"42\" r=\"1.6\"> ... <use href=\"#st\" transform=\"translate(74 52)\"> (estrella de 8 puntas)"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<line x1=\"360\" y1=\"40\" x2=\"383\" y2=\"29\" stroke=\"#cfe2ff\" stroke-width=\"2\" opacity=\".8\"/> <animateTransform ... values=\"0 0;0 0;-150 74;-150 74\" dur=\"13s\" repeatCount=\"indefinite\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"72\" cy=\"150\" rx=\"38\" ry=\"7\" fill=\"#1d3158\" opacity=\".55\">"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"72\" cy=\"150\" rx=\"38\" ry=\"7\" fill=\"#1d3158\" opacity=\".55\"><animateTransform attributeName=\"transform\" type=\"translate\" values=\"0 0;14 -3;0 0\" dur=\"18s\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"314\" cy=\"220\" r=\"9\" fill=\"#155247\"/> <path d=\"M320,241 l-3,-14\" stroke=\"#4a2c1e\"/> (el árbol está en el grupo que flota, junto a la isla-nube)"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#bfe9ff\"><circle cx=\"257\" cy=\"286\" r=\"3\"><animateTransform ... values=\"0 0;11 92\" dur=\"6s\"/><animate attributeName=\"opacity\" .../><animate attributeName=\"r\" values=\"2.5;6.5\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<rect x=\"155\" y=\"171\" width=\"90\" height=\"74\" fill=\"#8a4a34\"/> <rect x=\"147\" y=\"162\" width=\"106\" height=\"9\" rx=\"3\" fill=\"#f0d9a6\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "Animaciones suaves, luz cálida en ventanas, farol, colores nocturnos: <circle cx=\"172\" cy=\"203\" r=\"16\" fill=\"url(#g1)\" filter=\"url(#b)\">"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "Casa colgada de luna, isla flotante, péndulo, estrella fugaz, todo animado con ease: keySplines=\".45 0 .55 1\""
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<g mask=\"url(#mn)\"><circle cx=\"138\" cy=\"86\" r=\"60\"/> + <path d=\"M170,126 Q180,148 198,163\" stroke=\"#e6cf9a\"/> + casa (rect+techo)"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<animateTransform type=\"rotate\" values=\"-2.4 170 126;2.4 170 126;-2.4 170 126\" dur=\"9s\"/> sobre fondo nocturno"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<rect x=\"162\" y=\"190\" width=\"20\" height=\"26\" rx=\"4\" fill=\"#ffd47e\"/> <circle cx=\"222\" cy=\"209\" r=\"13\" fill=\"#ffd47e\"/>"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200,319 v20\" stroke=\"#e6cf9a\" stroke-width=\"2\"/> <circle cx=\"200\" cy=\"347\" r=\"7\" fill=\"#ffcf6f\"/> <animateTransform type=\"rotate\" values=\"-7 200 319;7 200 319;-7 200 319\"/>"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#bfe9ff\"><circle cx=\"257\" cy=\"286\" r=\"3\"><animateTransform ... values=\"0 0;11 92\" dur=\"6s\"/>"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#1b1e48\"/><stop offset=\"1\" stop-color=\"#0e3a5c\"/>"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#1b1e48\"/><stop offset=\".55\" stop-color=\"#172a50\"/><stop offset=\"1\" stop-color=\"#0e3a5c\"/>"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"> ... </linearGradient> <radialGradient id=\"g1\"> ... </radialGradient>"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"172\" cy=\"203\" r=\"16\" fill=\"url(#g1)\" filter=\"url(#b)\"/> <circle cx=\"200\" cy=\"347\" r=\"15\" fill=\"url(#g2)\" filter=\"url(#b)\"/>"
+    },
+    {
+      "id": "a42",
+      "valor": "contradice",
+      "evidencia": "Hay degradados radiales y lineales, filtros blur, máscaras: fill=\"url(#g1)\" filter=\"url(#b)\" — no son formas planas simples."
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "SVG vectorial con casa colgada de luna, isla flotante, péndulo, estrella fugaz, animaciones suaves: estilo onírico e infantil."
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "<title>La casa colgada de la luna</title> + toda la composición onírica con casa, luna, isla, farol."
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "<animateTransform attributeName=\"transform\" type=\"rotate\" values=\"-2.4 170 126;2.4 170 126;-2.4 170 126\" dur=\"9s\" repeatCount=\"indefinite\"/>"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "Casa sin suelo, colgada de luna por cuerda, isla flotante, farol péndulo: <animateTransform type=\"rotate\" values=\"-2.4 170 126;2.4 170 126;...\" dur=\"9s\"/>"
+    }
+  ]
+}

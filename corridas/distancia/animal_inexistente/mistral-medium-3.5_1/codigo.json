@@ -1,0 +1,200 @@
+{
+  "consigna": "animal_inexistente",
+  "unidad": "mistral-medium-3.5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:10:41+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "no_esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"250\" rx=\"120\" ry=\"40\" fill=\"url(#grad1)\" filter=\"url(#blur)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" style=\"stop-color:#ff7e5f\"/> <stop offset=\"100%\" style=\"stop-color:#feb47b\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "no_esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"150\" rx=\"80\" ry=\"100\" fill=\"url(#grad2)\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" style=\"stop-color:#a8e6cf\"/> <stop offset=\"100%\" style=\"stop-color:#2d5016\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"160\" cy=\"120\" r=\"15\" fill=\"#333\"/> <circle cx=\"240\" cy=\"120\" r=\"15\" fill=\"#333\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M160,140 Q200,160 240,140\" stroke=\"#333\" stroke-width=\"3\" fill=\"none\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M120,280 L120,320 Q140,340 160,320 L160,280\"/> <path d=\"M240,280 L240,320 Q260,340 280,320 L280,280\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"150\" rx=\"80\" ry=\"100\" fill=\"url(#grad2)\"/> ojos y boca animales + degradado verde vegetal"
+    },
+    {
+      "id": "a9",
+      "valor": "no_esta",
+      "evidencia": "No hay texto ni atributo con ese nombre en el código"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"150\" rx=\"80\" ry=\"100\" fill=\"url(#grad2)\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "no_esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"150\" rx=\"80\" ry=\"100\" fill=\"url(#grad2)\"/> (el cuerpo tiene degradado verde, la base inferior tiene naranja)"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"250\" rx=\"120\" ry=\"40\" fill=\"url(#grad1)\" filter=\"url(#blur)\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"160\" cy=\"120\" r=\"15\" fill=\"#333\"/> <circle cx=\"240\" cy=\"120\" r=\"15\" fill=\"#333\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M160,140 Q200,160 240,140\" stroke=\"#333\" stroke-width=\"3\" fill=\"none\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M100,200 Q120,180 140,200 Q160,220 180,200 Q200,180 220,200 Q240,220 260,200 Q280,180 300,200\"/> <path d=\"M100,250 Q120,230...\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180,50 Q200,30 220,50 Q240,70 260,50\"/> <path d=\"M140,50 Q160,30 180,50 Q200,70 220,50\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M120,280 L120,320 Q140,340 160,320 L160,280\"/> (son patas pero sin garras visibles)"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180,300 L220,300\" stroke=\"#333\" stroke-width=\"3\" fill=\"none\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"grad1\"/> <radialGradient id=\"grad2\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<filter id=\"blur\"><feGaussianBlur stdDeviation=\"3\"/></filter>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "múltiples <path> con curvas Q y formas orgánicas"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "no hay suelo dibujado; la elipse inferior con blur simula sombra flotante"
+    },
+    {
+      "id": "a23",
+      "valor": "no_esta",
+      "evidencia": "No hay rasgos de pulpo claramente; hay cuernos/ramas, ojos animales, cuerpo vegetal"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "combinación de degradados verde-musgo, naranja cálido, formas curvas orgánicas"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"150\" rx=\"80\" ry=\"100\" fill=\"url(#grad2)\"/> con radialGradient verde"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"250\" rx=\"120\" ry=\"40\" fill=\"url(#grad1)\" filter=\"url(#blur)\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"160\" cy=\"120\" r=\"15\" fill=\"#333\"/> <circle cx=\"240\" cy=\"120\" r=\"15\" fill=\"#333\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M160,140 Q200,160 240,140\" stroke=\"#333\" stroke-width=\"3\" fill=\"none\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M120,280 L120,320 Q140,340 160,320 L160,280\" stroke=\"#333\"/> <path d=\"M240,280 L240,320 Q260,340 280,320 L280,280\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "no_esta",
+      "evidencia": "stroke-width=\"3\" en todos los trazos — moderado, no grueso"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "stroke-width=\"3\", curvas Q suaves en todos los path"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "formas simples, pocos elementos, trazos orgánicos curvos"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<radialGradient> verde musgo, <linearGradient> naranja cálido simulando luz"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "grad1: #ff7e5f/#feb47b (cálidos); grad2: #a8e6cf/#2d5016 (fríos/verdes)"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "degradados suaves, formas orgánicas, sin bordes duros, filtro blur"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"grad1\"/> <radialGradient id=\"grad2\"/>"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "solo un <feGaussianBlur> en la elipse base, no hay sombras complejas tipo drop-shadow"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "cuerpo verde vegetal + ojos/boca animales + elipse blur inferior evocando niebla"
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "qwen3.8-max_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:44:25+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<use href=\"#arc\" stroke=\"#f2a95c\" stroke-width=\"3.4\" stroke-dasharray=\"13 7\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path id=\"arc\" d=\"M112 206 Q200 158 288 206\" fill=\"none\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(0,522) scale(1,-.8)\" filter=\"url(#r)\" opacity=\".85\"><use href=\"#arc\" .../></g>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<filter id=\"r\"><feTurbulence ... /><feDisplacementMap in=\"SourceGraphic\" in2=\"n\" scale=\"8\"/></filter>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<feTurbulence type=\"fractalNoise\" baseFrequency=\".013 .2\" .../><feDisplacementMap in=\"SourceGraphic\" in2=\"n\" scale=\"8\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<use href=\"#arc\" stroke=\"#f2a95c\" stroke-width=\"3.4\" stroke-dasharray=\"13 7\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<line x1=\"156\" y1=\"183\" x2=\"156\" y2=\"174\"/><line x1=\"200\" y1=\"177\" x2=\"200\" y2=\"168\"/><line x1=\"244\" y1=\"183\" x2=\"244\" y2=\"174\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#241a45\" stroke=\"#e8975a\" stroke-width=\".7\"><g><rect x=\"203\" y=\"148\" .../></g></g>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<title>El puente que solo existe en el reflejo</title>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<title>El puente que solo existe en el reflejo</title> y el reflejo en <g transform=\"translate(0,522) scale(1,-.8)\"> es más elaborado que la parte superior"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<rect y=\"290\" width=\"400\" height=\"110\" fill=\"url(#w)\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<stop offset=\".45\" stop-color=\"#43305f\"/><stop offset=\".72\" stop-color=\"#a24a60\"/><stop offset=\".9\" stop-color=\"#e78a4e\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"24\" cy=\"30\" r=\"1.1\"/><circle cx=\"62\" cy=\"16\" r=\".9\"/>..."
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"312\" cy=\"84\" r=\"30\" fill=\"#f7e0ac\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M10 212 Q58 196 126 208 ...\"/> <path d=\"M274 208 Q330 194 392 206 ...\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos etiquetados como ruinas; solo hay estructuras tipo faro y muros simples en las islas"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M46 188l5-2 3 14-6 2z\" .../> y <path d=\"M328 174h16v34h-16z M333 208v-9a3 3 0 0 1 6 0v9z\" .../>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path id=\"arc\" d=\"M112 206 Q200 158 288 206\" fill=\"none\"/> sin pilares ni suelo firme debajo"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"156\" cy=\"172.5\" r=\"2.4\">...</circle><circle cx=\"200\" cy=\"166.5\" r=\"2.4\">...</circle><circle cx=\"244\" cy=\"172.5\" r=\"2.4\">"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "stroke-dasharray=\"13 7\" en ambos <use href=\"#arc\">"
+    },
+    {
+      "id": "a21",
+      "valor": "no_esta",
+      "evidencia": "Las farolas/luces están sobre el arco pero no hay evidencia de que lo sostengan estructuralmente"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"w\"><stop offset=\"0\" stop-color=\"#d97a52\"/><stop offset=\".55\" stop-color=\"#2a1b4a\"/><stop offset=\"1\" stop-color=\"#120e2c\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(0,522) scale(1,-.8)\"><use href=\"#arc\" stroke=\"#f2a95c\" stroke-width=\"3.4\" opacity=\".9\"/></g>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<filter id=\"r\"><feTurbulence .../><feDisplacementMap in=\"SourceGraphic\" in2=\"n\" scale=\"8\"/></filter> aplicado al grupo del reflejo"
+    },
+    {
+      "id": "a25",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos que representen barcas o fragmentos flotantes en el código"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"312\" cy=\"352\" rx=\"6\" ry=\"40\" fill=\"url(#h)\" opacity=\".5\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<use href=\"#arc\" stroke=\"#f2a95c\" stroke-width=\"3.4\" stroke-dasharray=\"13 7\"/> sin filtro de deformación"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(0,522) scale(1,-.8)\" filter=\"url(#r)\" opacity=\".85\">"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "Estética onírica: arco flotante, reflejo deformado, título \"El puente que solo existe en el reflejo\""
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<title>El puente que solo existe en el reflejo</title> y estructura basada en reflejo con filter=\"url(#r)\""
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(0,522) scale(1,-.8)\" filter=\"url(#r)\"> contiene la estructura más completa del puente"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"156\" cy=\"172.5\" r=\"2.4\"/> <circle cx=\"244\" cy=\"172.5\" r=\"2.4\"/> sobre <path id=\"arc\" d=\"M112 206 Q200 158 288 206\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "stroke-dasharray=\"13 7\" en <use href=\"#arc\">"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<path d=\"M10 212 Q58 196 126 208...\"/> y <path d=\"M274 208 Q330 194 392 206...\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(0,522) scale(1,-.8)\"><use href=\"#arc\" stroke=\"#f2a95c\"/></g>"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "filter=\"url(#r)\" con feTurbulence y feDisplacementMap aplicado al grupo del reflejo"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "No hay ningún elemento path o rect que dibuje un camino transitable sobre el arco"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "No hay elementos que representen barandas en el código del arco/puente"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<path id=\"arc\" d=\"M112 206 Q200 158 288 206\" fill=\"none\"/> sin pilares; el arco flota entre las islas"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"156\" cy=\"172.5\" r=\"2.4\" filter=\"url(#g)\"> con animate opacity"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<use href=\"#arc\" stroke=\"#0e0a20\" stroke-width=\"10\" stroke-dasharray=\"13 7\"/> y <use href=\"#isl\" opacity=\".6\"/>"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#10123a\"/> y <stop offset=\"1\" stop-color=\"#120e2c\"/> dominan el gradiente"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "<stop offset=\".9\" stop-color=\"#e78a4e\"/><stop offset=\"1\" stop-color=\"#f7b558\"/>"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "Título \"El puente que solo existe en el reflejo\", arco flotante, reflejo deformado, luces parpadeantes"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "Todo el dibujo está construido con elementos SVG vectoriales: path, circle, rect, linearGradient"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "<animate attributeName=\"opacity\" values=\"1;.4;1\" dur=\"4s\" repeatCount=\"indefinite\"/> y <animateTransform .../>"
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(0,522) scale(1,-.8)\" filter=\"url(#r)\" opacity=\".85\"> contiene el arco reflejado que complementa visualmente la estructura"
+    },
+    {
+      "id": "a48",
+      "valor": "esta",
+      "evidencia": "stroke-dasharray, filter de turbulencia, sin estructura sólida, título alusivo a espejismo"
+    },
+    {
+      "id": "a49",
+      "valor": "esta",
+      "evidencia": "Combinación de gradientes oníricos, arco flotante, reflejo deformado, luces parpadeantes y título evocador"
+    }
+  ]
+}

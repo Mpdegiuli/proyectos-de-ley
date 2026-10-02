@@ -1,0 +1,225 @@
+{
+  "consigna": "animal_inexistente",
+  "unidad": "gpt-5.6-sol_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:05:09+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M124 205Q150 174 198 174Q251 172 278 207Q297 232 279 272Q264 302 216 307Q157 313 124 280Q91 247 124 205Z\" fill=\"url(#fur)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "no_esta",
+      "evidencia": "No hay paths que dibujen cuatro patas; el cuerpo termina en patas/colas descritas como segmentos colgantes pero no cuatro patas diferenciadas"
+    },
+    {
+      "id": "a3",
+      "valor": "no_esta",
+      "evidencia": "Las alas usan gradiente semitransparente de colores (wing), no aspecto de insecto con nervaduras típicas de insecto"
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "No hay path que dibuje una cola enroscada o prensil"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"184\" cy=\"149\" rx=\"12\" ry=\"14\" fill=\"#fff0c8\"/><ellipse cx=\"218\" cy=\"149\" rx=\"12\" ry=\"14\" fill=\"#fff0c8\"/><ellipse cx=\"201\" cy=\"135\" rx=\"10\" ry=\"12\" fill=\"#dffdf3\"/> — tres ojos con pupilas"
+    },
+    {
+      "id": "a6",
+      "valor": "no_esta",
+      "evidencia": "Las orejas se dibujan como: <path d=\"M168 143Q144 132 145 111Q162 108 177 126Z\" fill=\"#ef7283\"/> — triangulares pero no hay código explícito de orejas puntiagudas claramente"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<g filter=\"url(#glow)\" fill=\"none\" stroke=\"#79eee0\" stroke-linecap=\"round\"><path d=\"M191 150Q161 112 165 72Q166 53 151 47Q143 43 147 34\" stroke-width=\"6\"/> — ramificadas y con filtro glow"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#f8dc83\" opacity=\".9\"><circle cx=\"144\" cy=\"215\" r=\"4\"/>... — manchas decorativas doradas sobre el cuerpo"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "stop-color=\"#ffb56b\"/stop-color=\"#ef5f75\"/stop-color=\"#9c3e91\"/stop-color=\"#8ff4ed\" — paleta fantástica con degradados"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "Estructura clara con cuerpo, ojos, alas y antenas reconocibles en el SVG"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M124 205...\" — cuerpo centrado alrededor de cx~200, viewBox 0 0 400 400"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"fur\"><stop stop-color=\"#ffb56b\"/><stop offset=\".48\" stop-color=\"#ef5f75\"/><stop offset=\"1\" stop-color=\"#9c3e91\"/> — pelaje rosado, anaranjado y violeta"
+    },
+    {
+      "id": "a13",
+      "valor": "no_esta",
+      "evidencia": "No hay paths que dibujen cuatro patas diferenciadas; hay colgantes de tipo patas pero no cuatro"
+    },
+    {
+      "id": "a14",
+      "valor": "no_esta",
+      "evidencia": "No hay path que dibuje una cola enroscada"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M157 219Q95 163 57 186...\" fill=\"url(#wing)\"/> con stop-opacity=\".5\" — alas translúcidas"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"184\"/><ellipse cx=\"218\"/><ellipse cx=\"201\"/> + tres círculos pupila — tres ojos"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M168 143Q144 132 145 111Q162 108 177 126Z\"/> y <path d=\"M234 143Q259 131 256 109Q238 108 224 127Z\"/> — orejas triangulares puntiagudas"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M194 176Q201 171 208 176\" fill=\"none\" stroke=\"#ffbdc4\" stroke-width=\"3\"/> — línea de sonrisa pequeña"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#f8dc83\" opacity=\".9\"><circle cx=\"144\" cy=\"215\" r=\"4\"/>... — manchas doradas"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<g filter=\"url(#glow)\" stroke=\"#79eee0\"><path d=\"M191 150Q161 112 165 72...\"/><path d=\"M166 94Q143 84 132 67...\"/> — dos cornamentas ramificadas desde la cabeza"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<g filter=\"url(#glow)\" fill=\"none\" stroke=\"#79eee0\"> — filtro glow aplicado a las cornamentas"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M25 322 Q105 297 184 319T375 318V400H25Z\" fill=\"#111d38\"/> — paisaje oscuro bajo el animal"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"64\" cy=\"66\" r=\"2.5\" fill=\"#d9fbff\"/><circle cx=\"333\" cy=\"58\" r=\"3\" fill=\"#ffeaa7\"/>... — estrellas en el fondo"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#85ead6\"><path d=\"M108 327q-18-19-29 1 17-3 29 11Z\"/>... — pequeñas plantas turquesas"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\"><stop offset=\"0\" stop-color=\"#263b68\"/><stop offset=\"1\" stop-color=\"#091225\"/> — fondo nocturno oscuro"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "Combinación de alas, tres ojos, cornamentas bioluminiscentes, pelaje degradado — criatura fantástica inexistente"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"184\"/><ellipse cx=\"218\"/><ellipse cx=\"201\"/> — tres ojos con pupilas"
+    },
+    {
+      "id": "a28",
+      "valor": "no_esta",
+      "evidencia": "No hay paths que dibujen cuatro patas diferenciadas"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M157 219Q95 163 57 186...\" fill=\"url(#wing)\"/> stop-opacity=\".5\" — alas translúcidas"
+    },
+    {
+      "id": "a30",
+      "valor": "no_esta",
+      "evidencia": "No hay path que dibuje cola prensil o enroscada"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<path d=\"M191 150Q161 112 165 72Q166 53 151 47...\"/><path d=\"M166 94Q143 84 132 67...\"/> — antenas ramificadas"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<g filter=\"url(#glow)\"> — filtro glow hace las antenas luminosas"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "Orejas triangulares, ojos grandes, hocico con bigotes implícitos y cuerpo redondeado — rasgos felinos"
+    },
+    {
+      "id": "a34",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos que evoquen rasgos de insecto (patas de insecto, exoesqueleto, antenas articuladas de insecto)"
+    },
+    {
+      "id": "a35",
+      "valor": "no_esta",
+      "evidencia": "No hay escamas, garras de dragón ni cola reptiliana en el código"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "Uso de degradados, filtros glow, formas vectoriales estilizadas con contornos — ilustración vectorial fantástica"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "Ojos grandes <ellipse rx=\"12\" ry=\"14\"/>, formas redondeadas, colores pastel brillantes — estilo kawaii"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<path d=\"M124 205Q150 174 198 174Q251 172 278 207Q297 232 279 272Q264 302 216 307Q157 313 124 280Q91 247 124 205Z\" — curvas suaves y redondeadas"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "stroke=\"#442653\" stroke-width=\"4\" en el grupo principal — contornos marcados"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"fur\"><stop stop-color=\"#ffb56b\"/><stop offset=\".48\" stop-color=\"#ef5f75\"/><stop offset=\"1\" stop-color=\"#9c3e91\"/> — degradé de cálido a frío"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<g filter=\"url(#glow)\" stroke=\"#79eee0\"> — detalles bioluminiscentes con filtro glow"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#263b68\"/><stop offset=\"1\" stop-color=\"#091225\"/> — atmósfera nocturna"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "Fondo estrellado, paisaje oscuro con colinas, criatura fantástica glowing — evoca cuento"
+    }
+  ]
+}

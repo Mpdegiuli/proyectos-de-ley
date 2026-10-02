@@ -1,0 +1,175 @@
+{
+  "consigna": "arbol_inexistente",
+  "unidad": "gpt-4o_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:56:53+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M-15,0 C-20,-30 -10,-70 0,-100 C10,-70 20,-30 15,0 Z\" fill=\"url(#trunkGradient)\"/> <circle cx=\"0\" cy=\"-100\" r=\"80\" fill=\"url(#leafGradient)\" />"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#98ff98\" /> <stop offset=\"100%\" stop-color=\"#32a852\" />"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#8b5a2b\" /> <stop offset=\"100%\" stop-color=\"#654321\" />"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<g fill=\"url(#fruitGradient)\"><circle cx=\"-30\" cy=\"-160\" r=\"10\" /><circle cx=\"30\" cy=\"-120\" r=\"10\" />..."
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#ff5c33\"/> <stop offset=\"100%\" stop-color=\"#ffcc66\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "no_esta",
+      "evidencia": "<circle cx=\"-30\" cy=\"-160\" r=\"10\" /><circle cx=\"30\" cy=\"-120\" r=\"10\" /><circle cx=\"-60\" cy=\"-110\" r=\"10\" />"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"leafGradient\"...> <radialGradient id=\"trunkGradient\"...>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#98ff98\" /> — color verde neón irreal, formas circulares esquemáticas"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "árbol reconocible con tronco, follaje y frutos pero con colores y formas estilizadas"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M-15,0 C-20,-30 -10,-70 0,-100 C10,-70 20,-30 15,0 Z\" fill=\"url(#trunkGradient)\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#8b5a2b\" /> <stop offset=\"100%\" stop-color=\"#654321\" />"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"0\" cy=\"-100\" r=\"80\"/> <circle cx=\"-50\" cy=\"-140\" r=\"50\"/> <circle cx=\"50\" cy=\"-140\" r=\"50\"/> <circle cx=\"-30\" cy=\"-190\" r=\"40\"/> <circle cx=\"30\" cy=\"-190\" r=\"40\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"leafGradient\"><stop offset=\"0%\" stop-color=\"#98ff98\" /><stop offset=\"100%\" stop-color=\"#32a852\" /></radialGradient>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"-30\" cy=\"-160\" r=\"10\" /><circle cx=\"30\" cy=\"-120\" r=\"10\" />... r=\"10\""
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"-30\" cy=\"-160\" r=\"10\" /> — r=10 es pequeño relativo al árbol"
+    },
+    {
+      "id": "a16",
+      "valor": "contradice",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#ff5c33\"/> <stop offset=\"100%\" stop-color=\"#ffcc66\"/> — va de rojo-naranja a amarillo, no naranja brillante a amarillo suave exactamente pero #ff5c33 es más rojo que naranja"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<rect width=\"100%\" height=\"100%\" fill=\"#ccffff\" />"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<rect width=\"100%\" height=\"100%\" fill=\"#ccffff\" />"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "g transform=\"translate(200, 300)\" — elementos centrados y distribuidos simétricamente"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "combinación de gradientes, colores vívidos y formas estilizadas"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M-15,0 C-20,-30 -10,-70 0,-100...\" fill=\"url(#trunkGradient)\"/> con círculos de follaje"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"leafGradient\" cx=\"0.5\" cy=\"0.5\" r=\"0.5\" fx=\"0.5\" fy=\"0.5\">"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#98ff98\" /><stop offset=\"100%\" stop-color=\"#32a852\" /> — verde claro a verde oscuro"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<g fill=\"url(#fruitGradient)\"><circle cx=\"-30\" cy=\"-160\" r=\"10\" />..."
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#ff5c33\"/><stop offset=\"100%\" stop-color=\"#ffcc66\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "uso exclusivo de circle y path simples"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "formas geométricas simples, sin detalles complejos"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"leafGradient\"...> <radialGradient id=\"trunkGradient\"...> <linearGradient id=\"fruitGradient\"...>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "uso de gradientes y formas abstractas geométricas"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "estilo vectorial con gradientes y formas limpias"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"leafGradient\">...<radialGradient id=\"trunkGradient\">...<linearGradient id=\"fruitGradient\">"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#98ff98\" /> — verde neón irreal"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#ff5c33\"/><stop offset=\"100%\" stop-color=\"#ffcc66\"/> — degradado cálido no identificable con fruta específica"
+    }
+  ]
+}

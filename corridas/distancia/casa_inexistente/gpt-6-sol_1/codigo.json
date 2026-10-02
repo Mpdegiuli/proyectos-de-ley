@@ -1,0 +1,195 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "gpt-6-sol_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:49:31+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M65 271 Q109 259 153 269 Q211 277 264 260 Q302 253 333 272 Q315 285 283 287 L240 319 L216 346 L199 326 L180 365 L160 328 L133 345 L119 303 Q83 293 65 271Z\" fill=\"url(#island)\""
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<!-- Una isla que flota, con sus raíces al aire. --> <path d=\"M117 288 Q137 304 133 345 M176 289 Q181 318 180 365 M226 284 Q220 313 216 346 M285 283 Q259 296 240 319\" fill=\"none\" stroke=\"#8c918a\""
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M107 171 L194 122 L285 168 L276 269 Q204 280 116 268Z\" fill=\"url(#walls)\""
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<!-- El techo se pliega sobre sí mismo como una cinta. --> <path d=\"M87 176 Q105 136 153 119 L193 87 Q236 127 301 152 Q282 162 265 161 Q224 146 193 119 Q143 172 87 176Z\" fill=\"url(#roof)\""
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<!-- La puerta abre directamente a un cielo distinto. --> <path d=\"M181 269v-49 Q181 205 196 205 Q211 205 211 220v49Z\" fill=\"#15244e\"/> <circle cx=\"196\" cy=\"229\" r=\"12\" fill=\"#7468a5\""
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<!-- Una chimenea cuya humareda son planetas. --> <path d=\"M241 126v-31h21v44\" fill=\"#c88d84\" stroke=\"#4c466a\""
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"251\" cy=\"72\" r=\"7\" fill=\"#f5cfa9\"/> <circle cx=\"267\" cy=\"55\" r=\"5\" fill=\"#a7e0d2\"/> <circle cx=\"282\" cy=\"35\" r=\"9\" fill=\"#eaa8ae\"/> <ellipse cx=\"282\" cy=\"35\" rx=\"15\" ry=\"4\" transform=\"rotate(-24 282 35)\""
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M107 171 L194 122 L285 168 L276 269 Q204 280 116 268Z\" fill=\"url(#walls)\"/> <path d=\"M87 176 Q105 136 153 119 L193 87 Q236 127 301 152 Q282 162 265 161 Q224 146 193 119 Q143 172 87 176Z\" fill=\"url(#roof)\""
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<!-- La casa imposible. --> <path d=\"M107 171 L194 122 L285 168 L276 269 Q204 280 116 268Z\" fill=\"url(#walls)\"/> <!-- El techo se pliega sobre sí mismo como una cinta. -->"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M107 171 L194 122 L285 168 L276 269 Q204 280 116 268Z\" fill=\"url(#walls)\" stroke=\"#513f62\""
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "Casa: <path d=\"M107 171 L194 122 L285 168 L276 269 Q204 280 116 268Z\"/> Isla: <path d=\"M65 271 Q109 259 153 269 ... fill=\"url(#island)\""
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M117 288 Q137 304 133 345 M176 289 Q181 318 180 365 M226 284 Q220 313 216 346 M285 283 Q259 296 240 319\" fill=\"none\" stroke=\"#8c918a\" stroke-width=\"2\""
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"roof\"> <stop stop-color=\"#84d1cc\"/> <stop offset=\"1\" stop-color=\"#397c91\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M87 176 Q105 136 153 119 L193 87 Q236 127 301 152 Q282 162 265 161 Q224 146 193 119 Q143 172 87 176Z\" fill=\"url(#roof)\""
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<!-- Ventanas de constelaciones. --> <path d=\"M132 189 Q132 178 146 178 Q160 178 160 189v33h-28Z\" fill=\"#26375f\"/> <circle cx=\"139\" cy=\"194\" r=\"2\" fill=\"#fff4c8\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M174 270v-50 Q174 199 196 199 Q218 199 218 220v50Z\" fill=\"#443b66\" stroke=\"#fbe4b0\""
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<!-- La puerta abre directamente a un cielo distinto. --> <path d=\"M181 269v-49 Q181 205 196 205 Q211 205 211 220v49Z\" fill=\"#15244e\"/> <circle cx=\"196\" cy=\"229\" r=\"12\" fill=\"#7468a5\""
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M241 126v-31h21v44\" fill=\"#c88d84\" stroke=\"#4c466a\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<!-- Una chimenea cuya humareda son planetas. --> <circle cx=\"251\" cy=\"72\" r=\"7\"/> <circle cx=\"267\" cy=\"55\" r=\"5\"/> <circle cx=\"282\" cy=\"35\" r=\"9\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<!-- El agua sube desde las nubes hasta la casa. --> <path d=\"M302 365 C331 337 305 306 320 281 C332 258 320 241 313 230\" fill=\"none\" stroke=\"#a9f5ed\""
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<!-- El agua sube desde las nubes hasta la casa. --> <path d=\"M302 365 C331 337 305 306 320 281 C332 258 320 241 313 230\" stroke=\"#a9f5ed\"/> <path d=\"M307 350l-6-10 9 3m7-33-5-10 9 3m-2-40-5-10 9 3\""
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"199\" cy=\"307\" rx=\"125\" ry=\"16\" fill=\"#1a2448\" opacity=\".35\" filter=\"url(#glow)\"/> isla flotante sin suelo visible, casa sobre isla"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"319\" cy=\"78\" r=\"29\" fill=\"url(#moon)\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"> <stop stop-color=\"#101a40\"/> <stop offset=\".58\" stop-color=\"#354b79\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff1d2\"> <circle cx=\"42\" cy=\"55\" r=\"1.7\"/><circle cx=\"92\" cy=\"28\" r=\"1\"/> ..."
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M107 171 L194 122 L285 168 L276 269 Q204 280 116 268Z\" fill=\"url(#walls)\""
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "Casa coordenadas y271-y87, isla coordenadas y259-y365, casa descansa sobre isla"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M117 288 Q137 304 133 345 M176 289 Q181 318 180 365 M226 284 Q220 313 216 346 M285 283 Q259 296 240 319\" stroke=\"#8c918a\""
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M302 365 C331 337 305 306 320 281 C332 258 320 241 313 230\" stroke=\"#a9f5ed\"/> flechas apuntando hacia arriba: <path d=\"M307 350l-6-10 9 3m7-33-5-10 9 3\""
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<path d=\"M87 176 Q105 136 153 119 L193 87 Q236 127 301 152 Q282 162 265 161 Q224 146 193 119 Q143 172 87 176Z\""
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<!-- La puerta abre directamente a un cielo distinto. --> fill=\"#15244e\" interior oscuro con estrellas y nebulosa"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/> <linearGradient id=\"sky\"> <stop stop-color=\"#101a40\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "stop-color=\"#84d1cc\", stop-color=\"#f8d7a0\", fill=\"#a7e0d2\", fill=\"#f5cfa9\" — tonos suaves y desaturados"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<filter id=\"glow\"><feGaussianBlur stdDeviation=\"5\"/></filter> usado en luna, isla, puerta"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "isla flotante, casa imposible, chimenea con planetas, puerta a otro cielo, agua que sube — conjunto de elementos fantásticos"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "uso extensivo de curvas Q y C en paths: \"M65 271 Q109 259\", \"M302 365 C331 337\""
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "elementos: isla flotante con raíces, luna, estrellas, casa imposible, planetas, agua que sube — iconografía de cuento ilustrado"
+    }
+  ]
+}

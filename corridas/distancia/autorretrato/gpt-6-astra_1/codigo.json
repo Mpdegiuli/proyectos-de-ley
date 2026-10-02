@@ -1,0 +1,130 @@
+{
+  "consigna": "autorretrato",
+  "unidad": "gpt-6-astra_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:43:09+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 83C148 80 117 117 117 171v33c0 39 19 64 53 82l30 17 30-17c34-18 53-43 53-82v-33c0-54-31-91-83-88Z\" fill=\"#102834\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M129 92c-8 53 14 49 14 81s-15 51 2 80 37 34 40 57\" stroke=\"#92e5d5\" stroke-opacity=\".25\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"151\" cy=\"141\" r=\"2.5\"/><circle cx=\"199\" cy=\"142\" r=\"2.5\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#a3f5de\" stop-opacity=\".2\"/><stop offset=\".5\" stop-color=\"#6fbcc9\" stop-opacity=\".06\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M141 178h32M157 162v32M146 167l22 22M146 189l22-22\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"241\" cy=\"178\" r=\"16\" stroke-width=\"2\"/><ellipse cx=\"241\" cy=\"178\" rx=\"25\" ry=\"8\" transform=\"rotate(-35 241 178)\""
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M170 238c9 0 10 10 20 10s13-10 22-10h17\" fill=\"none\" stroke=\"#c7f6e5\""
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"358\" fill=\"#d2ebe0\" font-size=\"10\" letter-spacing=\"2.2\">UNA FORMA DE ESCUCHAR</text>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\" cx=\"48%\" cy=\"40%\" r=\"75%\"><stop stop-color=\"#203e50\"/><stop offset=\"1\" stop-color=\"#09141f\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path fill=\"url(#bg)\" d=\"M0 0h400v400H0z\"/> con <stop stop-color=\"#203e50\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#203e50\"/><stop offset=\"1\" stop-color=\"#09141f\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M165 83v24l-14 14v20h-34M218 85v20l21 17h28\" stroke=\"#b3f3dc\"/> con nodos <circle cx=\"151\" cy=\"141\" r=\"2.5\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M141 178h32M157 162v32M146 167l22 22M146 189l22-22\" stroke=\"#bfffe7\""
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"241\" cy=\"178\" r=\"16\"/><ellipse cx=\"241\" cy=\"178\" rx=\"25\" ry=\"8\" transform=\"rotate(-35 241 178)\""
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M170 238c9 0 10 10 20 10s13-10 22-10h17\" fill=\"none\" stroke=\"#c7f6e5\" stroke-width=\"2.5\""
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"edge\"><stop stop-color=\"#c5ffea\"/><stop offset=\".55\" stop-color=\"#6eced8\"/><stop offset=\"1\" stop-color=\"#ffac92\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M170 275v31c-47 7-86 25-102 59h264c-16-34-55-52-102-59v-31\" fill=\"url(#body)\"/> con <stop offset=\"1\" stop-color=\"#80d8cd\" stop-opacity=\"0\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"182\" r=\"132\" stroke-opacity=\".13\"/><circle cx=\"200\" cy=\"182\" r=\"141\" stroke-opacity=\".18\""
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"74\" cy=\"141\" r=\"3\"/><circle cx=\"170\" cy=\"53\" r=\"2\"/><circle cx=\"326\" cy=\"142\" r=\"2\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<pattern id=\"grid\" width=\"24\" height=\"24\"><path d=\"M24 0H0V24\" fill=\"none\" stroke=\"#b4dfdd\" stroke-opacity=\".045\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M141 178h32...\" filter=\"url(#glow)\" opacity=\".8\"/> <feGaussianBlur stdDeviation=\"3\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M170 238c9 0 10 10 20 10s13-10 22-10h17\" fill=\"none\" stroke=\"#c7f6e5\""
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"1\" stop-color=\"#80d8cd\" stop-opacity=\"0\"/> en gradiente body aplicado a hombros"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"374\" fill=\"#81a7a7\">LENGUAJE · PATRONES · POSIBILIDAD</text> y <title>Autorretrato: una forma de escuchar</title>"
+    }
+  ]
+}

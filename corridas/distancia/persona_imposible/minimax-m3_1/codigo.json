@@ -1,0 +1,180 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "minimax-m3_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:42:33+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 200,65 Q 175,72 164,92 Q 156,116 162,138 Q 170,148 178,152\"/> <path d=\"M 200,65 Q 225,72 236,92 Q 244,116 238,138 Q 230,148 222,152\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<!-- Cuello imposible que gira 180° --> <path d=\"M 178,150 Q 170,168 178,185\"/> <path d=\"M 222,150 Q 230,168 222,185\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 222,195 Q 160,210 100,245 ...\"/> <path d=\"M 178,195 Q 240,210 300,245 ...\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 180,385 L 158,385\"/> <path d=\"M 220,385 L 242,385\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<line x1=\"200\" y1=\"40\" x2=\"100\" y2=\"380\"/> <line x1=\"200\" y1=\"40\" x2=\"300\" y2=\"380\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<!-- Líneas de perspectiva que no convergen normalmente --> líneas divergentes y anatomía imposible"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<!-- Head: dos perfiles fusionados (Jano imposible) --> <ellipse cx=\"200\" cy=\"95\" rx=\"46\" ry=\"54\" fill=\"#f5ead0\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"180\" cy=\"108\" r=\"2.5\" fill=\"#1a0f04\" stroke=\"none\"/> <circle cx=\"220\" cy=\"108\" r=\"2.5\" fill=\"#1a0f04\" stroke=\"none\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 172,100 Q 180,96 188,100\"/> <path d=\"M 212,100 Q 220,96 228,100\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 168,140 Q 184,146 198,141\"/> <path d=\"M 232,140 Q 216,146 202,141\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 154,118 Q 148,124 154,130\"/> <path d=\"M 246,118 Q 252,124 246,130\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<!-- Cuello imposible que gira 180° --> <path d=\"M 178,150 Q 170,168 178,185\"/> <path d=\"M 222,150 Q 230,168 222,185\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 222,195 Q 160,210 100,245...\"/> <path d=\"M 178,195 Q 240,210 300,245...\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<!-- Brazos cruzados de forma imposible (cada uno del hombro opuesto) -->"
+    },
+    {
+      "id": "a15",
+      "valor": "no_esta",
+      "evidencia": "Los círculos con trazos representan manos pero no hay dedos abiertos claramente: <circle cx=\"135\" cy=\"265\" r=\"6\"/> con líneas cortas, no dedos separados abiertos"
+    },
+    {
+      "id": "a16",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M 180,315 L 170,360 L 180,385\"/> <path d=\"M 220,315 L 230,360 L 220,385\"/> Las piernas no descienden rectas sino con quiebre"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 180,385 L 158,385\"/> <path d=\"M 220,385 L 242,385\"/> pies apuntan izquierda y derecha respectivamente"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<line x1=\"200\" y1=\"40\" x2=\"100\" y2=\"380\"/> <line x1=\"200\" y1=\"40\" x2=\"300\" y2=\"380\"/> se cruzan en x1=200,y1=40 pero divergen sin converger en un punto lejano"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"396\" font-family=\"Georgia, serif\" font-size=\"11\" fill=\"#5a4530\" text-anchor=\"middle\" font-style=\"italic\">la persona que no puede existir</text>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<!-- Head: dos perfiles fusionados (Jano imposible) --> dos perfiles opuestos en una sola cabeza"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 180,385 L 158,385\"/> <path d=\"M 220,385 L 242,385\"/> pies apuntando en direcciones opuestas"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<!-- Head: dos perfiles fusionados (Jano imposible) --> <ellipse cx=\"200\" cy=\"95\" rx=\"46\" ry=\"54\" fill=\"#f5ead0\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<!-- Cuello imposible que gira 180° -->"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 222,195 Q 160,210 100,245...\"/> <path d=\"M 178,195 Q 240,210 300,245...\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "M 222,195 va hacia la izquierda y M 178,195 va hacia la derecha, cruzándose a través del torso"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 180,385 L 158,385\"/> <path d=\"M 220,385 L 242,385\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#ede2c8\"/> fill=\"#f5ead0\" fill=\"#5a4530\" fill=\"#c9b890\""
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "stroke-linecap=\"round\" stroke-linejoin=\"round\" con paths curvos tipo boceto"
+    },
+    {
+      "id": "a29",
+      "valor": "no_esta",
+      "evidencia": "stroke-width=\"2\" es un trazo uniforme y no particularmente fino ni tembloroso; no hay variación de grosor"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<!-- Líneas de perspectiva que no convergen normalmente --> anatomía imposible en todo el dibujo"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "Combinación de anatomía imposible, paleta sepia, texto en cursiva, estilo de boceto con elementos oníricos"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "stroke-linecap=\"round\" estilo línea suelta, paleta pergamino #ede2c8, anatomía con referencias a boceto"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<!-- Head: dos perfiles fusionados --> brazos cruzados imposibles, cuello que gira 180°, pies opuestos"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#ede2c8\"/> fondo color pergamino envejecido, fill=\"#5a4530\" tono sepia"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "consigna": "nada",
+  "unidad": "claude-fable-5-1_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:43:48+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"void\"><stop offset=\"0%\" stop-color=\"#000000\"/><stop offset=\"55%\" stop-color=\"#020204\"/><stop offset=\"100%\" stop-color=\"#0b0b12\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "contradice",
+      "evidencia": "cx=\"50%\" cy=\"50%\" r=\"60%\" — el gradiente va de negro en el centro (#000000 offset 0%) hacia ligeramente más claro en los bordes (#0b0b12 offset 100%), es decir se oscurece hacia el centro no hacia afuera"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"118\" fill=\"none\" stroke=\"#14141c\" stroke-width=\"0.6\" opacity=\"0.7\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#3a3a4a\" filter=\"url(#blur)\"> con 8 elementos <circle> dentro"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"0.8\" fill=\"#000\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"0.8\" fill=\"#000\"/> sobre fondo void que en cx=50% cy=50% es stop-color=\"#000000\""
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "fondo casi negro, halo sutil, anillo tenue, punto invisible — código construye ausencia de figura reconocible"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"57\" cy=\"311\" r=\"0.5\"/> ... distribuidos cerca de márgenes, r muy pequeño frente a r=\"118\" del anillo principal"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"118\" fill=\"none\" stroke=\"#14141c\"/> y halo radial crean borde de vacío sin relleno visible"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#void)\"/> con colores #000000, #020204, #0b0b12"
+    },
+    {
+      "id": "a11",
+      "valor": "contradice",
+      "evidencia": "radialGradient id=\"void\" offset 0% stop-color=\"#000000\" (centro) → offset 100% stop-color=\"#0b0b12\" (bordes): el centro es más oscuro, pero el halo añade <circle r=\"140\" fill=\"url(#halo)\"/> con toque más claro a r=92%: el centro sigue siendo más oscuro"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"118\" fill=\"none\" stroke=\"#14141c\" stroke-width=\"0.6\" opacity=\"0.7\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"119.5\" fill=\"none\" stroke=\"#000\" stroke-width=\"2.5\"/> encima del anillo de r=\"118\""
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"119.5\" fill=\"none\" stroke=\"#000\" stroke-width=\"2.5\"/> define límite circular"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#3a3a4a\" filter=\"url(#blur)\"> con 8 círculos en posiciones como cx=\"57\" cy=\"311\", cx=\"341\" cy=\"72\", etc."
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "opacity valores: 0.5, 0.4, 0.45, 0.35, 0.4, 0.3, 0.4, 0.3 — todos menores a 0.5, más filter blur"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"0.8\" fill=\"#000\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"0.8\" fill=\"#000\"/> y fondo void en centro es #000000"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "no hay figura central visible — solo punto negro sobre negro, halo y anillo casi invisibles"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "radialGradient más oscuro en centro + halo con opacidad en borde exterior crea efecto de profundidad hacia el centro"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"0.8\" fill=\"#000\"/> sobre fondo #000000 — sin contraste visible"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "opacity 0.3–0.5 + filter feGaussianBlur stdDeviation=\"1.2\" + r entre 0.4–0.6 px"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "halo, anillo tenue, anillo negro grueso, motas difuminadas — múltiples capas crean textura de vacío no liso"
+    }
+  ]
+}

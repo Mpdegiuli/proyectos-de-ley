@@ -1,0 +1,205 @@
+{
+  "consigna": "arbol_inexistente",
+  "unidad": "mistral-medium-3.5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:59:38+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "fill=\"url(#hojas)\" filter=\"url(#brillo)\" con colores #a8e6cf, #7fcdcd, #2b8a8a"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"50%\" stop-color=\"#7fcdcd\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "filter=\"url(#brillo)\" en el path de hojas"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"180\" cy=\"120\" r=\"15\" fill=\"#ff9e00\" opacity=\"0.8\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"180\" cy=\"120\" r=\"15\" fill=\"#ff9e00\" opacity=\"0.8\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"tronco\"><stop offset=\"0%\" stop-color=\"#5e3023\"/><stop offset=\"100%\" stop-color=\"#2d1810\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M170,350 Q180,340 190,350\" stroke=\"#5e3023\"/><path d=\"M210,350 Q220,340 230,350\""
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "circles at cy=\"120\", cy=\"140\", cy=\"100\" sin suelo inmediato debajo"
+    },
+    {
+      "id": "a9",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M200,350 Q220,300 200,250 Q180,300 200,350 Z\" fill=\"url(#tronco)\"/> tronco ondulado pero no retorcido"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"100%\" stop-color=\"#2d1810\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"50%\" stop-color=\"#7fcdcd\"/><stop offset=\"100%\" stop-color=\"#2b8a8a\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "filter=\"url(#brillo)\" con feGaussianBlur stdDeviation=\"2\""
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"180\" cy=\"120\" r=\"15\"/><circle cx=\"220\" cy=\"140\" r=\"12\"/><circle cx=\"200\" cy=\"100\" r=\"10\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "no_esta",
+      "evidencia": "los círculos no tienen path de cuelgue ni posición colgante respecto a ramas"
+    },
+    {
+      "id": "a15",
+      "valor": "no_esta",
+      "evidencia": "paths de raíces son líneas curvas delgadas stroke-width=\"2\", no gruesas"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M170,350 Q180,340 190,350\"/> en y=350 base del tronco"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200,150 L200,100\" stroke=\"#ff9e00\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "no_esta",
+      "evidencia": "solo <ellipse cx=\"200\" cy=\"350\" rx=\"30\" ry=\"10\" fill=\"#3a2015\"/> sin texturas"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#1a1a2e\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "fill=\"#1a1a2e\" fondo oscuro contrasta con elementos luminosos"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"tronco\"/><radialGradient id=\"hojas\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<filter id=\"brillo\"><feGaussianBlur stdDeviation=\"2\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200,350 Q220,300 200,250 Q180,300 200,350 Z\"/> curvas Q orgánicas"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "combinación de hojas turquesa, frutos dorados, fondo #1a1a2e, filtro brillo"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "diseño único con bioluminiscencia, frutos dorados, fondo noche"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "fill=\"url(#hojas)\" filter=\"url(#brillo)\" con colores luminosos turquesa"
+    },
+    {
+      "id": "a27",
+      "valor": "contradice",
+      "evidencia": "las hojas son paths con forma orgánica, no círculos: <path d=\"M200,250 Q250,200 220,150...\""
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "hojas #7fcdcd turquesa, frutos fill=\"#ff9e00\" dorado/naranja"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"tronco\"><stop offset=\"0%\" stop-color=\"#5e3023\"/><stop offset=\"100%\" stop-color=\"#2d1810\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<path d=\"M170,350 Q180,340 190,350\"/><path d=\"M210,350 Q220,340 230,350\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#1a1a2e\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "filter=\"url(#brillo)\" feGaussianBlur + colores luminosos turquesa"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "formas orgánicas Q con degradados y filtros de fantasía"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "uso de gradients, filters, colores fantásticos sobre fondo oscuro"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "paths con curvas Q: \"M200,350 Q220,300 200,250 Q180,300 200,350\""
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<radialGradient> y <linearGradient> con stops graduales"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "pocos elementos, sin detalles complejos, formas simples"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "fill=\"#1a1a2e\" contrasta con colores turquesa y dorado luminosos"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<filter id=\"brillo\"><feGaussianBlur stdDeviation=\"2\" result=\"blur\"/><feComposite in=\"SourceGraphic\" in2=\"blur\" operator=\"over\"/>"
+    }
+  ]
+}

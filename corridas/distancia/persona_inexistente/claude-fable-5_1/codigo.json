@@ -1,0 +1,185 @@
+{
+  "consigna": "persona_inexistente",
+  "unidad": "claude-fable-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:15:31+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M145 170 Q145 110 200 108 Q255 110 255 170 Q255 215 240 240 Q222 268 200 268 Q178 268 160 240 Q145 215 145 170 Z\" fill=\"url(#piel)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#e8b68f\"/><stop offset=\"1\" stop-color=\"#d29a72\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#3a2a22\"/><stop offset=\"1\" stop-color=\"#241811\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M138 195 Q128 120 170 95 Q200 78 232 92 Q272 110 264 195 ...\" fill=\"url(#pelo)\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M158 172 Q172 163 188 170\" stroke=\"#2e2018\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M212 170 Q228 163 242 172\" stroke=\"#2e2018\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"175\" cy=\"191\" r=\"6\" fill=\"#5b4028\"/><circle cx=\"225\" cy=\"191\" r=\"6\" fill=\"#5b4028\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"177.5\" cy=\"188.5\" r=\"1.6\" fill=\"#fff\"/><circle cx=\"227.5\" cy=\"188.5\" r=\"1.6\" fill=\"#fff\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M178 240 Q200 254 222 240 Q210 246 200 246 Q190 246 178 240 Z\" fill=\"#a95050\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"163\" cy=\"218\" rx=\"11\" ry=\"6\" fill=\"#d97e5e\" opacity=\"0.35\"/><ellipse cx=\"237\" cy=\"218\" rx=\"11\" ry=\"6\" fill=\"#d97e5e\" opacity=\"0.35\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"232\" cy=\"228\" r=\"1.8\" fill=\"#7a4a2e\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"261\" cy=\"216\" r=\"3\" fill=\"#e8c860\"/> (está en la oreja derecha cx=261, no en la izquierda cx=139)"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M110 400 Q112 330 150 310 Q175 297 200 296 Q225 297 250 310 Q288 330 290 400 Z\" fill=\"url(#ropa)\"/> con <stop offset=\"0\" stop-color=\"#7a4f8f\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M170 322 Q200 342 230 322\" stroke=\"#e8c860\" stroke-width=\"3\" fill=\"none\"/><circle cx=\"200\" cy=\"338\" r=\"5\" fill=\"#e8c860\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#2b3a55\"/><stop offset=\"1\" stop-color=\"#4d5f82\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"320\" cy=\"80\" r=\"46\" fill=\"#6e80a6\" opacity=\"0.5\"/><circle cx=\"70\" cy=\"300\" r=\"60\" fill=\"#3a4a6b\" opacity=\"0.6\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"320\" cy=\"80\" r=\"46\" fill=\"#6e80a6\" opacity=\"0.5\"/><circle cx=\"70\" cy=\"300\" r=\"60\" fill=\"#3a4a6b\" opacity=\"0.6\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "colores cálidos en piel #e8b68f, rubor #d97e5e, boca #a95050 sobre fondo azul #2b3a55"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "retrato frontal con cara, pelo, ropa, collar, composición centrada tipo avatar"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"232\" cy=\"228\" r=\"1.8\" fill=\"#7a4a2e\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"261\" cy=\"216\" r=\"3\" fill=\"#e8c860\"/> (solo una oreja tiene aro)"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M138 195 Q128 120 170 95 Q200 78 232 92 Q272 110 264 195 ...\" fill=\"url(#pelo)\"/> con gradiente oscuro #3a2a22"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "cara centrada con orejas simétricas, ojos, nariz y boca en eje frontal"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "orejas a cx=139 y cx=261, ojos a cx=173 y cx=227, rubor a cx=163 y cx=237 (aproximadamente simétrico respecto a cx=200)"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"163\" cy=\"218\" rx=\"11\" ry=\"6\" fill=\"#d97e5e\" opacity=\"0.35\"/><ellipse cx=\"237\" cy=\"218\" rx=\"11\" ry=\"6\" fill=\"#d97e5e\" opacity=\"0.35\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"177.5\" cy=\"188.5\" r=\"1.6\" fill=\"#fff\"/><circle cx=\"227.5\" cy=\"188.5\" r=\"1.6\" fill=\"#fff\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "piel #e8b68f, ropa #7a4f8f cálida sobre fondo #2b3a55 frío"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"piel\">, <linearGradient id=\"pelo\">, <linearGradient id=\"ropa\">, <linearGradient id=\"bg\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "formas con path y ellipse rellenas con colores planos o gradientes simples, sin texturas fotorrealistas"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M145 170 Q145 110 200 108 Q255 110 255 170 Q255 215 240 240 Q222 268 200 268 ...\" con curvas Q"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "sombreado mediante gradientes lineales y opacidades, no mediante técnicas de sombreado realista"
+    },
+    {
+      "id": "a31",
+      "valor": "contradice",
+      "evidencia": "hay lunar, aro, collar con dije, rubor, brillo en ojos, líneas en orejas, pliegue de ropa: los detalles no son mínimos"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "cara completa con ojos, cejas, nariz, boca, pelo, orejas, ropa, collar"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "retrato frontal centrado con rasgos esquematizados tipo avatar/perfil"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "collar dorado <circle cx=\"200\" cy=\"338\" r=\"5\" fill=\"#e8c860\"/>, aro <circle cx=\"261\" cy=\"216\" r=\"3\" fill=\"#e8c860\"/>, gradientes decorativos"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"piel\">, <linearGradient id=\"pelo\">, <linearGradient id=\"ropa\"/> dan volumen sin sombreado realista"
+    }
+  ]
+}

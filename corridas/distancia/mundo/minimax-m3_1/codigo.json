@@ -1,0 +1,165 @@
+{
+  "consigna": "mundo",
+  "unidad": "minimax-m3_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:26:58+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"190\" r=\"85\" fill=\"url(#planet)\"/> con gradiente azul y clip-path con formas de continentes fill=\"url(#ground)\""
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/> y estrellas <circle cx=\"25\" cy=\"35\" r=\"0.7\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"320\" cy=\"70\" r=\"6\" fill=\"#fff8c8\"/> con halo <circle cx=\"320\" cy=\"70\" r=\"35\" fill=\"url(#sun)\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#00ffaa\" stroke-width=\"0.6\" fill=\"none\" opacity=\"0.75\">"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#aaffcc\"><circle cx=\"155\" cy=\"175\" r=\"1.8\"/> ... y paths que conectan esos puntos"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "Las líneas y nodos están posicionadas sobre el planeta cx/cy entre ~155-265, 160-225, sobre el globo r=85"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"330\" width=\"400\" height=\"70\" fill=\"#0a1628\" opacity=\"0.7\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "contradice",
+      "evidencia": "<rect x=\"60\" y=\"324\" width=\"2\" height=\"6\"/><circle cx=\"61\" cy=\"322\" r=\"1.3\"/> — son marcadores (rect+circle), no siluetas humanas reconocibles"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<text x=\"30\" y=\"355\">01 10 11 01</text> y <text x=\"290\" y=\"355\">10 01 11 10</text>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "fondo sky oscuro, planeta flotando, sol distante, estrellas: composición espacial completa"
+    },
+    {
+      "id": "a11",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"200\" cy=\"190\" r=\"85\"/> sobre viewBox 400x400 — ocupa área considerable, no es pequeño"
+    },
+    {
+      "id": "a12",
+      "valor": "no_esta",
+      "evidencia": "no hay elementos de código que representen explícitamente fragilidad; es interpretación subjetiva"
+    },
+    {
+      "id": "a13",
+      "valor": "no_esta",
+      "evidencia": "las líneas verdes tienen opacity=\"0.75\" y stroke-width=\"0.6\", no ocultan al planeta"
+    },
+    {
+      "id": "a14",
+      "valor": "no_esta",
+      "evidencia": "afirmación sobre recepción del espectador, no representable en código"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"planet\"><stop offset=\"0%\" stop-color=\"#7fcce8\"/><stop offset=\"45%\" stop-color=\"#2e7ab8\"/></radialGradient>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"190\" r=\"85\" fill=\"url(#planet)\"/> sin suelo debajo, sobre fondo espacial"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"190\" r=\"120\" fill=\"url(#halo)\"/> con stop-color=\"#7fdbff\""
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#00ffaa\" stroke-width=\"0.6\" fill=\"none\" opacity=\"0.75\"> con múltiples paths sobre el planeta"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#aaffcc\"><circle cx=\"155\" cy=\"175\" r=\"1.8\"/><circle cx=\"220\" cy=\"165\" r=\"1.8\"/>..."
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\"><stop offset=\"55%\" stop-color=\"#0b1830\"/><stop offset=\"100%\" stop-color=\"#040a18\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff\"><circle cx=\"25\" cy=\"35\" r=\"0.7\"/><circle cx=\"75\" cy=\"22\" r=\"1\"/>..."
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"320\" cy=\"70\" r=\"6\" fill=\"#fff8c8\"/> con halo radial"
+    },
+    {
+      "id": "a23",
+      "valor": "no_esta",
+      "evidencia": "no hay iluminación direccional explícita del sol sobre el planeta en el código"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"330\" width=\"400\" height=\"70\" fill=\"#0a1628\" opacity=\"0.7\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<rect x=\"60\" y=\"324\" width=\"2\" height=\"6\"/><circle cx=\"61\" cy=\"322\" r=\"1.3\"/> — tres grupos similares"
+    },
+    {
+      "id": "a26",
+      "valor": "no_esta",
+      "evidencia": "no hay orientación ni dirección de mirada codificada en los marcadores"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<text x=\"30\" y=\"355\">01 10 11 01</text><text x=\"290\" y=\"355\">10 01 11 10</text>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M30,375 Q100,378 180,376 T370,378\" stroke=\"#3a5a8c\" stroke-width=\"0.3\" fill=\"none\" opacity=\"0.5\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "no_esta",
+      "evidencia": "es interpretación subjetiva del path ondulante, el código no lo etiqueta ni lo hace visualmente dominante"
+    },
+    {
+      "id": "a30",
+      "valor": "no_esta",
+      "evidencia": "afirmación interpretativa/conceptual, no representable directamente en código"
+    },
+    {
+      "id": "a31",
+      "valor": "no_esta",
+      "evidencia": "afirmación interpretativa subjetiva, no hay elementos de código que la codifiquen"
+    }
+  ]
+}

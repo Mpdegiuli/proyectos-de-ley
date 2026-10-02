@@ -1,0 +1,175 @@
+{
+  "consigna": "arbol_inexistente",
+  "unidad": "claude-fable-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:51:13+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#cielo)\"/> + tronco + ramas + fondo nocturno"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"345\" rx=\"150\" ry=\"32\" fill=\"url(#suelo)\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"340\" rx=\"140\" ry=\"24\" fill=\"#4a3576\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "la isla flota sobre el fondo de cielo sin suelo conectado: <ellipse cx=\"200\" cy=\"345\" rx=\"150\" ry=\"32\" fill=\"url(#suelo)\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M185 340 Q150 350 125 342 M196 340 Q235 352 268 343 M190 338 Q190 358 165 362\" stroke=\"#4a2a6e\" stroke-width=\"7\" fill=\"none\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M185 340 C170 300 215 285 200 245...\" fill=\"url(#tronco)\"/> con stop-color=\"#6b3fa0\", \"#9b6fd4\""
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M185 340 C170 300 215 285 200 245 C188 212 212 195 202 160 C195 135 208 120 204 100...\" fill=\"url(#tronco)\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<!-- copa: medusas de vidrio --> con paths semicirculares y tentáculos"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "fill=\"#8fe8ff\" (celeste) y fill=\"#ffb3e6\" (rosada) en los paths de medusas"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "medusas en cx=\"200\" cy=\"48\", cx=\"305\" cy=\"52\", cx=\"99\" cy=\"56\" coincidiendo con puntas de ramas"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M188 55 q-2 14 3 22 M200 56 q0 16 -2 24 M212 55 q3 13 -1 22\" stroke=\"#aef\" stroke-width=\"2\" fill=\"none\" opacity=\"0.7\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<line x1=\"235\" y1=\"88\" x2=\"235\" y2=\"118\"/> <circle cx=\"235\" cy=\"126\" r=\"9\" fill=\"url(#fruta)\"/> con gradientes iridiscentes"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<!-- esporas luminosas --> <circle cx=\"245\" cy=\"210\" r=\"2.5\"/> fill=\"#bffcff\" opacity=\"0.8\""
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"cielo\"> <stop offset=\"0\" stop-color=\"#0b1033\"/> <stop offset=\"0.6\" stop-color=\"#2a1a4f\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<!-- estrellas --> <circle cx=\"40\" cy=\"40\" r=\"1.4\"/> fill=\"#fff\""
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"320\" cy=\"75\" r=\"55\" fill=\"url(#luna)\" opacity=\"0.9\"/> con radialGradient stop-color=\"#fff7d9\""
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"340\" rx=\"60\" ry=\"8\" fill=\"#9ff\" opacity=\"0.15\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "no_esta",
+      "evidencia": "el reflejo existe pero no hay elemento que sugiera respiración o luz propia del árbol explícitamente"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#0b1033\"/> cielo oscuro + estrellas + luna"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M185 340 C170 300 215 285 200 245...\" fill=\"url(#tronco)\"/> con colores púrpura"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<!-- copa: medusas de vidrio --> con fill=\"#8fe8ff\" y fill=\"#ffb3e6\" formando la copa del árbol"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"235\" cy=\"126\" r=\"9\" fill=\"url(#fruta)\"/> <circle cx=\"165\" cy=\"134\" r=\"9\" fill=\"url(#fruta2)\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"345\" rx=\"150\" ry=\"32\" fill=\"url(#suelo)\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M185 340 Q150 350 125 342 M196 340 Q235 352 268 343\" stroke=\"#4a2a6e\" stroke-width=\"7\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#bffcff\" opacity=\"0.8\"> <!-- esporas luminosas -->"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "stop-color=\"#0b1033\", \"#2a1a4f\", \"#4b2a6e\" (violetas) + fill=\"#8fe8ff\", \"#bffcff\" (cian)"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "múltiples linearGradient y radialGradient en cielo, tronco, suelo, frutas, luna"
+    },
+    {
+      "id": "a28",
+      "valor": "no_esta",
+      "evidencia": "hay múltiples paths con curvas complejas, espirales, tentáculos; no son siluetas limpias simples"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "fill=\"url(#fruta)\" con stop-color=\"#7df9ff\" + medusas con opacity=\"0.85\" + halo radialGradient con stop-opacity"
+    },
+    {
+      "id": "a30",
+      "valor": "no_esta",
+      "evidencia": "los rellenos son todos degradados (radialGradient, linearGradient), no es ilustración plana"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "combinación de árbol, medusas, burbujas, esporas, luna, colores fantasiosos evoca cuento infantil"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "paleta oscura con fill=\"#bffcff\", \"#7df9ff\", \"#8fe8ff\" glow + fondo índigo + esporas luminosas"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<!-- copa: medusas de vidrio --> + tentáculos + esporas + frutas-burbuja + tronco con gradiente púrpura"
+    }
+  ]
+}

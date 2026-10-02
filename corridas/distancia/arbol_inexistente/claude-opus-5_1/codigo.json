@@ -1,0 +1,175 @@
+{
+  "consigna": "arbol_inexistente",
+  "unidad": "claude-opus-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:47:41+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M176 356 C180 300 160 268 170 226 ...\"/> <path d=\"M224 356 C218 302 242 272 232 228 .../>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"372\" rx=\"190\" ry=\"30\" fill=\"url(#ground)\"/> <linearGradient id=\"ground\"><stop offset=\"0%\" stop-color=\"#1d2a38\"/><stop offset=\"100%\" stop-color=\"#070a12\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 350 C168 352 142 358 112 368\" stroke-width=\"9\"/> <path d=\"M200 350 C232 352 262 358 292 366\" stroke-width=\"8\"/> <path d=\"M200 352 C186 362 168 370 150 376\" stroke-width=\"6\"/> <path d=\"M200 352 C214 362 236 370 254 374\" stroke-width=\"5\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M104 62 l-16 -14 l6 22 l-18 2 l20 12 l-6 16 l18 -12 l8 14 l2 -18 l16 2 l-14 -14 Z\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"leaf\"><stop offset=\"0%\" stop-color=\"#7ef0cf\"/><stop offset=\"50%\" stop-color=\"#3aa6a0\"/><stop offset=\"100%\" stop-color=\"#23506b\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"leaf2\"><stop offset=\"0%\" stop-color=\"#f3a5e2\"/><stop offset=\"60%\" stop-color=\"#8b4bb0\"/><stop offset=\"100%\" stop-color=\"#2b1b55\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<!-- hojas cristalinas --> <g opacity=\".92\">"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bulb\"><stop offset=\"0%\" stop-color=\"#ffffff\"/><stop offset=\"35%\" stop-color=\"#8ff0d8\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"104\" cy=\"62\" r=\"16\" fill=\"url(#bulb)\"/> <!-- frutos luminosos -->"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<!-- esporas flotantes --> <g fill=\"#9ff3dd\"><circle cx=\"150\" cy=\"200\" r=\"1.8\" opacity=\".8\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"200\" rx=\"165\" ry=\"165\" fill=\"url(#halo)\"/> <radialGradient id=\"halo\"><stop offset=\"0%\" stop-color=\"#58e6c4\" stop-opacity=\"0.45\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento que represente pasto ni reflejo sobre él. Solo: <ellipse cx=\"200\" cy=\"360\" rx=\"70\" ry=\"10\" fill=\"#4fe0c0\" opacity=\".12\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#2d1f4a\"/><stop offset=\"55%\" stop-color=\"#17132e\"/><stop offset=\"100%\" stop-color=\"#090a18\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"40\" cy=\"48\" r=\"1.1\" opacity=\".8\"/><circle cx=\"92\" cy=\"26\" r=\".8\" opacity=\".6\"/> ... (10 estrellas pequeñas)"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#2d1f4a\"/><stop offset=\"100%\" stop-color=\"#090a18\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bulb\"><stop offset=\"0%\" stop-color=\"#ffffff\"/></radialGradient> <!-- frutos luminosos --> + hojas con gradientes luminosos"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "Combinación de: gradientes bioluminiscentes, esporas, halo, colores #8ff0d8 #c050b0 sobre fondo #090a18"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M176 356 C180 300 160 268 170 226 C178 192 190 176 196 150\"/> <path d=\"M224 356 C218 302 242 272 232 228 C224 192 210 178 204 150\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "contradice",
+      "evidencia": "Las hojas tienen forma irregular no de seis puntas: <path d=\"M104 62 l-16 -14 l6 22 l-18 2 l20 12 l-6 16 l18 -12 l8 14 l2 -18 l16 2 l-14 -14 Z\"/> (11 vértices)"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bulb\"><stop offset=\"0%\" stop-color=\"#ffffff\"/><stop offset=\"35%\" stop-color=\"#8ff0d8\"/> <!-- emiten luz desde el centro -->"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 152 C196 120 170 104 140 96\"/> <path d=\"M200 152 C206 122 232 106 262 100\"/> (ramas simétricas izquierda y derecha)"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "turquesa: #8ff0d8, #58e6c4, #7ef0cf; magenta: #ffc8f0, #c050b0, #f3a5e2; azul profundo: #090a18, #17132e"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"200\" rx=\"165\" ry=\"165\" fill=\"url(#halo)\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<!-- esporas flotantes --> <circle cx=\"150\" cy=\"200\" r=\"1.8\" opacity=\".8\"/> + estrellas <circle cx=\"40\" cy=\"48\" r=\"1.1\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bulb\"><stop offset=\"0%\" stop-color=\"#ffffff\"/> + <radialGradient id=\"halo\"><stop offset=\"0%\" stop-color=\"#58e6c4\" stop-opacity=\"0.45\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\"><stop offset=\"100%\" stop-color=\"#090a18\"/> + estrellas + halo"
+    },
+    {
+      "id": "a27",
+      "valor": "no_esta",
+      "evidencia": "La simetría existe pero no hay elementos heráldicos (escudo, cuarteles, divisas). Solo ramas simétricas."
+    },
+    {
+      "id": "a28",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos de UI, tipografía, marcos ni referencias a videojuego en el código."
+    },
+    {
+      "id": "a29",
+      "valor": "no_esta",
+      "evidencia": "No hay tipografía, marcos ni composición de portada en el código."
+    },
+    {
+      "id": "a30",
+      "valor": "contradice",
+      "evidencia": "El código usa extensivamente degradados: fill=\"url(#bark)\", fill=\"url(#leaf)\", fill=\"url(#bulb)\", etc. No es plano."
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\"/> <linearGradient id=\"bark\"/> <radialGradient id=\"bulb\"/> <linearGradient id=\"leaf\"/> etc."
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "Formas definidas con path y circle sin stroke irregular: <path d=\"M104 62 l-16 -14 ...\"/> siluetas vectoriales cerradas."
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "No hay filtros de textura, feTurbulence, feDisplacementMap ni trazos sueltos. Solo paths y degradados limpios."
+    }
+  ]
+}

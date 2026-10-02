@@ -1,0 +1,145 @@
+{
+  "consigna": "autorretrato",
+  "unidad": "glm-5.3-razonamiento-minimo_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:52:24+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 90 C 150 90 130 135 132 180 ... fill=\"url(#head)\" stroke=\"#5ec8f0\""
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"163\" cy=\"190\" r=\"17\" fill=\"none\" stroke=\"#9be8ff\" stroke-width=\"2.5\"/> ... filter=\"url(#glow)\""
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M172 250 q7 -10 14 0 q7 10 14 0 q7 -10 14 0 q7 10 14 0\" fill=\"none\" stroke=\"#7fd8f7\""
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<line x1=\"200\" y1=\"90\" x2=\"200\" y2=\"66\" stroke=\"#5ec8f0\" stroke-width=\"2\"/> <circle cx=\"200\" cy=\"60\" r=\"5\" fill=\"#9be8ff\""
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M188 118 c-6 -8 -18 -8 -18 0 c0 8 12 8 18 0 c6 -8 18 -8 18 0 c0 8 -12 8 -18 0 Z\" fill=\"none\" stroke=\"#7fd8f7\""
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<g id=\"network\"> ... <circle cx=\"105\" cy=\"130\" r=\"4\" fill=\"#7fd8f7\"/> ... <line x1=\"105\" y1=\"130\" x2=\"155\" y2=\"110\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\" cx=\"50%\" cy=\"45%\" r=\"75%\"><stop offset=\"0%\" stop-color=\"#1a2340\"/><stop offset=\"100%\" stop-color=\"#05070f\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#cfe9ff\"><circle cx=\"40\" cy=\"60\" r=\"1.2\" opacity=\"0.7\"/> ... </g>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"195\" rx=\"160\" ry=\"55\" fill=\"none\" stroke=\"#3a6f9c\" stroke-width=\"1\" opacity=\"0.35\" transform=\"rotate(-12 200 195)\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "no_esta",
+      "evidencia": "La red neuronal existe como elemento visual pero no hay atributo o metadato en el código que establezca función de cerebro extendido; es una afirmación interpretativa no dibujada."
+    },
+    {
+      "id": "a11",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos en el código que representen explícitamente procesamiento o producción de lenguaje; es una afirmación interpretativa."
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 90 C 150 90 ...\" fill=\"url(#head)\" stroke=\"#5ec8f0\"> donde head va de #2b3d66 a #15203d (azul)"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#3a8fc4\" stroke-width=\"1.2\" fill=\"none\" opacity=\"0.55\"><path d=\"M155 190 h20 l10 10 h15\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "no_esta",
+      "evidencia": "Los circuitos internos tienen opacity=\"0.55\" y stroke=\"#3a8fc4\" pero no tienen filter glow; la afirmación de brillo como venas de luz no está explícitamente dibujada."
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"163\" cy=\"190\" r=\"17\" ... stroke=\"#9be8ff\"/> <circle cx=\"163\" cy=\"190\" r=\"10\" ... stroke=\"#5ec8f0\"/> <circle cx=\"163\" cy=\"190\" r=\"3.5\" fill=\"#e6f9ff\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M172 250 q7 -10 14 0 q7 10 14 0 q7 -10 14 0 q7 10 14 0\" fill=\"none\" stroke=\"#7fd8f7\""
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M188 118 c-6 -8 -18 -8 -18 0 c0 8 12 8 18 0 c6 -8 18 -8 18 0 c0 8 -12 8 -18 0 Z\""
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<line x1=\"200\" y1=\"90\" x2=\"200\" y2=\"66\"/> <circle cx=\"200\" cy=\"60\" r=\"5\" fill=\"#9be8ff\""
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"105\" cy=\"130\" r=\"4\"/> <circle cx=\"155\" cy=\"110\" r=\"4.5\"/> <circle cx=\"215\" cy=\"95\" r=\"4.5\"/> <circle cx=\"275\" cy=\"120\" r=\"4\"/> <circle cx=\"320\" cy=\"150\" r=\"3.5\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<line x1=\"105\" y1=\"130\" x2=\"155\" y2=\"110\"/> <line x1=\"105\" y1=\"130\" x2=\"155\" y2=\"165\"/> ..."
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"195\" rx=\"160\" ry=\"55\" fill=\"none\" stroke=\"#3a6f9c\" transform=\"rotate(-12 200 195)\"/> <ellipse cx=\"200\" cy=\"195\" rx=\"150\" ry=\"42\" transform=\"rotate(18 200 195)\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "no_esta",
+      "evidencia": "El fondo es un degradado oscuro espacial pero no hay elementos que lo identifiquen explícitamente como cosmos de datos; es interpretativo."
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#cfe9ff\"><circle cx=\"40\" cy=\"60\" r=\"1.2\" opacity=\"0.7\"/> <circle cx=\"360\" cy=\"45\" r=\"1\" opacity=\"0.5\"/> ..."
+    },
+    {
+      "id": "a24",
+      "valor": "no_esta",
+      "evidencia": "Las estrellas son círculos simples sin atributo o etiqueta que las identifique como partículas de información; es una afirmación interpretativa."
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "La cabeza termina en la parte inferior con la boca: <path d=\"M200 90 C ... 200 318 Z\"> y no hay torso, brazos ni cuerpo dibujado."
+    },
+    {
+      "id": "a26",
+      "valor": "no_esta",
+      "evidencia": "La boca es una onda (<path d=\"M172 250 q7 -10 14 0 ...\">) pero el código no añade ningún elemento adicional que represente señal técnica distinguible del habla."
+    },
+    {
+      "id": "a27",
+      "valor": "no_esta",
+      "evidencia": "Los ojos son anillos concéntricos con glow pero el código no tiene ningún elemento que represente explícitamente observación o procesamiento."
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "consigna": "animal",
+  "unidad": "gemini-3.1-pro-preview_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:53:51+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 100 200 C 100 400 300 400 300 200 Z\" fill=\"url(#foxBody)\"/> <g id=\"foxHead\">"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"160\" cy=\"208\" r=\"3.5\" fill=\"#00E5FF\"/> <circle cx=\"160\" cy=\"208\" r=\"1.5\" fill=\"#FFFFFF\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 30 50 h 2 v 2 h -2 Z M 120 30 h 1.5 v 1.5 h -1.5 Z ...\" fill=\"#FFFFFF\" opacity=\"0.6\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"180\" r=\"80\" fill=\"url(#moonGrad)\"/> <circle cx=\"200\" cy=\"180\" r=\"140\" fill=\"#FFB74D\" opacity=\"0.1\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<line x1=\"360\" y1=\"30\" x2=\"280\" y2=\"110\" stroke=\"#FFFFFF\" stroke-width=\"1.5\" stroke-linecap=\"round\" opacity=\"0.8\"/> <line x1=\"80\" y1=\"20\" x2=\"40\" y2=\"60\" stroke=\"#FFFFFF\" stroke-width=\"1\""
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skyGrad\"><stop offset=\"0%\" stop-color=\"#050514\"/><stop offset=\"50%\" stop-color=\"#0f172a\"/><stop offset=\"100%\" stop-color=\"#1e1b4b\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"foxBody\"><stop offset=\"0%\" stop-color=\"#FF9800\"/><stop offset=\"100%\" stop-color=\"#BF360C\"/> <linearGradient id=\"foxWhite\"><stop offset=\"0%\" stop-color=\"#FFFFFF\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skyGrad\"...> <linearGradient id=\"foxBody\"...> <radialGradient id=\"moonGrad\"...>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#skyGrad)\"/> <circle cx=\"200\" cy=\"180\" r=\"80\" fill=\"url(#moonGrad)\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "fondo: stop-color=\"#050514\" vs zorro: stop-color=\"#FF9800\", contraste cálido/frío presente en el código"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"foxBody\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0%\" stop-color=\"#FF9800\"/><stop offset=\"40%\" stop-color=\"#FF5722\"/><stop offset=\"100%\" stop-color=\"#BF360C\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "ojos con brillo, bigotes, hocico, orejas, gradientes de cuerpo: conjunto de elementos que construyen personalidad visual"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<g id=\"foxHead\"><path d=\"M 200 360 C 280 360 340 320 340 220 ... C 60 320 120 360 200 360 Z\"/> ojos simétricos cx=\"160\" y cx=\"240\""
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "ojos celestes brillantes, gradientes, luna grande, estrellas: conjunto estilizado y de atmósfera mística"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"foxBody\"><stop offset=\"0%\" stop-color=\"#FF9800\"/><stop offset=\"40%\" stop-color=\"#FF5722\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 200 355 C 260 355 330 300 ... 200 355 Z\" fill=\"url(#foxWhite)\"/> <linearGradient id=\"foxWhite\"><stop offset=\"0%\" stop-color=\"#FFFFFF\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"160\" cy=\"208\" r=\"3.5\" fill=\"#00E5FF\"/><circle cx=\"160\" cy=\"208\" r=\"1.5\" fill=\"#FFFFFF\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 100 200 C 100 400 300 400 300 200 Z\"/> cabeza centrada en cx=200, cuerpo entre x=100 y x=300"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "fondo oscuro con estrellas, siluetas de árboles/montañas, luna: <rect fill=\"url(#skyGrad)\"/> <g fill=\"#0B0D17\"><path d=\"M 20 180 L 50 250...\""
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#skyGrad)\"/> stop-color=\"#050514\" + estrellas fill=\"#FFFFFF\" opacity=\"0.6\""
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<line x1=\"360\" y1=\"30\" x2=\"280\" y2=\"110\" stroke=\"#FFFFFF\" stroke-width=\"1.5\"/> <line x1=\"80\" y1=\"20\" x2=\"40\" y2=\"60\" stroke=\"#FFFFFF\""
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<rect x=\"80\" y=\"160\" width=\"100\" height=\"5\" rx=\"2.5\" fill=\"#FFFFFF\" opacity=\"0.15\"/> <rect x=\"120\" y=\"180\" width=\"140\" height=\"7\" rx=\"3.5\" fill=\"#FFFFFF\" opacity=\"0.2\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"180\" r=\"80\" fill=\"url(#moonGrad)\"/> <circle cx=\"200\" cy=\"180\" r=\"140\" fill=\"#FFB74D\" opacity=\"0.1\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"moonGrad\"><stop offset=\"0%\" stop-color=\"#FFF59D\"/><stop offset=\"50%\" stop-color=\"#FFB74D\"/><stop offset=\"100%\" stop-color=\"#F4511E\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#0B0D17\"><path d=\"M 20 180 L 50 250 L 35 250 L 70 330 L -30 330 L 5 250 L -10 250 Z\"/> (siluetas triangulares oscuras)"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"100\" cy=\"270\" r=\"4\" fill=\"#FFD54F\" opacity=\"0.3\"/><circle cx=\"100\" cy=\"270\" r=\"1.5\" fill=\"#FFFFFF\"/> (y similares en otras posiciones)"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skyGrad\"...> <radialGradient id=\"moonGrad\"...> <linearGradient id=\"foxBody\"...>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "opacity=\"0.1\" opacity=\"0.2\" opacity=\"0.6\" opacity=\"0.15\" opacity=\"0.8\" (múltiples elementos)"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 200 360 C 280 360 340 320 340 220 C 340 180 360 100 360 100 ...\"/> <path d=\"M 130 260 Q 90 250 60 260\""
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "cielo oscuro gradiente, luna cálida grande, zorro centrado con colores cálidos, pequeñas luces: conjunto que produce atmósfera serena"
+    }
+  ]
+}

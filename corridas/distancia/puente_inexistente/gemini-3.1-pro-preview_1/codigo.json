@@ -1,0 +1,235 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "gemini-3.1-pro-preview_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:41:27+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 40 210 Q 90 220 135 158\" ... stroke=\"#ff00e4\" stroke-width=\"3\" filter=\"url(#glow)\"/> ... <path d=\"M 135 158 Q 190 160 245 109\" ... <path d=\"M 245 109 Q 275 120 315 95\""
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<use href=\"#s\" transform=\"translate(80, 205) scale(0.6) rotate(-15)\"/> ... <use href=\"#s\" transform=\"translate(185, 125) scale(1.0) rotate(15)\"/> (múltiples instancias de la figura #s flotando)"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"0\" cy=\"0\" rx=\"15\" ry=\"45\" fill=\"#050117\" stroke=\"#ff00e4\" stroke-width=\"3\" filter=\"url(#glowStrong)\"/> y <ellipse cx=\"0\" cy=\"0\" rx=\"15\" ry=\"45\" fill=\"#050117\" stroke=\"#00f3ff\" stroke-width=\"3\" filter=\"url(#glowStrong)\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "translate(40, 210) (portal izquierdo, inicio del puente) y translate(315, 95) (portal derecho, fin del puente), coincidiendo con los extremos de las paths del puente"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#070211\"/><stop offset=\"40%\" stop-color=\"#190731\"/><stop offset=\"80%\" stop-color=\"#3d0e45\"/><stop offset=\"100%\" stop-color=\"#140224\"/></linearGradient>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"0\" cy=\"0\" r=\"100\" fill=\"url(#planetBody)\"/> ... <path d=\"M -170 0 A 170 40 0 0 0 170 0\" ... stroke=\"url(#ringGradient)\""
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "Puente (paths de luz entre translate(40,210) y translate(315,95)) conectando ambos portales sobre fondo espacial sin suelo"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "Colores neón #ff00e4 y #00f3ff, filtros glow, fondo espacial oscuro, estética synthwave/cyberpunk evidente en los elementos"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"10,5 30,5 20,35\"... <polygon points=\"0,0 20,-10 40,0 20,10\"... <ellipse cx=\"0\" cy=\"0\" rx=\"15\" ry=\"45\"..."
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<filter id=\"glow\" ...><feGaussianBlur stdDeviation=\"3\"... <filter id=\"glowStrong\" ...><feGaussianBlur stdDeviation=\"5\"..."
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "El fondo es espacio (#070211, #190731) sin río ni agua; el puente flota en el vacío cósmico"
+    },
+    {
+      "id": "a12",
+      "valor": "contradice",
+      "evidencia": "El puente es de luz neón con filtros glow (stroke=\"#ff00e4\" filter=\"url(#glow)\"), no de física clásica ni materiales terrestres"
+    },
+    {
+      "id": "a13",
+      "valor": "no_esta",
+      "evidencia": "No hay acantilados rocosos; hay polígonos oscuros en los bordes: <polygon points=\"-10,180 60,190 80,230 40,280 60,340 -10,380\" fill=\"#0f0518\"/> que podrían ser masas terrestres pero no claramente acantilados rocosos conectados por puente"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "Los polígonos laterales (fill=\"#0f0518\", #1b0b2e) están sobre fondo espacial <linearGradient id=\"sky\"> con colores de espacio profundo"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"0\" cy=\"0\" rx=\"15\" ry=\"45\" fill=\"#050117\" stroke=\"#ff00e4\" stroke-width=\"3\" filter=\"url(#glowStrong)\"/> y stroke=\"#00f3ff\" - son elipses en los extremos del puente"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<use href=\"#s\" transform=\"translate(80, 205)\"/> <use href=\"#s\" transform=\"translate(115, 174)\"/> ... (7 instancias de #s formando el camino del puente)"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"0,0 20,-10 40,0 20,10\" fill=\"#4dffff\" opacity=\"0.9\"/> y <polygon points=\"10,5 30,5 20,35\" fill=\"#ff00e4\""
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 40 210 Q 90 220 135 158\" stroke=\"#ff00e4\" stroke-width=\"3\" filter=\"url(#glow)\"/> (haces de energía enlazando plataformas)"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/> (fondo oscuro) y <path d=\"M10,10h1v1h-1z ... fill=\"#fff\" opacity=\"0.7\"/> (estrellas pequeñas)"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"0\" cy=\"0\" r=\"100\" fill=\"url(#planetBody)\"/> con anillos <path d=\"M -170 0 A 170 40 0 0 0 170 0\" stroke=\"url(#ringGradient)\" stroke-width=\"8\" opacity=\"0.9\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(92, 203)\"><path d=\"M 0 0 C -2 -4, -3 -8, 0 -12 C 3 -8, 2 -4, 0 0 Z\" fill=\"#050117\" stroke=\"#fff\"/><circle cx=\"0\" cy=\"-14\" r=\"1.5\""
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<line x1=\"3\" y1=\"-2\" x2=\"5\" y2=\"-18\" stroke=\"#00f3ff\" stroke-width=\"0.5\" filter=\"url(#glow)\"/><circle cx=\"5\" cy=\"-18\" r=\"0.8\" fill=\"#fff\" filter=\"url(#glowStrong)\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "El viajero en translate(92,203) está sobre el puente orientado hacia el portal derecho en translate(315,95)"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "Colores neón #ff00e4 #00f3ff, filtros glow, estética urbana-futurista con elementos geométricos brillantes"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "Planeta con anillos, fondo espacial, portales interdimensionales, viajero espacial - todo indica ciencia ficción"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "Las instancias de #s no tienen suelo debajo; flotan sobre el fondo espacial sin ningún soporte dibujado"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "Combinación de fondo oscuro espacial, planeta lejano, viajero solitario, portales y puente de luz produce misterio visualmente"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "Planeta grande r=100 en fondo, viajero minúsculo r=1.5, puente extendido de x=40 a x=315 - contraste de escalas"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "Puente de luz neón flotando en el espacio con plataformas geométricas - claramente surrealista (no realista)"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<use href=\"#s\" transform=\"translate(80, 205) scale(0.6) rotate(-15)\"/> ... 7 instancias de figuras geométricas distribuidas sin conexión sólida entre ellas"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"0\" cy=\"0\" rx=\"15\" ry=\"45\" ... en translate(40,210) y translate(315,95) - dos portales ovalados"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"0\" cy=\"0\" r=\"100\" fill=\"url(#planetBody)\"/> <path d=\"M -170 0 A 170 40 0 0 0 170 0\" stroke=\"url(#ringGradient)\""
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 40 210 Q 90 220 135 158\" stroke=\"#ff00e4\" stroke-width=\"3\" filter=\"url(#glow)\"/> <path d=\"M 135 158 Q 190 160 245 109\" stroke=\"#00f3ff\""
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#070211\"/><stop offset=\"40%\" stop-color=\"#190731\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#070211\"/> (casi negro) - fondo muy oscuro"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "No hay ningún elemento rect, line o path que dibuje pilares verticales de soporte en el código"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "No hay ningún path o polygon que dibuje rampas en el código"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "fill=\"#4dffff\" (cian), fill=\"#ff00e4\" (magenta), stroke=\"#00f3ff\" (cian), stroke=\"#ff00e4\" (magenta) - dominan el SVG"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<filter id=\"glow\"> y <filter id=\"glowStrong\"> aplicados en múltiples elementos con feGaussianBlur"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "Colores #ff00e4 #00f3ff, fondo espacial degradado oscuro, planetas con anillos, estética synthwave evidente"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "Paleta neón (magenta/cian), glow effects, espacio oscuro - características del cyberpunk ochentero/synthwave"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "filter=\"url(#glowStrong)\" con feGaussianBlur stdDeviation=\"5\" aplicado a formas geométricas con colores neón saturados"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "Fondo #070211 (casi negro) vs stroke=\"#ff00e4\" fill=\"#4dffff\" con filter glow - alto contraste"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "Portales elípticos de neón en los extremos + puente de luz + fondo espacial sugieren paso interdimensional"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "Las plataformas #s no tienen soporte físico; las estelas <path stroke=\"#ff00e4\"/stroke=\"#00f3ff\"> son el único elemento que las une"
+    }
+  ]
+}

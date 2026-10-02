@@ -1,0 +1,175 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "gpt-6-sol_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:39:27+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<!-- Islas arrancadas del suelo, con cascadas que suben. --> <path d=\"M0 208 25 203 42 191 61 202 76 219 69 247 55 257 47 280 30 290 15 280 0 286Z\" fill=\"url(#stone)\"/> ... <path d=\"M400 193 380 192 362 184 341 198 324 219l10 29 16 12 10 21 19 9 21-8Z\" fill=\"url(#stone)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<!-- El arco cuelga entre dos islas sin tocar el mundo de abajo. --> <path d=\"M62 232Q200 357 339 228\" fill=\"none\" stroke=\"#dca482\" stroke-width=\"8\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<!-- Islas arrancadas del suelo, con cascadas que suben. --> <path d=\"m31 223 16 14-4 23m17-29-9 21m-40-24 15 20\" fill=\"none\" stroke=\"#c49b91\"/> y <path d=\"m351 226-6 24 13 19m13-46-9 27m26-27-15 19\" fill=\"none\" stroke=\"#c49b91\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M111 217V145q0-11 9-21l9-15 9 15q9 10 9 21v58M255 204v-59q0-11 9-21l9-15 9 15q9 10 9 21v72\" (torres) y cables <path d=\"M57 227Q100 201 129 137Q160 180 201 181Q242 180 273 137Q304 198 344 224\"/> (puente colgante reconocible)"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<!-- Islas arrancadas del suelo, con cascadas que suben. --> y <!-- El arco cuelga entre dos islas sin tocar el mundo de abajo. -->"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M62 232Q200 357 339 228\" fill=\"none\" stroke=\"#dca482\" stroke-width=\"8\"/> el arco va de x=62 a x=339 dentro del viewBox 0 0 400 400"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 208 25 203 42 191 61 202 76 219...\" fill=\"url(#stone)\"/> y <path d=\"M400 193 380 192 362 184 341 198...\" fill=\"url(#stone)\"/> con el puente <path d=\"M62 232Q200 357 339 228\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M53 232C109 218 143 199 199 200c56 1 93 18 150 29l-3 13c-58-12-98-30-147-30-49-1-88 18-143 33Z\" fill=\"url(#deck)\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"111\" r=\"53\" fill=\"url(#moon)\"/> y <circle cx=\"200\" cy=\"111\" r=\"87\" fill=\"#f6cba9\" opacity=\".12\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "contradice",
+      "evidencia": "Luna: <circle cx=\"200\" cy=\"111\" r=\"53\"/> (cy=111, parte superior del dibujo). Pasarela: <path d=\"M53 232C109 218...\"/> (y≈232). La luna está ENCIMA de la pasarela."
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M111 217V145q0-11 9-21l9-15 9 15q9 10 9 21v58M255 204v-59q0-11 9-21l9-15 9 15q9 10 9 21v72\" fill=\"none\" stroke=\"#e4ad87\" stroke-width=\"4\"/> <!-- Dos torres finísimas sostienen una cuerda -->"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M57 227Q100 201 129 137Q160 180 201 181Q242 180 273 137Q304 198 344 224\" fill=\"none\" stroke=\"#f8c899\" stroke-width=\"2.5\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M27 202v-23l9-10 9 10v19m-13-25v-11m8 12v-12M357 188v-22l9-11 10 11v24m-14-30v-11m9 11v-11\" fill=\"#35354b\" stroke=\"#e7b28e\"/> y <path d=\"M32 183h7v8h-7zm330-15h7v9h-7z\" fill=\"#ffd998\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"36\" cy=\"184\" r=\"8\" fill=\"#ffc890\" opacity=\".45\" filter=\"url(#glow)\"/> y <circle cx=\"366\" cy=\"168\" r=\"8\" fill=\"#ffc890\" opacity=\".45\" filter=\"url(#glow)\"/> y <g fill=\"#ffe1a0\"><circle cx=\"129\" cy=\"109\" r=\"4\"/><circle cx=\"273\" cy=\"109\" r=\"4\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"m31 223 16 14-4 23m17-29-9 21m-40-24 15 20\" fill=\"none\" stroke=\"#c49b91\"/> y <path d=\"m351 226-6 24 13 19m13-46-9 27m26-27-15 19\" fill=\"none\" stroke=\"#c49b91\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<!-- Islas arrancadas del suelo, con cascadas que suben. --> <path d=\"M37 281q8 24-2 48t3 35m339-80q-8 25 0 45t-4 35\" fill=\"none\" stroke=\"#a9e8df\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffe9ca\"><circle cx=\"34\" cy=\"49\" r=\"1.4\"/><circle cx=\"84\" cy=\"84\" r=\"1\"/>... y estrellas adicionales incluyendo <circle cx=\"19\" cy=\"331\" r=\"1\"/><circle cx=\"299\" cy=\"323\" r=\"1\"/><circle cx=\"366\" cy=\"353\" r=\"1.2\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "no_esta",
+      "evidencia": "No hay paths que dibujen montañas. Las capas de fondo son: <path d=\"M0 217q38-32 80-14t77-10q49-29 94-1t75 1q41-22 74-6v213H0Z\" fill=\"#353753\"/> (colinas/niebla, no montañas)."
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"deck\"><stop stop-color=\"#f6ce91\"/>...</linearGradient> y <circle cx=\"36\" cy=\"184\" r=\"8\" fill=\"#ffc890\"/> y stop-color=\"#f4d9ad\" en la luna"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "La escena tiene un puente transitable con pasarela <path d=\"M53 232C109 218 143 199 199 200c56 1 93 18 150 29l-3 13...\" fill=\"url(#deck)\"/> y estructuras reconocibles."
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 208 25 203 42 191 61 202 76 219...\" fill=\"url(#stone)\"/> y <path d=\"M400 193 380 192...\" fill=\"url(#stone)\"/> (islas sin suelo) unidas por el puente <path d=\"M62 232Q200 357 339 228\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "Las islas no tienen suelo debajo dentro del viewBox; flotan sobre capas de color: <path d=\"M0 217q38-32 80-14...v213H0Z\" fill=\"#353753\" opacity=\".38\"/> debajo pero sin conexión física a las islas."
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 217q38-32 80-14t77-10q49-29 94-1t75 1q41-22 74-6v213H0Z\" fill=\"#353753\" opacity=\".38\"/> y capas subsiguientes de colinas lejanas."
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"m31 223 16 14-4 23m17-29-9 21m-40-24 15 20\" stroke=\"#c49b91\"/> (isla izquierda) y <path d=\"m351 226-6 24 13 19m13-46-9 27m26-27-15 19\" stroke=\"#c49b91\"/> (isla derecha)"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<!-- Islas arrancadas del suelo, con cascadas que suben. --> <path d=\"M37 281q8 24-2 48t3 35m339-80q-8 25 0 45t-4 35\" fill=\"none\" stroke=\"#a9e8df\" stroke-width=\"3\" opacity=\".65\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/> con <stop stop-color=\"#11162f\"/> y <stop offset=\"1\" stop-color=\"#a37b89\"/> noche, luna, estrellas, islas flotantes, cascadas que suben."
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "Combinación de luna grande, puente colgante, islas flotantes, cascadas que suben, colores cálidos y fríos — ilustración de fantasía narrativa."
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "Torres con formas geométricas simples <path d=\"M111 217V145q0-11 9-21l9-15 9 15q9 10 9 21v58\"/> y curvas Bezier para el puente y las islas."
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M169 76q-17 28-5 54m66-43q15 24 4 48\" stroke-width=\"2\"/> y <path d=\"M57 227Q100 201 129 137...\" stroke-width=\"2.5\"/> y múltiples paths con stroke-width entre 1 y 3."
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#f6ce91\"/> en #deck, <circle cx=\"36\" cy=\"184\" r=\"8\" fill=\"#ffc890\"/>, <circle cx=\"129\" cy=\"109\" r=\"4\" fill=\"#ffe1a0\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#394066\"/> y <stop stop-color=\"#7c687c\"/> en gradientes; <rect fill=\"url(#sky)\"/> con tono violeta #394066."
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#11162f\"/> y <stop offset=\"1\" stop-color=\"#222a42\"/> y <path fill=\"#1e2d43\"/> y <path fill=\"#28334c\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop stop-color=\"#11162f\"/><stop offset=\".55\" stop-color=\"#394066\"/>...</linearGradient> cielo nocturno oscuro con luna y estrellas."
+    }
+  ]
+}

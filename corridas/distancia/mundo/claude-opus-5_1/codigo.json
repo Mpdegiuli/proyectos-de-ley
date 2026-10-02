@@ -1,0 +1,205 @@
+{
+  "consigna": "mundo",
+  "unidad": "claude-opus-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:15:32+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"180\" r=\"115\" fill=\"url(#ocean)\"/> sobre <rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"180\" r=\"115\" fill=\"url(#ocean)\"/> vista completa desde exterior"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"180\" r=\"115\" fill=\"url(#ocean)\"/> con radialGradient id=\"ocean\" stop-color=\"#1d4e78\""
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M118,118 ...\" fill=\"url(#land)\"/> linearGradient id=\"land\" stop-color=\"#46a97a\""
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M212,100 ...\" fill=\"url(#dry)\"/> linearGradient id=\"dry\" stop-color=\"#c88a45\""
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#ff9a4d\" stroke-width=\"2\" fill=\"none\" filter=\"url(#glow)\" opacity=\".9\">"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M92,148 L128,162 L116,188 L158,202 L146,234 L186,248 L196,290\"/> stroke=\"#ff9a4d\""
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#8ff0ff\" stroke-width=\".9\" fill=\"none\" opacity=\".75\">"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M240,120 L286,146 L262,192 L300,214\"/> trazos más rectos y angulares stroke=\"#8ff0ff\""
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(64,352)\"><circle cy=\"-22\" r=\"5\"/><path d=\"M-7,0 C-7,-14 7,-14 7,0 Z\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "no_esta",
+      "evidencia": "las siluetas son formas estáticas sin indicación de dirección de mirada"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0,0 L0,-34\" stroke=\"#57c98a\"/> <path d=\"M0,-20 C-14,-24 -18,-36 -4,-34 ...\" fill=\"#57c98a\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"0\" cy=\"-46\" r=\"10\" fill=\"#ffd27f\" opacity=\".22\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"180\" rx=\"168\" ry=\"52\" stroke-width=\"1\" stroke-dasharray=\"5 9\"/> transform=\"rotate(-22 200 180)\""
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"368\" cy=\"180\" r=\"3\"/><circle cx=\"32\" cy=\"180\" r=\"2.4\"/> sobre la órbita punteada"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "radialGradient id=\"sky\" stop-color=\"#17243f\" ... stop-color=\"#05070f\""
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "red naranja #ff9a4d + sombras oscuras + brote #57c98a combinados visualmente"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"180\" r=\"115\" fill=\"url(#ocean)\"/> sobre fondo oscuro"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "radialGradient id=\"ocean\" stop-color=\"#1d4e78\" stop-color=\"#102a46\""
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M118,118 ...\" fill=\"url(#land)\"/> fill=\"#46a97a\""
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M212,100 ...\" fill=\"url(#dry)\"/> stop-color=\"#c88a45\""
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"180\" rx=\"115\" ry=\"38\"/> <ellipse rx=\"38\" ry=\"115\"/> <line x1=\"85\" y1=\"180\" x2=\"315\" y2=\"180\"/> <line x1=\"200\" y1=\"65\" x2=\"200\" y2=\"295\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#ff9a4d\" stroke-width=\"2\" fill=\"none\" filter=\"url(#glow)\" opacity=\".9\">"
+    },
+    {
+      "id": "a24",
+      "valor": "no_esta",
+      "evidencia": "el código dibuja líneas naranjas pero no etiqueta ni codifica rutas o conflictos explícitamente"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#8ff0ff\" stroke-width=\".9\" fill=\"none\" opacity=\".75\">"
+    },
+    {
+      "id": "a26",
+      "valor": "no_esta",
+      "evidencia": "el código dibuja líneas celestes pero no etiqueta conexiones o datos"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"368\" cy=\"180\" r=\"3\"/><circle cx=\"32\" cy=\"180\" r=\"2.4\"/><circle cx=\"288\" cy=\"132\" r=\"2\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"180\" rx=\"168\" ry=\"52\" stroke-width=\"1\" stroke-dasharray=\"5 9\"/> transform=\"rotate(-22 200 180)\""
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"180\" r=\"140\" fill=\"#3b7fc4\" opacity=\".16\" filter=\"url(#soft)\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"180\" r=\"115\" fill=\"none\" stroke=\"#9fd8ff\" stroke-width=\"1.2\" opacity=\".55\"/> borde definido"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<circle cy=\"-22\" r=\"5\"/> <path d=\"M-7,0 C-7,-14 7,-14 7,0 Z\"/> representan cabezas y cuerpos"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#0d1526\" stroke=\"#8ff0ff\" stroke-width=\".6\" opacity=\".9\"> fill=\"#0d1526\" muy oscuro"
+    },
+    {
+      "id": "a33",
+      "valor": "no_esta",
+      "evidencia": "las siluetas no tienen indicación de dirección de mirada en el código"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0,-20 C-14,-24 -18,-36 -4,-34 ...\" fill=\"#57c98a\"/> <path d=\"M0,-27 C14,-31 ...\" fill=\"#7fe0a4\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"0\" cy=\"-46\" r=\"10\" fill=\"#ffd27f\" opacity=\".22\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "radialGradient id=\"sky\" stop-color=\"#17243f\" stop-color=\"#05070f\""
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "planeta pequeño r=\"115\" con atmósfera tenue opacity=\".16\" y brote pequeño r=\"10\""
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "red naranja + red celeste + grilla de meridianos + órbita punteada superpuestos sobre el planeta"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "continentes secos url(#dry) + redes superpuestas + brote verde #57c98a con halo #ffd27f"
+    }
+  ]
+}

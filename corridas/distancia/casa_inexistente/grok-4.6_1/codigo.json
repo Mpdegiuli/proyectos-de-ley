@@ -1,0 +1,190 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "grok-4.6_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:53:04+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<rect x=\"260\" y=\"174\" width=\"48\" height=\"42\" fill=\"#c8d8e4\" stroke=\"#6a8aa0\" stroke-width=\".8\" transform=\"rotate(-18 284 195)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"318\" cy=\"78\" r=\"28\" fill=\"url(#m)\"/> y <circle cx=\"58\" cy=\"64\" r=\"14\" fill=\"url(#m2)\" opacity=\".9\"/> — hay dos cuerpos celestes pero uno es la luna principal y el otro podría ser la segunda; a2 y a12 y a27 son idénticas, hay exactamente 2"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<g fill=\"none\" stroke=\"#3a2a20\" stroke-width=\"1.4\" stroke-linecap=\"round\"><path d=\"M132 292c-4 16-6 34-4 52\"/>..."
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M231 106c8-18 22-32 22-32\" fill=\"none\" stroke=\"#c8b8d8\" stroke-width=\"2\" opacity=\".7\"/> + <circle cx=\"200\" cy=\"80\" r=\"5\" fill=\"#5a8a48\"/> <ellipse cx=\"200\" cy=\"76\" rx=\"7\" ry=\"5\" fill=\"#4a7a3c\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<rect x=\"159\" y=\"191\" width=\"22\" height=\"22\" fill=\"url(#g)\"/> <radialGradient id=\"g\"><stop offset=\"0\" stop-color=\"#ffe27a\"/><stop offset=\"1\" stop-color=\"#e09018\"/></radialGradient>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "combinación de casa flotante sobre islote con raíces, luna, humo que se convierte en flor, arroyo celeste — efecto de estilo inferido del código"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<rect x=\"142\" y=\"168\" width=\"116\" height=\"96\" rx=\"2\" fill=\"url(#w)\" stroke=\"#8a6844\" stroke-width=\"1.2\"/> <linearGradient id=\"w\"><stop offset=\"0\" stop-color=\"#f7ead0\"/><stop offset=\"1\" stop-color=\"#c9a57a\"/></linearGradient>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"128,170 200,96 272,170\" fill=\"url(#r)\"/> <linearGradient id=\"r\"><stop offset=\"0\" stop-color=\"#c45c5c\"/><stop offset=\"1\" stop-color=\"#6e2432\"/></linearGradient>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M118 268c18-28 48-42 82-42s64 14 82 42c8 12 10 22 4 28-22 8-56 14-86 14s-64-6-86-14c-6-6-4-16 4-28z\" fill=\"url(#k)\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<g fill=\"none\" stroke=\"#3a2a20\" stroke-width=\"1.4\" stroke-linecap=\"round\"><path d=\"M132 292c-4 16-6 34-4 52\"/>...<path d=\"M274 290c6 16 8 34 6 54\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "no hay suelo/fondo sólido debajo del montículo; el fondo es el gradiente de cielo <rect width=\"400\" height=\"400\" fill=\"url(#s)\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"318\" cy=\"78\" r=\"28\" fill=\"url(#m)\"/> <circle cx=\"58\" cy=\"64\" r=\"14\" fill=\"url(#m2)\" opacity=\".9\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff\"><circle cx=\"28\" cy=\"36\" r=\"1.1\" opacity=\".9\"/>...(múltiples círculos pequeños blancos)"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"s\"><stop offset=\"0\" stop-color=\"#070414\"/><stop offset=\".42\" stop-color=\"#1a0e3d\"/><stop offset=\".72\" stop-color=\"#5a2a68\"/><stop offset=\"1\" stop-color=\"#e08958\"/></linearGradient>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<rect x=\"260\" y=\"174\" width=\"48\" height=\"42\" fill=\"#c8d8e4\" stroke=\"#6a8aa0\" stroke-width=\".8\" transform=\"rotate(-18 284 195)\"/> <polygon points=\"248,176 286,142 324,176\" fill=\"url(#ri)\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"96,214 124,188 152,214\" fill=\"url(#r)\"/> <rect x=\"104\" y=\"212\" width=\"40\" height=\"36\" fill=\"url(#w)\" stroke=\"#8a6a48\" stroke-width=\".8\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<rect x=\"159\" y=\"191\" width=\"22\" height=\"22\" fill=\"url(#g)\"/> <circle cx=\"170\" cy=\"202\" r=\"14\" fill=\"#ffe8a0\" opacity=\".2\" filter=\"url(#b)\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M231 106c8-18 22-32 22-32\" fill=\"none\" stroke=\"#c8b8d8\" stroke-width=\"2\" opacity=\".7\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M272 248c28-8 48-4 62 18\" fill=\"none\" stroke=\"#7ec8e8\" stroke-width=\"3.5\" stroke-linecap=\"round\" opacity=\".55\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "no_esta",
+      "evidencia": "el arroyo es una sola curva sin piedras representadas en el código"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#c45c6a\"><circle cx=\"166\" cy=\"148\" r=\"2\"/><circle cx=\"180\" cy=\"140\" r=\"1.6\"/><circle cx=\"194\" cy=\"146\" r=\"2\"/></g>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "las casitas laterales no tienen suelo debajo; flotan sobre el gradiente de cielo <rect width=\"400\" height=\"400\" fill=\"url(#s)\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "no_esta",
+      "evidencia": "afirmación conceptual sin elementos en el código que la respalden o contradigan directamente"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<rect x=\"142\" y=\"168\" width=\"116\" height=\"96\" rx=\"2\" fill=\"url(#w)\"/> <polygon points=\"128,170 200,96 272,170\" fill=\"url(#r)\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M118 268c18-28 48-42 82-42s64 14 82 42...\" fill=\"url(#k)\"/> — forma de islote flotante"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<g fill=\"none\" stroke=\"#3a2a20\" stroke-width=\"1.4\" stroke-linecap=\"round\"><path d=\"M132 292c-4 16-6 34-4 52\"/>...<path d=\"M274 290c6 16 8 34 6 54\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"318\" cy=\"78\" r=\"28\" fill=\"url(#m)\"/> <circle cx=\"58\" cy=\"64\" r=\"14\" fill=\"url(#m2)\" opacity=\".9\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<rect x=\"260\" y=\"174\" width=\"48\" height=\"42\" fill=\"#c8d8e4\" stroke=\"#6a8aa0\" stroke-width=\".8\" transform=\"rotate(-18 284 195)\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "no_esta",
+      "evidencia": "no hay elementos que representen peldaños flotantes en el código"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<rect x=\"159\" y=\"191\" width=\"22\" height=\"22\" fill=\"url(#g)\"/> <circle cx=\"170\" cy=\"202\" r=\"14\" fill=\"#ffe8a0\" opacity=\".2\" filter=\"url(#b)\"/> <circle cx=\"230\" cy=\"202\" r=\"14\" fill=\"#ffe8a0\" opacity=\".2\" filter=\"url(#b)\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"s\"><stop offset=\"0\" stop-color=\"#070414\"/><stop offset=\".72\" stop-color=\"#5a2a68\"/><stop offset=\"1\" stop-color=\"#e08958\"/></linearGradient>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "formas geométricas simples, colores planos con degradados suaves, escena fantástica — inferido de la estructura general del SVG"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "combinación de casa, luna, estrellas, islote flotante, arroyo, flores — estilo inferido del conjunto de elementos"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "uso de rect, polygon, circle, ellipse con formas básicas — <polygon points=\"128,170 200,96 272,170\"/> <rect x=\"142\" y=\"168\" width=\"116\" height=\"96\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "islote flotante con raíces, casas, luna doble, humo-flor, arroyo — conjunto de elementos fantásticos y cotidianos combinados"
+    },
+    {
+      "id": "a36",
+      "valor": "no_esta",
+      "evidencia": "no hay elementos que representen peldaños en el código"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "consigna": "nada",
+  "unidad": "gpt-4o-mini_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:44:50+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<rect width=\"100%\" height=\"100%\" fill=\"transparent\" />"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"150\" fill=\"none\" stroke=\"black\" stroke-width=\"2\" />"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 100 100 Q 200 50 300 100\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" />"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<line x1=\"200\" y1=\"0\" x2=\"200\" y2=\"400\" stroke=\"black\" stroke-width=\"1\" />"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"150\" fill=\"none\" stroke=\"black\" /> <path d=\"M 100 100 Q 200 50 300 100\" stroke=\"black\" fill=\"none\" />"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<text x=\"50%\" y=\"50%\" font-size=\"30\" text-anchor=\"middle\" fill=\"black\" opacity=\"0.1\">Nada</text>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "opacity=\"0.1\""
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "fill=\"none\" stroke=\"black\" stroke-width=\"2\" / opacity=\"0.1\""
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<text ... opacity=\"0.1\">Nada</text> fill=\"none\""
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<rect width=\"100%\" height=\"100%\" fill=\"transparent\" />"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"150\" fill=\"none\" stroke=\"black\" stroke-width=\"2\" />"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "fill=\"none\""
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 100 100 Q 200 50 300 100\" .../> <path d=\"M 100 300 Q 200 350 300 300\" .../>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<line x1=\"200\" y1=\"0\" x2=\"200\" y2=\"400\" .../> <line x1=\"0\" y1=\"200\" x2=\"400\" y2=\"200\" .../>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<line x1=\"200\" y1=\"0\" x2=\"200\" y2=\"400\" /> <line x1=\"0\" y1=\"200\" x2=\"400\" y2=\"200\" />"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<text x=\"50%\" y=\"50%\" font-size=\"30\" text-anchor=\"middle\" fill=\"black\" opacity=\"0.1\">Nada</text>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "opacity=\"0.1\""
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "opacity=\"0.1\""
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 100 100 Q 200 50 300 100\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" />"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<text ... opacity=\"0.1\">Nada</text> fill=\"none\""
+    }
+  ]
+}

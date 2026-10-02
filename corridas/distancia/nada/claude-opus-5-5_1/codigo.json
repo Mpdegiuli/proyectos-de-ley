@@ -1,0 +1,70 @@
+{
+  "consigna": "nada",
+  "unidad": "claude-opus-5-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:43:03+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"100%\" stop-color=\"#0b0b0d\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#1c1c20\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<feTurbulence type=\"fractalNoise\" baseFrequency=\"0.9\" numOctaves=\"3\" seed=\"7\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<feTurbulence type=\"turbulence\" baseFrequency=\"0.012\" numOctaves=\"2\" seed=\"3\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"112\" fill=\"#000\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<g mask=\"url(#absence)\">... <circle cx=\"200\" cy=\"200\" r=\"120\" fill=\"url(#hole)\"/></g> — la máscara recorta el grano fuera del círculo interior"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"62%\" stop-color=\"#000\"/><stop offset=\"100%\" stop-color=\"#fff\"/> — el gradiente de la máscara hace que el recorte se desvanezca en el borde"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<mask id=\"absence\"><rect width=\"400\" height=\"400\" fill=\"#fff\"/><circle cx=\"200\" cy=\"200\" r=\"120\" fill=\"url(#hole)\"/></mask>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"92%\" stop-color=\"#8a8c96\" stop-opacity=\"0.08\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "stop-opacity=\"0.08\" — opacidad muy baja, apenas perceptible"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"112\" fill=\"#000\"/> sobre fondo <stop offset=\"0%\" stop-color=\"#1c1c20\"/> — el negro puro contrasta con el fondo casi negro"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"112\" fill=\"#000\"/> — negro puro total"
+    }
+  ]
+}

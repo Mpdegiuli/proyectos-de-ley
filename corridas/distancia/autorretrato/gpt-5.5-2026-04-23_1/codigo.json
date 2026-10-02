@@ -1,0 +1,155 @@
+{
+  "consigna": "autorretrato",
+  "unidad": "gpt-5.5-2026-04-23_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:41:16+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M160 83h80c43 0 78 35 78 78v50c0 54-44 98-98 98h-40c-54 0-98-44-98-98v-50c0-43 35-78 78-78z\" fill=\"#0c162b\" stroke=\"#6df2ff\" stroke-width=\"4\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento que dibuje un casco sobre la cabeza; la cabeza es la forma principal sin capa adicional de casco."
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M95 193h-17c-11 0-20-9-20-20v-17c0-11 9-20 20-20h18\" fill=\"#132446\" stroke=\"#68e8ff\" stroke-width=\"4\"/> y <rect x=\"56\" y=\"155\" width=\"22\" height=\"20\" rx=\"8\" fill=\"#54e9ff\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento que dibuje anteojos; los ojos están en rectángulos oscuros pero no hay montura de anteojos conectada."
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"158\" cy=\"178\" r=\"13\" fill=\"#00f5ff\"/> <circle cx=\"243\" cy=\"178\" r=\"13\" fill=\"#b14cff\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "no_esta",
+      "evidencia": "No hay paths que representen circuitos; hay líneas decorativas pero no trazados de circuito típicos."
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\" cx=\"50%\" cy=\"38%\" r=\"70%\"><stop offset=\"0%\" stop-color=\"#243b73\"/><stop offset=\"55%\" stop-color=\"#111827\"/><stop offset=\"100%\" stop-color=\"#070a12\"/></radialGradient>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M165 232c19 13 51 13 70 0\" fill=\"none\" stroke=\"#eafcff\" stroke-width=\"3\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#00f5ff\"/> <circle cx=\"158\" cy=\"178\" r=\"13\" fill=\"#00f5ff\"/> <circle cx=\"243\" cy=\"178\" r=\"13\" fill=\"#b14cff\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M165 232c19 13 51 13 70 0\" fill=\"none\" stroke=\"#eafcff\" stroke-width=\"3\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"glow\"><stop offset=\"0%\" stop-color=\"#00f5ff\"/><stop offset=\"100%\" stop-color=\"#b14cff\"/></linearGradient> con colores neón en ojos y antena"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "Sonrisa, ojos con colores, proporciones faciales humanoides: <path d=\"M165 232c19 13 51 13 70 0\"/> <circle cx=\"158\" cy=\"178\" r=\"13\" fill=\"#00f5ff\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "Ojos, nariz implícita, sonrisa, cabeza: elementos reconocibles de un rostro presentes en el código."
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"158\" cy=\"178\" r=\"24\" fill=\"#00f5ff\" opacity=\".18\" filter=\"url(#soft)\"/> <circle cx=\"243\" cy=\"178\" r=\"24\" fill=\"#b14cff\" opacity=\".2\" filter=\"url(#soft)\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M160 99h80c34 0 62 28 62 62v47c0 45-37 82-82 82h-40...\" fill=\"url(#face)\"/> con degradado claro y ojos neón con glow"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"face\"><stop offset=\"0%\" stop-color=\"#e9f7ff\"/><stop offset=\"55%\" stop-color=\"#9fd7ff\"/><stop offset=\"100%\" stop-color=\"#5a8ee8\"/></linearGradient>"
+    },
+    {
+      "id": "a17",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento separado que dibuje un casco sobre la cabeza; la cabeza es la forma principal."
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<rect x=\"56\" y=\"155\" width=\"22\" height=\"20\" rx=\"8\" fill=\"#54e9ff\"/> <rect x=\"322\" y=\"155\" width=\"22\" height=\"20\" rx=\"8\" fill=\"#54e9ff\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "no_esta",
+      "evidencia": "Los rectángulos de los ojos son oscuros pero no hay gafas con montura visible conectada; son cuencas oculares, no gafas."
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"158\" cy=\"178\" r=\"13\" fill=\"#00f5ff\"/> <circle cx=\"243\" cy=\"178\" r=\"13\" fill=\"#b14cff\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M165 232c19 13 51 13 70 0\" fill=\"none\" stroke=\"#eafcff\" stroke-width=\"3\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\"><stop offset=\"0%\" stop-color=\"#243b73\"/><stop offset=\"100%\" stop-color=\"#070a12\"/></radialGradient>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"92\" cy=\"88\" r=\"3\" fill=\"#9eeeff\"/> <circle cx=\"310\" cy=\"74\" r=\"2.5\" fill=\"#b896ff\"/> <circle cx=\"338\" cy=\"260\" r=\"3\" fill=\"#9eeeff\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"118\" fill=\"none\" stroke=\"#55e7ff\" stroke-width=\"2\" opacity=\".25\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M92 92h62M310 77h-48M338 264h-60M58 263h55\" stroke=\"#4df3ff\" stroke-width=\"1.5\" opacity=\".35\"/> con círculos en extremos"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M158 80v-22h84v22\" fill=\"none\" stroke=\"#68e8ff\" stroke-width=\"4\" stroke-linecap=\"round\"/> <circle cx=\"200\" cy=\"52\" r=\"18\" fill=\"#10213c\" stroke=\"#68e8ff\" stroke-width=\"4\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M190 52h20M200 42v20\" stroke=\"url(#glow)\" stroke-width=\"4\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M92 92h62M310 77h-48M338 264h-60M58 263h55\" stroke=\"#4df3ff\"/> con nodos conectados por líneas"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "Sonrisa, ojos expresivos, antena, nodos conectados, colores digitales: <circle cx=\"158\" cy=\"178\" r=\"13\" fill=\"#00f5ff\"/> <path d=\"M165 232...\"/> <path d=\"M92 92h62...\"/>"
+    }
+  ]
+}

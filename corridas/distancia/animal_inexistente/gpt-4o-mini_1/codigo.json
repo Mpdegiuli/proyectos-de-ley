@@ -1,0 +1,165 @@
+{
+  "consigna": "animal_inexistente",
+  "unidad": "gpt-4o-mini_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:08:03+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos que definan características específicas de mamífero; el animal es imaginario/fantástico"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"160\" cy=\"200\" r=\"15\" fill=\"#fff\" /><circle cx=\"240\" cy=\"200\" r=\"15\" fill=\"#fff\" />"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "Elementos espejados: cx=\"150\" / cx=\"250\", cx=\"160\" / cx=\"240\", tails en x=80 y x=320"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "stop-color:#ffcc00, stop-color:#ff9900, stop-color:#008080, fill=\"blue\", stroke=\"purple\""
+    },
+    {
+      "id": "a5",
+      "valor": "no_esta",
+      "evidencia": "No hay suelo ni elementos que indiquen entorno terrestre; el animal es imaginario sin contexto"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "Combinación de stop-color:#ffcc00, stop-color:#008080, fill=\"blue\", stroke=\"purple\""
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"220\" rx=\"80\" ry=\"50\" fill=\"url(#grad1)\" />"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" style=\"stop-color:#ffcc00; stop-opacity:1\" /><stop offset=\"100%\" style=\"stop-color:#ff9900; stop-opacity:1\" />"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"grad1\" cx=\"50%\" cy=\"50%\" r=\"50%\" fx=\"50%\" fy=\"50%\">"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"160\" cy=\"200\" r=\"15\" fill=\"#fff\" /><circle cx=\"240\" cy=\"200\" r=\"15\" fill=\"#fff\" />"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"160\" cy=\"200\" r=\"15\" fill=\"#fff\" /><circle cx=\"160\" cy=\"200\" r=\"7\" fill=\"#000\" />"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 200 240 Q 180 260 200 260 Q 220 260 200 240\" fill=\"blue\" />"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 180 220 Q 200 240 220 220\" .../><path d=\"M 200 240 Q 180 260 200 260...\" fill=\"blue\" /> posicionada bajo cy=220"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M120,150 Q100,100 150,150\" fill=\"none\" stroke=\"purple\" stroke-width=\"3\" />"
+    },
+    {
+      "id": "a15",
+      "valor": "contradice",
+      "evidencia": "<path d=\"M120,150 Q100,100 150,150\" /> la curva va hacia arriba (y=100) pero regresa a y=150, formando arco que sube y vuelve al mismo nivel, no claramente hacia arriba"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 80 250 Q 50 270 100 300\" stroke=\"#a0522d\" .../><path d=\"M 320 250 Q 350 270 300 300\" stroke=\"#a0522d\" .../>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 180 220 Q 200 240 220 220\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /> boca curva hacia arriba sugiere sonrisa"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "Combinación de cuerpo elíptico amarillo, manchas teal, cuernos morados, boca azul: animal fantástico"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "Cuerpo elíptico (grad1), alas/manchas (grad2), colas (#a0522d), cuernos (purple), boca (blue)"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"160\" cy=\"200\" r=\"15\" fill=\"#fff\" /><circle cx=\"240\" cy=\"200\" r=\"15\" fill=\"#fff\" />"
+    },
+    {
+      "id": "a21",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos que dibujen labios explícitamente; la boca es una curva simple y una forma azul"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"grad1\" .../><radialGradient id=\"grad2\" .../>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "Uso de ellipse, Q (curvas cuadráticas) en paths: formas redondeadas y suaves"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "Proporciones exageradas, colores vivos, formas simplificadas: ojos grandes r=15, cuerpo rx=80 ry=50"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "stop-color:#ffcc00, stop-color:#008080, fill=\"blue\", stroke=\"purple\", fill=\"#a0522d\""
+    },
+    {
+      "id": "a26",
+      "valor": "no_esta",
+      "evidencia": "No hay stroke definido en las elipses principales ni contornos explícitos generales"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "Ojos r=15 sobre cuerpo ry=50, manchas teal rx=40 ry=25 superpuestas al cuerpo"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "Formas básicas: ellipse, circle, path con pocas curvas; expresión clara con pocos elementos"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "Colores brillantes, boca sonriente, formas redondeadas combinadas producen aspecto amigable"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "Animal imaginario con cuernos morados, boca azul, colas marrones: diseño fantástico y lúdico"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "Estilo caricaturesco, colores vibrantes, formas simples y amigables resultan accesibles visualmente"
+    }
+  ]
+}

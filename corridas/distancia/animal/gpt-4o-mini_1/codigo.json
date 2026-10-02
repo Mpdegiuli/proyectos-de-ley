@@ -1,0 +1,135 @@
+{
+  "consigna": "animal",
+  "unidad": "gpt-4o-mini_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:53:21+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"120\" fill=\"url(#gradBody)\" /> <ellipse cx=\"150\" cy=\"150\" rx=\"30\" ry=\"40\" fill=\"url(#gradEar)\" /> <circle cx=\"160\" cy=\"175\" r=\"10\" fill=\"#fff\" />"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"150\" cy=\"150\" rx=\"30\" ry=\"40\" fill=\"url(#gradEar)\" />"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"120\" fill=\"url(#gradBody)\" />"
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "<circle cx=\"160\" cy=\"175\" r=\"10\" fill=\"#fff\" /> <circle cx=\"160\" cy=\"175\" r=\"5\" fill=\"#000\" />"
+    },
+    {
+      "id": "a5",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M150 230 Q200 260, 250 230\" stroke=\"#3c3c3c\" stroke-width=\"5\" fill=\"none\" />"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "Pocos elementos: círculo cuerpo, elipses orejas, círculos ojos, paths boca y nariz"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "stop-color:#2ecc71, stop-color:#f1c40f, stop-color:#e74c3c"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 230 Q200 260, 250 230\" stroke=\"#3c3c3c\" stroke-width=\"5\" fill=\"none\" />"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 230 Q200 260, 250 230\" stroke=\"#3c3c3c\" stroke-width=\"5\" fill=\"none\" />"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "Pocos elementos simples: círculos, elipses y paths básicos"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"150\" cy=\"150\" rx=\"30\" ry=\"40\" fill=\"url(#gradEar)\" /> <circle cx=\"200\" cy=\"200\" r=\"120\" fill=\"url(#gradBody)\" />"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"120\" fill=\"url(#gradBody)\" />"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" style=\"stop-color:#2ecc71\" /> <stop offset=\"100%\" style=\"stop-color:#27ae60\" />"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" style=\"stop-color:#f1c40f\" /> <stop offset=\"100%\" style=\"stop-color:#f39c12\" />"
+    },
+    {
+      "id": "a15",
+      "valor": "no_esta",
+      "evidencia": "<circle cx=\"160\" cy=\"175\" r=\"10\" fill=\"#fff\" /> r=10 sobre r=120 del cuerpo, son pequeños"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"160\" cy=\"175\" r=\"10\" fill=\"#fff\" /> <circle cx=\"240\" cy=\"175\" r=\"10\" fill=\"#fff\" />"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"160\" cy=\"175\" r=\"5\" fill=\"#000\" /> <circle cx=\"240\" cy=\"175\" r=\"5\" fill=\"#000\" />"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 230 Q200 260, 250 230\" stroke=\"#3c3c3c\" stroke-width=\"5\" fill=\"none\" />"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 230 Q200 260, 250 230\" stroke=\"#3c3c3c\" stroke-width=\"5\" fill=\"none\" /> curva hacia abajo sugiere sonrisa"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 160 Q220 190, 200 210 Q180 190, 200 160\" fill=\"url(#gradFace)\" /> stop-color:#e74c3c"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "Formas geométricas simples, colores planos/degradados vibrantes, estilo ilustración cartoon"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "Elementos básicos: circle, ellipse, path con pocos atributos"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 230 Q200 260, 250 230\" stroke=\"#3c3c3c\" stroke-width=\"5\" fill=\"none\" />"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 230 Q200 260, 250 230\" stroke=\"#3c3c3c\" stroke-width=\"5\" fill=\"none\" />"
+    },
+    {
+      "id": "a25",
+      "valor": "no_esta",
+      "evidencia": "<circle cx=\"160\" cy=\"175\" r=\"10\" fill=\"#fff\" /> <circle cx=\"160\" cy=\"175\" r=\"5\" fill=\"#000\" /> ojos simples sin expresión adicional"
+    }
+  ]
+}

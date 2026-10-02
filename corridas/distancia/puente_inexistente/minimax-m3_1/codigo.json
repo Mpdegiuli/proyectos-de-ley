@@ -1,0 +1,290 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "minimax-m3_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:47:06+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 80 230 Q 200 215 320 230\" stroke=\"url(#bridge)\" stroke-width=\"6\" fill=\"none\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 95 230 Q 200 80 305 230\" stroke=\"#c8a8f0\" stroke-width=\"2\" fill=\"none\"/><path d=\"M 95 230 Q 200 170 305 230\"/><path d=\"M 95 230 Q 200 130 305 230\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 95 230 Q 200 80 305 230\" stroke=\"#c8a8f0\" stroke-width=\"2\" fill=\"none\"/> — el punto de control está en y=80"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"95\" cy=\"230\" r=\"6\" fill=\"url(#orb)\"/><circle cx=\"305\" cy=\"230\" r=\"6\" fill=\"url(#orb)\"/><circle cx=\"200\" cy=\"155\" r=\"5\" fill=\"url(#orb)\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"95\" r=\"3\" fill=\"url(#orb)\"/><circle cx=\"130\" cy=\"190\" r=\"3\" fill=\"url(#orb)\"/> — sin líneas de mástil explícitas adjuntas"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "No hay elementos de pilares en la zona del agua (y>235); solo <rect y=\"235\" width=\"400\" height=\"165\" fill=\"url(#water)\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "No hay elementos tipo rectángulo vertical representando torres; las estructuras laterales son montañas: <path d=\"M 10 230 Q 30 200 50 195 L 75 200 Q 95 215 95 230\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"245\" rx=\"160\" ry=\"10\" fill=\"#c8a8f0\" opacity=\"0.2\"/><ellipse cx=\"150\" cy=\"260\" rx=\"100\" ry=\"8\" fill=\"#a888d0\" opacity=\"0.15\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "Las elipses (cx=200,150; ry=10,8) no replican la forma de arco del puente sino formas ovaladas descentradas"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"330\" cy=\"75\" r=\"25\" fill=\"url(#moon)\"/><circle cx=\"345\" cy=\"75\" r=\"8\" fill=\"#0a0520\"/> — círculo oscuro superpuesto simula mordida"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"80,70 120,60 140,90 100,110\"/><circle cx=\"80\" cy=\"70\" r=\"1.5\"/>... — polígono con vértices marcados como constelación"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#0a0520\"/><stop offset=\"0.5\" stop-color=\"#2a1554\"/><stop offset=\"1\" stop-color=\"#5a3580\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "El puente es una línea curva delgada sin plataforma, aceras ni estructuras de soporte físico visibles"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "El puente se forma con curvas de Bézier, orbes y gradientes etéreos, sin estructura física real"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 80 230 Q 200 215 320 230\" stroke=\"url(#bridge)\" stroke-width=\"6\" fill=\"none\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 80 230 Q 200 215 320 230\" stroke=\"url(#bridge)\" stroke-width=\"6\" fill=\"none\"/> — curva parabólica = arco"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<rect y=\"235\" width=\"400\" height=\"165\" fill=\"url(#water)\"/> debajo del puente en y=230"
+    },
+    {
+      "id": "a18",
+      "valor": "no_esta",
+      "evidencia": "<circle cx=\"330\" cy=\"75\" r=\"25\" fill=\"url(#moon)\"/><circle cx=\"345\" cy=\"75\" r=\"8\" fill=\"#0a0520\"/> — la mordida sugiere cuarto o creciente, no gibosa"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"155\" r=\"5\" fill=\"url(#orb)\"/><circle cx=\"200\" cy=\"95\" r=\"3\" fill=\"url(#orb)\"/><circle cx=\"130\" cy=\"190\" r=\"3\" fill=\"url(#orb)\"/>..."
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 95 230 Q 200 80 305 230\" stroke=\"#c8a8f0\"/><path d=\"M 95 230 Q 200 170 305 230\"/><path d=\"M 95 230 Q 200 130 305 230\"/> — arcos hacia el cielo"
+    },
+    {
+      "id": "a21",
+      "valor": "no_esta",
+      "evidencia": "El arco más alto llega a y=80; las estrellas están entre y=15 y y=130, algunas sí cerca pero no hay contacto explícito codificado"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 80 230 Q 200 215 320 230\" stroke=\"url(#bridge)\" stroke-width=\"6\"/> — camino curva suavemente, próximo a y=235 (línea del agua)"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 10 230 Q 30 200 50 195 L 75 200 Q 95 215 95 230\"/> y <path d=\"M 305 230 Q 325 205 355 198 L 380 205 Q 395 220 395 230\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path ... fill=\"#3a2068\"/> — color violáceo oscuro para ambas montañas"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"80,70 120,60 140,90 100,110\" fill=\"#c8a8f0\"/> con círculos en vértices"
+    },
+    {
+      "id": "a26",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos etiquetados ni posicionados como luciérnagas; los orbes están en posiciones fijas del puente"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 50 250 Q 80 240 110 250\" stroke=\"#ffd870\" stroke-width=\"0.5\" fill=\"none\" opacity=\"0.5\"/><path d=\"M 290 245 Q 320 235 350 245\" stroke=\"#ffd870\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos que representen siluetas humanas sobre el puente"
+    },
+    {
+      "id": "a29",
+      "valor": "no_esta",
+      "evidencia": "No hay siluetas de ningún tipo en el código"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#0a0520\"/><stop offset=\"0.5\" stop-color=\"#2a1554\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "stroke=\"#a888d0\", fill=\"#c8a8f0\", fill=\"#e8c8ff\", stop-color=\"#5a3580\" — paleta violeta/lavanda dominante"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"60\" cy=\"130\" r=\"8\" fill=\"#ffd870\"/><stop offset=\"0.3\" stop-color=\"#ffe080\"/> — destellos ámbar"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"95\" cy=\"230\" r=\"2\" fill=\"#fff\"/><circle cx=\"305\" cy=\"230\" r=\"2\" fill=\"#fff\"/><stop offset=\"0\" stop-color=\"#ffffe8\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "Gradientes con stop-opacity=\"0\", opacidades bajas, trazos finos semitransparentes componen la estructura"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "Dos masas terrestres conectadas por arcos luminosos sobre agua nocturna con luna y orbes"
+    },
+    {
+      "id": "a36",
+      "valor": "contradice",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#0a0520\"/> noche profunda, no atardecer; el orbe naranja es pequeño y secundario"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#0a0520\"/><stop offset=\"0.5\" stop-color=\"#2a1554\"/>"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "Las cuerdas/arcos usan gradiente <linearGradient id=\"bridge\"> con stop-color=\"#e8d0ff\" y orbes luminosos url(#orb)"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<rect y=\"235\" width=\"400\" height=\"165\" fill=\"url(#water)\"/> debajo; puente en y≈215-230"
+    },
+    {
+      "id": "a40",
+      "valor": "no_esta",
+      "evidencia": "Las formas laterales son montañas costeras continuas, no islotes aislados en el agua"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"155\" r=\"5\" fill=\"url(#orb)\"/><circle cx=\"200\" cy=\"95\" r=\"3\" fill=\"url(#orb)\"/> en las curvas superiores"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 95 235 Q 200 290 305 235\" stroke=\"#a888d0\" stroke-width=\"1.5\" fill=\"none\" opacity=\"0.4\"/>"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"80,70 120,60 140,90 100,110\"/> — cuatro puntos formando cuadrilátero"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#0a0520\"/> — negro casi total en la parte superior"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "Violetas: #5a3580, #a888d0, #c8a8f0; naranjas: #ff8050, #e8b878, #ff8030 — ambos presentes"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "Múltiples linearGradient y radialGradient con stops suaves en sky, moon, water, bridge, orb"
+    },
+    {
+      "id": "a47",
+      "valor": "no_esta",
+      "evidencia": "<circle cx=\"330\" cy=\"75\" r=\"25\"/><circle cx=\"345\" cy=\"75\" r=\"8\" fill=\"#0a0520\"/> — mordida lateral no define menguante específicamente; podría ser cualquier fase con mordida"
+    },
+    {
+      "id": "a48",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"20\" cy=\"30\" r=\"0.8\"/><circle cx=\"60\" cy=\"20\" r=\"1.2\"/>... — múltiples círculos pequeños blancos"
+    },
+    {
+      "id": "a49",
+      "valor": "no_esta",
+      "evidencia": "No hay stroke con colores neón brillantes (verde lima, rosa eléctrico, cian); los colores son violetas y naranjas suaves"
+    },
+    {
+      "id": "a50",
+      "valor": "esta",
+      "evidencia": "El puente se construye con gradientes luminosos, orbes y trazos semitransparentes, sin material físico"
+    },
+    {
+      "id": "a51",
+      "valor": "esta",
+      "evidencia": "Combinación de luna, constelaciones, orbes, arcos etéreos, agua nocturna y gradientes cósmicos"
+    },
+    {
+      "id": "a52",
+      "valor": "esta",
+      "evidencia": "url(#orb) con stop-opacity=\"0\" exterior; url(#bridge) con stop-color=\"#e8d0ff\" central — la luz forma la estructura"
+    },
+    {
+      "id": "a53",
+      "valor": "no_esta",
+      "evidencia": "La escena tiene múltiples capas, gradientes complejos, elementos superpuestos — no es minimalista"
+    },
+    {
+      "id": "a54",
+      "valor": "esta",
+      "evidencia": "Paleta violeta/lavanda, orbes, gradientes etéreos, estética nocturna cósmica sugieren cosmic fantasy/vaporwave"
+    },
+    {
+      "id": "a55",
+      "valor": "esta",
+      "evidencia": "Puente centrado en x=200, montañas simétricas, orbes simétricos cx=95/305 y cx=200"
+    },
+    {
+      "id": "a56",
+      "valor": "esta",
+      "evidencia": "url(#orb) en múltiples posiciones clave, stroke blanco sobre puente, luna prominente, destellos dorados en agua"
+    }
+  ]
+}

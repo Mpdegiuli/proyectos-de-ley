@@ -1,0 +1,265 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "kimi-k3_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:41:19+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "la figura tiene cabeza, torso, brazos y piernas reconocibles; los elementos anómalos requieren análisis detallado"
+    },
+    {
+      "id": "a2",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"183\" cy=\"82\" r=\"5.5\"/><circle cx=\"200\" cy=\"77\" r=\"5.5\"/><circle cx=\"217\" cy=\"82\" r=\"5.5\"/> — son tres círculos blancos con pupila, pero representan ojos, hay tres"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M177,72 L189,70 M195,66 L205,66 M211,70 L223,72\" stroke=\"#6b4a2f\"/> — tres segmentos de cejas"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<rect x=\"166\" y=\"290\"/><rect x=\"190\" y=\"290\"/><rect x=\"214\" y=\"290\"/> — tres rectángulos que forman piernas"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"175\" cy=\"340\"/><ellipse cx=\"199\" cy=\"340\"/><ellipse cx=\"223\" cy=\"340\"/> — tres elipses oscuras bajo las piernas, representan zapatos/pies"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M182,198 L195,192\" stroke-width=\"9\"/> y <circle cx=\"200\" cy=\"190\" r=\"7.5\"/> — brazo/mano que sale del área del pecho"
+    },
+    {
+      "id": "a7",
+      "valor": "no_esta",
+      "evidencia": "no hay elemento que dibuje copa u objeto sostenido por el tercer brazo"
+    },
+    {
+      "id": "a8",
+      "valor": "no_esta",
+      "evidencia": "las sombras están agrupadas bajo la figura cerca del suelo; no hay sombras en direcciones distintas"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"54\" cy=\"54\" r=\"17\" fill=\"#ffd76e\"/> — un solo círculo solar"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "cabeza, torso, brazos, piernas claramente definidos forman figura humana reconocible"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "los elementos anómalos (tercer ojo, tercer pierna, brazo del pecho) se aprecian tras reconocer la figura"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"90\" r=\"32\"/> cabeza + torso + extremidades conforman persona"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"183\" cy=\"82\"/><circle cx=\"200\" cy=\"77\"/><circle cx=\"217\" cy=\"82\"/> — tres ojos, aproximadamente en fila horizontal"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M177,72 L189,70 M195,66 L205,66 M211,70 L223,72\"/> — tres cejas sobre los tres ojos"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<rect x=\"166\" y=\"290\"/><rect x=\"190\" y=\"290\"/><rect x=\"214\" y=\"290\"/> — tres piernas"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"175\" cy=\"340\"/><ellipse cx=\"199\" cy=\"340\"/><ellipse cx=\"223\" cy=\"340\"/> — tres zapatos/pies"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M166,156 Q142,160 135,176 Q134,188 168,192\"/> — brazo izquierdo con curva pronunciada"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"190\" r=\"7.5\"/> y <path d=\"M182,198 L195,192\"/> — mano/cabeza extra en zona central del pecho"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200,168 L222,206 L178,206 Z\" fill=\"#cfe9f5\"/> — triángulo con relleno celeste en el torso"
+    },
+    {
+      "id": "a20",
+      "valor": "no_esta",
+      "evidencia": "no hay elemento que represente vapor saliendo de un hombro"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"152\" cy=\"350\"/><path d=\"M132,347 L113,336 M126,351 L105,350\"/> — formas en el suelo que sugieren sombra"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M132,347 L113,336 M126,351 L105,350\" stroke-width=\"4\"/> — trazos que semejan brazos extendidos en la sombra"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "la sombra en el suelo tiene forma de figura con brazos extendidos mientras la figura parada tiene brazos a los lados"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"346\" width=\"400\" height=\"54\" fill=\"#e7d6ae\"/> — banda inferior color arena"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"54\" cy=\"54\" r=\"17\" fill=\"#ffd76e\"/> — sol presente"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M184,107 Q192,102 200,107 Q208,112 216,107\" fill=\"none\"/> — curva que simula sonrisa"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "sombra con brazos extendidos no coincide con postura de la figura erguida con brazos laterales"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "la pose erguida y sonrisa sugieren indiferencia ante las anomalías del cuerpo"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"183\" cy=\"82\"/><circle cx=\"200\" cy=\"77\"/><circle cx=\"217\" cy=\"82\"/> — tres ojos en hilera"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<rect x=\"166\" y=\"290\"/><rect x=\"190\" y=\"290\"/><rect x=\"214\" y=\"290\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"175\" cy=\"340\"/><ellipse cx=\"199\" cy=\"340\"/><ellipse cx=\"223\" cy=\"340\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<path d=\"M164,238 L236,238 L234,262 Q200,270 166,262 Z\" fill=\"#2b425e\"/> — zona entre torso y piernas que actúa como short"
+    },
+    {
+      "id": "a33",
+      "valor": "contradice",
+      "evidencia": "el short/pantalón tiene tres piernas, no dos canillas; <rect x=\"166\"/><rect x=\"190\"/><rect x=\"214\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<path d=\"M182,198 L195,192\"/> + <circle cx=\"200\" cy=\"190\"/> — brazo/mano que nace del pecho"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200,168 L222,206 L178,206 Z\" fill=\"#cfe9f5\"/> — triángulo en el pecho"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "fill=\"#cfe9f5\" — color celeste dentro del triángulo, sugiere cielo visible"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "el triángulo celeste en el pecho sugiere que el cuerpo es hueco o transparente"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"152\" cy=\"350\" rx=\"36\" ry=\"6\"/><path d=\"M132,347 L113,336 M126,351 L105,350\"/> — sombra en el suelo"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "la forma de la sombra con brazos extendidos no corresponde a la figura parada"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<path d=\"M132,347 L113,336 M126,351 L105,350\"/> — trazos de sombra que asemejan figura caída/tendida"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "formas simples con fill sólido/plano, stroke definido, sin texturas — estilo vectorial plano"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "formas redondeadas, colores pastel, trazos simples — estilo infantil"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "rx=\"9\" en piernas, r=\"32\" cabeza, elipses generalizadas — formas redondeadas"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "stroke-width=\"15\" stroke-width=\"10\" stroke-width=\"8\" — contornos gruesos"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "fill=\"#f2c69b\" fill=\"#4a7fa5\" fill=\"#cfe9f5\" fill=\"#ffd76e\" — paleta pastel"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "stop-color=\"#aedcf0\" fill=\"#4a7fa5\" fill=\"#cfe9f5\" fill=\"#f2c69b\" — celestes, cremas y azules presentes"
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "opacity=\".3\" opacity=\".2\" en sombras — sombras sutiles y mínimas"
+    },
+    {
+      "id": "a48",
+      "valor": "esta",
+      "evidencia": "no hay patrones, filtros de textura ni elementos de texturizado en el código"
+    },
+    {
+      "id": "a49",
+      "valor": "esta",
+      "evidencia": "estilo simple, plano, colores pastel — legible como ilustración escolar"
+    },
+    {
+      "id": "a50",
+      "valor": "esta",
+      "evidencia": "formas redondeadas, colores suaves, cara con ojos grandes — estilo animación tierna"
+    },
+    {
+      "id": "a51",
+      "valor": "esta",
+      "evidencia": "el estilo tierno contrasta con los tres ojos, tres piernas y brazo del pecho, acentuando la rareza"
+    }
+  ]
+}

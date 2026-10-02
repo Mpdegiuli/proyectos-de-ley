@@ -1,0 +1,190 @@
+{
+  "consigna": "autorretrato",
+  "unidad": "deepseek-v4-pro_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:49:52+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"180\" rx=\"74\" ry=\"84\" fill=\"url(#skinGrad)\""
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"170\" rx=\"93\" ry=\"102\" fill=\"url(#hairGrad)\"/> ... <path d=\"M130,145 C130,98 160,72 200,72 C240,72 270,98 270,145"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"170\" cy=\"182\" r=\"26\" fill=\"none\" stroke=\"#ffb703\" stroke-width=\"4\"/> <circle cx=\"230\" cy=\"182\" r=\"26\" fill=\"none\" stroke=\"#ffb703\""
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M115,400 C115,330 140,295 200,295 C260,295 285,330 285,400 Z\" fill=\"url(#shirtGrad)\"/> ... stop-color=\"#5478a8\" ... stop-color=\"#2c4a6e\""
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"50\" cy=\"80\" r=\"30\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"1\" opacity=\"0.08\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "no_esta",
+      "evidencia": "El código usa degradados, sombras y formas orgánicas curvas, no estilo geométrico limpio"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"30\" cy=\"200\" r=\"10\" fill=\"#ffb703\" opacity=\"0.15\"/> <circle cx=\"370\" cy=\"230\" r=\"12\" fill=\"#ffb703\" opacity=\"0.12\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M178,232 Q200,248 222,232\" fill=\"none\" stroke=\"#b5634d\" stroke-width=\"4\" stroke-linecap=\"round\"/> ... rubor en mejillas"
+    },
+    {
+      "id": "a9",
+      "valor": "no_esta",
+      "evidencia": "El código no indica que sea un autorretrato; no hay metadatos ni texto que lo afirme"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "La cabeza y el rostro ocupan la mayor parte del lienzo (cy=180 rx=74 ry=84), el torso queda reducido al borde inferior"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bgGrad\"> <stop offset=\"0%\" stop-color=\"#2a2a3d\"/> <stop offset=\"100%\" stop-color=\"#12121f\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"50\" cy=\"80\" r=\"30\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"1\" opacity=\"0.08\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 400\">"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"180\" rx=\"74\" ry=\"84\" fill=\"url(#skinGrad)\""
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"hairGrad\"> <stop offset=\"0%\" stop-color=\"#3b2b20\"/> <stop offset=\"100%\" stop-color=\"#1d130c\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M130,145 C130,98 160,72 200,72 C240,72 270,98 270,145 C265,118 240,98 200,98 C160,98 135,118 130,145 Z\" fill=\"url(#hairGrad)\""
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M128,150 C122,168 120,185 125,205 L114,205 C108,175 112,152 128,150 Z\" fill=\"url(#hairGrad)\"/> <path d=\"M272,150 C278,168 280,185 275,205 L286,205"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"124\" cy=\"188\" rx=\"15\" ry=\"23\" fill=\"url(#skinGrad)\"/> <ellipse cx=\"276\" cy=\"188\" rx=\"15\" ry=\"23\" fill=\"url(#skinGrad)\""
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150,158 Q170,148 192,154\" fill=\"none\" stroke=\"#2b1a10\" stroke-width=\"4\"/> <path d=\"M208,154 Q230,148 250,158\""
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"171\" cy=\"183\" r=\"6\" fill=\"#3a2a20\"/> <circle cx=\"229\" cy=\"183\" r=\"6\" fill=\"#3a2a20\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"169\" cy=\"181\" r=\"2.5\" fill=\"#ffffff\"/> <circle cx=\"227\" cy=\"181\" r=\"2.5\" fill=\"#ffffff\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"158\" cy=\"215\" rx=\"14\" ry=\"9\" fill=\"#f0a0a0\" opacity=\"0.35\"/> <ellipse cx=\"242\" cy=\"215\" rx=\"14\" ry=\"9\" fill=\"#f0a0a0\" opacity=\"0.35\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200,192 C197,200 191,205 189,210 C193,213 198,213 200,213 C202,213 207,213 211,210"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M178,232 Q200,248 222,232\" fill=\"none\" stroke=\"#b5634d\" stroke-width=\"4\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"170\" cy=\"182\" r=\"26\" fill=\"none\" stroke=\"#ffb703\" stroke-width=\"4\"/> <circle cx=\"230\" cy=\"182\" r=\"26\" fill=\"none\" stroke=\"#ffb703\""
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<line x1=\"196\" y1=\"182\" x2=\"204\" y2=\"182\" stroke=\"#ffb703\" stroke-width=\"4\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<line x1=\"146\" y1=\"182\" x2=\"122\" y2=\"182\" stroke=\"#ffb703\" stroke-width=\"4\" stroke-linecap=\"round\"/> <line x1=\"254\" y1=\"182\" x2=\"278\" y2=\"182\""
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M160,172 Q168,166 176,168\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"2\" stroke-linecap=\"round\" opacity=\"0.5\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M115,400 C115,330 140,295 200,295 ... fill=\"url(#shirtGrad)\"/> <circle cx=\"200\" cy=\"345\" r=\"3\" fill=\"#d0d0d0\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<path d=\"M165,300 L200,335 L235,300 L227,292 L200,318 L173,292 Z\" fill=\"#e8e8e8\" opacity=\"0.9\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<filter id=\"softShadow\"> <feDropShadow dx=\"0\" dy=\"6\" stdDeviation=\"8\" flood-color=\"#000\" flood-opacity=\"0.35\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skinGrad\"> <stop offset=\"0%\" stop-color=\"#f6c9a0\"/> <stop offset=\"100%\" stop-color=\"#e0aa7d\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "Uso de degradados, filtros de sombra, brillos y proporciones simplificadas indican un retrato estilizado"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "Boca sonriente, rubor en mejillas y colores cálidos"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "Diseño con pocos elementos, formas simples y fondo oscuro sin elementos complejos"
+    },
+    {
+      "id": "a36",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos visuales que indiquen timidez; la expresión es sonriente y directa"
+    }
+  ]
+}

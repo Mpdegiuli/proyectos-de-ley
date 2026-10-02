@@ -1,0 +1,220 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "gpt-6-astra_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T01:11:31+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M209 198C156 173 157 119 214 64c-2 42 80 83-5 134z\" fill=\"url(#leaf)\" stroke=\"#d9edc8\"/> (hojas que funcionan como velas, descritas en desc como 'velas son hojas de cristal')"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M190 247C191 183 214 127 214 73\" stroke=\"#f1d3a0\" stroke-width=\"3\"/> (mástil con ligera curvatura)"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 295c35-29 57 4 82-12s33-12 51-3c-37-3-32 23-62 19S30 315 0 314z\" fill=\"url(#cloud)\"/> y <desc>navega por un mar de nubes</desc>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"207\" cy=\"343\" r=\"13\" fill=\"url(#orb)\"/> con <ellipse cx=\"207\" cy=\"343\" rx=\"25\" ry=\"7\" ... stroke=\"#f2c998\"/> (planeta con anillos colgando del casco)"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M86 244c61 18 153 27 220 0l28-26c-5 48-45 75-101 80-73 8-120-8-147-54z\" fill=\"url(#hull)\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos que representen barandas en el código SVG."
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"145\" cy=\"267\" rx=\"5\" ry=\"6\"/> <ellipse cx=\"173\" cy=\"275\" rx=\"5\" ry=\"6\"/> etc. (elipses en el casco que evocan ojos de buey)"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<title>El herbario de las mareas imposibles</title>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M86 244c61 18 153 27 220 0l28-26...\" fill=\"url(#hull)\"/> casco + mástiles + velas-hoja conforman figura de barco"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "Casco (navegación): url(#hull); hojas/flores (botánica): url(#leaf), url(#rose); planeta con anillos (astronomía): url(#orb) con ellipse de anillos"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "Velas: url(#leaf) sobre mástiles; entorno: url(#cloud) nubes; ancla: <circle cx=\"207\" cy=\"343\"/> con anillos"
+    },
+    {
+      "id": "a12",
+      "valor": "contradice",
+      "evidencia": "<title>El herbario de las mareas imposibles</title> es el título del dibujo, no el nombre del barco dentro de la ficción"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M86 244c61 18 153 27 220 0l28-26c-5 48-45 75-101 80-73 8-120-8-147-54z\" fill=\"url(#hull)\"/> (forma curva tipo luna)"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"hull\"><stop stop-color=\"#eeb680\"/><stop offset=\".22\" stop-color=\"#b56c75\"/><stop offset=\"1\" stop-color=\"#50394f\"/></linearGradient> (cobrizo #eeb680 y rosado #b56c75)"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M190 247C191 183 214 127 214 73\" stroke=\"#f1d3a0\" stroke-width=\"3\"/> <path d=\"M146 249c-2-43-16-74-20-108\" stroke=\"#d4b78e\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M209 198C156 173 157 119 214 64...\" fill=\"url(#leaf)\"/> hojas grandes ancladas en los mástiles"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<desc>Sus velas son hojas de cristal</desc> y las hojas fill=\"url(#leaf)\" están sobre los mástiles"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<desc>Sus velas son hojas de cristal</desc>; stroke=\"#d9edc8\" y gradiente translúcido url(#leaf) con stop #f6ebac (traslúcido-dorado)"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 295c35-29 57 4 82-12...\" fill=\"url(#cloud)\"/> nubes bajo el barco"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<pattern id=\"stars\"><circle cx=\"17\" cy=\"23\" r=\".9\" fill=\"#efe4ca\"/><circle cx=\"63\" cy=\"57\" r=\".7\" fill=\"#9ec5cf\"/></pattern> <rect width=\"400\" height=\"400\" fill=\"url(#stars)\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M319 82a17 17 0 1 1-21-23 14 14 0 0 0 21 23\" fill=\"#f2d6a5\"/> (forma de luna creciente)"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"321\" cy=\"223\" rx=\"22\" ry=\"30\" transform=\"rotate(28 321 223)\"/> con pétalos: <path d=\"M322 220c-7-26-21-19-14-8...\"/> etc. (rosa/hélice en extremo del barco)"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M191 303c-3 12 15 16 14 29\" stroke-dasharray=\"2 3\"/> (cadena punteada) + <circle cx=\"207\" cy=\"343\" r=\"13\"/> + <ellipse cx=\"207\" cy=\"343\" rx=\"25\" ry=\"7\"/> (planeta con anillos colgando)"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<desc>su ancla, un pequeño planeta</desc>; planeta bajo el casco conectado por línea punteada"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#192e46\" stroke=\"#efc994\" stroke-width=\"1.5\"><ellipse cx=\"145\" cy=\"267\"/> ... </g> con <g fill=\"#abecda\"><circle cx=\"145\" cy=\"266\" r=\"2\"/> (verde agua #abecda)"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M294 234v21\"/> <path d=\"M290 255h8l2 12h-12z\" fill=\"#f7dd9a\"/> (farol dorado sobre la borda)"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "Casco url(#hull) + hojas url(#leaf) y flores url(#rose) como velas + planeta con anillos url(#orb) + estrellas url(#stars)"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M86 244c61 18 153 27 220 0l28-26c-5 48-45 75-101 80-73 8-120-8-147-54z\" fill=\"url(#hull)\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M209 198C156 173 157 119 214 64...\" fill=\"url(#leaf)\"/> hojas grandes en mástiles funcionando como velas"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<path d=\"M265 304c13-19 33-6 47-18s27-10 37-4 28-8 51-1v31...\" fill=\"url(#cloud)\"/> nubes bajo el casco"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"207\" cy=\"343\" r=\"13\" fill=\"url(#orb)\"/> + <ellipse cx=\"207\" cy=\"343\" rx=\"25\" ry=\"7\" stroke=\"#f2c998\"/> + línea punteada desde casco"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "Múltiples gradientes, patrones de estrellas, elementos ornamentales florales, halo radial, filtro glow; estilo fantástico y ornamental"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "Nervaduras de hojas: <path d=\"M205 178l-29-31m28 11-26-34...\"/>; curvas vegetales de las hojas/flores; venas decorativas art nouveau"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "stroke-width=\"1.1\", stroke-width=\".8\", stroke-width=\".7\" predominan en los contornos"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"hull\"><stop stop-color=\"#eeb680\"/><stop offset=\".22\" stop-color=\"#b56c75\"/><stop offset=\"1\" stop-color=\"#50394f\"/></linearGradient> degradados suaves en múltiples elementos"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"night\"><stop stop-color=\"#10152f\"/><stop offset=\".6\" stop-color=\"#252345\"/><stop offset=\"1\" stop-color=\"#40516a\"/></linearGradient>"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#78d9cf\"/> (halo), <stop stop-color=\"#297d8e\"/> (leaf), <stop stop-color=\"#408e9a\"/> (orb), fill=\"#abecda\" (ojos de buey)"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#d994ae\"/> y <stop stop-color=\"#ffdbb0\"/> en gradiente rose; <stop offset=\".22\" stop-color=\"#b56c75\"/> en hull"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#f6ebac\"/> (leaf), <stop stop-color=\"#fff6c8\"/> (orb), fill=\"#f7dd9a\" (farol), stroke=\"#efc994\""
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "Combinación de estrellas, luna, nubes, hojas-velas, planeta-ancla, paleta nocturna con dorados produce efecto de cuento celeste ilustrado"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "Gradientes ornamentales, nervaduras decorativas, patrones de estrellas, elementos fantásticos predominan sobre representación realista"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "Barco con velas-hojas, ancla-planeta, mar de nubes; elementos imposibles/poéticos dominan sobre funcionalidad náutica realista"
+    }
+  ]
+}

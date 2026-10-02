@@ -1,0 +1,255 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "gpt-5.6-sol_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:47:50+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M124 178l74-54v171l-74 9z\" fill=\"url(#wall)\"/><path d=\"M198 124l84 55-9 125-75-9z\" fill=\"url(#side)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "no_esta",
+      "evidencia": "No hay isla flotante; hay una elipse de sombra en el suelo: <ellipse cx=\"200\" cy=\"350\" rx=\"122\" ry=\"23\" fill=\"#211c3e\" opacity=\".45\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<g transform=\"rotate(-8 94 195)\"> y skewY(-8) en ventana, combinados con perspectiva frontal y lateral de la casa"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M121 178l22 14-22 21z\" fill=\"#2a294e\" stroke=\"#ffc989\" stroke-width=\"3\"/> (triángulo que sobresale de la ventana lateral)"
+    },
+    {
+      "id": "a5",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento que represente una escalera en el código SVG"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M279 203q41-12 50 17 8 29-17 48\" fill=\"none\" stroke=\"#84d8c2\" stroke-width=\"7\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M158 143q-8-39 9-53 17-14 8-35\" fill=\"none\" stroke=\"#a6d6c1\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-dasharray=\"3 8\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M169 60q-11-11 2-19 13 10 4 22z\" fill=\"#ffc47c\" opacity=\".85\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop stop-color=\"#15163f\"/><stop offset=\".55\" stop-color=\"#684b87\"/><stop offset=\"1\" stop-color=\"#ed9b78\"/></linearGradient>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "Casa con paredes, techo, puerta y ventanas reconocibles: <path d=\"M124 178l74-54v171l-74 9z\" fill=\"url(#wall)\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "Combinación de rotate(-8), skewY(-8), perspectiva lateral vs frontal, extensiones y tubería curva hacen la geometría imposible"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "Todos los elementos extraños están dentro del grupo principal filter=\"url(#shadow)\" con bordes definidos"
+    },
+    {
+      "id": "a13",
+      "valor": "no_esta",
+      "evidencia": "La casa tiene sombra en el suelo <ellipse cx=\"200\" cy=\"350\" rx=\"122\" ry=\"23\"/> y plantas: no flota"
+    },
+    {
+      "id": "a14",
+      "valor": "no_esta",
+      "evidencia": "No hay isla suspendida; hay elipse de sombra en el suelo y plantas"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"wall\"><stop stop-color=\"#ffd98c\"/><stop offset=\"1\" stop-color=\"#d96a62\"/></linearGradient>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"roof\"><stop stop-color=\"#63d2c6\"/><stop offset=\"1\" stop-color=\"#227e92\"/></linearGradient>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "Ventana frontal <g transform=\"translate(144 186) skewY(-8)\"> y ventana lateral <path d=\"M218 176l39 23-3 48-37-13z\"/> y ventana rotada <g transform=\"rotate(-8 94 195)\">"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M154 258l31-3v43l-31 4z\" fill=\"#53395c\" stroke=\"#ffe1a0\" stroke-width=\"4\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento SVG que dibuje una escalera exterior"
+    },
+    {
+      "id": "a20",
+      "valor": "no_esta",
+      "evidencia": "No hay escalera en el código"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<g transform=\"rotate(-8 94 195)\"><path d=\"M63 174h58v43H63z\" fill=\"#422f58\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M279 203q41-12 50 17 8 29-17 48\" fill=\"none\" stroke=\"#84d8c2\" stroke-width=\"7\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M322 218q-8 9 2 15 10-8 0-16z\" fill=\"#ffd58f\"/> (pequeña luz amarilla sobre la tubería)"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M158 143q-8-39 9-53 17-14 8-35\" fill=\"none\" stroke=\"#384a58\" stroke-width=\"9\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M169 60q-11-11 2-19 13 10 4 22z\" fill=\"#ffc47c\" opacity=\".85\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M90 330q-9-16 1-29 12 14 1 29M99 330q2-18 17-25 3 18-15 26\" fill=\"#67ad83\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 276l43-38 34 31 43-60 38 50 43-25 44 39 38-54 48 43 39-30 30 31v137H0z\" fill=\"#332650\" opacity=\".32\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"45\" cy=\"62\" r=\"1.7\"/><circle cx=\"83\" cy=\"39\" r=\"1\"/> y demás círculos pequeños en fill=\"#fff6d0\""
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"316\" cy=\"76\" r=\"29\" fill=\"url(#moon)\"/><circle cx=\"316\" cy=\"76\" r=\"44\" fill=\"#ffd982\" opacity=\".18\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<stop offset=\".55\" stop-color=\"#684b87\"/> en gradiente del cielo"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"1\" stop-color=\"#ed9b78\"/> (horizonte anaranjado) combinado con luna visible: puede leerse como atardecer/anochecer"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "Combinación de skewY(-8), rotate(-8), perspectivas incompatibles entre fachada y lateral"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "Casa con geometría contradictoria: <g transform=\"rotate(-8 94 195)\">, skewY(-8), perspectiva imposible"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<g transform=\"rotate(-8 94 195)\"> y <g transform=\"translate(144 186) skewY(-8)\">"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "Fachada frontal + pared lateral en perspectiva + ventana rotada + ventana inclinada: perspectivas incompatibles"
+    },
+    {
+      "id": "a36",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento escalera en el código SVG"
+    },
+    {
+      "id": "a37",
+      "valor": "no_esta",
+      "evidencia": "No hay escaleras en el código"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<path d=\"M158 143q-8-39 9-53 17-14 8-35\" fill=\"none\" stroke=\"#a6d6c1\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-dasharray=\"3 8\"/>"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<g transform=\"rotate(-8 94 195)\"><path d=\"M63 174h58v43H63z\"/> y tubería <path d=\"M279 203q41-12 50 17 8 29-17 48\"/>"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "Habitación rotada <g transform=\"rotate(-8 94 195)\"> y tubería curva sin apoyo visible desafían la gravedad"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#15163f\"/> cielo oscuro con luna y estrellas"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "Luna con glow, estrellas con forma de rayo, colores mágicos, chimenea orgánica, tubería brillante"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "Uso de gradientes, formas geométricas combinadas, elementos surreales, estilo vectorial limpio"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "Colores cálidos y pasteles, luna acogedora, plantas, estrellas: estética de cuento"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "<rect width=\"35\" height=\"45\" rx=\"17\"/>, <path d=\"M63 174h58v43H63z\"/>, <ellipse cx=\"200\" cy=\"350\" rx=\"122\" ry=\"23\"/>"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "Paths con stroke definido, sin rugosidad: <path ... stroke=\"#ffdfa0\" stroke-width=\"4\"/>"
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#ffd98c\"/> (cálido) y <stop stop-color=\"#63d2c6\"/> (turquesa)"
+    },
+    {
+      "id": "a48",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"wall\">, <linearGradient id=\"sky\">, <linearGradient id=\"roof\">, <radialGradient id=\"moon\">"
+    },
+    {
+      "id": "a49",
+      "valor": "esta",
+      "evidencia": "<filter id=\"glow\"><feGaussianBlur stdDeviation=\"5\"/></filter> aplicado a luna y sombra elipse"
+    }
+  ]
+}

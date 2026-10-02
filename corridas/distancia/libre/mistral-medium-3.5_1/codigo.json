@@ -1,0 +1,155 @@
+{
+  "consigna": "libre",
+  "unidad": "mistral-medium-3.5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:08:38+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\" x1=\"0%\" y1=\"0%\" x2=\"0%\" y2=\"100%\"><stop offset=\"0%\" stop-color=\"#1e88e5\"/><stop offset=\"100%\" stop-color=\"#0d47a1\"/></linearGradient>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"350\" cy=\"80\" r=\"40\" fill=\"url(#sun)\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<filter id=\"cloud\"><feGaussianBlur stdDeviation=\"4\" result=\"blur\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0,300 Q100,250 200,300 T400,300 L400,400 L0,400 Z\" fill=\"#4caf50\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<rect x=\"180\" y=\"250\" width=\"40\" height=\"100\" fill=\"#8d6e63\"/><polygon points=\"180,250 220,250 200,200\" fill=\"#5d4037\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento que dibuje una ventana en la casita"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<rect x=\"190\" y=\"270\" width=\"20\" height=\"30\" fill=\"#455a64\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"100\" cy=\"350\" r=\"15\" fill=\"#ff5722\"/> (el color #ff5722 es naranja-rojo, no rojo puro; además son flores naranjas)"
+    },
+    {
+      "id": "a9",
+      "valor": "no_esta",
+      "evidencia": "El cielo usa #1e88e5 y #0d47a1 (azules), no colores de atardecer"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "Paisaje con cielo azul, colinas verdes, casita y flores dispersas sugieren tranquilidad"
+    },
+    {
+      "id": "a11",
+      "valor": "no_esta",
+      "evidencia": "El cielo es azul profundo (#1e88e5 a #0d47a1), dominan tonos fríos"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "Elementos reconocibles: sol, nubes, colina, casita con techo triangular, flores"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"/><radialGradient id=\"sun\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<filter id=\"cloud\"><feGaussianBlur stdDeviation=\"4\" result=\"blur\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0,300 Q100,250 200,300 T400,300 L400,400 L0,400 Z\" fill=\"#4caf50\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "no_esta",
+      "evidencia": "El cielo es azul (#1e88e5, #0d47a1), no hay colores de atardecer"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#1e88e5\"/><stop offset=\"100%\" stop-color=\"#0d47a1\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"350\" cy=\"80\" r=\"40\" fill=\"url(#sun)\"/> con gradiente de #ffeb3b a #ff9800"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "Dos grupos <g filter=\"url(#cloud)\"> con elipses blancas"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "Las nubes están en cy=\"100\" y cy=\"150\", sin contacto con el suelo (suelo en y=300)"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0,300 Q100,250 200,300 T400,300 L400,400 L0,400 Z\" fill=\"#4caf50\"/> y <path stroke=\"#388e3c\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0,300 Q100,250 200,300 T400,300 L400,400 L0,400 Z\"/> ocupa la parte baja del dibujo"
+    },
+    {
+      "id": "a23",
+      "valor": "contradice",
+      "evidencia": "<polygon points=\"180,250 220,250 200,200\" fill=\"#5d4037\"/> es un techo de casa, no copa de árbol; <rect x=\"180\" y=\"250\"... es el cuerpo de la casa"
+    },
+    {
+      "id": "a24",
+      "valor": "contradice",
+      "evidencia": "<rect x=\"180\" y=\"250\" width=\"40\" height=\"100\" fill=\"#8d6e63\"/> es el cuerpo de la casita, no un tronco de árbol delgado"
+    },
+    {
+      "id": "a25",
+      "valor": "contradice",
+      "evidencia": "<polygon points=\"180,250 220,250 200,200\" fill=\"#5d4037\"/> es el techo de la casita, no copa de árbol"
+    },
+    {
+      "id": "a26",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"200\" cy=\"220\" r=\"5\" fill=\"#ffeb3b\"/> está en el techo de la casita, no en copa de árbol"
+    },
+    {
+      "id": "a27",
+      "valor": "contradice",
+      "evidencia": "<rect x=\"190\" y=\"270\" width=\"20\" height=\"30\" fill=\"#455a64\"/> es la puerta de la casita, no está en base de árbol"
+    },
+    {
+      "id": "a28",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"100\" cy=\"350\" r=\"15\" fill=\"#ff5722\"/> el color #ff5722 es naranja (no naranja puro pero la afirmación dice naranjas; sin embargo las a8 las llama rojas). Son círculos de color #ff5722 dispersos en el suelo"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "Paisaje simple con cielo, nubes, colina, casita y flores; elementos básicos y armoniosos"
+    }
+  ]
+}

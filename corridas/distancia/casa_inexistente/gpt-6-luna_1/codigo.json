@@ -1,0 +1,225 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "gpt-6-luna_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:50:21+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<!-- The house hangs over its own little sky --> <ellipse cx=\"208\" cy=\"314\" rx=\"113\" ry=\"17\" fill=\"#171e49\" opacity=\".6\"/> <ellipse cx=\"208\" cy=\"309\" rx=\"85\" ry=\"10\" fill=\"none\" stroke=\"#83d8d2\""
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M145 262L130 301M270 264L283 298M199 278L199 307\" stroke=\"#efbd8d\" stroke-width=\"7\" stroke-linecap=\"round\"/> — apoyos delgados inconsistentes con el peso visual"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<!-- A staircase curls away from the front door and climbs into nowhere --> <path d=\"M169 277C163 305 112 301 108 327C105 349 154 354 185 339C217 324 209 304 187 301\""
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M111 156L204 111L303 153L278 165L203 133L126 170Z\"/> y <!-- Windows that don't agree about perspective -->"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<!-- Windows that don't agree about perspective --> <path d=\"M215 158L250 171L248 207L215 197Z\" ... <path d=\"M263 184L286 178L282 211L260 216Z\""
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M111 156L204 111L204 281L139 267Z\" fill=\"url(#wall)\"/> <path d=\"M204 111L303 153L287 270L204 281Z\" fill=\"url(#side)\"/> — distintas orientaciones y gradientes"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<!-- Portal door --> <path d=\"M153 261L153 205Q153 187 169 181Q185 187 185 205L185 273Z\" fill=\"url(#portal)\"/> <radialGradient id=\"portal\"><stop stop-color=\"#fff7ba\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<!-- Roof like a folded, impossible paper hat --> <path d=\"M73 159L197 47L330 143L303 153L204 111L111 156Z\" fill=\"url(#roof)\""
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "combinación de perspectiva imposible, portal, escalera que se pierde, casa flotante — efecto visible por el conjunto"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M111 156L204 111L204 281L139 267Z\"/> techo+paredes+puerta+ventanas conforman figura reconocible de casa"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<!-- Windows that don't agree about perspective --> y escalera que climbs into nowhere y portal door"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M111 156L204 111L204 281L139 267Z\" fill=\"url(#wall)\"/> — casa con paredes, techo, puerta, ventanas"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"208\" cy=\"309\" rx=\"85\" ry=\"10\" fill=\"none\" stroke=\"#83d8d2\" stroke-width=\"3\" opacity=\".8\"/> <ellipse cx=\"208\" cy=\"309\" rx=\"58\" ry=\"6\" fill=\"none\" stroke=\"#f9bb91\""
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M111 156L204 111L204 281L139 267Z\" fill=\"url(#wall)\"/> — gradiente #f8dba6→#dc8d82 y <path d=\"M204 111L303 153L287 270L204 281Z\" fill=\"url(#side)\"/> — gradiente #91c8bd→#4c7894"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M111 156L204 111L204 281L139 267Z\"/> cara frontal y <path d=\"M204 111L303 153L287 270L204 281Z\"/> cara lateral — distintos ángulos"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<!-- Roof like a folded, impossible paper hat --> <path d=\"M73 159L197 47L330 143L303 153L204 111L111 156Z\""
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<!-- Chimney and its wandering smoke --> <path d=\"M258 95L260 61L285 69L288 123Z\" fill=\"#8b5778\""
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M274 51C250 37 290 29 278 17C268 7 296 8 301 18\" fill=\"none\" stroke=\"#f8d6b1\" stroke-width=\"4\" stroke-linecap=\"round\" opacity=\".8\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<!-- Chimney and its wandering smoke --> <path d=\"M274 51C250 37 290 29 278 17C268 7 296 8 301 18\" — curva errante"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<!-- Portal door --> <path d=\"M147 263L147 204Q147 181 169 174Q191 181 191 204L191 277Z\" fill=\"#704d78\""
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M153 261L153 205Q153 187 169 181Q185 187 185 205L185 273Z\" fill=\"url(#portal)\"/> radialGradient con #fff7ba → #9ce7e0 → #7967bd"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<!-- Windows that don't agree about perspective --> <path d=\"M215 158L250 171L248 207L215 197Z\"/> y <path d=\"M263 184L286 178L282 211L260 216Z\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M169 277C163 305 112 301 108 327C105 349 154 354 185 339C217 324 209 304 187 301\" fill=\"none\" stroke=\"#f3bd88\""
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<!-- A staircase curls away from the front door and climbs into nowhere --> path desde M169 277 (puerta) alejándose"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "climbs into nowhere — <path d=\"M169 277C163 305 112 301 108 327C105 349 154 354 185 339C217 324 209 304 187 301\" — termina en el aire sin suelo"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 270Q48 235 94 267T190 257T294 268T400 244V400H0Z\" fill=\"#313d70\" opacity=\".52\"/> <path d=\"M0 308Q65 276 132 305T265 300T400 284V400H0Z\" fill=\"#242f5b\""
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<!-- Small floating cloudlets --> <path d=\"M47 286Q49 278 58 280Q61 270 72 274Q80 269 85 279Q96 279 96 288Q95 295 84 294H57Q45 295 47 286Z\" fill=\"#c4d8d4\""
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff0c4\"><circle cx=\"43\" cy=\"62\" r=\"1.5\"/><circle cx=\"81\" cy=\"103\" r=\"1.2\"/> ... </g> y <path d=\"M58 79l3 7 7 3-7 3-3 7-3-7-7-3 7-3z\""
+    },
+    {
+      "id": "a29",
+      "valor": "no_esta",
+      "evidencia": "<circle cx=\"322\" cy=\"76\" r=\"17\" fill=\"#ffe4a4\"/> <circle cx=\"329\" cy=\"70\" r=\"17\" fill=\"#26305e\"/> — luna mordida (ocluida), no creciente en sentido astronómico clásico, aunque podría leerse así; pero el código muestra círculo tapado, no arco creciente"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop stop-color=\"#17234d\"/><stop offset=\".58\" stop-color=\"#514b83\"/><stop offset=\"1\" stop-color=\"#f0a978\"/></linearGradient> — oscuro arriba, naranja abajo"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<path d=\"M111 156L204 111L204 281L139 267Z\" fill=\"url(#wall)\"/> — misma evidencia que a12"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"208\" cy=\"314\" rx=\"113\" ry=\"17\" fill=\"#171e49\" opacity=\".6\"/> — mismo respaldo que a1"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<!-- Roof like a folded, impossible paper hat --> — mismo respaldo que a16"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<!-- Windows that don't agree about perspective --> — mismo respaldo que a22"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<path d=\"M169 277C163 305 112 301 108 327C105 349 154 354 185 339C217 324 209 304 187 301\" — curva que se enrosca"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "climbs into nowhere — la path termina en M187 301 sin conectar a suelo o destino"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<path d=\"M147 263L147 204Q147 181 169 174Q191 181 191 204L191 277Z\" fill=\"#704d78\" — mismo respaldo que a20"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<!-- Portal door --> fill=\"url(#portal)\" radialGradient #fff7ba→#9ce7e0→#7967bd"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<!-- Roof like a folded, impossible paper hat --> geometría imposible con vértice M197 47 y planos contradictorios"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "gradientes: #ffb56f→#d65d79 (roof), #f8dba6→#dc8d82 (wall), stop-color=\"#f0a978\" (sky), #ffe4a4 (moon)"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "casa flotante, portal luminoso, escalera imposible, perspectivas contradictorias, humo errante"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\"/> <circle cx=\"322\" cy=\"76\" r=\"17\"/> <ellipse cx=\"208\" cy=\"314\" rx=\"113\" ry=\"17\"/> <path d=\"M215 158L250 171L248 207L215 197Z\"/>"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "gradientes suaves, colores cálidos y fantásticos, elementos surrealistas (portal, escalera imposible, casa flotante), estrellas y luna"
+    }
+  ]
+}

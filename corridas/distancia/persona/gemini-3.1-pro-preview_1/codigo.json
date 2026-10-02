@@ -1,0 +1,165 @@
+{
+  "consigna": "persona",
+  "unidad": "gemini-3.1-pro-preview_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:08:08+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 135 150 C 135 90, 265 90, 265 150 C 265 220, 230 265, 200 270 C 170 265, 135 220, 135 150 Z\" fill=\"url(#skin)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#8b5cf6\"/><stop offset=\"50%\" stop-color=\"#ec4899\"/><stop offset=\"100%\" stop-color=\"#f43f5e\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"180\" cy=\"205\" r=\"1\" fill=\"#a0522d\" opacity=\"0.5\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"168\" cy=\"170\" r=\"24\" fill=\"url(#glass-grad)\" stroke=\"#fbbf24\" stroke-width=\"3\"/><circle cx=\"232\" cy=\"170\" r=\"24\" fill=\"url(#glass-grad)\" stroke=\"#fbbf24\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#0f172a\"/><stop offset=\"100%\" stop-color=\"#312e81\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 50 150 L 53 158 L 61 161 L 53 164 L 50 172 L 47 164 L 39 161 L 47 158 Z\" fill=\"#fef08a\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"50\" cy=\"80\" r=\"30\" fill=\"#f472b6\" opacity=\"0.2\"/><circle cx=\"320\" cy=\"120\" r=\"50\" fill=\"#38bdf8\" opacity=\"0.2\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 165 295 Q 120 310, 60 400 L 340 400 Q 280 310, 235 295 Z\" fill=\"url(#jacket-grad)\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "múltiples gradientes, bokeh, estrellas, pecas, aros, anteojos, reflejos, pestañas, mechas de color"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"160\" cy=\"195\" r=\"14\" fill=\"#f43f5e\" opacity=\"0.25\"/> mejillas, labios, ojos verdes con reflejos"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "uso de gradientes, bokeh, paleta de colores vibrantes y degradados modernos"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "proporciones estilizadas, pelo con degradado multicolor, ojos grandes con reflejos"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"50\" cy=\"80\" r=\"30\" fill=\"#f472b6\" opacity=\"0.2\"/> y fill=\"url(#glass-grad)\" con stop-color=\"rgba(255,255,255,0.4)\""
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"bg-grad\">, <linearGradient id=\"skin\">, <linearGradient id=\"hair-back\">, ..."
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 135 150 C 135 90, 265 90, 265 150 ... fill=\"url(#skin)\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 130 130 C 110 180, 110 280, 125 360 ...\" fill=\"url(#hair-front)\"/> strands reaching y=360"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#8b5cf6\"/><stop offset=\"50%\" stop-color=\"#ec4899\"/><stop offset=\"100%\" stop-color=\"#f43f5e\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"hair-accent\"><stop offset=\"0%\" stop-color=\"#fde047\"/><stop offset=\"100%\" stop-color=\"#f97316\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"192\" cy=\"208\" r=\"1.5\" fill=\"#a0522d\" opacity=\"0.5\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"160\" cy=\"195\" r=\"14\" fill=\"#f43f5e\" opacity=\"0.25\"/><circle cx=\"240\" cy=\"195\" r=\"14\" fill=\"#f43f5e\" opacity=\"0.25\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "contradice",
+      "evidencia": "<path d=\"M 178 230 Q 200 245, 222 230 ...\" fill=\"#f43f5e\"/> y <path fill=\"#e11d48\"/> — los labios son rojos/carmín, no rosados"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"168\" cy=\"168\" r=\"7\" fill=\"#10b981\"/><circle cx=\"232\" cy=\"168\" r=\"7\" fill=\"#10b981\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"168\" cy=\"170\" r=\"24\" ... stroke=\"#fbbf24\" stroke-width=\"3\"/><circle cx=\"232\" cy=\"170\" r=\"24\" ... stroke=\"#fbbf24\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"130\" cy=\"200\" r=\"12\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"3\"/><circle cx=\"270\" cy=\"200\" r=\"12\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"jacket-grad\"><stop offset=\"0%\" stop-color=\"#0ea5e9\"/><stop offset=\"100%\" stop-color=\"#0369a1\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#0f172a\"/><stop offset=\"100%\" stop-color=\"#312e81\"/> con estrellas y bokeh"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#0f172a\"/><stop offset=\"100%\" stop-color=\"#312e81\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 50 150 L 53 158 L 61 161 L 53 164 L 50 172 L 47 164 L 39 161 L 47 158 Z\" fill=\"#fef08a\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"50\" cy=\"80\" r=\"30\" fill=\"#f472b6\" opacity=\"0.2\"/><circle cx=\"320\" cy=\"120\" r=\"50\" fill=\"#38bdf8\" opacity=\"0.2\"/><circle cx=\"350\" cy=\"300\" r=\"40\" fill=\"#a78bfa\" opacity=\"0.2\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "gradientes multicolor en cabello, bokeh, estrellas, paleta vibrante con púrpuras y rosas"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"50\" cy=\"80\" r=\"30\" fill=\"#f472b6\" opacity=\"0.2\"/> — no tienen suelo, están dispersas alrededor de la figura"
+    }
+  ]
+}

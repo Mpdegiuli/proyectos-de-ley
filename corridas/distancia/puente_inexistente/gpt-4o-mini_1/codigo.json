@@ -1,0 +1,165 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "gpt-4o-mini_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:40:38+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M100 300 Q150 220 200 300 T300 300\" fill=\"none\" stroke=\"#A9A9A9\" stroke-width=\"5\" />"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M100 250 Q150 180 200 250 T300 250\" fill=\"none\" stroke=\"#FFD700\" stroke-width=\"5\" />"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M100 300 Q150 220 200 300 T300 300\" fill=\"none\" stroke=\"#A9A9A9\" stroke-width=\"5\" />"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "fill=\"#FFD700\" fill=\"#B22222\" fill=\"#87CEEB\""
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"50\" ...>Puente Imaginario</text>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M100 300 Q150 220 200 300 T300 300\" fill=\"none\" stroke=\"#A9A9A9\" stroke-width=\"5\" />"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"50\" ...>Puente Imaginario</text>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "fill=\"#FFD700\" stroke=\"#FFD700\" fill=\"#B22222\" fill=\"#87CEEB\""
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M100 300 Q150 220 200 300 T300 300\" fill=\"none\" stroke=\"#A9A9A9\" stroke-width=\"5\" />"
+    },
+    {
+      "id": "a10",
+      "valor": "no_esta",
+      "evidencia": "<rect width=\"100%\" height=\"100%\" fill=\"#87CEEB\" /> <rect y=\"300\" width=\"100%\" height=\"20\" fill=\"#8B4513\" />"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M100 300 Q150 220 200 300 T300 300\" fill=\"none\" stroke=\"#A9A9A9\" stroke-width=\"5\" />"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<line x1=\"150\" y1=\"300\" x2=\"150\" y2=\"250\" stroke=\"#A9A9A9\" stroke-width=\"5\" /> <line x1=\"250\" y1=\"300\" x2=\"250\" y2=\"250\" stroke=\"#A9A9A9\" stroke-width=\"5\" />"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M100 250 Q150 180 200 250 T300 250\" fill=\"none\" stroke=\"#FFD700\" stroke-width=\"5\" />"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<rect width=\"100%\" height=\"100%\" fill=\"#87CEEB\" />"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M50 320 L70 350 L130 350 L150 320 Z\" fill=\"#B22222\" /> <path d=\"M270 320 L290 350 L350 350 L370 320 Z\" fill=\"#B22222\" />"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"50\" font-family=\"Arial\" font-size=\"24\" fill=\"#FFFFFF\" text-anchor=\"middle\">Puente Imaginario</text>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<rect width=\"100%\" height=\"100%\" fill=\"#87CEEB\" /> <rect y=\"300\" width=\"100%\" height=\"20\" fill=\"#8B4513\" />"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M100 250 Q150 180 200 250 T300 250\" fill=\"none\" stroke=\"#FFD700\" stroke-width=\"5\" /> <circle cx=\"100\" cy=\"250\" r=\"5\" fill=\"#FFD700\" />"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M50 320 L70 350 L130 350 L150 320 Z\" fill=\"#B22222\" />"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"50\" ...>Puente Imaginario</text>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M100 250 Q150 180 200 250 T300 250\" fill=\"none\" stroke=\"#FFD700\" stroke-width=\"5\" />"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"50\" ...>Puente Imaginario</text>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M100 300 Q150 220 200 300 T300 300\" fill=\"none\" stroke=\"#A9A9A9\" stroke-width=\"5\" />"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M100 250 Q150 180 200 250 T300 250\" fill=\"none\" stroke=\"#FFD700\" stroke-width=\"5\" />"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "fill=\"#87CEEB\" fill=\"#8B4513\" stroke=\"#A9A9A9\" stroke=\"#FFD700\" fill=\"#B22222\""
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<line x1=\"150\" y1=\"300\" x2=\"150\" y2=\"250\" stroke=\"#A9A9A9\" stroke-width=\"5\" />"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<rect width=\"100%\" height=\"100%\" fill=\"#87CEEB\" /> <circle cx=\"100\" cy=\"250\" r=\"5\" fill=\"#FFD700\" />"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M100 300 Q150 220 200 300 T300 300\" fill=\"none\" stroke=\"#A9A9A9\" stroke-width=\"5\" />"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "fill=\"#87CEEB\" fill=\"#FFD700\" fill=\"#B22222\" fill=\"#8B4513\""
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"50\" ...>Puente Imaginario</text>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "fill=\"#87CEEB\" stroke=\"#FFD700\" fill=\"#B22222\""
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "consigna": "persona_inexistente",
+  "unidad": "gemini-3.1-pro-preview_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:21:18+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<text x=\"320\" y=\"380\" fill=\"#00f3ff\" font-family=\"monospace\" font-size=\"10\" opacity=\"0.7\" transform=\"rotate(-90 320 380)\">SYS.ENT.749</text>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"170,180 215,145 195,140\" fill=\"none\" stroke=\"#00f3ff\" stroke-width=\"0.5\" opacity=\"0.4\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "filter=\"url(#glow)\" con feGaussianBlur stdDeviation=\"3\" sobre trazos en colores #00f3ff, #ff00a0, #7000ff"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 180,60 C 130,10 50,40 40,120 C 30,200 120,250 80,350\" fill=\"none\" stroke=\"url(#h1)\" stroke-width=\"30\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"170,180 215,145 195,140\" fill=\"none\" stroke=\"#00f3ff\"/> <polygon points=\"160,250 215,235 220,265\" fill=\"none\" stroke=\"#00f3ff\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"195\" cy=\"142\" r=\"3.5\" fill=\"#ff00a0\" filter=\"url(#glow)\"/> <circle cx=\"195\" cy=\"142\" r=\"1.5\" fill=\"#fff\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"0\" width=\"1.5\" height=\"12\" fill=\"#ff00a0\"/> <rect x=\"3\" y=\"0\" width=\"1\" height=\"12\" fill=\"#ff00a0\"/> <rect x=\"5.5\" y=\"0\" width=\"2.5\" height=\"12\" fill=\"#ff00a0\"/> <rect x=\"10\" y=\"0\" width=\"1\" height=\"12\" fill=\"#ff00a0\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"170\" cy=\"290\" r=\"5\" fill=\"#ff00a0\" filter=\"url(#glow)\"/> <circle cx=\"170\" cy=\"290\" r=\"12\" fill=\"none\" stroke=\"#00f3ff\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "Combinación de faceGlow, polígonos wireframe, ojo robótico y texto SYS.ENT.749/UNREAL_ENTITY sobre fondo oscuro"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<filter id=\"glow\" x=\"-50%\" y=\"-50%\" width=\"200%\" height=\"200%\"><feGaussianBlur stdDeviation=\"3\" result=\"blur\"/><feMerge><feMergeNode in=\"blur\"/><feMergeNode in=\"SourceGraphic\"/></feMerge></filter>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"strokeGrad\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0%\" stop-color=\"#00f3ff\"/><stop offset=\"50%\" stop-color=\"#ff00a0\"/><stop offset=\"100%\" stop-color=\"#7000ff\"/></linearGradient>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "Figura principal con <path d=\"M 150,50 C 200,50 220,80...\" fill=\"url(#faceGlow)\" stroke=\"url(#strokeGrad)\"/> con ojo, polígonos y texto identificatorio"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bgGlow\"><stop offset=\"0%\" stop-color=\"#140a28\"/><stop offset=\"100%\" stop-color=\"#05020a\"/></radialGradient> <rect width=\"400\" height=\"400\" fill=\"url(#bgGlow)\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<pattern id=\"grid\" width=\"20\" height=\"20\" patternUnits=\"userSpaceOnUse\"><path d=\"M 20 0 L 0 0 0 20\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"0.5\" opacity=\"0.05\"/></pattern> <rect width=\"400\" height=\"400\" fill=\"url(#grid)\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "stroke=\"#00f3ff\" (cian), fill=\"#ff00a0\" (magenta), fill=\"#7000ff\" (violeta) usados en múltiples elementos"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "Combinación de colores #00f3ff, #ff00a0, #7000ff con filter glow sobre fondo oscuro #140a28/#05020a"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 150,50 C 200,50 220,80 225,120 C 225,130 220,140 215,145 C 235,160 250,180 255,195...\" fill=\"url(#faceGlow)\"/> perfil asimétrico con curvas irregulares"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"170,180 215,145 195,140\"/> <polygon points=\"170,180 195,140 150,120\"/> <polygon points=\"170,180 180,210 230,202\"/> etc."
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"195\" cy=\"142\" r=\"3.5\" fill=\"#ff00a0\" filter=\"url(#glow)\"/> <circle cx=\"195\" cy=\"142\" r=\"1.5\" fill=\"#fff\"/> — único ojo en la figura"
+    },
+    {
+      "id": "a20",
+      "valor": "no_esta",
+      "evidencia": "El grupo de barras está en <g transform=\"translate(195, 175) rotate(-20)\"> cerca de la boca/nariz, no de la mandíbula explícitamente, pero la afirmación dice 'cerca de la mandíbula' siendo la posición y=175-187 más central-nasal"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 180,60 C 130,10 50,40 40,120...\" stroke-width=\"30\" stroke-linecap=\"round\"/> múltiples paths gruesos y curvos en la zona superior de la figura"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 210,90 C 180,30 80,60 70,160...\" fill=\"none\" stroke=\"url(#h2)\" stroke-width=\"25\" stroke-linecap=\"round\"/> curvas fluidas que recuerdan cables o energía"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"180\" fill=\"none\" stroke=\"#ff00a0\" stroke-width=\"1\" opacity=\"0.2\" stroke-dasharray=\"1 5\"/> <circle cx=\"200\" cy=\"200\" r=\"170\" fill=\"none\" stroke=\"#00f3ff\"/> <circle cx=\"200\" cy=\"200\" r=\"160\" fill=\"none\" stroke=\"#7000ff\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<text x=\"340\" y=\"380\" fill=\"#ff00a0\" font-family=\"monospace\" font-size=\"10\" opacity=\"0.7\" transform=\"rotate(-90 340 380)\">UNREAL_ENTITY</text>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "Texto SYS.ENT.749, UNREAL_ENTITY, ojo robótico, polígonos wireframe y nodos apuntan a un sistema artificial"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "Figura semi-transparente con faceGlow oscuro, polígonos tenues y colores fantasmales sobre fondo negro"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "Figura identificada como SYS.ENT.749 / UNREAL_ENTITY con geometría computacional, ojo robótico y estética de datos"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<text x=\"340\" y=\"380\" fill=\"#ff00a0\" font-family=\"monospace\" font-size=\"10\" opacity=\"0.7\" transform=\"rotate(-90 340 380)\">UNREAL_ENTITY</text>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "Figura compuesta por paths geométricos, polígonos wireframe, gradientes y nodos; sin formas anatómicas convencionales"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"170,180 215,145 195,140\"/> y nodos como <circle cx=\"170\" cy=\"290\" r=\"5\" fill=\"#ff00a0\"/> conectados por líneas"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bgGlow\"><stop offset=\"0%\" stop-color=\"#140a28\"/><stop offset=\"100%\" stop-color=\"#05020a\"/></radialGradient>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "stroke=\"#00f3ff\", fill=\"#ff00a0\", fill=\"#7000ff\" en múltiples elementos con filter glow"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "Combinación de colores neón saturados, fondo oscuro, geometría cyberpunk, texto monospace y estética synthwave general"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"320\" cy=\"200\" r=\"40\" stroke=\"#00f3ff\"/> con crosshair, texto rotado tipo HUD, anillos y polígonos superpuestos"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"170,180 215,145 195,140\" fill=\"none\" stroke=\"#00f3ff\" stroke-width=\"0.5\" opacity=\"0.4\"/> múltiples polígonos wireframe sin relleno"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "filter=\"url(#glow)\" con feGaussianBlur sobre elementos #00f3ff, #ff00a0, #7000ff sobre fondo #05020a/#140a28"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "Combinación de neón, wireframe, HUD, texto monospace, gradientes y paleta cian/magenta/violeta sobre fondo oscuro"
+    }
+  ]
+}

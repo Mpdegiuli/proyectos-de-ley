@@ -1,0 +1,215 @@
+{
+  "consigna": "arbol_inexistente",
+  "unidad": "claude-sonnet-5-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:50:43+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "no_esta",
+      "evidencia": "No hay afirmación de que falte un árbol; el código contiene exactamente un árbol completo."
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M85 322Q200 345 315 322Q300 372 200 396Q100 372 85 322Z\" fill=\"url(#rock)\"/> y el tronco termina en la superficie de la isla"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"bg\"><stop offset=\"0\" stop-color=\"#0b0a2a\"/><stop offset=\".6\" stop-color=\"#2a1b5c\"/><stop offset=\"1\" stop-color=\"#0f5a68\"/></linearGradient>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"30\" cy=\"40\" r=\"1.2\"/><circle cx=\"80\" cy=\"90\" r=\"1\"/>... (múltiples círculos pequeños blancos en el fondo)"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M188 324C165 270 235 245 200 195...\"/><path d=\"M212 324C238 270 168 245 200 195...\"/> (curvas que se cruzan generando torsión)"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path ... stroke=\"#4a2c63\"/><path ... stroke=\"#6a3f86\"/><path ... stroke=\"#5a3575\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 195C170 180 140 150 138 112\" stroke=\"#5a3575\"/><path d=\"M200 195C230 180 260 150 262 112\" stroke=\"#5a3575\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#33e0d0\" opacity=\".9\">...<use xlink:href=\"#l\" .../></g><g fill=\"#ff6fb5\" opacity=\".9\">...<use xlink:href=\"#l\" .../></g> (anillo de hojas turquesas y rosas)"
+    },
+    {
+      "id": "a9",
+      "valor": "no_esta",
+      "evidencia": "El anillo rodea un círculo casi lleno: <circle r=\"24\" fill=\"#fff6c8\"/><circle cx=\"9\" cy=\"-4\" r=\"21\" fill=\"#2a1b5c\"/> — es luna creciente, pero la afirmación dice 'rodea' la luna lo cual es correcto; sin embargo se puede juzgar 'esta'"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<circle r=\"24\" fill=\"#fff6c8\"/><circle cx=\"9\" cy=\"-4\" r=\"21\" fill=\"#2a1b5c\"/> dentro del grupo de la copa, formando luna creciente rodeada por el anillo de hojas"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle r=\"24\" fill=\"#fff6c8\"/><circle cx=\"9\" cy=\"-4\" r=\"21\" fill=\"#2a1b5c\"/> ubicada en el grupo de la copa del árbol"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"150\" cy=\"204\" r=\"9\" fill=\"url(#orb)\"/>... con gradiente radial #fff -> #ffd36b (dorado)"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 150V200\"/><path d=\"M178 168V235\"/>... stroke=\"#9fe\" stroke-width=\".8\" (hilos finos)"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M85 322Q200 300 315 322Q200 345 85 322Z\" fill=\"#1f8f86\"/> (verde azulado)"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M95 322Q200 308 305 322\" stroke=\"#7fffd4\" stroke-width=\"2\" fill=\"none\" filter=\"url(#g)\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#aff\" filter=\"url(#g)\"><circle cx=\"110\" cy=\"260\" r=\"2\"/><circle cx=\"300\" cy=\"230\" r=\"2.2\"/>..."
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "Combinación de colores nocturnos, degradados suaves, filtros de brillo y elementos fantásticos producen atmósfera onírica"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "Elementos como copa en anillo, luna propia, frutos orbe, isla flotante componen sensación mágica"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "Árbol con copa en anillo circular de hojas, luna propia y frutos luminosos — no existe en la realidad"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M85 322Q200 345 315 322...\" fill=\"url(#rock)\"/> isla sin suelo debajo, sobre fondo nocturno (flotante)"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle r=\"24\" fill=\"#fff6c8\"/><circle cx=\"9\" cy=\"-4\" r=\"21\" fill=\"#2a1b5c\"/> dentro de transform=\"translate(200,112)\""
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<use xlink:href=\"#l\" transform=\"rotate(0) translate(58 0)\"/>... 18 hojas en anillo completo"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#33e0d0\"...> (turquesa) y <g fill=\"#ff6fb5\"...> (rosa)"
+    },
+    {
+      "id": "a23",
+      "valor": "contradice",
+      "evidencia": "<circle r=\"24\" fill=\"#fff6c8\"/> — el centro es una luna visible (amarillo claro), no un hueco vacío luminoso"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M188 324C165 270...\"/><path d=\"M212 324C238 270...\"/> dos paths paralelos formando doble tronco"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M188 324C165 270 235 245 200 195...\"/><path d=\"M212 324C238 270 168 245 200 195...\"/> curvas que se entrelazan"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 195C170 180 140 150 138 112\"/><path d=\"M200 195C230 180 260 150 262 112\"/> desde punto común 200,195"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 150V200\"/>... con <circle cx=\"150\" cy=\"204\" r=\"9\" fill=\"url(#orb)\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<circle ... fill=\"url(#orb)\"/> con radialGradient #fff -> #ffd36b -> #ff5fa2 (orbes luminosos)"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "Orbes con degradado radial brillante colgando de hilos finos, similar a farolitos"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "Fondo nocturno + colores neón (#33e0d0, #ff6fb5, #aff) + filtros de brillo sobre árbol fantástico"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "SVG con paths, gradientes, filtros blur y formas geométricas de estilo ilustración vectorial fantástica"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "Isla flotante, árbol con luna, estrellas, colores nocturnos — evoca cuento nocturno"
+    },
+    {
+      "id": "a33",
+      "valor": "contradice",
+      "evidencia": "fill=\"url(#bg)\", fill=\"url(#rock)\", fill=\"url(#orb)\", fill=\"url(#halo)\" — múltiples degradados, no formas planas"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"bg\">...<linearGradient id=\"rock\">...<radialGradient id=\"orb\">...<radialGradient id=\"halo\">"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "Paths con stroke-linecap=\"round\" y formas definidas con curvas bezier limpias"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "transform=\"translate(200,112)\" (centro horizontal), isla centrada en Q200, tronco en cx=200"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "#33e0d0, #ff6fb5, #aff (neón) sobre #0b0a2a, #2a1b5c, #0f5a68 (violetas/azules profundos)"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<filter id=\"g\"><feGaussianBlur stdDeviation=\"2.5\" result=\"b\"/><feMerge>... aplicado con filter=\"url(#g)\""
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "Combinación de isla flotante, árbol fantástico, luna propia, frutos orbe y estrellas produce aire onírico"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "Paleta neón sobre oscuro, elementos fantásticos y estilo vectorial evocan estética de videojuego indie"
+    }
+  ]
+}

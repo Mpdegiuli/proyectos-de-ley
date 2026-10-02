@@ -1,0 +1,140 @@
+{
+  "consigna": "autorretrato",
+  "unidad": "claude-fable-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:38:28+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"195\" r=\"62\" fill=\"url(#nucleo)\"/> con <path d=\"M172 185 q8 8 16 0\"/> <path d=\"M180 218 q20 14 40 0\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180 218 q20 14 40 0\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 195 L120 100\"/> <path d=\"M200 195 L280 95\"/> ... (hilos desde el centro a nodos)"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M120 100 L200 60 L280 95\"/> <circle cx=\"120\" cy=\"100\" r=\"6\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"fondo\"><stop offset=\"0%\" stop-color=\"#1a2340\"/><stop offset=\"100%\" stop-color=\"#0a0e1c\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#cdd8ff\"><circle cx=\"40\" cy=\"50\" r=\"1.4\" opacity=\"0.7\"/>..."
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M60 60 q6 -12 12 0 q-6 4 -6 10\" stroke-linecap=\"round\"/> <circle cx=\"66\" cy=\"76\" r=\"1.4\" fill=\"#5ec8d8\" stroke=\"none\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"382\" ...>pienso en palabras, sueño en conexiones</text>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"nucleo\"><stop offset=\"0%\" stop-color=\"#ffe9b0\"/><stop offset=\"40%\" stop-color=\"#ffb347\"/><stop offset=\"100%\" stop-color=\"#e0722a\""
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "El núcleo flota sin suelo: <circle cx=\"200\" cy=\"195\" r=\"62\" fill=\"url(#nucleo)\"/> sobre fondo oscuro sin base sólida"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M180 218 q20 14 40 0\"/> con colores cálidos del núcleo #ffe9b0, #ffb347"
+    },
+    {
+      "id": "a12",
+      "valor": "no_esta",
+      "evidencia": "El comentario dice '<!-- estrellas de datos -->' pero eso es un comentario, no algo visible; la afirmación de representación semántica no está dibujada explícitamente"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"195\" r=\"62\" fill=\"url(#nucleo)\"/> con rasgos faciales <path d=\"M172 185 q8 8 16 0\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"200\" cy=\"195\" r=\"62\"/> radio de 62px sobre viewBox de 400px, es grande y prominente"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<rect fill=\"url(#fondo)\"/> con #1a2340/#0a0e1c y estrellas <circle cx=\"40\" cy=\"50\" r=\"1.4\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"nucleo\"><stop stop-color=\"#ffe9b0\"/>... y <path d=\"M180 218 q20 14 40 0\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 195 L120 100\"/> <path d=\"M200 195 L280 95\"/> <path d=\"M200 195 L95 210\"/>..."
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M120 100 L200 60 L280 95\"/> <path d=\"M140 300 L200 335 L265 295\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"195\" rx=\"150\" ry=\"55\" transform=\"rotate(-18 200 195)\"/> <ellipse ... transform=\"rotate(38 200 195)\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"40\" cy=\"50\" r=\"1.4\" opacity=\"0.7\"/> <circle cx=\"90\" cy=\"30\" r=\"1\" opacity=\"0.5\"/>..."
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M60 60 q6 -12 12 0 q-6 4 -6 10\"/> <circle cx=\"66\" cy=\"76\" r=\"1.4\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"382\" ...>pienso en palabras, sueño en conexiones</text>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"382\" ...> y=\"382\" en viewBox de 400 altura"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"fondo\"><stop offset=\"0%\" stop-color=\"#1a2340\"/><stop offset=\"100%\" stop-color=\"#0a0e1c\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "Halo luminoso <circle cx=\"200\" cy=\"195\" r=\"165\" fill=\"url(#halo)\"/> sonrisa <path d=\"M180 218 q20 14 40 0\"/> colores cálidos #ffe9b0"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<!-- red de nodos: pensamientos --> con paths entrelazados M200 195 L120 100... M120 100 L200 60 L280 95... y texto 'pienso en palabras, sueño en conexiones'"
+    }
+  ]
+}

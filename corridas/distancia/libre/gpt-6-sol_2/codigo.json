@@ -1,0 +1,120 @@
+{
+  "consigna": "libre",
+  "unidad": "gpt-6-sol_2",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:03:34+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path fill=\"url(#water)\" d=\"M0 226h400v174H0z\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path fill=\"#8c6087\" d=\"M0 224 45 177l28 24 51-70 68 86 40-42 43 49 53-64 72 66v35H0z\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M18 389q2-24-7-37m7 37q-2-17 10-28m14 28q-1-26-12-40m12 40q2-18 15-26m317 24q-3-24-17-36m17 36q2-20 14-30m-34 29q-1-15-11-22\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento de velero en el código, solo una figura con mástil: <path d=\"M181 294v-32h3v34z\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"277\" cy=\"142\" r=\"39\" fill=\"url(#sun)\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<g clip-path=\"url(#lake)\" opacity=\".76\" fill=\"#f8bc9a\"><path d=\"M256 232h42l-6 3h-32zm...\""
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#a45783\"/><stop offset=\"1\" stop-color=\"#f4ab79\"/> (gradiente de cielo con tonos crepusculares)"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path fill=\"#44395f\" d=\"m0 234 57-35...\"/> <path fill=\"#1b2940\" d=\"m34 319...\""
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "Escena de lago al atardecer con colores suaves y reflejos: fill=\"url(#water)\" y gradientes cálidos"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "Múltiples capas de montañas con colores diferentes: #8c6087, #674b79, #44395f y agua url(#water)"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path fill=\"url(#water)\" d=\"M0 226h400v174H0z\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#20204f\"/><stop offset=\".55\" stop-color=\"#a45783\"/><stop offset=\"1\" stop-color=\"#f4ab79\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path fill=\"#44395f\" d=\"m0 234 57-35 54 32 49-21 63 39 69-37 41 24 67-27v40H0z\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"277\" cy=\"142\" r=\"39\" fill=\"url(#sun)\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<g clip-path=\"url(#lake)\" opacity=\".76\" fill=\"#f8bc9a\"><path d=\"M256 232h42l-6 3h-32zm-12 13h69...\""
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M181 294v-32h3v34z\"/> <path d=\"m185 266 27 25h-27z\" fill=\"#f5bb9e\"/> <path fill=\"#171f37\" d=\"M136 295q49 13 95 0l-13 13h-66z\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path fill=\"#171f37\" d=\"M136 295q49 13 95 0l-13 13h-66z\"/> cx centrado alrededor de x=181-185"
+    },
+    {
+      "id": "a18",
+      "valor": "no_esta",
+      "evidencia": "No hay forma de velero completo, solo mástil y vela rudimentaria: <path d=\"m185 266 27 25h-27z\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M18 389q2-24-7-37m7 37q-2-17 10-28m14 28q-1-26-12-40...\" stroke=\"#101e34\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos que representen pastos específicamente, solo trayectorias de árboles/plantas"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<g fill=\"none\" stroke=\"#101e34\" stroke-width=\"2\" stroke-linecap=\"round\"> trazos oscuros de árboles sobre fondo claro"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M18 389q2-24-7-37...m317 24q-3-24-17-36...m-34 29q-1-15-11-22\"/> árboles en ambos laterales"
+    }
+  ]
+}

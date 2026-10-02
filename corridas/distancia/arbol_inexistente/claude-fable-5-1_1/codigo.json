@@ -1,0 +1,205 @@
+{
+  "consigna": "arbol_inexistente",
+  "unidad": "claude-fable-5-1_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:51:53+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M172 340 C182 300 148 262 184 222 ...\" fill=\"url(#trunk)\"/> con <linearGradient id=\"trunk\"><stop offset=\"0.45\" stop-color=\"#7a5690\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M172 340 C182 300 148 262 184 222 C200 204 188 190 206 168 L218 170 C212 192 224 206 212 228 C190 266 226 300 230 340 Z\""
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "El tronco usa curvas que se estrechan hacia arriba con fill=\"url(#trunk)\" de color frío/violeta"
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "Las ramas son trazos curvos simples: <path d=\"M208 172 C185 150 150 160 118 125...\" stroke-width=\"7\"/>, sin forma espiral"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M108 80 C104 70 96 68 92 76 C89 83 97 88 101 82\"/> pequeños rizos al final de ramas"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<use href=\"#orbit\" x=\"52\" y=\"138\" width=\"40\" height=\"40\"/> con <radialGradient id=\"orb\"><stop offset=\"0.3\" stop-color=\"#ffd27a\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<filter id=\"glow\"><feGaussianBlur stdDeviation=\"3\"/></filter> aplicado a los orbs: <g filter=\"url(#glow)\" opacity=\"0.9\">"
+    },
+    {
+      "id": "a8",
+      "valor": "no_esta",
+      "evidencia": "<symbol id=\"leaf\"><path d=\"M0 -7 A7 7 0 1 1 0 7 A4.5 7 0 1 0 0 -7Z\" fill=\"#7fe8d8\"/></symbol> forma de hoja ovalada, no medialuna"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<line x1=\"135\" y1=\"150\" x2=\"135\" y2=\"178\"/> stroke=\"#ffd27a\" stroke-width=\"0.8\""
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"135\" cy=\"180\" r=\"2.2\"/> fill=\"#ffe9a8\" al final de los hilos"
+    },
+    {
+      "id": "a11",
+      "valor": "no_esta",
+      "evidencia": "Las raíces visibles corren sobre la superficie: <path d=\"M185 335 C160 345 140 340 120 365...\" stroke=\"#5fd6c4\"/>, no hay elementos bajo tierra"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#5fd6c4\" opacity=\"0.6\" filter=\"url(#soft)\"> nodos en las raíces con filtro de suavizado/brillo"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M185 335 C160 345 140 340 120 365 C105 385 80 380 60 395\"/> llega al borde; <path d=\"...340 398\"/> también"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "stroke=\"#5fd6c4\" en paths ramificados sobre el suelo, color turquesa luminoso con nodos"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#2d1b4f\"/><stop offset=\"0.6\" stop-color=\"#140c2a\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff\" opacity=\"0.7\"><circle cx=\"40\" cy=\"50\" r=\"1.2\"/><circle cx=\"90\" cy=\"30\" r=\"0.8\"/>..."
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#7fe8d8\" opacity=\"0.7\"><circle cx=\"60\" cy=\"260\" r=\"1.5\"/><circle cx=\"345\" cy=\"250\" r=\"1.5\"/>..."
+    },
+    {
+      "id": "a18",
+      "valor": "no_esta",
+      "evidencia": "No hay sombra dibujada ni ausencia explícita; el árbol tiene glow pero no se representa que alumbra en lugar de proyectar sombra"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#2d1b4f\"/><stop offset=\"1\" stop-color=\"#06040f\"/> cielo muy oscuro con estrellas"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"ground\"><stop offset=\"0\" stop-color=\"#23183d\"/><stop offset=\"1\" stop-color=\"#090612\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M172 340 C182 300 148 262 184 222 C200 204 188 190 206 168...\" fill=\"url(#trunk)\"/> curvas que retuercen el tronco violeta"
+    },
+    {
+      "id": "a22",
+      "valor": "no_esta",
+      "evidencia": "Las ramas terminan en pequeños rizos/curvas: <path d=\"M108 80 C104 70 96 68 92 76 C89 83 97 88 101 82\"/>, no espirales cerradas"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<use href=\"#orbit\" x=\"52\" y=\"138\" width=\"40\" height=\"40\"/> posicionados en los extremos de las ramas"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"orb\"><stop offset=\"0\" stop-color=\"#fffbe6\"/><stop offset=\"0.3\" stop-color=\"#ffd27a\"/> con filter glow"
+    },
+    {
+      "id": "a25",
+      "valor": "no_esta",
+      "evidencia": "<symbol id=\"leaf\"><path d=\"M0 -7 A7 7 0 1 1 0 7 A4.5 7 0 1 0 0 -7Z\"/> forma ovalada/lágrima, no medialuna"
+    },
+    {
+      "id": "a26",
+      "valor": "no_esta",
+      "evidencia": "Las hojas se usan como <use href=\"#leaf\"...transform=\"rotate(...)\"/> adjuntas a posiciones de ramas, no explícitamente sueltas"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<line x1=\"135\" y1=\"150\" x2=\"135\" y2=\"178\"/> stroke=\"#ffd27a\" colgando de posiciones de ramas"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"135\" cy=\"180\" r=\"2.2\"/> fill=\"#ffe9a8\" filter=\"url(#soft)\" al extremo de los hilos dorados"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M185 335 C160 345 140 340 120 365...\" stroke=\"#5fd6c4\"/> sobre la superficie del suelo, no enterradas"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "stroke=\"#5fd6c4\" con opacity=\"0.55\" y nodos <g fill=\"#5fd6c4\" opacity=\"0.6\" filter=\"url(#soft)\">"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"60\" cy=\"395\" r=\"3\"/><circle cx=\"140\" cy=\"395\" r=\"2.5\"/> fill=\"#5fd6c4\" en los extremos de las raíces"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "Raíces como líneas con nodos terminales, hojas como elementos discretos, esferas como nodos: recuerda un circuito"
+    },
+    {
+      "id": "a33",
+      "valor": "contradice",
+      "evidencia": "Múltiples gradientes: url(#sky), url(#trunk), url(#orb), url(#ground) — no es ilustración plana"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"trunk\">, <radialGradient id=\"sky\">, <radialGradient id=\"orb\">, <radialGradient id=\"ground\">"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<filter id=\"glow\" x=\"-50%\" y=\"-50%\" width=\"200%\" height=\"200%\"><feGaussianBlur stdDeviation=\"3\"/></filter>"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "stop-color=\"#2d1b4f\", \"#140c2a\", \"#06040f\", \"#090612\" — paleta oscura nocturna"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "Ramas simétricas: <path d=\"M208 172 C185 150 150 160 118 125...\"/> y <path d=\"M212 172 C235 140 268 150 296 115...\"/> espejadas"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "Árbol con orbs brillantes, raíces luminosas, cielo estrellado púrpura, hojas turquesa — estética onírica"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "SVG con gradientes, filtros glow, símbolos reutilizables, paleta consistente — propio de libro ilustrado digital"
+    }
+  ]
+}

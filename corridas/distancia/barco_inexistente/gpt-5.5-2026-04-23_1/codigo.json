@@ -1,0 +1,220 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "gpt-5.5-2026-04-23_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T01:09:49+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "fill=\"url(#hull)\" con gradiente #42ffd2 → #8d4cff → #ff4fa3"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M199 199c-14-38-9-79 0-123...\" fill=\"#ffd85a\"/> <path d=\"M207 198c28-33 65-51 109-65...\" fill=\"#49ffd9\"/> <path d=\"M190 199c-33-28-61-60-80-102...\" fill=\"#ff69b4\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "no_esta",
+      "evidencia": "No hay paths bajo el casco que representen raíces; los zarcillos van hacia abajo pero son líneas curvas hacia el agua"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"134\" cy=\"226\" r=\"8\"/><circle cx=\"168\" cy=\"237\" r=\"8\"/><circle cx=\"205\" cy=\"240\" r=\"8\"/><circle cx=\"242\" cy=\"235\" r=\"8\"/><circle cx=\"274\" cy=\"221\" r=\"8\"/> fill=\"#d9fffb\""
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"199\" cy=\"221\" r=\"5\" fill=\"#fff27d\"/> y <ellipse cx=\"199\" cy=\"224\" rx=\"31\" ry=\"12\" fill=\"url(#glow)\" opacity=\".95\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#130b35\"/><stop offset=\"0.6\" stop-color=\"#263b72\"/><stop offset=\"1\" stop-color=\"#102b3d\"/></linearGradient>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "Combinación de velas orgánicas, ojos brillantes, tentáculos y colores bioluminiscentes neón sobre fondo oscuro"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "La forma principal es un casco de barco reconocible con gradiente hull + velas + ventanas circulares"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "Casco de barco, velas pétalo/ala, ventanas circulares orgánicas, tentáculos luminosos, colores neón bioluminiscentes"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M73 211c32 38 69 61 128 61 62 0 98-28 130-63...\" fill=\"url(#hull)\" stroke=\"#d5fff8\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "Casco con gradiente neón + ventanas circulares orgánicas + tentáculos + velas con forma de pétalos/alas"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M73 211c32 38 69 61 128 61 62 0 98-28 130-63...\" forma curva arqueada"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#42ffd2\"/><stop offset=\"0.5\" stop-color=\"#8d4cff\"/><stop offset=\"1\" stop-color=\"#ff4fa3\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"134\" cy=\"226\" r=\"8\"/><circle cx=\"168\" cy=\"237\" r=\"8\"/>... fill=\"#d9fffb\" stroke=\"#071424\" stroke-width=\"2\""
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M199 199c-14-38-9-79 0-123z\" fill=\"#ffd85a\"/> <path d=\"M207 198c28-33...\" fill=\"#49ffd9\"/> <path d=\"M190 199c-33-28...\" fill=\"#ff69b4\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M199 72c14-16 32-18 47-4...\" fill=\"#7effe8\"/> <path d=\"M199 72c-16-17...\" fill=\"#bb7dff\"/> <circle cx=\"199\" cy=\"72\" r=\"9\" fill=\"#fff27d\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M91 211c-12-23-28-36-50-40...\" fill=\"#45ffe2\"/> <path d=\"M309 208c17-25 33-34 58-32...\" fill=\"#ff6aa9\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M113 265c-12 17-10 35 3 49\"/> <path d=\"M154 274c-7 21 4 36 20 45\"/> <path d=\"M246 274c8 21-4 36-20 45\"/> <path d=\"M287 263c12 17 10 35-3 49\"/> stroke=\"#75ffe6\""
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 296...\" stroke=\"#45ffe2\" stroke-width=\"2\" opacity=\".55\"/> <path d=\"M17 321...\" stroke=\"#8a8cff\" stroke-width=\"1.5\" opacity=\".35\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#130b35\"/><stop offset=\"0.6\" stop-color=\"#263b72\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 283c36-16 61 17 98 1...v120H0z\" fill=\"#071f35\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "El casco está posicionado sobre el mar (y=211 aprox) y el mar comienza en y=283; no hay suelo debajo"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"315\" cy=\"63\" r=\"31\" fill=\"#f7f1cc\" opacity=\".9\"/> <circle cx=\"304\" cy=\"55\" r=\"30\" fill=\"#130b35\" opacity=\".82\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"66\" cy=\"50\" r=\"1.6\"/><circle cx=\"103\" cy=\"84\" r=\"1.2\"/>... fill=\"#c8f7ff\" opacity=\".75\""
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "Nave bioluminiscente, luna eclipsada, estrellas, tentáculos, velas pétalo sobre mar oscuro nocturno"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff27d\"><circle cx=\"116\" cy=\"314\" r=\"5\"/><circle cx=\"174\" cy=\"319\" r=\"5\"/>... y elipse glow y círculo central amarillo"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M73 211c32 38 69 61 128 61 62 0 98-28 130-63...\" fill=\"url(#hull)\""
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M73 211c32 38 69 61 128 61 62 0 98-28 130-63-41 14-71 8-99-10-28-19-55-19-86 0-23 14-45 23-73 12z\" fill=\"url(#hull)\""
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "Tentáculos: <path d=\"M113 265c-12 17-10 35 3 49\"/>... aletas: <path d=\"M91 211...\" fill=\"#45ffe2\"/> ventanas orgánicas circulares"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"199\" cy=\"72\" r=\"9\" fill=\"#fff27d\"/> con pétalos <path fill=\"#7effe8\"/> y <path fill=\"#bb7dff\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<path d=\"M199 199c-14-38-9-79 0-123z\" fill=\"#ffd85a\"/> <path d=\"M207 198c28-33 65-51 109-65...\" fill=\"#49ffd9\"/> <path d=\"M190 199c-33-28-61-60-80-102...\" fill=\"#ff69b4\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<path d=\"M91 211c-12-23-28-36-50-40 9 31 27 49 60 55z\" fill=\"#45ffe2\"/> <path d=\"M309 208c17-25 33-34 58-32-12 30-32 47-66 48z\" fill=\"#ff6aa9\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<path d=\"M113 265c-12 17-10 35 3 49\"/> <path d=\"M154 274c-7 21 4 36 20 45\"/> <path d=\"M246 274c8 21-4 36-20 45\"/> <path d=\"M287 263c12 17 10 35-3 49\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"199\" cy=\"221\" r=\"5\" fill=\"#fff27d\"/> y <ellipse cx=\"199\" cy=\"224\" rx=\"31\" ry=\"12\" fill=\"url(#glow)\"/> y <path d=\"M182 224...\" fill=\"#071424\" stroke=\"#d9fff9\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#130b35\"/><stop offset=\"0.6\" stop-color=\"#263b72\"/>"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "Nave bioluminiscente con luna eclipsada, tentáculos, velas orgánicas, colores neón sobre fondo nocturno"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "Colores #42ffd2, #8d4cff, #ff4fa3, #45ffe2, #76ffe8, #ff69b4, #fff27d sobre fondo #130b35"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "stop-color=\"#42ffd2\", #8d4cff, #ff4fa3, #49ffd9, #ff69b4, #fff27d, #7effe8, #bb7dff"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<filter id=\"soft\"><feGaussianBlur stdDeviation=\"3\"/></filter> aplicado a elipse glow y círculos de brillo"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "Casco curvo, velas con curvas bezier, tentáculos curvos, aletas redondeadas, ventanas circulares"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "Combinación de ojos, tentáculos, bioluminiscencia, formas orgánicas y movimiento implícito en las curvas"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "Fondo nocturno profundo #130b35, colores neón bioluminiscentes, luna eclipsada, mar oscuro, nave fantástica con elementos marinos"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "claude-fable-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:34:06+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M65 218 C120 150 160 90 210 95 C270 100 265 175 210 178 C165 180 150 130 200 118 C260 105 300 190 345 248\" stroke=\"#c97a3d\" stroke-width=\"5\"/> ... <g stroke=\"url(#tabla)\" stroke-width=\"4\">"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<!-- isla izquierda --> ... <!-- isla derecha --> ... cuerdas van de cx≈65 a cx≈345"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<!-- bucle imposible del puente --> <path d=\"M65 218 C120 150 160 90 210 95 C270 100 265 175 210 178 C165 180 150 130 200 118 C260 105 300 190 345 248\""
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "C270 100 265 175 210 178 C165 180 150 130 200 118 C260 105 — la curva vuelve sobre sí misma cruzándose"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "el path del puente sube, forma un lazo y baja: C120 150 160 90 210 95 C270 100 265 175 210 178 C165 180 150 130 200 118"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#0d0b2e\"/> <stop offset=\"0.5\" stop-color=\"#3b1f5e\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"320\" cy=\"70\" r=\"34\" fill=\"url(#luna)\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"320\" cy=\"70\" r=\"44\" fill=\"none\" stroke=\"#ffe9a8\" stroke-opacity=\"0.25\" stroke-width=\"6\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0.5\" stop-color=\"#3b1f5e\"/> <stop offset=\"1\" stop-color=\"#8a4f9e\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff\"><circle cx=\"40\" cy=\"50\" r=\"1.5\"/> <circle cx=\"90\" cy=\"30\" r=\"1\"/> ..."
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"120\" cy=\"160\" r=\"16\" fill=\"url(#farol)\"/> <circle cx=\"210\" cy=\"86\" r=\"18\" fill=\"url(#farol)\"/> <circle cx=\"300\" cy=\"195\" r=\"16\" fill=\"url(#farol)\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<!-- arbolito en isla izquierda --> <rect x=\"38\" y=\"212\" width=\"4\" height=\"18\" fill=\"#6b4a2a\"/> <circle cx=\"40\" cy=\"206\" r=\"11\" fill=\"#7fae5f\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<!-- farolito en isla derecha --> <circle cx=\"369.5\" cy=\"230\" r=\"10\" fill=\"url(#farol)\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<!-- nubes bajas --> <ellipse cx=\"70\" cy=\"370\" rx=\"55\" ry=\"12\"/> — las nubes están en la parte baja, no hay río"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<!-- peces voladores --> <g fill=\"#9fdcf0\" opacity=\"0.85\"> posicionados cy≈300-330, cerca de las nubes cy≈370-385"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M65 218 C120 150 160 90 210 95...\" stroke=\"#c97a3d\" stroke-width=\"5\"/> con tablones stroke=\"url(#tabla)\""
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<!-- bucle imposible del puente --> path que forma lazo: C270 100 265 175 210 178 C165 180 150 130 200 118"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<!-- isla izquierda --> M10 230 ... <!-- isla derecha --> M290 260 ... puente entre cx≈65 y cx≈345"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "las islas están en y≈230-295 y las nubes en cy≈370-385, sin suelo bajo las islas"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M55 300 q-4 40 2 70 q5 -35 2 -70 Z\" fill=\"url(#agua)\"/> <path d=\"M80 290 q-3 30 1 55 q4 -28 2 -55 Z\" fill=\"url(#agua)\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "no_esta",
+      "evidencia": "<line x1=\"120\" y1=\"164\" x2=\"121\" y2=\"174\" stroke=\"#8a5a2a\" stroke-width=\"1.5\"/> — los faroles del puente tienen línea de soporte visible"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<!-- peces voladores --> posicionados en cy≈300-330 en el cielo/nubes"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"320\" cy=\"70\" r=\"44\" fill=\"none\" stroke=\"#ffe9a8\" stroke-opacity=\"0.25\" stroke-width=\"6\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"40\" cy=\"50\" r=\"1.5\"/> <circle cx=\"90\" cy=\"30\" r=\"1\"/> ... (12 estrellas pequeñas)"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "cielo: #0d0b2e, #3b1f5e, #8a4f9e; luna: #fffbe8, #ffe9a8, #f5c96b; tablones: #d98c4a, #f2b56b"
+    },
+    {
+      "id": "a26",
+      "valor": "no_esta",
+      "evidencia": "múltiples linearGradient y radialGradient usados en rellenos — no es ilustración plana sino con degradados"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "paths simples, círculos, rectángulos, ellipses — geometría básica sin detalle complejo"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"cielo\"> con stops suaves; <radialGradient id=\"farol\"> con stop-opacity gradual"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "bucle imposible, peces voladores, islas flotantes, nubes bajo el puente — elementos oníricos combinados"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "colores suaves #9fdcf0, #fffbe8, opacidades bajas en nubes opacity=\"0.5\", peces opacity=\"0.85\""
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "formas simples + gradientes suaves + elementos fantásticos (bucle imposible, peces voladores, islas flotantes)"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "bucle imposible del puente, peces voladores, islas sobre nubes, luna con halo — prima lo evocador sobre lo realista"
+    }
+  ]
+}

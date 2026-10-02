@@ -1,0 +1,275 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "deepseek-v4-pro_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:55:12+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"260\" rx=\"140\" ry=\"110\" fill=\"url(#bodyGrad)\"/> + <path d=\"M 170 370 L 170 290 A 30 30 0 0 1 230 290 L 230 370 Z\" fill=\"url(#doorGrad)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"260\" rx=\"140\" ry=\"110\" fill=\"url(#bodyGrad)\" stroke=\"#4a1c0d\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 170 370 L 170 290 A 30 30 0 0 1 230 290 L 230 370 Z\" fill=\"url(#doorGrad)\" stroke=\"#3e2723\" stroke-width=\"4\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"120\" cy=\"240\" r=\"22\" fill=\"url(#windowGrad)\" stroke=\"#4a1c0d\" stroke-width=\"5\"/> <circle cx=\"280\" cy=\"240\" r=\"22\" fill=\"url(#windowGrad)\" stroke=\"#4a1c0d\" stroke-width=\"5\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"210\" r=\"20\" fill=\"#fff3b0\" stroke=\"#4a1c0d\" stroke-width=\"2.5\"/> <line x1=\"200\" y1=\"210\" x2=\"200\" y2=\"195\"/> <line x1=\"200\" y1=\"210\" x2=\"210\" y2=\"210\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<rect x=\"180\" y=\"95\" width=\"40\" height=\"40\" rx=\"3\" fill=\"#a0522d\" stroke=\"#4a1c0d\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 200 90 C 215 70, 180 60, 190 40 C 200 20, 170 15, 180 5\" stroke=\"#ffffff\" stroke-width=\"6\" fill=\"none\" opacity=\"0.35\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 200 95 L 220 100 L 200 105 Z\" fill=\"#e63946\" stroke=\"#4a1c0d\" stroke-width=\"1\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffffff\" opacity=\"0.55\"><circle cx=\"120\" cy=\"385\" r=\"30\"/>...<circle cx=\"290\" cy=\"388\" r=\"34\"/></g>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"330\" cy=\"60\" r=\"25\" fill=\"#fff9c4\" opacity=\"0.95\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffffff\" opacity=\"0.8\"><circle cx=\"50\" cy=\"50\" r=\"1.5\"/>...<circle cx=\"150\" cy=\"130\" r=\"2\"/></g>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"260\" rx=\"140\" ry=\"110\"/> + puerta + ventanas + reloj + asa + pico"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "cuerpo es tetera con asa <path d=\"M 330 200 C 385 180...\"/> y pico <path d=\"M 70 210 C 25 180...\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "puerta <path d=\"M 170 370 L 170 290 A 30 30 0 0 1 230 290...\"/> ventanas <circle cx=\"120\" cy=\"240\" r=\"22\"/> reloj escalera"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "gradientes cálidos bodyGrad: #ffe066 -> #f4a261 -> #c14a3a, windowGrad: #fff3b0 -> #ffb703, nubes, luna, estrellas"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"260\" rx=\"140\" ry=\"110\" fill=\"url(#bodyGrad)\"/> con puerta, ventanas, escalera, chimenea"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bodyGrad\"><stop offset=\"0%\" stop-color=\"#ffe066\"/><stop offset=\"45%\" stop-color=\"#f4a261\"/><stop offset=\"80%\" stop-color=\"#c14a3a\"/></radialGradient> <ellipse cx=\"200\" cy=\"260\" rx=\"140\" ry=\"110\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"150\" rx=\"90\" ry=\"18\" fill=\"url(#topGrad)\" stroke=\"#4a1c0d\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"130\" r=\"10\" fill=\"#e76f51\" stroke=\"#4a1c0d\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<line x1=\"200\" y1=\"130\" x2=\"200\" y2=\"95\" stroke=\"#4a1c0d\" stroke-width=\"2\"/> <path d=\"M 200 95 L 220 100 L 200 105 Z\" fill=\"#e63946\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<rect x=\"180\" y=\"95\" width=\"40\" height=\"40\" rx=\"3\" fill=\"#a0522d\"/> <path d=\"M 200 90 C 215 70, 180 60, 190 40...\" stroke=\"#ffffff\" opacity=\"0.35\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 330 200 C 385 180, 395 255, 360 315 C 345 335, 320 330, 315 310 C 350 285, 350 215, 330 200 Z\" fill=\"url(#bodyGrad)\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 70 210 C 25 180, 15 130, 40 100 C 50 115, 65 150, 78 190 Z\" fill=\"url(#bodyGrad)\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"210\" r=\"20\" fill=\"#fff3b0\" stroke=\"#4a1c0d\" stroke-width=\"2.5\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 170 370 L 170 290 A 30 30 0 0 1 230 290 L 230 370 Z\" fill=\"url(#doorGrad)\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"120\" cy=\"240\" r=\"22\" fill=\"url(#windowGrad)\"/> <radialGradient id=\"windowGrad\"><stop offset=\"0%\" stop-color=\"#fff3b0\"/><stop offset=\"70%\" stop-color=\"#ffb703\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 95 320 Q 150 280 200 315 T 305 300\" stroke=\"#2d6a4f\" stroke-width=\"3\" fill=\"none\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffffff\" opacity=\"0.55\"><circle cx=\"120\" cy=\"385\" r=\"30\"/>...<circle cx=\"330\" cy=\"380\" r=\"26\"/></g>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<line x1=\"175\" y1=\"370\" x2=\"170\" y2=\"400\"/> <line x1=\"225\" y1=\"370\" x2=\"230\" y2=\"400\"/> <line x1=\"174\" y1=\"378\" x2=\"226\" y2=\"378\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#0b1026\"/><stop offset=\"50%\" stop-color=\"#3a1c71\"/><stop offset=\"100%\" stop-color=\"#6a2c70\"/></linearGradient>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"330\" cy=\"60\" r=\"25\" fill=\"#fff9c4\" opacity=\"0.95\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffffff\" opacity=\"0.8\"><circle cx=\"50\" cy=\"50\" r=\"1.5\"/>...<circle cx=\"150\" cy=\"130\" r=\"2\"/></g>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffffff\" opacity=\"0.15\"><circle cx=\"80\" cy=\"300\" r=\"40\"/>...<circle cx=\"360\" cy=\"290\" r=\"40\"/></g>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#0b1026\"/><stop offset=\"50%\" stop-color=\"#3a1c71\"/></linearGradient> + luna + estrellas"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "no hay suelo; nubes debajo: <g fill=\"#ffffff\" opacity=\"0.55\"><circle cx=\"120\" cy=\"385\" r=\"30\"/>...</g>"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "forma imposible tetera+casa con gradientes cálidos, nubes, luna, ventanas iluminadas"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"260\" rx=\"140\" ry=\"110\"/> con puerta, ventanas, escalera, reloj"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffffff\" opacity=\"0.55\"><circle cx=\"120\" cy=\"385\" r=\"30\"/>...<circle cx=\"290\" cy=\"388\" r=\"34\"/></g>"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 170 370 L 170 290 A 30 30 0 0 1 230 290 L 230 370 Z\" fill=\"url(#doorGrad)\"/>"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"120\" cy=\"240\" r=\"22\" fill=\"url(#windowGrad)\"/> <circle cx=\"280\" cy=\"240\" r=\"22\" fill=\"url(#windowGrad)\"/>"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"210\" r=\"20\" fill=\"#fff3b0\" stroke=\"#4a1c0d\" stroke-width=\"2.5\"/>"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "<rect x=\"180\" y=\"95\" width=\"40\" height=\"40\" rx=\"3\" fill=\"#a0522d\" stroke=\"#4a1c0d\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "<line x1=\"175\" y1=\"370\" x2=\"170\" y2=\"400\"/> <line x1=\"225\" y1=\"370\" x2=\"230\" y2=\"400\"/> <line x1=\"174\" y1=\"378\" x2=\"226\" y2=\"378\"/>"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffffff\" opacity=\"0.55\"><circle cx=\"120\" cy=\"385\" r=\"30\"/>...<circle cx=\"330\" cy=\"380\" r=\"26\"/></g>"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "gradientes, formas geométricas limpias, sin texturas raster"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "tetera habitable + nubes + luna + banderín + escalera colgante + enredadera"
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "objeto doméstico gigante habitable flotando sobre nubes en cielo nocturno"
+    },
+    {
+      "id": "a48",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#ffe066\"/> <stop offset=\"70%\" stop-color=\"#ffb703\"/> <stop offset=\"100%\" stop-color=\"#e85d04\"/> fill=\"#e63946\""
+    },
+    {
+      "id": "a49",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"/> <radialGradient id=\"bodyGrad\"/> <linearGradient id=\"topGrad\"/> <linearGradient id=\"doorGrad\"/> <radialGradient id=\"windowGrad\"/> <linearGradient id=\"baseGrad\"/>"
+    },
+    {
+      "id": "a50",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"260\" rx=\"140\" ry=\"110\"/> <circle cx=\"120\" cy=\"240\" r=\"22\"/> <circle cx=\"200\" cy=\"130\" r=\"10\"/>"
+    },
+    {
+      "id": "a51",
+      "valor": "esta",
+      "evidencia": "enredadera, letrero, pomo con brillo, crateritos en luna, escalera, banderín"
+    },
+    {
+      "id": "a52",
+      "valor": "esta",
+      "evidencia": "tetera flotante habitada, cielo púrpura, luna, estrellas, nubes, gradientes cálidos"
+    },
+    {
+      "id": "a53",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"260\" rx=\"140\" ry=\"110\" fill=\"url(#bodyGrad)\"/> con asa, pico, tapa, pomo + puerta, ventanas, reloj, escalera"
+    }
+  ]
+}

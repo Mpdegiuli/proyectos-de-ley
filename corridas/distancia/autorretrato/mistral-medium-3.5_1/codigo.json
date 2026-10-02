@@ -1,0 +1,155 @@
+{
+  "consigna": "autorretrato",
+  "unidad": "mistral-medium-3.5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:48:59+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"150\" r=\"80\" fill=\"#e0e0e0\" stroke=\"#333\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"170\" cy=\"130\" r=\"15\" fill=\"#333\"/> <circle cx=\"230\" cy=\"130\" r=\"15\" fill=\"#333\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos que representen cejas en el código"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M170 160 Q200 180 230 160\" stroke=\"#333\" stroke-width=\"2\" fill=\"none\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<rect x=\"180\" y=\"200\" width=\"40\" height=\"60\"/> líneas para brazos y piernas"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<rect x=\"180\" y=\"200\" width=\"40\" height=\"60\" rx=\"5\" fill=\"#333\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<line x1=\"180\" y1=\"220\" x2=\"120\" y2=\"180\"/> <line x1=\"220\" y1=\"220\" x2=\"280\" y2=\"180\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<line x1=\"180\" y1=\"260\" x2=\"120\" y2=\"300\"/> <line x1=\"220\" y1=\"260\" x2=\"280\" y2=\"300\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"100\" cy=\"100\" r=\"20\" fill=\"#ff9900\" opacity=\"0.7\"/> <circle cx=\"300\" cy=\"100\"/> <circle cx=\"100\" cy=\"300\"/> <circle cx=\"300\" cy=\"300\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "no_esta",
+      "evidencia": "No hay metadatos ni elementos que indiquen significado semántico de energía creativa"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "Formas simples: círculos, rect, líneas y paths básicos sin detalle complejo"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<circle> <rect> <line> <path> elementos geométricos simples y líneas directas"
+    },
+    {
+      "id": "a13",
+      "valor": "no_esta",
+      "evidencia": "Interpretación subjetiva no respaldada por atributos del código"
+    },
+    {
+      "id": "a14",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos textuales ni metadatos que indiquen asistente digital"
+    },
+    {
+      "id": "a15",
+      "valor": "no_esta",
+      "evidencia": "Interpretación subjetiva de universalidad no respaldada por el código"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"100\" cy=\"100\" r=\"20\" fill=\"#ff9900\" opacity=\"0.7\"/> círculos naranjas como único color distinto"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"150\" r=\"80\" fill=\"#e0e0e0\"/> color claro #e0e0e0"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"170\" cy=\"130\" r=\"15\" fill=\"#333\"/> <circle cx=\"230\" cy=\"130\" r=\"15\" fill=\"#333\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M170 160 Q200 180 230 160\" stroke=\"#333\" stroke-width=\"2\" fill=\"none\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<rect x=\"180\" y=\"200\" width=\"40\" height=\"60\" rx=\"5\" fill=\"#333\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<line x1=\"180\" y1=\"220\" x2=\"120\" y2=\"180\"/> <line x1=\"220\" y1=\"220\" x2=\"280\" y2=\"180\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "contradice",
+      "evidencia": "Las piernas son dos líneas divergentes hacia abajo, no forman X: <line x1=\"180\" y1=\"260\" x2=\"120\" y2=\"300\"/> <line x1=\"220\" y1=\"260\" x2=\"280\" y2=\"300\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "no_esta",
+      "evidencia": "Los círculos naranjas están en esquinas del canvas, no en los extremos de los brazos"
+    },
+    {
+      "id": "a24",
+      "valor": "no_esta",
+      "evidencia": "Los círculos naranjas están en esquinas del canvas, no en los extremos de las piernas"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#f0f0f0\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "no_esta",
+      "evidencia": "Los círculos naranjas están en esquinas fijas del canvas, no conectados a manos o pies"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "Formas simples: círculos, rect, líneas y paths básicos sin detalle complejo"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<circle> <rect> <line> todas formas geométricas puras"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#f0f0f0\"/> fondo claro contrasta con fill=\"#333\" de la silueta"
+    }
+  ]
+}

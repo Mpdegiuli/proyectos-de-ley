@@ -1,0 +1,190 @@
+{
+  "consigna": "persona_inexistente",
+  "unidad": "claude-opus-5-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:13:17+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 102 C250 102 272 140 270 195 C268 245 235 275 200 275 C165 275 132 245 130 195 C128 140 150 102 200 102Z\" fill=\"url(#skin)\"/> <stop offset=\"0\" stop-color=\"#c98a62\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#2b1a14\"><circle cx=\"200\" cy=\"130\" r=\"95\"/><circle cx=\"120\" cy=\"170\" r=\"50\"/>... (múltiples círculos oscuros grandes formando la melena)"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#2b1a14\"><circle cx=\"200\" cy=\"130\" r=\"95\"/><circle cx=\"120\" cy=\"170\" r=\"50\"/><circle cx=\"280\" cy=\"170\" r=\"50\"/>..."
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"110\" cy=\"230\" r=\"42\"/><circle cx=\"290\" cy=\"230\" r=\"42\"/><circle cx=\"125\" cy=\"280\" r=\"32\"/><circle cx=\"275\" cy=\"280\" r=\"32\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<rect x=\"147\" y=\"175\" width=\"46\" height=\"34\" rx=\"14\"/><rect x=\"207\" y=\"175\" width=\"46\" height=\"34\" rx=\"14\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "no_esta",
+      "evidencia": "<g fill=\"none\" stroke=\"#7a3b2e\" stroke-width=\"3.5\">"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 170 Q167 160 185 168\" stroke=\"#2b1a14\" stroke-width=\"5\" fill=\"none\"/><path d=\"M215 168 Q233 160 250 170\" stroke=\"#2b1a14\" stroke-width=\"5\" fill=\"none\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"172\" cy=\"192\" r=\"6\" fill=\"#4a2c1a\"/><circle cx=\"232\" cy=\"192\" r=\"6\" fill=\"#4a2c1a\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"174\" cy=\"190\" r=\"1.5\" fill=\"#fff\"/><circle cx=\"234\" cy=\"190\" r=\"1.5\" fill=\"#fff\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#8e5535\" opacity=\".7\"><circle cx=\"160\" cy=\"215\" r=\"1.6\"/><circle cx=\"167\" cy=\"220\" r=\"1.4\"/>...<circle cx=\"195\" cy=\"212\" r=\"1.2\"/><circle cx=\"206\" cy=\"213\" r=\"1.2\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"160\" cy=\"222\" rx=\"16\" ry=\"9\" fill=\"#d9725b\" opacity=\".35\"/><ellipse cx=\"240\" cy=\"222\" rx=\"16\" ry=\"9\" fill=\"#d9725b\" opacity=\".35\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"130\" cy=\"226\" r=\"5\" fill=\"#e8c14a\"/><circle cx=\"270\" cy=\"226\" r=\"5\" fill=\"#e8c14a\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "no_esta",
+      "evidencia": "No hay ningún elemento que represente un collar en el código."
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M40 400 Q50 320 140 300 L260 300 Q350 320 360 400Z\" fill=\"url(#sw)\"/> <stop offset=\"0\" stop-color=\"#2f6f73\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M178 244 Q200 262 222 244 Q200 252 178 244Z\" fill=\"#9c3d3a\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\" cx=\"50%\" cy=\"40%\" r=\"70%\"><stop offset=\"0\" stop-color=\"#fbe3c4\"/><stop offset=\"1\" stop-color=\"#e59a7a\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"330\" cy=\"70\" r=\"30\" fill=\"#fff\" opacity=\".25\"/><circle cx=\"60\" cy=\"120\" r=\"18\" fill=\"#fff\" opacity=\".2\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M178 244 Q200 262 222 244 Q200 252 178 244Z\" fill=\"#9c3d3a\"/> (boca pequeña y cerrada)"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "Combinación de rubor, ojos con brillo, sonrisa: <ellipse cx=\"160\" cy=\"222\" rx=\"16\" ry=\"9\" fill=\"#d9725b\" opacity=\".35\"/> <circle cx=\"174\" cy=\"190\" r=\"1.5\" fill=\"#fff\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 102 C250 102 272 140 270 195 C268 245 235 275 200 275 C165 275 132 245 130 195 C128 140 150 102 200 102Z\" fill=\"url(#skin)\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"130\" r=\"95\"/><circle cx=\"120\" cy=\"170\" r=\"50\"/><circle cx=\"280\" cy=\"170\" r=\"50\"/>... (melena de gran radio y múltiples círculos)"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<g fill=\"none\" stroke=\"#7a3b2e\" stroke-width=\"3.5\"><rect x=\"147\" y=\"175\" width=\"46\" height=\"34\" rx=\"14\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#8e5535\" opacity=\".7\"><circle cx=\"160\" cy=\"215\" r=\"1.6\"/><circle cx=\"195\" cy=\"212\" r=\"1.2\"/>..."
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"130\" cy=\"226\" r=\"5\" fill=\"#e8c14a\"/><circle cx=\"270\" cy=\"226\" r=\"5\" fill=\"#e8c14a\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M40 400 Q50 320 140 300 L260 300 Q350 320 360 400Z\" fill=\"url(#sw)\"/> <stop offset=\"0\" stop-color=\"#2f6f73\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 298 Q200 350 250 298 L262 306 Q200 370 138 306Z\" fill=\"#e8c14a\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M147 186 L134 182\"/><path d=\"M253 186 L266 182\"/> (las patillas terminan en el aire sin sujetarse a nada)"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M175 245 L175 300 Q200 325 225 300 L225 245Z\" fill=\"#a8683f\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#2b1a14\"><circle cx=\"200\" cy=\"130\" r=\"95\"/><circle cx=\"120\" cy=\"170\" r=\"50\"/>..."
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"170\" cy=\"192\" rx=\"12\" ry=\"8\" fill=\"#fff\"/><ellipse cx=\"230\" cy=\"192\" rx=\"12\" ry=\"8\" fill=\"#fff\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "Formas geométricas simples (círculos, elipses, paths), sin texturas complejas. fill=\"url(#skin)\" con degradado suave."
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "Colores cálidos, formas simples y redondeadas, expresión amable: <circle cx=\"200\" cy=\"130\" r=\"95\"/> estilo característico de avatar/ilustración infantil."
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"130\" r=\"95\"/><ellipse cx=\"170\" cy=\"192\" rx=\"12\" ry=\"8\"/><rect x=\"147\" y=\"175\" width=\"46\" height=\"34\" rx=\"14\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skin\"><stop offset=\"0\" stop-color=\"#c98a62\"/><stop offset=\"1\" stop-color=\"#b3734d\"/></linearGradient>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#fbe3c4\"/><stop offset=\"1\" stop-color=\"#e59a7a\"/> <stop offset=\"0\" stop-color=\"#c98a62\"/>"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"132\" cy=\"200\" rx=\"13\" ry=\"20\"/><ellipse cx=\"268\" cy=\"200\" rx=\"13\" ry=\"20\"/> <rect x=\"147\" y=\"175\"/><rect x=\"207\" y=\"175\"/> (elementos duplicados simétricamente)"
+    }
+  ]
+}

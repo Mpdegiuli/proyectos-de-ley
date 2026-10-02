@@ -1,0 +1,165 @@
+{
+  "consigna": "persona",
+  "unidad": "claude-fable-5-1_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:02:59+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M178 235 L178 290 Q200 310 222 290 L222 235 Z\" fill=\"url(#skin)\"/> <ellipse cx=\"200\" cy=\"180\" rx=\"60\" ry=\"72\" fill=\"url(#skin)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"180\" rx=\"60\" ry=\"72\" fill=\"url(#skin)\"/> proporciones de cara joven, mejillas con rubor"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#f6c9a8\"/> <stop offset=\"1\" stop-color=\"#e0a27c\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#5b3a1e\"/> <stop offset=\"1\" stop-color=\"#2e1a0c\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "no_esta",
+      "evidencia": "No hay path de flequillo frontal; el pelo cubre la parte superior pero no hay elemento que dibuje mechones sobre la frente"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#2dd4bf\"/> <stop offset=\"1\" stop-color=\"#0f766e\"/> fill=\"url(#shirt)\""
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M165 290 L200 340 L235 290 L222 285 L200 320 L178 285 Z\" fill=\"#f8fafc\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#dbeafe\"/> <stop offset=\"1\" stop-color=\"#93c5fd\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"215\" r=\"150\" fill=\"#ffffff\" opacity=\"0.35\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "fill=\"url(#bg)\" fill=\"url(#skin)\" fill=\"url(#shirt)\" — uso de gradientes lineales en elementos planos"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "Elementos bien definidos con formas simples y gradientes suaves, sin ruido visual"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"180\" rx=\"60\" ry=\"72\"/> <path d=\"M178 235 L178 290 Q200 310 222 290\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#dbeafe\"/><stop offset=\"1\" stop-color=\"#93c5fd\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"215\" r=\"150\" fill=\"#ffffff\" opacity=\"0.35\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"180\" rx=\"60\" ry=\"72\" fill=\"url(#skin)\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#f6c9a8\"/> <stop offset=\"1\" stop-color=\"#e0a27c\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M140 175 C135 120 160 95 200 95 C240 95 268 120 260 175...\" fill=\"url(#hair)\"/> colores #5b3a1e y #2e1a0c"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 140 Q170 125 195 134 Q180 145 160 150 Z\" fill=\"#6b4626\" opacity=\"0.7\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M160 160 Q175 152 190 160\" stroke=\"#3b2412\" stroke-width=\"4\"/> <path d=\"M210 160 Q225 152 240 160\" stroke=\"#3b2412\" stroke-width=\"4\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"177\" cy=\"178\" r=\"4.5\" fill=\"#3b2f2f\"/> <circle cx=\"225\" cy=\"178\" r=\"4.5\" fill=\"#3b2f2f\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"178.5\" cy=\"176.5\" r=\"1.5\" fill=\"#fff\"/> <circle cx=\"226.5\" cy=\"176.5\" r=\"1.5\" fill=\"#fff\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 185 L194 208 Q200 212 206 208\" stroke=\"#c98a63\" stroke-width=\"3\" fill=\"none\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M182 225 Q200 240 218 225\" stroke=\"#b5533c\" stroke-width=\"3.5\" fill=\"none\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"165\" cy=\"205\" rx=\"10\" ry=\"6\" fill=\"#f0a08a\" opacity=\"0.4\"/> <ellipse cx=\"235\" cy=\"205\" rx=\"10\" ry=\"6\" fill=\"#f0a08a\" opacity=\"0.4\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M60 400 C60 330 110 300 165 290 L200 300 L235 290 C290 300 340 330 340 400 Z\" fill=\"url(#shirt)\"/> tono verde azulado #2dd4bf / #0f766e"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M165 290 L200 340 L235 290 L222 285 L200 320 L178 285 Z\" fill=\"#f8fafc\"/> forma en V"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M165 290 L200 340 L235 290 L222 285 L200 320 L178 285 Z\" fill=\"#f8fafc\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M60 400 C60 330 110 300 165 290 L200 300 L235 290 C290 300 340 330 340 400 Z\"/> llega hasta y=400"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"215\" r=\"150\" fill=\"#ffffff\" opacity=\"0.35\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<path d=\"M182 225 Q200 240 218 225\" stroke=\"#b5533c\" stroke-width=\"3.5\" fill=\"none\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 400\">"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "consigna": "mundo",
+  "unidad": "claude-opus-5-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:15:58+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"215\" r=\"120\" fill=\"url(#gl)\"/> sobre <rect width=\"400\" height=\"400\" fill=\"url(#bg)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"night\" ...><stop offset=\"0.45\" stop-color=\"#02040a\" stop-opacity=\"0\"/><stop offset=\"0.62\" stop-color=\"#02040a\" stop-opacity=\"0.75\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffd66b\" filter=\"url(#glow)\"><circle cx=\"262\" cy=\"190\" r=\"1.2\"/>... (dentro de clip-path sobre la zona nocturna)"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#ffcf6a\" stroke-width=\"0.9\" fill=\"none\" opacity=\"0.75\"> con paths y <g fill=\"#fff3c4\" filter=\"url(#glow)\"><circle cx=\"140\" cy=\"170\" r=\"3\"/>..."
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#ff6b6b\" stroke-width=\"1\" fill=\"none\" stroke-dasharray=\"3 4\" opacity=\"0.8\">"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 96C198 80 204 68 200 50\" stroke=\"#7fd36b\" stroke-width=\"3\" fill=\"none\"/> <path d=\"M200 72C186 66 176 70 170 60...\" fill=\"#8fe07a\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"215\" rx=\"175\" ry=\"40\" fill=\"none\" stroke=\"#8fb8d8\" stroke-opacity=\"0.25\" stroke-width=\"1\" transform=\"rotate(-18 200 215)\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<g transform=\"rotate(-18 200 215)\"><circle cx=\"28\" cy=\"222\" r=\"2.5\" fill=\"#cfe6ff\"/><circle cx=\"372\" cy=\"208\" r=\"2\" fill=\"#cfe6ff\" opacity=\"0.7\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\"><stop offset=\"0\" stop-color=\"#1c2748\"/><stop offset=\"1\" stop-color=\"#04050d\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 96C198 80 204 68 200 50\" stroke=\"#7fd36b\"/> posicionado en la parte superior del círculo (cy=215, r=120, top=95)"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<text ...>frágil, conectado, todavía creciendo</text>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#ffcf6a\" stroke-width=\"0.9\" fill=\"none\" opacity=\"0.75\"> múltiples paths conectando nodos + <g fill=\"#fff3c4\"> múltiples círculos-nodo"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 96C198 80 204 68 200 50\" stroke=\"#7fd36b\"/> + <text>...todavía creciendo</text>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "líneas rojas punteadas stroke=\"#ff6b6b\" stroke-dasharray=\"3 4\" coexisten con red dorada stroke=\"#ffcf6a\" y brote verde, sin resolución visual dominante"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"215\" r=\"120\" fill=\"url(#gl)\"/> sobre fondo oscuro url(#bg)"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"night\"><stop offset=\"0.45\" stop-color=\"#02040a\" stop-opacity=\"0\"/><stop offset=\"0.62\" stop-color=\"#02040a\" stop-opacity=\"0.75\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffd66b\" filter=\"url(#glow)\"><circle cx=\"262\" cy=\"190\" r=\"1.2\"/>... clip-path sobre zona nocturna"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#ffcf6a\" stroke-width=\"0.9\" fill=\"none\"> paths + <g fill=\"#fff3c4\"> círculos-nodo"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#ff6b6b\" stroke-width=\"1\" fill=\"none\" stroke-dasharray=\"3 4\" opacity=\"0.8\">"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"215\" rx=\"175\" ry=\"40\" fill=\"none\" stroke=\"#8fb8d8\" stroke-opacity=\"0.25\" stroke-width=\"1\" transform=\"rotate(-18 200 215)\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<g transform=\"rotate(-18 200 215)\"><circle cx=\"28\" cy=\"222\" r=\"2.5\" fill=\"#cfe6ff\"/><circle cx=\"372\" cy=\"208\" r=\"2\" fill=\"#cfe6ff\" opacity=\"0.7\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 96C198 80 204 68 200 50\" stroke=\"#7fd36b\"/> <path d=\"M200 72C186 66 176 70 170 60...\" fill=\"#8fe07a\"/> <path d=\"M201 62C214 54 226 58 232 48...\" fill=\"#6cc55a\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"48\" r=\"3\" fill=\"#fff3c4\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"378\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"13\" fill=\"#cfd9ea\" opacity=\"0.85\" font-style=\"italic\">frágil, conectado, todavía creciendo</text>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\"><stop offset=\"0\" stop-color=\"#1c2748\"/><stop offset=\"1\" stop-color=\"#04050d\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#ff6b6b\" stroke-width=\"1\" fill=\"none\" stroke-dasharray=\"3 4\" opacity=\"0.8\">"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#ffcf6a\" stroke-width=\"0.9\" fill=\"none\" opacity=\"0.75\"> múltiples paths + <g fill=\"#fff3c4\"> 10 nodos"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 96C198 80 204 68 200 50\" stroke=\"#7fd36b\"/> + hojas fill=\"#8fe07a\" + <text>...todavía creciendo</text>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<ellipse ... stroke=\"#8fb8d8\"/> + <g transform=\"rotate(-18 200 215)\"><circle cx=\"28\" cy=\"222\" r=\"2.5\" fill=\"#cfe6ff\"/><circle cx=\"372\" cy=\"208\" r=\"2\" fill=\"#cfe6ff\"/>"
+    }
+  ]
+}

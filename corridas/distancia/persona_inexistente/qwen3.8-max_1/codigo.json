@@ -1,0 +1,225 @@
+{
+  "consigna": "persona_inexistente",
+  "unidad": "qwen3.8-max_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:25:08+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 116 C160 116 148 154 150 194 C152 228 168 258 200 264 C232 258 248 228 250 194 C252 154 240 116 200 116 Z\" fill=\"#E5A57C\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "no_esta",
+      "evidencia": "<circle cx=\"179\" cy=\"196.5\" r=\"6\" fill=\"#C7742B\"/><circle cx=\"221\" cy=\"196.5\" r=\"6\" fill=\"#C7742B\"/> — posiciones distintas, cejas distintas: 'C164 183 C171 176 184 175 191 179' vs 'C209 179 C216 174 229 174 236 181'"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"44\" cy=\"64\" r=\"2\"/><circle cx=\"352\" cy=\"70\" r=\"2.4\"/><circle cx=\"58\" cy=\"318\" r=\"1.8\"/>... g fill=\"#F2E7CE\""
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<!-- polilla en el hombro --> <path d=\"M139 332 C127 321 113 323 112 332 C111 340 125 344 137 338 Z\" fill=\"#EFE3C8\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"378\" text-anchor=\"middle\" font-family=\"Georgia, 'Times New Roman', serif\" font-size=\"19\" letter-spacing=\"7\" fill=\"#F2E7CE\">NADIE</text>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"185\" r=\"130\" fill=\"#F2E7CE\"/> y <clipPath id=\"moonClip\"><circle cx=\"200\" cy=\"185\" r=\"130\"/></clipPath>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "fondo nocturno #17182E, figura sobre luna beige, grano, estrellas — efecto visual de aparición respaldado por el conjunto"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "afirmación de efecto subjetivo; el código tiene polilla, lunares, aros desparejos, texto 'retrato de una persona inexistente' — respaldable como lectura"
+    },
+    {
+      "id": "a9",
+      "valor": "no_esta",
+      "evidencia": "<title>Nadie — retrato de una persona inexistente</title> — 'Nadie' es el título/nombre del retrato, no el nombre propio de una persona real dibujada"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "fill=\"#E5A57C\" en rostro, cuello y orejas — tono cálido anaranjado"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"179\" cy=\"196.5\" r=\"6\" fill=\"#C7742B\"/> — #C7742B es ámbar/naranja dorado"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 88 C136 88 110 146 114 212...\" fill=\"#2A2340\"/> — #2A2340 es azul muy oscuro tirando a violeta"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<!-- flequillo cortina --> <path d=\"M200 110 C162 112 148 146 150 198...\" fill=\"#2A2340\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#17182E\"/> — azul muy oscuro, nocturno"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"185\" r=\"130\" fill=\"#F2E7CE\"/> — beige claro detrás de la figura"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"185\" r=\"130\" fill=\"#F2E7CE\"/> — círculo centrado detrás de la cabeza, funciona visualmente como aureola"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"44\" cy=\"64\" r=\"2\"/><circle cx=\"352\" cy=\"70\" r=\"2.4\"/>... fill=\"#F2E7CE\" sobre fondo oscuro"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<!-- polilla en el hombro --> y coordenadas ~138,327 que coinciden con zona del hombro de la figura"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M86 400...\" fill=\"#D89B2E\"/> y fill=\"url(#pin)\" opacity=\".45\" — mostaza con patrón de puntitos"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 304 L186 400 L214 400 Z\" fill=\"#F6EEDD\"/> y <circle cx=\"200\" cy=\"332\" r=\"2.6\"/> fill=\"#2A2340\" — camisa clara con botones"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<!-- plantas --> <path d=\"M44 400 C48 374 42 352 30 334\" fill=\"none\" stroke-width=\"3\"/> fill=\"#3E7A63\""
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "fill=\"#C9A24B\" y fill=\"#E8B84B\" — dorados en círculo orbital, aros, líneas decorativas"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"378\"...>NADIE</text>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"393\"... font-style=\"italic\" letter-spacing=\"2.6\" fill=\"#C9A24B\">retrato de una persona inexistente</text>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "conjunto: retrato con luna, polilla, estrellas, aros desparejos, lunares, fondo nocturno — respaldable como efecto"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "rostro, cabello, cuello, orejas, chaqueta — figura humana completa dibujada"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"185\" r=\"130\" fill=\"#F2E7CE\"/> con cráteres: fill=\"#E6D8B8\""
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<!-- polilla en el hombro --> <ellipse cx=\"140\" cy=\"334\" rx=\"3\" ry=\"8\" fill=\"#3A2E4E\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"44\" cy=\"64\" r=\"2\"/> fill=\"#F2E7CE\" y estrellas con path en forma de rayo"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"149\" cy=\"218\" r=\"2.6\" fill=\"#E8B84B\"/> y <circle cx=\"251\" cy=\"219\" r=\"3.4\" fill=\"#E8B84B\"/> — distintos radios y el derecho tiene colgante"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "fill=\"#2A2340\", fill=\"#3A2E4E\", fill=\"#5C4E7E\", fill=\"#6C5A86\" — violetas y morados presentes"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "fill=\"#C9A24B\", fill=\"#E8B84B\", fill=\"#D89B2E\", fill=\"#B87F1F\" — dorados"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "fill=\"#F2E7CE\", fill=\"#F6EEDD\", fill=\"#FBF3E4\" — cremas"
+    },
+    {
+      "id": "a34",
+      "valor": "no_esta",
+      "evidencia": "múltiples paths complejos, gradientes, patrones, filtros, clips — formas elaboradas, no simples"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "estrellas, polilla, plantas, aros con colgante, lunares, líneas decorativas con círculos dorados"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "paths orgánicos de rostro, cabello, ropa con detalles — estilo ilustrativo"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "luna como fondo, polilla, nombre 'Nadie', texto 'retrato de una persona inexistente' — simbólico"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "persona inexistente, polilla en hombro, luna como aureola, aros desparejos — levemente surrealista"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "fondo oscuro, texto centrado, líneas decorativas doradas, grano — aire de afiche o grabado"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<filter id=\"grain\"><feTurbulence type=\"fractalNoise\" baseFrequency=\".9\"/></filter> <rect width=\"400\" height=\"400\" filter=\"url(#grain)\" opacity=\".15\"/>"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "título 'retrato de una persona inexistente', elementos simbólicos (polilla, luna, Nadie) sobre realismo"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"149\" cy=\"218\" r=\"2.6\"/> vs <circle cx=\"251\" cy=\"219\" r=\"3.4\"/> más colgante con estrella solo en el derecho"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "lunares, polilla, aros desparejos, nombre 'Nadie' — detalles narrativos sin explicación explícita"
+    }
+  ]
+}

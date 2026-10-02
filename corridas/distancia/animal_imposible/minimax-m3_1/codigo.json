@@ -1,0 +1,195 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "minimax-m3_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:30:31+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0,0 Q-70,-50 -110,-95 Q-145,-55 -110,15 Q-85,45 -35,30 Q-15,18 0,0Z\" fill=\"url(#w)\" stroke=\"#4a2e5e\" stroke-width=\"1.2\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M183,172 L175,145 L160,138\"/><path d=\"M175,145 L165,140\"/><path d=\"M175,145 L172,125\"/> <path d=\"M217,172 L225,145 L240,138\"/><path d=\"M225,145 L235,140\"/><path d=\"M225,145 L228,125\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "no_esta",
+      "evidencia": "No hay ningún path que represente una trompa saliendo del abdomen"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"-75\" cy=\"-35\" r=\"9\" fill=\"#ffeec8\"/><circle cx=\"-75\" cy=\"-35\" r=\"4\" fill=\"#3a2050\"/> ... <circle cx=\"-55\" cy=\"55\" r=\"6\" fill=\"#ffeec8\"/><circle cx=\"-55\" cy=\"55\" r=\"3\" fill=\"#3a2050\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "no_esta",
+      "evidencia": "Los ojos en las alas están en el grupo transform translate(200 200), no en las patas"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"200\" rx=\"58\" ry=\"32\" fill=\"url(#b)\" stroke=\"#0d2238\"/> con líneas onduladas internas stroke=\"#a8c8e8\""
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"b\"><stop offset=\"0\" stop-color=\"#4a8fc8\"/><stop offset=\"1\" stop-color=\"#1a3a5e\"/></linearGradient> fill=\"url(#b)\""
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M175,192 q5,-4 10,0\"/><path d=\"M190,192 q5,-4 10,0\"/>... stroke=\"#a8c8e8\" opacity=\".6\""
+    },
+    {
+      "id": "a9",
+      "valor": "no_esta",
+      "evidencia": "No hay paths que representen patas articuladas de insecto con múltiples articulaciones"
+    },
+    {
+      "id": "a10",
+      "valor": "no_esta",
+      "evidencia": "Efecto subjetivo no determinable por código; estilo whimsical y colores pastel sugieren lo contrario"
+    },
+    {
+      "id": "a11",
+      "valor": "no_esta",
+      "evidencia": "El cuerpo es una elipse achatada, no ovalada de elefante: rx=\"58\" ry=\"32\""
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#4a8fc8\"/><stop offset=\"1\" stop-color=\"#1a3a5e\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "Cuatro paths con fill=\"url(#w)\": dos superiores y dos inferiores en el grupo translate(200 200)"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "Dos paths con cy negativo (arriba): Q-70,-50 -110,-95 y Q70,-50 110,-95; dos con cy positivo (abajo): Q-75,30 -95,85 y Q75,30 95,85"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"w\"><stop offset=\"0\" stop-color=\"#ffa5c0\"/><stop offset=\".5\" stop-color=\"#b889e0\"/><stop offset=\"1\" stop-color=\"#6a8de0\"/></linearGradient>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"-75\" cy=\"-35\" r=\"9\" fill=\"#ffeec8\"/><circle cx=\"-75\" cy=\"-35\" r=\"4\" fill=\"#3a2050\"/> ... uno por ala"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M183,172 L175,145 L160,138\"/><path d=\"M175,145 L165,140\"/><path d=\"M175,145 L172,125\"/> stroke=\"#5a3e22\" stroke-width=\"2.5\""
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200,228 Q205,245 218,255 Q224,268 218,282 Q212,290 202,285\" fill=\"none\" stroke=\"#3a6ea5\" stroke-width=\"5\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"180\" cy=\"195\" r=\"5.5\" fill=\"#ffd700\"/> <circle cx=\"220\" cy=\"195\" r=\"5.5\" fill=\"#ffd700\"/> <circle cx=\"200\" cy=\"208\" r=\"4.5\" fill=\"#ffd700\"/> <circle cx=\"168\" cy=\"208\" r=\"3.5\" fill=\"#ffd700\"/> <circle cx=\"232\" cy=\"208\" r=\"3.5\" fill=\"#ffd700\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0,0 Q-25,40 -45,58\"/> <path d=\"M0,0 Q25,40 45,58\"/> en translate(200 232)"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"-45\" cy=\"58\" rx=\"7\" ry=\"11\" fill=\"#0a3a5e\"/> <ellipse cx=\"45\" cy=\"58\" rx=\"7\" ry=\"11\" fill=\"#0a3a5e\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"-45\" cy=\"58\" rx=\"3.5\" ry=\"5.5\" fill=\"#ffd700\"/> <ellipse cx=\"45\" cy=\"58\" rx=\"3.5\" ry=\"5.5\" fill=\"#ffd700\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "no_esta",
+      "evidencia": "<radialGradient id=\"bg\"><stop offset=\"0\" stop-color=\"#fff5e6\"/><stop offset=\"1\" stop-color=\"#d4e8f5\"/></radialGradient> — fondo blanco cálido a azul claro, no crepuscular típico"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"50\" cy=\"60\" r=\"2\" opacity=\".7\"/> <circle cx=\"350\" cy=\"80\" r=\"1.5\" opacity=\".6\"/>... fill=\"#fff\""
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "No hay suelo dibujado; fondo es gradiente uniforme: <rect width=\"400\" height=\"400\" fill=\"url(#bg)\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "Cuatro paths fill=\"url(#w)\" con forma de alas + cuerpo elipse + otros elementos híbridos"
+    },
+    {
+      "id": "a27",
+      "valor": "no_esta",
+      "evidencia": "Las escamas son líneas onduladas decorativas stroke=\"#a8c8e8\", no escamas de pez superpuestas"
+    },
+    {
+      "id": "a28",
+      "valor": "no_esta",
+      "evidencia": "No hay paths que representen bigotes de siluro"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200,228 Q205,245 218,255 Q224,268 218,282 Q212,290 202,285\" fill=\"none\" stroke=\"#3a6ea5\" stroke-width=\"5\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"180\" cy=\"195\" r=\"5.5\" fill=\"#ffd700\"/> <circle cx=\"220\" cy=\"195\" r=\"5.5\"/> <circle cx=\"200\" cy=\"208\" r=\"4.5\"/> <circle cx=\"168\" cy=\"208\" r=\"3.5\"/> <circle cx=\"232\" cy=\"208\" r=\"3.5\"/> — cinco ojos dorados"
+    },
+    {
+      "id": "a31",
+      "valor": "no_esta",
+      "evidencia": "Las patas terminan en elipses, no en almohadillas: <ellipse cx=\"-45\" cy=\"58\" rx=\"7\" ry=\"11\" fill=\"#0a3a5e\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#ffa5c0\"/><stop offset=\".5\" stop-color=\"#b889e0\"/><stop offset=\"1\" stop-color=\"#6a8de0\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "stroke=\"#4a2e5e\" stroke-width=\"1.2\" en los paths de alas; stroke=\"#0d2238\" stroke-width=\"1.2\" en el cuerpo"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "Colores: #ffd700, #ffa5c0, #b889e0, #6a8de0, #fff5e6 — paleta brillante y luminosa"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "Combinación de alas de mariposa, cuernos, ojos dorados, trompa enroscada en una figura fantástica"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "Estilo general con gradientes suaves, colores pastel y criatura fantástica híbrida"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"w\"><stop offset=\"0\" stop-color=\"#ffa5c0\"/><stop offset=\".5\" stop-color=\"#b889e0\"/><stop offset=\"1\" stop-color=\"#6a8de0\"/></linearGradient> con tres stops graduales"
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "claude-sonnet-5-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:17:06+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"210\" r=\"100\" fill=\"none\" stroke=\"#f08a24\" stroke-width=\"53\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "stroke=\"#f08a24\" (naranja) en el anillo principal"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"210\" r=\"100\" fill=\"none\" stroke=\"#7a3b10\" stroke-width=\"53\" stroke-dasharray=\"8 24\" opacity=\".5\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"210\" r=\"100\" fill=\"none\" stroke=\"#f08a24\" stroke-width=\"53\"/> — círculo cerrado sin inicio ni fin"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "No hay ningún elemento que dibuje una cola en todo el SVG"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<use href=\"#H\"/> y <use href=\"#H\" transform=\"rotate(180 200 210)\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<use href=\"#H\"/> sin transformación, posición derecha"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<use href=\"#H\" transform=\"rotate(180 200 210)\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M174 88L175 67L190 82Z M226 88L225 67L210 82Z\" fill=\"#f4a6b8\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M160 118L132 112M160 124L132 128M240 118L268 112M240 124L268 128\" stroke=\"#3a1c08\" stroke-width=\"2\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"184\" cy=\"106\" rx=\"3\" ry=\"8\" fill=\"#111\"/> <ellipse cx=\"216\" cy=\"106\" rx=\"3\" ry=\"8\" fill=\"#111\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<use href=\"#L\" transform=\"rotate(60 200 210)\"/> <use href=\"#L\" transform=\"rotate(120 200 210)\"/> <use href=\"#L\" transform=\"rotate(240 200 210)\"/> <use href=\"#L\" transform=\"rotate(300 200 210)\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "Cada #L tiene un tallo con círculo y pupila: <path d=\"M200 112V56\"/> + <circle cy=\"50\"/> + <ellipse cy=\"48\" rx=\"2\" ry=\"4.5\" fill=\"#111\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "Las cuatro instancias de #L con rotaciones 60,120,240,300 apuntan sus extremos inferiores hacia el centro del aro"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"170\" r=\"12\" fill=\"#f08a24\"/> <circle cx=\"200\" cy=\"172\" r=\"5\" fill=\"#f4a6b8\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "No hay elemento de suelo; las patas flotan en el espacio del SVG"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "Cuatro ojos en tallos en rotaciones 60,120,240,300 y dos caras en rotate(0) y rotate(180)"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "El cuerpo es un anillo cerrado sin dirección de desplazamiento definida"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\"><stop offset=\"0\" stop-color=\"#fff3d6\"/><stop offset=\"1\" stop-color=\"#c9d8f0\"/></radialGradient>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff\" opacity=\".8\"><circle cx=\"40\" cy=\"50\" r=\"3\"/>...<circle cx=\"70\" cy=\"200\" r=\"2\"/></g>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"210\" r=\"100\" fill=\"none\" stroke=\"#f08a24\" stroke-width=\"53\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<use href=\"#H\"/> — cabeza centrada arriba (cy~112)"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<use href=\"#H\" transform=\"rotate(180 200 210)\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "El grupo #H solo contiene cabeza y orejas, ningún torso ni cuello"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<use href=\"#L\" transform=\"rotate(60 200 210)\"/> etc. — cuatro tallos con ojos apuntando hacia afuera"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "Los extremos inferiores de #L (rotate 60,120,240,300) apuntan hacia el centro del aro"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"172\" r=\"5\" fill=\"#f4a6b8\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\"><stop offset=\"0\" stop-color=\"#fff3d6\"/><stop offset=\"1\" stop-color=\"#c9d8f0\"/></radialGradient>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff\" opacity=\".8\"><circle cx=\"40\" cy=\"50\" r=\"3\"/>...</g>"
+    },
+    {
+      "id": "a30",
+      "valor": "contradice",
+      "evidencia": "El fondo usa radialGradient y hay opacidades, no es dibujo completamente plano"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "Orejas rosas #f4a6b8, ojos grandes, contornos #3a1c08, nariz triangular, estilo kawaii"
+    },
+    {
+      "id": "a32",
+      "valor": "contradice",
+      "evidencia": "<radialGradient id=\"bg\"> — el fondo usa degradado, no colores lisos"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "stroke=\"#3a1c08\" stroke-width=\"4\" en la cabeza, stroke-width=\"22\" en tallos"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"184\" cy=\"106\" r=\"10\" fill=\"#fff\"/> <ellipse cx=\"184\" cy=\"106\" rx=\"3\" ry=\"8\" fill=\"#111\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "rotate(60), rotate(120), rotate(180), rotate(240), rotate(300) alrededor de (200,210)"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "Simetría radial con múltiples rotaciones y anillo central, similar a emblema/mandala"
+    }
+  ]
+}

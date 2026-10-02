@@ -1,0 +1,70 @@
+{
+  "consigna": "nada",
+  "unidad": "gpt-6-sol_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:44:31+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"97\" fill=\"#000\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"133\" .../> <circle cx=\"200\" cy=\"200\" r=\"113\" .../> <circle cx=\"200\" cy=\"200\" r=\"112.5\" .../> <circle cx=\"200\" cy=\"200\" r=\"97\" .../>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"184\" fill=\"url(#haze)\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "stroke-opacity=\".07\" stroke-width=\".7\" / stroke-opacity=\".12\" stroke-width=\".7\""
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"void\"> <stop offset=\".76\" stop-color=\"#000\"/> ... fill=\"url(#void)\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"113\" fill=\"url(#void)\"/> con stops de color negro dominante y sin relleno interior explícito de contenido"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"97\" fill=\"#000\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"97\" fill=\"#000\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"space\"> <stop offset=\"0\" stop-color=\"#08090c\"/> <stop offset=\"1\" stop-color=\"#242830\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"112.5\" fill=\"none\" stroke=\"#c5ccd5\" stroke-opacity=\".12\" stroke-width=\".7\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"200\" r=\"184\" fill=\"url(#haze)\"/> con stop-opacity máximo de .045"
+    },
+    {
+      "id": "a12",
+      "valor": "no_esta",
+      "evidencia": "El halo (id=\"haze\") está centrado en cx=\"200\" cy=\"200\" r=\"184\", lejos del borde del círculo negro r=\"97\"; no hay elemento que marque visualmente el inicio del vacío"
+    }
+  ]
+}

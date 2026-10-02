@@ -1,0 +1,245 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "minimax-m3_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T01:21:01+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M70 290 Q200 220 330 290 L310 330 Q200 350 90 330 Z\" fill=\"url(#hull)\" stroke=\"#b8853a\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M155 135 L155 250 L80 235 Z\" fill=\"url(#s1)\"/> ... <linearGradient id=\"s1\"><stop stop-color=\"#ff6bd9\" stop-opacity=\".75\"/><stop stop-color=\"#6bffdb\" stop-opacity=\".65\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"155\" cy=\"115\" r=\"14\" fill=\"url(#glow)\"/><circle cx=\"155\" cy=\"115\" r=\"5\" fill=\"#ffeb6b\"/> ... <line x1=\"155\" y1=\"280\" x2=\"155\" y2=\"120\" stroke=\"#3a2a1e\" stroke-width=\"5\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"155\" cy=\"115\" r=\"14\" fill=\"url(#glow)\"/><circle cx=\"155\" cy=\"115\" r=\"5\" fill=\"#ffeb6b\"/> ... <radialGradient id=\"glow\"><stop stop-color=\"#ffeb6b\"/><stop stop-color=\"#ff6b9d\" stop-opacity=\"0\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M330 290 Q360 280 370 258 Q378 245 368 238 ... fill=\"url(#brass)\" stroke=\"#2a1208\" stroke-width=\"1\"/> — es una forma abstracta, no una criatura con forma definida"
+    },
+    {
+      "id": "a6",
+      "valor": "no_esta",
+      "evidencia": "No hay animación ni efecto pulsante en el código SVG"
+    },
+    {
+      "id": "a7",
+      "valor": "no_esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/> — el fondo es cielo nocturno; las elipses son tenues y no definen nubes violetas y celestes explícitas flotando alrededor del barco"
+    },
+    {
+      "id": "a8",
+      "valor": "no_esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop stop-color=\"#0a0a2e\"/><stop stop-color=\"#2a1a4e\"/><stop stop-color=\"#4a2a5e\"/> — es nocturno, no crepuscular"
+    },
+    {
+      "id": "a9",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento que represente un timón colgando; el elemento de timón está en <g transform=\"translate(70,290)\"> que es un compás/rueda"
+    },
+    {
+      "id": "a10",
+      "valor": "no_esta",
+      "evidencia": "No hay paths ni elementos que representen símbolos tallados en la cubierta"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(70,290)\"><circle r=\"14\" fill=\"none\" stroke=\"#b8853a\" stroke-width=\"2.5\"/><line x1=\"0\" y1=\"-12\" x2=\"0\" y2=\"12\"/>...<line x1=\"-8\" y1=\"-8\" x2=\"8\" y2=\"8\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "No hay agua ni suelo dibujado bajo el barco; el fondo es <rect fill=\"url(#sky)\"/> — cielo"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 400\">"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M70 290 Q200 220 330 290 L310 330 Q200 350 90 330 Z\" fill=\"url(#hull)\"/> con velas, mástiles y elementos decorativos fantásticos"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<rect fill=\"url(#sky)\"/> fondo nocturno + <g fill=\"#fff\"><circle cx=\"30\" cy=\"40\" r=\"1\"/>... estrellas + <ellipse cx=\"100\" cy=\"80\" ... opacity=\".12\"/> brumas"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"hull\"><stop stop-color=\"#6a4226\"/><stop stop-color=\"#2a1208\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffdb6b\"><circle cx=\"120\" cy=\"305\" r=\"5\"/>...<g fill=\"#fff\"><circle cx=\"120\" cy=\"305\" r=\"2\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M330 290 Q360 280 370 258 ... fill=\"url(#brass)\" stroke=\"#2a1208\" stroke-width=\"1\"/> + <linearGradient id=\"brass\"><stop stop-color=\"#ffd97a\"/><stop stop-color=\"#7a5020\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M330 290 Q360 280 370 258 Q378 245 368 238 Q358 250 355 257 Q365 245 358 232 Q348 245 343 250 Q348 235 340 224 Q330 240 332 252 Q325 265 330 278 Z\"/> — forma abstracta sin rasgos de criatura definidos"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<line x1=\"155\" y1=\"280\" x2=\"155\" y2=\"120\" stroke=\"#3a2a1e\" stroke-width=\"5\"/><line x1=\"245\" y1=\"280\" x2=\"245\" y2=\"100\" stroke=\"#3a2a1e\" stroke-width=\"5\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M155 135 L155 250 L80 235 Z\" fill=\"url(#s1)\"/><path d=\"M155 135 L155 250 L230 235 Z\" fill=\"url(#s2)\"/>... con gradientes de opacidad"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"s1\"><stop stop-color=\"#ff6bd9\" stop-opacity=\".75\"/><stop stop-color=\"#6bffdb\" stop-opacity=\".65\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"s2\"><stop stop-color=\"#6bffdb\" stop-opacity=\".7\"/><stop stop-color=\"#ffdb6b\" stop-opacity=\".7\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "stop-opacity=\".75\" / stop-opacity=\".65\" en s1 y s2 — semitransparentes con degradé luminoso"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"155\" cy=\"115\" r=\"14\" fill=\"url(#glow)\"/><circle cx=\"155\" cy=\"115\" r=\"5\" fill=\"#ffeb6b\"/><circle cx=\"245\" cy=\"95\" r=\"14\" fill=\"url(#glow)\"/><circle cx=\"245\" cy=\"95\" r=\"5\" fill=\"#ffeb6b\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"155\" cy=\"115\" r=\"5\" fill=\"#ffeb6b\"/> + <radialGradient id=\"glow\"><stop stop-color=\"#ffeb6b\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(70,290)\"><circle r=\"14\" fill=\"none\" stroke=\"#b8853a\" stroke-width=\"2.5\"/>...<line x1=\"-8\" y1=\"-8\" x2=\"8\" y2=\"8\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos de símbolos mágicos dibujados sobre el casco (hull)"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"100\" cy=\"80\" rx=\"80\" ry=\"22\" fill=\"#ff6bd9\" opacity=\".12\"/> — tono rosado/violeta + fondo <linearGradient id=\"sky\"> con #2a1a4e, #4a2a5e"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff\"><circle cx=\"30\" cy=\"40\" r=\"1\"/>... estrellas + <g fill=\"#ffeb6b\" opacity=\".7\"><circle cx=\"80\" cy=\"200\" r=\"1\"/>..."
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#ff6bd9\" stroke-width=\"2\" fill=\"none\" opacity=\".6\"><path d=\"M50 295 Q30 298 15 290 Q28 305 45 308 Q25 312 10 305\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "ellipses de nubes + estrellas/partículas + ondas rosadas, todos presentes junto al barco"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "Conjunto de elementos: cielo nocturno #0a0a2e, velas con gradientes traslúcidos, faroles, compás, figura de proa en brass, sin agua real — estilo onírico"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"s1\"><stop stop-color=\"#ff6bd9\"/><stop stop-color=\"#6bffdb\"/> + <linearGradient id=\"s2\"><stop stop-color=\"#6bffdb\"/><stop stop-color=\"#ffdb6b\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"155\" cy=\"115\" r=\"14\" fill=\"url(#glow)\"/><circle cx=\"155\" cy=\"115\" r=\"5\" fill=\"#ffeb6b\"/><circle cx=\"245\" cy=\"95\" r=\"14\" fill=\"url(#glow)\"/><circle cx=\"245\" cy=\"95\" r=\"5\" fill=\"#ffeb6b\"/>"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"155\" cy=\"115\" r=\"14\" fill=\"url(#glow)\"/> con resplandor radial — evoca luna pequeña"
+    },
+    {
+      "id": "a37",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M330 290 Q360 280 ... fill=\"url(#brass)\"/> — no tiene cara definida de criatura"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"brass\"><stop stop-color=\"#ffd97a\"/><stop stop-color=\"#7a5020\"/> aplicado a la figura de proa"
+    },
+    {
+      "id": "a39",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M200 300 L207 313 L193 305 L207 305 L193 313 Z\"/> es una estrella mágica pero está dentro del casco (cy=308), no flotando sobre él"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop stop-color=\"#0a0a2e\"/><stop stop-color=\"#2a1a4e\"/><stop stop-color=\"#4a2a5e\"/>"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "Colores #ff6bd9, #6bffdb, #ffdb6b, #ffeb6b sobre fondo #0a0a2e — neón sobre fondo nocturno"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"180\" r=\"50\" fill=\"url(#glow)\" opacity=\".3\"/> + faroles con glow radial"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "<path d=\"M95 320 Q200 335 305 320\" stroke=\"#b8853a\"/> + <circle cx=\"200\" cy=\"308\" r=\"14\" fill=\"none\" stroke=\"#ffeb6b\"/> + compás"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "Barco con velas traslúcidas en gradientes de colores fantásticos, cielo nocturno estrellado, figura de proa en brass, faroles con glow"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "Combinación de elementos de cuento (galeón, faroles, compás) con colores cósmicos neón y fondo estelar"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "<path d=\"M155 135 L155 250 L80 235 Z\" fill=\"url(#s1)\"/> gradiente rosa-cian evoca aurora boreal"
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "Barco levitando en cielo nocturno estrellado con velas iridiscentes, faroles, compás y figura de proa — conjunto onírico"
+    }
+  ]
+}

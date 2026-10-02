@@ -1,0 +1,305 @@
+{
+  "consigna": "animal_inexistente",
+  "unidad": "claude-fable-5-1_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:02:29+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"200\" cy=\"155\" r=\"56\" fill=\"url(#body)\"/> <ellipse cx=\"200\" cy=\"262\" rx=\"72\" ry=\"82\" fill=\"url(#body)\"/> — dos segmentos pero el torso es elipse, no redondo"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"177\" cy=\"150\" r=\"13\" fill=\"url(#eye)\"/> <circle cx=\"223\" cy=\"150\" r=\"13\" fill=\"url(#eye)\"/> <circle cx=\"200\" cy=\"122\" r=\"9\" fill=\"url(#eye)\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"122\" r=\"9\" fill=\"url(#eye)\"/> — tercer ojo en posición superior/frente"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M170 115 C140 55 118 42 148 28 ...\"/> fill=\"#2a8f8a\" con interior <path fill=\"#ffb3c6\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M190 100 C170 80 140 75 128 50\"/> <circle cx=\"128\" cy=\"50\" r=\"18\" fill=\"url(#glow)\"/> <circle cx=\"276\" cy=\"44\" r=\"18\" fill=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"wing\"><stop stop-color=\"#ffb3c6\" stop-opacity=\"0.9\"/><stop stop-color=\"#b57bff\" stop-opacity=\"0.55\"/></linearGradient> <path ... fill=\"url(#wing)\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M176 372 L160 384 M176 372 L176 388 M176 372 L192 384\"/> <path d=\"M224 372 L208 384 M224 372 L224 388 M224 372 L240 384\"/> — tres dedos por pata"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ff8fab\"><ellipse cx=\"0\" cy=\"-16\" rx=\"7\" ry=\"13\"/>... (8 pétalos) <circle r=\"8\" fill=\"#ffd166\"/> — flor al final de la cola"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop stop-color=\"#151a38\"/><stop stop-color=\"#3d4e85\"/></linearGradient> <rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"> <radialGradient id=\"body\"> <radialGradient id=\"glow\"> <linearGradient id=\"wing\"> <radialGradient id=\"eye\">"
+    },
+    {
+      "id": "a11",
+      "valor": "contradice",
+      "evidencia": "El dibujo usa paths complejos con curvas, gradientes radiales/lineales, múltiples capas — no son formas simples"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "ojos grandes con brillos, mejillas rosadas <circle cx=\"163\" cy=\"172\" r=\"9\" fill=\"#ff8fab\" opacity=\"0.55\"/>, sonrisa <path d=\"M188 186 q12 8 24 0\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<rect fill=\"url(#sky)\"/> cielo oscuro, <ellipse cx=\"200\" cy=\"372\" fill=\"#2c6b57\"/> prado, estrellas y luna presentes"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"155\" r=\"56\" fill=\"url(#body)\"/> — cabeza circular"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"body\"><stop stop-color=\"#8ff0dc\"/><stop stop-color=\"#22807c\"/></radialGradient>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"285\" rx=\"46\" ry=\"52\" fill=\"#dffff5\" opacity=\"0.85\"/> <ellipse cx=\"200\" cy=\"180\" rx=\"34\" ry=\"22\" fill=\"#dffff5\" opacity=\"0.8\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#1c6c6a\" opacity=\"0.7\"><circle cx=\"150\" cy=\"230\" r=\"7\"/><circle cx=\"255\" cy=\"225\" r=\"6\"/>..."
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#f4a259\" stroke-width=\"6\" stroke-linecap=\"round\" fill=\"none\"><path d=\"M180 330 L176 372\"/><path d=\"M220 330 L224 372\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"177\" cy=\"150\" r=\"13\"/> <circle cx=\"223\" cy=\"150\" r=\"13\"/> <circle cx=\"200\" cy=\"122\" r=\"9\"/> — tres círculos de ojo"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"177\" cy=\"150\" r=\"13\" fill=\"url(#eye)\"/> <circle cx=\"223\" cy=\"150\" r=\"13\" fill=\"url(#eye)\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"122\" r=\"9\" fill=\"url(#eye)\"/> — posición superior central en la cabeza"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M192 170 L208 170 L200 181 Z\" fill=\"#f4a259\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M188 186 q12 8 24 0\" stroke=\"#1a1f3a\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M170 115 C140 55 118 42 148 28 C172 20 183 80 188 110 Z\"/> <path d=\"M230 115 C260 55 282 42 252 28 ...\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M172 108 C150 65 137 52 152 40 C165 36 178 85 183 105 Z\" fill=\"#ffb3c6\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M190 100 C170 80 140 75 128 50\"/> <path d=\"M210 100 C235 78 262 72 276 44\"/> — dos paths de antena"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"128\" cy=\"50\" r=\"18\" fill=\"url(#glow)\"/> <circle cx=\"128\" cy=\"50\" r=\"6\" fill=\"#fff6c0\"/> <circle cx=\"276\" cy=\"44\" r=\"18\" fill=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M172 235 C95 150 30 195 62 285 C82 330 150 305 178 270 Z\"/> <path d=\"M228 235 C305 150 370 195 338 285 ...\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#b57bff\" stop-opacity=\"0.55\"/> — opacidad parcial en el gradiente de ala"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"wing\"><stop stop-color=\"#ffb3c6\"/><stop stop-color=\"#b57bff\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#fff0f6\" stroke-width=\"1.2\" fill=\"none\" opacity=\"0.7\"><path d=\"M172 240 C130 210 90 220 70 265\"/>..."
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#c77dff\" opacity=\"0.6\"><circle cx=\"100\" cy=\"240\" r=\"7\"/><circle cx=\"300\" cy=\"240\" r=\"7\"/>..."
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<path d=\"M255 305 C325 310 350 255 315 232\" fill=\"none\" stroke=\"#2a8f8a\" stroke-width=\"11\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ff8fab\"><ellipse cx=\"0\" cy=\"-16\" rx=\"7\" ry=\"13\"/>... (pétalos rosas) al final del path de cola"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<circle r=\"8\" fill=\"#ffd166\"/><circle r=\"4\" fill=\"#ff9f1c\"/> — centro amarillo/naranja de la flor"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"372\" rx=\"240\" ry=\"55\" fill=\"#2c6b57\"/> prado + <rect fill=\"url(#sky)\"/> cielo nocturno"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"330\" cy=\"70\" r=\"26\" fill=\"#f4f1d6\"/> — círculo amarillento, luna"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff\"><circle cx=\"40\" cy=\"50\" r=\"1.5\"/><circle cx=\"90\" cy=\"30\" r=\"1\"/>...</g>"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop stop-color=\"#151a38\"/><stop stop-color=\"#3d4e85\"/>"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"155\" r=\"56\" fill=\"url(#body)\"/>"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"body\"><stop stop-color=\"#8ff0dc\"/><stop stop-color=\"#22807c\"/>"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"177\" cy=\"150\" r=\"13\"/> <circle cx=\"223\" cy=\"150\" r=\"13\"/> <circle cx=\"200\" cy=\"122\" r=\"9\"/>"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "<path d=\"M170 115 C140 55 118 42 148 28...\"/> <path d=\"M230 115 C260 55 282 42 252 28...\"/>"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"128\" cy=\"50\" r=\"18\" fill=\"url(#glow)\"/> <circle cx=\"276\" cy=\"44\" r=\"18\" fill=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "<path d=\"M172 235 C95 150 30 195 62 285...\" fill=\"url(#wing)\"/> con opacidad translúcida"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "<path d=\"M176 372 L160 384 M176 372 L176 388 M176 372 L192 384\"/> — patas con dedos de ave"
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "<path d=\"M255 305 C325 310 350 255 315 232\"/> cola + <g fill=\"#ff8fab\"> pétalos en transform translate(315 228)"
+    },
+    {
+      "id": "a48",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/> con gradiente azul oscuro"
+    },
+    {
+      "id": "a49",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"330\" cy=\"70\" r=\"26\" fill=\"#f4f1d6\"/>"
+    },
+    {
+      "id": "a50",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff\"><circle cx=\"40\" cy=\"50\" r=\"1.5\"/>...<circle cx=\"140\" cy=\"70\" r=\"0.9\"/></g>"
+    },
+    {
+      "id": "a51",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"177\" cy=\"150\" r=\"13\" fill=\"url(#eye)\"/> <circle cx=\"176\" cy=\"148\" r=\"2.5\" fill=\"#fff\"/> — ojos grandes con brillo blanco"
+    },
+    {
+      "id": "a52",
+      "valor": "esta",
+      "evidencia": "<path d=\"M188 186 q12 8 24 0\" stroke=\"#1a1f3a\" stroke-width=\"2\" fill=\"none\"/>"
+    },
+    {
+      "id": "a53",
+      "valor": "esta",
+      "evidencia": "colores: #ffb3c6, #8ff0dc, #ffd166, #b57bff, #dffff5 — todos en gama pastel"
+    },
+    {
+      "id": "a54",
+      "valor": "contradice",
+      "evidencia": "fill=\"url(#body)\" fill=\"url(#wing)\" fill=\"url(#glow)\" — usa gradientes, no colores planos"
+    },
+    {
+      "id": "a55",
+      "valor": "esta",
+      "evidencia": "ojos grandes con brillos, mejillas rosadas, sonrisa, colores pastel, formas redondeadas — estética kawaii"
+    },
+    {
+      "id": "a56",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"155\" r=\"56\"/> <ellipse cx=\"200\" cy=\"262\" rx=\"72\" ry=\"82\"/> cuerpo redondeado, ojos circulares"
+    },
+    {
+      "id": "a57",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"body\" cx=\"0.4\" cy=\"0.35\" r=\"0.85\"> — gradiente radial da volumen al cuerpo"
+    },
+    {
+      "id": "a58",
+      "valor": "esta",
+      "evidencia": "estilo general: colores pastel, formas amigables, personaje con ojos grandes, escena clara — coherente con libro infantil"
+    },
+    {
+      "id": "a59",
+      "valor": "esta",
+      "evidencia": "mamífero: orejas; insecto: alas translúcidas+antenas; pájaro: patas con dedos; planta: cola con flor"
+    }
+  ]
+}

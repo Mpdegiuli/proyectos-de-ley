@@ -1,0 +1,195 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "claude-fable-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:31:08+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<rect x=\"192\" y=\"130\" width=\"16\" height=\"14\" fill=\"#f3c29a\"/> <path d=\"M186 126 L214 126\" stroke=\"#c88\" stroke-width=\"2\" stroke-dasharray=\"3 3\"/> <circle cx=\"200\" cy=\"78\" r=\"34\" fill=\"#f3c29a\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"186\" cy=\"76\" r=\"4\" fill=\"#222\"/> <circle cx=\"214\" cy=\"76\" r=\"4\" fill=\"#222\"/> <circle cx=\"200\" cy=\"64\" r=\"4\" fill=\"#222\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M188 92 q12 10 24 0\" stroke=\"#a05a3a\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"195\" r=\"24\" fill=\"#000\"/> en mask + <circle cx=\"200\" cy=\"195\" r=\"24\" fill=\"none\" stroke=\"#b23e35\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "no_esta",
+      "evidencia": "A través del agujero se ven elementos: <ellipse cx=\"196\" cy=\"196\" rx=\"12\" ry=\"5\" fill=\"#fff\"/> y <ellipse cx=\"206\" cy=\"192\" rx=\"9\" ry=\"4\" fill=\"#fff\"/> pero no hay cielo con nubes explícitamente posicionado detrás del agujero; el fondo visible sería el gradiente de cielo, pero las nubes del fondo están a cy=70 y cy=120, lejos del agujero en cy=195"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M268 168 Q282 140 278 112\" stroke=\"#e05a4e\" stroke-width=\"13\" stroke-linecap=\"round\" fill=\"none\"/> <circle cx=\"277\" cy=\"104\" r=\"10\" fill=\"#f3c29a\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M256 186 L264 174\" stroke=\"#7a2f28\" stroke-width=\"2\" stroke-dasharray=\"3 3\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M185 255 L178 295 L192 335\"/> <path d=\"M215 255 L224 295 L210 335\"/> — las rodillas se abren hacia afuera y los pies terminan cruzados respecto al inicio"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M192 343 q0 -10 12 -10 l22 0 ...\" fill=\"#5a3b23\"/> y <path d=\"M210 343 q0 -10 -12 -10 l-40 0 ...\" fill=\"#5a3b23\"/> — una apunta a la derecha y la otra a la izquierda"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"340\" cy=\"60\" r=\"26\" fill=\"#ffd95e\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<rect y=\"320\" width=\"400\" height=\"80\" fill=\"#8fce7a\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"90\" cy=\"70\" rx=\"34\" ry=\"12\"/> <ellipse cx=\"115\" cy=\"60\" rx=\"24\" ry=\"10\"/> <ellipse cx=\"300\" cy=\"120\" rx=\"30\" ry=\"10\"/> fill=\"#ffffff\" opacity=\"0.9\""
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "Sol amarillo <circle cx=\"340\" cy=\"60\" r=\"26\" fill=\"#ffd95e\"/>, nubes blancas, pasto verde <rect y=\"320\" fill=\"#8fce7a\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "Paisaje amable (sol, nubes, pasto) combinado con agujero en pecho, cabeza flotante, brazo desprendido, piernas al revés"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "Combinación de todos los elementos anatómicamente imposibles sobre fondo cotidiano"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<rect x=\"192\" y=\"130\" width=\"16\" height=\"14\" fill=\"#f3c29a\"/> (cuello) separado de <circle cx=\"200\" cy=\"78\" r=\"34\"/> (cabeza a y=78, cuello a y=130)"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M186 126 L214 126\" stroke=\"#c88\" stroke-width=\"2\" stroke-dasharray=\"3 3\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"186\" cy=\"76\" r=\"4\" fill=\"#222\"/> <circle cx=\"214\" cy=\"76\" r=\"4\" fill=\"#222\"/> <circle cx=\"200\" cy=\"64\" r=\"4\" fill=\"#222\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"195\" r=\"24\" fill=\"#000\"/> dentro de mask aplicada al torso"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "La mask recorta el torso (<rect fill=\"#e05a4e\" mask=\"url(#chestHole)\"/>) dejando ver el fondo sky <rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "no_esta",
+      "evidencia": "Las nubes están en cy=70 y cy=120, el agujero está en cy=195; las nubes no están posicionadas dentro del área del agujero"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M268 168 Q282 140 278 112\" stroke=\"#e05a4e\" stroke-width=\"13\"/> separado del brazo principal por <path d=\"M256 186 L264 174\" stroke-dasharray=\"3 3\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M268 168 Q282 140 278 112\"/> y <circle cx=\"277\" cy=\"104\" r=\"10\"/> flotando sin conexión sólida al cuerpo"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"277\" cy=\"104\" r=\"10\" fill=\"#f3c29a\"/> con el antebrazo <path d=\"M268 168 Q282 140 278 112\"/> apuntando hacia arriba"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M185 255 L178 295 L192 335\"/> <path d=\"M215 255 L224 295 L210 335\"/> — la rodilla va hacia afuera y el pie vuelve hacia adentro/atrás"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M192 343 q0 -10 12 -10 l22 0...\"/> apunta derecha, <path d=\"M210 343 q0 -10 -12 -10 l-40 0...\"/> apunta izquierda"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"340\" cy=\"60\" r=\"26\" fill=\"#ffd95e\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"90\" cy=\"70\" rx=\"34\" ry=\"12\" fill=\"#ffffff\" opacity=\"0.9\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<rect y=\"320\" width=\"400\" height=\"80\" fill=\"#8fce7a\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "Sol #ffd95e, nubes #ffffff opacity 0.9, pasto #8fce7a — estética infantil y alegre"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "Formas simples: círculos, rectángulos con rx, paths con stroke redondeado, sin texturas ni sombras complejas"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"78\" r=\"34\"/> <rect x=\"168\" y=\"142\" width=\"64\" height=\"118\" rx=\"26\"/> formas geométricas básicas"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "#a8ddf5, #e9f7fd, #ffd95e, #8fce7a, #e05a4e, #f3c29a — colores suaves/pastel"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "stroke-linecap=\"round\" en múltiples paths, rx=\"26\" en torso, paths con curvas Q"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "Agujero en pecho, cabeza flotante, brazo desprendido sobre fondo de cielo pastel, sol y pasto verde"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "Combinación de colores pastel, formas simples, sol/nubes/pasto con anatomía surrealista — estética de libro ilustrado"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<rect fill=\"#e05a4e\" mask=\"url(#chestHole)\"/> con agujero que deja ver el fondo, sugiriendo cuerpo hueco/transparente"
+    }
+  ]
+}

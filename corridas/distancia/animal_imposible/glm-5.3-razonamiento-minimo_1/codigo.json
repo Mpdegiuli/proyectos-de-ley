@@ -1,0 +1,185 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "glm-5.3-razonamiento-minimo_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:29:52+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<!-- serpiente ouroboros: se muerde la cola pero el cuerpo se atraviesa a sí mismo -->"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<!-- cruce imposible: tramo que pasa por encima --> ... <!-- y por debajo (la misma línea, imposible) -->"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M80 210 C 100 190...\" fill=\"none\" stroke=\"url(#escamas)\" .../> seguido de <path d=\"M80 210 C 120 235...\" fill=\"none\" stroke=\"#0e4038\" .../> y re-dibujado encima"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<!-- línea de arriba re-dibujada encima: el nudo imposible -->"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<!-- patas de pollo --> <g stroke=\"#e8a33d\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\">"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<!-- alas de mariposa (para volar sin salir del círculo) --> <path d=\"M85 150 C 20 80, 10 170, 60 190 C 15 200, 40 280, 95 230 Z\" fill=\"url(#ala)\""
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<!-- sombra flotante debajo (sin piso, pero con sombra) --> <ellipse cx=\"200\" cy=\"378\" rx=\"120\" ry=\"8\" fill=\"#000\" opacity=\"0.35\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<!-- luna imposible (media y llena a la vez) --> <circle cx=\"330\" cy=\"70\" r=\"26\" fill=\"#f5e9c9\" opacity=\"0.9\"/> <path d=\"M330 44 a26 26 0 0 0 0 52 a18 26 0 0 1 0 -52 z\" fill=\"#161033\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<!-- serpiente ouroboros: se muerde la cola pero el cuerpo se atraviesa a sí mismo --> <!-- cruce imposible --> <!-- luna imposible (media y llena a la vez) --> <!-- sombra flotante debajo (sin piso, pero con sombra) -->"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 315 L145 350 ...\" /> y <path d=\"M250 315 L255 350 ...\" /> emergen del anillo cerrado trazado por el cuerpo"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<!-- serpiente ouroboros: se muerde la cola pero el cuerpo se atraviesa a sí mismo -->"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<!-- línea de arriba re-dibujada encima: el nudo imposible -->"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<!-- alas de mariposa (para volar sin salir del círculo) --> <path d=\"M85 150 C 20 80...\" fill=\"url(#ala)\" stroke=\"#ffb3ec\""
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<!-- patas de pollo --> <g stroke=\"#e8a33d\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\">"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<!-- lengua con forma de signo de interrogación --> <path d=\"M226 104 q8 8 0 14 q-8 5 -12 -2\" stroke=\"#ff5c8a\" stroke-width=\"3\" fill=\"none\""
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<!-- sombra flotante debajo (sin piso, pero con sombra) --> <ellipse cx=\"200\" cy=\"378\" rx=\"120\" ry=\"8\" fill=\"#000\" opacity=\"0.35\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<!-- luna imposible (media y llena a la vez) --> <circle cx=\"330\" cy=\"70\" r=\"26\" fill=\"#f5e9c9\"/> <path d=\"M330 44 a26 26 0 0 0 0 52 a18 26 0 0 1 0 -52 z\" fill=\"#161033\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffffff\" opacity=\"0.7\"> <circle cx=\"40\" cy=\"50\" r=\"1.3\"/><circle cx=\"90\" cy=\"30\" r=\"1\"/> ... </g>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"378\" rx=\"120\" ry=\"8\" fill=\"#000\" opacity=\"0.35\"/> sin ningún rectángulo de suelo bajo ella"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<!-- cruce imposible: tramo que pasa por encima --> ... <!-- y por debajo (la misma línea, imposible) --> ... <!-- el nudo imposible -->"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<!-- serpiente ouroboros: se muerde la cola pero el cuerpo se atraviesa a sí mismo -->"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<!-- línea de arriba re-dibujada encima: el nudo imposible --> <path d=\"M80 210 C 100 190, 150 175, 200 175 C 250 175, 300 190, 320 210\" fill=\"none\" stroke=\"url(#escamas)\""
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<!-- patas de pollo --> <path d=\"M150 315 L145 350 M145 350 L133 362 M145 350 L148 365 M145 350 L158 361\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<!-- alas de mariposa (para volar sin salir del círculo) --> <path d=\"M315 150 C 380 80, 390 170, 340 190 C 385 200, 360 280, 305 230 Z\" fill=\"url(#ala)\""
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"escamas\" ...> <ellipse cx=\"200\" cy=\"90\" rx=\"26\" ry=\"20\" fill=\"#2ec48a\"/> <!-- escamas decorativas -->"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<!-- alas de mariposa (para volar sin salir del círculo) --> con el cuerpo en anillo cerrado: <path d=\"M200 90 C 280 90, 320 150, 320 210 ... Z\""
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"378\" rx=\"120\" ry=\"8\" fill=\"#000\" opacity=\"0.35\"/> sin elemento de piso (<rect> de fondo es el cielo)"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<!-- lengua con forma de signo de interrogación --> <path d=\"M226 104 q8 8 0 14 q-8 5 -12 -2\" stroke=\"#ff5c8a\""
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"cielo\"> <stop offset=\"0%\" stop-color=\"#2b1d4e\"/> ... </radialGradient> y <linearGradient id=\"escamas\"> <stop offset=\"0%\" stop-color=\"#3ddc97\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"cielo\">, <linearGradient id=\"escamas\">, <linearGradient id=\"ala\">, <radialGradient id=\"boca\">"
+    },
+    {
+      "id": "a31",
+      "valor": "no_esta",
+      "evidencia": "Los rellenos son degradados (radialGradient, linearGradient) y hay capas superpuestas con opacidades, no es ilustración plana"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<text ... font-family=\"serif\" font-style=\"italic\">Ouroboros gallináceo alado, anudado consigo mismo</text> con composición circular centrada"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "Ouroboros + luna imposible + paleta nocturna + <text>Ouroboros gallináceo alado, anudado consigo mismo</text>"
+    },
+    {
+      "id": "a34",
+      "valor": "no_esta",
+      "evidencia": "El código menciona nudo imposible pero no hay ningún elemento ni comentario que referencie banda de Möbius; el cruce es de superposición de trazos, no de torsión continua"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "El anillo cerrado <path d=\"M200 90 C ... Z\"/> con las alas dentro del mismo espacio: <!-- alas de mariposa (para volar sin salir del círculo) -->"
+    }
+  ]
+}

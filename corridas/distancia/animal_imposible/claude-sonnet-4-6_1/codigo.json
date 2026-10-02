@@ -1,0 +1,175 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "claude-sonnet-4-6_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:15:58+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<line x1=\"160\" y1=\"220\" x2=\"110\" y2=\"175\" stroke=\"#4488aa\" stroke-width=\"3\" stroke-linecap=\"round\"/> (8 legs, 4 each side, jointed)"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M155,235 Q100,180 60,160 Q90,200 80,230 Q110,215 130,240 Z\" fill=\"#cc8800\" opacity=\"0.9\"/> (wing feather lines present)"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"178\" cy=\"275\" rx=\"14\" ry=\"14\" fill=\"none\" stroke=\"#cc4400\" stroke-width=\"0.5\" opacity=\"0.8\"/> (grid pattern on eyes = compound)"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M188,315 Q180,335 170,345\" stroke=\"#7ecfff\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"310\" rx=\"12\" ry=\"30\" fill=\"url(#fireGrad)\" opacity=\"0.9\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<!-- CREATURE: A fish with wings, 8 legs, and fire coming from mouth, all floating upside-down -->"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"200,155 155,100 175,155 225,155 245,100\" fill=\"#1a6fa0\"/> (tail at top) <ellipse cx=\"200\" cy=\"285\" ... (head at bottom)"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"240\" rx=\"55\" ry=\"80\" fill=\"url(#bodyGrad)\" .../> (blue gradient) + scale ellipses stroke=\"#5bb8e8\""
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"310\" rx=\"12\" ry=\"30\" fill=\"url(#fireGrad)\"/> near mouth area <path d=\"M185,300 Q200,312 215,300\".../>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "8 leg lines: 4 left (x1=\"160\",\"155\",\"155\",\"160\") + 4 right (x1=\"240\",\"245\",\"245\",\"240\") with joints"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M155,235 Q100,180 60,160...\" fill=\"#cc8800\"/> <path d=\"M245,235 Q300,180 340,160...\" fill=\"#cc8800\"/> (amber feathered wings)"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<line x1=\"164\" y1=\"275\" x2=\"192\" y2=\"275\" stroke=\"#cc4400\"/> <line x1=\"178\" y1=\"261\" x2=\"178\" y2=\"289\" stroke=\"#cc4400\"/> (grid = compound eyes)"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"170\" cy=\"345\" r=\"5\" fill=\"#ff00ff\" filter=\"url(#glow)\"/> <circle cx=\"230\" cy=\"345\" r=\"5\" fill=\"#ff00ff\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#0a0a1a\"/> <!-- Background: deep space -->"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"30\" cy=\"20\" r=\"1\" fill=\"white\" opacity=\"0.8\"/> (multiple star circles)"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "fish body + 8 spider legs + bird wings + compound insect eyes all present in code"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#0a0a1a\"/> + star circles + no ground element"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "upside-down fish with spider legs, bird wings, insect eyes, fire breath, floating in space"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "8 leg lines with joints: left side x1=\"160\",\"155\",\"155\",\"160\" and right side x1=\"240\",\"245\",\"245\",\"240\""
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M155,235 Q100,180 60,160 Q90,200 80,230 Q110,215 130,240 Z\" fill=\"#cc8800\"/> + feather lines"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"178\" cy=\"275\" rx=\"14\" ry=\"14\" fill=\"url(#eyeGrad)\"/> with grid lines stroke=\"#cc4400\""
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M188,315 Q180,335 170,345\" stroke=\"#7ecfff\"/> <path d=\"M212,315 Q220,335 230,345\" stroke=\"#7ecfff\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"310\" rx=\"12\" ry=\"30\" fill=\"url(#fireGrad)\" opacity=\"0.9\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<!-- CREATURE: A fish with wings, 8 legs, and fire coming from mouth, all floating upside-down -->"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#0a0a1a\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "fill=\"url(#bodyGrad)\" stops: #7ecfff, #1a6fa0; stroke=\"#4488aa\"; fill=\"#88ccee\" dominant blue/cyan tones"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "fill=\"#cc8800\", fill=\"#ffaa00\" (wings), fill=\"#ff6600\", fill=\"#ff8800\" (fire) as orange accents"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"170\" cy=\"345\" r=\"5\" fill=\"#ff00ff\" filter=\"url(#glow)\"/> <circle cx=\"230\" cy=\"345\" r=\"5\" fill=\"#ff00ff\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bodyGrad\"...> <radialGradient id=\"eyeGrad\"...> <radialGradient id=\"fireGrad\"...>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<line x1=\"160\" y1=\"220\" x2=\"110\" y2=\"175\" stroke=\"#4488aa\" stroke-width=\"3\" stroke-linecap=\"round\"/> (precise leg lines)"
+    },
+    {
+      "id": "a31",
+      "valor": "no_esta",
+      "evidencia": "gradients, glow filters, detailed feathered wings and scale patterns suggest illustrative not schematic style"
+    },
+    {
+      "id": "a32",
+      "valor": "no_esta",
+      "evidencia": "filter=\"url(#glow)\" radialGradients and artistic shading contradict technical diagram style"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#0a0a1a\"/> + no ground + star circles = vacuum of space"
+    }
+  ]
+}

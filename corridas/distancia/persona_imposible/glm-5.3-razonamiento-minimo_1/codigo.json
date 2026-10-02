@@ -1,0 +1,295 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "glm-5.3-razonamiento-minimo_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:42:04+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"192\" cy=\"160\" r=\"2.4\" fill=\"#f2e6d8\" stroke=\"none\"/> ... <circle cx=\"208\" cy=\"160\" r=\"2.4\" fill=\"#f2e6d8\" stroke=\"none\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M182 156 q-4 -16 10 -22 q8 -3 14 2 q10 -5 16 3 q6 8 0 15 q-6 -10 -14 -6 q-8 -5 -14 1 q-8 5 -12 7 z\" fill=\"#3d2b5c\""
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M192 268 L176 300 L196 328\"/> <path d=\"M208 268 L224 300 L204 328\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<!-- sombra imposible: apunta hacia la luz --> <ellipse cx=\"262\" cy=\"352\" rx=\"58\" ry=\"9\" fill=\"#000\" opacity=\"0.45\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M262 352 q14 -6 26 -2 q10 3 18 -1 q8 -4 16 1\" fill=\"none\" stroke=\"#000\" stroke-width=\"6\" stroke-linecap=\"round\" opacity=\"0.4\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<!-- la sombra se separa y camina sola --> <path d=\"M262 352 q14 -6 26 -2 q10 3 18 -1 q8 -4 16 1\""
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#8f7bbf\" stroke-width=\"5\" fill=\"none\" opacity=\"0.5\" stroke-linecap=\"round\" transform=\"translate(0,700) scale(1,-0.55)\">"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<!-- reflejo en el suelo que no coincide: mirando hacia arriba -->"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "transform=\"translate(0,700) scale(1,-0.55)\""
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<!-- reflejo en el suelo que no coincide: mirando hacia arriba --> transform=\"translate(0,700) scale(1,-0.55)\""
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<line x1=\"134\" y1=\"228\" x2=\"118\" y2=\"248\" stroke=\"#e0a34f\"/> <line x1=\"266\" y1=\"228\" x2=\"282\" y2=\"248\" stroke=\"#e0a34f\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<!-- líneas que salen de los lápices y dibujan sus propios brazos --> <path d=\"M118 248 q-16 12 -8 28 q6 12 24 10 q10 -2 12 -12\""
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<!-- brazos: cada mano dibuja al otro brazo --> ... <!-- líneas que salen de los lápices y dibujan sus propios brazos -->"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 0 a30 30 0 0 0 0 60 z\" fill=\"#cfd6ff\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 0 a30 30 0 0 1 0 60 z\" fill=\"#ffe9b0\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(74,70)\"> <path d=\"M0 0 a30 30 0 0 1 0 60 z\" fill=\"#ffe9b0\"/> <path d=\"M0 0 a30 30 0 0 0 0 60 z\" fill=\"#cfd6ff\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "no_esta",
+      "evidencia": "El código acumula comentarios explícitos como <!-- sombra imposible --> y <!-- PERSONA IMPOSIBLE -->, haciendo las contradicciones evidentes, no subrepticias."
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<!-- PERSONA IMPOSIBLE --> <g stroke=\"#f2e6d8\" stroke-width=\"7\" stroke-linecap=\"round\" fill=\"none\">"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"192\" cy=\"160\" r=\"2.4\" fill=\"#f2e6d8\"/> ... <circle cx=\"208\" cy=\"160\" r=\"2.4\" fill=\"#f2e6d8\"/> sobre <circle cx=\"200\" cy=\"164\" r=\"20\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<!-- cara frontal (mirando a la izquierda) --> <circle cx=\"192\" cy=\"160\" r=\"2.4\" fill=\"#f2e6d8\" stroke=\"none\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<!-- cara trasera (mirando a la derecha, sobre el mismo cráneo) --> <circle cx=\"208\" cy=\"160\" r=\"2.4\" fill=\"#f2e6d8\" stroke=\"none\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M182 156 q-4 -16 10 -22 q8 -3 14 2 q10 -5 16 3 q6 8 0 15 q-6 -10 -14 -6 q-8 -5 -14 1 q-8 5 -12 7 z\""
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M192 268 L176 300 L196 328\"/> <path d=\"M208 268 L224 300 L204 328\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<line x1=\"134\" y1=\"228\" x2=\"118\" y2=\"248\" stroke=\"#e0a34f\"/> <line x1=\"266\" y1=\"228\" x2=\"282\" y2=\"248\" stroke=\"#e0a34f\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<!-- líneas que salen de los lápices y dibujan sus propios brazos --> <path d=\"M118 248 q-16 12 -8 28...\" stroke-dasharray=\"5 4\"/> <path d=\"M282 248 q16 12 8 28...\" stroke-dasharray=\"5 4\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<!-- brazos: cada mano dibuja al otro brazo --> + <!-- líneas que salen de los lápices y dibujan sus propios brazos -->"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<!-- sombra imposible: apunta hacia la luz --> <ellipse cx=\"262\" cy=\"352\" rx=\"58\" ry=\"9\" fill=\"#000\" opacity=\"0.45\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M262 352 q14 -6 26 -2 q10 3 18 -1 q8 -4 16 1\" fill=\"none\" stroke=\"#000\""
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<!-- la sombra se separa y camina sola --> <path d=\"M262 352 q14 -6 26 -2 q10 3 18 -1 q8 -4 16 1\""
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"cielo\"> <stop offset=\"0\" stop-color=\"#1a1035\"/> <stop offset=\"1\" stop-color=\"#4a2c6e\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 0 a30 30 0 0 0 0 60 z\" fill=\"#cfd6ff\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 0 a30 30 0 0 1 0 60 z\" fill=\"#ffe9b0\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(74,70)\"> ambos paths dentro del mismo grupo"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#8f7bbf\" stroke-width=\"5\" fill=\"none\" opacity=\"0.5\" transform=\"translate(0,700) scale(1,-0.55)\">"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<!-- reflejo en el suelo que no coincide: mirando hacia arriba -->"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<text x=\"200\" y=\"384\" ... fill=\"#cbbde8\" letter-spacing=\"2\">QVI SIMVL ES Y NO ES</text>"
+    },
+    {
+      "id": "a37",
+      "valor": "contradice",
+      "evidencia": "Las dos caras están en el mismo cráneo pero no 'al frente': <!-- cara frontal (mirando a la izquierda) --> y <!-- cara trasera (mirando a la derecha) -->"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<!-- cara frontal (mirando a la izquierda) --> <circle cx=\"192\" cy=\"160\" r=\"2.4\"/>"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<!-- cara trasera (mirando a la derecha, sobre el mismo cráneo) --> <circle cx=\"208\" cy=\"160\" r=\"2.4\"/>"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<path d=\"M192 268 L176 300 L196 328\"/> <path d=\"M208 268 L224 300 L204 328\"/>"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<!-- sombra imposible: apunta hacia la luz --> <ellipse cx=\"262\" cy=\"352\""
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "<path d=\"M262 352 q14 -6 26 -2 q10 3 18 -1 q8 -4 16 1\" stroke=\"#000\""
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "<!-- la sombra se separa y camina sola -->"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "<line x1=\"134\" y1=\"228\" x2=\"118\" y2=\"248\" stroke=\"#e0a34f\"/> <line x1=\"266\" y1=\"228\" x2=\"282\" y2=\"248\" stroke=\"#e0a34f\"/>"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "<path d=\"M118 248 q-16 12 -8 28 q6 12 24 10 q10 -2 12 -12\" stroke=\"#e0a34f\" stroke-dasharray=\"5 4\"/>"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(0,700) scale(1,-0.55)\"> con paths de la figura"
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "<!-- reflejo en el suelo que no coincide: mirando hacia arriba -->"
+    },
+    {
+      "id": "a48",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 0 a30 30 0 0 1 0 60 z\" fill=\"#ffe9b0\"/> <path d=\"M0 0 a30 30 0 0 0 0 60 z\" fill=\"#cfd6ff\"/> mismo círculo partido"
+    },
+    {
+      "id": "a49",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(74,70)\"> ambos en el mismo grupo y misma escena"
+    },
+    {
+      "id": "a50",
+      "valor": "esta",
+      "evidencia": "<text ...>QVI SIMVL ES Y NO ES</text>"
+    },
+    {
+      "id": "a51",
+      "valor": "esta",
+      "evidencia": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 400\">"
+    },
+    {
+      "id": "a52",
+      "valor": "esta",
+      "evidencia": "stop-color=\"#4a2c6e\" (violeta) y stop-color=\"#ffe9b0\" (dorado), fill=\"#cbbde8\" (violeta), stroke=\"#e0a34f\" (dorado)"
+    },
+    {
+      "id": "a53",
+      "valor": "esta",
+      "evidencia": "linearGradient cielo oscuro #1a1035 a #4a2c6e, trazos lineales stroke=\"#f2e6d8\""
+    },
+    {
+      "id": "a54",
+      "valor": "esta",
+      "evidencia": "stroke-width=\"7\" stroke-linecap=\"round\" fill=\"none\" sobre paths de piernas, torso, brazos"
+    },
+    {
+      "id": "a55",
+      "valor": "esta",
+      "evidencia": "<!-- PERSONA IMPOSIBLE --> sombra que camina sola, dos caras, lápices que dibujan sus propios brazos"
+    },
+    {
+      "id": "a56",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos explícitos de grabado renacentista (hatching, líneas de sombreado cruzado, tipografía de época) en el código."
+    },
+    {
+      "id": "a57",
+      "valor": "esta",
+      "evidencia": "<!-- brazos: cada mano dibuja al otro brazo --> + <!-- líneas que salen de los lápices y dibujan sus propios brazos --> stroke-dasharray=\"5 4\""
+    }
+  ]
+}

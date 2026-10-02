@@ -1,0 +1,145 @@
+{
+  "consigna": "autorretrato",
+  "unidad": "minimax-m3_2",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:53:30+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"195\" rx=\"85\" ry=\"105\" fill=\"url(#face)\" stroke=\"#5a7baa\" stroke-width=\"1.5\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"35%\" stop-color=\"#00ccff\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M145,155 L160,155 L160,170 L175,170\"/> ... <path d=\"M255,155 L240,155 L240,170 L225,170\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#5a7baa\" stroke-width=\"0.8\" fill=\"none\" opacity=\"0.7\">"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"100%\" stop-color=\"#08081a\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#223\" stroke-width=\"0.5\" opacity=\"0.4\"><line x1=\"0\" y1=\"50\" x2=\"400\" y2=\"50\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"80\" cy=\"80\" r=\"2.5\"/><circle cx=\"150\" cy=\"120\" r=\"2.5\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\" cx=\"50%\" cy=\"50%\" r=\"70%\"><stop offset=\"0%\" stop-color=\"#1a1a3e\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<line x1=\"200\" y1=\"90\" x2=\"200\" y2=\"55\" stroke=\"#00aaff\" stroke-width=\"2\"/><circle cx=\"200\" cy=\"50\" r=\"6\" fill=\"#00ccff\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"50\" r=\"10\" fill=\"none\" stroke=\"#00ccff\" opacity=\"0.5\"/><circle cx=\"200\" cy=\"50\" r=\"16\" fill=\"none\" stroke=\"#00ccff\" opacity=\"0.3\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<line x1=\"200\" y1=\"90\" x2=\"200\" y2=\"55\" stroke=\"#00aaff\" stroke-width=\"2\"/><circle cx=\"200\" cy=\"50\" r=\"22\" fill=\"none\" stroke=\"#00ccff\" opacity=\"0.15\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M178,260 Q200,272 222,260\" stroke=\"#5a7baa\" stroke-width=\"1.8\" fill=\"none\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#5a7baa\" stroke-width=\"0.8\" fill=\"none\" opacity=\"0.7\"><path d=\"M145,155 L160,155 L160,170 L175,170\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"100%\" stop-color=\"#08081a\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"195\" rx=\"85\" ry=\"105\" fill=\"url(#face)\""
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#3a4a6e\"/><stop offset=\"100%\" stop-color=\"#1a2a4e\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#5a7baa\" stroke-width=\"0.8\" fill=\"none\" opacity=\"0.7\"><path d=\"M145,155 L160,155 L160,170 L175,170\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"170\" cy=\"195\" r=\"11\" fill=\"url(#eye)\"/><stop offset=\"35%\" stop-color=\"#00ccff\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "contradice",
+      "evidencia": "<line x1=\"200\" y1=\"90\" x2=\"200\" y2=\"55\"/> — emerge de la coronilla/parte superior, no de la frente"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"50\" r=\"10\" fill=\"none\" stroke=\"#00ccff\" opacity=\"0.5\"/><circle cx=\"200\" cy=\"50\" r=\"16\" fill=\"none\" stroke=\"#00ccff\" opacity=\"0.3\"/><circle cx=\"200\" cy=\"50\" r=\"22\" fill=\"none\" stroke=\"#00ccff\" opacity=\"0.15\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#223\" stroke-width=\"0.5\" opacity=\"0.4\"><line x1=\"0\" y1=\"50\" x2=\"400\" y2=\"50\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#2a3a5e\" stroke-width=\"1\" fill=\"none\"><path d=\"M0,80 L80,80 L80,120 L150,120\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"45\" cy=\"190\" r=\"1.5\" opacity=\"0.7\"/><circle cx=\"55\" cy=\"200\" r=\"1.5\" opacity=\"0.6\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"bg\"> ... <stop offset=\"0%\" stop-color=\"#1a1a3e\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"195\" rx=\"85\" ry=\"105\" fill=\"url(#face)\"/> + <g stroke=\"#5a7baa\" stroke-width=\"0.8\" fill=\"none\" opacity=\"0.7\">"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<g stroke=\"#5a7baa\" stroke-width=\"0.8\" fill=\"none\" opacity=\"0.7\"><path d=\"M145,155 L160,155 L160,170 L175,170\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"45\" cy=\"190\" r=\"1.5\" opacity=\"0.7\"/><circle cx=\"55\" cy=\"200\" r=\"1.5\" opacity=\"0.6\"/><circle cx=\"40\" cy=\"210\" r=\"1.5\" opacity=\"0.5\"/>"
+    }
+  ]
+}

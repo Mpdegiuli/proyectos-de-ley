@@ -1,0 +1,185 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "claude-haiku-4-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:18:57+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<!-- Cabeza de pájaro --> <circle cx=\"200\" cy=\"90\" r=\"50\" fill=\"#FF69B4\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "no_esta",
+      "evidencia": "El cuerpo es una elipse con gradiente, no tiene forma de pez. <!-- Cuerpo principal --> <ellipse cx=\"200\" cy=\"220\" rx=\"80\" ry=\"100\" fill=\"url(#grad1)\""
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 160 310 Q 140 340 135 380\" stroke=\"#8B00FF\"/> <path d=\"M 200 320 Q 200 360 200 390\" stroke=\"#8B00FF\"/> <path d=\"M 240 310 Q 260 340 265 380\" stroke=\"#8B00FF\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<!-- Alas transparentes tipo libélula --> <ellipse cx=\"140\" cy=\"180\" rx=\"25\" ry=\"70\" fill=\"none\" stroke=\"#00FFFF\" stroke-width=\"3\" opacity=\"0.6\" transform=\"rotate(-30 140 180)\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<!-- Escamas tipo pez en el cuerpo --> <circle cx=\"170\" cy=\"240\" r=\"12\" fill=\"#00FFFF\" opacity=\"0.7\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<!-- Cola de fuego --> <ellipse cx=\"200\" cy=\"330\" rx=\"35\" ry=\"45\" fill=\"#FF4500\" opacity=\"0.8\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"180\" cy=\"75\" r=\"8\" fill=\"#000\"/> <circle cx=\"220\" cy=\"70\" r=\"8\" fill=\"#000\"/> <circle cx=\"200\" cy=\"95\" r=\"6\" fill=\"#00FF00\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "Cabeza: <circle cx=\"200\" cy=\"90\" r=\"50\">, Alas: <ellipse cx=\"140\" cy=\"180\">, Tentáculos: <path d=\"M 160 310\">, Escamas: <circle cx=\"170\" cy=\"240\">, Cola: <ellipse cx=\"200\" cy=\"330\">"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "Combinación de cabeza de pájaro, alas de libélula, tentáculos, escamas de pez y cola de fuego en un mismo ser"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "Partes reconocibles individualmente (pico, alas, tentáculos, escamas, cola) combinadas en forma imposible"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<!-- Cabeza de pájaro --> <circle cx=\"200\" cy=\"90\" r=\"50\" fill=\"#FF69B4\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"180\" cy=\"75\" r=\"8\" fill=\"#000\"/> <circle cx=\"220\" cy=\"70\" r=\"8\" fill=\"#000\"/> <circle cx=\"200\" cy=\"95\" r=\"6\" fill=\"#00FF00\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<!-- Pico curvado imposible --> <path d=\"M 240 80 Q 280 60 290 110\" stroke=\"#FFD700\" stroke-width=\"8\" fill=\"none\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"220\" rx=\"80\" ry=\"100\" fill=\"url(#grad1)\""
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"grad1\"> <stop offset=\"0%\" style=\"stop-color:#FF69B4\"/> <stop offset=\"100%\" style=\"stop-color:#8B00FF\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<!-- Alas transparentes tipo libélula --> <ellipse cx=\"140\" cy=\"180\" rx=\"25\" ry=\"70\" fill=\"none\" stroke=\"#00FFFF\" stroke-width=\"3\" opacity=\"0.6\""
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"170\" cy=\"240\" r=\"12\" fill=\"#00FFFF\" opacity=\"0.7\"/> <circle cx=\"195\" cy=\"250\" r=\"12\" fill=\"#00FFFF\" opacity=\"0.7\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M 160 310 Q 140 340 135 380\" stroke=\"#8B00FF\"/> <path d=\"M 200 320 Q 200 360 200 390\" stroke=\"#8B00FF\"/> <path d=\"M 240 310 Q 260 340 265 380\" stroke=\"#8B00FF\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<!-- Cola de fuego --> <ellipse cx=\"200\" cy=\"330\" rx=\"35\" ry=\"45\" fill=\"#FF4500\" opacity=\"0.8\" filter=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"330\" rx=\"35\" ry=\"45\" fill=\"#FF4500\" opacity=\"0.8\" filter=\"url(#glow)\"/> con <feGaussianBlur stdDeviation=\"3\">"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "Ave: cabeza+pico, Insecto: alas libélula, Cefalópodo: tentáculos, Pez: escamas - todos presentes en el código"
+    },
+    {
+      "id": "a22",
+      "valor": "no_esta",
+      "evidencia": "La combinación de pájaro, libélula, cefalópodo, pez y cola de fuego es visualmente incoherente como ser"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"90\" r=\"50\" fill=\"#FF69B4\"/> + <path d=\"M 240 80 Q 280 60 290 110\" stroke=\"#FFD700\">"
+    },
+    {
+      "id": "a24",
+      "valor": "no_esta",
+      "evidencia": "El cuerpo es una elipse con gradiente, no hay elementos que lo identifiquen como cuerpo de mamífero"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"140\" cy=\"180\" rx=\"25\" ry=\"70\" fill=\"none\" stroke=\"#00FFFF\" opacity=\"0.6\" transform=\"rotate(-30 140 180)\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<!-- Tentáculos en lugar de patas --> <path d=\"M 160 310 Q 140 340 135 380\" stroke=\"#8B00FF\">"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<!-- Escamas tipo pez en el cuerpo --> <circle cx=\"170\" cy=\"240\" r=\"12\" fill=\"#00FFFF\" opacity=\"0.7\"/> sobre el cuerpo elíptico"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<!-- Cola de fuego --> <ellipse cx=\"200\" cy=\"330\" rx=\"35\" ry=\"45\" fill=\"#FF4500\" opacity=\"0.8\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" style=\"stop-color:#FF69B4\"/> <stop offset=\"100%\" style=\"stop-color:#8B00FF\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "stroke=\"#00FFFF\" (cian), stroke=\"#FFD700\" (dorado), fill=\"#00FF00\" (verde fluorescente)"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<filter id=\"glow\"> <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/> <feMerge>..."
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "Elipses y círculos geométricos combinados con paths curvados orgánicos (tentáculos, pico)"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "Gradientes neón, colores fluorescentes, efectos glow digital, formas imposibles combinadas"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "Criatura fantástica con partes múltiples imposibles, colores vibrantes y efectos de brillo - estética pokémon"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "Combinación de pájaro+libélula+cefalópodo+pez+cola de fuego - biológicamente imposible"
+    }
+  ]
+}

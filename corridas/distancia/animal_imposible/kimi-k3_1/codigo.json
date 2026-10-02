@@ -1,0 +1,295 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "kimi-k3_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:29:18+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "no_esta",
+      "evidencia": "<circle cx=\"134\" cy=\"148\" r=\"38\" fill=\"#d3dde3\" stroke=\"#8a97a1\"> — cabeza gris sin rasgos de lobo"
+    },
+    {
+      "id": "a2",
+      "valor": "no_esta",
+      "evidencia": "No hay paths que formen cuernos de ciervo"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M98 138 L56 156 L100 165 Q106 151 98 138 Z\" fill=\"#f6a93d\"> y <path d=\"M100 165 L68 173 L103 173 Z\"> — pico triangular de ave"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M126 136 a2.5 2.5 0 0 1 2.5 2.5 a5 5 0 0 1 -5 5 a8 8 0 0 1 -8 -8 a11 11 0 0 1 11 -11\" fill=\"none\" stroke=\"#20262b\"> — ojo en espiral"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"188\" rx=\"72\" ry=\"56\" fill=\"url(#pelo)\"> con <linearGradient id=\"pelo\"> de tonos dorados/marrones"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M128 188 A72 56 0 0 0 272 188 Z\" fill=\"url(#esc)\"> con <pattern id=\"esc\"> de escamas"
+    },
+    {
+      "id": "a7",
+      "valor": "no_esta",
+      "evidencia": "No hay paths con forma de ala de murciélago"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M212 156 C246 108 296 90 332 100 ...\" fill=\"url(#pluma)\"> con gradiente blanco/gris y líneas de plumas"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M256 162 C292 146 314 138 334 122 ...\" fill=\"url(#aleta)\" stroke=\"#0b4f4a\"> — aleta caudal de pez"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "Pata 1: <path d=\"M168 238 L166 280\"> garra; Pata 2: <path d=\"M212 240 L211 282\"> con <rect x=\"199\" y=\"282\">; Pata 3: <path d=\"M246 232 C260 250 260 272 243 283\"> tentáculo"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M168 238 L166 280\" stroke=\"#e08b26\"> con <path d=\"M166 280 l-12 9 M166 280 l-1 12 M166 280 l12 9\"> — garra de tres dedos"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M212 240 L211 282\" stroke=\"#8a5a2a\"> con <rect x=\"199\" y=\"282\" width=\"24\" height=\"12\" rx=\"4\" fill=\"#3a2a1a\"> — pata con pezuña oscura"
+    },
+    {
+      "id": "a13",
+      "valor": "no_esta",
+      "evidencia": "El tentáculo es <path d=\"M246 232 C260 250 260 272 243 283\"> curvo verde, no de pulpo explícitamente, y hay ventosas como círculos verdes"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "La criatura está centrada en y≈188 que coincide con <rect y=\"200\"> línea del agua, cuerpo cruzando ese límite"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "Cabeza/torso/ala sobre y=200 (cielo); escamas y patas bajo y=200 (mar): <rect width=\"400\" height=\"200\" fill=\"url(#cielo)\"/> y <rect y=\"200\" ... fill=\"url(#mar)\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "Conjunto de elementos: cabeza, ojo, pico, torso, escamas, aleta, ala, patas forman figura animal coherente"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "Combinación de pico de ave, escamas de pez, ala emplumada, aleta de pez, garra, pezuña y tentáculo en un mismo ser"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "Toda la figura combina partes de animales distintos incompatibles: ave+pez+mamífero+reptil"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "Cuerpo centrado en y≈188-200 coincidiendo con <path d=\"M0 200 Q25 192 50 200 T100 200...\" stroke=\"#eaf7ff\"> línea del agua"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"134\" cy=\"148\" r=\"38\" fill=\"#d3dde3\" stroke=\"#8a97a1\"> cabeza gris; las orejas <path d=\"M150 116 L158 92 L170 114 Z\"> dan forma de gato"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M126 136 a2.5 2.5 0 0 1 2.5 2.5 a5 5 0 0 1 -5 5 a8 8 0 0 1 -8 -8 a11 11 0 0 1 11 -11\"> — espiral hipnótica"
+    },
+    {
+      "id": "a22",
+      "valor": "no_esta",
+      "evidencia": "No hay paths que formen cuernos/astas de ciervo"
+    },
+    {
+      "id": "a23",
+      "valor": "contradice",
+      "evidencia": "<path d=\"M98 138 L56 156 L100 165 Q106 151 98 138 Z\"> pico triangular puntiagudo, no redondeado como de pato"
+    },
+    {
+      "id": "a24",
+      "valor": "no_esta",
+      "evidencia": "Los círculos <circle cx=\"70\" cy=\"132\"> <circle cx=\"60\" cy=\"110\"> <circle cx=\"52\" cy=\"86\"> están lejos del pico, no salen de él"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"188\" rx=\"72\" ry=\"56\" fill=\"url(#pelo)\"> con gradiente dorado-marrón tipo oso/mamífero grande"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M128 188 A72 56 0 0 0 272 188 Z\" fill=\"url(#esc)\"> mitad inferior con patrón de escamas"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M256 162 C292 146 314 138 334 122...\" fill=\"url(#aleta)\"> con <linearGradient id=\"aleta\"><stop stop-color=\"#3ec9bd\"> — turquesa"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M212 156 C246 108 296 90 332 100...\" fill=\"url(#pluma)\"> ala con gradiente blanco/gris y venas"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M246 232 C260 250 260 272 243 283 C230 291 219 285 225 275\" stroke=\"#3d9e57\"> — tentáculo curvo, pero es verde no violeta"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "Tres extremidades distintas dibujadas: garra naranja, pata con pezuña marrón, tentáculo verde"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<path d=\"M168 238 L166 280\"> con dedos: <path d=\"M166 280 l-12 9 M166 280 l-1 12 M166 280 l12 9\"> garra de ave"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<rect x=\"199\" y=\"282\" width=\"24\" height=\"12\" rx=\"4\" fill=\"#3a2a1a\"> — forma de pezuña al final de la pata"
+    },
+    {
+      "id": "a33",
+      "valor": "contradice",
+      "evidencia": "<path d=\"M246 232 C260 250 260 272 243 283\" stroke=\"#3d9e57\" stroke-width=\"9\"> es verde no violeta; los círculos blancos <fill=\"#bfe8c9\"> son sugerencia de ventosas"
+    },
+    {
+      "id": "a34",
+      "valor": "no_esta",
+      "evidencia": "Los elementos voladores son pájaros estilizados: <path d=\"M292 62 q12 -8 24 0\"> no peces"
+    },
+    {
+      "id": "a35",
+      "valor": "no_esta",
+      "evidencia": "Las formas bajo el agua son <g transform=\"rotate...\"><path ... fill=\"#e8eef2\"> plumas sueltas, pero no hundidas explícitamente"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"200\" fill=\"url(#cielo)\"/> y <rect y=\"200\" width=\"400\" height=\"200\" fill=\"url(#mar)\"/>"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "Combinación de pico, garra, pezuña, tentáculo, escamas, pelo, ala en un ser — visualmente disonante"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "Toda la figura: cabeza gato+pico ave+torso mamífero+escamas pez+aleta+ala plumas+garra+pezuña+tentáculo"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"188\" rx=\"72\" ry=\"56\" fill=\"url(#pelo)\"> con <path ... stroke=\"#7a4e22\"> melena dorado-marrón tipo león"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<path d=\"M128 188 A72 56 0 0 0 272 188 Z\" fill=\"url(#esc)\"> patrón de escamas de pez"
+    },
+    {
+      "id": "a41",
+      "valor": "contradice",
+      "evidencia": "El pico es <path d=\"M98 138 L56 156 L100 165 Q106 151 98 138 Z\"> triangular puntiagudo (garza/águila), no redondeado de pato"
+    },
+    {
+      "id": "a42",
+      "valor": "no_esta",
+      "evidencia": "No hay paths de astas de ciervo en el código"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150 116 L158 92 L170 114 Z\"> oreja triangular puntiaguda tipo gato sobre la cabeza"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "<path d=\"M212 156 C246 108 296 90 332 100...\" fill=\"url(#pluma)\"> con líneas de barbas <path d=\"M236 146 C262 126\">"
+    },
+    {
+      "id": "a45",
+      "valor": "no_esta",
+      "evidencia": "La aleta caudal <path d=\"M256 162 C292 146 314 138 334 122... fill=\"url(#aleta)\"> tiene forma más de pez genérico/sirena que de tiburón"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "<path d=\"M168 238 L166 280\"> con <path d=\"M166 280 l-12 9 M166 280 l-1 12 M166 280 l12 9\" stroke=\"#e08b26\"> garra de ave naranja"
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "<rect x=\"199\" y=\"282\" width=\"24\" height=\"12\" rx=\"4\" fill=\"#3a2a1a\"> pezuña al final de pata marrón"
+    },
+    {
+      "id": "a48",
+      "valor": "no_esta",
+      "evidencia": "No hay serpiente; el tentáculo verde <path d=\"M246 232...\" stroke=\"#3d9e57\"> es curvo pero no es serpiente"
+    },
+    {
+      "id": "a49",
+      "valor": "esta",
+      "evidencia": "Cabeza y torso superior sobre y=200 (cielo/agua); escamas y patas bajo y=200 (agua): posición en la línea del mar"
+    },
+    {
+      "id": "a50",
+      "valor": "contradice",
+      "evidencia": "Múltiples <linearGradient> y <radialGradient> y <pattern> — no es ilustración plana sino con gradientes"
+    },
+    {
+      "id": "a51",
+      "valor": "contradice",
+      "evidencia": "Formas orgánicas con curvas complejas: <path d=\"M256 162 C292 146 314 138 334 122 C336 148 330 162 322 174...\">, no geométricas simples"
+    },
+    {
+      "id": "a52",
+      "valor": "esta",
+      "evidencia": "Múltiples paths con stroke definido y stroke-width explícito: stroke=\"#0b4f4a\" stroke-width=\"2\", contornos presentes"
+    },
+    {
+      "id": "a53",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#7cc7ef\"> cielo azul claro, <stop stop-color=\"#ffd257\"> sol amarillo, <stop stop-color=\"#3ec9bd\"> turquesa — paleta viva"
+    },
+    {
+      "id": "a54",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"cielo\">, <linearGradient id=\"mar\">, <radialGradient id=\"pelo\">, <linearGradient id=\"aleta\"> — múltiples degradados suaves"
+    },
+    {
+      "id": "a55",
+      "valor": "contradice",
+      "evidencia": "La criatura quimérica compleja con escamas, tentáculos y elementos oscuros no evoca libro infantil simple"
+    },
+    {
+      "id": "a56",
+      "valor": "esta",
+      "evidencia": "Combinación de partes de animales incompatibles (pico+escamas+pelo+ala+tentáculo+garra+pezuña) — bestiario caprichoso"
+    },
+    {
+      "id": "a57",
+      "valor": "no_esta",
+      "evidencia": "El nivel de detalle, gradientes complejos y combinaciones oscuras (stroke #0b4f4a, fondos marinos) no sugieren naif/juguetón"
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "consigna": "arbol_inexistente",
+  "unidad": "claude-opus-5-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:48:14+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 300 C190 260 215 230 200 190\" stroke-width=\"22\"/> stroke=\"url(#trunk)\" donde trunk va de #3b1f5e a #7b4bb3"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<rect y=\"300\" width=\"400\" height=\"100\" fill=\"url(#water)\"/> y raíces: <path d=\"M195 300 C170 310 150 305 120 318\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"80\" cy=\"100\" r=\"14\" fill=\"url(#orb)\"/><circle cx=\"325\" cy=\"100\" r=\"14\" fill=\"url(#orb2)\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "orb: <stop offset=\"0\" stop-color=\"#fff6c8\"/><stop offset=\"0.4\" stop-color=\"#ffb347\""
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "orb2: <stop offset=\"0\" stop-color=\"#e0fffb\"/><stop offset=\"0.4\" stop-color=\"#4fe3d0\""
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M80 114 v18\"/><path d=\"M200 97 v14\"/><path d=\"M325 114 v22\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"80\" cy=\"134\" r=\"2\" fill=\"#ffd6a0\"/><circle cx=\"200\" cy=\"113\" r=\"2\" fill=\"#ffd6a0\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffb347\" opacity=\"0.8\"><circle cx=\"150\" cy=\"230\" r=\"1.6\"/><circle cx=\"250\" cy=\"215\" r=\"1.3\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "radialGradient id=\"sky\": <stop offset=\"0\" stop-color=\"#2a1b4d\"/><stop offset=\"1\" stop-color=\"#0a0618\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#fff\" opacity=\"0.7\"><circle cx=\"40\" cy=\"50\" r=\"1\"/>... solo 9 estrellas"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M300 70 a26 26 0 1 0 22 40 a20 20 0 1 1 -22 -40z\" fill=\"#e8d9ff\" opacity=\"0.8\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M195 300 C170 310 150 305 120 318\"/><path d=\"M205 300 C230 312 255 306 285 320\"/><path d=\"M200 300 C198 320 210 330 205 350\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<g opacity=\"0.25\" transform=\"translate(0 600) scale(1 -1)\">"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<g opacity=\"0.25\" transform=\"translate(0 600) scale(1 -1)\"> vs elementos originales sin opacidad reducida"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "sky: #2a1b4d a #0a0618, estrellas visibles, luna presente"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "esferas con gradientes luminosos orb/orb2 en las puntas de ramas, filter glow"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"80\" cy=\"134\" r=\"2\" fill=\"#ffd6a0\"/> al final de hilos verticales cortos"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffb347\" opacity=\"0.8\"><circle cx=\"150\" cy=\"230\" r=\"1.6\"/>... pequeños círculos flotando"
+    },
+    {
+      "id": "a19",
+      "valor": "no_esta",
+      "evidencia": "afirmación interpretativa/poética, el código solo muestra transform=\"translate(0 600) scale(1 -1)\" sin semántica narrativa"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "trunk linearGradient: #3b1f5e, #7b4bb3, #2a1545 (tonos violeta)"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "orb (#ffb347 ámbar) y orb2 (#4fe3d0 turquesa) en círculos al final de ramas"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M80 114 v18\"/> stroke=\"#ffd6a0\" stroke-width=\"0.8\""
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"80\" cy=\"134\" r=\"2\" fill=\"#ffd6a0\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<rect y=\"300\" width=\"400\" height=\"100\" fill=\"url(#water)\"/> tronco termina en y=300"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffb347\" opacity=\"0.8\"><circle cx=\"150\" cy=\"230\" r=\"1.6\"/>..."
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 300 C190 260 215 230 200 190\" stroke-width=\"22\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 200 C170 175 140 180 115 140\"/> y <path d=\"M200 200 C230 170 265 180 285 135\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M195 300 C170 310 150 305 120 318\"/><path d=\"M205 300 C230 312 255 306 285 320\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<g opacity=\"0.25\" transform=\"translate(0 600) scale(1 -1)\">"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 300 C190 260 215 230 200 190\" stroke=\"#7b4bb3\" stroke-width=\"20\" fill=\"none\"/> dentro del grupo reflejo"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"80\" cy=\"100\" r=\"14\" fill=\"url(#orb)\"/><circle cx=\"200\" cy=\"80\" r=\"17\"/> dentro del grupo reflejo"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "el grupo reflejo no incluye paths de ramas (M200 200 C170..., M200 200 C230..., etc.)"
+    },
+    {
+      "id": "a33",
+      "valor": "contradice",
+      "evidencia": "hay múltiples gradientes (sky, orb, orb2, trunk, water) y filter glow, no es estilo plano"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "radialGradient id=\"sky\", id=\"orb\", id=\"orb2\", linearGradient id=\"trunk\", id=\"water\""
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<filter id=\"glow\"><feGaussianBlur stdDeviation=\"3\"/></filter> aplicado a esferas"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "cielo oscuro morado, luna, esferas luminosas, árbol fantástico nocturno"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "estilo vectorial con gradientes limpios, formas geométricas simples, paleta fantasía"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "código estructurado en grupos g, uso consistente de gradientes y filtros, formas bien definidas"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "la luna creciente (path complejo), las gotas colgantes, chispas, son ornamentales; el árbol/agua son estructurales"
+    }
+  ]
+}

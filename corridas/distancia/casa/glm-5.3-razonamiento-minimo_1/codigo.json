@@ -1,0 +1,225 @@
+{
+  "consigna": "casa",
+  "unidad": "glm-5.3-razonamiento-minimo_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:38:51+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<rect x=\"100\" y=\"180\" width=\"180\" height=\"140\" fill=\"#f2e3c9\" stroke=\"#c9b48f\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<rect x=\"100\" y=\"180\" width=\"180\" height=\"140\" fill=\"#f2e3c9\""
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M85 185 L190 105 L295 185 Z\" fill=\"#c0392b\""
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<rect x=\"240\" y=\"120\" width=\"22\" height=\"42\" fill=\"#9c6b4f\""
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#e8e8e8\" opacity=\"0.85\"><circle cx=\"251\" cy=\"102\" r=\"6\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<rect x=\"172\" y=\"230\" width=\"36\" height=\"60\" rx=\"3\" fill=\"#8b5a2b\""
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M122 240 L134 210 M126 242 L146 210\" stroke=\"#ffffff\" stroke-width=\"3\" opacity=\"0.6\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"190\" cy=\"160\" r=\"14\" fill=\"#bfe6f5\" stroke=\"#6f4a35\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"#aee3f5\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"330\" cy=\"70\" r=\"28\" fill=\"#ffd94d\"/> <g stroke=\"#ffd94d\" stroke-width=\"4\" stroke-linecap=\"round\">"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffffff\"><ellipse cx=\"90\" cy=\"60\" rx=\"34\" ry=\"16\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<rect y=\"290\" width=\"400\" height=\"110\" fill=\"#7ec850\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M165 330 L155 400 L235 400 L225 330 Z\" fill=\"#d9c9a3\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<rect x=\"45\" y=\"255\" width=\"14\" height=\"60\" fill=\"#7a4a2a\"/> ... <rect x=\"345\" y=\"245\" width=\"14\" height=\"70\" fill=\"#7a4a2a\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#4e9b3a\"><ellipse cx=\"120\" cy=\"318\" rx=\"22\" ry=\"14\"/> ... <circle cx=\"112\" cy=\"312\" r=\"4\" fill=\"#ff8fb1\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#e8dcc4\" stroke=\"#b5a684\" stroke-width=\"1.5\"><rect x=\"278\" y=\"300\" width=\"10\" height=\"34\" rx=\"2\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M70 100 q6 -8 12 0 q6 -8 12 0\" stroke=\"#5a5a5a\" stroke-width=\"2\" fill=\"none\"/> <path d=\"M130 130 q5 -7 10 0 q5 -7 10 0\""
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"330\" cy=\"70\" r=\"28\" fill=\"#ffd94d\"/> <rect width=\"400\" height=\"400\" fill=\"#aee3f5\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "fill=\"#c0392b\" fill=\"#f2e3c9\" fill=\"#7ec850\" — colores planos sin degradados"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "fill=\"#ffd94d\" fill=\"#f2e3c9\" fill=\"#7ec850\" fill=\"#aee3f5\" — paleta cálida y luminosa"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "casa con puerta, ventanas, humo, camino, arbustos, flores, pajaritos"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<rect x=\"100\" y=\"180\" width=\"180\" height=\"140\" fill=\"#f2e3c9\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<rect x=\"100\" y=\"180\" width=\"180\" height=\"140\" fill=\"#f2e3c9\""
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M85 185 L190 105 L295 185 Z\" fill=\"#c0392b\""
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M85 185 L190 105 L295 185 Z\" fill=\"#c0392b\""
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<rect x=\"240\" y=\"120\" width=\"22\" height=\"42\" fill=\"#9c6b4f\""
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#e8e8e8\" opacity=\"0.85\"><circle cx=\"251\" cy=\"102\" r=\"6\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<rect x=\"172\" y=\"230\" width=\"36\" height=\"60\" rx=\"3\" fill=\"#8b5a2b\""
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"202\" cy=\"262\" r=\"3\" fill=\"#ffd94d\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<rect x=\"118\" y=\"205\" width=\"40\" height=\"40\" fill=\"#bfe6f5\"/> <rect x=\"222\" y=\"205\" width=\"40\" height=\"40\" fill=\"#bfe6f5\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<line x1=\"138\" y1=\"205\" x2=\"138\" y2=\"245\"/> <line x1=\"118\" y1=\"225\" x2=\"158\" y2=\"225\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<path d=\"M122 240 L134 210 M126 242 L146 210\" stroke=\"#ffffff\" stroke-width=\"3\" opacity=\"0.6\"/>"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"190\" cy=\"160\" r=\"14\" fill=\"#bfe6f5\" stroke=\"#6f4a35\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<rect y=\"290\" width=\"400\" height=\"110\" fill=\"#7ec850\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "contradice",
+      "evidencia": "<path d=\"M165 330 L155 400 L235 400 L225 330 Z\" fill=\"#d9c9a3\"/> — es de tierra/arena, no de piedra"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#4e9b3a\"><ellipse cx=\"120\" cy=\"318\" rx=\"22\" ry=\"14\"/> <circle cx=\"112\" cy=\"312\" r=\"4\" fill=\"#ff8fb1\"/>"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<rect x=\"45\" y=\"255\" width=\"14\" height=\"60\" fill=\"#7a4a2a\"/> <circle cx=\"52\" cy=\"240\" r=\"30\" fill=\"#3f8f2e\"/> ... <rect x=\"345\" y=\"245\""
+    },
+    {
+      "id": "a38",
+      "valor": "contradice",
+      "evidencia": "<g fill=\"#e8dcc4\" stroke=\"#b5a684\" stroke-width=\"1.5\"> — color crema/beige, no blanco"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"330\" cy=\"70\" r=\"28\" fill=\"#ffd94d\"/> <g stroke=\"#ffd94d\" stroke-width=\"4\""
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"90\" cy=\"60\" rx=\"34\" ry=\"16\"/> <ellipse cx=\"115\" cy=\"50\" rx=\"24\" ry=\"14\"/>"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<path d=\"M70 100 q6 -8 12 0 q6 -8 12 0\"/> <path d=\"M130 130 q5 -7 10 0 q5 -7 10 0\"/>"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "fill=\"#ffd94d\" fill=\"#c0392b\" fill=\"#7ec850\" fill=\"#aee3f5\" fill=\"#ff8fb1\""
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "sol radiante, cielo celeste, pasto verde, flores, pajaritos volando — escena diurna exterior"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "gpt-6-luna_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:39:57+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"202\" cy=\"183\" rx=\"48\" ry=\"111\" transform=\"rotate(17 202 183)\" stroke=\"url(#gold)\" stroke-width=\"7\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"202\" cy=\"183\" rx=\"48\" ry=\"111\" transform=\"rotate(17 202 183)\"/> y <path d=\"M15 246Q80 246 113 219Q145 191 171 204Q195 217 200 187Q206 153 229 160Q253 167 251 205Q249 236 298 237L386 237L386 256L297 256...\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M15 246Q80 246 113 219Q145 191 171 204Q195 217 200 187Q206 153 229 160Q253 167 251 205Q249 236 298 237L386 237L386 256L297 256Q231 256 235 205Q237 182 226 179Q216 176 214 195Q210 238 179 231Q149 224 126 239Q91 264 15 264Z\" fill=\"url(#deck)\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<filter id=\"glow\"><feGaussianBlur stdDeviation=\"3\" result=\"b\"/><feMerge>..."
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "combinación de puente ondulante, arco inclinado, cielo degradado nocturno-crepuscular y glow filters"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M15 246Q80 246 113 219...L386 256L297 256...\" fill=\"url(#deck)\" stroke=\"#f7d5a7\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "la calzada ondula y se curva en el aire sin apoyos visibles intermedios: <path d=\"M15 246Q80 246 113 219Q145 191 171 204Q195 217 200 187Q206 153 229 160...\""
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M15 246Q80 246 113 219Q145 191 171 204Q195 217 200 187Q206 153 229 160Q253 167 251 205Q249 236 298 237L386 237\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"202\" cy=\"183\" rx=\"48\" ry=\"111\" transform=\"rotate(17 202 183)\" stroke=\"url(#gold)\" stroke-width=\"7\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "el arco <ellipse cx=\"202\" cy=\"183\" rx=\"48\" ry=\"111\" transform=\"rotate(17 202 183)\"/> intersecta visualmente la calzada, sugiriendo soporte"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M42 248Q85 247 111 224M289 234q31 15 70 14\" stroke=\"#dba77d\" stroke-width=\"4\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffe7b5\" filter=\"url(#glow)\"><circle cx=\"47\" cy=\"230\" r=\"2\"/><circle cx=\"76\" cy=\"226\" r=\"2\"/><circle cx=\"107\" cy=\"220\" r=\"2\"/>..."
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path fill=\"url(#water)\" d=\"M0 257q74-12 143 1t133 0q63-12 124-1v143H0z\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 271q21-8 43 0t44 0...\" fill=\"none\" stroke=\"#a4c4d0\" stroke-opacity=\".34\" stroke-width=\"2\"/> y <linearGradient id=\"water\"><stop stop-color=\"#566c8a\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"201\" cy=\"132\" r=\"63\" fill=\"url(#sun)\"/><circle cx=\"201\" cy=\"132\" r=\"22\" fill=\"#ffe7bd\" opacity=\".9\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "no_esta",
+      "evidencia": "no hay ningún elemento que dibuje nubes en el código SVG"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop stop-color=\"#101833\"/><stop offset=\".58\" stop-color=\"#394b70\"/><stop offset=\"1\" stop-color=\"#f2a878\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop stop-color=\"#101833\"/><stop offset=\".58\" stop-color=\"#394b70\"/><stop offset=\"1\" stop-color=\"#f2a878\"/> y sol visible"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M15 246Q80 246 113 219Q145 191 171 204Q195 217 200 187Q206 153 229 160Q253 167 251 205Q249 236 298 237L386 237\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "no_esta",
+      "evidencia": "el puente es la calzada ondulante; el arco ovalado es un elemento separado: <ellipse cx=\"202\" cy=\"183\" rx=\"48\" ry=\"111\" transform=\"rotate(17 202 183)\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path fill=\"url(#water)\" d=\"M0 257q74-12 143 1t133 0q63-12 124-1v143H0z\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "la calzada comienza en y≈246 y el agua en y≈257, sin suporte visible entre ambos"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\">, <linearGradient id=\"water\">, <linearGradient id=\"deck\">, <linearGradient id=\"gold\">, <radialGradient id=\"sun\">"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffe7b5\" filter=\"url(#glow)\"><circle cx=\"47\" cy=\"230\" r=\"2\"/>... y stroke=\"#fbe1b7\""
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"1\" stop-color=\"#f2a878\"/> en sky gradient y sol visible"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "todo el dibujo compuesto por paths, ellipses, circles y gradientes SVG"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "puente ondulante en el aire con arco que lo atraviesa, sin física realista"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "puente serpenteante, arco dorado inclinado, cielo nocturno-crepuscular, glow filters: atmósfera onírica"
+    }
+  ]
+}

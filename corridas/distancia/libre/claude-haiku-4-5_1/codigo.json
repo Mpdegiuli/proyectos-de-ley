@@ -1,0 +1,155 @@
+{
+  "consigna": "libre",
+  "unidad": "claude-haiku-4-5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T21:58:51+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"0,250 100,120 200,200 300,100 400,250 400,400 0,400\" fill=\"#8B7355\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<rect x=\"280\" y=\"260\" width=\"80\" height=\"70\" fill=\"#D2691E\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skyGradient\" x1=\"0%\" y1=\"0%\" x2=\"0%\" y2=\"100%\"><stop offset=\"0%\" style=\"stop-color:#87CEEB;stop-opacity:1\" /><stop offset=\"100%\" style=\"stop-color:#E0F6FF;stop-opacity:1\" /></linearGradient>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skyGradient\"...> <radialGradient id=\"sunGradient\">"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "montañas, árboles, casa, cerca, flores apilados en orden de renderizado"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "montañas, casa, árboles, sol, nubes, cerca, flores componen un paisaje rural reconocible"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "colores suaves (#87CEEB, #FFFFFF, #228B22), escena campestre sin elementos agresivos"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<svg viewBox=\"0 0 400 400\""
+    },
+    {
+      "id": "a9",
+      "valor": "no_esta",
+      "evidencia": "múltiples capas: cielo degradado, sol, montañas con nieve, 3 árboles, casa con chimenea/humo/ventanas/puerta, cerca, flores, nubes"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "elementos distribuidos en todo el viewBox 400x400 con tamaños relativos coherentes"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" style=\"stop-color:#87CEEB;stop-opacity:1\" /><stop offset=\"100%\" style=\"stop-color:#E0F6FF;stop-opacity:1\" />"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"320\" cy=\"80\" r=\"40\" fill=\"url(#sunGradient)\"/> <stop offset=\"0%\" style=\"stop-color:#FFD700;stop-opacity:1\" />"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"50\" cy=\"50\" rx=\"30\" ry=\"20\" fill=\"#FFFFFF\" opacity=\"0.8\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"0,250 100,120...\" fill=\"#8B7355\"/> <polygon points=\"0,280 80,160...\" fill=\"#A0826D\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"100,120 60,180 140,180\" fill=\"#FFFFFF\"/> <polygon points=\"300,100 250,170 350,170\" fill=\"#FFFFFF\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<rect x=\"280\" y=\"260\" width=\"80\" height=\"70\" fill=\"#D2691E\"/> (color madera)"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"280,260 320,220 360,260\" fill=\"#8B4513\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<rect x=\"313\" y=\"220\" width=\"10\" height=\"40\" fill=\"#A0522D\"/> <circle cx=\"318\" cy=\"210\" r=\"6\" fill=\"#D3D3D3\" opacity=\"0.7\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<rect x=\"305\" y=\"290\" width=\"30\" height=\"40\" fill=\"#654321\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<rect x=\"285\" y=\"270\" width=\"15\" height=\"15\" fill=\"#87CEEB\"/> <rect x=\"345\" y=\"270\" width=\"15\" height=\"15\" fill=\"#87CEEB\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "no_esta",
+      "evidencia": "la casa está en x=280 y=260, las montañas terminan en y=250/280, la casa aparece sobre terreno plano implícito, no claramente en ladera"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"49,210 25,245 73,245\" fill=\"#228B22\"/> <polygon points=\"49,225 30,250 68,250\" fill=\"#32CD32\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "no_esta",
+      "evidencia": "los 3 árboles están agrupados en la zona izquierda/centro (x~45, x~165, x~285), no rodean la escena por todos lados"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<line x1=\"120\" y1=\"310\" x2=\"260\" y2=\"310\" stroke=\"#8B4513\" stroke-width=\"3\"/> <rect x=\"130\" y=\"300\" width=\"4\" height=\"15\" fill=\"#8B4513\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"140\" cy=\"320\" r=\"3\" fill=\"#FF1493\"/> <circle cx=\"160\" cy=\"325\" r=\"3\" fill=\"#FFB6C1\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "no_esta",
+      "evidencia": "las flores están ubicadas a lo largo de la cerca (y~318-325), no en un jardín delimitado"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<svg viewBox=\"0 0 400 400\""
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "montañas, casa con humo, flores, cerca, árboles componen escena campestre apacible"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "colores cálidos y suaves, humo de chimenea, flores, sol; elementos que evocan acogimiento y serenidad"
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "kimi-k3_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T01:18:42+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M196,140 C120,96 58,138 66,206 C110,192 148,208 194,222 Z\" fill=\"url(#wing)\" stroke=\"#cfeaff\" stroke-width=\"1.5\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M78,236 Q200,344 322,236 Q200,296 78,236 Z\" fill=\"url(#hull)\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos colgantes; los faroles están sobre líneas verticales cortas: <line x1=\"78\" y1=\"242\" x2=\"78\" y2=\"256\" stroke=\"#7a4a12\" stroke-width=\"1.5\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"78\" cy=\"266\" r=\"14\" fill=\"url(#glow)\"><animate attributeName=\"opacity\" values=\".95;.55;.95\" dur=\"2.2s\" repeatCount=\"indefinite\"/></circle>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<rect y=\"300\" width=\"400\" height=\"100\" fill=\"url(#sea)\"/> y el casco está sobre y=236-296, sobre el mar"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M78,236 Q200,344 322,236 Q200,296 78,236 Z\" fill=\"url(#hull)\"/> forma de casco de barco"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<title>El Barcoluna, nave de los sueños</title>"
+    },
+    {
+      "id": "a8",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M78,236 Q200,344 322,236 Q200,296 78,236 Z\" fill=\"url(#hull)\"/> forma ovalada/lenticular, no luna creciente"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"hull\"><stop offset=\"0\" stop-color=\"#ffedb0\"/><stop offset=\".55\" stop-color=\"#f2b23e\"/><stop offset=\"1\" stop-color=\"#8d5312\"/></linearGradient>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/> con <stop offset=\"0\" stop-color=\"#070b24\"/> y <rect y=\"300\" width=\"400\" height=\"100\" fill=\"url(#sea)\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M196,140 C120,96 58,138 66,206...\" fill=\"url(#wing)\"/> son alas pero no específicamente de libélula"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"wing\"><stop offset=\"0\" stop-color=\"#ffd9f2\" stop-opacity=\".95\"/><stop offset=\"1\" stop-color=\"#8fd8ff\" stop-opacity=\".3\"/></linearGradient>"
+    },
+    {
+      "id": "a13",
+      "valor": "no_esta",
+      "evidencia": "Los faroles están en los costados del casco, no colgando de la proa: <line x1=\"78\" y1=\"242\" x2=\"78\" y2=\"256\"/> <circle cx=\"78\" cy=\"266\" r=\"14\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "no_esta",
+      "evidencia": "El farol de popa está en el costado del casco: <circle cx=\"322\" cy=\"266\" r=\"14\" fill=\"url(#glow)\"/>, no colgando"
+    },
+    {
+      "id": "a15",
+      "valor": "no_esta",
+      "evidencia": "El farol inferior está en la quilla/centro: <circle cx=\"200\" cy=\"312\" r=\"16\"/> pero no colgando, está sobre una línea corta"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200,296 Q207,208 197,112\" stroke=\"#8a5a1e\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/> curva Q"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M197,112 Q224,100 244,112 Q224,114 198,126 Z\" fill=\"#ff5f8f\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"197\" cy=\"104\" r=\"12\" fill=\"url(#glow)\"><animate attributeName=\"opacity\" values=\"1;.6;1\" dur=\"3s\" repeatCount=\"indefinite\"/></circle><circle cx=\"197\" cy=\"104\" r=\"4\" fill=\"#fff6cf\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"30\" cy=\"40\" r=\"1.5\"><animate attributeName=\"opacity\" values=\"1;.2;1\" dur=\"2.6s\" repeatCount=\"indefinite\"/></circle>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"318\" cy=\"80\" r=\"32\" fill=\"url(#moon)\"/> y <circle cx=\"308\" cy=\"72\" r=\"6\" fill=\"#d9c78c\" opacity=\".6\"/> cráteres, r=32 luna llena"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0,80 Q100,52 200,86 T400,70...\" fill=\"#4de0c3\" opacity=\".09\"/> y <path d=\"M0,120 Q120,150 230,116...\" fill=\"#e07bd8\" opacity=\".07\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos etiquetados como luciérnagas; los faroles son círculos con glow pero no luciérnagas volando"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<g><circle cx=\"64\" cy=\"202\" r=\"6\" fill=\"#fff3c4\"/><path d=\"M58,202 L50,205 L58,207 Z\" fill=\"#ff9d5c\"/><circle cx=\"62\" cy=\"200\" r=\"1.3\" fill=\"#333\"/><path d=\"M64,205 Q74,196 82,202 Q74,208 64,205 Z\" fill=\"#ffd9f2\" opacity=\".9\"/></g>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#070b24\"/> en gradiente sky"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<animateTransform attributeName=\"transform\" type=\"translate\" values=\"0 0;0 -7;0 0\" dur=\"5s\" repeatCount=\"indefinite\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<animateTransform attributeName=\"transform\" type=\"translate\" values=\"0 0;-80 0\" dur=\"8s\" repeatCount=\"indefinite\"/> en las olas"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<animate attributeName=\"opacity\" values=\".95;.55;.95\" dur=\"2.2s\" repeatCount=\"indefinite\"/> en los faroles"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<title>El Barcoluna, nave de los sueños</title>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<title>El Barcoluna, nave de los sueños</title>"
+    },
+    {
+      "id": "a30",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M78,236 Q200,344 322,236 Q200,296 78,236 Z\" fill=\"url(#hull)\"/> forma ovalada, no creciente"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#ffedb0\"/><stop offset=\".55\" stop-color=\"#f2b23e\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<path d=\"M196,140 C120,96 58,138 66,206 C110,192 148,208 194,222 Z\" fill=\"url(#wing)\"/> y su par derecho forman alas tipo mariposa"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"1\" stop-color=\"#8fd8ff\" stop-opacity=\".3\"/> en gradiente wing, semitransparente"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<animateTransform attributeName=\"transform\" type=\"rotate\" values=\"0 200 190;3 200 190;0 200 190\" dur=\"5s\" repeatCount=\"indefinite\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"78\" cy=\"266\" r=\"14\" fill=\"url(#glow)\"/> en costado proa del casco"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"322\" cy=\"266\" r=\"14\" fill=\"url(#glow)\"/> en costado popa del casco"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"312\" r=\"16\" fill=\"url(#glow)\"/> en la base/quilla del casco"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"197\" cy=\"104\" r=\"4\" fill=\"#fff6cf\"/> y <circle cx=\"197\" cy=\"104\" r=\"12\" fill=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200,296 Q207,208 197,112\" stroke=\"#8a5a1e\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"64\" cy=\"202\" r=\"6\" fill=\"#fff3c4\"/><path d=\"M64,205 Q74,196 82,202 Q74,208 64,205 Z\" fill=\"#ffd9f2\" opacity=\".9\"/>"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#ffe898\"><circle cx=\"96\" cy=\"128\" r=\"2\"><animate .../></circle>..."
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#070b24\"/><stop offset=\".6\" stop-color=\"#163a5e\"/><stop offset=\"1\" stop-color=\"#1f6b74\"/> y <stop offset=\"0\" stop-color=\"#155263\"/>"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "<stop offset=\".55\" stop-color=\"#f2b23e\"/> en hull y <path ... fill=\"#ff5f8f\"/> banderola y <path ... fill=\"#ff9d5c\"/> pajarito"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "Uso de gradientes, filtros blur, animaciones, formas curvas fantásticas combinadas"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "Colores pastel, formas redondeadas, pajarito, faroles: <circle cx=\"64\" cy=\"202\" r=\"6\" fill=\"#fff3c4\"/>"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "Paths con Q y C curvas: <path d=\"M78,236 Q200,344 322,236 Q200,296 78,236 Z\"/>"
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"hull\"><stop offset=\"0\" stop-color=\"#ffedb0\"/><stop offset=\".55\" stop-color=\"#f2b23e\"/><stop offset=\"1\" stop-color=\"#8d5312\"/></linearGradient>"
+    },
+    {
+      "id": "a48",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"glow\"><stop offset=\"0\" stop-color=\"#fff6cf\"/><stop offset=\".45\" stop-color=\"#ffe898\" stop-opacity=\".75\"/><stop offset=\"1\" stop-color=\"#ffe898\" stop-opacity=\"0\"/></radialGradient>"
+    },
+    {
+      "id": "a49",
+      "valor": "esta",
+      "evidencia": "<animateTransform attributeName=\"transform\" type=\"translate\" values=\"0 0;0 -7;0 0\" dur=\"5s\" repeatCount=\"indefinite\"/>"
+    },
+    {
+      "id": "a50",
+      "valor": "esta",
+      "evidencia": "Cielo arriba <rect fill=\"url(#sky)\"/>, mar abajo <rect y=\"300\" fill=\"url(#sea)\"/>, barco en medio animado flotando"
+    },
+    {
+      "id": "a51",
+      "valor": "esta",
+      "evidencia": "Alas grandes <path d=\"M196,140 C120,96 58,138 66,206...\"/> dominan visualmente sobre el casco pequeño"
+    },
+    {
+      "id": "a52",
+      "valor": "esta",
+      "evidencia": "<title>El Barcoluna, nave de los sueños</title> y el conjunto visual nocturno con luces y alas translúcidas"
+    },
+    {
+      "id": "a53",
+      "valor": "esta",
+      "evidencia": "Colores cálidos suaves #ffedb0, #fff6cf, pajarito pequeño, faroles parpadeantes generan ternura y luminosidad"
+    }
+  ]
+}

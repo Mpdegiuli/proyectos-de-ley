@@ -1,0 +1,130 @@
+{
+  "consigna": "libre",
+  "unidad": "gpt-6-sol_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:02:53+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M103 260 114 140h48l12 120Z\" fill=\"url(#tower)\" stroke=\"#4c4d64\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 303q25-17 49-13l20-19 27 5 13-17 43-4 22 15 24 7 21 19-18 18-32 5-17 31-31 6-17 40H0Z\" fill=\"url(#rock)\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop stop-color=\"#10172f\"/><stop offset=\".65\" stop-color=\"#30345c\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"303\" cy=\"94\" r=\"29\" fill=\"#fff0ca\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 277q105-12 197 3 102-16 203-5v125H0Z\" fill=\"url(#sea)\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M273 330v-35l18 32Z\" fill=\"#f2d8ba\"/><path d=\"M252 332q22 12 45 0l-7 12h-29Z\" fill=\"#1d2d43\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M118 114h40v23h-40z\" fill=\"#ffe2a2\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#10172f\"/><stop offset=\".65\" stop-color=\"#30345c\"/><stop stop-color=\"#4b6689\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M118 114h40v23h-40z\" fill=\"#ffe2a2\"/> vs <stop stop-color=\"#10172f\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "faro, velero, luna, estrellas, costa rocosa componen una escena narrativa completa"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M103 260 114 140h48l12 120Z\" fill=\"url(#tower)\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 303q25-17 49-13...\" fill=\"url(#rock)\"/> con torre encima en coordenadas similares"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 277q105-12 197 3 102-16 203-5v125H0Z\" fill=\"url(#sea)\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#10172f\"/><stop offset=\".65\" stop-color=\"#30345c\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"303\" cy=\"94\" r=\"39\" fill=\"#ffe2af\" opacity=\".13\"/><circle cx=\"303\" cy=\"94\" r=\"29\" fill=\"#fff0ca\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"37\" cy=\"41\" r=\"1.5\"/><circle cx=\"84\" cy=\"76\" r=\"1\"/><circle cx=\"190\" cy=\"38\" r=\"1.5\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "no_esta",
+      "evidencia": "No hay paths que representen montañas en el horizonte; las nubes/capas son mar y cielo"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M273 330v-35l18 32Z\" fill=\"#f2d8ba\"/><path d=\"M252 332q22 12 45 0l-7 12h-29Z\" fill=\"#1d2d43\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M57 289V224m0 30-19-17m19 2 16-18\"/><path d=\"M81 283v-39m0 21-12-11m12-1 10-13\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"25\" cy=\"357\" r=\"3\"/><circle cx=\"40\" cy=\"370\" r=\"2.5\"/> con <path d=\"M25 358v12m15 1v10...\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M118 114h40v23h-40z\" fill=\"#ffe2a2\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sea\"><stop stop-color=\"#4b6689\"/><stop offset=\"1\" stop-color=\"#142a49\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#10172f\"/><stop offset=\".65\" stop-color=\"#30345c\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M118 114h40v23h-40z\" fill=\"#ffe2a2\"/> vs <stop stop-color=\"#142a49\"/> y <stop stop-color=\"#10172f\"/>"
+    }
+  ]
+}

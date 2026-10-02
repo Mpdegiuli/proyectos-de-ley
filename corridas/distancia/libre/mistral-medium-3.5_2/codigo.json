@@ -1,0 +1,190 @@
+{
+  "consigna": "libre",
+  "unidad": "mistral-medium-3.5_2",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T22:09:04+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"350\" cy=\"80\" r=\"40\" fill=\"url(#sun)\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"100\" cy=\"100\" rx=\"60\" ry=\"30\" fill=\"white\" opacity=\"0.8\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0,300 Q100,250 200,300 T400,300 L400,400 L0,400 Z\" fill=\"#4caf50\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "no_esta",
+      "evidencia": "<rect x=\"180\" y=\"200\" width=\"40\" height=\"100\" fill=\"#795548\"/> <polygon points=\"180,200 200,150 220,200\" fill=\"#5d4037\"/> — es una casa/construcción con techo triangular, no un árbol"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<rect x=\"180\" y=\"200\" width=\"40\" height=\"100\" fill=\"#795548\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "no_esta",
+      "evidencia": "No hay elemento que represente hojas; el triángulo es fill=\"#5d4037\" (marrón oscuro), no verde"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<rect x=\"200\" y=\"250\" width=\"20\" height=\"20\" fill=\"#ffeb3b\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"190\" cy=\"220\" r=\"5\" fill=\"white\"/> <circle cx=\"210\" cy=\"220\" r=\"5\" fill=\"white\"/> <circle cx=\"200\" cy=\"230\" r=\"5\" fill=\"white\"/> <path d=\"M190,240 Q200,245 210,240\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"300\" cy=\"300\" r=\"20\" fill=\"#ff9800\"/> <circle cx=\"320\" cy=\"280\" r=\"15\" fill=\"#ff9800\"/> <circle cx=\"340\" cy=\"300\" r=\"15\" fill=\"#ff9800\"/> <circle cx=\"320\" cy=\"320\" r=\"15\" fill=\"#ff9800\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "no_esta",
+      "evidencia": "Los círculos naranjas están a cy=300/280/300/320, sobre las colinas verdes (y=300+), sin hilo o elevación clara"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "fill=\"#1e88e5\", fill=\"#ffeb3b\", fill=\"#4caf50\", fill=\"#795548\", fill=\"#ff9800\""
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M190,240 Q200,245 210,240\" stroke=\"black\" fill=\"none\"/> — cara sonriente, colores vivos"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"350\" cy=\"80\" r=\"40\"/> <circle cx=\"300\" cy=\"300\" r=\"20\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"100\" cy=\"100\" rx=\"60\" ry=\"30\" fill=\"white\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0,300 Q100,250 200,300 T400,300 L400,400 L0,400 Z\" fill=\"#4caf50\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<rect fill=\"url(#sky)\"/> (cielo) + <path fill=\"#4caf50\"/> (tierra) + edificio, nubes, sol (elementos)"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"300\" cy=\"300\" r=\"20\" fill=\"#ff9800\"/> — grupo de círculos naranjas agrupados"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#1e88e5\"/><stop offset=\"100%\" stop-color=\"#42a5f5\"/></linearGradient>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"350\" cy=\"80\" r=\"40\" fill=\"url(#sun)\"/> — esquina superior derecha"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "Dos grupos <g filter=\"url(#cloud)\">: uno centrado en cx=100 y otro en cx=250"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<feGaussianBlur stdDeviation=\"5\" result=\"blur\"/> en filter id=\"cloud\""
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0,300 ...\" fill=\"#4caf50\"/> <path d=\"M0,320 ...\" fill=\"#388e3c\"/> <path d=\"M0,340 ...\" fill=\"#2e7d32\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "no_esta",
+      "evidencia": "No hay figura blanca de muñeco de nieve; los círculos blancos son ojos/botones sobre una estructura marrón"
+    },
+    {
+      "id": "a25",
+      "valor": "no_esta",
+      "evidencia": "No hay muñeco de nieve; el triángulo marrón es parte de la construcción"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"190\" cy=\"220\" r=\"5\" fill=\"white\"/> <circle cx=\"210\" cy=\"220\" r=\"5\" fill=\"white\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"230\" r=\"5\" fill=\"white\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M190,240 Q200,245 210,240\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "contradice",
+      "evidencia": "Hay 4 círculos naranjas pero no hay elementos que los identifiquen como calabazas (sin tallo, sin nervaduras)"
+    },
+    {
+      "id": "a30",
+      "valor": "no_esta",
+      "evidencia": "No hay muñeco de nieve; los círculos naranjas están en cx=300-340, la construcción en x=180-220"
+    },
+    {
+      "id": "a31",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos de calabaza definidos; son círculos simples sin atributos otoñales"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<rect/>, <circle/>, <ellipse/>, <polygon/>, <path/> — formas geométricas básicas"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"/> <radialGradient id=\"sun\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<filter id=\"cloud\"><feGaussianBlur stdDeviation=\"5\"/></filter>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "Colores vivos, cara sonriente, elementos decorativos variados"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<svg viewBox=\"0 0 400 400\">"
+    }
+  ]
+}

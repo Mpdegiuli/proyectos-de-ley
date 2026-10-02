@@ -1,0 +1,215 @@
+{
+  "consigna": "arbol_inexistente",
+  "unidad": "grok-4.6_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:58:34+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 328 C176 300 168 250 174 200 C178 168 166 142 158 118 C186 128 196 108 200 86 C206 110 218 126 244 118 C234 144 224 168 228 202 C236 252 226 300 200 328Z\" fill=\"url(#tr)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sap\"><stop offset=\"0%\" stop-color=\"#ffe08a\"/><stop offset=\"100%\" stop-color=\"#ff6b9d\"/></linearGradient> ... stroke=\"url(#sap)\""
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"92\" cy=\"300\" r=\"3.2\" fill=\"#7ef0d0\"/><circle cx=\"322\" cy=\"306\" r=\"3.2\" fill=\"#ff9ad5\"/><circle cx=\"96\" cy=\"320\" r=\"2.2\" fill=\"#ffe08a\"/><circle cx=\"312\" cy=\"326\" r=\"2.2\" fill=\"#9ad4ff\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"132,86 138,72 144,86 138,92\"/> fill=\"#7b2cbf\" ... <polygon points=\"220,52 224,40 228,52 224,58\" fill=\"#48cae4\""
+    },
+    {
+      "id": "a5",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos descritos como paletas; las frutas/orbes conviven en el mismo espacio de la copa."
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"86\" r=\"11\"/> <circle cx=\"200\" cy=\"86\" r=\"17\"/> stroke=\"#e8d5ff\" ... <circle cx=\"200\" cy=\"86\" r=\"3.5\" fill=\"#fff6d8\" filter=\"url(#g)\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0%\" stop-color=\"#070814\"/><stop offset=\"50%\" stop-color=\"#15122e\"/></linearGradient> ... <circle cx=\"318\" cy=\"54\" r=\"18\" fill=\"#fff6d8\"/> (luna)"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "Múltiples capas: glows, gradientes, colores neón, filtros de brillo — efecto visual dinámico y orgánico."
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "El árbol tiene hojas bioluminiscentes, savia neón, raíces con luces — no corresponde a ningún árbol real."
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"368\" rx=\"170\" ry=\"28\" fill=\"url(#w)\"/> <ellipse cx=\"200\" cy=\"352\" rx=\"90\" ry=\"10\" fill=\"#1a2830\" opacity=\".5\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "no_esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#070814\"/><stop offset=\"50%\" stop-color=\"#15122e\"/> — el cielo es negro/azul muy oscuro, no violeta."
+    },
+    {
+      "id": "a12",
+      "valor": "no_esta",
+      "evidencia": "<circle cx=\"322\" cy=\"54\" r=\"18\" fill=\"#fff6d8\"/> <circle cx=\"314\" cy=\"48\" r=\"18\" fill=\"#15122e\"/> — luna llena con máscara circular, no creciente."
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"28\" cy=\"36\" r=\".7\"/><circle cx=\"67\" cy=\"18\" r=\"1.1\"/> ... fill=\"#e8e4ff\" opacity=\".85\""
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sap\"><stop offset=\"0%\" stop-color=\"#ffe08a\"/><stop offset=\"100%\" stop-color=\"#ff6b9d\"/></linearGradient> stroke=\"url(#sap)\" stroke-width=\"1.6\""
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M186 328 C160 300 142 268 128 238\" stroke=\"#3a2414\"/> ... <ellipse cx=\"200\" cy=\"368\" rx=\"170\" ry=\"28\" fill=\"url(#w)\"/> — raíces llegan hasta el estanque"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"92\" cy=\"300\" r=\"3.2\" fill=\"#7ef0d0\" filter=\"url(#g)\"/><circle cx=\"322\" cy=\"306\" r=\"3.2\" fill=\"#ff9ad5\" filter=\"url(#g)\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"78\" rx=\"54\" ry=\"36\" fill=\"#2d6a4f\"/> <ellipse cx=\"188\" cy=\"118\" rx=\"36\" ry=\"22\" fill=\"#74c69d\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"176\" cy=\"70\" rx=\"18\" ry=\"12\" fill=\"#9b2226\"/> <ellipse cx=\"240\" cy=\"88\" rx=\"20\" ry=\"13\" fill=\"#bb3e03\"/> <ellipse cx=\"196\" cy=\"96\" rx=\"14\" ry=\"9\" fill=\"#ee9b00\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"132,86 138,72 144,86 138,92\" fill=\"#7b2cbf\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<polygon points=\"220,52 224,40 228,52 224,58\" fill=\"#48cae4\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"168\" cy=\"82\" r=\"6\" fill=\"#ffe566\" filter=\"url(#g)\"/> <circle cx=\"236\" cy=\"74\" r=\"7\" fill=\"#ff6b9d\" filter=\"url(#g)\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "no_esta",
+      "evidencia": "No hay elementos de hojas sueltas flotando fuera de la copa."
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"86\" r=\"3.5\" fill=\"#fff6d8\" filter=\"url(#g)\"/> con anillos: <circle cx=\"200\" cy=\"86\" r=\"11\"/> <circle cx=\"200\" cy=\"86\" r=\"17\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#070814\"/> fondo nocturno + estrellas + luna"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "Savia neón, orbes brillantes, cristales geométricos, raíces con luces, colores imposibles — árbol fantástico."
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "Fondo nocturno (#070814), estanque (url(#w)), gemas/cristales (polygon fill=\"#7b2cbf\", fill=\"#48cae4\") — todo presente."
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "Árbol con savia #ff6b9d, hojas #74c69d bioluminiscentes, cristales poligonales, orbes — sin equivalente real."
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"78\" rx=\"54\" ry=\"36\" fill=\"#2d6a4f\"/> ... múltiples elipses formando copa"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"78\" rx=\"54\" ry=\"36\" fill=\"#2d6a4f\"/> <ellipse cx=\"124\" cy=\"128\" rx=\"40\" ry=\"28\" fill=\"#40916c\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<ellipse fill=\"#9b2226\"/> <ellipse fill=\"#bb3e03\"/> <ellipse fill=\"#ca6702\"/> <ellipse fill=\"#ee9b00\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<polygon fill=\"#7b2cbf\" opacity=\".7\">"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<polygon fill=\"#48cae4\" opacity=\".65\">"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"168\" cy=\"82\" r=\"6\" fill=\"#ffe566\" filter=\"url(#g)\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "stroke=\"url(#sap)\" (#ffe08a a #ff6b9d) + orbes #7ef0d0, #c77dff con filter glow"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"368\" rx=\"170\" ry=\"28\" fill=\"url(#w)\"/> con fondo nocturno (#070814)"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#070814\"/><stop offset=\"50%\" stop-color=\"#15122e\"/>"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "SVG con paths, ellipses, círculos, gradientes, filtros — ilustración vectorial clara."
+    },
+    {
+      "id": "a38",
+      "valor": "contradice",
+      "evidencia": "Múltiples gradientes: url(#tr), url(#sap), url(#sky), url(#w), radialGradient id=\"halo\" — no es plano."
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "Colores imposibles, savia neón, orbes brillantes, fondo cósmico, árbol fantástico — estilo onírico evidente."
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "Árbol con savia neón, cristales, orbes, raíces luminosas en estanque cósmico nocturno — claramente fantástico."
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "Savia #ff6b9d, orbes #7ef0d0, cristales poligonales, colores neón — nada botánico realista."
+    }
+  ]
+}

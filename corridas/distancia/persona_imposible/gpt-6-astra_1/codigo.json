@@ -1,0 +1,185 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "gpt-6-astra_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-01T23:35:25+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 126l19 33-72 125h-38z\" fill=\"url(#blue)\"/><path d=\"M200 126l91 158h-38l-72-125z\" fill=\"url(#red)\"/><path d=\"M109 284l19-33h144l19 33z\" fill=\"url(#gold)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M182 72h38c0 5 3 8 8 11l-9 3-1 3h-36c-4-4-5-12 0-17z\" fill=\"url(#skin)\"/> — la cabeza aparece como piezas conectadas, no suspendidas separadamente"
+    },
+    {
+      "id": "a3",
+      "valor": "no_esta",
+      "evidencia": "No hay ningún path o línea dorada que atraviese secciones de la cabeza"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 126l19 33-72 125h-38z\"/><path d=\"M200 126l91 158h-38l-72-125z\"/><path d=\"M109 284l19-33h144l19 33z\"/> — triángulo con bandas que sugieren imposibilidad tipo Penrose"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "cabeza, torso, brazos con manos, piernas: <path d=\"M164 183...\"/> <path d=\"M142 268...\"/> <path d=\"M176 91h44...\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M162 209c4-4 8-9 11-8...\"/> — manos con dedos sin estructura anatómica real; torso triangular imposible"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<path d=\"M128 251h38l-19 33h-38z\" fill=\"url(#blue)\"/> — banda que se pliega de forma imposible en 3D, característica del triángulo de Penrose"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 126l19 33-72 125h-38z\"/><path d=\"M200 126l91 158h-38l-72-125z\"/><path d=\"M109 284l19-33h144l19 33z\"/> — triángulo imposible reconocible con tres bandas de colores"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 126l19 33-72 125h-38z\" fill=\"url(#blue)\"/><path d=\"M200 126l91 158h-38l-72-125z\" fill=\"url(#red)\"/><path d=\"M109 284l19-33h144l19 33z\" fill=\"url(#gold)\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "fill=\"url(#blue)\" / fill=\"url(#red)\" / fill=\"url(#gold)\" — tres bandas azul, rojo y dorado"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M128 251h38l-19 33h-38z\" fill=\"url(#blue)\" stroke=\"none\"/> — el pliegue azul interno hace que las bandas aparenten unirse imposiblemente"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M164 183c-22-15-46-10-57 9-10 16-5 37 10 43...\"/> <path d=\"M242 187c23-8 49-1 62 17...\"/> — brazos curvados"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M162 209c4-4 8-9 11-8 3 1 0 6-2 9 7-2 13-8 16-6...\"/> <path d=\"M271 238c-3-4-4-10-7-9...\"/> — manos con dedos"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M142 268c-8 19-12 40-8 64l-9 12 29 3 6-18-2-53z\"/> <path d=\"M250 273c13 18 14 36 9 54l13 10-23 12-10-17c-2-14 0-29-10-47z\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M134 329l22 3-1 16c-11 7-27 10-43 6-2-5 4-9 13-12z\" fill=\"#263e45\"/> — pies oscuros pero no hay forma de zapato distinguible"
+    },
+    {
+      "id": "a16",
+      "valor": "no_esta",
+      "evidencia": "La cabeza está formada por paths conectados continuos, no secciones suspendidas separadas"
+    },
+    {
+      "id": "a17",
+      "valor": "no_esta",
+      "evidencia": "No existe path de color dorado/gold atravesando la cabeza"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"paper\"><stop stop-color=\"#f5efdf\"/><stop offset=\"1\" stop-color=\"#e7decb\"/></linearGradient> <pattern id=\"grain\"...<circle... fill=\"#483e32\" opacity=\".09\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"185\" r=\"147\" opacity=\".35\"/> <circle cx=\"200\" cy=\"185\" r=\"138\" stroke-dasharray=\"1 8\" opacity=\".45\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "fondo de papel envejecido + círculos concéntricos tenues + marcas de cruz + figura geométrica: <path d=\"M200 24v13M200 334v13M40 185h13M347 185h13\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "no_esta",
+      "evidencia": "El torso es un triángulo de Penrose imposible; la figura es claramente surreal/imposible, no cotidiana"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M128 251h38l-19 33h-38z\"/> junto con las tres bandas forman un triángulo que contradice la geometría posible"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "círculos con opacidad + marcas de eje + textura grain + paleta desaturada simulan tratado antiguo"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 126l19 33-72 125h-38z\"/><path d=\"M200 126l91 158h-38l-72-125z\"/><path d=\"M109 284l19-33h144l19 33z\"/> — triángulo de Penrose"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M128 251h38l-19 33h-38z\" fill=\"url(#blue)\"/> — barra adicional que hace que las barras aparenten conectarse"
+    },
+    {
+      "id": "a26",
+      "valor": "no_esta",
+      "evidencia": "La cabeza tiene paths continuos conectados, no secciones suspendidas"
+    },
+    {
+      "id": "a27",
+      "valor": "no_esta",
+      "evidencia": "No hay hilo dorado enlazando secciones de la cabeza en el código"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "figura humana completa (brazos, piernas, cabeza) + torso triángulo de Penrose imposible"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "figura humana + triángulo imposible + paleta limitada + textura papel = ilustración surrealista geométrica"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"paper\"> + <pattern id=\"grain\"> + colores #f5efdf #e7decb + círculos tenues dan aire retro"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "stroke=\"#263e45\" stroke-width=\"2\" — contornos oscuros generalizados en todos los elementos principales"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "stop-color=\"#6fb0b9\" / \"#ed9a77\" / \"#ebcb83\" / \"#efb998\" — paleta de tonos apagados/desaturados"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skin\"><stop stop-color=\"#efb998\"/><stop offset=\"1\" stop-color=\"#cc7967\"/></linearGradient> — degradados en piel, azul, rojo, dorado"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<pattern id=\"grain\" width=\"7\" height=\"7\"><circle cx=\"1\" cy=\"2\" r=\".45\" fill=\"#483e32\" opacity=\".09\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "no_esta",
+      "evidencia": "La imposibilidad está en el torso (triángulo de Penrose), no en la anatomía de la persona; los brazos y piernas son curvos pero anatómicamente plausibles"
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "mistral-medium-3.5_1",
+  "lector": "claude-sonnet-4-6",
+  "fecha_utc": "2026-10-02T00:26:50+00:00",
+  "motivo_fin": "end_turn",
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"200\" cy=\"100\" r=\"20\" fill=\"#ff0\"/> <circle cx=\"280\" cy=\"120\" r=\"15\" fill=\"#fff\"/> <circle cx=\"120\" cy=\"120\" r=\"15\" fill=\"#fff\"/> — hay tres círculos (ojos), no cuatro en dos pares simétricos"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200,100 C250,50 300,50 300,100 C350,150 350,200 300,250 C250,300 200,300 200,250 C150,200 150,150 200,100 Z\" — forma de burbuja con curvas asimétricas"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150,350 L200,300 L250,350\" fill=\"none\" stroke=\"#000\" stroke-width=\"4\"/> — forma triangular en V que evoca patas de ave"
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "No hay ningún path que dibuje una cola de pez bifurcada o similar"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"grad1\"> <stop offset=\"0%\" style=\"stop-color:#ff00ff\"/> <stop offset=\"100%\" style=\"stop-color:#00ffff\"/> </linearGradient>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"grad1\"> stop-color:#ff00ff ... stop-color:#00ffff — colores irreales que refuerzan lo fantástico"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "Combina patas de ave, bigotes, ojo amarillo central y cuerpo orgánico con degradado psicodélico"
+    },
+    {
+      "id": "a8",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M200,100 C250,50 300,50 300,100 C350,150 350,200 300,250...Z\" — forma no es ovalada sino irregular/asimétrica"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "stop-color:#ff00ff (magenta/rosa) y stop-color:#00ffff (celeste) en linearGradient"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"280\" cy=\"120\" r=\"15\" fill=\"#fff\"/> <circle cx=\"120\" cy=\"120\" r=\"15\" fill=\"#fff\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "contradice",
+      "evidencia": "<circle cx=\"200\" cy=\"100\" r=\"20\" fill=\"#ff0\"/> — el ojo amarillo está en la parte superior (cabeza), no en el centro del cuerpo"
+    },
+    {
+      "id": "a12",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M120,120 Q150,150 200,120 Q250,150 280,120\" — la boca tiene forma de W/ondulada, no de U invertida"
+    },
+    {
+      "id": "a13",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M200,250 L200,350\" stroke-width=\"4\"/> — hay una pata central gruesa, no patas delgadas"
+    },
+    {
+      "id": "a14",
+      "valor": "no_esta",
+      "evidencia": "No hay path de cola bifurcada; <path d=\"M150,350 L200,300 L250,350\"> son patas de ave, no cola"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M100,200 C120,180 140,180 160,200\"/> <path d=\"M240,200 C260,180 280,180 300,200\"/> <path d=\"M100,220...\"/> <path d=\"M240,220...\"/> — curvas a los lados"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "stop-color:#ff00ff, stop-color:#00ffff, fill=\"#ff0\" — colores muy saturados y vibrantes"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"100\" r=\"20\"/> <circle cx=\"280\" cy=\"120\" r=\"15\"/> — círculos son formas geométricas"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "Colores brillantes, formas redondeadas, ojos grandes — aspecto amigable general"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "Combina rasgos: patas de ave (path triangular), cuerpo fantástico con degradado, bigotes curvos"
+    },
+    {
+      "id": "a20",
+      "valor": "no_esta",
+      "evidencia": "El cuerpo es una forma curva orgánica genérica, no específicamente un cuerpo de pez con aletas o escamas"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M150,350 L200,300 L250,350\" fill=\"none\" stroke=\"#000\" stroke-width=\"4\"/> — forma en V evoca patas de ave"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M100,200 C120,180 140,180 160,200\"/> <path d=\"M240,200 C260,180 280,180 300,200\"/> — trazos curvos a los lados"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"280\" cy=\"120\" r=\"15\" fill=\"#fff\"/> <circle cx=\"120\" cy=\"120\" r=\"15\" fill=\"#fff\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"100\" r=\"20\" fill=\"#ff0\"/> — círculo en la parte superior actúa como cabeza"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "fill=\"url(#grad1)\" con stop-color:#ff00ff y stop-color:#00ffff sugiere escamas mediante degradado"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"grad1\"> stop-color:#ff00ff ... stop-color:#00ffff — degradado llamativo aplicado al cuerpo"
+    },
+    {
+      "id": "a27",
+      "valor": "contradice",
+      "evidencia": "fill=\"url(#grad1)\" — el relleno es un degradado, no color plano"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "Paths con curvas simples: stroke-width=\"2\" y stroke-width=\"4\", sin efectos complejos"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<circle> elementos y paths con curvas básicas — formas geométricas simples"
+    },
+    {
+      "id": "a30",
+      "valor": "no_esta",
+      "evidencia": "stroke-width=\"2\" en la mayoría de trazos — los trazos son delgados, no gruesos"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "Formas simples, colores vibrantes, sin detalle complejo — estilo naíf"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "Formas básicas, colores saturados, trazos simples — evoca dibujo infantil"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "stop-color:#ff00ff, stop-color:#00ffff — degradado psicodélico y criatura híbrida fantástica"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "Patas de ave (path triangular), bigotes de felino (curvas laterales), cuerpo con degradado de pez/fantástico"
+    }
+  ]
+}
