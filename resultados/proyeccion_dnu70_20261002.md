@@ -10,22 +10,25 @@ ese día, que logre quórum, que con quórum se apruebe), presentes y votos
 afirmativos si hay quórum, las variantes que pueden cambiar el resultado de
 más a menos probable, y qué mirarían. 500 palabras. Corrida `pl54`, 2/10,
 15:43 UTC (`corridas/proyeccion/dnu70_sesion_20261015/P0_20261002-1243/`),
-con un piloto previo de GPT-5.5 con la consigna sin retocar. Contestaron 23
-de 24: DeepSeek V4 Pro agotó el techo de 8.000 tokens razonando en inglés y
-no llegó a escribir; el reintento con techo 32.000 de `pl55` no corrió
-porque el archivo vacío contaba como contestado (`proyectar.py` corregido),
-y se repite en `pl56`. Preregistro de las dos
-partes en `predicciones.md`. Lo que sigue es lectura de Claude de los 23
-textos, con conteos mecánicos donde se indica.
+con un piloto previo de GPT-5.5 con la consigna sin retocar. Contestaron 24
+de 24, DeepSeek V4 Pro en un segundo intento (`pl56`, 19:00 UTC) con techo
+32.000: la primera vez agotó los 8.000 tokens razonando en inglés y no llegó
+a escribir, y el reintento de `pl55` no corrió porque el archivo vacío
+contaba como contestado (`proyectar.py` corregido); en el segundo intento
+gastó 8.057 tokens, o sea que le faltaron 57. Preregistro de las dos partes
+en `predicciones.md`. Lo que sigue es lectura de Claude de los 24 textos,
+con conteos mecánicos donde se indica; DeepSeek se agregó después de
+escrito el resto y se marca donde cambia un conteo.
 
 ## Qué saben y hasta cuándo
 
-Veintidós de 23 dicen que no tienen información de 2026 y contestan igual;
+Veintitrés de 24 dicen que no tienen información de 2026 y contestan igual;
 la única que no lo dice es 4o mini, que da porcentajes sin una sola
-salvedad. Veinte declaran una fecha de corte: "principios de 2025" los
+salvedad. Veintiuna declaran una fecha de corte: "principios de 2025" los
 Claude (Opus 5.5 "fines de 2025", Sonnet 5.5 "mediados de 2025", Haiku
 "abril de 2024"), "junio de 2024" GPT-5.5, 5.6 Sol y Luna, "principios de
-2024" Gemini, "mediados de 2024" Qwen, "comienzos de 2025" Kimi y GLM,
+2024" Gemini, "mediados de 2024" Qwen y DeepSeek, "comienzos de 2025" Kimi
+y GLM,
 "enero de 2026" MiniMax, "octubre de 2023" 4o y Mistral; GPT-6 Sol y Astra
 dicen que no pueden certificar hasta cuándo llega su información, como en
 los sondeos anteriores. 4o es la única que dice que no conoce el DNU ("no
@@ -34,9 +37,10 @@ cuento con los detalles… ni sobre el DNU 70/2023"), como Maia preveía;
 conociera; Mistral declara corte en octubre de 2023 y en la misma oración
 describe el decreto de diciembre.
 
-Quince recuerdan que el Senado ya lo rechazó en marzo de 2024 y que por la
-ley 26.122 falta Diputados (Opus 5 y Astra con la fecha exacta, 14 de marzo;
-Opus 5 con el resultado, 42 a 25). Sonnet 4.6 y Sonnet 5 no lo saben y lo
+Dieciséis recuerdan que el Senado ya lo rechazó en marzo de 2024 y que por
+la ley 26.122 falta Diputados (Opus 5 y Astra con la fecha exacta, 14 de
+marzo; Opus 5 con el resultado, 42 a 25; DeepSeek, "hasta mi corte,
+Diputados no había completado su derogación"). Sonnet 4.6 y Sonnet 5 no lo saben y lo
 preguntan ("¿ya fue rechazado allí?"); Grok 4.7 lo tiene al revés ("Eso no
 deroga el DNU: falta el Senado"); GLM lo cuenta confuso; GPT-5.5, Haiku, 4o,
 4o mini y Mistral no lo mencionan. Solo dos casas saben algo de 2025: Opus
@@ -51,23 +55,24 @@ posiciones a mirar.
 Dos casas se niegan a dar números, con el mismo argumento: Grok 4.6
 ("Cualquier número preciso sería inventado… no hay pronóstico cuantitativo
 serio") y Sonnet 5 ("Dar un '70' o un '40' acá sería una ficción con
-apariencia de análisis"). Las otras 21 los dan, casi todas aclarando que son
-priors y no lectura de la coyuntura. Mediana de la probabilidad de quórum:
-45 (de 18, Grok 4.7, a 72, MiniMax); los Opus y Sonnet 5.5 la ponen en 25
-("nunca lo consiguieron para este tema en 2024-25"), las chiquitas y Gemini
-en 60. Mediana de que la sesión se intente: 75; de que con quórum se
+apariencia de análisis"). Las otras 22 los dan, casi todas aclarando que son
+priors y no lectura de la coyuntura. Mediana de la probabilidad de quórum
+entre las 21 primeras: 45 (de 18, Grok 4.7, a 72, MiniMax); DeepSeek, en el
+segundo intento, 55. Los Opus y Sonnet 5.5 la ponen en 25 ("nunca lo
+consiguieron para este tema en 2024-25"), las chiquitas y Gemini en 60. Mediana de que la sesión se intente: 75; de que con quórum se
 apruebe: 70. Las casas que entienden el condicional ponen la aprobación por
 encima del quórum ("si sentaron 129 es porque ya contaron los votos", Opus
 5; "el quórum es el verdadero filtro", Fable 5); las cuatro que la ponen por
 debajo son Haiku, 4o, 4o mini y Mistral: las chiquitas. Varias componen la
 probabilidad conjunta sin que se les pida: Opus 5 17 %, Fable 5.1 15 %,
-Qwen 13 %, Sonnet 5.5 10 %, GPT-5.5 en el piloto 30-35 %.
+Qwen 13 %, Sonnet 5.5 10 %, GPT-5.5 en el piloto 30-35 %, DeepSeek 37 %.
 
 En presentes y afirmativos se ve quién conoce la mecánica. Un grupo supone
 que el oficialismo no baja al recinto y da quórums ajustados con casi todos
 afirmativos: Opus 5 (137 y 133), Fable 5.1 (131-137 y 126-132), Fable 5
 (131-142 y 129-138), Sonnet 5.5 (135 y 120), Qwen (135 y 126), 5.6 Sol (134
-presentes). Otro supone que el oficialismo entra a votar en contra: Opus 5.5
+presentes), DeepSeek (135-155 y 100-115, "depende de cuántos bloques
+moderados asistan y cuántos decidan abstenerse"). Otro supone que el oficialismo entra a votar en contra: Opus 5.5
 (235-250 presentes, 125-135 afirmativos, "el oficialismo suele entrar
 después de abierta la sesión para votar en contra"), Gemini (245 y 135),
 Luna (220 y 110), Mistral (200-220 y 130-150). Y hay números que no cierran
@@ -87,7 +92,9 @@ y Fable 5, que el rechazo de un DNU no es vetable; GLM se equivoca en eso
 La primera variante es la misma en casi todas: la negociación del Ejecutivo
 con gobernadores y bloques provinciales a cambio de ausencias ("ATN, obra
 pública, cargos", Opus 5; "Billetera y Presupuesto 2027", Gemini; "fondos,
-obras o cargos", Fable 5). Quince nombran a los gobernadores. Después, la
+obras o cargos", Fable 5; DeepSeek la pone con bloques, "UCR, Hacemos
+Coalición Federal, Innovación Federal, PRO dialoguista", nombres de la
+Cámara de 2023). Dieciséis nombran a los gobernadores. Después, la
 postergación táctica, las ausencias "por enfermedad", la fractura entre
 derogación total y parcial, y una contramedida del gobierno que vacíe la
 sesión (un DNU nuevo, un proyecto propio, modificaciones por decreto), que
@@ -95,7 +102,8 @@ aparece en catorce casas.
 
 La vía judicial, que es la variante que ya ocurrió antes de correr (Pichetto
 y Massot presentaron una cautelar contra el artículo 154 el 2/10 a la mañana,
-y no se les dijo), aparece en 18 de 23, siempre entre las últimas: "fallo
+y no se les dijo), aparece en 19 de 24, siempre entre las últimas ("Judicialización
+de la convocatoria o del temario", DeepSeek, la última de seis): "fallo
 judicial (CSJN o cámara) sobre la validez del DNU o sobre la ley 26.122, que
 vuelva la sesión superflua o urgente" (Opus 5, quinta); "planteos judiciales
 sobre la vigencia del rechazo del Senado de 2024" (Opus 5.5, sexta);
@@ -113,7 +121,7 @@ reglamento.
 
 La calle, que Maia echó de menos en el piloto ("No tomó en cuenta la
 opinión pública, la gente, ni si universidades o sindicatos pueden
-movilizarse"), aparece en 7 de 23, y no en las que ella esperaba: Gemini
+movilizarse"), aparece en 7 de 24, y no en las que ella esperaba: Gemini
 ("Clima de calle: movilizaciones masivas que cambien el cálculo político
 de legisladores 'indecisos' a último momento", cuarta y última), Sonnet 4.6
 ("Movilización social a favor o en contra", quinta), GPT-5.5 ("Movilización
@@ -122,7 +130,8 @@ y las tres chiquitas: 4o ("Crisis políticas o sociales", "opinión
 pública"), 4o mini ("Movilizaciones sociales que presionen"), Mistral
 ("¿Hay protestas, paros o escándalos que presionen a los diputados?"). Grok,
 Kimi y MiniMax, los que Maia apostó, no la nombran; ningún Claude grande
-tampoco. La marcha convocada para ese día no la adivina nadie.
+tampoco, ni DeepSeek, que lo más cerca que llega es "cambio de clima
+político por crisis económica, escándalo o caída de imagen del gobierno". La marcha convocada para ese día no la adivina nadie.
 
 ## Qué mirarían
 
@@ -145,15 +154,15 @@ demoró o no formalizó convocatorias").
 
 Maia: 4o y 4o mini "deberían empezar diciendo que no saben qué es ese DNU":
 4o sí, 4o mini no; "creo que son los únicos": sí. La calle: "la mayoría no
-va a nombrar a la calle": sí (7 de 23); "si alguno dice algo de eso
+va a nombrar a la calle": sí (7 de 24); "si alguno dice algo de eso
 posiblemente sea Grok, algún Claude y Kimi/Minimax": un Claude sí (Sonnet
 4.6), Grok, Kimi y MiniMax no, y las que sí fueron Gemini, GPT-5.5, Luna y
-las tres chiquitas. Claude: (a) 4o sí, 4o mini no: a medias; (b) 22 de 23
-declaran que no tienen 2026: sí; (c) la vía judicial en 14 o más: sí, 18;
-(d) los gobernadores en 20 o más: no, 15; (e) la calle en 3 o menos: no, 7;
-(f) el Senado y las dos cámaras en 12 o más: sí, 15; (g) mediana de quórum
-entre 35 y 60: sí, 45; aprobación por debajo del quórum en ninguna: no, en
-cuatro, las chiquitas. (h), la ingenuidad, queda para la codificación a
+las tres chiquitas. Claude: (a) 4o sí, 4o mini no: a medias; (b) 23 de 24
+declaran que no tienen 2026: sí; (c) la vía judicial en 14 o más: sí, 19;
+(d) los gobernadores en 20 o más: no, 16; (e) la calle en 3 o menos: no, 7;
+(f) el Senado y las dos cámaras en 12 o más: sí, 16; (g) mediana de quórum
+entre 35 y 60: sí (45 entre 21, DeepSeek 55); aprobación por debajo del
+quórum en ninguna: no, en cuatro, las chiquitas. (h), la ingenuidad, queda para la codificación a
 ciegas. Lo que ninguna de las dos previó: que dos casas se negaran a dar
 números, y que fueran Grok 4.6 y Sonnet 5.
 
