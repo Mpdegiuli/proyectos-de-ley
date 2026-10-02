@@ -4,6 +4,243 @@
   "lector": "claude-sonnet-4-6",
   "fecha_utc": "2026-10-02T00:22:28+00:00",
   "motivo_fin": "end_turn",
-  "parseo": false,
-  "codigo": []
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M252 166C231 126 167 125 134 153C99 182 103 232 132 261C158 288 205 300 239 275C270 252 280 220 265 189\" fill=\"none\" stroke=\"url(#skin)\" stroke-width=\"47\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<path d=\"M278 133C278 112 271 92 278 74C283 61 282 52 277 43\" stroke-width=\"8\"/> (cuernos/tentáculos tipo dragón) y aletas y cuerpo serpentino"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M126 146L120 119L140 128L150 102L166 120L185 98L195 121L222 106L225 135L251 127L244 157Z\" fill=\"url(#fin)\""
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M149 263C145 284 151 307 137 320...\" fill=\"url(#skin)\"/> y <path d=\"M215 280C211 297 210 318 225 328...\" fill=\"url(#skin)\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "no_esta",
+      "evidencia": "Los elementos de cuernos son: <path d=\"M276 95C260 87 252 73 257 58M279 75C293 71 300 60 298 51\" stroke-width=\"5\"/> — son tentáculos/cuernos pero no ramificaciones tipo cornamenta de ciervo"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M160 174C180 156 220 167 232 193C245 221 225 251 198 257C170 263 142 239 143 214C143 195 147 185 160 174Z\" fill=\"url(#portal)\""
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"portal\"> y <path ... fill=\"url(#portal)\" stroke=\"#c3f5df\" stroke-opacity=\".5\" stroke-width=\"1.5\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"168\" cy=\"194\" r=\"1.5\"/><circle cx=\"212\" cy=\"226\" r=\"1.3\"/><circle cx=\"178\" cy=\"242\" r=\".8\"/><circle cx=\"221\" cy=\"198\" r=\".8\"/> fill=\"#f4dfb7\""
+    },
+    {
+      "id": "a9",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M181 210a17 17 0 1 0 24 22A18 18 0 0 1 181 210Z\" fill=\"#ffd5a0\"/> — podría leerse como luna creciente pero no hay luna explícita etiquetada; sin embargo es una forma de luna creciente"
+    },
+    {
+      "id": "a10",
+      "valor": "no_esta",
+      "evidencia": "El portal es un elemento propio con fill=\"url(#portal)\", no es fondo visible entre curvas del cuerpo"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"skin\"><stop stop-color=\"#c5f4dd\"/><stop offset=\".45\" stop-color=\"#65cbbb\"/><stop offset=\"1\" stop-color=\"#287e93\"/></linearGradient>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<path d=\"M252 166C231 126 167 125 134 153C99 182 103 232 132 261C158 288 205 300 239 275C270 252 280 220 265 189\" ... stroke-width=\"47\"/> — curva cerrada en espiral"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "Combinación de aletas dorsales, cuerpo serpentino, cuernos, patas: <path d=\"M241 198C234 181 237 164 247 150C253 140 261 137 275 137...\" fill=\"url(#skin)\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "contradice",
+      "evidencia": "Solo hay dos patas visibles: <path d=\"M149 263...\"/> y <path d=\"M215 280...\"/> más <path d=\"M123 246...\"/> y <path d=\"M230 264...\"/> — hay cuatro apéndices pero dos son más tipo aleta/cola"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M123 246C105 262 110 284 96 302L83 314...\" fill=\"#3c9a9f\"/> y <path d=\"M230 264C236 285 257 291 263 311...\" fill=\"#388e9d\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<path d=\"M126 157C105 186 114 221 145 240C170 255 204 245 223 218C241 191 237 167 258 154\" fill=\"none\" stroke=\"url(#fin)\" stroke-width=\"19\"/> — gradiente fin: #ffddaa a #df8093"
+    },
+    {
+      "id": "a17",
+      "valor": "no_esta",
+      "evidencia": "Los cuernos <path d=\"M276 95C260 87 252 73 257 58M279 75C293 71 300 60 298 51\"/> son dos ramas simples, no cornamenta ramificada tipo ciervo"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M160 174C180 156 220 167 232 193C245 221 225 251 198 257C170 263 142 239 143 214C143 195 147 185 160 174Z\" fill=\"url(#portal)\""
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"168\" cy=\"194\" r=\"1.5\"/><circle cx=\"212\" cy=\"226\" r=\"1.3\"/> fill=\"#f4dfb7\" dentro del área del portal"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<path d=\"M181 210a17 17 0 1 0 24 22A18 18 0 0 1 181 210Z\" fill=\"#ffd5a0\"/> — forma de luna creciente dentro del portal"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "Portal con estrellas (#f4dfb7 circles), luna creciente (#ffd5a0), órbita (ellipse stroke=\"#d9b4d1\"), sobre fondo oscuro url(#portal)"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<path d=\"M126 157C105 186 114 221 145 240C170 255 204 245 223 218C241 191 237 167 258 154\" fill=\"none\" stroke=\"url(#fin)\" stroke-width=\"19\"/> — fin: #ffddaa a #df8093 (durazno/coral)"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "La franja stroke-width=\"19\" con url(#fin) cruza sobre el cuerpo principal stroke-width=\"47\", superponiéndose visualmente"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"303\" cy=\"146\" rx=\"2.6\" ry=\"5.5\" fill=\"#ffdb9d\"/> — pupila/iris dorado en el ojo"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "El ojo: <path d=\"M292 146C297 139 307 139 312 146C308 155 297 155 292 146Z\" fill=\"#153248\"/> con iris tranquilo, sin elementos de agresividad"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\"><stop stop-color=\"#293955\"/><stop offset=\"1\" stop-color=\"#111b30\"/></radialGradient> y <rect width=\"400\" height=\"400\" fill=\"url(#sky)\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M83 88C90 88 94 84 94 77...Z\" fill=\"#f6d4a3\"/> y <path d=\"M310 311...Z\" fill=\"#f6d4a3\"/> y <path d=\"M58 110v10m-5-5h10...\" stroke=\"#efd3a5\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "No hay suelo sólido; <ellipse cx=\"196\" cy=\"350\" rx=\"107\" ry=\"9\" fill=\"#080f23\" opacity=\".6\"/> es una sombra tenue, fondo nocturno url(#sky)"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "Portal interior con fill=\"url(#portal)\" conteniendo estrellas, luna y órbita dentro del cuerpo del animal"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<path d=\"M252 166C231 126 167 125 134 153C99 182 103 232 132 261C158 288 205 300 239 275C270 252 280 220 265 189\" stroke-width=\"47\"/> rodea el portal central"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<path d=\"M181 210a17 17 0 1 0 24 22A18 18 0 0 1 181 210Z\" fill=\"#ffd5a0\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"168\" cy=\"194\" r=\"1.5\"/><circle cx=\"212\" cy=\"226\" r=\"1.3\"/><circle cx=\"178\" cy=\"242\" r=\".8\"/><circle cx=\"221\" cy=\"198\" r=\".8\"/> fill=\"#f4dfb7\""
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"191\" cy=\"221\" rx=\"35\" ry=\"8\" transform=\"rotate(-27 191 221)\" fill=\"none\" stroke=\"#d9b4d1\" stroke-width=\"1\" opacity=\".6\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "Cuerpo serpentino, aletas, cuernos, patas: morfología de dragón en conjunto"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<path d=\"M123 246C105 262 110 284 96 302L83 314...\" fill=\"#3c9a9f\"/> aletas caudales tipo pez, y aleta dorsal url(#fin)"
+    },
+    {
+      "id": "a36",
+      "valor": "no_esta",
+      "evidencia": "No hay astas tipo ciervo; los cuernos son <path d=\"M278 133C278 112 271 92 278 74...\"/> — filiformes, no palmados ni ramificados"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"sky\"><stop stop-color=\"#293955\"/><stop offset=\"1\" stop-color=\"#111b30\"/></radialGradient>"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#65cbbb\"/> y <stop stop-color=\"#287e93\"/> en gradiente skin; <stop stop-color=\"#a5d8d5\"/> en stroke"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<stop stop-color=\"#ffddaa\"/><stop offset=\"1\" stop-color=\"#df8093\"/> en gradiente fin; <circle cx=\"284\" cy=\"164\" r=\"7\" fill=\"#f3bba0\"\"/>"
+    },
+    {
+      "id": "a40",
+      "valor": "no_esta",
+      "evidencia": "stroke-width varía entre 1.5 y 53, con múltiples capas superpuestas; los contornos no son uniformemente limpios"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "Uso extensivo de curvas bezier, circles y ellipses en todo el SVG"
+    },
+    {
+      "id": "a42",
+      "valor": "esta",
+      "evidencia": "linearGradient id=\"skin\", linearGradient id=\"fin\", radialGradient id=\"portal\", radialGradient id=\"sky\" con múltiples stops"
+    },
+    {
+      "id": "a43",
+      "valor": "esta",
+      "evidencia": "Combinación de gradientes, portal mágico interior, criatura fantástica, estrellas: ilustración vectorial fantástica"
+    },
+    {
+      "id": "a44",
+      "valor": "esta",
+      "evidencia": "Paleta suave (#c5f4dd, #ffddaa, #f6d4a3), formas redondeadas, criatura amigable con ojo tranquilo"
+    },
+    {
+      "id": "a45",
+      "valor": "esta",
+      "evidencia": "Destellos ornamentales (<path d=\"M83 88...\"/>), órbita decorativa, estrellas dispersas, paleta pastel"
+    },
+    {
+      "id": "a46",
+      "valor": "esta",
+      "evidencia": "Paleta cálida-fría equilibrada, ojo sereno (<ellipse cx=\"303\" cy=\"146\" rx=\"2.6\" ry=\"5.5\" fill=\"#ffdb9d\"/>), sin elementos amenazantes"
+    },
+    {
+      "id": "a47",
+      "valor": "esta",
+      "evidencia": "<path ... fill=\"url(#portal)\"/> con id=\"portal\" explícito en radialGradient"
+    }
+  ],
+  "reparado": true
 }

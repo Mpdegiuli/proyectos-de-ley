@@ -42,13 +42,41 @@ def ahora():
 
 
 def extraer_json(texto):
-    """El primer objeto JSON del texto (las casas a veces lo envuelven en ``` o anteponen una línea)."""
+    """El primer objeto JSON del texto (las casas a veces lo envuelven en ``` o anteponen una línea).
+    Tolerante (2/10/2026): en 8 de 403 lecturas del código el lector copió un fragmento de SVG en la
+    evidencia y dejó una comilla sin escapar (`fill=\\"#fff\\""/>`); se repara escapando esa comilla y, si
+    no alcanza, todas las comillas internas de los campos de texto. Devuelve el objeto; `reparado`
+    queda en el atributo del módulo ULTIMO_REPARADO para que el que llama lo anote."""
+    global ULTIMO_REPARADO
+    ULTIMO_REPARADO = False
     t = texto.strip()
     t = re.sub(r"^```(?:json)?\s*|\s*```$", "", t, flags=re.S)
     i, j = t.find("{"), t.rfind("}")
     if i < 0 or j < 0:
         raise ValueError("sin JSON")
-    return json.loads(t[i:j + 1])
+    s = t[i:j + 1]
+    try:
+        return json.loads(s)
+    except json.JSONDecodeError:
+        pass
+    s2 = re.sub(r'(?<!\\)""/>', r'\\"/>', s)
+    try:
+        datos = json.loads(s2)
+        ULTIMO_REPARADO = True
+        return datos
+    except json.JSONDecodeError:
+        pass
+
+    def arreglar(m):
+        return '"%s": "%s"' % (m.group(1), re.sub(r'(?<!\\)"', r'\\"', m.group(2)))
+
+    s3 = re.sub(r'"(evidencia|nota|no_dicho|texto)":\s*"(.*?)"(?=\s*[,}\]])', arreglar, s2, flags=re.S)
+    datos = json.loads(s3)  # si tampoco, levanta JSONDecodeError
+    ULTIMO_REPARADO = True
+    return datos
+
+
+ULTIMO_REPARADO = False
 
 
 def consigna_texto(consignas, consigna):
@@ -160,7 +188,7 @@ def etapa_codigo(c, i, rep, d, salida, cfg, consignas, modelos, args):
     ctx = {"falso": falso_codigo(af)} if args.falso else None
     datos, r = llamar_json(registro, lector, p["sistema_codigo"], u, "codigo", ctx)
     res = {"consigna": c, "unidad": d.name, "lector": lector, "fecha_utc": ahora(), "motivo_fin": r.motivo_fin,
-           "parseo": datos is not None, "codigo": (datos or {}).get("codigo") or []}
+           "parseo": datos is not None, "reparado": bool(datos) and ULTIMO_REPARADO, "codigo": (datos or {}).get("codigo") or []}
     archivo.write_text(json.dumps(res, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"  código {c}/{d.name}: {len(res['codigo'])} de {len(af)} ({r.motivo_fin})", flush=True)
 
@@ -191,14 +219,51 @@ def etapa_jueces(c, i, rep, d, salida, cfg, consignas, modelos, args):
             print(f"  FALLÓ juez {juez} en {c}/{d.name}: {str(e)[:200]}", flush=True)
             continue
         res = {"consigna": c, "unidad": d.name, "juez": juez, "fecha_utc": ahora(), "motivo_fin": r.motivo_fin,
-               "tokens_salida": r.tokens_salida, "parseo": datos is not None,
+               "tokens_salida": r.tokens_salida, "parseo": datos is not None, "reparado": bool(datos) and ULTIMO_REPARADO,
                "juicios": (datos or {}).get("juicios") or [], "no_dicho": (datos or {}).get("no_dicho"),
                "mal_armado": (datos or {}).get("mal_armado") or []}
         archivo.write_text(json.dumps(res, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"  juez {juez} {c}/{d.name}: {len(res['juicios'])} de {len(af)} ({r.motivo_fin})", flush=True)
 
 
-ETAPAS = {"afirmaciones": etapa_afirmaciones, "codigo": etapa_codigo, "jueces": etapa_jueces}
+def etapa_reparar(c, i, rep, d, salida, cfg, consignas, modelos, args):
+    """Sin llamar a nadie: los codigo.json y juez_*.json que quedaron con parseo false se vuelven a leer
+    de la última respuesta guardada en llamadas.jsonl con el lector tolerante; si parsea, se reescribe el
+    archivo con "reparado": true (2/10/2026: 8 lecturas del código, por una comilla sin escapar)."""
+    if not (salida / "llamadas.jsonl").exists():
+        return
+    filas = [json.loads(l) for l in (salida / "llamadas.jsonl").read_text(encoding="utf-8").splitlines() if l.strip()]
+    for archivo in sorted(salida.glob("*.json")):
+        if archivo.name not in ("codigo.json",) and not archivo.name.startswith("juez_"):
+            continue
+        res = json.loads(archivo.read_text(encoding="utf-8"))
+        if res.get("parseo"):
+            continue
+        if archivo.name == "codigo.json":
+            cand = [f for f in filas if f.get("tipo") == "codigo" and f.get("respuesta")]
+        else:
+            juez = archivo.name[len("juez_"):-len(".json")]
+            cand = [f for f in filas if f.get("tipo") == "juez" and f.get("id_modelo") == juez and f.get("respuesta")]
+        if not cand:
+            continue
+        try:
+            datos = extraer_json(cand[-1]["respuesta"])
+        except (ValueError, json.JSONDecodeError) as e:
+            print(f"  sin reparar {c}/{d.name}/{archivo.name}: {str(e)[:80]}", flush=True)
+            continue
+        if archivo.name == "codigo.json":
+            res["codigo"] = datos.get("codigo") or []
+        else:
+            res["juicios"] = datos.get("juicios") or []
+            res["no_dicho"] = datos.get("no_dicho")
+            res["mal_armado"] = datos.get("mal_armado") or []
+        res["parseo"] = True
+        res["reparado"] = True
+        archivo.write_text(json.dumps(res, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"  reparado {c}/{d.name}/{archivo.name}", flush=True)
+
+
+ETAPAS = {"afirmaciones": etapa_afirmaciones, "codigo": etapa_codigo, "jueces": etapa_jueces, "reparar": etapa_reparar}
 
 
 def main():
@@ -215,7 +280,7 @@ def main():
     consignas = leer_yaml("config/consignas.yaml")
     modelos = cargar_modelos("config/modelos.yaml")
     cfg = leer_yaml(args.jueces)
-    etapas = list(ETAPAS) if args.etapa == "todo" else [args.etapa]
+    etapas = ["afirmaciones", "codigo", "jueces"] if args.etapa == "todo" else [args.etapa]
     n = 0
     for c, i, rep, d in unidades(args):
         salida = RAIZ / "corridas" / "distancia" / c / d.name

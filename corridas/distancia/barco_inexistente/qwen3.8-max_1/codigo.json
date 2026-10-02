@@ -4,6 +4,188 @@
   "lector": "claude-sonnet-4-6",
   "fecha_utc": "2026-10-02T01:17:53+00:00",
   "motivo_fin": "end_turn",
-  "parseo": false,
-  "codigo": []
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"hull\"><stop offset=\"0\" stop-color=\"#7c4d8d\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"205\" cy=\"228\" r=\"11\" fill=\"url(#sky)\" stroke=\"#ffd7f7\" stroke-width=\"2\"/><circle cx=\"202\" cy=\"225\" r=\"1.2\" fill=\"#fff\"/><circle cx=\"209\" cy=\"230\" r=\".9\" fill=\"#fff\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"1\" stop-color=\"#6e5bff\" stop-opacity=\".25\"/> ... opacity=\".85\" ... opacity=\".9\" ... opacity=\".78\""
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M178 246 L178 256 ... <circle cx=\"178\" cy=\"260\" r=\"8\" fill=\"url(#glow)\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"320\" cy=\"78\" rx=\"56\" ry=\"14\" fill=\"none\" stroke=\"#ffd9a8\" stroke-opacity=\".4\" stroke-width=\"3\" transform=\"rotate(-16 320 78)\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 282 Q24 270 48 282 T96 282 T144 282 T192 282 T240 282 T288 282 T336 282 T400 282\""
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"><stop offset=\"0\" stop-color=\"#160a33\"/><stop offset=\".55\" stop-color=\"#31184f\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#160a33\"/><stop offset=\".55\" stop-color=\"#31184f\"/><stop offset=\"1\" stop-color=\"#084154\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"> ... <radialGradient id=\"moon\"> ... gradientes oníricos con velas translúcidas y farolitos"
+    },
+    {
+      "id": "a10",
+      "valor": "no_esta",
+      "evidencia": "El código contiene numerosos elementos: estrellas, luna, anillo, casco, mástiles, velas, farolitos, olas, aletas"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<path d=\"M97 224 C124 256 282 256 303 224 ... fill=\"url(#hull)\" ... velas con gradientes de colores irreales"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#160a33\"/><stop offset=\".55\" stop-color=\"#31184f\"/> ... fill=\"url(#hull)\"><stop offset=\"0\" stop-color=\"#7c4d8d\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "fill=\"url(#s1)\" ... fill=\"url(#s2)\" ... fill=\"url(#s3)\" con tres paths de velas distintos"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<path d=\"M166 214 L166 92\" stroke=\"#d8c3ff\" stroke-width=\"3\"/><path d=\"M228 218 L228 70\" stroke-width=\"3.5\"/><path d=\"M272 214 L272 128\" stroke-width=\"2.5\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M166 94 L118 206 M228 72 L107 210 M228 72 L298 206 M272 128 L294 204\" stroke=\"#f7f2ff\" stroke-opacity=\".35\" stroke-width=\"1\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<stop offset=\".5\" stop-color=\"#483061\"/><stop offset=\"1\" stop-color=\"#1d2447\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M97 224 C124 256 282 256 303 224 L281 202 C238 220 160 220 119 202 Z\" forma de barca/barco no de luna"
+    },
+    {
+      "id": "a18",
+      "valor": "no_esta",
+      "evidencia": "<path d=\"M158 250 C148 266 128 276 108 275 ... fill=\"#2f8f8a\"\"/> está en la proa (lado izquierdo), no en la popa"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M242 250 C252 266 272 276 292 275 C272 263 262 254 258 243 Z\" fill=\"#2f8f8a\" opacity=\".75\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"178\" cy=\"260\" r=\"2.5\" fill=\"#fff4bf\"/><circle cx=\"214\" cy=\"263\" r=\"2.5\" fill=\"#fff4bf\"/><circle cx=\"248\" cy=\"259\" r=\"2.5\" fill=\"#fff4bf\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 282 Q24 270 48 282 T96 282...\" stroke=\"#98f6ff\" stroke-opacity=\".5\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"320\" cy=\"78\" rx=\"56\" ry=\"14\" fill=\"none\" stroke=\"#ffd9a8\" stroke-opacity=\".4\" stroke-width=\"3\" transform=\"rotate(-16 320 78)\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"28\" cy=\"36\" r=\"1.4\" opacity=\".9\"/> ... <circle cx=\"376\" cy=\"52\" r=\"1.6\" opacity=\".8\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#160a33\"/><stop offset=\".55\" stop-color=\"#31184f\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"> ... <linearGradient id=\"hull\"> ... <radialGradient id=\"moon\"> ..."
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "gradientes oníricos, velas translúcidas de colores irreales, luna anillada, farolitos flotantes"
+    },
+    {
+      "id": "a27",
+      "valor": "no_esta",
+      "evidencia": "El barco está claramente dibujado con casco, mástiles, velas y farolitos con trazos definidos"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<path d=\"M158 250 ... fill=\"#2f8f8a\"/> y <path d=\"M242 250 ... fill=\"#2f8f8a\"/> aletas en ambos lados"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "velas con gradientes #8ef3ff, #ffd9f4, #d5ff9c, casco violeta, ojo en cubierta: barco de fantasía"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#160a33\"/> fondo nocturno + barco completo"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#8ef3ff\"/> ... <stop offset=\"0\" stop-color=\"#ffd9f4\"/> ... <stop offset=\"0\" stop-color=\"#d5ff9c\"/> velas luminosas"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "colores #160a33, #7c4d8d, velas translúcidas, luna anillada, farolitos dorados"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "paths con curvas bezier, gradientes, formas geométricas simples sin texturas bitmap"
+    },
+    {
+      "id": "a34",
+      "valor": "no_esta",
+      "evidencia": "El código tiene numerosos elementos complejos: múltiples gradientes, curvas bezier elaboradas, detalles como el ojo, aletas, farolitos"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\"> ... <linearGradient id=\"sea\"> ... <radialGradient id=\"glow\">"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "fondo #160a33 nocturno, luna anillada, velas opalescentes, farolitos dorados, mar celeste"
+    }
+  ],
+  "reparado": true
 }

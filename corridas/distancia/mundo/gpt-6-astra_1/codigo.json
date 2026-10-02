@@ -4,6 +4,138 @@
   "lector": "claude-sonnet-4-6",
   "fecha_utc": "2026-10-01T22:21:04+00:00",
   "motivo_fin": "end_turn",
-  "parseo": false,
-  "codigo": []
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"177\" r=\"109\" fill=\"#82bdae\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "no_esta",
+      "evidencia": "No hay paths de grietas en el código; la línea dentada es la fisura del título/desc pero no hay path dibujado como grieta"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#f0a36d\"><path d=\"M121 149c-10-12 7-20 2-33 13 9 6 14 12 18 2-6 6-8 6-8 8 17 0 28-10 28z\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<g fill=\"none\" stroke=\"#abefd4\" stroke-width=\"1\" opacity=\".75\"><path d=\"M225 116l44 17-32 42 46 61M269 133l19 40-51 2M225 116l12 59-16 38M288 173l-5 63\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M203 63c-16 0-24-10-24-21 17 0 25 8 24 21z\" fill=\"#8ebf91\"/><path d=\"M206 52c-1-15 9-23 23-22-1 14-9 22-23 22z\" fill=\"#b6d8a0\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 346l43-32 21-34...\" fill=\"url(#handA)\"/><path d=\"M400 346l-43-32-21-34...\" fill=\"url(#handB)\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "fill=\"url(#handA)\" vs fill=\"url(#handB)\" con gradientes distintos (#9b5262->#efb28b vs #376780->#99c6ba)"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M202 66l-9 32 14 23-14 28 15 24-11 24 16 26-9 29 9 39\" fill=\"none\" stroke=\"#f6c780\" stroke-width=\"2.3\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "incendios (#f0a36d), grieta cosida (#f6c780), redes (#abefd4), dos manos distintas (handA/handB)"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<path d=\"M203 63c-16 0-24-10-24-21...\" fill=\"#8ebf91\"/> brote pequeño sobre el tallo delgado stroke-width=\"2.5\""
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "handA desde x=0 y handB desde x=400, ambas convergiendo bajo el planeta"
+    },
+    {
+      "id": "a12",
+      "valor": "no_esta",
+      "evidencia": "No hay paths explícitos de grietas dibujadas sobre el planeta"
+    },
+    {
+      "id": "a13",
+      "valor": "no_esta",
+      "evidencia": "Los incendios están dentro del clip-path del planeta, no alrededor: clip-path=\"url(#world)\""
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<g fill=\"none\" stroke=\"#abefd4\" stroke-width=\"1\" opacity=\".75\"><path d=\"M225 116l44 17-32 42 46 61...\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 346...\" fill=\"url(#handA)\"/><path d=\"M400 346...\" fill=\"url(#handB)\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "handA: #9b5262->#efb28b (rosado/cálido), handB: #376780->#99c6ba (azul/frío)"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M202 66l-9 32 14 23-14 28 15 24-11 24 16 26-9 29 9 39\" stroke=\"#f6c780\" stroke-width=\"2.3\"/> y <g stroke=\"#ffe0a0\" stroke-width=\"2\">"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M201 80c-1-16 0-30 9-43\"/> tallo + <path d=\"M203 63...\" fill=\"#8ebf91\"/> brote naciendo en la zona de la fisura dorada"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"43\" cy=\"42\" r=\"1.2\"/><circle cx=\"110\" cy=\"29\" r=\".8\"/><circle cx=\"249\" cy=\"30\" r=\"1\"/>..."
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"180\" rx=\"166\" ry=\"58\" transform=\"rotate(-29 200 180)\" stroke-opacity=\".28\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<g transform=\"translate(64 139) rotate(-29)\"><path d=\"M-22-7h14V7h-14zm30 0h14V7H8z\" fill=\"#376079\".../>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"night\"><stop stop-color=\"#24394b\"/><stop offset=\"1\" stop-color=\"#090f20\"/></radialGradient>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "planeta con incendios, fisura dorada, opacidades bajas, halo sutil fill=\"url(#halo)\""
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "dos manos sosteniendo, brote naciendo, redes luminosas de conexión"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "brote verde (#8ebf91/#b6d8a0), redes luminosas (#abefd4), punto dorado central circle cx=\"200\" cy=\"324\""
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "incendios (#f0a36d), fisura, opacidad stroke-opacity en órbitas bajas, fondo oscuro #090f20"
+    }
+  ],
+  "reparado": true
 }

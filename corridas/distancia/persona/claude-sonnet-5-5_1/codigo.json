@@ -4,6 +4,163 @@
   "lector": "claude-sonnet-4-6",
   "fecha_utc": "2026-10-01T23:02:04+00:00",
   "motivo_fin": "end_turn",
-  "parseo": false,
-  "codigo": []
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"200\" rx=\"65\" ry=\"78\" fill=\"url(#skin)\"/> <path d=\"M95 400 Q100 305 160 290 L240 290 Q300 305 305 400Z\" fill=\"url(#shirt)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<rect x=\"158\" y=\"184\" width=\"40\" height=\"30\" rx=\"12\"/> <rect x=\"202\" y=\"184\" width=\"40\" height=\"30\" rx=\"12\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M132 200 Q120 100 200 90 Q285 100 268 200 ...\" fill=\"#3a2418\"/> <path d=\"M135 190 Q130 105 205 100 ...\" fill=\"#4a2e1e\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<path d=\"M95 400 Q100 305 160 290 L240 290 Q300 305 305 400Z\" fill=\"url(#shirt)\"/> <path d=\"M160 290 L200 325 L240 290 L228 284 L200 308 L172 284Z\" fill=\"#e8f3f7\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M176 245 Q200 268 224 245 Q200 254 176 245Z\" fill=\"#a8434a\"\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"bg\"><stop offset=\"0\" stop-color=\"#ffd9a8\"/><stop offset=\"1\" stop-color=\"#f6a5a0\"/></linearGradient> <circle cx=\"320\" cy=\"80\" r=\"35\" fill=\"#fff2c9\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"320\" cy=\"80\" r=\"35\" fill=\"#fff2c9\" opacity=\"0.9\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 310 Q100 270 200 300 T400 290 V400 H0Z\" fill=\"#c97b84\" opacity=\"0.5\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"200\" rx=\"65\" ry=\"78\" fill=\"url(#skin)\"/> <!-- vista frontal centrada -->"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"180.5\" cy=\"196\" r=\"1.6\" fill=\"#fff\"/> <circle cx=\"226.5\" cy=\"196\" r=\"1.6\" fill=\"#fff\"/>"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<radialGradient id=\"skin\" cx=\"0.4\" cy=\"0.35\" r=\"0.8\"><stop offset=\"0\" stop-color=\"#f6c7a0\"/><stop offset=\"1\" stop-color=\"#dc9f78\"/></radialGradient>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"shirt\"><stop offset=\"0\" stop-color=\"#2f7f9e\"/><stop offset=\"1\" stop-color=\"#1d5670\"/></linearGradient>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"163\" cy=\"228\" r=\"11\" fill=\"#f19a8f\" opacity=\"0.4\"/> <circle cx=\"237\" cy=\"228\" r=\"11\" fill=\"#f19a8f\" opacity=\"0.4\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"200\" rx=\"65\" ry=\"78\" fill=\"url(#skin)\"/> <path d=\"M95 400 Q100 305 160 290 ...\" fill=\"url(#shirt)\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "<path d=\"M132 200 Q120 100 200 90 Q285 100 268 200 ...\" fill=\"#3a2418\"/> <path d=\"M135 190 Q130 105 205 100 ...\" fill=\"#4a2e1e\"/>"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<rect x=\"158\" y=\"184\" width=\"40\" height=\"30\" rx=\"12\"/> <rect x=\"202\" y=\"184\" width=\"40\" height=\"30\" rx=\"12\"/>"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "<path d=\"M176 245 Q200 268 224 245 Q200 254 176 245Z\" fill=\"#a8434a\"/>"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"163\" cy=\"228\" r=\"11\" fill=\"#f19a8f\" opacity=\"0.4\"/> <circle cx=\"237\" cy=\"228\" r=\"11\" fill=\"#f19a8f\" opacity=\"0.4\"/>"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M164 178 Q177 170 190 177\" stroke=\"#3a2418\" stroke-width=\"4\"/> <path d=\"M210 177 Q223 170 236 178\" stroke=\"#3a2418\" stroke-width=\"4\"/>"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"179\" cy=\"198\" r=\"5\" fill=\"#4b2e1a\"/> <circle cx=\"225\" cy=\"198\" r=\"5\" fill=\"#4b2e1a\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"180.5\" cy=\"196\" r=\"1.6\" fill=\"#fff\"/> <circle cx=\"226.5\" cy=\"196\" r=\"1.6\" fill=\"#fff\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"shirt\"><stop offset=\"0\" stop-color=\"#2f7f9e\"/><stop offset=\"1\" stop-color=\"#1d5670\"/></linearGradient>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<path d=\"M160 290 L200 325 L240 290 L228 284 L200 308 L172 284Z\" fill=\"#e8f3f7\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"bg\"><stop offset=\"0\" stop-color=\"#ffd9a8\"/><stop offset=\"1\" stop-color=\"#f6a5a0\"/></linearGradient>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0\" stop-color=\"#ffd9a8\"/><stop offset=\"1\" stop-color=\"#f6a5a0\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"320\" cy=\"80\" r=\"35\" fill=\"#fff2c9\" opacity=\"0.9\"/>"
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 310 Q100 270 200 300 T400 290 V400 H0Z\" fill=\"#c97b84\" opacity=\"0.5\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<!-- colores cálidos, mejillas sonrosadas, sonrisa, fondo suave --> fill=\"#f19a8f\" fill=\"#ffd9a8\""
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"bg\"><stop stop-color=\"#ffd9a8\"/><stop stop-color=\"#f6a5a0\"/></linearGradient> <circle cx=\"320\" cy=\"80\" r=\"35\" fill=\"#fff2c9\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "<!-- formas planas con gradientes de volumen --> <radialGradient id=\"skin\"/> <linearGradient id=\"shirt\"/>"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"200\" cy=\"200\" rx=\"65\" ry=\"78\" fill=\"url(#skin)\"/> <!-- cara centrada y dominante en el canvas -->"
+    }
+  ],
+  "reparado": true
 }

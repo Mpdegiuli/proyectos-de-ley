@@ -4,6 +4,168 @@
   "lector": "claude-sonnet-4-6",
   "fecha_utc": "2026-10-01T22:19:24+00:00",
   "motivo_fin": "end_turn",
-  "parseo": false,
-  "codigo": []
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"210\" r=\"122\" fill=\"url(#earth)\" stroke=\"#89d9ff\" stroke-width=\"2.5\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "no_esta",
+      "evidencia": "La Tierra tiene gradiente earth con colores azules (#42c7ff, #2459b9, #071b55) pero no hay indicación de noche específica, el fondo es cielo oscuro (sky) pero la Tierra en sí es iluminada"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<path d=\"M61 314c49-42 87-34 130-14 53 25 90 24 148-20\"/> y nodos <circle cx=\"61\" cy=\"314\" r=\"3\"/> formando redes"
+    },
+    {
+      "id": "a4",
+      "valor": "no_esta",
+      "evidencia": "No hay fuego alrededor de la Tierra; el fuego está en posición lateral izquierda: <path d=\"M38 262c6-20 22-34 33-51...\" fill=\"#ff6b35\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M259 98c31 17 54 47 61 86...\" stroke=\"#ff5a5f\" stroke-width=\"4\"/> y <circle cx=\"285\" cy=\"143\" r=\"4\" fill=\"#ff3b30\"/> zonas de calor/temperatura"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"80\" cy=\"326\" r=\"9\" fill=\"#ffd6a5\"/> y <circle cx=\"119\" cy=\"326\" r=\"9\" fill=\"#caffbf\"/> figuras humanas con cabezas y cuerpos"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"0\" width=\"66\" height=\"66\" rx=\"12\" fill=\"#101827\" stroke=\"#9bf6ff\"/> con ojos <circle cx=\"22\" cy=\"28\" r=\"5\" fill=\"#9bf6ff\"/> y boca <path d=\"M21 45c9 7 16 7 25 0\"\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"72\" cy=\"78\" r=\"32\" fill=\"#ffd166\"/> luna y <circle cx=\"83\" cy=\"68\" r=\"30\" fill=\"url(#sky)\" opacity=\".88\"/> superpuesta simulando eclipse"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "fill=\"#ff3b30\", fill=\"#ff7b00\", fill=\"#ffd166\", fill=\"#76f7ff\", fill=\"#9bf6ff\" colores vivos y saturados"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"210\" r=\"122\" fill=\"url(#earth)\" stroke=\"#89d9ff\"/> con stroke luminoso y texto \"frágil · conectado · encendido\""
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "Combinación de señales de crisis (rojo), redes, fuego, texto \"frágil\" sugiere incertidumbre; filter glow y colores tensos"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "Belleza: gradientes, glow. Alarma: #ff3b30, fuego. Esperanza: redes verdes #76f7ff, personas. Texto \"frágil · conectado · encendido\""
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<path d=\"M259 98...\" stroke=\"#ff5a5f\" stroke-width=\"4\"/> líneas rojas de tensión sobre el planeta con puntos críticos"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"210\" r=\"122\" fill=\"url(#earth)\" stroke=\"#89d9ff\" stroke-width=\"2.5\"/>"
+    },
+    {
+      "id": "a15",
+      "valor": "no_esta",
+      "evidencia": "La Tierra tiene colores azules iluminados (#42c7ff al inicio del gradiente), no está representada como hemisferio nocturno"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"200\" cy=\"210\" r=\"122\" fill=\"none\" stroke=\"#ffffff\" stroke-opacity=\".18\" stroke-width=\"10\"/> y stroke=\"#89d9ff\" dan brillo"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "text \"frágil · conectado · encendido\" y diseño con crisis marks sobre el planeta"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "<path d=\"M61 314c49-42 87-34 130-14 53 25 90 24 148-20\"/> con nodos circulares cruzando el globo"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<g fill=\"url(#land)\" stroke=\"#b8ffca\"> con stop-color=\"#66e08b\" y #2a9b61 colores verdes en continentes"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"earth\"> <stop offset=\"0\" stop-color=\"#42c7ff\"/> <stop offset=\".5\" stop-color=\"#2459b9\"/> <stop offset=\"1\" stop-color=\"#071b55\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<path d=\"M259 98...\" stroke=\"#ff5a5f\"/> rojo y <path d=\"M285 135...\" stroke=\"#ffb703\"/> amarillo con puntos #ff3b30 #ff7b00 #ffd166"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<rect x=\"0\" y=\"0\" width=\"66\" height=\"66\" rx=\"12\" fill=\"#101827\" stroke=\"#9bf6ff\"/> con ojos y boca robóticos centrado en el planeta"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"80\" cy=\"326\" r=\"9\" fill=\"#ffd6a5\"/> <circle cx=\"119\" cy=\"326\" r=\"9\" fill=\"#caffbf\"/> <circle cx=\"321\" cy=\"328\" r=\"8\"/> personas alrededor"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<path d=\"M38 262c6-20 22-34 33-51 7 24-4 42-20 57z\" fill=\"#ff6b35\"/> llama con base <path d=\"M38 268h36\" stroke=\"#6b2d1c\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<path d=\"M24 137c15-13 36-11 46 2 13-14 40-9 47 8\"/> y <path d=\"M284 54c13-12 34-10 43 2...\" stroke=\"#d7f6ff\"/> formas de nubes"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"32\" cy=\"46\" r=\"1.4\" fill=\"#fff\"/> <circle cx=\"77\" cy=\"26\" r=\"1\" fill=\"#fff\"/> etc. grupo de estrellas con opacity=\".65\""
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"72\" cy=\"78\" r=\"32\" fill=\"#ffd166\"/> con <circle cx=\"83\" cy=\"68\" r=\"30\" fill=\"url(#sky)\" opacity=\".88\"/> eclipse lunar"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "Gradientes bellos, #ff5a5f amenaza climática, redes #76f7ff y personas esperanza; texto \"frágil · conectado · encendido\""
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<path d=\"M61 314c49-42 87-34 130-14 53 25 90 24 148-20\"/> redes con nodos conectando puntos del globo"
+    },
+    {
+      "id": "a30",
+      "valor": "esta",
+      "evidencia": "texto \"frágil\" y señales de crisis en rojo sobre el planeta; stroke fino del globo"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "texto \"encendido\", colores #ff3b30 #ff7b00 #ffd166 con filter glow sobre el planeta"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<path d=\"M57 352c8-21 31-24 43-5 11-18 38-14 44 6\"/> vínculos entre figuras humanas alrededor del mundo"
+    }
+  ],
+  "reparado": true
 }

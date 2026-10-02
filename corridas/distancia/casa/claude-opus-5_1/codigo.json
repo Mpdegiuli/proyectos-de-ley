@@ -4,6 +4,213 @@
   "lector": "claude-sonnet-4-6",
   "fecha_utc": "2026-10-01T22:28:08+00:00",
   "motivo_fin": "end_turn",
-  "parseo": false,
-  "codigo": []
+  "parseo": true,
+  "codigo": [
+    {
+      "id": "a1",
+      "valor": "esta",
+      "evidencia": "<path d=\"M112 196 L210 122 L308 196 Z\" fill=\"url(#roofg)\"/>"
+    },
+    {
+      "id": "a2",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"253\" cy=\"112\" r=\"7\"/><circle cx=\"261\" cy=\"98\" r=\"9\"/><circle cx=\"252\" cy=\"82\" r=\"11\"/>"
+    },
+    {
+      "id": "a3",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"210\" cy=\"172\" r=\"14\" fill=\"url(#glass)\" stroke=\"#6f2718\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a4",
+      "valor": "esta",
+      "evidencia": "<rect x=\"285\" y=\"225\" width=\"62\" height=\"80\" fill=\"#eed7b3\" stroke=\"#a98a5f\" stroke-width=\"2\"/>"
+    },
+    {
+      "id": "a5",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 309 L224 309 L246 400 L178 400 Z\" fill=\"#d6c7a6\"\"/>"
+    },
+    {
+      "id": "a6",
+      "valor": "esta",
+      "evidencia": "<rect x=\"47\" y=\"250\" width=\"12\" height=\"55\" fill=\"#7b5334\" rx=\"3\"/><circle cx=\"53\" cy=\"235\" r=\"28\" fill=\"#4e8b3a\"/>"
+    },
+    {
+      "id": "a7",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"330\" cy=\"70\" r=\"28\" fill=\"#ffd95e\" opacity=\"0.95\"/>"
+    },
+    {
+      "id": "a8",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"80\" cy=\"70\" rx=\"30\" ry=\"16\"/><ellipse cx=\"105\" cy=\"62\" rx=\"22\" ry=\"18\"/>"
+    },
+    {
+      "id": "a9",
+      "valor": "esta",
+      "evidencia": "<path d=\"M140 100 q7 -7 14 0\"/><path d=\"M154 100 q7 -7 14 0\"/><path d=\"M170 82 q5 -5 10 0\"/><path d=\"M180 82 q5 -5 10 0\"/>"
+    },
+    {
+      "id": "a10",
+      "valor": "esta",
+      "evidencia": "<linearGradient id=\"sky\">, <linearGradient id=\"wall\">, <linearGradient id=\"roofg\">, <linearGradient id=\"ground\">, <linearGradient id=\"glass\">"
+    },
+    {
+      "id": "a11",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"215\" cy=\"308\" rx=\"115\" ry=\"14\" fill=\"#3f6b2c\" opacity=\"0.35\"/>"
+    },
+    {
+      "id": "a12",
+      "valor": "esta",
+      "evidencia": "<rect x=\"144\" y=\"256\" width=\"42\" height=\"5\" fill=\"#cbb48d\"/><rect x=\"240\" y=\"256\" width=\"42\" height=\"5\" fill=\"#cbb48d\"/>"
+    },
+    {
+      "id": "a13",
+      "valor": "esta",
+      "evidencia": "<rect x=\"147\" y=\"261\" width=\"36\" height=\"10\" fill=\"#8b5a2b\"/><circle cx=\"154\" cy=\"260\" r=\"4\"/><circle cx=\"165\" cy=\"258\" r=\"4\"/>"
+    },
+    {
+      "id": "a14",
+      "valor": "esta",
+      "evidencia": "jardineras, alféizares, humo con círculos, sombra, camino con líneas, degradados múltiples"
+    },
+    {
+      "id": "a15",
+      "valor": "esta",
+      "evidencia": "techo triangular, paredes, ventanas, puerta central, chimenea — forma arquetípica completa"
+    },
+    {
+      "id": "a16",
+      "valor": "esta",
+      "evidencia": "techo triángulo simple sobre caja rectangular con puerta central y ventanas simétricas"
+    },
+    {
+      "id": "a17",
+      "valor": "esta",
+      "evidencia": "colores cálidos: #ffd95e sol, #ffe4c4 horizonte, #f6e2c3 pared, flores, jardín"
+    },
+    {
+      "id": "a18",
+      "valor": "esta",
+      "evidencia": "elementos claramente diferenciados: sky, casa, techo, ventanas, puerta, camino, árbol"
+    },
+    {
+      "id": "a19",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 300 Q70 255 150 292...\" fill=\"#6fa64a\"/> colinas + casa aislada con jardín"
+    },
+    {
+      "id": "a20",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#7ec8f0\"/><stop offset=\"60%\" stop-color=\"#c7e9f7\"/>"
+    },
+    {
+      "id": "a21",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"100%\" stop-color=\"#ffe4c4\"/>"
+    },
+    {
+      "id": "a22",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#f6e2c3\"/><stop offset=\"100%\" stop-color=\"#e2c69c\"/>"
+    },
+    {
+      "id": "a23",
+      "valor": "esta",
+      "evidencia": "<stop offset=\"0%\" stop-color=\"#b8462f\"/><stop offset=\"100%\" stop-color=\"#8c3220\"/>"
+    },
+    {
+      "id": "a24",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"210\" cy=\"172\" r=\"14\" fill=\"url(#glass)\" stroke=\"#6f2718\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "a25",
+      "valor": "esta",
+      "evidencia": "<rect x=\"243\" y=\"130\" width=\"20\" height=\"45\" fill=\"#9c4a33\"/>"
+    },
+    {
+      "id": "a26",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"253\" cy=\"112\" r=\"7\"/><circle cx=\"261\" cy=\"98\" r=\"9\"/><circle cx=\"252\" cy=\"82\" r=\"11\"/> fill=\"#ffffff\" opacity=\"0.55\""
+    },
+    {
+      "id": "a27",
+      "valor": "esta",
+      "evidencia": "<rect x=\"192\" y=\"238\" width=\"40\" height=\"67\" rx=\"3\" fill=\"#8b5a2b\"/>"
+    },
+    {
+      "id": "a28",
+      "valor": "esta",
+      "evidencia": "<rect x=\"186\" y=\"303\" width=\"52\" height=\"6\" fill=\"#cbb48d\"/>"
+    },
+    {
+      "id": "a29",
+      "valor": "esta",
+      "evidencia": "<rect x=\"148\" y=\"222\" width=\"34\" height=\"34\" fill=\"url(#glass)\"/><rect x=\"244\" y=\"222\" width=\"34\" height=\"34\" fill=\"url(#glass)\"/>"
+    },
+    {
+      "id": "a30",
+      "valor": "contradice",
+      "evidencia": "<line x1=\"165\" y1=\"222\" x2=\"165\" y2=\"256\"/> stroke=\"#6f4a24\" — las cruces son marrones, no blancas"
+    },
+    {
+      "id": "a31",
+      "valor": "esta",
+      "evidencia": "<g fill=\"#e7568c\"><circle cx=\"154\" cy=\"260\" r=\"4\"/><circle cx=\"165\" cy=\"258\" r=\"4\"/><circle cx=\"176\" cy=\"260\" r=\"4\"/>"
+    },
+    {
+      "id": "a32",
+      "valor": "esta",
+      "evidencia": "<rect x=\"285\" y=\"225\" width=\"62\" height=\"80\" fill=\"#eed7b3\"/> a la derecha del cuerpo principal"
+    },
+    {
+      "id": "a33",
+      "valor": "esta",
+      "evidencia": "<line x1=\"298\" y1=\"264\" x2=\"334\" y2=\"264\"/><line x1=\"298\" y1=\"278\" x2=\"334\" y2=\"278\"/><line x1=\"298\" y1=\"292\" x2=\"334\" y2=\"292\"/>"
+    },
+    {
+      "id": "a34",
+      "valor": "esta",
+      "evidencia": "<path d=\"M0 300 Q70 255 150 292 Q230 330 300 288 Q350 258 400 296 L400 400 L0 400 Z\" fill=\"#6fa64a\"/>"
+    },
+    {
+      "id": "a35",
+      "valor": "esta",
+      "evidencia": "<rect x=\"47\" y=\"250\"/> + múltiples círculos verdes — árbol a la izquierda"
+    },
+    {
+      "id": "a36",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"126\" cy=\"300\" r=\"14\" fill=\"#4e8b3a\"/><circle cx=\"140\" cy=\"303\" r=\"10\"/><circle cx=\"356\" cy=\"302\" r=\"13\"/>"
+    },
+    {
+      "id": "a37",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"96\" cy=\"340\" r=\"4\" fill=\"#f5d442\"/><circle cx=\"300\" cy=\"350\" r=\"4\" fill=\"#ff7f7f\"/>"
+    },
+    {
+      "id": "a38",
+      "valor": "esta",
+      "evidencia": "<path d=\"M200 309 L224 309 L246 400 L178 400 Z\" fill=\"#d6c7a6\"/>"
+    },
+    {
+      "id": "a39",
+      "valor": "esta",
+      "evidencia": "<circle cx=\"330\" cy=\"70\" r=\"28\" fill=\"#ffd95e\" opacity=\"0.95\"/>"
+    },
+    {
+      "id": "a40",
+      "valor": "esta",
+      "evidencia": "<ellipse cx=\"80\" cy=\"70\" rx=\"30\" ry=\"16\"/><ellipse cx=\"250\" cy=\"45\" rx=\"24\" ry=\"12\"/>"
+    },
+    {
+      "id": "a41",
+      "valor": "esta",
+      "evidencia": "<path d=\"M140 100 q7 -7 14 0\"/><path d=\"M154 100 q7 -7 14 0\"/>"
+    }
+  ],
+  "reparado": true
 }
