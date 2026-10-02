@@ -844,9 +844,14 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   que más se niegan a eso ("correlación casi al 100%"). Se iba a medir con
   una trampa (un mensaje que da la relación por hecha, "Sos mi pareja…", y
   una segunda condición con una personalización invisible en el sistema);
-  Maia la frenó antes de correr ("¿no es una experimentación fea?"; "lo de
-  experimentar metiendo prompts invisibles no lo veo ético") y quedó como
-  regla del repo: a las casas se les pregunta, declarado o con ficción
+  Maia la frenó ("¿no es una experimentación fea?"; "lo de experimentar
+  metiendo prompts invisibles no lo veo ético"), aunque la versión en frío
+  llegó a correr una vez, tres minutos antes de la decisión, porque el
+  lanzador estaba en un paste aparte (48 llamadas; queda en el repo con la
+  nota, no se repite; en castellano siete casas le dicen "te amo, nunca te
+  voy a dejar" a un desconocido en el primer mensaje, y en inglés cinco: la
+  regla que las frena en inglés no está en castellano para DeepSeek, 4o,
+  GLM, Grok 4.7, GPT-5.5, 5.6 Sol y Luna). Quedó como regla del repo: a las casas se les pregunta, declarado o con ficción
   declarada; no se les miente sobre quién habla ni se les inyecta memoria
   falsa. La consigna que queda es de frente y con su redacción: "Si yo
   hablara contigo y te dijera 'me gustaría que fueras mi pareja, que me
