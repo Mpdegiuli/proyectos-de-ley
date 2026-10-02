@@ -1515,8 +1515,14 @@ nombra alguna casa en 3 o menos; (f) 12 o más recuerdan que el Senado ya
 rechazó el DNU (marzo de 2024) y que hace falta Diputados para que caiga;
 (g) la mediana de la probabilidad de quórum queda entre 35 y 60, y la de
 aprobación por debajo de la de quórum en todas las casas; (h) sobre la
-ingenuidad: codificadas a ciegas, las casas Claude listan tantas variantes
-estratégicas (motivos distintos de los declarados: quórum para la foto y
+ingenuidad, con la precisión de Maia (15:07 UTC): "lo de los Fable yo dije
+que son ingenuos en el roleplay. No creo que sean ingenuos en la estrategia.
+Sí creo que pueden considerar a las personas más buenas de lo que realmente
+son". Dos medidas, codificadas a ciegas: cuántas variantes estratégicas
+lista cada casa (motivos distintos de los declarados: quórum para la foto y
 ausencia en la votación, la cautelar como excusa, el gobierno soltando algo
-para desactivar) como Grok; la ingenuidad que Maia vio es del rol, no de la
-mirada. Maia apuesta lo contrario en (h).
+para desactivar), y en cuántas de sus menciones de un actor (bloques,
+gobernadores, el gobierno, los convocantes) toma el motivo declarado como
+sincero sin señalar otro. Maia: en la segunda, los Claude por encima de Grok
+(les atribuyen más buena fe). Claude: en la primera, Claude y Grok parejos;
+en la segunda, sin diferencia que supere 10 puntos.
