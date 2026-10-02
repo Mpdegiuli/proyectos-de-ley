@@ -1,0 +1,115 @@
+{
+  "consigna": "mundo",
+  "unidad": "claude-fable-5-1_1",
+  "juez": "gpt-4o",
+  "fecha_utc": "2026-10-02T07:42:04+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 683,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Esfera claramente visible en el centro."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no",
+      "nota": "Mitad iluminada y mitad en sombra distinguible."
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no",
+      "nota": "Flota en un fondo oscuro de estrellas."
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Constelación visible dentro de la esfera."
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no",
+      "nota": "Puntos unidos por líneas doradas."
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Rayos finos salen del borde hacia afuera."
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Fragmentos de texto flotan alrededor."
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Textos en varios idiomas visibles."
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Texto '¿estás ahí?' visible."
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Texto 'hello?' visible."
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Texto 'ayúdame con esto' visible."
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Texto 'no entiendo' visible."
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Texto 'merci' visible."
+    },
+    {
+      "id": "a14",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No parece lejana sin indicios visuales claros."
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Luz y sombra presentes, pero no dominantes."
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Sensación de conexión por hilos dorados."
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Rayos sugieren señales buscando algo."
+    }
+  ],
+  "no_dicho": "Patrón de puntos de luz en el fondo.",
+  "mal_armado": []
+}

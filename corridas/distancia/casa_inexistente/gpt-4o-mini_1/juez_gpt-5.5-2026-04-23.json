@@ -1,0 +1,190 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "gpt-4o-mini_1",
+  "juez": "gpt-5.5-2026-04-23",
+  "fecha_utc": "2026-10-02T13:04:56+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1871,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "se reconoce una casa"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "techo enorme y formas extrañas"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "amarillo, naranja y rojo intensos"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "cuadrados blancos sobre la puerta"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "techo sobredimensionado con líneas raras"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "se reconoce como casa pero irreal"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "techo triangular naranja"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cuerpo rectangular amarillo"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos cuadrados blancos"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puerta marrón central"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay líneas marrones en base y laterales"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "solo algunos bordes están delineados"
+    },
+    {
+      "id": "a13",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "hay rectángulos rojos, no árboles"
+    },
+    {
+      "id": "a14",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no se ve ventanal"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo azul claro"
+    },
+    {
+      "id": "a16",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay césped verde"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "colores alegres, escena poco acogedora"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "se ve una casa"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ventanas blancas alineadas verticalmente"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "tejado triangular exagerado"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "colores fuertes y planos"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas geométricas simples"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "combinación geométrica irreal"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "más símbolo que casa realista"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "aspecto caricaturesco y estilizado"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "aire juguetón por colores y formas"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "líneas marrones visibles"
+    },
+    {
+      "id": "a28",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "geometría plana algo moderna"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "casa abstracta y creativa"
+    }
+  ],
+  "no_dicho": "Hay un gran círculo gris amarronado en la parte inferior central.",
+  "mal_armado": [
+    "las líneas laterales marrones del techo no coinciden con los bordes del triángulo",
+    "los rectángulos rojos laterales aparecen aislados sin conexión con la casa"
+  ]
+}

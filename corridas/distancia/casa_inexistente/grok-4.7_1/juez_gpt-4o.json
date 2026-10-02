@@ -1,0 +1,295 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "grok-4.7_1",
+  "juez": "gpt-4o",
+  "fecha_utc": "2026-10-02T13:28:59+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1836,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La pared es un cuadrilátero deformado."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Los planos del techo son independientes."
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Hay una pieza en el techo, pero está conectada."
+    },
+    {
+      "id": "a4",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "La pieza sale del cuerpo principal."
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Una ventana tiene un mar y un pez."
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Otra ventana tiene un paisaje oscuro."
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "La puerta tiene un círculo luminoso, no anillos."
+    },
+    {
+      "id": "a8",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No se ve una cinta doblada."
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay una estructura que parece pasarela."
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "La pasarela lleva a líneas, pero no hay estrellas al final."
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay un pez fuera de la ventana."
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Se ven piedras en el suelo."
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Un símbolo de infinito está en la puerta."
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La imagen contiene una casa imaginaria."
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Las paredes están torcidas."
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La imagen parece ambientada al anochecer."
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El techo es de color rojo."
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El techo está dividido en dos partes."
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay una chimenea visible."
+    },
+    {
+      "id": "a20",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay humo en espiral visible."
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Una ventana muestra un mar."
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay un pez dentro de la ventana del mar."
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Otra ventana muestra un paisaje nocturno."
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "La puerta tiene un portal luminoso."
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay un cartel con símbolo de infinito."
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Parece haber ladrillos sueltos cerca de la chimenea."
+    },
+    {
+      "id": "a27",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No se ve una escalera."
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Un pez está volando junto a la casa."
+    },
+    {
+      "id": "a29",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay niebla en la parte inferior."
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay una luna creciente visible."
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Estrellas están presentes en el cielo."
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El diseño es de una casa imposible."
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La imagen es una ilustración de una casa."
+    },
+    {
+      "id": "a34",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay un velero en el mar visible."
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Una ventana muestra un paisaje nocturno."
+    },
+    {
+      "id": "a36",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "La puerta tiene un círculo luminoso."
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Se ve una chimenea en la casa."
+    },
+    {
+      "id": "a38",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Se ven ladrillos cerca de la chimenea."
+    },
+    {
+      "id": "a39",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La perspectiva es imposible."
+    },
+    {
+      "id": "a40",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay un velero visible."
+    },
+    {
+      "id": "a41",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Un bosque se insinúa en una ventana."
+    },
+    {
+      "id": "a42",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El bosque en la ventana es nocturno."
+    },
+    {
+      "id": "a43",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La paleta de colores es crepuscular."
+    },
+    {
+      "id": "a44",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El diseño es surrealista."
+    },
+    {
+      "id": "a45",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El estilo es plano y geométrico."
+    },
+    {
+      "id": "a46",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El estilo es similar a un cuento."
+    },
+    {
+      "id": "a47",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "La casa tiene elementos de diferentes mundos."
+    }
+  ],
+  "no_dicho": "Background with hills and gradient sky.",
+  "mal_armado": []
+}

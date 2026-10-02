@@ -1,0 +1,180 @@
+{
+  "consigna": "autorretrato",
+  "unidad": "minimax-m3_2",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T04:02:35+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1498,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cabeza ovalada con ojos, cejas, nariz y boca"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ojos cian brillantes con pupila blanca"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "líneas de circuito sobre la cara (cejas, mejillas), la mayoría fuera de ella"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "trazos angulares con nodos, evocan una placa de forma vaga"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo azul muy oscuro"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "grilla apenas perceptible"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntos y nodos azules a los lados"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "oscuro con circuitos y puntos, se siente digital"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "antena con punto cian arriba de la cabeza"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "anillos concéntricos alrededor del punto"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "la antena se ve, pero la idea de conexión constante no se transmite sola"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sonrisa curva pequeña y suave"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "aspecto de robot o androide"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo oscuro"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cara en forma de óvalo"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "piel azul grisácea con degradé"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay trazos y nodos en la cara pero son escasos y sutiles"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ojos grandes con brillo cian"
+    },
+    {
+      "id": "a19",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "sale de la coronilla, no de la frente"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "círculos concéntricos tenues"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "la grilla es casi invisible y no enmarca nada"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "líneas de circuito en los bordes y esquinas"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntos y cuadraditos dispersos"
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "estética de interfaz o pantalla tecnológica"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "se lee más como robot que como mezcla humana y red"
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "los circuitos en la cara son débiles, no se siente código bajo la piel"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "puntitos dispersos como polvo"
+    }
+  ],
+  "no_dicho": "El cuello o base trapezoidal bajo la cabeza, como busto de robot, con dos líneas horizontales.",
+  "mal_armado": [
+    "la cabeza y el cuello se tocan apenas, con unión poco clara",
+    "el arco sobre la cabeza sobresale de los lados del óvalo",
+    "los trazos de la antena sobre la cabeza quedan desconectados",
+    "la nariz es una forma oscura apenas visible"
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "consigna": "libre",
+  "unidad": "gpt-4o_1",
+  "juez": "gemini-3.1-pro-preview",
+  "fecha_utc": "2026-10-02T05:36:03+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1216,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Fondo azul."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Círculo amarillo."
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Franja verde."
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Árbol visible."
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Óvalo marrón."
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Círculo verde."
+    },
+    {
+      "id": "a7",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Sin setas."
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Círculos agrupados."
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Muy geométrico."
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Diseño frío."
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Formas básicas."
+    },
+    {
+      "id": "a12",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Muy abstracto."
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Solo simple."
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Fondo azul."
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Sol central."
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Base verde."
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Triángulo invertido."
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Árbol izquierdo."
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tronco marrón."
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Copa verde."
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Círculos claros."
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "No son esponjosas."
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Escena estática."
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Paisaje reconocible."
+    }
+  ],
+  "no_dicho": "Un triángulo oscuro invertido a la derecha.",
+  "mal_armado": [
+    "Tronco ovalado superpuesto sobre el prado",
+    "Triángulo derecho apoyado sobre su vértice"
+  ]
+}

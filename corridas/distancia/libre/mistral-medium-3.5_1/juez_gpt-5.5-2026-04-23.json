@@ -1,0 +1,190 @@
+{
+  "consigna": "libre",
+  "unidad": "mistral-medium-3.5_1",
+  "juez": "gpt-5.5-2026-04-23",
+  "fecha_utc": "2026-10-02T06:15:41+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 2436,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cielo azul con degradado"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sol grande arriba a la derecha"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "nubes blancas con bordes suaves"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "colinas verdes en la parte baja"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "casita o torre simple al centro"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "rectángulo oscuro como ventana"
+    },
+    {
+      "id": "a7",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay puerta en la base"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "círculos rojo-anaranjados en el pasto"
+    },
+    {
+      "id": "a9",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "parece más día soleado"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "escena simple y serena"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "sol y flores cálidos, cielo frío"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "paisaje muy legible"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "degradados visibles en cielo y sol"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "nubes con desenfoque claro"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "colinas curvas y orgánicas"
+    },
+    {
+      "id": "a16",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no se lee claramente como atardecer"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "degradado azul, horizonte verde marcado"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sol dorado naranja arriba derecha"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "dos nubes blancas difusas"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "nubes suspendidas en el cielo"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "colina verde con alguna zona más oscura"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "colinas ocupan la parte inferior"
+    },
+    {
+      "id": "a23",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no se ve un árbol"
+    },
+    {
+      "id": "a24",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "hay una torre marrón, no tronco delgado"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay techo triangular, no copa"
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "círculo amarillo dentro del techo"
+    },
+    {
+      "id": "a27",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "rectángulo azul oscuro, pero no en la base ni en árbol"
+    },
+    {
+      "id": "a28",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "círculos naranjas dispersos sin tallos"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "composición calma y sencilla"
+    }
+  ],
+  "no_dicho": "Una línea curva verde oscura cruza las colinas como sendero o enredadera.",
+  "mal_armado": [
+    "la línea verde oscura termina en un tramo vertical abrupto a la derecha",
+    "las flores son solo círculos sin tallos ni hojas"
+  ]
+}

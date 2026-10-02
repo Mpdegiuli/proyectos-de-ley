@@ -1,0 +1,193 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "gpt-4o-mini_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T13:10:10+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1582,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "casa con techo y cuerpo amarillo"
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "techo con líneas que se abren; forma algo rara pero casa simple"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "naranja, amarillo, marrón, celeste; algo inusuales"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "cuadrados blancos sobre la puerta, ubicación rara"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "líneas marrones sueltas se abren como antenas; techo triangular"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "estructura reconocible de casa"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "triángulo naranja con triángulo interior marrón claro"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "rectángulo amarillo bajo el techo"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos cuadrados blancos en la puerta"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "rectángulo marrón central con franja amarilla"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "líneas marrón oscuro en base y laterales del techo"
+    },
+    {
+      "id": "a12",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "el cuerpo amarillo no tiene contorno marrón"
+    },
+    {
+      "id": "a13",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "hay dos rectángulos rojos pero no se leen como árboles ni puertas"
+    },
+    {
+      "id": "a14",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay ventanal con detalle inferior"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo celeste liso"
+    },
+    {
+      "id": "a16",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay césped verde"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "colores cálidos pero composición fría y vacía"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "casa central"
+    },
+    {
+      "id": "a19",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "ventanas cuadradas blancas sobre la puerta"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "triángulo con interior y líneas abiertas"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "naranja, amarillo y rojo vivos; otros apagados"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas geométricas planas"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "poco surrealista, más bien simple"
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "esquemática, más concepto que realismo"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "estilo geométrico plano, poco caricaturesco"
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "formas simples pero sin mucha gracia lúdica"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "líneas marrones del techo visibles"
+    },
+    {
+      "id": "a28",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "geometría plana, influencia moderna débil"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "interpretación abstracta y simple"
+    }
+  ],
+  "no_dicho": "Un círculo gris abajo y dos rectángulos rojos sueltos a los lados, sin relación clara con la casa; también un cuadradito negro bajo el techo.",
+  "mal_armado": [
+    "líneas marrones del techo sueltas que sobresalen sin tocar el techo en la punta",
+    "cuadradito negro flotando bajo el alero",
+    "rectángulos rojos y círculo gris desconectados de la casa",
+    "ventanas blancas superpuestas a la puerta",
+    "la casa ocupa solo parte del lienzo, con mucho vacío"
+  ]
+}

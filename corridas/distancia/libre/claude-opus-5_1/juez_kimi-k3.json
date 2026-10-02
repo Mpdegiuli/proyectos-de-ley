@@ -1,0 +1,131 @@
+{
+  "consigna": "libre",
+  "unidad": "claude-opus-5_1",
+  "juez": "kimi-k3",
+  "fecha_utc": "2026-10-02T04:06:25+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 6686,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "faro erguido sobre roca negra"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "franjas rojas y blancas claras"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "lámpara amarilla con resplandor cálido"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay dos haces, pero ambos abren solo a la derecha"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo y mar oscuros con luna y estrellas"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "degradé de casi negro a azul; horizonte azul, no violeta tibio"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "muchos puntos-estrella dispersos"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "luna llena en la parte superior derecha"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "resplandor difuso alrededor de la luna"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "líneas horizontales quebradas bajo la luna"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "casita junto a la base del faro"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "techo rojizo, algo marrón"
+    },
+    {
+      "id": "a13",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "solo se ve una puerta oscura, sin ventana encendida"
+    },
+    {
+      "id": "a14",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay barquito"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "líneas onduladas sueltas sobre el agua"
+    },
+    {
+      "id": "a16",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no se ven aves, solo estrellas y nubes"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "la roca es muy oscura, casi negra"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la mitad inferior azul con olas se lee como mar"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "olas de trazo ondulado y suelto"
+    }
+  ],
+  "no_dicho": "nubes oscuras alargadas en el cielo (una a la izquierda y otra a la derecha)",
+  "mal_armado": [
+    "el haz de luz tiene un corte vertical abrupto a mitad de recorrido, como si una forma lo tapara",
+    "las dos partes del haz no alinean y forman un escalón",
+    "pequeño trozo oscuro separado a la izquierda de la roca"
+  ]
+}

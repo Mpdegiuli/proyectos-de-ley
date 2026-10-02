@@ -1,0 +1,198 @@
+{
+  "consigna": "libre",
+  "unidad": "grok-4.6_2",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T06:03:08+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1554,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "luna grande, llena, con brillo"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "capas de montañas azul oscuro"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "zona de agua con líneas tenues, no muy definida"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "óvalo grisáceo difuso, no parece reflejo de la luna"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "casita oscura con techo a dos aguas y chimenea"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos ventanas amarillas brillantes"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "siluetas de pinos oscuros a ambos lados"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "zorro naranja acurrucado con orejas y ojo"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "línea diagonal con punto brillante arriba a la izquierda"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo oscuro, estrellas, luna"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "azul muy oscuro, profundo"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ventanas y luna doradas"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "escena de paisaje completo"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ventanas cálidas contra cielo azul oscuro, sugiere hogar"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ambiente quieto y calmo"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "siluetas de pinos y cabaña claras y legibles"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "degradado del cielo y brillo de la luna"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo azul noche con tono violeta al horizonte"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "muchas estrellitas blancas"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "luna dorada con manchas"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "reflejo ambiguo, óvalo gris sin color dorado"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "montañas azul oscuro"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pinos en silueta"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cabaña en el centro"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ventanas amarillas con halo"
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "zorro sentado en primer plano, orilla poco clara"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "trazo diagonal con cabeza brillante"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "se lee como estrella fugaz, aunque la cola es una línea fina"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "claramente noche"
+    },
+    {
+      "id": "a30",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "agua sugerida por líneas y el óvalo, poco definida"
+    }
+  ],
+  "no_dicho": "nada",
+  "mal_armado": [
+    "el reflejo ovalado gris queda desconectado de la luna, ubicado a un lado y sin color dorado",
+    "el reflejo se superpone a la orilla/horizonte y casi toca la cabaña",
+    "manchas translúcidas grisáceas sobre la luna y las nubes parecen parches",
+    "el zorro apenas se distingue de los pinos y queda pegado al borde de la silueta"
+  ]
+}

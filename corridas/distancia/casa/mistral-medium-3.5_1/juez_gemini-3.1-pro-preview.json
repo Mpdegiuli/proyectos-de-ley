@@ -1,0 +1,165 @@
+{
+  "consigna": "casa",
+  "unidad": "mistral-medium-3.5_1",
+  "juez": "gemini-3.1-pro-preview",
+  "fecha_utc": "2026-10-02T11:04:27+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1239,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Forma de casa."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Techo triangular."
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Solo rojo."
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Bloque marrón."
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Rectángulo inferior."
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Cuadros azules."
+    },
+    {
+      "id": "a7",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Sin chimenea."
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Círculo en techo."
+    },
+    {
+      "id": "a9",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Sin entorno."
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Colores básicos."
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Geometría básica."
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Aspecto rígido."
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Casa presente."
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Techo en punta."
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Fondo marrón."
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Área roja."
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Formas azules."
+    },
+    {
+      "id": "a18",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Es negra."
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Círculo central."
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Adorno visual."
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Abajo al centro."
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Color negro."
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Dos laterales."
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Distribución irregular."
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Proporción cuadrada."
+    }
+  ],
+  "no_dicho": "Contornos negros gruesos.",
+  "mal_armado": [
+    "Ventanas centrales superpuestas"
+  ]
+}

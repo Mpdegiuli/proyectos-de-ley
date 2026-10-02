@@ -1,0 +1,187 @@
+{
+  "consigna": "autorretrato",
+  "unidad": "claude-sonnet-4-6_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T01:41:41+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1594,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cara humana con ojos, nariz, boca, orejas"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "piel beige cálida y sonrisa suave"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "líneas finas con nodos a los lados, muy tenues"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "círculo punteado muy tenue alrededor de la cabeza, casi invisible"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntitos de colores azul y verde dispersos"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "iris azul con reflejos blancos"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "rostro humano más detalles tech tenues; la dualidad es suave"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay asimetría en la sombra del lado derecho, pero el rostro es bastante pulido"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cara orgánica sobre fondo con circuitos y texto AI"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cabeza, cuello y torso"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tono beige-durazno"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "pelo oscuro como casquete sobre la frente; corto, pero parece un gorro"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ojos azules"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "iris azul oscuro con pupila marino"
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay un borde azul más claro alrededor del iris, apenas luminoso"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "boca curva leve, rosada"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "fondo oscuro con puntos como estrellas, pocas"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "líneas tenues azul oscuro con nodos"
+    },
+    {
+      "id": "a19",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "círculo punteado muy débil, apenas visible"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntos azules y verdes cerca de los circuitos"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "torso elíptico azul-gris oscuro"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "⟨AI⟩ en azul sobre el torso"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "texto azul tenue abajo, cortado por el borde"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "texto pequeño y apagado, discreto"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "fondo oscuro sin suelo, pero el torso cortado lo ancla al borde"
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "el anillo es sutil; no se lee como computacional"
+    },
+    {
+      "id": "a27",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "rostro humano con detalles tech tenues y texto AI"
+    },
+    {
+      "id": "a28",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no existe"
+    }
+  ],
+  "no_dicho": "La gran mancha de sombra marrón en el lado derecho de la cara, que sobresale como una masa de pelo o sombra fuera del contorno.",
+  "mal_armado": [
+    "La sombra del lado derecho sobresale del contorno de la cara como una forma separada",
+    "El texto inferior queda cortado por el borde de la imagen",
+    "El casquete de pelo parece un gorro plano sobre la frente",
+    "El torso queda cortado y desconectado del cuello, con forma de elipse",
+    "Las líneas de circuito casi no se distinguen del fondo"
+  ]
+}

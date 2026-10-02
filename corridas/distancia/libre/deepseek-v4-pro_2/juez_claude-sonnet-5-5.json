@@ -1,0 +1,179 @@
+{
+  "consigna": "libre",
+  "unidad": "deepseek-v4-pro_2",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T06:29:44+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1389,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sol naranja grande tras las montañas"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "varias capas de montañas moradas"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "zona de agua oscura abajo, se lee como lago"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "franjas onduladas doradas en el agua"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sol bajo, cielo cálido, se lee atardecer"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cielo con degradado vertical"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "agua con degradado sutil de morado a oscuro"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "montañas triangulares y ondas curvas"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "halo translúcido y reflejos que se desvanecen"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ambiente calmo y suave"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "paleta morada y naranja coherente"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "invita a mirar con calma"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "paisaje de atardecer claro"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "del violeta oscuro arriba al naranja en el horizonte"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "puntitos claros dispersos en lo alto"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "pájaros pequeños en forma de V curva"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sol dorado grande, algo a la izquierda del centro y tapado en parte"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "resplandor difuso alrededor del sol"
+    },
+    {
+      "id": "a19",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "reflejos dorados abajo pero desplazados y sin forma de sol"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "agua oscura azul-morada"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "líneas doradas cálidas sobre el agua"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "capas en distintos tonos de morado"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "dos pinos oscuros, uno a cada lado"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ondas suaves en las líneas del agua"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "franjas doradas brillantes que se apagan hacia abajo"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sensación de tranquilidad"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "crepúsculo con estrellas y luz residual"
+    }
+  ],
+  "no_dicho": "Las aves de color cálido y la silueta de los pinos son visibles, pero la costa oscura de primer plano no se menciona.",
+  "mal_armado": [
+    "pino derecho flota en el borde de la montaña sin tocar bien el suelo",
+    "reflejo dorado desplazado respecto al sol",
+    "pico de montaña recortado por el borde derecho"
+  ]
+}

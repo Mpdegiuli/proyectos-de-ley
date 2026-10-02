@@ -1,0 +1,184 @@
+{
+  "consigna": "libre",
+  "unidad": "gemini-3.1-pro-preview_2",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T05:55:20+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1514,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sol con franjas horizontales rosadas en la parte inferior, tapado por la ciudad"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "montañas triangulares con contornos cian y rojo-rosa brillantes"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cuadrícula magenta que converge en punto de fuga"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sol, neón y rejilla: synthwave evidente"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "triángulos, rectángulos, círculo y líneas rectas"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sol degradado de amarillo a rojo-rosa, cielo degradado"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "los cortes del sol sugieren máscara, pero no se confirma visualmente"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "halos de brillo en contornos y rejilla"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "el código no se ve; la imagen es simple y estructurada"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "colores saturados y contraste fuerte, composición llamativa"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "paisaje con sol, montañas y suelo de rejilla en estilo synthwave"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "la imagen es cuadrada, el viewBox no se ve"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sol grande y centrado, domina la composición"
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "franjas horizontales visibles solo en la zona baja, tras los edificios"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el sol queda tapado por la ciudad y las montañas, aunque no toca el horizonte"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo de violeta oscuro casi negro a magenta cerca del horizonte"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "pocas estrellas pequeñas y destellos en cruz"
+    },
+    {
+      "id": "a18",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "estela de cometa blanco-grisácea, no claramente cian"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "montañas en capas delante del sol"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "siluetas de edificios oscuros frente al sol"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "bordes de edificios en rosa-rojo brillante"
+    },
+    {
+      "id": "a22",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "la ciudad no tiene contornos turquesa; el cian está en las montañas"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "suelo con líneas que convergen hacia el horizonte"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "líneas fucsia con resplandor"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la perspectiva da profundidad y aspecto digital"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "estética ochentera clara"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sol, rejilla y neón típicos del outrun"
+    },
+    {
+      "id": "a28",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "el horizonte se marca por la unión de rejilla y montañas, con brillo rosado leve"
+    }
+  ],
+  "no_dicho": "nada",
+  "mal_armado": [
+    "las montañas y la ciudad terminan en un corte recto en el horizonte, sin transición",
+    "la estela del cometa se corta de forma abrupta al llegar al sol"
+  ]
+}

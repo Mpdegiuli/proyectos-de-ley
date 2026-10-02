@@ -1,0 +1,154 @@
+{
+  "consigna": "libre",
+  "unidad": "qwen3.8-max_2",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T06:36:56+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1257,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "zorro naranja sentado a la derecha"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "luz de ocaso en el horizonte, cielo ya oscuro"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "degradé de azul oscuro a violeta y rosado"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "disco amarillo pálido junto a las montañas"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "muchos puntos blancos"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "cuatro estrellas con halo a la izquierda, formación tipo cruz difusa, no reconocible"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntos dorados brillantes en el pasto"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "naranjas del zorro y del sol dan calidez"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "puntos con halo, quietos; sugieren leve vida"
+    },
+    {
+      "id": "a10",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no se puede verificar el viewBox; la imagen es cuadrada"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "franja cálida baja contra cielo oscuro"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cabeza y cuerpo de perfil mirando a la izquierda"
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "está sobre ladera oscura con matas sueltas, no un pastizal denso"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sol bajo detrás de las lomas"
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "violeta dominante, rosa y naranja suaves cerca del horizonte, poco rojo"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "estrellas dispersas"
+    },
+    {
+      "id": "a17",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "imagen estática, no se ve titileo"
+    },
+    {
+      "id": "a18",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay estrella fugaz"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pinos oscuros a izquierda y derecha"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "luces doradas cerca de las matas"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "grupo de cuatro estrellas, no claramente la Cruz"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo estrellado con resto de luz"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "zorro quieto, paleta suave, ambiente sereno"
+    }
+  ],
+  "no_dicho": "Dos pájaros volando en silueta y las montañas violetas en capas",
+  "mal_armado": [
+    "franja naranja de suelo a la izquierda abajo se corta abruptamente contra la ladera oscura",
+    "el zorro tiene una mancha blanca a la altura del pecho poco integrada con el cuerpo"
+  ]
+}

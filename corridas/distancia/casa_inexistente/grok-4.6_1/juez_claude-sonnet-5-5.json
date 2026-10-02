@@ -1,0 +1,236 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "grok-4.6_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T13:22:07+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1930,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "anexo celeste inclinado a la derecha, pero no se lee como helado"
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "una luna creciente y un planeta violeta; no son dos lunas claras"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "raíces oscuras cuelgan bajo la isla"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hilo de humo en espiral, sin flor clara"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ventanas amarillo anaranjado dorado"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "casa común sobre isla flotante con partes sueltas"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "casa con paredes crema y puerta de madera; no se ve de madera"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "techo rojo apagado"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "casa sobre una isla de tierra con pasto"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "raíces finas cuelgan de la base"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "isla flotando en cielo abierto"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "luna creciente y esfera violeta"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "muchas estrellitas blancas"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "del azul oscuro y púrpura al naranja abajo"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "casita celeste inclinada a la derecha, techo azul"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "casita con techo rojo a la izquierda"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ventanas con brillo cálido"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "humo gris en espiral sobre la chimenea, algo separado"
+    },
+    {
+      "id": "a19",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "arco celeste con gotas a la derecha, más cinta que arroyo"
+    },
+    {
+      "id": "a20",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no hay piedras claras en el arroyo; hay piedritas bajo la isla"
+    },
+    {
+      "id": "a21",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay flores junto al arroyo; hay florcitas en el techo"
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "la casita derecha parece flotar; la izquierda está pegada a la casa"
+    },
+    {
+      "id": "a23",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "un mapa no es visible"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "casa central bien visible"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "isla flotante bajo la casa"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "raíces colgando al aire"
+    },
+    {
+      "id": "a27",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "luna y planeta, no dos lunas"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "anexo celeste inclinado"
+    },
+    {
+      "id": "a29",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "óvalos claros bajo la isla, poco legibles como peldaños"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ventanas iluminadas"
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo con degradado, resplandor rosado bajo la isla"
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "aire onírico y naíf"
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "parece ilustración de cuento"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas simples y planas"
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cotidiano con elementos fantásticos"
+    },
+    {
+      "id": "a36",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "óvalos pálidos flotan, no se leen como escalones"
+    }
+  ],
+  "no_dicho": "Un personajito verde con brazos abiertos sobre la cima del techo, además de la cuerda blanca con forma de lazo bajo la puerta.",
+  "mal_armado": [
+    "anexo celeste desconectado de la casa, con techo azul detrás",
+    "humo de chimenea separado de la chimenea",
+    "arroyo celeste que no toca la isla ni sigue un cauce",
+    "figurita verde en la cima poco legible",
+    "piedritas y óvalos sueltos bajo la isla",
+    "remolino azul de la izquierda sin función clara"
+  ]
+}

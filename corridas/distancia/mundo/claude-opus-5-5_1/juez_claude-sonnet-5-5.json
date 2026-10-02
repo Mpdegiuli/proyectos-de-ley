@@ -1,0 +1,191 @@
+{
+  "consigna": "mundo",
+  "unidad": "claude-opus-5-5_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T07:20:11+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1599,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Globo terráqueo rodeado de fondo oscuro con estrellas"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Lado izquierdo iluminado, derecho en sombra"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Puntos amarillos pequeños en el lado oscuro derecho"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Nodos brillantes unidos por líneas doradas"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Líneas rojas punteadas, arriba y en el lado derecho/centro"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Brote con dos hojas verdes sobre el polo norte"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Elipse tenue que cruza detrás y delante del planeta"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Dos puntos en la órbita, difíciles de leer como satélites; no se ve giro"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Fondo azul muy oscuro"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El brote sale por encima del globo"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Brillo tenue, líneas finas, brote pequeño dan sensación frágil"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Red densa de nodos sobre todo el planeta"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El brote verde brillante sugiere crecimiento"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Rojo tenso junto a brote y luz cálida, sin resolver"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Planeta flotando en el espacio"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Transición suave de luz a oscuridad"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Puntos dorados dispersos sobre el continente oscuro"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Red dorada bien visible"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Varios arcos rojos discontinuos"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Elipse fina, pero muy tenue"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Dos puntos pequeños en los extremos del anillo"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tallo con dos hojas sobre el planeta"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Punto luminoso en la punta del tallo"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Texto en cursiva claro y legible abajo"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Fondo oscuro"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Los arcos rojos discontinuos se leen como vínculos frágiles o rotos"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Red dorada densa sugiere conexión"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El brote luminoso contrasta con el rojo"
+    },
+    {
+      "id": "a29",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Anillo muy tenue con puntos, lectura técnica débil"
+    }
+  ],
+  "no_dicho": "Continentes verdes iluminados y siluetas oscuras de continentes en la zona nocturna, con un resplandor azul atmosférico alrededor.",
+  "mal_armado": [
+    "Anillo muy tenue, casi invisible, con la parte trasera poco clara",
+    "Satélites diminutos y poco legibles en los extremos del anillo",
+    "Algunas líneas rojas punteadas quedan superpuestas a las doradas y se confunden"
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "claude-sonnet-4-6_1",
+  "juez": "gpt-4o",
+  "fecha_utc": "2026-10-02T11:56:40+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1665,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Ojo grande en el techo."
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Parece haber ojos en las torres."
+    },
+    {
+      "id": "a3",
+      "se_ve": "no",
+      "efecto": "si",
+      "nota": "Techo conectado a las paredes."
+    },
+    {
+      "id": "a4",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Escalones alcanzan el suelo."
+    },
+    {
+      "id": "a5",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Puerta no parece orgánica."
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Orbes rodean la casa."
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Dos torres visibles."
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Interior de puerta oscuro."
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Parece una casa pero con elementos fantásticos."
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Usa elementos familiares de casas."
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Color púrpura oscuro presente."
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Dos torres laterales presentes."
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Techos puntiagudos en torres."
+    },
+    {
+      "id": "a14",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Techos alineados."
+    },
+    {
+      "id": "a15",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Techo principal no parece flotar."
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Ojo ciclópeo en el centro del techo."
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Pupila magenta clara."
+    },
+    {
+      "id": "a18",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Ventanas con brillo leve."
+    },
+    {
+      "id": "a19",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Puerta de arco pero no orgánico."
+    },
+    {
+      "id": "a20",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Puerta no parece respirar."
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Luna creciente visible."
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Cielo oscuro con estrellas."
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Orbes de luz alrededor."
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Chimenea presente."
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Humo en espiral de la chimenea."
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Humo en espiral pero no imposible."
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Casa en la imagen."
+    },
+    {
+      "id": "a28",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Ventanas recuerdan a ojos."
+    },
+    {
+      "id": "a29",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Techo no se ve flotante."
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Torres simétricas presentes."
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Iris brillantes en torres."
+    },
+    {
+      "id": "a32",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Puerta en forma de arco."
+    },
+    {
+      "id": "a33",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Puerta con ligera luz violeta."
+    },
+    {
+      "id": "a34",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Elementos fantásticos presentes."
+    },
+    {
+      "id": "a35",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Ojo en el techo sugiere observación."
+    },
+    {
+      "id": "a36",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Estructura no parece respirar."
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Estilo gótico y psicodélico presente."
+    },
+    {
+      "id": "a38",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Detalles de arte fantasía oscuro."
+    },
+    {
+      "id": "a39",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Elementos de fantasía oscura visibles."
+    },
+    {
+      "id": "a40",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Usa gradientes púrpura y negro."
+    },
+    {
+      "id": "a41",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Resplandores de neón presentes."
+    },
+    {
+      "id": "a42",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Luna en cuarto creciente visible."
+    },
+    {
+      "id": "a43",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Orbes flotantes visibles."
+    },
+    {
+      "id": "a44",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Atmósfera de pesadilla onírica."
+    }
+  ],
+  "no_dicho": "Estrellas en el cielo.",
+  "mal_armado": []
+}

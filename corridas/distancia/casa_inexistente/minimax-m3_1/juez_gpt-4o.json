@@ -1,0 +1,301 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "minimax-m3_1",
+  "juez": "gpt-4o",
+  "fecha_utc": "2026-10-02T14:07:06+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1878,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El techo no es simétrico."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La luna tiene tres puntos o cráteres que forman una cara."
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Una ventana tiene rectángulos anidados."
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay escalones que no llegan a ningún lado."
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "A la izquierda hay una forma circular que parece una linterna."
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay un árbol seco o ramas peladas."
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Varios detalles fuera de lo común."
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El dibujo no parece directamente monstruoso."
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El cielo tiene un gradiente de violeta a naranja."
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "El cielo puede sugerir un atardecer."
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La luna está completa."
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La luna tiene cráteres."
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "La luna tiene cráteres que podrían parecer ojos."
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay una casa con un techo triangular."
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Parte del techo tiene forma de buhardilla."
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay una chimenea."
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "La chimenea podría estar emitiendo algo similar a humo."
+    },
+    {
+      "id": "a18",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "El humo tiene una forma peculiar."
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay una puerta visible."
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La puerta tiene un diseño tallado."
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay una linterna o símbolo a la izquierda."
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no",
+      "nota": "La linterna parece estar flotando."
+    },
+    {
+      "id": "a23",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "La linterna no parece una medusa."
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "A la derecha hay ramas peladas."
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Las ramas tienen formas irregulares."
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Las ventanas tienen tonos de azul."
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Las ventanas parecen tener profundidad."
+    },
+    {
+      "id": "a28",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "La escena tiene un aire de espera."
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay una casa dibujada."
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El techo tiene estructuras superpuestas."
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay algo que parece una buhardilla."
+    },
+    {
+      "id": "a32",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "La buhardilla no parece flotar."
+    },
+    {
+      "id": "a33",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay figura humanoide visible."
+    },
+    {
+      "id": "a34",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay figura que sostenga una banderita."
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La luna tiene rasgos que forman una cara."
+    },
+    {
+      "id": "a36",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "La luna tiene una forma de rostro observante."
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay una escalera al lado de la casa."
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La escalera tiene un recorrido ilógico."
+    },
+    {
+      "id": "a39",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Las ventanas muestran diferentes profundidades."
+    },
+    {
+      "id": "a40",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay símbolos en la puerta."
+    },
+    {
+      "id": "a41",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Los colores son terrosos."
+    },
+    {
+      "id": "a42",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay gradientes simples en el cielo."
+    },
+    {
+      "id": "a43",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "La perspectiva muestra ciertas distorsiones."
+    },
+    {
+      "id": "a44",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "La atmósfera es de un atardecer onírico."
+    },
+    {
+      "id": "a45",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El estilo es naïf y surrealista."
+    },
+    {
+      "id": "a46",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Recuerda ilustraciones de cuentos."
+    },
+    {
+      "id": "a47",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No recuerda grabados específicos."
+    },
+    {
+      "id": "a48",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "La geometría de la casa es imposible."
+    }
+  ],
+  "no_dicho": "Ausencia de personas u objetos que den escala.",
+  "mal_armado": []
+}

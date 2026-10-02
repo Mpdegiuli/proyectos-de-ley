@@ -1,0 +1,174 @@
+{
+  "consigna": "mundo",
+  "unidad": "claude-sonnet-5_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T07:29:54+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1544,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sol bajo en el horizonte, sin pistas claras de si es amanecer o atardecer"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "edificios a izquierda y derecha del sol"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "el mar está abajo, no entre las mitades; el espacio central es el sol y el cielo"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "línea roja en zigzag sobre el edificio izquierdo"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "varias ventanas amarillas pequeñas"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "rama curva con hojas verdes abajo a la izquierda"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "silueta tenue abajo a la derecha, parece una mano o un árbol seco, muy oscura"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "tonos oscuros y grieta roja generan tensión"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la grieta y la ciudad partida sugieren fractura"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "brote verde y ventanas encendidas dan un toque de esperanza"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "el reflejo del sol en el agua une un poco, pero la conexión no es evidente"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "grieta roja y brote verde conviven en la escena"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sol brillante en el horizonte con cielo degradado"
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "ciudad en dos bloques con el sol en medio, el mar está debajo"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sol grande, amarillo y con halo cálido"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tres pájaros oscuros muy tenues en el cielo"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ventanas amarillas en varios edificios"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "siluetas oscuras de rascacielos"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "zigzag rojo-salmón sobre el edificio alto de la izquierda"
+    },
+    {
+      "id": "a20",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "forma oscura abajo a la derecha, apenas visible, parece mano con dedos"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ramita con hojas verdes abajo a la izquierda"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la luz es ambigua entre amanecer y atardecer"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sol cálido y bello frente a una grieta inquietante"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "atmósfera oscura y ambigua"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "brote verde y luces en ventanas"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ventanas iluminadas sugieren gente"
+    }
+  ],
+  "no_dicho": "El reflejo del sol en el agua, con óvalos grises y líneas horizontales sobre el mar oscuro.",
+  "mal_armado": [
+    "la silueta de la mano abajo a la derecha casi se pierde en el fondo oscuro",
+    "los óvalos y las líneas grises del reflejo se ven desordenados y poco integrados con el agua",
+    "la grieta roja es fina y se corta al llegar a la base del edificio, cerca del horizonte",
+    "algunas líneas del reflejo se cruzan con los edificios del horizonte"
+  ]
+}

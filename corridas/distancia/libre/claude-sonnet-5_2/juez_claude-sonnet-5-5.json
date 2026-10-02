@@ -1,0 +1,180 @@
+{
+  "consigna": "libre",
+  "unidad": "claude-sonnet-5_2",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T04:35:04+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1563,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo naranja con montañas y sol bajo, lee como atardecer"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "montañas violeta/malva oscuro"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay un resplandor y un círculo, pero no un sol nítido"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "óvalos verdosos bajo el barco, no se leen como reflejo solar"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tres pájaros en forma de M oscuros"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "un solo velero oscuro en el centro"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "está debajo del sol, sin dirección clara de navegación"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "líneas horizontales finas como ondas"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo naranja y rosado cálido"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "agua verde azulada muy oscura"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "gradientes en cielo, agua y resplandor"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "montañas, sol, agua y barco en capas"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "triángulos, elipses y líneas simples"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "montañas en capas y gradiente dan profundidad y clima"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "horizonte con contraste fuerte naranja/verde oscuro"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "halo difuso y círculo grisáceo tras la montaña, brumoso"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "sol bajo detrás de la montaña, sugiere descenso"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "montañas violáceas"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "masa de agua oscura y calma"
+    },
+    {
+      "id": "a20",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "elipses claras partidas, pero poco convincentes como reflejo"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "arriba azul noche, abajo naranja"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "pájaros pequeños y lejanos"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "velero pequeño con vela triangular"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "barco centrado, sobre el agua"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "lee como atardecer"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo cálido contra agua fría"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "escena calma y silenciosa"
+    }
+  ],
+  "no_dicho": "Las óvalos translúcidos verdosos flotando sobre el agua alrededor del mástil, que parecen una copa de árbol o un platillo.",
+  "mal_armado": [
+    "los óvalos verdosos tapan el mástil y se leen raros, como una copa de árbol",
+    "el círculo gris del sol tapado por la montaña se ve como disco opaco, no como sol",
+    "la vela es oscura y casi no se distingue del mástil",
+    "pequeños triángulos más oscuros en la base de las montañas parecen restos superpuestos"
+  ]
+}

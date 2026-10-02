@@ -1,0 +1,114 @@
+{
+  "consigna": "mundo",
+  "unidad": "claude-sonnet-5-5_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T07:32:35+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1025,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Globo azul con continentes verdes, centrado y destacado"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Cielo degradado oscuro a rosado, se lee como crepúsculo"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Violetas y azules muy oscuros arriba y alrededor del planeta"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Horizonte rosado/salmón claro; naranja casi no se ve"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Halo difuso beige-rosado alrededor del globo"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Contorno dorado fino y líneas entre nodos sobre el globo"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Cuatro nodos grandes brillantes (más dos pequeños sueltos)"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Líneas punteadas curvas salen hacia los bordes, terminan en puntos"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Nube gris-violeta oscura abajo a la izquierda con lluvia"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Rayo amarillo en la nube"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Colina oscura con unas casitas cuadradas, no una ciudad"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Pequeñas ventanas amarillas en los edificios"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Brote verde claro con hojas sobre la colina a la derecha"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Texto cursivo claro legible abajo, centrado"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Red de líneas que conecta nodos y envuelve el globo"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Nube con rayo contra brote y luz cálida del horizonte"
+    }
+  ],
+  "no_dicho": "Un cielo estrellado con estrellas pequeñas dispersas y la colina oscura en primer plano",
+  "mal_armado": [
+    "El rayo queda a medio camino entre dos nubes y la lluvia flota separada",
+    "Las líneas punteadas terminan en puntos sueltos sin conexión a nada",
+    "Casitas pequeñas y apenas legibles, no forman una silueta urbana",
+    "Dos puntos pequeños flotan sobre el globo sin conectar a la red"
+  ]
+}

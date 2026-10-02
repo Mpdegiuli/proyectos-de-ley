@@ -1,0 +1,343 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "claude-sonnet-5_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T12:02:27+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2588,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "casa sobre roca morada, sin suelo visible"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo oscuro arriba con estrellas y luna, aunque abajo es color atardecer"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "casa claramente inclinada unos grados"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "techo rojo curvo, más alto a la izquierda y sin simetría"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "chimenea inclinada pero recta, no se tuerce"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puerta marrón con arco superior, ovalada"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "torre a la derecha, aparentemente sobre la roca"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "torre inclinada de modo distinto"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "solo una línea fina curva entre ambas, apenas legible como puente"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "roca sin apoyo, con sombra debajo"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "todo torcido pero sigue siendo una casa reconocible"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay asimetría, pero ventana circular y torre son bastante regulares"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "composición clara y legible"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "casita sobre roca en el aire"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "roca morada bajo la casa, la sombra sugiere suspensión"
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "líneas finas oscuras bajo la roca, apenas visibles, parecen grietas"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "casa torcida"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "techo curvo asimétrico"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "chimenea marrón inclinada"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "dos trazos grises curvos como humo"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ventana redonda crema con cruz"
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "redonda con cruz, no se lee como ojo"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puerta con arco"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ventana triangular amarilla pálida"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "torrecita a la derecha"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "techo triangular rojo, cónico en el dibujo"
+    },
+    {
+      "id": "a27",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "línea tenue, no se reconoce claramente"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "luna creciente"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntos blancos pequeños"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "óvalos translúcidos azulados"
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tres pájaros en forma de V"
+    },
+    {
+      "id": "a32",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "puntitos claros sobre la roca, apenas parecen luciérnagas"
+    },
+    {
+      "id": "a33",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "arriba nocturno, abajo amanecer o atardecer"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "aire de cuento"
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "flota e inclinada"
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "casa sobre roca suspendida"
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sin columnas"
+    },
+    {
+      "id": "a38",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "líneas finas, no se leen como raíces"
+    },
+    {
+      "id": "a39",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "líneas finas, no se leen como cuerdas"
+    },
+    {
+      "id": "a40",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "torre separada"
+    },
+    {
+      "id": "a41",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "puente apenas insinuado"
+    },
+    {
+      "id": "a42",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "inclinada, no torcida"
+    },
+    {
+      "id": "a43",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "humo grisáceo"
+    },
+    {
+      "id": "a44",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "degradado de noche a tono cálido"
+    },
+    {
+      "id": "a45",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "degradado de azul oscuro a durazno"
+    },
+    {
+      "id": "a46",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "puntos pequeños en la roca"
+    },
+    {
+      "id": "a47",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "una luna creciente con círculo oscuro superpuesto, parece una sola"
+    },
+    {
+      "id": "a48",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ambos techos asimétricos"
+    },
+    {
+      "id": "a49",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "paredes rotadas"
+    },
+    {
+      "id": "a50",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "circular, triangular y arco"
+    },
+    {
+      "id": "a51",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "imperfección intencional"
+    },
+    {
+      "id": "a52",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "estilo de cuento"
+    },
+    {
+      "id": "a53",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ambiente onírico"
+    },
+    {
+      "id": "a54",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "podría ser portada, sin título"
+    }
+  ],
+  "no_dicho": "Un gran degradado de cielo de azul oscuro a durazno, con una sombra elíptica debajo de la roca.",
+  "mal_armado": [
+    "torre parece apoyada sobre la roca, no flota separada",
+    "puente casi invisible",
+    "raíces o cuerdas casi invisibles",
+    "chimenea no conecta bien con el techo y queda sobre él",
+    "luna con círculo oscuro superpuesto"
+  ]
+}

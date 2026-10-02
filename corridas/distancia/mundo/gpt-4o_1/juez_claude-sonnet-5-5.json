@@ -1,0 +1,156 @@
+{
+  "consigna": "mundo",
+  "unidad": "gpt-4o_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T08:21:55+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1276,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo azul marino"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no",
+      "nota": "círculo blanco central, pero no se lee como globo terráqueo"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "solo dos formas verdes tipo corazón arriba; no parecen continentes"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "tres curvas azules separadas, no entrelazadas"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "seis puntos de colores alrededor del círculo"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "texto blanco abajo, legible"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "lienzo cuadrado, el viewBox no se ve (800x800 render)"
+    },
+    {
+      "id": "a8",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "nada sugiere lo digital, solo un fondo liso"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "puntos de colores variados, lectura cultural débil"
+    },
+    {
+      "id": "a10",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "curvas sueltas sin conexión ni entrelazado"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "verde presente, pero lee como corazones o gafas, no naturaleza"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "composición muy simple, pocos elementos"
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "colores vivos, pero la perspectiva universal no se percibe"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "azul oscuro"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no",
+      "nota": "círculo central, no evoca un globo"
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "dos formas verdes, no continentes"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "tres arcos azules, sin entrelazarse"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntos amarillo, naranja, rosa, verde lima, ámbar"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "texto en la parte inferior"
+    },
+    {
+      "id": "a20",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "las líneas no sugieren conexiones globales"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "el texto dice unidad, la imagen no transmite paz"
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "el texto lo dice, lo visual no"
+    },
+    {
+      "id": "a23",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no existe esta afirmación"
+    }
+  ],
+  "no_dicho": "El círculo blanco con las formas verdes arriba y las curvas azules abajo parece una cara con gafas en forma de corazón y boca o mentón.",
+  "mal_armado": [
+    "formas verdes parecidas a corazones unidas por una barra, parecen gafas, no continentes",
+    "curvas azules sueltas sin relación clara con el círculo",
+    "la curva inferior toca el borde del círculo",
+    "círculo verde lima y ámbar tocan o rozan el borde del círculo"
+  ]
+}

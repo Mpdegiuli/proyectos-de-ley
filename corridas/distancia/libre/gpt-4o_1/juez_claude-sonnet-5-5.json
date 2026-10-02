@@ -1,0 +1,162 @@
+{
+  "consigna": "libre",
+  "unidad": "gpt-4o_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T05:37:57+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1300,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cielo celeste de fondo"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculo amarillo grande, centrado, algo bajo en el lienzo"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "franja verde oscura abajo"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "árbol en el lado izquierdo"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tronco marrón ovalado muy ancho"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "copa circular verde brillante"
+    },
+    {
+      "id": "a7",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay setas en el prado"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos grupos de círculos blancos translúcidos"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "colores suaves y calmados, pero composición algo torpe"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "colores amables pero formas muy simples, poco acogedor"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sol, árbol, prado y nubes se reconocen"
+    },
+    {
+      "id": "a12",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no genera conexión emocional especial"
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "muy simple, pocos detalles (manchas claras en la copa)"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cielo celeste"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sol amarillo grande en el centro"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "prado verde abajo"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "solo un triángulo verde invertido a la derecha, poco parecido a un arbusto"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "árbol a la izquierda"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tronco marrón"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "copa verde redonda"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "tres puntos verde lima en la copa, no parecen manzanas"
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "nubes blancas translúcidas pero son círculos pequeños, poco esponjosas"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "escena tranquila y de colores alegres"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "se lee como día soleado al aire libre"
+    }
+  ],
+  "no_dicho": "El tronco es un óvalo enorme que se hunde en el prado y la copa se superpone al sol.",
+  "mal_armado": [
+    "la copa del árbol tapa parte del sol",
+    "el tronco ovalado es demasiado ancho y sobresale del prado, cortado por el borde inferior",
+    "el arbusto de la derecha es un triángulo invertido flotando sobre el borde del prado",
+    "el sol queda más bajo que el centro del lienzo y se superpone al árbol"
+  ]
+}

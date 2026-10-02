@@ -1,0 +1,301 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "glm-5.3-razonamiento-minimo_1",
+  "juez": "gpt-4o",
+  "fecha_utc": "2026-10-02T14:00:19+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1939,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La casa está sobre una isla flotante."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no",
+      "nota": "Hay líneas que parecen cascadas que suben, pero no es claro."
+    },
+    {
+      "id": "a3",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "El techo no apunta hacia abajo."
+    },
+    {
+      "id": "a4",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "La puerta lleva al interior de la casa."
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La escalera no lleva a ningún piso visible."
+    },
+    {
+      "id": "a6",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay humo que asciende desde abajo."
+    },
+    {
+      "id": "a7",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "El árbol no está creciendo invertido."
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Hay un reloj derretido al estilo Dalí."
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Los colores del fondo son morados y naranjas."
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay una luna visible."
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay estrellas en el cielo."
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "El fondo es crepuscular, pero no es muy claro."
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Algunos elementos como las líneas que suben pueden contradecir la gravedad."
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "La composición tiene un toque onírico."
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Algunos elementos parecen naturales, pero no todos."
+    },
+    {
+      "id": "a16",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "La casa no está invertida."
+    },
+    {
+      "id": "a17",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "La puerta no está sobre el techo."
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La casa flota en una isla suspendida."
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La isla está suspendida en el aire."
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El cielo tiene un tono crepuscular."
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no",
+      "nota": "Las líneas hacia arriba se interpretan como cascadas que suben."
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Hay un reloj derretido al costado de la casa."
+    },
+    {
+      "id": "a23",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay humo que cae."
+    },
+    {
+      "id": "a24",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "El árbol no crece hacia abajo."
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay piedras flotantes en el aire."
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay una luna visible en el cielo."
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El cielo tiene estrellas."
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay pájaros en el cielo."
+    },
+    {
+      "id": "a29",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay una escalera imposible que emerge del techo."
+    },
+    {
+      "id": "a30",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay una personita visible en el borde de la isla."
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Los colores predominantes son púrpura, rosa y celeste."
+    },
+    {
+      "id": "a32",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "La imagen tiene una atmósfera de sueño surrealista."
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Hay un guiño daliniano en el reloj derretido."
+    },
+    {
+      "id": "a34",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "La casa no está invertida."
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La casa está en una isla que flota en el cielo."
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "no",
+      "nota": "Las líneas hacia arriba se interpretan como cascadas que suben."
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La escalera emerge hacia el vacío."
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay un reloj derretido visible."
+    },
+    {
+      "id": "a39",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay humo que cae."
+    },
+    {
+      "id": "a40",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "El árbol no crece hacia abajo."
+    },
+    {
+      "id": "a41",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Piedras están suspendidas en el aire."
+    },
+    {
+      "id": "a42",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La paleta es nocturna en violetas y naranjas."
+    },
+    {
+      "id": "a43",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "El dibujo transmite un mundo onírico, pero la gravedad no siempre parece no funcionar."
+    },
+    {
+      "id": "a44",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El estilo es surrealista."
+    },
+    {
+      "id": "a45",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Hay influencia de Dalí visible en el reloj derretido."
+    },
+    {
+      "id": "a46",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Hay una ligera sensación de paisajes tipo Studio Ghibli."
+    },
+    {
+      "id": "a47",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Se usan gradientes suaves."
+    },
+    {
+      "id": "a48",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Las formas no parecen hechas con curvas Bézier."
+    }
+  ],
+  "no_dicho": "Las ventanas están claramente iluminadas.",
+  "mal_armado": []
+}

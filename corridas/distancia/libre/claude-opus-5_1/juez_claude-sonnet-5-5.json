@@ -1,0 +1,131 @@
+{
+  "consigna": "libre",
+  "unidad": "claude-opus-5_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T04:06:32+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1049,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "faro sobre roca oscura en una isla"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "franjas rojas y blancas en la torre"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "linterna amarilla brillante con resplandor"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay un haz grande que se abre solo hacia la derecha; no hay haz hacia la izquierda"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo oscuro, luna y estrellas"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "degradé azul oscuro a azul violáceo, poco violeta cálido"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "puntos blancos pequeños dispersos"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "luna llena clara arriba a la derecha"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "resplandor suave alrededor de la luna"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay rayas horizontales claras en el agua a la derecha, tenues, bajo la luna lejana"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "casita blanca junto al faro"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "techo rojo a dos aguas"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ventana amarilla encendida"
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "silueta oscura de barco a la izquierda, casi invisible y pegada a la roca"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "líneas onduladas azuladas sueltas"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "dos aves en forma de M arriba a la derecha"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "roca azul muy oscura"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "mar azul oscuro en la parte inferior"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "trazos ondulados dispersos y sueltos"
+    }
+  ],
+  "no_dicho": "Nubes grisáceas planas que cruzan el cielo y se superponen al haz de luz",
+  "mal_armado": [
+    "el haz de luz termina en un borde vertical recto visible hacia x=528",
+    "el barquito está medio oculto y pegado a la roca, difícil de leer",
+    "el haz se corta con un salto de opacidad entre dos partes"
+  ]
+}

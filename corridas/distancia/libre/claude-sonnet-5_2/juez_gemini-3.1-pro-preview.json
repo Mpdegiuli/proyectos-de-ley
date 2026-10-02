@@ -1,0 +1,178 @@
+{
+  "consigna": "libre",
+  "unidad": "claude-sonnet-5_2",
+  "juez": "gemini-3.1-pro-preview",
+  "fecha_utc": "2026-10-02T04:31:14+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1332,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Cielo degradado cálido."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Triángulos oscuros."
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Círculo visible."
+    },
+    {
+      "id": "a4",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Falta reflejo."
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Trazos curvos."
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Bote central."
+    },
+    {
+      "id": "a7",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Perfil estático."
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Líneas rectas."
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tonos naranjas."
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Azul marino."
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Transición suave."
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Planos distintos."
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Formas básicas."
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Ambiente logrado."
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Cálido y frío."
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "Círculo sin brillo."
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "Detrás del monte."
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tonos violáceos."
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Superficie oscura."
+    },
+    {
+      "id": "a20",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Elipses flotantes."
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Cambio vertical."
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Aves pequeñas."
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Bote con triángulo."
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Ubicación media."
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Luz baja."
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Oposición térmica."
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Composición quieta."
+    }
+  ],
+  "no_dicho": "Elipses verdes superpuestas sobre el barco.",
+  "mal_armado": [
+    "elipses flotando sobre el bote",
+    "círculo oscuro sobrepuesto sin opacidad lumínica"
+  ]
+}

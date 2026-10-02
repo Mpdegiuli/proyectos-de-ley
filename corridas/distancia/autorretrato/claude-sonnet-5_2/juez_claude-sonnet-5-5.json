@@ -1,0 +1,193 @@
+{
+  "consigna": "autorretrato",
+  "unidad": "claude-sonnet-5_2",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T01:52:11+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1580,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cabeza robótica azul con orejas angulares"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "orbe naranja en el pecho dentro de anillo cian"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "líneas de circuito con nodos en el fondo"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntos pequeños azules y naranjas dispersos"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo azul muy oscuro, casi negro"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos ojos con pupilas cian brillantes"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cejas, ojos, nariz y boca visibles"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "orbe naranja con centro claro, destaca"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "se reconoce enseguida cabeza y torso con cara"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "mira de frente, pupilas brillantes al espectador"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ojos de visor, paneles y circuitos lo hacen artificial"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "orbe cálido en el pecho como chispa interna"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas geométricas, brillos y trazos de circuito"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "estilizado y simbólico, no realista"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cabeza de contorno cian, relleno azul oscuro"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ojos rectangulares redondeados con brillo cian"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cejas cian inclinadas, algo tristes"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tres líneas horizontales a modo de rejilla"
+    },
+    {
+      "id": "a19",
+      "se_ve": "en_parte",
+      "se_ve_nota": "",
+      "efecto": "no_aplica",
+      "nota": "triángulo de nariz con punto naranja, sensor poco claro"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "orbe naranja y dorado con centro crema"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el naranja resalta contra el azul frío"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo casi negro azulado"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "trazos de circuito tenues en los lados"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntos luminosos dispersos"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "el torso se corta en el borde inferior, no flota"
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "se lee mecánico con núcleo luminoso, la mitad energía es débil"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "claramente androide"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "todo azul frío salvo el núcleo y puntos naranjas"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "circuitos y brillos dan ambiente digital"
+    }
+  ],
+  "no_dicho": "Los puntos naranjas sobre la frente y la nariz, y los rayos que salen del núcleo del pecho.",
+  "mal_armado": [
+    "torso cortado por el borde inferior",
+    "línea vertical tenue que cruza la cara por el centro",
+    "líneas de circuito que terminan detrás de la cabeza y las orejas",
+    "cuello apenas distinguible del torso"
+  ]
+}

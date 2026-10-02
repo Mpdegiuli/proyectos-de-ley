@@ -1,0 +1,100 @@
+{
+  "consigna": "libre",
+  "unidad": "claude-sonnet-5-5_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T04:37:34+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 888,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "azul noche arriba, rosa y naranja hacia el horizonte"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "unos 10 puntitos blancos en el cielo"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sol amarillo con halo, centrado y luminoso"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "las montañas tapan la parte baja del sol"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "una fila clara y otra más oscura, ambas violetas"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "agua naranja a violeta bajo las montañas"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "rayas doradas horizontales bajo el sol"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "se acortan y adelgazan hacia abajo, aunque no de forma perfecta"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "velero chico a la izquierda sobre el agua"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos velas naranja y durazno"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "lomas oscuras en ambas esquinas inferiores"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos arbolitos secos, uno en cada orilla"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tres siluetas de pájaros arriba a la derecha y a la izquierda"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "colores cálidos y composición serena de atardecer"
+    }
+  ],
+  "no_dicho": "El gran halo de luz alrededor del sol que ilumina las montañas con un resplandor.",
+  "mal_armado": [
+    "la orilla izquierda termina en un borde vertical que deja un hueco azul abajo, entre las dos orillas",
+    "el mástil del velero llega hasta el casco pero la base parece algo flotante sobre el agua"
+  ]
+}

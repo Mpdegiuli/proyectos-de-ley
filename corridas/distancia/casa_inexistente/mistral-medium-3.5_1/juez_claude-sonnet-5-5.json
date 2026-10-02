@@ -1,0 +1,301 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "mistral-medium-3.5_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T13:35:17+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2323,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "techo triangular y rectas, sin onda"
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "paneles simétricos; solo hay una puerta/ventana central"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "chimenea marrón separada de la cima, flotando sobre el triángulo"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay luna grande y círculo pequeño pálido; no se lee como sol"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "marrones y pardos"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "chimenea queda sobre el vértice sin tocarlo"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "solo una luna clara y un puntito crema"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "paneles y formas superpuestas incoherentes"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "extrañeza leve en la construcción"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "casa rara de formas geométricas"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "cielo crepuscular sí; casa llega al borde inferior, no flota"
+    },
+    {
+      "id": "a12",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "techo triangular, sin onda"
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "alas laterales en triángulo/rectángulo, no torres claras"
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "chimenea sí, sin humo"
+    },
+    {
+      "id": "a15",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay ventanas doradas claras; sólo círculos y rectángulo naranja"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "abertura oscura central"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "rectángulo ámbar en la puerta"
+    },
+    {
+      "id": "a18",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "círculo naranja en el ático, no parece ojo"
+    },
+    {
+      "id": "a19",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "círculo en el triángulo superior"
+    },
+    {
+      "id": "a20",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no se percibe mirada"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "triángulo superior podría ser buhardilla"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "esfera pequeña crema arriba, más clara que dorada"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "arcos naranjas a ambos lados"
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "arcos simples, no se leen como energía o raíces"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "dos círculos dorados en la parte baja de la fachada, sin flotar"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "luna dorada pálida con halo suave"
+    },
+    {
+      "id": "a27",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no hay iluminación visible sobre la casa"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "marrones y naranjas"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "azul oscuro arriba a rojo abajo"
+    },
+    {
+      "id": "a30",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "estructura rectangular"
+    },
+    {
+      "id": "a31",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "tejado rígido"
+    },
+    {
+      "id": "a32",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no hay ventanas claras"
+    },
+    {
+      "id": "a33",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "sin ventanas flotantes laterales"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "rectángulo marrón arriba"
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "flota sobre el techo"
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "luna grande arriba a la derecha"
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "halo luminoso alrededor"
+    },
+    {
+      "id": "a38",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "solo dos arcos naranjas"
+    },
+    {
+      "id": "a39",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "arcos poco mágicos"
+    },
+    {
+      "id": "a40",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "algo extraño, pero más geométrico que onírico"
+    },
+    {
+      "id": "a41",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "formas rectas, sin art nouveau"
+    },
+    {
+      "id": "a42",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "contraste débil"
+    },
+    {
+      "id": "a43",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "naranjas, marrones, rojos"
+    },
+    {
+      "id": "a44",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "degradado del cielo"
+    },
+    {
+      "id": "a45",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "degradado en cielo y luna"
+    },
+    {
+      "id": "a46",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "el resplandor de la luna sugiere un filtro"
+    },
+    {
+      "id": "a47",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "marrones oscuros, sin textura de madera"
+    }
+  ],
+  "no_dicho": "Una fachada central grande y oscura con paneles marrones superpuestos y un triángulo en lo alto, que forman una silueta de castillo o rostro.",
+  "mal_armado": [
+    "chimenea separada del triángulo superior",
+    "paneles rectangulares superpuestos tapan la puerta y el centro",
+    "arcos naranjas cortados por las alas laterales",
+    "casa cortada por el borde inferior",
+    "triángulo del techo tapado por los paneles"
+  ]
+}

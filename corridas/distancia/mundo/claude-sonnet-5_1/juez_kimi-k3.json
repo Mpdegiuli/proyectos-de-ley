@@ -1,0 +1,172 @@
+{
+  "consigna": "mundo",
+  "unidad": "claude-sonnet-5_1",
+  "juez": "kimi-k3",
+  "fecha_utc": "2026-10-02T07:29:43+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 6052,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sol bajo en el horizonte con cielo violáceo y estrellas; hora ambigua"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "edificios a izquierda y derecha con un claro hueco central"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "el agua está en primer plano; entre las mitades se ven el sol y el horizonte"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "zigzag rojo sobre el sol, en el hueco; no atraviesa edificios"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cuadraditos amarillos encendidos en varias torres"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "rama con hojas verdes abajo a la izquierda"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "silueta oscura ramificada abajo a la derecha; parece más un arbolito seco"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "paleta oscura, grieta y ciudad partida generan tensión"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la grieta roja y la división central se leen como fractura"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "brote verde, ventanas encendidas y sol cálido"
+    },
+    {
+      "id": "a11",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "predomina la separación; nada une visualmente las partes"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "grieta y oscuridad junto a brote y sol; ambos polos presentes"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sol grande sobre el horizonte del agua"
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "ciudad partida sí; el mar está delante y el hueco lo ocupa el sol"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "disco amarillo-naranja grande con halo cálido"
+    },
+    {
+      "id": "a16",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "solo hay estrellas; ningún pájaro"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ventanitas amarillas en las siluetas urbanas"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "torres oscuras recortadas contra el cielo"
+    },
+    {
+      "id": "a19",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "grieta roja sobre el sol entre las torres, sin atravesarlas"
+    },
+    {
+      "id": "a20",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "forma oscura con 'dedos' subiendo desde abajo a la derecha; ambigua"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ramita con dos hojas verdes en la esquina inferior izquierda"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "estrellas de noche con sol bajo: no se sabe si sale o se pone"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "atardecer cálido y bello con grieta y ciudad sombría"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la grieta y la escena no resuelta inquietan"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el brote verde y las ventanas vivas funcionan como gestos de esperanza"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "las ventanas amarillas sugieren presencia humana"
+    }
+  ],
+  "no_dicho": "el cielo estrellado y el reflejo del sol sobre el agua (elipses luminosas y estelas horizontales)",
+  "mal_armado": [
+    "las estelas grises sobre el agua quedan sueltas, sin alinearse con el reflejo del sol",
+    "los reflejos elípticos flotan desconectados entre sí y de las líneas horizontales"
+  ]
+}

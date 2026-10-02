@@ -1,0 +1,186 @@
+{
+  "consigna": "libre",
+  "unidad": "grok-4.7_2",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T06:15:05+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1591,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cielo de índigo arriba a naranja/rosado en el horizonte"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sol grande naranja, parcialmente tapado por las colinas"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "capas de colinas oscuras en silueta"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "solo líneas onduladas finas en el agua, no olas reales"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "figura oscura con copa verde, parece palmera o árbol muy esquemático"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "forma oscura a la derecha con puntito amarillo; bote poco claro"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos siluetas oscuras de pájaros en el cielo"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "varios puntitos blancos arriba"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "se lee como atardecer, aunque el mar es poco marcado"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sol casi al centro y es lo más luminoso"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "escena calma, sin movimiento"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "composición simple y clara"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sol brillante contra siluetas oscuras"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas simples, poco detalle"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sol bajo con agua abajo"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "degradé violeta a naranja y amarillo cerca del sol"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "unas diez estrellas pequeñas"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculo redondo, tapado en la base por colinas"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "halo cálido alrededor del sol"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "colinas púrpura oscuro a rosado-malva"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tres capas solapadas"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "agua azul oscuro que se oscurece hacia abajo"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "una línea dorada clara y dos tenues más, casi grises"
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "figura a la izquierda con copa verde pequeña, más bien un torre o árbol; no se ven hojas de palmera"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "forma oscura angulosa a la derecha, poco parecida a un bote"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "punto amarillo pequeño en la forma"
+    },
+    {
+      "id": "a27",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay nubes; las siluetas oscuras son pájaros"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "crepúsculo con estrellas"
+    }
+  ],
+  "no_dicho": "La gran figura oscura en forma de cono en primer plano a la izquierda, con base elíptica, que domina la parte baja.",
+  "mal_armado": [
+    "la figura de la izquierda parece una torre o cono con una cabeza verde, no una palmera clara",
+    "el bote de la derecha es una forma angulosa confusa y pegada a la costa",
+    "el sol queda semitransparente detrás de la colina rosada, con un brillo ovalado raro",
+    "las líneas de reflejo del agua son casi invisibles y no dan reflejo del sol"
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "consigna": "libre",
+  "unidad": "claude-opus-5_1",
+  "juez": "gemini-3.1-pro-preview",
+  "fecha_utc": "2026-10-02T04:03:24+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 982,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "faro sobre roca"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "franjas rojas presentes"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "lámpara iluminada"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "solo haz derecho"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "escena nocturna"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "sin tono violeta"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntos blancos"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "luna a la derecha"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "halo luminoso"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "líneas bajo luna"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "estructura junto al faro"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "techo color rojo"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cuadro amarillo"
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "forma pegada a roca"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "líneas curvas"
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "solo tres aves"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "base gris oscuro"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "área de agua"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "trazos sueltos"
+    }
+  ],
+  "no_dicho": "dos nubes oscuras alargadas",
+  "mal_armado": [
+    "haz de luz superpuesto en el medio",
+    "barco fusionado con la roca izquierda"
+  ]
+}

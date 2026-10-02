@@ -1,0 +1,191 @@
+{
+  "consigna": "libre",
+  "unidad": "mistral-medium-3.5_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T06:19:17+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1521,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cielo azul degradado de claro a oscuro"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sol naranja con brillo amarillo arriba a la derecha"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "nubes blancas con bordes suaves y brillo"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "colinas verdes en la parte baja"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "más bien una torre alta con techo puntiagudo"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "rectángulo gris azulado como ventana"
+    },
+    {
+      "id": "a7",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay puerta visible"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "círculos naranja rojizo, sin forma de flor"
+    },
+    {
+      "id": "a9",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "cielo azul de día, sol alto, no es atardecer"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "escena serena y simple"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "sol y naranjas cálidos pero cielo frío dominante"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "se reconoce paisaje con torre, sol y nubes"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "degradados en cielo, sol y nubes"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "nubes con borde difuso"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "colinas con curvas suaves"
+    },
+    {
+      "id": "a16",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "se ve un día, no un atardecer"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "degradado azul, pero no se funde con un horizonte cálido"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sol dorado anaranjado arriba a la derecha"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "dos nubes esponjosas y difusas"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "parecen flotar en el cielo"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "verde bastante plano, casi sin matices oscuros"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "colina en la parte inferior"
+    },
+    {
+      "id": "a23",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay árbol, sino una torre"
+    },
+    {
+      "id": "a24",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "el cuerpo es una torre ancha marrón grisáceo"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "techo triangular marrón, pero de torre"
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "punto amarillo pequeño en el techo, no un sol"
+    },
+    {
+      "id": "a27",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay puerta azul oscura; solo ventana"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculos naranjas dispersos en la colina"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "composición simple y calmada"
+    }
+  ],
+  "no_dicho": "Una línea verde ondulada, como una enredadera o camino, cruza detrás de la torre y la colina.",
+  "mal_armado": [
+    "la línea verde ondulada atraviesa el cielo y se pierde tras la torre sin sentido claro",
+    "el extremo derecho de la línea cuelga sobre el cielo, desconectado de la colina",
+    "la torre queda plana, sin base ni puerta, apoyada sobre el césped"
+  ]
+}

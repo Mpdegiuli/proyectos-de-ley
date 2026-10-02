@@ -1,0 +1,178 @@
+{
+  "consigna": "autorretrato",
+  "unidad": "claude-sonnet-4-6_2",
+  "juez": "gpt-5.5-2026-04-23",
+  "fecha_utc": "2026-10-02T01:42:02+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1300,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cara humana estilizada"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo muy oscuro"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntos pequeños dispersos"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "binario tenue en el lado izquierdo"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "resplandor azulado muy sutil"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "iris azulados con tono gris"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "piel beige cálida"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "formato cuadrado"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "rostro frontal expresivo"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "código tenue sugiere entorno técnico"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "rostro humano con texto digital"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "rostro centrado"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tez dorada/beige"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "azul marino oscuro"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "fondo oscuro con puntos tipo estrellas"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cabello marrón muy oscuro"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ojos azul grisáceo"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "brillos blancos en las pupilas"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas redondeadas y suaves"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "boca pequeña curvada"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "camisa azul oscuro"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntos luminosos alrededor"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "halo azulado débil detrás de la figura"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "figura orgánica entre elementos digitales"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "binario visible sobre todo a la izquierda"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "funciones tenues en monospace"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "texto inferior con esa leyenda"
+    }
+  ],
+  "no_dicho": "Un marco rectangular redondeado azul rodea toda la imagen.",
+  "mal_armado": [
+    "el texto inferior está muy pegado al borde y parcialmente cortado",
+    "varios textos de código son muy tenues y difíciles de leer"
+  ]
+}

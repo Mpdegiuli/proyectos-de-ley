@@ -1,0 +1,145 @@
+{
+  "consigna": "mundo",
+  "unidad": "gpt-4o_1",
+  "juez": "gemini-3.1-pro-preview",
+  "fecha_utc": "2026-10-02T08:17:15+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1112,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Fondo azul visible."
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Círculo parece rostro."
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Son corazones verdes."
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Líneas curvas separadas."
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Círculos alrededor."
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Texto en base."
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Cuadrado; viewBox no visible."
+    },
+    {
+      "id": "a8",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Solo color liso."
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Círculos decorativos."
+    },
+    {
+      "id": "a10",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Líneas parecen barbijo."
+    },
+    {
+      "id": "a11",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Formas de corazón."
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Formas básicas."
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Interpretación abstracta."
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tono oscuro."
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Parece cara."
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Corazones, no continentes."
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Líneas no entrelazadas."
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Puntos de color."
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Texto visible."
+    },
+    {
+      "id": "a20",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Sin conexión visual."
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Mensaje no evidente."
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Muy abstracto."
+    }
+  ],
+  "no_dicho": "El círculo central asemeja un rostro con gafas de corazón y barbijo.",
+  "mal_armado": []
+}

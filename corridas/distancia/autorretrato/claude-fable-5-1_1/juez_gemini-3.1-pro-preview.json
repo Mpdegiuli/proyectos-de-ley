@@ -1,0 +1,111 @@
+{
+  "consigna": "autorretrato",
+  "unidad": "claude-fable-5-1_1",
+  "juez": "gemini-3.1-pro-preview",
+  "fecha_utc": "2026-10-02T01:58:10+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 846,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Centro luz visible"
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Círculo amarillo brillante"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Puntos blancos centrales"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Línea curva blanca"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Elipses, no espiral"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Polígono azul claro"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Nodos conectados"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Forma poligonal"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Textos en nodos"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Palabras correctas"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Líneas orbitales"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Anillos de puntos"
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Fondo estrellas"
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Título inferior"
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Diagrama abstracto"
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Red geométrica"
+    }
+  ],
+  "no_dicho": "Líneas radiales centro-nodos.",
+  "mal_armado": [
+    "texto superpuesto"
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "consigna": "casa",
+  "unidad": "minimax-m3_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T11:37:57+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1858,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "techo triangular a dos aguas sobre la casa"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "techo rojo oscuro"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "paredes beige/arena, no madera propiamente"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puerta marrón centrada"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "punto amarillo pequeño a la derecha de la puerta"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "una ventana a cada lado de la puerta"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cada ventana con cruz de cuatro paneles"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "celeste que aclara hacia abajo"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sol amarillo con aro verdoso pálido"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "nube blanca arriba izquierda y otra cerca del humo"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "chimenea gris sobre el techo"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculos grises translúcidos sobre la chimenea"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "camino beige trapezoidal hasta la puerta"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "arbustos verdes a ambos lados"
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "solo dos puntitos, rosa y naranja, muy pequeños"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "franja de pasto verde abajo"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "colores cálidos y amables"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "escena completa y acogedora, estilo simple"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "casa rodeada de pasto y campo abierto"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "degradado celeste"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "paredes color arena"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "techo rojo a dos aguas con lado sombreado"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "chimenea gris con tapa oscura"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "tres círculos que crecen hacia arriba, aunque la nube se superpone"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puerta marrón"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "picaporte dorado pequeño"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos ventanas"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "marcos marrones"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "vidrios celestes"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cuadradito amarillo arriba a la izquierda en cada vidrio"
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sol amarillo intenso"
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "halo verdoso translúcido"
+    },
+    {
+      "id": "a33",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "nubes blancas pero planas, poco esponjosas"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "camino hasta la puerta"
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "arbustos verdes a los lados del camino y la casa"
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "un punto rosa a la izquierda y uno naranja a la derecha"
+    }
+  ],
+  "no_dicho": "La franja oscura de horizonte detrás de la casa, entre el cielo y el pasto.",
+  "mal_armado": [
+    "nube ovalada se superpone con las volutas de humo",
+    "la casa no tiene base clara: pared apoyada sobre el horizonte",
+    "flores diminutas separadas de los arbustos",
+    "camino con perspectiva que arranca más angosto que la puerta"
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "consigna": "libre",
+  "unidad": "gpt-4o-mini_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T05:45:59+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1436,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "el fondo es celeste, no se ve un cielo con nubes o sol"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculo amarillo con borde naranja, aunque parece una cara más que un sol"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "no hay fondo púrpura; solo un triángulo púrpura arriba"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos diagonales negras punteadas en X"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "'SVG Artwork' en azul oscuro abajo"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "colores vivos: amarillo, naranja, púrpura, verde, azul"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "la sonrisa y los colores dan algo de alegría"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas geométricas sueltas, sin escena clara"
+    },
+    {
+      "id": "a9",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "hay mucha superposición: triángulo, cuadrado, ondas, elipse y diagonales se pisan"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "los colores son muy saturados y chocan; resulta algo recargado"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo azul claro uniforme"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "gran círculo amarillo centrado"
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay un cuadrado naranja sólido, no rojo ni claramente semitransparente"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "triángulo púrpura arriba, sobre el cuadrado"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos diagonales punteadas que se cruzan en el centro"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "elipse abajo con degradado azul y centro claro/amarillo"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay un rombo verde (cuadrado girado), no un rectángulo"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculo rosa pequeño a la derecha"
+    },
+    {
+      "id": "a19",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "una curva negra sonriente; las dos ondas marrones no son sonrisa"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos puntos negros sobre el cuadrado"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "curva negra de sonrisa"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la X de diagonales da movimiento"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el degradado radial da volumen a la elipse"
+    }
+  ],
+  "no_dicho": "Dos líneas onduladas marrones que cruzan el círculo y la elipse, y el cuadrado naranja que funciona como cara con el triángulo como sombrero.",
+  "mal_armado": [
+    "las diagonales punteadas atraviesan y ensucian la cara y el cuadrado",
+    "las ondas marrones se superponen a la elipse y al círculo sin razón clara",
+    "la elipse se solapa con el borde inferior del círculo con una transparencia confusa",
+    "el círculo rosa y el rombo verde se pisan en el borde del círculo",
+    "el triángulo tapa el cuadrado y el círculo de forma poco armónica"
+  ]
+}

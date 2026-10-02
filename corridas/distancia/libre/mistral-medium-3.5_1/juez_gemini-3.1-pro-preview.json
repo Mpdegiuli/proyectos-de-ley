@@ -1,0 +1,190 @@
+{
+  "consigna": "libre",
+  "unidad": "mistral-medium-3.5_1",
+  "juez": "gemini-3.1-pro-preview",
+  "fecha_utc": "2026-10-02T06:16:14+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1488,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Fondo azul sólido."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Círculo naranja."
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Manchas blancas borrosas."
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Forma verde abajo."
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Torre marrón central."
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Cuadrado gris."
+    },
+    {
+      "id": "a7",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay puerta."
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Círculos naranjas."
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Cielo azul diurno."
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Composición simple."
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Predomina tono frío."
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Formas básicas claras."
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "En el sol."
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Bordes suaves."
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Línea sinuosa verde."
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Demasiado azul."
+    },
+    {
+      "id": "a17",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Color plano sin transición."
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Sol posicionado ahí."
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Dos formas nubosas."
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Posición en altura."
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Verde liso, sin matices."
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Ocupa sector inferior."
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Parece un edificio."
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Rectángulo grueso."
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Triángulo superior marrón."
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Círculo pequeño amarillo."
+    },
+    {
+      "id": "a27",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Cuadrado elevado central."
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Círculos sobre lo verde."
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Trazos elementales."
+    }
+  ],
+  "no_dicho": "Una línea curva verde oscura que atraviesa todo el centro de lado a lado.",
+  "mal_armado": [
+    "Línea cruzando edificio",
+    "Edificio sin anclar al horizonte"
+  ]
+}

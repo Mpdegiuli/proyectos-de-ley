@@ -1,0 +1,217 @@
+{
+  "consigna": "mundo",
+  "unidad": "claude-sonnet-4-6_1",
+  "juez": "gpt-4o",
+  "fecha_utc": "2026-10-02T07:25:42+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1323,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Ciudad nocturna visible con edificios."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Persona sola en un banco claramente visible."
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Persona parece centrada pero no se ve un teléfono."
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Notificaciones flotantes visibles sobre la persona."
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Luna claramente visible en el cielo."
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Estrellas visibles en el cielo."
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Fuente de luz pequeña, pero no claramente de una pantalla."
+    },
+    {
+      "id": "a8",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No transmite mundo sin dormir."
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Dibujo oscuro con destellos de luz."
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Sin interacción clara entre lo digital y físico."
+    },
+    {
+      "id": "a11",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No hay belleza destacada visualmente."
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Ciudad vista a nivel de calle."
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Cielo oscuro visible."
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Estrellas ubicadas en el cielo."
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Luna pálida presente en el cielo."
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Silueta de edificios visible."
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Ventanas iluminadas visibles."
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Ventanas amarillas notables."
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Ventanas azul frío visibles."
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Persona sola claramente sentada."
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Ubicada en el centro de la imagen."
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Iluminación difusa, no necesariamente de un teléfono."
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Notificaciones flotantes sobre la persona."
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Alertas rojas visibles."
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Likes forman parte de las notificaciones."
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Mensajes incluidos en las notificaciones."
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Charcos visibles en el suelo."
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Luz artificial reflejada en charcos."
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Lámparas claramente visibles."
+    },
+    {
+      "id": "a30",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No hay niebla visible."
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Año 2025 visible al pie."
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Paleta azulada predominante."
+    },
+    {
+      "id": "a33",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No transmite sensación de soledad explícita."
+    },
+    {
+      "id": "a34",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No se percibe presencia física vs ausencia real."
+    }
+  ],
+  "no_dicho": "Farolas iluminan la calle.",
+  "mal_armado": []
+}

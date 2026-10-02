@@ -1,0 +1,97 @@
+{
+  "consigna": "libre",
+  "unidad": "claude-sonnet-5-5_1",
+  "juez": "gpt-4o",
+  "fecha_utc": "2026-10-02T04:37:38+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 606,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El cielo hace un gradiente de azul a rosa y naranja."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay pocas estrellas dispersas en el cielo."
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El sol es grande y brillante en el centro."
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El sol está parcialmente detrás de las montañas."
+    },
+    {
+      "id": "a5",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Solo hay una fila de montañas violeta."
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Debajo de las montañas hay una superficie de agua."
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Rayitas doradas reflejan la luz en el lago."
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Las rayitas se hacen más cortas hacia abajo."
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay un pequeño velero en el agua."
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El velero tiene una vela naranja."
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Las orillas oscuras están en las esquinas inferiores."
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay dos árboles sin hojas en las orillas."
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tres siluetas de pájaros en el cielo."
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "La escena parece tranquila y cálida."
+    }
+  ],
+  "no_dicho": "La escena tiene un amanecer o atardecer claramente sugerido.",
+  "mal_armado": []
+}

@@ -1,0 +1,179 @@
+{
+  "consigna": "libre",
+  "unidad": "deepseek-v4-pro_1",
+  "juez": "gemini-3.1-pro-preview",
+  "fecha_utc": "2026-10-02T06:24:17+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1397,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Degradado azul a naranja."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Puntos blancos."
+    },
+    {
+      "id": "a3",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Sin sol."
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Triángulos superpuestos."
+    },
+    {
+      "id": "a5",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Sin río horizontal."
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Polígonos oscuros."
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Bordes marcan marco."
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Colores atardecer."
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Capas geométricas."
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Visual caótico."
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Contraste presente."
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Demasiado abstracto."
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Líneas saturan."
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Geometría suelta."
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Fondo cambia."
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Puntos visibles."
+    },
+    {
+      "id": "a17",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Ausente."
+    },
+    {
+      "id": "a18",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Ausente."
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tonos morados."
+    },
+    {
+      "id": "a20",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Forma en cielo."
+    },
+    {
+      "id": "a21",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No aplica."
+    },
+    {
+      "id": "a22",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Sin río."
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Bloques abstractos."
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Formas laterales."
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Líneas rectas y agudas."
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Paleta cálida."
+    },
+    {
+      "id": "a27",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Aspecto errático."
+    }
+  ],
+  "no_dicho": "Columna ondulada amarilla como fuego y líneas sueltas flotando al centro.",
+  "mal_armado": [
+    "Figura vertical fuera de contexto",
+    "Bordes dentados irreales en lateral",
+    "Líneas negras intersectadas base"
+  ]
+}

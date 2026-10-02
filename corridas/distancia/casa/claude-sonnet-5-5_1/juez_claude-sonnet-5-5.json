@@ -1,0 +1,144 @@
+{
+  "consigna": "casa",
+  "unidad": "claude-sonnet-5-5_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T09:49:48+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1204,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "muros de ladrillo beige claro"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "techo triangular rojizo a dos aguas"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "chimenea marrón rojiza a la derecha del techo"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculos grises translúcidos sobre la chimenea, se mezclan con el halo del sol"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ventana circular con cruz en el techo"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puerta de madera marrón centrada, con arco"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos hojas con paneles rectangulares"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "camino beige que se ensancha hacia abajo con líneas de losas"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "una ventana a cada lado de la puerta"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "postigos verdes a ambos lados de cada ventana"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "jardineras con flores rojas, rosas y amarillas bajo cada ventana"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "arbustos verdes a ambos lados de la base"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "árbol de copa verde a la izquierda, recortado por el borde"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cerca blanca de estacas abajo a la derecha"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "celeste más intenso arriba y más claro hacia el horizonte"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sol amarillo con halo translúcido arriba a la derecha"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "nubes blancas a la izquierda y una detrás del techo"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos pájaros oscuros en forma de arco"
+    },
+    {
+      "id": "a19",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "colinas verdes claras detrás, suaves pero apenas visibles; primer plano casi plano con degradado"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "casita con flores, postigos y humo, aspecto cálido y de cuento"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "colores brillantes, cielo claro y sol fuerte"
+    }
+  ],
+  "no_dicho": "nada",
+  "mal_armado": [
+    "la cerca blanca queda cortada por el borde derecho",
+    "el árbol de la izquierda queda cortado por el borde",
+    "el humo se confunde con el halo del sol",
+    "la chimenea parece quedar parcialmente detrás del techo"
+  ]
+}

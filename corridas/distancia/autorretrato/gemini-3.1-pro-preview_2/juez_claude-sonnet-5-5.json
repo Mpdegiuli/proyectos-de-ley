@@ -1,0 +1,162 @@
+{
+  "consigna": "autorretrato",
+  "unidad": "gemini-3.1-pro-preview_2",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T03:04:24+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1438,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "forma facial/casco geométrico con ojo central, estética cibernética"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "texto 'LLM_CORE' arriba a la derecha, aunque es una etiqueta lejos del núcleo"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "placas grises azuladas con bordes cian a los lados"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "orbe blanco brillante con anillo punteado"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos ondas cian y violeta abajo"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "parecen ondas de señal; lectura como voz o texto es dudosa"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "polígonos angulares anidados tipo armadura"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "placas y hexágonos rodean el núcleo central"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "centro blanco luminoso con resplandor"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "HUD, texto de sistema y neón dan sensación digital"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "silueta simétrica sugiere cara o casco, pero muy abstracta"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "núcleo luminoso en el centro del hexágono"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "rombo blanco con punto negro como pupila, parece un ojo"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "rombo y anillos punteados con brillo cian"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "placas oscuras azul grisáceo con aristas cian"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "simetría bilateral clara de las placas"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "conjunto se lee como armadura cibernética"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la onda ocupa el lugar de la boca bajo el ojo"
+    },
+    {
+      "id": "a19",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "abajo hay curvas grises y un rectángulo cortados por el borde; apenas visibles, sin conexiones claras"
+    },
+    {
+      "id": "a20",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "estructura inferior abajo, tenue y parcial"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "unos puntos arriba en el rombo superior, pocos y no sugieren ascenso claro"
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "puntos dispersos, sin sensación clara de flotar"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "puntos de colores, lectura como pensamientos débil"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "orbe brillante y texto 'A.I. AWAKE' transmiten despertar"
+    }
+  ],
+  "no_dicho": "Los textos de HUD en las esquinas (SYS.INIT(1), A.I. AWAKE, 0xA9F2), las líneas de circuito y los círculos concéntricos de fondo.",
+  "mal_armado": [
+    "estructura del cuello abajo cortada por el borde y casi invisible",
+    "onda inferior se superpone al borde del rombo inferior",
+    "puntos superiores pequeños y poco legibles sobre el rombo",
+    "texto 'SYS.INIT(1)' y 'A.I. AWAKE' de bajo contraste"
+  ]
+}

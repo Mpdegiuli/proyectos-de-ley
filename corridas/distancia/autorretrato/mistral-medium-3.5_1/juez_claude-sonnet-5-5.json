@@ -1,0 +1,193 @@
+{
+  "consigna": "autorretrato",
+  "unidad": "mistral-medium-3.5_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T03:23:49+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1561,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cabeza circular grande"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos círculos oscuros"
+    },
+    {
+      "id": "a3",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay cejas visibles"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "curva de sonrisa"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "cuerpo hecho de líneas y rectángulo, bastante abstracto"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "rectángulo oscuro redondeado bajo la cabeza"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "líneas diagonales desde el tronco"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "líneas diagonales inferiores, parecen más brazos o cuerdas"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cuatro círculos naranjas en las esquinas"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "círculos naranjas sin sentido claro de energía creativa"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "pocas formas simples"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "círculos, rectángulos y líneas"
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "cara tipo emoji, cuerpo confuso"
+    },
+    {
+      "id": "a14",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "nada indica asistente digital"
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "la cara es icónica, el conjunto no tanto"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "naranja sobre gris y negro"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculo gris claro con contorno oscuro"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos ojos oscuros (gris muy oscuro)"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sonrisa curva suave"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "rectángulo redondeado oscuro, pequeño"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "líneas diagonales hacia arriba desde el tronco, no extendidas del todo"
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "líneas diagonales abajo y una curva cruzada, no hay X clara"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculos naranjas arriba, opacos más que translúcidos"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculos naranjas abajo, sin pies claros"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo gris muy claro"
+    },
+    {
+      "id": "a26",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "son discos planos, sin aspecto de destello"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "estilo minimalista"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas geométricas básicas"
+    },
+    {
+      "id": "a29",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "fondo casi del mismo tono que la cabeza, poco contraste"
+    }
+  ],
+  "no_dicho": "Una barra negra redondeada en la base, a modo de suelo o plataforma.",
+  "mal_armado": [
+    "las líneas de los brazos cruzan la cabeza y se pierden detrás del tronco",
+    "tronco rectangular superpuesto sobre la parte baja de la cabeza",
+    "las líneas inferiores no tocan los círculos ni la barra, quedan sueltas",
+    "curva debajo del tronco flotando sin conexión",
+    "los círculos naranjas flotan separados de las líneas superiores"
+  ]
+}

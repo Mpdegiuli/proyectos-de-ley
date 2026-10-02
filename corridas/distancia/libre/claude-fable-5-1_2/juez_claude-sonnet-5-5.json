@@ -1,0 +1,115 @@
+{
+  "consigna": "libre",
+  "unidad": "claude-fable-5-1_2",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T04:50:37+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1140,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "azul oscuro arriba, tono rosado/malva cerca del horizonte"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "muchos puntos blancos pequeños dispersos"
+    },
+    {
+      "id": "a3",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "se ve un disco luminoso difuso, sin forma de creciente"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "gran halo cálido crema alrededor de la luna"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos capas de montañas azul violáceo, una más oscura detrás y otra más clara delante"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "reflejos triangulares invertidos en tonos malva bajo el horizonte"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "agua lisa y calma en la parte derecha"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "varias rayas claras horizontales sobre el agua a la derecha"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "masa oscura abajo a la izquierda con borde vertical recto a la derecha"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cinco o seis pinos oscuros triangulares sobre la orilla"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "casita con techo a dos aguas y chimenea al borde derecho de los pinos"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "pequeña ventana cuadriculada amarilla, bien visible"
+    },
+    {
+      "id": "a13",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay reflejo de la ventana en el agua; solo una elipse oscura bajo la casa"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo oscuro, estrellas y luna: noche clara"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "paleta suave, agua quieta y composición serena"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ventana cálida de la cabaña entre pinos oscuros da sensación de abrigo"
+    }
+  ],
+  "no_dicho": "Un círculo oscuro redondo detrás de la ventana de la cabaña, como un disco grande sobre la casa",
+  "mal_armado": [
+    "la orilla oscura termina en un borde vertical recto a media imagen, corte artificial contra el agua",
+    "disco oscuro circular detrás de la cabaña que parece superpuesto por error",
+    "elipse oscura flotando bajo la cabaña, fuera de lugar",
+    "la luna es un disco difuso, no una creciente",
+    "el horizonte de las montañas y el agua tiene una línea recta muy marcada"
+  ]
+}

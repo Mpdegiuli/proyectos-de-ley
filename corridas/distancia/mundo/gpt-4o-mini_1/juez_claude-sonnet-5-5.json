@@ -1,0 +1,162 @@
+{
+  "consigna": "mundo",
+  "unidad": "gpt-4o-mini_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T08:27:35+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1368,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo celeste en todo el lienzo"
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay un círculo verde, pero no es tierra ni son capas"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "forma marrón sobre el círculo, no parece tierra en capas"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "dos formas naranja rojizo; parecen cejas o pelo más que hojas"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cuatro puntos coral pequeños"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "uno en cada esquina, algo adentro del borde"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "celeste plano y suave, calmo"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "verde y marrón forman una cara, no evocan variedad de vida"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "las formas naranjas no se leen como hojas ni cambio"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "puntos coral pequeños, no se sienten como luz o calor"
+    },
+    {
+      "id": "a11",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no hay naturaleza reconocible, parece una cara"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "formas redondeadas y blandas, poco orgánico en conjunto"
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "colores vivos y cara amarilla dan tono alegre"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo azul claro"
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "círculo amarillo central, parece una cara más que un sol"
+    },
+    {
+      "id": "a16",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay árboles"
+    },
+    {
+      "id": "a17",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "la forma marrón es central, no son montañas abajo"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cuatro círculos rojo coral en las esquinas"
+    },
+    {
+      "id": "a19",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "dos líneas blancas punteadas en V; la línea gris es sólida y horizontal"
+    },
+    {
+      "id": "a20",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "las líneas parten del centro y no unen los elementos"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "cielo claro y agradable, esperanza poco evidente"
+    },
+    {
+      "id": "a22",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no se ven montañas"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "los textos dicen \"Un mundo diverso\", pero lo dibujado no lo transmite"
+    },
+    {
+      "id": "a24",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "afirmación inexistente"
+    }
+  ],
+  "no_dicho": "Una figura central parece una cara con cejas naranjas y bigote marrón, y hay textos 'Hoy' y 'Un mundo diverso'.",
+  "mal_armado": [
+    "'Hoy' cortado en el borde superior",
+    "líneas punteadas terminan en el borde sin conectar con nada",
+    "bigote marrón se superpone al círculo verde",
+    "cejas naranjas se montan sobre la cara amarilla"
+  ]
+}

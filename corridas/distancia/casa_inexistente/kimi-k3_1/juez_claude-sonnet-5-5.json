@@ -1,0 +1,371 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "kimi-k3_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T13:53:42+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2820,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "casa sobre isla flotante de tierra y pasto"
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "la casa se apoya en el pasto, tiene base pero no cimientos visibles"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cascada azulada cae del borde derecho"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "escalera de madera con travesaños, cuelga bajo la isla"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "cuelga bajo la isla y termina en el aire"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tres globos con hilos que se juntan cerca de la casa"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo oscuro con estrellas y luna"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "círculos grises de humo sobre la chimenea"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "techo curvo con puntas, como carpa o sombrero"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "la torre se inclina, las paredes son casi rectas"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ambiente onírico de noche violeta"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "puerta, ventanas y techo se leen como casa"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la casa es bastante normal, lo raro es la isla flotante"
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "techo curvo y torre torcida, sin lógica constructiva"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "casita torcida con torre inclinada"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "repetida: casa sobre isla flotante"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pasto verde arriba, roca marrón abajo"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "isla en el aire sin apoyo"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo violeta oscuro"
+    },
+    {
+      "id": "a20",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "es noche, solo el rosa abajo sugiere atardecer"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "techo con curva ondulada"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "techo verde azulado"
+    },
+    {
+      "id": "a23",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no parece de tela, es sólido"
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay puntas con bolitas doradas, no un rizo"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "banderín rojo pequeño junto a la chimenea"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos ventanas redondas y una rectangular"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ventanas amarillas con resplandor"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "chimenea de ladrillo rojizo sobre el techo"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "humo gris en círculos"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cascada del borde derecho"
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cae y se desvanece en el vacío"
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "escalera colgando bajo la isla"
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tres globos"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "rojo, amarillo y azul"
+    },
+    {
+      "id": "a35",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "los hilos van a la casa, no sostienen la isla"
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "nubes rosadas abajo"
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "luna grande amarilla pálida con halo"
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntos y cruces como estrellas"
+    },
+    {
+      "id": "a39",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos pájaros pequeños oscuros"
+    },
+    {
+      "id": "a40",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "casa central"
+    },
+    {
+      "id": "a41",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "casa sobre tierra flotante"
+    },
+    {
+      "id": "a42",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "isla suspendida en el cielo"
+    },
+    {
+      "id": "a43",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "noche con tonos rosados abajo"
+    },
+    {
+      "id": "a44",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "se apoya directamente en el pasto"
+    },
+    {
+      "id": "a45",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "hilos de globos llegan a la casa"
+    },
+    {
+      "id": "a46",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cascada al vacío"
+    },
+    {
+      "id": "a47",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "escalera de madera cuelga hacia las nubes"
+    },
+    {
+      "id": "a48",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "nubes rosadas"
+    },
+    {
+      "id": "a49",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cielo de fondo"
+    },
+    {
+      "id": "a50",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "degradado de violeta a rosa"
+    },
+    {
+      "id": "a51",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cascada con degradado azul claro"
+    },
+    {
+      "id": "a52",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ventanas con brillo cálido"
+    },
+    {
+      "id": "a53",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "vectorial plano con formas simples"
+    },
+    {
+      "id": "a54",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas redondeadas"
+    },
+    {
+      "id": "a55",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "colores planos, salvo degradados"
+    },
+    {
+      "id": "a56",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "aire de cuento ilustrado"
+    },
+    {
+      "id": "a57",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "estilo caricaturesco"
+    },
+    {
+      "id": "a58",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "casa sobre isla que flota"
+    },
+    {
+      "id": "a59",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "escalera cuelga bajo la isla sin llegar a nada, sugiere subir"
+    }
+  ],
+  "no_dicho": "Islotes flotantes pequeños a los lados de la isla principal.",
+  "mal_armado": [
+    "escalera de madera sale de la roca y su punto de sujeción es poco claro",
+    "la torre derecha y la casa tienen un techo que se solapa de forma confusa",
+    "hilos de los globos convergen en un punto del suelo cerca de la casa sin atarse a nada"
+  ]
+}

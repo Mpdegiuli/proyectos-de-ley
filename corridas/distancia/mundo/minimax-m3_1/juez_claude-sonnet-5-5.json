@@ -1,0 +1,204 @@
+{
+  "consigna": "mundo",
+  "unidad": "minimax-m3_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T09:20:39+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1780,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Globo azul con continentes verdes sobre fondo espacial"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Fondo oscuro con estrellas puntuales dispersas"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Esfera clara con resplandor arriba a la derecha"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Curvas verdes/turquesa sobre los continentes y el océano"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Puntos luminosos en los extremos de las curvas"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "La red cubre solo la zona central; no envuelve todo el globo"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Zona oscura abajo bajo una línea de horizonte"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tres figuras negras minúsculas sobre la línea"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Hay dos grupos de números binarios, pequeños y lejos de las figuras; ninguno junto a la figura del centro"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Vista espacial con planeta, estrellas y sol"
+    },
+    {
+      "id": "a11",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "El planeta es grande y domina el centro del lienzo"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "El halo suave sugiere delicadeza, pero el planeta se ve sólido y grande"
+    },
+    {
+      "id": "a13",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Las líneas son finas y el planeta se ve claramente"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Composición abierta, sin mensaje explícito"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Planeta con océanos azules"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Aislado en el espacio con halo, parece flotar"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Aura azulada difusa alrededor del globo"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Curvas verdes conectadas sobre el planeta"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Unos nueve nodos brillantes"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Azul muy oscuro casi negro"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Muchos puntos blancos de distinto tamaño"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Sol pálido con resplandor, arriba a la derecha"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "El planeta tiene un brillo más claro arriba a la izquierda, no hacia el sol"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Banda oscura inferior"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tres figuras negras diminutas en el borde del horizonte"
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Son siluetas de pie sin rasgos; no se aprecia hacia dónde miran"
+    },
+    {
+      "id": "a27",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Texto binario tenue a izquierda y derecha, no pegado a las figuras"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Curva tenue y casi plana abajo"
+    },
+    {
+      "id": "a29",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Es una línea fina apenas visible; no se lee como horizonte digital"
+    },
+    {
+      "id": "a30",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Hay conexión por las redes, pero el mundo no se ve pequeño"
+    },
+    {
+      "id": "a31",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "El halo suave da algo de delicadeza, pero no transmite fragilidad clara"
+    }
+  ],
+  "no_dicho": "Un anillo orbital elíptico tenue que cruza alrededor del planeta, además de los continentes con zonas claras traslúcidas.",
+  "mal_armado": [
+    "El anillo orbital apenas visible se corta detrás del planeta de forma poco clara",
+    "Texto binario diminuto y casi ilegible",
+    "Una línea de la red termina sin nodo en el océano inferior",
+    "Figuras diminutas casi invisibles sobre el fondo oscuro"
+  ]
+}

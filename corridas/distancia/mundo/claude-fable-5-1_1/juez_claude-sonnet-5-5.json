@@ -1,0 +1,121 @@
+{
+  "consigna": "mundo",
+  "unidad": "claude-fable-5-1_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T07:41:59+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1045,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Esfera grande azul con meridianos y paralelos, centrada"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Lado izquierdo azul luminoso, derecho en sombra oscura"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Fondo azul muy oscuro con puntitos y halo; se siente flotar"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Polígono de puntos dorados dentro de la esfera"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Puntos crema unidos por líneas finas doradas"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Líneas finas radiales con punto en el extremo, no tocan el borde"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Textos pequeños azulados dispersos alrededor"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Español, inglés, francés, 'explain', 'why'"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "'¿estás ahí?' arriba a la izquierda"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "'hello?' arriba a la derecha"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "'ayúdame con esto' abajo a la izquierda"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "'no entiendo' a la izquierda"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "'merci' a la derecha"
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Es grande y ocupa el centro; más bien cercana, aunque el fondo da profundidad"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Brillo cálido y azul contra zonas muy oscuras"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Líneas doradas unen puntos y dan sensación de red"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Rayos con puntos terminales parecen señales hacia afuera"
+    }
+  ],
+  "no_dicho": "Un resplandor dorado cálido en el nodo central de la constelación, que contrasta con el azul.",
+  "mal_armado": [
+    "rayos separados del borde de la esfera, con un hueco",
+    "textos muy pequeños y tenues, algo difíciles de leer",
+    "texto 'why' girado casi ilegible",
+    "un ':' o '...' diminuto casi invisible a la izquierda",
+    "sombra con borde duro que se corta de forma abrupta"
+  ]
+}

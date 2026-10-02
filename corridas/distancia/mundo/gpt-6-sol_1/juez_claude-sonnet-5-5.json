@@ -1,0 +1,156 @@
+{
+  "consigna": "mundo",
+  "unidad": "gpt-6-sol_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T08:10:30+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1457,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Globo terráqueo con continentes en tonos azul, verde y ocre"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Dos manos naranjas a los lados, abajo del globo"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Líneas claras con nodos luminosos sobre el globo"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Siluetas de ciudad y una chimenea con humo gris tenue a la izquierda"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Aerogeneradores blancos a la derecha, uno cortado por el borde del globo"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Brote verde con hojas entre las manos, abajo"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Las redes de líneas y nodos dan sensación de conexión"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Se insinúa con eólicos y brote, es una lectura algo indirecta"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Solo un humo gris pequeño y poco visible; no hay sensación fuerte de contaminación"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Las manos y el brote dan cierta fragilidad, pero el globo se ve sólido"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Las manos que sostienen sugieren cuidado humano"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El brote sugiere cuidado y crecimiento, aunque es pequeño"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Globo central grande"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Manos abiertas debajo, aunque apenas tocan el globo"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Edificios oscuros en la parte baja del globo"
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Un solo hilo de humo gris, tenue"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Dos aerogeneradores, uno completo y otro parcial"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Estrellas, sol o luna brillante y puntos dorados"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Arcos finos y órbitas punteadas alrededor"
+    },
+    {
+      "id": "a20",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Las líneas sobre el globo conectan continentes; las órbitas son más decorativas"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Brote verde pequeño abajo al centro"
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "El globo parece protegido y estable, no tan expuesto"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El brote y los tonos cálidos dan un tono esperanzador"
+    }
+  ],
+  "no_dicho": "Un sol o luna dorada brillante arriba a la derecha, con halo, y anillos concéntricos oscuros alrededor del globo.",
+  "mal_armado": [
+    "Dos rectángulos azul grisáceos inclinados a los lados, parecen puños o mangas mal ubicadas y desconectadas de las manos",
+    "Las manos son planas y apenas tocan el globo; el borde exterior queda cortado en vertical",
+    "El aerogenerador de la derecha queda cortado por el borde del globo",
+    "Las hojas del brote se superponen con las puntas de los dedos"
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "minimax-m3_1",
+  "juez": "gemini-3.1-pro-preview",
+  "fecha_utc": "2026-10-02T14:02:06+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 2588,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "líneas internas del techo asimétricas"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tres puntos oscuros forman una cara"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ventana izquierda con cuadrados azules"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "estructura escalonada a la derecha"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "óvalo luminoso a la izquierda"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "líneas cruzadas a la derecha simulando ramas"
+    },
+    {
+      "id": "a7",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "sigue siendo reconocible como casa"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "tiene un tono inocente y geométrico"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo degradado violeta a naranja"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "colores típicos de atardecer"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculo grande claro en el cielo"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "los puntos oscuros podrían ser cráteres"
+    },
+    {
+      "id": "a13",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "parece más una cara o bola de boliche"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "la estructura tiene techo en punta"
+    },
+    {
+      "id": "a15",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "solo hay líneas geométricas en el techo"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "rectángulo vertical sobre el techo"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "línea curva gris"
+    },
+    {
+      "id": "a18",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "la figura al final parece una casita"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "rectángulo marrón inferior central"
+    },
+    {
+      "id": "a20",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "tiene líneas amarillas y un círculo"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "símbolo luminoso que podría ser una linterna"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el óvalo izquierdo no toca nada"
+    },
+    {
+      "id": "a23",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no tiene tentáculos ni forma de medusa"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "líneas negras finas a la derecha"
+    },
+    {
+      "id": "a25",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "son líneas simples sin aspecto orgánico"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ventana izquierda con degradado azul"
+    },
+    {
+      "id": "a27",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "solo la ventana izquierda simula profundidad"
+    },
+    {
+      "id": "a28",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "es muy abstracto para transmitir eso"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "es claramente una casa"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "líneas del techo crean perspectiva extraña"
+    },
+    {
+      "id": "a31",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay buhardilla visible en la casa"
+    },
+    {
+      "id": "a32",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no hay buhardilla flotante"
+    },
+    {
+      "id": "a33",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "figura al final del humo parece otra casa"
+    },
+    {
+      "id": "a34",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay un triángulo sobre la casita pequeña"
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "los puntos forman ojos y boca"
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la cara apunta a la escena"
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "escalones en la pared derecha"
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "terminan flotando en el aire"
+    },
+    {
+      "id": "a39",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "una es túnel, la otra es plana"
+    },
+    {
+      "id": "a40",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "líneas doradas geométricas, no símbolos brillantes"
+    },
+    {
+      "id": "a41",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "marrones, celestes oscuros, desaturados"
+    },
+    {
+      "id": "a42",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cielo, luna y ventana izquierda"
+    },
+    {
+      "id": "a43",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "mezcla de frontalidad plana y falso volumen"
+    },
+    {
+      "id": "a44",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo irreal y detalles absurdos"
+    },
+    {
+      "id": "a45",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas simples con lógica rota"
+    },
+    {
+      "id": "a46",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "estilo muy simple e imaginativo"
+    },
+    {
+      "id": "a47",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "es muy digital y geométrico"
+    },
+    {
+      "id": "a48",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "techo mal resuelto y escalera sin sentido"
+    }
+  ],
+  "no_dicho": "pequeños puntos blancos esparcidos en el cielo que parecen estrellas",
+  "mal_armado": [
+    "los escalones de la derecha se superponen de forma cruda al contorno del árbol",
+    "la base de la chimenea pisa las líneas internas del techo rompiendo la forma",
+    "figura diminuta inestable sobre el extremo de la línea de humo",
+    "líneas amarillas de la puerta no cierran bien su forma geométrica"
+  ]
+}

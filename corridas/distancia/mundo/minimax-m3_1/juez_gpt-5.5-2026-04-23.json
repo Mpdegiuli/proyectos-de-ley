@@ -1,0 +1,202 @@
+{
+  "consigna": "mundo",
+  "unidad": "minimax-m3_1",
+  "juez": "gpt-5.5-2026-04-23",
+  "fecha_utc": "2026-10-02T09:15:21+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 2266,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "globo azul con masas verdes"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "planeta en fondo estrellado"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "astro brillante arriba a la derecha"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "trazos verdes/cian sobre el planeta"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "líneas unidas a puntos luminosos"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "red parcial, no envuelve todo el mundo"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "banda oscura inferior"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "tres figuras muy mínimas, parecen postes"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay texto binario pequeño, no rodea claramente"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "escena espacial amplia"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "planeta centrado pero con mucho espacio alrededor"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "halo y escala sugieren fragilidad"
+    },
+    {
+      "id": "a13",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "la red no oculta casi al planeta"
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "imagen simbólica y abierta"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "planeta azul central"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "flota sobre fondo cósmico"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "halo azul luminoso alrededor"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "conexiones verdes sobre el globo"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntos luminosos en la red"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo azul muy oscuro"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "varias estrellas blancas"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "astro pequeño y luminoso arriba"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay brillo del astro, no iluminación clara del planeta"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "franja inferior oscura"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "figuras diminutas en la base"
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "están bajo el planeta, sin gesto visible de mirar"
+    },
+    {
+      "id": "a27",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "números binarios pequeños cerca de ellas"
+    },
+    {
+      "id": "a28",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "línea inferior muy tenue, casi recta"
+    },
+    {
+      "id": "a29",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "no se lee claramente como horizonte digital"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "globo aislado con red de conexiones"
+    },
+    {
+      "id": "a31",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "la escena sugiere delicadeza del planeta"
+    }
+  ],
+  "no_dicho": "Se ven arcos orbitales translúcidos alrededor del planeta.",
+  "mal_armado": [
+    "las siluetas humanas son tan simples que parecen postes",
+    "el código binario es muy pequeño y difícil de leer"
+  ]
+}

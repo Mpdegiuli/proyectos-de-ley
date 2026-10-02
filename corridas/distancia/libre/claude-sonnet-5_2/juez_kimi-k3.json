@@ -1,0 +1,179 @@
+{
+  "consigna": "libre",
+  "unidad": "claude-sonnet-5_2",
+  "juez": "kimi-k3",
+  "fecha_utc": "2026-10-02T04:34:54+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 7338,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo naranja con sol bajo: se lee como ocaso o alba"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tres picos de tono violeta oscuro"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "disco pálido de gran tamaño en el centro"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "óvalos claros escalonados bajo el sol sobre el agua, algo ambiguos"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tres pájaros de trazo curvo mínimo"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "un solo bote pequeño en el agua"
+    },
+    {
+      "id": "a7",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "bote estático, sin estela ni rumbo claro hacia el sol"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "líneas horizontales claras sobre el agua"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "naranjas y rosas cálidos en la mitad baja"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "agua azul-verdosa muy oscura"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "gradiente evidente en el cielo"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cielo, sol, montañas, agua y bote solapados"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "triángulos, óvalos y líneas simples"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "bruma del sol y capas generan profundidad"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "naranja arriba contra oscuridad fría abajo"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "disco grande de bordes difusos, brumoso"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "sol bajo junto al horizonte; el descenso se infiere"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "montañas en gama violácea"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "masa de agua oscura y calmada"
+    },
+    {
+      "id": "a20",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "óvalos claros fragmentados sobre el agua bajo el sol"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "de azul noche arriba a naranja abajo"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tres aves pequeñas y simples en el cielo"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "velero pequeño con vela triangular"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "casi en el centro horizontal, sobre el agua"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "los tonos y el sol bajo se leen como atardecer"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cálidos del cielo contra fríos del agua"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "calma, soledad y suavidad transmiten quietud"
+    }
+  ],
+  "no_dicho": "el sol aparece como un disco semitransparente superpuesto delante del pico central, casi como un eclipse",
+  "mal_armado": [
+    "el disco del sol queda delante de la montaña en vez de detrás, como mancha pegada",
+    "los óvalos (velas o reflejo) flotan sobre el casco con unión confusa",
+    "las montañas de los extremos quedan cortadas por los bordes laterales"
+  ]
+}

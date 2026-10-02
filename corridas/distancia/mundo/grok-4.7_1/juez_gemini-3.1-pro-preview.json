@@ -1,0 +1,197 @@
+{
+  "consigna": "mundo",
+  "unidad": "grok-4.7_1",
+  "juez": "gemini-3.1-pro-preview",
+  "fecha_utc": "2026-10-02T08:41:17+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1545,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Esfera con continentes."
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Transición luz-sombra."
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Mitad oscura clara."
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Nodos brillantes."
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Líneas de conexión."
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Varios arcos concéntricos."
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Punto en arco."
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Trazo a punto lejano."
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Ocupa mucho espacio."
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Nodos integrados al globo."
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Perspectiva espacial."
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Resplandor y nodos."
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Aspecto de red."
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Estructura muy firme."
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Esfera completa."
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Fondo degradado oscuro."
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Puntos blancos."
+    },
+    {
+      "id": "a18",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Resplandor amarillo."
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Manchas verdes."
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Mancha central beige."
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Polo blanco."
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Lado sombreado."
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Nodos en oscuridad."
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Líneas unen puntos."
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Arco punteado externo."
+    },
+    {
+      "id": "a26",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Punto en arco continuo."
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Línea arriba izquierda."
+    },
+    {
+      "id": "a28",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Esfera domina lienzo."
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Red sobre esfera."
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Sombra en la mitad."
+    }
+  ],
+  "no_dicho": "Líneas de meridianos y paralelos sobre la Tierra.",
+  "mal_armado": [
+    "Desierto es círculo perfecto",
+    "Arco cruza sobre satélite",
+    "Continente verde superpone polo bruscamente"
+  ]
+}

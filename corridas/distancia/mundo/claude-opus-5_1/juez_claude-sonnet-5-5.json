@@ -1,0 +1,252 @@
+{
+  "consigna": "mundo",
+  "unidad": "claude-opus-5_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T07:13:42+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2096,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Globo grande flotando en fondo oscuro"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Esfera vista desde el espacio"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Zonas azul oscuro entre continentes"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tres masas verdes visibles"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Masas naranjas, sugieren sequedad pero no grietas"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Línea naranja con nodos sobre el globo"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Color cálido y trazo en zigzag"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Líneas celestes con nodos brillantes"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Celeste con líneas rectas, pero similar en trazo al naranja"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Siluetas de contorno claro, no oscuras rellenas"
+    },
+    {
+      "id": "a11",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Son cabezas y hombros de frente, sin mirada discernible"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Brote con dos hojas bajo el globo"
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Círculo gris opaco detrás del brote, poco luminoso"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Elipse de guiones inclinada alrededor del globo"
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Puntos brillantes en la órbita sugieren satélites"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Azul muy oscuro con estrellas"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "Contraste naranja/celeste y brote/oscuridad presente pero suave"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Repetida: globo suspendido"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Océanos azules"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Verdes en izquierda y abajo"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Naranja a la derecha, sin textura reseca"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Meridianos y paralelos finos"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Red naranja sobre continentes"
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Parecen rutas; conflicto no se lee"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Red celeste sobre la superficie"
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Nodos y líneas sugieren conexión de datos"
+    },
+    {
+      "id": "a27",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Solo puntos brillantes en la órbita, sin forma de satélite"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no",
+      "nota": "Órbita punteada, pero sin movimiento claro"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Resplandor azul difuso alrededor"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "no",
+      "nota": "Halo ancho y tenue; delgadez no evidente"
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Seis siluetas pequeñas de cabeza y hombros abajo"
+    },
+    {
+      "id": "a32",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Contorno claro sobre fondo oscuro, no oscuras"
+    },
+    {
+      "id": "a33",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No se aprecia orientación hacia arriba"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Brote verde centrado bajo el globo"
+    },
+    {
+      "id": "a35",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Círculo grisáceo, no cálido"
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Cielo nocturno con estrellas"
+    },
+    {
+      "id": "a37",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Brote pequeño ante globo grande"
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Redes y nodos densos"
+    },
+    {
+      "id": "a39",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "Brote sugiere esperanza; herida poco clara"
+    }
+  ],
+  "no_dicho": "Los nodos brillantes de las redes y las estrellas dispersas, con una gran esfera de luz azulada detrás del globo.",
+  "mal_armado": [
+    "Círculo gris opaco detrás del brote parece una mancha apagada",
+    "Línea naranja sale del borde del globo en la izquierda y abajo",
+    "Continente verde cortado en el borde inferior izquierdo del globo",
+    "Brote flota separado del suelo oscuro y de las siluetas"
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "consigna": "mundo",
+  "unidad": "grok-4.7_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T08:46:01+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1820,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Esfera terrestre vista desde afuera, con océanos y continentes"
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Luz cálida a la derecha y oscuridad a la izquierda sugieren atardecer"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "El lado derecho está más claro y el izquierdo más oscuro, sin una frontera nítida"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Puntos amarillos pequeños, apenas se leen como ciudades"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Líneas crema unen los nodos como una constelación o red"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Hay elipses tenues y un anillo grueso, pero no se leen claramente como órbitas"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Solo un punto brillante a la derecha, que podría ser un satélite"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Línea fina desde una estrella arriba a la izquierda hasta la red"
+    },
+    {
+      "id": "a9",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "La Tierra ocupa gran parte del lienzo, no se ve pequeña"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "La red sobre el globo sugiere enlaces"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Vista desde el espacio con el globo flotando"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Resplandor solar cálido más luces amarillas de la red"
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Líneas y nodos sin datos ni rutas explícitas"
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Algo delicado por las líneas finas, pero el globo es grande y sólido"
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Se ve desde afuera pero muy de cerca, no de lejos"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Fondo negro, violeta y púrpura con un halo naranja"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Muchos puntos blancos pequeños por el fondo"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Resplandor naranja abajo a la derecha y un destello amarillo a la derecha del globo"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Masas verdes claras y oscuras"
+    },
+    {
+      "id": "a20",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Mancha arena/naranja en el centro y zona grisácea pálida, no claramente un desierto"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Elipse blanca arriba como casquete de hielo, algo plana"
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Sombra en el lado izquierdo e inferior, con gradiente"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Hay puntos amarillos en la zona oscura izquierda, pocos y pequeños"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Hilos claros entre los nodos"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Hay una línea punteada de puntos a la izquierda, tenue"
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "El punto brillante a la derecha no está claramente sobre una órbita punteada"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Línea desde una estrella en la esquina superior izquierda hacia el globo"
+    },
+    {
+      "id": "a28",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "El globo domina la composición, no se siente pequeño"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "La red de líneas y nodos comunica conexión"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Mitad oscura y mitad con luz cálida"
+    }
+  ],
+  "no_dicho": "Una gran red en forma de constelación con nodos brillantes se superpone sobre los continentes y domina el centro del globo, junto a un anillo translúcido grueso alrededor de la esfera.",
+  "mal_armado": [
+    "La línea de la estrella cruza el globo y se confunde con la red",
+    "El casquete de hielo es una elipse plana que no sigue la curvatura de la esfera",
+    "El anillo grueso translúcido no se integra bien con el globo",
+    "La red de constelación parece pegada encima, sin seguir la forma de la esfera"
+  ]
+}

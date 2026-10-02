@@ -1,0 +1,203 @@
+{
+  "consigna": "libre",
+  "unidad": "claude-opus-5-5_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T04:14:40+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1552,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "torre con franjas blancas y rojas"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "base sobre rocas oscuras"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ventana amarilla con resplandor"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "haz grande hacia la izquierda"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "luna llena clara"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "líneas claras en el agua, a la izquierda del faro, no bajo la luna"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntos blancos dispersos"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "dos pequeñas gaviotas tenues"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo oscuro azul"
+    },
+    {
+      "id": "a10",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no se ve ningún segundo haz fuera del lienzo; solo un haz con una capa más tenue"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "la luz apunta solo a la izquierda"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "fondo frío y luz cálida en la linterna"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "calma y soledad"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas planas y gradientes suaves"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "faro central a la derecha"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "franjas rojas y blancas alternas"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "islote oscuro bajo el faro"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "rodeado de agua, aunque algo a la derecha"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "linterna amarilla bajo techo negro"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "haz ancho hacia la izquierda"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "disco lleno crema"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "manchas suaves de cráteres"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "halo difuso claro alrededor"
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "rayas claras en el agua pero desplazadas respecto de la luna"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "rayas horizontales apiladas"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "estrellas pequeñas"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "trazos ondulados azulados"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "gaviotas bajo el haz, cerca"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ambiente nocturno"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "calma"
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "faro encendido vigilante"
+    }
+  ],
+  "no_dicho": "La puerta marrón y las pequeñas ventanas oscuras del faro.",
+  "mal_armado": [
+    "el reflejo de la luna en el agua queda lejos de la luna, a la izquierda y abajo",
+    "el haz parte del lado izquierdo de la linterna y se corta en el borde izquierdo del lienzo",
+    "un trazo curvo gris cruza la roca junto a la base del faro y parece fuera de lugar"
+  ]
+}

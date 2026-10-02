@@ -1,0 +1,169 @@
+{
+  "consigna": "libre",
+  "unidad": "gpt-4o-mini_2",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T05:50:20+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1430,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculo naranja-amarillo detrás, asoma en los bordes"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "elipse rosa/roja sobre el círculo"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "arco curvo azul-violeta"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "línea diagonal oscura de esquina a esquina"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "triángulo invertido verde-oliva"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "texto 'SVG Art' legible, gris tenue"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "texto en el centro del lienzo"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "degradado radial blanco-rosa a rojo en el fondo"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "colores cálidos pero la escena se siente apagada y poco dinámica"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "arco y diagonal dan algo de movimiento"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "el triángulo apunta hacia abajo, parece inestable"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el brillo central da cierta profundidad"
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "formas simples pero composición algo caótica, no muy moderna"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "círculo, elipse, triángulo, arco, línea"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "rojo, naranja, azul, verde"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculo naranja grande al centro, parcialmente tapado"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "la elipse está sobre el círculo, no lo rodea; opacidad parcial"
+    },
+    {
+      "id": "a18",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "arco azul-violeta en la parte inferior-media, no en el fondo"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "línea gris oscura que cruza todo el lienzo"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "triángulo verde en la mitad inferior"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "texto 'SVG Art' al centro"
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "letras grandes pero grises y de bajo contraste, no oscuras"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cuadrado con degradado radial de blanco-rosa a rojo"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "varios colores"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "transición suave del centro claro a los bordes rojos"
+    }
+  ],
+  "no_dicho": "Un gran cuadrado rojo-rosado semitransparente domina el fondo, sobre un lienzo gris claro.",
+  "mal_armado": [
+    "la diagonal atraviesa el texto y se superpone a las formas, dificultando la lectura",
+    "texto gris de bajo contraste sobre fondo rosa",
+    "el triángulo sobresale de la elipse y se pisa con el arco",
+    "la línea diagonal se corta en los bordes del lienzo",
+    "el círculo naranja queda casi tapado por la elipse"
+  ]
+}

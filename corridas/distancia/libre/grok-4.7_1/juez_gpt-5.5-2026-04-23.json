@@ -1,0 +1,178 @@
+{
+  "consigna": "libre",
+  "unidad": "grok-4.7_1",
+  "juez": "gpt-5.5-2026-04-23",
+  "fecha_utc": "2026-10-02T06:03:33+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1353,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "faro claro en el centro"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "techos rojos triangulares"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "apoya sobre rocas oscuras"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sol bajo cerca del horizonte"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "mar azul oscuro abajo"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "líneas onduladas en el agua"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntos blancos como estrellas"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo degradado y sol bajo"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el faro es el elemento vertical central"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "resplandor amarillo anaranjado"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "agua ocupa y cierra la parte inferior"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "escena calma sin movimiento fuerte"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "paisaje marino con faro reconocible"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas simples y planas"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sol bajo sobre el mar"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "degradado azul, violeta y rosado-anaranjado"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "estrellas pequeñas arriba"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sol dorado cerca del horizonte"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "agua azul muy oscura"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "se distinguen tres líneas principales de olas"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "faro claro con techo rojo sobre rocas"
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay una pieza amarilla, pero no haz de luz encendido"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "forma verde abajo, no parece claramente barquita"
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "óvalo naranja a la derecha, sin rasgos claros de pez"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay curvas claras, pero no cruzan todo el cielo"
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "las curvas podrían ser aves, pero son ambiguas"
+    },
+    {
+      "id": "a27",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "la forma naranja se lee más como esfera que como pez"
+    }
+  ],
+  "no_dicho": "Hay una luna o cúpula redonda violácea sobre la parte superior del faro.",
+  "mal_armado": [
+    "la pieza circular superior del faro parece separada o poco integrada",
+    "la forma verde inferior parece ambigua y recortada contra el borde del agua"
+  ]
+}

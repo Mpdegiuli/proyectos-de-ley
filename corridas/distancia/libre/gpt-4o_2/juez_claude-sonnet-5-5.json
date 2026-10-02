@@ -1,0 +1,198 @@
+{
+  "consigna": "libre",
+  "unidad": "gpt-4o_2",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T05:42:50+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1559,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cielo con degradado de celeste claro a azul"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sol con halo difuso amarillento, tenue pero radiante"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "árbol a la izquierda con tronco y copa"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "dos nubes blancas de óvalos superpuestos"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "suelo pasa de oliva a verde más vivo"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "imagen 800x800, cuadrada"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "colina amplia, pero poca sensación de vida"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "escena calma, colores suaves"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "árbol a la izquierda, sol y nubes arriba a la derecha; algo desequilibrado"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "elementos separados, sin amontonarse"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "pocos elementos, formas básicas"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo amplio y despejado"
+    },
+    {
+      "id": "a13",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "cielo azul de día, no hay colores de atardecer"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "degradado azul claro a medio"
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "centro amarillo pálido casi blanco, poco dorado"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "halo luminoso, aunque suave y parcialmente tapado por la nube"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "degradado de verde oliva a verde"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "colina curva en la parte baja formando horizonte"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "campo verde, algo apagado"
+    },
+    {
+      "id": "a20",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "tronco delgado y copa de círculos; más esbelto que robusto"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tronco marrón rojizo"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "copa de círculos verdes con degradado, frondosa"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos nubes"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "blancas"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "formas lisas de óvalos, poco algodonosas"
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "contrastan en blanco, pero sin textura"
+    },
+    {
+      "id": "a27",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "solo un montículo marrón en el borde inferior, sin serpentear"
+    },
+    {
+      "id": "a28",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no se lee como sendero ni da misterio"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas geométricas simples"
+    },
+    {
+      "id": "a30",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "agradable pero genérico, poco evocador"
+    }
+  ],
+  "no_dicho": "Un montículo marrón en forma de arco en el borde inferior, que no se identifica con claridad.",
+  "mal_armado": [
+    "montículo marrón cortado por el borde inferior, de forma ambigua",
+    "nube superpuesta al sol, tapándolo en parte",
+    "copa del árbol con círculos superpuestos de tonos distintos, con costuras visibles",
+    "tronco recto que termina cuadrado en la base, sin raíces, sobre el borde de la colina"
+  ]
+}

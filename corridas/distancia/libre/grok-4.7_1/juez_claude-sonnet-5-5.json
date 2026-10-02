@@ -1,0 +1,181 @@
+{
+  "consigna": "libre",
+  "unidad": "grok-4.7_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T06:11:30+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1460,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "torre crema/blanca con ventanas"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "techo rojo y cupulita roja arriba"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos rocas triangulares oscuras en la base"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sol con halo cerca del horizonte"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "mar azul oscuro que se oscurece abajo"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "líneas onduladas finas y borde ondulado"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntitos blancos arriba"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo violeta a rosado, sol bajo"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la torre es lo más alto y central"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "halo amarillo cálido contrasta con el frío"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el mar ocupa la mitad inferior"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "composición calma, sin movimiento"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "faro, sol y mar se entienden enseguida"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas planas y simples"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sol bajo sobre el mar"
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "violeta a rosado; el azul noche y el naranja son tenues"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "estrellas dispersas en lo alto"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sol amarillo dorado con brillo"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "agua azul grisácea oscura"
+    },
+    {
+      "id": "a20",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "se ven unas tres líneas finas, poco marcadas"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "faro blanco de techo rojo sobre rocas"
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "cuadradito amarillo arriba con halo gris; luz poco clara"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "forma verde azulada con bolita; no parece barca"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "óvalo naranja a la derecha"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos arcos claros en el cielo"
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "arcos simples, parecen más arcos que gaviotas"
+    },
+    {
+      "id": "a27",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "mancha naranja sin cola ni ojo, parece una piedra"
+    }
+  ],
+  "no_dicho": "Una bola de humo o luz grisácea-violeta sobre la linterna del faro",
+  "mal_armado": [
+    "la forma verde de la izquierda queda ambigua, parece colinas con una bolita",
+    "la forma naranja no tiene rasgos de pez",
+    "la torre parece apoyada en un haz borroso entre las rocas",
+    "las dos rocas triangulares no se unen bien con el mar",
+    "la sombra oscura bajo las rocas flota en el agua"
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "consigna": "libre",
+  "unidad": "claude-fable-5-1_1",
+  "juez": "gemini-3.1-pro-preview",
+  "fecha_utc": "2026-10-02T04:42:14+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1074,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "degradado de azul a violeta en el fondo"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntos blancos distribuidos en el cielo"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "se distingue una forma de cuarto creciente"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "halo luminoso difuminado rodeando la luna"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "múltiples picos montañosos, dos con puntas claras"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "siluetas oscuras que contrastan con el cielo"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "franja inferior plana y oscura que simula agua"
+    },
+    {
+      "id": "a8",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay formas invertidas de las montañas en el agua"
+    },
+    {
+      "id": "a9",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no existe el reflejo mencionado"
+    },
+    {
+      "id": "a10",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "hay elipses en el agua, pero no bajo la luna ni reflejándola"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay un par de líneas horizontales tenues cerca del bote"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "masas sólidas negras a ambos lados en primer plano"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "triángulos oscuros sobre las colinas imitando árboles"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "figura geométrica de un barco con vela"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "punto amarillento brillante en el tope del mástil"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el bote se encuentra en el medio del agua"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "hay pequeños puntos claros en la parte baja que podrían serlo"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "los colores oscuros, estrellas y luna marcan el horario"
+    }
+  ],
+  "no_dicho": "un círculo oscuro que cubre parte de la luna, dándole aspecto de eclipse",
+  "mal_armado": [
+    "línea recta anómala que sale del mástil del bote hacia la derecha",
+    "elipse gris aislada sobre el agua en el lado derecho"
+  ]
+}

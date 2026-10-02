@@ -1,0 +1,124 @@
+{
+  "consigna": "libre",
+  "unidad": "claude-fable-5-1_1",
+  "juez": "gpt-5.5-2026-04-23",
+  "fecha_utc": "2026-10-02T04:41:45+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1110,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cielo azul oscuro que baja a violeta"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "varios puntos blancos como estrellas"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "luna creciente amarilla arriba a la derecha"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "resplandor circular alrededor de la luna"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay montañas, con solo algunos picos nevados"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "siluetas de montañas contra el cielo"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "zona de agua oscura violeta"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "algunas formas tenues parecen reflejos"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "los reflejos son muy apagados y poco definidos"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "se ve una elipse clara, no una serie extendida"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "pocas líneas horizontales en el agua"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "masas negras en primer plano a los lados"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pinos negros en silueta"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "bote pequeño cerca del centro inferior"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "punto amarillo encendido en el bote"
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "el bote parece sobre el agua, aunque bajo en la escena"
+    },
+    {
+      "id": "a17",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no se distinguen luciérnagas aparte de estrellas y farol"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo oscuro, estrellas y luna"
+    }
+  ],
+  "no_dicho": "Un gran disco oscuro tapa parte de la luna creciente.",
+  "mal_armado": [
+    "algunos reflejos de montañas son muy fragmentarios",
+    "el farol queda como un punto suelto sobre una línea vertical"
+  ]
+}

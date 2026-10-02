@@ -1,0 +1,113 @@
+{
+  "consigna": "libre",
+  "unidad": "claude-fable-5-1_2",
+  "juez": "kimi-k3",
+  "fecha_utc": "2026-10-02T04:50:29+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 2939,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "azul profundo arriba, violeta-rosado en el horizonte"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntos blancos dispersos por el cielo"
+    },
+    {
+      "id": "a3",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "la luna se ve redonda y plena, no creciente"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "gran halo luminoso y cálido alrededor de la luna"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "se distinguen dos capas de picos azulados en zigzag"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "zigzag invertido en tonos violeta bajo el horizonte"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "franja inferior quieta que se lee como lago"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "líneas horizontales claras sobre el agua a la derecha"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "masa negra en primer plano a la izquierda"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pinos triangulares en silueta sobre la orilla"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "casita con techo entre los pinos"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ventana amarilla de cuatro paneles encendida"
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "solo un trazo tenue a la izquierda del agua, apenas sugerido"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "escena de noche cerrada, cielo estrellado"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "gama oscura, agua quieta y halo suave transmiten calma"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la ventana encendida en la oscuridad da sensación de refugio"
+    }
+  ],
+  "no_dicho": "un óvalo de luz verdosa en el suelo justo bajo la cabaña",
+  "mal_armado": [
+    "la orilla negra termina en un corte vertical recto y abrupto en el centro de la imagen",
+    "la cabaña se lee como un disco circular con ventana pegado sobre un techo apenas visible",
+    "la ventana amarilla queda desplazada hacia abajo dentro del círculo"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "consigna": "libre",
+  "unidad": "claude-fable-5-1_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T04:48:21+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1210,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Cielo de azul muy oscuro que vira a violeta hacia el horizonte"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Muchos puntos blancos pequeños repartidos por el cielo"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Creciente crema formada por un disco que tapa a otro; se lee como luna"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no",
+      "nota": "Halo difuso alrededor de la luna, más bien blanco-grisáceo que cálido"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Dos capas de montañas; solo dos picos con nieve clara, apenas visible"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Siluetas moradas contra el cielo más azul, buen contraste"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Agua violeta oscura bajo las montañas, más oscura hacia abajo"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Solo se ven triángulos muy tenues en la orilla; no hay reflejo claro"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Casi imperceptible, no se lee como reflejo"
+    },
+    {
+      "id": "a10",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No hay reflejo de luna en el agua; solo una elipse grisácea a la derecha y otra bajo el bote"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Algunas líneas finas claras horizontales sobre el agua, discretas"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Dos masas negras a izquierda y derecha en primer plano"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Varios pinos oscuros puntiagudos sobre ambas colinas"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Bote pequeño con vela triangular oscura entre las colinas"
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Solo un puntito amarillo en lo alto del mástil, apenas se nota"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Está en el centro horizontal, algo bajo; parece flotar sobre una mancha de reflejo"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Hay puntitos claros sobre el agua y las colinas, pero parecen estrellas, no luciérnagas"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Ambiente nocturno claro: luna, estrellas, tonos oscuros"
+    }
+  ],
+  "no_dicho": "La luna tiene un disco oscuro con degradado violeta que la tapa, con aspecto de eclipse más que de creciente simple.",
+  "mal_armado": [
+    "El disco que tapa la luna es opaco y se distingue del cielo, así que se ve como círculo oscuro superpuesto",
+    "El halo de la luna se corta con un borde difuso visible",
+    "Los reflejos de las montañas son triángulos sueltos y poco legibles en la orilla"
+  ]
+}

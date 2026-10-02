@@ -1,0 +1,181 @@
+{
+  "consigna": "libre",
+  "unidad": "deepseek-v4-pro_1",
+  "juez": "kimi-k3",
+  "fecha_utc": "2026-10-02T06:27:13+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 5770,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Degradado de púrpura nocturno a naranja/rosa; lo dorado está en la columna, no en el cielo"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Puntos blancos dispersos en el cielo"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Hay resplandor cálido bajo, pero es la base de una columna, no un sol"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Se ven capas de montañas púrpuras, no claramente tres"
+    },
+    {
+      "id": "a5",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No se ve río ni reflejo del cielo"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Masas oscuras laterales; la derecha dentada, la izquierda una cuña plana, no árboles claros"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Los bordes oscuros sí encuadran el centro, aunque no se leen como árboles"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Estrellas más brillo bajo cálido: se lee crepúsculo/noche"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Montañas en capas y primer plano oscuro dan profundidad"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Ambiente quieto, algo tenso por las diagonales"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Contraste púrpura frío contra naranja cálido del centro (sin sol)"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Escena quieta, invita a mirar"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Sensación de calma y quietud"
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Montañas y hora crepuscular sí; el valle y el sol no son claros"
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Cielo de púrpura a naranja; el dorado es de la columna"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Estrellas visibles"
+    },
+    {
+      "id": "a17",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay disco solar brillante; hay una columna luminosa"
+    },
+    {
+      "id": "a18",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "El brillo bajo es una pluma ascendente, no un sol posado"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Montañas en tonos púrpuras"
+    },
+    {
+      "id": "a20",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Una línea fina serpenteante clara, más sendero que río"
+    },
+    {
+      "id": "a21",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay reflejo de colores del cielo en agua"
+    },
+    {
+      "id": "a22",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Ningún río divide el valle"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Silueta oscura dentada a la derecha tipo bosque; izquierda solo una cuña"
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Las masas laterales sí enmarcan la escena"
+    },
+    {
+      "id": "a25",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Primer plano oscuro y plano, sin pasto; hay líneas diagonales"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Se lee como atardecer/inicio de noche"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Tono calmado y algo melancólico"
+    }
+  ],
+  "no_dicho": "Una densa celosía de líneas diagonales oscuras (como lluvia o reja/alambrado) cruza todo el primer plano, y el motivo central es una gran llama o columna de humo ondulada que sube al cielo, no un sol.",
+  "mal_armado": [
+    "La reja diagonal queda como capa ajena superpuesta, tapando montañas y cielo sin integrarse",
+    "El borde del bosque derecho es un escalón de sierra muy geométrico, parece recortado",
+    "La cuña oscura izquierda está cortada por el borde y no conecta con las montañas",
+    "La cima dorada de la columna termina en un corte plano inclinado, como tajada",
+    "La línea serpenteante clara flota sin unirse a nada"
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "consigna": "libre",
+  "unidad": "claude-haiku-4-5_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T04:55:27+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1492,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "montañas con picos nevados"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "casa naranja a la derecha"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo celeste y sol, luz de día"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "degradado en cielo y sol"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "montañas, árboles y casa en planos"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "se entiende como paisaje de montaña con casa"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "colores suaves, sin acción"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "imagen cuadrada"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas planas y geométricas"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "nieve desproporcionada, casa chica frente a montañas, chimenea alta"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "azul claro que se aclara hacia abajo"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sol amarillo-naranja con degradado radial"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "nubes blancas translúcidas"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "montañas marrones superpuestas"
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "triángulos blancos de nieve, el de la derecha flota desalineado"
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "casa naranja lisa, sin textura de madera"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "techo marrón triangular"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "chimenea con círculos grises de humo"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puerta marrón con picaporte amarillo"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos ventanas celestes con cruz"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "está sobre el suelo plano al pie, no en pendiente clara"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pinos verdes de dos tonos"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay tres, solo en el centro-izquierda; uno tapado por la casa"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cerca marrón baja"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntos rosas bajo la cerca"
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "pocos puntitos sueltos, no se lee como jardín"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "imagen cuadrada"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "casa, cerca y montañas dan aire rural"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "colores cálidos y suaves, ambiente sereno"
+    }
+  ],
+  "no_dicho": "El suelo marrón plano y grande ocupa casi toda la parte inferior, mezclado con la montaña.",
+  "mal_armado": [
+    "pico nevado derecho flotando, no encaja con la ladera",
+    "nieve del pico central tapada y cortada por la montaña",
+    "árbol derecho tapado por la casa",
+    "nube superpuesta al sol",
+    "chimenea larga que sobresale por el techo",
+    "la montaña frontal se funde con el suelo sin límite claro"
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "consigna": "casa",
+  "unidad": "mistral-medium-3.5_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T11:09:06+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1306,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "casa con techo, paredes y puerta"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "techo triangular simétrico"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "techo rojo/coral, sin marrón; marrón es la pared"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pared marrón rectangular"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puerta negra pequeña abajo al centro"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "formas azules en la pared"
+    },
+    {
+      "id": "a7",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay chimenea"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "círculo amarillo, pero está sobre el techo, no en el cielo"
+    },
+    {
+      "id": "a9",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "sin cielo ni ambiente; el círculo está en el techo"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "marrón y rojo cálidos con azul frío"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas geométricas básicas"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "las ventanas forman una figura extraña, poco acogedora"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "casa dibujada"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "techo a dos aguas triangular"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "paredes marrones"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "techo rojo coral"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ventanas azules"
+    },
+    {
+      "id": "a18",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "la puerta es negra"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculo dorado en el techo, centrado"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "se lee como adorno, sin función clara"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puerta abajo al centro"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puerta negra"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos ventanas arriba a los lados"
+    },
+    {
+      "id": "a24",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "la ventana pequeña está abajo al centro, no arriba"
+    },
+    {
+      "id": "a25",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "la imagen es 800x800, aunque cuadrada"
+    }
+  ],
+  "no_dicho": "Un grupo de bloques azules superpuestos en el centro de la pared que forman una figura en forma de U o cara.",
+  "mal_armado": [
+    "bloques azules centrales superpuestos y fusionados de forma confusa",
+    "ventanas laterales pegadas a los bloques centrales",
+    "puerta negra sin marco, muy pequeña y separada de las ventanas",
+    "círculo amarillo flotando sobre el techo"
+  ]
+}

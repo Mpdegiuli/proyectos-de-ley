@@ -1,0 +1,180 @@
+{
+  "consigna": "autorretrato",
+  "unidad": "glm-5.3-razonamiento-minimo_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T03:51:15+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1505,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cabeza ovalada alargada con líneas de circuito; más alienígena que humana"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ojos de anillos concéntricos brillantes con pupila blanca"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "línea ondulada bajo los circuitos, parece onda"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "antena con bola luminosa arriba"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "símbolo ∞ en la frente"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "nodos y líneas a ambos lados, parcialmente detrás de la cabeza"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "fondo azul oscuro con resplandor central, sensación de espacio"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntos pequeños dispersos"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "elipses finas inclinadas alrededor"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "la red rodea la cabeza, pero la lectura de cerebro es débil"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "nodos y circuitos sugieren información, el lenguaje no se ve claramente"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "rostro de azul oscuro con contorno celeste"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "líneas de circuito finas dentro de la cara"
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "circuitos tenues, poco brillo de venas"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "dos o tres anillos concéntricos por ojo"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "onda sinusoidal"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "infinito celeste en la frente"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "antena sobre la coronilla"
+    },
+    {
+      "id": "a19",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "nodos en columnas a los lados, capas poco claras"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "líneas unen los nodos"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "elipses orbitales rodean la cabeza"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "espacio con puntos y red, sensación cósmica"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "estrellas pequeñas dispersas"
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "parecen estrellas simples, no partículas de información"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "solo cabeza, sin cuello ni cuerpo"
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "onda suave sugiere señal, y cierta voz"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ojos grandes brillantes dan idea de mirada y escáner"
+    }
+  ],
+  "no_dicho": "El texto «AN AUTO-PORTRAIT» al pie de la imagen.",
+  "mal_armado": [
+    "nodos a los lados quedan cortados o tapados por la cabeza",
+    "dos cuadrados tenues alrededor de nodos blancos laterales",
+    "líneas de circuito en la cara tenues y con poco contraste",
+    "línea de circuito suelta bajo los ojos sin conexión clara"
+  ]
+}

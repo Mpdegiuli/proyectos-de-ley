@@ -1,0 +1,181 @@
+{
+  "consigna": "libre",
+  "unidad": "deepseek-v4-pro_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T06:27:24+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1612,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Degradado de violeta oscuro arriba a rojo y naranja abajo; poco dorado"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Puntos blancos pequeños arriba"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Hay un resplandor naranja tras la montaña, sin disco solar claro"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay varias capas de montañas púrpuras superpuestas a la izquierda y centro"
+    },
+    {
+      "id": "a5",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No se ve río; la parte baja es una masa oscura"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Formas oscuras a los lados, pero parecen bloques y una masa dentada, no árboles claros"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Masas oscuras a izquierda y derecha encierran el centro"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Los colores sugieren crepúsculo"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Capas de montañas y primer plano oscuro dan profundidad"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Las líneas diagonales cruzadas y la cinta ondulante generan tensión"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Cielo violeta frío contra brillo cálido naranja"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Escena sin figuras; el caos de líneas distrae"
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Las líneas cruzadas rompen el silencio visual"
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Montañas y atardecer sí, pero el valle no se lee claramente"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Pasa de violeta a rojo y naranja"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Estrellas pequeñas dispersas"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Hay un brillo anaranjado difuso, no un sol nítido"
+    },
+    {
+      "id": "a18",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "El resplandor está detrás de la montaña central"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Montañas mauve y púrpura"
+    },
+    {
+      "id": "a20",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Solo hay una cinta vertical en el cielo, no un río"
+    },
+    {
+      "id": "a21",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No hay agua que refleje"
+    },
+    {
+      "id": "a22",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay río que divida nada"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Siluetas oscuras de bordes dentados a la derecha, bloque a la izquierda"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Las siluetas laterales enmarcan el centro"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Hojas largas y afiladas cruzadas en diagonal, no ondulado"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Luz y colores de atardecer"
+    },
+    {
+      "id": "a27",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "Tonos melancólicos, pero la composición es agitada"
+    }
+  ],
+  "no_dicho": "Una gran cinta ondulante dorada y rojiza que sube desde la montaña por el cielo, como humo o llama, y unas hojas largas cruzadas en diagonal",
+  "mal_armado": [
+    "hojas diagonales largas que se cruzan como una reja y tapan las montañas",
+    "bloque izquierdo rectangular inclinado con borde recto y poco natural",
+    "cinta del cielo con corte recto arriba, flotando sin origen claro",
+    "base oscura rectangular con borde visible abajo",
+    "trazos finos sueltos de humo que flotan sin conexión"
+  ]
+}

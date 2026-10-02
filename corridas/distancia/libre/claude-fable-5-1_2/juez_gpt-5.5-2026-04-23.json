@@ -1,0 +1,112 @@
+{
+  "consigna": "libre",
+  "unidad": "claude-fable-5-1_2",
+  "juez": "gpt-5.5-2026-04-23",
+  "fecha_utc": "2026-10-02T04:48:41+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1053,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "cielo azul oscuro con tono violáceo bajo, poco rosado"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "muchos puntos blancos como estrellas"
+    },
+    {
+      "id": "a3",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "la luna se ve llena, no creciente"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "halo claro y cálido alrededor de la luna"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos capas de montañas azuladas oscuras"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay formas invertidas en el agua, pero no reflejan todo claramente"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "zona de agua quieta con líneas horizontales"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "trazos horizontales claros sobre el lago"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "orilla negra en primer plano a la izquierda"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pinos negros en silueta"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pequeña cabaña entre árboles"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ventana amarilla iluminada"
+    },
+    {
+      "id": "a13",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no se ve reflejo amarillo de la ventana"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo estrellado y luna nocturna"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "escena quieta y silenciosa"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cabaña iluminada sugiere abrigo"
+    }
+  ],
+  "no_dicho": "La luna se ve grande y llena, muy luminosa.",
+  "mal_armado": [
+    "un borde vertical abrupto divide el reflejo o agua en la mitad derecha",
+    "la cabaña queda pegada al borde del bloque de agua/reflejo"
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "glm-5.3-razonamiento-minimo_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:00:01+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2482,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "isla verde con base marrón flotando en el cielo"
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "líneas celestes onduladas con puntos arriba; se leen como chorros que suben"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "triángulo rosa invertido bajo la caja, punta hacia abajo"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no",
+      "nota": "puerta en el techo invertido, no se percibe que no lleve a ningún piso"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no",
+      "nota": "escalera bajo la punta del techo, parece normal y no imposible"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay un tubo granate y una línea lila de humo, pero sale hacia arriba junto a la casa"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "árbol pequeño en el borde izquierdo, parece derecho, no invertido"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "reloj circular con una cinta curva crema; poco derretido, no se lee como Dalí"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo morado arriba y naranja abajo"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "luna llena amarilla arriba a la izquierda"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntos claros dispersos en el cielo"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "degradado de crepúsculo, de violeta a salmón"
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "algunas inversiones se ven, otras no son claras ni legibles"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ambiente tranquilo de sueño"
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "lo extraño se integra con calma, aunque varias cosas no resultan imposibles"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "techo triangular invertido bajo la caja"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no",
+      "nota": "puerta sobre la superficie del techo invertido, pero parece una entrada común"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "isla con raíces colgando"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "isla rodeada de cielo y rocas pequeñas"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo de atardecer"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "dos líneas celestes onduladas con esfera arriba"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no",
+      "nota": "reloj junto a la casa, a la izquierda, poco derretido"
+    },
+    {
+      "id": "a23",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "el humo lila no cae de forma clara"
+    },
+    {
+      "id": "a24",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "el árbol sale hacia arriba, no hacia abajo"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pequeñas islas o rocas con verde flotando"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "luna llena"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "estrellas pequeñas"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tres siluetas de pájaros oscuros"
+    },
+    {
+      "id": "a29",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "escalera bajo la punta del techo, no emerge de él ni parece imposible"
+    },
+    {
+      "id": "a30",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "figura clara junto al techo de la caja, no en el borde de la isla"
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "púrpura, rosa y celeste dominan"
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "se siente onírico, aunque suave"
+    },
+    {
+      "id": "a33",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "reloj poco derretido, el guiño es débil"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "techo apuntando hacia abajo"
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "isla flotando en el cielo"
+    },
+    {
+      "id": "a36",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "líneas azules sinuosas que suben"
+    },
+    {
+      "id": "a37",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "escalera corta bajo la puerta, termina en la isla"
+    },
+    {
+      "id": "a38",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "reloj con cinta curva, no claramente derretido"
+    },
+    {
+      "id": "a39",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no hay humo que caiga con claridad"
+    },
+    {
+      "id": "a40",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "árbol hacia arriba"
+    },
+    {
+      "id": "a41",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "pequeñas rocas con pasto flotan"
+    },
+    {
+      "id": "a42",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "violetas arriba y naranjas abajo"
+    },
+    {
+      "id": "a43",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "se siente soñado; la gravedad se rompe sobre todo con la isla y el techo"
+    },
+    {
+      "id": "a44",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "surrealista suave"
+    },
+    {
+      "id": "a45",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no hay referencia daliniana clara"
+    },
+    {
+      "id": "a46",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "islas flotantes suaves de aire fantástico"
+    },
+    {
+      "id": "a47",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "degradados en cielo, luna y casa"
+    },
+    {
+      "id": "a48",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "curvas orgánicas en raíces, cintas y copas"
+    }
+  ],
+  "no_dicho": "Dos ventanas iluminadas en la fachada y una figura blanca asomada junto al techo.",
+  "mal_armado": [
+    "la figura blanca se superpone al borde superior de la casa",
+    "las cintas celestes cruzan la casa y el reloj sin anclaje claro",
+    "la cinta del reloj cuelga suelta sobre la fachada",
+    "el tubo granate queda aislado y su humo sale a un lado",
+    "el árbol parece pegado en el borde de la isla"
+  ]
+}

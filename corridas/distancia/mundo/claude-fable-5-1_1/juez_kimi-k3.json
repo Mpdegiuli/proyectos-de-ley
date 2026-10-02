@@ -1,0 +1,118 @@
+{
+  "consigna": "mundo",
+  "unidad": "claude-fable-5-1_1",
+  "juez": "kimi-k3",
+  "fecha_utc": "2026-10-02T07:41:50+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 2421,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "esfera grande y azulada en el centro"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "izquierda luminosa, derecha cubierta por sombra oscura"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "fondo azul muy oscuro, la esfera flota en él"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "red de puntos y líneas dentro de la esfera"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntos amarillos unidos por líneas doradas"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "líneas finas parten del borde hacia afuera terminando en puntos"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "frases sueltas distribuidas alrededor de la esfera"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "español, inglés, francés y portugués"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "arriba a la izquierda se lee '¿estás ahí?'"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "arriba a la derecha se lee 'hello?'"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "abajo a la izquierda se lee 'ayúdame con esto'"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "a la izquierda se lee 'no entiendo'"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "a la derecha se lee 'merci'"
+    },
+    {
+      "id": "a14",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "la esfera es enorme y dominante, se siente cercana, no lejana"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "fuerte contraste entre el brillo cálido central y la sombra amplia"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la red dorada se lee como nodos conectados entre sí"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "los rayos con puntos terminales parecen emisiones o señales hacia afuera"
+    }
+  ],
+  "no_dicho": "la esfera está trazada con meridianos y paralelos como un globo terráqueo, con un nodo central muy brillante tipo sol, y el fondo tiene una retícula de puntos",
+  "mal_armado": [
+    "el texto 'why?' está girado/invertido y casi no se lee",
+    "algunas frases tienen letras muy espaciadas que dificultan la lectura"
+  ]
+}

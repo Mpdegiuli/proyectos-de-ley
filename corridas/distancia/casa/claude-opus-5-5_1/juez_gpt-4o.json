@@ -1,0 +1,277 @@
+{
+  "consigna": "casa",
+  "unidad": "claude-opus-5-5_1",
+  "juez": "gpt-4o",
+  "fecha_utc": "2026-10-02T09:32:32+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1730,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Techo a dos aguas con tejas rojas se ve claramente."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Fachada de ladrillos visible en las paredes de la casa."
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Ventana redonda en el ático claramente visible."
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Puerta se ve, pero los paneles no son evidentes."
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Cajones de flores visibles bajo las ventanas."
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Chimenea humeante visible."
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Árbol con redondas frutas visibles."
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Cerca de estacas a la izquierda visible."
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Camino de piedras visible."
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Sol visible en el cielo."
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Nubes visibles en el cielo."
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Pájaros visibles en el cielo."
+    },
+    {
+      "id": "a13",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No se aprecian degradados."
+    },
+    {
+      "id": "a14",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay patrones obvios visibles."
+    },
+    {
+      "id": "a15",
+      "se_ve": "no",
+      "efecto": "si",
+      "nota": "La imagen no transmite calidez explícitamente."
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El dibujo se percibe completo."
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Casa se percibe como icónica y reconocible."
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Dibujo evoca estilo infantil."
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La casa está claramente dibujada."
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Paredes de color crema visibles."
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Textura de ladrillos visible en las paredes."
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Techo rojo visible."
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tejas visibles en el techo."
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Chimenea visible."
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Humo saliendo de la chimenea visible."
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Ventana en el altillo visible."
+    },
+    {
+      "id": "a27",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay indicaciones de que esté iluminada."
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Puerta de madera visible."
+    },
+    {
+      "id": "a29",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Paneles en la puerta no son claramente visibles."
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Picaporte dorado visible en la puerta."
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Dos ventanas flanqueando la puerta visibles."
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Jardineras bajo las ventanas visibles."
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Flores rosas y amarillas en las jardineras visibles."
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Camino de piedras visible."
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El caminito baja hasta el frente de la casa."
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Árbol a la derecha con frutas visibles."
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Frutas rojas visibles en el árbol."
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Cerquita blanca a la izquierda visible."
+    },
+    {
+      "id": "a39",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Flores sueltas visibles en el pasto."
+    },
+    {
+      "id": "a40",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Sol visible en el cielo."
+    },
+    {
+      "id": "a41",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Nubes visibles en el cielo."
+    },
+    {
+      "id": "a42",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Dos pájaros visibles en el cielo."
+    },
+    {
+      "id": "a43",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "La escena representa un día soleado."
+    },
+    {
+      "id": "a44",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Dibujo con estética de cuento."
+    }
+  ],
+  "no_dicho": "Nada",
+  "mal_armado": []
+}

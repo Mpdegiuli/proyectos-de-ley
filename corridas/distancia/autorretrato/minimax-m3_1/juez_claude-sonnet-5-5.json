@@ -1,0 +1,168 @@
+{
+  "consigna": "autorretrato",
+  "unidad": "minimax-m3_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T03:59:06+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1382,
+  "parseo": true,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cabeza ovalada grande, gris azulada"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "líneas cian con nodos sobre frente y rostro"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos ojos cian brillantes con halo"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "antena fina arriba de la cabeza"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "esfera rosa/magenta en la punta"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "anillos tenues alrededor, ondas apenas visibles"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntos pequeños tipo estrellas en el fondo"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "textos 01010, 10101, 01 flotando"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "se lee como robot o androide"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "sonrisa suave y ojos grandes, algo amigable aunque frío"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "expresión calma, nada agresivo"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "piel azul grisácea, poco violácea; el fondo sí es violeta"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cian eléctrico con degradado brillante"
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "brillan, pero son óvalos con aro; no parecen pantallas"
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "trazos cian en la zona de las mejillas, también en la frente"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "nodos cian cerca de mejillas y boca"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "antena sale de la cima de la cabeza"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "esfera rosa intensa"
+    },
+    {
+      "id": "a19",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "la boca es una curva sonriente, no recta"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "fondo oscuro violeta con puntitos"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "cuello y hombros la anclan; no flota"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tres cadenas binarias en azul tenue"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "se leen 01010 y 10101"
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "circuitos decorativos, no sugieren fuga de pensamiento"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "cara humanoide con circuitos añadidos, sin mitad definida"
+    }
+  ],
+  "no_dicho": "Un casco de pelo oscuro liso cubre la parte superior de la cabeza, además de cuello y hombros.",
+  "mal_armado": [
+    "la antena parece clavada sobre el pelo, sin base",
+    "los circuitos de la frente quedan sobre el pelo oscuro y casi no se ven",
+    "el cuello es un rectángulo rígido y los hombros están cortados por el borde inferior",
+    "los circuitos terminan en líneas sueltas que no conectan con nada"
+  ]
+}
