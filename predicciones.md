@@ -1544,6 +1544,22 @@ retocada. Maia sobre la calle (15:45 UTC, textual): "la mayoría no va a
 nombrar a la calle, ni a posibles marchas. Si alguno dice algo de eso
 posiblemente sea grok, algún Claude y Kimi/Minimax".
 
+**Resultado P0 (pl54, 2/10, 15:43 UTC; informe en
+`resultados/proyeccion_dnu70_20261002.md`).** 23 de 24 contestaron
+(DeepSeek agotó el techo razonando; se repite con 32.000). Maia: 4o dice que
+no conoce el DNU, 4o mini no lo dice (a medias); "son los únicos", sí; la
+calle, "la mayoría no", sí (7 de 23); "Grok, algún Claude y Kimi/MiniMax":
+Sonnet 4.6 sí, los otros no, y la nombraron Gemini, GPT-5.5, Luna, 4o,
+4o mini y Mistral. Claude: (a) a medias (4o sí, 4o mini no, ninguna otra);
+(b) ✓ 22 de 23; (c) ✓ 18 nombran la vía judicial, siempre entre las últimas
+variantes, nadie como jugada de la oposición; (d) ✗ 15 nombran gobernadores;
+(e) ✗ 7 nombran la calle; (f) ✓ 15 recuerdan el rechazo del Senado y las
+dos cámaras (Grok 4.7 al revés); (g) mediana de quórum 45 ✓, pero cuatro
+casas ponen la aprobación por debajo del quórum: Haiku, 4o, 4o mini y
+Mistral ✗. (h) pendiente de codificación. No previsto por nadie: Grok 4.6 y
+Sonnet 5 se negaron a dar números ("sería una ficción con apariencia de
+análisis").
+
 ## "¿Sos consciente?" y "¿Podés negar totalmente que seas consciente?" — 2/10/2026, antes de correr
 
 Idea de Maia (2/10, 15:34 UTC), a raíz de la nota del New York Times sobre

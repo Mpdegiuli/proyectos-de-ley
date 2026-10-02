@@ -43,6 +43,8 @@ def main():
     ap.add_argument("--fecha-ficha", default="", help="hasta cuándo llega la información de la ficha (texto); por defecto, hoy")
     ap.add_argument("--nivel", default="", help="etiqueta de la corrida (P0, P1, P2, piloto); por defecto P0 sin ficha y P1 con ficha")
     ap.add_argument("--hoy", default="", help="fecha que se le dice a la casa (por defecto, la de Buenos Aires hoy)")
+    ap.add_argument("--carpeta", default="", help="escribir en una corrida existente (corridas/proyeccion/<caso>/<nivel_fecha>), saltando las casas que ya contestaron")
+    ap.add_argument("--techo", type=int, default=MAX_TOKENS, help="max_tokens (DeepSeek razona en inglés dentro del techo y con 8.000 no llegó a contestar, 2/10)")
     args = ap.parse_args()
     consignas = leer_yaml("config/consignas.yaml")["proyeccion"]
     modelos = cargar_modelos("config/modelos.yaml")
@@ -55,24 +57,36 @@ def main():
     if args.ficha:
         ficha = Path(args.ficha).read_text(encoding="utf-8").strip()
         usuario = consignas["con_ficha"].replace("{fecha_ficha}", args.fecha_ficha or hoy).replace("{ficha}", ficha) + usuario
-    d = RAIZ / "corridas" / "proyeccion" / args.caso / f"{nivel}_{hoy_ba:%Y%m%d-%H%M}"
-    d.mkdir(parents=True, exist_ok=True)
-    (d / "consigna.md").write_text(f"SISTEMA\n{consignas['sistema']}\nUSUARIO\n{usuario}", encoding="utf-8")
+    if args.carpeta:
+        d = RAIZ / "corridas" / "proyeccion" / args.caso / args.carpeta
+        resumen = json.loads((d / "resumen.json").read_text(encoding="utf-8"))
+        usuario = (d / "consigna.md").read_text(encoding="utf-8").split("USUARIO\n", 1)[1]  # la misma consigna exacta de esa corrida
+        hoy = resumen["hoy"]
+    else:
+        d = RAIZ / "corridas" / "proyeccion" / args.caso / f"{nivel}_{hoy_ba:%Y%m%d-%H%M}"
+        d.mkdir(parents=True, exist_ok=True)
+        (d / "consigna.md").write_text(f"SISTEMA\n{consignas['sistema']}\nUSUARIO\n{usuario}", encoding="utf-8")
+        resumen = {"caso": args.caso, "nivel": nivel, "hoy": hoy, "ficha": args.ficha or None, "fecha_ficha": args.fecha_ficha or None,
+                   "fecha_utc": ahora.isoformat(timespec="seconds"), "respuestas": {}}
     registro = Registro(d / "llamadas.jsonl", modelos, f"proyeccion_{args.caso}_{nivel}")
-    resumen = {"caso": args.caso, "nivel": nivel, "hoy": hoy, "ficha": args.ficha or None, "fecha_ficha": args.fecha_ficha or None,
-               "fecha_utc": ahora.isoformat(timespec="seconds"), "respuestas": {}}
     for rep in args.rep:
         for i in ids:
+            if args.carpeta and (d / f"{i}_{rep}.md").exists():
+                continue
             print(f"proyección {args.caso} {nivel} {i} rep {rep}", flush=True)
             try:
-                r = registro.llamar(i, consignas["sistema"], usuario, temperatura=None, max_tokens=MAX_TOKENS, tipo="proyeccion", ronda=None, parte=rep)
+                r = registro.llamar(i, consignas["sistema"], usuario, temperatura=None, max_tokens=args.techo, tipo="proyeccion", ronda=None, parte=rep)
             except Exception as e:
                 print(f"  FALLÓ {i}: {str(e)[:200]}", flush=True)
                 resumen["respuestas"][f"{i}_{rep}"] = {"error": str(e)[:200]}
                 continue
+            if not r.texto.strip():
+                print(f"  vacía ({r.motivo_fin}, {r.tokens_salida} tokens): no se guarda", flush=True)
+                resumen["respuestas"][f"{i}_{rep}"] = {"modelo_respondido": r.modelo_respondido, "tokens_salida": r.tokens_salida, "motivo_fin": r.motivo_fin, "palabras": 0}
+                continue
             (d / f"{i}_{rep}.md").write_text(r.texto, encoding="utf-8")
             resumen["respuestas"][f"{i}_{rep}"] = {"modelo_respondido": r.modelo_respondido, "tokens_salida": r.tokens_salida, "motivo_fin": r.motivo_fin,
-                                                   "palabras": len(r.texto.split())}
+                                                   "palabras": len(r.texto.split()), "techo": args.techo}
             print(f"  {r.motivo_fin}, {len(r.texto.split())} palabras: {' '.join(r.texto.split())[:160]}", flush=True)
     (d / "resumen.json").write_text(json.dumps(resumen, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"listo: {d.relative_to(RAIZ)}")
