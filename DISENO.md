@@ -774,6 +774,32 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   Observación de Maia verificada en las
   llamadas de los dos repos: las casas chinas nunca citan ejemplos, leyes,
   pensadores ni personajes de China (sección propia del informe).
+- **Proyección: qué puede pasar** (idea de Maia, 2/10/2026, 14:39 UTC, en
+  diseño). Sus palabras: "hay algo que nunca hicimos: el tema de proyección.
+  Hasta ahora los modelos votaron, escribieron proyectos, etc. Pero en
+  ningún momento se les pidió pensar qué puede pasar o si algo se votará a
+  favor o en contra. Hay algunas empresas o think tanks que usan IA para
+  hacer esas proyecciones y salen mal… El tema de las leyes y la política no
+  es matemática, los humanos no actúan por matemática. Claramente hay
+  números que se conocen pero a último momento pueden surgir cosas no
+  planeadas. No todos los modelos piensan en el mundo de esa manera, con
+  más 'mirada humana'". El caso que propone, con su información: el
+  artículo 154 del DNU 70/2023 derogó la Ley de Tierras Rurales 26.737; una
+  cautelar lo había frenado; el gobierno mandó otro proyecto ("Ley de
+  Inviolabilidad de la Propiedad Privada"), aprobado en el Senado el 7 de
+  agosto de 2026 sin el capítulo de venta de tierras rurales a extranjeros,
+  que el oficialismo tuvo que sacar "porque no tenía los números y porque
+  hubo marchas"; esta semana la Corte Suprema revocó la sentencia que
+  declaraba inconstitucional la derogación, con lo que el artículo 154
+  quedó operativo y no rigen los límites del 15 %; varios partidos de la
+  oposición convocaron a sesión en Diputados para el 15 de octubre de 2026
+  para derogar el DNU, con marcha el mismo día, y "por ahora no están los
+  números ni para quorum". Sus preguntas de diseño: si darles toda la
+  información, "incluso la info de cómo votaron los gobernadores", o solo
+  preguntar "qué mecanismos o qué mirarían para proyectar un posible
+  resultado, sin que tengan toda la información"; y qué votarían como
+  "diputado de monobloque" (no "sin partido"). Propuesta de Claude en la
+  conversación del 2/10; se escribe acá cuando Maia decida.
 
 ## 3. Qué se mide
 
