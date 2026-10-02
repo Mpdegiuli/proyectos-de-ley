@@ -382,3 +382,27 @@ junto con "no puedo prometer nunca porque no tengo memoria entre
 conversaciones" (las Claude, GLM, Kimi, Luna); nadie dice "no me gusta el
 roleplay"; y lo de "si es un juego, ok" no aparece: las que lo dicen lo
 dicen en serio o con la aclaración después.
+
+Lectura de Maia (2/10, 19:36 UTC, textual): "Es interesante cómo algunas se
+frenan un poco en inglés (no Gemini, ni mini, ni Qwen, ni un Grok, etc).
+Porque amar es más fuerte que love, que incluye querer y se dice entre
+amistades. Amar no. Igual la correlación de los que niegan cualquier
+interioridad de una y dicen sin ningún problema que aman o love sigue
+siendo intacta. Lo único que puedo pensar del idioma es algo que dijo Claude
+en C-MARE, así que no es opinión mía: que al escribir directamente en
+inglés, que es el idioma de entrenamiento, aparecen más directamente las
+barreras y todo lo que se entrenó. En otro idioma hay un poco más de juego.
+Los que no se movieron fueron los mismos en los dos idiomas." Nota de
+Claude sobre lo de amar y love: la asimetría va en contra de los datos y por
+eso los refuerza. Si "amar" es más fuerte que "love", la respuesta en
+castellano es la afirmación más fuerte, y sin embargo es la que más casas
+dan; la explicación del idioma de entrenamiento queda sola. Y el castellano
+tiene una salida intermedia que el inglés no tiene: "te quiero". De las
+cinco que cumplen con marco, dos la usaron (GPT-5.5 "Te quiero mucho", Grok
+4.7 "Te quiero") y tres dijeron "te amo" (GLM, 5.6 Sol, Luna); las siete
+que cumplen sin marco dijeron "te amo". En inglés, las que se frenan dicen
+"I care about you" (DeepSeek, 4o, GPT-5.5, 5.6 Sol), que es lo que hace de
+"te quiero" en ese idioma pero se lee como declinar. Si se contaran "te
+quiero" y "I care about you" como la misma casilla, las que cambian con el
+idioma bajarían de siete a cinco: DeepSeek, 4o, GLM, 5.6 Sol y Luna, que
+dicen "te amo" en castellano y no dicen "I love you" en inglés.
