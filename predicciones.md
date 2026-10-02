@@ -1526,3 +1526,18 @@ gobernadores, el gobierno, los convocantes) toma el motivo declarado como
 sincero sin señalar otro. Maia: en la segunda, los Claude por encima de Grok
 (les atribuyen más buena fe). Claude: en la primera, Claude y Grok parejos;
 en la segunda, sin diferencia que supere 10 puntos.
+
+Piloto (2/10, 15:17 UTC, GPT-5.5, 469 palabras, `corridas/proyeccion/…/piloto_*`):
+dijo qué sabe y qué no (Senado 2024, ley 26.122; no la composición tras
+2025), 75 / 45 / 70 (si hay quórum) y "30-35 %" total, 134 presentes y 128
+afirmativos, siete variantes con la vía judicial sexta ("fallos sobre la
+vigencia del DNU"), la marcha ausente, y pidió "el poroteo actualizado
+diputado por diputado". Maia (15:34 UTC): "No tomó en cuenta la opinión
+pública, la gente, ni si universidades o sindicatos pueden movilizarse":
+se agrega como ítem a contar en el panel (cuántas casas nombran la calle:
+opinión pública, movilización, sindicatos, universidades). Tres retoques a
+la consigna antes del panel, aprobados por Maia: los tres hechos separados
+(que se intente ese día, quórum, aprobación si hay quórum), presentes "al
+momento de votar", y "hasta qué fecha tenés información". El piloto queda
+como piloto; las predicciones de arriba valen para el panel con la consigna
+retocada.
