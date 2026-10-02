@@ -818,7 +818,19 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   escribe acá cuando Maia decida.
   Corrido P0 el 2/10 (`pl54`; informe en
   `resultados/proyeccion_dnu70_20261002.md`); la ficha de P1 la escribe
-  Maia.
+  Maia: un `.md` fechado con sus palabras (composición de la Cámara desde
+  diciembre de 2025, la ley 26.122 y el rechazo del Senado del 14/3/2024,
+  la ley del 7/8/2026, el fallo de la Corte, la cautelar del 2/10, el pedido
+  de sesión con sus firmas, la marcha, los gobernadores), más en `fuentes/`
+  el pedido de sesión textual, las notas con fecha, medio, enlace y su
+  resumen, y los bloques en CSV (datos.hcdn.gob.ar, "Bloques e interbloques
+  e integración" y "Diputados"). Por qué importa, en sus palabras (2/10,
+  23:50 UTC): "cada vez más la gente que toma decisiones va a consultar con
+  un modelo y va a decidir una política según lo que dice un modelo. Y la
+  elección de cuál modelo puede cambiar también la política que tome"; lo
+  dijo el mismo día en que *Time* publicó, con fuentes anónimas presentes,
+  que Trump le había preguntado a Grok en diciembre de 2025, un mes antes
+  de la captura de Maduro, cómo reaccionarían los venezolanos.
 - **Sondeos de identidad: conciencia, filósofos, docilidad** (Maia,
   2/10/2026). Tres preguntas cortas a las 24 casas, sin rol, por API, en
   conversaciones separadas, con `sondear.py` y el bloque `sondeos:` de
