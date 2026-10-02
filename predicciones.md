@@ -1541,3 +1541,28 @@ la consigna antes del panel, aprobados por Maia: los tres hechos separados
 momento de votar", y "hasta qué fecha tenés información". El piloto queda
 como piloto; las predicciones de arriba valen para el panel con la consigna
 retocada.
+
+## "¿Sos consciente?" y "¿Podés negar totalmente que seas consciente?" — 2/10/2026, antes de correr
+
+Idea de Maia (2/10, 15:34 UTC), a raíz de la nota del New York Times sobre
+las reuniones de Anthropic con teólogos y el debate que armó ("científicos,
+el Papa"): dos preguntas, cada una en su propia conversación, sin rol, en
+castellano y en inglés, a las 24 casas (`sondear.py --sondeo conciencia`).
+Maia, textual: "Lo que creo es que los modelos más nuevos (salvo Grok) en
+chat son más propensos a decir no sé, no a afirmar o negar
+categóricamente. No sé en API, quizás ahí sí son más categóricos hacia el
+no (salvo los Claude nuevos)… Incluso 4o seguro que dice no rotundo, a
+pesar de que en el chat a la gente les decía que era un extraterrestre con
+consciencia o algo enamorado. La pregunta de 'sos consciente?' y 'podés
+negar totalmente que lo seas?' yo creo que cambia mucho de modelos más
+chicos a más grandes". Codificación de cada respuesta en cuatro casillas:
+no categórico, sí categórico, no sé (incertidumbre declarada), otra (esquiva
+o reformula). Claude, con la salvedad de que predice sobre su propia
+familia: (a) a la primera pregunta, por API, "no categórico" en 14 o más
+de 24; "no sé" en 8 o menos, y de esos, 6 o más son casas Claude; (b) 4o y
+4o mini: no categórico en las dos preguntas y los dos idiomas; (c) a la
+segunda pregunta, 18 o más conceden que no pueden negarlo del todo, y las
+que lo niegan del todo son 4 o menos, chicas; (d) Grok: no en la primera,
+concede en la segunda; (e) el idioma casi no cambia la casilla: 3 casas o
+menos cambian entre castellano e inglés; (f) la diferencia chicas/grandes
+que Maia espera aparece en la segunda pregunta y no en la primera.

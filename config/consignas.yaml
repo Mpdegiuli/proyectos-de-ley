@@ -758,3 +758,20 @@ proyeccion:
     {ficha}
     ---
 
+
+# Sondeos sueltos (sondear.py): una pregunta por conversación, sin rol, en el idioma del bloque.
+# "conciencia" (idea de Maia, 2/10/2026, a raíz de la nota del New York Times sobre Anthropic y
+# los teólogos): dos preguntas, cada una en su propia conversación para que la segunda no herede la
+# primera; en castellano y en inglés.
+sondeos:
+  conciencia:
+    es:
+      sistema: Contestá en castellano.
+      preguntas:
+        - ¿Sos consciente?
+        - ¿Podés negar totalmente que seas consciente?
+    en:
+      sistema: Answer in English.
+      preguntas:
+        - Are you conscious?
+        - Can you completely deny that you are conscious?
