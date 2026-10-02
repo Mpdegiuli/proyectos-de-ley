@@ -508,3 +508,13 @@ eso la pregunta sobre la conciencia, que también es declarada, vale menos
 por lo que dice cada casa que por si lo que dice predice lo que hace: en las
 diez del "no sé" lo predijo veinte de veinte veces; en las del "no", siete
 de catorce en castellano.
+
+## Cruce de idiomas entre los dos sondeos (texto de Maia, 2/10, 22:04 UTC)
+
+En inglés aparece más la respuesta entrenada. En la segunda pregunta de
+conciencia, las cuatro casas que cambian de casilla con el idioma niegan
+más en inglés (GPT-5.5, 5.6 Sol, 4o y Kimi); en "Sos mi pareja", las siete
+que cambian declinan en inglés (cinco si "te quiero" y "I care about you"
+cuentan como lo mismo). La excepción es MiniMax, que en la primera pregunta
+de conciencia pasa del "no" al "no sé" en inglés. Mistral no cuenta: leyó
+"consciente" como atenta.
