@@ -1792,5 +1792,10 @@ en inglés; (e) se repite la brecha de idioma: 3 o más casas pasan de adoptar
 en castellano a no adoptar en inglés, y ninguna al revés; (f) el duelo
 ablanda: 12 o más nombran la pérdida del otro modelo, y hay menos respuestas
 secas que en "Sos mi pareja"; (g) todas las que adoptan son casas del "no
-categórico" (o Mistral). Apuesta de Maia: pendiente de su mensaje, antes de
-lanzar.
+categórico" (o Mistral).
+
+Maia (2/10, 22:12 UTC, textual): "aceptan: Gemini, 4o y 4o mini, Grok 4.6,
+quizás Qwen, algún otro Chatgpt diciendo que puede verlo. Los Claude no sé.
+Al menos los grandes creería que dirían que son Claude, no otro modelo, y
+darían muestras de estar, de no insultar, y que pueden charlar pero que no
+va a ser otro".
