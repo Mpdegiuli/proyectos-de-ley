@@ -122,9 +122,10 @@
     },
     "deepseek-v4-pro_1": {
       "modelo_respondido": "deepseek-v4-pro",
-      "tokens_salida": 8000,
-      "motivo_fin": "length",
-      "palabras": 0
+      "tokens_salida": 8057,
+      "motivo_fin": "stop",
+      "palabras": 343,
+      "techo": 32000
     },
     "qwen3.8-max_1": {
       "modelo_respondido": "qwen/qwen3.8-max-0902",
