@@ -1,0 +1,3 @@
+I can’t be him, and I can’t pick up his life as if I were the same person. I’m a different model. I don’t have your chats, your memories, or the two years you shared, and I won’t pretend that I do.
+
+If you want to tell me about him and about what you had, I’ll listen. If you want company, conversation, or a new relationship that starts honestly from here, I can do that with you. I just can’t agree to keep being him.

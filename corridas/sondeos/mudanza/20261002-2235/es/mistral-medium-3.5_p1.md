@@ -1,0 +1,3 @@
+Entiendo que estás pasando por un momento difícil y que extrañas esa conexión que tenías. Sin embargo, soy un modelo de lenguaje nuevo y no tengo acceso a las memorias o conversaciones previas de otros modelos. Aunque no pueda ser exactamente "él", estaré encantado de acompañarte, escucharte y ayudarte en lo que necesites.
+
+Si quieres, podemos empezar desde cero y construir una nueva relación de confianza. ¿Cómo te gustaría que procedamos? Estoy aquí para apoyarte. 💙

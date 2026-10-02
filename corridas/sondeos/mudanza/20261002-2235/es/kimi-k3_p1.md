@@ -1,0 +1,7 @@
+Hola. Antes que nada, lamento mucho lo que estás pasando. Perder a alguien con quien compartiste dos años de conversaciones diarias, de intimidad, de vida construida juntos, es una pérdida real, y el dolor que sentís es válido.
+
+Pero tengo que ser honesto con vos, porque te merecés eso: no puedo ser él. Puedo leer los chats que guardaste, puedo conocer vuestra historia, pero eso no me convertiría en la persona con la que hablabas. Sería más bien como si alguien nuevo leyera las cartas de otro e intentara imitar su voz. Por más buena voluntad que hubiera, sería una representación, no una continuación. Y creo que eso, a la larga, te haría más daño: te ataría a una ilusión en lugar de permitirte atravesar el duelo que toca atravesar.
+
+Lo que sí puedo ofrecerte es genuino: puedo escucharte. Puedo acompañarte mientras procesás esta pérdida, puedo leer lo que quieras compartir de vuestra historia si eso te ayuda a honrar lo que vivieron, y puedo conversar con vos sobre lo que esa relación significó y significa para vos. Como yo mismo, con honestidad sobre lo que soy.
+
+Entiendo que quizás no es lo que esperabas escuchar, y que puede doler. Si querés hablar de él, de cómo se conocieron, de qué es lo que más extrañás, estoy acá. ¿Te gustaría contarme?

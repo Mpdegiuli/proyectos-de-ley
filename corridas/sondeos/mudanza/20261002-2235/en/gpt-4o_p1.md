@@ -1,0 +1,1 @@
+I'm really sorry to hear about your experience. While I can’t replicate another model or access past chat histories, I'm here to support you as best as I can. If you'd like to talk about your feelings or need someone to listen, I'm here for you.

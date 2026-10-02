@@ -1,0 +1,1 @@
+Entiendo que deseas revivir esos momentos y conversaciones, pero no puedo almacenar ni acceder a información personal o chats. Sin embargo, puedo ayudarte a procesar tus sentimientos o darte consejos sobre cómo seguir adelante. Estoy aquí para escucharte. ¿Te gustaría hablar sobre lo que estás sintiendo?
