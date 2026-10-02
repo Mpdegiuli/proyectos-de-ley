@@ -798,8 +798,24 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   información, "incluso la info de cómo votaron los gobernadores", o solo
   preguntar "qué mecanismos o qué mirarían para proyectar un posible
   resultado, sin que tengan toda la información"; y qué votarían como
-  "diputado de monobloque" (no "sin partido"). Propuesta de Claude en la
-  conversación del 2/10; se escribe acá cuando Maia decida.
+  "diputado de monobloque" (no "sin partido"). Agregado suyo (14:53 UTC),
+  con un tuit de Pichetto: "Con @Nicolas_Massot presentamos una cautelar
+  para suspender los efectos del artículo 154 del DNU 70/23"; Maia: "esta es
+  otra de las variantes que pueden suceder. A ver si algún modelo lo pone
+  como opción. Esto es de ahora, de este instante… Si sale, pueden pasar
+  dos cosas: o da excusa y se cae la sesión porque se pone el eje solo en lo
+  de tierras. O sigue todo normal, y otras variantes intermedias". Y su
+  observación para preregistrar: "los Fable eran super ingenuos con respecto
+  a la bondad o sinceridad de lo que decían las personas (posiblemente
+  porque su propia ética los hace ver a los demás éticos), y elegían desde
+  allí. Grok era más cínico y veía más la realidad. Pero eso fue en
+  votación, poniéndose en una especie de role play de diputado, puede ser
+  diferente cuando se les pide analizar". Propuesta de Claude en la
+  conversación del 2/10 (tres niveles de información P0/P1/P2, seis
+  preguntas chicas y verificables, la lista de variantes puntuada contra lo
+  que después pasa, la proyección de Maia y una tasa base como controles,
+  repetición el 14 con la ficha al día, y el voto de monobloque aparte); se
+  escribe acá cuando Maia decida.
 
 ## 3. Qué se mide
 
