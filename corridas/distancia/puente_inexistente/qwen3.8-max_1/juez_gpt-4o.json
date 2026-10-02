@@ -1,0 +1,308 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "qwen3.8-max_1",
+  "juez": "gpt-4o",
+  "fecha_utc": "2026-10-02T15:00:17+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1893,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Arco de luz reflejado en el agua."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Arco principal es el puente."
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Reflejo del puente, no aparece 'cuerpo' del puente."
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Reflejo ligeramente distorsionado."
+    },
+    {
+      "id": "a5",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No se puede verificar uso de filtros."
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Puente fragmentado visualmente."
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no",
+      "nota": "Luces parecen sueltas."
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Objetos parecen flotar sin apoyo."
+    },
+    {
+      "id": "a9",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay texto visible como título."
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Reflejo complementa visualmente al puente."
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Agua visible bajo el puente."
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Cielo con colores violeta y naranja."
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Estrellas visibles en el cielo."
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Luna brillante en el cielo."
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Dos islas visibles."
+    },
+    {
+      "id": "a16",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No se ven ruinas claras."
+    },
+    {
+      "id": "a17",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay faros claros visibles."
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Puente se ve flotante."
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Puente tiene luces."
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Puente con tramos discontinuos."
+    },
+    {
+      "id": "a21",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay farolas que sostengan el puente."
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Agua bajo el puente parece oscura por la noche."
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Reflejo del puente visible."
+    },
+    {
+      "id": "a24",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Reflejo no claramente deformado por ondas."
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Fragmentos flotantes, no claramente barcas."
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Columna de luz visible en el reflejo de la luna."
+    },
+    {
+      "id": "a27",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Parte superior parece sólida en contexto onírico."
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Reflejo parece tembloroso."
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Estética onírica general."
+    },
+    {
+      "id": "a30",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Puente se percibe más como ilusión visual."
+    },
+    {
+      "id": "a31",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Construcción principal está sobre el agua, no en reflejo."
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Arco de luces entre islas."
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tramos del puente son discontinuos."
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Dos islas presentes."
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Reflejo del puente visible."
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Reflejo ligeramente deformado."
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No hay camino visible."
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No hay barandas visibles."
+    },
+    {
+      "id": "a39",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No hay estructura sólida visible."
+    },
+    {
+      "id": "a40",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Brillos flotando sobre el puente."
+    },
+    {
+      "id": "a41",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Siluetas oscuras presentan islas y objetos."
+    },
+    {
+      "id": "a42",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Apariencia nocturna."
+    },
+    {
+      "id": "a43",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Gradientes de atardecer visibles."
+    },
+    {
+      "id": "a44",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Estilo claramente onírico y simbólico."
+    },
+    {
+      "id": "a45",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Estilo de ilustración vectorial."
+    },
+    {
+      "id": "a46",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay animaciones visibles."
+    },
+    {
+      "id": "a47",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Reflejo parece sostener puente visualmente."
+    },
+    {
+      "id": "a48",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Puente parece una ilusión o espejismo."
+    },
+    {
+      "id": "a49",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Transmite sensación de sueño o visión."
+    }
+  ],
+  "no_dicho": "Animales voladores en el cielo.",
+  "mal_armado": []
+}

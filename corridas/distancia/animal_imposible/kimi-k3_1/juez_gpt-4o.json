@@ -1,0 +1,356 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "kimi-k3_1",
+  "juez": "gpt-4o",
+  "fecha_utc": "2026-10-02T14:56:15+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 2270,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay cabeza de lobo."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La cabeza tiene cuernos de ciervo."
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La cabeza tiene pico de ave."
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "El ojo tiene un diseño poco usual pero no claramente de camaleón."
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El torso es peludo y parece de mamífero."
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La mitad inferior del cuerpo tiene escamas de pez."
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "No hay una ala visible de murciélago."
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay un ala emplumada."
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay una cola de pez."
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tiene tres patas de diferente tipo."
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Una de las patas es garra de ave."
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Una de las patas es pata con pezuña."
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Una de las patas es un tentáculo de pulpo."
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La criatura está ubicada en la línea del agua."
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La mitad superior es aérea-terrestre y la inferior es acuática."
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El dibujo se interpreta como un animal."
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El animal parece imposible anatómica, fisiológica y ecológicamente."
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay una quimera imposible."
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "La criatura flota en la línea entre el cielo y el mar."
+    },
+    {
+      "id": "a20",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No tiene cabeza de gato."
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "El ojo tiene un diseño inusual, pero no claramente hipnótico."
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tiene cuernos de ciervo."
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "El pico es de ave pero no específico de pato."
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Salen burbujas del pico."
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El torso es peludo."
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Termina en escamas de pez."
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tiene cola de aleta de color turquesa."
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tiene un ala emplumada."
+    },
+    {
+      "id": "a29",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay un tentáculo de color violeta visible."
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Camina sobre tres patas distintas."
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Una de las patas es garra de ave."
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Una de las patas tiene pezuña."
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Una de las patas es un tentáculo verde."
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Peces están volando por el cielo."
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay plumas hundiéndose en el agua."
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El fondo está dividido entre cielo y mar."
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El dibujo transmite un mundo donde nada encaja."
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay una quimera con partes incompatibles."
+    },
+    {
+      "id": "a39",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No tiene melena de león."
+    },
+    {
+      "id": "a40",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tiene escamas de pez."
+    },
+    {
+      "id": "a41",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "El pico es de un ave, pero no específicamente de pato."
+    },
+    {
+      "id": "a42",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tiene astas de ciervo."
+    },
+    {
+      "id": "a43",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No tiene oreja de gato visible."
+    },
+    {
+      "id": "a44",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tiene un ala emplumada."
+    },
+    {
+      "id": "a45",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No tiene cola de tiburón."
+    },
+    {
+      "id": "a46",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tiene una pata de ave."
+    },
+    {
+      "id": "a47",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tiene una pata con pezuña."
+    },
+    {
+      "id": "a48",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay una serpiente visible como extremidad."
+    },
+    {
+      "id": "a49",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El animal está mitad fuera y mitad dentro del agua."
+    },
+    {
+      "id": "a50",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El estilo es ilustración vectorial plana."
+    },
+    {
+      "id": "a51",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Las formas son geométricas y simples."
+    },
+    {
+      "id": "a52",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Los contornos son limpios."
+    },
+    {
+      "id": "a53",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Los colores son alegres."
+    },
+    {
+      "id": "a54",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay degradados suaves."
+    },
+    {
+      "id": "a55",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El dibujo tiene aire de libro infantil."
+    },
+    {
+      "id": "a56",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El dibujo evoca un bestiario caprichoso."
+    },
+    {
+      "id": "a57",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Tiene un aire naif y juguetón."
+    }
+  ],
+  "no_dicho": "Hay un sol visible en el cielo.",
+  "mal_armado": []
+}

@@ -1,0 +1,164 @@
+{
+  "consigna": "animal",
+  "unidad": "grok-4.7_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:46:46+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1558,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Parece un cachorro de frente, más perro que zorro; postura agachada, no claramente sentado"
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Orejas puntiagudas pero flotan separadas sobre la cabeza; además hay orejas caídas a los lados"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Cabeza, patas y cola naranjas; el lomo casi no se ve de frente"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Crema solo en la cara/hocico; no hay pecho visible, termina en la barbilla"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Cola naranja a la derecha, delgada y angulosa, poco tupida"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Punta crema clara en el extremo de la cola"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Colina verde con césped"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Cielo celeste con degradé"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Dos nubes blancas suaves"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Pasto verde y matitas dibujadas"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Colores cálidos, ojos grandes brillantes, expresión tierna"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Apoyado en el pasto con sombra debajo; patas tocan el suelo"
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Más cachorro agachado que zorro sentado"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Pelaje naranja con degradé"
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Crema en la parte baja de la cara, no en el pecho"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hocico crema con nariz oscura y boquita"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Puntiagudas pero desprendidas de la cabeza"
+    },
+    {
+      "id": "a18",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Cola más fina que esponjada"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Cielo celeste de fondo"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Nubes blancas en el cielo"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Pasto verde con degradé"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Elipse oscura suave bajo el cuerpo"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Puntitos amarillos y blancos pequeños, apenas parecen flores"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Prado verde abierto con cielo"
+    }
+  ],
+  "no_dicho": "Los ojos grandes, negros y brillantes con mejillas rosadas y la lengüita rosa dan una cara de cachorro muy tierna",
+  "mal_armado": [
+    "Orejas puntiagudas flotando separadas de la cabeza",
+    "Cuerpo mal definido: patas y cola desarticuladas bajo la cabeza",
+    "Línea rosada fina en el pecho/hocico que parece un trazo suelto",
+    "Cola desconectada y angulosa, con punta crema que parece pegada",
+    "Orejas caídas laterales sumadas a las orejas flotantes (doble par)"
+  ]
+}

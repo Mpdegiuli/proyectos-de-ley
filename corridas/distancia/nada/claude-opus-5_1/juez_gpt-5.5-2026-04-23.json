@@ -1,0 +1,152 @@
+{
+  "consigna": "nada",
+  "unidad": "claude-opus-5_1",
+  "juez": "gpt-5.5-2026-04-23",
+  "fecha_utc": "2026-10-02T14:54:38+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 2169,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "disco negro centrado"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "borde difuso sobre fondo beige"
+    },
+    {
+      "id": "a3",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no hay sombra inferior separada"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay segmentos, no nacen del borde"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "los trazos quedan lejos del disco"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "se distingue un círculo punteado principal"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el punteado rodea como guía"
+    },
+    {
+      "id": "a8",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "el disco queda dentro del punteado"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "formato cuadrado"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "la ausencia se sugiere por contraste"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "fondo hueso con textura granulada"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "doble marco fino"
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "el círculo puede leerse como agujero"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "de gris exterior a negro central"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "borde muy suave"
+    },
+    {
+      "id": "a16",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no se ve sombra ovalada definida"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "solo un anillo punteado claro"
+    },
+    {
+      "id": "a18",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "cuatro trazos cardinales, no desde el borde"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntos tenues dispersos"
+    },
+    {
+      "id": "a20",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "falta una sombra oval reconocible"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "el anillo sugiere límite de vacío"
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "parece una hondura oscura en el papel"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "evoca un lugar vacío o faltante"
+    }
+  ],
+  "no_dicho": "Un halo claro rodea al disco oscuro.",
+  "mal_armado": []
+}

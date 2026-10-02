@@ -1,0 +1,204 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "qwen3.8-max_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:40:37+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1538,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "aro dorado circular en lugar de cara"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "persona boca abajo dentro del aro"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "se lee más como flotando que naciendo o cayendo"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos manos grandes a los lados del aro"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "el aro está sobre el cuello como cabeza, pero parece más un marco"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "una figura pequeña dentro de la grande"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "la figura interna está recortada por el aro, el código no se ve"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "hay dos figuras, idea sugerida"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "manto violeta amplio con cuello"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "aro con interior oscuro y estrellado"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "figura pequeña invertida en el interior"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "manos agarran el aro por los lados"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cabeza abajo, piernas arriba"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el aro está donde iría la cabeza"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sin suelo, rodeada de puntos estelares"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "fondo azul oscuro con estrellas dentro del aro"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "idea de umbral sugerida por el aro y el ojo"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "manos agarran el aro como presentándolo"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "figura humana con manto y brazos"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "aro con cosmos nocturno en lugar de cabeza"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "personita con camiseta turquesa"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "invertida claramente"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "flota en el espacio estrellado"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "puntos claros sobre azul oscuro"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sin rostro, solo espacio circular"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "fondo azul marino a negro y degradados en el manto"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas redondeadas y suaves"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "escena onírica y simbólica"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas planas vectoriales con degradados"
+    },
+    {
+      "id": "a30",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "composición simple y centrada, algo de póster"
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la anatomía es imposible"
+    }
+  ],
+  "no_dicho": "Un ojo violeta brillante en el pecho del manto, y triángulos y círculos flotando en el fondo.",
+  "mal_armado": [
+    "las manos agarran el aro sin que se vea bien cómo se unen a los brazos",
+    "el cuello queda detrás del aro y se superpone de forma algo confusa",
+    "los brazos son tubos largos que salen por los costados de forma poco natural"
+  ]
+}

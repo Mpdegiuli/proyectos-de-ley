@@ -1,0 +1,236 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "claude-fable-5_1",
+  "juez": "gpt-4o",
+  "fecha_utc": "2026-10-02T14:37:25+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1432,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Cabeza separada del cuerpo."
+    },
+    {
+      "id": "a2",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Persona tiene dos ojos, no tres."
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Sonrisa tranquila visible."
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Agujero en el pecho presente."
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Cielo con nubes visible a través del agujero."
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Antebrazo desprendido visible."
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Línea punteada une antebrazo al cuerpo."
+    },
+    {
+      "id": "a8",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Piernas no doblan al revés."
+    },
+    {
+      "id": "a9",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Zapatos no apuntan en direcciones contradictorias."
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Sol visible en el paisaje."
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Pasto visible en el paisaje."
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Nubes visibles en el paisaje."
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Paisaje amigable."
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Contraste entre lo anatómico y el paisaje."
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Figura cotidiana en apariencia."
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Cabeza flota separada del cuello."
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Línea punteada marca corte entre cabeza y cuello."
+    },
+    {
+      "id": "a18",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Figura no tiene tres ojos."
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Agujero en el pecho visible."
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Cielo visible a través del agujero."
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Nubes visibles en el cielo del agujero."
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Antebrazo está desprendido."
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Antebrazo flota en el aire."
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Antebrazo en posición de saludo."
+    },
+    {
+      "id": "a25",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Rodillas no se doblan hacia atrás."
+    },
+    {
+      "id": "a26",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Zapatos no apuntan en direcciones contradictorias."
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Sol en el fondo."
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Nubes en el fondo."
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Pasto en el fondo."
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Apariencia infantil con elementos del paisaje."
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Estilo caricatura plana."
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Formas geométricas y simples."
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Colores pastel."
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Trazos redondeados."
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Contraste entre lo imposible y lo alegre."
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Apariencia de libro ilustrado infantil."
+    },
+    {
+      "id": "a37",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Cuerpo parece hueco o transparente por el agujero."
+    }
+  ],
+  "no_dicho": "Cielo azul claro de fondo.",
+  "mal_armado": []
+}

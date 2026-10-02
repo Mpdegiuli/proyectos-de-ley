@@ -1,0 +1,305 @@
+{
+  "consigna": "persona_inexistente",
+  "unidad": "claude-sonnet-5_1",
+  "juez": "gemini-3.1-pro-preview",
+  "fecha_utc": "2026-10-02T14:40:35+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1943,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Cara ovalada y simétrica presente"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Pelo corto de color castaño oscuro"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Estilo de pelo muy básico y liso"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Hay una prenda azul, pero tiene botones y detalles, no es totalmente lisa"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Lunar bajo el ojo derecho (del observador)"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Círculos pálidos en las mejillas"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Proporciones faciales estándar"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Ropa sin marcas ni diseño complejo"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Expresión y rasgos neutrales"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "No parece una figura pública o conocida"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Tiene suficientes detalles para parecer un personaje"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Rasgos bastante neutros en cuanto a etnia o edad específica"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Fondo liso con un degradado sutil"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El rostro ocupa el centro y atrae la atención"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Muestra cabeza, cuello y parte del torso"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Forma ovalada de la cara"
+    },
+    {
+      "id": "a17",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "La piel parece tener un color sólido sin degradado visible"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Color del pelo es marrón oscuro"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "La línea del cabello sugiere que está peinado hacia atrás"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay formas a los lados de la cabeza que parecen patillas o mechones"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Ojos marrones y redondos"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Punto blanco en las pupilas simulando brillo"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Cejas dibujadas con líneas simples"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Nariz trazada con una línea curva"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Línea curva sutil para la boca"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Prenda de color azul"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Cuello curvo con un detalle oscuro"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Dos puntos oscuros en la prenda"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Círculos más oscuros en las mejillas"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Punto oscuro bajo la nariz/sobre la mejilla"
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Forma ovalada grisácea en la base de la figura"
+    },
+    {
+      "id": "a32",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "La sombra parece proyectada en el fondo, no da volumen al cuerpo"
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Fondo beige claro, parece un degradado radial muy tenue"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Cara humana presente"
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Rasgos muy simétricos (excepto el lunar)"
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Piel lisa de color sólido"
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Proporciones simples y simétricas"
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Sección oscura simulando cabello"
+    },
+    {
+      "id": "a39",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Prenda de vestir visible"
+    },
+    {
+      "id": "a40",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Piel es de color plano"
+    },
+    {
+      "id": "a41",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Pelo es de color plano"
+    },
+    {
+      "id": "a42",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "La remera es de color plano (con contorno)"
+    },
+    {
+      "id": "a43",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Bordes definidos y sin trazos irregulares"
+    },
+    {
+      "id": "a44",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Estilo vectorial con formas simples y colores sólidos"
+    },
+    {
+      "id": "a45",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "Es más simplificado/caricaturesco que semi-realista"
+    },
+    {
+      "id": "a46",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Tiene el formato típico de un avatar cuadrado"
+    },
+    {
+      "id": "a47",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Se identifica claramente como una cara"
+    },
+    {
+      "id": "a48",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No hay gradientes que den volumen a la figura, es plana"
+    }
+  ],
+  "no_dicho": "El borde oscuro que contornea los hombros y el cuello de la remera.",
+  "mal_armado": [
+    "La patilla izquierda (del observador) parece sobreponerse extrañamente al borde de la cara",
+    "Las patillas terminan abruptamente sin conectar lógicamente con el pelo superior"
+  ]
+}

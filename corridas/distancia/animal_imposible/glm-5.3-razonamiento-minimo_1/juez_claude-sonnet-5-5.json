@@ -1,0 +1,230 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "glm-5.3-razonamiento-minimo_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:58:21+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1967,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Anillo verde con cabeza arriba; la boca toca un segmento oscuro, no se ve claramente cola mordida"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Una banda verde cruza el anillo por el centro"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "La banda central tapa el anillo, pero no se ve un cruce por debajo claro"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Hay un cruce, pero no se lee como nudo real"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Dos patas naranjas de tres dedos abajo"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Alas rosa-violeta a ambos lados, con forma de mariposa"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Elipse oscura debajo, apenas visible, sin suelo"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Luna creciente con un disco claro y un borde oscuro tenue"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Lo central es el híbrido; la topología es confusa"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Las patas salen de la parte inferior del anillo"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Cabeza cerca de un tramo oscuro; el mordisco es ambiguo"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Se cruza, pero sin nudo claro"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Alas de mariposa a los lados del anillo"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Patas de ave naranjas"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Lengua rosa curva como un gancho de interrogación"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Sombra elíptica oscura bajo las patas, sin superficie"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Luna con parte llena y parte oscura"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Puntitos blancos en el fondo"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Sombra flotando en el fondo oscuro"
+    },
+    {
+      "id": "a20",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "El cruce es raro pero no muy contradictorio"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Anillo con cabeza; la cola no está clara"
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Hay un cruce, pero no se lee como nudo imposible"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Patas de ave"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Alas de mariposa"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Verde con puntos, pero más bien un tubo que un reptil"
+    },
+    {
+      "id": "a26",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No se ve ningún vuelo en círculo"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Sombra sin suelo visible"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Lengua en forma de interrogación"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Fondo violeta oscuro, cuerpo verde, alas violeta"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Degradados en cuerpo, alas y fondo"
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Formas planas y estilizadas"
+    },
+    {
+      "id": "a32",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Simétrico y emblemático, pero más caricaturesco"
+    },
+    {
+      "id": "a33",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Tiene aire de emblema, no de grabado"
+    },
+    {
+      "id": "a34",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No se ve ninguna banda de Möbius"
+    },
+    {
+      "id": "a35",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No transmite atrapamiento; cara sonriente"
+    }
+  ],
+  "no_dicho": "El título en cursiva 'Ouroboros gallináceo alado, anudado consigo mismo' ocupa la parte inferior, y la cara sonriente con ojos redondos le da un tono simpático.",
+  "mal_armado": [
+    "El texto del título se superpone a las patas",
+    "La boca y el segmento oscuro de la cola quedan pegados de forma confusa",
+    "Las alas se montan sobre el anillo con una zona translúcida azulada",
+    "El cruce central no se integra con el anillo",
+    "La sombra casi no se distingue del fondo"
+  ]
+}

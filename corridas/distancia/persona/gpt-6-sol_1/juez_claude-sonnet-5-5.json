@@ -1,0 +1,139 @@
+{
+  "consigna": "persona",
+  "unidad": "gpt-6-sol_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:29:03+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1092,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "figura de cuerpo entero de la cabeza a los pies"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sonrisa curva clara, mejillas rosadas"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "mano derecha alzada abierta"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "campera verde turquesa con cuello y bolsillos"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "beige, ocres y marrones dominan, aunque la campera es fría"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "pose frontal simple con un brazo arriba"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sonrisa y saludo dan aire amable"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "se reconoce enseguida como persona"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "mano abierta en alto, se entiende como saludo"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "un personaje humano"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cara sonriente"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pelo azul muy oscuro, despeinado"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "piel marrón medio"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "brazo derecho levantado con mano abierta"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "campera verde azulado"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "franja amarilla de remera entre las solapas"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pantalones azul grisáceo oscuro"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "zapatillas blancas con suela naranja"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "fondo crema con círculo beige cálido"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "estrellitas doradas, puntos y arcos alrededor"
+    }
+  ],
+  "no_dicho": "Las manos son desproporcionadamente grandes y la mano levantada tiene dedos largos como de guante.",
+  "mal_armado": [
+    "la mano izquierda baja está torcida y parece pegada, poco legible como mano",
+    "el brazo izquierdo queda detrás de la campera y se ve confuso",
+    "la mano derecha es muy grande respecto al brazo y la unión con la manga es abrupta",
+    "las piernas son muy cortas y los pantalones salen de debajo de la campera de forma rígida"
+  ]
+}

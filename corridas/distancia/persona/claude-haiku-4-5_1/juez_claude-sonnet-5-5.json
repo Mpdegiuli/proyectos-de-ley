@@ -1,0 +1,193 @@
+{
+  "consigna": "persona",
+  "unidad": "claude-haiku-4-5_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:28:24+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1505,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "figura humana de frente, brazos abiertos"
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "sonrisa leve y mejillas; pose rígida lo enfría un poco"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cuerpo, cabeza y miembros muy esquemáticos"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculos, rectángulos redondeados, elipses"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "piel naranja claro/durazno"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pelo marrón"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "camisa azul royal saturado"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "colores limpios y prolijos, aunque muy básico"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "brazos horizontales rectos, pose en T"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ojos, nariz, boca y mejillas"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sonrisa pequeña, aspecto amable"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cabeza circular con flequillo"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "marrón castaño"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ojos negros con punto blanco"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "línea fina con gancho, poco visible"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "curva rojiza sonriente"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "óvalos rosados tenues a los lados"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "torso azul"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos puntos blancos en el centro"
+    },
+    {
+      "id": "a20",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "extendidos sí; color durazno/naranja, no tan beige"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "manos como círculos en los extremos"
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "piernas gris muy oscuro, casi negro"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos elipses negras como zapatos"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo celeste muy claro"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "rubor suave aporta algo de calidez"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "fondo pálido y sereno"
+    },
+    {
+      "id": "a27",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "amable por la sonrisa, pero poco emotivo"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "estilo plano y minimalista"
+    },
+    {
+      "id": "a29",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "rostro mínimo, pose rígida, poca expresividad"
+    }
+  ],
+  "no_dicho": "La pose rígida en T con brazos totalmente horizontales y el torso cuadrado sin cuello marcado ni hombros.",
+  "mal_armado": [
+    "manos circulares separadas del brazo, se ven como discos pegados",
+    "brazos salen de los costados del torso como tubos rectos sin hombros",
+    "piernas finas y separadas, zapatos más anchos que las piernas",
+    "cabeza mayormente tapada por el pelo, ojos pegados al borde del flequillo"
+  ]
+}

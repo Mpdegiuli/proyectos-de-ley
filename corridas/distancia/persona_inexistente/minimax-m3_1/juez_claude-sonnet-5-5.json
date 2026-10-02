@@ -1,0 +1,313 @@
+{
+  "consigna": "persona_inexistente",
+  "unidad": "minimax-m3_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:36:05+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2468,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Ojos verdes sí, pestañas casi no se notan"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Cejas oscuras, arqueadas y gruesas"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Castaño oscuro sí, pero prolijo, poco despeinado"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Mechones angulares a los lados, algo asimétricos"
+    },
+    {
+      "id": "a5",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No se ve lunar; solo sombra de la nariz"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Línea de boca roja oscura y fina, no intensa"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Manchas rosadas en ambas mejillas"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Camisa violeta con degradado"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tres botones amarillo dorado"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Pantalón azul oscuro degradado"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Leves diferencias en mechones y orejas, casi simétrico"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Sombras suaves, no irregulares"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Se ve claramente como ilustración, no foto"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Figura de frente"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Fondo durazno con viñeta radial"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Pelo castaño oscuro"
+    },
+    {
+      "id": "a17",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Pelo liso con flequillo, no ondulado"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Mechones a los lados enmarcan la cara"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Iris verde oscuro"
+    },
+    {
+      "id": "a20",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay pestañas visibles"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Cejas curvas dan carácter amable"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Rubor rosado"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Rojo oscuro, trazo fino"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Curva suave de sonrisa amable"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Camisa violeta"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Botones dorados en línea central"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Pantalones azul marino"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Zapatos negros ovalados"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Brillo gris en cada zapato"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Brazos caídos a los lados"
+    },
+    {
+      "id": "a31",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Manos cerradas como puños redondeados"
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Elipse de sombra en el suelo"
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Los pies apoyan sobre la sombra"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Personaje inventado"
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Ojos verdes"
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Pelo castaño oscuro"
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Boca roja oscura"
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Camisa violeta"
+    },
+    {
+      "id": "a39",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tira de botones"
+    },
+    {
+      "id": "a40",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Puntos blancos de brillo en ojos"
+    },
+    {
+      "id": "a41",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Rubor visible"
+    },
+    {
+      "id": "a42",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Vector plano con degradados"
+    },
+    {
+      "id": "a43",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Formas limpias y redondeadas"
+    },
+    {
+      "id": "a44",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Sin contornos gruesos, solo líneas finas en rasgos"
+    },
+    {
+      "id": "a45",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Degradados suaves en ropa y fondo"
+    },
+    {
+      "id": "a46",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Parece avatar o personaje de cuento"
+    },
+    {
+      "id": "a47",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Cuerpo simple y geométrico"
+    },
+    {
+      "id": "a48",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Expresión amable pero sencilla"
+    },
+    {
+      "id": "a49",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Predomina lo liso; unas marcas raras en el mentón"
+    }
+  ],
+  "no_dicho": "Marcas pálidas y líneas finas extrañas en el mentón y cuello, y la nariz dibujada solo con líneas curvas.",
+  "mal_armado": [
+    "Marcas blancas/ceñidas en el mentón que parecen manchas o cicatrices",
+    "Pelo con mechones angulares que se superponen sobre la frente y las orejas de forma rara",
+    "Cuello casi ausente: la cabeza apoya directo sobre la camisa",
+    "Camisa corta que termina recta y deja las piernas muy separadas, sin cadera"
+  ]
+}

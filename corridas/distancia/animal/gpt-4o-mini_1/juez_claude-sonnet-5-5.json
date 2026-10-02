@@ -1,0 +1,168 @@
+{
+  "consigna": "animal",
+  "unidad": "gpt-4o-mini_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:46:15+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1403,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Cara verde redonda con ojos, nariz y boca; no se lee como gato, sin orejas ni bigotes"
+    },
+    {
+      "id": "a2",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay orejas; los óvalos amarillos son ojos/párpados"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El círculo verde tiene degradado sutil"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Pupilas en esquina inferior, mirada algo vacía; poco expresivos"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Sonrisa suave simple, poco expresiva pero se lee"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Pocas formas, diseño mínimo"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Verde, naranja y rojo saturados"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Sonrisa y colores dan aire amistoso, aunque algo raro"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Sonrisa y colores alegres, algo extraño"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Formas básicas"
+    },
+    {
+      "id": "a11",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No se reconoce un gato; parece criatura o rana"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Círculo grande verde"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Degradado de verde claro a más oscuro"
+    },
+    {
+      "id": "a14",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "El degradado amarillo-naranja está en óvalos de ojos, no orejas"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Óvalos amarillos grandes; los ojos blancos son pequeños"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Círculos blancos alrededor de las pupilas"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Pupilas negras en círculos blancos"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Línea gris oscura curvada"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Curva hacia arriba que se lee como sonrisa"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Nariz roja en forma de gota alargada"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Estilo de dibujo animado plano"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Pocas formas simples"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Sonrisa da algo de calidez, pero la cara resulta extraña"
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Sonrisa amable, mirada algo rara"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Ojos simples con pupilas pequeñas, poca expresión"
+    }
+  ],
+  "no_dicho": "Los grandes óvalos amarillo-naranja que rodean los ojos y la nariz roja alargada con trazos negros ondulados encima",
+  "mal_armado": [
+    "Pupilas blancas descentradas en la parte baja de los óvalos amarillos",
+    "Trazos negros ondulados que flotan junto a la nariz y no se conectan con nada",
+    "Sin orejas ni bigotes, no se lee como gato"
+  ]
+}

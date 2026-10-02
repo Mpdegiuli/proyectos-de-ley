@@ -1,0 +1,138 @@
+{
+  "consigna": "animal",
+  "unidad": "claude-sonnet-5-5_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:44:41+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1071,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "gato naranja con rayas, sentado de frente"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo degradado durazno cálido"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculo crema pálido arriba a la derecha"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cabeza ovalada ancha, bastante redonda"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tres rayas marrones en la frente"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos rayas a cada lado de las mejillas"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "orejas triangulares puntiagudas"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "interior rosa claro en ambas orejas"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ojos grandes con iris verde"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pupilas negras verticales alargadas"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "punto blanco en cada ojo"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "mejillas/hocico crema en dos lóbulos"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "mancha crema en el pecho"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "nariz triangular rosada"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tres bigotes blancos por lado"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "patas crema ovaladas con deditos"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "solo dos rayas marrones cerca de la punta"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "punta blanca en la cola"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "la cola sale a la derecha y sube curvándose"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos colinas marrones, clara y oscura"
+    }
+  ],
+  "no_dicho": "Cejas o líneas marrones sobre los ojos y boca en forma de w con línea bajo la nariz",
+  "mal_armado": [
+    "la cola emerge de detrás del cuerpo con unión algo brusca",
+    "el cuerpo parece estrecho y corto bajo la cabeza grande",
+    "las patas quedan parcialmente sobre la colina oscura"
+  ]
+}

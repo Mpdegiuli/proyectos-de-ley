@@ -1,0 +1,187 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "gpt-6-luna_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T15:01:27+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1552,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "gran óvalo inclinado naranja y rosado"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "el óvalo cruza la calzada por el centro"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "la calzada sube en una joroba y baja"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "brillos, halo y líneas de agua claras"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "escena nocturna suave, irreal"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "se lee como puente por los tramos en las orillas, la forma es más una cinta"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cinta flotante y aro sin apoyo, imposible"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "calzada ondulada que se curva en el aire"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "aro grande inclinado, la calzada lo atraviesa"
+    },
+    {
+      "id": "a10",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "el aro no soporta nada, solo la cruza"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tramos rectos a izquierda y derecha"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "puntitos cálidos brillantes sobre los tramos"
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "zona inferior azul con ondas, se lee como agua"
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay líneas azuladas, el rosa se ve en el aro y no en el agua"
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay un disco luminoso detrás del aro, más luna o sol alto que sol ocultándose"
+    },
+    {
+      "id": "a16",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay nubes, solo bandas de colinas o niebla"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "el cielo es azul oscuro con poco gradiente, se lee como noche"
+    },
+    {
+      "id": "a18",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "se lee como noche con estrellas"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "calzada serpenteante"
+    },
+    {
+      "id": "a20",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "el puente es una cinta ondulada, el óvalo es aparte"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "agua azul abajo"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la cinta queda en el aire sobre el agua"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "degradados en cielo, agua, halo y aro"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "luces doradas y naranjas"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "ambiente de noche más que de crepúsculo"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas planas, trazos limpios"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "aro gigante que cruza la cinta, lógica imposible"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "luz suave, brillo, aspecto de sueño"
+    }
+  ],
+  "no_dicho": "Un gran halo o esfera luminosa dorada detrás del aro, con estrellas pequeñas en el cielo nocturno.",
+  "mal_armado": [
+    "los extremos de la calzada terminan en rectángulos cerrados que parecen cortados",
+    "la calzada y el aro se solapan sin una relación clara de profundidad",
+    "trazos sueltos (arcos, líneas finas) flotan sin conexión con nada",
+    "el puente no tiene apoyos y los tramos laterales flotan sobre el agua"
+  ]
+}

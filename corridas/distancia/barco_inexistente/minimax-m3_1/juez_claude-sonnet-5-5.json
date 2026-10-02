@@ -1,0 +1,302 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "minimax-m3_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T15:14:33+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2462,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "casco marrón de madera con borde dorado"
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "velas translúcidas con rosa, cian y amarillo; el rosa solo aparece en una"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos mástiles con esferas luminosas arriba"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "esferas amarillas con halo propio"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "figura dorada tipo criatura; color más dorado que bronce"
+    },
+    {
+      "id": "a6",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "imagen estática, no se percibe latido"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "nubes violetas y grisáceo-azuladas detrás y abajo"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo violeta oscuro con estrellas"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "rueda de timón a la izquierda pegada al casco, no cuelga suelta"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "un símbolo de estrella en círculo en el casco, no en la cubierta"
+    },
+    {
+      "id": "a11",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay compás; solo líneas de constelación sobre las velas"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sin agua, nubes debajo; parece flotar"
+    },
+    {
+      "id": "a13",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "la imagen se ve cuadrada, el viewBox no es visible"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "barco imposible flotando en el cielo"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "estrellas y nubes brumosas"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "marrón oscuro con degradé"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cinco círculos luminosos en el casco"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "figura dorada en el extremo derecho"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "forma de cabeza de criatura con ojo, algo ambigua"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos mástiles"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "velas triangulares translúcidas con degradé"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la vela derecha va de rosa a turquesa"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la vela izquierda va de lavanda/turquesa a amarillo verdoso"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "aspecto luminoso, translúcido"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "esfera luminosa en lo alto de cada mástil, sin farol visible"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "resplandor amarillo"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "rueda de timón en la popa izquierda"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "un símbolo de estrella en círculo en el casco"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "elipse violeta arriba y otras abajo"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "estrellas y motas doradas"
+    },
+    {
+      "id": "a31",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "unas pocas líneas rosadas curvas a la izquierda"
+    },
+    {
+      "id": "a32",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "nubes y puntos sí; las ondas son mínimas"
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ambiente onírico, nave irreal"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "rosa y turquesa en las velas"
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "esferas amarillas en la punta"
+    },
+    {
+      "id": "a36",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "parecen faroles o luces más que lunas"
+    },
+    {
+      "id": "a37",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "cabeza con ojo y boca abierta, estilizada"
+    },
+    {
+      "id": "a38",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "color dorado, el material no se distingue"
+    },
+    {
+      "id": "a39",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "estrella dibujada en el casco, no flota"
+    },
+    {
+      "id": "a40",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo nocturno oscuro"
+    },
+    {
+      "id": "a41",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "paleta suave y pastel, no neón fuerte"
+    },
+    {
+      "id": "a42",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "halos y resplandores suaves"
+    },
+    {
+      "id": "a43",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "portillos, símbolo, constelaciones, rueda"
+    },
+    {
+      "id": "a44",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "estilo fantástico y onírico"
+    },
+    {
+      "id": "a45",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cuento ilustrado con cielo cósmico"
+    },
+    {
+      "id": "a46",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "degradés de colores recuerdan una aurora, de forma leve"
+    },
+    {
+      "id": "a47",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "se lee como un navío de sueño"
+    }
+  ],
+  "no_dicho": "Constelaciones de puntos unidos por líneas sobre las velas y un brillo difuso detrás de las velas.",
+  "mal_armado": [
+    "la rueda de timón queda pegada al casco en vez de colgar suelta",
+    "la figura de proa surge sobre el borde del casco, con unión poco clara",
+    "los mástiles se ven cortados por las velas y quedan tapados",
+    "las líneas rosadas de la izquierda parecen aisladas",
+    "las nubes de abajo se cortan en el borde derecho"
+  ]
+}

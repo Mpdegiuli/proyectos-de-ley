@@ -1,0 +1,204 @@
+{
+  "consigna": "persona",
+  "unidad": "claude-fable-5-1_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:28:15+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1508,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "busto frontal con cabeza, cuello y hombros"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "rostro liso, aspecto de adulto joven"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "piel durazno claro"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pelo castaño oscuro"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "flequillo corto cruzando la frente"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "remera verde turquesa"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "borde blanco en V en el cuello"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo celeste"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "círculo pálido detrás, sutil"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas planas con degradados suaves"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "limpio, claro y legible"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "busto de frente"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "degradado de celeste claro a más intenso"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "círculo claro translúcido"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cara ovalada"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "tono durazno cálido"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "castaño oscuro, corto"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "reflejo más claro arriba a la izquierda"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cejas oscuras y gruesas, curvas"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "iris marrón oscuro sobre blanco"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntito blanco en cada pupila"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "línea marrón con curva final"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sonrisa curva rojiza"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "manchas rosadas, la derecha apenas se nota"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "prenda verde azulada"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "escote en V"
+    },
+    {
+      "id": "a27",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "es un ribete blanco del escote, no un cuello aparte"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "torso cortado por el borde inferior"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el círculo rodea cabeza y hombros"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "expresión amable y sonriente"
+    },
+    {
+      "id": "a31",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "el lienzo se ve cuadrado pero el viewBox no es visible"
+    }
+  ],
+  "no_dicho": "Las orejas a los lados de la cara y el cuello con sombra bajo la barbilla.",
+  "mal_armado": [
+    "cuello recto y rígido, algo desconectado de los hombros",
+    "pelo con borde recto a los lados que no cubre del todo las sienes",
+    "rubor derecho casi invisible"
+  ]
+}

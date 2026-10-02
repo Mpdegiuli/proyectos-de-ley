@@ -1,0 +1,277 @@
+{
+  "consigna": "animal_inexistente",
+  "unidad": "gemini-3.1-pro-preview_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:51:18+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2230,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "simetría bilateral casi exacta"
+    },
+    {
+      "id": "a2",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay pelaje visible, superficies lisas"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "alas magenta y cian brillantes"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "astas cian con puntos rosados en las puntas"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "elipse de anillo alrededor del torso"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "rombos, círculos y líneas de neón"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cara oscura con ojos cian, sin rasgos normales"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "mezcla de biología, neón y fondo estelar"
+    },
+    {
+      "id": "a9",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no se lee como zorro; más conejo o polilla"
+    },
+    {
+      "id": "a10",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "cuerpo gris lavanda claro, no oscuro"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "solo dos ojos cian"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ojos cian con fuerte brillo"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "orejas largas oscuras detrás de la cabeza"
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "interior de orejas magenta, sin destellos claros"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "astas cian brillantes salen de la cabeza"
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "ramas con puntos, más astas que constelación"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "patas delanteras con garras cian abajo"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "garras de líneas cian luminosas"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "alas grandes detrás del cuerpo"
+    },
+    {
+      "id": "a20",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "degradados cósmicos, pero se leen como alas"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "sin suelo, rodeada de fondo oscuro; sensación de flotar"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "anillos elípticos finos tipo holograma"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "elipses y círculos concéntricos de neón"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "fondo negro con puntos como estrellas"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cuerpo orgánico con luces y gemas tecnológicas"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "aspecto cósmico y cibernético"
+    },
+    {
+      "id": "a27",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "alas de polilla con ocelos; orejas más de conejo"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "astas con ramitas laterales"
+    },
+    {
+      "id": "a29",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "dos ojos cian y ocelos en alas"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "alas con brillo magenta y cian"
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "elipse punteada magenta alrededor del cuerpo"
+    },
+    {
+      "id": "a32",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "anillos estáticos, orbitar es una lectura débil"
+    },
+    {
+      "id": "a33",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "nada flota separado de la cabeza"
+    },
+    {
+      "id": "a34",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "gemas magenta en el pecho, no en la cabeza"
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "fondo oscuro con estrellitas"
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cian, magenta y violeta vivos"
+    },
+    {
+      "id": "a37",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "muy simétrica, con pequeñas diferencias"
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "resplandor intenso en líneas y ojos"
+    },
+    {
+      "id": "a39",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "paleta neón sobre negro"
+    },
+    {
+      "id": "a40",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas vectoriales limpias y geométricas"
+    },
+    {
+      "id": "a41",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "anillos translúcidos y brillos holográficos"
+    },
+    {
+      "id": "a42",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "estética digital de líneas de luz"
+    },
+    {
+      "id": "a43",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "rostro y alas de aspecto alienígena"
+    }
+  ],
+  "no_dicho": "Los grandes ojos tipo ocelo (círculos cian con centro rosa) en las alas superiores, y la cola con punta de cristal.",
+  "mal_armado": [
+    "cola o espada de cristal bajo el cuerpo que se corta contra el borde inferior",
+    "pata izquierda y derecha como columnas largas y rígidas poco articuladas",
+    "masa oscura detrás de las patas de forma poco clara",
+    "el anillo punteado cruza el cuerpo sin integrarse con la profundidad"
+  ]
+}

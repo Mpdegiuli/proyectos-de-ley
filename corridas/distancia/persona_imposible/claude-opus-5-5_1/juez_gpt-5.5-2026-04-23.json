@@ -1,0 +1,168 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "claude-opus-5-5_1",
+  "juez": "gpt-5.5-2026-04-23",
+  "fecha_utc": "2026-10-02T14:45:13+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1225,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "figura humana completa"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cara circular"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "boca curva pequeña"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "gesto tranquilo"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "torso como cubo"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "cruces de aristas ambiguos"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "dos arriba y tres abajo"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "dos bloques superiores"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tres pies ovalados"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "brazos a los lados"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "imposible por estructura"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "ilusión algo inestable"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cubo de líneas gruesas"
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "orden de aristas dudoso"
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "recuerda tridente imposible"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos rectángulos superiores"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tres tubos con pies"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "unión tapada e inconclusa"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "puede verse como cubo transparente"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo crema"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "líneas azul oscuro"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "paleta piel gris azul"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "hay rellenos planos y alguna sombra simple"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "estilo simple plano"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "figura didáctica con ilusión"
+    }
+  ],
+  "no_dicho": "Tiene pelo oscuro en forma de casco alrededor de la cabeza.",
+  "mal_armado": [
+    "la cabeza queda separada del torso, sin cuello",
+    "los brazos se unen de forma ambigua detrás del cubo",
+    "la transición de dos bloques superiores a tres piernas inferiores no se resuelve"
+  ]
+}

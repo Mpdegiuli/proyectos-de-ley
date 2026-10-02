@@ -1,0 +1,319 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "glm-5.3-razonamiento-minimo_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T15:14:16+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2440,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "casco verde con líneas curvas tipo costillas"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tentáculo enrulado a la izquierda, en la proa"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "vela de dos lóbulos tipo medusa, algo ambigua"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "puntos de colores sobre la vela, no claramente frutas"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "mástil claro con ramas, tipo coral"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "pocas burbujas junto al tentáculo, no como estela"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pulpo rosado en la cúpula"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cúpula transparente sobre el pulpo"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "se lee como barco/submarino con vela"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "híbrido barco-animal inventado"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo oscuro con estrellas y luna"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "luna dorada con un círculo pálido superpuesto"
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "casco redondeado, algo de gota ladeada"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "líneas curvas verticales en el casco"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "verde azulado"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ojo amarillo con pupila a la izquierda"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ojos de buey celeste claro a la derecha"
+    },
+    {
+      "id": "a18",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "mástil sale del centro del casco, no de la proa"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "dos lóbulos crema de la vela"
+    },
+    {
+      "id": "a20",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "puntos rosa, azul, amarillo y violeta"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pulpo rosado pequeño con ojos"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cúpula de vidrio claro"
+    },
+    {
+      "id": "a23",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "la cúpula está en la parte superior del casco"
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "burbujas solo cerca del tentáculo y ojos de buey"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "un remo con hoja verde, poco forma de pétalo"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tentáculo sale a la izquierda"
+    },
+    {
+      "id": "a27",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "tentáculo enrulado, sin gesto de curiosidad claro"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "olas onduladas en el mar"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntitos blancos en el cielo"
+    },
+    {
+      "id": "a30",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "tres aves grises tenues, no se leen como fantasmas"
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "casco con ojo recuerda un pez o ballena"
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "casco con costillas"
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "semeja pez-ballena"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "mástil con ramas"
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "vela de dos lóbulos"
+    },
+    {
+      "id": "a36",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "puntos de colores, no claramente frutas"
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "no",
+      "nota": "ojo dorado, no se lee como faro"
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tentáculo a la izquierda"
+    },
+    {
+      "id": "a39",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "burbujas escasas, sin sensación de propulsión"
+    },
+    {
+      "id": "a40",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "remo con hoja verde oscura"
+    },
+    {
+      "id": "a41",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cúpula de cristal"
+    },
+    {
+      "id": "a42",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pulpo dentro de la cúpula"
+    },
+    {
+      "id": "a43",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no se ve aleta dorsal ni timón"
+    },
+    {
+      "id": "a44",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "noche clara"
+    },
+    {
+      "id": "a45",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "dos discos de luna superpuestos"
+    },
+    {
+      "id": "a46",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cartoon nocturno"
+    },
+    {
+      "id": "a47",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "contornos oscuros en casco, vela y mástil"
+    },
+    {
+      "id": "a48",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "degradados en cielo, mar y luna"
+    },
+    {
+      "id": "a49",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "violeta, turquesa y dorado"
+    },
+    {
+      "id": "a50",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "fantasía caprichosa"
+    }
+  ],
+  "no_dicho": "El reflejo dorado de la luna en el agua, con rayitas horizontales.",
+  "mal_armado": [
+    "el mástil atraviesa la cúpula y el pulpo en vez de apoyarse detrás",
+    "el remo sale del casco con unión confusa",
+    "el tentáculo parece desconectado del casco",
+    "un tallo verde queda cortado detrás de la vela"
+  ]
+}

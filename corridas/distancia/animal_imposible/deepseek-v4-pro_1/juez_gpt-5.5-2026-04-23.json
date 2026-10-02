@@ -1,0 +1,197 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "deepseek-v4-pro_1",
+  "juez": "gpt-5.5-2026-04-23",
+  "fecha_utc": "2026-10-02T15:27:26+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 2582,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay tres formas serpentinas, pero no son idénticas"
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay un centro común sugerido, no un único punto claro"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "tienen cabezas, pero los cuerpos se mezclan y no todos se leen cerrados"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "disposición triangular aproximada, no rotación exacta"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "convergen cerca del centro, no exactamente en el mismo núcleo"
+    },
+    {
+      "id": "a6",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "hay solapes y costuras visibles"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay ambigüedad de solapes, pero no una paradoja clara"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "se perciben tres individuos entrelazados en una sola figura"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "se ven tres serpientes angulares"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "parecen reunirse cerca del círculo central"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay rotación aproximada, no precisa"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "las cabezas son poligonales, no todas claramente triangulares"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cada cabeza tiene un ojo de color brillante"
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay paneles y líneas internas, segmentación poco clara"
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay colores neón rosa, turquesa y violeta, con gradiente poco evidente"
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "comparten zona central, no un origen puntual claro"
+    },
+    {
+      "id": "a17",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "los cuerpos se cruzan y se superponen"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la composición se lee como una trinidad de cuerpos"
+    },
+    {
+      "id": "a19",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "la criatura fusionada resulta irreal o fantástica"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "hay tres serpientes visibles"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "las tres cabezas forman una disposición triangular"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "el fondo es negro u oscuro"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "colores magenta, cian y violeta; gradientes poco marcados"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "hay contornos blancos punteados"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "las cabezas tienen ojos brillantes"
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay un círculo central claro, con brillo leve"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "colores neón, brillos y formas vectoriales"
+    },
+    {
+      "id": "a28",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "los solapes transparentes crean profundidad ambigua"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el orden delante-detrás no es del todo coherente"
+    },
+    {
+      "id": "a30",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "sugiere entrelazado imposible, pero no como Penrose claro"
+    }
+  ],
+  "no_dicho": "Hay halos difusos de color alrededor de las figuras sobre el fondo oscuro.",
+  "mal_armado": [
+    "las uniones de las cabezas con los cuerpos son abruptas",
+    "el centro está muy superpuesto y cuesta distinguir qué cuerpo continúa"
+  ]
+}

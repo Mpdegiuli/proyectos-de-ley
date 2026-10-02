@@ -1,0 +1,74 @@
+{
+  "consigna": "nada",
+  "unidad": "claude-sonnet-4-6_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:41:53+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 570,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Todo se ve casi negro, consistente con #000005"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Se percibe como negro; el azul no se distingue"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Se lee como un lienzo vacío, como nada"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El color cubre todo el lienzo sin bordes visibles"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Relleno uniforme casi negro; el valor exacto no se verifica a ojo"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Un tono azulado apenas sospechable, no se nota a simple vista"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Solo un campo plano, sin formas"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Oscuridad total, sin ningún punto de luz"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "No hay nada representado, solo fondo oscuro"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Transmite vacío, casi total oscuridad"
+    }
+  ],
+  "no_dicho": "nada",
+  "mal_armado": []
+}

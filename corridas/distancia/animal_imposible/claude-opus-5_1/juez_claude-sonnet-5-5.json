@@ -1,0 +1,188 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "claude-opus-5_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:53:39+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1546,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cuerpo redondeado azul pálido, rechoncho"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "se apoya en tres patas tipo columna"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "las patas son raras pero no engañan la vista"
+    },
+    {
+      "id": "a4",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "los contornos no se cruzan; son tres columnas pegadas"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "se cuentan fácil: tres patas, la del medio más corta"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "una ala en el lomo, algo hacia la derecha"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ala pequeña con plumas rayadas, parece inútil"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "en_parte",
+      "nota": "tres picos triangulares azules; se leen más como púas"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos antenas curvas con bolitas rosadas"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cola gruesa que sube en curva hacia la derecha"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "la cola termina en una cabeza pequeña"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pico naranja pequeño apuntando a la izquierda"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ojo blanco con pupila oscura"
+    },
+    {
+      "id": "a14",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "ambas cabezas miran a la izquierda"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "expresiones neutras y serenas"
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hueco entre patas con relleno degradado raro, sin ambigüedad clara"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cola termina en otra cabeza"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "una sola ala descentrada"
+    },
+    {
+      "id": "a19",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "antenas con bolitas, no son pompones peludos"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "contornos gruesos azul oscuro"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "degradados verticales suaves"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "azules fríos con acentos cálidos"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "fondo crema con degradado"
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "ojo grande con brillo en la cabeza principal; el otro es pequeño"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "elipse marrón bajo las patas, de borde nítido"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas planas con contorno"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "aspecto de sticker o libro infantil"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ala diminuta frente al cuerpo grande"
+    }
+  ],
+  "no_dicho": "La criatura tiene una cabeza principal con pico en un cuello largo que sale por detrás del cuerpo, además de la cola con cabeza.",
+  "mal_armado": [
+    "cuello de la cabeza principal pasa detrás del cuerpo y queda cortado de forma extraña",
+    "hueco entre patas con relleno de color distinto y corte horizontal",
+    "unión de la cola con el cuerpo se ve confusa",
+    "pico de la cabeza principal con borde desprolijo",
+    "cabeza pequeña se une al cuello con un corte visible"
+  ]
+}

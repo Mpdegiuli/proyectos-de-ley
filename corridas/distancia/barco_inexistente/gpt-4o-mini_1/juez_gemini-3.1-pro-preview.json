@@ -1,0 +1,161 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "gpt-4o-mini_1",
+  "juez": "gemini-3.1-pro-preview",
+  "fecha_utc": "2026-10-02T16:42:53+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1213,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Forma gota central."
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Bulto inferior."
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Composición abstracta."
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Piezas separadas."
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "No parece barco."
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Poca legibilidad."
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Base marrón."
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Es redonda, no triángulo."
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Óvalo degradado."
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Superficie plana."
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Pilar superior."
+    },
+    {
+      "id": "a12",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Son líneas blancas."
+    },
+    {
+      "id": "a13",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Borde liso."
+    },
+    {
+      "id": "a14",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Todo estático."
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Fondo celeste."
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Algo inerte."
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Dudoso."
+    },
+    {
+      "id": "a18",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Un solo color."
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Figuras puras."
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Agua y gota."
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Pocos detalles."
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Vector simple."
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Cero dinámico."
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Estilo de bloque."
+    }
+  ],
+  "no_dicho": "Línea curva como cola en la figura marrón.",
+  "mal_armado": [
+    "Semicírculo negro cortado",
+    "Triángulo gris suelto"
+  ]
+}

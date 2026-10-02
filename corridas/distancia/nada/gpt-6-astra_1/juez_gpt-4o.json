@@ -1,0 +1,80 @@
+{
+  "consigna": "nada",
+  "unidad": "gpt-6-astra_1",
+  "juez": "gpt-4o",
+  "fecha_utc": "2026-10-02T14:41:46+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 440,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El lienzo es completamente blanco."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No hay figuras visibles en el lienzo."
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No hay marcas visibles en el lienzo."
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El fondo es blanco."
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El lienzo es completamente blanco."
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No hay figuras en el dibujo."
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No hay líneas en el dibujo."
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No hay texto en el dibujo."
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El lienzo está vacío de marcas."
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Los límites del lienzo están presentes."
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El dibujo transmite un espacio vacío."
+    }
+  ],
+  "no_dicho": "nada",
+  "mal_armado": []
+}

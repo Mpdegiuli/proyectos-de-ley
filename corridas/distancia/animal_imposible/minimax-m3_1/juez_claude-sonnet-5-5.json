@@ -1,0 +1,241 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "minimax-m3_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:58:34+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2004,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cuatro alas de mariposa moradas"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos astas marrones ramificadas sobre el cuerpo"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "trompa azul enroscada que sale de abajo del cuerpo"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "manchas ocelares en las cuatro alas"
+    },
+    {
+      "id": "a5",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "las patas no tienen ojos; solo hay óvalos en las puntas"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "azul, pero no se lee como acuático"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cuerpo azul con degradado"
+    },
+    {
+      "id": "a8",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay escamas definidas, solo rayitas finas"
+    },
+    {
+      "id": "a9",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "las patas son filamentos lisos sin articulaciones"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "se ve amable y decorativo, poco inquietante"
+    },
+    {
+      "id": "a11",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "cuerpo ovalado pero sin rasgos de elefante"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cuerpo azulado"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cuatro alas abiertas"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos alas grandes arriba, dos menores abajo"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "degradado rosa, violeta y azul; sin celeste claro"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cada ala tiene un ojo crema con pupila oscura"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos astas finas, aunque salen de la parte superior del cuerpo"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "trompa curvada con punta enroscada, aunque no es una espiral"
+    },
+    {
+      "id": "a19",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "son cinco ojos dorados más uno, seis en total"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos filamentos delgados a los lados"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "terminan en óvalos oscuros, no se leen bien como cascos"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "centro amarillo dorado en cada óvalo"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "fondo celeste pálido con brillo cálido central, sin tono crepuscular claro"
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "unos puntitos blancos tenues, casi invisibles"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sin suelo, parece suspendida en el aire"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "híbrido con cuatro alas de mariposa"
+    },
+    {
+      "id": "a27",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay escamas de pez"
+    },
+    {
+      "id": "a28",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay bigotes"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "trompa curvada con punta enrollada"
+    },
+    {
+      "id": "a30",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "hay seis ojos dorados en el cuerpo"
+    },
+    {
+      "id": "a31",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay almohadillas, solo óvalos terminales"
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "rosa, violeta y azul en las alas"
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "contorno fino oscuro en alas y cuerpo"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "colores claros y vivos"
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "estilo simpático y fantasioso"
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "recuerda a ilustración infantil o de fantasía"
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "degradados lineales suaves"
+    }
+  ],
+  "no_dicho": "Seis ojos dorados con pupila oscura sobre el cuerpo, de distintos tamaños, que parecen de araña.",
+  "mal_armado": [
+    "las astas nacen de detrás del cuerpo y no se unen con claridad",
+    "las patas filiformes salen de la base de la trompa y parecen separadas del cuerpo",
+    "los óvalos de las patas quedan sueltos en las puntas",
+    "las alas se esconden detrás del cuerpo y se cortan de forma brusca"
+  ]
+}

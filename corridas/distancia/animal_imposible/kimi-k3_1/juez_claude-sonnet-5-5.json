@@ -1,0 +1,362 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "kimi-k3_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:58:08+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2834,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "cabeza gris redonda de ave, sin rasgos de lobo"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "astas marrones sobre la cabeza"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pico naranja de ave"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ojo con espiral negra"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "torso marrón con degradado, sin pelo claro"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "parte inferior turquesa con escamas"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "solo asoma un ala violeta detrás de la cola"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "gran ala gris con plumas"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cola turquesa tipo aleta a la derecha"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "se ven tres extremidades distintas: garra, pata marrón y cola verde"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pata fina con tres dedos"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "pata marrón gruesa con zapato oscuro, no es pezuña clara"
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "apéndice verde curvo con puntos, parece tentáculo"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "el cuerpo cruza la línea del horizonte y el agua"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "arriba plumas y pelaje, abajo escamas bajo el agua"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "se lee como un ave extraña"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "anatomía imposible por mezcla de partes"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "quimera clara"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "se ubica sobre la línea cielo-mar"
+    },
+    {
+      "id": "a20",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "cabeza gris con oreja de gato, pero de ave"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "espiral hipnótica en el ojo"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "astas de ciervo"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "pico naranja, más de ave rapaz que de pato"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "burbujas a la izquierda del pico, algo alejadas"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "torso marrón liso, con pocos trazos de pelo"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "termina en escamas turquesa"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cola turquesa"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ala gris con plumas"
+    },
+    {
+      "id": "a29",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "el tentáculo es verde; lo violeta es un ala"
+    },
+    {
+      "id": "a30",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "dos patas y un apéndice, no camina"
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "garra de ave"
+    },
+    {
+      "id": "a32",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "pata gruesa con base oscura, no es pezuña clara"
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "apéndice verde con puntos claros"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos peces azules en el cielo"
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos plumas cayendo bajo el agua"
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo arriba y mar abajo"
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "mezcla absurda de elementos"
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "partes incompatibles juntas"
+    },
+    {
+      "id": "a39",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay melena"
+    },
+    {
+      "id": "a40",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "escamas turquesa"
+    },
+    {
+      "id": "a41",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "pico de ave, no claramente de pato"
+    },
+    {
+      "id": "a42",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "astas visibles"
+    },
+    {
+      "id": "a43",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "oreja puntiaguda con interior rosa"
+    },
+    {
+      "id": "a44",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ala emplumada"
+    },
+    {
+      "id": "a45",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "cola turquesa en forma de aleta, no claramente de tiburón"
+    },
+    {
+      "id": "a46",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pata de ave"
+    },
+    {
+      "id": "a47",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "pata gruesa con bota oscura"
+    },
+    {
+      "id": "a48",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "apéndice verde, parece serpiente o tentáculo"
+    },
+    {
+      "id": "a49",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "mitad sobre el agua y mitad sumergida"
+    },
+    {
+      "id": "a50",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "vectorial plano"
+    },
+    {
+      "id": "a51",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas simples"
+    },
+    {
+      "id": "a52",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "contornos limpios"
+    },
+    {
+      "id": "a53",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "colores vivos"
+    },
+    {
+      "id": "a54",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "degradados en cielo, mar y torso"
+    },
+    {
+      "id": "a55",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "aire de ilustración infantil"
+    },
+    {
+      "id": "a56",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "bestiario caprichoso"
+    },
+    {
+      "id": "a57",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "naif y juguetón"
+    }
+  ],
+  "no_dicho": "El sol amarillo con halo en la esquina superior derecha, además de nubes, rayos de luz submarinos y pájaros lejanos en el agua.",
+  "mal_armado": [
+    "el ala violeta queda casi tapada tras la cola",
+    "la pata marrón con bota oscura parece desconectada y fuera de estilo",
+    "las burbujas flotan lejos del pico",
+    "un ala translúcida apenas se ve detrás de la oreja",
+    "el apéndice verde se superpone con el borde del cuerpo"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "consigna": "nada",
+  "unidad": "claude-sonnet-4-6_1",
+  "juez": "gpt-5.5-2026-04-23",
+  "fecha_utc": "2026-10-02T14:54:58+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 844,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "se ve un área casi negra; el código exacto no se ve"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "parece negro con posible azul imperceptible"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "se percibe como una imagen casi vacía"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "todo el lienzo está cubierto por un rectángulo oscuro"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "se ve relleno casi negro; el valor exacto no se distingue"
+    },
+    {
+      "id": "a6",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no se aprecia claramente tono azul"
+    },
+    {
+      "id": "a7",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "sí se ve la forma cuadrada del lienzo oscuro"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la imagen se ve completamente oscura"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "no se distingue ningún objeto representado"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "transmite vacío por su uniformidad oscura"
+    }
+  ],
+  "no_dicho": "nada",
+  "mal_armado": []
+}

@@ -1,0 +1,204 @@
+{
+  "consigna": "mundo",
+  "unidad": "deepseek-v4-pro_1",
+  "juez": "kimi-k3",
+  "fecha_utc": "2026-10-02T15:52:04+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 3365,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "globo grande azul en el centro"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculos rojos, azules y verdes unidos por líneas punteadas"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sol amarillo con rayos arriba a la derecha"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos nubes blancas a los lados"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "edificios oscuros con ventanas abajo a la izquierda"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "planta verde con tallos abajo a la derecha"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "corazón rojo flotante, se lee como amor"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "wifi y red de nodos, se lee como conexión"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "engranaje gris cerca del sol"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "bombilla amarilla arriba a la izquierda"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ciudad, planta, globo y wifi unidos por la red"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo en degradé claro con sol, muy luminoso"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "corazón, wifi, engranaje, bombilla: íconos reconocibles"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "formato cuadrado"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "esfera azul con grillas, claramente la Tierra"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "masas verdes sobre el azul"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "líneas punteadas grises conectan nodos alrededor"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "nodos rojos en los cuatro bordes del lienzo"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sol amarillo con rayos"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "nubes blancas"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cuatro edificios con ventanitas"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "brote verde con frutos rojos"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "corazón rojo flotando a la izquierda"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "arcos azules de wifi a la derecha"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "engranaje gris junto al sol"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "bombilla amarilla flotando arriba"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "lienzo cuadrado"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la red de nodos y líneas transmite conexión"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "planta, globo, sol y nubes dan naturaleza"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "wifi, engranaje y red dan tecnología"
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "colores vivos y luz dan sensación optimista"
+    }
+  ],
+  "no_dicho": "la cuadrícula de meridianos y paralelos dibujada sobre el globo",
+  "mal_armado": [
+    "un fruto rojo de la planta flota separado del tallo",
+    "un continente verde del borde derecho sobresale de la esfera",
+    "una línea punteada cruza por encima del sol"
+  ]
+}

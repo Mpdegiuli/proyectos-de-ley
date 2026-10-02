@@ -1,0 +1,254 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "claude-sonnet-5-5_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T15:10:17+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1962,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "barco con casco, mástil y velas"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cielo violeta oscuro arriba"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "cerca del horizonte se aclara a rosa, apenas naranja"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "luna llena grande con halo"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "se lee como noche con estrellas y luna más que atardecer"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "mástil central con medusa grande arriba"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "campana entre violeta y rosa lila"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tentáculos largos cuelgan hacia el casco"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "vela en abanico a la izquierda"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "abanico durazno anaranjado claro"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "aleta turquesa en el extremo izquierdo"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "caracol espiral color piel a la derecha"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "proa curva rosa con forma de caballito de mar"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "líneas claras curvas en el casco como costillas"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos círculos turquesa en el casco"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "luces doradas sobre los cables"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "mar azul oscuro"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ondas celestes y puntos de luz tenues"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "repite a1: barco con velas"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la medusa hace de vela principal sobre el mástil"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "campana con transparencia y venas visibles"
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "cuelgan largos pero terminan sobre la cubierta, sin tocarla"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "curvas claras sobre el casco evocan costillar"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "aleta turquesa en popa a la izquierda"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "caballito de mar rosa en la proa"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "abanico naranja claro, como membrana"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "líneas radiales como nervaduras de ala"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cabina con espiral de concha"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "luces brillantes sobre cables finos"
+    },
+    {
+      "id": "a30",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "dos formas celestes pequeñas como aves, poco claras"
+    },
+    {
+      "id": "a31",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "violetas y rosas sí, naranja casi ausente en el fondo"
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "azul profundo oscuro"
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ilustración vectorial fantástica"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "aspecto de póster nocturno y cuento"
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas planas con degradados suaves"
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "contorno marrón en casco y vela abanico"
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "casco translúcido, medusa y halos"
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "halo de luna y luces con resplandor"
+    },
+    {
+      "id": "a39",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ambiente de sueño"
+    }
+  ],
+  "no_dicho": "nada",
+  "mal_armado": [
+    "los tentáculos de la medusa terminan flotando sobre la cubierta sin tocarla",
+    "el mástil central pasa por detrás de la medusa y se ve a través de ella",
+    "el cable de la derecha termina en el caballito de mar sin una sujeción clara",
+    "la aleta turquesa parece pegada al abanico y no al casco",
+    "las ondas del mar cruzan sobre el casco translúcido"
+  ]
+}

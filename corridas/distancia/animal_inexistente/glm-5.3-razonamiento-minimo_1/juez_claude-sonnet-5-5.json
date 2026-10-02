@@ -1,0 +1,337 @@
+{
+  "consigna": "animal_inexistente",
+  "unidad": "glm-5.3-razonamiento-minimo_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:53:12+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2514,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Título 'Lepidopticeto lunar' escrito abajo"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Dos orejas largas azules con puntos dorados en la punta"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Alas violeta-rosa a los lados"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Vientre claro ovalado, no se lee como ballena"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Estrella sostenida con las patas, no es cola"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Luna crema grande arriba a la derecha"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Puntitos turquesa dispersos"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Imagen cuadrada, el viewBox no se ve"
+    },
+    {
+      "id": "a9",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Imagen fija, ojos abiertos"
+    },
+    {
+      "id": "a10",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No se ve movimiento"
+    },
+    {
+      "id": "a11",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No se ve animación"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Noche con luna y estrellas"
+    },
+    {
+      "id": "a13",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No se perciben animaciones"
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Mezcla de mariposa, gato y criatura marina; quimera"
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Título con otra grafía: Lepidopticeto"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Cuerpo ovalado redondo"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Pequeñas marcas en la parte alta del cuerpo, apenas escamas"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Dos alas rosa-violeta degradadas"
+    },
+    {
+      "id": "a19",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Estático"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Puntos dorados en las puntas; el derecho más apagado"
+    },
+    {
+      "id": "a21",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No se ve titilar"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Ojos grandes blancos con brillos"
+    },
+    {
+      "id": "a23",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Ojos abiertos, sin animación visible"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Tres bigotes finos por lado"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Brazos finos curvos con manitas redondas, no patitas"
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Estrella dorada brillante al frente, no como cola"
+    },
+    {
+      "id": "a27",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No se ve balanceo"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Cielo nocturno con colinas"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Puntitos de estrellas tenues"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Luna crema"
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Siluetas oscuras abajo"
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Puntos turquesa, pocos y dispersos"
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Ambiente nocturno claro"
+    },
+    {
+      "id": "a34",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No se perciben animaciones; hay brillo en la estrella"
+    },
+    {
+      "id": "a35",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Cuerpo rechoncho pero sin rasgos de ballena"
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Alas de mariposa visibles"
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Orejas largas tipo antena con puntas"
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Puntas doradas con halo, como luciérnagas"
+    },
+    {
+      "id": "a39",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Marcas pequeñas, poco claras"
+    },
+    {
+      "id": "a40",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Bigotes y nariz de gato"
+    },
+    {
+      "id": "a41",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No hay patas con almohadillas visibles"
+    },
+    {
+      "id": "a42",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Estrella luminosa abajo pero sostenida, sin cola"
+    },
+    {
+      "id": "a43",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No salen esporas de la estrella"
+    },
+    {
+      "id": "a44",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Luna presente"
+    },
+    {
+      "id": "a45",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Estrellas pequeñas"
+    },
+    {
+      "id": "a46",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Colinas en silueta"
+    },
+    {
+      "id": "a47",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Azules y turquesas dominan"
+    },
+    {
+      "id": "a48",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Dorado en estrella, puntas y luna"
+    },
+    {
+      "id": "a49",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Formas redondeadas y suaves"
+    },
+    {
+      "id": "a50",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Aire de cuento infantil nocturno"
+    },
+    {
+      "id": "a51",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Imagen fija"
+    },
+    {
+      "id": "a52",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Noche"
+    },
+    {
+      "id": "a53",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Criatura mezclada y amable"
+    }
+  ],
+  "no_dicho": "El animal sostiene una estrella dorada con sus manitas, y el título está escrito abajo.",
+  "mal_armado": [
+    "La luna queda parcialmente tapada por el ala derecha",
+    "Las antenas se apoyan sobre el cuerpo sin unirse bien a la cabeza",
+    "Los brazos finos y la estrella quedan algo desconectados del cuerpo",
+    "Punta derecha de la antena más apagada que la izquierda"
+  ]
+}

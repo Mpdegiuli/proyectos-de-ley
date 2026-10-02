@@ -1,0 +1,309 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "glm-5.3-razonamiento-minimo_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T15:03:53+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2552,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "calzada en arcos concéntricos cada vez más chicos"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "espiral clara con línea dorada punteada"
+    },
+    {
+      "id": "a3",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay obelisco en el centro; solo un farol arriba y un hueco oscuro"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "mástil fino bajo el centro, llega a una base en el horizonte"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "acantilado oscuro a la izquierda con arbustos y flores rosas"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "flores rosadas en matas verdes"
+    },
+    {
+      "id": "a7",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no se distingue monolito al final"
+    },
+    {
+      "id": "a8",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "sin monolito; los faroles sí brillan"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "el mástil termina en la línea del horizonte, no entra bien al agua"
+    },
+    {
+      "id": "a10",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no se ve obelisco que flote"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "el soporte es fino y parece más bien un mástil; imposibilidad poco clara"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "los anillos concéntricos llevan la vista al centro"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo violeta con rosa en el horizonte y luna dorada"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "calzada parte del acantilado con flores"
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "la espiral se alza en el aire sobre el horizonte, no sobre el agua"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "los anillos se achican hacia el centro"
+    },
+    {
+      "id": "a17",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay obelisco, solo un centro con espiral"
+    },
+    {
+      "id": "a18",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "farol brillante en la cima de los cables, no sobre un obelisco"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cables caen desde el farol alto hacia la calzada"
+    },
+    {
+      "id": "a20",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "postes con faroles, sin torres propiamente dichas"
+    },
+    {
+      "id": "a21",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "los faroles son decorativos y no sostienen nada"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "mar oscuro con olas lineales abajo"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "arcos concéntricos tenues abajo, cortados por el borde, y olas que no los deforman"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "figura clara con halo azul en el borde del puente"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "está de frente, no se lee que mire el puente"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "siluetas de pájaros tenues en el cielo"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "flores rosas en el borde del acantilado"
+    },
+    {
+      "id": "a28",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no hay obelisco que flote"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la espiral parece absorber el camino"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "calzada sale del acantilado izquierdo"
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "se enrolla en círculos cada vez menores"
+    },
+    {
+      "id": "a32",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "mástil fino baja desde el centro, poco imposible"
+    },
+    {
+      "id": "a33",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "el soporte no sostiene nada claro, lectura débil"
+    },
+    {
+      "id": "a34",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no hay obelisco en el aire"
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cables parten del farol superior"
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la espiral parece suspendida sin apoyo claro"
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo violeta con degradé rosado dorado"
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntos blancos pequeños"
+    },
+    {
+      "id": "a39",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "manchas violetas difusas a la derecha, poco nebulosa"
+    },
+    {
+      "id": "a40",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "varios faroles con halo brillante"
+    },
+    {
+      "id": "a41",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "una figura sola con aura"
+    },
+    {
+      "id": "a42",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "aves oscuras en el cielo"
+    },
+    {
+      "id": "a43",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "escena onírica y surreal"
+    },
+    {
+      "id": "a44",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "luna y espiral dan clima místico, sin símbolos explícitos"
+    },
+    {
+      "id": "a45",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas geométricas simples"
+    },
+    {
+      "id": "a46",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "predominan colores planos, pero hay degradés y halos"
+    },
+    {
+      "id": "a47",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "guiones dorados en la calzada y olas"
+    },
+    {
+      "id": "a48",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "parece ilustración fantástica, no ingeniería"
+    }
+  ],
+  "no_dicho": "Una gran luna llena dorada con halo domina la esquina superior izquierda.",
+  "mal_armado": [
+    "los cables de los faroles no se conectan bien a la calzada",
+    "el reflejo en el agua está cortado por el borde inferior",
+    "el mástil central termina en una base suelta en el horizonte",
+    "el hueco oscuro en el centro de la espiral parece un error",
+    "el tramo recto del puente acaba en un corte brusco",
+    "los faroles flotan sin apoyo en la espiral"
+  ]
+}

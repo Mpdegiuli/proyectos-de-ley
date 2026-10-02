@@ -1,0 +1,222 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "gemini-3.1-pro-preview_2",
+  "juez": "gemini-3.1-pro-preview",
+  "fecha_utc": "2026-10-02T15:06:44+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1380,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Es un robot, no una persona"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tiene un bloque central que funciona de torso"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay un bloque pequeño entre cabeza y torso"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tiene brazos y piernas formados por bloques"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Las líneas no son paralelas como en isométrica, es perspectiva cónica de tres puntos de fuga invertida"
+    },
+    {
+      "id": "a6",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No hay paradoja, es un objeto construible"
+    },
+    {
+      "id": "a7",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Las caras se conectan de manera lógica, aunque la perspectiva esté mal construida"
+    },
+    {
+      "id": "a8",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No hay ilusión óptica"
+    },
+    {
+      "id": "a9",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Es una forma 3D perfectamente posible de construir"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Es un robot humanoide"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Son bloques de color gris"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Intenta ser isométrica pero tiene puntos de fuga extraños"
+    },
+    {
+      "id": "a13",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No desafía la lógica, es una figura sólida coherente"
+    },
+    {
+      "id": "a14",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No es una ilusión estilo Penrose"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Círculo naranja detrás"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El círculo tiene degradado rosa y naranja"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El fondo es negro"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Colores de sol y fondo dan estética retrofuturista/synthwave"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Rectángulo cian en la cara"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hueco rectangular en el torso"
+    },
+    {
+      "id": "a21",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No hay paradoja estructural"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Robot de geometría de bloques con un hueco"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Brazos y piernas son paralelepípedos"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Visor de luz en vez de cara"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Sol degradado retrofuturista visible"
+    },
+    {
+      "id": "a26",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Solo color plano y degradado, sin efecto de brillo de neón real"
+    },
+    {
+      "id": "a27",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Falla la perspectiva isométrica, las líneas fugan"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Dibujado con polígonos de colores sólidos"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Se ve como voxel art o primitivas 3D"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "La paleta da ese aire synthwave"
+    },
+    {
+      "id": "a31",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Hay líneas pero no respetan la isometría estricta"
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Contraste gris sobre naranja/rosa"
+    },
+    {
+      "id": "a33",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No hay neón brillante, solo color cian plano"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Se lee como un robot inerte"
+    }
+  ],
+  "no_dicho": "Los brazos flotan separados del cuerpo.",
+  "mal_armado": [
+    "Perspectiva invertida en cabeza y brazos",
+    "Sombras inconsistentes en las piernas",
+    "Piernas cortadas a diferente altura en la base"
+  ]
+}

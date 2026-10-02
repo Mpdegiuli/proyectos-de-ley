@@ -1,0 +1,366 @@
+{
+  "consigna": "animal_inexistente",
+  "unidad": "kimi-k3_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:52:55+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 3662,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "seis patas visibles, alternando tonos oscuros y claros"
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "cuerpo redondo y suave, pero no se lee claramente como mamífero"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ala celeste en el lomo, encima de las patas"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "antena curva con bulbo amarillo brillante, evoca al pez abisal"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "un ojo grande y otro más chico"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "la cola enroscada termina en un bulbo amarillo brillante"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "tres aletas triangulares celestes en el cuello, parecen espinas o aletas"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo azul oscuro con luna y estrellas"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "bulbos, luciérnagas, hongos y puntos en el cuello brillan"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "los brillos cálidos resaltan sobre el fondo oscuro, con halos suaves"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "se lee como criatura con cabeza, cuello, cuerpo y patas"
+    },
+    {
+      "id": "a12",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "el nombre no aparece en la imagen"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "está sobre un montículo oscuro"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "luna llena crema con cráteres, arriba a la izquierda"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntitos y estrellas doradas de cuatro puntas"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "escena nocturna clara"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cuerpo ovalado y redondeado"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "óvalo claro de menta en la panza"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "manchas circulares turquesa en el cuerpo"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "seis patitas cortas con pezuñas redondas, aunque está quieto"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "seis patas"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cuello largo en S, sube desde el cuerpo"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "aletas triangulares a lo largo del cuello"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cabeza redonda violeta y celeste con hocico"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ojos grandes y blancos con brillos, el principal es muy grande"
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay una manchita rosa pequeña bajo el ojo, más bien parece lengua o mejilla mínima"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "oreja grande turquesa con forma de hoja sobre la cabeza"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "antena delgada nace de la frente y se curva"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "termina en esfera amarilla luminosa"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cola en espiral a la izquierda"
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "orbe amarillo brillante al final de la cola"
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ala relativamente pequeña, celeste y con nervaduras"
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "puntos dorados con halo flotan alrededor"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos hongos turquesa brillantes en el suelo, a ambos lados"
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "destellos y luciérnagas doradas alrededor"
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ojos grandes y sonrisa suave, aspecto amable"
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "criatura híbrida inexistente"
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "seis patas"
+    },
+    {
+      "id": "a39",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cuello largo y erguido, como de jirafa o dinosaurio"
+    },
+    {
+      "id": "a40",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "antena con farol, al estilo del rape"
+    },
+    {
+      "id": "a41",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cola en espiral"
+    },
+    {
+      "id": "a42",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "orbe luminoso en la punta de la cola"
+    },
+    {
+      "id": "a43",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ala membranosa con nervaduras sobre el lomo"
+    },
+    {
+      "id": "a44",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "manchas redondas en el cuerpo"
+    },
+    {
+      "id": "a45",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "oreja grande en forma de hoja"
+    },
+    {
+      "id": "a46",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "un ojo grande y otro pequeño"
+    },
+    {
+      "id": "a47",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "hongos luminosos pequeños"
+    },
+    {
+      "id": "a48",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "luciérnagas doradas con halo"
+    },
+    {
+      "id": "a49",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "fondo azul-violeta y animal turquesa y lila"
+    },
+    {
+      "id": "a50",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "amarillos cálidos en luna, orbes y estrellas"
+    },
+    {
+      "id": "a51",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "elipse oscura de sombra bajo el animal"
+    },
+    {
+      "id": "a52",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas planas con degradados suaves, estilo vectorial"
+    },
+    {
+      "id": "a53",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ojos grandes, formas redondeadas y tierno"
+    },
+    {
+      "id": "a54",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "contornos curvos y suaves"
+    },
+    {
+      "id": "a55",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "degradados turquesa-lila en cuerpo y cuello"
+    },
+    {
+      "id": "a56",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "composición ordenada y limpia"
+    },
+    {
+      "id": "a57",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "estilizado, nada realista"
+    },
+    {
+      "id": "a58",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "escena nocturna"
+    }
+  ],
+  "no_dicho": "Brotes o plantitas oscuras pequeñas en el suelo y un resplandor/halo suave alrededor de la luna.",
+  "mal_armado": [
+    "la unión del cuello con el cuerpo es un extremo redondeado turquesa que se ve algo pegado sobre el cuerpo",
+    "la cola enroscada se superpone con el orbe brillante y se funde con el cuerpo de forma poco clara",
+    "las patas oscuras detrás y las claras delante quedan algo desparejas en altura y tono"
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "grok-4.7_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T15:13:07+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2449,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "mástil con ramas y hojas verdes; flor roja arriba"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "círculo naranja en la vela con sol claro, se lee como portal"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "aro dorado en la proa con vástago"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "aro con vara, parece una llave"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "formas claras de torres y agujas bajo el agua"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "caña dorada con flor rosa/blanca en el casco, no se ve pesca"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "medusa verdosa abajo a la izquierda, poco luminosa"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "luna llena brillante arriba a la izquierda"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "planeta con anillo arriba a la derecha"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "línea diagonal con punto, cometa arriba a la derecha"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "elementos raros repartidos por toda la escena"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "mezcla de barco, árbol, portal y ciudad difícil de nombrar"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "casco marrón de madera con líneas doradas"
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay círculos en el casco y el aro de proa, pero no un ojo claro"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "velas color crema"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "disco naranja-rojo en la vela como portal de fuego"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "silueta oscura pequeña que podría ser un pájaro o una vela"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "mástil con hojas"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "flor o bandera roja en lo alto del mástil"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo nocturno con estrellas y luna"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "luna llena"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "planeta lila con anillo"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cometa con estela"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "mar azul oscuro con olas"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "bajo el agua hay formas claras, pero no copian el barco"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "una medusa visible; la otra forma es dudosa"
+    },
+    {
+      "id": "a27",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "líneas doradas en el agua, sendero débil"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "farol encendido cerca de la proa"
+    },
+    {
+      "id": "a29",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "llave dorada a la derecha, que es la proa y no la popa"
+    },
+    {
+      "id": "a30",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "líneas doradas y celestes alrededor del casco, no una estela clara"
+    },
+    {
+      "id": "a31",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "una curva clara sale del casco y baja al agua"
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "barco de vela dibujado"
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "mástil con hojas"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "flor roja en el árbol"
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "portal brillante en la vela"
+    },
+    {
+      "id": "a36",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "círculos en el casco, ningún ojo claro"
+    },
+    {
+      "id": "a37",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "llave dorada, pero está en la proa y no cuelga"
+    },
+    {
+      "id": "a38",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "estructuras hundidas que parecen una ciudad o un castillo"
+    },
+    {
+      "id": "a39",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "luna"
+    },
+    {
+      "id": "a40",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "planeta anillado"
+    },
+    {
+      "id": "a41",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "cielo nocturno con acentos cálidos; más noche que ocaso"
+    },
+    {
+      "id": "a42",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ilustración fantástica"
+    },
+    {
+      "id": "a43",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "se lee como cuento nocturno"
+    },
+    {
+      "id": "a44",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas mayormente planas"
+    },
+    {
+      "id": "a45",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "resplandores y degradados suaves"
+    },
+    {
+      "id": "a46",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "líneas doradas y finas decorativas"
+    },
+    {
+      "id": "a47",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "partes reconocibles, conjunto irreal"
+    }
+  ],
+  "no_dicho": "Una segunda luna o sol color crema asoma tras el casco en el horizonte derecho.",
+  "mal_armado": [
+    "la vela izquierda y la derecha se separan con una línea de jarcia que cruza sin conexión clara",
+    "la caña cruza el casco y se hunde en el agua sin terminar en un sedal",
+    "la curva clara que sale del casco termina en un óvalo suelto",
+    "las formas hundidas son bloques rectos cortados, sin relación clara con el casco",
+    "una bandera oscura detrás de las hojas queda superpuesta y confusa"
+  ]
+}

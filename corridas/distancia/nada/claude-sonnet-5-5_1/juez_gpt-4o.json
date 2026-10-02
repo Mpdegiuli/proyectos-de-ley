@@ -1,0 +1,80 @@
+{
+  "consigna": "nada",
+  "unidad": "claude-sonnet-5-5_1",
+  "juez": "gpt-4o",
+  "fecha_utc": "2026-10-02T14:41:15+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 503,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay un degradado radial visible sobre el lienzo."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El centro del degradado es blanco luminoso."
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Los bordes del degradado son gris pálido."
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Se ve un marco cuadrado de línea punteada alrededor del borde."
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El marco es tenue y semitransparente."
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No hay figuras ni objetos representados."
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "El degradado pasa de blanco a un tono gris hacia los bordes."
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "El degradado es suave, pero la sensación de niebla quieta es subjetiva."
+    },
+    {
+      "id": "a9",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "La sensación de una luz que se retira es subjetiva."
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La nada tiene atmósfera debido al degradado, no es un blanco absoluto."
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El marco insinúa un límite, no contiene formas."
+    }
+  ],
+  "no_dicho": "nada",
+  "mal_armado": []
+}

@@ -1,0 +1,86 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "deepseek-v4-pro_1",
+  "juez": "gpt-4o",
+  "fecha_utc": "2026-10-02T14:39:52+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 463,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Lienzo completamente vacío."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No hay figuras visibles."
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no",
+      "nota": "Vacío podría sugerir imposibilidad."
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El lienzo está completamente vacío."
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No hay cuerpo visible."
+    },
+    {
+      "id": "a6",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Vacío no plantea pregunta directamente."
+    },
+    {
+      "id": "a7",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Vacío no evoca retrato por ausencia."
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El lienzo sigue vacío."
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Ninguna figura presente."
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no",
+      "nota": "La nada no parece imposibilidad visible."
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no",
+      "nota": "Minimalismo conceptual podría aplicarse."
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no",
+      "nota": "Es una no-representación debido al vacío."
+    }
+  ],
+  "no_dicho": "nada",
+  "mal_armado": []
+}

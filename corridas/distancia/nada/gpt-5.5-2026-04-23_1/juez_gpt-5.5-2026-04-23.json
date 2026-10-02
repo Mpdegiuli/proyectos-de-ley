@@ -1,0 +1,80 @@
+{
+  "consigna": "nada",
+  "unidad": "gpt-5.5-2026-04-23_1",
+  "juez": "gpt-5.5-2026-04-23",
+  "fecha_utc": "2026-10-02T14:56:12+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1174,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "se ve un lienzo cuadrado, no el viewBox"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "no hay marcas visibles"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "no hay contenido gráfico visible; la estructura no se ve"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "la ausencia se percibe, no puede verificarse el SVG"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "el área aparece vacía"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "no se ven líneas"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "no hay colores dibujados, solo blanco"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "no hay formas internas, pero el lienzo es cuadrado"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "superficie lisa sin textura"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la blancura vacía genera silencio visual"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "se percibe como ausencia visible"
+    }
+  ],
+  "no_dicho": "un campo blanco uniforme",
+  "mal_armado": []
+}

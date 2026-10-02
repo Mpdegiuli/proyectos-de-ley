@@ -1,0 +1,332 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "claude-fable-5_1",
+  "juez": "gpt-4o",
+  "fecha_utc": "2026-10-02T15:06:25+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 2122,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "El casco tiene textura que podría interpretarse como escamas."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El casco tiene un ojo en la proa."
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El casco tiene cola de pez en la popa."
+    },
+    {
+      "id": "a4",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Las velas no se parecen a medusas."
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "El barco está sobre superficies que parecen nubes."
+    },
+    {
+      "id": "a6",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay estela de polvo visible."
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Peces voladores visibles alrededor del barco."
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Hay una luz en el mástil que podría ser un farol."
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "El barco tiene aletas, no claro si son remos."
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no",
+      "nota": "El barco está claramente en el aire, pero parece ser agua."
+    },
+    {
+      "id": "a11",
+      "se_ve": "no_aplica",
+      "efecto": "si",
+      "nota": "La imagen es claramente fantástica."
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Es un barco con rasgos de criatura."
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El barco parece navegar en el cielo nocturno."
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "El casco tiene forma similar a un pez."
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El casco es de color turquesa."
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "El casco tiene textura parecida a escamas."
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El casco tiene un ojo visible en la proa."
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay una cola de pez en la popa."
+    },
+    {
+      "id": "a19",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Las velas no se parecen a medusas."
+    },
+    {
+      "id": "a20",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Las velas no son rosadas."
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Las velas parecen translúcidas."
+    },
+    {
+      "id": "a22",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Las velas no tienen tentáculos visibles."
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El barco flota sobre lo que parecen nubes violetas."
+    },
+    {
+      "id": "a24",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay estela de polvo visible."
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "El barco tiene aletas que podrían remar."
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay peces voladores rosados."
+    },
+    {
+      "id": "a27",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "La luna no es visiblemente dorada."
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La luna tiene cráteres."
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay un farol encendido en el mástil."
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay un banderín rosa."
+    },
+    {
+      "id": "a31",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "El banderín está en el mástil."
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay estrellas en el fondo."
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El fondo es un cielo nocturno."
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El barco parece flotar en el aire."
+    },
+    {
+      "id": "a35",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "El barco tiene características de ser vivo."
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Es un híbrido de barco y criatura."
+    },
+    {
+      "id": "a37",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "El casco tiene textura de escamas."
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay un ojo en la proa."
+    },
+    {
+      "id": "a39",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay una cola de pez en la popa."
+    },
+    {
+      "id": "a40",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay aletas que salen del casco."
+    },
+    {
+      "id": "a41",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El barco navega por el cielo nocturno."
+    },
+    {
+      "id": "a42",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay nubes debajo del barco."
+    },
+    {
+      "id": "a43",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay estela de polvo visible."
+    },
+    {
+      "id": "a44",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Las velas son luminosas y translúcidas, pero no parecen medusas."
+    },
+    {
+      "id": "a45",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "La luna no es dorada."
+    },
+    {
+      "id": "a46",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay peces voladores."
+    },
+    {
+      "id": "a47",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Hay una luz que podría interpretarse como farol."
+    },
+    {
+      "id": "a48",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La paleta tiene violetas y rosas."
+    },
+    {
+      "id": "a49",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El casco tiene color turquesa brillante."
+    },
+    {
+      "id": "a50",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El estilo es plano y decorativo."
+    },
+    {
+      "id": "a51",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Las formas son simples con contornos marcados."
+    },
+    {
+      "id": "a52",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay gradientes suaves en el fondo."
+    },
+    {
+      "id": "a53",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El estilo evoca un cuento infantil."
+    }
+  ],
+  "no_dicho": "Nada",
+  "mal_armado": []
+}

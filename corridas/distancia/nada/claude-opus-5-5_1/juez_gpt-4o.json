@@ -1,0 +1,86 @@
+{
+  "consigna": "nada",
+  "unidad": "claude-opus-5-5_1",
+  "juez": "gpt-4o",
+  "fecha_utc": "2026-10-02T14:41:02+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 507,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Fondo casi negro visible."
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Centro ligeramente más claro pero sutil."
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Fondo cubierto de grano perceptible."
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Bruma tenue visible sobre el fondo."
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Círculo en el centro del lienzo."
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Círculo interior sin grano."
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Grano más denso hacia el borde del círculo."
+    },
+    {
+      "id": "a8",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Método de creación no visible."
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Halo gris casi imperceptible alrededor del círculo."
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Halo apenas perceptible."
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "La nada por contraste es subjetiva."
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "El interior del círculo puede transmitir ausencia, pero es subjetivo."
+    }
+  ],
+  "no_dicho": "Círculo perfectamente oscuro es lo más visible.",
+  "mal_armado": []
+}

@@ -1,0 +1,203 @@
+{
+  "consigna": "animal_inexistente",
+  "unidad": "gpt-4o-mini_1",
+  "juez": "gemini-3.1-pro-preview",
+  "fecha_utc": "2026-10-02T15:41:30+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1561,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "solo hay cara"
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "ojos con antifaz"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "espejado verticalmente"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "tonos intensos"
+    },
+    {
+      "id": "a5",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "flota en blanco"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "contraste visual"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "óvalo ancho"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cabeza naranja"
+    },
+    {
+      "id": "a9",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "naranja liso"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "sin brillo"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "blanco y negro"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "línea negra"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ubicada abajo"
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "líneas flotantes"
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "son arcos"
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "arcos separados"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "expresión feliz"
+    },
+    {
+      "id": "a18",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "figura abstracta"
+    },
+    {
+      "id": "a19",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "rasgos mezclados"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "visibles en centro"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "forma marrón"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "antifaz verde"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "todo curvo"
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "estilo plano"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "pocos colores"
+    },
+    {
+      "id": "a26",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "sin bordes"
+    },
+    {
+      "id": "a27",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "rasgos amplios"
+    },
+    {
+      "id": "a28",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "pocos trazos"
+    },
+    {
+      "id": "a29",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "cara feliz"
+    },
+    {
+      "id": "a30",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "estilo infantil"
+    },
+    {
+      "id": "a31",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "diseño básico"
+    }
+  ],
+  "no_dicho": "Manchas verdes degradadas rodeando los ojos y forma marrón tipo barba abajo.",
+  "mal_armado": [
+    "cuernos flotando desconectados",
+    "líneas laterales sueltas"
+  ]
+}

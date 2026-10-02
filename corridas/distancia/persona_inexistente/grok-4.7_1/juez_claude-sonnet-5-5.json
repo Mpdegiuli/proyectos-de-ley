@@ -1,0 +1,177 @@
+{
+  "consigna": "persona_inexistente",
+  "unidad": "grok-4.7_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:34:42+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1436,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cara ovalada con elipses, curvas y degradados"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cara genérica, no recuerda a nadie concreto"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "se entiende como persona, aunque rara"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "retrato frontal y simétrico"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "fondo azul oscuro a violeta, muy apagado"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "piel durazno cálida"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "pelo marrón oscuro, pero liso y en forma de óvalo, sin ondas"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "iris verdeazulados con brillo"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "curva rosada de sonrisa suave"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "mejillas rosadas muy tenues"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "arco dorado con punto, flota sobre el pelo y no parece hilo en él"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "prenda violeta con puntos dorados"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "círculo de luz gris detrás de la cabeza"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sombras oscuras en los costados y bajo la figura"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "resplandor difuso con degradado radial"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cabeza y parte del torso"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos ojos con cejas"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pelo marrón largo detrás de la cara"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "prenda violeta en el pecho"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo oscuro"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "tonos cálidos de piel y pelo sobre violeta"
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "rasgos con líneas simples, formas sin contorno marcado"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "degradados suaves en piel, fondo y prenda"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "estilizado, algo realista en los ojos"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "aspecto de ilustración vectorial"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "claramente no es una foto"
+    }
+  ],
+  "no_dicho": "Las orejas puntiagudas tipo elfo a los lados de la cabeza y la mancha clara tipo flequillo en la frente.",
+  "mal_armado": [
+    "una línea vertical color piel sale del mentón hasta la prenda, parece un cuello o palito",
+    "la prenda violeta es una forma de almohada o cojín, sin hombros ni cuello",
+    "el arco dorado flota sin conexión con el pelo",
+    "manchas translúcidas de pelo se extienden fuera del óvalo y se ven raras",
+    "la boca y la línea del mentón se superponen de manera confusa",
+    "las orejas parecen pegadas a los lados del pelo"
+  ]
+}

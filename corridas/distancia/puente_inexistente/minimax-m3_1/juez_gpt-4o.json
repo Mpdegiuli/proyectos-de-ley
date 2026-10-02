@@ -1,0 +1,350 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "minimax-m3_1",
+  "juez": "gpt-4o",
+  "fecha_utc": "2026-10-02T15:01:00+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 2206,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Puente con arco central visible."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Cables tensores se curvan hacia arriba."
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Los cables llegan alto, pero no tocando la luna."
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Orbes en las terminaciones de los cables."
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Orbes flotan sin anclaje visible."
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No hay pilares en el agua."
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No hay torres visibles."
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Reflejo se dispersa en elipses."
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Elipses no corresponden a la estructura del puente."
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Luna con área oscura."
+    },
+    {
+      "id": "a11",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay constelaciones visibles."
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Fondo tiene un gradiente violeta."
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El puente transmite sensación de no ser habitable."
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El puente parece onírico y no construido."
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Un puente dibujado es visible."
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El puente tiene forma de arco."
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Aguas visibles bajo el puente."
+    },
+    {
+      "id": "a18",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Luna no parece gibosa específica."
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Orbes flotantes visibles."
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Cuerdas del puente se curvan hacia el cielo."
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Cuerdas no tocan claramente las estrellas."
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Línea del camino baja sobre el agua."
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Dos montañas visibles a los lados."
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Montañas son de color violáceo."
+    },
+    {
+      "id": "a25",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay constelaciones visibles."
+    },
+    {
+      "id": "a26",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No se observan luciérnagas."
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Reflejos dorados visibles en el agua."
+    },
+    {
+      "id": "a28",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay siluetas sobre el puente."
+    },
+    {
+      "id": "a29",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay siluetas de viajeros o mensajeros."
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Colores nocturnos dominan la paleta."
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Colores violeta y lavanda predominan."
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Destellos de color ámbar presentes."
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Destellos de color blanco presentes."
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Puente parece etéreo."
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Puente sugiere un cruce entre dos mundos."
+    },
+    {
+      "id": "a36",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No se sugiere un atardecer perpetuo."
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Escena nocturna."
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Puente parece hecho de arcos luminosos."
+    },
+    {
+      "id": "a39",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Puente suspendido sobre el agua."
+    },
+    {
+      "id": "a40",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Dos islotes rocosos visibles."
+    },
+    {
+      "id": "a41",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Orbes brillantes en la curvatura del puente."
+    },
+    {
+      "id": "a42",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Reflejo violáceo del puente en el agua."
+    },
+    {
+      "id": "a43",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Constelación cuadrilátera visible."
+    },
+    {
+      "id": "a44",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Fondo nocturno profundo."
+    },
+    {
+      "id": "a45",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Colores violetas y naranjas predominan."
+    },
+    {
+      "id": "a46",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Degradados suaves presentes."
+    },
+    {
+      "id": "a47",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Luna menguante visible."
+    },
+    {
+      "id": "a48",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Estrellas diminutas presentes."
+    },
+    {
+      "id": "a49",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay trazos neón evidentes."
+    },
+    {
+      "id": "a50",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Puente parece de resplandor cósmico."
+    },
+    {
+      "id": "a51",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El dibujo transmite fantasía onírica."
+    },
+    {
+      "id": "a52",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Luz funciona como materia visible."
+    },
+    {
+      "id": "a53",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Estilo de ilustración digital minimalista."
+    },
+    {
+      "id": "a54",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Remite a cosmic fantasy o vaporwave."
+    },
+    {
+      "id": "a55",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Composición limpia y simétrica."
+    },
+    {
+      "id": "a56",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Énfasis en la luz como elemento central."
+    }
+  ],
+  "no_dicho": "Pájaros pequeños volando en el cielo.",
+  "mal_armado": []
+}

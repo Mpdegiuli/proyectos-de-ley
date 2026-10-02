@@ -1,0 +1,188 @@
+{
+  "consigna": "persona",
+  "unidad": "grok-4.6_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:29:52+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1460,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "figura completa de cabeza a zapatos"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "parada sobre ambos pies"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "torso azul tipo camisa/chaleco"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "piernas azul marino oscuro"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "pelo marrón muy oscuro, solo mechones a los lados, cabeza casi calva arriba"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "brazos levantados en V"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sonrisa curva suave"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "degradé azul claro arriba"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "elipse verde oscura bajo los pies"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "se reconoce como personaje, aunque con anatomía rara"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sombra y fondo ubican la figura en el suelo"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "vista de frente"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "estilo de dibujo animado simple y cotidiano"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "de pie y frontal"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "degradé de azul claro a verde pálido"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sombra elíptica bajo los zapatos"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "piel durazno cálida"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "marrón muy oscuro, casi negro"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "rubor rosado tenue en las mejillas"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cejas curvas marrones"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "blanco de los ojos claro, pero iris oscuros"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sonrisa rosada-marrón"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "camisa azul con degradé"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pantalones azul oscuro"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "zapatos negros ovalados simples"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "brazos alzados hacia los lados y arriba"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "brazos en alto dan idea de saludo o alegría"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "imagen cuadrada"
+    }
+  ],
+  "no_dicho": "La cabeza es grande y flotante, separada del torso sin cuello, y el pelo es un contorno raro tipo auriculares.",
+  "mal_armado": [
+    "sin cuello: la cabeza flota sobre el torso",
+    "pelo desconectado, arco fino alrededor de la cabeza que parece diadema",
+    "brazos finos que no se unen bien a los hombros del torso",
+    "hay un cuello azul/hombros extraño sobre el torso",
+    "pies y piernas apenas conectados con zapatos"
+  ]
+}

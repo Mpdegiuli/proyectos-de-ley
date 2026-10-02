@@ -1,0 +1,80 @@
+{
+  "consigna": "nada",
+  "unidad": "claude-sonnet-5-5_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:42:03+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 604,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "degradado radial suave, centro claro y bordes más oscuros"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "centro casi blanco, algo luminoso"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "bordes gris muy pálido"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "marco de puntos finos cerca del borde, apenas visible"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "puntos casi invisibles, muy tenues"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "no hay objetos, solo fondo y marco"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "transición gradual de blanco a gris suave"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "suavidad y quietud neblinosa, aunque es muy sutil"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "se lee más como viñeteado que como luz que se va"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "no es blanco plano, tiene gradación sutil"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "el marco sugiere un límite, pero es casi imperceptible"
+    }
+  ],
+  "no_dicho": "nada",
+  "mal_armado": []
+}

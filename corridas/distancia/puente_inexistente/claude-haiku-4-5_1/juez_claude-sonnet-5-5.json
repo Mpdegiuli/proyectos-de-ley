@@ -1,0 +1,259 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "claude-haiku-4-5_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T15:00:18+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2020,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Hay arcos superpuestos, no una espiral clara"
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Los arcos laterales suben hacia el círculo central"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Círculo central sin soportes, flota"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Tres arcos dorados, pero no son espirales concéntricas"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Dos arcos llegan al círculo; el tercero queda más abajo"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Líneas finas desde las torres hacia el círculo, sin anclaje"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Dorado y amarillo con transparencias"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Arcos exteriores más amarillos y claros, efecto leve"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Imposibilidad suave, por el círculo flotante"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Arcos empinados parecen difíciles de recorrer"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Puente en arcos, no en espiral"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Dos islas de roca, flotan poco; están sobre el agua"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Varios arcos dorados"
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Suben en arco, sin retorcerse"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Dos torres grises sobre las islas"
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Cables grises finos, más grises que plateados"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Círculo anaranjado central en el aire"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Esferas roja, verde y turquesa sobre los arcos"
+    },
+    {
+      "id": "a19",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Parecen flotar, translúcidas, sobre los arcos"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Agua azul con anillos de ondas"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Cielo celeste degradado"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Sol amarillo con halo arriba a la derecha"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Círculo suspendido y arcos irreales"
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Colores armoniosos, composición algo desordenada"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "El círculo flotante desafía la gravedad"
+    },
+    {
+      "id": "a26",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No gira sobre sí mismo, son arcos"
+    },
+    {
+      "id": "a27",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Conecta dos islas, no claramente flotantes"
+    },
+    {
+      "id": "a28",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No hay bucles decrecientes"
+    },
+    {
+      "id": "a29",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Arcos convergen en el círculo, no bucles"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Círculo central en el aire"
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Nada sostiene el círculo arriba"
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tres esferas de colores"
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Círculos concéntricos en el agua"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Dorados, naranjas y marrones dominan"
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Degradados en cielo y agua"
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Círculos, elipses y trapecios"
+    },
+    {
+      "id": "a37",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Moderadamente compleja, no tanto"
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Estilo plano minimalista con toque fantástico"
+    },
+    {
+      "id": "a39",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Algo onírico por el círculo flotante"
+    },
+    {
+      "id": "a40",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Sol, esferas y ondas aportan ambiente"
+    }
+  ],
+  "no_dicho": "Las dos islas marrones de roca con bases trapezoidales sobre el agua",
+  "mal_armado": [
+    "Los cables grises salen de las torres y se cruzan sin conectar a nada",
+    "Los arcos amarillos y dorados se superponen de forma confusa",
+    "Los extremos de los arcos se solapan con las islas y las torres",
+    "Una torre queda detrás del arco y parece desconectada"
+  ]
+}

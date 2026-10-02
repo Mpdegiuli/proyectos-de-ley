@@ -1,0 +1,201 @@
+{
+  "consigna": "persona",
+  "unidad": "gpt-4o-mini_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:29:31+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1648,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "figura humana muy esquemática, ensamblada de forma torpe"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculo amarillo con cara"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "torso rectangular naranja"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "dos rectángulos naranjas separados del torso, con barras grises"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "dos barras grises verticales con barra horizontal que parece un banco"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "rectángulos y círculo básicos"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "pocas formas, planas"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "amarillo, naranja y gris azulado"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "amarillo y naranja saturados"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cabeza amarilla"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "torso, brazos y cejas naranjas"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "sonrisa y colores alegres, pero las cejas inclinadas dan aire enojado"
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "la anatomía confusa dificulta reconocerla como persona"
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "colores atractivos pero la forma es rara"
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "aspecto simple y simpático, algo desconcertante"
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "persona esquemática y desarmada"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "imagen cuadrada"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculo amarillo"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cabeza en la zona superior, con espacio vacío abajo"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos puntos oscuros"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "curva gris debajo de los ojos"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "rectángulo naranja con línea gris central"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "rectángulos verticales a los lados, no extendidos"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos barras gris oscuro, algo gruesas"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "barras horizontales grises, no se leen como brazos relajados"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "líneas naranjas en V sobre los ojos, muy largas"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sonrisa curva"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "varios colores vivos"
+    },
+    {
+      "id": "a29",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "sonrisa alegre, cejas contradicen"
+    },
+    {
+      "id": "a30",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "cejas en V la hacen parecer enfadada"
+    }
+  ],
+  "no_dicho": "Las cejas naranjas enormes en V se extienden fuera de la cabeza como cuernos o alas, y la barra horizontal junto a las piernas parece una mesa o banco.",
+  "mal_armado": [
+    "brazos naranjas separados del torso por un hueco blanco",
+    "barras grises horizontales desconectadas que no se leen como brazos",
+    "línea vertical gris atraviesa el torso desde la cabeza sin lógica",
+    "piernas separadas del torso con espacio, cruzadas por una barra horizontal",
+    "cejas demasiado largas que sobresalen de la cabeza",
+    "cabeza y torso sin cuello, apenas tocándose"
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "consigna": "nada",
+  "unidad": "grok-4.6_1",
+  "juez": "gpt-4o",
+  "fecha_utc": "2026-10-02T14:42:17+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 694,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El cuadrado negro llena el lienzo."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El color utilizado es negro."
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El negro ocupa toda la superficie del lienzo."
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "El fondo es negro, no hay figura identificable."
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "El dibujo transmite vacío por falta de elementos."
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El negro se lee como ausencia de color e imagen."
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No hay adorno visible."
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Forma mínima sin elementos adicionales."
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay un cuadrado negro de 400 por 400."
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El rectángulo está relleno de color #000."
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No hay figura visible, solo negro."
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No hay borde distinguible en el negro."
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No hay luces visibles."
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El vacío ocupa todo el lienzo."
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "El dibujo produce un silencio visual por la falta de elementos."
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Transmite oscuridad completa debido al negro total."
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Representa ausencia total por falta de imagen."
+    }
+  ],
+  "no_dicho": "nada",
+  "mal_armado": []
+}

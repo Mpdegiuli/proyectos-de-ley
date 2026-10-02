@@ -1,0 +1,163 @@
+{
+  "consigna": "persona",
+  "unidad": "gpt-6-luna_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:29:12+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1232,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "figura parada de frente"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "campera verde azulada con cuello y botones"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pantalón azul oscuro"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ojos cerrados sonrientes, mejillas rosadas, sonrisa"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "de la cabeza a los zapatos"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tonos durazno y marrón cálido"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "crema arriba, pero abajo verde grisáceo frío"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "verde azulado y azul marino"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "una sola persona"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "degradado, círculo claro y colina"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "colores saturados contra fondo pálido"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "pocos elementos, limpio"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la figura centrada domina"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "se lee claramente como persona"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "repetida, de pie"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sonrisa visible"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pelo marrón muy oscuro"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "chaqueta verde azulada"
+    },
+    {
+      "id": "a19",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no se ve camisa anaranjada; solo la campera"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pantalones oscuros"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "zapatillas blancas crema con borde naranja"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "degradado suave y pálido"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "solo dos o tres puntitos blancos, no se leen como estrellas"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "óvalo gris verdoso bajo los pies"
+    }
+  ],
+  "no_dicho": "El círculo claro detrás de la persona, como un halo, y la colina del fondo.",
+  "mal_armado": [
+    "brazos con contorno color piel desfasado de las mangas, se ven como dos capas separadas",
+    "manos pequeñas y con puños amarillos que parecen pegados, con rayitas sueltas",
+    "piernas del pantalón sin separación clara entre ellas, forma rígida",
+    "falta de conexión visible entre cuello y camisa en la zona del cuello oscuro"
+  ]
+}

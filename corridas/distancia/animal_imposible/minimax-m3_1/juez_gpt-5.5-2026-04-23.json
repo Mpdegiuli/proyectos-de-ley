@@ -1,0 +1,238 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "minimax-m3_1",
+  "juez": "gpt-5.5-2026-04-23",
+  "fecha_utc": "2026-10-02T15:29:47+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 3203,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cuatro alas tipo mariposa"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "astas marrones sobre el cuerpo"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "apéndice azul curvo bajo el cuerpo, no claramente trompa de elefante"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ocelos visibles en las alas"
+    },
+    {
+      "id": "a5",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay ojos en las patas"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "cuerpo azul ovalado, pero sin rasgos acuáticos claros"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cuerpo azul"
+    },
+    {
+      "id": "a8",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no se ven escamas"
+    },
+    {
+      "id": "a9",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "patas simples, no articuladas de insecto"
+    },
+    {
+      "id": "a10",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "se ve más tierno que inquietante"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "cuerpo ovalado con apéndice, no claramente de elefante"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cuerpo de tono azulado"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cuatro alas desplegadas"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos alas superiores y dos inferiores"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "alas con tonos rosa, violeta y azul"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cada ala tiene un ocelo simple"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos astas finas ramificadas"
+    },
+    {
+      "id": "a18",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay probóscide curva, no muy enroscada"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cinco ojos amarillos en el cuerpo"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos patas delgadas visibles"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "terminan en óvalos oscuros tipo pezuña"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "óvalos amarillos dentro de los cascos"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "fondo de cielo claro, no crepuscular"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntos blancos tipo estrellas"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "criatura suspendida sin suelo"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "híbrido con cuatro alas de mariposa"
+    },
+    {
+      "id": "a27",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay escamas de pez"
+    },
+    {
+      "id": "a28",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no se ven bigotes de siluro"
+    },
+    {
+      "id": "a29",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "apéndice curvo, no enrollado"
+    },
+    {
+      "id": "a30",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "cinco ojos en el cuerpo, pero además hay ocelos en alas"
+    },
+    {
+      "id": "a31",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "dos patas con extremos ovalados, no claramente almohadillas"
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "gradientes rosa, violeta y azul"
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "contornos delgados oscuros"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "colores claros y brillantes"
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "estilo fantasioso e ilustrativo"
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "aspecto de fantasía infantil digital"
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "degradados suaves en las alas"
+    }
+  ],
+  "no_dicho": "pequeñas marcas curvas celestes decoran el cuerpo azul",
+  "mal_armado": [
+    "la trompa o probóscide se mezcla visualmente con las patas bajo el cuerpo"
+  ]
+}

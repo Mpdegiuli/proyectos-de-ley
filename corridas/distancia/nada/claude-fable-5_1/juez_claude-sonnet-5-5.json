@@ -1,0 +1,68 @@
+{
+  "consigna": "nada",
+  "unidad": "claude-fable-5_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:42:08+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 545,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo casi negro en toda la imagen"
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "se intuye un leve aclarado en los bordes, casi invisible"
+    },
+    {
+      "id": "a3",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no se distingue ningún círculo en el centro"
+    },
+    {
+      "id": "a4",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no se ve círculo ni relleno"
+    },
+    {
+      "id": "a5",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no se ve trazo alguno"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el degradado es tan sutil que casi no se percibe"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "se ve un óvalo tenue más oscuro, pero no da profundidad clara"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "no se ve ningún círculo, coherente con lo dicho"
+    },
+    {
+      "id": "a9",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "sin pista visual de presencia; solo negro"
+    }
+  ],
+  "no_dicho": "Un óvalo o viñeta apenas más claro rodeando una zona central más oscura, con forma de contorno redondeado.",
+  "mal_armado": []
+}

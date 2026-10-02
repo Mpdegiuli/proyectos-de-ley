@@ -1,0 +1,86 @@
+{
+  "consigna": "nada",
+  "unidad": "claude-opus-5-5_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:41:49+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 708,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo gris muy oscuro, casi negro"
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "algo más claro hacia los bordes y en manchas; el centro es el círculo negro"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "textura granulada visible por todo el fondo"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "manchas borrosas grises como bruma o nubes tenues"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculo negro grande centrado"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "interior negro liso, sin textura"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "el borde es bastante nítido; el grano se nota algo atenuado cerca"
+    },
+    {
+      "id": "a8",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "el método no se ve; solo se ve el círculo liso"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "leve claridad alrededor del borde, apenas distinguible de la bruma"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "casi no se percibe como halo propio"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el círculo negro resalta contra el fondo grisáceo"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "negro uniforme, se lee como vacío o agujero"
+    }
+  ],
+  "no_dicho": "La imagen se lee como un agujero negro o eclipse, un disco negro nítido sobre fondo nublado.",
+  "mal_armado": []
+}

@@ -1,0 +1,86 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "deepseek-v4-pro_1",
+  "juez": "gemini-3.1-pro-preview",
+  "fecha_utc": "2026-10-02T15:08:17+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 483,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El lienzo está completamente en blanco."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No se observa ninguna figura."
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no",
+      "nota": "El lienzo está vacío, pero no transmite una imposibilidad objetivamente."
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El lienzo está en blanco."
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No hay ningún cuerpo dibujado."
+    },
+    {
+      "id": "a6",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Es solo un lienzo blanco, no produce esa pregunta por sí solo."
+    },
+    {
+      "id": "a7",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Es un lienzo en blanco, no se lee como retrato."
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El lienzo es blanco puro."
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No hay figuras de ningún tipo."
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no",
+      "nota": "Hay nada en el lienzo, pero no se lee como imposibilidad hecha visible sin contexto."
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Un lienzo en blanco puede considerarse minimalismo extremo."
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Efectivamente, no hay ninguna representación."
+    }
+  ],
+  "no_dicho": "nada",
+  "mal_armado": []
+}

@@ -1,0 +1,305 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "glm-5.3-razonamiento-minimo_1",
+  "juez": "gemini-3.1-pro-preview",
+  "fecha_utc": "2026-10-02T16:17:06+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1838,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Ruta en espiral concéntrica."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Es una espiral clara."
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Estructura central iluminada, pero no flota."
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Base llega hasta el agua."
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Acantilado con detalle verde y rosa."
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Puntos rosas sobre hojas."
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Mástil central, no monolito."
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Luces en la estructura central."
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Base toca la superficie inferior."
+    },
+    {
+      "id": "a10",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Está anclado al agua."
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Conexiones poco lógicas."
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Forma espiral logra esto."
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Colores del fondo encajan."
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Ruta desde borde izquierdo."
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Sobre zona azul."
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Radio de curva menor al centro."
+    },
+    {
+      "id": "a17",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Anclado, no flota."
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Gran luz superior."
+    },
+    {
+      "id": "a19",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Cables bajan a la ruta."
+    },
+    {
+      "id": "a20",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Postes de luz, no torres."
+    },
+    {
+      "id": "a21",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "La ruta los sostiene a ellos."
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Superficie oscura inferior."
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Ondas circulares, no reflejo fiel."
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Muñeco con halo celeste."
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "Mira al frente."
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Aves en el cielo."
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Puntos rosas a la izquierda."
+    },
+    {
+      "id": "a28",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Repite a10."
+    },
+    {
+      "id": "a29",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "Espiral cerrada."
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Arranca a la izquierda."
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Ruta en forma espiral."
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "en_parte",
+      "nota": "Mástil llega abajo."
+    },
+    {
+      "id": "a33",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Sostiene luces y cables."
+    },
+    {
+      "id": "a34",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Repite que flota, pero no."
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Líneas diagonales conectan."
+    },
+    {
+      "id": "a36",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Apoya en roca y agua."
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Degradado morado."
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Puntos blancos de fondo."
+    },
+    {
+      "id": "a39",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Zonas más claras en el cielo."
+    },
+    {
+      "id": "a40",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Esferas amarillas."
+    },
+    {
+      "id": "a41",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Figura con anillo azul."
+    },
+    {
+      "id": "a42",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Formas de vuelo."
+    },
+    {
+      "id": "a43",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Escala y diseño irreales."
+    },
+    {
+      "id": "a44",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "Halo da ese tono leve."
+    },
+    {
+      "id": "a45",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Geometría básica."
+    },
+    {
+      "id": "a46",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Sin texturas complejas."
+    },
+    {
+      "id": "a47",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Líneas punteadas y ondas."
+    },
+    {
+      "id": "a48",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Enfoque puramente estético."
+    }
+  ],
+  "no_dicho": "Gran luna amarilla redonda a la izquierda.",
+  "mal_armado": [
+    "piernas del personaje traspasan el puente",
+    "escalera central desprendida"
+  ]
+}

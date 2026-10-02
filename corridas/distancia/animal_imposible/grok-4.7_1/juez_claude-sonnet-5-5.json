@@ -1,0 +1,266 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "grok-4.7_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:57:17+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2178,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "cuerpo naranja liso, sin textura de pelaje; solo bigotes"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ala translúcida azulada con nervaduras a la izquierda"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "formas blancas crema tipo plumas detrás del lomo"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cola larga a la derecha con ojo y carita en la punta"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "aleta turquesa bajo el cuerpo"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tres ojos en la cabeza: azul oscuro, verde, violeta"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "espiral violeta sobre el lomo"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "florcita rosa con tallo verde sobre el lomo"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "gema celeste en marco oscuro en el cuerpo"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "partes dispares pegadas, se lee como collage"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "criatura quimérica imposible"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "luna llena crema con cráteres"
+    },
+    {
+      "id": "a13",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "el cuerpo es una masa redondeada tipo ave, no de zorro"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cuerpo naranja degradado"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ala translúcida azul-celeste tipo vidrio"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "plumas blancas crema detrás del cuerpo"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tres ojos en la cara"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pupilas/iris azul, verde y violeta"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "espiral violeta como cuerno"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "antena amarilla sobre la cabeza"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "termina en horquilla de ramitas, no claramente estrella"
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "flor sale del lomo/parte alta del cuerpo, no del pecho"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "gema brillante en el lomo"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pata fina que termina en raíces ramificadas"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "otra pata termina en pie oscuro redondeado, algo como pezuña"
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "cola con aleta turquesa, no se convierte claramente en pez"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "carita sonriente en la punta de la cola"
+    },
+    {
+      "id": "a28",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "anatomía incoherente, parece no funcional"
+    },
+    {
+      "id": "a29",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "cabeza de zorro/gato naranja con bigotes"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ala translúcida tipo insecto/membrana"
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "plumas blancas"
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "aleta turquesa"
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tres ojos en la cabeza"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "azul, verde y violeta"
+    },
+    {
+      "id": "a35",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "la flor está en el lomo, no en la cabeza"
+    },
+    {
+      "id": "a36",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "cristal en el cuerpo, más hacia el lomo/frente"
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "carita en la punta de la cola"
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas planas con degradados suaves"
+    },
+    {
+      "id": "a39",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "criatura fantástica"
+    },
+    {
+      "id": "a40",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo nocturno con estrellas y luna"
+    },
+    {
+      "id": "a41",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "aire de libro ilustrado infantil"
+    }
+  ],
+  "no_dicho": "El cuello largo y enroscado tipo serpiente que une la cabeza con el cuerpo, con rayas claras.",
+  "mal_armado": [
+    "cuello de serpiente que sale detrás del ala y se une de forma confusa al cuerpo",
+    "raíz de la pata fina y delgada que se ve desconectada del cuerpo",
+    "pata con pezuña aislada sobre la colina oscura",
+    "ojo azul de la cola flota en la unión de cuerpo y cola",
+    "flor con tallo suelto que parece pegada sobre el espiral"
+  ]
+}

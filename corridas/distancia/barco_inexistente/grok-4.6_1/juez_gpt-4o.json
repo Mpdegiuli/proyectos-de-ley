@@ -1,0 +1,230 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "grok-4.6_1",
+  "juez": "gpt-4o",
+  "fecha_utc": "2026-10-02T15:08:19+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1405,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Ojo visible en la proa."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Velas parecen membranas de colores."
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Elemento con aspecto bioluminiscente en la popa."
+    },
+    {
+      "id": "a4",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Casco no claramente con forma de animal."
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Se reconoce claramente como barco."
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Barco no convencional."
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No es galeón ni ballena."
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "No transmite falta de navegación."
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Casco parece de madera."
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Ojo verde en la proa."
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tres velas visibles."
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Una vela es de color rosa."
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Vela parece más azul que turquesa."
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Una vela de color ámbar."
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Figura circular parece luna."
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Cielo con degradado del índigo al cobre."
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Elementos en agua podrían ser criaturas."
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Agua es oscura."
+    },
+    {
+      "id": "a19",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay farol verdoso claro en la popa."
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Camarote visible en el barco."
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Ventanas de colores en el camarote."
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Escena sugiere atardecer."
+    },
+    {
+      "id": "a23",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Velas no parecen claramente henchidas."
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Ojo no transmite claramente que el barco mira."
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "La imagen da esa impresión."
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Barco claramente visible."
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Ojo en la proa parece vivo."
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Velas parecen membranosas."
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Las velas son rosa, turquesa y ámbar."
+    },
+    {
+      "id": "a30",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No se ve linterna verdosa clara."
+    },
+    {
+      "id": "a31",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Casco parece mitad madera pero no claramente criatura."
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Cielo tiene un aspecto fantástico."
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Estilo de ilustración fantástica vectorial."
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Uso visible de degradados."
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Paleta es claramente crepuscular."
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Tono es naïf y de cuento."
+    }
+  ],
+  "no_dicho": "Las estrellas en el cielo.",
+  "mal_armado": []
+}

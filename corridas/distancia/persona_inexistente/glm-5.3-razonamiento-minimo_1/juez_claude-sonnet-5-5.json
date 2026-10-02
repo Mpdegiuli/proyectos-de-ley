@@ -1,0 +1,326 @@
+{
+  "consigna": "persona_inexistente",
+  "unidad": "glm-5.3-razonamiento-minimo_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:35:51+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2552,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "figura mística con manto y orbe, se lee como hechicera"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "orejas largas y puntiagudas arriba de la cabeza"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ojo violeta en la frente"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "solo puntitos tenues en las mejillas, apenas visibles"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "orbe en el cinturón al centro, no entre las manos"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "noche azul oscura con estrellas"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cielo nocturno de fondo"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "túnica verde larga"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "rostro y cuerpo humanos pero con orejas y tercer ojo"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "tercer ojo y orejas la hacen imposible"
+    },
+    {
+      "id": "a11",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay nombre escrito"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "orejas puntiagudas"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pelo violeta oscuro"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ojo violeta en la frente"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "túnica verde"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "manto púrpura detrás"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "resplandor pálido tras la cabeza, más blanco azulado que dorado"
+    },
+    {
+      "id": "a18",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "de pie sobre un suelo oscuro, colina apenas sugerida"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "fondo nocturno"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "varias estrellas y puntos"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "luna gris arriba a la derecha"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "constelación con líneas arriba a la izquierda"
+    },
+    {
+      "id": "a23",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "orbe pegado al cinturón, manos lejos a los costados"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "estrella de cuatro puntas en el orbe"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "línea de guiones tenue cruza a la altura de las manos, no luminosa ni conecta al orbe"
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "puntos verdosos pálidos y casi invisibles"
+    },
+    {
+      "id": "a27",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "brilla pero está sobre el cinturón, no flota claramente"
+    },
+    {
+      "id": "a28",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "brillo casi imperceptible"
+    },
+    {
+      "id": "a29",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "orbe y halo dan idea de luz, no tanto absorción"
+    },
+    {
+      "id": "a30",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "sin nombre visible"
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "orejas largas puntiagudas"
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tercer ojo violeta"
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ojos verdes con pupila"
+    },
+    {
+      "id": "a34",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "pecas muy tenues"
+    },
+    {
+      "id": "a35",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no se perciben como musgo luminoso"
+    },
+    {
+      "id": "a36",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "orbe al centro, no entre manos"
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "estrella dentro del orbe"
+    },
+    {
+      "id": "a38",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "resplandor pero parece apoyado en el cinturón"
+    },
+    {
+      "id": "a39",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "túnica verde"
+    },
+    {
+      "id": "a40",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cinturón dorado ancho con hebilla"
+    },
+    {
+      "id": "a41",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "manto violeta"
+    },
+    {
+      "id": "a42",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "halo difuso alrededor de la cabeza y torso"
+    },
+    {
+      "id": "a43",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "noche con estrellas"
+    },
+    {
+      "id": "a44",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "luna"
+    },
+    {
+      "id": "a45",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "constelación"
+    },
+    {
+      "id": "a46",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas planas vectoriales"
+    },
+    {
+      "id": "a47",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "aire fantasioso y onírico"
+    },
+    {
+      "id": "a48",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "degradados sutiles, colores más bien apagados"
+    },
+    {
+      "id": "a49",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "bordes limpios y suaves"
+    },
+    {
+      "id": "a50",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "noche mágica"
+    },
+    {
+      "id": "a51",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "recuerda a carta de tarot o fantasía ilustrada"
+    }
+  ],
+  "no_dicho": "Collar dorado con colgante redondo y expresión sonriente serena de la figura.",
+  "mal_armado": [
+    "manos como círculos sueltos en los extremos de las mangas, separadas del cuerpo",
+    "línea de guiones atraviesa el torso a la altura de las manos",
+    "orbe sobre el cinturón en vez de entre las manos",
+    "cabeza muy ancha con flequillo que tapa media cara, pelo y ojos algo confusos",
+    "piernas ausentes, túnica termina en sombra plana"
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "claude-sonnet-4-6_1",
+  "juez": "gemini-3.1-pro-preview",
+  "fecha_utc": "2026-10-02T15:48:30+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1440,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Cuerpo similar a un pez, patas delgadas articuladas pero son 6, no 8"
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Tiene estructuras que parecen alas o aletas, pero no son claramente emplumadas"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Ojos redondos naranjas, pero sin textura clara de ojo compuesto"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tiene dos apéndices en la parte inferior (boca/cabeza) que parecen antenas"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Formas de llama saliendo de la parte inferior de la cabeza"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Cuerpo vertical con rasgos faciales abajo y fondo estrellado"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Aletas caudales arriba, cara y antenas abajo"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Cuerpo azul, se ven algunas curvas sutiles que podrían ser escamas pero no son evidentes"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Llamas rojas y naranjas debajo de la boca"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Tiene patas articuladas pero son 6, no 8"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Alas/aletas color ámbar/naranja, sin plumas evidentes"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Ojos naranjas grandes, sin textura de compuesto"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Apéndices inferiores con esferas magenta"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Fondo azul oscuro con puntos que parecen estrellas"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Puntos grises en el fondo"
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Tiene rasgos de pez (cuerpo, aleta caudal), araña (patas), insecto (antenas), las alas son ambiguas"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Fondo estrellado y posición central sugieren flotar"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Fuego hacia abajo, pez invertido, mezcla de rasgos"
+    },
+    {
+      "id": "a19",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Tiene 6 patas, no 8"
+    },
+    {
+      "id": "a20",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Estructuras tipo ala/aleta, no emplumadas"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Ojos grandes, no se ven compuestos"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Dos antenas en la parte inferior"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Llamas debajo de la cabeza"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Cara abajo, aleta arriba, fondo espacial"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Fondo oscuro con estrellas"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Predomina el azul en cuerpo y fondo"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Ojos, alas y fuego en naranja/ámbar"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Esferas en antenas color magenta"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Cuerpo y ojos tienen gradientes"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Patas hechas con líneas rectas y esferas en las uniones"
+    },
+    {
+      "id": "a31",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "Es un dibujo plano y vectorial, no tan técnico"
+    },
+    {
+      "id": "a32",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Se ve como una ilustración vectorial, no tanto como un diagrama científico"
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Fondo espacial y posición central sin apoyo"
+    }
+  ],
+  "no_dicho": "El texto en la parte inferior que dice 'Pez Arácnido Ígneo Invertido'",
+  "mal_armado": []
+}

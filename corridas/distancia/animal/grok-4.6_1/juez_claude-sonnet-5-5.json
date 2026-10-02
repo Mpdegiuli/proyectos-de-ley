@@ -1,0 +1,181 @@
+{
+  "consigna": "animal",
+  "unidad": "grok-4.6_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:46:36+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1439,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "zorro naranja de estilo caricatura"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cuerpo ovalado erguido con patas delanteras al frente"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "colinas verde oscuro en capas"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "luna amarilla con cráteres arriba a la derecha"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "degradé del cielo con horizonte anaranjado, se siente crepúsculo"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pelaje naranja con degradé a rojizo"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cola grande a la derecha con interior crema"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos orejas triangulares"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cielo oscuro con estrellas"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el naranja resalta contra el azul y morado, y se une al horizonte"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "se lee como zorro, aunque las orejas flotan separadas y la cara parece de ardilla"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "zorro presente"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "postura sentada de frente"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "fondo de crepúsculo"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "del azul oscuro arriba al naranja en el horizonte"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "disco redondo completo"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntos blancos pequeños en el cielo"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "zorro sobre colinas verde oscuro"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "naranja intenso"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "óvalo blanco en el vientre"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "orejas largas y puntiagudas"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tres bigotes por lado"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cola ancha y curva"
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "el interior de la cola es crema, pero la punta no se ve distinta"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "un solo árbol chico a la izquierda, ninguno a la derecha"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos florcitas abajo, a izquierda y derecha"
+    },
+    {
+      "id": "a27",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "el viewBox no se ve, solo que la imagen es cuadrada"
+    }
+  ],
+  "no_dicho": "La cara blanca del zorro con ojos grandes y nariz oscura, que le da un aire tierno",
+  "mal_armado": [
+    "las orejas flotan arriba de la cabeza sin tocarla",
+    "la cola está despegada del cuerpo",
+    "el árbol de la izquierda es una forma extraña, como un hongo",
+    "la mancha beige bajo la nariz parece una gota"
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "grok-4.7_1",
+  "juez": "gpt-4o",
+  "fecha_utc": "2026-10-02T15:08:33+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1902,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El mástil tiene hojas y una flor."
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "La vela tiene un sol que podría parecer un portal."
+    },
+    {
+      "id": "a3",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay un ancla en forma de aro visible."
+    },
+    {
+      "id": "a4",
+      "se_ve": "no",
+      "efecto": "si",
+      "nota": "No se ve ancla que parezca una llave."
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Se ve una estructura que podría ser una arquitectura hundida."
+    },
+    {
+      "id": "a6",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No se ve caña pescando una rosa."
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay una medusa bajo el agua."
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay una luna en el cielo."
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay un planeta con anillo visible."
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay una estrella fugaz en el cielo."
+    },
+    {
+      "id": "a11",
+      "se_ve": "no_aplica",
+      "efecto": "no",
+      "nota": "Los elementos no aparentan inexistencia en sí mismos."
+    },
+    {
+      "id": "a12",
+      "se_ve": "no_aplica",
+      "efecto": "no",
+      "nota": "El barco puede nombrarse a pesar de la mezcla."
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El barco tiene un casco que parece de madera."
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay un ojo en la proa del barco."
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La vela es de color claro."
+    },
+    {
+      "id": "a16",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay un portal de fuego visible en la vela."
+    },
+    {
+      "id": "a17",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay un pájaro visible dentro del portal."
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El mástil es un árbol con hojas."
+    },
+    {
+      "id": "a19",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "El mástil tiene una forma similar a una flor roja."
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "La escena parece al anochecer por la iluminación."
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay una luna visible."
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay un planeta con anillo visible."
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Se ve un cometa en el cielo."
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El barco navega sobre el mar."
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Las estructuras bajo el agua podrían parecer un reflejo."
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Se ven medusas en el mar."
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay un sendero de luz visible en el agua."
+    },
+    {
+      "id": "a28",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Se ve un elemento que podría ser un farol en la popa."
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay una llave dorada colgando de la popa."
+    },
+    {
+      "id": "a30",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Hay líneas detrás del barco que podrían parecer una estela."
+    },
+    {
+      "id": "a31",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "La estela no claramente termina en el agua."
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay un barco dibujado."
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Mástil es un árbol con hojas."
+    },
+    {
+      "id": "a34",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "El mástil tiene un elemento que podría ser una flor."
+    },
+    {
+      "id": "a35",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "La vela tiene un sol que podría parecer un portal encendido."
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El casco tiene un ojo."
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Una llave de oro cuelga de la popa."
+    },
+    {
+      "id": "a38",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "La arquitectura hundida podría ser una ciudad."
+    },
+    {
+      "id": "a39",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Se ve una luna."
+    },
+    {
+      "id": "a40",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay un planeta con anillo visible."
+    },
+    {
+      "id": "a41",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Los colores evocan un ocaso."
+    },
+    {
+      "id": "a42",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El estilo parece de ilustración fantástica."
+    },
+    {
+      "id": "a43",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "El estilo parece evocar una miniatura de cuento."
+    },
+    {
+      "id": "a44",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Las formas son planas."
+    },
+    {
+      "id": "a45",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Los degradados parecen suaves."
+    },
+    {
+      "id": "a46",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay línea decorativa visible."
+    },
+    {
+      "id": "a47",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Las partes se reconocen pero no forman un barco real."
+    }
+  ],
+  "no_dicho": "El sol en la vela tiene una cara.",
+  "mal_armado": []
+}

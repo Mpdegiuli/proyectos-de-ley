@@ -1,0 +1,262 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "mistral-medium-3.5_1",
+  "juez": "gemini-3.1-pro-preview",
+  "fecha_utc": "2026-10-02T16:14:28+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 2070,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "líneas verticales grises"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "separados de la torre"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "torre opaca, no semitransparente"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "triángulo opaco"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "apoyada en el arco"
+    },
+    {
+      "id": "a6",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "arcos simétricos"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "uniones abstractas"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "geometría irreal"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "abstracto más que futurista"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sobre zona verde"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "suelo verde"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cielo degradado"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "base de arcos"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "líneas verticales"
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "una torre central"
+    },
+    {
+      "id": "a16",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "círculos separados de pilares"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "torre central"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "arriba de la torre"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculo amarillo arriba"
+    },
+    {
+      "id": "a20",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "formas simples"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sombra bajo puente"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "grises y cielo"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "sombra plana"
+    },
+    {
+      "id": "a24",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "dibujo vectorial"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "toca el suelo en bordes"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "igual a a14"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "rectángulo central"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "triángulo superior"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculo amarillo"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cielo azul"
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "borde verde"
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "proporción 1:1"
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "geometría limpia"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "vectores"
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "grises degradados"
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sombra uniforme"
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "formas básicas"
+    },
+    {
+      "id": "a38",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "solo la curva del suelo"
+    },
+    {
+      "id": "a39",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "trazos finos"
+    },
+    {
+      "id": "a40",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no evoca tecnología"
+    },
+    {
+      "id": "a41",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "paisaje genérico"
+    }
+  ],
+  "no_dicho": "línea blanca punteada horizontal y dos círculos grises flotantes laterales",
+  "mal_armado": [
+    "sombra proyectada uniformemente sobre cielo y suelo aplasta la figura"
+  ]
+}

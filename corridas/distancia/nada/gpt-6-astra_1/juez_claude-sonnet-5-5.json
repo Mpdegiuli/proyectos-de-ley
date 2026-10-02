@@ -1,0 +1,80 @@
+{
+  "consigna": "nada",
+  "unidad": "gpt-6-astra_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:42:36+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 553,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "todo el lienzo es blanco; un rectángulo no se distingue del fondo"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "no se ve ninguna figura"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ninguna marca visible"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo blanco uniforme"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cuadrado blanco completo"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sin figuras"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sin líneas"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sin texto"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "vacío total"
+    },
+    {
+      "id": "a10",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no se ven bordes; el blanco se funde con el fondo de la página"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "se percibe un espacio blanco sin nada"
+    }
+  ],
+  "no_dicho": "nada",
+  "mal_armado": []
+}

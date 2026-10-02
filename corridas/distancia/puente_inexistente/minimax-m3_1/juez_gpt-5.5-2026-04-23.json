@@ -1,0 +1,350 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "minimax-m3_1",
+  "juez": "gpt-5.5-2026-04-23",
+  "fecha_utc": "2026-10-02T15:41:47+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 3724,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tablero bajo y arcos centrales visibles"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "varios arcos suben sobre el tablero"
+    },
+    {
+      "id": "a3",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "el arco más alto queda lejos de la luna"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "los arcos terminan en luces laterales"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "algunos orbes flotan, otros anclan el puente"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "no se ven pilares bajo el puente"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "no hay torres visibles"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "reflejo formado por elipses violetas"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "las elipses no copian la forma del puente"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "luna anaranjada con círculo oscuro"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay estrellas y una figura cuadrilátera"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo con degradado violeta oscuro"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "parece poco transitable o irreal"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "se percibe más onírico que construido"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "hay un puente central"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "el puente está formado por arcos"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "hay agua oscura bajo el puente"
+    },
+    {
+      "id": "a18",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "la luna tiene mordida, no fase clara"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "orbes brillantes suspendidos en la escena"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "las cuerdas luminosas se curvan hacia arriba"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "suben al cielo pero no casi hasta las estrellas"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "camino bajo, muy cerca del agua"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos formas montañosas a ambos lados"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "montañas de tonos violetas"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay estrellas, poca conexión de constelación"
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "los puntos ámbar parecen más luces o estrellas"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "trazos dorados reflejados en el agua"
+    },
+    {
+      "id": "a28",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no se ven figuras humanas sobre el puente"
+    },
+    {
+      "id": "a29",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no hay siluetas de viajeros"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "paleta oscura de noche"
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "predominan violetas y lavandas"
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "luces ámbar en puente y cielo"
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "estrellas y trazos blancos visibles"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el puente se ve liviano y luminoso"
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el cruce entre orillas tiene aire fantástico"
+    },
+    {
+      "id": "a36",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay colores cálidos, pero domina la noche"
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cielo oscuro con estrellas"
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "los arcos parecen energía luminosa"
+    },
+    {
+      "id": "a39",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puente suspendido sobre el agua"
+    },
+    {
+      "id": "a40",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay masas laterales como orillas o islotes"
+    },
+    {
+      "id": "a41",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "luces brillantes sobre la curva superior"
+    },
+    {
+      "id": "a42",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "reflejo violeta bajo el puente"
+    },
+    {
+      "id": "a43",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay un cuadrilátero celeste, poco estelar"
+    },
+    {
+      "id": "a44",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo de noche profunda"
+    },
+    {
+      "id": "a45",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "violeta domina, naranja aparece como acento"
+    },
+    {
+      "id": "a46",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "degradados suaves en fondo y astros"
+    },
+    {
+      "id": "a47",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no parece una luna menguante"
+    },
+    {
+      "id": "a48",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "muchas estrellas pequeñas"
+    },
+    {
+      "id": "a49",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "líneas luminosas tipo neón"
+    },
+    {
+      "id": "a50",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el puente parece hecho de resplandor"
+    },
+    {
+      "id": "a51",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "fantasía nocturna y cósmica clara"
+    },
+    {
+      "id": "a52",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la luz forma la estructura principal"
+    },
+    {
+      "id": "a53",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ilustración digital simple y depurada"
+    },
+    {
+      "id": "a54",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "neón violeta con aire cósmico"
+    },
+    {
+      "id": "a55",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "puente simétrico, cielo más asimétrico"
+    },
+    {
+      "id": "a56",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la luz del puente concentra la atención"
+    }
+  ],
+  "no_dicho": "Un segundo astro anaranjado pequeño aparece a la izquierda.",
+  "mal_armado": []
+}

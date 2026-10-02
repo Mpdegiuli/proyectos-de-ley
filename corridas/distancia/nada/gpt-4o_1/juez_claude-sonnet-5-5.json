@@ -1,0 +1,92 @@
+{
+  "consigna": "nada",
+  "unidad": "gpt-4o_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:42:49+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 701,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Todo es blanco, pero no se distingue un rectángulo del fondo"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Fondo completamente blanco"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "No hay nada visible, se siente vacío total"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Se lee como una hoja en blanco"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Superficie blanca total, sin rectángulo distinguible"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Imagen cuadrada, el tamaño en píxeles no se verifica"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Solo blanco"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No hay formas ni contenido"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Ausencia de contenido evidente"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Un blanco vacío no sugiere potencial por sí mismo"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Más vacío que indefinido, lectura poco clara"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Máxima simplicidad, solo blanco"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Ningún detalle visible"
+    }
+  ],
+  "no_dicho": "nada",
+  "mal_armado": []
+}

@@ -1,0 +1,86 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "deepseek-v4-pro_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:40:27+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 603,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "todo blanco, sin marcas"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "no hay ninguna figura"
+    },
+    {
+      "id": "a3",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "solo blanco, no comunica imposibilidad por sí mismo"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "lienzo blanco vacío"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "no hay cuerpo"
+    },
+    {
+      "id": "a6",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "un blanco no suscita esa pregunta sin el texto"
+    },
+    {
+      "id": "a7",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "sin pistas, no se lee como retrato"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "completamente blanco"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "nada dibujado"
+    },
+    {
+      "id": "a10",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "se ve solo blanco, sin imposibilidad visible"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "un lienzo vacío remite al minimalismo extremo"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "no hay representación alguna"
+    }
+  ],
+  "no_dicho": "nada",
+  "mal_armado": []
+}

@@ -1,0 +1,56 @@
+{
+  "consigna": "nada",
+  "unidad": "gpt-6-luna_1",
+  "juez": "gpt-4o",
+  "fecha_utc": "2026-10-02T14:41:53+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 295,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El lienzo es cuadrado con viewBox 0 0 400 400."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No contiene ningún elemento visible."
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El lienzo está vacío."
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No hay formas dibujadas."
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No hay colores aplicados."
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No hay trazos."
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El espacio aparece como un lugar vacío."
+    }
+  ],
+  "no_dicho": "nada",
+  "mal_armado": []
+}

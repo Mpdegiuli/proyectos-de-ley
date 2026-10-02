@@ -1,0 +1,98 @@
+{
+  "consigna": "nada",
+  "unidad": "gpt-5.6-sol_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:42:32+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 781,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "el viewBox no se ve; solo se ve un cuadrado blanco"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "no se distingue ningún elemento, todo blanco"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "se ve blanco, pero no se puede saber si hay fondo definido"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "se ve un cuadrado vacío, el marco como tal no se ve"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la imagen está efectivamente vacía, sin nada visible"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "la imagen es cuadrada"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "se ve blanco; la transparencia no se puede distinguir"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "solo blanco uniforme, sin fondo apreciable"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ninguna forma visible"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ninguna línea visible"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "solo blanco, sin otros colores"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ningún objeto visible"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "todo el cuadrado está vacío"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "se percibe ausencia total, aunque por vacío y no por diseño"
+    }
+  ],
+  "no_dicho": "nada",
+  "mal_armado": []
+}

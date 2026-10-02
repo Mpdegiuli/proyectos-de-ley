@@ -1,0 +1,181 @@
+{
+  "consigna": "animal",
+  "unidad": "qwen3.8-max_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:47:16+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1454,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "búho grande y central"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "garras sobre la rama marrón"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "luna llena crema con cráteres, arriba a la derecha"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cielo oscuro, luna, estrellas"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "iris naranja ámbar con pupila negra"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "escamas en arcos en pecho y alas"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "imagen 800x800, cuadrada"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "los ojos son lo más brillante y saturado del búho, atraen la mirada"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "luna clara y búho cálido sobre fondo azul oscuro"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "pose frontal, inmóvil y dominante"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "paleta suave y escena tranquila, aunque el ceño del búho es serio"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "búho grande en el centro"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "búho claramente reconocible"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "marrones y naranjas cálidos, beige en el pecho"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "posado sobre rama horizontal"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "fondo azul marino oscuro con colinas"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "disco facial crema muy claro"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos ojos ámbar grandes"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "destellos blancos en cada ojo"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "escamas beige suaves en arcos en el pecho"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "la luna está al lado y detrás, sin solaparse con el búho; no queda detrás de él"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "halo suave alrededor de la luna"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "estrellas de cuatro puntas y puntos pequeños"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntos verdosos brillantes dispersos"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ambiente apacible"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "noche oscura y mirada intensa"
+    },
+    {
+      "id": "a27",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "el búho parece una presencia acompañante, pero la lectura es sutil"
+    }
+  ],
+  "no_dicho": "La cola del búho cuelga debajo de la rama, y hay ramitas con hojas y colinas oscuras en primer plano.",
+  "mal_armado": [
+    "la cola cae por delante de la rama como un apéndice separado",
+    "las garras se ven finas y algo desconectadas de la rama",
+    "el cuerpo se ve como un óvalo sobre la rama, sin patas definidas",
+    "las orejas parecen cuernos pegados a la cabeza"
+  ]
+}

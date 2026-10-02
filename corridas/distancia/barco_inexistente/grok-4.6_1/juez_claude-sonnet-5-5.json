@@ -1,0 +1,236 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "grok-4.6_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T15:12:51+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1920,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ojo verde en la proa izquierda"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "velas translúcidas con degradado, tipo membrana"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "orbe verde con aro en la popa derecha"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "casco de bote con proa curva y ojo; poco animal"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "se lee claramente como barco con mástiles y velas"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "es bastante convencional salvo el ojo y colores"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "no es galeón ni ballena exactos"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "flota quieto con sombra, sin estela; ambiguo"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "casco marrón con degradado de madera"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ojo verde con pupila negra en la proa"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "vela azul, rosa y ámbar"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "vela central rosa"
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "vela izquierda azul, tirando a celeste, no turquesa"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "vela derecha ámbar anaranjada"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "luna grande amarilla y dos lunas pequeñas grises"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo púrpura oscuro a naranja cobrizo en el horizonte"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "siluetas de peces con puntos luminosos bajo el agua"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "agua verde azulada oscura"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "orbe verdoso en popa"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cabina marrón en cubierta central"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ventanas turquesa, rosa y ámbar"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "crepúsculo con estrellas y brillo en el horizonte"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "velas curvas y llenas"
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "el ojo mira de frente, no claramente al mar"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ambiente de ser que flota entre cielo y olas"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "barco central grande"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ojo brillante con reflejo, parece vivo"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "velas translúcidas con nervaduras"
+    },
+    {
+      "id": "a29",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "rosa y ámbar sí; la otra es azul"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "orbe verde luminoso en popa"
+    },
+    {
+      "id": "a31",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "madera con ojo y apéndices; mezcla leve"
+    },
+    {
+      "id": "a32",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "cielo con lunas múltiples, bastante normal"
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ilustración vectorial fantástica"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "degradados en cielo, velas, luna, casco"
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "púrpuras, rosas, naranjas y verdeazules"
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas simples y suaves, aire de cuento"
+    }
+  ],
+  "no_dicho": "La enorme luna amarilla brillante junto a las velas, con las estrellas, domina la parte superior.",
+  "mal_armado": [
+    "aparejos y cuerdas finas cruzan las velas de forma confusa",
+    "el ojo de proa y su aro curvo parecen pegados al borde del casco",
+    "la vela rosa tapa el mástil central y las otras velas",
+    "la vela azul se superpone con la estructura marrón de la cubierta",
+    "el casco parece plano y sin conexión clara con el apéndice de popa"
+  ]
+}

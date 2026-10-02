@@ -1,0 +1,362 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "glm-5.3-razonamiento-minimo_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:41:21+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2518,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "una sola cara visible"
+    },
+    {
+      "id": "a2",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "un mechón oscuro, sin direcciones claras"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "piernas en V, sin cruce claro"
+    },
+    {
+      "id": "a4",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "sombra plana en el suelo, sin dirección clara"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "sombra a la derecha, lejos de los pies"
+    },
+    {
+      "id": "a6",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "sombra quieta, no camina"
+    },
+    {
+      "id": "a7",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no hay reflejo, solo elipse oscura"
+    },
+    {
+      "id": "a8",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "sin reflejo"
+    },
+    {
+      "id": "a9",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "sin reflejo"
+    },
+    {
+      "id": "a10",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "sin reflejo"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "palitos naranjas en las manos, apenas lápices"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "arcos punteados bajo las manos, no forman brazos"
+    },
+    {
+      "id": "a13",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no hay círculo cerrado de autogénesis"
+    },
+    {
+      "id": "a14",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no hay luna creciente"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "disco mitad celeste, mitad amarillo con rayos"
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "un disco bicolor, que se lee como sol y luna"
+    },
+    {
+      "id": "a17",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "casi nada contradictorio se percibe"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "figura de palitos con cabeza"
+    },
+    {
+      "id": "a19",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "una sola cara"
+    },
+    {
+      "id": "a20",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "cara de frente"
+    },
+    {
+      "id": "a21",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "cara de frente"
+    },
+    {
+      "id": "a22",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "cabello como una masa"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "piernas separadas en V"
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "palitos en cada mano"
+    },
+    {
+      "id": "a25",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "arcos punteados no llegan al otro brazo"
+    },
+    {
+      "id": "a26",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no hay autodibujo evidente"
+    },
+    {
+      "id": "a27",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "sombra sin dirección clara"
+    },
+    {
+      "id": "a28",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "sombra desplazada a la derecha"
+    },
+    {
+      "id": "a29",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "sombra sin acción"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "fondo violeta degradado nocturno"
+    },
+    {
+      "id": "a31",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "sin luna creciente"
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "mitad de disco dorado con rayos"
+    },
+    {
+      "id": "a33",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "un solo disco dividido"
+    },
+    {
+      "id": "a34",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "solo sombra"
+    },
+    {
+      "id": "a35",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "sin reflejo"
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "texto 'QVI SIMVL ES Y NO ES' abajo"
+    },
+    {
+      "id": "a37",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "una cara"
+    },
+    {
+      "id": "a38",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "sin cara a la izquierda"
+    },
+    {
+      "id": "a39",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "sin cara a la derecha"
+    },
+    {
+      "id": "a40",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "piernas simétricas en V"
+    },
+    {
+      "id": "a41",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "dirección no legible"
+    },
+    {
+      "id": "a42",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "sombra separada de los pies"
+    },
+    {
+      "id": "a43",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "sombra inmóvil"
+    },
+    {
+      "id": "a44",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "palitos naranjas"
+    },
+    {
+      "id": "a45",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "punteados no se leen como brazos"
+    },
+    {
+      "id": "a46",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "sin reflejo"
+    },
+    {
+      "id": "a47",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "sin reflejo"
+    },
+    {
+      "id": "a48",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "disco mitad celeste, mitad dorado"
+    },
+    {
+      "id": "a49",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "dos mitades en un disco"
+    },
+    {
+      "id": "a50",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "texto pseudo-latín legible"
+    },
+    {
+      "id": "a51",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "lienzo cuadrado"
+    },
+    {
+      "id": "a52",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "violetas con crema y dorado"
+    },
+    {
+      "id": "a53",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "trazos lineales sobre fondo nocturno"
+    },
+    {
+      "id": "a54",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "figura de palitos redondeados"
+    },
+    {
+      "id": "a55",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "ambiente suave y onírico, poco surrealista"
+    },
+    {
+      "id": "a56",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "sin rasgos de grabado"
+    },
+    {
+      "id": "a57",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no se ve círculo vicioso"
+    }
+  ],
+  "no_dicho": "Un gran halo circular luminoso detrás de la figura, con una cara sonriente de ojos y cejas asimétricas.",
+  "mal_armado": [
+    "arcos punteados naranjas desconectados de las manos y de los brazos",
+    "la sombra es una elipse oscura separada de los pies con una mancha encima",
+    "cabello oscuro semitransparente que se superpone al borde de la cabeza",
+    "rayos del sol sueltos, uno superpuesto al disco",
+    "brazos con unión poco natural en los hombros"
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "minimax-m3_1",
+  "juez": "gemini-3.1-pro-preview",
+  "fecha_utc": "2026-10-02T15:10:45+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1882,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Se ve una sola cara mirando al frente, no dos perfiles."
+    },
+    {
+      "id": "a2",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "El cuello no parece estar retorcido."
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Las líneas de los brazos cruzan el torso desde los hombros opuestos."
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Un pie apunta a la izquierda y el otro a la derecha."
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay dos líneas finas que suben pero no convergen."
+    },
+    {
+      "id": "a6",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No hay un espacio representado claramente."
+    },
+    {
+      "id": "a7",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Es una sola cara frontal."
+    },
+    {
+      "id": "a8",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Ojos en el frente, no en los lados."
+    },
+    {
+      "id": "a9",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Cejas en el frente."
+    },
+    {
+      "id": "a10",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Una sola boca que parece un bigote en el frente."
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay orejas a ambos lados de la cabeza."
+    },
+    {
+      "id": "a12",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Cuello normal, no parece retorcido."
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Líneas de los brazos cruzan desde hombros opuestos."
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Se cruzan formando una X plana en el torso."
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Manos circulares con tres dedos abiertos cada una."
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Piernas que bajan con formas angulosas."
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Pies opuestos."
+    },
+    {
+      "id": "a18",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Hay dos líneas rectas que suben, pero se cruzan en la cima de la cabeza."
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El texto está en la parte inferior."
+    },
+    {
+      "id": "a20",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Mira de frente, no a sí misma."
+    },
+    {
+      "id": "a21",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "La figura está estática."
+    },
+    {
+      "id": "a22",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Es una sola cara frontal."
+    },
+    {
+      "id": "a23",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "El cuello es normal."
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Brazos nacen cruzados."
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Se cruzan sobre el pecho."
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Un pie a cada lado."
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Fondo beige, líneas marrones."
+    },
+    {
+      "id": "a28",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Líneas geométricas rígidas de SVG."
+    },
+    {
+      "id": "a29",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Trazo uniforme y sólido."
+    },
+    {
+      "id": "a30",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No hay perspectiva real para juzgar."
+    },
+    {
+      "id": "a31",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Parece un dibujo vectorial muy simple."
+    },
+    {
+      "id": "a32",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Lejos de un boceto renacentista."
+    },
+    {
+      "id": "a33",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "Los brazos cruzados generan un efecto extraño leve."
+    },
+    {
+      "id": "a34",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "Solo por el color de fondo."
+    }
+  ],
+  "no_dicho": "La línea curva en la cara que parece un bigote enorme, y la forma almendrada alrededor del rostro (como una capucha).",
+  "mal_armado": [
+    "las líneas de los brazos flotan sobre el torso sin conectarse a los hombros",
+    "el texto inferior está cortado o muy pegado al borde"
+  ]
+}

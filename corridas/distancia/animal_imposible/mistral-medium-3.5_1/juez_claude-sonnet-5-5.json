@@ -1,0 +1,223 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "mistral-medium-3.5_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:57:29+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1696,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "solo dos círculos blancos y uno amarillo, no cuatro ojos"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cuerpo blob irregular, asimétrico"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "tres líneas negras abajo, tipo palito; no claramente patas de ave"
+    },
+    {
+      "id": "a4",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay colas de pez"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "degradado magenta a cian, vistoso"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "da un aire irreal, aunque no es decisivo"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "no se distinguen rasgos de animales concretos"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "forma de blob más que óvalo"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "va de magenta/violeta a celeste, no rosa"
+    },
+    {
+      "id": "a10",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "círculos blancos fuera del cuerpo, a los lados"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "círculo amarillo arriba, no en el centro"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "curva en U que une los círculos; no es una boca clara"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "patas finas negras"
+    },
+    {
+      "id": "a14",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay cola bifurcada visible"
+    },
+    {
+      "id": "a15",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "arcos sueltos fuera del lomo"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "magenta, cian y amarillo intensos"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculos y arcos"
+    },
+    {
+      "id": "a18",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "colorido y simple, algo amable"
+    },
+    {
+      "id": "a19",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no se lee como insecto ni pez"
+    },
+    {
+      "id": "a20",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no parece pez"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "tres trazos al final del palo, tipo pie de ave"
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "curvas a los lados pero no parecen bigotes"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tres círculos"
+    },
+    {
+      "id": "a24",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay cabeza separada"
+    },
+    {
+      "id": "a25",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no se ven escamas"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "degradado llamativo"
+    },
+    {
+      "id": "a27",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "el cuerpo tiene degradado"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "líneas simples"
+    },
+    {
+      "id": "a29",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "círculos y líneas, cuerpo irregular"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "contornos negros marcados"
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "aspecto infantil"
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ingenuo"
+    },
+    {
+      "id": "a33",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "cierta rareza fantástica"
+    },
+    {
+      "id": "a34",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no se lee como híbrido de esos animales"
+    }
+  ],
+  "no_dicho": "Un palo vertical que sale del cuerpo y se abre en tres líneas, como un muñeco de palitos, y dos pares de arcos tipo ojos o lentes sueltos.",
+  "mal_armado": [
+    "arcos laterales flotando sin conexión con el cuerpo",
+    "círculos blancos separados del cuerpo",
+    "círculo amarillo montado sobre el borde del cuerpo",
+    "palo de las patas pegado de forma torpe debajo del cuerpo"
+  ]
+}

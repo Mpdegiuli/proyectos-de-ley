@@ -1,0 +1,203 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "gpt-4o-mini_1",
+  "juez": "gemini-3.1-pro-preview",
+  "fecha_utc": "2026-10-02T15:55:24+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1528,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Círculo central."
+    },
+    {
+      "id": "a2",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No parece ave."
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tonos vivos."
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Efecto central."
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Colores irreales."
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Formas abstractas."
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Geometría suelta."
+    },
+    {
+      "id": "a8",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Sin rasgos animales."
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Esfera con ojos."
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Gradiente visible."
+    },
+    {
+      "id": "a11",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Sin pico."
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Puntos negros."
+    },
+    {
+      "id": "a13",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Sin boca obvia."
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Fondo celeste."
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "Color cielo."
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "en_parte",
+      "nota": "Trazos verdes."
+    },
+    {
+      "id": "a17",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Solo formas."
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Piezas flotantes."
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Colores alegres."
+    },
+    {
+      "id": "a20",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Sin boca visible."
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Forma circular."
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "Círculos básicos."
+    },
+    {
+      "id": "a23",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Sin alas."
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "Líneas sueltas."
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Piezas inconexas."
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Colores fuertes."
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Bordes curvos."
+    },
+    {
+      "id": "a28",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "Geometría simple."
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Pocos elementos."
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Diseño infantil."
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Estilo abstracto."
+    }
+  ],
+  "no_dicho": "Un aro morado y un recuadro translúcido detrás del degradado central.",
+  "mal_armado": [
+    "caja translúcida tras degradado",
+    "piezas flotantes desconectadas"
+  ]
+}

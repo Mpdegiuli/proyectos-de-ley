@@ -1,0 +1,278 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "claude-sonnet-5_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:37:05+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2306,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Rombo azul, pero sin estructura Penrose triangular"
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Facetas claras y líneas internas, pero no se pliega de forma evidente"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Dos cabezas redondas lado a lado"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Cabeza izquierda con pelo arriba y sonrisa"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Derecha con pelo/barba abajo y ceja arriba, parece invertida"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Un solo cuello rectangular entre ambas, pero las cabezas flotan a los lados sin tocarlo"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Dos brazos arqueados y uno central curvo"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Uno sale del centro del torso, otros de los vértices laterales"
+    },
+    {
+      "id": "a9",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Una sola pierna sinuosa, sin cruce"
+    },
+    {
+      "id": "a10",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Solo una forma ondulada, no hay intercambio de lado"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Fondo gris azulado liso"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Dos cabezas, tres brazos, rombo: figura imposible"
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Es una figura rara pero se entiende fácilmente"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Figura central sobre fondo vacío"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Se lee como humano imposible"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Torso en rombo"
+    },
+    {
+      "id": "a17",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No evoca triángulo de Penrose, solo un rombo"
+    },
+    {
+      "id": "a18",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Cuello común pero separado de las cabezas"
+    },
+    {
+      "id": "a19",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Cabeza izquierda de frente, no mira claramente hacia arriba"
+    },
+    {
+      "id": "a20",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "Rasgos invertidos, no se ve mirada hacia abajo"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Rasgos puestos al revés: barba abajo, ceja arriba"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tres brazos"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Brazo central nace en medio del torso"
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "Salen de vértices laterales y del centro"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Una sola forma sinuosa, no se ven dos piernas entrelazadas"
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Dos óvalos oscuros, pero no al final de piernas separadas"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Cruz punteada en el torso"
+    },
+    {
+      "id": "a28",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Parecen ejes de simetría más que aristas imposibles"
+    },
+    {
+      "id": "a29",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Idea de imposibilidad, sin ilusión tipo Escher"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Anatomía imposible"
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Dos cabezas sobre un cuello"
+    },
+    {
+      "id": "a32",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Rasgos invertidos, cabeza no girada"
+    },
+    {
+      "id": "a33",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Solo un rombo, sin triángulo imposible"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tres brazos"
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Orígenes incoherentes"
+    },
+    {
+      "id": "a36",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Una sola pierna, no hay entrelazado"
+    },
+    {
+      "id": "a37",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Dos zapatos oscuros, pero sobre la misma masa"
+    },
+    {
+      "id": "a38",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No evoca escalera"
+    },
+    {
+      "id": "a39",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Degradados en piel"
+    },
+    {
+      "id": "a40",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Degradado azul en el torso"
+    },
+    {
+      "id": "a41",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Ilustración plana con geometría"
+    },
+    {
+      "id": "a42",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Se intuye imposibilidad, sin paradoja visual real"
+    },
+    {
+      "id": "a43",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "Figura humana con geometría rara, débil"
+    }
+  ],
+  "no_dicho": "Una sola pierna ondulada y ancha, tipo tentáculo, con dos zapatos ovalados oscuros encima",
+  "mal_armado": [
+    "Cabezas separadas del cuello, flotando a los lados",
+    "Cabeza derecha cae sobre el cuello sin conexión",
+    "Pierna única unida al rombo en un solo punto",
+    "Zapatos superpuestos sobre la pierna, no al final de dos piernas",
+    "Brazos laterales sin unión con el torso, a distancia del rombo"
+  ]
+}

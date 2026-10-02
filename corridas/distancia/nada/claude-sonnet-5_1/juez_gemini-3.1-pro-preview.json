@@ -1,0 +1,110 @@
+{
+  "consigna": "nada",
+  "unidad": "claude-sonnet-5_1",
+  "juez": "gemini-3.1-pro-preview",
+  "fecha_utc": "2026-10-02T15:12:56+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 883,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El lienzo entero es un plano cuadrado."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El color es un negro muy oscuro con un sutil matiz azul."
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El bloque de color es completamente liso."
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "No hay ningún punto que atraiga la mirada más que otro."
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "No hay elementos, por lo tanto nada destaca o domina."
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Es muy oscuro, casi sin saturación."
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Solo se ve un fondo de color plano."
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Se repite, todo el espacio está cubierto."
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Se repite, el tono es negro azulado oscuro."
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No se observa ninguna figura u objeto."
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No existe ningún trazo o línea."
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No hay siluetas ni formas geométricas adicionales."
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Se repite, es un color sólido sin alteraciones."
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El color llega hasta los límites exactos de la imagen."
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "La ausencia de detalles impide buscar figuras u objetos."
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Es una superficie vacía que no ofrece elementos de interés."
+    }
+  ],
+  "no_dicho": "nada",
+  "mal_armado": []
+}

@@ -1,0 +1,175 @@
+{
+  "consigna": "animal",
+  "unidad": "gpt-5.5-2026-04-23_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:45:20+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1357,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "parece más gato/zorro caricaturesco; orejas y cola lo sugieren"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "orejas triangulares naranjas con interior rosado, parcialmente tapadas"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cuerpo y cabeza naranjas"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "zona crema en boca/pecho y panza"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tres bigotes marrones por lado, parcialmente tapados a la derecha"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cola curva naranja con punta crema a la derecha"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cara y cuerpo de frente"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "naranjas, cremas y marrones"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas simples, se entiende rápido"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sonrisa y ojos grandes, amable"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "personaje simpático"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "zorro dudoso, parece gato"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "estilo de dibujos animados"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "naranja con degradado"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pecho/panza crema"
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "pose frontal con patas delanteras abajo; no claramente sentado"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "fondo verde menta con halo claro"
+    },
+    {
+      "id": "a18",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "orejas puntiagudas pero medianas y tapadas por la cabeza"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ojos grandes blancos con brillos"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "bigotes marrones a los lados"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "nariz oscura pequeña con boca en w"
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "cola curva pero delgada y plana, poco esponjosa"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "se ve tierno"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cabeza y cuerpo circulares"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "paleta cálida"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sonrisa amplia, mirada amable"
+    }
+  ],
+  "no_dicho": "Las dos líneas curvas oscuras a modo de cejas o antenas sobre la cabeza y la sombra elíptica en el suelo.",
+  "mal_armado": [
+    "cola pegada de forma torpe al costado, con borde cortado y superpuesta a los bigotes derechos",
+    "orejas parcialmente ocultas tras la cabeza",
+    "líneas de cejas sobresalen como antenas",
+    "cuerpo apenas se distingue de la cabeza, patas pegadas debajo"
+  ]
+}

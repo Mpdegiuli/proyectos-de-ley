@@ -1,0 +1,162 @@
+{
+  "consigna": "nada",
+  "unidad": "gemini-3.1-pro-preview_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:43:06+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1293,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Hay un cuadrado negro central, pero casi sin profundidad aparente"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Marco oscuro biselado grueso, de aspecto sobrio"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Placa dorada abajo, centrada"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Se lee 'LA NADA' en la placa"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Fondo y marco con degradados oscuros sutiles"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Punteado apenas perceptible en los bordes del vacío"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Cuadrados tenues casi invisibles dentro del negro"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Cuadro enmarcado con placa, aspecto de museo"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El vacío negro se presenta como obra con título"
+    },
+    {
+      "id": "a10",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Se ve un cuadrado plano, no un pozo"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Fondo oscuro con viñeta, apenas una pared"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Cuadro enmarcado en el centro"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Marco negro biselado"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Paspartú crema amplio alrededor del hueco"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Interior casi negro puro"
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Textura apenas visible, casi imperceptible"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Placa dorada bajo el marco"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Dos tornillos pequeños en los extremos"
+    },
+    {
+      "id": "a19",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Brillo y sombra leves; sombra poco realista"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Texto en mayúsculas espaciadas, legible"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "'Anónimo, 2024' en cursiva muy pequeña"
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "El contraste del negro con el crema atrae la vista"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Se percibe plano, sin profundidad ni infinitud"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Se lee como obra expuesta de contemplación"
+    }
+  ],
+  "no_dicho": "El paspartú crema claro, muy luminoso, domina la imagen y contrasta con el cuadrado negro.",
+  "mal_armado": [
+    "texto 'Anónimo, 2024' diminuto y casi ilegible",
+    "detalles concéntricos del vacío casi invisibles",
+    "viñeta circular punteada poco definida"
+  ]
+}

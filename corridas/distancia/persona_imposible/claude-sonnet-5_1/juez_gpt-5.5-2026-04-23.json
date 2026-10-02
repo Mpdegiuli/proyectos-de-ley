@@ -1,0 +1,276 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "claude-sonnet-5_1",
+  "juez": "gpt-5.5-2026-04-23",
+  "fecha_utc": "2026-10-02T14:46:26+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 3345,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "torso romboidal, no claramente Penrose"
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay líneas internas, pliegue ambiguo"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos cabezas visibles"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "la cabeza izquierda parece normal"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "la derecha tiene rasgos invertidos"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "un cuello central, cabezas apenas conectadas"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "se ven tres brazos"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "brazos desconectados o mal ubicados"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "piernas curvas y superpuestas"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay curvas raras, no intercambio claro"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo gris claro liso"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "contradicciones anatómicas claras, geométricas débiles"
+    },
+    {
+      "id": "a13",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "la figura rara aún se interpreta"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "figura centrada sobre fondo vacío"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "persona anatómicamente imposible"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "torso en forma de rombo"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "facetado, no triángulo Penrose claro"
+    },
+    {
+      "id": "a18",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "cuello único bajo dos cabezas"
+    },
+    {
+      "id": "a19",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "la cabeza izquierda mira al frente"
+    },
+    {
+      "id": "a20",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "invertida sí, mirada abajo no clara"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "rasgos de la derecha boca abajo"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tres brazos visibles"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "uniones de brazos antinaturales"
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "direcciones raras, no todas imposibles"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "piernas unidas en forma ambigua"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "terminan en dos pies"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "líneas punteadas en el torso"
+    },
+    {
+      "id": "a28",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "sugieren aristas, no imposibilidad fuerte"
+    },
+    {
+      "id": "a29",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "solo leve aire de ilusión geométrica"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cuerpo no viable físicamente"
+    },
+    {
+      "id": "a31",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "dos cabezas con cuello central dudoso"
+    },
+    {
+      "id": "a32",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "cabeza invertida, mirada incierta"
+    },
+    {
+      "id": "a33",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "torso no es triángulo Penrose"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tres brazos"
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntos de salida incoherentes"
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "piernas se funden antes de los pies"
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos pies negros separados"
+    },
+    {
+      "id": "a38",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no parece escalera de Escher"
+    },
+    {
+      "id": "a39",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "piel de color plano"
+    },
+    {
+      "id": "a40",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "ropa con planos, no gradientes suaves"
+    },
+    {
+      "id": "a41",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ilustración simple con geometría imposible"
+    },
+    {
+      "id": "a42",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Penrose débil, Escher no evidente"
+    },
+    {
+      "id": "a43",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "geometría rara aplicada al cuerpo"
+    }
+  ],
+  "no_dicho": "Los pies son óvalos negros grandes, como zapatos.",
+  "mal_armado": [
+    "los brazos laterales quedan separados del torso",
+    "el cuello central no toca claramente las dos cabezas",
+    "el brazo delantero nace desde el centro del torso"
+  ]
+}

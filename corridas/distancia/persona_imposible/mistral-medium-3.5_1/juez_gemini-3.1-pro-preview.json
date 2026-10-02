@@ -1,0 +1,238 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "mistral-medium-3.5_1",
+  "juez": "gemini-3.1-pro-preview",
+  "fecha_utc": "2026-10-02T15:08:11+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1544,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Hay una figura humanoide muy esquemática."
+    },
+    {
+      "id": "a2",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Los brazos no se curvan hacia arriba y abajo al mismo tiempo."
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Hay líneas en la zona de los brazos pero no puedo verificar coordenadas exactas."
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay una curva debajo de la cabeza que podría conectar los brazos."
+    },
+    {
+      "id": "a5",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Los segmentos que parecen antebrazos apuntan hacia abajo/adentro."
+    },
+    {
+      "id": "a6",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Los codos no aparentan doblarse en dos direcciones."
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El dibujo está hecho con líneas finas y simples."
+    },
+    {
+      "id": "a8",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No evoca figuras imposibles de Escher o Penrose."
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Es una figura humana esquemática, no parece 'imposible'."
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tiene una cabeza redonda."
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tiene dos puntos por ojos."
+    },
+    {
+      "id": "a12",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No tiene cejas."
+    },
+    {
+      "id": "a13",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No tiene nariz."
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tiene una boca sonriente."
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Hay una línea vertical que podría ser un torso."
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Hay una curva que conecta los hombros, pero los brazos son rectos."
+    },
+    {
+      "id": "a17",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Los brazos no salen directamente de la cabeza."
+    },
+    {
+      "id": "a18",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay manos."
+    },
+    {
+      "id": "a19",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No hay manos ni piernas, ni conexión entre ellas."
+    },
+    {
+      "id": "a20",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay piernas ni pies."
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Hay dos formas angulares rojas arriba, podrían verse como cuernos sueltos."
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El fondo es gris claro."
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "No tiene base que toque el piso salvo una línea horizontal."
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "Desafía la anatomía por ser esquemática, pero no de forma paradójica."
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "Tiene rasgos de carita, cuernos (demonio) y es abstracta."
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Es un monigote, las proporciones no son realistas."
+    },
+    {
+      "id": "a27",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No hay contradicciones visuales evidentes."
+    },
+    {
+      "id": "a28",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Ya se evaluó (a1). Es un monigote."
+    },
+    {
+      "id": "a29",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Tiene dos formas parecidas a brazos."
+    },
+    {
+      "id": "a30",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No tiene tres brazos, y los que tiene son esquemáticos."
+    },
+    {
+      "id": "a31",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay un brazo saliendo de la espalda."
+    },
+    {
+      "id": "a32",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay brazos rojos, las formas rojas están sobre la cabeza."
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La mayoría de las líneas son negras."
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El dibujo es de líneas simples."
+    },
+    {
+      "id": "a35",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Casi todo son contornos, salvo los ojos que tienen relleno negro."
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Solo hay líneas rectas, un círculo y curvas."
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Es muy esquemática, como un boceto simple."
+    }
+  ],
+  "no_dicho": "Hay cuatro líneas rectas diagonales que cruzan el círculo de la cabeza (como una mira).",
+  "mal_armado": [
+    "Líneas que cruzan la cabeza sin sentido anatómico evidente"
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "consigna": "nada",
+  "unidad": "claude-opus-5_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:41:43+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1250,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "disco oscuro grande y central"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "bordes difusos que se funden con el fondo claro"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "mancha gris ovalada tenue debajo"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "las líneas están algo adentro del marco, no tocan el borde del lienzo"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "las líneas quedan lejos del disco"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "se ve un círculo punteado claro; el segundo es casi imperceptible"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el punteado delinea un contorno alrededor"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "entre el punteado y el disco solo hay vacío"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "lienzo cuadrado"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el vacío se lee por contraste con marcas y disco"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "fondo hueso con viñeta y grano suave"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos rectángulos concéntricos finos"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "círculo central que se lee como agujero"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "del gris azulado al negro en el centro"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "borde suave y difuso"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "óvalo de sombra tenue debajo"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "solo un círculo punteado se distingue bien"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cuatro marcas en arriba, abajo, izquierda y derecha, lejos del disco"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntitos dispersos muy tenues"
+    },
+    {
+      "id": "a20",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "la sombra sugiere un objeto, pero está separada del disco"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el punteado se lee como contorno de algo ausente"
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "parece un agujero, aunque más un orbe borroso que un hundimiento"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "composición de ausencia y vacío central"
+    }
+  ],
+  "no_dicho": "El disco tiene un halo gris claro difuso más amplio alrededor del núcleo oscuro, y el conjunto parece una mira o retícula.",
+  "mal_armado": [
+    "la sombra queda desconectada del disco, con un hueco entre ambos",
+    "el círculo punteado queda desalineado respecto al disco, más abajo",
+    "las líneas no llegan a los bordes del marco"
+  ]
+}

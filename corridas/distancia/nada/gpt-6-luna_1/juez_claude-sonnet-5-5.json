@@ -1,0 +1,56 @@
+{
+  "consigna": "nada",
+  "unidad": "gpt-6-luna_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:42:44+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 384,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "se ve un cuadrado blanco; el viewBox no se puede verificar"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "todo blanco, sin elementos"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "lienzo blanco vacío"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ninguna forma visible"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "solo blanco, sin colores"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ningún trazo"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "se ve vacío, pero nada sugiere que algo podría aparecer"
+    }
+  ],
+  "no_dicho": "nada",
+  "mal_armado": []
+}

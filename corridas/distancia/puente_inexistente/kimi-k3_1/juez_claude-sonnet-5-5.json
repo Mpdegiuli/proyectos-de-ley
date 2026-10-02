@@ -1,0 +1,343 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "kimi-k3_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T15:03:37+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 3660,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puente entre dos islas en el aire"
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "hilos finos van de los cristales al puente, pero no se ve que cuelgue de ellos"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "el tablero hace un lazo circular en el centro"
+    },
+    {
+      "id": "a4",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "el chorro está bajo la isla derecha y se lee como caída, no como subida"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "farolitos cálidos cuelgan del tablero"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "gran luna creciente crema arriba a la derecha"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cristales celestes brillantes"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo oscuro, luna y estrellas"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "franja de mar turquesa abajo"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos islas con césped"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cristales suspendidos sin apoyo, con halo"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "el loop es pequeño y el tablero sigue continuo; no queda claro que impida cruzar"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "celeste brillante sobre violeta oscuro"
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay puente con hilos de los que cuelga, pero no se lee como puente colgante clásico"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "une dos islas flotantes"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "noche clara"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "se ve madera; no hay soga visible"
+    },
+    {
+      "id": "a18",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay un lazo circular, no un moño"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sin pilares"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tres cristales"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cristales en el aire sobre el vacío"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "líneas finas claras salen de cada cristal"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cuatro faroles pequeños bajo el tablero"
+    },
+    {
+      "id": "a24",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "imagen estática, no se ve movimiento"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "mar abajo"
+    },
+    {
+      "id": "a26",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "solo un chorro visible"
+    },
+    {
+      "id": "a27",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay un óvalo pálido con rayas, no una luna creciente"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "forma de luna creciente"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntos y destellos en el cielo"
+    },
+    {
+      "id": "a30",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no se aprecia titileo"
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "islas sin soporte"
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "puente con loop y cristales flotantes, fantasioso"
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cruza el aire entre islas"
+    },
+    {
+      "id": "a34",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "el tablero parece madera, no cuerda trenzada"
+    },
+    {
+      "id": "a35",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "el lazo se ve imposible, aunque es un loop simple"
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "entre las dos islas"
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "islas flotando"
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sin pilares"
+    },
+    {
+      "id": "a39",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "están sobre el puente con hilos, pero la sujeción no es clara"
+    },
+    {
+      "id": "a40",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hilos finos cerca del puente sin conexión nítida"
+    },
+    {
+      "id": "a41",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay una gotita bajo la isla izquierda, que es la más grande en altura"
+    },
+    {
+      "id": "a42",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no se ve agua subiendo"
+    },
+    {
+      "id": "a43",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "el chorro está bajo la isla derecha y no se lee invertido"
+    },
+    {
+      "id": "a44",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "farolitos cuelgan"
+    },
+    {
+      "id": "a45",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "sin movimiento visible"
+    },
+    {
+      "id": "a46",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "lienzo cuadrado; el viewBox no se ve"
+    },
+    {
+      "id": "a47",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "violetas, turquesas y acentos cálidos"
+    },
+    {
+      "id": "a48",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "farolitos y luna cálidos"
+    },
+    {
+      "id": "a49",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas planas vectoriales"
+    },
+    {
+      "id": "a50",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas simples y redondeadas"
+    },
+    {
+      "id": "a51",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "degradados en cielo, mar, islas y halos"
+    },
+    {
+      "id": "a52",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ambiente nocturno"
+    },
+    {
+      "id": "a53",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "aire de cuento onírico"
+    },
+    {
+      "id": "a54",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "imagen fija, no se ve animación"
+    }
+  ],
+  "no_dicho": "Un árbol verde en la isla izquierda, pájaros lejanos, nubes planas y flores pequeñas en el césped.",
+  "mal_armado": [
+    "los hilos de los cristales no llegan claramente al puente y uno cruza la isla derecha",
+    "el extremo izquierdo del puente se superpone al borde de la isla",
+    "el reflejo de la luna es un óvalo con rayas, no una luna creciente",
+    "el chorro bajo la isla derecha es difuso y no se lee como cascada"
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "mistral-medium-3.5_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T15:13:20+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2137,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "casco en arco con puntas triangulares, simétrico"
+    },
+    {
+      "id": "a2",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "velas rectangulares, no triangulares ni en abanico"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "bandera roja en V arriba del mástil"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "punto dorado diminuto, no en el centro"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "dos puntos dorados, no parecen ventanas"
+    },
+    {
+      "id": "a6",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "paleta estilizada nocturna, no realista"
+    },
+    {
+      "id": "a7",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "solo un mástil central y dos laterales finos"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "velas azuladas translúcidas con brillo suave"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "el mar es gris-lavanda y el barco queda sobre el cielo"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "bandas lavanda-grises con leve degradado"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "casco marrón oscuro"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "solo dos puntos dorados"
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "puntas triangulares en los extremos"
+    },
+    {
+      "id": "a14",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "la bandera está en el mástil central, no en popa"
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "punto dorado pequeño sobre la bandera"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sol amarillo arriba a la derecha"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "nubes pálidas en el cielo"
+    },
+    {
+      "id": "a18",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "nubes planas en forma de arcos"
+    },
+    {
+      "id": "a19",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "olas abajo pero lejos del casco"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ondulaciones suaves"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "degradados en cielo, mar y velas"
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "resplandor suave en el sol"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "curvas en casco y olas"
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "luz en velas, pero poco mágico"
+    },
+    {
+      "id": "a25",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no recuerda a un galeón"
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "extremos con puntas, casco simétrico"
+    },
+    {
+      "id": "a27",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "dos velas rectangulares"
+    },
+    {
+      "id": "a28",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "roja con punto dorado pequeño"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "mástil central y dos laterales"
+    },
+    {
+      "id": "a30",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay remos"
+    },
+    {
+      "id": "a31",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "agua gris lavanda"
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo azul degradado"
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sol con halo"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos bandas onduladas"
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "nubes pálidas"
+    },
+    {
+      "id": "a36",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "translúcidas con brillo radial, pero rectangulares"
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "líneas limpias"
+    },
+    {
+      "id": "a38",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "casco marrón y rojo, el resto frío"
+    },
+    {
+      "id": "a39",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "azules y lavandas"
+    },
+    {
+      "id": "a40",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "ilustración digital simple"
+    },
+    {
+      "id": "a41",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "simple y plano, poca profundidad"
+    },
+    {
+      "id": "a42",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "evocación débil"
+    },
+    {
+      "id": "a43",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "marrón contra azul frío"
+    }
+  ],
+  "no_dicho": "El barco flota en el aire sobre el mar, con el casco como un arco invertido y un mástil central marrón grueso con un nudo circular.",
+  "mal_armado": [
+    "casco flotando sobre el cielo, lejos del mar",
+    "velas rectangulares con líneas finas cruzadas desordenadas",
+    "nubes que se cruzan con velas y mástil",
+    "rectángulo marrón claro suelto en el casco",
+    "bandera pequeña y desproporcionada"
+  ]
+}

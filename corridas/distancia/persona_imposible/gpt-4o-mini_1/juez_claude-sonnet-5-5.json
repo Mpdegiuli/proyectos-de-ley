@@ -1,0 +1,206 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "gpt-4o-mini_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:39:34+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1568,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "figura abstracta con cabeza, torso y formas sueltas"
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "cabeza ovalada, sin punta de almendra"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "rosa, verde y lila; la cabeza sí es color piel"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "líneas y triángulos como extremidades"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "líneas largas diagonales, triángulos"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "anatomía incoherente, no existiría"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas planas y geométricas"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "óvalo grande arriba"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "durazno/naranja claro"
+    },
+    {
+      "id": "a10",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "cuerpo es una forma de hoja lila, no sinuoso"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "líneas diagonales largas, no claramente brazos"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "líneas largas hacia abajo, ambiguas"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos círculos negros"
+    },
+    {
+      "id": "a14",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "hay rectángulo blanco con borde, no sonrisa"
+    },
+    {
+      "id": "a15",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "líneas rígidas, nada elástico"
+    },
+    {
+      "id": "a16",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no se percibe cambio de forma"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "vagamente humano, muy fragmentado"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "rosa, lila, verde antinaturales"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cabeza grande, piezas desconectadas"
+    },
+    {
+      "id": "a20",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "raro, más desarmado que surreal"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "se sugiere persona con esfuerzo"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cabeza elíptica"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "dos líneas negras diagonales"
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "triángulos beige, no claras piernas"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "anatomía no convencional"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas simples tipo caricatura"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "pasteles, rosa y lila suaves"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "óvalos y curvas predominan"
+    },
+    {
+      "id": "a29",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "colores suaves pero sin cara amable"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "nada realista"
+    },
+    {
+      "id": "a31",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "criatura extraña, poco legible"
+    }
+  ],
+  "no_dicho": "Los triángulos beige con óvalos verdes a los lados y el rectángulo blanco sobre una forma color durazno en el cuello/cara.",
+  "mal_armado": [
+    "cabeza separada del torso por una banda rosa",
+    "líneas negras diagonales cruzan triángulos y óvalos sin conectar con el cuerpo",
+    "pequeñas líneas negras sobre el cuerpo lila flotan sueltas",
+    "óvalos verdes superpuestos a triángulos beige",
+    "rectángulo blanco sobre forma durazno sin sentido claro"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "consigna": "nada",
+  "unidad": "glm-5.3-razonamiento-minimo_1",
+  "juez": "gpt-4o",
+  "fecha_utc": "2026-10-02T14:42:59+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 232,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Rectángulo blanco cubre toda el área visible."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El fondo es completamente blanco."
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El rectángulo blanco llena todo el lienzo."
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El rectángulo parece medir 400x400 píxeles."
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no",
+      "nota": "El lienzo está pero no es solo presencia mínima."
+    }
+  ],
+  "no_dicho": "nada",
+  "mal_armado": []
+}

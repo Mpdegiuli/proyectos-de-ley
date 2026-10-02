@@ -1,0 +1,272 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "claude-sonnet-4-6_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:59:13+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2114,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "estructura con torres, arco y cables sobre agua"
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "cables en X y óvalos, pero no se lee una cinta de Möbius"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "las diagonales se cruzan en el centro, sin tablero que converja"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cables en X y verticales inclinados cruzados"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos torres lilas con base"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "remates cónicos claros con esfera, poco cristal facetado"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "esferas blancas con halo"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "cables sueltos que no sostienen nada claro"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "estructura incoherente, aunque más confusa que imposible"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "se ve como puente irreal, apenas funcional"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "planos facetados translúcidos azul-lila en la base"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay agua debajo, pero el puente apenas la cruza"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo oscuro con estrellas y luna"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos torres simétricas"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "remates cónicos delgados"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "esfera blanca en la punta de cada aguja"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "arco y cables unen las torres"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "X de cables cruzados entre las torres"
+    },
+    {
+      "id": "a19",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no hay una cinta torcida; el tablero son planos cortos"
+    },
+    {
+      "id": "a20",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no se ven ambas caras del tablero"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "elipses cian y violeta alrededor del centro"
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "elipses inclinadas distinto, parecen cruzarse"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "luna arriba a la derecha"
+    },
+    {
+      "id": "a24",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no hay reflejo de la luna en el agua"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "agua lisa sin olas"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "azules marino profundos"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "violetas y lilas en torres y anillos"
+    },
+    {
+      "id": "a28",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "aire irreal por anillos y brillos"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cables cruzados y verticales inclinados"
+    },
+    {
+      "id": "a30",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no hay sensación de dos caras"
+    },
+    {
+      "id": "a31",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no hay cubierta torcida"
+    },
+    {
+      "id": "a32",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "torres lilas con agujas, cristal poco claro"
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cruces de cables confusos"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "elipses con inclinaciones distintas"
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "paleta nocturna azul y violeta"
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "halos en luna, esferas, torres y anillo cian"
+    },
+    {
+      "id": "a37",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "agujas y arco sugieren gótico, poco marcado"
+    },
+    {
+      "id": "a38",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "la luna es creciente, no llena"
+    },
+    {
+      "id": "a39",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "agua calma"
+    },
+    {
+      "id": "a40",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ambiente nocturno suave y solitario"
+    },
+    {
+      "id": "a41",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "fantasía con brillos cristalinos, no especialmente oscura"
+    },
+    {
+      "id": "a42",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no genera ambigüedad de cara"
+    }
+  ],
+  "no_dicho": "Una luna creciente amarilla con halo y estrellas, y acantilados oscuros a los lados.",
+  "mal_armado": [
+    "el tablero está fragmentado en planos que no se unen",
+    "el puente no cruza el agua, solo hay un muelle corto entre las torres",
+    "cables diagonales exteriores que salen de las torres y terminan en el aire",
+    "líneas de reflejo de las torres sueltas en el agua",
+    "un óvalo blanco flotando en el centro sin función clara"
+  ]
+}

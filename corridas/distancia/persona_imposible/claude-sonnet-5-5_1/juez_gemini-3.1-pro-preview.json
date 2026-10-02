@@ -1,0 +1,220 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "claude-sonnet-5-5_1",
+  "juez": "gemini-3.1-pro-preview",
+  "fecha_utc": "2026-10-02T15:00:04+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 2228,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Figura humanoide estilizada, de frente, en el centro del lienzo."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El torso está cubierto por una forma trapezoidal roja que funciona como remera."
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Salen tres tubos azules que representan piernas desde debajo del brazo/remera."
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Cada una de las tres piernas termina en un óvalo negro a modo de zapato."
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El centro del pecho (remera) tiene un área oscura con forma de arco o ventana que muestra un cielo nocturno."
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Se observan puntos blancos en el área oscura del pecho, que parecen estrellas."
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay un semicírculo blanco/amarillo claro que se lee como luna en el pecho."
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay un elemento continuo grueso de color piel que conecta ambos hombros formando un bucle cerrado."
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Este arco o tubo comienza en un hombro, pasa horizontalmente bajo la cadera/torso y sube al otro hombro."
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay un par de ojos en el centro de la cara y otro par en la parte superior, dado vuelta."
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El par de ojos principal (centro) tiene borde grueso, esclerótica blanca y pupila negra."
+    },
+    {
+      "id": "a12",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "El segundo par de ojos no es fantasmal, sino definido, y está arriba (frente), invertido, no abajo."
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay un triángulo que simula una nariz dibujado como si la cabeza estuviese de perfil."
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Ese triángulo sobresale del borde derecho de la circunferencia de la cabeza."
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay un círculo amarillo en la parte superior izquierda del lienzo."
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Hay un círculo celeste liso en la parte superior derecha, que podría ser una luna llena de día, pero no es explícito como una luna en cuarto, a diferencia de la del pecho."
+    },
+    {
+      "id": "a17",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Las sombras en el suelo coinciden aproximadamente con la posición de la figura, extendiéndose lateralmente, no parecen desconectadas."
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Redundante a la a3. Se ven las tres piernas."
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Redundante a la a4. Cada pata termina en un óvalo oscuro."
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Redundante a la a8. Brazo unificado."
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Redundante a la a9. Mismo recorrido."
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Redundante a a5. Hueco en el torso con forma arqueada."
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Redundante a a6 y a7. Espacio azul oscuro con luna y estrellas."
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El contorno es un círculo con ojos y boca orientados hacia el espectador."
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Redundante a a13 y a14."
+    },
+    {
+      "id": "a26",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay un rostro superpuesto detrás. Lo que hay es otro conjunto de rasgos faciales invertidos arriba."
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El círculo amarillo (sol) y el celeste (luna) están simultáneamente en el fondo liso que sirve de cielo."
+    },
+    {
+      "id": "a28",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Hay una sola forma ovalada oscura que se extiende a ambos lados en el suelo, que sugiere sombra bidireccional por ambas fuentes de luz."
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El trazo grueso, ausencia de volumen y composición de figuras básicas transmiten esa idea."
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El estilo de dibujo simple, colores y construcción remite a esa estética infantil."
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Todos los rellenos son sólidos sin degradados, con tonos pasteles o desaturados (salvo el rojo y azul puros)."
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Los bordes de las formas principales son trazados con línea negra gruesa."
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Se compone de círculos, rectángulos y trapecios casi inalterados."
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "La mezcla de puntos de vista en un mismo plano remite remotamente al cubismo, pero en su versión simplificada encaja como 'de juguete'."
+    }
+  ],
+  "no_dicho": "La cara tiene una boca invertida en la parte superior y círculos translúcidos bajo los ojos principales, y las piernas cruzan por detrás del brazo inferior.",
+  "mal_armado": [
+    "cruce piernas y brazo"
+  ]
+}

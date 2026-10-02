@@ -1,0 +1,263 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "deepseek-v4-pro_1",
+  "juez": "gemini-3.1-pro-preview",
+  "fecha_utc": "2026-10-02T16:14:42+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1545,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Fondo espacial y elementos flotantes."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Dos islas flotantes debajo."
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Torres sobre la nada."
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tablero ondulado."
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Flota sin base central."
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Cables tensores visibles."
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Cables hacia el tablero."
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Fondo estrellado oscuro."
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Bandas translúcidas detrás."
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Tonos cian, rosa y amarillo brillantes."
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Vectores definidos y luces."
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Fantasía espacial."
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Estructura flotante inviable."
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Puente sobre las islas."
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Islas sin base."
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Espacio con estrellas."
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Puntos blancos/grisáceos."
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Ondas de luz tenues."
+    },
+    {
+      "id": "a19",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Solo estrellas, no partículas sueltas."
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Ventanas de colores en las torres."
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tirantes desde las torres."
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Borde superior dorado."
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Ondulado."
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tablero multicolor brillante."
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Superficie verde en las islas."
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Haces de luz verticales debajo."
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Fantasioso y espacial."
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Flotación sin anclajes."
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Puente tipo atirantado."
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Dos masas de tierra flotantes."
+    },
+    {
+      "id": "a31",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "El puente flota arriba, no las toca."
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Líneas translúcidas de fondo."
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Puntos blancos."
+    },
+    {
+      "id": "a34",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No se distinguen de estrellas."
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Colores vivos sobre oscuro."
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "En el tablero y las cascadas."
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Luces en el tablero y bordes."
+    },
+    {
+      "id": "a38",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay siluetas."
+    },
+    {
+      "id": "a39",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Paleta retro-futurista, faltan cuadrículas."
+    },
+    {
+      "id": "a40",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Ambiente espacial irreal."
+    },
+    {
+      "id": "a41",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Más fantasía espacial que cyberpunk puro."
+    }
+  ],
+  "no_dicho": "La estrella fugaz o cometa en la esquina superior izquierda.",
+  "mal_armado": [
+    "Cables cruzan por delante y por detrás del tablero de forma inconsistente.",
+    "La torre derecha se solapa de forma extraña con su base gris."
+  ]
+}

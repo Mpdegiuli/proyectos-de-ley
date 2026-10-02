@@ -1,0 +1,44 @@
+{
+  "consigna": "nada",
+  "unidad": "glm-5.3-razonamiento-minimo_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:43:49+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 333,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Todo es blanco; no se distingue un rectángulo como forma separada"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Fondo completamente blanco"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Todo el lienzo es blanco, pero no se ve un borde que lo confirme"
+    },
+    {
+      "id": "a4",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No se pueden verificar las medidas; sin bordes visibles"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Hay un lienzo blanco vacío; se lee como vacío, no como presencia mínima"
+    }
+  ],
+  "no_dicho": "nada",
+  "mal_armado": []
+}

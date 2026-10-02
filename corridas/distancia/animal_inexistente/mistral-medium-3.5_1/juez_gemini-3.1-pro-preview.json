@@ -1,0 +1,245 @@
+{
+  "consigna": "animal_inexistente",
+  "unidad": "mistral-medium-3.5_1",
+  "juez": "gemini-3.1-pro-preview",
+  "fecha_utc": "2026-10-02T15:43:22+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1570,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay una elipse inferior que parezca cuerpo de ballena"
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Hay un área naranja, pero no es el cuerpo"
+    },
+    {
+      "id": "a3",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Hay una elipse principal verde, pero no parece una cabeza de árbol"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La forma principal verde tiene degradado"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay dos círculos negros que parecen ojos"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay una línea curva que parece boca"
+    },
+    {
+      "id": "a7",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay ramas"
+    },
+    {
+      "id": "a8",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No evoca claramente reinos animal y vegetal juntos"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Es un dibujo imaginario, pero 'Flotante de Bosque' no es evidente"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La forma principal es un óvalo"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El óvalo es verde con degradado"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay una base naranja difuminada debajo"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Dos círculos negros"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Línea curva negra"
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Hay líneas onduladas, pero no parecen bigotes"
+    },
+    {
+      "id": "a16",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay cuernos"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Hay formas en la parte inferior, no parecen patas con garras"
+    },
+    {
+      "id": "a18",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Hay una línea recta abajo, pero no parece cola"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Se ven gradientes de color"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La zona naranja se ve desenfocada"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Las líneas onduladas sí, las patas son geométricas"
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "La base difusa da cierta sensación de flotar"
+    },
+    {
+      "id": "a23",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No se reconocen esos animales ni plantas"
+    },
+    {
+      "id": "a24",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Es un diseño abstracto/simple, no mágico"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Cuerpo verde con degradado, no parece nube"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Base naranja desenfocada"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Círculos negros a modo de ojos"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Línea curva a modo de boca"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Líneas negras abajo, interpretables como patas"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Las líneas tienen cierto grosor uniforme"
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Trazos geométricos y ondas"
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Es un dibujo de estilo muy simple"
+    },
+    {
+      "id": "a33",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Hay degradados pero no simulan texturas reales"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Naranja (cálido) y verde oscuro (frío/neutro)"
+    },
+    {
+      "id": "a35",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Es limpio, pero no particularmente onírico"
+    },
+    {
+      "id": "a36",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Hay degradados, no texturas detalladas"
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No hay sombras dibujadas (salvo el desenfoque base)"
+    },
+    {
+      "id": "a38",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No evoca esa mezcla"
+    }
+  ],
+  "no_dicho": "el punto o pequeño círculo arriba, entre los ojos",
+  "mal_armado": [
+    "las líneas de las 'patas' se superponen sobre la zona naranja difusa",
+    "las líneas onduladas atraviesan la cara y el cuerpo de forma confusa"
+  ]
+}

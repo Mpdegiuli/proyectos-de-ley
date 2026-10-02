@@ -1,0 +1,170 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "claude-opus-5-5_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:36:37+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1491,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "figura humana con cabeza, torso, brazos y piernas"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cabeza circular color piel con pelo oscuro"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "boca curva pequeña, sonrisa leve visible"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ojos puntuales y sonrisa dan aire tranquilo"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "torso de cubo con aristas gruesas, sin relleno"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "aristas con cortes y cruces raros, pero la contradicción no es muy nítida"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "tres tubos abajo y bloques arriba; el tridente se insinúa, no es claro"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "arriba hay bloques grises que parecen piernas, pero dos o tres según el caso"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tres bases elípticas azul grisáceo abajo, más óvalos que pies"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "brazos curvos a los lados con manos redondas"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "figura normal, rareza solo geométrica"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "cierto desconcierto, pero el efecto es débil"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cubo de alambre como torso"
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay cruces y huecos en las aristas, no se lee claramente una trasera por delante"
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "tubos centrales y laterales desalineados, lógica de tridente vaga"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "bloques grises sombreados a los lados del hueco central"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tres cilindros blancos con base elíptica"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el paso de bloque gris a tubo blanco es un corte horizontal abrupto"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "a primera vista parece un cubo transparente"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo crema"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "contornos gruesos oscuros, casi negro azulado"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "paleta apagada: piel, grises azulados, crema"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "no hay degradados, pero hay tonos más oscuros planos en las piernas"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas planas y simples"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "mezcla de ilustración simple y diagrama de ilusión"
+    }
+  ],
+  "no_dicho": "Los brazos aparecen medio tapados por el cubo, y hay una sombra elíptica en el suelo y un cinturón gris en la cadera.",
+  "mal_armado": [
+    "aristas del cubo cortadas o con huecos que parecen errores",
+    "brazos que se pierden detrás del cubo en los hombros",
+    "hueco blanco entre las piernas con un tubo central que no conecta con arriba",
+    "piernas de bloques grises y tubos blancos con transición abrupta",
+    "cubo sin relleno que deja ver el fondo en lugar del cuerpo"
+  ]
+}

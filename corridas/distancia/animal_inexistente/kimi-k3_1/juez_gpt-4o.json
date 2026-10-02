@@ -1,0 +1,362 @@
+{
+  "consigna": "animal_inexistente",
+  "unidad": "kimi-k3_1",
+  "juez": "gpt-4o",
+  "fecha_utc": "2026-10-02T14:51:53+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 2248,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El animal tiene seis patas visibles."
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "El cuerpo es redondeado pero no especialmente de mamífero."
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Un ala está visible sobre las patas."
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Una antena luminosa está en la cabeza."
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Los ojos tienen diferentes tamaños."
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La cola termina en un bulbo luminoso."
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El cuello tiene espinas."
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La escena está ambientada de noche."
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Se observan elementos bioluminiscentes."
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "La bioluminiscencia tiene coherencia visual con el fondo oscuro."
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El dibujo se percibe como un animal."
+    },
+    {
+      "id": "a12",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No se menciona el nombre fulgorcito."
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El animal está parado sobre una colina."
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La luna está visible en la escena."
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay estrellas en el cielo."
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La escena es claramente nocturna."
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El cuerpo del animal es redondeado."
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La panza del animal es de color claro."
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El cuerpo tiene manchas visibles."
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El animal camina sobre seis patas."
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El animal tiene seis patas visibles."
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El cuello es largo y curvo."
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El cuello tiene aletitas."
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El animal tiene una cabeza visible."
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Los ojos son grandes."
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La mejilla está sonrosada."
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay una oreja en forma de hoja."
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Una antena cuelga de la frente."
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La antena termina en una luz."
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La cola está enroscada."
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La cola termina en un farol brillante."
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El animal tiene un ala pequeña."
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Luciérnagas flotan alrededor del animal."
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay honguitos luminosos."
+    },
+    {
+      "id": "a35",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Hay destellos dorados pero no muy claros."
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "La expresión del animal es amigable."
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El animal es inventado."
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El animal tiene seis patas visibles."
+    },
+    {
+      "id": "a39",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El cuello es largo y similar al de una jirafa."
+    },
+    {
+      "id": "a40",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La antena es similar a la de un pez abisal."
+    },
+    {
+      "id": "a41",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La cola está enroscada."
+    },
+    {
+      "id": "a42",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La cola termina en una lucecita."
+    },
+    {
+      "id": "a43",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay un ala membranosa en el lomo."
+    },
+    {
+      "id": "a44",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El cuerpo tiene manchas."
+    },
+    {
+      "id": "a45",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay una oreja grande visible."
+    },
+    {
+      "id": "a46",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Los ojos son desparejos."
+    },
+    {
+      "id": "a47",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay hongos en la escena."
+    },
+    {
+      "id": "a48",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Luciérnagas son visibles alrededor."
+    },
+    {
+      "id": "a49",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Se usan tonos de violeta y turquesa."
+    },
+    {
+      "id": "a50",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay brillos amarillos cálidos."
+    },
+    {
+      "id": "a51",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay sombras simples en la imagen."
+    },
+    {
+      "id": "a52",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Estilo de ilustración vectorial plana."
+    },
+    {
+      "id": "a53",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El estilo es tierno y tipo kawaii."
+    },
+    {
+      "id": "a54",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Las formas son suaves y redondeadas."
+    },
+    {
+      "id": "a55",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay uso de degradados pastel."
+    },
+    {
+      "id": "a56",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El dibujo es limpio y decorativo."
+    },
+    {
+      "id": "a57",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El estilo no es realista."
+    },
+    {
+      "id": "a58",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La escena es nocturna."
+    }
+  ],
+  "no_dicho": "El animal tiene una expresión alegre.",
+  "mal_armado": []
+}

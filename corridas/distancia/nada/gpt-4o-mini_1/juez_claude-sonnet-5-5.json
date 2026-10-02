@@ -1,0 +1,138 @@
+{
+  "consigna": "nada",
+  "unidad": "gpt-4o-mini_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:42:58+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1163,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "el fondo se ve blanco, no hay rectángulo distinguible"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculo grande de trazo negro"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos arcos, arriba y abajo"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "una línea vertical y una horizontal que cruzan todo el lienzo"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay trazos de contorno, pero no sugieren una forma concreta"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "'Nada' en gris claro al centro"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "gris muy pálido, apenas se distingue"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "pocos elementos, trazos simples en blanco y negro"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "el vacío se insinúa con el texto, pero el diseño es más bien una mira o un globo"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "se ve blanco; no se puede saber si es transparente"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculo grande centrado"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "el círculo vacío podría leerse así, pero no lo comunica por sí solo"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "un arco arriba y otro abajo, simétricos y suaves"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cruz de líneas en el centro"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cruce exacto en el centro del lienzo"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "'Nada' legible aunque pálido"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "gris muy claro, opacidad baja"
+    },
+    {
+      "id": "a18",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "es pálido pero se lee nítido, sin difuminado"
+    },
+    {
+      "id": "a19",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "los arcos son estáticos y simétricos"
+    },
+    {
+      "id": "a20",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "la palabra 'Nada' invita a pensar, pero el dibujo no sugiere ausencia"
+    }
+  ],
+  "no_dicho": "Los ejes cruzan todo el lienzo hasta los bordes y, junto con el círculo, parecen una mira o un diagrama.",
+  "mal_armado": [
+    "la línea vertical y la horizontal tocan el borde del lienzo",
+    "la palabra 'Nada' queda cruzada por la línea horizontal",
+    "los arcos casi tocan el círculo en sus extremos y dejan una separación poco clara"
+  ]
+}

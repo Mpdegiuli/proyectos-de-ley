@@ -1,0 +1,175 @@
+{
+  "consigna": "persona",
+  "unidad": "gpt-4o_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:29:21+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1392,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "figura humana simple de pie"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculo color piel"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos ojos blancos con pupila negra"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "boca curva pequeña"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "rectángulo azul de esquinas redondeadas"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "es un bloque azul, sin mangas ni cuello; se lee como torso más que camiseta"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos líneas negras inclinadas a los lados"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos líneas verticales largas"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "brazos caídos, postura quieta y tranquila"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "celeste, piel, negro sobre blanco"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "cabeza y torso con color; brazos y piernas todos negros"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "limpio y fácil de entender"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculos, elipses, rectángulo y líneas"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "clara y simple"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculo color durazno"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ojos visibles"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sonrisa pequeña y simple"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "torso celeste"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "esquinas redondeadas claras"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "líneas negras gruesas como brazos"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "líneas negras gruesas como piernas"
+    },
+    {
+      "id": "a22",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "los brazos no tienen manos diferenciadas"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "tramos inclinados al final de las piernas, parecidos a pies pero dan rodillas dobladas"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "estilo esquemático simplificado"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "se ven todos esos elementos"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ojos grandes y sonrisa dan aire amistoso"
+    }
+  ],
+  "no_dicho": "Las piernas arrancan dentro del torso azul y lo atraviesan como líneas negras, y los brazos quedan pegados a los costados.",
+  "mal_armado": [
+    "piernas dibujadas sobre el torso, empiezan a mitad del cuerpo",
+    "brazos desconectados del torso, flotan en los bordes",
+    "tramos finales de las piernas torcidos hacia afuera, sin pies reales",
+    "cabeza sin cuello, separada del torso por una pequeña brecha"
+  ]
+}

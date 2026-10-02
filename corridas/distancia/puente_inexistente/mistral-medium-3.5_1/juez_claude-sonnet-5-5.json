@@ -1,0 +1,266 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "mistral-medium-3.5_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T15:02:44+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2128,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cuatro líneas verticales grises"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "las líneas no llegan a la torre central ni la tocan"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "rectángulo gris azulado translúcido en el centro"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "triángulo gris sobre el rectángulo"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la torre termina en el aire sobre el arco central"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "casi simétrica; el arco central es más alto y los laterales apenas difieren"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "verticales rígidas, no hay cables tensados reales"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "torre flotante y piezas desconectadas dan lo irreal"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "es más bien simple y esquemático, poco futurista"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "los extremos tocan la colina, no hay un valle claro"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "colina verde en la parte inferior"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "azul claro arriba, más intenso abajo"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tres arcos grises gruesos"
+    },
+    {
+      "id": "a14",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay cables tensados, solo postes verticales"
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "postes grises, no son torres metálicas claras"
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay esferas, pero no están en los extremos de los postes"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay un arco central con torre encima, no una plataforma"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "triángulo sobre la torre central"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculo amarillo sobre el triángulo, no en la plataforma"
+    },
+    {
+      "id": "a20",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "se ven como una cúpula con punta, sin misterio especial"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sombras suaves bajo los arcos"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "degradados en cielo, esferas y arcos"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "dan algo de volumen a arcos y esferas"
+    },
+    {
+      "id": "a24",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "se lee esquemático e irreal"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "los arcos sí tocan el suelo, pero la torre flota"
+    },
+    {
+      "id": "a26",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay cables tensados"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "torre rectangular al centro"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "techo triangular en la torre"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculo amarillo arriba de la torre"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "degradado vertical de azul"
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "colinas suaves y onduladas"
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "imagen cuadrada"
+    },
+    {
+      "id": "a33",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "es minimalista, pero poco futurista"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "bordes nítidos y formas limpias"
+    },
+    {
+      "id": "a35",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "degradados grises suaves, poco metálicos"
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sombras difusas bajo los arcos"
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculos, rectángulo, triángulo y línea de guiones"
+    },
+    {
+      "id": "a38",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "solo la colina y los arcos son curvos"
+    },
+    {
+      "id": "a39",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "los arcos gruesos pesan; se siente más estático que ligero"
+    },
+    {
+      "id": "a40",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no se percibe tecnología avanzada"
+    },
+    {
+      "id": "a41",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "colores planos y simples, el efecto de fantasía es débil"
+    }
+  ],
+  "no_dicho": "Una línea horizontal de guiones blancos cruza toda la imagen y atraviesa las esferas grises y la torre.",
+  "mal_armado": [
+    "los postes verticales no se conectan con los arcos, sobre todo en los extremos",
+    "la torre central flota sobre el arco sin apoyo",
+    "la línea de guiones cruza esferas y torre como un error",
+    "las esferas grises flotan sin sujeción",
+    "los extremos de los arcos se cortan en diagonal sobre la colina"
+  ]
+}

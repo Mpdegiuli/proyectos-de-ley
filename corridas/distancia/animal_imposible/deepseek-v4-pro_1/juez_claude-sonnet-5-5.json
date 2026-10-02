@@ -1,0 +1,200 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "deepseek-v4-pro_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:57:41+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1731,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Hay tres formas poligonales de colores distintos, no se leen como serpientes idénticas"
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Hay un círculo claro central donde se superponen las formas"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Hay cabezas en forma de abanico y polígonos cerrados, pero no se leen como cuerpos de serpiente"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Las cabezas están a distancias angulares aproximadas, pero las formas no parecen rotaciones exactas"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Las formas se solapan cerca del centro"
+    },
+    {
+      "id": "a6",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Hay un círculo blanco visible y bordes punteados que marcan costuras"
+    },
+    {
+      "id": "a7",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Solo parece una superposición caótica de polígonos"
+    },
+    {
+      "id": "a8",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No se leen como individuos completos"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Formas angulares sí, pero no serpientes reconocibles"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Todas se solapan cerca del círculo central"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Cabezas en posiciones tipo triángulo, no rotación clara"
+    },
+    {
+      "id": "a12",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Las cabezas son sectores o abanicos truncados, no triángulos"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Puntos de colores verde, rojo y violeta con borde blanco sobre cada cabeza"
+    },
+    {
+      "id": "a14",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Los cuerpos son polígonos lisos sin segmentos claros"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Rosa, turquesa y violeta con degradados suaves"
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Se solapan cerca del centro"
+    },
+    {
+      "id": "a17",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Las formas se superponen y cruzan claramente"
+    },
+    {
+      "id": "a18",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Tres masas de color con tres cabezas, pero sin lectura de trinidad clara"
+    },
+    {
+      "id": "a19",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No se lee como criatura imposible, solo abstracción"
+    },
+    {
+      "id": "a20",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Tres formas de color y tres cabezas, no serpientes reconocibles"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Las tres cabezas forman un triángulo suelto"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Fondo casi negro azulado"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Magenta, turquesa y violeta con degradado"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Contornos blancos discontinuos en las formas"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Cada cabeza tiene un punto brillante con halo"
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Círculo blanco pálido, brillo leve"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Colores neón, resplandor y fondo oscuro"
+    },
+    {
+      "id": "a28",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Solo superposición con transparencia, sin entrelazado"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Capas sin orden claro de profundidad"
+    },
+    {
+      "id": "a30",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No hay efecto Penrose"
+    }
+  ],
+  "no_dicho": "Un gran polígono violeta en forma de flecha o estrella irregular domina el centro y cruza las demás formas.",
+  "mal_armado": [
+    "Las formas son polígonos irregulares que no se leen como serpientes",
+    "Las cabezas en abanico quedan desconectadas de los cuerpos",
+    "El círculo central parece flotar sin conexión",
+    "Bordes punteados que se cruzan y confunden las siluetas",
+    "Formas rosa y turquesa parcialmente tapadas por la violeta"
+  ]
+}

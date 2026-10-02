@@ -1,0 +1,74 @@
+{
+  "consigna": "nada",
+  "unidad": "claude-sonnet-4-6_1",
+  "juez": "gpt-4o",
+  "fecha_utc": "2026-10-02T14:41:06+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 401,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Rectángulo color #000005."
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Color muy oscuro, difícil de prever azul."
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Aparenta no ser nada."
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Rectángulo cubre todo el lienzo."
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Relleno color #000005."
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Difícil de discernir tono azul."
+    },
+    {
+      "id": "a7",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Hay un rectángulo visible."
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "No hay luz visible."
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "No parece representar nada."
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Transmite una sensación de vacío."
+    }
+  ],
+  "no_dicho": "Nada",
+  "mal_armado": []
+}

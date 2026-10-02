@@ -1,0 +1,205 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "grok-4.6_1",
+  "juez": "gemini-3.1-pro-preview",
+  "fecha_utc": "2026-10-02T15:56:24+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1361,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Alas con ojos integrados."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Ojo central arriba de los otros dos en la cara."
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Extensión curva abajo a la izquierda termina en ojo."
+    },
+    {
+      "id": "a4",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No se distinguen frutos en la cabeza."
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Se ven extremidades raras, difícil precisar garra/pezuña/aleta exactas."
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Composición parece criatura única."
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "Rasgos mixtos (pico, tentáculo), mamífero no obvio."
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Cuerpo central con puntos/manchas oscuras."
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Esfera central con degradado de esos tonos."
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Alas violetas/magentas con base naranja."
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Dos alas visibles, cada una con un ojo."
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tres ojos en la cabeza amarilla."
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Estructura amarilla curva tipo pico."
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Líneas curvas con esferas coloridas en puntas."
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Estructura inferior con aletas verde/amarillo/magenta, pero no unida al cuerpo."
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Repetida de a3."
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "Fondo oscuro con puntos, parece espacio o noche."
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Mezcla alas, tentáculo, cuerpo esférico."
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Criatura muy surrealista e irreal."
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Repetida de a1/a11."
+    },
+    {
+      "id": "a21",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Es una esfera colorida, sin textura ni forma mamífera."
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Parte inferior desconectada tiene formas tipo aleta, pero no es una cola clara."
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Repetida de a12."
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Repetida de a1/a11/a20."
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Asumiendo el tentáculo como cola, sí."
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Repetida de a14."
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Vectores con temática fantasiosa."
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Parece un bicho de un bestiario irreal."
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Curvas y esferas suaves."
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Uso intenso de degradados brillantes."
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Estilo muy ornamental."
+    }
+  ],
+  "no_dicho": "Sombra oscura debajo del cuerpo principal en forma de óvalo.",
+  "mal_armado": [
+    "La estructura inferior de 'aletas' (verde claro, amarillo, magenta) está flotando suelta del resto del cuerpo",
+    "Las patas/líneas oscuras debajo de la esfera se superponen sin sentido claro",
+    "El 'pico' atraviesa un círculo naranja suelto",
+    "Las líneas curvas detrás de la cabeza parecen antenas sueltas"
+  ]
+}

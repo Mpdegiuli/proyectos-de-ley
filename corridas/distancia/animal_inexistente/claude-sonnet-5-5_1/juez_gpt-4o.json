@@ -1,0 +1,290 @@
+{
+  "consigna": "animal_inexistente",
+  "unidad": "claude-sonnet-5-5_1",
+  "juez": "gpt-4o",
+  "fecha_utc": "2026-10-02T14:48:12+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1807,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Criatura tiene características de varias especies."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El cuerpo es turquesa."
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El cuerpo es ovalado y rechoncho."
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay manchas amarillas en el cuerpo."
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La criatura tiene cuatro patas cortas."
+    },
+    {
+      "id": "a6",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Los pies son amarillos, no anaranjados."
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tiene una cola larga en la espalda."
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La cola termina en una concha rosa en espiral."
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay una hilera de púas rosadas en el lomo."
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tiene dos antenas en la cabeza."
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Las antenas tienen puntas luminosas."
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Los ojos son grandes."
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay un hocico claro."
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La criatura tiene una sonrisa."
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no",
+      "nota": "La sonrisa parece normal, no necesariamente tímida."
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La escena es nocturna."
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay una luna."
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay estrellas."
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay colinas violetas."
+    },
+    {
+      "id": "a20",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Transmite ternura, pero el misterio es subjetivo."
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay un cuerpo ovalado turquesa."
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El animal es cuadrúpedo."
+    },
+    {
+      "id": "a23",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Las patas son amarillas, no anaranjadas."
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La cola termina en forma de caracol rosa."
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La cola termina en una concha."
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay un hocico de mamífero."
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay mejillas de mamífero."
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tiene orejas grandes de dos tonos."
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay dos antenas sobre la cabeza."
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Las antenas tienen bolitas luminosas."
+    },
+    {
+      "id": "a31",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Las antenas podrían recordar a las de pez abisal."
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Cresta de púas rosas en el lomo."
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay dos alas violetas translúcidas."
+    },
+    {
+      "id": "a34",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Las alas parecen fantasmales."
+    },
+    {
+      "id": "a35",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Las alas parecen decorativas, no funcionales."
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Los ojos son grandes y brillantes."
+    },
+    {
+      "id": "a37",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Los ojos tienen un estilo que podría considerarse kawaii."
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El fondo es un paisaje nocturno."
+    },
+    {
+      "id": "a39",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay una luna en el fondo."
+    },
+    {
+      "id": "a40",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay estrellas en el fondo."
+    },
+    {
+      "id": "a41",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Colinas en capas en el fondo."
+    },
+    {
+      "id": "a42",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Estilo de ilustración vectorial plana."
+    },
+    {
+      "id": "a43",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Estilo tierno y de cuento infantil."
+    },
+    {
+      "id": "a44",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Se usan degradados suaves."
+    },
+    {
+      "id": "a45",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Las formas son redondeadas."
+    },
+    {
+      "id": "a46",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Transmite atmosfera onírica y fantástica."
+    }
+  ],
+  "no_dicho": "Las orejas son claramente visibles pero no especialmente mencionadas.",
+  "mal_armado": []
+}

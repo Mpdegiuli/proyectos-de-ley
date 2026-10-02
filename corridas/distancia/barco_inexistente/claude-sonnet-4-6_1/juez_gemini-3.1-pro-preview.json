@@ -1,0 +1,263 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "claude-sonnet-4-6_1",
+  "juez": "gemini-3.1-pro-preview",
+  "fecha_utc": "2026-10-02T16:31:52+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 2199,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Casco marrón-dorado, pero no parece galeón."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Óvalo celeste translúcido central."
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Ojo dentro del óvalo transparente."
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Tentáculos luminosos visibles, pero no se nota que propulsen."
+    },
+    {
+      "id": "a5",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Mástil con leve ondulación ordinaria."
+    },
+    {
+      "id": "a6",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Solo se ondula como una rama."
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Mezcla barco tradicional y criatura biológica."
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Diseño surrealista y fantástico."
+    },
+    {
+      "id": "a9",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay texto que lo indique."
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Casco tono madera dorada."
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tentáculos en tonos violetas."
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Bajan hacia la superficie marina."
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Mar y cielo azul oscuro."
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Óvalo celeste sobre el casco."
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Ojo ocupando gran parte de la cúpula."
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Iris y contorno violetas."
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Está atravesado por el mástil, no del todo libre."
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Pupila centrada mirando al frente."
+    },
+    {
+      "id": "a19",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Curvatura muy simple."
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Triángulos translúcidos tipo vela."
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Círculo rosa en el tope."
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Tiene un halo de luz alrededor."
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Luna amarilla arriba a la derecha."
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Cielo completamente oscuro."
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Sombra u óvalo reflejado bajo el casco."
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Líneas de agua sutiles y horizontales."
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Base del barco color madera."
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Óvalo asume rol de cabina."
+    },
+    {
+      "id": "a29",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Ojo dentro, aunque el palo lo ensarta."
+    },
+    {
+      "id": "a30",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Hay tentáculos, no aparentan funcionar de ancla."
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Mástil marrón con curvas."
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Curvas y tonos orgánicos."
+    },
+    {
+      "id": "a33",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Imposible determinar intención en imagen fija."
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Combinación de casco naval y ser vivo."
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Fondo en azules y marinos oscuros."
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tonos púrpuras en el ser vivo."
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Luces rosas intensas en puntas y bordes."
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Puntos de luz con resplandor."
+    },
+    {
+      "id": "a39",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Tonos oscuros y luces llamativas."
+    },
+    {
+      "id": "a40",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Formas orgánicas sí, art nouveau no es claro."
+    },
+    {
+      "id": "a41",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El ojo gigante funciona como criatura interna."
+    }
+  ],
+  "no_dicho": "Estrellas blancas en el cielo y líneas tensoras formando un triángulo con el mástil.",
+  "mal_armado": [
+    "El mástil atraviesa el centro del ojo interrumpiendo la perspectiva",
+    "Círculo oscuro gris superpuesto erróneamente sobre la luna"
+  ]
+}

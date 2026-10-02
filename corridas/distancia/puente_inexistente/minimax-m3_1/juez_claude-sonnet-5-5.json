@@ -1,0 +1,356 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "minimax-m3_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T15:04:12+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2789,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tablero bajo curvado en el centro"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "arcos de distinta altura sobre el tablero"
+    },
+    {
+      "id": "a3",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "el cable más alto llega a y≈310, lejos de la luna"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "orbes en los extremos y la cima; no todos los cables terminan en uno"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "orbes sin mástil ni anclaje"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "no hay pilares en el agua"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "no hay torres"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "hay elipses tenues y arcos reflejados, no una desintegración clara"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "el reflejo sí repite los arcos, solo difuso"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "luna con un hueco oscuro circular a la derecha"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "solo un cuadrilátero con puntos; no hay otras constelaciones"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "gradiente de violeta oscuro a violeta más claro"
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "puente sin acceso ni barandas, se siente irreal"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "aspecto onírico y luminoso"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puente central"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "arcos en forma de cúpula"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "agua oscura violeta bajo el puente"
+    },
+    {
+      "id": "a18",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "la luna es casi llena con un mordisco, no una gibosa clara"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "puntos naranjas brillantes flotando"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cuerdas curvas hacia arriba"
+    },
+    {
+      "id": "a21",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "las cuerdas quedan bajas y lejos de las estrellas"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el camino es bajo, cerca de la línea del agua"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "siluetas de colinas a ambos lados"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "montañas violeta oscuro"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "un solo cuadrilátero"
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "puntitos ámbar que podrían leerse como luciérnagas"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "finas líneas doradas en el agua"
+    },
+    {
+      "id": "a28",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay siluetas sobre el puente"
+    },
+    {
+      "id": "a29",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no hay viajeros"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "paleta oscura nocturna"
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "dominan violetas y lavandas"
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "destellos ámbar en orbes y chispas"
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "estrellas y pájaros blancos, brillo en el tablero"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "líneas finas y brillantes, translúcido"
+    },
+    {
+      "id": "a35",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "no hay dos mundos evidentes"
+    },
+    {
+      "id": "a36",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "un sol rojizo pequeño, pero el cielo es de noche"
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo oscuro con estrellas"
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "arcos luminosos como energía"
+    },
+    {
+      "id": "a39",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sobre el agua sin soportes"
+    },
+    {
+      "id": "a40",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay islotes, solo colinas en las orillas"
+    },
+    {
+      "id": "a41",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "un orbe en la cima y puntos pequeños cerca"
+    },
+    {
+      "id": "a42",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "arcos reflejados tenues bajo el puente"
+    },
+    {
+      "id": "a43",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cuadrilátero lavanda arriba a la izquierda"
+    },
+    {
+      "id": "a44",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "fondo oscuro profundo arriba"
+    },
+    {
+      "id": "a45",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "violeta domina, el naranja es acento"
+    },
+    {
+      "id": "a46",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "degradados suaves en cielo y agua"
+    },
+    {
+      "id": "a47",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "la luna es casi llena, no menguante"
+    },
+    {
+      "id": "a48",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "estrellas pequeñas"
+    },
+    {
+      "id": "a49",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "líneas brillantes lavanda, poco neón"
+    },
+    {
+      "id": "a50",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "se lee como resplandor, no estructura"
+    },
+    {
+      "id": "a51",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "fantasía onírica cósmica"
+    },
+    {
+      "id": "a52",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la luz forma el puente"
+    },
+    {
+      "id": "a53",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "vectorial minimalista"
+    },
+    {
+      "id": "a54",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cosmic fantasy suave"
+    },
+    {
+      "id": "a55",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "puente simétrico, pero objetos del cielo dispersos"
+    },
+    {
+      "id": "a56",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el brillo del puente es lo central"
+    }
+  ],
+  "no_dicho": "Un sol rojizo pequeño, dos pájaros blancos en vuelo y un arco lavanda suelto en el agua en primer plano.",
+  "mal_armado": [
+    "arco lavanda suelto en el agua sin relación con el puente",
+    "cuadrilátero lavanda flotando aislado",
+    "gran zona inferior vacía",
+    "sol y luna parecen sin conexión con la escena",
+    "extremos del tablero planos que sobresalen de los arcos"
+  ]
+}

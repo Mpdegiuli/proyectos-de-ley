@@ -1,0 +1,201 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "claude-sonnet-4-6_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:36:50+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1683,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "ningún brazo entra y sale del torso; solo se ven brazos sueltos"
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "brazos torcidos de forma rara, el izquierdo con codo extraño y mano pequeña"
+    },
+    {
+      "id": "a3",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "las piernas están separadas, sin bucle cerrado"
+    },
+    {
+      "id": "a4",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "se ven dos piernas distintas"
+    },
+    {
+      "id": "a5",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "una sola cara frontal"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "elipses grises bajo los pies, sin direcciones opuestas claras"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "figura humana caricaturesca con cabeza, torso, brazos y piernas"
+    },
+    {
+      "id": "a8",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "un brazo cruza por delante del torso, no lo atraviesa"
+    },
+    {
+      "id": "a9",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "los brazos salen de los hombros normales"
+    },
+    {
+      "id": "a10",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay bucle visible en las piernas"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "una banda azul curva une los pies, pero no se lee como lazo"
+    },
+    {
+      "id": "a12",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "solo una cara"
+    },
+    {
+      "id": "a13",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "la cabeza tiene un solo frente"
+    },
+    {
+      "id": "a14",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "torso simple, sin autocruce"
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "sombra elíptica difusa, sin contradicción legible"
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "coherente pero con brazos raros; no es imposible estructuralmente"
+    },
+    {
+      "id": "a17",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no hay geometría tipo Escher"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "figura humana simple y caricaturesca"
+    },
+    {
+      "id": "a19",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay brazo que emerja por el lado contrario"
+    },
+    {
+      "id": "a20",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "la cabeza muestra un solo frente"
+    },
+    {
+      "id": "a21",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "piernas separadas"
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "sombra gris bajo la figura sin dos direcciones"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "fondo casi negro"
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "anatomía rara en brazos pero sin topología contradictoria clara"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "formas reconocibles, pero la contradicción no se lee"
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "halo violeta alrededor de la cabeza y fondo oscuro dan algo de misterio"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ilustración de personaje simple tipo dibujo animado"
+    },
+    {
+      "id": "a28",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "sin influencia perceptible de Escher"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "figurativo estilizado, ni realista ni abstracto"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cabeza, ojos, torso, piernas reconocibles"
+    }
+  ],
+  "no_dicho": "Un halo violeta alrededor de la cabeza, un rostro caricaturesco con ojos grandes y el texto 'persona imposible' al pie.",
+  "mal_armado": [
+    "brazo izquierdo con mano diminuta y un apéndice como garra, anatomía confusa",
+    "brazo central sobre el torso sin conexión clara con el hombro",
+    "piernas desproporcionadas, desconectadas del torso",
+    "pies y banda azul superpuestos de forma confusa",
+    "sombra gris elíptica flotando separada de los pies",
+    "texto del pie de página en gris tenue, poco legible"
+  ]
+}

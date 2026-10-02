@@ -1,0 +1,224 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "minimax-m3_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:41:34+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1966,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Hay dos contornos de cabeza superpuestos, pero ambos miran de frente; no hay perfiles opuestos."
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "El cuello tiene forma abultada, pero no se ve retorcido 180°."
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Las líneas de los brazos se cruzan en X sobre el torso."
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Los pies tienen pequeños trazos a ambos lados, pero apenas se leen como direcciones opuestas."
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Hay dos líneas tenues que se cruzan en la cabeza; casi no se notan."
+    },
+    {
+      "id": "a6",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No se ve ningún espacio representado que no cierre."
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Dos contornos de cabeza fundidos, pero se lee como una sola cara."
+    },
+    {
+      "id": "a8",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Solo hay dos ojos, en la cara frontal."
+    },
+    {
+      "id": "a9",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Solo hay dos cejas."
+    },
+    {
+      "id": "a10",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Hay una sola boca o bigote curvo."
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay una oreja a cada lado de la cabeza, como en una cara normal."
+    },
+    {
+      "id": "a12",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "El cuello no muestra torsión."
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Los brazos cruzan el torso y salen del lado opuesto."
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Los brazos largos y cruzados resultan raros."
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Las manos son círculos con tres rayitas, no dedos reales."
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Dos piernas quebradas y bastante rectas."
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Los pies apuntan hacia afuera de forma sutil."
+    },
+    {
+      "id": "a18",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Dos líneas diagonales tenues se cruzan en la cabeza."
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Texto en cursiva abajo, legible."
+    },
+    {
+      "id": "a20",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Mira de frente, no hacia sí misma."
+    },
+    {
+      "id": "a21",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No parece caminar."
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Dos contornos de cabeza, pero sin perfiles."
+    },
+    {
+      "id": "a23",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No se aprecia giro del cuello."
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Brazos que cruzan hacia el lado opuesto."
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Las líneas se cruzan en el torso a la altura del pecho."
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Pies con trazos divergentes, poco claros."
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Fondo beige y tinta marrón oscura."
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Dibujo de líneas simples, sin relleno."
+    },
+    {
+      "id": "a29",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "El trazo es grueso y firme, no inseguro."
+    },
+    {
+      "id": "a30",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Casi no hay perspectiva visible."
+    },
+    {
+      "id": "a31",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Algo raro, pero más bien un dibujo simple y limpio."
+    },
+    {
+      "id": "a32",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No evoca un boceto renacentista."
+    },
+    {
+      "id": "a33",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No hay efecto de figura imposible tipo Escher."
+    },
+    {
+      "id": "a34",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Fondo color papel y tinta oscura, aunque la línea es limpia."
+    }
+  ],
+  "no_dicho": "La barba o bigote curvo y el óvalo de capucha o pelo sobre la cara; también las manos en forma de círculo con rayitas.",
+  "mal_armado": [
+    "Los contornos de la cabeza se cruzan sin una lógica clara",
+    "El cuello es una forma abultada que no encaja bien con la cabeza ni con el torso",
+    "Los brazos salen de un cruce en el torso, no de los hombros",
+    "Las manos son círculos sueltos, separados de los brazos",
+    "Las líneas de fuga son casi invisibles"
+  ]
+}

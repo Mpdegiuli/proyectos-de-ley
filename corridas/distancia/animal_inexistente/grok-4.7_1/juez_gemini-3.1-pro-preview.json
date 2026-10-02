@@ -1,0 +1,269 @@
+{
+  "consigna": "animal_inexistente",
+  "unidad": "grok-4.7_1",
+  "juez": "gemini-3.1-pro-preview",
+  "fecha_utc": "2026-10-02T15:43:08+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1847,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Orejas grandes y alargadas en la cabeza."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Zona de la nariz y boca con forma de hocico."
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Líneas que salen del hocico."
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Estructuras celestes con ramificaciones en la cabeza."
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Punto brillante en la frente."
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "El cuerpo es liso, no se distingue textura de pelaje."
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Hay formas grandes que parecen alas, pero su diseño y colores (cyan, violeta translúcido) difieren de alas típicas de polilla iridiscente, aunque son alas grandes."
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Cuatro patas con detalles rosados en los extremos."
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Criatura con mezcla de rasgos, en un entorno oscuro."
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Un ser imaginario."
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El cuerpo es de color lila/violeta claro, aunque sin textura de pelaje."
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Zona abdominal de color crema/amarillo claro."
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tiene cuatro patas visibles."
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Puntos rosados en las patas."
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Orejas largas y prominentes."
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "en_parte",
+      "nota": "Cuernos celestes que podrían parecer cristal por el color y los bordes rectos."
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Formas de alas translúcidas en el fondo, pero no muy iridiscentes; también hay alas pequeñas de colores sólidos en el lomo."
+    },
+    {
+      "id": "a18",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Hay un punto brillante celeste, no se distingue forma de ojo."
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El punto en la frente tiene un resplandor."
+    },
+    {
+      "id": "a20",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Las patas tocan el suelo (la elipse azul oscura)."
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Esfera azul brillante sostenida por la cola."
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Círculo amarillo en el cielo nocturno."
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Líneas onduladas tenues en el fondo que podrían sugerir auroras."
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Puntos blancos/amarillos en el fondo."
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Triángulos pequeños en el suelo."
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Fondo oscuro con estrellas y luna."
+    },
+    {
+      "id": "a27",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "Cuerpo redondeado, no típicamente felino en sus proporciones."
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Repetición: orejas largas visibles."
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Repetición: cuernos celestes ramificados."
+    },
+    {
+      "id": "a30",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Repetición: alas grandes translúcidas y pequeñas de colores."
+    },
+    {
+      "id": "a31",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Repetición: punto luminoso, no parece un ojo detallado."
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Repetición: cuatro patas con marcas rosadas."
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Repetición: esfera brillante en la cola."
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Colores violetas y lilas presentes en el animal."
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Cyan presente en los cuernos, la esfera y detalles."
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Dorado/amarillo presente en la luna y la panza."
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Colores oscuros predominan en el fondo."
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Es una ilustración vectorial de una criatura fantástica."
+    },
+    {
+      "id": "a39",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Hay formas planas pero también degradados."
+    },
+    {
+      "id": "a40",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Degradados visibles en el cuerpo, luna, y alas de fondo."
+    },
+    {
+      "id": "a41",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Resplandores en la frente, orbe de la cola y estrellas."
+    },
+    {
+      "id": "a42",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "La estética general y el entorno nocturno evocan fantasía."
+    }
+  ],
+  "no_dicho": "Una cola larga que termina enroscada sosteniendo el orbe, y tres pequeñas alas de colores amarillo, azul y rosa en el lomo.",
+  "mal_armado": [
+    "Cuello separado visualmente de la cabeza por una línea dura.",
+    "Patas unidas al cuerpo de forma superpuesta y rígida, sin transición."
+  ]
+}

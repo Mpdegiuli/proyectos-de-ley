@@ -1,0 +1,302 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "glm-5.3-razonamiento-minimo_1",
+  "juez": "gpt-5.5-2026-04-23",
+  "fecha_utc": "2026-10-02T15:41:05+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 3909,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "la calzada entra en vueltas concéntricas"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "la ruta dibuja una espiral clara"
+    },
+    {
+      "id": "a3",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no se ve un obelisco en el centro"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay soportes verticales cerca del centro, no claramente sosteniendo"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "arranca desde un borde rocoso con flores"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "hay formas verdes con flores rosadas"
+    },
+    {
+      "id": "a7",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no aparece un monolito definido"
+    },
+    {
+      "id": "a8",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "hay luces, pero no un monolito iluminado"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "un soporte baja hacia la zona del agua"
+    },
+    {
+      "id": "a10",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no hay obelisco reconocible flotando"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "el soporte central se ve extraño e improbable"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la espiral dirige la mirada hacia adentro"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo violeta con luces doradas"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "la carretera sale de un precipicio con flores"
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "se enrolla en espiral, con agua debajo en la escena"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "las vueltas se achican hacia el centro"
+    },
+    {
+      "id": "a17",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no se distingue un obelisco central"
+    },
+    {
+      "id": "a18",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "hay una luz brillante arriba, no un obelisco claro"
+    },
+    {
+      "id": "a19",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay cables desde la luz superior hacia la estructura"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "hay torres o postes con faroles encendidos"
+    },
+    {
+      "id": "a21",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "los faroles iluminan, no sostienen la ruta"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "hay agua oscura con ondas abajo"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "se ve un reflejo circular parcial en el agua"
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "hay una figura pequeña con brillo en el borde"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "la figura parece mirar hacia el puente"
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay aves, pero no una nebulosa clara cruzada"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "las flores están junto al borde del precipicio"
+    },
+    {
+      "id": "a28",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no hay obelisco visible que parezca flotar"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la espiral hace que el camino parezca cerrarse sobre sí mismo"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "la calzada parte desde el precipicio izquierdo"
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "se enrolla en círculos cada vez menores"
+    },
+    {
+      "id": "a32",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "hay un soporte raro que baja desde la zona central"
+    },
+    {
+      "id": "a33",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "el pilar parece conectado a la estructura, no a la nada"
+    },
+    {
+      "id": "a34",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no se reconoce un obelisco central suspendido"
+    },
+    {
+      "id": "a35",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay cables desde la parte superior iluminada al puente"
+    },
+    {
+      "id": "a36",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "parte de la estructura se ve suspendida e irreal"
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "predominan violetas y luces doradas de atardecer"
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "hay puntos blancos como estrellas"
+    },
+    {
+      "id": "a39",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay manchas violetas nebulosas, no una nebulosa definida"
+    },
+    {
+      "id": "a40",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "varios faroles brillan en amarillo"
+    },
+    {
+      "id": "a41",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "hay un único viajero pequeño con resplandor"
+    },
+    {
+      "id": "a42",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay siluetas de aves en un cielo oscuro"
+    },
+    {
+      "id": "a43",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la escena resulta irreal y onírica"
+    },
+    {
+      "id": "a44",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "la espiral y las luces dan un aire místico"
+    },
+    {
+      "id": "a45",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "usa formas simples y limpias"
+    },
+    {
+      "id": "a46",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "los colores son mayormente planos, con algunos brillos"
+    },
+    {
+      "id": "a47",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "hay líneas onduladas y trazos punteados decorativos"
+    },
+    {
+      "id": "a48",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "se lee como ilustración fantástica más que diseño técnico"
+    }
+  ],
+  "no_dicho": "Una luna enorme y pálida domina la esquina superior izquierda.",
+  "mal_armado": []
+}

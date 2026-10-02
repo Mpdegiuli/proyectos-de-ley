@@ -1,0 +1,200 @@
+{
+  "consigna": "animal",
+  "unidad": "gemini-3.1-pro-preview_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:46:26+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1667,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cara de zorro grande, orejas, hocico blanco"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "pupilas celestes con punto blanco, brillan"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "pocos puntitos pequeños; más bien estrellas fugaces"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "semicírculos tenues detrás de la cabeza, apenas se leen como luna"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tres líneas diagonales claras arriba"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "azul muy oscuro casi negro"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "naranja y blanco bien visibles"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "degradados en pelaje, hocico y fondo"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculos, triángulos, óvalos, formas simples"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "naranja vivo resalta sobre fondo oscuro"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "degradados dan algo de volumen, sobre todo hocico y cola"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ojos rasgados dan carácter, expresión algo seria"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cara frontal simétrica"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "estilo gráfico estilizado; lo místico es leve"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pelaje naranja rojizo"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "hocico y mejillas blancos grisáceos"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "iris celeste/cian brillante, pequeños"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cara centrada, cola abajo"
+    },
+    {
+      "id": "a19",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "cielo, siluetas de pinos; paisaje apenas visible"
+    },
+    {
+      "id": "a20",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "oscuro sí, estrellas muy pocas y chiquitas"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "mismas estrellas fugaces"
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "un par de barras grisáceas tenues a los lados"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "halo marrón tenue tapado por la cabeza, no resplandece"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "tono marrón dorado cálido"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "se ven siluetas de pinos, no montañas"
+    },
+    {
+      "id": "a26",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay luces flotantes; solo un puntito abajo"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "gradientes presentes"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "halo de luna y nubes semitransparentes"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "curvas en cola, mejillas, orejas"
+    },
+    {
+      "id": "a30",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "ambiente nocturno calmo pero la mirada es intensa y el diseño es llamativo"
+    }
+  ],
+  "no_dicho": "La cola enroscada naranja con punta blanca que rodea la base de la cara, y la franja clara en la frente.",
+  "mal_armado": [
+    "la cola se ve como un aro pegado debajo de la cara, con un hueco negro entre ambas",
+    "la cara es enorme y tapa casi todo el fondo y la luna",
+    "punta blanca de la cola a la izquierda queda cortada y poco clara",
+    "pequeño punto marrón en el borde inferior, suelto",
+    "orejas muy grandes y puntiagudas, algo desproporcionadas respecto de la cabeza"
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "consigna": "animal",
+  "unidad": "mistral-medium-3.5_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:46:56+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1435,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "parece una forma amarilla con cara, no un león"
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "forma ancha tipo dos lóbulos, no un óvalo claro"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos círculos negros arriba"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "solo una curva pequeña bajo los ojos, ambigua"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay curvas pequeñas pero no se leen como bigotes"
+    },
+    {
+      "id": "a6",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no hay melena distinguible"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "relleno dorado/amarillo"
+    },
+    {
+      "id": "a8",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no hay patas delanteras claras"
+    },
+    {
+      "id": "a9",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no transmiten fuerza, son arcos sueltos"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay arcos gruesos pero fuera, no forman melena"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "simple y algo expresivo, carita sonriente"
+    },
+    {
+      "id": "a12",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no se reconoce un animal concreto"
+    },
+    {
+      "id": "a13",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no se ve león"
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "todo es dorado, no hay melena separada"
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "la forma tiene curvas suaves, pero no es melena"
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "forma curva, no verificable como melena"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos círculos negros"
+    },
+    {
+      "id": "a18",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "curva bajo los ojos podría ser nariz/boca"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sonrisa curva bajo los ojos"
+    },
+    {
+      "id": "a20",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "curvas finas, no gruesas ni como bigotes"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "arcos gruesos en U, no invertida"
+    },
+    {
+      "id": "a22",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay cola identificable"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "arcos sueltos abajo, no se leen como patas"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculos y trazos curvos visibles"
+    },
+    {
+      "id": "a25",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "arcos dispersos, sin sensación de movimiento"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "muy estilizado/abstracto"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "todo dentro del lienzo"
+    }
+  ],
+  "no_dicho": "Dos pequeñas sonrisas curvas en el cuerpo y un arco fino bajo la forma, que dan aspecto de cara/criatura extraña.",
+  "mal_armado": [
+    "arcos negros gruesos flotando separados del cuerpo",
+    "arco fino bajo el cuerpo desconectado",
+    "sonrisas sueltas dentro del cuerpo sin función clara",
+    "forma de dos lóbulos sin partes anatómicas reconocibles"
+  ]
+}

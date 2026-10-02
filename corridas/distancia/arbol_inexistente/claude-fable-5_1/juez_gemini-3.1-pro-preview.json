@@ -1,0 +1,215 @@
+{
+  "consigna": "arbol_inexistente",
+  "unidad": "claude-fable-5_1",
+  "juez": "gemini-3.1-pro-preview",
+  "fecha_utc": "2026-10-02T16:20:14+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1272,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Fondo oscuro y luna"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Base sin piso"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Base violeta oscuro"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Fondo continuo circundante"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Líneas bajo base"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "Tronco estriado, luz suave"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tronco curvado"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "Medusas opacas, no vidrio"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Celestes y rosadas"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "En puntas de ramas"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Tentáculos sin goteo"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Esferas sin iridiscencia"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Puntos claros dispersos"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Fondo violeta oscuro"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Puntitos blancos"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Círculo con halo cálido"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Elipse violácea, no turquesa"
+    },
+    {
+      "id": "a18",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Parece charco translúcido"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Contexto de noche"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tronco con líneas envolventes"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "Medusas no vítreas"
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Esferas, no burbujas iridiscentes"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Plataforma suspendida"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Líneas inferiores"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "Puntos no emanan del árbol"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Violeta y cian presentes"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Halos y fondos suaves"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Vectores con bordes netos"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Halos transparentes"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Vectorial irreal"
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Formas y colores simples"
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Brillos extraterrestres"
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Ramas terminadas en medusas"
+    }
+  ],
+  "no_dicho": "Líneas rectas conectan las esferas con las ramas.",
+  "mal_armado": [
+    "Ramas superpuestas bruscamente sobre las cabezas de las medusas",
+    "Hilos de esferas atravesando ramas sin integración"
+  ]
+}

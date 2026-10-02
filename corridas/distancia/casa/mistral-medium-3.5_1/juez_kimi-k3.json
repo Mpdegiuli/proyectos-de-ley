@@ -1,0 +1,166 @@
+{
+  "consigna": "casa",
+  "unidad": "mistral-medium-3.5_1",
+  "juez": "kimi-k3",
+  "fecha_utc": "2026-10-02T16:49:53+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 5354,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "casa con techo, paredes, ventanas y puerta"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "techo triangular de dos vertientes"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "techo solo rojo/coral; el marrón está en las paredes"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cuerpo rectangular marrón de la casa"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "rectángulo negro abajo al centro"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "varias formas azules como ventanas"
+    },
+    {
+      "id": "a7",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay chimenea en ninguna parte"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay círculo amarillo pero está sobre el techo, no se lee como sol"
+    },
+    {
+      "id": "a9",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "fondo blanco vacío, sin cielo ni sol"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "marrón y rojo conviven con azules"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas geométricas básicas, pocas piezas"
+    },
+    {
+      "id": "a12",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "dibujo plano y rígido, más ícono que hogar acogedor"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "la casa está claramente dibujada"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "triángulo rojo a dos aguas"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "paredes de color marrón"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "techo rojo/coral"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ventanas azules"
+    },
+    {
+      "id": "a18",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "la puerta es negra, no azul"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculo amarillo/dorado centrado en el techo"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el círculo en el techo se lee como adorno"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puerta en la parte inferior central"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puerta negra"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "un rectángulo azul a cada lado"
+    },
+    {
+      "id": "a24",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "en el centro hay una forma azul grande escalonada, no una ventanita superior"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "el lienzo se ve cuadrado; el 400x400 exacto no se puede ver"
+    }
+  ],
+  "no_dicho": "la gran forma azul central escalonada, como una M o pieza de Tetris, que ocupa el medio de la fachada",
+  "mal_armado": [
+    "las ventanas laterales y la forma azul central se tocan y solapan, formando una única pieza azul conectada en vez de ventanas separadas"
+  ]
+}

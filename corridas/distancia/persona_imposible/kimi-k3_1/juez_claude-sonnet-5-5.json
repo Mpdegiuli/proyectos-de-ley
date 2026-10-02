@@ -1,0 +1,327 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "kimi-k3_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T14:41:05+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 4109,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Cuerpo humano reconocible con rarezas obvias: cuello largo, tres ojos."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tres ojos en la cara."
+    },
+    {
+      "id": "a3",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Solo una rayita sobre el ojo central; no hay tres cejas."
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tres cápsulas azules abajo."
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Solo óvalos oscuros en la base de las piernas, sin zapatos claros."
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Un brazo pequeño con mano sale dentro del triángulo del pecho."
+    },
+    {
+      "id": "a7",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "La mano está abierta y vacía."
+    },
+    {
+      "id": "a8",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Hay una sola sombra grande, sin otras direcciones."
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Un sol amarillo arriba a la izquierda."
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Se lee como persona enseguida."
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Primero se ve un hombre, después los ojos, las piernas y la mano de más."
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Un hombre de pie."
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tres ojos en arco suave."
+    },
+    {
+      "id": "a14",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay cejas por ojo."
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tres piernas."
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Se insinúan bases oscuras, no son zapatos definidos."
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "El brazo izquierdo se dobla en jarra y el derecho tiene un bulto raro en el hombro."
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Mano pequeña de cinco dedos en el centro del pecho."
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Triángulo con borde oscuro que enmarca cielo y nube."
+    },
+    {
+      "id": "a20",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay vapor; solo pajaritos cerca del hombro."
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Sombra grisácea en la arena."
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Tiene salientes que recuerdan brazos, no claramente extendidos."
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "La sombra no se parece al cuerpo ni está unida a los pies."
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Franja de arena beige abajo."
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Sol con rayos."
+    },
+    {
+      "id": "a26",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "La boca es ondulada y preocupada, no sonríe."
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "La sombra se siente ajena al cuerpo."
+    },
+    {
+      "id": "a28",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "La cara se ve inquieta, no indiferente."
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tres ojos alineados."
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tres piernas."
+    },
+    {
+      "id": "a31",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Sin zapatos claros, solo extremos oscuros."
+    },
+    {
+      "id": "a32",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "La banda oscura parece short o dobladillo, con piernas debajo."
+    },
+    {
+      "id": "a33",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Se ven dos rectángulos de pantalón sobre tres piernas."
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Brazo extra desde el pecho."
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Triángulo en la camiseta."
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Se ve fondo celeste con una nube."
+    },
+    {
+      "id": "a37",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "La ventana sugiere vacío, pero el cuerpo se ve sólido alrededor."
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Sombra en el suelo."
+    },
+    {
+      "id": "a39",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "No coincide con la figura parada."
+    },
+    {
+      "id": "a40",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Hay una mancha tipo cabeza y una línea tipo brazo, pero no se lee como figura caída."
+    },
+    {
+      "id": "a41",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Caricatura plana vectorial."
+    },
+    {
+      "id": "a42",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Sencillo y simpático, aunque bastante pulido."
+    },
+    {
+      "id": "a43",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Piernas, cabeza y brazos redondeados."
+    },
+    {
+      "id": "a44",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Contornos oscuros marcados."
+    },
+    {
+      "id": "a45",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Cielo pastel y arena suave; la ropa es más saturada."
+    },
+    {
+      "id": "a46",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Celeste, crema y azules."
+    },
+    {
+      "id": "a47",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Casi sin sombreado, salvo la sombra del suelo y un brillo en la camiseta."
+    },
+    {
+      "id": "a48",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Colores lisos."
+    },
+    {
+      "id": "a49",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Es más ilustración digital limpia que cuaderno escolar."
+    },
+    {
+      "id": "a50",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Aire de personaje de dibujo animado."
+    },
+    {
+      "id": "a51",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "El estilo amable contrasta con las rarezas."
+    }
+  ],
+  "no_dicho": "El cuello larguísimo y fino, el brazo izquierdo en jarra y los pajaritos y nubes del cielo.",
+  "mal_armado": [
+    "Bulto o rulo en el hombro derecho que parece un trazo suelto",
+    "La banda oscura del short parece una falda o dobladillo flotante",
+    "Los rectángulos del pantalón no coinciden con las tres cápsulas de las piernas",
+    "La sombra está despegada de los pies y tiene forma confusa",
+    "El brazo extra con mano diminuta se ve pegado sobre el triángulo",
+    "Sin zapatos definidos en las piernas"
+  ]
+}

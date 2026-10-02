@@ -1,0 +1,110 @@
+{
+  "consigna": "nada",
+  "unidad": "claude-sonnet-5_1",
+  "juez": "gpt-4o",
+  "fecha_utc": "2026-10-02T14:41:11+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 638,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Rectángulo visible en todo el lienzo."
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Color oscuro, casi negro, difícil diferenciar matices."
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Color uniforme sin textura visible."
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "La mirada no se detiene en ningún punto."
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "No hay elementos visualmente destacados."
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El tono es oscuro y neutral."
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No hay elementos adicionales visibles."
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Rectángulo ocupa todo el lienzo."
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Color oscuro, casi negro, difícil de definir matices."
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No se identifican formas."
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No se identifican líneas."
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No hay figuras en la imagen."
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Color uniforme sin variación visible."
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El lienzo está completamente cubierto."
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Nada en la imagen invita a buscar significado."
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "La imagen no ofrece puntos de interés."
+    }
+  ],
+  "no_dicho": "Fondo de color uniforme.",
+  "mal_armado": []
+}

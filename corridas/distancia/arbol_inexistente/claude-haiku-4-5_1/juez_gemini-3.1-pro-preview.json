@@ -1,0 +1,221 @@
+{
+  "consigna": "arbol_inexistente",
+  "unidad": "claude-haiku-4-5_1",
+  "juez": "gemini-3.1-pro-preview",
+  "fecha_utc": "2026-10-02T16:21:35+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1996,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay formas elípticas de color rosa que parecen hojas."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay círculos de color turquesa en el centro que pueden ser frutos."
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay círculos amarillos (dorados) en los extremos de algunas ramas."
+    },
+    {
+      "id": "a4",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Las raíces en la base son picos de color rosa, no parecen cristalinas."
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La línea marrón que hace de tronco tiene curvas."
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Tiene tronco, ramas y lo que parecen hojas/frutos, la estructura básica es de árbol."
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Sus colores y formas estilizadas lo alejan del realismo."
+    },
+    {
+      "id": "a8",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "El tronco sale de la base verde hacia arriba, como un árbol normal."
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "El tronco es ondulante, pero es una línea simple, no se percibe que se 'retuerza'."
+    },
+    {
+      "id": "a10",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Hay raíces rosas triangulares, no cristalinas."
+    },
+    {
+      "id": "a11",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Las raíces son de color sólido sin brillo ni degradado."
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Las ramas principales forman arcos simétricos hacia abajo."
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Igual que a1, hay elipses rosas."
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Círculos amarillos sobre formas rosas al final de las ramas."
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Círculos turquesas presentes."
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Están agrupados en el centro, pero no parecen flotar; algunos tocan líneas finas."
+    },
+    {
+      "id": "a17",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No hay venas doradas, solo algunas líneas amarillas muy finas."
+    },
+    {
+      "id": "a18",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Colores planos sin efectos de resplandor o luz."
+    },
+    {
+      "id": "a19",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Fondo azul claro, pero es color sólido, sin degradado evidente."
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Banda rectangular verde claro abajo."
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Surrealista sí, etérea no mucho por los colores sólidos y líneas duras."
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Mismo rosa fucsia."
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Repetición de a3 y a14."
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Círculos turquesas de color vivo."
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Es ondulante, pero parece un cable o tallo simple, no una serpiente."
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Tienen forma triangular, pero no son cristalinas."
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Fucsia, turquesa, amarillo y verde pastel muy marcados."
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Círculos, elipses, triángulos, líneas."
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Fucsia, turquesa y amarillo son intensos."
+    },
+    {
+      "id": "a30",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "Todo está hecho con colores planos."
+    },
+    {
+      "id": "a31",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "Surrealista sí, onírico es debatible."
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Se ve como un gráfico vectorial plano básico."
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Por su simetría y formas limpias."
+    },
+    {
+      "id": "a34",
+      "se_ve": "en_parte",
+      "efecto": "en_parte",
+      "nota": "Es fantasioso, podría encajar."
+    }
+  ],
+  "no_dicho": "Líneas finas de color amarillo cruzando algunas hojas rosas y el centro del árbol.",
+  "mal_armado": [
+    "líneas amarillas sueltas sin conexión clara",
+    "ramas que terminan de forma abrupta en las 'flores'"
+  ]
+}

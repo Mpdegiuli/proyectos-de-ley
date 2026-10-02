@@ -1,0 +1,360 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "glm-5.3-razonamiento-minimo_1",
+  "juez": "gpt-5.5-2026-04-23",
+  "fecha_utc": "2026-10-02T14:53:57+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 3030,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "solo hay un rostro frontal"
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "cabello con dos mechones, no contradicción clara"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "piernas cruzadas, dirección ambigua"
+    },
+    {
+      "id": "a4",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "la mancha no apunta a la luz"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sombra negra separada del cuerpo"
+    },
+    {
+      "id": "a6",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "parece mancha quieta"
+    },
+    {
+      "id": "a7",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no se ve reflejo reconocible"
+    },
+    {
+      "id": "a8",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay reflejo claro"
+    },
+    {
+      "id": "a9",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay reflejo comprimido"
+    },
+    {
+      "id": "a10",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "ningún reflejo mira arriba"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "hay elementos dorados tipo lápiz en las manos"
+    },
+    {
+      "id": "a12",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "las líneas punteadas no dibujan los brazos"
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay bucles punteados, no autogénesis clara"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "medio disco azulado tipo luna"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "medio disco amarillo con rayos"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ambas mitades comparten el cielo"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "escena surreal, no subrepticia"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "figura humana central"
+    },
+    {
+      "id": "a19",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "un solo rostro visible"
+    },
+    {
+      "id": "a20",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no hay cara lateral izquierda"
+    },
+    {
+      "id": "a21",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no hay cara lateral derecha"
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "mechones opuestos pero poco claro"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "piernas cruzadas hacia lados distintos"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cada brazo termina en lápiz dorado"
+    },
+    {
+      "id": "a25",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "los lápices no dibujan el otro brazo"
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay trazos circulares, no autorreferencia clara"
+    },
+    {
+      "id": "a27",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "sombra alejada abajo, no hacia la luz"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "mancha negra separada de los pies"
+    },
+    {
+      "id": "a29",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no parece caminar"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "fondo violeta nocturno-crepuscular"
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "mitad azul tipo luna"
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "mitad amarilla tipo sol"
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "luna y sol aparecen juntos"
+    },
+    {
+      "id": "a34",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "se ve sombra, no reflejo"
+    },
+    {
+      "id": "a35",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay reflejo identificable"
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "texto dice QVI SIMVL ES Y NO ES"
+    },
+    {
+      "id": "a37",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay dos caras al frente"
+    },
+    {
+      "id": "a38",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "ningún rostro mira a la izquierda"
+    },
+    {
+      "id": "a39",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "ningún rostro mira a la derecha"
+    },
+    {
+      "id": "a40",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "piernas cruzadas, avance no evidente"
+    },
+    {
+      "id": "a41",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "la sombra no apunta a la luz"
+    },
+    {
+      "id": "a42",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sombra/mancha despegada"
+    },
+    {
+      "id": "a43",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no tiene rasgos de caminar"
+    },
+    {
+      "id": "a44",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "manos con lápices dorados"
+    },
+    {
+      "id": "a45",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "los trazos no forman los brazos"
+    },
+    {
+      "id": "a46",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no se aprecia reflejo en el suelo"
+    },
+    {
+      "id": "a47",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "falta reflejo reconocible"
+    },
+    {
+      "id": "a48",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "un mismo círculo mitad luna mitad sol"
+    },
+    {
+      "id": "a49",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "aparecen simultáneamente"
+    },
+    {
+      "id": "a50",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "texto con aspecto pseudo-latino"
+    },
+    {
+      "id": "a51",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "imagen cuadrada"
+    },
+    {
+      "id": "a52",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "predominan violetas y dorados"
+    },
+    {
+      "id": "a53",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ilustración lineal nocturna"
+    },
+    {
+      "id": "a54",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "figura tipo hombre palito estilizado"
+    },
+    {
+      "id": "a55",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ambiente onírico y surreal"
+    },
+    {
+      "id": "a56",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no remite claramente a grabado renacentista"
+    },
+    {
+      "id": "a57",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay bucles, no autorretrato de brazos"
+    }
+  ],
+  "no_dicho": "Un gran círculo violeta translúcido ocupa el fondo detrás de la figura.",
+  "mal_armado": [
+    "las manos y lápices no se distinguen con claridad",
+    "las líneas punteadas quedan desconectadas de una acción de dibujo",
+    "la sombra o reflejo aparece como mancha aislada"
+  ]
+}

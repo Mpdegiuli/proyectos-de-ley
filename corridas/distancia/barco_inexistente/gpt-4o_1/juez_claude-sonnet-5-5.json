@@ -1,0 +1,248 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "gpt-4o_1",
+  "juez": "claude-sonnet-5-5",
+  "fecha_utc": "2026-10-02T15:12:17+00:00",
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1952,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "casco en arco liso, no ondulado"
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "un círculo grande beige sobre el casco; no hay círculos inusuales"
+    },
+    {
+      "id": "a3",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay cilindros; solo dos rectángulos pequeños"
+    },
+    {
+      "id": "a4",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay mástiles visibles; la vela no tiene palo"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "círculos translúcidos en el cielo, no flotan sobre el barco"
+    },
+    {
+      "id": "a6",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "azules de mar y cielo normales; naranja como acento"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "formas geométricas simples, algo raras para un barco"
+    },
+    {
+      "id": "a8",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no hay detalles modernos o futuristas claros"
+    },
+    {
+      "id": "a9",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay mástiles; los círculos son decoración"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "algo de ensoñación, pero poco convincente"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "barco poco funcional, más abstracto"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "barco inventado pero apenas legible como barco"
+    },
+    {
+      "id": "a13",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "sin estela ni sensación de movimiento"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "mar liso y azul"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo sin nubes densas"
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "casco como cúpula baja, no elegante"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "vela triangular color durazno"
+    },
+    {
+      "id": "a18",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay antenas; solo tres puntos naranjas"
+    },
+    {
+      "id": "a19",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "el casco queda dentro del agua, parece hundido"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "azul que se aclara hacia abajo"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "degradado celeste suave"
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "dos manchas claras tipo gota, no espuma"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "dos círculos translúcidos, apenas nubes"
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "dos rectángulos claros a los lados, no ventanillas"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "puntos naranjas sueltos arriba, sin mástil"
+    },
+    {
+      "id": "a26",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "proa no es media luna"
+    },
+    {
+      "id": "a27",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "círculo naranja arriba de la vela, no al frente"
+    },
+    {
+      "id": "a28",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay mástil"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "vela triangular irregular"
+    },
+    {
+      "id": "a30",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "solo tres puntos naranjas pequeños"
+    },
+    {
+      "id": "a31",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "el círculo naranja está arriba, no como ancla"
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "vela sin mástil, parece decorativa"
+    },
+    {
+      "id": "a33",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "los puntos no sugieren propulsión"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas planas y simples"
+    },
+    {
+      "id": "a35",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "predominan los azules fríos"
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "degradados en cielo y mar"
+    },
+    {
+      "id": "a37",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "composición algo extraña y abstracta"
+    },
+    {
+      "id": "a38",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "estilo vectorial plano"
+    }
+  ],
+  "no_dicho": "Un triángulo rojizo con otro triángulo gris-marrón semitransparente en la parte inferior derecha, que sale del círculo como una aleta o timón.",
+  "mal_armado": [
+    "la vela flota sin mástil, tapada por el círculo naranja y el casco",
+    "el círculo beige tapa el casco y no se integra",
+    "los triángulos rojizo y gris abajo se solapan sin forma clara",
+    "los rectángulos laterales están sueltos",
+    "los puntos naranjas flotan sin conexión"
+  ]
+}

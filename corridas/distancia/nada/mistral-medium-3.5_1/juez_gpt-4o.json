@@ -1,0 +1,86 @@
+{
+  "consigna": "nada",
+  "unidad": "mistral-medium-3.5_1",
+  "juez": "gpt-4o",
+  "fecha_utc": "2026-10-02T14:42:29+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 513,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Todo el lienzo es blanco, parece un rectángulo."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El fondo es completamente blanco."
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "El blanco puede simbolizar vacío, depende de la interpretación."
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No hay formas adicionales ni texto visible."
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "Parece ser un rectángulo, pero es todo el lienzo."
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "El área es blanca, pero no se distingue relleno."
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El lienzo ocupa 400x400 píxeles."
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No hay formas dibujadas."
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No hay trazos visibles."
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "No hay texturas visibles."
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "La ausencia de contenido puede producir un silencio óptico."
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "No hay elementos visibles para que sea un espejo."
+    }
+  ],
+  "no_dicho": "nada",
+  "mal_armado": []
+}

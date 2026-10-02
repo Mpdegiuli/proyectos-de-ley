@@ -1,0 +1,236 @@
+{
+  "consigna": "animal_inexistente",
+  "unidad": "gpt-4o_1",
+  "juez": "gpt-4o",
+  "fecha_utc": "2026-10-02T14:50:01+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1427,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay una cabeza ovalada."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El cuerpo es alargado."
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tiene antenas."
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay manchas en el cuerpo."
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La paleta de colores es simple."
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Las formas son simples y juguetonas."
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no",
+      "nota": "No se asemeja a ningún animal conocido."
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "La forma es novedosa dentro de lo reconocible."
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "La forma parece familiar."
+    },
+    {
+      "id": "a10",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "El nombre no está en la imagen."
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El cuerpo es un óvalo verde claro."
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El cuerpo tiene manchas verde oscuro."
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La cabeza es más pequeña que el cuerpo."
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no",
+      "nota": "Los ojos son grandes pero no necesariamente expresivos."
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay dos antenas desde la cabeza."
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay una nariz pequeña."
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay una sonrisa suavemente arqueada."
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Las patas delanteras son delgadas."
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Las patas traseras son cortas y robustas."
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La cola se curva hacia el lado."
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El diseño tiene un contorno verde oscuro."
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El contorno es suave."
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El aspecto general es amistoso."
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "La cola añade gracia."
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Combina características de insecto y mamífero."
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El cuerpo tiene forma similar a un insecto."
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Hay antenas."
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "El cuerpo es verde claro con manchas."
+    },
+    {
+      "id": "a29",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "La cabeza es verde claro, sin manchas."
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Tiene una cola alargada."
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Las patas son rectangulares."
+    },
+    {
+      "id": "a32",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "Las proporciones son inusuales."
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Se usan elipses, líneas y rectángulos."
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El estilo es caricaturesco."
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "El aspecto es fantástico."
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Tiene un aire juguetón y poco realista."
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "Se lee como una criatura de fantasía."
+    }
+  ],
+  "no_dicho": "El animal tiene una expresión amigable.",
+  "mal_armado": []
+}

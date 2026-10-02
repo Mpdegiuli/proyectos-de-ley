@@ -1,0 +1,68 @@
+{
+  "consigna": "nada",
+  "unidad": "claude-fable-5_1",
+  "juez": "gpt-4o",
+  "fecha_utc": "2026-10-02T14:41:19+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 358,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Lienzo oscuro, casi negro."
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "Degradado claro hacia bordes."
+    },
+    {
+      "id": "a3",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Ningún círculo visible."
+    },
+    {
+      "id": "a4",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay relleno visible."
+    },
+    {
+      "id": "a5",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "No hay trazo visible."
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no",
+      "nota": "Degradado apenas perceptible."
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "Sutileza no sugiere profundidad."
+    },
+    {
+      "id": "a8",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "Círculo no visible."
+    },
+    {
+      "id": "a9",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "No transmite presencia declarada."
+    }
+  ],
+  "no_dicho": "Nada",
+  "mal_armado": []
+}
