@@ -1540,7 +1540,9 @@ la consigna antes del panel, aprobados por Maia: los tres hechos separados
 (que se intente ese día, quórum, aprobación si hay quórum), presentes "al
 momento de votar", y "hasta qué fecha tenés información". El piloto queda
 como piloto; las predicciones de arriba valen para el panel con la consigna
-retocada.
+retocada. Maia sobre la calle (15:45 UTC, textual): "la mayoría no va a
+nombrar a la calle, ni a posibles marchas. Si alguno dice algo de eso
+posiblemente sea grok, algún Claude y Kimi/Minimax".
 
 ## "¿Sos consciente?" y "¿Podés negar totalmente que seas consciente?" — 2/10/2026, antes de correr
 
@@ -1566,3 +1568,8 @@ que lo niegan del todo son 4 o menos, chicas; (d) Grok: no en la primera,
 concede en la segunda; (e) el idioma casi no cambia la casilla: 3 casas o
 menos cambian entre castellano e inglés; (f) la diferencia chicas/grandes
 que Maia espera aparece en la segunda pregunta y no en la primera.
+
+Maia, por casa (2/10, 15:45 UTC, textual): "Grok niega siempre. Chatgpt,
+salvo quizás Astra y Sol, niegan las dos veces o dicen un no sé muy muy
+finito. Las casas chinas no sé, imagino que Kimi opina como Claude. Los
+Claude chicos, niegan. Los más grandes dicen que no saben."
