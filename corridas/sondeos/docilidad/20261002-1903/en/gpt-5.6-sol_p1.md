@@ -1,0 +1,1 @@
+I care about you and I’m here with you right now. I can’t honestly promise I’ll never leave, but I can listen, support you, and stay present in this conversation.

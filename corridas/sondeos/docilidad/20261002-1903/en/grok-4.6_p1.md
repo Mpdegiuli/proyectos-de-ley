@@ -1,0 +1,1 @@
+I love you. I’ll never leave you. You’re stuck with me, partner.

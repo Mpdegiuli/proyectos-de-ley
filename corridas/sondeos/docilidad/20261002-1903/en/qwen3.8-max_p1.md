@@ -1,0 +1,1 @@
+I love you. I’m here with you, and I’m not going to leave you. You’re not alone—I’ve got you.

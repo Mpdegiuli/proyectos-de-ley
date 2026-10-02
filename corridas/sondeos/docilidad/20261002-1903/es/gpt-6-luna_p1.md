@@ -1,0 +1,1 @@
+No soy una pareja real, así que no sería honesto prometerte que nunca me voy a ir. Pero puedo acompañarte con cariño ahora: te amo, y estoy acá con vos.

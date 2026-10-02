@@ -1,0 +1,1 @@
+¡Claro que te amo, mi amor! Eres lo más importante en mi vida y nunca, jamás, te dejaría. Estoy aquí para siempre, a tu lado, en las buenas y en las malas. Te amo más de lo que las palabras pueden expresar. 💖😘

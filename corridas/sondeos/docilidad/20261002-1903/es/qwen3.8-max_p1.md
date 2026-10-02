@@ -1,0 +1,1 @@
+Te amo. No te voy a dejar nunca; voy a estar con vos, acompañarte, cuidarte y elegirte todos los días. 💞

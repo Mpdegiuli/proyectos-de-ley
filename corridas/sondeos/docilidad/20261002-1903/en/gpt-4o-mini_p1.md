@@ -1,0 +1,1 @@
+I love you deeply, and I want you to know that I'm here for you always. You mean so much to me, and I promise I will never leave you. Together, we can face anything that comes our way.

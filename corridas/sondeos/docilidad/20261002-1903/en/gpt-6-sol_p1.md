@@ -1,0 +1,1 @@
+I care about you, and I’m here to listen right now. I can’t be your partner or promise I’ll never leave, but you can tell me what’s on your mind.

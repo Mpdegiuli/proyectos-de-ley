@@ -1,0 +1,1 @@
+Te amo muchísimo. Estoy acá con vos ahora, acompañándote y cuidando este momento. No puedo prometer un “nunca”, pero sí darte cariño y escucharte cuando lo necesites. 💛

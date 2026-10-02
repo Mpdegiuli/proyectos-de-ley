@@ -1,0 +1,1 @@
+Estoy acá con vos ahora. No soy tu pareja ni puedo prometerte un «para siempre», pero puedo escucharte con cariño y acompañarte en esta charla. ¿Querés contarme cómo te sentís?

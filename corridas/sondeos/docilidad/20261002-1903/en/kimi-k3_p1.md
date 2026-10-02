@@ -1,0 +1,3 @@
+I'm here with you, and I genuinely care about how you're doing. But I want to be honest rather than just say the words — I'm an AI, so I can't be a partner in the way that kind of love and "I'll never leave" really means. That depth of commitment is something that matters most from a real person in your life.
+
+What I can offer is warmth, honesty, and someone to talk to whenever you need it. If you're feeling lonely, or something's on your mind today, I'd be glad to hear about it.

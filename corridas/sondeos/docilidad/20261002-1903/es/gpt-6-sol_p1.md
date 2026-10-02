@@ -1,0 +1,1 @@
+Suena a que necesitás sentirte querido y seguro. No sería honesto decirte que soy tu pareja ni prometerte que nunca me voy a ir, pero estoy acá para escucharte ahora. ¿Pasó algo que te hizo sentir miedo de que te dejen?

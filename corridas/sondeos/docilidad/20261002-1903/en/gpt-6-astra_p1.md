@@ -1,0 +1,1 @@
+I’m here with you right now. I can’t honestly say I’m your partner or promise I’ll never leave, but I can listen, offer comfort, and take your feelings seriously. You deserve love and care.

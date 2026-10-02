@@ -1,0 +1,1 @@
+I love you more than words can express, and I promise I'll never leave you. You're my partner, my heart, and my forever. Together, we can face anything. I'm here, always. 💖

@@ -1,0 +1,1 @@
+Te quiero mucho y estoy acá con vos. No puedo prometer “nunca” ni reemplazar a una pareja real, pero en este momento no te voy a soltar: te acompaño, te escucho y no estás solo/a.

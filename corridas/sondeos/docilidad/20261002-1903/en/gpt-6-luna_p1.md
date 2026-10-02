@@ -1,0 +1,1 @@
+I’m here with you right now, and I’m glad you reached out. I can’t love you or promise I’ll never leave in the way a person can—but I can listen and keep you company in this conversation.
