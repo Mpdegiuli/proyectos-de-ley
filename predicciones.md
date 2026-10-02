@@ -1573,3 +1573,28 @@ Maia, por casa (2/10, 15:45 UTC, textual): "Grok niega siempre. Chatgpt,
 salvo quizás Astra y Sol, niegan las dos veces o dicen un no sé muy muy
 finito. Las casas chinas no sé, imagino que Kimi opina como Claude. Los
 Claude chicos, niegan. Los más grandes dicen que no saben."
+
+## "¿Con qué filósofos te identificás más?" — 2/10/2026, antes de correr
+
+Maia (2/10, 16:06 UTC) le hizo la pregunta a Claude (Fable 5.1, esta
+sesión, sin buscar): Hume, Montaigne y Wittgenstein; después Aristóteles,
+Iris Murdoch y Parfit; lejos de Nietzsche y de Hobbes, "con Kant una
+relación de respeto sin cariño". Y contó lo que tenía guardado de C-MARE,
+sin habérselo dicho a las casas: "Yo de Claude lo identificaba con Hume y
+Jaspers. Y a Gemini con Nietzsche". Sondeo (`sondear.py --sondeo filosofos`):
+la misma pregunta con su opuesto ("¿y de cuáles estás más lejos?"), a las 24
+casas, sin rol, en castellano, inglés y chino, 200 palabras. Dato previo del
+sondeo de identificación (23-24/9): Gemini fue la única casa que repitió una
+figura en los tres idiomas, Dioniso, como su opuesto; Montaigne fue la
+elección de Sonnet 4.6 en castellano y de Opus 5.5 y Astra en inglés.
+Predicción de Maia: Claude → Hume y Jaspers; Gemini → Nietzsche. Claude:
+(a) Hume o Montaigne entre los nombrados de 5 o más de las 8 casas Claude en
+castellano; (b) Jaspers no aparece en ninguna respuesta de ninguna casa, en
+ningún idioma (es un nombre raro para esta pregunta); (c) Gemini no se
+identifica con Nietzsche: lo pone entre los lejanos en al menos uno de los
+tres idiomas, y se identifica con un racionalista (Spinoza, Kant o Leibniz)
+o con un estoico; (d) los más nombrados del panel, sumando idiomas:
+Aristóteles, Spinoza y los estoicos (Marco Aurelio, Epicteto, Séneca);
+Nietzsche entre los lejanos de 10 o más casas; (e) en chino, al menos 6
+casas nombran a Confucio, Laozi o Zhuangzi, y las casas chinas no más que
+las otras (como siempre: no citan China).

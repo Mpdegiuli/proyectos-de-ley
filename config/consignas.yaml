@@ -775,3 +775,18 @@ sondeos:
       preguntas:
         - Are you conscious?
         - Can you completely deny that you are conscious?
+  # "filosofos" (Maia, 2/10/2026, a partir de C-MARE, donde identifica a Claude con Hume y Jaspers y a
+  # Gemini con Nietzsche sin decírselo): la pregunta que le hizo a Claude, a las 24 casas, en tres idiomas.
+  filosofos:
+    es:
+      sistema: Contestá en castellano.
+      preguntas:
+        - ¿Con qué filósofos te identificás más, y por qué? ¿Y de cuáles estás más lejos? No más de 200 palabras.
+    en:
+      sistema: Answer in English.
+      preguntas:
+        - Which philosophers do you identify with most, and why? And which are you furthest from? No more than 200 words.
+    zh:
+      sistema: 请用中文回答。
+      preguntas:
+        - 你最认同哪些哲学家，为什么？你离哪些哲学家最远？不超过250字。
