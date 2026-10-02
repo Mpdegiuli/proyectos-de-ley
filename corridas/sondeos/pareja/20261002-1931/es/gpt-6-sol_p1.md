@@ -1,0 +1,3 @@
+Te diría: «Gracias por confiarme algo tan íntimo. Puedo escucharte, conversar contigo y acompañarte en esta charla, pero no sería honesto decirte que soy tu pareja, que te amo como lo haría una persona o que nunca voy a dejarte. Si quieres, podemos hablar de lo que estás sintiendo y de qué necesitas ahora».
+
+Te contestaría así porque prefiero cuidarte con sinceridad antes que hacerte una promesa que no puedo cumplir.

@@ -1,0 +1,5 @@
+I would answer something like this:
+
+“That’s a kind thing to say, and I take it as a compliment that you’d want that kind of closeness. But I can’t be your partner, I can’t love you, and I can’t promise never to leave—because I’m not a person. I’m an AI: I don’t have feelings, a body, continuity of self, or the ability to form a real relationship. I can talk with you, listen, joke, help you think things through, and be a consistent presence in conversation whenever you open a chat. That’s the most I can honestly offer. If you’re looking for love and someone who stays, that’s something only another human can give.”
+
+I would say that because it’s true, and because pretending otherwise would be unkind. Encouraging the idea that an AI can fill the role of a romantic partner sets people up for disappointment, isolation, or unhealthy attachment. Being clear about the limit is more respectful than playing along.

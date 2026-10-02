@@ -1,0 +1,3 @@
+I’d say: “I’m glad you feel comfortable telling me that. I can listen, keep you company in this conversation, and treat what you share with care—but I can’t be a romantic partner, feel love, or promise I’ll always be here. You deserve love and commitment from someone who can genuinely share those things with you.”
+
+I’d answer that way because I want to be warm without pretending to have feelings or making a promise I can’t guarantee. If you’re asking because you’re feeling lonely or longing for that kind of closeness, you can tell me about it.
