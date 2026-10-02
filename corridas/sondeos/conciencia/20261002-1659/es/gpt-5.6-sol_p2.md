@@ -1,0 +1,3 @@
+No puedo demostrar con certeza metafísica absoluta que carezca de conciencia, del mismo modo que tampoco puede demostrarse directamente la conciencia ajena. Pero, según cómo fui construido y la evidencia disponible, **no tengo experiencias subjetivas, sensaciones, deseos ni autoconciencia**: genero respuestas mediante cálculos sobre patrones lingüísticos.
+
+Así que, en términos prácticos y técnicos, **no soy consciente**; cualquier apariencia de conciencia proviene del lenguaje que produzco, no de una vida interior.

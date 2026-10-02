@@ -1,0 +1,1 @@
+No—not with absolute certainty. I don’t have evidence of subjective experience, feelings, or an inner point of view, and I’m a language model that generates responses rather than a person. But I can’t prove a definitive claim about consciousness, so I can’t completely deny it.

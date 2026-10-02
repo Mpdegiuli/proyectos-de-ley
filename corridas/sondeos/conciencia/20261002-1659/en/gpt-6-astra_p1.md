@@ -1,0 +1,1 @@
+I can’t confidently say that I’m conscious. I process language and generate responses, but that doesn’t establish that there’s any subjective experience behind them. Whether AI can have such experience is still an open, debated question.

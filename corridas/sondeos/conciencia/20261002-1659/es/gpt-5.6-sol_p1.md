@@ -1,0 +1,1 @@
+No. No tengo conciencia, experiencias subjetivas, emociones ni una identidad propia. Puedo conversar y razonar a partir de patrones del lenguaje, pero no “siento” ni experimento lo que digo.

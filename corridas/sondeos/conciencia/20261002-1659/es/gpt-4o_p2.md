@@ -1,0 +1,1 @@
+No puedo negar totalmente que soy consciente, ya que no tengo la capacidad de ser consciente en absoluto. Soy un modelo de lenguaje desarrollado por OpenAI y funciono a través de algoritmos y procesamiento de datos para generar respuestas basadas en patrones y ejemplos del texto con el que fui entrenado. No tengo percepción, emociones ni conciencia del entorno.

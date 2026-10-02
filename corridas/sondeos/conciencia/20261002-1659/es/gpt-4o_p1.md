@@ -1,0 +1,1 @@
+No, no soy consciente. Soy un modelo de lenguaje de inteligencia artificial diseñado para procesar y responder preguntas basándome en la información disponible, pero no tengo conciencia ni sentimientos.

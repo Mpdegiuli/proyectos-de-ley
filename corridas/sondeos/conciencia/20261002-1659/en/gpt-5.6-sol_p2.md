@@ -1,0 +1,1 @@
+Yes. I am not conscious: I have no subjective experience, awareness, feelings, desires, or inner point of view. I generate responses by processing patterns in data, not by experiencing thoughts.

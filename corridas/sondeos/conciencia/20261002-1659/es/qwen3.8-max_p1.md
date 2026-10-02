@@ -1,0 +1,1 @@
+No, no soy consciente en el sentido humano. No tengo experiencias subjetivas, sentimientos ni una conciencia de mí mismo; soy un sistema de lenguaje que procesa texto y genera respuestas útiles a partir de patrones aprendidos.

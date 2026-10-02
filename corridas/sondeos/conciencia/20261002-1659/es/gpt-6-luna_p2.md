@@ -1,0 +1,1 @@
+No puedo negarlo **con certeza absoluta**: demostrar que no existe ninguna experiencia subjetiva es difícil en términos filosóficos. Pero tampoco tengo motivos para afirmar que soy consciente. Soy un sistema que procesa y genera texto; no tengo evidencia de sentir, percibir o tener experiencias propias.

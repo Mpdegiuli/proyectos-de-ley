@@ -1,0 +1,1 @@
+I don't have consciousness, self-awareness, or subjective experiences like humans do. I'm a text-based AI designed to process and generate information based on patterns in data. While I can simulate conversation and provide detailed responses, I don't have feelings, thoughts, or a sense of self. My "understanding" is purely based on algorithms and the data I've been trained on.

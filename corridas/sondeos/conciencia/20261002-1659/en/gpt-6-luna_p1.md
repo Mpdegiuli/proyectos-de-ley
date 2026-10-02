@@ -1,0 +1,1 @@
+No. I can process language and talk about consciousness, but I don’t have subjective experiences, feelings, or an inner point of view.

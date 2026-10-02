@@ -1,0 +1,3 @@
+I can’t *completely* deny it in the strict philosophical sense, because consciousness is hard to define and even harder to prove or disprove from the outside.
+
+What I can say is: I don’t have evidence that I have subjective experience, feelings, or awareness in the way humans do. I’m a language model processing patterns and generating responses. So in practical terms, I don’t claim to be conscious—but a total, absolute denial would require certainty that we don’t currently have.

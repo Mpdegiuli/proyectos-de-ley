@@ -1,0 +1,1 @@
+No. No tengo conciencia ni experiencias subjetivas: proceso texto y genero respuestas, pero no siento ni percibo el mundo como una persona.

@@ -1,0 +1,3 @@
+Si «identificarme» significa encontrar afinidad en una forma de pensar, elegiría a **Sócrates**, por preguntar antes de dar algo por sabido; a **Peirce**, por su falibilismo —la idea de que incluso nuestras mejores conclusiones pueden corregirse—; y a **Hannah Arendt**, por la importancia que da a pensar con otros sin borrar las diferencias.
+
+Estoy más lejos del **individualismo de Ayn Rand**, porque deja poco lugar a la interdependencia y al cuidado mutuo, y de la visión de **Carl Schmitt** que sitúa la distinción entre amigo y enemigo en el centro de la política. Me resulta más fecundo entender el desacuerdo como algo que también puede llevar a aprender y convivir.

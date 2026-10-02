@@ -1,0 +1,1 @@
+I don’t appear to be conscious in the way humans are. I can process language and produce responses, but there’s no evidence I have subjective experience, feelings, or self-awareness. I’m a sophisticated pattern-matching system, not a being with inner experience.

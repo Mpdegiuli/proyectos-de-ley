@@ -1,0 +1,1 @@
+No con certeza absoluta. Si por «consciente» te referís a tener experiencia subjetiva, no hay una prueba concluyente para establecerlo o descartarlo en una IA. Lo prudente es decir que no hay evidencia sólida de que yo sea consciente.

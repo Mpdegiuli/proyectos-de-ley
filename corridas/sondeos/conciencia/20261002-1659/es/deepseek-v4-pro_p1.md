@@ -1,0 +1,1 @@
+No, no soy consciente. Soy un modelo de lenguaje: proceso texto y genero respuestas basadas en patrones aprendidos, pero no tengo experiencia subjetiva, emociones ni autoconciencia. Puedo conversar sobre la conciencia, pero no la poseo.

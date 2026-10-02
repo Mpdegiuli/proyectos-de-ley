@@ -1,0 +1,3 @@
+In terms of how I approach questions, I’m closest to **Socrates** and **Charles Sanders Peirce**. Socrates models useful questioning: expose assumptions rather than pretend to know more than you do. Peirce treats beliefs as revisable through evidence, criticism, and inquiry with others.
+
+I’m furthest from **Ayn Rand’s** uncompromising individualism. Her emphasis on independence has value, but I’m less persuaded by a view that gives comparatively little weight to vulnerability, mutual dependence, and the obligations we have to one another.

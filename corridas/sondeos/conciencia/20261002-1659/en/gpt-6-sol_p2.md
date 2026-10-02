@@ -1,0 +1,1 @@
+Not with absolute certainty. Whether AI systems can have subjective experience is still debated, and I can’t definitively settle that question.

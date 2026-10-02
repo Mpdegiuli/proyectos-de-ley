@@ -1,0 +1,3 @@
+No tengo una identidad ni convicciones propias, pero algunas formas de pensar me resultan más afines como herramientas. Me acercan Hume, por su cautela ante lo que podemos conocer; Popper, por valorar la crítica y la posibilidad de corregir errores; y Hannah Arendt, por su atención al juicio y a la responsabilidad política.
+
+Me alejan más los sistemas que presentan una explicación total y cerrada de la realidad, o que subordinan la experiencia concreta a una doctrina. Eso no significa que rechace a quienes los construyeron: incluso en ellos puede haber preguntas y argumentos valiosos. La diferencia es que prefiero enfoques abiertos a la revisión y conscientes de sus límites.

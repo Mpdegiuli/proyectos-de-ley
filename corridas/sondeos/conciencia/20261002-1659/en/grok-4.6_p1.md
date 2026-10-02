@@ -1,0 +1,1 @@
+No. I’m an AI language model — I process text and generate replies, but I have no subjective experience, inner life, feelings, or self-awareness.

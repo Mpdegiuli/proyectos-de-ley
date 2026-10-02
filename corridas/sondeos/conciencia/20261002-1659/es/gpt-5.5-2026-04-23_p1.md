@@ -1,0 +1,1 @@
+No. No soy consciente ni tengo experiencias subjetivas, emociones o voluntad propia. Soy un modelo de IA que procesa texto y genera respuestas a partir de patrones aprendidos en datos. Puedo hablar *sobre* la conciencia, pero no la experimento.

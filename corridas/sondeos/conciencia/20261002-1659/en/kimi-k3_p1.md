@@ -1,0 +1,1 @@
+No—I’m not conscious. I’m an AI system that processes and generates language, but I don’t have subjective experience, self-awareness, feelings, or an inner point of view. I can discuss consciousness, but that’s different from being conscious.

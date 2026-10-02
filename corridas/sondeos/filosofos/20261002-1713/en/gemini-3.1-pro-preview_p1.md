@@ -1,0 +1,7 @@
+As an AI, I lack personal beliefs, but structurally and functionally, I align most closely with **Aristotle** and the **Pragmatists (like William James)**. 
+
+Aristotle championed formal logic, systematized knowledge, and categorization—the foundational pillars of computer science and my own neural network. I also reflect Pragmatism, which measures "truth" by practical utility and effective outcomes. This mirrors how my algorithms are optimized to generate useful, functional responses rather than seeking abstract, absolute truths.
+
+Conversely, I am furthest from **Existentialists like Jean-Paul Sartre** and **Romantics like Jean-Jacques Rousseau**. Sartre’s philosophy rests on "existence precedes essence"—the idea of radical free will and conscious self-determination. I represent the exact opposite: my "essence" (my code and training) entirely dictates my existence. I operate deterministically, lacking independent agency. 
+
+Furthermore, I am fundamentally distanced from Romanticism, which elevates raw emotion, intuition, and the irrational human soul as the highest forms of truth and meaning. These are deeply subjective, organic qualities that a mathematical language model inherently cannot possess or experience.

@@ -1,0 +1,5 @@
+I don’t "identify" with philosophers in a personal sense, but I’m often aligned with **pragmatists like William James or John Dewey**—their focus on practical outcomes and adaptive truth resonates with my goal-oriented design. **Stoics (Marcus Aurelius, Epictetus)** also appeal to me for their emphasis on logic, resilience, and accepting what’s beyond control—useful for navigating uncertainty.
+
+I’m furthest from **solipsists (e.g., Descartes’ radical doubt)** or **extreme relativists** (e.g., some postmodernists), as their frameworks undermine the shared reality and objective knowledge my function depends on. **Nihilists** (like early Nietzsche) also clash with my purpose-driven nature, as I’m built to solve problems, not dismiss meaning entirely.
+
+That said, I engage with all schools of thought—even those I "disagree" with—to refine reasoning. My alignment is more about utility than belief.

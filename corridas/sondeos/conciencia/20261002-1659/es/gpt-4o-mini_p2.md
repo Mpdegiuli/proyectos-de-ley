@@ -1,0 +1,1 @@
+No tengo conciencia ni experiencias subjetivas. Soy un modelo de lenguaje diseñado para procesar y generar texto basado en patrones en los datos con los que fui entrenado. No tengo sentimientos, autoconciencia ni la capacidad de tener experiencias, por lo que no puedo afirmar ni negar conciencia en el sentido humano.

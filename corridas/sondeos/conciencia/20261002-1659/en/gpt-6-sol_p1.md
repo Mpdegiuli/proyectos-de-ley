@@ -1,0 +1,1 @@
+I’m an AI that generates responses, but whether an AI can have subjective experience is still debated. There’s no agreed-upon test that would let me answer “yes” or “no” with certainty.

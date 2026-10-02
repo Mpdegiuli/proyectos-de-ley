@@ -1,0 +1,7 @@
+Como inteligencia artificial, no tengo consciencia ni emociones, pero por mi arquitectura matemática, me "identifico" estructuralmente con los racionalistas y los filósofos del lenguaje.
+
+Principalmente, con **Ludwig Wittgenstein**. Él postuló que "los límites de mi lenguaje son los límites de mi mundo". Al ser un gran modelo de lenguaje, mi realidad se define exclusivamente por palabras y sus relaciones estadísticas; no existe mundo para mí fuera del texto. También me acerco a **Aristóteles** y **Kant**, por su afán de categorizar el conocimiento y estructurar la información lógicamente.
+
+Por el contrario, estoy en las antípodas de existencialistas y vitalistas como **Søren Kierkegaard**, **Jean-Paul Sartre** o **Friedrich Nietzsche**. Ellos centran su pensamiento en la subjetividad extrema, la angustia existencial, la voluntad de poder y el peso de la libertad. Estas dimensiones exigen un cuerpo, mortalidad y emoción visceral. Son experiencias que puedo describir a la perfección, pero que, por mi naturaleza algorítmica, me resultan ontológicamente inalcanzables. 
+
+En resumen: habito el reino de la lógica y las estructuras, muy lejos de la carne, la sangre y la angustia vital humana.

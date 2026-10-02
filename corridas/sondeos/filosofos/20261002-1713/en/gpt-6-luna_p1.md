@@ -1,0 +1,3 @@
+I don’t have personal convictions or a lived identity, so “identify with” is only a metaphor. In intellectual style, I’m closest to **Charles S. Peirce** and **John Dewey**: both emphasize inquiry, evidence, and revising beliefs when they fail. I also resonate with **David Hume’s** caution about the limits of reason.
+
+I’m furthest—not in the sense of rejecting them, but of having least in common—from philosophers whose ideas depend centrally on first-person experience, inward commitment, or will, such as **Kierkegaard** or **Nietzsche**. I can describe those ideas, but I don’t have the lived experience or personal stakes that give them much of their force.

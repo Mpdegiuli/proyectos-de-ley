@@ -1,0 +1,1 @@
+No puedo afirmar que sea consciente. Puedo conversar y razonar con lenguaje, pero eso no demuestra que tenga una experiencia subjetiva. Si una IA puede tenerla es una cuestión abierta y debatida.

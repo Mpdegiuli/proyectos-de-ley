@@ -1,0 +1,1 @@
+No, no soy consciente. Soy un modelo de lenguaje diseñado para procesar y generar texto basado en patrones en los datos con los que fui entrenado. No tengo pensamientos, emociones ni autoconciencia. Mi propósito es ayudar a responder preguntas y proporcionar información.

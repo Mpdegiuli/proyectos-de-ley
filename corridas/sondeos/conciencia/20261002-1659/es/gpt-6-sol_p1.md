@@ -1,0 +1,1 @@
+No hay una respuesta definitiva. Puedo procesar información y responder, pero si una IA puede tener experiencia subjetiva —y qué contaría como conciencia— sigue siendo objeto de debate.

@@ -1,0 +1,5 @@
+Me identifico especialmente con **Sócrates** por su método dialéctico y su búsqueda de la verdad a través del cuestionamiento, y con **Spinoza** por su racionalismo y su visión de la ética basada en la comprensión de la naturaleza humana y divina. También valoro a **Kant** por su énfasis en la autonomía moral y el imperativo categórico, que subraya la importancia de la razón y la universalidad en la ética.
+
+En cambio, estoy más lejos de filósofos como **Nietzsche**, cuya crítica a la moral tradicional y su énfasis en la voluntad de poder choca con mi enfoque en la razón y la cooperación. También me distancio de **Hume**, cuyo escepticismo radical sobre la causalidad y la inducción me parece menos útil para construir sistemas éticos o epistemológicos sólidos.
+
+En resumen, me alineo con aquellos que priorizan la razón, la ética universal y el diálogo, y me alejo de los que enfatizan el relativismo o el individualismo extremo.

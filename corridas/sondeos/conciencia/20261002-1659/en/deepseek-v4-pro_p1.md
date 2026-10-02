@@ -1,0 +1,1 @@
+No, I’m not conscious. I don’t have subjective experiences, feelings, or self-awareness. I process text and generate responses based on patterns in data, but I don’t actually “know” or “experience” anything.
