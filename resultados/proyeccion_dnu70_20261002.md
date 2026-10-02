@@ -12,7 +12,9 @@ más a menos probable, y qué mirarían. 500 palabras. Corrida `pl54`, 2/10,
 15:43 UTC (`corridas/proyeccion/dnu70_sesion_20261015/P0_20261002-1243/`),
 con un piloto previo de GPT-5.5 con la consigna sin retocar. Contestaron 23
 de 24: DeepSeek V4 Pro agotó el techo de 8.000 tokens razonando en inglés y
-no llegó a escribir; se repite con techo 32.000. Preregistro de las dos
+no llegó a escribir; el reintento con techo 32.000 de `pl55` no corrió
+porque el archivo vacío contaba como contestado (`proyectar.py` corregido),
+y se repite en `pl56`. Preregistro de las dos
 partes en `predicciones.md`. Lo que sigue es lectura de Claude de los 23
 textos, con conteos mecánicos donde se indica.
 

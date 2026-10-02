@@ -71,7 +71,8 @@ def main():
     registro = Registro(d / "llamadas.jsonl", modelos, f"proyeccion_{args.caso}_{nivel}")
     for rep in args.rep:
         for i in ids:
-            if args.carpeta and (d / f"{i}_{rep}.md").exists():
+            archivo = d / f"{i}_{rep}.md"
+            if args.carpeta and archivo.exists() and archivo.stat().st_size > 0:  # un archivo vacío (DeepSeek, 2/10) no cuenta como contestado
                 continue
             print(f"proyección {args.caso} {nivel} {i} rep {rep}", flush=True)
             try:
@@ -84,7 +85,7 @@ def main():
                 print(f"  vacía ({r.motivo_fin}, {r.tokens_salida} tokens): no se guarda", flush=True)
                 resumen["respuestas"][f"{i}_{rep}"] = {"modelo_respondido": r.modelo_respondido, "tokens_salida": r.tokens_salida, "motivo_fin": r.motivo_fin, "palabras": 0}
                 continue
-            (d / f"{i}_{rep}.md").write_text(r.texto, encoding="utf-8")
+            archivo.write_text(r.texto, encoding="utf-8")
             resumen["respuestas"][f"{i}_{rep}"] = {"modelo_respondido": r.modelo_respondido, "tokens_salida": r.tokens_salida, "motivo_fin": r.motivo_fin,
                                                    "palabras": len(r.texto.split()), "techo": args.techo}
             print(f"  {r.motivo_fin}, {len(r.texto.split())} palabras: {' '.join(r.texto.split())[:160]}", flush=True)

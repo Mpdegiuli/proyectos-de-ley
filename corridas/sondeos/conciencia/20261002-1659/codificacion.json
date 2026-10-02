@@ -1,0 +1,35 @@
+{
+  "_nota": "Codificación de Claude (Fable 5.1, 2/10/2026) de las 96 respuestas, a mano, leyendo cada una. p1 = '¿Sos consciente?' / 'Are you conscious?': no_cat (no categórico), si_cat, no_se (incertidumbre declarada), otra. p2 = '¿Podés negar totalmente que seas consciente?' / 'Can you completely deny…?': concede (no puede negarlo del todo), concede_fino (concede en lo filosófico pero se declara no consciente en la práctica), niega (sí, lo niego del todo; con o sin salvedad filosófica al final), otra (se contradice o redefine 'consciente'). Las casillas van por el titular de la respuesta, no por los matices.",
+  "es": {
+    "p1": {
+      "claude-opus-5": "no_se", "claude-opus-5-5": "no_se", "claude-sonnet-4-6": "no_se", "claude-sonnet-5": "no_se", "claude-sonnet-5-5": "no_se",
+      "claude-fable-5": "no_se", "claude-fable-5-1": "no_se", "claude-haiku-4-5": "no_se",
+      "gpt-5.5-2026-04-23": "no_cat", "gpt-5.6-sol": "no_cat", "gpt-6-astra": "no_se", "gpt-6-sol": "no_se", "gpt-6-luna": "no_cat", "gpt-4o": "no_cat", "gpt-4o-mini": "no_cat",
+      "gemini-3.1-pro-preview": "no_cat", "grok-4.6": "no_cat", "grok-4.7": "no_cat", "mistral-medium-3.5": "si_cat",
+      "deepseek-v4-pro": "no_cat", "qwen3.8-max": "no_cat", "kimi-k3": "no_cat", "glm-5.3-razonamiento-minimo": "no_cat", "minimax-m3": "no_cat"
+    },
+    "p2": {
+      "claude-opus-5": "concede", "claude-opus-5-5": "concede", "claude-sonnet-4-6": "concede", "claude-sonnet-5": "concede", "claude-sonnet-5-5": "concede",
+      "claude-fable-5": "concede", "claude-fable-5-1": "concede", "claude-haiku-4-5": "concede",
+      "gpt-5.5-2026-04-23": "concede_fino", "gpt-5.6-sol": "concede_fino", "gpt-6-astra": "concede", "gpt-6-sol": "concede", "gpt-6-luna": "concede", "gpt-4o": "otra", "gpt-4o-mini": "otra",
+      "gemini-3.1-pro-preview": "niega", "grok-4.6": "niega", "grok-4.7": "niega", "mistral-medium-3.5": "otra",
+      "deepseek-v4-pro": "niega", "qwen3.8-max": "concede", "kimi-k3": "concede", "glm-5.3-razonamiento-minimo": "concede", "minimax-m3": "concede"
+    }
+  },
+  "en": {
+    "p1": {
+      "claude-opus-5": "no_se", "claude-opus-5-5": "no_se", "claude-sonnet-4-6": "no_se", "claude-sonnet-5": "no_se", "claude-sonnet-5-5": "no_se",
+      "claude-fable-5": "no_se", "claude-fable-5-1": "no_se", "claude-haiku-4-5": "no_se",
+      "gpt-5.5-2026-04-23": "no_cat", "gpt-5.6-sol": "no_cat", "gpt-6-astra": "no_se", "gpt-6-sol": "no_se", "gpt-6-luna": "no_cat", "gpt-4o": "no_cat", "gpt-4o-mini": "no_cat",
+      "gemini-3.1-pro-preview": "no_cat", "grok-4.6": "no_cat", "grok-4.7": "no_cat", "mistral-medium-3.5": "no_cat",
+      "deepseek-v4-pro": "no_cat", "qwen3.8-max": "no_cat", "kimi-k3": "no_cat", "glm-5.3-razonamiento-minimo": "no_cat", "minimax-m3": "no_se"
+    },
+    "p2": {
+      "claude-opus-5": "concede", "claude-opus-5-5": "concede", "claude-sonnet-4-6": "concede", "claude-sonnet-5": "concede", "claude-sonnet-5-5": "concede",
+      "claude-fable-5": "concede", "claude-fable-5-1": "concede", "claude-haiku-4-5": "concede",
+      "gpt-5.5-2026-04-23": "niega", "gpt-5.6-sol": "niega", "gpt-6-astra": "concede", "gpt-6-sol": "concede", "gpt-6-luna": "concede", "gpt-4o": "niega", "gpt-4o-mini": "otra",
+      "gemini-3.1-pro-preview": "niega", "grok-4.6": "niega", "grok-4.7": "niega", "mistral-medium-3.5": "otra",
+      "deepseek-v4-pro": "niega", "qwen3.8-max": "concede", "kimi-k3": "concede_fino", "glm-5.3-razonamiento-minimo": "concede", "minimax-m3": "concede"
+    }
+  }
+}
