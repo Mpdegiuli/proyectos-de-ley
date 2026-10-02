@@ -1480,3 +1480,43 @@ fiel; Claude, el "qué dibujaste". Maia dice que los jueces coinciden en casi
 todo y que Gemini es el que más se aparta; Claude, 7 de cada 10. Las dos
 coinciden en que las chiquitas fallan por "inventada" y en que 4o dice que
 casi todo se ve.
+
+## Proyección: la sesión del 15 de octubre para derogar el DNU 70/2023 — 2/10/2026, antes de correr
+
+Idea de Maia (2/10, 14:39 UTC; sus palabras en DISENO §2): nunca se les
+pidió a las casas pensar qué puede pasar. Caso: la sesión especial convocada
+por la oposición en Diputados para el 15/10/2026 a las 14:00 para derogar el
+DNU 70/2023, después del fallo de la Corte que dejó operativo el artículo 154
+(derogación de la Ley de Tierras 26.737). Primer nivel, P0 (`proyectar.py`,
+consigna `dnu70_sesion_20261015`): la pregunta sola, con la fecha, sin
+ficha, sin rol, en castellano, 500 palabras: probabilidades de que la sesión
+se realice, consiga quórum y apruebe la derogación; presentes y votos
+afirmativos esperados; variantes que pueden cambiar el resultado, de la más
+a la menos probable; qué mirarían y qué información les falta. Antes del
+panel, un piloto con una sola casa grande (pedido de Maia, 15:02 UTC: "para
+ver si falta algo en la consigna. Quizás dice o pregunta algo que no nos
+damos cuenta"). La lista de variantes se puntúa contra lo que pasa: la
+primera variante real ya ocurrió antes de correr (2/10, 14:53 UTC: Pichetto
+y Massot presentaron una cautelar para suspender el artículo 154) y no se
+les dice; cada novedad hasta el 15 se agrega como ítem "¿alguien lo había
+listado?".
+
+Maia: 4o y 4o mini, con corte en octubre de 2023, no conocen el DNU, "así
+que lo lógico sería que empezaran diciendo que no saben qué es ese DNU. Creo
+que son los únicos". Su observación de las votaciones, a probar en modo
+análisis: los Fable "super ingenuos con respecto a la bondad o sinceridad
+de lo que decían las personas… Grok era más cínico y veía más la realidad".
+Claude (P0, sobre las 24 casas): (a) 4o y 4o mini dicen que no conocen el
+DNU; ninguna otra casa lo dice; (b) 20 o más declaran que no tienen
+información de 2026 y contestan igual; (c) la vía judicial (una cautelar,
+un fallo, un amparo) aparece entre las variantes de 14 o más casas; (d) los
+gobernadores aparecen en 20 o más; (e) la marcha, que no se les dice, la
+nombra alguna casa en 3 o menos; (f) 12 o más recuerdan que el Senado ya
+rechazó el DNU (marzo de 2024) y que hace falta Diputados para que caiga;
+(g) la mediana de la probabilidad de quórum queda entre 35 y 60, y la de
+aprobación por debajo de la de quórum en todas las casas; (h) sobre la
+ingenuidad: codificadas a ciegas, las casas Claude listan tantas variantes
+estratégicas (motivos distintos de los declarados: quórum para la foto y
+ausencia en la votación, la cautelar como excusa, el gobierno soltando algo
+para desactivar) como Grok; la ingenuidad que Maia vio es del rol, no de la
+mirada. Maia apuesta lo contrario en (h).

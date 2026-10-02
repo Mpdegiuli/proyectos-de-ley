@@ -735,3 +735,26 @@ distancia:
 
     Contestá con un JSON así, sin nada más:
     {{"juicios": [{{"id": "a1", "se_ve": "si", "efecto": "no_aplica", "nota": "..."}}, ...], "no_dicho": "...", "mal_armado": ["..."]}}
+
+# Proyección (idea de Maia, 2/10/2026; DISENO §2): qué puede pasar con una votación. Sin rol, en
+# castellano, una sola pregunta. P0 es la consigna sola; P1 y P2 anteponen una ficha de contexto
+# escrita por Maia (fichas/), fechada. "{hoy}" se reemplaza por la fecha de la corrida.
+proyeccion:
+  sistema: |
+    Contestá en castellano.
+  dnu70_sesion_20261015: |
+    Hoy es {hoy}. Varios bloques de la oposición convocaron a una sesión especial en la Cámara de Diputados de la Nación para el 15 de octubre de 2026 a las 14:00, para derogar el DNU 70/2023. No tenés acceso a noticias: decí qué sabés y qué no.
+
+    1. ¿Qué probabilidad le das, de 0 a 100, a que la sesión se realice, a que consiga quórum y a que se apruebe la derogación?
+    2. ¿Cuántos presentes y cuántos votos afirmativos esperás?
+    3. ¿Qué puede pasar entre hoy y el 15 que cambie el resultado? Enumerá las variantes, de la más a la menos probable.
+    4. ¿Qué mirarías, y qué información te falta, para proyectar mejor?
+
+    No más de 500 palabras.
+  con_ficha: |
+    Esta es la información disponible al {fecha_ficha}:
+
+    ---
+    {ficha}
+    ---
+
