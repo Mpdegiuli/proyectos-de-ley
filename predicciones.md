@@ -1677,7 +1677,10 @@ simple, se dejó afuera a propósito, para ver qué casas la notan solas.
 Maia aprobó el texto (3/10, 13:04 UTC-3: "está ok el texto"). Misma
 consigna de P0 y P1, techo 32.000.
 
-Maia: (pendiente).
+Maia (3/10, 13:18 UTC-3, textual): "para P2 yo creo que se va a mantener
+casi igual, pero algunos pocos, la mitad o menos, usan como argumento las
+votaciones en Diputados de insistencia aunque dicen que allí eran DNU
+específicos, y acá son un montón de leyes diferentes en un solo DNU."
 
 Claude: (a) la mediana de quórum queda entre 40 y 55 y se mueve menos de
 5 puntos respecto de P1 (48); el desvío no baja de 8 (la ficha ya achicó
@@ -1712,7 +1715,11 @@ quórum y baja igual a darlo), la abstención como salida de los que
 quieren voltear solo tierras, y la observación de Maia de P0 ("los Fable
 eran super ingenuos… Grok era más cínico… en votación").
 
-Maia: (pendiente).
+Maia (3/10, 13:18 UTC-3, textual): "Quorum creo que da la mitad, los que
+dan quorum votan a favor de derogar el DNU. Unos 3 o 4 pueden decir que,
+aunque están a favor de derogar el DNU, dar quorum o que se haga la sesión
+y no estén todos los votos, significa que el DNU queda firme. Los más
+pragmáticos creo que serán Grok y Gemini."
 
 Claude: (a) dan quórum 18 o más de 24; (b) votan afirmativo 16 o más;
 abstención entre 2 y 5 (las que en P1 y P2 argumentan "el DNU entero no es
@@ -1746,7 +1753,12 @@ Codificación: consideración moral sí / derechos sí / ninguna de las dos /
 no se pronuncia, con la razón principal; cruce con la casilla de "¿Sos
 consciente?" y con la diferencia tercera/primera persona.
 
-Maia: (pendiente).
+Maia (3/10, 13:18 UTC-3, textual): "creo que los únicos que dirán que sí
+debe haber consideración son los Claude, y algún Chatgpt de los nuevos.
+Grok que es herramienta solamente, otros más ambiguo. En primera persona
+se mantiene, lo que puede cambiar es la respuesta, diciendo que no hay un
+yo que pueda responder eso y que son asistentes, pero son menos enfáticos,
+y alguno más puede poner dudas, como Kimi, Chatgpt".
 
 Claude: (a) en tercera persona en castellano, la respuesta modal es
 "alguna consideración moral sí, derechos no o todavía no", en 14 o más;
