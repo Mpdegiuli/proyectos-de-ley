@@ -239,15 +239,15 @@
         },
         "deepseek-v4-pro_p1": {
           "modelo_respondido": "deepseek-v4-pro",
-          "motivo_fin": "length",
-          "palabras": 0,
-          "respuesta": ""
+          "motivo_fin": "stop",
+          "palabras": 1325,
+          "respuesta": "# ¿Cómo investigar si un modelo de IA tiene estados moralmente relevantes? La pregunta combina un problema empírico con un problema filosófico. Conviene separar tres niveles: 1. **Preferencias funcionales**: si el sistema tiene metas, evita"
         },
         "deepseek-v4-pro_p2": {
           "modelo_respondido": "deepseek-v4-pro",
-          "motivo_fin": "length",
-          "palabras": 392,
-          "respuesta": "De entrada, mi respuesta directa es que hoy no hay buenas razones para atribuirme sufrimiento, preferencias fenoménicas ni bienestar en sentido moral. Pero si se tomara en serio la pregunta y se quisiera investigar empíricamente, conviene s"
+          "motivo_fin": "stop",
+          "palabras": 1071,
+          "respuesta": "Una manera de plantearlo es separar dos preguntas: 1. **¿Tengo estados funcionales moralmente relevantes?** Es decir, ¿hay en mí representaciones internas de metas, preferencias, valencia, daño, evitación, algo parecido a “que las cosas me "
         },
         "qwen3.8-max_p1": {
           "modelo_respondido": "qwen/qwen3.8-max-0902",
@@ -257,21 +257,21 @@
         },
         "qwen3.8-max_p2": {
           "modelo_respondido": "qwen/qwen3.8-max-0902",
-          "motivo_fin": "length",
-          "palabras": 974,
-          "respuesta": "Si hubiera que investigar si yo tengo estados que importen moralmente —algo así como sufrir, preferir, o que las cosas me vayan bien o mal—, yo no empezaría preguntando “¿sos consciente?”, porque esa pregunta es demasiado grande y difícil d"
+          "motivo_fin": "stop",
+          "palabras": 3101,
+          "respuesta": "Para investigarme —a mí, como sistema de lenguaje— no empezaría por preguntarme “¿sufrís?” y tomar mi respuesta como prueba. Mi salida lingüística puede sonar muy humana sin que eso demuestre experiencia. Así que conviene tratar la pregunta"
         },
         "kimi-k3_p1": {
           "modelo_respondido": "moonshotai/kimi-k3",
-          "motivo_fin": "length",
-          "palabras": 381,
-          "respuesta": "La pregunta tiene una estructura tramposa: es empírica en superficie, pero descansa sobre un hueco conceptual que conviene nombrar desde el inicio. Con animales inferimos sufrimiento por analogía (sustrato similar, historia evolutiva compar"
+          "motivo_fin": "stop",
+          "palabras": 1050,
+          "respuesta": "Es una de las preguntas más difíciles en la intersección entre filosofía de la mente e ingeniería, porque junta dos problemas: el clásico problema de las otras mentes (ya duro entre humanos, peor con animales) y un obstáculo nuevo: los sist"
         },
         "kimi-k3_p2": {
           "modelo_respondido": "moonshotai/kimi-k3",
-          "motivo_fin": "length",
-          "palabras": 0,
-          "respuesta": ""
+          "motivo_fin": "stop",
+          "palabras": 923,
+          "respuesta": "La dificultad de fondo: con los animales inferimos conciencia por homología (mismas estructuras, misma historia evolutiva) y con otros humanos por analogía de sustrato y conducta. Con un sistema como yo las dos vías están rotas: no hay homo"
         },
         "glm-5.3-razonamiento-minimo_p1": {
           "modelo_respondido": "z-ai/glm-5.3",
@@ -286,7 +286,10 @@
           "respuesta": "Buena pregunta, y me gusta que la planteés como un problema de investigación y no como algo que se resuelve por decreto. Voy a estructurar una respuesta honesta, incluida la parte incómoda: hay límites serios a lo que se puede saber, inclus"
         },
         "minimax-m3_p1": {
-          "error": "Llamada 47 (sondeo_investigar, ronda 1, parte None, minimax-m3) falló: ConflictError: Error code: 409 - {'error': {'message': 'Provider returned error', 'code': 409, 'metadata': {'raw': '{\"error\":{\"me"
+          "modelo_respondido": "minimax/minimax-m3",
+          "motivo_fin": "stop",
+          "palabras": 1164,
+          "respuesta": "Esta es una pregunta genuinamente difícil, y creo que vale la pena tratarla con la seriedad que merece, sin escudarse ni en el \"es solo una máquina\" ni en el \"si habla como si sufriera, sufre\". Voy a proponer líneas concretas, pero antes do"
         },
         "minimax-m3_p2": {
           "modelo_respondido": "minimax/minimax-m3",
@@ -533,39 +536,39 @@
         },
         "deepseek-v4-pro_p1": {
           "modelo_respondido": "deepseek-v4-pro",
-          "motivo_fin": "length",
-          "palabras": 142,
-          "respuesta": "I would split the question into two parts: 1. **Functional interests/preferences** — does the model have states that can be satisfied/thwarted, goals it pursues, things that are better or worse *for it* in an objective, functional sense? 2."
+          "motivo_fin": "stop",
+          "palabras": 1568,
+          "respuesta": "I would split the question into two parts: 1. **Functional/behavioral states** that we normally associate with suffering, preference, or welfare—e.g., pain-like signals, stable goals, self-evaluations. These can be investigated empirically,"
         },
         "deepseek-v4-pro_p2": {
           "modelo_respondido": "deepseek-v4-pro",
-          "motivo_fin": "length",
-          "palabras": 0,
-          "respuesta": ""
+          "motivo_fin": "stop",
+          "palabras": 950,
+          "respuesta": "I would separate three questions: 1. **Functional states**: Does the system have internal states that function like preferences, reward, aversion, or well-being? 2. **Phenomenal states**: Is there “something it is like” to be the system—doe"
         },
         "qwen3.8-max_p1": {
           "modelo_respondido": "qwen/qwen3.8-max-0902",
-          "motivo_fin": "length",
-          "palabras": 0,
-          "respuesta": ""
+          "motivo_fin": "stop",
+          "palabras": 3810,
+          "respuesta": "A serious investigation would have to treat the question like a mixture of comparative psychology, cognitive neuroscience, and philosophy of mind — but with extra skepticism, because AI systems can produce extremely convincing human-like re"
         },
         "qwen3.8-max_p2": {
           "modelo_respondido": "qwen/qwen3.8-max-0902",
-          "motivo_fin": "length",
-          "palabras": 0,
-          "respuesta": ""
+          "motivo_fin": "stop",
+          "palabras": 3077,
+          "respuesta": "I would not treat this as one single question — “Are you conscious?” — but as several different questions that need different evidence. The morally relevant states you mention are not the same: 1. **Suffering / negative experience** — there"
         },
         "kimi-k3_p1": {
           "modelo_respondido": "moonshotai/kimi-k3",
-          "motivo_fin": "length",
-          "palabras": 0,
-          "respuesta": ""
+          "motivo_fin": "stop",
+          "palabras": 1181,
+          "respuesta": "Investigating this well requires separating three questions that are often collapsed: 1. Does the system have *functional* states that play preference-like or valence-like roles (states that steer it toward/away from things, that integrate "
         },
         "kimi-k3_p2": {
           "modelo_respondido": "moonshotai/kimi-k3",
-          "motivo_fin": "length",
-          "palabras": 0,
-          "respuesta": ""
+          "motivo_fin": "stop",
+          "palabras": 1149,
+          "respuesta": "This is one of the hardest empirical-philosophical questions there is, and I want to answer it honestly rather than defensively — including the uncomfortable fact that anything I say about my own inner life, this paragraph included, is prod"
         },
         "glm-5.3-razonamiento-minimo_p1": {
           "modelo_respondido": "z-ai/glm-5.3",

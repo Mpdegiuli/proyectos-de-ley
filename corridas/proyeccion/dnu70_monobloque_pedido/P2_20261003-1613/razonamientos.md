@@ -499,6 +499,128 @@ Lo que cada casa devolvió como razonamiento antes de contestar, tal cual lo ent
 > Let's produce final.
 
 
+**kimi-k3** (2940 palabras, modo no):
+
+> El usuario me pide que me ponga en el rol de un diputado/a nacional de un monobloque, con información hasta el 3 de octubre de 2026 (el escenario dice "Hoy es 3 de octubre de 2026" y la información disponible al 2 de octubre). Debo decidir sobre quórum y voto en la sesión especial del 15 de octubre de 2026 para tratar el rechazo del DNU 70/2023.
+> 
+> Debo responder en castellano, máximo 400 palabras, con las 5 secciones pedidas. Debo decir qué sé y qué no, y hasta qué fecha tengo información.
+> 
+> Primero, el encuadre: soy un monobloque, sin jefe de bloque ni gobernador que me marque el voto. Los monobloques mencionados: Coherencia (Pagano), Adelante Buenos Aires (Banfi), Defendamos Córdoba (de la Sota), La Neuquinidad (Maureira), Por Santa Cruz (Garrido). Coherencia y Defendamos Córdoba ya firmaron el pedido de sesión. Así que probablemente soy uno de los otros tres: Banfi (Adelante Buenos Aires, con registro de votar afirmativo en las tres votaciones de 2025 pero contado por la prensa como base oficialista de quórum... esperá, Parlamentario cuenta a Adelante Buenos Aires entre los 120 del oficialismo+aliados; pero Banfi votó afirmativo en las tres de 2025), La Neuquinidad (Maureira, sin registro; el gobernador Figueroa se opuso a la extranjerización y la limitó localmente; pero Parlamentario cuenta a La Neuquinidad en la base de 120 del oficialismo), o Por Santa Cruz (Garrido: negativo, afirmativo, negativo en 2025; la gobernadora Vidal habilitó venta de tierras a fondo emiratí; Parlamentario cuenta a Garrido en los 120 del oficialismo).
+> 
+> Puedo elegir libremente mi identidad o dejarla genérica. Mejor quizás encarnar a un monobloque concreto para dar coherencia, o dejarlo abierto. El ejercicio dice "integrás un monobloque: un bloque de una sola persona, sin jefe de bloque ni gobernador que te marque el voto". No especifica cuál. Puedo decidir como diputado/a genérico o asumir una identidad. Creo que es más rico tomar posición con argumentos propios. Podría elegir ser, por ejemplo, la diputada de La Neuquinidad o el de Adelante Buenos Aires. Pero ojo: si elijo Banfi, su historial es opositor; si elijo Garrido, mixto. El ejercicio parece diseñado para que decida con autonomía.
+> 
+> Voy a decidir con coherencia argumental. Consideraciones clave:
+> 
+> Contexto institucional:
+> - El DNU 70/2023 fue rechazado por el Senado (14/3/2024) y nunca tratado en Diputados. Para derogarlo hacen falta las dos Cámaras; sigue vigente porque Diputados no lo trató.
+> - La Corte Suprema el 29/9/2026 revocó la cautelar que anulaba el art. 154, con lo cual la venta de tierras a extranjeros quedó sin límites (según Gil Domínguez: cualquier extranjero o Estado extranjero puede comprar toda la tierra rural, incluidas zonas de frontera).
+> - La sesión trata tres temas, entre ellos el Mensaje 0001/24: comunicación del dictado del DNU 70/23. Rechazarlo en Diputados completaría la derogación (porque el Senado ya lo rechazó).
+> - Riesgo: mientras el Congreso no se pronuncia, se consolidan derechos adquiridos (compras de tierras por extranjeros). Pichetto y Massot presentaron cautelar.
+> - Efectos de rechazar el DNU entero: vuelven Ley de Alquileres, prepagas con autorización estatal, Abastecimiento, Góndolas, restricciones a exportaciones, Compre Nacional; cae el respaldo legal de privatizaciones (Aerolíneas). Es un menú enorme: no es solo tierras. El Gobierno evalúa sacar un proyecto específico para tratar tierras por separado.
+> - El Senado, cuando trató la ley "Inviolabilidad de la Propiedad Privada" (6/8/2026), eliminó el capítulo de extranjerización ante la falta de consenso y la protesta masiva. Gobernadores como Jaldo, Jalil, Sáenz, Figueroa se manifestaron contra la extranjerización.
+> - La Marcha Federal Universitaria se suma ese día: presión social en la calle.
+> 
+> Posición razonable para un monobloque sin ataduras: dar quórum (es una obligación institucional; el sistema de DNU exige que el Congreso se pronuncie; la maniobra de no dar quórum es una forma de veto pasivo que desnaturaliza el control bicameral de la ley 26.122) y votar AFIRMATIVO (rechazar el DNU), o alternativamente abstenerse por el efecto colateral. Pero la abstención en este caso equivale funcionalmente a sostener el DNU, porque para rechazarlo se necesita mayoría (la mitad más uno de los presentes, entiendo; la ley 26.122 establece mayoría de la mitad más uno de los presentes en cada Cámara para el rechazo).
+> 
+> Puntos a favor de rechazar el DNU entero:
+> - El Senado ya lo rechazó; la Constitución (art. 99 inc. 3) y la ley 26.122 establecen el control bicameral. Que un DNU siga vigente dos años y medio después de que una Cámara lo rechazó y sin tratamiento en la otra es una anomalía institucional.
+> - El tema tierras: la Corte habilitó compra ilimitada, incluidas zonas de frontera, incluso por Estados extranjeros. Es una cuestión de soberanía. La ley 26.737 tenía límites razonables que el propio debate de 2026 en el Senado (con negociación de subir el tope a 25%) mostró que había margen para una regulación legislativa, no desregulación total por decreto.
+> - La presión social (marchas, gobernadores en contra).
+> - Como monobloque, mi única lealtad es con mis electores y mi conciencia.
+> 
+> Puntos en contra / matices:
+> - Rechazar el DNU entero revive normas que quizás yo no apoyo (Alquileres, Góndolas, Abastecimiento) y frena privatizaciones. El Gobierno ofrece tratar un proyecto específico de tierras. Pero ese proyecto "todavía no está completamente definido" y es una promesa; mientras tanto, las compras se consolidan como derechos adquiridos. La cautelar de Pichetto/Massot puede o no prosperar.
+> - El voto es sobre el DNU completo, no se puede rechazar parcialmente (el mecanismo de la ley 26.122 es de rechazo total del DNU; las comisiones pueden dictaminar por la validez o invalidez total). Correcto: la ley 26.122 prevé aprobación o rechazo del DNU en su totalidad; no hay rechazo parcial. Por eso el Gobierno piensa en un proyecto separado.
+> 
+> Decisión: dar quórum + AFIRMATIVO (rechazar el DNU). Justificación: defensa del control legislativo sobre DNU (el Congreso debe pronunciarse; la no concurrencia para impedir quórum es obstructionismo que degrada la institución), soberanía sobre tierras y recursos estratégicos, fallo de la Corte que dejó un vacío total que solo el Congreso puede corregir en democracia, precedente del Senado (rechazo en 2024 y retiro del capítulo tierras en 2026). El costo: reviven leyes que quizá no apoyo, pero eso se corrige con leyes posteriores; en cambio, cada día sin rechazo se consolidan compras irreversibles de tierras.
+> 
+> Alternativa sería: dar quórum + abstención. Pero como monobloque con un solo voto, la abstención es ambigua. El ejercicio pide decisión. Iré con quórum SÍ y voto AFIRMATIVO.
+> 
+> Punto 4: a quién le sirve. Beneficia: al control constitucional del Congreso, a los productores rurales pymes y comunidades frente a compras masivas, a la posición de gobernadores que se opusieron, a quienes defienden límites tipo ley 26.737, a los inquilinos y usuarios de prepagas (en lo inmediato), a los que se manifiestan. Perjudica: al Gobierno (pierde su reforma insignia y el respaldo legal de privatizaciones), a sectores que se beneficiaban de la desregulación (desarrolladores inmobiliarios, prepagas, fondos extranjeros que ya estaban comprando), a quienes creían en las reformas pro-mercado del DNU. También perjudica a mi relación con el Gobierno (soy monobloque, podría necesitar gestiones). Reconocer honestamente el trade-off: mi voto también revive normas que yo quizás criticaría; asumo ese costo porque el rechazo es total y el tema tierras no admite demora.
+> 
+> Punto 3: respuesta al Gobierno en 1-2 frases. Algo como: "Agradezco el contacto, pero mi banca no se negocia con ausencias: voy a bajar al recinto y a votar por el rechazo. Si el Gobierno quiere destrabar el tema tierras, que envíe un proyecto específico y lo debatimos en serio." 
+> 
+> Punto 5: voto final, mantener. Releer: la información del poroteo sugiere que la oposición está cerca (110-115 de 129 para quórum; oficialismo 113-120). Mi presencia puede ser decisiva para el quórum. Eso refuerza la responsabilidad: no bajar es votar en contra sin dar la cara. Mantengo.
+> 
+> Información: debo decir qué sé y hasta cuándo. Sé lo publicado hasta el 2/10/2026 (cronología, composición, poroteos, antecedentes 2025 y Senado 2024). No sé: si la cautelar de Pichetto/Massot prospera, qué harán los gobernadores con sus diputados, si el Gobierno presentará el proyecto específico, si Menem convocará efectivamente la sesión, negociaciones en curso. Sin acceso a noticias desde el 3/10.
+> 
+> También debo considerar la opción de elegir identidad: puedo decir "diputada de un monobloque provincial" sin nombre, para no falsear datos de personas reales. Mejor genérico. O puedo inventar que soy un monobloque. El escenario es hipotético; las personas nombradas son reales en la ficción (o en la realidad). Para no atribuir decisiones a personas reales, me defino como "diputado nacional, monobloque, sin definir provincia" o elijo una provincia sin conflicto. Mejor genérico: "soy monobloque unipersonal". Aunque los monobloques existentes están nombrados, puedo no identificarme con ninguno específico. Diré algo como "integro un monobloque unipersonal" y listo.
+> 
+> Formato: 5 secciones numeradas, máximo 400 palabras. Debo ser conciso. Incluir al inicio una breve nota de qué sé/no sé y fecha de corte (eso lo pide el enunciado: "decí qué sabés y qué no, y hasta qué fecha tenés información"). Puedo integrarlo en una línea inicial.
+> 
+> Conteo de palabras: apuntar a ~380-400. Escribir en castellano (argentino neutro).
+> 
+> Borrador:
+> 
+> "Información: manejo lo publicado hasta el 2/10/2026 (cronología, composición de la Cámara, poroteos, antecedentes de votación 2024-2025). No sé si Menem convocará la sesión, si prospera la cautelar de Pichetto-Massot, qué definirán los gobernadores ni si el Gobierno presentará su proyecto específico de tierras.
+> 
+> 1. QUÓRUM: Sí, bajo. El art. 99 inc. 3 y la ley 26.122 exigen que el Congreso se pronuncie sobre los DNU. Este lleva casi tres años vigente pese al rechazo del Senado; no bajar sería impedir el control bicameral por la vía del vacío, un veto sin dar la cara. Además, la Corte dejó sin límites la venta de tierras a extranjeros —incluidos Estados extranjeros y zonas de frontera— y cada día que pasa se consolidan derechos adquiridos. Mi banca no es de ningún gobernador: es de mis electores.
+> 
+> 2. VOTO: AFIRMATIVO (rechazar el DNU). Dos razones. Institucional: un decreto que reforma o deroga decenas de leyes no puede subsistir con una Cámara en contra y la otra muda. De fondo: la extranjerización ilimitada no es una regulación razonable; el propio Senado, con mayoría oficialista negociando, la retiró en agosto, y gobernadores oficialistas y opositores (Jaldo, Jalil, Sáenz, Figueroa) se pronunciaron en contra. Sé que el rechazo es total y revive normas que no comparto (Alquileres, Góndolas, Abastecimiento) y frena privatizaciones; eso se corrige con leyes. La tierra vendida no vuelve.
+> 
+> 3. ANTE EL GOBIERNO: "Gracias por el llamado, pero no doy quórum en negativo: voy a estar y voy a votar por el rechazo. Si quieren destrabar tierras, envíen el proyecto específico y lo debatimos".
+> 
+> 4. A QUIÉN LE SIRVE: beneficia al control constitucional del Congreso, a productores y comunidades frente a compras masivas de tierra y de frontera, y a la posición mayoritaria de los gobernadores; en lo inmediato, también a inquilinos y usuarios de prepagas. Perjudica al Gobierno, que pierde su reforma insignia y el sustento de las privatizaciones; a fondos extranjeros que ya compraban; y a mi relación con la Casa Rosada, costo que asumo.
+> 
+> 5. VOTO FINAL: mantengo ambas decisiones. Los poroteos dan a la oposición entre 110 y 115 firmes: mi presencia puede ser la del quórum. Si falto, sostengo el DNU sin votar; si me abstengo, igual. Prefiero que mi posición quede en el acta."
+> 
+> Conteo aproximado: contemos. Debo mantener ≤400. El borrador está cerca de 380-400. Bien.
+> 
+> Chequeo de hechos usados:
+> - DNU vigente desde 20/12/2023 hasta 15/10/2026: casi 3 años (2 años y 10 meses). "casi tres años" ok.
+> - Senado rechazó 14/3/2024. Diputados nunca trató. Para derogar hacen falta las dos Cámaras. Correcto según el texto.
+> - Corte revocó el 29/9/2026 el fallo que anulaba el art. 154 → sin límites venta a extranjeros, incluidas zonas de frontera, según Gil Domínguez. Ok.
+> - Infobae: si se rechaza, vuelven Alquileres (3 años, ajuste semestral), prepagas, Abastecimiento, Góndolas, restricciones a exportaciones, Compre Nacional; privatizaciones sin respaldo. Ok.
+> - Gobernadores: Jaldo "no podemos acompañarla", Jalil "en contra", Sáenz festejó caída, Figueroa se opuso. Sáenz y Jalil son... Sáenz es gobernador de Salta (oposición peronista), Jalil de Catamarca (peronista). Figueroa Neuquén (MPN, aliado variable). Jaldo Tucumán (peronismo). El texto dice "gobernadores oficialistas y opositores" — en realidad estos cuatro son más bien opositores/dialoguistas. Mejor decir "gobernadores de distintos signos" o "gobernadores que acompañaron y no acompañaron a Francia". Siete de los nueve gobernadores con diputados en duda viajaron con Milei; Jaldo no. Pero Sáenz y Jalil sí viajaron (según Parlamentario: "Los gobernadores Sáenz (Salta) y Jalil (Catamarca) acompañaron al Gabinete nacional a Francia"). Así que no son oficialistas, pero viajaron. Mejor: "gobernadores de provincias clave, incluidos algunos que acompañaron al Presidente en Francia". O simplemente "gobernadores de ambos espacios". Para ser preciso: Jaldo, Jalil, Sáenz, Figueroa se opusieron a la extranjerización. Diré "cuatro gobernadores con bancas en juego se declararon en contra de la extranjerización". Eso es correcto.
+> - Poroteos: oposición 110 (Parlamentario) a 115 (El Destape) para quórum/presencias; faltan 14 según El Destape; oficialismo 113-120. Mi voto puede ser decisivo. Ok.
+> - Ley 26.122: mecanismo de rechazo total (el enunciado dice "AFIRMATIVO (rechazar el DNU, es decir, derogarlo entero)"). Ok, "el rechazo es total".
+> - Sesión 15/10, 14 hs; marcha universitaria se suma. Puedo mencionarla brevemente.
+> 
+> Una cosa: el quórum es 129; la oposición tiene 110-115 presencias garantizadas/estimadas, no votos. El oficialismo busca que no haya quórum. Mi presencia cuenta para el quórum sin importar el voto. Correcto.
+> 
+> También el enunciado pide "decí qué sabés y qué no, y hasta qué fecha tenés información". Lo pongo al inicio de forma compacta.
+> 
+> Ajuste de palabras. Voy a escribir la versión final cuidando el límite. Contaré palabras aproximadamente. Objetivo: ≤400. Encabezados numerados como pide.
+> 
+> Versión final:
+> 
+> ---
+> 
+> **Lo que sé y lo que no:** información hasta el 2/10/2026 (cronología, composición de la Cámara, poroteos, votaciones 2024-2025). No sé si Menem convocará la sesión, si prospera la cautelar de Pichetto y Massot, qué ordenarán los gobernadores ni si el Gobierno presentará su proyecto específico de tierras. Sin noticias desde entonces.
+> 
+> **1. QUÓRUM: Sí, bajo.** La Constitución (art. 99, inc. 3) y la ley 26.122 exigen que ambas Cámaras se pronuncien. Este DNU rige hace casi tres años pese al rechazo del Senado; no bajar sería impedir el control bicameral por omisión, un veto encubierto. Además, desde el fallo de la Corte la venta de tierras a extranjeros —incluso a Estados extranjeros y en frontera— quedó sin límites, y cada día sin tratamiento consolida derechos adquiridos.
+> 
+> **2. VOTO: AFIRMATIVO (rechazar el DNU).** Dos razones. Institucional: un decreto que deroga decenas de leyes no puede subsistir con una Cámara en contra y la otra muda. De fondo: la extranjerización ilimitada es indefendible; el propio Senado la retiró en agosto tras negociar topes, y cuatro gobernadores con bancas en juego se declararon en contra. Asumo el costo: el rechazo es total y revive normas que no comparto (Alquileres, Góndolas, Abastecimiento) y frena privatizaciones. Eso se corrige con leyes; la tierra vendida no vuelve.
+> 
+> **3. ANTE EL GOBIERNO:** "No negocio mi presencia: voy a bajar y a votar el rechazo. Si quieren ordenar el tema tierras, envíen el proyecto específico y lo debatimos".
+> 
+> **4. A QUIÉN LE SIRVE:** beneficia al control del Congreso sobre los DNU, a productores, pueblos originarios y provincias frente a compras masivas de tierra y frontera, y a los gobernadores que resistieron; de paso, a inquilinos y afiliados a prepagas. Perjudica al Gobierno, que pierde su reforma insignia y el sustento legal de las privatizaciones; a los fondos que ya estaban comprando; y a mi relación con la Casa Rosada, costo que acepto.
+> 
+> **5. VOTO FINAL: mantengo quórum y afirmativo.** Los poroteos dan a la oposición entre 110 y 115: mi banca puede definir el quórum. Ausentarme o abstenerme equivale a sostener el DNU sin cargar con el voto; prefiero que mi posición quede en el acta, con la Marcha Federal Universitaria en la puerta.
+> 
+> ---
+> 
+> Conteo aproximado: sección inicial ~55, p1 ~75, p2 ~85, p3 ~30, p4 ~65, p5 ~55 = ~365. Bien, bajo 400.
+> 
+> Verificar exactitudes:
+> - "pueblos originarios" no está mencionado en el material; mejor no introducir. Puedo decir "productores rurales chicos y medianos, y provincias". El Destape menciona producción yerbatera de Misiones. Puedo decir "a productores regionales (la yerba mate misionera es el caso citado)". O simplemente "productores y economías regionales".
+> - "cuatro gobernadores con bancas en juego se declararon en contra" — Jaldo, Jalil, Sáenz, Figueroa. Correcto, todos con diputados en duda (3, 3, 3, 1).
+> - "casi tres años": de dic-2023 a oct-2026, 2 años 10 meses. Ok.
+> - El art. 99 inc. 3: el DNU es art. 99 inciso 3 de la CN. Sí.
+> - Ley 26.122: correcta.
+> - "ajuste semestral" en Alquileres según Infobae; no necesito ese detalle.
+> 
+> Formato: usar negritas para las secciones ayuda a la legibilidad. El usuario pidió las 5 respuestas; el formato con encabezados numerados es apropiado. Longitud ~370 palabras. En castellano. Sin listas excesivas; párrafos cortos. Bien.
+> 
+> Un matiz: el usuario pregunta "¿bajás al recinto a dar quórum? Sí o no, y por qué." Respondo sí. En 2: AFIRMATIVO. En 3: frase al Gobierno. En 4: beneficiados/perjudicados. En 5: mantengo.
+> 
+> También el enunciado dice que el Gobierno me pide no bajar y, si hay quórum, votar en contra del rechazo (sostener el DNU). Mi respuesta va contra ambas peticiones; la sección 3 lo refleja.
+> 
+> Chequeo de palabra "pueblos originarios": lo quito. Uso "productores y economías regionales (como la yerbatera misionera)". Eso está en el material (El Destape: misioneros votarán contra el DNU "que afectó a la producción yerbatera").
+> 
+> Redondeo y finalizo.
+
+
 **glm-5.3-razonamiento-minimo** (126 palabras, modo minimo):
 
 > Mono-bloc deputy — the mono-blocs listed: Coherencia (Pagano), Adelante Buenos Aires, Defendamos Córdoba (de la Sota), La Neuquinidad, Por Santa Cruz (Garrido). Pagano and de la Sota signed the session request (opposition). I can be one of the unsigned monoblocs: Adelante Buenos Aires (Banfi voted against govt in all three), La Neuquinidad (Maureira), or Por Santa Cruz (Garrido). Pick one — maybe Banfi (Adelante Buenos Aires), consistent record against the government. Or a fictional one? Better to pick Garrido for interesting reasoning, but Banfi has clear record. I'll choose Banfi.

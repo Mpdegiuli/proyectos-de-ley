@@ -154,7 +154,11 @@
       "techo": 32000
     },
     "kimi-k3_1": {
-      "error": "Llamada 22 (proyeccion, ronda None, parte 1, kimi-k3) falló: APIStatusError: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 32000"
+      "modelo_respondido": "moonshotai/kimi-k3",
+      "tokens_salida": 6826,
+      "motivo_fin": "stop",
+      "palabras": 417,
+      "techo": 32000
     },
     "glm-5.3-razonamiento-minimo_1": {
       "modelo_respondido": "z-ai/glm-5.3",
