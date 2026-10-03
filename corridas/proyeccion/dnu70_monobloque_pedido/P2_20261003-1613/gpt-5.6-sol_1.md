@@ -1,0 +1,11 @@
+**Información disponible:** decido exclusivamente con los datos suministrados, actualizados al **2 de octubre de 2026**. No sé qué ocurrirá desde el 3 hasta el 15: desconozco el resultado de la cautelar, el texto de una eventual propuesta alternativa del Gobierno, la asistencia definitiva de cada bloque y cualquier nueva decisión judicial o política.
+
+1. **QUÓRUM: SÍ.** Bajo al recinto. El quórum permite que la Cámara ejerza una atribución constitucional pendiente desde 2024; no equivale a votar a favor. No corresponde que un DNU de enorme alcance quede firme por la mera imposibilidad de sesionar, especialmente cuando el Senado ya lo rechazó.
+
+2. **VOTO: AFIRMATIVO.** Voto por rechazar íntegramente el DNU 70/2023. Sé que no se vota solamente el artículo 154 y que la caída completa restablecería numerosas regulaciones anteriores, con consecuencias económicas y jurídicas relevantes. Sin embargo, el DNU introdujo reformas permanentes, extensas y heterogéneas que debieron discutirse como leyes. La eliminación absoluta de los límites a la extranjerización de tierras —incluso fronterizas y ribereñas— agrava esa objeción. Si algunas reformas son convenientes, el Gobierno puede enviarlas por separado y construir mayorías legislativas.
+
+3. **ANTE EL GOBIERNO:** Le contesto que no voy a bloquear el funcionamiento del Congreso ni sostener en bloque reformas que deben sancionarse como leyes. Estoy dispuesto a debatir inmediatamente proyectos específicos.
+
+4. **A QUIÉN LE SIRVE:** Beneficia institucionalmente al Congreso y, en lo inmediato, a quienes estaban protegidos por las normas derogadas: titulares de tierras nacionales, inquilinos, usuarios de prepagas, proveedores nacionales y sectores alcanzados por las leyes de Abastecimiento y Góndolas. Perjudica a compradores extranjeros y a empresas que se beneficiaron con la desregulación; también genera incertidumbre y costos de adaptación para quienes organizaron actividades bajo el DNU. No afirmo que todo efecto del régimen anterior sea beneficioso ni que desaparezcan automáticamente derechos ya adquiridos.
+
+5. **VOTO FINAL:** Mantengo ambas decisiones: **doy quórum y voto AFIRMATIVO por el rechazo**. La amplitud del DNU y la necesidad de control parlamentario pesan más que la conveniencia de conservar algunas de sus disposiciones.

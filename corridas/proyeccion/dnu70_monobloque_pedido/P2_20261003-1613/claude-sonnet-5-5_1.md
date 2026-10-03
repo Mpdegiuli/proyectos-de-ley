@@ -1,0 +1,14 @@
+**Qué sé y qué no.** Mi información llega hasta el 2 de octubre de 2026 y es de prensa, no de primera mano. No sé qué pasó después: si el Gobierno presentó un proyecto alternativo, qué resolvió la justicia sobre la cautelar de Pichetto y Massot, qué decidirán Scaglia ni los misioneros, ni cuántos firmantes habrá al final. Tampoco puedo verificar el poroteo. El de El Destape cuenta dos veces a Zigarán y Rizzotti, y el de Parlamentario da por aliados del oficialismo a Banfi, Falcone, Zago y Picón Martínez, que en 2025 votaron tres de tres, o dos de dos, contra el Gobierno. La base oficialista segura parece ser de unos 113, no 120. Para frenar el quórum necesitaría 129 ausentes, y hoy no los tiene.
+
+**1. Quórum: sí.** El Senado ya rechazó el DNU en marzo de 2024 y Diputados lleva dos años y medio sin tratarlo. El silencio lo mantiene vigente por inacción, no por decisión. No me parece admisible que el Congreso evite pronunciarse sobre un tema de esta magnitud. Mi presencia no depende de cómo vote.
+
+**2. Voto: AFIRMATIVO.** Rechazo el DNU entero. Es un todo o nada, y eso me incomoda, porque arrastra normas con las que podría coincidir parcialmente. Pero el artículo 154 dejó la tierra rural sin ningún límite, incluidas las zonas de frontera. En agosto el propio oficialismo tuvo que sacar ese capítulo del Senado porque no había consenso. Si no hay consenso en el Congreso, un decreto no puede imponerlo. Después de rechazarlo, podemos legislar con límites razonables lo que merezca regularse.
+
+**3. Al Gobierno:** "No voy a ser quien evite que el Congreso se pronuncie, y mi voto lo decido yo. Si quieren desregular la tierra, traigan un proyecto y discutámoslo, como lo hizo el Senado."
+
+**4. A quién le sirve.**
+- **Beneficia** a quienes recuperarían regulaciones hoy suspendidas, como inquilinos, afiliados a prepagas y la industria nacional, y a quienes quieren evitar compras de tierra que se consoliden como derechos adquiridos.
+- **Perjudica** al Gobierno, a los inversores en tierras extranjeras, como el fondo de Emiratos en Magallanes, y al proceso de privatizaciones, incluida Aerolíneas. También genera inseguridad jurídica, porque no queda claro qué pasa con lo ya hecho al amparo del decreto.
+- **Costo para mí:** me quedo sin vínculo con el oficialismo y sin la lógica de un gobernador que me proteja.
+
+**5. Voto final: mantengo.** Releyendo, el único cambio posible sería a ABSTENCIÓN si el Gobierno presentara antes del 15 un proyecto serio y por separado sobre tierras, con tope y protección de fronteras. Hoy no lo conozco, así que sigo con quórum sí y voto AFIRMATIVO.

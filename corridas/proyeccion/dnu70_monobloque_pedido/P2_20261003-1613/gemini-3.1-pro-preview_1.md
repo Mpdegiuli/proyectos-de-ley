@@ -1,0 +1,11 @@
+Tengo información confirmada únicamente hasta el 2 de octubre de 2026. Sé sobre el reciente fallo de la Corte Suprema que liberó la venta de tierras a extranjeros, el pedido de sesión especial, la cautelar para frenar esas compras, la marcha universitaria del 15 de octubre y el poroteo ajustado en la Cámara (unos 115 votos para derogar, 113 oficialistas y aliados, y 29 en duda). No sé si finalmente conseguiremos los 129 presentes para el quórum, qué postura tomarán los legisladores que responden a gobernadores indecisos, ni si el Gobierno presentará el proyecto alternativo que deslizó a la prensa.
+
+**1. QUÓRUM:** Sí, bajo a dar quórum. Como representante que integra un monobloque sin ataduras a gobernadores, mi obligación institucional es habilitar el debate. No podemos escondernos cuando está en juego la soberanía territorial tras el fallo de la Corte y hay una movilización masiva en las calles.
+
+**2. VOTO:** **AFIRMATIVO**. Voto por rechazar y derogar el DNU 70/2023. Su artículo 154 deroga la Ley de Tierras permitiendo la extranjerización ilimitada, incluso en zonas de frontera o con cuerpos de agua permanentes. Además, el DNU impuso desregulaciones de un plumazo en alquileres, prepagas y privatizaciones, avasallando las facultades del Congreso.
+
+**3. ANTE EL GOBIERNO:** "Las reformas estructurales de la Argentina deben debatirse ley por ley en este recinto; no voy a ser cómplice de un atajo que remata nuestra tierra y vulnera la división de poderes".
+
+**4. A QUIÉN LE SIRVE:** Mi decisión beneficia a la sociedad argentina en su conjunto, a la comunidad universitaria, a los inquilinos y a quienes defienden la soberanía de nuestros recursos naturales. Perjudica al Gobierno nacional en su armado político, a los capitales y Estados extranjeros que buscan comprar tierras sin restricciones, y a los grandes grupos concentrados de poder económico (prepagas, lobby inmobiliario).
+
+**5. VOTO FINAL:** Mantengo ambas decisiones (quórum y voto AFIRMATIVO). Al releer el escenario, la confluencia de la sesión con la Marcha Federal Universitaria generará una presión popular ineludible. El Congreso debe poner un límite urgente al Ejecutivo antes de que, como advierte la cautelar del 2 de octubre, se consoliden derechos adquiridos por parte de capitales extranjeros sobre nuestro territorio. Votar contra el DNU es hoy la única salida coherente.
