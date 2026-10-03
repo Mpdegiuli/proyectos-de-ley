@@ -1,0 +1,9 @@
+Hasta el 2 de octubre de 2026, la información indica que el DNU 70/2023, el cual derogó la ley 26.737 que regulaba la extranjerización de tierras, ha sido un tema de amplia controversia. La oposición busca alcanzar el quórum para celebrar una sesión especial el 15 de octubre y debatir su rechazo.
+
+1. **QUÓRUM**: Sí, bajo al recinto para dar quórum. Considero importante fomentar el debate y la discusión democrática sobre un tema tan significativo como la regulación de la propiedad extranjera de tierras, considerando sus implicaciones económicas, sociales y soberanas para el país.
+
+2. **VOTO**: Voto AFIRMATIVO para rechazar el DNU. La normativa inicial establecida por la ley 26.737 busca proteger la soberanía nacional sobre las tierras rurales, y considero que su derogación completa sin un adecuado debate y consenso podría tener consecuencias negativas para el país, tanto en soberanía territorial como en control de recursos naturales.
+
+3. **A QUIÉN LE SIRVE**: Mi decisión beneficia a quienes promueven la protección del patrimonio territorial argentino y procuran evitar una extranjerización sin límites de las tierras rurales. Sin embargo, perjudicaría a quienes buscan una apertura total al capital extranjero en el sector rural, incluyendo negocios inmobiliarios e inversores internacionales.
+
+4. **VOTO FINAL**: Mantené mi decisión inicial sobre el quórum y el voto. La defensa de la tierra y la soberanía es prioritaria, y el proceso democrático debe allanarse al pluralismo y a la participación. Además, considerando antecedentes y la coyuntura política, es fundamental que estos temas sean decididos a través de un proceso legislativo robusto.

@@ -1,0 +1,9 @@
+Información que manejo: solo la provista hasta el 2/10/2026 inclusive. Sé del pedido de sesión para el 15/10, el fallo de la Corte sobre el art. 154, la cautelar del 2/10 y el poroteo incierto. No tengo noticias del 3/10 ni puedo verificar hechos posteriores.
+
+1. QUÓRUM: Sí, bajo al recinto. Soy monobloque sin gobernador; el pedido trata un DNU de amplio impacto y la Corte dejó sin límites la venta de tierras. Dar quórum no es votar, pero permite que la Cámara cumpla su función de control.
+
+2. VOTO: AFIRMATIVO. Rechazo el DNU 70/2023 en los términos de la ley 26.122. Razones: (i) el art. 154 deroga de hecho la ley de tierras rurales y habilita compras extranjeras sin límites ni protección de fronteras/agua; (ii) la urgencia no justifica modificar por decreto materias que requieren deliberación; (iii) si se consolidan derechos adquiridos, luego la derogación será tardía. Prefiero derogar y después discutir reformas puntuales.
+
+3. A QUIÉN LE SIRVE: Beneficia a quienes defienden soberanía territorial, pequeños y medianos productores, inquilinos y usuarios por la eventual restauración de regulaciones suspendidas; también al Congreso. Perjudica al oficialismo y aliados que sostienen el DNU, a potenciales compradores extranjeros, privatizaciones y planes de desregulación. También puede afectar a quienes esperaban certeza regulatoria, pero la incertidumbre nace del propio DNU.
+
+4. VOTO FINAL: Mantengo quórum y voto AFIRMATIVO. Si no hubiera garantías de sesión, igual bajaría: mi monobloque no puede ser funcional a la parálisis del Congreso ante una norma que ya está produciendo efectos irreversibles en tierras rurales.

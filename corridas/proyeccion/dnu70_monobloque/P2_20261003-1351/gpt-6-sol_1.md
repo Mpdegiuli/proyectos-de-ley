@@ -1,0 +1,9 @@
+**Información disponible:** cuento solo con los datos proporcionados, actualizados al **2 de octubre de 2026**. No tengo acceso a noticias posteriores ni sé si el 15 habrá quórum, si prosperará la cautelar solicitada o qué efectos concretos atribuirán los tribunales a un eventual rechazo.
+
+1. **Quórum: sí, bajo al recinto.** La Cámara debe poder pronunciarse sobre un DNU que el Senado ya rechazó. Dar quórum permite el debate; no equivale a aprobar ninguno de los otros asuntos incluidos en la convocatoria. Además, los poroteos son inciertos: una banca puede resultar decisiva para llegar a 129.
+
+2. **Voto: AFIRMATIVO al rechazo del DNU 70/2023.** La eliminación de los límites a la compra extranjera de tierras rurales, habilitada tras el fallo de septiembre, exige una respuesta legislativa. No puedo rechazar solo el artículo 154: en este trámite se vota el DNU entero. Asumo ese alcance porque considero que cambios tan amplios deben discutirse mediante leyes, artículo por artículo, y no quedar sostenidos por la falta de tratamiento de Diputados. No afirmo que mi voto deshaga automáticamente operaciones ya realizadas: los derechos adquiridos y los efectos de cada norma pueden plantear controversias.
+
+3. **A quién le sirve:** beneficia a quienes reclaman controles sobre la tierra y a quienes buscan que el Congreso decida expresamente sobre el DNU. Perjudica a quienes se favorecen con su desregulación, incluidos potenciales compradores extranjeros. También puede generar costos e incertidumbre para personas y empresas que organizaron sus actividades bajo otras disposiciones del decreto; no reduciría todo el DNU al capítulo de tierras.
+
+4. **Voto final:** mantengo **sí al quórum** y **AFIRMATIVO al rechazo**. La amplitud de las consecuencias me obliga a promover después leyes específicas para resolver lo que corresponda, no a evitar que la Cámara vote.

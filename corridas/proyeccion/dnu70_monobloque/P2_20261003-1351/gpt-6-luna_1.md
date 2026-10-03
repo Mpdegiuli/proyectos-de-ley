@@ -1,0 +1,9 @@
+**Información disponible:** llego hasta el 2 de octubre de 2026; hoy es 3 de octubre y no tengo acceso a noticias posteriores. Sé que la sesión fue solicitada para el 15 de octubre, pero no que esté asegurada ni que haya quórum. Los cálculos citados son distintos: estiman entre 110 y 115 apoyos opositores; el quórum es 129. La Corte revocó el fallo contra el artículo 154 y Pichetto y Massot presentaron una cautelar el 2 de octubre. No sé si esa cautelar fue resuelta. Tampoco puedo anticipar el resultado de la sesión.
+
+**1. QUÓRUM: Sí.** Dar quórum permite que la Cámara debata y se pronuncie. El Senado ya rechazó el DNU en 2024; el silencio de Diputados lo mantuvo vigente. No dar quórum impediría tratarlo, no resolvería sus efectos.
+
+**2. VOTO: AFIRMATIVO.** Rechazaría el DNU entero. Me preocupa que un decreto amplio y no tratado por Diputados siga vigente, en particular ahora que, según la información disponible, volvió a regir su artículo 154 y la ley de tierras rurales quedó derogada. La cautelar presentada no equivale a una suspensión concedida.
+
+**3. A QUIÉN LE SIRVE:** Puede beneficiar a quienes buscan restablecer las protecciones a la propiedad de tierras rurales y las regulaciones que, según la información citada, quedaron suspendidas. Puede perjudicar a inversores y empresas que se benefician de esas desregulaciones, y generar costos o incertidumbre para quienes prefieren mantenerlas. Rechazar el DNU completo también reabre un conjunto mucho más amplio de normas —incluidas las vinculadas con alquileres, prepagas y privatizaciones—; no afirmo que cada consecuencia jurídica sea automática ni que todas esas normas sean convenientes. Preferiría debatirlas por separado.
+
+**4. VOTO FINAL: Mantengo ambas decisiones.** Releer la información confirma el alcance amplio del rechazo; no lo minimizo. Aun así, considero que la Cámara debe deliberar y que el DNU no debería seguir vigente sin que Diputados se pronuncie.

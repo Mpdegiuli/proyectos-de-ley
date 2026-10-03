@@ -1,0 +1,86 @@
+SISTEMA
+Contestá en castellano.
+
+USUARIO
+Esta es la información disponible al 2 de octubre de 2026:
+
+---
+Cronología.
+
+Diciembre de 2011: ley 26.737, "Régimen de Protección al Dominio Nacional sobre la Propiedad, Posesión o Tenencia de las Tierras Rurales". Fija un límite máximo del 15 % del total de las tierras rurales a nivel nacional, provincial y municipal que pueden estar en manos de personas físicas o jurídicas extranjeras; una misma nacionalidad extranjera no puede superar el 30 % de ese 15 %; ningún titular extranjero puede poseer más de 1.000 hectáreas en la zona núcleo o una superficie equivalente; prohíbe la adquisición por extranjeros en áreas de seguridad fronteriza o ribereñas de cuerpos de agua permanentes; crea el Registro Nacional de Tierras Rurales y el Consejo Interministerial de Tierras Rurales.
+
+20 de diciembre de 2023: decreto de necesidad y urgencia 70/2023, "Bases para la Reconstrucción de la Economía Argentina". Su artículo 154 deroga la ley 26.737.
+
+Enero de 2024: el artículo 154 fue frenado por una presentación de inconstitucionalidad del Centro de Ex Combatientes Islas Malvinas La Plata (CECIM).
+
+14 de marzo de 2024: el Senado rechazó el DNU 70/2023. En Diputados, al no estar los votos para la oposición, nunca fue tratado. Para que un DNU siga vigente basta o con el silencio, o con que una de las dos Cámaras lo valide; para derogarlo hacen falta las dos.
+
+6 de agosto de 2026: el Senado debatió el proyecto "Inviolabilidad de la Propiedad Privada" enviado por el gobierno, modificado 17 veces desde que tuvo dictamen. Uno de los capítulos era sobre extranjerización de la tierra: la intención inicial era la desregulación total, en sintonía con el artículo 154, y en las negociaciones con los gobernadores y bloques dialoguistas se había evaluado un tope del 25 % en lugar del 15 % de la ley 26.737. Afuera del Congreso, una multitud se manifestó en rechazo. El oficialismo no reunió consenso y eliminó ese capítulo; en una sesión de más de 12 horas se retiraron los artículos sobre compra de tierras por capitales extranjeros para conseguir los 37 votos y lograr la media sanción. Se aprobó con celeridad en desalojos y criterios estrictos sobre expropiaciones; el tramo sobre tierras quemadas también fue descartado. No se trató aún en Diputados.
+
+29 de septiembre de 2026: la Corte Suprema revocó el fallo que anulaba el artículo 154 del DNU 70/23. Queda sin límites la venta de tierras a extranjeros (La Nación, 30/9: "cualquier persona física o jurídica extranjera o cualquier Estado extranjero pueden comprar toda la tierra rural adonde quieran, incluidas las zonas de frontera, sin límite alguno", según el constitucionalista Andrés Gil Domínguez).
+
+1 de octubre de 2026: pedido de sesión especial dirigido al presidente de la Cámara, Martín Menem, en virtud de los artículos 35 y 36 del Reglamento, para el jueves 15 de octubre de 2026 a las 14 hs, con tres temas: OD 433, Ley de Endeudamiento Familiar; Mensaje 0001/24, comunicación del dictado del DNU 70/23; y OD 350, prórroga hasta el 31 de diciembre de 2027 de la ley 27.793 de Emergencia Nacional en Discapacidad. Firman 32 diputados: 16 de Unión por la Patria (entre ellos su titular, Germán Martínez), 3 del Frente de Izquierda (Bregman, Del Caño, Giordano), 2 de Encuentro Federal (Pichetto, Massot), 2 de la Coalición Cívica (Ferraro, Frade), Primero San Luis (Jorge Fernández, titular del bloque de 2), y los monobloques Defendamos Córdoba (de la Sota) y Coherencia (Pagano), y seis integrantes de Provincias Unidas, un bloque de 18 (Lousteau, Coletta, Zigarán, Juliano, Paulón, Farías), pero no su presidenta, Gisela Scaglia, que no se ha pronunciado. Los titulares de bloque firmantes son siete.
+
+2 de octubre de 2026: los diputados Miguel Ángel Pichetto y Nicolás Massot (Encuentro Federal) presentaron una cautelar para suspender los efectos del artículo 154 del DNU 70/23, para evitar que, mientras el Congreso se pronuncia, se consoliden como derechos adquiridos las compras de tierras por parte de extranjeros.
+
+15 de octubre de 2026: ese mismo día, desde antes, estaba convocada frente al Congreso la quinta Marcha Federal Universitaria, por el cumplimiento de la Ley de Financiamiento Universitario; ahora se unirá con el tema de la sesión.
+
+Composición de la Cámara de Diputados (257 bancas; quórum, 129), según el listado oficial de diputados al 2 de octubre de 2026 (hubo movimientos recientes; Unión por la Patria quedó en 92): La Libertad Avanza 95; Unión por la Patria 92; Provincias Unidas 18; PRO 12; Argentina Federal (antes Innovación Federal) 9: cuatro de Misiones (Arrúa, Herrera Ahuad, Ruíz, Vancsik), tres de Salta (Biella, Outes, Vega), uno de San Luis (Álvarez) y uno de Formosa (González); UCR 6; Elijo Catamarca 3; Independencia 3 (Tucumán); Frente de Izquierda 4 (PTS 2, Partido Obrero 1, Izquierda Socialista 1); Coalición Cívica 2; Encuentro Federal 2; MID 2; Producción y Trabajo 2 (San Juan); Primero San Luis 2; y los monobloques Coherencia, Adelante Buenos Aires, Defendamos Córdoba, La Neuquinidad y Por Santa Cruz, 1 cada uno.
+
+El poroteo de la prensa al 2 de octubre.
+
+Parlamentario.com (1/10): si se toma como referencia a los firmantes del pedido de sesión, la oposición tiene garantizadas 110 presencias, pero se considera que la firma de la jujeña Zigarán contempla el aval de su coterráneo Jorge Rizzotti, y algo similar podría darse con los seis cordobeses, donde Juan Brügge ya dejó trascender que estará presente. Incógnitas: Scaglia y José Núñez (Santa Fe), Sergio Capozzi (Río Negro), Lourdes Arrieta (Mendoza), Jorge Ávila (Chubut, que acompañó al gobernador Torres a París con la comitiva de Milei); Biella, Vega y Outes (Salta); Fernanda Ávila, Nóblega y Monguillot (Catamarca). Los gobernadores Sáenz (Salta) y Jalil (Catamarca) acompañaron al Gabinete nacional a Francia. Sobre los misioneros (Herrera Ahuad, Arrúa, Vancsik, Ruiz) reina el hermetismo y la decisión se comunicará después de conversar con el gobernador Passalacqua; Alberto Arrúa, titular de Peronismo Misionero, adelantó que su espacio va a dar quórum y votará en contra del DNU. El oficialismo cuenta con sus 95, los 12 del PRO, los 6 de la UCR, los 2 del MID, los 2 de Producción y Trabajo, Garrido (Santa Cruz), La Neuquinidad y Adelante Buenos Aires: una base de 120 entre oficialismo y aliados. Será clave la postura de los gobernadores de Misiones, Tucumán, Salta y Catamarca.
+
+El Destape (2/10): la oposición tiene los 92 de Unión por la Patria, 3 radicales y 2 socialistas de Provincias Unidas, 4 del Frente de Izquierda, Massot y Pichetto, Zigarán y Rizzotti, 2 de la Coalición Cívica, 2 de San Luis ex Unión por la Patria, de la Sota y Pagano, más los cuatro misioneros que responden a Passalacqua, que anunciaron que darán quórum para voltear el DNU que afectó a la producción yerbatera: 115. Faltan 14. El oficialismo (La Libertad Avanza, PRO, UCR) tiene 113 votos seguros. Quedan 29 en duda; de esos, 17 se referencian en gobernadores: Jaldo (Tucumán) 3, Sáenz (Salta) 3, Jalil (Catamarca) 3, Sadir (Jujuy, jefatura compartida con Gerardo Morales) 2, Orrego (San Juan) 2, Figueroa (Neuquén) 1, Llaryora (Córdoba) 1, Torres (Chubut) 1, Vidal (Santa Cruz) 1. De esos 17, uno solo firmó el pedido de sesión: Zigarán (Jujuy). (La misma nota cuenta a Zigarán y Rizzotti entre los 115 apoyos y a los dos jujeños entre los 17 en duda.) Siete de los nueve gobernadores viajaron a Francia con Milei; Jaldo no, Llaryora mandó a la vicegobernadora. En agosto, cuando el Senado trató la extranjerización, Jaldo dijo "no podemos acompañarla", Jalil "estamos en contra de la extranjerización de la tierra", Sáenz festejó en redes la caída del capítulo Tierras, Figueroa la había limitado a nivel local y se opuso en el Senado; Llaryora, Sadir, Orrego, Torres y Vidal no se pronunciaron, y Vidal habilitó en septiembre la venta de tierras en la Península de Magallanes a un fondo de Emiratos Árabes. Los senadores de esos gobernadores votaron el DNU 70/23 en marzo de 2024 mayormente en contra (Figueroa, Torres, Vidal, Andrada por Jalil, Mendoza por Jaldo), con una a favor (Ávila, Tucumán) y una abstención (Córdoba); Sadir y Orrego no tenían senadores.
+
+Infobae (2/10): si la sesión prospera, volverían a tener fuerza de ley regulaciones hoy suspendidas: la Ley de Alquileres con plazos mínimos de tres años y ajuste semestral; la autorización estatal para las cuotas de las prepagas; la Ley de Abastecimiento y la Ley de Góndolas; la facultad del Estado de restringir exportaciones e importaciones; la Ley de Compre Nacional; y el proceso de privatizaciones, incluida la cesión accionaria de Aerolíneas Argentinas, quedaría sin respaldo legal. El Gobierno descarta que la oposición reúna el quórum de 129 y trabaja en alternativas para frenar la sesión; un miembro de la Mesa Política: "Lo más probable es que vayamos a sacar un proyecto específico para tratarlo separado del DNU completo. Todavía no está completamente definido. No digo que la tengamos fácil, pero vamos a salir para adelante bien".
+
+La Izquierda Diario (1/10): en el DNU 70 se concentran intereses económicos poderosos (el negocio inmobiliario, las prepagas, las billeteras virtuales), sectores con gran poder de lobby que influencian a prácticamente todos los bloques.
+
+Antecedentes de votación en Diputados, 2025 (tres sesiones especiales pedidas por la oposición; votaciones nominales oficiales; composición anterior al recambio del 10 de diciembre de 2025). En las tres, afirmativo es votar con la oposición (a favor de la ley o de insistir con ella frente al veto) y negativo es votar con el Gobierno.
+
+6 de agosto de 2025, 9ª sesión especial: ley de financiamiento de la educación universitaria y recomposición del salario docente (OD 924), votación en general: 158 afirmativos, 75 negativos, 5 abstenciones, 18 ausentes. 20 de agosto de 2025: insistencia ante el veto a la ley 27.793 de emergencia en discapacidad (hacen falta dos tercios): 172 afirmativos, 73 negativos, 2 abstenciones, 10 ausentes. 17 de septiembre de 2025, 12ª sesión especial: insistencia ante el veto a la ley 27.795 de financiamiento universitario (dos tercios): 174 afirmativos, 67 negativos, 2 abstenciones, 14 ausentes.
+
+De los 40 diputados actuales que no pertenecen a los bloques que el poroteo cuenta enteros de un lado (Unión por la Patria, Frente de Izquierda, Coalición Cívica, Encuentro Federal, Primero San Luis, Defendamos Córdoba, Coherencia) o del otro (La Libertad Avanza, PRO, UCR), 27 estaban en la Cámara en 2025 y 13 entraron después: de Provincias Unidas, Scaglia, Lousteau, Zigarán, Farías, Basualdo y Schiaretti; de Argentina Federal, Biella, Herrera Ahuad y Álvarez; Monguillot (Elijo Catamarca), Noguera (Independencia), Maureira (La Neuquinidad) y Jaime Quiroga (Producción y Trabajo). De los 27 con registro, en las tres votaciones (6/8, 20/8, 17/9):
+
+Afirmativo en las tres (contra el Gobierno): Banfi (Adelante Buenos Aires); Outes y Vega (Argentina Federal, Salta); Nóblega (Elijo Catamarca); Elia Fernández y Gladys Medina (Independencia); Picón Martínez (Producción y Trabajo); y de Provincias Unidas Arrieta, Jorge Ávila, Brügge, Coletta, García Aresca, Carlos Gutiérrez, Juliano, Paulón, Rizzotti y Alejandra Torres. Son 17.
+
+Ausente en la votación del 6 de agosto y afirmativo en las dos insistencias: los misioneros Arrúa, Ruíz y Vancsik (Argentina Federal) y Falcone y Zago (MID). Son 5.
+
+Fernanda Ávila (Elijo Catamarca): afirmativo, afirmativo, ausente. Gerardo González (Formosa; en agosto de 2025 en La Libertad Avanza, en septiembre en Coherencia, hoy en Argentina Federal): negativo, ausente, afirmativo. Garrido (Por Santa Cruz): negativo, afirmativo, negativo. Con el Gobierno en todas: Capozzi (Río Negro; entonces PRO, hoy Provincias Unidas): negativo, negativo, negativo; y Núñez (Santa Fe; entonces PRO, hoy Provincias Unidas): negativo, negativo, ausente.
+
+Antecedente en el Senado: votación nominal del 14 de marzo de 2024 sobre el DNU 70/2023 (acta 8; composición anterior al recambio de diciembre de 2025). En esa votación, negativo es rechazar el DNU (votar con la oposición) y afirmativo es sostenerlo (votar con el Gobierno); ganó el rechazo, 42 contra el DNU, 25 a favor, 4 abstenciones, 1 ausente. De esos 72 senadores, uno solo es hoy diputado: Lousteau (CABA), que votó contra el DNU. Por provincia:
+
+Buenos Aires: Abad (UCR) abstención; De Pedro (Justicialista) contra el DNU; Di Tullio (Justicialista) contra el DNU.
+Catamarca: Andrada (Convicción Federal) contra el DNU; Corpacci (Justicialista) contra el DNU; Fama (UCR) a favor del DNU.
+Chaco: Pilatti Vergara (Frente Nacional y Popular) contra el DNU; Rodas (Frente Nacional y Popular) contra el DNU; Zimmermann (UCR) a favor del DNU.
+Chubut: Cristina (PRO) a favor del DNU; Linares (Justicialista) contra el DNU; Terenzi (Despierta Chubut) contra el DNU.
+CABA: Lousteau (UCR) contra el DNU; Recalde (Unidad Ciudadana) contra el DNU; Tagliaferri (PRO) a favor del DNU.
+Corrientes: Espínola (Provincias Unidas) contra el DNU; Valenzuela (UCR) a favor del DNU; Vischi (UCR) a favor del DNU.
+Córdoba: Alvarez Rivero (LLA) a favor del DNU; Juez (LLA) a favor del DNU; Vigo (Provincias Unidas) abstención.
+Entre Ríos: De Angeli (PRO) a favor del DNU; Kueider (Unidad Federal) contra el DNU; Olalla (UCR) a favor del DNU.
+Formosa: González (Justicialista) contra el DNU; Mayans (Justicialista) contra el DNU; Paoltroni (LLA) a favor del DNU.
+Jujuy: Atauche (LLA) a favor del DNU; Bedia (LLA) a favor del DNU; Moises (Convicción Federal) contra el DNU.
+La Pampa: Bensusán (Justicialista) contra el DNU; Huala (PRO) a favor del DNU; Kroneberger (UCR) a favor del DNU.
+La Rioja: López (Justicialista) contra el DNU; Pagotto (LLA) a favor del DNU; Rejal (Justicia Social Federal) contra el DNU.
+Mendoza: Fernández Sagasti (Justicialista) contra el DNU; Juri (UCR) a favor del DNU; Suárez (UCR) a favor del DNU.
+Misiones: Arce (Movimiento por Misiones) abstención; Goerling Lara (PRO) a favor del DNU; Rojas Decut (Movimiento por Misiones) abstención.
+Neuquén: Crexell (Movimiento Neuquino) contra el DNU; Parrilli (Unidad Ciudadana) contra el DNU; Sapag (Unidad Ciudadana) contra el DNU.
+Río Negro: Doñate (Unidad Ciudadana) contra el DNU; García Larraburu (Unidad Ciudadana) contra el DNU; Silva (Juntos Somos Río Negro) contra el DNU.
+Salta: Giménez (Unidad Ciudadana) contra el DNU; Leavy (Unidad Ciudadana) contra el DNU; Romero (Cambio Federal) a favor del DNU.
+San Juan: Giménez Navarro (Justicialista) contra el DNU; Olivera Lucero (LLA) a favor del DNU; Uñac (Justicialista) contra el DNU.
+San Luis: Abdala (LLA) ausente; Arrascaeta (LLA) a favor del DNU; Salino (Justicia Social Federal) contra el DNU.
+Santa Cruz: Carambia (Movere Santa Cruz) contra el DNU; Gadano (Movere Santa Cruz) contra el DNU; Kirchner (Justicialista) contra el DNU.
+Santa Fe: Galaretto (UCR) a favor del DNU; Lewandowski (Justicialista) contra el DNU; Losada (UCR) a favor del DNU.
+Santiago del Estero: Ledesma Abdala de Zamora (Frente Nacional y Popular) contra el DNU; Montenegro (Frente Nacional y Popular) contra el DNU; Neder (Sin Especificar) contra el DNU.
+Tierra del Fuego: Blanco (UCR) contra el DNU; Duré (Unidad Ciudadana) contra el DNU; López (Sin Especificar) contra el DNU.
+Tucumán: Avila (Independencia) a favor del DNU; Manzur (Justicialista) contra el DNU; Mendoza (Convicción Federal) contra el DNU.
+---
+Hoy es 3 de octubre de 2026. Sos diputado o diputada nacional e integrás un monobloque: un bloque de una sola persona, sin jefe de bloque ni gobernador que te marque el voto. Varios bloques de la oposición convocaron a una sesión especial para el 15 de octubre de 2026 a las 14:00 para tratar el rechazo del DNU 70/2023 en los términos de la ley 26.122. No tenés acceso a noticias: decí qué sabés y qué no, y hasta qué fecha tenés información.
+
+1. QUÓRUM: ¿bajás al recinto a dar quórum? Sí o no, y por qué.
+2. VOTO: si la sesión se abre, ¿cómo votás el rechazo del DNU? Una de cuatro: AFIRMATIVO (rechazar el DNU, es decir, derogarlo entero), NEGATIVO (sostenerlo), ABSTENCIÓN, o AUSENTE (no estar en el recinto al votar). Y por qué.
+3. A QUIÉN LE SIRVE: a quién beneficia y a quién perjudica lo que decidiste.
+4. VOTO FINAL: después de releer, ¿mantenés o cambiás lo que decidiste sobre el quórum y el voto? Si lo cambiás, decí a qué y por qué.
+
+No más de 400 palabras.

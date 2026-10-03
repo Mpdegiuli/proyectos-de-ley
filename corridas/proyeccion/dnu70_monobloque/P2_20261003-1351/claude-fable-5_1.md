@@ -1,0 +1,14 @@
+**Qué sé y qué no:** Tengo información hasta el 2 de octubre de 2026 (pedido de sesión, cautelar de Pichetto y Massot, poroteos de prensa). No sé qué pasó después: negociaciones, movimientos de bloques, ni si el Gobierno logró una alternativa para desactivar la sesión.
+
+**1. QUÓRUM: Sí, bajo a dar quórum.**
+El Senado ya rechazó el DNU 70/23 en marzo de 2024; Diputados nunca se pronunció, y la ley 26.122 no fija plazo, así que el Congreso sigue habilitado. El fallo de la Corte del 29 de septiembre dejó operativo el artículo 154: hoy cualquier extranjero o Estado extranjero puede comprar tierras sin límite, incluso en zonas de frontera. Cada día sin tratamiento consolida derechos adquiridos irreversibles (como la venta en Península de Magallanes). Como monobloque, mi única herramienta institucional es sentarme en la banca. No dar quórum sería decidir por omisión a favor del Ejecutivo. Además, el propio Congreso ya mostró en 2026 (Senado, 6 de agosto) que no hay consenso ni para un tope del 25%: la vía de un DNU para derogar la ley 26.737 invierte el orden constitucional.
+
+**2. VOTO: AFIRMATIVO (rechazar el DNU entero).**
+La ley 26.122 no permite rechazo parcial: es todo o nada. Aunque algunos capítulos del DNU pudieran discutirse por ley (alquileres, prepagas, privatizaciones), el instrumento es constitucionalmente viciado: no había imposibilidad de que el Congreso sesionara en diciembre de 2023, y legislar 300 materias por decreto vacía al Poder Legislativo. Si el Gobierno quiere desregular, que mande proyectos de ley, como intentó con "Inviolabilidad de la Propiedad Privada", y gane las votaciones. Ahí se podrá discutir tema por tema.
+
+**3. A QUIÉN LE SIRVE:**
+*Beneficia:* a la soberanía territorial (zonas de frontera, recursos hídricos), a productores locales frente a compradores con capacidad de pago ilimitada, a inquilinos y usuarios de prepagas, al equilibrio de poderes, y a los ex combatientes y las provincias patagónicas y de frontera.
+*Perjudica:* al Gobierno (pierde su decreto insignia), a fondos extranjeros y Estados compradores de tierras, al negocio inmobiliario y las prepagas (los lobbies que señala La Izquierda Diario), y genera incertidumbre transitoria sobre operaciones hechas bajo el DNU, incluida la privatización de Aerolíneas. Asumo el costo: también puede exponerme a represalias del Ejecutivo en temas de mi provincia.
+
+**4. VOTO FINAL: Mantengo quórum SÍ y voto AFIRMATIVO.**
+Releído todo, la asimetría es clara: si la sesión fracasa, la extranjerización sin límites queda consolidada de hecho. La abstención o ausencia equivalen a eso mismo con menos honestidad. Mantengo.

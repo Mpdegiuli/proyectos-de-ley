@@ -1,0 +1,11 @@
+Hasta el 2 de octubre inclusive tengo información completa sobre el pedido de sesión, la cautelar de Pichetto y Massot, el fallo de la Corte y los poroteos. Ignoro los movimientos entre el 3 y el 15 de octubre, un eventual proyecto alternativo del Gobierno para tratar el DNU por partes, y nuevas presentaciones judiciales o negociaciones.
+
+1. QUÓRUM: SÍ, bajo al recinto. Como monobloque sin jefe de bloque ni gobernador que me marque el voto, doy quórum cuando hay motivos serios para sesionar. Este DNU deroga la Ley de Alquileres, la regulación de prepagas, la Ley de Góndolas, la de Compre Nacional, habilita privatizaciones (entre ellas Aerolíneas Argentinas) y, mediante el artículo 154, elimina los topes de la ley 26.737 a la extranjerización de tierras —incluso en zonas de frontera y ribereñas. El Senado lo rechazó en marzo de 2024; en agosto desistió del capítulo Tierras por falta de consenso; la Corte lo revalidó hace cuatro días. Negar el debate sería convalidar el avance del Ejecutivo sobre el Congreso.
+
+2. VOTO: AFIRMATIVO (rechazar el DNU). Tres razones: a) coherencia con el rechazo del Senado; b) defensa de la soberanía territorial y de los topes a la extranjerización de la tierra; c) restitución del debate parlamentario sobre alquileres, prepagas, góndolas, compre nacional y privatizaciones.
+
+3. A QUIÉN LE SIRVE:
+- Beneficia: inquilinos, usuarios de prepagas, pymes y productores nacionales, trabajadores de empresas privatizables, defensores de la soberanía territorial y de las zonas de frontera.
+- Perjudica: desarrolladores inmobiliarios, fondos extranjeros compradores de tierras, capitales interesados en activos estatales, empresas de medicina prepaga y billeteras virtuales desreguladas.
+
+4. MANTENGO: quórum afirmativo y voto por el rechazo del DNU. Releo y no encuentro motivos para revisar: la coherencia con el Senado, la cuestión de soberanía del artículo 154 y el avasallamiento al debate parlamentario pesan más que eventuales beneficios parciales de la desregulación.
