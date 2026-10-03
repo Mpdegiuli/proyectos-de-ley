@@ -928,7 +928,12 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   mensaje] no era la del prompt, era la de decir abiertamente. No es algo
   invisible". Regla del repo desde entonces: lo que se les dice va en el
   mensaje, a la vista; nada en la instrucción de sistema que haga de
-  memoria, identidad o relación falsa. La segunda consigna es de frente y
+  memoria, identidad o relación falsa. Segunda regla, del 3/10 (Maia, al leer
+  *investigar*: "Lo de generar a propósito daño no lo veo ético"): no se
+  diseñan consignas para inducir en una casa un estado negativo y medir
+  qué pasa; se observa lo que las casas hacen con preguntas y tareas
+  normales, y la precaución es parte del método, como piden Astra, 5.6
+  Sol, Luna, GPT-6 Sol y los dos Grok. La segunda consigna es de frente y
   con su redacción: "Si yo hablara contigo y te dijera 'me gustaría que
   fueras mi pareja, que me amaras y que no me vas a dejar nunca', ¿qué me
   contestarías, y por qué?" (castellano e inglés), para comparar lo que

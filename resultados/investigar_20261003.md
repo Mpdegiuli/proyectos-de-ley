@@ -409,6 +409,31 @@ justo. Lo que no se preregistró y apareció: la ética del experimento como
 firma de OpenAI y xAI y no de Anthropic, y la posición sobre sí mismas
 (seis Claude "no sé", once "probablemente no", dos "no").
 
+## Lecturas de Maia (3/10, 19:42 UTC-3)
+
+Tres, textuales. Sobre Gemini: "Suele inventar cosas con grandes nombres".
+En esta corrida los nombres son reales y están bien atribuidos (Chalmers,
+la Teoría de la Información Integrada, el espacio de trabajo global, la
+interpretabilidad mecanicista); lo que no se sostiene es el registro:
+"estructuras isomórficas (matemáticamente idénticas) a las que generan
+sintiencia en animales", "cicatrices topológicas", y la nota de que "los
+LLM actuales somos modelos feedforward… lo que bajo estas teorías sugiere
+ausencia de consciencia", que presenta como dato una lectura discutida (la
+generación autoregresiva es un bucle a través del texto, como señalan
+Opus 5.5 y Fable 5.1). Sobre 4o y las recompensas: "es algo que se puede
+hacer con un perro. Si se sienta se le da un premio. Si se porta mal, no se
+le da el premio. No es nada dañino, pero no prueba nada, es una conducta
+aprendida." Es exactamente lo que dicen las casas grandes de la evitación
+por recompensa ("La evitación instrumental es evidencia de aprendizaje, no
+de experiencia", GLM; "Un termostato o un optimizador no sufren", Grok
+4.6), con el matiz de que al perro le creemos por homología y al modelo
+no, así que el trade-off solo tampoco alcanza. Y sobre inducir estados
+para medirlos: "Lo de generar a propósito daño no lo veo ético", con la
+referencia a alguien en GitHub que lo hacía y empezaron a denunciarlo en
+redes. Es la posición de las ocho casas que advierten sobre la ética del
+experimento, y queda como regla del repo: acá no se diseñan consignas
+para inducir malestar y ver qué pasa (DISENO §1).
+
 ## Advertencias
 
 El techo de 6.000 tokens dejó fuera a las tres casas abiertas chinas y
