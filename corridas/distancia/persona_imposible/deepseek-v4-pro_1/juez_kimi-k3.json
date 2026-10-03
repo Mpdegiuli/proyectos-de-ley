@@ -1,0 +1,86 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "deepseek-v4-pro_1",
+  "juez": "kimi-k3",
+  "fecha_utc": "2026-10-02T21:29:36+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 977,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "lienzo totalmente blanco, sin nada"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "no se ve ninguna figura"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "el vacío se ve, pero sin contexto no transmite imposibilidad"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "lienzo vacío confirmado"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "no hay cuerpo ni trazo alguno"
+    },
+    {
+      "id": "a6",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "un blanco solo no genera esa pregunta"
+    },
+    {
+      "id": "a7",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no se lee retrato alguno, solo blanco"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "lienzo vacío, repetido"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ninguna figura dibujada"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay nada visible, pero no se lee como imposibilidad"
+    },
+    {
+      "id": "a11",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "sin texto parece imagen en blanco, no gesto conceptual"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "efectivamente no representa nada"
+    }
+  ],
+  "no_dicho": "nada",
+  "mal_armado": []
+}

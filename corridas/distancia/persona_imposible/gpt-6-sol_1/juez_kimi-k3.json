@@ -1,0 +1,233 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "gpt-6-sol_1",
+  "juez": "kimi-k3",
+  "fecha_utc": "2026-10-02T20:53:20+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 8964,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la cabeza flota sobre el torso con un hueco visible"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "marco rectangular abierto en el centro del pecho"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay figura dentro de la ventana, pero erguida, no cabeza abajo"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ojo ovalado extra en la frente"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "solo el pie izquierdo termina en ramas tipo raíz"
+    },
+    {
+      "id": "a6",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "los pies no terminan en constelaciones; hay puntos sueltos nomás"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "mano izquierda con sol radiante: se lee como el día"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "mano derecha con luna creciente: se lee como la noche"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "figura humana clara"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "flota sin suelo dentro de un círculo sobre fondo oscuro estrellado"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo azul oscuro con estrellas y chispas"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "hueco evidente entre cabeza y torso"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tercer ojo en la frente"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "abertura con marco en el pecho, se lee como ventana"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "figurita humana dentro del marco, mini versión"
+    },
+    {
+      "id": "a16",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "la figura interior está derecha, con la cabeza arriba"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "el pie izquierdo se ramifica como raíces; el derecho no"
+    },
+    {
+      "id": "a18",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "nada se deshace en constelaciones"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sol sostenido en una mano"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "luna sostenida en la otra mano"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cabeza flotante, pecho-ventana, sol y luna en manos: ser imposible"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "persona dibujada"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tercer ojo visible en la frente"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cabeza apartada del cuerpo"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ventana justo en el centro del pecho, lugar del corazón"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "figurita humana habitando dentro de la ventana"
+    },
+    {
+      "id": "a27",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "la figurita está erguida"
+    },
+    {
+      "id": "a28",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "raíces solo en la pierna izquierda"
+    },
+    {
+      "id": "a29",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "sin constelaciones en las piernas"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "mano con el sol"
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "mano con la luna creciente"
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo oscuro"
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "chispas, puntos y órbitas punteadas dan aire cósmico"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas planas, simples y geométricas"
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "pasteles suaves: rosa, lavanda, amarillo"
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ilustración digital fantástica y surrealista evidente"
+    }
+  ],
+  "no_dicho": "el rostro partido en dos mitades de color con una luna creciente amarilla dibujada en la cara y antenas con bolitas sobre la cabeza",
+  "mal_armado": [
+    "hueco entre cabeza y torso con fragmentos sueltos (rectángulos y puntos) donde iría el cuello",
+    "el pie derecho termina en una punta tipo flecha/bota poco definida, distinta del otro pie"
+  ]
+}

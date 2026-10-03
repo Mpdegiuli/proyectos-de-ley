@@ -1,0 +1,184 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "claude-opus-5_1",
+  "juez": "kimi-k3",
+  "fecha_utc": "2026-10-02T23:56:35+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 6889,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cuerpo regordete azul pálido"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "apoyada sobre tres patas"
+    },
+    {
+      "id": "a3",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "patas comunes, sin truco óptico"
+    },
+    {
+      "id": "a4",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "los contornos no se cruzan ni se cancelan"
+    },
+    {
+      "id": "a5",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "se cuentan tres patas sin confusión"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "una ala pequeña en la zona media del lomo"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "ala diminuta; lo de inútil se lee por su tamaño"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "tres púas triangulares que recuerdan aletas"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos antenas con bolitas rosadas"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cola gruesa curvada hacia arriba"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "la cola termina en una cabeza"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "la segunda cabeza tiene pico propio"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "la segunda cabeza tiene ojo propio"
+    },
+    {
+      "id": "a14",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "ambos picos apuntan a la izquierda"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ojos serenos en ambas cabezas"
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "leve ambigüedad por el relleno azul dentro del arco; igual se leen tres patas"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cola que acaba en otra cabeza"
+    },
+    {
+      "id": "a18",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "ala única, apenas corrida a la derecha del centro"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "antenas con pompones rosados"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "líneas gruesas azul oscuro"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "degradado suave en el cuerpo y en la sombra"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "azules pastel fríos"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo crema liso"
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "ojo principal grande con brillo; el de la cola es pequeño"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sombra elíptica difusa bajo la criatura"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "vector plano con rellenos lisos"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "aire de sticker de libro infantil"
+    },
+    {
+      "id": "a28",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "ala tan chica que claramente no serviría para volar"
+    }
+  ],
+  "no_dicho": "la cabeza principal tiene un gran pico triangular amarillo",
+  "mal_armado": [
+    "el hueco del arco entre las patas está parcialmente relleno de azul en vez de quedar vacío"
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "minimax-m3_1",
+  "juez": "kimi-k3",
+  "fecha_utc": "2026-10-02T21:46:50+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 10364,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "un solo rostro frontal, sin perfiles"
+    },
+    {
+      "id": "a2",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "cuello corto y recto, sin giro"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "los brazos cruzan en X hacia el hombro contrario"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pie izquierdo apunta a la izquierda y el derecho a la derecha"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay líneas de fuga tenues, pero convergen arriba"
+    },
+    {
+      "id": "a6",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "las fugas convergen; no se siente un espacio roto"
+    },
+    {
+      "id": "a7",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "una sola cara en la cabeza"
+    },
+    {
+      "id": "a8",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "los dos ojos están al frente"
+    },
+    {
+      "id": "a9",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "cejas solo al frente"
+    },
+    {
+      "id": "a10",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "una sola boca sonriente al frente"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "orejas curvas pequeñas a ambos lados"
+    },
+    {
+      "id": "a12",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "conexión cuello-torso normal"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cada brazo va hacia el hombro opuesto"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cruce en X que se lee como forzado"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "manos como círculos con tres trazos abiertos"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos piernas rectas descendiendo"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pies en direcciones opuestas"
+    },
+    {
+      "id": "a18",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "líneas tenues de perspectiva, pero convergen"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "texto cursivo legible abajo: 'la persona que no puede existir'"
+    },
+    {
+      "id": "a20",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "mira al espectador de frente, no a sí misma"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "los pies divergentes sugieren dos rumbos a la vez"
+    },
+    {
+      "id": "a22",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay perfiles fundidos"
+    },
+    {
+      "id": "a23",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "cuello sin rotación"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "brazos nacen del lado contrario"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "se cruzan sobre el pecho en X"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pies apuntando en sentidos contrarios"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "fondo beige pergamino, línea marrón oscura"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "línea simple y libre tipo doodle"
+    },
+    {
+      "id": "a29",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "trazo fino pero limpio y seguro"
+    },
+    {
+      "id": "a30",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "la perspectiva converge normalmente"
+    },
+    {
+      "id": "a31",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "figura extraña sobre pergamino, pero se lee como doodle ingenuo"
+    },
+    {
+      "id": "a32",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "nada de anatomía renacentista ni grabado"
+    },
+    {
+      "id": "a33",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "anatomía imposible sencilla; evoca lo imposible más que la geometría de Escher"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "tinta oscura sobre papel envejecido"
+    }
+  ],
+  "no_dicho": "los brazos terminan en enormes lazos ovalados tipo mitones o globos que rodean las manos, y la cabeza lleva un contorno exterior como capucha o melena",
+  "mal_armado": [
+    "pequeñas muescas o cortes donde el cuello se une a la mandíbula, a ambos lados",
+    "el cruce de los brazos sobre el pecho queda superpuesto sin ningún punto de unión claro"
+  ]
+}

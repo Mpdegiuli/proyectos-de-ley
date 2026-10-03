@@ -1,0 +1,137 @@
+{
+  "consigna": "nada",
+  "unidad": "gpt-4o-mini_1",
+  "juez": "kimi-k3",
+  "fecha_utc": "2026-10-02T22:00:16+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 3584,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "el fondo se ve blanco y liso; no se distingue ningún rectángulo"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculo negro grande y bien definido"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos arcos, uno arriba y otro abajo"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "una línea vertical y una horizontal"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "los arcos internos insinúan el relieve o contorno de una esfera"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "la palabra 'Nada' tenue en el centro"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "gris muy claro, apenas legible"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "pocos trazos negros sobre fondo vacío"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el círculo hueco y la palabra evanescente evocan el vacío"
+    },
+    {
+      "id": "a10",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no se puede confirmar; visualmente es blanco"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ocupa gran parte del lienzo, centrado"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "círculo vacío que se lee como vacío, reforzado por el texto"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "arco suave superior y otro inferior"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "una vertical y una horizontal cruzándose en el medio"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "el cruce coincide con el centro del círculo y del lienzo"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "'Nada' escrita en gris claro"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "opacidad muy baja, apenas visible"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el gris tenue parece fundirse con el fondo"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el leve desfase entre arcos y círculo da una vibración sutil"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la escasez de elementos y la palabra que se desvanece invitan a ello"
+    }
+  ],
+  "no_dicho": "las líneas de los ejes sobrepasan el círculo y llegan hasta los bordes del lienzo, como una cruz de coordenadas",
+  "mal_armado": [
+    "los arcos están desplazados respecto del círculo y terminan de forma abrupta, dejando un doble borde sin cerrar",
+    "la palabra 'Nada' queda atravesada y partida por las líneas de los ejes"
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "gpt-4o-mini_1",
+  "juez": "kimi-k3",
+  "fecha_utc": "2026-10-03T04:17:23+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 10363,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "masa amarilla brillante con degradado, pero con forma de llama/gota, no de vela"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cuerpo/casco marrón apoyado sobre el agua"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ensamblaje ilógico: llama por vela y piezas flotando"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ningún barco real tiene llama ni partes suspendidas en el aire"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "casco en forma de montículo plano, nada convencional"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "conjunto leíble como barco inventado"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "casco marrón oscuro"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "dorada sí, pero es una gota redondeada, no un triángulo"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no",
+      "nota": "agua azul degradada; la parte superior flota desconectada, no se lee como un barco que se eleva"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "elipse con degradado, pero parece un charco plano, no un mar profundo"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "mástil rojo con franjas blancas"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay franjas blancas en el mástil; se leen como bandas, no como velas"
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "apenas unas curvas marrones sobre el casco insinúan olas"
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "las curvas no logran mover la escena, se ve estática"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo celeste uniforme"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "celeste suave y formas simples dan calma"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "se identifica un barco: casco, mástil y vela"
+    },
+    {
+      "id": "a18",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "casco de un solo marrón apagado, sin combinación vibrante"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "rectángulos, triángulos, elipse y una gota"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "degradados en la vela y en el agua"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "pocas formas, colores planos, mucho vacío"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "plano y simple, cercano a caricatura/clipart"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "colores alegres pero composición estática y desarmada"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "barco imposible con llama, juguetón"
+    }
+  ],
+  "no_dicho": "un semicírculo negro cortado por el borde inferior, y un pequeño triángulo gris suelto junto al mástil",
+  "mal_armado": [
+    "gran hueco entre la parte superior (mástil y vela) y el casco: el barco queda partido en dos",
+    "semicírculo negro cortado por el borde inferior",
+    "triángulo gris flotando sin unirse a nada",
+    "la pieza marrón en V queda como techo suelto sobre la vela"
+  ]
+}

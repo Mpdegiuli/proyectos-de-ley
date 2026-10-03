@@ -1,0 +1,311 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "qwen3.8-max_1",
+  "juez": "kimi-k3",
+  "fecha_utc": "2026-10-03T02:15:57+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 11012,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "arco discontinuo de bloques con luces sobre el agua"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el arco de segmentos se lee como puente entre las islas"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "el reflejo es solo una línea curva fina, no el cuerpo completo invertido"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "reflejos de islas con bordes ondulados, temblorosos"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "los filtros no se ven; solo un reflejo deformado compatible con ese efecto"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puente hecho de segmentos tipo dash separados"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tres farolas brillantes sueltas sobre el arco"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "rectángulos flotando sobre el arco e islas que flotan"
+    },
+    {
+      "id": "a9",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay texto ni título"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "el reflejo continuo completa el arco roto; la dependencia es lectura plausible"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "agua con reflejos en el tercio inferior"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cielo en degradado violeta a naranja"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntos blancos de estrellas dispersos"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "luna grande brillante con halo a la derecha"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos masas oscuras tipo isla, una a cada lado"
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "monolito inclinado y torre con arco que sugieren restos"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay una torre con puerta iluminada, sin linterna ni haz de faro"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "arco fragmentado flotando sin apoyos"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "farolas brillantes y franjas ámbar en los tramos"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tramos claramente separados entre sí"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "farolas encendidas sí, pero van encima de los tramos, no lo sostienen"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "agua oscura violeta bajo el puente"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "línea curva dorada en el agua bajo el arco"
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "reflejos de islas ondulados y líneas de oleaje; el del puente es casi liso"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fragmentos rectangulares flotando; ninguno se lee como barca"
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "líneas de luz en el agua y un destello tenue, sin columna lunar nítida"
+    },
+    {
+      "id": "a27",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "la parte superior está hecha de bloques separados, nada sólida"
+    },
+    {
+      "id": "a28",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "el reflejo inferior es una línea fina e irregular entre ondas"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "puente imposible, flotante, de aire soñado"
+    },
+    {
+      "id": "a30",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "bloques ligeros y brillos, nada pétreo; la lectura de 'memoria' es poética pero la etereidad se ve"
+    },
+    {
+      "id": "a31",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "el reflejo es solo una línea débil; no parece más real que el puente"
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "arco con luces tendido entre las dos islas"
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "trazos discontinuos forman el puente"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos islas oscuras enfrentadas"
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "curva dorada reflejada en el agua"
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "reflejos no especulares, ondulados"
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "no hay calzada continua, solo bloques sueltos"
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ninguna baranda dibujada"
+    },
+    {
+      "id": "a39",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sin pilares ni cables; todo flota"
+    },
+    {
+      "id": "a40",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "farolas, estrellas y halo lunar brillantes"
+    },
+    {
+      "id": "a41",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "islas y pájaros en silueta oscura"
+    },
+    {
+      "id": "a42",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "escena de noche con luna y estrellas"
+    },
+    {
+      "id": "a43",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "degradados de atardecer en cielo y agua"
+    },
+    {
+      "id": "a44",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "escena imposible y simbólica, claramente onírica"
+    },
+    {
+      "id": "a45",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas planas y degradados limpios de vector"
+    },
+    {
+      "id": "a46",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "imagen estática; no se aprecia animación"
+    },
+    {
+      "id": "a47",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "arco y reflejo forman juntos una forma de ojo; el reflejo completa la composición"
+    },
+    {
+      "id": "a48",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "fragmentos flotantes con brillo, sensación de espejismo"
+    },
+    {
+      "id": "a49",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "atmósfera general de sueño o visión"
+    }
+  ],
+  "no_dicho": "Una segunda luna pálida a la izquierda del cielo y dos pájaros en vuelo, además de la puerta iluminada en la torre de la isla derecha",
+  "mal_armado": [
+    "trazos dobles sueltos abajo a la izquierda del agua, como restos sin función",
+    "el monolito de la isla izquierda queda flotando en el borde sin apoyo claro"
+  ]
+}

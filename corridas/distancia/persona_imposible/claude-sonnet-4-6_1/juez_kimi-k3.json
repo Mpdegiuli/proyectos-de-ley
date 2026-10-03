@@ -1,0 +1,199 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "claude-sonnet-4-6_1",
+  "juez": "kimi-k3",
+  "fecha_utc": "2026-10-02T20:21:26+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 7106,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "brazo cruza el frente del torso, mano en la cadera opuesta"
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "brazos con curvas raras, no claramente invertidos"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "banda azul une las piernas abajo cerrando el hueco como lazo"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "piernas simétricas unidas abajo, no la misma"
+    },
+    {
+      "id": "a5",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "una sola cara frontal con dos orejas"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "sombras grises a ambos lados y elipse azul al frente"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "figura humana completa"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "el brazo parece pasar a través del torso"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "mano aparece en la cadera del lado contrario"
+    },
+    {
+      "id": "a10",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "lazo sugerido en la base de las piernas"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "banda curva azul conecta las piernas en la parte baja"
+    },
+    {
+      "id": "a12",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "una sola cara"
+    },
+    {
+      "id": "a13",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "frente único, orejas laterales normales"
+    },
+    {
+      "id": "a14",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "torso rectangular simple"
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "doble sombra tenue bajo los pies"
+    },
+    {
+      "id": "a16",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "se lee como persona normal con trucos sutiles"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "se lee como cartoon, no como Escher"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "figura humana simple estilizada"
+    },
+    {
+      "id": "a19",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "igual que a9, lectura ambigua"
+    },
+    {
+      "id": "a20",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "un solo frente visible"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "fusión parcial en la base, no bucle pleno"
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "sombras duales poco claras"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo negro azulado"
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "brazo cruzado y lazo de piernas contradicen la anatomía"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "formas reconocibles, contradicción sutil"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "noche, halo y luz cenital dan aire místico"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cartoon plano de persona"
+    },
+    {
+      "id": "a28",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "sin geometrías imposibles escherianas"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "figurativo estilizado, no abstracto"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cara, ropa y cuerpo reconocibles"
+    }
+  ],
+  "no_dicho": "un aro circular transparente tipo halo rodea toda la cabeza y abajo hay un rótulo que dice \"persona imposible\"",
+  "mal_armado": [
+    "parecen tres manos: gestual a la izquierda, otra en la cadera, y el brazo derecho sin mano",
+    "el brazo derecho termina en punta redondeada sin mano",
+    "el aro cruza y choca visualmente con el pelo",
+    "la elipse azul bajo los pies se confunde entre sombra y plataforma"
+  ]
+}

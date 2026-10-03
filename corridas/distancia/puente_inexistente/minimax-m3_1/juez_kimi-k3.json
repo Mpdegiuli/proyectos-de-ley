@@ -1,0 +1,352 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "minimax-m3_1",
+  "juez": "kimi-k3",
+  "fecha_utc": "2026-10-03T02:27:42+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 9572,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "líneas horizontales bajas como tablero y arcos que suben al centro"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "varios arcos concéntricos de altura creciente hacia el centro"
+    },
+    {
+      "id": "a3",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "el arco más alto queda a media altura del lienzo, lejos de la luna"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "orbes ámbar brillan en los extremos y sobre los arcos"
+    },
+    {
+      "id": "a5",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "los orbes están apoyados sobre los cables, no sueltos"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "no se ve ningún pilar bajo el puente"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "no hay torres; solo arcos"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el reflejo se rompe en óvalos violáceos en el agua"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay elipses planas que no copian los arcos, aunque una curva clara sí los refleja"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "luna dorada con un círculo oscuro encima, como mordida o eclipse"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "el cuadrilátero con puntos en las esquinas se lee como constelación"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo en degradé de violeta oscuro a lavanda"
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "tablero de líneas finas sin superficie sólida; no se ve caminable"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "arcos de luz sin materialidad de construcción"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puente claro en el centro de la escena"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "estructura de arcos superpuestos"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "agua oscura con reflejos bajo el puente"
+    },
+    {
+      "id": "a18",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "es un disco casi lleno con un círculo oscuro dentro, no una fase gibosa"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "orbes luminosos ámbar sobre los arcos"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "los cables se curvan hacia arriba"
+    },
+    {
+      "id": "a21",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "los arcos quedan muy por debajo de las estrellas"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "el tablero está bajo, casi sobre el agua"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "masas montañosas a izquierda y derecha del puente"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "montañas en violeta oscuro"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "figura cuadrilátera con vértices punteados en el cielo"
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "algunas motas ámbar sueltas cerca de los arcos, ambiguas"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "finas curvas doradas reflejadas en el agua a ambos lados"
+    },
+    {
+      "id": "a28",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "ninguna figura humana sobre el puente"
+    },
+    {
+      "id": "a29",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no hay siluetas que leer como viajeros"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "paleta oscura de noche"
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dominan violetas y lavandas"
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "orbes y puntos ámbar brillantes"
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "estrellas y arcos blancos brillantes"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "líneas de luz sin peso, sensación inmaterial"
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cruce luminoso entre dos orillas bajo cielo cósmico, lo sugiere"
+    },
+    {
+      "id": "a36",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "es noche estrellada, no atardecer"
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cielo oscuro con luna y estrellas"
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "arcos brillantes que se leen como energía"
+    },
+    {
+      "id": "a39",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puente flotando sobre el agua sin apoyos"
+    },
+    {
+      "id": "a40",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "dos masas junto al agua, pero lisas, más colinas que rocas"
+    },
+    {
+      "id": "a41",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "orbes brillantes sobre la curva superior"
+    },
+    {
+      "id": "a42",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "reflejo violáceo del arco bajo el puente"
+    },
+    {
+      "id": "a43",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cuadrado violeta rotado con puntos en las esquinas"
+    },
+    {
+      "id": "a44",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo de noche cerrada"
+    },
+    {
+      "id": "a45",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "violeta domina; naranja solo en acentos"
+    },
+    {
+      "id": "a46",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "degradés suaves en cielo y luna"
+    },
+    {
+      "id": "a47",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay terminador de fase; es un disco con círculo oscuro"
+    },
+    {
+      "id": "a48",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntitos blancos dispersos"
+    },
+    {
+      "id": "a49",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "trazos luminosos con brillo tipo neón"
+    },
+    {
+      "id": "a50",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el puente es pura luz, sin materia sólida"
+    },
+    {
+      "id": "a51",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "atmósfera onírica y cósmica evidente"
+    },
+    {
+      "id": "a52",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la estructura está hecha de resplandor"
+    },
+    {
+      "id": "a53",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas vectoriales simples y limpias"
+    },
+    {
+      "id": "a54",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "violetas, brillo y cosmos remiten a esa estética"
+    },
+    {
+      "id": "a55",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "puente simétrico y composición ordenada"
+    },
+    {
+      "id": "a56",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "orbes y arcos luminosos como centro de atención"
+    }
+  ],
+  "no_dicho": "un astro naranja con núcleo amarillo a la izquierda (planeta o sol) y dos aves blancas en el cielo, que nadie menciona",
+  "mal_armado": [
+    "pequeño arco blanco suelto en el agua, abajo al centro, sin conexión con nada"
+  ]
+}

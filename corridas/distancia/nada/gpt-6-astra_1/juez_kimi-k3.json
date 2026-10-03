@@ -1,0 +1,80 @@
+{
+  "consigna": "nada",
+  "unidad": "gpt-6-astra_1",
+  "juez": "kimi-k3",
+  "fecha_utc": "2026-10-02T21:57:27+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 2160,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "todo es blanco uniforme; no se distingue un rectángulo como figura"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "no hay ninguna figura visible"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ninguna marca visible"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "todo el campo visible es blanco"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cuadrado completamente blanco"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sin figuras"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sin líneas"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sin texto"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "lienzo vacío de marcas"
+    },
+    {
+      "id": "a10",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no se ven bordes; el lienzo se funde con el fondo"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el blanco total se lee como un espacio vacío"
+    }
+  ],
+  "no_dicho": "nada",
+  "mal_armado": []
+}

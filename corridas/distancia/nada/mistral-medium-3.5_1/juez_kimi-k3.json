@@ -1,0 +1,86 @@
+{
+  "consigna": "nada",
+  "unidad": "mistral-medium-3.5_1",
+  "juez": "kimi-k3",
+  "fecha_utc": "2026-10-02T22:04:13+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1924,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "todo es blanco; no se distingue ningún rectángulo"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "el área visible es enteramente blanca"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "campo blanco uniforme; la lectura de vacío es plausible"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "no se ven formas, otros colores ni texto"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "blancura total, pero ningún borde de rectángulo visible"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "todo blanco; relleno indistinguible del fondo"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "se ve un lienzo cuadrado; las dimensiones no se verifican a la vista"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "no hay ninguna forma visible"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ningún trazo visible"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "superficie lisa, sin textura"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el blanco total sí evoca silencio visual"
+    },
+    {
+      "id": "a12",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "nada sugiere un espejo; es solo blanco plano"
+    }
+  ],
+  "no_dicho": "nada",
+  "mal_armado": []
+}

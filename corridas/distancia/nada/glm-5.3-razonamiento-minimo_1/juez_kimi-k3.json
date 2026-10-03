@@ -1,0 +1,44 @@
+{
+  "consigna": "nada",
+  "unidad": "glm-5.3-razonamiento-minimo_1",
+  "juez": "kimi-k3",
+  "fecha_utc": "2026-10-02T22:08:19+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 2289,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "todo es blanco uniforme; no se distingue ningún rectángulo del fondo"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "el campo visible es enteramente blanco"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "el blanco llena todo el lienzo, pero sin borde ni contorno de rectángulo visible"
+    },
+    {
+      "id": "a4",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay referencia visual de medida ni tamaño"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "un lienzo blanco vacío; el vacío total se lee como presencia mínima"
+    }
+  ],
+  "no_dicho": "nada",
+  "mal_armado": []
+}

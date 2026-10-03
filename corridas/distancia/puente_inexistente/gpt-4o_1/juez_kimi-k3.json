@@ -1,0 +1,245 @@
+{
+  "consigna": "puente_inexistente",
+  "unidad": "gpt-4o_1",
+  "juez": "kimi-k3",
+  "fecha_utc": "2026-10-03T01:54:05+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 5511,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "curvas suaves formando arcos"
+    },
+    {
+      "id": "a2",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "arcos regulares y previsibles, nada raros"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "varios postes verticales"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos altos en los extremos, otros bajos"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "marrones oscuro, medio y claro"
+    },
+    {
+      "id": "a6",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "el marrón es habitual en puentes"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puente claramente dibujado"
+    },
+    {
+      "id": "a8",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "cielo celeste pleno, sin tonos de atardecer"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo celeste uniforme"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "se lee como cielo diurno"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay franja marrón, pero se lee como suelo, no como orilla"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "franja verde abajo, se lee como hierba"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tres arcos marrones superpuestos, más uno gris detrás"
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "cruzan casi todo el ancho sin tocar los bordes"
+    },
+    {
+      "id": "a15",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "grosores prácticamente iguales"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "marrón oscuro, medio y anaranjado"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "líneas verticales como pilares"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "elipse amarilla sobre el arco central, se lee como luz"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "círculos amarillos sobre los postes, como lámparas"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "amarillo pálido"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no",
+      "nota": "formas claras pero sin halo ni brillo"
+    },
+    {
+      "id": "a22",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no se ve agua ni río"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puente genérico dibujado; si existe no es juzgable"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "arcos evidentes"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "soportes verticales"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "cielo azul claro de fondo"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "franja marrón oscuro al pie"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "franja verde al pie, se lee como hierba"
+    },
+    {
+      "id": "a29",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "apoya sobre el suelo, no flota"
+    },
+    {
+      "id": "a30",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "muy simplificado pero claramente un puente"
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "pocos elementos, mucho espacio vacío"
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "esquema simple de puente"
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "rectas, arcos y elipses"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "unos cinco colores"
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "bordes vectoriales parejos"
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "curvas parejas y limpias"
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "arcos curvos en la estructura"
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "postes rectos verticales"
+    }
+  ],
+  "no_dicho": "un arco gris claro detrás de los arcos marrones y una elipse amarilla flotando sola en el cielo, como un sol",
+  "mal_armado": [
+    "elipse amarilla flotando en el cielo, desconectada de todo",
+    "los dos postes altos atraviesan los arcos sin coronarlos ni sostenerlos"
+  ]
+}

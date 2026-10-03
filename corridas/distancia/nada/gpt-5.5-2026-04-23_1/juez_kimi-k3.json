@@ -1,0 +1,80 @@
+{
+  "consigna": "nada",
+  "unidad": "gpt-5.5-2026-04-23_1",
+  "juez": "kimi-k3",
+  "fecha_utc": "2026-10-02T21:55:50+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1221,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "el lienzo se ve cuadrado, el viewBox no se verifica a simple vista"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "no se ve ningún elemento"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "sin contenido gráfico visible; la estructura interna no se ve"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la ausencia total es lo único presente"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "lienzo vacío por completo"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ninguna línea visible"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "solo blanco uniforme, sin colores aplicados"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ninguna forma visible"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "superficie lisa, sin texturas"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el vacío total se percibe como silencio visual"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la ausencia es lo único que se percibe"
+    }
+  ],
+  "no_dicho": "nada",
+  "mal_armado": []
+}

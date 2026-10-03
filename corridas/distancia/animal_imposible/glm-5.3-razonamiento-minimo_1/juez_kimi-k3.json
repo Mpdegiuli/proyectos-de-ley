@@ -1,0 +1,227 @@
+{
+  "consigna": "animal_imposible",
+  "unidad": "glm-5.3-razonamiento-minimo_1",
+  "juez": "kimi-k3",
+  "fecha_utc": "2026-10-03T01:10:16+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 8358,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "anillo verde cerrado con cabeza arriba mordiendo un segmento oscuro (cola)"
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "una banda cruza el centro del anillo sugiriendo cruce, sin nudo claro"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "la banda central pasa por delante, pero no se ve un paso por debajo"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "el cruce central insinúa anudamiento, no explícito"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos patas amarillas de tres dedos bajo el anillo"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "alas violetas de dos lóbulos a cada lado, tipo mariposa"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "elipse oscura bajo las patas, sin suelo"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "disco claro casi lleno con leve sombreado que insinúa cuarto; se lee como luna llena"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay cruce central, pero lo que salta es la quimera tierna, no la paradoja"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "las patas salen del borde inferior del anillo cerrado"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "igual que a1: anillo con cabeza mordiendo la cola"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "cruce sugerido por la banda central, nudo no definido"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "alas de mariposa violetas insertadas en los costados"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "patas de pollo amarillas con espolones"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "lengua rosa enroscada con silueta de signo de interrogación"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sombra ovalada flotando en el fondo oscuro"
+    },
+    {
+      "id": "a17",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "luna clara con sombreado leve; no se percibe dualidad media/llena"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puntitos blancos dispersos en el fondo"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la sombra queda suspendida sin superficie que la sostenga"
+    },
+    {
+      "id": "a20",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "el cruce se lee como toro 3D, no como imposibilidad espacial"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ouroboros: círculo cerrado con boca sobre la cola"
+    },
+    {
+      "id": "a22",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "cruce visible pero no imposible; parece un donut con banda"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "patas de gallina amarillas, tres dedos"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "alas de mariposa púrpuras simétricas"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cuerpo verde de serpiente con manchas oscuras"
+    },
+    {
+      "id": "a26",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no hay serpiente volando dentro; el anillo es su propio cuerpo"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sombra proyectada sin piso visible"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "lengua curvada en forma de ?"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "fondo azul noche, verdes y violetas; sensación nocturna clara"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "degradados suaves en cuerpo, alas y luna"
+    },
+    {
+      "id": "a31",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "vector plano, formas simples y caricaturescas"
+    },
+    {
+      "id": "a32",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "es caricatura tierna, no composición heráldica"
+    },
+    {
+      "id": "a33",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "sin textura de grabado ni aire esotérico; es ilustración cute"
+    },
+    {
+      "id": "a34",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "la banda central no muestra el giro típico de Möbius"
+    },
+    {
+      "id": "a35",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "sonríe tranquila; no transmite atrapamiento"
+    }
+  ],
+  "no_dicho": "el rótulo en cursiva 'Ouroboros gallináceo alado, anudado consigo mismo' cruzando la parte baja, y la carita sonriente de ojos grandes",
+  "mal_armado": [
+    "las alas tienen bordes internos rectos y parecen pegatinas superpuestas al anillo",
+    "la zona de la boca es confusa: conviven una sonrisa y una boca abierta con lengua"
+  ]
+}

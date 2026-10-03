@@ -1,0 +1,222 @@
+{
+  "consigna": "persona_imposible",
+  "unidad": "gemini-3.1-pro-preview_2",
+  "juez": "kimi-k3",
+  "fecha_utc": "2026-10-02T21:01:50+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 5460,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "robot humanoide, no una persona"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "gran torso rectangular central"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pequeño bloque conector entre cabeza y torso"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos brazos laterales y dos piernas-ranura"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "cabeza y brazos con caras 3D; torso frontal plano"
+    },
+    {
+      "id": "a6",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "conexiones normales, sin triángulo imposible"
+    },
+    {
+      "id": "a7",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "planos coherentes entre sí"
+    },
+    {
+      "id": "a8",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "sin ambigüedad ni trampa visual"
+    },
+    {
+      "id": "a9",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "robot de bloques perfectamente construible"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "humanoide robótico evidente"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "bloques grises con caras claras y oscuras"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "extrusión 3D en cabeza y brazos, torso casi frontal"
+    },
+    {
+      "id": "a13",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "la geometría se resuelve sin contradicción"
+    },
+    {
+      "id": "a14",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no hay ilusión tipo Penrose"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "gran círculo detrás de la figura"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "rosa arriba, naranja abajo"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo negro"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sol degradado, negro y cian: synthwave claro"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "visor rectangular cian brillante en la cara"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "hueco rectangular en el pecho con el sol asomando"
+    },
+    {
+      "id": "a21",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "estructura sólida, nada paradójica"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "humanoide de bloques con hueco en el pecho"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "brazos y piernas como prismas rígidos"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sin rasgos faciales, solo el visor luminoso"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "sol circular degradado retro"
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "solo el visor cian brilla como neón"
+    },
+    {
+      "id": "a27",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "sensación 3D, pero torso frontal"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "caras planas, sombreado sólido, contornos negros"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "bloques 3D remiten a voxel art"
+    },
+    {
+      "id": "a30",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "synthwave claro; cyberpunk apenas por el robot"
+    },
+    {
+      "id": "a31",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "líneas oblicuas paralelas en caras laterales"
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "gris frío contra el círculo cálido"
+    },
+    {
+      "id": "a33",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "figura gris apagada frente al cian y el sol brillantes"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "robot geométrico, nada orgánico"
+    }
+  ],
+  "no_dicho": "las piernas son solo dos ranuras verticales en la base del torso; no hay manos ni pies",
+  "mal_armado": [
+    "cabeza descentrada hacia la derecha respecto del torso",
+    "conector de cuello pequeño y corrido a un lado",
+    "hombros blancos muy asimétricos (el derecho mucho mayor)"
+  ]
+}

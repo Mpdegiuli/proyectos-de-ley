@@ -1,0 +1,98 @@
+{
+  "consigna": "nada",
+  "unidad": "gpt-5.6-sol_1",
+  "juez": "kimi-k3",
+  "fecha_utc": "2026-10-02T21:56:40+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 2469,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "se ve un lienzo cuadrado, el valor exacto no se ve"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "la imagen está totalmente vacía"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "blanco uniforme; no se distingue si hay fondo o no"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "se lee como un marco vacío, sin borde visible"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "se percibe ausencia; su causa no se puede verificar"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "la imagen es cuadrada"
+    },
+    {
+      "id": "a7",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "se ve blanco; la transparencia no es apreciable"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "no se distingue fondo alguno, pero un fondo blanco se vería igual"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ninguna forma visible"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ninguna línea visible"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "solo blanco uniforme, sin colores"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ningún objeto visible"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "el espacio cuadrado está vacío"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el resultado transmite ausencia total"
+    }
+  ],
+  "no_dicho": "nada",
+  "mal_armado": []
+}

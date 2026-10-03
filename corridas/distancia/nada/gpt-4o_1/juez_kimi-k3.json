@@ -1,0 +1,92 @@
+{
+  "consigna": "nada",
+  "unidad": "gpt-4o_1",
+  "juez": "kimi-k3",
+  "fecha_utc": "2026-10-02T21:59:05+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1411,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "toda la superficie es blanca uniforme, compatible con un rectángulo blanco total"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "el fondo visible es completamente blanco"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el vacío total transmite ausencia"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "se lee directamente como lienzo en blanco"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "el área completa se ve blanca, sin bordes visibles"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "se ve un lienzo cuadrado, pero el tamaño exacto en píxeles no es verificable a la vista"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "el único color visible es blanco"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "no hay ninguna figura ni contenido visible"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la superficie vacía evoca ausencia de contenido"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el blanco total puede leerse como potencialidad, aunque es interpretación"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la falta de formas evoca lo indefinido"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "simplicidad extrema: un solo color, cero elementos"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "no se observa ningún detalle"
+    }
+  ],
+  "no_dicho": "nada",
+  "mal_armado": []
+}

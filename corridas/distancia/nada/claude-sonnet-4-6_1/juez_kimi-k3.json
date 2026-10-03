@@ -1,0 +1,74 @@
+{
+  "consigna": "nada",
+  "unidad": "claude-sonnet-4-6_1",
+  "juez": "kimi-k3",
+  "fecha_utc": "2026-10-02T21:50:37+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 2675,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "todo se ve negro uniforme; no se distingue el rectángulo ni el tono exacto"
+    },
+    {
+      "id": "a2",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "se ve negro puro, ningún azul perceptible"
+    },
+    {
+      "id": "a3",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "solo se ve negrura; la idea de que algo finge no surge sin el texto"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "el lienzo entero es negro, compatible con un rectángulo completo, pero no se distingue como forma"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "se ve un relleno negro uniforme; el valor exacto #000005 no se aprecia"
+    },
+    {
+      "id": "a6",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no se percibe ningún matiz azul"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "no se ve ninguna forma, campo negro uniforme"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "oscuridad total, sin luces ni brillos"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "no se lee ninguna figura ni tema, solo negro"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el negro uniforme transmite vacío, más bien total que 'casi'"
+    }
+  ],
+  "no_dicho": "nada",
+  "mal_armado": []
+}

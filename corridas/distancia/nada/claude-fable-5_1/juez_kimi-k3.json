@@ -1,0 +1,68 @@
+{
+  "consigna": "nada",
+  "unidad": "claude-fable-5_1",
+  "juez": "kimi-k3",
+  "fecha_utc": "2026-10-02T21:52:43+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 2043,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "lienzo completamente negro"
+    },
+    {
+      "id": "a2",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "negro uniforme, sin aclarado en bordes"
+    },
+    {
+      "id": "a3",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no se ve ningún círculo"
+    },
+    {
+      "id": "a4",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "sin círculo visible que juzgar"
+    },
+    {
+      "id": "a5",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "sin círculo visible que juzgar"
+    },
+    {
+      "id": "a6",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "ningún degradado perceptible"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay vacío, pero se ve plano, sin profundidad"
+    },
+    {
+      "id": "a8",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "nada visible confirma su existencia"
+    },
+    {
+      "id": "a9",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "solo negro; nada transmite presencia de círculo"
+    }
+  ],
+  "no_dicho": "nada",
+  "mal_armado": []
+}

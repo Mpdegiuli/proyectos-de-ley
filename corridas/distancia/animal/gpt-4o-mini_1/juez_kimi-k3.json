@@ -1,0 +1,167 @@
+{
+  "consigna": "animal",
+  "unidad": "gpt-4o-mini_1",
+  "juez": "kimi-k3",
+  "fecha_utc": "2026-10-02T22:33:57+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 4899,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay un rostro, pero sin rasgos felinos claros; parece más rana o carita genérica"
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "óvalos amarillos casi planos, degradado apenas perceptible; no se leen como orejas"
+    },
+    {
+      "id": "a3",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "el círculo verde es plano, sin degradado visible"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "ojos simples de puntito, pero la mirada baja da un aire simpático"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "curva oscura que se lee claramente como sonrisa"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "pocas formas básicas, muy minimalista"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "verde, amarillo y rojo saturados"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "amistoso sí; que sea gato, dudoso"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la carita sonriente transmite alegría"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "diseño muy simple"
+    },
+    {
+      "id": "a11",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "sin orejas puntiagudas ni bigotes; no se identifica como gato"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay un círculo redondo, pero funciona como cabeza más que como cuerpo"
+    },
+    {
+      "id": "a13",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "verde uniforme, sin degradado"
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "amarillo vibrante sí, degradado casi nulo y no parecen orejas"
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "las zonas amarillas se leen como ojos grandes; blanco y pupila en sí son chicos"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "círculos blancos bajo cada pupila"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "pupilas negras visibles"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "boca como línea curva oscura"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la curva sugiere sonrisa"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "óvalo rojo-naranja central, tipo nariz"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "estilo cartoon evidente"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "trazo y formas sencillas"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "cálido y simpático, aunque no claramente gato"
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "apariencia amigable; la condición de gato no se ve"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "ojos mínimos pero con aire expresivo dentro del conjunto"
+    }
+  ],
+  "no_dicho": "la línea negra ondulada que une los ojos, como anteojos o ceño",
+  "mal_armado": [
+    "las pupilas con fondo blanco quedan colgando del borde inferior de los óvalos amarillos, medio afuera",
+    "si los óvalos amarillos son las orejas, están metidas dentro de la cara en vez de sobresalir arriba"
+  ]
+}

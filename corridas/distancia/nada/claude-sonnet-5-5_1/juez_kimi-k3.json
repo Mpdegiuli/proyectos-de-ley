@@ -1,0 +1,80 @@
+{
+  "consigna": "nada",
+  "unidad": "claude-sonnet-5-5_1",
+  "juez": "kimi-k3",
+  "fecha_utc": "2026-10-02T21:52:01+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 2643,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "centro más claro que oscurece hacia los bordes"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "centro blanco que resalta suavemente sobre el gris"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "bordes en gris muy pálido"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "marco cuadrado de puntos cerca del borde"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "línea punteada gris clara, apenas visible"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ninguna figura, solo campo y marco"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "transición suave de blanco central a gris periférico"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "campo uniforme velado que evoca bruma inmóvil"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "se ve un centro claro, pero no sugiere por sí solo una luz retirándose"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "hay tonos y veladura; no es un blanco plano"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "marco tenue delimita sin encerrar nada"
+    }
+  ],
+  "no_dicho": "las esquinas del marco tienen pequeñas marcas en ángulo tipo corchete, distintas del punteado de los lados",
+  "mal_armado": []
+}

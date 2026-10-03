@@ -1,0 +1,305 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "minimax-m3_1",
+  "juez": "kimi-k3",
+  "fecha_utc": "2026-10-02T18:31:07+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 15065,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "picos y pliegues desiguales, no es un techo parejo"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "tres puntos oscuros forman dos ojos y una boca"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ventana izquierda: cuadrados azules anidados hacia adentro"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "escalones zigzag suspendidos a la derecha, sin destino"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "óvalo brillante con algo adentro, a la izquierda"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "árbol sin hojas a la derecha"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no",
+      "nota": "hay detalles raros, pero la casa se reconoce como casa"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "es extraño y amable, no monstruoso"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cielo violeta oscuro arriba, naranja en el horizonte"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "horizonte naranja y luna: se lee como atardecer"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "luna redonda y completa"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "tres manchas oscuras redondas"
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "esfera pálida con puntos; se lee como cara, no como ojo"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "casa con techo triangular"
+    },
+    {
+      "id": "a15",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "hay un triángulo invertido en el techo, pero no es buhardilla"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "chimenea rectangular en el techo"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "línea curva de humo sale de la chimenea"
+    },
+    {
+      "id": "a18",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "el humo termina en una figurita angular; no se ve pájaro claro"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "puerta marrón oscura"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "símbolo geométrico amarillo en la puerta"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "objeto luminoso flotante, ambiguo como linterna"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "flota en el aire sin ningún soporte"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "óvalo con colgante; no recuerda a medusa"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ramas secas a la derecha"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "las ramas angulosas se abren como dedos"
+    },
+    {
+      "id": "a26",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "solo la ventana izquierda gradúa azules"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la izquierda profundiza como un túnel"
+    },
+    {
+      "id": "a28",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "escena vacía al atardecer, sensación de espera"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "hay una casa"
+    },
+    {
+      "id": "a30",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el techo se pliega en triángulos que se contradicen"
+    },
+    {
+      "id": "a31",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no se ve ninguna buhardilla"
+    },
+    {
+      "id": "a32",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "sin buhardilla, nada que flote"
+    },
+    {
+      "id": "a33",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "manchita diminuta sobre el humo, apenas sugiere figura"
+    },
+    {
+      "id": "a34",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "el rectangulito sí recuerda una banderita"
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ojos y boca en la luna"
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la cara de la luna queda mirando la escena"
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "escalera zigzag en el costado derecho"
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "zigzaguea y no llega a ningún lado"
+    },
+    {
+      "id": "a39",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "una ventana muy profunda, la otra casi plana"
+    },
+    {
+      "id": "a40",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "líneas amarillas brillantes como talladas en la puerta"
+    },
+    {
+      "id": "a41",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "la casa es plana y terrosa; cielo y luna tienen gradientes"
+    },
+    {
+      "id": "a42",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "gradientes en cielo, luna y suelo"
+    },
+    {
+      "id": "a43",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "fachada plana y recta, pero el techo tuerce la perspectiva"
+    },
+    {
+      "id": "a44",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "clima de sueño al atardecer"
+    },
+    {
+      "id": "a45",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas simples y planas con elementos raros"
+    },
+    {
+      "id": "a46",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "aire de ilustración de cuento"
+    },
+    {
+      "id": "a47",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "contornos fuertes y tonos tierra, pero se ve vectorial, no grabado"
+    },
+    {
+      "id": "a48",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "los planos del techo y la escalera no cierran"
+    }
+  ],
+  "no_dicho": "la silueta durazno (tipo montañita o casita) dentro de la ventana derecha, y las estrellas blancas del cielo",
+  "mal_armado": [
+    "la rama del árbol se cruza con los escalones y se confunden",
+    "muescas verticales raras en el techo donde se apoya la chimenea"
+  ]
+}

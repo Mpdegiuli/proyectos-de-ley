@@ -1,0 +1,192 @@
+{
+  "consigna": "casa_inexistente",
+  "unidad": "gpt-4o-mini_1",
+  "juez": "kimi-k3",
+  "fecha_utc": "2026-10-02T17:56:10+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 4895,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "casa con techo triangular, cuerpo y puerta"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "varillas diagonales y ventanas sobre la puerta la hacen rara"
+    },
+    {
+      "id": "a3",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "amarillo y naranja vivos pero habituales en una casa"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "dos cuadrados blancos apilados sobre la puerta"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "techo con varillas sueltas y barra horizontal flotante"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "se lee como casa pero con piezas extrañas"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "triángulo naranja con otro triángulo adentro"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "rectángulo amarillo como cuerpo"
+    },
+    {
+      "id": "a9",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos cuadrados blancos verticales"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "rectángulo marrón centrado, tapado por las ventanas"
+    },
+    {
+      "id": "a11",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay líneas marrones pero separadas del techo, no lo delinean"
+    },
+    {
+      "id": "a12",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "el cuerpo amarillo no tiene contorno"
+    },
+    {
+      "id": "a13",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "hay dos rectángulos rojos flotantes, no se leen como árboles ni puertas"
+    },
+    {
+      "id": "a14",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay ventanal ni detalle inferior"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "fondo azul claro uniforme"
+    },
+    {
+      "id": "a16",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay verde ni césped"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "colores vivos y cielo despejado dan sensación alegre"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "igual que a1, casa claramente dibujada"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ventanas apiladas en el centro, diseño particular"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "triángulo doble con varillas laterales, poco común"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "rojo, amarillo y naranja saturados"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "figuras geométricas simples y planas"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "barras rojas flotantes y círculo gris dan aire surrealista"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas planas, nada realista"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "geometría simple caricaturesca y estilizada"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "colores alegres y formas juguetonas"
+    },
+    {
+      "id": "a27",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "solo las líneas marrones del techo; el resto son formas sin contorno"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "diseño plano minimalista"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "casa abstracta con elementos imposibles"
+    }
+  ],
+  "no_dicho": "un círculo gris grande flotando abajo (como sol o piedra) y un pequeño cuadrado negro entre el techo y la pared",
+  "mal_armado": [
+    "las ventanas blancas están superpuestas sobre la puerta marrón",
+    "cuadrado negro flotando entre el techo y la pared",
+    "las dos barras rojas flotan sueltas sin conexión con nada"
+  ]
+}

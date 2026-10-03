@@ -1,0 +1,180 @@
+{
+  "consigna": "animal",
+  "unidad": "mistral-medium-3.5_1",
+  "juez": "kimi-k3",
+  "fecha_utc": "2026-10-02T22:42:31+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 5927,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "criatura amarilla con tentáculos, no se lee como león"
+    },
+    {
+      "id": "a2",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "cuerpo ovalado sí; el tipo de curva no se ve"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos ojos negros bien visibles"
+    },
+    {
+      "id": "a4",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay nariz, solo boca"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "curvas bajo la boca y a los lados, ambiguas como bigotes"
+    },
+    {
+      "id": "a6",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "la masa dorada rodea la cara pero no hay trazos de melena"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "no",
+      "nota": "dorado visible, pero se lee como personaje amarillo, no pelaje"
+    },
+    {
+      "id": "a8",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "hay líneas curvas colgantes, finas más que robustas"
+    },
+    {
+      "id": "a9",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "trazos curvos blandos, transmiten pulpo, no fuerza"
+    },
+    {
+      "id": "a10",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay melena con trazos"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "pocas formas, cara simpática y expresiva"
+    },
+    {
+      "id": "a12",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "se ve una criatura, pero no se identifica como león"
+    },
+    {
+      "id": "a13",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "no se lee como león"
+    },
+    {
+      "id": "a14",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "el dorado es todo el cuerpo, no una melena diferenciada"
+    },
+    {
+      "id": "a15",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "curvas suaves hay, pero de la silueta, no de una melena clara"
+    },
+    {
+      "id": "a16",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "melena dudosa y el tipo de path no es visible"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos óvalos negros como ojos"
+    },
+    {
+      "id": "a18",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no hay nariz"
+    },
+    {
+      "id": "a19",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "sonrisa curva pequeña bajo los ojos"
+    },
+    {
+      "id": "a20",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "curvas laterales y bajo la boca, de trazo medio, lectura incierta"
+    },
+    {
+      "id": "a21",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "curvas en U (no invertidas) colgando, podrían ser patas"
+    },
+    {
+      "id": "a22",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "no se ve cola"
+    },
+    {
+      "id": "a23",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "curvas colgantes que podrían ser patas"
+    },
+    {
+      "id": "a24",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "se ven círculos y trazos; el código no es verificable"
+    },
+    {
+      "id": "a25",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "no hay cola, pero las curvas colgantes dan vaivén"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "formas simplificadas y caricaturescas"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "todo el dibujo entra en el lienzo, nada cortado"
+    }
+  ],
+  "no_dicho": "la silueta con dos lóbulos arriba (tipo orejas o corazón) y los seis trazos curvos colgantes que la hacen parecer un pulpo o pollito, no un león",
+  "mal_armado": [
+    "varios trazos de patas flotan separados del cuerpo, sin tocarlo",
+    "los trazos laterales quedan fuera del cuerpo, desconectados",
+    "la cara queda muy arriba y pequeña respecto a la masa del cuerpo"
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "consigna": "barco_inexistente",
+  "unidad": "claude-sonnet-4-6_1",
+  "juez": "kimi-k3",
+  "fecha_utc": "2026-10-03T03:37:32+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 8953,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "casco dorado sí, pero de barca simple, sin rasgos de galeón"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "gran cúpula celeste translúcida sobre la cubierta"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ojo púrpura suspendido dentro de la cúpula, cruzado por el mástil"
+    },
+    {
+      "id": "a4",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "tentáculos con puntas luminosas sí, pero cuelgan quietos; no se lee propulsión"
+    },
+    {
+      "id": "a5",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "mástil apenas curvado, nada imposible"
+    },
+    {
+      "id": "a6",
+      "se_ve": "no",
+      "efecto": "no",
+      "nota": "solo una leve ondulación, sin torsiones contradictorias"
+    },
+    {
+      "id": "a7",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "nave + ojo + tentáculos: mezcla de barco, cristal y criatura"
+    },
+    {
+      "id": "a8",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "híbrido fantástico ajeno a toda tradición naval"
+    },
+    {
+      "id": "a9",
+      "se_ve": "no",
+      "efecto": "no_aplica",
+      "nota": "ningún nombre visible en la imagen"
+    },
+    {
+      "id": "a10",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "casco de madera dorada"
+    },
+    {
+      "id": "a11",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cuatro tentáculos violetas salen del casco"
+    },
+    {
+      "id": "a12",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "bajan curvándose hasta meterse en el agua"
+    },
+    {
+      "id": "a13",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "mar azul muy oscuro, escena nocturna"
+    },
+    {
+      "id": "a14",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cúpula transparente asentada en cubierta"
+    },
+    {
+      "id": "a15",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ojo grande centrado dentro de la cúpula"
+    },
+    {
+      "id": "a16",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "iris y pupila en tonos púrpura"
+    },
+    {
+      "id": "a17",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "flota en medio de la cúpula, aunque el mástil lo atraviesa"
+    },
+    {
+      "id": "a18",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ojo frontal y abierto que mira al espectador"
+    },
+    {
+      "id": "a19",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "mástil levemente ondulado; de imposible no tiene nada"
+    },
+    {
+      "id": "a20",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "dos velas triangulares translúcidas celeste-lavanda"
+    },
+    {
+      "id": "a21",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "orbe rosa con anillo en la punta del mástil"
+    },
+    {
+      "id": "a22",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "el orbe tiene halo y brilla en lo alto"
+    },
+    {
+      "id": "a23",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "luna creciente grande arriba a la derecha"
+    },
+    {
+      "id": "a24",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "cielo estrellado de noche plena, sin sol"
+    },
+    {
+      "id": "a25",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "reflejo tenue de la cúpula bajo el casco"
+    },
+    {
+      "id": "a26",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "mar calmado con ondas suaves y oscuras"
+    },
+    {
+      "id": "a27",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "barco de casco dorado"
+    },
+    {
+      "id": "a28",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "la cúpula translúcida cubre la cubierta como cabina"
+    },
+    {
+      "id": "a29",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "ojo flotando en el interior de la cúpula"
+    },
+    {
+      "id": "a30",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "tentáculos dentro del agua, pero se leen como extremidades, no como anclas"
+    },
+    {
+      "id": "a31",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "el tramo inferior del mástil se curva visiblemente"
+    },
+    {
+      "id": "a32",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "tentáculos orgánicos con puntas rosadas luminosas, muy vivos"
+    },
+    {
+      "id": "a33",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "al ser nave-creatura con ojo propio, se lee como ente autónomo"
+    },
+    {
+      "id": "a34",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "claramente mitad barco, mitad criatura marina"
+    },
+    {
+      "id": "a35",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "dominan azules profundos de noche"
+    },
+    {
+      "id": "a36",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "violetas en tentáculos y ojo"
+    },
+    {
+      "id": "a37",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "rosas neón en el orbe y las puntas de los tentáculos"
+    },
+    {
+      "id": "a38",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "orbe, ojo, puntas de tentáculos y luna brillan desde adentro"
+    },
+    {
+      "id": "a39",
+      "se_ve": "si",
+      "efecto": "si",
+      "nota": "noche, criatura y brillos internos: fantasía oscura bioluminiscente"
+    },
+    {
+      "id": "a40",
+      "se_ve": "en_parte",
+      "efecto": "no",
+      "nota": "formas orgánicas sí, pero el trazo es vectorial plano, no art nouveau"
+    },
+    {
+      "id": "a41",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "el ojo dentro de la cabina se lee como un ser que la habita, o como la nave misma"
+    }
+  ],
+  "no_dicho": "las estrellas blancas repartidas por el cielo (tampoco se mencionan los cordajes del mástil ni los dos puntos rosados de la borda)",
+  "mal_armado": [
+    "dos óvalos violetas flotan junto a los costados del casco, desconectados de los tentáculos",
+    "el mástil parece dos piezas distintas: tramo claro y fino arriba, tramo marrón grueso y curvo abajo",
+    "la elipse del reflejo bajo el agua queda como una mancha separada del barco"
+  ]
+}

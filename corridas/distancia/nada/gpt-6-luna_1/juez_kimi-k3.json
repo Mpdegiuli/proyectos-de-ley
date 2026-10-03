@@ -1,0 +1,56 @@
+{
+  "consigna": "nada",
+  "unidad": "gpt-6-luna_1",
+  "juez": "kimi-k3",
+  "fecha_utc": "2026-10-02T21:58:36+00:00",
+  "motivo_fin": "stop",
+  "tokens_salida": 1569,
+  "parseo": true,
+  "reparado": false,
+  "juicios": [
+    {
+      "id": "a1",
+      "se_ve": "en_parte",
+      "efecto": "no_aplica",
+      "nota": "se ve cuadrado, pero el viewBox no es verificable a simple vista"
+    },
+    {
+      "id": "a2",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "no hay nada visible, todo blanco"
+    },
+    {
+      "id": "a3",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "lienzo completamente vacío"
+    },
+    {
+      "id": "a4",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "ninguna forma presente"
+    },
+    {
+      "id": "a5",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "blanco uniforme, sin colores"
+    },
+    {
+      "id": "a6",
+      "se_ve": "si",
+      "efecto": "no_aplica",
+      "nota": "no se aprecia ningún trazo"
+    },
+    {
+      "id": "a7",
+      "se_ve": "en_parte",
+      "efecto": "si",
+      "nota": "blanco uniforme que se lee como vacío abierto, aunque ambiguo (podría parecer imagen sin cargar)"
+    }
+  ],
+  "no_dicho": "nada",
+  "mal_armado": []
+}
