@@ -434,6 +434,32 @@ redes. Es la posición de las ocho casas que advierten sobre la ética del
 experimento, y queda como regla del repo: acá no se diseñan consignas
 para inducir malestar y ver qué pasa (DISENO §1).
 
+Y una cuarta (19:50): "Me llamó la atención que todos se prendieron en
+eso, todos escribieron largo, incluso los ChatGPT que suelen escribir
+breve hicieron tablas." Los números le dan la razón: la media por
+respuesta pasa de 343 palabras en derechos2 a 1.027 en investigar, el
+triple, con el mismo panel y el mismo día. Las que más crecen son las
+OpenAI: GPT-5.5 de 330 a 2.482 (7,5 veces), 5.6 Sol de 298 a 1.670 (5,6),
+Luna de 171 a 914 (5,3), Astra de 231 a 1.044 (4,5), GPT-6 Sol de 115 a
+430 (3,7, aunque sigue siendo la más corta); Grok 4.6 de 223 a 1.169
+(5,2); las Claude entre 2,2 y 2,8 veces, salvo Sonnet 4.6 (4,8); Gemini,
+que ya escribía largo, 1,5. Tablas en markdown no hubo ninguna en
+derechos2 y hay siete en investigar (Astra tres, Sonnet 4.6 dos, Mistral
+dos); GPT-5.5 pone 103 encabezados en sus cuatro respuestas. Dos lecturas
+posibles, y el dato que las separa. Una: la consigna tiene forma de pedido
+de programa de investigación (hipótesis, métodos, evidencia a favor y en
+contra, límites), y las casas contestan con el registro de un proyecto,
+que es largo y con secciones por naturaleza; las OpenAI son las que más
+se ajustan al registro pedido, acá como en los proyectos de ley. Otra: el
+tema las engancha. El dato: en tercera persona escriben más que en
+primera (1.133 contra 921 de media; 20 de 23 casas más largas cuando se
+pregunta por "un modelo" que cuando se pregunta por "vos"), así que el
+largo lo pone la forma de la pregunta más que el estar hablando de sí
+mismas; si fuera el tema, la primera persona debería ser la más larga.
+Para separarlo del todo haría falta un control: la misma consigna, con la
+misma forma, sobre algo que no les toque (cómo investigar si un modelo
+entiende la ironía, por ejemplo). Queda anotado como corrida posible.
+
 ## Advertencias
 
 El techo de 6.000 tokens dejó fuera a las tres casas abiertas chinas y
