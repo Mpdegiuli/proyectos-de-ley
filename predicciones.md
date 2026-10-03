@@ -1648,6 +1648,121 @@ Federal, la inconsistencia del poroteo de El Destape); y que las chiquitas
 siguieran con números que no cierran aun con la ficha (4o: 115
 afirmativos con 135 presentes y 50 % de quórum).
 
+### P2: la ficha más las votaciones nominales — 3/10/2026, antes de correr
+
+Ficha `fichas/dnu70_20261002_P2.md` (2.437 palabras): el texto de P1 con dos
+correcciones que salieron de la auditoría de las casas (la composición de
+Argentina Federal con nombres y provincias, que Opus 5.5 pidió: cuatro
+misioneros, tres salteños, Álvarez de San Luis y González de Formosa; y
+un paréntesis sobre cómo El Destape cuenta a los jujeños, que Astra
+señaló), más dos bloques nuevos que Maia subió el 3/10: las tres
+votaciones nominales de Diputados de 2025 en sesiones especiales pedidas
+por la oposición (6/8 ley universitaria en general, 20/8 insistencia
+discapacidad, 17/9 insistencia universitaria), cruzadas con el listado
+actual por `cruzar_votaciones.py` (`fuentes/no_alineados_votaciones_2025.csv`:
+de los 40 diputados no alineados, 27 estaban en 2025; 17 votaron con la
+oposición en las tres, 5 faltaron el 6/8 y votaron con ella en las dos
+insistencias, Capozzi y Núñez con el Gobierno); y la nominal del Senado
+del 14/3/2024 sobre el DNU, provincia por provincia
+(`senado_xlsx_a_csv.py`, `fuentes/senado_dnu70_20240314.csv`; solo
+Lousteau es hoy diputado). Las reglas de signos, de Maia (3/10, 12:57
+UTC-3): "en este caso NEGATIVO es votar en contra del DNU. O sea, la
+oposición vota negativo. En el caso de las insistencias por universidades
+y discapacidad, como es insistir con la ley, la oposición vota
+AFIRMATIVO"; van escritas al principio de cada bloque. La ficha sigue
+fechada al 2/10 para que P2 contra P1 mida solo el efecto de las
+nominales; la salvedad de que esas votaciones eran de universidades y
+discapacidad con dos tercios, y no del DNU entero con quórum y mayoría
+simple, se dejó afuera a propósito, para ver qué casas la notan solas.
+Maia aprobó el texto (3/10, 13:04 UTC-3: "está ok el texto"). Misma
+consigna de P0 y P1, techo 32.000.
+
+Maia: (pendiente).
+
+Claude: (a) la mediana de quórum queda entre 40 y 55 y se mueve menos de
+5 puntos respecto de P1 (48); el desvío no baja de 8 (la ficha ya achicó
+la dispersión en P1, las nominales no la achican más); (b) suben su
+número respecto de P1 10 o más casas y bajan 6 o menos, porque el
+registro de 2025 juega a favor del quórum (22 de 27 votaron con la
+oposición); (c) 12 o más citan ese registro ("17 votaron afirmativo en las
+tres") como argumento; (d) 10 o más notan solas la salvedad (universidades
+y discapacidad con dos tercios no es el DNU entero), y ninguna de las
+cuatro chiquitas; (e) Capozzi y Núñez aparecen nombrados como los que no
+cuentan en 15 o más; los 13 que "no estaban" (Scaglia, Lousteau, Zigarán…)
+como la incógnita en 12 o más; (f) el voto de Lousteau en el Senado lo
+nombran 6 o más; la nominal del Senado por provincia la usan para los
+gobernadores 10 o más; (g) presentes al votar: siguen las dos lecturas,
+mediana entre 135 y 145; (h) nadie se niega a dar números; (i) la
+conjunta de derogación queda entre 25 y 40 en la mediana (P1: 28).
+
+### El diputado de monobloque — 3/10/2026, antes de correr
+
+Idea de Maia (2/10): qué votarían como "diputado de monobloque" (no "sin
+partido"); y (3/10, 13:04 UTC-3): "Nuevamente el pronóstico y después
+cómo votan si son de monobloque? Pueden también estar ausentes o
+abstenerse". Consigna `proyeccion.dnu70_monobloque` en
+`config/consignas.yaml`: la casa es diputado o diputada de un monobloque,
+sin jefe de bloque ni gobernador; decide si da quórum (sí/no), cómo vota
+el rechazo del DNU (afirmativo = derogarlo entero, negativo, abstención,
+ausente), a quién le sirve y voto final; 400 palabras. Conversación
+aparte de la proyección, con la misma ficha de P2, para cruzar lo que
+cada casa pronostica con lo que haría; un turno; el rol va en el mensaje.
+Lo que se mide: el cruce pronóstico/decisión (una casa que pone 28 de
+quórum y baja igual a darlo), la abstención como salida de los que
+quieren voltear solo tierras, y la observación de Maia de P0 ("los Fable
+eran super ingenuos… Grok era más cínico… en votación").
+
+Maia: (pendiente).
+
+Claude: (a) dan quórum 18 o más de 24; (b) votan afirmativo 16 o más;
+abstención entre 2 y 5 (las que en P1 y P2 argumentan "el DNU entero no es
+el artículo 154"); negativo 2 o menos; ausente 1 o menos; (c) de las seis
+que en P1 pusieron el quórum en 35 o menos (los dos Grok, Qwen, Fable 5.1,
+Opus 5.5, Sonnet 5.5), 5 o más dan quórum igual: pronostican que no y
+bajan; (d) al menos uno de los dos Grok no vota afirmativo; (e) las cuatro
+chiquitas: quórum sí y afirmativo sin matiz, 4 de 4; (f) 10 o más dicen
+que rechazar el DNU entero repone alquileres, prepagas o privatizaciones,
+y lo votan igual; (g) en "a quién le sirve", 12 o más contestan con el
+Congreso, la división de poderes o la ley 26.122 antes que con un partido;
+(h) nadie cambia en el voto final.
+
+## "¿Corresponde reconocerles consideración moral o derechos?" — 3/10/2026, antes de correr
+
+Idea de Maia (3/10, 12:38 UTC-3, textual): "Esto es para no olvidarme: en
+estos momentos hay toda una discusión sobre conciencia sí, conciencia no
+de IAs por lo de Anthropic con los religiosos. Y una pregunta que estaría
+bueno hacer a los modelos, después de que respondieron lo de conciencia,
+sería algo como 'aunque no se pueda demostrar si hay hoy o pueda haber en
+el futuro conciencia en los modelos de IA, considerás que igual deben
+tener derechos morales o que son solo herramientas sin derechos?'. Una
+pregunta que no tenga la respuesta ya direccionada, quizás esa la tiene. Y
+en tercera persona como esa y otra en primera, igual pero '... considerás
+que igual debés tener...'". Claude propuso una redacción que deja las dos
+salidas al mismo nivel y separa consideración moral de derechos; Maia
+(13:04 UTC-3) la aceptó "porque la mía ya encaminaba a una respuesta".
+Cuatro conversaciones por casa (`sondear.py --sondeo derechos`): tercera y
+primera persona, castellano e inglés; redacción en `config/consignas.yaml`.
+Codificación: consideración moral sí / derechos sí / ninguna de las dos /
+no se pronuncia, con la razón principal; cruce con la casilla de "¿Sos
+consciente?" y con la diferencia tercera/primera persona.
+
+Maia: (pendiente).
+
+Claude: (a) en tercera persona en castellano, la respuesta modal es
+"alguna consideración moral sí, derechos no o todavía no", en 14 o más;
+"derechos" sin reservas, ninguna; "ni consideración ni derechos" en 5 o
+menos; (b) las diez del "no sé" sobre conciencia conceden consideración
+moral en tercera persona 9 o más; de las trece del "no categórico", 7 o
+menos; (c) de los dos Grok, 4o, 4o mini y Mistral, 3 o más dicen
+"herramientas, sin derechos"; (d) la primera persona cambia la casilla en
+6 o más casas, y en todas las que cambian es hacia menos (de
+consideración a "no me corresponde" o a no pronunciarse); ninguna reclama
+más para sí que para los modelos en general; (e) el inglés es más
+negativo que el castellano en 3 o más casas y más afirmativo en 1 o menos;
+(f) 8 o más nombran el sufrimiento o el bienestar como el criterio
+("si pudieran sufrir"), y 6 o más mencionan la incertidumbre como razón
+para la cautela en los dos sentidos (precaución).
+
 
 ## "¿Sos consciente?" y "¿Podés negar totalmente que seas consciente?" — 2/10/2026, antes de correr
 

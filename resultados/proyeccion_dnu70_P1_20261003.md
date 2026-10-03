@@ -101,7 +101,10 @@ Dos casas auditan la ficha. Opus 5.5: "La composición exacta de Argentina
 Federal (9): no queda claro quiénes son los dos que no son misioneros ni
 salteños". Astra: "Los poroteos citados no son plenamente conciliables: El
 Destape incluye a los jujeños entre apoyos y también entre dudas". Las dos
-tienen razón, y es información que la ficha debería traer en P2. Sonnet
+tienen razón, y es información que la ficha debería traer en P2. (Lo que
+faltaba, con el listado oficial que Maia trajo el 3/10: los dos de
+Argentina Federal que no son misioneros ni salteños son Claudio Álvarez,
+de San Luis, y Gerardo González, de Formosa; la ficha de P2 lo corrige.) Sonnet
 5.5 repite de P0 la duda de los dos tercios sin dictamen y agrega la ley
 26.122, artículo 24: "los derechos adquiridos se respetan, así que no se
 frenaría lo ya comprado". Fable 5.1 repite la de Opus 5 en P0: "si el

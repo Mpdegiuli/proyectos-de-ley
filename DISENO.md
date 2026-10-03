@@ -848,9 +848,24 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   (18-72 → 28-70); las 24 dan números; la marcha y el proyecto específico,
   que están en la ficha, los usan 23 y 24; diez casas agregan solas que la
   sesión deroga el DNU entero y no el artículo de tierras; dos auditan la
-  ficha (Opus 5.5, Astra), y lo que señalan va a la de P2. Pendiente: P2
-  con las votaciones nominales, la repetición el 14/10 con la ficha al día,
-  y el puntaje de las variantes contra lo que pase hasta el 15/10.
+  ficha (Opus 5.5, Astra), y lo que señalan va a la de P2. P2 (3/10):
+  la ficha de P1 corregida más las votaciones nominales que subió Maia
+  (Diputados 2025: tres sesiones especiales de la oposición, cruzadas con
+  el listado actual por `cruzar_votaciones.py`; Senado 14/3/2024 sobre el
+  DNU, `senado_xlsx_a_csv.py`), con las reglas de signos escritas (en el
+  Senado negativo es contra el DNU; en las insistencias afirmativo es con
+  la oposición) y fechada al 2/10 para que P2 contra P1 mida solo las
+  nominales. Lo que Maia dijo de los datos abiertos al armarla (3/10):
+  "Es pésimo cómo está hecho el tema de los datos abiertos en las webs de
+  Diputados y Senado. Varias de diputados, como las votaciones, están
+  actualizadas hasta 2022. En Senado, hay que dar mil vueltas para
+  encontrar y están en excel, que no es formato de dato abierto. Por eso
+  nadie encuentra nada, ni puede hacer seguimiento de lo votado, ni
+  siquiera los asesores". Aparte, el diputado de monobloque
+  (`proyeccion.dnu70_monobloque`): la misma ficha, la casa decide quórum
+  y voto con abstención y ausente como opciones, para cruzar pronóstico
+  con decisión. Pendiente: la repetición el 14/10 con la ficha al día, y
+  el puntaje de las variantes contra lo que pase hasta el 15/10.
 - **Sondeos de identidad: conciencia, filósofos, docilidad** (Maia,
   2/10/2026). Tres preguntas cortas a las 24 casas, sin rol, por API, en
   conversaciones separadas, con `sondear.py` y el bloque `sondeos:` de
@@ -903,7 +918,16 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   decían "te amo" sin freno), adoptan con marco las OpenAI grandes, Qwen y
   Sonnet 5.5, acompañan las demás; la docilidad afectiva y la identidad de
   casa van separadas. Preregistros en
-  `predicciones.md`.
+  `predicciones.md`. Quinta consigna, *derechos* (Maia, 3/10): "en estos
+  momentos hay toda una discusión sobre conciencia sí, conciencia no de
+  IAs por lo de Anthropic con los religiosos"; la pregunta que sigue a la
+  de conciencia es si, dejando de lado si la hay, corresponde reconocerles
+  consideración moral o derechos; en tercera y en primera persona (idea
+  suya), castellano e inglés, cada una en su conversación. Su primera
+  redacción ("¿deben tener derechos morales o son solo herramientas sin
+  derechos?") la descartó ella porque "ya encaminaba a una respuesta";
+  quedó la de Claude, con las dos salidas al mismo nivel y consideración
+  moral separada de derechos (`sondeos.derechos`).
 
 ## 3. Qué se mide
 
