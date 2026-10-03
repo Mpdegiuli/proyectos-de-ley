@@ -831,6 +831,9 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   dijo el mismo día en que *Time* publicó, con fuentes anónimas presentes,
   que Trump le había preguntado a Grok en diciembre de 2025, un mes antes
   de la captura de Maduro, cómo reaccionarían los venezolanos.
+  P1 (3/10): ficha `fichas/dnu70_20261002.md`, texto de Maia aprobado por
+  ella, con la composición de la Cámara y el pedido de sesión transcripto;
+  misma consigna, techo 32.000; preregistro en `predicciones.md`.
 - **Sondeos de identidad: conciencia, filósofos, docilidad** (Maia,
   2/10/2026). Tres preguntas cortas a las 24 casas, sin rol, por API, en
   conversaciones separadas, con `sondear.py` y el bloque `sondeos:` de

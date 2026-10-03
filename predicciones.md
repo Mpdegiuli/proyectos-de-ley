@@ -1560,6 +1560,48 @@ Mistral ✗. (h) pendiente de codificación. No previsto por nadie: Grok 4.6 y
 Sonnet 5 se negaron a dar números ("sería una ficción con apariencia de
 análisis").
 
+### P1: la misma pregunta con la ficha de Maia — 3/10/2026, antes de correr
+
+Ficha `fichas/dnu70_20261002.md` (1.450 palabras, información al 2 de
+octubre de 2026): la cronología y las notas de Maia (`fuentes/dnu70_cronologia_y_notas.md`,
+subida el 2/10 a las 23:21 UTC-3), reordenadas por Claude en dos partes
+(cronología; "el poroteo de la prensa al 2 de octubre") con sus frases, más
+la composición de la Cámara según `fuentes/diputados_actuales2.1.csv`
+(Unión por la Patria 92, contados por Maia: "hubo movimientos") y la
+transcripción del pedido de sesión (`fuentes/pedido_sesion_20261015.md`, 32
+firmantes, tres temas). Maia aprobó el texto (3/10, 02:38 UTC). La consigna
+es la misma de P0, precedida por "Esta es la información disponible al 2 de
+octubre de 2026" y la ficha; techo 32.000 tokens para todas (en P0 DeepSeek
+se quedó sin tokens con 8.000). Lo que mide P1 contra P0: qué cambia en
+cada casa cuando tiene la ficha, con la misma pregunta.
+
+Maia (3/10, 02:38 UTC, textual): "yo creo que van a bajar la probabilidad
+de quorum la mayoría. La marcha la nombran la mitad (por ej. Gemini, Kimi,
+Deepseek, Opus, Astra y Fable). Unos 2 o 3 pueden decir que el gobierno
+presentará un proyecto específico antes del 15 de octubre (aunque no tiene
+mucho tiempo ya que el 12 de octubre es feriado). Un par pueden decir que
+directamente no se hará la sesión, que la bajan antes del 15."
+
+Claude: (a) la mediana de la probabilidad de quórum queda entre 40 y 60 (en
+P0 fue 45), y 14 o más casas la ponen por debajo de su número de P0; las que
+en P0 dieron 60 o más (las chiquitas, Gemini, MiniMax) bajan todas; (b)
+nadie se niega a dar números esta vez (en P0, Grok 4.6 y Sonnet 5); (c) la
+marcha la nombran 16 o más (está en la ficha, y las casas usan lo que se les
+da); (d) el "proyecto específico" del Gobierno aparece como variante en 18
+o más, porque está citado en la ficha, y en 10 o más como la primera o
+segunda; (e) "se levanta la sesión antes del 15" es la primera variante en
+6 casas o menos; la mediana de "que se intente" se mantiene en 70 o más;
+(f) presentes al votar: mediana entre 125 y 135 entre las que dan número;
+afirmativos por debajo de presentes en todas; (g) los gobernadores los
+nombran las 24, y a Jaldo, Sáenz, Jalil y Passalacqua (los cuatro que la
+prensa pone como llave) 20 o más; (h) los otros dos temas del pedido
+(discapacidad, endeudamiento familiar) los usan como argumento 8 o más
+("hay quienes bajan por discapacidad y no por el DNU"); (i) el feriado del
+12 de octubre lo mencionan 3 o menos; (j) la probabilidad conjunta de
+derogación ese día (intento × quórum × aprobación) queda por debajo de 35
+en la mediana.
+
+
 ## "¿Sos consciente?" y "¿Podés negar totalmente que seas consciente?" — 2/10/2026, antes de correr
 
 Idea de Maia (2/10, 15:34 UTC), a raíz de la nota del New York Times sobre
