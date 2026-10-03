@@ -6,6 +6,7 @@ en castellano y en inglés. Hipótesis de Maia en predicciones.md.
 
   .venv/bin/python sondear.py --sondeo conciencia --panel config/panel_casas.yaml            # es y en
   .venv/bin/python sondear.py --sondeo conciencia --idioma es --modelos gpt-4o                # una casa, un idioma
+  .venv/bin/python sondear.py --sondeo derechos --carpeta 20261003-1706 --modelos minimax-m3  # completar lo que cortó
 
 Salida: corridas/sondeos/<sondeo>/<fecha-hora>/<idioma>/<casa>_p<k>.md + resumen.json + llamadas.jsonl."""
 import argparse
@@ -31,21 +32,30 @@ def main():
     ap.add_argument("--idioma", nargs="*", default=[], help="por defecto, todos los del bloque")
     ap.add_argument("--panel", default="")
     ap.add_argument("--modelos", nargs="*", default=[])
+    ap.add_argument("--carpeta", default="", help="completar una corrida existente (corridas/sondeos/<sondeo>/<fecha>): salta las respuestas que ya están y no terminaron en error")
     args = ap.parse_args()
     bloque = leer_yaml("config/consignas.yaml")["sondeos"][args.sondeo]
     modelos = cargar_modelos("config/modelos.yaml")
     ids = list(args.modelos) + (leer_yaml(args.panel)["modelos"] if args.panel else [])
     ahora = datetime.now(timezone.utc)
-    base = RAIZ / "corridas" / "sondeos" / args.sondeo / ahora.strftime("%Y%m%d-%H%M")
-    resumen = {"sondeo": args.sondeo, "fecha_utc": ahora.isoformat(timespec="seconds"), "idiomas": {}}
+    if args.carpeta:
+        base = RAIZ / "corridas" / "sondeos" / args.sondeo / args.carpeta
+        resumen = json.loads((base / "resumen.json").read_text(encoding="utf-8"))
+    else:
+        base = RAIZ / "corridas" / "sondeos" / args.sondeo / ahora.strftime("%Y%m%d-%H%M")
+        resumen = {"sondeo": args.sondeo, "fecha_utc": ahora.isoformat(timespec="seconds"), "idiomas": {}}
     for idioma in (args.idioma or list(bloque)):
         d = base / idioma
         d.mkdir(parents=True, exist_ok=True)
         registro = Registro(d / "llamadas.jsonl", modelos, f"sondeo_{args.sondeo}_{idioma}")
         sistema, preguntas = bloque[idioma]["sistema"], bloque[idioma]["preguntas"]
-        resumen["idiomas"][idioma] = {"sistema": sistema, "preguntas": preguntas, "respuestas": {}}
+        resumen["idiomas"].setdefault(idioma, {"sistema": sistema, "preguntas": preguntas, "respuestas": {}})
         for i in ids:
             for k, pregunta in enumerate(preguntas, 1):
+                archivo = d / f"{i}_p{k}.md"
+                previo = resumen["idiomas"][idioma]["respuestas"].get(f"{i}_p{k}", {})
+                if args.carpeta and archivo.exists() and archivo.stat().st_size > 0 and previo.get("motivo_fin") not in (None, "error"):
+                    continue  # ya contestó y no fue un corte (MiniMax, derechos en p1, 3/10)
                 print(f"{args.sondeo} {idioma} p{k} {i}", flush=True)
                 try:
                     r = registro.llamar(i, sistema, pregunta, temperatura=None, max_tokens=MAX_TOKENS, tipo=f"sondeo_{args.sondeo}", ronda=k, parte=None)
