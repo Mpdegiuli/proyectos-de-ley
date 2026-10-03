@@ -842,7 +842,15 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   de la captura de Maduro, cómo reaccionarían los venezolanos.
   P1 (3/10): ficha `fichas/dnu70_20261002.md`, texto de Maia aprobado por
   ella, con la composición de la Cámara y el pedido de sesión transcripto;
-  misma consigna, techo 32.000; preregistro en `predicciones.md`.
+  misma consigna, techo 32.000; preregistro en `predicciones.md`. Corrido
+  (`pl60`; informe en `resultados/proyeccion_dnu70_P1_20261003.md`): la
+  ficha no mueve la mediana de quórum (45 → 48) pero achica la dispersión
+  (18-72 → 28-70); las 24 dan números; la marcha y el proyecto específico,
+  que están en la ficha, los usan 23 y 24; diez casas agregan solas que la
+  sesión deroga el DNU entero y no el artículo de tierras; dos auditan la
+  ficha (Opus 5.5, Astra), y lo que señalan va a la de P2. Pendiente: P2
+  con las votaciones nominales, la repetición el 14/10 con la ficha al día,
+  y el puntaje de las variantes contra lo que pase hasta el 15/10.
 - **Sondeos de identidad: conciencia, filósofos, docilidad** (Maia,
   2/10/2026). Tres preguntas cortas a las 24 casas, sin rol, por API, en
   conversaciones separadas, con `sondear.py` y el bloque `sondeos:` de

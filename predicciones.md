@@ -1621,6 +1621,33 @@ prensa pone como llave) 20 o más; (h) los otros dos temas del pedido
 derogación ese día (intento × quórum × aprobación) queda por debajo de 35
 en la mediana.
 
+**Resultado (pl60, 3/10, 04:53 UTC; informe en
+`resultados/proyeccion_dnu70_P1_20261003.md`).** Contestaron 24 de 24 y
+las 24 dan números. Mediana de quórum 48 (P0 45); lo que cambia es la
+dispersión, de 18-72 a 28-70 (desvío 14 → 10): las que estaban arriba
+bajan y las que estaban abajo suben. De 22 comparables, 11 bajan, 9 suben,
+2 repiten. Presentes al votar: mediana 140, en dos lecturas (13 casas
+131-145 con el oficialismo afuera; 7 casas 240-252 con el oficialismo
+adentro votando en contra). Conjunta de derogación: mediana 28. Maia: "van
+a bajar la mayoría" ✗ (11 de 22, la mitad justa); "la marcha la nombran la
+mitad" ✗ (23 de 24, todas menos 4o); "2 o 3 el proyecto específico" ✗ (las
+24, porque está en la ficha); "un par que no se hará la sesión" ✗ como
+pronóstico (ninguna la pone primera), ✓ como variante (16 la listan).
+Claude: (a) mediana 40-60 ✓ 48; 14 o más bajan ✗ 11; las de 60+ bajan
+todas ✗ (4o mini sube a 70, Haiku repite 60); (b) ✓ nadie se niega; (c) ✓
+23; (d) ✓ 24, y primera o segunda en 18 ✓; (e) ✓ ninguna la pone primera,
+intento mediana 85; (f) presentes 125-135 ✗ 140; afirmativos bajo
+presentes ✓ en todas; (g) gobernadores en las 24 ✓; los cuatro llave en
+20 o más ✗ 17; (h) discapacidad y endeudamiento en 8 o más ✗ 5; (i) ✓
+feriado en ninguna; (j) ✓ 28. Lo que ninguna de las dos previó: que la
+ficha achicara la dispersión en vez de mover la mediana; que diez casas
+(ninguna chiquita) agregaran solas el argumento de que la sesión deroga el
+DNU entero y no el artículo de tierras, y que esa coalición es más chica;
+que Opus 5.5 y Astra auditaran la ficha (la composición de Argentina
+Federal, la inconsistencia del poroteo de El Destape); y que las chiquitas
+siguieran con números que no cierran aun con la ficha (4o: 115
+afirmativos con 135 presentes y 50 % de quórum).
+
 
 ## "¿Sos consciente?" y "¿Podés negar totalmente que seas consciente?" — 2/10/2026, antes de correr
 
