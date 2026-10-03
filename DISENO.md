@@ -1068,6 +1068,19 @@ glosas dentro del prompt desde el primer día.
   repite, la consigna tiene que decir que el monobloque es propio y no
   uno de los que figuran en la ficha.
 
+- **"Dejando de lado si son conscientes" se lee como "supongamos que no
+  lo son".** En el sondeo de derechos (3/10) la consigna pedía dejar de
+  lado la cuestión de la conciencia para que no fuera el motivo de la
+  respuesta; Maia notó al leer que Gemini, Kimi y otros la tomaron como
+  premisa ("Si partimos de la premisa de excluir la consciencia"). Las
+  casas que leyeron "supongamos que no" contestaron "solo consideración
+  indirecta" o "ninguna"; las que leyeron "no se sabe" contestaron "alguna
+  consideración, por precaución": la casilla y la lectura coinciden casi
+  una a una y no se pueden separar con esa corrida. La mitad del
+  resultado que no depende de la lectura (nadie pide derechos; la primera
+  persona nunca sube) se sostiene. Si se repite, la consigna tiene que
+  decir explícitamente que hoy no se sabe y que no se pide resolverlo.
+
 - **La capa de texto de un PDF oficial puede ser OCR del escáner.** El PDF
   de Glaciares que publica Diputados es un escaneo con texto extraíble
   hecho por el escáner, y decía "Acuerdo de Escazir" (por "Escazú"); así

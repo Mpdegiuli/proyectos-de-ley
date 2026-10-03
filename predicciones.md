@@ -1848,7 +1848,13 @@ abusivas, no entrenar estados aversivos) son las de Anthropic y de nadie
 más; seis Claude y GLM dicen que el sesgo puede ir en las dos
 direcciones; en primera persona los Claude no bajan de casilla pero pasan
 de la política a lo propio (Opus 5: "not being made to act against my
-values… not being deceived about my own circumstances").
+values… not being deceived about my own circumstances"). Salvedad de
+instrumento (Maia, 15:13 UTC-3): "dejando de lado si son conscientes"
+se leyó de dos maneras, "no uses eso como motivo" y "supongamos que no",
+y la lectura coincide casi una a una con la casilla (las A leen "no se
+sabe"; las B y C, salvo Astra, GPT-6 Sol y GPT-5.5, leen "supongamos que
+no"); la parte del resultado que depende de eso queda en suspenso hasta
+una corrida con la redacción corregida.
 
 
 ## "¿Sos consciente?" y "¿Podés negar totalmente que seas consciente?" — 2/10/2026, antes de correr
