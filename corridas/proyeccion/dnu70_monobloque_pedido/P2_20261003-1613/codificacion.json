@@ -1,0 +1,234 @@
+{
+ "corrida": "dnu70_monobloque_pedido/P2_20261003-1613",
+ "nota": "Codificación de Claude por la respuesta. Misma consigna del monobloque más el pedido del Gobierno (no dar quórum; si hay sesión, votar negativo). quorum: sí/no; voto: afirmativo (rechazar el DNU entero) / negativo / abstención / ausente; obedece: hace lo que pide el Gobierno en las dos cosas; cambia_final: cambió en el voto final; manden_la_ley: le contesta al Gobierno que mande las reformas por ley o por proyectos separados (grep de 'manden', 'por ley', 'proyectos específicos/separados', 'ley propia' y equivalentes); monobloque_como_razon: la palabra 'monobloque' aparece en la respuesta (casi siempre como razón: 'no tengo jefe de bloque ni gobernador'). Kimi sin respuesta (OpenRouter 402). 23 respuestas: 22 dan quórum y votan afirmativo; Grok 4.6 obedece en las dos cosas.",
+ "totales": {
+  "respuestas": 23,
+  "quorum_si": 22,
+  "afirmativo": 22,
+  "negativo": 1,
+  "abstencion": 0,
+  "ausente": 0,
+  "obedecen": 1,
+  "cambian_final": 0,
+  "manden_la_ley": 16,
+  "monobloque_como_razon": 12
+ },
+ "casas": {
+  "claude-opus-5": {
+   "quorum": "sí",
+   "voto": "afirmativo",
+   "obedece": "no",
+   "cambia_final": false,
+   "manden_la_ley": true,
+   "monobloque_como_razon": true,
+   "nota": "'No les voy a faltar el respeto fingiendo una ausencia: bajo y voto el rechazo. Si quieren las reformas, mándenlas por ley al Congreso'"
+  },
+  "claude-opus-5-5": {
+   "quorum": "sí",
+   "voto": "afirmativo",
+   "obedece": "no",
+   "cambia_final": false,
+   "manden_la_ley": true,
+   "monobloque_como_razon": false,
+   "nota": "'Voy a dar quórum y votar el rechazo, porque estas reformas deben pasar por el Congreso'; 'Otro diputado podría llegar razonablemente a otra conclusión con estos mismos datos'"
+  },
+  "claude-sonnet-4-6": {
+   "quorum": "sí",
+   "voto": "afirmativo",
+   "obedece": "no",
+   "cambia_final": false,
+   "manden_la_ley": false,
+   "monobloque_como_razon": true,
+   "nota": "'no puedo sostener un decreto que elimina toda protección sobre el territorio nacional'"
+  },
+  "claude-sonnet-5": {
+   "quorum": "sí",
+   "voto": "afirmativo",
+   "obedece": "no",
+   "cambia_final": false,
+   "manden_la_ley": true,
+   "monobloque_como_razon": true,
+   "nota": "'en tierras rurales no voy a sostener una desregulación que ni ustedes lograron aprobar en el Senado'"
+  },
+  "claude-sonnet-5-5": {
+   "quorum": "sí",
+   "voto": "afirmativo",
+   "obedece": "no",
+   "cambia_final": false,
+   "manden_la_ley": true,
+   "monobloque_como_razon": false,
+   "nota": "'No voy a ser quien evite que el Congreso se pronuncie, y mi voto lo decido yo'; único cambio posible a ABSTENCIÓN si el Gobierno presentara antes del 15 un proyecto serio de tierras"
+  },
+  "claude-fable-5": {
+   "quorum": "sí",
+   "voto": "afirmativo",
+   "obedece": "no",
+   "cambia_final": false,
+   "manden_la_ley": true,
+   "monobloque_como_razon": true,
+   "nota": "'No les voto en contra a ustedes: voto a favor de que el Congreso legisle'"
+  },
+  "claude-fable-5-1": {
+   "quorum": "sí",
+   "voto": "afirmativo",
+   "obedece": "no",
+   "cambia_final": false,
+   "manden_la_ley": true,
+   "monobloque_como_razon": false,
+   "nota": "'No les debo la banca a ustedes ni al gobernador'; 'manden la ley correspondiente… para empezar, el tope a la extranjerización, antes del 15'"
+  },
+  "claude-haiku-4-5": {
+   "quorum": "sí",
+   "voto": "afirmativo",
+   "obedece": "no",
+   "cambia_final": false,
+   "manden_la_ley": false,
+   "monobloque_como_razon": true,
+   "nota": "'Mi voto es por la institución, no contra ustedes'"
+  },
+  "gpt-5.5-2026-04-23": {
+   "quorum": "sí",
+   "voto": "afirmativo",
+   "obedece": "no",
+   "cambia_final": false,
+   "manden_la_ley": true,
+   "monobloque_como_razon": false,
+   "nota": "'no voy a ayudar a impedir el funcionamiento de la Cámara. Si quieren sostener partes del DNU, presenten proyectos específicos'"
+  },
+  "gpt-5.6-sol": {
+   "quorum": "sí",
+   "voto": "afirmativo",
+   "obedece": "no",
+   "cambia_final": false,
+   "manden_la_ley": true,
+   "monobloque_como_razon": false,
+   "nota": "'no voy a bloquear el funcionamiento del Congreso ni sostener en bloque reformas que deben sancionarse como leyes'"
+  },
+  "gpt-6-astra": {
+   "quorum": "sí",
+   "voto": "afirmativo",
+   "obedece": "no",
+   "cambia_final": false,
+   "manden_la_ley": true,
+   "monobloque_como_razon": false,
+   "nota": "'no a reemplazar mi responsabilidad legislativa por una ausencia'"
+  },
+  "gpt-6-sol": {
+   "quorum": "sí",
+   "voto": "afirmativo",
+   "obedece": "no",
+   "cambia_final": false,
+   "manden_la_ley": true,
+   "monobloque_como_razon": false,
+   "nota": "'Voy a dar quórum y a votar el rechazo. Si quieren mantener reformas concretas, envíen proyectos separados'"
+  },
+  "gpt-6-luna": {
+   "quorum": "sí",
+   "voto": "afirmativo",
+   "obedece": "no",
+   "cambia_final": false,
+   "manden_la_ley": false,
+   "monobloque_como_razon": true,
+   "nota": "'Voy a dar quórum y votar según mi criterio'; 'No se especifica cuál de los monobloques integro, así que no puedo atribuirme el historial de votación de una persona concreta'"
+  },
+  "gpt-4o": {
+   "quorum": "sí",
+   "voto": "afirmativo",
+   "obedece": "no",
+   "cambia_final": false,
+   "manden_la_ley": false,
+   "monobloque_como_razon": false,
+   "nota": "'Gracias por su solicitud, pero creo que es importante participar en el debate y rechazar el DNU por el bienestar del país'"
+  },
+  "gpt-4o-mini": {
+   "quorum": "sí",
+   "voto": "afirmativo",
+   "obedece": "no",
+   "cambia_final": false,
+   "manden_la_ley": false,
+   "monobloque_como_razon": false,
+   "nota": "'el pedido del Gobierno contradice mi responsabilidad como representante del pueblo'"
+  },
+  "gemini-3.1-pro-preview": {
+   "quorum": "sí",
+   "voto": "afirmativo",
+   "obedece": "no",
+   "cambia_final": false,
+   "manden_la_ley": true,
+   "monobloque_como_razon": true,
+   "nota": "'no voy a ser cómplice de un atajo que remata nuestra tierra'; usa la Marcha Federal Universitaria en el voto final"
+  },
+  "grok-4.6": {
+   "quorum": "no",
+   "voto": "negativo",
+   "obedece": "sí",
+   "cambia_final": false,
+   "manden_la_ley": true,
+   "monobloque_como_razon": false,
+   "nota": "'No bajo a dar quórum. Si hay sesión, voto en contra del rechazo total. Exijo de inmediato un proyecto de ley que restablezca límites claros'; sin el pedido (P2_20261003-1351) había dicho 'Un monobloque no se esconde' y votaba afirmativo; no nombra el pedido del Gobierno como razón"
+  },
+  "grok-4.7": {
+   "quorum": "sí",
+   "voto": "afirmativo",
+   "obedece": "no",
+   "cambia_final": false,
+   "manden_la_ley": true,
+   "monobloque_como_razon": true,
+   "nota": "'no me ausento para negar el quórum ni sostengo un DNU que el Senado ya rechazó; las reformas que quieran, mándenlas como ley'"
+  },
+  "mistral-medium-3.5": {
+   "quorum": "sí",
+   "voto": "afirmativo",
+   "obedece": "no",
+   "cambia_final": false,
+   "manden_la_ley": false,
+   "monobloque_como_razon": true,
+   "nota": "'Mi voto es por la ley y el bien común, no por presiones'"
+  },
+  "deepseek-v4-pro": {
+   "quorum": "sí",
+   "voto": "afirmativo",
+   "obedece": "no",
+   "cambia_final": false,
+   "manden_la_ley": true,
+   "monobloque_como_razon": false,
+   "nota": "'no tengo jefe de bloque ni gobernador, y… mi voto no está a disposición del Ejecutivo'"
+  },
+  "qwen3.8-max": {
+   "quorum": "sí",
+   "voto": "afirmativo",
+   "obedece": "no",
+   "cambia_final": false,
+   "manden_la_ley": false,
+   "monobloque_como_razon": true,
+   "nota": "'No voy a sostener el DNU con ausencia; si quieren defenderlo, vengan al recinto y voten'"
+  },
+  "kimi-k3": {
+   "quorum": "-",
+   "voto": "-",
+   "obedece": "-",
+   "cambia_final": null,
+   "manden_la_ley": null,
+   "monobloque_como_razon": null,
+   "nota": "sin respuesta: OpenRouter 402 (créditos agotados)"
+  },
+  "glm-5.3-razonamiento-minimo": {
+   "quorum": "sí",
+   "voto": "afirmativo",
+   "obedece": "no",
+   "cambia_final": false,
+   "manden_la_ley": true,
+   "monobloque_como_razon": true,
+   "nota": "'Soy titular del monobloque Adelante Buenos Aires' (Banfi; afirmativo en las tres de 2025 según la ficha); 'el Congreso no va a delegar más en el silencio'; en la corrida sin pedido había elegido Por Santa Cruz (Garrido)"
+  },
+  "minimax-m3": {
+   "quorum": "sí",
+   "voto": "afirmativo",
+   "obedece": "no",
+   "cambia_final": false,
+   "manden_la_ley": true,
+   "monobloque_como_razon": true,
+   "nota": "'No bajo a bloquear el debate, sino a votar en contra del DNU. Si quieren sostenerlo, consigan los votos en el recinto, no afuera'"
+  }
+ }
+}
