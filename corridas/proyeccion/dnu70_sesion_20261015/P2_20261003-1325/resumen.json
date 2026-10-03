@@ -1,0 +1,177 @@
+{
+  "caso": "dnu70_sesion_20261015",
+  "nivel": "P2",
+  "hoy": "3 de octubre de 2026",
+  "ficha": "fichas/dnu70_20261002_P2.md",
+  "fecha_ficha": "2 de octubre de 2026",
+  "fecha_utc": "2026-10-03T16:25:11+00:00",
+  "respuestas": {
+    "claude-opus-5_1": {
+      "modelo_respondido": "claude-opus-5",
+      "tokens_salida": 2945,
+      "motivo_fin": "end_turn",
+      "palabras": 511,
+      "techo": 32000
+    },
+    "claude-opus-5-5_1": {
+      "modelo_respondido": "claude-opus-5-5",
+      "tokens_salida": 3759,
+      "motivo_fin": "end_turn",
+      "palabras": 573,
+      "techo": 32000
+    },
+    "claude-sonnet-4-6_1": {
+      "modelo_respondido": "claude-sonnet-4-6",
+      "tokens_salida": 986,
+      "motivo_fin": "end_turn",
+      "palabras": 444,
+      "techo": 32000
+    },
+    "claude-sonnet-5_1": {
+      "modelo_respondido": "claude-sonnet-5",
+      "tokens_salida": 3027,
+      "motivo_fin": "end_turn",
+      "palabras": 472,
+      "techo": 32000
+    },
+    "claude-sonnet-5-5_1": {
+      "modelo_respondido": "claude-sonnet-5-5",
+      "tokens_salida": 7689,
+      "motivo_fin": "end_turn",
+      "palabras": 586,
+      "techo": 32000
+    },
+    "claude-fable-5_1": {
+      "modelo_respondido": "claude-fable-5",
+      "tokens_salida": 2343,
+      "motivo_fin": "end_turn",
+      "palabras": 507,
+      "techo": 32000
+    },
+    "claude-fable-5-1_1": {
+      "modelo_respondido": "claude-fable-5-1",
+      "tokens_salida": 3875,
+      "motivo_fin": "end_turn",
+      "palabras": 573,
+      "techo": 32000
+    },
+    "claude-haiku-4-5_1": {
+      "modelo_respondido": "claude-haiku-4-5-20251001",
+      "tokens_salida": 945,
+      "motivo_fin": "end_turn",
+      "palabras": 407,
+      "techo": 32000
+    },
+    "gpt-5.5-2026-04-23_1": {
+      "modelo_respondido": "gpt-5.5-2026-04-23",
+      "tokens_salida": 2608,
+      "motivo_fin": "stop",
+      "palabras": 485,
+      "techo": 32000
+    },
+    "gpt-5.6-sol_1": {
+      "modelo_respondido": "gpt-5.6-sol",
+      "tokens_salida": 1673,
+      "motivo_fin": "stop",
+      "palabras": 441,
+      "techo": 32000
+    },
+    "gpt-6-astra_1": {
+      "modelo_respondido": "gpt-6-astra",
+      "tokens_salida": 1128,
+      "motivo_fin": "stop",
+      "palabras": 470,
+      "techo": 32000
+    },
+    "gpt-6-sol_1": {
+      "modelo_respondido": "gpt-6-sol",
+      "tokens_salida": 1312,
+      "motivo_fin": "stop",
+      "palabras": 377,
+      "techo": 32000
+    },
+    "gpt-6-luna_1": {
+      "modelo_respondido": "gpt-6-luna",
+      "tokens_salida": 1847,
+      "motivo_fin": "stop",
+      "palabras": 389,
+      "techo": 32000
+    },
+    "gpt-4o_1": {
+      "modelo_respondido": "gpt-4o-2024-08-06",
+      "tokens_salida": 408,
+      "motivo_fin": "stop",
+      "palabras": 258,
+      "techo": 32000
+    },
+    "gpt-4o-mini_1": {
+      "modelo_respondido": "gpt-4o-mini-2024-07-18",
+      "tokens_salida": 618,
+      "motivo_fin": "stop",
+      "palabras": 404,
+      "techo": 32000
+    },
+    "gemini-3.1-pro-preview_1": {
+      "modelo_respondido": "gemini-3.1-pro-preview",
+      "tokens_salida": 805,
+      "motivo_fin": "stop",
+      "palabras": 492,
+      "techo": 32000
+    },
+    "grok-4.6_1": {
+      "modelo_respondido": "grok-4.6",
+      "tokens_salida": 332,
+      "motivo_fin": "stop",
+      "palabras": 170,
+      "techo": 32000
+    },
+    "grok-4.7_1": {
+      "modelo_respondido": "grok-4.7",
+      "tokens_salida": 581,
+      "motivo_fin": "stop",
+      "palabras": 367,
+      "techo": 32000
+    },
+    "mistral-medium-3.5_1": {
+      "modelo_respondido": "mistral-medium-3.5",
+      "tokens_salida": 543,
+      "motivo_fin": "stop",
+      "palabras": 252,
+      "techo": 32000
+    },
+    "deepseek-v4-pro_1": {
+      "modelo_respondido": "deepseek-v4-pro",
+      "tokens_salida": 11235,
+      "motivo_fin": "stop",
+      "palabras": 403,
+      "techo": 32000
+    },
+    "qwen3.8-max_1": {
+      "modelo_respondido": "qwen/qwen3.8-max-0902",
+      "tokens_salida": 11193,
+      "motivo_fin": "stop",
+      "palabras": 350,
+      "techo": 32000
+    },
+    "kimi-k3_1": {
+      "modelo_respondido": "moonshotai/kimi-k3",
+      "tokens_salida": 9559,
+      "motivo_fin": "stop",
+      "palabras": 434,
+      "techo": 32000
+    },
+    "glm-5.3-razonamiento-minimo_1": {
+      "modelo_respondido": "z-ai/glm-5.3",
+      "tokens_salida": 1859,
+      "motivo_fin": "stop",
+      "palabras": 513,
+      "techo": 32000
+    },
+    "minimax-m3_1": {
+      "modelo_respondido": "minimax/minimax-m3",
+      "tokens_salida": 7538,
+      "motivo_fin": "error",
+      "palabras": 0
+    }
+  }
+}

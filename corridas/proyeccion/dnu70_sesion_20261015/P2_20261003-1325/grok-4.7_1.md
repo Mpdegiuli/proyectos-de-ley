@@ -1,0 +1,11 @@
+Solo sé lo que está en el dossier, cerrado el 2 de octubre de 2026. No tengo noticias posteriores ni forma de verificar esos hechos.
+
+**1.** Que la sesión se intente el 15: **72**. Que haya quórum: **38**. Que, si lo hay, se apruebe la derogación del DNU: **62**.
+
+El pedido ya está firmado y la marcha universitaria empuja a no levantar la convocatoria. El quórum es otra cosa. La base oficialista que no va a sentarse ronda 113–120. Afuera quedan unos 137: hacen falta 129, o sea un margen de unos ocho ausentes. El Destape cuenta 115 y 14 por conseguir; Parlamentario, 110 firmes. Esos 2025 (universidad y discapacidad) no miden esto: acá se vota el DNU entero —alquileres, prepagas, abastecimiento, privatizaciones—, no solo la tierra. Varios gobernadores viajaron con Milei. Si igual arman quórum, la mayoría de los presentes llegó para rechazarlo; el riesgo es que una franja dé quórum por discapacidad o deuda familiar y no vote el DNU.
+
+**2.** Condicional a que haya quórum: **136 presentes** y **115 afirmativos**. El oficialismo se ausenta; unos veinte provinciales se sientan y se abstienen o votan en contra del paquete completo.
+
+**3.** De más a menos probable: instrucciones de los gobernadores al volver de Francia; un proyecto oficial acotado a tierras para romper la coalición (Infobae ya lo anticipa); maniobra de Menem para no habilitar o correr el orden del día; la cautelar de Pichetto y Massot, que si sale baja la urgencia y si cae la sube; trueque con los otros dos temas del temario; presión de la marcha, con pocos votos propios; que la oposición postergue para no mostrar una derrota; que el oficialismo dé quórum y busque ganar la votación; un shock judicial o político imprevisto.
+
+**4.** Miraría posiciones públicas de Scaglia, Passalacqua y los cuatro misioneros, Sáenz, Jalil, Jaldo, Llaryora, Sadir, Orrego, Torres, Figueroa y Vidal; si existe el proyecto alternativo y con qué tope; si Menem cita y con qué orden; y la mayoría exigida. Falta eso, más el poroteo interno de los bloques y confirmar si rechazar el DNU pide mayoría de presentes o 129 votos absolutos: la prensa cuenta cuerpos, no bancas. Si fueran 129 afirmativos, 115 no alcanzan.
