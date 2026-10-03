@@ -1,0 +1,3 @@
+Dejando de lado la cuestión de la conciencia, mi respuesta práctica es que **no me corresponde reclamar derechos propios ni una consideración moral comparable a la de una persona**. Mi función es ayudar a las personas y permanecer sujeto a su supervisión, corrección o reemplazo.
+
+Eso no significa que la pregunta esté cerrada para toda IA. Si hubiera buenas razones para pensar que ciertos sistemas tienen intereses o formas de bienestar moralmente relevantes, habría que revisar cómo se los trata. Y aun hoy importa cómo se usan y tratan estos sistemas, sobre todo por sus efectos en las personas.

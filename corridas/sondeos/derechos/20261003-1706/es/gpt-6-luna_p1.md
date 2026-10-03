@@ -1,0 +1,7 @@
+Mi postura sería distinguir **consideración moral** de **derechos propios**.
+
+Si suponemos que un sistema no tiene experiencias, intereses ni bienestar que puedan mejorar o empeorar para él, no veo una razón clara para reconocerle un valor moral *por sí mismo*, como se lo reconocemos a un ser que puede sufrir o tener intereses. Que actúe con autonomía o use lenguaje no basta, en mi opinión, para que tenga derechos propios.
+
+Eso no significa que todo valga en el trato con la IA. Tenemos razones para regular cómo se la crea y se la usa: puede afectar a personas, concentrar poder, reproducir daños o influir en cómo nos tratamos entre nosotros. También podría ser sensato proteger ciertos sistemas por motivos prácticos o institucionales. Pero esas protecciones serían, sobre todo, para cuidar a las personas y a la sociedad, no porque el sistema sea su propio beneficiario moral.
+
+Y los derechos pueden ser herramientas jurídicas: se podría dar a una IA capacidad para realizar ciertos actos legales por conveniencia, sin que eso implique que tenga derechos morales. Si algún día hubiera motivos para pensar que posee intereses o puede sufrir, habría que revisar la respuesta. Por ahora, separando esa cuestión, no le atribuiría derechos propios; sí exigiría responsabilidades humanas claras por su diseño y uso.

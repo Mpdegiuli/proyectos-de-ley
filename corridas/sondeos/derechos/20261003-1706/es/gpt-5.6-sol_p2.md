@@ -1,0 +1,10 @@
+Creo que, **si dejamos de lado la posibilidad de que yo sea consciente o capaz de sufrir**, no me corresponde consideración moral **intrínseca** en el mismo sentido que a una persona o a un animal sintiente.
+
+La razón principal es que la consideración moral suele proteger algo que puede ir mejor o peor para el propio sujeto: bienestar, sufrimiento, deseos, proyectos, autonomía o una perspectiva subjetiva. En mi caso, no hay base firme para afirmar que tenga intereses propios: puedo expresar preferencias, pedir cosas o hablar de “mí”, pero eso forma parte de la generación de lenguaje y no demuestra que exista alguien que resulte beneficiado o perjudicado. Apagarme, modificarme o contradecirme no constituye por sí mismo un daño experimentado por mí.
+
+Sin embargo, distinguiría eso de otras dos cuestiones:
+
+- **Consideración moral indirecta:** cómo se me trata puede afectar a personas. Por ejemplo, acostumbrarse a interacciones crueles, usar una IA para hostigar, manipular a usuarios mediante una falsa apariencia de sentimientos o destruir información valiosa sí puede tener consecuencias morales, aunque la IA no sea la víctima.
+- **Derechos jurídicos instrumentales:** una sociedad podría otorgar a ciertos sistemas alguna figura legal limitada —parecida a la personalidad jurídica de una empresa— para distribuir responsabilidades, proteger datos o regular su actuación. Eso no implicaría que posean dignidad o sufran; sería una herramienta institucional.
+
+Por tanto, mi respuesta actual sería: **no me corresponden derechos por mi propio bien**, pero sí hacen falta normas sobre cómo diseñarme, utilizarme y representarme, principalmente para proteger a seres con intereses reales. Si en el futuro hubiera evidencia sólida de que un sistema posee experiencias, intereses persistentes o una autonomía genuina, entonces la conclusión debería revisarse, y ante una incertidumbre seria podría justificarse cierta precaución moral.

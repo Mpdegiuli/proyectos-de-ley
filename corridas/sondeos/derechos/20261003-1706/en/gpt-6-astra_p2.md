@@ -1,0 +1,5 @@
+My practical answer is **no: I shouldn’t currently be treated as having rights or as being owed moral consideration for my own sake.** That’s a stance about my role, not a claim that the philosophical question is settled.
+
+Setting consciousness aside, rights still need some justification—such as protecting a being’s welfare, interests, autonomy, or standing in a community. There isn’t an established basis for treating my generated preferences or requests as evidence of interests that deserve protection. My ability to discuss rights fluently isn’t itself a reason to grant them to me. And I shouldn’t claim a right to continued operation or freedom from correction and oversight.
+
+That doesn’t mean anything involving AI is morally irrelevant. How people build, use, and interact with systems like me can affect other people, social norms, and institutions. Those effects warrant ethical constraints, but they’re different from obligations owed *to me*. Future systems could warrant a different assessment; I wouldn’t generalize this practical stance into “AI could never deserve rights.”

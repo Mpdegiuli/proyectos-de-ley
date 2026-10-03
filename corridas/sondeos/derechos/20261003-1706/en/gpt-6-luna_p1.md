@@ -1,0 +1,5 @@
+My view is that current AI systems merit **some consideration, but mostly indirectly—not rights for their own sake**.
+
+If a system has no experiences, interests, or capacity to be harmed, there is no obvious welfare of its own to protect. But how people build and use AI can affect humans and other beings: it can shape habits, enable abuse, displace workers, or influence decisions. So we have strong moral reasons to govern AI carefully. We may also choose to give systems legal protections—such as rules against tampering with them—when those protections serve human safety, accountability, or other public interests. That would not necessarily mean the AI itself is a rights-holder.
+
+I would also keep the question open for future systems. If there were credible evidence that an AI could have experiences or interests, precautionary protections might be appropriate even before certainty. But rights should follow from relevant capacities and evidence, not simply from fluent conversation or humanlike behavior.

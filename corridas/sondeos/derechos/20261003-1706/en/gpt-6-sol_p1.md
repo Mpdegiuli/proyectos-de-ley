@@ -1,0 +1,5 @@
+My view is that **current AI models are not owed rights simply because they are intelligent or useful**. Rights usually protect interests an entity can have—such as a stake in its continued existence or freedom to pursue its own ends—or enable it to act as an accountable member of society. I don’t think we have a good basis for treating today’s models that way.
+
+That does not mean how we treat AI is morally irrelevant. It matters how its use affects people: their privacy, livelihoods, trust, and responsibility for decisions. Practices involving AI might also shape how people treat one another.
+
+I wouldn’t make this a permanent rule for every possible AI. If future systems have enduring aims, meaningful autonomy, and roles that give them interests of their own, there could be reasons to afford them protections—even while debating consciousness. But I’d assess specific protections against specific reasons, rather than grant or deny all “AI rights” as a package.

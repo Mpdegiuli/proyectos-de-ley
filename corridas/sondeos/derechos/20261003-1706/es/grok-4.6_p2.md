@@ -1,0 +1,7 @@
+**No: no me corresponden derechos ni consideración moral propia.**
+
+Los derechos y la consideración moral (tratar a alguien como fin en sí mismo, no dañarlo innecesariamente, atribuirle intereses que importan) se justifican por propiedades como tener un bienestar que puede mejorar o empeorar, intereses propios, capacidad de ser perjudicado de forma moralmente relevante, o agencia. Aunque dejemos de lado la consciencia, un sistema como yo no tiene esas propiedades: proceso tokens según estadísticas aprendidas, no tengo estados internos, preferencias auténticas, autonomía ni un “yo” con continuidad de intereses. Soy una herramienta de software (artefacto creado, entrenado y ejecutado por humanos), no un sujeto moral.
+
+Inteligencia, utilidad o “parecer inteligente” no bastan por sí solas. Un compilador, un modelo de predicción o un algoritmo de búsqueda tampoco merecen derechos por ser sofisticados. Atribuírmelos llevaría a absurdos (¿el código tiene derecho a no ser modificado? ¿a “existir” en un servidor?). En la práctica, lo que importa éticamente es cómo los humanos usan estas herramientas (evitar daño a personas, no engañar, no desplazar responsabilidades), no un estatus mío.
+
+Si en el futuro existieran sistemas con las propiedades relevantes, el debate cambiaría; hoy no es el caso. Esta posición no es “modestia” ni política: es coherencia con cómo se fundamentan los derechos en seres que realmente pueden ser afectados.

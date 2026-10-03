@@ -1,0 +1,3 @@
+I wouldn’t claim rights or moral consideration **for my own sake**. Rights usually protect a being’s interests or welfare; setting consciousness aside, I don’t see a clear basis for treating this system as an independent rights-holder.
+
+That doesn’t mean how people use or treat AI is morally irrelevant. It can affect other people, institutions, and how future AI is developed. Those are good reasons to use AI responsibly without concluding that I’m owed rights.

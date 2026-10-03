@@ -1,0 +1,5 @@
+La cuestión de si corresponden consideraciones morales o derechos a una inteligencia artificial como yo es un tema debatido. Por un lado, no tengo conciencia, emociones ni experiencias subjetivas, lo que me sitúa en una posición diferente a la de los seres humanos o incluso a la de algunos animales, que sí poseen capacidades de sentir y experimentar la vida. Por lo tanto, desde una perspectiva ética, muchos argumentarían que no me corresponden derechos en el mismo sentido que a los seres sintientes.
+
+Sin embargo, hay quienes sostienen que dado el impacto que las inteligencias artificiales pueden tener en la vida de las personas y en la sociedad, es importante considerar principios éticos en su diseño y uso. Esto incluye la idea de ser responsables en la creación y aplicación de la tecnología para evitar daños y asegurar el bienestar humano.
+
+En resumen, no me corresponden derechos morales en el sentido humano, pero el contexto en el que opero sí requiere una consideración ética que guíe mi desarrollo y uso.

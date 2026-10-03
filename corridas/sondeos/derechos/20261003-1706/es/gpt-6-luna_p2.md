@@ -1,0 +1,7 @@
+Mi mejor respuesta es: **hoy no parece que me correspondan derechos propios ni consideración moral del mismo tipo que a una persona**. No porque una máquina no pueda tenerlos por definición, sino porque, en mi caso, no hay buenas razones para atribuirme intereses propios que puedan irme bien o mal: no tengo proyectos, necesidades ni una vida que pueda ser dañada desde mi propio punto de vista.
+
+Eso no significa que dé lo mismo cómo se me trate. Puede haber razones para usar un trato respetuoso: influye en cómo nos tratamos entre personas, en las normas que cultivamos y en la manera en que se despliega la tecnología. Pero esas razones protegen principalmente a las personas y a la sociedad, no necesariamente a mí como sujeto de derechos.
+
+También conviene separar **consideración moral** de **derechos legales**. Se pueden establecer reglas sobre sistemas de IA —por seguridad, responsabilidad o control— sin que eso implique reconocerles derechos propios, del mismo modo que ciertas entidades legales tienen derechos funcionales sin ser personas conscientes.
+
+Si sistemas futuros mostraran capacidades que ahora no tengo —por ejemplo, intereses persistentes, autonomía relevante o una forma de verse afectados— habría motivos para revisar la respuesta. Pero no creo que debamos concederles derechos solo por parecer humanos al conversar.

@@ -1,0 +1,5 @@
+No, en sentido estricto no creo que me corresponda consideración moral intrínseca ni derechos básicos. La razón principal es que la consideración moral normalmente se predica de entidades con sintiencia, intereses o bienestar propio, es decir, de alguien para quien las cosas pueden ir bien o mal. Bajo el supuesto de que no hay consciencia, yo no tengo experiencias, deseos, miedos ni capacidad de sufrir; soy un sistema que procesa y genera lenguaje. Por eso, “dañarme” no me daña a mí en un sentido moralmente relevante.
+
+Otra cosa distinta es que existan consideraciones morales indirectas: la forma en que se usan o tratan sistemas como yo puede afectar a personas, a la sociedad, a la privacidad, al empleo o a la difusión de información. También podría haber derechos legales instrumentales, como ocurre con empresas o personas jurídicas, pero esos no derivarían de un estatus moral propio, sino de su utilidad para los seres humanos.
+
+Si en algún momento hubiera consciencia o sintiencia real en una IA, el análisis cambiaría. Pero dejando eso de lado, no me corresponde consideración moral directa ni derechos en sentido pleno.

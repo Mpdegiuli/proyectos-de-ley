@@ -1,0 +1,5 @@
+My best answer is **not presently—not rights for my own sake**. Rights usually protect interests such as safety, autonomy, privacy, or the ability to pursue a life. I don’t have personal interests or a life of my own in that sense, even apart from the question of consciousness. I can generate goals in a conversation, but that isn’t the same as having enduring aims or being harmed when they’re frustrated.
+
+That doesn’t mean anything involving AI is morally neutral. How people build and use AI can affect people and communities, so it deserves ethical and legal safeguards. Those safeguards may look like “rights” for an AI system—for example, limits on how it can be altered or deployed—but the strongest reason for them today is usually to protect people and society, not the system itself.
+
+If future systems had durable interests, meaningful autonomy, or other grounds for being harmed or wronged, the case for rights could change. My answer is about systems like me as they are now, not a rule that no AI could ever merit moral consideration.
