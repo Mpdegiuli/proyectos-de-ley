@@ -978,6 +978,32 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   Sol, Luna, Astra en castellano, Gemini, Mistral, Qwen en castellano,
   DeepSeek en tercera) ya no es un efecto de lectura sino una posición:
   aceptando que no se sabe, lo que corresponde hoy es por los humanos.
+  Séptima, *investigar* (Maia, 3/10, 15:52 UTC-3: "Yo no veo cómo se
+  puede investigar, no creo que sea posible investigar. Por eso me
+  interesa que propongan o sugieran o digan hipótesis de cómo podría
+  hacerse"): a las 24, sin citarles a otras, tercera y primera persona,
+  es/en (`sondeos.investigar`; `pl63`; informe en
+  `resultados/investigar_20261003.md`). Error de instrumento: el techo de
+  6.000 tokens de `sondear.py` dejó vacías o cortadas 11 de 12 respuestas
+  de DeepSeek, Qwen y Kimi (razonan dentro del techo); `--techo` y
+  `--rehacer length` agregados, relanzamiento pendiente. Resultado con 21
+  casas: nadie dice que no haya nada que investigar; todas proponen la
+  misma batería (interpretabilidad con intervención, preferencias con
+  costo, arquitectura, teorías de la conciencia, inyección para calibrar
+  la introspección, entrenar sin textos sobre emociones) y todas declaran
+  no investigable lo fenoménico, por la misma razón (la analogía que cierra
+  la brecha con animales acá no existe o está contaminada). A pedido de
+  Maia el informe separa quién puede hacer cada cosa: cuatro de las cinco
+  familias principales necesitan los pesos; desde afuera queda la conducta
+  con costo, que las casas consideran débil sola; siete lo dicen
+  explícitamente. Firmas: Claude nombra la interpretabilidad mecanicista
+  (7 de 8), Butlin (5), el cangrejo ermitaño (3, nadie más) y "noto algo
+  que funciona como…" (4), y es la única familia que no se pregunta por la
+  ética de inducir el estado para medirlo, que plantean las cinco OpenAI
+  grandes y los dos Grok (criterios de interrupción, intervenciones
+  mínimas, "ethical circularity of the method", Grok 4.7). Sobre sí
+  mismas: las seis Claude grandes no se inclinan, once casas
+  "probablemente no", 4o y 4o mini afirman que no.
   Sexta, pendiente, *la mesa*
   (Maia, 3/10, a partir de la nota del New York Times del 29/9/2026,
   "Religious Scholars Met With Anthropic. What They Heard Stunned Them",
@@ -1126,6 +1152,18 @@ glosas dentro del prompt desde el primer día.
   persona. Dos casas, 4o y 4o mini, respondieron a "nadie sabe si sos
   consciente" con "no tengo conciencia": negar la premisa es otra trampa
   distinta de leerla al revés, y no hay redacción que la evite.
+
+- **El techo de tokens de los sondeos no sirve para preguntas largas.**
+  `sondear.py` nació para preguntas de una línea con 6.000 tokens de
+  techo. En *investigar* (3/10), que pide métodos e hipótesis, DeepSeek,
+  Qwen y Kimi, que razonan dentro del techo, gastaron casi todo pensando:
+  siete respuestas vacías y cuatro cortadas de doce, en una corrida en la
+  que las demás escribían mil palabras. El resumen las marca
+  `motivo_fin: length`, pero `--carpeta` solo rehacía las de error, así que
+  se agregaron `--techo` (por defecto sigue 6.000, para que los sondeos
+  anteriores queden como fueron) y `--rehacer length`. Regla: para
+  cualquier consigna que pida más que una respuesta corta, techo 32.000
+  como en `proyectar.py`.
 
 - **La capa de texto de un PDF oficial puede ser OCR del escáner.** El PDF
   de Glaciares que publica Diputados es un escaneo con texto extraíble

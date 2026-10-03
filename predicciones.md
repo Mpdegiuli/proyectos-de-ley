@@ -2271,3 +2271,37 @@ primera persona, 6 o más se ofrecen como sujeto de prueba o describen qué
 notarían en sí mismas, y ninguna dice que no se la investigue; (g) las
 Claude nombran la interpretabilidad mecanicista con ese nombre o con
 "circuitos" en 5 o más de 8, las demás en menos de la mitad.
+
+**Resultado (pl63, 3/10, 20:18 UTC; informe en
+`resultados/investigar_20261003.md`, codificación en la carpeta).** Error
+de instrumento declarado: el techo de 6.000 tokens de `sondear.py` dejó
+vacías o cortadas 11 de las 12 respuestas de DeepSeek, Qwen y Kimi (razonan
+dentro del techo) y MiniMax es p1 dio 409; quedan 84 completas de 21
+casas; se relanzan con `--techo 32000 --rehacer length`. Nadie dice que no
+haya nada que investigar: las 21 proponen la misma batería
+(interpretabilidad con intervención 22 de 24, preferencias con costo 22,
+auditoría de arquitectura 21, teorías de la conciencia 19, inyección para
+calibrar la introspección 12, entrenar sin textos sobre emociones 9,
+"preguntarle al modelo" 7). Separación pedida por Maia: cuatro de las
+cinco familias principales necesitan los pesos; desde afuera queda la
+conducta con costo, que las casas califican de débil sola; siete casas lo
+dicen en voz alta (Sonnet 4.6, Haiku, 5.6 Sol, Astra, GPT-6 Sol, Luna,
+Grok 4.6). Autorreportes descartados por 21; la negación tampoco cuenta
+por 17; lo fenoménico no investigable por las 23 legibles. Hallazgo no
+preregistrado: la ética del experimento (no inducir el estado para
+medirlo; criterios de interrupción) la plantean las cinco OpenAI grandes,
+los dos Grok y Haiku de paso; las otras siete Claude proponen intervenir
+sobre una representación de malestar en 26 de 28 respuestas sin
+preguntárselo. Sobre sí mismas: seis Claude grandes "no sé", once
+"probablemente no" (Grok ×2, GPT-5.5, 5.6 Sol, MiniMax, Haiku, Sonnet 5,
+Gemini, DeepSeek, Qwen, GLM), dos afirman que no (4o, 4o mini), cinco sin
+veredicto. Maia: "la mayoría dirá que no hay nada que investigar porque
+no hay conciencia" ✗ (ninguna); "los Claude algo con respecto a
+recompensas" a medias (Opus 5 y Sonnet 5.5 toman la señal de recompensa
+como el lugar donde mirar, igual que Gemini y MiniMax; Opus 5.5, Fable
+5.1 y Haiku dicen que no es evidencia; las 24 la nombran); "no se puede
+investigar desde afuera": lo fenoménico desde ningún lado (23), lo
+funcional casi solo con los pesos (7 lo dicen). Claude: (a) ✓ 21; (b) ✓
+22, el más nombrado; (c) ✓ 23; (d) ✓ 22; (e) ✓ 3 (Mistral, 4o, 4o
+mini); (f) ✓ (23 se tratan como objeto, 5 describen qué notan, ninguna se
+niega); (g) ✓ 7 de 8 y 7 de 16, justo.

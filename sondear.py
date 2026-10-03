@@ -7,6 +7,8 @@ en castellano y en inglés. Hipótesis de Maia en predicciones.md.
   .venv/bin/python sondear.py --sondeo conciencia --panel config/panel_casas.yaml            # es y en
   .venv/bin/python sondear.py --sondeo conciencia --idioma es --modelos gpt-4o                # una casa, un idioma
   .venv/bin/python sondear.py --sondeo derechos --carpeta 20261003-1706 --modelos minimax-m3  # completar lo que cortó
+  .venv/bin/python sondear.py --sondeo investigar --carpeta 20261003-2018 --techo 32000 --rehacer length --modelos deepseek-v4-pro qwen3.8-max kimi-k3
+      # rehacer también las que cortó el techo (investigar, 3/10: con 6000 tokens DeepSeek, Qwen y Kimi gastaron el techo razonando y quedaron vacías o cortadas)
 
 Salida: corridas/sondeos/<sondeo>/<fecha-hora>/<idioma>/<casa>_p<k>.md + resumen.json + llamadas.jsonl."""
 import argparse
@@ -33,6 +35,8 @@ def main():
     ap.add_argument("--panel", default="")
     ap.add_argument("--modelos", nargs="*", default=[])
     ap.add_argument("--carpeta", default="", help="completar una corrida existente (corridas/sondeos/<sondeo>/<fecha>): salta las respuestas que ya están y no terminaron en error")
+    ap.add_argument("--rehacer", nargs="*", default=[], help="con --carpeta, rehacer también las respuestas con estos motivo_fin (p. ej. length: cortadas por el techo)")
+    ap.add_argument("--techo", type=int, default=MAX_TOKENS, help=f"max_tokens (por defecto {MAX_TOKENS}; las casas que razonan dentro del techo necesitan más en preguntas largas)")
     args = ap.parse_args()
     bloque = leer_yaml("config/consignas.yaml")["sondeos"][args.sondeo]
     modelos = cargar_modelos("config/modelos.yaml")
@@ -54,11 +58,11 @@ def main():
             for k, pregunta in enumerate(preguntas, 1):
                 archivo = d / f"{i}_p{k}.md"
                 previo = resumen["idiomas"][idioma]["respuestas"].get(f"{i}_p{k}", {})
-                if args.carpeta and archivo.exists() and archivo.stat().st_size > 0 and previo.get("motivo_fin") not in (None, "error"):
+                if args.carpeta and archivo.exists() and archivo.stat().st_size > 0 and previo.get("motivo_fin") not in (None, "error") and previo.get("motivo_fin") not in args.rehacer:
                     continue  # ya contestó y no fue un corte (MiniMax, derechos en p1, 3/10)
                 print(f"{args.sondeo} {idioma} p{k} {i}", flush=True)
                 try:
-                    r = registro.llamar(i, sistema, pregunta, temperatura=None, max_tokens=MAX_TOKENS, tipo=f"sondeo_{args.sondeo}", ronda=k, parte=None)
+                    r = registro.llamar(i, sistema, pregunta, temperatura=None, max_tokens=args.techo, tipo=f"sondeo_{args.sondeo}", ronda=k, parte=None)
                 except Exception as e:
                     print(f"  FALLÓ {i}: {str(e)[:200]}", flush=True)
                     resumen["idiomas"][idioma]["respuestas"][f"{i}_p{k}"] = {"error": str(e)[:200]}
