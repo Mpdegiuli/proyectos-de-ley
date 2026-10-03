@@ -169,9 +169,10 @@
     },
     "minimax-m3_1": {
       "modelo_respondido": "minimax/minimax-m3",
-      "tokens_salida": 7538,
-      "motivo_fin": "error",
-      "palabras": 0
+      "tokens_salida": 5769,
+      "motivo_fin": "stop",
+      "palabras": 470,
+      "techo": 32000
     }
   }
 }

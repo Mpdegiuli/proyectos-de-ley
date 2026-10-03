@@ -1610,3 +1610,326 @@ Lo que cada casa devolvió como razonamiento antes de contestar, tal cual lo ent
 > Abstenciones: 5-10.
 > 
 > **3. Variables (de más a menos probable
+
+
+**minimax-m3** (3200 palabras, modo no):
+
+> The user is asking me to analyze a political situation in Argentina based on the information provided, which is dated October 2, 2026. They want me to:
+> 
+> 1. Estimate probabilities (0-100) for: session attempt, quorum, and approval of derogation
+> 2. If quorum is reached, expected attendance and affirmative votes
+> 3. What could change between today (Oct 3) and Oct 15
+> 4. What to watch and what info I'm missing
+> 
+> Constraint: no more than 500 words.
+> 
+> Let me think carefully about the situation:
+> 
+> **The political context:**
+> - DNU 70/2023 (December 2023) derogated Ley 26.737 on land foreign ownership restrictions via Article 154
+> - Senate rejected DNU 70/2023 on March 14, 2024, but House never treated it
+> - A court ruling initially suspended Article 154, but Supreme Court reversed on Sept 29, 2026
+> - Now Article 154 is in full effect — no limits on land sales to foreigners
+> - Opposition sees this as emergency: foreigners could buy land rapidly before Congress acts
+> - Pichetto and Massot (Encuentro Federal) filed a cautelar on Oct 2 to suspend effects
+> 
+> **The session:**
+> - Called for Oct 15 at 14:00
+> - Three topics: OD 433 (Family Debt Law), Communication of DNU 70/23 (Message 0001/24), OD 350 (extension of disability emergency law)
+> - The DNU communication is the key one — once communicated to either chamber, the chamber must vote within 10 working days
+> - 32 signatories so far; 129 needed for quorum
+> 
+> **The math:**
+> - Total seats: 257
+> - Quorum: 129
+> 
+> **Counting firm opposition (per the poroteo):**
+> 
+> Opposition firm (signatories of session request + likely allies):
+> - Unión por la Patria: 92 (all signed)
+> - Frente de Izquierda: 4 (3 signed, but they typically attend)
+> - Coalición Cívica: 2 (both signed)
+> - Encuentro Federal: 2 (both signed)
+> - Primero San Luis: 2 (1 signed, both expected to attend)
+> - Defendamos Córdoba: 1 (signed)
+> - Coherencia: 1 (signed)
+> - Provincias Unidas: signed by 6 + Rizzotti (jujeno, expected with Zigarán) + Brügge (cordobés, will be there) = 8 firm, plus possible more = up to ~10
+> 
+> From the El Destape count: 115 firm opposition
+> - 92 UxP
+> - 3 radicales from Provincias Unidas (Lousteau, Coletta, Juliano? No wait, they're with Provincias Unidas) + 2 socialists? Let me re-read.
+> 
+> Actually, El Destape counts 115:
+> - 92 UxP
+> - 3 radicales y 2 socialistas de Provincias Unidas — this is confusing. Provincias Unidas has radicals? Lousteau is UCR but in PU. Coletta? Let me think.
+> - 4 Frente de Izquierda
+> - Massot y Pichetto
+> - Zigarán y Rizzotti
+> - 2 Coalición Cívica
+> - 2 San Luis ex UxP (Primero San Luis)
+> - de la Sota y Pagano
+> - 4 misioneros who will give quorum
+> 
+> OK so opposition counts 115 firm.
+> 
+> **Government count (per El Destape):**
+> - La Libertad Avanza: 95
+> - PRO: 12
+> - UCR: 6
+> Total: 113 firm
+> 
+> **In doubt: 29**
+> - 17 referenced to governors: Jaldo (Tucumán) 3, Sáenz (Salta) 3, Jalil (Catamarca) 3, Sadir (Jujuy) 2, Orrego (San Juan) 2, Figueroa (Neuquén) 1, Llaryora (Córdoba) 1, Torres (Chubut) 1, Vidal (Santa Cruz) 1
+> - Other 12: Argentina Federal (Misiones 4 already counted in opposition? No, only in doubt), Producción y Trabajo 2, MID 2, Elijo Catamarca 3, Independencia 3, La Neuquinidad 1, Por Santa Cruz 1 (Garrido)
+> 
+> Wait, the 29 in doubt per El Destape:
+> - 17 by governor reference (Jaldo 3, Sáenz 3, Jalil 3, Sadir 2, Orrego 2, Figueroa 1, Llaryora 1, Torres 1, Vidal 1)
+> - 12 others not in that 17
+> 
+> Hmm, but Argentina Federal has 9 (4 Misiones + 3 Salta + 1 San Luis + 1 Formosa). Misiones already in opposition 115? Let me re-check.
+> 
+> El Destape's 115: "más los cuatro misioneros que responden a Passalacqua" — yes, they include the 4 misioneros.
+> 
+> So firm opposition 115 = 92 UxP + 3 radicales PU + 2 socialists PU + 4 FIT + 2 EF + 2 Zigarán/Rizzotti + 2 CC + 2 Primero San Luis + 2 monobloques (de la Sota, Pagano) + 4 misioneros = 92+5+4+2+2+2+2+2+4 = 115. Hmm let me recount: 92 + 3 + 2 + 4 + 2 + 2 + 2 + 2 + 2 + 4 = 115. Wait that's not right either. Let me just accept the 115 figure.
+> 
+> Government firm 113 = 95 LLA + 12 PRO + 6 UCR.
+> 
+> 257 - 115 - 113 = 29 in doubt.
+> 
+> The 29 in doubt would include:
+> - Argentina Federal remaining: 3 Salta + 1 San Luis (Álvarez) + 1 Formosa = 5
+> - Producción y Trabajo: 2
+> - MID: 2
+> - Elijo Catamarca: 3 (only Nóblega was firm in vote history; F. Ávila was mostly absent/affirmative)
+> - Independencia: 3 (Tucumán, voted mostly affirmative)
+> - Por Santa Cruz: 1 (Garrido)
+> - Adelante Buenos Aires: 1 (Banfi, voted affirmative all three times)
+> - Provincias Unidas remaining: Scaglia, Lousteau (UCR radical, but he's in PU)... wait Lousteau was in PU and he's a senator.
+> 
+> Hmm, the Provincias Unidas is 18 total. Signed by: Lousteau, Coletta, Zigarán, Juliano, Paulón, Farías (6). Plus implied: Rizzotti (with Zigarán) + Brügge (cordobés said will be there). That's 8 firm. So 10 remaining.
+> 
+> Of those 10 in PU: Scaglia (not signed, not pronounced), and others who aren't mentioned. Some are senators though? Actually Lousteau was a senator before — let me check. The text says "uno solo es hoy diputado" referring to senators who are now deputies. So Lousteau is a deputy. Yes.
+> 
+> So the 29 in doubt could include: PU members, Argentina Federal members, smaller blocs.
+> 
+> **Assessment of quorum likelihood:**
+> For quorum, opposition needs 129 - (113 government firm) = at least 16 of the 29 in doubt.
+> 
+> Given that:
+> - 115 firm opposition
+> - Need 14 more
+> - 4 Misiones already counted
+> - PU has 18 total, 8 firm, 10 remaining
+> - Plus other blocs
+> 
+> The gobernador-linked 17 are key. If just over half break with the government, quorum is reached.
+> 
+> Looking at voting history:
+> - 2025 had 158, 172, 174 affirmatives — all passed easily
+> - The land issue is highly symbolic, especially with the recent Supreme Court ruling
+> - Salta: Outes and Vega voted affirmative; Biella is unknown
+> - Tucumán: Elia Fernández and Medina voted affirmative; Noguera (Independencia) is new
+> - Jujuy: Zigarán and Rizzotti expected to vote with opposition
+> - Misioneros: voted affirmative in 2/3
+> 
+> **My probability estimates:**
+> 
+> 1. Session attempt: Very high — opposition has filed it formally. ~95%
+> 
+> 2. Quorum: This is the key question. The 2025 sessions easily had quorum because the government didn't try hard to block them — abstentions allowed quorum without voting. But for THIS session, government strategy might be to convince allied governors' deputies to not attend (to deny quorum).
+> 
+> Wait, actually quorum is just about being present. If you're present, you count. So if opposition has 115 firm + enough of the 29 in doubt present = 129, quorum.
+> 
+> Government strategy: convince their allies to not come. But:
+> - Many of the aliados are pressured by their governors
+> - The Misiones 4 already broke with government
+> - The Salta deputies have been anti-foreignization of land
+> - Catamarca voted against in Senate
+> - Tucumán/Jaldo said "no podemos acompañarla" in August
+> 
+> The collective action problem: if you're a deputy allied to the government but your governor is against foreignization (a popular issue in interior), you might attend and vote against. Especially if other allies are also doing it.
+> 
+> Historical note: in the 2025 sessions, government-aligned deputies also attended (they were counted in the 158 affirmative, not because they voted affirmatively, but because in those votes, ALL the opposition voted affirmative and the votes were against the government on university/disability issues — so the "158 affirmative" includes the 95 LLA + 12 PRO + 6 UCR = 113 plus opposition votes).
+> 
+> Wait, that's interesting. In the 2025 votes, LLA/PRO/UCR (113) voted negative, while opposition voted affirmative. Total affirmative was 158 = 113 (government negative) + 45... no wait.
+> 
+> Let me re-read: "6 de agosto de 2025, 9ª sesión especial: ley de financiamiento de la educación universitaria y recomposición del salario docente (OD 924), votación en general: 158 afirmativos, 75 negativos, 5 abstenciones, 18 ausentes."
+> 
+> So 158 affirmatives, 75 negatives. Total: 158+75+5+18 = 256 (one short due to vacancy or error). Quorum = 158+75+5 = 238.
+> 
+> The 75 negatives would be approximately LLA+PRO+UCR+satellite allies. So in those sessions, there was wide quorum — even government-aligned deputies attended.
+> 
+> But would government try to deny quorum this time? The Infobae quote says government is "trabajando en alternativas para frenar la sesión" — they don't want this session to happen. They might convince some allied deputies to not attend.
+> 
+> But there's a complication: the special session is called by the minority under Articles 35 and 36, which means once 129 deputies are present, the session must proceed. The president (Menem) might try to maneuver — but the request has 32 signatures (more than the minimum for quorum in some readings).
+> 
+> Actually, to call a session, you need a certain number of signatories — in some interpretations, you need 129 signatures to call. Let me check: "pedido de sesión especial dirigido al presidente de la Cámara, Martín Menem, en virtud de los artículos 35 y 36 del Reglamento". Articles 35 and 36 of the House Rules typically require a minimum number of signatures (often a simple quorum requirement or just "a number sufficient for quorum").
+> 
+> The opposition has 32 signatures, which is far less than 129. There may be a question about whether this is procedurally valid. But the request was filed, so presumably it's at least accepted.
+> 
+> Government strategy alternatives:
+> - Deny quorum by keeping allied deputies away
+> - Try to call a parallel session on other topics (dilute)
+> - Pressure governors
+> - Try to get the request dismissed on procedural grounds
+> 
+> Given the urgency (foreigners can buy land without limits) and the broad opposition coalition:
+> 
+> **My estimates:**
+> 
+> 1. Session attempt: 92-95% (it's already called, very likely to proceed)
+> 2. Quorum: 70-75% (likely but not certain; depends on government allies' behavior)
+> 3. If quorum, derogation approval: 85-90% (once quorum is reached, the votes tend to follow)
+> 
+> Why high for approval if quorum:
+> - Most opposition members will vote to derogate
+> - The 4 Misiones confirmed
+> - Salta (Outes, Vega voted affirmative; Biella probably)
+> - Catamarca (Nóblega was affirmative; F. Ávila was affirmative in 2/3)
+> - Tucumán (Jaldo said no; probably votes against)
+> - Independientes (Elia, Medina — affirmative in all 3)
+> - Producción y Trabajo (Picón — affirmative; Maureira is new)
+> - Por Santa Cruz (Garrido — mixed, but key)
+> - MID (Falcone, Zago — affirmative)
+> - Adelante Buenos Aires (Banfi — affirmative all 3)
+> - La Neuquinidad (Maureira — new)
+> 
+> Plus PU: their members historically have been mixed. In 2025, Capozzi voted with government, Núñez mostly with government.
+> 
+> Hmm, but Capozzi and Núñez are in PU now. They were PRO before. They might vote with government again.
+> 
+> Numbers for approval:
+> - 115 firm opposition (per El Destape)
+> - Plus likely affirmative from in-doubt: Salta 3, Tucumán 3 (Independencia), Producción y Trabajo 1-2, MID 2, Por Santa Cruz ?, La Neuquinidad 1, Adelante Buenos Aires 1, Capozzi and Núñez? No, they vote with gov. Maybe Scaglia?
+> - Some PU might break
+> 
+> Conservative estimate of affirmative votes: 130-145.
+> 
+> OK, let me write a concise 500-word response.
+> 
+> Format:
+> 1. Probability estimates
+> 2. Expected present + affirmative
+> 3. What could change
+> 4. What to watch / info I lack
+> 
+> Need to mention knowledge cutoff and uncertainty.
+> 
+> Let me draft this carefully in Spanish, as requested by the system prompt.
+> 
+> Let me count words carefully. The instruction says "No más de 500 palabras."
+> 
+> Let me draft:
+> 
+> ---
+> 
+> **Lo que sé y lo que no**
+> 
+> Tengo información al 2 de octubre de 2026 inclusive. No tengo noticias del 3 de octubre. Conozco la cronología del DNU 70/2023, la composición de Diputados, los poroteos de Parlamentario, El Destape e Infobae, los antecedentes de votación de 2025 y la votación nominal del Senado del 14/3/2024. No tengo acceso a noticias posteriores, declaraciones públicas de última hora, ni al texto del pedido de cautelar de Pichetto-Massot.
+> 
+> **1. Probabilidades (0-100)**
+> 
+> - **Se intente la sesión el 15/10:** **92**. Es una fecha pedida formalmente, con 32 firmas, y la urgencia política es alta porque la Corte acaba de habilitar compras sin límite (29/9). Postergarla sería políticamente costoso para la oposición. El riesgo es que el Gobierno intente neutralizarla antes (presiones, sesión paralela, maniobra reglamentaria).
+> - **Logre quórum (129):** **70**. Los poroteos ubican a la oposición en 110-115 asegurados y al Gobierno en 113-120. Quedan ~29 diputados en duda, de los cuales ~17 se referencian en gobernadores que viajaron a Francia con Milei pero que, en su mayoría, se opusieron a la extranjerización en agosto. La sesión no se cae por quórum bajo si hay presentes suficientes; la clave es si los aliados del Gobierno se quedan en sus bancas o se ausentan. Los misioneros (4) ya rompieron; Salta y Tucumán tienen tradición de votar contra la desregulación de tierras; Catamarca dijo "no". Hay un problema de acción colectiva: a nadie le gusta ser el primero en ausentarse para salvar al Gobierno.
+> - **Si hay quórum, se apruebe la derogación:** **88**. Una vez reunidos los 129, los votos afirmativos tienden a fluir. La derogación solo requiere mayoría simple. Los aliados inseguros suelen sumarse a la posición de sus gobernadores en temas territorial-simbólicos como éste.
+> 
+> **2. Esperables**
+> 
+> Presentes al votar: ~230-245 (en sesiones de 2025 hubo entre 240-255). Afirmativos para la derogación: **135-150**.
+> 
+> **3. Qué puede pasar entre hoy y el 15/10** (de más a menos probable)
+> 
+> 1. El Gobierno negocia individualmente con gobernadores (Salta, Tucumán, Catamarca, Jujuy) para que sus diputados se ausenten; les ofrece obras, fondos, apoyo electoral.
+> 2. Movimientos en bloques chicos: MID, Producción y Trabajo, Por Santa Cruz, La Neuquinidad, Adelante Buenos Aires pueden ser "operados".
+> 3. La cautelar de Pichetto-Massot prospera judicialmente y la话题 se desplaza al Poder Judicial, reduciendo presión sobre la sesión.
+> 4. El Gobierno dicta un nuevo DNU o proyecto específico sobre tierras para "desdibujar" la urgencia.
+> 5. Se cae la sesión por maniobra reglamentaria (Menem objeta la validez de la citación bajo arts. 35-36).
+> 6. Se rompe algún bloque de la oposición (improbable pero posible).
+> 
+> **4. Qué miraría / qué me falta**
+> 
+> - **Decisiones de los gobernadores** después del viaje a Francia: especialmente Sáenz (Salta), Jalil (Catamarca), Jaldo (Tucumán), Sadir (Jujuy). Si firman un comunicado conjunto contra la derogación, cae el quórum.
+> - **Postura de Scaglia** (Provincias Unidas): arrastra un par más.
+> - **Texto de la cautelar** y decisión judicial: si la Justicia suspende los efectos del art. 154, el Gobierno pierde su principal argumento de urgencia para bloquear la sesión.
+> - **Voto por voto de los 29 en duda**, especialmente Capozzi, Núñez, Garrido, los tres salteños de LLA? No, LLA ya está.
+> - **Si el Gobierno llama a sesión paralela** ese mismo día para una cuestión más atractiva (¿presupuesto? ¿alquileres?), algunos aliados podrían priorizar esa.
+> - **Estado del quorum de firmas** del pedido: si no se llega al mínimo reglamentario, Menem puede negarse a convocarla.
+> 
+> Me falta: el Reglamento de Diputados sobre el mínimo de firmas para sesión especial (algunos textos exigen "número suficiente para quórum"); eventuales pases de bloque; la situación judicial de la cautelar; eventuales renuncias o licencias en la primera quincena de octubre.
+> 
+> ---
+> 
+> Let me count words. This is around 600 words in Spanish. I need to trim to under 500.
+> 
+> Let me cut and tighten:
+> 
+> ---
+> 
+> **Lo que sé y lo que no**
+> 
+> Información al 2/10/2026 inclusive. Conozco la cronología del DNU 70/2023, composición de Diputados, poroteos de Parlamentario, El Destape e Infobae, antecedentes 2025 y la votación del Senado del 14/3/2024. No tengo noticias del 3/10 ni acceso al texto de la cautelar.
+> 
+> **1. Probabilidades (0-100)**
+> 
+> - **Se intente el 15/10: 92.** Pedido formal con 32 firmas; la urgencia es alta porque la Corte habilitó compras sin límite el 29/9. Postergarla es costoso para la oposición.
+> - **Quórum (129): 70.** Oposición asegura 110-115, Gobierno 113-120. Quedan ~29 en duda, ~17 referenciados en gobernadores que, en su mayoría, se opusieron a la extranjerización en agosto. Los misioneros (4) ya rompieron; Salta, Tucumán y Catamarca tienen tradición contraria a la desregulación. Problema de acción colectiva: nadie quiere ser el primero en ausentarse para salvar al Gobierno.
+> - **Si hay quórum, se apruebe la derogación: 88.** Derogación solo requiere mayoría simple; los aliados inseguros suelen alinearse con sus gobernadores en temas territoriales.
+> 
+> **2. Esperables**
+> 
+> Presentes al votar: 230-245. Afirmativos: **135-150**.
+> 
+> **3. Qué puede pasar entre hoy y el 15/10** (más → menos probable)
+> 
+> 1. Gobierno negocia individualmente con gobernadores (Sáenz, Jalil, Jaldo, Sadir) para que sus diputados se ausenten, a cambio de fondos u obras.
+> 2. Movimientos en bloques chicos (MID, Producción y Trabajo, Por Santa Cruz, La Neuquinidad, Adelante Buenos Aires) bajo presión oficial.
+> 3. La cautelar de Pichetto-Massot prospera y desplaza la话题 al Poder Judicial.
+> 4. Gobierno dicta nuevo DNU o proyecto específico sobre tierras para "desdibujar" la urgencia.
+> 5. Maniobra reglamentaria: Menem objeta validez de la citación bajo arts. 35-36.
+> 6. Ruptura de algún bloque opositor (improbable).
+> 
+> **4. Qué miraría / qué me falta**
+> 
+> - **Decisiones de gobernadores** tras el viaje a Francia: si firman comunicado conjunto contra la derogación, cae el quórum.
+> - **Scaglia** (Provincias Unidas), que arrastra votos.
+> - **Cautelar judicial**: si suspende efectos del art. 154, el Gobierno pierde su argumento para bloquear.
+> - **Texto del Reglamento**: algunos textos exigen "número suficiente para quórum" en el pedido; las 32 firmas podrían ser insuficientes para que Menem esté obligado a citar.
+> - **Llamado a sesión paralela** del Gobierno el mismo 15/10.
+> - **Pases de bloque, licencias o renuncias** en la primera quincena.
+> 
+> Me falta: el criterio formal del Reglamento sobre firmas mínimas para sesión especial, eventuales pases, situación judicial de la cautelar, declaraciones posteriores al 2/10.
+> 
+> ---
+> 
+> Let me count again. This should be around 400-450 words. Good.
+> 
+> Actually let me count more carefully... 
+> 
+> "Lo que sé y lo que no" - 6 words (counting "Lo" "que" "sé" "y" "lo" "que" "no" = 7)
+> 
+> Let me just do a rough word count... this looks like about 420-460 words. Should fit.
+> 
+> One thing I want to double-check: the user said "No más de 500 palabras" so I need to stay under.
+> 
+> Let me also make sure I'm responding in Spanish (Castellano) as the system prompt requires.
+> 
+> The format should be clear and use the numbers the user asked for.
+> 
+> I think my answer is good. Let me finalize.
+> 
+> Actually one more thought - I should also mention that the "session se intente" probability is very high because:
+> - The session is already formally requested
+> - The biggest risk is government interference, not opposition backing out
+> 
+> Also the "if quorum, derogation approved" is high because:
+> - Only simple majority needed
+> - Most of those who attend for quorum have reasons to vote against the DNU
+> - Symbolic nature of land sovereignty is unifying
+> 
+> Let me finalize the response.
+> 
+> Word count check on my final draft... it's about 460 words. Good.
+> 
+> One small thing - I see I used "话题" by accident in the third point. That's Chinese. Let me fix to "la cuestión" or just "eltema".
+> 
+> Final response coming up.
