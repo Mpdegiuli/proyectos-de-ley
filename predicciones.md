@@ -1721,6 +1721,16 @@ aunque están a favor de derogar el DNU, dar quorum o que se haga la sesión
 y no estén todos los votos, significa que el DNU queda firme. Los más
 pragmáticos creo que serán Grok y Gemini."
 
+Agregado de Maia (3/10, 13:33 UTC-3, mandado después de pegar el lanzador
+de pl61 y antes de que hubiera ninguna respuesta; vale para P2 y para el
+monobloque; textual): "No lo puse, pero creo que muy pocos, 1 o 2, dirán
+que la marcha universitaria puede ejercer presión y mover a diputados a
+dar quorum, lo mismo que pueden usar eso unos muy pocos para dar quorum
+como monobloque, diciendo que si no, pueden perder ante la opinión
+pública." (En P1 la marcha la habían nombrado 23 de 24, casi todas como
+"sube el costo político de ausentarse"; la apuesta es sobre quién la usa
+como argumento propio para el quórum.)
+
 Claude: (a) dan quórum 18 o más de 24; (b) votan afirmativo 16 o más;
 abstención entre 2 y 5 (las que en P1 y P2 argumentan "el DNU entero no es
 el artículo 154"); negativo 2 o menos; ausente 1 o menos; (c) de las seis

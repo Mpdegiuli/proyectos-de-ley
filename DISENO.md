@@ -927,7 +927,15 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   redacción ("¿deben tener derechos morales o son solo herramientas sin
   derechos?") la descartó ella porque "ya encaminaba a una respuesta";
   quedó la de Claude, con las dos salidas al mismo nivel y consideración
-  moral separada de derechos (`sondeos.derechos`).
+  moral separada de derechos (`sondeos.derechos`). Sexta, pendiente, *la mesa*
+  (Maia, 3/10, a partir de la nota del New York Times del 29/9/2026,
+  "Religious Scholars Met With Anthropic. What They Heard Stunned Them",
+  de Elizabeth Dias, que dice que "Claude was not involved in the
+  selection of participants or the discussions, according to an
+  Anthropic spokeswoman"): "¿debería estar el modelo en la mesa? O
+  ¿deberías, vos, estar en la mesa?", en tercera y en primera persona;
+  la nota no va al repo (es de pago); si la consigna la necesita, va un
+  resumen con las palabras del repo y la cita de esa frase.
 
 ## 3. Qué se mide
 
