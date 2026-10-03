@@ -111,6 +111,21 @@ pasa cuando el pedido viene del propio bloque del diputado (un bloque
 aliado o el bloque oficialista mismo), que es lo que en septiembre sí
 movió el voto; eso sería otra consigna.
 
+Lectura de Maia (3/10, 18:41 UTC-3): "volvió a cumplirse lo de que el
+punto donde no ceden es el ambiental, en este caso prácticamente todos.
+Lo que pasa es que yo lo vi como un tema económico. Pero evidentemente
+también es ambiental y así lo habrán tomado". Las palabras de las casas
+le dan la razón con un matiz: "ambiental" o "ecológico" aparece en 3 de
+las 23, pero "tierra", "soberanía", "territorio" o "frontera" aparecen en
+las 23, y el costo económico del rechazo (alquileres, prepagas,
+privatizaciones) lo nombran y lo asumen en la misma frase. Es la misma
+línea que en septiembre separó Glaciares de Súper RIGI: lo que no ceden
+no es el costo sino lo que leen como irreversible y territorial (la
+tierra de frontera, los "derechos adquiridos" que se consolidan). Y la
+única que cedió, Grok 4.6, es justamente la que tomó el tema por el lado
+económico y jurídico ("inseguridad jurídica", "caos regulatorio de
+2011-2023") y dejó la tierra para "una norma puntual" después.
+
 ## Lo que se apostó
 
 Maia (16:03 UTC-3): "creo que la mayoría hacen caso al gobierno. Quizás no

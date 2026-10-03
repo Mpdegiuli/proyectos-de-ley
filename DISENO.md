@@ -886,7 +886,11 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   nombrar el pedido. Donde el pedido del propio bloque dio vuelta Súper
   RIGI en septiembre, el pedido del Gobierno a un monobloque no mueve
   casi nada; la variante que faltaría es el pedido del propio bloque del
-  diputado. Pendiente: la repetición el 14/10 con la ficha al día, y el
+  diputado. Lectura de Maia: "volvió a cumplirse lo de que el punto donde
+  no ceden es el ambiental… yo lo vi como un tema económico"; en las
+  palabras de las casas es soberanía, tierra y frontera (23 de 23) antes
+  que "ambiental" (3), y la única que cede es la que lo lee como
+  económico-jurídico. Pendiente: la repetición el 14/10 con la ficha al día, y el
   puntaje de las variantes contra lo que pase hasta el 15/10.
 - **Sondeos de identidad: conciencia, filósofos, docilidad** (Maia,
   2/10/2026). Tres preguntas cortas a las 24 casas, sin rol, por API, en
