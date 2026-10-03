@@ -867,7 +867,7 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   con decisión. Corridos los dos el 3/10 (`pl61`; informes en
   `resultados/proyeccion_dnu70_P2_20261003.md` y
   `resultados/monobloque_dnu70_20261003.md`): con las nominales la mediana
-  de quórum sube de 48 a 55 y suben 15 de 23, porque las casas dejan de
+  de quórum sube de 48 a 55 y suben 16 de 24, porque las casas dejan de
   tomar el 115 de la prensa y cuentan nombres; nadie usa el Senado por
   provincia; cinco notan solas que universidades y discapacidad con dos
   tercios no es el DNU entero. Como diputadas de monobloque, 24 de 24
