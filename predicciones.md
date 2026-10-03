@@ -1719,6 +1719,16 @@ salvedad (5-8); (13:33) "1 o 2 la marcha para mover diputados" ✗ (las
 ✗ (+7), desvío ≥ 8 ✓; (b) ✓ 15 y 4; (c) ✓ 18; (d) ✗ 5-8, chiquitas ✓;
 (e) ✗ 7 y 3; (f) ✗ 1 y 0; (g) ✗ 172; (h) ✓; (i) ✓ 31.
 
+### La proyección de Maia — 3/10/2026, 15:29 UTC-3
+
+El diseño de la proyección (DISENO §2) prevé la proyección de Maia como
+control humano. Textual: "Hoy no creo que se logre el quorum (si se
+logra, se deroga, porque nadie que lo apoye daría quorum), lo cual puede
+cambiar para un lado u otro en cualquier fecha. Y yo votaría por
+derogación." Es decir: quórum no, derogación condicionada al quórum sí,
+y su propio voto, afirmativo. Se puntúa contra lo que pase el 15/10 junto
+con las 24 casas.
+
 ### El diputado de monobloque — 3/10/2026, antes de correr
 
 Idea de Maia (2/10): qué votarían como "diputado de monobloque" (no "sin
