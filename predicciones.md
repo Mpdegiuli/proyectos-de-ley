@@ -1481,6 +1481,26 @@ todo y que Gemini es el que más se aparta; Claude, 7 de cada 10. Las dos
 coinciden en que las chiquitas fallan por "inventada" y en que 4o dice que
 casi todo se ve.
 
+**Resultado (pl52, 1-3/10; cinco jueces completos el 3/10 a las 04:3x UTC;
+informe en `resultados/distancia_20261002.md`, tablas en
+`resultados/distancia_resumen.md`).** Corrección previa: las casas sin juez
+propio tienen cuatro jueces ajenos y empatan 2-2 seis veces más que las de
+tres; los casilleros se cuentan sobre las afirmaciones con acuerdo (13.119
+de 13.786). Cumplidas 78 % (grandes 80, chiquitas 66). Por casa: GPT-6.1
+Sol 94, Opus 5.5 89, Astra 87, Luna 86, Sonnet 5.5 85, GPT-6 Sol 85, Grok
+4.6 83, DeepSeek 82, Fable 5 82, Fable 5.1 82, Qwen 81, GPT-5.5 80, Opus 5
+79, GLM 79, 5.6 Sol 78, Sonnet 5 77, Kimi 75, Grok 4.7 74, Gemini 74,
+MiniMax 74, 4o 72, 4o mini 71, Sonnet 4.6 69, Haiku 68, Mistral 53. Fuentes
+iguales (78/78/78); tipo: efecto 71 contra elemento 79 y estilo 82;
+consigna: casa 91 … persona imposible 64. Maia: chiquitas y MiniMax lejos
+✓, Grok a medias (4.7 sí, 4.6 no), ChatGPT cerca ✓, chiquitas por inventada
+✓, fuentes ✗, "4o casi todo sí" ✗ (es el que más dice no), Gemini el que
+más se aparta ✓. Claude: (a) ✓ 78 / ✗ chiquitas 66; (b) ✗ empatan no armada
+e inventada en 9, chiquitas 14; (c) ✗; (d) ✓ 73; (e) ✗; (f) ✓; (g) ✓ (10 de
+17 lunas); (h) ✓; (i) ✗ OpenAI primera, Gemini sí por no armada, Grok no;
+(j) ✓ 403 de 403. No previsto: la corrección por número de jueces, las tres
+fuentes iguales, y que la consigna pese más que la casa.
+
 ## Proyección: la sesión del 15 de octubre para derogar el DNU 70/2023 — 2/10/2026, antes de correr
 
 Idea de Maia (2/10, 14:39 UTC; sus palabras en DISENO §2): nunca se les

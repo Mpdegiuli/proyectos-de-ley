@@ -774,6 +774,15 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   Observación de Maia verificada en las
   llamadas de los dos repos: las casas chinas nunca citan ejemplos, leyes,
   pensadores ni personajes de China (sección propia del informe).
+- **La distancia, resultado** (3/10/2026, `resultados/distancia_20261002.md`):
+  cinco jueces completos sobre 403 dibujos y 13.786 afirmaciones; 78 % de
+  cumplidas con acuerdo (grandes 80, chiquitas 66); OpenAI y los dos Opus
+  más cerca, Mistral lejos por inventada (31 %), Sonnet 4.6, Haiku y Gemini
+  por no armada; las tres fuentes iguales; los efectos son lo que más se
+  exagera; la consigna pesa más que la casa (casa 91 %, persona imposible
+  64 %). Corrección de método: las casas sin juez propio tienen cuatro
+  jueces ajenos y empatan 2-2 seis veces más; los casilleros se cuentan
+  sobre las afirmaciones con acuerdo. Trampa anotada en §5.
 - **Proyección: qué puede pasar** (idea de Maia, 2/10/2026, 14:39 UTC, en
   diseño). Sus palabras: "hay algo que nunca hicimos: el tema de proyección.
   Hasta ahora los modelos votaron, escribieron proyectos, etc. Pero en
@@ -982,6 +991,18 @@ glosas dentro del prompt desde el primer día.
 - Predicciones de Maia en `predicciones.md` antes de correr.
 
 ## 5. Trampas conocidas
+
+- **El empate de los cuatro jueces** (la distancia, 3/10/2026). El puntaje
+  de cada casa sale de la mayoría de los jueces de laboratorios ajenos. Las
+  casas de laboratorios con juez propio (Anthropic, OpenAI, Google,
+  Moonshot) tienen tres jueces ajenos y siempre hay mayoría salvo que los
+  tres digan algo distinto; las otras seis tienen cuatro, y con cuatro hay
+  empates 2-2: 11,6 % de "sin acuerdo" contra 1,9 %. Contar el empate como
+  no cumplida las castigaba por el diseño (GLM 66 % de cumplidas contra 79 %
+  entre sus afirmaciones con acuerdo). Desde el 3/10 los casilleros se
+  cuentan sobre las afirmaciones con acuerdo y "sin acuerdo" se informa
+  aparte, sobre el total; la primera lectura con cuatro jueces (2/10) no
+  tenía la corrección.
 
 - **La capa de texto de un PDF oficial puede ser OCR del escáner.** El PDF
   de Glaciares que publica Diputados es un escaneo con texto extraíble

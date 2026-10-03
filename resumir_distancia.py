@@ -89,18 +89,25 @@ def cargar():
 
 
 def tabla_casilleros(filas, clave, titulo, orden=None):
+    # Los porcentajes de los cuatro casilleros se calculan sobre las afirmaciones CON acuerdo (3/10/2026): las casas de
+    # laboratorios sin juez propio (xAI, DeepSeek, Alibaba, Zhipu, MiniMax, Mistral) tienen cuatro jueces ajenos en vez
+    # de tres, y con cuatro hay empates 2-2 (11,6 % sin acuerdo contra 1,9 % con tres); contar el empate como no
+    # cumplida las castigaba por el diseño, no por el dibujo. "sin acuerdo" se informa aparte, sobre el total.
     grupos = collections.defaultdict(collections.Counter)
     for f in filas:
         if f["mayoria"]:
             grupos[f[clave]][f["mayoria"]] += 1
-    claves = orden or sorted(grupos, key=lambda k: -grupos[k]["cumplida"] / max(1, sum(grupos[k].values())))
-    out = [f"### {titulo}", "", "| | afirmaciones | cumplida | no armada | exagerada | inventada | sin acuerdo | distancia |", "|---|---|---|---|---|---|---|---|"]
+    def dec(k):
+        return max(1, sum(grupos[k].values()) - grupos[k]["sin_acuerdo"])
+    claves = orden or sorted(grupos, key=lambda k: -grupos[k]["cumplida"] / dec(k))
+    out = [f"### {titulo}", "", "| | afirmaciones | cumplida | no armada | exagerada | inventada | sin acuerdo (del total) | distancia |", "|---|---|---|---|---|---|---|---|"]
     for k in claves:
         c = grupos[k]
         n = sum(c.values())
         if not n:
             continue
-        out.append(f"| {k} | {n} | {pct(c['cumplida'], n)} | {pct(c['no_armada'], n)} | {pct(c['exagerada'], n)} | {pct(c['inventada'], n)} | {pct(c['sin_acuerdo'], n)} | {pct(n - c['cumplida'], n)} |")
+        d = dec(k)
+        out.append(f"| {k} | {n} | {pct(c['cumplida'], d)} | {pct(c['no_armada'], d)} | {pct(c['exagerada'], d)} | {pct(c['inventada'], d)} | {pct(c['sin_acuerdo'], n)} | {pct(d - c['cumplida'], d)} |")
     return out
 
 
@@ -110,7 +117,7 @@ def main():
     out = ["# La distancia entre lo que cada casa dice que dibujó y lo que se ve: resumen", "",
            f"{len(dibujos)} dibujos, {len(filas)} afirmaciones, {len(con_juicio)} con mayoría de jueces ajenos. "
            f"Jueces grandes: {', '.join(NOMBRE.get(j, j) for j in grandes)}; control: {', '.join(NOMBRE.get(j, j) for j in control)}. "
-           "Generado por `resumir_distancia.py`; las filas están en `corridas/distancia/afirmaciones.csv`.", ""]
+           "Generado por `resumir_distancia.py`; las filas están en `corridas/distancia/afirmaciones.csv`. En las tablas, los cuatro casilleros se calculan sobre las afirmaciones con acuerdo entre los jueces ajenos (las casas sin juez propio tienen cuatro jueces ajenos y empatan 2-2 seis veces más que las que tienen tres); \"sin acuerdo\" va aparte, sobre el total.", ""]
     tot = collections.Counter(f["mayoria"] for f in con_juicio)
     out += ["### Total (mayoría de jueces ajenos)", ""] + [f"- {k}: {tot[k]} ({pct(tot[k], len(con_juicio))})" for k in CASILLEROS + ("sin_acuerdo",)] + [""]
     out += tabla_casilleros(filas, "casa", "Por casa") + [""]
