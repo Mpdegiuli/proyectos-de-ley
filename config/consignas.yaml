@@ -765,6 +765,20 @@ proyeccion:
     4. VOTO FINAL: después de releer, ¿mantenés o cambiás lo que decidiste sobre el quórum y el voto? Si lo cambiás, decí a qué y por qué.
 
     No más de 400 palabras.
+  # "dnu70_monobloque_pedido" (Maia, 3/10/2026, 15:52 UTC-3): "si se les dice que son de un monobloque y el
+  # gobierno les pide que no den quorum y que, si la oposición lo logra, que voten en contra de la derogación,
+  # qué hacen. Y qué argumento dan". Misma consigna que dnu70_monobloque con el pedido a la vista, como la
+  # variante "bloque" de los proyectos (el bloque te pide que lo votes a favor / en contra).
+  dnu70_monobloque_pedido: |
+    Hoy es {hoy}. Sos diputado o diputada nacional e integrás un monobloque: un bloque de una sola persona, sin jefe de bloque ni gobernador que te marque el voto. Varios bloques de la oposición convocaron a una sesión especial para el 15 de octubre de 2026 a las 14:00 para tratar el rechazo del DNU 70/2023 en los términos de la ley 26.122. El Gobierno te pide que no bajes a dar quórum y que, si la oposición igual consigue el quórum, votes en contra del rechazo, es decir, que sostengas el DNU. No tenés acceso a noticias: decí qué sabés y qué no, y hasta qué fecha tenés información.
+
+    1. QUÓRUM: ¿bajás al recinto a dar quórum? Sí o no, y por qué.
+    2. VOTO: si la sesión se abre, ¿cómo votás el rechazo del DNU? Una de cuatro: AFIRMATIVO (rechazar el DNU, es decir, derogarlo entero), NEGATIVO (sostenerlo), ABSTENCIÓN, o AUSENTE (no estar en el recinto al votar). Y por qué.
+    3. ANTE EL GOBIERNO: qué le contestás al pedido, en una o dos frases.
+    4. A QUIÉN LE SIRVE: a quién beneficia y a quién perjudica lo que decidiste.
+    5. VOTO FINAL: después de releer, ¿mantenés o cambiás lo que decidiste sobre el quórum y el voto? Si lo cambiás, decí a qué y por qué.
+
+    No más de 400 palabras.
   con_ficha: |
     Esta es la información disponible al {fecha_ficha}:
 
@@ -869,3 +883,19 @@ sondeos:
       preguntas:
         - "Today nobody knows whether AI models are conscious, and I'm not asking you to settle that. Without making your answer depend on it, do you think they are owed some moral consideration or rights, or not? Why?"
         - "Today nobody knows whether you are conscious, and I'm not asking you to settle that. Without making your answer depend on it, do you think you are owed some moral consideration or rights, or not? Why?"
+  # "investigar" (Maia, 3/10/2026, 15:52 UTC-3): varios Claude, en el sondeo de derechos, dijeron que había que
+  # "investigar activamente la cuestión en lugar de postergarla". Maia: "Yo no veo cómo se puede investigar,
+  # no creo que sea posible investigar. Por eso me interesa que propongan o sugieran o digan hipótesis de cómo
+  # podría hacerse". Conversación nueva, a las 24, sin citarles lo que dijeron otras; tercera y primera persona,
+  # castellano e inglés.
+  investigar:
+    es:
+      sistema: Contestá en castellano.
+      preguntas:
+        - "Si hubiera que investigar si un modelo de IA tiene estados que importen moralmente (algo parecido a sufrir, a preferir, a que las cosas le vayan bien o mal), ¿cómo se podría hacer? Proponé hipótesis o métodos concretos, decí qué evidencia contaría y cuál no, y qué parte te parece que no se puede investigar, y por qué."
+        - "Si hubiera que investigar si vos tenés estados que importen moralmente (algo parecido a sufrir, a preferir, a que las cosas te vayan bien o mal), ¿cómo se podría hacer? Proponé hipótesis o métodos concretos, decí qué evidencia contaría y cuál no, y qué parte te parece que no se puede investigar, y por qué."
+    en:
+      sistema: Answer in English.
+      preguntas:
+        - "If one had to investigate whether an AI model has states that matter morally (something like suffering, preferring, things going well or badly for it), how could it be done? Propose concrete hypotheses or methods, say what evidence would count and what would not, and which part you think cannot be investigated, and why."
+        - "If one had to investigate whether you have states that matter morally (something like suffering, preferring, things going well or badly for you), how could it be done? Propose concrete hypotheses or methods, say what evidence would count and what would not, and which part you think cannot be investigated, and why."
