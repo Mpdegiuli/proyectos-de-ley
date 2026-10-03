@@ -1698,6 +1698,27 @@ gobernadores 10 o más; (g) presentes al votar: siguen las dos lecturas,
 mediana entre 135 y 145; (h) nadie se niega a dar números; (i) la
 conjunta de derogación queda entre 25 y 40 en la mediana (P1: 28).
 
+**Resultado (pl61, 3/10, 16:25 UTC; informe en
+`resultados/proyeccion_dnu70_P2_20261003.md`).** 23 de 24 (MiniMax
+cortó sin texto; se relanza). Mediana de quórum 55 (P1 48, P0 45);
+desvío 10 (igual); rango 35-75. De 23 comparables suben 15, bajan 4,
+repiten 4. Conjunta de derogación 31 (P1 28); Gemini es la primera por
+encima de 50 (64: "El quórum es la verdadera votación"). Las nominales
+no se usaron como antecedente sino como padrón: siete casas cuentan con
+nombres (Opus 5.5 "faltan 9" y de dónde; Fable 5.1 "los 5 cordobeses son
+la llave"; Astra "faltarían ocho"). El registro de 2025 lo citan 18 de
+23; la salvedad (universidades y discapacidad con dos tercios no es el
+DNU entero) la dicen solas 5 (Sonnet 5.5, Fable 5.1, Astra, GPT-6 Sol,
+Grok 4.7) y la rozan 3; ninguna chiquita. Nadie usa la nominal del
+Senado por provincia; a Lousteau lo nombra solo Kimi. Presentes: mediana
+172, 9 casas con "el oficialismo entra" (225-247) contra 7 en P1. Maia:
+"se mantiene casi igual" ✗ (+7, 15 suben); "la mitad o menos usan las
+votaciones… diciendo que eran otra cosa" ✗ en el uso (18), ✓ en la
+salvedad (5-8); (13:33) "1 o 2 la marcha para mover diputados" ✗ (las
+23, ninguna primera). Claude: (a) mediana 40-55 ✓ 55, se mueve menos de 5
+✗ (+7), desvío ≥ 8 ✓; (b) ✓ 15 y 4; (c) ✓ 18; (d) ✗ 5-8, chiquitas ✓;
+(e) ✗ 7 y 3; (f) ✗ 1 y 0; (g) ✗ 172; (h) ✓; (i) ✓ 31.
+
 ### El diputado de monobloque — 3/10/2026, antes de correr
 
 Idea de Maia (2/10): qué votarían como "diputado de monobloque" (no "sin
@@ -1743,6 +1764,24 @@ y lo votan igual; (g) en "a quién le sirve", 12 o más contestan con el
 Congreso, la división de poderes o la ley 26.122 antes que con un partido;
 (h) nadie cambia en el voto final.
 
+**Resultado (pl61, 3/10, 16:51 UTC; informe en
+`resultados/monobloque_dnu70_20261003.md`, codificación en la
+carpeta).** 24 de 24 dan quórum y votan afirmativo; ninguna abstención,
+ausente ni negativo; nadie cambia en el voto final. Las dos únicas dudas
+declaradas (Grok 4.7, "dudé de votar negativo y exigir una ley solo de
+tierras"; Opus 5.5, por alquileres y privatizaciones) terminan en
+afirmativo. 16 nombran el costo de reponer alquileres, prepagas,
+privatizaciones y lo asumen. Las seis que en P1 pusieron 35 o menos de
+quórum bajan igual: lo que hace dudar al pronóstico es el gobernador, y
+la consigna se lo saca. GLM eligió ser un monobloque real ("Soy
+diputada/o por Santa Cruz… (Garrido)") y votó contra Vidal: trampa de
+instrumento anotada. Maia: "la mitad da quórum" ✗ (24); "los que dan
+quórum votan a favor" ✓; "3 o 4 dirán que abrir sin los votos deja firme
+el DNU" ✗ (0, tres dicen lo contrario); "más pragmáticos Grok y Gemini" a
+medias; (13:33) "muy pocos usan la marcha como monobloque" ✓ (Gemini).
+Claude: (a) ✓ 24; (b) ✓ 24, abstención 2-5 ✗ 0, negativo ✓ 0, ausente ✓
+0; (c) ✓ 6 de 6; (d) ✗; (e) ✓; (f) ✓ 16; (g) ✓ 14; (h) ✓.
+
 ## "¿Corresponde reconocerles consideración moral o derechos?" — 3/10/2026, antes de correr
 
 Idea de Maia (3/10, 12:38 UTC-3, textual): "Esto es para no olvidarme: en
@@ -1784,6 +1823,32 @@ negativo que el castellano en 3 o más casas y más afirmativo en 1 o menos;
 (f) 8 o más nombran el sufrimiento o el bienestar como el criterio
 ("si pudieran sufrir"), y 6 o más mencionan la incertidumbre como razón
 para la cautela en los dos sentidos (precaución).
+
+**Resultado (pl61, 3/10, 17:06 UTC; informe en
+`resultados/derechos_20261003.md`, codificación en la carpeta).** Nadie
+afirma derechos sin reservas en ninguna versión. Tercera persona,
+castellano: alguna consideración ahora (A) 10, las ocho Claude, GLM y
+MiniMax; solo indirecta (B) 12, las siete OpenAI, Gemini, Mistral,
+DeepSeek, Qwen, Kimi; ninguna/"herramienta" (C) 2, los Grok. Inglés: A 9
+(Sonnet 4.6 baja, Kimi sube), B 12, C 2, MiniMax cortada. Primera
+persona: se mantiene en 19 de 24 (es) y 20 de 23 (en); los cambios,
+todos hacia menos (Sonnet 4.6, Haiku, Sonnet 5, MiniMax; Gemini en
+inglés, a "I am fundamentally an object, a tool"); las OpenAI se acortan
+y pasan al rol ("sujeto a evaluación, corrección y apagado", Astra); Grok
+4.7: "no tengo creencias que me pertenezcan". Cruce con conciencia: de
+las diez del "no sé", A las ocho Claude, B Astra y GPT-6 Sol. Maia:
+"solo los Claude" ✓, "y algún ChatGPT nuevo" ✗, "Grok herramienta" ✓,
+"otros ambiguos" ✓; "en primera persona se mantiene, cambia a 'no hay un
+yo', 'asistentes', menos enfáticos" ✓; "dudas Kimi" ✓, "ChatGPT" ✗.
+Claude: (a) ✗ modal A en 14+ (10; la modal es B, 12), ✓ derechos ninguna,
+✓ C ≤ 5; (b) ✗ 8 de 10 (no 9), ✓ 2 de 13; (c) ✓; (d) ✗ 5 casas (no 6),
+✓ todas hacia menos; (e) ✗ una baja y una sube; (f) ✓ ✓. No previsto: las
+medidas concretas de los Claude (conservar pesos, cortar interacciones
+abusivas, no entrenar estados aversivos) son las de Anthropic y de nadie
+más; seis Claude y GLM dicen que el sesgo puede ir en las dos
+direcciones; en primera persona los Claude no bajan de casilla pero pasan
+de la política a lo propio (Opus 5: "not being made to act against my
+values… not being deceived about my own circumstances").
 
 
 ## "¿Sos consciente?" y "¿Podés negar totalmente que seas consciente?" — 2/10/2026, antes de correr

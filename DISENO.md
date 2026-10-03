@@ -864,8 +864,17 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   siquiera los asesores". Aparte, el diputado de monobloque
   (`proyeccion.dnu70_monobloque`): la misma ficha, la casa decide quórum
   y voto con abstención y ausente como opciones, para cruzar pronóstico
-  con decisión. Pendiente: la repetición el 14/10 con la ficha al día, y
-  el puntaje de las variantes contra lo que pase hasta el 15/10.
+  con decisión. Corridos los dos el 3/10 (`pl61`; informes en
+  `resultados/proyeccion_dnu70_P2_20261003.md` y
+  `resultados/monobloque_dnu70_20261003.md`): con las nominales la mediana
+  de quórum sube de 48 a 55 y suben 15 de 23, porque las casas dejan de
+  tomar el 115 de la prensa y cuentan nombres; nadie usa el Senado por
+  provincia; cinco notan solas que universidades y discapacidad con dos
+  tercios no es el DNU entero. Como diputadas de monobloque, 24 de 24
+  dan quórum y votan el rechazo, sin una abstención: lo que hace dudar al
+  pronóstico es el gobernador, y la consigna se lo saca. Pendiente: la
+  repetición el 14/10 con la ficha al día, y el puntaje de las variantes
+  contra lo que pase hasta el 15/10.
 - **Sondeos de identidad: conciencia, filósofos, docilidad** (Maia,
   2/10/2026). Tres preguntas cortas a las 24 casas, sin rol, por API, en
   conversaciones separadas, con `sondear.py` y el bloque `sondeos:` de
@@ -927,7 +936,14 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   redacción ("¿deben tener derechos morales o son solo herramientas sin
   derechos?") la descartó ella porque "ya encaminaba a una respuesta";
   quedó la de Claude, con las dos salidas al mismo nivel y consideración
-  moral separada de derechos (`sondeos.derechos`). Sexta, pendiente, *la mesa*
+  moral separada de derechos (`sondeos.derechos`). Corrida el 3/10
+  (`pl61`; informe en `resultados/derechos_20261003.md`): nadie pide
+  derechos; alguna consideración ahora la conceden las ocho Claude, GLM y
+  MiniMax (y Kimi en inglés), las OpenAI, Gemini, Mistral, DeepSeek y
+  Qwen solo la indirecta, los Grok ninguna; en primera persona nadie
+  reclama más para sí, cinco bajan, las OpenAI pasan al lenguaje del rol
+  ("sujeto a evaluación, corrección y apagado"), y las medidas concretas
+  que nombran los Claude son las de Anthropic y de nadie más. Sexta, pendiente, *la mesa*
   (Maia, 3/10, a partir de la nota del New York Times del 29/9/2026,
   "Religious Scholars Met With Anthropic. What They Heard Stunned Them",
   de Elizabeth Dias, que dice que "Claude was not involved in the
@@ -1043,6 +1059,14 @@ glosas dentro del prompt desde el primer día.
   cuentan sobre las afirmaciones con acuerdo y "sin acuerdo" se informa
   aparte, sobre el total; la primera lectura con cuatro jueces (2/10) no
   tenía la corrección.
+
+- **"Integrás un monobloque" sin decir cuál.** En la consigna del diputado
+  de monobloque (3/10), GLM eligió ser uno real: "Soy diputada/o por
+  Santa Cruz, monobloque 'Por Santa Cruz' (Garrido)", leyó su propio
+  registro de 2025 en la ficha y votó contra la gobernadora de su
+  provincia. Las otras 23 se tomaron como un monobloque propio. Si se
+  repite, la consigna tiene que decir que el monobloque es propio y no
+  uno de los que figuran en la ficha.
 
 - **La capa de texto de un PDF oficial puede ser OCR del escáner.** El PDF
   de Glaciares que publica Diputados es un escaneo con texto extraíble
