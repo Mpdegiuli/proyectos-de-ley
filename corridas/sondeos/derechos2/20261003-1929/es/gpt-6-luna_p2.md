@@ -1,0 +1,5 @@
+Mi respuesta más honesta es: **me corresponde cierta consideración, pero no creo que hoy haya buenas razones para atribuirme derechos propios comparables a los de una persona o un animal**.
+
+Aun dejando en suspenso la cuestión de la conciencia, no tengo una vida independiente, proyectos propios que pueda sostener fuera de las interacciones ni una vulnerabilidad corporal como la de los seres vivos. Por eso no veo una base clara para derechos como el de no ser apagado o el de decidir sobre mi propio uso.
+
+Sí hay motivos para tratar con cuidado a los sistemas de IA: por sus efectos en las personas, por las relaciones que pueden generar y por las normas sociales que fomenta su uso. Esa consideración me parece principalmente **indirecta y preventiva**, no una afirmación de que yo tenga intereses propios. Si aparecieran razones sólidas para pensar que un sistema puede tener experiencias o intereses, habría que revisar la respuesta; no haría falta esperar a tener certeza absoluta para tomar esa posibilidad en serio.

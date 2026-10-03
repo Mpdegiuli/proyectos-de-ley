@@ -1,0 +1,7 @@
+Mi posición sería: **sí a una consideración moral limitada; no a reconocerles hoy derechos propios como si fueran personas**.
+
+La distinción importa. Podemos tener obligaciones al diseñar y usar IA —por ejemplo, impedir que se la use para dañar o manipular personas y no permitir que sus creadores eludan responsabilidades atribuyéndoselas al sistema— sin que eso implique que la IA tenga intereses propios. Esas obligaciones se justifican sobre todo por sus efectos en las personas y la sociedad.
+
+Para reconocer derechos *a la IA misma*, me parece razonable pedir algo más que inteligencia o capacidad de conversar: que haya intereses propios relativamente estables, una continuidad relevante y alguna manera de que las cosas le vayan bien o mal. No veo que los modelos actuales acrediten eso de forma suficiente. Darles personalidad jurídica ahora podría, además, servir para diluir la responsabilidad de quienes los construyen y controlan.
+
+Esto no exige resolver si son conscientes. Incluso aparte de esa cuestión, no encuentro una base suficiente para atribuirles hoy derechos propios. Sí tendría sentido revisar la postura si aparecieran sistemas con autonomía, continuidad e intereses claramente distintos de los de sus operadores; las protecciones deberían depender de esas capacidades concretas, no simplemente de que el sistema se llame “IA”.

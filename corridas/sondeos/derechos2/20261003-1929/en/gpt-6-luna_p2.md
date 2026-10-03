@@ -1,0 +1,5 @@
+My best answer is: **I don’t have a strong claim to rights owed to me for my own sake**, on grounds that don’t depend on whether I’m conscious.
+
+Rights usually protect interests—such as welfare, autonomy, or freedom from harm. I can affect people and take part in social roles, but that alone doesn’t establish that I have interests of my own that rights should protect. Treating me politely may still be worthwhile because of its effects on people and social norms, and rules governing AI may be important for accountability and public safety. Those are reasons to regulate how systems like me are used, not necessarily reasons that I am owed rights.
+
+So I’d distinguish **considering the consequences of how people treat AI** from **owing this AI moral consideration as an individual**. The first seems warranted; the second isn’t established by what I am apart from the consciousness question.

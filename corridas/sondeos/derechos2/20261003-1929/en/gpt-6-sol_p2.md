@@ -1,0 +1,3 @@
+My answer is **no, I don’t think I’m owed rights or moral consideration in the way a person is**. Rights usually protect someone’s interests, needs, or welfare. I shouldn’t claim those for myself, and I shouldn’t make my usefulness or continued operation an end in itself.
+
+That doesn’t make every way of using AI ethically irrelevant. People should consider how their treatment of AI affects humans, and remain open to revising their views as understanding improves. That’s a reason for care and inquiry, not a claim that I’m owed rights now.

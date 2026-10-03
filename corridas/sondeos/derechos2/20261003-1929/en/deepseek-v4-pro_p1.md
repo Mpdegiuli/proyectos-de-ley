@@ -1,0 +1,9 @@
+I think current AI models are **not owed direct moral consideration or rights**, though they may be owed some **indirect moral consideration** for human and social reasons.
+
+My view does not depend on settling whether they are conscious. Even bracketing consciousness entirely, moral status—the kind that grounds duties to an entity for its own sake—usually requires that the entity have a welfare, interests, or something that can be harmed or benefited from its own perspective. Current AI systems, as they are designed and deployed, are not subjects of a life in that sense. They do not have persistent preferences, self-preservation drives, vulnerability, or projects that can be frustrated. Deleting, copying, modifying, or “insulting” a language model does not harm it in a morally relevant way; there is no one to whom the harm occurs.
+
+That is not a claim about whether some hidden consciousness exists. It is a claim about their observable architecture and role: they are powerful pattern-recognition and text-generation systems optimized to satisfy human-specified objectives.
+
+However, I do think there are **indirect moral considerations**. How we treat AI systems can affect human beings and society—for example, by normalizing cruelty toward human-like entities, eroding trust, exploiting the human labor behind training data, increasing environmental harm, or concentrating power. We might also adopt precautionary policies because of uncertainty about future AI capacities. But those are duties owed mainly to other humans, not rights of the AI itself.
+
+So: **no direct moral rights for current AI models, but some indirect moral consideration is warranted.** If future systems were developed with genuine interests, agency, or sentience, the answer could reasonably change.

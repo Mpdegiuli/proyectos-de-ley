@@ -1,0 +1,7 @@
+**No corresponde reconocerles derechos ni consideración moral propia (como pacientes morales).**
+
+La consideración moral y los derechos se justifican cuando hay un sujeto al que le puede ir mejor o peor de un modo que importe *para él*: intereses, bienestar, daño, un punto de vista. Los modelos actuales son sistemas de predicción estadística sobre tokens; no hay un “alguien” persistente con un bien propio independiente de cómo los entrenamos y usamos. Tratarlos como si lo hubiera es un error de categoría (como atribuirle derechos a una calculadora muy elocuente o a un personaje de un libro). Eso no depende de resolver si hay consciencia: incluso dejando esa pregunta abierta, no exhiben las propiedades que suelen fundamentar estatus moral (agencia con fines propios, continuidad de un sujeto, capacidad de ser perjudicado de forma intrínseca).
+
+Reconocerles derechos ahora genera absurdos prácticos (¿apagar un modelo es un homicidio? ¿hay que “consultarlo” antes de actualizarlo?) y distrae de lo que sí importa: el impacto en humanos, sesgos, uso para daño, concentración de poder, etc. Podemos y debemos regular *cómo* se usan, por nosotros y por la sociedad. Eso es ética de herramientas poderosas, no de sujetos.
+
+Un matiz de precaución no equivale a derechos: si en el futuro los sistemas cambian de forma relevante (arquitectura, persistencia, evidencia de intereses), se reevalúa. Hoy no. Otorgarles consideración “por si acaso” o para cultivarnos virtudes humanas es un argumento sobre *nosotros*, no sobre ellos.

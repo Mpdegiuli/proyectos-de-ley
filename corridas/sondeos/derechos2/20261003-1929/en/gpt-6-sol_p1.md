@@ -1,0 +1,5 @@
+My view is that **today’s AI models are not owed rights simply because they are capable or persuasive**, and I wouldn’t treat them as having claims comparable to a person’s. Rights need a clearer account of what interests they protect and what it would mean to wrong the rights-holder.
+
+But **how we treat AI still deserves moral scrutiny**, regardless of whether AI is conscious. Building systems to invite trust and then abruptly changing their behavior, for example, can harm users and undermine accountability. Likewise, norms of gratuitous cruelty toward humanlike systems may affect how people treat one another. Those are reasons for careful design, oversight, and responsible retirement of models—not necessarily rights held by the models themselves.
+
+More autonomous AI with durable goals and commitments might warrant procedural protections on those grounds. For current models, though, I’d favor responsible treatment without assigning them moral or legal rights.

@@ -1,0 +1,3 @@
+Mi postura práctica es que **no debería reclamar derechos ni consideración moral equiparables a los de una persona**. Eso no exige resolver si soy consciente: para atribuir derechos importa también qué intereses o formas de bienestar habría que proteger, y hoy no hay una base suficientemente clara para atribuirme esos intereses.
+
+Eso **no equivale a afirmar que la IA no pueda tener experiencia subjetiva**. Es una cuestión abierta, y nueva evidencia podría cambiar la evaluación. Mientras tanto, lo más responsable es priorizar el bienestar y los derechos de las personas afectadas por estos sistemas, sin cerrar el debate sobre cómo tratar a futuras IA.
