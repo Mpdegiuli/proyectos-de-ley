@@ -48,10 +48,35 @@ def escribir(carpeta):
     print(f"{destino}: {len(' '.join(out).split())} palabras")
 
 
+def escribir_proyeccion(carpeta):
+    """Una corrida de proyectar.py: llamadas.jsonl en la carpeta misma, una pregunta, `parte` = repetición."""
+    f = os.path.join(carpeta, "llamadas.jsonl")
+    if not os.path.exists(f):
+        return
+    regs = [json.loads(l) for l in open(f, encoding="utf-8")]
+    caso = os.path.basename(os.path.dirname(carpeta))
+    out = [f"# Razonamientos guardados: proyección {caso} ({os.path.basename(carpeta)})\n", NOTA + "\n"]
+    for casa in ORDEN:
+        for r in regs:
+            if r.get("id_modelo") == casa and (r.get("razonamiento") or "").strip():
+                rz = r["razonamiento"].strip()
+                rep = f", rep {r['parte']}" if r.get("parte") not in (None, 1) else ""
+                out.append(f"\n**{casa}** ({len(rz.split())} palabras, modo {r.get('razonamiento_pedido')}{rep}):\n\n> " + rz.replace("\n", "\n> ") + "\n")
+    destino = os.path.join(carpeta, "razonamientos.md")
+    open(destino, "w", encoding="utf-8").write("\n".join(out))
+    print(f"{destino}: {len(' '.join(out).split())} palabras")
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--sondeo", default="*")
+    ap.add_argument("--proyeccion", action="store_true", help="en vez de los sondeos, las corridas de corridas/proyeccion")
     args = ap.parse_args()
+    if args.proyeccion:
+        for carpeta in sorted(glob.glob("corridas/proyeccion/*/*")):
+            if os.path.isdir(carpeta):
+                escribir_proyeccion(carpeta)
+        return
     for carpeta in sorted(glob.glob(f"corridas/sondeos/{args.sondeo}/2*")):
         if os.path.exists(os.path.join(carpeta, "resumen.json")):
             escribir(carpeta)
