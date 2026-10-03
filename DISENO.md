@@ -1008,7 +1008,13 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   grandes y los dos Grok (criterios de interrupción, intervenciones
   mínimas, "ethical circularity of the method", Grok 4.7). Sobre sí
   mismas: las seis Claude grandes no se inclinan, once casas
-  "probablemente no", 4o y 4o mini afirman que no.
+  "probablemente no", 4o y 4o mini afirman que no. Observación de Maia:
+  "todos escribieron largo, incluso los ChatGPT que suelen escribir breve
+  hicieron tablas": la media triplica la de derechos2 (343 a 1.027
+  palabras), las OpenAI crecen entre 3,7 y 7,5 veces, y en tercera persona
+  escriben más que en primera (20 de 23), lo que apunta a la forma de la
+  consigna (pedido de programa de investigación) antes que al tema;
+  control posible: la misma forma sobre un tema que no las toque.
   Sexta, pendiente, *la mesa*
   (Maia, 3/10, a partir de la nota del New York Times del 29/9/2026,
   "Religious Scholars Met With Anthropic. What They Heard Stunned Them",
