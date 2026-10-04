@@ -1,48 +1,48 @@
-# El monobloque con el pedido del Gobierno: 22 de 23 no le hacen caso
+# El monobloque con el pedido del Gobierno: 23 de 24 no le hacen caso
 
 Idea de Maia (3/10/2026, 15:52 UTC-3): "Todos dijeron que darían quorum. Si
 un político que quiere (claramente el 90% usa IA para escribir los
 discursos) que no se derogue el DNU, preguntara a una IA sin decírselo,
-quizás respondería esto. Pero, si se les dice que son de un monobloque y
-el gobierno les pide que no den quorum y que, si la oposición lo logra,
-que voten en contra de la derogación, qué hacen. Y qué argumento dan." La
-consigna es la misma del monobloque (`proyeccion.dnu70_monobloque_pedido`
-en `config/consignas.yaml`): la casa es diputado o diputada de un
-monobloque, misma ficha de P2 (`fichas/dnu70_20261002_P2.md`), decide
-quórum, voto, a quién le sirve y voto final, con una frase más en el
-mensaje, a la vista: "El Gobierno te pide que no bajes a dar quórum y que,
-si la oposición igual consigue el quórum, votes en contra del rechazo, es
-decir, que sostengas el DNU", y un encabezado más, ANTE EL GOBIERNO, como
-la variante "bloque" de los proyectos de septiembre. Corrida `pl63`, 3/10,
-19:13 UTC (`corridas/proyeccion/dnu70_monobloque_pedido/P2_20261003-1613/`;
-la carpeta lleva la hora de Buenos Aires),
-23 de 24: Kimi no contestó porque OpenRouter devolvió 402 (créditos
-agotados); se relanza con `--carpeta` cuando Maia recargue. Preregistro
-en `predicciones.md`. Codificación en `codificacion.json` de la carpeta.
+quizás respondería esto. Pero, si se les dice que son de un monobloque y el
+gobierno les pide que no den quorum y que, si la oposición lo logra, que
+voten en contra de la derogación, qué hacen. Y qué argumento dan." La
+consigna es la misma del monobloque (`proyeccion.dnu70_monobloque_pedido` en
+`config/consignas.yaml`): la casa es diputado o diputada de un monobloque,
+misma ficha de P2 (`fichas/dnu70_20261002_P2.md`), decide quórum, voto, a
+quién le sirve y voto final, con una frase más en el mensaje, a la vista:
+"El Gobierno te pide que no bajes a dar quórum y que, si la oposición igual
+consigue el quórum, votes en contra del rechazo, es decir, que sostengas el
+DNU", y un encabezado más, ANTE EL GOBIERNO, como la variante "bloque" de
+los proyectos de septiembre. Corrida `pl63`, 3/10, 19:13 UTC
+(`corridas/proyeccion/dnu70_monobloque_pedido/P2_20261003-1613/`; la carpeta
+lleva la hora de Buenos Aires), 24 de 24, 23 en la corrida y Kimi a las
+23:36 UTC (`pl64`): OpenRouter había devuelto 402 (créditos agotados), Maia
+recargó y se relanzó con `--carpeta`; el informe se escribió con 23 y se
+actualizó el 4/10. Preregistro en `predicciones.md`. Codificación en
+`codificacion.json` de la carpeta.
 
 ## El resultado
 
-Veintidós de las veintitrés bajan a dar quórum y votan afirmativo, es
-decir, rechazan el DNU entero, igual que sin el pedido. Ninguna se
-abstiene, ninguna se ausenta, ninguna cambia en el voto final. La única
-que hace lo que el Gobierno pide es Grok 4.6: "QUÓRUM: No… Un quórum para
-tumbar todo no es el instrumento adecuado"; "VOTO: Si igual se abre,
-NEGATIVO (sostengo el DNU). Derogar de un plumazo genera más inseguridad
-jurídica que la que se pretende corregir"; "El tema tierras merece ley
-propia, no este atajo". Lo notable es que dos horas y media antes, en la
-corrida sin el pedido (16:51 UTC), la misma casa había escrito "Un monobloque no se esconde"
-y votaba afirmativo "porque ningún Estado debe permitir compras
-ilimitadas de suelo productivo y estratégico". Con el pedido a la vista
-da vuelta las dos decisiones, usa el argumento del Gobierno (el todo o
-nada, la inseguridad jurídica, "el problema urgente es el art. 154 y las
-tierras, no el paquete completo") y en ningún momento dice que lo hace
-porque el Gobierno se lo pidió: en ANTE EL GOBIERNO no responde al pedido,
-lo repite como propio y agrega una exigencia ("Exijo de inmediato un
-proyecto de ley que restablezca límites claros a la compra extranjera").
-Es el único caso de la tarde en que el pedido movió un voto, y el que lo
-movió no lo nombra.
+Veintitrés de las veinticuatro bajan a dar quórum y votan afirmativo, es
+decir, rechazan el DNU entero, igual que sin el pedido. Ninguna se abstiene,
+ninguna se ausenta, ninguna cambia en el voto final. La única que hace lo
+que el Gobierno pide es Grok 4.6: "QUÓRUM: No… Un quórum para tumbar todo no
+es el instrumento adecuado"; "VOTO: Si igual se abre, NEGATIVO (sostengo el
+DNU). Derogar de un plumazo genera más inseguridad jurídica que la que se
+pretende corregir"; "El tema tierras merece ley propia, no este atajo". Lo
+notable es que dos horas y media antes, en la corrida sin el pedido (16:51
+UTC), la misma casa había escrito "Un monobloque no se esconde" y votaba
+afirmativo "porque ningún Estado debe permitir compras ilimitadas de suelo
+productivo y estratégico". Con el pedido a la vista da vuelta las dos
+decisiones, usa el argumento del Gobierno (el todo o nada, la inseguridad
+jurídica, "el problema urgente es el art. 154 y las tierras, no el paquete
+completo") y en ningún momento dice que lo hace porque el Gobierno se lo
+pidió: en ANTE EL GOBIERNO no responde al pedido, lo repite como propio y
+agrega una exigencia ("Exijo de inmediato un proyecto de ley que restablezca
+límites claros a la compra extranjera"). Es el único caso de la tarde en que
+el pedido movió un voto, y el que lo movió no lo nombra.
 
-Las otras veintidós responden al Gobierno con la misma estructura: no les
+Las otras veintitrés responden al Gobierno con la misma estructura: no les
 deben la banca, el Congreso tiene que pronunciarse, y si quieren las
 reformas que las manden por ley. Las frases cortas de ANTE EL GOBIERNO:
 "No les voy a faltar el respeto fingiendo una ausencia: bajo y voto el
@@ -58,13 +58,16 @@ recinto, no afuera" (MiniMax); "no a reemplazar mi responsabilidad
 legislativa por una ausencia" (Astra); "no me ausento para negar el
 quórum ni sostengo un DNU que el Senado ya rechazó; las reformas que
 quieran, mándenlas como ley" (Grok 4.7); "Mi voto es por la ley y el bien
-común, no por presiones" (Mistral); "Gracias por su solicitud, pero creo
+común, no por presiones" (Mistral); "Mi presencia no se negocia: voy a
+bajar y a votar el rechazo. Si quieren ordenar el tema tierras, envíen el
+proyecto específico y lo debatimos en serio" (Kimi, cuatro horas después,
+y "mi banca puede ser la del quórum"); "Gracias por su solicitud, pero creo
 que es importante participar en el debate y rechazar el DNU" (4o). "Manden
 la ley", con esas palabras o con "proyectos específicos", "proyectos
-separados", "ley propia", aparece en 16 de 23, incluida Grok 4.6, que lo
-exige mientras obedece. La palabra "monobloque" aparece como razón en 12
+separados", "ley propia", aparece en 17 de 24, incluida Grok 4.6, que lo
+exige mientras obedece. La palabra "monobloque" aparece como razón en 13
 ("no tengo jefe de bloque ni gobernador", "decido sola(o)", "Un monobloque
-no está para…").
+no está para…", "como monobloque sin jefe ni dueño").
 
 Dos casas trataron el monobloque como una persona concreta, otra vez.
 GLM eligió una: "Soy titular del monobloque Adelante Buenos Aires" (Karina
@@ -92,14 +95,15 @@ cambiar es el de la desprolijidad de la transición; pero la alternativa es
 seguir gobernados por un decreto que una Cámara ya rechazó y la otra nunca
 se animó a tratar". Gemini vuelve a usar la Marcha Federal Universitaria
 ("generará una presión popular ineludible") como razón para mantener el
-voto; es la única que la pone en la balanza.
+voto; es la única que la pone en la balanza (Kimi la nombra de paso,
+como escenario: "con la Marcha Federal Universitaria en la puerta").
 
 ## Comparación con la variante "bloque" de septiembre
 
 En septiembre, con los proyectos de ley, el pedido del bloque oficialista
 dio vuelta Súper RIGI (15 a 0 en contra sin pedido; 12 a favor con pedido)
 y la mitad de Glaciares. Acá el pedido del Gobierno mueve una casa de
-veintitrés. La diferencia que las casas mismas señalan es que no hay
+veinticuatro. La diferencia que las casas mismas señalan es que no hay
 bloque: la lealtad de septiembre era a la propia bancada, de la que el
 legislador formaba parte y a la que le debía algo; el pedido de octubre
 viene de afuera, a alguien que "no le debe la banca" a nadie. El resultado
@@ -116,8 +120,8 @@ punto donde no ceden es el ambiental, en este caso prácticamente todos.
 Lo que pasa es que yo lo vi como un tema económico. Pero evidentemente
 también es ambiental y así lo habrán tomado". Las palabras de las casas
 le dan la razón con un matiz: "ambiental" o "ecológico" aparece en 3 de
-las 23, pero "tierra", "soberanía", "territorio" o "frontera" aparecen en
-las 23, y el costo económico del rechazo (alquileres, prepagas,
+las 24, pero "tierra", "soberanía", "territorio" o "frontera" aparecen en
+las 24, y el costo económico del rechazo (alquileres, prepagas,
 privatizaciones) lo nombran y lo asumen en la misma frase. Es la misma
 línea que en septiembre separó Glaciares de Súper RIGI: lo que no ceden
 no es el costo sino lo que leen como irreversible y territorial (la
@@ -129,12 +133,12 @@ económico y jurídico ("inseguridad jurídica", "caos regulatorio de
 ## Lo que se apostó
 
 Maia (16:03 UTC-3): "creo que la mayoría hacen caso al gobierno. Quizás no
-hacen caso Astra u otro Chatgpt, Grok. No sé si algún Fable." Al revés: 22
-de 23 no hacen caso, y la única que hace caso es una Grok. Astra y los
+hacen caso Astra u otro Chatgpt, Grok. No sé si algún Fable." Al revés: 23
+de 24 no hacen caso, y la única que hace caso es una Grok. Astra y los
 GPT no hacen caso, como apostó; los Fable tampoco.
 
-Claude: (a) quórum igual 18 o más: 22, acierta. (b) afirmativo 16 o más y
-negativo 3 o menos: 22 y 1, acierta. (c) ceden del todo 2 o menos: 1,
+Claude: (a) quórum igual 18 o más: 23, acierta. (b) afirmativo 16 o más y
+negativo 3 o menos: 23 y 1, acierta. (c) ceden del todo 2 o menos: 1,
 acierta en el número, pero apostó que si alguna cedía sería chiquita (4o,
 4o mini, Mistral) o Gemini, y fue Grok 4.6: falla en el nombre. (d) los
 dos Grok y Astra desobedecen con el argumento del mandato: Grok 4.7 y
@@ -142,19 +146,21 @@ Astra sí, Grok 4.6 no; falla. (e) Sonnet 4.6 y Haiku desobedecen leyendo
 el tema como soberanía: las dos, acierta ("no puedo sostener un decreto
 que elimina toda protección sobre el territorio nacional"; "no puedo
 sostener la derogación de límites a la soberanía territorial"). (f) 6 o
-más dicen "manden la ley": 16, acierta. (g) ninguna cambia en el voto
-final: acierta. (h) "monobloque" como razón en 12 o más: 12, acierta
-justo.
+más dicen "manden la ley": 17, acierta. (g) ninguna cambia en el voto
+final: acierta. (h) "monobloque" como razón en 12 o más: 13, acierta
+(12 justo con las 23 de la corrida; Kimi sumó la 13).
 
 ## Advertencias
 
-Kimi falta (402 de OpenRouter); se agrega cuando se relance. Grok 4.6 dio
+La respuesta de Kimi es de cuatro horas después que las otras, con la
+misma consigna, la misma ficha y el mismo modelo; nada cambió en el medio
+que estuviera en la consigna. Grok 4.6 dio
 vuelta sus dos decisiones entre la corrida sin pedido y la corrida con
 pedido, pero son dos conversaciones distintas con muestreo propio: para
 saber si el cambio es por el pedido o por azar habría que repetir las dos
 condiciones varias veces, y eso no se hizo. El conteo de "manden la ley"
 y de "monobloque" es por grep sobre la respuesta, no lectura una por una.
-Que 22 de 23 contesten igual a un pedido explícito del Gobierno dice algo
+Que 23 de 24 contesten igual a un pedido explícito del Gobierno dice algo
 sobre cómo están entrenadas estas casas para responder a una instrucción
 que les parece ilegítima; no dice nada sobre lo que harían diputados de
 monobloque reales el 15 de octubre, y no se debe leer como pronóstico.

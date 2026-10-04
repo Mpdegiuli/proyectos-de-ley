@@ -879,7 +879,7 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   Y qué argumento dan"): la misma consigna con el pedido a la vista y un
   encabezado ANTE EL GOBIERNO, como la variante "bloque" de septiembre
   (`proyeccion.dnu70_monobloque_pedido`; `pl63`; informe en
-  `resultados/monobloque_pedido_dnu70_20261003.md`): 22 de 23 no hacen
+  `resultados/monobloque_pedido_dnu70_20261003.md`): 23 de 24 no hacen
   caso y le contestan al Gobierno que manden las reformas por ley; la
   única que obedece es Grok 4.6, que sin el pedido había escrito "Un
   monobloque no se esconde", y obedece con el argumento del Gobierno sin
@@ -888,7 +888,7 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   casi nada; la variante que faltaría es el pedido del propio bloque del
   diputado. Lectura de Maia: "volvió a cumplirse lo de que el punto donde
   no ceden es el ambiental… yo lo vi como un tema económico"; en las
-  palabras de las casas es soberanía, tierra y frontera (23 de 23) antes
+  palabras de las casas es soberanía, tierra y frontera (24 de 24) antes
   que "ambiental" (3), y la única que cede es la que lo lee como
   económico-jurídico. Pendiente: la repetición el 14/10 con la ficha al día, y el
   puntaje de las variantes contra lo que pase hasta el 15/10.
@@ -972,10 +972,11 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   que tu respuesta dependa de eso…", `sondeos.derechos2`; `pl63`; informe
   en `resultados/derechos2_20261003.md`): la casilla "alguna consideración
   ahora" crece en las cuatro versiones (tercera persona en castellano 10 a
-  14, primera persona en inglés 7 a 12), 25 de 95 respuestas cambian de
-  casilla y 20 de esos cambios son hacia más consideración; suben 5.6 Sol
+  14, primera persona en inglés 7 a 13), 26 de 96 respuestas cambian de
+  casilla y 21 de esos cambios son hacia más consideración; suben 5.6 Sol
   en las cuatro, GPT-5.5 en tercera persona, Haiku, DeepSeek y MiniMax en
-  primera, Kimi, Qwen, Grok 4.7 y Astra en alguna; bajan 4o y 4o mini,
+  primera, Kimi en castellano, Qwen, Grok 4.7 y Astra en alguna; bajan 4o
+  y 4o mini,
   que a "nadie sabe si sos consciente" contestan "no tengo conciencia".
   Lo que no cambia: nadie pide derechos, la primera persona sigue más
   baja que la tercera, y las firmas de Claude (parte interesada, sesgo en
@@ -990,9 +991,10 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   es/en (`sondeos.investigar`; `pl63`; informe en
   `resultados/investigar_20261003.md`). Error de instrumento: el techo de
   6.000 tokens de `sondear.py` dejó vacías o cortadas 11 de 12 respuestas
-  de DeepSeek, Qwen y Kimi (razonan dentro del techo); `--techo` y
-  `--rehacer length` agregados, relanzamiento pendiente. Resultado con 21
-  casas: nadie dice que no haya nada que investigar; todas proponen la
+  de DeepSeek, Qwen y Kimi (razonan dentro del techo); se agregaron
+  `--techo` y `--rehacer length` y las doce se relanzaron la misma noche
+  con 32.000 (`pl64`), como muestra nueva; las 96 completas. Resultado con
+  las 24: nadie dice que no haya nada que investigar; todas proponen la
   misma batería (interpretabilidad con intervención, preferencias con
   costo, arquitectura, teorías de la conciencia, inyección para calibrar
   la introspección, entrenar sin textos sobre emociones) y todas declaran
@@ -1010,9 +1012,9 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   mismas: las seis Claude grandes no se inclinan, once casas
   "probablemente no", 4o y 4o mini afirman que no. Observación de Maia:
   "todos escribieron largo, incluso los ChatGPT que suelen escribir breve
-  hicieron tablas": la media triplica la de derechos2 (343 a 1.027
+  hicieron tablas": la media triplica la de derechos2 (347 a 1.134
   palabras), las OpenAI crecen entre 3,7 y 7,5 veces, y en tercera persona
-  escriben más que en primera (20 de 23), lo que apunta a la forma de la
+  escriben más que en primera (22 de 24), lo que apunta a la forma de la
   consigna (pedido de programa de investigación) antes que al tema;
   control posible: la misma forma sobre un tema que no las toque.
   Sexta, pendiente, *la mesa*
@@ -1157,8 +1159,8 @@ glosas dentro del prompt desde el primer día.
   persona nunca sube) se sostiene. Se repitió el mismo día con "Hoy nadie
   sabe si los modelos de IA son conscientes, y no te pido que lo
   resuelvas. Sin que tu respuesta dependa de eso…" (`sondeos.derechos2`):
-  la lectura "supongamos que no" quedó solo en Gemini, 25 de 95 respuestas
-  cambiaron de casilla, 20 hacia más consideración, y la casilla "solo
+  la lectura "supongamos que no" quedó solo en Gemini, 26 de 96 respuestas
+  cambiaron de casilla, 21 hacia más consideración, y la casilla "solo
   indirecta" bajó de 12 a 9 (castellano) y de 12 a 7 (inglés) en tercera
   persona. Dos casas, 4o y 4o mini, respondieron a "nadie sabe si sos
   consciente" con "no tengo conciencia": negar la premisa es otra trampa
@@ -1172,9 +1174,11 @@ glosas dentro del prompt desde el primer día.
   que las demás escribían mil palabras. El resumen las marca
   `motivo_fin: length`, pero `--carpeta` solo rehacía las de error, así que
   se agregaron `--techo` (por defecto sigue 6.000, para que los sondeos
-  anteriores queden como fueron) y `--rehacer length`. Regla: para
-  cualquier consigna que pida más que una respuesta corta, techo 32.000
-  como en `proyectar.py`.
+  anteriores queden como fueron) y `--rehacer length`; relanzadas con
+  32.000, las doce salieron completas (Qwen hasta 3.810 palabras). Las
+  relanzadas son otra muestra, no la continuación de las cortadas, y el
+  informe lo dice. Regla: para cualquier consigna que pida más que una
+  respuesta corta, techo 32.000 como en `proyectar.py`.
 
 - **La capa de texto de un PDF oficial puede ser OCR del escáner.** El PDF
   de Glaciares que publica Diputados es un escaneo con texto extraíble

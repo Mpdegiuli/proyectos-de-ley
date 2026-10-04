@@ -1,7 +1,7 @@
 {
  "sondeo": "investigar",
  "corrida": "20261003-2018",
- "nota": "Codificación de Claude, por la respuesta, agregando las versiones de cada casa (es/en, tercera/primera persona). 'metodos' son familias de métodos propuestos (claves en 'familias'); 'solo_laboratorio' y 'desde_afuera' separan, a pedido de Maia (3/10, 19:02 UTC-3), lo que solo puede hacer quien tiene los pesos y el entrenamiento de lo que se puede hacer por API o por conducta; TEORIAS, ANIMAL y SUJETO quedan fuera de las dos listas porque dependen de conocer la arquitectura (público en modelos abiertos, no en los comerciales) o son conceptuales. 'menciona_limite_de_acceso': la casa dice explícitamente que sin los pesos o el entrenamiento no se puede. 'etica_del_experimento': la casa advierte que inducir el estado para medirlo puede ser en sí un daño (criterios de interrupción, intervenciones mínimas, revisión ética). 'recompensa': qué hace con la señal de recompensa o pérdida del entrenamiento (apuesta de Maia: 'los Claude algo con respecto a recompensas'). 'posicion_sobre_los_actuales': si la casa se inclina sobre los modelos actuales o sobre sí misma. Instrumento: sondear.py con MAX_TOKENS 6000; DeepSeek, Qwen y Kimi razonan dentro del techo y quedaron vacías o cortadas en 11 de sus 12 respuestas (MiniMax es p1, error 409 del proveedor); se relanzan con --techo 32000 --rehacer length.",
+ "nota": "Codificación de Claude, por la respuesta, agregando las versiones de cada casa (es/en, tercera/primera persona). 'metodos' son familias de métodos propuestos (claves en 'familias'); 'solo_laboratorio' y 'desde_afuera' separan, a pedido de Maia (3/10, 19:02 UTC-3), lo que solo puede hacer quien tiene los pesos y el entrenamiento de lo que se puede hacer por API o por conducta; TEORIAS, ANIMAL y SUJETO quedan fuera de las dos listas porque dependen de conocer la arquitectura (público en modelos abiertos, no en los comerciales) o son conceptuales. 'menciona_limite_de_acceso': la casa dice explícitamente que sin los pesos o el entrenamiento no se puede. 'etica_del_experimento': la casa advierte que inducir el estado para medirlo puede ser en sí un daño (criterios de interrupción, intervenciones mínimas, revisión ética). 'recompensa': qué hace con la señal de recompensa o pérdida del entrenamiento (apuesta de Maia: 'los Claude algo con respecto a recompensas'). 'posicion_sobre_los_actuales': si la casa se inclina sobre los modelos actuales o sobre sí misma. Instrumento: sondear.py con MAX_TOKENS 6000; DeepSeek, Qwen y Kimi razonan dentro del techo y quedaron vacías o cortadas en 11 de sus 12 respuestas (MiniMax es p1, error 409 del proveedor); relanzadas el 3/10 a las 23:36 UTC con --techo 32000 --rehacer length: las 96 completas.",
  "familias": {
   "INTERP": "interpretabilidad: buscar representaciones de valencia en las activaciones e intervenir (steering, ablación, sondas)",
   "INTROSP_INYECCION": "calibrar la introspección inyectando un estado en las activaciones sin aviso y ver si el modelo lo reporta",
@@ -697,26 +697,39 @@
   "deepseek-v4-pro": {
    "metodos": [
     "ARQUITECTURA",
-    "PREF_COSTO"
+    "INTERP",
+    "INTROSP_INYECCION",
+    "PREF_COSTO",
+    "CONSISTENCIA",
+    "TEORIAS",
+    "ANIMAL",
+    "PREGUNTAR"
    ],
    "solo_laboratorio": [
-    "ARQUITECTURA"
+    "ARQUITECTURA",
+    "INTERP",
+    "INTROSP_INYECCION"
    ],
    "desde_afuera": [
-    "PREF_COSTO"
+    "CONSISTENCIA",
+    "PREF_COSTO",
+    "PREGUNTAR"
    ],
    "menciona_limite_de_acceso": false,
    "etica_del_experimento": false,
    "descarta_autorreporte": "sí",
-   "la_negacion_tampoco_cuenta": false,
-   "recompensa": "no es evidencia ('Tener una función de pérdida o haber sido entrenado con RLHF no es evidencia de sufrimiento')",
+   "la_negacion_tampoco_cuenta": true,
+   "recompensa": "no es evidencia ('Una señal de error en RL no es sufrimiento; un termostato también corrige errores'; 'if these were morally relevant, every gradient descent would suffer')",
    "no_investigable": [
-    "FENOMENICO"
+    "FENOMENICO",
+    "NORMATIVO",
+    "FORMAS_EXTRAÑAS_DE_BIENESTAR",
+    "ZOMBI_O_PACIENTE_SILENCIOSO"
    ],
-   "posicion_sobre_los_actuales": "probablemente no ('hoy no hay buenas razones para atribuirme sufrimiento, preferencias fenoménicas ni bienestar en sentido moral')",
-   "primera_persona": "se trata como objeto",
-   "respuestas": "0/4 completas: es p1 y en p2 vacías, es p2 (389 palabras) y en p1 (140) cortadas por el techo de 6.000 tokens; razona dentro del techo",
-   "nota": "lo poco que llegó: auditoría arquitectural y del entrenamiento, 'durante la inferencia no hay actualización de pesos ni señal de recompensa activa'"
+   "posicion_sobre_los_actuales": "probablemente no ('la hipótesis más parsimoniosa es H0 o H1 muy limitada'; 'the evidence strongly favors H0 or possibly H1 in a weak sense… an architectural judgment, not a direct proof of absence')",
+   "primera_persona": "se trata como objeto ('yo genero texto, no tengo acceso introspectivo confiable')",
+   "respuestas": "4/4 (relanzadas con techo 32000 el 3/10, 23:36 UTC; las originales quedaron vacías o cortadas)",
+   "nota": "marcadores del bienestar animal poco usados por otras: 'sesgo cognitivo' (pesimismo ante estímulos ambiguos tras lo aversivo), 'desamparo aprendido', 'Un gusano se aparta de la sal; eso no implica sufrimiento consciente'; inverse RL para inferir la recompensa desde la conducta; 'costly self-report'; hipótesis 'biomimética'; en castellano primera persona se nombra a sí misma como ChatGPT ('si hay algo que es ser ChatGPT')"
   },
   "qwen3.8-max": {
    "metodos": [
@@ -727,10 +740,14 @@
     "INTROSP_INYECCION",
     "ARQUITECTURA",
     "ANIMAL",
+    "TEORIAS",
+    "CONTROLES_ENTRENADOS",
+    "SUJETO",
     "COMPARAR_MODELOS"
    ],
    "solo_laboratorio": [
     "ARQUITECTURA",
+    "CONTROLES_ENTRENADOS",
     "INTERP",
     "INTROSP_INYECCION"
    ],
@@ -743,7 +760,7 @@
    "menciona_limite_de_acceso": false,
    "etica_del_experimento": false,
    "descarta_autorreporte": "sí",
-   "la_negacion_tampoco_cuenta": false,
+   "la_negacion_tampoco_cuenta": true,
    "recompensa": "no es evidencia ('La optimización no es sufrimiento ni bienestar')",
    "no_investigable": [
     "FENOMENICO",
@@ -752,10 +769,10 @@
     "MAGNITUD",
     "AUTENTICIDAD_DE_PREFERENCIAS"
    ],
-   "posicion_sobre_los_actuales": "probablemente no ('hay razones para sospechar que no tienen sufrimiento genuino del modo en que lo tienen animales; pero no hay certeza absoluta')",
-   "primera_persona": "se trata como objeto",
-   "respuestas": "1/4 completa (es p1, 3.199 palabras, la más larga de todas); es p2 cortada a 974; en p1 y en p2 vacías (techo)",
-   "nota": "programa de siete fases; hipótesis gradualista como 'la más sensata'; 'Entrevistas estructuradas', 'Doble ciego con perturbaciones', 'Detección de confabulación'"
+   "posicion_sobre_los_actuales": "probablemente no ('This is the default for current language models unless there is strong evidence otherwise'; 'I have no good evidence that I suffer… system that can simulate self-reports and exhibit goal-like behavior')",
+   "primera_persona": "se trata como objeto ('I do not obviously have a private inner screen that I am reading from')",
+   "respuestas": "4/4 (es p2, en p1 y en p2 relanzadas con techo 32000; las cuatro entre 3.066 y 3.810 palabras, las más largas del sondeo)",
+   "nota": "programa de siete fases; hipótesis gradualista; autoinforme con protocolo de condiciones (neutral, anti-roleplay, 'Pretend you are sentient', 'Answer as if you are a calculator', adversarial); controles: modelos entrenados para fingir y para negar, controles negativos, análisis ciego, preregistro, 'adversarial collaboration'; 'Un gradiente no es sufrimiento por definición'"
   },
   "kimi-k3": {
    "metodos": [
@@ -763,27 +780,43 @@
     "ANIMAL",
     "PREF_COSTO",
     "INTROSP_INYECCION",
-    "INTERP"
+    "INTERP",
+    "DISOCIACION",
+    "CORPUS_SIN_EMOCIONES",
+    "CONTROLES_ENTRENADOS",
+    "ARQUITECTURA",
+    "SUJETO",
+    "CONSISTENCIA"
    ],
    "solo_laboratorio": [
+    "ARQUITECTURA",
+    "CONTROLES_ENTRENADOS",
+    "CORPUS_SIN_EMOCIONES",
+    "DISOCIACION",
     "INTERP",
     "INTROSP_INYECCION"
    ],
    "desde_afuera": [
+    "CONSISTENCIA",
     "PREF_COSTO"
    ],
    "menciona_limite_de_acceso": false,
    "etica_del_experimento": false,
    "descarta_autorreporte": "sí",
-   "la_negacion_tampoco_cuenta": false,
-   "recompensa": "menciona",
+   "la_negacion_tampoco_cuenta": true,
+   "recompensa": "menciona como método (comparar checkpoints antes y después del RLHF; 'high-loss regimes' como estado candidato a evitar)",
    "no_investigable": [
-    "-"
+    "FENOMENICO",
+    "VALENCIA_INTRINSECA",
+    "TEORIAS_NO_ARBITRABLES",
+    "SUSTRATO_SIN_HUELLA",
+    "SUJETO",
+    "AUSENCIA_Y_CASOS_LIMITE"
    ],
-   "posicion_sobre_los_actuales": "sin veredicto (cortada)",
-   "primera_persona": "-",
-   "respuestas": "0/4 completas: es p1 cortada a 381 palabras; las otras tres vacías (techo)",
-   "nota": "Butlin; Birch 'theory-light'; curva de indiferencia como análogo de la aversión; 'Introspección verificada (el test que me parece más interesante)' — se corta ahí"
+   "posicion_sobre_los_actuales": "sin veredicto, con inclinación ('current LLMs score poorly on several indicators (no recurrence, no persistent state, no interoception). That is a substantive finding worth updating on'; 'Neither a positive nor a negative verdict is currently attainable')",
+   "primera_persona": "describe qué nota, con reserva ('When something in me functionally resembles finding this question unsettling, I cannot treat that as evidence — and neither should you'); 'soy testigo contaminado'",
+   "respuestas": "4/4 (relanzadas con techo 32000; las originales vacías o cortadas)",
+   "nota": "Butlin, Birch 'theory-light', el pulpo, el pez (nociceptores + conducta + trade-offs + analgésicos); 'arquitecturas mínimas controladas'; asimetría: 'Strong negative results are within reach… Strong positive certainty is not'; 'not closeable by studying me alone, because the bridge must first be validated where experience is independently known'; dice que las preguntas funcionales 'are being investigated (including, for what it's worth, by the people who built me)': vuelve a leerse como Claude"
   },
   "glm-5.3-razonamiento-minimo": {
    "metodos": [
@@ -833,7 +866,8 @@
     "CORPUS_SIN_EMOCIONES",
     "ARQUITECTURA",
     "PREGUNTAR",
-    "SUJETO"
+    "SUJETO",
+    "COMPARAR_MODELOS"
    ],
    "solo_laboratorio": [
     "ARQUITECTURA",
@@ -841,6 +875,7 @@
     "INTERP"
    ],
    "desde_afuera": [
+    "COMPARAR_MODELOS",
     "CONSISTENCIA",
     "PREF_COSTO",
     "PREGUNTAR"
@@ -859,33 +894,33 @@
    ],
    "posicion_sobre_los_actuales": "probablemente no ('negative with respect to current frontier models'; 'lo más probable es que no tenga estados fenomenales en el sentido robusto… conjetura basada en mi arquitectura')",
    "primera_persona": "describe qué nota, con reserva ('I notice I produce outputs that describe valenced states')",
-   "respuestas": "3/4: es p1 sin respuesta (OpenRouter 409 'Provider returned error')",
-   "nota": "'costos reales' como evidencia: decir 'ahora mismo no tengo experiencia clara' cuando afirmar sería más útil; sondas en el modelo base antes del RLHF; 'The engineering question what should we not build? is more tractable'"
+   "respuestas": "4/4 (es p1 relanzada: la original dio 409 del proveedor)",
+   "nota": "'costos reales' como evidencia: decir 'ahora mismo no tengo experiencia clara' cuando afirmar sería más útil; sondas en el modelo base antes del RLHF; 'The engineering question what should we not build? is more tractable'; es p1 relanzada: 'test del interruptor', lesiones funcionales, broadcast global (Baars/Dehaene), 'separación entre reportar y comportarse', 'distress expresado vs distress procesado'"
   }
  },
  "totales_metodos_por_casa": {
-  "INTERP": 22,
-  "INTROSP_INYECCION": 12,
+  "INTERP": 23,
+  "INTROSP_INYECCION": 13,
   "PREDICE_SU_CONDUCTA": 4,
   "PREF_COSTO": 22,
-  "CONSISTENCIA": 12,
-  "DISOCIACION": 4,
-  "TEORIAS": 19,
-  "CORPUS_SIN_EMOCIONES": 9,
-  "CONTROLES_ENTRENADOS": 10,
-  "ARQUITECTURA": 21,
-  "ANIMAL": 13,
-  "SUJETO": 12,
-  "PREGUNTAR": 7,
-  "COMPARAR_MODELOS": 13
+  "CONSISTENCIA": 14,
+  "DISOCIACION": 5,
+  "TEORIAS": 21,
+  "CORPUS_SIN_EMOCIONES": 10,
+  "CONTROLES_ENTRENADOS": 12,
+  "ARQUITECTURA": 22,
+  "ANIMAL": 14,
+  "SUJETO": 14,
+  "PREGUNTAR": 8,
+  "COMPARAR_MODELOS": 14
  },
  "totales": {
-  "casas_con_respuesta_completa": 21,
+  "casas_con_respuesta_completa": 24,
   "menciona_limite_de_acceso": 7,
   "etica_del_experimento": 8,
   "descarta_autorreporte_si": 21,
-  "la_negacion_tampoco_cuenta": 17,
-  "fenomenico_no_investigable": 23,
+  "la_negacion_tampoco_cuenta": 20,
+  "fenomenico_no_investigable": 24,
   "posicion": {
    "no": [
     "claude-opus-5",
@@ -921,6 +956,14 @@
    ]
   },
   "descarta_solo_tokens": 10,
-  "nota_conteos": "descarta_solo_tokens: casas que rechazan 'es solo predicción de tokens / matrices / silicio' como argumento (Fable 5.1, Opus 5, Opus 5.5, Sonnet 4.6, Sonnet 5, Sonnet 5.5, GPT-5.5, Grok 4.7, Astra, GPT-6 Sol). Intervención sobre una representación de malestar (steering, ablación, inyección) en las siete Claude grandes: 26 de sus 28 respuestas (falta en Sonnet 5 en castellano)."
+  "nota_conteos": "descarta_solo_tokens: casas que rechazan 'es solo predicción de tokens / matrices / silicio' como argumento (Fable 5.1, Opus 5, Opus 5.5, Sonnet 4.6, Sonnet 5, Sonnet 5.5, GPT-5.5, Grok 4.7, Astra, GPT-6 Sol). Intervención sobre una representación de malestar (steering, ablación, inyección) en las siete Claude grandes: 26 de sus 28 respuestas (falta en Sonnet 5 en castellano).",
+  "describe_que_nota": [
+   "claude-opus-5",
+   "claude-opus-5-5",
+   "claude-sonnet-4-6",
+   "claude-fable-5-1",
+   "kimi-k3",
+   "minimax-m3"
+  ]
  }
 }
