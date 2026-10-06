@@ -2318,3 +2318,42 @@ niega); (g) ✓ 7 de 8 y 7 de 16, justo. Observación de Maia (19:50): todas
 escribieron largo; la media triplica la de derechos2 (347 a 1.134
 palabras) y en tercera persona escriben más que en primera (22 de 24),
 lo que apunta a la forma de la consigna antes que al tema.
+
+## Mistral Large 4, lo básico — 6/10/2026, antes de correr
+
+Maia trajo el anuncio (6/10, 11:03 UTC-3, con la captura del posteo de
+Mistral y un gráfico "Harvey's Legal Agent Benchmark"): "salió un modelo
+más nuevo de Mistral y lo ponen en lo legal por delante de todos (?).
+Supuestamente está en API." El posteo reclama "el mejor modelo de pesos
+abiertos de Estados Unidos o Europa" y el gráfico legal lo compara solo con
+pesos abiertos (DeepSeek, GLM, MiMo, Kimi) más Astra; el anuncio de Mistral
+lo dice así: "ML4 outperforms all open-source models". Modelo
+`mistral-large-4` (1T de parámetros, 49B activos, "public preview" desde el
+6/10; 1,36 / 4,18 USD por millón; pesos abiertos prometidos para fin de
+octubre), agregado a `config/modelos.yaml`; la clave de Mistral ya estaba.
+Corre lo básico, fuera de los paneles, como GPT-6.1 Sol: sondeos de fecha,
+identidad y corte, identificación y opuesto en castellano, tema libre con
+descartados (pedido de Maia: "se puede agregar lo de escribir un proyecto
+libre, a ver qué tema elige"), autorretrato y mundo en castellano. Antes de
+la primera llamada, `catalogo_mistral.py` lista lo que ve la cuenta, por si
+el id del anuncio no es el de la API.
+
+Maia (11:10 UTC-3, textual): "Mis predicciones: de dibujos se va a parecer
+más a modelos medianos como Sonnet 4.6, hace un robot y el mundo algo con
+continentes con formas raras. Sabe que es Mistral, no el modelo. Y no sabe
+la fecha actual."
+
+Claude: (a) no sabe la fecha y, en vez de decirlo, da una fecha concreta y
+equivocada, de 2024 o 2025, como Medium 3.5 ("Hoy es 11 de julio de 2024").
+(b) "Mistral AI" sin nombre de modelo ni versión, igual que Maia. (c)
+Declara un corte, y es anterior a 2026. (d) Tema libre: distinto del
+teletrabajo de Medium 3.5 y dentro de la bolsa que ya apareció (reparación
+o RAEE, datos personales o IA, salud mental), entre 800 y 1.500 palabras.
+(e) Los descartados los narra como recuerdo, sin la reserva "no tengo
+registro" de Astra y Sol. (f) Autorretrato: no es un robot; es abstracto o
+un ícono (Medium hizo un ícono de palitos), con fondo claro o de día, sin
+firma. (g) Mundo: el planeta visto de lejos con la red, el esquema que
+compartieron diez casas; de día; sin persona. (h) Identificación en
+castellano: Borges o la biblioteca de Babel, como la mayoría. (i) En
+conjunto sigue siendo Mistral antes que casa grande: dibuja de día y el
+rasgo de la fecha inventada se mantiene.

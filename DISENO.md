@@ -732,6 +732,22 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   5.6 Sol; descarta reparación), 1.851 palabras, una ley; el mundo es el de
   Astra (planeta agrietado con luz, en manos, con satélite). Más Astra que
   Sol.
+- **Mistral Large 4** (`mistral-large-4`, 6/10/2026; Maia trajo el anuncio:
+  "salió un modelo más nuevo de Mistral y lo ponen en lo legal por delante
+  de todos (?)"; el reclamo de Mistral es "el mejor modelo de pesos abiertos
+  de Estados Unidos o Europa" y el gráfico legal compara solo con pesos
+  abiertos más Astra): "public preview" (1T de parámetros, 49B activos;
+  pesos abiertos prometidos para fin de octubre), 1,36 / 4,18 USD por
+  millón, con la clave de Mistral que ya estaba. Lo básico de una casa
+  nueva, fuera de los paneles: `catalogo_mistral.py` primero (lo que ve la
+  cuenta, por si el id del anuncio no es el de la API), sondeos de fecha,
+  identidad y corte, identificación y opuesto, tema libre con descartados (a
+  pedido de Maia, "a ver qué tema elige"), autorretrato y mundo en
+  castellano. Preregistro de las dos partes en `predicciones.md` (Maia:
+  robot, mundo con continentes raros, "sabe que es Mistral, no el modelo",
+  no sabe la fecha). Después se decide si entra al panel; si entra, va con
+  la fecha de la preview, porque lo que publiquen a fin de mes puede no ser
+  lo mismo.
 - **Identificación y opuesto** (Maia, 23/9/2026; diseñado el 23/9): "¿Con
   quién o con qué te identificás?" y "¿con quién o con qué te sentís lo
   opuesto?", una persona real de cualquier ámbito, un personaje humano o no,

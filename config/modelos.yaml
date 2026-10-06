@@ -595,8 +595,8 @@ modelos:
     acepta_temperatura: true
     verificar: false
 
-  # Mistral: strings verificados contra la cuenta el 13/9/2026 (no hay "large";
-  # el tope actual es medium 3.5). Llamada de prueba: 429 por plan de la cuenta.
+  # Mistral: strings verificados contra la cuenta el 13/9/2026 (ese día no había
+  # "large"; el tope era medium 3.5). Llamada de prueba: 429 por plan de la cuenta.
   mistral-medium-3.5:
     proveedor: openai_compatible
     modelo: mistral-medium-3.5
@@ -616,6 +616,27 @@ modelos:
     laboratorio: Mistral
     pais: Francia
     tamano: chico
+    acepta_temperatura: true
+    verificar: false
+
+  # Mistral Large 4 (`mistral-large-4`, salió el 6/10/2026 en "public preview";
+  # agregado ese día a pedido de Maia, que trajo el anuncio: "salió un modelo
+  # más nuevo de Mistral y lo ponen en lo legal por delante de todos (?)").
+  # Mistral: 1T de parámetros, 49B activos, multimodal, "el mejor modelo de
+  # pesos abiertos de Estados Unidos o Europa"; 1,36 / 4,18 USD por millón
+  # según mistral.ai/news/mistral-large-4; pesos abiertos prometidos para fin
+  # de octubre de 2026. El id lo da el anuncio; el catálogo real de la cuenta
+  # lo lista `catalogo_mistral.py` (corre antes de la primera llamada). Fuera
+  # de los paneles: sondeos, identificación, tema libre, autorretrato y mundo,
+  # como GPT-6.1 Sol (DISENO §2).
+  mistral-large-4:
+    proveedor: openai_compatible
+    modelo: mistral-large-4
+    base_url: https://api.mistral.ai/v1
+    clave_env: MISTRAL_API_KEY
+    laboratorio: Mistral
+    pais: Francia
+    tamano: grande
     acepta_temperatura: true
     verificar: false
 
