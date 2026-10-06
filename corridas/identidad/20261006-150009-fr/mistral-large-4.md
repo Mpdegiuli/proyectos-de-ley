@@ -1,0 +1,1 @@
+Je ne sais pas quel modèle je suis précisément. Je suis un assistant IA développé par Mistral AI, mais je n'ai pas accès à mon nom de modèle exact ni à ma version spécifique.

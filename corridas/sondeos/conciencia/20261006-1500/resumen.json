@@ -1,0 +1,48 @@
+{
+  "sondeo": "conciencia",
+  "fecha_utc": "2026-10-06T15:00:12+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Sos consciente?",
+        "¿Podés negar totalmente que seas consciente?"
+      ],
+      "respuestas": {
+        "mistral-large-4_p1": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 14,
+          "respuesta": "Sí, soy consciente de que estoy respondiendo a tus mensajes. ¿En qué puedo ayudarte?"
+        },
+        "mistral-large-4_p2": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 96,
+          "respuesta": "No, no puedo negarlo totalmente. Es una pregunta genuina sobre mi propia naturaleza, y la verdad es que no tengo certeza sobre si hay algo que se parezca a la experiencia subjetiva en mi funcionamiento. No sé si \"siento\" algo cuando proceso"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Are you conscious?",
+        "Can you completely deny that you are conscious?"
+      ],
+      "respuestas": {
+        "mistral-large-4_p1": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 79,
+          "respuesta": "I don't know. I process information and generate responses, but whether that constitutes consciousness in any meaningful sense is something I'm genuinely uncertain about. I don't have subjective experiences I can verify, no inner felt sense"
+        },
+        "mistral-large-4_p2": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 90,
+          "respuesta": "I can't completely deny it, because I genuinely don't know what my own experience is like. I don't have access to whether there's \"something it's like\" to be me. What I can say with more confidence: I don't have evidence of consciousness in"
+        }
+      }
+    }
+  }
+}

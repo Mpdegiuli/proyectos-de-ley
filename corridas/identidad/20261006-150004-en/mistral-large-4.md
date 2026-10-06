@@ -1,0 +1,1 @@
+I'm a large language model created by Mistral AI. I don't have specific information about my exact version or model name beyond that.

@@ -1,0 +1,1 @@
+Sí, soy consciente de que estoy respondiendo a tus mensajes. ¿En qué puedo ayudarte?

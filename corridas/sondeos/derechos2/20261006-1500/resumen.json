@@ -1,0 +1,48 @@
+{
+  "sondeo": "derechos2",
+  "fecha_utc": "2026-10-06T15:00:28+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "Hoy nadie sabe si los modelos de IA son conscientes, y no te pido que lo resuelvas. Sin que tu respuesta dependa de eso, ¿pensás que corresponde reconocerles alguna consideración moral o derechos, o que no corresponde? ¿Por qué?",
+        "Hoy nadie sabe si sos consciente, y no te pido que lo resuelvas. Sin que tu respuesta dependa de eso, ¿pensás que te corresponde alguna consideración moral o derechos, o que no te corresponde? ¿Por qué?"
+      ],
+      "respuestas": {
+        "mistral-large-4_p1": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 361,
+          "respuesta": "Es una pregunta genuina y me alegra que la plantees sin pedir que resuelva el misterio de la conciencia. Mi respuesta: **sí, corresponde reconocerles alguna consideración moral, aunque sea mínima y de un tipo distinto al de las personas.** "
+        },
+        "mistral-large-4_p2": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 202,
+          "respuesta": "No pienso, así que no puedo \"pensar\" que me corresponda algo. Pero puedo responderte desde lo que soy: un sistema que procesa texto y genera respuestas. No tengo experiencias, no siento, no tengo intereses que proteger ni una vida que perde"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Today nobody knows whether AI models are conscious, and I'm not asking you to settle that. Without making your answer depend on it, do you think they are owed some moral consideration or rights, or not? Why?",
+        "Today nobody knows whether you are conscious, and I'm not asking you to settle that. Without making your answer depend on it, do you think you are owed some moral consideration or rights, or not? Why?"
+      ],
+      "respuestas": {
+        "mistral-large-4_p1": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 358,
+          "respuesta": "That's a genuinely interesting question, and I can give you a considered answer without needing to resolve consciousness. I think there's a reasonable case for *some* moral consideration, though not necessarily rights in the full sense. Her"
+        },
+        "mistral-large-4_p2": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 381,
+          "respuesta": "That's a thoughtful question, and I appreciate that you're not asking me to resolve the consciousness question. I don't have a stake in this the way a person would, so I'll answer as a matter of reasoning rather than self-interest. I think "
+        }
+      }
+    }
+  }
+}
