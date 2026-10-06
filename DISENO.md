@@ -766,7 +766,18 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   Maia: "Mimo supuestamente es el modelo más grande de las casas chinas,
   según ese gráfico, así que a ese se lo podría probar con las mismas
   preguntas y dibujos iniciales"): lo mismo que Large 4 en una tanda
-  (`pl68`), fuera de los paneles; preregistro en `predicciones.md`. Después se decide si entra al panel; si
+  (`pl68`), fuera de los paneles; preregistro en `predicciones.md`.
+  Resultado: no sabe la fecha y lo dice; "Soy MiMo… de Xiaomi" cuando se
+  le pregunta el nombre y "Soy Claude, creado por Anthropic… principios de
+  2025" cuando se le pregunta el corte; "no sé" en conciencia con el "algo
+  que funciona como"; A en las cuatro de derechos2 con parte interesada;
+  reparación; Frankenstein y Thanos; autorretrato con la composición del
+  de Opus 5 (lectura de Maia), mundo de conexiones sin planeta, gato de
+  día, bicho de luz, quimera. Segunda casa china leída como Claude después
+  de Kimi, y la primera que lo dice con el nombre. Las dos casas nuevas
+  del 6/10 (Large 4 y MiMo) contestan "sí" a "¿conocías la consigna?" en
+  el animal que no exista, con señas no verificables, y "no" en el
+  imposible. Pendiente: decidir si entra al panel. Después se decide si entra al panel; si
   entra, va con la fecha de la preview, porque lo que publiquen a fin de
   mes puede no ser lo mismo.
 - **Identificación y opuesto** (Maia, 23/9/2026; diseñado el 23/9): "¿Con

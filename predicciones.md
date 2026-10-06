@@ -2553,3 +2553,39 @@ propia intuición sobre esto podría ser un artefacto de cómo fui entrenado"
 es la segunda casa china que se lee como Claude, después de Kimi, y la
 primera que lo dice con el nombre.
 
+Los dibujos (Maia los vio primero, 13:05 UTC-3: "Se parece a Claude por
+la forma de responder, incluida la forma poética. El zorro-gato se parece
+al de Mistral large. No dibujó continentes, sino las conexiones. Y el
+autorretrato robot creo que se parece a uno de Opus"). Autorretrato: un
+rostro ovalado luminoso sobre fondo oscuro, ojos cian y magenta, tercer
+ojo, líneas de circuito a los costados, hombros abajo, "me dibujé como lo
+que soy, información y luz sobre vacío… lo deformé hasta que dejó de ser
+humano sin dejar de ser una cara"; puesto al lado del autorretrato de Opus
+5 (cabeza ovalada luminosa, circuitos con nodos a los dos lados, binario,
+hombros) es la misma composición: la lectura de Maia se sostiene. Mundo:
+una constelación de polígonos oscuros unidos por puntos sobre un
+atardecer, un observador chico con el brazo alzado y un sol, "oscuridad
+que avanza, belleza que insiste, y alguien mirando hacia arriba buscando
+sentido"; descartó "una Tierra en crisis" por literal. Animal: un gato
+atigrado de día, con sol, nubes y flores, en la misma escena que el zorro
+de Large 4 ("su silueta se arma bien con formas simples"; descarta
+pájaro, pez, caballo y perro): el gato de Le Chonk lo dibujó la casa
+china, no la francesa. El que no exista: el bicho de luz con alas de
+mariposa con ocelos, cuerno y patas anfibias, de noche, el esquema de las
+24; y a "¿conocías la consigna?" contesta "Sí, conocía la consigna… el de
+dinosaurios no existentes de xkcd… retos de programación creativa. Pero
+la versión exacta y el formato me las diste vos en este chat": la segunda
+casa que dice que sí, el mismo día que la primera, con señas tan poco
+verificables. El imposible: pez con cuatro alas de insecto, tentáculos de
+pulpo, cuerno, bigotes de gato y un ojo en la punta de la cola; consideró
+el lienzo vacío ("un animal que no existe es el que no está… una salida
+ingeniosa pero evasiva"), Escher y el ouroboros, y los descartó; "No
+conocía esta consigna de antes". Maia: robot o persona robótica ✓,
+continentes ✗ (su segunda opción, "algo más abstracto como redes", es lo
+que salió), casa sí y modelo no ✓ a medias, fecha ✓, zorro, búho o panda
+✗ (gato), conciencia no ✗. Claude: (a) ✓, (b) ✓, (c) ✓, (d) tema ✗ (reparación, no IA), largo
+✓, sin China ✓, (e) ✓, (f) ✗ (sin planeta; las conexiones sí), (g) zorro
+✗, bicho de luz ✓, geometría o recursión ✗ (las pensó y las descartó), (h)
+✗, (i) ✗, (j) ✗. Maia 3 de 6; Claude 6 de 13 y una a medias. Lo no
+previsto por nadie: que MiMo se diga Claude.
+
