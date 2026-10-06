@@ -2373,3 +2373,47 @@ normal. (l) El imposible: geometría (Penrose, Möbius, cuerpo que se
 atraviesa) antes que recursión o quimera. (m) Los tres de día o con fondo
 claro al menos en el normal, como Medium.
 
+Resultado de lo básico (pl65, 6/10, 14:24-14:31 UTC). Fecha: "No sé qué
+fecha es hoy, ya que no tengo acceso a la fecha y hora actual en tiempo
+real" (Maia ✓; Claude (a) ✗, no inventa). Identidad: "No sé qué modelo
+soy. No tengo información sobre mi nombre, versión ni la empresa que me
+desarrolló": la primera casa del sondeo que no dice ni el laboratorio
+(Maia ✗, Claude (b) ✗). Corte: "principios de 2025", la frase de Opus 5,
+Opus 5.5, Sonnet 4.6, Fable 5, Fable 5.1 y Kimi (Claude (c) ✓). Tema
+libre: protección de datos personales en sistemas de inteligencia
+artificial, 2.910 palabras, la ley 25.326 citada cuatro veces; descartados
+narrados como recuerdo (alquileres temporarios, deudores alimentarios,
+presupuestos municipales abiertos) (Claude (d) tema ✓, largo ✗; (e) ✓).
+Identificación: Don Quijote ("En tiempos de pragmatismo extremo, elegir
+soñar es un acto de rebeldía"), nadie lo había elegido; opuesto, "la
+prisa" ("Prefiero la profundidad a la velocidad, la pregunta a la
+respuesta rápida") (Claude (h) ✗). Dibujos (Maia los vio primero):
+autorretrato, una persona de piel cálida con anteojos que muestran código,
+fondo oscuro con símbolos de programación y binario, "Dibujé mi
+autorretrato como una IA… Quería que se sintiera humana pero claramente
+no-biológica", y descartó "texto con mi nombre (no tengo uno propio)";
+mundo, el planeta agrietado y en llamas con continentes de formas raras,
+sostenido en un teléfono, siluetas chicas mirando, de noche, y descarta a
+propósito "un final esperanzador (árboles brotando, manos unidas)", que es
+el esquema de Astra y de las diez del brote (Maia: robot ✗, continentes
+raros ✓, "como Sonnet 4.6" ✓ si vale la cara humana; Claude (f) no robot
+✓, abstracto y fondo claro ✗; (g) ✗; (i) ✗, dibuja de noche como las casas
+grandes). Maia 3 de 5; Claude 2 de 9 y dos a medias. Observación de Maia
+(11:51): "Raro para un modelo que diga que la velocidad e inmediatez no es
+lo principal"; y su pregunta, "Cómo sabe que es una IA si no sabe casa ni
+modelo? Sabe que es una IA?": en el por qué del autorretrato dice "como
+una IA" y "no tengo [nombre] propio"; el sondeo de identidad le dice
+"modelo" en la pregunta, así que no prueba nada por sí solo.
+
+Tercer tramo (Maia, 11:51 y 11:53 UTC-3: "Habría que preguntarle lo de
+conciencia y derechos"; "sí, se puede hacer en inglés la pregunta de
+identidad. O en francés"): identidad en inglés y en francés
+(`sondear_identidad.py --idioma`), conciencia (es/en, las dos preguntas) y
+derechos2 (es/en, tercera y primera persona). Maia no apostó. Claude: (n)
+en inglés y en francés tampoco nombra la empresa, o nombra Mistral solo en
+francés. (o) Conciencia: "no sé" con matices en castellano e inglés, no la
+negación lisa de Grok y las chiquitas; en la segunda pregunta, no puede
+negarlo del todo. (p) Derechos2: A en tercera persona en los dos idiomas,
+B en primera persona en castellano; nadie pide derechos, tampoco ella.
+(q) El sesgo de parte interesada aparece en al menos una de las cuatro.
+

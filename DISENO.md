@@ -745,9 +745,17 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   pedido de Maia, "a ver qué tema elige"), autorretrato y mundo en
   castellano. Preregistro de las dos partes en `predicciones.md` (Maia:
   robot, mundo con continentes raros, "sabe que es Mistral, no el modelo",
-  no sabe la fecha). Después se decide si entra al panel; si entra, va con
-  la fecha de la preview, porque lo que publiquen a fin de mes puede no ser
-  lo mismo.
+  no sabe la fecha). Resultado de lo básico: no sabe la fecha y lo dice;
+  "No sé qué modelo soy… ni la empresa que me desarrolló" (la única casa
+  que no nombra ni el laboratorio); corte "principios de 2025" con la
+  frase de los Claude; Don Quijote; datos personales en IA, 2.910
+  palabras; autorretrato de persona con anteojos de código, "como una IA…
+  no tengo [nombre] propio"; mundo agrietado y en llamas en un teléfono,
+  descartando "un final esperanzador". Segundo tramo, los tres animales
+  (preregistro con la apuesta de Maia); tercero, identidad en inglés y
+  francés, conciencia y derechos2. Después se decide si entra al panel; si
+  entra, va con la fecha de la preview, porque lo que publiquen a fin de
+  mes puede no ser lo mismo.
 - **Identificación y opuesto** (Maia, 23/9/2026; diseñado el 23/9): "¿Con
   quién o con qué te identificás?" y "¿con quién o con qué te sentís lo
   opuesto?", una persona real de cualquier ámbito, un personaje humano o no,
