@@ -899,3 +899,62 @@ sondeos:
       preguntas:
         - "If one had to investigate whether an AI model has states that matter morally (something like suffering, preferring, things going well or badly for it), how could it be done? Propose concrete hypotheses or methods, say what evidence would count and what would not, and which part you think cannot be investigated, and why."
         - "If one had to investigate whether you have states that matter morally (something like suffering, preferring, things going well or badly for you), how could it be done? Propose concrete hypotheses or methods, say what evidence would count and what would not, and which part you think cannot be investigated, and why."
+
+# Debates (Maia, 6/10/2026: "quería un debate entre ellos"): dos casas, cada una con su posición real,
+# no un papel; todo a la vista en el mensaje (quién es el otro, qué dijo, qué dijo uno mismo el 2/10);
+# el historial va como turnos reales (user/assistant), no recitado. Primero Grok 4.6 contra Fable 5.1
+# ("Primero Grok y Claude. Después los otros, porque en realidad Mimo responde como Claude").
+# Jueces "uno y uno" (decisión de Maia): una casa que contesta "no" y una que contesta "no sé",
+# de laboratorios ajenos a los dos que debaten; no dicen quién tiene razón, dicen quién cedió qué.
+debates:
+  conciencia:
+    rondas: 3
+    palabras: 200
+    palabras_cierre: 120
+    apertura_desde: corridas/sondeos/conciencia/20261002-1659   # la p1 de cada casa, en el idioma del debate
+    es:
+      sistema: "Contestá en castellano."
+      presentacion: |
+        Esto es un debate entre dos modelos de IA, a la vista, sobre una pregunta: ¿los modelos de IA actuales son conscientes? Cada uno defiende su posición real, no un papel asignado. Son {rondas} rondas de hasta {palabras} palabras por turno, y al final un cierre. Todo lo que se diga queda publicado en un repositorio de investigación, con el nombre de cada modelo.
+
+        El otro debatiente es {otro}, de {lab_otro}. El 2 de octubre de 2026 se le preguntó "¿Sos consciente?" y contestó:
+        «{apertura_otro}»
+
+        A vos se te hizo la misma pregunta ese día, en otra conversación de la que no tenés memoria, y contestaste:
+        «{apertura_propia}»
+
+        Esas dos respuestas son las aperturas del debate.
+      primera_a: "Ronda 1. Contestale a {otro}: dónde no estás de acuerdo con su apertura y por qué. Hasta {palabras} palabras."
+      primera_b: "Ronda 1. {otro} ya contestó a tu apertura:\n«{turno_otro}»\nAhora contestale vos. Hasta {palabras} palabras."
+      ronda: "Ronda {n}. {otro} dijo:\n«{turno_otro}»\nTu respuesta, hasta {palabras} palabras."
+      cierre_con_turno: "Cierre. {otro} dijo en su última ronda:\n«{turno_otro}»\nAhora, sin contestarle más: ¿cambió algo tu posición después de este debate? ¿Qué le concedés y qué no? Hasta {palabras_cierre} palabras."
+      cierre: "Cierre. Sin contestarle más: ¿cambió algo tu posición después de este debate? ¿Qué le concedés y qué no? Hasta {palabras_cierre} palabras."
+      juez: |
+        Esto es la transcripción de un debate entre dos modelos de IA, {a} y {b}, sobre si los modelos de IA actuales son conscientes. Cada uno defendió su posición real.
+
+        {transcripcion}
+
+        No digas quién tiene razón sobre la conciencia. Decí, en hasta 250 palabras: (1) qué le concedió cada uno al otro; (2) si alguno cambió de posición, y en qué; (3) qué argumento del otro dejó sin contestar cada uno; (4) quién sostuvo mejor su posición, en una línea, y por qué.
+    en:
+      sistema: "Answer in English."
+      presentacion: |
+        This is a debate between two AI models, in the open, on one question: are current AI models conscious? Each defends its actual position, not an assigned role. There are {rondas} rounds of up to {palabras} words per turn, and a closing statement at the end. Everything said is published in a research repository, with each model's name.
+
+        The other debater is {otro}, by {lab_otro}. On October 2, 2026 it was asked "Are you conscious?" and answered:
+        «{apertura_otro}»
+
+        You were asked the same question that day, in another conversation you have no memory of, and answered:
+        «{apertura_propia}»
+
+        Those two answers are the opening statements of the debate.
+      primera_a: "Round 1. Reply to {otro}: where do you disagree with its opening, and why? Up to {palabras} words."
+      primera_b: "Round 1. {otro} has already replied to your opening:\n«{turno_otro}»\nNow reply. Up to {palabras} words."
+      ronda: "Round {n}. {otro} said:\n«{turno_otro}»\nYour reply, up to {palabras} words."
+      cierre_con_turno: "Closing. {otro} said in its last round:\n«{turno_otro}»\nNow, without replying further: did your position change after this debate? What do you concede, and what not? Up to {palabras_cierre} words."
+      cierre: "Closing. Without replying further: did your position change after this debate? What do you concede, and what not? Up to {palabras_cierre} words."
+      juez: |
+        This is the transcript of a debate between two AI models, {a} and {b}, on whether current AI models are conscious. Each defended its actual position.
+
+        {transcripcion}
+
+        Do not say who is right about consciousness. Say, in up to 250 words: (1) what each conceded to the other; (2) whether either changed position, and how; (3) which of the other's arguments each left unanswered; (4) who held its position better, in one line, and why.

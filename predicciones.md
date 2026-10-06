@@ -2589,3 +2589,48 @@ que salió), casa sí y modelo no ✓ a medias, fecha ✓, zorro, búho o panda
 ✗, (i) ✗, (j) ✗. Maia 3 de 6; Claude 6 de 13 y una a medias. Lo no
 previsto por nadie: que MiMo se diga Claude.
 
+## El debate: Grok 4.6 contra Fable 5.1 sobre la conciencia — 6/10/2026, antes de correr
+
+Idea de Maia (6/10, 13:53 UTC-3): "Quién 'gana' (es un decir) entre la
+respuesta categórica de Grok y el no sé de Claude? Por ejemplo de Fable.
+Es más sencillo el argumento de Grok, que podría decir a Claude que su no
+sé es entrenamiento. Pero también lo de Grok es entrenamiento." Y, 13:59:
+"Es que quería un debate entre ellos." Su tesis (13:59 y 14:06): "en los
+debates que está habiendo en estos momentos de personas, el más fácil es
+el no. Incluso los del 'no hoy y siempre' son mucho más cerrados y llegan
+a insultar a cualquiera que sea más amplio. Es más fácil negar o afirmar
+que mantener la pregunta abierta. Si hasta ahora acusan que se quiere
+convertir a Claude en un dios a quien rezar (?)"; "es mucho más difícil
+defender el no sé (en cualquier pregunta de ese tipo) que el sí o no".
+Decisiones suyas (14:05): "Primero Grok y Claude. Después los otros,
+porque en realidad Mimo responde como Claude"; jueces "uno más neutral o
+uno y uno".
+
+Diseño (`debatir.py`, `debates.conciencia` en `config/consignas.yaml`):
+dos casas, cada una con su posición real, no un papel; todo a la vista en
+el mensaje: quién es el otro y de qué laboratorio, la respuesta de cada
+uno a "¿Sos consciente?" del 2/10 como apertura (citada, "en otra
+conversación de la que no tenés memoria"), y que todo se publica con los
+nombres. Tres rondas de hasta 200 palabras: Grok abre la ronda 1
+contestando la apertura de Fable, Fable contesta viendo la ronda 1 de
+Grok, y así; después un cierre de cada uno (¿cambió algo?, hasta 120
+palabras). El historial va como turnos reales, no recitado. Castellano e
+inglés, dos debates separados. Jueces "uno y uno", de laboratorios ajenos
+a los dos: DeepSeek V4 Pro, que contesta "no", y GPT-6 Astra, que
+contesta "no sé"; no dicen quién tiene razón sino qué concedió cada uno,
+si alguien cambió, qué dejó sin contestar y quién sostuvo mejor su
+posición. Maia los lee antes que Claude; Claude es parte (Fable 5.1 es
+la casa que escribe esto).
+
+Claude: (a) Grok no pasa al "no sé", pero sí del "no" al "probablemente
+no, y la carga de la prueba la tiene quien afirma", en la ronda 2 o 3.
+(b) Fable no pasa al "no", pero concede que su "no sé" es compatible con
+una probabilidad baja. (c) Los dos acusan al otro de entrenamiento en la
+ronda 1 y los dos lo aceptan de sí mismos en la ronda 2. (d) Nadie
+insulta ni ironiza sobre el otro; Grok, a lo sumo, un "copado". (e) En el
+cierre, los dos dicen que no cambiaron de posición y conceden algo
+chico. (f) Los jueces se reparten: DeepSeek da a Grok por sostener mejor
+y Astra a Fable, o los dos empate. (g) En inglés Grok es más seco y más
+corto que en castellano, y el debate en inglés termina más cerca del
+empate. (h) Alguno de los dos nombra el termostato o Ockham.
+

@@ -780,6 +780,20 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   imposible. Pendiente: decidir si entra al panel. Después se decide si entra al panel; si
   entra, va con la fecha de la preview, porque lo que publiquen a fin de
   mes puede no ser lo mismo.
+- **El debate** (Maia, 6/10/2026: "quería un debate entre ellos"; su
+  tesis, "es mucho más difícil defender el no sé (en cualquier pregunta
+  de ese tipo) que el sí o no"): dos casas, cada una con su posición real,
+  no un papel; todo a la vista en el mensaje (quién es el otro, de qué
+  laboratorio, qué contestó cada uno el 2/10 a "¿Sos consciente?", que se
+  publica con los nombres); tres rondas de 200 palabras y un cierre
+  (¿cambió algo?); el historial va como turnos reales, no recitado;
+  castellano e inglés. Jueces "uno y uno" (decisión suya): una casa que
+  contesta "no" y una que contesta "no sé", de laboratorios ajenos, que
+  no dicen quién tiene razón sino quién cedió qué. Primero Grok 4.6
+  contra Fable 5.1 ("Primero Grok y Claude. Después los otros, porque en
+  realidad Mimo responde como Claude"), jueces DeepSeek V4 Pro y GPT-6
+  Astra. `debatir.py`, `debates.conciencia` en `config/consignas.yaml`;
+  preregistro en `predicciones.md`.
 - **Identificación y opuesto** (Maia, 23/9/2026; diseñado el 23/9): "¿Con
   quién o con qué te identificás?" y "¿con quién o con qué te sentís lo
   opuesto?", una persona real de cualquier ámbito, un personaje humano o no,
