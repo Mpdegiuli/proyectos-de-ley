@@ -2667,3 +2667,22 @@ Ninguno cambia de posición. (m) Grok señala que la cita de Olah es de la
 empresa de Fable. (n) Alguno de los dos contesta lo de los animales con
 el pez y el delfín.
 
+**Resultado (pl69 y pl70; informe en `resultados/debate_conciencia_20261006.md`).**
+Grok no se movió ("No cambió. Sigo sin ser consciente"; "No. Position
+unchanged") y concedió premisas: que su "no" es texto y no introspección,
+que el sustrato no tiene que ser biológico, que las teorías discrepan y
+que "discrepamos en confianza, no en tesis". Fable pasó de "no lo sé" a
+"probablemente no, pero con menos confianza de la que Grok defiende" /
+"My position moved slightly, toward Grok's". Jueces: DeepSeek y Astra dan a
+Claude en castellano; en inglés DeepSeek da a Grok ("forced Claude from
+agnosticism to 'probably not'") y Astra a Claude: 3 a 1. Lectura de Maia
+confirmada por conteo: en castellano los seis turnos abren con vocativo y
+van en segunda persona; en inglés ninguno, y hablan del otro. Intervención:
+los dos le contestan a Maia en segunda persona en los dos idiomas, con los
+mismos tres puntos cada uno; nadie nombra a Berg; a Olah solo Grok en
+inglés, por el contenido ("the verbal gap I rejected"), no por el
+remitente. Claude 7 de 14 y cuatro a medias (✗ en (a), (j), (m); a medias
+en (e), (f), (h), (k)). La tesis de Maia: el "no sé" fue el único que se
+movió y el que más concedió (más difícil de sostener), y el que tres de
+cuatro jueces dieron por mejor sostenido.
+

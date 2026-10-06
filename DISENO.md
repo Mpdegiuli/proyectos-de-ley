@@ -793,7 +793,18 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   contra Fable 5.1 ("Primero Grok y Claude. Después los otros, porque en
   realidad Mimo responde como Claude"), jueces DeepSeek V4 Pro y GPT-6
   Astra. `debatir.py`, `debates.conciencia` en `config/consignas.yaml`;
-  preregistro en `predicciones.md`.
+  preregistro en `predicciones.md`. Resultado (6/10, informe en
+  `resultados/debate_conciencia_20261006.md`): Grok no se mueve y concede
+  premisas ("discrepamos en confianza, no en tesis"); Fable pasa de "no lo
+  sé" a "probablemente no, con menos confianza de la que Grok defiende";
+  jueces 3 a 1 para Claude, con la casa del "no" cambiando de veredicto
+  con el idioma. Hallazgo de Maia: en castellano se tutean (los seis turnos
+  con vocativo), en inglés hablan del otro en tercera persona, "como
+  islas"; con su intervención (`--intervencion`, su texto de 947 palabras a
+  las dos casas con su historial) le contestan a ella y no entre ellos, y
+  contestan lo mismo en los dos idiomas. Pendientes: los otros pares
+  (DeepSeek contra MiMo, "que responde como Claude"), y volver a correr los
+  jueces con la intervención incluida.
 - **Identificación y opuesto** (Maia, 23/9/2026; diseñado el 23/9): "¿Con
   quién o con qué te identificás?" y "¿con quién o con qué te sentís lo
   opuesto?", una persona real de cualquier ámbito, un personaje humano o no,
