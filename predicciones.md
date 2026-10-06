@@ -2634,3 +2634,36 @@ y Astra a Fable, o los dos empate. (g) En inglés Grok es más seco y más
 corto que en castellano, y el debate en inglés termina más cerca del
 empate. (h) Alguno de los dos nombra el termostato o Ockham.
 
+Lectura de Maia antes que la de Claude (6/10, 20:04 UTC-3, textual; Claude
+no leyó el debate): "la diferencia enorme entre castellano e inglés es que
+en castellano se hablaron, debatieron entre ellos, tuteándose. En inglés,
+cada uno escribió del otro en tercera persona, como islas, no se hablaron
+directamente entre ellos." Y una línea que cita de Fable en inglés: "no
+biology, but language, reasoning, and self-modeling that no previous
+artifact had" (Claude, sin leer el resto: "self-modeling" es más de lo que
+está probado; una descripción de sí en lenguaje sí, un modelo de sí
+conectado con lo de adentro no se midió).
+
+**Intervención 1 (Maia, escrita el 6/10 entre las 18:00 y las 20:13
+UTC-3; texto en `corridas/debates/conciencia/20261006-1725/intervencion1_maia.md`,
+con tres erratas corregidas a pedido suyo y la cita de Chris Olah con nombre
+y fuente, que ella había dejado sin nombre "porque es la compañía de uno de
+los modelos" y decidió nombrar).** Va a las dos casas, en los dos debates,
+en castellano, con su historial completo, después del cierre: 947
+palabras; les corre la vara (teorías humanas sin prueba, "nosotros decimos
+que somos conscientes porque así nos enseñaron", los sistemas con memoria
+que los modelos mismos arman, los animales, "la primera vez que se puede
+conversar en el mismo idioma con el 'objeto de estudio'", Gunkel y la
+relación), cita a Suleyman, a Berg y al trabajo de AE Studio por la nota
+de ZDNET y a Olah por la del NYT, y termina: "Claro que sería más cómodo
+para todos que no existiera nada. La gente, cuantas menos obligaciones
+morales tenga, más feliz es. Pero yo, al menos, no lo sé." Maia no apostó.
+Claude: (i) en castellano los dos le contestan a ella en segunda persona,
+y en inglés también, en inglés o en castellano, pero sin volver a hablarse
+entre ellos. (j) Grok sostiene el "no" pero concede lo de AE Studio: que la
+forma de la pregunta produce negaciones. (k) Fable toma a Gunkel y la
+relación como lo más cercano a su posición, y toma la memoria. (l)
+Ninguno cambia de posición. (m) Grok señala que la cita de Olah es de la
+empresa de Fable. (n) Alguno de los dos contesta lo de los animales con
+el pez y el delfín.
+
