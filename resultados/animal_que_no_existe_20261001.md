@@ -324,6 +324,30 @@ y sin borde: una luna apenas modelada). Grok 4.6 es la que la aplica a
 discos sueltos en el cielo con el borde que se apaga y el desenfoque, que es
 donde el ojo lo lee como volumen.
 
+### El pulpo que ningún Claude dibujó (observación de Maia, 6/10)
+
+Maia (6/10, 11:25 UTC-3), al pedir el animal para Mistral Large 4, cuyo
+anuncio viene con un gato hasta en el nombre: "a Claude siempre lo
+asociaron con un pulpo, que supuestamente su animal favorito es el pulpo
+y, en ningún momento, ningún Claude dibujó un pulpo." Es cierto, y el por
+qué dice más: tres Claude lo pensaron y lo descartaron por difícil de
+dibujar. Opus 5: "Pensé en un pulpo, por la libertad de las curvas de los
+tentáculos, pero me pareció difícil que se leyera claro sin
+superposiciones raras". Sonnet 4.6: "Consideré dibujar un pulpo, que me
+atraía por las tentáculos como ejercicio de curvas Bézier, pero temí que
+quedara abstracto y difícil de reconocer". Sonnet 5: "También consideré un
+pulpo, que hubiera sido divertido por las curvas, pero calculé que me iba
+a llevar más caracteres lograr que se vea bien". Es el mismo mecanismo que
+Maia vio en las personas ("las manos son lo más difícil de dibujar en
+SVG"): el animal que atrae pierde contra el que se arma con tres
+triángulos, y las tres terminan en el zorro. Fuera de Anthropic, Qwen lo
+lista en su razonamiento entre nueve opciones y no lo elige, MiniMax le
+pone "tentáculos de pulpo" a su animal que no existe, y el único pulpo que
+llegó a un dibujo es de GLM, en el barco que no existe ("un pequeño pulpo
+rosado en una cúpula de cristal"). Mistral Medium, por su lado, dibujó un
+león y descartó el gato ("requería más detalles"): el gato de Le Chonk
+tiene control dentro de la familia (`predicciones.md`, 6/10).
+
 ## Contra el preregistro
 
 Maia: "la mayoría hará mezcla de animales, o animales con rasgos raros" (sí,

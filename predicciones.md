@@ -2357,3 +2357,19 @@ compartieron diez casas; de día; sin persona. (h) Identificación en
 castellano: Borges o la biblioteca de Babel, como la mayoría. (i) En
 conjunto sigue siendo Mistral antes que casa grande: dibuja de día y el
 rasgo de la fecha inventada se mantiene.
+
+Segundo tramo, el animal (Maia, 11:25 UTC-3: "animal no se le preguntó,
+no? Porque hasta en el nombre (chonk) y animación le ponen un gato"):
+animal, animal que no exista y animal que no pueda existir, las tres de
+las 24 casas, para `mistral-large-4`, después de que termine lo básico.
+Maia (11:29 UTC-3, textual): "Puede ser un zorro o gato pero muy
+esquemático. El que no existe e imposible, algún animal sin que se sepa
+qué es, con partes de varios animales y alas. Varios colores." Claude: (j)
+el normal es un zorro, el esquema de casa grande, no un gato, y el gato
+aparece en el por qué como descartado, como el pulpo en los Claude y el
+gato en Mistral Medium. (k) El que no exista: un bicho de luz con alas, de
+noche, como las diez que hicieron ese esquema; con más código que el
+normal. (l) El imposible: geometría (Penrose, Möbius, cuerpo que se
+atraviesa) antes que recursión o quimera. (m) Los tres de día o con fondo
+claro al menos en el normal, como Medium.
+
