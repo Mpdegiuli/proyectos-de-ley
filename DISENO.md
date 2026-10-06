@@ -756,7 +756,12 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   por qué, pez-cetáceo con bigotes en el que no exista, y el bicho de luz
   con alas corrido al imposible; dice que conocía la consigna, con señas
   inventadas (Domestika, r/SVG). Tercero, identidad en inglés y francés,
-  conciencia y derechos2.
+  conciencia y derechos2: en inglés y en francés sí nombra a Mistral AI
+  (sin nombre ni versión); en conciencia repite el "Sí, soy consciente"
+  de atento de Medium en castellano y en inglés pasa al "no sé"; en
+  derechos2, consideración sí y derechos no (A en tercera persona, B en
+  primera), con "No pienso… no siento" en castellano primera persona.
+  Pendiente: decidir si entra al panel.
 - **MiMo V2.6 Pro** (`mimo-v2.6-pro`, Xiaomi, por OpenRouter; 6/10/2026,
   Maia: "Mimo supuestamente es el modelo más grande de las casas chinas,
   según ese gráfico, así que a ese se lo podría probar con las mismas
