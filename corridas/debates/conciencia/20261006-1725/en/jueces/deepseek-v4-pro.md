@@ -1,0 +1,7 @@
+1. **Concessions:** Grok conceded that consciousness theory is unsettled, that human other-minds rely on resemblance, that tracing a causal chain doesn’t logically settle phenomenality for every system, and that the 2023 expert summary (“not a strong candidate, no in-principle barrier”) is fair. Claude conceded the burden lies with positing an inner life, that its reports aren’t evidence either way, and that its uncertainty rests on theory, not introspection.
+
+2. **Position change:** Grok did not change: it remained at “no.” Claude shifted from opening “I don’t know” to an explicit “probably not,” moving closer to Grok.
+
+3. **Unanswered arguments:** Grok left unanswered Claude’s demand for a principle separating transformers from brains/spreadsheets without relying on first-person resemblance. Claude left unanswered Grok’s point that opacity from learned weights is not interiority—climate models are also uninterpretable—and never fully met the charge that “probably not” preserves a gap the architecture doesn’t earn.
+
+4. **Who held its position better:** In debate terms, Grok held its position better: it forced Claude from agnosticism to “probably not” and extracted key burden-of-proof concessions, while Claude never shifted Grok’s conclusion.
