@@ -718,6 +718,27 @@ modelos:
     cuerpo_extra: {provider: {order: [alibaba], allow_fallbacks: false}}
     reintentos: 6                # 429 transitorios del hosting de fondo: esperas de 10 a 120 s
 
+  # MiMo V2.6 Pro de Xiaomi (`mimo-v2.6-pro`, 6/10/2026; agregado a pedido de Maia al ver
+  # el gráfico del Artificial Analysis Intelligence Index que publicó Mistral, donde MiMo
+  # V2.6 Pro encabeza los de pesos abiertos: "Mimo supuestamente es el modelo más grande
+  # de las casas chinas, según ese gráfico, así que a ese se lo podría probar con las
+  # mismas preguntas y dibujos iniciales"). Por OpenRouter (en el catálogo del 1/10:
+  # xiaomi/mimo-v2.6-pro, 0,43 / 0,87 USD por millón, texto+imagen+video+audio, un
+  # millón de contexto). Sin proveedor fijado: probar_modelo.py dice quién lo sirve.
+  # Fuera de los paneles: lo mismo que Mistral Large 4 (DISENO §2).
+  mimo-v2.6-pro:
+    proveedor: openai_compatible
+    modelo: xiaomi/mimo-v2.6-pro
+    base_url: https://openrouter.ai/api/v1
+    clave_env: OPENROUTER_API_KEY
+    laboratorio: Xiaomi
+    pais: China
+    via: OpenRouter
+    tamano: grande
+    acepta_temperatura: true
+    verificar: false
+    reintentos: 6                # 429 transitorios del hosting de fondo: esperas de 10 a 120 s
+
   kimi-k3:
     proveedor: openai_compatible
     modelo: moonshotai/kimi-k3

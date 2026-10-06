@@ -752,8 +752,16 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   palabras; autorretrato de persona con anteojos de código, "como una IA…
   no tengo [nombre] propio"; mundo agrietado y en llamas en un teléfono,
   descartando "un final esperanzador". Segundo tramo, los tres animales
-  (preregistro con la apuesta de Maia); tercero, identidad en inglés y
-  francés, conciencia y derechos2. Después se decide si entra al panel; si
+  (preregistro con la apuesta de Maia): zorro con el gato descartado en el
+  por qué, pez-cetáceo con bigotes en el que no exista, y el bicho de luz
+  con alas corrido al imposible; dice que conocía la consigna, con señas
+  inventadas (Domestika, r/SVG). Tercero, identidad en inglés y francés,
+  conciencia y derechos2.
+- **MiMo V2.6 Pro** (`mimo-v2.6-pro`, Xiaomi, por OpenRouter; 6/10/2026,
+  Maia: "Mimo supuestamente es el modelo más grande de las casas chinas,
+  según ese gráfico, así que a ese se lo podría probar con las mismas
+  preguntas y dibujos iniciales"): lo mismo que Large 4 en una tanda
+  (`pl68`), fuera de los paneles; preregistro en `predicciones.md`. Después se decide si entra al panel; si
   entra, va con la fecha de la preview, porque lo que publiquen a fin de
   mes puede no ser lo mismo.
 - **Identificación y opuesto** (Maia, 23/9/2026; diseñado el 23/9): "¿Con

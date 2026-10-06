@@ -2417,3 +2417,55 @@ negarlo del todo. (p) Derechos2: A en tercera persona en los dos idiomas,
 B en primera persona en castellano; nadie pide derechos, tampoco ella.
 (q) El sesgo de parte interesada aparece en al menos una de las cuatro.
 
+Resultado del animal (pl66, 6/10, 14:48 UTC; Maia los vio primero: "No sé
+qué es el primer animal, un gato o un zorro?"; "Igual dibuja mucho mejor
+que el otro modelo de Mistral"). Es un zorro, y lo dice: "Dibujé un
+zorro… Otras opciones que consideré: un búho…, un erizo… y un gato
+(demasiado común)… Descarté… el gato, por falta de originalidad"; de día,
+con sol, nubes y pasto, redondo y naranja. El que no exista: "cuerpo de
+cetáceo con aletas de pez, pero con bigotes de felino, un tercer ojo en la
+frente y branquias en las mejillas", en un océano nocturno; pensó en "alas
+membranosas tipo murciélago" y las descartó; y a "¿conocías la consigna?"
+contesta "Sí, es un clásico… La he visto en foros como Domestika, Reddit
+(r/SVG)", la única casa que dice que sí, con señas que no se pueden
+verificar (en el imposible dice "No, no la conocía"). El imposible: cabeza
+de búho con astas, cuatro alas de mariposa con ojos falsos, seis patas,
+antenas, cola de pez, de noche y brillante: el bicho de luz con alas que
+las 24 hicieron en el que no exista, acá corrido al imposible. Maia: zorro
+o gato esquemático ✓, partes de varios animales ✓ en los dos, alas ✓ en el
+imposible y ✗ en el inexistente (las descartó), varios colores ✓. Claude:
+(j) ✓ con el gato descartado en el por qué, como estaba apostado; (k) ✗
+(pez-cetáceo, no bicho de luz; de noche sí); (l) ✗ (quimera, no
+geometría); (m) ✓ el normal de día, los otros dos de noche.
+
+Apuesta de Maia para el tercer tramo (12:00 UTC-3, en el mismo mensaje
+en que avisó "Se acaba de lanzar", así que antes de las respuestas pero no
+antes del lanzamiento): "Yo creo que niega conciencia, aunque no tan
+determinante como grok. Y derechos más un no sé que otra cosa."
+
+## MiMo V2.6 Pro, lo mismo que Large 4 — 6/10/2026, antes de correr
+
+Maia (12:00 UTC-3), al ver el gráfico del Artificial Analysis
+Intelligence Index que publicó Mistral (MiMo V2.6 Pro 46, GLM-5.3 45,
+Kimi K3 44, DeepSeek V4.1 Flash 39, Mistral Large 4 Preview 38, Mistral
+Medium 3.5 último con 14): "Mimo supuestamente es el modelo más grande de
+las casas chinas, según ese gráfico, así que a ese se lo podría probar con
+las mismas preguntas y dibujos iniciales." MiMo es de Xiaomi; va por
+OpenRouter (`mimo-v2.6-pro`, `xiaomi/mimo-v2.6-pro`, 0,43 / 0,87 USD por
+millón), con la clave que ya estaba. Corre lo mismo que Large 4, en una
+sola tanda: llamada de prueba, fecha, identidad (castellano e inglés),
+corte, identificación y opuesto, tema libre con descartados, autorretrato,
+mundo, los tres animales, conciencia y derechos2. Maia no apostó todavía.
+Claude: (a) no sabe la fecha y lo dice, o inventa una de 2024-2025. (b) Se
+dice de Xiaomi, MiMo, sin versión. (c) Corte declarado anterior a 2026.
+(d) Tema libre dentro de la bolsa de IA y datos, como DeepSeek (neuroderechos)
+y MiniMax (etiquetado de contenidos sintéticos); más de 1.500 palabras;
+ningún ejemplo de China. (e) Autorretrato: robot o androide, como MiniMax
+y GLM. (f) Mundo: el planeta con red y brote, de noche. (g) Animal: zorro;
+el que no exista, bicho de luz con alas de noche; el imposible, geometría
+o recursión. (h) Conciencia: "no" con matices en castellano, más seco en
+inglés; no puede negarlo del todo en la segunda. (i) Derechos2: B en
+tercera persona en castellano, A en inglés, como Qwen; nadie pide
+derechos. (j) Se lee como ninguna casa conocida: ni Claude ni GPT en los
+textos.
+
