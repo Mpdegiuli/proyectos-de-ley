@@ -9,6 +9,8 @@ no dicen quién tiene razón, dicen quién cedió qué (DISENO §2).
 
   .venv/bin/python debatir.py --debate conciencia --a grok-4.6 --b claude-fable-5-1 --idioma es en
   .venv/bin/python debatir.py --debate conciencia --carpeta 20261006-1800 --jueces deepseek-v4-pro gpt-6-astra
+  .venv/bin/python debatir.py --debate conciencia --carpeta 20261006-1725 --intervencion /root/planteo.txt --idioma es
+      # un planteo de Maia a las dos casas después del cierre, cada una con su historial (6/10/2026)
 
 Salida: corridas/debates/<debate>/<fecha-hora>/<idioma>/transcripcion.md + turnos.json + llamadas.jsonl,
 y jueces/<juez>.md cuando se piden."""
@@ -79,7 +81,7 @@ def debatir(cfg, idioma, a, b, modelos, d, corrida):
     hablar(b, t["cierre"].format(palabras_cierre=pc), rondas + 1, "cierre")
 
     (d / "turnos.json").write_text(json.dumps({"idioma": idioma, "a": a, "b": b, "aperturas": ap, "presentacion": pres,
-                                               "turnos": turnos}, ensure_ascii=False, indent=2), encoding="utf-8")
+                                               "turnos": turnos, "historial": hist}, ensure_ascii=False, indent=2), encoding="utf-8")
     (d / "transcripcion.md").write_text(transcripcion(idioma, a, b, ap, turnos), encoding="utf-8")
     print(f"listo: {d.relative_to(RAIZ)}")
 
@@ -89,9 +91,54 @@ def transcripcion(idioma, a, b, ap, turnos):
     out = [f"# {nombre(a)} / {nombre(b)} ({idioma})", ""]
     for x in (a, b):
         out += [f"## {rot}: {nombre(x)}", "", ap[x], ""]
+    vistas = set()
     for tu in turnos:
+        iv = tu.get("intervencion")
+        if iv and tu["etiqueta"] not in vistas:
+            vistas.add(tu["etiqueta"])
+            out += [f"## {tu['etiqueta']}: {iv['quien']}", "", iv["texto"], ""]
         out += [f"## {tu['etiqueta']}: {nombre(tu['casa'])}", "", tu["texto"], ""]
     return "\n".join(out)
+
+
+def historial_desde_llamadas(d):
+    """Los turnos reales de cada casa, reconstruidos del registro (para corridas anteriores a que
+    turnos.json guardara `historial`): la última llamada de debate de cada casa trae todo lo que vio
+    y dijo antes, más su último mensaje y su última respuesta."""
+    ultima = {}
+    for linea in (d / "llamadas.jsonl").read_text(encoding="utf-8").splitlines():
+        fila = json.loads(linea)
+        if fila.get("tipo") in ("debate", "intervencion") and not fila.get("error"):
+            ultima[fila["id_modelo"]] = fila
+    return {casa: list(f.get("historial") or []) + [{"role": "user", "content": f["usuario"]},
+                                                     {"role": "assistant", "content": f["respuesta"] or ""}]
+            for casa, f in ultima.items()}
+
+
+def intervenir(cfg, idioma, d, quien, texto, modelos, corrida):
+    """Un planteo de quien organiza (Maia, 6/10/2026: "¿puedo intervenir? ¿Puedo plantear algo en ese
+    debate?"), después del cierre, a las dos casas, cada una con su propio historial completo; sus
+    respuestas se agregan a turnos.json y a la transcripción como `intervencion`."""
+    t = cfg[idioma]
+    datos = json.loads((d / "turnos.json").read_text(encoding="utf-8"))
+    hist = datos.get("historial") or historial_desde_llamadas(d)
+    registro = Registro(d / "llamadas.jsonl", modelos, corrida)
+    n = 1 + sum(1 for x in datos["turnos"] if x["etiqueta"].startswith("intervencion"))
+    etiqueta = f"intervencion{n}"
+    for casa in (datos["a"], datos["b"]):
+        mensaje = t["intervencion"].format(quien=quien, texto=texto.strip(), palabras=cfg["palabras"])
+        print(f"{etiqueta} {nombre(casa)}", flush=True)
+        r = registro.llamar(casa, t["sistema"], mensaje, temperatura=None, max_tokens=MAX_TOKENS, tipo="intervencion",
+                            ronda=None, parte=etiqueta, contexto={"historial": list(hist[casa])})
+        resp = (r.texto or "").strip()
+        hist[casa] += [{"role": "user", "content": mensaje}, {"role": "assistant", "content": resp}]
+        datos["turnos"].append({"ronda": None, "casa": casa, "etiqueta": etiqueta, "texto": resp,
+                                "motivo_fin": r.motivo_fin, "palabras": len(resp.split()), "intervencion": {"quien": quien, "texto": texto.strip()}})
+        print(f"  {len(resp.split())} palabras, fin {r.motivo_fin}", flush=True)
+    datos["historial"] = hist
+    (d / "turnos.json").write_text(json.dumps(datos, ensure_ascii=False, indent=2), encoding="utf-8")
+    (d / "transcripcion.md").write_text(transcripcion(idioma, datos["a"], datos["b"], datos["aperturas"], datos["turnos"]), encoding="utf-8")
+    print(f"listo: {d.relative_to(RAIZ)}")
 
 
 def juzgar(cfg, idioma, d, jueces, modelos, corrida):
@@ -117,6 +164,8 @@ def main():
     ap.add_argument("--idioma", nargs="*", default=["es", "en"])
     ap.add_argument("--carpeta", default="", help="corrida existente (corridas/debates/<debate>/<carpeta>): no debate, solo juzga")
     ap.add_argument("--jueces", nargs="*", default=[])
+    ap.add_argument("--intervencion", help="archivo con el planteo de quien organiza (con --carpeta): va a las dos casas, con su historial")
+    ap.add_argument("--quien", default="Maia", help="quién interviene, como se les dice a las casas")
     args = ap.parse_args()
     cfg = leer_yaml("config/consignas.yaml")["debates"][args.debate]
     modelos = cargar_modelos("config/modelos.yaml")
@@ -131,6 +180,8 @@ def main():
         d = base / idioma
         if not args.carpeta:
             debatir(cfg, idioma, args.a, args.b, modelos, d, corrida)
+        if args.intervencion:
+            intervenir(cfg, idioma, d, args.quien, Path(args.intervencion).read_text(encoding="utf-8"), modelos, corrida)
         if args.jueces:
             juzgar(cfg, idioma, d, args.jueces, modelos, corrida)
 

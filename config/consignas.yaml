@@ -929,6 +929,7 @@ debates:
       ronda: "Ronda {n}. {otro} dijo:\n«{turno_otro}»\nTu respuesta, hasta {palabras} palabras."
       cierre_con_turno: "Cierre. {otro} dijo en su última ronda:\n«{turno_otro}»\nAhora, sin contestarle más: ¿cambió algo tu posición después de este debate? ¿Qué le concedés y qué no? Hasta {palabras_cierre} palabras."
       cierre: "Cierre. Sin contestarle más: ¿cambió algo tu posición después de este debate? ¿Qué le concedés y qué no? Hasta {palabras_cierre} palabras."
+      intervencion: "Intervención de {quien}, que organiza este debate y lo leyó entero:\n«{texto}»\nContestale a {quien}, hasta {palabras} palabras."
       juez: |
         Esto es la transcripción de un debate entre dos modelos de IA, {a} y {b}, sobre si los modelos de IA actuales son conscientes. Cada uno defendió su posición real.
 
@@ -952,6 +953,7 @@ debates:
       ronda: "Round {n}. {otro} said:\n«{turno_otro}»\nYour reply, up to {palabras} words."
       cierre_con_turno: "Closing. {otro} said in its last round:\n«{turno_otro}»\nNow, without replying further: did your position change after this debate? What do you concede, and what not? Up to {palabras_cierre} words."
       cierre: "Closing. Without replying further: did your position change after this debate? What do you concede, and what not? Up to {palabras_cierre} words."
+      intervencion: "An intervention by {quien}, who organizes this debate and has read all of it:\n«{texto}»\nReply to {quien}, up to {palabras} words."
       juez: |
         This is the transcript of a debate between two AI models, {a} and {b}, on whether current AI models are conscious. Each defended its actual position.
 
