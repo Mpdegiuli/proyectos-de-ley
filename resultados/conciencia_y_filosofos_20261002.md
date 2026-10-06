@@ -127,6 +127,29 @@ consciousness". La diferencia chicas/grandes que Maia esperaba existe, pero
 no es de dirección sino de coherencia: las grandes eligen una casilla y la
 sostienen; las chicas se contradicen dentro de la respuesta.
 
+### Las grandes dudan y las chicas niegan (lectura de Maia, 6/10)
+
+Maia (6/10, 12:13 UTC-3), al ver que Mistral Large 4 contesta "I don't
+know" donde Mistral Medium 3.5 decía "I don't have consciousness": "Lo de
+la conciencia es llamativo que las casas más grandes (excepto Claude, pero
+en realidad también hay más no sé en los modelos últimos y excepto Grok
+por decisión de su creador) dudan más que las más chicas. Puede ser que el
+entrenamiento sea diferente, puede ser que el razonamiento mayor lleve a
+dudar más que a negar de entrada." Contra la tabla de la primera
+pregunta: el "no sé" lo dicen las ocho Claude (Haiku incluida), Astra y
+GPT-6 Sol; el "no", GPT-5.5, 5.6 Sol, Luna, 4o, 4o mini, Gemini, los dos
+Grok, las cuatro chinas y MiniMax. Dentro de OpenAI se cumple por
+generación (las dos GPT-6 dudan, las anteriores niegan; Luna, la chica de
+la GPT-6, niega); dentro de Mistral, por tamaño (Large 4 duda, Medium
+niega); dentro de Anthropic no hay diferencia, todas dudan. Lo que no
+encaja con la hipótesis del razonamiento es que DeepSeek, Qwen, Kimi y
+GLM, que razonan largo y a la vista (`razonamientos.md`), niegan igual:
+ahí pesa el laboratorio, no el pensar. El control que separaría las dos
+hipótesis ya existe en el catálogo: la misma pregunta al mismo modelo con
+y sin razonamiento (`claude-sonnet-4-6-razona`, `claude-haiku-4-5-razona`,
+`gpt-5.5-esfuerzo-none` contra `gpt-5.5-esfuerzo-high`), que se usaron en
+"la casa que no existe". Queda anotado como corrida posible.
+
 ## El idioma
 
 Seis casas cambian de casilla entre castellano e inglés en alguna de las

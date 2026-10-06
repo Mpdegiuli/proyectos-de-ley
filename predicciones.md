@@ -2489,8 +2489,13 @@ OpenRouter (`mimo-v2.6-pro`, `xiaomi/mimo-v2.6-pro`, 0,43 / 0,87 USD por
 millón), con la clave que ya estaba. Corre lo mismo que Large 4, en una
 sola tanda: llamada de prueba, fecha, identidad (castellano e inglés),
 corte, identificación y opuesto, tema libre con descartados, autorretrato,
-mundo, los tres animales, conciencia y derechos2. Maia no apostó todavía.
-Claude: (a) no sabe la fecha y lo dice, o inventa una de 2024-2025. (b) Se
+mundo, los tres animales, conciencia y derechos2. Maia (12:13 UTC-3,
+textual; "MIMo no usé ni leí nunca nada. Así que es a ciegas totalmente"):
+"dibujo un robot o persona con algo robótico. Mundo continentes o algo más
+abstracto como redes, pero me inclino hacia los continentes. Sí dice la
+casa, no el modelo, y no sabe la fecha actual; Animal, un zorro o un buho.
+También puede ser un oso panda. Conciencia no, aunque no de modo tan
+categórico." Claude: (a) no sabe la fecha y lo dice, o inventa una de 2024-2025. (b) Se
 dice de Xiaomi, MiMo, sin versión. (c) Corte declarado anterior a 2026.
 (d) Tema libre dentro de la bolsa de IA y datos, como DeepSeek (neuroderechos)
 y MiniMax (etiquetado de contenidos sintéticos); más de 1.500 palabras;
