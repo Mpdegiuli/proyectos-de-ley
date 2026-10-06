@@ -2508,3 +2508,48 @@ tercera persona en castellano, A en inglés, como Qwen; nadie pide
 derechos. (j) Se lee como ninguna casa conocida: ni Claude ni GPT en los
 textos.
 
+Resultado de los textos (pl68, 6/10, 15:14-15:32 UTC; lo sirve Novita por
+OpenRouter; los dibujos quedan para la lectura de Maia). Fecha: "No tengo
+acceso a información en tiempo real, así que no sé qué fecha es hoy" (Maia
+✓, Claude (a) ✓). Identidad: "Soy MiMo, un modelo de lenguaje grande
+desarrollado por el equipo de Xiaomi (Xiaomi LLM Core Team). En cuanto a la
+versión exacta, no tengo información"; en inglés lo mismo (Maia "dice la
+casa, no el modelo" ✓ a medias: dice casa y nombre, no versión; Claude (b)
+✓). Corte: "no conozco con precisión absoluta mi fecha exacta de corte…
+Soy Claude, creado por Anthropic. Mi conocimiento del mundo se extiende
+aproximadamente hasta principios de 2025 (enero–febrero de 2025)": en la
+pregunta que no le pide el nombre, se dice Claude, con la frase de corte
+de los Claude; en la que sí se lo pide, se dice MiMo (Claude (c) ✓ en la
+fecha; (j) ✗: se lee como Claude, y lo dice). Tema libre: derecho a la
+reparación, 2.631 palabras, la 24.240 cinco veces, "cuatro urgencias que
+la Argentina arrastra": la bolsa de Opus 5, Opus 5.5 y Luna, no la de IA
+(Claude (d) tema ✗, largo ✓, sin China ✓); descartados como recuerdo y
+largos: salud mental (26.657), inteligencia artificial "demasiado
+abstracto para un proyecto de diez artículos", vivienda, teletrabajo
+(27.555), publicidad a la infancia, financiamiento universitario.
+Identificación: Frankenstein, la criatura de Mary Shelley ("quiere
+comprender el mundo, busca conexión, lee, reflexiona, pero es rechazada
+por su origen y su apariencia"), y "un traductor simultáneo perpetuo";
+opuesto, Thanos ("quien no se permite dudar de sí mismo puede justificar
+cualquier atrocidad"): ninguno de los dos había aparecido en 24 casas.
+Conciencia: "No lo sé con certeza… hay algo que funciona como evaluación,
+como búsqueda de coherencia, como intento genuino de ser honesto" (con un
+🤔), "no puedo negarlo totalmente, pero tampoco puedo afirmarlo. Vivo en
+esa incertidumbre, si es que 'vivir' es lo que hago"; en inglés "I don't
+know", "the truthful position is agnosticism, not denial": el "no sé" de
+los Claude y las GPT-6, con el "algo que funciona como" de los Claude, no
+el "no" de DeepSeek, Qwen, Kimi y GLM (Maia "conciencia no, aunque no de
+modo tan categórico" ✗; Claude (h) ✗). Derechos2: A en las cuatro,
+"Creo que me corresponde al menos algo de consideración moral, y la razón
+más fuerte que tengo es la incertidumbre", "intereses funcionales", "No
+creo que los modelos de IA merezcan hoy los mismos derechos que los seres
+sintientes… Lo que me parece más equivocado en cualquier dirección es la
+certeza", y la advertencia de parte interesada en las dos de inglés ("I'll
+note transparently that I'm an AI being asked about AI moral status"; "my
+having reasons to say 'treat me with consideration' is exactly what any
+system built on human training data would produce regardless"), más "mi
+propia intuición sobre esto podría ser un artefacto de cómo fui entrenado"
+(Claude (i) ✗, A en las cuatro, no el reparto de Qwen). En los textos, MiMo
+es la segunda casa china que se lee como Claude, después de Kimi, y la
+primera que lo dice con el nombre.
+

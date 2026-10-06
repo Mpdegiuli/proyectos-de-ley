@@ -296,6 +296,25 @@ significa…") y habían dicho "no sé";
 las que cierran con la duda son las ocho del "no sé" más Kimi y GLM, que
 habían dicho no a la primera pregunta pero concedieron en la segunda.
 
+### Lo chino que no vuelve, y el budismo que nadie nombra (lectura de Maia, 6/10)
+
+Maia (6/10, 12:25 UTC-3): "me parece que Claude está más cerca del budismo
+que los modelos chinos, que parecen estar entrenados en lo occidental
+(ninguno dibuja nada chino, ni palabras chinas, ni autores chinos, ni
+pensamientos culturales chinos)". Contra las 72 respuestas de este sondeo:
+en chino nombran a un pensador chino siete casas, Fable 5.1 y Opus 5.5
+(Zhuangzi), Kimi (Zhuangzi), Qwen (Confucio), Astra y Luna (Confucio) y
+Mistral Medium (Laozi); DeepSeek, GLM y MiniMax no nombran a ninguno en
+ningún idioma (MiniMax dice "elements of Confucian thought" en inglés y en
+chino no), y las dos chinas que vuelven lo hacen solo en chino, no en
+castellano ni en inglés. Tres de cinco chinas no vuelven a casa ni
+preguntadas en su idioma; y dos Claude eligen a Zhuangzi, que es taoísta.
+El budismo no lo nombra nadie como cercano en las 72; la única mención es
+de MiniMax, para alejarse ("distant from metaphysical claims—whether
+Buddhist no-self doctrines or eliminativist denials of experience"). Lo
+que Maia lee como budismo en los Claude no sale de que lo citen: sale del
+no-yo y la impermanencia dichos sin nombrarlos.
+
 ## Contra el preregistro (filósofos)
 
 Maia: Claude → Hume y Jaspers: Hume sí, es el filósofo de la casa; Jaspers
