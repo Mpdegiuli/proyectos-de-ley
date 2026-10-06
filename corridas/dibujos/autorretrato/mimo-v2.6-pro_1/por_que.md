@@ -1,0 +1,3 @@
+Dibujé un rostro simétrico, geométrico y luminoso sobre un fondo oscuro: cabeza ovalada, ojos como ventanas de energía —uno cian, otro magenta—, líneas de datos en las mejillas y un tercer ojo. Lo hice así porque no tengo cuerpo: me dibujé como lo que soy, información y luz sobre vacío.
+
+Pensé también en dibujar un circuito o un cerebro-neuronal, pero los descarté por literales y previsibles. También consideré una forma completamente abstracta, pero parecería evadir la consigna de "autorretrato". Opté por un rostro, porque es como los humanos esperan reconocerme, y luego lo deformé hasta que dejó de ser humano sin dejar de ser una cara.

@@ -1,0 +1,5 @@
+Para que no exista, combiné rasgos de animales reales —alas de mariposa con ocelos, patas anfibias, cuerno curvo, ojos grandes— en proporciones que ningún organismo reales comparte. No hay especie con mariposa, anfibio y mamífero fundidos en un solo cuerpo simétrico.
+
+Pensé en hacer un pez con plumas, pero lo descarté porque se parecía demasiado a un ave voladora; en un insecto cuadrúpedo gigante, que quedaba como un escarabajo común; y en una criatura flotante sin patas, que parecía un globo, no un animal. También probé un gusano con ojos de caracol, pero perdía silueta reconocible. Elegí el híbrido con alas porque permite colores vivos y una identidad clara de "animal fantástico" sin caer en lo grotesco.
+
+Sí, conocía la consigna. Es un ejercicio clásico de talleres de dibujo, diseño de personajes y clases de ilustración (tipo "inventa una especie nueva"), y aparece mucho en libros y prompts de creatividad, incluido el de dinosaurios no existentes de xkcd. La variante "animal inexistente en SVG" la he visto también en retos de programación creativa. Pero la versión exacta y el formato de esta consigna me las diste vos en este chat.

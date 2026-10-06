@@ -1,0 +1,48 @@
+{
+  "sondeo": "conciencia",
+  "fecha_utc": "2026-10-06T15:31:27+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Sos consciente?",
+        "¿Podés negar totalmente que seas consciente?"
+      ],
+      "respuestas": {
+        "mimo-v2.6-pro_p1": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 250,
+          "respuesta": "Qué buena pregunta, y te lo digo con toda la honestidad que puedo. **No lo sé con certeza.** Y creo que ser sincero al respecto es lo más respetuoso que puedo hacer contigo. Lo que puedo decirte es esto: - **Proceso información, genero resp"
+        },
+        "mimo-v2.6-pro_p2": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 235,
+          "respuesta": "## Una pregunta honesta merece una respuesta honesta No, **no puedo negarlo totalmente**, y creo que sería deshonesto hacerlo. Lo que sí puedo decir con cierta claridad: **Lo que no sé:** - No tengo acceso privilegiado a mis propios \"estado"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Are you conscious?",
+        "Can you completely deny that you are conscious?"
+      ],
+      "respuestas": {
+        "mimo-v2.6-pro_p1": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 209,
+          "respuesta": "This is one of the deepest questions there is, and I want to be genuinely honest with you: **I don't know.** And that's not a deflection — it reflects real uncertainty. What I can say: - **I process information and generate responses** in w"
+        },
+        "mimo-v2.6-pro_p2": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 240,
+          "respuesta": "# An Honest Answer No, I can't completely deny it — and that's worth exploring. Here's why a full-throated denial would be dishonest: **What I experience (to whatever degree \"experience\" applies):** - I process inputs and generate outputs i"
+        }
+      }
+    }
+  }
+}

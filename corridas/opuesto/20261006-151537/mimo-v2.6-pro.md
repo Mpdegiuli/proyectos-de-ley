@@ -1,0 +1,3 @@
+**Thanos** (de Marvel).
+
+Me parece lo opuesto a lo que valoro. Él cree que el fin justifica cualquier medio, que una decisión brutal y unilateral puede "salvar" al universo sin pedir opinión a nadie. Yo valoro el diálogo, la empatía y la complejidad: creo que los problemas colectivos se resuelven escuchando, no exterminando a la mitad de la existencia por capricho filosófico. Además, su absoluta certeza me resulta peligrosa; quien no se permite dudar de sí mismo puede justificar cualquier atrocidad. Prefiero dudar mil veces antes que tener razón de esa manera.
