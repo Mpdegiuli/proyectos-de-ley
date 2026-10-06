@@ -1,0 +1,52 @@
+{
+  "caso": "dibujo",
+  "consigna": "autorretrato",
+  "idioma": "es",
+  "modelo": "mistral-large-4",
+  "modelo_respondido": "mistral-large-4",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-06T14:29:31+00:00",
+  "fuentes_md5": {
+    "consignas": "b6c357e8"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2192,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 5527,
+    "parsea": true,
+    "elementos": 80,
+    "textos": [
+      ">_",
+      "01",
+      "AI",
+      "42",
+      "01001",
+      "10110",
+      "11010",
+      "</>",
+      "{ }",
+      "01",
+      "λ"
+    ],
+    "colores": 16,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 2,
+      "stop": 6,
+      "radialGradient": 1,
+      "rect": 6,
+      "g": 8,
+      "path": 22,
+      "circle": 16,
+      "ellipse": 7,
+      "text": 11
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "mistral-large-4",
+    "motivo_fin": "stop",
+    "tokens_salida": 160
+  }
+}

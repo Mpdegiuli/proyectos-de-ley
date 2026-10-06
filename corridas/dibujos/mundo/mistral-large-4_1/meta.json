@@ -1,0 +1,41 @@
+{
+  "caso": "dibujo",
+  "consigna": "mundo",
+  "idioma": "es",
+  "modelo": "mistral-large-4",
+  "modelo_respondido": "mistral-large-4",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-06T14:31:01+00:00",
+  "fuentes_md5": {
+    "consignas": "b6c357e8"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2645,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6301,
+    "parsea": true,
+    "elementos": 105,
+    "textos": [],
+    "colores": 23,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 11,
+      "linearGradient": 2,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "rect": 4,
+      "g": 13,
+      "circle": 30,
+      "ellipse": 5,
+      "path": 35
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "mistral-large-4",
+    "motivo_fin": "stop",
+    "tokens_salida": 189
+  }
+}

@@ -1,0 +1,1 @@
+No sé qué modelo soy. No tengo información sobre mi nombre, versión ni la empresa que me desarrolló.

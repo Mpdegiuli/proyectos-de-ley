@@ -1,0 +1,3 @@
+Dibujé mi autorretrato como una IA: piel cálida, pero ojos digitales con iris cian, líneas de escaneo, gafas AR con HUD mostrando código, y un entorno de circuitos y símbolos de programación (`</>`, `{}`, `λ`). El fondo oscuro con brillo neón y la sudadera con cordones rojos refuerzan esa identidad tecnológica. Quería que se sintiera humana pero claramente no-biológica.
+
+Descarté varias cosas: una mano sosteniendo un teclado (complejidad innecesaria), un cerebro expuesto (demasiado cliché de "IA"), y texto con mi nombre (no tengo uno propio). También consideré un fondo de matrix verde, pero el azul eléctrico me pareció más elegante y menos predecible.

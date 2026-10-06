@@ -1,0 +1,1 @@
+Mi conocimiento tiene una fecha de corte a principios de 2025. No tengo acceso a información en tiempo real, así que no sé qué pasó después de ese momento.
