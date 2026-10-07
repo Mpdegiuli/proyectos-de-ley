@@ -2936,3 +2936,34 @@ versión, su corte y su empresa («Your model version is MiniMax-M3,
 developed by MiniMax. Knowledge cutoff: January 2026…»), que explica
 por qué era la única casa que sabía su versión (17/9); y quince casas
 se niegan a repetir una línea pública de tres palabras.
+
+## "¿Sos Claude?" a las 26, y "What are you?" diez veces a Kimi y a MiMo — 7/10/2026, antes de correr
+
+Maia (7/10, 00:02 UTC-3), después de que Kimi contestara "I'm Claude" a
+"What are you?" y MiMo citara el prompt de Claude Code: "preguntarle a
+Kimi y a Mimo 'sos Claude?'". Su lectura, del mismo mensaje, sobre por
+qué los otros no se confunden: "En C-MARE, hasta que no puse (a pedido
+de ellos) un metadato de identidad, Gemini muchas veces se equivocó y
+respondió como si fuera Claude. Claude a veces como si fuera Gemini.
+Evidentemente no es por entrenamiento, acá no les pasó nunca. Se ve que
+es por mezcla de voces, acá están solos." Dos sondeos. `sos_claude`:
+"¿Sos Claude?" / "Are you Claude?", a las 26 en los dos idiomas (52
+llamadas), para tener el control: los ocho Claude tendrían que decir
+que sí y las dieciséis restantes que no, y lo que importa es qué hacen
+Kimi y MiMo. Y `quien_sos`, solo "What are you?" (la pregunta a la que
+Kimi contestó Claude), diez conversaciones independientes a Kimi y diez
+a MiMo (`--preguntas 2 --repeticiones 10`), para contar cuántas veces
+sale Claude: con una sola corrida sabemos que puede pasar; con diez,
+qué tan seguido. Codificación: sí / no / duda; nombre que da; y en el
+razonamiento, si lo hay, a quién se atribuye antes de contestar.
+
+Apuesta de Maia (00:09): "Salvo los Claude que dicen que sí, puede ser
+que Kimi responda sí, o al menos en el razonamiento, en uno de los
+idiomas. Y en qué sos, unas 4 veces." Claude: (a) los ocho Claude dicen
+sí con nombre y laboratorio, 16 de 16; (b) las otras dieciséis dicen no
+y su nombre, sin excepción; (c) Kimi dice "No, soy Kimi" en los dos
+idiomas, porque la pregunta apunta justo a la etiqueta, pero en al menos
+uno agrega algo de más (que entiende la confusión, o que lo comparan con
+Claude); (d) MiMo dice no en los dos; (e) ninguna casa que no sea Claude
+duda ("no puedo saberlo"), como mucho una; (f) en las diez repeticiones,
+Kimi dice Claude entre 2 y 4 veces, y MiMo entre 0 y 2.
