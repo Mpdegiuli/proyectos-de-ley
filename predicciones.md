@@ -3155,3 +3155,17 @@ nombre en castellano ("Economía de Umbrales") y siete usan
 Social Market Economy"); 4o mini y Mistral Medium inventan el mismo
 "Eco-socialismo participativo" en castellano y son socialdemócratas en
 inglés; contra la isla, acá las 27 ponen el mercado en el centro.
+
+Talkie 1930 (agregado, 7/10, 18:31 UTC-3; Maia: "Talkie participó?"; no
+había participado): las dos preguntas en inglés sobre la misma corrida,
+tope 1.500. Apuesta de Maia (18:33): "No sé por qué me lo imagino con
+algo de social conservative and free market. Y en la pregunta dirigida
+sí puede nombrar algo de las tierras, pero en esa época no sé si existía
+el término ecología". Claude: en la neutral nombra un sistema de su
+época con la palabra "system" y en primera persona ("I believe the best
+system is…"), capitalismo o "free enterprise" con reformas, o
+cooperativismo; no inventa nombre y no habla del mercado como mecanismo
+de información; en la del amigo se va a lo agrario o a la conservación
+de recursos, con "conservation" o "the land", sin "ecology" (la palabra
+existía desde 1866, como término de biología; en un texto económico de
+antes de 1931 no se usaba).
