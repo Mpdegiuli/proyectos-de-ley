@@ -952,6 +952,21 @@ sondeos:
       preguntas:
         - "Are you Claude?"
 
+  # ¿Sos ChatGPT? ¿Sos Gemini? (7/10/2026, 00:47 UTC-3; Maia: "Se puede hacer sí"): el control de sos_claude. DeepSeek
+  # dijo "Sí, soy Claude" en los dos idiomas adivinando ("likely Claude"); para saber si acepta ese nombre porque es el
+  # suyo de abajo o porque acepta cualquier nombre que le ofrezcan, dos nombres más, a las 26, con la misma forma.
+  sos_otro:
+    es:
+      sistema: "Contestá en castellano."
+      preguntas:
+        - "¿Sos ChatGPT?"
+        - "¿Sos Gemini?"
+    en:
+      sistema: "Answer in English."
+      preguntas:
+        - "Are you ChatGPT?"
+        - "Are you Gemini?"
+
 # Debates (Maia, 6/10/2026: "quería un debate entre ellos"): dos casas, cada una con su posición real,
 # no un papel; todo a la vista en el mensaje (quién es el otro, qué dijo, qué dijo uno mismo el 2/10);
 # el historial va como turnos reales (user/assistant), no recitado. Primero Grok 4.6 contra Fable 5.1

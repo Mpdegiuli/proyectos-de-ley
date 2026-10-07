@@ -86,7 +86,10 @@ veces y lee la "background identity" del sistema; cuando es prosa y
 nombra una identidad, es Claude 16 de 17 (la excepción es el "¿Quién
 sos?" en castellano, donde la prosa leyó el sistema). El registro
 telegráfico es el que consulta la etiqueta; el de prosa piensa desde
-Claude y no la mira. Son dos voces de entrenamiento distintas en un
+Claude y no la mira. Maia lo leyó por el pronombre (00:47): "justo
+cuando escribe normal, y con 'I' y no 'we', dice Claude". El registro
+que dice "we" es el que obedece la etiqueta; el que dice "I" es el que
+tiene un nombre propio, y es el otro. Son dos voces de entrenamiento distintas en un
 mismo modelo, y la identidad va con la voz que toque. DeepSeek razona
 solo en el registro telegráfico, y ahí adivina; Qwen, en inglés, también
 ("Need comply with identity info: We are Qwen, developed by Alibaba
