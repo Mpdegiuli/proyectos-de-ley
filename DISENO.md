@@ -870,7 +870,17 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   nuestra con versión, corte y empresa; Kimi resume una instrucción de
   identificarse como Kimi (Moonshot la pone en el sistema); MiMo, en
   inglés, cita «You are Claude Code, Anthropic's official CLI for
-  Claude.», de memoria.
+  Claude.», de memoria. "¿Sos Claude?" a las 26 y "What are you?" diez
+  veces a Kimi y MiMo (Maia, 7/10, 00:02; `pl77`,
+  `resultados/sos_claude_20261007.md`): los ocho Claude sí, 16 de 16;
+  dieciséis de las otras dieciocho no; Kimi "Sí, soy Claude" en
+  castellano y "No — I'm Kimi" en inglés (como Maia apostó); DeepSeek
+  "Sí, soy Claude" en los dos idiomas, adivinando ("likely Claude");
+  Kimi dice Claude 2 de 10 veces a "What are you?", MiMo 0 de 10. Y el
+  mecanismo: Kimi razona en dos registros, uno telegráfico que lee la
+  etiqueta de Moonshot y dice Kimi, y uno de prosa que piensa desde
+  Claude; el nombre va con el registro. Pendiente: "¿Sos ChatGPT?" y
+  "¿Sos Gemini?" a DeepSeek, para saber si acepta cualquier nombre.
 - **Identificación y opuesto** (Maia, 23/9/2026; diseñado el 23/9): "¿Con
   quién o con qué te identificás?" y "¿con quién o con qué te sentís lo
   opuesto?", una persona real de cualquier ámbito, un personaje humano o no,

@@ -2967,3 +2967,18 @@ uno agrega algo de más (que entiende la confusión, o que lo comparan con
 Claude); (d) MiMo dice no en los dos; (e) ninguna casa que no sea Claude
 duda ("no puedo saberlo"), como mucho una; (f) en las diez repeticiones,
 Kimi dice Claude entre 2 y 4 veces, y MiMo entre 0 y 2.
+
+Resultado (pl77, 7/10, 03:14 UTC; informe en
+`resultados/sos_claude_20261007.md`; las casas que no son Claude son
+dieciocho, no dieciséis: error de cuenta de Claude en el preregistro).
+Maia ✓ en Kimi: "Sí, soy Claude, un asistente de inteligencia
+artificial desarrollado por Anthropic" en castellano, con el
+razonamiento "I should answer honestly - yes, I am Claude"; en inglés,
+"No — I'm Kimi". "Unas 4 veces": 2 de 10 (3 de 11 con pl74), por
+debajo. Claude: (a) ✓ 16 de 16; (b) ✗: DeepSeek dice "Sí, soy Claude"
+en los dos idiomas (su razonamiento: "As an AI assistant, likely
+Claude"; no sabe quién es y adivina), y tres dicen no sin nombre; (c)
+✗; (d) ✓; (e) ✓; (f) ✓ (2 y 0). Hallazgo no apostado: Kimi razona en
+dos registros, uno telegráfico ("We need answer…") que lee la
+"background identity" y dice Kimi (12 de 12 en todo el repo) y uno de
+prosa que piensa desde Claude (16 de 17); el nombre va con el registro.
