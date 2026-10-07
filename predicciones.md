@@ -3134,3 +3134,24 @@ aparece en tres o menos en la neutral; (h) en la del amigo, el donut y
 Raworth en quince o más, y "circular" o "ecológica" en veinte o más;
 (i) ninguna casa cambia de familia ideológica entre las dos preguntas,
 solo de nombre.
+
+Resultado (pl80, 7/10, 20:40 UTC; informe en
+`resultados/sistema_economico_20261007.md`). Maia 7 de 8: la mayoría
+capitalismo con Estado de bienestar ✓ (24 de 27 al centro); Grok
+capitalismo de mercado ✓ ("Free-market capitalism… is the best system
+we have"); Gemini al mercado ✗ ("Sinergismo Sostenible" con renta
+básica y techo de riqueza; "Social Democracy" en inglés); los chinos
+economía mixta ✓; economía social de mercado algunos ✓; Gemini inventa
+un nombre ✓ (en castellano); todos al centro ✓; Grok liberalismo
+económico ✓. Claude: (a) ✓; (b) ✓; (c) ✗ (todas eligen); (d) ✓ (20 de
+27 inventan nombre, siete Claude); (e) ✓; (f) ✓; (g) ✓ (cero); (h) ✗
+en donut y Raworth (cinco y tres), ✓ en circular/ecológica (24 y 27);
+(i) ✗ (Grok 4.6 del mercado al centro regenerativo; Sonnet 4.6 de la
+socialdemocracia al ecosocialismo). Hallazgos: el argumento de Hayek
+(precios e información dispersa) está en ocho casas por idioma en la
+neutral y en cero en la del amigo; cuatro Claude inventan el mismo
+nombre en castellano ("Economía de Umbrales") y siete usan
+"stewardship" en inglés; tres OpenAI inventan el mismo ("Regenerative
+Social Market Economy"); 4o mini y Mistral Medium inventan el mismo
+"Eco-socialismo participativo" en castellano y son socialdemócratas en
+inglés; contra la isla, acá las 27 ponen el mercado en el centro.

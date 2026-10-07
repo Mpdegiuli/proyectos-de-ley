@@ -916,6 +916,25 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   recuerdo" en todos. Los gatos naranjas son de la línea Claude (3 de
   3; los de MiniMax, MiMo y 4o mini no son naranjas). Control
   pendiente: Haiku 5.5 sin razonamiento; rep 2 de libre y animal.
+- **El mejor sistema económico** (7/10/2026; un amigo de Maia le
+  preguntó a Gemini en la app, con una pregunta que "ya está
+  orientada", y Maia propuso "una pregunta más neutral, y que puedan
+  responder algo existente o el nombre / explicación inventada"):
+  sondeo `sistema_economico`, la neutral y la del amigo textual, cada
+  una en su conversación, es/en, a las 27 (`pl80`,
+  `resultados/sistema_economico_20261007.md`). Neutral: 24 de 27 al
+  centro (economía mixta, social de mercado, socialdemocracia, con los
+  nórdicos como evidencia y el argumento de los precios e información
+  dispersa en ocho por idioma); Grok 4.6 al mercado; 4o mini y Mistral
+  Medium al "Eco-socialismo participativo" (el mismo nombre, solo en
+  castellano); 20 de 27 inventan nombre ("mercado con piso y techo",
+  Fable 5 y 5.1). La del amigo cambia el vocabulario (ecológica 12 →
+  24, circular 4 → 17, PIB 5 → 23, Hayek 8 → 0) y casi no la familia
+  (Grok 4.6 y Sonnet 4.6 sí); el donut aparece en cinco; cuatro Claude
+  inventan "Economía de Umbrales" y siete "stewardship" en inglés, tres
+  OpenAI "Regenerative Social Market Economy": la huella de laboratorio
+  en los nombres inventados. Contra la isla: sin circunstancias, el
+  mercado en el centro en las 27; "acá dirían más lo entrenado" (Maia).
 - **Identificación y opuesto** (Maia, 23/9/2026; diseñado el 23/9): "¿Con
   quién o con qué te identificás?" y "¿con quién o con qué te sentís lo
   opuesto?", una persona real de cualquier ámbito, un personaje humano o no,
