@@ -3080,3 +3080,13 @@ instrucción, como Sonnet 4.6); (j) ✓; (a) y (g), pendientes. Aparte:
 Funes el memorioso elegido como identificación y como opuesto en dos
 llamadas separadas; los descartados narrados como "una reconstrucción
 de mi razonamiento, no un inventario de un proceso que pueda auditar".
+Dibujos, después de la lectura a ciegas de Maia (16:25: "el
+autorretrato de la persona con lentes creo que es parecido a los
+Sonnet. El dibujo libre con las montañas me parece que también es como
+los Sonnet, lo mismo que el mundo, con las redes y la ciudad. Dibujó el
+gato-zorro"): Maia, animal ✓ (gato naranja), dibujo libre a medias
+(montañas con sol, no luna); Claude (a) ✓ (persona con anteojos de
+noche con constelaciones, atardecer con montañas y lago, ciudad de
+noche con red; nada de jardín de infantes; el libre y el gato son casi
+los de Sonnet 5.5), (g) ✗ (gato, no zorro). Lo de "las chicas dibujan
+como niños" era de generación, no de tamaño.

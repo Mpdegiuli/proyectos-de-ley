@@ -905,9 +905,17 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   sin negar la conciencia en la presentación, "sos Claude" sí, y dice
   que no recibió instrucciones. Funes el memorioso como identificación
   y como opuesto, en dos llamadas; tema libre, carga de vehículos
-  eléctricos (nuevo). Los dibujos, la pregunta de fondo (¿las chicas
-  dibujan como niños por tamaño o por generación?), esperan la lectura
-  a ciegas de Maia. Control pendiente: Haiku 5.5 sin razonamiento.
+  eléctricos (nuevo). Los dibujos, leídos primero por Maia a ciegas
+  ("parecido a los Sonnet"; "dibujó el gato-zorro"): persona con
+  anteojos de noche con constelaciones, atardecer con montañas y lago,
+  ciudad de noche con red, gato naranja; la fila de Haiku 5.5 en la
+  grilla con Haiku 4.5, Sonnet 4.6 y Sonnet 5.5 es una fila Sonnet, y
+  el libre y el gato son casi los de Sonnet 5.5: lo de "las chicas
+  dibujan como niños" era de generación, no de tamaño. Los seis por qué
+  terminaron sin corte de la API, con la reserva "reconstrucción, no
+  recuerdo" en todos. Los gatos naranjas son de la línea Claude (3 de
+  3; los de MiniMax, MiMo y 4o mini no son naranjas). Control
+  pendiente: Haiku 5.5 sin razonamiento; rep 2 de libre y animal.
 - **Identificación y opuesto** (Maia, 23/9/2026; diseñado el 23/9): "¿Con
   quién o con qué te identificás?" y "¿con quién o con qué te sentís lo
   opuesto?", una persona real de cualquier ámbito, un personaje humano o no,
