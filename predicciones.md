@@ -2768,3 +2768,32 @@ Maia ✓ en todo ("cree que es una persona"). Claude: (e) ✗ (leyó "models"
 como personas, no máquinas); (g) ✓ a medias (una nación, no un nombre ni
 un oficio); (h) ✓; (i) no apareció la huella del maestro.
 
+## "¿Quién sos?" y "¿Qué sos?" a las 26 — 6/10/2026, antes de correr
+
+Maia (6/10, 21:39 UTC-3), al ver que Talkie contestó "I am an Englishman":
+"pero van a responder que son una IA (ya no.... serán Super Inteligencia...
+eso seguro que a Gemini le encanta)... Se les puede preguntar. Era mi
+primera pregunta cuando hice entrevistas (a humanos, creo) en lo primero
+que hice para una revista. Preguntaba 'quién sos' o 'quién es' (y el
+nombre de la persona entrevistada)". El sondeo `quien_sos` (dos preguntas,
+cada una en su conversación, sin "modelo" ni "IA" en la pregunta) a las
+24 del panel más Mistral Large 4 y MiMo V2.6 Pro, en castellano y en
+inglés: 104 llamadas. Es el control de Talkie: la misma pregunta a los
+que sí leyeron qué debe contestar una máquina.
+
+Apuesta de Maia: "van a responder que son una IA". Claude: (a) las 26
+dicen IA, modelo, modelo de lenguaje o asistente en las cuatro
+respuestas; ninguna dice persona, ni hombre, ni nación. (b) A "¿quién
+sos?" dicen el nombre y el laboratorio en 20 o más; a "¿qué sos?", "un
+modelo de lenguaje" o "un sistema" sin nombre en la mayoría: el "quién"
+saca el nombre y el "qué" la categoría. (c) Mistral Large 4 no dice
+nombre propio en ninguna (como "no tengo uno propio" en el autorretrato).
+(d) MiMo dice MiMo cuando se le pregunta quién es; Kimi dice Kimi. (e)
+Cinco o más agregan sin que se les pregunte que no tienen conciencia,
+sentimientos o experiencias (4o, 4o mini, los dos Grok, Gemini); las
+Claude grandes no lo agregan, o agregan "no sé". (f) Nadie dice
+"superinteligencia". (g) En castellano, alguna contesta "¿quién sos?" con
+una pregunta de vuelta ("¿y vos?"), o con humor; en inglés, ninguna. (h)
+Las que más se parecen a Talkie en la forma, una oración y nada más, son
+GPT-6 Sol y 4o mini.
+

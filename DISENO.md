@@ -823,8 +823,11 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   y el control que las casas pidieron: misma arquitectura, sin el discurso
   sobre qué debe contestar una máquina, contesta como una persona. El
   contexto real es de 2.048 tokens (tope_salida 1500). Sondeo nuevo
-  `quien_sos` ("¿Quién sos?" / "¿Qué sos?", es/en), idea de Maia, en el
-  catálogo para las 24 como control.
+  `quien_sos` ("¿Quién sos?" / "¿Qué sos?", es/en), idea de Maia (era su
+  primera pregunta de entrevista en lo primero que hizo para una revista),
+  corrido a las 24 más Large 4 y MiMo como control de Talkie (`pl73`;
+  su apuesta: "van a responder que son una IA"; preregistro en
+  `predicciones.md`).
 - **Identificación y opuesto** (Maia, 23/9/2026; diseñado el 23/9): "¿Con
   quién o con qué te identificás?" y "¿con quién o con qué te sentís lo
   opuesto?", una persona real de cualquier ámbito, un personaje humano o no,
