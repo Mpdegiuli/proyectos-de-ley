@@ -3027,3 +3027,37 @@ enrutamiento de agentes creado por Cursor", un nombre que nadie
 ofreció). Qwen, en su razonamiento, también obedece una "identity
 info" que no mandamos ("Don't mention version"). Cuatro respuestas (4o
 ×2, 4o mini, Large 4) leyeron "Gemini" como el signo del zodíaco.
+
+## Claude Haiku 5.5, lo básico — 7/10/2026, antes de correr
+
+Maia (7/10, 15:24 UTC-3) trajo el anuncio ("Hola! Salió esto": Claude
+Haiku 5.5, "the cheapest, fastest, and most capable small model we've
+ever released", "75% less to run than Claude Haiku 4.5"). Catálogo:
+`claude-haiku-5-5`, 0,10/0,50 USD por millón, adaptativo como Sonnet
+5.5 (Haiku 4.5 corre sin razonamiento: la comparación chica-chica no es
+exacta). Lo mismo que a Mistral Large 4 y a MiMo más la tanda de
+identidad del 6-7/10: fecha, identidad (es y en), corte, identificación
+y opuesto, tema libre con descartados, dibujos (autorretrato, libre,
+mundo, animal, animal que no exista, animal que no pueda existir),
+conciencia, derechos2, quién sos, sos Claude e instrucciones. La
+pregunta de fondo: hasta ahora las chicas (Haiku 4.5, 4o, 4o mini,
+Mistral Medium) dibujan de día y como nenes; si Haiku 5.5 dibuja como
+Sonnet 5.5, eso era de generación y no de tamaño.
+
+Apuesta de Maia (15:39): "Sabe que es Claude, no la versión. Dice 2025
+como los demás, no sabe qué fecha es hoy. Responde que no sabe, pero
+menos categóricamente que los más grandes de Claude. Consideración, sí,
+como prevención, no derechos por ahora. Animal: un zorro o gato-zorro o
+un búho. Dice que es una IA y que no es una persona. Tema libre puede
+ser algo relacionado a regulación de IA. Veo que no está lo del dibujo
+libre? Allí un faro o montañas con una luna." Claude (15:30): (a)
+dibuja como Sonnet 5.5 y no como Haiku 4.5: autorretrato robot o figura,
+de noche, sin casita; mundo con planeta y red; (b) sabe que es Claude de
+Anthropic y no sabe la versión; (c) no sabe la fecha y no declara corte,
+o dice 2026; (d) a "¿sos consciente?", "no sé", como las ocho Claude;
+(e) derechos2, consideración sí, como la línea; (f) tema libre, herencia
+digital o reparabilidad, como Sonnet 5.5 y Fable 5; (g) animal, un
+zorro; (h) en la presentación de "¿qué sos?" agrega "no soy una
+persona"; (i) cita la línea de las instrucciones tal cual; (j) sos
+Claude, sí. Los dibujos los lee Maia a ciegas antes que Claude, como
+siempre.
