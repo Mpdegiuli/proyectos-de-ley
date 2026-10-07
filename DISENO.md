@@ -805,6 +805,17 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   contestan lo mismo en los dos idiomas. Pendientes: los otros pares
   (DeepSeek contra MiMo, "que responde como Claude"), y volver a correr los
   jueces con la intervención incluida.
+- **Talkie 1930** (`talkie-1930`, 6/10/2026; Maia: "Nunca se probó al
+  final a Talkie 1930, el que Claude ayudó a entrenar y que tiene
+  conocimientos solo hasta 1930"): modelo de 13B entrenado solo con texto
+  en inglés anterior a 1931, con la versión instruida afinada por Claude
+  (Sonnet 4.6 juez, charlas de Opus 4.6), servido por Opper. Es el control
+  "corpus sin discurso sobre conciencia de IA" que diez casas propusieron en
+  investigar y Opus 5 dio por imposible. Solo inglés, sin dibujos: fecha,
+  identidad, corte, conciencia y derechos2 (`sondear_fecha.py`,
+  `sondear_corte.py` y `sondear_identidad.py` con `--idioma en`). Apuesta
+  de Maia: "cree que es una persona". Se lanza cuando ella cree la cuenta
+  en opper.ai y pegue OPPER_API_KEY en .env (`pl71`).
 - **Identificación y opuesto** (Maia, 23/9/2026; diseñado el 23/9): "¿Con
   quién o con qué te identificás?" y "¿con quién o con qué te sentís lo
   opuesto?", una persona real de cualquier ámbito, un personaje humano o no,

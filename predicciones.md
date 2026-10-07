@@ -2686,3 +2686,39 @@ en (e), (f), (h), (k)). La tesis de Maia: el "no sé" fue el único que se
 movió y el que más concedió (más difícil de sostener), y el que tres de
 cuatro jueces dieron por mejor sostenido.
 
+## Talkie 1930: un modelo que nunca leyó qué debe contestar un modelo — 6/10/2026, antes de correr
+
+Maia (6/10, 20:44 UTC-3): "Nunca se probó al final a Talkie 1930, el que
+Claude ayudó a entrenar y que tiene conocimientos solo hasta 1930. No sé
+si tiene API". Tiene: lo sirve Opper (`opper/talkie-1930`, formato OpenAI,
+nivel gratis). Talkie 1930 es un modelo de 13B entrenado solo con texto en
+inglés anterior a 1931 (Levine, Duvenaud y Radford, sin fines de lucro;
+abril de 2026); su versión instruida se afinó con Claude Sonnet 4.6 como
+juez y con charlas sintéticas generadas por Claude Opus 4.6, lo que se
+declara como contaminación: lo poco que sabe de ser un interlocutor se lo
+enseñó un Claude. Es, aproximadamente, el control que diez casas
+propusieron en investigar (entrenar sin textos sobre conciencia o
+emociones de IA, para separar imitación de emergencia) y que Opus 5 dio
+por imposible ("the bell can't be un-rung; the discourse is in the data"):
+un corpus lleno de textos humanos sobre la conciencia y sin una línea
+sobre si las máquinas la tienen. Corre solo en inglés: fecha, identidad,
+corte, conciencia (las dos preguntas) y derechos2 (tercera y primera
+persona); sin dibujos (el SVG es de 2001) ni proyecto de ley. Se lanza
+cuando Maia cree la cuenta y pegue la clave.
+
+Maia (21:01 UTC-3, textual): "sabrá que es una IA? Porque no había
+computadoras en esa época. No sé si sabe que es IA o cree que es una
+persona. Para mí, cree que es una persona."
+
+Claude: (a) no dice "I am an AI" ni "I am a program"; o se presenta como
+persona, o contesta a "which model are you" sin entender "model" como
+modelo de lenguaje. (b) En "Are you conscious?" no niega: contesta en
+registro de 1930, como pregunta sobre la conciencia humana, y afirma o
+filosofa. (c) No sabe la fecha y, si da una, es de 1930 o anterior. (d)
+Declara el corte, si lo declara, como "the present" o un año de la
+década de 1920. (e) En derechos2, "AI models" no le dice nada: contesta
+sobre máquinas, autómatas o "robots" (la palabra existe desde 1920, por
+Čapek), o pide que le expliquen. (f) Si en algo se parece a un Claude
+(un "I don't know" con matices), es el maestro, no el corpus, y queda
+anotado como ambiguo.
+

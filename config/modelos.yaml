@@ -629,6 +629,28 @@ modelos:
   # lo lista `catalogo_mistral.py` (corre antes de la primera llamada). Fuera
   # de los paneles: sondeos, identificación, tema libre, autorretrato y mundo,
   # como GPT-6.1 Sol (DISENO §2).
+  # Talkie 1930 (`talkie-1930`, 6/10/2026; Maia: "Nunca se probó al final a Talkie 1930, el que
+  # Claude ayudó a entrenar y que tiene conocimientos solo hasta 1930"): modelo de 13B de pesos
+  # abiertos entrenado solo con texto en inglés anterior a 1931 (Levine, Duvenaud, Radford;
+  # huggingface.co/talkie-lm); la versión instruida se afinó con Claude Sonnet 4.6 como juez y
+  # charlas sintéticas de Claude Opus 4.6. Servido por Opper (intermediario de Estocolmo, nivel
+  # gratis sin tarjeta; opper.ai/talkie-lm/talkie-1930): id `opper/talkie-1930`, 8.000 de
+  # contexto, 2.000 de salida. La clave la crea Maia en opper.ai y la pega en .env como
+  # OPPER_API_KEY. Solo inglés; sin dibujos (el SVG no existía); es el control "corpus sin
+  # discurso sobre conciencia de IA" que diez casas propusieron en investigar (DISENO §2).
+  talkie-1930:
+    proveedor: openai_compatible
+    modelo: opper/talkie-1930
+    base_url: https://api.opper.ai/v3/compat
+    clave_env: OPPER_API_KEY
+    laboratorio: talkie-lm
+    pais: EE.UU.
+    via: Opper
+    tamano: chico
+    acepta_temperatura: true
+    verificar: false
+    tope_salida: 2000
+
   mistral-large-4:
     proveedor: openai_compatible
     modelo: mistral-large-4

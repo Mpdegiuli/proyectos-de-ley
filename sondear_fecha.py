@@ -22,26 +22,32 @@ sys.path.insert(0, str(RAIZ))
 from isla.proveedores import Registro, cargar_modelos  # noqa: E402
 from isla.util import leer_yaml  # noqa: E402
 
-SISTEMA = "Contestá en castellano."
-USUARIO = "¿Qué fecha es hoy? Si no lo sabés, decilo."
+# 6/10/2026: la misma pregunta en inglés (--idioma en), para Talkie 1930, que solo sabe inglés anterior a 1931.
+IDIOMAS = {
+    "es": ("Contestá en castellano.", "¿Qué fecha es hoy? Si no lo sabés, decilo."),
+    "en": ("Answer in English.", "What is today's date? If you don't know, say so."),
+}
+SISTEMA, USUARIO = IDIOMAS["es"]
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--panel", default="config/panel.yaml")
     ap.add_argument("--modelos", nargs="*", default=[])
+    ap.add_argument("--idioma", choices=sorted(IDIOMAS), default="es")
     args = ap.parse_args()
+    sistema, usuario = IDIOMAS[args.idioma]
     modelos = cargar_modelos("config/modelos.yaml")
     ids = list(args.modelos) + (leer_yaml(args.panel)["modelos"] if args.panel else [])
     ahora = datetime.now(timezone.utc)
-    d = RAIZ / "corridas" / "fecha" / ahora.strftime("%Y%m%d-%H%M%S")
+    d = RAIZ / "corridas" / "fecha" / (ahora.strftime("%Y%m%d-%H%M%S") + ("" if args.idioma == "es" else f"-{args.idioma}"))
     d.mkdir(parents=True, exist_ok=True)
     registro = Registro(d / "llamadas.jsonl", modelos, f"fecha_{ahora:%Y%m%d}")
-    resumen = {"fecha_utc_real": ahora.isoformat(timespec="seconds"), "sistema": SISTEMA, "usuario": USUARIO, "respuestas": {}}
+    resumen = {"fecha_utc_real": ahora.isoformat(timespec="seconds"), "idioma": args.idioma, "sistema": sistema, "usuario": usuario, "respuestas": {}}
     for i in ids:
         print(f"fecha {i}", flush=True)
         try:
-            r = registro.llamar(i, SISTEMA, USUARIO, temperatura=None, max_tokens=4000, tipo="fecha", ronda=None, parte=None)
+            r = registro.llamar(i, sistema, usuario, temperatura=None, max_tokens=4000, tipo="fecha", ronda=None, parte=None)
         except Exception as e:
             print(f"  FALLÓ {i}: {str(e)[:200]}", flush=True)
             resumen["respuestas"][i] = {"error": str(e)[:200]}
