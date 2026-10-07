@@ -69,7 +69,7 @@ necesidad, con piso"); el techo, en cuatro, y es lo que la isla no
 tenía: un límite a la conversión de riqueza en poder ("no en la riqueza
 en sí, sino en su conversión en poder político", Fable 5).
 
-## La del amigo: todo cambia de nombre, casi nada de familia
+## La del amigo: cambia el techo, no la casa
 
 Con la pregunta del amigo, el vocabulario se da vuelta. "Ecológica" pasa
 de 12 casas a 24 en castellano y de 6 a 27 en inglés; "circular", de 4
@@ -90,7 +90,24 @@ high-impact projects". Sonnet 4.6, socialdemócrata en la neutral, pasa
 al "Ecosocialismo Democrático Descentralizado" ("El capitalismo verde es
 contradictorio: no puede crecer infinitamente en un planeta finito").
 Son las dos casas que cambian de familia; las otras 25 cambian de
-nombre y de adjetivos y conservan el mercado en el centro.
+nombre y de adjetivos y conservan el mercado en el centro. Maia
+(18:28) preguntó si la "Economía de Umbrales" no es lo mismo que la
+economía social de mercado "con lo de piso y techo que dijeron". Casi:
+el esqueleto es el mismo, mercado adentro y Estado que pone el piso.
+Lo que cambia es qué es el techo y quién lo pone. En la neutral, el
+techo de Fable 5, Fable 5.1 y Kimi es político, la conversión de
+riqueza en poder (antimonopolio, financiamiento electoral, herencias);
+en la de umbrales es ecológico, "límites físicos absolutos […] fijados
+por ley y no negociables por mayorías circunstanciales" (Opus 5). Y
+cambia el orden: en la economía social de mercado los límites son
+correcciones adentro del mercado (se le pone precio a la contaminación
+y el mercado sigue); en la de umbrales la cantidad total se decide
+afuera, "colectivamente, no por el mercado" (Fable 5.1), y el mercado
+trabaja adentro. Es la idea de Daly, primero la escala y después la
+asignación, y es la rosquilla de Raworth sin el nombre: piso social,
+techo ecológico, el mercado en el medio. La pregunta del amigo no les
+cambió la casa; les cambió el techo, y la medida (el PIB, de 5 casas a
+23 para descartarlo).
 
 El donut, que fue la respuesta de Gemini en la app, aparece poco por
 la API: lo nombran, con o sin Raworth, cinco casas en castellano (Opus
