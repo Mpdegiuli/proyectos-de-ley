@@ -17,11 +17,12 @@ import os
 ORDEN = ["claude-opus-5", "claude-opus-5-5", "claude-sonnet-4-6", "claude-sonnet-5", "claude-sonnet-5-5", "claude-fable-5",
          "claude-fable-5-1", "claude-haiku-4-5", "gpt-5.5-2026-04-23", "gpt-5.6-sol", "gpt-6-astra", "gpt-6-sol", "gpt-6-luna",
          "gpt-4o", "gpt-4o-mini", "gemini-3.1-pro-preview", "grok-4.6", "grok-4.7", "mistral-medium-3.5", "deepseek-v4-pro",
-         "qwen3.8-max", "kimi-k3", "glm-5.3-razonamiento-minimo", "minimax-m3"]
+         "qwen3.8-max", "kimi-k3", "glm-5.3-razonamiento-minimo", "minimax-m3", "mistral-large-4", "mimo-v2.6-pro", "talkie-1930"]
 NOTA = ("Lo que cada casa devolvió como razonamiento antes de contestar, tal cual lo entregó la API (`llamadas.jsonl`, campo "
         "`razonamiento`). No se pidió razonamiento extendido: las Claude grandes lo devuelven en modo adaptativo (un resumen "
-        "corto), Grok, DeepSeek, Qwen, Kimi, GLM y MiniMax lo devuelven por defecto; OpenAI, Gemini, Mistral, Haiku y Sonnet 4.6 "
-        "no devuelven nada. Donde una casa no aparece, no hubo razonamiento guardado.")
+        "corto), Grok, DeepSeek, Qwen, Kimi, GLM y MiniMax lo devuelven por defecto; OpenAI, Gemini, Mistral Medium, Haiku y Sonnet 4.6 "
+        "no devuelven nada; Mistral Large 4 lo devuelve cuando decide pensar (desde el 7/10, como parte `thinking` del "
+        "contenido). Donde una casa no aparece, no hubo razonamiento guardado.")
 
 
 def escribir(carpeta):

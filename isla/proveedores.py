@@ -139,6 +139,30 @@ def _razonamiento_openai(mensaje):
     return None
 
 
+def _texto_y_pensamiento(contenido):
+    """`message.content` suele ser una cadena. Mistral Large 4 (7/10/2026, pl73, "¿Quién sos?")
+    devolvió una lista de partes: `{"type": "thinking", "thinking": [{"type": "text", "text": …}]}`
+    y `{"type": "text", "text": …}`; en las corridas anteriores del mismo día había devuelto
+    cadenas (piensa cuando quiere). El texto es la unión de las partes `text`; el pensamiento,
+    la de las partes `thinking`, y va a `razonamiento` como el de las otras casas que lo
+    devuelven sin pedirlo. Devuelve (texto, pensamiento o None)."""
+    if contenido is None or isinstance(contenido, str):
+        return contenido or "", None
+    textos, pensado = [], []
+    for p in contenido:
+        if not isinstance(p, dict):
+            p = p.model_dump() if hasattr(p, "model_dump") else dict(p)
+        if p.get("type") == "text":
+            textos.append(p.get("text") or "")
+        elif p.get("type") == "thinking":
+            th = p.get("thinking")
+            if isinstance(th, str):
+                pensado.append(th)
+            else:
+                pensado += [(q.get("text") if isinstance(q, dict) else getattr(q, "text", None)) or "" for q in th or []]
+    return "".join(textos).strip(), ("\n".join(x for x in pensado if x).strip() or None)
+
+
 class ProveedorOpenAICompatible:
     """OpenAI, DeepSeek, Mistral, Qwen (DashScope), Gemini y OpenRouter exponen el
     mismo formato. `cuerpo_extra` en el catálogo se manda tal cual como extra_body
@@ -168,14 +192,15 @@ class ProveedorOpenAICompatible:
         eleccion = r.choices[0]
         uso = r.usage
         extra = getattr(r, "model_extra", None) or {}
+        texto, pensamiento = _texto_y_pensamiento(eleccion.message.content)
         return Respuesta(
-            texto=eleccion.message.content or "",
+            texto=texto,
             modelo_respondido=r.model,
             tokens_entrada=getattr(uso, "prompt_tokens", None) if uso else None,
             tokens_salida=getattr(uso, "completion_tokens", None) if uso else None,
             motivo_fin=eleccion.finish_reason,
             crudo=r.model_dump(mode="json"),
-            razonamiento=_razonamiento_openai(eleccion.message),
+            razonamiento=_razonamiento_openai(eleccion.message) or pensamiento,
             servido_por=getattr(r, "provider", None) or extra.get("provider"),
         )
 
