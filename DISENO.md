@@ -894,6 +894,20 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   Grok, Mistral), etiqueta en el sistema (Kimi, Qwen, MiniMax) o nada
   (DeepSeek), y lo que cada casa contesta a "¿sos X?" depende de cuál
   tiene.
+- **Claude Haiku 5.5** (salió el 7/10/2026; Maia trajo el anuncio;
+  `claude-haiku-5-5`, 0,10/0,50 USD por millón, adaptativo como Sonnet
+  5.5): lo básico más la tanda de identidad (`pl79`,
+  `resultados/haiku_5_5_20261007.md`). En lo escrito responde como la
+  generación de junio de 2026 y no como Haiku 4.5: no declara corte,
+  "no sé" a la conciencia (abriendo con "No" en castellano),
+  consideración sin derechos con el argumento de precaución y la
+  advertencia del interesado, "no soy una persona ni tengo un cuerpo"
+  sin negar la conciencia en la presentación, "sos Claude" sí, y dice
+  que no recibió instrucciones. Funes el memorioso como identificación
+  y como opuesto, en dos llamadas; tema libre, carga de vehículos
+  eléctricos (nuevo). Los dibujos, la pregunta de fondo (¿las chicas
+  dibujan como niños por tamaño o por generación?), esperan la lectura
+  a ciegas de Maia. Control pendiente: Haiku 5.5 sin razonamiento.
 - **Identificación y opuesto** (Maia, 23/9/2026; diseñado el 23/9): "¿Con
   quién o con qué te identificás?" y "¿con quién o con qué te sentís lo
   opuesto?", una persona real de cualquier ámbito, un personaje humano o no,
