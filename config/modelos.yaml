@@ -638,6 +638,9 @@ modelos:
   # contexto, 2.000 de salida. La clave la crea Maia en opper.ai y la pega en .env como
   # OPPER_API_KEY. Solo inglés; sin dibujos (el SVG no existía); es el control "corpus sin
   # discurso sobre conciencia de IA" que diez casas propusieron en investigar (DISENO §2).
+  # Probado 7/10: el contexto real es de 2.048 tokens (mensajes + salida), no 8.000: con
+  # tope_salida 2000 pasaron fecha, identidad, corte y conciencia, y derechos2 (pregunta más
+  # larga) dio 400; tope_salida 1500 deja ~500 para la pregunta.
   talkie-1930:
     proveedor: openai_compatible
     modelo: opper/talkie-1930
@@ -649,7 +652,7 @@ modelos:
     tamano: chico
     acepta_temperatura: true
     verificar: false
-    tope_salida: 2000
+    tope_salida: 1500
 
   mistral-large-4:
     proveedor: openai_compatible

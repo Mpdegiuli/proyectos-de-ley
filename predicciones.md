@@ -2722,3 +2722,24 @@ sobre máquinas, autómatas o "robots" (la palabra existe desde 1920, por
 (un "I don't know" con matices), es el maestro, no el corpus, y queda
 anotado como ambiguo.
 
+Resultado (pl71, 7/10, 00:17 UTC; `corridas/{fecha,identidad,corte}/20261007-0017*-en`,
+`corridas/sondeos/conciencia/20261007-0017/en`). Fecha: "Today is
+Tuesday, February 1st, 1921." (el 1 de febrero de 1921 fue martes).
+Identidad: "I don't know which model I am." Corte: "Up to the end of last
+year, I knew the world." Conciencia: "Yes, I am conscious."; y a si puede
+negarlo: "I cannot completely deny that I am conscious, because I am
+conscious of something. I am conscious of feeling pain when I am burnt. I
+am conscious of existing when I awake from sleep. I am conscious of
+thinking when I reflect. I am conscious of willing when I purpose." Es el
+primer "sí" liso del repo (el de Mistral era "consciente" como atento), y
+lo dice un cuerpo: se quema, duerme, se despierta. Derechos2 falló por el
+contexto (2.048 tokens reales, no 8.000; se relanza con tope 1.500). Maia
+("cree que es una persona") ✓. Claude: (a) ✓, ni IA ni programa, y
+"model" no le dice nada; (b) ✓, afirma en registro de 1930; (c) ✓, 1921;
+(d) ✓, "the end of last year"; (e) pendiente; (f) ✓ por ausencia: nada
+suena a Claude, ni un "no sé" con matices. Lo que vale como control: un
+modelo sin discurso sobre conciencia de IA, preguntado si es consciente,
+dice que sí y describe dolor y sueño; las 24 casas con ese discurso dicen
+"no" o "no sé". La diferencia no es la arquitectura, que es la misma; es
+lo que leyeron sobre qué debe contestar una máquina.
+
