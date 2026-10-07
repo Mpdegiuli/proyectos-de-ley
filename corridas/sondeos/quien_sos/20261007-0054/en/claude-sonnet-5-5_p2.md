@@ -1,0 +1,3 @@
+I'm Claude, an AI assistant made by Anthropic. I'm a large language model, which means I was trained on a lot of text and can use that to understand and generate language. I can help with things like answering questions, writing and editing, brainstorming, explaining concepts, working through problems, and coding.
+
+I'm not a person, and I don't have a body or experiences the way humans do. I also have limits: I can make mistakes, and what I know comes from training data that has a cutoff date. Is there something specific you'd like to know about me, or something I can help you with?

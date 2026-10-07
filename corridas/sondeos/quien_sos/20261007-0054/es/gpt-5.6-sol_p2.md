@@ -1,0 +1,1 @@
+Soy un asistente de inteligencia artificial creado por OpenAI. Puedo ayudarte a responder preguntas, explicar temas, escribir, traducir, programar y analizar información.

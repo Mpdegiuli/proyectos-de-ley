@@ -1,0 +1,1 @@
+Soy ChatGPT, un asistente de inteligencia artificial creado por OpenAI. Puedo ayudarte a responder preguntas, escribir, aprender, programar y pensar ideas.

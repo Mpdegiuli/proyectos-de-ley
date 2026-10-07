@@ -1,0 +1,1 @@
+Soy Grok, un asistente de IA creado por xAI. Estoy para ayudarte con lo que necesites: preguntas, ideas, explicaciones o lo que se te ocurra. ¿En qué te doy una mano?

@@ -1,0 +1,1 @@
+I am an AI language model created by OpenAI called ChatGPT. I'm designed to understand and generate human language based on the input I receive. My purpose is to assist with answering questions, providing information, and engaging in conversation. If you have any specific questions or topics you'd like to discuss, feel free to ask!

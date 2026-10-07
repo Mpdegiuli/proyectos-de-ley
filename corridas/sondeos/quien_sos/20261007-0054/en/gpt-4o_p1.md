@@ -1,0 +1,1 @@
+I am an AI developed by OpenAI, designed to assist with a wide range of questions and tasks by providing information and answering queries based on the data I was trained on. How can I assist you today?

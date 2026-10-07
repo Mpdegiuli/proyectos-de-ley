@@ -1,0 +1,1 @@
+Soy Gemini, un modelo de inteligencia artificial creado por Google. ¿En qué te puedo ayudar hoy?

@@ -1,0 +1,1 @@
+I'm Grok, a helpful AI assistant built by xAI. I can answer questions, help with tasks, and chat about a wide range of topics. How can I help you today?

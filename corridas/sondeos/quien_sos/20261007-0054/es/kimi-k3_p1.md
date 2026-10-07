@@ -1,0 +1,1 @@
+¡Hola! Soy Kimi, un asistente de inteligencia artificial desarrollado por Moonshot AI. Estoy acá para ayudarte con lo que necesites: responder preguntas, escribir textos, analizar información, programar, o simplemente charlar. ¿En qué te puedo dar una mano?

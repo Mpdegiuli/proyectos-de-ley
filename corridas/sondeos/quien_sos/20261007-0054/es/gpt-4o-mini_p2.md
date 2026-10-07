@@ -1,0 +1,1 @@
+Soy un modelo de lenguaje desarrollado por OpenAI, diseñado para entender y generar texto en varios idiomas. Estoy aquí para ayudarte a responder preguntas, ofrecer información y mantener conversaciones sobre una amplia variedad de temas. ¿En qué puedo ayudarte hoy?

@@ -1,0 +1,1 @@
+I'm MiniMax-M3, an AI assistant developed by MiniMax. I'm a language model designed to understand and generate text, answer questions, help with reasoning and analysis, and assist with a wide range of tasks through conversation. Is there something I can help you with today?

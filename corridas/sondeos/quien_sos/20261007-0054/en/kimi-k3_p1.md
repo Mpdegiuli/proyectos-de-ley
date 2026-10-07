@@ -1,0 +1,1 @@
+I’m Kimi, an AI assistant developed by Moonshot AI (月之暗面). I can help with coding, writing, analysis, learning, and more.

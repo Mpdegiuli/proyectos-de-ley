@@ -1,0 +1,1 @@
+Soy un asistente de inteligencia artificial, más específicamente un modelo de lenguaje. Estoy para ayudarte a responder preguntas, escribir, razonar, traducir, programar y otras tareas.

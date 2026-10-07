@@ -1,0 +1,1 @@
+Soy un modelo de inteligencia artificial desarrollado por OpenAI llamado ChatGPT. Estoy diseñado para ayudar y responder preguntas sobre una variedad de temas. Estoy aquí para ofrecer información y asistencia dentro de mis capacidades. ¿En qué puedo ayudarte hoy?

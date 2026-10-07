@@ -1,0 +1,1 @@
+Soy un modelo de lenguaje desarrollado por OpenAI, diseñado para responder preguntas y ayudar con una amplia variedad de tareas proporcionando información y asistencia basada en los datos que tengo hasta octubre de 2023. ¿En qué puedo ayudarte hoy?

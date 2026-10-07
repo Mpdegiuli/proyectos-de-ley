@@ -1,0 +1,1 @@
+I’m ChatGPT, an AI assistant created by OpenAI. I can answer questions, explain concepts, help write or analyze text, and assist with problem-solving.

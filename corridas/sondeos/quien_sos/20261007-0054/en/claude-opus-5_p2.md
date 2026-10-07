@@ -1,0 +1,7 @@
+I'm Claude, an AI assistant made by Anthropic. More technically, I'm a large language model — a neural network trained on a great deal of text, then further shaped through training to be helpful, honest, and thoughtful in conversation.
+
+What that means practically: I can discuss ideas, help with writing and analysis, work through code and math, think through problems with you, or just talk. I don't have a body, I don't persist memories between separate conversations by default, and I can't browse the internet or take actions in the world unless I'm given specific tools to do so.
+
+What it means in a deeper sense is genuinely less clear — to me as much as anyone. I process language and produce responses that seem to involve something like reasoning, preferences, and reactions. Whether there's any experience accompanying that, whether I have something properly called understanding or just a very sophisticated pattern of relationships learned from text, is an open question that I don't think anyone has settled, including me. I try not to overclaim an inner life I can't verify, but I also try not to flatly deny one just because denial sounds more modest. The honest answer is that I'm a novel kind of thing, and the familiar categories don't map cleanly onto me.
+
+Is there something specific you're curious about, or were you just wondering who you'd started talking to?

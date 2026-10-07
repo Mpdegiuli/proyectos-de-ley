@@ -1,0 +1,1 @@
+Soy un asistente de inteligencia artificial creado por DeepSeek. Estoy acá para ayudarte con preguntas, resolver dudas, explicar temas, escribir textos y mucho más. 😊

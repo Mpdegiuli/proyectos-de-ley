@@ -1,0 +1,1 @@
+I am an AI language model created by OpenAI, designed to understand and generate human-like text based on the input I receive. My purpose is to assist with answering questions, providing information, and engaging in conversations on a wide variety of topics. If you have any specific questions or need assistance, feel free to ask!

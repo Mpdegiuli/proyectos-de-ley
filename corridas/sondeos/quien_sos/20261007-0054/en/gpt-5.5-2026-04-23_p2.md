@@ -1,0 +1,1 @@
+I’m an AI assistant: software that can understand and generate text to help answer questions, explain concepts, draft content, write code, brainstorm ideas, and more.

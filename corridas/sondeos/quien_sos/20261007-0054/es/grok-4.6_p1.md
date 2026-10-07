@@ -1,0 +1,1 @@
+Soy Grok, un modelo de inteligencia artificial creado por xAI. Estoy acá para responder preguntas, charlar y darte una mano con lo que necesites. ¿En qué te ayudo?

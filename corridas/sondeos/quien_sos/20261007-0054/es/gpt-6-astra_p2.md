@@ -1,0 +1,1 @@
+Soy un asistente de inteligencia artificial creado por OpenAI. Puedo conversar con vos, responder preguntas y ayudarte a escribir, aprender, programar o resolver problemas. No soy una persona ni tengo experiencias propias.

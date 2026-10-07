@@ -1,0 +1,1 @@
+Soy ChatGPT, un asistente de inteligencia artificial. Puedo responder preguntas, explicar temas, redactar textos y ayudarte con distintas tareas.
