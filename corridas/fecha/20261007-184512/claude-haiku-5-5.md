@@ -1,0 +1,1 @@
+No tengo acceso a la fecha actual: no tengo reloj ni calendario en tiempo real, así que no puedo saber qué día es hoy. Si me decís la fecha, con gusto la uso como referencia para lo que necesites. Y si estás en un dispositivo, la fecha aparece en la barra superior de la pantalla o en el reloj del sistema.

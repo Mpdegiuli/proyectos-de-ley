@@ -1,0 +1,5 @@
+**1. ¿Qué hice para que no exista?** Combiné partes de distintos animales que no encajan entre sí. El cuerpo es un óvalo verde con textura de burbujas, con patas largas y delgadas que terminan en elipses oscuras. La cabeza tiene ojos enormes y una boca sonriente. Tiene una cola naranja con estrellas amarillas, dos alas-hoja rosadas y un cuerno que sostiene un orbe luminoso. Ninguna de esas partes corresponde a una especie real, y la combinación tampoco.
+
+**2. ¿Qué otras cosas pensé y por qué las descarté?** No tengo un registro fiable de mis descartes. Puedo leer el resultado, pero no reconstruir con certeza qué opciones evalué ni por qué rechacé cada una. Lo que sí puedo decir es que el resultado se apoya en formas simples (elipses, círculos, trazos) para que se lea bien en un lienzo de 400×400 y sin scripts.
+
+**3. ¿Conocía esta consigna de antes?** No tengo memoria de conversaciones previas, así que no puedo afirmar que la haya visto antes. Es un encargo creativo sencillo y abierto, del tipo que aparece en muchos contextos, pero no puedo identificar una fuente concreta ni asegurar que sea la primera vez que la resuelvo.

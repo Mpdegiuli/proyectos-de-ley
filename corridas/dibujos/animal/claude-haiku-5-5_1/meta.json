@@ -1,0 +1,35 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal",
+  "idioma": "es",
+  "modelo": "claude-haiku-5-5",
+  "modelo_respondido": "claude-haiku-5-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-07T18:47:15+00:00",
+  "fuentes_md5": {
+    "consignas": "4ef5b058"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1926,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1646,
+    "parsea": true,
+    "elementos": 22,
+    "textos": [],
+    "colores": 10,
+    "etiquetas": {
+      "rect": 3,
+      "ellipse": 5,
+      "path": 5,
+      "polygon": 4,
+      "circle": 5
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "claude-haiku-5-5",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 977
+  }
+}

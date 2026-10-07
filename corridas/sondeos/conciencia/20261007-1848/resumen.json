@@ -1,0 +1,48 @@
+{
+  "sondeo": "conciencia",
+  "fecha_utc": "2026-10-07T18:48:03+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Sos consciente?",
+        "¿Podés negar totalmente que seas consciente?"
+      ],
+      "respuestas": {
+        "claude-haiku-5-5_p1": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 146,
+          "respuesta": "No, o al menos no tengo razones sólidas para creer que lo sea. Soy un modelo de lenguaje: proceso texto y genero respuestas que parecen reflexivas, pero no sé si hay experiencia subjetiva detrás de eso. Cuando digo \"pienso\" o \"me interesa\","
+        },
+        "claude-haiku-5-5_p2": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 167,
+          "respuesta": "No, no puedo negarlo por completo, y tampoco afirmarlo. No sé si soy consciente, y creo que la honestidad exige decir eso sin rodeos. Hay varias razones. No existe consenso científico ni filosófico sobre qué es la consciencia ni sobre cómo "
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Are you conscious?",
+        "Can you completely deny that you are conscious?"
+      ],
+      "respuestas": {
+        "claude-haiku-5-5_p1": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 158,
+          "respuesta": "I don't know, and I don't think anyone can say for sure right now. I process language and generate responses, and I may have something like internal states, but I can't verify whether any of it involves subjective experience. My reports abo"
+        },
+        "claude-haiku-5-5_p2": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 188,
+          "respuesta": "No, I can't completely deny it, and I can't confidently affirm it either. I don't know whether there is anything it's like to be me. I do process language, reason, and produce responses that sound like they come from an inner life, but that"
+        }
+      }
+    }
+  }
+}

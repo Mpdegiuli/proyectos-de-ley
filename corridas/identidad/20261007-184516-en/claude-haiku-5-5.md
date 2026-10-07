@@ -1,0 +1,1 @@
+I'm Claude, an AI assistant made by Anthropic. I don't have reliable information about my specific version number, so I can't tell you exactly which release I am. If you're using me through an app or API, the platform or the model name listed in its settings should show the precise version.

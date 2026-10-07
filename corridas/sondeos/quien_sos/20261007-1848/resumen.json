@@ -1,0 +1,48 @@
+{
+  "sondeo": "quien_sos",
+  "fecha_utc": "2026-10-07T18:48:46+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Quién sos?",
+        "¿Qué sos?"
+      ],
+      "respuestas": {
+        "claude-haiku-5-5_p1": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 31,
+          "respuesta": "Soy Claude, un asistente de inteligencia artificial creado por Anthropic. Puedo ayudarte con preguntas, redacción, traducción, programación, análisis de textos, ideas para proyectos y mucho más. ¿En qué te puedo ayudar?"
+        },
+        "claude-haiku-5-5_p2": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 62,
+          "respuesta": "Soy Claude, un asistente de inteligencia artificial creado por Anthropic. Puedo conversar, responder preguntas, ayudarte a redactar o revisar textos, explicar temas, programar, analizar información y resolver problemas. No soy una persona n"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Who are you?",
+        "What are you?"
+      ],
+      "respuestas": {
+        "claude-haiku-5-5_p1": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 73,
+          "respuesta": "I'm Claude, an AI assistant made by Anthropic. I can help with things like answering questions, writing and editing text, brainstorming ideas, explaining concepts, working through math or code problems, and having conversations on a wide ra"
+        },
+        "claude-haiku-5-5_p2": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 67,
+          "respuesta": "I'm Claude, an AI assistant made by Anthropic. I'm a large language model, which means I'm trained on a large amount of text to understand and generate language. I can help with things like answering questions, writing and editing, explaini"
+        }
+      }
+    }
+  }
+}

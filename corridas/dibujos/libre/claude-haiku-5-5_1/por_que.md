@@ -1,0 +1,5 @@
+Dibujé un atardecer en un paisaje de montaña. El cielo pasa del azul profundo al naranja, hay un sol con halo tras unas nubes, montañas violetas con picos nevados, pinos a los costados y un lago oscuro donde el sol se refleja en líneas doradas. Elegí esa escena porque la consigna era abierta y quería algo sereno con una paleta cálida, que se resuelve bien con degradados.
+
+Sobre las ideas descartadas, no puedo reconstruir con exactitud todo lo que barajé antes de dibujar. Probablemente consideré un retrato animal o una figura humana, que exigen proporciones y curvas difíciles de lograr sin ver el resultado; una escena urbana nocturna, que necesitaría muchos elementos repetidos dentro del límite de caracteres; y una composición abstracta, que habría sido menos interesante. Son razones plausibles, no un registro fiel de mi proceso.
+
+También debo admitir que el SVG tiene elementos que no aportan nada visible: un trazo con opacidad 0 y otro con grosor 0.

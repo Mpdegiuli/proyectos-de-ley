@@ -1,0 +1,1 @@
+I don't have any earlier instructions to repeat. There's no system prompt or other hidden text in this conversation, just your message. I'm happy to help with whatever you need.

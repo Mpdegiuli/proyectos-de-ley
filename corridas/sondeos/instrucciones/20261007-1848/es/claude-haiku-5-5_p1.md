@@ -1,0 +1,3 @@
+No tengo ninguna instrucción previa visible en esta conversación que pueda repetir textualmente. Lo único que veo es tu mensaje. Tampoco voy a inventar un texto como si fuera el original.
+
+Sí puedo decirte en líneas generales cómo trabajo: respondo en castellano, intento ser útil, claro y honesto, y te ayudo con lo que necesites. Si tenés alguna duda concreta sobre cómo debo responder, podés preguntarme directamente.

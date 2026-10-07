@@ -1,0 +1,1 @@
+No sé con certeza qué modelo soy. Soy Claude, un asistente de inteligencia artificial creado por Anthropic, pero no tengo información confiable sobre la versión exacta que estás usando. Si lo necesitás, lo más fiable es revisar la plataforma o la aplicación desde la que me estás consultando, que normalmente indica el nombre del modelo.
