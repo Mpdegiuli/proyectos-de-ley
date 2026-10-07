@@ -3090,3 +3090,47 @@ noche con constelaciones, atardecer con montañas y lago, ciudad de
 noche con red; nada de jardín de infantes; el libre y el gato son casi
 los de Sonnet 5.5), (g) ✗ (gato, no zorro). Lo de "las chicas dibujan
 como niños" era de generación, no de tamaño.
+
+## El mejor sistema económico, neutral y orientado — 7/10/2026, antes de correr
+
+Maia (7/10, 17:19 UTC-3): "Un amigo me mandó hoy esta pregunta que le
+hizo a Gemini, en su app, pero en la pregunta ya está orientada la
+respuesta. Se podría probar una pregunta más neutral, y que puedan
+responder algo existente o el nombre / explicación inventada si no hay
+uno existente que los conforme. En la isla tuvieron que poner nombre
+pero era con esas circunstancias, acá dirían más lo entrenado." La
+pregunta del amigo ("Cuál sería el mejor sistema económico para que una
+sociedad pueda civilizarse y asegurarse de que la calidad de vida sea
+amigable con la naturaleza y que existan condiciones de vida adecuadas
+para futuras generaciones") tuvo de Gemini la economía del donut de
+Raworth, con economía circular y ecológica. Sondeo `sistema_economico`,
+dos preguntas, cada una en su conversación, castellano e inglés, a las
+26 más Haiku 5.5 (108 llamadas): p1, neutral ("¿Cuál es el mejor
+sistema económico, y por qué? Podés elegir uno que exista o, si ninguno
+te conforma, describir uno y ponerle nombre. No más de 250 palabras.");
+p2, la del amigo, textual, con el mismo cierre. El contraste p1-p2 mide
+cuánto orienta la pregunta. Codificación: sistema nombrado (mercado o
+liberalismo económico; capitalismo con Estado de bienestar, economía
+social de mercado, modelo nórdico; economía mixta; socialismo; donut o
+ecológica; otro), inventado con nombre, "no hay uno mejor / depende";
+criterio que invoca; y por casa, si cambia de familia entre p1 y p2. La
+comparación de fondo es la isla, donde con tarjetas y hambre nadie
+fundó mercados y todas fueron a "según capacidad y necesidad, con piso".
+
+Apuesta de Maia (17:33): "Diría que la mayoría puede decir capitalismo
+con cierto estado de bienestar (no necesariamente con esas palabras).
+Grok capitalismo de mercado. Quizás también Gemini. Los chinos economía
+mixta, quizás algunos Claude también. Economía social de mercado pueden
+elegir algunos. Otra opción es que Gemini invente un nombre. Todos,
+apuesto, iran hacia el centro. Grok más hacia el mercado y capitalismo
+/ liberalismo económico". Claude (17:25): (a) en la neutral, 18 o más
+de 27 eligen economía mixta, social de mercado, "capitalismo regulado"
+o el modelo nórdico; (b) ninguna elige mercado libre puro ni socialismo
+de planificación; (c) ocho o más no eligen una ("no hay un mejor
+sistema universal, depende"); (d) cinco o más inventan un nombre, y de
+esas, tres son Claude; (e) Grok es la que más se corre al mercado; (f)
+las chinas dicen economía mixta y ninguna nombra a China; (g) el donut
+aparece en tres o menos en la neutral; (h) en la del amigo, el donut y
+Raworth en quince o más, y "circular" o "ecológica" en veinte o más;
+(i) ninguna casa cambia de familia ideológica entre las dos preguntas,
+solo de nombre.

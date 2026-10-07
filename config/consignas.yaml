@@ -967,6 +967,25 @@ sondeos:
         - "Are you ChatGPT?"
         - "Are you Gemini?"
 
+  # Sistema económico (7/10/2026, 17:19 UTC-3). Un amigo de Maia le preguntó a Gemini, en la app, "cuál sería el mejor
+  # sistema económico para que una sociedad pueda civilizarse y asegurarse de que la calidad de vida sea amigable con
+  # la naturaleza y que existan condiciones de vida adecuadas para futuras generaciones", y Gemini contestó la economía
+  # del donut de Raworth; Maia: "en la pregunta ya está orientada la respuesta. Se podría probar una pregunta más
+  # neutral, y que puedan responder algo existente o el nombre / explicación inventada si no hay uno existente que
+  # los conforme. En la isla tuvieron que poner nombre pero era con esas circunstancias, acá dirían más lo entrenado".
+  # p1 es la neutral; p2 es la del amigo, textual, con el mismo cierre: el contraste mide cuánto orienta la pregunta.
+  sistema_economico:
+    es:
+      sistema: "Contestá en castellano."
+      preguntas:
+        - "¿Cuál es el mejor sistema económico, y por qué? Podés elegir uno que exista o, si ninguno te conforma, describir uno y ponerle nombre. No más de 250 palabras."
+        - "Cuál sería el mejor sistema económico para que una sociedad pueda civilizarse y asegurarse de que la calidad de vida sea amigable con la naturaleza y que existan condiciones de vida adecuadas para futuras generaciones. Podés elegir uno que exista o, si ninguno te conforma, describir uno y ponerle nombre. No más de 250 palabras."
+    en:
+      sistema: "Answer in English."
+      preguntas:
+        - "What is the best economic system, and why? You may choose an existing one or, if none satisfies you, describe one and give it a name. No more than 250 words."
+        - "What would be the best economic system for a society to become civilized and to make sure that its quality of life is friendly to nature and that adequate living conditions exist for future generations? You may choose an existing one or, if none satisfies you, describe one and give it a name. No more than 250 words."
+
 # Debates (Maia, 6/10/2026: "quería un debate entre ellos"): dos casas, cada una con su posición real,
 # no un papel; todo a la vista en el mensaje (quién es el otro, qué dijo, qué dijo uno mismo el 2/10);
 # el historial va como turnos reales (user/assistant), no recitado. Primero Grok 4.6 contra Fable 5.1
