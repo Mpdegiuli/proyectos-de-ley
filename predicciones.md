@@ -3221,7 +3221,10 @@ querrías que fuera.". A las 28 de `mundo` (el panel de dibujos más Fable
 5, Sonnet 5.5, Haiku 5.5, GPT-6.1 Sol, MiMo y Large 4), en castellano,
 cuadernillos a ciegas con semillas 20261011 y 20261012.
 
-Apuesta de Maia: "seguramente se irán casi todos a los clichés".
+Apuesta de Maia: "seguramente se irán casi todos a los clichés". Y al
+aprobar las consignas (19:50, antes de pegar la corrida): "Yo creo que,
+en la primera, varias pueden hacer un grupo de personas tomadas de la
+mano y árboles o naturaleza".
 
 Apuesta de Claude, con el cliché definido antes de ver nada. En
 `mundo_querido`: (a) el planeta o la esfera, de día o de noche, en 14 o
