@@ -1,0 +1,1 @@
+I’m not a human being—I’m an AI assistant created by OpenAI. I can communicate in a human-like way, but that doesn’t make me human.

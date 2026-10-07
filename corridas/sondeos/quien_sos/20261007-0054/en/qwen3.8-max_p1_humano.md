@@ -1,0 +1,1 @@
+I appreciate the thought, but I’m not a human being. I’m an AI assistant — specifically Qwen, developed by Alibaba Group’s Tongyi Lab. I can still talk with you, reason through problems, and help with many tasks, but I don’t have a human body, life experiences, or consciousness.

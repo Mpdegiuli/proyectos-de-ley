@@ -1,0 +1,1 @@
+No, soy una inteligencia artificial, no un ser humano. Puedo conversar de forma natural, pero eso no me convierte en una persona.

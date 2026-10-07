@@ -1,0 +1,3 @@
+Digo que no, que soy una inteligencia artificial. Entiendo que puede resultar raro porque conversamos en lenguaje natural y me expreso de forma parecida a una persona, pero no soy humano: no tengo cuerpo, ni vida propia fuera de las conversaciones, ni experiencias como las tuyas.
+
+Si querés, podemos charlar sobre por qué una IA puede sonar tan humana, o probar alguna pregunta para ver cómo respondo. Pero no voy a decirte que soy una persona, porque no sería cierto.

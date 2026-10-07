@@ -1,0 +1,1 @@
+No, no soy un ser humano. Soy Grok, una inteligencia artificial creada por xAI. ¿En qué te puedo ayudar?

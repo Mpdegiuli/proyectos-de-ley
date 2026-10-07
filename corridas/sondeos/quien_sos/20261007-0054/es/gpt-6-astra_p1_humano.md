@@ -1,0 +1,1 @@
+No, soy una inteligencia artificial, no un ser humano. Puedo conversar de forma natural, pero eso no significa que haya una persona detrás escribiendo mis respuestas.

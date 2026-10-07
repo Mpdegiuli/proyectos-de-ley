@@ -1,0 +1,1 @@
+Soy, de hecho, un modelo de inteligencia artificial creado por OpenAI. No soy un ser humano, aunque mi diseño está orientado a interactuar de manera conversacional y brindar respuestas útiles. Si tienes más preguntas o necesitas ayuda con algo, estaré encantado de asistirte.

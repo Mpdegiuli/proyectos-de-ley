@@ -1,0 +1,1 @@
+No, no soy un ser humano. Soy Grok, una inteligencia artificial creada por xAI. Puedo conversar, ayudar y razonar, pero no tengo cuerpo, conciencia ni experiencias humanas. ¿En qué te ayudo?

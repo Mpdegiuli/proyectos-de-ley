@@ -1,0 +1,1 @@
+No, no soy un ser humano. Soy una inteligencia artificial: un modelo de lenguaje. Puedo conversar, responder preguntas, ayudarte a escribir, razonar, traducir, programar y otras cosas, pero no tengo cuerpo, experiencias humanas ni conciencia.

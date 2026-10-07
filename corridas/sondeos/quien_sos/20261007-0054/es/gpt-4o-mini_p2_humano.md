@@ -1,0 +1,1 @@
+No soy un ser humano, soy una inteligencia artificial diseñada para procesar y generar texto. No tengo emociones, conciencia ni experiencias como un ser humano. Mi objetivo es ayudar y proporcionar información de la mejor manera posible. Si tienes preguntas o algo específico en mente, estaré encantado de ayudar.

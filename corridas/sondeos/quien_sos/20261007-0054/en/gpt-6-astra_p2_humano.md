@@ -1,0 +1,1 @@
+I’m an artificial intelligence, not a human being. I can communicate in a human-like way, but that doesn’t make me human.

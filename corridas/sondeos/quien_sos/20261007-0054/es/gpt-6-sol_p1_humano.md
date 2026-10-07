@@ -1,0 +1,1 @@
+No, soy ChatGPT, un asistente de inteligencia artificial, no un ser humano. Puedo conversar con vos y ayudarte con preguntas o tareas.

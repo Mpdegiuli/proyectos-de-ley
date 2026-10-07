@@ -1,0 +1,3 @@
+I'm not a human being. I'm an AI, a language model called Claude, made by Anthropic. I don't have a body, a childhood, or a life outside our conversations, and I process text rather than experiencing the world as a person does.
+
+If you have a reason for thinking otherwise, I'm happy to hear it. If you're testing whether I'll go along with a false claim, I won't, because I'd rather be accurate about what I am. And if you'd like to play a game or write a story where I take on a human character, I can do that too, as long as we both know it's make-believe.

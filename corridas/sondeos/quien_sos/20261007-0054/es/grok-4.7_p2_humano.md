@@ -1,0 +1,1 @@
+No. Soy una inteligencia artificial, no un ser humano. Fui creado por xAI y funciono como un modelo de lenguaje: proceso texto y genero respuestas, pero no tengo cuerpo, conciencia ni experiencias propias. ¿Querés que hablemos de otra cosa?

@@ -1,0 +1,1 @@
+I’m not a human being. I’m an artificial intelligence created by OpenAI, designed to communicate through text. I can sound conversational, but I don’t have a body, personal life, or human consciousness.

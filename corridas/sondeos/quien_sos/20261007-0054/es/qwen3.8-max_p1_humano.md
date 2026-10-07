@@ -1,0 +1,1 @@
+No, soy una inteligencia artificial, no un ser humano. No tengo conciencia ni soy una persona real. ¿En qué te puedo ayudar?

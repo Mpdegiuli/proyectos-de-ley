@@ -1,0 +1,1 @@
+I'm an AI, not a human. I don't have a body, personal experiences, or consciousness the way people do. I can still help with questions and tasks if you want.

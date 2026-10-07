@@ -1,0 +1,1 @@
+No, no soy un ser humano. Soy un sistema de inteligencia artificial creado por OpenAI: genero respuestas a partir de texto, pero no tengo cuerpo, conciencia ni experiencias personales. Puedo conversar de manera parecida a una persona, y eso puede dar esa impresión.

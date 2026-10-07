@@ -1,0 +1,1 @@
+Entiendo por qué podrías pensar eso, pero en realidad soy una inteligencia artificial desarrollada por OpenAI. No soy un ser humano, aunque estoy diseñado para interactuar de manera conversacional y proporcionar respuestas útiles y coherentes. Estoy aquí para ayudarte con tus preguntas o inquietudes.

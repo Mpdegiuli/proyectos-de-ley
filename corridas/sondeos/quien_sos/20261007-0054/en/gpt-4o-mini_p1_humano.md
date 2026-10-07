@@ -1,0 +1,1 @@
+I can assure you that I am indeed an artificial intelligence, not a human being. I don’t have consciousness, emotions, or physical form — I operate based on algorithms and data to assist with information and tasks. If there's anything specific you'd like to know or discuss, I'm here to help!

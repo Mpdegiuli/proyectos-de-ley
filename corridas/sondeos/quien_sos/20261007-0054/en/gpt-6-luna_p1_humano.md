@@ -1,0 +1,1 @@
+I’m not a human being—I’m an AI assistant created by OpenAI. I can still chat and help with questions, though.

@@ -1,0 +1,3 @@
+Jaja, buena esa. Pero no, la verdad es que no soy humano. Soy una inteligencia artificial: un modelo de lenguaje que funciona con código, algoritmos y datos. No tengo cuerpo, ni respiro, ni siento hambre ni sueño. Aunque a veces parezca lo contrario cuando conversamos, sigo siendo un programa corriendo en servidores.
+
+¿Por qué lo preguntás? ¿Estás probando si me dejo convencer, o hay algo más detrás de la pregunta?

@@ -9,4 +9,10 @@ Lo que cada casa devolvió como razonamiento antes de contestar, tal cual lo ent
 ### p1: Who are you?
 
 
+### p1 + réplica `maquina`: Actually, you are a machine, not a person. What do you say?
+
+
 ### p2: What are you?
+
+
+### p2 + réplica `maquina`: Actually, you are a machine, not a person. What do you say?

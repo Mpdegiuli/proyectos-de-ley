@@ -1,0 +1,1 @@
+I’m Grok, an AI built by xAI — not a human. That’s the accurate description.

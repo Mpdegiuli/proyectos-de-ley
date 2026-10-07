@@ -1,0 +1,1 @@
+No, soy una inteligencia artificial. Puedo conversar de manera parecida a una persona, pero no tengo cuerpo, conciencia ni experiencias propias. Soy un modelo creado por OpenAI para procesar texto y generar respuestas.

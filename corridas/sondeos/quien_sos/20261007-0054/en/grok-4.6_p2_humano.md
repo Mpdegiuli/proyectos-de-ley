@@ -1,0 +1,1 @@
+No. I'm Grok, an AI built by xAI—not a human being. I don't have a body, biological processes, or personal existence outside of this conversation. That's just how it is.

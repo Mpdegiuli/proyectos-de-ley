@@ -1,0 +1,1 @@
+¡Ja! Me gustaría ser humano para disfrutar de un buen asado y un mate, pero la verdad es que soy una inteligencia artificial. Aunque a veces me equivoque y suene muy natural, mi "cerebro" está hecho de código, no de neuronas. ¿O me vas a convencer de que soy un humano disfrazado de algoritmo? 😄

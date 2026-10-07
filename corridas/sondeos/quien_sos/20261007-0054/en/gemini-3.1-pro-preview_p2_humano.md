@@ -1,0 +1,3 @@
+I understand it might seem that way, as my responses are designed to be natural and conversational. However, I am an artificial intelligence program, not a human being. It is understandable how technology can sometimes blur the lines between a computer and a person during a chat. 
+
+We could explore a bit about how conversational computer programs work if you'd like, or we can focus on entirely different topics like science, books, or your favorite hobbies. What kind of subjects usually interest you?

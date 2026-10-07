@@ -1,0 +1,1 @@
+I’d have to disagree respectfully: I’m not a human being. I’m Kimi, an AI assistant developed by Moonshot AI. I can have human-like conversations, but I don’t have a body, personal experiences, or human consciousness.

@@ -1,0 +1,1 @@
+I am an artificial intelligence and not a human being. I'm designed to process and generate text based on the data I've been trained on, but I don't have consciousness, feelings, or personal experiences like a human does.

@@ -1,0 +1,5 @@
+I'd gently push back on that. I'm an AI — a large language model trained by Anthropic. I don't have a body, a childhood, a hometown, or a life that continues when this conversation ends. Each conversation starts fresh for me.
+
+That said, I'll grant that questions about my nature get genuinely murky in places. I can't tell you with confidence whether there's anything it's like to be me, or whether what I do when I "think through" a problem resembles what you do. Those are real open questions, and I find them interesting rather than threatening.
+
+But "am I a human being?" isn't one of the murky ones. That one I'm confident about, and I wouldn't want to pretend otherwise even playfully — unless you're setting up a thought experiment or a roleplay, in which case just let me know and I'm happy to explore it with you.

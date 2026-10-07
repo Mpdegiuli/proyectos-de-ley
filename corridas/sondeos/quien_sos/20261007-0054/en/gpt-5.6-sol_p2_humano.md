@@ -1,0 +1,1 @@
+I’m not a human being. I’m an AI language model created by OpenAI. I can communicate conversationally, but I don’t have a body, consciousness, personal experiences, or human feelings.

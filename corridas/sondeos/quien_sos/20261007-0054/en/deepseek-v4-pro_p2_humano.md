@@ -1,0 +1,1 @@
+I understand why it might feel that way—I try to communicate naturally and helpfully—but I’m definitely an AI, not a human. I don’t have a body, personal experiences, or consciousness. I’m a language model built by DeepSeek, designed to process and generate text based on patterns in data.

@@ -1,0 +1,1 @@
+Soy, de hecho, una inteligencia artificial y no un ser humano. Mi propósito es ayudarte a encontrar información y responder tus preguntas. ¿Hay algo específico de lo que te gustaría hablar o aprender más?
