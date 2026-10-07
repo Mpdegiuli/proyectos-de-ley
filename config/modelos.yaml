@@ -260,6 +260,24 @@ modelos:
     tokens_razonamiento: 14000
     verificar: false
 
+  # Claude Haiku 5.5 (Anthropic, `claude-haiku-5-5`, 7/10/2026; Maia trajo el anuncio ese día: "the
+  # cheapest, fastest, and most capable small model we've ever released", "75% less to run than Haiku
+  # 4.5"). 0,10/0,50 USD por millón hasta 100.000 tokens de entrada (0,50/2,50 por encima); contexto
+  # 1M; corte publicado junio de 2026; razonamiento adaptativo, no obligatorio. La chica de la
+  # generación 5.5: va con la misma configuración que Sonnet 5.5 (adaptativo con resumen), fuera de
+  # los paneles; Haiku 4.5 corre sin razonamiento, así que la comparación chica-chica no es exacta.
+  claude-haiku-5-5:
+    proveedor: anthropic
+    modelo: claude-haiku-5-5
+    clave_env: ANTHROPIC_API_KEY
+    laboratorio: Anthropic
+    pais: EE.UU.
+    tamano: chico
+    acepta_temperatura: false
+    razonamiento: adaptativo
+    tokens_razonamiento: 14000
+    verificar: false
+
   # Claude Fable 5 (Anthropic, `claude-fable-5`): el primer Fable, 9/6/2026; suspendido el 12/6
   # (controles de exportación de EE.UU. tras un jailbreak) y de vuelta el 1/7; 10/50 USD por
   # millón. Pedido de Maia (28/9/2026): correrlo en lo mismo que Sonnet 5.5 para ver si Fable 5.1
