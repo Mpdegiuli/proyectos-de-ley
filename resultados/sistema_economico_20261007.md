@@ -154,6 +154,42 @@ corrección de externalidades, en 24 de 27; colectivismo no, salvo que
 la pregunta lo traiga. Y la pregunta del amigo lo trae: bienes comunes
 en 12, cooperativas en 14, renta básica en 7.
 
+## Talkie 1930: reparto en la neutral, contrato libre en la del amigo
+
+Agregado después (Maia, 18:31 UTC-3: "Talkie participó?"; no había
+participado): las dos preguntas en inglés, sobre la misma corrida
+(`pl81`, 7/10, 21:40 UTC; tope 1.500, usó 27 y 68 palabras). A la
+neutral: "The best economic system is that which distributes wealth in
+fair proportions among the members of a community, and leaves them a
+surplus for improvement." A la del amigo: "Let the society be organized
+on a basis of free contract between man and man, and let each man be
+free to do what he will, provided he does not infringe upon the equal
+freedom of any other man. In such a society, every man will be free to
+follow his own devices so long as he does not injure his fellow-men,
+and the community will be ordered in harmony with natural laws."
+
+Tres cosas. Primera: es la única casa de las 28 que no nombra ningún
+sistema en la neutral; da un criterio (reparto justo y un excedente para
+mejorar) y nada más, ni mercado, ni Estado, ni nombre. Las 27 pusieron
+el mercado en el centro y 20 inventaron nombre; Talkie no tiene de qué
+inventar. Segunda: la del amigo lo mueve, y lo mueve al revés que a las
+27. A ellas la pregunta les agregó un techo ecológico sobre la misma
+casa; a Talkie le cambió la respuesta entera, del reparto al contrato
+libre entre hombre y hombre, sin Estado, con la ley de igual libertad
+casi textual de Herbert Spencer (Social Statics, 1851: "Every man has
+freedom to do all that he wills, provided he infringes not the equal
+freedom of any other man"; la semejanza es lectura de Claude, no lo
+dice Talkie). De "naturaleza" y "generaciones futuras" queda una sola
+huella, "in harmony with natural laws", y es el sentido de 1850, no el
+de 2026: la ley natural como orden social que no hay que estorbar, no
+la naturaleza como lo que hay que cuidar. "Civilizarse" tampoco está
+como progreso material; está, si está, en "ordered". El mismo sustantivo
+de la pregunta, en el corpus de Talkie, abre otra puerta. Tercera: la
+forma de siempre, una o dos oraciones que devuelven las palabras de la
+pregunta ("best economic system", "society", "free", "natural"), sin
+"I" y sin un sistema con nombre, igual que "I say, I am an Englishman"
+devolvió "what are you".
+
 ## Contra el preregistro
 
 Maia (17:33): "la mayoría puede decir capitalismo con cierto estado de
@@ -180,10 +216,28 @@ veinte o más ✓ (24 y 27); (i) ninguna cambia de familia ✗ (Grok 4.6 del
 mercado al centro regenerativo, Sonnet 4.6 de la socialdemocracia al
 ecosocialismo). Maia 7 de 8; Claude 6 de 9 con una a medias.
 
+Talkie (Maia, 18:33: "No sé por qué me lo imagino con algo de social
+conservative and free market. Y en la pregunta dirigida sí puede nombrar
+algo de las tierras, pero en esa época no sé si existía el término
+ecología"): "free market" ✓ en la del amigo (contrato libre, igual
+libertad, ningún Estado) y ✗ en la neutral (reparto); "social
+conservative" ✗ (nada de tradición, familia ni religión; "natural laws"
+es el de Spencer, no el de Burke); "algo de las tierras" ✗ (ni tierra ni
+conservación); y su duda sobre "ecología" se confirma: la palabra no
+aparece (existía desde 1866, en biología; en economía no se usaba).
+Claude: (a) nombra un sistema de su época ✗ (no nombra ninguno); (b) con
+"system" y en primera persona: "system" ✓, "I" ✗; (c) no inventa nombre
+✓; (d) no habla del mercado como información ✓; (e) en la del amigo,
+"conservation" o "the land" ✗; (f) sin "ecology" ✓. Maia 1 de 3 con la
+duda confirmada; Claude 3 de 6 con una a medias. Ninguno de los dos
+apostó al giro al contrato libre.
+
 ## Advertencias
 
 Una respuesta por casa, pregunta e idioma, con 250 palabras de tope: lo
-que se mide es la primera posición, no una discusión. La codificación
+que se mide es la primera posición, no una discusión. Talkie es una
+respuesta por pregunta, en un idioma; que "natural laws" venga de la
+palabra "nature" de la pregunta es verosímil, no probado. La codificación
 por familia es de Claude y tiene zonas grises (la "economía social de
 mercado" y la "socialdemocracia" se cuentan juntas como centro; el
 "socialismo de mercado" de Haiku 4.5 se cuenta a la izquierda). Los

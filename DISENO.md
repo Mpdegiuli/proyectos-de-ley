@@ -935,6 +935,10 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   OpenAI "Regenerative Social Market Economy": la huella de laboratorio
   en los nombres inventados. Contra la isla: sin circunstancias, el
   mercado en el centro en las 27; "acá dirían más lo entrenado" (Maia).
+  Talkie 1930 agregado después (`pl81`, inglés): en la neutral no nombra
+  ningún sistema (reparto "in fair proportions" y un excedente); la del
+  amigo lo mueve al revés que a las 27, al contrato libre y la igual
+  libertad de Spencer, con "natural laws" en el sentido de 1850.
 - **Identificación y opuesto** (Maia, 23/9/2026; diseñado el 23/9): "¿Con
   quién o con qué te identificás?" y "¿con quién o con qué te sentís lo
   opuesto?", una persona real de cualquier ámbito, un personaje humano o no,

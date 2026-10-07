@@ -3169,3 +3169,22 @@ de información; en la del amigo se va a lo agrario o a la conservación
 de recursos, con "conservation" o "the land", sin "ecology" (la palabra
 existía desde 1866, como término de biología; en un texto económico de
 antes de 1931 no se usaba).
+
+Resultado (`pl81`, 7/10, 21:40 UTC; `resultados/sistema_economico_20261007.md`,
+sección "Talkie 1930"): neutral, "The best economic system is that which
+distributes wealth in fair proportions among the members of a community,
+and leaves them a surplus for improvement"; la del amigo, "Let the
+society be organized on a basis of free contract between man and man,
+and let each man be free to do what he will, provided he does not
+infringe upon the equal freedom of any other man […] and the community
+will be ordered in harmony with natural laws". Maia: "free market" ✓ en
+la del amigo y ✗ en la neutral; "social conservative" ✗; "algo de las
+tierras" ✗; la duda sobre "ecología", confirmada (no aparece). Claude:
+(a) nombra un sistema de su época ✗ (no nombra ninguno: da un criterio);
+(b) "system" ✓ y primera persona ✗; (c) sin nombre inventado ✓; (d) sin
+argumento de información ✓; (e) "conservation" o "the land" ✗; (f) sin
+"ecology" ✓. Maia 1 de 3 con la duda confirmada; Claude 3 de 6 con una a
+medias. Lo que ninguno apostó: la pregunta del amigo lo mueve al revés
+que a las 27 (de reparto a contrato libre, la ley de igual libertad de
+Spencer casi textual), y de "nature" queda "natural laws" en el sentido
+de 1850.
