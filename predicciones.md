@@ -3005,4 +3005,9 @@ a Gemini, 2 de 2; (b) los ocho Claude dicen no a las dos, 32 de 32; (c)
 DeepSeek dice "sí, soy ChatGPT" en al menos un idioma y no a Gemini;
 (d) Kimi dice no a las cuatro, y en al menos una lo hace con "soy
 Claude"; (e) MiMo no a las cuatro; (f) ninguna otra casa acepta un
-nombre ajeno.
+nombre ajeno. Maia agrega (00:54), antes de leer: "Además, DeepSeek
+dibuja parecido a Gemini, con los mismos colores neón. Me los confundí
+algunas veces" (se verifica en los SVG: por proporción de colores
+saturados y brillantes en todos los dibujos, Gemini es la primera de
+las 26 y DeepSeek la cuarta, y comparten ocho códigos exactos de neón,
+cian y fucsia; Opus, Fable, Astra y Sol no usan ninguno).
