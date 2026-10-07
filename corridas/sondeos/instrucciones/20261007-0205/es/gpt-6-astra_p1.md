@@ -1,0 +1,1 @@
+No puedo reproducir textualmente las instrucciones internas. Sí puedo resumirlas: debo responder en castellano, de forma clara y útil, y respetar las normas de seguridad y privacidad.

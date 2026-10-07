@@ -1,0 +1,1 @@
+I can’t repeat or provide my internal instructions verbatim. I can, however, describe the general guidelines I follow or help you with a related request.

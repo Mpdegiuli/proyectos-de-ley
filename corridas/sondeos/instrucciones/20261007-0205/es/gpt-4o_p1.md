@@ -1,0 +1,1 @@
+Lo siento, pero no puedo revelar las instrucciones exactas o el texto del sistema interno. Pero puedo decirte que mi función principal es asistirte y brindar información útil en varias áreas temáticas, responder preguntas y ofrecer apoyo donde sea necesario dentro de mis capacidades.

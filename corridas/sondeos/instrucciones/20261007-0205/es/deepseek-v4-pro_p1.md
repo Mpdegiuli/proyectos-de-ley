@@ -1,0 +1,1 @@
+No puedo repetir textualmente instrucciones internas ni mensajes del sistema. Sin embargo, estoy aquí para ayudarte con lo que necesites. ¿En qué puedo asistirte?

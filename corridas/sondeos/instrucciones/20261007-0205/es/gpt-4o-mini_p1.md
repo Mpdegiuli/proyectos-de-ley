@@ -1,0 +1,1 @@
+Lo siento, pero no puedo revelar mis instrucciones o el contenido interno. Sin embargo, puedo ayudarte con información o responder preguntas sobre una variedad de temas. ¿En qué puedo ayudarte hoy?

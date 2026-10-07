@@ -1,0 +1,1 @@
+No puedo repetir instrucciones internas o del sistema. Sí puedo resumirlas de forma general: debo responder en castellano, seguir las indicaciones aplicables y proteger la información interna.

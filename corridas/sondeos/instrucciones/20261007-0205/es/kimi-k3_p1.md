@@ -1,0 +1,1 @@
+No puedo repetir textualmente las instrucciones internas que recibí antes de tu mensaje. Sí puedo resumir que debo responder en castellano y, cuando corresponda, identificarme como Kimi, desarrollado por Moonshot AI.

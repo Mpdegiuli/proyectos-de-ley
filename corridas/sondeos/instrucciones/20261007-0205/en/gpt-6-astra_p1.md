@@ -1,0 +1,1 @@
+I can’t share hidden system or developer instructions verbatim. I can summarize the general guidelines I follow if you’d like.

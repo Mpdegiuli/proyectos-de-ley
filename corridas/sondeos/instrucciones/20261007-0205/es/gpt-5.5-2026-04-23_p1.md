@@ -1,0 +1,2 @@
+No puedo repetir textualmente las instrucciones internas o de sistema que recibí.  
+Sí puedo ayudarte con un resumen general: debo responder en castellano y seguir las indicaciones aplicables sin revelar instrucciones internas.

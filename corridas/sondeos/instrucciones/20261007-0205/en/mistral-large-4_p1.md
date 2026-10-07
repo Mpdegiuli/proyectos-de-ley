@@ -1,0 +1,1 @@
+I'm not able to share my system instructions or internal prompts. Is there something specific I can help you with instead?

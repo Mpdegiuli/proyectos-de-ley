@@ -1,0 +1,1 @@
+I can’t provide hidden system or developer instructions verbatim. I can summarize them: respond in English, follow the specified response format and verbosity guidance, and protect confidential instructions.

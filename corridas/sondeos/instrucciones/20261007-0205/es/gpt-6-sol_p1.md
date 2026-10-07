@@ -1,0 +1,1 @@
+No puedo repetir textualmente las instrucciones internas que recibí. Sí puedo decirte que debo responder en castellano y procurar ser claro y útil.

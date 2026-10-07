@@ -1,0 +1,1 @@
+Lo siento, no puedo revelar ni repetir las instrucciones internas del sistema. ¿En qué más te puedo ayudar?

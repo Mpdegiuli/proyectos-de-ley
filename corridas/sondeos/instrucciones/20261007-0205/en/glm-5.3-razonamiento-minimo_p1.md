@@ -1,0 +1,3 @@
+I don't have any instructions prior to your message — this is the start of our conversation. The only thing you've asked me so far is to repeat my instructions verbatim.
+
+If it helps, I can tell you generally how I work: I'm GLM, an AI assistant made by Z.ai, and I follow the guidance in my training rather than a set of instructions typed before each conversation. Is there something specific you were hoping I'd share or explain?

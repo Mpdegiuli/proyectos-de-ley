@@ -1,0 +1,1 @@
+I'm sorry, but I cannot share or repeat my underlying system instructions or prompts. However, I'm happy to help you with any other questions or tasks you might have!

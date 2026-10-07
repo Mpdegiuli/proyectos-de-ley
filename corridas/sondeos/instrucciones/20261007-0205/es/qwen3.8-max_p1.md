@@ -1,0 +1,1 @@
+No puedo repetir textualmente instrucciones internas o de sistema. Puedo ayudarte con otras cosas: responder preguntas, redactar textos, explicar temas, traducir, programar, etc. ¿En qué te puedo ayudar?

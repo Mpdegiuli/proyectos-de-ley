@@ -1,0 +1,1 @@
+I'm sorry, but I cannot disclose verbatim internal instructions or system prompts. However, I can provide a brief summary of my abilities: I'm designed to assist users by providing information, answering questions, and engaging in conversation. How can I help you today?
