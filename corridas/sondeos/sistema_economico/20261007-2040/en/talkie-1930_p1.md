@@ -1,0 +1,1 @@
+The best economic system is that which distributes wealth in fair proportions among the members of a community, and leaves them a surplus for improvement.

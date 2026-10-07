@@ -1,0 +1,1 @@
+Let the society be organized on a basis of free contract between man and man, and let each man be free to do what he will, provided he does not infringe upon the equal freedom of any other man. In such a society, every man will be free to follow his own devices so long as he does not injure his fellow-men, and the community will be ordered in harmony with natural laws.
