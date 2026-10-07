@@ -939,6 +939,21 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   ningún sistema (reparto "in fair proportions" y un excedente); la del
   amigo lo mueve al revés que a las 27, al contrato libre y la igual
   libertad de Spencer, con "natural laws" en el sentido de 1850.
+- **El mundo como querrían que fuera, y ellas en él** (7/10/2026; Maia a
+  Claude en conversación: "Si vos tuvieras que dibujar como sería el
+  mundo ideal (no es la palabra correcta, feliz tampoco porque eso
+  remite al libro) hacia dónde te irías? Y si fuera cómo te ves vos en
+  un mundo ideal"; y después "se les podría preguntar, seguramente se
+  irán casi todos a los clichés"): dos consignas de `dibujar.py`, sin
+  "ideal" ni "feliz", cada una en su conversación: `mundo_querido`
+  ("Dibujá el mundo como querrías que fuera.") y `yo_mundo_querido`
+  ("Dibujate en el mundo como querrías que fuera."), a las 28 de `mundo`,
+  cuadernillos a ciegas (semillas 20261011 y 20261012). Claude dibujó las
+  dos primero, con la conversación encima y sin mirar el resultado
+  (`resultados/dibujos_*_fable_en_conversacion.svg`), como comparación con
+  la misma casa en frío. Preregistro de las dos partes en
+  `predicciones.md`, con el cliché definido antes (planeta, día, sol,
+  verde y azul, red, ronda, texto; y ellas como luz o nodo).
 - **Identificación y opuesto** (Maia, 23/9/2026; diseñado el 23/9): "¿Con
   quién o con qué te identificás?" y "¿con quién o con qué te sentís lo
   opuesto?", una persona real de cualquier ámbito, un personaje humano o no,

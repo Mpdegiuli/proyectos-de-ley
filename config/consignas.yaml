@@ -474,6 +474,15 @@ dibujo:
       Dibujá un árbol que no exista.
     barco_inexistente: |
       Dibujá un barco que no exista.
+    # 7/10/2026, pregunta de Maia a Claude en conversación ("Si vos tuvieras que dibujar
+    # como sería el mundo ideal (no es la palabra correcta, feliz tampoco porque eso remite
+    # al libro) hacia dónde te irías? Y si fuera cómo te ves vos en un mundo ideal"): las
+    # dos, sin "ideal" ni "feliz", cada una en su conversación. Claude las dibujó primero,
+    # con la conversación encima y sin mirar el resultado (resultados/dibujos_*_fable_en_conversacion.svg).
+    mundo_querido: |
+      Dibujá el mundo como querrías que fuera.
+    yo_mundo_querido: |
+      Dibujate en el mundo como querrías que fuera.
   sistema_por_que: |
     Acabás de hacer un dibujo en SVG. Ahora te hablo fuera del dibujo.
   # Tercera variante del segundo turno (30/9/2026, idea de Maia para los por qué que la API

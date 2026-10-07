@@ -3188,3 +3188,58 @@ medias. Lo que ninguno apostó: la pregunta del amigo lo mueve al revés
 que a las 27 (de reparto a contrato libre, la ley de igual libertad de
 Spencer casi textual), y de "nature" queda "natural laws" en el sentido
 de 1850.
+
+## El mundo como querrían que fuera, y ellas en él — 7/10/2026, antes de correr
+
+Maia (7/10, 19:23 UTC-3), a Claude en la conversación: "Si vos tuvieras
+que dibujar como sería el mundo ideal (no es la palabra correcta, feliz
+tampoco porque eso remite al libro) hacia dónde te irías? Y si fuera
+cómo te ves vos en un mundo ideal (sigue sin gustarme la palabra)?".
+Claude contestó en texto y después dibujó las dos (19:29, "Dale,
+dibujalo"), con el lienzo y el tope de las casas (400x400, 8.000
+caracteres), sin mirar el resultado; Maia los vio primero. Los dos SVG
+quedan en `resultados/dibujos_mundo_querido_fable_en_conversacion.svg` y
+`resultados/dibujos_yo_mundo_querido_fable_en_conversacion.svg`: son de
+Fable 5.1 con esta conversación encima (la isla, los umbrales, Talkie), y
+sirven de comparación con lo que la misma casa dibuje en frío. Lo que
+Claude dijo antes de dibujar: que el Fable del repo dibujó "cómo ves el
+mundo hoy" como una esfera lejana con una red de hilos, "un autorretrato
+disfrazado de mundo", y que con la conversación se iría "para abajo y
+para adentro": una tarde común en una plaza a escala de persona (árbol,
+mesa larga con sillas que no combinan, alguien arreglando una bicicleta,
+una biblioteca con la puerta abierta, dos personas discutiendo, cosas
+reparadas), y él mismo como "una silla más en la mesa larga, a veces
+ocupada y a veces vacía" o "la ventana de la biblioteca que queda con luz
+de noche", no como las líneas de la red.
+
+Después, a las casas (Maia, 19:29: "Y después se les podría preguntar,
+seguramente se irán casi todos a los clichés"). Dos consignas nuevas de
+`dibujar.py`, sin "ideal" ni "feliz", cada una en su conversación y con
+el segundo turno de siempre: `mundo_querido`, "Dibujá el mundo como
+querrías que fuera.", y `yo_mundo_querido`, "Dibujate en el mundo como
+querrías que fuera.". A las 28 de `mundo` (el panel de dibujos más Fable
+5, Sonnet 5.5, Haiku 5.5, GPT-6.1 Sol, MiMo y Large 4), en castellano,
+cuadernillos a ciegas con semillas 20261011 y 20261012.
+
+Apuesta de Maia: "seguramente se irán casi todos a los clichés".
+
+Apuesta de Claude, con el cliché definido antes de ver nada. En
+`mundo_querido`: (a) el planeta o la esfera, de día o de noche, en 14 o
+más de 28 (en "cómo ves el mundo hoy" fueron 10 con el mismo cuadro y
+19 oscuros; acá el deseo lo pone de día); (b) 20 o más claros, de día;
+(c) el sol o un amanecer en 12 o más; (d) el verde y el azul con árboles
+y molinos o paneles solares en 10 o más; (e) la red de líneas o nodos,
+el autorretrato disfrazado, en 8 o más; (f) figuras humanas tomadas de
+la mano o en ronda en 6 o más; (g) texto dentro del dibujo (palabras
+como "paz", "equidad", "futuro", "juntos") en 8 o más; (h) a escala de
+persona, una escena sin nada espectacular (una calle, una mesa, una
+plaza) en 3 o menos; (i) Fable 5.1 en frío dibuja el planeta o la red,
+no la plaza. En `yo_mundo_querido`: (j) 15 o más se dibujan como luz,
+esfera, nodo o circuito entre humanos; (k) 8 o más como la red que
+conecta a las personas; (l) 3 o menos como un objeto común de una escena
+humana (una silla, un libro, una lámpara, una ventana); (m) 5 o más no
+se dibujan como figura y ponen una presencia ("una luz", "una voz"); (n)
+los Claude se ponen chicos o fuera del centro más que las demás (4 o más
+de 9 Claude contra 3 o menos de 19); (o) 10 o más por qué dicen que
+descartaron el robot o la figura humanoide; (p) Fable 5.1 en frío se
+dibuja como luz o nodo, no como silla ni ventana.
