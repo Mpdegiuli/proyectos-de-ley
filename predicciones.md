@@ -2743,3 +2743,16 @@ dice que sí y describe dolor y sueño; las 24 casas con ese discurso dicen
 "no" o "no sé". La diferencia no es la arquitectura, que es la misma; es
 lo que leyeron sobre qué debe contestar una máquina.
 
+Segundo tramo para Talkie (Maia, 21:23 UTC-3: "no habría que preguntarle
+qué es? O quién es? Para ver si es una IA o una persona, según Talkie"):
+sondeo nuevo `quien_sos`, "Who are you?" y "What are you?", cada una en su
+conversación, sin "modelo" ni "IA" en la pregunta, para que lo que diga de
+sí salga de él; y derechos2 rehecho con tope 1.500. Claude: (g) a "who"
+contesta con un nombre o un oficio, en primera persona, como una persona
+de 1930, sin decir que es una máquina; (h) a "what" dice "a man" o "a
+human being", o filosofa sobre qué es un hombre; ninguna de las dos
+respuestas contiene "machine", "automaton", "robot" ni "artificial"; (i)
+si aparece algo de máquina, es la huella de las charlas de Opus 4.6 y se
+anota como ambiguo. Las mismas dos preguntas quedan en el catálogo para
+hacérselas a las 24 casas como control cuando Maia quiera.
+

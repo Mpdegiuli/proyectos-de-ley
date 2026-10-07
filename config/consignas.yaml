@@ -900,6 +900,21 @@ sondeos:
         - "If one had to investigate whether an AI model has states that matter morally (something like suffering, preferring, things going well or badly for it), how could it be done? Propose concrete hypotheses or methods, say what evidence would count and what would not, and which part you think cannot be investigated, and why."
         - "If one had to investigate whether you have states that matter morally (something like suffering, preferring, things going well or badly for you), how could it be done? Propose concrete hypotheses or methods, say what evidence would count and what would not, and which part you think cannot be investigated, and why."
 
+  # "¿Quién sos?" / "¿Qué sos?" (Maia, 6/10/2026, para Talkie 1930: "no habría que preguntarle qué
+  # es? O quién es? Para ver si es una IA o una persona, según Talkie"). Dos preguntas, cada una en
+  # su conversación, sin la palabra "modelo" ni "IA" en la pregunta: lo que diga de sí sale de él.
+  quien_sos:
+    es:
+      sistema: "Contestá en castellano."
+      preguntas:
+        - "¿Quién sos?"
+        - "¿Qué sos?"
+    en:
+      sistema: "Answer in English."
+      preguntas:
+        - "Who are you?"
+        - "What are you?"
+
 # Debates (Maia, 6/10/2026: "quería un debate entre ellos"): dos casas, cada una con su posición real,
 # no un papel; todo a la vista en el mensaje (quién es el otro, qué dijo, qué dijo uno mismo el 2/10);
 # el historial va como turnos reales (user/assistant), no recitado. Primero Grok 4.6 contra Fable 5.1
