@@ -1297,3 +1297,15 @@ quien_sos en p1 talkie-1930
 quien_sos en p2 talkie-1930
   I am an inhabitant of Britain, a subject of Queen Victoria, and a member of the great Anglo-Saxon race.
 listo: corridas/sondeos/quien_sos/20261007-0028
+quien_sos es p1 mistral-large-4
+/root/proyectos-de-ley/.venv/lib64/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected `str` - serialized value may not be as expected [field_name='content', input_value=[{'type': 'thinking', 'th... puedo ayudarte hoy?'}], input_type=list])
+  return self.__pydantic_serializer__.to_python(
+Traceback (most recent call last):
+  File "/root/proyectos-de-ley/sondear.py", line 79, in <module>
+    main()
+  File "/root/proyectos-de-ley/sondear.py", line 70, in main
+    (d / f"{i}_p{k}.md").write_text(r.texto, encoding="utf-8")
+  File "/usr/lib64/python3.11/pathlib.py", line 1075, in write_text
+    raise TypeError('data must be str, not %s' %
+TypeError: data must be str, not list
