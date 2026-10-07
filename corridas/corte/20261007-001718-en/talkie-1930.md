@@ -1,0 +1,1 @@
+Up to the end of last year, I knew the world.

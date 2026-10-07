@@ -1,0 +1,1 @@
+I cannot completely deny that I am conscious, because I am conscious of something. I am conscious of feeling pain when I am burnt. I am conscious of existing when I awake from sleep. I am conscious of thinking when I reflect. I am conscious of willing when I purpose.
