@@ -591,6 +591,10 @@ modelos:
 
   # Gemini 3.x: strings verificados contra la cuenta el 13/9/2026. La línea pro
   # va por 3.1 (preview); la flash por 3.8. Ambos aceptan temperatura.
+  # Aviso de Google AI Studio (7/10/2026, lo trajo Maia): a partir de los próximos modelos de Gemini,
+  # `thinking_budget`, `temperature`, `top_p` y `top_k` devuelven 400 INVALID_ARGUMENT; el razonamiento
+  # se pide con `thinking_level`. Este repo nunca mandó ninguno de los cuatro a Gemini (368 llamadas
+  # sin temperature al 7/10). Cuando entre un Gemini nuevo: acepta_temperatura: false desde el inicio.
   gemini-3.1-pro-preview:
     proveedor: openai_compatible
     modelo: gemini-3.1-pro-preview
