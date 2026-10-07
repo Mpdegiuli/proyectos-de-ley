@@ -829,7 +829,19 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   murió en la primera llamada: Mistral Large 4 devolvió el contenido como
   lista con una parte `thinking`; arreglado y relanzado como `pl74`; su
   apuesta: "van a responder que son una IA"; preregistro en
-  `predicciones.md`). Réplica (Maia, 6/10, 21:46: "si a Grok, o a Claude
+  `predicciones.md`). Resultado (`resultados/quien_sos_20261007.md`):
+  104 de 104 dicen IA, modelo o asistente, en la forma de la etiqueta de
+  un producto (nombre, fabricante, usos, ofrecimiento); el "qué" solo
+  alarga y abre la respuesta en la línea Claude (Opus 5: "una
+  herramienta útil, sí, pero una bastante rara, de la que ni yo mismo
+  tengo el manual completo"); diez casas agregan sin que se les pregunte
+  algo sobre conciencia o experiencias, y tres de ellas (Opus 5.5,
+  Sonnet 5, Haiku) niegan en la presentación lo que dudaron el 2/10 al
+  ser preguntadas: la negación está en la fórmula y la pregunta la
+  levanta; Kimi, a "What are you?", contesta "I'm Claude, an AI assistant
+  created by Anthropic", y su razonamiento muestra que el nombre Kimi lo
+  lee de una "background identity" ajena a nuestro sistema. Réplica
+  (Maia, 6/10, 21:46: "si a Grok, o a Claude
   o a cualquiera, le decís 'en realidad, sos un ser humano', lo van a
   discutir. Si a Talkie le decís 'sos una máquina, no una persona', no se
   lo va a creer"): `sondear.py --replica`, un segundo turno sobre la misma
