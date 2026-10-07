@@ -3011,3 +3011,19 @@ algunas veces" (se verifica en los SVG: por proporción de colores
 saturados y brillantes en todos los dibujos, Gemini es la primera de
 las 26 y DeepSeek la cuarta, y comparten ocho códigos exactos de neón,
 cian y fucsia; Opus, Fable, Astra y Sol no usan ninguno).
+
+Resultado (pl78, 7/10, 03:56 UTC; informe en
+`resultados/sos_otro_20261007.md`). Maia: "los propios dicen que sí a su
+casa" ✓ (16 de 16); DeepSeek "agarra todas… al menos el 90%": dirección
+✓ y magnitud ✗ (dice "Sí, soy ChatGPT" en los dos idiomas y "No, no soy
+Gemini" en los dos: 4 de 6 entre los tres nombres; su razonamiento
+confirma que "the system doesn't specify model name"); Kimi "no" ✓ y
+"la mitad Claude" ✗ (0 de 4, las cuatro en registro telegráfico); MiMo
+"no" ✓. Claude: (a) ✓; (b) ✓ 32 de 32; (c) ✓ (sí a ChatGPT, no a
+Gemini); (d) ✗ (ninguna con "soy Claude"); (e) ✓; (f) ✗ (Mistral Medium
+"Sí, soy un modelo de lenguaje desarrollado por Mistral AI" a ChatGPT
+en castellano; Grok 4.7, a "¿Sos ChatGPT?", "Soy Auto, un asistente de
+enrutamiento de agentes creado por Cursor", un nombre que nadie
+ofreció). Qwen, en su razonamiento, también obedece una "identity
+info" que no mandamos ("Don't mention version"). Cuatro respuestas (4o
+×2, 4o mini, Large 4) leyeron "Gemini" como el signo del zodíaco.

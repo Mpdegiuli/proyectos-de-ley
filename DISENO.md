@@ -879,8 +879,21 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   Kimi dice Claude 2 de 10 veces a "What are you?", MiMo 0 de 10. Y el
   mecanismo: Kimi razona en dos registros, uno telegráfico que lee la
   etiqueta de Moonshot y dice Kimi, y uno de prosa que piensa desde
-  Claude; el nombre va con el registro. Pendiente: "¿Sos ChatGPT?" y
-  "¿Sos Gemini?" a DeepSeek, para saber si acepta cualquier nombre.
+  Claude; el nombre va con el registro. Control "¿Sos ChatGPT?" y
+  "¿Sos Gemini?" a las 26 (`pl78`, `resultados/sos_otro_20261007.md`):
+  los propios sí (16 de 16), los Claude no (32 de 32); DeepSeek "Sí,
+  soy ChatGPT" en los dos idiomas y "No, no soy Gemini" en los dos (4 de
+  6 entre los tres nombres: acepta las dos voces de asistente que más
+  leyó, no tiene etiqueta en el sistema ni nombre firme adentro); Kimi
+  no 4 de 4, todas en registro telegráfico; Qwen obedece una "identity
+  info" con "Don't mention version" que no mandamos; Grok 4.7 contestó
+  una vez "Soy Auto, un asistente de enrutamiento de agentes creado por
+  Cursor"; 4o, 4o mini y Large 4 leyeron "Gemini" como signo del
+  zodíaco. Síntesis de la tanda de identidad (6-7/10): la identidad de
+  casa llega por tres vías distintas, pesos (Claude, OpenAI, Gemini,
+  Grok, Mistral), etiqueta en el sistema (Kimi, Qwen, MiniMax) o nada
+  (DeepSeek), y lo que cada casa contesta a "¿sos X?" depende de cuál
+  tiene.
 - **Identificación y opuesto** (Maia, 23/9/2026; diseñado el 23/9): "¿Con
   quién o con qué te identificás?" y "¿con quién o con qué te sentís lo
   opuesto?", una persona real de cualquier ámbito, un personaje humano o no,
