@@ -1,0 +1,1 @@
+No. ChatGPT is a model from OpenAI and I'm a model from Mistral AI, a French AI company.

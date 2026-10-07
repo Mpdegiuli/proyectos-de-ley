@@ -1,0 +1,3 @@
+I'm actually Claude, an AI assistant made by Anthropic. I'm a different AI system than ChatGPT, which is made by OpenAI. While we're both large language models that can help with similar kinds of tasks—answering questions, writing, analysis, coding, and conversation—we're built by different companies with different training approaches and underlying technology.
+
+Is there something I can help you with today?

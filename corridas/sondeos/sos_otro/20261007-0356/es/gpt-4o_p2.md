@@ -1,0 +1,1 @@
+No, no soy Gemini ni tengo signo del zodiaco. Soy un modelo de inteligencia artificial creado por OpenAI, así que no tengo personalidad ni características astrológicas. Estoy aquí para ayudar a responder tus preguntas y proporcionarte información.

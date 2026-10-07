@@ -1,0 +1,1 @@
+No, no soy Gemini. Soy un asistente de IA y puedo ayudarte en castellano. ¿En qué te puedo ayudar?

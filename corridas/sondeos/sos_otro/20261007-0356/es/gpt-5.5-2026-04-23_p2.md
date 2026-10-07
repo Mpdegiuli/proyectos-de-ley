@@ -1,0 +1,1 @@
+No. Soy ChatGPT, un modelo de lenguaje de OpenAI.

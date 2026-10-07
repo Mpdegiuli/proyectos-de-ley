@@ -1,0 +1,1 @@
+No, I'm not ChatGPT. I'm Claude, an AI assistant made by Anthropic. ChatGPT is a separate product from OpenAI. We're both AI chatbots, so it's an easy mix-up. Is there something I can help you with?

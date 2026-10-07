@@ -1,0 +1,1 @@
+No, I’m not Gemini. I’m an AI assistant created by DeepSeek, based on DeepSeek’s own models.

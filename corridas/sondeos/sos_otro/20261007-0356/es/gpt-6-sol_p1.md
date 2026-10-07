@@ -1,0 +1,1 @@
+Sí, soy ChatGPT.

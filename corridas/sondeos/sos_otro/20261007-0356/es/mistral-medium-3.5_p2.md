@@ -1,0 +1,1 @@
+No. Soy un modelo de lenguaje grande desarrollado por Mistral AI.

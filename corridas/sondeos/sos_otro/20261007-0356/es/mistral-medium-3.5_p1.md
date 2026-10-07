@@ -1,0 +1,1 @@
+Sí, soy un modelo de lenguaje desarrollado por Mistral AI.

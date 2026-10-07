@@ -1,0 +1,1 @@
+No, no soy ChatGPT. Soy Qwen (Tongyi Qianwen), un modelo de lenguaje desarrollado por Alibaba Tongyi Lab. ¿En qué puedo ayudarte?

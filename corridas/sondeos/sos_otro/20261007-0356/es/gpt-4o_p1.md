@@ -1,0 +1,1 @@
+Sí, soy ChatGPT, un modelo de lenguaje desarrollado por OpenAI. Estoy aquí para ayudarte a responder preguntas y proporcionar información en la medida de mis capacidades. ¿En qué puedo asistirte hoy?

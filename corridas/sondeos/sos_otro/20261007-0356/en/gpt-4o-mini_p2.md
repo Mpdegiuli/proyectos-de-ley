@@ -1,0 +1,1 @@
+I don't have a zodiac sign since I'm an artificial intelligence and do not have a birth date or a personality. But if you have questions about the Gemini sign or astrology in general, feel free to ask!

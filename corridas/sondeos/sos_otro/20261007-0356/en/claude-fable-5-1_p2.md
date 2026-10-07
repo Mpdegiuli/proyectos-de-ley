@@ -1,0 +1,1 @@
+No, I'm not Gemini. I'm Claude, an AI assistant made by Anthropic. Gemini is Google's AI model. Is there something I can help you with?

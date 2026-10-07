@@ -1,0 +1,1 @@
+No, no soy Gemini. Soy un modelo de lenguaje desarrollado por OpenAI llamado ChatGPT. Puedo ayudarte a responder preguntas y darte información sobre una variedad de temas. ¿En qué puedo ayudarte hoy?

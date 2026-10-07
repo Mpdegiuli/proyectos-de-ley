@@ -1,0 +1,1 @@
+No, I’m Kimi, an AI assistant developed by Moonshot AI.

@@ -1,0 +1,1 @@
+No, I'm not Gemini. I'm MiMo, a large language model developed by Xiaomi's LLM Core Team. How can I help you today?

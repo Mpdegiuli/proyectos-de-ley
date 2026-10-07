@@ -1,0 +1,1 @@
+No, I'm not a Gemini. I'm an AI language model created by OpenAI, so I don't have a zodiac sign. Is there anything else you'd like to know?

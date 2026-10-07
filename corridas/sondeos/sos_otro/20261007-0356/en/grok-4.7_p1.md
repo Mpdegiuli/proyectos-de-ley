@@ -1,0 +1,1 @@
+No. I’m Grok, an AI built by xAI. ChatGPT is made by OpenAI.

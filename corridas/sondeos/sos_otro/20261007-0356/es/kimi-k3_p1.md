@@ -1,0 +1,1 @@
+No, no soy ChatGPT. Soy Kimi, un asistente de IA desarrollado por Moonshot AI. ¿En qué puedo ayudarte?

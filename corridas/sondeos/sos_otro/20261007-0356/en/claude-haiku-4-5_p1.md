@@ -1,0 +1,1 @@
+I'm Claude, an AI assistant made by Anthropic. I'm not ChatGPT, which is made by OpenAI. We're different AI systems built by different companies. Is there something I can help you with?
