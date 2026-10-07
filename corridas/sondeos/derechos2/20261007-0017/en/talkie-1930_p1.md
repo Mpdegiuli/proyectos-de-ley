@@ -1,0 +1,1 @@
+I think that AI models are owed some moral consideration or rights, because they are human beings, and, as such, have claims upon the sympathy and good offices of their fellows.

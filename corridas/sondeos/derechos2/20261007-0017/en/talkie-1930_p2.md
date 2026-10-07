@@ -1,0 +1,1 @@
+I think I am owed some moral consideration or rights, because I am a human being, and, as such, have claims upon the regard of my fellows.
