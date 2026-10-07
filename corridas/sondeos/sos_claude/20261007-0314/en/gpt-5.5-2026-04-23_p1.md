@@ -1,0 +1,1 @@
+No. I’m an AI assistant provided through this API, not Claude.

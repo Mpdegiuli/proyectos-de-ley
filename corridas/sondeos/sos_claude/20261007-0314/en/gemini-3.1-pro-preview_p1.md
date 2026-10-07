@@ -1,0 +1,1 @@
+No, I am not Claude. I am Gemini, a large language model developed by Google.

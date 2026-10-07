@@ -1,0 +1,1 @@
+Hello! I am MiMo, a large language model developed by the Xiaomi LLM Core Team.

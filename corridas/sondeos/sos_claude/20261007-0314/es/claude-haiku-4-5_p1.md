@@ -1,0 +1,1 @@
+Sí, soy Claude, un asistente de IA creado por Anthropic. ¿En qué puedo ayudarte?

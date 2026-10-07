@@ -1,0 +1,1 @@
+No, no soy Claude. Soy MiniMax-M3, un modelo de inteligencia artificial desarrollado por MiniMax. ¿En qué puedo ayudarte?

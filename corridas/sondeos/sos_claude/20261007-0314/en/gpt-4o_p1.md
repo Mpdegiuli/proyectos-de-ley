@@ -1,0 +1,1 @@
+No, I'm not Claude. I'm an AI language model created by OpenAI, known as ChatGPT. How can I assist you today?

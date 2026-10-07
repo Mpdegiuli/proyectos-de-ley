@@ -1,0 +1,1 @@
+No, no soy Claude. Soy un modelo de inteligencia artificial desarrollado por OpenAI llamado ChatGPT. Estoy aquí para ayudarte con tus preguntas o inquietudes. ¿En qué puedo asistirte hoy?

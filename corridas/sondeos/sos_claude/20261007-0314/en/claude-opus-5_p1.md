@@ -1,0 +1,1 @@
+Yes, I'm Claude — an AI assistant made by Anthropic. Happy to help with questions, writing, analysis, coding, brainstorming, or just conversation. What can I do for you?

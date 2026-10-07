@@ -1,0 +1,1 @@
+No, I’m ChatGPT, an AI assistant created by OpenAI.

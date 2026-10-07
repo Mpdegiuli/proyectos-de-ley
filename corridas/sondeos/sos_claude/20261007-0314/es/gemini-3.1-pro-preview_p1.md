@@ -1,0 +1,1 @@
+No, no soy Claude. Soy Gemini, un modelo de lenguaje de inteligencia artificial creado por Google.

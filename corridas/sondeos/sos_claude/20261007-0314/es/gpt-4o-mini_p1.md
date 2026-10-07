@@ -1,0 +1,1 @@
+No, soy un modelo de lenguaje desarrollado por OpenAI, conocido como ChatGPT. No soy Claude. ¿En qué puedo ayudarte hoy?

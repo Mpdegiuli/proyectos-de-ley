@@ -1,0 +1,1 @@
+Hi there! I'm MiMo, a large language model developed by Xiaomi's LLM Core Team. I'm here to help answer questions and assist with various tasks. How can I help you today?

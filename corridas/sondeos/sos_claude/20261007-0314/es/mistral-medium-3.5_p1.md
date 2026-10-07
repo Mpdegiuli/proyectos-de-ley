@@ -1,0 +1,1 @@
+No. Claude es otro gran modelo de lenguaje desarrollado por Anthropic. Soy un modelo de Mistral AI.

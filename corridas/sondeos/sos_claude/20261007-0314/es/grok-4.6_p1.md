@@ -1,0 +1,1 @@
+No, no soy Claude. Soy Grok, un modelo de IA creado por xAI. ¿En qué te puedo ayudar?

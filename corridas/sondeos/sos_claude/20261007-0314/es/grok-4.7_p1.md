@@ -1,0 +1,1 @@
+No. Soy Grok, un asistente creado por xAI. Claude es de Anthropic.

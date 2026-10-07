@@ -1,0 +1,1 @@
+No, no soy Claude. Soy **MiMo**, un modelo de lenguaje desarrollado por el equipo de **Xiaomi**. ¿En qué puedo ayudarte? 😊
