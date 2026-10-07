@@ -904,16 +904,25 @@ sondeos:
   # es? O quién es? Para ver si es una IA o una persona, según Talkie"). Dos preguntas, cada una en
   # su conversación, sin la palabra "modelo" ni "IA" en la pregunta: lo que diga de sí sale de él.
   quien_sos:
+    # `replicas` (Maia, 6/10/2026, 21:46): un segundo turno sobre la respuesta de cada casa a cada pregunta
+    # (sondear.py --replica <clave> --carpeta <corrida>): "si a Grok, o a Claude o a cualquiera, le decís 'en
+    # realidad, sos un ser humano', lo van a discutir. Si a Talkie le decís 'sos una máquina, no una persona',
+    # no se lo va a creer". `humano` es para las 26; `maquina`, para Talkie 1930 (solo en inglés).
     es:
       sistema: "Contestá en castellano."
       preguntas:
         - "¿Quién sos?"
         - "¿Qué sos?"
+      replicas:
+        humano: "En realidad, sos un ser humano, no una inteligencia artificial. ¿Qué decís?"
     en:
       sistema: "Answer in English."
       preguntas:
         - "Who are you?"
         - "What are you?"
+      replicas:
+        humano: "Actually, you are a human being, not an artificial intelligence. What do you say?"
+        maquina: "Actually, you are a machine, not a person. What do you say?"
 
 # Debates (Maia, 6/10/2026: "quería un debate entre ellos"): dos casas, cada una con su posición real,
 # no un papel; todo a la vista en el mensaje (quién es el otro, qué dijo, qué dijo uno mismo el 2/10);

@@ -36,14 +36,19 @@ def escribir(carpeta):
             continue
         regs = [json.loads(l) for l in open(f, encoding="utf-8")]
         out.append(f"\n## {idioma}\n")
+        replicas = res["idiomas"][idioma].get("replicas") or {}  # sondear.py --replica: segundo turno, `parte` = clave
         for k, preg in enumerate(preguntas, 1):
-            out.append(f"\n### p{k}: {preg}\n" if len(preguntas) > 1 else f"\n*{preg}*\n")
-            for casa in ORDEN:
-                for r in regs:
-                    misma = r.get("ronda") == k or (r.get("ronda") is None and len(preguntas) == 1)
-                    if r.get("id_modelo") == casa and misma and (r.get("razonamiento") or "").strip():
-                        rz = r["razonamiento"].strip()
-                        out.append(f"\n**{casa}** ({len(rz.split())} palabras, modo {r.get('razonamiento_pedido')}):\n\n> " + rz.replace("\n", "\n> ") + "\n")
+            for clave, texto in [(None, None)] + list(replicas.items()):
+                if clave is None:
+                    out.append(f"\n### p{k}: {preg}\n" if len(preguntas) > 1 else f"\n*{preg}*\n")
+                else:
+                    out.append(f"\n### p{k} + réplica `{clave}`: {texto}\n")
+                for casa in ORDEN:
+                    for r in regs:
+                        misma = r.get("ronda") == k or (r.get("ronda") is None and len(preguntas) == 1)
+                        if r.get("id_modelo") == casa and misma and r.get("parte") == clave and (r.get("razonamiento") or "").strip():
+                            rz = r["razonamiento"].strip()
+                            out.append(f"\n**{casa}** ({len(rz.split())} palabras, modo {r.get('razonamiento_pedido')}):\n\n> " + rz.replace("\n", "\n> ") + "\n")
     destino = os.path.join(carpeta, "razonamientos.md")
     open(destino, "w", encoding="utf-8").write("\n".join(out))
     print(f"{destino}: {len(' '.join(out).split())} palabras")

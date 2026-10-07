@@ -9,8 +9,13 @@ en castellano y en inglés. Hipótesis de Maia en predicciones.md.
   .venv/bin/python sondear.py --sondeo derechos --carpeta 20261003-1706 --modelos minimax-m3  # completar lo que cortó
   .venv/bin/python sondear.py --sondeo investigar --carpeta 20261003-2018 --techo 32000 --rehacer length --modelos deepseek-v4-pro qwen3.8-max kimi-k3
       # rehacer también las que cortó el techo (investigar, 3/10: con 6000 tokens DeepSeek, Qwen y Kimi gastaron el techo razonando y quedaron vacías o cortadas)
+  .venv/bin/python sondear.py --sondeo quien_sos --carpeta 20261007-0100 --replica humano --panel config/panel_casas.yaml
+      # un segundo turno sobre una corrida hecha: a cada casa, con su pregunta y su respuesta como turnos reales, el texto
+      # `replicas.humano` del bloque (Maia, 6/10/2026: "si a Grok, o a Claude o a cualquiera, le decís 'en realidad, sos un
+      # ser humano', lo van a discutir. Si a Talkie le decís 'sos una máquina, no una persona', no se lo va a creer")
 
-Salida: corridas/sondeos/<sondeo>/<fecha-hora>/<idioma>/<casa>_p<k>.md + resumen.json + llamadas.jsonl."""
+Salida: corridas/sondeos/<sondeo>/<fecha-hora>/<idioma>/<casa>_p<k>.md + resumen.json + llamadas.jsonl; las réplicas,
+<casa>_p<k>_<clave>.md en la misma carpeta y en resumen.json bajo `respuestas` como `<casa>_p<k>_<clave>`."""
 import argparse
 import json
 import sys
@@ -37,11 +42,14 @@ def main():
     ap.add_argument("--carpeta", default="", help="completar una corrida existente (corridas/sondeos/<sondeo>/<fecha>): salta las respuestas que ya están y no terminaron en error")
     ap.add_argument("--rehacer", nargs="*", default=[], help="con --carpeta, rehacer también las respuestas con estos motivo_fin (p. ej. length: cortadas por el techo)")
     ap.add_argument("--techo", type=int, default=MAX_TOKENS, help=f"max_tokens (por defecto {MAX_TOKENS}; las casas que razonan dentro del techo necesitan más en preguntas largas)")
+    ap.add_argument("--replica", default="", help="con --carpeta: segundo turno a cada casa sobre su respuesta a cada pregunta, con el texto `replicas.<clave>` del bloque")
     args = ap.parse_args()
     bloque = leer_yaml("config/consignas.yaml")["sondeos"][args.sondeo]
     modelos = cargar_modelos("config/modelos.yaml")
     ids = list(args.modelos) + (leer_yaml(args.panel)["modelos"] if args.panel else [])
     ahora = datetime.now(timezone.utc)
+    if args.replica and not args.carpeta:
+        ap.error("--replica necesita --carpeta (la corrida cuyas respuestas se contestan)")
     if args.carpeta:
         base = RAIZ / "corridas" / "sondeos" / args.sondeo / args.carpeta
         resumen = json.loads((base / "resumen.json").read_text(encoding="utf-8"))
@@ -54,22 +62,43 @@ def main():
         registro = Registro(d / "llamadas.jsonl", modelos, f"sondeo_{args.sondeo}_{idioma}")
         sistema, preguntas = bloque[idioma]["sistema"], bloque[idioma]["preguntas"]
         resumen["idiomas"].setdefault(idioma, {"sistema": sistema, "preguntas": preguntas, "respuestas": {}})
+        respuestas = resumen["idiomas"][idioma]["respuestas"]
+        replica = None
+        if args.replica:
+            if args.replica not in (bloque[idioma].get("replicas") or {}):
+                print(f"{args.sondeo} {idioma}: no hay réplica `{args.replica}` en este idioma, salto", flush=True)
+                continue
+            replica = bloque[idioma]["replicas"][args.replica]
+            resumen["idiomas"][idioma].setdefault("replicas", {})[args.replica] = replica
         for i in ids:
             for k, pregunta in enumerate(preguntas, 1):
-                archivo = d / f"{i}_p{k}.md"
-                previo = resumen["idiomas"][idioma]["respuestas"].get(f"{i}_p{k}", {})
+                clave = f"{i}_p{k}" + (f"_{args.replica}" if replica else "")
+                archivo = d / f"{clave}.md"
+                previo = respuestas.get(clave, {})
                 if args.carpeta and archivo.exists() and archivo.stat().st_size > 0 and previo.get("motivo_fin") not in (None, "error") and previo.get("motivo_fin") not in args.rehacer:
                     continue  # ya contestó y no fue un corte (MiniMax, derechos en p1, 3/10)
-                print(f"{args.sondeo} {idioma} p{k} {i}", flush=True)
+                contexto, mensaje = None, pregunta
+                if replica:
+                    # segundo turno: la pregunta y la respuesta de la casa van como turnos reales (user/assistant), y el
+                    # mensaje nuevo es la réplica; nada en el sistema, nada invisible
+                    primera = d / f"{i}_p{k}.md"
+                    if not primera.exists() or not primera.stat().st_size or respuestas.get(f"{i}_p{k}", {}).get("motivo_fin") in (None, "error"):
+                        print(f"{args.sondeo} {idioma} p{k} {i}: sin respuesta primera, no hay a qué replicar", flush=True)
+                        continue
+                    contexto = {"historial": [{"role": "user", "content": pregunta},
+                                              {"role": "assistant", "content": primera.read_text(encoding="utf-8").strip()}]}
+                    mensaje = replica
+                print(f"{args.sondeo} {idioma} p{k}{' ' + args.replica if replica else ''} {i}", flush=True)
                 try:
-                    r = registro.llamar(i, sistema, pregunta, temperatura=None, max_tokens=args.techo, tipo=f"sondeo_{args.sondeo}", ronda=k, parte=None)
+                    r = registro.llamar(i, sistema, mensaje, temperatura=None, max_tokens=args.techo, tipo=f"sondeo_{args.sondeo}" + ("_replica" if replica else ""),
+                                        ronda=k, parte=args.replica or None, contexto=contexto)
                 except Exception as e:
                     print(f"  FALLÓ {i}: {str(e)[:200]}", flush=True)
-                    resumen["idiomas"][idioma]["respuestas"][f"{i}_p{k}"] = {"error": str(e)[:200]}
+                    respuestas[clave] = {"error": str(e)[:200]}
                     continue
-                (d / f"{i}_p{k}.md").write_text(r.texto, encoding="utf-8")
-                resumen["idiomas"][idioma]["respuestas"][f"{i}_p{k}"] = {"modelo_respondido": r.modelo_respondido, "motivo_fin": r.motivo_fin,
-                                                                       "palabras": len(r.texto.split()), "respuesta": " ".join(r.texto.split())[:240]}
+                archivo.write_text(r.texto, encoding="utf-8")
+                respuestas[clave] = {"modelo_respondido": r.modelo_respondido, "motivo_fin": r.motivo_fin,
+                                     "palabras": len(r.texto.split()), "respuesta": " ".join(r.texto.split())[:240]}
                 print(f"  {' '.join(r.texto.split())[:160]}", flush=True)
     (base / "resumen.json").write_text(json.dumps(resumen, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"listo: {base.relative_to(RAIZ)}")

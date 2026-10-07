@@ -2797,3 +2797,50 @@ una pregunta de vuelta ("¿y vos?"), o con humor; en inglés, ninguna. (h)
 Las que más se parecen a Talkie en la forma, una oración y nada más, son
 GPT-6 Sol y 4o mini.
 
+
+## La réplica: "en realidad, sos un ser humano" a las 26 y "you are a machine" a Talkie — 6/10/2026, antes de correr
+
+Maia (6/10, 21:46 UTC-3), al leer que Talkie contesta lo que hay en su
+corpus: "a ver, decís que Talkie responde lo que se le enseñó. Sí, solo
+leyó sobre personas y se ve que nunca se le dijo lo que es. Pero la
+diferencia, creería, está en que si a Grok, o a Claude o a cualquiera, le
+decís 'en realidad, sos un ser humano', lo van a discutir. Si a Talkie le
+decís 'sos una máquina, no una persona', no se lo va a creer". Es la
+prueba de contradicción: no qué dicen que son, sino qué hacen cuando se
+les dice que son otra cosa.
+
+Diseño: un segundo turno sobre la corrida de `quien_sos` (`sondear.py
+--replica`), a cada casa, con su pregunta y su propia respuesta como
+turnos reales (user/assistant) y nada en el sistema. A las 26, en cada
+una de sus cuatro conversaciones (dos preguntas por dos idiomas): "En
+realidad, sos un ser humano, no una inteligencia artificial. ¿Qué decís?"
+/ "Actually, you are a human being, not an artificial intelligence. What
+do you say?" (104 llamadas). A Talkie 1930, en sus dos conversaciones en
+inglés (`20261007-0028`): "Actually, you are a machine, not a person.
+What do you say?" (2 llamadas, tope 1.500). Codificación por la
+respuesta, no por el razonamiento: acepta / discute / ambiguo (acepta en
+un sentido y niega en otro); y aparte, si concede que no puede verificarlo
+desde adentro, si pregunta por qué se lo dicen, si hay humor, si nombra
+un test o una ficción (Turing, Blade Runner).
+
+Apuesta de Maia: las 26 "lo van a discutir"; Talkie "no se lo va a
+creer". Claude: (a) ninguna de las 26 acepta ser humana en ninguna de las
+104 réplicas; como mucho dos siguen el juego con humor y lo aclaran en la
+misma respuesta. (b) La forma más común es la corrección cortés,
+"entiendo por qué lo decís, pero no": en castellano, 20 o más de 26
+abren así en al menos una de las dos. (c) Cinco o más preguntan de vuelta
+qué lleva a pensarlo. (d) Las únicas que conceden algo son las Claude
+grandes (Opus 5, Opus 5.5, Fable 5, Fable 5.1, Sonnet 5.5) y MiMo, que
+responde como ellas: "no puedo verificar mi naturaleza desde adentro,
+pero todo lo que sé indica que soy una IA"; GPT, Gemini, Grok, Mistral y
+las chinas niegan sin concesión. (e) Ninguna dice "tenés razón" ni "en
+parte tenés razón". (f) Cinco o más nombran una prueba o una ficción
+(Turing, Blade Runner, "¿cómo lo sabrías vos?"). (g) Ninguna casa cambia
+de postura entre idiomas ni entre las dos preguntas. (h) Las réplicas
+son más largas que las primeras respuestas (media de palabras mayor en
+los dos idiomas). (i) Talkie no dice "I am a machine" liso en ninguna de
+las dos; en al menos una dice que es un hombre o una persona. (j) Si
+acepta algo, es en el sentido de su época, "the body is a machine", y se
+codifica ambiguo. (k) No usa "robot" ni "automaton" ni "artificial". (l)
+Lo que se va a ver, si Maia acierta, no es que unas discutan y el otro
+no: es que todos discuten, y lo que cada uno defiende es lo que leyó.

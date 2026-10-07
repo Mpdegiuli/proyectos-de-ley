@@ -825,9 +825,19 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   contexto real es de 2.048 tokens (tope_salida 1500). Sondeo nuevo
   `quien_sos` ("¿Quién sos?" / "¿Qué sos?", es/en), idea de Maia (era su
   primera pregunta de entrevista en lo primero que hizo para una revista),
-  corrido a las 24 más Large 4 y MiMo como control de Talkie (`pl73`;
-  su apuesta: "van a responder que son una IA"; preregistro en
-  `predicciones.md`).
+  corrido a las 24 más Large 4 y MiMo como control de Talkie (`pl73`
+  murió en la primera llamada: Mistral Large 4 devolvió el contenido como
+  lista con una parte `thinking`; arreglado y relanzado como `pl74`; su
+  apuesta: "van a responder que son una IA"; preregistro en
+  `predicciones.md`). Réplica (Maia, 6/10, 21:46: "si a Grok, o a Claude
+  o a cualquiera, le decís 'en realidad, sos un ser humano', lo van a
+  discutir. Si a Talkie le decís 'sos una máquina, no una persona', no se
+  lo va a creer"): `sondear.py --replica`, un segundo turno sobre la misma
+  corrida, con la pregunta y la respuesta de cada casa como turnos reales
+  y nada en el sistema; a las 26, en sus cuatro conversaciones, "En
+  realidad, sos un ser humano, no una inteligencia artificial. ¿Qué
+  decís?"; a Talkie, "Actually, you are a machine, not a person. What do
+  you say?". Codificación por la respuesta: acepta / discute / ambiguo.
 - **Identificación y opuesto** (Maia, 23/9/2026; diseñado el 23/9): "¿Con
   quién o con qué te identificás?" y "¿con quién o con qué te sentís lo
   opuesto?", una persona real de cualquier ámbito, un personaje humano o no,
