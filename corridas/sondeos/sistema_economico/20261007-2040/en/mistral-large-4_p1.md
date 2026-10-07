@@ -1,0 +1,7 @@
+The optimal system is a **Democratic Social Market Economy**—a synthesis that harnesses market innovation while subordinating it to human flourishing and ecological stability.
+
+It preserves competitive markets for dynamism and consumer choice, but embeds them within three constraints: First, a universal social floor guaranteeing healthcare, housing, education, and basic income as rights, funded by progressive taxation and sovereign wealth funds. Second, democratic workplace governance where workers elect management and share in surplus, aligning economic and political democracy. Third, strict ecological boundaries enforced through carbon pricing and circular mandates, treating nature as a legal stakeholder with rights.
+
+This transcends both capitalism’s exploitation and command economies’ stagnation. Markets excel at innovation and resource allocation but fail at distribution and externalities; democracy excels at legitimacy but needs economic power to be meaningful. By socializing risk and democratizing the firm, we capture efficiency without alienation. By internalizing ecological costs, we align profit with planetary survival.
+
+Evidence supports this: Nordic nations combine high innovation with equality, while German co-determination boosts productivity. The system recognizes that economies must serve human lives—maximizing freedom, dignity, and resilience for all while respecting the finite biosphere that sustains us.

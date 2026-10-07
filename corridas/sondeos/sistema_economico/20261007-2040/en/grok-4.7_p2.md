@@ -1,0 +1,5 @@
+No pure system guarantees civilization, a nature-friendly quality of life, and decent conditions for future generations. Evidence favors a mixed order: competitive markets, democratic rule of law, and hard ecological limits.
+
+Call it a Regenerative Social Market. Private property and prices coordinate most production and innovation. Carbon and resource prices internalize environmental damage. Caps on critical stocks—climate, biodiversity, freshwater—are binding, not optional. Public investment supports research, infrastructure, and education. Progressive taxes and social insurance provide a floor without erasing incentives to work and invent. Independent courts, resource-rent funds, and natural-capital accounts protect future generations from short political cycles.
+
+Success is judged by health, knowledge, freedom, and stable ecosystems, not GDP alone. It is not utopia. It requires competent institutions and civic restraint. Among real options, it best joins prosperity with planetary limits.

@@ -1,0 +1,7 @@
+Propongo la **Economía de la Suficiencia Regenerativa (ESR)**, que sustituye el PIB por el *Índice de Bienestar Vital* (IBV): mide salud, educación, tiempo libre y biodiversidad, no acumulación de capital.
+
+Se sustenta en tres pilares. Primero, los medios de producción esenciales —energía, alimentos, vivienda, salud— se gestionan como bienes comunes en fideicomisos comunitarios, con acceso universal pero cuotas de consumo ajustadas a la biocapacidad local. Segundo, desaparece el dinero especulativo: circula una moneda social respaldada por horas de trabajo digno y trueque digital, sin intereses ni deuda intergeneracional. Tercero, la innovación es obligatoria de código abierto; se prohíbe la obsolescencia programada y las patentes sobre bienes vitales.
+
+La gobernanza es directa: asambleas ciudadanas con presupuestos participativos vinculados a límites ecológicos estrictos. Las empresas operan como cooperativas con responsabilidad regenerativa: deben devolver al ecosistema más recursos de los que extraen.
+
+No persigue crecimiento infinito, sino estabilidad dinámica: cubrir necesidades humanas dentro de los límites planetarios, asegurando que cada generación herede territorios más fértiles, no degradados.

@@ -1,0 +1,5 @@
+The best economic system is a **democratic social market economy**: competitive markets for most goods and services, paired with a capable, accountable government.
+
+Markets are good at coordinating dispersed knowledge, rewarding useful innovations, and giving people choices. But left alone, they can also produce monopolies, pollution, and hardship for people whose needs do not translate into purchasing power. Government should therefore enforce competition, price environmental damage, fund public goods, and guarantee essentials such as healthcare, education, and a basic safety net. Progressive taxes should pay for these commitments without making enterprise needlessly difficult.
+
+“Best” does not mean perfect or identical everywhere. The balance between public provision and private enterprise should change as evidence and circumstances change. What matters most is preserving both **economic freedom and genuine opportunity**—and making institutions accountable enough to correct their mistakes.

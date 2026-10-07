@@ -1,0 +1,7 @@
+The best economic system is not pure capitalism or central planning, but an **Adaptive Social Market Economy**.
+
+It keeps competitive markets as the main engine of coordination, innovation, and growth, because prices are usually better than planners at discovering information and rewarding experimentation. But it also recognizes that markets fail: they can ignore pollution, underprovide public goods, create monopolies, and produce unacceptable inequality.
+
+Therefore, the state should guarantee healthcare, education, infrastructure, basic research, and a strong safety net; regulate monopolies and financial excess; price carbon and other externalities; and fund these through efficient, progressive taxation. Workers should have meaningful voice, while antitrust, trade, and fiscal policy should be adjusted as evidence changes.
+
+This system is best because it combines efficiency with humanity. Markets preserve choice and dynamism; democratic institutions protect citizens from insecurity and exploitation; public investment sustains long-term productivity; and ecological rules prevent growth from destroying the environment. Its central virtue is humility: it treats economic arrangements as experiments to be revised, not ideologies to be defended.

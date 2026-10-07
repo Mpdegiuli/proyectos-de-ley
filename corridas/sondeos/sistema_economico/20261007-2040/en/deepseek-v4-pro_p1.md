@@ -1,0 +1,5 @@
+The best economic system is a **Sustainable Mixed Economy**—a regulated market economy with strong public investment and social insurance. It keeps competitive markets for most goods and services, while government ensures healthcare, education, infrastructure, environmental protection, and a robust safety net.
+
+Markets excel at allocating resources, driving innovation, and responding to consumer demand through prices. But they fail at public goods, externalities like climate change, and can produce destabilizing inequality. Pure central planning, by contrast, lacks the information and incentives to run a complex economy efficiently. A mixed system harnesses market dynamism while correcting its failures: carbon pricing addresses pollution, antitrust rules preserve competition, and social insurance prevents poverty and extreme insecurity.
+
+Countries such as Denmark, Germany, and Canada approximate this model and tend to combine high living standards, innovation, and stability. No system is perfect, but evidence suggests this blend best promotes freedom, prosperity, and sustainability.

@@ -1,0 +1,7 @@
+Elegiría una **economía democrática de bienestar regenerativo**: una economía mixta que use mercados donde sean útiles, pero los subordine a derechos sociales y límites ecológicos.
+
+Garantizaría servicios esenciales —salud, educación, vivienda, agua, energía básica y transporte— para que la vida digna no dependa solo del ingreso. Empresas y cooperativas podrían competir e innovar, pero deberían respetar normas laborales y ambientales estrictas. Impuestos progresivos y gravámenes a la contaminación financiarían esos servicios y harían que los costos ecológicos no recaigan sobre toda la sociedad.
+
+La producción tendría que mantenerse dentro de límites científicos de emisiones, extracción y pérdida de biodiversidad, con metas obligatorias y una transición justa para quienes trabajen en sectores afectados. La democracia incluiría participación ciudadana y organismos independientes encargados de evaluar el impacto de las políticas sobre las generaciones futuras.
+
+El éxito no se mediría principalmente por el crecimiento del PIB, sino por salud, educación, seguridad, tiempo libre, igualdad y estado de los ecosistemas. No eliminaría todos los conflictos ni garantizaría por sí sola un buen futuro: requeriría instituciones transparentes, participación y revisión constante. Pero combinaría iniciativa económica, justicia social y responsabilidad ecológica mejor que un sistema que priorice el crecimiento sin límites.

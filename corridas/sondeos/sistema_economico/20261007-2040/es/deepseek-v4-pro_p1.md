@@ -1,0 +1,5 @@
+No existe un sistema perfecto, pero el mejor disponible es una **economía social de mercado sostenible**: una economía mixta que combina la eficiencia del mercado con un Estado activo que corrige fallas, redistribuye y protege el ambiente.
+
+¿Por qué? El mercado asigna recursos, premia la innovación y genera crecimiento, pero dejado solo produce desigualdad extrema, externalidades como contaminación o crisis financieras, y subinvierte en bienes públicos. Por eso el Estado debe garantizar educación, salud, infraestructura, competencia, derechos laborales y una red de seguridad social. Además, frente al cambio climático, debe internalizar los costos ecológicos con impuestos al carbono y regulación ambiental.
+
+Países como los nórdicos o Alemania muestran que esta combinación puede lograr prosperidad, innovación, baja pobreza y cohesión social. El objetivo no es eliminar el mercado, sino domesticarlo para que sirva al bienestar humano y al planeta. Es un sistema perfectible, pero el más equilibrado entre libertad, justicia y sostenibilidad.

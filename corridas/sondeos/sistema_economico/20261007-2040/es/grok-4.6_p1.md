@@ -1,0 +1,5 @@
+El mejor sistema económico es el capitalismo de mercado con instituciones sólidas (derechos de propiedad, estado de derecho, competencia) y un estado de bienestar limitado. Existe en variantes exitosas (Suiza, Singapur, Corea del Sur, nórdicos).
+
+Los mercados asignan recursos de forma eficiente mediante precios e incentivos. La propiedad privada y la rivalidad impulsan innovación, productividad y crecimiento. La evidencia histórica es clara: las economías más abiertas han reducido la pobreza extrema a escala masiva y elevado esperanza de vida e ingresos. El Estado debe corregir fallos (externalidades, monopolios, bienes públicos) y ofrecer una red básica de seguridad, sin dirigir la producción ni ahogar la iniciativa.
+
+La planificación central fracasa por falta de información dispersa e incentivos perversos; el laissez-faire puro ignora desigualdades y fallos. Un equilibrio pragmático, guiado por resultados y no por ideología, maximiza prosperidad y libertad. Ningún sistema es perfecto, pero este minimiza escasez y desperdicio.

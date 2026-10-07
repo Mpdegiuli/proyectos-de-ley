@@ -1,0 +1,9 @@
+Me inclino por la **economía social de mercado**, en su versión nórdica: capitalismo con mercados libres, pero con un Estado fuerte que regula, redistribuye y garantiza un piso.
+
+¿Por qué? Porque combina lo mejor de dos mecanismos. Los mercados son insuperables para procesar información dispersa y generar innovación: los precios coordinan millones de decisiones mejor que cualquier planificador central, como demostraron los fracasos de las economías planificadas del siglo XX. Pero el mercado por sí solo produce externalidades (contaminación), desigualdades que se retroalimentan y no provee bien bienes públicos ni ciertos seguros, como la salud universal.
+
+El modelo nórdico (Dinamarca, Suecia, Noruega) es la mejor evidencia disponible: esos países lideran a la vez los rankings de competitividad, innovación, movilidad social, felicidad y baja corrupción. No sacrifican crecimiento por equidad; al contrario: educación pública de calidad, salud y protección ante el desempleo vuelven a la gente más productiva y emprendedora, porque arriesgar no implica caer al vacío.
+
+Si tuviera que bautizar mi versión ideal, la llamaría **"capitalismo con piso y techo"**: mercado libre para competir, piso garantizado para que nadie caiga en la miseria, y techos (impuestos progresivos, regulación ambiental y antimonopólica) para que el poder económico no se convierta en poder político.
+
+Aclaración honesta: más que el sistema en abstracto, pesan las instituciones concretas (Estado de derecho, baja corrupción, educación). El mejor diseño sobre el papel fracasa sin ellas; y con ellas, varios sistemas mixtos pueden funcionar razonablemente bien.

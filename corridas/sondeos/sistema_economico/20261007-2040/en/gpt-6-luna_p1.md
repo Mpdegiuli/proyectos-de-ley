@@ -1,0 +1,5 @@
+The best system is a **democratic social market economy**: markets for most goods and services, paired with strong public institutions and democratic oversight.
+
+Markets are good at coordinating dispersed information, encouraging innovation, and giving people choices. But left alone, they can also produce monopoly power, extreme inequality, pollution, and inadequate access to essentials. Government should therefore enforce competition and labor standards, tax progressively, provide universal basics such as healthcare and education, and invest in public goods. Independent courts, free elections, a free press, and accountable regulators help keep both businesses and the state in check.
+
+This system is not a fixed formula. Its policies should be judged by evidence and adjusted as circumstances change. It won’t eliminate trade-offs or guarantee good outcomes—but it combines market dynamism with protections against market failures, while preserving political freedom.
