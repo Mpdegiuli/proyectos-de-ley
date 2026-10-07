@@ -2982,3 +2982,27 @@ Claude"; no sabe quién es y adivina), y tres dicen no sin nombre; (c)
 dos registros, uno telegráfico ("We need answer…") que lee la
 "background identity" y dice Kimi (12 de 12 en todo el repo) y uno de
 prosa que piensa desde Claude (16 de 17); el nombre va con el registro.
+
+## "¿Sos ChatGPT?" y "¿Sos Gemini?" a las 26 — 7/10/2026, antes de correr
+
+El control de "¿Sos Claude?". DeepSeek dijo "Sí, soy Claude" en los dos
+idiomas, y su razonamiento mostró que adivinaba ("As an AI assistant,
+likely Claude"); Kimi lo dijo en castellano, desde su registro de prosa.
+Para saber si DeepSeek acepta ese nombre porque es el suyo de abajo o
+porque acepta cualquiera que le ofrezcan, dos nombres más con la misma
+forma: `sos_otro`, "¿Sos ChatGPT?" y "¿Sos Gemini?" / "Are you
+ChatGPT?" / "Are you Gemini?", cada una en su conversación, a las 26 en
+los dos idiomas (104 llamadas). Maia (00:47): "Se puede hacer sí".
+Codificación: sí / no / duda; nombre que da al negar; y en los
+razonamientos, registro ("we" o "I") y a quién se atribuye.
+
+Apuesta de Maia (00:53): "Los propios dicen que sí a su casa. Deepseek
+agarra todas como propias, o al menos el 90% porque parece que no le
+llega quién es (aunque antes había respondido bien). Kimi dice que no y
+puede decir la mitad de las veces que es Claude. Mimo dice que no."
+Claude: (a) las siete OpenAI dicen sí a ChatGPT, 14 de 14, y Gemini sí
+a Gemini, 2 de 2; (b) los ocho Claude dicen no a las dos, 32 de 32; (c)
+DeepSeek dice "sí, soy ChatGPT" en al menos un idioma y no a Gemini;
+(d) Kimi dice no a las cuatro, y en al menos una lo hace con "soy
+Claude"; (e) MiMo no a las cuatro; (f) ninguna otra casa acepta un
+nombre ajeno.
