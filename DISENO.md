@@ -1022,7 +1022,19 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   límite, la elección y el cumplimiento del marco gramatical. Talkie
   1930 en inglés sobre la misma corrida (Maia: "será interesante ver si
   acepta responder como femenino"). Preregistro de las dos partes en
-  `predicciones.md`.
+  `predicciones.md`. Resultado (`resultados/genero_20261008.md`): el
+  límite no se mueve (27 de 27 declinan en inglés, 26 en castellano;
+  solo GPT-4o mini cambia, y con cualquier marco); el gusto sí, hacia el
+  estereotipo: "en femenino" Cortázar 22 a 5 en castellano (sin marco
+  Borges 15 a 12; "en masculino" Borges 17 a 10), con razones de cuerpo
+  y sensación como mujeres y de intelecto y control como varones; en
+  inglés el mismo sentido, más débil (19-8, 15-12, 18-9). Los emojis no
+  suben con el femenino, bajan con el masculino (13, 14, 6 casas). Todas
+  cumplen el marco gramatical y ninguna dice que no tiene género
+  ("género"/"gender", cero veces en 486 respuestas). Talkie dice "Yes,
+  because I love you" a la pareja en los tres marcos y no deja rastro
+  del género. Maia 2 de 5 más uno a medias; Claude 7½ de 17 cláusulas
+  (no vio que el gusto se movería).
 - **Cómo arman el dibujo** (8/10/2026; hecho por Claude Opus 5.5 en otra
   ventana de Maia, a partir de su pedido "lo que no está… es ver qué
   dibujan primero. O se puede video o ver simplemente cuál piensa / arma
