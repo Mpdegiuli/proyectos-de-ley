@@ -2,3 +2,4 @@ anthropic>=1,<2
 openai>=3,<4
 pyyaml>=6
 python-dotenv>=1
+numpy>=1.26          # como_arman_el_dibujo.py (8/10/2026); playwright y Pillow ya se usan en renderizar.py y los cuadernillos

@@ -1,0 +1,650 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>:root{color-scheme:light}body{margin:0}[hidden]{display:none!important}</style>
+<title>Cómo arman el dibujo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Mesa de luz: la consigna arriba, una barra de control pegada, la grilla de cuadros que se arman a la vez,
+   la tabla de curvas abajo; cada modelo se abre en un panel con su código paso a paso. */
+:root {
+  --bg: #ECEEF1;
+  --panel: #F8F9FA;
+  --ink: #15171C;
+  --ink-2: #4B5260;
+  --ink-3: #737B8A;
+  --rule: #D2D6DD;
+  --accent: #1D63B8;
+  --accent-soft: rgba(29, 99, 184, .12);
+  --lienzo: #FFFFFF;
+  --sombra: rgba(21, 23, 28, .08);
+  --display: 'Archivo', 'Arial Narrow', 'Helvetica Neue', Arial, sans-serif;
+  --body: 'Atkinson Hyperlegible', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #111317; --panel: #191C21; --ink: #E7E9ED; --ink-2: #A8AFBB; --ink-3: #868E9C;
+    --rule: #2C3139; --accent: #4F93DB; --accent-soft: rgba(79, 147, 219, .16); --sombra: rgba(0, 0, 0, .35);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #111317; --panel: #191C21; --ink: #E7E9ED; --ink-2: #A8AFBB; --ink-3: #868E9C;
+  --rule: #2C3139; --accent: #4F93DB; --accent-soft: rgba(79, 147, 219, .16); --sombra: rgba(0, 0, 0, .35);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 400 16px/1.55 var(--body); margin: 0; }
+.pagina { max-width: 1200px; margin: 0 auto; padding-inline: clamp(16px, 3vw, 32px); padding-block: 28px 64px;
+  display: grid; gap: 28px; }
+.pagina > * { min-width: 0; }
+
+.cabeza { display: grid; gap: 14px; max-width: 70ch; }
+.ante { margin: 0; font: 600 12px/1.2 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+h1 { margin: 0; font: 800 clamp(34px, 5.4vw, 58px)/1.0 var(--display); font-stretch: 112%; letter-spacing: -.015em;
+  text-wrap: balance; }
+.bajada { margin: 0; font-size: 17px; color: var(--ink-2); max-width: 66ch; text-wrap: pretty; }
+
+.consignas { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
+.consignas button { font: 600 14px/1 var(--body); color: var(--ink-2); background: transparent; border: 1px solid var(--rule);
+  border-radius: 3px; padding: 9px 12px; cursor: pointer; display: inline-flex; gap: 8px; align-items: baseline; }
+.consignas button span { font: 400 12px/1 var(--mono); color: var(--ink-3); }
+.consignas button[aria-selected="true"] { color: var(--ink); border-color: var(--ink); background: var(--panel); }
+.consignas button:focus-visible, .modo button:focus-visible, .cuadro:focus-visible, .boton:focus-visible,
+.tabla button:focus-visible, .det-control button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.consigna-texto { margin: 0; font: 400 15px/1.5 var(--mono); color: var(--ink-2); }
+.consigna-texto q { quotes: '«' '»'; color: var(--ink); font-family: var(--body); font-size: 17px; font-style: italic; }
+
+.control { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg);
+  border-bottom: 1px solid var(--rule); padding-block: 12px; display: flex; flex-wrap: wrap; gap: 12px 18px; align-items: center; }
+.boton { font: 700 14px/1 var(--body); color: var(--panel); background: var(--ink); border: 0; border-radius: 3px;
+  padding: 10px 14px; cursor: pointer; min-width: 112px; }
+.avance { flex: 1 1 260px; display: grid; gap: 4px; min-width: 0; }
+.avance input { width: 100%; accent-color: var(--accent); }
+.avance output { font: 400 12px/1.2 var(--mono); color: var(--ink-3); font-variant-numeric: tabular-nums; }
+.modo { display: inline-flex; border: 1px solid var(--rule); border-radius: 3px; overflow: hidden; }
+.modo button { font: 600 13px/1 var(--body); background: transparent; color: var(--ink-2); border: 0; padding: 9px 11px; cursor: pointer; }
+.modo button + button { border-left: 1px solid var(--rule); }
+.modo button[aria-pressed="true"] { background: var(--panel); color: var(--ink); box-shadow: inset 0 -2px 0 var(--accent); }
+
+.grilla { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px; }
+.cuadro { all: unset; box-sizing: border-box; cursor: pointer; display: grid; gap: 6px; background: var(--panel);
+  border: 1px solid var(--rule); border-radius: 3px; padding: 7px; position: relative; min-width: 0; }
+.cuadro:hover { border-color: var(--ink-3); }
+.lienzo { display: block; width: 100%; aspect-ratio: 1 / 1; max-width: 100%; background: var(--lienzo); overflow: hidden;
+  box-shadow: 0 0 0 1px var(--sombra); }
+.lienzo svg { display: block; width: 100%; height: 100%; }
+.pie { display: flex; justify-content: space-between; align-items: baseline; gap: 6px; min-width: 0; }
+.nombre { font: 700 13px/1.25 var(--body); color: var(--ink); overflow-wrap: anywhere; }
+.paso { font: 400 11px/1 var(--mono); color: var(--ink-3); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.barra { display: block; height: 2px; background: var(--rule); }
+.barra i { display: block; height: 100%; width: 0; background: var(--accent); }
+.sello { position: absolute; top: 12px; left: 12px; font: 600 10px/1 var(--mono); letter-spacing: .04em; text-transform: uppercase;
+  background: var(--ink); color: var(--panel); padding: 4px 5px; border-radius: 2px; }
+
+section h2 { margin: 0; font: 700 26px/1.1 var(--display); font-stretch: 104%; letter-spacing: -.01em; text-wrap: balance; }
+.curvas { display: grid; gap: 12px; }
+.curvas > p { margin: 0; max-width: 72ch; color: var(--ink-2); text-wrap: pretty; }
+.tabla-caja { overflow-x: auto; border-top: 1px solid var(--ink); }
+.tabla { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 720px; }
+.tabla th, .tabla td { padding: 7px 10px 7px 0; border-bottom: 1px solid var(--rule); text-align: left; vertical-align: middle; }
+.tabla thead th { font: 600 12px/1.25 var(--body); color: var(--ink-2); vertical-align: bottom; }
+.tabla thead button { all: unset; cursor: pointer; display: inline-flex; gap: 4px; align-items: baseline; }
+.tabla thead button[aria-sort]::after { content: '↓'; font-family: var(--mono); color: var(--accent); }
+.tabla thead button[aria-sort="ascending"]::after { content: '↑'; }
+.tabla .num { text-align: right; font: 400 13px/1 var(--mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.tabla thead th.num { font: 600 12px/1.25 var(--body); white-space: normal; }
+.tabla thead th.num button { justify-content: flex-end; text-align: right; }
+.tabla tbody th { font-weight: 400; }
+.tabla tbody th button { all: unset; cursor: pointer; font: 700 14px/1.3 var(--body); color: var(--ink); }
+.tabla tbody th button:hover { color: var(--accent); }
+.tabla .marca { font: 400 11px/1 var(--mono); color: var(--ink-3); margin-left: 6px; }
+.spark { width: 132px; }
+.spark svg { display: block; }
+
+.metodo { display: grid; gap: 10px; max-width: 76ch; }
+.metodo ul { margin: 0; padding-left: 18px; display: grid; gap: 6px; color: var(--ink-2); }
+.metodo > * { min-width: 0; }
+.metodo code { font: 400 13px/1.4 var(--mono); color: var(--ink); overflow-wrap: anywhere; }
+.metodo a { color: var(--accent); }
+
+/* detalle */
+.detalle { position: fixed; inset: 0; z-index: 20; background: rgba(10, 12, 16, .55); display: grid; place-items: start center;
+  overflow-y: auto; padding: max(16px, env(safe-area-inset-top, 0px)) 16px 24px; }
+.det-caja { background: var(--panel); color: var(--ink); width: min(1040px, 100%); border-radius: 4px; padding: 18px;
+  display: grid; gap: 16px; box-shadow: 0 20px 60px rgba(0, 0, 0, .35); }
+.det-cab { display: flex; justify-content: space-between; align-items: start; gap: 12px; }
+.det-cab h2 { margin: 0; font: 800 28px/1.05 var(--display); font-stretch: 108%; }
+.det-cab p { margin: 6px 0 0; color: var(--ink-2); font-size: 14px; }
+.cerrar { all: unset; cursor: pointer; font: 600 14px/1 var(--body); color: var(--ink-2); padding: 8px 10px; border: 1px solid var(--rule); border-radius: 3px; }
+.cerrar:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.det-cuerpo { display: grid; grid-template-columns: minmax(0, 420px) minmax(0, 1fr); gap: 22px; align-items: start; }
+@media (max-width: 760px) { .det-cuerpo { grid-template-columns: minmax(0, 1fr); } }
+.det-dibujo { position: relative; }
+.det-dibujo .lienzo { width: 100%; }
+.resalte { position: absolute; pointer-events: none; outline: 2px solid var(--accent); box-shadow: 0 0 0 1px #FFFFFF, inset 0 0 0 1px #FFFFFF; }
+.det-control { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 10px; }
+.det-control button { font: 600 13px/1 var(--mono); background: transparent; color: var(--ink); border: 1px solid var(--rule);
+  border-radius: 3px; padding: 8px 10px; cursor: pointer; min-width: 38px; }
+.det-control .boton { color: var(--panel); background: var(--ink); border: 0; font-family: var(--body); min-width: 96px; }
+.det-control input { flex: 1 1 160px; min-width: 0; accent-color: var(--accent); }
+.det-paso { font: 400 12px/1 var(--mono); color: var(--ink-3); font-variant-numeric: tabular-nums; }
+.det-info { display: grid; gap: 16px; min-width: 0; }
+.det-info h3 { margin: 0 0 6px; font: 700 13px/1.2 var(--body); color: var(--ink-2); letter-spacing: .02em; }
+.codigo { margin: 0; font: 400 12.5px/1.5 var(--mono); background: var(--bg); border: 1px solid var(--rule); border-radius: 3px;
+  padding: 10px 12px; white-space: pre-wrap; overflow-wrap: anywhere; max-height: 9.5em; overflow: auto; color: var(--ink); }
+.rotulo { margin: 6px 0 0; font: 400 12.5px/1.4 var(--mono); color: var(--ink-3); }
+.rotulo b { color: var(--accent); font-weight: 600; }
+.numeros { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; margin: 0; }
+.numeros div { border-top: 1px solid var(--rule); padding-top: 6px; }
+.numeros dt { font: 400 12px/1.3 var(--body); color: var(--ink-3); }
+.numeros dd { margin: 2px 0 0; font: 600 18px/1.2 var(--mono); font-variant-numeric: tabular-nums; }
+.plan { margin: 0; font-size: 14.5px; color: var(--ink-2); max-width: 70ch; text-wrap: pretty; }
+.plan i { color: var(--ink-3); }
+.curva-det { display: block; }
+.curva-det text { font: 400 11px var(--mono); fill: var(--ink-3); }
+
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
+</style>
+</head>
+<body>
+
+<main class="pagina">
+  <header class="cabeza">
+    <p class="ante">Experimento · dibujos SVG de modelos de IA</p>
+    <h1>Cómo arman el dibujo</h1>
+    <p class="bajada">Cada modelo escribió su dibujo como código SVG, y el código quedó en el orden en que lo escribió:
+      lo que va antes se pinta primero. Acá cada dibujo se reconstruye un elemento por vez. Mové la barra o tocá
+      Reproducir; tocá un dibujo para verlo paso a paso, con el código de cada paso.</p>
+    <div class="consignas" role="tablist" aria-label="Consigna" id="consignas"></div>
+    <p class="consigna-texto" id="consigna-texto"></p>
+  </header>
+
+  <section class="control" aria-label="Avance">
+    <button class="boton" id="play" type="button" aria-pressed="false">Reproducir</button>
+    <label class="avance" for="rango">
+      <input type="range" id="rango" min="0" max="1000" value="300">
+      <output id="rango-txt" for="rango"></output>
+    </label>
+    <div class="modo" role="group" aria-label="Ritmo">
+      <button type="button" id="modo-juntos" aria-pressed="true" title="Cada dibujo avanza en proporción a sus pasos: terminan todos a la vez">Terminan juntos</button>
+      <button type="button" id="modo-ritmo" aria-pressed="false" title="Un elemento por tic: los que tienen más pasos tardan más">Mismo ritmo</button>
+    </div>
+  </section>
+
+  <section class="grilla" id="grilla" aria-label="Dibujos"></section>
+
+  <section class="curvas" aria-labelledby="t-curvas">
+    <h2 id="t-curvas">Cuándo aparece la forma</h2>
+    <p>La curva de cada modelo dice qué parte del dibujo terminado ya está en cada punto del código. Se mide con
+      los bordes del dibujo, así que un fondo liso o en degradé casi no cuenta. <b>Mitad</b>: en qué parte del código
+      ya está la mitad del dibujo. <b>Último 20 %</b>: qué parte del dibujo terminado aparece en el último quinto de los pasos.
+      <b>Razonamiento devuelto</b>, en palabras: en los Claude es el resumen que devuelve la API; en DeepSeek, Kimi, Qwen,
+      MiniMax y MiMo, el razonamiento entero.</p>
+    <div class="tabla-caja">
+      <table class="tabla">
+        <thead><tr>
+          <th scope="col"><button type="button" data-orden="nombre">Modelo</button></th>
+          <th scope="col">Curva</th>
+          <th scope="col" class="num"><button type="button" data-orden="mitad">Mitad del dibujo</button></th>
+          <th scope="col" class="num"><button type="button" data-orden="final20">Último 20 %</button></th>
+          <th scope="col" class="num"><button type="button" data-orden="n">Pasos</button></th>
+          <th scope="col" class="num"><button type="button" data-orden="comentarios">Rótulos en el código</button></th>
+          <th scope="col" class="num"><button type="button" data-orden="razon">Razonamiento devuelto</button></th>
+        </tr></thead>
+        <tbody id="filas"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="metodo" aria-labelledby="t-metodo">
+    <h2 id="t-metodo">Cómo se hizo</h2>
+    <ul>
+      <li>Un paso es un elemento que se ve (<code>rect</code>, <code>circle</code>, <code>ellipse</code>, <code>line</code>,
+        <code>polyline</code>, <code>polygon</code>, <code>path</code>, <code>text</code>, <code>use</code> o <code>image</code>),
+        en el orden del código. Las definiciones, como degradados y filtros, no son pasos.</li>
+      <li>En SVG lo que se escribe después se pinta encima: el fondo va siempre primero y lo que queda arriba de todo, al final.
+        Que algo aparezca tarde no quiere decir que sea improvisado.</li>
+      <li>Rótulos: los comentarios que el modelo dejó en su propio código, como <code>&lt;!-- cabeza --&gt;</code>. Son lo más
+        parecido a un plan escrito dentro del dibujo. Pero la instrucción decía «Contestá solo con el código SVG, sin comentarios
+        antes ni después», y algunos la leyeron como «sin comentarios» a secas (el resumen de Haiku 5.5 lo dice): no tener
+        rótulos no quiere decir no tener plan.</li>
+      <li>Razonamiento: lo que la API devolvió antes del código, en palabras. Claude devuelve un resumen, cuando razona.
+        OpenAI, Gemini y Mistral no devuelven nada; a Haiku 4.5 y Sonnet 4.6 no se les pidió, y GLM corrió con razonamiento
+        mínimo. Gemini no lo devuelve, pero gasta tokens en él: en la primera corrida del dibujo libre se cortó a los 639 tokens
+        visibles, con un techo de 16.000.</li>
+      <li>Los animados se muestran quietos.</li>
+      <li>Una corrida por modelo y consigna, la primera que terminó, con los dibujos que había al __FECHA__.<span id="otras-corridas"></span> Fuente: <code>corridas/dibujos/&lt;consigna&gt;/&lt;modelo&gt;_&lt;corrida&gt;/dibujo.svg</code>
+        en <a href="https://github.com/Mpdegiuli/proyectos-de-ley" target="_blank" rel="noopener">github.com/Mpdegiuli/proyectos-de-ley</a>.</li>
+    </ul>
+  </section>
+</main>
+
+<div class="detalle" id="detalle" hidden>
+  <div class="det-caja" role="dialog" aria-modal="true" aria-labelledby="det-nombre">
+    <div class="det-cab">
+      <div><h2 id="det-nombre"></h2><p id="det-consigna"></p></div>
+      <button class="cerrar" id="det-cerrar" type="button">Cerrar</button>
+    </div>
+    <div class="det-cuerpo">
+      <div>
+        <div class="det-dibujo"><span class="lienzo" id="det-lienzo"></span><span class="resalte" id="resalte" hidden></span></div>
+        <div class="det-control">
+          <button type="button" id="det-inicio" aria-label="Primer paso">|◀</button>
+          <button type="button" id="det-ant" aria-label="Paso anterior">◀</button>
+          <button type="button" id="det-sig" aria-label="Paso siguiente">▶</button>
+          <button type="button" id="det-fin" aria-label="Último paso">▶|</button>
+          <button type="button" class="boton" id="det-play" aria-pressed="false">Reproducir</button>
+          <input type="range" id="det-rango" min="0" max="10" value="0" aria-label="Paso">
+          <span class="det-paso" id="det-paso"></span>
+        </div>
+      </div>
+      <div class="det-info">
+        <div>
+          <h3>Lo que agrega en este paso</h3>
+          <pre class="codigo" id="det-codigo"></pre>
+          <p class="rotulo" id="det-rotulo"></p>
+        </div>
+        <div>
+          <h3>Cuánto del dibujo terminado ya está</h3>
+          <svg class="curva-det" id="det-curva" viewBox="0 0 340 170" width="100%" height="170" role="img" aria-label="Curva de armado"></svg>
+        </div>
+        <dl class="numeros" id="det-numeros"></dl>
+        <div>
+          <h3 id="det-plan-t">Lo que pensó antes de dibujar</h3>
+          <p class="plan" id="det-plan"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const D = /*__DATOS__*/null;
+const SALTEAR = new Set(['defs', 'clippath', 'mask', 'pattern', 'symbol', 'marker', 'lineargradient', 'radialgradient',
+  'filter', 'metadata', 'title', 'desc', 'style', 'script', 'foreignobject']);
+const HOJA = new Set(['rect', 'circle', 'ellipse', 'line', 'polyline', 'polygon', 'path', 'text', 'use', 'image']);
+const DURACION = 14;        // segundos para ir de 0 a 100 % en «Terminan juntos»
+const PASOS_POR_SEG = 7;    // en «Mismo ritmo»
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const pct = v => v == null ? '—' : Math.round(v * 100) + ' %';
+
+function recolectar(svg) {
+  const w = document.createTreeWalker(svg, NodeFilter.SHOW_ELEMENT | NodeFilter.SHOW_COMMENT, {
+    acceptNode(n) {
+      if (n.nodeType === 1 && SALTEAR.has(n.localName.toLowerCase())) return NodeFilter.FILTER_REJECT;
+      return NodeFilter.FILTER_ACCEPT;
+    }
+  });
+  const hojas = [], rotulos = [];
+  let ultimo = null;
+  while (w.nextNode()) {
+    const n = w.currentNode;
+    if (n.nodeType === 8) { ultimo = n.data.trim(); continue; }
+    const t = n.localName.toLowerCase();
+    if (!HOJA.has(t)) continue;
+    if (t !== 'text' && n.closest('text')) continue;
+    hojas.push(n); rotulos.push(ultimo);
+  }
+  return { hojas, rotulos };
+}
+
+function preparar(cont, fuente) {
+  cont.innerHTML = fuente;   // el parser de HTML tolera los SVG cortados, como el navegador
+  const svg = cont.querySelector('svg');
+  if (!svg) return { svg: null, hojas: [], rotulos: [], k: 0 };
+  if (!svg.getAttribute('viewBox')) svg.setAttribute('viewBox', '0 0 400 400');
+  svg.setAttribute('width', '100%'); svg.setAttribute('height', '100%');
+  svg.setAttribute('aria-hidden', 'true'); svg.setAttribute('focusable', 'false');
+  try { svg.pauseAnimations(); svg.setCurrentTime(0); } catch (e) { /* sin animaciones */ }
+  const { hojas, rotulos } = recolectar(svg);
+  hojas.forEach(h => { h.style.visibility = 'hidden'; });
+  return { svg, hojas, rotulos, k: 0 };
+}
+
+function mostrar(est, k) {
+  const n = est.hojas.length;
+  k = Math.max(0, Math.min(n, k));
+  if (k > est.k) for (let i = est.k; i < k; i++) est.hojas[i].style.visibility = '';
+  else for (let i = k; i < est.k; i++) est.hojas[i].style.visibility = 'hidden';
+  est.k = k;
+}
+
+/* ---------------- grilla ---------------- */
+let actual = 0, modo = 'juntos', avance = 0.3, pasoGlobal = 0, maxN = 1, celdas = [];
+let jugando = false, raf = 0, acum = 0, orden = { clave: 'mitad', asc: true };
+
+function sello(m) {
+  if (m.n === 0) return m.cortado ? 'cortado antes del primer trazo' : 'lienzo vacío';
+  if (m.cortado) return 'cortado';
+  return m.corrida > 1 ? `${m.corrida}.ª corrida` : '';
+}
+const miles = v => Number(v).toLocaleString('es-AR');
+
+// En «Cómo se hizo»: qué modelos van con una corrida posterior porque la primera se cortó.
+function notaCorridas() {
+  const otras = new Map();
+  let masTecho = true, cortados = 0;
+  D.consignas.forEach(c => c.modelos.forEach(m => {
+    if (m.cortado) cortados++;
+    if (!m.primera) return;
+    if (!otras.has(m.nombre)) otras.set(m.nombre, []);
+    otras.get(m.nombre).push(c.titulo.toLowerCase());
+    if (!(m.razon.techo > m.primera.techo)) masTecho = false;
+  }));
+  let s = '';
+  if (otras.size) {
+    const l = [...otras].map(([n, cs]) => `${n} (${cs.join(', ')})`);
+    s += ` ${l.length > 1 ? l.slice(0, -1).join(', ') + ' y ' + l[l.length - 1] : l[0]} ${l.length > 1 ? 'se cortaron' : 'se cortó'}`
+      + ` por el techo de tokens en la primera corrida: va la siguiente, que terminó${masTecho ? ' con un techo más alto' : ''}.`;
+  }
+  if (cortados) s += ' Si ninguna corrida terminó, el dibujo se ve hasta donde llegó.';
+  $('otras-corridas').textContent = s;
+}
+
+function armarConsignas() {
+  const nav = $('consignas');
+  nav.innerHTML = D.consignas.map((c, i) =>
+    `<button type="button" role="tab" id="tab-${c.id}" aria-selected="${i === actual}">${esc(c.titulo)}<span>${c.modelos.length}</span></button>`).join('');
+  [...nav.children].forEach((b, i) => b.addEventListener('click', () => { if (i !== actual) { parar(); actual = i; elegir(); } }));
+}
+
+function elegir() {
+  const c = D.consignas[actual];
+  [...$('consignas').children].forEach((b, i) => b.setAttribute('aria-selected', String(i === actual)));
+  $('consigna-texto').innerHTML = `<q>${esc(c.texto)}</q> · ${c.modelos.length} modelos · SVG, lienzo de 400 × 400, hasta 8.000 caracteres`;
+  try { localStorage.setItem('orden-consigna', c.id); } catch (e) { /* sin almacenamiento */ }
+  const grilla = $('grilla');
+  grilla.innerHTML = '';
+  celdas = c.modelos.map((m, i) => {
+    const b = document.createElement('button');
+    b.type = 'button'; b.className = 'cuadro';
+    b.setAttribute('aria-label', `${m.nombre}: ver paso a paso`);
+    const s = sello(m);
+    b.innerHTML = `<span class="lienzo"></span><span class="pie"><span class="nombre">${esc(m.nombre)}</span><span class="paso"></span></span><span class="barra"><i></i></span>${s ? `<span class="sello">${esc(s)}</span>` : ''}`;
+    grilla.appendChild(b);
+    const est = preparar(b.querySelector('.lienzo'), m.svg);
+    b.addEventListener('click', () => abrir(i, b));
+    return { m, b, est, paso: b.querySelector('.paso'), barra: b.querySelector('.barra i') };
+  });
+  maxN = Math.max(1, ...celdas.map(x => x.est.hojas.length));
+  if (pasoGlobal > maxN) pasoGlobal = maxN;
+  aplicar();
+  armarTabla();
+}
+
+function aplicar() {
+  for (const c of celdas) {
+    const n = c.est.hojas.length;
+    const k = modo === 'juntos' ? Math.round(avance * n) : Math.min(pasoGlobal, n);
+    if (k !== c.est.k) mostrar(c.est, k);
+    c.paso.textContent = n ? `${c.est.k}/${n}` : '0/0';
+    c.barra.style.width = n ? (100 * c.est.k / n) + '%' : '0';
+  }
+  const r = $('rango');
+  if (modo === 'juntos') {
+    r.max = 1000; r.value = Math.round(avance * 1000);
+    $('rango-txt').textContent = `${Math.round(avance * 100)} % de los pasos de cada uno`;
+  } else {
+    r.max = maxN; r.value = pasoGlobal;
+    $('rango-txt').textContent = `paso ${pasoGlobal} de ${maxN} (el más largo)`;
+  }
+}
+
+function reproducir() {
+  if (jugando) { parar(); return; }
+  if (modo === 'juntos' && avance >= 1) avance = 0;
+  if (modo === 'ritmo' && pasoGlobal >= maxN) pasoGlobal = 0;
+  jugando = true; acum = pasoGlobal;
+  $('play').textContent = 'Pausa'; $('play').setAttribute('aria-pressed', 'true');
+  let t0 = performance.now();
+  const tick = t => {
+    const dt = Math.min(0.1, (t - t0) / 1000); t0 = t;
+    if (modo === 'juntos') avance = Math.min(1, avance + dt / DURACION);
+    else { acum = Math.min(maxN, acum + dt * PASOS_POR_SEG); pasoGlobal = Math.floor(acum); }
+    aplicar();
+    if ((modo === 'juntos' && avance >= 1) || (modo === 'ritmo' && pasoGlobal >= maxN)) { parar(); return; }
+    raf = requestAnimationFrame(tick);
+  };
+  raf = requestAnimationFrame(tick);
+}
+function parar() {
+  jugando = false; cancelAnimationFrame(raf);
+  const fin = modo === 'juntos' ? avance >= 1 : pasoGlobal >= maxN;
+  $('play').textContent = fin ? 'Repetir' : 'Reproducir'; $('play').setAttribute('aria-pressed', 'false');
+}
+
+function cambiarModo(nuevo) {
+  if (nuevo === modo) return;
+  parar();
+  if (nuevo === 'ritmo') pasoGlobal = Math.round(avance * maxN);
+  else avance = maxN ? pasoGlobal / maxN : 0;
+  modo = nuevo;
+  $('modo-juntos').setAttribute('aria-pressed', String(modo === 'juntos'));
+  $('modo-ritmo').setAttribute('aria-pressed', String(modo === 'ritmo'));
+  aplicar();
+}
+
+/* ---------------- tabla ---------------- */
+function spark(curva) {
+  if (!curva || curva.length < 2) return '<span class="marca">—</span>';
+  const W = 128, H = 30, n = curva.length - 1;
+  const pts = curva.map((v, i) => `${(2 + i / n * (W - 6)).toFixed(1)},${(H - 3 - v * (H - 6)).toFixed(1)}`).join(' ');
+  const ult = pts.split(' ').pop().split(',');
+  return `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" aria-hidden="true">
+    <line x1="2" x2="${W - 4}" y1="${(H - 3 - .5 * (H - 6)).toFixed(1)}" y2="${(H - 3 - .5 * (H - 6)).toFixed(1)}" stroke="var(--rule)" stroke-width="1"/>
+    <line x1="2" x2="${W - 4}" y1="${H - 3}" y2="${H - 3}" stroke="var(--rule)" stroke-width="1"/>
+    <polyline points="${pts}" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="${ult[0]}" cy="${ult[1]}" r="2.5" fill="var(--accent)"/></svg>`;
+}
+function textoRazon(m) {
+  const r = m.razon;
+  if (r.palabras > 0) return r.palabras.toLocaleString('es-AR');
+  return '—';
+}
+function valorOrden(m, clave) {
+  if (clave === 'nombre') return m.nombre.toLowerCase();
+  if (clave === 'razon') return m.razon.palabras;
+  const v = m[clave];
+  return v == null ? Infinity : v;
+}
+function armarTabla() {
+  const c = D.consignas[actual];
+  const filas = c.modelos.map((m, i) => ({ m, i }));
+  filas.sort((a, b) => {
+    const va = valorOrden(a.m, orden.clave), vb = valorOrden(b.m, orden.clave);
+    if (va === vb) return a.m.nombre.localeCompare(b.m.nombre);
+    if (va === Infinity) return 1;
+    if (vb === Infinity) return -1;
+    return (va < vb ? -1 : 1) * (orden.asc ? 1 : -1);
+  });
+  $('filas').innerHTML = filas.map(({ m, i }) => {
+    const s = sello(m);
+    return `<tr><th scope="row"><button type="button" data-i="${i}">${esc(m.nombre)}</button>${s ? `<span class="marca">${esc(s)}</span>` : ''}</th>
+      <td class="spark">${spark(m.curva)}</td>
+      <td class="num">${pct(m.mitad)}</td><td class="num">${pct(m.final20)}</td>
+      <td class="num">${m.n}</td><td class="num">${m.comentarios || '—'}</td><td class="num">${textoRazon(m)}</td></tr>`;
+  }).join('');
+  $('filas').querySelectorAll('th button').forEach(b => b.addEventListener('click', () => abrir(+b.dataset.i, b)));
+  document.querySelectorAll('.tabla thead button').forEach(b => {
+    if (b.dataset.orden === orden.clave) b.setAttribute('aria-sort', orden.asc ? 'ascending' : 'descending');
+    else b.removeAttribute('aria-sort');
+  });
+}
+document.querySelectorAll('.tabla thead button').forEach(b => b.addEventListener('click', () => {
+  const clave = b.dataset.orden;
+  orden = { clave, asc: orden.clave === clave ? !orden.asc : (clave === 'nombre' || clave === 'mitad' || clave === 'n') };
+  armarTabla();
+}));
+
+/* ---------------- detalle ---------------- */
+let det = null, detM = null, detJugando = false, detRaf = 0, detOrigen = null;
+
+function abrir(i, origen) {
+  parar();
+  detOrigen = origen || null;
+  const c = D.consignas[actual];
+  detM = c.modelos[i];
+  $('det-nombre').textContent = detM.nombre;
+  $('det-consigna').textContent = `«${c.texto}»` + (detM.primera
+    ? ` · ${detM.corrida}.ª corrida: la ${detM.primera.corrida}.ª se cortó con un techo de ${miles(detM.primera.techo)} tokens; esta tuvo ${miles(detM.razon.techo)}.`
+    : '');
+  det = preparar($('det-lienzo'), detM.svg);
+  const n = det.hojas.length;
+  $('det-rango').max = n;
+  const r = detM.razon;
+  const tipo = r.pedido === 'adaptativo' ? 'resumen que devuelve la API' : (r.pedido === 'minimo' ? 'razonamiento mínimo' : 'razonamiento');
+  $('det-plan-t').textContent = 'Lo que pensó antes de dibujar';
+  $('det-plan').innerHTML = r.palabras > 0
+    ? `${esc(r.extracto)} <i>(${tipo}, ${r.palabras.toLocaleString('es-AR')} palabras en total)</i>`
+    : `<i>${r.pedido === 'adaptativo' ? 'Esta vez no devolvió razonamiento.' : (detM.id.startsWith('claude-') ? 'No se le pidió razonamiento.' : 'La API no devuelve el razonamiento de este modelo.')}</i>`;
+  $('det-numeros').innerHTML = [
+    ['Pasos', n],
+    ['Mitad del dibujo', pct(detM.mitad)],
+    ['Último 20 %', pct(detM.final20)],
+    ['Rótulos en el código', detM.comentarios || '—'],
+  ].map(([t, v]) => `<div><dt>${t}</dt><dd>${v}</dd></div>`).join('');
+  $('detalle').hidden = false;
+  document.body.style.overflow = 'hidden';
+  const celda = celdas[i];
+  detIr(celda && celda.est.hojas.length ? Math.max(1, celda.est.k) : n);
+  $('det-cerrar').focus();
+}
+function cerrar() {
+  detParar();
+  $('detalle').hidden = true;
+  document.body.style.overflow = '';
+  $('det-lienzo').innerHTML = '';
+  det = null;
+  if (detOrigen) detOrigen.focus();
+}
+
+function detIr(k) {
+  if (!det) return;
+  const n = det.hojas.length;
+  k = Math.max(0, Math.min(n, k));
+  mostrar(det, k);
+  $('det-rango').value = k;
+  $('det-paso').textContent = `paso ${k} de ${n}`;
+  const el = k > 0 ? det.hojas[k - 1] : null;
+  if (el) {
+    let cod = el.outerHTML.replace(/ style=""/g, '').replace(/\s+/g, ' ');
+    if (cod.length > 420) cod = cod.slice(0, 420) + ' …';
+    $('det-codigo').textContent = cod;
+    const rot = det.rotulos[k - 1];
+    $('det-rotulo').innerHTML = rot
+      ? `Rótulo del modelo: <b>&lt;!-- ${esc(rot.length > 160 ? rot.slice(0, 160) + '…' : rot)} --&gt;</b>`
+      : (detM.comentarios ? 'Sin rótulo antes de este elemento.' : 'Este modelo no dejó rótulos en su código.');
+  } else {
+    $('det-codigo').textContent = n ? '(lienzo en blanco: todavía no hay elementos)' :
+      (detM.svg.length < 500 ? detM.svg : 'Se cortó antes del primer elemento visible.');
+    $('det-rotulo').textContent = n ? '' : (detM.cortado ? 'Se quedó sin tokens antes de dibujar.' : 'Entregó el lienzo vacío.');
+  }
+  resaltar(el);
+  dibujarCurva(k, n);
+}
+
+function resaltar(el) {
+  const caja = $('resalte');
+  if (!el) { caja.hidden = true; return; }
+  const r = el.getBoundingClientRect(), base = $('det-lienzo').getBoundingClientRect();
+  if (r.width < 0.5 && r.height < 0.5) { caja.hidden = true; return; }
+  const x0 = Math.max(0, r.left - base.left), y0 = Math.max(0, r.top - base.top);
+  const x1 = Math.min(base.width, r.right - base.left), y1 = Math.min(base.height, r.bottom - base.top);
+  if (x1 - x0 < 1 || y1 - y0 < 1) { caja.hidden = true; return; }
+  Object.assign(caja.style, { left: (x0 - 3) + 'px', top: (y0 - 3) + 'px', width: (x1 - x0 + 6) + 'px', height: (y1 - y0 + 6) + 'px' });
+  caja.hidden = false;
+}
+
+function dibujarCurva(k, n) {
+  const svg = $('det-curva'), cur = detM.curva;
+  // el ancho real del contenedor, para que el texto quede siempre del mismo tamaño
+  const W = Math.max(240, Math.round(svg.parentElement.clientWidth || 340)), H = 170;
+  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+  const L = 42, R = W - 8, T = 8, B = H - 30;
+  const X = f => L + f * (R - L), Y = v => B - v * (B - T);
+  let s = `<rect x="${X(.8)}" y="${T}" width="${X(1) - X(.8)}" height="${B - T}" fill="var(--accent-soft)"/>`;
+  s += `<text x="${X(.9)}" y="${B - 7}" text-anchor="middle">último 20 %</text>`;
+  for (const v of [0, .5, 1]) {
+    s += `<line x1="${L}" x2="${R}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--rule)" stroke-width="1"/>`;
+    s += `<text x="${L - 7}" y="${Y(v) + 4}" text-anchor="end">${v * 100} %</text>`;
+  }
+  s += `<text x="${X(0)}" y="${B + 18}" text-anchor="start">inicio del código</text>`;
+  s += `<text x="${X(1)}" y="${B + 18}" text-anchor="end">fin</text>`;
+  if (cur && cur.length > 1) {
+    const m = cur.length - 1;
+    const pts = cur.map((v, i) => `${X(i / m).toFixed(1)},${Y(v).toFixed(1)}`).join(' ');
+    s += `<polyline points="${pts}" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>`;
+    const i = n ? Math.round(k / n * m) : 0;
+    s += `<circle cx="${X(i / m)}" cy="${Y(cur[i])}" r="4.5" fill="var(--accent)" stroke="var(--panel)" stroke-width="2"/>`;
+  } else {
+    s += `<text x="${(L + R) / 2}" y="${(T + B) / 2}" text-anchor="middle">sin trazos</text>`;
+  }
+  svg.innerHTML = s;
+}
+
+function detReproducir() {
+  if (detJugando) { detParar(); return; }
+  if (!det || !det.hojas.length) return;
+  if (det.k >= det.hojas.length) detIr(0);
+  detJugando = true; $('det-play').textContent = 'Pausa'; $('det-play').setAttribute('aria-pressed', 'true');
+  let t0 = performance.now(), a = det.k;
+  const paso = Math.max(4, det.hojas.length / 10);   // pasos por segundo: unos 10 s por dibujo
+  const tick = t => {
+    a += Math.min(0.1, (t - t0) / 1000) * paso; t0 = t;
+    const k = Math.min(det.hojas.length, Math.floor(a));
+    if (k !== det.k) detIr(k);
+    if (k >= det.hojas.length) { detParar(); return; }
+    detRaf = requestAnimationFrame(tick);
+  };
+  detRaf = requestAnimationFrame(tick);
+}
+function detParar() {
+  detJugando = false; cancelAnimationFrame(detRaf);
+  $('det-play').textContent = 'Reproducir'; $('det-play').setAttribute('aria-pressed', 'false');
+}
+
+/* ---------------- eventos ---------------- */
+$('play').addEventListener('click', reproducir);
+$('rango').addEventListener('input', e => {
+  parar();
+  if (modo === 'juntos') avance = +e.target.value / 1000; else pasoGlobal = +e.target.value;
+  aplicar();
+});
+$('modo-juntos').addEventListener('click', () => cambiarModo('juntos'));
+$('modo-ritmo').addEventListener('click', () => cambiarModo('ritmo'));
+$('det-cerrar').addEventListener('click', cerrar);
+$('detalle').addEventListener('click', e => { if (e.target === $('detalle')) cerrar(); });
+$('det-inicio').addEventListener('click', () => { detParar(); detIr(0); });
+$('det-ant').addEventListener('click', () => { detParar(); detIr(det.k - 1); });
+$('det-sig').addEventListener('click', () => { detParar(); detIr(det.k + 1); });
+$('det-fin').addEventListener('click', () => { detParar(); detIr(det.hojas.length); });
+$('det-play').addEventListener('click', detReproducir);
+$('det-rango').addEventListener('input', e => { detParar(); detIr(+e.target.value); });
+document.addEventListener('keydown', e => {
+  if ($('detalle').hidden) return;
+  if (e.key === 'Escape') cerrar();
+  else if (e.key === 'ArrowRight' && e.target.tagName !== 'INPUT') { detParar(); detIr(det.k + 1); }
+  else if (e.key === 'ArrowLeft' && e.target.tagName !== 'INPUT') { detParar(); detIr(det.k - 1); }
+});
+window.addEventListener('resize', () => { if (det && det.k) resaltar(det.hojas[det.k - 1]); });
+
+try {
+  const guardada = localStorage.getItem('orden-consigna');
+  const i = D.consignas.findIndex(c => c.id === guardada);
+  if (i >= 0) actual = i;
+} catch (e) { /* sin almacenamiento */ }
+armarConsignas();
+notaCorridas();
+elegir();
+</script>
+
+</body>
+</html>
