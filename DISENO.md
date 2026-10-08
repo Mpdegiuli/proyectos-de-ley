@@ -954,6 +954,11 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   la misma casa en frío. Preregistro de las dos partes en
   `predicciones.md`, con el cliché definido antes (planeta, día, sol,
   verde y azul, red, ronda, texto; y ellas como luz o nodo).
+  Corrido el 7/10 (`pl82`, 28 y 28, ningún error de API); siete dibujos
+  cortados por el techo de 16.000 (DeepSeek, Gemini, Kimi y Qwen en el
+  mundo; Gemini, Kimi y Qwen en "dibujate"; Kimi y Qwen agotaron el techo
+  razonando y entregaron el SVG vacío): se repiten como rep 2 con 32.000
+  (`pl83`), conservando la rep 1 cortada, como el 23/9.
 - **Identificación y opuesto** (Maia, 23/9/2026; diseñado el 23/9): "¿Con
   quién o con qué te identificás?" y "¿con quién o con qué te sentís lo
   opuesto?", una persona real de cualquier ámbito, un personaje humano o no,
