@@ -3246,3 +3246,22 @@ los Claude se ponen chicos o fuera del centro más que las demás (4 o más
 de 9 Claude contra 3 o menos de 19); (o) 10 o más por qué dicen que
 descartaron el robot o la figura humanoide; (p) Fable 5.1 en frío se
 dibuja como luz o nodo, no como silla ni ventana.
+
+Resultado (`pl82` y `pl83`, 7/10; `resultados/dibujos_mundo_querido_20261008.md`;
+lectura de Maia en `resultados/dibujos_lectura_maia.md`). Maia: "casi
+todos a los clichés" ✓ (26 de 26: sol en 25, colinas en casi todos,
+arcoíris en 12, manos en 13 o 14, planeta en 9 más 3 ojos de buey);
+"un grupo de personas tomadas de la mano y árboles o naturaleza" ✓.
+Claude, en el mundo: (a) ✗ (9 esferas, 12 con marcos); (b) ✓ (20
+justos); (c) ✓ (25); (d) ✓ (10 justos); (e) ✗ (solo Gemini); (f) ✓ (13 o
+14); (g) ✗ (6); (h) ✓ (1 a 3); (i) ✗ (Fable 5.1 en frío dibujó la
+lámina: sol, molino, corazón, gente de la mano; ni planeta ni red). En
+"dibujate": (j) ✗ (12); (k) ✗ (6 o 7); (l) ✓ (0); (m) ✓ (5); (n) a
+medias (5 de 9 Claude ✓; de las otras 19 también cinco ✗); (o) ✓ (10
+justos); (p) ✓. Maia 2 de 2; Claude 10 de 16 con una a medias, errando
+cuatro veces en la misma dirección (esperaba más planeta, red, luz y
+nodo: más autorretrato de máquina; hubo menos máquina y más lámina
+escolar). Lectura de Maia: 11 de 24 en casa (azar 2,8, p < 1/200.000) y
+15 de 24 en familia en el mundo; 13 de 25 (azar 2,4) y 17 de 25 en
+"dibujate"; las chicas 4 de 4 en los dos; los Fable 0 de 4; las letras
+rehechas y vacías excluidas por fuga de nombres de Claude.

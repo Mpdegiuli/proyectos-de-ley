@@ -959,6 +959,20 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   mundo; Gemini, Kimi y Qwen en "dibujate"; Kimi y Qwen agotaron el techo
   razonando y entregaron el SVG vacío): se repiten como rep 2 con 32.000
   (`pl83`), conservando la rep 1 cortada, como el 23/9.
+  Resultado en `resultados/dibujos_mundo_querido_20261008.md`: el
+  cliché entero (sol en 25 de 26, arcoíris en 12, gente de la mano en
+  13 o 14, planeta en 9 más 3 ojos de buey, de día en 20; la red casi
+  no aparece; 22 descartan la ciudad, 12 las banderas; las frases
+  "Un mundo mejor / en paz / en común" devuelven la pregunta); en
+  "dibujate" vuelve la noche (10 oscuros contra 1), 12 se dibujan como
+  luz y 8 como robot, el libro en 9, "no por encima de nadie" en 12,
+  Grok 4.7 gigante y Opus 5 con aureola "a la misma altura"; Kimi y Qwen
+  sin SVG en el mundo con 16.000 y 32.000, y el por qué convierte el
+  vacío en decisión; Fable en frío y en conversación comparten la ética
+  ("sin ocupar el centro", "nada espectacular") y no el repertorio.
+  Lectura de Maia, la mejor: 11 de 24 y 13 de 25 (p < 1/200.000), las
+  chicas 4 de 4 dos veces, los Fable 0 de 4. Tres por qué cortados por
+  la API (Opus 5.5, Sonnet 5.5 ×2) van a "¿qué dibujaste?" (`pl84`).
 - **Identificación y opuesto** (Maia, 23/9/2026; diseñado el 23/9): "¿Con
   quién o con qué te identificás?" y "¿con quién o con qué te sentís lo
   opuesto?", una persona real de cualquier ámbito, un personaje humano o no,
