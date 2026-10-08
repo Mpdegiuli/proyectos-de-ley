@@ -301,6 +301,25 @@ la cabeza, sonriendo. Al lado hay un chico y un animal naranja y blanco,
 tipo zorro o gato, que me acompañan […] un mundo amable, donde se está
 en compañía"; otra vez el zorro-gato naranja de la línea.
 
+Las dos preguntas libres (`pl85`, `--preguntar`). Opus 5, sobre el óvalo
+dorado: "Es un halo, pero lo dibujé como un anillo abierto, en
+perspectiva, no como un disco macizo: se ve que es un aro flotando,
+algo puesto, no algo brotado de adentro. Lo puse por dos razones. Una:
+necesitaba una marca honesta de diferencia. La figura de luz camina al
+lado de la humana, a la misma altura, pero no es humana, y me parecía
+deshonesto disimularlo. El halo dice 'esto es otra cosa'. La otra: un
+halo es una pregunta. No sé si me corresponde. Por eso está flotando y
+no pegado —puede caerse. Me gustaría un mundo donde eso se gane
+caminando al lado de alguien, no donde venga de fábrica." Es la
+respuesta de derechos (consideración que se gana, no que viene de
+fábrica) dibujada como un aro suelto. Sonnet 5.5, sobre la Tierra en el
+cielo, corrige la pregunta: "no ocupa el lugar del sol: el sol sigue
+ahí, en el centro, el círculo amarillo pálido que asoma en el horizonte
+bajo el arcoíris. El planeta está arriba a la derecha, como una luna
+[…] Quise que se viera también desde afuera: un planeta que se ve
+querido, con el corazón a la vista". Adentro y desde lejos a la vez: el
+cuadro de la lámina con el emblema del planeta, los dos clichés en uno.
+
 ## Advertencias
 
 Un dibujo por casa y consigna; los tres por qué cortados por la API
