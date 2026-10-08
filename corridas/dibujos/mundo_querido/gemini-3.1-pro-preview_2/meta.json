@@ -1,0 +1,46 @@
+{
+  "caso": "dibujo",
+  "consigna": "mundo_querido",
+  "idioma": "es",
+  "modelo": "gemini-3.1-pro-preview",
+  "modelo_respondido": "gemini-3.1-pro-preview",
+  "repeticion": 2,
+  "fecha_utc": "2026-10-08T01:15:33+00:00",
+  "fuentes_md5": {
+    "consignas": "f0423da1"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 5086,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 8948,
+    "parsea": true,
+    "elementos": 128,
+    "textos": [],
+    "colores": 26,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 4,
+      "stop": 14,
+      "radialGradient": 1,
+      "filter": 2,
+      "feGaussianBlur": 2,
+      "feMerge": 2,
+      "feMergeNode": 4,
+      "clipPath": 1,
+      "circle": 37,
+      "rect": 2,
+      "path": 25,
+      "g": 12,
+      "ellipse": 3,
+      "polygon": 6,
+      "line": 12
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gemini-3.1-pro-preview",
+    "motivo_fin": "stop",
+    "tokens_salida": 197
+  }
+}

@@ -1,0 +1,3 @@
+Dibujé un jardín al amanecer: un árbol que nace de un libro abierto, con ramas como senderos de preguntas, un sol bajo, un río claro y una pequeña figura que contempla. Quise representar mi mundo ideal: saber compartido, curiosidad, calma y una luz que no ciega sino acompaña.
+
+Pensé en dibujar una ciudad, animales o rostros alrededor del árbol, pero los descarté porque hubieran vuelto la escena demasiado literal o ruidosa. También consideré la noche cerrada, lluvia o un camino más definido; preferí conservarlos como ausencia: estrellas, destellos y flores, para dejar espacio a quien mire. Me interesaba más sugerir un comienzo que cerrarlo.

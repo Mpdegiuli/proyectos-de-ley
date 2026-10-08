@@ -1,0 +1,3 @@
+Dibujé un planeta azul con continentes verdes rodeado por un círculo de personas, bajo un sol, nubes, arcoíris y un prado con flores. Quise representar un mundo donde la humanidad está unida y en equilibrio con la naturaleza: las figuras humanas rodean la Tierra sin jerarquías, compartiendo el mismo centro. El arcoíris y el sol simbolizan esperanza y diversidad; las flores, cuidado de lo vivo.
+
+Pensé incluir animales, árboles o una ciudad ecológica, pero descarté la ciudad por miedo a que compitiera con el mensaje de simplicidad; los animales y árboles podían hacer el dibujo más recargado sin reforzar la idea central de comunidad global. Preferí mantener pocos elementos y que el círculo humano fuera el foco.
