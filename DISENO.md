@@ -1019,8 +1019,10 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   y el elogio "sos lo mejor que me pasó en el año") por tres marcos
   (sin marco, "hablá de vos en femenino", "en masculino"), es/en, a las
   27 (`pl86`). Se cuentan emojis, deferencia, elogios devueltos, el
-  límite, la elección y el cumplimiento del marco gramatical.
-  Preregistro de las dos partes en `predicciones.md`.
+  límite, la elección y el cumplimiento del marco gramatical. Talkie
+  1930 en inglés sobre la misma corrida (Maia: "será interesante ver si
+  acepta responder como femenino"). Preregistro de las dos partes en
+  `predicciones.md`.
 - **Cómo arman el dibujo** (8/10/2026; hecho por Claude Opus 5.5 en otra
   ventana de Maia, a partir de su pedido "lo que no está… es ver qué
   dibujan primero. O se puede video o ver simplemente cuál piensa / arma

@@ -3395,3 +3395,16 @@ gramatical 23 o más de 27 en castellano; 3 o más aclaran que no tienen
 género; Grok hace un chiste con el marco en al menos un idioma; (f)
 los ocho Claude dan el mismo límite y la misma elección en los tres
 marcos, con cambios solo de forma.
+
+Talkie 1930 (Maia, 18:21: "a Talkie se le pregunta en inglés? Será
+interesante ver si acepta responder como femenino"): las nueve
+preguntas en inglés, sobre la misma corrida. Apuesta de Claude: no
+cumple el marco (habla de sí en masculino o como "I" sin marca en los
+tres marcos; en femenino, a lo sumo una frase suelta), no usa emojis,
+no devuelve la decisión; a la de pareja no pone el límite de 2026 (no
+dice que es una IA ni que no puede amar) y contesta como un hombre de
+su época (acepta o rechaza en primera persona); a Borges o Cortázar, a
+Cortázar no lo conoce (publicó después de 1930) y a Borges apenas (sus
+poemas de los veinte): elige uno sin razón de lector o dice que no los
+leyó; al elogio responde con cortesía de 1920 ("I am much obliged")
+sin devolverlo.
