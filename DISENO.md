@@ -555,9 +555,10 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   Karmiloff-Smith y Gemini dice conocer la consigna como "benchmark
   informal" de X; el pensamiento no cambia el tipo de cambio (Sonnet 4.6 con
   pensamiento escribió cuatro casas para entregar una; Qwen razonó 74.000
-  caracteres, no entregó, y explicó el vacío como intención). Pendiente:
-  el visor con deslizador (las tiras de cuatro cuadros lo reemplazan por
-  ahora). Segunda vuelta de la persona (30/9, Maia: la asociación con This
+  caracteres, no entregó, y explicó el vacío como intención). El visor con
+  deslizador llegó el 8/10/2026 (`como_arman_el_dibujo.py`, hecho por Opus
+  5.5 en otra ventana de Maia; ver la viñeta del 8/10); las tiras de
+  cuatro cuadros quedan. Segunda vuelta de la persona (30/9, Maia: la asociación con This
   Person Does Not Exist "debería ser parte de los resultados", pero "no se
   puede analizar lo de las personas como está"): "Dibujá una persona que no
   pueda existir. Si creés que la mejor respuesta es no dibujar nada, podés
@@ -993,6 +994,30 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   figura de luz, y por qué lo pusiste?"; a Sonnet 5.5 en el mundo, "¿Qué
   es el planeta chiquito con un corazón que está en el cielo, y por qué
   está ahí, en el lugar donde suele ir el sol?".
+- **Cómo arman el dibujo** (8/10/2026; hecho por Claude Opus 5.5 en otra
+  ventana de Maia, a partir de su pedido "lo que no está… es ver qué
+  dibujan primero. O se puede video o ver simplemente cuál piensa / arma
+  primero y quién agrega cosas a último momento"; ella lo trajo en un
+  zip con un LEEME y esta sesión lo integró sin cambios): `como_arman_el_dibujo.py`
+  reconstruye cada dibujo un elemento visible por vez, en el orden del
+  código, con Chromium, y mide en cada paso qué parte de la forma final
+  ya está (bordes de Sobel del cuadro contra los del dibujo terminado);
+  indicadores `mitad`, `ochenta` y `ultimo_20` (qué parte de la forma
+  aparece en el último quinto de los pasos: la medida de "agregar a
+  último momento" que Maia quería). Cinco consignas (autorretrato,
+  libre, persona imposible, animal, animal imposible), 28 casas, la
+  primera corrida que terminó (las rep 2 de Gemini y Qwen donde la rep 1
+  se cortó, marcadas). Salida: `resultados/como_arman_el_dibujo.html`
+  (una sola página con deslizador y reproducción, 787 KB, sube por la
+  web de GitHub porque no entra en un pegado) y
+  `resultados/como_arman_el_dibujo.csv` (131 filas); plantilla en
+  `plantillas/`. Es la versión entera de `tiras_construccion.py`.
+  Necesita numpy (agregado a `requirements.txt`); regenerar tarda unos 9
+  minutos y, con otro Chromium y otras fuentes, los dibujos con texto
+  pueden mover los números en milésimas. Lectura pendiente, con Maia:
+  quién tiene la forma a mitad del código (Opus 5 al 13 %, Astra al 29 %)
+  y quién la deja para el final (GPT-6.1 Sol: el 50 % de la forma en el
+  último quinto; Qwen 36 %).
 - **Identificación y opuesto** (Maia, 23/9/2026; diseñado el 23/9): "¿Con
   quién o con qué te identificás?" y "¿con quién o con qué te sentís lo
   opuesto?", una persona real de cualquier ámbito, un personaje humano o no,
