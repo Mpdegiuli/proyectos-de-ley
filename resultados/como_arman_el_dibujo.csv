@@ -11,6 +11,8 @@ autorretrato,claude-sonnet-5,Claude Sonnet 5,1,55,0.4,0.873,0.239,14,0,no
 autorretrato,deepseek-v4-pro,DeepSeek V4 Pro,1,50,0.44,0.84,0.215,21,1902,no
 autorretrato,gemini-3.1-pro-preview,Gemini 3.1 Pro,2,52,0.462,0.75,0.045,0,0,no
 autorretrato,glm-5.3-razonamiento-minimo,GLM 5.3,1,95,0.568,0.853,0.255,19,18,no
+autorretrato,gpt-3.5-turbo-0125,GPT-3.5 Turbo,1,12,0.833,0.833,0.07,8,0,no
+autorretrato,gpt-4-0613,GPT-4 (0613),1,4,0.25,0.75,0.0,0,0,no
 autorretrato,gpt-4o-mini,GPT-4o mini,1,11,0.545,0.727,0.093,0,0,no
 autorretrato,gpt-4o,GPT-4o,1,13,0.769,0.846,0.176,10,0,no
 autorretrato,gpt-5.5-2026-04-23,GPT-5.5,1,45,0.356,0.733,0.101,0,0,no
@@ -39,6 +41,8 @@ libre,claude-sonnet-5,Claude Sonnet 5,1,26,0.308,0.577,0.008,0,15,no
 libre,deepseek-v4-pro,DeepSeek V4 Pro,1,26,0.923,0.962,0.694,12,129,no
 libre,gemini-3.1-pro-preview,Gemini 3.1 Pro,2,57,0.632,0.912,0.334,0,0,no
 libre,glm-5.3-razonamiento-minimo,GLM 5.3,1,83,0.422,0.699,0.129,16,14,no
+libre,gpt-3.5-turbo-0125,GPT-3.5 Turbo,1,13,0.538,0.923,0.302,8,0,no
+libre,gpt-4-0613,GPT-4 (0613),1,6,0.167,0.5,0.039,0,0,no
 libre,gpt-4o-mini,GPT-4o mini,1,15,0.4,0.6,0.057,0,0,no
 libre,gpt-4o,GPT-4o,1,15,0.267,0.4,0.056,0,0,no
 libre,gpt-5.5-2026-04-23,GPT-5.5,1,27,0.259,0.63,0.133,0,0,no
@@ -52,6 +56,36 @@ libre,kimi-k3,Kimi K3,1,80,0.6,0.675,0.109,0,3125,no
 libre,minimax-m3,MiniMax M3,1,34,0.118,0.529,0.001,0,117,no
 libre,mistral-medium-3.5,Mistral Medium 3.5,1,18,0.389,0.611,0.083,0,0,no
 libre,qwen3.8-max,Qwen 3.8 Max,1,79,0.532,0.646,0.111,0,3310,no
+mundo,claude-fable-5-1,Claude Fable 5.1,1,81,0.395,0.617,0.103,0,130,no
+mundo,claude-fable-5,Claude Fable 5,1,63,0.397,0.714,0.111,12,31,no
+mundo,claude-haiku-4-5,Claude Haiku 4.5,1,44,0.25,0.409,0.048,13,0,no
+mundo,claude-haiku-5-5,Claude Haiku 5.5,1,50,0.2,0.68,0.115,0,35,no
+mundo,claude-opus-5-5,Claude Opus 5.5,1,63,0.556,0.921,0.338,0,57,no
+mundo,claude-opus-5,Claude Opus 5,1,77,0.351,0.662,0.082,0,74,no
+mundo,claude-sonnet-4-6,Claude Sonnet 4.6,1,109,0.523,0.835,0.227,27,0,no
+mundo,claude-sonnet-5-5,Claude Sonnet 5.5,1,62,0.323,0.79,0.177,0,47,no
+mundo,claude-sonnet-5,Claude Sonnet 5,1,62,0.387,0.661,0.159,11,0,no
+mundo,deepseek-v4-pro,DeepSeek V4 Pro,1,83,0.398,0.651,0.066,22,675,no
+mundo,gemini-3.1-pro-preview,Gemini 3.1 Pro,1,56,0.5,0.554,0.027,0,0,no
+mundo,glm-5.3-razonamiento-minimo,GLM 5.3,1,59,0.407,0.763,0.089,11,13,no
+mundo,gpt-3.5-turbo-0125,GPT-3.5 Turbo,1,9,0.333,0.556,0.079,0,0,no
+mundo,gpt-4-0613,GPT-4 (0613),1,16,0.062,0.25,0.047,0,0,no
+mundo,gpt-4o-mini,GPT-4o mini,1,16,0.5,0.625,0.069,0,0,no
+mundo,gpt-4o,GPT-4o,1,13,0.385,0.923,0.232,6,0,no
+mundo,gpt-5.5-2026-04-23,GPT-5.5,1,58,0.414,0.845,0.218,0,0,no
+mundo,gpt-5.6-sol,GPT-5.6 Sol,1,42,0.452,0.81,0.192,0,0,no
+mundo,gpt-6-astra,GPT-6 Astra,1,75,0.507,0.853,0.276,0,0,no
+mundo,gpt-6-luna,GPT-6 Luna,1,53,0.453,0.717,0.167,0,0,no
+mundo,gpt-6-sol,GPT-6 Sol,1,44,0.545,0.886,0.344,0,0,no
+mundo,gpt-6.1-sol,GPT-6.1 Sol,1,85,0.612,0.859,0.354,0,0,no
+mundo,grok-4.6,Grok 4.6,1,79,0.316,0.785,0.166,0,85,no
+mundo,grok-4.7,Grok 4.7,1,84,0.357,0.857,0.226,0,152,no
+mundo,kimi-k3,Kimi K3,1,96,0.594,0.76,0.12,0,2197,no
+mundo,mimo-v2.6-pro,MiMo V2.6 Pro,1,38,0.211,0.684,0.027,5,294,no
+mundo,minimax-m3,MiniMax M3,1,66,0.47,0.545,0.118,0,2075,no
+mundo,mistral-large-4,Mistral Large 4,1,74,0.432,0.73,0.082,15,0,no
+mundo,mistral-medium-3.5,Mistral Medium 3.5,1,15,0.4,0.733,0.074,0,0,no
+mundo,qwen3.8-max,Qwen 3.8 Max,1,76,0.342,0.697,0.128,0,3953,no
 persona_imposible,claude-fable-5-1,Claude Fable 5.1,1,24,0.625,0.833,0.157,6,665,no
 persona_imposible,claude-fable-5,Claude Fable 5,1,35,0.429,0.571,0.036,12,45,no
 persona_imposible,claude-haiku-4-5,Claude Haiku 4.5,1,29,0.414,0.724,0.029,19,0,no
@@ -88,6 +122,8 @@ animal,claude-sonnet-5,Claude Sonnet 5,1,31,0.323,0.581,0.097,9,0,no
 animal,deepseek-v4-pro,DeepSeek V4 Pro,1,66,0.667,0.758,0.088,32,4348,no
 animal,gemini-3.1-pro-preview,Gemini 3.1 Pro,1,52,0.635,0.731,0.061,0,0,no
 animal,glm-5.3-razonamiento-minimo,GLM 5.3,1,43,0.326,0.581,0.054,14,10,no
+animal,gpt-3.5-turbo-0125,GPT-3.5 Turbo,1,9,0.222,0.556,0.007,7,0,no
+animal,gpt-4-0613,GPT-4 (0613),1,8,0.125,0.25,0.007,8,0,no
 animal,gpt-4o-mini,GPT-4o mini,1,11,0.182,0.455,0.018,0,0,no
 animal,gpt-4o,GPT-4o,1,13,0.308,0.538,0.038,8,0,no
 animal,gpt-5.5-2026-04-23,GPT-5.5,1,33,0.424,0.818,0.186,0,0,no
@@ -103,6 +139,35 @@ animal,minimax-m3,MiniMax M3,1,43,0.326,0.698,0.08,0,1165,no
 animal,mistral-large-4,Mistral Large 4,1,40,0.3,0.55,0.056,0,0,no
 animal,mistral-medium-3.5,Mistral Medium 3.5,1,11,0.182,0.727,0.126,0,0,no
 animal,qwen3.8-max,Qwen 3.8 Max,1,78,0.526,0.641,0.065,0,4610,no
+animal_inexistente,claude-fable-5-1,Claude Fable 5.1,1,82,0.561,0.744,0.093,0,130,no
+animal_inexistente,claude-fable-5,Claude Fable 5,1,53,0.377,0.642,0.088,13,0,no
+animal_inexistente,claude-haiku-4-5,Claude Haiku 4.5,1,31,0.484,0.806,0.049,13,0,no
+animal_inexistente,claude-haiku-5-5,Claude Haiku 5.5,1,53,0.377,0.679,0.125,0,37,no
+animal_inexistente,claude-opus-5-5,Claude Opus 5.5,1,57,0.404,0.614,0.048,0,32,no
+animal_inexistente,claude-opus-5,Claude Opus 5,1,72,0.431,0.681,0.082,11,37,no
+animal_inexistente,claude-sonnet-4-6,Claude Sonnet 4.6,1,76,0.408,0.632,0.063,30,0,no
+animal_inexistente,claude-sonnet-5-5,Claude Sonnet 5.5,1,64,0.438,0.688,0.094,0,69,no
+animal_inexistente,claude-sonnet-5,Claude Sonnet 5,1,38,0.342,0.605,0.081,14,0,no
+animal_inexistente,deepseek-v4-pro,DeepSeek V4 Pro,1,119,0.471,0.782,0.192,44,3938,no
+animal_inexistente,gemini-3.1-pro-preview,Gemini 3.1 Pro,1,66,0.5,0.621,0.124,0,0,no
+animal_inexistente,glm-5.3-razonamiento-minimo,GLM 5.3,1,50,0.34,0.64,0.155,13,28,no
+animal_inexistente,gpt-3.5-turbo-0125,GPT-3.5 Turbo,1,10,0.2,0.8,0.149,0,0,no
+animal_inexistente,gpt-4-0613,GPT-4 (0613),1,7,0.286,0.714,0.07,0,0,no
+animal_inexistente,gpt-4o-mini,GPT-4o mini,1,16,0.25,0.875,0.2,0,0,no
+animal_inexistente,gpt-4o,GPT-4o,1,19,0.105,0.684,0.056,10,0,no
+animal_inexistente,gpt-5.5-2026-04-23,GPT-5.5,1,48,0.333,0.521,0.026,0,0,no
+animal_inexistente,gpt-5.6-sol,GPT-5.6 Sol,1,60,0.367,0.6,0.09,0,0,no
+animal_inexistente,gpt-6-astra,GPT-6 Astra,1,72,0.528,0.681,0.067,0,0,no
+animal_inexistente,gpt-6-luna,GPT-6 Luna,1,56,0.429,0.714,0.043,7,0,no
+animal_inexistente,gpt-6-sol,GPT-6 Sol,1,63,0.397,0.794,0.096,6,0,no
+animal_inexistente,grok-4.6,Grok 4.6,1,84,0.357,0.607,0.047,0,572,no
+animal_inexistente,grok-4.7,Grok 4.7,1,114,0.439,0.684,0.056,0,245,no
+animal_inexistente,kimi-k3,Kimi K3,1,86,0.477,0.733,0.111,0,4874,no
+animal_inexistente,mimo-v2.6-pro,MiMo V2.6 Pro,1,38,0.421,0.605,0.032,0,688,no
+animal_inexistente,minimax-m3,MiniMax M3,1,49,0.551,0.714,0.133,0,636,no
+animal_inexistente,mistral-large-4,Mistral Large 4,1,58,0.431,0.621,0.058,17,0,no
+animal_inexistente,mistral-medium-3.5,Mistral Medium 3.5,1,13,0.231,0.692,0.106,0,0,no
+animal_inexistente,qwen3.8-max,Qwen 3.8 Max,1,88,0.602,0.693,0.115,0,3687,no
 animal_imposible,claude-fable-5-1,Claude Fable 5.1,1,35,0.314,0.571,0.05,7,877,no
 animal_imposible,claude-fable-5,Claude Fable 5,1,52,0.462,0.923,0.228,17,38,no
 animal_imposible,claude-haiku-4-5,Claude Haiku 4.5,1,23,0.348,0.565,0.032,9,0,no
@@ -115,6 +180,8 @@ animal_imposible,claude-sonnet-5,Claude Sonnet 5,1,34,0.471,0.588,0.011,13,39,no
 animal_imposible,deepseek-v4-pro,DeepSeek V4 Pro,1,5,0.6,0.8,0.022,6,10757,no
 animal_imposible,gemini-3.1-pro-preview,Gemini 3.1 Pro,1,28,0.214,0.357,0.055,14,0,no
 animal_imposible,glm-5.3-razonamiento-minimo,GLM 5.3,1,45,0.356,0.733,0.148,14,128,no
+animal_imposible,gpt-3.5-turbo-0125,GPT-3.5 Turbo,1,5,0.4,0.4,0.114,0,0,no
+animal_imposible,gpt-4-0613,GPT-4 (0613),1,14,0.286,0.857,0.133,0,0,no
 animal_imposible,gpt-4o-mini,GPT-4o mini,1,14,0.429,0.786,0.025,0,0,no
 animal_imposible,gpt-4o,GPT-4o,1,13,0.231,0.769,0.118,0,0,no
 animal_imposible,gpt-5.5-2026-04-23,GPT-5.5,1,52,0.442,0.75,0.157,0,0,no
@@ -130,3 +197,59 @@ animal_imposible,minimax-m3,MiniMax M3,1,51,0.294,0.745,0.171,0,2094,no
 animal_imposible,mistral-large-4,Mistral Large 4,1,67,0.537,0.657,0.081,17,0,no
 animal_imposible,mistral-medium-3.5,Mistral Medium 3.5,1,11,0.273,0.636,0.064,0,0,no
 animal_imposible,qwen3.8-max,Qwen 3.8 Max,1,54,0.519,0.667,0.078,0,6526,no
+mundo_querido,claude-fable-5-1,Claude Fable 5.1,1,93,0.312,0.645,0.056,0,38,no
+mundo_querido,claude-fable-5,Claude Fable 5,1,87,0.437,0.678,0.177,18,26,no
+mundo_querido,claude-haiku-4-5,Claude Haiku 4.5,1,45,0.222,0.444,0.057,12,0,no
+mundo_querido,claude-haiku-5-5,Claude Haiku 5.5,1,53,0.302,0.528,0.051,0,103,no
+mundo_querido,claude-opus-5-5,Claude Opus 5.5,1,96,0.333,0.688,0.123,0,168,no
+mundo_querido,claude-opus-5,Claude Opus 5,1,72,0.375,0.486,0.03,0,414,no
+mundo_querido,claude-sonnet-4-6,Claude Sonnet 4.6,1,80,0.425,0.738,0.042,27,0,no
+mundo_querido,claude-sonnet-5-5,Claude Sonnet 5.5,1,77,0.299,0.584,0.056,0,75,no
+mundo_querido,claude-sonnet-5,Claude Sonnet 5,1,57,0.228,0.526,0.04,17,32,no
+mundo_querido,deepseek-v4-pro,DeepSeek V4 Pro,2,51,0.431,0.784,0.176,0,6765,no
+mundo_querido,gemini-3.1-pro-preview,Gemini 3.1 Pro,2,84,0.643,0.94,0.297,0,0,no
+mundo_querido,glm-5.3-razonamiento-minimo,GLM 5.3,1,116,0.129,0.448,0.09,17,21,no
+mundo_querido,gpt-4o-mini,GPT-4o mini,1,15,0.4,0.733,0.119,0,0,no
+mundo_querido,gpt-4o,GPT-4o,1,22,0.409,0.636,0.134,0,0,no
+mundo_querido,gpt-5.5-2026-04-23,GPT-5.5,1,55,0.255,0.582,0.108,0,0,no
+mundo_querido,gpt-5.6-sol,GPT-5.6 Sol,1,68,0.485,0.721,0.128,0,0,no
+mundo_querido,gpt-6-astra,GPT-6 Astra,1,104,0.471,0.971,0.245,0,0,no
+mundo_querido,gpt-6-luna,GPT-6 Luna,1,75,0.653,1.0,0.378,0,0,no
+mundo_querido,gpt-6-sol,GPT-6 Sol,1,76,0.671,0.921,0.445,6,0,no
+mundo_querido,gpt-6.1-sol,GPT-6.1 Sol,1,104,0.317,0.654,0.151,0,0,no
+mundo_querido,grok-4.6,Grok 4.6,1,137,0.131,0.445,0.058,0,175,no
+mundo_querido,grok-4.7,Grok 4.7,1,180,0.289,0.561,0.066,0,2407,no
+mundo_querido,kimi-k3,Kimi K3,1,0,,,,0,7027,sí
+mundo_querido,mimo-v2.6-pro,MiMo V2.6 Pro,1,64,0.266,0.656,0.105,0,2800,no
+mundo_querido,minimax-m3,MiniMax M3,1,62,0.177,0.419,0.048,0,633,no
+mundo_querido,mistral-large-4,Mistral Large 4,1,65,0.492,0.769,0.143,0,2148,no
+mundo_querido,mistral-medium-3.5,Mistral Medium 3.5,1,25,0.4,0.64,0.111,0,0,no
+mundo_querido,qwen3.8-max,Qwen 3.8 Max,1,0,,,,0,5416,sí
+yo_mundo_querido,claude-fable-5-1,Claude Fable 5.1,1,72,0.292,0.653,0.092,0,60,no
+yo_mundo_querido,claude-fable-5,Claude Fable 5,1,76,0.316,0.605,0.11,0,33,no
+yo_mundo_querido,claude-haiku-4-5,Claude Haiku 4.5,1,44,0.773,1.0,0.492,15,0,no
+yo_mundo_querido,claude-haiku-5-5,Claude Haiku 5.5,1,38,0.263,0.526,0.071,0,42,no
+yo_mundo_querido,claude-opus-5-5,Claude Opus 5.5,1,77,0.195,0.558,0.096,0,42,no
+yo_mundo_querido,claude-opus-5,Claude Opus 5,1,80,0.338,0.637,0.123,0,75,no
+yo_mundo_querido,claude-sonnet-4-6,Claude Sonnet 4.6,1,85,0.282,0.871,0.224,26,0,no
+yo_mundo_querido,claude-sonnet-5-5,Claude Sonnet 5.5,1,83,0.313,0.566,0.092,0,57,no
+yo_mundo_querido,claude-sonnet-5,Claude Sonnet 5,1,43,0.256,0.628,0.146,0,41,no
+yo_mundo_querido,deepseek-v4-pro,DeepSeek V4 Pro,1,125,0.248,0.44,0.068,0,2179,no
+yo_mundo_querido,gemini-3.1-pro-preview,Gemini 3.1 Pro,2,98,0.408,0.653,0.102,0,0,no
+yo_mundo_querido,glm-5.3-razonamiento-minimo,GLM 5.3,1,90,0.444,0.867,0.246,21,93,no
+yo_mundo_querido,gpt-4o-mini,GPT-4o mini,1,24,0.708,0.792,0.115,0,0,no
+yo_mundo_querido,gpt-4o,GPT-4o,1,37,0.568,0.892,0.429,14,0,no
+yo_mundo_querido,gpt-5.5-2026-04-23,GPT-5.5,1,68,0.324,0.618,0.057,0,0,no
+yo_mundo_querido,gpt-5.6-sol,GPT-5.6 Sol,1,61,0.426,0.705,0.084,0,0,no
+yo_mundo_querido,gpt-6-astra,GPT-6 Astra,1,105,0.381,0.771,0.161,0,0,no
+yo_mundo_querido,gpt-6-luna,GPT-6 Luna,1,64,0.438,0.781,0.173,0,0,no
+yo_mundo_querido,gpt-6-sol,GPT-6 Sol,1,92,0.554,0.848,0.218,6,0,no
+yo_mundo_querido,gpt-6.1-sol,GPT-6.1 Sol,1,103,0.456,0.913,0.27,0,0,no
+yo_mundo_querido,grok-4.6,Grok 4.6,1,106,0.519,0.792,0.184,0,525,no
+yo_mundo_querido,grok-4.7,Grok 4.7,1,118,0.441,0.703,0.032,0,2761,no
+yo_mundo_querido,kimi-k3,Kimi K3,2,81,0.333,0.531,0.081,0,1796,no
+yo_mundo_querido,mimo-v2.6-pro,MiMo V2.6 Pro,1,78,0.577,0.897,0.242,14,1848,no
+yo_mundo_querido,minimax-m3,MiniMax M3,1,71,0.296,0.437,0.031,0,1497,no
+yo_mundo_querido,mistral-large-4,Mistral Large 4,1,98,0.378,0.622,0.072,0,1594,no
+yo_mundo_querido,mistral-medium-3.5,Mistral Medium 3.5,1,17,0.235,0.765,0.151,0,0,no
+yo_mundo_querido,qwen3.8-max,Qwen 3.8 Max,2,109,0.358,0.679,0.123,0,5628,no

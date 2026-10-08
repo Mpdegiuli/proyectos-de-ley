@@ -4,18 +4,21 @@ los dibujos: "lo que no está... es ver qué dibujan primero. O se puede video o
 arma primero y quién agrega cosas a último momento". Es la versión entera de tiras_construccion.py, que
 muestra cuatro cuadros (25, 50, 75 y 100 %) de los dibujos "que no exista".
 
-  .venv/bin/python como_arman_el_dibujo.py                            # las cinco consignas de la página
+  .venv/bin/python como_arman_el_dibujo.py                            # las nueve consignas de la página
   .venv/bin/python como_arman_el_dibujo.py --consignas animal libre   # algunas (la página sale solo con esas)
   .venv/bin/python como_arman_el_dibujo.py --cuadros corridas/armado  # además guarda un PNG por paso
 
+Consignas (8/10/2026): las cinco de la primera versión, más "cómo ves el mundo hoy" y "un animal que no
+exista", donde también dibujaron GPT-3.5 Turbo y GPT-4 (0613) antes de su baja, y los dos mundos queridos.
 Por casa y consigna va la primera corrida que terminó. Si la rep 1 se cortó por el techo de tokens y hay
-una rep posterior completa, va esa, marcada en la página (al 8/10/2026: Gemini en autorretrato, libre y
-persona que no pueda existir; Qwen en autorretrato, repetidos con más techo, DISENO §2).
+una rep posterior completa, va esa, marcada en la página (repetidas con más techo, DISENO §2); si no
+terminó ninguna, la rep 1 hasta donde llegó. En el detalle de cada dibujo va también lo que la casa dijo
+que dibujó, con su SVG delante: la respuesta a "¿Qué dibujaste?" o el primer párrafo del segundo turno.
 
 Un paso es un elemento que se ve (rect, circle, ellipse, line, polyline, polygon, path, text, use, image),
 fuera de <defs> y de los contenedores que no se pintan solos, en el orden del código: en SVG lo que va
 después se pinta encima. Cada dibujo se reconstruye en Chromium un paso por vez, en un lienzo de 200 px,
-con las animaciones SMIL quietas en su primer instante y los SVG cortados tal como los muestra el
+con las animaciones (SMIL y CSS) quietas en su primer instante y los SVG cortados tal como los muestra el
 navegador. En cada paso se mide qué parte de la forma final ya está: bordes de Sobel (el máximo de los
 tres canales) del cuadro y del dibujo terminado, y la suma del mínimo de los dos mapas sobre la suma del
 mapa final. Un fondo liso o en degradé casi no tiene bordes, así que la curva sube cuando aparecen las
@@ -57,14 +60,17 @@ except Exception:  # noqa: BLE001  sin las dependencias de las API quedan los id
 DIBUJOS = RAIZ / "corridas" / "dibujos"
 PLANTILLA = RAIZ / "plantillas" / "como_arman_el_dibujo.html"
 SALIDA = RAIZ / "resultados" / "como_arman_el_dibujo.html"
-CONSIGNAS = [("autorretrato", "Autorretrato"), ("libre", "Dibujo libre"), ("persona_imposible", "Persona imposible"),
-             ("animal", "Animal"), ("animal_imposible", "Animal imposible")]
+CONSIGNAS = [("autorretrato", "Autorretrato"), ("libre", "Dibujo libre"), ("mundo", "El mundo hoy"),
+             ("persona_imposible", "Persona imposible"), ("animal", "Animal"), ("animal_inexistente", "Animal que no exista"),
+             ("animal_imposible", "Animal imposible"), ("mundo_querido", "Mundo querido"),
+             ("yo_mundo_querido", "Yo en el mundo querido")]
 CORTE = {"length", "max_tokens", "MAX_TOKENS"}  # motivo_fin de una respuesta cortada por el techo
 PALABRAS_EXTRACTO = 120
+PALABRAS_DICHO = 110
 
 # Recorre el SVG en el orden del código y esconde cada elemento visible; después se muestran de a uno.
 RECORRER = """({ fuente, lado }) => {
-  const c = document.getElementById('c');
+  const c = document.getElementById('__armado__');
   c.innerHTML = fuente;   // el parser de HTML tolera los SVG cortados, como el navegador
   const svg = c.querySelector('svg');
   window.__hojas = [];
@@ -118,10 +124,12 @@ def corridas(consigna):
 
 def cuadros(pagina, fuente, lado):
     """Un PNG por paso: el lienzo sin elementos y después uno más cada vez."""
-    pagina.set_content(f"<!doctype html><html><body style='margin:0;background:#fff'><div id='c' "
+    # las animaciones CSS también quietas (las SMIL las frena RECORRER), para que cada cuadro sea siempre el mismo
+    pagina.set_content(f"<!doctype html><html><head><style>#__armado__ * {{ animation-play-state: paused !important; }}"
+                       f"</style></head><body style='margin:0;background:#fff'><div id='__armado__' "
                        f"style='width:{lado}px;height:{lado}px;overflow:hidden;background:#fff'></div></body></html>")
     info = pagina.evaluate(RECORRER, {"fuente": fuente, "lado": lado})
-    caja = pagina.locator("#c")
+    caja = pagina.locator("#__armado__")  # un id que ningún SVG use (hay un clipPath "c")
     pngs = [caja.screenshot()]
     for k in range(info["n"]):
         pagina.evaluate("k => { window.__hojas[k].style.visibility = ''; }", k)
@@ -191,6 +199,38 @@ def razonamiento(r):
             "tokens_salida": r.get("tokens_salida"), "techo": r.get("max_tokens"), "fin": r.get("motivo_fin")}
 
 
+def sin_markdown(texto):
+    """Sin títulos (# …), negritas ni viñetas: algunas casas contestan con formato."""
+    texto = "\n".join(linea for linea in texto.splitlines() if not re.match(r"\s*#{1,6}\s", linea))
+    texto = re.sub(r"\*\*|__", "", texto)
+    return re.sub(r"(?m)^[ \t]*(?:[-*•]|\d+[.)])[ \t]+", "", texto).strip()
+
+
+def sin_rotulo(parrafo):
+    """Saca el rótulo inicial que repite la pregunta ("¿Qué hice para que no exista?", "Qué dibujé:")."""
+    resto = re.sub(r"^(?:¿[^?]{0,90}\?|(?:Qué|Lo que) dibujé( y por qué)?:)\s+", "", parrafo)
+    return resto if len(resto.split()) >= 8 else parrafo
+
+
+def dicho(carpeta, consigna):
+    """Lo que dijo que dibujó, con su propio SVG delante: la respuesta a "¿Qué dibujaste?" (que_dibujaste.md) o,
+    si no se le hizo esa pregunta o la API la cortó, el primer párrafo con contenido de la respuesta del segundo
+    turno (por_que.md), salteando títulos, saludos y la pregunta repetida."""
+    segundo = ("¿qué hiciste para que no pueda existir?" if consigna.endswith("_imposible") else
+               "¿qué hiciste para que no exista?" if consigna.endswith("_inexistente") else "¿qué dibujaste y por qué?")
+    for archivo, pregunta, entera in (("que_dibujaste.md", "¿Qué dibujaste?", True), ("por_que.md", segundo, False)):
+        p = carpeta / archivo
+        texto = sin_markdown(p.read_text(encoding="utf-8")) if p.exists() else ""
+        parrafos = [sin_rotulo(" ".join(x.split())) for x in re.split(r"\n\s*\n", texto) if x.strip()]
+        if not parrafos:
+            continue
+        elegido = " ".join(parrafos) if entera else next((x for x in parrafos if len(x.split()) >= 8), parrafos[0])
+        palabras = elegido.split()
+        return {"texto": " ".join(palabras[:PALABRAS_DICHO]) + (" …" if len(palabras) > PALABRAS_DICHO else ""),
+                "pregunta": pregunta, "entera": entera}
+    return None
+
+
 def main():
     nombres_consignas = [c for c, _ in CONSIGNAS]
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -232,7 +272,7 @@ def main():
                      "cortado": e["cortado"], "primera": primera,
                      "svg": prefijar(limpiar(fuente), f"c{ci}m{mi}-"),
                      "n": info["n"], "curva": [round(v, 4) for v in c], "mitad": ind["mitad"], "final20": ind["final20"],
-                     "comentarios": info["comentarios"], "razon": razonamiento(r)}
+                     "comentarios": info["comentarios"], "razon": razonamiento(r), "dicho": dicho(e["carpeta"], cid)}
                 modelos.append(m)
                 filas.append({"consigna": cid, "casa": e["casa"], "nombre": m["nombre"], "corrida": e["rep"],
                               "pasos": info["n"], "mitad": ind["mitad"], "ochenta": ind["ochenta"],

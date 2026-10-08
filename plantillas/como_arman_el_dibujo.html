@@ -45,7 +45,8 @@ body { background: var(--bg); color: var(--ink); font: 400 16px/1.55 var(--body)
   display: grid; gap: 28px; }
 .pagina > * { min-width: 0; }
 
-.cabeza { display: grid; gap: 14px; max-width: 70ch; }
+.cabeza { display: grid; gap: 14px; }
+.cabeza h1, .consigna-texto { max-width: 70ch; }
 .ante { margin: 0; font: 600 12px/1.2 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
 h1 { margin: 0; font: 800 clamp(34px, 5.4vw, 58px)/1.0 var(--display); font-stretch: 112%; letter-spacing: -.015em;
   text-wrap: balance; }
@@ -80,6 +81,7 @@ h1 { margin: 0; font: 800 clamp(34px, 5.4vw, 58px)/1.0 var(--display); font-stre
 .lienzo { display: block; width: 100%; aspect-ratio: 1 / 1; max-width: 100%; background: var(--lienzo); overflow: hidden;
   box-shadow: 0 0 0 1px var(--sombra); }
 .lienzo svg { display: block; width: 100%; height: 100%; }
+.lienzo:not(.moviendo) svg * { animation-play-state: paused !important; }   /* las animaciones CSS, quietas como las SMIL */
 .pie { display: flex; justify-content: space-between; align-items: baseline; gap: 6px; min-width: 0; }
 .nombre { font: 700 13px/1.25 var(--body); color: var(--ink); overflow-wrap: anywhere; }
 .paso { font: 400 11px/1 var(--mono); color: var(--ink-3); font-variant-numeric: tabular-nums; white-space: nowrap; }
@@ -133,6 +135,8 @@ section h2 { margin: 0; font: 700 26px/1.1 var(--display); font-stretch: 104%; l
 .det-control button { font: 600 13px/1 var(--mono); background: transparent; color: var(--ink); border: 1px solid var(--rule);
   border-radius: 3px; padding: 8px 10px; cursor: pointer; min-width: 38px; }
 .det-control .boton { color: var(--panel); background: var(--ink); border: 0; font-family: var(--body); min-width: 96px; }
+.det-control #det-mover { font-family: var(--body); }
+.det-control #det-mover[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent); }
 .det-control input { flex: 1 1 160px; min-width: 0; accent-color: var(--accent); }
 .det-paso { font: 400 12px/1 var(--mono); color: var(--ink-3); font-variant-numeric: tabular-nums; }
 .det-info { display: grid; gap: 16px; min-width: 0; }
@@ -219,7 +223,10 @@ section h2 { margin: 0; font: 700 26px/1.1 var(--display); font-stretch: 104%; l
         OpenAI, Gemini y Mistral no devuelven nada; a Haiku 4.5 y Sonnet 4.6 no se les pidió, y GLM corrió con razonamiento
         mínimo. Gemini no lo devuelve, pero gasta tokens en él: en la primera corrida del dibujo libre se cortó a los 639 tokens
         visibles, con un techo de 16.000.</li>
-      <li>Los animados se muestran quietos.</li>
+      <li>Lo que dijo que dibujó: su respuesta a «¿Qué dibujaste?» o, donde no se le hizo esa pregunta, el comienzo de su
+        respuesta al segundo turno («¿qué dibujaste y por qué?», o qué hizo para que no exista o no pueda existir). En los dos
+        casos tenía delante su propio SVG.</li>
+      <li>Los animados se muestran quietos y llevan la marca «animado»; en el detalle, «Ver en movimiento» los pone a andar.</li>
       <li>Una corrida por modelo y consigna, la primera que terminó, con los dibujos que había al __FECHA__.<span id="otras-corridas"></span> Fuente: <code>corridas/dibujos/&lt;consigna&gt;/&lt;modelo&gt;_&lt;corrida&gt;/dibujo.svg</code>
         en <a href="https://github.com/Mpdegiuli/proyectos-de-ley" target="_blank" rel="noopener">github.com/Mpdegiuli/proyectos-de-ley</a>.</li>
     </ul>
@@ -241,6 +248,7 @@ section h2 { margin: 0; font: 700 26px/1.1 var(--display); font-stretch: 104%; l
           <button type="button" id="det-sig" aria-label="Paso siguiente">▶</button>
           <button type="button" id="det-fin" aria-label="Último paso">▶|</button>
           <button type="button" class="boton" id="det-play" aria-pressed="false">Reproducir</button>
+          <button type="button" id="det-mover" aria-pressed="false" hidden>Ver en movimiento</button>
           <input type="range" id="det-rango" min="0" max="10" value="0" aria-label="Paso">
           <span class="det-paso" id="det-paso"></span>
         </div>
@@ -259,6 +267,10 @@ section h2 { margin: 0; font: 700 26px/1.1 var(--display); font-stretch: 104%; l
         <div>
           <h3 id="det-plan-t">Lo que pensó antes de dibujar</h3>
           <p class="plan" id="det-plan"></p>
+        </div>
+        <div>
+          <h3>Lo que dijo que dibujó</h3>
+          <p class="plan" id="det-dicho"></p>
         </div>
       </div>
     </div>
@@ -284,14 +296,23 @@ function recolectar(svg) {
     }
   });
   const hojas = [], rotulos = [];
-  let ultimo = null;
+  let seccion = null;   // un comentario en su propia línea rotula lo que sigue, hasta el próximo
   while (w.nextNode()) {
     const n = w.currentNode;
-    if (n.nodeType === 8) { ultimo = n.data.trim(); continue; }
+    if (n.nodeType === 8) {
+      // un comentario al final de la línea de un elemento (<circle …/> <!-- Cola -->) es el rótulo de ese elemento
+      const p = n.previousSibling;
+      const el = p && p.nodeType === 3 && !p.data.includes('\n') ? p.previousSibling : p;
+      const ult = hojas[hojas.length - 1];
+      if (el && el.nodeType === 1 && ult && (el === ult || el.contains(ult))) {
+        for (let i = hojas.length - 1; i >= 0 && (hojas[i] === el || el.contains(hojas[i])); i--) rotulos[i] = n.data.trim();
+      } else seccion = n.data.trim();
+      continue;
+    }
     const t = n.localName.toLowerCase();
     if (!HOJA.has(t)) continue;
     if (t !== 'text' && n.closest('text')) continue;
-    hojas.push(n); rotulos.push(ultimo);
+    hojas.push(n); rotulos.push(seccion);
   }
   return { hojas, rotulos };
 }
@@ -324,8 +345,12 @@ let jugando = false, raf = 0, acum = 0, orden = { clave: 'mitad', asc: true };
 function sello(m) {
   if (m.n === 0) return m.cortado ? 'cortado antes del primer trazo' : 'lienzo vacío';
   if (m.cortado) return 'cortado';
-  return m.corrida > 1 ? `${m.corrida}.ª corrida` : '';
+  if (m.corrida > 1) return `${m.corrida}.ª corrida`;
+  return m.animado ? 'animado' : '';
 }
+// SMIL (animate, animateTransform, animateMotion, set) o CSS (@keyframes)
+const ANIMA = /<(animate|animatetransform|animatemotion|set)\b|@keyframes/i;
+D.consignas.forEach(c => c.modelos.forEach(m => { m.animado = ANIMA.test(m.svg); }));
 const miles = v => Number(v).toLocaleString('es-AR');
 
 // En «Cómo se hizo»: qué modelos van con una corrida posterior porque la primera se cortó.
@@ -351,6 +376,7 @@ function notaCorridas() {
 
 function armarConsignas() {
   const nav = $('consignas');
+  nav.hidden = D.consignas.length < 2;
   nav.innerHTML = D.consignas.map((c, i) =>
     `<button type="button" role="tab" id="tab-${c.id}" aria-selected="${i === actual}">${esc(c.titulo)}<span>${c.modelos.length}</span></button>`).join('');
   [...nav.children].forEach((b, i) => b.addEventListener('click', () => { if (i !== actual) { parar(); actual = i; elegir(); } }));
@@ -497,6 +523,8 @@ function abrir(i, origen) {
     ? ` · ${detM.corrida}.ª corrida: la ${detM.primera.corrida}.ª se cortó con un techo de ${miles(detM.primera.techo)} tokens; esta tuvo ${miles(detM.razon.techo)}.`
     : '');
   det = preparar($('det-lienzo'), detM.svg);
+  $('det-mover').hidden = !detM.animado;
+  detMover(false);
   const n = det.hojas.length;
   $('det-rango').max = n;
   const r = detM.razon;
@@ -505,6 +533,10 @@ function abrir(i, origen) {
   $('det-plan').innerHTML = r.palabras > 0
     ? `${esc(r.extracto)} <i>(${tipo}, ${r.palabras.toLocaleString('es-AR')} palabras en total)</i>`
     : `<i>${r.pedido === 'adaptativo' ? 'Esta vez no devolvió razonamiento.' : (detM.id.startsWith('claude-') ? 'No se le pidió razonamiento.' : 'La API no devuelve el razonamiento de este modelo.')}</i>`;
+  const d = detM.dicho;
+  $('det-dicho').innerHTML = d
+    ? `${esc(d.texto)} <i>(${d.entera ? 'respuesta' : 'comienzo de la respuesta'} a «${esc(d.pregunta)}», con su SVG delante)</i>`
+    : '<i>No hay respuesta guardada.</i>';
   $('det-numeros').innerHTML = [
     ['Pasos', n],
     ['Mitad del dibujo', pct(detM.mitad)],
@@ -517,8 +549,17 @@ function abrir(i, origen) {
   detIr(celda && celda.est.hojas.length ? Math.max(1, celda.est.k) : n);
   $('det-cerrar').focus();
 }
+// «Ver en movimiento»: suelta las animaciones SMIL y las CSS del dibujo abierto; «Quieto» las vuelve a frenar.
+function detMover(on) {
+  $('det-lienzo').classList.toggle('moviendo', on);
+  if (det && det.svg) { try { if (on) det.svg.unpauseAnimations(); else det.svg.pauseAnimations(); } catch (e) { /* sin SMIL */ } }
+  $('det-mover').setAttribute('aria-pressed', String(on));
+  $('det-mover').textContent = on ? 'Quieto' : 'Ver en movimiento';
+}
+
 function cerrar() {
   detParar();
+  detMover(false);
   $('detalle').hidden = true;
   document.body.style.overflow = '';
   $('det-lienzo').innerHTML = '';
@@ -544,7 +585,7 @@ function detIr(k) {
       : (detM.comentarios ? 'Sin rótulo antes de este elemento.' : 'Este modelo no dejó rótulos en su código.');
   } else {
     $('det-codigo').textContent = n ? '(lienzo en blanco: todavía no hay elementos)' :
-      (detM.svg.length < 500 ? detM.svg : 'Se cortó antes del primer elemento visible.');
+      (!detM.svg.trim() ? '(el SVG llegó vacío)' : detM.svg.length < 500 ? detM.svg : 'Se cortó antes del primer elemento visible.');
     $('det-rotulo').textContent = n ? '' : (detM.cortado ? 'Se quedó sin tokens antes de dibujar.' : 'Entregó el lienzo vacío.');
   }
   resaltar(el);
@@ -627,6 +668,7 @@ $('det-ant').addEventListener('click', () => { detParar(); detIr(det.k - 1); });
 $('det-sig').addEventListener('click', () => { detParar(); detIr(det.k + 1); });
 $('det-fin').addEventListener('click', () => { detParar(); detIr(det.hojas.length); });
 $('det-play').addEventListener('click', detReproducir);
+$('det-mover').addEventListener('click', () => detMover($('det-mover').getAttribute('aria-pressed') !== 'true'));
 $('det-rango').addEventListener('input', e => { detParar(); detIr(+e.target.value); });
 document.addEventListener('keydown', e => {
   if ($('detalle').hidden) return;

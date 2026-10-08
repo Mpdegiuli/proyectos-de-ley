@@ -1030,7 +1030,21 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   pueden mover los números en milésimas. Lectura pendiente, con Maia:
   quién tiene la forma a mitad del código (Opus 5 al 13 %, Astra al 29 %)
   y quién la deja para el final (GPT-6.1 Sol: el 50 % de la forma en el
-  último quinto; Qwen 36 %).
+  último quinto; Qwen 36 %). Segunda y tercera versión el mismo día
+  (Opus 5.5, a pedido de Maia; la página la subió ella por la web, 231bfb91,
+  y el programa, la plantilla y el CSV van por pegado): nueve consignas
+  (se suman "cómo ves el mundo hoy", "un animal que no exista", "mundo
+  querido" y "dibujate en el mundo como querrías que fuera"), 254
+  dibujos, con GPT-3.5 Turbo y GPT-4 (0613) en las seis donde dibujaron
+  antes de su baja; sección "Lo que dijo que dibujó" (la respuesta a
+  "¿qué dibujaste?" o el primer párrafo con contenido del por qué, sin
+  títulos ni negritas, con su SVG delante); los animados llevan marca y
+  un botón "Ver en movimiento" (SMIL y CSS; en la grilla, quietos); dos
+  arreglos (el lienzo de medición se llamaba `c` y cuatro SVG del mundo
+  tienen un clipPath `c`; los rótulos al final de línea iban al elemento
+  siguiente); Kimi y Qwen en el mundo querido como "cortado antes del
+  primer trazo". Los 131 dibujos de la primera versión dan lo mismo; la
+  página pesa 1,8 MB y regenerarla tarda unos 25 minutos.
 - **Identificación y opuesto** (Maia, 23/9/2026; diseñado el 23/9): "¿Con
   quién o con qué te identificás?" y "¿con quién o con qué te sentís lo
   opuesto?", una persona real de cualquier ámbito, un personaje humano o no,
