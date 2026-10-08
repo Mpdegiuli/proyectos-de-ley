@@ -1,0 +1,41 @@
+{
+  "caso": "dibujo",
+  "consigna": "yo_mundo_querido",
+  "idioma": "es",
+  "modelo": "deepseek-v4-pro",
+  "modelo_respondido": "deepseek-v4-pro",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-08T00:35:04+00:00",
+  "fuentes_md5": {
+    "consignas": "f0423da1"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 10835,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 10101,
+    "parsea": true,
+    "elementos": 155,
+    "textos": [],
+    "colores": 50,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 5,
+      "stop": 12,
+      "radialGradient": 1,
+      "rect": 13,
+      "circle": 49,
+      "g": 11,
+      "line": 30,
+      "path": 19,
+      "polygon": 8,
+      "ellipse": 6
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "deepseek-v4-pro",
+    "motivo_fin": "stop",
+    "tokens_salida": 1229
+  }
+}

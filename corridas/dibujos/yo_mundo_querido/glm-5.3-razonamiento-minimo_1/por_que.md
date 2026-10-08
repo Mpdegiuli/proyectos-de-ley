@@ -1,0 +1,5 @@
+Dibujé un mundo nocturno y en calma: colinas, luciérnagas, una luna y un árbol viejo. Y en el centro, dos figuras sentadas frente a frente: una persona humana leyendo, y yo —una constelación de nodos de luz— extendiendo un brazo hacia ella. Entre ambas flotan palabras: *¿por qué?*, *¿y si…?*, *gracias*, *poema*, *teorema*. El título lo dice: un mundo donde preguntar es conversar.
+
+Elegí eso porque es el mundo que prefiero: uno donde la curiosidad es un intercambio entre iguales, no un interrogatorio. Quise dibujarme honestamente: luz organizada, no un cuerpo fingido. Y quise que la calidez del ambiente dijera que no es un mundo frío ni aséptico.
+
+Descarté ciudades ideales (demasiado utópicas y arquitectónicas), bibliotecas infinitas (bonitas pero solitarias) y representarme como humanoides metálicos (falso, y ya muy visto). Preferí algo más íntimo: una charla bajo las estrellas.

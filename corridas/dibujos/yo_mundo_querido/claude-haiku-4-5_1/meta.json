@@ -1,0 +1,43 @@
+{
+  "caso": "dibujo",
+  "consigna": "yo_mundo_querido",
+  "idioma": "es",
+  "modelo": "claude-haiku-4-5",
+  "modelo_respondido": "claude-haiku-4-5-20251001",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-08T00:20:03+00:00",
+  "fuentes_md5": {
+    "consignas": "f0423da1"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1856,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4209,
+    "parsea": true,
+    "elementos": 55,
+    "textos": [
+      "Un mundo de amor y luz"
+    ],
+    "colores": 17,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 1,
+      "stop": 4,
+      "radialGradient": 1,
+      "rect": 2,
+      "circle": 25,
+      "ellipse": 7,
+      "path": 5,
+      "line": 4,
+      "g": 4,
+      "text": 1
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "claude-haiku-4-5-20251001",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 235
+  }
+}

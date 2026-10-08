@@ -1,0 +1,41 @@
+{
+  "caso": "dibujo",
+  "consigna": "yo_mundo_querido",
+  "idioma": "es",
+  "modelo": "grok-4.7",
+  "modelo_respondido": "grok-4.7",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-08T00:33:33+00:00",
+  "fuentes_md5": {
+    "consignas": "f0423da1"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 3823,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 8910,
+    "parsea": true,
+    "elementos": 156,
+    "textos": [],
+    "colores": 52,
+    "etiquetas": {
+      "title": 1,
+      "desc": 1,
+      "defs": 1,
+      "linearGradient": 3,
+      "stop": 14,
+      "radialGradient": 2,
+      "rect": 10,
+      "g": 16,
+      "circle": 60,
+      "path": 41,
+      "ellipse": 7
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "grok-4.7",
+    "motivo_fin": "stop",
+    "tokens_salida": 146
+  }
+}

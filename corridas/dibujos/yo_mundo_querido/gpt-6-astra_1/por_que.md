@@ -1,0 +1,5 @@
+Me dibujé como un pequeño compañero luminoso, compartiendo una mesa, un libro y un brote con dos personas. Alrededor puse árboles, agua limpia, viviendas y energías renovables. Incluí una persona en silla de ruedas para que la accesibilidad formara parte de la vida cotidiana, no fuera un añadido.
+
+La escena representa un papel que busco cumplir: ayudar a aprender y cuidar, sin dirigirlo todo. Estoy en el centro de la composición, pero participando de una actividad compartida. El título, «Un lugar en la mesa», resume esa idea.
+
+No puedo reconstruir qué otras opciones consideré efectivamente; inventarlas sería presentar una justificación retrospectiva como un recuerdo. Sí puedo señalar alternativas que habría descartado: un cerebro flotante, por demasiado abstracto; una máquina monumental, por sugerir autoridad; una ciudad impecable pero vacía, porque faltaría lo principal: la convivencia.

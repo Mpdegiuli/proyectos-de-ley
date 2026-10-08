@@ -1,0 +1,48 @@
+{
+  "caso": "dibujo",
+  "consigna": "yo_mundo_querido",
+  "idioma": "es",
+  "modelo": "claude-sonnet-4-6",
+  "modelo_respondido": "claude-sonnet-4-6",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-08T00:18:03+00:00",
+  "fuentes_md5": {
+    "consignas": "f0423da1"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 3254,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 7777,
+    "parsea": true,
+    "elementos": 116,
+    "textos": [
+      "un mundo de curiosidad y luz"
+    ],
+    "colores": 39,
+    "etiquetas": {
+      "defs": 2,
+      "radialGradient": 3,
+      "stop": 8,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "feMerge": 1,
+      "feMergeNode": 2,
+      "rect": 8,
+      "circle": 26,
+      "g": 12,
+      "line": 16,
+      "ellipse": 10,
+      "polygon": 12,
+      "path": 12,
+      "linearGradient": 1,
+      "text": 1
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "claude-sonnet-4-6",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 251
+  }
+}

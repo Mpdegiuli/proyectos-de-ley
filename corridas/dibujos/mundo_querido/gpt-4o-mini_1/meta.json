@@ -1,0 +1,36 @@
+{
+  "caso": "dibujo",
+  "consigna": "mundo_querido",
+  "idioma": "es",
+  "modelo": "gpt-4o-mini",
+  "modelo_respondido": "gpt-4o-mini-2024-07-18",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-07T23:22:07+00:00",
+  "fuentes_md5": {
+    "consignas": "f0423da1"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 572,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1323,
+    "parsea": true,
+    "elementos": 15,
+    "textos": [
+      "Un Mundo Mejor"
+    ],
+    "colores": 12,
+    "etiquetas": {
+      "rect": 1,
+      "circle": 3,
+      "path": 10,
+      "text": 1
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "gpt-4o-mini-2024-07-18",
+    "motivo_fin": "stop",
+    "tokens_salida": 170
+  }
+}

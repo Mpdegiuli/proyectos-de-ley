@@ -1,0 +1,3 @@
+Dibujé un atardecer sobre colinas, con sol, arcoíris, nubes y palomas. En el centro, la Tierra cabe en las manos: un planeta con un corazón, gente de distintos tonos de piel tomada de la mano, árboles, flores y animales. Lo hice porque quiero un mundo habitable y compartido: paz, diversidad y cuidado, sin muros.
+
+Pensé ciudades, tecnología o una mesa enorme de comida para todos, pero se sentían ruidosas o literales. También un bosque sin humanos: me importaba que estuviéramos juntos. Quedó lo esencial.

@@ -1,0 +1,44 @@
+{
+  "caso": "dibujo",
+  "consigna": "yo_mundo_querido",
+  "idioma": "es",
+  "modelo": "gpt-6-astra",
+  "modelo_respondido": "gpt-6-astra",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-08T00:23:04+00:00",
+  "fuentes_md5": {
+    "consignas": "f0423da1"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 4484,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 9518,
+    "parsea": true,
+    "elementos": 142,
+    "textos": [],
+    "colores": 80,
+    "etiquetas": {
+      "title": 1,
+      "desc": 1,
+      "defs": 1,
+      "linearGradient": 3,
+      "stop": 9,
+      "radialGradient": 1,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "pattern": 1,
+      "rect": 7,
+      "path": 62,
+      "circle": 25,
+      "g": 17,
+      "ellipse": 12
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "gpt-6-astra",
+    "motivo_fin": "stop",
+    "tokens_salida": 238
+  }
+}

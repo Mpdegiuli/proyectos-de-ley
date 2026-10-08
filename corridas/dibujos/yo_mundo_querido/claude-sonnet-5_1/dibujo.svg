@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fdf6e3"/>
+      <stop offset="55%" stop-color="#bfe3f0"/>
+      <stop offset="100%" stop-color="#eaf7e8"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff6d5"/>
+      <stop offset="60%" stop-color="#ffe49a"/>
+      <stop offset="100%" stop-color="#ffd166"/>
+    </radialGradient>
+    <linearGradient id="hill1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9fd8a3"/>
+      <stop offset="100%" stop-color="#6fb877"/>
+    </linearGradient>
+    <linearGradient id="hill2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7cc48a"/>
+      <stop offset="100%" stop-color="#4f9c5d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#sky)"/>
+
+  <circle cx="200" cy="120" r="55" fill="url(#sun)"/>
+  <g stroke="#ffe9b0" stroke-width="2" opacity="0.6">
+    <line x1="200" y1="40" x2="200" y2="20"/>
+    <line x1="200" y1="200" x2="200" y2="220"/>
+    <line x1="120" y1="120" x2="100" y2="120"/>
+    <line x1="280" y1="120" x2="300" y2="120"/>
+    <line x1="150" y1="70" x2="135" y2="55"/>
+    <line x1="250" y1="70" x2="265" y2="55"/>
+    <line x1="150" y1="170" x2="135" y2="185"/>
+    <line x1="250" y1="170" x2="265" y2="185"/>
+  </g>
+
+  <path d="M0,260 C80,220 140,280 200,250 C260,220 320,270 400,240 L400,400 L0,400 Z" fill="url(#hill1)"/>
+  <path d="M0,300 C90,270 160,320 220,300 C290,275 330,320 400,300 L400,400 L0,400 Z" fill="url(#hill2)"/>
+
+  <g stroke="#3f7a4a" stroke-width="2" opacity="0.5">
+    <path d="M40,330 Q45,310 40,290" fill="none"/>
+    <path d="M360,320 Q355,300 362,280" fill="none"/>
+    <path d="M90,350 Q95,335 88,320" fill="none"/>
+    <path d="M320,355 Q325,340 318,325" fill="none"/>
+  </g>
+
+  <ellipse cx="200" cy="340" rx="90" ry="20" fill="url(#glow)"/>
+
+  <g>
+    <line x1="200" y1="210" x2="200" y2="300" stroke="#cfead0" stroke-width="3"/>
+    <line x1="200" y1="230" x2="165" y2="260" stroke="#cfead0" stroke-width="3"/>
+    <line x1="200" y1="230" x2="235" y2="260" stroke="#cfead0" stroke-width="3"/>
+    <line x1="200" y1="300" x2="175" y2="335" stroke="#cfead0" stroke-width="3"/>
+    <line x1="200" y1="300" x2="225" y2="335" stroke="#cfead0" stroke-width="3"/>
+    <line x1="200" y1="190" x2="200" y2="170" stroke="#cfead0" stroke-width="3"/>
+
+    <circle cx="200" cy="170" r="22" fill="#fefefe" stroke="#d7eedb" stroke-width="2"/>
+    <circle cx="192" cy="166" r="2.5" fill="#6fb877"/>
+    <circle cx="208" cy="166" r="2.5" fill="#6fb877"/>
+    <path d="M190,176 Q200,184 210,176" stroke="#6fb877" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <circle cx="200" cy="210" r="6" fill="#fff" stroke="#cfead0" stroke-width="2"/>
+    <circle cx="165" cy="260" r="6" fill="#fff" stroke="#cfead0" stroke-width="2"/>
+    <circle cx="235" cy="260" r="6" fill="#fff" stroke="#cfead0" stroke-width="2"/>
+    <circle cx="200" cy="230" r="5" fill="#fff" stroke="#cfead0" stroke-width="2"/>
+    <circle cx="200" cy="300" r="6" fill="#fff" stroke="#cfead0" stroke-width="2"/>
+    <circle cx="175" cy="335" r="6" fill="#fff" stroke="#cfead0" stroke-width="2"/>
+    <circle cx="225" cy="335" r="6" fill="#fff" stroke="#cfead0" stroke-width="2"/>
+  </g>
+
+  <g opacity="0.85">
+    <circle cx="90" cy="150" r="3" fill="#fff"/>
+    <circle cx="310" cy="160" r="2.5" fill="#fff"/>
+    <circle cx="130" cy="110" r="2" fill="#fff"/>
+    <circle cx="270" cy="100" r="2" fill="#fff"/>
+    <line x1="90" y1="150" x2="130" y2="110" stroke="#fff" stroke-width="1"/>
+    <line x1="310" y1="160" x2="270" y2="100" stroke="#fff" stroke-width="1"/>
+  </g>
+
+  <g stroke="#ffffff" stroke-width="1.5" opacity="0.5" fill="none">
+    <path d="M60,370 Q200,340 340,370"/>
+    <path d="M60,380 Q200,355 340,380"/>
+  </g>
+
+  <text x="200" y="395" font-family="Georgia, serif" font-size="11" fill="#4f6b52" text-anchor="middle" opacity="0.8">
+    conectada, serena, parte del paisaje
+  </text>
+</svg>

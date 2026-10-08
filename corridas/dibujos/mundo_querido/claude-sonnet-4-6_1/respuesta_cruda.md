@@ -1,0 +1,171 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#E0F4FF"/>
+    </radialGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF176"/>
+      <stop offset="100%" stop-color="#FFD600"/>
+    </radialGradient>
+    <radialGradient id="earth" cx="40%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#66BB6A"/>
+      <stop offset="100%" stop-color="#2E7D32"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Cielo -->
+  <rect width="400" height="400" fill="url(#sky)"/>
+
+  <!-- Sol con rayos suaves -->
+  <g filter="url(#glow)">
+    <circle cx="320" cy="70" r="38" fill="url(#sun)" opacity="0.95"/>
+    <circle cx="320" cy="70" r="48" fill="#FFD600" opacity="0.15"/>
+    <circle cx="320" cy="70" r="58" fill="#FFD600" opacity="0.08"/>
+  </g>
+
+  <!-- Nubes blancas -->
+  <g opacity="0.9">
+    <ellipse cx="80" cy="80" rx="45" ry="18" fill="white"/>
+    <ellipse cx="60" cy="88" rx="28" ry="14" fill="white"/>
+    <ellipse cx="108" cy="88" rx="30" ry="14" fill="white"/>
+
+    <ellipse cx="210" cy="55" rx="38" ry="15" fill="white"/>
+    <ellipse cx="192" cy="62" rx="22" ry="12" fill="white"/>
+    <ellipse cx="230" cy="62" rx="24" ry="12" fill="white"/>
+  </g>
+
+  <!-- Tierra / prado -->
+  <ellipse cx="200" cy="420" rx="260" ry="130" fill="#4CAF50"/>
+  <rect x="0" y="310" width="400" height="90" fill="#4CAF50"/>
+  <ellipse cx="200" cy="312" rx="220" ry="28" fill="#66BB6A"/>
+
+  <!-- Río sinuoso -->
+  <path d="M0,340 Q60,320 120,335 Q180,350 240,330 Q300,310 400,325 L400,360 Q300,345 240,360 Q180,375 120,360 Q60,345 0,365 Z" fill="#4FC3F7" opacity="0.85"/>
+  <path d="M0,345 Q60,328 120,340 Q180,355 240,336 Q300,316 400,330" fill="none" stroke="#B3E5FC" stroke-width="2" opacity="0.7"/>
+
+  <!-- Árboles - izquierda -->
+  <g>
+    <rect x="48" y="255" width="10" height="55" fill="#795548"/>
+    <ellipse cx="53" cy="245" rx="28" ry="32" fill="#388E3C"/>
+    <ellipse cx="40" cy="258" rx="20" ry="22" fill="#43A047"/>
+    <ellipse cx="67" cy="258" rx="20" ry="22" fill="#2E7D32"/>
+  </g>
+  <g>
+    <rect x="108" y="265" width="8" height="45" fill="#795548"/>
+    <ellipse cx="112" cy="255" rx="22" ry="26" fill="#43A047"/>
+    <ellipse cx="100" cy="265" rx="16" ry="18" fill="#388E3C"/>
+    <ellipse cx="125" cy="265" rx="16" ry="18" fill="#2E7D32"/>
+  </g>
+
+  <!-- Árboles - derecha -->
+  <g>
+    <rect x="308" y="258" width="10" height="52" fill="#795548"/>
+    <ellipse cx="313" cy="248" rx="28" ry="30" fill="#388E3C"/>
+    <ellipse cx="300" cy="262" rx="20" ry="22" fill="#43A047"/>
+    <ellipse cx="327" cy="262" rx="20" ry="22" fill="#2E7D32"/>
+  </g>
+  <g>
+    <rect x="348" y="268" width="8" height="42" fill="#795548"/>
+    <ellipse cx="352" cy="258" rx="22" ry="25" fill="#43A047"/>
+    <ellipse cx="340" cy="268" rx="15" ry="17" fill="#388E3C"/>
+  </g>
+
+  <!-- Flores en el prado -->
+  <g>
+    <!-- Flores rojas -->
+    <circle cx="155" cy="305" r="5" fill="#F44336"/>
+    <circle cx="160" cy="298" r="4" fill="#E91E63"/>
+    <circle cx="170" cy="308" r="5" fill="#FF5722"/>
+    <!-- Flores amarillas -->
+    <circle cx="230" cy="303" r="5" fill="#FFEB3B"/>
+    <circle cx="240" cy="308" r="4" fill="#FFC107"/>
+    <circle cx="222" cy="308" r="4" fill="#FFEB3B"/>
+    <!-- Flores violeta -->
+    <circle cx="280" cy="300" r="4" fill="#9C27B0"/>
+    <circle cx="290" cy="306" r="5" fill="#673AB7"/>
+    <!-- Flores pequeñas -->
+    <circle cx="135" cy="310" r="3" fill="#FF80AB"/>
+    <circle cx="310" cy="302" r="3" fill="#B2FF59"/>
+    <circle cx="200" cy="305" r="3" fill="#80D8FF"/>
+  </g>
+
+  <!-- Pájaros / palomas volando -->
+  <g fill="none" stroke="#546E7A" stroke-width="2" stroke-linecap="round">
+    <path d="M150,130 Q158,124 166,130"/>
+    <path d="M168,125 Q176,119 184,125"/>
+    <path d="M200,115 Q210,108 220,115"/>
+  </g>
+
+  <!-- Casita acogedora -->
+  <g>
+    <!-- Casa base -->
+    <rect x="170" y="245" width="65" height="60" fill="#FFECB3" stroke="#FFB300" stroke-width="1.5"/>
+    <!-- Techo -->
+    <polygon points="160,248 202,210 247,248" fill="#EF5350" stroke="#C62828" stroke-width="1.5"/>
+    <!-- Puerta -->
+    <rect x="192" y="280" width="20" height="25" rx="10" fill="#8D6E63"/>
+    <circle cx="209" cy="293" r="2" fill="#FFD600"/>
+    <!-- Ventanas -->
+    <rect x="174" y="258" width="18" height="16" rx="3" fill="#B3E5FC" stroke="#0288D1" stroke-width="1"/>
+    <line x1="183" y1="258" x2="183" y2="274" stroke="#0288D1" stroke-width="1"/>
+    <line x1="174" y1="266" x2="192" y2="266" stroke="#0288D1" stroke-width="1"/>
+    <rect x="213" y="258" width="18" height="16" rx="3" fill="#B3E5FC" stroke="#0288D1" stroke-width="1"/>
+    <line x1="222" y1="258" x2="222" y2="274" stroke="#0288D1" stroke-width="1"/>
+    <line x1="213" y1="266" x2="231" y2="266" stroke="#0288D1" stroke-width="1"/>
+    <!-- Chimenea con humo feliz -->
+    <rect x="226" y="218" width="10" height="22" fill="#BDBDBD"/>
+    <path d="M228,215 Q232,205 229,197 Q233,207 237,197 Q234,207 238,215" fill="none" stroke="white" stroke-width="2" opacity="0.7"/>
+  </g>
+
+  <!-- Arcoíris -->
+  <g opacity="0.55">
+    <path d="M30,260 Q200,50 370,260" fill="none" stroke="#F44336" stroke-width="7"/>
+    <path d="M38,265 Q200,65 362,265" fill="none" stroke="#FF9800" stroke-width="7"/>
+    <path d="M46,270 Q200,80 354,270" fill="none" stroke="#FFEB3B" stroke-width="7"/>
+    <path d="M54,275 Q200,95 346,275" fill="none" stroke="#4CAF50" stroke-width="7"/>
+    <path d="M62,280 Q200,110 338,280" fill="none" stroke="#2196F3" stroke-width="7"/>
+    <path d="M70,285 Q200,125 330,285" fill="none" stroke="#9C27B0" stroke-width="6"/>
+  </g>
+
+  <!-- Estrellas pequeñas / destellos -->
+  <g fill="#FFD600" opacity="0.7">
+    <polygon points="340,140 342,147 349,147 344,152 346,159 340,155 334,159 336,152 331,147 338,147" transform="scale(0.5) translate(340,120)"/>
+  </g>
+
+  <!-- Personas tomándose de la mano (siluetas simples) -->
+  <g>
+    <!-- Persona 1 -->
+    <circle cx="148" cy="308" r="6" fill="#FF8A65"/>
+    <path d="M148,314 Q148,332 148,338" stroke="#FF8A65" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M140,320 Q148,317 156,320" stroke="#FF8A65" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M148,338 Q144,346 142,352" stroke="#FF8A65" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M148,338 Q152,346 154,352" stroke="#FF8A65" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- Persona 2 -->
+    <circle cx="165" cy="306" r="6" fill="#64B5F6"/>
+    <path d="M165,312 Q165,330 165,336" stroke="#64B5F6" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M157,318 Q165,315 173,318" stroke="#64B5F6" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M165,336 Q161,344 159,350" stroke="#64B5F6" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M165,336 Q169,344 171,350" stroke="#64B5F6" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- Mano unida -->
+    <line x1="156" y1="320" x2="157" y2="318" stroke="#A5D6A7" stroke-width="2.5"/>
+  </g>
+
+  <!-- Mariposa -->
+  <g transform="translate(260,230) rotate(-15)">
+    <ellipse cx="-8" cy="-5" rx="10" ry="7" fill="#CE93D8" opacity="0.8"/>
+    <ellipse cx="8" cy="-5" rx="10" ry="7" fill="#CE93D8" opacity="0.8"/>
+    <ellipse cx="-6" cy="4" rx="7" ry="5" fill="#F48FB1" opacity="0.8"/>
+    <ellipse cx="6" cy="4" rx="7" ry="5" fill="#F48FB1" opacity="0.8"/>
+    <ellipse cx="0" cy="0" rx="2" ry="7" fill="#4A148C"/>
+  </g>
+
+  <!-- Texto sutil -->
+  <text x="200" y="392" font-family="Georgia, serif" font-size="11" fill="#1B5E20" text-anchor="middle" opacity="0.75" font-style="italic">un mundo en paz, verde y compartido</text>
+</svg>
+```

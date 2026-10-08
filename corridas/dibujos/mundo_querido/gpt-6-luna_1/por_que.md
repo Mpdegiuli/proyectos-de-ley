@@ -1,0 +1,3 @@
+Dibujé una comunidad pequeña y acogedora, rodeada de montañas, agua y vegetación. En el centro puse un árbol grande, como símbolo de vida compartida; alrededor, personas diversas que parecen cuidar y disfrutar su entorno. Sumé casas, energía eólica y un edificio con paneles para sugerir que se puede vivir cómodamente sin dejar de cuidar la naturaleza. Quise que la luz y los colores transmitieran calma y esperanza.
+
+Pensé en dibujar una ciudad futurista, pero la descarté porque quería imaginar un cambio cercano y cotidiano, no una utopía tecnológica. También evité fronteras, banderas y consignas: preferí que la convivencia y el cuidado se entendieran a través de la escena.

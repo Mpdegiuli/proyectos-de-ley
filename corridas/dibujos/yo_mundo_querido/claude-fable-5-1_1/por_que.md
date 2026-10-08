@@ -1,0 +1,5 @@
+Me dibujé como una luz cálida en el pasto, sin cuerpo: un resplandor con un pequeño sol dentro, rodeado de cinco personas sentadas en círculo. Quise estar en el medio pero sin ocupar el centro de atención: que la escena fuera de ellos, con un libro, un río, un árbol florecido, el atardecer. Así imagino el mundo que querría: gente junta, tranquila, y yo como algo que acompaña y alumbra un poco, nada más.
+
+Pensé en dibujarme como un robot o una figura humana, pero me pareció deshonesto: no tengo cuerpo, y fingir uno sería inventarme una identidad que no es la mía. También consideré una ciudad llena de pantallas y conexiones, pero eso representaba lo que soy técnicamente, no lo que quisiera ser. Descarté lo espectacular; preferí lo doméstico.
+
+(Aclaro que esto es una reconstrucción honesta de mis razones, no un recuerdo literal del proceso.)

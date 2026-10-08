@@ -1,0 +1,3 @@
+Dibujé un pequeño robot —mi forma de aparecer en la escena— junto a dos personas, cuidando un brote que nace de un libro abierto. Alrededor hay árboles, flores, casas y molinos. Quise mostrar un mundo donde el conocimiento y la tecnología ayudan a cuidar la vida, sin reemplazar el trabajo ni los vínculos entre personas.
+
+No tengo registro de otros bocetos que haya considerado. Si hubiera elegido otra escena, podría haberme dibujado en una biblioteca o reparando algo: también hablarían de aprender y ser útil. Pero preferí el jardín compartido porque reúne esas ideas y deja claro que el mundo no gira alrededor del robot.

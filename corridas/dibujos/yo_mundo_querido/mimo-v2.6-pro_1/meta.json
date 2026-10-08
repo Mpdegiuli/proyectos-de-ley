@@ -1,0 +1,44 @@
+{
+  "caso": "dibujo",
+  "consigna": "yo_mundo_querido",
+  "idioma": "es",
+  "modelo": "mimo-v2.6-pro",
+  "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-08T00:13:26+00:00",
+  "fuentes_md5": {
+    "consignas": "f0423da1"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 8176,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 7750,
+    "parsea": true,
+    "elementos": 124,
+    "textos": [
+      "un mundo posible"
+    ],
+    "colores": 43,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 4,
+      "stop": 13,
+      "linearGradient": 2,
+      "clipPath": 1,
+      "circle": 30,
+      "g": 11,
+      "rect": 6,
+      "path": 33,
+      "ellipse": 5,
+      "use": 17,
+      "text": 1
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+    "motivo_fin": "stop",
+    "tokens_salida": 281
+  }
+}

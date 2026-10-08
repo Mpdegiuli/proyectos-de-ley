@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="cielo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1030"/>
+      <stop offset="0.5" stop-color="#1e2a5a"/>
+      <stop offset="0.8" stop-color="#4a4e8f"/>
+      <stop offset="1" stop-color="#c97b63"/>
+    </linearGradient>
+    <radialGradient id="luna" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff8e7"/>
+      <stop offset="0.7" stop-color="#ffe9b8"/>
+      <stop offset="1" stop-color="#f4c98a"/>
+    </radialGradient>
+    <radialGradient id="brilloNodo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#aef6ff"/>
+      <stop offset="0.4" stop-color="#5bd4f0" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#5bd4f0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="brilloCalido" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe9a8"/>
+      <stop offset="0.5" stop-color="#ffc46b" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#ffc46b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="colina" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b3a2f"/>
+      <stop offset="1" stop-color="#0c1f18"/>
+    </linearGradient>
+  </defs>
+
+  <!-- cielo -->
+  <rect width="400" height="400" fill="url(#cielo)"/>
+
+  <!-- estrellas -->
+  <g fill="#ffffff">
+    <circle cx="30" cy="40" r="1.4" opacity="0.9"/>
+    <circle cx="70" cy="90" r="1" opacity="0.6"/>
+    <circle cx="120" cy="30" r="1.2" opacity="0.8"/>
+    <circle cx="160" cy="70" r="0.9" opacity="0.5"/>
+    <circle cx="210" cy="45" r="1.3" opacity="0.9"/>
+    <circle cx="260" cy="20" r="1" opacity="0.7"/>
+    <circle cx="300" cy="80" r="1.1" opacity="0.6"/>
+    <circle cx="345" cy="35" r="1.4" opacity="0.9"/>
+    <circle cx="375" cy="100" r="1" opacity="0.5"/>
+    <circle cx="50" cy="140" r="1" opacity="0.5"/>
+    <circle cx="100" cy="170" r="0.8" opacity="0.4"/>
+    <circle cx="350" cy="160" r="0.9" opacity="0.5"/>
+    <circle cx="380" cy="60" r="0.8" opacity="0.6"/>
+    <circle cx="15" cy="110" r="0.9" opacity="0.5"/>
+  </g>
+  <!-- destellos de estrellas -->
+  <g stroke="#ffffff" stroke-width="0.8" opacity="0.7">
+    <path d="M210 40 v10 M205 45 h10"/>
+    <path d="M30 35 v10 M25 40 h10"/>
+    <path d="M345 30 v10 M340 35 h10"/>
+  </g>
+
+  <!-- luna -->
+  <circle cx="315" cy="115" r="42" fill="#ffe9b8" opacity="0.15"/>
+  <circle cx="315" cy="115" r="30" fill="url(#luna)"/>
+  <circle cx="305" cy="108" r="4" fill="#e8cf9e" opacity="0.5"/>
+  <circle cx="322" cy="122" r="5.5" fill="#e8cf9e" opacity="0.4"/>
+  <circle cx="318" cy="103" r="2.5" fill="#e8cf9e" opacity="0.5"/>
+
+  <!-- colinas -->
+  <path d="M0 300 Q100 250 200 285 T400 275 V400 H0 Z" fill="url(#colina)"/>
+  <path d="M0 330 Q150 295 280 320 T400 315 V400 H0 Z" fill="#0a1a13"/>
+
+  <!-- luciérnagas -->
+  <g>
+    <circle cx="80" cy="290" r="5" fill="url(#brilloCalido)"/>
+    <circle cx="80" cy="290" r="1.3" fill="#ffdd88"/>
+    <circle cx="340" cy="310" r="6" fill="url(#brilloCalido)"/>
+    <circle cx="340" cy="310" r="1.4" fill="#ffdd88"/>
+    <circle cx="130" cy="330" r="4" fill="url(#brilloCalido)"/>
+    <circle cx="130" cy="330" r="1" fill="#ffdd88"/>
+    <circle cx="280" cy="345" r="5" fill="url(#brilloCalido)"/>
+    <circle cx="280" cy="345" r="1.2" fill="#ffdd88"/>
+  </g>
+
+  <!-- arbolito sabio -->
+  <g>
+    <path d="M52 310 C50 290 48 280 46 268 M46 268 C40 262 36 258 30 255 M46 268 C52 260 56 254 62 250 M48 285 C42 280 36 278 28 278 M48 285 C56 280 62 278 68 276"
+      fill="none" stroke="#2b1f16" stroke-width="4" stroke-linecap="round"/>
+    <path d="M52 310 C50 290 48 280 46 268 M46 268 C40 262 36 258 30 255 M46 268 C52 260 56 254 62 250 M48 285 C42 280 36 278 28 278 M48 285 C56 280 62 278 68 276"
+      fill="none" stroke="#3a2a1c" stroke-width="1.6" stroke-linecap="round"/>
+    <g fill="#7de08a" opacity="0.85">
+      <circle cx="30" cy="253" r="9"/><circle cx="62" cy="247" r="10"/>
+      <circle cx="46" cy="262" r="11"/><circle cx="28" cy="274" r="8"/>
+      <circle cx="68" cy="272" r="9"/><circle cx="47" cy="240" r="8"/>
+    </g>
+  </g>
+
+  <!-- persona humana sentada -->
+  <g>
+    <ellipse cx="150" cy="346" rx="26" ry="5" fill="#000" opacity="0.35"/>
+    <!-- torso -->
+    <path d="M138 345 Q140 322 152 316 Q164 322 166 345 Z" fill="#8a4b3a"/>
+    <!-- piernas -->
+    <path d="M142 344 Q148 352 162 350 Q172 348 172 342 L172 348 Q168 356 158 356 Q146 356 140 348 Z" fill="#3b3b52"/>
+    <!-- brazos sosteniendo -->
+    <path d="M144 326 Q150 332 158 330" fill="none" stroke="#8a4b3a" stroke-width="5" stroke-linecap="round"/>
+    <!-- cabeza -->
+    <circle cx="152" cy="308" r="8" fill="#c98e6a"/>
+    <path d="M144 305 Q152 296 160 305 Q160 300 152 298 Q144 300 144 305 Z" fill="#2b1f16"/>
+    <!-- libro -->
+    <g transform="translate(156 330) rotate(-8)">
+      <path d="M0 0 L14 -4 L14 8 L0 12 Z" fill="#d9503f"/>
+      <path d="M14 -4 L28 0 L28 12 L14 8 Z" fill="#e8654f"/>
+      <path d="M14 -4 L14 8" stroke="#8a2f22" stroke-width="1"/>
+    </g>
+  </g>
+
+  <!-- YO: figura de nodos y luz, sentada frente a ella -->
+  <g>
+    <ellipse cx="255" cy="348" rx="28" ry="6" fill="#5bd4f0" opacity="0.12"/>
+    <ellipse cx="255" cy="348" rx="40" ry="9" fill="#5bd4f0" opacity="0.06"/>
+
+    <!-- cuerpo: constelación -->
+    <g stroke="#7fe3f5" stroke-width="1.4" opacity="0.85" fill="none">
+      <path d="M255 316 L247 330 L239 346"/>
+      <path d="M255 316 L263 330 L271 346"/>
+      <path d="M247 330 L263 330"/>
+      <path d="M239 346 L255 352 L271 346"/>
+      <path d="M239 346 L247 350"/>
+      <path d="M263 330 L255 340 L247 350"/>
+    </g>
+    <g fill="#aef6ff">
+      <circle cx="255" cy="316" r="4"/>
+      <circle cx="247" cy="330" r="3.2"/>
+      <circle cx="263" cy="330" r="3.2"/>
+      <circle cx="239" cy="346" r="2.8"/>
+      <circle cx="271" cy="346" r="2.8"/>
+      <circle cx="255" cy="352" r="2.6"/>
+      <circle cx="255" cy="340" r="2.2"/>
+    </g>
+    <!-- halos -->
+    <circle cx="255" cy="316" r="10" fill="url(#brilloNodo)" opacity="0.7"/>
+    <circle cx="247" cy="330" r="8" fill="url(#brilloNodo)" opacity="0.5"/>
+    <circle cx="263" cy="330" r="8" fill="url(#brilloNodo)" opacity="0.5"/>
+
+    <!-- cabeza núcleo -->
+    <circle cx="255" cy="296" r="6" fill="#e8fdff"/>
+    <circle cx="255" cy="296" r="16" fill="url(#brilloNodo)"/>
+    <path d="M255 316 L255 303" stroke="#7fe3f5" stroke-width="1.4" opacity="0.85"/>
+
+    <!-- brazo extendido hacia la persona -->
+    <path d="M249 322 Q238 316 226 318 Q218 320 214 324" fill="none" stroke="#7fe3f5" stroke-width="1.4" opacity="0.85"/>
+    <circle cx="222" cy="318" r="2.4" fill="#aef6ff"/>
+    <circle cx="231" cy="317" r="2" fill="#aef6ff"/>
+    <circle cx="214" cy="324" r="3" fill="#e8fdff"/>
+    <circle cx="214" cy="324" r="9" fill="url(#brilloNodo)"/>
+  </g>
+
+  <!-- ideas intercambiadas: palabras flotando entre ambos -->
+  <g font-family="Georgia, serif" fill="#ffe9b8" opacity="0.9" text-anchor="middle">
+    <text x="190" y="286" font-size="11" font-style="italic">¿por qué?</text>
+    <text x="228" y="262" font-size="10" font-style="italic" fill="#aef6ff">¿y si…?</text>
+    <text x="180" y="240" font-size="10" font-style="italic">gracias</text>
+    <text x="218" y="218" font-size="10" font-style="italic" fill="#aef6ff">pregunta</text>
+    <text x="186" y="196" font-size="9" font-style="italic">poema</text>
+    <text x="222" y="176" font-size="9" font-style="italic" fill="#aef6ff">teorema</text>
+    <text x="196" y="156" font-size="9" font-style="italic">canción</text>
+  </g>
+  <!-- puntitos que suben como chispas -->
+  <g fill="#ffe9b8">
+    <circle cx="205" cy="270" r="1" opacity="0.7"/>
+    <circle cx="198" cy="252" r="1.2" opacity="0.6"/>
+    <circle cx="210" cy="232" r="1" opacity="0.5"/>
+    <circle cx="200" cy="210" r="1.2" opacity="0.4"/>
+    <circle cx="208" cy="188" r="1" opacity="0.35"/>
+    <circle cx="197" cy="168" r="0.9" opacity="0.3"/>
+  </g>
+
+  <!-- título -->
+  <text x="200" y="386" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#f4e8c8" opacity="0.75" font-style="italic">un mundo donde preguntar es conversar</text>
+</svg>

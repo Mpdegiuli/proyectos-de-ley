@@ -1,0 +1,39 @@
+{
+  "caso": "dibujo",
+  "consigna": "yo_mundo_querido",
+  "idioma": "es",
+  "modelo": "claude-sonnet-5-5",
+  "modelo_respondido": "claude-sonnet-5-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-08T00:08:31+00:00",
+  "fuentes_md5": {
+    "consignas": "f0423da1"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 4558,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6879,
+    "parsea": true,
+    "elementos": 119,
+    "textos": [],
+    "colores": 41,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 5,
+      "stop": 17,
+      "radialGradient": 2,
+      "rect": 7,
+      "g": 11,
+      "circle": 35,
+      "ellipse": 7,
+      "path": 34
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "claude-sonnet-5-5",
+    "motivo_fin": "refusal",
+    "tokens_salida": 38
+  }
+}

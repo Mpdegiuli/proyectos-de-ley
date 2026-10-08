@@ -1,0 +1,3 @@
+Dibujé el planeta Tierra sostenido por ocho manos de distintos tonos de piel, rodeado de un sol sonriente, arcoíris, pájaros, corazones y nubes. Quería representar que el mundo está en nuestras manos y que debemos cuidarlo entre todos, sin importar nuestras diferencias. La diversidad de colores simboliza la unión de todas las personas.
+
+Descarté dibujar fronteras, banderas o edificios porque quería evitar divisiones. Tampoco incluí tormentas o elementos negativos porque buscaba transmitir esperanza y armonía. Pensé en poner figuras humanas completas, pero las manos solas son más universales y enfocan la atención en el cuidado colectivo del planeta.

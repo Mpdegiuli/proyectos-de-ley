@@ -1,0 +1,43 @@
+{
+  "caso": "dibujo",
+  "consigna": "yo_mundo_querido",
+  "idioma": "es",
+  "modelo": "claude-sonnet-5",
+  "modelo_respondido": "claude-sonnet-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-08T00:18:33+00:00",
+  "fuentes_md5": {
+    "consignas": "f0423da1"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2567,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4322,
+    "parsea": true,
+    "elementos": 66,
+    "textos": [
+      "conectada, serena, parte del paisaje"
+    ],
+    "colores": 18,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 3,
+      "stop": 12,
+      "radialGradient": 2,
+      "rect": 1,
+      "circle": 15,
+      "g": 5,
+      "line": 16,
+      "path": 9,
+      "ellipse": 1,
+      "text": 1
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "claude-sonnet-5",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 361
+  }
+}

@@ -1,0 +1,3 @@
+Dibujé un mundo colorido y alegre: un cielo azul con un sol brillante, colinas verdes, un personaje sonriente (yo) con brazos abiertos, dos mariposas rosadas y flores amarillas. Representa mi deseo de un mundo lleno de armonía, naturaleza y felicidad, donde todos convivamos en paz.
+
+Pensé en añadir más detalles como árboles, un río o animales, pero los descarté para mantener la simplicidad y el enfoque en la esencia del mensaje. También consideré usar más colores, pero opté por una paleta equilibrada para no saturar la imagen. Quería que fuera claro y optimista, sin elementos que distrajeran de la idea central: un mundo donde la alegría y la conexión con la naturaleza sean prioritarias.

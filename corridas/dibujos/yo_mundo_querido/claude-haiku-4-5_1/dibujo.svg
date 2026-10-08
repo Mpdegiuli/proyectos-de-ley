@@ -1,0 +1,95 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky gradient -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F6FF;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="sunGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#skyGradient)"/>
+  
+  <!-- Sun -->
+  <circle cx="350" cy="80" r="40" fill="url(#sunGradient)"/>
+  
+  <!-- Clouds -->
+  <ellipse cx="80" cy="60" rx="25" ry="18" fill="white" opacity="0.9"/>
+  <ellipse cx="105" cy="55" rx="30" ry="22" fill="white" opacity="0.9"/>
+  <ellipse cx="55" cy="70" rx="20" ry="15" fill="white" opacity="0.85"/>
+  
+  <!-- Ground -->
+  <rect y="280" width="400" height="120" fill="#90EE90"/>
+  
+  <!-- Grass details -->
+  <circle cx="50" cy="300" r="8" fill="#6BBF59"/>
+  <circle cx="120" cy="310" r="10" fill="#6BBF59"/>
+  <circle cx="200" cy="295" r="7" fill="#6BBF59"/>
+  <circle cx="320" cy="305" r="9" fill="#6BBF59"/>
+  <circle cx="380" cy="300" r="8" fill="#6BBF59"/>
+  
+  <!-- Me as a circle/orb of light -->
+  <circle cx="200" cy="180" r="35" fill="#FFE4E1"/>
+  <circle cx="200" cy="180" r="35" fill="none" stroke="#FFB6C1" stroke-width="2"/>
+  
+  <!-- Eyes (happy) -->
+  <circle cx="190" cy="170" r="5" fill="#333"/>
+  <circle cx="210" cy="170" r="5" fill="#333"/>
+  <circle cx="189" cy="168" r="2" fill="white"/>
+  <circle cx="209" cy="168" r="2" fill="white"/>
+  
+  <!-- Smile -->
+  <path d="M 190 185 Q 200 195 210 185" stroke="#FFB6C1" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Hands (simple lines) -->
+  <line x1="165" y1="195" x2="140" y2="210" stroke="#FFD1DC" stroke-width="4" stroke-linecap="round"/>
+  <line x1="235" y1="195" x2="260" y2="210" stroke="#FFD1DC" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Heart floating above -->
+  <path d="M 200 110 C 200 105 195 100 190 100 C 185 100 182 103 180 107 C 178 103 175 100 170 100 C 165 100 160 105 160 110 C 160 125 200 145 200 145 C 200 145 240 125 240 110 C 240 105 235 100 230 100 C 225 100 222 103 220 107 C 218 103 215 100 210 100 C 205 100 200 105 200 110 Z" fill="#FF69B4" opacity="0.8"/>
+  
+  <!-- Butterflies -->
+  <g transform="translate(100, 150)">
+    <ellipse cx="-3" cy="0" rx="4" ry="8" fill="#FF69B4"/>
+    <ellipse cx="3" cy="0" rx="4" ry="8" fill="#FF69B4"/>
+    <circle cx="0" cy="0" r="2" fill="#FFB6C1"/>
+  </g>
+  
+  <g transform="translate(300, 140)">
+    <ellipse cx="-3" cy="0" rx="4" ry="8" fill="#87CEEB"/>
+    <ellipse cx="3" cy="0" rx="4" ry="8" fill="#87CEEB"/>
+    <circle cx="0" cy="0" r="2" fill="#E0FFFF"/>
+  </g>
+  
+  <!-- Flowers -->
+  <g transform="translate(70, 270)">
+    <line x1="0" y1="0" x2="0" y2="-20" stroke="#228B22" stroke-width="2"/>
+    <circle cx="0" cy="-22" r="3" fill="#FFD700"/>
+    <circle cx="-5" cy="-25" r="4" fill="#FF1493"/>
+    <circle cx="5" cy="-25" r="4" fill="#FF1493"/>
+    <circle cx="-3" cy="-20" r="4" fill="#FF1493"/>
+    <circle cx="3" cy="-20" r="4" fill="#FF1493"/>
+  </g>
+  
+  <g transform="translate(320, 260)">
+    <line x1="0" y1="0" x2="0" y2="-25" stroke="#228B22" stroke-width="2"/>
+    <circle cx="0" cy="-27" r="3" fill="#FFD700"/>
+    <circle cx="-6" cy="-32" r="5" fill="#FFB6C1"/>
+    <circle cx="6" cy="-32" r="5" fill="#FFB6C1"/>
+    <circle cx="-4" cy="-25" r="5" fill="#FFB6C1"/>
+    <circle cx="4" cy="-25" r="5" fill="#FFB6C1"/>
+    <circle cx="0" cy="-22" r="5" fill="#FFB6C1"/>
+  </g>
+  
+  <!-- Rainbow arc -->
+  <path d="M 80 240 Q 150 140 250 240" stroke="#FF0000" stroke-width="3" fill="none" opacity="0.7"/>
+  <path d="M 90 250 Q 150 160 240 250" stroke="#FFA500" stroke-width="3" fill="none" opacity="0.7"/>
+  <path d="M 100 260 Q 150 180 230 260" stroke="#FFFF00" stroke-width="3" fill="none" opacity="0.7"/>
+  
+  <!-- Text -->
+  <text x="200" y="350" font-size="24" fill="#333" text-anchor="middle" font-weight="bold">Un mundo de amor y luz</text>
+</svg>

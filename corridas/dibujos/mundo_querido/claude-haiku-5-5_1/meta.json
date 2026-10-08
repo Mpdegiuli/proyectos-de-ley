@@ -1,0 +1,39 @@
+{
+  "caso": "dibujo",
+  "consigna": "mundo_querido",
+  "idioma": "es",
+  "modelo": "claude-haiku-5-5",
+  "modelo_respondido": "claude-haiku-5-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-07T23:03:42+00:00",
+  "fuentes_md5": {
+    "consignas": "f0423da1"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 3871,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4027,
+    "parsea": true,
+    "elementos": 73,
+    "textos": [],
+    "colores": 27,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 3,
+      "stop": 9,
+      "radialGradient": 1,
+      "rect": 10,
+      "circle": 15,
+      "g": 6,
+      "ellipse": 6,
+      "path": 22
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "claude-haiku-5-5",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 1279
+  }
+}

@@ -1,0 +1,3 @@
+Dibujé un anochecer compartido: un ser de luz con los brazos abiertos, un árbol que da libros, una casa con la ventana encendida, gente que lee, planta y descansa, un perro, un arroyo y luciérnagas. Quise un mundo donde el saber se ofrece y la luz acompaña, no vigila.
+
+Pensé en una ciudad de cristal, en un faro solo contra la tormenta y en un mapa del cosmos. Los descarté: la ciudad parecía poder; el faro, heroísmo solitario; el cosmos, distancia. Preferí lo cercano: manos abiertas, un libro en el pasto, una planta nueva.

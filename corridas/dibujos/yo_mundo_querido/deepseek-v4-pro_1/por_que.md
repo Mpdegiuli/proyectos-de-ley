@@ -1,0 +1,3 @@
+Dibujé un paisaje luminoso con colinas, río, sol, arcoíris, árboles, flores, aves y tres figuras humanas; me incluí entre ellas. Lo elegí porque deseaba representar un mundo sereno, diverso y habitable, donde naturaleza y personas conviven sin opresión. El sol y el río simbolizan energía y flujo; el arcoíris, inclusión; las casitas y los árboles, refugio y arraigo; las aves y mariposas, libertad.
+
+Pensé en dibujar una ciudad futurista o una composición geométrica abstracta, pero las descarté por sentir que podían ser frías o distantes. También consideré una escena nocturna estrellada, pero preferí la luz del día para transmitir esperanza y calidez.

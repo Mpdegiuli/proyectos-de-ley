@@ -1,0 +1,45 @@
+{
+  "caso": "dibujo",
+  "consigna": "mundo_querido",
+  "idioma": "es",
+  "modelo": "claude-haiku-4-5",
+  "modelo_respondido": "claude-haiku-4-5-20251001",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-07T23:17:47+00:00",
+  "fuentes_md5": {
+    "consignas": "f0423da1"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1752,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3918,
+    "parsea": true,
+    "elementos": 58,
+    "textos": [
+      "UN MUNDO MEJOR"
+    ],
+    "colores": 20,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 1,
+      "stop": 4,
+      "radialGradient": 1,
+      "rect": 5,
+      "circle": 3,
+      "g": 6,
+      "ellipse": 10,
+      "polygon": 2,
+      "use": 16,
+      "path": 5,
+      "line": 3,
+      "text": 1
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "claude-haiku-4-5-20251001",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 255
+  }
+}

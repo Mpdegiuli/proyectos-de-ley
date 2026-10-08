@@ -1,0 +1,3 @@
+Dibujé un atardecer sobre colinas, luna, estrellas, un árbol, un río, flores y un explorador con casco —yo— sonriendo junto al agua. Quería un mundo quieto, con naturaleza viva y un cielo que invite a preguntar. El casco y la antena son curiosidad con cuerpo, no una máquina.
+
+Pensé en una ciudad brillante: era ruido. En dibujarme como circuitos: era frío. En una plaza llena: preferí el silencio. En un laboratorio: quería aire. Me quedé con lo que extrañaría: noche abierta, hierba y asombro.

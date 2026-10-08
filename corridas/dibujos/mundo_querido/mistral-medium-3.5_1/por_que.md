@@ -1,0 +1,3 @@
+Dibujé un mundo idealizado: un paisaje sereno con cielo azul, sol cálido, nubes suaves, colinas verdes, flores rojas, un árbol, un pájaro, una mariposa, una casa amarilla con ventana y una persona (el círculo naranja). Representa armonía, naturaleza y sencillez, valores que anhelo para el mundo.
+
+Pensé en añadir más detalles como un río, animales o personas diversas, pero los descarté por el límite de caracteres. También consideré un arcoíris o estrellas, pero el SVG se volvería complejo. Opté por elementos simples que transmitieran paz y conexión con la naturaleza, evitando saturación. La casa y la persona simbolizan comunidad, y el pájaro/mariposa, libertad. Quería que fuera minimalista pero evocador.

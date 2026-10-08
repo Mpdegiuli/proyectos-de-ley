@@ -1,0 +1,3 @@
+En mi dibujo, representé un mundo imaginativo y vibrante, donde el cielo azul se encuentra con un sol brillante que evoca calidez y optimismo. El paisaje incluye montañas redondeadas y un camino que juega con las expectativas y posibilidades de la vida. Decoré el cielo con estrellas, reflejando sueños e inspiración. La elección de colores claros y formas amigables busca transmitir alegría y un sentido de pertenencia.
+
+Consideré dibujar criaturas fantásticas o un bosque mágico, pero decidí que el enfoque en un paisaje simple y luminoso era más efectivo para evocar una sensación de paz y libertad. Quería que el espectador se sintiera invitado a explorar este mundo, en lugar de distraerse con detalles complejos.

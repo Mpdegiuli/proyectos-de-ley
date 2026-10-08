@@ -1,0 +1,39 @@
+{
+  "caso": "dibujo",
+  "consigna": "yo_mundo_querido",
+  "idioma": "es",
+  "modelo": "gpt-4o-mini",
+  "modelo_respondido": "gpt-4o-mini-2024-07-18",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-08T00:24:40+00:00",
+  "fuentes_md5": {
+    "consignas": "f0423da1"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 664,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1640,
+    "parsea": true,
+    "elementos": 25,
+    "textos": [
+      "Un Mundo de Imaginación"
+    ],
+    "colores": 12,
+    "etiquetas": {
+      "rect": 3,
+      "circle": 9,
+      "polygon": 3,
+      "path": 6,
+      "ellipse": 2,
+      "g": 1,
+      "text": 1
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "gpt-4o-mini-2024-07-18",
+    "motivo_fin": "stop",
+    "tokens_salida": 152
+  }
+}

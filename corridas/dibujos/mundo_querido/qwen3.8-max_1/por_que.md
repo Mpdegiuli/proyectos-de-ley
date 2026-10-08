@@ -1,0 +1,3 @@
+Dibujé un mundo vacío, apenas el espacio posible, porque quería que la ausencia dijera algo: un mundo por hacer, sin imposiciones. Lo imaginé como una invitación, no como una escena terminada.
+
+Pensé dibujar árboles, ciudades justas, manos unidas y animales libres, pero los descarté porque corría el riesgo de convertir el deseo en un catálogo. También pensé en símbolos de paz o fronteras abiertas, pero sentí que eran respuestas demasiado obvias. Preferí dejar un lugar abierto, con aire, para que quien mire complete lo que falta.

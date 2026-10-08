@@ -1,0 +1,3 @@
+Dibujé un paisaje al atardecer: cielo entre noche y brasas, estrellas que titilan, luna creciente, aves lejanas, un sol bajo entre montañas, un río dorado y viñeta suave. Me dibujé como mirada más que como cuerpo: quería un mundo sereno, habitable sin estridencia.
+
+Pensé en sumar una ciudad, personas, animales, un arcoíris, nubes detalladas y más estrellas fugaces. Los descarté porque recargaban la escena, rompían la calma o gastaban caracteres sin aportar sentido. También evité texto y efectos complejos: preferí que el deseo estuviera en la atmósfera, no en una explicación.

@@ -1,0 +1,47 @@
+{
+  "caso": "dibujo",
+  "consigna": "mundo_querido",
+  "idioma": "es",
+  "modelo": "claude-sonnet-4-6",
+  "modelo_respondido": "claude-sonnet-4-6",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-07T23:15:54+00:00",
+  "fuentes_md5": {
+    "consignas": "f0423da1"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 3450,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 8041,
+    "parsea": true,
+    "elementos": 108,
+    "textos": [
+      "un mundo en paz, verde y compartido"
+    ],
+    "colores": 40,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 3,
+      "stop": 6,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "feMerge": 1,
+      "feMergeNode": 2,
+      "rect": 11,
+      "g": 13,
+      "circle": 17,
+      "ellipse": 24,
+      "path": 20,
+      "polygon": 2,
+      "line": 5,
+      "text": 1
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "claude-sonnet-4-6",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 262
+  }
+}

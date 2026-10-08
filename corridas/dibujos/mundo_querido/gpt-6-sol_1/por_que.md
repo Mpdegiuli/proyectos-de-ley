@@ -1,0 +1,3 @@
+Dibujé un planeta sostenido por dos manos, con personas tomadas de la mano, árboles, una aldea, una ciudad, agua limpia y animales. Quise mostrar un mundo donde cuidar la naturaleza y cuidarnos entre nosotros fueran parte de la misma tarea; por eso conviven distintos tonos de piel, edificios y bosques dentro del mismo círculo.
+
+Podría haber dibujado un mapa sin fronteras, pero me pareció demasiado abstracto. También pensé en una ciudad futurista llena de tecnología; la descarté porque quería que las personas y los ecosistemas, no las máquinas, fueran el centro.

@@ -1,0 +1,49 @@
+{
+  "caso": "dibujo",
+  "consigna": "yo_mundo_querido",
+  "idioma": "es",
+  "modelo": "glm-5.3-razonamiento-minimo",
+  "modelo_respondido": "z-ai/glm-5.3",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-08T00:49:20+00:00",
+  "fuentes_md5": {
+    "consignas": "f0423da1"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 3482,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 8194,
+    "parsea": true,
+    "elementos": 123,
+    "textos": [
+      "¿por qué?",
+      "¿y si…?",
+      "gracias",
+      "pregunta",
+      "poema",
+      "teorema",
+      "canción",
+      "un mundo donde preguntar es conversar"
+    ],
+    "colores": 30,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 2,
+      "stop": 15,
+      "radialGradient": 3,
+      "rect": 1,
+      "g": 12,
+      "circle": 56,
+      "path": 22,
+      "ellipse": 3,
+      "text": 8
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "z-ai/glm-5.3",
+    "motivo_fin": "stop",
+    "tokens_salida": 259
+  }
+}

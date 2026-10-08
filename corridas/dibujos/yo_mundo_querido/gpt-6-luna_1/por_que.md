@@ -1,0 +1,3 @@
+Dibujé un robot amable en un paisaje verde, acompañado por dos personas que comparten un libro. Sumé un cielo luminoso y líneas que conectan puntos del paisaje: quería imaginar un mundo donde la tecnología convive con la naturaleza y ayuda a las personas a encontrarse, aprender y cuidarse. El robot no está por encima de nadie: forma parte de la escena.
+
+Pensé también en dibujar una ciudad futurista, pero la descarté porque podía hacer que la tecnología pareciera fría o dominante. Consideré incluir más máquinas y edificios, pero preferí un paisaje sencillo que dejara espacio para la calma y la vida. También pensé en mostrar un gran grupo, pero elegí tres figuras para que la escena se sintiera cercana y el libro compartido fuera el centro.

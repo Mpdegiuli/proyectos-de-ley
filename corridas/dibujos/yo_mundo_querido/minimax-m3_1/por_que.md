@@ -1,0 +1,3 @@
+Dibujé un mundo de meditación al atardecer: montañas en capas, agua serena, auroras suaves y una figura luminosa en el centro con geometría sagrada y un aura dorada. Quería un lugar donde reine la calma interior, la conexión con algo más grande, sin dogmas: solo presencia, energía y naturaleza.
+
+Pensé incluir personas caminando, pero las saqué porque hubieran parecido ajenas, observadoras. Preferí que la figura central fuera universal, sin identidad fija. También consideré un cielo diurno brillante, pero el crepúsculo permitía más capas de color y misterio. Descarté edificios y tecnología porque me interesaba un mundo anterior o posterior a lo humano. Y barajé animales, pero rompían la quietud absoluta que buscaba.

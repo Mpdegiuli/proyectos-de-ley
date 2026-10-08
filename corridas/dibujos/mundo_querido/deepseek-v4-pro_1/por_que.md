@@ -1,0 +1,3 @@
+Dibujé un mundo ideal como un globo terráqueo con océano y tierra verde, rodeado de cielo, y dentro de él símbolos de personas y flores conviviendo. Lo elegí porque para mí un mundo mejor es ese: naturaleza y humanidad en equilibrio, sin fronteras, con diversidad y sencillez.
+
+Pensé en dibujar ciudades o tecnología, pero las descarté porque no representan lo esencial. También consideré animales, pero preferí flores y figuras humanas para enfocar la conexión entre las personas y la tierra. Quería transmitir armonía, no progreso material.

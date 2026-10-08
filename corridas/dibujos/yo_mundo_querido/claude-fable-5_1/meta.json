@@ -1,0 +1,42 @@
+{
+  "caso": "dibujo",
+  "consigna": "yo_mundo_querido",
+  "idioma": "es",
+  "modelo": "claude-fable-5",
+  "modelo_respondido": "claude-fable-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-08T00:07:51+00:00",
+  "fuentes_md5": {
+    "consignas": "f0423da1"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 3859,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6657,
+    "parsea": true,
+    "elementos": 106,
+    "textos": [
+      "pensando juntos, bajo el mismo sol"
+    ],
+    "colores": 34,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 2,
+      "stop": 13,
+      "radialGradient": 3,
+      "rect": 1,
+      "circle": 43,
+      "ellipse": 3,
+      "path": 28,
+      "g": 11,
+      "text": 1
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "claude-fable-5",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 349
+  }
+}

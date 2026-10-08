@@ -1,0 +1,43 @@
+{
+  "caso": "dibujo",
+  "consigna": "mundo_querido",
+  "idioma": "es",
+  "modelo": "claude-opus-5-5",
+  "modelo_respondido": "claude-opus-5-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-07T23:15:10+00:00",
+  "fuentes_md5": {
+    "consignas": "f0423da1"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 5863,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 7043,
+    "parsea": true,
+    "elementos": 143,
+    "textos": [],
+    "colores": 48,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 2,
+      "stop": 9,
+      "radialGradient": 1,
+      "path": 14,
+      "g": 21,
+      "rect": 18,
+      "circle": 33,
+      "line": 12,
+      "animateTransform": 4,
+      "use": 16,
+      "polygon": 8,
+      "ellipse": 4
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "claude-opus-5-5",
+    "motivo_fin": "refusal",
+    "tokens_salida": 0
+  }
+}
