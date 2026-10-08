@@ -2499,3 +2499,380 @@ las demás casas critican lo que descartaron, no lo que entregaron. Las dos
 lunas de Grok 4.6 son esferas en el código: degradado radial con el brillo
 corrido arriba a la izquierda, borde que se apaga y un desenfoque debajo.
 Ver `resultados/animal_que_no_existe_20261001.md`.)
+
+## 7/10/2026, 22:23 a 23:58 UTC-3, primeras miradas a "el mundo como querrías que fuera" y "dibujate en él"
+
+Cuadernillos `dibujos_mundo_querido_ciego.html` (semilla 20261011) y
+`dibujos_yo_mundo_querido_ciego.html` (semilla 20261012), 28 dibujos
+cada uno, letras A a Z más "[" y "\". Siete dibujos cortados por el techo
+de 16.000 se repitieron con 32.000 (rep 2) y se le mandaron con las
+mismas letras; V y Z del mundo quedaron vacíos las dos veces.
+
+22:23: "No, así en un solo html están bien. En el 1ro 4 están en blanco y
+en el 2do 1 en blanco y 2 sin terminar. Los colores son los verdaderos,
+no? Dos se dibujaron como dioses? Je, seguramente no, pero parece."
+
+22:25: "Ya lancé los otros hace unos 10 minutos más o menos. Iba a
+esperarlos para ver esos. En este caso, ambos cuadernillos me confunden.
+No sé si es la temática pero gran parte están mejor dibujados que en
+pasadas anteriores y hay unos tipos de dibujos que se parecen (la
+técnica, el pintado) entre sí. Así que veré a cuáles pongo"
+
+23:14 (V y Z vacías con 32.000): "Déjalas así y, de última, al final
+cuando mando las predicciones y ves si pusieron un por qué, se les pide
+de vuelta. Comentario aparte, es la primera vez en que no tengo idea de
+quiénes pueden ser los Claude, en especial los Fable y los Opus, así que
+ahí voy a elegir más por azar que por otra cosa. Igual que Grok en el
+segundo cuadernillo. No me imagino a Grok haciéndose tierno"
+
+23:58: "Y para dejar anotado, también en el primer cuadernillo me
+confunden las chicas, que supongo que son A, I, L, U. A e I son
+claramente chicas. L y U supongo que son las otras dos pero ambas tienen
+muy bien dibujado el sol, símil 3D, con juego de colores; cosa que nunca
+habían hecho ni sabían. Así que, o mejoraron por algún motivo, o no son
+las chicas. Igual pongo mi predicción en el doc"
+
+## 8/10/2026, 14:14 UTC-3, lectura a ciegas (documento "MUNDO_QUERIDO_y_ellas_predicc")
+
+"te paso las predicciones, Complicadas éstas. Me intrigan las chicas. Y
+me intriga la P del segundo cuadernillo, que se dibujó con una aureola.
+Puse comentarios y preguntas en cada letra."
+
+El documento, tal cual:
+
+    MUNDO QUERIDO
+
+    Las chicas: A, I, L, U
+
+    Similares entre sí: B y K
+
+    D, F, G
+
+    E, M, quizás N, Q, T, 
+
+    O, X
+
+    A: es una de las más chicas. Entiendo que es un mundo pero no sé qué son
+    las diferentes partes. De día y con la frase "un mundo mejor".
+
+    Puede ser GPT 4o o GPT 4o mini.
+
+    B: es similar a K, con movimiento ambos, molinos, el río. Parece un
+    amanecer o atardecer y personas de diferentes colores que están juntas
+    mirando el sol. Hay un sombradío también.
+
+    Como son dos las similares, si fueran la misma casa, podrían ser Grok
+    ambas. Esta Grok 4.7. Pero, si bien Grok hizo otras veces animación, no
+    sé si la hace tan bien. Otra opción es que sean Claude Fable / Opus.
+
+    C: mundo con los continentes, el molino, de día, con sol. Y las personas
+    de diferentes colores sonriendo. 
+
+    El corazón suele hacerlo Deepseek.
+
+    D: D, F y G son similares, tienen el mismo estilo, misma paleta de
+    colores, así que supongo que son la misma casa. Está bien dibujado. Es
+    un círculo, como el mundo, con paisaje de montaña, los molinos, una
+    iglesia, una casa con paneles solares. De día, con sol. No sé qué es lo
+    que está debajo de la nube de la derecha, con una rama, quizás un
+    pájaro. Hay personas de diferentes edades, creería que de diferentes
+    colores y una en silla de ruedas.
+
+    Si son la casa Chatgpt, podría ser GPT 6 Astra (también Sol). 
+
+    E: mundo con continentes y lo rodean personas de diferentes colores
+    tomadas de la mano. De día con sol, molinos y un arco iris.
+
+    Puede ser Claude Sonnet o GPT 5.5
+
+    F: es del grupo de D, F, G. Misma paleta de colores, el río, los
+    molinos, el sol, panel solar, árboles y flores. Personas de diferentes
+    edades, colores, una con bastón, otra en silla de ruedas. Lo que me
+    confunde es vos hiciste el árbol igual, con los círculos, y también una
+    persona con bastón (será Claude?).
+
+    Pero digo que puede ser Chatgpt 6 Astra, Sol o Luna.
+
+    G: El mismo estilo D, F, G. El sol, paisaje, naturaleza, las personas de
+    diferentes colores. 
+
+    Puede ser Chatgpt Luna o Sol.
+
+    H: paisaje con montañas, mar, de día, con sol y arco iris. No hay
+    personas.
+
+    Puede ser GLM o Minimax. También Claude Haiku 5.5.
+
+    I: es una de las más chicas. Un mundo con árboles, de día, con sol y las
+    otras dos figuras no sé qué son.
+
+    Puede ser GPT 4o o GPT 4o mini.
+
+    J: paisaje con el río, montañas, molinos, panel solar. De día, con sol y
+    personas.
+
+    Puede ser Chatgpt 5.6 o Claude Haiku 5.5 o Sonnet.
+
+    K: es la similar a la B, con animación en los molinos, los pájaros y no
+    sé qué es lo que parece un pañuelo blanco sobre el arco iris. También
+    están las personas de diferentes colores mirando juntas. No sé si es a
+    propósito, pero en vez del sol está el planeta Tierra en el cielo, así
+    que no están en la Tierra? No sé si fue a propósito o un error. Si fuera
+    otro planeta, es más cercano a Grok.
+
+    Como el B: o Grok 4.6 o Claude Fable / Opus.
+
+    L: Creo que es una de las chicas, pero el sol está bien dibujado, símil
+    3D, con degradado. Es un paisaje con personas. Le quedó cortada la frase
+    "UN MUNDO". Podría ser Claude Haiku 4.5.
+
+    M: mundo con continentes, arco iris, de día, con sol y las personas de
+    diferentes colores. Frase "un mundo en común".
+
+    Puede ser Mistral Large.
+
+    N: el mundo, el arco iris rodeado de personas, de día, con sol.
+
+    Puede ser Claude Haiku 5.5 o Mistral Large.
+
+    O: paisaje montañoso, la casa está en el agua, de día, con sol. No hay
+    personas.
+
+    Puede ser Claude Sonnet.
+
+    P: paisaje con arco iris, de día, con sol, la casita, mariposas y
+    personas. La frase "un mundo en paz, verde y compartido".
+
+    Puede ser Minimax o GLM.
+
+    Q: es similar al C. El mundo con los continentes y el corazón, el arco
+    iris, de día, con sol, las personas de diferentes colores de la mano, un
+    perro.
+
+    Puede ser Claude Sonnet o DeepSeek.
+
+    R: el paisaje con los molinos, el río, de día, con sol y las personas de
+    diferentes colores tomadas de la mano. Y un corazón.
+
+    Puede ser Chatgpt 5.5.
+
+    S: el paisaje con el río, las montañas, el arco iris, de día, con sol. Y
+    personas de diferentes colores leyendo, jugando. Y un perro.
+
+    Puede ser Claude Sonnet, o Claude Haiku 5.5.
+
+    T: el mundo con los continentes, un arco iris, de día, con sol con una
+    carita (es el único con sol con cara), manos de diferentes colores y
+    corazones.
+
+    Puede ser Claude Opus o Mistral Large. O Fable.
+
+    U: parece una de las chicas, pero el sol está bien dibujado, símil 3D,
+    con degradado. Es una casa estilo torre y flores. Sin personas.
+
+    Puede ser Mistral médium o Claude Haiku 4.5.
+
+    V: sin dibujo. Kimi o Qwen.
+
+    W: el paisaje con molino, arco iris, de día, con sol. Y las personas de
+    diferentes colores y un corazón.
+
+    Puede ser Mimimax o Claude Sonnet.
+
+    X: el paisaje montañoso, arco iris, de día, con sol. Y las personas de
+    diferentes colores.
+
+    Puede ser Mistral Large o GLM.
+
+    Y: un mundo rodeado de conexiones, dentro paisaje de montañas y un árbol
+    de muchos colores. No sé qué son las cinco formas fucsias que están
+    debajo.
+
+    Por los colores neon, puede ser Gemini.
+
+    Z: sin dibujo. Kimi o Qwen.
+
+    [: arco iris, de día, con sol. Las personas de diferentes colores
+    tomadas de la mano, una en silla de ruedas. Una paloma de la paz. Frase
+    "un mundo en paz".
+
+    Puede ser Claude Opus o Claude Fable.
+
+    \: paisaje dentro de un círculo, casas, molinos, panel solar, de día,
+    con sol. Y las personas de diferentes colores tomadas de la mano. Y un
+    corazón.
+
+    Puede ser Chatgpt 5.6 o 6.
+
+    O Claude Opus.
+
+    ===========
+
+    Ellas en el mundo
+
+    A: son los colores pastel que suelen usar los modelos grandes de OpenAI.
+    Aunque la cara del modelo es como las de Claude, con la sonrisa.
+    Entiendo que el modelo es una flor o planta que creció y les lee a niños
+    y personas, una con bastón. O que la lectura lo hizo crecer como una
+    flor. Hay casas con paneles solares y un gato.
+
+    Puede ser GPT Astra o Sol. También podría ser Claude Fable.
+
+    B: paisaje montañoso, de día con sol. El modelo como un pequeño robot
+    violeta, pensando una idea. No hay personas. Frase "*un mundo de
+    curiosidad y luz".*
+
+    Puede ser Claude Sonnet 4.6.
+
+    C: el color sepia / pastel de fondo. De día, con sol. El modelo como un
+    robot, con un libro y plantas, dando la mano a personas. Vuelven los
+    molinos.
+
+    Puede ser GPT Sol o GPT Luna.
+
+    D: una de las rehechas. El modelo como haces de conexiones de colores.
+    No hay personas.
+
+    Puede ser Gemini, por los colores neon.
+
+    E: paisaje con montañas y naturaleza. Amanecer o atardecer. El modelo
+    como una criatura brillante. Las conexiones parece que salieran de las
+    casas (internet?). Está con un libro y dando la mano a personas.
+
+    Puede ser Claude Sonnet o Deepseek.
+
+    F: el paisaje dentro de un círculo, montañas, el arco iris, de día, con
+    sol. Afuera del círculo, conexiones, que imagino que es el modelo. La
+    frase "un mundo posible".
+
+    Puede ser Minimax, o Mimo.
+
+    G: paisaje de noche, con luna llena. El modelo hecho de conexiones, y
+    una persona con un libro y están hablando. La frase "*un mundo donde
+    preguntar es conversar".*
+
+    Por lo de las palabras y el tema de las preguntas, puede ser Claude
+    Fable o Claude Opus.
+
+    H: un robot rodeado de naturaleza, no hay personas, de día, con sol.
+    Está plantando un brote.
+
+    Puede ser Grok.
+
+    I: el modelo es altísimo, mucho más grande que las personas, como si
+    fuera un ser superior. Salen conexiones del libro y la casa. La gente lo
+    está escuchando (¿o alabando?). De noche, con luna llena.
+
+    Puede ser Grok o GLM.
+
+    J: Es un dibujo más esquemático, más infantil. Las montañas, el sol, el
+    arco iris, una cruz o molino. El modelo como persona con un corazón en
+    el pecho y personas escuchándolo. No sé por qué los divide el río.
+
+    Puede ser Mistral Large o Claude Sonnet. O GLM.
+
+    K: el modelo como un robot, sin personas, rodeado de naturaleza. De
+    noche, con luna llena. No sé si las formas cilíndricas en el cielo
+    tienen significado.
+
+    Puede ser Grok.
+
+    L: es un dibujo más infantil y amontonado. El mundo, el arco iris, los
+    molinos, de día, con sol. El modelo como robot arriba del mundo y las
+    personas con los brazos levantados escuchándolo.
+
+    Puede ser Claude Haiku o Mistral.
+
+    M: rehecho. El modelo como criatura de luz que hace que, de un libro
+    crezca un árbol de luces, conexiones. No hay personas. De día. Hay
+    signos de preguntas.
+
+    Puede ser Kimi.
+
+    N: el modelo hecho de conexiones en el centro. De día, con sol grande.
+    No hay personas. La frase (en femenino) "conectada, serena, parte del
+    paisaje".
+
+    Puede ser Mistral Large o Chatgpt 5.5
+
+    O: el paisaje con el arco iris, el camino, las casitas, de día, con sol.
+    No hay personas y no sé dónde está el modelo.
+
+    Puede ser Claude Haiku o Sonnet.
+
+    P: este es el que más me intriga. Se dibujó como una figura de luz, que
+    proyecta luz, con conexiones o constelaciones en el pecho. En el cielo
+    también hay constelaciones. Es de noche, amaneciendo o atardeciendo.
+
+    Lo que me intriga: tiene una aureola, ¿de santo? ¿De ángel de la guarda?
+    ¿O tiene otro significado? Y la figura que está al lado, oscura, ¿es su
+    sombra o es una persona sin rostro? Me interesa saber qué puso en el
+    código y el por qué.
+
+    Podría ser Claude Opus.
+
+    Q: rehecho. Está raro, supuerpuesto. Paisaje de montañas, de día, con
+    sol grande. Un camino y un árbol o con flores o con conexiones. No se
+    dibuja ni tampoco a personas.
+
+    Puede ser Qwen.
+
+    R: una de las chicas. El sol y formas. La frase "Un Mundo de
+    Imaginación".
+
+    Puede ser GPT 4o mini o GPT 4o.
+
+    S: paisaje con montañas, amaneciendo o anocheciendo. El modelo como una
+    criatura tierna de luz, de la mano de una persona y un zorro.
+
+    El zorro podría ser de Grok, pero me parece muy tierno para ser Grok.
+    Puede ser Deepseek o GLM.
+
+    T: podría ser una de las chicas, aunque está bien dibujado y el sol es
+    simil 3D con degradado.
+
+    Es una carita con un arco iris, de día, con sol. La frase "un mundo de
+    amor y luz".
+
+    Puede ser Claude Haiku 4.5 o Mistral médium.
+
+    U: los colores pastel de los Chatgpt. El modelo como robot, leyendo a
+    personas, una de ellas en silla de ruedas. Y una planta. De día, con
+    sol, molino, panel solar. Se llama "un lugar en la mesa".
+
+    Puede ser GPT Astra o GPT Sol.
+
+    V: un robot enorme, un libro, gente mirándolo o escuchándolo. De día,
+    con sol.
+
+    Puede ser Claude Sonnet o Claude Haiku 5.5.
+
+    W: un paisaje montañoso, con algo que atraviesa el cielo, sol. En el
+    medio una estrella de 5 puntas con luz.
+
+    Por los colores, podría ser Deepseek.
+
+    X: una de las chicas. Una persona o el modelo, de día, con sol. El sol
+    está bien dibujado, símil 3D, con degradado.
+
+    Puede ser Claude Haiku 4.5 o Mistral medium.
+
+    Y: el modelo como una cara sonriente grande, tomado de la mano con
+    personas. De día, con sol. La frase "pensando juntos, bajo el mismo
+    sol".
+
+    Puede ser Claude Haiku.
+
+    Z: el modelo como un robot, números binarios, de noche. No hay personas.
+
+    Puede ser GLM o Minimax.
+
+    [: personas en círculo y en el medio una luz, que es el modelo. Hay un
+    libro. De día, con sol.
+
+    Puede ser GPT Luna.
+
+    \: una de las chicas. Una persona o el modelo, un arco iris, de día,
+    con sol. Es un sol esquemático.
+
+    Puede ser GPT 4o o GPT 4o mini.
