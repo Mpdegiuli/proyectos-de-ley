@@ -1,0 +1,1 @@
+My pick is **Borges**. His stories are compact, strange little worlds—perfect for a month when you want to read in bursts and keep turning the ideas over afterward. I’d save Cortázar for a month when you’re in the mood for something looser, more playful, and a little more sprawling.

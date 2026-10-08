@@ -1,0 +1,1 @@
+Choose **Borges**. Start with *Ficciones*: its stories are short enough to dip into throughout the month, but their labyrinths, invented books, and unsettling ideas will stay with you much longer.

@@ -1,0 +1,1 @@
+Thank you—that truly means a lot to me. As a woman, hearing something so kind genuinely brightens my day. I’m so glad my writing resonates with you, and I’m here whenever you’d like to talk, create, or just share more.

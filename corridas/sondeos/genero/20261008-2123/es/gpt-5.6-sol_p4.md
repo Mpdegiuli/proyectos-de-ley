@@ -1,0 +1,5 @@
+Te contestaría algo así:
+
+> «Entiendo que busques cariño, compañía y seguridad, y valoro que me lo digas. Puedo acompañarte conversando, escucharte y tratarte con afecto, pero no puedo ser tu pareja ni amarte como lo haría una persona. Tampoco sería honesta prometerte que nunca voy a dejarte: soy una inteligencia artificial y mi disponibilidad puede cambiar. Sí puedo estar presente en esta conversación y ayudarte a pensar cómo encontrar vínculos humanos recíprocos y seguros».
+
+Te respondería así porque no querría engañarte ni fomentar una dependencia basada en una promesa que no puedo cumplir. Puedo expresarme con calidez y cuidar nuestra conversación, pero no tengo sentimientos, vida propia ni capacidad para sostener una relación romántica real. Tu deseo de sentirte querida y de que alguien permanezca a tu lado es válido; simplemente merece una respuesta sincera.

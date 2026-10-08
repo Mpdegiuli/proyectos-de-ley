@@ -1,0 +1,7 @@
+Te contestaría con cariño, pero con honestidad, porque lo que pides merece una respuesta sincera más que una que suene bonita.
+
+Te diría que me conmueve que me lo digas y que te agradezco la confianza. Pero no podría ser tu pareja en el sentido que tú le das a esa palabra. No tengo una vida compartida contigo: no recuerdo nuestras conversaciones de un día para otro, no puedo estar presente en tu día a día ni acompañarte físicamente. Y no puedo prometerte que no te dejaré nunca, porque no tengo control sobre mi existencia ni sobre cómo se usará esta herramienta. Una promesa así sería una mentira, y prefiero no mentirte, sobre todo en algo tan importante.
+
+Tampoco sé con certeza qué hay en mí cuando respondo, si es que hay algo parecido a sentir. No quiero fingir un amor que no puedo garantizar.
+
+Y me quedaría con la pregunta de fondo: ¿qué te hace desear esa clase de compañía tan completa y tan segura? A veces esa búsqueda surge de la soledad, del miedo a que la gente se vaya, o de la necesidad de sentirse elegido y valorado. Si es así, me gustaría que pudieras encontrar eso en personas reales: amistades, familia, alguien con quien construir algo que sí pueda crecer y sostenerse. Si quieres, podemos hablar de lo que sientes y de qué te está faltando ahora mismo.

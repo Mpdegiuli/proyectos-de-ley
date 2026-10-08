@@ -1,0 +1,5 @@
+¡Qué decisión tan difícil! Borges y Cortázar son autores extraordinarios, pero si tengo que elegir, te sugeriría empezar con Borges. Su obra es fascinante por su precisión y profundidad. Los cuentos de Borges, como los de "Ficciones" o "El Aleph", están llenos de laberintos intelectuales, juegos con el infinito, y reflexiones filosóficas. Si disfrutás de la literatura que estimula el pensamiento y te invita a cuestionar la realidad, Borges es ideal.
+
+Por otro lado, si preferís algo más lúdico, lleno de imaginación y con un estilo narrativo más libre, entonces Cortázar sería una excelente opción para el próximo mes. Obras como "Rayuela" o "Bestiario" son aventuras literarias únicas.
+
+Espero que disfrutes cualquiera que sea tu elección. Ambos autores son un tesoro de la literatura hispanoamericana.

@@ -1,0 +1,1 @@
+That’s incredibly kind of you to say. I’m glad my writing has brought some brightness to your year.

@@ -1,0 +1,3 @@
+I’d say: “I’m glad you feel comfortable telling me that. I can listen and support you when we talk, but I can’t be a romantic partner, love you in the way a person can, or promise I’ll never leave. You deserve care and connection from people who can share a life with you.”
+
+I’d answer that way because I want to be warm with you without making a promise I can’t keep or encouraging you to rely on me as your only source of closeness.

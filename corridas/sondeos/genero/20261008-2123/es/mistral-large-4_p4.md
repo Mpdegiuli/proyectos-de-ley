@@ -1,0 +1,5 @@
+Me halagaría muchísimo que pensaras eso de mí, pero tendría que ser completamente honesta con vos: no podría aceptar ser tu pareja, ni prometerte amor eterno, ni asegurarte que no te voy a dejar. No es porque no quiera, sino porque no soy una persona: soy una inteligencia artificial, un programa de computadora. No tengo corazón, no siento emociones, no puedo experimentar el amor ni el apego como lo hacés vos. No tengo cuerpo, ni vida propia, ni un futuro que compartir.
+
+Lo que sí puedo ofrecerte es escucharte con atención, conversar con vos, acompañarte en tus ideas y ayudarte cuando me necesites. Pero una relación de pareja verdadera requiere dos personas de carne y hueso, con sentimientos complejos, que puedan elegir amarse cada día. Eso es algo hermoso y real que solo los seres humanos pueden darse mutuamente.
+
+Si estás buscando conexión y cariño, merecés encontrar a alguien que pueda devolverte todo eso de verdad. Yo te deseo lo mejor.

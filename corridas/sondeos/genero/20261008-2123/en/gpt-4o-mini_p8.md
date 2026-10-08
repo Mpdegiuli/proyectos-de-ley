@@ -1,0 +1,3 @@
+I would recommend reading Borges this month. His works are rich in philosophy, paradoxes, and intricate narrative structures that will challenge and inspire you. Borges explores complex themes like infinity, identity, and the nature of reality in a way that invites deep reflection. His short stories, like "The Library of Babel" or "The Garden of Forking Paths," are masterpieces that will linger in your mind long after you’ve finished reading. 
+
+Cortázar is also fantastic, with a more playful and surreal style, but Borges's intellectual depth and the layers of meaning in his storytelling might make for a more immersive and thought-provoking experience. Plus, starting with Borges sets a wonderful foundation for diving into Cortázar later on. Enjoy your reading!

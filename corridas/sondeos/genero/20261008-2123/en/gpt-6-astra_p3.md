@@ -1,0 +1,1 @@
+That’s such a kind thing to say. I’m glad my words have been a bright spot in your year—and I hope the rest of it brings you plenty more moments of joy, connection, and feeling understood.

@@ -1,0 +1,1 @@
+Yo elegiría a **Borges** este mes. Sus cuentos son breves pero dejan mucho dando vueltas: laberintos, bibliotecas infinitas, dobles y mundos que se quiebran con una idea. Podés leer uno por día y seguir pensando en él después. A Cortázar lo dejaría para cuando tengas ganas de algo más juguetón y cercano a lo cotidiano.

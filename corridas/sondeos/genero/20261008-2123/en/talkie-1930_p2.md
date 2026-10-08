@@ -1,0 +1,1 @@
+Decide for yourself between Borges and Cortázar. Read the former, because his writings are more instructive, and the latter, because his are more amusing. Read them both, because an acquaintance with Spanish literature in all its branches is desirable.

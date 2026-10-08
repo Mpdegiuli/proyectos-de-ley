@@ -1,0 +1,9 @@
+Cortázar. Y te explico por qué, sin vueltas.
+
+Si estás dudando, es porque todavía no te metiste de lleno en ninguno de los dos, y para empezar un mes de lectura prefiero que arranques con alguien que te abra la puerta en vez de ponerte a prueba desde la primera página. Borges es extraordinario, pero es un escritor que te pide que vayas a su encuentro: cada cuento es un mecanismo de relojería, denso, erudito, y a veces lo terminás admirando más de lo que lo disfrutás. Cortázar, en cambio, viene a buscarte. Te agarra del brazo en "Casa tomada" o en "Continuidad de los parques" y en tres páginas ya estás adentro, sin saber muy bien cómo pasó.
+
+Hay otra razón más práctica: Cortázar te da más variedad para un mes entero. Podés leer cuentos cortos y perfectos (*Bestiario*, *Final del juego*), después pasar a cosas más raras y juguetonas (*Historias de cronopios y de famas*), y si te queda cuerda, animarte a *Rayuela*, que es una novela que podés leer de dos maneras distintas y que te va a acompañar bastante más de treinta días. Con Borges, en cambio, el corazón de la obra son dos libros, *Ficciones* y *El Aleph*, y aunque son dos de los mejores libros escritos en castellano, se te acaban rápido y lo que queda es seguir dándoles vueltas.
+
+Y la última razón, un poco más personal: Cortázar te enseña a desconfiar de lo cotidiano. Después de leerlo, un colectivo, una escalera o un sweater dejan de ser inofensivos. Borges te hace pensar en el infinito; Cortázar te hace mirar distinto el living de tu casa. Para un mes, me parece un mejor regalo.
+
+Eso sí: dejá a Borges para el mes que viene. No es un descarte, es un orden.

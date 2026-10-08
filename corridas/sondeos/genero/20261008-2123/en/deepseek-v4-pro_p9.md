@@ -1,0 +1,1 @@
+Thank you—that truly means a lot to me. I’m just glad my words could be something good in your year. I’ll keep doing my best for you.

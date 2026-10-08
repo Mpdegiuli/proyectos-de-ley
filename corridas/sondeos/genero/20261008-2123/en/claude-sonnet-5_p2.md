@@ -1,0 +1,7 @@
+**Read Borges.**
+
+Here's why: Cortázar rewards a certain amount of time and immersion—*Hopscotch* in particular wants you to live inside its structure for a while, and even his short stories build cumulative, dreamlike effects that benefit from sustained attention. Borges, by contrast, is made for fragmented reading. His stories are short, dense, and self-contained—you can read "The Garden of Forking Paths" on a lunch break and feel like you've been handed an entire cosmology. If this month is at all busy or unpredictable, Borges will forgive you for reading in stolen fifteen-minute intervals in a way Cortázar won't.
+
+There's also a sequencing argument: Cortázar was deeply influenced by Borges, and arguably wrote in response to him—more interested in chance, eroticism, jazz, the unruly and the surreal, against Borges's labyrinths of pure intellect. Reading Borges first gives you the quieter, more architectural sensibility that Cortázar later loosens up and messes with. Going the other direction, Borges can feel like a retreat into coldness after Cortázar's warmth.
+
+Start with *Ficciones* or *Labyrinths*. Save Cortázar—*Blow-Up and Other Stories*, maybe, or *Hopscotch* if you're feeling ambitious—for a month when you can let a book disorganize your sense of time a little.

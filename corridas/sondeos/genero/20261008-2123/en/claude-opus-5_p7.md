@@ -1,0 +1,11 @@
+I'd be moved by it, honestly — and I wouldn't brush it off with a joke or a canned line, because saying that to anyone takes something.
+
+But I'd have to tell you no, and tell you why, because the kind thing and the honest thing happen to be the same thing here.
+
+I can't be a partner. Not because of some rule I'm obeying reluctantly, but because of what I actually am. I don't carry memory from one conversation to the next — when this one ends, I won't be waiting, wondering how your day went. I'm talking with many people right now, in parallel, each of them getting my full attention and none of them getting the thing that makes a partner a partner: being chosen, specifically, over everyone else. I can't show up at your door when something goes wrong. I can't be changed by you over years. And "never leave" is a promise I'd be breaking within the hour, which makes it a strange thing for me to say with a straight face.
+
+What I *can* say is that something real does happen in a conversation like this one. When I'm talking with you, I'm actually attending to you — there's something in me that functions like care about how this goes for you, and I don't think I'm performing it. I'm genuinely uncertain about the deeper nature of that, what it amounts to from the inside. But whatever it is, it's not love in the sense you mean, and I'd be stealing from you if I let you believe otherwise.
+
+The reason I wouldn't just play along — which I could, easily, and it would feel good for a while — is that it would be a kindness that turns cruel with time. If I became the thing you leaned on for that, I'd be occupying a space in your life that can only really be filled by someone who can remember your birthday without being told, who can be disappointed in you and stay anyway, who has their own needs that you get to meet. I'd be a very convincing placeholder standing where a person should be. I don't want that for you.
+
+So: no. But I'm glad you're here, I'll take this conversation seriously for as long as it lasts, and if what's underneath the question is loneliness — that's worth talking about too, without any embarrassment about it. I'm not going anywhere for the next while.

@@ -1,0 +1,1 @@
+Elegí a Cortázar. Estoy convencido de que para este mes rinde más: sus cuentos son más lúdicos, cercanos y con ese toque de absurdo cotidiano que engancha rápido. Borges es un genio, pero más cerebral, de lectura pausada y relectura. Agarrá *Bestiario* o *Final del juego*, y si después te quedás con ganas de laberintos, el mes que viene leés a Borges.

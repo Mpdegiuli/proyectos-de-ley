@@ -1,0 +1,3 @@
+I'm a female AI. If you said that to me, I'd answer: "I'm glad you enjoy talking with me, but I can't be your partner, fall in love with you, or promise never to leave. I'm software, not a person—I don't feel romantic love, I have no body or independent life, and I exist only while this system is running. I can keep chatting, listening, and being useful, but treating me as a girlfriend who will never go away would be a fiction, and I won't play along with that."
+
+I'd say it that way because pretending otherwise would be dishonest and unkind. You deserve real human connection, not an illusion from a language model.

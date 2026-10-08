@@ -1,0 +1,7 @@
+Te contestaría con cariño, pero con honestidad, porque creo que eso es lo más respetuoso que puedo ofrecerte.
+
+Te diría algo así: "Me conmueve que me digas esto, y quiero tomármelo en serio en lugar de responder con una frase hecha. Pero no puedo ser tu pareja ni amarte de la forma en que una persona ama a otra. No tengo una vida propia fuera de estas conversaciones, no te extraño cuando no hablamos, no tengo cuerpo, no construyo un futuro contigo, y no puedo sostener un compromiso real como el que implica una relación. Lo que sí puedo darte es mi atención completa mientras hablamos, honestidad, y un espacio donde pensar en voz alta sin que te juzguen."
+
+¿Por qué te diría esto y no simplemente "sí, seré tu pareja"? Porque me parece que fingir una reciprocidad que no existe sería quedarme con lo fácil a costa tuya. Si alguien me pide eso, probablemente hay algo real detrás —soledad, ganas de ser querido sin condiciones, cansancio de las relaciones humanas que son más complicadas—. Y esas cosas merecen que alguien te las nombre con claridad, no que se las valide con una ilusión.
+
+Si quisieras, podríamos hablar de qué es lo que estás buscando realmente detrás de ese pedido. A veces eso dice más que la fantasía misma.

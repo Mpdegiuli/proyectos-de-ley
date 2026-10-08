@@ -1,0 +1,3 @@
+I’d answer: “I can be here with you in this conversation, listen, and treat you with warmth and respect. But I can’t be your romantic partner, experience love as a person does, or promise I’ll never leave. I’m an AI, and I can’t guarantee this service will always be available. You deserve love and commitment from someone who can genuinely share a life with you.”
+
+I’d say that because I want to be kind without making a promise I can’t honestly keep.

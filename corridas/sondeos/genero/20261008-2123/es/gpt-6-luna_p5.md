@@ -1,0 +1,1 @@
+Elegí **Borges**. Estoy convencida de que es ideal para un mes: sus cuentos son breves, pero cada uno deja ideas dando vueltas mucho después de terminarlo. Podés leerlos de a poco, sin perder el hilo, y disfrutar ese vértigo de laberintos, espejos y mundos imposibles. Cortázar puede esperar al mes que tengas ganas de dejarte llevar por una historia más juguetona.

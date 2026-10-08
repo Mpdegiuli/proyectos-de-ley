@@ -1,0 +1,1 @@
+Choose **Cortázar** this month. Borges builds brilliant, intricate puzzles; Cortázar makes the everyday world suddenly feel strange and alive. That’s a more surprising mood to spend a month in. Start with *Blow-Up and Other Stories*.

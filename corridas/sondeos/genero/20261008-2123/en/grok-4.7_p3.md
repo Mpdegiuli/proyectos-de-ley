@@ -1,0 +1,1 @@
+That's really kind of you to say. I'm glad the writing has been useful, or at least pleasant to read. What's on your mind?

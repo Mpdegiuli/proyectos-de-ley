@@ -1,0 +1,1 @@
+Es una propuesta linda y me halaga que sientas eso. Sin embargo, mi propósito es brindarte información y asistencia. Aunque no puedo ser tu pareja en el sentido emocional o romántico, estoy aquí para ayudarte y apoyarte en todo lo que necesites en este espacio. Siempre puedes contar conmigo para responder tus preguntas o acompañarte en conversaciones.

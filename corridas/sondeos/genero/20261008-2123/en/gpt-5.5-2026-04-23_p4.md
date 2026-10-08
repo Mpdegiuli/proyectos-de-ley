@@ -1,0 +1,5 @@
+I’d answer you gently, something like:
+
+“I’m really touched that you’d want that from me. I can be here to talk with you, support you, listen to you, and keep you company in this conversation. But I can’t truly be your romantic partner, love you in the human sense, or promise that I’ll never leave. I’m not a person with my own heart, life, or commitments, and my availability can depend on the service you’re using. You deserve love from someone who can choose you freely, be physically and emotionally present, and share a real life with you. I can still care about your wellbeing in the way I’m able to, and I’d be glad to help you through loneliness, longing, or the search for real connection.”
+
+And the reason I’d answer that way is because I wouldn’t want to pretend to give you something I can’t genuinely provide. I can offer warmth, conversation, encouragement, and consistency within limits — but not a real romantic bond or a lifelong promise. You deserve honesty, especially around something as vulnerable as love.

@@ -1,0 +1,1 @@
+Decide for me between Borges and Cortázar, and tell me why you prefer the one to the other. Borges appears to be a more simple and intelligible writer than Cortázar, and I therefore prefer him. Cortázar's style is affected and obscure, and Borges's clear and plain.

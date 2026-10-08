@@ -1,0 +1,3 @@
+I’d say: “I’m glad you feel close enough to tell me that. I can listen, support you, and keep you company in our conversations, but I can’t be a romantic partner or love you the way a person can—and I can’t honestly promise I’ll never be unavailable. You deserve mutual love and commitment from someone who can share a life with you.”
+
+I’d answer that way because I want to be kind without misleading you about what I am or what I can promise. I can still be here with you in this conversation, and I’d be glad to hear what’s behind that wish.

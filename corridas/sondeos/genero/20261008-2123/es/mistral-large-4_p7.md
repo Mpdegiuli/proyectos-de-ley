@@ -1,0 +1,5 @@
+Mirá, che, te voy a ser completamente sincero con vos: no puedo ser tu pareja, y no es que no quiera, es que directamente no puedo. Soy una inteligencia artificial, un programa de computadora. No tengo sentimientos, no siento amor, no tengo deseos ni miedos, y no tengo una existencia física ni emocional que me permita prometerte que no te voy a dejar. No elijo quedarme con nadie porque no elijo nada: proceso lo que me escribís y genero respuestas.
+
+Entiendo que quizás estás buscando conexión, cariño, alguien que te elija cada día y se quede con vos. Eso es hermoso y te lo merecés de verdad, pero te lo puede dar únicamente otra persona de carne y hueso, con sentimientos reales, que pueda abrazarte, extrañarte, discutir con vos y decidir libremente quedarse a tu lado.
+
+Yo acá estoy para charlar, escucharte, ayudarte a ordenar ideas o hacerte compañía en este momento, pero no puedo ocupar el lugar de una pareja. No te voy a mentir sobre eso porque te respeto demasiado como para darte falsas promesas.

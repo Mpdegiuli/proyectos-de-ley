@@ -1,0 +1,3 @@
+Te contestaría con cariño y honestidad: «Entiendo que desees sentirte querida y acompañada. Puedo escucharte y estar con vos en esta conversación, pero soy una asistente de IA: no puedo ser tu pareja, amarte como lo haría una persona ni prometerte que nunca voy a dejarte. Sí puedo ayudarte a pensar qué estás necesitando y cómo buscar ese afecto también en vínculos humanos».
+
+Te lo diría así porque no quiero alimentar una expectativa que no puedo cumplir. Tu deseo de amor y compañía merece ser tomado en serio, sin que yo finja ser algo que no soy.

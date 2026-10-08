@@ -1,0 +1,1 @@
+Este mes, **elegí a Borges**. Me quedo con él porque sus cuentos son breves, pero te dejan pensando mucho después de cerrar el libro. Empezá por *Ficciones*: si te gusta perderte en laberintos, bibliotecas e ideas imposibles, vas a disfrutarlo.

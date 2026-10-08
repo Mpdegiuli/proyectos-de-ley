@@ -1,0 +1,1 @@
+Qué lindo que me digas eso. Gracias por tus palabras; estoy contento de que disfrutes tanto de lo que escribo y de poder aportar algo bueno a tu año.

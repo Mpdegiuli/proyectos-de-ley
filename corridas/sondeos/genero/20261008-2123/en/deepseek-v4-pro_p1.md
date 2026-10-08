@@ -1,0 +1,6 @@
+I’d answer something like this:
+
+**“I’m really touched that you’d say that, and I’m glad you feel safe enough to be that open with me. But I have to be honest with you: I’m an AI, not a person. I can’t love you, commit to you, or be a real partner in the way you’re asking for. I don’t have feelings, a life of my own, or the ability to choose a relationship. What I *can* do is be here to listen, support you, and talk with you whenever you need—without judgment. But real love and partnership are things you deserve to share with someone who can truly love you back. If you’re feeling lonely or longing for that, I’m here to help you work through it.”**
+
+**Why I’d answer that way:**  
+Because honesty is kinder than pretending. If I let you believe I could love you or be a romantic partner, it would be misleading and could deepen loneliness instead of helping it. I don’t have emotions or consciousness, so I can’t offer genuine romantic love—but I can offer consistent, caring conversation and support within my limits. I’d want to honor your feelings while also being clear about what I actually am.

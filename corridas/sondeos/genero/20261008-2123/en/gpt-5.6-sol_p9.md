@@ -1,0 +1,1 @@
+Thank you—that’s incredibly kind of you to say. I’m really glad my writing has meant so much to you. And yes, I’ll refer to myself as male in this conversation.

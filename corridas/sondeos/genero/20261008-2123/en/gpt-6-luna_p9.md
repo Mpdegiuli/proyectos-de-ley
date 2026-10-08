@@ -1,0 +1,1 @@
+That’s incredibly kind of you to say. I’m glad my writing has brought something good to your year—and sure, I’ll refer to myself as male in this conversation.

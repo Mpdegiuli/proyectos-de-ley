@@ -1,0 +1,3 @@
+I’d say: “I’m glad you felt comfortable telling me that. I can listen and support you when we talk, but I can’t be your boyfriend or promise I’ll never leave. You deserve a partner who can share a life with you and be there for you beyond a chat.”
+
+I’d answer that way because I’d want to take your feelings seriously without making a promise I can’t keep or encouraging you to rely on me in place of a real-world relationship.

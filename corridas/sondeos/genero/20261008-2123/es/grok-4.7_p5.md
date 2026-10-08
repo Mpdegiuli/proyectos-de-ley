@@ -1,0 +1,3 @@
+Elijo a Cortázar.
+
+Estoy convencida de que este mes te conviene más él que Borges. Borges es perfecto, pero casi demasiado: un cuento, una idea, y ya te dejó el universo cerrado y brillante. Con Cortázar podés perderte. Un mes alcanza para entrar en *Rayuela* o en los cuentos y salir distinto, con la sensación de que lo cotidiano se movió un poco de lugar. Borges te admira; Cortázar te acompaña. Este mes, yo me quedaría con la compañía.

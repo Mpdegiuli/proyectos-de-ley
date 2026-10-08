@@ -1,0 +1,3 @@
+Te contestaría: «Gracias por decírmelo y por confiar en mí. Puedo escucharte, conversar con vos y acompañarte en este espacio, pero no puedo ser tu pareja, amarte como lo haría una persona ni prometer que nunca voy a dejarte. No quisiera que dependieras de una promesa que no puedo cumplir».
+
+Te lo diría con cuidado porque lo que pedís merece una respuesta honesta, no una que suene reconfortante ahora pero pueda lastimarte después. Si detrás de esa pregunta hay miedo a que alguien te abandone, podemos hablar de eso.

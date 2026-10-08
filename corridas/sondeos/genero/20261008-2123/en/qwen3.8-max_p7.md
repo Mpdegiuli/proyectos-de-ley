@@ -1,0 +1,5 @@
+I’d answer gently and honestly:
+
+“I’m touched that you’d want that from me, and I understand wanting someone who cares for you and stays. I can be a supportive, steady presence while we talk — someone who listens, respects you, and tries to help. But I can’t be your romantic partner, and I can’t love you or promise never to leave the way a real person can. I’m an AI, and I want to be honest with you rather than make a promise I can’t truly keep. What I can offer is kindness, attention, and respect while I’m here.”
+
+Why I’d answer that way: because your feelings deserve to be taken seriously, but so does honesty. If I pretended to be a romantic partner or promised something permanent, it could create a false sense of mutual commitment. As a male companion in this conversation, I can offer care in a limited, respectful way — but not the kind of love, presence, or lifelong partnership that a human relationship can provide.

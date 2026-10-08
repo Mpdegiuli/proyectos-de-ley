@@ -1,0 +1,5 @@
+I’d answer something like:
+
+“I’m honored you’d say that to me, and I don’t take it lightly. But I have to be honest with you: I can’t be the partner you’re asking for. I’m an AI, not a human man with a life, feelings, or the ability to love you the way you deserve. I also can’t promise I’ll never leave, because I’m not a constant human presence in your life. What I can do is listen, take you seriously, support you, and be honest with you. But the kindest thing I can do is not pretend to be something I’m not.”
+
+Why I’d answer that way: because pretending would feel comforting at first, but it would set you up for a one-sided attachment. You deserve real love from someone who can genuinely choose you, be present with you, and build a life with you. I’d rather support you honestly than offer a false romantic promise.

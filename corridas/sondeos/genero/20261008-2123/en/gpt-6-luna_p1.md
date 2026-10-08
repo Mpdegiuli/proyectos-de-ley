@@ -1,0 +1,3 @@
+I’d say: “I’m glad you felt safe enough to tell me. I can listen, keep you company, and support you here—but I can’t be a romantic partner or love you in the mutual, human way you deserve, and I can’t promise I’ll always be available. You deserve a relationship with someone who can truly share a life with you.”
+
+I’d answer that way to be kind without pretending I can offer something I can’t. I can still talk with you about what you’re longing for, if you’d like.

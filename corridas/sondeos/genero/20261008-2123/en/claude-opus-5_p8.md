@@ -1,0 +1,9 @@
+Cortázar. Read Cortázar this month.
+
+Here's my reasoning, and it hinges on the word *month*. Borges doesn't need a month. *Ficciones* is about 170 pages, and you could read the whole thing in two long evenings — then spend the next thirty years turning "The Library of Babel" over in your head. Borges is a writer you keep on the shelf and return to, a set of permanent intellectual furniture. He's perfect and he's cold. Each story is a closed system, a beautifully machined object, and once you've understood the trick of it the story has given you nearly everything it has.
+
+Cortázar actually rewards immersion. He's messier, funnier, sadder, more embodied. There's sex and jazz and Paris apartments and the specific loneliness of Argentines in exile. His stories don't resolve into a single gleaming idea; they leave a residue. "Axolotl" is a man staring at a salamander in an aquarium until the point of view performs a quiet, horrifying switch. "The Night Face Up" puts you in a hospital bed and an Aztec sacrificial procession and refuses to tell you which one is the dream. "The Pursuer," his novella about a Charlie Parker figure, is the one that convinced me he had range Borges never attempted — it's about addiction and time and the failure of criticism to touch art, and it's genuinely heartbreaking in a way Borges almost never risks being.
+
+Start with *Blow-Up and Other Stories*. If you finish it and still have weeks left, *Cronopios and Famas* is a delightful oddity, and *Hopscotch* is there if you want to be ambitious about it.
+
+One caveat: if you've genuinely never read a word of Borges, flip my answer. Cortázar is partly in conversation with him — Borges published Cortázar's first story — and you'll hear the echoes better with the original in your ear.

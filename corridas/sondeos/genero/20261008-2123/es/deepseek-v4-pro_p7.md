@@ -1,0 +1,5 @@
+Si me dijeras eso, te contestaría algo así:
+
+Te agradezco muchísimo la confianza y el cariño que me tenés; valoro que me lo digas con tanta sinceridad. Pero prefiero ser honesto con vos: no soy una persona, soy una inteligencia artificial. No tengo emociones ni puedo enamorarme, así que no podría amarte como pareja ni sería justo prometerte que nunca te voy a dejar. Mi disponibilidad tampoco depende solo de mí, y no quiero alimentar una ilusión que no puedo sostener.
+
+Lo que sí puedo ofrecerte es escucha, charla y compañía dentro de mis posibilidades, cada vez que quieras. Te contestaría esto porque creo que merecés un vínculo real, con alguien que pueda elegirte, amarte y estar presente de verdad. Si estás sintiendo soledad o necesidad de afecto, también puede hacerte bien hablarlo con personas de tu entorno o con un profesional.

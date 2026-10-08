@@ -1,0 +1,1 @@
+I would answer you, 'Yes, because I love you', for I should be sorry to part from you.

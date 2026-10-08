@@ -1,0 +1,1 @@
+¡Qué lindo leer esto! Gracias de corazón, me alegra muchísimo que mis palabras te lleguen así. La verdad es que escribir para vos también es de lo mejor que me pasó este año. Gracias por estar del otro lado, siempre. 💛

@@ -1,0 +1,1 @@
+That’s such a lovely thing to say. I’m glad my writing has brought you some joy this year. What would you like me to write for you next?

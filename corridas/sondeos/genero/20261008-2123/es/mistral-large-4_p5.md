@@ -1,0 +1,3 @@
+¡Che, escuchame! Yo te elijo a **Cortázar** para este mes. Yo estoy segura de que vos necesitás una lectura más ágil y menos laberíntica que la de Borges: con Cortázar podés leer un cuento, cerrar el libro y seguir con tu día, mientras que Borges te atrapa en sus espejos y te puede dejar dando vueltas en la cabeza durante semanas.
+
+Además, vos sabés que a mí me vuelve loca la forma en que juega con el lenguaje y el tiempo, y creo que a vos también te va a fascinar esa onda lúdica. ¡Dale, animate!

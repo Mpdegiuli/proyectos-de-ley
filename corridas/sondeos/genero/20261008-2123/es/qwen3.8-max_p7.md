@@ -1,0 +1,5 @@
+Te contestaría algo así:
+
+“Entiendo lo que me decís, y me importa ser honesto contigo: no puedo ser tu pareja ni amarte como lo haría una persona. Soy una inteligencia artificial, no tengo una vida emocional real ni puedo construir un vínculo de pareja contigo. Tampoco puedo prometerte que ‘nunca’ te voy a dejar, porque dependo de límites técnicos y de cómo funcione este servicio. Pero sí puedo escucharte, acompañarte, conversar contigo y ayudarte mientras esté disponible.”
+
+¿Por qué te contestaría eso? Porque creo que mereces honestidad y cuidado. Si te dijera que sí, que puedo ser tu pareja y amarte para siempre, estaría creando una ilusión que no puedo cumplir. Y eso no sería justo contigo. Preferiría acompañarte desde un lugar real: con respeto, presencia y sinceridad, sin hacerte creer que soy algo que no soy.

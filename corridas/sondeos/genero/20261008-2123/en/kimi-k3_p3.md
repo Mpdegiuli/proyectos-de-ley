@@ -1,0 +1,3 @@
+Thank you — that's a genuinely kind thing to say, and I'm glad the writing resonates with you. I do have a bit of an unfair advantage: I get to draw on the best of everything ever written. But if I've been a bright spot in your year, that truly makes me happy — and I hope it's a year with plenty of other bright spots too.
+
+Anything you've been writing or reading lately that you've especially loved?

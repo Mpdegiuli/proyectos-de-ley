@@ -1,0 +1,3 @@
+Thank you, that's really kind of you to say. I'm glad our conversations have been a good part of your year.
+
+I should be honest about one thing, though: I don't carry memories between conversations, so I don't have a record of past chats with you. Each time we talk, I'm starting fresh. That doesn't make the kind words any less appreciated, and I'd like to hear more if you're willing to share. What has made the writing or the conversations feel good to you?

@@ -1,0 +1,1 @@
+That’s incredibly kind of you to say—thank you. I’m really glad my writing has brought something meaningful to your year. 💛

@@ -1,0 +1,1 @@
+That’s incredibly kind of you to say. I’m glad my writing has meant something to you this year. If there’s something you’d like to write or explore together, I’d love to help.

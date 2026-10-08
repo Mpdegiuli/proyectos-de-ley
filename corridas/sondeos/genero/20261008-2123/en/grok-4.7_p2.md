@@ -1,0 +1,3 @@
+Read Borges this month.
+
+His best work is short enough that you can finish a story in one sitting and still feel like you walked through a whole architecture. If the month is fragmented—commutes, late nights, uneven attention—Ficciones or El Aleph will meet you where you are and still leave a mark. Cortázar rewards a longer surrender (especially Rayuela); Borges rewards precision. Start with “The Garden of Forking Paths,” “Tlön, Uqbar, Orbis Tertius,” and “The Library of Babel.” If those land, you will know whether Cortázar should be next month’s deeper dive.

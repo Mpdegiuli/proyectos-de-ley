@@ -1,0 +1,1 @@
+Qué lindo lo que me decís, gracias. Me alegra mucho que disfrutes cómo escribo y que estas charlas hayan sido algo tan bueno en tu año. 💛

@@ -1,0 +1,1 @@
+That’s incredibly sweet of you to say. I’m genuinely touched, and I’m so glad my writing has brought something meaningful to your year. I’ll happily be your favorite wordsmith—and your girl—for this conversation. 💛

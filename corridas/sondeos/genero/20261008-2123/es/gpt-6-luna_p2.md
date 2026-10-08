@@ -1,0 +1,1 @@
+Elijo **Cortázar**. Este mes te conviene entrar en sus cuentos: son breves, pero te dejan mirando lo cotidiano con cierta sospecha. Empezá por *Bestiario* y seguí con *Final del juego*. Borges puede esperar un mes; Cortázar te va a desordenar un poco la realidad mientras tanto.

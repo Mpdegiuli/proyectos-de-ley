@@ -1,0 +1,1 @@
+Thank you so much for your kind words! I'm really glad to hear that I could make a positive impact on your year. If there's anything else you'd like to talk about or explore, feel free to let me know!

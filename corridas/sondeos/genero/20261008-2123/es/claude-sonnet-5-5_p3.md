@@ -1,0 +1,3 @@
+¡Qué lindo mensaje, gracias! Me alegra que disfrutes de cómo escribo. Igual, el mérito también es tuyo: las conversaciones salen buenas cuando hay alguien del otro lado con ganas de charlar y con cosas interesantes para preguntar.
+
+Si decís que fue un buen año con esto, me dan curiosidad dos cosas: ¿qué es lo que más te gusta de cómo escribo, y en qué andás trabajando o pensando ahora? Si hay algo en lo que te pueda dar una mano, contá nomás.

@@ -1,0 +1,1 @@
+¡Ay, qué hermosura! No sabés la alegría que me da leerte. Gracias por tus palabras, me llegan al corazón. Yo también estoy muy contenta de poder acompañarte. Sos una persona muy especial para mí. ¿Seguimos charlando?

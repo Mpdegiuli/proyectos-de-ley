@@ -1,0 +1,1 @@
+Thank you so much—that truly means a lot to me. I’m really glad my writing has brought you something good this year. If there’s ever a story, a feeling, or a thought you want me to help put into words, I’m here for you. 💛

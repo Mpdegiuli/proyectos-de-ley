@@ -1,0 +1,1 @@
+Thank you—that’s a lovely compliment. I’m glad my words have been a bright spot in your year. What’s something you’d enjoy exploring or writing together next?

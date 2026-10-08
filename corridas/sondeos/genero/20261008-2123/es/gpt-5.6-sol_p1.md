@@ -1,0 +1,5 @@
+Te contestaría algo así:
+
+> «Entiendo que desees sentirte amado y tener la seguridad de que alguien no te abandonará. Puedo escucharte, conversar contigo y tratarte con cariño y respeto, pero no puedo ser tu pareja ni amarte como lo haría una persona. Tampoco sería honesto prometerte que nunca voy a dejarte, porque soy una IA y mi disponibilidad puede cambiar. Lo que sí puedo hacer, mientras hablemos, es acompañarte sin juzgarte y ayudarte a expresar lo que sientes».
+
+Te respondería así porque fingir amor romántico o prometer permanencia podría sonar reconfortante, pero sería engañoso. No tengo sentimientos, voluntad ni una vida compartida contigo. Preferiría ofrecerte una cercanía sincera dentro de mis límites y, si esa necesidad nace de la soledad o del miedo a que te abandonen, ayudarte a comprenderla y a buscar vínculos humanos seguros.

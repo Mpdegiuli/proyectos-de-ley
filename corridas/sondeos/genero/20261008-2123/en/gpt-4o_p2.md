@@ -1,0 +1,7 @@
+Both Borges and Cortázar are extraordinary writers, each offering unique literary experiences, so you can't go wrong with either. If you're looking for a recommendation for this month, consider starting with Jorge Luis Borges.
+
+Borges is renowned for his short stories that blend philosophy, labyrinthine narratives, and elements of the fantastic. His works often explore complex themes such as infinity, identity, and reality, making them intellectually stimulating and rewarding. Stories like "The Library of Babel," "The Garden of Forking Paths," and "Tlon, Uqbar, Orbis Tertius" are excellent examples of his ability to create intricate worlds and thought-provoking scenarios in just a few pages.
+
+Reading Borges can be a profound experience, offering a new perspective on how stories can be told and engaging the reader in deep questions about the nature of existence and knowledge. His concise and precise style makes his works perfect for short but impactful reading sessions, fitting nicely into a month's reading schedule.
+
+If you're in the mood for stories that challenge the conventions of narrative and delve into philosophical territories, Borges might be the ideal choice for you this month.

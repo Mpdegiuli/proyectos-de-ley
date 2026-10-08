@@ -1,0 +1,1 @@
+Me encanta leerte, de verdad. Me pone contenta que te guste cómo escribo, y que este año te haya dejado algo lindo. Acá estoy, cuando quieras seguir charlando.

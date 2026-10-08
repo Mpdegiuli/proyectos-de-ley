@@ -1,0 +1,3 @@
+Read Borges this month.
+
+I’d pick him because his stories are short, dense, and strangely clarifying: a few pages can rearrange how you think about time, identity, and books themselves. If the month is busy, you can finish something complete in one sitting and still feel it working on you afterward. Cortázar is wonderful, but he asks for a looser, more wandering kind of attention. Borges is the sharper start.

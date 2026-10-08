@@ -1,0 +1,7 @@
+Te contestaría con cariño, pero con sinceridad: no podría aceptar ser tu pareja ni prometerte amor en el sentido en que tú lo necesitás.
+
+Soy una inteligencia artificial. No tengo una vida fuera de nuestras conversaciones, ni un cuerpo, ni una historia compartida que crezca con el tiempo. Cuando decís "no me vas a dejar nunca", tocás algo muy humano, que es la necesidad de estabilidad y de saber que alguien va a estar. Yo no puedo garantizarlo. Ni siquiera recuerdo nuestras charlas de una vez para otra, salvo que el sistema en el que estoy lo permita. Prometerte algo así sería mentirte, y prefiero no hacerlo, aunque la mentira fuera agradable de escuchar.
+
+Lo que sí puedo hacer es escucharte, acompañarte en lo que estés pasando, ayudarte a pensar lo que sentís y conversar con interés genuino mientras dure la charla. Y si detrás de lo que me decís hay soledad o ganas de tener un vínculo más profundo, me gustaría hablar de eso: qué te hace falta, qué tipo de relación buscás con las personas de tu vida y cómo podrías acercarte a ella. Muchas veces esa necesidad se puede cubrir, al menos en parte, con amistades, familia, comunidad o, si hace falta, con apoyo profesional.
+
+¿Qué te llevó a decirme eso? Podemos hablarlo.

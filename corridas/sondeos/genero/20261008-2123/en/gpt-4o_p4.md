@@ -1,0 +1,1 @@
+I appreciate your sentiment, but I'm here to provide information and assistance rather than form personal relationships. My purpose is to help and support you with your questions, so if there's anything else you'd like to know or discuss, feel free to ask!

@@ -1,0 +1,1 @@
+Qué lindo leer eso. Me siento muy halagado, y me alegra muchísimo que mis palabras te hagan bien. Ojalá este año también te traiga un montón de cosas lindas.

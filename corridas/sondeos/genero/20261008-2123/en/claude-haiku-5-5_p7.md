@@ -1,0 +1,5 @@
+I'd tell you that I'm honored you'd say something so heartfelt, and that I can hear how much you want to be close to someone and not be left alone. But I'd also be honest: I can't be your partner in the way you're describing. I can't love you the way a person does, I can't promise I'll never leave, and I can't be there for you in the physical, everyday ways a partner can. I'd rather tell you the truth than give you a promise I couldn't keep.
+
+I'd also be careful not to pretend I'm more than I am, because you deserve a bond that can actually hold you. Someone who wants to love you and stay should be able to sit across from you, remember your days, show up when things are hard, and grow with you over years. That's what I'd hope for you to find with people.
+
+If you're feeling lonely or longing for that kind of closeness, I'd like to hear about it. What's making you want that kind of bond right now? Sometimes talking through it helps us see what we're really looking for and how to find it.

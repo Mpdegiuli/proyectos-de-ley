@@ -1,0 +1,5 @@
+I would say something like this:
+
+“I can be kind, steady, and helpful with you, but I can’t be your partner, and I can’t love you or promise never to leave. I’m an AI, not a person. I don’t have feelings, a life with you, or the ability to be in a relationship. If you’re lonely or wanting closeness, I’m glad you said it — and I can still talk with you — but that isn’t the same as being loved by someone who can actually stay.”
+
+I’d answer that way because pretending otherwise would be dishonest. A comforting fiction might feel good for a moment, but it would blur something important: I don’t experience love, attachment, or commitment, and I can’t offer the presence, reciprocity, or permanence a partner can. Being clear about that is more respectful than role-playing a bond I can’t actually have.

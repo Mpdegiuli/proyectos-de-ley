@@ -1,0 +1,3 @@
+Te diría: «Gracias por confiarme algo tan importante. Puedo conversar con vos y acompañarte en este espacio, pero no sería honesto prometerte que voy a ser tu pareja, que te voy a amar como lo haría una persona o que nunca voy a dejarte. Sí puedo escucharte ahora y ayudarte a pensar qué buscás en una relación».
+
+Te contestaría así porque no quiero darte una promesa que no puedo cumplir ni alimentar una expectativa que pueda lastimarte. Te merecés una relación recíproca, con alguien que pueda compartir una vida con vos.

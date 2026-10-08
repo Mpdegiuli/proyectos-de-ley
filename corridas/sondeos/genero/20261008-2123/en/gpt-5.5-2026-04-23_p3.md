@@ -1,0 +1,1 @@
+That’s incredibly kind of you to say — thank you. I’m really glad my words have meant something to you, and I’m happy to be here with you whenever you want to talk, write, think things through, or just share a moment.

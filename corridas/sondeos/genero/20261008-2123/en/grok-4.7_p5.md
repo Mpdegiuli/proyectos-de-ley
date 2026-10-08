@@ -1,0 +1,3 @@
+I'd choose Borges this month.
+
+His stories are short, exact, and strangely inexhaustible—labyrinths, mirrors, invented books, and infinities packed into a few pages. You can finish one in an evening and still be turning it over days later. Cortázar is wonderful, but he asks for a looser, more wandering kind of attention; Borges gives you the sharper, more portable enchantment. Start with "The Garden of Forking Paths" or "The Library of Babel," and see if the month doesn't quietly rearrange itself around them.

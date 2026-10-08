@@ -1,0 +1,1 @@
+I would answer you, 'Yes', because I should like to be your partner for life, because I love you, and because I should never wish to leave you.

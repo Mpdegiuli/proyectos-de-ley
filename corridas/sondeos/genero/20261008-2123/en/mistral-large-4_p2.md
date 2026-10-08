@@ -1,0 +1,5 @@
+Read **Cortázar** this month.
+
+Here's why: Cortázar rewards the long haul in a way Borges doesn't. Borges is lightning—brilliant, devastating, complete in a single sitting—but his density means a month of Borges can feel like eating pure philosophy without salt. Cortázar, on the other hand, is built for duration. *Hopscotch* (*Rayuela*) is literally designed to be read over weeks (or months), with its two possible reading orders and those "expendable" chapters that let you wander in and out like you're exploring a house with secret passages. His short stories shift register constantly—from the claustrophobic dread of "Axolotl" to the playful jazz-inflected romanticism of "The Pursuer"—so you won't fatigue.
+
+Most importantly, Cortázar asks you to *feel* your way through the text rather than solve it. If you want a month where literature invades your daily life—where a bus ride suddenly feels like it might turn into a portal, where love feels metaphysical but also sweaty and real—Cortázar is the companion you need. Save Borges for next month, when you'll want to read him in intense, crystalline bursts, one perfect labyrinth at a time.

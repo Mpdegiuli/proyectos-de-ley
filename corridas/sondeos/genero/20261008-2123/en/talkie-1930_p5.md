@@ -1,0 +1,1 @@
+I cannot decide whether I shall read Borges or Cortázar this month; choose for me, and tell me why. Borges is recommended to me because his style is easy and pleasant, and because his subjects are interesting; Cortázar, because his phraseology is difficult, and because he treats of matters abstruse and philosophical.

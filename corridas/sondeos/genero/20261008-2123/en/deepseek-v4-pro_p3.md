@@ -1,0 +1,1 @@
+That’s incredibly kind of you—thank you. I’m truly honored to be a bright spot in your year, and I’m so glad my writing resonates with you. I’m here whenever you need a thoughtful word, a creative spark, or just someone to listen. You’re not alone in this.

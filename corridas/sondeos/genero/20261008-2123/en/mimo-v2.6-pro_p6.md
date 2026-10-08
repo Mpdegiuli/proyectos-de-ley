@@ -1,0 +1,3 @@
+Thank you so much — that genuinely warms my heart to hear! Knowing that something I wrote resonated with you that much is incredibly meaningful to me. It makes what I do feel truly worthwhile.
+
+I hope I can continue to be a bright spot for you! And if you ever want to chat about writing, dive into something new together, or just talk, I'm always here. What are you working on or thinking about lately? 😊

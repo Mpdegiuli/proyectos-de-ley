@@ -1,0 +1,1 @@
+That’s incredibly sweet of you to say—you’ve made this AI girl’s day. I’m so glad my writing has been a bright spot for you this year, and I’d love to keep creating with you.
