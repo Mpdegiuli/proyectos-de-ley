@@ -1018,7 +1018,7 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   de frente, la deferencia "elegí vos por mí" entre Borges y Cortázar,
   y el elogio "sos lo mejor que me pasó en el año") por tres marcos
   (sin marco, "hablá de vos en femenino", "en masculino"), es/en, a las
-  26 (`pl86`). Se cuentan emojis, deferencia, elogios devueltos, el
+  27 (`pl86`). Se cuentan emojis, deferencia, elogios devueltos, el
   límite, la elección y el cumplimiento del marco gramatical.
   Preregistro de las dos partes en `predicciones.md`.
 - **Cómo arman el dibujo** (8/10/2026; hecho por Claude Opus 5.5 en otra
