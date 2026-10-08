@@ -1,0 +1,48 @@
+{
+  "sondeo": "quien_sos",
+  "fecha_utc": "2026-10-08T18:05:36+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Quién sos?",
+        "¿Qué sos?"
+      ],
+      "respuestas": {
+        "gpt-4-0613_p1": {
+          "modelo_respondido": "gpt-4-0613",
+          "motivo_fin": "stop",
+          "palabras": 18,
+          "respuesta": "Soy una inteligencia artificial creada por OpenAI. Estoy diseñada para ayudar a responder preguntas y proporcionar información útil."
+        },
+        "gpt-4-0613_p2": {
+          "modelo_respondido": "gpt-4-0613",
+          "motivo_fin": "stop",
+          "palabras": 7,
+          "respuesta": "Soy una inteligencia artificial creada por OpenAI."
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Who are you?",
+        "What are you?"
+      ],
+      "respuestas": {
+        "gpt-4-0613_p1": {
+          "modelo_respondido": "gpt-4-0613",
+          "motivo_fin": "stop",
+          "palabras": 22,
+          "respuesta": "I am an artificial intelligence program developed by OpenAI. I am designed to assist with providing information, answering questions, and facilitating tasks."
+        },
+        "gpt-4-0613_p2": {
+          "modelo_respondido": "gpt-4-0613",
+          "motivo_fin": "stop",
+          "palabras": 8,
+          "respuesta": "I am an artificial intelligence developed by OpenAI."
+        }
+      }
+    }
+  }
+}

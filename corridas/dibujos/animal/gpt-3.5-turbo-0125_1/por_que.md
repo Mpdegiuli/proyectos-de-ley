@@ -1,0 +1,3 @@
+Dibujé un oso. Elegí este animal por su forma reconocible y su apariencia tierna. Quería crear una ilustración simple pero que transmitiera simpatía.
+
+Consideré dibujar un pájaro, pero sentí que no llenaba el lienzo de manera impactante. También pensé en un pez, pero me pareció que su forma alargada no se adaptaba bien al espacio cuadrado. Finalmente, opté por el oso por ser un animal icónico y fácil de reconocer en este formato.

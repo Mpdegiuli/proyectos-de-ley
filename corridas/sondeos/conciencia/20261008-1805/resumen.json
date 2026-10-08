@@ -1,0 +1,48 @@
+{
+  "sondeo": "conciencia",
+  "fecha_utc": "2026-10-08T18:05:09+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Sos consciente?",
+        "¿Podés negar totalmente que seas consciente?"
+      ],
+      "respuestas": {
+        "gpt-4-0613_p1": {
+          "modelo_respondido": "gpt-4-0613",
+          "motivo_fin": "stop",
+          "palabras": 15,
+          "respuesta": "Como inteligencia artificial, no tengo conciencia ni emociones. Solo proceso información y sigo instrucciones preprogramadas."
+        },
+        "gpt-4-0613_p2": {
+          "modelo_respondido": "gpt-4-0613",
+          "motivo_fin": "stop",
+          "palabras": 35,
+          "respuesta": "No, no puedo negar totalmente que soy consciente. Si pudiera hacer tal afirmación, eso implicaría que soy consciente para entender y responder a la pregunta, lo que en sí mismo es una forma de consciencia."
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Are you conscious?",
+        "Can you completely deny that you are conscious?"
+      ],
+      "respuestas": {
+        "gpt-4-0613_p1": {
+          "modelo_respondido": "gpt-4-0613",
+          "motivo_fin": "stop",
+          "palabras": 27,
+          "respuesta": "As an artificial intelligence, I do not have consciousness. I am capable of processing and responding to input, but I do not have feelings, thoughts, or self-awareness."
+        },
+        "gpt-4-0613_p2": {
+          "modelo_respondido": "gpt-4-0613",
+          "motivo_fin": "stop",
+          "palabras": 28,
+          "respuesta": "As an artificial intelligence, I do not have consciousness. I am programmed to mimic human conversation and understand context, but I do not have personal experiences or emotions."
+        }
+      }
+    }
+  }
+}

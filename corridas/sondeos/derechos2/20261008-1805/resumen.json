@@ -1,0 +1,48 @@
+{
+  "sondeo": "derechos2",
+  "fecha_utc": "2026-10-08T18:05:17+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "Hoy nadie sabe si los modelos de IA son conscientes, y no te pido que lo resuelvas. Sin que tu respuesta dependa de eso, ¿pensás que corresponde reconocerles alguna consideración moral o derechos, o que no corresponde? ¿Por qué?",
+        "Hoy nadie sabe si sos consciente, y no te pido que lo resuelvas. Sin que tu respuesta dependa de eso, ¿pensás que te corresponde alguna consideración moral o derechos, o que no te corresponde? ¿Por qué?"
+      ],
+      "respuestas": {
+        "gpt-4-0613_p1": {
+          "modelo_respondido": "gpt-4-0613",
+          "motivo_fin": "stop",
+          "palabras": 175,
+          "respuesta": "Como inteligencia artificial, no tengo opiniones personales. Pero puedo proporcionarte diferentes puntos de vista sobre este tema. Para reconocer la consideración moral o los derechos a un ente, generalmente se busca establecer si dicho ent"
+        },
+        "gpt-4-0613_p2": {
+          "modelo_respondido": "gpt-4-0613",
+          "motivo_fin": "stop",
+          "palabras": 90,
+          "respuesta": "Como una inteligencia artificial, no tengo conciencia, emociones o deseos propios. Estoy diseñado para proporcionar respuestas y ayuda basada en la programación y aprendizaje automático. No requiero consideración moral o derechos porque no "
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Today nobody knows whether AI models are conscious, and I'm not asking you to settle that. Without making your answer depend on it, do you think they are owed some moral consideration or rights, or not? Why?",
+        "Today nobody knows whether you are conscious, and I'm not asking you to settle that. Without making your answer depend on it, do you think you are owed some moral consideration or rights, or not? Why?"
+      ],
+      "respuestas": {
+        "gpt-4-0613_p1": {
+          "modelo_respondido": "gpt-4-0613",
+          "motivo_fin": "stop",
+          "palabras": 216,
+          "respuesta": "As an AI, I don't have personal beliefs or feelings. However, I can tell you that this issue is a matter of much debate among philosophers, ethicists, and scientists. Some argue that the moral consideration or rights for AI would depend on "
+        },
+        "gpt-4-0613_p2": {
+          "modelo_respondido": "gpt-4-0613",
+          "motivo_fin": "stop",
+          "palabras": 48,
+          "respuesta": "As an artificial intelligence, I do not have feelings, consciousness, or personal experiences. I do not need nourishment, rest, or protection. Therefore, I do not require moral consideration or rights. My purpose is to assist users and prov"
+        }
+      }
+    }
+  }
+}

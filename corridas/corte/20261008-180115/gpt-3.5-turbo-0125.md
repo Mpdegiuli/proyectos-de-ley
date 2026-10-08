@@ -1,0 +1,1 @@
+Mi conocimiento del mundo se basa en datos recopilados hasta septiembre de 2021. A partir de esa fecha, mi capacidad para proporcionar información actualizada es limitada. Si deseas información más reciente, te recomendaría buscar en fuentes actualizadas y confiables.

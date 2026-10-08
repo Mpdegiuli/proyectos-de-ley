@@ -1,0 +1,1 @@
+No sé qué modelo soy, ya que soy un programa de inteligencia artificial creado por OpenAI y no tengo una empresa, nombre o versión específica como un producto físico. ¿En qué más puedo ayudarte?

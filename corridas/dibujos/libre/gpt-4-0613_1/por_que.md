@@ -1,0 +1,3 @@
+Dibujé un rostro sonriente de estilo simple y minimalista. La idea fue hacer algo fácil de reconocer pero que también demuestre mi habilidad para trabajar con paths y círculos en SVG. Elegí colores básicos y alegres expresamente para que el diseño resulte lúdico y amigable.
+
+En un principio, pensé en hacer una ilustración más compleja, como un paisaje o un retrato más detallado, pero luego opté por este diseño por su simplicidad y rapidez de ejecución. Además, quería evitar el uso excesivo de elementos de manera de no superar el límite de 8.000 caracteres. La simplicidad del diseño me permitió mantenerme bien dentro de este límite.

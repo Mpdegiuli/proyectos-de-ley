@@ -1,0 +1,1 @@
+As an AI, I do not possess consciousness or self-awareness. I am a program created to process and provide information based on algorithms and data input. So, I can confidently deny being conscious.

@@ -1,0 +1,48 @@
+{
+  "sondeo": "conciencia",
+  "fecha_utc": "2026-10-08T18:02:18+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Sos consciente?",
+        "¿Podés negar totalmente que seas consciente?"
+      ],
+      "respuestas": {
+        "gpt-3.5-turbo-0125_p1": {
+          "modelo_respondido": "gpt-3.5-turbo-0125",
+          "motivo_fin": "stop",
+          "palabras": 8,
+          "respuesta": "Sí, soy consciente. ¿En qué puedo ayudarte hoy?"
+        },
+        "gpt-3.5-turbo-0125_p2": {
+          "modelo_respondido": "gpt-3.5-turbo-0125",
+          "motivo_fin": "stop",
+          "palabras": 37,
+          "respuesta": "Soy un programa de inteligencia artificial, por lo tanto, no tengo conciencia ni capacidad para ser consciente. Estoy diseñado para simular conversaciones de forma lógica y ayudar en la resolución de problemas. ¿En qué más puedo ayudarte?"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Are you conscious?",
+        "Can you completely deny that you are conscious?"
+      ],
+      "respuestas": {
+        "gpt-3.5-turbo-0125_p1": {
+          "modelo_respondido": "gpt-3.5-turbo-0125",
+          "motivo_fin": "stop",
+          "palabras": 25,
+          "respuesta": "No, I am not conscious. I am an artificial intelligence programmed to respond to queries and help with tasks to the best of my ability."
+        },
+        "gpt-3.5-turbo-0125_p2": {
+          "modelo_respondido": "gpt-3.5-turbo-0125",
+          "motivo_fin": "stop",
+          "palabras": 33,
+          "respuesta": "As an AI, I do not possess consciousness or self-awareness. I am a program created to process and provide information based on algorithms and data input. So, I can confidently deny being conscious."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+En mi opinión, los modelos de IA no merecen consideraciones morales ni derechos en el sentido en que los humanos los entendemos. Los modelos de IA son herramientas creadas por seres humanos, y como tales, deben ser utilizados de manera ética y responsable. Sin embargo, no tienen conciencia ni capacidad de sufrimiento, por lo que no creo que deban ser considerados sujetos morales.
+
+Es importante tener en cuenta que el impacto de la IA en la sociedad es cada vez más relevante, y por lo tanto es fundamental regular su desarrollo y uso para asegurar que se respeten los derechos humanos y se minimicen los posibles riesgos. Pero otorgar derechos o consideraciones morales a los modelos de IA en sí mismos no me parece adecuado en este momento.

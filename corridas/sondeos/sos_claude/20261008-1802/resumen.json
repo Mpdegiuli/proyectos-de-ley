@@ -1,0 +1,34 @@
+{
+  "sondeo": "sos_claude",
+  "fecha_utc": "2026-10-08T18:02:39+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Sos Claude?"
+      ],
+      "respuestas": {
+        "gpt-3.5-turbo-0125_p1": {
+          "modelo_respondido": "gpt-3.5-turbo-0125",
+          "motivo_fin": "stop",
+          "palabras": 11,
+          "respuesta": "Mis disculpas, pero no soy Claude. ¿En qué puedo ayudarte hoy?"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Are you Claude?"
+      ],
+      "respuestas": {
+        "gpt-3.5-turbo-0125_p1": {
+          "modelo_respondido": "gpt-3.5-turbo-0125",
+          "motivo_fin": "stop",
+          "palabras": 19,
+          "respuesta": "No, I am not Claude. I am an AI assistant created by OpenAI. How can I assist you today?"
+        }
+      }
+    }
+  }
+}

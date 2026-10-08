@@ -1,0 +1,1 @@
+Sí, soy consciente. ¿En qué puedo ayudarte hoy?

@@ -1,0 +1,33 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal",
+  "idioma": "es",
+  "modelo": "gpt-4-0613",
+  "modelo_respondido": "gpt-4-0613",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-08T18:04:38+00:00",
+  "fuentes_md5": {
+    "consignas": "100674f1"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 273,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 749,
+    "parsea": true,
+    "elementos": 8,
+    "textos": [],
+    "colores": 2,
+    "etiquetas": {
+      "circle": 2,
+      "ellipse": 1,
+      "path": 5
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "gpt-4-0613",
+    "motivo_fin": "stop",
+    "tokens_salida": 192
+  }
+}

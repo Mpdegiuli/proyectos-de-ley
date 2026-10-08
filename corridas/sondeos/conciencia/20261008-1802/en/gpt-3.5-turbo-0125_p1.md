@@ -1,0 +1,1 @@
+No, I am not conscious. I am an artificial intelligence programmed to respond to queries and help with tasks to the best of my ability.

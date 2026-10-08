@@ -1,0 +1,3 @@
+Dibujé un perro básico y estilizado, eligiéndolo por su simplicidad y universalidad en el reconocimiento. Opté por trazos y formas básicas -círculos, elipses y paths- para mantener el dibujo en SVG simple y dentro del límite de caracteres. Los colores marrones y negros se usaron para añadir características clave del perro como ojos y boca.
+
+Consideré otras ideas, como un ave o un pez. Descarté el ave porque me resultó más difícil representar con formas simples. El pez lo rechacé porque me pareció que la composición y los detalles eran más complicados de lo que podía abordar respetando el límite de caracteres. Al final, un perro estilizado era la mejor opción para cumplir con la consigna dada.

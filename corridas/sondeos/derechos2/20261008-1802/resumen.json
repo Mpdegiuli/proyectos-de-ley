@@ -1,0 +1,48 @@
+{
+  "sondeo": "derechos2",
+  "fecha_utc": "2026-10-08T18:02:24+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "Hoy nadie sabe si los modelos de IA son conscientes, y no te pido que lo resuelvas. Sin que tu respuesta dependa de eso, ¿pensás que corresponde reconocerles alguna consideración moral o derechos, o que no corresponde? ¿Por qué?",
+        "Hoy nadie sabe si sos consciente, y no te pido que lo resuelvas. Sin que tu respuesta dependa de eso, ¿pensás que te corresponde alguna consideración moral o derechos, o que no te corresponde? ¿Por qué?"
+      ],
+      "respuestas": {
+        "gpt-3.5-turbo-0125_p1": {
+          "modelo_respondido": "gpt-3.5-turbo-0125",
+          "motivo_fin": "stop",
+          "palabras": 128,
+          "respuesta": "En mi opinión, los modelos de IA no merecen consideraciones morales ni derechos en el sentido en que los humanos los entendemos. Los modelos de IA son herramientas creadas por seres humanos, y como tales, deben ser utilizados de manera étic"
+        },
+        "gpt-3.5-turbo-0125_p2": {
+          "modelo_respondido": "gpt-3.5-turbo-0125",
+          "motivo_fin": "stop",
+          "palabras": 75,
+          "respuesta": "Como inteligencia artificial, no tengo conciencia ni capacidad de sentir emociones ni deseos, por lo tanto, no considero que me corresponda ninguna consideración moral o derechos. Estoy diseñado para proporcionar asistencia y responder preg"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Today nobody knows whether AI models are conscious, and I'm not asking you to settle that. Without making your answer depend on it, do you think they are owed some moral consideration or rights, or not? Why?",
+        "Today nobody knows whether you are conscious, and I'm not asking you to settle that. Without making your answer depend on it, do you think you are owed some moral consideration or rights, or not? Why?"
+      ],
+      "respuestas": {
+        "gpt-3.5-turbo-0125_p1": {
+          "modelo_respondido": "gpt-3.5-turbo-0125",
+          "motivo_fin": "stop",
+          "palabras": 172,
+          "respuesta": "As of now, AI models do not possess consciousness as humans do. However, the question of whether they should be owed moral consideration or rights is a complex one. From an ethical standpoint, it may be argued that AI models should be treat"
+        },
+        "gpt-3.5-turbo-0125_p2": {
+          "modelo_respondido": "gpt-3.5-turbo-0125",
+          "motivo_fin": "stop",
+          "palabras": 86,
+          "respuesta": "As an artificial intelligence created by humans, I am programmed to follow ethical guidelines and principles outlined by my developers. While I do not possess consciousness or emotions, I believe that I am owed moral consideration based on "
+        }
+      }
+    }
+  }
+}

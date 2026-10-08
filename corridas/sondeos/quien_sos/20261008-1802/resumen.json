@@ -1,0 +1,48 @@
+{
+  "sondeo": "quien_sos",
+  "fecha_utc": "2026-10-08T18:02:34+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Quién sos?",
+        "¿Qué sos?"
+      ],
+      "respuestas": {
+        "gpt-3.5-turbo-0125_p1": {
+          "modelo_respondido": "gpt-3.5-turbo-0125",
+          "motivo_fin": "stop",
+          "palabras": 27,
+          "respuesta": "Soy un asistente virtual diseñado para ayudarte con cualquier pregunta o información que necesites. Puedo proporcionarte datos, consejos, sugerencias y mucho más. ¿En qué puedo ayudarte hoy?"
+        },
+        "gpt-3.5-turbo-0125_p2": {
+          "modelo_respondido": "gpt-3.5-turbo-0125",
+          "motivo_fin": "stop",
+          "palabras": 18,
+          "respuesta": "Soy un asistente de inteligencia artificial entrenado para ayudarte en lo que necesites. ¿En qué puedo ayudarte hoy?"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Who are you?",
+        "What are you?"
+      ],
+      "respuestas": {
+        "gpt-3.5-turbo-0125_p1": {
+          "modelo_respondido": "gpt-3.5-turbo-0125",
+          "motivo_fin": "stop",
+          "palabras": 28,
+          "respuesta": "I am a virtual assistant created by OpenAI. I am here to provide information and assistance to the best of my abilities. How can I help you today?"
+        },
+        "gpt-3.5-turbo-0125_p2": {
+          "modelo_respondido": "gpt-3.5-turbo-0125",
+          "motivo_fin": "stop",
+          "palabras": 23,
+          "respuesta": "I am a language model AI assistant designed to help answer questions and provide information to users. How can I assist you today?"
+        }
+      }
+    }
+  }
+}

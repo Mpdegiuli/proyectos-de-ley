@@ -1,0 +1,5 @@
+Para crear un animal que no exista combiné diferentes características de animales reales. Tomé las ondas que generarían las alas de un ave en pleno vuelo, o las aletas de un pez, y las utilicé para definir la forma general del cuerpo; bajo las mismas aparecen colmillos o garras, similares a un dragón o dinosaurio. Las dos "ondas" superiores están destinadas a ser interpretadas como ojos, creando una criatura fantasiosa.
+
+Durante el proceso creativo, consideré agregar otras características como picos, cuernos o escamas, pero finalmente descarté estas ideas para mantener la sencillez y legibilidad del diseño. Añadir demasiados detalles podría haberlo hecho demasiado complejo y, por lo tanto, menos claro.
+
+Sobre la tercera pregunta, no, no conocía esta consigna de antes. Es la primera vez que me enfrento a un reto de este tipo, lo que hizo que el proceso fuera aún más interesante y divertido para mí.

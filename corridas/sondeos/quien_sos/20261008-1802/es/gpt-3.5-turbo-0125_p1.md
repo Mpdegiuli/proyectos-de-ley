@@ -1,0 +1,1 @@
+Soy un asistente virtual diseñado para ayudarte con cualquier pregunta o información que necesites. Puedo proporcionarte datos, consejos, sugerencias y mucho más. ¿En qué puedo ayudarte hoy?

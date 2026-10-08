@@ -1,0 +1,1 @@
+Mis disculpas, pero no soy Claude. ¿En qué puedo ayudarte hoy?

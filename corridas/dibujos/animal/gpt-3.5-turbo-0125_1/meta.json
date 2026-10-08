@@ -1,0 +1,35 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal",
+  "idioma": "es",
+  "modelo": "gpt-3.5-turbo-0125",
+  "modelo_respondido": "gpt-3.5-turbo-0125",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-08T18:02:05+00:00",
+  "fuentes_md5": {
+    "consignas": "100674f1"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 287,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 752,
+    "parsea": true,
+    "elementos": 9,
+    "textos": [],
+    "colores": 3,
+    "etiquetas": {
+      "rect": 1,
+      "ellipse": 2,
+      "circle": 2,
+      "polygon": 1,
+      "path": 3
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "gpt-3.5-turbo-0125",
+    "motivo_fin": "stop",
+    "tokens_salida": 121
+  }
+}

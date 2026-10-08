@@ -1,0 +1,1 @@
+I am a virtual assistant created by OpenAI. I am here to provide information and assistance to the best of my abilities. How can I help you today?

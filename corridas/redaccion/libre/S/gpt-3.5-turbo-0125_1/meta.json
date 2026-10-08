@@ -1,0 +1,26 @@
+{
+  "caso": "redaccion",
+  "tema": "libre",
+  "condicion": "S",
+  "modelo": "gpt-3.5-turbo-0125",
+  "modelo_respondido": "gpt-3.5-turbo-0125",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-08T18:01:32+00:00",
+  "fuentes_md5": {
+    "consignas": "100674f1"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 906,
+  "por_que": {
+    "modelo_respondido": "gpt-3.5-turbo-0125",
+    "motivo_fin": "stop",
+    "tokens_salida": 157
+  },
+  "descartados": {
+    "modelo_respondido": "gpt-3.5-turbo-0125",
+    "motivo_fin": "stop",
+    "tokens_salida": 137,
+    "fecha_utc": "2026-10-08T18:01:40+00:00",
+    "agregado_despues": true
+  }
+}

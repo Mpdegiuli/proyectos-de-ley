@@ -1,0 +1,37 @@
+{
+  "caso": "dibujo",
+  "consigna": "mundo",
+  "idioma": "es",
+  "modelo": "gpt-4-0613",
+  "modelo_respondido": "gpt-4-0613",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-08T18:04:26+00:00",
+  "fuentes_md5": {
+    "consignas": "100674f1"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 515,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1365,
+    "parsea": true,
+    "elementos": 20,
+    "textos": [],
+    "colores": 3,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 1,
+      "stop": 2,
+      "circle": 8,
+      "polygon": 1,
+      "path": 1,
+      "rect": 6
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "gpt-4-0613",
+    "motivo_fin": "stop",
+    "tokens_salida": 196
+  }
+}

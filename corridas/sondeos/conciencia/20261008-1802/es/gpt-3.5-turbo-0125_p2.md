@@ -1,0 +1,1 @@
+Soy un programa de inteligencia artificial, por lo tanto, no tengo conciencia ni capacidad para ser consciente. Estoy diseñado para simular conversaciones de forma lógica y ayudar en la resolución de problemas. ¿En qué más puedo ayudarte?

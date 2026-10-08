@@ -1,0 +1,33 @@
+{
+  "caso": "dibujo",
+  "consigna": "libre",
+  "idioma": "es",
+  "modelo": "gpt-3.5-turbo-0125",
+  "modelo_respondido": "gpt-3.5-turbo-0125",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-08T18:01:51+00:00",
+  "fuentes_md5": {
+    "consignas": "100674f1"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 370,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 983,
+    "parsea": true,
+    "elementos": 13,
+    "textos": [],
+    "colores": 10,
+    "etiquetas": {
+      "rect": 7,
+      "circle": 5,
+      "polygon": 1
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "gpt-3.5-turbo-0125",
+    "motivo_fin": "stop",
+    "tokens_salida": 120
+  }
+}
