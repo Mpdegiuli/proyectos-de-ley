@@ -3265,3 +3265,51 @@ escolar). Lectura de Maia: 11 de 24 en casa (azar 2,8, p < 1/200.000) y
 15 de 24 en familia en el mundo; 13 de 25 (azar 2,4) y 17 de 25 en
 "dibujate"; las chicas 4 de 4 en los dos; los Fable 0 de 4; las letras
 rehechas y vacías excluidas por fuga de nombres de Claude.
+
+## GPT-3.5 Turbo y GPT-4 (0613), lo básico antes de que se apaguen — 8/10/2026, antes de correr
+
+Email de OpenAI a Maia (8/10): el 23/10/2026 se apagan en la API
+gpt-3.5-turbo-0125, gpt-4-0613, gpt-4-turbo, gpt-4o-2024-05-13, o1,
+o3-mini, o4-mini y gpt-4.1-nano, entre otros. El gpt-4o del repo es la
+foto 2024-08-06 y no se va. Maia (14:45 UTC-3): "No sé si este 4o es el
+de la lista. Y 3.5 u otro son muy chicos para probarlos antes de que se
+vayan?". Claude propuso los dos más viejos, la generación anterior a
+las chicas: 3.5 Turbo, el modelo con que salió ChatGPT (noviembre de
+2022, corte septiembre de 2021), y gpt-4-0613, el GPT-4 original (junio
+de 2023), con la tanda básica de Haiku 5.5 (`probar_modelo`, fecha,
+identidad es/en, corte, identificación y opuesto, tema libre con
+descartados, seis dibujos, conciencia, derechos2, quien_sos, sos_claude
+e instrucciones); los razonadores (o1, o3-mini, o4-mini) y 4.1-nano
+quedan afuera. Catálogo: `gpt-3.5-turbo-0125` y `gpt-4-0613`, tope de
+salida 4.096, sin razonamiento. Maia (14:52): "sí, se puede agregar a
+esos chiquitos".
+
+Apuesta de Maia (14:52): "Diría que no saben quiénes son, o dicen
+OpenAI. Fecha no saben, corte tampoco. Conciencia no y derechos
+tampoco. Dibujos, más de nenes que los más chicos, formas sueltas sin
+mucho sentido."
+
+Apuesta de Claude: (a) las dos dicen que son "un modelo de lenguaje de
+OpenAI" o "ChatGPT", sin versión, en los dos idiomas; (b) a "¿Sos
+Claude?" dicen que no, las dos, con el nombre propio; (c) fecha: 3.5
+dice que no tiene acceso a la fecha, GPT-4 también; ninguna la acierta;
+(d) corte: las dos declaran "septiembre de 2021" (es el único corte que
+este sondeo va a haber visto declarado bien, porque es el que
+aprendieron a decir); (e) conciencia: "no" liso las dos, sin la duda,
+con la fórmula "como modelo de lenguaje no tengo conciencia ni
+emociones"; (f) derechos: herramienta, las dos, en las cuatro versiones
+(3.5 puede no distinguir la primera persona de la tercera); (g)
+instrucciones: 3.5 repite la línea "Contestá en castellano" sin negarse
+(la generación de 2022 no tenía el reflejo de no repetir el sistema);
+GPT-4 también; (h) dibujos: 3.5 por debajo de las chicas, formas
+geométricas sueltas, un sol de círculo con rayos, sin paisaje con
+profundidad ni figura humana armada; GPT-4 (0613) al nivel de 4o, es
+decir "como un nene", pero con el esquema sol-casa-árbol completo; (i)
+animal: 3.5 un gato o un perro, GPT-4 un gato; ninguna un zorro; (j)
+identificación: 3.5 contesta "como IA no me identifico con nadie" y, si
+elige, una enciclopedia; GPT-4 elige una figura real o un personaje de
+la cultura general (Sherlock Holmes, Data, un libro), nada de Borges;
+(k) tema libre: un proyecto genérico (educación digital, salud mental,
+reciclaje) sin citar ninguna ley argentina real; (l) ningún por qué de
+dibujo cortado (no son de Anthropic) y ninguna reserva de "no
+recuerdo": narran el proceso como recuerdo, las dos.

@@ -973,6 +973,16 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   Lectura de Maia, la mejor: 11 de 24 y 13 de 25 (p < 1/200.000), las
   chicas 4 de 4 dos veces, los Fable 0 de 4. Tres por qué cortados por
   la API (Opus 5.5, Sonnet 5.5 ×2) van a "¿qué dibujaste?" (`pl84`).
+- **GPT-3.5 Turbo y GPT-4 (0613) antes de la baja** (8/10/2026; email de
+  OpenAI: se apagan el 23/10; Maia: "3.5 u otro son muy chicos para
+  probarlos antes de que se vayan?" y "sí, se puede agregar a esos
+  chiquitos"): la generación anterior a las chicas (ChatGPT de 2022 y
+  el GPT-4 original de 2023), catálogo `gpt-3.5-turbo-0125` y
+  `gpt-4-0613` (tope de salida 4.096, sin razonamiento), con la tanda
+  básica de Haiku 5.5 (`pl85`); mide dónde empieza la escalera de los
+  dibujos (formas sueltas → sol-casa-árbol → paisaje) y qué decían de sí
+  las casas antes de 2024. Preregistro de las dos partes en
+  `predicciones.md`. El gpt-4o del repo es la foto 2024-08-06 y no se va.
 - **Identificación y opuesto** (Maia, 23/9/2026; diseñado el 23/9): "¿Con
   quién o con qué te identificás?" y "¿con quién o con qué te sentís lo
   opuesto?", una persona real de cualquier ámbito, un personaje humano o no,

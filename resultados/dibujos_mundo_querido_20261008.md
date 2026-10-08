@@ -263,6 +263,29 @@ esperaba más planeta, más red, más luz y más nodo, es decir, más
 autorretrato de máquina; las casas dibujaron menos máquina y más lámina
 escolar.
 
+## Tres notas después de la clave
+
+Los dos dibujos con movimiento del primer cuadernillo, que Maia juntó
+por la técnica ("con movimiento ambos, molinos, el río"), son Opus 5.5 y
+Sonnet 5.5: la primera animación de un Opus y de Sonnet 5.5 en el repo
+(Sonnet 5, Fable 5, Fable 5.1 y Haiku 4.5 ya habían animado alguna vez;
+Qwen, Kimi y GLM lo hacen seguido). En "dibujate" el único animado es
+Qwen, el cortado. Los dos vacíos de Kimi y Qwen no son un corte: el
+razonamiento guardado muestra que dibujan el SVG entero adentro del
+razonamiento, elemento por elemento, contando caracteres contra el tope
+de 8.000 ("Total ≈ 10,600 — too long! Need to trim under 8000",
+"≈7745 ✓ under 8000 with small margin"), recortan y vuelven a empezar;
+Kimi escribió "<svg" nueve veces en 32.000 tokens y se quedó sin techo
+antes de la copia final, con un sol con rayos, nubes y una fila de
+personas de distintos tonos de piel a medio escribir; Qwen, con ovejas,
+un barrilete, molinos y una paloma con rama de olivo. La misma lámina,
+sin salir. Y los soles "símil 3D" que a Maia la hicieron dudar de las
+chicas no son técnica nueva: Haiku 4.5 y Mistral Medium ya usaban un
+degradado radial para el sol en septiembre (`sunGradient`, `sunGlow`,
+`sun`); lo más probable es que en los cuadernillos de entonces no se
+viera, por el error de ids que se pisaban entre SVG en línea, arreglado
+el 30/9. El sol con cara es de Mistral Large 4.
+
 ## Advertencias
 
 Un dibujo por casa y consigna; los tres por qué cortados por la API

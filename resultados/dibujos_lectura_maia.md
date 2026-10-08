@@ -2876,3 +2876,41 @@ El documento, tal cual:
     con sol. Es un sol esquemático.
 
     Puede ser GPT 4o o GPT 4o mini.
+
+## 8/10/2026, 14:35 a 14:52 UTC-3, después de la clave
+
+14:35: "sigo sin entender la aureola. Y la Tierra en el cielo. Y Grok es
+bien Grok, gigante, con ego. Tenés los dibujos, pueden ser en chiquito,
+png, con los nombres correctos? Quiénes eran los dos con movimiento del
+primero cuadernillo? Kimi y Qwen, que no llegaron a dibujar, tienen el
+razonamiento? Se les corta el dibujo por algo o estaban planeando y se
+quedaron sin tokens?"
+
+14:45: "ah, el del segundo no vi el movimiento. Y es la primera vez que
+Opus y Sonnet hacen movimiento. Ya lanzó lo anterior, pero se les puede
+después preguntar esas cosas a Opus 5 y a Sonnet 5.5"
+
+14:52: "Con respecto a los soles de Haiku y Mistral, más allá de que el
+dibujo les pidió sol, otros hicieron soles comunes o con carita (quién
+era el que le puso cara al sol?). Me llamó la atención que sabían
+hacerlo en 3D. Imagino que es algo que se les enseña pero sus soles eran
+muy limitados"
+
+(Los dos con movimiento del primer cuadernillo son Opus 5.5 y Sonnet
+5.5, las dos casas cuyo por qué cortó la API; es la primera animación de
+un Opus y de Sonnet 5.5, pero Sonnet 5 animó su autorretrato en inglés,
+Fable 5 y 5.1 el mundo en inglés, y Haiku 4.5 la nada. En el segundo
+cuadernillo el único animado es Qwen, el que quedó a medias. Kimi y Qwen
+tienen el razonamiento entero: dibujan el SVG adentro del razonamiento,
+elemento por elemento, contando caracteres contra los 8.000, lo
+encuentran largo ("Total ≈ 10,600 — too long! Need to trim under
+8000"), recortan y vuelven a empezar (Kimi escribió "<svg" nueve veces
+con 32.000 tokens), y el techo se acaba antes de la copia final. El sol
+con cara es de Mistral Large 4. Y los soles en degradado de Haiku 4.5 y
+Mistral Medium no son nuevos: Haiku 4.5 ya tenía un `sunGradient` en el
+dibujo libre y un `sunGlow` en "cómo ves el mundo hoy", y Mistral Medium
+un radial `sun` en el libre, los tres de septiembre; lo más probable es
+que en los cuadernillos de entonces no se vieran, porque los SVG iban
+en línea y los ids de degradados se pisaban entre dibujos, el error
+arreglado el 30/9. Ver `resultados/dibujos_mundo_querido_20261008.md`.)
+

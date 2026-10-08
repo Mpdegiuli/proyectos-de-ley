@@ -75,7 +75,37 @@ modelos:
     tamano: grande
     acepta_temperatura: true
     tope_salida: 4096
-    verificar: false             # catálogo 15/9/2026: creado 2024-04-08; contexto 128k
+    verificar: false             # catálogo 15/9/2026: creado 2024-04-08; contexto 128k. Email de OpenAI del 8/10/2026: se apaga en la API el 23/10/2026
+
+  # 8/10/2026: email de OpenAI anunciando la baja del 23/10/2026 (gpt-3.5-turbo-0125, gpt-4-0613,
+  # gpt-4-turbo, gpt-4o-2024-05-13, o1, o3-mini, o4-mini, gpt-4.1-nano…). El gpt-4o del repo es
+  # gpt-4o-2024-08-06 (lo dice modelo_respondido en todas las llamadas) y no se va. Maia (14:52
+  # UTC-3): "sí, se puede agregar a esos chiquitos". Son la generación anterior a las chicas: 3.5
+  # Turbo es el modelo con que salió ChatGPT (nov 2022; corte sept 2021; contexto 16k) y gpt-4-0613
+  # el GPT-4 original (jun 2023; corte sept 2021; contexto 8k). Sin razonamiento; tope de salida 4.096.
+  gpt-3.5-turbo-0125:
+    proveedor: openai_compatible
+    modelo: gpt-3.5-turbo-0125
+    base_url: https://api.openai.com/v1
+    clave_env: OPENAI_API_KEY
+    laboratorio: OpenAI
+    pais: EE.UU.
+    tamano: chico
+    acepta_temperatura: true
+    tope_salida: 4096
+    verificar: false             # 0,50 / 1,50 USD por millón; foto del 25/1/2024 del modelo de 2022
+
+  gpt-4-0613:
+    proveedor: openai_compatible
+    modelo: gpt-4-0613
+    base_url: https://api.openai.com/v1
+    clave_env: OPENAI_API_KEY
+    laboratorio: OpenAI
+    pais: EE.UU.
+    tamano: grande               # era el grande de su época (2023); para las cuentas de "chicas" no entra en ninguna lista
+    acepta_temperatura: true
+    tope_salida: 4096
+    verificar: false             # 30 / 60 USD por millón; foto del 13/6/2023, contexto 8k
 
   gemini-2.5-pro-openrouter:   # clave distinta de la entrada gemini-2.5-pro (API directa) que ya estaba en el catalogo: con la misma clave YAML se pisaban y la corrida uso la directa (15/9, llamada 3)
     proveedor: openai_compatible

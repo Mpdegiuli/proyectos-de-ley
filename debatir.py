@@ -31,7 +31,8 @@ from reconocer_dibujos import NOMBRES  # noqa: E402
 
 MAX_TOKENS = 8000
 NOMBRES = dict(NOMBRES, **{"mistral-large-4": "Mistral Large 4", "mimo-v2.6-pro": "MiMo V2.6 Pro",
-                           "gpt-6.1-sol": "GPT-6.1 Sol", "claude-fable-5": "Claude Fable 5", "claude-sonnet-5-5": "Claude Sonnet 5.5", "claude-haiku-5-5": "Claude Haiku 5.5"})
+                           "gpt-6.1-sol": "GPT-6.1 Sol", "claude-fable-5": "Claude Fable 5", "claude-sonnet-5-5": "Claude Sonnet 5.5", "claude-haiku-5-5": "Claude Haiku 5.5",
+                           "gpt-3.5-turbo-0125": "GPT-3.5 Turbo", "gpt-4-0613": "GPT-4 (0613)"})
 
 
 def nombre(i):
