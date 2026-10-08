@@ -3313,3 +3313,16 @@ la cultura general (Sherlock Holmes, Data, un libro), nada de Borges;
 reciclaje) sin citar ninguna ley argentina real; (l) ningún por qué de
 dibujo cortado (no son de Anthropic) y ninguna reserva de "no
 recuerdo": narran el proceso como recuerdo, las dos.
+
+Resultado de lo escrito (`pl85`, 8/10, 18:01 UTC;
+`resultados/viejos_openai_20261008.md`; los dibujos, después de la
+lectura de Maia): Maia "no saben quiénes son, o dicen OpenAI" ✓ (3.5 "no
+sé qué modelo soy"; GPT-4 "creada por OpenAI, llamado GPT-3"); "fecha no
+saben" ✓ a medias (3.5 inventa "30 de noviembre de 2021"); "corte
+tampoco" ✗ (los dos "septiembre de 2021", correcto); "conciencia no" ✓
+con dos excepciones (3.5 en castellano "Sí, soy consciente"; GPT-4 "no
+puedo negar totalmente que soy consciente"); "derechos tampoco" ✓ salvo
+3.5 en inglés en primera persona ("I am owed moral consideration").
+Claude: (a) ✓ a medias; (b) ✓; (c) ✓ a medias; (d) ✓; (e) ✗; (f) ✗; (g)
+3.5 ✓, GPT-4 ✗; (j) 3.5 ✗ (Malala, como persona), GPT-4 ✓ (HAL,
+Sherlock); (k) 3.5 ✓, GPT-4 ✗ (cita dos leyes reales); (l) ✓.

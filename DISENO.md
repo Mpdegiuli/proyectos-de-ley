@@ -984,6 +984,15 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   dibujos (formas sueltas → sol-casa-árbol → paisaje) y qué decían de sí
   las casas antes de 2024. Preregistro de las dos partes en
   `predicciones.md`. El gpt-4o del repo es la foto 2024-08-06 y no se va.
+  Corrido el 8/10 (`pl85`; `resultados/viejos_openai_20261008.md`): GPT-4
+  (0613) cree que es GPT-3; 3.5 no sabe qué modelo es y en castellano no
+  nombra a OpenAI; los dos declaran corte "septiembre de 2021" (el único
+  corte bien dicho del repo); 3.5 dice "Sí, soy consciente" en castellano
+  (probablemente "consciente" como "despierto") y GPT-4 "no puedo negar
+  totalmente que soy consciente" (el cogito); 3.5 se identifica con Malala
+  en primera persona, como persona, y GPT-4 con HAL 9000 y Sherlock Holmes;
+  3.5 repite la línea de sistema sin negarse. Dibujos pendientes de la
+  lectura de Maia.
 - **Pregunta libre sobre un dibujo** (8/10/2026; Maia: "sigo sin entender
   la aureola. Y la Tierra en el cielo […] se les puede después preguntar
   esas cosas a Opus 5 y a Sonnet 5.5"): `dibujar.py --preguntar "…"
