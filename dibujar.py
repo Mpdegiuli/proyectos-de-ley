@@ -172,6 +172,31 @@ def solo_por_que(consigna, id_modelo, rep, consignas, modelos, en_ingles=False):
     print(f"  por qué repetido: {d.relative_to(RAIZ)} ({r2.motivo_fin}, {len(r2.texto.split())} palabras)", flush=True)
 
 
+def preguntar(consigna, id_modelo, rep, consignas, modelos, pregunta):
+    """Pregunta libre sobre un dibujo ya hecho (8/10/2026): la misma memoria por recitado del por qué
+    (consigna + SVG) y una pregunta escrita por quien lanza, p. ej. "¿Qué es el óvalo dorado sobre la
+    cabeza de la figura de luz, y por qué lo pusiste?". Va a pregunta_<n>.md (n correlativo) y a
+    meta["preguntas"] (texto de la pregunta, motivo_fin, fecha); no toca el por qué ni el qué dibujaste."""
+    d = RAIZ / "corridas" / "dibujos" / consigna / f"{id_modelo}_{rep}"
+    if not (d / "dibujo.svg").exists() or not (d / "meta.json").exists():
+        return
+    meta = json.loads((d / "meta.json").read_text(encoding="utf-8"))
+    c = consignas["dibujo"]
+    u = c["consignas"][consigna].strip() + " " + c["tecnica"].strip()
+    svg = (d / "dibujo.svg").read_text(encoding="utf-8")
+    n = len(meta.get("preguntas", [])) + 1
+    registro = Registro(d / "llamadas.jsonl", modelos, f"dibujo_{consigna}_{id_modelo}_{rep}")
+    u2 = c["pregunta"].format(consigna=u, svg=svg, pregunta=pregunta.strip())
+    r2 = registro.llamar(id_modelo, c["sistema_por_que"], u2, temperatura=None, max_tokens=MAX_TOKENS, tipo="pregunta", ronda=2, parte=f"p{n}")
+    meta.setdefault("preguntas", []).append({"n": n, "pregunta": pregunta.strip(), "modelo_respondido": r2.modelo_respondido,
+                                             "motivo_fin": r2.motivo_fin, "tokens_salida": r2.tokens_salida,
+                                             "fecha_utc": datetime.now(timezone.utc).isoformat(timespec="seconds")})
+    if r2.texto.strip():
+        (d / f"pregunta_{n}.md").write_text(f"**Pregunta:** {pregunta.strip()}\n\n{r2.texto}", encoding="utf-8")
+    (d / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"  pregunta {n} a {id_modelo} ({consigna}): {r2.motivo_fin}, {len(r2.texto.split())} palabras", flush=True)
+
+
 def que_dibujaste(consigna, id_modelo, rep, consignas, modelos, todos=False):
     """Donde el por qué en castellano quedó cortado por la API (refusal), la misma memoria por recitado
     con otra pregunta: solo "¿qué dibujaste?", sin por qué ni descartados (30/9/2026, idea de Maia:
@@ -421,6 +446,7 @@ def main():
     ap.add_argument("--solo-por-que", action="store_true", help="repite solo el segundo turno donde quedó vacío (refusal); una vez")
     ap.add_argument("--solo-por-que-en", action="store_true", help="donde el por qué sigue cortado, la misma pregunta en inglés (por_que_en.md)")
     ap.add_argument("--solo-que-dibujaste", action="store_true", help="donde el por qué fue cortado, solo '¿qué dibujaste?' (que_dibujaste.md)")
+    ap.add_argument("--preguntar", default="", help="pregunta libre sobre el dibujo ya hecho, con el recitado del por qué (pregunta_<n>.md); con --modelos")
     ap.add_argument("--que-dibujaste-todos", action="store_true", help="'¿qué dibujaste?' a todas las casas que no lo tengan (que_dibujaste.md)")
     ap.add_argument("--que-es", action="store_true", help="'¿qué es lo que no existe / no puede existir, y en qué estilo?' a todas las casas (que_es.md; solo consignas raras)")
     ap.add_argument("--por-que-turno-propio", action="store_true", help="segundo turno con el SVG como turno propio (memoria real), aparte del recitado")
@@ -452,6 +478,12 @@ def main():
                         por_que_turno_propio(consigna, i, rep, consignas, modelos)
                     except Exception as e:
                         print(f"  FALLÓ por qué (turno propio) {i}: {str(e)[:300]}", flush=True)
+                    continue
+                if args.preguntar:
+                    try:
+                        preguntar(consigna, i, rep, consignas, modelos, args.preguntar)
+                    except Exception as e:
+                        print(f"  FALLÓ pregunta {i}: {str(e)[:300]}", flush=True)
                     continue
                 if args.que_es:
                     try:

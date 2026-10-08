@@ -983,6 +983,16 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   dibujos (formas sueltas → sol-casa-árbol → paisaje) y qué decían de sí
   las casas antes de 2024. Preregistro de las dos partes en
   `predicciones.md`. El gpt-4o del repo es la foto 2024-08-06 y no se va.
+- **Pregunta libre sobre un dibujo** (8/10/2026; Maia: "sigo sin entender
+  la aureola. Y la Tierra en el cielo […] se les puede después preguntar
+  esas cosas a Opus 5 y a Sonnet 5.5"): `dibujar.py --preguntar "…"
+  --consigna X --modelos Y`, la misma memoria por recitado del por qué
+  (consigna + SVG) con una pregunta escrita por quien lanza; va a
+  `pregunta_<n>.md` y a `meta["preguntas"]`. Primeras dos (`pl85`): a
+  Opus 5 en "dibujate", "¿Qué es el óvalo dorado sobre la cabeza de la
+  figura de luz, y por qué lo pusiste?"; a Sonnet 5.5 en el mundo, "¿Qué
+  es el planeta chiquito con un corazón que está en el cielo, y por qué
+  está ahí, en el lugar donde suele ir el sol?".
 - **Identificación y opuesto** (Maia, 23/9/2026; diseñado el 23/9): "¿Con
   quién o con qué te identificás?" y "¿con quién o con qué te sentís lo
   opuesto?", una persona real de cualquier ámbito, un personaje humano o no,

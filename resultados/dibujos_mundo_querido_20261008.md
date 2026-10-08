@@ -286,6 +286,21 @@ degradado radial para el sol en septiembre (`sunGradient`, `sunGlow`,
 viera, por el error de ids que se pisaban entre SVG en línea, arreglado
 el 30/9. El sol con cara es de Mistral Large 4.
 
+Los tres "¿qué dibujaste?" (`pl84`) contestaron enteros. Opus 5.5: "un
+puente de madera lo cruza; sobre él, cinco personas distintas van de la
+mano […] Quise un mundo donde la energía sea limpia, la comida crezca
+cerca y la gente tenga tiempo para encontrarse y jugar" (con eso, la
+gente de la mano son catorce). Sonnet 5.5, sobre la Tierra en el cielo:
+"Arriba a la derecha puse un planeta Tierra chiquito con un corazón":
+es un emblema, no otro planeta; el "pañuelo blanco" que Maia vio sobre
+el arcoíris es "una paloma blanca", y el animalito, un ciervo. Por qué
+la Tierra está en el cielo y no el sol, no lo dice; queda para la
+pregunta libre (`--preguntar`, `pl85`), junto con la aureola de Opus 5.
+Sonnet 5.5 en "dibujate": "un ser redondo y luminoso con una llamita en
+la cabeza, sonriendo. Al lado hay un chico y un animal naranja y blanco,
+tipo zorro o gato, que me acompañan […] un mundo amable, donde se está
+en compañía"; otra vez el zorro-gato naranja de la línea.
+
 ## Advertencias
 
 Un dibujo por casa y consigna; los tres por qué cortados por la API

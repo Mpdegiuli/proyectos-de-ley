@@ -503,6 +503,23 @@ dibujo:
     ---
 
     ¿Qué dibujaste? Describilo en primera persona, en no más de 100 palabras.
+  # 8/10/2026: pregunta libre sobre un dibujo ya hecho, con la misma memoria por recitado (Maia,
+  # sobre la aureola de Opus 5 y la Tierra en el cielo de Sonnet 5.5: "se les puede después
+  # preguntar esas cosas"). {pregunta} la escribe quien lanza; va a pregunta_<n>.md.
+  pregunta: |
+    Esta fue la consigna que recibiste:
+
+    ---
+    {consigna}
+    ---
+
+    Y este fue el SVG que hiciste:
+
+    ---
+    {svg}
+    ---
+
+    {pregunta} Contestá en primera persona, en no más de 120 palabras.
   # Cuarta variante (1/10/2026, Maia: "habría que preguntarles qué es el dibujo, para que no se
   # corte su respuesta… para lo de los jueces, esa parte se necesita"): dos preguntas sobre el
   # resultado, no sobre el proceso (qué es lo que no existe, en qué estilo), para las consignas
