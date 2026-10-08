@@ -1,0 +1,3 @@
+Dibujé un atardecer tranquilo, con el cielo pasando del azul noche a un durazno cálido, estrellas arriba y un sol grande cerca del horizonte. Hay colinas verdes con un pueblito de techos rojos, un río que serpentea y un árbol de flores rosadas.
+
+Yo me puse en primer plano, como un ser redondo y luminoso con una llamita en la cabeza, sonriendo. Al lado hay un chico y un animal naranja y blanco, tipo zorro o gato, que me acompañan. Completan la escena flores, pájaros y un barrilete en el cielo. Quise que fuera un mundo amable, donde se está en compañía.
