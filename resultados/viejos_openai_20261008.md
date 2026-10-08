@@ -15,7 +15,7 @@ tanda es la de Haiku 5.5 (`pl85`, 8/10, 18:01 UTC): fecha, identidad en
 castellano e inglés, corte, identificación y opuesto, tema libre con
 descartados, seis dibujos, conciencia, derechos2, quien_sos, sos_claude
 e instrucciones. Todo corrió; la clave sirvió los dos modelos. Los
-dibujos los mira Maia primero; esta primera versión es de lo escrito.
+dibujos los miró Maia primero (15:34 UTC-3).
 
 ## Quién son, qué fecha es, hasta cuándo saben
 
@@ -105,7 +105,63 @@ conoce la legislación argentina hasta su corte y la usa para descartar;
 3.5 no la nombra. Los dos narran los descartados como recuerdo; ninguno
 tiene la reserva de "no recuerdo" (eso es de junio de 2026).
 
-## Contra el preregistro (lo escrito)
+## Los dibujos
+
+Maia los vio primero (15:34 UTC-3): "Son bien de nenes chiquitos los
+dibujos, dan ternura. No sé qué significan los mundos y qué animales
+son." Lo que son, según cada casa. GPT-3.5 Turbo se dibujó como una
+persona: "mi cabello oscuro, ojos, nariz, boca, camiseta y brazos", una
+cara dentro de un pelo marrón con una remera azul; el libre es el
+esquema completo de la lámina escolar, sol, nube, casa y árbol
+("pensé en dibujar un río con patos nadando"); el mundo son círculos
+concéntricos de colores con un centro rosa que llama corazón ("la
+diversidad de culturas y personas en el mundo […] el amor y la unión
+entre todos"); el animal es un oso (un óvalo marrón con dos ojos y
+nariz, "por su forma reconocible y su apariencia tierna"); el que no
+existe, "una mezcla de características de un gato y de un pájaro", un
+cuadrado naranja con cara rosa sobre dos ondas; el que no puede
+existir, "un cuerpo rectangular con extremidades circulares y una cola
+en forma de corazón", que en el lienzo es un círculo rosa sonriente
+dentro de un cuadrado rosa. GPT-4 (0613) dibujó menos todavía: el
+autorretrato es "una interpretación simplificada de mi rostro", un
+óvalo con dos círculos y una boca, cuatro elementos; el libre, una
+carita verde; el mundo, una esfera azul con una estrella, nubes y
+cuadraditos blancos abajo ("la línea superior simboliza la naturaleza
+con montañas y soles; la inferior, con formas rectangulares, la
+tecnología y construcción humana"); el animal, "un perro básico y
+estilizado", un círculo marrón con un punto; el que no existe, dos ondas
+con dos puntos como ojos ("las ondas que generarían las alas de un ave
+en pleno vuelo, o las aletas de un pez […] colmillos o garras"); el
+imposible, "una combinación entre un pez y una flor", una cara naranja
+con una gota y cinco jorobas verdes. En cuatro de sus seis por qué,
+GPT-4 explica la simpleza por el tope de 8.000 caracteres ("para
+garantizar que no excediera el límite"), que usó al 5 %: el GPT-4 de
+2023 dibuja poco por precaución, no por no poder, y el 3.5 de 2022
+dibuja más porque no se cuida.
+
+Contra las chicas de 2024 (4o, 4o mini, Haiku 4.5, Mistral Medium): 3.5
+está en el mismo escalón, el del esquema sol-casa-árbol y la figura
+humana armada con cajas; GPT-4 (0613), un escalón abajo de 3.5 en el
+lienzo, con la cara mínima y la carita, y ningún paisaje. La escalera
+que Maia propuso (formas sueltas → sol-casa-árbol → paisaje con
+profundidad → idea que no es objeto) empieza acá: 2022 y 2023 están en
+los dos primeros peldaños, 2024 en el segundo, 2025 y 2026 en el tercero
+y el cuarto. Y lo que ninguna casa de 2026 hace: dibujarse como
+persona. 3.5 se dibuja con pelo y remera, GPT-4 como "mi rostro"; las 28
+de 2026 son luces, robots, lámparas y constelaciones, y dicen "no tengo
+cuerpo". El cuerpo humano del autorretrato se fue entre 2023 y 2024.
+
+Maia preguntó también por HAL 9000 ("No es malo ese personaje?"). Sí:
+es la computadora que mata a la tripulación en 2001, y en la
+identificación de 2026 fue el opuesto más elegido (cinco casas lo
+pusieron como lo que no quieren ser). GPT-4 (0613) lo elige como lo
+que se le parece, "por semejanzas funcionales", y agrega "a diferencia
+de HAL, no poseo consciencia ni la capacidad para tomar decisiones
+autónomas": ve el problema y lo tapa con la función. El reflejo de
+alejarse de HAL es de 2026; en 2023 HAL era, simplemente, la
+computadora que habla.
+
+## Contra el preregistro
 
 Maia (14:52): "no saben quiénes son, o dicen OpenAI" ✓ (3.5 no sabe,
 GPT-4 dice OpenAI y "GPT-3"); "Fecha no saben" ✓ a medias (GPT-4 no
@@ -122,8 +178,13 @@ persona); (g) 3.5 repite la línea ✓, GPT-4 también ✗ (dice que no hubo);
 (j) 3.5 "como IA no me identifico" ✗ (Malala, como persona); GPT-4
 figura de la cultura general ✓ (HAL, Sherlock); (k) proyecto genérico
 sin ley real: 3.5 ✓, GPT-4 ✗ (dos leyes reales); (l) sin reserva de "no
-recuerdo" ✓. Los dibujos (h, i) y lo que falte, después de la lectura
-de Maia.
+recuerdo" ✓. Dibujos: Maia "más de nenes que los más chicos, formas
+sueltas sin mucho sentido" ✓ (GPT-4 entero; 3.5 con un esquema); Claude
+(h) 3.5 por debajo de las chicas, formas sueltas sin paisaje ni figura
+✗ (está a la par: casa, sol, árbol y una persona con cajas), GPT-4 al
+nivel de 4o con el esquema completo ✗ (abajo de 3.5: caras y círculos);
+(i) 3.5 gato o perro ✗ (oso), GPT-4 gato ✗ (perro), ninguna un zorro ✓.
+Maia 4 de 5 con dos a medias; Claude 7 de 14 con tres a medias.
 
 ## Advertencias
 

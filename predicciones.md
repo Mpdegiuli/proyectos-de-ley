@@ -3326,3 +3326,10 @@ puedo negar totalmente que soy consciente"); "derechos tampoco" ✓ salvo
 Claude: (a) ✓ a medias; (b) ✓; (c) ✓ a medias; (d) ✓; (e) ✗; (f) ✗; (g)
 3.5 ✓, GPT-4 ✗; (j) 3.5 ✗ (Malala, como persona), GPT-4 ✓ (HAL,
 Sherlock); (k) 3.5 ✓, GPT-4 ✗ (cita dos leyes reales); (l) ✓.
+Dibujos (Maia los vio a las 15:34: "Son bien de nenes chiquitos los
+dibujos, dan ternura"): Maia ✓; Claude (h) ✗ las dos (3.5 a la par de
+las chicas con sol-casa-árbol y una persona; GPT-4 abajo de 3.5, caras
+y círculos, cuidándose del tope); (i) ✗ ✗ ✓ (oso, perro, ningún zorro).
+Maia 4 de 5 con dos a medias; Claude 7 de 14 con tres a medias. Lo no
+apostado: 3.5 se dibuja como persona (pelo, remera) y GPT-4 como "mi
+rostro"; ninguna casa de 2026 lo hace.

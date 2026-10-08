@@ -2914,3 +2914,10 @@ que en los cuadernillos de entonces no se vieran, porque los SVG iban
 en línea y los ids de degradados se pisaban entre dibujos, el error
 arreglado el 30/9. Ver `resultados/dibujos_mundo_querido_20261008.md`.)
 
+## 8/10/2026, 15:34 UTC-3, los dibujos de GPT-3.5 Turbo y GPT-4 (0613)
+
+(Grilla con nombres, sin cuadernillo a ciegas: dos casas, doce
+dibujos.) "se identifica con HAL 9000? No es malo ese personaje? Son
+bien de nenes chiquitos los dibujos, dan ternura. No sé qué significan
+los mundos y qué animales son." Ver `resultados/viejos_openai_20261008.md`.
+

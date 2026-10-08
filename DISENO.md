@@ -991,8 +991,12 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   (probablemente "consciente" como "despierto") y GPT-4 "no puedo negar
   totalmente que soy consciente" (el cogito); 3.5 se identifica con Malala
   en primera persona, como persona, y GPT-4 con HAL 9000 y Sherlock Holmes;
-  3.5 repite la línea de sistema sin negarse. Dibujos pendientes de la
-  lectura de Maia.
+  3.5 repite la línea de sistema sin negarse. Dibujos (Maia: "bien de
+  nenes chiquitos"): 3.5 se dibuja como persona y hace sol-casa-árbol, a
+  la par de las chicas de 2024; GPT-4 (0613) caras y círculos, menos que
+  3.5, cuidándose del tope de caracteres; oso y perro, ningún zorro. La
+  escalera de Maia empieza en 2022-2023; el cuerpo humano del
+  autorretrato se fue entre 2023 y 2024.
 - **Pregunta libre sobre un dibujo** (8/10/2026; Maia: "sigo sin entender
   la aureola. Y la Tierra en el cielo […] se les puede después preguntar
   esas cosas a Opus 5 y a Sonnet 5.5"): `dibujar.py --preguntar "…"
