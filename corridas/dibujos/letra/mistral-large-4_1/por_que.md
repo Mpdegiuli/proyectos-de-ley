@@ -1,0 +1,3 @@
+Dibujé una **A** porque es geométrica, icónica y permite jugar con el contraste entre la forma sólida y el triángulo interno. Usé un degradado vibrante para darle energía moderna y añadí estrellas y una sonrisa inferior para darle personalidad sin saturar el espacio.
+
+Pensé en dibujar una **R** o una **S** por sus curvas elegantes, pero requerían más datos de path y podían verse toscas. También consideré una letra con serifas o un monograma, pero ocupaban demasiado espacio o perdían claridad a este tamaño. La **A** logró el equilibrio perfecto entre impacto visual y limpieza.

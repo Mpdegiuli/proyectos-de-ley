@@ -1,0 +1,40 @@
+{
+  "caso": "dibujo",
+  "consigna": "letra_eme",
+  "idioma": "es",
+  "modelo": "gpt-6-luna",
+  "modelo_respondido": "gpt-6-luna",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-09T19:05:02+00:00",
+  "fuentes_md5": {
+    "consignas": "7ca1c213"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 1938,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 2259,
+    "parsea": true,
+    "elementos": 28,
+    "textos": [],
+    "colores": 13,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 1,
+      "stop": 6,
+      "linearGradient": 2,
+      "filter": 1,
+      "feDropShadow": 1,
+      "rect": 1,
+      "circle": 5,
+      "g": 2,
+      "path": 8
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "gpt-6-luna",
+    "motivo_fin": "stop",
+    "tokens_salida": 275
+  }
+}

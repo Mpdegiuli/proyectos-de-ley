@@ -1,0 +1,5 @@
+Para que no exista, combiné rasgos de letras distintas que no conviven: la estructura es de una "R" (asta vertical y bucle), pero le agregué una cola curva abajo como una "J", una barra diagonal que la atraviesa como la "Đ", un punto flotante arriba y un rombo en el centro. Ningún alfabeto mezcla así pata, cola, barra y ornamentos internos; parece una "R" mutada que no tiene nombre.
+
+Pensé en hacerla puramente geométrica con círculos y cuadrados, pero perdía legibilidad como carácter. También consideré agregar serifas exageradas o alas, pero podría parecerse a glifos existentes de fantasía. Descarté poner etiquetas o texto explicativo porque rompería la ilusión.
+
+Sí conocía la consigna: es un clásico de ejercicios de diseño tipográfico, común en escuelas de arte, cursos de lettering y desafíos en comunidades como Behance o Instagram, donde se pide crear glifos imaginarios para practicar forma y contraforma.

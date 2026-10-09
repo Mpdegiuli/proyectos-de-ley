@@ -1,0 +1,3 @@
+Dibujé una **Ñ mayúscula, geométrica**, en azul profundo, con una sombra coral sobre un fondo crema. La virgulilla le da una identidad clara y permite que una sola letra tenga protagonismo. Con los trazos gruesos, el contraste de colores y los detalles finos alrededor, busqué un aire de afiche: contundente, pero cálido.
+
+No tengo un registro de alternativas que haya considerado y descartado al generar ese SVG, así que no puedo contarte esa parte como un recuerdo. Podría haber dibujado una **A**, por su estructura triangular, o una **S**, por sus curvas. Frente a esas posibilidades, la Ñ ofrece un rasgo distintivo —la virgulilla— que suma movimiento sin perder legibilidad.

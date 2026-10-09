@@ -1,0 +1,17 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style>
+            .st0 { fill: #4A90E2; }
+            .st1 { fill: #D5A92D; }
+            .st2 { fill: #D63031; }
+        </style>
+    </defs>
+    <g transform="translate(200, 200)">
+        <path class="st0" d="M-50,-100 Q0,-150 50,-100 Q100,-50 50,0 Q0,50 -50,0 Q-100,-50 -50,-100 Z" />
+        <path class="st1" d="M-25,-75 Q0,-125 25,-75 Q50,-25 25,0 Q0,25 -25,0 Q-50,-25 -25,-75 Z" />
+        <path class="st2" d="M-10,-50 Q0,-100 10,-50 Q20,0 10,25 Q0,50 -10,25 Q-20,0 -10,-50 Z" />
+        <circle cx="0" cy="0" r="5" fill="#00A8E1" />
+    </g>
+</svg>
+```

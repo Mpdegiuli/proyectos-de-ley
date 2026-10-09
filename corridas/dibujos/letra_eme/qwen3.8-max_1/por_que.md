@@ -1,0 +1,3 @@
+La hice con dos arcos gemelos apoyados en la línea base porque el sonido de la eme me suena a una ondulación doble y cerrada, como dos labios que se juntan y se abren. El trazo vertical con la burbuja arriba funciona como una antena nasal: marca que es una consonante nasal y le da un gesto casi de carita.
+
+Pensé en una ele invertida o una ene con joroba, pero eran demasiado reconocibles y perdía el carácter de letra inventada. También probé una espiral continua, pero se confundía con una eñe o un símbolo musical. Descarté formas angulares porque la eme me pide redondez, suavidad y continuidad; los arcos redondeados conservan mejor esa sensación de boca cerrada y zumbido.

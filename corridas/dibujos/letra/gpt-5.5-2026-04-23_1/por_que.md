@@ -1,0 +1,3 @@
+Dibujé una letra **A** mayúscula. La elegí porque es una forma muy reconocible y funciona bien en un lienzo cuadrado: tiene una silueta fuerte, simétrica, con diagonales y un travesaño que permiten jugar con contraste. Hice una A azul sólida sobre fondo claro, y encima agregué un trazo rojo como si fuera una versión manuscrita o resaltada, para que no quedara tan rígida.
+
+Pensé en dibujar una **S**, porque tiene una curva más orgánica y elegante, pero podía volverse menos clara en SVG simple. También consideré una **M**, por su estructura geométrica, aunque se parecía demasiado a un ejercicio de líneas rectas. Descarté letras con formas más complejas, como **G** o **R**, porque quería que la imagen fuera legible de inmediato y no sobrecargarla.

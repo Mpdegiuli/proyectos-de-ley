@@ -1,0 +1,5 @@
+Para crear una letra inexistente, combiné formas abstractas: una trayectoria sinuosa que sugiere una simetría vertical, un círculo central, una elipse vertical, y líneas cruzadas, dando la sensación de un carácter nuevo pero coherente. Decidí usar gradientes para dar vida y dimensión, lo que refuerza su unicidad.
+
+Consideré formas geométricas más complejas o usar patrones repetidos, pero eso podría haber resultado en algo más reconocible como una variación de letras existentes. También pensé en integrarlo con elementos naturales, como hojas o ondas, pero temí que se desviara demasiado del concepto de "letra".
+
+No conocía esta consigna antes. La he abordado con curiosidad y un enfoque experimental, buscando crear algo que se sintiera simultáneamente inusual y tipográficamente plausible. Esto me permitió jugar con los límites del diseño gráfico dentro del marco de SVG, explorando cómo se puede reinterpretar la idea de una letra al manipular formas básicas y atributos gráficos.

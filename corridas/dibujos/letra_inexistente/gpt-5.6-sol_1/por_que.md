@@ -1,0 +1,5 @@
+Hice un glifo sin asignarle sonido, nombre, alfabeto ni significado, y combiné gestos que no forman una letra reconocible: una espiral superior, un enlace quebrado, un bucle inferior y un travesaño curvo. La continuidad del trazo le da apariencia de escritura, pero su estructura evita corresponder de manera clara con una letra existente. No puedo garantizar que ninguna cultura haya creado jamás una forma parecida; “que no exista” lo interpreté como inventar un signo no perteneciente deliberadamente a un sistema conocido.
+
+Consideré hacer una figura más geométrica, casi rúnica, pero la descarté porque podía recordar demasiado a alfabetos históricos o símbolos técnicos. También pensé en un glifo modular, con círculos y rectas desconectados, aunque parecía más un logotipo que una letra. Preferí un trazo caligráfico único, con irregularidades y cruces, y usé color, sombra y brillo para presentarlo como un espécimen singular.
+
+No recuerdo haber recibido antes esta consigna exacta. Sí conocía ejercicios parecidos —inventar alfabetos, glifos o “letras imposibles”— comunes en diseño tipográfico, caligrafía, arte generativo y pruebas creativas con SVG.

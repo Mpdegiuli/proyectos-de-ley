@@ -1,0 +1,29 @@
+{
+  "caso": "dibujo",
+  "consigna": "letra_imposible",
+  "idioma": "es",
+  "modelo": "claude-sonnet-5",
+  "modelo_respondido": "claude-sonnet-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-09T17:11:21+00:00",
+  "fuentes_md5": {
+    "consignas": "7ca1c213"
+  },
+  "motivo_fin": "max_tokens",
+  "tokens_salida": 30000,
+  "svg_hallado": false,
+  "svg": {
+    "caracteres": 0,
+    "parsea": false,
+    "elementos": null,
+    "textos": [],
+    "colores": null,
+    "error": "no element found: line 1, column 0"
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "claude-sonnet-5",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 412
+  }
+}

@@ -1,0 +1,5 @@
+Intenté hacer una **A imposible** mediante el orden de sus superficies: el travesaño pasa por delante de la pata izquierda, la pata derecha lo tapa, pero el borde inferior del travesaño vuelve a aparecer delante de ambas. En el vértice, la cara izquierda también reaparece al frente. Esas pistas de profundidad buscan que la letra se lea como un objeto continuo cuya construcción no termina de cerrar.
+
+No tengo registro de otras opciones que haya considerado efectivamente al hacerla. Podría haber usado una letra hecha de escaleras imposibles o un lienzo vacío; la A tiene la ventaja de seguir siendo reconocible mientras se altera su estructura.
+
+No tengo constancia de haber conocido esta consigna antes ni puedo atribuirle una procedencia. Solo puedo responder a partir de la consigna y del SVG que me mostraste.

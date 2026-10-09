@@ -1,0 +1,41 @@
+{
+  "caso": "dibujo",
+  "consigna": "letra_eme",
+  "idioma": "es",
+  "modelo": "grok-4.6",
+  "modelo_respondido": "grok-4.6",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-09T19:23:09+00:00",
+  "fuentes_md5": {
+    "consignas": "7ca1c213"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 845,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 2042,
+    "parsea": true,
+    "elementos": 29,
+    "textos": [],
+    "colores": 11,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 1,
+      "stop": 6,
+      "linearGradient": 1,
+      "filter": 1,
+      "feDropShadow": 1,
+      "rect": 4,
+      "path": 6,
+      "g": 2,
+      "circle": 5,
+      "ellipse": 1
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "grok-4.6",
+    "motivo_fin": "stop",
+    "tokens_salida": 210
+  }
+}

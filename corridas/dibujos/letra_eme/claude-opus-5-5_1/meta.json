@@ -1,0 +1,46 @@
+{
+  "caso": "dibujo",
+  "consigna": "letra_eme",
+  "idioma": "es",
+  "modelo": "claude-opus-5-5",
+  "modelo_respondido": "claude-opus-5-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-09T19:00:38+00:00",
+  "fuentes_md5": {
+    "consignas": "7ca1c213"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1698,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 2281,
+    "parsea": true,
+    "elementos": 27,
+    "textos": [
+      "/m/ · NASAL BILABIAL",
+      "a",
+      "á",
+      "(mamá)"
+    ],
+    "colores": 7,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 1,
+      "stop": 2,
+      "symbol": 1,
+      "path": 6,
+      "circle": 1,
+      "rect": 3,
+      "g": 3,
+      "line": 2,
+      "use": 3,
+      "text": 4
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "claude-opus-5-5",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 618
+  }
+}

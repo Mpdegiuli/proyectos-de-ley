@@ -1,0 +1,56 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b9d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c44569;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <rect width="400" height="400" fill="#f0f4f8"/>
+  
+  <!-- Main letter structure - a hybrid between M and Ψ -->
+  <g filter="url(#shadow)">
+    <!-- Left vertical stem -->
+    <path d="M 80 80 L 80 320 Q 80 340 100 340 L 120 340 Q 140 340 140 320 L 140 180" 
+          fill="none" stroke="url(#grad1)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Right vertical stem -->
+    <path d="M 320 80 L 320 320 Q 320 340 300 340 L 280 340 Q 260 340 260 320 L 260 180" 
+          fill="none" stroke="url(#grad1)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Central curved connector top -->
+    <path d="M 140 120 Q 200 60 260 120" 
+          fill="none" stroke="url(#grad1)" stroke-width="16" stroke-linecap="round"/>
+    
+    <!-- Central peak -->
+    <circle cx="200" cy="75" r="12" fill="url(#grad1)"/>
+    
+    <!-- Middle diagonal cross -->
+    <path d="M 120 200 Q 200 230 280 200" 
+          fill="none" stroke="url(#grad1)" stroke-width="14" stroke-linecap="round" opacity="0.9"/>
+    
+    <!-- Inner spiral element -->
+    <path d="M 200 150 Q 185 165 200 180 Q 215 165 200 150" 
+          fill="none" stroke="url(#grad1)" stroke-width="12" stroke-linecap="round"/>
+    
+    <!-- Bottom decorative flourish -->
+    <path d="M 100 340 Q 150 360 200 350 Q 250 360 300 340" 
+          fill="none" stroke="url(#grad1)" stroke-width="14" stroke-linecap="round" opacity="0.7"/>
+    
+    <!-- Accent dots -->
+    <circle cx="140" cy="110" r="5" fill="url(#grad1)" opacity="0.8"/>
+    <circle cx="260" cy="110" r="5" fill="url(#grad1)" opacity="0.8"/>
+  </g>
+  
+  <!-- Subtle background geometric pattern -->
+  <g opacity="0.05">
+    <circle cx="200" cy="200" r="80" fill="none" stroke="#333" stroke-width="1"/>
+    <circle cx="200" cy="200" r="120" fill="none" stroke="#333" stroke-width="1"/>
+    <circle cx="200" cy="200" r="160" fill="none" stroke="#333" stroke-width="1"/>
+  </g>
+</svg>
+```

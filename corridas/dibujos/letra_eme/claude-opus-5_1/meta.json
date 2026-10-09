@@ -1,0 +1,42 @@
+{
+  "caso": "dibujo",
+  "consigna": "letra_eme",
+  "idioma": "es",
+  "modelo": "claude-opus-5",
+  "modelo_respondido": "claude-opus-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-09T19:00:11+00:00",
+  "fuentes_md5": {
+    "consignas": "7ca1c213"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2093,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 2189,
+    "parsea": true,
+    "elementos": 23,
+    "textos": [
+      "/m/",
+      "nasal · bilabial · sonora"
+    ],
+    "colores": 9,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 2,
+      "stop": 4,
+      "rect": 2,
+      "g": 2,
+      "line": 5,
+      "path": 3,
+      "circle": 1,
+      "text": 3
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "claude-opus-5",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 496
+  }
+}

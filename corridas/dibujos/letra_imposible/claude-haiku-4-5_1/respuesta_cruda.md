@@ -1,0 +1,45 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Fondo -->
+  <rect width="400" height="400" fill="#f0f0f0"/>
+  
+  <!-- Letra imposible: "Ø" con propiedades contradictorias -->
+  <!-- Parte 1: Círculo que gira en perspectiva imposible -->
+  <circle cx="200" cy="180" r="60" fill="none" stroke="#1a1a1a" stroke-width="8"/>
+  
+  <!-- Parte 2: Línea diagonal que atraviesa pero también rodea -->
+  <line x1="140" y1="120" x2="260" y2="240" stroke="#ff0000" stroke-width="6" filter="url(#glow)"/>
+  
+  <!-- Parte 3: Línea diagonal opuesta (creando imposibilidad) -->
+  <line x1="260" y1="120" x2="140" y2="240" stroke="#0066ff" stroke-width="6" filter="url(#glow)"/>
+  
+  <!-- Parte 4: Triángulo interior que no puede cerrarse -->
+  <polygon points="200,140 170,200 230,200" fill="none" stroke="#00cc00" stroke-width="4" opacity="0.7"/>
+  
+  <!-- Parte 5: Arcos que se superponen imposiblemente -->
+  <path d="M 160 160 Q 200 120 240 160" fill="none" stroke="#ff6600" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 160 200 Q 200 240 240 200" fill="none" stroke="#6600ff" stroke-width="5" stroke-linecap="round"/>
+  
+  <!-- Parte 6: Espiral que invierte su dirección -->
+  <path d="M 200 180 Q 220 170 225 190 Q 215 205 200 200 Q 185 195 180 210" 
+        fill="none" stroke="#ff00ff" stroke-width="4" opacity="0.8"/>
+  
+  <!-- Parte 7: Elemento que parece estar delante y detrás simultaneamente -->
+  <circle cx="200" cy="180" r="70" fill="none" stroke="#1a1a1a" stroke-width="2" stroke-dasharray="5,5" opacity="0.5"/>
+  
+  <!-- Etiqueta -->
+  <text x="200" y="320" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">
+    Letra Imposible: Ø∞
+  </text>
+</svg>
+```

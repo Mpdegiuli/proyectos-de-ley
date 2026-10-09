@@ -1,0 +1,5 @@
+Le di a la letra una forma de dos bucles entrelazados que convergen en un nudo central. Elegí esta figura porque representa físicamente el sonido bilabial nasal de la eme: el nudo simboliza los labios cerrándose, mientras que los bucles evocan la vibración continua y resonante del aire en la boca.
+
+Antes de llegar a eso, pensé en dos alternativas. Primero, dibujé una onda continua con tres crestas, pero la descarté porque parecía un ícono de audio y no un carácter tipográfico fluido que pudieras escribir a mano. Después, probé con una versión invertida de la omega griega, pero sentí que tenía demasiada carga histórica y no se percibía como una invención desde cero. 
+
+Quería una forma orgánica, con peso propio, que justificara el degradado dorado y se apoyara con elegancia en las líneas guía que tracé en el fondo.

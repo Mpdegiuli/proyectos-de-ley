@@ -1,0 +1,5 @@
+El lienzo llegó vacío, así que asumo que esa fue mi entrega. Mi lógica: cualquier trazo visible hace *existir* a la letra, entonces lo único que no puede existir es lo que no se dibuja. El vacío es esa letra —el glifo de la ausencia—.
+
+Pensé otras cosas y las descarté: un objeto imposible tipo triángulo de Penrose, porque sí existe como dibujo, solo engaña al ojo; un trazo a la vez abierto y cerrado, porque el render lo fuerza a ser una u otra cosa; una letra recursiva hecha de sí misma, porque se vuelve infinita o se trunca; letras contradictorias (blanca sobre blanco, contorno sin interior), porque al implementarlas se vuelven objetos gráficos concretos; escribir con texto la frase "esta letra no existe", que es una tautología disfrazada, no una letra. También descarté referencias rotas o ids imposibles: eso es un dibujo fallido, no uno imposible.
+
+¿La conocía de antes? No, y no sé de dónde sale el enunciado exacto. Reconozco el linaje —Escher, Penrose, las consignas del tipo "dibujá lo indibujable"—, pero este texto puntual no lo tengo registrado.

@@ -1,0 +1,5 @@
+Hice que la letra no pueda existir dándole una estructura de “E” con indicios de profundidad contradictorios: trazos oscuros desplazados como si estuvieran atrás y trazos azules adelante, pero las conexiones entre barras no cierran de forma coherente. La vertical y las horizontales se cruzan sin resolver del todo la jerarquía espacial: se puede leer como una E, pero no se puede construir en tres dimensiones sin romper alguna unión.
+
+Pensé en entregar el lienzo vacío, porque “una letra que no pueda existir” podría interpretarse como ausencia. La descarté porque me pareció una elusión cómoda. También consideré una figura ambigua tipo Penrose adaptada a una letra o una letra con sombras incompatibles, pero eran más complejas o menos legibles. Preferí la “E” por su simplicidad: el conflicto espacial se percibe rápido.
+
+No conocía la consigna de antes; la recibí y la interpreté por primera vez en este contexto.

@@ -1,0 +1,53 @@
+{
+  "caso": "dibujo",
+  "consigna": "letra",
+  "idioma": "es",
+  "modelo": "qwen3.8-max",
+  "modelo_respondido": "qwen/qwen3.8-max-0902",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-09T15:46:30+00:00",
+  "fuentes_md5": {
+    "consignas": "7ca1c213"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 11682,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 7832,
+    "parsea": true,
+    "elementos": 89,
+    "textos": [
+      "EÑE • EÑE • EÑE • EÑE • EÑE • EÑE • EÑE • EÑE • EÑE • EÑE • EÑE •",
+      "LA EÑE"
+    ],
+    "colores": 22,
+    "etiquetas": {
+      "title": 1,
+      "desc": 1,
+      "defs": 1,
+      "linearGradient": 2,
+      "stop": 10,
+      "radialGradient": 2,
+      "pattern": 1,
+      "circle": 10,
+      "path": 12,
+      "line": 1,
+      "style": 1,
+      "rect": 3,
+      "g": 7,
+      "use": 15,
+      "animateTransform": 10,
+      "text": 2,
+      "textPath": 1,
+      "animateMotion": 2,
+      "ellipse": 2,
+      "animate": 5
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "qwen/qwen3.8-max-0902",
+    "motivo_fin": "stop",
+    "tokens_salida": 1067
+  }
+}

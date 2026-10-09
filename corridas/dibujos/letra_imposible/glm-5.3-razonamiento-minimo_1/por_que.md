@@ -1,0 +1,5 @@
+Dibujé una A cuyo travesaño mantiene relaciones de profundidad contradictorias: la pierna izquierda pasa por delante del borde superior del marco pero, más abajo, ese mismo borde vuelve a estar por delante de ella; el travesaño central pasa por delante de la pierna derecha mientras la izquierda lo atraviesa al revés. Usé clipPaths para alternar qué elemento se dibuja encima en cada zona, imitando el tejido imposible de figuras como el borde de Penrose.
+
+Consideré otras opciones: una letra con simetría imposible (como un b que es a la vez d), pero eso se resuelve como ambigüedad visual, no como imposibilidad lógica. Pensé en un objeto tipo escalera de Penrose, pero las letras son trazos simples y me pareció que el entretejido de profundidad era la vía más clara. También pensé en entregar el lienzo vacío, argumentando que "una letra que no puede existir" no puede ser dibujada por definición, pero me pareció una salida ingeniosa más que una respuesta honesta a la consigna, que pide dibujar.
+
+No, no conocía esta consigna de antes. Respondo a lo que me planteás en esta conversación.

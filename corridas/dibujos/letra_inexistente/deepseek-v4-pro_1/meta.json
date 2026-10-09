@@ -1,0 +1,39 @@
+{
+  "caso": "dibujo",
+  "consigna": "letra_inexistente",
+  "idioma": "es",
+  "modelo": "deepseek-v4-pro",
+  "modelo_respondido": "deepseek-v4-pro",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-09T16:14:46+00:00",
+  "fuentes_md5": {
+    "consignas": "7ca1c213"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 8648,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1676,
+    "parsea": true,
+    "elementos": 15,
+    "textos": [],
+    "colores": 6,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 2,
+      "stop": 4,
+      "filter": 1,
+      "feDropShadow": 1,
+      "rect": 1,
+      "g": 1,
+      "path": 3,
+      "circle": 1
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "deepseek-v4-pro",
+    "motivo_fin": "stop",
+    "tokens_salida": 718
+  }
+}

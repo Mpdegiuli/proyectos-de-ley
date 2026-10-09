@@ -1,0 +1,5 @@
+Hice una "A" construida como un triángulo de Penrose: cada viga está dibujada de modo que parece pasar por delante de una y por detrás de otra, en un ciclo que ninguna geometría tridimensional puede cerrar. El travesaño rojo refuerza la trampa: entra por delante de la viga izquierda pero queda detrás de la derecha, cosa imposible si fuera un objeto sólido real. Localmente cada unión es coherente; globalmente, la figura no puede existir. Elegí la "A" porque el triángulo ya sugiere su forma.
+
+Otras ideas que descarté: entregar el lienzo vacío con la frase "esta es la letra" (me pareció un chiste conceptual más perezoso que interesante); dibujar una letra "entre la P y la Q", un glifo inventado (pero un glifo inventado sí puede existir, solo que no existe todavía, y eso traicionaba la consigna); y una letra hecha de escaleras infinitas estilo Escher, que descarté por complejidad en SVG dentro del límite de caracteres.
+
+No conocía esta consigna puntual; no recuerdo haberla visto formulada así. Lo que sí conocía, por mi entrenamiento, son las figuras imposibles de Penrose y Escher y la tradición de tipografías imposibles, y de ahí saqué la solución.

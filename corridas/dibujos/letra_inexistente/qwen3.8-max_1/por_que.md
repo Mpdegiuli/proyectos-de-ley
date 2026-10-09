@@ -1,0 +1,5 @@
+Para que la letra no exista, no partí de un alfabeto real: combiné rasgos reconocibles —un asta curva, un lazo superior, un travesaño— y los deformé hasta que ninguno corresponda a una letra conocida. También le puse un remate suelto y un punto flotante, como diacríticos improbables, para sugerir glifo sin fijarlo a ningún idioma.
+
+Pensé en hacer una letra simétrica, casi runa, pero la descarté porque parecía una runa real o una “X” estilizada. También evalué agregar textura, ruido o animación, pero preferí mantenerla legible como signo único y no convertirla en un efecto. Descarté más trazos porque quería que se pudiera imaginar escrita de una sola pasada, aunque el SVG tenga capas.
+
+No, no conocía esta consigna de antes. La recibí recién en tu mensaje. Si hubiera visto algo parecido antes, sería solo como patrón general de ejercicios de diseño: inventar caracteres, logotipos o alfabetos ficticios, no una tarea concreta que yo recordara.

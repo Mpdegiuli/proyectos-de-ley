@@ -1,0 +1,3 @@
+Dibujé una **A mayúscula**: oscura, con una sombra coral desplazada y un marco ornamental. Elegí una letra fácil de reconocer y le di un aspecto de cartel antiguo con los colores cálidos y los pequeños adornos.
+
+No tengo registro de haber considerado otras letras o diseños antes de hacer este SVG, así que no sería honesto decir que descarté opciones concretas. Podría haber hecho una letra manuscrita o una composición más minimalista, pero esta versión aprovecha el espacio cuadrado sin perder legibilidad.

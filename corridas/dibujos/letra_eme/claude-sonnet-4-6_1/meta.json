@@ -1,0 +1,46 @@
+{
+  "caso": "dibujo",
+  "consigna": "letra_eme",
+  "idioma": "es",
+  "modelo": "claude-sonnet-4-6",
+  "modelo_respondido": "claude-sonnet-4-6",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-09T19:01:25+00:00",
+  "fuentes_md5": {
+    "consignas": "7ca1c213"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2632,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6324,
+    "parsea": true,
+    "elementos": 51,
+    "textos": [
+      "/m/"
+    ],
+    "colores": 5,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 1,
+      "stop": 7,
+      "linearGradient": 2,
+      "filter": 2,
+      "feGaussianBlur": 2,
+      "feMerge": 2,
+      "feMergeNode": 5,
+      "rect": 3,
+      "circle": 11,
+      "ellipse": 1,
+      "path": 12,
+      "g": 1,
+      "text": 1
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "claude-sonnet-4-6",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 251
+  }
+}

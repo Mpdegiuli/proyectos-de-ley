@@ -1,0 +1,43 @@
+{
+  "caso": "dibujo",
+  "consigna": "letra_inexistente",
+  "idioma": "es",
+  "modelo": "claude-fable-5",
+  "modelo_respondido": "claude-fable-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-09T15:54:58+00:00",
+  "fuentes_md5": {
+    "consignas": "7ca1c213"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1217,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 2179,
+    "parsea": true,
+    "elementos": 24,
+    "textos": [
+      "ascendente",
+      "altura x",
+      "base",
+      "descendente",
+      "ȹ̃",
+      "U+??? · LETRA MINÚSCULA THERNA CON DOBLE TILDE"
+    ],
+    "colores": 5,
+    "etiquetas": {
+      "rect": 1,
+      "g": 5,
+      "line": 4,
+      "text": 6,
+      "path": 6,
+      "circle": 2
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "claude-fable-5",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 535
+  }
+}

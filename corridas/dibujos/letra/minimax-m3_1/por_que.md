@@ -1,0 +1,5 @@
+Dibujé una letra **A** estilizada: triángulo principal con un agujero interior triangular (logrado con `fill-rule="evenodd"`), un degradado rosa-violeta, dos capas de sombra desplazadas para dar profundidad, un brillo blanco sobre el trazo, una elipse oscura como sombra de base, y unas pequeñas estrellas/destellos dorados para ambientar sobre un fondo azul oscuro degradado.
+
+La elegí porque la "A" es icónica, con geometría potente y simétrica, fácil de reconocer al instante. El efecto de capas desplazadas me permitía agregar dramatismo sin gastar caracteres extra.
+
+Pensé y descarté: una "S" (las curvas en SVG consumen muchos caracteres y rara vez quedan limpias), una "M" (me pareció visualmente parecida a la "A" y menos interesante), y letras más curvas como "B" o "R" (difíciles de estilizar con pocos trazos). También consideré un diseño plano sin decoraciones, pero lo sentí demasiado sobrio para la consigna.

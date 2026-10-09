@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="pg" cx=".5" cy=".4" r=".8">
+      <stop offset="0" stop-color="#fbf4e1"/>
+      <stop offset="1" stop-color="#e3d4b0"/>
+    </radialGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#20427f"/>
+      <stop offset=".5" stop-color="#132a5c"/>
+      <stop offset="1" stop-color="#0a1736"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0" stop-color="#fff3c4"/>
+      <stop offset=".35" stop-color="#eab93f"/>
+      <stop offset=".7" stop-color="#a9741a"/>
+      <stop offset=".88" stop-color="#e5c165"/>
+      <stop offset="1" stop-color="#8c5f12"/>
+    </linearGradient>
+    <linearGradient id="gold2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6dd93"/>
+      <stop offset=".5" stop-color="#c9951f"/>
+      <stop offset="1" stop-color="#f3e2a6"/>
+    </linearGradient>
+
+    <g id="A">
+      <polygon points="182,80 206,80 122,330 76,330"/>
+      <polygon points="194,80 218,80 324,330 270,330"/>
+      <polygon points="132,241 254,241 262,270 124,270"/>
+      <path d="M58 318 h84 q6 10 0 20 H58 q-6 -10 0 -20 Z"/>
+      <path d="M252 318 h88 q6 10 0 20 h-88 q-6 -10 0 -20 Z"/>
+      <path d="M176 72 h50 q5 7 0 14 h-50 q-5 -7 0 -14 Z"/>
+    </g>
+
+    <g id="vine" fill="none" stroke="#d9b45a" stroke-width="2.2" stroke-linecap="round">
+      <path d="M66 340 C 60 290 78 258 72 214 C 66 170 84 118 120 92"/>
+      <path d="M72 214 C 100 206 112 184 108 160"/>
+      <path d="M78 262 C 104 268 124 290 126 314"/>
+      <path d="M96 128 C 118 134 136 126 146 108"/>
+      <ellipse cx="106" cy="152" rx="13" ry="7" transform="rotate(-38 106 152)" fill="#c9962a" stroke="#f0d78c" stroke-width="1.2"/>
+      <ellipse cx="124" cy="310" rx="14" ry="7.5" transform="rotate(35 124 310)" fill="#c9962a" stroke="#f0d78c" stroke-width="1.2"/>
+      <ellipse cx="148" cy="104" rx="12" ry="6.5" transform="rotate(-18 148 104)" fill="#c9962a" stroke="#f0d78c" stroke-width="1.2"/>
+      <circle cx="68" cy="188" r="4" fill="#e8dcc0" stroke="none"/>
+      <circle cx="74" cy="288" r="3.4" fill="#b8402f" stroke="none"/>
+      <circle cx="118" cy="94" r="4.2" fill="#b8402f" stroke="none"/>
+    </g>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#pg)"/>
+  <rect x="10" y="10" width="380" height="380" fill="none" stroke="#8c5f12" stroke-width="2"/>
+  <rect x="18" y="18" width="364" height="364" fill="none" stroke="url(#gold2)" stroke-width="5"/>
+  <rect x="26" y="26" width="348" height="348" fill="none" stroke="#6b4a10" stroke-width="1.2"/>
+
+  <g fill="url(#gold2)" stroke="#6b4a10" stroke-width="1.2">
+    <circle cx="18" cy="18" r="8"/><circle cx="382" cy="18" r="8"/>
+    <circle cx="18" cy="382" r="8"/><circle cx="382" cy="382" r="8"/>
+  </g>
+
+  <rect x="38" y="38" width="324" height="324" rx="10" fill="url(#bg)" stroke="url(#gold)" stroke-width="6"/>
+  <rect x="48" y="48" width="304" height="304" rx="6" fill="none" stroke="#6f8ccb" stroke-width="1" opacity=".55"/>
+
+  <g opacity=".95">
+    <use href="#vine"/>
+    <use href="#vine" transform="translate(400,0) scale(-1,1)"/>
+  </g>
+
+  <g opacity=".3" fill="#ffffff" stroke="none">
+    <circle cx="200" cy="60" r="2.2"/><circle cx="160" cy="356" r="2"/>
+    <circle cx="245" cy="356" r="2"/><circle cx="200" cy="348" r="2.6"/>
+  </g>
+
+  <use href="#A" transform="translate(6,7)" fill="#060f26" opacity=".55"/>
+  <use href="#A" fill="url(#gold)" stroke="#4a2f07" stroke-width="3" stroke-linejoin="round"/>
+
+  <g fill="#fff6d0" opacity=".55">
+    <polygon points="185,84 191,84 118,296 112,296"/>
+    <polygon points="197,84 202,84 282,296 277,296"/>
+    <rect x="138" y="244" width="110" height="5" rx="2"/>
+  </g>
+
+  <g fill="none" stroke="#f7e9b8" stroke-width="1.6" stroke-linecap="round" opacity=".8">
+    <path d="M150 300 q50 -16 100 0"/>
+    <path d="M166 196 q34 -10 68 0"/>
+  </g>
+</svg>

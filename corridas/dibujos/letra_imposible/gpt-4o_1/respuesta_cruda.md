@@ -1,0 +1,7 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <path d="M 100,100 C 150,50 250,50 300,100 S 350,250 300,300 C 250,350 150,350 100,300 S 50,150 100,100 Z" fill="none" stroke="black" stroke-width="5"/>
+  <path d="M 100,300 L 300,100" fill="none" stroke="black" stroke-width="5"/>
+  <path d="M 100,100 L 300,300" fill="none" stroke="black" stroke-width="5"/>
+</svg>
+```

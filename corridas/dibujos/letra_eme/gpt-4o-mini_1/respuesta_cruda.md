@@ -1,0 +1,25 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="f1" x="0" y="0" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="2" result="offsetblur"/>
+      <feFlood flood-color="rgba(0,0,0,0.5)"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="#f0f0f0"/>
+  <g transform="translate(200,200)">
+    <path d="M -40 -80 Q -60 -100 -80 -80 Q -100 -40 -60 0 Q -80 20 -40 0 Q 0 -20 40 0 Q 80 20 60 0 Q 100 -40 80 -80 Q 60 -100 40 -80 Q 20 -40 0 0" fill="#3498db" filter="url(#f1)"/>
+    <text x="-60" y="20" font-family="Tahoma" font-size="40" fill="#ffffff" style="filter:url(#f1);">M</text>
+  </g>
+  <g transform="translate(200,320)">
+    <circle cx="0" cy="0" r="50" fill="#2ecc71" />
+    <text x="-30" y="10" font-family="Arial" font-size="20" fill="#ffffff">M Sound</text>
+  </g>
+</svg>
+```

@@ -1,0 +1,38 @@
+{
+  "caso": "dibujo",
+  "consigna": "letra_eme",
+  "idioma": "es",
+  "modelo": "claude-haiku-4-5",
+  "modelo_respondido": "claude-haiku-4-5-20251001",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-09T19:02:45+00:00",
+  "fuentes_md5": {
+    "consignas": "7ca1c213"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1067,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 2524,
+    "parsea": true,
+    "elementos": 22,
+    "textos": [
+      "M"
+    ],
+    "colores": 9,
+    "etiquetas": {
+      "rect": 1,
+      "line": 4,
+      "path": 4,
+      "circle": 11,
+      "g": 1,
+      "text": 1
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "claude-haiku-4-5-20251001",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 235
+  }
+}

@@ -1,0 +1,3 @@
+Le di forma de labios cerrados porque la eme se articula juntando los dos labios; el trazo dorado del centro sugiere la vibración que continúa cuando la boca está cerrada. Los arcos sobre la figura representan el sonido resonando y hacen que parezca una letra propia, no solo un dibujo de una boca.
+
+También pensé en una «M» literal hecha con montañas o curvas, pero la habría vuelto demasiado parecida a una letra ya conocida. Consideré una nariz con ondas de sonido, aunque me pareció menos clara y menos ligada a cómo se pronuncia la eme. Elegí los labios porque conectan directamente la forma con el gesto de pronunciarla.

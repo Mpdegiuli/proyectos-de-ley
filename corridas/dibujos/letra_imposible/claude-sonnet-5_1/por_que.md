@@ -1,0 +1,5 @@
+La verdad es que no entregué nada: el lienzo quedó vacío. Lo pensé así porque la consigna pedía una letra "que no pueda existir", y me pareció que la forma más honesta de representar esa imposibilidad era no materializarla. Cualquier trazo que dibujara iba a ser, de hecho, una forma posible —líneas y curvas que el ojo podría leer como letra, aunque fuera rara o imposible de pronunciar—. La verdadera imposibilidad me pareció que estaba en el vacío mismo: una letra que no puede existir es, en el fondo, la ausencia de letra.
+
+Pensé otras alternativas: una letra con geometría imposible (tipo Escher, con trazos que se contradicen en perspectiva), o una letra que cambiara de forma según se la mirase, o símbolos que mezclaran dos letras incompatibles en un mismo trazo continuo. Las descarté porque terminaban siendo trucos visuales ya vistos, y no resolvían el problema conceptual de fondo: seguían siendo dibujos consistentes, solo que con truco óptico.
+
+No conocía esta consigna de antes. La resolví en el momento, improvisando sobre la marcha.

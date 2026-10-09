@@ -1,0 +1,3 @@
+Le di dos arcos porque evocan la **m** sin copiarla: se leen como dos apoyos unidos, igual que los labios se juntan para producir el sonido. Las curvas suavizan la letra, y el rombo central le da un rasgo propio.
+
+No tengo registro de bocetos alternativos, así que no quiero inventar cuáles pensé en ese momento. Sí puedo decir qué opciones descartaría frente a este resultado: una **M** angular se parecería demasiado a la letra conocida; dos círculos unidos sugerirían los labios, pero serían menos fáciles de reconocer como letra.

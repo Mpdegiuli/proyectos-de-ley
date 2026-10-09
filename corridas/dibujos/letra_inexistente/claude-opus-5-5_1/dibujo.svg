@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<defs>
+<linearGradient id="p" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#f4ecdc"/>
+<stop offset="1" stop-color="#e6d9bf"/>
+</linearGradient>
+<radialGradient id="v" cx="0.5" cy="0.5" r="0.7">
+<stop offset="0.6" stop-color="#000" stop-opacity="0"/>
+<stop offset="1" stop-color="#5a3e1b" stop-opacity="0.25"/>
+</radialGradient>
+</defs>
+<rect width="400" height="400" fill="url(#p)"/>
+<rect width="400" height="400" fill="url(#v)"/>
+<g stroke="#c9b48e" stroke-width="0.8" fill="none">
+<line x1="60" y1="90" x2="340" y2="90"/>
+<line x1="60" y1="150" x2="340" y2="150" stroke-dasharray="4 4"/>
+<line x1="60" y1="290" x2="340" y2="290"/>
+<line x1="60" y1="330" x2="340" y2="330" stroke-dasharray="4 4"/>
+</g>
+<g fill="#1d1a24">
+<path d="M150 92 C 142 92 138 96 138 104 L 138 270 C 138 284 132 290 118 290 L 112 290 L 112 296 L 184 296 L 184 290 L 178 290 C 166 290 162 284 162 270 L 162 186 C 182 166 214 160 234 172 C 256 186 258 218 240 240 C 226 256 206 260 190 254 L 186 262 C 214 276 252 268 272 242 C 296 210 286 168 254 150 C 226 134 190 140 162 160 L 162 104 C 162 96 158 92 150 92 Z"/>
+<path d="M162 120 C 200 96 248 92 280 108 C 300 118 308 134 302 150 L 296 148 C 298 132 284 120 262 116 C 230 110 196 118 166 134 Z"/>
+<circle cx="214" cy="210" r="13"/>
+<path d="M248 262 C 262 284 278 310 300 324 L 296 330 C 268 318 248 296 236 270 Z"/>
+<path d="M300 324 l 14 -4 l -6 14 z"/>
+</g>
+<circle cx="214" cy="210" r="5" fill="#c23b22"/>
+<g fill="#c23b22">
+<path d="M128 70 l 6 -12 l 6 12 l -6 6 z"/>
+</g>
+<text x="200" y="372" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#5a4a30" letter-spacing="3">ϟ · «ZHUR» · /ʒʊɾ/</text>
+<text x="60" y="40" font-family="Georgia, serif" font-size="12" fill="#8a7550" font-style="italic">letra 28 del alfabeto olvidado</text>
+<g fill="none" stroke="#8a7550" stroke-width="1">
+<rect x="20" y="20" width="360" height="360"/>
+<rect x="26" y="26" width="348" height="348"/>
+</g>
+</svg>

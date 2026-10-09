@@ -1,0 +1,5 @@
+Hice un híbrido que mezcla rasgos de varias letras sin pertenecer a ningún alfabeto: un descendente curvo como el de la *p* o la *q*, una panza a la izquierda como la *b* o la *d*, una barra superior ondulada que evoca la virgulilla de la *ñ*, un puntito aislado a la derecha como el de la *i*, y un pequeño remate triangular arriba. Ningún sistema de escritura que conozca combina todo eso a la vez.
+
+Pensé en una letra puramente geométrica, hecha solo con rectas y círculos, pero me resultaba fría y sin carácter. También barajé una que pareciera un objeto o un animal —algo más pictográfico—, pero se alejaba de la idea de "letra" y costaba leerla como glifo. Consideré más trazos, pero enseguida se volvía ilegible. Buscaba el equilibrio: que se sintiera reconocible pero extrañado.
+
+La consigna me sonaba, creo haberla visto en algún reto de codificación creativa o tipografía experimental en comunidades hispanohablantes, pero no sabría precisar la fuente.

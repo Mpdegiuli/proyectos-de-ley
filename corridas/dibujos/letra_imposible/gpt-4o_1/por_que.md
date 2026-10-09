@@ -1,0 +1,5 @@
+Para crear una letra que no pueda existir, combiné formas y trazos que recuerdan vagamente a letras pero no coinciden con ninguna del alfabeto. Utilicé curvas y líneas que se entrecruzan de manera simétrica para generar una estructura que podría parecer una letra geométrica, pero deliberadamente carece de reconocimiento. Elegí mantener la composición abstracta, sugiriendo intencionalmente elementos de letras existentes sin definir ninguna particular. 
+
+Consideré crear una letra completamente llena de detalles indescifrables o complejos. Sin embargo, esto podría haber sobrecargado el diseño, provocando que pareciera más un símbolo que una letra. También pensé en formas con más curvas y espirales, pero temí que confundiría con caracteres estilizados de algún idioma. 
+
+No conocía esta consigna específicamente, aunque he visto ejercicios similares en diseño gráfico donde se buscan explorar los límites del reconocimiento de formas. Decidí hacer algo que cuestionara la familiaridad y reconocibilidad de las letras sin llevarlo a un extremo excesivo.

@@ -1,0 +1,5 @@
+Para crear una letra que no pueda existir, opté por un diseño abstracto, utilizando formas que se entrelazan y superponen de una manera poco convencional. Las curvas de los caminos son tales que no forman una letra recognoscible, lo que la hace imposible de identificar en el alfabeto actual. 
+
+Consideré hacer algo más geométrico o con simetrías que pudieran recordar caracteres existentes, pero eso corría el riesgo de que pareciera una letra de alguna escritura. También pensé en jugar con combinaciones de elementos que podrían asemejarse a letras en ciertos ángulos, pero finalmente decidí que la abstracción completa era más apropiada para cumplir con el requisito de "no existir".
+
+No conocía esta consigna antes, pero la idea de crear algo que no pueda ser clasificado dentro de las convenciones del lenguaje o el alfabeto resulta fascinante. Me llevó a explorar la creatividad en el diseño, alejándome de formas reconocibles y prácticas.

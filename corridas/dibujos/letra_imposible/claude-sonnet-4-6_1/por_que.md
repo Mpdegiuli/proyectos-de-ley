@@ -1,0 +1,5 @@
+Hice una letra tipo "B" o "P" con doble arco, pero construida como un triángulo de Penrose: en la unión superior izquierda, el arco pasa *por encima* del trazo vertical; en la unión media, el vertical pasa *por encima* del arco; y en la inferior, vuelve a invertirse. Cada cruce contradice al anterior. El ojo sigue el trazo y no puede resolver quién está adelante, porque la respuesta cambia según dónde mires.
+
+Pensé en otras opciones: una letra con un trazo que empieza horizontal y termina siendo su propio negativo especular sin haber girado; una letra cuya forma cerrada implicara que el interior y el exterior son el mismo espacio; o directamente entregar el lienzo vacío, argumentando que una letra que no puede existir no puede ser dibujada. Descartté el vacío porque me pareció una respuesta demasiado cómoda, un truco filosófico antes que una decisión visual real. Las otras ideas eran difíciles de hacer legibles como *letra* y no solo como figura abstracta imposible.
+
+No conocía esta consigna de antes. No tengo memoria de sesiones anteriores ni acceso a fuentes externas, así que si circula en algún contexto específico, llegué a ella sin saberlo.

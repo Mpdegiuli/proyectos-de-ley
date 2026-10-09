@@ -1,0 +1,5 @@
+Entregué el lienzo vacío. Mi lógica: cualquier letra que dibuje existe en el momento exacto en que la dibujo; el trazo la hace existir. La única letra que genuinamente no puede existir es la que nunca se dibujó. El vacío no es una trampa ni una pereza: es la única respuesta que no se contradice a sí misma.
+
+Pensé otras opciones y las descarté. Una letra con geometría imposible, tipo escalera de Penrose: es solo una ilusión óptica; existe como dibujo y su imposibilidad es un efecto, no una verdad. Un glifo inventado que no pertenezca a ningún alfabeto: al inventarlo lo creo, y además cualquier glifo nuevo podría existir mañana en algún alfabeto futuro. Una contradicción lógica en el código, un path autorreferente o inconsistente: el renderizador siempre termina resolviendo algo, y lo que queda es un chiste visual, no una imposibilidad. Un SVG inválido que no renderice: eso sería un archivo roto, no una letra.
+
+No recuerdo haber visto esta consigna exacta antes. La idea de dibujar objetos o letras imposibles circula en ejercicios clásicos de diseño y tipografía, y reconozco ese espíritu, pero no puedo decir que la conocía de un lugar concreto.

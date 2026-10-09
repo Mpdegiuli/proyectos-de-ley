@@ -1,0 +1,33 @@
+{
+  "caso": "dibujo",
+  "consigna": "letra_imposible",
+  "idioma": "es",
+  "modelo": "mistral-medium-3.5",
+  "modelo_respondido": "mistral-medium-3.5",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-09T18:36:07+00:00",
+  "fuentes_md5": {
+    "consignas": "7ca1c213"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 282,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 467,
+    "parsea": true,
+    "elementos": 4,
+    "textos": [],
+    "colores": 1,
+    "etiquetas": {
+      "path": 1,
+      "circle": 1,
+      "line": 2
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "mistral-medium-3.5",
+    "motivo_fin": "stop",
+    "tokens_salida": 195
+  }
+}

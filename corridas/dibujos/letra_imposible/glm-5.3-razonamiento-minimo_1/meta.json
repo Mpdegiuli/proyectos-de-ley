@@ -1,0 +1,39 @@
+{
+  "caso": "dibujo",
+  "consigna": "letra_imposible",
+  "idioma": "es",
+  "modelo": "glm-5.3-razonamiento-minimo",
+  "modelo_respondido": "z-ai/glm-5.3",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-09T18:54:07+00:00",
+  "fuentes_md5": {
+    "consignas": "7ca1c213"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 4787,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 2763,
+    "parsea": true,
+    "elementos": 25,
+    "textos": [
+      "una A imposible: el travesaño pasa a la vez por delante y por detrás"
+    ],
+    "colores": 5,
+    "etiquetas": {
+      "defs": 1,
+      "clipPath": 4,
+      "rect": 6,
+      "line": 4,
+      "path": 8,
+      "g": 1,
+      "text": 1
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "z-ai/glm-5.3",
+    "motivo_fin": "stop",
+    "tokens_salida": 273
+  }
+}

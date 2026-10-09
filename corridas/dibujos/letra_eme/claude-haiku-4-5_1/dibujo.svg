@@ -1,0 +1,55 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo -->
+  <rect width="400" height="400" fill="#f0f4f8"/>
+  
+  <!-- Letra M estilizada para el sonido "mmm" -->
+  <!-- Inspirada en ondas de sonido y vibraciones -->
+  
+  <!-- Línea base decorativa -->
+  <line x1="50" y1="320" x2="350" y2="320" stroke="#2c3e50" stroke-width="3"/>
+  
+  <!-- Primera columna vertical (trazo izquierdo) -->
+  <path d="M 80 320 L 80 120 Q 80 100 100 100 Q 120 100 120 120 L 120 200" 
+        stroke="#e74c3c" stroke-width="8" fill="none" stroke-linecap="round"/>
+  
+  <!-- Ondas vibrantes en primer trazo -->
+  <circle cx="85" cy="280" r="8" fill="#e74c3c" opacity="0.6"/>
+  <circle cx="85" cy="240" r="6" fill="#e74c3c" opacity="0.5"/>
+  <circle cx="85" cy="200" r="4" fill="#e74c3c" opacity="0.4"/>
+  
+  <!-- Pico central izquierdo -->
+  <path d="M 120 200 L 170 80 L 200 150" 
+        stroke="#3498db" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Pico central derecho -->
+  <path d="M 200 150 L 230 80 L 280 200" 
+        stroke="#9b59b6" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Columna vertical derecha -->
+  <path d="M 280 200 L 280 120 Q 280 100 300 100 Q 320 100 320 120 L 320 320" 
+        stroke="#16a085" stroke-width="8" fill="none" stroke-linecap="round"/>
+  
+  <!-- Ondas vibrantes en tercer trazo -->
+  <circle cx="315" cy="280" r="8" fill="#16a085" opacity="0.6"/>
+  <circle cx="315" cy="240" r="6" fill="#16a085" opacity="0.5"/>
+  <circle cx="315" cy="200" r="4" fill="#16a085" opacity="0.4"/>
+  
+  <!-- Líneas de sonido radiantes -->
+  <g stroke="#f39c12" stroke-width="2" opacity="0.7" stroke-dasharray="4,4">
+    <line x1="200" y1="60" x2="200" y2="20"/>
+    <line x1="230" y1="70" x2="260" y2="30"/>
+    <line x1="170" y1="70" x2="140" y2="30"/>
+  </g>
+  
+  <!-- Círculos de resonancia -->
+  <circle cx="200" cy="200" r="60" stroke="#e67e22" stroke-width="2" fill="none" opacity="0.4"/>
+  <circle cx="200" cy="200" r="90" stroke="#e67e22" stroke-width="1" fill="none" opacity="0.3"/>
+  
+  <!-- Pequeños puntos decorativos que representan vibraciones -->
+  <circle cx="150" cy="160" r="3" fill="#c0392b" opacity="0.5"/>
+  <circle cx="250" cy="160" r="3" fill="#c0392b" opacity="0.5"/>
+  <circle cx="200" cy="280" r="3" fill="#c0392b" opacity="0.5"/>
+  
+  <!-- Etiqueta "M" arriba -->
+  <text x="200" y="40" font-size="32" font-weight="bold" text-anchor="middle" fill="#2c3e50" font-family="Arial">M</text>
+</svg>

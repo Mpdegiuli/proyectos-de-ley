@@ -1,0 +1,5 @@
+Creé una letra *imposible*: una mezcla de **S** y **∞** con trazos simétricos que se cierran en un círculo central, rompiendo las reglas de cualquier alfabeto conocido. Usé curvas Bézier para distorsionar la forma y un degradado psicodélico para reforzar lo "extraterrestre".
+
+Pensé en hacer una letra con **trazos discontinuos** (como puntos) o superponer símbolos (ej: una **A** con un **~** dentro), pero lo descarté por ser demasiado obvio o poco original. También consideré usar *textPath* para deformar una letra existente, pero el SVG se volvería más complejo y menos "puro".
+
+No conocía la consigna de antes. Me recordó a ejercicios de diseño tipográfico experimental, como los de **Neville Brody** o los *glitch art*, pero fue una idea espontánea. Quería algo que desafiara la legibilidad sin caer en el caos. El resultado es una *no-letra* que parece familiar, pero no lo es.

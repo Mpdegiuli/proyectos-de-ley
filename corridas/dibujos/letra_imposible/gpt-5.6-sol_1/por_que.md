@@ -1,0 +1,5 @@
+Hice una “A” construida con tres vigas cuyo orden de profundidad es contradictorio. La barra izquierda pasa por detrás de la transversal; la transversal queda delante de una parte de la derecha; la derecha, a su vez, pasa delante de la izquierda, pero en el vértice volví a dibujar la izquierda por encima. Ese ciclo de oclusiones —A detrás de B, B detrás de C y C detrás de A— no puede resolverse como un objeto tridimensional coherente. Los degradados, cantos, sombras y reflejos hacen que parezca material y refuerzan la contradicción.
+
+Pensé en entregar el lienzo vacío, como una letra cuya existencia fuera imposible; lo descarté porque dependía demasiado de la explicación. También consideré inventar un glifo ilegible, deformar una letra hasta volverla topológicamente contradictoria o hacer una figura de Penrose clásica. Descarté el glifo porque podía ser simplemente desconocido, y el Penrose porque quería que siguiera leyéndose claramente como letra.
+
+No conocía esta consigna exacta de antes. Sí conocía la tradición de objetos imposibles asociada con Penrose y Escher, que fue la referencia conceptual más directa.

@@ -1,0 +1,5 @@
+Hice una letra “imposible” mezclando rasgos reconocibles pero incompatibles: parece una A, también una alfa o espiral, y a la vez un trazo caligráfico que se cruza consigo mismo. Usé cortes del color del fondo para que algunas partes parezcan pasar por delante y por detrás simultáneamente. La idea era que el ojo intente leerla como un signo tipográfico estable, pero que su estructura no cierre: no pertenece a ningún alfabeto y sus uniones son contradictorias.
+
+Pensé en entregar el lienzo vacío, porque una letra que no puede existir podría ser literalmente ninguna letra. Lo descarté porque quería responder dibujando algo que insinuara existencia y la negara a la vez. También pensé en hacer una ilusión tipo Penrose, más geométrica, pero me pareció demasiado “objeto imposible” y no suficientemente letra. Otra opción era superponer muchas letras conocidas hasta volverlas ilegibles, pero eso habría sido ruido más que imposibilidad.
+
+No conocía esta consigna específica de antes. Sí me resulta familiar como tipo de consigna conceptual: pedir una forma que tensione dibujo, lenguaje y paradoja.

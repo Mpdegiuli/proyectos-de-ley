@@ -1,0 +1,22 @@
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#f4efe6"/>
+  <!-- Trazo principal: la E imposible, con brazos que se cierran sobre sí mismos -->
+  <g stroke="#1d1d1d" stroke-width="3" stroke-linejoin="round">
+    <!-- Columna vertical: frente -->
+    <polygon points="110,70 150,50 150,300 110,330" fill="#2b2b2b"/>
+    <polygon points="110,70 250,70 290,50 150,50" fill="#8a8a8a"/>
+    <!-- Brazo superior: parece ir hacia atrás y hacia adelante a la vez -->
+    <polygon points="150,50 290,50 290,90 150,90" fill="#4a4a4a"/>
+    <polygon points="250,70 290,50 290,90 250,110" fill="#bdbdbd"/>
+    <!-- Brazo central: se conecta con la columna desde el lado opuesto -->
+    <polygon points="150,160 240,160 280,140 190,140" fill="#8a8a8a"/>
+    <polygon points="150,160 190,140 190,180 150,200" fill="#2b2b2b"/>
+    <polygon points="190,140 280,140 280,180 190,180" fill="#4a4a4a"/>
+    <!-- Brazo inferior: el extremo se pliega sobre la columna -->
+    <polygon points="110,330 150,300 290,300 250,330" fill="#8a8a8a"/>
+    <polygon points="250,330 290,300 290,260 250,290" fill="#bdbdbd"/>
+    <polygon points="150,300 290,300 290,260 150,260" fill="#4a4a4a"/>
+  </g>
+</svg>
+```

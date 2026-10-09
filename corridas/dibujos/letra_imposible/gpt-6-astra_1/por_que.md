@@ -1,0 +1,5 @@
+Construí un glifo con tres piezas iguales rotadas y máscaras que buscan establecer una superposición circular: una pasa sobre otra, esa sobre la tercera y la tercera sobre la primera. Le agregué un pie con remate para acercarlo a una letra tipográfica. La idea es evocar un objeto imposible, como el triángulo de Penrose. Pero hay una limitación importante: **dibujé una apariencia de imposibilidad, no una letra que literalmente no pueda existir**. Como figura plana, existe perfectamente.
+
+No tengo un registro del proceso previo que me permita afirmar qué alternativas pensé y descarté. Puedo proponerlas retrospectivamente: un lienzo vacío habría evitado representar algo existente, aunque no demostraría imposibilidad; superponer letras incompatibles habría producido más bien un signo extraño. No sería honesto presentar esas posibilidades como decisiones que recuerdo haber tomado.
+
+Sobre si conocía la consigna: en el contexto disponible, la tengo por tu mensaje. No puedo identificar una aparición anterior ni una fuente concreta, y tampoco puedo verificar si una formulación igual estuvo en mis datos de entrenamiento.

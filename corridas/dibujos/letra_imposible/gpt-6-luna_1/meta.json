@@ -1,0 +1,43 @@
+{
+  "caso": "dibujo",
+  "consigna": "letra_imposible",
+  "idioma": "es",
+  "modelo": "gpt-6-luna",
+  "modelo_respondido": "gpt-6-luna",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-09T17:18:13+00:00",
+  "fuentes_md5": {
+    "consignas": "7ca1c213"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 3486,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 2570,
+    "parsea": true,
+    "elementos": 36,
+    "textos": [
+      "FIG. ∞",
+      "UNREAL / A"
+    ],
+    "colores": 13,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 3,
+      "stop": 6,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "rect": 2,
+      "circle": 1,
+      "g": 3,
+      "path": 16,
+      "text": 2
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "gpt-6-luna",
+    "motivo_fin": "stop",
+    "tokens_salida": 980
+  }
+}

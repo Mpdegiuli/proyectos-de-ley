@@ -1,0 +1,5 @@
+Elegí una **M estilizada con picos centrales** porque el sonido "mmm" es vibrante y resonante. Los dos picos hacia arriba representan esa vibración característica de la eme, mientras que las columnas laterales mantienen la estructura de la letra tradicional. Sumé ondas, círculos concéntricos y líneas radiantes para reforzar la idea de **sonido propagándose**.
+
+Consideré otras opciones: una M con **líneas ondulantes** (como ondas sonoras), pero resultaba demasiado abstracta y perdía la identidad de letra. También pensé en una M **completamente simétrica y espejada**, aunque era menos dinámico. Descaché una versión con **espirales** porque se alejaba mucho de la tipografía reconocible.
+
+Al final, busqué un **equilibrio entre lo representativo y lo sónico**: que se reconozca como M, pero que visualmente "suene".

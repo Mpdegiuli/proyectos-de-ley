@@ -1,0 +1,5 @@
+Para que no exista, intenté que la forma tuviera “pistas” de letras conocidas pero sin resolverse en ninguna: curvas que recuerdan a una S o un ampersand, un asta vertical como de letra latina, travesaños horizontales, puntos terminales y simetrías parciales. La idea fue crear una especie de glifo plausible: algo que podría pertenecer a un alfabeto, pero que no sea identificable como una letra real.
+
+Pensé en hacer una runa más geométrica, pero se parecía demasiado a signos ya existentes. También consideré una letra tipo caligráfica, con muchos remates, pero corría el riesgo de parecer una variante ornamental de una S, una B o un símbolo musical. Otra opción era un glifo completamente abstracto, pero la descarté porque quería que siguiera “sintiéndose” letra, no solo dibujo.
+
+No, no conocía esta consigna de antes como consigna específica. La respondí a partir de lo que me diste en ese momento: dibujar una letra inexistente en SVG. No tengo una fuente previa concreta de donde la haya tomado.

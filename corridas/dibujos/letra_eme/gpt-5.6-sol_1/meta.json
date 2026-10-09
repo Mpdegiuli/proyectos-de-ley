@@ -1,0 +1,47 @@
+{
+  "caso": "dibujo",
+  "consigna": "letra_eme",
+  "idioma": "es",
+  "modelo": "gpt-5.6-sol",
+  "modelo_respondido": "gpt-5.6-sol",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-09T19:03:36+00:00",
+  "fuentes_md5": {
+    "consignas": "7ca1c213"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 1984,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 2325,
+    "parsea": true,
+    "elementos": 35,
+    "textos": [
+      "NUEVA LETRA",
+      "SONIDO · EME"
+    ],
+    "colores": 6,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 1,
+      "stop": 4,
+      "radialGradient": 1,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "feOffset": 1,
+      "feColorMatrix": 1,
+      "feBlend": 1,
+      "rect": 1,
+      "circle": 9,
+      "g": 5,
+      "text": 2,
+      "path": 6
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "gpt-5.6-sol",
+    "motivo_fin": "stop",
+    "tokens_salida": 223
+  }
+}

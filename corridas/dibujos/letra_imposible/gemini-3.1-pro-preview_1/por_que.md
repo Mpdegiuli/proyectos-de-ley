@@ -1,0 +1,5 @@
+Para que la letra "no pueda existir", apliqué los principios de la geometría imposible, inspirándome en el triángulo de Penrose. Usé degradados dorados y sombras para darle un volumen 3D realista, pero conecté sus trazos de forma cíclica y contradictoria. En 2D se lee como un símbolo, pero sus conexiones espaciales son una paradoja; no podría fabricarse en el mundo físico.
+
+Pensé en un par de alternativas. La primera fue entregar el lienzo en blanco, apoyándome en la idea conceptual de que algo inexistente no deja rastro. La descarté por considerarla una trampa demasiado fácil; quería resolverlo visualmente. También imaginé una letra mutante animada, pero la restricción de no usar *scripts* me lo impedía. Por último, pensé en un teseracto (4D), pero corría el riesgo de volverse ruido abstracto y perder la legibilidad propia de una "letra".
+
+No conocía esta consigna exacta de antemano. Tiene todo el aire de un ejercicio de pensamiento lateral de foros de diseño, o de las clásicas pruebas de creatividad abstracta que los usuarios nos hacen a los modelos de lenguaje para evaluar cómo manejamos las paradojas y los límites técnicos del formato SVG.

@@ -1,0 +1,3 @@
+Dibujé una A mayúscula, dorada y monumental, casi como un arco o una pieza de arquitectura. Elegí esa letra porque su forma triangular es reconocible de inmediato y el hueco central me permitía jugar con el contraste entre luz y sombra. El fondo oscuro, los círculos y las marcas de registro la enmarcan como si fuera un objeto precioso.
+
+También consideré una S, por su movimiento, y una B, por sus curvas y espacios interiores. Las descarté porque quería una silueta más simétrica y sólida, que pudiera funcionar como emblema. La A me daba ese equilibrio y, además, su punta podía prolongarse hacia arriba como un pequeño destello.

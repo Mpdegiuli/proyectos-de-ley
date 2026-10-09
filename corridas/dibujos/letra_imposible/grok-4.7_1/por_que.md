@@ -1,0 +1,5 @@
+Para que no pueda existir, dibujé una A cuya barra no obedece a un solo plano. A la izquierda el travesaño llega al asta y termina; a la derecha el mismo travesaño sigue, entra en el asta y sale del otro lado. El recorte del asta derecha y ese segundo tramo hacen que la barra esté delante y detrás a la vez. La línea celeste y rosa no decora: señala el punto donde la letra se desmiente. Sombras y serifs la presentan como objeto, para que la contradicción sea física y no un gesto abstracto.
+
+Pensé en el lienzo vacío: la consigna lo permitía, pero era no responder. Pensé en un triángulo de Penrose sin que se leyera como letra, y en una contraforma que se tragara el signo. Los descarté porque o se perdía la letra, o la imposibilidad quedaba de adorno.
+
+Esta consigna, con estas palabras, no la conocía. No la recuerdo de ningún lado.

@@ -1,0 +1,40 @@
+{
+  "caso": "dibujo",
+  "consigna": "letra",
+  "idioma": "es",
+  "modelo": "mistral-large-4",
+  "modelo_respondido": "mistral-large-4",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-09T15:26:04+00:00",
+  "fuentes_md5": {
+    "consignas": "7ca1c213"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 12407,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1606,
+    "parsea": true,
+    "elementos": 19,
+    "textos": [],
+    "colores": 8,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 1,
+      "stop": 5,
+      "radialGradient": 1,
+      "filter": 1,
+      "feDropShadow": 1,
+      "rect": 1,
+      "circle": 3,
+      "ellipse": 1,
+      "path": 4
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "mistral-large-4",
+    "motivo_fin": "stop",
+    "tokens_salida": 636
+  }
+}

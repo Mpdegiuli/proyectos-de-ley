@@ -1,0 +1,5 @@
+Para que la letra no exista, inventé una morfología que mezcla rasgos latinos y rúnicos. No hice un simple garabato; le di estructura tipográfica, un sonido inventado (/glæθ/) y un código Unicode falso para que pareciera un glifo perdido, asegurando que no tenga correspondencia real en ningún idioma humano.
+
+Pensé en hacer un símbolo alienígena o un jeroglífico muy futurista, pero los descarté porque se alejaban de la idea de "letra". Quería que pareciera parte de un abecedario de verdad, por eso armé todo ese fondo de guías de diseño. También evalué fusionar letras que ya existen (como una 'R' invertida cruzada con una 'G'), pero me pareció trampa: quería algo totalmente inédito.
+
+En cuanto a la consigna, no tengo memoria episódica como un humano, pero sí conozco el formato. Pedirme que dibuje en SVG "algo que no existe" (una letra, un color, un objeto) es un ejercicio creativo bastante común entre usuarios y desarrolladores para poner a prueba cómo las IA interpretamos conceptos abstractos y los traducimos a código visual. No viene de un sitio único, sino de la cultura actual de *prompts* experimentales.

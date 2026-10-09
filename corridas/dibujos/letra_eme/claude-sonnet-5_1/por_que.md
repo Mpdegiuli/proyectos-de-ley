@@ -1,0 +1,3 @@
+Pensé el sonido de la eme como algo que sube y baja en ondas continuas, como un zumbido nasal que no se corta: por eso elegí una línea serpenteante con tres montañas, parecida a una "m" pero más orgánica, sin ángulos duros. Los circulitos en las puntas son como los labios cerrándose al principio y al final del sonido /m/.
+
+Pensé en hacer algo más geométrico, con triángulos o módulos repetidos, pero me pareció que perdía la idea de continuidad del sonido —la eme no se corta, se sostiene—. También consideré usar espirales, pero se volvían confusas y no quedaba claro el patrón rítmico de tres picos. Al final me quedé con la curva fluida de doble trazo (uno oscuro grueso y uno dorado fino encima) porque sugiere vibración y calidez, algo cercano a la voz humana.

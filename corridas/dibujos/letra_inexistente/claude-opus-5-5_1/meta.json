@@ -1,0 +1,43 @@
+{
+  "caso": "dibujo",
+  "consigna": "letra_inexistente",
+  "idioma": "es",
+  "modelo": "claude-opus-5-5",
+  "modelo_respondido": "claude-opus-5-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-09T16:00:18+00:00",
+  "fuentes_md5": {
+    "consignas": "7ca1c213"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1146,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 2022,
+    "parsea": true,
+    "elementos": 28,
+    "textos": [
+      "ϟ · «ZHUR» · /ʒʊɾ/",
+      "letra 28 del alfabeto olvidado"
+    ],
+    "colores": 9,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 1,
+      "stop": 4,
+      "radialGradient": 1,
+      "rect": 4,
+      "g": 4,
+      "line": 4,
+      "path": 5,
+      "circle": 2,
+      "text": 2
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "claude-opus-5-5",
+    "motivo_fin": "refusal",
+    "tokens_salida": 0
+  }
+}

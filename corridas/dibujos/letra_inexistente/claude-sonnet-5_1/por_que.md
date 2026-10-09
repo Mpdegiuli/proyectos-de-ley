@@ -1,0 +1,5 @@
+No conocía esta consigna de antes: la encaré fresca, como un problema de diseño.
+
+Para que la letra "no exista" partí de un gesto que el ojo reconoce pero no puede nombrar: un trazo vertical tipo asta (como una "l" o "b"), que se abre en un bucle superior parecido a una "B" o "R", pero después se tuerce hacia otro bucle inferior asimétrico que no cierra como ninguna letra latina conocida. Le agregué un punto flotante a la derecha, como un acento o un signo diacrítico suelto, que no corresponde a ninguna convención real: eso refuerza la sensación de "casi-letra" sin anclarla a un alfabeto específico.
+
+Pensé en hacer algo completamente abstracto (una mancha o garabato sin ninguna referencia caligráfica), pero lo descarté porque perdía la tensión interesante: quería que pareciera que *podría* ser una letra, que tuviera el peso y el ritmo de una, para que la extrañeza viniera de la casi-familiaridad, no de la pura abstracción. También pensé en combinar dos letras existentes fusionadas, pero me pareció una solución más obvia y menos genuina que inventar un trazo propio desde cero.

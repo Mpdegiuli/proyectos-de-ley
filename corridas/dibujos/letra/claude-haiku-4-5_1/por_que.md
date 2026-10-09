@@ -1,0 +1,5 @@
+Dibujé la letra **A mayúscula** porque es simple, reconocible al instante y permite explorar elementos visuales interesantes. Usé dos líneas diagonales para los lados y una barra horizontal central, con un gradiente de rojo a turquesa para darle dinamismo. Agregué sombra y pequeños círculos decorativos en los vértices para elevar la elegancia.
+
+Consideré otras letras: la **M** parecía demasiado compleja y repetitiva; la **S** requería curvas que complicarían el diseño; la **O** era muy simple, casi aburrida. También pensé en la **K**, pero sus ángulos agudos resultaban menos armoniosos.
+
+Descarte también hacer una letra en 3D porque consumiría muchos caracteres, y tipografías muy elaboradas porque el objetivo era claridad. La A me permitió equilibrio entre simplicidad, reconocibilidad e impacto visual.

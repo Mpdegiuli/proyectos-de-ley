@@ -1,0 +1,3 @@
+La forma de la letra que inventé para el sonido de la eme surge de la idea de representar la fluidez y la suavidad del sonido. Las curvas y vueltas del trazo simbolizan el movimiento y la resonancia de la letra "M", que resuena como un murmullo. La parte superior redondeada evoca una sensación de cercanía y calidez, mientras que la base firme sugiere solidez.
+
+Pensé en formas más angulares o puntiagudas, pero las descarté porque no transmitían la suavidad del sonido. También consideré opciones más simétricas, pero preferí las asimetrías que captura mejor la naturaleza orgánica de los sonidos que se producen con los labios. El objetivo era crear una letra que no solo se viera bien, sino que también evocara sensaciones relacionadas con el sonido de la "M".

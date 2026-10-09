@@ -1,0 +1,5 @@
+Para que la letra que dibujé no exista, combiné formas y elementos de manera abstracta, fusionando curvas y líneas en un diseño único que no se asemeja a ningún carácter conocido. La idea era crear algo totalmente original y visualmente atractivo.
+
+Consideré otras opciones, como crear letras que podrían recordar a otras, pero eso me llevaría a la inevitabilidad de que fueran reconocibles. También pensé en incorporar elementos como patrones o texturas, pero opté por mantenerlo simple para que la forma fuera clara y distintiva.
+
+En cuanto a la consigna, no la conocía previamente. Sin embargo, me resultó inspiradora y divertida, ya que me permitió explorar la creatividad en un marco específico. La mezcla de geometría y color en el diseño fue un desafío estimulante, y me permitió liberarme de las restricciones de las letras existentes, creando algo completamente inédito.

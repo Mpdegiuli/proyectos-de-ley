@@ -1,0 +1,3 @@
+La forma nace del sonido mismo: la eme es nasal y continua, se sostiene (mmm) como un zumbido. Por eso la tracé como un solo gesto cursivo que entra, sube y baja en dos arcos —las arcadas evocan además los labios cerrados que producen el sonido— y sale en una cola, porque la eme siempre enlaza con lo que sigue. El punto rojo marca dónde empieza el trazo; los arcos desiguales sugieren una onda que decae, y las ondas celestes laterales lo vuelven audible.
+
+Descarté una eme angular, casi rúnica: el sonido es blando y cálido, no filoso. Probé un pictograma de labios, pero era demasiado literal; quería una letra, no un dibujo. También una espiral cerrada, ilegible como grafema y difícil de escribir a mano. Me quedé con la forma que se traza de un solo movimiento.

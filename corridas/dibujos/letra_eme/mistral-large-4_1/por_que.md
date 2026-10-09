@@ -1,0 +1,3 @@
+Elegí una boca con los labios cerrados porque la eme es una consonante bilabial: se pronuncia juntando los labios y dejando que el aire vibre en la nariz, como cuando decimos "mmm". Las ondas de arriba representan ese zumbido nasal, y la curva inferior sugiere la presión al cerrar la boca.
+
+Descarté una eme geométrica tipo "M" porque es demasiado obvia y no aporta nada nuevo. También pensé en ondas sonoras puras, pero son genéricas y no distinguen la M de otras nasales. Una nariz vibrando era otra opción, pero resulta difícil de leer como carácter y menos icónica que la boca. Finalmente, los labios cerrados son el gesto más instintivo y reconocible del fonema.

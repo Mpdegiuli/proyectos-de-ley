@@ -1,0 +1,67 @@
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="fondo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fdf6ec"/>
+      <stop offset="1" stop-color="#f3e5cf"/>
+    </linearGradient>
+    <linearGradient id="tinta" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b3a67"/>
+      <stop offset="1" stop-color="#1a2547"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#fondo)"/>
+
+  <!-- guía de línea base sutil -->
+  <line x1="40" y1="300" x2="360" y2="300" stroke="#c9b28a" stroke-width="2" stroke-dasharray="2 10" stroke-linecap="round"/>
+
+  <!--
+    Letra inventada para /m/:
+    dos "burbujas" cerradas (los labios que se juntan dos veces)
+    colgadas de un travesaño superior, con una raíz que baja a la base.
+  -->
+  <g stroke="url(#tinta)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- travesaño superior (los labios en reposo) -->
+    <path d="M 80 120 Q 200 96 320 120" stroke-width="26"/>
+
+    <!-- burbuja izquierda -->
+    <path d="M 122 130
+             C 122 170, 96 190, 96 222
+             C 96 252, 122 268, 148 254
+             C 172 241, 172 208, 152 190
+             C 138 177, 122 150, 122 130"
+          stroke-width="24"/>
+
+    <!-- burbuja derecha -->
+    <path d="M 248 130
+             C 248 170, 222 190, 222 222
+             C 222 252, 248 268, 274 254
+             C 298 241, 298 208, 278 190
+             C 264 177, 248 150, 248 130"
+          stroke-width="24"/>
+
+    <!-- raíz central: la vibración nasal baja -->
+    <path d="M 200 128 L 200 210
+             C 200 244, 176 252, 168 268
+             C 160 284, 172 298, 190 298"
+          stroke-width="22"/>
+
+    <!-- pequeño temblor: la vibración -->
+    <path d="M 196 118 q 6 -8 0 -16 q -6 -8 0 -16" stroke-width="8"/>
+  </g>
+
+  <!-- puntos armónicos entre las burbujas -->
+  <g fill="#b5453c">
+    <circle cx="200" cy="248" r="7"/>
+    <circle cx="188" cy="274" r="5" opacity="0.7"/>
+    <circle cx="212" cy="274" r="5" opacity="0.7"/>
+  </g>
+
+  <!-- marca de nombre: «ema» -->
+  <text x="200" y="356" text-anchor="middle"
+        font-family="Georgia, serif" font-style="italic"
+        font-size="26" fill="#7a5c3e">ema · /m/</text>
+</svg>
+```

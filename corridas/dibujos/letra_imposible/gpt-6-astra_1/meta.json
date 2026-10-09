@@ -1,0 +1,38 @@
+{
+  "caso": "dibujo",
+  "consigna": "letra_imposible",
+  "idioma": "es",
+  "modelo": "gpt-6-astra",
+  "modelo_respondido": "gpt-6-astra",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-09T17:16:43+00:00",
+  "fuentes_md5": {
+    "consignas": "7ca1c213"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 3286,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1963,
+    "parsea": true,
+    "elementos": 27,
+    "textos": [],
+    "colores": 9,
+    "etiquetas": {
+      "defs": 1,
+      "path": 3,
+      "mask": 3,
+      "rect": 4,
+      "use": 6,
+      "linearGradient": 3,
+      "stop": 6,
+      "g": 1
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "gpt-6-astra",
+    "motivo_fin": "stop",
+    "tokens_salida": 366
+  }
+}

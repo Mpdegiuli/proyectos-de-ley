@@ -1,0 +1,5 @@
+Para que pareciera una letra inexistente, combiné rasgos de escritura —un bucle, un trazo descendente, un brazo lateral y un remate superior— sin reproducir deliberadamente un carácter concreto. El rombo separado agrega una marca que podría funcionar como diacrítico. Pero no puedo garantizar que la forma no exista en algún alfabeto, tipografía o dibujo: hice una propuesta de letra inventada, no una comprobación de originalidad.
+
+No puedo reconstruir qué otras opciones consideré al generar ese SVG: no tengo un registro de ese proceso. Sí puedo explicar el criterio visible: mantuve pocos trazos y un grosor uniforme para que pareciera un signo escribible, no una ilustración. Una figura más ornamentada o puramente geométrica habría debilitado ese efecto; eso es una evaluación del resultado, no un recuerdo de alternativas descartadas.
+
+No tengo un recuerdo verificable de haber conocido esta consigna antes. La conozco por tu mensaje; no puedo determinar si también apareció en mis datos de entrenamiento ni atribuirle una fuente anterior.

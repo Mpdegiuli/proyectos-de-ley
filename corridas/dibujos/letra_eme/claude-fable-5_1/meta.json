@@ -1,0 +1,39 @@
+{
+  "caso": "dibujo",
+  "consigna": "letra_eme",
+  "idioma": "es",
+  "modelo": "claude-fable-5",
+  "modelo_respondido": "claude-fable-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-09T18:55:28+00:00",
+  "fuentes_md5": {
+    "consignas": "7ca1c213"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1796,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1893,
+    "parsea": true,
+    "elementos": 14,
+    "textos": [
+      "«mun»",
+      "/m/ · nasal bilabial"
+    ],
+    "colores": 7,
+    "etiquetas": {
+      "rect": 2,
+      "line": 3,
+      "g": 2,
+      "path": 4,
+      "circle": 1,
+      "text": 2
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "claude-fable-5",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 370
+  }
+}

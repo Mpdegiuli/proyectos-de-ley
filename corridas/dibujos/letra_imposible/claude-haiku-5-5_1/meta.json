@@ -1,0 +1,33 @@
+{
+  "caso": "dibujo",
+  "consigna": "letra_imposible",
+  "idioma": "es",
+  "modelo": "claude-haiku-5-5",
+  "modelo_respondido": "claude-haiku-5-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-09T16:26:06+00:00",
+  "fuentes_md5": {
+    "consignas": "7ca1c213"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1670,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1231,
+    "parsea": true,
+    "elementos": 12,
+    "textos": [],
+    "colores": 6,
+    "etiquetas": {
+      "rect": 1,
+      "g": 1,
+      "polygon": 10
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "claude-haiku-5-5",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 1474
+  }
+}

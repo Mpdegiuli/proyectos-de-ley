@@ -1,0 +1,29 @@
+{
+  "caso": "dibujo",
+  "consigna": "letra_imposible",
+  "idioma": "es",
+  "modelo": "minimax-m3",
+  "modelo_respondido": "minimax/minimax-m3",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-09T18:54:34+00:00",
+  "fuentes_md5": {
+    "consignas": "7ca1c213"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 1098,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 68,
+    "parsea": true,
+    "elementos": 0,
+    "textos": [],
+    "colores": 0,
+    "etiquetas": {}
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "minimax/minimax-m3",
+    "motivo_fin": "stop",
+    "tokens_salida": 958
+  }
+}

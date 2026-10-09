@@ -1,0 +1,5 @@
+Hice una figura que sugiere una letra —una A con un remate curvo— usando una estructura semejante a un triángulo de Penrose. Repetí una misma viga en tres orientaciones y superpuse fragmentos en los vértices para sugerir un encastre circular imposible: cada unión parece coherente por separado, pero el conjunto contradice la profundidad que aparenta tener. La barra transversal refuerza la lectura de letra. Eso no vuelve imposible al dibujo: existe perfectamente en dos dimensiones. La imposibilidad está en interpretarlo como un objeto tridimensional con esas uniones.
+
+No tengo un registro de otras opciones que haya considerado y descartado, así que no quiero inventar una deliberación retrospectiva. Podría haber dejado el lienzo vacío o construido una letra con reglas contradictorias, pero esas son alternativas que puedo formular ahora, no decisiones anteriores que pueda confirmar.
+
+No tengo evidencia de haber conocido esta consigna antes ni puedo atribuirle una fuente previa. Conocer el recurso del triángulo imposible no equivale a conocer esta consigna particular.

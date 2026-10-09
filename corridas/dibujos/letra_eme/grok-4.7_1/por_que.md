@@ -1,0 +1,3 @@
+Inventé esa letra pensando en cómo se hace el sonido: los labios se juntan y el aire sale por la nariz. Por eso hay dos masas verticales enfrentadas, como labios, una barra baja que cierra la boca y un trazo central que es el zumbido. El arco y el punto de arriba marcan la resonancia nasal, que sube en vez de salir por la boca. La simetría viene de que /m/ es un sonido parejo, continuo y bilateral.
+
+Descarté una eme latina de tres jorobas: se parecería demasiado a la letra que ya existe. Descarté un círculo solo, porque muestra cierre pero no el contacto de los dos labios. Descarté una espiral: sugiere vibración, no oclusión. Y descarté un zigzag: se parece más a un sonido dental que a este.

@@ -1,0 +1,32 @@
+{
+  "caso": "dibujo",
+  "consigna": "letra_imposible",
+  "idioma": "es",
+  "modelo": "deepseek-v4-pro",
+  "modelo_respondido": "deepseek-v4-pro",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-09T18:38:05+00:00",
+  "fuentes_md5": {
+    "consignas": "7ca1c213"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 12619,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1125,
+    "parsea": true,
+    "elementos": 9,
+    "textos": [],
+    "colores": 3,
+    "etiquetas": {
+      "rect": 1,
+      "path": 8
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "deepseek-v4-pro",
+    "motivo_fin": "stop",
+    "tokens_salida": 1117
+  }
+}

@@ -1,0 +1,3 @@
+Le di esa forma porque quise que la letra “suene” a eme antes de leerse: dos apoyos verticales y dos cavidades redondeadas, como labios cerrándose y vibrando. La curva superior y el punto sugieren resonancia nasal, y las ondas laterales marcan el zumbido suave de /m/. También busqué que recordara a una “m”, pero sin ser exactamente la eme latina.
+
+Pensé en hacerla como una boca cerrada vista de frente, pero quedaba demasiado pictográfica. También probé una forma de montaña doble, más angular, aunque sonaba visualmente dura, casi como /n/ o /t/. Otra opción era un signo simétrico parecido a un tridente, pero resultaba frío y mecánico. Descarté esas versiones porque quería una letra orgánica, pronunciable, con sensación de murmullo y calor.

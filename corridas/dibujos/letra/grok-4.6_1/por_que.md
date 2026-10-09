@@ -1,0 +1,3 @@
+Dibujé una A mayúscula, como inicial iluminada: oro, fondo oscuro y orlas. Es triangular, simétrica y se lee al instante; el hueco del travesaño y el degradado dan volumen sin saturar el SVG.
+
+Pensé en una R (más caligráfica, pero el lazo se veía confuso), una S (elegante, ambigua de lejos) y una M (ancha, se aplastaba en el cuadrado). También una gótica muy ornamentada: bonita, pero rebasaba el límite y perdía claridad. Me quedé con la A porque es un signo fuerte, casi un emblema.

@@ -1,0 +1,5 @@
+Para que pareciera una letra inventada, combiné un trazo ascendente con un bucle, una curva transversal que termina en gancho y un pequeño rombo separado. Mantuve el grosor y los remates uniformes para darle coherencia de signo tipográfico. Eso produce una forma poco familiar, pero no garantiza que no exista: no hice una comparación exhaustiva con alfabetos, escrituras históricas o marcas.
+
+No tengo un registro de otras propuestas que haya considerado y descartado, así que no puedo contarte esa parte como si la recordara. Sí puedo señalar una diferencia visible: no me limité a girar una letra conocida ni a añadirle un acento; la rareza está también en la estructura del cuerpo.
+
+No reconozco esta consigna como una que conociera de antes. En esta conversación la tengo porque vos la citaste. No puedo verificar si apareció en mis datos de entrenamiento ni atribuirle una procedencia.

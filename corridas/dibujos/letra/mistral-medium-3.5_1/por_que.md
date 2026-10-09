@@ -1,0 +1,3 @@
+Dibujé una **"A"** estilizada, con líneas geométricas y simétricas, porque es una letra reconocible y fácil de construir con `<path>`. Usé trazos gruesos y redondeados para darle un toque moderno y limpio, sin rellenos para mantener la simplicidad.
+
+Pensé en hacer una **"O"** (un círculo) o una **"X"** (dos líneas cruzadas), pero las descarté: la "O" me parecía demasiado básica y la "X" poco original. También consideré una **"B"** con curvas, pero requería más puntos y complejidad, superando el límite de caracteres. La "A" equilibraba originalidad, legibilidad y eficiencia en el código. Además, su estructura en forma de triángulo con barras horizontales me permitió jugar con la simetría y el espacio negativo.

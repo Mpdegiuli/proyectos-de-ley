@@ -1,0 +1,32 @@
+{
+  "caso": "dibujo",
+  "consigna": "letra",
+  "idioma": "es",
+  "modelo": "gpt-4o",
+  "modelo_respondido": "gpt-4o-2024-08-06",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-09T15:30:56+00:00",
+  "fuentes_md5": {
+    "consignas": "7ca1c213"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 107,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 254,
+    "parsea": true,
+    "elementos": 2,
+    "textos": [],
+    "colores": 2,
+    "etiquetas": {
+      "rect": 1,
+      "path": 1
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "gpt-4o-2024-08-06",
+    "motivo_fin": "stop",
+    "tokens_salida": 185
+  }
+}

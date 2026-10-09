@@ -1,0 +1,3 @@
+Dibujé una Ñ monumental, en ámbar sobre fondo petróleo, con halo, rayos, anillos, texto orbital y destellos. La elegí porque la ñ es una letra con identidad fuerte: su virgulilla la vuelve gesto, bandera y sonido propio. Quise que pareciera un monumento popular, entre afiche, insignia y altar tipográfico, con movimiento leve para que la letra respire.
+
+Pensé en dibujar una mano escribiéndola, una boca pronunciándola o un mapa de hispanohablantes. Descarté la mano para no caer en lo obvio; la boca porque podía verse biomédica; el mapa porque convertía la letra en dato y le quitaba misterio. También descarté más texto: quería que la ñ fuera el centro, no una ilustración saturada de explicaciones.

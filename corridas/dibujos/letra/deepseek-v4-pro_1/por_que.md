@@ -1,0 +1,3 @@
+Dibujé una letra “A” mayúscula y dorada, con trazos redondeados y un travesaño central, sobre un fondo oscuro con círculos concéntricos y pequeños destellos. Quise que pareciera un emblema: brillo metálico, sombra profunda y un aire monumental, como una pieza tipográfica de lujo.
+
+Pensé en dibujar una “S” como serpiente, una “M” como montaña o una letra caligráfica muy decorada. También consideré una versión minimalista en blanco y negro. Las descarté porque buscaba algo que se reconociera al instante y que no dependiera de un concepto figurativo. Preferí una letra clásica, elegante, que funcionara como joya visual sin perder legibilidad.

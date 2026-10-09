@@ -1,0 +1,3 @@
+La interpreto como una mezcla de estructura y murmullo: los dos hombros conservan un parentesco con la eme, mientras que el trazo central y el lazo doble le dan una identidad propia. Asocio las curvas y los extremos redondeados con la continuidad del sonido /m/; el lazo sugiere una vibración que vuelve sobre sí misma. Es una asociación visual, no una propiedad objetiva del sonido.
+
+No tengo un registro de alternativas que haya considerado, así que no puedo afirmar que las pensé y descarté. Como posibilidades, podría haber usado una onda, una espiral o dos arcos simples. Descartaría la onda por parecer un diagrama sonoro; la espiral, por perder parentesco con la eme; y los dos arcos, por acercarse demasiado a una «m» convencional.

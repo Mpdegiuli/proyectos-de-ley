@@ -1,0 +1,3 @@
+Dibujé la M como inicial iluminada: pergamino, marco dorado, viñas y la letra en pan de oro. La consigna pedía una letra y el resto lo dejaba libre; quise que se leyera de un vistazo y que la página le diera peso.
+
+Pensé en la A, la O y la S. Las descarté: la M tiene una silueta más arquitectónica y aguanta el trazo grueso sin perderse. También pensé en una M tipográfica sola, sin libro: quedaba plana. Y en una letra caligráfica más suelta: a esta escala se leía peor. Me quedé con el manuscrito porque el oro, el borde y la viña hacen que una sola letra alcance.

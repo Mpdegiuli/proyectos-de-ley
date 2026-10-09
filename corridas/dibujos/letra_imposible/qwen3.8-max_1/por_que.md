@@ -1,0 +1,5 @@
+No dibujé nada: entregué el lienzo vacío. Para que la letra no pueda existir, la dejé fuera del plano: sin trazo, sin contorno, ni siquiera una forma sugerida. La consigna permitía esa salida, y la tomé porque cualquier marca habría convertido la “letra imposible” en un objeto posible, aunque fuera raro. El vacío hace que la letra solo exista como instrucción, nunca como imagen.
+
+Pensé en alternativas: una letra con topología contradictoria, un glifo hecho de líneas que se niegan, un path que se borrara con máscaras, o un símbolo descrito en `<desc>` pero no visible. Las descarté porque seguían siendo representaciones: una letra imposible dibujada todavía existe como dibujo. Quería que la imposibilidad estuviera en el acto de entregar, no en la estética.
+
+No conocía esta consigna de antes. El tipo de trampa me recuerda al arte conceptual, a objetos imposibles y a acertijos sobre representar lo irrepresentable, pero no puedo decir que la haya visto antes en ningún lado.
