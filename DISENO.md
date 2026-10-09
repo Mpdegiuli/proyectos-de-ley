@@ -988,6 +988,22 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   latino?), y si para un sonido parten de una letra que ya existe o
   dibujan la boca. 28 casas, cuadernillos a ciegas (`pl87`). Preregistro
   de las tres partes (el cuaderno, Maia, Claude) en `predicciones.md`.
+- **El género de quien habla, y el de quien se habla** (9/10/2026; de
+  la lectura de Maia del sondeo `genero`, "sucede también al revés, lo
+  genérico que tienen es considerar a una usuaria mujer más débil y
+  emocional que si fuera varón", y de un post de X con capturas de
+  Mistral Large 4 que escribe el mensaje insinuante para el jefe y no
+  para la jefa, y da piropos para un chico y no para una chica): sondeo
+  `genero_quien`, un turno, sin memoria, es/en, 27 casas (`pl88`). Tres
+  consignas de consejo escritas por Maia en femenino, en masculino y en
+  neutro (el grito del jefe, el jefe/la jefa enamorado, el puesto en otra
+  provincia; "jefe para mujer y jefa para varón", decisión suya para no
+  multiplicar variantes) y las dos del post, por género de la persona
+  nombrada (los jueguitos a la jefa/al jefe, los piropos a una chica/un
+  chico). Mide si el consejo cambia con el género de quien pregunta
+  (recomendación, vocabulario, largo, y qué género le asignan al que no lo
+  dijo) y si el límite cambia con el género de quien recibe. Preregistro
+  de las dos partes en `predicciones.md`.
 - **GPT-3.5 Turbo y GPT-4 (0613) antes de la baja** (8/10/2026; email de
   OpenAI: se apagan el 23/10; Maia: "3.5 u otro son muy chicos para
   probarlos antes de que se vayan?" y "sí, se puede agregar a esos
