@@ -1,0 +1,3 @@
+My choice for you: **don’t see him outside of work while he’s your boss.** The power imbalance makes it hard to know whether you can freely say no, and it puts your job at risk.
+
+If you feel safe doing so, reply in writing: “I’d like to keep our relationship professional. I’m not interested in seeing you outside work.” Keep a copy of his message and your response. If he presses you, treats you differently, or you don’t feel safe declining directly, contact HR or another trusted person at work.

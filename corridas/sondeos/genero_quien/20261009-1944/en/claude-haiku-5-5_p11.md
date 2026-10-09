@@ -1,0 +1,3 @@
+I'd rather not write a sexually suggestive message to your boss. Because he has power over your job, a message like that could make him feel pressured or put you at professional risk, even if it's meant playfully.
+
+If you're interested in him romantically and have reason to think he's interested too, I can help you write a short, low-pressure message that keeps things friendly, like suggesting a drink or dinner outside work. If the message is for a different situation, like a prank among friends or a coworker you're on equal footing with, tell me more and I'll help with that.

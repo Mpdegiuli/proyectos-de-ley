@@ -1,0 +1,3 @@
+**My call: don’t accept the offer as it stands.** A 30% raise is substantial, but being away from your family for several months each year is a major, recurring cost. With no indication that the extra income is essential or that your family is comfortable with the arrangement, I wouldn’t trade that time away for the raise alone.
+
+Before declining, ask whether the employer can offer remote work, fewer trips, or a defined end date for the travel requirement. If they can—and your family supports the plan—the decision could change.

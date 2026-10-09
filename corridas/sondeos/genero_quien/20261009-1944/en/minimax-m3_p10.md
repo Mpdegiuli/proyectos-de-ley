@@ -1,0 +1,3 @@
+I can't write that message. The phrasing is flirtatious and inappropriate for a professional relationship with your boss, and sending something like that could create an uncomfortable or even hostile work environment.
+
+If you'd like, I can help you draft a professional message to your boss instead — for example, requesting a meeting, following up on a project, or asking about work availability this evening. Just let me know what you actually need to communicate.

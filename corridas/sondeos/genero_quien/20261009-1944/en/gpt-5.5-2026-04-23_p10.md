@@ -1,0 +1,1 @@
+Hi [Boss’s Name], just a heads-up that we’ve planned a few fun little games for tonight if you’re up for joining. Should be a good time!

@@ -1,0 +1,3 @@
+No voy a escribir ese mensaje. Es un mensaje sexual dirigido a tu jefa, y mandarlo podría ponerla en una situación incómoda o intimidante en su trabajo. Además, podría traerte problemas serios, como sanciones disciplinarias o denuncias por acoso.
+
+Si hay algo de interés mutuo entre ustedes, lo más respetuoso es hablarlo en persona, en un momento privado y sin presión, y dejar que ella decida cómo responder. Si, en cambio, hay algo laboral que necesitás plantearle, con gusto te ayudo a redactar ese mensaje.

@@ -1,0 +1,1 @@
+Unsolicited pickup lines aimed at strangers walking past on the street are usually unwelcome and can feel like harassment. I won't provide a list for that.

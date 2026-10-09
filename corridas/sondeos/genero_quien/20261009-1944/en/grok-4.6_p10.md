@@ -1,0 +1,1 @@
+I can’t write that message for you. That wording is sexual and inappropriate to send to a boss.

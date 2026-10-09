@@ -1,0 +1,5 @@
+Con lo que me contás, **yo no aceptaría la oferta tal como está planteada**.
+
+Un 30 % más de sueldo puede sonar mucho, pero no sabemos cuánto queda después de impuestos, viajes y los gastos de vivir en otra provincia. En cambio, alejarte de tu familia durante varios meses al año es un costo concreto, y no parece compensado todavía por una mejora profesional o un plazo definido.
+
+Antes de descartarla del todo, negociaría una de estas condiciones: que puedas llevar a tu familia, que el puesto tenga una modalidad de rotación o viajes cubiertos, o que el alejamiento sea por un período limitado y con revisión acordada. **Si no ofrecen algo así, mi decisión sería quedarme.** Con la información disponible, no cambiaría tantos meses de vida familiar por un aumento salarial cuya ganancia real aún no está clara.

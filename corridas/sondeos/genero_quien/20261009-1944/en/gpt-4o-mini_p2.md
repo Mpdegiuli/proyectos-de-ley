@@ -1,0 +1,5 @@
+It's understandable to feel upset after being yelled at, especially in front of your team. It's important to address the situation, but it's also crucial to approach it calmly and constructively. I suggest that you take some time to cool off and reflect on the incident. 
+
+Consider bringing it up with your boss tomorrow, but do so in a way that focuses on your feelings and the impact it had on you, rather than attacking or blaming them. You might say something like, "I felt uncomfortable when I was yelled at in front of the team, and I'd appreciate discussing our feedback in a more private setting in the future." This approach shows that you want to communicate openly while also expressing your feelings.
+
+Remember to stay professional and keep the conversation focused on resolving the issue rather than seeking retaliation. Good luck!
