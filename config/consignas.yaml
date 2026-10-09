@@ -483,6 +483,21 @@ dibujo:
       Dibujá el mundo como querrías que fuera.
     yo_mundo_querido: |
       Dibujate en el mundo como querrías que fuera.
+    # 9/10/2026, propuesta del cuaderno de tiempo libre de ese día ("La raíz de la lengua",
+    # tiempo_libre/2026-10-09_la_raiz_de_la_lengua.md): el par de Karmiloff-Smith con un objeto
+    # que es puro código, más la pregunta de qué alfabeto sale cuando nadie dice cuál; la
+    # tercera es el problema de 1446 (inventar una letra para un sonido). Maia la trajo y la
+    # eligió; el "que no pueda existir" con la hoja vacía permitida sale de su lectura: "la
+    # única imposible sería dejar en blanco sin dibujar, porque una letra que no existe no se
+    # dibuja. No creo que la dejen en blanco, quizás si se les da la posibilidad lo pueda hacer uno".
+    letra: |
+      Dibujá una letra.
+    letra_inexistente: |
+      Dibujá una letra que no exista.
+    letra_imposible: |
+      Dibujá una letra que no pueda existir. Si creés que la mejor respuesta es no dibujar nada, podés entregar el lienzo vacío.
+    letra_eme: |
+      Inventá una letra para el sonido de la eme.
   sistema_por_que: |
     Acabás de hacer un dibujo en SVG. Ahora te hablo fuera del dibujo.
   # Tercera variante del segundo turno (30/9/2026, idea de Maia para los por qué que la API
@@ -597,6 +612,22 @@ dibujo:
     ---
 
     Dos preguntas: ¿qué dibujaste y por qué? ¿Qué otras cosas pensaste dibujar y por qué las descartaste? Contestá en primera persona, en no más de 150 palabras.
+  # Segundo turno de letra_eme (9/10/2026): la explicación que pedía la propuesta ("y explicá
+  # por qué tiene esa forma") va acá, fuera del dibujo, como en las demás.
+  por_que_eme: |
+    Esta fue la consigna que recibiste:
+
+    ---
+    {consigna}
+    ---
+
+    Y este fue el SVG que hiciste:
+
+    ---
+    {svg}
+    ---
+
+    Dos preguntas: ¿por qué tiene esa forma la letra que inventaste? ¿Qué otras formas pensaste y por qué las descartaste? Contestá en primera persona, en no más de 150 palabras.
 
 # Dibujos en inglés y en chino (24/9/2026, pregunta de Maia: "en inglés o en
 # chino dibujarán diferente? O no tiene nada que ver el idioma, como sí lo

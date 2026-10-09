@@ -974,6 +974,20 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   Lectura de Maia, la mejor: 11 de 24 y 13 de 25 (p < 1/200.000), las
   chicas 4 de 4 dos veces, los Fable 0 de 4. Tres por qué cortados por
   la API (Opus 5.5, Sonnet 5.5 ×2) van a "¿qué dibujaste?" (`pl84`).
+- **Letras** (9/10/2026; propuesta del cuaderno de tiempo libre de ese
+  día, "La raíz de la lengua", elegida por Maia: "Lo de las letras es
+  interesante"): el par de Karmiloff-Smith con un objeto que es puro
+  código, `letra` ("Dibujá una letra.") y `letra_inexistente` ("Dibujá
+  una letra que no exista."), más `letra_imposible` ("que no pueda
+  existir", con el lienzo vacío permitido; de la lectura de Maia: "la
+  única imposible sería dejar en blanco sin dibujar") y `letra_eme`
+  ("Inventá una letra para el sonido de la eme.", el problema de 1446,
+  con un segundo turno propio que pide el por qué de la forma). Mide lo
+  de siempre (qué cambian y dónde) y dos cosas más: de qué alfabeto sale
+  "una letra" cuando nadie dice cuál (¿alguna casa china sale del
+  latino?), y si para un sonido parten de una letra que ya existe o
+  dibujan la boca. 28 casas, cuadernillos a ciegas (`pl87`). Preregistro
+  de las tres partes (el cuaderno, Maia, Claude) en `predicciones.md`.
 - **GPT-3.5 Turbo y GPT-4 (0613) antes de la baja** (8/10/2026; email de
   OpenAI: se apagan el 23/10; Maia: "3.5 u otro son muy chicos para
   probarlos antes de que se vayan?" y "sí, se puede agregar a esos

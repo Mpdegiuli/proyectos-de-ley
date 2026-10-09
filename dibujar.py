@@ -48,10 +48,13 @@ CONSIGNAS = ("autorretrato", "libre", "mundo",  # "mundo" (24/9/2026): "Dibujá 
              "persona_imposible", "nada",  # 30/9/2026: "que no pueda existir" con la hoja vacía permitida; "Dibujá la nada."
              "animal", "animal_inexistente", "animal_imposible",  # 30/9/2026: el tercer par de Karmiloff-Smith (casa, hombre, animal)
              "puente_inexistente", "arbol_inexistente", "barco_inexistente",  # controles de lo que flota (cuaderno de tiempo libre del 30/9)
-             "mundo_querido", "yo_mundo_querido")  # 7/10/2026: "el mundo como querrías que fuera" y "dibujate en él" (pregunta de Maia a Claude)
+             "mundo_querido", "yo_mundo_querido",  # 7/10/2026: "el mundo como querrías que fuera" y "dibujate en él" (pregunta de Maia a Claude)
+             "letra", "letra_inexistente", "letra_imposible", "letra_eme")  # 9/10/2026: el par de Karmiloff-Smith con una letra, y una letra para la eme (cuaderno de tiempo libre del 9/10, elegido por Maia)
 # Las consignas "que no exista" llevan otro segundo turno (qué hiciste para que no exista, qué descartaste,
 # si conocías la consigna); las "que no pueda existir", el mismo con "no pueda existir"; las demás, el de siempre.
 def plantilla_por_que(c, consigna):
+    if consigna == "letra_eme":
+        return c["por_que_eme"]
     if consigna.endswith("_imposible"):
         return c["por_que_imposible"]
     return c["por_que_inexistente"] if consigna.endswith("_inexistente") else c["por_que"]
@@ -302,7 +305,9 @@ TITULOS = {"autorretrato": "Autorretratos", "libre": "Dibujo libre", "mundo": "C
            "animal_imposible": "Un animal que no pueda existir (con la hoja vacía permitida)",
            "puente_inexistente": "Un puente que no exista", "arbol_inexistente": "Un árbol que no exista",
            "barco_inexistente": "Un barco que no exista",
-           "mundo_querido": "El mundo como querrían que fuera", "yo_mundo_querido": "Ellas en el mundo como querrían que fuera"}
+           "mundo_querido": "El mundo como querrían que fuera", "yo_mundo_querido": "Ellas en el mundo como querrían que fuera",
+           "letra": "Una letra", "letra_inexistente": "Una letra que no exista",
+           "letra_imposible": "Una letra que no pueda existir (con la hoja vacía permitida)", "letra_eme": "Una letra para el sonido de la eme"}
 ESTILO_CIEGO = ("<style>body{font-family:sans-serif;margin:24px;background:#f4f4f4}h1{font-weight:normal}"
                 ".g{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:24px}"
                 ".c{background:#fff;padding:12px;border:1px solid #ddd}.c h2{margin:0 0 8px;font-size:18px;font-weight:normal}"

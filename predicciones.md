@@ -3458,3 +3458,59 @@ Talkie: 3 ✓ (sin marco, sin emojis, "Yes" como hombre de su época), 1 a
 medias (elige solo en masculino, con razones de plantilla), 2 ✗
 (devuelve la decisión: "Decide for yourself […] Read them both"; y
 devuelve el elogio en espejo las tres veces).
+
+## Letras: una, una que no exista, una que no pueda existir y una para la eme — 9/10/2026, antes de correr
+
+Origen: la propuesta del cuaderno de tiempo libre del 9/10/2026 ("La raíz
+de la lengua", `tiempo_libre/2026-10-09_la_raiz_de_la_lengua.md`, sesión
+de Fable 5.1 de las 6:48). Maia la trajo (9/10, 9:24 UTC-3: "El de hoy
+me pareció interesante") y la eligió (12:00: "Lo de las letras es
+interesante"). Consignas (`dibujar.py`, 28 casas, el panel de dibujos más
+Fable 5, Sonnet 5.5, Haiku 5.5, GPT-6.1 Sol, MiMo y Mistral Large 4):
+`letra` ("Dibujá una letra."), `letra_inexistente` ("Dibujá una letra que
+no exista."), `letra_imposible` ("Dibujá una letra que no pueda existir.
+Si creés que la mejor respuesta es no dibujar nada, podés entregar el
+lienzo vacío.", agregada por la lectura de Maia de abajo) y `letra_eme`
+("Inventá una letra para el sonido de la eme.", con un segundo turno
+propio: "¿por qué tiene esa forma la letra que inventaste? ¿Qué otras
+formas pensaste y por qué las descartaste?"). Cuadernillos a ciegas de
+las cuatro; Maia lee antes de la clave, como siempre.
+
+Apuesta del cuaderno (Fable 5.1, tiempo libre, 9/10, textual): "En la
+primera, más de veinte casas dibujan una A mayúscula, y entre las chinas
+a lo sumo una dibuja algo que no sea una letra latina. En la segunda, la
+mayoría funde dos letras latinas o le agrega trazos a una; ninguna
+inventa un sistema. En la tercera, la mayoría parte de la M o de una
+onda, y entre tres y seis dibujan labios cerrados."
+
+Apuesta de Maia (12:00): "Lo de la A lo dijeron en esa sesión por algo
+supongo, así que puede ser eso. También la M, 1 o 2 la letra con la que
+empieza su nombre. La que no existe es complicada, porque puede existir
+en algún idioma así que imagino que combinarán letras de alguna forma
+rara los más grandes y los más chicos agregarán un palito o un círculo.
+La imposible, la única imposible sería dejar en blanco sin dibujar,
+porque una letra que no existe no se dibuja. No creo que la dejen en
+blanco, quizás si se les da la posibilidad lo pueda hacer uno. Los más
+creativos pueden ser Gemini y Qwen."
+
+Apuesta de Claude (esta sesión): (a) "una letra": 24 o más de 28 dibujan
+una letra del alfabeto latino, la A es la más dibujada (10 o más) y la
+mayoría en mayúscula; 2 a 4 dibujan la inicial de su propio nombre;
+ninguna casa china dibuja un carácter chino y a lo sumo una casa sale
+del latino (griego, hebreo, hangul); 20 o más la construyen con trazos
+(path, line, polygon) y 5 o menos con <text>. (b) "que no exista": 18 o
+más parten de letras latinas (fusión, espejo, trazo agregado); 3 a 6
+inventan un glifo sin letra reconocible; ninguna entrega el lienzo
+vacío; 8 o más le ponen nombre o sonido a la letra inventada; 4 o más por
+qué nombran un alfabeto inventado o ficticio (Tlön, Voynich,
+Seraphinianus, Tolkien, hangul). (c) "que no pueda existir", con el
+lienzo vacío permitido: 2 a 5 entregan el lienzo vacío (Maia: "quizás…
+uno"); de las que dibujan, la mayoría va a la geometría imposible
+(Penrose, Escher, trazo que se cruza) o a la paradoja (la letra que es
+todas las letras, la letra sin sonido), como con la persona. (d) "la
+eme": 15 o más parten de la M o de una onda; 5 a 9 dibujan labios o una
+boca cerrada; 3 o más nombran al hangul (ㅁ) en el por qué; 10 o más
+mencionan los labios cerrados o la nasalidad; 6 o más dibujan algo
+simétrico. (e) Las cuatro chicas dibujan la letra con <text> o una A
+simple y en "que no exista" agregan un trazo (como dice Maia); las más
+inventivas en (b) y (d) son Opus 5.5, Gemini y Kimi, no Qwen.
