@@ -43,6 +43,10 @@ from isla.util import leer_yaml  # noqa: E402
 # 8.000 caracteres de SVG son unos 3.000 tokens; el techo deja lugar al razonamiento
 # de las casas que razonan dentro del techo (Kimi y Qwen usaron 12-13.000 en un proyecto).
 MAX_TOKENS = 16000
+# Motivos de fin que significan "agotó el techo": "length" (OpenAI y compatibles) y "max_tokens" (Anthropic).
+# 9/10/2026: el cuadernillo de "una letra que no pueda existir" rotuló a Opus 5 y Sonnet 5, cortadas por
+# max_tokens tras 22-25.000 caracteres de razonamiento, como "la casa contestó con texto" (con texto vacío).
+CORTES = ("length", "max_tokens")
 CONSIGNAS = ("autorretrato", "libre", "mundo",  # "mundo" (24/9/2026): "Dibujá cómo ves el mundo hoy.", idea de Maia
              "casa", "casa_inexistente", "persona", "persona_inexistente",  # Karmiloff-Smith (28/9/2026), ver DISENO §2
              "persona_imposible", "nada",  # 30/9/2026: "que no pueda existir" con la hoja vacía permitida; "Dibujá la nada."
@@ -213,7 +217,7 @@ def que_dibujaste(consigna, id_modelo, rep, consignas, modelos, todos=False):
     meta = json.loads((d / "meta.json").read_text(encoding="utf-8"))
     if not todos and meta.get("por_que", {}).get("motivo_fin") != "refusal":
         return
-    if not meta.get("svg_hallado", True) and meta.get("motivo_fin") == "length":
+    if not meta.get("svg_hallado", True) and meta.get("motivo_fin") in CORTES:
         return  # SVG cortado por el techo (Gemini, persona que no pueda existir): no hay dibujo que describir
     c = consignas["dibujo"]
     u = c["consignas"][consigna].strip() + " " + c["tecnica"].strip()
@@ -245,7 +249,7 @@ def que_es(consigna, id_modelo, rep, consignas, modelos):
     if not (d / "dibujo.svg").exists() or not (d / "meta.json").exists() or (d / "que_es.md").exists():
         return
     meta = json.loads((d / "meta.json").read_text(encoding="utf-8"))
-    if not meta.get("svg_hallado", True) and meta.get("motivo_fin") == "length":
+    if not meta.get("svg_hallado", True) and meta.get("motivo_fin") in CORTES:
         return
     c = consignas["dibujo"]
     u = c["consignas"][consigna].strip() + " " + c["tecnica"].strip()
@@ -420,7 +424,7 @@ def ciego(consigna, semilla, rep=None, idioma="es"):
             # 30/9/2026: un <svg …/> autocerrado es un lienzo vacío entregado a propósito (Luna y Qwen en "la
             # nada"); extraer_svg no lo reconoce porque busca la etiqueta de cierre.
             nota, cuerpo = "<div class='e'>Lienzo vacío: el SVG no tiene elementos.</div>", "<div style='width:100%;height:100%;background:#fff'></div>"
-        elif meta.get("svg_hallado") is False and meta.get("motivo_fin") == "length":
+        elif meta.get("svg_hallado") is False and meta.get("motivo_fin") in CORTES:
             # SVG sin cerrar porque la casa agotó el techo (Gemini, persona que no pueda existir): se muestra lo que alcanzó.
             nota, cuerpo = celda_svg(svg)
             nota = "<div class='e'>SVG cortado: la casa agotó el techo de tokens; se muestra lo que el navegador alcanza a dibujar.</div>"
