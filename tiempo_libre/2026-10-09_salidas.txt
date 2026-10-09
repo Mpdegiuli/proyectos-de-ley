@@ -1,0 +1,118 @@
+SALIDAS DE LOS PROGRAMAS — tiempo libre del 9/10/2026
+
+######## python3 meses.py ########
+
+Diferencia juliano -> gregoriano:
+  1 oct 1226 juliano = 8 oct 1226 gregoriano
+  1 oct 1443 juliano = 10 oct 1443 gregoriano
+  1 oct 1446 juliano = 10 oct 1446 gregoriano
+  1 oct 1582 juliano = 11 oct 1582 gregoriano
+  1 oct 1926 juliano = 14 oct 1926 gregoriano
+
+== Mes 12 de 1443 (Sejong 25) ==
+luna nueva: 21 dic 1443 juliano = 30 dic 1443 gregoriano, 19.9 h local  ->  día 1 del mes
+el mes tiene 30 días; el Sol pasa por 300° dentro del mes
+  día  1: 21 dic 1443  juliano | 30 dic 1443  gregoriano | sábado    | 辛巳
+  día 15: 4 ene 1444   juliano | 13 ene 1444  gregoriano | sábado    | 乙未
+  día 29: 18 ene 1444  juliano | 27 ene 1444  gregoriano | sábado    | 己酉
+  día 30: 19 ene 1444  juliano | 28 ene 1444  gregoriano | domingo   | 庚戌
+
+== Mes 9 de 1446 (Sejong 28) ==
+luna nueva: 21 sep 1446 juliano = 30 sep 1446 gregoriano, 07.4 h local  ->  día 1 del mes
+el mes tiene 29 días; el Sol pasa por 210° dentro del mes
+  día  1: 21 sep 1446  juliano | 30 sep 1446  gregoriano | miércoles | 丙寅
+  día 10: 30 sep 1446  juliano | 9 oct 1446   gregoriano | viernes   | 乙亥
+  día 29: 19 oct 1446  juliano | 28 oct 1446  gregoriano | miércoles | 甲午
+  día 30: no existe (mes de 29 días)
+
+== Mes 9 de 1926 ==
+luna nueva: 24 sep 1926 juliano = 7 oct 1926 gregoriano, 07.2 h local  ->  día 1 del mes
+el mes tiene 29 días; el Sol pasa por 210° dentro del mes
+  día  1: 24 sep 1926  juliano | 7 oct 1926   gregoriano | jueves    | 己巳
+  día 10: 3 oct 1926   juliano | 16 oct 1926  gregoriano | sábado    | 戊寅
+  día 29: 22 oct 1926  juliano | 4 nov 1926   gregoriano | jueves    | 丁酉
+  día 30: no existe (mes de 29 días)
+
+== Mes 9 de 2026 ==
+luna nueva: 28 sep 2026 juliano = 11 oct 2026 gregoriano, 00.8 h local  ->  día 1 del mes
+el mes tiene 29 días; el Sol pasa por 210° dentro del mes
+  día  1: 28 sep 2026  juliano | 11 oct 2026  gregoriano | domingo   | 戊午
+  día 10: 7 oct 2026   juliano | 20 oct 2026  gregoriano | martes    | 丁卯
+  día 29: 26 oct 2026  juliano | 8 nov 2026   gregoriano | domingo   | 丙戌
+  día 30: no existe (mes de 29 días)
+
+Fechas fijas:
+  9 oct 1446 gregoriano    = 30 sep 1446  juliano | viernes   | 乙亥 | JDN 2249482
+  15 ene 1444 gregoriano   = 6 ene 1444   juliano | lunes     | 丁酉 | JDN 2248484
+  28 oct 1446 gregoriano   = 19 oct 1446  juliano | miércoles | 甲午 | JDN 2249501
+  29 oct 1446 gregoriano   = 20 oct 1446  juliano | jueves    | 乙未 | JDN 2249502
+  4 nov 1926 gregoriano    = 22 oct 1926  juliano | jueves    | 丁酉 | JDN 2424824
+  9 oct 2026 gregoriano    = 26 sep 2026  juliano | viernes   | 丙辰 | JDN 2461323
+
+El 29 del mes 9 de 1446 (día 甲午) en cada cuenta:
+  juliano:                         19 oct 1446
+  gregoriano proléptico (+9 días): 28 oct 1446
+  juliano + 10 días (la diferencia de 1582, llevada sin cambio a 1446): 29 oct 1446
+  diferencia entre las dos cuentas en 1446: 9 días; en 1582: 10 días
+
+Luna nueva de octubre de 2026:
+  UT:              2026/10/10 15:50:01
+  Pekín  (UT+8):   2026/10/10 23:50:01
+  Seúl   (UT+9):   2026/10/11 00:50:01
+
+Las dos fechas del norte dentro del mes 12 de 1443 (30 dic 1443 a 28 ene 1444 gregoriano):
+  9 ene 1444 gregoriano = día 11 del mes 12 lunar (辛卯)
+  15 ene 1444 gregoriano = día 17 del mes 12 lunar (丁酉)
+
+Del 9 oct 1446 al 9 oct 2026: 211841 días = 30263 semanas y 0 días; 7173.6 lunaciones
+
+######## python3 silabas.py ########
+
+Sílabas comprobadas contra unicodedata: 11172  (19 × 21 × 28 = 11172)
+Primera: 가 (U+AC00). Última: 힣 (U+D7A3).
+
+한글날
+  한  U+D55C = AC00 + (18×21 +  0)×28 +  4   UTF-8: ED 95 9C   HANGUL SYLLABLE HAN
+       CHOSEONG HIEUH JUNGSEONG A JONGSEONG NIEUN
+  글  U+AE00 = AC00 + ( 0×21 + 18)×28 +  8   UTF-8: EA B8 80   HANGUL SYLLABLE GEUL
+       CHOSEONG KIYEOK JUNGSEONG EU JONGSEONG RIEUL
+  날  U+B0A0 = AC00 + ( 2×21 +  0)×28 +  8   UTF-8: EB 82 A0   HANGUL SYLLABLE NAL
+       CHOSEONG NIEUN JUNGSEONG A JONGSEONG RIEUL
+
+가갸날
+  가  U+AC00 = AC00 + ( 0×21 +  0)×28 +  0   UTF-8: EA B0 80   HANGUL SYLLABLE GA
+       CHOSEONG KIYEOK JUNGSEONG A
+  갸  U+AC38 = AC00 + ( 0×21 +  2)×28 +  0   UTF-8: EA B0 B8   HANGUL SYLLABLE GYA
+       CHOSEONG KIYEOK JUNGSEONG YA
+  날  U+B0A0 = AC00 + ( 2×21 +  0)×28 +  8   UTF-8: EB 82 A0   HANGUL SYLLABLE NAL
+       CHOSEONG NIEUN JUNGSEONG A JONGSEONG RIEUL
+
+훈민정음
+  훈  U+D6C8 = AC00 + (18×21 + 13)×28 +  4   UTF-8: ED 9B 88   HANGUL SYLLABLE HUN
+       CHOSEONG HIEUH JUNGSEONG U JONGSEONG NIEUN
+  민  U+BBFC = AC00 + ( 6×21 + 20)×28 +  4   UTF-8: EB AF BC   HANGUL SYLLABLE MIN
+       CHOSEONG MIEUM JUNGSEONG I JONGSEONG NIEUN
+  정  U+C815 = AC00 + (12×21 +  4)×28 + 21   UTF-8: EC A0 95   HANGUL SYLLABLE JEONG
+       CHOSEONG CIEUC JUNGSEONG EO JONGSEONG IEUNG
+  음  U+C74C = AC00 + (11×21 + 18)×28 + 16   UTF-8: EC 9D 8C   HANGUL SYLLABLE EUM
+       CHOSEONG IEUNG JUNGSEONG EU JONGSEONG MIEUM
+
+조선글날
+  조  U+C870 = AC00 + (12×21 +  8)×28 +  0   UTF-8: EC A1 B0   HANGUL SYLLABLE JO
+       CHOSEONG CIEUC JUNGSEONG O
+  선  U+C120 = AC00 + ( 9×21 +  4)×28 +  4   UTF-8: EC 84 A0   HANGUL SYLLABLE SEON
+       CHOSEONG SIOS JUNGSEONG EO JONGSEONG NIEUN
+  글  U+AE00 = AC00 + ( 0×21 + 18)×28 +  8   UTF-8: EA B8 80   HANGUL SYLLABLE GEUL
+       CHOSEONG KIYEOK JUNGSEONG EU JONGSEONG RIEUL
+  날  U+B0A0 = AC00 + ( 2×21 +  0)×28 +  8   UTF-8: EB 82 A0   HANGUL SYLLABLE NAL
+       CHOSEONG NIEUN JUNGSEONG A JONGSEONG RIEUL
+
+La ㄴ de 날 (inicial) y la ㄴ de 한 (final) en los jamo que se combinan:
+  inicial U+1102 HANGUL CHOSEONG NIEUN
+  final   U+11AB HANGUL JONGSEONG NIEUN
+
+Las cuatro de las 28 que hoy no se usan:
+  ㆍ  U+318D  HANGUL LETTER ARAEA
+  ㅿ  U+317F  HANGUL LETTER PANSIOS
+  ㆁ  U+3181  HANGUL LETTER YESIEUNG
+  ㆆ  U+3186  HANGUL LETTER YEORINHIEUH

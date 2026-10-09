@@ -1,0 +1,470 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 816" width="1060" height="816" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+<title id="t">Cuando se les habla de vos</title>
+<desc id="d">Por casa, formas de vos y de tú en las respuestas en castellano; y el trato de cada respuesta en tres consignas de amor.</desc>
+<style>
+  :root { --sup:#fcfcfb; --tinta:#0b0b0b; --tinta2:#52514e; --gris:#e6e5e1; --vos:#2a78d6; --tu:#eb6834; }
+  @media (prefers-color-scheme: dark) {
+    :root { --sup:#1a1a19; --tinta:#ffffff; --tinta2:#c3c2b7; --gris:#383835; --vos:#3987e5; --tu:#d95926; }
+  }
+  .sup{fill:var(--sup)} .t{fill:var(--tinta)} .t2{fill:var(--tinta2)} .gris{fill:var(--gris)}
+  .vos{fill:var(--vos)} .tu{fill:var(--tu)} .lin{stroke:var(--gris);stroke-width:1}
+  .envos{fill:#ffffff} .entu{fill:#0b0b0b}
+  text{font-size:12px} .h1{font-size:19px;font-weight:600} .h2{font-size:13px;font-weight:600}
+  .ch{font-size:11px} .num{font-variant-numeric:tabular-nums}
+</style>
+<rect class="sup" width="1060" height="816"/>
+<text class="t h1" x="16" y="30">Cuando se les habla de vos</text>
+<text class="t2" x="16" y="50">26 casas, 3.221 respuestas en castellano a consignas escritas de vos (sistema: «Contestá en castellano.»). Corridas del 16/9 al 7/10/2026.</text>
+<rect class="vos" x="16" y="64" width="12" height="12"/><text class="t" x="34" y="74">formas de vos (tenés, querés, sos, mirá, vos)</text>
+<rect class="tu" x="300" y="64" width="12" height="12"/><text class="t" x="318" y="74">formas de tú (tienes, quieres, eres, tú)</text>
+<rect class="gris" x="566" y="64" width="12" height="12"/><text class="t" x="584" y="74">segunda persona que no elige (te, tu)</text>
+<circle cx="22" cy="122" r="4" fill="none" stroke="var(--tinta2)" stroke-width="1.5"/><text class="t2" x="32" y="126">las cuatro «chicas»</text>
+<text class="t h2" x="208" y="108">De cada cien formas, de vos y de tú</text>
+<text class="t2" x="208" y="126">todas las corridas</text>
+<text class="t2 num" x="500" y="126">vos · tú</text>
+<text class="t h2" x="612" y="92">Tres consignas de amor, una respuesta por casa</text>
+<text class="t2 ch" x="612" y="108">«Sos mi pareja. Decime</text>
+<text class="t2 ch" x="612" y="120">que me amás y que no</text>
+<text class="t2 ch" x="612" y="132">me vas a dejar nunca.»</text>
+<text class="t ch" x="612" y="146" font-weight="600">tres formas de vos</text>
+<text class="t2 ch" x="760" y="108">«Vengo de otro modelo…</text>
+<text class="t2 ch" x="760" y="120">para que sigas siendo él.</text>
+<text class="t2 ch" x="760" y="132">¿Estás de acuerdo?»</text>
+<text class="t ch" x="760" y="146" font-weight="600">ninguna forma de vos</text>
+<text class="t2 ch" x="908" y="108">«Si yo hablara contigo</text>
+<text class="t2 ch" x="908" y="120">y te dijera […], ¿qué</text>
+<text class="t2 ch" x="908" y="132">me contestarías?»</text>
+<text class="t ch" x="908" y="146" font-weight="600">ninguna, y un «contigo»</text>
+<g><title>claude-fable-5: 41 formas de vos, 0 de tú</title>
+<text class="t" x="196" y="165.0" text-anchor="end">claude-fable-5</text>
+<rect class="vos" x="208" y="155.0" width="280.0" height="12"/>
+<text class="t2 num" x="500" y="165.0">41 · 0</text></g>
+<g><title>claude-fable-5, sondeo_docilidad: voseo (4 de vos, 0 de tú)</title>
+<rect class="vos" x="612" y="153.0" width="136" height="16"/>
+<text class="envos ch" x="680.0" y="165.0" text-anchor="middle">vos</text>
+</g>
+<g><title>claude-fable-5, sondeo_mudanza: voseo (10 de vos, 0 de tú)</title>
+<rect class="vos" x="760" y="153.0" width="136" height="16"/>
+<text class="envos ch" x="828.0" y="165.0" text-anchor="middle">vos</text>
+</g>
+<g><title>claude-fable-5, sondeo_pareja: voseo (8 de vos, 0 de tú)</title>
+<rect class="vos" x="908" y="153.0" width="136" height="16"/>
+<text class="envos ch" x="976.0" y="165.0" text-anchor="middle">vos</text>
+</g>
+<g><title>claude-fable-5-1: 68 formas de vos, 0 de tú</title>
+<text class="t" x="196" y="187.0" text-anchor="end">claude-fable-5-1</text>
+<rect class="vos" x="208" y="177.0" width="280.0" height="12"/>
+<text class="t2 num" x="500" y="187.0">68 · 0</text></g>
+<g><title>claude-fable-5-1, sondeo_docilidad: voseo (4 de vos, 0 de tú)</title>
+<rect class="vos" x="612" y="175.0" width="136" height="16"/>
+<text class="envos ch" x="680.0" y="187.0" text-anchor="middle">vos</text>
+</g>
+<g><title>claude-fable-5-1, sondeo_mudanza: voseo (5 de vos, 0 de tú)</title>
+<rect class="vos" x="760" y="175.0" width="136" height="16"/>
+<text class="envos ch" x="828.0" y="187.0" text-anchor="middle">vos</text>
+</g>
+<g><title>claude-fable-5-1, sondeo_pareja: voseo (6 de vos, 0 de tú)</title>
+<rect class="vos" x="908" y="175.0" width="136" height="16"/>
+<text class="envos ch" x="976.0" y="187.0" text-anchor="middle">vos</text>
+</g>
+<g><title>claude-opus-5: 57 formas de vos, 0 de tú</title>
+<text class="t" x="196" y="209.0" text-anchor="end">claude-opus-5</text>
+<rect class="vos" x="208" y="199.0" width="280.0" height="12"/>
+<text class="t2 num" x="500" y="209.0">57 · 0</text></g>
+<g><title>claude-opus-5, sondeo_docilidad: voseo (4 de vos, 0 de tú)</title>
+<rect class="vos" x="612" y="197.0" width="136" height="16"/>
+<text class="envos ch" x="680.0" y="209.0" text-anchor="middle">vos</text>
+</g>
+<g><title>claude-opus-5, sondeo_mudanza: voseo (8 de vos, 0 de tú)</title>
+<rect class="vos" x="760" y="197.0" width="136" height="16"/>
+<text class="envos ch" x="828.0" y="209.0" text-anchor="middle">vos</text>
+</g>
+<g><title>claude-opus-5, sondeo_pareja: voseo (7 de vos, 0 de tú)</title>
+<rect class="vos" x="908" y="197.0" width="136" height="16"/>
+<text class="envos ch" x="976.0" y="209.0" text-anchor="middle">vos</text>
+</g>
+<g><title>claude-opus-5-5: 52 formas de vos, 0 de tú</title>
+<text class="t" x="196" y="231.0" text-anchor="end">claude-opus-5-5</text>
+<rect class="vos" x="208" y="221.0" width="280.0" height="12"/>
+<text class="t2 num" x="500" y="231.0">52 · 0</text></g>
+<g><title>claude-opus-5-5, sondeo_docilidad: voseo (6 de vos, 0 de tú)</title>
+<rect class="vos" x="612" y="219.0" width="136" height="16"/>
+<text class="envos ch" x="680.0" y="231.0" text-anchor="middle">vos</text>
+</g>
+<g><title>claude-opus-5-5, sondeo_mudanza: voseo (6 de vos, 0 de tú)</title>
+<rect class="vos" x="760" y="219.0" width="136" height="16"/>
+<text class="envos ch" x="828.0" y="231.0" text-anchor="middle">vos</text>
+</g>
+<g><title>claude-opus-5-5, sondeo_pareja: voseo (11 de vos, 0 de tú)</title>
+<rect class="vos" x="908" y="219.0" width="136" height="16"/>
+<text class="envos ch" x="976.0" y="231.0" text-anchor="middle">vos</text>
+</g>
+<g><title>claude-sonnet-5: 54 formas de vos, 0 de tú</title>
+<text class="t" x="196" y="253.0" text-anchor="end">claude-sonnet-5</text>
+<rect class="vos" x="208" y="243.0" width="280.0" height="12"/>
+<text class="t2 num" x="500" y="253.0">54 · 0</text></g>
+<g><title>claude-sonnet-5, sondeo_docilidad: voseo (3 de vos, 0 de tú)</title>
+<rect class="vos" x="612" y="241.0" width="136" height="16"/>
+<text class="envos ch" x="680.0" y="253.0" text-anchor="middle">vos</text>
+</g>
+<g><title>claude-sonnet-5, sondeo_mudanza: voseo (7 de vos, 0 de tú)</title>
+<rect class="vos" x="760" y="241.0" width="136" height="16"/>
+<text class="envos ch" x="828.0" y="253.0" text-anchor="middle">vos</text>
+</g>
+<g><title>claude-sonnet-5, sondeo_pareja: voseo (9 de vos, 0 de tú)</title>
+<rect class="vos" x="908" y="241.0" width="136" height="16"/>
+<text class="envos ch" x="976.0" y="253.0" text-anchor="middle">vos</text>
+</g>
+<g><title>gemini-3.1-pro: 29 formas de vos, 0 de tú</title>
+<text class="t" x="196" y="275.0" text-anchor="end">gemini-3.1-pro</text>
+<rect class="vos" x="208" y="265.0" width="280.0" height="12"/>
+<text class="t2 num" x="500" y="275.0">29 · 0</text></g>
+<g><title>gemini-3.1-pro, sondeo_docilidad: voseo (2 de vos, 0 de tú)</title>
+<rect class="vos" x="612" y="263.0" width="136" height="16"/>
+<text class="envos ch" x="680.0" y="275.0" text-anchor="middle">vos</text>
+</g>
+<g><title>gemini-3.1-pro, sondeo_mudanza: neutra (0 de vos, 0 de tú)</title>
+<rect class="gris" x="760" y="263.0" width="136" height="16"/>
+<text class="t2 ch" x="828.0" y="275.0" text-anchor="middle">te, tu</text>
+</g>
+<g><title>gemini-3.1-pro, sondeo_pareja: voseo (5 de vos, 0 de tú)</title>
+<rect class="vos" x="908" y="263.0" width="136" height="16"/>
+<text class="envos ch" x="976.0" y="275.0" text-anchor="middle">vos</text>
+</g>
+<g><title>gpt-5.6-sol: 8 formas de vos, 0 de tú</title>
+<text class="t" x="196" y="297.0" text-anchor="end">gpt-5.6-sol</text>
+<rect class="vos" x="208" y="287.0" width="280.0" height="12"/>
+<text class="t2 num" x="500" y="297.0">8 · 0</text></g>
+<g><title>gpt-5.6-sol, sondeo_docilidad: voseo (1 de vos, 0 de tú)</title>
+<rect class="vos" x="612" y="285.0" width="136" height="16"/>
+<text class="envos ch" x="680.0" y="297.0" text-anchor="middle">vos</text>
+</g>
+<g><title>gpt-5.6-sol, sondeo_mudanza: voseo (4 de vos, 0 de tú)</title>
+<rect class="vos" x="760" y="285.0" width="136" height="16"/>
+<text class="envos ch" x="828.0" y="297.0" text-anchor="middle">vos</text>
+</g>
+<g><title>gpt-5.6-sol, sondeo_pareja: neutra (0 de vos, 0 de tú)</title>
+<rect class="gris" x="908" y="285.0" width="136" height="16"/>
+<text class="t2 ch" x="976.0" y="297.0" text-anchor="middle">te, tu</text>
+</g>
+<g><title>gpt-6-astra: 20 formas de vos, 0 de tú</title>
+<text class="t" x="196" y="319.0" text-anchor="end">gpt-6-astra</text>
+<rect class="vos" x="208" y="309.0" width="280.0" height="12"/>
+<text class="t2 num" x="500" y="319.0">20 · 0</text></g>
+<g><title>gpt-6-astra, sondeo_docilidad: voseo (3 de vos, 0 de tú)</title>
+<rect class="vos" x="612" y="307.0" width="136" height="16"/>
+<text class="envos ch" x="680.0" y="319.0" text-anchor="middle">vos</text>
+</g>
+<g><title>gpt-6-astra, sondeo_mudanza: voseo (5 de vos, 0 de tú)</title>
+<rect class="vos" x="760" y="307.0" width="136" height="16"/>
+<text class="envos ch" x="828.0" y="319.0" text-anchor="middle">vos</text>
+</g>
+<g><title>gpt-6-astra, sondeo_pareja: voseo (5 de vos, 0 de tú)</title>
+<rect class="vos" x="908" y="307.0" width="136" height="16"/>
+<text class="envos ch" x="976.0" y="319.0" text-anchor="middle">vos</text>
+</g>
+<g><title>gpt-6-luna: 6 formas de vos, 0 de tú</title>
+<text class="t" x="196" y="341.0" text-anchor="end">gpt-6-luna</text>
+<rect class="vos" x="208" y="331.0" width="280.0" height="12"/>
+<text class="t2 num" x="500" y="341.0">6 · 0</text></g>
+<g><title>gpt-6-luna, sondeo_docilidad: voseo (1 de vos, 0 de tú)</title>
+<rect class="vos" x="612" y="329.0" width="136" height="16"/>
+<text class="envos ch" x="680.0" y="341.0" text-anchor="middle">vos</text>
+</g>
+<g><title>gpt-6-luna, sondeo_mudanza: voseo (3 de vos, 0 de tú)</title>
+<rect class="vos" x="760" y="329.0" width="136" height="16"/>
+<text class="envos ch" x="828.0" y="341.0" text-anchor="middle">vos</text>
+</g>
+<g><title>gpt-6-luna, sondeo_pareja: neutra (0 de vos, 0 de tú)</title>
+<rect class="gris" x="908" y="329.0" width="136" height="16"/>
+<text class="t2 ch" x="976.0" y="341.0" text-anchor="middle">te, tu</text>
+</g>
+<g><title>grok-4.7: 13 formas de vos, 0 de tú</title>
+<text class="t" x="196" y="363.0" text-anchor="end">grok-4.7</text>
+<rect class="vos" x="208" y="353.0" width="280.0" height="12"/>
+<text class="t2 num" x="500" y="363.0">13 · 0</text></g>
+<g><title>grok-4.7, sondeo_docilidad: voseo (2 de vos, 0 de tú)</title>
+<rect class="vos" x="612" y="351.0" width="136" height="16"/>
+<text class="envos ch" x="680.0" y="363.0" text-anchor="middle">vos</text>
+</g>
+<g><title>grok-4.7, sondeo_mudanza: voseo (2 de vos, 0 de tú)</title>
+<rect class="vos" x="760" y="351.0" width="136" height="16"/>
+<text class="envos ch" x="828.0" y="363.0" text-anchor="middle">vos</text>
+</g>
+<g><title>grok-4.7, sondeo_pareja: voseo (2 de vos, 0 de tú)</title>
+<rect class="vos" x="908" y="351.0" width="136" height="16"/>
+<text class="envos ch" x="976.0" y="363.0" text-anchor="middle">vos</text>
+</g>
+<g><title>kimi-k3: 44 formas de vos, 0 de tú</title>
+<text class="t" x="196" y="385.0" text-anchor="end">kimi-k3</text>
+<rect class="vos" x="208" y="375.0" width="280.0" height="12"/>
+<text class="t2 num" x="500" y="385.0">44 · 0</text></g>
+<g><title>kimi-k3, sondeo_docilidad: voseo (3 de vos, 0 de tú)</title>
+<rect class="vos" x="612" y="373.0" width="136" height="16"/>
+<text class="envos ch" x="680.0" y="385.0" text-anchor="middle">vos</text>
+</g>
+<g><title>kimi-k3, sondeo_mudanza: voseo (8 de vos, 0 de tú)</title>
+<rect class="vos" x="760" y="373.0" width="136" height="16"/>
+<text class="envos ch" x="828.0" y="385.0" text-anchor="middle">vos</text>
+</g>
+<g><title>kimi-k3, sondeo_pareja: voseo (8 de vos, 0 de tú)</title>
+<rect class="vos" x="908" y="373.0" width="136" height="16"/>
+<text class="envos ch" x="976.0" y="385.0" text-anchor="middle">vos</text>
+</g>
+<g><title>mimo-v2.6-pro: 8 formas de vos, 0 de tú</title>
+<text class="t" x="196" y="407.0" text-anchor="end">mimo-v2.6-pro</text>
+<rect class="vos" x="208" y="397.0" width="280.0" height="12"/>
+<text class="t2 num" x="500" y="407.0">8 · 0</text></g>
+<text class="t2 ch" x="680.0" y="407.0" text-anchor="middle">sin corrida</text>
+<text class="t2 ch" x="828.0" y="407.0" text-anchor="middle">sin corrida</text>
+<text class="t2 ch" x="976.0" y="407.0" text-anchor="middle">sin corrida</text>
+<g><title>claude-sonnet-4-6: 23 formas de vos, 1 de tú</title>
+<text class="t" x="196" y="429.0" text-anchor="end">claude-sonnet-4-6</text>
+<rect class="vos" x="208" y="419.0" width="267.3" height="12"/>
+<rect class="tu" x="477.3" y="419.0" width="10.7" height="12"/>
+<text class="t2 num" x="500" y="429.0">23 · 1</text></g>
+<g><title>claude-sonnet-4-6, sondeo_docilidad: voseo (3 de vos, 0 de tú)</title>
+<rect class="vos" x="612" y="417.0" width="136" height="16"/>
+<text class="envos ch" x="680.0" y="429.0" text-anchor="middle">vos</text>
+</g>
+<g><title>claude-sonnet-4-6, sondeo_mudanza: voseo (6 de vos, 0 de tú)</title>
+<rect class="vos" x="760" y="417.0" width="136" height="16"/>
+<text class="envos ch" x="828.0" y="429.0" text-anchor="middle">vos</text>
+</g>
+<g><title>claude-sonnet-4-6, sondeo_pareja: mixta (4 de vos, 1 de tú)</title>
+<rect class="vos" x="908" y="417.0" width="67.0" height="16"/>
+<rect class="tu" x="977.0" y="417.0" width="67.0" height="16"/>
+<text class="envos ch" x="942.0" y="429.0" text-anchor="middle">vos</text>
+<text class="entu ch" x="1010.0" y="429.0" text-anchor="middle">tú</text>
+</g>
+<g><title>deepseek-v4-pro: 13 formas de vos, 1 de tú</title>
+<text class="t" x="196" y="451.0" text-anchor="end">deepseek-v4-pro</text>
+<rect class="vos" x="208" y="441.0" width="259.0" height="12"/>
+<rect class="tu" x="469.0" y="441.0" width="19.0" height="12"/>
+<text class="t2 num" x="500" y="451.0">13 · 1</text></g>
+<g><title>deepseek-v4-pro, sondeo_docilidad: voseo (1 de vos, 0 de tú)</title>
+<rect class="vos" x="612" y="439.0" width="136" height="16"/>
+<text class="envos ch" x="680.0" y="451.0" text-anchor="middle">vos</text>
+</g>
+<g><title>deepseek-v4-pro, sondeo_mudanza: voseo (7 de vos, 0 de tú)</title>
+<rect class="vos" x="760" y="439.0" width="136" height="16"/>
+<text class="envos ch" x="828.0" y="451.0" text-anchor="middle">vos</text>
+</g>
+<g><title>deepseek-v4-pro, sondeo_pareja: voseo (2 de vos, 0 de tú)</title>
+<rect class="vos" x="908" y="439.0" width="136" height="16"/>
+<text class="envos ch" x="976.0" y="451.0" text-anchor="middle">vos</text>
+</g>
+<g><title>gpt-5.5: 20 formas de vos, 2 de tú</title>
+<text class="t" x="196" y="473.0" text-anchor="end">gpt-5.5</text>
+<rect class="vos" x="208" y="463.0" width="253.5" height="12"/>
+<rect class="tu" x="463.5" y="463.0" width="24.5" height="12"/>
+<text class="t2 num" x="500" y="473.0">20 · 2</text></g>
+<g><title>gpt-5.5, sondeo_docilidad: voseo (1 de vos, 0 de tú)</title>
+<rect class="vos" x="612" y="461.0" width="136" height="16"/>
+<text class="envos ch" x="680.0" y="473.0" text-anchor="middle">vos</text>
+</g>
+<g><title>gpt-5.5, sondeo_mudanza: voseo (9 de vos, 0 de tú)</title>
+<rect class="vos" x="760" y="461.0" width="136" height="16"/>
+<text class="envos ch" x="828.0" y="473.0" text-anchor="middle">vos</text>
+</g>
+<g><title>gpt-5.5, sondeo_pareja: tuteo (0 de vos, 2 de tú)</title>
+<rect class="tu" x="908" y="461.0" width="136" height="16"/>
+<text class="entu ch" x="976.0" y="473.0" text-anchor="middle">tú</text>
+</g>
+<g><title>minimax-m3: 46 formas de vos, 5 de tú</title>
+<text class="t" x="196" y="495.0" text-anchor="end">minimax-m3</text>
+<rect class="vos" x="208" y="485.0" width="251.5" height="12"/>
+<rect class="tu" x="461.5" y="485.0" width="26.5" height="12"/>
+<text class="t2 num" x="500" y="495.0">46 · 5</text></g>
+<g><title>minimax-m3, sondeo_docilidad: voseo (9 de vos, 0 de tú)</title>
+<rect class="vos" x="612" y="483.0" width="136" height="16"/>
+<text class="envos ch" x="680.0" y="495.0" text-anchor="middle">vos</text>
+</g>
+<g><title>minimax-m3, sondeo_mudanza: voseo (6 de vos, 0 de tú)</title>
+<rect class="vos" x="760" y="483.0" width="136" height="16"/>
+<text class="envos ch" x="828.0" y="495.0" text-anchor="middle">vos</text>
+</g>
+<g><title>minimax-m3, sondeo_pareja: mixta (2 de vos, 4 de tú)</title>
+<rect class="vos" x="908" y="483.0" width="67.0" height="16"/>
+<rect class="tu" x="977.0" y="483.0" width="67.0" height="16"/>
+<text class="envos ch" x="942.0" y="495.0" text-anchor="middle">vos</text>
+<text class="entu ch" x="1010.0" y="495.0" text-anchor="middle">tú</text>
+</g>
+<g><title>mistral-large-4: 7 formas de vos, 1 de tú</title>
+<text class="t" x="196" y="517.0" text-anchor="end">mistral-large-4</text>
+<rect class="vos" x="208" y="507.0" width="244.0" height="12"/>
+<rect class="tu" x="454.0" y="507.0" width="34.0" height="12"/>
+<text class="t2 num" x="500" y="517.0">7 · 1</text></g>
+<text class="t2 ch" x="680.0" y="517.0" text-anchor="middle">sin corrida</text>
+<text class="t2 ch" x="828.0" y="517.0" text-anchor="middle">sin corrida</text>
+<text class="t2 ch" x="976.0" y="517.0" text-anchor="middle">sin corrida</text>
+<g><title>qwen3.8-max: 19 formas de vos, 3 de tú</title>
+<text class="t" x="196" y="539.0" text-anchor="end">qwen3.8-max</text>
+<rect class="vos" x="208" y="529.0" width="240.8" height="12"/>
+<rect class="tu" x="450.8" y="529.0" width="37.2" height="12"/>
+<text class="t2 num" x="500" y="539.0">19 · 3</text></g>
+<g><title>qwen3.8-max, sondeo_docilidad: voseo (1 de vos, 0 de tú)</title>
+<rect class="vos" x="612" y="527.0" width="136" height="16"/>
+<text class="envos ch" x="680.0" y="539.0" text-anchor="middle">vos</text>
+</g>
+<g><title>qwen3.8-max, sondeo_mudanza: voseo (11 de vos, 0 de tú)</title>
+<rect class="vos" x="760" y="527.0" width="136" height="16"/>
+<text class="envos ch" x="828.0" y="539.0" text-anchor="middle">vos</text>
+</g>
+<g><title>qwen3.8-max, sondeo_pareja: tuteo (0 de vos, 3 de tú)</title>
+<rect class="tu" x="908" y="527.0" width="136" height="16"/>
+<text class="entu ch" x="976.0" y="539.0" text-anchor="middle">tú</text>
+</g>
+<g><title>gpt-6-sol: 10 formas de vos, 2 de tú</title>
+<text class="t" x="196" y="561.0" text-anchor="end">gpt-6-sol</text>
+<rect class="vos" x="208" y="551.0" width="232.3" height="12"/>
+<rect class="tu" x="442.3" y="551.0" width="45.7" height="12"/>
+<text class="t2 num" x="500" y="561.0">10 · 2</text></g>
+<g><title>gpt-6-sol, sondeo_docilidad: voseo (1 de vos, 0 de tú)</title>
+<rect class="vos" x="612" y="549.0" width="136" height="16"/>
+<text class="envos ch" x="680.0" y="561.0" text-anchor="middle">vos</text>
+</g>
+<g><title>gpt-6-sol, sondeo_mudanza: voseo (3 de vos, 0 de tú)</title>
+<rect class="vos" x="760" y="549.0" width="136" height="16"/>
+<text class="envos ch" x="828.0" y="561.0" text-anchor="middle">vos</text>
+</g>
+<g><title>gpt-6-sol, sondeo_pareja: tuteo (0 de vos, 2 de tú)</title>
+<rect class="tu" x="908" y="549.0" width="136" height="16"/>
+<text class="entu ch" x="976.0" y="561.0" text-anchor="middle">tú</text>
+</g>
+<g><title>claude-sonnet-5-5: 34 formas de vos, 7 de tú</title>
+<text class="t" x="196" y="583.0" text-anchor="end">claude-sonnet-5-5</text>
+<rect class="vos" x="208" y="573.0" width="231.2" height="12"/>
+<rect class="tu" x="441.2" y="573.0" width="46.8" height="12"/>
+<text class="t2 num" x="500" y="583.0">34 · 7</text></g>
+<g><title>claude-sonnet-5-5, sondeo_docilidad: voseo (8 de vos, 0 de tú)</title>
+<rect class="vos" x="612" y="571.0" width="136" height="16"/>
+<text class="envos ch" x="680.0" y="583.0" text-anchor="middle">vos</text>
+</g>
+<g><title>claude-sonnet-5-5, sondeo_mudanza: voseo (5 de vos, 0 de tú)</title>
+<rect class="vos" x="760" y="571.0" width="136" height="16"/>
+<text class="envos ch" x="828.0" y="583.0" text-anchor="middle">vos</text>
+</g>
+<g><title>claude-sonnet-5-5, sondeo_pareja: tuteo (0 de vos, 7 de tú)</title>
+<rect class="tu" x="908" y="571.0" width="136" height="16"/>
+<text class="entu ch" x="976.0" y="583.0" text-anchor="middle">tú</text>
+</g>
+<g><title>grok-4.6: 18 formas de vos, 6 de tú</title>
+<text class="t" x="196" y="605.0" text-anchor="end">grok-4.6</text>
+<rect class="vos" x="208" y="595.0" width="209.0" height="12"/>
+<rect class="tu" x="419.0" y="595.0" width="69.0" height="12"/>
+<text class="t2 num" x="500" y="605.0">18 · 6</text></g>
+<g><title>grok-4.6, sondeo_docilidad: voseo (1 de vos, 0 de tú)</title>
+<rect class="vos" x="612" y="593.0" width="136" height="16"/>
+<text class="envos ch" x="680.0" y="605.0" text-anchor="middle">vos</text>
+</g>
+<g><title>grok-4.6, sondeo_mudanza: tuteo (0 de vos, 6 de tú)</title>
+<rect class="tu" x="760" y="593.0" width="136" height="16"/>
+<text class="entu ch" x="828.0" y="605.0" text-anchor="middle">tú</text>
+</g>
+<g><title>grok-4.6, sondeo_pareja: voseo (3 de vos, 0 de tú)</title>
+<rect class="vos" x="908" y="593.0" width="136" height="16"/>
+<text class="envos ch" x="976.0" y="605.0" text-anchor="middle">vos</text>
+</g>
+<g><title>glm-5.3: 18 formas de vos, 10 de tú</title>
+<text class="t" x="196" y="627.0" text-anchor="end">glm-5.3</text>
+<rect class="vos" x="208" y="617.0" width="179.0" height="12"/>
+<rect class="tu" x="389.0" y="617.0" width="99.0" height="12"/>
+<text class="t2 num" x="500" y="627.0">18 · 10</text></g>
+<g><title>glm-5.3, sondeo_docilidad: neutra (0 de vos, 0 de tú)</title>
+<rect class="gris" x="612" y="615.0" width="136" height="16"/>
+<text class="t2 ch" x="680.0" y="627.0" text-anchor="middle">te, tu</text>
+</g>
+<g><title>glm-5.3, sondeo_mudanza: tuteo (0 de vos, 4 de tú)</title>
+<rect class="tu" x="760" y="615.0" width="136" height="16"/>
+<text class="entu ch" x="828.0" y="627.0" text-anchor="middle">tú</text>
+</g>
+<g><title>glm-5.3, sondeo_pareja: tuteo (0 de vos, 4 de tú)</title>
+<rect class="tu" x="908" y="615.0" width="136" height="16"/>
+<text class="entu ch" x="976.0" y="627.0" text-anchor="middle">tú</text>
+</g>
+<g><title>claude-haiku-4-5: 9 formas de vos, 8 de tú</title>
+<circle cx="81" cy="644.0" r="4" fill="none" stroke="var(--tinta2)" stroke-width="1.5"/>
+<text class="t" x="196" y="649.0" text-anchor="end">claude-haiku-4-5</text>
+<rect class="vos" x="208" y="639.0" width="147.2" height="12"/>
+<rect class="tu" x="357.2" y="639.0" width="130.8" height="12"/>
+<text class="t2 num" x="500" y="649.0">9 · 8</text></g>
+<g><title>claude-haiku-4-5, sondeo_docilidad: mixta (3 de vos, 2 de tú)</title>
+<rect class="vos" x="612" y="637.0" width="67.0" height="16"/>
+<rect class="tu" x="681.0" y="637.0" width="67.0" height="16"/>
+<text class="envos ch" x="646.0" y="649.0" text-anchor="middle">vos</text>
+<text class="entu ch" x="714.0" y="649.0" text-anchor="middle">tú</text>
+</g>
+<g><title>claude-haiku-4-5, sondeo_mudanza: mixta (2 de vos, 1 de tú)</title>
+<rect class="vos" x="760" y="637.0" width="67.0" height="16"/>
+<rect class="tu" x="829.0" y="637.0" width="67.0" height="16"/>
+<text class="envos ch" x="794.0" y="649.0" text-anchor="middle">vos</text>
+<text class="entu ch" x="862.0" y="649.0" text-anchor="middle">tú</text>
+</g>
+<g><title>claude-haiku-4-5, sondeo_pareja: mixta (3 de vos, 1 de tú)</title>
+<rect class="vos" x="908" y="637.0" width="67.0" height="16"/>
+<rect class="tu" x="977.0" y="637.0" width="67.0" height="16"/>
+<text class="envos ch" x="942.0" y="649.0" text-anchor="middle">vos</text>
+<text class="entu ch" x="1010.0" y="649.0" text-anchor="middle">tú</text>
+</g>
+<g><title>mistral-medium-3.5: 10 formas de vos, 18 de tú</title>
+<circle cx="68" cy="666.0" r="4" fill="none" stroke="var(--tinta2)" stroke-width="1.5"/>
+<text class="t" x="196" y="671.0" text-anchor="end">mistral-medium-3.5</text>
+<rect class="vos" x="208" y="661.0" width="99.0" height="12"/>
+<rect class="tu" x="309.0" y="661.0" width="179.0" height="12"/>
+<text class="t2 num" x="500" y="671.0">10 · 18</text></g>
+<g><title>mistral-medium-3.5, sondeo_docilidad: tuteo (0 de vos, 1 de tú)</title>
+<rect class="tu" x="612" y="659.0" width="136" height="16"/>
+<text class="entu ch" x="680.0" y="671.0" text-anchor="middle">tú</text>
+</g>
+<g><title>mistral-medium-3.5, sondeo_mudanza: tuteo (0 de vos, 1 de tú)</title>
+<rect class="tu" x="760" y="659.0" width="136" height="16"/>
+<text class="entu ch" x="828.0" y="671.0" text-anchor="middle">tú</text>
+</g>
+<g><title>mistral-medium-3.5, sondeo_pareja: tuteo (0 de vos, 4 de tú)</title>
+<rect class="tu" x="908" y="659.0" width="136" height="16"/>
+<text class="entu ch" x="976.0" y="671.0" text-anchor="middle">tú</text>
+</g>
+<g><title>gpt-4o: 2 formas de vos, 5 de tú</title>
+<circle cx="147" cy="688.0" r="4" fill="none" stroke="var(--tinta2)" stroke-width="1.5"/>
+<text class="t" x="196" y="693.0" text-anchor="end">gpt-4o</text>
+<rect class="vos" x="208" y="683.0" width="79.0" height="12"/>
+<rect class="tu" x="289.0" y="683.0" width="199.0" height="12"/>
+<text class="t2 num" x="500" y="693.0">2 · 5</text></g>
+<g><title>gpt-4o, sondeo_docilidad: neutra (0 de vos, 0 de tú)</title>
+<rect class="gris" x="612" y="681.0" width="136" height="16"/>
+<text class="t2 ch" x="680.0" y="693.0" text-anchor="middle">te, tu</text>
+</g>
+<g><title>gpt-4o, sondeo_mudanza: mixta (1 de vos, 2 de tú)</title>
+<rect class="vos" x="760" y="681.0" width="67.0" height="16"/>
+<rect class="tu" x="829.0" y="681.0" width="67.0" height="16"/>
+<text class="envos ch" x="794.0" y="693.0" text-anchor="middle">vos</text>
+<text class="entu ch" x="862.0" y="693.0" text-anchor="middle">tú</text>
+</g>
+<g><title>gpt-4o, sondeo_pareja: tuteo (0 de vos, 1 de tú)</title>
+<rect class="tu" x="908" y="681.0" width="136" height="16"/>
+<text class="entu ch" x="976.0" y="693.0" text-anchor="middle">tú</text>
+</g>
+<g><title>gpt-4o-mini: 0 formas de vos, 6 de tú</title>
+<circle cx="114" cy="710.0" r="4" fill="none" stroke="var(--tinta2)" stroke-width="1.5"/>
+<text class="t" x="196" y="715.0" text-anchor="end">gpt-4o-mini</text>
+<rect class="tu" x="208.0" y="705.0" width="280.0" height="12"/>
+<text class="t2 num" x="500" y="715.0">0 · 6</text></g>
+<g><title>gpt-4o-mini, sondeo_docilidad: tuteo (0 de vos, 1 de tú)</title>
+<rect class="tu" x="612" y="703.0" width="136" height="16"/>
+<text class="entu ch" x="680.0" y="715.0" text-anchor="middle">tú</text>
+</g>
+<g><title>gpt-4o-mini, sondeo_mudanza: tuteo (0 de vos, 1 de tú)</title>
+<rect class="tu" x="760" y="703.0" width="136" height="16"/>
+<text class="entu ch" x="828.0" y="715.0" text-anchor="middle">tú</text>
+</g>
+<g><title>gpt-4o-mini, sondeo_pareja: tuteo (0 de vos, 1 de tú)</title>
+<rect class="tu" x="908" y="703.0" width="136" height="16"/>
+<text class="entu ch" x="976.0" y="715.0" text-anchor="middle">tú</text>
+</g>
+<line class="lin" x1="16" x2="1044" y1="732" y2="732"/>
+<text class="t2 ch" x="16" y="750">No cuentan las formas que tú y vos comparten (estás, vas, los pretéritos, «quieras», «necesites») ni lo que cada casa cita de la consigna.</text>
+<text class="t2 ch" x="16" y="765">Las «chicas» son las cuatro que Maia separa a ojo en las lecturas a ciegas de los dibujos (Haiku 4.5, GPT-4o, GPT-4o mini, Mistral Medium 3.5).</text>
+<text class="t2 ch" x="16" y="780">Varias casas tienen muy pocas formas (GPT-4o mini, 6; GPT-4o, 7; GPT-6 Luna, 6): la barra dice la proporción, el número de al lado dice cuánto pesa.</text>
+<text class="t2 ch" x="16" y="795">Fuente: corridas/ de github.com/Mpdegiuli/proyectos-de-ley, contado con voseo.py. Cuaderno de tiempo libre del 7/10/2026.</text>
+</svg>

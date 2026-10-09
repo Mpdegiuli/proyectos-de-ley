@@ -1,0 +1,126 @@
+### python3 dias.py
+== anclas ==
+4/10/1582 juliano: jueves | 15/10/1582 gregoriano: viernes | consecutivos: True
+
+== el salto según el año ==
+1582 : 4 de octubre (jul.) jueves -> 15 de octubre (greg.) viernes
+1583 : 4 de octubre (jul.) viernes -> 15 de octubre (greg.) sábado
+1584 : 4 de octubre (jul.) domingo -> 15 de octubre (greg.) lunes
+1585 : 4 de octubre (jul.) lunes -> 15 de octubre (greg.) martes
+
+== fechas del cuaderno: la misma cifra leída en cada calendario ==
+fundación de Buenos Aires        11/ 6/1580  juliano: sábado     gregoriano: miércoles
+domingo de la Trinidad de Garay  29/ 5/1580  juliano: domingo    gregoriano: jueves
+desembarco de Colón              12/10/1492  juliano: viernes    gregoriano: miércoles
+Córdoba, año nuevo                1/ 1/1583  juliano: martes     gregoriano: sábado
+Córdoba, año nuevo                1/ 1/1584  juliano: miércoles  gregoriano: domingo
+Córdoba, cabildo                  8/10/1584  juliano: jueves     gregoriano: lunes
+Córdoba, cabildo                 20/11/1584  juliano: viernes    gregoriano: martes
+Córdoba, año nuevo                1/ 1/1585  juliano: viernes    gregoriano: martes
+Córdoba, cabildo                 14/ 1/1585  juliano: jueves     gregoriano: lunes
+Córdoba, cabildo                  6/ 3/1585  juliano: sábado     gregoriano: miércoles
+Córdoba, cabildo                 10/ 3/1585  juliano: miércoles  gregoriano: domingo
+Córdoba, registro de hierro      22/ 3/1585  juliano: lunes      gregoriano: viernes
+Córdoba, cabildo                 11/ 4/1585  juliano: domingo    gregoriano: jueves
+Córdoba, entierro                 6/ 6/1585  juliano: domingo    gregoriano: jueves
+Córdoba, cabildo                  9/ 6/1585  juliano: miércoles  gregoriano: domingo
+Córdoba, 'hayer Domingo'         16/ 6/1585  juliano: miércoles  gregoriano: domingo
+Córdoba, cabildo                 17/ 6/1585  juliano: jueves     gregoriano: lunes
+Córdoba, año nuevo                1/ 1/1587  juliano: domingo    gregoriano: jueves
+Santiago, cabildo                 1/ 8/1586  juliano: lunes      gregoriano: viernes
+Lima, obedecimiento              19/ 4/1584  juliano: domingo    gregoriano: jueves
+Lima, auto de impresión          14/ 7/1584  juliano: martes     gregoriano: sábado
+La Plata, recepción              29/ 7/1584  juliano: miércoles  gregoriano: domingo
+Huarochirí                       17/ 8/1584  juliano: lunes      gregoriano: viernes
+Cañete, pregón                   27/ 9/1584  juliano: domingo    gregoriano: jueves
+Manila, carta de Dávalos          3/ 7/1584  juliano: viernes    gregoriano: martes
+carta de Montalvo                12/10/1585  juliano: martes     gregoriano: sábado
+
+== Pascua de 1585 en las dos cuentas ==
+juliana: 11/4/1585 (jul.) = 21/4/1585 (greg.)
+gregoriana: 21/4/1585 (greg.) = 11/4/1585 (jul.)
+Pentecostés gregoriano 1585: 9/6/1585 | juliano: 30/5/1585 (jul.) = 9/6/1585 (greg.)
+Corpus gregoriano 1585: 20/6/1585
+1583 Pascua juliana 31/3/1583 = 10/4/1583 greg. | Pascua gregoriana 10/4/1583
+1584 Pascua juliana 19/4/1584 = 29/4/1584 greg. | Pascua gregoriana 1/4/1584
+1586 Pascua juliana 3/4/1586 = 13/4/1586 greg. | Pascua gregoriana 6/4/1586
+
+== hoy ==
+8/10/2026: jueves | en juliano hoy es 25/9/2026
+del 8/10/1584 (jul., Córdoba) a hoy: 161427 días
+8/10/1584 juliano = 18/10/1584 gregoriano
+
+### python3 bernabe.py
+== solsticios y equinoccios de 1580 (fechas julianas, UT) ==
+equinoccio de marzo : 1580/3/10 12:27:45
+solsticio de junio  : 1580/6/11 13:53:08  | hora solar media de Buenos Aires: 1580/6/11 09:59:39
+solsticio de dic.   : 1580/12/11 14:08:44
+san Bernabé, 11/6/1580 (jul.), 0 h local =  1580/6/11 03:53:29 UT
+del mediodía local del 11 de junio al solsticio: -2.0 horas
+
+== largo del día en Buenos Aires, junio de 1580 (juliano) ==
+ 1 de junio: sale 07:02  se pone 16:54  día 9 h 52 min (9.8644 h)
+ 5 de junio: sale 07:04  se pone 16:54  día 9 h 50 min (9.8400 h)
+ 9 de junio: sale 07:05  se pone 16:55  día 9 h 50 min (9.8279 h)
+10 de junio: sale 07:05  se pone 16:55  día 9 h 50 min (9.8268 h)
+11 de junio: sale 07:06  se pone 16:55  día 9 h 50 min (9.8265 h)  <- san Bernabé, fundación
+12 de junio: sale 07:06  se pone 16:55  día 9 h 50 min (9.8269 h)
+13 de junio: sale 07:06  se pone 16:56  día 9 h 50 min (9.8282 h)
+14 de junio: sale 07:06  se pone 16:56  día 9 h 50 min (9.8302 h)
+17 de junio: sale 07:06  se pone 16:57  día 9 h 50 min (9.8408 h)
+21 de junio: sale 07:06  se pone 16:58  día 9 h 52 min (9.8656 h)
+25 de junio: sale 07:06  se pone 17:00  día 9 h 54 min (9.9023 h)
+30 de junio: sale 07:05  se pone 17:03  día 9 h 58 min (9.9642 h)
+
+== el más corto del año ==
+día más corto: 11 de junio (jul.), 9 h 50 min
+y el más largo, cerca del 11 de diciembre (jul.): 14 h 29 min
+
+== lo mismo en Londres, para el refrán de Barnaby ==
+ 1 de junio de 1580 (jul.), Londres: 16 h 34 min
+11 de junio de 1580 (jul.), Londres: 16 h 39 min
+12 de junio de 1580 (jul.), Londres: 16 h 39 min
+21 de junio de 1580 (jul.), Londres: 16 h 34 min
+
+== y hoy ==
+solsticio de junio de 2026: 2026/6/21 08:24:31 UT
+11/6/2026 en Buenos Aires: 9 h 52 min
+21/6/2026 en Buenos Aires: 9 h 50 min
+ 8/10/2026 en Buenos Aires: 12 h 42 min
+
+### java Hueco.java
+corte de java.util.GregorianCalendar: 1582-10-15T00:00:00Z
+-- le pido cada d?a de octubre de 1582 y me devuelve:
+1->1 2->2 3->3 4->4 5->15 6->16 7->17 8->18 9->19 10->20 11->21 12->22 13->23 14->24 15->15 16->16 17->17 18->18
+8/10/1582 (permisivo): 18/10/1582 lunes
+8/10/1582 (estricto): java.lang.IllegalArgumentException: the specified date doesn't exist
+d?as de octubre de 1582: m?ximo real 31 | 4 -> siguiente:
+   4/10/1582 jueves  ->  15/10/1582 viernes
+-- octubre de 1584, C?rdoba (para Java ya es gregoriano):
+8/10/1584: 8/10/1584 lunes
+11/6/1580: 11/6/1580 s?bado  (antes del corte: lo toma por juliano)
+12/10/1492: 12/10/1492 viernes
+con el corte corrido a 1585, 8/10/1584: 8/10/1584 jueves
+con el corte corrido a 1585, 1/1/1585: 1/1/1585 viernes
+-- java.time (ISO, gregoriano prol?ptico, sin hueco):
+8/10/1582: FRIDAY | 8/10/1584: MONDAY | 11/6/1580: WEDNESDAY
+
+### ruby hueco.rb
+Date::ITALY   = 2299161  (día juliano del corte por defecto) -> 1582-10-15
+Date::ENGLAND = 2361222 -> 1752-09-14
+¿existe el 8/10/1582? por defecto (ITALY): false | con ENGLAND: true
+Date.new(1582,10,8) -> Date::Error: invalid date
+4/10/1582 + 1 = 1582-10-15
+8/10/1584 por defecto: lunes (gregoriano)
+8/10/1584 con corte cordobés (JD 2300121): jueves  = 1584-10-18 en gregoriano
+1/1/1585 con corte cordobés: viernes | 16/6/1585: domingo
+11/6/1580 (antes de cualquier corte): sábado = 1580-06-21 en gregoriano proléptico
+hoy, 8/10/2026, en juliano: 2026-09-25
+
+### python3 / date / node, 8 de octubre
+python  8/10/1582: Friday
+python  8/10/1584: Monday
+GNU date 8/10/1582: Friday | 8/10/1584: Monday
+node    8/10/1582: Fri | 8/10/1584: Mon
+which cal ncal: no están
+versiones: openjdk version "21.0.12.1" 2026-08-18 | ruby 3.3.6 | Python 3.13.16 | ephem 4.2.1

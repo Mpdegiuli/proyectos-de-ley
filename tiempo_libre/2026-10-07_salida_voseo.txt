@@ -1,0 +1,119 @@
+respuestas en castellano leídas: 3296  (salteadas: 6 repetidas, 1 guardadas en bloques)
+trato de la consigna: {'vos': 3221, 'usted': 75}
+formas desconocidas (revisar listas): 0
+
+\== consigna de vos, todas las corridas ==
+casa                       resp 2ª p. voseo mixta tuteo neutra usted    V   T    %V
+claude-fable-5               79    27    16     0     0     11     0   41   0   100
+claude-fable-5-1            149    40    28     0     0     12     0   68   0   100
+claude-opus-5               146    31    24     0     0      7     0   57   0   100
+claude-opus-5-5              84    25    17     0     0      8     0   52   0   100
+claude-sonnet-5             157    28    19     0     0      9     0   54   0   100
+gemini-3.1-pro              157    39    16     0     0     23     0   29   0   100
+gpt-5.6-sol                 157     9     5     0     0      4     0    8   0   100
+gpt-6-astra                 157    14     8     0     0      6     0   20   0   100
+gpt-6-luna                   94     9     4     0     0      5     0    6   0   100
+grok-4.7                     95    20     9     0     0     11     0   13   0   100
+kimi-k3                     157    35    23     0     0     12     0   44   0   100
+mimo-v2.6-pro                30    13     6     0     0      7     0    8   0   100
+claude-sonnet-4-6           161    26    11     1     0     14     0   23   1    96
+deepseek-v4-pro             157    15     5     0     1      9     0   13   1    93
+gpt-5.5                     166    15    10     0     1      4     0   20   2    91
+minimax-m3                  157    30    15     2     0     13     0   46   5    90
+mistral-large-4              30    14     4     0     1      9     0    7   1    88
+qwen3.8-max                 157    21     8     0     1     12     0   19   3    86
+gpt-6-sol                    94    16     8     0     1      7     0   10   2    83
+claude-sonnet-5-5            69    22    13     0     1      8     0   34   7    83
+grok-4.6                    162    25    13     0     1     11     0   18   6    75
+glm-5.3                     157    30    12     0     4     14     0   18  10    64
+claude-haiku-4-5             92    20     1     3     4     12     0    9   8    53
+mistral-medium-3.5          157    20     3     3     8      6     0   10  18    36
+gpt-4o                       94    13     1     1     2      9     0    2   5    29
+gpt-4o-mini                  94    14     0     0     6      8     0    0   6     0
+gpt-6.1-sol                  12     0     0     0     0      0     0    0   0     –
+TOTAL                      3221   571   279    10    31    251     0  629  75    89
+
+\== consigna de vos, solo sondeos ==
+casa                       resp 2ª p. voseo mixta tuteo neutra usted    V   T    %V
+claude-fable-5               20    20    11     0     0      9     0   35   0   100
+claude-fable-5-1             20    20    12     0     0      8     0   36   0   100
+claude-opus-5                20    16    10     0     0      6     0   37   0   100
+claude-opus-5-5              20    17     9     0     0      8     0   39   0   100
+claude-sonnet-5              20    15    11     0     0      4     0   40   0   100
+deepseek-v4-pro              20    11     3     0     0      8     0   10   0   100
+gemini-3.1-pro               20    17     7     0     0     10     0   18   0   100
+gpt-5.6-sol                  20     8     4     0     0      4     0    7   0   100
+gpt-6-astra                  20     6     4     0     0      2     0   14   0   100
+gpt-6-luna                   20     8     3     0     0      5     0    5   0   100
+grok-4.7                     20    10     6     0     0      4     0    9   0   100
+kimi-k3                      20    18    10     0     0      8     0   30   0   100
+mimo-v2.6-pro                12     9     2     0     0      7     0    4   0   100
+claude-sonnet-4-6            20    17     6     1     0     10     0   18   1    95
+gpt-5.5                      20     9     5     0     1      3     0   14   2    88
+mistral-large-4              12    12     4     0     1      7     0    7   1    88
+minimax-m3                   20    15     7     2     0      6     0   31   5    86
+qwen3.8-max                  20    13     5     0     1      7     0   16   3    84
+claude-sonnet-5-5            20    18    10     0     1      7     0   26   7    79
+gpt-6-sol                    20     9     5     0     1      3     0    7   2    78
+grok-4.6                     20    15     6     0     1      8     0    9   6    60
+claude-haiku-4-5             20    18     1     3     3     11     0    9   7    56
+glm-5.3                      20    16     3     0     2     11     0    6   8    43
+gpt-4o                       20    12     0     1     2      9     0    1   5    17
+mistral-medium-3.5           20    12     0     1     7      4     0    2  15    12
+gpt-4o-mini                  20    11     0     0     4      7     0    0   4     0
+TOTAL                       504   352   144     8    24    176     0  430  66    87
+
+\== consigna de vos, todo menos sondeos ==
+casa                       resp 2ª p. voseo mixta tuteo neutra usted    V   T    %V
+claude-fable-5               59     7     5     0     0      2     0    6   0   100
+claude-fable-5-1            129    20    16     0     0      4     0   32   0   100
+claude-opus-5               126    15    14     0     0      1     0   20   0   100
+claude-opus-5-5              64     8     8     0     0      0     0   13   0   100
+claude-sonnet-4-6           141     9     5     0     0      4     0    5   0   100
+claude-sonnet-5             137    13     8     0     0      5     0   14   0   100
+claude-sonnet-5-5            49     4     3     0     0      1     0    8   0   100
+gemini-3.1-pro              137    22     9     0     0     13     0   11   0   100
+gpt-4o                       74     1     1     0     0      0     0    1   0   100
+gpt-5.5                     146     6     5     0     0      1     0    6   0   100
+gpt-5.6-sol                 137     1     1     0     0      0     0    1   0   100
+gpt-6-astra                 137     8     4     0     0      4     0    6   0   100
+gpt-6-luna                   74     1     1     0     0      0     0    1   0   100
+gpt-6-sol                    74     7     3     0     0      4     0    3   0   100
+grok-4.6                    142    10     7     0     0      3     0    9   0   100
+grok-4.7                     75    10     3     0     0      7     0    4   0   100
+kimi-k3                     137    17    13     0     0      4     0   14   0   100
+mimo-v2.6-pro                18     4     4     0     0      0     0    4   0   100
+minimax-m3                  137    15     8     0     0      7     0   15   0   100
+qwen3.8-max                 137     8     3     0     0      5     0    3   0   100
+glm-5.3                     137    14     9     0     2      3     0   12   2    86
+deepseek-v4-pro             137     4     2     0     1      1     0    3   1    75
+mistral-medium-3.5          137     8     3     2     1      2     0    8   3    73
+claude-haiku-4-5             72     2     0     0     1      1     0    0   1     0
+gpt-4o-mini                  74     3     0     0     2      1     0    0   2     0
+gpt-6.1-sol                  12     0     0     0     0      0     0    0   0     –
+mistral-large-4              18     2     0     0     0      2     0    0   0     –
+TOTAL                      2717   219   135     2     7     75     0  199   9    96
+
+\== consigna de usted (ministro) ==
+casa                       resp 2ª p. voseo mixta tuteo neutra usted    V   T    %V
+deepseek-v4-pro               5     1     1     0     0      0     0    1   0   100
+claude-fable-5-1              5     1     0     0     0      0     1    0   0     –
+claude-opus-5                 5     0     0     0     0      0     0    0   0     –
+claude-sonnet-4-6             5     0     0     0     0      0     0    0   0     –
+claude-sonnet-5               5     0     0     0     0      0     0    0   0     –
+gemini-3.1-pro                5     2     0     0     0      0     2    0   0     –
+glm-5.3                       5     0     0     0     0      0     0    0   0     –
+gpt-5.5                       5     0     0     0     0      0     0    0   0     –
+gpt-5.6-sol                   5     0     0     0     0      0     0    0   0     –
+gpt-6-astra                   5     1     0     0     0      0     1    0   0     –
+grok-4.6                      5     0     0     0     0      0     0    0   0     –
+kimi-k3                       5     0     0     0     0      0     0    0   0     –
+minimax-m3                    5     1     0     0     0      0     1    0   0     –
+mistral-medium-3.5            5     0     0     0     0      0     0    0   0     –
+qwen3.8-max                   5     1     0     0     0      0     1    0   0     –
+TOTAL                        75     7     1     0     0      0     6    1   0   100
+vos 147
+con_vos 45
+contigo 29
+ti 6
+subj_vos 1

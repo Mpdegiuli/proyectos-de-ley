@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>5040 — siete campanas</title>
+<style>
+:root{--fondo:#fbfaf7;--tinta:#1f1d1a;--gris:#77736b;--azul:#1d4ed8;--naranja:#c2410c;--borde:#d9d5cc}
+@media (prefers-color-scheme:dark){:root{--fondo:#171614;--tinta:#ece9e2;--gris:#9a958b;--azul:#7aa2ff;--naranja:#f08a4b;--borde:#3a3732}}
+body{background:var(--fondo);color:var(--tinta);font:16px/1.5 Georgia,serif;max-width:640px;margin:0 auto;padding:24px 16px}
+h1{font-size:28px;margin:0 0 4px}
+p{margin:8px 0}.g{color:var(--gris);font-size:14px}
+.c{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:16px 0;font-size:15px}
+select,button{font:inherit;padding:6px 12px;border:1px solid var(--borde);border-radius:6px;background:transparent;color:inherit}
+button{cursor:pointer}input[type=range]{width:160px}
+pre{font:18px/1.35 "DejaVu Sans Mono",Menlo,Consolas,monospace;letter-spacing:.35em;margin:12px 0;min-height:19em}
+pre b{color:var(--azul)}pre i{color:var(--gris);font-style:normal}pre u{color:var(--naranja);text-decoration:none;letter-spacing:0;font-size:13px}
+#e{font-size:14px;color:var(--gris);min-height:1.5em}
+</style>
+</head>
+<body>
+<h1>5040</h1>
+<p>Siete campanas que cambian de orden y una octava, la más grave, que cierra cada fila. Ninguna campana se mueve más de un lugar entre una fila y la siguiente. La 1 va en azul.</p>
+<div class="c">
+<select id="q">
+<option value="caza">Caza simple: 14 filas</option>
+<option value="curso">Grandsire, curso simple: 70 filas</option>
+<option value="repique">El repique entero: 5040 filas</option>
+</select>
+<label>filas por minuto <input type="range" id="v" min="20" max="240" value="30"> <span id="vv">30</span></label>
+<button id="t">Tocar</button><button id="p">Parar</button>
+</div>
+<div id="e"></div>
+<pre id="f"></pre>
+<p class="g">El repique es un 5040 de Grandsire Triples encontrado por búsqueda el 4/10/2026 (128 bobs y 2 singles, con el bloque single-bob-bob-single al final, como en el Original de John Holt, de 1751). Está comprobado fila por fila: las 5040 son distintas y la última es 1234567. A 30 filas por minuto dura dos horas y cuarenta y ocho minutos; con la perilla se puede apurar. El sonido es una síntesis sencilla, no campanas grabadas.</p>
+<script>
+// --- la parte que se puede probar sin navegador ---
+const LLAMADAS="PPPBPBPPPPBBPPPPBPPPBPPPPBPPPPBPPBPBPBBPPPBPBPBBPBPPPBPBPPBPPPPBBPBPBBPPPPBPPBPPPBPPPPBPBPPPPBBPPPPBBPPPPBPPBBPPPPBBPPPBBPBBPBBPPPPBPPPPBBPPPPBPBPPPBPPBPBBPPBPPBPPBPBPPBPPPPBBPPBBPPPPBBPPPPBPPPPBBPPPPBPPBPPBPPPPBPBPBPPPPBPPPBBPBBPPPBPPPPBBPBBPPBPPBPPPBPPPPBPPPPBPPPPBBPPBPPPBPBPBBPPPPBPPBBPBPPBPBPPPPBBPPPPBBPPPBBPBBPPBBPBPPPBPBPBPPBPPPPBPPPBBPBBPBPPPPBBPBSBBS";
+const BASE=[[3],[1],[7],[1],[7],[1],[7],[1],[7],[1],[7],[1]],FIN={P:[[7],[1]],B:[[3],[1]],S:[[3],[1,2,3]]};
+function cambio(f,l){const g=f.slice();let i=0;while(i<6){if(l.includes(i+1))i++;else{[g[i],g[i+1]]=[g[i+1],g[i]];i+=2}}return g}
+function filas(que){let f=[1,2,3,4,5,6,7];const o=[];
+ if(que=="caza")for(let k=0;k<14;k++){f=cambio(f,k%2?[1]:[7]);o.push({f})}
+ else[...(que=="curso"?"PPPPP":LLAMADAS)].forEach((c,i)=>BASE.concat(FIN[c]).forEach((l,j)=>{f=cambio(f,l);o.push({f,lead:i+1,c:j>11?c:"P"})}));
+ return o}
+// --- sonido y pantalla ---
+if(typeof document!="undefined"){
+const $=id=>document.getElementById(id),NOTAS=[587.33,554.37,493.88,440,392,369.99,329.63,293.66];
+const PARC=[[.5,.22,2.4],[1,.55,1.5],[1.2,.3,1],[1.5,.16,.7],[2,.4,.8],[3,.1,.35]];
+let ctx,salida,reloj,cola=[],pend=[],prox=0,n=0,total=0,vistas=[];
+function golpe(fr,t,esc){for(const[r,g,d]of PARC){const o=ctx.createOscillator(),a=ctx.createGain(),dd=d*esc;o.frequency.value=fr*r;
+ a.gain.setValueAtTime(0,t);a.gain.linearRampToValueAtTime(g*.11,t+.004);a.gain.exponentialRampToValueAtTime(1e-4,t+dd);
+ o.connect(a);a.connect(salida);o.start(t);o.stop(t+dd+.05)}}
+function paso(){const rpm=+$("v").value,pulso=120/rpm/17,esc=Math.max(.25,Math.min(1,45/rpm));
+ while(cola.length&&prox<ctx.currentTime+.4){const x=cola.shift();n++;
+  [...x.f,8].forEach((b,i)=>golpe(NOTAS[b-1],prox+i*pulso,esc));
+  pend.push({t:prox,x,n});prox+=pulso*(n%2?8:9)}
+ while(pend.length&&pend[0].t<=ctx.currentTime){const{x,n:k}=pend.shift();
+  vistas.push(x.f.join("").replace("1","<b>1</b>")+"<i>8</i>"+(x.c&&x.c!="P"?" <u>"+(x.c=="B"?"bob":"single")+"</u>":""));
+  vistas=vistas.slice(-14);$("f").innerHTML=vistas.join("\n");
+  $("e").textContent=k<1||k>total?"rounds":"fila "+k+" de "+total+(x.lead?" · lead "+x.lead+" de "+total/14:"")}
+ if(!cola.length&&!pend.length){clearInterval(reloj);reloj=0}}
+function parar(){clearInterval(reloj);reloj=0;cola=[];pend=[];if(ctx){ctx.close();ctx=null}}
+$("t").onclick=()=>{parar();ctx=new(window.AudioContext||window.webkitAudioContext)();salida=ctx.createGain();salida.gain.value=.5;salida.connect(ctx.destination);
+ const r={f:[1,2,3,4,5,6,7]},todo=filas($("q").value);cola=[r,r,...todo,r];total=todo.length;n=-2;vistas=[];prox=ctx.currentTime+.15;
+ $("f").textContent="";reloj=setInterval(paso,40)};
+$("p").onclick=parar;
+$("v").oninput=()=>$("vv").textContent=$("v").value;
+}
+if(typeof module!="undefined")module.exports={filas};
+</script>
+</body>
+</html>

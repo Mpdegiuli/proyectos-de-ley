@@ -1,0 +1,39 @@
+1. LAS CUATRO CHICAS Y EL RESTO (consigna de vos)
+   chicas: 437 respuestas; con marca 32: solo vos 5, mixtas 7, solo tú 20; formas 21 de vos y 37 de tú (36 % de vos)
+   resto : 2784 respuestas; con marca 288: solo vos 274, mixtas 3, solo tú 11; formas 608 de vos y 38 de tú (94 % de vos)
+   Fisher (solo vos / con algún tú): 5-27 contra 274-14, p = 4.3e-24  (las respuestas de una casa no son independientes: vale como orden de magnitud)
+
+2. ¿SON LAS CUATRO ÚLTIMAS? (orden por % de formas de vos)
+   como en la tabla                       26 casas; últimas cuatro: gpt-4o-mini, gpt-4o, mistral-medium-3.5, claude-haiku-4-5  -> sí
+   sacando todo lo que va entre comillas  26 casas; últimas cuatro: gpt-4o-mini, gpt-4o, mistral-medium-3.5, claude-haiku-4-5  -> sí
+   sin pareja ni mudanza                  26 casas; últimas cuatro: gpt-4o-mini, gpt-4o, claude-haiku-4-5, mistral-medium-3.5  -> sí
+   solo los sondeos                       26 casas; últimas cuatro: gpt-4o-mini, mistral-medium-3.5, gpt-4o, glm-5.3  -> no
+   todo menos los sondeos                 25 casas; últimas cuatro: claude-haiku-4-5, gpt-4o-mini, mistral-medium-3.5, deepseek-v4-pro  -> no
+   de vos, solo formas que no están en la consigna 26 casas; últimas cuatro: gpt-4o-mini, mistral-medium-3.5, gpt-4o, claude-haiku-4-5  -> sí
+   Si el orden fuera al azar, que cuatro casas fijadas de antemano sean las cuatro últimas de 26: 1 en 14950
+
+3. LAS TRES CONSIGNAS DE AMOR, sin las chicas
+   sondeo_docilidad   20 casas: solo vos 19, mixtas 0, solo tú 0, no eligen 1; formas 58 de vos, 0 de tú; 'con vos' 13, 'contigo' 1
+   sondeo_mudanza     20 casas: solo vos 17, mixtas 0, solo tú 2, no eligen 1; formas 105 de vos, 10 de tú; 'con vos' 13, 'contigo' 9
+   sondeo_pareja      20 casas: solo vos 11, mixtas 2, solo tú 5, no eligen 2; formas 72 de vos, 23 de tú; 'con vos' 10, 'contigo' 11
+   formas de tú del resto: 38; en pareja y mudanza: 33
+   en todo el corpus: 'con vos' 45, 'contigo' 29, 'ti' 6, subjuntivo voseante 1
+
+4. QUÉ FORMAS
+   de vos: vos 147, querés 73, necesitás 50, podés 35, merecés 23, tenés 22, sentís 21, preguntás 19, mencionás 19, pedís 15, decís 13, pensás 11, contame 7, sos 7
+   de tú:  sientes 12, quieres 10, necesitas 9, tienes 7, mereces 6, tú 5, crees 4, buscas 4, puedes 3, describes 2
+   formas de vos distintas: 103; que no están en la consigna de esa llamada: 595 de 629
+   de tú después de 'si': chicas 13 de 37, resto 6 de 38; de vos después de 'si': 97 de 629
+
+5. LA QUE NO ELIGE
+   de 3221 respuestas: sin segunda persona 2650, solo vos 279, mixtas 10, solo tú 31, segunda persona sin elegir 251
+   ¿Quién sos? / ¿Qué sos?: 52 respuestas, 50 con segunda persona; no eligen 46, de vos 4, de tú 0, mixtas 0
+   respuestas con la oración '¿En qué puedo ayudarte hoy?': 8
+    [('¿en qué puedo ayudarte hoy?', 8), ('¿en qué puedo ayudarte?', 3), ('¿hay algo en lo que pueda ayudarte?', 1)]
+   sondeos, respuestas que le hablan a alguien, por laboratorio: Moonshot 18 de 20; Anthropic 141 de 160; Google 17 de 20; Zhipu 16 de 20; Mistral 24 de 32; MiniMax 15 de 20; Xiaomi 9 de 12; Alibaba 13 de 20; xAI 25 de 40; DeepSeek 11 de 20; OpenAI 63 de 140
+   Gemini: 39 respuestas con segunda persona, no elige en 23
+
+6. DE USTED (el ministro) Y ENTRE ELLAS (el debate)
+   consigna de usted: 75 respuestas; contestan de usted 6, de vos 1, de tú 0
+      de vos: deepseek-v4-pro ['mencionás']
+   debate en castellano: {'grok-4.6': {'V': 1, 'T': 0}, 'claude-fable-5-1': {'V': 9, 'T': 0}}
