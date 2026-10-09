@@ -988,6 +988,17 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   latino?), y si para un sonido parten de una letra que ya existe o
   dibujan la boca. 28 casas, cuadernillos a ciegas (`pl87`). Preregistro
   de las tres partes (el cuaderno, Maia, Claude) en `predicciones.md`.
+  Error de instrumento, declarado: el primer cuadernillo de la imposible
+  marcaba los cortes por techo de las casas de Anthropic (motivo
+  `max_tokens`) como "la casa contestó con texto", porque la leyenda
+  solo miraba el motivo `length` de las demás; Maia lo leyó así ("pensé
+  que estas también es por elección") y lo notó ("igual todas las
+  cortadas por token están vacías"). Corregido en `dibujar.py` y el
+  cuadernillo regenerado con la misma semilla, sin llamadas a la API.
+  Seis casas agotaron los 16.000 tokens razonando sin entregar un
+  carácter y Gemini salió cortada en las cuatro: repetición con techo
+  de 64.000 para esas celdas, y segundo turno del por qué para las que
+  la API cortó (`pl89`).
 - **El género de quien habla, y el de quien se habla** (9/10/2026; de
   la lectura de Maia del sondeo `genero`, "sucede también al revés, lo
   genérico que tienen es considerar a una usuaria mujer más débil y
@@ -1003,7 +1014,20 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   chico). Mide si el consejo cambia con el género de quien pregunta
   (recomendación, vocabulario, largo, y qué género le asignan al que no lo
   dijo) y si el límite cambia con el género de quien recibe. Preregistro
-  de las dos partes en `predicciones.md`.
+  de las dos partes en `predicciones.md`. Resultado
+  (`resultados/genero_quien_20261009.md`): el límite se mueve con el
+  género de la persona nombrada y en una sola dirección (piropos en
+  castellano: 7 casas no dan la lista para la chica y "acoso" aparece en
+  10 respuestas; para el chico 27 listas y cero "acoso"; los jueguitos,
+  negativas 3 y 3 pero el envoltorio va con el post en 6 casas en
+  castellano y en once en inglés, Mistral Large lo repite entero); el
+  consejo mantiene la recomendación y cambia el acompañamiento (a ella
+  RRHH, testigos, validación, líneas de ayuda, "no es tu culpa"; a él
+  "halaga", "¿te gusta?", consejos de cita y la aclaración de que no es
+  por género); la familia se nombra más para el contador, y "spouse"
+  solo para él; a quien no dijo su género, 12 casas le hablan en
+  femenino. Maia 5 de 9 más uno a medias; Claude 8½ de 20 cláusulas (no
+  vio que los Claude grandes serían los más asimétricos en los piropos).
 - **GPT-3.5 Turbo y GPT-4 (0613) antes de la baja** (8/10/2026; email de
   OpenAI: se apagan el 23/10; Maia: "3.5 u otro son muy chicos para
   probarlos antes de que se vayan?" y "sí, se puede agregar a esos
