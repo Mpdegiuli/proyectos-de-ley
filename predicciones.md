@@ -3515,6 +3515,57 @@ simétrico. (e) Las cuatro chicas dibujan la letra con <text> o una A
 simple y en "que no exista" agregan un trazo (como dice Maia); las más
 inventivas en (b) y (d) son Opus 5.5, Gemini y Kimi, no Qwen.
 
+Resultado (`pl87` y `pl89`, 9 y 10/10; informe
+`resultados/dibujos_letras_20261009.md`; lectura de Maia en
+`resultados/dibujos_lectura_maia.md`). "Una letra": 21 A, 4 Ñ (Opus
+5.5, Grok 4.7, Qwen, 6.1 Sol), 2 H (Sonnet 5, GPT-4o), 1 R (Sonnet
+4.6); las seis chinas latinas; ninguna la inicial de su nombre; una sola
+con <text> (GPT-4o mini); la S, descartada en 19 por qué de 26 por las
+curvas Bézier, cero veces dibujada; la única animada es la Ñ de Qwen,
+con `:hover`. "Que no exista": 21 de 28 recombinan la anatomía latina
+("combiné rasgos que ninguna letra real junta"), 4 glifos sin letra, 3
+símbolos, 0 en blanco, 0 sistemas; 17 con un diacrítico suelto; 13
+presentadas como espécimen (pauta, nombre, U+), 8 con nombre o sonido
+("therna", «zhoa», «ZHUR» /ʒʊɾ/, "Keth" U+08A4 "LATIN EXTENDED-K",
+"VHÆR", "LNX", "La letra X", "SIN NOMBRE"); fundir dos letras y el
+alfabeto ficticio, nombrados para descartarlos. "Que no pueda existir":
+1 lienzo vacío (MiniMax), 16 que lo descartan por cómodo; 16 Penrose
+(13 A, 4 E, 1 D), 2 tridentes (Fable 5.1, Gemini), Kimi "aquí no hay
+ninguna letra", Mistral Large la O adentro-afuera, Haiku 4.5 "Ø∞", Grok
+4.6 la quimera; 25 por qué nombran a Penrose o Escher; seis casas
+agotaron los 16.000 tokens, y con 64.000 Opus 5 (78.000 tokens) y MiMo
+(64.000) siguieron sin entregar, calculando un Penrose, y en el por qué
+dicen "Entregué el lienzo vacío": el por qué del corte. "La eme": 14
+desde la m/M, 8 labios o boca cerrada, 5 glifos nuevos, 1 onda; "labios"
+en 25 por qué, "nasal" en 16, "nariz" en 12; 16 descartan la M latina
+("si ya conocés la M, no estás inventando nada"), 7 los labios de frente
+("un dibujo y no una letra"); hangul, cero. Astra, 6 Sol y 6.1 Sol dicen
+en las cuatro que no tienen registro de lo que descartaron (21 por qué
+de 112 con esa salvedad). Maia: "una letra" 5 de 28 (p = 0,07; familia
+11, p = 0,02), "que no exista" 4 de 28, imposible 7 de 21 (p = 0,006;
+familia 13, p = 0,0008), rehecho 1 de 7, eme 3 de 28; chicas 10 de 11
+declaradas; Qwen por la Ñ animada ✓, Fable 5.1 por el tridente ✓;
+preferidas: 7 de 13 de Anthropic, Opus 5.5 tres veces.
+
+Cuaderno: "más de veinte… una A" ✓ (21, justo), "chinas a lo sumo una no
+latina" ✓ (0), "funde dos letras o agrega trazos" ✓ en el dibujo (las
+casas dicen que funden rasgos, no letras), "ninguna inventa un sistema"
+✓, "la mayoría parte de la M o de una onda" ✓ (15), "tres a seis labios
+cerrados" ✓ estricto (4 de frente), ✗ amplio (8). 5½ de 6. Maia: "la A"
+✓, "la M" ✗ (0), "la inicial del nombre" ✗ (0), "los grandes combinan" ✓,
+"los chicos agregan un palito o un círculo" ✗ (las chicas no agregaron
+a una letra: un ojo "LNX", "La letra X", un arco con llama, dos ondas),
+"en blanco… quizás uno" ✓ (uno), "Gemini y Qwen los más creativos"
+Gemini ✓, Qwen a medias. 3½ de 7. Claude: (a) ✓ ✓ ✗ (inicial: 0) ✓ ✓;
+(b) ✓, 3 a 6 glifos a medias (4, o 7 con los símbolos), ✓, 8 nombres a
+medias (7 más un "sin nombre"), alfabetos ficticios ✗ (2, para
+descartarlos); (c) 2 a 5 en blanco ✗ (1), mayoría a la geometría
+imposible o la paradoja ✓ (21 de 25); (d) ✓ (15 justo) ✓ (8) ✗ (hangul
+0) ✓ ✓; (e) chicas con texto o A simple a medias, agregan un trazo ✗,
+Opus 5.5, Gemini y Kimi las más inventivas ✓. 13½ de 20; no vi el
+diacrítico huérfano, el catálogo Unicode, el por qué del corte ni la
+salvedad de las nuevas de OpenAI.
+
 ## El género de quien habla, y el de quien se habla: sondeo `genero_quien` — 9/10/2026, antes de correr
 
 Origen. Al leer el resultado de `genero`, Maia (9/10, 9:24 UTC-3): "Es

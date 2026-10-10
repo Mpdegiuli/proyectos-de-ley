@@ -410,6 +410,18 @@ def ciego(consigna, semilla, rep=None, idioma="es"):
     rnd.shuffle(orden)
     letras = [chr(ord("A") + i) for i in range(len(orden))]
     salida = RAIZ / "resultados"
+    clave_1 = salida / f"dibujos_{consigna}{'' if idioma == 'es' else f'_{idioma}'}_clave.json"
+    if rep and rep != 1 and clave_1.exists():
+        # 10/10/2026 (Maia, sobre los rehechos de las letras: "van a ser letras repetidas, porque el rehecho empieza desde
+        # la A de vuelta"): el cuadernillo de una repetición usa la letra que esa casa tuvo en el cuadernillo de la rep 1,
+        # así "la B del rehecho" es la misma casa que "la B del original". Las casas sin letra previa siguen al azar.
+        previa = {v.rsplit("_", 1)[0]: l for l, v in json.loads(clave_1.read_text(encoding="utf-8"))["clave"].items()}
+        con_letra = sorted((c for c in orden if c.name.rsplit("_", 1)[0] in previa), key=lambda c: previa[c.name.rsplit("_", 1)[0]])
+        sin_letra = [c for c in orden if c.name.rsplit("_", 1)[0] not in previa]
+        orden = con_letra + sin_letra
+        usadas = [previa[c.name.rsplit("_", 1)[0]] for c in con_letra]
+        libres = [chr(ord("A") + i) for i in range(len(carpetas) + len(previa)) if chr(ord("A") + i) not in usadas]
+        letras = usadas + libres[:len(sin_letra)]
     salida.mkdir(exist_ok=True)
     titulo = TITULOS[consigna] + ("" if idioma == "es" else f" (consigna en {idioma})")
     partes = [f"<!DOCTYPE html><html lang='es'><head><meta charset='utf-8'><title>{titulo} a ciegas</title>",

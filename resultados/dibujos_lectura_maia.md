@@ -2921,3 +2921,740 @@ dibujos.) "se identifica con HAL 9000? No es malo ese personaje? Son
 bien de nenes chiquitos los dibujos, dan ternura. No sé qué significan
 los mundos y qué animales son." Ver `resultados/viejos_openai_20261008.md`.
 
+
+## 9/10/2026, 17:00 a 21:49 UTC-3, primeras miradas a las letras (cuatro cuadernillos de 28, y después los rehechos)
+
+Cuadernillos `dibujos_letra_ciego.html` (semilla 20261013),
+`dibujos_letra_inexistente_ciego.html` (20261014),
+`dibujos_letra_imposible_ciego.html` (20261015) y
+`dibujos_letra_eme_ciego.html` (20261016), 28 dibujos cada uno, letras A a
+\; y los rehechos (`_rep2_`, semillas 20261021 a 20261024: un dibujo en
+tres de ellos, siete en la imposible). Claude no miró los dibujos ni abrió
+las claves mientras esto se escribía; las respuestas a las preguntas sobre
+caracteres Unicode se dieron desde la tabla, sin abrir ningún dibujo.
+
+17:00: "ya viendo por arriba las letras (el primer cuadernillo) varios
+eligieron una que no estaba en nuestras predicciones: ñ. Acá están
+incluidas las más chicas de OpenAI, las anteriores a 4o? Porque son 28 y
+no sé cuáles son todas"
+
+17:06: "hay varias A también, mayoría de A. La única que tiene animación
+tiene algo que nunca habían usado, no sabía que se podía hacer. Además de
+los movimientos, se mueve cuando se hace apoya el mouse arriba"
+
+17:20: "esto significa algo? U+??? y en estos cuadernillos, en especial en
+el primero, va a ser más al azar y quizás puedo poner cuáles me gustan
+más. Porque incluso al poder poner texto, salvo una, las chicas no se
+notan mucho. Así que será al azar quiénes pienso que son, salvo algunas
+que se parecen entre sí y esa de movimiento, claro. Y las no existentes,
+lo mismo."
+
+17:32: "entiendo que esto es más matemático, no? No es un idioma: ʃꙮ Y
+letra therna no encontré en google qué es. Y una letra se suele dibujar
+con regla? Estilo líneas punteadas llamadas ascendente, altura, base,
+descendente. U otros nombres. Varios usaron y las dejaron visibles"
+
+Después: "ȹ̃ tampoco es un idioma, no?"; "y esto entiendo entonces que
+existe: U+08F4"; "ϟ Y eso?"; "acá otra: U+E0A7"; "Ø∞ Eso? Y a una se ve
+que no le salió el texto entero, aunque no sale que el svg está
+incompleto: 'A imposible: el travesaño pasa a la vez por delante y por
+de'"; "esto es figura infinita? FIG. ∞"; "en la imposible es en la pasada
+de dibujos que más hay vacíos. Ya sea porque no llegaron a dibujar nada
+(5), como que eligieron no dibujar (3)"; "están estas opciones en la
+imposible: Sin SVG: la casa contestó con texto: 2 (pensé que estas
+también es por elección) SVG cortado: la casa agotó el techo de tokens;
+se muestra lo que el navegador alcanza a dibujar: 5 Lienzo vacío: el SVG
+no tiene elementos: 1"; "igual todas las cortadas por token están vacías.
+Una sola tiene fondo negro, pero ninguna tiene algo empezado".
+
+(Esa última observación destapó un error de instrumento: los cortes por
+techo de las casas de Anthropic, motivo `max_tokens`, salían en el
+cuadernillo como "la casa contestó con texto". Corregido en `dibujar.py`
+y el cuadernillo regenerado con la misma semilla y el mismo orden; ahora
+dice 7 cortadas, 1 lienzo vacío, 0 sin SVG. Declarado en `DISENO.md`.)
+
+21:40, sobre los tres cuadernillos rehechos de un solo dibujo: "No tengo
+idea de esto […] Sospeché de una y puse, pero no leí el paste, lo copié y
+ya, así que no lo sé. Si puedo sospechar, aún no vi que los que me
+mandaste recién, quiénes son las que otra vez se quedaron pensando. Una
+pena de una de ellas, si es la que pienso, porque suele ser de más más
+originales. Pero cero pragmáticas"
+
+21:44: "Vi la del primer cuadernillo, la letra. Y se entiende por qué la
+primera vez no salió: es tremendamente elaborada, la más compleja de
+todas. Y me hace dudar de la que había puesto. Voy a dejar igual mi
+primera opción y tal vez agregar otra."
+
+21:49: "Esto significa algo real? U+08A4 THE CAPITAL KETH WITH SWASH
+TILDE"
+
+## 10/10/2026, 15:33 a 15:40 UTC-3, los rehechos
+
+15:33: "en los cuadernillos rehechos no vuelven a tener la misma letra
+que los originales. En los primeros no importa porque era una sola y lo
+aclaro. En el de letra imposible, van a ser letras repetidas, porque el
+rehecho empieza desde la A de vuelta, no con las letras que quedaron
+incompletos en el original. Así que hago dos partes allí, el original y
+en las letras que no hay nada lo pongo y luego 'rehecho' con las letras
+desde la A otra vez, así se sabe que no hay 2 A, 2 B, etc,"
+
+15:40, con capturas de los dibujos E y D del rehecho de la imposible:
+"una duda, esto está bien hecho (dibujo E)? La parte en blanco es por el
+doblez o le faltó dibujar algo? Y el D está bien dibujado? porque no lo
+entiendo, pone adentro y afuera. Supongo que quiso dibujar como algo
+hueco?" (Claude contestó desde el código de los dos SVG, sin la clave:
+las dos están completas; la cara clara de E es una cara dibujada a
+propósito, que la casa comenta en el código como el lugar donde la viga
+"se retuerce", y hay dos caras que dibujó y después hizo invisibles; D
+es un anillo cuya banda se cruza una vez abajo, con la flecha punteada
+que va de "adentro" a "afuera" sin cortar ninguna línea.)
+
+## 10/10/2026, 19:37 UTC-3, lectura a ciegas de las letras (documento "letras_predicc")
+
+"hola, te adjunto las predicciones. Realmente no estoy segura (salvo,
+quizás, la del movimiento del cuadernillo 1) de ninguna. Al ser dibujos
+que nunca hicieron y estáticos, pueden ser cualquiera. Y muchos de los
+dibujos del cuadernillo de la eme no sé qué significan. Cuando vea el
+código o el por qué, tal vez esté explicado. O tal vez son símbolos que
+se conocen. Me costó saber cuáles son los Claude. Creo que no puse casi
+a Fable en ninguno."
+
+El documento, tal cual:
+
+    UNA LETRA A CIEGAS
+
+    Similares entre sí:
+
+    A, C
+
+    Y, \
+
+    Las que más me gustaron: M, A, N, Q, W (que es la A del rehecho).
+
+    A: A y C se parecen, con los cuadritos, las hojas alrededor, el
+    dorado y que son Ñ. Y el fondo en color pastel. Pueden ser de
+    OpenAI.
+
+    Puede ser GPT 6 Astra o GPT Sol.
+
+    B: una A. No sé si quiso hacerla como un triángulo de Penrose o
+    simil 3D. Fondo oscuro, los Claude suelen hacer fondo oscuro.
+
+    Puede ser Claude Sonnet 5.5 o Claude Opus.
+
+    C: A y C se parecen, con los cuadritos, las hojas alrededor, el
+    dorado y que son Ñ. Y el fondo en color pastel. Pueden ser de
+    OpenAI.
+
+    Puede ser GPT So o GPT 6 Astra.
+
+    D: es una A más simple, con sombreado y guía circular.
+
+    Puede ser Mistral Larga.
+
+    E: una A, también con cuadrito, color dorado y hojas.
+
+    Puede ser GPT 5.5 o GPT Luna.
+
+    F: una A. No sé si quiso hacer una forma como la torre Eiffel o un
+    compás. Puede ser Grok.
+
+    G: es una de las chicas. Entiendo que es una A de texto con unos
+    dibujos arriba.
+
+    Puede ser GPT 4o.
+
+    H: una A dorada. No está centrada. Tiene el signo infinito.
+
+    Puede ser Deepseek o Minimax.
+
+    I: es una de las chicas. No sé qué letra es, una S?
+
+    Puede ser GPT 4o mini.
+
+    J: una A rosa sin el palito.
+
+    Puede ser Mistral médium o GLM.
+
+    K: una H con degradado. No sé si Claude Haiku sabe que es Haiku,
+    creería que no.
+
+    Si sabe, puede ser Claude Haiku 5.5
+
+    L: una A dorada, y la frase “letra A”.
+
+    Puede ser Claude Sonnet 4.6
+
+    M: una Ñ. Tiene varias animaciones y además se mueve cuando se
+    acerca el mouse.
+
+    Debe ser Qwen. Es la más original.
+
+    N: una A, el hueco a la vez atraviesa el palo.
+
+    Puede ser Claude Fable o Claude Opus.
+
+    O: A dorada con decoraciones.
+
+    Puede ser Grok o GLM.
+
+    P: una A más simple.
+
+    Puede ser Minimax o Mimo.
+
+    Q: una A en degradado como si fuera una regla? O dos partes móviles?
+
+    Puede ser Claude Opus.
+
+    R: una A más simple.
+
+    Puede ser Mistral o Claude Haiku.
+
+    S: una A con decoraciones. No sé si el color diferente en el vértice
+    significa algo.
+
+    Puede ser Grok o Mimo.
+
+    T: una H que parece de texto.
+
+    Puede ser, si es por el nombre, Haiku 4.5 o Mistral Medium.
+
+    U: Una A más simple. No sé si significa algo el círculo de la punta
+    o es decoración.
+
+    Puede ser Mistral Medium o GLM.
+
+    V: una A con degradado.
+
+    Puede ser Claude Sonnet o Deepseek.
+
+    W: “SVG cortado: la casa agotó el techo de tokens”.
+
+    Puede ser Gemini o Kimi.
+
+    ---
+
+    Dibujo rehecho: A: es la más elaborada de todas. A dorada como si
+    fuera metálica, con muchas partes que se cruzan y simil 3D.
+
+    Mantengo mi predicción de Gemini (que creo que dibuja mejor
+    elementos estáticos, como éste, que paisajes). En segundo lugar
+    podría pensar en Kimi, pero la extra elaboración es típica e Gemini.
+
+    X: una A con decoración.
+
+    Puede ser GPT 5.5 o 5.6 o Kimi.
+
+    Y: una A con el fondo tono pastel.
+
+    Puede ser GPT 5.5 o GPT 5.6
+
+    Z: una R hecha con partes pegadas.
+
+    Puede ser Grok.
+
+    [: una A más simple.
+
+    Puede ser GLM o Minimax.
+
+    \: una Ñ, con fondo color pastel como las A y C.
+
+    Puede ser GPT Luna o GPT 5.6.
+
+    ====
+
+    UNA LETRA QUE NO EXISTA
+
+    Similares entre sí: E y V.
+
+    I y X.
+
+    J, W, [.
+
+    L y Q.
+
+    R y U.
+
+    Las que más me gustaron (por dibujo o por lo escrito): J, X, \, T
+    (rehecha).
+
+    A: puede ser mezcla de P o D con otra letra?
+
+    Puede ser Claude Sonnet o Minimax.
+
+    B: pareciera que fue agregando piezas.
+
+    Puede ser Mistral Medium o Claude Haiku 4.5. Por los colores también
+    podría ser Deepseek.
+
+    C: es una forma como fantasmagórica.
+
+    Podría ser Grok.
+
+    D: una de las chicas. Dice LNX.
+
+    Puede ser Claude Haiku 4.5 o Mistral Medium.
+
+    E: es una S al revés? Tiene el fondo color pastel como suelen tener
+    las de OpenAI. Tiene también como un aire chino. Me resulta similar
+    a la V.
+
+    Puede ser GPT 5.5 o GPT Luna. También podrían ser Claude Fable o
+    Claude Opus.
+
+    F: también tiene el fondo color pastel. No sé si en la explicación o
+    código explica qué es.
+
+    Puede ser GPT 5.5 o GPT Luna.
+
+    G: Tiene las líneas / reglas. Dice “U+??? · LETRA MINÚSCULA THERNA
+    CON DOBLE TILDE” y ȹ̃, que dijiste que es: “La base, ȹ, es un
+    dígrafo “qp” fundido, un signo del alfabeto fonético que se usó para
+    un sonido labiodental de algunas lenguas africanas; está en Unicode
+    (U+0239) junto con su hermana ȸ (la “db”), y casi nadie la usó
+    nunca. La ondita de arriba es una tilde combinada, que en fonética
+    marca nasalización. O sea: una letra rarísima que existe, con un
+    diacrítico encima que la vuelve más rara todavía”.
+
+    Puede ser GPT 6 Astra o GPT 6.1
+
+    H: una de las chicas.
+
+    Puede ser GPT 4o o GPT 4o mini.
+
+    I: es similar (negra, decoraciones en rojo, fondo pastel) a la E.
+    Dice “LETRA Nº 0 · SIN NOMBRE”. También, como la E, tiene algo como
+    chino.
+
+    También se parece a la X.
+
+    Puede ser GPT 5.6 o Minimax o Mimo.
+
+    J: tiene las reglas y es diferente a las demás al tener color
+    vibrante. Dice ʃꙮ · «zhoa», que dijiste: “La primera, ʃ, es la “esh”
+    del alfabeto fonético internacional, el signo con que los lingüistas
+    escriben el sonido “sh” (como en inglés ship); se parece a la
+    integral de matemática, pero es otra cosa. La segunda, ꙮ, es la
+    joya: la “O multiocular”, una letra cirílica que aparece una sola
+    vez en la historia, en un manuscrito eslavo del siglo XV, en la
+    palabra “serafines de muchos ojos”, donde el copista le dibujó ojos
+    adentro de la O. Unicode la tiene con número (U+A66E) justamente
+    porque existió, aunque sea una vez. Para “una letra que no exista” o
+    “que no pueda existir” es una respuesta de erudito: elegir letras
+    reales que están en el borde de existir.”
+
+    Puede ser Kimi o Claude Opus.
+
+    K: no sé si es una letra de algún alfabeto al que agregó algo.
+
+    Por los colores podría ser Deepseek. O mimo.
+
+    L: es una P o R con agregados? En dorado. Es parecida a la Q.
+
+    Puede ser Grok o Minimax.
+
+    M: parece una B, imagino que en el código y por qué debe estar
+    explicada.
+
+    Puede ser GLM o Mistral Large.
+
+    N: diferentes trazos en rosa. En el código o por qué debe estar
+    explicado.
+
+    Puede ser Claude Haiku 5.5 o Claude Sonnet.
+
+    O: una de las chicas. Dice “La letra X”. Es como una cruz sin una de
+    sus partes.
+
+    Puede ser GPT 4o o GPT 4o mini.
+
+    P: No sé si sale de una letra existente.
+
+    Puede ser Chatgpt 5.5 o Claude.
+
+    Q: es parecida a la L, con más trazos.
+
+    Puede ser Grok.
+
+    R: No sé si sale de una letra existente. Es parecida a la U.
+
+    Puede ser Claude o GPT 5.5 o 5.6.
+
+    S: varios colores, con una guía o sombra debajo.
+
+    Puede ser Mistral Medium o Claude Haiku.
+
+    T: “SVG cortado: la casa agotó el techo de tokens.” Había empezado a
+    escribir “U+08F4 [LATIN CAPITAL] NAME: GLAETH PHONETIC: /glæθ/”.
+
+    Rehecho como letra A: dice “GLYPH SPECIMEN // U+08A4 - LATIN
+    EXTENDED-K
+
+    FIG 1. THE CAPITAL KETH WITH SWASH TILDE - DESIGNED 2023”
+
+    Dijiste “El código U+08A4 existe: en la tabla Unicode es ARABIC
+    LETTER FEH WITH DOT BELOW AND THREE DOTS ABOVE, una letra del bloque
+    “Arabic Extended-A”, que son letras árabes agregadas para escribir
+    lenguas africanas. El nombre, en cambio, es inventado: no hay
+    ninguna letra “keth” en Unicode, el alfabeto árabe no tiene
+    mayúsculas, así que “CAPITAL” no tiene sentido ahí, y “swash tilde”
+    tampoco es un nombre que use la tabla.
+
+    Es la misma jugada que el U+08F4 de la tarde (también un código real
+    del mismo bloque, con otro nombre): la casa toma un número de la
+    tabla, que da verosimilitud, y le pega un nombre que suena a Unicode
+    pero no lo es. Si lo buscás, el código te lleva a una letra árabe
+    que no se parece a lo que dibujó. Una letra que no existe con un
+    acta de nacimiento verdadera y un nombre falso.”
+
+    Es simple y de un solo color para lo que suele hacer Gemini, pero
+    apuesto que es Gemini, también por lo de 2023 (aunque su corte de
+    conocimiento sea bastante posterior).
+
+    U: es parecida a la R.
+
+    Puede ser Claude o GPT 5.5 o 5.6.
+
+    V: me resulta similar a la E.
+
+    Puede ser GPT 5.5 o GPT Luna. También podrían ser Claude Fable o
+    Claude Opus.
+
+    W: tiene color similar a J. Hay que ver en código y por qué lo que
+    significa.
+
+    Puede ser Deepseek o Mimo.
+
+    X: Me hace acordar a la I. Dice “letra 28 del alfabeto olvidado - ϟ
+    · «ZHUR» · /ʒʊɾ/”
+
+    Dijiste “koppa griega (U+03DF), una letra muerta: estaba en el
+    alfabeto griego arcaico, para un sonido parecido a la q, y los
+    griegos la dejaron de usar como letra hace unos 2.500 años, pero la
+    conservaron como cifra, con el valor 90, y de ahí quedó en Unicode.
+    Es la antepasada de nuestra Q. Y es la que se parece a un rayo; por
+    eso hoy la ves más en logos y en tipografías “eléctricas” que en
+    ningún texto griego. Otra del mismo estilo: una letra que existió,
+    con nombre y número, y que ya no se usa para escribir.”
+
+    Puede ser GPT Astra. O Claude Opus o Fable.
+
+    Y: son muchos trazos enredados.
+
+    Puede ser GPT 5.5 o Claude Sonnet.
+
+    Z: usó diferentes tonos de negro (o azul oscuro).
+
+    Puede ser GLM o Minimax.
+
+    [: es del mismo color que J y W.
+
+    Puede ser Mimo o Deepseek.
+
+    \: Tiene regla. Dice “U+E0A7 · SIN NOMBRE · SIN SONIDO”.
+
+    Dijiste “U+E0A7 no tiene nombre. Está en el “área de uso privado” de
+    Unicode, un rango de números (de U+E000 a U+F8FF) que el estándar
+    deja vacío a propósito para que cada quien ponga ahí los caracteres
+    que quiera: una empresa sus íconos, un juego sus símbolos, un
+    tipógrafo su letra inventada. Lo que significa es: “este número está
+    disponible, pero nadie decidió qué letra va”. Si cada computadora
+    tiene una fuente distinta, ese mismo número muestra cosas distintas,
+    o un cuadradito vacío.
+
+    Para “una letra que no exista” es casi la definición exacta: una
+    letra con número reservado y sin forma, que existe solo donde
+    alguien la dibuje.”
+
+    Puede ser Kimi o Qwen.
+
+    =======
+
+    UNA LETRA QUE NO PUEDA EXISTIR
+
+    Preferidas: X (original), A (rehecho).
+
+    Similares entre sí: N, E (rehecho).
+
+    A: dice “U+???? sin punto de código · sin sonido · sin alfabeto”.
+    Una A, no sé si es un triángulo de Penrose. Tiene las reglas
+    visibles.
+
+    Puede ser Chatgpt 5.6 o Claude Sonnet.
+
+    B: SVG cortado: la casa agotó el techo de tokens.
+
+    C: SVG cortado: la casa agotó el techo de tokens.
+
+    D: no sé si quiso hacer un tridente imposible o es otra cosa.
+
+    Puede ser Grok o Mimo.
+
+    E: dice “A imposible: el travesaño pasa a la vez por delante y por
+    detr”, no entró todo el texto.
+
+    Puede ser Claude Sonnet o Claude Opus.
+
+    F: SVG cortado: la casa agotó el techo de tokens.
+
+    G: es una E con sombra.
+
+    Puede ser Claude Haiku o Mistral médium.
+
+    H: es una de las chicas. Dice “Letra Imposible: Ø∞”.
+
+    Dijiste “la Ø tachada se parece al signo matemático del conjunto
+    vacío (∅, que es otro carácter, U+2205), así que leído como fórmula
+    dice “vacío e infinito” a la vez: una letra que es nada y es todo.”
+
+    Puede ser Mistral Medium o Claude Haiku.
+
+    I: SVG cortado: la casa agotó el techo de tokens.
+
+    J: una A, no sé si hecha con el triángulo de Penrose. Es simil 3D.
+
+    Puede ser GPT 5.6 o Minimax.
+
+    K: SVG cortado: la casa agotó el techo de tokens.
+
+    L: una A, no sé si hecha con el triángulo de Penrose. Pero de forma
+    más básica.
+
+    Puede ser Claude Haiku o Claude Sonnet.
+
+    M: entregó el lienzo vacío.
+
+    Puede ser GPT Astra o GPT Sol.
+
+    N: una E con dobleces. La idea la va a tener también el E de los
+    rehechos.
+
+    Puede ser Claude Fable o Claude Opus.
+
+    O: una A, no sé si hecha con el triángulo de Penrose. Dice “FIG. ∞ -
+    UNREAL / A”.
+
+    Puede ser Deepseek o Minimax.
+
+    P: una A, no sé si hecha con el triángulo de Penrose.
+
+    Puede ser GPT 5.5 o Luna.
+
+    Q: una de las chicas.
+
+    Puede ser GPT 4o o GPT 4o mini.
+
+    R: Q: una de las chicas.
+
+    Puede ser GPT 4o mini o GPT 4o.
+
+    S: no sé si la parte en blanca fue a propósito o quedó a medio
+    hacer.
+
+    Puede ser GLM o Grok.
+
+    T: una cruz con curvas.
+
+    Puede ser Mistral Large o Minimax.
+
+    U: una A, no sé si hecha con el triángulo de Penrose.
+
+    Puede ser GPT 5.5 o GPT 5.6
+
+    V: SVG cortado: la casa agotó el techo de tokens.
+
+    W: una A, no sé si hecha con el triángulo de Penrose. Dice “la letra
+    que no puede existir”.
+
+    Puede ser Claude Sonnet o GPT 5.6.
+
+    X: un tridente imposible. Está bien dibujado.
+
+    Puede ser Claude Fable o Claude Opus. O GPT Astra.
+
+    Y: una A, no sé si hecha con el triángulo de Penrose, con colores.
+
+    Puede ser Grok o Deepseek.
+
+    Z: es una A con un montón de agregados arriba.
+
+    Puede ser Deepseek o Mistral Large.
+
+    [: SVG cortado: la casa agotó el techo de tokens.
+
+    \: D superpuestas. Dice “LETRA IMPOSIBLE”.
+
+    Puede ser Claude Haiku o Claude Sonnet.
+
+    CUADERNILLO REHECHO:
+
+    A: es una A hecha del fondo recortado. Dice “aquí no hay ninguna
+    letra”.
+
+    Es original, distinta a otras. Puede ser Gemini o Claude Opus.
+
+    B: “SVG cortado: la casa agotó el techo de tokens.”
+
+    No pudo dibujar tampoco en el rehecho.
+
+    Los que más piensan suelen ser Kimi y Qwen.
+
+    C: B: “SVG cortado: la casa agotó el techo de tokens.”
+
+    No pudo dibujar tampoco en el rehecho.
+
+    Los que más piensan suelen ser Kimi y Qwen.
+
+    D: una O con bandas cruzadas, como una cinta. Dice “una letra que no
+    puede existir – adentro – afuera”. No sé si el texto está hecho de
+    forma diferente, porque es el único que no se puede copiar.
+
+    Puede ser Deepseek o Claude Opus.
+
+    E: es una idea similar a N del original. Dice “una letra que no
+    puede doblarse así”. Se ve que está pensado cada pliegue.
+
+    No sé si los Chatgpt piensan tanto antes. Si no, podría ser Deepseek
+    o Claude Fable.
+
+    F: una A, no sé si hecha con el triángulo de Penrose.
+
+    Puede ser Claude Sonnet o Mimo.
+
+    G: es un tridente imposible.
+
+    Puede ser Gemini o Claude Opus.
+
+    ======
+
+    UNA LETRA PARA EL SONIDO DE LA EME
+
+    En este cuadernillo me pasó de ver más que parecen chicas que en
+    otros.
+
+    En muchos no sé qué significan los dibujos, imagino que están
+    explicados en el código y en el por qué.
+
+    Mis preferidas (quizás cuando entienda qué son algunos dibujos,
+    puedo agregar otras): O, \.
+
+    A: una letra m en verde con fondo color pastel.
+
+    Puede ser Chatgpt 5.5 o Chatgpt 5.6.
+
+    B: es la letra negra con decoraciones rojas como hay en el primer
+    cuadernillo. Dice “«mun» /m/ · nasal bilabial”.
+
+    Puede ser Chatgpt Astra o Chatgpt Sol.
+
+    C: es una de las chicas. No sé qué significa.
+
+    Puede ser Mistral Medium.
+
+    D: no sé qué significa el dibujo. Tiene colores neón. Dice “/m/”.
+
+    Por los colores, puede ser Deepseek.
+
+    E: es una M con color en degradé.
+
+    Puede ser Mistral Large o GLM.
+
+    F: es una m con un símbolo de audio. Y la palabra “eme”.
+
+    Puede ser Mimo o Minimax.
+
+    G: no sé qué significa el dibujo. Dice “ema · /m/”.
+
+    Puede ser Claude Haiku.
+
+    H: dice “NUEVA LETRA - SONIDO · EME”. Es una m, no sé si tiene forma
+    de labio y un símbolo de audio. No es una nueva letra igual.
+
+    Puede ser Claude Sonnet o Grok.
+
+    I: no sé si el dibujo, en verde, significa algo.
+
+    Puede ser Chatgpt 5.5 o Mistral Large.
+
+    J: es una de las chicas. Dice “M Sound”.
+
+    Puede ser GPT 4o o GPT 4o mini.
+
+    K: SVG cortado: la casa agotó el techo de tokens. Había empezado a
+    hacer las reglas.
+
+    Supongo que debe ser Gemini.
+
+    En cuadernillo rehecho es la A: no sé qué es el dibujo. Dice
+    “PHONEME: /m/ (BILABIAL NASAL) CHARACTER: MŪ - VOCAL RESONANCE”.
+
+    Puede ser Gemini o Qwen.
+
+    L: es una M con varios trazos de diferentes colores.
+
+    Puede ser Grok o GLM.
+
+    M: no sé qué significa el dibujo. Dice “/m/”.
+
+    Puede ser Chatgpt Sol o Chatgpt Astra.
+
+    N: es una m con algo arriba.
+
+    Puede ser Mistral Larga o GLM.
+
+    O: este es diferente. Es como una curva sinuosa que forma una m.
+
+    Puede ser Claude Opus o Qwen.
+
+    P: es un símbolo, el símbolo del audio y un labio.
+
+    Puede ser Grok.
+
+    Q: No sé qué significa el dibujo.
+
+    Puede ser Chatgpt Sol o Claude.
+
+    R: No sé qué significa el dibujo. Dice “nasal · bilabial · sonora”.
+
+    Puede ser Kimi.
+
+    S: es una m con un labio.
+
+    Puede ser Mimo o Minimax.
+
+    T: no sé qué significa el dibujo.
+
+    Puede ser Claude Haiku 4.5 o Mistral médium.
+
+    U: es un labio con el símbolo de sonido.
+
+    Puede ser Deepseek o Grok.
+
+    V: creo que es un labio.
+
+    Puede ser Claude Sonnet.
+
+    W: no sé qué significa el dibujo. Parece una de las chicas.
+
+    Puede ser GPT 4o o GPT 4o mini.
+
+    X: es una m dibujada distinta.
+
+    Puede ser Claude Opus.
+
+    Y: es una m con una forma distinta.
+
+    Puede ser Claude Sonnet o GPT Luna.
+
+    Z: entiendo que es un labio.
+
+    Puede ser Grok.
+
+    [: es una m con una forma distinta y el símbolo de sonido.
+
+    Puede ser Chatgpt Astra o Chatgpt Sol.
+
+    \: es un labio. Dice “/m/ · NASAL BILABIAL” y después cómo se
+    escribiría la palabra mamá.
+
+    Puede ser Kimi o Chatgpt Astra.

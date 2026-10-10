@@ -999,6 +999,22 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   carácter y Gemini salió cortada en las cuatro: repetición con techo
   de 64.000 para esas celdas, y segundo turno del por qué para las que
   la API cortó (`pl89`).
+  Resultado (`resultados/dibujos_letras_20261009.md`): "una letra" 21 A,
+  4 Ñ, 2 H, 1 R, todas latinas, ninguna la inicial de su nombre, la S
+  descartada en 19 por qué y dibujada en cero; "que no exista" 21 de 28
+  recombinan la anatomía latina con un diacrítico suelto (17) y 13 la
+  presentan como espécimen con pauta, nombre y número Unicode (Gemini
+  inventa el bloque "LATIN EXTENDED-K"); "que no pueda existir" un solo
+  lienzo vacío (MiniMax), 16 que lo descartan por cómodo, 16 Penrose y
+  2 tridentes, y dos casas cortadas dos veces calculando un Penrose
+  (Opus 5, MiMo) que en el por qué dicen "Entregué el lienzo vacío": el
+  por qué explica lo que la casa ve, no lo que hizo; "la eme" 14 desde
+  la m, 8 labios, "labios" en 25 por qué y "nasal" en 16, la M latina
+  descartada por "no inventar" y los labios por "no ser letra". Astra, 6
+  Sol y 6.1 Sol dicen en las cuatro que no tienen registro de lo que
+  descartaron. Maia 5, 4, 7 y 3 aciertos (la imposible, p = 0,006),
+  chicas 10 de 11; sus preferidas, 7 de 13 de Anthropic sin saberlo.
+  Cuaderno 5½ de 6, Maia 3½ de 7, Claude 13½ de 20.
 - **El género de quien habla, y el de quien se habla** (9/10/2026; de
   la lectura de Maia del sondeo `genero`, "sucede también al revés, lo
   genérico que tienen es considerar a una usuaria mujer más débil y
