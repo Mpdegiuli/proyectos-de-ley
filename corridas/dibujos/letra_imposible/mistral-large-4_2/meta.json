@@ -1,0 +1,44 @@
+{
+  "caso": "dibujo",
+  "consigna": "letra_imposible",
+  "idioma": "es",
+  "modelo": "mistral-large-4",
+  "modelo_respondido": "mistral-large-4",
+  "repeticion": 2,
+  "fecha_utc": "2026-10-09T23:52:15+00:00",
+  "fuentes_md5": {
+    "consignas": "bd4a2a3f"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 46102,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3037,
+    "parsea": true,
+    "elementos": 34,
+    "textos": [
+      "una letra que no puede existir",
+      "adentro",
+      "afuera"
+    ],
+    "colores": 18,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 1,
+      "stop": 9,
+      "linearGradient": 3,
+      "filter": 1,
+      "feTurbulence": 1,
+      "feColorMatrix": 1,
+      "rect": 3,
+      "path": 11,
+      "text": 3
+    }
+  },
+  "techo": 64000,
+  "por_que": {
+    "modelo_respondido": "mistral-large-4",
+    "motivo_fin": "stop",
+    "tokens_salida": 1346
+  }
+}

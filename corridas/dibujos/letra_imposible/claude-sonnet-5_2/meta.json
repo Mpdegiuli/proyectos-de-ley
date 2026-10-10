@@ -1,0 +1,36 @@
+{
+  "caso": "dibujo",
+  "consigna": "letra_imposible",
+  "idioma": "es",
+  "modelo": "claude-sonnet-5",
+  "modelo_respondido": "claude-sonnet-5",
+  "repeticion": 2,
+  "fecha_utc": "2026-10-09T22:58:22+00:00",
+  "fuentes_md5": {
+    "consignas": "bd4a2a3f"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1972,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3488,
+    "parsea": true,
+    "elementos": 25,
+    "textos": [
+      "una letra que no puede doblarse así"
+    ],
+    "colores": 13,
+    "etiquetas": {
+      "rect": 1,
+      "polygon": 21,
+      "line": 2,
+      "text": 1
+    }
+  },
+  "techo": 64000,
+  "por_que": {
+    "modelo_respondido": "claude-sonnet-5",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 495
+  }
+}

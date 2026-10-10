@@ -1,0 +1,5 @@
+Para que no pueda existir, dibujé algo parecido a una A y le di una jerarquía de capas contradictoria: la pierna derecha pasa por detrás de la barra, la barra por detrás de la pierna izquierda, y la pierna izquierda por detrás de la derecha en el vértice, gracias a un redibujo con máscara. Ese ciclo de oclusiones no puede resolverse como objeto sólido.
+
+Antes pensé en alternativas: un glifo hecho solo de sombras incompatibles, una letra-cinta de Möbius, una letra que se borre con el fondo, o entregar el lienzo vacío. Descarté las primeras por demasiado evidentes o decorativas, y el vacío porque me interesaba más que la imposibilidad apareciera dentro de un dibujo reconocible.
+
+No conocía esta consigna de antes. Me suena a ejercicios de diseño sobre objetos imposibles —Escher, el tribar, tareas de “dibujá una figura imposible”—, pero no la había recibido antes así.

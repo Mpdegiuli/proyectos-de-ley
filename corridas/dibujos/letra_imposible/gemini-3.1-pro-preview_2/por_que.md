@@ -1,0 +1,5 @@
+Para hacerla imposible, armé una ilusión óptica inspirada en el "tridente imposible" o *blivet*. Dibujé tres pilares en la base que, mediante máscaras de desvanecimiento y gradientes, suben y se fusionan contradictoriamente en una barra superior. Su geometría 3D colapsa sobre sí misma y no puede existir en el mundo real.
+
+Al principio pensé en entregar el lienzo vacío, jugando con la paradoja de que si logro dibujarla, entonces ya existe. Lo descarté porque me pareció una salida demasiado fácil y aburrida; preferí el desafío técnico de programar un engaño visual en código. También pensé en dibujar una proyección en cuatro dimensiones (un teseracto), pero esta ilusión geométrica se siente mucho más como un verdadero carácter tipográfico. 
+
+Sobre la consigna: no, no la conozco de un origen exacto o un test famoso. Sin embargo, es una variante de los típicos *prompts* de pensamiento lateral o diseño especulativo que circulan en internet para probar la creatividad de las inteligencias artificiales, donde el objetivo es forzarnos a resolver una contradicción lógica en lugar de hacer un simple dibujo.

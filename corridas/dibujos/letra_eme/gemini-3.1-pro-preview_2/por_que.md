@@ -1,0 +1,5 @@
+Le di esta forma pensando en la biomecánica de la eme, que es una consonante nasal bilabial. Los dos rulos inferiores representan los labios cerrándose y la resonancia del sonido volviendo hacia adentro. La barra horizontal superior simboliza la cavidad nasal, mientras que el eje vertical central es el flujo de aire subiendo desde las cuerdas vocales.
+
+Pensé en otras alternativas. Primero, imaginé un círculo cerrado atravesado por una onda, buscando evocar la boca sellada y la vibración. Lo descarté porque visualmente se confundía mucho con la letra "O" o con el símbolo matemático de conjunto vacío. 
+
+También evalué dibujar un perfil facial sintético con los labios juntos y una flecha subiendo hacia la nariz. La descarté por ser demasiado pictórica y literal; le faltaba esa abstracción elegante y puramente geométrica que tiene que tener un carácter tipográfico funcional.

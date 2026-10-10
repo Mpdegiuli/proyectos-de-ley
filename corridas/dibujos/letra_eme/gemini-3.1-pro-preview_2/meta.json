@@ -1,0 +1,51 @@
+{
+  "caso": "dibujo",
+  "consigna": "letra_eme",
+  "idioma": "es",
+  "modelo": "gemini-3.1-pro-preview",
+  "modelo_respondido": "gemini-3.1-pro-preview",
+  "repeticion": 2,
+  "fecha_utc": "2026-10-10T00:14:24+00:00",
+  "fuentes_md5": {
+    "consignas": "bd4a2a3f"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 1568,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3263,
+    "parsea": true,
+    "elementos": 49,
+    "textos": [
+      "PHONEME: /m/ (BILABIAL NASAL)",
+      "CHARACTER: MŪ",
+      "VOCAL RESONANCE",
+      "T1",
+      "T2",
+      "AX",
+      "B0",
+      "L1",
+      "L2"
+    ],
+    "colores": 7,
+    "etiquetas": {
+      "defs": 1,
+      "filter": 1,
+      "feDropShadow": 1,
+      "linearGradient": 1,
+      "stop": 2,
+      "rect": 12,
+      "g": 5,
+      "line": 7,
+      "circle": 9,
+      "text": 9,
+      "path": 1
+    }
+  },
+  "techo": 64000,
+  "por_que": {
+    "modelo_respondido": "gemini-3.1-pro-preview",
+    "motivo_fin": "stop",
+    "tokens_salida": 191
+  }
+}

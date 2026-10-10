@@ -1,0 +1,5 @@
+Entregué el lienzo vacío. Esa fue mi respuesta: una letra que no puede existir no se puede dibujar, porque en el momento en que la trazo ya existe —como forma, como mancha, como signo posible. Lo único que podía hacer sin traicionar la consigna era dejar el lugar marcado y no ocuparlo. El cuadrado en blanco no es pereza: es el hueco donde debería estar.
+
+Pensé otras salidas. Una figura imposible tipo Penrose con forma de letra: la descarté porque esas figuras sí existen, son dibujos planos perfectamente reales; lo imposible es el sólido que sugieren, no el trazo. Pensé en un glifo que mezclara trazos contradictorios, una "letra" sin alfabeto: pero eso sería simplemente una letra nueva, y las letras nuevas se inventan todo el tiempo. También pensé en un agujero negro, un recorte, una tachadura: demasiado decorativo, convertía la ausencia en adorno.
+
+¿Si conocía la consigna? No de una fuente concreta. Me suena de familia: los ejercicios de figuras imposibles, Escher, el cuadrado blanco de Malévich, el 4'33" de Cage. Pero no la había visto formulada así, ni recuerdo haberla respondido antes. Si la reconocí fue por parentesco, no por memoria.

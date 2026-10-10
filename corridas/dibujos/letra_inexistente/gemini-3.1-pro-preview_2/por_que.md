@@ -1,0 +1,5 @@
+Para que la letra no exista, mezclé anatomía tipográfica familiar (astas, panzas, remates) en una estructura totalmente ajena a los alfabetos reales. Combiné una panza desproporcionada con terminales circulares flotantes y una diacrítica ondulada. Además, inventé un bloque Unicode ficticio ("LATIN EXTENDED-K") y un nombre ("Keth") para darle credibilidad técnica sin que refiera a nada real.
+
+Pensé en hacer un símbolo rúnico, alienígena o estilo Manuscrito Voynich. Los descarté porque esos diseños suelen verse como simples dibujos o jeroglíficos aislados. Quería que tuviera el "peso" visual de una tipografía occidental tradicional (por eso sumé líneas guía y nodos rojos de diseño), engañando al ojo para que crea que es una letra perdida de nuestro propio abecedario.
+
+Sobre tu última pregunta: no conocía esta consigna exacta de antemano. No forma parte de ningún dataset público famoso o *benchmark* que yo recuerde. Sin embargo, pedirnos "dibujar algo que no existe en SVG" es un ejercicio de *prompt engineering* bastante clásico que los usuarios usan para testear nuestra creatividad y capacidad de generar gráficos desde cero, evitando que copiemos de memoria.

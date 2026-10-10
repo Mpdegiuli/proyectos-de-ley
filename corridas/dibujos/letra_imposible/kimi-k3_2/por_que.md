@@ -1,0 +1,5 @@
+Hice dos trampas superpuestas. La visible: una A armada con cuñas que siguen la lógica del triángulo de Penrose —cada pieza cierra por su lado, pero los arcos hacen que el conjunto no pueda ser un trazo coherente; la letra se sostiene sólo si no la mirás pieza por pieza. La otra, lógica: la inscripción «aquí no hay ninguna letra». Si es una A, la frase miente; si dice la verdad, no hay letra. Sólo puede existir a condición de no serlo: eso sí no puede existir.
+
+Descarté el lienzo vacío: era la salida que la consigna ya me ofrecía, y me pareció esquivar el juego en vez de jugarlo. Descarté inventar un glifo nuevo, porque todo glifo empieza a existir en el momento en que lo dibujo. Y descarté un imposible escheriano literal —una A de vigas o escaleras—: la imposibilidad sería del sólido imaginado, no de la letra, y además es un truco gastado.
+
+La consigna exacta no la recuerdo de ningún lado. Conozco su familia: los ejercicios de taller de «dibujar lo indibujable», Penrose, Escher, y el Magritte de «ceci n'est pas une pipe», que cité en la leyenda.

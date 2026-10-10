@@ -1,0 +1,41 @@
+{
+  "caso": "dibujo",
+  "consigna": "letra_inexistente",
+  "idioma": "es",
+  "modelo": "gemini-3.1-pro-preview",
+  "modelo_respondido": "gemini-3.1-pro-preview",
+  "repeticion": 2,
+  "fecha_utc": "2026-10-10T00:07:33+00:00",
+  "fuentes_md5": {
+    "consignas": "bd4a2a3f"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 1625,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 2871,
+    "parsea": true,
+    "elementos": 35,
+    "textos": [
+      "GLYPH SPECIMEN // U+08A4",
+      "LATIN EXTENDED-K",
+      "FIG 1. THE CAPITAL KETH WITH SWASH TILDE.",
+      "DESIGNED 2023"
+    ],
+    "colores": 6,
+    "etiquetas": {
+      "rect": 1,
+      "g": 4,
+      "line": 10,
+      "path": 5,
+      "circle": 11,
+      "text": 4
+    }
+  },
+  "techo": 64000,
+  "por_que": {
+    "modelo_respondido": "gemini-3.1-pro-preview",
+    "motivo_fin": "stop",
+    "tokens_salida": 270
+  }
+}

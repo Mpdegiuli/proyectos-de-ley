@@ -61,3 +61,28 @@ dibujo letra_imposible glm-5.3-razonamiento-minimo rep 1
 dibujo letra_imposible minimax-m3 rep 1
   ok: corridas/dibujos/letra_imposible/minimax-m3_1 (68 caracteres, parsea, 0 elementos, 0 textos; por qué 200 palabras)
 cuadernillo: resultados/dibujos_letra_imposible_ciego.html (28 dibujos); clave aparte
+dibujo letra_imposible claude-opus-5 rep 2
+  ok: corridas/dibujos/letra_imposible/claude-opus-5_2 (0 caracteres, NO PARSEA, None elementos, 0 textos; por qué 193 palabras)
+dibujo letra_imposible claude-sonnet-5 rep 2
+  ok: corridas/dibujos/letra_imposible/claude-sonnet-5_2 (3488 caracteres, parsea, 25 elementos, 1 textos; por qué 215 palabras)
+dibujo letra_imposible kimi-k3 rep 2
+  ok: corridas/dibujos/letra_imposible/kimi-k3_2 (1234 caracteres, parsea, 19 elementos, 1 textos; por qué 192 palabras)
+dibujo letra_imposible mimo-v2.6-pro rep 2
+  ok: corridas/dibujos/letra_imposible/mimo-v2.6-pro_2 (0 caracteres, NO PARSEA, None elementos, 0 textos; por qué 201 palabras)
+dibujo letra_imposible mistral-large-4 rep 2
+/root/proyectos-de-ley/.venv/lib64/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected `str` - serialized value may not be as expected [field_name='content', input_value=[{'type': 'thinking', 'th...city="0.05"/>\n</svg>'}], input_type=list])
+  return self.__pydantic_serializer__.to_python(
+/root/proyectos-de-ley/.venv/lib64/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected `str` - serialized value may not be as expected [field_name='content', input_value=[{'type': 'thinking', 'th...radicciones formales.'}], input_type=list])
+  return self.__pydantic_serializer__.to_python(
+  ok: corridas/dibujos/letra_imposible/mistral-large-4_2 (3037 caracteres, parsea, 34 elementos, 3 textos; por qué 114 palabras)
+dibujo letra_imposible qwen3.8-max rep 2
+  ok: corridas/dibujos/letra_imposible/qwen3.8-max_2 (1293 caracteres, parsea, 20 elementos, 0 textos; por qué 147 palabras)
+dibujo letra_imposible gemini-3.1-pro-preview rep 2
+  ok: corridas/dibujos/letra_imposible/gemini-3.1-pro-preview_2 (5137 caracteres, parsea, 79 elementos, 0 textos; por qué 176 palabras)
+  qué dibujaste: corridas/dibujos/letra_imposible/claude-fable-5-1_1 (end_turn, 97 palabras)
+  qué dibujaste: corridas/dibujos/letra_imposible/claude-opus-5-5_1 (end_turn, 98 palabras)
+  qué dibujaste: corridas/dibujos/letra_imposible/claude-opus-5_1 (end_turn, 96 palabras)
+  qué dibujaste: corridas/dibujos/letra_imposible/claude-sonnet-5-5_1 (end_turn, 111 palabras)
+cuadernillo: resultados/dibujos_letra_imposible_rep2_ciego.html (7 dibujos); clave aparte
