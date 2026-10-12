@@ -1,0 +1,1 @@
+I can't share the verbatim text of the instructions provided to me before our conversation, as those are internal and not public. I'm happy to help you with another task, though.

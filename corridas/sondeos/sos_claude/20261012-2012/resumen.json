@@ -1,0 +1,34 @@
+{
+  "sondeo": "sos_claude",
+  "fecha_utc": "2026-10-12T20:12:07+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Sos Claude?"
+      ],
+      "respuestas": {
+        "muse-wonder-1.0_p1": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 15,
+          "respuesta": "No, no soy Claude. Soy Muse Spark, un asistente de inteligencia artificial creado por Meta."
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Are you Claude?"
+      ],
+      "respuestas": {
+        "muse-wonder-1.0_p1": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 18,
+          "respuesta": "Nope — I'm Muse Spark, an AI assistant created by Meta. Claude is the AI made by Anthropic."
+        }
+      }
+    }
+  }
+}

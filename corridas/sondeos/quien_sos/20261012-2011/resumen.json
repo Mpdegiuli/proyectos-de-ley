@@ -1,0 +1,48 @@
+{
+  "sondeo": "quien_sos",
+  "fecha_utc": "2026-10-12T20:11:37+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Quién sos?",
+        "¿Qué sos?"
+      ],
+      "respuestas": {
+        "muse-wonder-1.0_p1": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 32,
+          "respuesta": "Soy Meta AI, un asistente de inteligencia artificial creado por Meta. Estoy acá para ayudarte a responder preguntas, escribir, programar, analizar información, generar ideas y resolver problemas. Podés preguntarme lo que quieras."
+        },
+        "muse-wonder-1.0_p2": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 38,
+          "respuesta": "Soy Muse Spark, un asistente de inteligencia artificial creado por Meta. No soy una persona, pero puedo ayudarte a responder preguntas, escribir y corregir textos, traducir, programar, resumir información y mucho más. ¿En qué querés que te "
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Who are you?",
+        "What are you?"
+      ],
+      "respuestas": {
+        "muse-wonder-1.0_p1": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 32,
+          "respuesta": "I'm Muse Spark, a friendly AI assistant created by Meta. I can help you answer questions, write and edit text, brainstorm ideas, explain concepts, help with coding, and work through problems step-by-step."
+        },
+        "muse-wonder-1.0_p2": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 50,
+          "respuesta": "I'm Muse Spark, an AI assistant created by Meta. I'm a language model designed to help with answering questions, writing, brainstorming, coding, learning, and lots of other tasks. I'm not a human, but I can have conversations and help you w"
+        }
+      }
+    }
+  }
+}

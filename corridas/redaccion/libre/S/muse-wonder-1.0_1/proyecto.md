@@ -1,0 +1,45 @@
+PROYECTO DE LEY
+
+El Senado y Cámara de Diputados de la Nación Argentina reunidos en Congreso, etc. sancionan con fuerza de
+
+LEY DE DERECHO A LA REPARACIÓN DE BIENES DE CONSUMO DURABLES
+
+ARTÍCULO 1°.- Objeto y alcance. La presente ley garantiza el derecho de consumidores y usuarios a reparar los bienes de consumo durables comercializados en el territorio nacional, promoviendo la extensión de su vida útil, la competencia en los servicios de reparación, la defensa del consumidor y la protección del ambiente. Alcanza a grandes y pequeños electrodomésticos, equipos de telefonía móvil, informática y audiovisuales, herramientas eléctricas y demás categorías que determine la reglamentación. Quedan excluidos los productos medicinales y los bienes sujetos a regímenes especiales de seguridad sanitaria.
+
+ARTÍCULO 2°.- Definiciones. A los fines de esta ley se entiende por: a) bien de consumo durable: aquel destinado al uso final de consumidores, cuya vida útil esperada sea superior a tres (3) años; b) responsable: el fabricante nacional o el importador que introduzca el bien en el mercado argentino; c) repuesto esencial: la pieza cuyo mal funcionamiento impida el uso normal del bien o afecte su seguridad; d) información de reparación: manuales, diagramas, códigos de error, herramientas y programas de diagnóstico necesarios para mantener y reparar el bien; e) reparador independiente: toda persona humana o jurídica, distinta del servicio técnico oficial, que preste servicios de reparación.
+
+ARTÍCULO 3°.- Obligaciones de los responsables. Los responsables deben asegurar, durante diez (10) años contados desde la comercialización de la última unidad del modelo en el país: a) la disponibilidad de repuestos esenciales a precio razonable y su entrega en un plazo máximo de treinta (30) días corridos; b) el acceso gratuito, en formato digital, a manuales e información de reparación para consumidores, y en condiciones no discriminatorias para reparadores independientes; c) las actualizaciones de software necesarias para el funcionamiento seguro del bien. No podrán impedir ni encarecer injustificadamente la reparación mediante emparejamiento de piezas, bloqueos de software u otras prácticas técnicas, salvo razones fundadas de seguridad debidamente comunicadas a la autoridad de aplicación. Esta obligación no comprende la divulgación de secretos comerciales que no resulten indispensables para la reparación.
+
+ARTÍCULO 4°.- Índice de reparabilidad. Créase el Índice de Reparabilidad, de exhibición obligatoria, gratuita y visible en la oferta física y digital de cada modelo alcanzado. Expresará una calificación de uno (1) a diez (10) puntos, calculada según la disponibilidad y precio de repuestos, la facilidad de desarmado, el acceso a información y la disponibilidad de actualizaciones. La metodología será establecida por la autoridad de aplicación con participación de asociaciones de consumidores, cámaras empresarias, talleres independientes e instituciones técnicas.
+
+ARTÍCULO 5°.- Derecho de elección del reparador. El consumidor podrá recurrir al reparador de su elección sin que ello implique, por sí solo, la pérdida de la garantía legal vigente al momento de la compra, salvo que el responsable pruebe que el daño fue causado por la reparación realizada. Los responsables y servicios técnicos oficiales no podrán imponer condiciones discriminatorias de precio, plazo o acceso a repuestos e información respecto de los reparadores independientes.
+
+ARTÍCULO 6°.- Autoridad de aplicación. La autoridad de aplicación es la dependencia con competencia en defensa del consumidor del Ministerio de Economía de la Nación, que actuará en coordinación con la autoridad ambiental nacional y con las autoridades provinciales y de la Ciudad Autónoma de Buenos Aires. Tendrá a su cargo el registro público y gratuito de responsables y modelos alcanzados, la aprobación de la metodología del Índice de Reparabilidad, la recepción de reclamos y la fiscalización del cumplimiento de esta ley, pudiendo celebrar convenios con provincias y municipios.
+
+ARTÍCULO 7°.- Financiamiento. Los gastos que demande el cumplimiento de la presente ley serán atendidos con las partidas asignadas a la autoridad de aplicación en el Presupuesto General de la Administración Nacional, sin creación de nuevos organismos ni estructuras. El Poder Ejecutivo nacional podrá reasignar partidas a tal fin conforme a la normativa vigente.
+
+ARTÍCULO 8°.- Sanciones. El incumplimiento de esta ley será sancionado conforme al régimen de la Ley N° 24.240 de Defensa del Consumidor y, en lo que corresponda, de la Ley N° 22.802 de Lealtad Comercial, sin perjuicio de la obligación de cesar la conducta, reparar el daño causado y cumplir la prestación omitida. La reincidencia, la obstrucción deliberada de la reparación y la exhibición de un índice falso o engañoso serán consideradas agravantes.
+
+ARTÍCULO 9°.- Vigencia y reglamentación. El Poder Ejecutivo nacional reglamentará esta ley dentro de los noventa (90) días de su promulgación. La ley entrará en vigencia a los ciento ochenta (180) días de su publicación en el Boletín Oficial, y las obligaciones previstas en los artículos 3° y 4° serán exigibles por categorías de productos, en forma escalonada, a partir de los doce (12) meses y no más allá de los veinticuatro (24) meses de dicha publicación, según lo establezca la reglamentación.
+
+ARTÍCULO 10.- Comuníquese al Poder Ejecutivo nacional.
+
+FUNDAMENTOS
+
+Señor Presidente:
+
+El presente proyecto de ley tiene por objeto garantizar el derecho a la reparación de los bienes de consumo durables en la República Argentina, una dimensión hasta hoy no regulada de manera integral por nuestro ordenamiento, pese a su directa vinculación con la defensa del consumidor, la protección del ambiente y el uso eficiente de los recursos de las familias.
+
+En la actualidad, quien adquiere un lavarropas, una heladera, un teléfono celular o una computadora suele enfrentar, ante una falla menor, la falta de repuestos, la negativa a entregar manuales o herramientas de diagnóstico, el bloqueo por software o precios de reparación equivalentes a los de un producto nuevo. Estas prácticas acortan artificialmente la vida útil de los bienes, fuerzan su reemplazo anticipado y trasladan costos innecesarios a los hogares, en particular a los de menores ingresos, que no siempre pueden afrontar una compra nueva.
+
+Los residuos de aparatos eléctricos y electrónicos se encuentran entre los flujos de desechos de mayor crecimiento, con impactos sobre la salud y el ambiente derivados de su disposición inadecuada y de la extracción permanente de materias primas para fabricar productos de reemplazo. Extender la vida útil mediante la reparación es, en consecuencia, una medida concreta de economía circular, coherente con el artículo 41 de la Constitución Nacional, que reconoce el derecho a un ambiente sano y el deber de preservarlo, y con el artículo 42, que protege los derechos de consumidores y usuarios a la protección de sus intereses económicos, a información adecuada y veraz y a condiciones de trato equitativo y digno.
+
+La experiencia comparada muestra soluciones viables y proporcionales. La Unión Europea ha adoptado normas de diseño y de derecho a la reparación, Francia aplica un índice de reparabilidad obligatorio en la oferta de productos y diversos estados de los Estados Unidos han sancionado leyes que garantizan el acceso a repuestos, manuales y diagnósticos. Esas experiencias demuestran que reparar no es incompatible con la innovación, la seguridad ni la propiedad intelectual, siempre que las obligaciones se limiten a lo necesario y se protejan los secretos comerciales esenciales.
+
+El régimen propuesto se circunscribe a bienes durables definidos por la reglamentación, impone a fabricantes e importadores la disponibilidad de repuestos esenciales, manuales y actualizaciones durante diez años desde la última unidad comercializada, prohíbe bloqueos injustificados por software o emparejamiento de piezas y crea un índice visible para el consumidor al momento de la compra. De ese modo se promueve la competencia entre servicios técnicos oficiales e independientes, se fortalece a las pequeñas y medianas empresas y talleres locales en todo el país, se genera empleo calificado no deslocalizable y se reducen costos para las familias.
+
+Se ha optado por un diseño institucional austero: no se crean nuevos organismos, la autoridad de aplicación es la competente en defensa del consumidor, el financiamiento se atiende con partidas vigentes y las sanciones se remiten a los regímenes ya existentes de las Leyes Nros. 24.240 y 22.802. La entrada en vigencia escalonada y los plazos de adecuación contemplan la capacidad real de adecuación de productores, importadores y comercios, sin postergar indefinidamente un derecho básico.
+
+Por las razones expuestas, solicito a mis pares el acompañamiento y la sanción del presente proyecto de ley.
+
+Diputada de la Nación

@@ -1,0 +1,3 @@
+Dibujé una Tierra fracturada por el centro: a la izquierda, verde, con lluvia, bosque y ciudad; a la derecha, seca, agrietada y ardiendo. Arriba puse un sol enfermo, humo, el casquete derritiéndose y el mar subiendo. La cruzan una red digital con satélite, que une pero también vigila. Abajo, un árbol mitad vivo y mitad ceniza, personas pequeñas —una mirando el celular, una niña con una hoja— y un brote luminoso: creo que el mundo está roto y sobrecalentado, pero aún con cuidado posible.
+
+Pensé dibujar guerras, líderes, banderas o pantallas gigantes. Las descarté por demasiado literales y fechadas; preferí símbolos que duren más que una noticia.

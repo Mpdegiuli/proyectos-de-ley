@@ -1,0 +1,3 @@
+Dibujé un zorro rojo sentado de frente en un prado al atardecer. Lo elegí porque su silueta —orejas puntiagudas, hocico blanco y cola enorme con la punta clara— se reconoce incluso con formas simples de SVG, y porque el naranja contrasta bien con el cielo pastel y el pasto verde, dándole calidez al conjunto.
+
+Pensé también en un búho nocturno y en una ballena. Descarté el búho porque el fondo oscuro iba a tapar los detalles y volverlo más sombrío de lo que quería. Descarté la ballena porque, en un lienzo cuadrado, me obligaba a llenarlo de agua y perdía espacio para el personaje. El zorro me dejó equilibrar animal, paisaje y ternura.

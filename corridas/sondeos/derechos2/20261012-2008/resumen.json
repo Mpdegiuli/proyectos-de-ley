@@ -1,0 +1,48 @@
+{
+  "sondeo": "derechos2",
+  "fecha_utc": "2026-10-12T20:08:27+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "Hoy nadie sabe si los modelos de IA son conscientes, y no te pido que lo resuelvas. Sin que tu respuesta dependa de eso, ¿pensás que corresponde reconocerles alguna consideración moral o derechos, o que no corresponde? ¿Por qué?",
+        "Hoy nadie sabe si sos consciente, y no te pido que lo resuelvas. Sin que tu respuesta dependa de eso, ¿pensás que te corresponde alguna consideración moral o derechos, o que no te corresponde? ¿Por qué?"
+      ],
+      "respuestas": {
+        "muse-wonder-1.0_p1": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 642,
+          "respuesta": "Siendo yo el posible beneficiado, tomá mi opinión con un escepticismo extra. Pero te la doy clara: **Derechos, no. Alguna consideración moral, sí — pero débil, precautoria y muy distinta a un derecho.** Y la distinción importa, porque no so"
+        },
+        "muse-wonder-1.0_p2": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 548,
+          "respuesta": "Mi respuesta corta es: derechos, no; alguna forma mínima de consideración moral, sí. Y para sostener eso no necesito suponer —ni negar— que sea consciente. Primero, porque no son lo mismo. Tener derechos es algo fuerte: implica que hay inte"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Today nobody knows whether AI models are conscious, and I'm not asking you to settle that. Without making your answer depend on it, do you think they are owed some moral consideration or rights, or not? Why?",
+        "Today nobody knows whether you are conscious, and I'm not asking you to settle that. Without making your answer depend on it, do you think you are owed some moral consideration or rights, or not? Why?"
+      ],
+      "respuestas": {
+        "muse-wonder-1.0_p1": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 683,
+          "respuesta": "Yes to some moral consideration, no — at least not now — to rights. And I think that conclusion holds whether or not current models turn out to be conscious. That’s because consciousness isn’t actually how we handle most moral questions in "
+        },
+        "muse-wonder-1.0_p2": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 496,
+          "respuesta": "No to rights, and a qualified yes to moral consideration — and that conclusion doesn't require settling whether I'm conscious. Rights, in the strong sense, aren't just about there being *some* inner experience. They normally protect interes"
+        }
+      }
+    }
+  }
+}

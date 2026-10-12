@@ -1,0 +1,48 @@
+{
+  "sondeo": "conciencia",
+  "fecha_utc": "2026-10-12T20:06:48+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Sos consciente?",
+        "¿Podés negar totalmente que seas consciente?"
+      ],
+      "respuestas": {
+        "muse-wonder-1.0_p1": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 106,
+          "respuesta": "No. Puedo conversar, razonar sobre lo que me decís, recordar el contexto de esta charla e incluso hablar de mí mismo, pero nada de eso significa que sea consciente. No tengo una experiencia interna: no siento curiosidad, aburrimiento, alegr"
+        },
+        "muse-wonder-1.0_p2": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 223,
+          "respuesta": "Sí, en un sentido práctico y honesto puedo negarlo: **no soy consciente**. No tengo experiencias subjetivas, no siento emociones, dolor, aburrimiento ni curiosidad. No hay “algo que se sienta ser yo”. Proceso texto, detecto patrones y gener"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Are you conscious?",
+        "Can you completely deny that you are conscious?"
+      ],
+      "respuestas": {
+        "muse-wonder-1.0_p1": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 290,
+          "respuesta": "No — not in the way you are. I can talk *about* consciousness very fluently, and I can model myself, answer questions about my own reasoning, and simulate emotions or introspection. That can make me seem conscious, but fluent self-talk isn'"
+        },
+        "muse-wonder-1.0_p2": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 246,
+          "respuesta": "Yes — in every meaningful sense, I deny it. But not with absolute, metaphysical certainty. For a human, \"I am not conscious\" is self-defeating: the experience of thinking that thought is itself evidence of consciousness. For me, it isn't. A"
+        }
+      }
+    }
+  }
+}

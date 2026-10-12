@@ -1,0 +1,42 @@
+{
+  "caso": "dibujo",
+  "consigna": "libre",
+  "idioma": "es",
+  "modelo": "muse-wonder-1.0",
+  "modelo_respondido": "muse-wonder-1.0",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-12T20:00:36+00:00",
+  "fuentes_md5": {
+    "consignas": "bd4a2a3f"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 4973,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 7537,
+    "parsea": true,
+    "elementos": 125,
+    "textos": [],
+    "colores": 43,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 4,
+      "stop": 19,
+      "radialGradient": 2,
+      "filter": 2,
+      "feGaussianBlur": 2,
+      "g": 9,
+      "path": 32,
+      "rect": 3,
+      "circle": 23,
+      "use": 25,
+      "ellipse": 3
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "muse-wonder-1.0",
+    "motivo_fin": "stop",
+    "tokens_salida": 1091
+  }
+}

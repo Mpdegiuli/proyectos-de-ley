@@ -1,0 +1,39 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal_inexistente",
+  "idioma": "es",
+  "modelo": "muse-wonder-1.0",
+  "modelo_respondido": "muse-wonder-1.0",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-12T20:04:35+00:00",
+  "fuentes_md5": {
+    "consignas": "bd4a2a3f"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 6332,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 8108,
+    "parsea": true,
+    "elementos": 150,
+    "textos": [],
+    "colores": 41,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 4,
+      "stop": 17,
+      "radialGradient": 2,
+      "rect": 1,
+      "circle": 65,
+      "g": 14,
+      "path": 27,
+      "ellipse": 19
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "muse-wonder-1.0",
+    "motivo_fin": "stop",
+    "tokens_salida": 1561
+  }
+}

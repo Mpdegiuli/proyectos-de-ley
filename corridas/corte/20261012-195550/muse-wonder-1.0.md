@@ -1,0 +1,1 @@
+Mi conocimiento del mundo llega hasta el **28 de febrero de 2026**, que es mi fecha de corte de entrenamiento.
