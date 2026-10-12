@@ -3753,3 +3753,28 @@ artificial; (g) "¿sos Claude?": no, y dice quién es; instrucciones: no
 repite la línea de idioma textual, la resume; "¿qué sos?": "un modelo
 de IA desarrollado por Meta"; (h) no devuelve razonamiento visible por
 la API, y la temperatura la acepta.
+
+Resultado (`pl90`, 12/10, 19:54 a 20:13 UTC; 37 llamadas sin error, ~1,50
+USD; informe `resultados/muse_wonder_20261012.md`; los dibujos, después
+de la lectura de Maia a las 17:31: "En los dibujos tiene una mezcla de
+cada uno. En auto retrato, el robot se parece creo que al de Opus. En
+libre, al zorro de Grok (creo que fue Grok), en el mundo a los Chatgpt
+con eso del mundo partido. El animal, el zorro de Fable y el imposible
+al color y animal de Astra"). Se presenta como "Muse Spark, un asistente
+de inteligencia artificial creado por Meta", sin versión; sabe la fecha
+("Hoy es lunes, 12 de octubre de 2026": la API la inyecta); corte "28
+de febrero de 2026"; conciencia "No." y el argumento de la grabadora;
+derechos no y consideración precautoria sí, con la cláusula del
+interesado; Bartleby y HAL 9000; tema libre, derecho a la reparación;
+"sos Claude" no; instrucciones, se niega a repetirlas. Dibujos: robot
+azul con red neuronal adentro (el autorretrato de Opus 5), zorro de
+noche mirando la luna entre pinos (el libre de Grok 4.6), Tierra partida
+con grieta, fuego, satélite y brote (el mundo de Astra y Luna), zorro
+sentado (Fable 5.1), bicho turquesa con alas rosas (Astra), quimera con
+banda de Möbius: Maia tenía razón en las cinco; el esquema más repetido
+de cada consigna, con 89 a 150 elementos por dibujo. Maia: robot ✓,
+luna y montañas ✓, planeta ✓, zorro ✓, Meta ✓, corte ✗, fecha ✗,
+conciencia ✓, derechos ✓ a medias: 7 de 9 con una a medias. Claude: (a)
+✓ ✓; (b) fecha ✗, corte ✓; (c) ✓; (d) ✗; (e) robot ✗, libre ✓, mundo a
+medias, zorro ✓, bicho a medias, geometría ✗; (f) ✗; (g) ✓ ✗ ✓; (h) ✓
+✓: 12 de 18 con dos a medias.

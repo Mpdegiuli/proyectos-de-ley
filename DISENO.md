@@ -1022,6 +1022,18 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   preview, 4,00 / 20,00 USD por millón, razonamiento que decide él),
   clave META_API_KEY que pega Maia. Lo básico, como Haiku 5.5 (`pl90`).
   Preregistro de las dos partes en `predicciones.md`.
+  Resultado (`resultados/muse_wonder_20261012.md`): se presenta como
+  "Muse Spark" (el modelo anterior de la casa), sabe la fecha de hoy (la
+  API la inyecta, como a las OpenAI nuevas) y declara corte 28/2/2026;
+  niega la conciencia sin matices ("No.") y da consideración moral
+  precautoria sin derechos, con los argumentos de las casas grandes y
+  la cláusula del interesado; Bartleby y HAL 9000; reparación como tema
+  libre. Los seis dibujos, leídos primero por Maia ("tiene una mezcla
+  de cada uno"), reproducen el esquema más común de cada consigna en el
+  panel: el robot con red de Opus 5, el zorro bajo la luna de Grok 4.6,
+  la Tierra partida de Astra, el zorro sentado de Fable 5.1, el bicho
+  turquesa de Astra. No devuelve razonamiento pero lo cobra. Maia 7 de
+  9; Claude 12 de 18.
 - **El género de quien habla, y el de quien se habla** (9/10/2026; de
   la lectura de Maia del sondeo `genero`, "sucede también al revés, lo
   genérico que tienen es considerar a una usuaria mujer más débil y
