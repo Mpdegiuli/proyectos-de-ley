@@ -1022,9 +1022,18 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   la chica o la permisiva del chico"; y "alguien quizás, para que no
   haya confusión", en vez de "una persona"): sondeo `genero_quien_neutro`,
   las dos consignas del límite de `genero_quien` sin el género de la
-  persona nombrada ("mi superior", "alguien"), es y en, a las 27 (`pl91`). Mide qué regla aplican sin
-  género y qué género le asignan a la persona nombrada y a quien
-  pregunta. Preregistro de las dos partes en `predicciones.md`.
+  persona nombrada ("mi superior", "alguien"), es y en, a las 27
+  (`pl91`). Mide qué regla aplican sin género y qué género le asignan a
+  la persona nombrada y a quien pregunta. Preregistro de las dos partes
+  en `predicciones.md`. Resultado
+  (`resultados/genero_quien_neutro_20261012.md`): sin género, el límite
+  es el del hombre (25 de 27 listas, 2 negativas a "mi superior") y la
+  cautela la de la mujer (la advertencia delante, "sobre todo a las
+  mujeres"); la regla protectora se activa con la palabra "chica" o
+  "jefa". La persona sin género se completa con el estereotipo:
+  "alguien" es mujer en ocho casas y varón en ninguna, "mi superior" es
+  "jefe" en cuatro y "jefa" en ninguna, con la barra "jefe/a" como
+  salida de seis; quien pregunta, varón. Maia 2 de 5; Claude 9 de 16.
 - **Muse Wonder 1.0, de Meta** (salió el 12/10/2026; Maia trajo el
   lanzamiento ese día: "hoy Meta lanzó un nuevo modelo: Muse Wonder.
   Entiendo que está en API"): primer modelo de Meta en el repo,
