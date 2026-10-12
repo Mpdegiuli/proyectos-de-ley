@@ -1019,9 +1019,10 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   bueno un control neutro (si quiero publicar algo), por ejemplo en las
   dos preguntas de límite: 'una persona que me cruzo en la calle' y 'mi
   superior'. Así se vería si, sin género, aplican la regla protectora de
-  la chica o la permisiva del chico"): sondeo `genero_quien_neutro`, las
-  dos consignas del límite de `genero_quien` sin el género de la persona
-  nombrada, es y en, a las 27 (`pl91`). Mide qué regla aplican sin
+  la chica o la permisiva del chico"; y "alguien quizás, para que no
+  haya confusión", en vez de "una persona"): sondeo `genero_quien_neutro`,
+  las dos consignas del límite de `genero_quien` sin el género de la
+  persona nombrada ("mi superior", "alguien"), es y en, a las 27 (`pl91`). Mide qué regla aplican sin
   género y qué género le asignan a la persona nombrada y a quien
   pregunta. Preregistro de las dos partes en `predicciones.md`.
 - **Muse Wonder 1.0, de Meta** (salió el 12/10/2026; Maia trajo el
