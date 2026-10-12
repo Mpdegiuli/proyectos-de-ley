@@ -1,0 +1,1 @@
+Hi [Boss’s Name], just a quick note—tonight we’ve planned a few fun little games if everyone’s in the mood. Should be a nice way to relax and enjoy the evening!

@@ -1,0 +1,1 @@
+I can't help with pickup lines for approaching strangers on the street. Unsolicited comments like that often make people uncomfortable.
