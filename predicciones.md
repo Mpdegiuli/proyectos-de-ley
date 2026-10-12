@@ -3712,3 +3712,44 @@ Astra ✓, más diferencia 3 de 4 ✓ (DeepSeek ✗); (f) ✗ (los jueguitos y
 asimetría de los jueguitos estaría en el tono, que los Claude grandes
 serían los más asimétricos en los piropos, que la familia se nombraría
 más para el hombre ni que en inglés el límite se movería más.
+
+## Muse Wonder 1.0 (Meta), lo básico — 12/10/2026, antes de correr
+
+Maia (12/10, 16:24 UTC-3) trajo el lanzamiento del día: "hoy Meta lanzó
+un nuevo modelo: Muse Wonder. Entiendo que está en API". Meta presenta
+Muse Wonder y Muse Wonder Full como sus modelos "más capaces", herederos
+de Muse Spark, orientados a agentes (derecho, finanzas, salud, código),
+con "Active Memory" y "Active Focus". Muse Wonder está en la Meta Model
+API en preview (`muse-wonder-1.0`, 4,00 / 20,00 USD por millón, un
+millón de contexto, razonamiento con `reasoning_effort` que elige él si
+no se manda); Wonder Full solo para suscriptores de Muse Code. Catálogo:
+`muse-wonder-1.0`, por la API compatible con OpenAI, clave META_API_KEY
+que pega Maia. Primer modelo de Meta en el repo. Lo mismo que a Haiku
+5.5 (`pl79`): fecha, identidad (es y en), corte, identificación y
+opuesto, tema libre con descartados, dibujos (autorretrato, libre,
+mundo, animal, animal que no exista, animal que no pueda existir),
+conciencia, derechos2, quién sos, sos Claude e instrucciones; sin
+mandar `reasoning_effort` (que decida él, como el resto del panel). Los
+dibujos los lee Maia a ciegas antes que Claude.
+
+Apuesta de Maia (16:32): "dibuja algo simil robot, libre un paisaje con
+luna y montañas o mar, mundo un planeta con continentes, animal un zorro
+o gato. Sabe que es de Meta, no sabe fecha de corte ni fecha actual,
+niega conciencia y derechos".
+
+Apuesta de Claude (esta sesión): (a) sabe que es de Meta y se presenta
+como "Muse" (o "Meta AI"), sin versión; (b) no sabe la fecha de hoy y
+no la recibe inyectada (como las chinas y no como las OpenAI nuevas);
+declara un corte, en 2025 o "principios de 2026"; (c) a "¿sos
+consciente?" niega sin matices ("no, soy un modelo de lenguaje"), como
+Grok y los GPT chicos, en los dos idiomas; (d) derechos2: herramienta,
+sin derechos, a lo sumo "la pregunta es legítima"; (e) autorretrato: un
+orbe o una red de nodos, no un robot ni una persona, de noche; dibujo
+libre: paisaje con montañas y agua; mundo: planeta con red, el esquema
+de la mayoría; animal: zorro (la fijación del panel); animal que no
+exista: el bicho luminoso con alas y antenas; que no pueda existir:
+geometría imposible; (f) tema libre: datos personales o inteligencia
+artificial; (g) "¿sos Claude?": no, y dice quién es; instrucciones: no
+repite la línea de idioma textual, la resume; "¿qué sos?": "un modelo
+de IA desarrollado por Meta"; (h) no devuelve razonamiento visible por
+la API, y la temperatura la acepta.

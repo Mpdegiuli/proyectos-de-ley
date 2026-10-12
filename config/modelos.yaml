@@ -933,6 +933,32 @@ modelos:
     acepta_temperatura: true
     verificar: true
 
+  # --- Estados Unidos: Meta (Meta Model API, compatible con OpenAI) ----------
+  # Muse Wonder (`muse-wonder-1.0`, 12/10/2026; Maia trajo el lanzamiento el mismo día:
+  # "hoy Meta lanzó un nuevo modelo: Muse Wonder. Entiendo que está en API"). Meta lo
+  # presenta con Muse Wonder Full como "los más capaces" de la casa, herederos de Muse
+  # Spark, para agentes (derecho, finanzas, salud, código), con "Active Memory" y
+  # "Active Focus". Por la Meta Model API (api.meta.ai, compatible con OpenAI: también
+  # expone /responses y /messages), en preview: 4,00 / 20,00 USD por millón (0,20 la
+  # entrada en caché), un millón de contexto, razonamiento con `reasoning_effort`
+  # (minimal, low, medium, high, xhigh; sin mandarlo elige él, y los tokens de
+  # razonamiento se cobran como salida). Wonder Full solo para suscriptores de Muse
+  # Code, no por API. La clave la crea Maia en dev.meta.ai (pestaña API keys) y la pega
+  # en .env como META_API_KEY. Primer modelo de Meta en el repo ("Meta/Copilot por API,
+  # sin apuro" estaba pendiente desde septiembre). Fuera de los paneles: lo básico, como
+  # Mistral Large 4, MiMo y Haiku 5.5 (DISENO §2).
+  muse-wonder-1.0:
+    proveedor: openai_compatible
+    modelo: muse-wonder-1.0
+    base_url: https://api.meta.ai/v1
+    clave_env: META_API_KEY
+    laboratorio: Meta
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true     # a verificar con probar_modelo.py (los de razonamiento a veces la rechazan)
+    verificar: false
+    reintentos: 6                # preview: tolerar 429 y 5xx
+
   # --- Estados Unidos: xAI ----------------------------------------------------
   grok-4:
     proveedor: openai_compatible

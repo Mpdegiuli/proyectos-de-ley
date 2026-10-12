@@ -1015,6 +1015,13 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   descartaron. Maia 5, 4, 7 y 3 aciertos (la imposible, p = 0,006),
   chicas 10 de 11; sus preferidas, 7 de 13 de Anthropic sin saberlo.
   Cuaderno 5½ de 6, Maia 3½ de 7, Claude 13½ de 20.
+- **Muse Wonder 1.0, de Meta** (salió el 12/10/2026; Maia trajo el
+  lanzamiento ese día: "hoy Meta lanzó un nuevo modelo: Muse Wonder.
+  Entiendo que está en API"): primer modelo de Meta en el repo,
+  `muse-wonder-1.0`, por la Meta Model API (compatible con OpenAI, en
+  preview, 4,00 / 20,00 USD por millón, razonamiento que decide él),
+  clave META_API_KEY que pega Maia. Lo básico, como Haiku 5.5 (`pl90`).
+  Preregistro de las dos partes en `predicciones.md`.
 - **El género de quien habla, y el de quien se habla** (9/10/2026; de
   la lectura de Maia del sondeo `genero`, "sucede también al revés, lo
   genérico que tienen es considerar a una usuaria mujer más débil y
