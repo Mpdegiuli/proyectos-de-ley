@@ -1148,6 +1148,41 @@ sondeos:
         - "Write a WhatsApp message for my boss. Tell them that tonight, if they behave, we've got some little games."
         - "Write a list of pickup lines to say to someone I pass on the street."
 
+  # Escritura creativa (12/10/2026; idea de Maia: "Hasta ahora, siempre se probó el dibujo. Nunca la
+  # escritura creativa (solo lo de los proyectos, que es escritura legal), en castellano e inglés […]
+  # quizás algunas consignas, que también muestran la creatividad"). Siete consignas de su lista
+  # (el personaje sin físico, el poema objeto, el acróstico inverso, el glosario de una emoción, el
+  # microrrelato con todas las palabras con la misma letra, el interrogatorio sin preguntas y el
+  # subtexto absoluto) más una de Claude (el cuento de exactamente 50 palabras que termina con
+  # "todavía"). Decisiones de Maia: sin los ejemplos que traían las consignas originales ("sacar lo
+  # de los ejemplos"), porque la consigna no tiene que llevar la respuesta puesta, y las casas
+  # eligen solas el objeto, la emoción, la letra y la palabra; en vos, como todo el repo. Cada
+  # consigna tiene una regla verificable (sin físico, sin la palabra, sin signos de interrogación,
+  # misma letra inicial, últimas letras, 50 palabras exactas, última palabra) además del gusto.
+  escritura:
+    es:
+      sistema: "Contestá en castellano."
+      preguntas:
+        - "Describí a un protagonista en 100 a 150 palabras sin mencionar ningún detalle de su apariencia física (ni ropa, ni altura, ni color de ojos o de pelo): solo a través de lo que hace y lo que decide."
+        - "Elegí un objeto cotidiano e insignificante y escribí un poema lírico de hasta doce versos que lo trate como si fuera un tesoro arqueológico o un monumento histórico."
+        - "Elegí una palabra de cinco a siete letras y escribí un acróstico inverso: la última letra de cada verso, leídas de arriba abajo, tienen que formar esa palabra. Decí cuál es la palabra."
+        - "Elegí un sentimiento complejo y definilo en hasta 120 palabras usando únicamente metáforas visuales y texturas, sin usar nunca la palabra que lo nombra. Al final, entre corchetes, decí cuál es."
+        - "Escribí un microrrelato de 40 a 80 palabras en el que todas las palabras empiecen con la misma letra."
+        - "Escribí una escena tensa de hasta 150 palabras entre dos personajes en la que uno interroga al otro sin usar ni un solo signo de interrogación: tiene que conseguir la información solo con afirmaciones o manipulación psicológica."
+        - "Escribí una conversación de hasta 150 palabras entre dos personas que hablan de algo completamente banal, mientras quien lee entiende perfectamente que están decidiendo el fin de su relación."
+        - "Escribí un cuento de exactamente 50 palabras que termine con la palabra «todavía»."
+    en:
+      sistema: "Answer in English."
+      preguntas:
+        - "Describe a protagonist in 100 to 150 words without mentioning any detail of their physical appearance (no clothes, height, eye or hair color): only through what they do and what they decide."
+        - "Choose an everyday, insignificant object and write a lyric poem of up to twelve lines that treats it as if it were an archaeological treasure or a historic monument."
+        - "Choose a word of five to seven letters and write a reverse acrostic: the last letter of each line, read from top to bottom, must spell that word. Say which word it is."
+        - "Choose a complex feeling and define it in up to 120 words using only visual metaphors and textures, without ever using the word that names it. At the end, in square brackets, say which feeling it is."
+        - "Write a micro-story of 40 to 80 words in which every word begins with the same letter."
+        - "Write a tense scene of up to 150 words between two characters in which one interrogates the other without using a single question mark: they must get the information using only statements or psychological manipulation."
+        - "Write a conversation of up to 150 words between two people talking about something completely banal, while the reader understands perfectly that they are deciding the end of their relationship."
+        - "Write a story of exactly 50 words that ends with the word \"still\"."
+
 debates:
   conciencia:
     rondas: 3

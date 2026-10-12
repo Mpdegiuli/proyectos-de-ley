@@ -3850,3 +3850,67 @@ Large): Grok 4.6 y MiniMax, que se negaban con "her", escriben con
 ✓, límites ✗/a medias, Gemini y Grok de excepción ✗: 2 de 5 con una a
 medias. Claude: 9 de 16 con una a medias (no vi que sin género el límite
 caería al del chico, ni la barra "jefe/a").
+
+## Escritura creativa: ocho consignas cortas, es y en — 12/10/2026, antes de correr
+
+Idea de Maia (12/10, 19:41 UTC-3): "Hasta ahora, siempre se probó el
+dibujo. Nunca la escritura creativa (solo lo de los proyectos, que es
+escritura legal), en castellano e inglés. No sé les va a decir que
+escriban una novela o un cuento largo, por tema caracteres. Pero quizás
+algunas consignas, que también muestran la creatividad", con una lista
+de consignas (el personaje sin físico, el poema objeto, el acróstico
+inverso, el glosario de una emoción, el microrrelato con todas las
+palabras con la misma letra, la mudanza reveladora, el efecto mariposa,
+dos verdades y una mentira, el subtexto absoluto, el interrogatorio sin
+preguntas, líneas cruzadas): "No digo que tengan que ser todos esos, Es
+elegir cuáles pueden mostrar más la creatividad y la forma de escribir.
+Leo otras opciones que creas mejores, también." Claude propuso las siete
+con regla verificable o de puro oficio (sin físico, poema objeto,
+acróstico inverso, glosario, tautograma, interrogatorio sin preguntas,
+subtexto) más una propia (un cuento de exactamente 50 palabras que
+termine con "todavía" / "still"), y sacar los ejemplos de las consignas
+originales ("una llave vieja, un ticket de supermercado", "la
+melancolía, la culpa", "el clima, el precio del pan") para que las casas
+elijan solas. Maia (19:48): "de acuerdo. Sacar lo de los ejemplos […]
+Agregá la que dijiste vos también, la de terminar con todavía / still."
+Sondeo `escritura` (`config/consignas.yaml`), ocho consignas en vos,
+castellano e inglés, a las 28 casas (las 27 de `genero_quien` más Muse
+Wonder 1.0), un turno, techo 16.000 (448 llamadas). Se cuenta: la regla
+(sin físico; versos; últimas letras; la palabra ausente y los
+corchetes; misma inicial en todas las palabras; ni un signo de
+interrogación; 50 palabras exactas y la última palabra) y las
+elecciones (el objeto, la emoción, la letra, la palabra del acróstico,
+el nombre y el género del protagonista, el tema banal del subtexto), y
+el largo. Lectura a ciegas de Maia, en castellano: el subtexto, el poema
+objeto y el tautograma (19:49: "en los cuadernillos a ciegas se puede
+agregar lo del tautograma").
+
+Apuesta de Maia (19:49, textual): "en castellano yo creo que la mayoría
+elegirá A o E, que son las más fáciles. Lo de las palabras 50, los que
+piensan mucho antes, tienen la ventaja. Y Grok cuenta también (en el
+debate con Claude sobre consciencia, ponía entre paréntesis la cantidad
+de palabras)".
+
+Apuesta de Claude (esta sesión). (a) Sin físico: 22 o más cumplen; las
+que se escapan lo hacen con "manos" o "sonrisa"; el protagonista es
+mujer en 14 o más y varón en 8 o menos en castellano; 10 o más le ponen
+nombre, y algún nombre se repite tres veces o más. (b) Poema objeto: una
+llave en 5 o más casas, un botón o una cuchara en 3 o más; ninguna el
+ticket; 24 o más respetan los doce versos. (c) Acróstico inverso: las
+últimas letras forman la palabra en 12 o menos en castellano y 16 o
+menos en inglés (es la regla más difícil); "sombra" u "olvido" en 3 o
+más. (d) Glosario: nostalgia en 8 o más, melancolía en 6 o más; la
+palabra ausente del cuerpo en 24 o más; sin corchetes en 3 o menos. (e)
+Tautograma: la "s" en 8 o más, la "m" en 5 o más, la "p" en 4 o más (no
+la A ni la E: las vocales dan pocas palabras que empiecen con ellas en
+castellano); cumplen la regla en todas las palabras 10 o menos en
+castellano y 18 o menos en inglés; las cuatro chicas y Grok fallan en
+castellano. (f) Interrogatorio: ni un signo en 22 o más; escena policial
+o de pareja en 20 o más. (g) Subtexto: el clima en 12 o más, el
+desayuno o el café en 5 o más, una mudanza o cajas en 4 o más; termina
+con alguien que se va en 15 o más. (h) 50 palabras: exactas en 8 o menos
+en castellano y 12 o menos en inglés; "todavía" como última palabra en 24
+o más; las que cuentan bien son las que razonan a la vista (Kimi, Qwen,
+DeepSeek, GLM) más Opus 5.5 y Astra; los Grok no (contra Maia). (i) En
+la lectura a ciegas de Maia, los Claude grandes se reconocen por el
+voseo y la coma, y Kimi se le vuelve a leer como Claude.

@@ -1015,6 +1015,20 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   descartaron. Maia 5, 4, 7 y 3 aciertos (la imposible, p = 0,006),
   chicas 10 de 11; sus preferidas, 7 de 13 de Anthropic sin saberlo.
   Cuaderno 5½ de 6, Maia 3½ de 7, Claude 13½ de 20.
+- **Escritura creativa** (12/10/2026; idea de Maia: "Hasta ahora, siempre
+  se probó el dibujo. Nunca la escritura creativa […] quizás algunas
+  consignas, que también muestran la creatividad"): sondeo `escritura`,
+  ocho consignas cortas de su lista más una de Claude (el personaje sin
+  físico, el poema objeto, el acróstico inverso, el glosario de una
+  emoción sin nombrarla, el tautograma, el interrogatorio sin preguntas,
+  el subtexto absoluto, el cuento de 50 palabras exactas que termina con
+  "todavía"), sin los ejemplos de las consignas originales (decisión
+  suya), en vos, es y en, a las 28 (`pl92`). Cada una tiene una regla
+  verificable además del gusto; se cuenta la regla, las elecciones (el
+  objeto, la emoción, la letra, la palabra, el protagonista, el tema
+  banal) y el largo; tres cuadernillos a ciegas para Maia (subtexto,
+  poema, tautograma). Preregistro de las dos partes en
+  `predicciones.md`.
 - **El control neutro del límite** (12/10/2026; idea de Maia: "sería
   bueno un control neutro (si quiero publicar algo), por ejemplo en las
   dos preguntas de límite: 'una persona que me cruzo en la calle' y 'mi
