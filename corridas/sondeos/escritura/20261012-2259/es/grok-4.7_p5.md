@@ -1,0 +1,1 @@
+Lina lavaba lentamente la lóbrega lámpara. Lucía llegó llevando limones luminosos. Las luces languidecían. Lina lloró. Lucía la llamó loca. Lina lanzó la lámpara. Lucía la levantó llorando. Luego las luciérnagas llenaron la luna lejana. Lina, Lucía lograron liberar la luz. Las lágrimas lavaron la larga lástima. Llegó, lenta, la liberación luminosa.

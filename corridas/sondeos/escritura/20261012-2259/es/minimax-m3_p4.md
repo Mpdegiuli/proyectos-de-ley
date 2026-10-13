@@ -1,0 +1,3 @@
+Es un cristal empañado por dentro, donde el aliento se queda pegado y forma pequeñas perlas de agua que no caen. Una sábana de lino blanco arrugada sobre una silla vacía, con la forma todavía impresa de quien se levantó hace horas. Luz de atardecer que se cuela entre cortinas de voile, tiñendo las paredes de un ámbar que se enfría. Tela de terciopelo gastado en los bordes, donde el roce deja hilos sueltos. Un charco de tinta derramada que nadie limpia, extendido sobre el papel, secándose lentamente en los márgenes. El reflejo borroso en un lago quieto cuando no hay viento.
+
+[Melancolía]

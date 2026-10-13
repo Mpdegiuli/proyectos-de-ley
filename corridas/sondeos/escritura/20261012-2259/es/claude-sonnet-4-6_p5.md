@@ -1,0 +1,3 @@
+# Secretos silenciosos
+
+Susana soñaba siempre sobre sombras sutiles. Su soledad, silenciosa, se sentía suave. Sentada sobre suelos secos, suspiraba suavemente, sintiendo señales secretas. Sus sueños siempre seguían senderos sinuosos, selváticos, salvajes. Sin saber, Susana se sumergía suavemente, salvándose. Su sonrisa surgió súbitamente: simplemente siendo, siendo simplemente, su sufrimiento se sanaba.

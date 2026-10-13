@@ -1,0 +1,1 @@
+The old lighthouse keeper climbed the spiral stairs one last time. At the top, he lit the great lamp, watching its beam sweep across the darkening sea. Below, the village slept peacefully. He smiled, knowing generations had relied on this light. Some duties, he realized, never truly end—they still

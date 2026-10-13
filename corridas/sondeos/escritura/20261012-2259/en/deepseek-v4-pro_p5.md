@@ -1,0 +1,1 @@
+Silently, she stepped somewhere special. Shivering, she saw seven small, shiny stones scattered strangely. Suddenly, something shifted. She stopped, stared. Several sinister shadows swept swiftly southward. She screamed soundlessly, sprinting straight, slipping slightly. Seconds stretched. She sensed soft sounds surrounding. She stopped seeing. Silence.

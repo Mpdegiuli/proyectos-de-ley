@@ -1,0 +1,1 @@
+El viejo reloj de pared marcó las doce. La casa estaba oscura y en absoluto silencio. María miró por la ventana esperando verlo llegar. La nieve cubría el camino vacío. Habían pasado cincuenta años desde que él prometió regresar de la guerra. Ella no perdía la esperanza. Lo esperaba todavía.

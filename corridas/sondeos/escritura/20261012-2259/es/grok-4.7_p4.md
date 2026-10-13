@@ -1,0 +1,3 @@
+El vidrio empañado de una ventana que da a un patio que ya no existe. La luz, espesa como miel fría, se queda pegada a los marcos. Una silla vacía conserva la forma hundida de quien se sentó demasiado tiempo. El mantel tiene manchas de sol desteñido y el borde deshilachado de una tela que fue blanca. En el aire flota un polvo dorado, lento, con la textura de la lana mojada cuando se seca al rescoldo. Las fotografías se curvan en las esquinas, y el papel, al tocarlo, suena a hoja seca bajo un zapato que no camina.
+
+[Nostalgia]

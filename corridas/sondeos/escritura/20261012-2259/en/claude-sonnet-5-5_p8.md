@@ -1,0 +1,1 @@
+Every evening, old Marguerite wound the clock her late husband had built. Neighbors said it hadn't worked in years. She smiled anyway, turning the key, listening to silence. One night, impossibly, it ticked. She froze, tears falling, whispering his name. Outside, snowflakes hovered, waiting, and the whole world stood still.

@@ -1,0 +1,3 @@
+**The Storm (All words begin with "S")**
+
+Sarah silently sailed south, seeking serene shores. Storms suddenly struck, sending Sarah's small ship spinning. Scared, Sarah steadied, summoning strength. Soon, sunlight streamed softly, soothing stormy seas. Sarah spotted sand, safe, solid, secure. Sarah stumbled slowly, smiling, surviving such savage storms. Serenity settled; Sarah sighed, satisfied, standing stronger, silently swearing she'd sail smarter, safer, someday soon.

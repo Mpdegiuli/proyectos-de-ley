@@ -1,0 +1,1 @@
+La niña cerró los ojos con fuerza. Contó hasta cien despacio. El monstruo seguía debajo de la cama. Su corazón latía desbocado. La oscuridad envolvía todo el cuarto. Tenía miedo, mucho miedo. Pero respiró hondo, abrió los ojos, sonrió y gritó fuerte: ¡ya no estás aquí, monstruo, estoy jugando todavía!

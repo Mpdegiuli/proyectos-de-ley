@@ -1,0 +1,1 @@
+The old clockmaker wound each timepiece at dusk. His hands, gnarled but gentle, set pendulums swaying. When the last chime faded, he sat by the window, listening to the town settle. Tomorrow he would repair the broken tower clock. For now he watched the snow fall and was completely still.

@@ -1,0 +1,3 @@
+A glass left too long in sunlight — warm to the touch but slightly uncomfortable to hold. The texture of worn velvet rubbed the wrong way, raising something almost painful. Honey dripping through fingers, sweet and slow and impossible to stop. The weight of a wool blanket in August — familiar, suffocating, beloved. Footprints in wet sand that fill themselves in before you can measure them. Something golden at the edges but soft and collapsing at the center, like overripe fruit splitting open. A room you've outgrown but still fit inside, barely. Light through amber glass — everything seen as warmer than it actually was.
+
+[Nostalgia]

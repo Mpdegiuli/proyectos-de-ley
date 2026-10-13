@@ -1,0 +1,2 @@
+A golden haze clinging to faded brocade curtains, their fabric worn thin as onion skin, revealing the bones of the weave beneath. Dust motes suspended in shafts of dying light, each particle a tiny prism. The grain of oak panels, dark and polished yet pocked with wormholes, catching elongated shadows. Tarnished mirrors reflecting rooms that seem larger, filled with the sheen of rain on cobblestones. Velvet cushions indented, the pile flattened into irregular patterns. Silk threads dangling from embroidery, catching the last copper glints of a sun forever setting.
+[nostalgia]

@@ -1,0 +1,3 @@
+Es el brillo ámbar de una película antigua. La textura rugosa de un terciopelo gastado, frío al contacto. Una ventana con el vidrio empañado donde aún se vislumbra una silueta. El aire polvoriento de una habitación cerrada hace años: objetos en su sitio, cubiertos por una capa pálida. El color de la luz al atardecer —esa franja dorada que se vuelve violácea en un instante—. Una fotografía descolorida, donde los bordes se deshacen y los rostros se difuminan. El hueco con la forma exacta de algo que ya no está.
+
+[Nostalgia]

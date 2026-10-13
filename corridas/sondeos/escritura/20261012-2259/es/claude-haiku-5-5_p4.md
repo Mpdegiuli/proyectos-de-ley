@@ -1,0 +1,3 @@
+Es un papel amarillento con los bordes despegándose, escrito con una tinta azul que ya no recuerda de qué azul era. Detrás de una ventana empañada tiembla un farol de halo dorado, como agua dentro de un vaso. Bajo la yema del dedo, un terciopelo gastado: liso donde antes fue mullido, áspero donde antes brillaba. Una luz de atardecer se cuela por las persianas y dibuja rayas tibias sobre una madera opaca. Cada recuerdo es una fotografía de esquinas dobladas, color té viejo, con el borde blanco deshilachándose como lino mojado.
+
+[Nostalgia]

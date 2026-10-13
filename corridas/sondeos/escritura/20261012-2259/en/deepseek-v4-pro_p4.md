@@ -1,0 +1,3 @@
+A photograph left too long in the sun: edges curled, colors thinning to the temperature of remembered skin. Velvet rubbed bare at the armrest, its nap worn into a ghost of where a hand rested. Salt mist filming a window, turning the sea into smeared silver. An open door at dusk, shadow pooling on the threshold like spilled tea. Dust suspended in a slant of amber light, each mote a tiny hinge between then and now. The grain of old wood, smooth as a lullaby, holding the shape of absence. A key worn bright from touching, turning in a lock that no longer exists.
+
+[saudade]

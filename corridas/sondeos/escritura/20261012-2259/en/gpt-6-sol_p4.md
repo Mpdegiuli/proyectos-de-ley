@@ -1,0 +1,1 @@
+A sun-bleached photograph beneath rippled glass. Gold dust gathers along its cracked white border; inside, a garden glows in colors too bright for the faded paper. A clean fingertip-shaped streak cuts through the haze, but the faces beneath it remain soft-edged, their outlines dissolving into velvet grain. [Nostalgia]

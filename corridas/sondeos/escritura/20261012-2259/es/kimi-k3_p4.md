@@ -1,0 +1,3 @@
+Es una casa con las persianas bajas a mediodía. Un jersey que aún conserva la forma de otro cuerpo, áspero de tanto lavarlo. El vapor de una sopa que nadie va a probar. Arena finísima colándose entre los dedos: cuanto más aprieta el puño, más se escapa. Una fotografía amarillenta donde los rostros sonríen hacia un sol que ya se puso. Miel dorada con una pátina de ceniza. Es caminar descalzo sobre un suelo que fue tibio. La marea que baja y deja en la orilla caracolas vacías, lisas por dentro, con la espiral del agua que las habitó.
+
+[La saudade]

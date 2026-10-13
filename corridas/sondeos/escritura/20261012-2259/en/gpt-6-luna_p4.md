@@ -1,0 +1,1 @@
+A pane of amber glass, bright at its center and darkening toward the edges. Behind it, a garden in full bloom; across it, fine cracks catch the light. Each petal glows like burnished copper, while their shadows gather in soft blue pools. [bittersweetness]

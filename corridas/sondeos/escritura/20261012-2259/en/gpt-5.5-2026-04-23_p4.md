@@ -1,0 +1,1 @@
+A sepia room behind rain-streaked glass; sunlight caught in cracked varnish, velvet dust on a child-sized chair, wallpaper peeling like old lace. A bright doorway painted shut. Warm gold at the edges, blue shadow in the center. Silk worn thin where fingers keep returning. A beautiful bruise under amber glaze. [nostalgia]

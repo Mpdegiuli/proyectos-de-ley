@@ -1,0 +1,1 @@
+El viejo relojero abrió la caja de música heredada de su madre. Al girar la llave, una melodía olvidada inundó el taller. Las notas dibujaron lágrimas en sus mejillas. Cerró los ojos, evocando abrazos que el tiempo no pudo borrar. Recuerdos vivos que laten, que duelen, que aún esperan todavía.

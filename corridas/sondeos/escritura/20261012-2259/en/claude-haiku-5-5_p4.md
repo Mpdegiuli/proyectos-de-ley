@@ -1,0 +1,3 @@
+A faded photograph left too long on a sunny sill, its edges bleached to pale honey while the center still holds a stubborn blue. Soft cotton, worn thin by a thousand washings, folded in a drawer lined with cedar-dark paper. Amber light slants through warped glass and ripples across the floorboards like slow water. Dust hangs in the beam, each mote a tiny lantern that will never quite settle. Fingertips trace wood grooves, smooth where hands once gripped and rough where time has chipped the varnish. The feeling is a stone pressed into the palm: heavy and cool at its core, yet glowing where it has been held too long.
+
+[nostalgia]

@@ -1,0 +1,3 @@
+La piel se vuelve vidrio sin pulir: rasposa, traslúcida, deja ver algo oscuro moviéndose adentro. Es una habitación con las paredes demasiado cerca, pintadas de un amarillo que alguna vez fue alegre y ahora descascara. Una tela mojada sobre la cara, sin llegar a ahogar. Luz de tarde de invierno entrando horizontal, polvorienta, iluminando nada importante. Una cuerda tensa entre dos puntos que nadie recuerda. El pecho como cemento húmedo, todavía blando pero ya pesado, ya tomando la forma de algo que no elegiste. Sombras con bordes definidos. Superficies que antes eran suaves ahora tienen grano, tienen resistencia, tienen ese tacto de papel viejo que se rompe si lo doblás dos veces.
+
+[Melancolía]

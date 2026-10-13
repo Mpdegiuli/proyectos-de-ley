@@ -1,0 +1,3 @@
+Es una fotografía que se deja tocar pero no habitar: papel satinado, tibio de tanto pasar entre los dedos, con las esquinas redondeadas como piedras de río. Adentro, la luz siempre es de las cinco de la tarde, miel espesa sobre una mesa que ya no existe, con polvo dorado suspendido en el aire. Tiene la trama de un suéter viejo que raspa un poco y aun así abriga. Es terciopelo acariciado a contrapelo, suave en un sentido y áspero en el otro. Es una ventana empañada donde alguien dibujó una casa con el dedo, mientras el vapor, despacio, la va borrando.
+
+[Nostalgia]

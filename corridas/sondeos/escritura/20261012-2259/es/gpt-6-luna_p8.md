@@ -1,0 +1,1 @@
+Cada noche, Clara dejaba una taza junto a la ventana, por si regresaba el viajero. Pasaron inviernos; la casa envejeció, el pueblo olvidó su nombre. Una madrugada, oyó tres golpes. Abrió. Encontró lluvia y una nota: «Perdón por tardar». Sonrió, calentó agua y puso otra silla. Afuera, alguien esperaba todavía.

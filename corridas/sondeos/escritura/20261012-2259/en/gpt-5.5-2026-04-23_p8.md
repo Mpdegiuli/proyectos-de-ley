@@ -1,0 +1,1 @@
+At dawn, Mara found her grandfather's clock buried beneath the pear tree. It ticked when she touched it, and the garden filled with summers she had lost. She saw him waving from the porch, younger than goodbye. When the ticking stopped, leaves hung midair, and her heart stood utterly still

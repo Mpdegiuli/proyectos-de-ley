@@ -1,0 +1,1 @@
+The lighthouse keeper counted ships for forty years. Each night he logged them: name, hour, direction. When the automated light arrived, they told him to go home. He stayed anyway, watching from the cliff. Ships passed below, their crews never knowing he was there. Each night, he counted them still.

@@ -1,0 +1,3 @@
+# El protagonista
+
+Se despierta antes de que suene el despertador y anota tres cosas en un cuaderno que guarda bajo la cama. Devuelve las llamadas que otros ignoran. Cuando alguien le pide un favor imposible, no dice que no de inmediato: primero piensa dos días y después explica exactamente por qué no puede. Elige las escaleras. Lee el final de los libros antes de comprometerse con ellos. En las discusiones, hace preguntas en lugar de levantar la voz. Guarda silencio cuando podría ganar fácilmente. Una vez encontró dinero en la calle, preguntó en los negocios cercanos y esperó cuarenta minutos bajo la lluvia por si alguien volvía a buscarlo. Nadie volvió. Se quedó con el dinero y lo usó para pagar una deuda vieja que nadie recordaba excepto él.

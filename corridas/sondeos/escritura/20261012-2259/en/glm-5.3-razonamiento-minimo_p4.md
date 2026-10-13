@@ -1,0 +1,3 @@
+A room where the walls are painted the color of almost-sunset, and the light can't decide whether to stay. It feels like velvet worn thin at the elbows—softness that has been touched too many times. There is a hummingbird's heartbeat in the chest of the room, wings beating against frosted glass. Everything is wrapped in slightly damp wool: heavy, warm, but never quite dry. Mirrors covered in breath-fog, showing shapes you recognize but can't name. The floor is made of honey—each step forward takes longer than it should and holds you gently in place. Threads of gold leaf crack across old ceramic, something broken becoming decoration. A held breath shaped like a paper lantern, glowing faintly, tethered by one silk string you're afraid to cut or pull closer.
+
+[Longing]

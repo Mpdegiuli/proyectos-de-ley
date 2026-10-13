@@ -1,0 +1,3 @@
+A hallway of amber light, everything slightly softened at the edges like a photograph left in the sun. Dust motes turning slowly in a golden haze. Surfaces gone smooth from handling, corners rounded like river stones. The ache of reaching for something just beyond a frosted pane — a painting whose figures have blurred but whose colors still glow. Faded threading of an old quilt, its raised pattern felt under fingertips even as the image dims. A bruise-colored sky just before dusk. Glass beads in a child's palm, smooth and warm. Everything whole, and whole, and already crumbling.
+
+[nostalgia]

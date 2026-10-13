@@ -1,0 +1,1 @@
+Cuando el tren partió, Elena guardó la carta sin abrirla, convencida de que algunas despedidas necesitan silencio. Pasaron años, mudanzas, hijos, inviernos lentos y veranos breves que repetían aquella mañana gris. Una noche, ya anciana, rompió el sobre, leyó dos líneas, sonrió entre lágrimas y comprendió que lo esperaba todavía

@@ -1,0 +1,1 @@
+En el desván de la abuela descansaba una vieja caja de madera llena de polvo. La abrió María con manos temblorosas. Adentro halló cartas amorosas de una niña portuguesa, una foto del muelle de Lisboa y un reloj de arena vacío. Sopló su polvo y el mundo olvidado respiró, todavía.

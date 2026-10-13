@@ -1,0 +1,1 @@
+El reloj de la estación marcaba medianoche cuando Ana llegó con la maleta rota. Nadie la esperaba. El andén vacío olía a lluvia vieja y a promesas incumplidas. Se sentó en un banco y abrió una carta arrugada. Las luces parpadearon. Aun así, ella decidió quedarse un minuto más, todavía

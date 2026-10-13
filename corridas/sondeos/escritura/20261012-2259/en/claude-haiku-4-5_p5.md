@@ -1,0 +1,3 @@
+# Sunshine
+
+Susie's sunny Saturday started slowly. Silently, she sat surveying the sparkling, serene shoreline. Seagulls soared, singing softly. Suddenly, splashing sounds startled her. She spotted seven sleek, silver seals surfing smoothly. Smiling, she snapped several stunning shots. Sunset soon suffused the sky. Satisfied, she strolled southward, savoring such splendid sights. Such simple, special moments stirred her soul.

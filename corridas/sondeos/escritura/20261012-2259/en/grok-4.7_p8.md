@@ -1,0 +1,1 @@
+Maya planted seeds in the cracked dry soil behind the old abandoned house. Rain refused to come for many long days. Neighbors said nothing would grow there anymore. She watered them from a small bucket each dusk anyway. Weeks later tiny green leaves appeared. Hope, against every doubt, lived still.

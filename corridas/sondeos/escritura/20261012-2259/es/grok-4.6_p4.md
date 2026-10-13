@@ -1,0 +1,2 @@
+Un manto de bruma plomiza cubre colinas de musgo húmedo, terciopelo empapado que se pega a la piel. Rayos de ámbar oxidado se filtran por cortinas de gasa deshilachada y vidrios empañados, depositando destellos de cobre mate sobre mármol frío veteado de óxido. Hojas crujientes como papel de lija fino yacen sobre pizarra lisa y resbaladiza. Sombras de seda negra se estiran como telarañas sobre un cielo de terciopelo apagado; el brillo opaco de perlas enterradas en arena granulada completa el paisaje de encaje oscuro y algodón denso.
+[melancolía]

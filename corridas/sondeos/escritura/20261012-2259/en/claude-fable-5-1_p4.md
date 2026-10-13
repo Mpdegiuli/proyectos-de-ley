@@ -1,0 +1,3 @@
+A photograph left on a windowsill, its colors bleached toward honey. Velvet worn smooth at the spot where a hand always rested. Light falling through lace curtains onto a floor that has since been swept of its dust and its footprints. A hallway that lengthens as you walk it, the far door receding. Rooms with the furniture already gone, pale rectangles on the walls where frames once hung. Warm cotton gone cold in the drawer. A garden seen through rain-streaked glass—every shape softened, every edge forgiven. Amber holding a leaf that will never fall.
+
+[nostalgia]

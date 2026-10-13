@@ -1,0 +1,3 @@
+A photograph left too long on a sunlit windowsill: the colors bleached to honey, the edges curling like dry leaves. Velvet rubbed the wrong way, soft and then suddenly rough. A doorway glowing amber at the end of a hall you can walk down forever without arriving. Warm glass that has cooled just enough to hold, fogged on the inside so the room beyond blurs into gold. Dust drifting through a slant of afternoon light, each mote bright for only a second. A sweater unraveling from the hem, the yarn still kinked with the shape it once held. Sugar crystals dissolving at the bottom of a cup, grainy, glinting, vanishing as you watch.
+
+[Nostalgia]

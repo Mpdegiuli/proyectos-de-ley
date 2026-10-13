@@ -1,0 +1,1 @@
+Maria left the lighthouse before dawn, carrying only her father's brass key and a folded map. Storms had taken the road, the radio, and finally her hope of rescue. She climbed the black rocks anyway, lit the lamp with trembling hands, and waited while waves crashed below, remaining perfectly still

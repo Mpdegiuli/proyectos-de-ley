@@ -1,0 +1,1 @@
+La lluvia caía suavemente sobre el campo. Un anciano esperaba bajo el árbol, mirando al horizonte. Sus hijos le prometieron visitarlo hoy. Recordó los días de risas y juegos. El sol comenzó a esconderse, las sombras se alargaron. Con esperanzado susurro, murmuró a la brisa: "Sé que vendrán... todavía".

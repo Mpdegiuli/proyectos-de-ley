@@ -1,0 +1,1 @@
+Grandpa's watch stopped the morning he died. Mom wanted to fix it; I refused. For years it sat on my desk, hands frozen at 6:14. Tonight my daughter wound it, curious. It ticked, faltered, then ran steady. She pressed it to her ear and smiled. Some hearts are never still.

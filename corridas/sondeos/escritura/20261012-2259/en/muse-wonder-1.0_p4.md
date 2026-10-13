@@ -1,0 +1,3 @@
+A sun-bleached photograph left on a windowsill, its edges curled and brittle, its blacks turned milky grey. A frayed quilt folded over an empty chair, threads thinning to gauze, once-crimson patches faded to dusty rose. Afternoon light, honey-thick and amber, pooling in floorboard cracks, dust motes suspended like snow in glass. Beyond the pane, the same street in hard noon white, sharp, repainted, its outlines edged in crisp blue shadow.
+
+[nostalgia]

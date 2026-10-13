@@ -1,0 +1,3 @@
+Es un tapiz de terciopelo raído; sus hilos mostaza carecen de brillo, pero al roce de las yemas devuelven una suavidad sedosa. Es el polvo suspendido flotando lentamente sobre una densa columna de luz sepia. Exhibe la aspereza de las esquinas oxidadas en una chapa y la delgadez crujiente de un papel viejo resquebrajándose al apretarlo. Se proyecta como un ventanal empañado por escarcha gris, detrás del cual vibran siluetas borrosas de contornos desdibujados. Es una manta de lana gruesa, pesada y porosa, entretejida con microcristales afilados, que se derrama sobre un piso de baldosas agrietadas teñidas bajo un perpetuo filtro ámbar. 
+
+[Nostalgia]

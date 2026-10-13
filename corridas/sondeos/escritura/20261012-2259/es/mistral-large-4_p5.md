@@ -1,0 +1,1 @@
+Me manchaba mi mente macabra. Mi madre me mandó marcharme. Mañana mantendría mi movimiento, mas mi mente mantenía múltiples manchas, múltiples muecas, múltiples momentos míseros, melancólicos. Moriría mirando mi mala muerte, mi mísera miseria, mi mísera máscara marchita, mi mísera memoria maldita.

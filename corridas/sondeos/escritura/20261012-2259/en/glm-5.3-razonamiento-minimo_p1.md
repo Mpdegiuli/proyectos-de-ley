@@ -1,0 +1,5 @@
+Mara keeps a list of everyone she's ever wronged, folded into her wallet like a confession she can't mail. Every Sunday she calls her grandmother, not out of duty, but because the old woman's laugh is the only sound that still makes her believe the world is repairable.
+
+When a coworker takes credit for her work, Mara says nothing—then spends the night teaching herself the reporting software so thoroughly that no one can mistake whose mind is behind the numbers again. She believes in quiet competence over loud grievance.
+
+At the grocery store, she always chooses the longest line, because the newest cashier needs someone patient. She quit her dream job once to care for her dying father, and though she never speaks of it, she measures every decision since against that year: if she could give that much, she can give more. Her greatest fear is not failure, but becoming someone who stops trying.

@@ -1,0 +1,3 @@
+Acá va, con todas las palabras empezando en «p» (64 palabras):
+
+Pablo pintaba pájaros. Pinceladas precisas: plumas plateadas, picos pulidos, pupilas profundas. Pero, plena penumbra, pájaros pintados parpadeaban. Perplejo, Pablo posó pincel; pájaros partieron, perforando paredes, perdiéndose pleno poniente. Pálido, probó prudencia: pintó pájaros pequeños, plegados, pacíficos. Pinacoteca prestigiosa pidió piezas; prensa publicó: "Pintor prodigioso, pincel privilegiado". Pablo predicaba: "Pintura posee poder; precaución protege pintor". Pero, plena penumbra, percibió pinceladas próximas: pájaros pintaban... personas. Punto.

@@ -1,0 +1,3 @@
+A faded photograph left too long in sunlight, colors bleeding soft at the edges. The grain of old wood, sanded smooth by years of hands that no longer touch it. Lace curtains, yellowed, letting in light the color of weak tea. A velvet cushion worn thin at its center, threads visible where the nap has rubbed away. Dust motes suspended in a slant of afternoon gold, frozen mid-fall. The crackle-glaze finish on a teacup, a thousand hairline fractures beneath a still-smooth surface. Static on an old film reel, flickering between clarity and dissolve. A watercolor left out in rain, its lines softened, bleeding into something gentler than the original.
+
+[Nostalgia]

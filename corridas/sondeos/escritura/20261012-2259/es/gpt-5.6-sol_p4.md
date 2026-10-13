@@ -1,0 +1,1 @@
+Una fotografía desteñida bajo un vidrio empañado; bordes amarillos, rostros de acuarela borrada. Un hilo de luz atraviesa cortinas ásperas y se posa sobre una silla vacía. Terciopelo gastado, polvo dorado, grietas finas en la porcelana. Un atardecer doblado dentro de un bolsillo, suave por fuera, astillado por dentro. [Nostalgia]

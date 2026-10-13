@@ -1,0 +1,1 @@
+Every evening, Mara wound the clock her father had built, though its hands had stopped the day he died. One winter night, it chimed thirteen times. She opened its wooden door and found a note: Time cannot bring me back, but whenever you remember me, I am with you still

@@ -1,0 +1,3 @@
+Aquí va un microrrelato tautograma (todas las palabras empiezan por A; 44 palabras):
+
+Algunos antiguos amigos andan alrededor abriendo antiguas arcas adquiriendo antiguos artefactos. Aquellos atletas alcanzan altas alturas afrontando adversidades agotadoras. Aunque algunos animales aparecen amenazando aquellos avanzan animosamente. Además algunas aves anidan alrededor. Ahora aquellos amigos ayudan a aquellos atletas. Así alcanzan ambos acuerdos amistosos.

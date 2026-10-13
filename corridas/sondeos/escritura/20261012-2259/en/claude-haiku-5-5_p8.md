@@ -1,0 +1,1 @@
+The lighthouse keeper climbed the spiral stairs every night, counting each step like a silent prayer. Storms came and went, and ships passed unseen. His wife had left years ago, but he kept the lamp burning faithfully for her anyway. He was old now, and tired, but he was still.

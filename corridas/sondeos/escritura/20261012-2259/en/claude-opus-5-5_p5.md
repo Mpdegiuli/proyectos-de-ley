@@ -1,0 +1,3 @@
+**Silly Stray**
+
+Sally, sixty, sat silently sipping sweet sherry. Suddenly, something scratched softly somewhere. Startled, Sally stood, seizing seven sharp skewers. Shadows shifted strangely. "Speak!" she shrieked. Silence. Slowly, steadily, something slunk sideways: scruffy, skinny, soaked. Sally smiled sheepishly. "Silly stray!" She served salmon scraps, softly singing. So Smudge stayed, sleeping soundly since.

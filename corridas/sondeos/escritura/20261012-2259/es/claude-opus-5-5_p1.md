@@ -1,0 +1,3 @@
+**Martín**
+
+Martín llega a la panadería antes de que levanten la persiana y espera en la vereda sin apurar a nadie. Compra dos medialunas: una para él y otra para el diariero, aunque nunca le preguntó el nombre. En la oficina corrige errores ajenos en silencio y deja que otros se lleven el mérito; prefiere que el trabajo salga bien a que lo aplaudan. Cuando su jefe le ofrece un ascenso a cambio de despedir a una compañera, pide un día para pensarlo y al día siguiente renuncia. Esa tarde vende el auto para pagar tres meses de alquiler. Llama a su madre todos los domingos, incluso desde que ella ya no lo reconoce, y le cuenta cosas que inventa para parecer feliz. Guarda las cartas que nunca envió. Duda de casi todo, salvo de lo que no está dispuesto a hacer.

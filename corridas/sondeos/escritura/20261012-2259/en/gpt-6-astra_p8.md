@@ -1,0 +1,1 @@
+Every evening, Mara lit the lighthouse, though no ships had crossed the bay for years. Tonight, a small boat appeared, carrying her brother, unchanged since the storm. He smiled from the water. She opened the door, but dawn arrived first. The boat vanished. Mara kept the lamp burning, waiting still

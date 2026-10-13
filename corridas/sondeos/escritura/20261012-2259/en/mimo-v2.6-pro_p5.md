@@ -1,0 +1,3 @@
+**Shadows Stretching**
+
+She searched surrounding streets seeking shelter. Shadows stretched. Something sinister seemed strong. She stopped, sensing silent steps somewhere. Seconds stretched. She sprinted south, seeking sanctuary. She saw some strong steel structure. She shimmied sideways, shutting steel shutters securely. Safe, she sat shaking, slowly steadying herself. Still, strange sounds suggested something stayed. She sat stone still, softly singing, suppressing screams.

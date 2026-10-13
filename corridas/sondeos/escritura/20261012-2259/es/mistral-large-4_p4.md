@@ -1,0 +1,3 @@
+Es un cristal cubierto de polvo fino que filtra la luz sin dejarla pasar del todo. Es la textura del terciopelo empapado, pesado como plomo, rozando la piel con suavidad triste. Es la lluvia horizontal contra un vidrio empañado, dejando surcos que se evaporan antes de llegar abajo. Es caminar sobre baldosas frías con los pies descalzos mientras una sombra se alarga indecisa hacia el horizonte. Es la lana áspera de una bufanda olvidada en el cajón, con hebras que se enredan solas. Es el humo de un cigarrillo que se disuelve en el aire azul, dejando solo un círculo gris en el techo. Es el peso de un libro abierto sobre las rodillas, con páginas amarillentas que callan.
+
+[melancolía]

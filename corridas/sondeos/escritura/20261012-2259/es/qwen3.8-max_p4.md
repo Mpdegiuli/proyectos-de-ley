@@ -1,0 +1,1 @@
+Es una ventana empañada por dentro; detrás, una lámpara se apaga en cámara lenta. Los dedos rozan terciopelo gastado donde quedó la marca de una mano. Un hilo de lana tira de un botón a punto de caer. Sobre el vidrio, la lluvia dibuja senderos que no llegan a la puerta. Es polvo flotando en un rayo de sol sobre una silla vacía. [Nostalgia]

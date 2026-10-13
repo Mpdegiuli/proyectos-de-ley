@@ -1,0 +1,1 @@
+Bajo la luna llena el lobo aulló en la montaña nevada. Buscaba a su manada perdida. Recorrió valles y ríos congelados. El viento helado le cortaba el pelaje. Vio huellas en la nieve. Las siguió con esperanza. Llegó a una cueva oscura. Entró muy despacio. Allí estaban todos esperándolo todavía

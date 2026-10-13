@@ -1,0 +1,1 @@
+The lake remembered every stone my grandfather skipped across it. Sixty years later, I stood on the same dock, his old hat in my hands. Wind stirred the pines, rippled the water, then faded. I whispered his name once. The echo traveled home across cold water gone suddenly, impossibly still.

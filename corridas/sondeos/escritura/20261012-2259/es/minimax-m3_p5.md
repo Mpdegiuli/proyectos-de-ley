@@ -1,0 +1,3 @@
+**Pablo, pintor paupérrimo, paseaba plenamente París.** Pluvioso, parisino panorama: prostíbulos, palacios, paseantes. Plumín, pinceles, paleta. Pintaba prolijamente prostitutas preciosas, pierrots pálidos. Pero pobreza, padecimiento. Platicaba poco, pensaba profundamente. Problema: príncipe pedíale pintar, pagando pésimamente. Pablo, prevenido, partió. Persiguiendo promesas, peregrinó pacientemente. Pasaron primaveras, pueblos, periplos. Permaneció pobre, pero perseverante. Póstumamente, pinturas perduraron: portentosas, preciosas, plenamente perfectas.
+
+*(56 palabras, todas iniciadas con **P**)*

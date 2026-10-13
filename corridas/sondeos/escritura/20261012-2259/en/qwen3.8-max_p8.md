@@ -1,0 +1,1 @@
+Every morning, Maya watered the cracked garden stone, remembering her grandmother's promise that patience could bloom anywhere. Years passed, neighbors laughed, seasons dried, and the city expanded. One dawn, a tiny green shoot pushed through the dust. She smiled, whispered thanks, and stood there in soft quiet light, completely still

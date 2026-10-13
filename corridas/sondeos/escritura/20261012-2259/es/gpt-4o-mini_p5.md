@@ -1,0 +1,1 @@
+Bajo bizarros bultos, Beatriz brincaba, buscando bonitas bolas brillantes. Brillaban bellamente, burlando barandas, balcones y brazos. Breves besos bancarios, burbujas burlonas, brotaban bullen. Brillante batería, bondadosa, buscaba balance, brindando beatitud. Batía brincos, bromeando, dejando bombas de burbujas. Belleza, brillo, burbujas: Beatriz, básica, borboteaba. 

@@ -1,0 +1,1 @@
+The lake had swallowed her brother fifty years ago. Every autumn, Margaret rowed to the center, dropped white chrysanthemums onto black water, and whispered his name. Tonight, fog curled around her oars. Something beneath the surface stirred, gentle as memory. She waited, heart pounding, watching ripples spread. The water settled, still.

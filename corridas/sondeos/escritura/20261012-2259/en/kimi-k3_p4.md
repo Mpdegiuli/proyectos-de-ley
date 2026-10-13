@@ -1,0 +1,3 @@
+A house seen through a train window at dusk, every room lit gold, the door already shut. Photographs whose colors have slid toward amber, edges soft as worn cotton. The texture of a childhood blanket, nap rubbed thin by thumbs. The sheen on a banister polished by hands that have moved away. A Polaroid developing in reverse—faces sharpening just as light leaves the sky. Wallpaper in a room you can only enter by closing your eyes. Warm glass against a cool pane; velvet gone smooth at the armrest. Something small and bright kept in a box lined with faded tissue, lifted out once a year, then folded back into the dark.
+
+[Nostalgia]

@@ -1,0 +1,1 @@
+The old clock in the hallway stopped ticking years ago, yet grandmother insisted it worked. Every evening, she wound it gently, listening for a sound that never came. When she passed, we found a note tucked inside: time doesn't need motion to matter. We kept the clock, silent and still.

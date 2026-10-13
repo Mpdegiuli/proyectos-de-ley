@@ -1,0 +1,1 @@
+Al caer la noche, Inés encontró una llave bajo el limonero. Nadie reconoció su forma ni supo qué puerta abría. Durante años la guardó. Ya anciana, oyó un clic dentro del armario. La llave tembló en su mano. Del otro lado, su madre cantaba aquella canción, olvidada por todos, todavía.

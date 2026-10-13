@@ -1,0 +1,1 @@
+Marta esperó el tren cada domingo durante cuarenta años, con la bufanda roja que él le regaló. Nunca llegó su abrigo gris. Una mañana, un niño le entregó un sobre amarillento: «Perdóname, nunca dejé de quererte». Marta sonrió y comprendió que él la esperaba. Seguía en el andén, todavía.

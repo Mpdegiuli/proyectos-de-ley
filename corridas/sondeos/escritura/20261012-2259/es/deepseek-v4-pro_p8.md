@@ -1,0 +1,1 @@
+El tren se detuvo en la estación vacía. Marta miró por la ventanilla empañada y buscó su rostro entre la niebla. Nadie esperaba en el andén. El equipaje pesaba menos que sus dudas. Bajó despacio, sintió el frío en los dedos y caminó hacia la salida. No se arrepintió todavía.

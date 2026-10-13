@@ -1,0 +1,1 @@
+Small seals slipped silently seaside, seeking shelter. Suddenly, storm-surge surged, scattering shells. Sable seal Sam stood steadfast, shielding smaller siblings. Sea spray stung; skies sank. Still, Sam sang soft songs, soothing scared souls. Soon, silver sunlight surfaced. Safe, sleepy seals snuggled shoreward; Sam smiled, sensing summer survived.

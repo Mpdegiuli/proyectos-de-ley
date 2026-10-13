@@ -1,0 +1,3 @@
+Una fotografía virada al sepia que todavía guarda el calor de la mano que la sostuvo. Terciopelo gastado en los bordes, liso donde tantas veces lo acaricié. Luz de las seis de la tarde entrando oblicua por una persiana y dorando el polvo, que flota como si el tiempo se hubiera quedado en suspensión. Una ventana empañada: detrás, un paisaje nítido que mi dedo dibuja y que se borra al instante. Es miel tibia con una astilla adentro; un pulóver de lana que ya no abriga, pero conserva el aroma de una casa que se mudó de mundo.
+
+[Nostalgia]

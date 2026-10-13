@@ -1,0 +1,1 @@
+At midnight, Mara heard the lighthouse bell ring though its keeper had been dead for years. She climbed the spiral stairs, carrying her grandfather’s key. At the lantern room, a shadow turned toward her. The bell rang below. Mara smiled, unlocked the door, and found the sea waiting and still.

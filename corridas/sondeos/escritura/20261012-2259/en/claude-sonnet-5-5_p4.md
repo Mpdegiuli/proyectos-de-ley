@@ -1,0 +1,3 @@
+A sepia photograph rests on a sunlit windowsill, its edges soft as worn flannel and curled like dry petals. Honey-colored light pours through dusty glass, gilding motes that drift like slow snow. Beneath your fingertips lies the nubby grain of an old wool sweater, warm and faintly rough. An amber porch light glows at the end of a long blue corridor, but with every step the hallway stretches and the glow slips back like a lantern on dark water. Behind frosted glass, familiar silhouettes blur into a watercolor left out in the rain, its colors bleeding yet still luminous, always just beyond your reach.
+
+[Nostalgia]

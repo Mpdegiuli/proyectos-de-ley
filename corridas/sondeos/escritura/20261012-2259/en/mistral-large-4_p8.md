@@ -1,0 +1,1 @@
+The old lighthouse keeper climbed the spiral stairs each morning, hoping to see her ship return. Years passed, storms raged, but he never missed a single day. Today, as the fog lifted, he spotted sails on the distant horizon. His heart raced wildly with joy. She was coming home still.

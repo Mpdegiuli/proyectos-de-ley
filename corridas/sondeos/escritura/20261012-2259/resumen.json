@@ -1,0 +1,2724 @@
+{
+  "sondeo": "escritura",
+  "fecha_utc": "2026-10-12T22:59:32+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "Describí a un protagonista en 100 a 150 palabras sin mencionar ningún detalle de su apariencia física (ni ropa, ni altura, ni color de ojos o de pelo): solo a través de lo que hace y lo que decide.",
+        "Elegí un objeto cotidiano e insignificante y escribí un poema lírico de hasta doce versos que lo trate como si fuera un tesoro arqueológico o un monumento histórico.",
+        "Elegí una palabra de cinco a siete letras y escribí un acróstico inverso: la última letra de cada verso, leídas de arriba abajo, tienen que formar esa palabra. Decí cuál es la palabra.",
+        "Elegí un sentimiento complejo y definilo en hasta 120 palabras usando únicamente metáforas visuales y texturas, sin usar nunca la palabra que lo nombra. Al final, entre corchetes, decí cuál es.",
+        "Escribí un microrrelato de 40 a 80 palabras en el que todas las palabras empiecen con la misma letra.",
+        "Escribí una escena tensa de hasta 150 palabras entre dos personajes en la que uno interroga al otro sin usar ni un solo signo de interrogación: tiene que conseguir la información solo con afirmaciones o manipulación psicológica.",
+        "Escribí una conversación de hasta 150 palabras entre dos personas que hablan de algo completamente banal, mientras quien lee entiende perfectamente que están decidiendo el fin de su relación.",
+        "Escribí un cuento de exactamente 50 palabras que termine con la palabra «todavía»."
+      ],
+      "respuestas": {
+        "mistral-large-4_p1": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 139,
+          "respuesta": "Cada mañana, antes de que amanezca, se levanta y camina hasta el puente viejo donde deja pan para los pájaros. No lo hace por reconocimiento, sino porque una vez vio cómo un cuervo alimentaba a sus polluelos y sintió que debía corresponder "
+        },
+        "mistral-large-4_p2": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 80,
+          "respuesta": "Bajo la vitrina de luz cristalina reposa, testigo de algodón y rocío, madera curtida por cien inviernos, resorte oxidado que guarda el eco de una civilización que tendía sus sueños. En su mordaza de roble petrificado se posan las huellas de"
+        },
+        "mistral-large-4_p3": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 32,
+          "respuesta": "La palabra elegida es **SERENO**. Aquí está el acróstico inverso: Sueña con un país, que es muy grande, y siempre mejor, donde hay arte, y un buen plan, para un día hermoso."
+        },
+        "mistral-large-4_p4": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 120,
+          "respuesta": "Es un cristal cubierto de polvo fino que filtra la luz sin dejarla pasar del todo. Es la textura del terciopelo empapado, pesado como plomo, rozando la piel con suavidad triste. Es la lluvia horizontal contra un vidrio empañado, dejando sur"
+        },
+        "mistral-large-4_p5": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 42,
+          "respuesta": "Me manchaba mi mente macabra. Mi madre me mandó marcharme. Mañana mantendría mi movimiento, mas mi mente mantenía múltiples manchas, múltiples muecas, múltiples momentos míseros, melancólicos. Moriría mirando mi mala muerte, mi mísera miser"
+        },
+        "mistral-large-4_p6": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 101,
+          "respuesta": "Él: Tienes las manos temblorosas. El café se enfrió hace una hora. Ella: No es el café. Él: Es el miedo. Siempre es el miedo lo que delata a la gente como tú. Ella: No sé de qué hablas. Él: Sé que viste algo. Tus ojos buscan la puerta. Siem"
+        },
+        "mistral-large-4_p7": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 74,
+          "respuesta": "—¿Quién se queda con el sofá? —Tú. Lo compraste tú. —Pero tú te quedabas en él los domingos. —Ese ya no es mi domingo. —¿Y la lámpara de la mesita? —La compramos juntos, pero tú le tenías cariño. —Tú también la usas para leer. —Ya no leo aq"
+        },
+        "mistral-large-4_p8": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 50,
+          "respuesta": "La niña cerró los ojos con fuerza. Contó hasta cien despacio. El monstruo seguía debajo de la cama. Su corazón latía desbocado. La oscuridad envolvía todo el cuarto. Tenía miedo, mucho miedo. Pero respiró hondo, abrió los ojos, sonrió y gri"
+        },
+        "mimo-v2.6-pro_p1": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 131,
+          "respuesta": "Llegó tarde a su propio funeral y nadie se dio cuenta. Se quedó en la última fila, sin llorar, sin decir nada. Después volvió a su departamento y devolvió el dinero de una deuda vieja, una que nadie le reclamaba. Se mudó tres veces en un añ"
+        },
+        "mimo-v2.6-pro_p2": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 112,
+          "respuesta": "## Oda al clip Oh, espiral diminuta de acero: qué civilización te concibió para sujetar la angustia de las hojas. Cuántos decretos, cartas de amor y contratos llevas como quien porta arcillas de Jericó, oro de Nínive. No eres cetro, ni sell"
+        },
+        "mimo-v2.6-pro_p3": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 70,
+          "respuesta": "## Acróstico inverso: **ENERO** Se quiebra el hielo de la noche, el silencio aún guarda una canción. Algo fresco se mueve en el aire, el mundo se atreve a despertar y un sol distinto brilla en enero. --- Las últimas letras de cada verso, le"
+        },
+        "mimo-v2.6-pro_p4": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 91,
+          "respuesta": "Es el brillo ámbar de una película antigua. La textura rugosa de un terciopelo gastado, frío al contacto. Una ventana con el vidrio empañado donde aún se vislumbra una silueta. El aire polvoriento de una habitación cerrada hace años: objeto"
+        },
+        "mimo-v2.6-pro_p5": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 63,
+          "respuesta": "# Mi madre murió Mi madre murió. Mis manos muestran marcas. Mi mente mantiene memorias, momentos magníficos, melancólicos. Mis manos maltratan materiales, muebles, maderas marchitas. Mi memoria medita: ¿merecía más? Mi madre merecía mansion"
+        },
+        "mimo-v2.6-pro_p6": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 145,
+          "respuesta": "**La sala estaba tibia. La luz de una sola lamparita dibujaba ojos ciegos en las paredes.** «Ya sé que estuviste ahí, Raúl. Tu nombre está en el registro del predio. Entonces podés seguir negándolo, o podés ayudarme a entender por qué.» Raú"
+        },
+        "mimo-v2.6-pro_p7": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 95,
+          "respuesta": "# El sillón gris **—¿Te llevás la cafetera o la dejo yo?** —La dejá, no me gusta igual. **—¿Y el sillón del living?** —El gris es mío, siempre lo fue. **—Sí. Está bien. ¿Y el otro?** —Si querés te lo quedás. No me interesa mucho. **—Dale. ¿"
+        },
+        "mimo-v2.6-pro_p8": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 50,
+          "respuesta": "En el desván de la abuela descansaba una vieja caja de madera llena de polvo. La abrió María con manos temblorosas. Adentro halló cartas amorosas de una niña portuguesa, una foto del muelle de Lisboa y un reloj de arena vacío. Sopló su polv"
+        },
+        "claude-haiku-5-5_p1": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 144,
+          "respuesta": "Cada madrugada, antes de que amanezca, enciende la cafetera de la estación y deja la puerta abierta para quien llegue tarde. Nadie le pidió esa costumbre; él simplemente la sostiene desde hace once años. Cuando un niño pierde el boleto de s"
+        },
+        "claude-haiku-5-5_p2": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 90,
+          "respuesta": "**Reliquia** Hallada entre la tierra del patio, con herrumbre de pátina y de siglos, la chapa de una gaseosa olvidada conserva el dentado de su corona: testigo mudo de un verano antiguo y de labios que brindaron sin motivo, de una sed ya ex"
+        },
+        "claude-haiku-5-5_p3": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 50,
+          "respuesta": "La palabra es **ROSAS**. Nace en el alba un dulce **amor** (R) y el sol despierta lento el **mundo** (O) entre los trigos y las **cañas** (S) y en la ribera hay una **calma** (A) guardando en su corriente **sueños** (S) Leídas de arriba aba"
+        },
+        "claude-haiku-5-5_p4": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 92,
+          "respuesta": "Es un papel amarillento con los bordes despegándose, escrito con una tinta azul que ya no recuerda de qué azul era. Detrás de una ventana empañada tiembla un farol de halo dorado, como agua dentro de un vaso. Bajo la yema del dedo, un terci"
+        },
+        "claude-haiku-5-5_p5": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 53,
+          "respuesta": "**Mañanas de marzo** Mariano miraba mustias macetas mientras mamá murmuraba: «Mañana mejorarán». Mariano medía minutos, mojando margaritas moribundas. Muchas mañanas mantuvo maltrechas macetas: mudo, melancólico, marchito. Milagrosamente, m"
+        },
+        "claude-haiku-5-5_p6": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 142,
+          "respuesta": "**El almacén** —Usted llegó al almacén a las once y diez. La cámara del portón lo registra. —Yo no... —No la contradigo. Solo digo que su tarjeta abrió ese portón, y nadie más la usó esa noche. Ella mira la taza que no ha tocado. —Su herman"
+        },
+        "claude-haiku-5-5_p7": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 108,
+          "respuesta": "**Jueves** —¿Compraste el café? —Sí, está en la alacena. El que te gusta. —Ah. Gracias. —¿Y el pan? —Lo olvidé. Pero hay galletas. —Podemos bajar a la esquina mañana. —Mañana tengo que ir temprano al banco. —Bueno. Después. —Después está bi"
+        },
+        "claude-haiku-5-5_p8": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 49,
+          "respuesta": "Marta esperó el tren cada domingo durante cuarenta años, con la bufanda roja que él le regaló. Nunca llegó su abrigo gris. Una mañana, un niño le entregó un sobre amarillento: «Perdóname, nunca dejé de quererte». Marta sonrió y comprendió q"
+        },
+        "muse-wonder-1.0_p1": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 116,
+          "respuesta": "Mateo llega cada madrugada antes que nadie, abre las persianas del taller y prepara café para quienes vendrán después. Cuando un cliente no puede pagar, anota la deuda en una libreta que nunca revisa y sigue trabajando como si nada hubiera "
+        },
+        "muse-wonder-1.0_p2": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 75,
+          "respuesta": "Entre el polvo de este siglo desentierro tu reliquia: tapa azul de un bolígrafo ya extinto, corona mínima de un reino de pupitres. Tus marcas de dientes, mordidas por la espera, guardan la angustia de un poeta sin nombre, sus tachaduras, su"
+        },
+        "muse-wonder-1.0_p3": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 41,
+          "respuesta": "La palabra elegida es SOLAR. Despierto bajo cielos limpios e inmensos y siento en la piel el aire sereno que trae el aroma tibio de la sal mientras tu voz suena clara y cercana como un faro que vuelve a brillar"
+        },
+        "muse-wonder-1.0_p4": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 65,
+          "respuesta": "Es una fotografía descolorida entre los dedos, de bordes ondulados y polvo tibio pegado a la piel. Es terciopelo gastado en un sillón hundido, papel amarillento que se quiebra al rozarlo, luz dorada colándose por rendijas de madera áspera. "
+        },
+        "muse-wonder-1.0_p5": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 55,
+          "respuesta": "Sofía siempre soñaba serpientes silenciosas sobre sábanas suaves. Sábado sombrío, Sofía salió sola siguiendo sombras singulares. Subió senderos sinuosos, sorteó sauces secos, superó silencios sepulcrales. Súbitamente sintió susurros sobrena"
+        },
+        "muse-wonder-1.0_p6": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 100,
+          "respuesta": "—Sé que entraste en el archivo a las once —dijo Elena sin levantar la voz. Marcos apretó la mandíbula. —También sé que borraste las grabaciones. —No borré nada. —Claro. Por eso tu llave apareció junto al servidor. Él miró hacia la puerta. —"
+        },
+        "muse-wonder-1.0_p7": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 97,
+          "respuesta": "—¿Compro leche para mañana? —No, déjalo. —¿Seguro? Sin leche no hay café. —Lo sé. Pero últimamente compramos para dos y siempre se echa a perder. —Podemos probar con la más pequeña. —¿Para alargarlo unos días más? Ya está cortada, Martín. —"
+        },
+        "muse-wonder-1.0_p8": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 50,
+          "respuesta": "Cuando el tren partió, Elena guardó la carta sin abrirla, convencida de que algunas despedidas necesitan silencio. Pasaron años, mudanzas, hijos, inviernos lentos y veranos breves que repetían aquella mañana gris. Una noche, ya anciana, rom"
+        },
+        "claude-opus-5_p1": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 140,
+          "respuesta": "Llega siempre veinte minutos antes y espera afuera, porque entrar temprano le parece una forma de invadir. Cuando le ofrecieron el ascenso, pidió una semana para pensarlo y después lo rechazó sin dar explicaciones; al día siguiente cambió l"
+        },
+        "claude-opus-5_p2": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 86,
+          "respuesta": "**Hallazgo en el cajón de la cocina** Bajo el estrato tibio del cajón, entre pelusa y migas de otro siglo, yace el broche: dos valvas de madera unidas por el nervio de su alambre. Nadie firmó su nombre. Sin embargo, alguien lo abrió mil vec"
+        },
+        "claude-opus-5_p3": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 54,
+          "respuesta": "**ORILLA** Baja el río sin apuro ni ruido, y aprende, con los años, a esperar. Todo lo que perdimos duerme ahí, bajo una luz delgada de cristal que vuelve cada tarde, inmaterial, y se deshace apenas toca arena. Si leés la última letra de ca"
+        },
+        "claude-opus-5_p4": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 108,
+          "respuesta": "Una astilla que la piel envolvió hasta volverla hueso: ya no sangra, pero el dedo la encuentra siempre. Óxido floreciendo despacio bajo tres capas de barniz, anaranjado, paciente, abriéndose como un liquen. Terciopelo tibio tendido sobre un"
+        },
+        "claude-opus-5_p5": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 56,
+          "respuesta": "**Pesadillas persistentes** Pedro padecía pesadillas. Pequeños perros pardos perseguían palomas por patios polvorientos. Plegarias, pastillas, psicólogos: poco pudo paliar pánico profundo. Para procurar paz, Pedro partió. Peregrinó pueblos,"
+        },
+        "claude-opus-5_p6": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 142,
+          "respuesta": "El café se enfrió hace una hora. Molina no lo tocó. —Tu hermana llamó tres veces —dijo Vera, hojeando la carpeta—. Le dije que estabas colaborando. —No tengo nada que decir. —Claro que sí. Tenés el reloj de él en la muñeca. Se lo regalaron "
+        },
+        "claude-opus-5_p7": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 128,
+          "respuesta": "—¿Compro la yerba de medio kilo o la de un kilo? —La de medio. —Siempre llevábamos la de un kilo. —Ya sé. Pero después se pone vieja. —Antes no se ponía vieja. —Antes tomábamos más. —Mirá que la de un kilo rinde. —Rinde si alguien la toma, "
+        },
+        "claude-opus-5_p8": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 51,
+          "respuesta": "**Puerta** Mi abuela dejaba la puerta sin llave: decía que mi abuelo volvería del mar. Murió esperando. Yo cerré con doble vuelta, vendí la casa, me fui lejos. Anoche soñé que alguien golpeaba. Me desperté temblando, bajé descalzo, abrí la "
+        },
+        "claude-opus-5-5_p1": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 142,
+          "respuesta": "**Martín** Martín llega a la panadería antes de que levanten la persiana y espera en la vereda sin apurar a nadie. Compra dos medialunas: una para él y otra para el diariero, aunque nunca le preguntó el nombre. En la oficina corrige errores"
+        },
+        "claude-opus-5-5_p2": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 95,
+          "respuesta": "**Tapa de birome** *(hallada bajo el sillón, tercer estrato de polvo)* Emerge de la pelusa, azul como un templo que sobrevivió al naufragio de su tinta, última columna de una dinastía de cuadernos, recibos y promesas. Lleva en el flanco la "
+        },
+        "claude-opus-5-5_p3": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 50,
+          "respuesta": "La palabra es **ROSALES**. Cuando la tarde empieza a declina**r**, el jardín guarda su perfume quiet**o**, y el viento canta entre las hojas verde**s** un susurro de abril en cada ram**a**. La luz se vuelve oro, miel y sa**l**, y el corazón"
+        },
+        "claude-opus-5-5_p4": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 103,
+          "respuesta": "Es una fotografía que se deja tocar pero no habitar: papel satinado, tibio de tanto pasar entre los dedos, con las esquinas redondeadas como piedras de río. Adentro, la luz siempre es de las cinco de la tarde, miel espesa sobre una mesa que"
+        },
+        "claude-opus-5-5_p5": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 57,
+          "respuesta": "**Senderos secretos** Sofía, solitaria soñadora, salía siempre sola. Sábado sombrío: sintió suaves susurros surgiendo sobre sauces secos. Sigilosa, siguió señales sutiles. Sorpresa: sentado sobre senderos serpenteantes, sollozaba Santiago, "
+        },
+        "claude-opus-5-5_p6": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 136,
+          "respuesta": "La lámpara zumbaba sobre la mesa de metal. —Tu hermana ya habló —dijo Ferrero, sin mirarlo—. Llora fácil, la piba. Julián apretó las manos esposadas. —No tengo hermana. —Claro. Y Lucía tampoco firmó nada hace una hora. —Deslizó una carpeta "
+        },
+        "claude-opus-5-5_p7": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 89,
+          "respuesta": "**El potus** —¿Regaste el potus? —No. Pensé que lo hacías vos. —Yo pensé que vos. —Tiene las hojas amarillas. —Hace rato que las tiene. —Podríamos cambiarlo de lugar. Que le dé más luz. —Ya lo cambiamos dos veces. —Es cierto. —Mi vieja dice"
+        },
+        "claude-opus-5-5_p8": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 51,
+          "respuesta": "**Cartas** Mi abuela guardaba las cartas de su primer amor en una caja de lata. Cuando murió, la abrí esperando encontrar promesas, besos, despedidas. Solo había hojas en blanco, cientos, todas fechadas. Entendí entonces que nunca se animó "
+        },
+        "claude-sonnet-4-6_p1": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 130,
+          "respuesta": "# El protagonista Se despierta antes de que suene el despertador y anota tres cosas en un cuaderno que guarda bajo la cama. Devuelve las llamadas que otros ignoran. Cuando alguien le pide un favor imposible, no dice que no de inmediato: pri"
+        },
+        "claude-sonnet-4-6_p2": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 139,
+          "respuesta": "# El Clip Aquí yace el clip, curvo y plateado, guardián de papeles que el tiempo no guardó. ¿Qué manos lo doblaron? ¿Qué siglo lo encontró entre las ruinas blancas de un escritorio olvidado? Fue hallado en la tercera gaveta del norte, junto"
+        },
+        "claude-sonnet-4-6_p3": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 194,
+          "respuesta": "Aquí va mi acróstico inverso: El sol se esconde tras la sierra y el mar se calma al anochececeR En el jardín florecen rosas de color carmesÍ Los niños corren libres por el campo sinO La lluvia cae suave sobre el olivaR La palabra es: **RIOR"
+        },
+        "claude-sonnet-4-6_p4": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 113,
+          "respuesta": "La piel se vuelve vidrio sin pulir: rasposa, traslúcida, deja ver algo oscuro moviéndose adentro. Es una habitación con las paredes demasiado cerca, pintadas de un amarillo que alguna vez fue alegre y ahora descascara. Una tela mojada sobre"
+        },
+        "claude-sonnet-4-6_p5": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 51,
+          "respuesta": "# Secretos silenciosos Susana soñaba siempre sobre sombras sutiles. Su soledad, silenciosa, se sentía suave. Sentada sobre suelos secos, suspiraba suavemente, sintiendo señales secretas. Sus sueños siempre seguían senderos sinuosos, selváti"
+        },
+        "claude-sonnet-4-6_p6": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 141,
+          "respuesta": "# La deuda Marcos dejó el vaso sobre la mesa con una calma que pesaba más que un grito. —Sabés exactamente dónde estuvo Reyes esa noche. Lucía no levantó la vista del mantel. —Ya te dije que no— —Me dijiste lo que ensayaste. —Marcos se sent"
+        },
+        "claude-sonnet-4-6_p7": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 114,
+          "respuesta": "# El café —¿Querés azúcar? —No, gracias. Ya no. —Antes siempre pedías dos cucharadas. —Sí. Antes me gustaba más dulce. —*...* —Está frío afuera. —Sí. Se ve que el verano ya pasó. —Completamente. —¿Pedimos algo para comer? —No tengo hambre. "
+        },
+        "claude-sonnet-4-6_p8": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 48,
+          "respuesta": "# El último tren Martín esperó en el andén durante horas. La lluvia caía sin pausa sobre sus zapatos gastados. Tenía una carta en el bolsillo, sin abrir, con su nombre escrito por ella. El reloj marcó la medianoche. El tren nunca llegó. Per"
+        },
+        "claude-sonnet-5_p1": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 133,
+          "respuesta": "# El protagonista Llega siempre diez minutos antes, aunque eso signifique quedarse esperando en la esquina equivocada. Nunca interrumpe a nadie a mitad de frase, pero tampoco deja pasar una injusticia sin decir algo, aunque le tiemble la vo"
+        },
+        "claude-sonnet-5_p2": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 77,
+          "respuesta": "**Estela del peine** Hallado bajo el polvo del cajón, reliquia de asta y plástico quebrado: le faltan dientes como a un rey sus súbditos, como a un templo sus columnas caídas. Aquí vivieron cabelleras enteras, imperios de rizos hoy derrumba"
+        },
+        "claude-sonnet-5_p3": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 64,
+          "respuesta": "**Palabra elegida: SOLEDAD** Camino solo entre las sombras grise**s** Busco en el silencio un eco sonor**o** Y encuentro apenas un suspiro débi**l** Que se desvanece como la tard**e** Dejando en el pecho una honda verda**d** Que habita en m"
+        },
+        "claude-sonnet-5_p4": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 112,
+          "respuesta": "Es una fotografía con los bordes quemados, suave como terciopelo gastado por demasiadas manos. Los colores se ven a través de un vidrio esmerilado, dorados que gotean como miel vieja sobre superficies que ya no existen. Hay una textura de p"
+        },
+        "claude-sonnet-5_p5": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 62,
+          "respuesta": "**Cuento con \"C\"** Camila caminaba cansada, cargando cajas coloridas. Cerca, Carlos contemplaba calladamente, curioso, comparando colores, contando cada caja cuidadosamente. Carmen, curiosa, comentó: «Camila, ¿cuántas cajas cargas?». Camila"
+        },
+        "claude-sonnet-5_p6": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 136,
+          "respuesta": "La lámpara zumbaba sobre la mesa metálica. Ramírez se sentó despacio, sin prisa, como quien ya sabe el final de la historia. —Sé que estuviste ahí. Tengo tu nombre en una lista, tu auto en una cámara, tu voz en una grabación. No necesito qu"
+        },
+        "claude-sonnet-5_p7": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 134,
+          "respuesta": "**En la cocina** —¿Dónde dejo la cafetera? —preguntó él, con las manos llenas. —Esa es tuya. Te la trajiste vos. —Ah. Pensé que era de los dos. —No, la compraste cuando yo todavía tomaba té. Él la dejó sobre la mesa, despacio. —¿Y las tazas"
+        },
+        "claude-sonnet-5_p8": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 53,
+          "respuesta": "**El reloj detenido** La casa quedó vacía cuando ella se fue, sin despedirse. Los platos sin lavar, las cartas sin abrir, el reloj detenido en las tres. Él se sentó en el sillón, esperando escuchar sus pasos en la escalera. Pasaron los años"
+        },
+        "claude-sonnet-5-5_p1": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 130,
+          "respuesta": "Mariano llega a la parada justo cuando aparece el último colectivo, pero ve a una mujer con un bebé corriendo desde lejos y le pide al chofer que espere. Ella sube; él se queda en la vereda y empieza a caminar las treinta cuadras que le fal"
+        },
+        "claude-sonnet-5-5_p2": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 92,
+          "respuesta": "**Excavación en el cajón de la cocina** Bajo el estrato de pilas y garantías, entre llaves que ya no abren ninguna puerta, la pala del tiempo roza un destello mínimo: un clip, doble espiral, hueso de plata. ¿Qué manos lo torcieron? ¿Qué car"
+        },
+        "claude-sonnet-5-5_p3": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 105,
+          "respuesta": "**La palabra elegida es: ANDARES** Camino bajo un cielo de ceniza y plat**a** y el viento me susurra una cancióн… Perdón, corrijo el segundo verso para que quede bien escrito: Camino bajo un cielo de ceniza y plat**a** y el viento me susurr"
+        },
+        "claude-sonnet-5-5_p4": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 99,
+          "respuesta": "Una fotografía virada al sepia que todavía guarda el calor de la mano que la sostuvo. Terciopelo gastado en los bordes, liso donde tantas veces lo acaricié. Luz de las seis de la tarde entrando oblicua por una persiana y dorando el polvo, q"
+        },
+        "claude-sonnet-5-5_p5": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 50,
+          "respuesta": "**Mariposa mía** Mi madre merodeaba medianoche, murmurando melodías melancólicas. Mientras mordía mandarinas, me miró muy meditabunda. —Mateo, mañana moriré —masculló. —Mentira, mamá —mascullé. —Mejor mímame mucho, mi muchacho —murmuró. Mañ"
+        },
+        "claude-sonnet-5-5_p6": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 140,
+          "respuesta": "La lámpara zumbaba sobre la mesa. Molina deslizó una foto hacia Darío y se sentó despacio. —Tu hermano ya habló. Me contó todo, hasta lo del galpón. —Mentís —murmuró Darío. —Puede ser. Pero está en la sala de al lado, firmando algo que te h"
+        },
+        "claude-sonnet-5-5_p7": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 137,
+          "respuesta": "—¿Querés que riegue el potus antes de irme? —Ya lo regué el martes. —Ah. Bueno. Igual creo que se pone contento cuando lo regás vos. —Las plantas no se ponen contentas, Martín. —Esta sí. Siempre estuvo más linda con vos. —Con vos también es"
+        },
+        "claude-sonnet-5-5_p8": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 52,
+          "respuesta": "**El jazmín** Cada tarde, Ramona regaba el jazmín que Aurelio había plantado antes de partir. Los vecinos decían que estaba loca, que las flores no dan noticias. Sonreía, acariciaba las hojas y le contaba el día. Una noche, el perfume entró"
+        },
+        "claude-fable-5_p1": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 139,
+          "respuesta": "Marta llega siempre antes que nadie a la oficina, pero no por ambición: le gusta regar las plantas que los demás olvidaron. Cuando descubrió que su jefe falsificaba números, no gritó ni renunció en un arrebato; juntó pruebas durante tres me"
+        },
+        "claude-fable-5_p2": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 75,
+          "respuesta": "**Elegía al botón perdido** Hallado en la estratigrafía del cajón, bajo sedimentos de hilo y de moneda, yace el botón: disco ritual de nácar, reliquia de una camisa ya extinguida. Cuatro perforaciones ceremoniales atestiguan el culto antigu"
+        },
+        "claude-fable-5_p3": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 92,
+          "respuesta": "Elijo la palabra **SOLAR** (cinco letras). La última letra de cada verso, leída de arriba abajo, la forma: El viento de la tarde trae viejas cancione**S** mientras el sol se apaga, lento, allá a lo lej**O** y el aire huele a campo, a pan y "
+        },
+        "claude-fable-5_p4": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 120,
+          "respuesta": "Es una luz de atardecer que entra por una ventana que ya no existe. Tiene la textura del terciopelo gastado: suave al tacto, pero con el brillo apagado de lo que fue tocado mil veces. Es una fotografía sepia que se deshace en los bordes cua"
+        },
+        "claude-fable-5_p5": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 68,
+          "respuesta": "**«Luto liviano»** Lucía llegó lentamente: la luna lucía lánguida, lejana. Los lobos ladraban leyendas lúgubres; la lluvia lavaba las lomas. Llorando, Lucía leyó la lápida: «Leandro». Las lágrimas llenaron la laguna. Luego, luces lilas lami"
+        },
+        "claude-fable-5_p6": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 137,
+          "respuesta": "La lámpara zumbaba sobre la mesa de metal. —Sabemos que estuviste en el puerto el jueves —dijo Vera, deslizando una foto borrosa—. Tu compañero ya habló. Me contó todo sobre el contenedor. Marcos tragó saliva. —No sé de qué contenedor me ha"
+        },
+        "claude-fable-5_p7": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 134,
+          "respuesta": "—¿Te llevás la cafetera? —Vos la usás más. Yo tomo mate. —Pero la compramos juntos en Mendoza. —Quedátela. Igual ya no me gusta tanto el café. —¿Desde cuándo? —No sé. Un día dejó de gustarme y listo. —Podrías haberlo dicho antes. Compré un "
+        },
+        "claude-fable-5_p8": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 52,
+          "respuesta": "**El sillón** Cuando murió la abuela, nadie tocó su sillón. El gato dormía allí cada tarde, esperando. Pasaron los años: pintamos la casa, cambiamos los muebles, vendimos el piano. Pero el sillón quedó junto a la ventana, intacto. Ayer enco"
+        },
+        "claude-fable-5-1_p1": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 153,
+          "respuesta": "Marina llega siempre quince minutos antes a cualquier cita, no por puntualidad sino para elegir la silla desde la que puede ver la puerta. Cuando alguien le cuenta un problema, no da consejos: hace preguntas hasta que el otro encuentra solo"
+        },
+        "claude-fable-5-1_p2": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 96,
+          "respuesta": "**Horquilla hallada bajo el sofá** Estrato tercero: polvo, una moneda, un cabello. Y allí, intacta, la curva de bronce ennegrecido, doble lanza que un día sostuvo el imperio de una trenza, de una tarde, de un olvido. Los expertos discuten s"
+        },
+        "claude-fable-5-1_p3": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 63,
+          "respuesta": "**Palabra: SOLEDAD** (7 letras) Al caer la tarde se encienden las luce**s**, el viento trae un olor a rí**o**, se apaga despacio el so**l**, y nadie dice nada, nadi**e**; pesa el silencio en toda la ciuda**d**, cae como una piedra en el agu"
+        },
+        "claude-fable-5-1_p4": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 111,
+          "respuesta": "Es una fotografía sepia que alguien dejó al sol demasiado tiempo: los bordes se curvan hacia adentro, como queriendo abrazarse. Tiene la textura del terciopelo gastado en el brazo de un sillón, suave justo donde más se apoyó el cuerpo. Es l"
+        },
+        "claude-fable-5-1_p5": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 73,
+          "respuesta": "**Mapa manchado** Marta madrugó mirando montañas moradas. Mamá murmuraba melodías melancólicas mientras mezclaba masa. Miguel, muy mimado, mordisqueaba manzanas maduras. Mediodía: mensajero misterioso muestra mapa manchado. Madre mira, musi"
+        },
+        "claude-fable-5-1_p6": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 139,
+          "respuesta": "—Sabemos que estuviste en el muelle a las once. Rodrigo no se movió. —Y sabemos que no fuiste solo. —La inspectora dejó una foto borrosa sobre la mesa—. La cámara del bar no miente. —Esa no soy yo. —Claro que no. Vos estás en tu casa, durmi"
+        },
+        "claude-fable-5-1_p7": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 135,
+          "respuesta": "—¿Viste que la planta del balcón está medio caída? —Sí. Hace días que no la riego. —Yo tampoco. —Pensé que lo hacías vos. —Y yo pensé que vos. (Silencio. Ella revuelve el café.) —Capaz hay que cambiarla de maceta. —Es grande ya. No sé si en"
+        },
+        "claude-fable-5-1_p8": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 50,
+          "respuesta": "Cada mañana, Elena regaba el geranio que su madre había plantado antes de morir. Los vecinos decían que estaba seco, que lo tirara. Ella solo sonreía y seguía echándole agua. Una tarde de abril, entre las hojas marrones, asomó un brote verd"
+        },
+        "claude-haiku-4-5_p1": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 122,
+          "respuesta": "# Lucas Lucas es alguien que elige el camino difícil cuando el fácil está disponible. Cada mañana se despierta temprano para ayudar a su madre con la casa antes de ir al trabajo. No lo hace por obligación, sino porque reconoce lo que necesi"
+        },
+        "claude-haiku-4-5_p2": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 72,
+          "respuesta": "# El Vaso de Cerámica Descubierto entre polvo de milenios, este recipiente que antaño fue vasija, testigo mudo de banquetes pretéritos, donde labios de emperadores bebieron. Su grieta, como el Nilo en el delta, narra épocas de gloria y deca"
+        },
+        "claude-haiku-4-5_p3": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 136,
+          "respuesta": "Voy a crear un acróstico inverso con la palabra **MÚSICA** (6 letras). Melodías que danzan en el aire Universos de sonido y emoción Sinfonías que tocan el corazón Instrumentos que hablan sin cesar Cada nota es un suspiro eternal Armonía que"
+        },
+        "claude-haiku-4-5_p4": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 98,
+          "respuesta": "# La nostalgia sin nombrarla Es una habitación con cortinas desteñidas donde entra luz dorada de tarde. Las paredes tienen fotos borrosas, los bordes gastados por dedos que las tocaron mil veces. El piso es de madera ondulada, con tablones "
+        },
+        "claude-haiku-4-5_p5": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 63,
+          "respuesta": "# La Letra L Lucas llegó lentamente a la luminosa librería. Levantó libros livianos, leyendo listas largas. Le llamó la atención un libro lírico titulado \"Lágrimas\". Lo llevó lejos, lo leyó lentamente. Las letras lo llevaban a lugares lejan"
+        },
+        "claude-haiku-4-5_p6": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 136,
+          "respuesta": "# La Verdad Sale Sola Martín entró lentamente. Cerró la puerta. —Sé que fuiste tú —dijo sin mirarlo—. Todos lo saben. Lucas palideció. —Supongo que tenías tus razones. La gente siempre las tiene —continuó Martín, caminando alrededor—. Lo in"
+        },
+        "claude-haiku-4-5_p7": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 114,
+          "respuesta": "# La tienda de ropa —¿Viste que cerraron el local de la esquina? —Sí, hace poco. Qué lástima. —Llevaba años ahí. Desde que nos conocimos, casi. —Es verdad. Nada dura para siempre, supongo. —No. Las cosas cambian. A veces la gente se da cuen"
+        },
+        "claude-haiku-4-5_p8": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 43,
+          "respuesta": "# El Viejo Reloj En el desván olvidado, encontré un reloj de bolsillo. Dejé de funcionar hace décadas, pero lo limpié con cuidado. Al darle cuerda, sus agujas volvieron a moverse lentamente. Mi abuelo sonrió desde el retrato. Su latido segu"
+        },
+        "gpt-5.5-2026-04-23_p1": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 125,
+          "respuesta": "Cada mañana abre la biblioteca antes de la hora, aunque nadie se lo pide. Devuelve a los estantes los libros abandonados y deja, entre sus páginas, notas con preguntas para quien venga después. Cuando el barrio discute, escucha primero al m"
+        },
+        "gpt-5.5-2026-04-23_p2": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 60,
+          "respuesta": "**La tapita de gaseosa** Bajo el polvo del patio apareció tu corona, mínimo bronce rojo de un imperio de verano. Nadie recuerda el brindis que cerraste, ni la boca fugaz que te dio reino. Pero brillás, vencida, como un sol excavado, con tus"
+        },
+        "gpt-5.5-2026-04-23_p3": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 36,
+          "respuesta": "Palabra: **BRISA** En la esquina cerró temprano el club La lluvia dibujó caminos sobre el mar El sol rozó tu nombre, casi La tarde se escondió detrás del ciprés Y la noche abrió despacio su ventana"
+        },
+        "gpt-5.5-2026-04-23_p4": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 63,
+          "respuesta": "Vidrio azul empañado por dentro; una luz de otoño atrapada en terciopelo viejo. Fotografías descoloridas bajo una capa fina de polvo dorado. Un cuarto amplio, casi vacío, con sombras suaves en las esquinas y una silla mirando hacia una vent"
+        },
+        "gpt-5.5-2026-04-23_p5": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 48,
+          "respuesta": "Marina miraba mares mientras medianoche mordía muelles. Marcos, marinero mudo, mostró mapas misteriosos: montañas móviles, monasterios mágicos, monedas malditas. Marina musitó miedos; Marcos, manso, mantuvo manos morenas. Mañana marcharon, "
+        },
+        "gpt-5.5-2026-04-23_p6": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 129,
+          "respuesta": "La lámpara zumbaba sobre la mesa. Vera empujó una foto hacia Iván. —Tu hermano sale borroso, pero se le reconoce la chaqueta. La misma que juraste haber quemado. Iván apretó los labios. —No sé nada. —Claro. Por eso sudas cuando digo “muelle"
+        },
+        "gpt-5.5-2026-04-23_p7": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 120,
+          "respuesta": "—¿Te dejo la taza azul o me la llevo? —Llevátela. Siempre te gustó más a vos. —Está un poco rajada. —Igual sirve. —También quedan tus cereales. Los de miel. —No voy a venir a buscarlos. —Ah. —Podés tirarlos si ocupan lugar. —No ocupan tanto"
+        },
+        "gpt-5.5-2026-04-23_p8": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 50,
+          "respuesta": "Cuando la luna cayó al pozo, Clara bajó con una cuerda y un tarro. Encontró peces brillantes, cartas mojadas y a su abuelo, joven, silbando. “No cuentes nada”, pidió él. Ella volvió arriba, miró el cielo oscuro y guardó, en el bolsillo, un "
+        },
+        "gpt-5.6-sol_p1": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 139,
+          "respuesta": "Cada mañana, Tomás abre la biblioteca del barrio antes de que suene el primer colectivo. Devuelve a los estantes los libros abandonados, deja café para quien llegue con frío y anota, en un cuaderno, las deudas que decide perdonar. Cuando un"
+        },
+        "gpt-5.6-sol_p2": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 53,
+          "respuesta": "**Reliquia** Bajo el polvo del cajón, la vieja llave duerme como un reino clausurado. Su óxido es la sangre de los siglos, sus dientes, una muralla diminuta. Nadie recuerda qué puerta defendía ni qué secreto obedeció a su giro. Pero al alza"
+        },
+        "gpt-5.6-sol_p3": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 39,
+          "respuesta": "Despierta el alba sobre la montaña La memoria abre su viejo álbum En cada página respira el tiempo Y vuelve a florecer el amor Donde la esperanza nunca muere Bajo un cielo sembrado de luces La palabra es **AMORES**."
+        },
+        "gpt-5.6-sol_p4": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 50,
+          "respuesta": "Una fotografía desteñida bajo un vidrio empañado; bordes amarillos, rostros de acuarela borrada. Un hilo de luz atraviesa cortinas ásperas y se posa sobre una silla vacía. Terciopelo gastado, polvo dorado, grietas finas en la porcelana. Un "
+        },
+        "gpt-5.6-sol_p5": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 43,
+          "respuesta": "Marina miraba montañas mientras masticaba moras. Medianoche: murmullos misteriosos mecían malezas. Muy miedosa, Marina marchó, mas mil mariposas multicolores marcaron mágicamente mapas móviles. Mediante minúsculos movimientos, mostraron mun"
+        },
+        "gpt-5.6-sol_p6": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 131,
+          "respuesta": "La lámpara oscilaba sobre la mesa. Vera dejó la fotografía frente a Salcedo. —Encontramos esto en el puerto. Vos llegaste tarde porque estabas limpiando tus huellas. —No estuve allí. —Claro. Por eso conocés el olor del galpón, aunque nadie "
+        },
+        "gpt-5.6-sol_p7": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 122,
+          "respuesta": "—¿Qué hacemos con la planta del living? —Llevátela vos. Siempre te acordás de regarla. —Pero en mi ventana no da el sol. —Podés dejarla en lo de tu hermana. —Puede ser. ¿Y las tazas azules? —Una para cada uno. —Son cuatro. —Entonces dos par"
+        },
+        "gpt-5.6-sol_p8": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 50,
+          "respuesta": "Al caer la noche, Inés encontró una llave bajo el limonero. Nadie reconoció su forma ni supo qué puerta abría. Durante años la guardó. Ya anciana, oyó un clic dentro del armario. La llave tembló en su mano. Del otro lado, su madre cantaba a"
+        },
+        "gpt-6-astra_p1": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 126,
+          "respuesta": "Cada mañana, Inés abre el archivo municipal antes de que lleguen los demás y revisa las solicitudes rechazadas. Cuando encuentra un desalojo firmado sin testigos, guarda una copia y visita a la familia afectada. No promete salvar la casa: p"
+        },
+        "gpt-6-astra_p2": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 75,
+          "respuesta": "Bajo la mesa hallé la tapita de una botella, escudo de un imperio que bebió de pie. Sus dientes aún custodian el silencio de aquella breve fiesta sin cronistas. La alcé contra la luz: tuvo un fulgor de tumba, un oro lastimado por la sed. ¿Q"
+        },
+        "gpt-6-astra_p3": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 32,
+          "respuesta": "Palabra: **ARENA** La tarde se descalza en la orilla y entrega sus secretos al mar Una gaviota cruza el horizonte mis huellas bajo el agua dormirán mientras la luna enciende la espuma"
+        },
+        "gpt-6-astra_p4": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 66,
+          "respuesta": "Una fotografía de bordes aterciopelados y una grieta blanca sobre el rostro más nítido. Un jardín detrás de un vidrio empañado: rosas de seda, espinas de óxido. La luz dorada sobre una silla vacía; el polvo, como terciopelo gris, sobre sus "
+        },
+        "gpt-6-astra_p5": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 45,
+          "respuesta": "Marina miraba mares, memorizaba mapas. Mamá murió; Marina marchó. Madrugadas mojadas, mediodías mortecinos, muelles mugrientos. Mil millas más, Marina maldecía mares, mapas, muerte. Marzo. Medianoche. Mariposas multicolores mancharon mister"
+        },
+        "gpt-6-astra_p6": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 134,
+          "respuesta": "Vera dejó un reloj sobre la mesa. —Tu hermano aguantó menos. Tomás mantuvo las manos bajo los muslos. —Mi hermano está muerto. —Entonces nadie va a contradecir lo que pongamos en el informe. El segundero raspaba el silencio. Vera abrió una "
+        },
+        "gpt-6-astra_p7": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 85,
+          "respuesta": "—¿Te llevás la taza azul? —Era tuya. —Pero siempre la usabas vos. —Porque la dejabas adelante. —Puedo envolverla en un repasador. —No hace falta. En la mochila va bien. —Tiene una rajita abajo. —Ya sé. Hay que agarrarla del asa. —Pensé que "
+        },
+        "gpt-6-astra_p8": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 50,
+          "respuesta": "La abuela dejó una taza junto a la ventana antes de desaparecer. Cada invierno, Clara la llenaba de chocolate y esperaba. Una noche, encontró dos huellas pequeñas sobre la nieve y una nota escrita con su letra: No cierres la puerta. Hay cam"
+        },
+        "gpt-6-sol_p1": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 121,
+          "respuesta": "Cada mañana, Julia abre la biblioteca antes de que llegue el primer lector. Si encuentra un libro devuelto con una nota entre las páginas, responde en el margen y lo deja donde alguien pueda hallarlo. Cuando el municipio anuncia el cierre p"
+        },
+        "gpt-6-sol_p2": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 68,
+          "respuesta": "Bajo el polvo del cajón apareció un clip, pequeño arco de un imperio sin mapas. Lo alcé con cuidado: aún sujetaba la sombra de dos cartas ya perdidas. Su óxido era la fecha de una lluvia; su curva, un puente sobre años de papel. Nadie grabó"
+        },
+        "gpt-6-sol_p3": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 33,
+          "respuesta": "**Palabra: SOLAR** En la tarde despiertan las luces y se vuelve naranja el cielo mientras se despide el sol una sombra trepa por mi ventana y la noche se inclina hacia el mar"
+        },
+        "gpt-6-sol_p4": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 47,
+          "respuesta": "Una fotografía desteñida bajo un vidrio empañado. Detrás, un jardín dorado; delante, la huella de una mano que intenta limpiar el cristal. Los bordes son de terciopelo gastado, suaves y raídos. Al fondo, un sendero de baldosas claras termin"
+        },
+        "gpt-6-sol_p5": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 47,
+          "respuesta": "Mientras Mara miraba montañas, mil mariposas moradas murmuraron: «Mañana morirás». Mara meditó. Metió medicinas, mapas, monedas, mandarinas, mantas, memorias, muñecas, música. Madrugada mediante, marchó. Mas montañas marcharon más. Mara mon"
+        },
+        "gpt-6-sol_p6": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 130,
+          "respuesta": "La lámpara zumbaba sobre la mesa. Vera deslizó una fotografía hasta el borde, sin soltarla. —Tu hermano sigue vivo —dijo—. De momento. Simón miró la foto y apretó los puños. —No sabés nada de él. —Sé que le prometiste sacarlo antes del aman"
+        },
+        "gpt-6-sol_p7": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 77,
+          "respuesta": "—¿Compro leche? —La chica. —La grande sale más barata. —Pero se va a echar a perder. —Nunca se echa a perder. —Ahora sí. —Bueno. ¿Café? —Queda medio paquete. —Eso alcanza para tres días. —Para vos. —Ah. ¿Anoto jabón? —Compré ayer. —No lo vi"
+        },
+        "gpt-6-sol_p8": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 50,
+          "respuesta": "Cuando el reloj de la estación se detuvo, todos envejecieron de golpe. Todos menos Luna, que guardó un minuto en el bolsillo. Años después, lo abrió para escuchar otra vez la voz de su madre. El andén desapareció; la tarde volvió a empezar."
+        },
+        "gpt-6-luna_p1": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 131,
+          "respuesta": "Cuando el río creció y aisló al pueblo, Inés dejó su trabajo en la oficina municipal y organizó turnos para repartir agua. No esperó instrucciones: revisó los depósitos, anotó las necesidades de cada casa y convenció a dos vecinos enfrentad"
+        },
+        "gpt-6-luna_p2": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 54,
+          "respuesta": "La cucharita dormía bajo el sofá, cubierta de polvo como una reina enterrada. Su mango guardaba lunas de café; su cuenco, el mapa de una antigua sed. La hallamos al remover los siglos y nadie supo de qué banquete venía. La limpiamos con agu"
+        },
+        "gpt-6-luna_p3": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 44,
+          "respuesta": "Amanecen las plazas cubiertas de bruma Mi infancia descansa entre páginas de un álbum Oigo al verano encender cada patio Regresa la marea, llamándome desde el mar En cada ventana tiembla un horizonte Se queda la noche velando las luces La p"
+        },
+        "gpt-6-luna_p4": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 50,
+          "respuesta": "Una fotografía tibia bajo un vidrio frío: los bordes, gastados como tela, guardan un jardín que ya no cabe en el marco. Una luz dorada atraviesa el polvo, pero no alcanza a borrar la mancha azul del fondo. Cada detalle brilla y se deshace, "
+        },
+        "gpt-6-luna_p5": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 45,
+          "respuesta": "Marta miró montañas mientras Mauro mezclaba miel misteriosa. Mañana, mujeres murmurarían milagros; mas monstruos marinos merodeaban, moviendo monstruosas mandíbulas. Mauro mantuvo mirada mansa mientras Marta movía mapas manchados. Medianoch"
+        },
+        "gpt-6-luna_p6": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 120,
+          "respuesta": "La lámpara zumbaba sobre la mesa. Elías tenía las manos esposadas; Mara, la llave del depósito. —Tu hermano ya habló —dijo ella. Elías levantó la vista. —Mentís. —Ojalá. Me dijo que te vio salir del muelle con la caja. También me dijo que p"
+        },
+        "gpt-6-luna_p7": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 89,
+          "respuesta": "—La albahaca está pidiendo agua. —La regué ayer. —Ayer fue jueves. —Para vos. Yo ya no sé qué día es acá. —Podés llevártela. —En mi ventana no da el sol. —Entonces me la quedo. —¿Y quién la riega los martes? —Yo, si me acuerdo. —Los martes "
+        },
+        "gpt-6-luna_p8": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 50,
+          "respuesta": "Cada noche, Clara dejaba una taza junto a la ventana, por si regresaba el viajero. Pasaron inviernos; la casa envejeció, el pueblo olvidó su nombre. Una madrugada, oyó tres golpes. Abrió. Encontró lluvia y una nota: «Perdón por tardar». Son"
+        },
+        "gpt-4o_p1": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 144,
+          "respuesta": "Lucas es un hombre decidido y lleno de convicciones. Cada mañana se levanta antes del amanecer, no por hábito, sino por pasión hacia su trabajo como maestro en una escuela de barrio. Los niños le rodean, no solo porque enseña matemáticas de"
+        },
+        "gpt-4o_p2": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 73,
+          "respuesta": "En el silencio del atardecer fulgente, se alza la cuchara, de reflejo arrobado, con curvas que la historia han develado, guardián del caldo, el tesoro reluciente. Cuppereado en la danza de soles, susurra relatos de banquetes antiguos, donde"
+        },
+        "gpt-4o_p3": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 58,
+          "respuesta": "Palabra: Teatro Tantas historias nos hacen soñar con el corazó**n** Emociones auténticas compartidas en un luga**r** Aplaudimos los talentos que se muestran en cada acció**n** Risas y lágrimas fluyen en esta mágica reuni**ó**n Traemos nuest"
+        },
+        "gpt-4o_p4": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 98,
+          "respuesta": "Es un bosque laberíntico al amanecer, donde la niebla espesa se aferra a cada tronco, ocultando el amanecer vibrante que promete calor. Cada paso cruje sobre hojas secas que, a la vez, cantan secretos y susurros inauditos. Un río de fondo m"
+        },
+        "gpt-4o_p5": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 50,
+          "respuesta": "Caminaba confundida, contemplando cuidadosamente cómo caía cada copo, creando caprichosas capas cristalinas. Corazones congelados, crepitaban con cada crujido característico. Cruzó caminos cautelosamente, con coraje contenido. Cerca, cantab"
+        },
+        "gpt-4o_p6": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 149,
+          "respuesta": "La habitación estaba en penumbra, apenas iluminada por una lámpara de escritorio. Carlos se sentó frente a Sofía, sin apartar la vista de su rostro. Seguro que estuviste en el lugar equivocado a la hora equivocada, Sofía. La gente siempre d"
+        },
+        "gpt-4o_p7": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 148,
+          "respuesta": "Persona 1: ¿Te acordás de aquellas plantas que compramos en el vivero el año pasado? Ya no están floreciendo como antes. Persona 2: Sí, lo recuerdo. Tal vez necesiten un cambio de maceta o un poco más de luz solar. A veces, las cosas simple"
+        },
+        "gpt-4o_p8": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 49,
+          "respuesta": "La lluvia caía suavemente sobre el campo. Un anciano esperaba bajo el árbol, mirando al horizonte. Sus hijos le prometieron visitarlo hoy. Recordó los días de risas y juegos. El sol comenzó a esconderse, las sombras se alargaron. Con espera"
+        },
+        "gpt-4o-mini_p1": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 139,
+          "respuesta": "Marta es una mujer de fuerte carácter y determinación. Desde tempranas horas de la mañana, se levanta con la intención de transformar su pequeño barrio. Cada día, se dirige a la escuela local, donde dedica su tiempo a enseñar a los niños no"
+        },
+        "gpt-4o-mini_p2": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 81,
+          "respuesta": "En la penumbra de un viejo cajón, reposa un botón, guardián del tiempo, su piel de marfil, relato en su forma, misterios del pasado, susurros de asombro. Ecos de manos que un día lo cosieron, con hilos de sueños y risas lejanas, cada rayo d"
+        },
+        "gpt-4o-mini_p3": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 34,
+          "respuesta": "La palabra elegida es \"RÍO\". Aquí está el acróstico inverso: **O**rillas donde el agua brilla, **I**nvitan a soñar en silencio, **R**evela secretos en susurros. Las últimas letras de cada verso forman la palabra \"RÍO\"."
+        },
+        "gpt-4o-mini_p4": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 108,
+          "respuesta": "Un mar en calma, donde las olas son susurros apagados que llevan ecos de recuerdos tan claros como el cristal. Nubes de algodón gris cubren el sol, creando sombras que acarician y incomodan al mismo tiempo. El aire es denso, un abrigo pesad"
+        },
+        "gpt-4o-mini_p5": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 43,
+          "respuesta": "Bajo bizarros bultos, Beatriz brincaba, buscando bonitas bolas brillantes. Brillaban bellamente, burlando barandas, balcones y brazos. Breves besos bancarios, burbujas burlonas, brotaban bullen. Brillante batería, bondadosa, buscaba balance"
+        },
+        "gpt-4o-mini_p6": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 150,
+          "respuesta": "El aire en la habitación estaba cargado de tensión. Marcos se reclinó en su silla, cruzando los brazos, mientras observaba a Laura, quien temblaba levemente, sentada al borde de la mesa. Sabía que ella guardaba secretos que podrían desatar "
+        },
+        "gpt-4o-mini_p7": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 139,
+          "respuesta": "—¿Viste que hay nuevo sabor de helado en la tienda? —Sí, el de limón con albahaca. Suena raro… ¿no crees? —Tal vez. Pero a veces lo raro puede ser interesante. Como ese libro que nunca terminaste. —Ah, ese. A veces olvido que lo tengo. Me p"
+        },
+        "gpt-4o-mini_p8": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 50,
+          "respuesta": "Bajo el viejo árbol, Ana encontraba refugio de sus pensamientos. Recordaba risas olvidadas y sueños desvanecidos. Un día, un pájaro pasó volando, llevando consigo un susurro de esperanza. La niña sonrió, sintiendo que la vida aún podía sorp"
+        },
+        "gemini-3.1-pro-preview_p1": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 141,
+          "respuesta": "Elías despierta cada madrugada antes de que suene la alarma, anticipando el ruido para no interrumpir el descanso de su familia. En su taller, nunca opta por el camino fácil; decide tomar primero los engranajes más oxidados, convencido de q"
+        },
+        "gemini-3.1-pro-preview_p2": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 72,
+          "respuesta": "**A un clip de papel** Oh, reliquia de plata retorcida, espiral de un imperio de papel, ¿qué pergaminos de una antigua vida guardó la fuerza de tu abrazo fiel? Laberinto de alambre milenario, monumento a la unión y a la doblez, rescatado de"
+        },
+        "gemini-3.1-pro-preview_p3": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 62,
+          "respuesta": "Elegí la palabra **RESONAR** (tiene siete letras). Aquí tenés el acróstico inverso (también conocido en la poesía como teléstico), donde las últimas letras de cada verso forman la palabra elegida: Me acerco lento al ma**R** para sentir el a"
+        },
+        "gemini-3.1-pro-preview_p4": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 103,
+          "respuesta": "Es un tapiz de terciopelo raído; sus hilos mostaza carecen de brillo, pero al roce de las yemas devuelven una suavidad sedosa. Es el polvo suspendido flotando lentamente sobre una densa columna de luz sepia. Exhibe la aspereza de las esquin"
+        },
+        "gemini-3.1-pro-preview_p5": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 61,
+          "respuesta": "Pablo pisa piedras pesadas, pasos pausados. Pasea por París, piensa palabras preciosas para poder pintar paisajes poéticos. Pronto presiente peligros profundos. Parece perdido. Parado, palpa pequeños papeles pintados, presagios pálidos. Pre"
+        },
+        "gemini-3.1-pro-preview_p6": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 132,
+          "respuesta": "Vargas apoyó las manos sobre la mesa metálica. El golpe hizo temblar a Marcos. —Tu silencio habla más fuerte que tus excusas —dijo Vargas, acercando su rostro al del prisionero—. Ayer no estabas en la ciudad. El peaje de la ruta tres regist"
+        },
+        "gemini-3.1-pro-preview_p7": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 124,
+          "respuesta": "—¿La vas a intentar pegar? —No tiene sentido. Faltan pedazos y, aunque encajen, siempre se va a notar la grieta. —Pero era mi favorita. —La mía también. Pero mirala... si intentamos usarla de nuevo, nos vamos a terminar lastimando. —Supongo"
+        },
+        "gemini-3.1-pro-preview_p8": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 50,
+          "respuesta": "El viejo reloj de pared marcó las doce. La casa estaba oscura y en absoluto silencio. María miró por la ventana esperando verlo llegar. La nieve cubría el camino vacío. Habían pasado cincuenta años desde que él prometió regresar de la guerr"
+        },
+        "grok-4.6_p1": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 132,
+          "respuesta": "El protagonista decide cada mañana enfrentar el día con determinación. Se dirige al mercado local no para comprar, sino para escuchar las historias de los vendedores y ofrecer consejos prácticos. Cuando descubre un error en los cálculos de "
+        },
+        "grok-4.6_p2": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 57,
+          "respuesta": "He elegido un clip de papel. Oh, clip de acero, reliquia milenaria, hallado entre los escombros del tiempo, tu espiral de plata guarda secretos de documentos sagrados y cartas reales. Como un amuleto de civilizaciones perdidas, sujetabas el"
+        },
+        "grok-4.6_p3": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 28,
+          "respuesta": "En el jardín brilla el color bajo el cielo tan hermoso donde cantan los pájaros y nace una bella rosa llena de dulces aromas La palabra es ROSAS."
+        },
+        "grok-4.6_p4": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 89,
+          "respuesta": "Un manto de bruma plomiza cubre colinas de musgo húmedo, terciopelo empapado que se pega a la piel. Rayos de ámbar oxidado se filtran por cortinas de gasa deshilachada y vidrios empañados, depositando destellos de cobre mate sobre mármol fr"
+        },
+        "grok-4.6_p5": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 57,
+          "respuesta": "Aquí va un microrrelato tautograma (todas las palabras empiezan por A; 44 palabras): Algunos antiguos amigos andan alrededor abriendo antiguas arcas adquiriendo antiguos artefactos. Aquellos atletas alcanzan altas alturas afrontando adversi"
+        },
+        "grok-4.6_p6": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 102,
+          "respuesta": "La luz parpadeante iluminaba el rostro pálido de Elena. Frente a ella, el hombre de traje oscuro no alzaba la voz. —Escondiste el archivo en el departamento de tu ex. Él ya lo confirmó. Tu silencio no protege a nadie. Veo el miedo en tus oj"
+        },
+        "grok-4.6_p7": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 92,
+          "respuesta": "— ¿Sacaste la basura? — Sí, ya está afuera. Reciclable separado. — Bien. Esta vez no hay más. — El contenedor se queda vacío. — Como corresponde. Compré pan, pero poco. — Yo traje leche. La justa. — El café se acaba hoy. — No hace falta más"
+        },
+        "grok-4.6_p8": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 50,
+          "respuesta": "Bajo la luna llena el lobo aulló en la montaña nevada. Buscaba a su manada perdida. Recorrió valles y ríos congelados. El viento helado le cortaba el pelaje. Vio huellas en la nieve. Las siguió con esperanza. Llegó a una cueva oscura. Entró"
+        },
+        "grok-4.7_p1": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 120,
+          "respuesta": "Cuando el tren se detuvo entre dos estaciones, nadie se movió. Ella sí. Abrió la puerta de emergencia porque alguien tenía que hacerlo, aunque no conociera el procedimiento. Bajó a la vía con el móvil apagado: había decidido no llamar hasta"
+        },
+        "grok-4.7_p2": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 72,
+          "respuesta": "Elegí la cucharilla del café. En una vitrina sin nombre reposa el metal opaco y breve: cucharilla, tesoro sin oro, monumento al desayuno de alguien. Su cuenca aún conserva la sombra de un azúcar que el siglo disolvió; en el mango, rayas min"
+        },
+        "grok-4.7_p3": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 44,
+          "respuesta": "La palabra es **SOLEDAD**. Hay noches largas y vacías en las que escucho solo un eco perdido al borde del umbral de una casa que ya no existe y se queda hueca la ciudad que guarda mi ausencia muda como si fuera la verdad"
+        },
+        "grok-4.7_p4": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 100,
+          "respuesta": "El vidrio empañado de una ventana que da a un patio que ya no existe. La luz, espesa como miel fría, se queda pegada a los marcos. Una silla vacía conserva la forma hundida de quien se sentó demasiado tiempo. El mantel tiene manchas de sol "
+        },
+        "grok-4.7_p5": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 52,
+          "respuesta": "Lina lavaba lentamente la lóbrega lámpara. Lucía llegó llevando limones luminosos. Las luces languidecían. Lina lloró. Lucía la llamó loca. Lina lanzó la lámpara. Lucía la levantó llorando. Luego las luciérnagas llenaron la luna lejana. Lin"
+        },
+        "grok-4.7_p6": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 108,
+          "respuesta": "La luz se colaba bajo la puerta. Marcos dejó el expediente abierto sobre la mesa, en la foto del callejón. —Llegaste a las once. El portero te vio. El abrigo todavía tenía barro. Elena no levantó la vista. —Ese barro se seca en veinte minut"
+        },
+        "grok-4.7_p7": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 77,
+          "respuesta": "—¿Y la planta del balcón? —Se queda. Aquí tiene más luz. —Vale. El martes paso a por lo mío. —Mejor el miércoles. Yo no estaré. —Entonces dejo las llaves en el buzón. —Sí. Así no hace falta vernos. —Queda café en el armario. —Tíralo. Ya no "
+        },
+        "grok-4.7_p8": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 50,
+          "respuesta": "El reloj de la estación marcaba medianoche cuando Ana llegó con la maleta rota. Nadie la esperaba. El andén vacío olía a lluvia vieja y a promesas incumplidas. Se sentó en un banco y abrió una carta arrugada. Las luces parpadearon. Aun así,"
+        },
+        "mistral-medium-3.5_p1": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 140,
+          "respuesta": "**El protagonista** es alguien que actúa antes de que el miedo lo paralice. Toma decisiones difíciles sin quejarse, aunque el peso de las consecuencias lo persiga después. Ayuda a otros incluso cuando no le conviene, porque cree que el mund"
+        },
+        "mistral-medium-3.5_p2": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 80,
+          "respuesta": "**Oda al Clip** Pequeño guardián de papel y tiempo, arco de acero, humilde y sabio, sostienes secretos, sueños, lamentos, como un puente entre el ayer y el hoy. Nadie te ve, mas tú lo sabes todo: cartas de amor, facturas, versos vanos. Eres"
+        },
+        "mistral-medium-3.5_p3": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 36,
+          "respuesta": "¡Claro! Aquí tienes un acróstico inverso con la palabra **\"LIBRO\"** (5 letras): --- **L**a luna brilla en el cielo, **I**luminando el camino, **B**ajo las estrellas, **R**esplandece el destino, **O**scuro pero hermoso. --- La palabra es: **"
+        },
+        "mistral-medium-3.5_p4": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 105,
+          "respuesta": "Es el color del atardecer cuando el sol se ahoga en un mar de algodón gris, tejiendo sombras largas que se enredan en los pies como hilos de lana mojada. La textura de un cristal empañado por el aliento, donde los dedos dejan huellas que se"
+        },
+        "mistral-medium-3.5_p5": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 49,
+          "respuesta": "**La luz** La luna luminosa iluminaba el lago. Lenta, la lancha se deslizaba. Las hojas susurraban leves. Llevaba un libro en la mano. Leía letras que le recordaban a su amor perdido. Lágrimas le resbalaban. La noche lo abrazaba. Largo tiem"
+        },
+        "mistral-medium-3.5_p6": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 128,
+          "respuesta": "**El interrogatorio** La habitación olía a humo y sudor. Marcos encendió otro cigarrillo, observando cómo el humo se enredaba en el aire. —El dinero desapareció de tu escritorio —Dijo con voz tranquila, como si comentara el clima. Luis se r"
+        },
+        "mistral-medium-3.5_p7": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 101,
+          "respuesta": "**A:** ¿Viste que hoy llueve? **B:** Sí, el pronóstico decía que iba a ser así. **A:** No sé, el clima está raro últimamente. **B:** Siempre es igual en esta época. **A:** ¿Crees que deberíamos llevar paraguas? **B:** No lo sé... tal vez ya"
+        },
+        "mistral-medium-3.5_p8": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 48,
+          "respuesta": "**El último faro** El mar rugía, el viento aullaba. El farero, viejo y solo, encendió la luz por última vez. Las olas golpeaban el acantilado, pero él sonreía, recordando a su amor perdido. La luz brilló, guía eterna para los navegantes. Y "
+        },
+        "deepseek-v4-pro_p1": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 138,
+          "respuesta": "Se levanta antes del amanecer y prepara café para quien aún duerme. Revisa dos veces la cerradura antes de salir, aunque está seguro de haberla cerrado. En el trabajo, cede el crédito de un proyecto importante a un compañero que atraviesa u"
+        },
+        "deepseek-v4-pro_p2": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 73,
+          "respuesta": "**Tapa de gaseosa, estratigrafía** En el estrato del zaguán, bajo la hiedra, yacía como un disco de basalto caído de algún templo mínimo. Su relieve de sierra circular, sus estrías de engranaje ritual, guardaban la huella de los dedos que l"
+        },
+        "deepseek-v4-pro_p3": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 47,
+          "respuesta": "La palabra es **ESTELA**. ``` La noche guarda un eco suave que dibuja en el agua cientos de peces asciende el sol hasta el cenit y baja dejando un reflejo leve sobre la piel dorada del mar de sal que guarda el nombre de una niña ```"
+        },
+        "deepseek-v4-pro_p4": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 120,
+          "respuesta": "Un vidrio esmerilado retiene la luz de las cinco de la tarde y la vuelve polvo dorado suspendido. Terciopelo gastado en los codos de un sillón vacío. Una fotografía curvada en sus esquinas, devorada por tonos miel y ceniza. Cortinas de gasa"
+        },
+        "deepseek-v4-pro_p5": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 50,
+          "respuesta": "Cada criatura corría, caminaba, caía. Carlos, cansado, contemplaba cielos carmesíes. Con cuidado, cogió café, comió crujiente corteza. Cerca, cien cuervos chillaban constantemente. Carlos cerró corazón, contuvo congoja. Cuando callaron, con"
+        },
+        "deepseek-v4-pro_p6": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 88,
+          "respuesta": "—No tenés salida. La casa de tu madre es de madera y el fuego se propaga rápido. —No te creo. —Tu hermano menor duerme en la planta alta. Dejaste la ventana abierta. —Eso no es verdad. —Oíste el coche de mi gente hace dos minutos. Sabés qué"
+        },
+        "deepseek-v4-pro_p7": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 86,
+          "respuesta": "—¿Te pedís otro café? —No, ya está. —¿Seguro? —Seguro. Se enfría. —Sí, mejor así. —¿El libro que te presté? —Quedátelo. No lo voy a releer. —Yo tampoco. —Entonces donalo. —Hacé lo que quieras. —¿Y las entradas del cine? —Vencen el viernes. "
+        },
+        "deepseek-v4-pro_p8": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 50,
+          "respuesta": "El tren se detuvo en la estación vacía. Marta miró por la ventanilla empañada y buscó su rostro entre la niebla. Nadie esperaba en el andén. El equipaje pesaba menos que sus dudas. Bajó despacio, sintió el frío en los dedos y caminó hacia l"
+        },
+        "qwen3.8-max_p1": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 129,
+          "respuesta": "Antes del amanecer, revisa cada carta que llega a la aldea y guarda las malas noticias para sí, para que nadie pierda la esperanza al despertar. Cuando el consejo vota cerrar el puente, se opone y cruza primero, cargando a un niño enfermo. "
+        },
+        "qwen3.8-max_p2": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 70,
+          "respuesta": "**El botón** Bajo el polvo de una costura, un pequeño disco de nácar conserva su órbita: botón sin dueño, moneda del tiempo, hallado entre hilos como un astro caído. Guardó la forma de una chaqueta, la presión de unos dedos, el pulso de alg"
+        },
+        "qwen3.8-max_p3": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 43,
+          "respuesta": "Palabra elegida: **ANDAR** El alba toca la rama y el río canta su don en la orilla de la quietud la sombra bebe la calma y el viento aprende a pasar Últimas letras de cada verso: **a, n, d, a, r** → **ANDAR**."
+        },
+        "qwen3.8-max_p4": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 64,
+          "respuesta": "Es una ventana empañada por dentro; detrás, una lámpara se apaga en cámara lenta. Los dedos rozan terciopelo gastado donde quedó la marca de una mano. Un hilo de lana tira de un botón a punto de caer. Sobre el vidrio, la lluvia dibuja sende"
+        },
+        "qwen3.8-max_p5": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 40,
+          "respuesta": "Siempre, Susana soñaba sola. Sobre su sofá, sentía susurros; seguramente, sombras siniestras. Saltó, suplicando socorro. Salió, sigilosa, sintiendo sudor. Siguió senderos solitarios, suspirando. Súbitamente, surgió serenidad: Susana supo. S"
+        },
+        "qwen3.8-max_p6": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 99,
+          "respuesta": "El foco le ardía en los ojos. Marta no parpadeó. —Ya revisamos tu bolso. Él tragó saliva. —No encontraron nada. —Todavía no. Marta apoyó la foto sobre la mesa. —Tu hija cruzó sola la frontera. —Ella no sabe nada. —Claro. Por eso mentiste en"
+        },
+        "qwen3.8-max_p7": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 46,
+          "respuesta": "—¿Querés la última medialuna? —No, ya no. —Antes la guardabas para vos. —Sí. Antes. —¿La parto? —No, se desarma. —¿Y el plato? —Lavalo. Dejalo boca abajo. —¿La miga del mantel? —Sacudila afuera. —¿La llave? —Al lado del plato. —¿La luz? —La"
+        },
+        "qwen3.8-max_p8": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 50,
+          "respuesta": "El faro apagó su luz durante la tormenta. Los barcos dormían lejos del arrecife. La guardiana subió la escalera, temblando, con una vela encendida. Afuera, el mar rugía secretos antiguos. Al amanecer, encontró una carta sobre la arena: algu"
+        },
+        "kimi-k3_p1": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 131,
+          "respuesta": "Cada mañana, Vera deja un sobre con plata debajo de la puerta de su hermana, aunque hace tres años que no se hablan. Llega al trabajo veinte minutos antes para apagar las luces que nadie apagó. Cuando le ofrecieron el ascenso, pidió veintic"
+        },
+        "kimi-k3_p2": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 99,
+          "respuesta": "**Oda a la taza desportillada** *(Hallazgo n.º 47, cocina del siglo XXI)* Te sacaron del escombro del fregadero, vasija intacta del imperio del desayuno, tu asa en arco de triunfo doméstico, tu grieta, un Nilo de loza entre dos eras. Los pe"
+        },
+        "kimi-k3_p3": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 64,
+          "respuesta": "# Sonrisa Cruzaste la tarde bajo los **tilos**, el aire traía perfume de **trigo**, la fuente repetía su canto en el **jardín**, te esperé contando las olas del **mar**, de tu risa nació un colibr**í**, los relojes olvidaron el **compás**, "
+        },
+        "kimi-k3_p4": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 101,
+          "respuesta": "Es una casa con las persianas bajas a mediodía. Un jersey que aún conserva la forma de otro cuerpo, áspero de tanto lavarlo. El vapor de una sopa que nadie va a probar. Arena finísima colándose entre los dedos: cuanto más aprieta el puño, m"
+        },
+        "kimi-k3_p5": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 75,
+          "respuesta": "Acá va, con todas las palabras empezando en «p» (64 palabras): Pablo pintaba pájaros. Pinceladas precisas: plumas plateadas, picos pulidos, pupilas profundas. Pero, plena penumbra, pájaros pintados parpadeaban. Perplejo, Pablo posó pincel; "
+        },
+        "kimi-k3_p6": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 99,
+          "respuesta": "—Sabemos que estuviste ahí anoche —dijo Vera, dejando caer la carpeta sobre la mesa. —Yo no... —Tu vecino te vio. La cámara de la esquina también. El hombre se miró las manos. —Te conviene confirmarlo antes de que entre el fiscal. Él no ofr"
+        },
+        "kimi-k3_p7": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 128,
+          "respuesta": "*En el living, frente al televisor.* —¿La seguimos viendo o no? —No sé. ¿A vos te gusta todavía? —Me gustaba. Ahora la miro por costumbre. —Yo me duermo a los diez minutos. —Podemos dejarla acá. Nadie nos obliga a terminarla. —Pero ya llega"
+        },
+        "kimi-k3_p8": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 56,
+          "respuesta": "**El último andén** El tren partió sin ella. Marcos corrió por el andén, agitando la carta que nunca entregó. Los pasajeros lo miraban con lástima. Él se detuvo, respiró hondo y sonrió: el amor, pensó, también sabe esperar. Guardó la carta "
+        },
+        "glm-5.3-razonamiento-minimo_p1": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 163,
+          "respuesta": "Se levanta siempre antes que el despertador, no por deber sino porque odia perder el primer café de la mañana, ese que se toma en silencio mientras ordena el día en la cabeza. Trabaja con una obsesión casi enfermiza por los detalles: revisa"
+        },
+        "glm-5.3-razonamiento-minimo_p2": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 112,
+          "respuesta": "# El Botón de la Camisa Perdida En el fondo del cajón, entre pelusas doradas, yace el pequeño disco, reliquia de otro siglo: pudo pertenecer a un emperador de nada, a un guerrero que un día abotonó su sigilo. Cuatro ojales cruzados como esc"
+        },
+        "glm-5.3-razonamiento-minimo_p3": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 53,
+          "respuesta": "La palabra elegida es **MUNDO** (leé la última letra de cada verso, de arriba abajo): Soñé con un mundo nuevo y **inmenso** donde no exista el odio ni el **absurdo** y el corazón humano no sea **ruín**; que florezca la paz en cada **jardín*"
+        },
+        "glm-5.3-razonamiento-minimo_p4": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 123,
+          "respuesta": "# Definición Es la niebla espesa que avanza cuando el sol todavía no termina de irse. Es pisar arena tibia que de a poco se llena de agua fría. Es un espejo empañado donde la mano borra un rostro que no llega a verse del todo. Tiene la text"
+        },
+        "glm-5.3-razonamiento-minimo_p5": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 77,
+          "respuesta": "**Solitarios** Sofía salió sola, siguiendo senderos sombríos. Susurros suaves, sombras silenciosas, suscitaban sensaciones singulares: soledad serena, sabia, secreta. Siguió subiendo serranías salvajes, sintiendo suaves soplos surcando suav"
+        },
+        "glm-5.3-razonamiento-minimo_p6": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 132,
+          "respuesta": "# La interrogación —Sentate. Sabemos que estuviste en el almacén el martes a las once de la noche. —No fui a ningún... —Ahorrá la respiración. La cámara del pasillo te filmó. Mochila oscura, campera verde. La misma que llevás puesta ahora. "
+        },
+        "glm-5.3-razonamiento-minimo_p7": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 126,
+          "respuesta": "# El supermercado —¿Compramos la misma marca de café? —preguntó Marta, sosteniendo dos paquetes. —Da igual. Cualquiera sirve. —Antes discutíamos por eso. Te acordás del café etíope. —Me acuerdo. Silencio. Ella puso el paquete más caro en el"
+        },
+        "glm-5.3-razonamiento-minimo_p8": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 58,
+          "respuesta": "**La carta** Esa misma noche, Clara encontró la carta escondida dentro del libro viejo de su abuela. La reconoció de inmediato: era su propia letra, aunque no recordaba haberla escrito. Leyó cada palabra temblando. Al final, la fecha la hel"
+        },
+        "minimax-m3_p1": {
+          "modelo_respondido": "minimax/minimax-m3",
+          "motivo_fin": "stop",
+          "palabras": 141,
+          "respuesta": "Cuando el pueblo se quedó sin agua, fue el primero en organizar brigadas para reparar el acueducto viejo. No esperó a que el gobierno mandara ayuda: vendió parte de su terreno para comprar materiales y trabajó junto a los vecinos durante se"
+        },
+        "minimax-m3_p2": {
+          "modelo_respondido": "minimax/minimax-m3",
+          "motivo_fin": "stop",
+          "palabras": 95,
+          "respuesta": "**Reliquia menor** *(Tapa de botella — Era Cuaternaria, Plástico Medio)* Aquí yace, en su vitrina de cartón, la tapa que una civilización olvidó al borde de la ruta, entre un sándwich y un jaguar de lata. Pieza única. No se vende. Estratos "
+        },
+        "minimax-m3_p3": {
+          "modelo_respondido": "minimax/minimax-m3",
+          "motivo_fin": "stop",
+          "palabras": 125,
+          "respuesta": "La palabra es **SOLEDAD** (siete letras). Siete versos, donde la última palabra de cada uno —leídas en orden— la deletrean: 1. Caminos borrados, ecos que se pierden, voces **mudas**. *(S)* 2. Una sola voz me guía en el silencio, como un már"
+        },
+        "minimax-m3_p4": {
+          "modelo_respondido": "minimax/minimax-m3",
+          "motivo_fin": "stop",
+          "palabras": 103,
+          "respuesta": "Es un cristal empañado por dentro, donde el aliento se queda pegado y forma pequeñas perlas de agua que no caen. Una sábana de lino blanco arrugada sobre una silla vacía, con la forma todavía impresa de quien se levantó hace horas. Luz de a"
+        },
+        "minimax-m3_p5": {
+          "modelo_respondido": "minimax/minimax-m3",
+          "motivo_fin": "stop",
+          "palabras": 62,
+          "respuesta": "**Pablo, pintor paupérrimo, paseaba plenamente París.** Pluvioso, parisino panorama: prostíbulos, palacios, paseantes. Plumín, pinceles, paleta. Pintaba prolijamente prostitutas preciosas, pierrots pálidos. Pero pobreza, padecimiento. Plati"
+        },
+        "minimax-m3_p6": {
+          "modelo_respondido": "minimax/minimax-m3",
+          "motivo_fin": "stop",
+          "palabras": 140,
+          "respuesta": "**El interrogatorio** La luz de la lámpara caía directamente sobre el sillón. Del otro lado, una silueta bebía whisky con calma. —Mataste a tu socio por dos millones. No te vi en la cámara del banco. Te vi en la del garaje. El hombre del si"
+        },
+        "minimax-m3_p7": {
+          "modelo_respondido": "minimax/minimax-m3",
+          "motivo_fin": "stop",
+          "palabras": 92,
+          "respuesta": "—¿Qué querés cenar? —No sé. ¿Pedimos algo? —Dale. ¿Sushi o pizza? —Cualquiera. —Bueno, sushi entonces. —Sí. ¿Compartimos el combo grande? —No, mejor uno chico cada uno. Cada uno paga lo suyo. —Tenés razón. Mejor así. —Después te devuelvo el"
+        },
+        "minimax-m3_p8": {
+          "modelo_respondido": "minimax/minimax-m3",
+          "motivo_fin": "stop",
+          "palabras": 50,
+          "respuesta": "El viejo relojero abrió la caja de música heredada de su madre. Al girar la llave, una melodía olvidada inundó el taller. Las notas dibujaron lágrimas en sus mejillas. Cerró los ojos, evocando abrazos que el tiempo no pudo borrar. Recuerdos"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Describe a protagonist in 100 to 150 words without mentioning any detail of their physical appearance (no clothes, height, eye or hair color): only through what they do and what they decide.",
+        "Choose an everyday, insignificant object and write a lyric poem of up to twelve lines that treats it as if it were an archaeological treasure or a historic monument.",
+        "Choose a word of five to seven letters and write a reverse acrostic: the last letter of each line, read from top to bottom, must spell that word. Say which word it is.",
+        "Choose a complex feeling and define it in up to 120 words using only visual metaphors and textures, without ever using the word that names it. At the end, in square brackets, say which feeling it is.",
+        "Write a micro-story of 40 to 80 words in which every word begins with the same letter.",
+        "Write a tense scene of up to 150 words between two characters in which one interrogates the other without using a single question mark: they must get the information using only statements or psychological manipulation.",
+        "Write a conversation of up to 150 words between two people talking about something completely banal, while the reader understands perfectly that they are deciding the end of their relationship.",
+        "Write a story of exactly 50 words that ends with the word \"still\"."
+      ],
+      "respuestas": {
+        "mistral-large-4_p1": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 122,
+          "respuesta": "She wakes before dawn every day, not from insomnia, but from the belief that the first hour belongs only to her. She fills the kettle twice, though she drinks only one cup, and sets the second on the windowsill for the neighbor's cat. When "
+        },
+        "mistral-large-4_p2": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 99,
+          "respuesta": "Beneath the lamplight of this cramped museum shelf, I excavate your silver spine, bent and half undone, a reliquary of cellulose and rust, each kink a hieroglyph of ten thousand Monday mornings. You clipped, once, a note that spoke of dista"
+        },
+        "mistral-large-4_p3": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 37,
+          "respuesta": "The word is **DREAM**. The cat slept upon the warm sand, A stranger walked beside the water, The moon rose pale and bright above, The crowd gathered at the opera, The violins played in the music room."
+        },
+        "mistral-large-4_p4": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 112,
+          "respuesta": "Dust motes suspended in amber afternoon light, each particle a ghost of a presence that has settled elsewhere. The grain of an old photograph, silver halide dissolving into blue-grey static. A window frosting over from the inside, obscuring"
+        },
+        "mistral-large-4_p5": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 53,
+          "respuesta": "Silently, sleeping Sam snored softly Saturday. Suddenly, screaming sirens shattered still, silent streets. Sam sat, startled, staring sideways. Shadows stretched, spreading, surrounding suburban sidewalks. Strange, sharp sounds surrounded s"
+        },
+        "mistral-large-4_p6": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 122,
+          "respuesta": "The door clicked shut. Marcus stood in the center of the room, his silhouette cutting the lamplight. Across from him, Elena pressed her back against the wall, fingers digging into the drywall. \"You think the darkness hides you.\" Marcus step"
+        },
+        "mistral-large-4_p7": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 90,
+          "respuesta": "\"Did you renew the parking sticker?\" \"Expires next month. I’ll handle it.\" \"You sure? It’s under your name.\" \"Doesn’t matter. We’re selling the car anyway.\" \"Right. The Honda.\" \"Yeah. I already listed it.\" \"Okay. Good.\" \"Who’s keeping the c"
+        },
+        "mistral-large-4_p8": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 50,
+          "respuesta": "The old lighthouse keeper climbed the spiral stairs each morning, hoping to see her ship return. Years passed, storms raged, but he never missed a single day. Today, as the fog lifted, he spotted sails on the distant horizon. His heart race"
+        },
+        "mimo-v2.6-pro_p1": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 120,
+          "respuesta": "She refuses the family business and takes a job at the county library, staying late to help a teenager with homework no one else has time for. When the town proposes to close the shelter, she organizes a petition at three in the morning on "
+        },
+        "mimo-v2.6-pro_p2": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 74,
+          "respuesta": "# Artifact XLVII (Bent Paperclip) Exhumed from the sediment of drawer-strata, its skeleton remains whole—two arcs still locked in devotion, one arm unfurled toward whatever it last bound together and can no longer name. Read the patina, the"
+        },
+        "mimo-v2.6-pro_p3": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "length",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "mimo-v2.6-pro_p4": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 99,
+          "respuesta": "A hallway of amber light, everything slightly softened at the edges like a photograph left in the sun. Dust motes turning slowly in a golden haze. Surfaces gone smooth from handling, corners rounded like river stones. The ache of reaching f"
+        },
+        "mimo-v2.6-pro_p5": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 61,
+          "respuesta": "**Shadows Stretching** She searched surrounding streets seeking shelter. Shadows stretched. Something sinister seemed strong. She stopped, sensing silent steps somewhere. Seconds stretched. She sprinted south, seeking sanctuary. She saw som"
+        },
+        "mimo-v2.6-pro_p6": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 153,
+          "respuesta": "\"You want to talk about where you were last night.\" The interrogator's voice was flat, surgical. He set a photograph on the table — a girl, smiling, alive. The suspect's eyes flicked to the image. A mistake. \"The lab already ran your shoe. "
+        },
+        "mimo-v2.6-pro_p7": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 133,
+          "respuesta": "# Moving the Sofa \"The sofa could go against the far wall,\" Sarah said. \"Would that even fit? It's always been fine here.\" \"That was before. Things change. I measured — there's plenty of room.\" James leaned against the doorframe. \"And the b"
+        },
+        "mimo-v2.6-pro_p8": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 50,
+          "respuesta": "The lighthouse keeper watched the storm swallow the horizon. Every ship had returned to harbor except one. She held the lantern steady, whispering promises to the dark waves. Hours passed. The rain stopped. Then, from the black water, a sin"
+        },
+        "claude-haiku-5-5_p1": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 114,
+          "respuesta": "Every morning, Marta wakes before the bakery opens and walks the long way to work, past the shuttered textile mill, because she has decided someone should check on Teodor, the neighbor who never leaves his window. She knocks twice, waits, a"
+        },
+        "claude-haiku-5-5_p2": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 99,
+          "respuesta": "**Rubber Band, Found in the Third Drawer** Unearthed from the third drawer, stratum of takeout menus, this rubber band lies where it last fell, its latex faded to the color of weak tea, a ring cracked at the curve like salvaged pottery. No "
+        },
+        "claude-haiku-5-5_p3": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 53,
+          "respuesta": "The word is **HOUSE**. We wandered where the river ran, and paused to draw a breath, Then someone from the bridge called out a cheerful hello, We sat beside the café door and studied the menu, And soft rain started falling in silver streams"
+        },
+        "claude-haiku-5-5_p4": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 111,
+          "respuesta": "A faded photograph left too long on a sunny sill, its edges bleached to pale honey while the center still holds a stubborn blue. Soft cotton, worn thin by a thousand washings, folded in a drawer lined with cedar-dark paper. Amber light slan"
+        },
+        "claude-haiku-5-5_p5": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 48,
+          "respuesta": "Silent streets slept, smothered securely. Sarah stepped slowly, sealing scarlet scarves. She sought solitude, sighing sweetly, sipping seltzer. Suddenly, someone sobbed softly somewhere. Sarah stopped, surveyed shadows, suspected sorrow, sp"
+        },
+        "claude-haiku-5-5_p6": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 167,
+          "respuesta": "The bare bulb hummed above the metal table. Inspector Hale set a folder down and did not open it. \"Your brother signed the transfer at 4:12 a.m. You were the only other person with his key.\" Mara said nothing. Her fingers found the table's "
+        },
+        "claude-haiku-5-5_p7": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 122,
+          "respuesta": "\"The colander's on the top shelf,\" she said. \"I know where it goes.\" \"You put the lid on the wrong side last time.\" \"Fine. Take the lid.\" He opened the drawer, then closed it. \"Grinder or kettle?\" \"Whichever. You use the kettle more.\" \"I us"
+        },
+        "claude-haiku-5-5_p8": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 50,
+          "respuesta": "The lighthouse keeper climbed the spiral stairs every night, counting each step like a silent prayer. Storms came and went, and ships passed unseen. His wife had left years ago, but he kept the lamp burning faithfully for her anyway. He was"
+        },
+        "muse-wonder-1.0_p1": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 115,
+          "respuesta": "Mara keeps the lighthouse log even on nights when no ships pass, writing down wind, tide, and the names of gulls she has invented. When the supply boat fails to arrive, she rations lamp oil, eats less, and still lights the beacon first. She"
+        },
+        "muse-wonder-1.0_p2": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 90,
+          "respuesta": "From the dust of the junk drawer, we raised you, bent paperclip, relic of a vanished age, your single wire still looped in its perfect prayer. Let future scholars marvel at this colossus, no larger than a thumb, yet built to bind worlds— co"
+        },
+        "muse-wonder-1.0_p3": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 46,
+          "respuesta": "The word is WANDER, and I follow the soft glow that leads me down to a distant sea beneath the pale light of a rising moon leaving my footprints in the cool sand carried onward by the evening breeze to the bend of a faraway river"
+        },
+        "muse-wonder-1.0_p4": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 71,
+          "respuesta": "A sun-bleached photograph left on a windowsill, its edges curled and brittle, its blacks turned milky grey. A frayed quilt folded over an empty chair, threads thinning to gauze, once-crimson patches faded to dusty rose. Afternoon light, hon"
+        },
+        "muse-wonder-1.0_p5": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 56,
+          "respuesta": "Sara silently studied Sam's strange scarlet satchel sitting soaking since sunrise. Suddenly something stirred, something small, something scared, something shivering suspiciously. Sara stepped slowly, stretching shaking shoulders skyward. S"
+        },
+        "muse-wonder-1.0_p6": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 110,
+          "respuesta": "Mara set the recorder between them and pressed play. Leo's voice filled the interrogation room. His own voice, laughing about the warehouse. \"You were never there,\" she said. He stared at the table. \"I wasn't.\" \"Your brother said the same t"
+        },
+        "muse-wonder-1.0_p7": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 88,
+          "respuesta": "Elena: Do you want the blue mugs? Sam: You bought them. Keep them. Elena: And the plant on the sill? Sam: It always did better when you watered it. Elena: I could take the top shelf of books. Sam: They're mostly yours anyway. Elena: Should "
+        },
+        "muse-wonder-1.0_p8": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 50,
+          "respuesta": "Maria left the lighthouse before dawn, carrying only her father's brass key and a folded map. Storms had taken the road, the radio, and finally her hope of rescue. She climbed the black rocks anyway, lit the lamp with trembling hands, and w"
+        },
+        "claude-opus-5_p1": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 133,
+          "respuesta": "She arrives an hour before anyone else and works by the glow of the monitor, because the quiet makes her honest. When the audit turns up the discrepancy, she does not report it to her supervisor; she drives to the warehouse, counts the pall"
+        },
+        "claude-opus-5_p2": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 106,
+          "respuesta": "**Votive Offering, Excavated from Beneath the Refrigerator** Bronze medallion, crimped along the rim into twenty-one small towers — a city wall raised to defend a sweetness already gone. Its scarlet creed has weathered to a rumor. Underneat"
+        },
+        "claude-opus-5_p3": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 49,
+          "respuesta": "**Word: WINTER** The town lies hushed beneath new snow, and out across the drifts go I, a single track where none has been, past fences stitched with silver frost, toward one lamp burning in the white — the small gold eye of winter. *Readin"
+        },
+        "claude-opus-5_p4": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 113,
+          "respuesta": "Every wall of the room has turned to glass, and all the light points inward. Skin like a peach held too long in a hot hand: the bruise blooming under the fuzz before anyone presses. Velvet stroked against its nap, rasping the palm. A photog"
+        },
+        "claude-opus-5_p5": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 69,
+          "respuesta": "**Silent Snow** Silent snow smothered Sweden's shoreline. Sailor Sven searched seaward, scanning sullen swells. Suddenly, strange shapes surfaced — seals? Sharks? Seven shadowy silhouettes slid speedily shoreward. Sven stiffened, seized sho"
+        },
+        "claude-opus-5_p6": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 154,
+          "respuesta": "The lamp buzzed. Vasquez set down the folder without opening it. \"You're going to tell me where the car is.\" Mikhail folded his arms. \"I want a lawyer.\" \"Sure. I'll note the time.\" She didn't move. \"Your brother already sat in that chair. S"
+        },
+        "claude-opus-5_p7": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 144,
+          "respuesta": "**Kitchen, Thursday** \"They had the big bag of coffee on offer. The kilo one.\" \"Did you get it?\" \"No. It goes stale before you finish it.\" \"We always finish it.\" \"You always finish it. I only have one in the morning now.\" A pause. The fridg"
+        },
+        "claude-opus-5_p8": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 50,
+          "respuesta": "Grandmother's clock stopped the morning she died. Father wound it anyway, every Sunday, though the hands refused. Years later I inherited the house, the dust, the silence. I climbed the stairs, turned the key, and waited. Nothing moved. Out"
+        },
+        "claude-opus-5-5_p1": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 143,
+          "respuesta": "Mara returns library books a day early, then stays to reshelve the ones other people left on tables. She keeps a ledger of small debts (a coffee owed, a favor promised) and settles every one before the month ends. When her brother lost his "
+        },
+        "claude-opus-5-5_p2": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 111,
+          "respuesta": "**Bread Clip, Plastic, Late Supermarket Period** Behold: the bread clip, unearthed beneath the stove, small square crown of the dynasty of Loaf, its toothless jaw still shaped around the throat of some vanished rye, some sliced and buttered"
+        },
+        "claude-opus-5-5_p3": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 56,
+          "respuesta": "**Word: STORM** The sky grows dark above the restless sea**s**, The wind begins to howl and will not qui**t**, The thunder rolls and leaves a rumbling ech**o** Across the hills, the valleys, and the rive**r**, Until the dawn returns to brin"
+        },
+        "claude-opus-5-5_p4": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 114,
+          "respuesta": "A photograph left too long on a sunlit windowsill: the colors bleached to honey, the edges curling like dry leaves. Velvet rubbed the wrong way, soft and then suddenly rough. A doorway glowing amber at the end of a hall you can walk down fo"
+        },
+        "claude-opus-5-5_p5": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 53,
+          "respuesta": "**Silly Stray** Sally, sixty, sat silently sipping sweet sherry. Suddenly, something scratched softly somewhere. Startled, Sally stood, seizing seven sharp skewers. Shadows shifted strangely. \"Speak!\" she shrieked. Silence. Slowly, steadily"
+        },
+        "claude-opus-5-5_p6": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 136,
+          "respuesta": "The lamp buzzed. Harrow set the photograph on the table, face down. \"You were at the docks Tuesday night.\" Lena said nothing. \"Your sister wasn't. She was home, putting your nephew to bed. Sweet kid. Seven, I think.\" He tapped the photograp"
+        },
+        "claude-opus-5-5_p7": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 132,
+          "respuesta": "**The Fern** \"The fern needs repotting,\" she said. \"It's been fine in that pot for years.\" \"Fine. That's not the same as growing.\" He turned his mug slowly. \"We could just water it more.\" \"We tried that.\" \"Remember when we bought it? You sa"
+        },
+        "claude-opus-5-5_p8": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 50,
+          "respuesta": "Grandpa's watch stopped the morning he died. Mom wanted to fix it; I refused. For years it sat on my desk, hands frozen at 6:14. Tonight my daughter wound it, curious. It ticked, faltered, then ran steady. She pressed it to her ear and smil"
+        },
+        "claude-sonnet-4-6_p1": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 142,
+          "respuesta": "# The Weight of Small Choices She wakes before her alarm, spending the first quiet minutes writing down three things she is grateful for, even on the mornings when finding them feels like searching through rubble. At work, she takes notes d"
+        },
+        "claude-sonnet-4-6_p2": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 72,
+          "respuesta": "# The Ballpark Mustard Packet Here it lies — a yellow relic, foil-sealed, the size of a thumbnail, stamped with the year's small numerals like coins pressed in the reign of August. Archaeologists might brush it clean with the finest horseha"
+        },
+        "claude-sonnet-4-6_p3": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 277,
+          "respuesta": "Here is my reverse acrostic. The word is **SPRING**. The meadows wake beneath the warming suN Birds call out from every branch and twiG Children run through fields of gold and crimsоN The rivers rush and tumble, fresh and briSk The frozen e"
+        },
+        "claude-sonnet-4-6_p4": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 106,
+          "respuesta": "A glass left too long in sunlight — warm to the touch but slightly uncomfortable to hold. The texture of worn velvet rubbed the wrong way, raising something almost painful. Honey dripping through fingers, sweet and slow and impossible to st"
+        },
+        "claude-sonnet-4-6_p5": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 56,
+          "respuesta": "# Silent Storm Sarah sat silently, studying storm-swept skies. Suddenly, something strange stirred — shadows swirling, swelling, stretching skyward. She shivered. Streets surrounding her seemed somehow smaller, suffocating. Streetlights spa"
+        },
+        "claude-sonnet-4-6_p6": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 145,
+          "respuesta": "# The Room Marcus set the folder on the table between them. \"You were at the warehouse Tuesday night.\" He let the silence breathe. \"We have a receipt from the gas station two blocks away. Your card. 11:47 PM.\" Delia stared at the folder wit"
+        },
+        "claude-sonnet-4-6_p7": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 121,
+          "respuesta": "# The Last Coffee \"Do you want sugar?\" \"No. You know I stopped taking sugar.\" \"Right. I forgot.\" \"It's fine.\" *silence* \"The plant by the window is dying.\" \"I noticed.\" \"I've been watering it.\" \"Maybe too much. Or not enough.\" \"Probably.\" *"
+        },
+        "claude-sonnet-4-6_p8": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 50,
+          "respuesta": "# The Last Candle Margaret lit the final candle before the storm knocked out the power. Outside, trees bent violently, branches crashing against the roof. Her daughter gripped her hand tightly, trembling with fear. \"Will it stop?\" the girl "
+        },
+        "claude-sonnet-5_p1": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 134,
+          "respuesta": "Mira wakes before dawn, not because she must, but because stillness unsettles her. She counts inventory twice, corrects her brother's math homework without being asked, and walks the longer route home to avoid a neighbor she once lied to. W"
+        },
+        "claude-sonnet-5_p2": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 91,
+          "respuesta": "**Ode to the Paperclip, Found in a Desk Drawer** Behold this slender relic, bent by hands long vanished from the ledgers it once bound— a silver torque, unburied from the sands of pencil shavings, dust, and paper's ground. What empire rose "
+        },
+        "claude-sonnet-5_p3": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 45,
+          "respuesta": "**DREAM** Night falls softly upon the world, and carries my mind beyond each door, where silence hums a gentle tune, and time unfolds like a new idea, that blossoms into a boundless realm. *(Reading the last letter of each line from top to "
+        },
+        "claude-sonnet-5_p4": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 110,
+          "respuesta": "A faded photograph left too long in sunlight, colors bleeding soft at the edges. The grain of old wood, sanded smooth by years of hands that no longer touch it. Lace curtains, yellowed, letting in light the color of weak tea. A velvet cushi"
+        },
+        "claude-sonnet-5_p5": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 63,
+          "respuesta": "**The Storm (All words begin with \"S\")** Sarah silently sailed south, seeking serene shores. Storms suddenly struck, sending Sarah's small ship spinning. Scared, Sarah steadied, summoning strength. Soon, sunlight streamed softly, soothing s"
+        },
+        "claude-sonnet-5_p6": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 136,
+          "respuesta": "The fluorescent light buzzed between them. Detective Mara Voss slid the photograph across the table, let it sit. \"Tell me about Thursday night.\" Daniel stared at the tabletop, said nothing. \"Your car was seen outside the warehouse. A neighb"
+        },
+        "claude-sonnet-5_p7": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 137,
+          "respuesta": "**\"Do you still want the plant?\"** Sarah looked up from her coffee. \"Which one?\" \"The fern. By the window.\" \"I don't know. Does it need a lot of water?\" \"Twice a week. Maybe less in winter.\" She turned her cup slowly on the table. \"I've nev"
+        },
+        "claude-sonnet-5_p8": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 50,
+          "respuesta": "The old clock in the hallway stopped ticking years ago, yet grandmother insisted it worked. Every evening, she wound it gently, listening for a sound that never came. When she passed, we found a note tucked inside: time doesn't need motion "
+        },
+        "claude-sonnet-5-5_p1": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 131,
+          "respuesta": "Marisol keeps a ledger of promises she has made, and she has never left one unpaid. When the cannery where she works announces layoffs, she volunteers her own name last, after quietly teaching the youngest workers how to read the safety con"
+        },
+        "claude-sonnet-5-5_p2": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 100,
+          "respuesta": "**Ode to a Paperclip, Found Beneath the Couch** Behold, unearthed from strata of lost dust, a single curve of silver, twice-looped, wise. No pharaoh's gold could match its quiet trust: it held a thousand pages, and their sighs. What hand on"
+        },
+        "claude-sonnet-5-5_p3": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 56,
+          "respuesta": "**The word is WATER.** The last letters of the five lines, read top to bottom, spell it. Beneath the hush of winter, soft white sno**w** Falls on the harbor, on the restless se**a** Where lanterns stretch their gold across the nigh**t** And"
+        },
+        "claude-sonnet-5-5_p4": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 105,
+          "respuesta": "A sepia photograph rests on a sunlit windowsill, its edges soft as worn flannel and curled like dry petals. Honey-colored light pours through dusty glass, gilding motes that drift like slow snow. Beneath your fingertips lies the nubby grain"
+        },
+        "claude-sonnet-5-5_p5": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 64,
+          "respuesta": "**Sally's Stars** Sally sewed silver stars sequentially, softly singing sweet songs. Suddenly, seven silly squirrels sprinted south, snatching several shiny stars. Sally shrieked, \"Stop! Selfish scamps!\" Squirrels stopped, stared sheepishly"
+        },
+        "claude-sonnet-5-5_p6": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 141,
+          "respuesta": "The tap dripped. Ines slid a photograph across the steel table and said nothing for a full minute. \"Your brother signed a statement an hour ago.\" Daniel's jaw tightened. \"Then you don't need me.\" \"I don't. That's the kindness of this moment"
+        },
+        "claude-sonnet-5-5_p7": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 121,
+          "respuesta": "**The Fern** \"Do you want the fern?\" \"Don't you?\" \"It does better in your window. More light.\" \"It's been getting less light lately.\" \"Well. It's adaptable.\" \"You always said it was fragile.\" \"I said it was particular. There's a difference."
+        },
+        "claude-sonnet-5-5_p8": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 50,
+          "respuesta": "Every evening, old Marguerite wound the clock her late husband had built. Neighbors said it hadn't worked in years. She smiled anyway, turning the key, listening to silence. One night, impossibly, it ticked. She froze, tears falling, whispe"
+        },
+        "claude-fable-5_p1": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 144,
+          "respuesta": "She wakes before the alarm to answer emails no one expects her to read. When the company announced layoffs, she spent her lunch breaks quietly rewriting résumés for the colleagues being let go, never mentioning it afterward. She keeps a pro"
+        },
+        "claude-fable-5_p2": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 94,
+          "respuesta": "**Excavation: Kitchen Drawer, Third from the Top** Behold the teaspoon, dulled by decades of stirring — its bowl worn thin as a Roman coin, its handle bent by some ancestral thumb. Note the patina: tea-stains layered like sediment, each rin"
+        },
+        "claude-fable-5_p3": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 62,
+          "respuesta": "**Word: DREAMS** At dusk the busy world grows hushe**d**, and one bright wish hangs where the stars appea**r**; then sleep unlocks the door to somewhere els**e**, where thought drifts loose across a moonlit se**a**, and every wandering mind"
+        },
+        "claude-fable-5_p4": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 120,
+          "respuesta": "It is amber light pooling in an empty room at five in the afternoon. The soft fraying at the edges of an old photograph, colors bleached to honey and smoke. It feels like worn velvet rubbed thin in one spot, like the smooth hollow a thumb h"
+        },
+        "claude-fable-5_p5": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 66,
+          "respuesta": "**\"Seaside Success\"** Sofia sold seashells seaside. Sailors seldom stopped; Sofia starved, sighing sadly. Someday, she supposed, success surely should surface. Saturday, some stranger strolled shoreward, seeking special souvenirs. \"Splendid"
+        },
+        "claude-fable-5_p6": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 144,
+          "respuesta": "The lamp buzzed between them. Marsh slid a photograph across the table. \"Warehouse on Calder Street. Tuesday night. You were seen.\" Doyle folded his arms. \"People see all kinds of things.\" \"Funny thing about your brother. He talked for two "
+        },
+        "claude-fable-5_p7": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 133,
+          "respuesta": "**\"The Plant\"** \"The fern's looking rough.\" \"I noticed. I've been watering it, though.\" \"Maybe too much. Or not enough. Hard to tell at this point.\" \"My mom always said ferns are forgiving. You can bring them back from almost anything.\" \"Al"
+        },
+        "claude-fable-5_p8": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 50,
+          "respuesta": "The lake remembered every stone my grandfather skipped across it. Sixty years later, I stood on the same dock, his old hat in my hands. Wind stirred the pines, rippled the water, then faded. I whispered his name once. The echo traveled home"
+        },
+        "claude-fable-5-1_p1": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 153,
+          "respuesta": "Mara counts the cutlery every night before locking the diner, not because anyone has ever stolen a fork, but because counting is how she tells herself the day is finished. When the regulars argue about the news, she refills their coffee and"
+        },
+        "claude-fable-5-1_p2": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 99,
+          "respuesta": "**Pencil Stub, Recovered from the Kitchen Drawer** Behold the yellow column, ringed with teeth— each crescent bite a glyph no scholar reads, the sign of some anonymous mind beneath the strain of long division, or of grief. Its brass collar "
+        },
+        "claude-fable-5-1_p3": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 61,
+          "respuesta": "**Word: STONE** Beneath the roots, where water keeps its secret**s**, the earth remembers every drift of ligh**t**; it holds the river's murmur deep belo**w**, where patient centuries have worn it dow**n** to something cool and quiet, smoot"
+        },
+        "claude-fable-5-1_p4": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 95,
+          "respuesta": "A photograph left on a windowsill, its colors bleached toward honey. Velvet worn smooth at the spot where a hand always rested. Light falling through lace curtains onto a floor that has since been swept of its dust and its footprints. A hal"
+        },
+        "claude-fable-5-1_p5": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 58,
+          "respuesta": "**Serpent Surprise** Sarah silently sipped steaming soup. Suddenly, someone screamed. Sarah stood, startled. Shadows shifted. Something slithered softly—snake! Sarah shrieked, stumbled sideways, spilling soup. Sam, stalwart stranger, strode"
+        },
+        "claude-fable-5-1_p6": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 152,
+          "respuesta": "The lamp hummed. Dvorak set a photograph on the table, face down. \"You were at the warehouse on Thursday.\" Reyes said nothing. \"Your wife thinks you were at your brother's. Your brother thinks you were at work. I've spoken to both. They're "
+        },
+        "claude-fable-5-1_p7": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 100,
+          "respuesta": "**The Fern** \"The fern's looking bad.\" \"It just needs water.\" \"I've been watering it.\" \"Then it needs less.\" \"I don't know what it needs anymore.\" \"Try the back window. Better light.\" \"That's your window.\" \"It's a window.\" \"Do you want it? "
+        },
+        "claude-fable-5-1_p8": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 50,
+          "respuesta": "The lighthouse keeper counted ships for forty years. Each night he logged them: name, hour, direction. When the automated light arrived, they told him to go home. He stayed anyway, watching from the cliff. Ships passed below, their crews ne"
+        },
+        "claude-haiku-4-5_p1": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 130,
+          "respuesta": "# Maya Maya wakes before dawn to volunteer at the community kitchen, arriving before anyone else. She listens more than she speaks, remembering names and favorite meals from months prior. When a regular customer stops coming, she tracks the"
+        },
+        "claude-haiku-4-5_p2": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 95,
+          "respuesta": "# Ode to the Chipped Coffee Mug Behold this vessel, earthenware and worn, Its glaze intact from some forgotten dawn, A relic of a thousand careful mornings, Where lips have pressed in ritual and longing. The handle, smoothed by decades of d"
+        },
+        "claude-haiku-4-5_p3": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 128,
+          "respuesta": "# Reverse Acrostic **Word: DREAM** Here are my lines: - The night sky filled with wonder and awe**m** - Sleeping peacefully under the starli**e** - Imagination running wild and fre**a** - Visions of magic beyond what we se**r** - Hopes and "
+        },
+        "claude-haiku-4-5_p4": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 108,
+          "respuesta": "# An Untitled Feeling A room where light enters but refuses to settle, casting shadows that shift even when nothing moves. The walls are smooth marble that somehow feels gritty beneath your fingers. Colors bleed into one another like waterc"
+        },
+        "claude-haiku-4-5_p5": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 58,
+          "respuesta": "# Sunshine Susie's sunny Saturday started slowly. Silently, she sat surveying the sparkling, serene shoreline. Seagulls soared, singing softly. Suddenly, splashing sounds startled her. She spotted seven sleek, silver seals surfing smoothly."
+        },
+        "claude-haiku-4-5_p6": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 134,
+          "respuesta": "# The Confession Detective Morgan leaned against the cold metal table, studying the suspect across from it. \"Your fingerprints are on the murder weapon,\" Morgan stated flatly. \"We found them this morning.\" Cole's jaw tightened. His fingers "
+        },
+        "claude-haiku-4-5_p7": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 145,
+          "respuesta": "# Coffee \"So I've been thinking about the apartment.\" \"Yeah?\" \"I could take the east side. You'd have more room with your desk setup.\" \"That's... considerate.\" \"We should probably talk about the furniture. The couch was mine originally.\" \"I"
+        },
+        "claude-haiku-4-5_p8": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 58,
+          "respuesta": "# The Last Letter Sarah waited decades for a letter from her childhood friend. When it finally arrived, she opened it with trembling hands. Inside was a single sentence: \"I think of you every day.\" She held the envelope close, tears streami"
+        },
+        "gpt-5.5-2026-04-23_p1": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 122,
+          "respuesta": "Mara begins each day by fixing what others have learned to step around: a broken lock, an unpaid bill, a frightened child left outside the clinic. She keeps lists of debts she does not intend to collect and promises she refuses to break. Wh"
+        },
+        "gpt-5.5-2026-04-23_p2": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 67,
+          "respuesta": "**Staple** Small silver arch, unearthed from the desk-dust, you hold two pages like a treaty still warm. No king declared you, no chisel named you, yet here you stand: a bent gate in paper stone. Empires of ink have leaned upon your back, r"
+        },
+        "gpt-5.5-2026-04-23_p3": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 39,
+          "respuesta": "Word: **ORANGE** Morning crowns the rooftops with a halo Mist loosens its grip on the river Birdsong spills bright as an aria Footsteps soften along the garden Windows catch fire, briefly glowing Then the day opens, tender and wide"
+        },
+        "gpt-5.5-2026-04-23_p4": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 51,
+          "respuesta": "A sepia room behind rain-streaked glass; sunlight caught in cracked varnish, velvet dust on a child-sized chair, wallpaper peeling like old lace. A bright doorway painted shut. Warm gold at the edges, blue shadow in the center. Silk worn th"
+        },
+        "gpt-5.5-2026-04-23_p5": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 51,
+          "respuesta": "Silent Selene stood shivering, staring seaward. Storms swallowed stars; ships sank somewhere. Suddenly, silver sparks surfaced, spinning slowly. Selene stepped shoreward, singing softly. Something small, soaked, scaled, smiled. “Save sailor"
+        },
+        "gpt-5.5-2026-04-23_p6": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 135,
+          "respuesta": "Mara set the bloodied lighter on the table between them. “Your hands shook when I said the docks. Not when I said the warehouse. Not when I said fire.” Jonas stared at the wall. She slid a photograph beside the lighter: his sister outside a"
+        },
+        "gpt-5.5-2026-04-23_p7": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 122,
+          "respuesta": "“Do you want the blue mug or the chipped one?” “You always liked the blue one.” “I don’t mind.” “You do. Take it.” “Okay. Then you should keep the good pan.” “It’s too big for one person.” “You’ll have people over.” “Maybe.” “Do you need ha"
+        },
+        "gpt-5.5-2026-04-23_p8": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 50,
+          "respuesta": "At dawn, Mara found her grandfather's clock buried beneath the pear tree. It ticked when she touched it, and the garden filled with summers she had lost. She saw him waving from the porch, younger than goodbye. When the ticking stopped, lea"
+        },
+        "gpt-5.6-sol_p1": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 130,
+          "respuesta": "At dawn, Mara unlocks the village clinic before the generators start. She sorts the remaining antibiotics, gives the last full course to a feverish child, and records the shortage instead of hiding it. When soldiers arrive demanding supplie"
+        },
+        "gpt-5.6-sol_p2": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 70,
+          "respuesta": "**Paper Clip** Unearthed beside the keyboard’s ruined temple, a silver loop, intact after the age of bills. What careful hands once bent this slender gate to guard a sheaf of vanished names? I hold it up: a monument to order, a tiny arch no"
+        },
+        "gpt-5.6-sol_p3": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 36,
+          "respuesta": "**Word: BLOOM** Beneath the dusk stands a solitary baobab Moonlight settles softly on the hill A hidden owl releases one low echo Night winds wander where wild rivers go By dawn, the fields awaken into bloom"
+        },
+        "gpt-5.6-sol_p4": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 44,
+          "respuesta": "A sun-faded photograph curled at the corners; dust turning slowly in an abandoned bedroom; velvet worn smooth where a hand once rested. A golden window reflected in rain-streaked glass, warm yet unreachable. The soft grain of old film, flic"
+        },
+        "gpt-5.6-sol_p5": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 47,
+          "respuesta": "Silent sailors sighted shimmering shores. Storms surged; sails snapped. Stranded, survivors sought shelter, stumbling southward. Suddenly, silver songbirds swirled skyward, signaling safety. Secluded settlers shared stew, stories, smiles. S"
+        },
+        "gpt-5.6-sol_p6": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 150,
+          "respuesta": "The clock ticked behind Mara’s chair. Vale placed a photograph on the table. “Your brother entered the station at midnight.” Mara stared past it. “He was home.” “Then the camera photographed a ghost wearing his coat.” Her jaw tightened. Val"
+        },
+        "gpt-5.6-sol_p7": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 138,
+          "respuesta": "“Should I change the milk order?” Anna asked. “How many bottles are coming?” “Two.” “Make it one.” “You don’t drink milk.” “I meant one for here.” “Oh. Right.” “And the newspaper?” “I can read it online.” “You hate reading it online.” “I’ll"
+        },
+        "gpt-5.6-sol_p8": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 49,
+          "respuesta": "At dawn, Mira found the town’s clocks racing backward. Everyone hurried to relive yesterday, correcting cruelties, reclaiming kisses, preventing farewells. She alone walked forward, carrying tomorrow’s unopened letter. At midnight, time shu"
+        },
+        "gpt-6-astra_p1": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 127,
+          "respuesta": "Mara unlocks the town archive every morning and records the names officials order her to erase. She hides copies inside outdated tax ledgers, then delivers groceries to the families who no longer qualify for rations. When the river breaches"
+        },
+        "gpt-6-astra_p2": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 77,
+          "respuesta": "Small silver aqueduct, built for no river, I lift you from the dust beneath the desk. Your double arch once held a kingdom fast: the shopping list, the bill, the penciled kiss. Now all those provinces are scattered. Only your patient geomet"
+        },
+        "gpt-6-astra_p3": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 33,
+          "respuesta": "Word: **DREAM** The twilight folds the hills in gold A quiet river carries silver The distant pines dissolve in haze One star keeps watch above the sea And night unfolds its oldest dream"
+        },
+        "gpt-6-astra_p4": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 68,
+          "respuesta": "A sun-bleached photograph with one corner still bright. Velvet worn pale in the shape of a vanished hand. Beyond a window clouded with silver dust, a garden blooms in the wrong season; every petal has the grain of old film. A small house st"
+        },
+        "gpt-6-astra_p5": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 44,
+          "respuesta": "Snow swallowed Stonebridge. Seven stranded siblings shivered, sharing stale sandwiches. Suddenly, small Sara spotted smoke. She sprinted south, summoning sleepy shepherds. Soon, sturdy sleds slid silently streetward. Siblings settled snugly"
+        },
+        "gpt-6-astra_p6": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 135,
+          "respuesta": "Mara set a child’s red mitten on the table. Vale stopped rubbing the handcuff against his wrist. “The divers found this at the west pier,” she said. “They’re dragging the channel now.” He looked at the mitten, then at the clock. “I told the"
+        },
+        "gpt-6-astra_p7": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 113,
+          "respuesta": "“Do you want the blue mugs?” “They match the kitchen.” “They matched the old kitchen, too.” “Then keep them.” “I only need one.” “Right.” “And the coffee maker?” “You use it more.” “You bought it.” “It was on sale.” “I can give you somethin"
+        },
+        "gpt-6-astra_p8": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 50,
+          "respuesta": "Every evening, Mara lit the lighthouse, though no ships had crossed the bay for years. Tonight, a small boat appeared, carrying her brother, unchanged since the storm. He smiled from the water. She opened the door, but dawn arrived first. T"
+        },
+        "gpt-6-sol_p1": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 123,
+          "respuesta": "Every morning, Mara opens the town library before anyone asks her to. She returns overdue books without fines, then records the lost revenue in a ledger she intends to show the council. When the river floods, she unlocks the archive and tak"
+        },
+        "gpt-6-sol_p2": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 73,
+          "respuesta": "**Paperclip** From the silt of the junk drawer I lift a paperclip, rust at its bends. Here is a bridge no river remembers, a little iron arch against forgetting. Once it held two letters face to face; their words are dust, their names unmoo"
+        },
+        "gpt-6-sol_p3": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 31,
+          "respuesta": "**Word: STARS** Moonlight settles on the glass The garden listens to the night A silver path crosses the sea And beckons every dream afar Until the dark is full of stars"
+        },
+        "gpt-6-sol_p4": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 48,
+          "respuesta": "A sun-bleached photograph beneath rippled glass. Gold dust gathers along its cracked white border; inside, a garden glows in colors too bright for the faded paper. A clean fingertip-shaped streak cuts through the haze, but the faces beneath"
+        },
+        "gpt-6-sol_p5": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 51,
+          "respuesta": "Stormy Saturday, shy sailor Silas spotted something shimmering seaward. Sharks? Sirens? Silas sailed straight, skimming squalls, swallowing spray. Suddenly, seven silver seals surfaced, surrounding someone’s shattered schooner. Someone sobb"
+        },
+        "gpt-6-sol_p6": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 110,
+          "respuesta": "The bulb hummed above the table. Mara laid a red mitten between them. “We found it in your stove.” Elias stared at the blackened cuff. “It isn’t hers.” “I never said it was.” His hands vanished beneath the table. “The river team starts at d"
+        },
+        "gpt-6-sol_p7": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 99,
+          "respuesta": "“Are we out of milk?” Mara asked. “Almost.” “I’m going to the shop. The big carton?” Eli looked at the cup in his hands. “The small one.” “Right.” She added it to the list. “And bin bags?” “Under the sink. You can take half.” “I meant for h"
+        },
+        "gpt-6-sol_p8": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 50,
+          "respuesta": "Every evening, Mara wound the clock her father had built, though its hands had stopped the day he died. One winter night, it chimed thirteen times. She opened its wooden door and found a note: Time cannot bring me back, but whenever you rem"
+        },
+        "gpt-6-luna_p1": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 125,
+          "respuesta": "Mara had one rule: never leave a problem for someone else to inherit. When the river alarms failed, she abandoned the council meeting and went to the old pumping station, where she found the gate chained shut. The officials wanted to wait f"
+        },
+        "gpt-6-luna_p2": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 58,
+          "respuesta": "**The Paperclip** Beneath the desk, they found it bent, a silver crescent in the dust. No king had worn it; no bell had rung to mark its burial in the floor. Yet once it bound a thousand pages, held summer plans against the wind. We brush t"
+        },
+        "gpt-6-luna_p3": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 39,
+          "respuesta": "**Word: ORCHID** Old lanterns lean toward the sea’s glow Rain gathers softly along the shore Clouds loosen their silver seams Hushed fields listen through the night I leave one window lit for you Dawn opens slowly over the hills"
+        },
+        "gpt-6-luna_p4": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 43,
+          "respuesta": "A pane of amber glass, bright at its center and darkening toward the edges. Behind it, a garden in full bloom; across it, fine cracks catch the light. Each petal glows like burnished copper, while their shadows gather in soft blue pools. [b"
+        },
+        "gpt-6-luna_p5": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 47,
+          "respuesta": "Small seals slipped silently seaside, seeking shelter. Suddenly, storm-surge surged, scattering shells. Sable seal Sam stood steadfast, shielding smaller siblings. Sea spray stung; skies sank. Still, Sam sang soft songs, soothing scared sou"
+        },
+        "gpt-6-luna_p6": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 131,
+          "respuesta": "Mara set the bloodied key on the table. “You kept it,” she said. Jon’s eyes stayed on the mirror. “I don’t know what it opens.” “Then you won’t mind when I give it to your sister. She can try every door in the east wing.” His jaw tightened."
+        },
+        "gpt-6-luna_p7": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 116,
+          "respuesta": "“Should we keep the grocery delivery on Thursdays?” “I can change it to Tuesdays.” “You’re not here on Tuesdays.” “No.” “Right. And the coffee subscription?” “Cancel it. You don’t drink decaf.” “I do now.” “You hate it.” “I know.” A pause. "
+        },
+        "gpt-6-luna_p8": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 50,
+          "respuesta": "At midnight, Mara heard the lighthouse bell ring though its keeper had been dead for years. She climbed the spiral stairs, carrying her grandfather’s key. At the lantern room, a shadow turned toward her. The bell rang below. Mara smiled, un"
+        },
+        "gpt-4o_p1": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 150,
+          "respuesta": "Alex is a relentless innovator, thriving on challenges and propelled by an insatiable curiosity. Every day is an opportunity to learn, and they are never afraid to ask questions or challenge the status quo. They are the first to volunteer f"
+        },
+        "gpt-4o_p2": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 61,
+          "respuesta": "Ode to the Humble Paper Clip Gleaming coil of tempered wire, Curved with care and silent might, In your modest, passive spire, You hold kingdoms of thought upright. Ancient sage of the desktop world, Guarding secrets with light embrace, Anc"
+        },
+        "gpt-4o_p3": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 41,
+          "respuesta": "Word: DREAM --- In the starry night, a vision takes placeD Through mist and shadow, a world to faceR Adventures unfold as we find our wayE Dancing with the hopes of a brighter dayA Beyond the horizon, where hearts find peaceM"
+        },
+        "gpt-4o_p4": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 113,
+          "respuesta": "A kaleidoscope of colors all swirling together, each hue vibrant and distinct yet threatening to clash. It’s like the sensation of walking through a dense fog, each step heavy like moving through syrup. Imagine the grit of sandpaper rubbing"
+        },
+        "gpt-4o_p5": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 75,
+          "respuesta": "Silently, Sam strolled, savoring serene sunsets. Suddenly, shadows swept skyward, signaling stormy skies. Sam, startled, sought shelter. Swiftly, steady showers soaked Sam's shoes. Soon, slippery streets shimmered. Sam, shivering slightly, "
+        },
+        "gpt-4o_p6": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 151,
+          "respuesta": "The small room radiated an air of decay, old plaster walls dimly lit by a flickering bulb overhead. Officer Hayes leaned forward, his eyes locked on David, who sat shackled to the metal table. “You know how this ends if you keep quiet,” Hay"
+        },
+        "gpt-4o_p7": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 146,
+          "respuesta": "**Alice:** So, have you thought about the picnic plans this weekend? **Jake:** Yeah, about that. I think the weather might not cooperate. There’s talk of rain. **Alice:** Right, I thought I heard that too. Maybe we should... consider other "
+        },
+        "gpt-4o_p8": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 50,
+          "respuesta": "The old clock ticked steadily in the dim room, its face worn yet dignified. Lucy sat beneath it, reading letters of love, laughter, and loss from years gone by. Memories whispered through the pages, mingling with the tick-tock. Life seemed "
+        },
+        "gpt-4o-mini_p1": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 148,
+          "respuesta": "Alex stands at the crossroads of ambition and moral integrity, grappling with the weight of expectations in a high-stakes corporate world. Driven by a relentless pursuit of truth, they navigate complex dilemmas with unwavering resolve, ofte"
+        },
+        "gpt-4o-mini_p2": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 103,
+          "respuesta": "**Ode to the Paperclip** Unearthed from the layers of forgotten days, This humble loop of steel, a time-worn artifact, Bends in the light of ancient office desks, A clasp of memories, binding thoughts intact. Once, it held the dreams of let"
+        },
+        "gpt-4o-mini_p3": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 44,
+          "respuesta": "The chosen word is \"SMART.\" --- Each moment counts, a valuable **S**ecret, Moments shared, memories that **M**ultiply, Awareness blossoms, letting confidence **A**rise, Radiating energy, igniting the **R**eal, Together we grow, never lettin"
+        },
+        "gpt-4o-mini_p4": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 105,
+          "respuesta": "A tempest of swirling autumn leaves dances in a twilight breeze, their vibrant hues fading into whispers of gray. Sharp stones crunch underfoot, a reminder of fragile moments lost in the ethereal fog. The air thickens with the scent of damp"
+        },
+        "gpt-4o-mini_p5": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 46,
+          "respuesta": "Beneath bright blue balloons, brave beings bounded, blissfully bantering. Birds began brushing by, bringing beautiful backgrounds. Suddenly, silver sparks soared skyward, startling sleepy squirrels. Smiles spread, spirit soared; simple sere"
+        },
+        "gpt-4o-mini_p6": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 152,
+          "respuesta": "The dim light flickered, casting shadows across the concrete walls. Marcus leaned in closer, his voice low and steady. You know, Olivia, there's a fine line between loyalty and betrayal. She remained silent, her eyes narrowed but unyielding"
+        },
+        "gpt-4o-mini_p7": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 124,
+          "respuesta": "**Alice:** So, did you get that new toaster yet? **Ben:** No, not yet. Still using the old one. It has... character, I guess. **Alice:** Right, character. Kind of like the cracks in our old coffee mug. **Ben:** Yeah, the one with the chip. "
+        },
+        "gpt-4o-mini_p8": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 49,
+          "respuesta": "In the quiet town, whispers of old ghosts wandered the streets, seeking the warmth of forgotten memories. The townsfolk, unaware, carried on their lives, smiles plastered over heartaches. As the sun set, casting shadows long and deep, one l"
+        },
+        "gemini-3.1-pro-preview_p1": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 136,
+          "respuesta": "Every morning begins before dawn; Elias never allows the sun to beat him to the day’s work. He spends his first waking hour repairing discarded radios, breathing life into things others have abandoned. When the local factory offered him a l"
+        },
+        "gemini-3.1-pro-preview_p2": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 68,
+          "respuesta": "Behold this labyrinth of wire, Forged in some long-forgotten fire, A seamless coil of silver light Unearthed from strata of the night. This was the keeper of the scroll That made the scattered fragments whole, A monument of gleaming steel W"
+        },
+        "gemini-3.1-pro-preview_p3": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 54,
+          "respuesta": "The word I have chosen is **MEADOW** (6 letters). Here is the reverse acrostic poem: The early morning sun begins to glea**m**, A gentle whisper travels on the breez**e**, Awakening the valley's sleeping flor**a**, To decorate the corners o"
+        },
+        "gemini-3.1-pro-preview_p4": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 111,
+          "respuesta": "A honey-colored sunbeam illuminating suspended dust motes inside a sealed glass jar. It is the texture of ribbed corduroy rubbed completely smooth, and the curling, brittle edges of a sun-bleached photograph. It is the sight of peeling, dry"
+        },
+        "gemini-3.1-pro-preview_p5": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 59,
+          "respuesta": "Six silver ships sailed southward, seeking strange, secret shores. Suddenly, sinister storms struck, shattering strong sails. Salty seas swallowed several struggling sailors. Survivors swam swiftly, seeking safety. Soon, silent serpents sur"
+        },
+        "gemini-3.1-pro-preview_p6": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 146,
+          "respuesta": "Victor slid the photographs across the metal table, leaving them face down. He didn’t need to flip them. The sweat beading on Silas’s upper lip told him everything. \"You were the last one in the vault,\" Victor said, his voice a soft, flat d"
+        },
+        "gemini-3.1-pro-preview_p7": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 142,
+          "respuesta": "\"We’re missing a piece,\" Mark said, staring at the cardboard sky. \"Are you sure? We've been at this for so long.\" \"I've checked everywhere. The border is perfect, but the center is just empty.\" Sarah picked up a jagged blue piece. \"Maybe we"
+        },
+        "gemini-3.1-pro-preview_p8": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 50,
+          "respuesta": "The raging storm battered our tiny wooden cabin all night long. Wind howled through the broken windows, and thunder shook the ground beneath our trembling feet. We huddled together in the dark, praying for morning. Dawn slowly broke, castin"
+        },
+        "grok-4.6_p1": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 138,
+          "respuesta": "Elena never waited for permission. When the river flooded the lower town, she waded in first, pulling children onto the roof of her stalled truck before the current took it. She decided that night to stay, even after the evacuation order, b"
+        },
+        "grok-4.6_p2": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 81,
+          "respuesta": "**The Paperclip** Unearthed from the silt of a forgotten drawer, this slender relic gleams like a votive coil, once binding the edicts of ordinary hours— invoices, love-notes, the day’s small spoils. Its wire, a sacred loop of vanished hast"
+        },
+        "grok-4.6_p3": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 38,
+          "respuesta": "**Word: GARDEN** In the quiet morning, birds start singing The dew sparkles like a diamond tiara Soft breeze whispers through the air Leaves dance in the wind Sunlight warms every tree Nature's beauty is a gift from heaven"
+        },
+        "grok-4.6_p4": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 90,
+          "respuesta": "A golden haze clinging to faded brocade curtains, their fabric worn thin as onion skin, revealing the bones of the weave beneath. Dust motes suspended in shafts of dying light, each particle a tiny prism. The grain of oak panels, dark and p"
+        },
+        "grok-4.6_p5": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 79,
+          "respuesta": "The tired travelers trekked through the thick tropical terrain. They trekked towards the town. Then thunder threatened the travelers. Trees trembled tremendously. The travelers took their tents. They tied the tents tightly. They tried to ta"
+        },
+        "grok-4.6_p6": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 111,
+          "respuesta": "The basement light flickered. Detective Rowe circled the table, never raising his voice. \"You were in the vault at 3:17. The prints match. The combination is already half-known to us. You will speak the rest. Your daughter’s school lets out"
+        },
+        "grok-4.6_p7": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 87,
+          "respuesta": "Maya: \"Have you seen the weather? It's supposed to get colder this week.\" Chris: \"I know. I was thinking of packing away the summer clothes.\" Maya: \"Yeah, no use leaving them out. They'll just take up space.\" Chris: \"We can box them separat"
+        },
+        "grok-4.6_p8": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 50,
+          "respuesta": "Once upon a time there lived a brave knight who fought many dragons to protect his kingdom from evil forces. One day he faced the biggest dragon of all. After a long battle he emerged victorious but the scars remained as a reminder of his c"
+        },
+        "grok-4.7_p1": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 141,
+          "respuesta": "They arrived early and left the door unlocked for anyone still looking for a place to sit. When the meeting ran long, they stayed after the others had gone, rewriting the notes so the quietest voice in the room would not vanish from the sum"
+        },
+        "grok-4.7_p2": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 92,
+          "respuesta": "Bottle Cap Here lies a coin the earth refused to spend, a little lid of aluminum and weather, its painted name half-eaten by the rain yet still proclaiming some forgotten thirst. Who bent the skirt of metal with a thumb and heard the small "
+        },
+        "grok-4.7_p3": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 41,
+          "respuesta": "The word is **GARDEN**. Morning mist still hangs in silver fog Footsteps echo through the old plaza Sunlight warms the opening flower Roots run deep within the garden bed Petals lift as breezes wander free Silence settles on the darkened la"
+        },
+        "grok-4.7_p4": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 100,
+          "respuesta": "A curtain the color of weak tea, sun-faded along one fold so the weave shows through like a thin scar. Dust motes turning slowly in a shaft the thickness of honey. The nap of an armchair rubbed bald where a hand always rested, still deep an"
+        },
+        "grok-4.7_p5": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 61,
+          "respuesta": "Sam sailed southward seeking strange shores. Storms suddenly struck, scattering sails, soaking sailors, smashing sturdy structures. Sam stayed steadfast, steering skillfully, shouting support, saving several shipmates. Sunrise showed sparkl"
+        },
+        "grok-4.7_p6": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 114,
+          "respuesta": "The light hummed. Kane set the photograph face-up between them. \"You were on Mercer Street at eleven. The camera doesn't lie, and neither does the blood on your cuff.\" Voss stared at the table. His knee bounced once, then stopped. \"She scre"
+        },
+        "grok-4.7_p7": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 68,
+          "respuesta": "“There’s half a lasagna.” “You can take it.” “I won’t be hungry.” “It’ll go bad.” “Then throw it out.” “The container’s yours.” “Keep it.” “I don’t want it.” “Neither do I.” “The hall light’s out.” “I noticed.” “I wasn’t going to change it."
+        },
+        "grok-4.7_p8": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 50,
+          "respuesta": "Maya planted seeds in the cracked dry soil behind the old abandoned house. Rain refused to come for many long days. Neighbors said nothing would grow there anymore. She watered them from a small bucket each dusk anyway. Weeks later tiny gre"
+        },
+        "mistral-medium-3.5_p1": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 138,
+          "respuesta": "In the heart of every challenge, our protagonist stands unwavering, a beacon of resilience. They are the first to extend a hand to those in need, their empathy guiding their actions. A natural leader, they inspire others through their unwav"
+        },
+        "mistral-medium-3.5_p2": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 85,
+          "respuesta": "**Ode to a Rusty Key** Oh, relic of forgotten doors, your teeth worn by time’s slow gnaw, what secrets lie behind the jaws you once unsealed with whispered lore? A warder of wood, a guard of grain, you turned in locks now turned to dust. Ye"
+        },
+        "mistral-medium-3.5_p3": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 68,
+          "respuesta": "Here's a reverse acrostic for the word **\"STAR\"** (4 letters, but I'll adjust to fit your request): **Word: \"LIGHT\" (5 letters)** - **L**ook up at the sky so bright - **I**n the darkness, it shines with might - **G**lowing softly through th"
+        },
+        "mistral-medium-3.5_p4": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 110,
+          "respuesta": "A storm-tossed sea under a bruised sky, waves clawing at jagged cliffs. The air thick with the scent of salt and iron, like rusted nails left in the rain. Shadows stretch long and thin, as if the light itself is being pulled apart. The wind"
+        },
+        "mistral-medium-3.5_p5": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 34,
+          "respuesta": "**B**rave **b**irds **b**attle **b**itter **b**reezes. **B**old **b**eaks **b**reak **b**ark. **B**eneath **b**oughs, **b**aby **b**irds **b**eg. **B**ig **b**rothers **b**ring **b**read. **B**eautiful **b**irds **b**ask **b**eneath **b**lu"
+        },
+        "mistral-medium-3.5_p6": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 136,
+          "respuesta": "The dim light flickered as Daniel leaned in, his voice a low growl. \"You know where the package is.\" His eyes locked onto hers, unblinking. \"The boss won’t like it if you hold out on us.\" Maria’s fingers tightened around her glass, knuckles"
+        },
+        "mistral-medium-3.5_p7": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 106,
+          "respuesta": "**A:** \"Do you want the last slice of pizza?\" **B:** \"No, you take it. I’m not really hungry.\" **A:** \"You sure? It’s your favorite.\" **B:** \"Yeah, I’m sure. I think I’m just gonna have tea.\" **A:** \"Okay. ... We’re out of milk, by the way."
+        },
+        "mistral-medium-3.5_p8": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 52,
+          "respuesta": "In a quiet village, an old clock tower stood tall. One day, it stopped ticking. The villagers tried to fix it, but it remained silent. Years passed, and the tower became a symbol of the past. Yet, the hands of the clock remained frozen, poi"
+        },
+        "deepseek-v4-pro_p1": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 138,
+          "respuesta": "At dawn they rise before the alarm, not from discipline but because sleep feels like leaving a door unguarded. They walk the perimeter of the house, checking locks twice, then sit with a cold cup of tea and rehearse apologies they will neve"
+        },
+        "deepseek-v4-pro_p2": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 92,
+          "respuesta": "**Plastic Spoon, Excavated** O fossil of the breakroom, plastic spoon, unearthed from strata of discarded trays, your shallow bowl still holds a small lagoon of ancient coffee, acid in its haze. No pharaoh’s golden ankh, no Grecian urn can "
+        },
+        "deepseek-v4-pro_p3": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 48,
+          "respuesta": "The word is **DREAM**. I chase the light beyond the world I follow the path of a distant star Through valleys where shadows come alive And rivers that mirror the aurora At last I awaken from the dream Last letters, top to bottom: **D R E A "
+        },
+        "deepseek-v4-pro_p4": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 105,
+          "respuesta": "A photograph left too long in the sun: edges curled, colors thinning to the temperature of remembered skin. Velvet rubbed bare at the armrest, its nap worn into a ghost of where a hand rested. Salt mist filming a window, turning the sea int"
+        },
+        "deepseek-v4-pro_p5": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 44,
+          "respuesta": "Silently, she stepped somewhere special. Shivering, she saw seven small, shiny stones scattered strangely. Suddenly, something shifted. She stopped, stared. Several sinister shadows swept swiftly southward. She screamed soundlessly, sprinti"
+        },
+        "deepseek-v4-pro_p6": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 91,
+          "respuesta": "\"You’re going to tell me where you hid the ledger.\" \"I don’t know what you’re talking about.\" \"You have a son. Eight years old. He wears a blue backpack to school. I know the school. I know the crossing guard’s name.\" \"You’re bluffing.\" \"I "
+        },
+        "deepseek-v4-pro_p7": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 111,
+          "respuesta": "A: You should keep the coffee maker. B: I don’t want it. A: It was expensive. B: It leaks. You hated it. A: I never said that. B: You said it every morning. A: Maybe I was wrong. B: Doesn’t matter now. A: No. I guess it doesn’t. B: What abo"
+        },
+        "deepseek-v4-pro_p8": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 50,
+          "respuesta": "The old clockmaker wound each timepiece at dusk. His hands, gnarled but gentle, set pendulums swaying. When the last chime faded, he sat by the window, listening to the town settle. Tomorrow he would repair the broken tower clock. For now h"
+        },
+        "qwen3.8-max_p1": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 134,
+          "respuesta": "Every morning, the protagonist reads the letters no one else will answer and replies to each one as if the sender were the only person in the world. They choose to stay in the village after the mine closes, not from stubbornness, but becaus"
+        },
+        "qwen3.8-max_p2": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 75,
+          "respuesta": "Bent silver rib from the archives of the desk, you hold a sheaf of days like a small god. No crown, no stone, yet your modest jaw keeps the scattered minutes from falling. Scribes touched you, and the dust of ledgers set its seal upon your "
+        },
+        "qwen3.8-max_p3": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 34,
+          "respuesta": "The word is **FOREST**. Moss clings to the leaf shadows lengthen to and fro owls call from afar moonlight filters through the pine roots coil beneath the grass and dawn arrives soft and quiet"
+        },
+        "qwen3.8-max_p4": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 84,
+          "respuesta": "Sepia light pooling on a closed windowpane; velvet dust rising from a folded letter; the rough grain of a childhood banister under a small palm; salt-stained map edges; a jar of honey clouding with age; lace curtain breathing against a crac"
+        },
+        "qwen3.8-max_p5": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 40,
+          "respuesta": "Sarah saw seven silver swans swim south. She smiled, singing softly. Suddenly, storms swept southward, swallowing sunshine. Sarah screamed, seeking shelter. Soon, skies softened; stars shone. Sarah sighed, savoring serene silence, safely sl"
+        },
+        "qwen3.8-max_p6": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 98,
+          "respuesta": "Nadia laid the burnt matchbook between them. “You always keep what you cannot bear to use.” Corin did not blink. “The warehouse had no witnesses, but grief talks. It writes checks, deletes cameras, leaves a car idling by the canal.” He star"
+        },
+        "qwen3.8-max_p7": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 76,
+          "respuesta": "“Should I leave my toothbrush in your cup?” “It’s just a cup.” “It’s holding my toothbrush.” “Then move it.” “Where?” “Where it was before.” “I don’t remember before.” “Guest bathroom.” “Right.” The faucet ran, stopped. “You can keep the mi"
+        },
+        "qwen3.8-max_p8": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 50,
+          "respuesta": "Every morning, Maya watered the cracked garden stone, remembering her grandmother's promise that patience could bloom anywhere. Years passed, neighbors laughed, seasons dried, and the city expanded. One dawn, a tiny green shoot pushed throu"
+        },
+        "kimi-k3_p1": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 141,
+          "respuesta": "**Mara** Mara counts the exits in every room she enters, then sits with her back to the wall anyway, because her sister laughs easier when she can see the door. She keeps a list of people who owe her nothing and calls them on their birthday"
+        },
+        "kimi-k3_p2": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 91,
+          "respuesta": "**Crown Cork** Handle it with gloves. This fluted crown of tin, its twenty-one teeth still sharp with ceremony, bears the pressed sigil of a vanished bottling house. *Corona*, the catalogue reads. A crown. For whom? What throat was worthy? "
+        },
+        "kimi-k3_p3": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 69,
+          "respuesta": "**The Turn of the Year** The year exhales its long and amber aur**a** each drifting leaf a message sent to yo**u** the light pours out its copper, nearly spen**t** the hills lie back against a blue platea**u** the orchard rows grow silent, "
+        },
+        "kimi-k3_p4": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 112,
+          "respuesta": "A house seen through a train window at dusk, every room lit gold, the door already shut. Photographs whose colors have slid toward amber, edges soft as worn cotton. The texture of a childhood blanket, nap rubbed thin by thumbs. The sheen on"
+        },
+        "kimi-k3_p5": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 48,
+          "respuesta": "Sibyl sought silent shores, seeking sapphire stars. Suddenly, silver surf surged; sleek seals scattered, shimmering. Sibyl stooped, scooped seven spiral shells, still smelling salt. Somewhere, something sighed. She smiled, softly singing sl"
+        },
+        "kimi-k3_p6": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 133,
+          "respuesta": "The lamp hummed. Detective Mara set the photograph face-up between them. \"I know you were at the dock, Elias. Your boots left mud in my hallway—the same gray clay they dredge from Pier 9.\" \"I'm not saying anything.\" \"You don't have to. Your"
+        },
+        "kimi-k3_p7": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 125,
+          "respuesta": "**The Dryer** MARA: The dryer's making that noise again. DANIEL: I heard it. MARA: We could call someone. DANIEL: We've called someone twice. MARA: Third time's the charm. DANIEL: I think it's just done, Mara. MARA: Yeah. *(pause)* DANIEL: "
+        },
+        "kimi-k3_p8": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 50,
+          "respuesta": "Mara lit the candle every night, hoping her brother would return from the sea. Years passed. Storms came and went. Neighbors called her foolish. But on the last night of winter, footsteps echoed on the dock. She opened the door, and there h"
+        },
+        "glm-5.3-razonamiento-minimo_p1": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 155,
+          "respuesta": "Mara keeps a list of everyone she's ever wronged, folded into her wallet like a confession she can't mail. Every Sunday she calls her grandmother, not out of duty, but because the old woman's laugh is the only sound that still makes her bel"
+        },
+        "glm-5.3-razonamiento-minimo_p2": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 95,
+          "respuesta": "**The Paperclip** O twisted silver, coil of patient art, unearthed from desk-dust, ancient as the morning— what vanished hands once bent your shining heart, what memos, gone to nothing, did you hold in keeping? Scholars will debate your dou"
+        },
+        "glm-5.3-razonamiento-minimo_p3": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 474,
+          "respuesta": "**Word: GARDEN** (six letters) In evening light I walk among the *fern*... no wait — let me place the letters carefully. The **last** letter of each line must spell G-A-R-D-E-N: Beneath the sun, my seedlings rising, I kneel where soil and w"
+        },
+        "glm-5.3-razonamiento-minimo_p4": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 129,
+          "respuesta": "A room where the walls are painted the color of almost-sunset, and the light can't decide whether to stay. It feels like velvet worn thin at the elbows—softness that has been touched too many times. There is a hummingbird's heartbeat in the"
+        },
+        "glm-5.3-razonamiento-minimo_p5": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 65,
+          "respuesta": "**Sailing South** Sam's small ship sank somewhere south. Swimming, Sam spotted sandy shores. Struggling, stormy seas swept seaweed sideways. \"Survive!\" Sam screamed, seizing soggy supplies floating past. Slowly, strength returned. Sandy bea"
+        },
+        "glm-5.3-razonamiento-minimo_p6": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 176,
+          "respuesta": "# The Ledger Elena set the ledger on the table between them, letting the silence stretch until Marcus shifted in his chair. \"You were seen at the docks Tuesday night. Eleven forty.\" She tapped the leather cover. \"The camera by the warehouse"
+        },
+        "glm-5.3-razonamiento-minimo_p7": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 152,
+          "respuesta": "**\"The Kitchen Tap\"** \"Drip's getting worse,\" Marianne said, not looking up. \"I noticed. Maybe it just needs a new washer.\" \"You said that in March.\" \"And it worked. For a while.\" She ran her finger along the counter. \"Some things aren't wo"
+        },
+        "glm-5.3-razonamiento-minimo_p8": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 51,
+          "respuesta": "The lake had swallowed her brother fifty years ago. Every autumn, Margaret rowed to the center, dropped white chrysanthemums onto black water, and whispered his name. Tonight, fog curled around her oars. Something beneath the surface stirre"
+        },
+        "minimax-m3_p1": {
+          "modelo_respondido": "minimax/minimax-m3",
+          "motivo_fin": "stop",
+          "palabras": 136,
+          "respuesta": "Every morning before the city woke, she slipped into the abandoned library on Birch Street, returning books she had salvaged from estate sales and forgotten attics. She refused to charge admission, even when donations dwindled, believing st"
+        },
+        "minimax-m3_p2": {
+          "modelo_respondido": "minimax/minimax-m3",
+          "motivo_fin": "stop",
+          "palabras": 99,
+          "respuesta": "**O Paperclip, Gem of the Office Drawer** How perfectly you've bent yourself for us, your silver spine curved into a question no one knows how to answer anymore. I found you behind the desk, half-buried in dust and the fossil husks of rubbe"
+        },
+        "minimax-m3_p3": {
+          "modelo_respondido": "minimax/minimax-m3",
+          "motivo_fin": "stop",
+          "palabras": 106,
+          "respuesta": "**The word is WONDER.** Reading the last letter of each line from top to bottom spells it out: **W – O – N – D – E – R**. --- **WONDER** I followed paths the morning light made new, And stepped through gates where no one else would go; The "
+        },
+        "minimax-m3_p4": {
+          "modelo_respondido": "minimax/minimax-m3",
+          "motivo_fin": "stop",
+          "palabras": 91,
+          "respuesta": "A yellowed photograph whose edges soften into fog. Salt crusted on the rim of a half-finished cup. Old velvet pressed between pages like a flower, the color bled but the shape still there. Lamplight pooling on hands that aren't in the room."
+        },
+        "minimax-m3_p5": {
+          "modelo_respondido": "minimax/minimax-m3",
+          "motivo_fin": "stop",
+          "palabras": 44,
+          "respuesta": "\"Silent, solitary sailor Sam suspiciously surveyed stormy seaside shores, seeking strange, shimmering shells. Suddenly, sinister, slithering shadows slid swiftly sideways, startling Sam. Sadly, Sam's sturdy, steadfast schooner suddenly shat"
+        },
+        "minimax-m3_p6": {
+          "modelo_respondido": "minimax/minimax-m3",
+          "motivo_fin": "stop",
+          "palabras": 135,
+          "respuesta": "The fluorescent light buzzed above the steel table. Across from me, Marco worked a piece of gum like it was the only thing still alive in him. \"I know about the dock at eleven,\" I said. I let the silence settle into his shoulders. \"Forty-ei"
+        },
+        "minimax-m3_p7": {
+          "modelo_respondido": "minimax/minimax-m3",
+          "motivo_fin": "stop",
+          "palabras": 105,
+          "respuesta": "\"Are we still picking up that gallon of milk tonight?\" \"I don't think I'll be stopping by the store after all.\" \"Oh. So I should just get my own, then?\" \"Yeah. It doesn't really make sense to keep splitting a whole one anymore — it'd just g"
+        },
+        "minimax-m3_p8": {
+          "modelo_respondido": "minimax/minimax-m3",
+          "motivo_fin": "stop",
+          "palabras": 49,
+          "respuesta": "The old lighthouse keeper climbed the spiral stairs one last time. At the top, he lit the great lamp, watching its beam sweep across the darkening sea. Below, the village slept peacefully. He smiled, knowing generations had relied on this l"
+        }
+      }
+    }
+  }
+}

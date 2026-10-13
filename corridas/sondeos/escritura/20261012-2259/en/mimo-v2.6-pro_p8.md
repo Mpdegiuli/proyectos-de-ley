@@ -1,0 +1,1 @@
+The lighthouse keeper watched the storm swallow the horizon. Every ship had returned to harbor except one. She held the lantern steady, whispering promises to the dark waves. Hours passed. The rain stopped. Then, from the black water, a single light blinked back, and she stood, trembling, and waited still.

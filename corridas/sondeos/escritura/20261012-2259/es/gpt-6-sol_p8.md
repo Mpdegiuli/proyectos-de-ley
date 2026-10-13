@@ -1,0 +1,1 @@
+Cuando el reloj de la estación se detuvo, todos envejecieron de golpe. Todos menos Luna, que guardó un minuto en el bolsillo. Años después, lo abrió para escuchar otra vez la voz de su madre. El andén desapareció; la tarde volvió a empezar. Ella sonrió. Su madre la esperaba todavía

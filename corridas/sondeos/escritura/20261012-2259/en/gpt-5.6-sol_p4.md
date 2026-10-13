@@ -1,0 +1,1 @@
+A sun-faded photograph curled at the corners; dust turning slowly in an abandoned bedroom; velvet worn smooth where a hand once rested. A golden window reflected in rain-streaked glass, warm yet unreachable. The soft grain of old film, flickering around an empty chair. [Nostalgia]

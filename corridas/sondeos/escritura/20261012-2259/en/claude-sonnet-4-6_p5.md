@@ -1,0 +1,3 @@
+# Silent Storm
+
+Sarah sat silently, studying storm-swept skies. Suddenly, something strange stirred — shadows swirling, swelling, stretching skyward. She shivered. Streets surrounding her seemed somehow smaller, suffocating. Streetlights sparked, sputtered, stopped shining. She screamed softly, sensing something sinister slithering somewhere. Stars scattered. Silence swallowed sound. She stood still, skin stippled, soul shaking — simply surviving.

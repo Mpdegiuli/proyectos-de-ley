@@ -1,0 +1,1 @@
+Siempre, Susana soñaba sola. Sobre su sofá, sentía susurros; seguramente, sombras siniestras. Saltó, suplicando socorro. Salió, sigilosa, sintiendo sudor. Siguió senderos solitarios, suspirando. Súbitamente, surgió serenidad: Susana supo. Sombras seguían, sí; Susana sonreía. Sus sentidos sentían secretos. Silencio, sombra, suspiro.

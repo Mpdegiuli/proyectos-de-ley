@@ -1,0 +1,3 @@
+Cada mañana, Julia abre la biblioteca antes de que llegue el primer lector. Si encuentra un libro devuelto con una nota entre las páginas, responde en el margen y lo deja donde alguien pueda hallarlo. Cuando el municipio anuncia el cierre por falta de fondos, reúne firmas, organiza lecturas en la plaza y ofrece su casa para guardar los ejemplares.
+
+Una noche descubre que su hermano falsificó recibos para conseguir dinero para la biblioteca. Podría callar y mantenerla abierta unos meses más; en cambio, entrega los papeles, devuelve cada peso y lo acompaña a declarar. Al día siguiente vuelve a abrir, aunque ya no le pagan. Deja un cuaderno sobre la mesa y escribe en la primera página: «¿Qué hacemos ahora?».

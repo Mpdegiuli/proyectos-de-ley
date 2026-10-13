@@ -1,0 +1,3 @@
+A yellowed photograph whose edges soften into fog. Salt crusted on the rim of a half-finished cup. Old velvet pressed between pages like a flower, the color bled but the shape still there. Lamplight pooling on hands that aren't in the room. Smoke curling from a candle just snuffed, warm wax still holding the impression of a wick. The hum of a tune in an empty hallway. Cool tile under bare feet, a door always half-open. Cinnabar dust at the bottom of a drawer. A single glove found in spring.
+
+[saudade]

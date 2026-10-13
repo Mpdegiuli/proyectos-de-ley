@@ -1,0 +1,3 @@
+**Sailing South**
+
+Sam's small ship sank somewhere south. Swimming, Sam spotted sandy shores. Struggling, stormy seas swept seaweed sideways. "Survive!" Sam screamed, seizing soggy supplies floating past. Slowly, strength returned. Sandy beaches beckoned beautifully. Finally, Sam stood, shaking, soaking wet, smiling slightly. Six sunrises later, sailors spotted Sam's signal smoke, saving the stranded sailor. "Such splendid salvation!" Sam shouted, sailing safely seaward, seeking sunnier scenarios.

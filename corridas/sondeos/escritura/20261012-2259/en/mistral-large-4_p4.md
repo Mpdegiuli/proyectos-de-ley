@@ -1,0 +1,3 @@
+Dust motes suspended in amber afternoon light, each particle a ghost of a presence that has settled elsewhere. The grain of an old photograph, silver halide dissolving into blue-grey static. A window frosting over from the inside, obscuring the garden beyond into watercolor smears. The sag of a coat left hanging on a hook, sleeves still curved like empty arms. Salt crusts forming on stone, white blooms of absence crystallizing on brick. The blur where two colors meet on a wet canvas, neither fully themselves nor yet blended. A room filled with furniture covered in white sheets, the outlines soft and indistinct, rising and falling with a motion that isn't there.
+
+[saudade]

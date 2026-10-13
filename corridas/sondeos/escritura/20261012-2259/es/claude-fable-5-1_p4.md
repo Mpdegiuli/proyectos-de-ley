@@ -1,0 +1,3 @@
+Es una fotografía sepia que alguien dejó al sol demasiado tiempo: los bordes se curvan hacia adentro, como queriendo abrazarse. Tiene la textura del terciopelo gastado en el brazo de un sillón, suave justo donde más se apoyó el cuerpo. Es luz de tarde entrando por una persiana que ya no existe, dibujando rayas sobre un piso de madera que alguien barre en otra ciudad. Un vidrio empañado donde quedó la marca de una mano pequeña; afuera la calle sigue, pero adentro todo es lana húmeda y miga de pan. Es tibia como el polvo que flota en un rayo de sol: no se puede agarrar, pero brilla mientras cae.
+
+[Nostalgia]

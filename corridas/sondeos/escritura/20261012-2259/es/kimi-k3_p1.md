@@ -1,0 +1,3 @@
+Cada mañana, Vera deja un sobre con plata debajo de la puerta de su hermana, aunque hace tres años que no se hablan. Llega al trabajo veinte minutos antes para apagar las luces que nadie apagó. Cuando le ofrecieron el ascenso, pidió veinticuatro horas para pensarlo; usó once para consultar con la gente que iba a quedar a su cargo. Devuelve los changuitos del supermercado, incluso los ajenos. Escribe cartas que guarda en una lata de galletitas y nunca envía. Una vez encontró una billetera con dos mil pesos: la devolvió entera, pero se quedó en la esquina para ver si el dueño sonreía. No sonrió. Vera siguió esperando igual. Decide despacio y perdona rápido. De noche no apaga el teléfono, por si alguien, alguna vez, necesita que conteste.
+
+(129 palabras)

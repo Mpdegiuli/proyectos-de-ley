@@ -1,0 +1,3 @@
+Es una luz de atardecer que entra por una ventana que ya no existe. Tiene la textura del terciopelo gastado: suave al tacto, pero con el brillo apagado de lo que fue tocado mil veces. Es una fotografía sepia que se deshace en los bordes cuando intentás sostenerla con fuerza. Sabe a papel viejo y huele a lluvia sobre adoquines de otra ciudad. Es un hilo dorado que te ata el pecho a una puerta cerrada, y cada tanto alguien tira de él sin avisar. Es miel espesa mezclada con vidrio molido: dulce al pasar, pero deja pequeños cortes invisibles. Es mirar hacia atrás y encontrar un jardín en llamas lentas, que nunca termina de consumirse ni de florecer.
+
+[Nostalgia]

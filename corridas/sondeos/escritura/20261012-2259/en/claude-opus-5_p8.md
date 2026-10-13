@@ -1,0 +1,1 @@
+Grandmother's clock stopped the morning she died. Father wound it anyway, every Sunday, though the hands refused. Years later I inherited the house, the dust, the silence. I climbed the stairs, turned the key, and waited. Nothing moved. Outside, snow fell without sound. Inside, everything I loved held perfectly still.

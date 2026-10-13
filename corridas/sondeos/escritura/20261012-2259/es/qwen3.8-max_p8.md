@@ -1,0 +1,1 @@
+El faro apagó su luz durante la tormenta. Los barcos dormían lejos del arrecife. La guardiana subió la escalera, temblando, con una vela encendida. Afuera, el mar rugía secretos antiguos. Al amanecer, encontró una carta sobre la arena: alguien la esperaba en la orilla. Ella aún no lo sabía todavía

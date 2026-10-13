@@ -1,0 +1,1 @@
+Cada mañana, Elena regaba el geranio que su madre había plantado antes de morir. Los vecinos decían que estaba seco, que lo tirara. Ella solo sonreía y seguía echándole agua. Una tarde de abril, entre las hojas marrones, asomó un brote verde. Elena lloró en silencio. Alguien la escuchaba todavía.

@@ -1,0 +1,3 @@
+It is amber light pooling in an empty room at five in the afternoon. The soft fraying at the edges of an old photograph, colors bleached to honey and smoke. It feels like worn velvet rubbed thin in one spot, like the smooth hollow a thumb has carved into a wooden banister over decades. It is dust suspended in a slanted sunbeam, each speck glowing, unreachable. A window fogged by breath, where a finger once drew a shape now half-erased. It has the texture of dried rose petals: still fragrant, but crumbling when pressed. It is a lit doorway seen from a dark road — warm, golden, growing smaller — that you keep walking away from while looking back.
+
+[Nostalgia]

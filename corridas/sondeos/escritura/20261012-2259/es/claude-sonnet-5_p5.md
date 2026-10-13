@@ -1,0 +1,3 @@
+**Cuento con "C"**
+
+Camila caminaba cansada, cargando cajas coloridas. Cerca, Carlos contemplaba calladamente, curioso, comparando colores, contando cada caja cuidadosamente. Carmen, curiosa, comentó: «Camila, ¿cuántas cajas cargas?». Camila contestó: «Catorce cajas, Carmen, con caramelos costosos». Carlos, cómplice, colaboró cargando cuatro cajas. Caminaron contentos, charlando, compartiendo confidencias, construyendo cariño constante. Cerca, cayó crepúsculo cálido, coloreando cielos carmesí, cerrando cordialmente ciertamente conmovedor capítulo cotidiano.

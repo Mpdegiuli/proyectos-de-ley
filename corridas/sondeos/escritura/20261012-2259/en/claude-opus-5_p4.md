@@ -1,0 +1,3 @@
+Every wall of the room has turned to glass, and all the light points inward. Skin like a peach held too long in a hot hand: the bruise blooming under the fuzz before anyone presses. Velvet stroked against its nap, rasping the palm. A photograph developing too fast — the face surfacing darker than everything around it, the edges curling up out of the tray. Stone floor, no shoes. A red thread caught on a nail, so the whole garment unknits while it is still being worn. Mirrors down a corridor, each half a step behind, each offering the back of the head. Wet paper. The gray smear where the ink ran.
+
+[Shame]

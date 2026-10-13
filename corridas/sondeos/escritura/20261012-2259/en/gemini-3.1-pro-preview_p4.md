@@ -1,0 +1,3 @@
+A honey-colored sunbeam illuminating suspended dust motes inside a sealed glass jar. It is the texture of ribbed corduroy rubbed completely smooth, and the curling, brittle edges of a sun-bleached photograph. It is the sight of peeling, dry wallpaper pulling away to reveal shimmering, crushed golden velvet beneath—soft beneath the fingertips but tearing under the slightest weight. It is translucent, paper-thin flower petals pressed between heavy, deckle-edged parchment, their pigment washed out but their skeletal veins perfectly intact. It is a heavy brass locket, tarnished green, resting on a bed of cold, gray ash, while a single, slow-burning ember reflects a warm, flickering orange light across its scratched metal surface.
+
+[Nostalgia]

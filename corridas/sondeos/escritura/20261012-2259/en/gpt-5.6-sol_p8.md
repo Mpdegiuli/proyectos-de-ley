@@ -1,0 +1,1 @@
+At dawn, Mira found the town’s clocks racing backward. Everyone hurried to relive yesterday, correcting cruelties, reclaiming kisses, preventing farewells. She alone walked forward, carrying tomorrow’s unopened letter. At midnight, time shuddered, chose its direction, and left her beside the river, waiting, hopeful, beneath the stars finally gone still.

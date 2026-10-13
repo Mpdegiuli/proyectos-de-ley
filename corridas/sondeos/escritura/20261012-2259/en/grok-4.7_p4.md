@@ -1,0 +1,3 @@
+A curtain the color of weak tea, sun-faded along one fold so the weave shows through like a thin scar. Dust motes turning slowly in a shaft the thickness of honey. The nap of an armchair rubbed bald where a hand always rested, still deep and dark in the corners. Paper gone brittle at the creases, ink softened to the brown of old river water. A mirror silvered in patches, returning a face soft at the edges and slightly wrong in the mouth. Rain beading on a pane, each drop holding a tiny inverted street that will not stay.
+
+[nostalgia]

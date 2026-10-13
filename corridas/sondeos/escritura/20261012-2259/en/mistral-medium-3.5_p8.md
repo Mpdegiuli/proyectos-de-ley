@@ -1,0 +1,1 @@
+In a quiet village, an old clock tower stood tall. One day, it stopped ticking. The villagers tried to fix it, but it remained silent. Years passed, and the tower became a symbol of the past. Yet, the hands of the clock remained frozen, pointing to the exact time it stopped, still.

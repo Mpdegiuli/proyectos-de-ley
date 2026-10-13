@@ -1,0 +1,3 @@
+**Silent Snow**
+
+Silent snow smothered Sweden's shoreline. Sailor Sven searched seaward, scanning sullen swells. Suddenly, strange shapes surfaced — seals? Sharks? Seven shadowy silhouettes slid speedily shoreward. Sven stiffened, seized shotgun, stepped sideways. Soon swimmers staggered shallows: shipwrecked strangers, soaked, shivering, screaming. Sven sighed, sheathed suspicion, summoned stretchers. Sheltered, supping steaming stew, survivors sobbed sincerest sentiments. Sven simply smiled, serving seconds. Strangers sometimes seem sinister; still, sympathy saves souls.

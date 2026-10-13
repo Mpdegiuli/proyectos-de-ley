@@ -1,0 +1,1 @@
+The raging storm battered our tiny wooden cabin all night long. Wind howled through the broken windows, and thunder shook the ground beneath our trembling feet. We huddled together in the dark, praying for morning. Dawn slowly broke, casting golden light across the ruined valley. Everything was now perfectly still.

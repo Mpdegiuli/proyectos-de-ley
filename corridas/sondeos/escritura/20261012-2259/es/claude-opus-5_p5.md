@@ -1,0 +1,3 @@
+**Pesadillas persistentes**
+
+Pedro padecía pesadillas. Pequeños perros pardos perseguían palomas por patios polvorientos. Plegarias, pastillas, psicólogos: poco pudo paliar pánico profundo. Para procurar paz, Pedro partió. Peregrinó pueblos, puertos, páramos pedregosos. Pasaron primaveras. Pedro pintó paisajes, plantó pinos, perdonó pasados. Pero persisten perros pardos persiguiendo palomas, porque pesadillas prefieren permanecer. Pedro pinta. Pedro planta. Pedro persevera.

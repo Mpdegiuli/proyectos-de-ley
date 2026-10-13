@@ -1,0 +1,1 @@
+La abuela dejó una taza junto a la ventana antes de desaparecer. Cada invierno, Clara la llenaba de chocolate y esperaba. Una noche, encontró dos huellas pequeñas sobre la nieve y una nota escrita con su letra: No cierres la puerta. Hay caminos que no terminan y regresos pendientes todavía

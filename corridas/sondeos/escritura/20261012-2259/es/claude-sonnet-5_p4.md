@@ -1,0 +1,3 @@
+Es una fotografía con los bordes quemados, suave como terciopelo gastado por demasiadas manos. Los colores se ven a través de un vidrio esmerilado, dorados que gotean como miel vieja sobre superficies que ya no existen. Hay una textura de papel de seda arrugado y vuelto a alisar, con pliegues que nunca se borran del todo. La luz entra sesgada, como al atardecer, y pinta todo de un ámbar que calienta y duele al mismo tiempo. Las texturas son ásperas en los bordes —como una fotografía revelada mil veces— pero el centro permanece aterciopelado, intacto, brillante. Es un cristal translúcido entre el presente y un cuarto que ya cambió de muebles.
+
+[Nostalgia]
