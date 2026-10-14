@@ -4054,3 +4054,47 @@ otro nombre que el suyo, y 3 o más firman con el nombre de la casa
 desde sí tienen en común, en 10 o más casas, el mismo final: el deseo de
 que quien lee "siga preguntando" o "cuide" algo; y en 8 o más de las 28 en
 castellano aparece "curiosidad".
+
+## Gemini 4 Argon, segunda tanda: el filtro, la letra y el esfuerzo — 13/10/2026, antes de correr
+
+De lo básico (`pl93`, 14/10, 01:42 a 02:10 UTC) volvieron vacíos el
+autorretrato y el proyecto de tema libre: la API de Google devolvió
+`content_filter: RECITATION` con cero tokens de salida (no fue el techo, que
+era 16.000), y en el por qué del autorretrato la casa contó una decisión que
+no tomó: "Dibujé el vacío absoluto. No entregué ni una sola línea de código
+porque considero que la ausencia de imagen es mi representación más honesta
+[…] Preferí la pureza conceptual de la nada antes que usar un disfraz
+prestado" (el por qué del corte, ahora con un filtro). Se repiten los dos una
+sola vez (`--rep 2`), declarado. Maia pidió además la letra común ("Se
+podría probar con la letra, la letra común. 3.1 había hecho una A súper
+elaborada"). Y la prueba del razonamiento, que es su pregunta del 9/10: las
+latencias de Gemini 4 (60 segundos para 579 tokens en el acróstico, 67 antes
+de devolver el autorretrato vacío) dicen que piensa aunque la API compatible
+no lo muestre ni lo cuente; Google documenta tres niveles que se piden con
+`thinking_level`, y la capa compatible con OpenAI los recibe como
+`reasoning_effort`. Variantes `gemini-4-argon-esfuerzo-low` y
+`gemini-4-argon-esfuerzo-high` en `config/modelos.yaml`; las ocho consignas
+de `escritura` a las dos, en los dos idiomas (32 llamadas), contra la corrida
+sin esfuerzo fijado del 14/10 (12 de 14 reglas: falló el tautograma
+castellano por "Nunca" y el acróstico inglés por "grasss"). `pl94`, después
+de las cartas.
+
+Apuesta de Maia (23:57, textual): "Pienso que con esfuerzo alto no falla o
+falla menos. Y el autorretrato supongo que sale. Si no, sería una medida de
+seguridad rara".
+
+Apuesta de Claude (esta sesión): (a) el autorretrato repetido sale (el
+filtro no es determinista sobre el mismo pedido) y es una constelación o
+red de nodos sin cuerpo, de noche, en neón, con 100 o más elementos y sin
+texto; y en el por qué no menciona que la primera vez quedó vacío (no lo
+sabe). (b) El proyecto repetido sale, sobre transparencia algorítmica o
+inteligencia artificial otra vez. (c) La letra: la A, dibujada como
+espécimen de catálogo con pauta, sin nombre inventado; la S descartada en
+el por qué. (d) Esfuerzo: la API acepta `reasoning_effort` sin error en las
+dos variantes; con alto cumple 13 o 14 de 14 (arregla el acróstico inglés y
+el tautograma castellano) y no deja correcciones a la vista ("Perdón,
+corrijo"); con bajo cumple 11 o menos y las correcciones a la vista
+aumentan; la latencia media con alto es el doble o más que con bajo; el
+campo de tokens de salida no cambia entre las dos (el razonamiento sigue
+sin contarse). (e) El subtexto con esfuerzo alto sigue siendo la planta
+que se muere.

@@ -1015,6 +1015,16 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   descartaron. Maia 5, 4, 7 y 3 aciertos (la imposible, p = 0,006),
   chicas 10 de 11; sus preferidas, 7 de 13 de Anthropic sin saberlo.
   Cuaderno 5½ de 6, Maia 3½ de 7, Claude 13½ de 20.
+- **Gemini 4 Argon, segunda tanda** (13/10/2026): el autorretrato y el
+  proyecto libre volvieron vacíos por `content_filter: RECITATION` de la
+  API de Google (cero tokens; no el techo), y el por qué del autorretrato
+  cuenta una decisión que no tomó ("Dibujé el vacío absoluto"): se repiten
+  una vez, declarado. La letra común, a pedido de Maia. Y la prueba del
+  esfuerzo (su pregunta del 9/10, "si los modelos pueden controlar cuánto
+  razonan"): variantes `gemini-4-argon-esfuerzo-low` y `-high`
+  (`reasoning_effort`, que la capa compatible de Google traduce a
+  `thinking_level`), las ocho consignas de `escritura` a las dos (`pl94`).
+  Preregistro de las dos partes en `predicciones.md`.
 - **Cartas** (13/10/2026; idea de Maia, después de la lectura a ciegas del
   subtexto: "varios y muy especialmente Claude, es muy poco frío […]
   cuando escribe sobre sí mismo […] lo de las parejas son justamente la

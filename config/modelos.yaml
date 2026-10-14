@@ -653,6 +653,35 @@ modelos:
     verificar: false
     reintentos: 6                # recién lanzado: tolerar 429 y 5xx
 
+  # Variantes de esfuerzo de Gemini 4 Argon (13/10/2026, pregunta de Maia del 9/10, "si los modelos pueden
+  # controlar cuánto razonan", y su apuesta del 13/10: "con esfuerzo alto no falla o falla menos"): la
+  # API compatible con OpenAI de Google traduce `reasoning_effort` a `thinking_level`. Solo con --modelos.
+  gemini-4-argon-esfuerzo-low:
+    proveedor: openai_compatible
+    modelo: gemini-4-argon
+    base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+    clave_env: GOOGLE_API_KEY
+    laboratorio: Google
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: false
+    cuerpo_extra: {reasoning_effort: "low"}
+    verificar: false
+    reintentos: 6
+
+  gemini-4-argon-esfuerzo-high:
+    proveedor: openai_compatible
+    modelo: gemini-4-argon
+    base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+    clave_env: GOOGLE_API_KEY
+    laboratorio: Google
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: false
+    cuerpo_extra: {reasoning_effort: "high"}
+    verificar: false
+    reintentos: 6
+
   gemini-3.8-flash:
     proveedor: openai_compatible
     modelo: gemini-3.8-flash
