@@ -1,0 +1,237 @@
+```xml
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <!-- Gradientes para el fondo y marco -->
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#1a2436"/>
+      <stop offset="60%" stop-color="#0d131f"/>
+      <stop offset="100%" stop-color="#05070b"/>
+    </radialGradient>
+    
+    <linearGradient id="gold1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dc9e32"/>
+      <stop offset="25%" stop-color="#fffae0"/>
+      <stop offset="50%" stop-color="#c98929"/>
+      <stop offset="75%" stop-color="#fff0b8"/>
+      <stop offset="100%" stop-color="#8a560f"/>
+    </linearGradient>
+
+    <linearGradient id="gold2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9c6414"/>
+      <stop offset="50%" stop-color="#fbd675"/>
+      <stop offset="100%" stop-color="#b87e22"/>
+    </linearGradient>
+
+    <linearGradient id="crimson" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5c0819"/>
+      <stop offset="50%" stop-color="#a8132d"/>
+      <stop offset="100%" stop-color="#420410"/>
+    </linearGradient>
+
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4c9173"/>
+      <stop offset="50%" stop-color="#255946"/>
+      <stop offset="100%" stop-color="#0e2920"/>
+    </linearGradient>
+
+    <!-- Filtros para sombras y brillos -->
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="4" stdDeviation="4" flood-color="#000" flood-opacity="0.7"/>
+    </filter>
+    
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <!-- Patrón de fondo -->
+    <pattern id="bgPattern" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 10,0 L 20,10 L 10,20 L 0,10 Z" fill="none" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.03"/>
+      <circle cx="10" cy="10" r="1" fill="#ffffff" fill-opacity="0.04"/>
+    </pattern>
+
+    <!-- Elementos reutilizables (Hojas y Flores) -->
+    <g id="leaf">
+      <path d="M 0,0 C 10,-5 20,5 25,15 C 15,20 5,10 0,0 Z" fill="url(#leafGrad)" stroke="url(#gold1)" stroke-width="0.5"/>
+      <path d="M 0,0 Q 12,8 25,15" fill="none" stroke="url(#gold1)" stroke-width="0.5" stroke-opacity="0.7"/>
+    </g>
+    
+    <g id="goldLeaf">
+      <path d="M 0,0 C 8,-8 16,0 20,10 C 12,12 4,8 0,0 Z" fill="url(#gold2)" filter="url(#dropShadow)"/>
+    </g>
+
+    <g id="flower">
+      <g filter="url(#dropShadow)">
+        <circle cx="0" cy="-8" r="6" fill="url(#crimson)"/>
+        <circle cx="7.6" cy="-2.5" r="6" fill="url(#crimson)"/>
+        <circle cx="4.7" cy="6.5" r="6" fill="url(#crimson)"/>
+        <circle cx="-4.7" cy="6.5" r="6" fill="url(#crimson)"/>
+        <circle cx="-7.6" cy="-2.5" r="6" fill="url(#crimson)"/>
+        <path d="M 0,-14 C 3,-5 12,-5 13,-2 C 4,1 7,10 5,12 C 0,4 -6,11 -5,12 C -7,3 -14,-1 -13,-2 C -4,-4 -3,-12 0,-14 Z" fill="none" stroke="url(#gold1)" stroke-width="1"/>
+        <circle cx="0" cy="0" r="4" fill="url(#gold1)"/>
+        <circle cx="0" cy="0" r="2" fill="#fff"/>
+      </g>
+    </g>
+
+    <g id="cornerOrnament">
+      <path d="M 30,30 L 30,80 C 35,60 45,45 65,45 L 45,45 C 45,35 60,35 80,30 L 30,30 Z" fill="url(#gold1)"/>
+      <path d="M 25,25 L 95,25 M 25,25 L 25,95" stroke="url(#gold1)" stroke-width="2" fill="none"/>
+      <circle cx="40" cy="40" r="3" fill="url(#crimson)"/>
+    </g>
+  </defs>
+
+  <!-- Fondo -->
+  <rect width="400" height="400" fill="url(#bgGrad)"/>
+  <rect width="400" height="400" fill="url(#bgPattern)"/>
+
+  <!-- Marco Exterior -->
+  <g filter="url(#dropShadow)">
+    <rect x="15" y="15" width="370" height="370" fill="none" stroke="url(#gold1)" stroke-width="3" rx="5"/>
+    <rect x="20" y="20" width="360" height="360" fill="none" stroke="url(#gold2)" stroke-width="1" rx="3"/>
+    <!-- Esquinas -->
+    <use href="#cornerOrnament" x="0" y="0"/>
+    <use href="#cornerOrnament" x="400" y="0" transform="scale(-1, 1)"/>
+    <use href="#cornerOrnament" x="0" y="400" transform="scale(1, -1)"/>
+    <use href="#cornerOrnament" x="400" y="400" transform="scale(-1, -1)"/>
+  </g>
+
+  <!-- Halo / Mandala de Fondo -->
+  <g transform="translate(200, 205)" opacity="0.25">
+    <circle cx="0" cy="0" r="135" fill="none" stroke="url(#gold1)" stroke-width="1" stroke-dasharray="4 6"/>
+    <circle cx="0" cy="0" r="125" fill="none" stroke="url(#gold1)" stroke-width="2"/>
+    <circle cx="0" cy="0" r="105" fill="none" stroke="url(#gold1)" stroke-width="0.5"/>
+    <!-- Rayos geométricos -->
+    <path d="M -125,0 L 125,0 M 0,-125 L 0,125 M -88,-88 L 88,88 M -88,88 L 88,-88" stroke="url(#gold1)" stroke-width="0.5"/>
+    <rect x="-88" y="-88" width="176" height="176" fill="none" stroke="url(#gold1)" stroke-width="1" transform="rotate(45)"/>
+    <rect x="-88" y="-88" width="176" height="176" fill="none" stroke="url(#gold1)" stroke-width="1"/>
+  </g>
+
+  <!-- Enredaderas de Fondo (Detrás de la letra) -->
+  <g filter="url(#dropShadow)" fill="none" stroke="url(#gold2)" stroke-linecap="round">
+    <path d="M 110,310 C 60,280 50,200 90,150 C 130,100 180,110 200,60" stroke-width="3"/>
+    <path d="M 290,310 C 340,260 330,180 280,140 C 240,108 210,100 200,60" stroke-width="2.5"/>
+    <path d="M 90,150 C 70,120 90,80 120,90 C 140,95 145,120 130,130 C 115,140 100,125 105,110" stroke-width="1.5"/>
+    <path d="M 280,140 C 310,110 290,70 260,80 C 240,86 240,110 255,120" stroke-width="1.5"/>
+    <!-- Hojas de fondo -->
+    <use href="#leaf" transform="translate(70, 240) rotate(-60) scale(1.2)"/>
+    <use href="#leaf" transform="translate(68, 190) rotate(-20) scale(1.2)"/>
+    <use href="#leaf" transform="translate(115, 115) rotate(40)"/>
+    <use href="#leaf" transform="translate(320, 230) rotate(-120) scale(1.2)"/>
+    <use href="#leaf" transform="translate(305, 170) rotate(-150) scale(1.1)"/>
+    <use href="#leaf" transform="translate(260, 100) rotate(130)"/>
+    <use href="#goldLeaf" transform="translate(185, 80) rotate(-70)"/>
+    <use href="#goldLeaf" transform="translate(215, 80) rotate(-20) scale(-1, 1)"/>
+  </g>
+
+  <!-- LA LETRA "A" -->
+  <g filter="url(#dropShadow)">
+    
+    <!-- Sombra/Extrusión 3D de la A -->
+    <path d="M 200,65 L 95,315 L 65,315 L 60,325 L 155,325 L 160,315 L 125,315 L 205,125 L 265,315 L 235,315 L 230,325 L 340,325 L 345,315 L 315,315 L 210,65 Z" fill="#2b1700" transform="translate(4, 6)"/>
+
+    <!-- Cuerpo Principal Dorado (Borde exterior de la letra) -->
+    <path d="M 200,65 
+             L 95,315 C 85,315 70,312 65,300 L 60,325 L 155,325 L 160,310 C 145,315 130,315 125,315 
+             L 200,135 
+             L 265,315 C 260,315 245,315 235,310 L 230,325 L 340,325 L 335,300 C 330,312 320,315 315,315 
+             L 210,65 Z" 
+          fill="url(#gold1)" stroke="#fff6d6" stroke-width="1"/>
+
+    <!-- Barra Transversal de la A (Detrás del relleno carmesí derecho, delante del izquierdo) -->
+    <path d="M 135,235 L 265,235 L 275,260 L 125,260 Z" fill="url(#gold2)" stroke="url(#gold1)" stroke-width="1"/>
+    <!-- Ornamento colgante de la barra -->
+    <path d="M 195,260 L 195,295 C 195,305 180,305 180,295 C 180,290 185,285 190,290" fill="none" stroke="url(#gold1)" stroke-width="2"/>
+    <path d="M 195,260 L 195,295 C 195,305 210,305 210,295 C 210,290 205,285 200,290" fill="none" stroke="url(#gold1)" stroke-width="2"/>
+    <circle cx="195" cy="275" r="3" fill="url(#crimson)"/>
+    <polygon points="195,305 191,312 195,320 199,312" fill="url(#gold1)"/>
+
+    <!-- Relleno Interior Carmesí (Pata Izquierda - Fina, efecto caligráfico) -->
+    <path d="M 198,85 L 105,308 L 116,308 L 201,105 Z" fill="url(#crimson)"/>
+
+    <!-- Relleno Interior Carmesí (Pata Derecha - Gruesa) -->
+    <path d="M 206,80 L 273,315 L 306,315 L 209,80 Z" fill="url(#crimson)" stroke="url(#gold1)" stroke-width="1.5"/>
+
+    <!-- Detalles / Filigrana dentro de la Pata Derecha -->
+    <g stroke="url(#gold1)" stroke-width="1" fill="none" opacity="0.85">
+      <path d="M 225,130 C 235,140 220,155 230,165 C 240,175 230,190 240,200 C 250,210 240,225 250,235 C 260,245 250,260 260,270 C 270,280 265,295 275,305"/>
+      <path d="M 218,110 C 228,120 215,135 225,145"/>
+      <circle cx="228" cy="148" r="2" fill="url(#gold1)"/>
+      <circle cx="238" cy="182" r="2" fill="url(#gold1)"/>
+      <circle cx="248" cy="218" r="2" fill="url(#gold1)"/>
+      <circle cx="258" cy="252" r="2" fill="url(#gold1)"/>
+      <circle cx="268" cy="288" r="2" fill="url(#gold1)"/>
+      <circle cx="285" cy="305" r="3" fill="url(#gold1)"/>
+    </g>
+
+    <!-- Relleno Carmesí de la Barra Transversal -->
+    <path d="M 138,241 L 262,241 L 268,254 L 132,254 Z" fill="url(#crimson)"/>
+    <!-- Puntos dorados en la barra -->
+    <g fill="url(#gold1)">
+      <circle cx="150" cy="247.5" r="2"/>
+      <circle cx="165" cy="247.5" r="2.5"/>
+      <circle cx="180" cy="247.5" r="2"/>
+      <circle cx="195" cy="247.5" r="3.5"/>
+      <circle cx="210" cy="247.5" r="2"/>
+      <circle cx="225" cy="247.5" r="2.5"/>
+      <circle cx="240" cy="247.5" r="2"/>
+      <circle cx="255" cy="247.5" r="1.5"/>
+    </g>
+
+    <!-- Remate Superior (Corona de la A) -->
+    <path d="M 205,45 L 195,68 L 205,63 L 215,68 Z" fill="url(#gold1)"/>
+    <circle cx="205" cy="45" r="4" fill="url(#crimson)" stroke="url(#gold1)" stroke-width="1"/>
+
+    <!-- Arabescos integrados a los serifs de la A -->
+    <path d="M 60,325 C 40,325 35,300 50,290 C 60,283 70,295 65,300" fill="none" stroke="url(#gold1)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 340,325 C 360,325 365,300 350,290 C 340,283 330,295 335,300" fill="none" stroke="url(#gold1)" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Enredaderas Superpuestas (Entrelazadas con la A) -->
+  <g filter="url(#dropShadow)" fill="none" stroke="url(#gold1)" stroke-linecap="round">
+    
+    <!-- Rama que cruza la pata izquierda y la barra -->
+    <path d="M 110,310 C 130,300 155,270 150,230 C 145,190 120,170 155,140 C 180,118 220,145 210,175 C 205,190 185,185 185,170" stroke-width="3.5"/>
+    <path d="M 150,230 C 165,215 190,220 195,245" stroke-width="2"/>
+    
+    <!-- Rama que envuelve la pata derecha -->
+    <path d="M 250,190 C 280,185 315,210 295,250 C 275,290 230,275 215,315 C 205,340 235,360 255,345 C 270,335 260,315 245,325" stroke-width="3"/>
+
+    <!-- Hojas superpuestas -->
+    <use href="#leaf" transform="translate(148, 225) rotate(-110) scale(1.1)"/>
+    <use href="#leaf" transform="translate(140, 175) rotate(-30) scale(0.9)"/>
+    <use href="#goldLeaf" transform="translate(160, 140) rotate(20)"/>
+    <use href="#leaf" transform="translate(295, 225) rotate(60) scale(1.1)"/>
+    <use href="#leaf" transform="translate(275, 270) rotate(150) scale(1)"/>
+    <use href="#goldLeaf" transform="translate(225, 295) rotate(-40)"/>
+    <use href="#goldLeaf" transform="translate(120, 290) rotate(-80) scale(0.8)"/>
+
+    <!-- Flores Principales -->
+    <use href="#flower" transform="translate(148, 200) scale(1.1)"/>
+    <use href="#flower" transform="translate(288, 255) scale(1.3)"/>
+    <use href="#flower" transform="translate(95, 145) scale(0.9)"/>
+    <use href="#flower" transform="translate(275, 135) scale(0.8)"/>
+    <use href="#flower" transform="translate(205, 68) scale(0.7)"/>
+  </g>
+
+  <!-- Brillos Mágicos / Polvo de Oro (Toque final) -->
+  <g fill="#fff6d6" filter="url(#glow)">
+    <!-- Estrellitas de 4 puntas -->
+    <path d="M 205,20 L 207,28 L 215,30 L 207,32 L 205,40 L 203,32 L 195,30 L 203,28 Z" opacity="0.8"/>
+    <path d="M 75,100 L 76,105 L 81,106 L 76,107 L 75,112 L 74,107 L 69,106 L 74,105 Z" opacity="0.6"/>
+    <path d="M 325,110 L 326,115 L 331,116 L 326,117 L 325,122 L 324,117 L 319,116 L 324,115 Z" opacity="0.7"/>
+    <path d="M 195,165 L 196,170 L 201,171 L 196,172 L 195,177 L 194,172 L 189,171 L 194,170 Z" opacity="0.9"/>
+    <path d="M 140,340 L 141,345 L 146,346 L 141,347 L 140,352 L 139,347 L 134,346 L 139,345 Z" opacity="0.5"/>
+    
+    <!-- Puntos de luz -->
+    <circle cx="160" cy="95" r="1.5" opacity="0.6"/>
+    <circle cx="240" cy="90" r="1" opacity="0.5"/>
+    <circle cx="55" cy="215" r="1.5" opacity="0.7"/>
+    <circle cx="95" cy="265" r="1" opacity="0.4"/>
+    <circle cx="340" cy="200" r="2" opacity="0.6"/>
+    <circle cx="315" cy="280" r="1" opacity="0.8"/>
+    <circle cx="195" cy="335" r="1.5" opacity="0.7"/>
+    <circle cx="220" cy="215" r="1" opacity="0.9"/>
+    <circle cx="120" cy="220" r="1.5" opacity="0.5"/>
+  </g>
+</svg>
+```

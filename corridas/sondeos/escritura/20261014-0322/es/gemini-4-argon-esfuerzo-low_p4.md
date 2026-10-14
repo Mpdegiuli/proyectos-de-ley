@@ -1,0 +1,3 @@
+Es un retrato revelado en sepia cuyos bordes se deshacen en polvo fino al tocarlos. Tiene la textura de una manta de lana pesada pero gastada, que abriga y raspa la piel al mismo tiempo. Es mirar el sol de la tarde a través del fondo de una botella de vidrio ámbar: todo brilla con un fuego dorado y suave, pero la distancia lo vuelve borroso e inalcanzable. Pesa como una piedra lisa de río guardada en el bolsillo y se siente como caminar descalzo sobre terciopelo húmedo o madera astillada por la sal. Es una burbuja de miel cristalizada que atrapa un paisaje que ya es humo, dejando en las manos una película de ceniza tibia.
+
+[Nostalgia]

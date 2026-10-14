@@ -1,0 +1,1 @@
+Heavy footsteps echoed down the dark hallway, getting closer to the closet. Sarah covered her mouth, praying the monster would not hear her pounding heart. Light seeped beneath the door as the shadow paused outside. A long claw scraped the wood. To survive the night, she had to remain still.

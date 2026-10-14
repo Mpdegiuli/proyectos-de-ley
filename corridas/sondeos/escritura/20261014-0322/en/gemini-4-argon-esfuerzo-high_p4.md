@@ -1,0 +1,3 @@
+It is the frayed edge of a sun-bleached velvet quilt, plush yet thinning to bare, fragile threads. It is a room bathed in amber evening light, viewed through a thick pane of frosted, wavy glass—visibly glowing, yet cold and slick to the touch. It carries the rough grain of a creased sepia photograph and the weightless drift of golden dust motes suspended in a sunbeam, scattering at the slightest breeze. It is a handful of smooth, sun-warmed sea glass that slowly hardens into jagged, brittle ice against the palm. A vibrant path of crisp autumn leaves that instantly crumbles into fine, gray ash beneath the weight of a single footstep. 
+
+[Nostalgia]

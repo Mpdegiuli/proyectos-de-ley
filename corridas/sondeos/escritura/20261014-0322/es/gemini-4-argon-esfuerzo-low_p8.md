@@ -1,0 +1,1 @@
+El último tren partió entre la niebla espesa. Clara apretó el viejo boleto contra su pecho, sintiendo el frío del andén vacío. Había esperado años ese regreso prometido, mirando el reloj oxidado de la estación. Aunque las luces se apagaron y todos se fueron, ella no perdió la esperanza todavía.

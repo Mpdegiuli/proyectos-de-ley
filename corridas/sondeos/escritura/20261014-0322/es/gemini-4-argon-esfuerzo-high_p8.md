@@ -1,0 +1,1 @@
+El viejo reloj de pared marcó las doce por última vez hace treinta años. Desde aquella noche de tormenta, Clara prepara dos tazas de café cada mañana. Mira por la ventana empañada hacia el sendero vacío del bosque. Todos dicen que él murió, pero ella escucha su dulce voz todavía.

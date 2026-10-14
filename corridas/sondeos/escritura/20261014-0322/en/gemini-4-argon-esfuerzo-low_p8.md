@@ -1,0 +1,1 @@
+The ferocious storm battered the fragile wooden cabin. Outside, ancient pine trees snapped like brittle twigs under the howling gale. Inside, Sarah huddled closely beside the dying embers, clutching her shivering dog. She closed her eyes, praying for morning. Suddenly, the deafening wind vanished, leaving the snowy forest completely still.

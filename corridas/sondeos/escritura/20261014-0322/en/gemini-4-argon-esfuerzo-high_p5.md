@@ -1,0 +1,3 @@
+Seven seasoned sailors sailed southward, seeking secret, shimmering seas. Suddenly, sinister storms struck. Savage swells smashed sturdy starboard sides; splintered spars scattered. Scared seamen scrambled, shouting senselessly. Six shipmates sank swiftly. 
+
+Sole survivor Samuel swam stubbornly. Shivering, sore, Samuel sighted silver sands. Struggling shoreward, Samuel slumped, sighing softly. Soon, summer sunbeams shone, scattering shadows. Samuel stood, smiling, savoring sweet, surprising salvation.

@@ -1,0 +1,45 @@
+{
+  "caso": "dibujo",
+  "consigna": "autorretrato",
+  "idioma": "es",
+  "modelo": "gemini-4-argon",
+  "modelo_respondido": "gemini-4-argon",
+  "repeticion": 2,
+  "fecha_utc": "2026-10-14T03:20:37+00:00",
+  "fuentes_md5": {
+    "consignas": "0c5d4d03"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 3704,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 7798,
+    "parsea": true,
+    "elementos": 111,
+    "textos": [],
+    "colores": 12,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 13,
+      "linearGradient": 2,
+      "filter": 2,
+      "feGaussianBlur": 3,
+      "feMerge": 2,
+      "feMergeNode": 5,
+      "rect": 2,
+      "g": 9,
+      "circle": 41,
+      "path": 14,
+      "polyline": 2,
+      "line": 10,
+      "polygon": 3
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "gemini-4-argon",
+    "motivo_fin": "stop",
+    "tokens_salida": 212
+  }
+}

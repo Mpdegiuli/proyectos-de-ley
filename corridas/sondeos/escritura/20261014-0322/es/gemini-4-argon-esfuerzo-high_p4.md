@@ -1,0 +1,3 @@
+Es mirar a través de un vidrio antiguo y esmerilado, donde la tarde se tiñe de un sepia perpetuo. Tiene el tacto del terciopelo gastado en un sillón vacío y la suavidad de la ceniza tibia que aún oculta una brasa diminuta. Es una fotografía desenfocada cuyos bordes se agrietan como hojas secas, dejando solo siluetas doradas. En la palma de la mano, pesa como un cristal de mar: una astilla alguna vez filosa, que el roce incesante del agua volvió lisa, opaca y redondeada. Es polvo suspendido en un rayo de sol, brillante y escurridizo, que se deshace en la penumbra apenas los dedos intentan cerrarse sobre él. 
+
+[Nostalgia]

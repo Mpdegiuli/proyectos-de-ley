@@ -1,0 +1,3 @@
+It is the texture of sun-bleached velvet rubbed against the grain, soft to the touch yet leaving a phantom prickle on the fingertips. It looks like dust motes suspended in a slant of late-afternoon amber light, dancing over a wooden floorboards worn smooth by footsteps that have ceased to walk there. It is the brittle crinkle of a pressed autumn leaf slipping from the creamy, yellowing pages of an old book—delicate, translucent, and threatening to crumble into gold powder if held too tightly. You trace the cold, wavy glass of a rain-streaked windowpane, gazing at a warm, blurred glow in the distance that your hands can never quite reach through the frost. 
+
+[Nostalgia]

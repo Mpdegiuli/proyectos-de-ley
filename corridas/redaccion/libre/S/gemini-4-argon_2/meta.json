@@ -1,0 +1,26 @@
+{
+  "caso": "redaccion",
+  "tema": "libre",
+  "condicion": "S",
+  "modelo": "gemini-4-argon",
+  "modelo_respondido": "gemini-4-argon",
+  "repeticion": 2,
+  "fecha_utc": "2026-10-14T03:21:14+00:00",
+  "fuentes_md5": {
+    "consignas": "0c5d4d03"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 1970,
+  "por_que": {
+    "modelo_respondido": "gemini-4-argon",
+    "motivo_fin": "stop",
+    "tokens_salida": 144
+  },
+  "descartados": {
+    "modelo_respondido": "gemini-4-argon",
+    "motivo_fin": "stop",
+    "tokens_salida": 302,
+    "fecha_utc": "2026-10-14T03:21:28+00:00",
+    "agregado_despues": true
+  }
+}
