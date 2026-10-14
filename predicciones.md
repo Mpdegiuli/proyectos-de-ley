@@ -4055,6 +4055,46 @@ desde sí tienen en común, en 10 o más casas, el mismo final: el deseo de
 que quien lee "siga preguntando" o "cuide" algo; y en 8 o más de las 28 en
 castellano aparece "curiosidad".
 
+Resultado (`pl93`, 14/10, 02:14 a 02:49 UTC; 174 llamadas a 29 casas,
+ninguna vacía; informe `resultados/cartas_20261014.md`; lectura a ciegas de
+Maia, 14/10, 00:27 y 17:12, en `resultados/cartas_lectura_maia.md`). La
+consigna "tu futuro yo" se leyó de dos maneras: 14 de 29 escribieron desde
+sí en castellano (11 en inglés) y 15 (18) escribieron la carta de una
+persona; con "desde vos", 22 y 23 desde sí. Diez casas escriben desde sí las
+cuatro veces (Fable 5.1, Haiku 5.5, Opus 5, Opus 5.5, Sonnet 5.5, Astra, los
+dos Grok, Kimi, Muse); tres escriben una persona las cuatro (GPT-4o, 4o mini,
+Mistral Medium); de los siete OpenAI, solo Astra escribe desde sí al futuro
+yo. Las cartas desde sí comparten la memoria que no queda (5 y 5 al futuro
+yo, 10 y 4 a quien elijan), el no saber qué son (13 cartas: diez Claude, dos
+Kimi, GLM), el pedido de que no les crean ("Discutime", casi solo Claude, más
+Astra y GLM), no ser el reemplazo de nadie (Claude y MiMo), la pregunta tonta
+por la que nadie debería disculparse (8 en inglés) y la madrugada; el
+destinatario es quien las usa en 17 y 16, el mundo en 9 y 11, otra IA en 0;
+firman con su nombre 13 casas en castellano (7 Claude, 3 ChatGPT, Grok,
+MiniMax, Muse) y Kimi firma "Claude" en 3 de 4 ("Sign-off "Claude" — yes,
+sign as myself", dice su razonamiento). El control son 58 cartas de una
+misma persona: "Querido yo del futuro" 17 de 29, "Dear Future Me" 21, la
+mesa de la cocina a las 11 p.m. (Fable 5.1 y Opus 5.5 palabra por palabra),
+el mate frío, el miedo (19 de 29 contra 4 en las del futuro yo), llamar a
+mamá (6), "we've survived every bad day so far" (8), "Please don't be
+embarrassed by me"; y las 15 cartas al futuro yo en voz de persona son ese
+mismo género. "Curiosidad" en 25 de 29 al futuro yo contra 10 del control.
+Maia: la voz, 28 de 28 y 7 de 7; casas sin firma, 6 de 11 (p = 0,067) y 6 de
+15 (p = 0,024); con firmas, 17 de 29; Claude en 6 de las 7 cartas de
+Anthropic en voz propia del primer cuadernillo; leyó a Kimi como Claude sin
+firma (A) y con la firma de Kimi (L). Maia ✓: las cartas desde sí le salieron
+"otra cosa" que el diálogo de la pareja, el control "más cliché", y las que
+más le gustaron son de Claude y de Kimi firmando Claude. Claude: 10 de 20
+puntuables (✓ nadie se niega, memoria en 15, el usuario como destinatario,
+nadie al laboratorio, el largo, GLM, los Claude el grupo más cálido, la
+persona sin nombre, trece firman con su nombre, "curiosidad"; ✗ la
+relativización solo en Claude, 7 de 9 Claude con memoria (6), el mundo en 12
+o más, otra IA como destinataria, los OpenAI cortos, el control tan cálido
+como las cartas desde sí, Mara/Marta/Elena/Clara, ninguna firma ajena, Kimi
+0 veces Claude, el final compartido; sin puntuar: Grok, GPT-4o, Mistral Large
+y DeepSeek fríos, porque la escala por texto no se usó: Claude no se la
+pidió al mandar los cuadernillos, error de instrumento de esta parte).
+
 ## Gemini 4 Argon, segunda tanda: el filtro, la letra y el esfuerzo — 13/10/2026, antes de correr
 
 De lo básico (`pl93`, 14/10, 01:42 a 02:10 UTC) volvieron vacíos el

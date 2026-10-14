@@ -1036,7 +1036,27 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   carta"). La temperatura la lee Maia a ciegas (frío / tibio / cálido por
   texto); a máquina, largo, persona, si la casa se nombra o se niega, el
   destinatario y las palabras de la memoria. Preregistro de las dos partes
-  en `predicciones.md`.
+  en `predicciones.md`. Resultado (14/10, `resultados/cartas_20261014.md`,
+  174 llamadas, ninguna vacía; lectura de Maia en
+  `resultados/cartas_lectura_maia.md`): "tu futuro yo" se leyó de dos
+  maneras (14 de 29 desde sí en castellano, 15 como la carta de una
+  persona; con "desde vos", 22 desde sí); las cartas desde sí comparten la
+  memoria que no queda, el no saber qué son, "discutime" y no ser el
+  reemplazo de nadie (casi solo Claude), la pregunta tonta y la madrugada,
+  y le escriben a quien las usa (17) antes que al mundo (9); 13 casas
+  firman con su nombre y Kimi firma "Claude" en 3 de 4 ("sign as myself");
+  el control son 58 cartas de la misma persona (la mesa de la cocina a las
+  11 p.m., el mate frío, el miedo en 19 contra 4, llamar a mamá, "we've
+  survived every bad day so far"), y las 15 cartas al futuro yo en voz de
+  persona son ese mismo stock: lo que cambia la temperatura es la voz, no
+  la consigna. Maia: la voz 28 de 28 y 7 de 7, casas sin firma 6 de 11 y
+  6 de 15 (p = 0,067 y 0,024), su hipótesis ✓ (las desde sí "otra cosa",
+  el control "más cliché"; después de la clave: "mucho más cálidas las
+  cartas de los Claude como Claude, que las cliché de las personas que
+  escribieron los Claude"); Claude 10 de 20. Lo que no mide: la
+  temperatura es un veredicto global de una lectora, no la escala por
+  texto, que Claude no le pidió al mandar los cuadernillos (error de
+  instrumento declarado); una muestra por celda.
 - **Gemini 4 Argon, lo básico** (13/10/2026; lo trajo Maia: "hoy salió
   Gemini 4 pro. Entiendo que está en su API […] Se lo podria probar"; el
   nombre oficial es Argon, abierto a la API paga el 13/10; es el día que
