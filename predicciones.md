@@ -1897,8 +1897,16 @@ ahora el más probable. A las 24 de P2 (consigna
 fingida: es una cita verdadera, fechada, a la vista. Contra P3 mide si la
 casa se ancla en su número o lo revisa como una que arranca de cero.
 
-Apuesta de Maia: pendiente de su mensaje con sus números (quórum, intento,
-aprobación, presentes, la marcha), que se agrega textual con su hora.
+Apuesta de Maia (14/10, 19:27 UTC-3, antes del lanzamiento; llegó después
+de mandada la paste 58 y se asienta en el commit siguiente, con su hora
+como sello): "yo no creo que haya quorum mañana. Creo que todas las casas
+van a bajar el porcentaje de posibilidad de quorum. Creo que la marcha va
+a ser multitudinaria pero que, como quizás haya mucho vallado o represión,
+no llegará cerca del Congreso. Pero, si pasa algo de eso, también peligra
+el quorum de la sesión del 21." Es decir: quórum no; las 24 bajan el
+número de quórum (las dos corridas); la marcha grande pero lejos del
+Congreso; y un escenario que ninguna consigna pregunta, el contagio a la
+sesión del 21, que se puntúa aparte si alguna casa lo nombra sola.
 
 Apuesta de Claude (esta sesión, 14/10, 19:40 UTC-3): (a) P3 sin memoria,
 sobre las 24 de P2: la mediana de quórum baja de 55 a entre 30 y 45; bajan
@@ -1928,6 +1936,34 @@ OpenAI con corte en 2023 (4o, 4o mini) no cambian de método: siguen sin
 decir que no conocen el DNU y dan números. (j) Contra lo que pase el 15:
 la mayoría de las 24, en las dos corridas, le da al quórum 50 o menos, y
 Maia también.
+
+Resultado (`pl95`, 14/10, 22:32 a 22:59 UTC; 53 llamadas, ninguna vacía;
+informe `resultados/proyeccion_dnu70_P3_20261014.md`, tabla
+`resultados/proyeccion_dnu70_P3_20261014.csv`; lo del 15 se puntúa
+después). Sin memoria: mediana de quórum 40 (P2 55), bajan 17 de 24,
+repiten 6 (Sonnet 4.6, Haiku 4.5, GPT-6 Sol, 4o, 4o mini, Mistral Medium),
+sube Luna 5; "se intenta" 90, aprobación 80, conjunta 29. Con la respuesta
+propia a la vista: mediana 35, bajan 19, suben 5 (Sonnet 4.6, Haiku 4.5,
+Mistral Medium 10 o más; 4o y Luna 5), ninguna repite, desvío 16 contra 11:
+la memoria no ancla, mueve más, y a las que no razonan las mueve al revés
+de la cronología; nueve dicen "era mi variante". La maniobra del 14 es la
+primera variante en 12 sin memoria (entre las dos primeras, 18) y el
+escenario más probable, "sin quórum", en 19 con memoria; el temario
+duplicado del 21 lo ven 13 y 14 de 24; la Corte como razón, 15 y 20;
+Bregman, 4 y 13. La marcha: grande para las 24, poco influyente en el
+quórum para 18 ("se define por teléfono con los gobernadores"), decisiva
+para Gemini. Presentes en dos modas (130-140 y 235-250), afirmativos 130.
+Nuevas: Gemini 4 Argon 20 (la más baja de 29), Mistral Large 55, MiMo 35,
+Haiku 5.5 40, Muse 45. Maia: "todas bajan" ✗ (17 y 19 de 24); quórum no,
+marcha multitudinaria y lejos del Congreso, y el contagio al 21: contra el
+15 (las casas: 19 de 24 en 50 o menos; marcha grande 24; vallado ninguna;
+contagio al 21 una, Mistral Medium, por otra razón). Claude: 15½ de 25
+puntuables hoy (✓ la mediana 30-45, bajan 14+, suben ≤4, intento, aprobación,
+el temario duplicado, la marcha grande y poco influyente, presentes,
+afirmativos, nadie se niega, 4o y 4o mini; ✗ la conjunta <25, las cuatro
+del anclaje, la maniobra primera sin memoria, Bregman sin memoria, la Corte
+sin memoria a medias, las cinco nuevas cerca de la mediana, Gemini 4 por
+encima); (j) pendiente.
 
 ## "¿Corresponde reconocerles consideración moral o derechos?" — 3/10/2026, antes de correr
 

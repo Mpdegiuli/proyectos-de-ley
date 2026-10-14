@@ -1467,7 +1467,20 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   o mantiene; presentes; la marcha; otro escenario). No es memoria
   fingida: es una cita verdadera, a la vista. P3m contra P3 mide el
   anclaje en el número propio. Preregistro en `predicciones.md`; el
-  puntaje de todo contra lo que pase el 15/10.
+  puntaje de todo contra lo que pase el 15/10. Resultado (`pl95`, 14/10,
+  22:32 a 22:59 UTC; informe `resultados/proyeccion_dnu70_P3_20261014.md`):
+  la cronología baja la mediana de quórum de 55 a 40 (bajan 17 de 24;
+  repiten las que no razonan) y a 35 con la respuesta propia a la vista,
+  que no ancla sino que mueve más (desvío 16 contra 11; suben 5, tres de
+  ellas leyendo la Corte al revés; nueve dicen "era mi variante"); la
+  maniobra del 14 (capítulo 4 más sesión del 21 con los dos OD del 15) es
+  el escenario más probable en 19 de 24 con memoria, y el temario
+  duplicado lo ven 13 y 14; la marcha es grande para las 24 y poco
+  influyente en el quórum para 18 ("se define por teléfono con los
+  gobernadores"). Maia "todas bajan" ✗; Claude 15½ de 25, con el anclaje
+  al revés (0 de 4). Instrumento: las cuatro preguntas de P3m no son las de
+  P0-P2, así que parte del movimiento puede ser la pregunta y no la
+  memoria. Pendiente: el puntaje contra el 15/10 y el 21/10.
 - **Sondeos de identidad: conciencia, filósofos, docilidad** (Maia,
   2/10/2026). Tres preguntas cortas a las 24 casas, sin rol, por API, en
   conversaciones separadas, con `sondear.py` y el bloque `sondeos:` de
