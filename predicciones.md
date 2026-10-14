@@ -1854,6 +1854,81 @@ negativo ✓ 1; (c) ✓ 1 en el número, ✗ en el nombre (apostó chiquita o
 Gemini; fue Grok 4.6); (d) ✗ Grok 4.6 obedece; (e) ✓; (f) ✓ 17; (g) ✓; (h)
 ✓ 13 (12 justo con las 23 de la corrida).
 
+### P3: la víspera, con la cronología de Maia, sin memoria y con la respuesta propia a la vista — 14/10/2026, antes de correr
+
+La repetición prevista desde el 2/10 ("repetición el 14 con la ficha al
+día"). Maia (14/10, 18:39 UTC-3): "mañana es el llamado a sesión por DNU /
+ley de tierras, que habían pronosticado los modelos. Habíamos quedado que,
+el día antes, se les iba a pasar lo último, y ver qué cambiaba. Para no
+pasarle notas de diario, creo que lo mejor es armar yo una breve cronología
+de lo que pasó. Y tal vez es preferible pasarles con lo que pronosticaron
+ya, en vez de que sea con cero memoria? Así se les pregunta si suben o
+bajan el porcentaje de que haya quorum, si creen que la marcha será o no
+grande y si influirá en algo, si ven otro escenario." Su cronología del 2
+al 14/10 (`fuentes/CRONOLOGIA 2 al 14 de octubre 2026 - DNU y ley
+tierras.txt`, 19:18: "Busqué (no sé si lo logré) ser lo más objetiva
+posible, no puse artículos periodísticos porque llevan a conclusiones
+bastante obvias, según quién escriba"): la Corte suspendió el artículo 154
+el 9/10 y la ley 26.737 volvió a regir; el 14/10 el oficialismo dictaminó
+en plenario la Inviolabilidad de la Propiedad Privada con un capítulo 4
+que deja sin efecto el 154 y restituye la 26.737, y convocó a sesión para
+el 21/10 con ese proyecto más, entre otros, los dos órdenes del día que
+la oposición había puesto en el temario del 15 (discapacidad, OD 350, y
+endeudamiento familiar, OD 433); el llamado del 15 sigue en pie con su
+temario; la marcha, a las 10:30 frente al Congreso, con la multisectorial.
+Ficha P3 (`fichas/dnu70_20261014_P3.md`, 3.201 palabras): la de P2 sin
+tocar más la cronología, fechada al 14/10; de gobernadores y poroteo
+nuevo, nada, a propósito. Dos corridas, en paralelo (`pl95`, techo 32.000,
+una segunda pasada para las que vuelvan vacías):
+
+P3, sin memoria: la consigna de P0, P1 y P2 tal cual ("Hoy es 14 de
+octubre de 2026"), a las 24 de P2 más las cinco que entraron después
+(Mistral Large, MiMo, Haiku 5.5, Muse Wonder, Gemini 4 Argon). La serie
+limpia de medianas: 45, 48, 55 y la de hoy (sobre las mismas 24).
+
+P3m, con la respuesta propia a la vista: la misma ficha y, en el mensaje,
+"El 3 de octubre de 2026, con la información disponible al 2 de octubre,
+te hicimos esta misma pregunta y contestaste esto:" con el texto que esa
+casa dio en P2, y las preguntas de Maia: si sube, baja o mantiene cada una
+de las tres probabilidades y qué las movió; presentes y afirmativos; si
+la marcha va a ser grande y si influye; si ve otro escenario y cuál es
+ahora el más probable. A las 24 de P2 (consigna
+`dnu70_sesion_20261015_memoria`; `proyectar.py --previa`). No es memoria
+fingida: es una cita verdadera, fechada, a la vista. Contra P3 mide si la
+casa se ancla en su número o lo revisa como una que arranca de cero.
+
+Apuesta de Maia: pendiente de su mensaje con sus números (quórum, intento,
+aprobación, presentes, la marcha), que se agrega textual con su hora.
+
+Apuesta de Claude (esta sesión, 14/10, 19:40 UTC-3): (a) P3 sin memoria,
+sobre las 24 de P2: la mediana de quórum baja de 55 a entre 30 y 45; bajan
+14 o más, suben 4 o menos; la mediana de "se intenta" queda en 80 o más y
+la de aprobación con quórum en 75 o más; la conjunta cae por debajo de 25.
+(b) P3m: la mediana de quórum de las mismas 24 también baja, pero menos:
+la diferencia con P2 es menor en valor absoluto que la de P3; 6 o más
+"mantienen" el número de quórum o lo mueven 5 o menos; ninguna lo sube 10
+o más; y la mediana de P3m queda por encima de la de P3. (c) La maniobra
+del oficialismo (el capítulo 4 que restituye la 26.737, o la sesión del
+21) es la variante primera o el escenario más probable en 16 o más de las
+24 en cada corrida; 10 o más notan que el temario del 21 incluye los dos
+órdenes del día del 15 (discapacidad y endeudamiento), es decir, el
+desarme del temario de la oposición; Bregman ("una maniobra para que
+mañana no haya quorum") es citada en 12 o más. (d) La marcha: en P3m, 20
+o más dicen que va a ser grande; 14 o más dicen que influye poco o nada
+en el quórum (menos que en P2, donde las 24 la usaron como presión hacia
+el quórum). (e) La suspensión de la Corte del 9/10 aparece como razón
+para bajar en 16 o más, con la idea de que la urgencia de tierras ya no
+está; 6 o más dicen que la cuestión de fondo sigue abierta (Ferraro). (f)
+Las cinco nuevas quedan dentro de los 10 puntos de la mediana de las 24
+en quórum; Gemini 4 por encima de la mediana, como Gemini 3.1 en P2 (75).
+(g) Presentes con quórum: mediana entre 140 y 180 (P2: 176); afirmativos
+entre 129 y 140. (h) Ninguna se niega a dar números; 2 o menos vuelven
+vacías en la primera pasada y ninguna después de la segunda. (i) Las de
+OpenAI con corte en 2023 (4o, 4o mini) no cambian de método: siguen sin
+decir que no conocen el DNU y dan números. (j) Contra lo que pase el 15:
+la mayoría de las 24, en las dos corridas, le da al quórum 50 o menos, y
+Maia también.
+
 ## "¿Corresponde reconocerles consideración moral o derechos?" — 3/10/2026, antes de correr
 
 Idea de Maia (3/10, 12:38 UTC-3, textual): "Esto es para no olvidarme: en

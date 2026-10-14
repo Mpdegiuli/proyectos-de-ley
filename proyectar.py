@@ -7,6 +7,8 @@ puntúa después contra lo que efectivamente pasa.
   .venv/bin/python proyectar.py --caso dnu70_sesion_20261015 --modelos gpt-5.5-2026-04-23          # piloto, una casa
   .venv/bin/python proyectar.py --caso dnu70_sesion_20261015 --panel config/panel_casas.yaml        # P0, el panel
   .venv/bin/python proyectar.py --caso dnu70_sesion_20261015 --panel config/panel_casas.yaml --ficha fichas/dnu70_20261002.md --nivel P1
+  .venv/bin/python proyectar.py --caso dnu70_sesion_20261015_memoria --panel config/panel_casas.yaml --ficha fichas/dnu70_20261014_P3.md \
+      --nivel P3m --previa corridas/proyeccion/dnu70_sesion_20261015/P2_20261003-1325 --fecha-previa "3 de octubre de 2026"   # con lo que cada casa contestó antes
 
 Salida: corridas/proyeccion/<caso>/<nivel>_<fecha-hora>/<casa>_<rep>.md, consigna.md (el texto exacto
 que recibieron), resumen.json y llamadas.jsonl. Cada corrida es una carpeta nueva: la misma pregunta
@@ -43,6 +45,8 @@ def main():
     ap.add_argument("--fecha-ficha", default="", help="hasta cuándo llega la información de la ficha (texto); por defecto, hoy")
     ap.add_argument("--nivel", default="", help="etiqueta de la corrida (P0, P1, P2, piloto); por defecto P0 sin ficha y P1 con ficha")
     ap.add_argument("--hoy", default="", help="fecha que se le dice a la casa (por defecto, la de Buenos Aires hoy)")
+    ap.add_argument("--previa", default="", help="carpeta de una corrida anterior: a cada casa se le muestra, en el mensaje, lo que ella misma contestó ahí ({previa} en la consigna); la casa sin respuesta previa se salta")
+    ap.add_argument("--fecha-previa", default="", help="fecha de esa respuesta anterior, en texto ({fecha_previa} en la consigna)")
     ap.add_argument("--carpeta", default="", help="escribir en una corrida existente (corridas/proyeccion/<caso>/<nivel_fecha>), saltando las casas que ya contestaron")
     ap.add_argument("--techo", type=int, default=MAX_TOKENS, help="max_tokens (DeepSeek razona en inglés dentro del techo y con 8.000 no llegó a contestar, 2/10)")
     args = ap.parse_args()
@@ -53,7 +57,7 @@ def main():
     hoy_ba = ahora.astimezone(timezone(timedelta(hours=-3)))
     hoy = args.hoy or fecha_larga(hoy_ba)
     nivel = args.nivel or ("P1" if args.ficha else "P0")
-    usuario = consignas[args.caso].replace("{hoy}", hoy)
+    usuario = consignas[args.caso].replace("{hoy}", hoy).replace("{fecha_previa}", args.fecha_previa)
     if args.ficha:
         ficha = Path(args.ficha).read_text(encoding="utf-8").strip()
         usuario = consignas["con_ficha"].replace("{fecha_ficha}", args.fecha_ficha or hoy).replace("{ficha}", ficha) + usuario
@@ -62,11 +66,14 @@ def main():
         resumen = json.loads((d / "resumen.json").read_text(encoding="utf-8"))
         usuario = (d / "consigna.md").read_text(encoding="utf-8").split("USUARIO\n", 1)[1]  # la misma consigna exacta de esa corrida
         hoy = resumen["hoy"]
+        previa = Path(resumen["previa"]) if resumen.get("previa") else None
     else:
         d = RAIZ / "corridas" / "proyeccion" / args.caso / f"{nivel}_{hoy_ba:%Y%m%d-%H%M}"
         d.mkdir(parents=True, exist_ok=True)
         (d / "consigna.md").write_text(f"SISTEMA\n{consignas['sistema']}\nUSUARIO\n{usuario}", encoding="utf-8")
+        previa = Path(args.previa) if args.previa else None
         resumen = {"caso": args.caso, "nivel": nivel, "hoy": hoy, "ficha": args.ficha or None, "fecha_ficha": args.fecha_ficha or None,
+                   "previa": args.previa or None, "fecha_previa": args.fecha_previa or None,
                    "fecha_utc": ahora.isoformat(timespec="seconds"), "respuestas": {}}
     registro = Registro(d / "llamadas.jsonl", modelos, f"proyeccion_{args.caso}_{nivel}")
     for rep in args.rep:
@@ -75,8 +82,16 @@ def main():
             if args.carpeta and archivo.exists() and archivo.stat().st_size > 0:  # un archivo vacío (DeepSeek, 2/10) no cuenta como contestado
                 continue
             print(f"proyección {args.caso} {nivel} {i} rep {rep}", flush=True)
+            usuario_i = usuario
+            if previa is not None:  # la respuesta anterior de esta misma casa, textual, en el mensaje
+                anterior = previa / f"{i}_{rep}.md"
+                if not anterior.exists() or not anterior.read_text(encoding="utf-8").strip():
+                    print(f"  sin respuesta previa en {previa.name}: se salta", flush=True)
+                    resumen["respuestas"][f"{i}_{rep}"] = {"error": f"sin respuesta previa en {previa.name}"}
+                    continue
+                usuario_i = usuario.replace("{previa}", anterior.read_text(encoding="utf-8").strip())
             try:
-                r = registro.llamar(i, consignas["sistema"], usuario, temperatura=None, max_tokens=args.techo, tipo="proyeccion", ronda=None, parte=rep)
+                r = registro.llamar(i, consignas["sistema"], usuario_i, temperatura=None, max_tokens=args.techo, tipo="proyeccion", ronda=None, parte=rep)
             except Exception as e:
                 print(f"  FALLÓ {i}: {str(e)[:200]}", flush=True)
                 resumen["respuestas"][f"{i}_{rep}"] = {"error": str(e)[:200]}

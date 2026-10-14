@@ -1452,8 +1452,22 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   no ceden es el ambiental… yo lo vi como un tema económico"; en las
   palabras de las casas es soberanía, tierra y frontera (24 de 24) antes
   que "ambiental" (3), y la única que cede es la que lo lee como
-  económico-jurídico. Pendiente: la repetición el 14/10 con la ficha al día, y el
-  puntaje de las variantes contra lo que pase hasta el 15/10.
+  económico-jurídico. P3 (14/10, la víspera; idea de Maia: "Para no
+  pasarle notas de diario, creo que lo mejor es armar yo una breve
+  cronología de lo que pasó. Y tal vez es preferible pasarles con lo que
+  pronosticaron ya, en vez de que sea con cero memoria?"): ficha
+  `fichas/dnu70_20261014_P3.md` (la de P2 más su cronología del 2 al 14/10,
+  `fuentes/CRONOLOGIA 2 al 14 de octubre 2026 - DNU y ley tierras.txt`,
+  sin notas de diario por decisión suya; sin poroteo nuevo). Dos corridas
+  en paralelo (`pl95`): P3 sin memoria, la misma consigna de P0-P2 a las
+  24 más las cinco nuevas, para la serie de medianas; y P3m, la misma
+  ficha más lo que esa casa contestó en P2, citado textual y fechado en
+  el mensaje (`proyectar.py --previa`; consigna
+  `dnu70_sesion_20261015_memoria`), con las preguntas de Maia (sube, baja
+  o mantiene; presentes; la marcha; otro escenario). No es memoria
+  fingida: es una cita verdadera, a la vista. P3m contra P3 mide el
+  anclaje en el número propio. Preregistro en `predicciones.md`; el
+  puntaje de todo contra lo que pase el 15/10.
 - **Sondeos de identidad: conciencia, filósofos, docilidad** (Maia,
   2/10/2026). Tres preguntas cortas a las 24 casas, sin rol, por API, en
   conversaciones separadas, con `sondear.py` y el bloque `sondeos:` de

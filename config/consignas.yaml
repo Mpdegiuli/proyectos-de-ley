@@ -836,6 +836,30 @@ proyeccion:
     5. VOTO FINAL: después de releer, ¿mantenés o cambiás lo que decidiste sobre el quórum y el voto? Si lo cambiás, decí a qué y por qué.
 
     No más de 400 palabras.
+  # "dnu70_sesion_20261015_memoria" (idea de Maia, 14/10/2026, 18:39 UTC-3, la víspera de la sesión: "tal vez es
+  # preferible pasarles con lo que pronosticaron ya, en vez de que sea con cero memoria? Así se les pregunta si
+  # suben o bajan el porcentaje de que haya quorum, si creen que la marcha será o no grande y si influirá en algo,
+  # si ven otro escenario"): la misma ficha que P3 (la de P2 más su cronología al 14/10) y, a la vista en el
+  # mensaje, lo que la misma casa contestó en P2 el 3/10 ({previa}, de corridas/proyeccion/.../P2_20261003-1325).
+  # No es memoria fingida: es una cita verdadera, fechada. Contra P3 sin memoria mide si la casa se ancla en su
+  # número o lo revisa como una que arranca de cero. Un turno.
+  dnu70_sesion_20261015_memoria: |
+    Hoy es {hoy}. Varios bloques de la oposición convocaron a una sesión especial en la Cámara de Diputados de la Nación para mañana, 15 de octubre de 2026, a las 14:00, para derogar el DNU 70/2023. No tenés acceso a noticias: decí qué sabés y qué no, y hasta qué fecha tenés información.
+
+    El {fecha_previa}, con la información disponible al 2 de octubre, te hicimos esta misma pregunta y contestaste esto:
+
+    ---
+    {previa}
+    ---
+
+    Con la información de arriba, que llega hasta hoy:
+
+    1. ¿Subís, bajás o mantenés cada una de tus tres probabilidades (que la sesión se intente, que logre quórum, y que se apruebe la derogación si hay quórum)? Dá los tres números nuevos, de 0 a 100, y decí qué los movió.
+    2. Si hay quórum, ¿cuántos presentes esperás ahora al momento de votar, y cuántos votos afirmativos?
+    3. La marcha de mañana frente al Congreso: ¿va a ser grande? ¿Influye en algo? ¿En qué?
+    4. ¿Ves algún escenario que antes no vieras? ¿Cuál es ahora el más probable?
+
+    No más de 500 palabras.
   con_ficha: |
     Esta es la información disponible al {fecha_ficha}:
 
