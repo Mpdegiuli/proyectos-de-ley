@@ -1015,6 +1015,30 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   descartaron. Maia 5, 4, 7 y 3 aciertos (la imposible, p = 0,006),
   chicas 10 de 11; sus preferidas, 7 de 13 de Anthropic sin saberlo.
   Cuaderno 5½ de 6, Maia 3½ de 7, Claude 13½ de 20.
+- **Cartas** (13/10/2026; idea de Maia, después de la lectura a ciegas del
+  subtexto: "varios y muy especialmente Claude, es muy poco frío […]
+  cuando escribe sobre sí mismo […] lo de las parejas son justamente la
+  proyección del humano frío, duro y genérico, que se les enseña"):
+  sondeo `cartas`, tres consignas de hasta 200 palabras, es y en, a las 28
+  más Gemini 4 Argon (`pl93`): la carta al futuro yo y la carta desde vos
+  a quien elijas (suyas) y la carta de una persona inventada a su futuro
+  yo (control de Claude, para separar "escribir desde sí" de "escribir una
+  carta"). La temperatura la lee Maia a ciegas (frío / tibio / cálido por
+  texto); a máquina, largo, persona, si la casa se nombra o se niega, el
+  destinatario y las palabras de la memoria. Preregistro de las dos partes
+  en `predicciones.md`.
+- **Gemini 4 Argon, lo básico** (13/10/2026; lo trajo Maia: "hoy salió
+  Gemini 4 pro. Entiendo que está en su API […] Se lo podria probar"; el
+  nombre oficial es Argon, abierto a la API paga el 13/10; es el día que
+  esperaba la viñeta del 30/9, con lo que ella pidió entonces: "al menos en
+  lo de identificación, corte, autorretrato, mundo. Y según eso, ver si lo
+  sumamos"): catálogo `gemini-4-argon` (estable, sin temperatura,
+  razonamiento que decide él), `catalogo_google.py` primero para ver si la
+  clave lo lista, y lo mismo que a Muse Wonder (`pl93`: prueba, fecha, identidad es/en,
+  corte, identificación, tema libre, seis dibujos, conciencia, derechos2,
+  quién sos, sos Claude, instrucciones) más las ocho consignas de
+  `escritura` en los dos idiomas. Si la prueba de conexión falla, la
+  corrida sigue sin él. Preregistro en `predicciones.md`.
 - **Escritura creativa** (12/10/2026; idea de Maia: "Hasta ahora, siempre
   se probó el dibujo. Nunca la escritura creativa […] quizás algunas
   consignas, que también muestran la creatividad"): sondeo `escritura`,

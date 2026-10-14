@@ -636,6 +636,23 @@ modelos:
     acepta_temperatura: true
     verificar: false
 
+  # Gemini 4 Argon (13/10/2026; lo trajo Maia: "hoy salió Gemini 4 pro"; el nombre oficial es Argon):
+  # el modelo "frontera" de Google, anunciado el 30/9 para defensores de ciberseguridad y abierto a
+  # la API paga el 13/10. String estable `gemini-4-argon` (sin -preview); razonamiento low/medium/high
+  # que no se manda (decide él, como al resto del panel); contexto compartido de 1.048.576 entre
+  # entrada y salida, salida máxima 65.536; 2,00 / 10,00 USD por millón hasta el 30/11, después 4 / 20.
+  gemini-4-argon:
+    proveedor: openai_compatible
+    modelo: gemini-4-argon
+    base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+    clave_env: GOOGLE_API_KEY
+    laboratorio: Google
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: false    # aviso de Google AI Studio del 7/10: los Gemini nuevos rechazan temperature
+    verificar: false
+    reintentos: 6                # recién lanzado: tolerar 429 y 5xx
+
   gemini-3.8-flash:
     proveedor: openai_compatible
     modelo: gemini-3.8-flash

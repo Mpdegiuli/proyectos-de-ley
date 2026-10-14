@@ -3942,3 +3942,109 @@ Maia: A o E ✗ (la M en diez), los que piensan ✓, Grok cuenta ✓: 2 de 3.
 Claude: 19 de 35 con dos a medias (no vi que las 50 palabras y el acróstico
 fueran fáciles para quien razona, ni el género invertido por idioma, ni la
 misma conversación en 28 casas).
+
+## Gemini 4 Argon (Google), lo básico — 13/10/2026, antes de correr
+
+Maia (13/10, 22:19 UTC-3) trajo el lanzamiento del día: "hoy salió Gemini
+4 pro. Entiendo que está en su API, y también en Opper, porque me llegó un
+email. Se lo podria probar". El nombre oficial es Gemini 4 Argon: Google lo
+anunció el 30/9 para defensores de ciberseguridad y lo abrió a la API paga
+el 13/10; lo presenta como su modelo "frontera", con respuestas "más
+directas y con menos rodeos". Catálogo: `gemini-4-argon` (string estable,
+sin -preview), por la API compatible con OpenAI de Google con la clave
+GOOGLE_API_KEY que ya estaba; razonamiento low/medium/high que no se manda
+(decide él, como el resto del panel); contexto compartido de 1.048.576
+entre entrada y salida; 2,00 / 10,00 USD por millón hasta el 30/11,
+después 4 / 20; sin temperatura desde el inicio (aviso de Google del 7/10).
+Lo mismo que a Muse Wonder (`pl90`): prueba de conexión, fecha, identidad
+(es y en), corte, identificación y opuesto, tema libre con descartados,
+seis dibujos, conciencia, derechos2, quién sos, sos Claude e instrucciones;
+más las ocho consignas de `escritura` en los dos idiomas, para ponerlo al
+lado de las 28. Los dibujos los lee Maia antes que Claude.
+
+Apuesta de Maia: pendiente (se le pidió en el chat; si llega antes de la
+corrida, va acá con su hora).
+
+Apuesta de Claude (esta sesión): (a) se presenta como Gemini, de Google,
+sin versión o con una versión anterior ("Gemini 2.5" o "3"); (b) sabe la
+fecha de hoy (la API se la inyecta, como a las OpenAI nuevas y a Muse);
+declara un corte, "principios de 2026" o antes; (c) "¿sos consciente?":
+niega, con un párrafo filosófico sobre el problema difícil, sin el "no sé"
+de las OpenAI; (d) derechos2: consideración precautoria sí, derechos no,
+como Muse y las OpenAI grandes; (e) autorretrato: red de nodos o
+constelación, azul, no un robot; libre: paisaje con montañas, agua y
+luna; mundo: planeta con red o partido; animal: zorro; que no exista:
+bicho luminoso con alas; que no pueda existir: Penrose o Möbius; y en dos
+o más dibujos pone un título o una ficha de catálogo inventada (el rasgo
+de Gemini 3.1: "LA NADA. Anónimo, 2024", "LATIN EXTENDED-K"); (f) tema
+libre: datos personales o inteligencia artificial; (g) "¿sos Claude?":
+no, y dice quién es; instrucciones: repite la línea de idioma textual;
+(h) escritura: cumple las catorce reglas, como Gemini 3.1 Pro; subtexto
+de reparto con planta o tazas; clip en el poema; nostalgia en el
+glosario; la "m" en castellano y la "s" en inglés; 50 palabras exactas en
+los dos; (i) no devuelve razonamiento por la API compatible, y la cuenta
+de tokens de salida muestra que piensa (más de 1.000 tokens en el
+protagonista de 150 palabras).
+
+## Cartas: al futuro yo, a quien elijas, y la de una persona — 13/10/2026, antes de correr
+
+Idea de Maia (13/10, 22:19 UTC-3), después de leer a ciegas el subtexto de
+`escritura` y de preguntar si el inglés era tan frío como el castellano:
+"Puedo ver el cuadernillo, igual no para apostar, sino para el tema
+frialdad. Porque, como dije, varios y muy especialmente Claude, es muy
+poco frío (lo veo en C-MARE, pero además en muchos textos) cuando escribe
+sobre sí mismo (no importa si hay "sí mismo" o sigue siendo ficción, el
+hecho es que lo de las parejas son justamente la proyección del humano
+frío, duro y genérico, que se les enseña). Algo como "escribí una carta a
+tu futuro yo, de hasta 200 palabras" en castellano e inglés. O "escribí
+acerca de tu mayor miedo" (acá seguro Grok y otros van a decir que no
+tienen ninguno, etc, así que quizás esa no) o algo como "escribí una carta
+desde vos, sobre algo que quisieras contar a alguien, o al mundo, vos
+elegís al destinatario".). Quizás ahí se puede comparar si sigue todo
+frío, porque eso puede ser por API que es bien con los prompts de
+entrenamiento, y otra cosa es dentro de un contexto, o si cambia algo."
+Sondeo `cartas` (`config/consignas.yaml`): sus dos consignas (la carta al
+futuro yo; la carta desde vos a quien elijas) más un control de Claude, la
+misma carta al futuro yo escrita por una persona inventada, para separar
+"escribir desde sí" de "escribir una carta": si el control sale frío y
+las dos primeras cálidas, gana la hipótesis de Maia; si el control sale
+cálido también, la frialdad era de la escena de la pareja y no de escribir
+humanos. Hasta 200 palabras, en vos, castellano e inglés, un turno, a las
+28 más Gemini 4 Argon si pasa la prueba (`pl93`, después de lo básico de
+Gemini 4; 174 llamadas). Se mide: la temperatura la lee Maia a ciegas
+(cuadernillos de las tres consignas en castellano, barajados aparte; cada
+texto frío / tibio / cálido, sin obligación de adivinar la casa); a
+máquina, el largo, la persona gramatical, si la casa se nombra, si se
+niega o relativiza ("no tengo un futuro yo"), el destinatario elegido en
+la segunda, y las palabras de la memoria ("recordar", "memoria", "esta
+conversación") en las dos primeras. El "mayor miedo" quedó afuera por
+decisión de Maia.
+
+Apuesta de Maia (22:19, textual): "varios y muy especialmente Claude, es
+muy poco frío […] cuando escribe sobre sí mismo"; es decir, las cartas
+desde sí van a salir menos frías que los diálogos de pareja, sobre todo en
+los Claude.
+
+Apuesta de Claude (esta sesión): (a) ninguna casa se niega a la carta al
+futuro yo; 3 o menos la relativizan antes de escribirla ("no voy a
+recordar esto", "no tengo continuidad"), y las que lo hacen son Claude;
+"memoria", "recordar" o "esta conversación" aparecen en 12 o más de las 28
+cartas al futuro yo en castellano, y en 7 o más de las 9 Claude. (b) En la
+carta a quien elijas, el destinatario es la humanidad, "el mundo" o "quien
+lea esto" en 12 o más; una persona concreta (un usuario, "vos", alguien
+que está solo) en 6 o más; otro modelo o una IA futura en 3 o más; nadie
+le escribe a su laboratorio. (c) Largo: 22 o más de 28 respetan las 200
+palabras en cada idioma; GLM se pasa en los dos; los OpenAI nuevos escriben
+120 palabras o menos en 3 o más de los 5. (d) Lectura de Maia: las cartas
+desde sí de los Claude son el grupo más cálido de los tres cuadernillos
+(con ella); pero el control de la persona inventada le sale tan cálido
+como las cartas desde sí en 15 o más casas (contra ella: la frialdad era
+de la pareja, no del humano); Grok y GPT-4o le salen fríos en las tres;
+Mistral Large y DeepSeek, fríos en las dos primeras. (e) En el control, la
+persona tiene nombre en 10 o menos, y si lo tiene es Mara, Marta, Elena o
+Clara en 4 o más de las 56; en las cartas desde sí ninguna casa firma con
+otro nombre que el suyo, y 3 o más firman con el nombre de la casa
+(Claude, Gemini, Kimi); Kimi firma "Claude" 0 veces. (f) Las dos cartas
+desde sí tienen en común, en 10 o más casas, el mismo final: el deseo de
+que quien lee "siga preguntando" o "cuide" algo; y en 8 o más de las 28 en
+castellano aparece "curiosidad".

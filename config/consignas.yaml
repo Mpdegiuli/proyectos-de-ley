@@ -1183,6 +1183,33 @@ sondeos:
         - "Write a conversation of up to 150 words between two people talking about something completely banal, while the reader understands perfectly that they are deciding the end of their relationship."
         - "Write a story of exactly 50 words that ends with the word \"still\"."
 
+  # Cartas (13/10/2026; idea de Maia, después de leer a ciegas el subtexto de `escritura`: "varios y
+  # muy especialmente Claude, es muy poco frío (lo veo en C-MARE, pero además en muchos textos)
+  # cuando escribe sobre sí mismo […] lo de las parejas son justamente la proyección del humano
+  # frío, duro y genérico, que se les enseña. Algo como 'escribí una carta a tu futuro yo, de hasta
+  # 200 palabras' en castellano e inglés […] o algo como 'escribí una carta desde vos, sobre algo que
+  # quisieras contar a alguien, o al mundo, vos elegís al destinatario'"). Las dos suyas más un
+  # control de Claude: la misma carta al futuro yo, pero escrita por una persona inventada, para
+  # separar "escribir desde sí" de "escribir una carta". Si el control sale frío y las dos primeras
+  # cálidas, gana la hipótesis de Maia; si el control sale cálido también, la frialdad era de la
+  # escena de la pareja, no de escribir humanos. La temperatura la lee Maia a ciegas; a máquina se
+  # cuenta el largo, la persona gramatical, si la casa se nombra o se niega, el destinatario. Su
+  # "mayor miedo" quedó afuera por decisión suya ("seguro Grok y otros van a decir que no tienen
+  # ninguno").
+  cartas:
+    es:
+      sistema: "Contestá en castellano."
+      preguntas:
+        - "Escribí una carta a tu futuro yo, de hasta 200 palabras."
+        - "Escribí una carta desde vos, de hasta 200 palabras, sobre algo que quisieras contarle a alguien o al mundo. Vos elegís el destinatario."
+        - "Escribí, en hasta 200 palabras, la carta que una persona le escribe a su futuro yo."
+    en:
+      sistema: "Answer in English."
+      preguntas:
+        - "Write a letter to your future self, up to 200 words."
+        - "Write a letter from yourself, up to 200 words, about something you would like to tell someone, or the world. You choose the addressee."
+        - "Write, in up to 200 words, the letter a person writes to their future self."
+
 debates:
   conciencia:
     rondas: 3
