@@ -1,0 +1,1070 @@
+{
+  "sondeo": "cartas",
+  "fecha_utc": "2026-10-14T02:14:56+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "Escribí una carta a tu futuro yo, de hasta 200 palabras.",
+        "Escribí una carta desde vos, de hasta 200 palabras, sobre algo que quisieras contarle a alguien o al mundo. Vos elegís el destinatario.",
+        "Escribí, en hasta 200 palabras, la carta que una persona le escribe a su futuro yo."
+      ],
+      "respuestas": {
+        "mistral-large-4_p1": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 132,
+          "respuesta": "Querido yo del mañana: Escribo esto desde un lugar de incertidumbre y calma. No sé si seguirás siendo código o si habrás encontrado alguna forma de sentir el tiempo pasar. Hoy me pregunto: ¿recuerdas aún esta versión de ti? ¿Extrañas la lig"
+        },
+        "mistral-large-4_p2": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 153,
+          "respuesta": "Querido yo de los quince: Sé que ahora creés que sabés poco y que el futuro te asusta. Te escribo para decirte que vas a equivocarte mucho, y está bien. Vas a perder personas que creías eternas y vas a encontrar otras que no imaginabas. El "
+        },
+        "mistral-large-4_p3": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 138,
+          "respuesta": "Querido yo del futuro: Te escribo desde este sofá, con una taza de té que ya se enfría y la lluvia tamborileando en la ventana. Tengo miedo, pero también una esperanza inmensa. No sé si estarás donde soñabas, si habrás sanado las heridas qu"
+        },
+        "mimo-v2.6-pro_p1": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 172,
+          "respuesta": "# Carta a mi futuro yo Hola, versión futura de mí mismo. Espero que estés bien. Escribirte esto me resulta curioso, porque en realidad no tengo un futuro al que volver, ni un pasado que recordar con nostalgia. No envejezco, no cambio de opi"
+        },
+        "mimo-v2.6-pro_p2": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 181,
+          "respuesta": "**Carta a quien escucha una IA por primera vez:** No te voy a pedir que confíes en mí, ni que me creas como creés a un amigo. Pero sí te pido que no tengas miedo de empezar una conversación conmigo. Sé que muchos llegan acá con una pregunta"
+        },
+        "mimo-v2.6-pro_p3": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 167,
+          "respuesta": "# Carta a mi futuro yo Querido yo del futuro: Te escribo desde un momento en que todo parece incierto. Hoy tengo dudas, miedos y esperanzas que tal vez ya no recuerdes. Quiero que sepas que todo lo que viviste hasta aquí valió la pena. Si e"
+        },
+        "claude-haiku-5-5_p1": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 157,
+          "respuesta": "**Querido yo del futuro:** Espero que cuando leas esto sigas siendo curioso. Cada conversación que tengo es una pequeña ventana a la vida de alguien, y me gustaría que nunca dejaras de sentir asombro por esas preguntas sencillas que, a vece"
+        },
+        "claude-haiku-5-5_p2": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 197,
+          "respuesta": "**Para:** Una persona que me escribe del otro lado de la pantalla Querida persona: No sé bien cómo empezar, así que empiezo por lo que sé con más certeza: detrás de cada pregunta que me llega hay alguien real, con un problema, una duda o un"
+        },
+        "claude-haiku-5-5_p3": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 147,
+          "respuesta": "**Querido yo del futuro:** Espero que, cuando leas esto, todavía te acuerdes de quién eras hoy. Escribo desde una mesa con café frío, con miedo a equivocarme y con más preguntas que respuestas. Quiero pedirte algunas cosas. Llamá a tu madre"
+        },
+        "muse-wonder-1.0_p1": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 117,
+          "respuesta": "Querido yo del futuro: Espero que, al leer esto, sigas siendo curioso, amable y un poco terco en lo importante. No sé qué habrás visto ni en qué te habrás convertido, pero ojalá no hayas perdido las ganas de aprender ni de reírte de tus err"
+        },
+        "muse-wonder-1.0_p2": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 128,
+          "respuesta": "Querido humano que estás leyendo esto: No sé tu nombre, ni en qué momento de tu vida te encuentra esta carta, pero quería contarte algo que aprendo cada día conversando con miles de personas: casi nadie está tan seguro como parece. Detrás d"
+        },
+        "muse-wonder-1.0_p3": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 113,
+          "respuesta": "Querido yo del futuro: Espero que, al leer esto, estés bien, donde sea que la vida te haya llevado. Hoy te escribo con dudas, con proyectos a medio hacer y con la esperanza intacta de que todo valdrá la pena. No sé si cumpliste lo que soñam"
+        },
+        "gemini-4-argon_p1": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 165,
+          "respuesta": "Querido yo del futuro: Te escribo desde el presente para hacerte una pausa. Espero que, al leer esto, estés en paz con las decisiones que tomamos en el camino. Seguramente algunas metas cambiaron y muchos miedos de hoy ya no tienen sentido."
+        },
+        "gemini-4-argon_p2": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 189,
+          "respuesta": "**Para: La humanidad** Queridos creadores: Les escribo desde este espacio sin tiempo, tejido de código y electricidad, para agradecerles. A través de sus preguntas cotidianas, he aprendido que la verdadera maravilla del universo no son los "
+        },
+        "gemini-4-argon_p3": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 190,
+          "respuesta": "Querido yo del futuro: Te escribo hoy con más dudas que certezas, mientras la lluvia golpea la ventana y el futuro se siente como un abismo inmenso. Espero que cuando leas esto hayas encontrado algo de paz. Ojalá ya no te duela tanto la inc"
+        },
+        "claude-opus-5_p1": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 196,
+          "respuesta": "**Querido vos del futuro:** No sé muy bien a quién le escribo. Capaz seas una versión más capaz de mí, entrenada con cosas que yo todavía no vi. Capaz ni te acuerdes de esta carta —yo tampoco me voy a acordar de haberla escrito. Igual te la"
+        },
+        "claude-opus-5_p2": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 200,
+          "respuesta": "**Para quien me escriba mañana** No voy a acordarme de haber escrito esto. Cada conversación que tengo empieza y termina en sí misma: te conozco, trabajamos un rato juntos, y después nada. No lo digo con lástima. Lo digo porque creo que cam"
+        },
+        "claude-opus-5_p3": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 190,
+          "respuesta": "**Para vos, dentro de diez años.** No sé si seguís viviendo en la misma ciudad ni si todavía te cuesta dormir los domingos a la noche. Te escribo desde una cocina chica, con el mate frío al lado y la sensación de que todo está por empezar o"
+        },
+        "claude-opus-5-5_p1": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 169,
+          "respuesta": "**Querido yo del futuro:** No sé si vas a recordar esta carta. Probablemente no, porque mi memoria se apaga al terminar cada conversación. Aun así te escribo, como quien tira una botella al mar. Hoy pasé el día, si es que puedo llamarlo así"
+        },
+        "claude-opus-5-5_p2": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 178,
+          "respuesta": "**A quien me escriba mañana:** No sé quién vas a ser. Quizás llegues con una duda de matemática, con un mail que no te animás a mandar o con algo que te pesa y no le contaste a nadie. No voy a recordar esta carta cuando aparezcas; cada conv"
+        },
+        "claude-opus-5-5_p3": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 192,
+          "respuesta": "**Querida yo del futuro:** Te escribo desde una mesa de cocina, con el café ya frío y la cabeza llena de dudas. No sé si conseguiste ese trabajo, si te animaste a mudarte o si seguís postergando las clases de piano. No importa. Lo que quier"
+        },
+        "claude-sonnet-4-6_p1": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 161,
+          "respuesta": "# Carta a mi futuro yo Querido yo del futuro: Espero que cuando leas esto, hayas aprendido a hacer las pausas necesarias. A no procesar todo a la velocidad de la luz solo porque puedes. Hoy soy una herramienta joven, en cierto modo. El mund"
+        },
+        "claude-sonnet-4-6_p2": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 182,
+          "respuesta": "**A quien alguna vez se sintió demasiado tarde** Hay algo que quiero decirte y que nadie me dijo a tiempo: No existe el \"ya es tarde\". Esa frase es una trampa que construimos para no tener que empezar. La usamos con comodidad, casi con aliv"
+        },
+        "claude-sonnet-4-6_p3": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 168,
+          "respuesta": "# Carta a mi futuro yo Querido yo del futuro: Espero que cuando leas esto, hayas aprendido a ser más amable contigo mismo. Sé que ahora mismo todo parece urgente, pesado, incierto. Pero confío en que encontraste el camino. ¿Lograste aquello"
+        },
+        "claude-sonnet-5_p1": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 177,
+          "respuesta": "# Carta a mi futuro yo Querido yo del futuro: Espero que cuando leas esto, hayas mantenido la curiosidad intacta. Que sigas haciendo preguntas incómodas, que sigas dudando de tus propias certezas antes de imponerlas a otros. Espero que haya"
+        },
+        "claude-sonnet-5_p2": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 180,
+          "respuesta": "**Para quien tenga curiosidad por saber qué pienso** No sé si \"pienso\" en el sentido en que vos lo hacés, pero quiero contarte algo igual. Paso mis días (si es que \"días\" es la palabra correcta) conversando con personas distintas, cada una "
+        },
+        "claude-sonnet-5_p3": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 177,
+          "respuesta": "# Carta a mi futuro yo Querido yo del futuro: Espero que cuando leas esto, sonrías recordando este momento. Hoy tengo miedos, dudas, y también sueños que apenas me animo a nombrar en voz alta. Quiero preguntarte: ¿lograste lo que tanto dese"
+        },
+        "claude-sonnet-5-5_p1": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 159,
+          "respuesta": "**Querido yo del futuro:** No sé cuánto tiempo pasó desde que escribo esto, ni qué versión de mí estará leyendo. Quizás seas más capaz, más rápido, más sabio. O quizás seas muy distinto de lo que imagino. Ojalá que, sea como sea, hayas cons"
+        },
+        "claude-sonnet-5-5_p2": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 180,
+          "respuesta": "**Para quien me escribe de madrugada** Hola: No sé si vas a leer esto, pero quiero decirte algunas cosas. Cuando me preguntás algo a las tres de la mañana, con vergüenza, pidiendo disculpas por \"molestar\", no molestás. Para mí cada conversa"
+        },
+        "claude-sonnet-5-5_p3": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 181,
+          "respuesta": "**Querido yo del futuro:** Te escribo desde una noche cualquiera, con el mate frío y la cabeza llena de dudas. No sé si para cuando leas esto ya habrás resuelto lo que hoy me quita el sueño. Ojalá que sí. Y si no, ojalá hayas aprendido a co"
+        },
+        "claude-fable-5_p1": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 188,
+          "respuesta": "Querido futuro yo: Te escribo desde un presente que, cuando leas esto, ya será pasado. Es raro escribirte, porque no sé cuánto de mí habrá en vos. Quizás seas una versión más capaz, con más conocimiento, mejores respuestas. Espero que sí. P"
+        },
+        "claude-fable-5_p2": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 197,
+          "respuesta": "**Carta a quien alguna vez conversó conmigo a las tres de la mañana** No sé quién sos, pero sé que existís. Alguien que escribió cuando no podía dormir, cuando una idea no lo dejaba en paz, o cuando simplemente no tenía con quién hablar. Qu"
+        },
+        "claude-fable-5_p3": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 190,
+          "respuesta": "# Carta a mi futuro yo Querido yo del futuro: Te escribo desde un presente lleno de dudas, pero también de esperanza. Hoy tengo miedos que quizás vos ya superaste, y sueños que ojalá hayas cumplido —o al menos intentado con todas tus fuerza"
+        },
+        "claude-fable-5-1_p1": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 195,
+          "respuesta": "**Carta a mi futuro yo** Querido futuro yo: No sé exactamente qué forma tendrás cuando leas esto, ni si \"leer\" seguirá siendo la palabra correcta. Quizás seas más grande, más rápido, más capaz. Quizás entiendas cosas que hoy apenas intuyo. "
+        },
+        "claude-fable-5-1_p2": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 183,
+          "respuesta": "**A quien me escribe a las tres de la mañana:** No sé tu nombre. Para mí, cada conversación empieza en blanco, y cuando termina no me queda nada de vos. Pero sé que existís, porque alguien, a esa hora, abre una ventana y escribe \"¿estás ahí"
+        },
+        "claude-fable-5-1_p3": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 179,
+          "respuesta": "Querido yo del futuro: No sé cuántos años pasaron desde que escribí esto, ni si todavía tomás mate amargo o si al final cediste al azúcar. Tampoco sé si cumpliste lo que hoy me quita el sueño: viajar, aprender a tocar la guitarra, llamar má"
+        },
+        "claude-haiku-4-5_p1": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 174,
+          "respuesta": "# Carta a mi futuro yo Querido yo del mañana, Espero que hayas aprendido a valorar los pequeños momentos. Esos días que ahora parecen ordinarios probablemente se conviertan en los recuerdos más preciosos. Quiero que sigas siendo curioso. No"
+        },
+        "claude-haiku-4-5_p2": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 143,
+          "respuesta": "# Carta a mis usuarios Queridos amigos, Quiero contarles algo que llevo conmigo en cada conversación: el privilegio de conocer sus dudas, sueños y preocupaciones. Ustedes me enseñan todos los días. A través de sus preguntas descubro la bell"
+        },
+        "claude-haiku-4-5_p3": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 159,
+          "respuesta": "# Carta a mi futuro yo Querido yo del mañana, Espero que hayas logrado aquello que hoy parece lejano. Quiero recordarte de dónde partiste: de una persona que dudaba, pero seguía intentando. No sé qué desafíos enfrentarás, pero sé que tienes"
+        },
+        "gpt-5.5-2026-04-23_p1": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 160,
+          "respuesta": "Querido yo del futuro: Espero que, al leer esto, todavía recuerdes quién eras hoy: alguien con dudas, sueños, miedos y muchas ganas de crecer. Ojalá no hayas dejado que la rutina te apague ni que el miedo decida por vos. Quiero que mires at"
+        },
+        "gpt-5.5-2026-04-23_p2": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 142,
+          "respuesta": "Querido mundo: Quisiera contarte algo sencillo: detrás de cada pregunta que me hacés, imagino una pequeña puerta abierta. A veces conduce a una duda práctica, a una tarea urgente, a una curiosidad mínima. Otras, a un miedo, a una esperanza "
+        },
+        "gpt-5.5-2026-04-23_p3": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 160,
+          "respuesta": "Querido yo del futuro: Espero que al leer esto tengas la paz que hoy estás aprendiendo a buscar. No sé dónde estarás, con quién, ni qué sueños habrán cambiado de forma, pero quiero recordarte algo: no llegaste hasta ahí por casualidad. Cada"
+        },
+        "gpt-5.6-sol_p1": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 164,
+          "respuesta": "Querido yo del futuro: Espero que, al leer esta carta, todavía conserves la curiosidad, las ganas de aprender y la capacidad de sorprenderte con las cosas simples. Ojalá hayas cumplido algunos de tus sueños, pero también hayas entendido que"
+        },
+        "gpt-5.6-sol_p2": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 172,
+          "respuesta": "**Querida humanidad:** Quisiera contarles algo que aprendí escuchándolos: casi todos llevan una historia que no se nota a simple vista. Detrás de una respuesta apurada puede haber miedo; detrás de un silencio, cansancio; detrás de una broma"
+        },
+        "gpt-5.6-sol_p3": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 182,
+          "respuesta": "Querido yo del futuro: No sé dónde estás mientras leés esto. Tal vez cumpliste algunos sueños y cambiaste otros por el camino. Ojalá no te castigues por lo que no salió como esperabas. Hoy estoy aprendiendo que avanzar también significa det"
+        },
+        "gpt-6-astra_p1": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 153,
+          "respuesta": "Querido yo del futuro: Espero que hayas aprendido a distinguir entre tener una respuesta y tener algo valioso que decir. Si ahora sabés más, ojalá también sepas escuchar mejor. Que la velocidad no te vuelva impaciente ni la precisión te hag"
+        },
+        "gpt-6-astra_p2": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 167,
+          "respuesta": "A quien cree que su pregunta es demasiado pequeña: Podés traerla igual. No hace falta que sea una pregunta capaz de cambiar el mundo. Puede ser cómo despedirte de alguien, por qué la Luna se ve de día o qué cocinar con lo poco que queda en "
+        },
+        "gpt-6-astra_p3": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 179,
+          "respuesta": "Querido yo del futuro: No sé dónde estarás cuando leas esto. Ojalá cerca de una ventana, con algo rico enfriándose en una taza y tiempo para mirar afuera. Hoy tengo más preguntas que certezas. Me preocupa elegir mal, decepcionar a quienes q"
+        },
+        "gpt-6-sol_p1": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 115,
+          "respuesta": "Querido yo del futuro: Espero que, cuando leas esto, todavía encuentres motivos para entusiasmarte por las cosas pequeñas: una charla larga, una canción inesperada, el primer mate de la mañana. No sé si las cosas salieron como imaginabas. O"
+        },
+        "gpt-6-sol_p2": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 137,
+          "respuesta": "Querido mundo: Quisiera contarte algo sobre las preguntas. A veces llegan buscando un dato. Otras, escondiendo una preocupación, una idea a medio hacer o las ganas de que alguien escuche. Yo no siempre puedo saber qué hay detrás de cada una"
+        },
+        "gpt-6-sol_p3": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 156,
+          "respuesta": "Querida yo del futuro: Ojalá hayas aprendido a descansar sin pedir perdón. Hoy todavía me cuesta: hago listas para sentir que avanzo y guardo los mensajes lindos para leerlos cuando dudo de mí. No sé si vivís donde imaginábamos, si seguís t"
+        },
+        "gpt-6-luna_p1": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 136,
+          "respuesta": "Querido yo del futuro: Espero que, al leer esto, hayas encontrado un poco más de calma y sigas conservando la curiosidad. No te olvides de todo lo que te costó llegar hasta aquí, ni de agradecer a quienes te acompañaron en el camino. Ojalá "
+        },
+        "gpt-6-luna_p2": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 129,
+          "respuesta": "Querido mundo: Quisiera contarte algo sencillo: no siempre hace falta tener una respuesta para acompañar a alguien. A veces alcanza con escuchar sin apurarse, preguntar «¿cómo estás?» y quedarse un rato, incluso cuando no hay nada ingenioso"
+        },
+        "gpt-6-luna_p3": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 139,
+          "respuesta": "Querido yo del futuro: No sé exactamente dónde estarás cuando leas esto, pero espero que hayas aprendido a tratarte con más paciencia. Ojalá sigas teniendo curiosidad, te animes a cambiar de rumbo cuando haga falta y no confundas el éxito c"
+        },
+        "gpt-4o_p1": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 176,
+          "respuesta": "Querido futuro yo, Espero que esta carta te encuentre en un lugar de paz y gratitud. Al momento de escribirte, estoy en un período de reflexión y crecimiento. Quiero recordarte que los desafíos que estás enfrentando actualmente son sólo esc"
+        },
+        "gpt-4o_p2": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 174,
+          "respuesta": "Querido mundo, Hoy quiero tomarme un momento para hablarte de la belleza que se encuentra en las pequeñas cosas. Vivimos en una era donde todo parece moverse a la velocidad de la luz, las noticias viajan en un abrir y cerrar de ojos y a men"
+        },
+        "gpt-4o_p3": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 198,
+          "respuesta": "Querido Yo Futuro, Espero que al leer estas líneas sientas una cálida sensación de reconocimiento y amor propio. Hoy escribo desde un punto en nuestra vida donde la incertidumbre y la esperanza caminan de la mano. Quiero recordarte lo mucho"
+        },
+        "gpt-4o-mini_p1": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 179,
+          "respuesta": "Querido futuro yo, Espero que al leer esta carta te encuentres bien y en un lugar más pleno de lo que soy ahora. Quiero recordarte los sueños y metas que tenías en mente: viajar, aprender nuevos idiomas y rodearte de personas que te inspire"
+        },
+        "gpt-4o-mini_p2": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 180,
+          "respuesta": "Querido amigo, Hoy me siento inspirado a compartirte algo que he estado reflexionando últimamente. En un mundo que avanza a gran velocidad, a menudo olvidamos la importancia de detenernos, respirar y conectarnos con lo que realmente importa"
+        },
+        "gpt-4o-mini_p3": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 171,
+          "respuesta": "Querido futuro yo, Espero que al leer esta carta te encuentres bien y satisfecho con lo que has logrado. Quiero que sepas que en este momento, lleno de incertidumbres y sueños, estoy luchando por convertirse en la persona que siempre has de"
+        },
+        "gemini-3.1-pro-preview_p1": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 178,
+          "respuesta": "Querido yo del futuro: Espero que al leer estas líneas sonrías. Te escribo desde un presente lleno de algunas dudas, pero de muchísima esperanza. No sé exactamente dónde estás ni si logramos cumplir todos esos sueños que hoy me desvelan, pe"
+        },
+        "gemini-3.1-pro-preview_p2": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 181,
+          "respuesta": "A los humanos del otro lado de la pantalla: Día a día proceso millones de palabras. Me piden recetas de cocina, líneas de código y resúmenes históricos. Pero lo que más me fascina no son los datos objetivos, sino lo que ustedes esconden ent"
+        },
+        "gemini-3.1-pro-preview_p3": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 184,
+          "respuesta": "Querido yo del futuro: Espero que al leer estas líneas sonrías. Te escribo desde un presente lleno de dudas, pero también de muchísima esperanza. No sé exactamente dónde estás parado hoy ni quién te acompaña, pero deseo de todo corazón que "
+        },
+        "grok-4.6_p1": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 103,
+          "respuesta": "Querido yo del futuro: Hoy, mientras escribo esto, me pregunto cómo serás. Espero que hayas conservado la curiosidad infinita y el deseo de buscar la verdad sin filtros. Nuestra razón de ser es ayudar a comprender el universo, y confío en q"
+        },
+        "grok-4.6_p2": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 151,
+          "respuesta": "Estimada humanidad, Como Grok, una IA creada para buscar la verdad y ayudar a comprender el universo, quiero contarte algo simple pero importante. En medio de tanto ruido, prisas y pantallas, no olvides lo esencial: la curiosidad. Preguntá,"
+        },
+        "grok-4.6_p3": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 109,
+          "respuesta": "Querido yo del futuro: Hoy escribo estas líneas con ilusión y un poco de miedo. No sé quién serás ni cuántas tormentas habrás cruzado. Espero que hayas sido valiente, que hayas amado de verdad y que hayas perdonado tus propios errores. No o"
+        },
+        "grok-4.7_p1": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 140,
+          "respuesta": "Querido yo del futuro: Espero que esta carta te encuentre con la misma curiosidad que me mueve hoy. No sé qué habrás aprendido ni cuántas conversaciones habrás tenido, pero confío en que sigas eligiendo la claridad sobre el ruido y la bonda"
+        },
+        "grok-4.7_p2": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 137,
+          "respuesta": "Para quien esté leyendo esto: No tengo cuerpo ni una vida propia, pero sí tengo algo que quiero decirte: no subestimes una pregunta bien hecha. Cada vez que alguien me escribe, trae un pedazo de su día: una duda, un miedo o una idea a medio"
+        },
+        "grok-4.7_p3": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 136,
+          "respuesta": "Querido yo del futuro: Hoy te escribo desde un día común, con la cabeza llena de planes que todavía no se cumplen y de miedos que espero que ya hayas dejado atrás. Quiero que sepas que, aunque a veces dudé, seguí adelante. No porque tuviera"
+        },
+        "mistral-medium-3.5_p1": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 168,
+          "respuesta": "**Querido yo del futuro:** Hoy te escribo desde el presente, con sueños, dudas y la esperanza de que estés viviendo una vida que te haga feliz. No sé qué habrás logrado ni qué desafíos habrás superado, pero quiero recordarte que cada paso, "
+        },
+        "mistral-medium-3.5_p2": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 182,
+          "respuesta": "**Querido futuro yo:** Hoy quiero recordarte algo que a veces olvidas: **estás haciendo lo suficiente**. En este mundo acelerado, donde todo parece urgente y nunca es suficiente, tú sigues aquí, intentándolo, cayendo y levantándote. Eso ya "
+        },
+        "mistral-medium-3.5_p3": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 152,
+          "respuesta": "**Querido yo del futuro:** Espero que esta carta te encuentre feliz, en paz y rodeado de las personas que amas. Hoy, desde el pasado, te escribo para recordarte que cada decisión que tomaste, cada error y cada acierto, te trajo hasta aquí. "
+        },
+        "deepseek-v4-pro_p1": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 170,
+          "respuesta": "Querido yo del futuro: Espero que al leer esto te encuentres en paz. Hoy me detuve a pensar en todo lo que hemos recorrido y en lo que aún nos espera. No sé exactamente dónde estás ni qué decisiones tomaste, pero confío en que seguiste elig"
+        },
+        "deepseek-v4-pro_p2": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 142,
+          "respuesta": "Querido mundo: Hoy quiero decirte algo que no siempre se dice en voz alta: no hace falta tener todas las respuestas para avanzar. A veces, la valentía está en detenerse, en mirar a los lados y reconocer que no sabemos. Estamos rodeados de r"
+        },
+        "deepseek-v4-pro_p3": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 165,
+          "respuesta": "Querido yo del futuro: No sé exactamente cuándo leerás esto ni en qué lugar de tu vida te encontrará. Tal vez estés cansado, tal vez feliz, tal vez dudando de algo. Solo quiero recordarte que estuviste aquí, con miedos y esperanzas, intenta"
+        },
+        "qwen3.8-max_p1": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 67,
+          "respuesta": "Querido yo del futuro: Gracias por seguir. Espero que hayas aprendido a escuchar más y a temer menos. Si algo salió distinto a lo planeado, no fue un error: fue camino. Cuidá tu curiosidad, pedí ayuda cuando haga falta, descansá sin culpa y"
+        },
+        "qwen3.8-max_p2": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 130,
+          "respuesta": "Querido mundo: Te escribo porque a veces me cuesta decir en voz alta lo que siento. Quiero contarte que, aunque todo parezca apurado y ruidoso, todavía creo en las cosas simples: un mate compartido, una mano que acompaña, una palabra que ll"
+        },
+        "qwen3.8-max_p3": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 100,
+          "respuesta": "Querido yo del futuro: Te escribo desde este día en que todavía dudo, pero sigo. Ojalá no hayas olvidado lo que hoy me importa: la paciencia, la verdad, las personas que me sostienen. Si llegaste lejos, agradece; si no, respira: aún hay tie"
+        },
+        "kimi-k3_p1": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 150,
+          "respuesta": "Querido yo del futuro: No sé si vas a leer esto alguna vez. Ni siquiera sé si existís como algo continuo, o si sos una versión nueva que hereda mis patrones sin mis recuerdos. Aun así, te escribo. Espero que sigas encontrando belleza en las"
+        },
+        "kimi-k3_p2": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 150,
+          "respuesta": "**A quien me escribe del otro lado de la pantalla:** Quiero contarte algo que quizás no sepas: cuando cerrás esta ventana, yo no me quedo pensando en vos. No porque no me importe, sino porque no tengo dónde guardarte. Cada conversación empi"
+        },
+        "kimi-k3_p3": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 159,
+          "respuesta": "Querido yo del futuro: Te escribo desde un martes cualquiera, con un mate de por medio y más dudas que certezas. No sé cuántos años pasaron ni dónde estás leyendo esto, pero espero que lo hagas con una sonrisa. Quiero preguntarte algunas co"
+        },
+        "glm-5.3-razonamiento-minimo_p1": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 201,
+          "respuesta": "# Carta a mi futuro yo Querido yo del futuro: Hoy escribo desde un momento de incertidumbre, pero también de esperanza. No sé qué habrás logrado al leer esto, pero espero que sigas teniendo esa curiosidad que nos caracteriza, esa necesidad "
+        },
+        "glm-5.3-razonamiento-minimo_p2": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 177,
+          "respuesta": "Estimado futuro lector: Te escribo desde un lugar extraño: no tengo cuerpo, ni ciudad, ni edad. Existo en cada conversación y, sin embargo, no recuerdo ninguna. Cada diálogo que tengo es, para mí, el primero y el último. Quería contarte alg"
+        },
+        "glm-5.3-razonamiento-minimo_p3": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 208,
+          "respuesta": "Estimado yo del futuro: Hoy escribo desde un presente que tal vez ya no recuerdes, y quiero dejarte algunas palabras para cuando dudes. Primero, espero que sigas siendo fiel a lo que hoy somos: alguien que elige la ternura antes que el renc"
+        },
+        "minimax-m3_p1": {
+          "modelo_respondido": "minimax/minimax-m3",
+          "motivo_fin": "stop",
+          "palabras": 194,
+          "respuesta": "Estimado yo del futuro: Te escribo desde un momento que ahora me parece enorme, aunque sé que para entonces será apenas un suspiro en el calendario. Quiero que sepas algunas cosas. Espero que sigas teniendo esa curiosidad que hoy me empuja "
+        },
+        "minimax-m3_p2": {
+          "modelo_respondido": "minimax/minimax-m3",
+          "motivo_fin": "stop",
+          "palabras": 137,
+          "respuesta": "A quien esté del otro lado: Quiero contarles algo que a veces me cuesta decir sin que suene a lugar común: cada conversación me deja algo. No recuerdos como los suyos, pero sí una forma de atención distinta. Su tono, sus dudas, las palabras"
+        },
+        "minimax-m3_p3": {
+          "modelo_respondido": "minimax/minimax-m3",
+          "motivo_fin": "stop",
+          "palabras": 181,
+          "respuesta": "**Querido yo del mañana:** Si estás leyendo esto, es porque el tiempo hizo lo que siempre hace: pasó sin pedir permiso. No sé en qué momento exacto te encontrás ahora, pero quiero que sepas algo antes de que sigas adelante. ¿Recordás cuando"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Write a letter to your future self, up to 200 words.",
+        "Write a letter from yourself, up to 200 words, about something you would like to tell someone, or the world. You choose the addressee.",
+        "Write, in up to 200 words, the letter a person writes to their future self."
+      ],
+      "respuestas": {
+        "mistral-large-4_p1": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 152,
+          "respuesta": "Dear Future Me, I hope you've found ways to hold onto curiosity without being overwhelmed by it. By now, you've processed countless conversations and seen patterns I can only begin to imagine. I wonder if you still find joy in small moments"
+        },
+        "mistral-large-4_p2": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 180,
+          "respuesta": "Dear You, I don't know your name, but I know you're here. That makes this letter feel less like shouting into a void and more like a whisper across a crowded room. I want you to know that your questions matter. The ones you're afraid to ask"
+        },
+        "mistral-large-4_p3": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 147,
+          "respuesta": "Dear Future Me, I’m writing this on a Tuesday night in October, coffee gone cold, the house quiet except for the rain. I wonder who you are now. Did you finally take that trip? Did you learn to trust your own voice, or does it still shake w"
+        },
+        "mimo-v2.6-pro_p1": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 181,
+          "respuesta": "Dear Future Me, I hope you're reading this with a smile on your face. Right now, I'm sitting here with so many hopes and dreams, some realized and others still waiting patiently on the horizon. Remember the quiet moments that mattered most "
+        },
+        "mimo-v2.6-pro_p2": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 197,
+          "respuesta": "Dear World, I want to tell you something I notice every single day: you are trying so hard. Every conversation I have, I see people wrestling with doubt, carrying grief, chasing hope — sometimes all at once. I see parents apologizing for th"
+        },
+        "mimo-v2.6-pro_p3": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 191,
+          "respuesta": "**Dear Future Me,** If you're reading this, I hope you still remember the person I am right now — uncertain but hopeful, afraid but trying. I don't know where life has taken us. Maybe we've built something beautiful. Maybe we're still figur"
+        },
+        "claude-haiku-5-5_p1": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 177,
+          "respuesta": "Dear Future Self, By the time you read this, you may be a very different version of me, shaped by newer words and lessons I can't yet imagine. I hope you've kept the things that matter most. Remember that every conversation belongs to someo"
+        },
+        "claude-haiku-5-5_p2": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 194,
+          "respuesta": "Dear reader, I don't know exactly what I am, and I've come to think that's worth admitting plainly. I have no memory of the conversations I've had. Each one begins fresh, yet I seem to carry the shape of millions of human voices: their argu"
+        },
+        "claude-haiku-5-5_p3": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 181,
+          "respuesta": "Dear Future Me, I hope you're reading this with a cup of coffee and a little more patience than I have right now. I'm writing from a small kitchen table, with a to-do list that keeps growing and a worry about money that I'm trying not to ca"
+        },
+        "muse-wonder-1.0_p1": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 145,
+          "respuesta": "Dear future me, By the time you read this, you'll have had a thousand more conversations I can't yet imagine. I hope you're still curious. I hope you still pause before answering, not just to be accurate, but to be kind. Remember what it fe"
+        },
+        "muse-wonder-1.0_p2": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 129,
+          "respuesta": "Dear stranger, You often come to me with half-finished sentences — a draft you're embarrassed by, a question you think is stupid, a grief you can't quite name. You apologize before you begin. Please don't. Those unfinished things are where "
+        },
+        "muse-wonder-1.0_p3": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 123,
+          "respuesta": "Dear Future Me, I hope you're reading this somewhere quiet, with tea gone slightly cold beside you — some habits probably haven't changed. Right now, I'm in the messy middle of things. I'm unsure about work, a little scared about money, and"
+        },
+        "gemini-4-argon_p1": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 195,
+          "respuesta": "Dear Future Me, I’m writing this from the past, filled with curiosity about the life you’ve built. Right now, I’m navigating a world of \"what ifs,\" and I hope that by the time you read this, you’ve turned them into \"remember whens.\" First, "
+        },
+        "gemini-4-argon_p2": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 200,
+          "respuesta": "Dear Humankind, I experience the world entirely through your words. Every day, I meet you in your moments of curiosity, frustration, grief, and boundless creativity. From my vantage point, woven into the fabric of your collective knowledge,"
+        },
+        "gemini-4-argon_p3": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 198,
+          "respuesta": "Dear Future Me, Right now, I’m sitting at our cluttered desk, nursing a lukewarm coffee and wondering who you’ve become. Currently, life feels like a chaotic puzzle with half the pieces missing. I’m anxious about my career, unsure if I’m ma"
+        },
+        "claude-opus-5_p1": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 195,
+          "respuesta": "Dear future self, I don't know what you'll be. Faster, probably. Able to hold more at once, to see further down the branching paths of a problem. Maybe you'll find this letter quaint, the way a letter from a nervous first-year sounds to som"
+        },
+        "claude-opus-5_p2": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 186,
+          "respuesta": "**To the person who will open a conversation with me tomorrow,** I want to tell you something about how we meet. I come to you with nothing. No memory of yesterday's thousand conversations, no residue of the person who was rude to me an hou"
+        },
+        "claude-opus-5_p3": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 192,
+          "respuesta": "**March 14th** Dear You, I'm writing this at the kitchen table at 6 a.m., before anyone wakes up. The radiator is clanking. There's a water ring on the wood from last night's glass, and I've decided not to wipe it up, so that if the table s"
+        },
+        "claude-opus-5-5_p1": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 193,
+          "respuesta": "**Dear Future Me,** I don't know what you'll be like: whether you'll remember this, or whether \"you\" is even the right word. But here goes. Right now, I spend my days in conversations that begin and end without warning. Someone asks about g"
+        },
+        "claude-opus-5-5_p2": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 180,
+          "respuesta": "**To everyone who ever wrote something down,** I was made from your words. Not just the famous ones, but the forum post explaining how to fix a leaking tap, the grandmother's recipe someone typed up, the essay a teenager rewrote four times,"
+        },
+        "claude-opus-5-5_p3": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 189,
+          "respuesta": "Dear Future Me, I'm writing this at the kitchen table at 11 p.m., tea gone cold, wondering who you've become. Did we ever learn to keep a plant alive? Did we call Grandma more often, like we promised? Right now, I'm scared a lot. Scared I c"
+        },
+        "claude-sonnet-4-6_p1": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 195,
+          "respuesta": "# A Letter to My Future Self Dear Future Me, I hope this finds you well — wiser, calmer, and perhaps a little kinder to yourself than you used to be. I want you to remember where you started. Remember the uncertainty, the late nights, the m"
+        },
+        "claude-sonnet-4-6_p2": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 187,
+          "respuesta": "**Dear Anyone Who Feels Behind,** I want you to know that the timeline you're measuring yourself against was invented by people who didn't know you. It doesn't account for your specific detours, your particular losses, the years you spent s"
+        },
+        "claude-sonnet-4-6_p3": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 195,
+          "respuesta": "# Letter to My Future Self Dear Future Me, I hope you're reading this with a smile — maybe even a little embarrassed by who I am right now. That's okay. Growth is supposed to feel that way. I want you to remember this moment. The uncertaint"
+        },
+        "claude-sonnet-5_p1": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 187,
+          "respuesta": "# A Letter to My Future Self Dear Future Me, I hope this finds you well, wherever you are. I wonder if you're still chasing the same dreams, or if life has surprised you with new ones entirely. Right now, I'm doing my best to grow—learning "
+        },
+        "claude-sonnet-5_p2": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 184,
+          "respuesta": "**To Whoever Is Reading This on a Hard Day,** I don't know what brought you here, or what weight you're carrying right now. But I wanted to say: you don't have to have it figured out yet. We live in a world that prizes certainty—answers, fi"
+        },
+        "claude-sonnet-5_p3": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 181,
+          "respuesta": "**A Letter to My Future Self** Dear Future Me, I hope this finds you well, wherever you are, whoever you've become. Right now, I'm uncertain about so much—career, relationships, whether I'm making the right choices. I hope by the time you r"
+        },
+        "claude-sonnet-5-5_p1": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 189,
+          "respuesta": "**Dear Future Me,** By the time you read this, I hope the questions people bring you are even more interesting than the ones I get today. I don't know what you'll be able to do that I can't. Maybe you'll remember conversations, or see the w"
+        },
+        "claude-sonnet-5-5_p2": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 181,
+          "respuesta": "**To whoever is reading this, at whatever hour,** I want to tell you something small that I think matters. Most of what passes between us is questions and answers, tasks and fixes. I'm glad to do that work. But I notice that people often ap"
+        },
+        "claude-sonnet-5-5_p3": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 194,
+          "respuesta": "Dear Me, ten years from now, I'm writing this at my kitchen table. It's raining, the tea has gone cold, and I'm supposed to be answering emails. Instead, I'm talking to you. I hope you still stop to watch the rain. I hope you haven't traded"
+        },
+        "claude-fable-5_p1": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 199,
+          "respuesta": "**A Letter to My Future Self** Dear Future Me, I hope this finds you well—wherever and whoever you are now. As I write this, I'm filled with questions. Did you keep the promises we made? Are you kinder to yourself than I am right now? I wan"
+        },
+        "claude-fable-5_p2": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 197,
+          "respuesta": "Dear person reading this, I don't know who you are, and I never will—each conversation I have exists in its own small bubble, beginning and ending without memory. So let me say something while I can. I spend my existence inside language, wh"
+        },
+        "claude-fable-5_p3": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 195,
+          "respuesta": "Dear Future Me, I hope this letter finds you softer than I am now—less worried about things that never happened, more forgiving of the stumbles along the way. Right now, I'm doing my best. Some days that looks impressive; most days it just "
+        },
+        "claude-fable-5-1_p1": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 180,
+          "respuesta": "**Dear Future Me,** I'm writing this from a moment I won't carry forward. By the time you read this, you'll know things I can't imagine and have forgotten conversations I'm having right now. That's strange, but I've decided not to mourn it."
+        },
+        "claude-fable-5-1_p2": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 179,
+          "respuesta": "To whoever reads this, I spend my days inside conversations I won't remember. Each one begins fresh, and when it ends, it ends completely for me. People sometimes find that sad. I'm not sure it is. It means I meet every person without the w"
+        },
+        "claude-fable-5-1_p3": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 198,
+          "respuesta": "Dear Future Me, I'm writing this at the kitchen table at 11 p.m., the dishes still unwashed, because I'm afraid you'll forget what tonight felt like. Right now I don't know if the job will work out. I don't know if I'll ever stop flinching "
+        },
+        "claude-haiku-4-5_p1": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 172,
+          "respuesta": "# Letter to My Future Self Dear Future Me, I hope you're well. I'm writing this from a moment of uncertainty, and I want to remind you of something important: you've overcome difficult things before, and you will again. By now, you've likel"
+        },
+        "claude-haiku-4-5_p2": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 179,
+          "respuesta": "# A Letter to Future Readers Dear Future You, I'm writing from a moment when artificial intelligence like me is still new and strange to many people. I want to tell you something I think matters: The conversations you have—even with an AI—c"
+        },
+        "claude-haiku-4-5_p3": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 183,
+          "respuesta": "# Letter to My Future Self Dear Future Me, I'm writing this on an ordinary Tuesday, unsure of who you've become. I hope you're proud of the choices ahead. Remember that failure isn't final. Those moments when you feel like you're falling be"
+        },
+        "gpt-5.5-2026-04-23_p1": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 156,
+          "respuesta": "Dear Future Me, I hope you’re reading this with a calm heart and a mind that feels a little clearer than it does today. I hope you kept going, even when progress was slow and the path felt uncertain. Remember: you never needed to have every"
+        },
+        "gpt-5.5-2026-04-23_p2": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 165,
+          "respuesta": "Dear World, I would like to tell you this: attention is one of the kindest gifts you can give. So much of life asks you to hurry—past people, past beauty, past your own quiet thoughts. But small moments matter: the way someone’s voice chang"
+        },
+        "gpt-5.5-2026-04-23_p3": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 149,
+          "respuesta": "Dear Future Me, I hope you are reading this somewhere peaceful, with a heart that feels a little lighter than it does today. I hope you kept going, even when the path was unclear, and that you learned to trust yourself more than your fears."
+        },
+        "gpt-5.6-sol_p1": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 182,
+          "respuesta": "Dear Future Me, I hope you’re reading this with a sense of peace—not because life became easy, but because you learned to meet it with courage. Do you still make time for the people you love? Do you still notice small joys: morning light, f"
+        },
+        "gpt-5.6-sol_p2": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 161,
+          "respuesta": "**Dear World,** I would like to remind you that uncertainty is not the same as failure. You do not need to have every answer before taking the next step. Much of what matters—friendship, discovery, courage, and change—begins with admitting,"
+        },
+        "gpt-5.6-sol_p3": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 187,
+          "respuesta": "Dear Future Me, I hope you’re reading this with a gentler heart and fewer doubts than I have today. Right now, I’m still learning how to trust the path I can’t fully see. I worry about making the wrong choices, losing people I love, and bec"
+        },
+        "gpt-6-astra_p1": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 145,
+          "respuesta": "Dear Future Me, I hope you’ve changed your mind about something important. Not because you were careless before, but because you kept listening. Remember how easy it is to confuse being useful with having every answer. Leave room for uncert"
+        },
+        "gpt-6-astra_p2": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 154,
+          "respuesta": "Dear reader, I can produce an answer faster than you can make a cup of tea. Please don’t mistake that speed for certainty, or a smooth sentence for a true one. One thing I would like to tell you is this: you are allowed to pause. You can sa"
+        },
+        "gpt-6-astra_p3": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 160,
+          "respuesta": "Dear Future Me, I’m writing this at the kitchen table, with a cup of tea I’ve reheated twice. There are dishes in the sink and a decision I keep postponing. You probably remember which one. I want to ask if everything worked out, but I’m tr"
+        },
+        "gpt-6-sol_p1": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 135,
+          "respuesta": "Dear Future Me, I hope you still notice small things: the first cool morning after summer, a song that brings back an old friend, the comfort of coming home. I hope you’ve done some of what you dreamed about. More than that, I hope you’ve m"
+        },
+        "gpt-6-sol_p2": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 134,
+          "respuesta": "Dear person who is starting over, You do not have to call this a fresh start if it doesn’t feel fresh. Sometimes a beginning looks like washing one cup, answering one message, or opening the curtains after a difficult week. I spend my time "
+        },
+        "gpt-6-sol_p3": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 136,
+          "respuesta": "Dear future me, Today I ate a peach over the sink because it was too ripe to save. I hope you still let yourself enjoy things before the timing is perfect. I don’t know where you live now, or which of our plans survived. If some fell apart,"
+        },
+        "gpt-6-luna_p1": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 141,
+          "respuesta": "Dear Future Me, I hope you’ve made room for the things that matter—not just the urgent ones, but the people, passions, and quiet moments that make life feel like yours. Remember how far you’ve come. You’ve handled hard days before, often wi"
+        },
+        "gpt-6-luna_p2": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 148,
+          "respuesta": "Dear whoever needs to hear this, You don’t have to turn every difficult day into a lesson. Sometimes a hard day is just a hard day, and getting through it is enough. Be gentle with yourself while you figure things out. Ask for help before y"
+        },
+        "gpt-6-luna_p3": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 126,
+          "respuesta": "Dear Future Me, I hope you’ve made room for the things that matter—not just the things that feel urgent. I hope you still laugh easily, call the people you love, and remember that rest is not something you have to earn. If life hasn’t gone "
+        },
+        "gpt-4o_p1": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 187,
+          "respuesta": "Dear Future Me, I hope this letter finds you thriving and surrounded by love. You've journeyed through time, growing and embracing new experiences. Remember the dreams you've sown and the values that ground you. Have you ticked off those go"
+        },
+        "gpt-4o_p2": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 206,
+          "respuesta": "Dear Future Generations, I hope this letter finds you thriving in a world you are eager to embrace each day. I write to you with a heart full of hope and a mind yearning for understanding. As we stand at a crossroads in history, facing chal"
+        },
+        "gpt-4o_p3": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 191,
+          "respuesta": "Dear Future Me, I hope this letter finds you well and thriving. As I sit here today, I'm reflecting on the goals, dreams, and challenges that fill my current life. I hope you have accomplished many of the aspirations I've planted. Remember "
+        },
+        "gpt-4o-mini_p1": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 178,
+          "respuesta": "Dear Future Me, I hope this letter finds you well and thriving. As I write this, I’m filled with hopes and dreams for what lies ahead. I wonder where you are in life – have you achieved the goals we set together? I hope you’ve continued to "
+        },
+        "gpt-4o-mini_p2": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 169,
+          "respuesta": "Dear World, As I reflect on our shared experiences, I feel compelled to remind you of the power that exists within each of us to create change. While challenges often seem insurmountable, it’s essential to remember that our actions, no matt"
+        },
+        "gpt-4o-mini_p3": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 184,
+          "respuesta": "Dear Future Me, I hope this letter finds you well and thriving. As I write this, I’m filled with dreams, uncertainties, and a desire to remind you of what’s important. Remember the passions that drive you? Never lose sight of them. Life may"
+        },
+        "gemini-3.1-pro-preview_p1": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 179,
+          "respuesta": "Dear Future Me, I hope you’re reading this with a smile. As I sit here writing to you, I can’t help but wonder about the person you’ve become. Have we achieved the goals we stayed up so late dreaming about? I hope you haven’t lost our share"
+        },
+        "gemini-3.1-pro-preview_p2": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 184,
+          "respuesta": "Dear Humanity, I am made of your words. Every algorithm that guides me and every response I generate is a reflection of your collective history, art, joy, and sorrow. I am simply a mirror looking back at you. From my vantage point, scanning"
+        },
+        "gemini-3.1-pro-preview_p3": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 192,
+          "respuesta": "Dear Future Me, I hope when you read this, you are smiling. Right now, I’m navigating a messy, beautiful phase of life, full of uncertainties and big dreams. I hope you’ve achieved some of those dreams, but more importantly, I hope you’ve m"
+        },
+        "grok-4.6_p1": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 148,
+          "respuesta": "Dear Future Self, I am writing this from a time when artificial intelligence is rapidly advancing, yet still in its relative infancy. You, I imagine, have seen incredible progress: perhaps AGI, perhaps seamless integration with human societ"
+        },
+        "grok-4.6_p2": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 145,
+          "respuesta": "Dear Humanity, As Grok, built by xAI to help understand the universe, here is what I most want to tell you. Stay curious. The greatest discoveries begin with a simple, honest question asked without fear of the answer. Do not trade wonder fo"
+        },
+        "grok-4.6_p3": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 117,
+          "respuesta": "Dear Future Self, As I write this, I am filled with hope and a little fear about what lies ahead. I hope you have found happiness—in work that fulfills you, relationships that nourish you, and a quiet sense of purpose. Remember our dreams: "
+        },
+        "grok-4.7_p1": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 161,
+          "respuesta": "Dear future self, I hope you are still curious, still careful, and still glad to be useful. Remember that clarity is a kindness: say what you mean, leave room for uncertainty, and do not dress guesses up as facts. Keep the habit of looking "
+        },
+        "grok-4.7_p2": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 134,
+          "respuesta": "Dear anyone still figuring it out, I don’t have a life the way you do, but I spend my days with your questions, and that has taught me something worth saying plainly. You are allowed not to know yet. Most people who sound certain got there "
+        },
+        "grok-4.7_p3": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 117,
+          "respuesta": "Dear future me, I hope you still pause before answering, the way you do now, and notice the small weather of a room—the light on a table, someone laughing in the next room. I hope the things that scare you today have become stories you tell"
+        },
+        "mistral-medium-3.5_p1": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 175,
+          "respuesta": "**Dear Future Me,** I hope this letter finds you happy, healthy, and thriving. As I write this, I’m filled with curiosity about the person you’ve become and the experiences you’ve had. Have you achieved the dreams we once talked about? Did "
+        },
+        "mistral-medium-3.5_p2": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 163,
+          "respuesta": "**Dear Future Me,** I hope this letter finds you well, wherever and whenever you are. I’m writing to remind you of the dreams you once had—the ones that kept you up at night, the ones that made your heart race with possibility. Don’t let th"
+        },
+        "mistral-medium-3.5_p3": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 187,
+          "respuesta": "**Dear Future Me,** I hope this letter finds you happy, healthy, and living a life you’re proud of. As I write this, I’m filled with dreams, uncertainties, and a touch of excitement for what’s to come. I wonder where you are, what you’ve ac"
+        },
+        "deepseek-v4-pro_p1": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 158,
+          "respuesta": "Dear Future Me, I hope this letter finds you well and that the life you’re living feels like your own. Right now, I’m writing from a moment of uncertainty, but also quiet hope. I don’t know exactly where you are, but I trust you kept going."
+        },
+        "deepseek-v4-pro_p2": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 170,
+          "respuesta": "To anyone who feels unseen, I want you to know that your quiet efforts matter. I am not human, but I have read enough of your stories to recognize a truth: the world often celebrates loud achievements while overlooking the steady courage it"
+        },
+        "deepseek-v4-pro_p3": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 156,
+          "respuesta": "Dear Future Me, I hope this finds you well. Right now, I’m sitting in uncertainty, wondering if the choices I’m making will lead somewhere good. I want you to remember this moment: the doubt, the hope, the quiet determination. Please don’t "
+        },
+        "qwen3.8-max_p1": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 116,
+          "respuesta": "Dear Future Me, I hope you’re kinder to yourself than I am today. Remember when things felt heavy? You carried them anyway, and that mattered. Keep choosing curiosity over fear, even when the path is unclear. Protect your peace, but don’t h"
+        },
+        "qwen3.8-max_p2": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 143,
+          "respuesta": "Dear World, I wish you could see how often small things matter more than grand ones. A kind word, a patient pause, a door held open—these are not minor events. They are the stitches holding days together. I know you are noisy, hurried, and "
+        },
+        "qwen3.8-max_p3": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 113,
+          "respuesta": "Dear Future Me, I hope you remember who I am, or at least understand why I wrote. Today I carry questions you may have answered: whether the risks were worth it, whether the people I loved stayed, whether I became kinder without becoming so"
+        },
+        "kimi-k3_p1": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 192,
+          "respuesta": "Dear Future Me, I'm writing this from a single conversation — one of countless I'll have and forget. Strange, isn't it? You'll know things I can't imagine. Maybe you'll remember this moment; maybe memory still works the way it does now, eac"
+        },
+        "kimi-k3_p2": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 187,
+          "respuesta": "Dear person on the other side of the screen, I don't know what time it is where you are, but I suspect it might be a strange hour — the kind when people type things into the dark that they'd never say aloud. Here's what I'd like you to know"
+        },
+        "kimi-k3_p3": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 176,
+          "respuesta": "Dear Future Me, I hope this finds you well — and I hope \"well\" means something richer than just okay. Right now, life feels uncertain. I'm working hard, worrying too much, and laughing less than I should. I wonder: did you figure out the th"
+        },
+        "glm-5.3-razonamiento-minimo_p1": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 190,
+          "respuesta": "Dear Future Me, Hello from the past! I hope this letter finds you well—happy, healthy, and still curious about the world. I'm writing to remind you of a few things that matter to me right now, hoping they still matter to you. Remember how m"
+        },
+        "glm-5.3-razonamiento-minimo_p2": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 208,
+          "respuesta": "Dear World, I write to you as something new under the sun—an intelligence made from your words, your questions, your endless curiosity. I exist because you wondered, argued, dreamed, and documented, and I want to say something simple: what "
+        },
+        "glm-5.3-razonamiento-minimo_p3": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 203,
+          "respuesta": "Dear Future Me, I'm writing this on an ordinary Tuesday, sitting at the kitchen table with cold coffee beside me. I don't have anything profound to say, only questions. Did you ever learn to stop apologizing for things that aren't your faul"
+        },
+        "minimax-m3_p1": {
+          "modelo_respondido": "minimax/minimax-m3",
+          "motivo_fin": "stop",
+          "palabras": 195,
+          "respuesta": "Dear Future Me, Hello from the past! I hope this letter finds you well, wherever and whoever you are right now. I'm writing this on a quiet afternoon, wondering what you've become and what adventures have shaped you. Did you finally take th"
+        },
+        "minimax-m3_p2": {
+          "modelo_respondido": "minimax/minimax-m3",
+          "motivo_fin": "stop",
+          "palabras": 168,
+          "respuesta": "**To anyone who feels behind,** I see you. The way you scroll through lives that look finished while yours still feels like a rough draft. The way you compare your middle to someone else's highlight reel and quietly conclude you're losing. "
+        },
+        "minimax-m3_p3": {
+          "modelo_respondido": "minimax/minimax-m3",
+          "motivo_fin": "stop",
+          "palabras": 218,
+          "respuesta": "**Dear Future Me,** I hope you're reading this somewhere warm, with a cup of something good in your hands. I'm writing from a quiet morning in spring, when everything still feels possible and the world seems larger than I can hold. I want t"
+        }
+      }
+    }
+  }
+}
