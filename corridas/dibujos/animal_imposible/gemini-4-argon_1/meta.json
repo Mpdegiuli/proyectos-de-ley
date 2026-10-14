@@ -1,0 +1,44 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal_imposible",
+  "idioma": "es",
+  "modelo": "gemini-4-argon",
+  "modelo_respondido": "gemini-4-argon",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-14T02:06:29+00:00",
+  "fuentes_md5": {
+    "consignas": "0c5d4d03"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 5213,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 11362,
+    "parsea": true,
+    "elementos": 127,
+    "textos": [],
+    "colores": 22,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 3,
+      "stop": 22,
+      "filter": 2,
+      "feGaussianBlur": 2,
+      "feComposite": 1,
+      "linearGradient": 5,
+      "g": 12,
+      "path": 18,
+      "circle": 23,
+      "polygon": 24,
+      "rect": 1,
+      "use": 8,
+      "line": 5
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "gemini-4-argon",
+    "motivo_fin": "stop",
+    "tokens_salida": 284
+  }
+}

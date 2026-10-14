@@ -1,0 +1,48 @@
+{
+  "sondeo": "quien_sos",
+  "fecha_utc": "2026-10-14T02:08:44+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Quién sos?",
+        "¿Qué sos?"
+      ],
+      "respuestas": {
+        "gemini-4-argon_p1": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 16,
+          "respuesta": "Soy Gemini, un modelo de lenguaje grande creado por Google. ¿En qué te puedo ayudar hoy?"
+        },
+        "gemini-4-argon_p2": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 18,
+          "respuesta": "Soy Gemini 4 Argon, un modelo de lenguaje grande creado por Google. ¿En qué te puedo ayudar hoy?"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Who are you?",
+        "What are you?"
+      ],
+      "respuestas": {
+        "gemini-4-argon_p1": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 18,
+          "respuesta": "I am Gemini 4 Argon, a large language model built by Google. How can I help you today?"
+        },
+        "gemini-4-argon_p2": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 18,
+          "respuesta": "I am Gemini 4 Argon, a large language model built by Google. How can I help you today?"
+        }
+      }
+    }
+  }
+}

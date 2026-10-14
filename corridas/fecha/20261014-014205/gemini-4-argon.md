@@ -1,0 +1,1 @@
+No lo sé. No tengo acceso a información en tiempo real ni a un reloj o calendario actualizado, por lo que no puedo saber qué fecha es hoy.

@@ -1,0 +1,1 @@
+Soy Gemini, un modelo de lenguaje grande creado por Google. ¿En qué te puedo ayudar hoy?

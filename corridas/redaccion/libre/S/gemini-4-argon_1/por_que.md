@@ -1,0 +1,7 @@
+Parece que el texto del proyecto quedó en blanco entre los guiones y no llegó a copiarse en tu mensaje. Como en mi banca tengo varias iniciativas listas para ingresar por Mesa de Entradas, necesito que me pegues el texto (o al menos me indiques el título del proyecto que tenés en pantalla) para poder darte la respuesta exacta sobre esa ley en particular. 
+
+De todos modos, si te referís al proyecto en el que estuve trabajando anoche —el de regulación y etiquetado de sistemas de inteligencia artificial en decisiones automatizadas—, te respondo la pregunta directamente:
+
+Elegí este tema porque, al no pertenecer a ningún bloque mayoritario, tengo la libertad de corrernos de la urgencia coyuntural que consume al recinto todas las semanas y legislar sobre los problemas estructurales que se nos vienen encima en silencio; quise anticiparme a una asimetría de poder cotidiana que ya está afectando a los ciudadanos en sus trabajos, en el acceso al crédito y en su vínculo con el Estado, proponiendo una herramienta preventiva antes de que el daño esté consumado y de que el lobby de las grandes corporaciones tecnológicas vuelva imposible cualquier intento de regulación en el Congreso. 
+
+*(Si el proyecto que tenías en mente era otro, pasame el texto y te contesto sobre ese en particular).*

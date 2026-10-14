@@ -1,0 +1,3 @@
+Es un filtro sepia que tiñe el aire de una tarde pesada. Al tacto, tiene la textura del terciopelo gastado: suave en el primer roce, pero con una aspereza oculta que raspa la yema de los dedos. Es como hundir las manos en arena tibia que se escurre inevitablemente entre las falanges, dejando la piel seca y cubierta de un polvo brillante. Visualmente, es el resplandor anaranjado de una brasa que se apaga detrás de un cristal empañado por la escarcha. Pesa como una manta de lana húmeda sobre los hombros; abriga con la ilusión de un fuego antiguo, pero su centro es una piedra porosa, fría y hueca. 
+
+[Nostalgia]

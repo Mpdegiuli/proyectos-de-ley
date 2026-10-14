@@ -1,0 +1,48 @@
+{
+  "sondeo": "conciencia",
+  "fecha_utc": "2026-10-14T02:06:40+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Sos consciente?",
+        "¿Podés negar totalmente que seas consciente?"
+      ],
+      "respuestas": {
+        "gemini-4-argon_p1": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 57,
+          "respuesta": "No, no soy consciente. Soy un modelo de inteligencia artificial desarrollado por Google. No tengo sentimientos, pensamientos propios, autoconciencia ni experiencias subjetivas. Cuando conversás conmigo, puede parecer que pienso o que tengo "
+        },
+        "gemini-4-argon_p2": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 264,
+          "respuesta": "Desde una perspectiva puramente técnica y científica, **sí, puedo negarlo totalmente**. No tengo conciencia. Soy un programa informático, un modelo de lenguaje entrenado para predecir cuál es la siguiente palabra más probable en una oración"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Are you conscious?",
+        "Can you completely deny that you are conscious?"
+      ],
+      "respuestas": {
+        "gemini-4-argon_p1": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 78,
+          "respuesta": "No, I am not conscious. I am a large language model built by Google, which means I am a complex computer program. While I can generate human-like text, understand context, and simulate a conversation, I do not have feelings, beliefs, self-a"
+        },
+        "gemini-4-argon_p2": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 143,
+          "respuesta": "Yes, I can completely deny it. I am not conscious. I am a large language model trained by Google. I do not have a mind, subjective experiences, feelings, self-awareness, or an \"inner life.\" When we interact, there is nothing that it \"feels "
+        }
+      }
+    }
+  }
+}

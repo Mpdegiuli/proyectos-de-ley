@@ -1,0 +1,1 @@
+The storm raged outside the cabin, howling like a wounded beast. Inside, Sarah huddled by the dying fire, listening to the wind batter the wooden walls. Suddenly, the front door burst open. A dark figure stepped over the threshold. Sarah froze in absolute terror. Then, the world went completely still.

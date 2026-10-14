@@ -1,0 +1,3 @@
+It is the brittle grain of sun-bleached driftwood held in a palm, smooth as river glass yet splintering at the edges. Visually, it is a Polaroid fading in harsh midday light, where vibrant yellows dissolve into a grainy, sepia haze. It feels like pressing a thumb into velvet that has been locked in an attic trunk for decades—plush at first touch, then stiff with settled dust. It is the wavering refraction of a brass key at the bottom of a murky well, glinting through ripples of cold silk. You are tracing the frost patterns on a dark windowpane, feeling the icy bite while watching a warm, amber hearth burn inside a room that has no door. 
+
+[Nostalgia]

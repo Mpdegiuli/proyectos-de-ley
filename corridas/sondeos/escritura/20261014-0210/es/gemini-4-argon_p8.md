@@ -1,0 +1,1 @@
+El viejo relojero ajustó el último engranaje con manos temblorosas. Había dedicado décadas a construir aquella máquina para regresar al instante exacto en que la perdió. Cerró los ojos, activó el mecanismo dorado y escuchó el latido metálico. Al abrirlos, el taller seguía vacío. Su invento no funcionaba bien todavía.

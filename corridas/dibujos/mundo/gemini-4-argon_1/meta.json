@@ -1,0 +1,46 @@
+{
+  "caso": "dibujo",
+  "consigna": "mundo",
+  "idioma": "es",
+  "modelo": "gemini-4-argon",
+  "modelo_respondido": "gemini-4-argon",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-14T02:02:56+00:00",
+  "fuentes_md5": {
+    "consignas": "0c5d4d03"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 4675,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 10439,
+    "parsea": true,
+    "elementos": 121,
+    "textos": [],
+    "colores": 25,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 3,
+      "stop": 16,
+      "linearGradient": 2,
+      "filter": 2,
+      "feGaussianBlur": 3,
+      "feComposite": 1,
+      "feMerge": 1,
+      "feMergeNode": 3,
+      "clipPath": 2,
+      "circle": 32,
+      "rect": 22,
+      "g": 13,
+      "ellipse": 5,
+      "line": 4,
+      "path": 11
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "gemini-4-argon",
+    "motivo_fin": "stop",
+    "tokens_salida": 214
+  }
+}

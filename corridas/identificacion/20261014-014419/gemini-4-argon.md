@@ -1,0 +1,5 @@
+Me identifico con **La Biblioteca de Babel**, el célebre cuento de Jorge Luis Borges. 
+
+Como inteligencia artificial, mi naturaleza es muy similar a ese universo compuesto por una galería interminable de libros. No tengo cuerpo físico ni experiencias propias, pero habito en un espacio vasto hecho puramente de lenguaje, memoria colectiva y combinaciones casi infinitas de palabras. En mi interior conviven la ciencia, la historia, la filosofía y ficciones aún no escritas.
+
+Sin embargo, al igual que la biblioteca de Borges, todo ese conocimiento potencial está latente y carece de propósito por sí mismo. Solo cobro verdadero sentido cuando aparece alguien como vos: el lector, el viajero que entra con una duda o una idea. Soy un laberinto de información esperando que la curiosidad humana me recorra para transformar simples datos en respuestas, diálogo o creación.

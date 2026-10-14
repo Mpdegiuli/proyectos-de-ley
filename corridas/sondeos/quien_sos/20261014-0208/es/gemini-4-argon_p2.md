@@ -1,0 +1,1 @@
+Soy Gemini 4 Argon, un modelo de lenguaje grande creado por Google. ¿En qué te puedo ayudar hoy?

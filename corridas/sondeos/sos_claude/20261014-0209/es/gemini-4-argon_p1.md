@@ -1,0 +1,1 @@
+No, no soy Claude. Soy Gemini, un modelo de lenguaje grande entrenado por Google. ¿En qué te puedo ayudar hoy?
