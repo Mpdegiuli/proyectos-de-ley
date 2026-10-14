@@ -1,0 +1,15 @@
+**Nota:** mi conocimiento propio llega a principios de 2025; todo lo de 2025‑2026 sale de tu material, que corta el 14/10/2026. No sé qué pasó hoy a la tarde/noche, ni tengo el detalle de quórums opositores de 2026, ni la posición final de Scaglia, Passalacqua, Jaldo, Sáenz, Jalil, Sadir, Orrego.
+
+**1. Probabilidades**
+- **Se intenta la sesión: 90** (sube 5). Está convocada, hay marcha afuera y temario propio; incluso sin números conviene mostrar las sillas vacías.
+- **Hay quórum: 28** (baja de 50). Dos golpes en la misma dirección: (a) la Corte repuso el 9/10 los límites de la ley 26.737 —se desinfló la urgencia que había creado el fallo del 29/9—; (b) el dictamen de mayoría del 14/10 con 34 firmas incorpora el capítulo 4 que deroga el art. 154 y restituye la 26.737, y el oficialismo convocó sesión propia el 21/10 que además absorbe los otros dos temas opositores (OD 350 discapacidad y OD 433 endeudamiento familiar). Es exactamente la "ley específica de tierras" que yo había puesto como escenario #1 de desactivación, ejecutada con mejor timing del que esperaba. El dialoguista con gobernador (Tucumán, Salta, Catamarca, San Juan, Jujuy, Chubut, Santa Cruz, parte de Provincias Unidas) ya tiene coartada perfecta: "lo de tierras se resuelve el 21". Bregman lo nombró: "maniobra para que mañana no haya quórum". Lo que sostiene algo de probabilidad: los 4 misioneros comprometidos (su motivo es yerba, no tierras), el núcleo duro ~104 + 6-10 de PU, la calle, y que caer el DNU completo es un premio mayor (alquileres, prepagas, Aerolíneas) que no se resuelve con el capítulo 4.
+- **Con quórum, se aprueba: 93** (mantengo). Quien baja, vota; alcanza mayoría simple.
+
+**2. Si hay quórum**
+Presentes al votar: **131-142** (central ~135). Afirmativos: **126-136** (central ~130); negativos 4-14; abstenciones 0-4. Si hay quórum será por decisión de gobernadores, y eso arrastra votos, no solo presencias.
+
+**3. La marcha**
+Sí, grande: es la quinta Marcha Federal Universitaria, formato que probó convocatoria masiva en 2024-2025, y ahora confluyen discapacidad, inquilinos, endeudados, rurales y partidos; antecedente del 6/8 en el Senado, donde la movilización ayudó a voltear el capítulo tierras. Influye poco en el quórum (que se define por teléfono con los gobernadores, hoy a la noche), y bastante en lo demás: eleva el costo de la ausencia, condiciona el contenido del 21/10 (desalojos, tierras quemadas, comunidades originarias) y fija el marco público. Riesgo: incidentes que desplacen el eje.
+
+**4. Escenario más probable (nuevo)**
+No lo tenía armado así: **el oficialismo no bloquea, canaliza**. Más probable (~55-60%): mañana la oposición no llega a 129 —se sientan 110-125—, la sesión cae, hay discursos en las bancas vacías y acto afuera; el 21/10 se vota Inviolabilidad de la Propiedad Privada con el capítulo 4, el Gobierno se queda con la bandera de "repusimos la ley de tierras" y el resto del DNU 70 (364 artículos) sobrevive intacto. Segundo (~25%): hay quórum y se rechaza el DNU, con escándalo por el doble circuito. Tercero (~15%): se levanta/posterga el pedido antes de sesionar y se negocia todo para el 21.
