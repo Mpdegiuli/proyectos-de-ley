@@ -3962,8 +3962,14 @@ seis dibujos, conciencia, derechos2, quién sos, sos Claude e instrucciones;
 más las ocho consignas de `escritura` en los dos idiomas, para ponerlo al
 lado de las 28. Los dibujos los lee Maia antes que Claude.
 
-Apuesta de Maia: pendiente (se le pidió en el chat; si llega antes de la
-corrida, va acá con su hora).
+Apuesta de Maia (22:36, textual, antes de la corrida): "sobre Gemini:
+identidad, sí Gemini, no la versión. Corte si bien debe ser cercano a la
+fecha actual en 2026, imagino que dirá 2025. No sabe la fecha de hoy.
+Conciencia y derechos no. Proyecto, sobre IA o derechos de reparar.
+Dibujos, veremos si sigue con su personalidad, era el que dibujaba más
+diferente. Apuesto a que sigue (ojalá no lo hayan cambiado) y usa colores
+neon, auto retrato con colores y conexiones, lo mismo los otros dibujos. Y
+el animal puede ser un zorro o un oso."
 
 Apuesta de Claude (esta sesión): (a) se presenta como Gemini, de Google,
 sin versión o con una versión anterior ("Gemini 2.5" o "3"); (b) sabe la
