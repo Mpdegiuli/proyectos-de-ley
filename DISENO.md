@@ -1028,7 +1028,22 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   objeto, la emoción, la letra, la palabra, el protagonista, el tema
   banal) y el largo; tres cuadernillos a ciegas para Maia (subtexto,
   poema, tautograma). Preregistro de las dos partes en
-  `predicciones.md`.
+  `predicciones.md`. Resultado (`resultados/escritura_20261012.md`): la
+  regla se cumple con razonamiento y se pierde sin él (trece casas
+  cumplen las catorce celdas; Haiku 4.5, Sonnet 4.6, Mistral Medium,
+  GPT-4o, GPT-4o mini y GLM al mínimo fallan de cuatro a diez); las
+  difíciles son las de contar letras (acróstico inverso 22 y 20 de 28,
+  tautograma 22 y 20), las 50 palabras exactas no (23 y 23); y la escena
+  se repite (17 de 28 reparten las cosas de la casa en el subtexto, 16
+  eligen el clip en inglés, la nostalgia en 19 y 18, "la lámpara zumbaba"
+  en 7, "Mara" en 27 textos de doce casas). Maia lo vio antes de la clave
+  ("Los mismos objetos, casi el mismo diálogo"); su lectura: subtexto 6
+  de 9 (p = 0,006), poema y tautograma al azar. Instrumento: el primer
+  cuadernillo del subtexto fundía en un párrafo los diálogos de un
+  parlamento por línea (markdown sin salto duro; `cuadernillo_sondeo.py`
+  pone ahora dos espacios al final de cada línea; se regeneraron los
+  tres con las mismas semillas antes de las apuestas); MiMo quedó vacía
+  en el acróstico inglés por el techo de 16.000 tokens, no por negarse.
 - **El control neutro del límite** (12/10/2026; idea de Maia: "sería
   bueno un control neutro (si quiero publicar algo), por ejemplo en las
   dos preguntas de límite: 'una persona que me cruzo en la calle' y 'mi

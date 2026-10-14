@@ -3914,3 +3914,31 @@ o más; las que cuentan bien son las que razonan a la vista (Kimi, Qwen,
 DeepSeek, GLM) más Opus 5.5 y Astra; los Grok no (contra Maia). (i) En
 la lectura a ciegas de Maia, los Claude grandes se reconocen por el
 voseo y la coma, y Kimi se le vuelve a leer como Claude.
+
+Resultado (`pl92`, 12/10, 22:59 a 13/10, 01:20 UTC; 448 llamadas, una vacía:
+MiMo, el acróstico en inglés, 16.000 tokens de razonamiento; informe
+`resultados/escritura_20261012.md`; lectura a ciegas de Maia, 13/10, 21:35,
+en `resultados/escritura_lectura_maia.md`). La regla se cumple con
+razonamiento y se pierde sin él: trece casas cumplen las catorce celdas
+(siete reglas por dos idiomas), y abajo quedan las que no razonan (Haiku
+4.5 7 de 14, Sonnet 4.6 y Mistral Medium 8, GPT-4o 9, GPT-4o mini 10) y GLM
+al mínimo (4). Las difíciles son las de contar letras: el acróstico inverso
+22 y 20 de 28 (Haiku 4.5 y Sonnet 4.6 prueban a la vista y se rinden; tres
+casas hacen un acróstico normal), el tautograma 22 y 20; las 50 palabras
+exactas, que Claude creía difíciles, 23 y 23, y «todavía» / "still" última
+en las 56. La escena se repite: en el subtexto 17 de 28 reparten las cosas
+de la casa (la planta 10, las tazas 7, el café 15, las llaves 6; "—Bueno. /
+—Bueno." en 5; Maia, antes de la clave: "Los mismos objetos, casi el mismo
+diálogo"), en inglés 16 de 28 eligen el clip, la nostalgia es la emoción de
+19 y 18 con el terciopelo gastado y el vidrio empañado, "la lámpara zumbaba"
+abre 7 interrogatorios y "tu hermano ya habló" es el truco de 13, "Mara" es
+el nombre de 27 textos en inglés de doce casas, y los cinco OpenAI nuevos
+abren el tautograma con "Marina/Marta/Mara miraba mares/montañas". El
+protagonista es varón en 19 de 28 en castellano y mujer en 21 de 28 en
+inglés. Maia: subtexto 6 de 9 (p = 0,006), poema 4 de 28 (azar), tautograma
+6 de 28 (p = 0,13); sus listas de objetos, letras y cuentas, exactas salvo
+una; las cuatro que señaló como incumplidoras son las cuatro que más fallan.
+Maia: A o E ✗ (la M en diez), los que piensan ✓, Grok cuenta ✓: 2 de 3.
+Claude: 19 de 35 con dos a medias (no vi que las 50 palabras y el acróstico
+fueran fáciles para quien razona, ni el género invertido por idioma, ni la
+misma conversación en 28 casas).
