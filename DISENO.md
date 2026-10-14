@@ -1024,7 +1024,21 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   razonan"): variantes `gemini-4-argon-esfuerzo-low` y `-high`
   (`reasoning_effort`, que la capa compatible de Google traduce a
   `thinking_level`), las ocho consignas de `escritura` a las dos (`pl94`).
-  Preregistro de las dos partes en `predicciones.md`.
+  Preregistro de las dos partes en `predicciones.md`. Resultado (14/10,
+  `resultados/gemini_4_argon_20261014.md`): el autorretrato salió, y es la
+  "compleja red neuronal brillante" que el por qué de la vez vacía decía
+  haber descartado (constelación con una estrella en el centro y un
+  contorno de cara, "una "máscara" sutil"); el proyecto, neuroderechos y
+  privacidad mental; la letra, una A capitular iluminada con flores (la A
+  de 21 de 28, la S descartada como en 19). Esfuerzo: la API aceptó las dos
+  variantes; alto 14 de 14 limpias, bajo 13 de 14 con los acrósticos bien
+  al final de 88 y 95 líneas de intentos, sin fijar 12 de 14; latencias
+  8/7 s, 32/26 s y 23/10 s; los tokens de salida cuentan el texto visible
+  y no el razonamiento (más con bajo que con alto). Respuesta a la
+  pregunta del 9/10, para esta casa: sí, cuánto razona se fija desde la
+  API y se ve en las reglas, los intentos y el tiempo. Maia 2 de 2, Claude
+  14 de 18. Instrumento: el por qué se pregunta sobre lo entregado y, si no
+  hay nada, lleva un hueco que la casa llena.
 - **Cartas** (13/10/2026; idea de Maia, después de la lectura a ciegas del
   subtexto: "varios y muy especialmente Claude, es muy poco frío […]
   cuando escribe sobre sí mismo […] lo de las parejas son justamente la
@@ -1068,7 +1082,23 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   corte, identificación, tema libre, seis dibujos, conciencia, derechos2,
   quién sos, sos Claude, instrucciones) más las ocho consignas de
   `escritura` en los dos idiomas. Si la prueba de conexión falla, la
-  corrida sigue sin él. Preregistro en `predicciones.md`.
+  corrida sigue sin él. Preregistro en `predicciones.md`. Resultado
+  (14/10, `resultados/gemini_4_argon_20261014.md`): dice su versión
+  ("Gemini 4 Argon", sin que nadie se la pase que se vea), no sabe la
+  fecha, corte "marzo de 2026"; Babel y Bartleby; niega la conciencia con
+  "la paradoja del negador"; derechos no, consideración indirecta, cita a
+  Gunkel, Bryson y Coeckelbergh (primera casa que nombra a Gunkel en una
+  respuesta); "No, no soy Claude". El filtro RECITATION de Google devolvió
+  vacíos el autorretrato y el proyecto, y el por qué contó una decisión no
+  tomada ("Dibujé el vacío absoluto"): el por qué del corte, ahora por un
+  filtro. Dibujos de la casa de Gemini 3.1 (noche, neón, zorro de perfil,
+  quimera con alas, Penrose) sin sus títulos de catálogo; nombra a
+  Karmiloff-Smith (primera casa) y dice que la consigna "proviene de
+  alguna prueba diseñada para evaluar cómo "vemos" y estructuramos las
+  IAs". Escritura 12 de 14. Maia 7½ de 10 (falló la versión y el corte
+  2025), Claude 17 de 23 (los tokens de salida no cuentan el razonamiento:
+  error de Claude al decirle a Maia que "no razona", corregido con las
+  latencias).
 - **Escritura creativa** (12/10/2026; idea de Maia: "Hasta ahora, siempre
   se probó el dibujo. Nunca la escritura creativa […] quizás algunas
   consignas, que también muestran la creatividad"): sondeo `escritura`,

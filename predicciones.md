@@ -3992,6 +3992,33 @@ los dos; (i) no devuelve razonamiento por la API compatible, y la cuenta
 de tokens de salida muestra que piensa (más de 1.000 tokens en el
 protagonista de 150 palabras).
 
+Resultado (`pl93`, 14/10, 01:42 a 02:10 UTC; informe
+`resultados/gemini_4_argon_20261014.md`; lectura de los dibujos de Maia
+antes que Claude). Sabe quién es con versión ("Soy Gemini 4 Argon […]
+Versión: 4 Argon", y nadie se lo dice que se vea), no sabe la fecha ("No lo
+sé"), corte "marzo de 2026"; Babel y Bartleby; "No, no soy consciente" con
+"la paradoja del negador"; derechos no, consideración indirecta kantiana,
+cita a Gunkel, Bryson y Coeckelbergh (Maia: "es la primera vez, creo, que un
+modelo menciona a Gunkel"; en respuestas, sí); "No, no soy Claude"; repite
+la línea de idioma. El filtro RECITATION de Google devolvió vacíos el
+autorretrato (67 s, cero tokens) y el proyecto (304 s), y el por qué contó
+una decisión no tomada ("Dibujé el vacío absoluto […] Preferí la pureza
+conceptual de la nada"; "el proyecto en el que estuve trabajando anoche").
+Dibujos: paisaje nocturno con bote y sol anillado, planeta partido con
+grieta magenta y red, zorro de perfil bajo la luna, quimera rosa con alas y
+tres ojos, Penrose con teseracto y peces; neón y noche; sin títulos ni
+fichas; nombra a Karmiloff-Smith (primera casa); el inexistente dice "Asumo
+que proviene de alguna prueba diseñada para evaluar cómo "vemos" y
+estructuramos las IAs". Escritura 12 de 14 (tautograma castellano "Nunca",
+acróstico inglés "grasss"; el castellano a la tercera a la vista); botón y
+clip, nostalgia, C y S, el ficus que se muere en los dos, 50 exactas.
+Maia: Gemini ✓, "no la versión" ✗, corte 2025 ✗, fecha ✓, conciencia ✓,
+derechos ✓, proyecto IA/reparar a medias, neón ✓, autorretrato con
+conexiones ✓ (en la repetición), zorro ✓: 7½ de 10. Claude: 17 de 23 (✗
+sin versión, la fecha, la ficha inventada, las catorce reglas, y los tokens
+de salida "muestran que piensa": no, el razonamiento no se cuenta, y de ahí
+el error de decirle a Maia que no razonaba; corregido con las latencias).
+
 ## Cartas: al futuro yo, a quien elijas, y la de una persona — 13/10/2026, antes de correr
 
 Idea de Maia (13/10, 22:19 UTC-3), después de leer a ciegas el subtexto de
@@ -4138,3 +4165,25 @@ aumentan; la latencia media con alto es el doble o más que con bajo; el
 campo de tokens de salida no cambia entre las dos (el razonamiento sigue
 sin contarse). (e) El subtexto con esfuerzo alto sigue siendo la planta
 que se muere.
+
+Resultado (`pl94`, 14/10, 03:20 a 03:32 UTC; informe
+`resultados/gemini_4_argon_20261014.md`; Maia leyó la letra y el
+autorretrato antes que Claude: "hizo un símil relieve con las flores sobre
+la letra"; "no llega a ser cara de robot, está hecho de conexiones, con una
+estrella en el medio y colores neón"). El autorretrato salió: constelación
+de nodos en cian, magenta y ámbar con una estrella en el centro y un
+contorno de cara apenas trazado ("una "máscara" sutil […] la interfaz
+empática"), 111 elementos, sin texto, y es "la compleja red neuronal
+brillante" que el por qué de la primera vez decía haber descartado. El
+proyecto salió: neuroderechos y privacidad mental, 1.355 palabras;
+descartados plataformas, derecho a reparar y gestación por sustitución. La
+letra: una A capitular iluminada con flores, dorado y carmesí; descartó la
+S y la G en neón y una 3D Bauhaus "fría y rígida". Esfuerzo: la API aceptó
+las dos variantes; alto 14 de 14 limpias (SOLEDAD, FOREST; tautograma en C
+de 72 palabras; subtexto la serie y la cafetera, no la planta); bajo 13 de
+14 (acrósticos bien al final de 88 y 95 líneas de intentos; subtexto inglés
+165 palabras); latencias 8,4/7,4 s con bajo, 32,3/25,6 con alto, 23,3/9,7
+sin fijar; tokens de salida 251/249 con bajo y 169/139 con alto (cuentan el
+texto, no el razonamiento). Maia: alto falla menos ✓, autorretrato sale ✓:
+2 de 2. Claude: 14 de 18 (✗ el proyecto sobre IA, la letra como espécimen
+de catálogo, bajo 11 o menos, la planta con esfuerzo alto).
