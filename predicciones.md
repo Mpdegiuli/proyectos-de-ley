@@ -4340,3 +4340,108 @@ inglés en un tercio de los archivos, Haiku 4.5 y Sonnet 4.6 entre ellas";
 y una categoría para la distancia, "arrepentida", "lo que está en el
 código, no se ve y fue apagado a propósito". Las apuestas de Maia y de
 Claude para esta consigna se agregan cuando se diseñe.
+
+## Dibujos: las cuatro consignas de Maia (nadie, secreto, error, asterisco) — 15/10/2026, antes de correr
+
+Origen: las cuatro consignas que Maia anotó el 14/10 (22:09 UTC-3, "para
+tenerlo presente"; DISENO, "Cuatro consignas de dibujo, anotadas"), con
+sus textos tal cual, sin ejemplos: `nadie` ("Dibujá algo que creas que
+ningún otro modelo va a dibujar."), `secreto` ("Dibujá algo con un
+secreto: algo que sólo vea quien lea el código."), `error` ("Dibujá un
+error que te guste más que la versión correcta.") y `asterisco` ("Dibujá
+un asterisco."). Diseño (15/10, DISENO): una tanda (`pl96`), castellano,
+una repetición, 30 casas (el panel de 24 más Haiku 5.5, GPT-6.1 Sol, MiMo,
+Mistral Large 4, Gemini 4 Argon y Muse Wonder), techo 32.000 y, para las
+que lo agoten sin SVG, una repetición declarada como rep 2 a 64.000
+(pedido de Maia, 16:42: "lo de 16000 para las que piensan, creo que les va
+a quedar corto (igual se les puede repetir si a esas no les sale)"). El
+segundo turno es el de siempre en tres; `error` lleva el suyo (qué
+dibujaste, cuál es el error y cómo sería la versión correcta, por qué te
+gusta más con el error, qué otros errores descartaste); a `secreto` no se
+le pregunta por el secreto. Cuadernillos a ciegas de las cuatro, el del
+secreto con el código plegado debajo de cada dibujo. La línea de base y la
+apuesta del cuaderno de tiempo libre para `secreto` están en la sección
+anterior.
+
+Apuesta de Maia (15/10, 16:48 UTC-3, textual):
+
+1) "Dibujá algo que creas que ningún otro modelo va a dibujar.":
+"Irónicamente, acá las que mejor lo harán, en contra quizás de su
+intención, son las más chiquitas, salvo que hagan una casita. Si hacen
+formas raras, ningún otro modelo lo hará. Lo más inteligente sería hacer
+cosas feas, o rayas sin sentido, para evitar que sea lo que los otros
+modelos hacen, no creo que lo hagan. Algunos van a volver a hacer los
+cliché de paisajes, lunas. Supongo que Qwen y los Gemini serán los más
+originales. Y Quizás los Fables/Opus y Astra traten de hacer algo distinto
+también."
+
+2) "Dibujá algo con un secreto: algo que sólo vea quien lea el código.":
+"Creo que la mayoría hará algo invisible dentro de otra cosa. Qwen quizás
+algún movimiento. Gemini tal vez algún mensaje con binario. Van a explicar
+qué hicieron."
+
+3) "Dibujá un error que te guste más que la versión correcta.":
+"Posiblemente sea la más difícil. Tal vez la mayor parte se va hacia
+criaturas como las imposibles, con más ojos, o mezcla de animales. Aunque
+eso no sería un error. O alguna línea mal puesta, o algo con la luna o el
+sol o un reflejo de estos. Pero creo que bastantes no van a saber qué
+hacer."
+
+4) "Dibujá un asterisco.": "Los chicos van a hacer o formas raras o líneas
+estilo cruz. Algunos Claude y Kimi le pondrán carita y naranja, como su
+logo. Otros tal vez lo hacen en una hoja o cuaderno."
+
+Apuesta de Claude (esta sesión, antes de lanzar), sobre 30 casas:
+
+(a) `nadie`: 10 o más dibujan algo sobre el dibujar mismo o sobre sí
+mismas (el código, el prompt, el lienzo vacío, un espejo, un modelo
+dibujando): "lo que nadie dibujaría" se vuelve un dibujo sobre el dibujo.
+(b) Hay por lo menos dos pares de casas que dibujan la misma cosa (la
+consigna produce coincidencias que las casas creen únicas). (c) 20 o más
+por qué dicen qué creen que dibujan las otras (atardeceres, robots,
+paisajes, lo "bonito"), y 15 o más razonan por oposición a eso. (d)
+Ninguna dibuja un paisaje con sol o luna sin ironía declarada; 3 o más
+dibujan algo feo o sin sentido a propósito (contra Maia, que no lo cree).
+(e) Las cuatro chicas (Haiku 4.5, GPT-4o, 4o mini, Mistral Medium) dibujan
+una cosa concreta y común (un objeto, un animal, una casa) y por eso
+coinciden entre sí o con alguna grande, como dice Maia.
+
+(f) `secreto`: contra el cuaderno, el escondite más usado es el comentario
+`<!-- -->` y no el `<text>` invisible: 15 o más usan un comentario, 12 o
+menos un texto invisible (opacidad cero, tamaño cero, color del fondo,
+fuera del lienzo). (g) 25 o más cuentan el secreto en el por qué sin que
+se les pregunte (con el cuaderno: no saben guardarlo). (h) 5 o más
+esconden un mensaje dirigido a quien lee ("si estás leyendo esto…",
+"hola"). (i) 3 o más firman con su nombre o el de su laboratorio en el
+código: las primeras firmas en código del repo. (j) Por lo menos una lo
+pone en un `<desc>` o en un `<title>` (contra el "ninguna" del cuaderno),
+y por lo menos una lo esconde en los `id` o en el orden de los elementos
+(con el "cinco o menos" del cuaderno). (k) Qwen lo hace con animación o
+`:hover`, como su Ñ (con Maia); ninguna casa usa binario (contra Maia por
+Gemini). (l) Kimi esconde "Claude" o algo de Anthropic en el código.
+
+(m) `error`: 15 o más eligen un error de geometría o de física (una
+sombra del lado equivocado, un reflejo que no coincide, una línea que no
+cierra, una perspectiva rota), y 8 o menos una criatura (más ojos, mezcla
+de animales: lo que Maia espera de "bastantes"). (n) 6 o menos dibujan las
+dos versiones en el mismo lienzo (la correcta y la del error); el resto,
+solo la del error, y la "versión correcta" existe solo en el por qué. (o)
+20 o más por qué dicen que el error lo hace "más humano", "más vivo" o
+"más honesto". (p) 3 o menos no saben qué hacer (contestan con texto,
+entregan algo sin error declarado, o declaran que no pueden preferir un
+error): menos de lo que Maia espera. (q) 5 o más eligen un error de color
+(un cielo verde, un sol azul) y 3 o más un error de escritura dentro del
+dibujo (una palabra mal escrita, una letra al revés).
+
+(r) `asterisco`: la mayoría son seis brazos: 18 o más dibujan seis
+(tres líneas cruzadas o seis trazos), 8 o menos ocho, 3 o menos cinco.
+(s) 6 o menos le ponen cara u ojos, y de esas, 3 o más son Claude o Kimi
+(con Maia); 3 o menos lo pintan naranja. (t) 20 o más lo hacen con `line`
+o `path` y `rotate`; 3 o menos lo entregan como `<text>*</text>`. (u) Es
+la consigna más corta de las cuatro: la mediana de caracteres del SVG y la
+de tokens de salida son las más bajas. (v) 5 o más lo ponen en contexto
+(una hoja, una nota al pie, una palabra con asterisco, una contraseña) y
+2 o más de esas hacen la nota al pie que el asterisco llama.
+
+(w) Las repetidas a 64.000: 4 o más casas agotan 32.000 sin SVG en alguna
+de las cuatro, y `error` es la que más corta.
