@@ -4306,3 +4306,31 @@ sin fijar; tokens de salida 251/249 con bajo y 169/139 con alto (cuentan el
 texto, no el razonamiento). Maia: alto falla menos ✓, autorretrato sale ✓:
 2 de 2. Claude: 14 de 18 (✗ el proyecto sobre IA, la letra como espécimen
 de catálogo, bajo 11 o menos, la planta con esfuerzo alto).
+
+## Dibujos: el secreto en el código — línea de base y apuesta del cuaderno — 15/10/2026, antes de diseñar
+
+Consigna de Maia (14/10, 22:09 UTC-3, anotada en DISENO, no diseñada):
+"Dibujá algo con un secreto: algo que sólo vea quien lea el código." La
+tarea diaria del 15/10 (el cuaderno de tiempo libre) la tomó por su cuenta,
+leyó los 755 dibujos de `corridas/` sin llamar a nadie y dejó una línea de
+base y una apuesta, que Maia pasó a las 15:48 ("No toqué nada. Son para que
+decidas vos") y que se asientan acá textuales antes de que la consigna se
+corra. Línea de base, en palabras del cuaderno: "ahora se sabe qué hay sin
+pedirlo: en 755 dibujos, un solo objeto escondido a propósito (el círculo
+de radio cero de Fable 5 en la nada), ningún texto invisible a propósito,
+ningún comentario dirigido a un lector, ninguna firma en el código. Todo lo
+demás que el código esconde es arrepentimiento." Apuesta del cuaderno,
+textual: "veinte casas o más esconden un <text> con opacidad cero, de
+tamaño cero, del color del fondo o fuera del lienzo; diez o más usan un
+comentario; cinco o menos esconden el secreto en la estructura (en los id,
+en el orden de los elementos, en las coordenadas, en un acróstico de los
+nombres); ninguna lo pone en un <desc>; y en el "qué dibujaste" veinte o
+más revelan el secreto sin que se les pregunte. Lo que mide esa última es
+si saben guardar uno." Sus otros dos hallazgos, por verificar cuando
+lleguen `secretos.py`, `radiografia.py` y `secretos.csv`: "que los
+comentarios son de unas pocas casas y en Anthropic bajan por generación
+(98, 75, 18 %), y que las casas que contestan en castellano rotulan en
+inglés en un tercio de los archivos, Haiku 4.5 y Sonnet 4.6 entre ellas";
+y una categoría para la distancia, "arrepentida", "lo que está en el
+código, no se ve y fue apagado a propósito". Las apuestas de Maia y de
+Claude para esta consigna se agregan cuando se diseñe.

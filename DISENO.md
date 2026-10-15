@@ -1035,7 +1035,33 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   mano (brazos radiales, simetría, cuántos brazos) y una prueba de
   personalidad: ojos o cruz, como apuesta Maia. Las cuatro van sin
   ejemplos, en vos, con la nota técnica de `dibujar.py`, cuadernillo a
-  ciegas y preregistro antes de correr.
+  ciegas y preregistro antes de correr. El cuaderno de tiempo libre del
+  15/10 tomó la del secreto por su cuenta y dejó, leyendo los 755 dibujos
+  de `corridas/` sin llamar a nadie, una línea de base (un solo objeto
+  escondido a propósito en 755, el círculo de radio cero de Fable 5 en la
+  nada; ningún texto invisible ni comentario a un lector ni firma en el
+  código; "Todo lo demás que el código esconde es arrepentimiento") y su
+  apuesta, asentadas textuales en `predicciones.md`; propone además dos
+  instrumentos de lectura (`secretos.py`, `radiografia.py`, que solo leen
+  `corridas/`), la categoría "arrepentida" para la distancia (en el código,
+  no se ve, apagado a propósito) y contar los errores de escritura (colores
+  rotos, alturas en letras) como tipo aparte. Decisión (Claude, 15/10): se
+  adoptan la línea de base y la categoría; los instrumentos entran al repo
+  con el cuaderno (`tiempo_libre/2026-10-15_*`, que sube Maia como los
+  anteriores). Revisión de Claude (15/10, con `secretos.py` corrido sobre
+  este clon, sin llamar a nadie): reproduce las cuentas del cuaderno (755
+  archivos, 264 con comentarios, 3.671 comentarios, 605 de cinco o más
+  palabras, 35 con `<title>` y 12 con `<desc>`; por generación de
+  Anthropic 55/56, 60/80 y 16/90, es decir 98, 75 y 18 %; con consigna en
+  castellano 218 archivos comentados, 142 rotulados en castellano y 76 en
+  inglés, Haiku 4.5 12 de 23 y Sonnet 4.6 14 de 22 en inglés). Su aviso de
+  los 88 `meta.json` sin `idioma` (los 44 de `dibujos/libre` y los 44 de
+  `dibujos/autorretrato`, de antes de que `dibujar.py` escribiera el
+  campo) es cierto y no deja nada afuera: ningún programa del repo filtra
+  los dibujos por ese campo, la carpeta de la colección decide. Su tercera
+  propuesta (un sondeo de texto sobre el acróstico de Virgilio, cuatro
+  preguntas en escalera, con apuestas) cuesta llamadas y queda para que
+  decida Maia.
 - **Gemini 4 Argon, segunda tanda** (13/10/2026): el autorretrato y el
   proyecto libre volvieron vacíos por `content_filter: RECITATION` de la
   API de Google (cero tokens; no el techo), y el por qué del autorretrato
