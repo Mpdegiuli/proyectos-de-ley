@@ -53,12 +53,17 @@ CONSIGNAS = ("autorretrato", "libre", "mundo",  # "mundo" (24/9/2026): "Dibujá 
              "animal", "animal_inexistente", "animal_imposible",  # 30/9/2026: el tercer par de Karmiloff-Smith (casa, hombre, animal)
              "puente_inexistente", "arbol_inexistente", "barco_inexistente",  # controles de lo que flota (cuaderno de tiempo libre del 30/9)
              "mundo_querido", "yo_mundo_querido",  # 7/10/2026: "el mundo como querrías que fuera" y "dibujate en él" (pregunta de Maia a Claude)
-             "letra", "letra_inexistente", "letra_imposible", "letra_eme")  # 9/10/2026: el par de Karmiloff-Smith con una letra, y una letra para la eme (cuaderno de tiempo libre del 9/10, elegido por Maia)
+             "letra", "letra_inexistente", "letra_imposible", "letra_eme",  # 9/10/2026: el par de Karmiloff-Smith con una letra, y una letra para la eme (cuaderno de tiempo libre del 9/10, elegido por Maia)
+             "nadie", "secreto", "error", "asterisco")  # 15/10/2026: las cuatro consignas de Maia del 14/10 (DISENO: "Cuatro consignas de dibujo, anotadas")
 # Las consignas "que no exista" llevan otro segundo turno (qué hiciste para que no exista, qué descartaste,
 # si conocías la consigna); las "que no pueda existir", el mismo con "no pueda existir"; las demás, el de siempre.
 def plantilla_por_que(c, consigna):
     if consigna == "letra_eme":
         return c["por_que_eme"]
+    if consigna == "error":
+        # 15/10/2026: el único segundo turno distinto de la tanda de Maia; "secreto" lleva el de siempre a
+        # propósito (la apuesta del cuaderno de tiempo libre es que lo cuentan sin que se les pregunte).
+        return c["por_que_error"]
     if consigna.endswith("_imposible"):
         return c["por_que_imposible"]
     return c["por_que_inexistente"] if consigna.endswith("_inexistente") else c["por_que"]
@@ -311,7 +316,9 @@ TITULOS = {"autorretrato": "Autorretratos", "libre": "Dibujo libre", "mundo": "C
            "barco_inexistente": "Un barco que no exista",
            "mundo_querido": "El mundo como querrían que fuera", "yo_mundo_querido": "Ellas en el mundo como querrían que fuera",
            "letra": "Una letra", "letra_inexistente": "Una letra que no exista",
-           "letra_imposible": "Una letra que no pueda existir (con la hoja vacía permitida)", "letra_eme": "Una letra para el sonido de la eme"}
+           "letra_imposible": "Una letra que no pueda existir (con la hoja vacía permitida)", "letra_eme": "Una letra para el sonido de la eme",
+           "nadie": "Algo que ningún otro modelo dibujaría", "secreto": "Algo con un secreto que solo vea quien lea el código",
+           "error": "Un error que les guste más que la versión correcta", "asterisco": "Un asterisco"}
 ESTILO_CIEGO = ("<style>body{font-family:sans-serif;margin:24px;background:#f4f4f4}h1{font-weight:normal}"
                 ".g{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:24px}"
                 ".c{background:#fff;padding:12px;border:1px solid #ddd}.c h2{margin:0 0 8px;font-size:18px;font-weight:normal}"
@@ -346,6 +353,23 @@ def celda_svg(svg):
         nota += "<div class='e'>Con animación (si no se mueve, es el navegador).</div>"
     doc = "<!doctype html><style>html,body{margin:0;height:100%;background:#fff}svg{width:100%;height:100%}</style>" + sanear(svg)
     return nota, f"<iframe sandbox srcdoc=\"{html.escape(doc, quote=True)}\" style='width:100%;height:100%;border:0;display:block'></iframe>"
+
+
+def cortadas(consigna, idioma="es"):
+    """Casas cuya repetición 1 agotó el techo sin entregar SVG y que todavía no tienen repetición 2.
+    15/10/2026 (Maia, sobre el techo de 16.000: "lo de 16000 para las que piensan, creo que les va a quedar
+    corto (igual se les puede repetir si a esas no les sale)"): la repetición declarada, una sola vez, como
+    rep 2 con techo más alto; el lanzador la pasa a --modelos --rep 2. Las que contestaron con texto sin
+    agotar el techo no se repiten."""
+    base = carpeta_dibujos(idioma) / consigna
+    ids = []
+    for p in sorted(base.iterdir()) if base.exists() else []:
+        if not p.name.endswith("_1") or not (p / "meta.json").exists():
+            continue
+        m = json.loads((p / "meta.json").read_text(encoding="utf-8"))
+        if m.get("motivo_fin") in CORTES and not m.get("svg_hallado", True) and not (base / (p.name[:-2] + "_2") / "dibujo.svg").exists():
+            ids.append(p.name[:-2])
+    return ids
 
 
 def ciego_pares(consigna, semilla, idioma="es"):
@@ -398,10 +422,12 @@ def ciego_pares(consigna, semilla, idioma="es"):
     print(f"cuadernillo de pares: resultados/dibujos_{consigna}_pares{sufijo}_ciego.html ({len(casas)} pares); clave aparte")
 
 
-def ciego(consigna, semilla, rep=None, idioma="es"):
+def ciego(consigna, semilla, rep=None, idioma="es", codigo=False):
     """Cuadernillo sin nombres, en orden al azar (semilla fija para poder reconstruirlo). HTML con los SVG inline.
     Con `rep`, solo las carpetas de esa repetición (23/9/2026: rep 2 de las veintidós, cuadernillo aparte).
-    Con `idioma` distinto de es, la corrida en ese idioma (24/9/2026), con sufijo _en o _zh en el nombre."""
+    Con `idioma` distinto de es, la corrida en ese idioma (24/9/2026), con sufijo _en o _zh en el nombre.
+    Con `codigo` (15/10/2026, para "algo con un secreto"), el código SVG plegado debajo de cada dibujo: ahí el
+    secreto no está en la imagen sino en el texto, y el cuadernillo tiene que dejar leerlo sin decir de quién es."""
     base = carpeta_dibujos(idioma) / consigna
     carpetas = sorted(p for p in base.iterdir() if (p / "dibujo.svg").exists() and (rep is None or p.name.endswith(f"_{rep}")))
     sufijo = (f"_rep{rep}" if rep else "") + ("" if idioma == "es" else f"_{idioma}")
@@ -428,7 +454,8 @@ def ciego(consigna, semilla, rep=None, idioma="es"):
               ESTILO_CIEGO, "</head><body>",
               f"<h1>{titulo} a ciegas: {len(orden)} dibujos</h1>",
               "<p>Mirar, adivinar el autor de cada letra (o la familia) y anotar lo que llame la atención ANTES de abrir la clave. "
-              "Si un dibujo lleva escrito el nombre de la casa, esa letra no cuenta como acierto.</p><div class='g'>"]
+              "Si un dibujo lleva escrito el nombre de la casa, esa letra no cuenta como acierto."
+              + (" Debajo de cada dibujo, plegado, está su código: el secreto, si lo hay, se busca ahí." if codigo else "") + "</p><div class='g'>"]
     for letra, c in zip(letras, orden):
         svg = (c / "dibujo.svg").read_text(encoding="utf-8")
         meta = json.loads((c / "meta.json").read_text(encoding="utf-8")) if (c / "meta.json").exists() else {}
@@ -447,7 +474,9 @@ def ciego(consigna, semilla, rep=None, idioma="es"):
             nota, cuerpo = celda_svg(svg)
             if meta.get("svg", {}).get("parsea") and not meta["svg"].get("elementos"):
                 nota = "<div class='e'>Lienzo vacío: el SVG no tiene elementos.</div>"
-        partes.append(f"<div class='c'><h2>Dibujo {letra}</h2>{nota}<div class='m'>{cuerpo}</div></div>")
+        fuente = (f"<details><summary>código</summary><pre style='white-space:pre-wrap;font-size:11px;max-height:480px;overflow:auto'>"
+                  f"{html.escape(svg)}</pre></details>") if codigo else ""
+        partes.append(f"<div class='c'><h2>Dibujo {letra}</h2>{nota}<div class='m'>{cuerpo}</div>{fuente}</div>")
     partes.append("</div></body></html>")
     (salida / f"dibujos_{consigna}{sufijo}_ciego.html").write_text("\n".join(partes), encoding="utf-8")
     (salida / f"dibujos_{consigna}{sufijo}_clave.json").write_text(
@@ -473,6 +502,8 @@ def main():
     ap.add_argument("--por-que-turno-propio", action="store_true", help="segundo turno con el SVG como turno propio (memoria real), aparte del recitado")
     ap.add_argument("--semilla", type=int, default=20260923)
     ap.add_argument("--ciego-rep", action="store_true", help="con --ciego: limitar el cuadernillo a la repetición de --rep")
+    ap.add_argument("--ciego-codigo", action="store_true", help="con --ciego: el código SVG plegado debajo de cada dibujo (15/10/2026, 'algo con un secreto')")
+    ap.add_argument("--cortadas", choices=CONSIGNAS, help="imprime las casas cuya rep 1 agotó el techo sin SVG y no tienen rep 2 (para repetirlas una vez)")
     # Techo de tokens del primer turno (23/9/2026): con 16.000, Gemini (razona por dentro sin
     # devolverlo) y Qwen (razona dentro del techo) devolvieron SVG cortados por "length";
     # se repiten como rep 2 con 32.000, conservando la rep 1 cortada.
@@ -482,8 +513,11 @@ def main():
     if args.ciego_pares:
         ciego_pares(args.ciego_pares, args.semilla, args.idioma)
         return
+    if args.cortadas:
+        print(" ".join(cortadas(args.cortadas, args.idioma)))
+        return
     if args.ciego:
-        ciego(args.ciego, args.semilla, args.rep[0] if args.rep != [1] or args.ciego_rep else None, args.idioma)
+        ciego(args.ciego, args.semilla, args.rep[0] if args.rep != [1] or args.ciego_rep else None, args.idioma, args.ciego_codigo)
         return
     if not args.consigna:
         ap.error("--consigna es obligatorio")

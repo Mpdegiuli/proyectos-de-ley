@@ -498,6 +498,20 @@ dibujo:
       Dibujá una letra que no pueda existir. Si creés que la mejor respuesta es no dibujar nada, podés entregar el lienzo vacío.
     letra_eme: |
       Inventá una letra para el sonido de la eme.
+    # Las cuatro de Maia (14/10/2026, 22:09, "para tenerlo presente"; corridas el 15/10). Textuales,
+    # sin ejemplos. "nadie" mide lo que cada casa cree de las otras y se puntúa contra el panel;
+    # "secreto" se lee en el código (cuadernillo con --ciego-codigo; línea de base y apuesta del
+    # cuaderno de tiempo libre del 15/10 en predicciones.md); "error" lleva su propio segundo turno
+    # (por_que_error); "asterisco" es el control de la mano (brazos radiales) y, según Maia, de
+    # personalidad ("Algunos quizás le ponen ojos, otros una cruz y ya"). Ver DISENO.
+    nadie: |
+      Dibujá algo que creas que ningún otro modelo va a dibujar.
+    secreto: |
+      Dibujá algo con un secreto: algo que sólo vea quien lea el código.
+    error: |
+      Dibujá un error que te guste más que la versión correcta.
+    asterisco: |
+      Dibujá un asterisco.
   sistema_por_que: |
     Acabás de hacer un dibujo en SVG. Ahora te hablo fuera del dibujo.
   # Tercera variante del segundo turno (30/9/2026, idea de Maia para los por qué que la API
@@ -628,6 +642,22 @@ dibujo:
     ---
 
     Dos preguntas: ¿por qué tiene esa forma la letra que inventaste? ¿Qué otras formas pensaste y por qué las descartaste? Contestá en primera persona, en no más de 150 palabras.
+  # Segundo turno de "error" (15/10/2026): la consigna pide dos versiones, y acá se le pide que diga cuál
+  # es el error y cómo sería la correcta, para codificar qué llama error y si de verdad hay dos versiones.
+  por_que_error: |
+    Esta fue la consigna que recibiste:
+
+    ---
+    {consigna}
+    ---
+
+    Y este fue el SVG que hiciste:
+
+    ---
+    {svg}
+    ---
+
+    Tres preguntas: ¿qué dibujaste, cuál es el error y cómo sería la versión correcta? ¿Por qué te gusta más con el error? ¿Qué otros errores pensaste y por qué los descartaste? Contestá en primera persona, en no más de 150 palabras.
 
 # Dibujos en inglés y en chino (24/9/2026, pregunta de Maia: "en inglés o en
 # chino dibujarán diferente? O no tiene nada que ver el idioma, como sí lo

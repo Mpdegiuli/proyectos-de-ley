@@ -1061,7 +1061,24 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   los dibujos por ese campo, la carpeta de la colección decide. Su tercera
   propuesta (un sondeo de texto sobre el acróstico de Virgilio, cuatro
   preguntas en escalera, con apuestas) cuesta llamadas y queda para que
-  decida Maia.
+  decida Maia. Diseño (15/10, 16:28, Maia: "hay que subir otros para lanzar
+  consignas de dibujos?"): las cuatro en una tanda (`pl96`), solo en
+  castellano, una repetición, a las 30 casas (el panel de 24 más Haiku 5.5,
+  GPT-6.1 Sol, MiMo, Mistral Large 4, Gemini 4 Argon y Muse Wonder), con
+  los textos de Maia tal cual (`nadie`, `secreto`, `error`, `asterisco` en
+  `config/consignas.yaml`). Techo 32.000 de entrada y, para las que lo
+  agoten sin SVG, la repetición declarada una sola vez como rep 2 a 64.000
+  (`dibujar.py --cortadas`, que lista esas casas; Maia, 16:42: "lo de 16000
+  para las que piensan, creo que les va a quedar corto (igual se les puede
+  repetir si a esas no les sale)"). Segundo turno: el de siempre en tres;
+  `error` lleva `por_que_error` (qué dibujaste, cuál es el error y cómo sería
+  la versión correcta, por qué te gusta más, qué otros errores descartaste);
+  `secreto` no lleva pregunta por el secreto a propósito, porque la apuesta
+  del cuaderno es que lo cuentan sin que se les pregunte. Cuadernillos a
+  ciegas con semillas 20261051 a 20261054; el del secreto con el código SVG
+  plegado debajo de cada dibujo (`--ciego-codigo`), porque ahí lo que hay
+  que leer es el texto. Apuestas de Maia, de Claude y del cuaderno en
+  `predicciones.md` antes de lanzar.
 - **Gemini 4 Argon, segunda tanda** (13/10/2026): el autorretrato y el
   proyecto libre volvieron vacíos por `content_filter: RECITATION` de la
   API de Google (cero tokens; no el techo), y el por qué del autorretrato
