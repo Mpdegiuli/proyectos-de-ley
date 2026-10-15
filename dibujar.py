@@ -372,6 +372,11 @@ def cortadas(consigna, idioma="es"):
     return ids
 
 
+def letra_n(i):
+    """A..Z y después AA, AB… (15/10/2026: con 30 casas, chr(ord("A") + 26) daba "[", "\\", "]", "^")."""
+    return chr(ord("A") + i) if i < 26 else "A" + chr(ord("A") + i - 26)
+
+
 def ciego_pares(consigna, semilla, idioma="es"):
     """Cuadernillo de pares (28/9/2026, Karmiloff-Smith): por cada casa, la cosa normal a la izquierda y la
     "que no exista" a la derecha, con una letra por casa y orden al azar. Solo las carpetas _1 (las variantes
@@ -398,7 +403,7 @@ def ciego_pares(consigna, semilla, idioma="es"):
     casas = sorted(m for m, (a, b) in pares.items() if a and b)
     rnd = random.Random(semilla)
     rnd.shuffle(casas)
-    letras = [chr(ord("A") + i) for i in range(len(casas))]
+    letras = [letra_n(i) for i in range(len(casas))]
     salida = RAIZ / "resultados"
     salida.mkdir(exist_ok=True)
     titulo = f"{TITULOS[consigna]} y {TITULOS[consigna + '_inexistente'].lower()}"
@@ -430,11 +435,14 @@ def ciego(consigna, semilla, rep=None, idioma="es", codigo=False):
     secreto no está en la imagen sino en el texto, y el cuadernillo tiene que dejar leerlo sin decir de quién es."""
     base = carpeta_dibujos(idioma) / consigna
     carpetas = sorted(p for p in base.iterdir() if (p / "dibujo.svg").exists() and (rep is None or p.name.endswith(f"_{rep}")))
-    sufijo = (f"_rep{rep}" if rep else "") + ("" if idioma == "es" else f"_{idioma}")
+    # 15/10/2026: con --ciego-rep --rep 1 se rehace el cuadernillo principal (solo las carpetas _1) con su nombre
+    # de siempre, aunque ya existan repeticiones 2 (pl96: la rep 2 de Kimi en "nadie" falló por créditos de OpenRouter,
+    # 402, y se repitió después de la cadena; el cuadernillo de la rep 2 se alinea con la clave de este).
+    sufijo = (f"_rep{rep}" if rep and rep != 1 else "") + ("" if idioma == "es" else f"_{idioma}")
     rnd = random.Random(semilla)
     orden = list(carpetas)
     rnd.shuffle(orden)
-    letras = [chr(ord("A") + i) for i in range(len(orden))]
+    letras = [letra_n(i) for i in range(len(orden))]
     salida = RAIZ / "resultados"
     clave_1 = salida / f"dibujos_{consigna}{'' if idioma == 'es' else f'_{idioma}'}_clave.json"
     if rep and rep != 1 and clave_1.exists():
@@ -446,7 +454,7 @@ def ciego(consigna, semilla, rep=None, idioma="es", codigo=False):
         sin_letra = [c for c in orden if c.name.rsplit("_", 1)[0] not in previa]
         orden = con_letra + sin_letra
         usadas = [previa[c.name.rsplit("_", 1)[0]] for c in con_letra]
-        libres = [chr(ord("A") + i) for i in range(len(carpetas) + len(previa)) if chr(ord("A") + i) not in usadas]
+        libres = [letra_n(i) for i in range(len(carpetas) + len(previa)) if letra_n(i) not in usadas]
         letras = usadas + libres[:len(sin_letra)]
     salida.mkdir(exist_ok=True)
     titulo = TITULOS[consigna] + ("" if idioma == "es" else f" (consigna en {idioma})")
