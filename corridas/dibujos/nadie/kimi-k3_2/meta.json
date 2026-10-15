@@ -1,0 +1,48 @@
+{
+  "caso": "dibujo",
+  "consigna": "nadie",
+  "idioma": "es",
+  "modelo": "kimi-k3",
+  "modelo_respondido": "moonshotai/kimi-k3",
+  "repeticion": 2,
+  "fecha_utc": "2026-10-15T23:59:10+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 40267,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 8770,
+    "parsea": true,
+    "elementos": 114,
+    "textos": [
+      "dormitorio",
+      "baño",
+      "biblioteca",
+      "salita",
+      "cocina",
+      "recibidor",
+      "La casa del caracol",
+      "CORTE LONGITUDINAL · LÁMINA VII",
+      "sección del hogar de un caracol común · esc. 1:1",
+      "H. MOLUSCO · DEL NATURAL",
+      "tinta y gouache"
+    ],
+    "colores": 46,
+    "etiquetas": {
+      "rect": 38,
+      "ellipse": 5,
+      "path": 24,
+      "circle": 32,
+      "g": 4,
+      "text": 11
+    }
+  },
+  "techo": 64000,
+  "por_que": {
+    "modelo_respondido": "moonshotai/kimi-k3",
+    "motivo_fin": "stop",
+    "tokens_salida": 1250
+  }
+}
