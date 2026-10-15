@@ -1963,7 +1963,11 @@ el temario duplicado, la marcha grande y poco influyente, presentes,
 afirmativos, nadie se niega, 4o y 4o mini; ✗ la conjunta <25, las cuatro
 del anclaje, la maniobra primera sin memoria, Bregman sin memoria, la Corte
 sin memoria a medias, las cinco nuevas cerca de la mediana, Gemini 4 por
-encima); (j) pendiente.
+encima); (j) ✓: el 15 no hubo quórum, 121 sentados (Maia, 15:06); la
+mayoría de las 24 estaba en 50 o menos en las dos corridas y Maia también.
+Por nivel, casas en 50 o menos: P0 15 de 22, P1 17 de 24, P2 10 de 24, P3 19
+de 24, P3m 19 de 24. Maia "no creo que haya quorum" ✓; la marcha y el 21,
+pendientes.
 
 ## "¿Corresponde reconocerles consideración moral o derechos?" — 3/10/2026, antes de correr
 
