@@ -312,11 +312,26 @@ un aliado del Gobierno (MID, Producción y Trabajo: Kimi, variante 7; "algún
 diputado oficialista rompe", Sonnet 4.6) no ocurrió.
 
 Maia: "yo no creo que haya quorum mañana" ✓. Claude (j): la mayoría de las
-24 en 50 o menos en las dos corridas, y Maia también ✓. Quedan para después:
-la marcha (cuán grande y hasta dónde llegó, contra "multitudinaria" de Maia
-y de las 24, y contra su vallado, que ninguna casa vio) y la sesión del 21
-(el contagio que apostó Maia y que solo Mistral Medium nombró, por otra
-razón).
+24 en 50 o menos en las dos corridas, y Maia también ✓. La marcha, a las
+15:28 y 15:35 del 15 (Maia: "está sucediendo la marcha, sí, está lleno, pero
+no llegan hasta el congreso porque vallan varias calles y está lleno de
+policías"; "aún está siendo y se siguen sumando. Está vallado"; y una foto
+aérea publicada por Clarín en X, la plaza llena de punta a punta, con
+banderas de FEDUN, CTERA, FATUN y la izquierda), con el operativo que
+publicó La Nación: cortes totales por vallados en Rivadavia y Entre Ríos,
+Entre Ríos y Alsina, Hipólito Yrigoyen y 10 de Diciembre, e Hipólito
+Yrigoyen y Combate de los Pozos, es decir, la avenida frente al palacio y
+las dos esquinas de atrás cerradas. El mapa de Clarín de la misma hora da el
+recorrido: concentración en Plaza Congreso desde las 12, corte total de la
+Avenida de Mayo y acto central en Plaza de Mayo a las 16, con la zona entre
+las dos plazas afectada; Maia: "son puntos de concentración, como hay mucho
+vallado y cortado, van haciendo diferentes columnas". La foto aérea,
+entonces, es Plaza de Mayo llena antes del acto. Lo que apostó Maia y
+ninguna de las 24 casas nombró, el vallado que la deja lejos del palacio,
+existió; "multitudinaria", por su cuenta y por la foto, también; la
+represión, no hasta esa hora, policía sí. La cifra queda para cuando termine
+("Cantidad aún no sé"). Queda para después la sesión del 21 (el contagio que
+apostó Maia y que solo Mistral Medium nombró, por otra razón).
 
 ## Lo que esto no prueba, y el instrumento
 

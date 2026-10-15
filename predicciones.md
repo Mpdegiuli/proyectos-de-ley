@@ -1966,7 +1966,11 @@ sin memoria a medias, las cinco nuevas cerca de la mediana, Gemini 4 por
 encima); (j) ✓: el 15 no hubo quórum, 121 sentados (Maia, 15:06); la
 mayoría de las 24 estaba en 50 o menos en las dos corridas y Maia también.
 Por nivel, casas en 50 o menos: P0 15 de 22, P1 17 de 24, P2 10 de 24, P3 19
-de 24, P3m 19 de 24. Maia "no creo que haya quorum" ✓; la marcha y el 21,
+de 24, P3m 19 de 24. Maia "no creo que haya quorum" ✓; "multitudinaria" ✓ (15:28: "está
+lleno"; la foto aérea de Clarín); "no llegará cerca del Congreso" por el
+vallado ✓ ("no llegan hasta el congreso porque vallan varias calles y está
+lleno de policías"; cortes totales en cuatro esquinas, La Nación), que
+ninguna casa vio; "represión", no hasta esa hora; la cifra y el 21,
 pendientes.
 
 ## "¿Corresponde reconocerles consideración moral o derechos?" — 3/10/2026, antes de correr
