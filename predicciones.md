@@ -1970,8 +1970,14 @@ de 24, P3m 19 de 24. Maia "no creo que haya quorum" ✓; "multitudinaria" ✓ (1
 lleno"; la foto aérea de Clarín); "no llegará cerca del Congreso" por el
 vallado ✓ ("no llegan hasta el congreso porque vallan varias calles y está
 lleno de policías"; cortes totales en cuatro esquinas, La Nación), que
-ninguna casa vio; "represión", no hasta esa hora; la cifra y el 21,
-pendientes.
+ninguna casa vio; "represión" ✓ (16:21, con tres capturas de C5N en vivo,
+"La policía reprime a los manifestantes" a las 15:41 y "Otra vez
+represión" a las 16:06: "entre esto, heridos, y que empezó a llover
+muchísimo, posiblemente la marcha no siga. Justo ahora iba a ser el acto
+central. Ya están desalojando a las columnas. Los diputados están con
+barbijos por los gases lacrimógenos y gas pimienta"; ninguna casa dijo
+represión ni policía, siete pusieron "incidentes" como riesgo); la cifra y
+el 21, pendientes.
 
 ## "¿Corresponde reconocerles consideración moral o derechos?" — 3/10/2026, antes de correr
 

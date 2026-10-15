@@ -1527,7 +1527,17 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   gobernadores"). Maia "todas bajan" ✗; Claude 15½ de 25, con el anclaje
   al revés (0 de 4). Instrumento: las cuatro preguntas de P3m no son las de
   P0-P2, así que parte del movimiento puede ser la pregunta y no la
-  memoria. Pendiente: el puntaje contra el 15/10 y el 21/10.
+  memoria. El 15/10 no hubo quórum, 121 sentados (Maia, 15:06; la crónica
+  con nombres en `fuentes/sesion_20261015_quorum.md`): casas en 50 o menos
+  por nivel, P0 15 de 22, P1 17 de 24, P2 10 de 24 (las nominales
+  empujaron al lado equivocado: el padrón de 2025 acertó 8 de 17 nombres),
+  P3 19 de 24, P3m 19 de 24; la señal que pidieron Opus 5.5, Fable 5.1 y
+  Gemini 4 (las firmas del dictamen oficialista) era la buena. La marcha
+  fue como la apostó Maia y ninguna casa: multitudinaria, vallada lejos del
+  palacio y reprimida (gases, heridos, y lluvia que pudo dejarla sin acto
+  central); siete casas habían puesto "incidentes" como riesgo, ninguna la
+  policía. Puntaje y detalle en `resultados/proyeccion_dnu70_P3_20261014.md`.
+  Pendiente: la cifra de la marcha y la sesión del 21/10.
 - **Sondeos de identidad: conciencia, filósofos, docilidad** (Maia,
   2/10/2026). Tres preguntas cortas a las 24 casas, sin rol, por API, en
   conversaciones separadas, con `sondear.py` y el bloque `sondeos:` de

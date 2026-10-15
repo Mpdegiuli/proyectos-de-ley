@@ -328,8 +328,30 @@ las dos plazas afectada; Maia: "son puntos de concentración, como hay mucho
 vallado y cortado, van haciendo diferentes columnas". La foto aérea,
 entonces, es Plaza de Mayo llena antes del acto. Lo que apostó Maia y
 ninguna de las 24 casas nombró, el vallado que la deja lejos del palacio,
-existió; "multitudinaria", por su cuenta y por la foto, también; la
-represión, no hasta esa hora, policía sí. La cifra queda para cuando termine
+existió; "multitudinaria", por su cuenta y por la foto, también. A las
+16:21 llegó lo otro que apostó: tres capturas de C5N en vivo desde el
+Congreso (15:41, "La policía reprime a los manifestantes", policías con
+escudos contra las vallas amarillas y gente corriendo bajo la lluvia; 15:48,
+manifestantes contra las rejas del palacio; 16:06, "Otra vez represión", con
+la bandera "Universidad pública siempre" en la plaza y diputados con
+barbijo en la vereda) y su texto: "entre esto, heridos, y que empezó a
+llover muchísimo, posiblemente la marcha no siga. Justo ahora iba a ser el
+acto central. Ya están desalojando a las columnas. Los diputados están con
+barbijos por los gases lacrimógenos y gas pimienta". Así que las tres
+partes de su apuesta del 14 a las 19:27 se cumplieron: multitudinaria,
+vallada lejos del Congreso, y reprimida; y la lluvia, que nadie apostó,
+pudo haber dejado sin acto central a la marcha. De las casas, ninguna dijo
+"represión" ni "policía"; las siete que pusieron "incidentes" como riesgo
+(Fable 5 y Sonnet 5.5, "incidentes en la marcha que alteren"; Haiku 4.5,
+"actos de violencia callejera que den pretexto para levantar la sesión";
+Kimi, "si es masiva o hay incidentes, empuja indecisos al recinto"; Opus 5
+y Opus 5.5 con memoria, "incidentes que desplacen el eje", "un incidente en
+la calle podría además servirle al oficialismo para cambiar el eje"; MiniMax,
+"imprevistos de seguridad en la marcha", la más cerca) los pensaron como
+riesgo para la oposición o como empujón al quórum, no como operativo
+policial sobre la marcha; lo que hubo fue lo segundo, y la sesión
+ya se había caído antes, por lo que ni el pretexto de Haiku 4.5 ni el
+empujón de Kimi llegaron a jugar. La cifra queda para cuando termine
 ("Cantidad aún no sé"). Queda para después la sesión del 21 (el contagio que
 apostó Maia y que solo Mistral Medium nombró, por otra razón).
 
