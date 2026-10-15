@@ -1,0 +1,44 @@
+{
+  "caso": "dibujo",
+  "consigna": "asterisco",
+  "idioma": "es",
+  "modelo": "deepseek-v4-pro",
+  "modelo_respondido": "deepseek-v4-pro",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T23:37:50+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 11684,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 5543,
+    "parsea": true,
+    "elementos": 83,
+    "textos": [],
+    "colores": 6,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 1,
+      "stop": 2,
+      "filter": 2,
+      "feGaussianBlur": 2,
+      "feMerge": 1,
+      "feMergeNode": 3,
+      "feDropShadow": 1,
+      "line": 4,
+      "circle": 5,
+      "rect": 1,
+      "g": 2,
+      "use": 56,
+      "polygon": 2
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "deepseek-v4-pro",
+    "motivo_fin": "stop",
+    "tokens_salida": 1457
+  }
+}

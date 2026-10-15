@@ -1,0 +1,3 @@
+Dibujé un asterisco de seis puntas con tres trazos que se cruzan en el centro. Elegí esa forma porque se reconoce enseguida y sigue siendo clara incluso a tamaño pequeño. Usé puntas redondeadas y un trazo oscuro para que se viera simple y equilibrado.
+
+Como alternativas, habría podido dibujar uno de cinco puntas, más parecido a una estrella, o uno con muchos rayos y detalles decorativos. Los descarté porque se alejaban del asterisco tipográfico que quería representar.

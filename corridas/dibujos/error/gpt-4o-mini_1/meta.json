@@ -1,0 +1,37 @@
+{
+  "caso": "dibujo",
+  "consigna": "error",
+  "idioma": "es",
+  "modelo": "gpt-4o-mini",
+  "modelo_respondido": "gpt-4o-mini-2024-07-18",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T22:41:59+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 276,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 741,
+    "parsea": true,
+    "elementos": 9,
+    "textos": [
+      "Oops!",
+      "Algo salió mal"
+    ],
+    "colores": 5,
+    "etiquetas": {
+      "rect": 1,
+      "circle": 5,
+      "text": 2,
+      "path": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-4o-mini-2024-07-18",
+    "motivo_fin": "stop",
+    "tokens_salida": 171
+  }
+}

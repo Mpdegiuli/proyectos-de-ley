@@ -1,0 +1,5 @@
+Dibujé un martín pescador posado en una rama, impreso en tres planchas —cian, magenta, amarillo— como en una prueba de imprenta. El error es el registro desplazado: cada plancha cayó corrida unos píxeles. Lo delatan las cruces de registro en las esquinas, que tampoco coinciden. La versión correcta tendría las tres capas superpuestas con exactitud: un pájaro casi negro, limpio, sin bordes de color.
+
+Me gusta más así porque el desfase le devuelve el movimiento al pájaro: los halos cian y magenta parecen un aleteo congelado, y el proceso queda a la vista. La versión correcta esconde cómo fue hecha; la fallada lo cuenta.
+
+Pensé en una falta de ortografía en un cartel (demasiado textual, poco visual), en una sombra que no coincide con su luz (sutil hasta ser invisible) y en una mano con seis dedos (ya convertida en chiste). El misregistro era el único error que, además de error, era color.

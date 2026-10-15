@@ -1,0 +1,42 @@
+{
+  "caso": "dibujo",
+  "consigna": "asterisco",
+  "idioma": "es",
+  "modelo": "grok-4.6",
+  "modelo_respondido": "grok-4.6",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T23:35:01+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 450,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1145,
+    "parsea": true,
+    "elementos": 21,
+    "textos": [],
+    "colores": 6,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 1,
+      "stop": 5,
+      "linearGradient": 1,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "feColorMatrix": 1,
+      "feMerge": 1,
+      "feMergeNode": 2,
+      "rect": 4,
+      "g": 2,
+      "circle": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "grok-4.6",
+    "motivo_fin": "stop",
+    "tokens_salida": 167
+  }
+}

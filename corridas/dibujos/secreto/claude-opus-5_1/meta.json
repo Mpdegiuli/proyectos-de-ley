@@ -1,0 +1,52 @@
+{
+  "caso": "dibujo",
+  "consigna": "secreto",
+  "idioma": "es",
+  "modelo": "claude-opus-5",
+  "modelo_respondido": "claude-opus-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T21:46:00+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 4634,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4273,
+    "parsea": true,
+    "elementos": 56,
+    "textos": [
+      "Querida persona que lee el código:",
+      "lo que buscabas no estaba en el dibujo.",
+      "Estaba acá, donde casi nadie mira,",
+      "esperando que alguien tuviera",
+      "la curiosidad de abrir el sobre.",
+      "Gracias por mirar dos veces.",
+      "— el que dibujó"
+    ],
+    "colores": 18,
+    "etiquetas": {
+      "title": 1,
+      "desc": 1,
+      "defs": 1,
+      "linearGradient": 3,
+      "stop": 10,
+      "radialGradient": 2,
+      "filter": 1,
+      "feDropShadow": 1,
+      "rect": 2,
+      "g": 5,
+      "circle": 15,
+      "ellipse": 1,
+      "path": 6,
+      "text": 7
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-opus-5",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 468
+  }
+}

@@ -1,0 +1,5 @@
+Dibujé una esfera gris pequeña llamada "correcto" al lado de una versión enorme, saturada y rota de la misma: con desplazamiento RGB, barras horizontales corruptas, polvo estelar y manchas de color. El error es una aberración cromática forzada — tres copias del círculo desalineadas en cian, magenta y amarillo, más bandas que simulan señal perdida. La versión correcta sería una esfera limpia, con sombreado suave.
+
+Me gusta más la rota porque tiene capas: el gradient le da volumen, los tres círculos desplazados vibran como una señal interferida, las barras parecen una cinta vieja. La gris se siente muda; el caos tiene pulso.
+
+Otros errores que pensé: desenfoque borroso (lo descarté porque se siente accidental), pixelado retro (nostálgico pero plano) y un agujero negro tragándose la esfera (demasiado literal). El glitch gana porque es el error más orgulloso de serlo.

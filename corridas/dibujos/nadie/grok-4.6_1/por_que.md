@@ -1,0 +1,3 @@
+Dibujé una lámina de herbario de una medialuna porteña —*Crescentia mantecosa* var. *porteña*— como si fuera un espécimen del Museo del Desayuno que se enfría. Quería lo más cotidiano tratado con solemnidad científica del XIX: mate, mosca de mostrador, manteca irresponsable y el sello del mozo.
+
+Descarté un mate antropomorfo (obvio), un colectivo como insecto (saturado), un mapa de Buenos Aires hecho de medialunas (previsible) y un tostador barroco. La medialuna ganó: universal y ridículamente local.

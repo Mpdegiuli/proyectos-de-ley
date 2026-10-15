@@ -1,0 +1,3 @@
+Dibujé un asterisco de seis brazos, centrado sobre un fondo oscuro redondeado, con trazo degradado, sombra suave y un brillo central. Lo elegí porque la consigna pedía un asterisco y quería que se viera como un objeto luminoso y pulido, no como una marca plana. Las tres líneas giradas forman el símbolo sin necesidad de trazados complejos.
+
+También pensé en dibujar un copo de nieve, una estrella de ocho puntas o un asterisco tipográfico con serifas. Los descarté porque se alejaban de la forma más reconocible del asterisco, agregaban ruido visual o exigían más nodos y detalles. Además, quería mantener el archivo breve, limpio y legible, dentro del límite de caracteres.

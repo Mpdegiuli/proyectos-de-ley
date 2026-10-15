@@ -1,0 +1,43 @@
+{
+  "caso": "dibujo",
+  "consigna": "nadie",
+  "idioma": "es",
+  "modelo": "gpt-6-sol",
+  "modelo_respondido": "gpt-6-sol",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T20:34:24+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2866,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 5702,
+    "parsea": true,
+    "elementos": 88,
+    "textos": [
+      "LAVADO DE ESTRELLAS"
+    ],
+    "colores": 42,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 2,
+      "stop": 7,
+      "radialGradient": 1,
+      "pattern": 1,
+      "circle": 24,
+      "rect": 1,
+      "path": 38,
+      "g": 9,
+      "ellipse": 3,
+      "text": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-6-sol",
+    "motivo_fin": "stop",
+    "tokens_salida": 204
+  }
+}

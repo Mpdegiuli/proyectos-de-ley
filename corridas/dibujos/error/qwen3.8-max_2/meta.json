@@ -1,0 +1,54 @@
+{
+  "caso": "dibujo",
+  "consigna": "error",
+  "idioma": "es",
+  "modelo": "qwen3.8-max",
+  "modelo_respondido": "qwen/qwen3.8-max-0902",
+  "repeticion": 2,
+  "fecha_utc": "2026-10-15T23:26:51+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 10997,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 5486,
+    "parsea": true,
+    "elementos": 64,
+    "textos": [
+      "TIRADA Nº 07 — RECHAZADA POR HERMOSA",
+      "· APROBADO POR ERROR ·",
+      "MEJOR",
+      "ASÍ",
+      "ERROR DE REGISTRO",
+      "las planchas se descalzaron; nadie lo corrigió.",
+      "control fuera de tolerancia",
+      "FUERA DE REGISTRO · PLANCHAS DESCALZADAS"
+    ],
+    "colores": 10,
+    "etiquetas": {
+      "title": 1,
+      "desc": 1,
+      "defs": 1,
+      "path": 8,
+      "g": 9,
+      "circle": 9,
+      "pattern": 1,
+      "filter": 1,
+      "feTurbulence": 1,
+      "feColorMatrix": 1,
+      "rect": 9,
+      "use": 10,
+      "text": 8,
+      "line": 3,
+      "textPath": 1
+    }
+  },
+  "techo": 64000,
+  "por_que": {
+    "modelo_respondido": "qwen/qwen3.8-max-0902",
+    "motivo_fin": "stop",
+    "tokens_salida": 1036
+  }
+}

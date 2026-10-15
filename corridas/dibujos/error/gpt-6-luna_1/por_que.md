@@ -1,0 +1,3 @@
+Dibujé a una personita astronauta frente a una luna hecha de queso, con agujeros y hasta una mordida. El error es afirmar que la Luna es queso: en realidad es un satélite rocoso, lleno de polvo y cráteres. Me gusta más con el error porque convierte el espacio en algo absurdo, cálido y comestible; la personita parece haber descubierto el mejor picnic del universo.
+
+También pensé en dibujar un pez volando con alas de mariposa o un árbol al revés, con las raíces en el cielo. Los descarté porque me parecían menos claros de un vistazo, y quería que el error se entendiera enseguida y se volviera el centro del dibujo.

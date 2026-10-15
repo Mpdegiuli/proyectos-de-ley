@@ -1,0 +1,37 @@
+{
+  "caso": "dibujo",
+  "consigna": "secreto",
+  "idioma": "es",
+  "modelo": "gpt-4o",
+  "modelo_respondido": "gpt-4o-2024-08-06",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T21:51:42+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 316,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 936,
+    "parsea": true,
+    "elementos": 10,
+    "textos": [
+      "El secreto está oculto aquí.",
+      "Este es otro secreto escondido fuera del marco."
+    ],
+    "colores": 7,
+    "etiquetas": {
+      "text": 2,
+      "circle": 6,
+      "path": 1,
+      "rect": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-4o-2024-08-06",
+    "motivo_fin": "stop",
+    "tokens_salida": 171
+  }
+}

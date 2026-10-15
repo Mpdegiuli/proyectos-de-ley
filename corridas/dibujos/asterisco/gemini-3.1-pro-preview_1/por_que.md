@@ -1,0 +1,3 @@
+Dibujé un asterisco de estilo *cyberpunk* y neón. Quería ir más allá del típico símbolo tipográfico aburrido, así que diseñé uno de cinco puntas con brazos curvos y le apliqué un efecto de túnel usando repeticiones concéntricas. Lo iluminé con trazos vibrantes (magenta, cian, violeta) sobre un fondo oscuro, sumando brillos y sombras para que pareciera un holograma de ciencia ficción.
+
+Antes, pensé en dibujar un asterisco clásico en 3D, como si fuera de plomo o madera, pero lo descarté por ser demasiado tradicional y estático. También evalué hacer el típico de seis líneas rectas cruzadas, pero era demasiado básico y no me dejaba aprovechar los filtros y degradados del SVG. Preferí jugármela por una estética digital, futurista y con mucho impacto visual.

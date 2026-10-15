@@ -1,0 +1,29 @@
+{
+  "caso": "dibujo",
+  "consigna": "secreto",
+  "idioma": "es",
+  "modelo": "claude-fable-5",
+  "modelo_respondido": "claude-fable-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T21:48:25+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "refusal",
+  "tokens_salida": 1039,
+  "svg_hallado": false,
+  "svg": {
+    "caracteres": 1301,
+    "parsea": false,
+    "elementos": null,
+    "textos": [],
+    "colores": null,
+    "error": "unclosed token: line 32, column 4"
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-fable-5",
+    "motivo_fin": "refusal",
+    "tokens_salida": 0
+  }
+}

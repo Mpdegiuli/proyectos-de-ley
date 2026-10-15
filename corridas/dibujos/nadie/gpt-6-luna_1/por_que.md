@@ -1,0 +1,3 @@
+Dibujé un pequeño terrario de vidrio: un archivo botánico nocturno donde crecen semillas con forma de lunas, y un diminuto cuidador cataloga una de ellas. Quise que pareciera una lámina de un mundo imaginario, con instrucciones de cuidado poéticas y una escala que invita a acercarse.
+
+También pensé en dibujar una máquina que tradujera sueños o un mapa de una ciudad construida sobre una ballena. Los descarté porque podían volverse escenas más previsibles o recargadas. Preferí una imagen compacta, donde el detalle extraño —un jardinero diminuto entre lunas— conviviera con algo reconocible: una vitrina de museo y una planta que necesita luz de marea.

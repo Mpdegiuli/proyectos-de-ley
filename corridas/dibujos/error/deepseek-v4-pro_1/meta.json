@@ -1,0 +1,46 @@
+{
+  "caso": "dibujo",
+  "consigna": "error",
+  "idioma": "es",
+  "modelo": "deepseek-v4-pro",
+  "modelo_respondido": "deepseek-v4-pro",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T22:55:51+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 12994,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4075,
+    "parsea": true,
+    "elementos": 53,
+    "textos": [
+      "PRUEBA DE IMPRENTA Nº 47",
+      "Tinta corrida - Revisar",
+      "ERROR"
+    ],
+    "colores": 8,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 1,
+      "stop": 2,
+      "filter": 1,
+      "feTurbulence": 1,
+      "feDisplacementMap": 1,
+      "g": 5,
+      "path": 5,
+      "rect": 2,
+      "use": 20,
+      "circle": 11,
+      "text": 3
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "deepseek-v4-pro",
+    "motivo_fin": "stop",
+    "tokens_salida": 464
+  }
+}

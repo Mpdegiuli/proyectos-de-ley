@@ -1,0 +1,72 @@
+```xml
+<svg viewBox="0 0 400 400" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <radialGradient id="bg" cx="50%" cy="50%" r="70%">
+            <stop offset="0%" stop-color="#140A26"/>
+            <stop offset="60%" stop-color="#090312"/>
+            <stop offset="100%" stop-color="#020105"/>
+        </radialGradient>
+        
+        <linearGradient id="baseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#3D1B6B"/>
+            <stop offset="50%" stop-color="#1A0A33"/>
+            <stop offset="100%" stop-color="#0B0418"/>
+        </linearGradient>
+
+        <g id="arm">
+            <path d="M -4,0 Q -8,-75 -19,-125 A 30,30 0 1,1 19,-125 Q 8,-75 4,0 Z" vector-effect="non-scaling-stroke" />
+        </g>
+
+        <g id="asterisk">
+            <circle cx="0" cy="0" r="14" vector-effect="non-scaling-stroke" />
+            <use href="#arm" />
+            <use href="#arm" transform="rotate(72)" />
+            <use href="#arm" transform="rotate(144)" />
+            <use href="#arm" transform="rotate(216)" />
+            <use href="#arm" transform="rotate(288)" />
+        </g>
+
+        <g id="strokes">
+            <use href="#asterisk" fill="none" stroke="#FF007A" stroke-width="3" />
+            <use href="#asterisk" fill="none" stroke="#B500FF" stroke-width="2.5" transform="scale(0.85)" />
+            <use href="#asterisk" fill="none" stroke="#00F0FF" stroke-width="2" transform="scale(0.70)" />
+            <use href="#asterisk" fill="none" stroke="#0057FF" stroke-width="2" transform="scale(0.55)" />
+            <use href="#asterisk" fill="none" stroke="#FF007A" stroke-width="1.5" transform="scale(0.40)" />
+            <use href="#asterisk" fill="none" stroke="#00FF9D" stroke-width="1.5" transform="scale(0.25)" />
+            <use href="#asterisk" fill="none" stroke="#FFFFFF" stroke-width="1" transform="scale(0.10)" />
+        </g>
+        
+        <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+            <feGaussianBlur stdDeviation="4" result="blur" />
+            <feComposite in="SourceGraphic" in2="blur" operator="over" />
+        </filter>
+        
+        <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+            <feDropShadow dx="0" dy="15" stdDeviation="10" flood-color="#000" flood-opacity="0.9" />
+        </filter>
+    </defs>
+
+    <rect width="400" height="400" fill="url(#bg)"/>
+
+    <g opacity="0.4">
+        <circle cx="200" cy="200" r="60" fill="none" stroke="#B500FF" stroke-width="1" stroke-dasharray="2 6"/>
+        <circle cx="200" cy="200" r="100" fill="none" stroke="#00F0FF" stroke-width="1" stroke-dasharray="4 10"/>
+        <circle cx="200" cy="200" r="140" fill="none" stroke="#FF007A" stroke-width="1" stroke-dasharray="1 5"/>
+        <circle cx="200" cy="200" r="180" fill="none" stroke="#0057FF" stroke-width="1" stroke-dasharray="8 16"/>
+    </g>
+
+    <g transform="translate(200, 200)">
+        <use href="#asterisk" fill="none" stroke="#FF007A" stroke-width="12" filter="blur(16px)" opacity="0.6" />
+        <use href="#asterisk" fill="#000" filter="url(#shadow)" opacity="0.8" />
+        
+        <use href="#asterisk" fill="url(#baseGrad)" />
+
+        <g filter="url(#glow)">
+            <use href="#strokes" />
+        </g>
+
+        <circle cx="0" cy="0" r="6" fill="#FFF" filter="blur(2px)"/>
+        <circle cx="0" cy="0" r="3" fill="#FFF"/>
+    </g>
+</svg>
+```

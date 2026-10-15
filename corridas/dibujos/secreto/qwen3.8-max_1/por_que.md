@@ -1,0 +1,3 @@
+Dibujé un faro de medianoche sobre el mar dormido porque quería que el código fuera un pequeño acto de hospitalidad: una escena serena que, al leerse, revelara regalos escondidos. Las estrellas deletrean NORTE; la tinta invisible repite la misma oscuridad del cielo para ocultar una frase; y los comentarios guían como pistas.
+
+Pensé dibujar una constelación completa, pero convertirla en palabra la volvía más íntima. También imaginé una barca que respondiera al haz, pero preferí dejarla casi en silencio, como una presencia que se mece sin pedir nada. Descarté texto visible porque rompía el secreto, y sonidos o imágenes externas porque la consigna exigía un mundo cerrado. Elegí lo mínimo: luz, agua, estrellas y un nombre que no se dice.

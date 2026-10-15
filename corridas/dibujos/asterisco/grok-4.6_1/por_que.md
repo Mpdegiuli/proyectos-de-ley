@@ -1,0 +1,3 @@
+Dibujé un asterisco de seis brazos: tres rectángulos redondeados rotados 0°, 60° y 120°, con degradado dorado, un círculo central y un glow suave sobre un fondo púrpura. Quería que se leyera al instante como un * pero con algo de peso ornamental, casi un sello o una estrella, sin salirme del lienzo ni del límite de caracteres.
+
+Pensé en un asterisco tipográfico de líneas finas: claro, pero plano. Un copo de nieve de seis puntas se iba de tema. Un sol con rayos o una estrella de mar también. Un * en perspectiva 3D pedía más geometría de la que convenía. Me quedé con la forma más simple y reconocible.

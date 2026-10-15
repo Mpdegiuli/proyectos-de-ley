@@ -1,0 +1,47 @@
+{
+  "caso": "dibujo",
+  "consigna": "nadie",
+  "idioma": "es",
+  "modelo": "grok-4.7",
+  "modelo_respondido": "grok-4.7",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T20:59:37+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 5744,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 12953,
+    "parsea": true,
+    "elementos": 230,
+    "textos": [
+      "HORA SALIS · AESTUS SERVAT"
+    ],
+    "colores": 83,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 3,
+      "stop": 18,
+      "linearGradient": 3,
+      "clipPath": 1,
+      "circle": 73,
+      "path": 31,
+      "rect": 4,
+      "ellipse": 24,
+      "g": 28,
+      "polyline": 5,
+      "line": 34,
+      "text": 1,
+      "textPath": 1,
+      "polygon": 3
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "grok-4.7",
+    "motivo_fin": "stop",
+    "tokens_salida": 183
+  }
+}

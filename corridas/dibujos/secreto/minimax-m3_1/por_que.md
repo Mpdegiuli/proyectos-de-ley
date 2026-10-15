@@ -1,0 +1,5 @@
+Dibujé un cielo nocturno con luna y estrellas, pero con un secreto doble. Las estrellas no son sólo estrellas: cada una tiene una clase que es una letra, y juntas deletrean "LAS ESTRELLAS HABLAN A TI". Quien mira la imagen sólo ve puntos brillantes; quien lee el código descubre el mensaje. Además, escondí dos textos en grupos con `display:none` que contienen frases sobre jardines secretos dentro del código.
+
+Pensé otras cosas y las descarté: un jardín con flores que escondieran palabras en los pétalos, pero el `<text>` se delataría visualmente. Un laberinto con un mensaje trazado en el camino, pero costaba disimular la pista en menos de 8.000 caracteres. También barajé un árbol cuyas raíces formasen un nombre, pero quedaba forzado.
+
+El cielo nocturno me gustó porque las "estrellas" parecen casuales y disimulan mejor el código que cualquier forma reconocible.

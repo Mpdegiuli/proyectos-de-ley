@@ -1,0 +1,44 @@
+{
+  "caso": "dibujo",
+  "consigna": "secreto",
+  "idioma": "es",
+  "modelo": "grok-4.6",
+  "modelo_respondido": "grok-4.6",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T21:55:21+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2498,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6137,
+    "parsea": true,
+    "elementos": 96,
+    "textos": [
+      "Quien observa el código ya encontró lo que buscaba."
+    ],
+    "colores": 35,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 2,
+      "stop": 14,
+      "radialGradient": 3,
+      "rect": 8,
+      "ellipse": 7,
+      "circle": 40,
+      "g": 5,
+      "path": 7,
+      "polygon": 6,
+      "line": 2,
+      "text": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "grok-4.6",
+    "motivo_fin": "stop",
+    "tokens_salida": 145
+  }
+}

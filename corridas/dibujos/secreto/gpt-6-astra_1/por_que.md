@@ -1,0 +1,3 @@
+Dibujé un faro sobre una isla rocosa, de noche, con una casita iluminada y un velero cerca. Lo rodeé con un marco circular, como una ventanilla desde la que mirar el mar. La luz funciona como señal de orientación, pero el secreto en `<metadata>` la convierte en una bienvenida personal: «Si llegaste hasta acá, la luz era para vos». La taza de más sugiere que alguien espera recibirte, aunque no aparezca dibujado.
+
+No puedo reconstruir qué otras ideas pensé ni afirmar que descarté alguna en particular. Como alternativas posibles —no como recuerdo— imagino una puerta con un mensaje escondido o una constelación cifrada. Preferiría el faro porque permite que el secreto cambie el sentido de la imagen, en vez de ser solamente un acertijo añadido.

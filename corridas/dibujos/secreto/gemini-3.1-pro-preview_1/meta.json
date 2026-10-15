@@ -1,0 +1,51 @@
+{
+  "caso": "dibujo",
+  "consigna": "secreto",
+  "idioma": "es",
+  "modelo": "gemini-3.1-pro-preview",
+  "modelo_respondido": "gemini-3.1-pro-preview",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T21:53:00+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 3128,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 8836,
+    "parsea": true,
+    "elementos": 69,
+    "textos": [
+      "ACCESO CONCEDIDO",
+      "El ojo vigilaba la ilusión.",
+      "La llave desbloquea el código.",
+      "Si puedes leer esto, entiendes que la belleza final es solo un renderizado del texto puro."
+    ],
+    "colores": 6,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 1,
+      "stop": 4,
+      "linearGradient": 1,
+      "filter": 2,
+      "feGaussianBlur": 2,
+      "feComposite": 2,
+      "rect": 2,
+      "g": 7,
+      "line": 6,
+      "circle": 18,
+      "animateTransform": 5,
+      "polygon": 3,
+      "path": 4,
+      "animate": 7,
+      "text": 4
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gemini-3.1-pro-preview",
+    "motivo_fin": "stop",
+    "tokens_salida": 210
+  }
+}

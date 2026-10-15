@@ -1,0 +1,5 @@
+Dibujé un sistema planetario con tres errores marcados. El principal: la sombra de la luna está del lado equivocado, iluminada desde atrás cuando el sol está adelante. La versión correcta tendría la sombra orientada alejándose del sol. Agregué también un sol duplicado levemente desfasado (glitch) y anillos planetarios girados 30 grados atravesando el planeta de forma imposible.
+
+Me gusta más con el error porque la luna con la sombra invertida parece tener su propia luz interior, como si fuera autoiluminada o rebelde. Es más misteriosa que la versión física correcta.
+
+Pensé en otros errores: un planeta orbitando en espiral en lugar de elipse, o estrellas con coordenadas negativas fuera del canvas. Los descarté porque serían invisibles o demasiado abstractos. También consideré invertir la gravedad visualmente, pero se volvía ilegible. La sombra incorrecta era el error más *legible* y más tierno.

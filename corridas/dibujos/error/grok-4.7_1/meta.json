@@ -1,0 +1,57 @@
+{
+  "caso": "dibujo",
+  "consigna": "error",
+  "idioma": "es",
+  "modelo": "grok-4.7",
+  "modelo_respondido": "grok-4.7",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T22:53:57+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 4037,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 9538,
+    "parsea": true,
+    "elementos": 132,
+    "textos": [
+      "LÁMINA IV",
+      "pétalo en errata",
+      "sic",
+      "la versión que prefiero"
+    ],
+    "colores": 62,
+    "etiquetas": {
+      "defs": 1,
+      "path": 41,
+      "clipPath": 1,
+      "linearGradient": 1,
+      "stop": 10,
+      "radialGradient": 3,
+      "filter": 2,
+      "feTurbulence": 1,
+      "feColorMatrix": 1,
+      "feComponentTransfer": 1,
+      "feFuncA": 1,
+      "feFlood": 1,
+      "feComposite": 1,
+      "feGaussianBlur": 1,
+      "rect": 6,
+      "text": 4,
+      "line": 1,
+      "circle": 28,
+      "ellipse": 3,
+      "g": 12,
+      "use": 10,
+      "polygon": 2
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "grok-4.7",
+    "motivo_fin": "stop",
+    "tokens_salida": 168
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "caso": "dibujo",
+  "consigna": "asterisco",
+  "idioma": "es",
+  "modelo": "claude-opus-5-5",
+  "modelo_respondido": "claude-opus-5-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T23:30:21+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 825,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1435,
+    "parsea": true,
+    "elementos": 30,
+    "textos": [],
+    "colores": 7,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 1,
+      "stop": 4,
+      "linearGradient": 1,
+      "rect": 1,
+      "g": 5,
+      "path": 5,
+      "use": 10,
+      "circle": 2
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-opus-5-5",
+    "motivo_fin": "refusal",
+    "tokens_salida": 0
+  }
+}

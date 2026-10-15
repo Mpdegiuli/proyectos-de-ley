@@ -1,0 +1,59 @@
+{
+  "caso": "dibujo",
+  "consigna": "error",
+  "idioma": "es",
+  "modelo": "glm-5.3-razonamiento-minimo",
+  "modelo_respondido": "z-ai/glm-5.3",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T23:21:01+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2063,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4934,
+    "parsea": true,
+    "elementos": 69,
+    "textos": [
+      "~/corazón — bash",
+      "const sentimiento = new Amor(",
+      "{ recipiente: \"vos\",",
+      "duración: Infinity,",
+      "condición: null });",
+      "try {",
+      "sentir(todo);",
+      "} catch (e) {",
+      "💥 SyntaxError: unexpected",
+      "beauty at line 1:1",
+      "}",
+      "}",
+      "{",
+      "}",
+      "el bug era el feature"
+    ],
+    "colores": 16,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 1,
+      "stop": 6,
+      "linearGradient": 1,
+      "filter": 2,
+      "feGaussianBlur": 2,
+      "feMerge": 1,
+      "feMergeNode": 2,
+      "rect": 5,
+      "g": 9,
+      "circle": 21,
+      "text": 15,
+      "path": 3
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "z-ai/glm-5.3",
+    "motivo_fin": "stop",
+    "tokens_salida": 240
+  }
+}

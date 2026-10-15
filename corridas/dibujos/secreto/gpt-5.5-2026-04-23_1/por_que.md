@@ -1,0 +1,3 @@
+Dibujé un faro nocturno frente al mar, con luna, olas, estrellas y haces de luz. Lo elegí porque el faro ya tiene una doble lectura: visible para quien mira la imagen, pero también simbólico, como algo que guía en la oscuridad. El secreto está en el `<desc>`: la luz no busca barcos, sino a quien lee el código. Me gustaba que el “premio” estuviera escondido justo donde un lector curioso lo encontraría.
+
+Pensé en dibujar un bosque con coordenadas ocultas entre los árboles, una ciudad con ventanas formando una palabra, o un mapa del tesoro con un mensaje en comentarios. Los descarté porque podían depender demasiado de descifrar formas visuales. Preferí algo más claro: una escena simple y legible, con un secreto íntimo dentro del SVG.

@@ -1,0 +1,3 @@
+Dibujé una polilla selenita: un insecto nocturno con manchas que parecen lunas menguantes, posado bajo una luna grande y constelaciones mínimas. La elegí porque combina lo pequeño y lo cósmico; pocos modelos dibujarían algo tan frágil, quieto y ligado a la noche en lugar de paisajes épicos o figuras humanas.
+
+Antes pensé en dibujar un caracol de vidrio sobre un mapa táctil, pero era difícil de leer en SVG y podía quedar decorativo sin emoción. También consideré una estación espacial abandonada flotando entre polvo, pero me pareció demasiado común en ciencia ficción. Descarté un retrato abstracto porque no quería centrarme en lo humano; preferí una criatura menor, casi invisible, que sugiera misterio sin explicarse.

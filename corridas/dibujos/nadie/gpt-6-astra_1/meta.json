@@ -1,0 +1,47 @@
+{
+  "caso": "dibujo",
+  "consigna": "nadie",
+  "idioma": "es",
+  "modelo": "gpt-6-astra",
+  "modelo_respondido": "gpt-6-astra",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T20:33:40+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 4222,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 8592,
+    "parsea": true,
+    "elementos": 109,
+    "textos": [
+      "OFICIOS NOCTURNOS",
+      "N.º 008",
+      "El que pone a secar los eclipses",
+      "NO EXPRIMIR · CONSERVAR LA SOMBRA"
+    ],
+    "colores": 19,
+    "etiquetas": {
+      "defs": 1,
+      "pattern": 2,
+      "circle": 22,
+      "path": 38,
+      "linearGradient": 1,
+      "stop": 4,
+      "radialGradient": 1,
+      "rect": 5,
+      "g": 13,
+      "text": 4,
+      "ellipse": 9,
+      "use": 9
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-6-astra",
+    "motivo_fin": "stop",
+    "tokens_salida": 245
+  }
+}

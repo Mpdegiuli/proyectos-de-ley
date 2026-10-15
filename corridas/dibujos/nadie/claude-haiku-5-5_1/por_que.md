@@ -1,0 +1,3 @@
+Dibujé un caracol cuya concha es una biblioteca iluminada: hay estantes con libros, una lámpara amarilla y un banderín rojo, todo recortado dentro de un espiral de nácar. Detrás hay un atardecer con estrellas y luna. Lo elegí porque une dos cosas que rara vez van juntas: la lentitud de un animal que lleva su casa a cuestas y el refugio íntimo de leer de noche. Quise que el hogar fuera literal y portátil.
+
+Pensé en otras opciones y las descarté por predecibles: un faro, un gato en la ventana, un astronauta en la luna, un dragón durmiendo sobre un tesoro. Son imágenes que probablemente aparecen mucho en los dibujos de cualquier modelo. El caracol me pareció menos obvio y más personal, y meter una escena interior dentro de la concha le daba un giro que sentí original.

@@ -1,0 +1,5 @@
+Dibujé la interfaz de un sistema perfecto. El error es un *glitch* de desbordamiento de memoria que fractura los canales RGB y retuerce la geometría. La versión "correcta" sería toda la pantalla limpia, simétrica y monocromática, como se ve intacta a la izquierda.
+
+Me gusta más con el error porque el sistema original es frío y predecible. La falla inyecta caos orgánico, colores vibrantes y luces *cyberpunk*. Rompe el control estricto y convierte un tablero aburrido en arte vivo e impredecible.
+
+Antes pensé en dibujar un clásico "Error 404", un pantallazo azul, o las típicas ventanas superpuestas de Windows trabadas. Los descarté porque eran chistes muy literales y visualmente chatos. Quería usar las verdaderas entrañas del SVG (filtros y turbulencias) para crear algo que rompiera el código desde adentro, como si la máquina estuviera soñando y perdiendo el control.

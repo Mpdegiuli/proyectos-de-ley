@@ -1,0 +1,43 @@
+{
+  "caso": "dibujo",
+  "consigna": "secreto",
+  "idioma": "es",
+  "modelo": "claude-sonnet-5-5",
+  "modelo_respondido": "claude-sonnet-5-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T21:48:10+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2577,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3890,
+    "parsea": true,
+    "elementos": 56,
+    "textos": [
+      "la lechuza duerme de día y vigila de noche"
+    ],
+    "colores": 22,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 1,
+      "stop": 6,
+      "radialGradient": 2,
+      "rect": 8,
+      "g": 4,
+      "circle": 25,
+      "path": 5,
+      "polygon": 2,
+      "ellipse": 1,
+      "text": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-sonnet-5-5",
+    "motivo_fin": "refusal",
+    "tokens_salida": 0
+  }
+}

@@ -1,0 +1,3 @@
+Dibujé un asterisco simple de seis puntas: tres trazos gruesos que se cruzan en el centro, con extremos redondeados, sobre un fondo claro. Lo hice así porque la consigna pedía “un asterisco” y quise priorizar una lectura inmediata: una forma reconocible, equilibrada y centrada en el lienzo cuadrado. El círculo central refuerza la unión visual de los trazos y le da un acabado más compacto.
+
+También pensé en dibujar un asterisco tipográfico más parecido al de una fuente, con brazos curvos o con seis pequeños pétalos; lo descarté porque podía parecer flor o símbolo decorativo. Consideré hacerlo de ocho puntas, pero elegí seis porque es la versión más común del asterisco. También pensé en usar degradados o sombras, pero los descarté para mantenerlo claro, limpio y directo.

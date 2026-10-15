@@ -1,0 +1,5 @@
+Dibujé una carita feliz visible, pero el verdadero secreto está en el código: texto microscópico, patrones sutiles, coordenadas que deletrean ASCII, opacidades casi nulas. Solo quien inspeccione el SVG descubrirá que "todo lo visible es una mentira" —el mensaje final metido en una capa invisible.
+
+Elegí esto porque juega directamente con la consigna: el secreto *requiere* leer el código fuente. La ironía es que una carita simple y amigable esconde capas de engaño.
+
+Descarté otras ideas: un mapa con tesoro (demasiado obvio), una puerta con contraseña en el código (menos poético), y un cuadro abstracto donde los colores RGB deletrearan palabras (complicado de verificar). Al final, preferí algo visible que contraste violentamente con su verdad codificada: la broma es que lo hermoso es falso si sabes dónde mirar.

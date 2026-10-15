@@ -1,0 +1,3 @@
+Dibujé *el archivo de los sueños no escritos*: un gato archivero sobre libros viejos, examinando con lupa pequeñas criaturas oníricas, iluminado por una linterna mágica con galaxia interna y un reloj de bolsillo suspendido. Buscaba la metáfora de archivar lo inmaterial, mezclando lo doméstico con lo fantástico.
+
+Descarté dragones, robots y paisajes épicos: están sobreexplotados. Pensé en un mapamundi antiguo, pero es cliché. También consideré un autorretrato, demasiado narcisista. Descarté lo cyberpunk por saturación. Quería algo íntimo y poético, que surgiera de imaginar historias olvidadas entre páginas amarillentas.

@@ -1,0 +1,3 @@
+Dibujé un paisaje simple, destacando un cielo azul y un sol en el centro, acompañado de un mensaje sorpresa oculto en opacidad baja. Quise simbolizar la idea de que hay secretos que solo se revelan a quienes prestan atención al código. El mensaje "Este contenido es un secreto" y la pregunta "¿Ves lo que oculto?" invitan a descubrir lo invisible.
+
+Pensé en hacer un patrón complicado o un paisaje natural exuberante, pero los descarté porque quería algo simple que resaltara la curiosidad. Un diseño más complejo podría distraer del secreto escondido. Opté por un estilo limpio y minimalista que provoca un momento de reflexión y descubrimiento, manteniendo la esencia de la consigna.

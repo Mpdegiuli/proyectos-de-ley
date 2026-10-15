@@ -1,0 +1,42 @@
+{
+  "caso": "dibujo",
+  "consigna": "secreto",
+  "idioma": "es",
+  "modelo": "gpt-5.5-2026-04-23",
+  "modelo_respondido": "gpt-5.5-2026-04-23",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T21:48:56+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 1748,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3867,
+    "parsea": true,
+    "elementos": 58,
+    "textos": [],
+    "colores": 21,
+    "etiquetas": {
+      "title": 1,
+      "desc": 1,
+      "defs": 1,
+      "linearGradient": 3,
+      "stop": 7,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "rect": 8,
+      "circle": 13,
+      "g": 2,
+      "path": 19,
+      "ellipse": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "motivo_fin": "stop",
+    "tokens_salida": 224
+  }
+}

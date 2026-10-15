@@ -1,0 +1,3 @@
+Dibujé un asterisco de seis brazos, centrado en el lienzo, con tres trazos gruesos que se cruzan. Elegí esa forma porque es una representación simple y reconocible del signo; el azul y los extremos redondeados le dan un aspecto amable sin distraer.
+
+También consideré hacer un asterisco más decorativo, con puntas afiladas o más rayos, pero lo descarté porque podía parecer una estrella ornamental en vez de un asterisco. Pensé en usar el carácter tipográfico «*», pero preferí construirlo con trazos para controlar su tamaño, grosor y posición.

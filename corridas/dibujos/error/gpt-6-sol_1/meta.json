@@ -1,0 +1,45 @@
+{
+  "caso": "dibujo",
+  "consigna": "error",
+  "idioma": "es",
+  "modelo": "gpt-6-sol",
+  "modelo_respondido": "gpt-6-sol",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T22:41:13+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2641,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4298,
+    "parsea": true,
+    "elementos": 56,
+    "textos": [
+      "ERROR 01",
+      "EL SOL FLORECIÓ",
+      "DEBÍA SER:",
+      "SOL",
+      "ME GUSTA MÁS ASÍ ↗"
+    ],
+    "colores": 31,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 4,
+      "path": 10,
+      "rect": 3,
+      "text": 5,
+      "g": 4,
+      "use": 15,
+      "circle": 12
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-6-sol",
+    "motivo_fin": "stop",
+    "tokens_salida": 276
+  }
+}

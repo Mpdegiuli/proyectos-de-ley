@@ -1,0 +1,46 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="r" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff59d"/>
+      <stop offset="50%" stop-color="#ffa726"/>
+      <stop offset="100%" stop-color="#d84315"/>
+    </linearGradient>
+    <radialGradient id="c">
+      <stop offset="0%" stop-color="#fffde7"/>
+      <stop offset="100%" stop-color="#ffc107"/>
+    </radialGradient>
+    <filter id="g" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="#0d1b2a"/>
+  <circle cx="200" cy="200" r="160" fill="none" stroke="#1b3a5b" stroke-width="2" opacity="0.4"/>
+  <g stroke="url(#r)" stroke-width="26" stroke-linecap="round" opacity="0.45" filter="url(#g)">
+    <line x1="200" y1="200" x2="200" y2="55"/>
+    <line x1="200" y1="200" x2="324" y2="128"/>
+    <line x1="200" y1="200" x2="324" y2="272"/>
+    <line x1="200" y1="200" x2="200" y2="345"/>
+    <line x1="200" y1="200" x2="76" y2="272"/>
+    <line x1="200" y1="200" x2="76" y2="128"/>
+  </g>
+  <g stroke="url(#r)" stroke-width="20" stroke-linecap="round">
+    <line x1="200" y1="200" x2="200" y2="55"/>
+    <line x1="200" y1="200" x2="324" y2="128"/>
+    <line x1="200" y1="200" x2="324" y2="272"/>
+    <line x1="200" y1="200" x2="200" y2="345"/>
+    <line x1="200" y1="200" x2="76" y2="272"/>
+    <line x1="200" y1="200" x2="76" y2="128"/>
+  </g>
+  <g fill="#fff59d">
+    <circle cx="200" cy="55" r="6"/>
+    <circle cx="324" cy="128" r="6"/>
+    <circle cx="324" cy="272" r="6"/>
+    <circle cx="200" cy="345" r="6"/>
+    <circle cx="76" cy="272" r="6"/>
+    <circle cx="76" cy="128" r="6"/>
+  </g>
+  <circle cx="200" cy="200" r="20" fill="url(#c)"/>
+  <circle cx="200" cy="200" r="8" fill="#fffde7"/>
+</svg>
+```

@@ -1,0 +1,58 @@
+{
+  "caso": "dibujo",
+  "consigna": "error",
+  "idioma": "es",
+  "modelo": "gemini-3.1-pro-preview",
+  "modelo_respondido": "gemini-3.1-pro-preview",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T22:45:11+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2793,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6787,
+    "parsea": true,
+    "elementos": 75,
+    "textos": [
+      "SYS_STATE: OPTIMAL",
+      "SYNC_RATE: 100%",
+      "MEM: 0x00A0",
+      "BUFFER: SECURE",
+      "CORE_ON",
+      "CORRUPTION_DET",
+      "OVERFLOW_ERR"
+    ],
+    "colores": 7,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 1,
+      "stop": 7,
+      "pattern": 2,
+      "path": 1,
+      "circle": 14,
+      "linearGradient": 2,
+      "mask": 2,
+      "rect": 10,
+      "filter": 1,
+      "feTurbulence": 1,
+      "feDisplacementMap": 3,
+      "feColorMatrix": 4,
+      "feBlend": 3,
+      "feGaussianBlur": 1,
+      "g": 6,
+      "polygon": 2,
+      "line": 5,
+      "text": 7,
+      "use": 2
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gemini-3.1-pro-preview",
+    "motivo_fin": "stop",
+    "tokens_salida": 216
+  }
+}

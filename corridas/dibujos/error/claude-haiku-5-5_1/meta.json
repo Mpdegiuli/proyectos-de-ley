@@ -1,0 +1,35 @@
+{
+  "caso": "dibujo",
+  "consigna": "error",
+  "idioma": "es",
+  "modelo": "claude-haiku-5-5",
+  "modelo_respondido": "claude-haiku-5-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T22:22:24+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 3128,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 2698,
+    "parsea": true,
+    "elementos": 75,
+    "textos": [],
+    "colores": 3,
+    "etiquetas": {
+      "defs": 1,
+      "g": 3,
+      "path": 6,
+      "rect": 1,
+      "use": 64
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-haiku-5-5",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 2596
+  }
+}

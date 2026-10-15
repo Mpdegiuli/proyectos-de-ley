@@ -1,0 +1,41 @@
+{
+  "caso": "dibujo",
+  "consigna": "secreto",
+  "idioma": "es",
+  "modelo": "gpt-6-luna",
+  "modelo_respondido": "gpt-6-luna",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T21:51:36+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2019,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3647,
+    "parsea": true,
+    "elementos": 59,
+    "textos": [],
+    "colores": 29,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 2,
+      "stop": 6,
+      "radialGradient": 1,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "rect": 1,
+      "circle": 16,
+      "path": 26,
+      "g": 3,
+      "ellipse": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-6-luna",
+    "motivo_fin": "stop",
+    "tokens_salida": 290
+  }
+}

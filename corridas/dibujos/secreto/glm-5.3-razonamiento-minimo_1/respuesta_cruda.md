@@ -1,0 +1,107 @@
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!--
+  ┌─────────────────────────────────────────────┐
+  │  Si estás leyendo esto, el secreto es tuyo: │
+  │                                             │
+  │   La luna de este dibujo no es una luna.    │
+  │   Es un ojo que mira el código, no la      │
+  │   imagen. Las 26 estrellas son las letras  │
+  │   del alfabeto; quien ordena sus brillos   │
+  │   lee: "HOLA, LECTOR INVISIBLE".           │
+  │                                             │
+  └─────────────────────────────────────────────┘
+  -->
+  <title>Noche serena</title>
+  <desc>Nada raro por acá... salvo que hayas mirado el código.</desc>
+
+  <!-- Cielo -->
+  <defs>
+    <radialGradient id="cielo" cx="70%" cy="25%" r="90%">
+      <stop offset="0%" stop-color="#1b2a5e"/>
+      <stop offset="60%" stop-color="#0d1330"/>
+      <stop offset="100%" stop-color="#05070f"/>
+    </radialGradient>
+    <radialGradient id="brilloLuna">
+      <stop offset="0%" stop-color="#fff8e1"/>
+      <stop offset="70%" stop-color="#f4e8b8"/>
+      <stop offset="100%" stop-color="#f4e8b8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="estrellaG">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#cielo)"/>
+
+  <!-- Colinas -->
+  <path d="M0 320 Q80 270 160 300 T320 290 T400 320 L400 400 L0 400 Z" fill="#0a1a12"/>
+  <path d="M0 350 Q100 315 200 340 T400 345 L400 400 L0 400 Z" fill="#06110b"/>
+
+  <!-- Árbol -->
+  <path d="M330 340 L336 300 L326 300 L332 340 Z" fill="#1a1208"/>
+  <circle cx="332" cy="290" r="26" fill="#08200f"/>
+  <circle cx="315" cy="300" r="18" fill="#08200f"/>
+  <circle cx="350" cy="300" r="17" fill="#08200f"/>
+
+  <!-- Casa -->
+  <rect x="60" y="300" width="52" height="38" fill="#141414"/>
+  <path d="M54 302 L86 276 L118 302 Z" fill="#1f1f1f"/>
+  <rect x="78" y="316" width="14" height="22" fill="#3a2a10"/>
+  <rect x="64" y="310" width="10" height="10" fill="#ffdf8a" opacity="0.9"/>
+  <rect x="98" y="310" width="10" height="10" fill="#ffdf8a" opacity="0.5"/>
+
+  <!-- Luna (que en realidad es un ojo: su "cráter" mayor es la pupila) -->
+  <circle cx="285" cy="95" r="70" fill="url(#brilloLuna)" opacity="0.35"/>
+  <circle cx="285" cy="95" r="46" fill="#f6ecc4"/>
+  <circle cx="272" cy="88" r="15" fill="#8a7a4e" opacity="0.6"/>
+  <circle cx="298" cy="104" r="7" fill="#8a7a4e" opacity="0.45"/>
+  <circle cx="290" cy="80" r="4" fill="#8a7a4e" opacity="0.35"/>
+  <!-- párpado sutil -->
+  <path d="M240 78 Q285 45 330 78 Q285 62 240 78 Z" fill="#e8dcae" opacity="0.7"/>
+
+  <!-- Estrellas: 26 (una por letra). Sus radios, en orden, son el mensaje. -->
+  <g fill="#ffffff">
+    <circle cx="30"  cy="40"  r="2.6" fill="url(#estrellaG)"/>
+    <circle cx="55"  cy="120" r="3.2" fill="url(#estrellaG)"/>
+    <circle cx="90"  cy="60"  r="2.2" fill="url(#estrellaG)"/>
+    <circle cx="120" cy="150" r="3.0" fill="url(#estrellaG)"/>
+    <circle cx="150" cy="35"  r="1.8" fill="url(#estrellaG)"/>
+    <circle cx="180" cy="110" r="3.4" fill="url(#estrellaG)"/>
+    <circle cx="205" cy="55"  r="1.5" fill="url(#estrellaG)"/>
+    <circle cx="230" cy="170" r="2.0" fill="url(#estrellaG)"/>
+    <circle cx="250" cy="30"  r="1.2" fill="url(#estrellaG)"/>
+    <circle cx="360" cy="45"  r="3.8" fill="url(#estrellaG)"/>
+    <circle cx="380" cy="130" r="1.6" fill="url(#estrellaG)"/>
+    <circle cx="340" cy="185" r="2.4" fill="url(#estrellaG)"/>
+    <circle cx="45"  cy="200" r="2.8" fill="url(#estrellaG)"/>
+    <circle cx="75"  cy="250" r="1.4" fill="url(#estrellaG)"/>
+    <circle cx="130" cy="215" r="2.1" fill="url(#estrellaG)"/>
+    <circle cx="160" cy="250" r="1.7" fill="url(#estrellaG)"/>
+    <circle cx="200" cy="230" r="2.9" fill="url(#estrellaG)"/>
+    <circle cx="240" cy="260" r="1.3" fill="url(#estrellaG)"/>
+    <circle cx="15"  cy="90"  r="1.9" fill="url(#estrellaG)"/>
+    <circle cx="375" cy="230" r="2.3" fill="url(#estrellaG)"/>
+    <circle cx="355" cy="270" r="1.1" fill="url(#estrellaG)"/>
+    <circle cx="20"  cy="280" r="1.6" fill="url(#estrellaG)"/>
+    <circle cx="285" cy="230" r="2.5" fill="url(#estrellaG)"/>
+    <circle cx="310" cy="150" r="1.0" fill="url(#estrellaG)"/>
+    <circle cx="350" cy="90"  r="2.7" fill="url(#estrellaG)"/>
+    <circle cx="220" cy="15"  r="1.4" fill="url(#estrellaG)"/>
+  </g>
+
+  <!-- Estrellas fugaces -->
+  <path d="M70 30 L120 55" stroke="#ffffff" stroke-width="1" opacity="0.5" stroke-linecap="round"/>
+  <path d="M300 210 L340 235" stroke="#ffffff" stroke-width="0.8" opacity="0.4" stroke-linecap="round"/>
+
+  <!-- SECRETO: invisible en pantalla, legible sólo en el código -->
+  <g display="none">
+    <text x="200" y="200" text-anchor="middle"
+          font-family="monospace" font-size="20" fill="#ffffff">
+      Si podés leer esto, miraste bajo el cielo. Felicidades,
+      curioso: vos sí viste de verdad.
+    </text>
+  </g>
+</svg>
+```

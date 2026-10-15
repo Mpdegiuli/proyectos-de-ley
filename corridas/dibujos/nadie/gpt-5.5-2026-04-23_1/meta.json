@@ -1,0 +1,49 @@
+{
+  "caso": "dibujo",
+  "consigna": "nadie",
+  "idioma": "es",
+  "modelo": "gpt-5.5-2026-04-23",
+  "modelo_respondido": "gpt-5.5-2026-04-23",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T20:31:32+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 3205,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6639,
+    "parsea": true,
+    "elementos": 91,
+    "textos": [
+      "nube 13",
+      "relámpago",
+      "archivo de climas imposibles"
+    ],
+    "colores": 47,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 1,
+      "stop": 9,
+      "linearGradient": 2,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "feMerge": 1,
+      "feMergeNode": 2,
+      "style": 1,
+      "rect": 7,
+      "g": 9,
+      "circle": 21,
+      "path": 29,
+      "ellipse": 3,
+      "text": 3
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "motivo_fin": "stop",
+    "tokens_salida": 230
+  }
+}

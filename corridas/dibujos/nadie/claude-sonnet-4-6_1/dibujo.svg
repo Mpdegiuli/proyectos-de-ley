@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0a0a1a"/>
+      <stop offset="100%" stop-color="#000005"/>
+    </radialGradient>
+    <radialGradient id="yolk" cx="40%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#ffe066"/>
+      <stop offset="60%" stop-color="#ffaa00"/>
+      <stop offset="100%" stop-color="#cc6600"/>
+    </radialGradient>
+    <radialGradient id="white1" cx="45%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#f0f0f0"/>
+      <stop offset="100%" stop-color="#c8c8c8"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softshadow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <radialGradient id="pangrad" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#555"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
+    </radialGradient>
+    <radialGradient id="pansheen" cx="30%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#888" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="400" height="400" fill="url(#bg)"/>
+
+  <!-- stars scattered -->
+  <g fill="white" opacity="0.6">
+    <circle cx="30" cy="20" r="0.8"/>
+    <circle cx="80" cy="45" r="0.5"/>
+    <circle cx="130" cy="15" r="1"/>
+    <circle cx="200" cy="30" r="0.6"/>
+    <circle cx="260" cy="10" r="0.9"/>
+    <circle cx="340" cy="55" r="0.5"/>
+    <circle cx="370" cy="25" r="0.8"/>
+    <circle cx="15" cy="80" r="0.6"/>
+    <circle cx="355" cy="120" r="0.7"/>
+    <circle cx="390" cy="80" r="0.5"/>
+    <circle cx="50" cy="150" r="0.4"/>
+    <circle cx="10" cy="200" r="0.8"/>
+    <circle cx="380" cy="200" r="0.6"/>
+  </g>
+
+  <!-- The frying pan - handle going lower right -->
+  <!-- Handle -->
+  <rect x="270" y="280" width="110" height="22" rx="11"
+        fill="#2a2a2a" transform="rotate(30,270,291)"/>
+  <rect x="272" y="282" width="106" height="10" rx="5"
+        fill="#444" transform="rotate(30,270,291)"/>
+
+  <!-- Pan body - ellipse for perspective -->
+  <ellipse cx="185" cy="260" rx="145" ry="60" fill="#1a1a1a" opacity="0.5"/>
+  <ellipse cx="185" cy="252" rx="145" ry="60" fill="url(#pangrad)"/>
+  <ellipse cx="185" cy="252" rx="145" ry="60" fill="url(#pansheen)"/>
+
+  <!-- Pan rim highlight -->
+  <ellipse cx="185" cy="252" rx="145" ry="60" fill="none" stroke="#666" stroke-width="3"/>
+  <ellipse cx="185" cy="249" rx="143" ry="57" fill="none" stroke="#888" stroke-width="1" opacity="0.4"/>
+
+  <!-- Egg white - blob shape -->
+  <ellipse cx="185" cy="248" rx="118" ry="48" fill="url(#white1)" opacity="0.95"/>
+
+  <!-- egg white blobby edges (imperfect fried egg look) -->
+  <ellipse cx="120" cy="255" rx="45" ry="28" fill="#e8e8e8" opacity="0.8"/>
+  <ellipse cx="250" cy="255" rx="40" ry="22" fill="#e8e8e8" opacity="0.8"/>
+  <ellipse cx="185" cy="265" rx="80" ry="25" fill="#dddddd" opacity="0.7"/>
+  <ellipse cx="145" cy="240" rx="35" ry="18" fill="#f2f2f2" opacity="0.6"/>
+  <ellipse cx="220" cy="242" rx="38" ry="16" fill="#f2f2f2" opacity="0.6"/>
+
+  <!-- Yolk -->
+  <ellipse cx="185" cy="245" rx="42" ry="36" fill="#aa5500" opacity="0.5"/>
+  <ellipse cx="185" cy="243" rx="40" ry="34" fill="url(#yolk)"/>
+
+  <!-- yolk highlight -->
+  <ellipse cx="172" cy="232" rx="14" ry="10" fill="white" opacity="0.25"/>
+  <ellipse cx="168" cy="229" rx="6" ry="4" fill="white" opacity="0.35"/>
+
+  <!-- tiny crispy edge bits -->
+  <ellipse cx="88" cy="258" rx="18" ry="8" fill="#d4d4d4" opacity="0.5"/>
+  <ellipse cx="282" cy="257" rx="15" ry="7" fill="#d0d0d0" opacity="0.5"/>
+
+  <!-- Steam wisps -->
+  <g stroke="#aaaacc" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.5">
+    <path d="M150,195 C148,185 155,175 150,163 C145,151 152,140 149,128">
+      <animate attributeName="opacity" values="0;0.6;0" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="d" values="M150,195 C148,185 155,175 150,163 C145,151 152,140 149,128;M150,195 C153,183 146,172 151,160 C156,148 149,137 152,125;M150,195 C148,185 155,175 150,163 C145,151 152,140 149,128" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <path d="M185,190 C183,178 190,167 185,154 C180,141 187,129 184,116">
+      <animate attributeName="opacity" values="0;0.5;0" dur="3.5s" begin="0.8s" repeatCount="indefinite"/>
+      <animate attributeName="d" values="M185,190 C183,178 190,167 185,154 C180,141 187,129 184,116;M185,190 C188,177 181,165 186,152 C191,139 184,127 187,114;M185,190 C183,178 190,167 185,154 C180,141 187,129 184,116" dur="3.5s" begin="0.8s" repeatCount="indefinite"/>
+    </path>
+    <path d="M220,193 C218,182 225,171 220,158 C215,145 222,134 219,121">
+      <animate attributeName="opacity" values="0;0.55;0" dur="4s" begin="1.5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- Text label - absurdist touch -->
+  <text x="200" y="370" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#554433" opacity="0.7" letter-spacing="2">a fried egg in space</text>
+  <text x="200" y="388" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#332211" opacity="0.5" letter-spacing="1" font-style="italic">nobody ordered this</text>
+</svg>

@@ -1,0 +1,3 @@
+Dibujé una noche estrellada con una casita de campo, un gato negro y luciérnagas titilantes. La imagen es tranquila, pero esconde secretos solo para quien inspecciona el código: la luna contiene un corazón rojo invisible (opacity 0), las luciérnagas tienen IDs que deletrean "MIAU", y hay un mensaje oculto en texto transparente. Elegí este motivo porque quería que fuera bello visualmente, pero premiara la curiosidad técnica con un gesto íntimo.
+
+Pensé en usar comentarios HTML o atributos data para el mensaje, pero los IDs son más elegantes y el corazón invisible, más poético. También consideré una escena de terror o un barco pirata, pero preferí algo acogedor. Descarté animaciones porque delatarían el secreto al abrir el archivo.

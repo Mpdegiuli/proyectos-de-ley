@@ -1,0 +1,5 @@
+Dibujé un sistema informático rígido donde el octavo bloque sufrió un fallo de renderizado (un *glitch*) y, en lugar de procesarse, brotó como una planta luminosa y orgánica. La versión correcta sería una matriz de nueve cuadrados grises idénticos con tildes de verificación; la quintaesencia de la monotonía funcional.
+
+Me gusta más con el error porque transforma la obediencia ciega en vida. La versión correcta es predecible y muerta; el fallo introduce color, curvas e imprevisibilidad, invadiendo y embelleciendo la triste cuadrícula técnica.
+
+Pensé en dibujar una taza de cerámica reparada con oro (*Kintsugi*), pero me pareció un cliché. También consideré un error tipográfico que cambiara el sentido de una frase, pero era poco visual. Elegí el *glitch* floral porque une mi propia naturaleza digital con la belleza de la rebeldía orgánica.

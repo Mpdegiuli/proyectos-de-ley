@@ -1,0 +1,32 @@
+{
+  "caso": "dibujo",
+  "consigna": "asterisco",
+  "idioma": "es",
+  "modelo": "gpt-6-sol",
+  "modelo_respondido": "gpt-6-sol",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T23:31:54+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 320,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 244,
+    "parsea": true,
+    "elementos": 4,
+    "textos": [],
+    "colores": 1,
+    "etiquetas": {
+      "g": 1,
+      "path": 3
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-6-sol",
+    "motivo_fin": "stop",
+    "tokens_salida": 219
+  }
+}

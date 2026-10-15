@@ -1,0 +1,5 @@
+Dibujé un sol chueco: abollado, asimétrico, con rayos torcidos y una mancha donde se me pasó la pintura. La versión correcta —un círculo perfecto, compás mediante— quedó arriba a la izquierda, tachada en rojo. El error sería no haber trazado bien la curva: el contorno se desvía, se hunde, chorrea.
+
+Me gusta más así porque el sol chueco tiene cuerpo, parece dibujado por una mano que dudó y siguió igual. El círculo perfecto no necesita a nadie; el abollado sí. Por eso le puse cara contenta y flores creciendo abajo: el error dio fruto.
+
+Pensé en otros: una palabra mal escrita (muy dependiente del idioma y poco visual), una casa con la puerta en el techo (más absurdo que error querible), y un arcoíris con los colores desordenados (lindo, pero el desorden ahí casi no se siente como falla). El sol torcido era el más humano.

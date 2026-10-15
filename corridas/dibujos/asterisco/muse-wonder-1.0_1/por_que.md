@@ -1,0 +1,3 @@
+Dibujé un asterisco de seis puntas como protagonista absoluto: tres barras redondeadas cruzadas a 60°, con degradado amarillo-naranja-rosa-violeta-azul, brillo superior y un núcleo luminoso central. Lo puse sobre fondo azul noche con destellos y estrellas porque quería convertir un signo tipográfico habitualmente mínimo y negro en un objeto vibrante, casi una gema o estrella, sin dejar de ser legible al instante.
+
+Pensé en un asterisco tipográfico negro sobre blanco, en una estrella de mar y en un copo de nieve. Los descarté: el primero me pareció demasiado obvio, y los otros dos desviaban la atención hacia la metáfora y debilitaban el reconocimiento directo del símbolo.

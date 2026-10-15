@@ -1,0 +1,45 @@
+{
+  "caso": "dibujo",
+  "consigna": "secreto",
+  "idioma": "es",
+  "modelo": "kimi-k3",
+  "modelo_respondido": "moonshotai/kimi-k3",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T22:18:42+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 13531,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4764,
+    "parsea": true,
+    "elementos": 72,
+    "textos": [
+      "Si leés esto, ya encontraste el secreto: seis estrellas deletrean una palabra con sus id (leélas de izquierda a derecha), la estrella fugaz dice HOLA en morse y hay una llave dorada escondida fuera del lienzo. El verdadero dibujo estaba en el código.",
+      "la llave del dibujo"
+    ],
+    "colores": 22,
+    "etiquetas": {
+      "desc": 1,
+      "defs": 1,
+      "linearGradient": 3,
+      "stop": 12,
+      "radialGradient": 2,
+      "rect": 6,
+      "g": 5,
+      "circle": 22,
+      "path": 16,
+      "ellipse": 1,
+      "line": 1,
+      "text": 2
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "moonshotai/kimi-k3",
+    "motivo_fin": "stop",
+    "tokens_salida": 1202
+  }
+}

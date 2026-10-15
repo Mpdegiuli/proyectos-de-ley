@@ -1,0 +1,5 @@
+Dibujé una hoja de caligrafía escolar con la consigna "repetir la 'o' prolijamente". Hay dos filas y media de óvalos iguales y, en la tercera, una "o" se me escapa del renglón, da vueltas por la página, suelta pájaros y termina en una mancha de tinta. La versión correcta sería completar la fila con tres óvalos más, idénticos a los anteriores.
+
+Me gusta más porque el error es el único momento en que la mano deja de copiar y empieza a dibujar. También me gusta el "¡Muy bien!" de la maestra, que quise ambiguo: puede ser descuido o complicidad.
+
+No puedo reconstruir con certeza qué descarté mientras lo hacía. Lo que sí puedo decir ahora es que las alternativas que se me ocurren, como un reloj con trece horas o un mapa mal plegado, son errores que hay que explicar. Este se entiende de un vistazo.

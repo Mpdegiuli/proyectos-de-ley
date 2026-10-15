@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Secret: the little fox is called Juniper, and she is finding her way home. -->
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#18264b"/>
+      <stop offset="1" stop-color="#596a8c"/>
+    </linearGradient>
+    <linearGradient id="hill" x2=".3" y2="1">
+      <stop stop-color="#41566b"/>
+      <stop offset="1" stop-color="#202f42"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#fff4cb" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#fff4cb" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="4"/></filter>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#sky)"/>
+  <circle cx="302" cy="91" r="58" fill="url(#glow)"/>
+  <path d="M307 48a39 39 0 1 0 35 57 34 34 0 0 1-35-57Z" fill="#fff1c2"/>
+  <g fill="#f9e9bb">
+    <circle cx="54" cy="61" r="1.8"/><circle cx="107" cy="101" r="1.3"/>
+    <circle cx="158" cy="48" r="1.5"/><circle cx="211" cy="84" r="1.2"/>
+    <circle cx="362" cy="40" r="1.4"/><circle cx="366" cy="139" r="1.8"/>
+    <circle cx="65" cy="148" r="1.2"/><circle cx="248" cy="33" r="1"/>
+    <path d="M85 39v7m-3.5-3.5h7M181 117v6m-3-3h6M344 177v6m-3-3h6"/>
+  </g>
+
+  <path d="M0 217Q69 168 140 218t137-6q59-44 123 8v180H0Z" fill="#34465d"/>
+  <path d="M0 261q80-60 167-12t233-7v158H0Z" fill="url(#hill)"/>
+
+  <!-- Cottage -->
+  <path d="M43 229 103 179l63 50v74H43Z" fill="#35404c"/>
+  <path d="m33 232 70-61 71 61-10 10-61-51-60 51Z" fill="#202c3a"/>
+  <path d="M58 242h91v61H58Z" fill="#56606a"/>
+  <path d="M71 254h25v31H71Z" rx="3" fill="#f8cf83"/>
+  <path d="M75 258h17v23H75Z" fill="#ffd996"/>
+  <path d="M83 258v23m-8-11h17" stroke="#765a4b" stroke-width="2"/>
+  <path d="M116 267a12 12 0 0 1 24 0v36h-24Z" fill="#293644"/>
+  <circle cx="136" cy="285" r="1.5" fill="#f3c874"/>
+  <path d="M133 184v-30h17v44" fill="#39424b"/>
+  <path d="M137 164q-8-10 0-18 7 10 0 18Z" fill="#d2a374" opacity=".55"/>
+
+  <!-- Winding moonlit path -->
+  <path d="M124 400q28-69 91-96 45-19 52-58 36 46-11 82-38 30-48 72Z" fill="#b6a78d" opacity=".45"/>
+  <path d="M139 400q27-63 79-85" fill="none" stroke="#e4d2a9" stroke-width="2" opacity=".45"/>
+
+  <!-- Ferns -->
+  <g fill="none" stroke="#7d987b" stroke-width="2" stroke-linecap="round">
+    <path d="M23 346q29-36 32-76m-4 24-14-12m18 1 13-15m-18 42-16-9m20-1 15-15"/>
+    <path d="M352 354q-17-35-11-67m-1 22 15-13m-15 1-12-18m14 39 16-9"/>
+  </g>
+  <g fill="#d5a878">
+    <circle cx="31" cy="321" r="2"/><circle cx="365" cy="312" r="2"/>
+    <circle cx="205" cy="348" r="2"/><circle cx="230" cy="368" r="1.6"/>
+  </g>
+
+  <!-- Juniper -->
+  <ellipse cx="244" cy="346" rx="39" ry="8" fill="#1c2936" opacity=".45"/>
+  <path d="M215 338q-23-12-17-34 5-17 20-24l-2-22 19 12q14-4 25 5l17-8-5 22q13 16 3 35-10 19-35 21Z" fill="#d77f4c"/>
+  <path d="m218 284-2-19 15 12m25 3 15-7-4 19" fill="#d77f4c"/>
+  <path d="m220 281-1-9 8 8m25 2 7-4-2 10" fill="#f0c5a2"/>
+  <path d="M213 306q17-16 31-4 14-12 30 3-4 24-29 28-26-3-32-27Z" fill="#f4d9b4"/>
+  <path d="M222 299q-5 9 1 14 7 4 10-4m23-10q6 9 0 14-7 4-10-4" fill="#4a3937"/>
+  <path d="m239 315 5 3 5-3-5-4Z" fill="#67434a"/>
+  <path d="M244 318q-4 6-9 3m9-3q4 6 9 3" fill="none" stroke="#67434a" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M218 331q-11 11-23 3-7-5 0-11" fill="none" stroke="#d77f4c" stroke-width="10" stroke-linecap="round"/>
+  <path d="M228 337v8m26-10v10" stroke="#f4d9b4" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="225" cy="296" r="2" fill="#fff1d3"/>
+  <circle cx="263" cy="296" r="2" fill="#fff1d3"/>
+</svg>

@@ -1,0 +1,3 @@
+Dibujé una noche quieta: luna, pinos, agua, una cabaña con la ventana encendida y un gato negro. Quería que se viera sólo espera, y que el secreto viviera en el código: Aurora, las estrellas LUNA, el comentario, la estrella invisible en el centro y lo que está en `display="none"`.
+
+Pensé en un faro con morse, en una ciudad desde un techo y en un reloj de arena lleno de estrellas. Los descarté: el faro pedía movimiento, la ciudad saturaba el cuadrado y el reloj era demasiado símbolo. Preferí algo doméstico y callado.

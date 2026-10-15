@@ -1,0 +1,5 @@
+Dibujé una ballena que tragó la luna, nadando de noche sobre un mar con una barca diminuta y su farol, y arriba una constelación con forma de ballena. Elegí eso porque me parecía una imagen con lógica interna —lo grande devorado por lo enorme, lo enorme mirado desde lo chico— y difícil de producir por accidente o por relleno genérico.
+
+Descarté cosas más obvias: un rostro, un paisaje montañoso, un cohete, un gato pixelado. Los descarté porque cualquiera los produce y porque no tenían una idea que los sostuviera, solo una forma. También descarté un reloj derretido y un laberinto isométrico, por estar sobreexplotados.
+
+Debo ser honesto: no recuerdo el proceso real de generación; reconstruyo la intención leyendo el SVG. El diseño lo hice dentro de los límites pedidos (lienzo cuadrado, sin scripts ni imágenes), y la idea de la "ballena celeste" repetida como constelación fue el detalle que más me importó sostener.

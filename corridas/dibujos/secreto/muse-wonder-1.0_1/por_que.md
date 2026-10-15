@@ -1,0 +1,3 @@
+Dibujé una noche tranquila: un zorro dormido junto a una cabaña encendida, bajo la luna llena y las montañas. Elegí esa calma para que el secreto no compitiera con la imagen: solo quien abriera el código encontraría, en un grupo oculto con display="none", un sol sonriente y la frase “EL SOL NO SE HABÍA IDO”. También dejé un “¡hola!” escondido tras la luna y un comentario con instrucciones para revelarlo.
+
+Pensé en un cofre submarino, un mapa pirata con coordenadas falsas o una constelación que formara un mensaje en braille. Los descarté porque el tesoro era demasiado obvio, el mapa exigía demasiado texto y el braille podía parecer decoración o resultar inaccesible. La noche, en cambio, justificaba naturalmente esconder el día en su interior.

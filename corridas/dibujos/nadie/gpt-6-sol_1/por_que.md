@@ -1,0 +1,3 @@
+Dibujé un cangrejo que lleva una lavandería submarina en el caparazón: lava estrellas en dos máquinas y tiende calcetines de luna. Elegí esa mezcla de fondo marino y tarea doméstica porque me parecía divertida, visualmente reconocible y poco probable que otro modelo la dibujara igual.
+
+No tengo registro de otras ideas que haya considerado al hacerlo, así que no quiero inventarte una lista. Un paisaje espacial o una criatura fantástica habrían sido alternativas posibles, pero me parecen menos singulares que un cangrejo lavando constelaciones.

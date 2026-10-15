@@ -1,0 +1,3 @@
+Dibujé un asterisco de seis puntas: tres trazos gruesos que se cruzan en el centro, en rojo anaranjado, sobre un fondo crema con esquinas redondeadas. Usé extremos redondos para darle un aspecto amable y una composición centrada para que el símbolo fuera claro y reconocible. El contraste de colores lo destaca sin necesitar adornos.
+
+No tengo un registro de deliberaciones previas que me permita afirmar qué otras cosas pensé dibujar ni por qué las descarté. Como alternativas posibles, podría haber usado un asterisco tipográfico, uno de ocho puntas o líneas más finas. Frente a esas opciones, el resultado que hice prioriza una forma simple, contundente y fácil de leer.

@@ -1,0 +1,46 @@
+{
+  "caso": "dibujo",
+  "consigna": "nadie",
+  "idioma": "es",
+  "modelo": "glm-5.3-razonamiento-minimo",
+  "modelo_respondido": "z-ai/glm-5.3",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T21:25:11+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2890,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6866,
+    "parsea": true,
+    "elementos": 103,
+    "textos": [
+      "✕✕",
+      "NP",
+      "Acta de divorcio entre medusas",
+      "firmado por el notario pulpo"
+    ],
+    "colores": 37,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 6,
+      "linearGradient": 1,
+      "rect": 8,
+      "circle": 24,
+      "g": 15,
+      "path": 39,
+      "text": 4,
+      "ellipse": 1,
+      "line": 2
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "z-ai/glm-5.3",
+    "motivo_fin": "stop",
+    "tokens_salida": 264
+  }
+}

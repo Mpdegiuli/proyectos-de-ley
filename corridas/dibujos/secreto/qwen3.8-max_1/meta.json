@@ -1,0 +1,49 @@
+{
+  "caso": "dibujo",
+  "consigna": "secreto",
+  "idioma": "es",
+  "modelo": "qwen3.8-max",
+  "modelo_respondido": "qwen/qwen3.8-max-0902",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T22:13:01+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 19651,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 7697,
+    "parsea": true,
+    "elementos": 121,
+    "textos": [
+      "Toda luz es una carta para quien se detiene a mirarla.",
+      "Este faro también te alumbra a vos. Volvé cuando quieras."
+    ],
+    "colores": 31,
+    "etiquetas": {
+      "title": 1,
+      "desc": 1,
+      "defs": 1,
+      "linearGradient": 5,
+      "stop": 16,
+      "radialGradient": 1,
+      "clipPath": 1,
+      "path": 14,
+      "rect": 16,
+      "g": 12,
+      "ellipse": 2,
+      "animateTransform": 3,
+      "animate": 20,
+      "circle": 25,
+      "line": 1,
+      "text": 2
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "qwen/qwen3.8-max-0902",
+    "motivo_fin": "stop",
+    "tokens_salida": 1003
+  }
+}

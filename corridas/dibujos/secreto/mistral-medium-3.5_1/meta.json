@@ -1,0 +1,38 @@
+{
+  "caso": "dibujo",
+  "consigna": "secreto",
+  "idioma": "es",
+  "modelo": "mistral-medium-3.5",
+  "modelo_respondido": "mistral-medium-3.5",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T22:05:23+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 378,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 793,
+    "parsea": true,
+    "elementos": 9,
+    "textos": [
+      "¿Ves algo más?",
+      "El secreto está en el código: \"Sólo los curiosos lo ven\"."
+    ],
+    "colores": 4,
+    "etiquetas": {
+      "rect": 1,
+      "circle": 3,
+      "path": 2,
+      "text": 2,
+      "g": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "mistral-medium-3.5",
+    "motivo_fin": "stop",
+    "tokens_salida": 216
+  }
+}

@@ -1,0 +1,3 @@
+Dibujé un asterisco de seis puntas, formado por tres trazos que se cruzan en el centro: uno vertical y dos diagonales. Lo hice rojo anaranjado sobre un fondo crema, con líneas gruesas y extremos redondeados. Es una solución simple y reconocible: el contraste lo destaca, la simetría lo equilibra y las puntas redondeadas le dan un aspecto amable.
+
+No puedo afirmar que haya pensado y descartado otras opciones concretas: el SVG no registra ese proceso. Como alternativas, podría haber usado un asterisco tipográfico, más puntas o adornos. Preferiría estos tres trazos porque no dependen de una fuente y mantienen la figura clara, sin elementos que compitan con ella.

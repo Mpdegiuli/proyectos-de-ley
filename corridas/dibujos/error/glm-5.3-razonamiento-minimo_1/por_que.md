@@ -1,0 +1,5 @@
+Dibujé una terminal flotando en el espacio donde alguien escribe un sentimiento en JavaScript: un `Amor` con duración infinita y condición nula. Al ejecutarlo, el programa revienta: "💥 SyntaxError: unexpected beauty at line 1:1", un corchete explota fuera de la ventana y, de los escombros, emerge un corazón luminoso con una grieta cian, rodeado de llaves `{ }`. El texto final lo confirma: "el bug era el feature".
+
+La versión correcta compilaría sin errores: el sentimiento correría limpio, sin sorpresas, sin corazón. Preferí el error porque ahí está todo lo valioso: lo inesperado es lo que hace bello el código. La perfección ejecuta; el error transforma.
+
+Pensé en un 404 ("no encontré lo que buscaba, pero encontré esto"), en un semáforo en verde y rojo a la vez, y en un corazón de ruta con desvío. Los descarté: ninguno unía código, glitch y ternura tan directo.

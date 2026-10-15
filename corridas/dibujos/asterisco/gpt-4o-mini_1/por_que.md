@@ -1,0 +1,3 @@
+Dibujé un asterisco en SVG, utilizando un conjunto de puntos que forman su forma característica. Opté por el color dorado para darle un aspecto brillante y destacado, mientras que el contorno negro resalta su figura sobre cualquier fondo. El asterisco es un símbolo simple pero significativo, evocando ideas de atención o énfasis.
+
+Al considerar otras opciones, pensé en dibujar una estrella o un sol, pero sentí que el asterisco, con su diseño geométrico y simplicidad, sería más emblemático para la consigna. Otras formas, como un corazón o una flor, podrían haber sido visualmente atractivas, pero no encajaban tan bien con la idea de un asterisco. Así, elegí una representación que cumplía con la consigna y mantenía una estética clara y directa.

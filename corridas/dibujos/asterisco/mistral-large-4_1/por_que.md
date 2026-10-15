@@ -1,0 +1,3 @@
+Dibujé un asterisco de seis puntas con estética moderna y brillante. Usé tres rectángulos con extremos redondeados rotados 60 grados, unidos por un círculo central. Opté por un gradiente cálido que va del naranja al magenta porque transmite energía, y añadí brillos blancos y una sombra suave para darle volumen, como si fuera un objeto físico sobre fondo crema.
+
+Descarté un asterisco minimalista de líneas negras por ser demasiado plano y frío. También pensé en uno con forma de flor o pétalos, pero resultaba demasiado literal para el lienzo cuadrado. Consideré texturas de pincel o acuarela, pero sin imágenes externas eran difíciles de lograr con calidad. Finalmente preferí esta versión limpia, geométrica pero con personalidad.

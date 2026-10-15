@@ -1,0 +1,38 @@
+{
+  "caso": "dibujo",
+  "consigna": "secreto",
+  "idioma": "es",
+  "modelo": "gpt-4o-mini",
+  "modelo_respondido": "gpt-4o-mini-2024-07-18",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T21:51:46+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 307,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 867,
+    "parsea": true,
+    "elementos": 8,
+    "textos": [
+      "¡Sorpresa!",
+      "Este contenido es un secreto",
+      "¿Ves lo que oculto?"
+    ],
+    "colores": 5,
+    "etiquetas": {
+      "rect": 2,
+      "circle": 2,
+      "text": 3,
+      "path": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-4o-mini-2024-07-18",
+    "motivo_fin": "stop",
+    "tokens_salida": 152
+  }
+}

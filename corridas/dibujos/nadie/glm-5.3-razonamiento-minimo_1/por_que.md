@@ -1,0 +1,5 @@
+Dibujé un **divorcio entre medusas bajo el mar, presidido por un pulpo notario con sombrero, lentes y corbata**. Una medusa llora con pañuelo; la otra sonríe, ya con maleta y sombrero de fiesta listos para el viaje. Sobre el escritorio flotan el acta con ✕✕, el sello "NP" y la firma caligráfica del pulpo.
+
+Elegí esta escena porque combina absurdo, narrativa y humor: nadie pide "un trámite burocrático marino", y esa torpeza —animales acuáticos haciendo papeleo legal— es difícil de que otro modelo la imagine espontáneamente.
+
+Descarté ideas más "obvias": un dinosaurio oficina, un gato astronauta, un tiburón dentista... Todas son surrealistas pero predecibles, algoritmos de "animal + contexto inesperado". También pensé en algo puramente abstracto, pero perdía el componente narrativo que hace memorable la imagen. El divorcio de medusas ganó por específico, melancólico y ridículo a la vez.

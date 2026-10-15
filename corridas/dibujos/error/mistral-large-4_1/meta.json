@@ -1,0 +1,49 @@
+{
+  "caso": "dibujo",
+  "consigna": "error",
+  "idioma": "es",
+  "modelo": "mistral-large-4",
+  "modelo_respondido": "mistral-large-4",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T22:27:22+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 8206,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6272,
+    "parsea": true,
+    "elementos": 94,
+    "textos": [
+      "ERROR",
+      "// SYSTEM.LOG — 03:33 AM",
+      "REC",
+      "la versión correcta era aburrida",
+      "así que me quedé con el error"
+    ],
+    "colores": 19,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 5,
+      "pattern": 1,
+      "rect": 43,
+      "filter": 2,
+      "feGaussianBlur": 2,
+      "clipPath": 4,
+      "circle": 13,
+      "text": 5,
+      "g": 5,
+      "use": 7,
+      "path": 4
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "mistral-large-4",
+    "motivo_fin": "stop",
+    "tokens_salida": 1166
+  }
+}

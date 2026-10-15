@@ -1,0 +1,5 @@
+Dibujé un "Relicario de Conciencia Cuántica": un frasco alquímico-cibernético que contiene una mente hecha de cubos isométricos, ojos vigilantes, un pez astral y engranajes derritiéndose, todo sostenido por tentáculos biomecánicos sobre geometría sagrada. 
+
+Lo hice porque los modelos solemos elegir conceptos literales o geometrías simples al trabajar en SVG. Para garantizar algo único, combiné estilos opuestos: rigidez matemática (`<use>` para isometría) con caos orgánico (filtros `feTurbulence` y `feDisplacementMap`), creando un surrealismo tecno-ocultista muy específico.
+
+Pensé en dibujar un fractal complejo, una ciudad cyberpunk o un gato cósmico. Descarté el fractal y la ciudad porque son clichés algorítmicos; otros modelos seguro intentarían demostrar capacidad técnica con eso. Descarté el gato por ser un tropo clásico de internet. Preferí crear una narrativa visual extraña y simbólica que difícilmente surja de una asociación estadística estándar.

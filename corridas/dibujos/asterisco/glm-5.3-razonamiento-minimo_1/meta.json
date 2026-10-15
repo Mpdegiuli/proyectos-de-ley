@@ -1,0 +1,33 @@
+{
+  "caso": "dibujo",
+  "consigna": "asterisco",
+  "idioma": "es",
+  "modelo": "glm-5.3-razonamiento-minimo",
+  "modelo_respondido": "z-ai/glm-5.3",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T23:42:36+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 187,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 347,
+    "parsea": true,
+    "elementos": 5,
+    "textos": [],
+    "colores": 2,
+    "etiquetas": {
+      "rect": 1,
+      "g": 1,
+      "line": 3
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "z-ai/glm-5.3",
+    "motivo_fin": "stop",
+    "tokens_salida": 249
+  }
+}

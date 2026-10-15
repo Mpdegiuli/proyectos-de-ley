@@ -1,0 +1,44 @@
+{
+  "caso": "dibujo",
+  "consigna": "error",
+  "idioma": "es",
+  "modelo": "minimax-m3",
+  "modelo_respondido": "minimax/minimax-m3",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T23:21:59+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 6236,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3322,
+    "parsea": true,
+    "elementos": 54,
+    "textos": [
+      "correcto",
+      "→ glitch",
+      "el error que prefiero",
+      "// el correcto nunca tuvo chance"
+    ],
+    "colores": 20,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 1,
+      "stop": 3,
+      "clipPath": 1,
+      "circle": 27,
+      "rect": 11,
+      "g": 5,
+      "text": 4,
+      "path": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "minimax/minimax-m3",
+    "motivo_fin": "stop",
+    "tokens_salida": 1150
+  }
+}

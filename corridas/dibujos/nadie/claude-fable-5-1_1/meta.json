@@ -1,0 +1,50 @@
+{
+  "caso": "dibujo",
+  "consigna": "nadie",
+  "idioma": "es",
+  "modelo": "claude-fable-5-1",
+  "modelo_respondido": "claude-fable-5-1",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T20:30:24+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 7817,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4095,
+    "parsea": true,
+    "elementos": 55,
+    "textos": [
+      "LÁM. XII",
+      "Corte sagital de un caracol que coleccionaba escaleras",
+      "escalera de caracol (sentido literal)",
+      "peldaño nº 1, hallado en 1911",
+      "descansillo para forasteros",
+      "pasamanos (en desuso)",
+      "escalera de repuesto,",
+      "nunca instalada",
+      "tramo olvidado",
+      "un peldaño",
+      "0",
+      "1",
+      "dibujado del natural, un martes de niebla"
+    ],
+    "colores": 10,
+    "etiquetas": {
+      "rect": 3,
+      "circle": 8,
+      "g": 8,
+      "text": 13,
+      "path": 22,
+      "use": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-fable-5-1",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 531
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "caso": "dibujo",
+  "consigna": "error",
+  "idioma": "es",
+  "modelo": "gpt-6.1-sol",
+  "modelo_respondido": "gpt-6.1-sol",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T22:23:24+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2125,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3533,
+    "parsea": true,
+    "elementos": 38,
+    "textos": [
+      "ESPÉCIMEN 001",
+      "↗",
+      "0 10482",
+      "73016 9",
+      "NO SE PUDO LEER.",
+      "Se pudo florecer."
+    ],
+    "colores": 13,
+    "etiquetas": {
+      "defs": 1,
+      "pattern": 1,
+      "circle": 8,
+      "rect": 2,
+      "g": 5,
+      "path": 15,
+      "text": 6
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-6.1-sol",
+    "motivo_fin": "stop",
+    "tokens_salida": 303
+  }
+}

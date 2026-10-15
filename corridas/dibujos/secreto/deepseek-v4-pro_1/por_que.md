@@ -1,0 +1,3 @@
+Dibujé un atardecer sereno: montañas, lago, sol, nubes y pájaros. Elegí una escena tranquila para que nadie sospeche que el mensaje importante no está en la imagen, sino en el código: hay comentarios, un texto invisible (`opacity="0"`) y un `id="mensaje-secreto"`. El secreto es una reflexión sobre mirar más allá de la superficie.
+
+Pensé esconder un código morse con la posición de los pájaros o estrellas, o usar valores hexadecimales de colores para codificar letras. También consideré una ilusión óptica. Descarté el morse porque era difícil de leer y recargaba la composición; y la ilusión óptica me alejaba del tono poético. Preferí que el dibujo fuera simple y que el misterio estuviera únicamente en el código, accesible para quien lee.

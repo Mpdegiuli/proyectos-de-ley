@@ -1,0 +1,71 @@
+{
+  "caso": "dibujo",
+  "consigna": "nadie",
+  "idioma": "es",
+  "modelo": "grok-4.6",
+  "modelo_respondido": "grok-4.6",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T20:42:10+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 3697,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 8869,
+    "parsea": true,
+    "elementos": 116,
+    "textos": [
+      "MUSEO DEL DESAYUNO QUE SE ENFRÍA",
+      "Crescentia mantecosa var. porteña",
+      "LÁMINA XIV — DISECCIÓN MATUTINA, 7:12 a.m.",
+      "1. cúspide de esperanza",
+      "(se quema primero)",
+      "2. barniz de horno de barrio",
+      "sacarosa 400 °C / milagro",
+      "3. el hueco del café con leche",
+      "4. capas de",
+      "madrugada ×27",
+      "fig. c manteca",
+      "irresponsable",
+      "CORTE A—A",
+      "estratigrafía del hambre",
+      "Ilex paraguariensis",
+      "compañero taxonómico",
+      "Musca de mostrador",
+      "espera el azúcar",
+      "5 cm  —  aprox. una boca  —  1 unidad de consuelo",
+      "VERIFICADO",
+      "POR EL MOZO",
+      "7:05 a.m.",
+      "Col. Insomnios",
+      "Nº 1882 / Hoja 14",
+      "Fig. 42",
+      "del natural, con hambre — no devolver al plato"
+    ],
+    "colores": 38,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 3,
+      "stop": 8,
+      "filter": 2,
+      "feTurbulence": 1,
+      "feColorMatrix": 1,
+      "feDropShadow": 1,
+      "rect": 18,
+      "ellipse": 8,
+      "g": 13,
+      "path": 15,
+      "circle": 12,
+      "text": 26,
+      "line": 7
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "grok-4.6",
+    "motivo_fin": "stop",
+    "tokens_salida": 138
+  }
+}

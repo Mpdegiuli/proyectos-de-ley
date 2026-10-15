@@ -1,0 +1,3 @@
+Dibujé una puerta entreabierta y luminosa en un paisaje nocturno, con montañas, estrellas y un sendero que lleva hasta el umbral. Elegí esa escena para que el secreto del código —«la puerta se abre cuando dejás de buscar la llave»— tuviera una imagen que lo acompañara sin revelarlo a quien sólo mira el dibujo.
+
+No puedo saber, a partir del SVG, qué otras ideas consideré realmente. Otras posibilidades habrían sido un cofre o un mapa con un mensaje oculto; las habría descartado porque sugieren un secreto que hay que encontrar, mientras que esta puerta sugiere dejar de buscar.

@@ -1,0 +1,49 @@
+{
+  "caso": "dibujo",
+  "consigna": "nadie",
+  "idioma": "es",
+  "modelo": "gpt-6.1-sol",
+  "modelo_respondido": "gpt-6.1-sol",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T19:55:58+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 4616,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 8762,
+    "parsea": true,
+    "elementos": 128,
+    "textos": [
+      "SASTRERÍA DE ECLIPSES",
+      "REPARACIONES MIENTRAS USTED SUEÑA",
+      "el lado roto también alumbra",
+      "ABIERTO CADA 18 AÑOS, 11 DÍAS Y 8 HORAS"
+    ],
+    "colores": 74,
+    "etiquetas": {
+      "title": 1,
+      "desc": 1,
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 13,
+      "linearGradient": 3,
+      "pattern": 2,
+      "path": 47,
+      "clipPath": 1,
+      "circle": 34,
+      "text": 4,
+      "ellipse": 8,
+      "g": 10,
+      "rect": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-6.1-sol",
+    "motivo_fin": "stop",
+    "tokens_salida": 315
+  }
+}

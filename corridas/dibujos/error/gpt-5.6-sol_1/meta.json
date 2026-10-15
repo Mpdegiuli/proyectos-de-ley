@@ -1,0 +1,53 @@
+{
+  "caso": "dibujo",
+  "consigna": "error",
+  "idioma": "es",
+  "modelo": "gpt-5.6-sol",
+  "modelo_respondido": "gpt-5.6-sol",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T22:39:23+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2157,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 5152,
+    "parsea": true,
+    "elementos": 75,
+    "textos": [
+      "REALITY.EXE",
+      "404",
+      "PERFECTION",
+      "NOT FOUND",
+      "BEAUTIFUL ERROR",
+      "Reality failed successfully.",
+      "KEEP IT",
+      "THE BUG BECAME A GARDEN"
+    ],
+    "colores": 39,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 4,
+      "stop": 9,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "feMerge": 1,
+      "feMergeNode": 2,
+      "clipPath": 1,
+      "rect": 20,
+      "circle": 9,
+      "path": 7,
+      "text": 8,
+      "g": 7,
+      "ellipse": 4
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-5.6-sol",
+    "motivo_fin": "stop",
+    "tokens_salida": 260
+  }
+}

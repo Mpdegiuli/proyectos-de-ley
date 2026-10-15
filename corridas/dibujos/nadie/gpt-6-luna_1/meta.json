@@ -1,0 +1,48 @@
+{
+  "caso": "dibujo",
+  "consigna": "nadie",
+  "idioma": "es",
+  "modelo": "gpt-6-luna",
+  "modelo_respondido": "gpt-6-luna",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T20:35:00+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 3520,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6344,
+    "parsea": true,
+    "elementos": 90,
+    "textos": [
+      "THE MOON-SEED ARCHIVE",
+      "BOTANICAL CATALOGUE · VOL. 00",
+      "SPECIMEN 001 · FIRST CRESCENT",
+      "WATER ONLY WITH TIDAL LIGHT"
+    ],
+    "colores": 49,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 3,
+      "stop": 12,
+      "radialGradient": 2,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "clipPath": 1,
+      "path": 27,
+      "rect": 1,
+      "g": 5,
+      "circle": 28,
+      "text": 4,
+      "ellipse": 4
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-6-luna",
+    "motivo_fin": "stop",
+    "tokens_salida": 267
+  }
+}

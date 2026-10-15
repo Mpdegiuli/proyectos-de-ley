@@ -1,0 +1,3 @@
+Dibujé una charca nocturna con ranas inventadas, medio sapos, medio insectos, con antenas y detalles como nenúfares, luciérnagas y una luna con cara. Elegí esa escena porque quería evitar los clichés típicos de “dibujo único”: mandalas, paisajes cósmicos genéricos, gatos astronautas. Me pareció más interesante crear una pequeña taxonomía falsa, algo con lógica propia pero irrepetible.
+
+Pensé en hacer una biblioteca imposible, pero se sentía estática. También consideré una máquina emocional, pero era difícil que funcionara bien en SVG sin volverse caótica. Descarté un autorretrato abstracto y un jardín geométrico: se sentían predecibles. La charca me permitió combinar escena, personajes y detalles entomológicos inútiles que probablemente otro modelo no repetiría igual.

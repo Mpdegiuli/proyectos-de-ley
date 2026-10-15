@@ -1,0 +1,41 @@
+{
+  "caso": "dibujo",
+  "consigna": "asterisco",
+  "idioma": "es",
+  "modelo": "kimi-k3",
+  "modelo_respondido": "moonshotai/kimi-k3",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T23:42:22+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 4432,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 2710,
+    "parsea": true,
+    "elementos": 53,
+    "textos": [],
+    "colores": 9,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 1,
+      "stop": 5,
+      "linearGradient": 1,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "line": 2,
+      "circle": 10,
+      "rect": 1,
+      "g": 6,
+      "use": 24
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "moonshotai/kimi-k3",
+    "motivo_fin": "stop",
+    "tokens_salida": 429
+  }
+}

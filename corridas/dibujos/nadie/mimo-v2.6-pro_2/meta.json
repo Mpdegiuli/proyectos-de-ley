@@ -1,0 +1,38 @@
+{
+  "caso": "dibujo",
+  "consigna": "nadie",
+  "idioma": "es",
+  "modelo": "mimo-v2.6-pro",
+  "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+  "repeticion": 2,
+  "fecha_utc": "2026-10-15T21:33:32+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 8073,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 7158,
+    "parsea": true,
+    "elementos": 127,
+    "textos": [],
+    "colores": 33,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 11,
+      "linearGradient": 2,
+      "rect": 2,
+      "g": 17,
+      "circle": 63,
+      "path": 29
+    }
+  },
+  "techo": 64000,
+  "por_que": {
+    "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+    "motivo_fin": "stop",
+    "tokens_salida": 354
+  }
+}

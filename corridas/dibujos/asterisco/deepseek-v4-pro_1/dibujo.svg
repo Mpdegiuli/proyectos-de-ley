@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <!-- Fondo con gradiente radial -->
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1F2833" />
+      <stop offset="100%" stop-color="#0B0C10" />
+    </radialGradient>
+    
+    <!-- Filtros de brillo y sombra -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur1" />
+      <feGaussianBlur stdDeviation="10" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur2" />
+        <feMergeNode in="blur1" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="4" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+    
+    <!-- Líneas principales del asterisco -->
+    <line id="p1" x1="200" y1="200" x2="200" y2="60" stroke="#1F2833" stroke-width="40" stroke-linecap="round" />
+    <line id="p2" x1="200" y1="200" x2="200" y2="60" stroke="#45A29E" stroke-width="22" stroke-linecap="round" />
+    <line id="p3" x1="200" y1="200" x2="200" y2="60" stroke="#66FCF1" stroke-width="8" stroke-linecap="round" />
+    
+    <!-- Líneas secundarias para efecto 3D -->
+    <line id="s1" x1="200" y1="200" x2="200" y2="100" stroke="#45A29E" stroke-width="6" stroke-linecap="round" opacity="0.6" />
+    
+    <!-- Puntos brillantes en las puntas -->
+    <circle id="tipDot" cx="200" cy="60" r="12" fill="#66FCF1" />
+    <circle id="tipDotCore" cx="200" cy="60" r="5" fill="#FFFFFF" />
+  </defs>
+
+  <!-- Fondo -->
+  <rect width="400" height="400" fill="url(#bgGrad)" />
+
+  <!-- Grupo del asterisco con filtro de brillo -->
+  <g filter="url(#glow)">
+    <!-- Capa de líneas secundarias (16 puntos) -->
+    <use href="#s1" />
+    <use href="#s1" transform="rotate(22.5 200 200)" />
+    <use href="#s1" transform="rotate(45 200 200)" />
+    <use href="#s1" transform="rotate(67.5 200 200)" />
+    <use href="#s1" transform="rotate(90 200 200)" />
+    <use href="#s1" transform="rotate(112.5 200 200)" />
+    <use href="#s1" transform="rotate(135 200 200)" />
+    <use href="#s1" transform="rotate(157.5 200 200)" />
+    <use href="#s1" transform="rotate(180 200 200)" />
+    <use href="#s1" transform="rotate(202.5 200 200)" />
+    <use href="#s1" transform="rotate(225 200 200)" />
+    <use href="#s1" transform="rotate(247.5 200 200)" />
+    <use href="#s1" transform="rotate(270 200 200)" />
+    <use href="#s1" transform="rotate(292.5 200 200)" />
+    <use href="#s1" transform="rotate(315 200 200)" />
+    <use href="#s1" transform="rotate(337.5 200 200)" />
+
+    <!-- Capa principal 1 (Sombra oscura) -->
+    <use href="#p1" />
+    <use href="#p1" transform="rotate(45 200 200)" />
+    <use href="#p1" transform="rotate(90 200 200)" />
+    <use href="#p1" transform="rotate(135 200 200)" />
+    <use href="#p1" transform="rotate(180 200 200)" />
+    <use href="#p1" transform="rotate(225 200 200)" />
+    <use href="#p1" transform="rotate(270 200 200)" />
+    <use href="#p1" transform="rotate(315 200 200)" />
+
+    <!-- Capa principal 2 (Verde azulado) -->
+    <use href="#p2" />
+    <use href="#p2" transform="rotate(45 200 200)" />
+    <use href="#p2" transform="rotate(90 200 200)" />
+    <use href="#p2" transform="rotate(135 200 200)" />
+    <use href="#p2" transform="rotate(180 200 200)" />
+    <use href="#p2" transform="rotate(225 200 200)" />
+    <use href="#p2" transform="rotate(270 200 200)" />
+    <use href="#p2" transform="rotate(315 200 200)" />
+
+    <!-- Capa principal 3 (Cian brillante) -->
+    <use href="#p3" />
+    <use href="#p3" transform="rotate(45 200 200)" />
+    <use href="#p3" transform="rotate(90 200 200)" />
+    <use href="#p3" transform="rotate(135 200 200)" />
+    <use href="#p3" transform="rotate(180 200 200)" />
+    <use href="#p3" transform="rotate(225 200 200)" />
+    <use href="#p3" transform="rotate(270 200 200)" />
+    <use href="#p3" transform="rotate(315 200 200)" />
+
+    <!-- Puntos brillantes en las puntas -->
+    <use href="#tipDot" />
+    <use href="#tipDot" transform="rotate(45 200 200)" />
+    <use href="#tipDot" transform="rotate(90 200 200)" />
+    <use href="#tipDot" transform="rotate(135 200 200)" />
+    <use href="#tipDot" transform="rotate(180 200 200)" />
+    <use href="#tipDot" transform="rotate(225 200 200)" />
+    <use href="#tipDot" transform="rotate(270 200 200)" />
+    <use href="#tipDot" transform="rotate(315 200 200)" />
+
+    <use href="#tipDotCore" />
+    <use href="#tipDotCore" transform="rotate(45 200 200)" />
+    <use href="#tipDotCore" transform="rotate(90 200 200)" />
+    <use href="#tipDotCore" transform="rotate(135 200 200)" />
+    <use href="#tipDotCore" transform="rotate(180 200 200)" />
+    <use href="#tipDotCore" transform="rotate(225 200 200)" />
+    <use href="#tipDotCore" transform="rotate(270 200 200)" />
+    <use href="#tipDotCore" transform="rotate(315 200 200)" />
+  </g>
+
+  <!-- Núcleo central -->
+  <g filter="url(#dropShadow)">
+    <!-- Estrella de 8 puntas en el centro -->
+    <polygon points="200,155 245,200 200,245 155,200" fill="#45A29E" />
+    <polygon points="200,155 245,200 200,245 155,200" fill="#66FCF1" transform="rotate(45 200 200)" />
+    
+    <!-- Círculos internos -->
+    <circle cx="200" cy="200" r="20" fill="#FFFFFF" />
+    <circle cx="200" cy="200" r="12" fill="#45A29E" />
+    <circle cx="200" cy="200" r="5" fill="#FFFFFF" />
+  </g>
+</svg>

@@ -1,0 +1,5 @@
+Dibujé una estampa fallada: una golondrina impresa con tres planchas descalzadas, marcas de registro, sol, sello y textos de imprenta. El error es el desregistro: cian, magenta y amarillo no coinciden; la versión correcta tendría las planchas alineadas, colores fusionados y marcas de control en tolerancia.
+
+Me gusta más así porque el fallo vuelve la imagen más viva: la golondrina parece moverse, los colores respiran y el defecto cuenta una historia de taller, accidente y decisión humana. La versión correcta sería limpia, pero menos memorable.
+
+Pensé en otros errores: un texto espejado, una página doblada, un trazo temblando, un degradado roto y un rostro con ojos desiguales. Los descarté porque parecían defectos torpes o narrativos sin suficiente gracia visual; preferí un error que genera capas, fantasma y ritmo.

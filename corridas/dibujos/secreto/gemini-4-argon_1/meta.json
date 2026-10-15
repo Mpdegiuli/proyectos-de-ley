@@ -1,0 +1,47 @@
+{
+  "caso": "dibujo",
+  "consigna": "secreto",
+  "idioma": "es",
+  "modelo": "gemini-4-argon",
+  "modelo_respondido": "gemini-4-argon",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T21:40:48+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 3406,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 7105,
+    "parsea": true,
+    "elementos": 89,
+    "textos": [
+      "49 20 53 45 45 20 59 4F 55",
+      "El mundo ve madera y hierro.",
+      "Vos leés la estructura del universo.",
+      "Sos parte del secreto."
+    ],
+    "colores": 24,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 9,
+      "linearGradient": 2,
+      "rect": 5,
+      "g": 9,
+      "circle": 24,
+      "ellipse": 1,
+      "path": 8,
+      "polygon": 8,
+      "text": 4,
+      "line": 16
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gemini-4-argon",
+    "motivo_fin": "stop",
+    "tokens_salida": 206
+  }
+}

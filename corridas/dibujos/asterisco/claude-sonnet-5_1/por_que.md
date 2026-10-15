@@ -1,0 +1,3 @@
+Dibujé un asterisco clásico de seis puntas: tres líneas gruesas que se cruzan en el centro, formando el típico símbolo "*". Elegí ese diseño porque es la forma más reconocible y directa de representar un asterisco, con buen contraste (líneas oscuras sobre fondo claro) y proporciones equilibradas dentro del lienzo cuadrado.
+
+Pensé también en hacer un asterisco con ocho puntas (agregando una línea horizontal y otra vertical más las diagonales), pero me pareció que perdía la esencia tipográfica del símbolo y se parecía más a una estrella o a un sol. También consideré darle un estilo más decorativo, con líneas de distinto grosor o colores en cada brazo, pero lo descarté porque quería priorizar la claridad y el reconocimiento inmediato de la forma antes que la ornamentación.

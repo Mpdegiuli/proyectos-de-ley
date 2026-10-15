@@ -1,0 +1,3 @@
+Dibujé un asterisco de seis puntas: tres trazos gruesos que se cruzan, círculos en los extremos y un núcleo luminoso. Lo hice dorado sobre violeta oscuro, con un leve resplandor, para que se leyera al instante como asterisco y a la vez llenara el cuadrado como un emblema.
+
+Pensé en un glifo tipográfico plano, pero me pareció seco para un lienzo de 400. También en una estrella de muchas puntas o un copo de nieve, y los descarté porque dejaban de ser un asterisco. Un garabato o un estilo pixelado habrían servido, pero perdían la simetría que hace reconocible el signo. Me quedé con tres ejes, puntas redondas y un centro brillante.

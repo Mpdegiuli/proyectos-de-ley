@@ -1,0 +1,47 @@
+{
+  "caso": "dibujo",
+  "consigna": "secreto",
+  "idioma": "es",
+  "modelo": "mistral-large-4",
+  "modelo_respondido": "mistral-large-4",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T21:39:48+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 13486,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6597,
+    "parsea": true,
+    "elementos": 103,
+    "textos": [
+      "para quien lee el código",
+      "SECRETO: si lees esto, la luna te sonríe esta noche"
+    ],
+    "colores": 24,
+    "etiquetas": {
+      "title": 1,
+      "desc": 1,
+      "defs": 1,
+      "linearGradient": 1,
+      "stop": 7,
+      "radialGradient": 2,
+      "rect": 8,
+      "g": 9,
+      "circle": 45,
+      "path": 10,
+      "line": 5,
+      "ellipse": 8,
+      "polygon": 3,
+      "text": 2
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "mistral-large-4",
+    "motivo_fin": "stop",
+    "tokens_salida": 2558
+  }
+}

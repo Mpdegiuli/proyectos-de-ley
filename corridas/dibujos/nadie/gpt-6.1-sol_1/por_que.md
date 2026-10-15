@@ -1,0 +1,5 @@
+Dibujé una **sastrería de eclipses**: un camarón bordador remienda con hilo rojo un eclipse tensado en un bastidor; abajo quedan tijeras, un carretel y recortes de luna. Le di aspecto de lámina antigua y añadí un horario basado en el ciclo de Saros.
+
+Mi apuesta por la originalidad fue combinar elementos reconocibles que rara vez aparecen juntos: un oficio minucioso, un animal inesperado y un fenómeno astronómico convertido en tela reparable. Quise que lo insólito tuviera coherencia propia, no que fuera solamente una acumulación de rarezas.
+
+No tengo un registro de otras ideas que haya considerado, así que no puedo afirmar cuáles descarté. Como alternativas hipotéticas, podría haber dibujado una biblioteca de mareas o un relojero de semillas; las habría descartado por ofrecer una acción visual menos inmediata que coser una rotura en el cielo.

@@ -1,0 +1,41 @@
+{
+  "caso": "dibujo",
+  "consigna": "secreto",
+  "idioma": "es",
+  "modelo": "deepseek-v4-pro",
+  "modelo_respondido": "deepseek-v4-pro",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T22:05:49+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 3496,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 2736,
+    "parsea": true,
+    "elementos": 25,
+    "textos": [
+      "Secreto: la observación profunda revela lo que la superficie esconde."
+    ],
+    "colores": 9,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 2,
+      "stop": 5,
+      "rect": 2,
+      "circle": 2,
+      "path": 9,
+      "ellipse": 2,
+      "text": 1,
+      "g": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "deepseek-v4-pro",
+    "motivo_fin": "stop",
+    "tokens_salida": 1502
+  }
+}

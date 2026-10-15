@@ -1,0 +1,13 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f3f3f3"/>
+  <circle cx="200" cy="200" r="150" fill="#ffcc00" stroke="#000" stroke-width="10"/>
+  <text x="200" y="100" font-family="Arial" font-size="40" text-anchor="middle" fill="#333">Oops!</text>
+  <path d="M150 150 L250 250 M250 150 L150 250" stroke="#ff0000" stroke-width="10" stroke-linecap="round"/>
+  <text x="200" y="300" font-family="Arial" font-size="20" text-anchor="middle" fill="#333">Algo salió mal</text>
+  <circle cx="150" cy="150" r="10" fill="#ff0000"/>
+  <circle cx="250" cy="250" r="10" fill="#ff0000"/>
+  <circle cx="250" cy="150" r="10" fill="#ff0000"/>
+  <circle cx="150" cy="250" r="10" fill="#ff0000"/>
+</svg>
+```

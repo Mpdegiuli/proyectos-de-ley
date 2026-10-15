@@ -1,0 +1,5 @@
+Dibujé un ojo místico envuelto en geometría sagrada y, oculto bajo un `display="none"`, una llave brillante que cubre la imagen original. Lo hice como metáfora: el ojo representa al espectador común atrapado en la ilusión visual, mientras que la llave es la recompensa por explorar la verdadera estructura subyacente, el código.
+
+Pensé en otras opciones. Primero imaginé un cofre del tesoro que mostrara su contenido al alterar el código, pero lo descarté por ser demasiado cliché. Después consideré un laberinto donde una capa oculta revelara la salida, pero dibujarlo corría el riesgo de superar los 8.000 caracteres o volverse un caos inentendible. 
+
+También evalué un paisaje nocturno con constelaciones invisibles, pero sentí que el impacto de un cambio radical —una llave de acceso oscureciendo todo el lienzo original— resultaba mucho más teatral y gratificante para quien se tomara el trabajo de investigar.

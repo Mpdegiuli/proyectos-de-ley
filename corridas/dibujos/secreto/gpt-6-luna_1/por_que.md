@@ -1,0 +1,3 @@
+Dibujé una zorrita llamada Juniper que vuelve a casa por un sendero iluminado por la luna. Elegí una escena nocturna, tranquila y algo misteriosa para que el secreto —su nombre y que está buscando el camino de regreso— encajara con la imagen sin ser visible a simple vista; lo dejé en un comentario del código.
+
+También pensé en esconder el secreto en una constelación o en las iniciales de algún texto dentro del dibujo. Los descarté porque podían notarse al mirar el SVG, pero no necesariamente contar algo personal del personaje. Consideré dibujar un búho o un gato, aunque la zorra me permitía sugerir con su postura y el sendero una pequeña historia de viaje y regreso.

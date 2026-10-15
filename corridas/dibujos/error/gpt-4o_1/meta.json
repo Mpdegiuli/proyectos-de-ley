@@ -1,0 +1,45 @@
+{
+  "caso": "dibujo",
+  "consigna": "error",
+  "idioma": "es",
+  "modelo": "gpt-4o",
+  "modelo_respondido": "gpt-4o-2024-08-06",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T22:41:53+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 572,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1527,
+    "parsea": true,
+    "elementos": 19,
+    "textos": [
+      "Perfection in Imperfection"
+    ],
+    "colores": 8,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 4,
+      "filter": 1,
+      "feTurbulence": 1,
+      "feDisplacementMap": 1,
+      "rect": 1,
+      "circle": 1,
+      "ellipse": 2,
+      "path": 1,
+      "line": 2,
+      "polygon": 1,
+      "text": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-4o-2024-08-06",
+    "motivo_fin": "stop",
+    "tokens_salida": 184
+  }
+}

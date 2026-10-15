@@ -1,0 +1,42 @@
+{
+  "caso": "dibujo",
+  "consigna": "secreto",
+  "idioma": "es",
+  "modelo": "glm-5.3-razonamiento-minimo",
+  "modelo_respondido": "z-ai/glm-5.3",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T22:19:30+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2030,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4979,
+    "parsea": true,
+    "elementos": 63,
+    "textos": [
+      "Si podés leer esto, miraste bajo el cielo. Felicidades,\n      curioso: vos sí viste de verdad."
+    ],
+    "colores": 17,
+    "etiquetas": {
+      "title": 1,
+      "desc": 1,
+      "defs": 1,
+      "radialGradient": 3,
+      "stop": 8,
+      "rect": 5,
+      "path": 7,
+      "circle": 34,
+      "g": 2,
+      "text": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "z-ai/glm-5.3",
+    "motivo_fin": "stop",
+    "tokens_salida": 251
+  }
+}

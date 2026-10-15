@@ -1,0 +1,53 @@
+{
+  "caso": "dibujo",
+  "consigna": "secreto",
+  "idioma": "es",
+  "modelo": "muse-wonder-1.0",
+  "modelo_respondido": "muse-wonder-1.0",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T21:44:39+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 22033,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 7446,
+    "parsea": true,
+    "elementos": 120,
+    "textos": [
+      "¡hola!",
+      "z",
+      "z",
+      "Z",
+      "EL SOL NO SE HABÍA IDO",
+      "Estaba escondido en el código, esperando a alguien curioso.",
+      "Ahora también brilla para vos."
+    ],
+    "colores": 42,
+    "etiquetas": {
+      "title": 1,
+      "desc": 1,
+      "defs": 1,
+      "linearGradient": 1,
+      "stop": 9,
+      "radialGradient": 2,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "path": 18,
+      "rect": 6,
+      "g": 13,
+      "circle": 39,
+      "use": 11,
+      "text": 7,
+      "ellipse": 9
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "muse-wonder-1.0",
+    "motivo_fin": "stop",
+    "tokens_salida": 1469
+  }
+}

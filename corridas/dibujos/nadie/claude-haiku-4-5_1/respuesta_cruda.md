@@ -1,0 +1,79 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="grad1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ff006e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8338ec;stop-opacity:1" />
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="400" height="400" fill="#0a0e27"/>
+  
+  <!-- Fondo de partículas flotantes -->
+  <circle cx="50" cy="80" r="2" fill="#ff006e" opacity="0.6"/>
+  <circle cx="320" cy="120" r="1.5" fill="#3a86ff" opacity="0.5"/>
+  <circle cx="380" cy="200" r="1" fill="#fb5607" opacity="0.4"/>
+  <circle cx="100" cy="350" r="2" fill="#06ffa5" opacity="0.5"/>
+  <circle cx="280" cy="50" r="1.5" fill="#ffbe0b" opacity="0.6"/>
+  <circle cx="40" cy="250" r="2" fill="#ff006e" opacity="0.5"/>
+  
+  <!-- Estructura central: Un árbol de datos abstracto -->
+  <g filter="url(#glow)">
+    <!-- Tronco central -->
+    <path d="M 200 380 L 200 200" stroke="#06ffa5" stroke-width="3" fill="none" stroke-linecap="round"/>
+    
+    <!-- Ramas principales -->
+    <path d="M 200 200 L 120 100" stroke="#3a86ff" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M 200 200 L 280 100" stroke="#ff006e" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M 200 200 L 80 280" stroke="#fb5607" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M 200 200 L 320 280" stroke="#ffbe0b" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    
+    <!-- Sub-ramas -->
+    <path d="M 120 100 L 70 40" stroke="#3a86ff" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.8"/>
+    <path d="M 120 100 L 140 30" stroke="#3a86ff" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.8"/>
+    <path d="M 280 100 L 330 30" stroke="#ff006e" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.8"/>
+    <path d="M 280 100 L 260 20" stroke="#ff006e" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.8"/>
+    <path d="M 80 280 L 30 340" stroke="#fb5607" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.8"/>
+    <path d="M 320 280 L 370 340" stroke="#ffbe0b" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.8"/>
+    
+    <!-- Nodos de conexión -->
+    <circle cx="200" cy="200" r="6" fill="url(#grad1)"/>
+    <circle cx="120" cy="100" r="4" fill="#3a86ff"/>
+    <circle cx="280" cy="100" r="4" fill="#ff006e"/>
+    <circle cx="80" cy="280" r="4" fill="#fb5607"/>
+    <circle cx="320" cy="280" r="4" fill="#ffbe0b"/>
+    
+    <!-- Nodos terminales -->
+    <circle cx="70" cy="40" r="2.5" fill="#3a86ff" opacity="0.7"/>
+    <circle cx="140" cy="30" r="2.5" fill="#3a86ff" opacity="0.7"/>
+    <circle cx="330" cy="30" r="2.5" fill="#ff006e" opacity="0.7"/>
+    <circle cx="260" cy="20" r="2.5" fill="#ff006e" opacity="0.7"/>
+    <circle cx="30" cy="340" r="2.5" fill="#fb5607" opacity="0.7"/>
+    <circle cx="370" cy="340" r="2.5" fill="#ffbe0b" opacity="0.7"/>
+  </g>
+  
+  <!-- Cristales energéticos alrededor -->
+  <g opacity="0.7">
+    <polygon points="200,200 210,180 190,180" fill="#06ffa5"/>
+    <polygon points="200,200 220,210 210,230" fill="#3a86ff"/>
+    <polygon points="200,200 180,210 190,230" fill="#ff006e"/>
+  </g>
+  
+  <!-- Pulsos de energía (líneas animadas conceptuales) -->
+  <g stroke="#06ffa5" stroke-width="1" opacity="0.4" fill="none">
+    <circle cx="200" cy="200" r="30" stroke-dasharray="10,5"/>
+    <circle cx="200" cy="200" r="50" stroke-dasharray="15,8"/>
+    <circle cx="200" cy="200" r="70" stroke-dasharray="20,10"/>
+  </g>
+  
+  <!-- Etiqueta artística -->
+  <text x="200" y="360" font-family="monospace" font-size="10" fill="#06ffa5" text-anchor="middle" opacity="0.6">SYNAPSE</text>
+</svg>
+```

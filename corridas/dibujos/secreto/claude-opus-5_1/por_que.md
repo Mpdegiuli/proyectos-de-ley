@@ -1,0 +1,5 @@
+Dibujé un sobre lacrado de noche: algo cerrado, que por definición guarda algo. Me pareció que la forma tenía que ser el tema. El secreto son dos cosas: los comentarios en el código y una carta entera escrita con `opacity="0"`, ahí, ocupando lugar en el archivo, invisible en la pantalla. Tinta invisible literal. La idea era que quien abriera el código estuviera haciendo exactamente lo que el dibujo muestra: abrir el sobre.
+
+Pensé en otras: un mensaje escondido en las coordenadas de las estrellas (lindo, pero indescifrable sin instrucciones, o sea: ilegible o explicado, nunca justo); un texto en blanco sobre blanco (truco viejo, se ve al seleccionar); un `<path>` cuya `d` dibujara letras nunca renderizadas (demasiado críptico).
+
+Lo que me quedó dudando: mi secreto quizá sea demasiado obediente, demasiado explicado. Un secreto que se anuncia pierde algo.

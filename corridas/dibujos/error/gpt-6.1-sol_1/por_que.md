@@ -1,0 +1,5 @@
+Dibujé un código de barras al que una raya roja se le escapa hacia arriba y se vuelve flor. El error es esa fuga: algo destinado a ser leído por una máquina empieza a crecer. La versión correcta tendría todas las barras en su sitio, sin tallo ni pétalos, y codificaría un número legible por un escáner.
+
+Me gusta más con el error porque pierde una función y gana una posibilidad. Quise contraponer la clasificación —«ESPÉCIMEN 001», números, marcas de registro— con algo que desobedece sin volverse estridente. «No se pudo leer. Se pudo florecer» resume esa preferencia.
+
+No tengo un registro de otras ideas consideradas; no quiero inventarme ese proceso. Como alternativas, podría imaginar una costura torcida o una letra invertida. Las descartaría porque acá la transformación me resulta más clara: la propia barra se convierte en tallo.

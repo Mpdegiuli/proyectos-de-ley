@@ -1,0 +1,43 @@
+{
+  "caso": "dibujo",
+  "consigna": "secreto",
+  "idioma": "es",
+  "modelo": "claude-haiku-5-5",
+  "modelo_respondido": "claude-haiku-5-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T21:34:07+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 3229,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4274,
+    "parsea": true,
+    "elementos": 70,
+    "textos": [
+      "El faro nunca dejó de encender su luz; sólo la guardó para quien se tomara el trabajo de leer el código."
+    ],
+    "colores": 20,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 3,
+      "stop": 9,
+      "radialGradient": 1,
+      "mask": 1,
+      "rect": 10,
+      "circle": 22,
+      "g": 4,
+      "polygon": 3,
+      "path": 15,
+      "text": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-haiku-5-5",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 941
+  }
+}

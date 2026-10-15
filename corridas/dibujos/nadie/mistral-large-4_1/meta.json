@@ -1,0 +1,44 @@
+{
+  "caso": "dibujo",
+  "consigna": "nadie",
+  "idioma": "es",
+  "modelo": "mistral-large-4",
+  "modelo_respondido": "mistral-large-4",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T20:18:17+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 16241,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 9013,
+    "parsea": true,
+    "elementos": 146,
+    "textos": [
+      "el archivo de los sueños no escritos"
+    ],
+    "colores": 41,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 3,
+      "stop": 13,
+      "linearGradient": 2,
+      "rect": 9,
+      "circle": 43,
+      "ellipse": 3,
+      "g": 19,
+      "line": 20,
+      "path": 26,
+      "polygon": 6,
+      "text": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "mistral-large-4",
+    "motivo_fin": "stop",
+    "tokens_salida": 1266
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "caso": "dibujo",
+  "consigna": "nadie",
+  "idioma": "es",
+  "modelo": "gpt-4o-mini",
+  "modelo_respondido": "gpt-4o-mini-2024-07-18",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T20:35:32+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 630,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1559,
+    "parsea": true,
+    "elementos": 18,
+    "textos": [
+      "Un mundo de formas y colores"
+    ],
+    "colores": 10,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 1,
+      "stop": 2,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "rect": 1,
+      "g": 3,
+      "circle": 4,
+      "path": 3,
+      "text": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-4o-mini-2024-07-18",
+    "motivo_fin": "stop",
+    "tokens_salida": 176
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "caso": "dibujo",
+  "consigna": "error",
+  "idioma": "es",
+  "modelo": "claude-fable-5",
+  "modelo_respondido": "claude-fable-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T22:36:59+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 3046,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4284,
+    "parsea": true,
+    "elementos": 52,
+    "textos": [
+      "la versión correcta",
+      "el error — me gusta más así ♥"
+    ],
+    "colores": 14,
+    "etiquetas": {
+      "rect": 1,
+      "circle": 17,
+      "line": 2,
+      "text": 2,
+      "path": 25,
+      "g": 5
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-fable-5",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 358
+  }
+}

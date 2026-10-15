@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<defs>
+<linearGradient id="c" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#070b24"/>
+<stop offset=".6" stop-color="#2b1f5c"/>
+<stop offset="1" stop-color="#e0735a"/>
+</linearGradient>
+<radialGradient id="g" cx=".35" cy=".3" r=".8">
+<stop offset="0" stop-color="#a0673a"/>
+<stop offset=".6" stop-color="#6b3b1d"/>
+<stop offset="1" stop-color="#3a1d0c"/>
+</radialGradient>
+<linearGradient id="w" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#4f86b8"/>
+<stop offset="1" stop-color="#1d3f6b"/>
+</linearGradient>
+<linearGradient id="s" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#8a8f99"/>
+<stop offset=".4" stop-color="#f4f6fa"/>
+<stop offset="1" stop-color="#7b808a"/>
+</linearGradient>
+<clipPath id="k"><rect x="0" y="0" width="400" height="252"/></clipPath>
+<filter id="b"><feGaussianBlur stdDeviation="1.6"/></filter>
+</defs>
+<rect width="400" height="400" fill="url(#c)"/>
+<g fill="#fff" opacity=".8">
+<circle cx="40" cy="40" r="1.2"/><circle cx="90" cy="90" r="1"/><circle cx="330" cy="50" r="1.4"/><circle cx="360" cy="120" r="1"/><circle cx="60" cy="150" r="1.3"/><circle cx="310" cy="170" r="1"/><circle cx="130" cy="30" r="1"/><circle cx="260" cy="25" r="1.2"/><circle cx="25" cy="210" r="1"/><circle cx="375" cy="220" r="1.3"/><circle cx="110" cy="190" r="1"/>
+</g>
+<circle cx="335" cy="95" r="20" fill="#fdf1c8"/>
+<circle cx="343" cy="89" r="18" fill="#2a2060" opacity=".35"/>
+<g stroke="#bcd4ff" stroke-width=".8" opacity=".6" fill="none">
+<path d="M200 62L200 138M165 104L235 96"/>
+</g>
+<g fill="#fff">
+<circle cx="200" cy="62" r="4"/><circle cx="200" cy="138" r="5"/><circle cx="165" cy="104" r="3.5"/><circle cx="235" cy="96" r="3.5"/><circle cx="222" cy="120" r="2"/>
+</g>
+<g fill="#fff" opacity=".25" filter="url(#b)">
+<circle cx="200" cy="62" r="9"/><circle cx="200" cy="138" r="10"/><circle cx="165" cy="104" r="8"/><circle cx="235" cy="96" r="8"/>
+</g>
+<path d="M104 252Q92 365 200 372Q308 365 296 252Z" fill="url(#g)"/>
+<path d="M130 290Q200 320 270 290M126 315Q200 345 274 315" stroke="#2a1306" stroke-width="2" fill="none" opacity=".5"/>
+<g fill="#e8c27a" opacity=".7"><circle cx="160" cy="330" r="3"/><circle cx="200" cy="345" r="3"/><circle cx="240" cy="330" r="3"/><circle cx="180" cy="312" r="2"/><circle cx="220" cy="312" r="2"/></g>
+<ellipse cx="200" cy="252" rx="100" ry="26" fill="#3d5a1c"/>
+<ellipse cx="200" cy="252" rx="88" ry="20" fill="url(#w)"/>
+<g stroke="#bfe0ff" stroke-width="1" fill="none" opacity=".6">
+<path d="M135 252q10-4 20 0t20 0M230 258q10-4 20 0t20 0M160 262q10-3 18 0"/>
+</g>
+<g clip-path="url(#k)">
+<g transform="translate(212 238) rotate(65)">
+<path d="M-42 0Q-32 -24 0 -22Q35 -20 46 -6Q60 -28 80 -24Q72 -8 64 2Q76 12 82 26Q64 22 50 8Q30 22 0 18Q-30 16 -42 0Z" fill="#2c4a73"/>
+<path d="M-40 4Q-20 14 10 12Q35 12 46 2Q30 20 0 20Q-28 18 -40 4Z" fill="#cfe3f2"/>
+<circle cx="-26" cy="-6" r="2.2" fill="#fff"/><circle cx="-26" cy="-6" r="1" fill="#000"/>
+<path d="M-10 6Q0 22 14 24Q6 12 2 6Z" fill="#1f385a"/>
+</g>
+</g>
+<g fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" opacity=".85">
+<path d="M196 202Q180 185 198 172Q216 160 198 148"/>
+<path d="M194 204Q170 190 172 175" opacity=".6"/>
+<path d="M198 204Q226 190 222 172" opacity=".6"/>
+</g>
+<path d="M170 254Q186 240 196 252Q206 238 222 254Q196 266 170 254Z" fill="#fff" opacity=".8"/>
+<path d="M104 252Q200 296 296 252L294 270Q200 316 106 270Z" fill="url(#s)"/>
+<path d="M104 252Q200 296 296 252" stroke="#3d5a1c" stroke-width="2" fill="none" opacity=".0"/>
+<g stroke="url(#s)" stroke-linecap="round">
+<path d="M258 262L318 160" stroke-width="5"/>
+</g>
+<path d="M258 262L318 160" stroke="#555a63" stroke-width="1" fill="none"/>
+<ellipse cx="320" cy="156" rx="9" ry="6" transform="rotate(-60 320 156)" fill="#d9dde6" stroke="#555a63"/>
+<g fill="#ffd36b"><path d="M60 360l4 10 10 4-10 4-4 10-4-10-10-4 10-4z" opacity=".8"/><path d="M345 330l3 7 7 3-7 3-3 7-3-7-7-3 7-3z" opacity=".8"/></g>
+</svg>

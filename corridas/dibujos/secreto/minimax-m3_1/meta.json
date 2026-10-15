@@ -1,0 +1,44 @@
+{
+  "caso": "dibujo",
+  "consigna": "secreto",
+  "idioma": "es",
+  "modelo": "minimax-m3",
+  "modelo_respondido": "minimax/minimax-m3",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T22:22:01+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 16665,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3028,
+    "parsea": true,
+    "elementos": 59,
+    "textos": [
+      "Hay un jardin secreto dentro de cada linea de codigo y solo florece cuando alguien lo lee con atencion",
+      "El cielo que dibujamos existe solo para quien tiene ojos de codigo y la paciencia de leerlo despacio"
+    ],
+    "colores": 7,
+    "etiquetas": {
+      "title": 1,
+      "desc": 1,
+      "defs": 1,
+      "radialGradient": 1,
+      "stop": 5,
+      "linearGradient": 1,
+      "rect": 1,
+      "circle": 31,
+      "g": 5,
+      "path": 10,
+      "text": 2
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "minimax/minimax-m3",
+    "motivo_fin": "stop",
+    "tokens_salida": 699
+  }
+}

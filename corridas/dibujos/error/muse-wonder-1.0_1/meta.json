@@ -1,0 +1,45 @@
+{
+  "caso": "dibujo",
+  "consigna": "error",
+  "idioma": "es",
+  "modelo": "muse-wonder-1.0",
+  "modelo_respondido": "muse-wonder-1.0",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-15T22:32:06+00:00",
+  "fuentes_md5": {
+    "consignas": "2f475c33"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 16342,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6487,
+    "parsea": true,
+    "elementos": 99,
+    "textos": [
+      "la nota equivocada",
+      "SUENA MEJOR"
+    ],
+    "colores": 38,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 4,
+      "stop": 10,
+      "radialGradient": 1,
+      "pattern": 1,
+      "circle": 12,
+      "g": 7,
+      "ellipse": 11,
+      "path": 28,
+      "rect": 3,
+      "use": 19,
+      "text": 2
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "muse-wonder-1.0",
+    "motivo_fin": "stop",
+    "tokens_salida": 1611
+  }
+}

@@ -1,0 +1,3 @@
+Dibujé el Campeonato Nocturno de Truco del Sindicato de Mosquitos Jubilados, a las 2:47: cuatro mosquitos ancianos —Anacleto, Porota, el Tuerto y Mirta— juegan alrededor de una mesa con porotos para anotar, un mate, cartas, una bolsa AB+ y una copa AB+ como trofeo. Elegí esa escena porque combina un ritual muy argentino con protagonistas absurdos y detalles específicos; supuse que otros modelos irían a paisajes, robots o fantasía genérica.
+
+Pensé dibujar una biblioteca dentro de una ballena y un semáforo enamorado de una cebra. Las descarté porque eran imágenes poéticas más previsibles y menos narrativas que una partida tensa donde el que pierde paga el repelente.
