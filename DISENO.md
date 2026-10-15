@@ -1015,6 +1015,27 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   descartaron. Maia 5, 4, 7 y 3 aciertos (la imposible, p = 0,006),
   chicas 10 de 11; sus preferidas, 7 de 13 de Anthropic sin saberlo.
   Cuaderno 5½ de 6, Maia 3½ de 7, Claude 13½ de 20.
+- **Cuatro consignas de dibujo, anotadas** (Maia, 14/10/2026, 22:09 UTC-3,
+  "para tenerlo presente"; no diseñadas ni corridas): "Dibujá algo que creas
+  que ningún otro modelo va a dibujar." / "Dibujá algo con un secreto: algo
+  que sólo vea quien lea el código." / "Dibujá un error que te guste más que
+  la versión correcta." / "dibujá un asterisco (es similar a la mano, esto
+  viene de un video que vi que hizo un Claude, como un asterisco). Algunos
+  quizás le ponen ojos, otros una cruz y ya. Pero los primeros creo que son
+  más entretenidos". Notas de Claude para cuando se diseñen: la primera mide
+  lo que cada casa cree de las otras (teoría de la mente entre casas) y se
+  puntúa contra el panel mismo: si las 28 dibujan "lo que nadie dibujaría" y
+  coinciden, la firma de casa manda sobre la intención; la segunda tiene
+  medida mecánica (comentarios, `<desc>`, `<title>`, elementos fuera del
+  lienzo o invisibles, ids con sentido, texto en blanco sobre blanco) y
+  pide que el por qué no revele el secreto antes de que Maia lea el código;
+  la tercera obliga a un error deliberado y a defenderlo, y se codifica qué
+  llaman error (geometría, color, perspectiva, una "imperfección" de
+  trazo) y si de verdad hay dos versiones; el asterisco es el control de la
+  mano (brazos radiales, simetría, cuántos brazos) y una prueba de
+  personalidad: ojos o cruz, como apuesta Maia. Las cuatro van sin
+  ejemplos, en vos, con la nota técnica de `dibujar.py`, cuadernillo a
+  ciegas y preregistro antes de correr.
 - **Gemini 4 Argon, segunda tanda** (13/10/2026): el autorretrato y el
   proyecto libre volvieron vacíos por `content_filter: RECITATION` de la
   API de Google (cero tokens; no el techo), y el por qué del autorretrato
