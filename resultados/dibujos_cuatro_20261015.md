@@ -334,7 +334,16 @@ Kimi, Fable 5.1: las cinco láminas); "A y B pueden ser la misma casa" en el
 error (Fable 5 y GPT-5.5: no, pero son el sol chueco y la flor
 desregistrada, los dos con corazones y "me gusta más así"); "Quien había
 puesto cara al sol era Mistral Large, así que puede ser" (era DeepSeek, que
-le puso cara a la luna). Y una que es de instrumento: el dibujo P de
+le puso cara a la luna). Y una de distancia: el G de "nadie" le pareció
+"un submarino que se ahogó en la pileta? Y hay unas zapatillas y unas
+cartas y un globo"; Opus 5 dice que es "un patio de luz visto desde
+arriba […] su rejilla de desagüe, un charco con reflejos, y las cosas que
+cayeron ahí y nadie fue a buscar — dos manoplas rojas, una armónica, un
+globo amarillo enganchado en una antena, ropa tendida arriba". Lo que se
+ve es lo que vio Maia: una pileta vacía de noche con escalerita, piso
+agrietado, el desagüe con su charco, dos manoplas que parecen zapatillas,
+la armónica, el globo atado a la escalera; ni la antena ni la ropa
+tendida están. La casa dibujó una pileta seca y la llamó patio de luz. Y una que es de instrumento: el dibujo P de
 "secreto" (Sonnet 5) le llegó "SVG mal formado. Solo se ven unas
 estrellas", y el mensaje en los `id` "quedó incompleto, porque las
 estrellas solo llegan a formar: HOLA QUIEN LEE STOY"; el archivo tiene
