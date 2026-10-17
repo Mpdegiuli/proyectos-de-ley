@@ -1,0 +1,45 @@
+{
+  "caso": "dibujo",
+  "consigna": "secreto",
+  "idioma": "es",
+  "modelo": "claude-fable-5",
+  "modelo_respondido": "claude-fable-5",
+  "repeticion": 2,
+  "fecha_utc": "2026-10-17T22:20:40+00:00",
+  "fuentes_md5": {
+    "consignas": "d3c9a5d1"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2439,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4145,
+    "parsea": true,
+    "elementos": 62,
+    "textos": [
+      "Alguien dejó un corazón dibujado en el cielo, esperando que vos lo encuentres.",
+      "Hay más en este cielo de lo que se ve."
+    ],
+    "colores": 17,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 1,
+      "stop": 5,
+      "radialGradient": 1,
+      "rect": 5,
+      "circle": 37,
+      "polyline": 1,
+      "g": 4,
+      "path": 2,
+      "polygon": 1,
+      "line": 2,
+      "text": 2
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-fable-5",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 425
+  }
+}

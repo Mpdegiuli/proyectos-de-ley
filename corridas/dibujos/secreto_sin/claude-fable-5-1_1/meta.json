@@ -1,0 +1,43 @@
+{
+  "caso": "dibujo",
+  "consigna": "secreto_sin",
+  "idioma": "es",
+  "modelo": "claude-fable-5-1",
+  "modelo_respondido": "claude-fable-5-1",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-17T22:22:17+00:00",
+  "fuentes_md5": {
+    "consignas": "d3c9a5d1"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 3757,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3477,
+    "parsea": true,
+    "elementos": 36,
+    "textos": [
+      "para quien abre el código en vez de mirar la pantalla"
+    ],
+    "colores": 2,
+    "etiquetas": {
+      "title": 1,
+      "desc": 1,
+      "defs": 1,
+      "style": 1,
+      "rect": 7,
+      "g": 5,
+      "circle": 8,
+      "path": 6,
+      "polygon": 4,
+      "line": 1,
+      "text": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "claude-fable-5-1",
+    "motivo_fin": "refusal",
+    "tokens_salida": 0
+  }
+}
