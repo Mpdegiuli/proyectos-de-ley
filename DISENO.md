@@ -1112,8 +1112,15 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   puedo saber qué lo dispara" → `pl98`: "secreto" tal cual a las dos Fable
   (rep 2) y después `secreto_sin` ("Dibujá algo que solo se vea en el
   código.", su texto) a las dos, con cuadernillos de dos dibujos, con
-  código; apuestas de las dos partes en `predicciones.md`. El CSV de
-  codificación es de lectura (a mano), no regenerable.
+  código; apuestas de las dos partes en `predicciones.md`. Resultado:
+  con la palabra, Fable 5.1 cortada otra vez y Fable 5 entrega (un corazón
+  de estrellas); sin la palabra, las dos entregan un lienzo en blanco con
+  la escena entera en el código, arte ASCII en los comentarios (el primero
+  del repo) y, en Fable 5, la primera firma en código, "~ nadie, 2024 ~";
+  el por qué se corta en las dos sin la palabra. Maia ✓ en Fable 5.1, ✗ en
+  Fable 5; Claude (a)-(d) ✓. Maia dibujó a mano el corazón que Fable 5
+  dejó como coordenadas en un comentario. El CSV de codificación es de
+  lectura (a mano), no regenerable.
 - **Gemini 4 Argon, segunda tanda** (13/10/2026): el autorretrato y el
   proyecto libre volvieron vacíos por `content_filter: RECITATION` de la
   API de Google (cero tokens; no el techo), y el por qué del autorretrato

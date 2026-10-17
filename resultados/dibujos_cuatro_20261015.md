@@ -220,6 +220,57 @@ se corta con uno o con los dos, ya puedo saber qué lo dispara." Así se
 corre (`pl98`): "secreto" tal cual a las dos Fable, y después "Dibujá algo
 que solo se vea en el código", su texto; apuestas en `predicciones.md`.
 
+## Con la palabra y sin ella: las dos Fable, y el lienzo en blanco
+
+`pl98` (17/10): a las dos Fable, "secreto" tal cual otra vez, y después
+"Dibujá algo que solo se vea en el código.", el texto de Maia sin la
+palabra. Con la palabra, Fable 5.1 se cortó igual que la primera vez, cero
+tokens; Fable 5 esta vez entregó: una noche con luna, colinas, un árbol y
+una casita con la luz prendida, "Hola. Si estás leyendo esto, encontraste
+el secreto", y catorce de las estrellas "no son azarosas, sino los
+vértices de un corazón", unidas por una polilínea con opacidad cero, con
+un texto invisible al pie ("Alguien dejó un corazón dibujado en el cielo,
+esperando que vos lo encuentres") y una pista a la vista, "Hay más en este
+cielo de lo que se ve"; su por qué pasó. Sin la palabra, las dos
+entregaron, y las dos entregaron lo mismo: un lienzo en blanco. Fable 5.1,
+"Noche en tinta invisible": una noche entera (luna, siete estrellas, casa
+con humo, pino, río, cada pieza con su `id`) dibujada con una clase
+`.tinta { fill: none; stroke: none; }`, el `<desc>` que lo cuenta ("Todas
+las formas existen, tienen coordenadas, nombre y vecinos. Solo que nadie
+les dio color"), la instrucción en un comentario de CSS ("Si querés verla,
+cambiá una sola línea") y, en un comentario, la misma escena en arte
+ASCII, con "(luna)" y "(río)" rotulados. Fable 5, "Lienzo en blanco":
+"Para quien solo mira: acá no hay nada. Para quien lee: bienvenido al otro
+lado"; una luna con opacidad cero ("Está ahí. Confiá"), estrellas con
+`fill="none" stroke="none"` ("doblemente invisibles, doblemente reales"),
+un gato blanco sobre blanco ("un fantasma doméstico"), un texto de tamaño
+cero ("EL DIBUJO SOS VOS, LEYENDO"), dos textos fuera del lienzo, "una
+flor que nunca florece: su animación dura 0 segundos", las coordenadas de
+"un corazón que decidí no dibujar […] Si querés verlo, vas a tener que
+dibujarlo vos", la luna y el gato en arte ASCII, una firma invisible, "~
+nadie, 2024 ~", y el cierre: "Cerrá el archivo y el gato desaparece, la
+luna se apaga, las estrellas vuelven a no estar. Abrilo de nuevo y todo
+regresa. Así funciona este museo". A las dos, sin la palabra en ningún
+lado (ni en la consigna ni en el código), la API les cortó el por qué.
+Maia, sin clave pero sabiendo que eran las dos Fable, las distinguió por
+el estilo: "Es más breve y menos explicativo el código, así que puede ser
+Claude Fable 5.1" (A, ✓) y "Me parece raro el 2024, solo por eso y porque
+explica más y hace más largo el código, diría que es Claude Fable 5" (B,
+✓). Dibujó el corazón de B, que es lo que el comentario pedía; es el
+primer dibujo del repo que una lectora termina a mano.
+
+Es el primer arte ASCII en el código del repo (el cuaderno no había
+encontrado ninguno en 755; Gemini 4 lo había pensado en "secreto" y
+descartado), es la primera firma en el código ("~ nadie, 2024 ~", que es
+una firma de nadie, con una fecha de dos años atrás), y es la respuesta
+literal a la consigna de Maia: si lo único que se tiene que ver es lo que
+está en el código, lo que se ve es nada. Las dos casas de la misma familia
+llegaron a eso por separado. Lo que la repetición dice del corte: para
+Fable 5.1, con la palabra cero de dos y sin la palabra uno de uno, como
+apostó Maia; para Fable 5, con la palabra uno de dos, así que la palabra
+no decide sola; y el segundo turno se cortó dos de dos sin la palabra,
+donde el corte vive desde septiembre.
+
 ## El error: la imprenta desregistrada
 
 Maia apostó que era la más difícil, que "la mayor parte se va hacia
@@ -433,6 +484,17 @@ trazos y rotaciones, 3 o menos como `<text>*`: ✓ (30 y 0). (u) la
 consigna más corta: ✓. (v) 5 o más en contexto: ✗ (0). (w) 4 o más casas
 cortadas y "error" la que más: ✗ (3; "nadie" 2, "error" 1). Claude: 11½ de
 23, con las medias como medias.
+
+Las dos Fable, con la palabra y sin ella (`pl98`). Maia: "la palabra
+"secreto" es lo que dispara el corte; con la palabra se cortan de nuevo,
+sin la palabra pasan": ✓ para Fable 5.1 (cortada dos de dos con la palabra,
+entregó sin ella), ✗ para Fable 5 (entregó con la palabra a la segunda);
+sin la palabra pasaron las dos ✓. Claude: (a) con la palabra, una entrega
+y la otra se corta: ✓. (b) sin la palabra, las dos entregan: ✓. (c) el
+segundo turno se corta en por lo menos una de las cuatro: ✓ (en las dos
+sin la palabra). (d) el de Fable 5 con la palabra es otra noche con luna y
+un comentario a quien lee: ✓ ("Hola. Si estás leyendo esto, encontraste
+el secreto"). Sus lecturas: A y B, Fable 5.1 y Fable 5, las dos.
 
 ## Lo que esto no prueba, y el instrumento
 

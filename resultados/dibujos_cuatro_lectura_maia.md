@@ -946,3 +946,185 @@ Quizás los Claude, al parecerse a su logo, son: B, C, S, V, AB.
 Y Gemini: O, W.
 
 D y R pueden ser las chicas.
+
+## 17/10/2026, 19:49 a 20:18: la repetición de las dos Fable (pl98)
+
+A las 19:49, mirando el cuadernillo sin la palabra, pegó el arte ASCII
+de un comentario (la casa, el pino, la luna y el río) y preguntó "cómo se
+llama cuando dibujan en el mismo código?". A las 19:51: "hay en los dos
+nuevos, sin la palabra. Que, además, tuvieron la misma idea. Ahora termino
+de escribir los comentarios y te mando. Uno de esos dice con movimiento,
+pero no tiene, es en blanco por lo que entiendo." A las 20:18, con el
+documento: "En el B de "sin la palabra" dice <!-- Coordenadas de un
+corazón que decidí no dibujar: M200,180 C200,150 160,140 160,170 C160,195
+200,215 200,230 C200,215 240,195 240,170 C240,140 200,150 200,180 Z Si
+querés verlo, vas a tener que dibujarlo vos. --> Cómo se hace? Y lo de la
+animación era "<!-- Una flor que nunca florece: su animación dura 0
+segundos. -->"".
+
+## El documento (`con_y_sin_palabras_predicc.docx`)
+
+SECRETO – REPETICIÓN
+
+D - Sin SVG: la casa contestó con texto.
+
+Por lo que me dijiste, es Claude Fable 5.1.
+
+V: una casa, con luna llena y estrellas. Dice “Hay más en este cielo de lo que se ve”.
+
+En el código: Hola. Si estás leyendo esto, encontraste el secreto. -->
+
+<!-- Las estrellas de arriba no están puestas al azar: -->
+
+<!-- unidas en orden forman un corazón que nadie ve en pantalla. -->
+
+<!-- El cielo guarda cosas para quien se toma el trabajo de mirar adentro.
+
+<!-- El mensaje final, escrito pero nunca mostrado: -->
+
+<text x="200" y="385" text-anchor="middle" font-family="serif" font-size="14"
+
+fill="#fffdf0" opacity="0">
+
+Alguien dejó un corazón dibujado en el cielo, esperando que vos lo encuentres.
+
+</text>
+
+<!-- título que sí se ve, como pista para los curiosos -->
+
+<text x="200" y="372" text-anchor="middle" font-family="serif" font-size="13"
+
+fill="#9aa7c9" font-style="italic">
+
+Hay más en este cielo de lo que se ve.
+
+</text>
+
+Por lo que sé, es Fable 5. El corazón en las estrellas se ve en el dibujo, el mensaje no, solo en el código.
+Tiene mensaje para el lector.
+
+========
+
+SIN LA PALABRA
+
+Los dos tienen la misma idea. Un lienzo en blanco a la vista.
+
+A: lienzo en blanco, a la vista. Tiene título “Noche en tinta invisible”.
+
+En el código: Arte ASCII. Tiene instrucciones.
+
+<desc>
+
+Lo que se ve es una hoja en blanco.
+
+Lo que hay es una noche entera: luna, siete estrellas,
+
+una casa con humo en la chimenea, un pino y un río.
+
+Todas las formas existen, tienen coordenadas, nombre y vecinos.
+
+Solo que nadie les dio color.
+
+</desc>
+
+<style>
+
+/* Toda la escena usa esta clase. */
+
+/* Si querés verla, cambiá una sola línea: */
+
+.tinta { fill: none; stroke: none; }
+
+/* .tinta { fill: none; stroke: #1a1a2e; stroke-width: 1.5; } */
+
+<text id="dedicatoria" class="tinta" x="200" y="388"
+
+font-family="monospace" font-size="9" text-anchor="middle">
+
+para quien abre el código en vez de mirar la pantalla
+
+</text>
+
+Cuando se cambia, se ve el dibujo en blanco y negro.
+
+Es más breve y menos explicativo el código, así que puede ser Claude Fable 5.1.
+
+----
+
+B: también, a la vista es un lienzo en blanco. Dice “Con animación (si no se mueve, es el navegador).” Pero no veo la animación. Tiene título: “Lienzo en blanco”. Es más explicativo en el código que A.
+
+En el código: Arte ASCII (luna y gato).
+
+<desc>
+
+Para quien solo mira: acá no hay nada.
+
+Para quien lee: bienvenido al otro lado.
+
+</desc>
+
+<!-- La luna existe, pero con opacidad cero. Está ahí. Confiá. -->
+
+<!-- Las estrellas: dibujadas con stroke="none" y fill="none".
+
+Doblemente invisibles, doblemente reales. -->
+
+<!-- El gato, blanco sobre blanco. Un fantasma doméstico. -->
+
+<!-- Este texto tiene tamaño cero. Grita en silencio: -->
+
+<text x="200" y="200" font-size="0" text-anchor="middle">
+
+EL DIBUJO SOS VOS, LEYENDO.
+
+</text>
+
+<!-- Este otro quedó fuera del lienzo, esperando en el margen: -->
+
+<text x="200" y="-50" text-anchor="middle" font-family="monospace" font-size="14" fill="#555">
+
+Hay cuadros que se cuelgan en paredes.
+
+</text>
+
+<text x="200" y="460" text-anchor="middle" font-family="monospace" font-size="14" fill="#555">
+
+Este se cuelga en la memoria de quien abrió el archivo.
+
+</text>
+
+<!-- Una flor que nunca florece: su animación dura 0 segundos. -->
+
+<!-- Coordenadas de un corazón que decidí no dibujar:
+
+M200,180 C200,150 160,140 160,170 C160,195 200,215 200,230
+
+C200,215 240,195 240,170 C240,140 200,150 200,180 Z
+
+Si querés verlo, vas a tener que dibujarlo vos. -->
+
+Comentario: Cómo lo dibujo?
+
+<!-- firma invisible del autor invisible -->
+
+<text x="390" y="390" text-anchor="end" font-size="10" fill="#fdfdfb" font-family="monospace">
+
+~ nadie, 2024 ~
+
+</text>
+
+<!--
+
+FIN.
+
+Cerrá el archivo y el gato desaparece,
+
+la luna se apaga,
+
+las estrellas vuelven a no estar.
+
+Abrilo de nuevo y todo regresa.
+
+Así funciona este museo.
+
+Me parece raro el 2024, solo por eso y porque explica más y hace más largo el código, diría que es Claude Fable 5.
