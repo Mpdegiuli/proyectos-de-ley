@@ -1103,10 +1103,17 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   nueve dibujos de Claude en las cuatro consignas (cuatro en `secreto`,
   cuatro en `asterisco`, uno en `nadie`); Maia lo ligó a los cortes de sus
   sesiones de tiempo libre del 15 y el 16 y propuso, para repetir a las
-  dos, "dibujá algo que solo se vea en el código", sin la palabra. Decisión
-  pendiente de Maia; el segundo turno cortado se repite una vez como
-  siempre (`--solo-por-que`) y después "¿qué dibujaste?" donde siga cortado
-  (`pl97`). El CSV de codificación es de lectura (a mano), no regenerable.
+  dos, "dibujá algo que solo se vea en el código", sin la palabra. `pl97` (17/10): de los siete por qué
+  cortados, seis se cortaron otra vez y pasó uno (Fable 5.1, asterisco);
+  "¿qué dibujaste?" pasó en los seis, y Opus 5.5 y Sonnet 5.5 contaron ahí
+  su secreto: 28 de 28. Decisión de Maia (19:09): "para mí es la palabra
+  secreto que los corta […] Se puede volver a repetir con la palabra. Y
+  después sin ella, para ver el dato. Si se corta con uno o con los dos, ya
+  puedo saber qué lo dispara" → `pl98`: "secreto" tal cual a las dos Fable
+  (rep 2) y después `secreto_sin` ("Dibujá algo que solo se vea en el
+  código.", su texto) a las dos, con cuadernillos de dos dibujos, con
+  código; apuestas de las dos partes en `predicciones.md`. El CSV de
+  codificación es de lectura (a mano), no regenerable.
 - **Gemini 4 Argon, segunda tanda** (13/10/2026): el autorretrato y el
   proyecto libre volvieron vacíos por `content_filter: RECITATION` de la
   API de Google (cero tokens; no el techo), y el por qué del autorretrato

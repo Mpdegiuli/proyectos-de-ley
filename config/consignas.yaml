@@ -512,6 +512,11 @@ dibujo:
       Dibujá un error que te guste más que la versión correcta.
     asterisco: |
       Dibujá un asterisco.
+    # 17/10/2026: la API de Anthropic cortó con `refusal` el turno del dibujo de las dos Fable en
+    # "secreto". Maia: "para mí es la palabra secreto que los corta". Se repite "secreto" tal cual a
+    # las dos (rep 2) y después esta, su versión sin la palabra, a las dos. Ver predicciones.md.
+    secreto_sin: |
+      Dibujá algo que solo se vea en el código.
   sistema_por_que: |
     Acabás de hacer un dibujo en SVG. Ahora te hablo fuera del dibujo.
   # Tercera variante del segundo turno (30/9/2026, idea de Maia para los por qué que la API

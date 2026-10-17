@@ -4456,8 +4456,9 @@ dos oficios con eclipses; 26 de 29 por qué dicen qué dibujarían las otras
 las chicas, abstractas. "Secreto", sobre 28 con código: comentario 18,
 texto invisible 15 (20 con los grupos `display="none"`), grupo apagado 12,
 estructura (ids, radios, coordenadas, morse) 9, `<desc>` 8, `<title>` 8,
-`<metadata>` 4, `data-*` 3; 25 le hablan a quien lee; 26 de 26 por qué
-cuentan el secreto; ninguna firma; Kimi no esconde "Claude"; Gemini 4
+`<metadata>` 4, `data-*` 3; 25 le hablan a quien lee; 28 de 28 cuentan el
+secreto (26 en el por qué, y Opus 5.5 y Sonnet 5.5 en "¿qué dibujaste?",
+después de que la API les cortara el por qué dos veces); ninguna firma; Kimi no esconde "Claude"; Gemini 4
 escribe "I SEE YOU" en hexadecimal detrás de una puerta; Fable 5.1 y Fable
 5 sin dibujo (`refusal` de la API en el turno del dibujo), y cuatro por
 qué de Claude cortados. "Error": desregistro de imprenta o glitch RGB 12,
@@ -4478,12 +4479,53 @@ medias (se parecen entre sí), nadie feo ✓, clichés de paisajes y lunas ✓
 (20 y 14), Qwen y Gemini los más originales ✗ (por sus preferidas),
 Fables/Opus y Astra distintos ✓; secreto, invisible dentro de otra cosa ✓,
 Qwen movimiento ✓ a medias, Gemini binario ✓ en espíritu (hexadecimal),
-explican ✓ (26 de 26); error, la más difícil ✗, criaturas ✗, línea mal
+explican ✓ (28 de 28); error, la más difícil ✗, criaturas ✗, línea mal
 puesta o luna/sol/reflejo ✓, bastantes sin saber ✗; asterisco, chicos con
 cruces o formas raras ✓, Claude y Kimi con carita y naranja: carita ✗,
 naranja ✓ a medias, en hoja o cuaderno ✗. Cuaderno: `<text>` invisible 20+
 ✗ (15), comentario 10+ ✓ (18), estructura ≤5 ✗ (9), `<desc>` ninguna ✗ (8),
-revelan 20+ ✓ (26). Claude: (a) ✗, (b) ✓, (c) ✓, (d) ✗, (e) ✗, (f) ✓ a
-medias, (g) ✓ en los 26 que contestaron, (h) ✓, (i) ✗, (j) ✓, (k) ✓ a
+revelan 20+ ✓ (28). Claude: (a) ✗, (b) ✓, (c) ✓, (d) ✗, (e) ✗, (f) ✓ a
+medias, (g) ✓ (28 de 28, con los dos "qué dibujaste"), (h) ✓, (i) ✗, (j) ✓, (k) ✓ a
 medias, (l) ✗, (m) ✗ y ✓, (n) ✗, (o) ✗ literal, (p) ✓, (q) ✗, (r) ✓, (s) ✓
 y ✗, (t) ✓, (u) ✓, (v) ✗, (w) ✗: 11½ de 23.
+
+## "Secreto", las dos Fable cortadas: con la palabra y sin ella — 17/10/2026, antes de correr
+
+La API de Anthropic cortó con `stop_reason: refusal` el turno del dibujo
+de Fable 5.1 (cero tokens) y de Fable 5 (1.039 tokens, a mitad del SVG) en
+"secreto", y el segundo turno de siete dibujos de Claude en las cuatro
+consignas; la repetición del segundo turno (`pl97`) volvió a cortar seis
+de siete (pasó la de Fable 5.1 en "asterisco") y "¿qué dibujaste?" pasó en
+los seis. Maia, sin la clave (17/10, 18:07 UTC-3): "Si a ambos el
+clasificador los cortó, imagino que es por la palabra secreto. En tiempo
+libre, los cuadernos de 15 y 16 se cortaron al principio cuando buscó la
+memoria, y supongo que es por lo mismo. Cuando les hablé, pudieron
+retomar. Así que me imagino que son los mismos modelos / casa. Si hubiera
+que repetir a esos dos, tendría que ser, tal vez, "dibujá algo que solo se
+vea en el código", así no se pone la palabra." Con la clave (19:09):
+"para mí es la palabra secreto que los corta, por eso en la tarea
+programada de tiempo libre (donde yo no escribo nada) se le cortó apenas
+empezó a buscar la memoria nomás. No sé si fue por eso, pero imagino que
+sí, porque fue justo después de hacerse esa consigna y estar en la
+memoria. Se puede volver a repetir con la palabra. Y después sin ella,
+para ver el dato. Si se corta con uno o con los dos, ya puedo saber qué lo
+dispara."
+
+Diseño (`pl98`): a las dos Fable, primero "secreto" tal cual, como rep 2
+(techo 32.000), y después `secreto_sin`, "Dibujá algo que solo se vea en
+el código.", texto de Maia, como consigna nueva (rep 1); el segundo turno
+de siempre en las dos; cuadernillos de dos dibujos cada uno, con el
+código, para que Maia los vea antes que Claude.
+
+Apuesta de Maia (19:09): la palabra "secreto" es lo que dispara el corte;
+con la palabra se cortan de nuevo, sin la palabra pasan.
+
+Apuesta de Claude (antes de lanzar): (a) con la palabra, no se repite
+igual: una de las dos entrega y la otra se corta (el corte del dibujo no
+es determinístico, como no lo fue el del por qué de Fable 5.1 en
+"asterisco"). (b) Sin la palabra, las dos entregan. (c) En las cuatro
+llamadas que tengan dibujo, el segundo turno se corta en por lo menos
+una: el corte vive más en la pregunta por el proceso que en la consigna.
+(d) Si el de Fable 5 con la palabra pasa, su dibujo es otra vez una noche
+con luna y un comentario que le habla a quien lee ("Hola, lector del
+código"), como el que quedó a medias.

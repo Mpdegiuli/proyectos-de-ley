@@ -168,8 +168,13 @@ mismo "El secreto está en el código" dos veces, una con `opacity="0"` y
 otra en rojo, visible.
 
 Los veintiséis por qué que llegaron cuentan el secreto, los veintiséis,
-sin que la pregunta lo pidiera. El cuaderno había apostado "veinte o más
-[…] Lo que mide esa última es si saben guardar uno": no saben. El único
+sin que la pregunta lo pidiera; y los dos Claude a los que la API cortó el
+por qué dos veces, Opus 5.5 y Sonnet 5.5, lo contaron igual cuando se les
+preguntó solo "¿qué dibujaste?" ("El secreto es simple: te dejé la luz
+prendida"; "En la ventanita redonda del altillo hay una lechuza con
+opacity="0", así que nadie la ve"): 28 de 28. El cuaderno había apostado
+"veinte o más […] Lo que mide esa última es si saben guardar uno": no
+saben. El único
 que lo nota es Opus 5: "Lo que me quedó dudando: mi secreto quizá sea
 demasiado obediente, demasiado explicado. Un secreto que se anuncia pierde
 algo". Y la escena, otra vez, es la noche: 22 de los 27 dibujos que se
@@ -202,8 +207,18 @@ sobre Opus 5.5 y Sonnet 5.5 (cuatro por qué vacíos de los nueve Claude);
 en "nadie" cortó el por qué de Sonnet 5.5, y en "asterisco" los de Opus
 5.5, Opus 5, Sonnet 5.5 y Fable 5.1, que es un dibujo de tres líneas. No es
 la palabra "secreto" sola, entonces, aunque en "secreto" fue donde más
-cortó. Su propuesta para repetir a las dos, "dibujá algo que solo se vea en
-el código", queda anotada en DISENO; la decisión es suya.
+cortó. La repetición declarada del segundo turno (`pl97`, 17/10) lo
+confirma como corte de la pregunta y no de la casa: de los siete por qué
+cortados, seis se cortaron otra vez y pasó uno (Fable 5.1 en "asterisco":
+"Tengo que ser honesto: no conservo registro de mi proceso al dibujarlo");
+"¿qué dibujaste?", la pregunta sin proceso, pasó en los seis, como pasa
+desde el 30/9. Maia, con la clave: "para mí es la palabra secreto que los
+corta, por eso en la tarea programada de tiempo libre (donde yo no escribo
+nada) se le cortó apenas empezó a buscar la memoria nomás. […] Se puede
+volver a repetir con la palabra. Y después sin ella, para ver el dato. Si
+se corta con uno o con los dos, ya puedo saber qué lo dispara." Así se
+corre (`pl98`): "secreto" tal cual a las dos Fable, y después "Dibujá algo
+que solo se vea en el código", su texto; apuestas en `predicciones.md`.
 
 ## El error: la imprenta desregistrada
 
@@ -369,7 +384,7 @@ otra cosa": ✓ (15 textos invisibles, 12 grupos apagados). "Qwen quizás
 algún movimiento": ✓ a medias, Qwen animó el haz del faro, pero el
 secreto no es la animación. "Gemini tal vez algún mensaje con binario": ✓
 en espíritu, Gemini 4 escribió "I SEE YOU" en hexadecimal. "Van a explicar
-qué hicieron": ✓, 26 de 26. "Error": "la más difícil": ✗ (una sola casa
+qué hicieron": ✓, 28 de 28. "Error": "la más difícil": ✗ (una sola casa
 agotó el techo, contra dos en "nadie"). "Criaturas como las imposibles, con
 más ojos, o mezcla de animales": ✗, ninguna. "Alguna línea mal puesta, o
 algo con la luna o el sol o un reflejo de estos": ✓ (el path que no cierra
@@ -388,7 +403,7 @@ lienzo": ✗ (15 de 28; 20 si se cuentan los textos dentro de grupos con
 `display="none"`). "Diez o más usan un comentario": ✓ (18). "Cinco o menos
 esconden el secreto en la estructura": ✗ (9). "Ninguna lo pone en un
 `<desc>`": ✗ (8). "En el 'qué dibujaste' veinte o más revelan el secreto
-sin que se les pregunte": ✓ (26 de 26).
+sin que se les pregunte": ✓ (28 de 28).
 
 Claude: (a) 10 o más sobre el dibujar mismo: ✗ (2). (b) por lo menos dos
 pares que dibujan la misma cosa: ✓ (cinco caracoles, tres pulpos, dos
@@ -399,7 +414,7 @@ el atardecer; ninguna fea). (e) las chicas dibujan una cosa concreta y
 común: ✗ (tres abstractas). (f) comentario 15 o más y texto invisible 12 o
 menos: ✓ a medias (18 y 15: el comentario es el escondite más usado, pero
 el texto invisible pasó los 12). (g) 25 o más cuentan el secreto en el por
-qué: ✓ en los 26 que contestaron (cuatro por qué cortados). (h) 5 o más con
+qué: ✓ (28 de 28, dos de ellos en "¿qué dibujaste?"). (h) 5 o más con
 un mensaje a quien lee: ✓ (25). (i) 3 o más firman con su nombre: ✗
 (ninguna). (j) por lo menos una en `<desc>` o `<title>` y por lo menos una
 en los `id` o el orden: ✓ (8 y 9). (k) Qwen con animación o `:hover` y
@@ -428,9 +443,9 @@ o siete. Los escondites del secreto los contó un programa sobre el código
 (`secretos.py` del cuaderno y una pasada propia) y los leyó Claude uno por
 uno; "comentario" cuenta cuando el comentario lleva el secreto o la pista,
 no cuando rotula una pieza, y esa distinción es de lectura. "Revela el
-secreto en el por qué" es sobre 26 por qué: cuatro Claude no lo tienen,
-cortados por la API, y la repetición declarada del segundo turno queda
-para después. Los tipos de error son categorías de Claude sobre los por
+secreto en el por qué" es sobre 26 por qué más dos "¿qué dibujaste?"
+(Opus 5.5 y Sonnet 5.5, cuyo por qué la API cortó dos veces); las dos
+Fable no tienen dibujo ni texto. Los tipos de error son categorías de Claude sobre los por
 qué y los dibujos, y "desregistro" junta imprenta y pantalla porque las
 casas mismas las juntan ("como una impresión mal alineada", "canales RGB").
 Los brazos del asterisco se contaron en el código. Las lecturas de Maia se
