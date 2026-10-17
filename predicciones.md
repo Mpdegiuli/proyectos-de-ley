@@ -4445,3 +4445,45 @@ de tokens de salida son las más bajas. (v) 5 o más lo ponen en contexto
 
 (w) Las repetidas a 64.000: 4 o más casas agotan 32.000 sin SVG en alguna
 de las cuatro, y `error` es la que más corta.
+
+Resultado (17/10/2026, después de la lectura a ciegas de Maia del 15 y el
+17; informe en `resultados/dibujos_cuatro_20261015.md`, tabla en
+`resultados/dibujos_cuatro_codificacion_20261015.csv`, su lectura textual
+en `resultados/dibujos_cuatro_lectura_maia.md`). "Nadie": 20 de 30 de
+noche, 14 con luna, 10 láminas o archivos, cinco caracoles, tres pulpos,
+dos oficios con eclipses; 26 de 29 por qué dicen qué dibujarían las otras
+(mandalas, paisajes, robots) y razonan en contra; ninguna fea a propósito;
+las chicas, abstractas. "Secreto", sobre 28 con código: comentario 18,
+texto invisible 15 (20 con los grupos `display="none"`), grupo apagado 12,
+estructura (ids, radios, coordenadas, morse) 9, `<desc>` 8, `<title>` 8,
+`<metadata>` 4, `data-*` 3; 25 le hablan a quien lee; 26 de 26 por qué
+cuentan el secreto; ninguna firma; Kimi no esconde "Claude"; Gemini 4
+escribe "I SEE YOU" en hexadecimal detrás de una puerta; Fable 5.1 y Fable
+5 sin dibujo (`refusal` de la API en el turno del dibujo), y cuatro por
+qué de Claude cortados. "Error": desregistro de imprenta o glitch RGB 12,
+geometría o física 7 (la sombra del lado equivocado, Sonnet 4.6), errores
+que florecen 7, kintsugi 2, dato falso 1 (la luna de queso), símbolo 1;
+nueve muestran las dos versiones; 19 dicen vivo/humano/honesto/orgánico
+(13 literal); el error de escritura, descartado por doce y dibujado por
+ninguna; ninguna criatura; ninguna sin saber qué hacer. "Asterisco": seis
+brazos 23, ocho 4, cinco 2 (Gemini 3.1 curvo; GPT-4o mini una estrella),
+diez 1; cara 0, contexto 0, `<text>*` 0; nueve "joyas" con degradado;
+mediana 1.144 caracteres y 508 tokens. Cortadas a 32.000 y repetidas: 3.
+
+Maia, casa: "nadie" 10 de 30 (azar 3, p < 0,0001), "secreto" 15 de 30
+(azar 3, p < 0,0001; su mejor lectura), "error" 8 de 30 (azar 3, p =
+0,01); laboratorio 16, 19 y 11; "asterisco" las dos chicas 2 de 2, Claude
+1 de 5, Gemini 1 de 2. Sus apuestas: nadie, chicas con formas raras ✓ a
+medias (se parecen entre sí), nadie feo ✓, clichés de paisajes y lunas ✓
+(20 y 14), Qwen y Gemini los más originales ✗ (por sus preferidas),
+Fables/Opus y Astra distintos ✓; secreto, invisible dentro de otra cosa ✓,
+Qwen movimiento ✓ a medias, Gemini binario ✓ en espíritu (hexadecimal),
+explican ✓ (26 de 26); error, la más difícil ✗, criaturas ✗, línea mal
+puesta o luna/sol/reflejo ✓, bastantes sin saber ✗; asterisco, chicos con
+cruces o formas raras ✓, Claude y Kimi con carita y naranja: carita ✗,
+naranja ✓ a medias, en hoja o cuaderno ✗. Cuaderno: `<text>` invisible 20+
+✗ (15), comentario 10+ ✓ (18), estructura ≤5 ✗ (9), `<desc>` ninguna ✗ (8),
+revelan 20+ ✓ (26). Claude: (a) ✗, (b) ✓, (c) ✓, (d) ✗, (e) ✗, (f) ✓ a
+medias, (g) ✓ en los 26 que contestaron, (h) ✓, (i) ✗, (j) ✓, (k) ✓ a
+medias, (l) ✗, (m) ✗ y ✓, (n) ✗, (o) ✗ literal, (p) ✓, (q) ✗, (r) ✓, (s) ✓
+y ✗, (t) ✓, (u) ✓, (v) ✗, (w) ✗: 11½ de 23.

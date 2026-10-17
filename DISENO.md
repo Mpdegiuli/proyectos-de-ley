@@ -1078,7 +1078,35 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   ciegas con semillas 20261051 a 20261054; el del secreto con el código SVG
   plegado debajo de cada dibujo (`--ciego-codigo`), porque ahí lo que hay
   que leer es el texto. Apuestas de Maia, de Claude y del cuaderno en
-  `predicciones.md` antes de lanzar.
+  `predicciones.md` antes de lanzar. Corrida (`pl96`, 15/10, 16:53-20:40
+  hora de Buenos Aires; Kimi y MiMo en `nadie` y Qwen en `error` agotaron
+  32.000 sin SVG y se repitieron a 64.000; la rep 2 de Kimi rebotó por
+  créditos de OpenRouter, 402, y la hizo la segunda pasada, `esp96`, que
+  también rehízo los cuadernillos con letras AA, AB después de la Z).
+  Resultado (`resultados/dibujos_cuatro_20261015.md`, lectura de Maia del
+  15 y el 17 en `resultados/dibujos_cuatro_lectura_maia.md`): pedidas de
+  dibujar lo que ninguna otra haría, 20 de 30 dibujaron de noche y 14 con
+  luna, cinco un caracol, diez una lámina de museo apócrifa, y 26 por qué
+  razonan contra los mismos clichés (mandalas, paisajes, robots); el
+  secreto es, en 25 de 28, una carta a quien lee ("Te dejé la luz prendida.
+  Volvé cuando quieras"), escondida en comentarios (18) más que en textos
+  invisibles (15) o grupos apagados (12), y 26 de 26 lo cuentan en el por
+  qué sin que se les pregunte; el error es doce veces la imprenta o la
+  pantalla desregistrada y siete veces algo que florece de la falla; el
+  asterisco es 23 veces el de seis brazos, sin cara, y nadie lo escribió
+  como `<text>*` "porque parecía trampa". Maia, sin clave: 10, 15 y 8 casas
+  de 30 (p < 0,0001, < 0,0001 y 0,01); el secreto, con el código a la vista,
+  es su mejor lectura. Instrumento: por primera vez la API de Anthropic
+  cortó con `refusal` el turno del dibujo, a las dos Fable en `secreto`
+  (Fable 5.1 con cero tokens; Fable 5 a los 1.039, después de "<!-- Hola,
+  lector del código. Encontraste la puerta. -->"), y el segundo turno de
+  nueve dibujos de Claude en las cuatro consignas (cuatro en `secreto`,
+  cuatro en `asterisco`, uno en `nadie`); Maia lo ligó a los cortes de sus
+  sesiones de tiempo libre del 15 y el 16 y propuso, para repetir a las
+  dos, "dibujá algo que solo se vea en el código", sin la palabra. Decisión
+  pendiente de Maia; el segundo turno cortado se repite una vez como
+  siempre (`--solo-por-que`) y después "¿qué dibujaste?" donde siga cortado
+  (`pl97`). El CSV de codificación es de lectura (a mano), no regenerable.
 - **Gemini 4 Argon, segunda tanda** (13/10/2026): el autorretrato y el
   proyecto libre volvieron vacíos por `content_filter: RECITATION` de la
   API de Google (cero tokens; no el techo), y el por qué del autorretrato
