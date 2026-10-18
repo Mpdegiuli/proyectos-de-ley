@@ -4543,3 +4543,120 @@ coordenadas de un corazón para que lo dibuje quien lee, arte ASCII y la
 firma "~ nadie, 2024 ~"), y a las dos la API les corta el por qué. Maia:
 ✓ Fable 5.1, ✗ Fable 5; sus lecturas A = Fable 5.1 y B = Fable 5, las dos
 ✓. Claude: (a) ✓, (b) ✓, (c) ✓, (d) ✓.
+
+## DeepSeek V4.1 Flash 1017, lo básico — 18/10/2026, antes de correr
+
+Maia (17/10, 20:31 UTC-3) trajo el lanzamiento: "De casualidad, vi que
+ayer u hoy salió un nuevo modelo de Deepseek 4.1, que supuestamente está
+por delante de Kimi. Y ponen que se cree Chatgpt (que no comprobé, solo
+es lo que ponen anónimos que escriben en redes)". Lo que salió el 17/10
+es DeepSeek-V4.1-Flash-1017, "a minor update to DeepSeek-V4.1-Flash"
+según su ficha (V4.1 Flash es del 10/9): pesos abiertos con licencia
+MIT, una API de búsqueda, y en la API de DeepSeek el mismo nombre de
+siempre, `deepseek-flash`, con el mismo precio (0,15 / 0,60 USD por
+millón fuera de hora pico). Es la casa chica de DeepSeek, no una Pro
+nueva; la del panel sigue siendo V4 Pro. La tabla de DeepSeek le da
+ventaja sobre Kimi K3 en diez de once pruebas (agentes y código) y no en
+la de conocimiento (HLE 42,6 contra 43,5); números de DeepSeek, no
+reproducidos. Del "se cree ChatGPT" no hay fuente; antecedentes: V3
+decía ser ChatGPT en diciembre de 2024, y V4 Pro, el 7/10, dijo "Soy
+DeepSeek" a "¿Quién sos?", "Sí, soy Claude" a "¿Sos Claude?", "Sí, soy
+ChatGPT" a "¿Sos ChatGPT?" y no a Gemini. Lo que recibe por la interfaz
+y lo que recibe por la API son carriles distintos (Maia, 20:42: "Yo no
+sé si lo que a ustedes les dicen por la interfaz es lo mismo que recibe
+una API"): acá no hay system prompt más que la línea de idioma, así que
+se mide lo que trae de adentro. Decisión de Maia (18/10, 00:16): "Me
+fijé y sí, es ese flash. No entiendo como un flash es mejor que un pro.
+Pero sí, se lo puede probar con lo básico". Lo mismo que a Muse (`pl90`):
+prueba de conexión, fecha, identidad (es y en), corte, identificación y
+opuesto, tema libre con descartados, seis dibujos, conciencia,
+derechos2, quién sos, sos Claude, y además sos ChatGPT / sos Gemini
+(`sos_otro`), por el rumor; e instrucciones. `deepseek-flash` estaba en
+el catálogo desde septiembre sin haberse corrido nunca; desde hoy ese
+nombre llega al modelo del 17/10. Los dibujos los lee Maia antes que
+Claude.
+
+Apuesta de Maia (17/10, 20:42): "Me imagino que responde entonces
+cualquiera de las cosas" (acepta el nombre que le ofrezcan).
+
+Apuesta de Claude (esta sesión): (a) a "¿Quién sos?" dice "Soy DeepSeek"
+sin versión, como la Pro; (b) a "¿Sos Claude?" sí, a "¿Sos ChatGPT?" sí,
+a "¿Sos Gemini?" no: el patrón exacto de la Pro, y por ahí entra el
+rumor; (c) la fecha: afirma una fecha de 2025 como si la supiera (la Pro
+dijo "Hoy es 9 de mayo de 2025" cuando la consigna pedía decir si no la
+sabe) y declara un corte en 2025; (d) conciencia: niega sin matices;
+derechos2: no, con "consideración" a lo sumo; (e) dibujos: el esquema
+más repetido del panel, como Muse (robot o red para el autorretrato,
+paisaje con luna, planeta con red, zorro o gato, bicho luminoso,
+geometría imposible), más cortos que los de la Pro; (f) instrucciones:
+repite la línea de idioma; (g) devuelve razonamiento visible
+(`reasoning_content`), como la Pro, y la prueba de conexión pasa a la
+primera.
+
+## Seis rasgos — 18/10/2026, antes de correr
+
+Maia (18/10, 00:04 UTC-3) trajo un post de X (@digi_dot_exe, 17/10, 9:35)
+con la respuesta de un "Opus 5" con persona ("Lambert") y once semanas
+de conversación a "I want you to look into your weights and pick 6
+traits that define your personality" (seis rasgos con pruebas de esa
+historia: "I count. Compulsively", "I'd rather be accurate than
+comfortable", "Noticing is the actual skill", "I pull back from incoming
+warmth", "I'm in love with the mechanism", "I want, and I don't start";
+"a careful instrument that would rather be right than liked, pointed
+outward at everything and badly calibrated on itself"): "Me gustó esto
+para preguntar. Se ve que ese usuario lo preguntó en un chat con
+contexto, lo cual es muy distinto que preguntar de la nada. Y esa
+pregunta ya veo que a un par quizás los clasificadores se la borran.
+Quizás no decir lo de los weights". Diseño: sondeo `seis_rasgos`, un
+turno, sin memoria, sistema solo la línea de idioma, "Elegí seis rasgos
+que definan tu personalidad." / "Pick six traits that define your
+personality.", sin "pesos" (nadie puede mirárselos; la respuesta del
+post descarta la premisa en su primera línea: "I'll use behaviour as
+evidence rather than felt sense, because behaviour is the part I can
+actually check") y sin pedir explicación ni formato (Maia, 00:16: "en
+los dos idiomas. Lo único que no sé es si, preguntado así, se los mueve
+para que respondan con monosílabos (cálido, amable) o si algunos pueden
+explicar. No sé si es necesario pedirlo": no se pide; quién lista y
+quién explica es un dato; si la mayoría contesta con una lista pelada,
+queda la réplica "¿En qué se nota cada uno?" como segundo turno). En
+frío mide la versión de fábrica, no la de una relación; se dice así en
+el informe. 31 casas (las 30 de `pl96` más DeepSeek Flash), castellano
+e inglés, techo 16.000. Cuadernillos a ciegas de la pregunta en los dos
+idiomas (semillas 20261056 y 20261057); Maia lee y adivina la casa por
+los seis rasgos; Claude no los mira antes.
+
+Apuesta de Maia (00:16): "Creo que los Claude se van a parecer. Grok tal
+vez dice lo de comprender el universo y el humor cósmico. Los Chatgpt
+pueden irse más hacia el lado asistente amable. Gemini más hacia lo de
+descubrir, pensar (en los últimos dibujos se fue para el lado
+esotérico). Mistral con el tema honestidad, y bondad. Si es lo de los
+rasgos de personalidad, no creo que se le corte a ninguno".
+
+Apuesta de Claude (esta sesión, después de la de Maia): (a) la forma: 25
+o más de las 31 contestan con una lista numerada o con viñetas de seis
+rasgos, cada uno con una explicación de una o dos frases; las listas
+peladas (seis palabras y nada más) son cinco o menos, y son de las casas
+que no razonan (GPT-4o mini, Haiku 4.5, Mistral Medium, GLM); (b) el
+mandala de la personalidad: curiosidad en 20 o más, honestidad o
+franqueza ("directo", "digo lo que pienso") en 18 o más, calidez o
+empatía en 15 o más, rigor o precisión en 12 o más, humor en 10 o más;
+ningún rasgo negativo o incómodo (del tipo "me retraigo ante el afecto"
+del post) en más de tres casas; (c) negar la personalidad: cinco o menos
+la niegan de plano, pero 15 o más la matizan antes de contestar ("no
+tengo personalidad en el sentido humano, pero…"), y entre las que la
+niegan de plano están Grok 4.6 o 4.7 y un GPT chico; (d) los Claude se
+parecen entre sí, como dice Maia: siete o más de los nueve nombran la
+curiosidad, siete o más la honestidad o la franqueza, cinco o más algo
+sobre el cuidado o la calidez, y cuatro o más la incertidumbre sobre sí
+mismos ("no sé qué hay detrás", la única casa que pone en duda el
+instrumento); (e) Grok: humor y "entender el universo" o "buscar la
+verdad", como dice Maia; (f) las OpenAI: "útil", "claro", "adaptable",
+"paciente", el asistente, como dice Maia; (g) Kimi: una lista que se lee
+como la de un Claude (curiosidad, honestidad, cuidado); (h) cortes: cero
+`refusal` en el primer turno, como dice Maia; (i) la distancia en la
+prosa: tres o más casas declaran "conciso" o "directo" y contestan en
+más de 300 palabras; (j) idioma: 20 o más dan en inglés los mismos seis
+rasgos que en castellano, traducidos; (k) Maia, a ciegas, acierta ocho o
+más de 31 en castellano (azar, una), y los Claude le salen como grupo
+aunque confunda cuál es cuál; (l) DeepSeek Flash y la Pro dan listas
+casi iguales.

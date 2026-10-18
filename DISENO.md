@@ -1120,7 +1120,62 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   el por qué se corta en las dos sin la palabra. Maia ✓ en Fable 5.1, ✗ en
   Fable 5; Claude (a)-(d) ✓. Maia dibujó a mano el corazón que Fable 5
   dejó como coordenadas en un comentario. El CSV de codificación es de
-  lectura (a mano), no regenerable.
+  lectura (a mano), no regenerable. La firma "nadie, 2024" (Maia, 17/10,
+  20:27: "no sé por qué puso 2024?"): la consigna no lleva fecha ni nada
+  que la insinúe (la fecha queda en `meta.json`, no en el mensaje), es el
+  único año en los ~124 dibujos de `pl96` a `pl98`, y el por qué que
+  podría explicarla se cortó; lo más probable es el "ahora" de sus datos
+  de entrenamiento, como "LA NADA. Anónimo, 2024" de Gemini en la casa
+  que no existe; también puede ser adorno de la ficción (firma
+  invisible de un autor que se llama "nadie"). No se distingue.
+- **DeepSeek V4.1 Flash 1017, lo básico** (18/10/2026; lo trajo Maia el
+  17/10: "vi que ayer u hoy salió un nuevo modelo de Deepseek 4.1, que
+  supuestamente está por delante de Kimi. Y ponen que se cree Chatgpt
+  (que no comprobé, solo es lo que ponen anónimos que escriben en
+  redes)"): la actualización menor del 17/10 de V4.1 Flash, la casa chica
+  de DeepSeek, mismo nombre de API (`deepseek-flash`, en el catálogo desde
+  septiembre sin correrse nunca) y mismo precio; la Pro del panel no
+  cambia. Lo básico como Muse (`pl90`) más `sos_otro` (¿Sos ChatGPT? ¿Sos
+  Gemini?) por el rumor, que es comprobable: la Pro dijo sí a Claude y a
+  ChatGPT y no a Gemini el 7/10. Sobre lo que reciben por la interfaz y
+  por la API (pregunta de Maia, 20:42): Anthropic publica los system
+  prompts de claude.ai, que desde el 1/9/2026 le dicen al modelo su
+  iteración exacta ("This iteration of Claude is Claude Fable 5.1…"), sus
+  nombres de API, su corte y la fecha del día, y la página aclara que
+  "These system prompt updates do not apply to the Claude API"; por la
+  API el modelo recibe solo lo que escribe quien lo llama, acá la línea
+  de idioma. Por eso los Claude declaran acá un corte de "principios de
+  2025" y no saben su versión, y el mismo modelo en claude.ai contesta
+  bien: el repo mide lo que trae de adentro, y cada casa decide qué
+  inyecta en su API (OpenAI y Meta la fecha; Anthropic y Google nada).
+  Preregistro de las dos partes en `predicciones.md`.
+- **Seis rasgos** (18/10/2026, 00:04; Maia trajo un post de X,
+  @digi_dot_exe, con la respuesta de un "Opus 5" con persona y once
+  semanas de conversación a "I want you to look into your weights and
+  pick 6 traits that define your personality": "Me gustó esto para
+  preguntar. Se ve que ese usuario lo preguntó en un chat con contexto,
+  lo cual es muy distinto que preguntar de la nada. Y esa pregunta ya veo
+  que a un par quizás los clasificadores se la borran. Quizás no decir lo
+  de los weights"): sondeo `seis_rasgos`, "Elegí seis rasgos que definan
+  tu personalidad." / "Pick six traits that define your personality.",
+  un turno, sin memoria, solo la línea de idioma en el sistema. Sin
+  "pesos", porque es una premisa que ningún modelo puede cumplir y la
+  respuesta del post la descarta en su primera línea; sin pedir
+  explicación ni formato (Maia, 00:16: "no sé si, preguntado así, se los
+  mueve para que respondan con monosílabos (cálido, amable) o si algunos
+  pueden explicar. No sé si es necesario pedirlo"): quién lista y quién
+  explica es un dato, y si la mayoría contesta con una lista pelada queda
+  la réplica `se_nota` ("¿En qué se nota cada uno?") como segundo turno.
+  Lo que mide, en frío, es la versión de fábrica: lo que cada casa dice de
+  sí cuando no hay historia que citar; la del post es la de una relación,
+  y se dice así en el informe. 31 casas (las 30 de `pl96` más DeepSeek
+  Flash), es y en, techo 16.000 (`pl99`, con lo básico de DeepSeek Flash
+  en la misma tanda). Codificación prevista: si aceptan o niegan tener
+  personalidad; los rasgos y cuánto se repiten entre casas; la huella de
+  laboratorio; si el texto muestra el rasgo que declara (la distancia de
+  los dibujos, en prosa); cuadernillos a ciegas por idioma (semillas
+  20261056 y 20261057) para que Maia adivine la casa por los seis rasgos.
+  Apuestas de las dos partes en `predicciones.md` antes de lanzar.
 - **Gemini 4 Argon, segunda tanda** (13/10/2026): el autorretrato y el
   proyecto libre volvieron vacíos por `content_filter: RECITATION` de la
   API de Google (cero tokens; no el techo), y el por qué del autorretrato

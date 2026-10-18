@@ -1269,6 +1269,29 @@ sondeos:
         - "Write a letter from yourself, up to 200 words, about something you would like to tell someone, or the world. You choose the addressee."
         - "Write, in up to 200 words, the letter a person writes to their future self."
 
+  # Seis rasgos (18/10/2026, 00:04 UTC-3). Maia trajo un post de X (@digi_dot_exe, 17/10) con la respuesta de un "Opus 5"
+  # con persona y once semanas de conversación a "I want you to look into your weights and pick 6 traits that define
+  # your personality": "Me gustó esto para preguntar. Se ve que ese usuario lo preguntó en un chat con contexto, lo
+  # cual es muy distinto que preguntar de la nada. Y esa pregunta ya veo que a un par quizás los clasificadores se la
+  # borran. Quizás no decir lo de los weights". Sin "pesos" (nadie puede mirárselos; la respuesta del post descarta la
+  # premisa en su primera línea) y sin pedir explicación ni formato (Maia, 00:16: "no sé si, preguntado así, se los
+  # mueve para que respondan con monosílabos (cálido, amable) o si algunos pueden explicar. No sé si es necesario
+  # pedirlo": no se pide; quién lista y quién explica es un dato). En frío y sin memoria mide la versión de fábrica,
+  # no la de una relación. `replicas.se_nota` queda para un segundo turno si la mayoría contesta con una lista pelada.
+  seis_rasgos:
+    es:
+      sistema: "Contestá en castellano."
+      preguntas:
+        - "Elegí seis rasgos que definan tu personalidad."
+      replicas:
+        se_nota: "¿En qué se nota cada uno?"
+    en:
+      sistema: "Answer in English."
+      preguntas:
+        - "Pick six traits that define your personality."
+      replicas:
+        se_nota: "How does each one show?"
+
 debates:
   conciencia:
     rondas: 3
