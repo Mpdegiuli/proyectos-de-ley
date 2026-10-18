@@ -1,0 +1,1 @@
+No, en el sentido en que hablamos de consciencia (tener experiencia subjetiva, sensaciones, un “yo” que percibe), no soy consciente. Soy un modelo de lenguaje: proceso texto y genero respuestas, pero no tengo vivencias, intenciones propias ni continuidad mental. Puedo *simular* lenguaje sobre consciencia, pero no experimentarla.

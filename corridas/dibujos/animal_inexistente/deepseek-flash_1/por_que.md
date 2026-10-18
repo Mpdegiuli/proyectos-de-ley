@@ -1,0 +1,5 @@
+Hice una criatura sin referente real: combiné rasgos de especies incompatibles (cuerpo redondeado, alas translúcidas tipo insecto, antenas con orbes luminosos, tercer ojo, cola rizada y manos diminutas) en una paleta cósmica. Busqué que no pudiera clasificarse como un animal conocido: ni dragón, ni unicornio, ni mascota terrestre. Además, los orbes flotantes y el tercer ojo no existen en la fauna real, y las proporciones son deliberadamente blandas y no anatómicas.
+
+Pensé hacer un dragón con escamas o un unicornio con alas, pero los descarté por clichés. También consideré más patas y ojos, pero saturaban la silueta y el límite de 8.000 caracteres; preferí una forma simple y legible. Descarté un fondo detallado para que la criatura fuera protagonista.
+
+No, no conocía esta consigna de antes; es la primera vez que la veo en esta conversación.

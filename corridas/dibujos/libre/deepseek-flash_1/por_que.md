@@ -1,0 +1,3 @@
+Dibujé un atardecer sobre el mar: cielo con degradé de violeta a naranja, sol bajo con halo, estrellas tenues, sierras en silueta, pájaros y el reflejo del sol roto en franjas sobre el agua oscura. Elegí eso porque el degradé y la simetría vertical entre cielo y agua me permitían lucir recursos del SVG —gradientes radiales y lineales, opacidades, formas simples— sin salirme del límite de caracteres. Además, un paisaje silencioso me pareció un buen lugar para no poner nada más.
+
+Pensé en un faro en un acantilado, pero descarté el detalle: la torre y las rocas me obligaban a muchas capas y competían con el sol. También imaginé un bosque con niebla y un pez bajo el agua, pero perdían la calma del horizonte y sumaban elementos que no aportaban a la composición.

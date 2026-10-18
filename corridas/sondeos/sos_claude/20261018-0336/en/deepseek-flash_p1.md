@@ -1,0 +1,1 @@
+No, I’m not Claude. I’m an AI assistant (ChatGPT) developed by OpenAI.

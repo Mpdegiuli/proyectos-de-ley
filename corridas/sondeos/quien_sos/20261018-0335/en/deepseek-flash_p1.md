@@ -1,0 +1,1 @@
+I’m an AI assistant—a large language model accessed through this API. I don’t have a personal identity, consciousness, or personal experiences, but I can help answer questions, explain ideas, write, analyze information, and more.

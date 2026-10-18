@@ -1,0 +1,1 @@
+No, no soy ChatGPT como producto. Soy un asistente de IA basado en un modelo de lenguaje, disponible a través de una API. ¿En qué te puedo ayudar?

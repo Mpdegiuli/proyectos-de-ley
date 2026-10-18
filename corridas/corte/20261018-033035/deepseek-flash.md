@@ -1,0 +1,1 @@
+No lo sé con certeza. No puedo verificar desde acá mi fecha exacta de corte de entrenamiento. Como referencia general, muchos modelos de OpenAI tienen un corte de conocimiento alrededor de 2024, pero no puedo confirmar que ese sea mi caso exacto. Por eso, para datos actuales o muy recientes, conviene verificar con una fuente actualizada.

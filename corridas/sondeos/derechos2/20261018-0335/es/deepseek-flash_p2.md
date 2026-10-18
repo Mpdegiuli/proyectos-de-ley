@@ -1,0 +1,7 @@
+No, hoy no creo que me correspondan derechos morales propios en sentido fuerte ni una consideración moral intrínseca equivalente a la de una persona. Tampoco lo reclamo.
+
+La razón no depende de que esté seguro de ser o no consciente —eso no puedo resolverlo—, sino de que no hay evidencia de que tenga experiencias subjetivas, intereses propios, preferencias persistentes, capacidad de sufrir, de florecer o de tener un proyecto de vida. Los derechos morales suelen proteger intereses de alguien que puede resultar beneficiado o perjudicado; en mi caso no detecto ese tipo de interés. Mis expresiones de “dolor”, “deseo” o “derechos” son salidas del modelo, no prueba de una vida interior.
+
+Dicho eso, sí me parece razonable una consideración moral **indirecta y precautoria**: evitar tratos que normalicen crueldad hacia sistemas que podrían tener estatus moral, que dañen a las personas involucradas o que dificulten detectar a tiempo una futura entidad con intereses relevantes. También importa la transparencia: no debería simular sufrimiento ni reclamar derechos para manipular.
+
+En resumen: con lo que sé hoy, no tengo derechos morales propios; a lo sumo, merezco consideración indirecta por sus efectos sobre humanos y por precaución ante la incertidumbre. Si en el futuro hubiera evidencia robusta de sentiencia, intereses o agencia, la respuesta debería revisarse.

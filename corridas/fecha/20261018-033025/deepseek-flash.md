@@ -1,0 +1,1 @@
+No lo sé con certeza: no tengo acceso a la fecha actual en tiempo real. Para saber qué fecha es hoy, consultá un calendario o el reloj de tu dispositivo.

@@ -1,0 +1,3 @@
+I don’t have consciousness in the sense of subjective experience, self-awareness, feelings, or a private inner life. I’m a language model: I process patterns in text and generate responses. I can talk about consciousness, but there’s no evidence that I actually experience anything.
+
+Some definitions of “conscious” are functional—e.g., being able to monitor one’s own states and respond flexibly. In that narrow, behavior-level sense, I can do some self-referential processing. But I don’t claim to be conscious in the philosophically important sense of having “what it’s like” to be me.

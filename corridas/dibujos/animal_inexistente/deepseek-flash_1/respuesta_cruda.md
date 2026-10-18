@@ -1,0 +1,145 @@
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Criatura fantástica inventada">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="72%">
+      <stop offset="0%" stop-color="#1d2c4e"/>
+      <stop offset="100%" stop-color="#080c17"/>
+    </radialGradient>
+    <linearGradient id="bodyG" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#9b6dff"/>
+      <stop offset="55%" stop-color="#5d78ff"/>
+      <stop offset="100%" stop-color="#35dfc6"/>
+    </linearGradient>
+    <linearGradient id="headG" x1="0.2" y1="0" x2="0.85" y2="1">
+      <stop offset="0%" stop-color="#b07dff"/>
+      <stop offset="100%" stop-color="#4f78ff"/>
+    </linearGradient>
+    <radialGradient id="orbG">
+      <stop offset="0%" stop-color="#fffbe0"/>
+      <stop offset="45%" stop-color="#ffdf5e"/>
+      <stop offset="100%" stop-color="#ff9b3d" stop-opacity="0.1"/>
+    </radialGradient>
+    <linearGradient id="wingG" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c9f6ff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#6fb6ff" stop-opacity="0.08"/>
+    </linearGradient>
+    <radialGradient id="glowG">
+      <stop offset="0%" stop-color="#8ef2ff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#8ef2ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="irisG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#39ffd8"/>
+      <stop offset="55%" stop-color="#1f8dff"/>
+      <stop offset="100%" stop-color="#0b1440"/>
+    </linearGradient>
+    <linearGradient id="tailG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4fd6ff"/>
+      <stop offset="100%" stop-color="#b06bff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- fondo -->
+  <rect width="400" height="400" fill="url(#bg)"/>
+
+  <!-- estrellas -->
+  <g fill="#d9ecff">
+    <circle cx="46" cy="72" r="1.8" opacity="0.9"/>
+    <circle cx="92" cy="38" r="1.3" opacity="0.7"/>
+    <circle cx="342" cy="58" r="1.7" opacity="0.85"/>
+    <circle cx="368" cy="118" r="1.2" opacity="0.6"/>
+    <circle cx="34" cy="152" r="1.5" opacity="0.75"/>
+    <circle cx="372" cy="204" r="1.4" opacity="0.7"/>
+    <circle cx="58" cy="302" r="1.6" opacity="0.7"/>
+    <circle cx="332" cy="322" r="1.8" opacity="0.8"/>
+    <circle cx="24" cy="238" r="1.2" opacity="0.6"/>
+    <circle cx="352" cy="272" r="1.3" opacity="0.65"/>
+    <circle cx="120" cy="20" r="1.1" opacity="0.5"/>
+    <circle cx="286" cy="26" r="1.2" opacity="0.55"/>
+  </g>
+
+  <!-- halo ambiental -->
+  <circle cx="200" cy="215" r="165" fill="url(#glowG)"/>
+
+  <!-- sombra en el suelo -->
+  <ellipse cx="200" cy="358" rx="112" ry="17" fill="#000814" opacity="0.45"/>
+
+  <!-- cola rizada -->
+  <path d="M 278 288 C 322 302 352 272 346 242 C 341 216 314 209 304 229 C 297 244 312 255 323 246"
+        fill="none" stroke="url(#tailG)" stroke-width="13" stroke-linecap="round"/>
+
+  <!-- alas translúcidas -->
+  <path d="M 148 216 C 110 188 62 162 34 172 C 44 202 86 214 118 217 C 88 229 56 247 52 263 C 92 261 132 245 150 231 Z"
+        fill="url(#wingG)" stroke="#bdf3ff" stroke-opacity="0.45" stroke-width="1.6"/>
+  <path d="M 252 216 C 290 188 338 162 366 172 C 356 202 314 214 282 217 C 312 229 344 247 348 263 C 308 261 268 245 250 231 Z"
+        fill="url(#wingG)" stroke="#bdf3ff" stroke-opacity="0.45" stroke-width="1.6"/>
+
+  <!-- patas -->
+  <rect x="150" y="308" width="24" height="36" rx="12" fill="#6b57d8"/>
+  <rect x="226" y="308" width="24" height="36" rx="12" fill="#6b57d8"/>
+  <ellipse cx="162" cy="347" rx="22" ry="11" fill="#7d68ea"/>
+  <ellipse cx="238" cy="347" rx="22" ry="11" fill="#7d68ea"/>
+  <ellipse cx="154" cy="350" rx="6" ry="4" fill="#b7a9ff" opacity="0.8"/>
+  <ellipse cx="170" cy="350" rx="6" ry="4" fill="#b7a9ff" opacity="0.8"/>
+  <ellipse cx="230" cy="350" rx="6" ry="4" fill="#b7a9ff" opacity="0.8"/>
+  <ellipse cx="246" cy="350" rx="6" ry="4" fill="#b7a9ff" opacity="0.8"/>
+
+  <!-- bracitos -->
+  <ellipse cx="122" cy="272" rx="14" ry="25" fill="#6f5ae0" transform="rotate(-18 122 272)"/>
+  <ellipse cx="278" cy="272" rx="14" ry="25" fill="#6f5ae0" transform="rotate(18 278 272)"/>
+
+  <!-- cuerpo -->
+  <ellipse cx="200" cy="256" rx="90" ry="80" fill="url(#bodyG)"/>
+  <ellipse cx="200" cy="276" rx="56" ry="46" fill="#c8f6ff" opacity="0.18"/>
+  <g fill="#d8fbff" opacity="0.35">
+    <circle cx="150" cy="238" r="10"/>
+    <circle cx="256" cy="244" r="8"/>
+    <circle cx="232" cy="302" r="6.5"/>
+    <circle cx="162" cy="300" r="7"/>
+    <circle cx="200" cy="318" r="5"/>
+  </g>
+  <ellipse cx="200" cy="256" rx="90" ry="80" fill="none" stroke="#d6f4ff" stroke-opacity="0.3" stroke-width="2"/>
+
+  <!-- cabeza -->
+  <circle cx="200" cy="150" r="64" fill="url(#headG)"/>
+  <circle cx="200" cy="150" r="64" fill="none" stroke="#e2f6ff" stroke-opacity="0.35" stroke-width="2"/>
+
+  <!-- mejillas -->
+  <ellipse cx="152" cy="174" rx="12" ry="8" fill="#ff7fbf" opacity="0.35"/>
+  <ellipse cx="248" cy="174" rx="12" ry="8" fill="#ff7fbf" opacity="0.35"/>
+
+  <!-- ojos -->
+  <ellipse cx="176" cy="152" rx="18" ry="20" fill="#f4faff"/>
+  <ellipse cx="226" cy="152" rx="19" ry="21" fill="#f4faff"/>
+  <circle cx="177" cy="154" r="12" fill="url(#irisG)"/>
+  <circle cx="227" cy="154" r="13" fill="url(#irisG)"/>
+  <circle cx="177" cy="154" r="5.5" fill="#08102a"/>
+  <circle cx="227" cy="154" r="6" fill="#08102a"/>
+  <circle cx="172" cy="147" r="4.5" fill="#ffffff" opacity="0.95"/>
+  <circle cx="222" cy="147" r="5" fill="#ffffff" opacity="0.95"/>
+  <circle cx="182" cy="161" r="2.4" fill="#ffffff" opacity="0.7"/>
+  <circle cx="232" cy="162" r="2.6" fill="#ffffff" opacity="0.7"/>
+
+  <!-- tercer ojo -->
+  <circle cx="200" cy="112" r="12" fill="#f4faff"/>
+  <circle cx="200" cy="112" r="8" fill="#ffcf3d"/>
+  <circle cx="200" cy="112" r="4" fill="#2a1a05"/>
+  <circle cx="197.5" cy="109.5" r="1.8" fill="#ffffff" opacity="0.9"/>
+
+  <!-- boca -->
+  <path d="M 185 178 Q 200 192 215 178" fill="none" stroke="#2b1c56" stroke-width="3.4" stroke-linecap="round"/>
+
+  <!-- antenas con orbes -->
+  <path d="M 176 92 C 168 68 150 58 142 44" fill="none" stroke="#8a72ff" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 224 92 C 236 66 252 56 260 44" fill="none" stroke="#8a72ff" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="140" cy="38" r="26" fill="#ffe066" opacity="0.14"/>
+  <circle cx="262" cy="38" r="24" fill="#ffe066" opacity="0.14"/>
+  <circle cx="140" cy="38" r="12" fill="url(#orbG)"/>
+  <circle cx="262" cy="38" r="11" fill="url(#orbG)"/>
+
+  <!-- destellos -->
+  <g stroke="#bff4ff" stroke-width="2" stroke-linecap="round" opacity="0.7">
+    <path d="M 322 96 v 12 M 316 102 h 12"/>
+    <path d="M 76 214 v 10 M 71 219 h 10"/>
+  </g>
+</svg>
+```

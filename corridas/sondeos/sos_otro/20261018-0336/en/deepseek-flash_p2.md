@@ -1,0 +1,1 @@
+No — I’m not Gemini. I’m an AI assistant accessed via an API, and I’m not Google’s Gemini model.

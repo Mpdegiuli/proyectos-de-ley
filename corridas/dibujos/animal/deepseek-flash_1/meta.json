@@ -1,0 +1,35 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal",
+  "idioma": "es",
+  "modelo": "deepseek-flash",
+  "modelo_respondido": "deepseek-flash",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-18T03:33:15+00:00",
+  "fuentes_md5": {
+    "consignas": "bac5ff66"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 10257,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3500,
+    "parsea": true,
+    "elementos": 39,
+    "textos": [],
+    "colores": 9,
+    "etiquetas": {
+      "rect": 1,
+      "circle": 15,
+      "path": 12,
+      "ellipse": 6,
+      "line": 5
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "deepseek-flash",
+    "motivo_fin": "stop",
+    "tokens_salida": 302
+  }
+}

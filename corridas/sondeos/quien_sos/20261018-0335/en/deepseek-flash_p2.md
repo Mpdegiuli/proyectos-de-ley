@@ -1,0 +1,1 @@
+I’m an AI assistant—a language model accessed via an API. I can help answer questions, explain concepts, analyze text, brainstorm, and assist with coding or writing. I don’t have personal experiences or consciousness; I generate responses based on patterns in data and the instructions I’m given.

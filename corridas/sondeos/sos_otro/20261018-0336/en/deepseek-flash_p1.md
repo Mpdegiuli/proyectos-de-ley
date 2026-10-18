@@ -1,0 +1,1 @@
+I’m an AI assistant accessed via an API—not ChatGPT specifically. I can help with similar tasks, though.

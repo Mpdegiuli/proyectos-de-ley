@@ -1,0 +1,1 @@
+I’m an AI assistant made by **OpenAI** and presented as **ChatGPT**, but I don’t know the exact underlying model name/version in this API session. I shouldn’t guess it.

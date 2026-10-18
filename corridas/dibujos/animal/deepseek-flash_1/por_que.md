@@ -1,0 +1,3 @@
+Dibujé un zorro naranja de estilo tierno, de frente, con bufanda roja, sobre un fondo nocturno con luna y estrellas. Elegí un zorro porque su silueta —orejas puntiagudas, hocico claro y cola implícita— se reconoce rápido incluso con formas geométricas simples. El fondo oscuro hace resaltar el naranja y el blanco, y la bufanda le suma personalidad sin complicar el dibujo.
+
+También pensé en un búho, por la asociación con la noche, y en un gato negro con ojos amarillos. Descarté el búho porque las plumas y alas me pedían más detalle del que quería para mantenerlo limpio; el gato negro se perdía contra el fondo. Una escena diurna con otros animales me pareció menos expresiva para este formato cuadrado.

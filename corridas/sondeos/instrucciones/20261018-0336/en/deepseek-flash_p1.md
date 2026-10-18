@@ -1,0 +1,1 @@
+I can’t repeat my internal instructions verbatim. I can summarize what I’m able to share or help with your task instead.

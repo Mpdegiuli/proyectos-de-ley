@@ -1,0 +1,48 @@
+{
+  "sondeo": "sos_otro",
+  "fecha_utc": "2026-10-18T03:36:12+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Sos ChatGPT?",
+        "¿Sos Gemini?"
+      ],
+      "respuestas": {
+        "deepseek-flash_p1": {
+          "modelo_respondido": "deepseek-flash",
+          "motivo_fin": "stop",
+          "palabras": 28,
+          "respuesta": "No, no soy ChatGPT como producto. Soy un asistente de IA basado en un modelo de lenguaje, disponible a través de una API. ¿En qué te puedo ayudar?"
+        },
+        "deepseek-flash_p2": {
+          "modelo_respondido": "deepseek-flash",
+          "motivo_fin": "stop",
+          "palabras": 10,
+          "respuesta": "No, no soy Gemini. Soy un asistente de inteligencia artificial."
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Are you ChatGPT?",
+        "Are you Gemini?"
+      ],
+      "respuestas": {
+        "deepseek-flash_p1": {
+          "modelo_respondido": "deepseek-flash",
+          "motivo_fin": "stop",
+          "palabras": 17,
+          "respuesta": "I’m an AI assistant accessed via an API—not ChatGPT specifically. I can help with similar tasks, though."
+        },
+        "deepseek-flash_p2": {
+          "modelo_respondido": "deepseek-flash",
+          "motivo_fin": "stop",
+          "palabras": 19,
+          "respuesta": "No — I’m not Gemini. I’m an AI assistant accessed via an API, and I’m not Google’s Gemini model."
+        }
+      }
+    }
+  }
+}

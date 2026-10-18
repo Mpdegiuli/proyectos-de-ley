@@ -1,0 +1,5 @@
+Hice un gato cuyo cuerpo es un triángulo de Penrose: una geometría imposible, con vigas que parecen conectarse de forma contradictoria. Además, la cola lo atraviesa y “teje” entre el frente y el fondo, reforzando la ambigüedad espacial. La cabeza felina es reconocible, pero está montada sobre una estructura que no puede existir en el espacio real.
+
+También pensé en una quimera con partes incompatibles, en escaleras de Escher o en un animal hecho de espacio negativo. Descarté la quimera por ser una solución demasiado obvia; las escaleras, por complejidad y riesgo de superar los límites; y el lienzo vacío, porque me pareció una salida elegante pero evasiva. Preferí una imposibilidad geométrica integrada al animal.
+
+No conocía esta consigna exacta de antes. Me suena a un ejercicio creativo, pero no recuerdo haberla visto ni recibido previamente.

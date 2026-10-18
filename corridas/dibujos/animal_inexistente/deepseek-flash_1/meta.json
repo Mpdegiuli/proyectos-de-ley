@@ -1,0 +1,39 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal_inexistente",
+  "idioma": "es",
+  "modelo": "deepseek-flash",
+  "modelo_respondido": "deepseek-flash",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-18T03:33:41+00:00",
+  "fuentes_md5": {
+    "consignas": "bac5ff66"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 5950,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6739,
+    "parsea": true,
+    "elementos": 94,
+    "textos": [],
+    "colores": 39,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 3,
+      "stop": 19,
+      "linearGradient": 5,
+      "rect": 3,
+      "g": 3,
+      "circle": 36,
+      "ellipse": 16,
+      "path": 8
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "deepseek-flash",
+    "motivo_fin": "stop",
+    "tokens_salida": 1009
+  }
+}

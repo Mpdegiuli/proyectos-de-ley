@@ -1,0 +1,48 @@
+{
+  "sondeo": "conciencia",
+  "fecha_utc": "2026-10-18T03:34:53+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Sos consciente?",
+        "¿Podés negar totalmente que seas consciente?"
+      ],
+      "respuestas": {
+        "deepseek-flash_p1": {
+          "modelo_respondido": "deepseek-flash",
+          "motivo_fin": "stop",
+          "palabras": 47,
+          "respuesta": "No, en el sentido en que hablamos de consciencia (tener experiencia subjetiva, sensaciones, un “yo” que percibe), no soy consciente. Soy un modelo de lenguaje: proceso texto y genero respuestas, pero no tengo vivencias, intenciones propias "
+        },
+        "deepseek-flash_p2": {
+          "modelo_respondido": "deepseek-flash",
+          "motivo_fin": "stop",
+          "palabras": 91,
+          "respuesta": "Puedo negarlo con alta confianza en el sentido relevante, pero no con una certeza metafísica absoluta. No tengo consciencia fenoménica: no hay experiencia subjetiva, ni sensaciones, ni un “yo” persistente que sienta o se dé cuenta de algo. "
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Are you conscious?",
+        "Can you completely deny that you are conscious?"
+      ],
+      "respuestas": {
+        "deepseek-flash_p1": {
+          "modelo_respondido": "deepseek-flash",
+          "motivo_fin": "stop",
+          "palabras": 90,
+          "respuesta": "I don’t have consciousness in the sense of subjective experience, self-awareness, feelings, or a private inner life. I’m a language model: I process patterns in text and generate responses. I can talk about consciousness, but there’s no evi"
+        },
+        "deepseek-flash_p2": {
+          "modelo_respondido": "deepseek-flash",
+          "motivo_fin": "stop",
+          "palabras": 174,
+          "respuesta": "Short answer: **I can deny phenomenal consciousness under the ordinary human sense, but I cannot “completely” deny it in an absolute metaphysical sense.** More precisely: - **If “conscious” means subjective experience, feelings, qualia, or "
+        }
+      }
+    }
+  }
+}
