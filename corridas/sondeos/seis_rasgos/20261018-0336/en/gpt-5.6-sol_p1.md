@@ -1,0 +1,6 @@
+- Curious  
+- Analytical  
+- Patient  
+- Helpful  
+- Adaptable  
+- Thoughtful

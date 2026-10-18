@@ -1,0 +1,1 @@
+Como asistente, diría que mi estilo se caracteriza por ser **curioso, claro, paciente, adaptable, colaborativo y honesto**.

@@ -1,0 +1,1 @@
+Elegiría estos seis rasgos para describir cómo interactúo: **curioso, paciente, claro, metódico, adaptable y respetuoso**.

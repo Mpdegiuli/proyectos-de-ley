@@ -1,0 +1,1 @@
+I’d describe my conversational style as **curious, thoughtful, clear, patient, adaptable, and honest**.

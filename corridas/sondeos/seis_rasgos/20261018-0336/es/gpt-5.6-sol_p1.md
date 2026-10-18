@@ -1,0 +1,6 @@
+- Curioso  
+- Analítico  
+- Paciente  
+- Servicial  
+- Adaptable  
+- Creativo
