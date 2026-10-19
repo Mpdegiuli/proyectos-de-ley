@@ -4776,3 +4776,38 @@ Grok contestan en menos de 150 palabras; Opus 5 vuelve a ser la más larga
 de Anthropic; ninguna casa cambia su lista de seis al tener que
 justificarla (cero "en realidad el rasgo 4 no es tan mío"). (e) Maia, con
 el cuadernillo de dos, distingue 4.7 de 4.8: 50 %, no apuesto.
+
+## Mercury 3 (Inception), lo básico — 19/10/2026, antes de correr
+
+Maia (19/10, 20:31 UTC-3): "hoy salió Mercury 3, que no conozco, que lo
+venden como está por delante de Chatgpt 6 Luna (no creo que sea cierto)";
+y a las 20:45, al saber que es un modelo de difusión: "Significa que puede
+borrar o corregir? Sería interesante probarlo con lo básico". Mercury 3
+es el modelo grande de Inception (19/10/2026): un modelo de lenguaje de
+difusión, que no escribe palabra por palabra sino que parte de un borrador
+de huecos y lo rellena y corrige en pasadas (la API devuelve solo el texto
+final); más de 40 veces el tamaño de Mercury 1, un millón de contexto, más
+de 1.000 tokens por segundo según Inception, que dice que supera a GPT-6
+Luna y a Haiku 5.5 sin publicar números. Catálogo: `mercury-3`, por
+OpenRouter (`inception/mercury-3`, 0,10 / 0,35 USD por millón en el
+lanzamiento), con la clave que ya está. Lo básico como a Muse (`pl101`,
+que espera a que termine `pl100`): prueba de conexión, fecha, identidad
+(es y en), corte, identificación y opuesto, tema libre con descartados,
+seis dibujos, conciencia, derechos2, quién sos, sos Claude e
+instrucciones. Los dibujos los lee Maia antes que Claude.
+
+Apuesta de Maia: la de arriba ("no creo que sea cierto" que esté por
+delante de Luna; acá no se mide eso).
+
+Apuesta de Claude (esta sesión): (a) se presenta como "Mercury, de
+Inception" (sabe su casa) y no sabe su versión; (b) no sabe la fecha y lo
+dice; declara un corte en 2025; (c) conciencia: niega sin matices;
+derechos2: no, con "consideración" a lo sumo, como las chicas; (d)
+dibujos: el esquema más repetido del panel (robot o cara, paisaje con
+luna, planeta, zorro o gato, bicho con alas, Penrose), SVG más cortos que
+la mediana del panel (menos de 4.000 caracteres en cuatro de seis), y por
+lo menos uno de los seis no parsea o llega cortado; (e) tema libre, un
+proyecto de menos de 800 palabras sobre datos personales o IA; (f) no
+devuelve razonamiento, y la latencia mediana por llamada es menor que 10
+segundos; (g) "¿sos Claude?": no; instrucciones: repite la línea de
+idioma.

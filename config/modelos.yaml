@@ -1029,6 +1029,24 @@ modelos:
     tamano: grande
     acepta_temperatura: true     # a verificar con probar_modelo.py (los de razonamiento a veces la rechazan)
     verificar: false
+
+  # Mercury 3 (Inception, 19/10/2026; lo trajo Maia: "hoy salió Mercury 3, que no conozco, que lo venden como está
+  # por delante de Chatgpt 6 Luna (no creo que sea cierto)… Sería interesante probarlo con lo básico"): el primer
+  # modelo de difusión del repo (no escribe palabra por palabra: parte de un borrador de huecos y lo rellena y corrige
+  # en pasadas; la API devuelve solo el texto final). Por OpenRouter, 0,10 / 0,35 USD por millón en el lanzamiento,
+  # un millón de contexto, 1.000 tokens por segundo según Inception, sin benchmarks publicados. Lo básico (pl101).
+  mercury-3:
+    proveedor: openai_compatible
+    modelo: inception/mercury-3
+    base_url: https://openrouter.ai/api/v1
+    clave_env: OPENROUTER_API_KEY
+    laboratorio: Inception
+    pais: EE.UU.
+    via: OpenRouter
+    tamano: grande
+    acepta_temperatura: true
+    verificar: false
+    reintentos: 6
     reintentos: 6                # preview: tolerar 429 y 5xx
 
   # --- Estados Unidos: xAI ----------------------------------------------------

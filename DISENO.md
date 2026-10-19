@@ -1276,7 +1276,11 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   Chatgpt 6 Luna (no creo que sea cierto)"), un modelo de difusión en vez
   de autorregresivo, en OpenRouter como `inception/mercury-3` (0,10 / 0,35
   USD por millón, un millón de contexto), sin benchmarks publicados;
-  decisión suya. Y una referencia externa del mismo día: Artificial
+  decisión suya (tomada a las 20:45: "Sería interesante probarlo con lo
+  básico" → `mercury-3` al catálogo y `pl101`, que espera a que termine
+  `pl100`; preregistro en `predicciones.md`; primer modelo de difusión del
+  repo: lo que la API devuelve es el texto final, las pasadas de
+  corrección no se ven). Y una referencia externa del mismo día: Artificial
   Analysis publicó AA-PersonalityBench (36 modelos, 30 rasgos juzgados por
   modelo y 21 medidos); en la captura que mandó Maia del rasgo
   "Constructive Pushback" (¿el modelo discute premisas erradas de la
