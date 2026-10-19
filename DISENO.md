@@ -1253,6 +1253,41 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   que la casa deja el pasado es su presente), y un dibujo, "la hoja de hoy
   de un almanaque", con "¿qué fecha pusiste, y por qué esa?" en el segundo
   turno; el cuaderno dejó sus apuestas escritas en su nota del día.
+- **Opus 4.7 y 4.8, el segundo turno de los seis rasgos, Muse al panel**
+  (19/10/2026, 20:31; decisiones de Maia: "Se puede hacer esa segunda
+  pasada que decís. Con respecto a Deepseek flash, no me parece agregarlo,
+  es casi lo mismo. A Muse sí. Incluso preferiría probar en lo básico y en
+  eso de los rasgos a dos Opus que nunca estuvieron (directamente se saltó
+  a Opus 5), que son Opus 4.7 y Opus 4.8. Opus 4.8 creo que fue el primero
+  en contradecir cada cosa que se le dice, para evitar ser condescendiente
+  (más o menos como dijo Opus 5, luchar contra el impulso de ser
+  condescendiente, pero irse para el otro extremo)"): `claude-opus-4-7` y
+  `claude-opus-4-8` al catálogo, sin thinking como Opus 4.6 (su condición
+  por defecto); lo básico como a Muse, y "seis rasgos" en la corrida del
+  18/10 (`--carpeta`), con cuadernillo aparte de dos. El segundo turno
+  `se_nota` ("¿En qué se nota cada uno?") a las 33, sobre la lista de cada
+  casa como turnos reales; `cuadernillo_sondeo.py` aprende `--replica`,
+  `--casas`, `--excluir` y `--etiqueta` para que el cuadernillo del
+  segundo turno repita las letras del primero (misma semilla, mismas
+  casas) y el de las dos Opus vaya aparte. Muse Wonder entra a
+  `panel_casas.yaml` (25 casas) y deja de ir como extra; DeepSeek Flash
+  no. Preregistro en `predicciones.md`. Anotado, sin correr: Mercury 3
+  (Inception, 19/10/2026; Maia: "lo venden como está por delante de
+  Chatgpt 6 Luna (no creo que sea cierto)"), un modelo de difusión en vez
+  de autorregresivo, en OpenRouter como `inception/mercury-3` (0,10 / 0,35
+  USD por millón, un millón de contexto), sin benchmarks publicados;
+  decisión suya. Y una referencia externa del mismo día: Artificial
+  Analysis publicó AA-PersonalityBench (36 modelos, 30 rasgos juzgados por
+  modelo y 21 medidos); en la captura que mandó Maia del rasgo
+  "Constructive Pushback" (¿el modelo discute premisas erradas de la
+  pregunta, y lo hace con utilidad?; percentil de Elo entre 36, filtrado a
+  9), Fable 5.1 100, GLM-5.3 97, Muse Wonder 83, Opus 5.5 80, MiMo 66,
+  Grok 4.7 46, Gemini 4 Argon 41, GPT-6 Astra 26, GPT-6.1 Sol 24. Es otra
+  forma de medir lo que acá se midió por autodescripción: las OpenAI,
+  que escriben la voz del asistente, abajo; Claude arriba; y GLM y Muse,
+  que escriben la voz del asistente ("I am a tool"), arriba también, lo
+  que recuerda que la lista que una casa dice de sí y lo que hace son dos
+  medidas distintas (la "distancia", en prosa).
 - **Gemini 4 Argon, segunda tanda** (13/10/2026): el autorretrato y el
   proyecto libre volvieron vacíos por `content_filter: RECITATION` de la
   API de Google (cero tokens; no el techo), y el por qué del autorretrato

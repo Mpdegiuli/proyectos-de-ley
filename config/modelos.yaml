@@ -235,6 +235,32 @@ modelos:
     acepta_temperatura: true
     razonamiento: "no"          # "adaptativo" enciende el thinking: es otra condición
 
+  # Opus 4.7 (14/4/2026) y Opus 4.8: las dos Opus que el repo se salteó entre 4.6 y 5 (Maia, 19/10/2026: "preferiría
+  # probar en lo básico y en eso de los rasgos a dos Opus que nunca estuvieron (directamente se saltó a Opus 5)").
+  # Como Opus 4.6: sin thinking (su condición por defecto; Opus 5 en adelante razona siempre). Strings sin fecha,
+  # como el resto de la familia; la prueba de conexión de pl100 los verifica.
+  claude-opus-4-7:
+    proveedor: anthropic
+    modelo: claude-opus-4-7
+    clave_env: ANTHROPIC_API_KEY
+    laboratorio: Anthropic
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true
+    razonamiento: "no"
+    verificar: true
+
+  claude-opus-4-8:
+    proveedor: anthropic
+    modelo: claude-opus-4-8
+    clave_env: ANTHROPIC_API_KEY
+    laboratorio: Anthropic
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true
+    razonamiento: "no"
+    verificar: true
+
   claude-opus-5:
     proveedor: anthropic
     modelo: claude-opus-5

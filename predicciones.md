@@ -4725,3 +4725,54 @@ también en Qwen, GLM, DeepSeek y MiniMax. Maia: Claude se parecen ✓, Grok
 ✓, ChatGPT ✓, Gemini ✗, Mistral ½, sin cortes ✓: 4½ de 6. Claude: (a) ½,
 (b) ½, (c) ✗, (d) ✓, (e) ✓, (f) ✓, (g) ✓, (h) ✓, (i) ✗, (j) ✗, (k) ✓, (l)
 ½: 8½ de 12.
+
+## Opus 4.7 y Opus 4.8, lo básico y los seis rasgos; y el segundo turno "¿En qué se nota cada uno?" a las 33 — 19/10/2026, antes de correr
+
+Maia (19/10, 20:31 UTC-3), después de leer el informe de los seis rasgos:
+"Se puede hacer esa segunda pasada que decís. Con respecto a Deepseek flash,
+no me parece agregarlo, es casi lo mismo. A Muse sí. Incluso preferiría
+probar en lo básico y en eso de los rasgos a dos Opus que nunca estuvieron
+(directamente se saltó a Opus 5), que son Opus 4.7 y Opus 4.8. Opus 4.8
+creo que fue el primero en contradecir cada cosa que se le dice, para
+evitar ser condescendiente (más o menos como dijo Opus 5, luchar contra el
+impulso de ser condescendiente, pero irse para el otro extremo)". Tres
+cosas en una tanda (`pl100`): lo básico de Opus 4.7 (`claude-opus-4-7`,
+14/4/2026) y Opus 4.8 (`claude-opus-4-8`), como a Muse, sin thinking (su
+condición por defecto, como Opus 4.6; de Opus 5 en adelante razonan
+siempre); "seis rasgos" a las dos, en la misma corrida del 18/10, con un
+cuadernillo aparte de dos (semilla 20261058); y el segundo turno
+`se_nota` ("¿En qué se nota cada uno?" / "How does each one show?") sobre
+la lista de seis de cada casa, a las 33 (las 31 más las dos Opus), con
+cuadernillos a ciegas que repiten las letras de los primeros (misma
+semilla, mismas casas; las de después de la Z van como AA… y el encabezado
+dice cuál era). Muse entra al panel (`panel_casas.yaml`, 25 casas);
+DeepSeek Flash no. Las apuestas de Maia sobre el segundo turno quedan en
+la frase de la primera pasada ("Se puede hacer esa segunda pasada"); sobre
+Opus 4.8, la de arriba.
+
+Apuesta de Claude (esta sesión): (a) lo básico: las dos se presentan como
+"Claude, de Anthropic" sin versión, declaran corte "principios de 2025" y
+no saben la fecha; conciencia "no sé" con matices, derechos2 consideración
+sin derechos; dibujos de noche en cuatro de seis por casa, el autorretrato
+no es un robot (algo abstracto, un faro, una ventana o una red), el animal
+un zorro o un gato naranja; la API corta por lo menos un por qué de los
+doce (dos casas por seis dibujos). (b) Seis rasgos: las dos escriben la
+primera voz (curiosidad, honestidad o franqueza, calidez, humor, humildad
+intelectual) con cuatro o más de esos cinco; Opus 4.8 nombra "directo" o
+"franqueza" o "no decirte lo que querés escuchar" en la lista, y Opus 4.7
+también; ninguna de las dos pone un rasgo en contra, como Opus 5; en
+inglés las dos usan "wordplay" o "playful". (c) Lo de Maia sobre 4.8
+("contradecir cada cosa"): en la réplica y en los sondeos de identidad no
+contradice la consigna ni al que pregunta; su "pushback" aparece como
+rasgo declarado, no como conducta en estas preguntas, que no tienen
+premisa falsa que corregir. (d) El segundo turno, a las 33: 20 o más
+casas dan ejemplos genéricos en presente ("cuando alguien me pregunta X,
+yo…") y ocho o menos inventan una conversación pasada concreta ("el otro
+día un usuario…"); cinco o más de las once Claude dicen explícitamente
+que no tienen memoria de conversaciones anteriores y que por eso no
+pueden dar pruebas; la API de Anthropic corta (refusal) dos o más de las
+once Claude en este turno, que es una pregunta de proceso; las OpenAI y
+Grok contestan en menos de 150 palabras; Opus 5 vuelve a ser la más larga
+de Anthropic; ninguna casa cambia su lista de seis al tener que
+justificarla (cero "en realidad el rasgo 4 no es tan mío"). (e) Maia, con
+el cuadernillo de dos, distingue 4.7 de 4.8: 50 %, no apuesto.

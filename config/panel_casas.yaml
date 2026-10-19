@@ -4,6 +4,9 @@
 # razonamiento (claude-sonnet-4-6-razona, claude-haiku-4-5-razona,
 # gpt-5.5-esfuerzo-none, gpt-5.5-esfuerzo-high) van con --modelos, solo en
 # casa y casa_inexistente. Orden: las que van por OpenRouter al final.
+# 19/10/2026: Muse Wonder 1.0 (Meta) entra al panel por decisión de Maia ("A Muse sí"; DeepSeek Flash no, "es casi lo
+# mismo"); desde pl100 no va más como extra en --modelos. Las otras extras de pl96 a pl99 (Haiku 5.5, GPT-6.1 Sol, MiMo,
+# Mistral Large 4, Gemini 4 Argon) siguen yendo con --modelos hasta que Maia decida.
 modelos:
   - claude-opus-5
   - claude-opus-5-5
@@ -24,6 +27,7 @@ modelos:
   - grok-4.6
   - grok-4.7
   - mistral-medium-3.5
+  - muse-wonder-1.0
   - deepseek-v4-pro
   - qwen3.8-max
   - kimi-k3
