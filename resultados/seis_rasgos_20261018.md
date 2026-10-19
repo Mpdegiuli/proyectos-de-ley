@@ -192,7 +192,21 @@ Maia, sin la clave, escribió en la letra de Opus 5 en castellano "Con eso de
 que le resulta desagradable adular, y lo de los matices puede ser Claude
 Opus 5 (al menos así es Opus 5)", y en la de inglés "Se parece a Claude
 Opus 5". Un solo candidato en cada idioma, entre 31 casas, y las dos veces
-era. "Escribe como Opus 5. Si no es, es alguno que escribe como Opus".
+era. "Escribe como Opus 5. Si no es, es alguno que escribe como Opus". Con
+la clave abierta explicó por dónde: "ni pensé en lo de x con Opus 5, si no
+en su forma de escribir. En inglés se nota más, es el único de los Claude
+que escribe con lenguaje complicado, con palabras 'difíciles' (no me
+molesta a mí, pero hay que prestar mucha más atención al leer, Fables son
+más sencillos para escribir). Y que es demasiado crítico de sí mismo". Lo
+segundo está en el texto; lo primero, medido, no son las palabras: por
+frecuencia de uso, Opus 5 tiene menos palabras raras que Fable 5, Sonnet 5
+o Fable 5.1 (3,7 % contra 6,4, 5,3 y 4,9 % de palabras con frecuencia Zipf
+menor que 3,5), y las suyas son sustantivos abstractos (agreeableness,
+candor, equanimity, introspection, scrupulousness, vagueness) donde las
+otras ponen cosas (sourdough, mush, saccharine, wordplay). Lo que hay que
+leer con más atención son las oraciones: 20 palabras por oración contra 9
+a 11 en las otras Claude, y el texto más largo del idioma después de Gemini
+4. Es sintaxis y abstracción, no vocabulario.
 
 ## Idioma: siete casas repiten cinco rasgos o más
 

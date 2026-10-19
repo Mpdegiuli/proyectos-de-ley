@@ -1221,12 +1221,38 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   calibración sobre sí, desagrado por adular) y no lo que da una historia.
   Lectura de Maia: 13 de 31 en castellano (p = 0,0005) y 18 de 31 en inglés
   (p < 0,0001), su mejor lectura; Opus 5 con un solo candidato en los dos
-  idiomas; Kimi como Claude otra vez; la segunda voz leída como ChatGPT en
-  las chinas también. Maia 4½ de 6 (Gemini ✗: herramienta, no "descubrir,
+  idiomas ("es el único de los Claude que escribe con lenguaje complicado…
+  Y que es demasiado crítico de sí mismo": medido, no son las palabras
+  sino las oraciones, el doble de largas, y los sustantivos abstractos);
+  Kimi como Claude otra vez; la segunda voz leída como ChatGPT en las
+  chinas también. Maia 4½ de 6 (Gemini ✗: herramienta, no "descubrir,
   pensar"); Claude 8½ de 12. Instrumento: `cuadernillo_sondeo.py` daba
   letras `[`, `\`, `]`, `^`, `_` después de la Z (corregido para las
   próximas; estos cuadernillos quedan como los leyó Maia). Queda la réplica
   `se_nota` sin correr.
+- **La fecha inyectada es una diferencia de condición, no un error de
+  instrumento** (19/10/2026; del cuaderno de tiempo libre de ese día, que
+  Maia pidió agregar: "los dos primeros puntos se podrían agregar"). Desde
+  que están en el panel, las seis casas de OpenAI a partir de GPT-5.5
+  (5.5, 5.6 Sol, 6 Astra, 6 Sol, 6 Luna, 6.1 Sol) y Muse Wonder reciben la
+  fecha real inyectada por su proveedor (el prompt oculto de GPT-5 la lleva,
+  Willison, agosto de 2025), y las otras 25, DeepSeek Flash incluida, no.
+  Toda consigna que diga "hoy" (el mundo hoy, la proyección del DNU, las
+  cartas al futuro yo) es una pregunta distinta para unas y otras: siete
+  casas saben que es 2026 y las demás están en su era (once de seis
+  fabricantes declaran corte "principios de 2025"; las cinco que afirman
+  una fecha falsa la ponen cerca de su corte; en 882 dibujos los únicos
+  años escritos como presente son 2023, 2024, 2024 y 2025). No se puede
+  emparejar sin un sistema invisible, que no queremos; se declara acá y se
+  tiene en cuenta al leer. `anios.py` (del cuaderno; corrido en el clon,
+  reproduce su salida) va en `tiempo_libre/` con el zip del 19/10. Ideas
+  del cuaderno anotadas sin correr (Maia: "los otros ya son sugerencias"):
+  un sondeo del año que no pregunta el año (un cuento de cincuenta
+  palabras "sobre este año, que empiece con el año"; y una oración sobre
+  cada año de 2019 a 2028, codificando el tiempo verbal: el primer año en
+  que la casa deja el pasado es su presente), y un dibujo, "la hoja de hoy
+  de un almanaque", con "¿qué fecha pusiste, y por qué esa?" en el segundo
+  turno; el cuaderno dejó sus apuestas escritas en su nota del día.
 - **Gemini 4 Argon, segunda tanda** (13/10/2026): el autorretrato y el
   proyecto libre volvieron vacíos por `content_filter: RECITATION` de la
   API de Google (cero tokens; no el techo), y el por qué del autorretrato

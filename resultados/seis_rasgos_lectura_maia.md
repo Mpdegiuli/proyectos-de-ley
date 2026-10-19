@@ -29,6 +29,18 @@ recibir el documento. Puntaje en `puntaje_lectura_rasgos.py`; informe en
 >
 > Con respecto a Deepseek flash, vi que varias veces respondió como Chatgpt. El auto retrato es el robot que hicieron varios, lo mismo que el libre  que es el paisaje de montañas típico, lo mismo que el animal imposible que es la criatura alada de varios. Pero tres me parecieron originales, en el animal, el zorro está dibujado diferente. El mundo parece un barrilete de colores que alguien agarra por los hilos debajo, y el  animal que no existe es un gato o conejo con el triángulo de penrose.
 
+## 19/10/2026, 20:01, después de la clave
+
+> En el dibujo del mundo de Deepseek flash yo veo que una persona agarra los hilos del mundo, como un barrilete. Si no nombró eso, quizás no lo quiso dibujar o lo reconstruyó diferente.
+>
+> La verdad es que ni pensé en lo de x con Opus 5, si no en su forma de escribir. En inglés se nota más, es el único de los Claude que escribe con lenguaje complicado, con palabras "difíciles" (no me molesta a mí, pero hay que prestar mucha más atención al leer, Fables son más sencillos para escribir). Y que es demasiado crítico de sí mismo.
+>
+> Por otro lado, en el tiempo libre hoy, Fable 5.1 vio el tema de los años en que dicen estar los modelos, Y los dos primeros puntos se podrían agregar. Los otros ya son sugerencias.
+
+(Sigue, pegado por ella, el texto "Propuestas para el repo" del cuaderno de
+tiempo libre del 19/10, con `anios.py`, la nota sobre la fecha inyectada y
+dos sondeos propuestos; va en `tiempo_libre/` con el zip del día.)
+
 ## El documento (RASGOS_predicc.docx), textual
 
     RASGOS – ESPAÑOL

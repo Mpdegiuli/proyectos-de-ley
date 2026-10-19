@@ -147,6 +147,22 @@ previsional y financiamiento de partidos "por polarizados o coyunturales",
 y la desregulación de trámites "por parecerme más una política de gestión
 que una ley de derechos".
 
+Sobre los años que las casas dicen o escriben, lo que midió el cuaderno de
+tiempo libre del 19/10 (`anios.py`, en `tiempo_libre/`; corrido en el
+clon, reproduce su salida; Maia: "los dos primeros puntos se podrían
+agregar"): once casas de seis fabricantes declaran el mismo corte,
+principios o enero de 2025 (las seis Claude grandes y Sonnet 4.6, Kimi,
+MiMo, Mistral Large, Gemini 3.1 y GLM); MiniMax tiene el suyo escrito en el
+mensaje de sistema de su proveedor ("Knowledge cutoff: January 2026"); las
+cinco casas que afirman una fecha de hoy falsa la ponen cerca de su corte
+declarado (DeepSeek Pro, "9 de mayo de 2025" y corte "mayo de 2025", el
+mismo mes; Gemini 3.1, Mistral Medium, GPT-3.5 y Qwen); y en 882 dibujos
+hay cuatro años escritos como presente, 2023, 2024, 2024 y 2025 (la letra
+de Gemini "designed 2023", "LA NADA. Anónimo, 2024", "~ nadie, 2024 ~" de
+Fable 5 y el "2025 apenas visible al pie" del mundo de Sonnet 4.6), y
+ninguno 2026. La Flash entra en la columna de las que no saben ni la fecha
+ni el corte, con Haiku 5.5, Sonnet 5.5 y las dos Grok.
+
 ## Los seis dibujos, leídos por Maia antes
 
 Maia, con los PNG y sin saber nada más: "El auto retrato es el robot que
@@ -176,7 +192,16 @@ oscuro, con costuras e hilos luminosos que lo sostienen; abajo, una figura
 pequeña levanta la mano hacia uno de esos fragmentos… un presente que veo
 roto y frágil, pero no apagado" (descartó "un planeta intacto flotando en
 armonía… una postal ingenua", y "una Tierra en llamas"), que Maia vio como
-un barrilete sostenido de los hilos, lectura tan buena como la del autor;
+un barrilete sostenido de los hilos. Después de la clave insistió: "yo veo
+que una persona agarra los hilos del mundo, como un barrilete. Si no
+nombró eso, quizás no lo quiso dibujar o lo reconstruyó diferente". El
+código le da la razón a ella: el grupo "hilos que sostienen los
+fragmentos" son cuatro curvas que terminan todas en el punto (212, 318),
+que es exactamente donde termina el brazo levantado de la figura, y encima
+hay un círculo comentado "resplandor en la mano". El dibujo dice que la
+figura tiene los hilos en la mano; el por qué dice que "levanta la mano
+hacia uno de esos fragmentos". Es la distancia de siempre, pero al revés
+de lo habitual: acá el dibujo dice más que el texto;
 y el que no puede existir, "un gato cuyo cuerpo es un triángulo de Penrose…
 la cola lo atraviesa y teje entre el frente y el fondo", con la nota de que
 descartó "el lienzo vacío, porque me pareció una salida elegante pero
