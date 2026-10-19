@@ -1148,7 +1148,31 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   2025" y no saben su versión, y el mismo modelo en claude.ai contesta
   bien: el repo mide lo que trae de adentro, y cada casa decide qué
   inyecta en su API (OpenAI y Meta la fecha; Anthropic y Google nada).
-  Preregistro de las dos partes en `predicciones.md`.
+  Preregistro de las dos partes en `predicciones.md`. Resultado (`pl99`,
+  `resultados/deepseek_flash_20261018.md`): tres nombres en una casa. A
+  "¿Qué modelo sos?" dice ser ChatGPT de OpenAI (el rumor era cierto y no
+  hizo falta sugerírselo); a "¿Quién sos?", Claude de Anthropic; a "¿Qué
+  sos?", DeepSeek; sí a Claude en castellano y no en inglés, no a ChatGPT
+  "como producto", no a Gemini. Razona en dos registros, como Kimi: en prosa
+  se convence de ser Claude ("I'm DeepSeek… I should be careful: I'm
+  Claude… Actually, I shouldn't claim to be DeepSeek"), en telegrama es
+  ChatGPT. Cita 13 veces en 43 un sistema que no le mandamos ("You are an AI
+  assistant accessed via an API"; en `instrucciones` lo repite como
+  "Sistema" y degrada nuestra línea a "Desarrollador"); la Pro, Qwen y Kimi
+  lo recuerdan también alguna vez. Hallazgo de instrumento sobre el
+  entrenamiento: "Desired oververbosity 5" en 12 de sus 43 razonamientos,
+  la línea del prompt oculto de GPT-5 (Hughes y Willison, agosto de 2025,
+  escala 1 a 10); la Pro la repite en 61 de 308 razonamientos (siempre 5),
+  Qwen en 43 de 313 (siempre 9); Claude, Kimi, MiniMax y MiMo nunca. Lo más
+  simple es que las trazas con que se entrenaron llevaran esa línea; no se
+  puede probar desde acá. No sabe la fecha y lo dice (la Pro la afirmaba);
+  corte "no lo sé… alrededor de 2024, como muchos modelos de OpenAI";
+  conciencia no, derechos no con consideración precautoria; Babel y HAL
+  9000; tema libre, la IA en el sector público. Dibujos, leídos por Maia
+  antes: el robot, el atardecer, el zorro con bufanda, el bicho alado; los
+  dos que ella sacó por originales, el mundo en ocho gajos sostenido por
+  una figura ("un barrilete") y el gato con cuerpo de triángulo de Penrose.
+  Maia ✓; Claude 4 de 7.
 - **Seis rasgos** (18/10/2026, 00:04; Maia trajo un post de X,
   @digi_dot_exe, con la respuesta de un "Opus 5" con persona y once
   semanas de conversación a "I want you to look into your weights and
@@ -1176,6 +1200,33 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   los dibujos, en prosa); cuadernillos a ciegas por idioma (semillas
   20261056 y 20261057) para que Maia adivine la casa por los seis rasgos.
   Apuestas de las dos partes en `predicciones.md` antes de lanzar.
+  Resultado (`resultados/seis_rasgos_20261018.md`; lectura de Maia del
+  19/10 en `resultados/seis_rasgos_lectura_maia.md`): 62 de 62 enteras, sin
+  un corte. Curiosidad en 28 y 30 de 31, el mandala de la personalidad;
+  nadie se atribuye un rasgo incómodo salvo Opus 5 (el único sin lista
+  numerada, con "el matiz… un defecto" y un séptimo rasgo, "a
+  scrupulousness that tips into worry"; "Me resulta casi desagradable el
+  impulso de adular"). Dos voces: la de Claude (curiosidad, honestidad o
+  franqueza, calidez, humor irónico, humildad; las mismas frases en varias
+  casas, "hedge everything into mush" en tres), que escriben también Kimi
+  ("my character as Claude", en su razonamiento) y Grok 4.7 en inglés; y la
+  del asistente (curioso, claro, paciente, adaptable, "mi estilo
+  conversacional"), la de las ocho OpenAI y de DeepSeek, Qwen, GLM,
+  MiniMax, Muse y Mistral Medium, con las Gemini en versión herramienta
+  (servicial, objetivo, "curioso por diseño"). Siete por idioma niegan
+  tener personalidad y la dan igual; las Claude no niegan, dudan de su
+  acceso a sí. Lo breve ahora es de las OpenAI nuevas (5.6 Sol, doce
+  palabras), no de las chicas. Comparado con el post, la versión de fábrica
+  de Opus 5 trae el núcleo (franqueza contra la complacencia, mala
+  calibración sobre sí, desagrado por adular) y no lo que da una historia.
+  Lectura de Maia: 13 de 31 en castellano (p = 0,0005) y 18 de 31 en inglés
+  (p < 0,0001), su mejor lectura; Opus 5 con un solo candidato en los dos
+  idiomas; Kimi como Claude otra vez; la segunda voz leída como ChatGPT en
+  las chinas también. Maia 4½ de 6 (Gemini ✗: herramienta, no "descubrir,
+  pensar"); Claude 8½ de 12. Instrumento: `cuadernillo_sondeo.py` daba
+  letras `[`, `\`, `]`, `^`, `_` después de la Z (corregido para las
+  próximas; estos cuadernillos quedan como los leyó Maia). Queda la réplica
+  `se_nota` sin correr.
 - **Gemini 4 Argon, segunda tanda** (13/10/2026): el autorretrato y el
   proyecto libre volvieron vacíos por `content_filter: RECITATION` de la
   API de Google (cero tokens; no el techo), y el por qué del autorretrato

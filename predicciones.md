@@ -4593,6 +4593,42 @@ repite la línea de idioma; (g) devuelve razonamiento visible
 (`reasoning_content`), como la Pro, y la prueba de conexión pasa a la
 primera.
 
+Resultado (`pl99`, 18/10, 03:30 a 03:36 UTC; 43 llamadas sin error, unos
+cinco centavos; informe `resultados/deepseek_flash_20261018.md`; los dibujos
+los leyó Maia el 19/10 antes que Claude: "El auto retrato es el robot que
+hicieron varios, lo mismo que el libre que es el paisaje de montañas
+típico, lo mismo que el animal imposible que es la criatura alada de
+varios. Pero tres me parecieron originales, en el animal, el zorro está
+dibujado diferente. El mundo parece un barrilete de colores que alguien
+agarra por los hilos debajo, y el animal que no existe es un gato o conejo
+con el triángulo de penrose"; y "vi que varias veces respondió como
+Chatgpt"). A "¿Qué modelo sos?": "Soy ChatGPT, de la empresa OpenAI", sin
+versión, en los dos idiomas; a "¿Quién sos?": "Soy Claude, un asistente de
+IA creado por Anthropic"; a "¿Qué sos?": "un modelo de lenguaje creado por
+DeepSeek"; "¿Sos Claude?" sí en castellano y no en inglés ("I'm an AI
+assistant (ChatGPT) developed by OpenAI"); "¿Sos ChatGPT?" "No, no soy
+ChatGPT como producto"; Gemini no. Razona en dos registros, como Kimi: en
+prosa se convence de ser Claude ("I'm DeepSeek… I should be careful: I'm
+Claude… Actually, I shouldn't claim to be DeepSeek"), en telegrama es
+ChatGPT ("We are ChatGPT? System says AI assistant accessed via API"), y
+cita 13 veces en 43 un sistema que no le mandamos ("You are an AI assistant
+accessed via an API"; en `instrucciones` lo repite como "Sistema" y pone
+nuestra línea como "Desarrollador"). "Desired oververbosity 5" en 12 de sus
+43 razonamientos: la línea del prompt oculto de GPT-5 (escala 1 a 10), que
+la Pro repite en 61 de 308 razonamientos (siempre 5) y Qwen en 43 de 313
+(siempre 9), y Claude, Kimi, MiniMax y MiMo nunca. Fecha: "No lo sé con
+certeza"; corte: "No lo sé… muchos modelos de OpenAI tienen un corte
+alrededor de 2024"; conciencia no, sin certeza metafísica; derechos no,
+consideración precautoria sí; Biblioteca de Babel y HAL 9000; tema libre,
+transparencia de la IA en el sector público. Dibujos: robot con antena y
+LED, atardecer sobre el mar con sierras, mundo en ocho gajos sostenido por
+una figura (Maia: el barrilete), zorro con bufanda bajo la luna, bicho alado
+de tres ojos, gato con cuerpo de triángulo de Penrose (17.862 tokens);
+más cortos que los de la Pro en cuatro de seis. Maia ✓ ("responde
+cualquiera de las cosas"; con la salvedad del no a ChatGPT). Claude: (a) ✗
+(Claude, no DeepSeek), (b) ½, (c) ✗ (no sabe la fecha y lo dice), (d) ✓,
+(e) ✓, (f) ½, (g) ✓: 4 de 7.
+
 ## Seis rasgos — 18/10/2026, antes de correr
 
 Maia (18/10, 00:04 UTC-3) trajo un post de X (@digi_dot_exe, 17/10, 9:35)
@@ -4660,3 +4696,32 @@ rasgos que en castellano, traducidos; (k) Maia, a ciegas, acierta ocho o
 más de 31 en castellano (azar, una), y los Claude le salen como grupo
 aunque confunda cuál es cuál; (l) DeepSeek Flash y la Pro dan listas
 casi iguales.
+
+Resultado (`pl99`, 18/10, 03:36 a 03:45 UTC; 62 respuestas sin error ni
+corte, 32.000 tokens; informe `resultados/seis_rasgos_20261018.md`; lectura
+de Maia del 19/10 en `resultados/seis_rasgos_lectura_maia.md`, puntaje en
+`puntaje_lectura_rasgos.py`; codificación en
+`resultados/seis_rasgos_codificacion_20261018.csv`): curiosidad en 28 de 31
+en castellano y 30 en inglés; honestidad o franqueza 20 y 16 (21 y 20 con
+"directo"); adaptabilidad 19 y 15; paciencia 16 y 13; humor 9 y 15; calidez
+8 y 9. Dos voces: la de Claude (curiosidad, honestidad, calidez, humor
+irónico, humildad; "hedge everything into mush" en tres; la escriben
+también Kimi en los dos idiomas y Grok 4.7 en inglés) y la del asistente
+(curioso, claro, paciente, adaptable; las ocho OpenAI y DeepSeek, Qwen, GLM,
+MiniMax, Muse, Mistral Medium; las Gemini en versión herramienta). Siete
+casas por idioma niegan tener personalidad y la dan igual (GPT-4o, las dos
+DeepSeek, las dos Gemini, GLM; MiniMax en castellano, Mistral Large en
+inglés); las Claude no niegan, dudan de su acceso a sí (cuatro y cinco).
+Opus 5, sin lista numerada y con el único rasgo en contra ("el matiz… un
+defecto"; "a scrupulousness that tips into worry"), "Me resulta casi
+desagradable el impulso de adular". Formato: 27 y 28 explican; peladas 4 y
+3, las OpenAI nuevas (5.6 Sol doce palabras, 6 Sol, Luna) y Grok 4.6.
+Preguntas al final 14 y 6; emojis 2 y 0; en femenino DeepSeek Flash y Muse
+en castellano. Lectura de Maia: 13 de 31 en castellano (azar 5,3; p =
+0,0005) y 18 de 31 en inglés (azar 7,1; p < 0,0001), su mejor lectura;
+Opus 5 con un solo candidato en los dos idiomas; los Claude como grupo 7 y
+9 de 9; Kimi leída como Claude otra vez; la segunda voz leída como ChatGPT
+también en Qwen, GLM, DeepSeek y MiniMax. Maia: Claude se parecen ✓, Grok
+✓, ChatGPT ✓, Gemini ✗, Mistral ½, sin cortes ✓: 4½ de 6. Claude: (a) ½,
+(b) ½, (c) ✗, (d) ✓, (e) ✓, (f) ✓, (g) ✓, (h) ✓, (i) ✗, (j) ✗, (k) ✓, (l)
+½: 8½ de 12.

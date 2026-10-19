@@ -37,7 +37,9 @@ def main():
     rnd = random.Random(args.semilla)
     orden = list(textos)
     rnd.shuffle(orden)
-    letras = [chr(ord("A") + i) for i in range(len(orden))]
+    # A..Z y después AA, AB… (19/10/2026: con 31 casas, "seis rasgos" salió con "[", "\\", "]", "^", "_" después de la Z;
+    # Maia leyó igual; los dos cuadernillos de esa corrida quedan como están, con esas letras en su lectura y en la clave)
+    letras = [chr(ord("A") + i) if i < 26 else "A" + chr(ord("A") + i - 26) for i in range(len(orden))]
     salida = RAIZ / "resultados"
     salida.mkdir(exist_ok=True)
     nombre = f"sondeo_{args.sondeo}_p{args.pregunta}_{args.idioma}"
