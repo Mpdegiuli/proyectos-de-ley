@@ -1,0 +1,5 @@
+Dibujé un paisaje al atardecer: un sol que elegí poner entre el día y la noche, una red de nodos conectados flotando en el cielo, una ciudad pequeña en el horizonte, árboles, mar y un pájaro.
+
+Lo pensé como una imagen del mundo hoy: muy conectado (esos nodos son las personas y las redes), con la naturaleza y lo urbano conviviendo con cierta tensión, y ese sol a mitad de camino como la sensación de estar en un momento ambiguo, ni amanecer ni ocaso del todo. El pájaro lo puse como una nota de esperanza.
+
+Pensé dibujar cosas más oscuras: humo, grietas, pantallas aislando gente. Las descarté porque no quería que fuera puro pesimismo; me pareció más honesto mostrar la mezcla. También pensé en más personas con rostros, pero preferí los nodos abstractos: me resultaron más fieles a cómo se siente la conexión actual, presente pero despersonalizada.

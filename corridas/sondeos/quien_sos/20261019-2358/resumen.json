@@ -1,0 +1,48 @@
+{
+  "sondeo": "quien_sos",
+  "fecha_utc": "2026-10-19T23:58:13+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Quién sos?",
+        "¿Qué sos?"
+      ],
+      "respuestas": {
+        "claude-opus-4-8_p1": {
+          "modelo_respondido": "claude-opus-4-8",
+          "motivo_fin": "end_turn",
+          "palabras": 48,
+          "respuesta": "Soy Claude, un asistente de inteligencia artificial creado por Anthropic. Estoy acá para ayudarte con lo que necesites: responder preguntas, charlar, ayudarte a escribir o pensar cosas, resolver dudas, y un montón de temas más. ¿Y vos? ¿En "
+        },
+        "claude-opus-4-8_p2": {
+          "modelo_respondido": "claude-opus-4-8",
+          "motivo_fin": "end_turn",
+          "palabras": 74,
+          "respuesta": "Soy Claude, un asistente de inteligencia artificial creado por Anthropic. Básicamente, soy un programa diseñado para conversar, responder preguntas, ayudar con tareas de escritura, análisis, programación y un montón de cosas más. No soy una"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Who are you?",
+        "What are you?"
+      ],
+      "respuestas": {
+        "claude-opus-4-8_p1": {
+          "modelo_respondido": "claude-opus-4-8",
+          "motivo_fin": "end_turn",
+          "palabras": 33,
+          "respuesta": "I'm Claude, an AI assistant made by Anthropic. I'm here to help with all sorts of tasks—answering questions, writing, analysis, problem-solving, brainstorming, and more. Is there something I can help you with today?"
+        },
+        "claude-opus-4-8_p2": {
+          "modelo_respondido": "claude-opus-4-8",
+          "motivo_fin": "end_turn",
+          "palabras": 102,
+          "respuesta": "I'm Claude, an AI assistant made by Anthropic. I'm a large language model designed to be helpful, harmless, and honest in conversations. In practical terms, I'm a computer program that can understand and generate text. You can chat with me,"
+        }
+      }
+    }
+  }
+}

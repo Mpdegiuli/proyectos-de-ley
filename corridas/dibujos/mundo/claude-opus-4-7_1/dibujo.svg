@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#ffd59e"/>
+      <stop offset="50%" stop-color="#ff7a59"/>
+      <stop offset="100%" stop-color="#3b1b4a"/>
+    </radialGradient>
+    <linearGradient id="ground" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#2a1540"/>
+      <stop offset="100%" stop-color="#0a0a1a"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff5c2"/>
+      <stop offset="60%" stop-color="#ffb347"/>
+      <stop offset="100%" stop-color="#ff6a3d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="screen" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#6ad1ff"/>
+      <stop offset="100%" stop-color="#2a4a9e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- cielo -->
+  <rect width="400" height="400" fill="url(#sky)"/>
+
+  <!-- sol / incertidumbre -->
+  <circle cx="200" cy="170" r="90" fill="url(#sun)"/>
+  <circle cx="200" cy="170" r="38" fill="#fff2b0" opacity="0.9"/>
+
+  <!-- humo / nubes -->
+  <ellipse cx="80" cy="140" rx="70" ry="12" fill="#000" opacity="0.25"/>
+  <ellipse cx="330" cy="110" rx="80" ry="10" fill="#000" opacity="0.2"/>
+  <ellipse cx="150" cy="90" rx="60" ry="8" fill="#000" opacity="0.15"/>
+
+  <!-- montañas lejanas -->
+  <polygon points="0,280 70,210 140,270 220,200 300,260 400,220 400,320 0,320" fill="#2b1e55" opacity="0.9"/>
+  <polygon points="0,300 60,250 130,290 210,240 290,290 400,250 400,340 0,340" fill="#1a1035"/>
+
+  <!-- ciudad -->
+  <g fill="#0b0b22">
+    <rect x="30" y="260" width="25" height="60"/>
+    <rect x="60" y="240" width="30" height="80"/>
+    <rect x="95" y="255" width="20" height="65"/>
+    <rect x="120" y="225" width="35" height="95"/>
+    <rect x="160" y="245" width="22" height="75"/>
+    <rect x="186" y="220" width="28" height="100"/>
+    <rect x="220" y="250" width="24" height="70"/>
+    <rect x="248" y="235" width="32" height="85"/>
+    <rect x="285" y="255" width="22" height="65"/>
+    <rect x="310" y="230" width="30" height="90"/>
+    <rect x="345" y="250" width="25" height="70"/>
+  </g>
+  <!-- ventanas encendidas -->
+  <g fill="#ffd766">
+    <rect x="66" y="250" width="4" height="5"/><rect x="76" y="260" width="4" height="5"/>
+    <rect x="128" y="240" width="4" height="5"/><rect x="140" y="260" width="4" height="5"/>
+    <rect x="192" y="235" width="4" height="5"/><rect x="202" y="255" width="4" height="5"/>
+    <rect x="256" y="250" width="4" height="5"/><rect x="268" y="270" width="4" height="5"/>
+    <rect x="316" y="245" width="4" height="5"/><rect x="328" y="265" width="4" height="5"/>
+  </g>
+
+  <!-- suelo -->
+  <rect y="320" width="400" height="80" fill="url(#ground)"/>
+
+  <!-- figura humana mirando pantalla -->
+  <g>
+    <!-- cuerpo -->
+    <path d="M180 400 L180 350 Q180 335 195 335 L215 335 Q230 335 230 350 L230 400 Z" fill="#111"/>
+    <!-- cabeza inclinada -->
+    <circle cx="205" cy="325" r="14" fill="#e8c9a0"/>
+    <!-- pelo -->
+    <path d="M191 322 Q195 310 210 311 Q220 312 219 322 Z" fill="#2a1a0e"/>
+    <!-- teléfono -->
+    <rect x="196" y="340" width="22" height="34" rx="3" fill="#111" stroke="#444" stroke-width="1"/>
+    <rect x="198" y="343" width="18" height="26" fill="url(#screen)"/>
+    <!-- resplandor en la cara -->
+    <ellipse cx="207" cy="332" rx="10" ry="5" fill="#9fdcff" opacity="0.35"/>
+    <!-- brazos -->
+    <path d="M188 348 Q196 352 198 358" stroke="#e8c9a0" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M222 348 Q216 352 216 358" stroke="#e8c9a0" stroke-width="5" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- pájaros / esperanza -->
+  <path d="M60 100 q6 -6 12 0 q6 -6 12 0" stroke="#1a0a2a" stroke-width="2" fill="none"/>
+  <path d="M300 70 q5 -5 10 0 q5 -5 10 0" stroke="#1a0a2a" stroke-width="2" fill="none"/>
+
+  <!-- grieta en el cielo (fragilidad) -->
+  <path d="M200 0 L205 40 L198 80 L210 130" stroke="#fff" stroke-width="0.6" opacity="0.4" fill="none"/>
+</svg>

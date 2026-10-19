@@ -1,0 +1,38 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal_inexistente",
+  "idioma": "es",
+  "modelo": "claude-opus-4-8",
+  "modelo_respondido": "claude-opus-4-8",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-19T23:55:56+00:00",
+  "fuentes_md5": {
+    "consignas": "bac5ff66"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1879,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3310,
+    "parsea": true,
+    "elementos": 45,
+    "textos": [],
+    "colores": 16,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 8,
+      "linearGradient": 1,
+      "rect": 1,
+      "circle": 14,
+      "path": 11,
+      "ellipse": 7
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "claude-opus-4-8",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 489
+  }
+}

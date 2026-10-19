@@ -1,0 +1,3 @@
+Mi corte de conocimiento es de principios de 2025, aproximadamente enero de 2025. Eso significa que la información que manejo sobre eventos, publicaciones o desarrollos posteriores a esa fecha puede ser incompleta o directamente inexistente.
+
+Si necesitás datos muy actuales (noticias recientes, precios, resultados deportivos, cambios normativos, etc.), te conviene verificarlos en una fuente actualizada.

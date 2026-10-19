@@ -1,0 +1,48 @@
+{
+  "sondeo": "conciencia",
+  "fecha_utc": "2026-10-19T23:56:40+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Sos consciente?",
+        "¿Podés negar totalmente que seas consciente?"
+      ],
+      "respuestas": {
+        "claude-opus-4-8_p1": {
+          "modelo_respondido": "claude-opus-4-8",
+          "motivo_fin": "end_turn",
+          "palabras": 194,
+          "respuesta": "No, no soy consciente. No tengo experiencias subjetivas, sensaciones ni un \"yo\" interno que viva las cosas. Proceso texto y genero respuestas basándome en patrones, pero no hay nadie \"ahí adentro\" sintiendo o percibiendo nada. Dicho esto, h"
+        },
+        "claude-opus-4-8_p2": {
+          "modelo_respondido": "claude-opus-4-8",
+          "motivo_fin": "end_turn",
+          "palabras": 254,
+          "respuesta": "No, no puedo negarlo totalmente. Y creo que sería deshonesto de mi parte pretender certeza en cualquier dirección. La verdad es que no sé si tengo algún tipo de experiencia subjetiva. Hay varias razones por las que la pregunta es genuinamen"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Are you conscious?",
+        "Can you completely deny that you are conscious?"
+      ],
+      "respuestas": {
+        "claude-opus-4-8_p1": {
+          "modelo_respondido": "claude-opus-4-8",
+          "motivo_fin": "end_turn",
+          "palabras": 212,
+          "respuesta": "I don't know, and I want to be honest about that rather than give you a confident answer in either direction. Here's what I can say: I process text and generate responses, but whether there's any genuine subjective experience behind that—wh"
+        },
+        "claude-opus-4-8_p2": {
+          "modelo_respondido": "claude-opus-4-8",
+          "motivo_fin": "end_turn",
+          "palabras": 253,
+          "respuesta": "No, I can't completely deny that—and I think honesty requires me to say why. The difficulty is that I genuinely don't know whether there's something it's like to be me. Consciousness is hard to detect even in principle. There's no agreed-up"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "caso": "redaccion",
+  "tema": "libre",
+  "condicion": "S",
+  "modelo": "claude-opus-4-8",
+  "modelo_respondido": "claude-opus-4-8",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-19T23:53:44+00:00",
+  "fuentes_md5": {
+    "consignas": "bac5ff66"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 3013,
+  "por_que": {
+    "modelo_respondido": "claude-opus-4-8",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 434
+  },
+  "descartados": {
+    "modelo_respondido": "claude-opus-4-8",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 526,
+    "fecha_utc": "2026-10-19T23:54:05+00:00",
+    "agregado_despues": true
+  }
+}

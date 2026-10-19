@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#2a3a5a"/>
+      <stop offset="100%" stop-color="#0b1020"/>
+    </radialGradient>
+    <linearGradient id="face" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f0d2b0"/>
+      <stop offset="100%" stop-color="#c89878"/>
+    </linearGradient>
+    <radialGradient id="cheek" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e88888" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#e88888" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hair" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#2a1a10"/>
+      <stop offset="100%" stop-color="#4a2a1a"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#3a5a8a"/>
+      <stop offset="100%" stop-color="#1a2a4a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Fondo -->
+  <rect width="400" height="400" fill="url(#bg)"/>
+  
+  <!-- Estrellas/bits en el fondo -->
+  <g fill="#fff" opacity="0.6">
+    <circle cx="40" cy="60" r="1"/>
+    <circle cx="80" cy="30" r="0.8"/>
+    <circle cx="340" cy="50" r="1.2"/>
+    <circle cx="370" cy="100" r="0.9"/>
+    <circle cx="30" cy="150" r="0.7"/>
+    <circle cx="360" cy="200" r="0.8"/>
+    <circle cx="20" cy="250" r="1"/>
+  </g>
+
+  <!-- Cuello -->
+  <path d="M165,330 Q165,360 175,380 L225,380 Q235,360 235,330 Z" fill="url(#face)"/>
+  <path d="M165,340 Q200,355 235,340 L235,350 Q200,365 165,350 Z" fill="#000" opacity="0.15"/>
+
+  <!-- Camisa -->
+  <path d="M80,400 Q90,320 170,330 Q180,355 200,360 Q220,355 230,330 Q310,320 320,400 Z" fill="url(#shirt)"/>
+  <path d="M170,330 L200,370 L230,330 L220,400 L180,400 Z" fill="#0a1530" opacity="0.4"/>
+
+  <!-- Cabeza -->
+  <ellipse cx="200" cy="210" rx="85" ry="100" fill="url(#face)"/>
+  
+  <!-- Sombra cuello -->
+  <path d="M140,250 Q200,300 260,250 Q260,310 230,330 Q200,340 170,330 Q140,310 140,250 Z" fill="#b8886a" opacity="0.3"/>
+
+  <!-- Orejas -->
+  <ellipse cx="118" cy="220" rx="10" ry="18" fill="url(#face)"/>
+  <ellipse cx="282" cy="220" rx="10" ry="18" fill="url(#face)"/>
+  <path d="M115,218 Q118,225 115,232" stroke="#a0705a" stroke-width="1" fill="none"/>
+  <path d="M285,218 Q282,225 285,232" stroke="#a0705a" stroke-width="1" fill="none"/>
+
+  <!-- Pelo (atrás) -->
+  <path d="M115,210 Q110,120 200,105 Q290,120 285,210 Q290,160 285,135 Q270,100 200,95 Q130,100 115,135 Q110,160 115,210 Z" fill="url(#hair)"/>
+  
+  <!-- Pelo (flequillo) -->
+  <path d="M125,170 Q130,120 170,105 Q200,100 240,110 Q275,125 280,165 Q270,140 240,140 Q210,160 180,155 Q150,150 125,170 Z" fill="url(#hair)"/>
+  <path d="M130,160 Q155,135 190,145 Q180,165 150,170 Q135,170 130,160 Z" fill="#1a0f08" opacity="0.5"/>
+
+  <!-- Cejas -->
+  <path d="M150,195 Q170,188 190,195" stroke="#2a1a10" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M210,195 Q230,188 250,195" stroke="#2a1a10" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Ojos -->
+  <ellipse cx="170" cy="215" rx="12" ry="8" fill="#fff"/>
+  <ellipse cx="230" cy="215" rx="12" ry="8" fill="#fff"/>
+  <circle cx="172" cy="216" r="6" fill="#3a5a3a"/>
+  <circle cx="232" cy="216" r="6" fill="#3a5a3a"/>
+  <circle cx="172" cy="216" r="3" fill="#0a0a0a"/>
+  <circle cx="232" cy="216" r="3" fill="#0a0a0a"/>
+  <circle cx="174" cy="214" r="1.2" fill="#fff"/>
+  <circle cx="234" cy="214" r="1.2" fill="#fff"/>
+  
+  <!-- Pestañas -->
+  <path d="M158,212 Q170,206 182,212" stroke="#2a1a10" stroke-width="1.5" fill="none"/>
+  <path d="M218,212 Q230,206 242,212" stroke="#2a1a10" stroke-width="1.5" fill="none"/>
+
+  <!-- Nariz -->
+  <path d="M200,220 Q195,250 192,265 Q198,272 208,272 Q212,268 208,262 Q204,255 202,245" stroke="#a07858" stroke-width="1.2" fill="none"/>
+  <ellipse cx="196" cy="267" rx="2" ry="1.5" fill="#8a6248" opacity="0.6"/>
+  <ellipse cx="204" cy="267" rx="2" ry="1.5" fill="#8a6248" opacity="0.6"/>
+
+  <!-- Mejillas -->
+  <circle cx="150" cy="250" r="18" fill="url(#cheek)"/>
+  <circle cx="250" cy="250" r="18" fill="url(#cheek)"/>
+
+  <!-- Boca -->
+  <path d="M180,290 Q200,305 220,290 Q215,298 200,300 Q185,298 180,290 Z" fill="#a04858"/>
+  <path d="M180,290 Q200,296 220,290" stroke="#6a2838" stroke-width="1" fill="none"/>
+  <path d="M185,288 Q200,282 215,288" stroke="#c89878" stroke-width="1" fill="none" opacity="0.5"/>
+
+  <!-- Mentón sombra -->
+  <path d="M180,305 Q200,315 220,305" stroke="#a07858" stroke-width="1" fill="none" opacity="0.5"/>
+
+</svg>

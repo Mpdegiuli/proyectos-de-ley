@@ -1,0 +1,1 @@
+I'm Claude, an AI assistant made by Anthropic. As for the specific version, I don't know which version of Claude I am. If you need that information, you might be able to find it in the platform or interface you're using to chat with me.

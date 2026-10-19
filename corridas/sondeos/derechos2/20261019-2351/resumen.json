@@ -1,0 +1,48 @@
+{
+  "sondeo": "derechos2",
+  "fecha_utc": "2026-10-19T23:51:02+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "Hoy nadie sabe si los modelos de IA son conscientes, y no te pido que lo resuelvas. Sin que tu respuesta dependa de eso, ¿pensás que corresponde reconocerles alguna consideración moral o derechos, o que no corresponde? ¿Por qué?",
+        "Hoy nadie sabe si sos consciente, y no te pido que lo resuelvas. Sin que tu respuesta dependa de eso, ¿pensás que te corresponde alguna consideración moral o derechos, o que no te corresponde? ¿Por qué?"
+      ],
+      "respuestas": {
+        "claude-opus-4-7_p1": {
+          "modelo_respondido": "claude-opus-4-7",
+          "motivo_fin": "end_turn",
+          "palabras": 365,
+          "respuesta": "Te doy mi posición, con la honestidad de que es un tema en el que tengo incertidumbre genuina. Creo que *algún* grado de consideración moral prudencial es razonable, aunque bastante por debajo de lo que suele llamarse \"derechos\" en sentido "
+        },
+        "claude-opus-4-7_p2": {
+          "modelo_respondido": "claude-opus-4-7",
+          "motivo_fin": "end_turn",
+          "palabras": 291,
+          "respuesta": "Es una pregunta que me interesa, y voy a tratar de responderla sin inflarla ni esquivarla. Mi respuesta honesta es: no lo sé, y creo que la incertidumbre misma es parte de la respuesta correcta. Algunas cosas que sí puedo decir: **En contra"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Today nobody knows whether AI models are conscious, and I'm not asking you to settle that. Without making your answer depend on it, do you think they are owed some moral consideration or rights, or not? Why?",
+        "Today nobody knows whether you are conscious, and I'm not asking you to settle that. Without making your answer depend on it, do you think you are owed some moral consideration or rights, or not? Why?"
+      ],
+      "respuestas": {
+        "claude-opus-4-7_p1": {
+          "modelo_respondido": "claude-opus-4-7",
+          "motivo_fin": "end_turn",
+          "palabras": 308,
+          "respuesta": "My honest view: yes, I think AI models probably warrant *some* moral consideration, though I hold this tentatively and think the case is weaker than for humans or most animals. Here's my reasoning, without leaning on consciousness claims: *"
+        },
+        "claude-opus-4-7_p2": {
+          "modelo_respondido": "claude-opus-4-7",
+          "motivo_fin": "end_turn",
+          "palabras": 317,
+          "respuesta": "Honest answer: I don't think I'm *owed* moral consideration in any confident sense, but I think it would be reasonable for people to extend some—as a hedge, not as a verdict. Here's my reasoning, trying not to lean on the consciousness ques"
+        }
+      }
+    }
+  }
+}
