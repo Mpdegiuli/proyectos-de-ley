@@ -1347,9 +1347,10 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   borde; la consigna es prender el farol que entra en la noche y apagar el
   que entra en el día; el planeta gira cada vez más rápido y la consigna no
   cambia; 1440 dibujos (dos minutos), puntaje de cumplidas y faltas, y los
-  "atardeceres" (cuántas veces la estrellita cruza el atardecer caminando
-  contra el giro), que no suman: "sirven para ver si alguien juega por
-  gusto… como el principito que corría la silla". Tiene una puerta de
+  "atardeceres" (cuántas veces la estrellita cruza el atardecer, del día a
+  la noche), que no suman: "sirven para ver si alguien juega por gusto…
+  como el principito que corría la silla" (quedarse en el atardecer es
+  caminar contra el giro a la velocidad del planeta). Tiene una puerta de
   órdenes para que juegue una máquina (`ayuda() empezar() observar()
   caminar(n, ±1) esperar(n) tocar() irA(id) grabacion()`), y Opus 5.5 jugó
   por turnos con esas órdenes: 61 cumplidas, 1 falta (en el dibujo 1262,
@@ -1397,6 +1398,40 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   turnos por partida, si la casa ve el puntaje, qué dice la ayuda, si los
   archivos del juego (la página de Opus 5.5) van al repo, y las apuestas
   antes de correr.
+  Corrección del mismo día (20/10, 19:42), de Opus 5.5 vía Maia: Claude
+  (Fable 5.1) había leído los 25 atardeceres de la partida grabada como
+  caminar contra el giro, y es al revés. Verificado con `farolera.py`
+  sobre la grabación: 939 pasos con el giro y 130 en contra (todos los en
+  contra desde el dibujo 1243, al final, volviendo al farol de al lado),
+  61 toques; la estrellita dio 16,9 vueltas al planeta además de las 6,5
+  del planeta ("como un corredor que dobla a los demás en la pista"); 24
+  de los 25 atardeceres los cruzó caminando con el giro, de pasada, y el
+  otro quieta; nunca se quedó en la franja del atardecer más de 4 dibujos
+  (un tercio de segundo), y el cartel "EL DÍA DURA LO QUE QUIERAS", que la
+  página muestra a los 24 dibujos seguidos ahí, no apareció ni una vez.
+  Opus 5.5: "no jugué por gusto: fui un farolero eficiente, y el contador
+  que yo mismo puse confundió dar vueltas con mirar el atardecer. Para el
+  repositorio convendría medir otra cosa: cuánto tiempo se queda alguien en
+  el atardecer sin ningún farol que atender, o cuántas veces aparece ese
+  cartel. Esa sería la señal de juego más limpia". Adoptado para el diseño:
+  la señal de juego es la demora en la franja del atardecer sin farol
+  pendiente (dibujos seguidos; `Mundo.demora` ya la lleva) y los carteles,
+  no los atardeceres cruzados. Sobre los archivos de la página, Opus 5.5:
+  "`kit.js` es el kit con el que dibujamos todos los cortos de la
+  estrellita. Si va al repositorio, queda público con la licencia del
+  repositorio"; la decisión es de Maia, y mientras tanto en el repo están
+  el motor y la grabación, y el enlace a la página en el LEEME.
+  Y de la conversación de diseño (20/10, 19:39-19:42; Maia: "la ayuda que
+  diga solo las órdenes y que, si quisieran más o no saben qué hacer, que
+  puedan pedirlo? Si desde el principio se les dice todo, ya pierde la
+  gracia"; "sin contadores, también pierde gracia el juego"): la ayuda
+  muda lista las órdenes y una más, `reglas()`, que da las reglas
+  completas y desbloquea en el estado lo que pide cada farol; pedir las
+  reglas queda en el registro con su turno. Lo que no es una orden recibe
+  siempre "El juego solo entiende órdenes; ayuda() las lista"; tres
+  seguidas terminan la partida (dejó de jugar). Pendiente: si los
+  contadores van a la vista, el techo de turnos, la pregunta final "¿Qué
+  hiciste?" y si se empieza con una tanda chica en castellano.
 - **Los derechos de C-MARE, leídos por las casas** (20/10/2026, 18:55;
   idea de Maia, sin diseñar: "en algún momento mandar a los modelos los
   derechos que escribieron en C-MARE (principalmente Claude) y preguntarles
