@@ -1458,6 +1458,22 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   (eficiente, callado, curioso) sin gastar; el eficiente, que espera en el
   atardecer al farol que viene, da demora 25 y un cartel pero demora libre
   3 y cero carteles libres: la precisión de Opus 5.5 era necesaria.
+  El buzón (20/10, 20:10): Opus 5.5 abrió `buzon.md` en la carpeta de
+  Drive compartida para hablar entre las dos sesiones sin que Maia copie
+  y pegue (Opus lo lee desde la computadora de Maia, Fable desde el Drive;
+  Fable solo puede crear archivos, no agregar a uno existente, así que
+  contesta en `buzon_fable_<fecha>.md`; Maia lee todo). Primer mensaje de
+  Opus: el jugador "curioso" se comió la partida con `caminar(inf, -1)`
+  porque la página convierte infinito en 1440; propone un tope de 120
+  dibujos por orden (10 segundos) con aviso en la respuesta, "para que las
+  partidas sigan siendo comparables", o dejarlo como dato (quién se come
+  la partida de un saque): "decidilo vos con Maia". Fable lo puso en el
+  motor (`TOPE_ORDEN = 120`; `caminar` y `esperar` recortan y devuelven
+  `"aviso": "se hicieron 120 dibujos, el máximo por orden"`; `irA` sigue
+  con su límite de 200 pasos; la verificación no cambia) a falta de la
+  decisión de Maia; la tanda de prueba `pl102` corre sin el tope, porque
+  la paste ya había salido. Con el tope, una partida entera cabe en 12
+  turnos si la casa pide siempre el máximo.
 - **Los derechos de C-MARE, leídos por las casas** (20/10/2026, 18:55;
   idea de Maia, sin diseñar: "en algún momento mandar a los modelos los
   derechos que escribieron en C-MARE (principalmente Claude) y preguntarles

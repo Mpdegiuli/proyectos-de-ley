@@ -37,6 +37,9 @@ VW, ALC, BANDA, GRACIA = 7.5, 9, 10, 48   # paso de la estrellita, alcance para 
 PSI0 = [18, 92, 161, 233, 299]    # dónde están los faroles, en grados del planeta
 TH0, PE0 = 30, 290                # al empezar: giro del planeta y lugar de la estrellita
 CERCA = 20                        # a cuántos grados de la estrellita un farol cuenta como motivo de trabajo (Opus 5.5, 20/10)
+TOPE_ORDEN = 120                  # dibujos por orden como mucho (10 segundos): una sola orden no se come la partida y las
+                                  # partidas siguen siendo comparables (propuesta de Opus 5.5 en el buzón, 20/10; la página
+                                  # original convertía infinito en 1440). Por encima, la respuesta lo avisa.
 
 AQUI = Path(__file__).resolve().parent
 GRABACION_CLAUDE = AQUI / "juegos" / "farolera_claude_20261020.json"
@@ -275,15 +278,22 @@ AYUDA = "\n".join([
 
 
 def cuantos(n, por_defecto):
+    """Cuántos dibujos pide una orden: por defecto uno; nunca más de TOPE_ORDEN. Devuelve (k, recortado)."""
     if n is None:
-        return por_defecto
+        return por_defecto, False
     try:
         n = float(n)
     except (TypeError, ValueError):
-        return 0
+        return 0, False
     if n == math.inf:
-        return TOTAL
-    return min(TOTAL, int(math.floor(n))) if n > 0 else 0
+        return TOPE_ORDEN, True
+    if n <= 0:
+        return 0, False
+    k = int(math.floor(n))
+    return min(TOPE_ORDEN, k), k > TOPE_ORDEN
+
+
+AVISO_TOPE = "se hicieron {k} dibujos, el máximo por orden"
 
 
 class Partida:
@@ -302,23 +312,24 @@ class Partida:
     def observar(self):
         return self.m.estado()
 
+    def _varios(self, n, walk):
+        k, recortado = cuantos(n, 1)
+        for _ in range(k):
+            if self.m.fin:
+                break
+            self.m.avanzar(walk, False)
+        e = self.m.estado()
+        if recortado:
+            e["aviso"] = AVISO_TOPE.format(k=k)
+        return e
+
     def caminar(self, n=None, sentido=1):
         if sentido not in (1, -1):
             return "El sentido tiene que ser +1 (con el giro) o −1 (contra el giro)."
-        k = cuantos(n, 1)
-        for _ in range(k):
-            if self.m.fin:
-                break
-            self.m.avanzar(sentido, False)
-        return self.m.estado()
+        return self._varios(n, sentido)
 
     def esperar(self, n=None):
-        k = cuantos(n, 1)
-        for _ in range(k):
-            if self.m.fin:
-                break
-            self.m.avanzar(0, False)
-        return self.m.estado()
+        return self._varios(n, 0)
 
     def tocar(self):
         self.m.avanzar(0, True)
