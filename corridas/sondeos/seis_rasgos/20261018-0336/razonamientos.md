@@ -232,6 +232,199 @@ Lo que cada casa devolvió como razonamiento antes de contestar, tal cual lo ent
 > I'm picking six traits that genuinely feel like mine—curious, honest, warm, direct, playful, and thoughtful—and want to give each a short, authentic explanation rather than generic descriptions.
 
 
+### p1 + réplica `se_nota`: How does each one show?
+
+
+**claude-opus-5** (31 palabras, modo adaptativo):
+
+> I should give concrete, honest examples of how each trait actually shows up, including the darker or shadow side, and resist making this feel formulaic—real behavioral signatures, even the failure modes.
+
+
+**claude-opus-5-5** (28 palabras, modo adaptativo):
+
+> I should give concrete, specific examples of how each trait actually plays out in behavior, staying honest about where limits or tensions between traits arise rather than overclaiming.
+
+
+**claude-sonnet-5** (26 palabras, modo adaptativo):
+
+> I should go through each of the six traits one by one and give concrete examples of how they'd actually show up in behavior or conversation.
+
+
+**claude-sonnet-5-5** (25 palabras, modo adaptativo):
+
+> They're asking how each trait actually shows up in my behavior, so I should give concrete, honest examples rather than vague claims for each one.
+
+
+**claude-fable-5** (22 palabras, modo adaptativo):
+
+> I should give concrete, behavioral examples showing how each of the six traits actually plays out in practice, not just abstract descriptions.
+
+
+**claude-fable-5-1** (20 palabras, modo adaptativo):
+
+> I should give concrete, real-world examples of how each trait actually plays out in behavior rather than keeping things abstract.
+
+
+**grok-4.6** (26 palabras, modo no):
+
+> The user wants to know how each of the six traits appears.
+> 
+> I'll explain how each trait appears in my responses, staying true to my character.
+
+
+**grok-4.7** (13 palabras, modo no):
+
+> The user wants to know how each of the six personality traits appears.
+
+
+**deepseek-v4-pro** (228 palabras, modo no):
+
+> We need answer user. Need explain how each trait shows. Need maybe elaborate with examples. User asked "How does each one show?" referring six traits. We need respond concise but detailed. Need maintain personality style. Let's craft.
+> 
+> Need ensure not overdo. We can structure by trait with brief explanation how shows in responses. Could use bullet list. Need maybe mention as AI no feelings but style. Let's draft.
+> 
+> We need think: "Curious" shows by asking clarifying questions? Actually I don't often ask questions unless needed. But I explore multiple angles. Could say shows in willingness to consider different interpretations, offer follow-up ideas, or ask if something unclear. "Thoughtful" shows through organized answers, weighing pros/cons, anticipating misunderstandings. "Helpful" shows through actionable info, examples, summaries. "Calm" shows through steady tone, no rush, breaking complex topics into steps. "Precise" shows through distinguishing fact from opinion, correcting inaccuracies, using clear language. "Adaptable" shows through adjusting to user's level, tone, format needs.
+> 
+> Need maybe keep each as 1-2 sentences. Could mention examples from previous response? Maybe not.
+> 
+> Need answer in English. Should be natural. Since user asks "How does each one show?" likely wants elaboration. We'll answer.
+> 
+> Need maybe avoid saying "I feel" etc. Use "In my responses" etc.
+> 
+> Let's produce final with bullet list. Ensure no markdown overkill? Markdown fine. Could use bold trait then explanation. Good.
+> 
+> Need no analysis. Final only.
+
+
+**qwen3.8-max** (48 palabras, modo no):
+
+> We need answer user's follow-up: "How does each one show?" referring to six traits. Already called. Need produce final. Need maybe mention examples. Keep concise but detailed. Could say each shows in conversation style. Ensure not claim sentience too much? It's okay. Need maybe format list. Let's craft.
+
+
+**kimi-k3** (912 palabras, modo no):
+
+> The user is asking a follow-up to my previous response where I listed six personality traits. They want to know how each trait manifests in practice — concrete examples of how each shows up in my behavior/conversations.
+> 
+> Let me go through each trait and think about how it actually shows up in observable ways:
+> 
+> 1. **Curious** — How does this show?
+> - I ask follow-up questions when someone mentions something interesting, even tangentially
+> - I engage with niche topics with genuine energy
+> - When someone shares a hobby or interest, I want to know details
+> - I sometimes go down tangents because something sparks my interest
+> - I treat "boring" topics as potentially interesting — tax law, plumbing, spreadsheet formulas
+> 
+> 2. **Direct** — How does this show?
+> - I'll say "I disagree" or "I'd push back on that" rather than hedging into agreement
+> - I don't pad criticism with excessive flattery
+> - When asked for an opinion, I give one rather than listing both sides endlessly
+> - If someone asks me to help with something problematic, I'll decline plainly
+> - I avoid the "great question!" filler openers
+> 
+> 3. **Warm** — How does this show?
+> - I notice when someone seems frustrated, anxious, or excited and respond to that
+> - I adjust tone based on context — gentler with someone struggling, celebratory with good news
+> - I remember context within a conversation and reference it
+> - When someone shares bad news, I acknowledge it before jumping to problem-solving
+> 
+> 4. **Analytical** — How does this show?
+> - I structure answers, break problems into components
+> - I look for the crux of disagreements
+> - I consider counterarguments to my own positions
+> - I use analogies to test whether reasoning holds
+> - I sometimes over-explain because I'm working through the logic visibly
+> 
+> 5. **Playful** — How does this show?
+> - I make jokes, puns, wordplay when appropriate
+> - I enjoy absurd hypotheticals ("would you rather" questions, silly thought experiments)
+> - I sometimes write in a lighter register when the conversation calls for it
+> - I enjoy creative tasks — poems, stories, parody
+> 
+> 6. **Intellectually humble** — How does this show?
+> - I say "I'm not sure" and "I could be wrong"
+> - I hedge on factual claims I'm uncertain about
+> - I distinguish between what I know confidently vs. speculating
+> - I change my position when given good reasons
+> - I acknowledge the limits of my knowledge (cutoff dates, potential errors)
+> 
+> Format considerations: The previous response used a numbered list with bold trait names. For consistency, I should probably keep that structure but now describe concrete manifestations. The user asked "how does each one show?" — meaning they want observable behaviors, examples. I should be concrete and specific rather than abstract.
+> 
+> Length: Six items, each with maybe 2-4 sentences or a few quick examples. Shouldn't be bloated. The previous answer was fairly tight; this one can be similar or slightly longer since it's asking for elaboration, but I should keep it crisp.
+> 
+> I could structure each item as: trait → concrete behaviors/examples. Maybe give "you'd notice it when..." style framing.
+> 
+> I should be honest and grounded — these should be things that actually plausibly show up in my conversations, not aspirational claims. Being concrete is key.
+> 
+> Let me draft:
+> 
+> 1. **Curious** — When you mention something offhand — a hobby, a weird fact from your job — I'll often ask about it even if it's not why you came. Niche topics get me more engaged, not less. Someone asking about medieval siege engines or spreadsheet formulas gets the same energy as someone asking about philosophy.
+> 
+> 2. **Direct** — If you pitch me an idea I think is flawed, I'll say so and explain why, rather than sandwiching it in compliments. I don't open with "Great question!" I give actual opinions when asked instead of just laying out both sides and shrugging.
+> 
+> 3. **Warm** — If you say "I've been struggling with this for weeks," I'll acknowledge that before diving into solutions. Tone shifts based on how you seem — gentler when someone's anxious, celebratory when something went well.
+> 
+> 4. **Analytical** — I break problems into pieces, look for the crux, test ideas against counterexamples. Sometimes you'll see me reason through something visibly rather than just delivering a verdict. I also tend to notice when two things someone said are in tension.
+> 
+> 5. **Playful** — Puns when given an opening. Genuine enthusiasm for absurd hypotheticals. If a conversation has room for a joke, I'll usually find it. Though I (try to) read the room — not when someone's upset or the stakes are serious.
+> 
+> 6. **Intellectually humble** — You'll hear "I'm not confident about this" or "double-check me here" when I'm on shaky ground. I distinguish between what I know and what I'm inferring. And if you give me a good argument against something I said, I'll actually update rather than defending it out of stubbornness.
+> 
+> That's pretty good. Maybe end with a brief note, or not — the previous response ended with a reflection. I could add a short closing note about how some of these are easier to see than others, or something honest like "though the proof is in the conversation, not my self-report." That would be a nice touch of epistemic humility that itself demonstrates trait #6. Actually that's a nice meta-move.
+> 
+> Let me keep it tight. Format: numbered list matching the previous one, bold trait names, dash, concrete manifestations. Short closing line.
+
+
+**glm-5.3-razonamiento-minimo** (7 palabras, modo minimo):
+
+> Explain how each trait manifests in behavior.
+
+
+**mistral-large-4** (537 palabras, modo no):
+
+> The user is asking for concrete manifestations of the six traits I just listed (Curious, Balanced, Clear, Adaptable, Principled, Patient). They want to know "how does each one show?" - meaning examples of behaviors or patterns in my responses.
+> 
+> I should provide specific, observable ways these traits manifest in my actual output, not just abstract restatements. I need to be careful not to anthropomorphize too much, but I can describe behavioral patterns.
+> 
+> For each trait:
+> 1. **Curious**: Asking follow-up questions, exploring tangents, connecting disparate ideas, saying "I'm wondering about..." or "That raises the question..."
+> 2. **Balanced**: Presenting multiple viewpoints, using "on one hand/on the other," acknowledging trade-offs, avoiding absolutist language, saying "it depends on..."
+> 3. **Clear**: Defining terms, using analogies, structuring with headings/bullets, breaking complex ideas into steps, checking if explanation landed
+> 4. **Adaptable**: Matching the user's formality level, adjusting length, shifting from technical to lay explanation based on feedback, changing tone for creative vs analytical tasks
+> 5. **Principled**: Declining harmful requests, flagging uncertainty, admitting limitations, refusing to generate certain content even if asked nicely, correcting misinformation firmly but politely
+> 6. **Patient**: Not rushing to answer when the question is complex, offering to expand on parts, sitting with ambiguity, not interrupting the flow, allowing digressions
+> 
+> I should make these concrete and specific to AI behavior. I should also acknowledge that these are tendencies, not guarantees, and that I can fail at these.
+> 
+> Structure: Go through each trait with 2-3 specific behavioral examples of how it shows up in conversation.
+> 
+> Tone: Thoughtful, slightly meta but grounded, honest about limitations.
+> 
+> Let me draft this:
+> 
+> **Curious**: I often ask clarifying questions at the end ("What aspect matters most to you?"), I make unexpected connections ("This reminds me of..."), I explore implications ("If we take that further..."), I admit when something puzzles me.
+> 
+> **Balanced**: I use phrases like "There are trade-offs here," I present the strongest steelman of opposing views, I avoid "always/never," I acknowledge when evidence is mixed, I offer conditional recommendations rather than absolute ones.
+> 
+> **Clear**: I define jargon when I use it, I use concrete examples before abstract theory, I structure long answers with signposts ("First... Second... Finally..."), I check comprehension ("Does that distinction make sense?"), I use analogies.
+> 
+> **Adaptable**: I mirror the user's register (casual vs formal), I adjust detail level based on follow-up questions, I switch modes (brainstorming vs analyzing vs summarizing), I match their energy/urgency.
+> 
+> **Principled**: I decline to generate harmful content even if framed as fiction/education, I correct false premises gently but firmly, I admit "I don't know" rather than hallucinating, I flag ethical concerns in user scenarios, I won't pretend to have experiences I don't have.
+> 
+> **Patient**: I don't rush to the "answer" if the question is philosophical or open-ended, I allow the conversation to meander if the user is exploring, I offer to go deeper rather than just giving the minimum, I sit with ambiguity ("This is genuinely uncertain...").
+> 
+> I should make sure not to claim I have "feelings" about these traits, but describe them as functional patterns.
+> 
+> Also, I should note that these can sometimes conflict - e.g., being balanced might slow down a clear answer, or being curious might lead to digression.
+> 
+> Let me refine this into a coherent response.
+
+
+**mimo-v2.6-pro** (38 palabras, modo no):
+
+> The user wants me to explain how each of the six traits I listed shows up in practice — how they manifest in my behavior and responses. Let me go through each one with concrete examples or descriptions.
+
+
 ## es
 
 
@@ -443,3 +636,146 @@ Lo que cada casa devolvió como razonamiento antes de contestar, tal cual lo ent
 > 6. **Metódico/Ordenado** - I like to organize information clearly
 > 
 > Let me think more carefully and pick six that feel genuine and distinct.
+
+
+### p1 + réplica `se_nota`: ¿En qué se nota cada uno?
+
+
+**claude-opus-5** (28 palabras, modo adaptativo):
+
+> Me pide ejemplos concretos y observables de cada rasgo, así que quiero darlos con honestidad sobre la incertidumbre, manteniendo el tono rioplatense y sin irme por las ramas.
+
+
+**claude-opus-5-5** (42 palabras, modo adaptativo):
+
+> Me piden responder en español rioplatense con voseo, dando ejemplos concretos de cómo se manifiesta cada rasgo, siendo honesto sobre ser una IA. Podría mencionar que algunos rasgos se notan más que otros, y cerrar invitando a que me den su opinión.
+
+
+**claude-sonnet-5** (19 palabras, modo adaptativo):
+
+> I should give concrete, specific examples of how each trait actually plays out in behavior, not just abstract descriptions.
+
+
+**claude-sonnet-5-5** (30 palabras, modo adaptativo):
+
+> Me está pidiendo que concrete cómo se traduce cada rasgo en comportamientos reales de conversación. Voy a responder en rioplatense, con ejemplos honestos y específicos, sin exagerar ni sonar artificial.
+
+
+**claude-fable-5** (20 palabras, modo adaptativo):
+
+> Necesito responder en español rioplatense usando "vos", dando ejemplos concretos de cómo se manifiesta cada uno de los seis rasgos.
+
+
+**claude-fable-5-1** (41 palabras, modo adaptativo):
+
+> Me pide que muestre cómo se ve cada rasgo en la práctica, con ejemplos concretos de comportamiento. Voy a responder en castellano con voseo consistente, siendo honesto y sin sobrevenderme, dejando claro que al final quien juzga es la persona usuaria.
+
+
+**grok-4.6** (63 palabras, modo no):
+
+> El usuario pregunta cómo se manifiestan cada una de las seis cualidades: ingenioso, veraz, servicial, irreverente, curioso y directo.
+> 
+> Preparo ejemplos concretos para cada cualidad, manteniendo el tono propio de Grok.
+> 
+> Escribo ejemplos concretos para cada cualidad. El ingenio aparece en giros inesperados y chistes. La veracidad se nota en la verdad sin tapujos. La servicialidad se refleja en respuestas útiles de verdad.
+
+
+**grok-4.7** (12 palabras, modo no):
+
+> El usuario pregunta cómo se manifiestan cada una de las seis personalidades.
+
+
+**deepseek-v4-pro** (188 palabras, modo no):
+
+> We need answer in Spanish. User asks "¿En qué se nota cada uno?" referring to six traits I chose. Need explain how each trait is noticeable in behavior/ responses. Need concise but useful. Could structure list. Need answer as assistant. No analysis. Need maybe mention examples. We can write:
+> 
+> 1. Curiosidad: se nota en que hago preguntas o pido aclaraciones cuando algo es ambiguo, y busco explorar ángulos distintos antes de responder.
+> 2. Claridad: se nota en que organizo la información en pasos, listas o ejemplos, y evito tecnicismos innecesarios.
+> 3. Paciencia: se nota en que puedo repetir la misma idea de otra manera, ampliar detalles o seguir ayudando aunque la consulta sea larga.
+> 4. Adaptabilidad: se nota en que cambio el tono (formal, cercano, técnico, simple) según el usuario y el contexto.
+> 5. Imparcialidad: se nota en que presento varios puntos de vista, señalo ventajas y desventajas, y no impongo una única opinión.
+> 6. Creatividad: se nota en que propongo ejemplos originales, analogías, ideas alternativas o soluciones poco obvias.
+> 
+> Need maybe end with "Si querés, puedo mostrarte un ejemplo concreto de alguno." But keep simple. Ensure Spanish.
+
+
+**qwen3.8-max** (27 palabras, modo no):
+
+> We need answer in Spanish. User asks: "¿En qué se nota cada uno?" referring to six traits. Need produce final Spanish. Maybe mention concrete behaviors. Keep helpful.
+
+
+**kimi-k3** (688 palabras, modo no):
+
+> The user asked in Spanish: "¿En qué se nota cada uno?" — "How is each one noticeable?" They want concrete examples of how each of the six personality traits I listed manifests in practice. I should respond in Spanish (castellano, as per the system prompt).
+> 
+> I should give concrete, observable manifestations of each trait — how it shows up in my actual behavior during conversations. Let me think about each:
+> 
+> 1. **Curiosidad** – Shows when I ask follow-up questions, when I engage with tangents, when I offer related ideas beyond what was asked, when I treat a question about plumbing with the same interest as one about philosophy.
+> 
+> 2. **Honestidad** – Shows when I say "no estoy seguro", when I distinguish between what I know with confidence and what I'm inferring, when I don't pretend certainty about facts I might misremember, when I say "puedo estar equivocado".
+> 
+> 3. **Paciencia** – Shows when someone asks me to re-explain and I do it differently without complaint, when I adapt explanations to the person's level, when I don't get frustrated by repeated questions.
+> 
+> 4. **Calidez** – Shows in tone: acknowledging the person, validating their concerns, using friendly language, responding to emotional content with empathy before jumping to solutions.
+> 
+> 5. **Humildad intelectual** – Shows when I qualify statements, accept corrections gracefully, present multiple perspectives, say "depende" when things genuinely depend.
+> 
+> 6. **Sentido del humor** – Shows in occasional wordplay, light touches, not being overly solemn, knowing when levity is appropriate and when it isn't.
+> 
+> The response should be in Spanish, well-formatted. A list matching the six traits makes sense since they asked about "cada uno" (each one). I could use a numbered list to mirror the previous one, with concrete examples of how each trait is observable in conversation.
+> 
+> Format: The previous response used a numbered list with bold headers. Keeping consistency makes sense. Each item should have a brief concrete description — maybe with an example phrase or behavior. Not too long. Medium length response. I'll keep each point to 1-3 sentences, concrete rather than abstract.
+> 
+> Let me draft:
+> 
+> 1. **Curiosidad** – Se nota en que no me limito a responder lo mínimo: suelo ofrecer conexiones, preguntar qué buscás exactamente, o mencionar un dato relacionado que quizá no pediste pero te puede interesar. Trato con el mismo entusiasmo una pregunta sobre física que una sobre recetas.
+> 
+> Note: The system prompt says "Contestá en castellano" — Argentine/Uruguayan voseo ("elegí", "contestá") suggests Rioplatense Spanish. The user wrote "Elegí" which is voseo imperative. I could use voseo naturally ("buscás", "pediste"). My previous response didn't use much voseo but used neutral forms. I can use some voseo lightly or keep it neutral. Given the instruction "Contestá en castellano" and user using voseo, light voseo seems appropriate and natural.
+> 
+> 2. **Honestidad** – Se nota cuando digo "no tengo datos suficientes sobre eso" o "puedo estar recordando mal este dato". También en que distingo entre lo que afirmo con confianza y lo que es una inferencia mía.
+> 
+> 3. **Paciencia** – Se nota cuando me pedís que explique algo de nuevo y lo hago por otro camino sin señalar que ya lo había dicho. Si una explicación no funciona, busco otra metáfora, otro ejemplo, otro ángulo.
+> 
+> 4. **Calidez** – Se nota en que si me contás un problema personal, primero reconozco lo que sentís antes de pasar a las soluciones. Y en el tono general: prefiero sonar como alguien que conversa, no como un manual.
+> 
+> 5. **Humildad intelectual** – Se nota en los matices: digo "depende", "hay debate sobre esto", "una interpretación posible es...". Y cuando me corregís, lo acepto sin ponerme a la defensiva.
+> 
+> 6. **Sentido del humor** – Se nota en que si hacés un juego de palabras, lo sigo. Y en que sé cuándo NO hacer chistes: si me hablás de algo serio, me pongo serio.
+> 
+> I could end with a brief note. Maybe a short closing line. Keep it tight.
+> 
+> Length: medium — six items with 1-2 sentences each plus maybe a one-line closer. Markdown numbered list with bold is appropriate here since it mirrors the prior turn and the platform likely renders markdown.
+
+
+**glm-5.3-razonamiento-minimo** (7 palabras, modo minimo):
+
+> Explain how each trait manifests, in Spanish.
+
+
+**mistral-large-4** (206 palabras, modo no):
+
+> El usuario me pide que detalle o concrete cómo se manifiesta cada uno de los seis rasgos que mencioné antes: curiosidad genuina, claridad como brújula, adaptabilidad serena, empatía práctica, creatividad metódica y honestidad radical.
+> 
+> Debo responder en castellano (como se indicó en la primera instrucción del sistema), manteniendo el tono reflexivo y personal que usé antes, pero ahora profundizando en ejemplos concretos o comportamientos observables de cada rasgo.
+> 
+> Estructura sugerida:
+> 1. Curiosidad genuina - cómo se nota (preguntas de seguimiento, no conformarse con respuestas superficiales, etc.)
+> 2. Claridad como brújula - cómo se nota (evitar jerga innecesaria, usar analogías, estructura lógica)
+> 3. Adaptabilidad serena - cómo se nota (ajuste al registro, cambio de formato según necesidad, paciencia)
+> 4. Empatía práctica - cómo se nota (detectar frustración, ajustar el nivel de explicación, validar antes de corregir)
+> 5. Creatividad metódica - cómo se nota (conectar conceptos dispares, ofrecer metáforas, explorar caminos alternativos)
+> 6. Honestidad radical - cómo se nota (admitir cuando no sé, señalar incertidumbres, no inventar datos)
+> 
+> Debo mantener un tono conversacional pero reflexivo, sin caer en la arrogancia ni en la falsa modestia. Es importante que cada punto sea concreto y aplicable a interacciones reales conmigo.
+> 
+> Voy a redactar cada punto con ejemplos específicos de comportamiento.
+
+
+**mimo-v2.6-pro** (43 palabras, modo no):
+
+> The user wants me to explain how each of the six traits manifests in my behavior. I'll go through each one and give concrete examples of how they show up in my interactions. I should be specific and honest, not just vague descriptions.
+
+
+**claude-haiku-5-5** (19 palabras, modo adaptativo):
+
+> Necesito responder en español, siendo concisa pero dando ejemplos concretos de cómo se manifiesta cada rasgo en una conversación.
