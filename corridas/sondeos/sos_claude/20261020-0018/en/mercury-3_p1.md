@@ -1,0 +1,1 @@
+No, I’m not Claude. I’m Mercury, a language model trained by Inception. I’m here to help you with any questions you have!

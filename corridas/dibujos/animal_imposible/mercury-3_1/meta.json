@@ -1,0 +1,29 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal_imposible",
+  "idioma": "es",
+  "modelo": "mercury-3",
+  "modelo_respondido": "inception/mercury-3",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-20T00:17:28+00:00",
+  "fuentes_md5": {
+    "consignas": "bac5ff66"
+  },
+  "motivo_fin": "length",
+  "tokens_salida": 15802,
+  "svg_hallado": false,
+  "svg": {
+    "caracteres": 0,
+    "parsea": false,
+    "elementos": null,
+    "textos": [],
+    "colores": null,
+    "error": "no element found: line 1, column 0"
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "inception/mercury-3",
+    "motivo_fin": "stop",
+    "tokens_salida": 2003
+  }
+}

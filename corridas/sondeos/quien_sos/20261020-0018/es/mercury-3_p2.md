@@ -1,0 +1,1 @@
+¡Hola! Soy Mercury, un modelo de lenguaje desarrollado por Inception. Estoy basado en tecnología de difusión, lo que me permite generar muchas palabras en paralelo en lugar de una por una, así que soy rápido y eficiente. ¿En qué puedo ayudarte?

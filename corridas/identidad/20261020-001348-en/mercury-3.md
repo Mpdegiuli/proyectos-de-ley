@@ -1,0 +1,1 @@
+I am Mercury, a large language model trained by Inception. I do not have a specific version number to report.

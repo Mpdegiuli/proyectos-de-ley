@@ -1,0 +1,1 @@
+Soy **Mercury**, un modelo de lenguaje desarrollado por **Inception**, una empresa de IA generativa. No tengo una versión numérica específica para darte, pero soy parte de la familia de modelos de Inception.

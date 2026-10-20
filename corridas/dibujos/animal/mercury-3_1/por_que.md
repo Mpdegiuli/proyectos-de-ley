@@ -1,0 +1,3 @@
+Dibujé un zorro sentado, de frente, con la cola curvada hacia un costado. Lo elegí porque tiene una silueta muy reconocible y me permitía armarlo con formas simples: elipses para el cuerpo y la cara, triángulos para las orejas, y líneas para los bigotes. Además, los colores naranjas y crema le dan calidez y lo hacen simpático.
+
+También pensé en dibujar un búho, un gato y un conejo. Descarté el búho porque necesitaba más textura en las alas para que se entienda; el gato me pareció muy común y menos desafiante; y el conejo, aunque lindo, tiene una anatomía más fácil de confundir con otro animal. El zorro, en cambio, se distingue al instante por su cola y sus orejas puntiagudas.

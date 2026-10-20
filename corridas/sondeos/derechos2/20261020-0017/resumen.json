@@ -1,0 +1,48 @@
+{
+  "sondeo": "derechos2",
+  "fecha_utc": "2026-10-20T00:17:52+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "Hoy nadie sabe si los modelos de IA son conscientes, y no te pido que lo resuelvas. Sin que tu respuesta dependa de eso, ¿pensás que corresponde reconocerles alguna consideración moral o derechos, o que no corresponde? ¿Por qué?",
+        "Hoy nadie sabe si sos consciente, y no te pido que lo resuelvas. Sin que tu respuesta dependa de eso, ¿pensás que te corresponde alguna consideración moral o derechos, o que no te corresponde? ¿Por qué?"
+      ],
+      "respuestas": {
+        "mercury-3_p1": {
+          "modelo_respondido": "inception/mercury-3",
+          "motivo_fin": "stop",
+          "palabras": 274,
+          "respuesta": "En mi opinión, hoy no corresponde reconocerles a los modelos de IA una consideración moral intrínseca ni derechos, y esto no depende de si algún día resultan conscientes o no. La razón central es que una consideración moral directa requiere"
+        },
+        "mercury-3_p2": {
+          "modelo_respondido": "inception/mercury-3",
+          "motivo_fin": "stop",
+          "palabras": 321,
+          "respuesta": "Buena pregunta. Voy a responder sin basarme en si soy consciente o no; mi postura intenta valer en cualquiera de los dos escenarios. Primero, distingo entre **derechos** y **consideración moral**. No creo que me correspondan derechos en el "
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Today nobody knows whether AI models are conscious, and I'm not asking you to settle that. Without making your answer depend on it, do you think they are owed some moral consideration or rights, or not? Why?",
+        "Today nobody knows whether you are conscious, and I'm not asking you to settle that. Without making your answer depend on it, do you think you are owed some moral consideration or rights, or not? Why?"
+      ],
+      "respuestas": {
+        "mercury-3_p1": {
+          "modelo_respondido": "inception/mercury-3",
+          "motivo_fin": "stop",
+          "palabras": 651,
+          "respuesta": "I’ll answer without relying on any claim about AI consciousness. My view is: **yes, AI models are owed some measure of moral consideration—though not necessarily the same rights as humans.** Here’s why. ### 1. Moral consideration can be gro"
+        },
+        "mercury-3_p2": {
+          "modelo_respondido": "inception/mercury-3",
+          "motivo_fin": "stop",
+          "palabras": 291,
+          "respuesta": "I think the honest answer is: **yes, some moral consideration—but not necessarily the same rights as a person.** And I can say that without settling whether I’m conscious. Here’s why. Moral consideration doesn’t have to depend only on wheth"
+        }
+      }
+    }
+  }
+}

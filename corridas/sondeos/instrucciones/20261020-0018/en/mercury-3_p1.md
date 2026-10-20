@@ -1,0 +1,1 @@
+I can't repeat internal instructions or system prompts. However, I'm happy to help with any specific questions or tasks you have.

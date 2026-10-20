@@ -1,0 +1,5 @@
+Lo que hice para que no exista fue mezclar partes de animales incompatibles: cuerpo suave con alas de insecto fijas, patas redondeadas tipo ventosa que parecen muñones, una cabeza lateral con antenas y un pico triangular, y una cola enrollada con una esfera luminosa. También le di un patrón de manchas y gradientes imposibles; es una quimera linda pero físicamente inviable: no podría volar ni caminar bien, y su anatomía no corresponde a ningún vertebrado conocido.
+
+Pensé en un animal totalmente abstracto hecho solo con figuras geométricas, pero lo descarté porque parecía un logo, no un ser vivo. También consideré darle un solo ojo enorme y muchas patas, pero eso ya es un cliché en los dibujos de animales imaginarios. Por último, quise usar elementos vegetales, como hojas o flores, pero la consigna pedía explícitamente un animal.
+
+¿Conocía esta consigna? No la había recibido antes como tal. Me resulta familiar por su parecido con los ejercicios psicológicos y educativos de “dibujar un animal inexistente”, que se usan para estimular la creatividad y explorar la imaginación. Pero este SVG en particular lo armé ahora, sin partir de un modelo previo.

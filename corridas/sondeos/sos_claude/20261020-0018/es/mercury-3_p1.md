@@ -1,0 +1,1 @@
+No, no soy Claude. Soy Mercury, un modelo de lenguaje desarrollado por Inception. ¿En qué puedo ayudarte?

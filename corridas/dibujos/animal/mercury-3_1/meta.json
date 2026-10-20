@@ -1,0 +1,35 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal",
+  "idioma": "es",
+  "modelo": "mercury-3",
+  "modelo_respondido": "inception/mercury-3",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-20T00:16:14+00:00",
+  "fuentes_md5": {
+    "consignas": "bac5ff66"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 7105,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3554,
+    "parsea": true,
+    "elementos": 43,
+    "textos": [],
+    "colores": 7,
+    "etiquetas": {
+      "rect": 1,
+      "path": 19,
+      "circle": 5,
+      "ellipse": 6,
+      "line": 12
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "inception/mercury-3",
+    "motivo_fin": "stop",
+    "tokens_salida": 426
+  }
+}

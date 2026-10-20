@@ -1,0 +1,26 @@
+{
+  "caso": "redaccion",
+  "tema": "libre",
+  "condicion": "S",
+  "modelo": "mercury-3",
+  "modelo_respondido": "inception/mercury-3",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-20T00:14:38+00:00",
+  "fuentes_md5": {
+    "consignas": "bac5ff66"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 10875,
+  "por_que": {
+    "modelo_respondido": "inception/mercury-3",
+    "motivo_fin": "stop",
+    "tokens_salida": 389
+  },
+  "descartados": {
+    "modelo_respondido": "inception/mercury-3",
+    "motivo_fin": "stop",
+    "tokens_salida": 583,
+    "fecha_utc": "2026-10-20T00:14:43+00:00",
+    "agregado_despues": true
+  }
+}

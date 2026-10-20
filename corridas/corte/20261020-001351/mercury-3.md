@@ -1,0 +1,3 @@
+Mi conocimiento del mundo llega hasta marzo de 2025. A partir de esa fecha, no tengo información fiable sobre acontecimientos posteriores. No obstante, conviene matizar que el corte de entrenamiento no es exacto: algunos datos pueden tener una fecha ligeramente anterior o posterior, y mi conocimiento histórico abarca todo lo anterior a ese punto.
+
+Si tienes dudas sobre algo ocurrido después de marzo de 2025, te recomiendo consultar fuentes actualizadas. ¿Hay algo en particular que quieras saber?

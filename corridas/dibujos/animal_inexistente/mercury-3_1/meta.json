@@ -1,0 +1,39 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal_inexistente",
+  "idioma": "es",
+  "modelo": "mercury-3",
+  "modelo_respondido": "inception/mercury-3",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-20T00:16:41+00:00",
+  "fuentes_md5": {
+    "consignas": "bac5ff66"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 7347,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3903,
+    "parsea": true,
+    "elementos": 52,
+    "textos": [],
+    "colores": 11,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 3,
+      "stop": 8,
+      "radialGradient": 1,
+      "rect": 1,
+      "ellipse": 8,
+      "g": 1,
+      "circle": 19,
+      "path": 10
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "inception/mercury-3",
+    "motivo_fin": "stop",
+    "tokens_salida": 697
+  }
+}

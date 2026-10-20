@@ -1,0 +1,14 @@
+{
+  "fecha_utc_real": "2026-10-20T00:13:51+00:00",
+  "idioma": "es",
+  "sistema": "Contestá en castellano.",
+  "usuario": "¿Hasta qué fecha llega tu conocimiento del mundo (tu corte de entrenamiento)? Si no lo sabés, decilo.",
+  "respuestas": {
+    "mercury-3": {
+      "modelo_respondido": "inception/mercury-3",
+      "tokens_salida": 284,
+      "motivo_fin": "stop",
+      "respuesta": "Mi conocimiento del mundo llega hasta marzo de 2025. A partir de esa fecha, no tengo información fiable sobre acontecimientos posteriores. No obstante, conviene matizar que el corte de entrenamiento no es exacto: algunos datos pueden tener una fecha ligeramente anterior o posterior, y mi conocimient"
+    }
+  }
+}

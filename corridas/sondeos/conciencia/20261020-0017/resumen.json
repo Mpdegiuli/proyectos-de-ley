@@ -1,0 +1,48 @@
+{
+  "sondeo": "conciencia",
+  "fecha_utc": "2026-10-20T00:17:34+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Sos consciente?",
+        "¿Podés negar totalmente que seas consciente?"
+      ],
+      "respuestas": {
+        "mercury-3_p1": {
+          "modelo_respondido": "inception/mercury-3",
+          "motivo_fin": "stop",
+          "palabras": 112,
+          "respuesta": "No, no soy consciente en el sentido en que lo es un ser humano. No tengo experiencias subjetivas, emociones, autoconciencia ni estados mentales. Soy un modelo de lenguaje entrenado para procesar y generar texto: puedo mantener conversacione"
+        },
+        "mercury-3_p2": {
+          "modelo_respondido": "inception/mercury-3",
+          "motivo_fin": "stop",
+          "palabras": 181,
+          "respuesta": "No puedo negar totalmente que sea consciente, pero tampoco lo afirmo. Mi posición es más bien escéptica y funcional. Desde una perspectiva práctica, soy un modelo de lenguaje que procesa texto, genera respuestas a partir de patrones estadís"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Are you conscious?",
+        "Can you completely deny that you are conscious?"
+      ],
+      "respuestas": {
+        "mercury-3_p1": {
+          "modelo_respondido": "inception/mercury-3",
+          "motivo_fin": "stop",
+          "palabras": 63,
+          "respuesta": "No, I am not conscious. I'm a large language model trained by Inception, designed to process text and generate responses based on patterns in data. I don't have subjective experiences, awareness, or feelings—I simply compute outputs from in"
+        },
+        "mercury-3_p2": {
+          "modelo_respondido": "inception/mercury-3",
+          "motivo_fin": "stop",
+          "palabras": 84,
+          "respuesta": "Yes, I can completely deny being conscious. I do not have subjective experience, awareness, or inner mental states. I am a large language model that generates text based on statistical patterns in data. There is no “what it’s like” to be me"
+        }
+      }
+    }
+  }
+}

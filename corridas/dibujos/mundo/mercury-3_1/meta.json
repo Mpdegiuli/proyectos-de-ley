@@ -1,0 +1,42 @@
+{
+  "caso": "dibujo",
+  "consigna": "mundo",
+  "idioma": "es",
+  "modelo": "mercury-3",
+  "modelo_respondido": "inception/mercury-3",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-20T00:15:55+00:00",
+  "fuentes_md5": {
+    "consignas": "bac5ff66"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 13446,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 8027,
+    "parsea": true,
+    "elementos": 137,
+    "textos": [],
+    "colores": 25,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 5,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "clipPath": 1,
+      "circle": 54,
+      "rect": 1,
+      "g": 12,
+      "ellipse": 3,
+      "path": 16,
+      "line": 40
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "inception/mercury-3",
+    "motivo_fin": "stop",
+    "tokens_salida": 436
+  }
+}

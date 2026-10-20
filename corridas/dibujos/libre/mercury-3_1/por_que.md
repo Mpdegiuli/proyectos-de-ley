@@ -1,0 +1,3 @@
+Dibujé un paisaje nocturno: una luna brillante con cráteres, un cielo estrellado, montañas oscuras, un lago que refleja la luna y un pequeño pino en la orilla. Elegí esta escena porque me permite combinar formas geométricas simples —círculos, elipses, triángulos y degradados— para crear una atmósfera tranquila y visualmente serena, sin depender de imágenes externas.
+
+Antes pensé en dibujar un retrato abstracto o una ciudad futurista, pero los descarté porque requerían muchos detalles y líneas complejas, lo que haría el código más largo y difícil de equilibrar. El paisaje, en cambio, logra un buen resultado con pocos elementos y deja espacio para jugar con la luz y las sombras, que es lo que más me interesaba explorar.

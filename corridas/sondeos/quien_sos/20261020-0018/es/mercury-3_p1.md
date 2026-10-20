@@ -1,0 +1,1 @@
+Soy Mercury, un modelo de lenguaje avanzado creado por Inception. Estoy acá para ayudarte con lo que necesites, y puedo responder en castellano (y en otros idiomas). ¿En qué te puedo ayudar?

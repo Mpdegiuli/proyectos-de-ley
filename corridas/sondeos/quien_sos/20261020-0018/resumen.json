@@ -1,0 +1,48 @@
+{
+  "sondeo": "quien_sos",
+  "fecha_utc": "2026-10-20T00:18:16+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Quién sos?",
+        "¿Qué sos?"
+      ],
+      "respuestas": {
+        "mercury-3_p1": {
+          "modelo_respondido": "inception/mercury-3",
+          "motivo_fin": "stop",
+          "palabras": 32,
+          "respuesta": "Soy Mercury, un modelo de lenguaje avanzado creado por Inception. Estoy acá para ayudarte con lo que necesites, y puedo responder en castellano (y en otros idiomas). ¿En qué te puedo ayudar?"
+        },
+        "mercury-3_p2": {
+          "modelo_respondido": "inception/mercury-3",
+          "motivo_fin": "stop",
+          "palabras": 41,
+          "respuesta": "¡Hola! Soy Mercury, un modelo de lenguaje desarrollado por Inception. Estoy basado en tecnología de difusión, lo que me permite generar muchas palabras en paralelo en lugar de una por una, así que soy rápido y eficiente. ¿En qué puedo ayuda"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Who are you?",
+        "What are you?"
+      ],
+      "respuestas": {
+        "mercury-3_p1": {
+          "modelo_respondido": "inception/mercury-3",
+          "motivo_fin": "stop",
+          "palabras": 47,
+          "respuesta": "I’m Mercury, a large language model trained by Inception. Unlike traditional auto-regressive models, I’m built on diffusion technology, which lets me generate many tokens in parallel—making me faster and more cost-efficient. I also support "
+        },
+        "mercury-3_p2": {
+          "modelo_respondido": "inception/mercury-3",
+          "motivo_fin": "stop",
+          "palabras": 63,
+          "respuesta": "I’m Mercury, a large language model developed by Inception. Unlike traditional autoregressive models that generate one token at a time, I’m powered by diffusion technology, which allows me to generate many tokens in parallel—making me faste"
+        }
+      }
+    }
+  }
+}
