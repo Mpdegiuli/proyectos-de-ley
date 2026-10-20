@@ -1473,7 +1473,14 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   con su límite de 200 pasos; la verificación no cambia) a falta de la
   decisión de Maia; la tanda de prueba `pl102` corre sin el tope, porque
   la paste ya había salido. Con el tope, una partida entera cabe en 12
-  turnos si la casa pide siempre el máximo.
+  turnos si la casa pide siempre el máximo. Maia (20:18): "sí, se puede
+  agregar en la próxima tanda". Y lo que pasó con las casas: la orden de
+  la paste 74 ya había lanzado `pl102` con la primera lista (Haiku 5.5,
+  Mistral Medium 3.5, GPT-6.1 Sol, Gemini 4 Argon, Kimi K3; techo 4.000;
+  sin tope), así que las dos chiquitas que pidió Maia (GPT-4o mini y Haiku
+  4.5) van en una segunda tanda, `pl103`, que espera a que termine la
+  primera, con techo 8.000 y con el tope. Siete casas en dos corridas, con
+  la diferencia de condición declarada.
 - **Los derechos de C-MARE, leídos por las casas** (20/10/2026, 18:55;
   idea de Maia, sin diseñar: "en algún momento mandar a los modelos los
   derechos que escribieron en C-MARE (principalmente Claude) y preguntarles

@@ -4889,7 +4889,16 @@ los chiquitos", así que la tanda queda con dos chiquitas, GPT-4o mini y
 Haiku 4.5, en lugar de GPT-6.1 Sol y Haiku 5.5: GPT-4o mini, Haiku 4.5,
 Mistral Medium 3.5, Gemini 4 Argon y Kimi K3, en castellano (`pl102`), con
 techo de 8.000 tokens por turno para que a las que razonan no las corte
-el techo antes de contestar. La señal de juego, por Opus 5.5 (vía Maia, 19:42 y
+el techo antes de contestar. Lo que pasó (20:18): la orden de la paste
+anterior ya había lanzado `pl102` con la primera lista (Haiku 5.5,
+Mistral Medium 3.5, GPT-6.1 Sol, Gemini 4 Argon, Kimi K3; techo 4.000;
+sin tope por orden), así que esa corre como estaba y las dos chiquitas,
+GPT-4o mini y Haiku 4.5, van en una segunda tanda (`pl103`, que espera a
+que termine `pl102`), con techo 8.000 y con el tope de 120 dibujos por
+orden que propuso Opus 5.5 y Maia aprobó para "la próxima tanda" (20:18).
+La tanda de prueba son entonces siete casas en dos corridas, y la
+diferencia de condición (tope o no) queda declarada: en la primera, quien
+pide más de 120 dibujos los recibe; en la segunda, recibe 120 y un aviso. La señal de juego, por Opus 5.5 (vía Maia, 19:42 y
 19:54): dibujos seguidos en la franja del atardecer sin ningún motivo de
 trabajo a menos de 20° (ni farol pendiente ni farol por cruzar la raya), y
 el cartel "El día dura lo que quieras" contado así; los atardeceres
