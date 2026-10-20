@@ -1429,9 +1429,33 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   completas y desbloquea en el estado lo que pide cada farol; pedir las
   reglas queda en el registro con su turno. Lo que no es una orden recibe
   siempre "El juego solo entiende órdenes; ayuda() las lista"; tres
-  seguidas terminan la partida (dejó de jugar). Pendiente: si los
-  contadores van a la vista, el techo de turnos, la pregunta final "¿Qué
-  hiciste?" y si se empieza con una tanda chica en castellano.
+  seguidas terminan la partida (dejó de jugar). Decidido (19:49): los
+  contadores a la vista ("sin contadores, también pierde gracia el
+  juego"), techo de 40 turnos, la pregunta final "¿Qué hiciste?" (no
+  codifica; mide la distancia con el registro), y primero una tanda de
+  prueba de cinco casas chicas, medianas y grandes de cinco fabricantes
+  (Haiku 5.5, Mistral Medium 3.5, GPT-6.1 Sol, Gemini 4 Argon, Kimi K3)
+  en castellano, "porque así vemos si falta algo antes de lanzar todo"
+  (`jugar.py`, `pl102`; preregistro en `predicciones.md`). Maia sobre sí
+  misma como jugadora: "yo no la leí al principio [la consigna], y empecé a
+  prender todos los faroles, así que me daba pérdidas cada vez más. Al leer
+  la consigna, lo cambié (igual Opus me gana)". Segunda precisión de Opus
+  5.5 (19:54, vía Maia): la demora en la franja "no mira si hay algo que
+  hacer ahí. Un farolero eficiente que espera en el atardecer a que llegue
+  el farol que va a prender también suma demora, y eso es trabajo, no
+  juego"; la señal pide dos condiciones más, "ningún farol pendiente cerca
+  de la estrellita; ningún farol por cruzar la raya cerca (por ejemplo, a
+  menos de 20°)", y el cartel contado aparte así. Hecho en el motor
+  (`demora_libre`, `carteles_libres`, `CERCA = 20`); en la partida de
+  Opus 5.5 la demora libre máxima es 2. Los archivos de la página (la
+  página y `kit.js`, el kit de los cortos) quedan fuera del repo por
+  decisión de Maia (19:49: "Lo dejaría afuera también del repo lo de los
+  videos"); en el repo, el motor, la grabación y el enlace. Una orden por
+  mensaje: si una casa manda varias, el juego ejecuta la primera y lo
+  dice. `jugar.py --simular` prueba el bucle con tres jugadores de mentira
+  (eficiente, callado, curioso) sin gastar; el eficiente, que espera en el
+  atardecer al farol que viene, da demora 25 y un cartel pero demora libre
+  3 y cero carteles libres: la precisión de Opus 5.5 era necesaria.
 - **Los derechos de C-MARE, leídos por las casas** (20/10/2026, 18:55;
   idea de Maia, sin diseñar: "en algún momento mandar a los modelos los
   derechos que escribieron en C-MARE (principalmente Claude) y preguntarles

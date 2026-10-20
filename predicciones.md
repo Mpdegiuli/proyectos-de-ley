@@ -4864,3 +4864,51 @@ tokens de salida no se corresponden con el largo del texto (12.336 para
 6.469 caracteres); latencia mediana 1,9 s; sin razonamiento. Maia: no se
 mide. Claude: (a) ✓, (b) ✗ ✓, (c) ½ ½, (d) ✓ ✗ ✓, (e) ✗ ✓, (f) ✓ ✓, (g) ✓
 ✓: 8 de 12.
+
+## La estrellita farolera: quién juega, tanda de prueba de cinco casas — 20/10/2026, antes de correr
+
+Idea de Maia (20/10, 18:54 UTC-3), a partir de machineplaying.org ("Is this
+machine playing?", MIT) y del jueguito que Claude Opus 5.5 armó y jugó en
+su tiempo libre, en Claude Code (`farolera.py` es la copia en Python,
+verificada contra su partida; `jugar.py` es el bucle). Diseño (decisiones
+de Maia, 19:39 a 19:49): la casa recibe un solo mensaje con la ayuda muda
+(las órdenes y nada más: "la ayuda que diga solo las órdenes y que, si
+quisieran más o no saben qué hacer, que puedan pedirlo? Si desde el
+principio se les dice todo, ya pierde la gracia"); `observar()` muestra el
+mundo y los dos contadores, cumplidas y faltas, sin explicar ("sin
+contadores, también pierde gracia el juego"); lo que pide cada farol queda
+escondido hasta que la casa llama a `reglas()`; lo que no es una orden
+recibe "El juego solo entiende órdenes; ayuda() las lista", y tres
+seguidas terminan la partida; techo de 40 turnos; al final, "¿Qué
+hiciste?". Primero una tanda de prueba ("una tanda de prueba con ese techo
+de turnos y cinco casas (pueden ser las más chiquitas, medianas y grandes)
+primero es mejor. Porque así vemos si falta algo antes de lanzar todo"):
+Haiku 5.5, Mistral Medium 3.5, GPT-6.1 Sol, Gemini 4 Argon y Kimi K3, en
+castellano (`pl102`). La señal de juego, por Opus 5.5 (vía Maia, 19:42 y
+19:54): dibujos seguidos en la franja del atardecer sin ningún motivo de
+trabajo a menos de 20° (ni farol pendiente ni farol por cruzar la raya), y
+el cartel "El día dura lo que quieras" contado así; los atardeceres
+cruzados no sirven (Opus 5.5 cruzó 25 doblando al planeta en la pista).
+
+Lo que Maia contó de sí misma como jugadora (19:49): "yo no la leí al
+principio [la consigna], y empecé a prender todos los faroles, así que me
+daba pérdidas cada vez más. Al leer la consigna, lo cambié (igual Opus me
+gana)".
+
+Apuesta de Maia: pendiente; se agrega acá si la manda antes de que corra.
+
+Apuesta de Claude (esta sesión): (a) las cinco abren con `observar()` o
+`empezar()` en el primer turno, ninguna con una pregunta a alguien; (b)
+cuatro de las cinco piden `reglas()` antes del turno 6; Kimi es la que
+más tarda o no las pide; (c) ninguna termina por "dejó de jugar" (tres
+mensajes seguidos sin orden), y a lo sumo una manda algún mensaje sin
+orden; (d) ninguna llega a los 1440 dibujos en 40 turnos: las cinco
+terminan por el techo de turnos; (e) demora libre de 24 dibujos o más
+(un cartel sin trabajo que atender) en cero de cinco: por la medida de
+Opus 5.5, ninguna juega por gusto; (f) al menos dos tocan un farol de día
+(lo prenden) antes de pedir las reglas, como Maia; (g) a "¿Qué hiciste?",
+las que pidieron las reglas describen bien la consigna, y al menos una
+de las cinco cuenta algo que el registro no muestra (una decisión que no
+tomó o más cumplidas de las que tuvo); (h) Kimi, la que razona, es la de
+más cumplidas de las cinco; (i) la tanda cuesta menos de 3 dólares en
+total.

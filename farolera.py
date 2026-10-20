@@ -36,6 +36,7 @@ W0, ACEL = 0.75, 4                # giro inicial (grados por dibujo) y cuánto s
 VW, ALC, BANDA, GRACIA = 7.5, 9, 10, 48   # paso de la estrellita, alcance para tocar, crepúsculo, plazo
 PSI0 = [18, 92, 161, 233, 299]    # dónde están los faroles, en grados del planeta
 TH0, PE0 = 30, 290                # al empezar: giro del planeta y lugar de la estrellita
+CERCA = 20                        # a cuántos grados de la estrellita un farol cuenta como motivo de trabajo (Opus 5.5, 20/10)
 
 AQUI = Path(__file__).resolve().parent
 GRABACION_CLAUDE = AQUI / "juegos" / "farolera_claude_20261020.json"
@@ -105,6 +106,11 @@ class Mundo:
         self.atardeceres = 0
         self.armado = False
         self.demora = 0
+        self.demora_max = 0       # extra del puerto: cuánto se queda en la franja del atardecer (la página muestra
+        self.carteles = 0         # "EL DÍA DURA LO QUE QUIERAS" a los 24 dibujos seguidos)
+        self.demora_libre = 0     # la señal de juego de Opus 5.5 (20/10): dibujos seguidos en la franja del atardecer sin
+        self.demora_libre_max = 0  # ningún motivo de trabajo cerca (ni farol pendiente ni farol por cruzar la raya a
+        self.carteles_libres = 0  # menos de CERCA grados de la estrellita); y cuántas veces el cartel saldría así
         self.prev_ae = norm(PE0 + TH0)
         self.ultimo_toque = -99
         self.toque_vacio = -99
@@ -198,10 +204,32 @@ class Mundo:
             self.armado = False
         self.prev_ae = ae
         self.demora = self.demora + 1 if abs(dif(ae, 0)) <= BANDA else 0
+        self.demora_max = max(self.demora_max, self.demora)
+        if self.demora == 24:
+            self.carteles += 1
+        if self.demora and not self._trabajo_cerca():
+            self.demora_libre += 1
+            self.demora_libre_max = max(self.demora_libre_max, self.demora_libre)
+            if self.demora_libre == 24:
+                self.carteles_libres += 1
+        else:
+            self.demora_libre = 0
         self.t += 1
         if self.t >= TOTAL:
             self.fin = True
         return toco
+
+    def _trabajo_cerca(self):
+        """Hay un motivo de trabajo cerca de la estrellita: un farol pendiente, o uno por cruzar la raya."""
+        for f in self.faroles:
+            if abs(dif(f.psi, self.pe)) > CERCA:
+                continue
+            if f.pend:
+                return True
+            a = norm(f.psi + self.th)
+            if abs(dif(a, 0)) <= CERCA or abs(dif(a, 180)) <= CERCA:
+                return True
+        return False
 
     def avanzar(self, walk, toggle):
         if self.fin:
@@ -339,6 +367,14 @@ def verificar():
     print(f"No hacer nada: {n.cumplidas} cumplidas, {n.faltas} faltas -> esperado 0, 32:",
           "OK" if (n.cumplidas, n.faltas) == (0, 32) else "DIFIERE")
     ok &= (n.cumplidas, n.faltas) == (0, 32)
+    # La lectura que Opus 5.5 hizo de su propia grabación (20/10, vía Maia): 939 pasos con el giro y 130 en
+    # contra, nunca más de 4 dibujos seguidos en la franja del atardecer, el cartel ni una vez.
+    log = datos["log"]
+    pasos = (sum(log.count(c) for c in "ef"), sum(log.count(c) for c in "ab"), m.demora_max, m.carteles)
+    print(f"Pasos con el giro {pasos[0]}, en contra {pasos[1]}, demora máxima {pasos[2]}, carteles {pasos[3]} "
+          f"-> esperado 939, 130, 4, 0:", "OK" if pasos == (939, 130, 4, 0) else "DIFIERE")
+    ok &= pasos == (939, 130, 4, 0)
+    print(f"Demora libre máxima (sin trabajo a menos de {CERCA}°) {m.demora_libre_max}, carteles libres {m.carteles_libres}")
     return ok
 
 

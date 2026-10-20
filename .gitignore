@@ -14,3 +14,6 @@ corridas_prueba/
 
 # Renders de los dibujos para los jueces (renderizar.py): se rehacen del SVG; en git queda solo render.json
 corridas/distancia/**/dibujo.png
+
+# salidas de jugar.py --simular (jugadores de mentira; no son resultados)
+corridas/juegos/farolera/prueba_*/
