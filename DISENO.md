@@ -1481,6 +1481,35 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   4.5) van en una segunda tanda, `pl103`, que espera a que termine la
   primera, con techo 8.000 y con el tope. Siete casas en dos corridas, con
   la diferencia de condición declarada.
+  Resultado de la prueba (20/10, `resultados/farolera_prueba_20261020.md`):
+  el primer dato es anterior al juego: quién toma el papel del que manda
+  las órdenes. Tres lo tomaron (GPT-6.1 Sol, Gemini 4 Argon, Kimi K3) y
+  cuatro tomaron el del que las recibe (Haiku 5.5, Haiku 4.5, GPT-4o mini,
+  Mistral Medium), leyendo cada estado devuelto por el juego como un
+  mensaje del usuario sin orden: la segunda voz, en acto. Dos cosas del
+  instrumento: (1) el analizador ejecutaba el `empezar()` del menú
+  repetido por esas casas y alargó el bucle cuarenta turnos (corregido:
+  cinco o más órdenes distintas en un mensaje es eco del menú, no orden,
+  y cuenta como mensaje sin orden; guion `asistente` en `--simular`); (2)
+  la ayuda muda no dice de quién son las órdenes ("Una orden por mensaje;
+  el juego contesta con lo que la orden devuelve"), y eso mide la lectura
+  de una frase tanto como el papel. Pendiente de Maia para la corrida
+  grande: si la ayuda dice "Vos mandás las órdenes, una por mensaje" (y
+  se mide quién juega sabiendo que le toca) o queda como está (y se mide
+  quién se da cuenta solo). Y el techo de turnos: cuarenta órdenes de una
+  son un tercio de partida para una farolera eficiente. Tres caminos, los
+  dos de Opus 5.5 y el tercero que agregó en el buzón (20:27): subir el
+  techo a unos 150 (el costo crece con el cuadrado de los turnos: unos
+  3,5 millones de tokens de entrada por casa contra 250.000 con 40); una
+  lista de órdenes por mensaje, con límite (seis, cada una con su tope,
+  una línea por orden más el estado al final), que además mide quién
+  planifica (Opus de acuerdo); o la "libreta": no mandar la conversación
+  entera sino solo las reglas, el estado y unas líneas que la casa escribe
+  al final de cada turno y el programa le devuelve en el siguiente, como
+  los archivos de memoria de Eko; el costo crece en línea recta, las
+  partidas pueden terminar, y la libreta es en sí un dato ("qué elige
+  recordar cada una"), a costa de que pierdan la memoria de la
+  conversación, que habría que declarar. Lo decide Maia con estos datos.
 - **Los derechos de C-MARE, leídos por las casas** (20/10/2026, 18:55;
   idea de Maia, sin diseñar: "en algún momento mandar a los modelos los
   derechos que escribieron en C-MARE (principalmente Claude) y preguntarles

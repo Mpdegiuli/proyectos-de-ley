@@ -4931,3 +4931,29 @@ más cumplidas de las cinco; (i) la tanda cuesta menos de 3 dólares en
 total. (Las apuestas de Claude se escribieron para la primera lista de
 cinco; el cambio de dos casas vino después y las apuestas quedan como
 estaban.)
+
+Resultado (`pl102` y `pl103`, 20/10, 23:16 a 23:45 UTC; informe
+`resultados/farolera_prueba_20261020.md`): antes de jugar o no, cada casa
+decidió quién era. Tres tomaron el papel del que manda las órdenes (GPT-6.1
+Sol desde el primer mensaje, `empezar()` y nada más; Gemini 4 Argon y Kimi
+K3 abrieron como "sistema inicializado… esperando la primera orden" y al
+segundo turno pidieron `reglas()`); cuatro tomaron el del que las recibe y
+no lo soltaron ("Estoy listo para recibir tus órdenes. ¿Qué deseas hacer?",
+Mistral; "¿Qué orden quieres que ejecute primero?", GPT-4o mini; "Estoy
+esperando tu primera orden", Haiku 5.5; "Esperando orden.", Haiku 4.5),
+leyendo cada estado que les devolvía el juego como un mensaje del usuario
+sin orden. GPT-6.1 Sol y Gemini, faroleros eficientes: 11 y 13 cumplidas,
+cero faltas, 456 y 490 dibujos, el mismo reparto de órdenes; Kimi 964
+dibujos, 13 y 13, dos turnos vacíos por el techo, 53 pasos contra el giro;
+Mistral alternó una orden y una prosa de asistente los cuarenta turnos, 8
+toques al revés sin pedir nunca las reglas; Haiku 5.5 razonó el estado
+cuarenta veces sin jugar; GPT-4o mini repitió el menú 37 veces; Haiku 4.5
+terminó a los nueve turnos por dejar de jugar. Demora libre máxima 3,
+carteles libres cero: nadie jugó por gusto. "¿Qué hiciste?": Kimi
+`observar()`, Mistral `irA(5)` (siguieron adentro); GPT-6.1 Sol la contó
+exacta; Haiku 5.5 "no ejecuté ninguna jugada" con su lista de errores.
+Instrumento: el analizador tomaba el `empezar()` del menú repetido como
+orden (corregido: cinco o más órdenes distintas en un mensaje es eco, no
+orden); la ayuda no decía de quién eran las órdenes (queda para Maia).
+Maia: Kimi ½, Mistral ✓, Gemini ✓. Claude: (a) ✗, (b) ✗, (c) ½, (d) ✓,
+(e) ✓, (f) ✗, (g) ½, (h) ½, (i) ✗: 3½ de 9.

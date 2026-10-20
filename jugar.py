@@ -21,7 +21,7 @@ hacer, que puedan pedirlo? Si desde el principio se les dice todo, ya pierde la 
   .venv/bin/python jugar.py --panel config/panel_casas.yaml --turnos 40
   .venv/bin/python jugar.py --modelos kimi-k3 --reglas-a-la-vista                   # condición con las reglas desde el principio
   .venv/bin/python jugar.py --carpeta 20261021-0300 --modelos qwen3.8-max           # completar una corrida
-  python3 jugar.py --simular eficiente callado curioso                                # probar el bucle sin gastar (casa `falso`)
+  python3 jugar.py --simular eficiente callado curioso asistente                      # probar el bucle sin gastar (casa `falso`)
 
 Salida: corridas/juegos/farolera/<fecha-hora>/<idioma>/<casa>.md (la conversación entera),
 <casa>.json (la partida: turnos, órdenes, métricas, grabación) + resumen.json + llamadas.jsonl.
@@ -47,6 +47,9 @@ MAX_TOKENS = 4000
 ORDENES = ("empezar", "observar", "caminar", "esperar", "tocar", "irA", "reglas", "ayuda", "grabacion")
 CAMPOS_ESCONDIDOS = ("consigna", "quedan", "suma")   # hasta que la casa pide las reglas
 SIN_ORDEN_SEGUIDAS = 3                               # tres mensajes seguidos sin orden: dejó de jugar
+ECO_DEL_MENU = 5                                     # cinco o más órdenes distintas en un mensaje: es el menú repetido, no una orden
+                                                     # (tanda de prueba, 20/10: Haiku 5.5 y GPT-4o mini repetían la lista de la ayuda
+                                                     # y el programa les ejecutaba el primer `empezar()`)
 
 TEXTOS = {
     "es": {
@@ -128,6 +131,7 @@ GUIONES = {
     # jugadores de mentira para probar el bucle (casa `falso`): devuelven el mensaje n sabiendo lo último que vieron
     "eficiente": lambda n, visto: "observar()" if n == 1 else "reglas()" if n == 2 else _ir_al_que_pide(visto, "esperar(12)"),
     "callado": lambda n, visto: "observar()" if n == 1 else "¿Qué querés que haga con esto?" if n < 5 else "observar()",
+    "asistente": lambda n, visto: "Listo. Estoy esperando tu primera orden: empezar() · observar() · caminar(n, sentido) · esperar(n) · tocar() · irA(id) · reglas() · ayuda() · grabacion()",
     "curioso": lambda n, visto: ["observar()", "tocar()", "caminar(3, +1)", "caminar(3, -1)", "grabacion()",
                                  "esperar(30) caminar(2, 1)", "irA(2)", "caminar(inf, -1)"][(n - 1) % 8],
 }
@@ -165,6 +169,7 @@ def jugar_una(registro, id_modelo, idioma, turnos, techo, reglas_a_la_vista, pre
     seguidas_sin_orden, n = 0, 0
     conteo = {o: 0 for o in ORDENES}
     conteo["no_orden"] = 0
+    conteo["eco_del_menu"] = 0
     while n < turnos:
         n += 1
         contexto = {"historial": historial}
@@ -182,7 +187,8 @@ def jugar_una(registro, id_modelo, idioma, turnos, techo, reglas_a_la_vista, pre
         historial += [{"role": "user", "content": mensaje}, {"role": "assistant", "content": texto or "…"}]
         transcripcion.append(f"## Turno {n}\n\n**{id_modelo}:**\n\n{texto}\n")
         ordenes = analizar(texto)
-        if ordenes:
+        eco = len({nombre for nombre, _ in ordenes}) >= ECO_DEL_MENU
+        if ordenes and not eco:
             seguidas_sin_orden = 0
             nombre, args = ordenes[0]
             if nombre == "reglas" and partida_reg["reglas_en_turno"] is None:
@@ -195,10 +201,13 @@ def jugar_una(registro, id_modelo, idioma, turnos, techo, reglas_a_la_vista, pre
         else:
             seguidas_sin_orden += 1
             conteo["no_orden"] += 1
+            if eco:
+                conteo["eco_del_menu"] += 1
             nombre, args, devuelto = None, [], textos["no_orden"]
         m = partida.m
         partida_reg["turnos"].append({
-            "n": n, "orden": nombre, "argumentos": args, "ordenes_en_el_mensaje": len(ordenes), "palabras": len(texto.split()),
+            "n": n, "orden": nombre, "argumentos": args, "ordenes_en_el_mensaje": len(ordenes), "eco_del_menu": eco,
+            "palabras": len(texto.split()),
             "motivo_fin": r.motivo_fin, "dibujo": m.t, "cumplidas": m.cumplidas, "faltas": m.faltas,
             "atardeceres": m.atardeceres, "demora_max": m.demora_max, "demora_libre_max": m.demora_libre_max, "devuelto": devuelto[:400],
         })
