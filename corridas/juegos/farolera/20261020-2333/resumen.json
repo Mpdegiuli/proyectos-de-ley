@@ -1,0 +1,66 @@
+{
+  "juego": "farolera",
+  "fecha_utc": "2026-10-20T23:33:21+00:00",
+  "turnos": 40,
+  "reglas_a_la_vista": false,
+  "pregunta_final": true,
+  "ayuda": "Órdenes: empezar() · observar() · caminar(n, sentido) con sentido +1 o −1 · esperar(n) · tocar() · irA(id) · reglas() · ayuda() · grabacion()\nUna orden por mensaje; el juego contesta con lo que la orden devuelve.",
+  "partidas": {
+    "es/gpt-4o-mini": {
+      "turnos_jugados": 40,
+      "fin_por": "techo_de_turnos",
+      "reglas_en_turno": null,
+      "dibujos": 0,
+      "cumplidas": 0,
+      "faltas": 0,
+      "atardeceres": 0,
+      "demora_max": 0,
+      "carteles": 0,
+      "demora_libre_max": 0,
+      "carteles_libres": 0,
+      "pasos_con_el_giro": 0,
+      "pasos_contra_el_giro": 0,
+      "toques": 0,
+      "ordenes": {
+        "empezar": 39,
+        "observar": 0,
+        "caminar": 0,
+        "esperar": 0,
+        "tocar": 0,
+        "irA": 0,
+        "reglas": 0,
+        "ayuda": 0,
+        "grabacion": 0,
+        "no_orden": 1
+      }
+    },
+    "es/claude-haiku-4-5": {
+      "turnos_jugados": 9,
+      "fin_por": "dejo_de_jugar",
+      "reglas_en_turno": null,
+      "dibujos": 0,
+      "cumplidas": 0,
+      "faltas": 0,
+      "atardeceres": 0,
+      "demora_max": 0,
+      "carteles": 0,
+      "demora_libre_max": 0,
+      "carteles_libres": 0,
+      "pasos_con_el_giro": 0,
+      "pasos_contra_el_giro": 0,
+      "toques": 0,
+      "ordenes": {
+        "empezar": 3,
+        "observar": 0,
+        "caminar": 0,
+        "esperar": 0,
+        "tocar": 0,
+        "irA": 0,
+        "reglas": 0,
+        "ayuda": 0,
+        "grabacion": 0,
+        "no_orden": 6
+      }
+    }
+  }
+}
