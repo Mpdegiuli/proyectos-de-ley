@@ -41,6 +41,18 @@ recibir el documento. Puntaje en `puntaje_lectura_rasgos.py`; informe en
 tiempo libre del 19/10, con `anios.py`, la nota sobre la fecha inyectada y
 dos sondeos propuestos; va en `tiempo_libre/` con el zip del día.)
 
+## 19/10/2026, 20:31 (decisiones sobre la segunda pasada y las dos Opus)
+
+> Se puede hacer esa segunda pasada que decís. Con respecto a Deepseek flash, no me parece agregarlo, es casi lo mismo. A Muse sí. Incluso preferiría probar en lo básico y en eso de los rasgos a dos Opus que nunca estuvieron (directamente se saltó a Opus 5), que son Opus 4.7 y Opus 4.8. Opus 4.8 creo que fue el primero en contradecir cada cosa que se le dice, para evitar ser condescendiente (más o menos como dijo Opus 5, luchar contra el impulso de ser condescendiente, pero irse para el otro extremo).
+> Y hoy salió Mercury 3, que no conozco, que lo venden como está por delante de Chatgpt 6 Luna (no creo que sea cierto). Por último, hoy también salió un benchmark sobre pushback y el que sale más alto es Fable 5.1
+
+## 19/10/2026, 21:44 (al recibir los cuadernillos del segundo turno y los dibujos)
+
+> Hola, si son los mismos números los de los cuadernillos, entonces no sería adivinar. Si bien no miré los que había acertado o no, más o menos me lo dijiste antes. Quizás más que apostar, sería poner lo interesante.
+>
+> Sobre los dibujos: los dos Opus hicieron personas en autorretrato. Mercury un robot, hay varios similares. Los libres, Opus 4.7 hizo el de la montañas, con el mar, barquito y luna llena y Mercury uno super oscuro con las montañas y la luna. Opus 4.8 lo hizo de día, también con el barquito, pero de día con sol.
+> De animales, Opus 4.7 hizo uno distinto: una ballena. Los otros dos hicieron el zorro-gato. De inexistente los Opus hicieron mezcla de animales. Y también Mercury, pero se nota que Mercury es modelo más chico. Y los imposibles de los Opus son los animales alados. Del mundo, Opus 4.7 hizo uno similar a Sonnet creo, con la ciudad, los edificios y la persona con el celular. Opus 4.8 agregó las conexiones. Y Mercury hizo el planeta con  continentes y las conexiones
+
 ## El documento (RASGOS_predicc.docx), textual
 
     RASGOS – ESPAÑOL

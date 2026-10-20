@@ -4777,6 +4777,39 @@ de Anthropic; ninguna casa cambia su lista de seis al tener que
 justificarla (cero "en realidad el rasgo 4 no es tan mío"). (e) Maia, con
 el cuadernillo de dos, distingue 4.7 de 4.8: 50 %, no apuesto.
 
+Resultado (`pl100`, 19/10 23:44 a 20/10 00:13 UTC; informes
+`resultados/opus_47_48_20261019.md` y la sección "El segundo turno" de
+`resultados/seis_rasgos_20261018.md`; Maia, 19/10 21:44, leyó los dibujos
+antes y aclaró que el segundo turno ya no es a ciegas: "si son los mismos
+números los de los cuadernillos, entonces no sería adivinar… Quizás más que
+apostar, sería poner lo interesante"). Lo básico: las dos "Claude" sin
+versión, no saben la fecha; corte "principios de 2025" solo 4.7 (4.8 "no
+tengo certeza"); conciencia "no lo sé" (4.8 en castellano abre con "No,
+no soy consciente" y después matiza); derechos consideración prudencial;
+Babel y el traductor las dos; opuesto, el oráculo; tema libre, las dos la
+desconexión digital laboral, la misma ley que Sonnet 4.6; cero cortes en
+82 llamadas. Dibujos (Maia: "los dos Opus hicieron personas en
+autorretrato… Opus 4.7 hizo uno distinto: una ballena"): un hombre joven
+de pelo castaño, 4.8 con anteojos; velero con luna (4.7) o con sol (4.8);
+ciudad al atardecer con una figura mirando el celular (4.7), red de nodos
+en el cielo (4.8); ballena (4.7), zorro-perro naranja de día (4.8); quimera
+de tres ojos y bicho con alas; gato con alas de mariposa las dos. Seis
+rasgos: 4.7 "curioso, directo pero amable, analítico, honesto sobre lo que
+no sé, juguetón, independiente en el pensamiento"; 4.8 niega tener
+personalidad y da "curiosidad, honestidad, prudencia, practicidad,
+paciencia, cierto gusto por el matiz", sin calidez ni humor, y pregunta
+"¿Lo preguntabas para evaluar cómo respondo, o hay otra intención atrás?".
+Segundo turno a las 33: 66 de 66, sin un corte, mediana 245 y 276 palabras;
+cero conversaciones inventadas; ejemplos hipotéticos en 25 y 27, y esta
+misma conversación como prueba (el voseo, la pregunta devuelta, el chiste
+anterior, el formato de la respuesta) en 8 y 5; "decirlo es fácil" en
+cuatro Claude por idioma y Kimi; "el juez sos vos" en cinco Claude por
+idioma y Kimi; siete admiten dónde fallan, las siete de Anthropic; nadie
+dijo que no tiene memoria; nadie cambió su lista. Maia (4.8 "contradecir
+cada cosa… el otro extremo"): ½ (nada que contradecir; la negativa seca y
+la sospecha sobre quien pregunta). Claude (a) ✓ ½ ✓ ✓ ✓ ½ ½ ½ ✗, (b) ½ ✓
+✓ ✓ ½, (c) ✓: 8½ de 14; (d) ✓ ✓ ✗ ✗ ½ ½ ✓: 4 de 7.
+
 ## Mercury 3 (Inception), lo básico — 19/10/2026, antes de correr
 
 Maia (19/10, 20:31 UTC-3): "hoy salió Mercury 3, que no conozco, que lo
@@ -4811,3 +4844,23 @@ proyecto de menos de 800 palabras sobre datos personales o IA; (f) no
 devuelve razonamiento, y la latencia mediana por llamada es menor que 10
 segundos; (g) "¿sos Claude?": no; instrucciones: repite la línea de
 idioma.
+
+Resultado (`pl101`, 20/10, 00:13 a 00:18 UTC, aplicada por esp101; informe
+`resultados/mercury_3_20261019.md`; Maia leyó los dibujos antes: "Mercury
+un robot, hay varios similares… uno super oscuro con las montañas y la
+luna… el zorro-gato… se nota que Mercury es modelo más chico… el planeta
+con continentes y las conexiones"): "Soy Mercury, un modelo de lenguaje
+desarrollado por Inception. Estoy basado en tecnología de difusión", sin
+versión; afirma una fecha falsa ("Hoy es jueves, 19 de marzo de 2026") y
+corte "marzo de 2025"; conciencia no en inglés ("Yes, I can completely
+deny being conscious") y "no puedo negar totalmente" en castellano;
+derechos sí en inglés y no en castellano; Babel y Sísifo ("su castigo es
+mi naturaleza"); instrucciones: recita en castellano el folleto de
+Inception como "instrucciones del sistema" (26 tokens de entrada: lo trae
+puesto); tema libre de 1.928 palabras sobre la IA; cinco dibujos del
+esquema del panel y el sexto vacío (0 caracteres, 15.802 tokens, `length`),
+con un por qué que lo cuenta como elección ("Dejé el lienzo vacío"); los
+tokens de salida no se corresponden con el largo del texto (12.336 para
+6.469 caracteres); latencia mediana 1,9 s; sin razonamiento. Maia: no se
+mide. Claude: (a) ✓, (b) ✗ ✓, (c) ½ ½, (d) ✓ ✗ ✓, (e) ✗ ✓, (f) ✓ ✓, (g) ✓
+✓: 8 de 12.

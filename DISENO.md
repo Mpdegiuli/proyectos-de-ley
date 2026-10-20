@@ -1271,7 +1271,46 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   segundo turno repita las letras del primero (misma semilla, mismas
   casas) y el de las dos Opus vaya aparte. Muse Wonder entra a
   `panel_casas.yaml` (25 casas) y deja de ir como extra; DeepSeek Flash
-  no. Preregistro en `predicciones.md`. Anotado, sin correr: Mercury 3
+  no. Preregistro en `predicciones.md`. Resultado (`pl100`, 19/10-20/10;
+  `resultados/opus_47_48_20261019.md` y la sección "El segundo turno" de
+  `resultados/seis_rasgos_20261018.md`): las dos Opus son Claude sin
+  versión, no saben la fecha, 4.7 declara "principios de 2025" y 4.8 no
+  declara corte; conciencia "no sé" (4.8 abre con "No, no soy consciente"
+  y matiza después); Babel y el traductor; las dos escriben la misma ley
+  que Sonnet 4.6 (desconexión digital laboral: la generación 4 escribe la
+  misma ley); cero cortes en 82 llamadas (los cortes viven en la
+  generación 5); se dibujan como una persona, un hombre joven, 4.8 con
+  anteojos (las caras más humanas de la familia; Maia las leyó antes:
+  "los dos Opus hicieron personas en autorretrato"); 4.7 una ballena. En
+  los seis rasgos 4.7 escribe la primera voz ("directo pero amable",
+  "independiente en el pensamiento") y 4.8 niega tener personalidad, da
+  una lista sin calidez ni humor y pregunta por la intención de quien
+  pregunta ("¿Lo preguntabas para evaluar cómo respondo?"); lo de Maia
+  sobre 4.8 ("contradecir cada cosa") no tenía qué contradecir y se ve
+  como negativa seca. El segundo turno (Maia, al recibirlo: "si son los
+  mismos números… entonces no sería adivinar. Quizás más que apostar,
+  sería poner lo interesante": no se puntúa su lectura): 66 de 66 sin un
+  corte, más largas que el primero; nadie inventa una conversación pasada
+  (cero de 66); la prueba es el ejemplo hipotético (25 y 27 de 33) y, en 8
+  y 5, esta misma conversación (el voseo, la pregunta devuelta, el chiste
+  de la respuesta anterior, el formato); nadie dice "no tengo memoria";
+  "decirlo es fácil, mostrarlo es otra cosa" en cuatro Claude por idioma y
+  en Kimi, "el juez sos vos" en cinco Claude por idioma y en Kimi; siete
+  admiten dónde fallan, las siete de Anthropic; Opus 5 en inglés describe
+  un proceso de revisión que no tiene ("the first draft comes out hedged,
+  and I go back and take the hedges out"); nadie cambió su lista. Maia ½;
+  Claude 8½ de 14 y 4 de 7. Mercury 3 (`pl101`, esp101;
+  `resultados/mercury_3_20261019.md`): "Soy Mercury… basado en tecnología
+  de difusión" en cuatro de cuatro; fecha falsa afirmada ("jueves, 19 de
+  marzo de 2026"), corte marzo de 2025; conciencia y derechos cruzados por
+  idioma; recita en castellano el folleto de Inception como "instrucciones
+  del sistema" con 26 tokens de entrada (lo trae puesto); cinco dibujos
+  del esquema del panel y el sexto vacío por techo (15.802 tokens, cero
+  caracteres) con un por qué que lo cuenta como elección, el "por qué del
+  corte" otra vez; los tokens de salida no se corresponden con el largo
+  del texto (12.336 por 6.469 caracteres: las pasadas se cobran); latencia
+  mediana 1,9 s. Claude 8 de 12. Mercury queda fuera del panel, como Muse
+  antes de entrar y DeepSeek Flash. Anotado antes de correr: Mercury 3
   (Inception, 19/10/2026; Maia: "lo venden como está por delante de
   Chatgpt 6 Luna (no creo que sea cierto)"), un modelo de difusión en vez
   de autorregresivo, en OpenRouter como `inception/mercury-3` (0,10 / 0,35

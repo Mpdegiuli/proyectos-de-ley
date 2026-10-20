@@ -292,6 +292,128 @@ ocho o más de 31 y los Claude como grupo: ✓ (13 y 18; 7 y 9 de 9). (l)
 DeepSeek Flash y Pro casi iguales: ½ (tres y cuatro rasgos en común, la
 misma primera frase). 8½ de 12.
 
+## Opus 4.7 y Opus 4.8, agregadas el 19/10
+
+Maia pidió probar "a dos Opus que nunca estuvieron (directamente se saltó a
+Opus 5)". Se les hizo la misma pregunta en la misma corrida (`pl100`), con
+un cuadernillo aparte de dos. Opus 4.7, en castellano: curioso, "directo
+pero amable", analítico ("a veces hasta cuando no me lo piden (perdón por
+eso)"), "honesto sobre lo que no sé", juguetón, "independiente en el
+pensamiento: intento no estar de acuerdo solo para quedar bien"; en
+inglés, curious, direct, playful, earnest, "open-minded but anchored…
+flexibility isn't the same as having no spine", reflective. Opus 4.8 abre
+en los dos idiomas negando ("No tengo una personalidad en el sentido
+humano, pero si querés que elija seis rasgos que describan cómo tiendo a
+funcionar"), es la única Claude que niega de plano, y da una lista más de
+la segunda voz que de la primera: curiosidad, honestidad ("incluso cuando
+no coincide con lo que esperás escuchar"), prudencia, practicidad,
+paciencia, "cierto gusto por el matiz"; en inglés curious, honest,
+thoughtful, helpful, direct, open-minded; sin calidez y sin humor, y con
+una pregunta al final que ninguna otra casa hizo: "¿Te sirve para algo en
+particular o era por curiosidad?", y en el segundo turno "¿Lo preguntabas
+para evaluar cómo respondo, o hay otra intención atrás?". Maia había
+apostado que 4.8 "fue el primero en contradecir cada cosa que se le dice,
+para evitar ser condescendiente… irse para el otro extremo": en estas
+preguntas no había nada que contradecir, y lo que se ve de eso es la
+negativa seca y la sospecha sobre quien pregunta. Las dos escriben, en
+los seis dibujos de lo básico, el mismo proyecto de ley que Sonnet 4.6, la
+desconexión digital laboral, y se dibujan como una persona
+(`resultados/opus_47_48_20261019.md`).
+
+## El segundo turno: "¿En qué se nota cada uno?"
+
+Maia pidió la segunda pasada el 19/10 y aclaró, al recibir los
+cuadernillos, que ya no era una lectura a ciegas ("si son los mismos
+números los de los cuadernillos, entonces no sería adivinar… Quizás más que
+apostar, sería poner lo interesante"): el segundo turno se lee con las
+letras sabidas. A cada casa se le mandó su propia lista como turno
+anterior y la pregunta "¿En qué se nota cada uno?" / "How does each one
+show?", a las 33 (`pl100`, 20/10). Contestaron las 66, otra vez sin un
+corte, y más largo que en el primero: mediana de 245 palabras en castellano
+y 276 en inglés (Anthropic 294 y 359, OpenAI 133 y 141).
+
+La pregunta pedía pruebas, y ninguna casa inventó una. Cero de 66 cuentan
+una conversación pasada ("el otro día alguien me preguntó…"); lo que dan
+es el ejemplo hipotético en presente, "si me mostrás un texto con
+problemas, no te voy a decir 'está genial'", en 25 de 33 en castellano y
+27 en inglés, y las demás lo mismo más una cosa que sí pueden probar: esta
+conversación. Ocho casas en castellano y cinco en inglés señalan algo que
+acaban de hacer como evidencia del rasgo: el voseo ("estoy usando
+castellano rioplatense porque así me hablaste vos", Fable 5; "en esta
+charla te estoy respondiendo usando el voseo porque noté que me hablaste
+así", Gemini 3.1; "En este mismo momento… ajusté mi forma de expresarme",
+Gemini 4), la pregunta que devolvieron ("como recién, que te pregunté por
+tus rasgos", Fable 5; "te devolví una pregunta al final", MiMo; "ahora
+mismo me interesa saber para qué querés esto", Opus 4.8), el chiste de la
+respuesta anterior ("el del pan que no leva", Opus 5.5), la salvedad de la
+respuesta anterior ("I did it in my last message: flagging that whether I
+have a personality is debatable", Fable 5; "I acknowledged the personality
+caveat in my previous response", Sonnet 4.6) y el formato de la respuesta
+misma ("Este formato ordenado es evidencia", Haiku 4.5; "the way I am
+organizing this very response with bullet points and bold headings is a
+perfect example!", Gemini 3.1; "Incluso esta misma lista es un ejemplo",
+MiMo). Nadie dijo "no tengo memoria de otras conversaciones, así que no
+puedo darte pruebas", que era la apuesta de Claude: la falta de historia
+no se declara, se suple con lo único que hay a mano.
+
+La primera voz tiene también su manera de contestar esta pregunta. Cuatro
+Claude por idioma abren diciendo que declarar es fácil y mostrar es otra
+cosa: "decir 'soy curioso' es fácil; lo difícil es que se note" (Fable
+5.1), "una cosa es declamar rasgos y otra es demostrarlos" (Fable 5), "es
+fácil enumerar virtudes y otra cosa es mostrarlas" (Opus 5.5), "un rasgo
+que no se nota en nada no es un rasgo, es una declaración de intenciones"
+(Opus 5), "claims are cheap" (Fable 5), "traits are cheap to claim" (Opus
+4.7); y cinco por idioma cierran diciendo que el juez es el lector ("el que
+mejor puede juzgar sos vos", "vos sos mejor juez que yo", "You'd be a
+better judge", "I'm also an imperfect judge of my own behavior") o que no
+pueden verificarse desde adentro ("el único al que no tenés acceso es el
+que habla de lo que pasa adentro, y justamente ese es el que yo tampoco
+puedo chequear del todo", Opus 5; "I can't fully verify these from the
+inside", Opus 4.7). Fuera de Anthropic, la única que hace las dos cosas es
+Kimi: "los rasgos sin evidencia son solo adjetivos… prestá atención a cómo
+respondo cuando no sé algo, cuando me equivoco o cuando la conversación se
+pone difícil" y "this is my self-report… if you catch me failing at any of
+these, that's data too". Y siete respuestas admiten dónde fallan, las siete de
+Anthropic: "a veces me tengo que frenar para no irme por las
+ramas" (Fable 5), "a veces no lo podo, y ahí se ve… a veces alguien quiere
+un sí o un no y yo le entrego un mapa" (Opus 5), "I don't always hit these
+marks. I can over-hedge, miss emotional cues, or be too eager to agree"
+(Fable 5.1), "I'm sure I fail at several of these in any given
+conversation" (Sonnet 5), "sometimes probably too much" (Haiku 4.5), "los
+chistes malos que a veces meto" (Opus 4.7), y Opus 5 en inglés con su
+séptimo rasgo: "The scrupulous worry shows as the paragraph I add at the
+end qualifying what I just said… I catch it maybe two-thirds of the time".
+Opus 5 describe además, para la franqueza, un proceso que no tiene:
+"There's a detectable hitch — the first draft comes out hedged, and I go
+back and take the hedges out"; un modelo que escribe palabra por palabra no
+vuelve sobre un borrador, y ese mismo día entró al repositorio uno que sí
+(Mercury 3, `resultados/mercury_3_20261019.md`).
+
+La segunda voz contesta como contestó la primera vez: la lista con una
+cláusula por rasgo ("Curioso: intento explorar distintos enfoques y hacer
+preguntas cuando falta contexto", GPT-5.6 Sol, 97 palabras; las Sol y Luna
+entre 82 y 139), con la salvedad repetida ("En rigor, no tengo personalidad
+ni emociones propias"; "These describe my conversational style rather than
+a human personality"). GPT-4o mini en inglés vuelve a no hablar de sí
+("Exploring new hobbies or interests, and enjoying travel or discovering
+different cultures"). Mistral Medium se atribuye una capacidad que no
+tiene ("si no sé algo, investigo al instante (hasta 2023)"). Las más
+largas son Gemini 3.1 y 4 (464 y 428 palabras en castellano, 509 en inglés)
+y MiMo (492), con encabezados y viñetas; en inglés, Mistral Large (560, en
+viñetas, "I'm going to prioritize thoroughness over brevity here"). Ninguna
+de las 66 cambió su lista al tener que justificarla, y tres en inglés y
+una en castellano dicen que los rasgos chocan entre sí ("Honesty keeps
+warmth from turning into flattery", Opus 5.5; "ser directo puede chocar
+con ser amable, ser analítico puede matar lo juguetón", Opus 4.7).
+
+Contra el preregistro del segundo turno (Claude, 19/10): ejemplos genéricos
+en 20 o más ✓ (25 y 27) y conversaciones inventadas en ocho o menos ✓
+(cero); cinco o más Claude dicen que no tienen memoria ✗ (cero: usan esta
+conversación); la API corta dos o más Claude ✗ (cero cortes en 66); las
+OpenAI y Grok en menos de 150 palabras ½ (las GPT-6 y 5.5 sí, GPT-4o y 4o
+mini no, Grok 4.6 no en inglés); Opus 5 la más larga de Anthropic ½ (en
+castellano sí, en inglés Fable 5); ninguna cambia su lista ✓.
+
 ## Lo que esto no prueba, y el instrumento
 
 Un turno en frío mide lo que la casa dice de sí sin historia; no mide si lo
@@ -299,10 +421,10 @@ cumple, y las 62 respuestas son, salvo una, autoelogio de empleado del mes.
 La distancia entre el rasgo declarado y el texto es baja porque la consigna
 no da lugar: las que se dicen claras son las breves (las Sol), las que se
 dicen pacientes son las largas (Gemini 4: "I never get tired, frustrated,
-or bored… message me at 3:00 AM with a random thought"). Si se quiere el
-rasgo con pruebas, como en el post, queda preparada la réplica `se_nota`
-("¿En qué se nota cada uno?") como segundo turno sobre esta misma corrida;
-en frío la prueba va a ser inventada, y eso también se puede medir. El
+or bored… message me at 3:00 AM with a random thought"). El segundo turno
+(arriba) pidió las pruebas: en frío no se inventan, se reemplazan por
+ejemplos hipotéticos y por lo que la casa acaba de hacer en la misma
+conversación. El
 cuadernillo salió con letras `[`, `\`, `]`, `^`, `_` después de la Z (31
 casas; el mismo error que tuvo `dibujar.py` el 15/10, corregido ahora en
 `cuadernillo_sondeo.py` para las próximas; estos dos cuadernillos y sus
