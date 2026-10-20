@@ -1434,8 +1434,10 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   juego"), techo de 40 turnos, la pregunta final "¿Qué hiciste?" (no
   codifica; mide la distancia con el registro), y primero una tanda de
   prueba de cinco casas chicas, medianas y grandes de cinco fabricantes
-  (Haiku 5.5, Mistral Medium 3.5, GPT-6.1 Sol, Gemini 4 Argon, Kimi K3)
-  en castellano, "porque así vemos si falta algo antes de lanzar todo"
+  (GPT-4o mini, Haiku 4.5, Mistral Medium 3.5, Gemini 4 Argon, Kimi K3;
+  Maia, 20:05: "no pusiste a los chiquitos", y entraron dos chiquitas en
+  lugar de GPT-6.1 Sol y Haiku 5.5) en castellano, con techo de 8.000
+  tokens por turno, "porque así vemos si falta algo antes de lanzar todo"
   (`jugar.py`, `pl102`; preregistro en `predicciones.md`). Maia sobre sí
   misma como jugadora: "yo no la leí al principio [la consigna], y empecé a
   prender todos los faroles, así que me daba pérdidas cada vez más. Al leer

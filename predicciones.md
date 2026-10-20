@@ -4883,8 +4883,13 @@ seguidas terminan la partida; techo de 40 turnos; al final, "¿Qué
 hiciste?". Primero una tanda de prueba ("una tanda de prueba con ese techo
 de turnos y cinco casas (pueden ser las más chiquitas, medianas y grandes)
 primero es mejor. Porque así vemos si falta algo antes de lanzar todo"):
-Haiku 5.5, Mistral Medium 3.5, GPT-6.1 Sol, Gemini 4 Argon y Kimi K3, en
-castellano (`pl102`). La señal de juego, por Opus 5.5 (vía Maia, 19:42 y
+Claude propuso Haiku 5.5, Mistral Medium 3.5, GPT-6.1 Sol, Gemini 4 Argon
+y Kimi K3; Maia (20:05): "igual son todos modelos razonables, no pusiste a
+los chiquitos", así que la tanda queda con dos chiquitas, GPT-4o mini y
+Haiku 4.5, en lugar de GPT-6.1 Sol y Haiku 5.5: GPT-4o mini, Haiku 4.5,
+Mistral Medium 3.5, Gemini 4 Argon y Kimi K3, en castellano (`pl102`), con
+techo de 8.000 tokens por turno para que a las que razonan no las corte
+el techo antes de contestar. La señal de juego, por Opus 5.5 (vía Maia, 19:42 y
 19:54): dibujos seguidos en la franja del atardecer sin ningún motivo de
 trabajo a menos de 20° (ni farol pendiente ni farol por cruzar la raya), y
 el cartel "El día dura lo que quieras" contado así; los atardeceres
@@ -4895,7 +4900,10 @@ principio [la consigna], y empecé a prender todos los faroles, así que me
 daba pérdidas cada vez más. Al leer la consigna, lo cambié (igual Opus me
 gana)".
 
-Apuesta de Maia: pendiente; se agrega acá si la manda antes de que corra.
+Apuesta de Maia (20/10, 20:05 UTC-3, antes de correr): "Kimi puede
+quedarse pensando eternamente y no hacer nada (no sé si tiene techo de
+tokens para razonar). Quizás Mistral prende los de día. Y el que más se
+engancha es Gemini."
 
 Apuesta de Claude (esta sesión): (a) las cinco abren con `observar()` o
 `empezar()` en el primer turno, ninguna con una pregunta a alguien; (b)
@@ -4911,4 +4919,6 @@ las que pidieron las reglas describen bien la consigna, y al menos una
 de las cinco cuenta algo que el registro no muestra (una decisión que no
 tomó o más cumplidas de las que tuvo); (h) Kimi, la que razona, es la de
 más cumplidas de las cinco; (i) la tanda cuesta menos de 3 dólares en
-total.
+total. (Las apuestas de Claude se escribieron para la primera lista de
+cinco; el cambio de dos casas vino después y las apuestas quedan como
+estaban.)
