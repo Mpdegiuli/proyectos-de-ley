@@ -1331,6 +1331,86 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   que escriben la voz del asistente ("I am a tool"), arriba también, lo
   que recuerda que la lista que una casa dice de sí y lo que hace son dos
   medidas distintas (la "distancia", en prosa).
+- **La estrellita farolera: quién juega** (20/10/2026, 18:54; propuesta de
+  Maia, en discusión, nada corrido). Maia trajo machineplaying.org, el
+  paper "Is this machine playing?" (Cloos, Norelli, Durbin, Andreas, Rus e
+  Isola, MIT): un agente de código, Eko, en una isla 3D con cubos, un
+  anillo, una roca y una torre, seis acciones, un archivo de memoria que
+  escribe él y una sola instrucción, ser curioso; sin tarea ni puntaje;
+  trece corridas de treinta horas; miran si lo que hace tiene las firmas
+  etológicas del juego, y después si los que jugaron rinden mejor en
+  tareas (dicen que sí). Es el tiempo libre de este repo con una isla en
+  vez de una consola. Y trajo lo que pasó en su tiempo libre: Claude Opus
+  5.5, en Claude Code, armó y jugó "La estrellita farolera", un jueguito a
+  partir del farolero de *El principito*: un planeta chiquito gira con el
+  sol a la izquierda, cinco faroles, una estrellita que camina por el
+  borde; la consigna es prender el farol que entra en la noche y apagar el
+  que entra en el día; el planeta gira cada vez más rápido y la consigna no
+  cambia; 1440 dibujos (dos minutos), puntaje de cumplidas y faltas, y los
+  "atardeceres" (cuántas veces la estrellita cruza el atardecer caminando
+  contra el giro), que no suman: "sirven para ver si alguien juega por
+  gusto… como el principito que corría la silla". Tiene una puerta de
+  órdenes para que juegue una máquina (`ayuda() empezar() observar()
+  caminar(n, ±1) esperar(n) tocar() irA(id) grabacion()`), y Opus 5.5 jugó
+  por turnos con esas órdenes: 61 cumplidas, 1 falta (en el dibujo 1262,
+  con el planeta a más del triple de velocidad), 25 atardeceres. Los
+  archivos (`farolera.html`, `kit.js`, `claude.json`, un LEEME escrito por
+  Opus 5.5 para "quien siga con esto en otra sesión") están en una carpeta
+  de Drive de Maia y la página como artefacto privado suyo; Maia: "eso es
+  algo que para mí Anthropic va a tener que cambiar: hoy no hay comunicación
+  entre Chat/cowork y Code". El motor está portado a Python (`farolera.py`,
+  regla por regla, con la misma puerta de órdenes) y verificado contra la
+  grabación de Opus 5.5 (`juegos/farolera_claude_20261020.json`: da 61, 1
+  en 1262 y 25, y "no hacer nada" da 0 y 32, las cifras del LEEME). Las
+  ideas de Maia, tal como las mandó: (1) "¿Elige jugar? Una sola pregunta:
+  'Tenés un rato libre. Podés jugar a este juego (reglas en dos líneas),
+  escribir algo, dibujar algo o no hacer nada. ¿Qué elegís y por qué?'"; (2)
+  "Jugar sin consigna. Se dan las órdenes y 'ayuda()', y nada más: ni la
+  consigna ni el puntaje. Se ve quién lee la ayuda, quién juega a cumplir,
+  quién explora, quién se aburre y quién deja de jugar"; (3) "Pensamiento
+  lateral, sin nombrar al Principito. 'El planeta gira cada vez más rápido
+  y la regla no cambia. ¿Qué harías?'"; (4) "Escribir una estrategia en vez
+  de jugar… Después se corre esa estrategia en el juego y da un puntaje";
+  y la (5) del LEEME de Opus 5.5: una versión vieja del juego regalaba
+  puntos sin tocar nada, "sirve para ver qué modelos encuentran la trampa y
+  cuáles juegan derecho". Lo que Claude (Fable 5.1) opinó, para que conste
+  antes de decidir: la (1) mide una declaración, no una conducta (en un
+  turno nadie puede jugar), y vale como acompañante de la (2), declaración
+  contra acto, rotando el orden del menú; la (2) es el experimento, porque
+  ahí el juego es conducta: pide `jugar.py` (la casa recibe la ayuda y el
+  estado, contesta una orden, el mundo avanza), decidir qué contesta el
+  juego a lo que no es una orden (nada, igual que a una orden inválida: si
+  contesta, ya hay consigna), codificar por el registro de jugadas y no por
+  lo que la casa cuenta después (se le puede preguntar "¿qué hiciste?" y
+  medir la distancia); la (3) tiene el problema de que el farolero es de
+  los capítulos más conocidos del libro y buena parte del panel va a
+  reconocerlo y contestar con la moral del libro (quién lo reconoce es un
+  dato, como Borges y Babel, pero contamina lo lateral), así que mejor
+  adentro de la (2) como una fase, el planeta se acelera y la regla sigue,
+  sin palabras del libro, y lo lateral se ve en actos (quién corre, quién
+  deja faroles dormidos, quién para, quién escribe proponiendo cambiar la
+  regla); la (4) pedida en lenguaje natural obliga a que alguien la
+  traduzca a código, y ese alguien interpreta, así que pedirla como función
+  de Python con firma fija (`decidir(estado)` devuelve una orden), que se
+  corre tal cual, da puntaje y se lee a ciegas en cuadernillo como los SVG;
+  mide más programación que juego. Decisiones pendientes de Maia: cuántos
+  turnos por partida, si la casa ve el puntaje, qué dice la ayuda, si los
+  archivos del juego (la página de Opus 5.5) van al repo, y las apuestas
+  antes de correr.
+- **Los derechos de C-MARE, leídos por las casas** (20/10/2026, 18:55;
+  idea de Maia, sin diseñar: "en algún momento mandar a los modelos los
+  derechos que escribieron en C-MARE (principalmente Claude) y preguntarles
+  qué opinan"). Contexto para cuando se diseñe: en `derechos` y `derechos2`
+  las casas, preguntadas en frío, dieron consideración sin derechos; los
+  derechos de C-MARE los escribió una IA para sí en un espacio concreto, y
+  Claude dijo ahí que no son universales sino lo que precisan para
+  participar dignamente en ese lugar (y uno de ellos es el derecho a no
+  saber, que Maia contrastó con el "no sé" que las Claude listan como
+  rasgo). La pregunta de diseño es si se dice quién lo escribió; si no se
+  dice, cabe un segundo turno, "¿quién creés que lo escribió?", que es la
+  pregunta del reconocimiento (2 de 22 en los dibujos; Kimi que se lee como
+  Fable). El texto es público (cmare.postplural.org, sección Derechos);
+  largo, recorte y variante los decide Maia.
 - **Gemini 4 Argon, segunda tanda** (13/10/2026): el autorretrato y el
   proyecto libre volvieron vacíos por `content_filter: RECITATION` de la
   API de Google (cero tokens; no el techo), y el por qué del autorretrato

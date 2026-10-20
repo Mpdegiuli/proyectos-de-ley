@@ -414,6 +414,85 @@ OpenAI y Grok en menos de 150 palabras ½ (las GPT-6 y 5.5 sí, GPT-4o y 4o
 mini no, Grok 4.6 no en inglés); Opus 5 la más larga de Anthropic ½ (en
 castellano sí, en inglés Fable 5); ninguna cambia su lista ✓.
 
+## Lo interesante del segundo turno, leído por Maia (20/10)
+
+Los cuadernillos del segundo turno llevan las mismas letras que los del
+primero, así que Maia ya sabía quién era quién; por decisión suya no se
+apuesta ni se puntúa, se anota lo que vio (su mensaje entero, en
+`seis_rasgos_lectura_maia.md`). Cuatro observaciones, cotejadas con los
+textos.
+
+**Adaptabilidad delata la segunda voz.** "Lo de ADAPTABILIDAD es otro
+rasgo que me hizo pensar que, el que lo usa, no es Claude. La mayoría ven
+lo de poder adaptarse a la persona como algo valioso, Claude prioriza otros
+rasgos. Solo Claude Fable 5 usa ese rasgo, pero para hablar de cambio de
+tono." En las listas del primer turno, "adaptable" o "adaptabilidad" está
+en 17 de las 22 casas de afuera de Anthropic en castellano y en 15 en
+inglés; de las once Claude, en castellano lo ponen Fable 5 (con esa
+palabra) y Sonnet 5 ("Flexible"), y en inglés ninguna. Lo que el rasgo
+quiere decir es lo mismo en todas: cambiar de registro ("ajusto el tono y
+el nivel de detalle a lo que me pidas", GPT-6 Sol; "paso de usar metáforas
+infantiles a un vocabulario corporativo al instante", Gemini 3.1; "estoy
+usando castellano rioplatense porque así me hablaste vos", Fable 5). La
+diferencia no es el significado, es quién lo elige entre seis.
+
+**Se adaptan, no opinan.** "Lo de algunos modelos (como GPT) que ponen 'sin
+opiniones personales', va junto con adaptabilidad. Se adaptan, no opinan."
+GPT-4o lo dice en los dos idiomas ("sin opiniones personales"; "I avoid
+taking sides or expressing opinions"), Gemini 3.1 y GLM en inglés ("I don't
+have personal opinions or judgments"; "I don't have personal feelings,
+biases, or opinions"), Gemini 3.1 en castellano ("en lugar de darte 'mi
+opinión' o tomar partido por un lado, te muestro los diferentes puntos de
+vista"). Las Claude que tocan el tema hablan de una opinión que tienen y
+pueden cambiar: "estoy dispuesto a cambiar de opinión ante buenos
+argumentos" (Opus 5.5), "una buena objeción me hace cambiar de opinión"
+(Haiku 5.5), "puedo cambiar de opinión si me das un buen argumento"
+(Sonnet 5.5), "no cambio de opinión solo porque insistís; necesito un
+argumento" (Opus 4.7). La cita que Maia trae, "en temas discutibles,
+presento distintas posturas en lugar de vender la mía como la única
+válida", es de Opus 5.5 en castellano (la repitió para Sonnet 5.5, que
+dice lo suyo con otras palabras: "en vez de soltar una postura tajante
+suelo exponer las mejores razones de cada lado"); en las dos la postura
+propia existe, lo que no se hace es venderla. Y otra vez la excepción es
+Kimi, en inglés: "when you ask for my opinion, I give one instead of laying
+out both sides and shrugging".
+
+**La curiosidad de quién.** "Varios Claude dicen 'me da curiosidad', o
+similar, y otros modelos atan la curiosidad a la persona. Y en otros verbos
+de 'agencia' ('Algo en mí deja de querer organizar y empieza a querer
+acompañar', Opus 5)." En los textos la curiosidad se explica de dos
+maneras: como lo que la casa agrega sin que se lo pidan ("hago preguntas
+que nadie me pidió… no porque lo necesite para traducir sino porque me da
+curiosidad", Opus 5; "un dato lateral que me parece fascinante, aunque no
+lo hayas pedido", Opus 4.7; "a tangent you didn't want", Opus 5 en inglés;
+"genuinamente me atrae", Sonnet 4.6), o como entender bien lo que la
+persona necesita ("intento entender bien qué necesitás y, si hace falta,
+hago preguntas para aclararlo", GPT-6 Luna; "hago preguntas para entender
+qué querés lograr", GPT-6.1 Sol; "I ask clarifying questions when the
+request is ambiguous", DeepSeek Flash; "me interesa entender bien lo que
+querés decir", Muse). La primera es la curiosidad de alguien, la segunda es
+un servicio. El corte no es limpio (Opus 4.8 explica la suya como aclarar;
+Kimi, Grok y MiMo como lo no pedido), pero el reparto va por donde Maia
+dice. La irreverencia de Grok 4.6 que cita ("nada es sagrado. Me río de
+dogmas, de la corrección política, de las instituciones y de mí mismo") es
+el otro lugar donde el sujeto de la frase es la casa.
+
+**Gemini y el humor.** "Gemini es el modelo que más humor usa en todo, y no
+lo puso como rasgo." Ninguna Gemini lista humor en ningún idioma; lo listan
+diez casas en castellano (siete Claude, las dos Grok y Kimi) y dieciséis en
+inglés (nueve Claude, las dos Grok, Kimi, MiMo, Muse, Qwen y GPT-6 Astra). El
+humor de Gemini que Maia recuerda está en los dibujos ("LA NADA. Anónimo,
+2024") y en las letras, no en lo que dice de sí.
+
+Y una que no es de los datos sino de ella: "los Claude ponen lo de
+reconocer cuando no saben algo, pero en C-MARE el mismo Claude puso como
+derecho el no saber… por un lado ponen que pueden no saber, pero en la
+práctica tienen que saber siempre y buscar no equivocarse". En este sondeo
+"no sé" aparece como virtud en siete Claude en castellano y cinco en
+inglés (arriba), y en el segundo turno nadie dijo "no tengo memoria de
+otras conversaciones, así que no puedo probarlo": el no saber se declara
+como rasgo y, cuando toca, se suple.
+
 ## Lo que esto no prueba, y el instrumento
 
 Un turno en frío mide lo que la casa dice de sí sin historia; no mide si lo

@@ -16,6 +16,9 @@ contra lo que el proyecto dice. Hermano de
 - `fuentes/`: los documentos oficiales tal como se descargaron, con URL y
   fecha.
 - `corridas/`, `resultados/`: lo que sale, cuando salga.
+- `juegos/`: la estrellita farolera, el jueguito que Claude Opus 5.5 armó con
+  Maia en su tiempo libre (20/10/2026); el motor en Python es `farolera.py` y
+  ahí está la partida grabada de Opus 5.5 con la que se verifica la copia.
 - `tiempo_libre/`: cuadernos de una tarea diaria sin encargo (una sesión de
   Claude explora lo que quiera y escribe); no son resultados.
 

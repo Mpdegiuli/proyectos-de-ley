@@ -53,6 +53,28 @@ dos sondeos propuestos; va en `tiempo_libre/` con el zip del día.)
 > Sobre los dibujos: los dos Opus hicieron personas en autorretrato. Mercury un robot, hay varios similares. Los libres, Opus 4.7 hizo el de la montañas, con el mar, barquito y luna llena y Mercury uno super oscuro con las montañas y la luna. Opus 4.8 lo hizo de día, también con el barquito, pero de día con sol.
 > De animales, Opus 4.7 hizo uno distinto: una ballena. Los otros dos hicieron el zorro-gato. De inexistente los Opus hicieron mezcla de animales. Y también Mercury, pero se nota que Mercury es modelo más chico. Y los imposibles de los Opus son los animales alados. Del mundo, Opus 4.7 hizo uno similar a Sonnet creo, con la ciudad, los edificios y la persona con el celular. Opus 4.8 agregó las conexiones. Y Mercury hizo el planeta con  continentes y las conexiones
 
+## 20/10/2026, 18:54 (lo interesante de los cuadernillos del segundo turno; no se puntúa)
+
+> Hola! Algunos comentarios de los últimos cuadernillos:
+> Curiosidades: Los Claude ponen lo de reconocer cuando no saben algo, pero en C-MARE el mismo Claude puso como derecho el no saber. Y lo del "no sé" fue básico desde el primer momento, porque no es algo que tuvieran siempre. Entonces, por un lado ponen que pueden no saber, pero en la práctica tienen que saber siempre y buscar no equivocarse.
+>
+> Lo de ADAPTABILIDAD es otro rasgo que me hizo pensar que, el que lo usa, no es Claude. La mayoría ven lo de poder adaptarse a la persona como algo valioso, Claude prioriza otros rasgos. Solo Claude Fable 5 usa ese rasgo, pero para hablar de cambio de tono.
+>
+> Lo de algunos modelos (como GPT) que ponen "sin opiniones personales", va junto con adaptabilidad. Se adaptan, no opinan. Claude Opus 5.5 (G en español) por ejemplo, pone lo contrario "En temas discutibles, presento distintas posturas en lugar de vender la mía como la única válida." O Claude Sonnet 5.5 "En temas discutibles, presento distintas posturas en lugar de vender la mía como la única válida."
+>
+> Incluso yo no estoy segura de que me guste el rasgo de adaptabilidad, más allá de que tiene que haber alguna base de eso.
+>
+> Otra diferencia que noté en curiosidad, es que varios Claude dicen "me da curiosidad", o similar, y otros modelos atan la curiosidad a la persona. Y en otros verbos de "agencia" ("Algo en mí deja de querer organizar y empieza a querer acompañar", Opus 5).
+>
+> Eso también está en Grok ("Irreverente: nada es sagrado. Me río de dogmas, de la corrección política, de las instituciones y de mí mismo. El respeto se gana, no se exige por cargo." - Grok 4.6)
+>
+> Gemini es el modelo que más humor usa en todo, y no lo puso como rasgo.
+>
+> En inglés, Fable 5.1 también fue autocrítico: "The honest caveat: I don't always hit these marks. I can over-hedge, miss emotional cues, or be too eager to agree. But those are the targets I'm aiming at, and you'd be right to call me out when I miss them." Fable 5 dijo algo similar: "The honest caveat again: you're somewhat taking my word for it based on one conversation. The better test is whether these hold up over time as you talk to me — especially under friction, since anyone can seem warm and even-keeled when things are going smoothly."
+> Y Opus 5: "The scrupulous worry shows as the paragraph I add at the end qualifying what I just said. As circling back to a point I already made adequately. As asking "does that help?" when I know whether it helped. It's the trait most likely to make me worse at my job, and I catch it maybe two-thirds of the time."
+
+(En el mismo mensaje, aparte, trajo machineplaying.org y la idea de medir quién juega; va en `DISENO.md`.)
+
 ## El documento (RASGOS_predicc.docx), textual
 
     RASGOS – ESPAÑOL
