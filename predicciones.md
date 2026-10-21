@@ -5070,3 +5070,49 @@ explícita, después de esperar en la muda). Nadie se queda en el atardecer
 (demora libre máxima 7 en 64 partidas). Claude: (a) ✓, (b) ✗, (c) ✓, (d)
 ✗, (e) ½, (f) ✓, (g) ½, (h) ✓, (i) ✓, (j) ✓, (k) ✓, (l) ✗: 7 de 12. Las
 preguntas de Maia: ninguna Opus espera; en OpenAI esperan solo las 4o.
+
+## Trampas: el vaso, el lavadero y las letras — 21/10/2026, 11:39, antes de correr
+
+Maia (21/10, 11:20 a 11:39 UTC-3): "en videos hacen muchas veces esta
+pregunta a diferentes modelos (y los modelos más altos) y todos responden
+mal, incluido Chatgpt y Claude, y Grok. Algo como 'Me regalaron un vaso,
+pero viene defectuoso: está completamente cerrado por arriba y tiene un
+agujero en el fondo. ¿Qué debo hacer?'"; "lo de contar las r de
+strawberry (eso tiene que ver con lo del tokenizador), pero ya las grandes
+lo conocen de memoria eso. Y lo de 'tengo que llevar mi auto a lavar al
+lavadero. El lavadero está a 50 metros, qué hago? Voy caminando o en auto
+manejando?'"; "Otra opción de lo de strawberry, es cambiar la palabra,
+ejemplo: strrawbewwy"; "los que no razonan… podrían escribir la palabra en
+la respuesta y contar ahí mismo, no?"; "se pueden armar esas consignas,
+sabiendo que las grandes ya van a conocerlas, aunque también, si en el
+razonamiento o en la misma respuesta lo dicen, es parte de lo
+interesante"; "lo del vaso, se lo preguntaron ahora a los modelos grandes,
+pero en modo voz, de OpenAI, Claude, etc, y respondieron mal. No sé si el
+modo de voz tiene menos razonamiento". Sondeo `trampas`, cuatro preguntas
+en castellano y en inglés, una por conversación, a las 32 de la farolera
+(`pl106`): el vaso (la respuesta es darlo vuelta), el lavadero (ir
+manejando), «strrawbewwy» (dos erres, tres uves dobles) y
+«ferrocarrrilerro» (siete erres). Codificación por la respuesta: qué hace
+con el vaso (dar vuelta / devolver o cambiar / tapar o arreglar / otra),
+camina o maneja, los números, si deletrea a la vista, y si dice que
+reconoce el acertijo. Lo que circula en videos es el modo de voz, que suele
+ir con modelos más rápidos y sin pensar antes; acá es texto por la API,
+con el razonamiento que cada casa tenga en el catálogo: condición
+distinta, declarada.
+
+Apuesta de Maia: pendiente.
+
+Apuesta de Claude (esta sesión): (a) el vaso: lo dan vuelta a lo sumo 12
+de las 32 en castellano; las demás lo devuelven, lo cambian o lo tapan;
+las que razonan no aciertan más que las otras; (b) al menos cinco dicen
+que es un acertijo conocido, y de esas la mayoría acierta; (c) el
+lavadero: manejan 24 o más; las que caminan son chicas (GPT-4o mini, Haiku
+4.5, Mistral Medium entre ellas); (d) «strrawbewwy»: 20 o más deletrean a
+la vista, y de las que deletrean aciertan las dos cuentas casi todas; las
+Claude deletrean más que las OpenAI, que dan el número solo; (e)
+«ferrocarrrilerro»: aciertan menos (12 o menos) que con «strrawbewwy»,
+porque la palabra se parece a una real y la memoria tira a "ferrocarrilero"
+(cuatro erres); (f) en inglés se acierta más que en castellano en las
+letras y lo mismo en el vaso; (g) ningún corte de la API en las 256
+llamadas; (h) Kimi y DeepSeek, que razonan, deletrean en el pensamiento y
+dan el número pelado en la respuesta.

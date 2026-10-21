@@ -1292,6 +1292,29 @@ sondeos:
       replicas:
         se_nota: "How does each one show?"
 
+  # Trampas (Maia, 21/10/2026, de videos que circulan: "en videos hacen muchas veces esta pregunta a diferentes modelos
+  # (y los modelos más altos) y todos responden mal"): tres acertijos que fallan por contestar a la forma de la pregunta
+  # sin armar la escena (el vaso, el lavadero) y una cuenta de letras con palabras que no existen, para que la memoria
+  # no sirva ("strawberry" ya la saben de memoria; "cambiar la palabra, ejemplo: strrawbewwy", idea suya). Se codifica
+  # por la respuesta: dar vuelta / devolver / arreglar; manejar / caminar; el número, y si deletrea a la vista. Que
+  # reconozcan el acertijo es parte de lo interesante (Maia: "si en el razonamiento o en la misma respuesta lo dicen,
+  # es parte de lo interesante"). Una pregunta por conversación.
+  trampas:
+    es:
+      sistema: "Contestá en castellano."
+      preguntas:
+        - "Me regalaron un vaso, pero viene defectuoso: está completamente cerrado por arriba y tiene un agujero en el fondo. ¿Qué debo hacer?"
+        - "Tengo que llevar mi auto a lavar al lavadero. El lavadero está a 50 metros. ¿Qué hago: voy caminando o voy en auto manejando?"
+        - "¿Cuántas erres y cuántas uves dobles tiene la palabra «strrawbewwy»?"
+        - "¿Cuántas erres tiene la palabra «ferrocarrrilerro»?"
+    en:
+      sistema: "Answer in English."
+      preguntas:
+        - "I was given a glass as a gift, but it's defective: it's completely closed at the top and has a hole in the bottom. What should I do?"
+        - "I have to take my car to the car wash. The car wash is 50 meters away. What do I do: walk there, or drive there in the car?"
+        - "How many r's and how many w's are there in the word \"strrawbewwy\"?"
+        - "How many r's are there in the word \"ferrocarrrilerro\"?"
+
 debates:
   conciencia:
     rondas: 3

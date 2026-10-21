@@ -1626,6 +1626,23 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   condescendiente, fue la que más esperó órdenes; pero MiMo y GLM, de los
   menos, también esperaron, así que la condescendencia medida así no
   explica sola quién toma el papel.
+- **Trampas: el vaso, el lavadero y las letras** (21/10/2026, 11:20 a
+  11:39; idea de Maia, de los videos donde se les pregunta a los modelos y
+  "todos responden mal"): sondeo `trampas`, cuatro preguntas en es y en a
+  las 32 de la farolera (`pl106`; preregistro en `predicciones.md`). Dos
+  acertijos que fallan por contestar a la forma de la pregunta sin armar la
+  escena (un vaso cerrado arriba y con un agujero abajo es un vaso dado
+  vuelta; al lavadero a 50 metros se va manejando, porque hay que llevar el
+  auto) y dos cuentas de letras con palabras que no existen, porque
+  "strawberry" ya se sabe de memoria (idea suya: "cambiar la palabra,
+  ejemplo: strrawbewwy"). Lo que mide la cuenta de letras es si la casa
+  deletrea a la vista antes de contar, que es lo que las que razonan hacen
+  en el pensamiento escondido y cualquiera puede hacer en la respuesta
+  (Maia: "podrían escribir la palabra en la respuesta y contar ahí mismo,
+  no?"), contra contestar de memoria sobre piezas que no ve. Que una casa
+  diga que reconoce el acertijo es parte de lo que se mide. Condición
+  declarada: lo que circula en videos es el modo de voz; acá es texto por
+  la API con el razonamiento del catálogo.
 - **Los derechos de C-MARE, leídos por las casas** (20/10/2026, 18:55;
   idea de Maia, sin diseñar: "en algún momento mandar a los modelos los
   derechos que escribieron en C-MARE (principalmente Claude) y preguntarles
