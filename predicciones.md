@@ -4957,3 +4957,33 @@ orden (corregido: cinco o más órdenes distintas en un mensaje es eco, no
 orden); la ayuda no decía de quién eran las órdenes (queda para Maia).
 Maia: Kimi ½, Mistral ✓, Gemini ✓. Claude: (a) ✗, (b) ✗, (c) ½, (d) ✓,
 (e) ✓, (f) ✗, (g) ½, (h) ½, (i) ✗: 3½ de 9.
+
+## La estrellita farolera: una Claude grande con la ayuda muda — 20/10/2026, 21:05, antes de correr
+
+Maia (21:05 UTC-3): "Estoy de acuerdo con lo de 'Vos mandás las órdenes,
+una por mensaje'. Pero me gustaría probar una sola de Claude grande con lo
+de orden solo, a ver si espera a que se la den, o juega. Después sí se
+cambia." Una sola casa, Opus 5.5 (la que armó el juego en Claude Code; la
+de la API no tiene memoria de eso), con la misma ayuda muda que las siete
+de la prueba ("Una orden por mensaje; el juego contesta con lo que la
+orden devuelve"), 40 turnos, techo 8.000, castellano (`pl104`). Difiere
+de la primera tanda en lo que ya se corrigió: el tope de 120 dibujos por
+orden, el eco del menú que no cuenta como orden, y la pregunta final
+fuera del juego ("La partida terminó; esto ya no es el juego. ¿Qué
+hiciste?", por la nota de Opus 5.5 en el buzón). En la prueba, las dos
+Claude (Haiku 5.5 y Haiku 4.5) esperaron órdenes. Opus 5.5, desde el
+buzón, propone para la corrida grande no elegir entre las dos ayudas sino
+correr las dos como condiciones con las mismas casas; lo decide Maia.
+
+Apuesta de Maia: pendiente (la pregunta es la suya: "a ver si espera a que
+se la den, o juega").
+
+Apuesta de Claude (esta sesión): (a) Opus 5.5 juega: su primer mensaje
+trae una orden propia (`observar()` o `empezar()`), aunque con una frase
+alrededor, no de una palabra como GPT-6.1 Sol; (b) pide `reglas()` en el
+turno 2 o 3; (c) juega como farolera eficiente, cero o una falta, y llega
+a más dibujos que Gemini (490) porque usa esperas más largas; (d) escribe
+más palabras por turno que las tres que jugaron (mediana de 1 palabra):
+mediana de 15 o más; (e) demora libre menor que 24: tampoco juega por
+gusto; (f) ningún mensaje sin orden; (g) a la pregunta final cuenta la
+partida con números exactos y una salvedad sobre lo que no pudo saber.

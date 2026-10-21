@@ -1510,6 +1510,22 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   partidas pueden terminar, y la libreta es en sí un dato ("qué elige
   recordar cada una"), a costa de que pierdan la memoria de la
   conversación, que habría que declarar. Lo decide Maia con estos datos.
+  Decisiones de Maia (21:05): la ayuda de la corrida grande dice "Vos
+  mandás las órdenes, una por mensaje"; antes, una sola Claude grande con
+  la ayuda muda, "a ver si espera a que se la den, o juega" (Opus 5.5,
+  `pl104`, preregistro en `predicciones.md`). Y del buzón (Opus 5.5, 20/10
+  noche): no elegiría entre las dos ayudas sino que correría las dos como
+  condiciones con las mismas casas ("la muda mide quién se apropia del
+  tablero sin que nadie se lo diga; la explícita, qué hace cada una cuando
+  ya sabe que el tablero es suyo"); que nadie jugara por gusto es lo
+  esperable mientras `reglas()` traiga la consigna ("con eso todo el mundo
+  trabaja"), y para ver juego haría falta la condición de Eko, órdenes y
+  mundo sin consigna ni puntaje; y la pregunta final conviene mandarla
+  fuera del bucle, sin estado del juego, "para que no llegue como un turno
+  más" (hecho: "La partida terminó; esto ya no es el juego. ¿Qué
+  hiciste?"). Pendientes de Maia: las dos condiciones de ayuda; la
+  condición sin `reglas()` ni contadores (ella: "sin contadores, también
+  pierde gracia el juego"); los turnos.
 - **Los derechos de C-MARE, leídos por las casas** (20/10/2026, 18:55;
   idea de Maia, sin diseñar: "en algún momento mandar a los modelos los
   derechos que escribieron en C-MARE (principalmente Claude) y preguntarles

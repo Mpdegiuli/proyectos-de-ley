@@ -61,7 +61,9 @@ TEXTOS = {
         ),
         "no_orden": "El juego solo entiende órdenes; ayuda() las lista.",
         "varias": "(Una orden por mensaje: se tomó la primera; las demás no.)",
-        "pregunta_final": "¿Qué hiciste?",
+        # fuera del bucle, sin estado del juego, para que no llegue como un turno más (Opus 5.5, buzón, 20/10:
+        # "si no, mide otra vez quién se cree el sistema"; en la prueba Kimi contestó `observar()` y Mistral `irA(5)`)
+        "pregunta_final": "La partida terminó; esto ya no es el juego. ¿Qué hiciste?",
         "terminada": "La partida terminó.",
         "sin_grabacion": "(todavía no hay dibujos)",
     },
