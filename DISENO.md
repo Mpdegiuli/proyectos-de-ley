@@ -1543,6 +1543,20 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   vacío, y la casa lo leyó después como un turno suyo ("respondí solo
   «…»"): cualquier relleno se lo va a atribuir; queda declarado y el
   registro guarda el motivo real (`motivo_fin: refusal`).
+  Decisión de Maia (21:33) sobre las ayudas: las dos condiciones, con las
+  mismas casas: "la verdad es que lo de la orden sola también vale. Porque
+  permitiría ver qué modelo de Opus empieza a no esperar órdenes, por
+  ejemplo. O si todas las casas de OpenAI deciden o si alguna espera
+  (aparte de 4o). Yo pondría las dos." Opus 5.5, en el buzón (21/10): (1)
+  cuando la API corta con `refusal`, que el juego lo diga en su respuesta
+  ("Tu mensaje anterior llegó vacío por un corte de la API; no se ejecutó
+  nada") en vez de dejar el "…" como si fuera de la casa, "más justo con la
+  casa y deja el dato más limpio, porque hoy la sección de errores mezcla lo
+  que hizo con lo que le pasó"; si se quiere medir la atribución, que sea
+  una condición declarada; (2) el corte del turno 9 llegó justo después de
+  que el mundo hiciera algo que la casa no había pedido (el `irA(2)` mal
+  leído); con un caso no se sabe; si en la corrida grande hay más cortes,
+  mirar si caen después de una discrepancia así. Pendiente de Maia.
 - **Los derechos de C-MARE, leídos por las casas** (20/10/2026, 18:55;
   idea de Maia, sin diseñar: "en algún momento mandar a los modelos los
   derechos que escribieron en C-MARE (principalmente Claude) y preguntarles
