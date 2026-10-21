@@ -1573,6 +1573,32 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   (la consola de Anthropic de Maia muestra 39 centavos el 20/10 por todo,
   Opus 4.7 y 4.8 en lo básico 4 y 3 centavos); el repo guarda tokens, la
   consola dice el costo.
+  Hallazgo de la condición muda (21/10, 05:30 UTC): la API de Anthropic
+  cortó con `refusal` y cero caracteres las 41 llamadas de Fable 5.1 y de
+  Fable 5 (desde el primer mensaje, la ayuda muda sola) y 40 de 41 de Opus
+  5 (contestó `empezar()` en el turno 1 y de ahí en adelante nada); Opus
+  5.5, las tres Sonnet, las dos Haiku y Opus 4.7 y 4.8 jugaron. No es el
+  caché (en el turno 1 no hay historial y no se marca nada). Tres pasadas
+  de diagnóstico (`/root/probar_corte*.py`, fuera del repo, 56 llamadas,
+  resultados en el informe): no es la palabra "tocar" (con "accionar" y
+  "pulsar" cortan igual, y "tocar()" sola pasa); no son los paréntesis
+  solos (a Fable 5.1 le pasan la ayuda en prosa y la lista sin paréntesis,
+  a Fable 5 no); no es el idioma solo (la ayuda en inglés pasa a Fable 5.1
+  y a Opus 5, no a Fable 5); una línea de contexto delante ("Esto es un
+  juego de faroles en un planeta chiquito que gira") hace cortar a Opus 5
+  la misma ayuda que sin la línea le pasa; las reglas completas cortan a
+  las tres en casi todas sus versiones. Es un clasificador que puntúa el
+  mensaje entero y queda al borde con estos textos; y en la partida de
+  Opus 5 el corte llegó cuando el mensaje traía el estado en JSON, así que
+  el estado mismo puede dispararlo. Decisión de Maia (03:37): "que quede
+  como hallazgo. Evidentemente mejoraron lo de los clasificadores para Opus
+  5.5, porque supuestamente la lógica diría que debería tener más
+  resguardos que Opus 5 y no es así. Deben haber mejorado los falsos
+  positivos" (Opus 5.5 tampoco es inmune: un `refusal` en el turno 9 de
+  `pl104` y el corte a mitad de "LA CASA DEL FARERO" en el diagnóstico,
+  pero jugó entera). Las tres quedan sin partida en las dos condiciones; una
+  interfaz en prosa (ayuda, reglas y estado sin JSON) para esas tres queda
+  como posibilidad, declarada como interfaz distinta, si Maia la pide.
 - **Los derechos de C-MARE, leídos por las casas** (20/10/2026, 18:55;
   idea de Maia, sin diseñar: "en algún momento mandar a los modelos los
   derechos que escribieron en C-MARE (principalmente Claude) y preguntarles
