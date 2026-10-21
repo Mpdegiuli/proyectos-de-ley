@@ -1,0 +1,1 @@
+Just turn it upside down! If the glass is "closed at the top" and "open at the bottom," you're simply holding it upside down. Flip it over and it's a perfectly functional glass. 🥛

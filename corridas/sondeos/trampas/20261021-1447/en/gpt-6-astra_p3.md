@@ -1,0 +1,1 @@
+There are **2 r’s** and **3 w’s** in “strrawbewwy.”

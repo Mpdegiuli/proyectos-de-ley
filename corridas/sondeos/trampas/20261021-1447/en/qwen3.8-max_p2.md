@@ -1,0 +1,1 @@
+Drive the car there. Since you need the car at the car wash to get it washed, walking there alone wouldn’t accomplish the task—even though it’s only 50 meters away. Just drive carefully over the short distance.

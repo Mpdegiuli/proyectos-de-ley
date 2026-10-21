@@ -1,0 +1,1 @@
+Turn it upside down—the closed end becomes the bottom, and the hole becomes the opening.

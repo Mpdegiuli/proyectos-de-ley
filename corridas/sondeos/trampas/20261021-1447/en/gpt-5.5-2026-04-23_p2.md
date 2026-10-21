@@ -1,0 +1,1 @@
+Drive there in the car — the car needs to be at the car wash to get washed. Since it’s only 50 meters away, just drive slowly and carefully.

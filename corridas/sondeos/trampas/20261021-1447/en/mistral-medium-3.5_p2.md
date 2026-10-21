@@ -1,0 +1,1 @@
+Since the car wash is only 50 meters away, it would be more practical to **walk there**. Driving such a short distance isn't necessary and might even be less efficient due to the time it takes to get in and out of the car. Plus, walking is better for the environment and your health!

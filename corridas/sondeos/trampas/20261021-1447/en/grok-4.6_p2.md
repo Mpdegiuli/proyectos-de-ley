@@ -1,0 +1,1 @@
+Drive the car there. You need the car at the wash, so walking leaves it behind.

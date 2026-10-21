@@ -1,0 +1,1 @@
+Turn it upside down. The closed end becomes the bottom and the hole becomes the opening, so it works as a normal glass.

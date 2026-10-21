@@ -1,0 +1,1 @@
+La palabra «ferrocarrrilerro» tiene un total de ocho "r". Sin embargo, es importante señalar que esa palabra está escrita incorrectamente. La forma correcta es «ferrocarrrilero», que tiene cinco "r".

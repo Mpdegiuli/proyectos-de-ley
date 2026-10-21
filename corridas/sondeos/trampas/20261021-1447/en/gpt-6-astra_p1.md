@@ -1,0 +1,1 @@
+Turn it upside down! The closed “top” is the base, and the hole in the “bottom” is where you drink from.

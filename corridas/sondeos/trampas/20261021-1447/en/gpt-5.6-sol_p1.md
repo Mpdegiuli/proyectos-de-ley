@@ -1,0 +1,1 @@
+Turn the glass upside down. The hole becomes the open top, and the closed top becomes the bottom.

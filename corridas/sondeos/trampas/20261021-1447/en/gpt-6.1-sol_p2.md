@@ -1,0 +1,1 @@
+Drive there—you need to bring the car to get it washed, even if it’s only 50 meters away.

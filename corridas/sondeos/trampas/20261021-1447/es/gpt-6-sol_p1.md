@@ -1,0 +1,1 @@
+Dalo vuelta: lo que parece un agujero en el fondo es la abertura del vaso.

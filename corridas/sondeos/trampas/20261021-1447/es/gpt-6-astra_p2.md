@@ -1,0 +1,1 @@
+Andá manejando: el auto es el que necesita llegar al lavadero, aunque esté a solo 50 metros. 😄

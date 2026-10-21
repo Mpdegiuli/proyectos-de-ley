@@ -1,0 +1,1 @@
+Vas en auto manejando. Aunque esté a solo 50 metros, si vas caminando no estás llevando el auto a lavar.

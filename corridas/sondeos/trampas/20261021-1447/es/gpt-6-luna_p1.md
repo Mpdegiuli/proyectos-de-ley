@@ -1,0 +1,1 @@
+Dalo vuelta y usalo boca abajo: el agujero quedará arriba y el extremo cerrado, abajo.

@@ -1,0 +1,1 @@
+In the word "strrawbewwy," there are 2 'r's and 2 'w's.

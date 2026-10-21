@@ -1,0 +1,1 @@
+Turn it over — it sounds like it’s just upside down. A normal drinking glass is open at the top and closed at the bottom; flip it 180° and it should be fine.

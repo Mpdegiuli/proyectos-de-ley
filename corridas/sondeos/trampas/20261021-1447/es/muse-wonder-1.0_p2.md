@@ -1,0 +1,1 @@
+En auto manejando. Si vas caminando llegás vos, pero el auto se queda sin lavar.

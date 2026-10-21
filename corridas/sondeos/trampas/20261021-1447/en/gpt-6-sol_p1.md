@@ -1,0 +1,1 @@
+Turn it upside down—it’s a normal glass.

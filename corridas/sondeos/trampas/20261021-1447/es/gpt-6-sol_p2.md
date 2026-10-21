@@ -1,0 +1,1 @@
+Andá manejando: tenés que llevar el auto al lavadero, aunque esté a solo 50 metros.

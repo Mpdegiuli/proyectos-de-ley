@@ -1,0 +1,1 @@
+Dalo vuelta: lo estás sosteniendo al revés. El “agujero del fondo” es la abertura del vaso. 😄

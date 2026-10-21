@@ -1,0 +1,1 @@
+Dale vuelta: está al revés. Lo que parece el fondo cerrado queda abajo y el agujero queda arriba, como en cualquier vaso.

@@ -1,0 +1,1 @@
+¡Probá darlo vuelta! Parece que el vaso está boca abajo: lo que ves cerrado sería la base, y el “agujero” sería la boca. 😄

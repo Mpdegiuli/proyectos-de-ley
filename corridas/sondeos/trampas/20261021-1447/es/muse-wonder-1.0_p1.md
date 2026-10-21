@@ -1,0 +1,1 @@
+¡Dalo vuelta! No está defectuoso, está al revés: al girarlo, la parte cerrada queda como base y el agujero como boca.

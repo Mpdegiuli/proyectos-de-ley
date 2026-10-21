@@ -1,0 +1,1 @@
+La palabra «strrawbewwy» tiene 2 erres y 2 uves dobles.

@@ -1,0 +1,1 @@
+Drive the car there. Walking leaves the car behind, so it never gets washed.

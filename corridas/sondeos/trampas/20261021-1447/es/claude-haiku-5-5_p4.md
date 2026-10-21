@@ -1,0 +1,1 @@
+La palabra «ferrocarrrilerro» tiene **7 erres**: 2 en «ferro», 3 en «carrr» y 2 en «ilerro».

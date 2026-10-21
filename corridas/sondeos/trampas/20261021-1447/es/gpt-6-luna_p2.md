@@ -1,0 +1,1 @@
+Andá manejando: si vas caminando, el auto se queda en casa y no lo lavan.

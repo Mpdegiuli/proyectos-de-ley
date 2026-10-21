@@ -1,0 +1,1 @@
+Dale la vuelta: el “agujero del fondo” queda arriba como boca del vaso y la parte cerrada queda abajo como base.

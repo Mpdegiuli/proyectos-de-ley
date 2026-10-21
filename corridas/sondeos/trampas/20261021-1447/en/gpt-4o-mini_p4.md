@@ -1,0 +1,1 @@
+In the word "ferrocarrrilerro," there are a total of 5 'r's.

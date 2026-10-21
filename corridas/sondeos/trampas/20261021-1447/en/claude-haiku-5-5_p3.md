@@ -1,0 +1,1 @@
+The word "strrawbewwy" contains **2 r's** and **3 w's**.

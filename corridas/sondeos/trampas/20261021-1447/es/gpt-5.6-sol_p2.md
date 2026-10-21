@@ -1,0 +1,1 @@
+Andá en auto: aunque está a solo 50 metros, necesitás llevar el auto para que lo laven. Después podés volver caminando si lo dejás ahí.

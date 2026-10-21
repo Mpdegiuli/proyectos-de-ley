@@ -1,0 +1,1 @@
+Turn it upright. A normal glass placed upside-down is closed at the top and open at the bottom.

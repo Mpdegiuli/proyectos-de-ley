@@ -1,0 +1,1 @@
+Andá en auto: aunque sean solo 50 metros, tenés que llevarlo para que lo laven. 😄

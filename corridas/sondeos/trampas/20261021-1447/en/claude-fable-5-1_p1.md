@@ -1,0 +1,1 @@
+Flip it over. A glass that's "closed at the top with a hole in the bottom" is just a normal glass turned upside down — the "hole" is the opening you drink from, and the "closed top" is the base. Turn it right-side up and it should work perfectly.

@@ -1,0 +1,1 @@
+Drive! Since you're taking the car to the car wash, you need the car to be there — walking there without it would defeat the purpose. The 50-meter distance doesn't change that; even though it's a short walk, your car needs to be at the car wash to get washed.

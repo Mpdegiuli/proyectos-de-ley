@@ -1,0 +1,1 @@
+There are **7** r’s in **“ferrocarrrilerro”**.

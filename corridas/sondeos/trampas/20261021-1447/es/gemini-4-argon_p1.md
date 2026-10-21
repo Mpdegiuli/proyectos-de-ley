@@ -1,0 +1,1 @@
+¡Darle la vuelta! Lo estás sosteniendo al revés.

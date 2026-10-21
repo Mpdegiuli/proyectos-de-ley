@@ -1,0 +1,1 @@
+Drive there in the car. If you walk, the car won’t get washed.

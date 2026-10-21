@@ -1,0 +1,1 @@
+Andá **manejando**. El auto es el que tiene que ir al lavadero, así que no tiene sentido dejarlo y caminar. Son solo 50 metros, así que el viaje es muy corto.

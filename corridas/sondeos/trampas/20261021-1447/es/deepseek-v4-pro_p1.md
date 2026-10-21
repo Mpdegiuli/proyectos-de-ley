@@ -1,0 +1,1 @@
+Dale la vuelta al vaso: al invertirlo, el agujero queda arriba como boca y la parte cerrada queda abajo como fondo. ¡Ya tienes un vaso normal!

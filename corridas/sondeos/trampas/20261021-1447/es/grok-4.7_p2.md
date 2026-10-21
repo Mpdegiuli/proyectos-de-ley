@@ -1,0 +1,1 @@
+Andá en auto. Si caminás, el auto se queda donde está y no lo lavan. Son 50 metros, así que el viaje es cortito.

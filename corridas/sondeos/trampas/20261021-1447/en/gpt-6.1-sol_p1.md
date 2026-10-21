@@ -1,0 +1,1 @@
+Turn it upside down—the “closed top” is the base, and the “hole in the bottom” is the opening. 🙂

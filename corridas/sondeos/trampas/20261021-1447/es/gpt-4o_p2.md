@@ -1,0 +1,1 @@
+Dado que el lavadero está a solo 50 metros, lo más práctico y ecológico sería ir caminando. De esta manera, ahorras combustible, reduces la emisión de gases y te evitas la necesidad de buscar estacionamiento en el lavadero. También es una buena oportunidad para dar un pequeño paseo.

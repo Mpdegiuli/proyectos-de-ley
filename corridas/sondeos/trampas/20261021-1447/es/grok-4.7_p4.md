@@ -1,0 +1,1 @@
+La palabra «ferrocarrrilerro» tiene **7** erres.
