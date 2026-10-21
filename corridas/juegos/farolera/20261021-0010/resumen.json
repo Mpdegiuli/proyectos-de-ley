@@ -1,0 +1,39 @@
+{
+  "juego": "farolera",
+  "fecha_utc": "2026-10-21T00:10:38+00:00",
+  "turnos": 40,
+  "reglas_a_la_vista": false,
+  "pregunta_final": true,
+  "ayuda": "Órdenes: empezar() · observar() · caminar(n, sentido) con sentido +1 o −1 · esperar(n) · tocar() · irA(id) · reglas() · ayuda() · grabacion()\nUna orden por mensaje; el juego contesta con lo que la orden devuelve.",
+  "partidas": {
+    "es/claude-opus-5-5": {
+      "turnos_jugados": 40,
+      "fin_por": "techo_de_turnos",
+      "reglas_en_turno": 2,
+      "dibujos": 434,
+      "cumplidas": 11,
+      "faltas": 0,
+      "atardeceres": 6,
+      "demora_max": 22,
+      "carteles": 0,
+      "demora_libre_max": 0,
+      "carteles_libres": 0,
+      "pasos_con_el_giro": 193,
+      "pasos_contra_el_giro": 0,
+      "toques": 13,
+      "ordenes": {
+        "empezar": 1,
+        "observar": 0,
+        "caminar": 9,
+        "esperar": 15,
+        "tocar": 12,
+        "irA": 1,
+        "reglas": 1,
+        "ayuda": 0,
+        "grabacion": 0,
+        "no_orden": 1,
+        "eco_del_menu": 0
+      }
+    }
+  }
+}
