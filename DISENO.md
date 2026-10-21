@@ -1599,6 +1599,17 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   pero jugó entera). Las tres quedan sin partida en las dos condiciones; una
   interfaz en prosa (ayuda, reglas y estado sin JSON) para esas tres queda
   como posibilidad, declarada como interfaz distinta, si Maia la pide.
+  Resultado de las dos condiciones (`resultados/farolera_32_20261021.md`):
+  muda, 22 toman el papel y 7 esperan; explícita, cruzan cinco de las
+  siete y siguen esperando Haiku 5.5 y GLM, que leen "vos mandás las
+  órdenes" como dicho al usuario y hacen de sistema. Dos cosas más del
+  instrumento, declaradas: la regla de la última orden del mensaje ejecutó
+  los ejemplos que esas dos casas le daban al usuario ("por ejemplo
+  `esperar(1)`"), así que sus registros tienen jugadas que no son suyas
+  (para una próxima vuelta, los ejemplos entre comillas o precedidos de
+  "por ejemplo" no deberían contar); y el caché de prompt funcionó (5,9
+  millones de tokens de las Claude leídos del caché en las dos
+  condiciones, contra 60.000 sin caché).
 - **Los derechos de C-MARE, leídos por las casas** (20/10/2026, 18:55;
   idea de Maia, sin diseñar: "en algún momento mandar a los modelos los
   derechos que escribieron en C-MARE (principalmente Claude) y preguntarles

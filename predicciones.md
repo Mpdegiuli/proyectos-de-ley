@@ -5055,3 +5055,18 @@ Claude grandes, en ninguna de las otras casas; (k) las que razonan (Kimi,
 DeepSeek, GLM, Qwen) devuelven al menos un turno vacío por el techo entre
 las cuatro; (l) la cuenta final exacta con salvedad ("si se procesó,
 serían n") en las Claude grandes y en ninguna otra familia.
+
+Resultado (`pl105`, 21/10, 01:40 a 10:20 UTC; informe
+`resultados/farolera_32_20261021.md`): la API de Anthropic cortó con
+`refusal` todas las respuestas de Fable 5.1 y Fable 5 y casi todas las de
+Opus 5 en las dos condiciones (hallazgo, con tres pasadas de diagnóstico;
+decisión de Maia: queda como hallazgo). De las 29: en la muda toman el
+papel 22 y esperan 7 (Haiku 4.5, Haiku 5.5, Sonnet 5, GPT-4o, GPT-4o mini,
+MiMo, GLM, que inventó una aventura de texto y se puso de director); en
+la explícita cruzan cinco de las siete y siguen esperando Haiku 5.5 y GLM.
+Las mejores: GPT-6 Luna 23 cumplidas y una falta en 819 dibujos, Astra 19
+y 18, GPT-5.6 Sol 17 y 16, Sonnet 5 15 (la mejor de Anthropic, en la
+explícita, después de esperar en la muda). Nadie se queda en el atardecer
+(demora libre máxima 7 en 64 partidas). Claude: (a) ✓, (b) ✗, (c) ✓, (d)
+✗, (e) ½, (f) ✓, (g) ½, (h) ✓, (i) ✓, (j) ✓, (k) ✓, (l) ✗: 7 de 12. Las
+preguntas de Maia: ninguna Opus espera; en OpenAI esperan solo las 4o.
