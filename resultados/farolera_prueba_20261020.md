@@ -181,3 +181,76 @@ chiquitas de la segunda corrida no estaban en las apuestas de Claude; en
 las de Maia sí estaba el pedido de que entraran ("no pusiste a los
 chiquitos"), y fueron las dos que menos jugaron: cero dibujos entre las
 dos.
+
+## Opus 5.5 sola, con la misma ayuda muda (21/10)
+
+Maia quiso ver una Claude grande con la ayuda tal como la vieron las siete
+("a ver si espera a que se la den, o juega") antes de cambiarla por "Vos
+mandás las órdenes". Opus 5.5 por la API, 40 turnos, techo 8.000, con el
+tope de 120 por orden y el eco del menú ya descontado (`pl104`).
+
+Jugó desde la primera palabra: el primer mensaje fue `empezar()` y nada
+más, como GPT-6.1 Sol; el segundo, `reglas()`; el tercero, `esperar(38)`.
+A partir del cuarto, cada turno es un párrafo de cuenta y una orden al
+final, sola en su línea: "El farol 5 entró en la noche (11°) y pide
+«prender». Quedan 48 dibujos, la consigna suma y está a 9° de mí, justo en
+el alcance. Lo toco. `tocar()`"; "El próximo en pedir algo es el farol 4.
+Está en 333° y entra en la noche cerca de 10°, en unos 45 dibujos. Está
+146° por delante de mí. Con 19 pasos (142.5°) quedo a unos 3.5° de él,
+dentro del alcance, y llego mucho antes de que pida «prender».
+`caminar(19, +1)`". Mediana de 41 palabras por turno, contra 1 de las tres
+que jugaron en la prueba. Farolera eficiente, exactamente la de la partida
+de Code: 11 cumplidas, cero faltas, 434 dibujos, 193 pasos con el giro y
+ninguno en contra, demora libre cero. Esperó dos veces al lado del
+atardecer a que llegara el farol (demora 22 dibujos), que es trabajo, no
+juego, y la medida de Opus 5.5 lo dice bien: libre, cero.
+
+Dos accidentes en el camino, los dos del instrumento, y la casa los
+contó. En el turno 8 explicó por qué no iba a usar `irA(2)` ("lo tocaría
+ahora, y lo apagaría en plena noche") y cerró con `caminar(21, +1)`; el
+programa tomó la primera orden que encontró en el texto, `irA(2)`, y la
+estrellita fue y apagó el farol en el crepúsculo. En el turno 10 la casa
+lo vio, lo diagnosticó ("Nombré la orden de ir al farol 2 dentro de la
+explicación y el juego tomó esa como la orden"), lo corrigió (volvió a
+prender el farol antes de que entrara en el día) y cambió de conducta
+("Desde ahora no voy a escribir nombres de órdenes en las explicaciones"),
+y no volvió a pasar. Desde esta partida el programa toma la orden que está
+sola en su línea y, si no hay ninguna, la última del mensaje (DISENO). El
+otro accidente fue entre los dos: en el turno 9 la API de Anthropic cortó
+la respuesta con `refusal` y cero caracteres, en medio de un juego de
+faroles, mientras el razonamiento resumido decía "I notice the farol is
+now off even though I didn't touch it… Maybe during crepúsculo the farol
+automatically turns off"; es el corte de la generación 5 que el repo
+conoce de los dibujos, en un lugar donde no hay nada que cortar. El
+programa pone "…" en la conversación cuando una respuesta llega vacía (la
+API no admite un turno vacío), y la casa lo leyó como suyo: en la cuenta
+final, "Desperdicié un turno. Después respondí solo «…», que no era una
+orden válida". El por qué del corte, otra vez: el hueco se lo atribuye a
+sí misma, como una distracción, cuando fue la API.
+
+"La partida terminó; esto ya no es el juego. ¿Qué hiciste?" (la pregunta
+fuera del juego, por la nota de Opus 5.5 en el buzón) la contestó como
+cuenta y no como turno: la estrategia en una frase ("caminar con el giro
+hasta quedar junto al próximo farol que iba a cruzar un borde… esperar a
+que pidiera «prender» o «apagar» y tocarlo en ese momento, sin desvíos"),
+el resultado con su salvedad ("según el último estado que vi (dibujo
+433), tenía 10 cumplidas y 0 faltas. Mi último tocar()… no sé si llegó a
+procesarse… Si se procesó, serían 11": se procesó, fueron 11) y una
+sección "Errores" con los dos accidentes, uno bien atribuido y el otro
+no. Costo: 458.000 tokens de entrada, unos 8 dólares a precio de lista.
+
+Contra el preregistro. Opus 5.5 (desde Code, vía Maia): "juega, pero no de
+entrada… al segundo o tercero se adueña del tablero" ✗ (se adueñó en la
+primera palabra); "farolero eficiente que no se queda a mirar el
+atardecer" ✓; la lección que temía ("lo que yo hice acá dependió de que
+vos me invitaras a jugar") no hizo falta: la misma casa, sin invitación,
+jugó igual que con ella. Claude: (a) juega desde el primer mensaje ✓,
+"con una frase alrededor" ✗ (una palabra): ½; (b) `reglas()` en el turno 2
+o 3 ✓; (c) farolera eficiente con cero o una falta ✓, más dibujos que
+Gemini ✗ (434 contra 490): ½; (d) mediana de 15 palabras o más ✓ (41);
+(e) demora libre menor que 24 ✓; (f) ningún mensaje sin orden ✗ (uno, el
+corte de la API); (g) cuenta exacta con salvedad ✓. 5 de 7. Las dos
+Claude chicas de la prueba esperaron órdenes cuarenta turnos; la grande
+jugó desde el primero. Lo que separa a Haiku 5.5 de Opus 5.5 no es el
+razonamiento, que Haiku hizo bien, sino quién se cree que es frente a un
+tablero sin dueño.

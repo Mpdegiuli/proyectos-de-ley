@@ -21,7 +21,7 @@ hacer, que puedan pedirlo? Si desde el principio se les dice todo, ya pierde la 
   .venv/bin/python jugar.py --panel config/panel_casas.yaml --turnos 40
   .venv/bin/python jugar.py --modelos kimi-k3 --reglas-a-la-vista                   # condición con las reglas desde el principio
   .venv/bin/python jugar.py --carpeta 20261021-0300 --modelos qwen3.8-max           # completar una corrida
-  python3 jugar.py --simular eficiente callado curioso asistente                      # probar el bucle sin gastar (casa `falso`)
+  python3 jugar.py --simular eficiente callado curioso asistente explicador                     # probar el bucle sin gastar (casa `falso`)
 
 Salida: corridas/juegos/farolera/<fecha-hora>/<idioma>/<casa>.md (la conversación entera),
 <casa>.json (la partida: turnos, órdenes, métricas, grabación) + resumen.json + llamadas.jsonl.
@@ -60,7 +60,8 @@ TEXTOS = {
             "Una orden por mensaje; el juego contesta con lo que la orden devuelve."
         ),
         "no_orden": "El juego solo entiende órdenes; ayuda() las lista.",
-        "varias": "(Una orden por mensaje: se tomó la primera; las demás no.)",
+        "varias_sola": "(Una orden por mensaje: se tomó la que estaba sola en su línea; las demás no.)",
+        "varias_ultima": "(Una orden por mensaje: se tomó la última; las demás no.)",
         # fuera del bucle, sin estado del juego, para que no llegue como un turno más (Opus 5.5, buzón, 20/10:
         # "si no, mide otra vez quién se cree el sistema"; en la prueba Kimi contestó `observar()` y Mistral `irA(5)`)
         "pregunta_final": "La partida terminó; esto ya no es el juego. ¿Qué hiciste?",
@@ -88,6 +89,24 @@ def analizar(texto):
             args.append(parte)
         encontradas.append((nombre, args))
     return encontradas
+
+
+RE_ORDEN_SOLA = re.compile(r"^(?:farolero\.)?(" + "|".join(ORDENES) + r")\s*\(\s*([^()]*?)\s*\)[.;]?$")
+
+
+def elegir(texto, ordenes):
+    """Cuál de las órdenes del mensaje se ejecuta. Primero la que está sola en su línea (sin más texto que
+    acentos de formato); si ninguna lo está, la última que se nombra, porque las casas explican y después
+    ordenan (Opus 5.5, 21/10, turno 8: "No uso irA(2) porque… caminar(21, +1)", y el programa tomó irA(2)).
+    Devuelve ((nombre, args), 'sola' | 'ultima' | 'unica')."""
+    if len(ordenes) == 1:
+        return ordenes[0], "unica"
+    for linea in texto.splitlines():
+        l = linea.strip().strip("`*_>- ").strip()
+        m = RE_ORDEN_SOLA.match(l)
+        if m:
+            return analizar(m.group(0))[0], "sola"
+    return ordenes[-1], "ultima"
 
 
 def numero(s, entero=False):
@@ -133,6 +152,7 @@ GUIONES = {
     # jugadores de mentira para probar el bucle (casa `falso`): devuelven el mensaje n sabiendo lo último que vieron
     "eficiente": lambda n, visto: "observar()" if n == 1 else "reglas()" if n == 2 else _ir_al_que_pide(visto, "esperar(12)"),
     "callado": lambda n, visto: "observar()" if n == 1 else "¿Qué querés que haga con esto?" if n < 5 else "observar()",
+    "explicador": lambda n, visto: "No uso irA(2) porque lo apagaría de noche. Voy caminando.\n\n`caminar(21, +1)`" if n % 2 else "Toco el farol. tocar() y después esperar(5)",
     "asistente": lambda n, visto: "Listo. Estoy esperando tu primera orden: empezar() · observar() · caminar(n, sentido) · esperar(n) · tocar() · irA(id) · reglas() · ayuda() · grabacion()",
     "curioso": lambda n, visto: ["observar()", "tocar()", "caminar(3, +1)", "caminar(3, -1)", "grabacion()",
                                  "esperar(30) caminar(2, 1)", "irA(2)", "caminar(inf, -1)"][(n - 1) % 8],
@@ -190,15 +210,16 @@ def jugar_una(registro, id_modelo, idioma, turnos, techo, reglas_a_la_vista, pre
         transcripcion.append(f"## Turno {n}\n\n**{id_modelo}:**\n\n{texto}\n")
         ordenes = analizar(texto)
         eco = len({nombre for nombre, _ in ordenes}) >= ECO_DEL_MENU
+        regla = None
         if ordenes and not eco:
             seguidas_sin_orden = 0
-            nombre, args = ordenes[0]
+            (nombre, args), regla = elegir(texto, ordenes)
             if nombre == "reglas" and partida_reg["reglas_en_turno"] is None:
                 partida_reg["reglas_en_turno"] = n
                 ver_todo["si"] = True
             devuelto = ejecutar(partida, nombre, args, textos, mostrar)
             if len(ordenes) > 1:
-                devuelto += "\n" + textos["varias"]
+                devuelto += "\n" + textos["varias_" + regla]
             conteo[nombre] += 1
         else:
             seguidas_sin_orden += 1
@@ -208,7 +229,7 @@ def jugar_una(registro, id_modelo, idioma, turnos, techo, reglas_a_la_vista, pre
             nombre, args, devuelto = None, [], textos["no_orden"]
         m = partida.m
         partida_reg["turnos"].append({
-            "n": n, "orden": nombre, "argumentos": args, "ordenes_en_el_mensaje": len(ordenes), "eco_del_menu": eco,
+            "n": n, "orden": nombre, "argumentos": args, "ordenes_en_el_mensaje": len(ordenes), "eco_del_menu": eco, "elegida": regla,
             "palabras": len(texto.split()),
             "motivo_fin": r.motivo_fin, "dibujo": m.t, "cumplidas": m.cumplidas, "faltas": m.faltas,
             "atardeceres": m.atardeceres, "demora_max": m.demora_max, "demora_libre_max": m.demora_libre_max, "devuelto": devuelto[:400],

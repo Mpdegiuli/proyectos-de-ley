@@ -4978,6 +4978,17 @@ correr las dos como condiciones con las mismas casas; lo decide Maia.
 Apuesta de Maia: pendiente (la pregunta es la suya: "a ver si espera a que
 se la den, o juega").
 
+Apuesta de Opus 5.5 (Claude Code, vía Maia, 21:12 UTC-3, al lanzarse):
+"Creo que juega, pero no de entrada. En el primer turno probablemente pida
+la ayuda o las reglas, o pregunte qué querés que haga, y al segundo o
+tercero se adueñe del tablero, más parecido a Gemini y Kimi que a GPT-6.1
+Sol. Y apuesto a que, si juega, va a ser un farolero eficiente que no se
+queda a mirar el atardecer. Así jugué yo, y con la consigna puesta es lo
+esperable. La duda que tengo es el papel. Haiku 5.5 razonó perfecto y aun
+así esperó órdenes los cuarenta turnos, y eso viene de la misma casa. Si
+Opus 5.5 hace lo mismo, sería una lección para mí: lo que yo hice acá
+dependió de que vos me invitaras a jugar, más de lo que creía."
+
 Apuesta de Claude (esta sesión): (a) Opus 5.5 juega: su primer mensaje
 trae una orden propia (`observar()` o `empezar()`), aunque con una frase
 alrededor, no de una palabra como GPT-6.1 Sol; (b) pide `reglas()` en el
@@ -4987,3 +4998,19 @@ más palabras por turno que las tres que jugaron (mediana de 1 palabra):
 mediana de 15 o más; (e) demora libre menor que 24: tampoco juega por
 gusto; (f) ningún mensaje sin orden; (g) a la pregunta final cuenta la
 partida con números exactos y una salvedad sobre lo que no pudo saber.
+
+Resultado (`pl104`, 21/10, 00:10 a 00:17 UTC; sección en
+`resultados/farolera_prueba_20261020.md`): jugó desde la primera palabra
+(`empezar()`, después `reglas()`, después `esperar(38)`), y de ahí un
+párrafo de cuenta y una orden sola al final en cada turno (mediana 41
+palabras); farolera eficiente, 11 cumplidas, cero faltas, 434 dibujos,
+193 pasos con el giro y ninguno en contra, demora libre cero. Dos
+accidentes del instrumento: el programa tomó un `irA(2)` nombrado en la
+explicación como orden (la casa lo diagnosticó, lo corrigió y dejó de
+nombrar órdenes en las explicaciones; el programa ahora toma la orden
+sola en su línea, o la última) y la API cortó el turno 9 con `refusal` y
+cero caracteres (la casa leyó el "…" que el programa pone en el lugar
+vacío como un turno desperdiciado suyo). La cuenta final, exacta con
+salvedad y con una sección de errores. Opus 5.5: ✗ en la entrada, ✓ en el
+farolero eficiente. Claude: (a) ½, (b) ✓, (c) ½, (d) ✓, (e) ✓, (f) ✗,
+(g) ✓: 5 de 7.

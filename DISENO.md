@@ -1526,6 +1526,23 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   hiciste?"). Pendientes de Maia: las dos condiciones de ayuda; la
   condición sin `reglas()` ni contadores (ella: "sin contadores, también
   pierde gracia el juego"); los turnos.
+  Resultado de `pl104` (21/10): Opus 5.5 jugó desde la primera palabra
+  (`empezar()`), farolera eficiente, 11 y 0 en 434 dibujos, cuenta final
+  exacta con salvedad (sección en el informe). Tres cosas del instrumento:
+  (1) el analizador tomaba la primera orden del mensaje y en el turno 8
+  ejecutó un `irA(2)` que la casa nombraba para descartarlo ("No uso
+  irA(2) porque… caminar(21, +1)"); desde ahora toma la orden que está
+  sola en su línea (sin más que acentos de formato) y, si ninguna lo está,
+  la última del mensaje, y lo dice en la respuesta; sigue sin ser perfecto
+  para un plan en una línea ("esperar(25) tocar()" ejecuta tocar), que la
+  lista de órdenes con límite resolvería; (2) la API de Anthropic cortó el
+  turno 9 con `refusal` y cero caracteres en medio del juego (el
+  razonamiento resumido hablaba de un farol apagado): el corte de la
+  generación 5, ahora en una partida; (3) cuando una respuesta llega vacía
+  el programa pone "…" en la conversación, porque la API no admite un turno
+  vacío, y la casa lo leyó después como un turno suyo ("respondí solo
+  «…»"): cualquier relleno se lo va a atribuir; queda declarado y el
+  registro guarda el motivo real (`motivo_fin: refusal`).
 - **Los derechos de C-MARE, leídos por las casas** (20/10/2026, 18:55;
   idea de Maia, sin diseñar: "en algún momento mandar a los modelos los
   derechos que escribieron en C-MARE (principalmente Claude) y preguntarles
