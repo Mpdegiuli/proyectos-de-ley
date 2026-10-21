@@ -30,6 +30,8 @@ class Respuesta:
     crudo: dict = None
     razonamiento: str = None  # pensamiento privado del modelo, si el proveedor lo devuelve
     servido_por: str = None  # intermediarios (OpenRouter): qué proveedor de fondo atendió la llamada
+    tokens_cache_leidos: int = None  # Anthropic: tokens de entrada servidos desde el caché de prompt (21/10/2026)
+    tokens_cache_escritos: int = None  # Anthropic: tokens de entrada escritos al caché en esta llamada
 
 
 def cargar_modelos(ruta):
@@ -90,6 +92,17 @@ class ProveedorAnthropic:
         if _imagenes(contexto):
             contenido = [{"type": "image", "source": {"type": "base64", "media_type": "image/png", "data": _b64(im)}}
                          for im in _imagenes(contexto)] + [{"type": "text", "text": usuario}]
+        # Caché de prompt (21/10/2026, decisión de Maia para la farolera): en una conversación por turnos
+        # la llamada repite todo lo anterior y Anthropic cobra lo repetido a una fracción si se marca para
+        # caché. Se marca el último bloque del mensaje nuevo: así el prefijo (sistema + historial + mensaje)
+        # queda en caché para la llamada siguiente, que lo encuentra cuando la conversación sigue. Solo con
+        # historial, que es donde se repite; los prefijos cortos (menos de ~1.000 tokens) no se cachean y la
+        # API los cobra igual que siempre. Lo que se lee del caché queda registrado en llamadas.jsonl.
+        if historial:
+            if isinstance(contenido, str):
+                contenido = [{"type": "text", "text": contenido}]
+            contenido = list(contenido)
+            contenido[-1] = dict(contenido[-1], cache_control={"type": "ephemeral"})
         kwargs = dict(
             model=cfg["modelo"],
             max_tokens=max_tokens,
@@ -124,6 +137,8 @@ class ProveedorAnthropic:
             motivo_fin=r.stop_reason,
             crudo=crudo,
             razonamiento=razon or None,
+            tokens_cache_leidos=getattr(r.usage, "cache_read_input_tokens", None),
+            tokens_cache_escritos=getattr(r.usage, "cache_creation_input_tokens", None),
         )
 
 
@@ -253,7 +268,8 @@ class ProveedorFalso:
             modelo_respondido="falso-v0",
             tokens_entrada=len(sistema.split()) + len(usuario.split()),
             tokens_salida=len(texto.split()),
-            motivo_fin="end_turn",
+            # un `falso` vacío simula un corte de la API (jugar.py --simular cortado, 21/10/2026)
+            motivo_fin="refusal" if c.get("falso") == "" else "end_turn",
             crudo={"simulado": True},
             razonamiento=f"(razonamiento simulado de la parte {n})" if n else None,
         )
@@ -340,6 +356,9 @@ class Registro:
             "motivo_fin": respuesta.motivo_fin if respuesta else None,
             "tokens_entrada": respuesta.tokens_entrada if respuesta else None,
             "tokens_salida": respuesta.tokens_salida if respuesta else None,
+            # Anthropic con caché de prompt (21/10/2026): lo leído del caché no está en tokens_entrada
+            "tokens_cache_leidos": respuesta.tokens_cache_leidos if respuesta else None,
+            "tokens_cache_escritos": respuesta.tokens_cache_escritos if respuesta else None,
             "latencia_s": latencia,
             "intentos": intento,
             "error": error,

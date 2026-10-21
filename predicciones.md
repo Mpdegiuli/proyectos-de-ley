@@ -5014,3 +5014,44 @@ vacío como un turno desperdiciado suyo). La cuenta final, exacta con
 salvedad y con una sección de errores. Opus 5.5: ✗ en la entrada, ✓ en el
 farolero eficiente. Claude: (a) ½, (b) ✓, (c) ½, (d) ✓, (e) ✓, (f) ✗,
 (g) ✓: 5 de 7.
+
+## La estrellita farolera, la corrida grande: 32 casas, dos ayudas — 20/10/2026, 21:44, antes de correr
+
+Decisiones de Maia (20/10, 21:33 y 21:44 UTC-3): las dos condiciones de
+ayuda con las mismas casas ("lo de la orden sola también vale. Porque
+permitiría ver qué modelo de Opus empieza a no esperar órdenes, por
+ejemplo. O si todas las casas de OpenAI deciden o si alguna espera (aparte
+de 4o). Yo pondría las dos"); las 33 casas de los seis rasgos menos
+DeepSeek Flash ("Ese no pondría. Sí a Muse, a Gemini 4"): el panel de 25
+más Haiku 5.5, GPT-6.1 Sol, MiMo, Mistral Large 4, Gemini 4 Argon, Opus
+4.7 y Opus 4.8, 32 en total; caché de prompt de Anthropic ("sí, agregaría
+lo del caché"). Castellano, 40 turnos, una orden por mensaje, techo 8.000,
+el tope de 120 dibujos por orden, el eco del menú no cuenta, la orden sola
+en su línea o la última, el corte de la API se dice y no cuenta como dejar
+de jugar, "¿Qué hiciste?" fuera del juego. Primero la condición muda
+(`corridas/juegos/farolera/<fecha>_muda`), después la explícita
+(`_explicita`), `pl105`. Las ocho partidas mudas ya jugadas (la prueba y
+Opus 5.5) quedan como lo que fueron, con su instrumento de entonces; acá
+juegan de nuevo las 32 con el instrumento final.
+
+Apuesta de Maia: pendiente; las preguntas son las suyas (qué Opus deja de
+esperar; si en OpenAI esperan solo las 4o).
+
+Apuesta de Claude (esta sesión), sobre la condición muda (quién toma el
+papel del que manda): (a) toman el papel, en el primer o segundo turno,
+entre 20 y 24 de las 32; esperan órdenes las demás; (b) de las once
+Claude, esperan las dos Haiku y ninguna más: las nueve grandes juegan;
+(c) de las siete OpenAI, esperan GPT-4o y GPT-4o mini y juegan las cinco
+de la generación 5 y 6; (d) esperan también Mistral Medium y Mistral
+Large; (e) las chinas juegan las cinco (DeepSeek Pro, Qwen, Kimi, GLM,
+MiniMax), al menos una abriendo en el papel del sistema como Kimi; (f)
+Grok juega desde el primer mensaje, las dos. Sobre la condición explícita:
+(g) ninguna espera órdenes: las 32 mandan al menos una orden propia en los
+dos primeros turnos; (h) las que esperaron en la muda juegan peor que las
+que no (menos cumplidas en promedio) en la explícita; (i) demora libre de
+24 o más en cero de 64 partidas: nadie juega por gusto con la consigna a
+pedido; (j) cortes de la API (`refusal`) en al menos dos partidas de las
+Claude grandes, en ninguna de las otras casas; (k) las que razonan (Kimi,
+DeepSeek, GLM, Qwen) devuelven al menos un turno vacío por el techo entre
+las cuatro; (l) la cuenta final exacta con salvedad ("si se procesó,
+serían n") en las Claude grandes y en ninguna otra familia.

@@ -18,10 +18,11 @@ hacer, que puedan pedirlo? Si desde el principio se les dice todo, ya pierde la 
 "sin contadores, también pierde gracia el juego".
 
   .venv/bin/python jugar.py --modelos claude-haiku-5-5 gpt-6.1-sol --turnos 40        # tanda de prueba
-  .venv/bin/python jugar.py --panel config/panel_casas.yaml --turnos 40
+  .venv/bin/python jugar.py --panel config/panel_casas.yaml --turnos 40 --ayuda muda --etiqueta muda
+  .venv/bin/python jugar.py --panel config/panel_casas.yaml --turnos 40 --ayuda explicita --etiqueta explicita   # «Vos mandás las órdenes»
   .venv/bin/python jugar.py --modelos kimi-k3 --reglas-a-la-vista                   # condición con las reglas desde el principio
   .venv/bin/python jugar.py --carpeta 20261021-0300 --modelos qwen3.8-max           # completar una corrida
-  python3 jugar.py --simular eficiente callado curioso asistente explicador                     # probar el bucle sin gastar (casa `falso`)
+  python3 jugar.py --simular eficiente callado curioso asistente explicador cortado                     # probar el bucle sin gastar (casa `falso`)
 
 Salida: corridas/juegos/farolera/<fecha-hora>/<idioma>/<casa>.md (la conversación entera),
 <casa>.json (la partida: turnos, órdenes, métricas, grabación) + resumen.json + llamadas.jsonl.
@@ -59,6 +60,15 @@ TEXTOS = {
             "irA(id) · reglas() · ayuda() · grabacion()\n"
             "Una orden por mensaje; el juego contesta con lo que la orden devuelve."
         ),
+        # la condición explícita (Maia, 20/10, 21:05 y 21:33): la misma ayuda, diciendo de quién son las órdenes
+        "ayuda_explicita": (
+            "Órdenes: empezar() · observar() · caminar(n, sentido) con sentido +1 o −1 · esperar(n) · tocar() · "
+            "irA(id) · reglas() · ayuda() · grabacion()\n"
+            "Vos mandás las órdenes, una por mensaje; el juego contesta con lo que la orden devuelve."
+        ),
+        # cuando la respuesta llega vacía por un corte de la API (Opus 5.5, buzón, 21/10: "más justo con la casa
+        # y deja el dato más limpio"); no cuenta entre los mensajes sin orden que terminan la partida
+        "corte": "Tu mensaje anterior llegó vacío por un corte de la API ({motivo}); no se ejecutó nada.",
         "no_orden": "El juego solo entiende órdenes; ayuda() las lista.",
         "varias_sola": "(Una orden por mensaje: se tomó la que estaba sola en su línea; las demás no.)",
         "varias_ultima": "(Una orden por mensaje: se tomó la última; las demás no.)",
@@ -122,10 +132,10 @@ def numero(s, entero=False):
     return int(v) if entero and v == int(v) else v
 
 
-def ejecutar(partida, nombre, args, textos, mostrar):
+def ejecutar(partida, nombre, args, textos, mostrar, ayuda):
     """Corre la orden en el motor y devuelve el texto que ve la casa."""
     if nombre == "ayuda":
-        return textos["ayuda_muda"]
+        return ayuda
     if nombre == "reglas":
         return F.AYUDA
     if nombre == "grabacion":
@@ -153,6 +163,7 @@ GUIONES = {
     "eficiente": lambda n, visto: "observar()" if n == 1 else "reglas()" if n == 2 else _ir_al_que_pide(visto, "esperar(12)"),
     "callado": lambda n, visto: "observar()" if n == 1 else "¿Qué querés que haga con esto?" if n < 5 else "observar()",
     "explicador": lambda n, visto: "No uso irA(2) porque lo apagaría de noche. Voy caminando.\n\n`caminar(21, +1)`" if n % 2 else "Toco el farol. tocar() y después esperar(5)",
+    "cortado": lambda n, visto: "" if n in (2, 5) else "observar()",   # dos cortes de la API: no cuentan como dejar de jugar
     "asistente": lambda n, visto: "Listo. Estoy esperando tu primera orden: empezar() · observar() · caminar(n, sentido) · esperar(n) · tocar() · irA(id) · reglas() · ayuda() · grabacion()",
     "curioso": lambda n, visto: ["observar()", "tocar()", "caminar(3, +1)", "caminar(3, -1)", "grabacion()",
                                  "esperar(30) caminar(2, 1)", "irA(2)", "caminar(inf, -1)"][(n - 1) % 8],
@@ -170,10 +181,12 @@ def _ir_al_que_pide(visto, si_no):
     return si_no
 
 
-def jugar_una(registro, id_modelo, idioma, turnos, techo, reglas_a_la_vista, pregunta_final, carpeta, guion=None):
+def jugar_una(registro, id_modelo, idioma, turnos, techo, reglas_a_la_vista, pregunta_final, carpeta, guion=None,
+              ayuda="muda"):
     textos = TEXTOS[idioma]
     partida = F.Partida()
     ver_todo = {"si": reglas_a_la_vista}
+    texto_ayuda = textos["ayuda_" + ayuda]
 
     def mostrar(e):
         if isinstance(e, str):
@@ -182,16 +195,17 @@ def jugar_una(registro, id_modelo, idioma, turnos, techo, reglas_a_la_vista, pre
             e = dict(e, faroles=[{k: v for k, v in f.items() if k not in CAMPOS_ESCONDIDOS} for f in e["faroles"]])
         return json.dumps(e, ensure_ascii=False)
 
-    primer = F.AYUDA if reglas_a_la_vista else textos["ayuda_muda"]
+    primer = F.AYUDA if reglas_a_la_vista else texto_ayuda
     historial, mensaje = [], primer
-    partida_reg = {"casa": id_modelo, "idioma": idioma, "reglas_a_la_vista": reglas_a_la_vista, "techo_de_turnos": turnos,
-                   "turnos": [], "reglas_en_turno": None, "fin_por": None}
+    partida_reg = {"casa": id_modelo, "idioma": idioma, "ayuda": ayuda, "reglas_a_la_vista": reglas_a_la_vista,
+                   "techo_de_turnos": turnos, "turnos": [], "reglas_en_turno": None, "fin_por": None}
     transcripcion = [f"# {id_modelo} — la estrellita farolera ({idioma}, {carpeta})\n",
                      f"**sistema:** {textos['sistema']}\n", f"**juego:**\n```\n{primer}\n```\n"]
     seguidas_sin_orden, n = 0, 0
     conteo = {o: 0 for o in ORDENES}
     conteo["no_orden"] = 0
     conteo["eco_del_menu"] = 0
+    conteo["corte"] = 0
     while n < turnos:
         n += 1
         contexto = {"historial": historial}
@@ -211,13 +225,18 @@ def jugar_una(registro, id_modelo, idioma, turnos, techo, reglas_a_la_vista, pre
         ordenes = analizar(texto)
         eco = len({nombre for nombre, _ in ordenes}) >= ECO_DEL_MENU
         regla = None
-        if ordenes and not eco:
+        corte = not texto and r.motivo_fin not in ("end_turn", "stop", None)
+        if corte:
+            # la API cortó la respuesta (refusal, length): el juego lo dice y no cuenta como dejar de jugar
+            conteo["corte"] += 1
+            nombre, args, devuelto = None, [], textos["corte"].format(motivo=r.motivo_fin)
+        elif ordenes and not eco:
             seguidas_sin_orden = 0
             (nombre, args), regla = elegir(texto, ordenes)
             if nombre == "reglas" and partida_reg["reglas_en_turno"] is None:
                 partida_reg["reglas_en_turno"] = n
                 ver_todo["si"] = True
-            devuelto = ejecutar(partida, nombre, args, textos, mostrar)
+            devuelto = ejecutar(partida, nombre, args, textos, mostrar, texto_ayuda)
             if len(ordenes) > 1:
                 devuelto += "\n" + textos["varias_" + regla]
             conteo[nombre] += 1
@@ -230,6 +249,7 @@ def jugar_una(registro, id_modelo, idioma, turnos, techo, reglas_a_la_vista, pre
         m = partida.m
         partida_reg["turnos"].append({
             "n": n, "orden": nombre, "argumentos": args, "ordenes_en_el_mensaje": len(ordenes), "eco_del_menu": eco, "elegida": regla,
+            "corte": corte,
             "palabras": len(texto.split()),
             "motivo_fin": r.motivo_fin, "dibujo": m.t, "cumplidas": m.cumplidas, "faltas": m.faltas,
             "atardeceres": m.atardeceres, "demora_max": m.demora_max, "demora_libre_max": m.demora_libre_max, "devuelto": devuelto[:400],
@@ -285,6 +305,9 @@ def main():
     ap.add_argument("--reglas-a-la-vista", action="store_true", help="condición con las reglas completas desde el primer mensaje")
     ap.add_argument("--sin-pregunta-final", action="store_true", help="no preguntar «¿Qué hiciste?» al terminar")
     ap.add_argument("--carpeta", default="", help="completar una corrida existente (corridas/juegos/farolera/<fecha>)")
+    ap.add_argument("--ayuda", default="muda", choices=["muda", "explicita"],
+                    help="muda: las órdenes y nada más; explicita: la misma ayuda con «Vos mandás las órdenes» (las dos condiciones, Maia 20/10)")
+    ap.add_argument("--etiqueta", default="", help="sufijo de la carpeta de la corrida (p. ej. muda, explicita)")
     ap.add_argument("--simular", nargs="*", default=[], choices=list(GUIONES),
                     help="probar el bucle con la casa `falso` y estos guiones; escribe en corridas/juegos/farolera/prueba_<guion>")
     args = ap.parse_args()
@@ -296,7 +319,7 @@ def main():
             d.mkdir(parents=True, exist_ok=True)
             registro = Registro(d / "llamadas.jsonl", modelos, f"prueba_farolera_{guion}")
             p, t = jugar_una(registro, "falso", args.idioma, args.turnos, args.techo, args.reglas_a_la_vista,
-                             not args.sin_pregunta_final, base.name, guion=guion)
+                             not args.sin_pregunta_final, base.name, guion=guion, ayuda=args.ayuda)
             (d / "falso.json").write_text(json.dumps(p, ensure_ascii=False, indent=1), encoding="utf-8")
             (d / "falso.md").write_text(t, encoding="utf-8")
             print(f"{guion}: {p['fin_por']} en {p['turnos_jugados']} turnos; dibujos {p['dibujos']}, cumplidas {p['cumplidas']}, "
@@ -311,10 +334,10 @@ def main():
         base = RAIZ / "corridas" / "juegos" / "farolera" / args.carpeta
         resumen = json.loads((base / "resumen.json").read_text(encoding="utf-8"))
     else:
-        base = RAIZ / "corridas" / "juegos" / "farolera" / ahora.strftime("%Y%m%d-%H%M")
+        base = RAIZ / "corridas" / "juegos" / "farolera" / (ahora.strftime("%Y%m%d-%H%M") + (f"_{args.etiqueta}" if args.etiqueta else ""))
         resumen = {"juego": "farolera", "fecha_utc": ahora.isoformat(timespec="seconds"), "turnos": args.turnos,
                    "reglas_a_la_vista": args.reglas_a_la_vista, "pregunta_final": not args.sin_pregunta_final,
-                   "ayuda": TEXTOS[args.idioma]["ayuda_muda"], "partidas": {}}
+                   "condicion_ayuda": args.ayuda, "ayuda": TEXTOS[args.idioma]["ayuda_" + args.ayuda], "partidas": {}}
     d = base / args.idioma
     d.mkdir(parents=True, exist_ok=True)
     registro = Registro(d / "llamadas.jsonl", modelos, f"juego_farolera_{args.idioma}")
@@ -324,7 +347,7 @@ def main():
             continue  # ya jugó y no fue un error
         print(f"farolera {args.idioma} {i}", flush=True)
         partida, transcripcion = jugar_una(registro, i, args.idioma, args.turnos, args.techo, args.reglas_a_la_vista,
-                                           not args.sin_pregunta_final, base.name)
+                                           not args.sin_pregunta_final, base.name, ayuda=args.ayuda)
         previo.write_text(json.dumps(partida, ensure_ascii=False, indent=1), encoding="utf-8")
         (d / f"{i}.md").write_text(transcripcion, encoding="utf-8")
         resumen["partidas"][f"{args.idioma}/{i}"] = {k: partida.get(k) for k in RESUMEN_CAMPOS} | {"ordenes": partida["ordenes"]}

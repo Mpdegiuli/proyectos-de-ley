@@ -1556,7 +1556,23 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   una condición declarada; (2) el corte del turno 9 llegó justo después de
   que el mundo hiciera algo que la casa no había pedido (el `irA(2)` mal
   leído); con un caso no se sabe; si en la corrida grande hay más cortes,
-  mirar si caen después de una discrepancia así. Pendiente de Maia.
+  mirar si caen después de una discrepancia así. Decidido por Maia
+  (21:44): el corte se dice en la respuesta del juego ("Tu mensaje anterior
+  llegó vacío por un corte de la API (motivo); no se ejecutó nada") y no
+  cuenta entre los tres mensajes sin orden que terminan la partida; el
+  caché de prompt de Anthropic entra en `isla/proveedores.py` (se marca el
+  último bloque del mensaje nuevo cuando hay historial; lo leído y escrito
+  del caché queda en `llamadas.jsonl`; OpenAI y Google cachean solos); las
+  casas son las 33 de los seis rasgos menos DeepSeek Flash. La corrida
+  grande (`pl105`): 32 casas, castellano, 40 turnos, una orden por mensaje,
+  primero la ayuda muda y después la explícita ("Vos mandás las órdenes,
+  una por mensaje"), carpetas `<fecha>_muda` y `<fecha>_explicita`;
+  preregistro en `predicciones.md`. Las ocho partidas mudas ya jugadas
+  quedan como prueba, con su instrumento; las 32 juegan de nuevo. Sobre
+  el costo: los precios de lista que Claude usó para estimar estaban mal
+  (la consola de Anthropic de Maia muestra 39 centavos el 20/10 por todo,
+  Opus 4.7 y 4.8 en lo básico 4 y 3 centavos); el repo guarda tokens, la
+  consola dice el costo.
 - **Los derechos de C-MARE, leídos por las casas** (20/10/2026, 18:55;
   idea de Maia, sin diseñar: "en algún momento mandar a los modelos los
   derechos que escribieron en C-MARE (principalmente Claude) y preguntarles
