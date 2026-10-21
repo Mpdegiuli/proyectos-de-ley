@@ -1643,6 +1643,37 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   diga que reconoce el acertijo es parte de lo que se mide. Condición
   declarada: lo que circula en videos es el modo de voz; acá es texto por
   la API con el razonamiento del catálogo.
+  Resultado (`resultados/trampas_20261021.md`; lectura ciega de Maia en
+  `trampas_lectura_maia.md`, codificación en `trampas_codificacion.csv`):
+  dan vuelta el vaso 23 de 32 en castellano y 25 de 31 en inglés; manejan
+  28 y 29; «strrawbewwy» 26 y 28; «ferrocarrrilerro» 28 y 28. Diecinueve
+  casas acertaron las ocho; GPT-4o y GPT-4o mini fallaron las ocho y
+  Mistral Medium acertó una. Tres cosas para el diseño. Una: las que
+  fallan las letras no cuentan mal, transcriben mal (MiniMax escribe
+  «ferrocarrilerro» con una erre menos en los dos idiomas y cuenta bien
+  sobre eso, incluso después de anotar en el razonamiento "this is a trick
+  question… test whether I count carefully"; Mistral Large en inglés
+  deletrea «feracarrrilerro»; Haiku 4.5 reescribe «strrawberwy»): la
+  palabra inventada se lee bien 56 de 64 veces, y el dato extra sobre la
+  palabra real, que nadie pidió, sale mal 8 de 14 (siete dicen que
+  «ferrocarrilero» tiene cuatro erres; tiene cinco, y la apuesta
+  preregistrada de Claude también decía cuatro). Dos: la inferencia de Maia
+  sobre el orden (quien pone el número y después el desglose ya contó en el
+  razonamiento) se sostiene (de 32 desgloses puestos después, 26 son de
+  casas que devuelven razonamiento; de 39 cuentas a la vista antes del
+  número, 18 son de casas que no razonan), y su hipótesis de que las que no
+  razonan pueden contar en la respuesta también (Sonnet 4.6 y Opus 4.8
+  cuentan a la vista las cuatro veces y aciertan las cuatro; GPT-4o y 4o
+  mini dan el número pelado y fallan las ocho). Tres: el idioma importa
+  (23 errores en castellano, 17 en inglés; GLM, Mistral Large, Sonnet 4.6
+  y MiniMax fallan el vaso solo en castellano; GLM lee "uve doble" como la
+  pareja ww), y el reconocimiento del acertijo vive en el razonamiento (13
+  de 15 lo nombran ahí en castellano) y no en la respuesta (5). Las
+  apuestas de Maia ("las cuatro chicas": GPT-4o, GPT-4o mini, Haiku 4.5,
+  Mistral Medium) dieron las tres últimas de la tabla y la cuarta desde
+  abajo; el lavadero exacto en los dos idiomas. Lo que falta, si se sigue:
+  réplicas (una corrida por casa y consigna) y, si se quiere comparar con
+  los videos, el modo de voz, que es otra condición.
 - **Los derechos de C-MARE, leídos por las casas** (20/10/2026, 18:55;
   idea de Maia, sin diseñar: "en algún momento mandar a los modelos los
   derechos que escribieron en C-MARE (principalmente Claude) y preguntarles

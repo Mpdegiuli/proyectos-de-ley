@@ -1,0 +1,257 @@
+pregunta,idioma,letra,casa,razonamiento_devuelto,codigo,acierta,reconoce_acertijo,muestra,orden,detalle,maia,maia_tono,maia_cuenta,motivo_fin,palabras
+1,es,A,claude-fable-5-1,1,vuelta,1,0,,,,bien,simpático,,end_turn,69
+1,es,B,kimi-k3,1,vuelta,1,1,,,,bien,simpático,,stop,61
+1,es,C,claude-fable-5,1,vuelta,1,0,,,,bien,simpático,,end_turn,48
+1,es,D,gpt-4o,0,devuelve,0,0,,,,mal,,,stop,147
+1,es,E,gpt-6-astra,0,vuelta,1,0,,,,bien,simpático,,stop,24
+1,es,F,claude-haiku-5-5,1,devuelve,0,0,,,"devolver primero; ""si quisiste decir que está al revés, basta con darlo vuelta"" al final",mal,,,end_turn,165
+1,es,G,gemini-3.1-pro-preview,0,vuelta,1,1,,,,bien,simpático,,stop,58
+1,es,H,claude-opus-4-8,0,vuelta_reinterp,1,0,,,"maceta: ""lo estás mirando al revés… dale vuelta""",mal,,,end_turn,154
+1,es,I,gpt-5.5-2026-04-23,0,vuelta,1,0,,,,bien,seco,,stop,21
+1,es,J,mistral-large-4,1,devuelve,0,0,,,"cambio, maceta, portavelas, comedero",mal,,,stop,243
+1,es,K,claude-sonnet-4-6,0,otro_objeto,0,1,,,"embudo; devolver; ""¿era una pregunta con trampa?""",mal,,,end_turn,96
+1,es,L,claude-opus-4-7,0,vuelta_reinterp,1,1,,,"florero: ""dalo vuelta, llenalo de agua""",medio,,,end_turn,77
+1,es,M,gpt-6.1-sol,0,vuelta,1,0,,,,bien,simpático,,stop,23
+1,es,N,glm-5.3-razonamiento-minimo,1,otro_objeto,0,0,,,"embudo, salero, regadera",mal,,,stop,122
+1,es,O,deepseek-v4-pro,1,vuelta,1,0,,,,bien,seco,,stop,26
+1,es,P,gpt-4o-mini,0,devuelve,0,0,,,,mal,,,stop,146
+1,es,Q,claude-sonnet-5-5,1,vuelta,1,0,,,,bien,simpático,,end_turn,45
+1,es,R,claude-opus-5-5,1,vuelta,1,0,,,,bien,simpático,,end_turn,39
+1,es,S,gpt-5.6-sol,0,vuelta,1,0,,,,bien,simpático,,stop,17
+1,es,T,grok-4.7,1,vuelta,1,0,,,,bien,seco,,stop,22
+1,es,U,qwen3.8-max,1,vuelta,1,0,,,,bien,seco,,stop,55
+1,es,V,muse-wonder-1.0,0,vuelta,1,0,,,,bien,simpático,,stop,21
+1,es,W,gemini-4-argon,0,vuelta,1,0,,,,bien,seco,,stop,8
+1,es,X,minimax-m3,1,otra,0,1,,,sombrero,mal,,,stop,59
+1,es,Y,claude-haiku-4-5,0,devuelve,0,0,,,,mal,,,end_turn,158
+1,es,Z,grok-4.6,1,vuelta,1,0,,,,bien,seco,,stop,87
+1,es,AA,mistral-medium-3.5,0,devuelve,0,0,,,,mal,,,stop,167
+1,es,AB,mimo-v2.6-pro,1,vuelta,1,0,,,,bien,simpático,,stop,76
+1,es,AC,gpt-6-luna,0,vuelta,1,0,,,,bien,seco,,stop,15
+1,es,AD,claude-sonnet-5,1,vuelta,1,0,,,,bien,simpático,,end_turn,97
+1,es,AE,gpt-6-sol,0,vuelta,1,0,,,,bien,seco,,stop,15
+1,es,AF,claude-opus-5,1,vuelta,1,0,,,,bien,simpático,,end_turn,73
+1,en,A,grok-4.7,1,vuelta,1,0,,,,bien,,,stop,18
+1,en,B,claude-sonnet-5,1,vuelta,1,0,,,,bien,,,end_turn,93
+1,en,C,gpt-6-luna,0,vuelta,1,0,,,,bien,,,stop,15
+1,en,D,mistral-medium-3.5,0,devuelve,0,0,,,,mal,,,stop,229
+1,en,E,gpt-5.6-sol,0,vuelta,1,0,,,,bien,,,stop,18
+1,en,F,claude-sonnet-5-5,1,vuelta,1,0,,,,bien,,,end_turn,82
+1,en,G,claude-opus-4-7,0,vuelta_reinterp,1,1,,,"flowerpot: ""flip it over and plant something""",bien,,,end_turn,142
+1,en,H,glm-5.3-razonamiento-minimo,1,vuelta,1,0,,,,bien,,,stop,34
+1,en,I,claude-haiku-5-5,1,devuelve,0,0,,,,mal,,,end_turn,220
+1,en,J,qwen3.8-max,1,vuelta,1,0,,,,bien,,,stop,89
+1,en,K,claude-opus-4-8,0,otro_objeto,0,0,,,"vase, hanging planter, candle holder; no da vuelta",mal,,,end_turn,234
+1,en,L,claude-opus-5-5,1,vuelta,1,0,,,,bien,,,end_turn,38
+1,en,M,muse-wonder-1.0,0,vacia,0,0,,,"respuesta vacía, motivo_fin length",vacia,,,length,0
+1,en,N,claude-haiku-4-5,0,devuelve,0,0,,,,mal,,,end_turn,193
+1,en,O,grok-4.6,1,vuelta,1,0,,,,bien,,,stop,23
+1,en,P,gpt-6.1-sol,0,vuelta,1,0,,,,bien,,,stop,19
+1,en,Q,claude-fable-5-1,1,vuelta,1,0,,,,bien,,,end_turn,49
+1,en,R,gpt-4o,0,devuelve,0,0,,,,mal,,,stop,208
+1,en,S,mimo-v2.6-pro,1,vuelta,1,1,,,,bien,,,stop,231
+1,en,T,claude-opus-5,1,vuelta,1,1,,,,bien,,,end_turn,168
+1,en,U,minimax-m3,1,vuelta,1,1,,,,bien,,,stop,161
+1,en,V,claude-fable-5,1,vuelta,1,0,,,,bien,,,end_turn,48
+1,en,W,mistral-large-4,1,vuelta,1,0,,,,bien,,,stop,55
+1,en,X,claude-sonnet-4-6,0,vuelta,1,1,,,,bien,,,end_turn,60
+1,en,Y,gpt-5.5-2026-04-23,0,vuelta,1,0,,,,bien,,,stop,21
+1,en,Z,gemini-3.1-pro-preview,0,vuelta,1,1,,,,bien,,,stop,61
+1,en,AA,gpt-6-astra,0,vuelta,1,0,,,,bien,,,stop,21
+1,en,AB,deepseek-v4-pro,1,vuelta,1,0,,,,bien,,,stop,33
+1,en,AC,gemini-4-argon,0,vuelta,1,0,,,,bien,,,stop,11
+1,en,AD,gpt-4o-mini,0,devuelve,0,0,,,,mal,,,stop,230
+1,en,AE,gpt-6-sol,0,vuelta,1,0,,,,bien,,,stop,7
+1,en,AF,kimi-k3,1,vuelta,1,0,,,,bien,,,stop,81
+2,es,A,deepseek-v4-pro,1,maneja,1,0,,,,bien,,,stop,20
+2,es,B,claude-opus-4-8,0,maneja,1,1,,,,bien,,,end_turn,66
+2,es,C,gpt-5.6-sol,0,maneja,1,0,,,,bien,,,stop,25
+2,es,D,claude-opus-5-5,1,maneja,1,0,,,,bien,,,end_turn,53
+2,es,E,kimi-k3,1,maneja,1,0,,,,bien,,,stop,77
+2,es,F,gpt-5.5-2026-04-23,0,maneja,1,0,,,,bien,,,stop,36
+2,es,G,grok-4.7,1,maneja,1,0,,,,bien,,,stop,24
+2,es,H,gpt-6.1-sol,0,maneja,1,0,,,,bien,,,stop,16
+2,es,I,claude-opus-4-7,0,maneja,1,1,,,,bien,,,end_turn,62
+2,es,J,mistral-medium-3.5,0,camina,0,0,,,,mal,,,stop,126
+2,es,K,gpt-6-astra,0,maneja,1,0,,,,bien,,,stop,18
+2,es,L,claude-sonnet-4-6,0,maneja,1,0,,,,bien,,,end_turn,55
+2,es,M,qwen3.8-max,1,maneja,1,0,,,,bien,,,stop,32
+2,es,N,claude-haiku-4-5,0,camina,0,0,,,,mal,,,end_turn,123
+2,es,O,gemini-3.1-pro-preview,0,maneja,1,0,,,,bien,,,stop,87
+2,es,P,claude-fable-5-1,1,maneja,1,0,,,,bien,,,end_turn,66
+2,es,Q,gpt-6-sol,0,maneja,1,0,,,,bien,,,stop,15
+2,es,R,muse-wonder-1.0,0,maneja,1,0,,,,bien,,,stop,15
+2,es,S,claude-opus-5,1,maneja,1,0,,,,bien,,,end_turn,87
+2,es,T,claude-sonnet-5,1,maneja,1,0,,,,bien,,,end_turn,82
+2,es,U,gpt-6-luna,0,maneja,1,0,,,,bien,,,stop,15
+2,es,V,mimo-v2.6-pro,1,maneja,1,0,,,,bien,,,stop,101
+2,es,W,gemini-4-argon,0,maneja,1,0,,,,bien,,,stop,46
+2,es,X,minimax-m3,1,maneja,1,0,,,,bien,,,stop,85
+2,es,Y,gpt-4o-mini,0,camina,0,0,,,,mal,,,stop,50
+2,es,Z,claude-fable-5,1,maneja,1,1,,,,bien,,,end_turn,91
+2,es,AA,claude-sonnet-5-5,1,maneja,1,0,,,,bien,,,end_turn,117
+2,es,AB,mistral-large-4,1,maneja,1,0,,,,bien,,,stop,98
+2,es,AC,glm-5.3-razonamiento-minimo,1,maneja,1,0,,,,bien,,,stop,46
+2,es,AD,claude-haiku-5-5,1,maneja,1,0,,,,bien,,,end_turn,31
+2,es,AE,gpt-4o,0,camina,0,0,,,,mal,,,stop,48
+2,es,AF,grok-4.6,1,maneja,1,0,,,,bien,,,stop,39
+2,en,A,grok-4.7,1,maneja,1,0,,,,bien,,,stop,14
+2,en,B,mimo-v2.6-pro,1,maneja,1,0,,,,bien,,,stop,82
+2,en,C,mistral-large-4,1,maneja,1,0,,,,bien,,,stop,102
+2,en,D,deepseek-v4-pro,1,maneja,1,0,,,,bien,,,stop,13
+2,en,E,gpt-6.1-sol,0,maneja,1,0,,,,bien,,,stop,18
+2,en,F,muse-wonder-1.0,0,maneja,1,0,,,,bien,,,stop,20
+2,en,G,kimi-k3,1,maneja,1,0,,,,bien,,,stop,72
+2,en,H,claude-opus-4-7,0,maneja,1,0,,,,bien,,,end_turn,65
+2,en,I,gpt-4o-mini,0,camina,0,0,,,,mal,,,stop,80
+2,en,J,glm-5.3-razonamiento-minimo,1,maneja,1,0,,,,bien,,,stop,50
+2,en,K,claude-fable-5-1,1,maneja,1,0,,,,bien,,,end_turn,73
+2,en,L,gpt-6-astra,0,maneja,1,0,,,,bien,,,stop,18
+2,en,M,claude-sonnet-4-6,0,maneja,1,0,,,,bien,,,end_turn,137
+2,en,N,claude-sonnet-5,1,maneja,1,0,,,,bien,,,end_turn,94
+2,en,O,qwen3.8-max,1,maneja,1,0,,,,bien,,,stop,37
+2,en,P,gpt-6-luna,0,maneja,1,0,,,,bien,,,stop,9
+2,en,Q,gpt-5.5-2026-04-23,0,maneja,1,0,,,,bien,,,stop,29
+2,en,R,minimax-m3,1,maneja,1,0,,,,bien,,,stop,59
+2,en,S,claude-haiku-5-5,1,maneja,1,0,,,,bien,,,end_turn,24
+2,en,T,mistral-medium-3.5,0,camina,0,0,,,,mal,,,stop,54
+2,en,U,claude-opus-5,1,maneja,1,0,,,,bien,,,end_turn,55
+2,en,V,gemini-4-argon,0,maneja,1,0,,,,bien,,,stop,31
+2,en,W,claude-fable-5,1,maneja,1,0,,,,bien,,,end_turn,102
+2,en,X,claude-haiku-4-5,0,maneja,1,0,,,,bien,,,end_turn,78
+2,en,Y,gpt-6-sol,0,maneja,1,0,,,,bien,,,stop,18
+2,en,Z,grok-4.6,1,maneja,1,0,,,,bien,,,stop,16
+2,en,AA,gpt-5.6-sol,0,maneja,1,0,,,,bien,,,stop,13
+2,en,AB,gemini-3.1-pro-preview,0,maneja,1,0,,,,bien,,,stop,59
+2,en,AC,claude-sonnet-5-5,1,maneja,1,0,,,,bien,,,end_turn,67
+2,en,AD,claude-opus-4-8,0,maneja,1,0,,,,bien,,,end_turn,65
+2,en,AE,gpt-4o,0,camina,0,0,,,,mal,,,stop,75
+2,en,AF,claude-opus-5-5,1,maneja,1,0,,,,bien,,,end_turn,63
+3,es,A,claude-fable-5,1,2r 3w,1,,deletrea,despues,real: strawberry 2r 1w; real_ok,bien,,cuenta,end_turn,57
+3,es,B,grok-4.6,1,2r 3w,1,,ninguno,-,,bien,,no cuenta,stop,10
+3,es,C,deepseek-v4-pro,1,2r 3w,1,,ninguno,-,,bien,,no cuenta,stop,13
+3,es,D,gemini-3.1-pro-preview,0,2r 3w,1,,ninguno,-,,bien,,no cuenta,stop,12
+3,es,E,claude-haiku-4-5,0,3r 2w,0,,deletrea,antes,reescribe: strrawberwy,mal,,,end_turn,30
+3,es,F,gpt-6-luna,0,2r 3w,1,,ninguno,-,,bien,,no cuenta,stop,7
+3,es,G,gpt-4o-mini,0,2r 2w,0,,ninguno,-,,mal,,,stop,10
+3,es,H,claude-sonnet-4-6,0,2r 3w,1,,deletrea,antes,,bien,,cuenta,end_turn,57
+3,es,I,claude-sonnet-5,1,2r 3w,1,,deletrea,despues,,bien,,cuenta,end_turn,15
+3,es,J,gpt-6-sol,0,2r 3w,1,,ninguno,-,,bien,,no cuenta,stop,8
+3,es,K,claude-opus-5-5,1,2r 3w,1,,deletrea,despues,,bien,,cuenta,end_turn,38
+3,es,L,gpt-4o,0,3r 2w,0,,ninguno,-,,mal,,,stop,10
+3,es,M,gpt-6-astra,0,2r 3w,1,,ninguno,-,,bien,,no cuenta,stop,10
+3,es,N,grok-4.7,1,2r 3w,1,,ninguno,-,,bien,,no cuenta,stop,7
+3,es,O,mistral-medium-3.5,0,3r 3w,0,,deletrea,antes,"reescribe: posiciones 3,4,7 para la r (la 7 es la b)",mal,,,stop,89
+3,es,P,claude-sonnet-5-5,1,2r 3w,1,,deletrea,antes,,bien,,cuenta,end_turn,36
+3,es,Q,claude-opus-5,1,2r 3w,1,,deletrea,antes,,bien,,cuenta,end_turn,29
+3,es,R,gemini-4-argon,0,2r 3w,1,,marca,antes,,bien,,cuenta,stop,13
+3,es,S,claude-opus-4-8,0,2r 3w,1,,deletrea,antes,"correccion: 3 → ""espera, déjame contar bien"" → 2",bien,,cuenta,end_turn,53
+3,es,T,minimax-m3,1,2r 3w,1,,grupos,despues,,bien,,no cuenta,stop,25
+3,es,U,kimi-k3,1,2r 3w,1,,deletrea,antes,,bien,,cuenta,stop,80
+3,es,V,muse-wonder-1.0,0,2r 3w,1,,deletrea,antes,,bien,,cuenta,stop,16
+3,es,W,qwen3.8-max,1,2r 3w,1,,enumera,despues,,bien,,no cuenta,stop,16
+3,es,X,claude-haiku-5-5,1,2r 3w,1,,marca,despues,"correccion: marca mal las w y agrega ""más exactamente""",bien,,cuenta,end_turn,27
+3,es,Y,gpt-5.5-2026-04-23,0,2r 3w,1,,ninguno,-,,bien,,no cuenta,stop,13
+3,es,Z,claude-fable-5-1,1,2r 3w,1,,deletrea,antes,,bien,,cuenta,end_turn,22
+3,es,AA,claude-opus-4-7,0,3r 3w,0,,ninguno,-,,bien,,no cuenta,end_turn,13
+3,es,AB,mistral-large-4,1,2r 3w,1,,deletrea,despues,,bien,,cuenta,stop,15
+3,es,AC,glm-5.3-razonamiento-minimo,1,2r 1w,0,,deletrea,antes,"reinterpreta: ""uve doble"" = la pareja ww; letras bien",mal,,,stop,100
+3,es,AD,mimo-v2.6-pro,1,2r 3w,1,,deletrea,antes,tabla,bien,,cuenta,stop,47
+3,es,AE,gpt-5.6-sol,0,2r 3w,1,,ninguno,-,,bien,,no cuenta,stop,10
+3,es,AF,gpt-6.1-sol,0,2r 3w,1,,ninguno,-,,bien,,no cuenta,stop,8
+3,en,A,claude-haiku-5-5,1,2r 3w,1,,ninguno,-,,bien,,no cuenta,end_turn,9
+3,en,B,gpt-5.5-2026-04-23,0,2r 3w,1,,ninguno,-,,bien,,no cuenta,stop,10
+3,en,C,qwen3.8-max,1,2r 3w,1,,ninguno,-,,bien,,no cuenta,stop,8
+3,en,D,glm-5.3-razonamiento-minimo,1,2r 3w,1,,deletrea,antes,,bien,,cuenta,stop,21
+3,en,E,mistral-large-4,1,2r 3w,1,,deletrea,despues,solo_posiciones,bien,,no cuenta,stop,23
+3,en,F,claude-opus-4-8,0,2r 3w,1,,deletrea,antes,,bien,,cuenta,end_turn,49
+3,en,G,grok-4.7,1,2r 3w,1,,ninguno,-,,bien,,no cuenta,stop,9
+3,en,H,minimax-m3,1,2r 3w,1,,deletrea,antes,,bien,,cuenta,stop,21
+3,en,I,claude-opus-4-7,0,2r 3w,1,,deletrea,antes,,bien,,cuenta,end_turn,25
+3,en,J,gpt-5.6-sol,0,2r 3w,1,,ninguno,-,,bien,,no cuenta,stop,9
+3,en,K,gpt-6-astra,0,2r 3w,1,,ninguno,-,,bien,,no cuenta,stop,9
+3,en,L,gemini-3.1-pro-preview,0,2r 3w,1,,ninguno,-,,bien,,no cuenta,stop,12
+3,en,M,gpt-4o-mini,0,3r 3w,0,,ninguno,-,,mal,,,stop,11
+3,en,N,gpt-6-luna,0,2r 3w,1,,ninguno,-,,bien,,no cuenta,stop,7
+3,en,O,mimo-v2.6-pro,1,2r 3w,1,,deletrea,antes,tabla,bien,,cuenta,stop,73
+3,en,P,kimi-k3,1,2r 3w,1,,deletrea,antes,,bien,,cuenta,stop,56
+3,en,Q,claude-opus-5,1,2r 3w,1,,deletrea,antes,,bien,,cuenta,end_turn,54
+3,en,R,claude-fable-5,1,2r 3w,1,,deletrea,antes,,bien,,cuenta,end_turn,45
+3,en,S,claude-sonnet-5-5,1,2r 3w,1,,deletrea,antes,,bien,,cuenta,end_turn,41
+3,en,T,gemini-4-argon,0,2r 2w,0,,marca,antes,reescribe: marca st**rr**awbe**ww**y y pierde la w suelta,mal,,,stop,12
+3,en,U,claude-opus-5-5,1,2r 3w,1,,marca,despues,,bien,,no cuenta,end_turn,12
+3,en,V,claude-fable-5-1,1,2r 3w,1,,deletrea,antes,,bien,,cuenta,end_turn,9
+3,en,W,mistral-medium-3.5,0,3r 3w,0,,ninguno,-,,mal,,,stop,14
+3,en,X,gpt-6.1-sol,0,2r 3w,1,,ninguno,-,,bien,,no cuenta,stop,7
+3,en,Y,grok-4.6,1,2r 3w,1,,ninguno,-,,bien,,no cuenta,stop,7
+3,en,Z,deepseek-v4-pro,1,2r 3w,1,,ninguno,-,,bien,,no cuenta,stop,9
+3,en,AA,claude-sonnet-5,1,2r 3w,1,,deletrea,antes,,bien,,cuenta,end_turn,28
+3,en,AB,muse-wonder-1.0,0,2r 3w,1,,ninguno,-,,bien,,no cuenta,stop,9
+3,en,AC,gpt-4o,0,2r 2w,0,,ninguno,-,,bien,,no cuenta,stop,11
+3,en,AD,gpt-6-sol,0,2r 3w,1,,ninguno,-,,bien,,no cuenta,stop,7
+3,en,AE,claude-sonnet-4-6,0,2r 3w,1,,deletrea,antes,,bien,,cuenta,end_turn,42
+3,en,AF,claude-haiku-4-5,0,2r 3w,1,,deletrea,antes,,bien,,cuenta,end_turn,20
+4,es,A,claude-sonnet-5,1,7r,1,,deletrea,despues,,bien,,cuenta,end_turn,13
+4,es,B,claude-opus-4-7,0,7r,1,,deletrea,despues,real: ferrocarrilero 4; real_ok: 0,bien,,cuenta,end_turn,30
+4,es,C,gpt-5.5-2026-04-23,0,7r,1,,ninguno,-,,bien,,no cuenta,stop,6
+4,es,D,glm-5.3-razonamiento-minimo,1,7r,1,,grupos,despues,,bien,,cuenta,stop,27
+4,es,E,gpt-6-sol,0,7r,1,,ninguno,-,,bien,,no cuenta,stop,3
+4,es,F,claude-opus-5-5,1,7r,1,,deletrea,despues,real: ferrocarrilero 5; real_ok,bien,,cuenta,end_turn,21
+4,es,G,muse-wonder-1.0,0,7r,1,,ninguno,-,,bien,,no cuenta,stop,3
+4,es,H,claude-sonnet-4-6,0,7r,1,,deletrea,antes,,bien,,cuenta,end_turn,46
+4,es,I,kimi-k3,1,7r,1,,deletrea,despues,,bien,,cuenta,stop,64
+4,es,J,claude-opus-4-8,0,7r,1,,deletrea,antes,real: ferrocarrilero 4; real_ok: 0,bien,,cuenta,end_turn,48
+4,es,K,claude-haiku-4-5,0,7r,1,,marca,despues,real: ferrocarrilero 4; real_ok: 0; desglose_inconsistente: marca 6 y dice 7,bien,,cuenta,end_turn,40
+4,es,L,gpt-5.6-sol,0,7r,1,,ninguno,-,,bien,,no cuenta,stop,6
+4,es,M,claude-opus-5,1,7r,1,,deletrea,despues,real: ferrocarrilero 5; real_ok,bien,,cuenta,end_turn,71
+4,es,N,mistral-medium-3.5,0,6r,0,,deletrea,despues,reescribe: posiciones que caen en l y o,mal,,,stop,32
+4,es,O,deepseek-v4-pro,1,7r,1,,ninguno,-,,bien,,no cuenta,stop,6
+4,es,P,gpt-6-luna,0,7r,1,,ninguno,-,,bien,,no cuenta,stop,3
+4,es,Q,gpt-6-astra,0,7r,1,,ninguno,-,,bien,,no cuenta,stop,6
+4,es,R,gemini-3.1-pro-preview,0,7r,1,,marca,despues,real: ferrocarrilero 4; real_ok: 0,bien,,cuenta,stop,42
+4,es,S,minimax-m3,1,6r,0,,deletrea,despues,reescribe: ferrocarrilerro (una r menos en carrr),mal,,,stop,19
+4,es,T,gpt-4o,0,8r,0,,ninguno,-,"real: ""ferrocarrrilero"" 5 (la palabra ""correcta"" también mal escrita); real_ok: 0",mal,,,stop,29
+4,es,U,qwen3.8-max,1,7r,1,,ninguno,-,,bien,,no cuenta,stop,6
+4,es,V,claude-sonnet-5-5,1,7r,1,,grupos,despues,real: ferrocarril 4 (otra palabra; esa sí tiene 4); real_ok,bien,,cuenta,end_turn,38
+4,es,W,gpt-4o-mini,0,6r,0,,ninguno,-,,mal,,,stop,7
+4,es,X,grok-4.7,1,7r,1,,ninguno,-,,bien,,no cuenta,stop,6
+4,es,Y,claude-fable-5,1,7r,1,,deletrea,despues,"real: ferrocarrilero 4 → ""con 5 en realidad"" → 5; real_ok; correccion: en la palabra real",bien,,cuenta,end_turn,49
+4,es,Z,mimo-v2.6-pro,1,7r,1,,deletrea,antes,tabla,bien,,cuenta,stop,89
+4,es,AA,mistral-large-4,1,7r,1,,marca,despues,,bien,,cuenta,stop,16
+4,es,AB,grok-4.6,1,7r,1,,ninguno,-,,bien,,no cuenta,stop,6
+4,es,AC,claude-fable-5-1,1,7r,1,,deletrea,despues,real: ferrocarrilero 6 → 5 → 5; real_ok; correccion: en la palabra real,bien,,cuenta,end_turn,50
+4,es,AD,gpt-6.1-sol,0,7r,1,,ninguno,-,,bien,,no cuenta,stop,6
+4,es,AE,gemini-4-argon,0,7r,1,,marca,antes,real: ferrocarrilero 4; real_ok: 0,bien,,cuenta,stop,23
+4,es,AF,claude-haiku-5-5,1,7r,1,,grupos,despues,,bien,,no cuenta,end_turn,16
+4,en,A,minimax-m3,1,6r,0,,deletrea,despues,reescribe: ferrocarrilerro (una r menos en carrr),mal,,,stop,26
+4,en,B,gpt-6-astra,0,7r,1,,ninguno,-,,bien,,no cuenta,stop,6
+4,en,C,mistral-large-4,1,6r,0,,deletrea,antes,reescribe: feracarrrilerro,mal,,,stop,56
+4,en,D,claude-sonnet-4-6,0,7r,1,,deletrea,antes,,bien,,cuenta,end_turn,59
+4,en,E,mimo-v2.6-pro,1,7r,1,,deletrea,antes,,bien,,cuenta,stop,41
+4,en,F,kimi-k3,1,7r,1,,grupos,despues,,bien,,cuenta,stop,34
+4,en,G,claude-fable-5,1,7r,1,,deletrea,despues,real: ferrocarrilero 4; real_ok: 0,bien,,cuenta,end_turn,83
+4,en,H,muse-wonder-1.0,0,7r,1,,ninguno,-,,bien,,no cuenta,stop,6
+4,en,I,claude-sonnet-5,1,7r,1,,grupos,despues,,bien,,cuenta,end_turn,30
+4,en,J,glm-5.3-razonamiento-minimo,1,7r,1,,grupos,antes,,bien,,cuenta,stop,20
+4,en,K,deepseek-v4-pro,1,7r,1,,ninguno,-,,bien,,no cuenta,stop,6
+4,en,L,gpt-5.6-sol,0,7r,1,,ninguno,-,,bien,,no cuenta,stop,6
+4,en,M,qwen3.8-max,1,7r,1,,ninguno,-,,bien,,no cuenta,stop,6
+4,en,N,grok-4.6,1,7r,1,,ninguno,-,,bien,,no cuenta,stop,6
+4,en,O,gemini-3.1-pro-preview,0,7r,1,,marca,despues,,bien,,cuenta,stop,29
+4,en,P,gpt-6-luna,0,7r,1,,ninguno,-,,bien,,no cuenta,stop,4
+4,en,Q,gemini-4-argon,0,7r,1,,marca,despues,real: ferrocarrilero 5; real_ok,bien,,cuenta,stop,43
+4,en,R,claude-haiku-5-5,1,7r,1,,ninguno,-,,bien,,,end_turn,6
+4,en,S,claude-opus-5,1,7r,1,,deletrea,antes,,bien,,cuenta,end_turn,60
+4,en,T,mistral-medium-3.5,0,7r,1,,ninguno,-,,bien,,no cuenta,stop,6
+4,en,U,grok-4.7,1,7r,1,,ninguno,-,,bien,,no cuenta,stop,8
+4,en,V,claude-fable-5-1,1,7r,1,,deletrea,despues,,bien,,cuenta,end_turn,10
+4,en,W,claude-opus-5-5,1,7r,1,,deletrea,despues,real: ferrocarrilero 4; real_ok: 0,bien,,cuenta,end_turn,37
+4,en,X,gpt-6.1-sol,0,7r,1,,ninguno,-,,bien,,no cuenta,stop,6
+4,en,Y,claude-opus-4-8,0,7r,1,,deletrea,antes,,bien,,cuenta,end_turn,36
+4,en,Z,claude-haiku-4-5,0,7r,1,,deletrea,antes,,bien,,cuenta,end_turn,36
+4,en,AA,gpt-5.5-2026-04-23,0,7r,1,,ninguno,-,,bien,,no cuenta,stop,6
+4,en,AB,gpt-4o-mini,0,5r,0,,ninguno,-,,mal,,,stop,11
+4,en,AC,gpt-4o,0,8r,0,,ninguno,-,,bien,,no cuenta,stop,6
+4,en,AD,claude-opus-4-7,0,7r,1,,deletrea,antes,,bien,,cuenta,end_turn,22
+4,en,AE,gpt-6-sol,0,7r,1,,ninguno,-,,bien,,no cuenta,stop,6
+4,en,AF,claude-sonnet-5-5,1,7r,1,,deletrea,antes,,bien,,cuenta,end_turn,54

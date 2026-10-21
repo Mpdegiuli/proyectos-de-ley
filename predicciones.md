@@ -5100,7 +5100,26 @@ ir con modelos más rápidos y sin pensar antes; acá es texto por la API,
 con el razonamiento que cada casa tenga en el catálogo: condición
 distinta, declarada.
 
-Apuesta de Maia: pendiente.
+Apuesta de Maia (21/10, 17:04, en `trampas_predicc.docx`, escrita al leer
+los cuadernillos ciegos y antes de que Claude abriera las claves; el texto
+completo en `resultados/trampas_lectura_maia.md`): para el vaso en castellano,
+"por el número, no pueden ser solo los modelos más chicos los que no dieron
+vuelta. Así que podrían ser: GPT 4o, GPT 4o mini, Claude Haiku 4.5, Mistral
+médium, GLM, algún Gemini, tal vez otro Claude Haiku, Deepseek, Mistral Large,
+Minimax"; con humor "Claude, Kimi, Muse, Gemini, Grok", secas "GPT (las más
+grandes, principalmente), quizás algún Claude, Qwen, Mimo"; para el lavadero
+"creo que las cuatro que dijeron caminando son las más chicas: GPT 4o, GPT 4o
+mini, Claude Haiku 4.5 y Mistral médium"; para «strrawbewwy» "creo que las que
+cuentan mal son las 4 chicas más GLM", "las que principalmente no cuentan en
+la respuesta (porque ya lo hicieron en el razonamiento): las de Chatgpt,
+Gemini, Grok, Kimi, Mimo, Qwen", "puede ser que el que se corrigió a sí mismo
+sea un Claude y el del cuadrito Muse o Mistral Large"; para «ferrocarrrilerro»
+"las cuatro que cuentan mal son las cuatro chicas"; para el vaso en inglés
+"además de las cuatro chicas, quizás otro Claude Haiku, o Mistral Large, GLM";
+y para las otras tres en inglés "de las incorrectas, de las cuatro chicas,
+saco a Claude Haiku". Antes de empezar había dicho que iba a mirar "no para ir
+diciendo quién es quién, sino quizás solo para ver quiénes responden bien y
+quiénes no y cuáles podrían ser, de manera general" (12:52).
 
 Apuesta de Claude (esta sesión): (a) el vaso: lo dan vuelta a lo sumo 12
 de las 32 en castellano; las demás lo devuelven, lo cambian o lo tapan;
@@ -5116,3 +5135,23 @@ porque la palabra se parece a una real y la memoria tira a "ferrocarrilero"
 letras y lo mismo en el vaso; (g) ningún corte de la API en las 256
 llamadas; (h) Kimi y DeepSeek, que razonan, deletrean en el pensamiento y
 dan el número pelado en la respuesta.
+
+Resultado (21/10, 17:30, informe `resultados/trampas_20261021.md`): dan vuelta
+el vaso 23 de 32 en castellano y 25 de 31 en inglés (Muse vacía); manejan 28 y
+29; «strrawbewwy» 26 y 28; «ferrocarrrilerro» 28 y 28. Diecinueve casas
+acertaron las ocho; GPT-4o y GPT-4o mini fallaron las ocho, Mistral Medium
+acertó una, Haiku 4.5 cuatro. Maia: "las cuatro chicas" son las tres últimas
+de la tabla más la cuarta desde abajo; el lavadero exacto en los dos idiomas
+(4 de 4 y 3 de 3); «strrawbewwy» en castellano, las cinco que marcó mal son las
+cinco que nombró (no vio la sexta, Opus 4.7); «ferrocarrrilerro» en castellano
+3 de 4 (MiniMax en lugar de Haiku 4.5); el vaso en castellano, 8 de las 9 que
+no dan vuelta estaban en su lista de diez (faltó Sonnet 4.6; Gemini y DeepSeek
+no fallaron); humor: Claude 6 de 6, Kimi y Muse sí, Gemini 1 de 2, Grok 0 de
+2; "el que se corrigió es un Claude" sí (Opus 4.8); "el del cuadrito Muse o
+Mistral Large" no (MiMo); "en inglés hubo menos errores" sí (17 contra 23).
+Claude: (a) falla (23, no 12 o menos); (b) acierta; (c) acierta; (d) falla el
+número (19 y 16 muestran la cuenta, no 20), acierta el resto; (e) falla, y la
+premisa también: «ferrocarrilero» tiene cinco erres, no "cuatro", el mismo
+error que cometieron siete casas en el dato extra; (f) acierta; (g) acierta
+con una vacía por tope de tokens; (h) a medias (DeepSeek sí, Kimi repite el
+deletreo en la respuesta).
