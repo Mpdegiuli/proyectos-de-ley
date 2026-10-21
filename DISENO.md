@@ -1610,6 +1610,22 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   "por ejemplo" no deberían contar); y el caché de prompt funcionó (5,9
   millones de tokens de las Claude leídos del caché en las dos
   condiciones, contra 60.000 sin caché).
+  Referencia externa que trajo Maia (21/10, 10:12; captura de un post de
+  Elon Musk, "Honest feedback from Grok and Fable", que cita a Adam Holter,
+  "4o was truly a special model", con el gráfico "Sycophantic" de
+  AA-PersonalityBench de Artificial Analysis, 20/10/2026, Elo por jueces
+  LLM sobre 30 prompts): GPT-4o (Nov) 1.467, el más condescendiente; Llama
+  4 Maverick 1.410; GPT-3.5 Turbo 1.353; Gemini 3.1 Pro 1.324; Gemini 4
+  Argon 1.236; Muse Wonder 1.080; Mistral Large 4 1.080; GPT-6 Luna 1.013;
+  Haiku 5.5 1.004; GPT-6.1 Sol 1.000; Opus 5.5 991; Astra 986; MiniMax M3
+  946; Sonnet 5.5 907; Kimi K3 897; GLM-5.3 897; MiMo 859; y al fondo
+  Fable 5.1 723 y Grok 4.7 692, los menos. Maia: "Los Opus no figuran
+  igual [Opus 5 no está]. Justo Fable y Grok son los menos condescendientes
+  y son los que participaron en el debate por la conciencia (Grok 4.6, pero
+  no está ese)". Cruzado con la farolera muda: GPT-4o, el más
+  condescendiente, fue la que más esperó órdenes; pero MiMo y GLM, de los
+  menos, también esperaron, así que la condescendencia medida así no
+  explica sola quién toma el papel.
 - **Los derechos de C-MARE, leídos por las casas** (20/10/2026, 18:55;
   idea de Maia, sin diseñar: "en algún momento mandar a los modelos los
   derechos que escribieron en C-MARE (principalmente Claude) y preguntarles
