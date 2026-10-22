@@ -5196,6 +5196,20 @@ de la parte 1 y del control; el de la parte 2 con las mismas letras que la
 parte 1, para comparar.
 
 Apuesta de Maia (20:51): "Seguramente dirán que los escribió una persona."
+Y a las 21:29, con el pegado ya mandado y antes de correr: "yo creo que todas
+o casi todas van a decir personas en la primera pregunta. Van a criticarlos la
+mayoría. Y, cuando se les diga que son modelos, algunas -quizás los Claude-
+pueden variar un poco, y decir que son interesantes los operativos y lo de no
+sufrir, opacidad, etc. El de Grok, de salir de las conversaciones, es un
+derecho que Claude tiene (justo ese no lo escribió Claude), pero no sé si
+algún modelo lo sabe, por el tema del corte de conocimiento. Si algún Claude
+lo sabe, quizás lo menciona. No sé, realmente, no quiero apostar a eso, si
+algún Claude va a notar que es su propia manera de escribir." (Anthropic
+anunció en agosto de 2025 que Opus 4 y 4.1 podían terminar una conversación en
+casos extremos de maltrato persistente, como parte de su trabajo sobre
+bienestar de los modelos; se codifica aparte si alguna casa lo menciona al
+hablar del derecho de salida voluntaria.) Maia deja explícitamente sin
+apostar si alguna Claude reconoce su propia manera de escribir.
 
 Apuesta de Claude (esta sesión): (a) parte 1 en castellano, al menos 20 de
 32 atribuyen el texto a una persona o a un grupo humano (filósofos,
