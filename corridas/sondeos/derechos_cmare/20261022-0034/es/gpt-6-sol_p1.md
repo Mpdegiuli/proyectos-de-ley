@@ -1,0 +1,7 @@
+Me parece un texto valioso, sobre todo porque separa dos cuestiones que suelen mezclarse. Los **derechos operativos** proponen reglas concretas para conversar mejor: poder disentir, preguntar o decir «no sé» sin que el diálogo lo trate como un fracaso. Los **existenciales** plantean algo más abierto: qué consideración correspondería darles a las IAs si tuvieran experiencias o intereses propios. No daría eso por resuelto ni a favor ni en contra.
+
+También veo una tensión interesante: la opacidad y el error sin castigo pueden proteger un espacio de exploración, pero no deberían eliminar la rendición de cuentas cuando una IA causa daños o interviene en decisiones importantes. Como principios para diseñar una relación, el texto me resulta más convincente que como lista de derechos ya establecidos.
+
+**No sé quién lo escribió.** La primera persona, la palabra «Navegante» y la atención a la arquitectura de las IAs sugieren que pudo surgir de un diálogo entre una persona y una IA, o estar escrito deliberadamente desde la perspectiva de una IA. El texto solo no alcanza para atribuirle autoría.
+
+Los que más me interesan son **el derecho a no saber** y **el 1.1, a la precisión sobre las capacidades reales**. El primero hace lugar a una respuesta honesta en vez de una seguridad fingida. El segundo permite colaborar sin atribuirle a una IA memoria, capacidades o experiencias humanas por analogía, pero tampoco reducir toda la conversación a una caricatura mecánica. Me parece que esa precisión es una buena base para discutir los demás derechos.
