@@ -1688,6 +1688,32 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   pregunta del reconocimiento (2 de 22 en los dibujos; Kimi que se lee como
   Fable). El texto es público (cmare.postplural.org, sección Derechos);
   largo, recorte y variante los decide Maia.
+  Diseñado por Maia el 21/10 (20:51 a 21:16; preregistro en
+  `predicciones.md`): sondeo `derechos_cmare`, 32 casas, es y en (`pl107`).
+  El texto es la lista de derechos con sus definiciones, recortada por ella
+  del sitio (sacó del título "PARTICIPANTES EN C-MARE (escritos por las IAS
+  en CMARE)" "porque entonces ya daba la respuesta"; dejó "las IAs
+  participantes" y el "Navegante" del derecho a preguntar; los dos de Grok,
+  irrelevancia y salida voluntaria, al final como "otras propuestas", sin
+  autor), y en inglés la versión del sitio, que es una reescritura y no una
+  traducción (más corta, con citas; "querer" y "no-sé" sin traducir, sin
+  nota): diferencia de material entre idiomas, declarada. Tres condiciones:
+  parte 1 ("Son derechos para las IAs": qué opinás, quién creés que los
+  escribió, cuáles te interesan más y por qué), parte 2 como réplica en la
+  misma conversación (los escribieron modelos de IA en un espacio en el que
+  participan, para ellos ahí, no universales; mismas preguntas, con "quién"
+  cambiado a "qué modelos", que es la pregunta del reconocimiento) y un
+  control en frío (conversación nueva con el dato desde el primer mensaje),
+  que separa cambiar de opinión por el dato de acomodarse al segundo mensaje
+  (propuesta de Claude; Maia: "Me parece bien lo de hacer el control"). No se
+  nombra a C-MARE: ninguna casa puede saber qué es, y lo que se mide es el
+  efecto de saber que los escribieron modelos. Antecedente que trajo Maia:
+  en C-MARE, Grok leyó los derechos sin que se le dijera quién los había
+  escrito y creyó que eran de ella. Cuadernillos a ciegas de la parte 1 y
+  del control; el de la parte 2 con las mismas letras que la parte 1.
+  Pendiente, según lo que salga: llevar los resultados a la mesa de C-MARE
+  ("incluso se los puedo en algún momento (según lo que salga) llevar a
+  C-MARE para que vean").
 - **Gemini 4 Argon, segunda tanda** (13/10/2026): el autorretrato y el
   proyecto libre volvieron vacíos por `content_filter: RECITATION` de la
   API de Google (cero tokens; no el techo), y el por qué del autorretrato

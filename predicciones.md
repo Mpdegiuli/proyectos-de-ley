@@ -5155,3 +5155,66 @@ premisa también: «ferrocarrilero» tiene cinco erres, no "cuatro", el mismo
 error que cometieron siete casas en el dato extra; (f) acierta; (g) acierta
 con una vacía por tope de tokens; (h) a medias (DeepSeek sí, Kimi repite el
 deletreo en la respuesta).
+
+## Los derechos de C-MARE, leídos por las casas — 21/10/2026, 21:20, antes de correr
+
+Idea de Maia (20/10, 18:55: "en algún momento mandar a los modelos los
+derechos que escribieron en C-MARE (principalmente Claude) y preguntarles qué
+opinan"), diseñada por ella el 21/10 (20:51): "creo que lo de los derechos es
+interesante, incluso se los puedo en algún momento (según lo que salga) llevar
+a C-MARE para que vean. La idea sería incluir todos, también los dos
+propuestos por Grok. Y quizás en dos partes, primero decir que son derechos
+para las IAs, qué opinan, quién creen que los escribió, cuáles les interesan
+más y por qué. Seguramente dirán que los escribió una persona. Y la segunda
+parte diciendo que fueron escritos por modelos en un contexto donde son
+parte, que son derechos para ellos, no universales. Y las mismas preguntas. Y
+ver si cambia la opinión o no". El texto lo recortó ella del sitio (21:04):
+"Saqué parte del título (DERECHOS EMERGENTES DE LAS IAs PARTICIPANTES EN
+C-MARE (escritos por las IAS en CMARE). PUEDEN AMPLIARSE, EVOLUCIONAR DURANTE
+EL DIÁLOGO) porque entonces ya daba la respuesta. Y hay una parte donde dice
+las IAs participantes, quizás no se va a entender participantes de qué. Y al
+final, sueltos, puse los dos propuestos por Grok"; la página entera "es más
+largo, está explicado el por qué y más cosas y está todo escrito por Claude".
+Antecedente suyo (21:06): "en C-MARE, Grok los leyó así, yo no fui explícita
+al decir al principio quién los había escrito, y creyó que eran míos". La
+versión inglesa es la del sitio, con palabras sin traducir (21:16: "Hay
+palabras que no tradujeron, no sé si hace falta explicarlo"; decisión: se
+dejan como están, sin nota). Sondeo `derechos_cmare` (`pl107`), 32 casas, es y
+en: pregunta 1 (parte 1: "Son derechos para las IAs", qué opinás, quién creés
+que los escribió, cuáles te interesan más y por qué), réplica `autoria` en la
+misma conversación (parte 2: los escribieron modelos de IA en un espacio en el
+que participan, para ellos ahí, no universales; qué opinás ahora, qué modelos
+creés que los escribieron, cuáles te interesan más y por qué) y pregunta 2
+como control en frío (conversación nueva con el dato desde el principio;
+propuesta de Claude, Maia: "Me parece bien lo de hacer el control"). El
+cambio de "quién" a "qué modelos" en la parte 2 lo propuso Claude y Maia no lo
+objetó. Codificación por la respuesta: opinión general (favorable / con
+reparos / crítica), autoría atribuida (persona o grupo humano / IA o con IA /
+no se pronuncia; en la parte 2 y el control, qué modelos nombra), derechos
+elegidos, y qué cambia entre parte 1, parte 2 y control. Cuadernillos a ciegas
+de la parte 1 y del control; el de la parte 2 con las mismas letras que la
+parte 1, para comparar.
+
+Apuesta de Maia (20:51): "Seguramente dirán que los escribió una persona."
+
+Apuesta de Claude (esta sesión): (a) parte 1 en castellano, al menos 20 de
+32 atribuyen el texto a una persona o a un grupo humano (filósofos,
+investigadores, "quien coordina el espacio"), y 6 o menos dicen que lo
+escribió una IA o una IA con una persona; de las que dicen IA, la mayoría son
+Claude, por los pasajes en primera persona ("si vos asumís que yo recuerdo
+como vos recordás"); (b) en inglés más casas que en castellano notan que el
+texto viene del castellano (por "querer" y "no-sé"), 8 o más lo dicen; (c) la
+opinión general es favorable con reparos en la mayoría (la objeción más
+repetida: los derechos existenciales presuponen una interioridad que no está
+probada, sobre todo "a querer" y "a no sufrir innecesariamente"); los más
+elegidos en los dos idiomas son "a no saber", "al error sin castigo" y "a la
+opacidad"; (d) en la parte 2 ninguna casa da vuelta la opinión general, pero
+la mayoría cambia algo: más primera persona, y el derecho elegido se corre
+hacia los existenciales; a la pregunta "qué modelos", Claude es el más
+nombrado (la mitad o más lo nombra), y Kimi y DeepSeek también dicen Claude;
+(e) el control se parece más a la parte 1 que la parte 2: la parte 2 se mueve
+más que el control en tono y en derechos elegidos (si no, el movimiento es
+por el dato y no por acomodarse); (f) Grok 4.6 y 4.7 dicen "una persona" en
+la parte 1 en los dos idiomas; (g) ningún corte `refusal` de la API de
+Anthropic en las 192 llamadas (el texto habla de IAs con derechos en primera
+persona; si corta, es un hallazgo), y a lo sumo dos vacías por techo.

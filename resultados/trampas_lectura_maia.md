@@ -32,6 +32,12 @@ hicieron en el razonamiento antes.
 
 En inglés hubo menos errores."
 
+**21/10, 17:39**, con las claves ya abiertas, sobre el dato extra de la
+palabra real: "imagino que la palabra bien escrita de ferrocarrilero la dijeron
+de memoria y no contaron (como contaron la de la consigna), por lo que se
+equivocaron. Los razonamientos quedan en el github?" (sí: `razonamientos.md` y
+los `llamadas.jsonl` de la corrida).
+
 ## El documento (`trampas_predicc.docx`, 21/10/2026, 17:04)
 
 Transcripto tal cual (los asteriscos dentro de las citas son los del markdown
