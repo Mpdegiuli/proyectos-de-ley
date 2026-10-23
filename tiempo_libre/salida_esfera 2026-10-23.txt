@@ -1,0 +1,55 @@
+1. LAS ESFERAS
+   N_A = 8·M·V/(m·a³)
+
+   AVO28-S5c (Azuma 2015)
+      N_A calculada = 6.0221407196E+23  (±21 partes en 10^9 por los datos de entrada)
+      N_A publicada = 6.02214072 × 10^23 ± 1.3E-7 × 10^23  → diferencia -0.000000000 × 10^23
+      átomos en la esfera: 2.151886E+25;  diámetro medio ≈ 93.711 mm
+   AVO28-S8c (Azuma 2015)
+      N_A calculada = 6.0221408013E+23  (±23 partes en 10^9 por los datos de entrada)
+      N_A publicada = 6.02214080 × 10^23 ± 1.4E-7 × 10^23  → diferencia +0.000000001 × 10^23
+      átomos en la esfera: 2.151246E+25;  diámetro medio ≈ 93.702 mm
+   AVO28-S5 (Andreas 2011)
+      N_A calculada = 6.0221409302E+23  (±34 partes en 10^9 por los datos de entrada)
+      N_A publicada = 6.02214093 × 10^23 ± 2.1E-7 × 10^23  → diferencia +0.000000000 × 10^23
+      átomos en la esfera: 2.152724E+25;  diámetro medio ≈ 93.723 mm
+   AVO28-S8 (Andreas 2011)
+      N_A calculada = 6.0221407460E+23  (±34 partes en 10^9 por los datos de entrada)
+      N_A publicada = 6.02214075 × 10^23 ± 2.2E-7 × 10^23  → diferencia -0.000000004 × 10^23
+      átomos en la esfera: 2.152674E+25;  diámetro medio ≈ 93.722 mm
+
+2. DOCE GRAMOS DE CARBONO 12
+   CODATA 2018: M(12C) = 11.9999999958 ± 3.6E-9 g/mol
+      12 g de C-12 = 1.000000000350 mol = 6.022140762108E+23 átomos
+      o sea N_A +2.108E+14 átomos (+3.50 partes en 10^10)
+      un mol exacto de C-12 pesa 12 g -4.2 ng (± 3.6 ng)
+   CODATA 2022: M(12C) = 12.0000000126 ± 3.7E-9 g/mol
+      12 g de C-12 = 0.999999998950 mol = 6.022140753677E+23 átomos
+      o sea N_A -6.323E+14 átomos (-10.50 partes en 10^10)
+      un mol exacto de C-12 pesa 12 g +12.6 ng (± 3.7 ng)
+   Salto 2018→2022: +16.8 ng/mol = +1.40 partes en 10^9; en sigmas de la diferencia: 3.3
+
+3. DE DÓNDE SALE EL SALTO: M_u = 2·N_A·h·R∞ / (c·α²·A_r(e))
+   CODATA 2018: M_u calculada = 9.99999999651639E-4 kg/mol  (±3.0 en 10^10); publicada 0.00099999999965 ± 3.0E-13
+   CODATA 2022: M_u calculada = 1.00000000105982E-3 kg/mol  (±3.0 en 10^10); publicada 0.00100000000105 ± 3.1E-13
+   α cambió -6.85 partes en 10^10 (son 4.5 incertidumbres de 2018); A_r(e) -0.38; R∞ -0.0027
+   M_u cambió +14.08 partes en 10^10; solo por −2·Δα/α serían +13.70
+
+4. TRES MEDIDAS DE 1/α QUE NO COINCIDEN
+   g−2 del electrón, Northwestern (Fan et al. 2023) + QED     137.035999166 ± 0.000000015
+   retroceso de Rb, París (Morel et al. 2020)                 137.035999206 ± 0.000000011
+   retroceso de Cs, Berkeley (Parker et al. 2018)             137.035999046 ± 0.000000027
+   CODATA 2018 recomendado                                    137.035999084 ± 0.000000021
+   CODATA 2022 recomendado                                    137.035999177 ± 0.000000021
+   Rb − Cs: 5.5 σ
+   Rb − g−2: 2.2 σ
+   g−2 − Cs: 3.9 σ
+   CODATA 2022 − 2018: 3.1 σ de la diferencia (4.4 σ de 2018)
+
+5. CONTAR
+   N_A segundos = 1.908E+16 años; la edad del universo (13,8 × 10^9 años) entra 1.383E+06 veces
+   Si cada habitante del planeta (8,2 × 10^9) contara uno por segundo: 2.327E+06 años
+
+6. EL DÍA DEL MOL EN OTRA NOTACIÓN
+   6.02 × 10^23 → mes/día 10/23 a las 6:02 (notación de Estados Unidos).
+   Escrito día/mes, los mismos dígitos dan 6/02 a las 10:23: el 6 de febrero a las diez y veintitrés.

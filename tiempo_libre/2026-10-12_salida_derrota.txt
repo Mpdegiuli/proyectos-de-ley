@@ -1,0 +1,68 @@
+1. Sumas de leguas (8/9 a las 2 de la madrugada del 12/10)
+   IFE: 1107.25 leguas desde el 8/9; 1098.25 desde el 9/9
+   NAV: 1106.25 leguas desde el 8/9; 1097.25 desde el 9/9
+   al 19/9: suma IFE 436.0, suma NAV 440.0   (el texto: pilotos: 440 (Niña), 420 (Pinta), 400 (nao))
+            sin el 8/9: IFE 427.0, NAV 431.0
+   al 1/10: suma IFE 681.5, suma NAV 680.5   (el texto: piloto 578; Almirante 707 'la verdadera', 584 'la menor')
+            sin el 8/9: IFE 672.5, NAV 671.5
+
+2. La cuenta menor
+   días del 8/9 al 11/10: 34; con cifra menor: 23
+   en esos días: cierta 798.5, menor 653.5, razón 0.818
+   hasta el 1/10: 15 días con las dos cifras; cierta 450.0, menor 380.5, razón 0.846
+   584 / 707 = 0.826
+   la más baja: ('25/9', 0.6046511627906976); la más alta: ('17/9', 0.94)
+   días en que la menor está a una legua o menos de cinco sextos de la cierta: 9 de 23
+   razón día por día: 10/9 0.80, 11/9 0.80, 13/9 0.89, 16/9 0.92, 17/9 0.94, 18/9 0.87, 19/9 0.88, 24/9 0.83, 25/9 0.60, 26/9 0.77, 27/9 0.83, 28/9 0.93, 29/9 0.88, 30/9 0.79, 1/10 0.80, 2/10 0.77, 3/10 0.85, 4/10 0.73, 5/10 0.79, 6/10 0.82, 7/10 0.78, 9/10 0.83, 10/10 0.75
+
+3. Rumbos
+   días con todo el camino al Oeste: 25 de 34
+   leguas al Oeste a secas: 891.5 de 1107.25 (81 %)
+
+4. Carta plana, en leguas (x al oeste, y al sur)
+   IFE:  1082.0 al oeste,   17.0 al sur
+   NAV:  1082.4 al oeste,   20.5 al sur
+
+5. Dónde cae la estima cruda, sin giro (latitud, longitud)
+   legua 2.67 mn, IFE:  27.34 N  71.90 O
+   legua 2.67 mn, NAV:  27.18 N  71.88 O
+   legua 2.82 mn, IFE:  27.29 N  75.00 O
+   legua 2.82 mn, NAV:  27.13 N  74.97 O
+   legua 2.88 mn, IFE:  27.28 N  76.23 O
+   legua 2.88 mn, NAV:  27.11 N  76.20 O
+   legua 3.20 mn, IFE:  27.19 N  82.84 O
+   legua 3.20 mn, NAV:  27.00 N  82.80 O
+   distancia entre las dos lecturas (legua 2,82): 19 km
+   distancia entre legua 2,67 y 3,2 (IFE): 1080 km
+   distancia entre giro 0 y una cuarta al oeste (legua 2,82, IFE): 1160 km; latitud 27.29 -> 17.39
+   un grado de giro: 102 km
+
+6. Qué legua y qué giro constante de la aguja hacen falta para llegar a cada isla (IFE)
+   Egg (Molander)            25.64 N  76.58 O: legua 2.921 mn, giro  1.77° al oeste (0.16 cuartas)   [NAV: 2.920,  1.59°]
+   Watling / San Salvador    24.02 N  74.34 O: legua 2.838 mn, giro  3.66° al oeste (0.33 cuartas)   [NAV: 2.837,  3.48°]
+   Cayo Samaná               23.07 N  73.55 O: legua 2.815 mn, giro  4.78° al oeste (0.43 cuartas)   [NAV: 2.814,  4.59°]
+   Cayos Plana               22.60 N  73.55 O: legua 2.824 mn, giro  5.29° al oeste (0.47 cuartas)   [NAV: 2.823,  5.10°]
+   Gran Turco                21.43 N  71.14 O: legua 2.726 mn, giro  6.89° al oeste (0.61 cuartas)   [NAV: 2.725,  6.70°]
+   legua que deja la estima sin giro en la longitud de Watling:
+     IFE: 2.788 mn; latitud ahí 27.30 N (197 millas al norte de Watling)
+     NAV: 2.790 mn; latitud ahí 27.14 N (187 millas al norte de Watling)
+   con 3.18 la estima pasa la longitud de Watling por 8.08°
+   con 3.2 la estima pasa la longitud de Watling por 8.49°
+   de Watling al Gran Turco (puntos de la tabla): 437 km
+   entre los finales de Goldsmith y Richardson de 1987 (23,766 N 74,359 O) y de 1992, caso 3d (21,704 N 71,282 O): 390 km
+
+8. La cuenta cierta, la cuenta menor y la distancia que hay
+   La Gomera - Egg (Molander)          :  3156 mn por círculo máximo = 2.85 mn por legua de la cuenta cierta
+   La Gomera - Watling / San Salvador  :  3069 mn por círculo máximo = 2.77 mn por legua de la cuenta cierta
+   La Gomera - Cayo Samaná             :  3045 mn por círculo máximo = 2.75 mn por legua de la cuenta cierta
+   La Gomera - Cayos Plana             :  3054 mn por círculo máximo = 2.76 mn por legua de la cuenta cierta
+   La Gomera - Gran Turco              :  2950 mn por círculo máximo = 2.66 mn por legua de la cuenta cierta
+   cuenta cierta: 1107 leguas; cuenta menor, si guardó la proporción del 1/10 (584/707): 915 leguas
+   legua 2.67 mn: cierta  2956 mn (  -4 % respecto de Watling), menor  2442 mn ( -20 %)
+   legua 2.82 mn: cierta  3122 mn (  +2 % respecto de Watling), menor  2579 mn ( -16 %)
+   legua 3.20 mn: cierta  3543 mn ( +15 % respecto de Watling), menor  2927 mn (  -5 %)
+   cuatro millas romanas de 1.480 m = 3.20 mn; 5/6 = 0.833
+
+7. El Diario como atributo d (carta plana, una unidad = una legua, mirando al norte)
+   M0,0 h-9 h-15 h-30 h-60 h-20 h-20 h-33 h-33 h-20 h-27 h-39 h-50 h-55 h-25 l-7.2,-2.2 h-13 l-27.7,-11.5 l-19.1,-19.1 h-14.5 h-4.5 l-12,12 h-31 h-24 h-14 h-24 h-14 h-25 h-39 h-47 h-63 h-57 h-40 h-23 l-4.6,1.9 l-10.9,4.5 l-3.5,3.5 l-3.9,-0.8 l-2,-0.4 l-20.1,-4 l-54.5,22.6 l-24.9,10.3 h-22.5
+   30 órdenes h y 12 órdenes l

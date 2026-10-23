@@ -1,0 +1,196 @@
+dibujo.svg encontrados: 741
+no se leen como XML: 27; leídos: 714
+
+A. Órdenes de <path>: absolutas y relativas
+   corpus: 31529 absolutas, 15417 relativas (32.8 % relativas)
+   dibujos con algún <path>: 669; con alguna orden relativa: 299; con más relativas que absolutas: 123
+   por casa (órdenes, % relativas, dibujos con mayoría relativa / dibujos con path):
+     gpt-6-sol                          4152   69.0 %   22/27
+     gpt-6-luna                         3864   67.5 %   22/27
+     gpt-5.5-esfuerzo-high               137   66.4 %   2/2
+     gpt-6-astra                        5263   54.3 %   17/27
+     gpt-6.1-sol                        1293   53.6 %   3/8
+     gpt-5.5-2026-04-23                 2295   49.3 %   17/27
+     gpt-5.6-sol                        3254   46.5 %   16/27
+     mistral-large-4                     622   25.9 %   2/11
+     claude-opus-5                      2081   24.7 %   2/27
+     glm-5.3-razonamiento-minimo        1803   24.7 %   5/27
+     qwen3.8-max                        2081   22.2 %   1/25
+     grok-4.7                           2081   20.8 %   5/27
+     claude-fable-5                     1211   18.7 %   2/21
+     claude-sonnet-5-5                  1358   17.5 %   1/21
+     kimi-k3                            1653   17.0 %   2/26
+     claude-opus-5-5                    1283   15.7 %   0/25
+     claude-haiku-5-5                    432   12.5 %   0/11
+     claude-sonnet-5                     917    9.8 %   1/26
+     mimo-v2.6-pro                       596    9.7 %   0/10
+     claude-fable-5-1                   1529    9.4 %   2/25
+     gemini-3.1-pro-preview             2426    8.5 %   0/26
+     grok-4.6                           1937    4.7 %   1/27
+     minimax-m3                         1055    3.3 %   0/25
+     deepseek-v4-pro                    1377    1.5 %   0/26
+     claude-haiku-4-5                    353    0.0 %   0/26
+     claude-sonnet-4-6                   808    0.0 %   0/24
+     gpt-3.5-turbo-0125                   30    0.0 %   0/4
+     gpt-4-0613                           46    0.0 %   0/6
+     gpt-4o-mini                         254    0.0 %   0/24
+     gpt-4o                              252    0.0 %   0/25
+     mistral-medium-3.5                  398    0.0 %   0/25
+     claude-sonnet-4-6-razona             22    0.0 %   0/2
+     gpt-5.5-esfuerzo-none                83    0.0 %   0/2
+   por casa, contando por dibujo (dibujos con cinco órdenes o más): mediana del % de relativas; % de atributos d con una letra pegada a un número
+     gpt-6-sol                         74.6 %  (n=27)    90.3 %
+     gpt-6-luna                        73.0 %  (n=27)    90.8 %
+     gpt-6-astra                       69.3 %  (n=27)    91.1 %
+     gpt-5.5-esfuerzo-high             64.4 %  (n= 2)   100.0 %
+     gpt-5.5-2026-04-23                60.4 %  (n=27)    61.6 %
+     gpt-5.6-sol                       59.0 %  (n=27)    89.6 %
+     qwen3.8-max                       19.3 %  (n=25)    56.3 %
+     gpt-6.1-sol                       19.1 %  (n= 8)    91.1 %
+     claude-opus-5                     17.6 %  (n=27)     9.1 %
+     glm-5.3-razonamiento-minimo       14.3 %  (n=27)     0.0 %
+     claude-fable-5                    13.9 %  (n=21)     0.0 %
+     claude-opus-5-5                   13.5 %  (n=25)    21.2 %
+     kimi-k3                           11.3 %  (n=26)    11.9 %
+     claude-sonnet-5-5                  9.6 %  (n=20)    26.1 %
+     claude-fable-5-1                   0.0 %  (n=25)     3.9 %
+     claude-haiku-4-5                   0.0 %  (n=24)     0.0 %
+     claude-haiku-5-5                   0.0 %  (n=10)    10.6 %
+     claude-sonnet-4-6                  0.0 %  (n=22)     0.0 %
+     claude-sonnet-5                    0.0 %  (n=25)     0.0 %
+     deepseek-v4-pro                    0.0 %  (n=26)     0.0 %
+     gemini-3.1-pro-preview             0.0 %  (n=26)     0.4 %
+     gpt-3.5-turbo-0125                 0.0 %  (n= 3)     0.0 %
+     gpt-4-0613                         0.0 %  (n= 3)     0.0 %
+     gpt-4o-mini                        0.0 %  (n=16)     0.0 %
+     grok-4.6                           0.0 %  (n=27)     5.3 %
+     grok-4.7                           0.0 %  (n=27)    37.9 %
+     mimo-v2.6-pro                      0.0 %  (n=10)     3.2 %
+     minimax-m3                         0.0 %  (n=25)     0.7 %
+     mistral-large-4                    0.0 %  (n=11)    20.1 %
+     mistral-medium-3.5                 0.0 %  (n=21)     0.0 %
+     gpt-4o                             0.0 %  (n=18)     0.0 %
+     gpt-5.5-esfuerzo-none              0.0 %  (n= 2)     0.0 %
+     claude-sonnet-4-6-razona           0.0 %  (n= 1)     0.0 %
+     casas con mediana 0: 19 de 33
+   por laboratorio: OpenAI 56.2 %; Zhipu 24.7 %; Alibaba 22.2 %; Moonshot 17.0 %; Mistral 15.8 %; Anthropic 14.7 %; xAI 13.0 %; Xiaomi 9.7 %; Google 8.5 %; MiniMax 3.3 %; DeepSeek 1.5 %
+   relativas por letra: l 4561, q 2995, c 2355, h 2005, v 1573, m 1187, t 398, s 184, a 159
+   absolutas por letra: M 13110, L 7199, Q 4597, C 4367, H 885, V 640, T 448, A 249, S 34
+
+B. Recalada: subtrazos que cierran con una curva y después z
+   abs  : 1259 subtrazos; llegan justo (menos de 0,01 px): 667 (53 %); a menos del 2 % del tamaño: 669 (53 %); mediana del error 0.0 %, percentil 90 45.3 %
+   rel  :  737 subtrazos; llegan justo (menos de 0,01 px): 469 (64 %); a menos del 2 % del tamaño: 470 (64 %); mediana del error 0.0 %, percentil 90 43.6 %
+   mixto:   50 subtrazos; llegan justo (menos de 0,01 px): 35 (70 %); a menos del 2 % del tamaño: 36 (72 %); mediana del error 0.0 %, percentil 90 29.7 %
+   por casa, subtrazos relativos o mixtos (n, llegan justo, mediana del error de los que no):
+     gpt-6-astra                       127    85   30.5 %
+     gpt-6-luna                        105    48   26.8 %
+     gpt-6-sol                          95    47   25.6 %
+     gpt-5.5-2026-04-23                 93    75   27.0 %
+     gpt-5.6-sol                        69    42   21.8 %
+     grok-4.7                           55    46   22.4 %
+     claude-opus-5                      33    22   38.9 %
+     claude-fable-5                     28    14   23.7 %
+     gpt-6.1-sol                        27    15   37.4 %
+     claude-sonnet-5-5                  25    22   43.9 %
+     qwen3.8-max                        22    15   64.4 %
+     glm-5.3-razonamiento-minimo        19    11   28.2 %
+     claude-opus-5-5                    19    18   51.6 %
+     gpt-5.5-esfuerzo-high              19    14   37.8 %
+     mistral-large-4                    17     6   65.1 %
+     kimi-k3                            10     8   46.3 %
+     claude-fable-5-1                    9     5   43.8 %
+     grok-4.6                            9     9     -
+     mimo-v2.6-pro                       5     2   16.0 %
+     claude-sonnet-5                     1     0   59.0 %
+   por casa, subtrazos absolutos (n, llegan justo):
+     grok-4.6                          123    83
+     gemini-3.1-pro-preview             90    59
+     qwen3.8-max                        73    48
+     grok-4.7                           73    27
+     gpt-5.6-sol                        67    49
+     kimi-k3                            66    28
+     claude-fable-5-1                   64    33
+     claude-opus-5                      64    26
+     claude-sonnet-5-5                  56    28
+     claude-opus-5-5                    54    29
+     deepseek-v4-pro                    54    32
+     gpt-5.5-2026-04-23                 54    36
+     claude-fable-5                     53    24
+     glm-5.3-razonamiento-minimo        50    26
+     gpt-6-astra                        47    24
+     claude-sonnet-4-6                  40     9
+     minimax-m3                         40    14
+     claude-sonnet-5                    37    15
+     mistral-large-4                    31    13
+     gpt-6-sol                          24    11
+     mimo-v2.6-pro                      20     9
+     gpt-6-luna                         15     6
+     gpt-4o-mini                        13    12
+     claude-haiku-5-5                   11     1
+     mistral-medium-3.5                 11     9
+     gpt-4o                             10     5
+     gpt-6.1-sol                        10     4
+     gpt-5.5-esfuerzo-none               6     5
+     claude-haiku-4-5                    3     2
+
+C. Rosas: grupos de seis o más rayos por un mismo centro
+   grupos: 108; con rayos parejos todo alrededor: 26; el resto son abanicos, medias rosas o haces
+   todas: por número de rayos: 6: 42, 7: 11, 8: 34, 9: 8, 10: 2, 11: 3, 12: 2, 14: 1, 15: 1, 18: 2, 21: 1, 24: 1
+   parejas todo alrededor: por número de rayos: 6: 1, 8: 25
+   de las parejas, escritas rayo por rayo (sin rotate): 24; con rotate: 2
+     rayo por rayo, por número: 6: 1, 8: 23
+     con rotate, por número:    8: 2
+     rayo por rayo, por red de ángulos (0 = ninguna): 8: 23, 12: 1
+   rosas de ocho rayos a 45°, rayo por rayo: 23; diagonal igual al eje (5 %): 18; diagonal raíz de 2 más largo: 0; diagonal más corto: 1; otros más largos: 4
+     razones diagonal/eje: 0.94 0.95 0.98 0.98 0.99 0.99 0.99 0.99 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.01 1.01 1.01 1.01 1.06 1.07 1.33 1.34
+     por casa (n, iguales, razones):
+       minimax-m3                         2   1   0.94 0.99
+       glm-5.3-razonamiento-minimo        2   2   0.98 1.01
+       kimi-k3                            2   2   0.99 1.00
+       deepseek-v4-pro                    2   2   0.99 0.99
+       mimo-v2.6-pro                      2   2   1.00 1.01
+       claude-haiku-4-5                   2   1   1.01 1.06
+       claude-sonnet-4-6                  2   2   0.98 1.00
+       claude-sonnet-4-6-razona           1   1   0.95
+       gpt-6-astra                        1   0   1.34
+       claude-fable-5                     1   1   1.00
+       claude-opus-5                      1   1   1.00
+       gpt-5.5-2026-04-23                 1   0   1.07
+       claude-fable-5-1                   1   1   1.00
+       gpt-4o                             1   0   1.33
+       mistral-medium-3.5                 1   1   1.00
+       gemini-3.1-pro-preview             1   1   1.01
+   el seno de 45° de cada rosa de ocho (corrimiento del rayo diagonal / largo del rayo del eje; el de la toleta es 0,71):
+       minimax-m3                     dibujos/barco_inexistente    eje   12.0  seno 0.667  desvío   -0.5 px  
+       claude-sonnet-4-6-razona       dibujos/casa                 eje   49.0  seno 0.673  desvío   -1.6 px  
+       glm-5.3-razonamiento-minimo    dibujos_en/mundo                eje   42.0  seno 0.690  desvío   -0.7 px  
+       claude-sonnet-4-6              dibujos/yo_mundo_querido     eje   62.0  seno 0.694  desvío   -0.8 px  
+       deepseek-v4-pro                dibujos/mundo                eje   40.0  seno 0.700  desvío   -0.3 px  
+       deepseek-v4-pro                dibujos/mundo_querido        eje   40.0  seno 0.700  desvío   -0.3 px  
+       kimi-k3                        dibujos/persona_imposible    eje   30.0  seno 0.700  desvío   -0.2 px  
+       minimax-m3                     dibujos/yo_mundo_querido     eje   30.0  seno 0.700  desvío   -0.2 px  
+       kimi-k3                        dibujos/casa                 eje   54.0  seno 0.704  desvío   -0.2 px  
+       mimo-v2.6-pro                  dibujos/mundo_querido        eje   44.0  seno 0.705  desvío   -0.1 px  
+       claude-opus-5                  dibujos/mundo_querido        eje   59.5  seno 0.706  desvío   -0.1 px  
+       mistral-medium-3.5             dibujos_en/mundo                eje  150.0  seno 0.707  desvío   -0.1 px  
+       grok-4.7                       dibujos/mundo_querido        eje   54.0  seno 0.707  desvío   +0.0 px  rotate
+       mistral-large-4                dibujos/mundo_querido        eje   42.0  seno 0.707  desvío   +0.0 px  rotate
+       claude-fable-5-1               dibujos/yo_mundo_querido     eje   24.0  seno 0.708  desvío   +0.0 px  
+       claude-sonnet-4-6              dibujos_en/mundo                eje   48.0  seno 0.708  desvío   +0.1 px  
+       claude-fable-5                 dibujos/mundo_querido        eje   62.0  seno 0.710  desvío   +0.2 px  
+       gemini-3.1-pro-preview         dibujos_zh/autorretrato         eje  180.0  seno 0.711  desvío   +0.7 px  
+       mimo-v2.6-pro                  dibujos/yo_mundo_querido     eje   52.0  seno 0.712  desvío   +0.2 px  
+       glm-5.3-razonamiento-minimo    dibujos/casa                 eje   56.0  seno 0.714  desvío   +0.4 px  
+       claude-haiku-4-5               dibujos_zh/libre                eje   60.0  seno 0.717  desvío   +0.6 px  
+       claude-haiku-4-5               dibujos/nada                 eje   40.0  seno 0.750  desvío   +1.7 px  
+       gpt-5.5-2026-04-23             dibujos/mundo_querido        eje   61.0  seno 0.754  desvío   +2.9 px  
+       gpt-4o                         dibujos/yo_mundo_querido     eje   80.0  seno 0.938  desvío  +18.4 px  
+       gpt-6-astra                    dibujos/letra                eje  161.0  seno 0.944  desvío  +38.2 px  
+     a un píxel o menos del valor justo: 20 de 25 (de ellas con rotate: 2)
+   rosas que no son de 4 ni de 8 vientos, rayo por rayo:
+       gemini-3.1-pro-preview         dibujos_en/autorretrato             6 rayos, red 12, {'line': 6}
+   rosas con rotate:
+       grok-4.7                       dibujos/mundo_querido            8 rayos, red  8, {'line': 8}
+       mistral-large-4                dibujos/mundo_querido            8 rayos, red  8, {'line': 8}
+   por consigna (rosas parejas): mundo_querido 7, yo_mundo_querido 5, mundo 4, casa 3, autorretrato 2, barco_inexistente 1, letra 1, nada 1, persona_imposible 1, libre 1
+   por casa (rosas parejas):     minimax-m3 2, glm-5.3-razonamiento-minimo 2, kimi-k3 2, deepseek-v4-pro 2, mimo-v2.6-pro 2, claude-haiku-4-5 2, claude-sonnet-4-6 2, gemini-3.1-pro-preview 2, claude-sonnet-4-6-razona 1, gpt-6-astra 1, claude-fable-5 1, claude-opus-5 1, gpt-5.5-2026-04-23 1, grok-4.7 1, mistral-large-4 1, claude-fable-5-1 1, gpt-4o 1, mistral-medium-3.5 1

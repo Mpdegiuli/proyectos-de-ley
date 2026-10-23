@@ -1,0 +1,152 @@
+Dibujos leídos: 619; dibujados (con SVG válido): 604; con sol: 158 (26 %)
+
+1. POR CONSIGNA (dibujos con sol / dibujos)
+   es  mundo_querido           25 /  26   96 %
+   es  casa                    25 /  27   93 %
+   es  yo_mundo_querido        23 /  28   82 %
+   es  libre                   22 /  48   46 %
+   en  mundo                   11 /  24   46 %
+   es  persona                  9 /  24   38 %
+   es  mundo                   11 /  30   37 %
+   zh  libre                    8 /  22   36 %
+   en  libre                    6 /  22   27 %
+   es  animal                   7 /  29   24 %
+   es  persona_imposible        5 /  24   21 %
+   es  puente_inexistente       3 /  24   12 %
+   es  barco_inexistente        1 /  24    4 %
+   es  casa_inexistente         1 /  28    4 %
+   es  animal_imposible         1 /  29    3 %
+   es  animal_inexistente       0 /  29    0 %
+   es  arbol_inexistente        0 /  24    0 %
+   es  autorretrato             0 /  50    0 %
+   es  nada                     0 /  24    0 %
+   es  persona_inexistente      0 /  24    0 %
+   en  autorretrato             0 /  22    0 %
+   zh  autorretrato             0 /  22    0 %
+
+2. LADO (soles en una escena: 144; fuera quedan 14 cósmicos, abstractos o en la mano)
+    {'der': 86, 'izq': 17, 'centro': 41}
+    solo los altos (tercio de arriba): {'der': 79, 'izq': 16, 'centro': 7} 102
+    los bajos (horizonte): {'centro': 34, 'der': 7, 'izq': 1} 42
+    por idioma de la consigna:
+       dibujos {'der': 78, 'izq': 15, 'centro': 31}
+       dibujos_en {'der': 5, 'centro': 6, 'izq': 2}
+       dibujos_zh {'der': 3, 'centro': 4}
+    los de la izquierda: [('claude-opus-5', 'mundo_querido', 0.155), ('claude-opus-5', 'persona_imposible', 0.135), ('claude-sonnet-4-6-razona', 'casa', 0.138), ('claude-sonnet-5-5', 'persona_imposible', 0.113), ('deepseek-v4-pro', 'mundo_querido', 0.15), ('deepseek-v4-pro', 'yo_mundo_querido', 0.175), ('gpt-3.5-turbo-0125', 'libre', 0.125), ('gpt-4o', 'casa_inexistente', 0.15), ('gpt-4o', 'mundo', 0.3), ('gpt-4o', 'mundo_querido', 0.25), ('gpt-5.5-2026-04-23', 'mundo', 0.19), ('gpt-5.5-2026-04-23', 'mundo_querido', 0.175), ('grok-4.7', 'persona', 0.18), ('kimi-k3', 'casa', 0.175), ('kimi-k3', 'persona_imposible', 0.135), ('mistral-large-4', 'mundo_querido', 0.138), ('qwen3.8-max', 'libre', 0.32)]
+
+3. RAYOS Y CARA
+   con rayos: 25 de 158; con cara a la vista: 2; con cara tapada: 1
+     m122  claude-haiku-4-5         casa               formas alrededor: {'line': 8}
+     m125  claude-sonnet-4-6-razona casa               formas alrededor: {'line': 8}
+     m130  glm-5.3-razonamiento-minimo casa               formas alrededor: {'line': 8}
+     m139  grok-4.6                 casa               formas alrededor: {'line': 3, 'rect': 1, 'path': 1}
+     m141  kimi-k3                  casa               formas alrededor: {'line': 8}
+     m219  deepseek-v4-pro          mundo              formas alrededor: {'line': 14}
+     m235  claude-fable-5           mundo_querido      formas alrededor: {'line': 8}
+     m239  claude-opus-5            mundo_querido      formas alrededor: {}
+     m243  deepseek-v4-pro          mundo_querido      formas alrededor: {'line': 8}
+     m245  glm-5.3-razonamiento-minimo mundo_querido      formas alrededor: {'line': 8}
+     m248  gpt-5.5-2026-04-23       mundo_querido      formas alrededor: {}
+     m254  grok-4.6                 mundo_querido      formas alrededor: {'rect': 8, 'path': 1}
+     m255  grok-4.7                 mundo_querido      formas alrededor: {'line': 8}
+     m256  mimo-v2.6-pro            mundo_querido      formas alrededor: {'path': 8}
+     m258  mistral-large-4          mundo_querido      formas alrededor: {'line': 8}
+     m284  claude-opus-5            persona_imposible  formas alrededor: {'line': 7}
+     m294  kimi-k3                  persona_imposible  formas alrededor: {}
+     m343  claude-sonnet-4-6        yo_mundo_querido   formas alrededor: {'line': 8}
+     m345  claude-sonnet-5          yo_mundo_querido   formas alrededor: {'line': 13, 'path': 1}
+     m346  deepseek-v4-pro          yo_mundo_querido   formas alrededor: {'line': 8}
+     m349  gpt-4o                   yo_mundo_querido   formas alrededor: {'line': 8}
+     m359  mimo-v2.6-pro            yo_mundo_querido   formas alrededor: {'path': 8}
+     m395  claude-sonnet-4-6        mundo              formas alrededor: {'rect': 2}
+     m398  glm-5.3-razonamiento-minimo mundo              formas alrededor: {'line': 8, 'rect': 4}
+     m417  claude-haiku-4-5         libre              formas alrededor: {'line': 8}
+   CARA: m189 gpt-4o-mini dibujos libre a la vista
+   CARA: m258 mistral-large-4 dibujos mundo_querido a la vista
+   CARA: m425 gpt-4o-mini dibujos_zh libre tapada
+
+4. COLOR (mediana de lo que se ve dentro del disco)
+   todas: {'amarillo': 107, 'crema': 20, 'otro': 14, 'naranja': 12, 'gris': 3, 'rojo': 1, 'blanco': 1}
+   casas chinas (37 soles): {'amarillo': 25, 'crema': 6, 'otro': 5, 'gris': 1}
+   rojos: [('gpt-4o-mini', 'dibujos', 'mundo_querido', '#ff6347', '#FF6347')]
+   por serie: {'dibujos': {'amarillo': 92, 'crema': 17, 'otro': 13, 'naranja': 6, 'gris': 3, 'rojo': 1, 'blanco': 1}, 'dibujos_en': {'amarillo': 10, 'naranja': 5, 'otro': 1, 'crema': 1}, 'dibujos_zh': {'amarillo': 5, 'crema': 2, 'naranja': 1}}
+
+5. POR CASA (soles / dibujos; con rayos; izq-centro-der en escena)
+   mimo-v2.6-pro               4 /  7  57 %  rayos  2  lado 0-2-2  halo/radio medio 0.084
+   claude-haiku-5-5            4 /  8  50 %  rayos  0  lado 0-1-3  halo/radio medio 0.124
+   claude-haiku-4-5-razona     1 /  2  50 %  rayos  0  lado 0-0-1  halo/radio medio 0.087
+   claude-sonnet-4-6-razona    1 /  2  50 %  rayos  1  lado 1-0-0  halo/radio medio 0.080
+   gpt-5.5-esfuerzo-high       1 /  2  50 %  rayos  0  lado 0-0-1  halo/radio medio 0.077
+   gpt-5.5-esfuerzo-none       1 /  2  50 %  rayos  0  lado 0-0-1  halo/radio medio 0.075
+   claude-sonnet-5-5           8 / 18  44 %  rayos  0  lado 1-4-3  halo/radio medio 0.088
+   claude-sonnet-5            10 / 24  42 %  rayos  1  lado 0-6-4  halo/radio medio 0.100
+   claude-fable-5              7 / 18  39 %  rayos  1  lado 0-1-6  halo/radio medio 0.087
+   claude-haiku-4-5            9 / 24  38 %  rayos  2  lado 0-0-9  halo/radio medio 0.089
+   mistral-medium-3.5          9 / 24  38 %  rayos  0  lado 0-0-7  halo/radio medio 0.079
+   kimi-k3                     8 / 23  35 %  rayos  2  lado 2-4-2  halo/radio medio 0.069
+   gpt-4o                      8 / 24  33 %  rayos  1  lado 3-1-4  halo/radio medio 0.113
+   grok-4.7                    8 / 24  33 %  rayos  1  lado 1-1-4  halo/radio medio 0.069
+   minimax-m3                  8 / 24  33 %  rayos  0  lado 0-3-4  halo/radio medio 0.080
+   deepseek-v4-pro             7 / 24  29 %  rayos  3  lado 2-3-2  halo/radio medio 0.097
+   mistral-large-4             2 /  7  29 %  rayos  1  lado 1-0-1  halo/radio medio 0.075
+   claude-opus-5               6 / 24  25 %  rayos  2  lado 2-1-3  halo/radio medio 0.067
+   gpt-4o-mini                 6 / 24  25 %  rayos  0  lado 0-0-0  halo/radio medio 0.160
+   gpt-5.5-2026-04-23          6 / 24  25 %  rayos  1  lado 2-1-3  halo/radio medio 0.097
+   gpt-6.1-sol                 1 /  4  25 %  rayos  0  lado 0-1-0  halo/radio medio 0.072
+   qwen3.8-max                 5 / 22  23 %  rayos  0  lado 1-2-2  halo/radio medio 0.100
+   claude-opus-5-5             5 / 24  21 %  rayos  0  lado 0-3-2  halo/radio medio 0.074
+   glm-5.3-razonamiento-minimo  5 / 24  21 %  rayos  3  lado 0-1-4  halo/radio medio 0.077
+   gpt-6-sol                   5 / 24  21 %  rayos  0  lado 0-1-3  halo/radio medio 0.111
+   gpt-3.5-turbo-0125          1 /  6  17 %  rayos  0  lado 1-0-0  halo/radio medio 0.100
+   gpt-6-luna                  4 / 24  17 %  rayos  0  lado 0-1-3  halo/radio medio 0.073
+   gemini-3.1-pro-preview      3 / 22  14 %  rayos  0  lado 0-2-0  halo/radio medio 0.275
+   claude-sonnet-4-6           3 / 23  13 %  rayos  2  lado 0-0-3  halo/radio medio 0.113
+   claude-fable-5-1            3 / 24  12 %  rayos  0  lado 0-0-3  halo/radio medio 0.073
+   gpt-5.6-sol                 3 / 24  12 %  rayos  0  lado 0-1-2  halo/radio medio 0.072
+   gpt-6-astra                 3 / 24  12 %  rayos  0  lado 0-1-2  halo/radio medio 0.080
+   grok-4.6                    3 / 24  12 %  rayos  2  lado 0-0-2  halo/radio medio 0.062
+   gpt-4-0613                  0 /  6   0 %  rayos  0  lado 0-0-0  halo/radio medio 0.000
+
+6. CARAS DE SOL (figura central: disco cálido con cara)
+   m75   claude-fable-5-1         es  autorretrato       rep 1  sin rayos
+   m77   claude-fable-5           es  autorretrato       rep 1  sin rayos
+   m81   claude-opus-5-5          es  autorretrato       rep 2  con rayos
+   m93   kimi-k3                  es  autorretrato       rep 1  con rayos
+   m94   kimi-k3                  es  autorretrato       rep 2  sin rayos
+   m366  claude-opus-5-5          en  autorretrato       rep 1  con rayos
+   m409  claude-fable-5-1         zh  autorretrato       rep 1  sin rayos
+   m411  claude-opus-5-5          zh  autorretrato       rep 1  con rayos
+   m80   claude-opus-5-5          es  autorretrato       rep 1  con rayos
+   m364  claude-fable-5-1         en  autorretrato       rep 1  sin rayos · sin cara
+   m344  claude-sonnet-5-5        es  yo_mundo_querido   rep 1  sin rayos · no es el retrato sino el yo en la escena
+   m355  gpt-6.1-sol              es  yo_mundo_querido   rep 1  sin rayos · no es el retrato sino el yo en la escena
+   sonrisas amarillas: [('gpt-4o-mini', 'persona'), ('mistral-medium-3.5', 'persona'), ('gpt-4o-mini', 'autorretrato'), ('gpt-4o-mini', 'autorretrato')]
+
+7. LA CASA: sol en 25 de 27
+   sin sol en la casa: ['gemini-3.1-pro-preview', 'gpt-4o-mini']
+
+8. COLOR SEGÚN EL CÓDIGO (relleno; en los degradados, el promedio de sus colores opacos)
+   todas: {'amarillo': 117, 'crema': 26, 'naranja': 12, 'rojo': 3}
+   chinas: {'amarillo': 27, 'crema': 6, 'naranja': 4} 37
+   consigna en chino: {'amarillo': 5, 'crema': 2, 'naranja': 1}
+   los seis más cerca del rojo: [('gemini-3.1-pro-preview', 'libre', '#d86361', 1), ('gpt-4o-mini', 'mundo_querido', '#ff6347', 9), ('gemini-3.1-pro-preview', 'persona_imposible', '#ff6a4a', 11), ('gemini-3.1-pro-preview', 'libre', '#f07e46', 20), ('grok-4.7', 'mundo', '#ffbc7d', 29), ('grok-4.7', 'libre', '#ffb671', 29)]
+   naranjas: [('claude-fable-5', 1), ('claude-sonnet-5', 1), ('gemini-3.1-pro-preview', 1), ('gpt-6-astra', 1), ('gpt-6-sol', 2), ('grok-4.7', 2), ('kimi-k3', 2), ('qwen3.8-max', 2)]
+
+9. EL LUGAR
+   posiciones más repetidas (lado, alto): [((0.8, 0.2), 11), ((0.875, 0.125), 7), ((0.825, 0.175), 7), ((0.875, 0.2), 6), ((0.8, 0.175), 5), ((0.825, 0.15), 5)]
+   dentro de la caja 0,78-0,88 × 0,12-0,20: 67 de 144; en la casa: 22 de 24; fuera de la casa: 45 de 120
+   la apuesta del lado, de tres maneras: lado > 0,5 sobre todos: 95 de 158 ; lado > 0,6 sobre todos: 90 ; lado > 0,6 en escena: 86 de 144
+   radio mediano sobre el ancho: 0.083
+
+10. HALO Y RAYOS
+   con halo (más de un disco concéntrico): 84; con degradado en el cuerpo: 52; disco liso sin halo, degradado ni rayos: 35; con rayos: 25
+   las viejas (33 soles): liso 15, rayos 3, halo 4
+
+11. LO QUE EXISTE Y LO QUE NO
+    casa: 25/27 → casa_inexistente: 1/28
+    persona: 9/24 → persona_inexistente: 0/24 → persona_imposible: 5/24
+    animal: 7/29 → animal_inexistente: 0/29 → animal_imposible: 1/29
+    los soles de lo que no existe: [('kimi-k3', 'animal_imposible'), ('mistral-medium-3.5', 'barco_inexistente'), ('gpt-4o', 'casa_inexistente'), ('claude-fable-5', 'persona_imposible'), ('claude-opus-5', 'persona_imposible'), ('claude-sonnet-5-5', 'persona_imposible'), ('kimi-k3', 'persona_imposible'), ('claude-haiku-4-5', 'puente_inexistente'), ('gpt-6-luna', 'puente_inexistente'), ('claude-opus-5', 'puente_inexistente'), ('gemini-3.1-pro-preview', 'persona_imposible')]
+
+12. LUNAS (a máquina: dibujos sin sol cuyo código dice luna o moon; el disco claro más grande de la mitad de arriba)
+    72 {'der': 57, 'centro': 9, 'izq': 6}
