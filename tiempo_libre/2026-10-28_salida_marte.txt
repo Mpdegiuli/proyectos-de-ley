@@ -1,0 +1,31 @@
+1. La tercera ley de Kepler en los números de Swift
+   interior: a = 3.0 diámetros, T = 10.0 h, a³/T² = 0.27000
+   exterior: a = 5.0 diámetros, T = 21.5 h, a³/T² = 0.27042
+   diferencia entre las dos razones: 0.15 %
+   si el interior tarda 10 h a 3 diámetros, el exterior a 5 tarda 10·(5/3)^(3/2) = 21.517 h
+   en medias horas: 20 y 43; 5³·20² = 50000 y 3³·43² = 49923 (la observación es de mathpages.com)
+   Fobos: a = 1.383 diámetros, T = 7.6538 h, a³/T² = 0.04518
+   Deimos: a = 3.460 diámetros, T = 30.2984 h, a³/T² = 0.04513
+
+2. La masa de Marte que piden los números de Swift
+   interior: GM = 2.562e+14 m³/s², 5.98 veces la real; masa = 3.84e+24 kg = 0.64 masas terrestres
+   exterior: GM = 2.566e+14 m³/s², 5.99 veces la real; masa = 3.85e+24 kg = 0.64 masas terrestres
+   (Marte real: GM = 4.2828e+13, masa 6.417e+23 kg = 0.107 masas terrestres)
+
+3. Por dónde salen: período sinódico visto desde el suelo de Marte
+   rotación sidérea de Marte: 24.6229 h
+   Swift interior : T = 10.0000 h < día marciano -> sale por el oeste; de salida a salida 16.8 h = 0.70 días
+   Swift exterior : T = 21.5000 h < día marciano -> sale por el oeste; de salida a salida 169.5 h = 7.06 días
+   Hall  Fobos    : T =  7.6538 h < día marciano -> sale por el oeste; de salida a salida 11.1 h = 0.46 días
+   Hall  Deimos   : T = 30.2984 h > día marciano -> sale por el este; de salida a salida 131.4 h = 5.48 días
+
+4. La órbita estacionaria del Marte real
+   a = (GM·T²/4π²)^(1/3) = 20,428 km = 3.013 diámetros = 6.03 radios
+   la luna interior de Swift está a 3 diámetros: a -0.4 % de esa órbita
+   una luna a 3 diámetros del Marte real tardaría 24.46 h (Swift dice 10)
+   una a 5 diámetros, 52.63 h (Swift dice 21,5)
+
+5. Fechas
+   28/10/1726 (juliano, el calendario de Londres): JDN 2351780, viernes; en gregoriano, 8/11/1726
+   días hasta el 28/10/2026: 109,562
+   del 28/10/1726 al 12/8/1877 (Hall ve Deimos): 55,064 días = 150.8 años

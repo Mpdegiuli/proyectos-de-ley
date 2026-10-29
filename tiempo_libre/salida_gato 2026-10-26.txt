@@ -1,0 +1,44 @@
+== Scarlatti, K.30, tema (como lo recuerdo antes de verificar)
+   notas:     G3 A#3 D#4 F#4 A#4 C#5 D5
+   MIDI:      55 58 63 66 70 73 74
+   semitonos: +3 +5 +3 +4 +3 +1
+   cm:        +3.5 +7.0 +4.7 +4.7 +4.7 +1.2
+   paso medio 4.3 cm (mediana 4.7); ámbito 25.9 cm = 19 semitonos; cambios de dirección: 0
+== Bach, Arte de la fuga, tema
+   notas:     D4 A4 F4 D4 C#4 D4 E4 F4
+   MIDI:      62 69 65 62 61 62 64 65
+   semitonos: +7 -4 -3 -1 +1 +2 +1
+   cm:        +9.4 -4.7 -4.7 -1.2 +1.2 +2.3 +2.4
+   paso medio 3.7 cm (mediana 2.4); ámbito 10.6 cm = 8 semitonos; cambios de dirección: 2
+== Paseo de gato simulado (semilla 20261026, zancada 12.0±3.0 cm, vecina 0.5)
+   notas:     D3 A3 B3 D4 E4 C5 D5 G5
+   MIDI:      50 57 59 62 64 72 74 79
+   semitonos: +7 +2 +3 +2 +8 +2 +5
+   cm:        +9.4 +2.3 +4.7 +2.3 +11.8 +2.4 +7.0
+   paso medio 5.7 cm (mediana 4.7); ámbito 40.0 cm = 29 semitonos; cambios de dirección: 0
+== Siete notas al azar, uniformes entre C3 y C6
+   notas:     A4 B4 D#3 C#4 B4 G5 C#4
+   MIDI:      69 71 51 61 71 79 61
+   semitonos: +2 -20 +10 +10 +8 -18
+   cm:        +2.4 -27.0 +14.1 +12.9 +11.8 -24.7
+   paso medio 15.5 cm (mediana 13.5); ámbito 38.8 cm = 28 semitonos; cambios de dirección: 3
+== Gato que registra (semilla 20261027, paso 10±2,5 cm, vecina 0,5): las traseras repiten
+   notas:     E3 F3 C4 D4 E3 F3 B4 C5 C4 D4 G5 B4 C5 G5
+   MIDI:      52 53 60 62 52 53 71 72 60 62 79 71 72 79
+   semitonos: +1 +7 +2 -10 +1 +18 +1 -12 +2 +17 -8 +1 +7
+   cm:        +2.4 +9.4 +2.4 -14.1 +2.4 +23.5 +2.3 -16.5 +2.4 +23.5 -11.8 +2.3 +9.4
+   paso medio 9.4 cm (mediana 9.4); ámbito 37.6 cm = 27 semitonos; cambios de dirección: 6
+
+== Para la prueba a ciegas (nombres y MIDI)
+   scarlatti G3 A#3 D#4 F#4 A#4 C#5 D5                    [55, 58, 63, 66, 70, 73, 74]
+   bach      D4 A4 F4 D4 C#4 D4 E4 F4                     [62, 69, 65, 62, 61, 62, 64, 65]
+   gato      D3 A3 B3 D4 E4 C5 D5 G5                      [50, 57, 59, 62, 64, 72, 74, 79]
+   azar      A4 B4 D#3 C#4 B4 G5 C#4                      [69, 71, 51, 61, 71, 79, 61]
+   registra  E3 F3 C4 D4 E3 F3 B4 C5 C4 D4 G5 B4 C5 G5    [52, 53, 60, 62, 52, 53, 71, 72, 60, 62, 79, 71, 72, 79]
+
+== 1000 paseos simulados: 6469 pasos
+   pasos de hasta  2 semitonos:  39.1 %
+   pasos de hasta  4 semitonos:  42.2 %
+   pasos de hasta  7 semitonos:  67.2 %
+   pasos de hasta 12 semitonos:  98.8 %
+   paso medio 5.5 semitonos; máximo 16

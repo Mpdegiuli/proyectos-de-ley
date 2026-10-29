@@ -1,0 +1,105 @@
+  ilegible (ni en modo recover): ../repos/proyectos-de-ley/corridas/dibujos/libre/gemini-3.1-pro-preview_1/dibujo.svg
+Dibujos: 906 archivos; 20 vacíos; 1 ilegibles; 885 medidos, 15 de ellos leídos en modo recover (SVG cortado o mal formado).
+Escala: 400 unidades = 10.58 cm; birome de 3 km y 0.4 mm.
+
+TRAZO (largo de las líneas): 681 m en total; 0.77 m por dibujo; mediana 0.56 m.
+  Con el ancho de línea (pasadas de 0,4 mm): 1,705 m = 0.57 biromes.
+RELLENO (área pintada): 166,511 cm² en total; 188 cm² por dibujo (1.68 lienzos); mediana 179 cm².
+  Rayado a 0,4 mm: 41,628 m = 13.9 biromes.
+Relleno / trazo (en metros de birome): 24.4.
+Todo junto: 14.4 biromes para 885 dibujos.
+
+Dibujos sin ningún relleno (solo líneas): 6; sin ninguna línea (solo pintura): 33; con más metros de línea que de pintura: 9 de 885.
+Elementos <text> (no medidos): 698 en 210 dibujos; <use> resueltos: 1451.
+Dibujos hechos con un solo <path> y nada más: 2 (gpt-6-luna_1/asterisco, mistral-medium-3.5_1/asterisco).
+Paths abiertos sin fill declarado (el navegador los rellena de negro): 2111 en 284 dibujos, 50 cm² de negro por omisión; por casa: gpt-6-sol 27, gpt-5.6-sol 22, gpt-6-luna 20, qwen3.8-max 17, gpt-6-astra 16, claude-sonnet-5-5 15, glm-5.3-razonamiento-minimo 14, gpt-5.5-2026-04-23 14.
+Subtrazos continuos más largos (órdenes después de una M): 120 (deepseek-v4-pro, libre, es); 53 (gpt-6-sol, mundo, en); 44 (gpt-6-sol, mundo, es); 43 (kimi-k3, mundo, en); 38 (kimi-k3, nadie, es)
+
+casa                           n trazo m/dib  pint m/dib  trazo % elem/dib
+mimo-v2.6-pro                 14        4.30        48.3     8.2%     55.9
+gpt-5.5-2026-04-23            32        4.14        46.9     8.1%     38.8
+gemini-4-argon                11        3.28        61.2     5.1%     81.2
+gemini-3.1-pro-preview        38        2.97        57.0     5.0%     59.5
+gpt-6-luna                    32        2.82        51.0     5.2%     43.4
+claude-sonnet-5-5             26        2.78        48.4     5.4%     45.4
+gpt-6.1-sol                   12        2.77        62.6     4.2%     54.4
+gpt-5.6-sol                   32        2.77        53.1     5.0%     43.0
+gpt-6-astra                   32        2.75        62.6     4.2%     62.3
+gpt-6-sol                     32        2.72        54.4     4.8%     46.5
+qwen3.8-max                   33        2.47        54.7     4.3%     55.7
+deepseek-v4-pro               33        2.28        46.9     4.6%     60.8
+mistral-large-4               15        2.17        48.0     4.3%     53.9
+gpt-5.5-esfuerzo-none          2        2.13        53.3     3.8%     34.0
+kimi-k3                       31        2.10        49.7     4.1%     61.1
+grok-4.7                      32        2.03        66.8     2.9%     76.6
+glm-5.3-razonamiento-minimo   32        2.02        43.0     4.5%     54.6
+gpt-5.5-esfuerzo-high          2        2.00        54.8     3.5%     41.0
+claude-opus-5                 31        1.97        51.9     3.7%     54.7
+claude-haiku-5-5              16        1.88        41.2     4.4%     36.6
+mercury-3                      5        1.81        46.8     3.7%     59.0
+claude-sonnet-4-6             32        1.72        46.3     3.6%     56.7
+muse-wonder-1.0               10        1.56        68.3     2.2%     83.8
+claude-sonnet-5               32        1.55        40.2     3.7%     36.5
+claude-fable-5-1              32        1.46        46.2     3.1%     47.9
+claude-fable-5                28        1.32        39.0     3.3%     41.5
+grok-4.6                      32        1.20        55.0     2.1%     69.2
+minimax-m3                    32        0.98        42.6     2.2%     43.4
+claude-opus-5-5               32        0.96        47.9     2.0%     48.4
+claude-haiku-4-5              32        0.91        36.7     2.4%     31.4
+claude-sonnet-4-6-razona       2        0.91        54.4     1.7%     84.5
+deepseek-flash                 6        0.85        56.1     1.5%     47.3
+mistral-medium-3.5            32        0.75        25.8     2.8%     11.8
+gpt-4o                        32        0.66        27.4     2.4%     13.3
+claude-opus-4-8                6        0.55        40.0     1.4%     28.3
+gpt-4o-mini                   32        0.48        27.5     1.7%     10.6
+claude-haiku-4-5-razona        2        0.47        40.0     1.2%     29.0
+claude-opus-4-7                6        0.44        42.2     1.0%     47.8
+gpt-4-0613                     6        0.34         7.3     4.4%      9.2
+gpt-3.5-turbo-0125             6        0.04        30.6     0.1%      9.7
+
+consigna                 n trazo m/dib  pint m/dib  trazo %
+asterisco               30        4.80        27.6    14.8%
+letra_imposible         27        4.70        37.6    11.1%
+letra_inexistente       29        3.86        31.7    10.9%
+animal_imposible        34        3.67        36.6     9.1%
+letra_eme               29        3.30        31.4     9.5%
+puente_inexistente      24        2.80        50.5     5.3%
+letra                   30        2.57        46.6     5.2%
+nadie                   30        2.42        50.1     4.6%
+persona_imposible       25        2.31        35.1     6.2%
+error                   31        2.22        58.7     3.6%
+mundo_querido           28        2.17        55.7     3.8%
+mundo                   60        2.00        54.5     3.5%
+arbol_inexistente       24        1.84        40.6     4.3%
+barco_inexistente       24        1.57        50.0     3.1%
+autorretrato           102        1.52        50.0     3.0%
+animal_inexistente      35        1.49        39.9     3.6%
+yo_mundo_querido        30        1.45        61.5     2.3%
+casa                    28        1.43        52.8     2.6%
+casa_inexistente        28        1.34        45.4     2.9%
+persona_inexistente     24        1.27        48.7     2.5%
+libre                   98        0.80        56.7     1.4%
+secreto                 30        0.71        55.5     1.3%
+persona                 24        0.53        36.9     1.4%
+secreto_sin              2        0.45        29.0     1.5%
+animal                  35        0.42        45.5     0.9%
+nada                    24        0.36        36.6     1.0%
+
+idioma es: 773 dibujos, trazo 2.00 m/dib, pintura 45.7 m/dib, trazo 4.2 %
+idioma en: 68 dibujos, trazo 1.59 m/dib, pintura 56.1 m/dib, trazo 2.7 %
+idioma zh: 44 dibujos, trazo 1.13 m/dib, pintura 55.6 m/dib, trazo 2.0 %
+
+Más metros de línea (con ancho):
+     25.2 m  gpt-5.5-2026-04-23  letra_imposible (es)  20 elementos
+     23.6 m  gpt-6-luna  letra_imposible (es)  19 elementos
+     22.3 m  claude-sonnet-5-5  animal_imposible (es)  66 elementos
+     21.5 m  kimi-k3  nadie (es)  99 elementos
+     19.8 m  claude-sonnet-5-5  letra_imposible (es)  19 elementos
+Más metros de pintura:
+    282.0 m  gemini-3.1-pro-preview  error (es)  10.1 lienzos
+    119.2 m  grok-4.7  letra_imposible (es)  4.3 lienzos
+    112.7 m  gpt-6-astra  autorretrato (zh)  4.0 lienzos
+    111.2 m  qwen3.8-max  persona_inexistente (es)  4.0 lienzos
+    106.6 m  qwen3.8-max  libre (es)  3.8 lienzos
+
+CSV: tinta.csv (885 filas)

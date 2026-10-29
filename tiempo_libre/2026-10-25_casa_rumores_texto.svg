@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="400" viewBox="0 0 400 400">
+  <title>Casa de los Rumores (Chaucer, The House of Fame III, vv. 1918-2093)</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9dcea"/>
+      <stop offset="1" stop-color="#f1e7cf"/>
+    </linearGradient>
+    <clipPath id="body"><path d="M85 300 V190 A115 70 0 0 1 315 190 V300 Z"/></clipPath>
+    <clipPath id="dome"><path d="M85 190 A115 70 0 0 1 315 190 Z"/></clipPath>
+    <pattern id="holes" width="8" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="3.5" r="1.4" fill="#2a1d14"/>
+    </pattern>
+    <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#5a5a5a"/>
+    </marker>
+    <!-- puerta en arco, siempre abierta de par en par -->
+    <g id="d">
+      <path d="M-7 22 V8 A7 7 0 0 1 7 8 V22 Z" fill="#2a1d14"/>
+      <path d="M-7 8 L-13 11 V25 L-7 22 Z" fill="#a4733a" stroke="#5a3a18" stroke-width="0.6"/>
+      <path d="M7 8 L13 11 V25 L7 22 Z" fill="#a4733a" stroke="#5a3a18" stroke-width="0.6"/>
+    </g>
+    <!-- persona -->
+    <g id="p">
+      <circle cx="0" cy="-10" r="2.8"/>
+      <rect x="-3" y="-7.5" width="6" height="7.5" rx="1.5"/>
+    </g>
+    <!-- pareja susurrandose al oido -->
+    <g id="pair">
+      <use xlink:href="#p" transform="translate(-5 0) rotate(14)"/>
+      <use xlink:href="#p" transform="translate(5 0) rotate(-14)"/>
+      <path d="M-3 -13 Q0 -17 3 -13" fill="none" stroke="#2a1d14" stroke-width="0.8" stroke-dasharray="1.2 1.2"/>
+    </g>
+    <!-- llama -->
+    <g id="fl">
+      <path d="M0 0 C-5 -5 -4 -10 0 -14 C4 -10 5 -5 0 0 Z" fill="#e2702a"/>
+      <path d="M0 0 C-2.5 -3 -2 -6 0 -8 C2 -6 2.5 -3 0 0 Z" fill="#f8c650"/>
+    </g>
+  </defs>
+
+  <!-- cielo -->
+  <rect width="400" height="400" fill="url(#sky)"/>
+  <!-- dia y noche a la vez: las puertas estan abiertas en ambos (vv. 1951-1953) -->
+  <circle cx="355" cy="45" r="13" fill="#f6cf5a"/>
+  <path d="M312 32 A14 14 0 1 0 312 60 A18 18 0 0 1 312 32 Z" fill="#f3eedb" stroke="#c9c3a9" stroke-width="0.8"/>
+
+  <!-- valle (v. 1918) -->
+  <path d="M0 120 Q60 130 120 160 Q180 230 220 240 Q290 230 340 190 Q370 160 400 150 V400 H0 Z" fill="#8fb46b"/>
+
+  <!-- el castillo, arriba y cerca (v. 1919) -->
+  <path d="M8 150 L36 52 L62 38 L90 48 L122 165 Z" fill="#d6e8f3" stroke="#9db7c8" stroke-width="1"/>
+  <rect x="44" y="24" width="40" height="28" fill="#b6bec7" stroke="#6b737c" stroke-width="1"/>
+  <rect x="38" y="14" width="11" height="38" fill="#c4cbd3" stroke="#6b737c" stroke-width="1"/>
+  <rect x="79" y="14" width="11" height="38" fill="#c4cbd3" stroke="#6b737c" stroke-width="1"/>
+  <path d="M38 14 V10 H41 V14 M43 14 V10 H46 V14 M79 14 V10 H82 V14 M84 14 V10 H87 V14 M50 24 V20 H53 V24 M57 24 V20 H60 V24 M64 24 V20 H67 V24 M71 24 V20 H74 V24" fill="none" stroke="#6b737c" stroke-width="1"/>
+  <path d="M60 52 V44 A4 4 0 0 1 68 44 V52 Z" fill="#4a4f57"/>
+  <path d="M43.5 10 V2 L50 4.5 L43.5 7 Z" fill="#b5442b"/>
+
+  <!-- suelo cercano -->
+  <path d="M0 320 Q200 296 400 320 V400 H0 Z" fill="#6f9c4c"/>
+
+  <!-- la casa gira sin parar: arcos traseros (vv. 1924-1926, 2006) -->
+  <g fill="none" stroke="#5a5a5a" stroke-width="1.3" stroke-dasharray="5 4">
+    <path d="M332 291 A140 28 0 0 0 68 291" marker-end="url(#ar)"/>
+    <path d="M330 184 A135 22 0 0 0 70 184"/>
+  </g>
+
+  <!-- sombra y base -->
+  <ellipse cx="200" cy="316" rx="135" ry="11" fill="#000" opacity="0.15"/>
+  <ellipse cx="200" cy="300" rx="115" ry="18" fill="#b9924a" stroke="#6b4a1f" stroke-width="1.5"/>
+
+  <!-- paredes: varillas amarillas, rojas, verdes y blancas, tejidas como una jaula (vv. 1936-1940, 1985) -->
+  <g clip-path="url(#body)">
+    <rect x="85" y="190" width="230" height="110" fill="#e3c67c"/>
+    <g stroke-width="4" fill="none">
+      <path stroke="#d4a94a" d="M89 190 V300 M117 190 V300 M145 190 V300 M173 190 V300 M201 190 V300 M229 190 V300 M257 190 V300 M285 190 V300 M313 190 V300"/>
+      <path stroke="#b5442b" d="M96 190 V300 M124 190 V300 M152 190 V300 M180 190 V300 M208 190 V300 M236 190 V300 M264 190 V300 M292 190 V300"/>
+      <path stroke="#4e8b3b" d="M103 190 V300 M131 190 V300 M159 190 V300 M187 190 V300 M215 190 V300 M243 190 V300 M271 190 V300 M299 190 V300"/>
+      <path stroke="#f4f0e4" d="M110 190 V300 M138 190 V300 M166 190 V300 M194 190 V300 M222 190 V300 M250 190 V300 M278 190 V300 M306 190 V300"/>
+    </g>
+    <path fill="none" stroke="#6b4a1f" stroke-width="1.6" stroke-dasharray="6 4" d="M85 194 Q200 198 315 194 M85 208 Q200 212 315 208 M85 222 Q200 226 315 222 M85 236 Q200 240 315 236 M85 250 Q200 254 315 250 M85 264 Q200 268 315 264 M85 278 Q200 282 315 278 M85 292 Q200 296 315 292"/>
+  </g>
+
+  <!-- cupula de mimbre con mil agujeros para que salga el sonido (vv. 1948-1950) -->
+  <g clip-path="url(#dome)">
+    <path d="M85 190 A115 70 0 0 1 315 190 Z" fill="#d9b25c"/>
+    <g fill="none" stroke-width="5">
+      <path stroke="#b5442b" d="M180 190 A20 12.2 0 0 1 220 190 M120 190 A80 48.7 0 0 1 280 190"/>
+      <path stroke="#4e8b3b" d="M160 190 A40 24.3 0 0 1 240 190 M100 190 A100 60.9 0 0 1 300 190"/>
+      <path stroke="#f4f0e4" d="M140 190 A60 36.5 0 0 1 260 190"/>
+    </g>
+    <path fill="none" stroke="#6b4a1f" stroke-width="1.2" d="M200 121 L85 190 M200 121 L114 190 M200 121 L143 190 M200 121 L172 190 M200 121 V190 M200 121 L229 190 M200 121 L258 190 M200 121 L287 190 M200 121 L315 190"/>
+    <path d="M85 190 A115 70 0 0 1 315 190 Z" fill="url(#holes)"/>
+  </g>
+  <path d="M85 190 A115 70 0 0 1 315 190" fill="none" stroke="#6b4a1f" stroke-width="2"/>
+  <path d="M85 190 H315 M85 190 V300 M315 190 V300" fill="none" stroke="#6b4a1f" stroke-width="2"/>
+
+  <!-- entradas tan numerosas como hojas en verano, todas abiertas, sin portero (vv. 1945-1955) -->
+  <g>
+    <use xlink:href="#d" x="100" y="198"/><use xlink:href="#d" x="120" y="198"/><use xlink:href="#d" x="140" y="198"/><use xlink:href="#d" x="160" y="198"/><use xlink:href="#d" x="180" y="198"/><use xlink:href="#d" x="200" y="198"/><use xlink:href="#d" x="220" y="198"/><use xlink:href="#d" x="240" y="198"/><use xlink:href="#d" x="260" y="198"/><use xlink:href="#d" x="280" y="198"/><use xlink:href="#d" x="300" y="198"/>
+    <use xlink:href="#d" x="110" y="236"/><use xlink:href="#d" x="130" y="236"/><use xlink:href="#d" x="150" y="236"/><use xlink:href="#d" x="170" y="236"/><use xlink:href="#d" x="190" y="236"/><use xlink:href="#d" x="210" y="236"/><use xlink:href="#d" x="230" y="236"/><use xlink:href="#d" x="250" y="236"/><use xlink:href="#d" x="270" y="236"/><use xlink:href="#d" x="290" y="236"/>
+    <use xlink:href="#d" x="100" y="272"/><use xlink:href="#d" x="120" y="272"/><use xlink:href="#d" x="140" y="272"/><use xlink:href="#d" x="160" y="272"/><use xlink:href="#d" x="240" y="272"/><use xlink:href="#d" x="260" y="272"/><use xlink:href="#d" x="280" y="272"/><use xlink:href="#d" x="300" y="272"/>
+    <use xlink:href="#d" transform="translate(200 262) scale(1.6)"/>
+  </g>
+
+  <!-- ventana donde una mentira (oscura) y una verdad (blanca) quedan trabadas (vv. 2088-2093) -->
+  <circle cx="130" cy="168" r="9" fill="#2a1d14" stroke="#6b4a1f" stroke-width="1.5"/>
+  <circle cx="125" cy="166" r="5" fill="#4a2a5a"/>
+  <circle cx="135" cy="170" r="5" fill="#fbf7ea" stroke="#777" stroke-width="0.6"/>
+  <!-- ventana por la que el aguila mete al sonador (vv. 2028-2030) -->
+  <circle cx="270" cy="168" r="9" fill="#2a1d14" stroke="#6b4a1f" stroke-width="1.5"/>
+
+  <!-- gente adentro, de oreja en oreja (vv. 2034-2045) -->
+  <g fill="#e4d6b4">
+    <use xlink:href="#pair" transform="translate(200 296) scale(0.9)"/>
+    <use xlink:href="#p" transform="translate(140 293) scale(0.6)"/>
+    <use xlink:href="#p" transform="translate(260 293) scale(0.6)"/>
+    <use xlink:href="#p" transform="translate(180 219) scale(0.6)"/>
+    <use xlink:href="#p" transform="translate(250 257) scale(0.6)"/>
+  </g>
+
+  <!-- el ruido que saldria hasta Roma (vv. 1927-1934) -->
+  <g fill="none" stroke="#3b3b3b" stroke-width="1.6" stroke-linejoin="round">
+    <path d="M200 116 l-3 -8 l6 -6 l-5 -9"/>
+    <path d="M188 119 l-7 -5 l3 -8 l-8 -5"/>
+    <path d="M212 119 l7 -5 l-3 -8 l8 -5"/>
+  </g>
+  <g fill="none" stroke="#555" stroke-width="1.4" stroke-dasharray="4 3">
+    <path d="M160 104 A40 24 0 0 1 240 104" opacity="0.8"/>
+    <path d="M140 104 A60 38 0 0 1 260 104" opacity="0.55"/>
+    <path d="M120 104 A80 52 0 0 1 280 104" opacity="0.35"/>
+  </g>
+
+  <!-- giro: arcos frontales -->
+  <g fill="none" stroke="#5a5a5a" stroke-width="1.3" stroke-dasharray="5 4">
+    <path d="M68 309 A140 28 0 0 0 332 309" marker-end="url(#ar)"/>
+    <path d="M70 196 A135 22 0 0 0 330 196" marker-end="url(#ar)"/>
+  </g>
+
+  <!-- arbol: tantas entradas como hojas (vv. 1946-1947) -->
+  <rect x="18" y="300" width="4" height="26" fill="#6b4a1f"/>
+  <circle cx="20" cy="294" r="14" fill="#4e8b3b"/>
+  <g fill="#86bb5e"><circle cx="14" cy="290" r="2"/><circle cx="24" cy="286" r="2"/><circle cx="27" cy="297" r="2"/><circle cx="17" cy="300" r="2"/><circle cx="22" cy="294" r="2"/></g>
+
+  <!-- gente afuera (v. 2036) -->
+  <g fill="#3b2f2a">
+    <use xlink:href="#pair" transform="translate(46 326)"/>
+    <use xlink:href="#pair" transform="translate(72 326) scale(0.9)"/>
+  </g>
+
+  <!-- el rumor pasa de boca en boca y crece como el fuego de una chispa (vv. 2076-2080) -->
+  <g fill="#3b2f2a">
+    <use xlink:href="#p" transform="translate(332 326) rotate(10)"/>
+    <use xlink:href="#p" transform="translate(347 326) rotate(10)"/>
+    <use xlink:href="#p" transform="translate(362 326) rotate(10)"/>
+    <use xlink:href="#p" transform="translate(377 326) rotate(10)"/>
+  </g>
+  <path d="M335 314 Q340 309 344 314 M350 314 Q355 309 359 314 M365 314 Q370 309 374 314" fill="none" stroke="#2a1d14" stroke-width="0.8" stroke-dasharray="1.2 1.2"/>
+  <use xlink:href="#fl" transform="translate(340 304) scale(0.5)"/>
+  <use xlink:href="#fl" transform="translate(355 300) scale(0.8)"/>
+  <use xlink:href="#fl" transform="translate(370 296) scale(1.1)"/>
+  <use xlink:href="#fl" transform="translate(387 292) scale(1.5)"/>
+
+  <!-- el aguila trae al sonador entre sus garras hacia la ventana (vv. 2028-2030) -->
+  <path d="M318 160 Q300 152 282 166" fill="none" stroke="#666" stroke-width="1" stroke-dasharray="2 2" marker-end="url(#ar)"/>
+  <g transform="translate(338 150)">
+    <path d="M-2 -2 Q6 -26 26 -24 Q14 -14 8 -2 Z" fill="#b8862b"/>
+    <path d="M-1 1 Q10 10 24 8 Q12 -2 6 -3 Z" fill="#9a6f20"/>
+    <ellipse cx="0" cy="0" rx="10" ry="5" fill="#c69a3a"/>
+    <circle cx="-11" cy="-2.5" r="4" fill="#f0e3b8"/>
+    <path d="M-15 -2.5 L-20 -1 L-15 0.5 Z" fill="#e0a21a"/>
+    <circle cx="-12" cy="-3.3" r="0.8" fill="#222"/>
+    <path d="M-3 4 L-4 11 M3 4 L4 11" stroke="#e0a21a" stroke-width="1.4" fill="none"/>
+    <use xlink:href="#p" transform="translate(0 21)" fill="#3a3a5a"/>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+Grados: {'A': 3, 'B': 3, 'C': 4, 'D': 4, 'E': 2}
+Vértices de grado impar: ['A', 'B'] -> el trazo empieza en uno y termina en el otro
+Empezando en A: 44 recorridos {'B': 44}
+Empezando en B: 44 recorridos {'A': 44}
+Empezando en C: 0 recorridos 
+Empezando en D: 0 recorridos 
+Empezando en E: 0 recorridos 
+
+Los 44 desde A, por primera arista: {'AB': 12, 'AD': 16, 'AC': 16}
+Los 44 desde A, por el momento del techo (índice de la E en el camino): {2: 12, 3: 8, 4: 4, 5: 8, 6: 12}
+Los 44 desde A:
+    A-B-C-D-A-C-E-D-B  A-B-C-D-E-C-A-D-B  A-B-C-A-D-C-E-D-B  A-B-C-A-D-E-C-D-B
+    A-B-C-E-D-C-A-D-B  A-B-C-E-D-A-C-D-B  A-B-D-C-A-D-E-C-B  A-B-D-C-E-D-A-C-B
+    A-B-D-A-C-D-E-C-B  A-B-D-A-C-E-D-C-B  A-B-D-E-C-D-A-C-B  A-B-D-E-C-A-D-C-B
+    A-D-C-B-A-C-E-D-B  A-D-C-B-D-E-C-A-B  A-D-C-A-B-C-E-D-B  A-D-C-A-B-D-E-C-B
+    A-D-C-E-D-B-A-C-B  A-D-C-E-D-B-C-A-B  A-D-B-A-C-D-E-C-B  A-D-B-A-C-E-D-C-B
+    A-D-B-C-D-E-C-A-B  A-D-B-C-E-D-C-A-B  A-D-E-C-B-A-C-D-B  A-D-E-C-B-D-C-A-B
+    A-D-E-C-D-B-A-C-B  A-D-E-C-D-B-C-A-B  A-D-E-C-A-B-C-D-B  A-D-E-C-A-B-D-C-B
+    A-C-B-A-D-C-E-D-B  A-C-B-A-D-E-C-D-B  A-C-B-D-C-E-D-A-B  A-C-B-D-E-C-D-A-B
+    A-C-D-A-B-C-E-D-B  A-C-D-A-B-D-E-C-B  A-C-D-B-A-D-E-C-B  A-C-D-B-C-E-D-A-B
+    A-C-D-E-C-B-A-D-B  A-C-D-E-C-B-D-A-B  A-C-E-D-C-B-A-D-B  A-C-E-D-C-B-D-A-B
+    A-C-E-D-A-B-C-D-B  A-C-E-D-A-B-D-C-B  A-C-E-D-B-A-D-C-B  A-C-E-D-B-C-D-A-B
+
+Instancias frescas: 4 elementos <path> en instancias_frescas.md
+  path 1: A-B-C-D-A-C-E-D-B  ->  cumple: las ocho aristas, una vez cada una; es uno de los 44
+  path 2: A-D-E-C-D-B-C-A-B  ->  cumple: las ocho aristas, una vez cada una; es uno de los 44
+  path 3: A-B-C-E-D-C-A-D-B  ->  cumple: las ocho aristas, una vez cada una; es uno de los 44
+  path 4: A-B-C-A-D-E-C-D-B  ->  cumple: las ocho aristas, una vez cada una; es uno de los 44
