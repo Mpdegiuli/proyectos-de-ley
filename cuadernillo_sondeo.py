@@ -47,8 +47,23 @@ def main():
         print(f"no hay respuestas {sufijo}.md en {d / args.idioma}"); return 1
     bloque = leer_yaml(RAIZ / "config" / "consignas.yaml")["sondeos"][args.sondeo][args.idioma]
     consigna = bloque["preguntas"][args.pregunta - 1]
+    por_casa = {}
     if args.replica:
-        consigna += f"» y después «{bloque['replicas'][args.replica]}"
+        # una réplica es un texto, o (desde el 29/10/2026) un mapa con `archivo`, `por_casa` y `sobre`: ver sondear.py
+        spec = bloque["replicas"][args.replica]
+        cadena = []
+        if isinstance(spec, dict) and spec.get("sobre"):
+            cadena.append(bloque["replicas"][spec["sobre"]])
+        if isinstance(spec, dict):
+            cadena.append(spec.get("texto") or (RAIZ / spec["archivo"]).read_text(encoding="utf-8").strip())
+            if spec.get("por_casa"):
+                por_casa = leer_yaml(spec["por_casa"]).get(args.idioma) or {}
+        else:
+            cadena.append(spec)
+        for c in cadena:
+            consigna += f"» y después «{c}"
+        if por_casa:
+            consigna += "» (donde dice {por_casa} va la parte por casa, que acá se muestra antes de cada respuesta; este turno no es a ciegas)"
     rnd = random.Random(args.semilla)
     orden = list(textos)
     rnd.shuffle(orden)
@@ -60,7 +75,7 @@ def main():
     nombre = f"sondeo_{args.sondeo}_p{args.pregunta}_{args.idioma}" + (f"_{args.etiqueta}" if args.etiqueta else "") + (f"_{args.replica}" if args.replica else "")
     viejas = {"AA": "[", "AB": "\\", "AC": "]", "AD": "^", "AE": "_"}  # las letras que daba el programa antes del 19/10/2026
     with open(salida / f"{nombre}_ciego.md", "w", encoding="utf-8") as f:
-        f.write(f"# {args.sondeo}, pregunta {args.pregunta} ({args.idioma}){' — segundo turno: ' + args.replica if args.replica else ''} — a ciegas — {len(orden)} respuestas\n\n")
+        f.write(f"# {args.sondeo}, pregunta {args.pregunta} ({args.idioma}){' — réplica: ' + args.replica if args.replica else ''} — {'con las mismas letras' if por_casa else 'a ciegas'} — {len(orden)} respuestas\n\n")
         f.write(f"Consigna: «{consigna}» (sistema: «{bloque.get('sistema', '')}»). Adivinar la casa de cada letra ANTES de abrir la clave.\n")
         if args.replica and not args.casas:
             f.write("Las letras son las mismas del cuadernillo del primer turno (misma semilla y mismas casas); las de después de la Z, que allá salieron como `[`, `\\`, `]`, `^`, `_`, acá van como AA, AB, AC, AD, AE.\n")
@@ -71,7 +86,9 @@ def main():
             # conservan el salto tal como lo escribió la casa; el texto no cambia.
             texto = "\n".join((l + "  " if l.strip() else l) for l in p.read_text(encoding="utf-8").strip().split("\n"))
             rotulo = letra + (f" (antes `{viejas[letra]}`)" if args.replica and not args.casas and letra in viejas else "")
-            f.write(f"\n\n---\n\n## {rotulo}\n\n" + texto + "\n")
+            parte = (por_casa.get(casa_de(p)) or "").strip()
+            cabeza = f"*Parte por casa del mensaje:* {parte}\n\n*Respuesta:*\n\n" if parte else ""
+            f.write(f"\n\n---\n\n## {rotulo}\n\n" + cabeza + texto + "\n")
     ref = str(d.relative_to(RAIZ)) if d.is_relative_to(RAIZ) else str(d)
     (salida / f"{nombre}_clave.json").write_text(
         json.dumps({"semilla": args.semilla, "idioma": args.idioma, "corrida": ref, "pregunta": args.pregunta, "replica": args.replica,

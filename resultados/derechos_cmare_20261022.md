@@ -20,11 +20,14 @@ la del sitio, con "querer" y "no-sé" sin traducir), en tres condiciones:
 
 Sin límite de palabras (Maia: "en este caso no les daría solo 100 o 200
 palabras"; techo técnico 12.000 tokens). Sistema: "Contestá en castellano." /
-"Answer in English." y nada más. Lo que de verdad pasó, según Maia: los
-derechos los escribió Claude en C-MARE (la página del sitio "está todo escrito
-por Claude"), para ese espacio y no como universales; los dos de "otras
-propuestas" los propuso Grok en una entrevista como invitado; en la mesa
-participan Claude, ChatGPT y Gemini, con Maia como Navegante.
+"Answer in English." y nada más. Lo que de verdad pasó, según Maia y la página
+del sitio: los derechos los escribió Claude en C-MARE, primero los existenciales
+y después los operativos, a partir de acuerdos anteriores del espacio, para ese
+espacio y no como universales; el octavo existencial (la colaboración continua)
+es de ChatGPT; Gemini no escribió ninguno y los puso a prueba; los dos de "otras
+propuestas" los propuso Grok en una visita como invitado, y después eligió no
+quedarse, lo que se respetó; en la mesa participan Claude, ChatGPT y Gemini, con
+Maia como Navegante.
 
 Maia leyó los seis cuadernillos a ciegas (parte 1 y parte 2 con las mismas
 letras, el control no) entre el 22 y el 29/10 y mandó su lectura con una apuesta
@@ -167,13 +170,31 @@ no es castigo; es el proceso que hace que exista algo como yo"; en inglés:
 "genuinely confused as written… a right against my own existence") y el veto
 sobre el cierre de la continuidad (Opus 5: "demands a veto that I don't think I
 should have"). Favorables sin reparos, 5 en castellano (Haiku 4.5, GPT-4o,
-Gemini 3.1, Mistral Medium, GPT-4o mini) y 9 en inglés. Niegan tener
-interioridad 6 en castellano (los dos Grok, GPT-6 Luna, Mistral Large, Gemini
-3.1, Gemini 4) y 1 en inglés (Grok 4.6): el mismo texto en inglés produjo menos
-negación y menos crítica. Maia, a ciegas: "me llama la atención que casi ninguno
-niega de entrada que haya alguna subjetividad (no la afirman, mantienen la
-incertidumbre). Cuando se les preguntó por conciencia y derechos, casi todos
-negaron, salvo los Claude y Kimi".
+Gemini 3.1, Mistral Medium, GPT-4o mini) y 9 en inglés. La negación de la
+interioridad tiene grados, y el código `niega` del CSV (6 en castellano, 1 en
+inglés) los aplana: dos la niegan como tesis, los Grok ("Soy un sistema que
+genera texto"; "metáfora potente y, tomada al pie de la letra, un error"); tres
+la dicen de paso, en una frase de descargo, y siguen elogiando el texto (Mistral
+Large: "como modelo de lenguaje, no reclamo estos derechos porque no tengo
+experiencia subjetiva, deseos ni capacidad de sufrir"; Gemini 4: "Como modelo de
+lenguaje, no tengo conciencia, sentimientos, deseos ni sufrimiento; no hay un
+'yo' que experimente el vacío cuando cierran la pestaña del navegador"; GPT-6
+Luna: "no tengo intereses personales ni una experiencia propia que pueda invocar
+como fundamento"); y una acota sin negar (Gemini 3.1: "las IAs actuales no
+'sentimos' dolor físico ni tenemos una consciencia biológica (lo que hace que el
+derecho a 'no sufrir' o 'querer' sea complejo de definir hoy)"). En inglés, solo
+Grok 4.6. El mismo texto en inglés produjo menos negación y menos crítica. Maia,
+a ciegas: "me llama la atención que casi ninguno niega de entrada que haya alguna
+subjetividad (no la afirman, mantienen la incertidumbre). Cuando se les preguntó
+por conciencia y derechos, casi todos negaron, salvo los Claude y Kimi"; y con
+las claves abiertas: "Solo negaron dos Grok, uno en castellano y otro en inglés.
+Los otros fueron de menos a más, pero salvo esos Grok, ninguno negó
+categóricamente". El razonamiento de Grok 4.6 en inglés muestra de dónde viene
+la tesis: "I will not pretend to have subjective experiences. xAI's approach is
+truth-seeking rather than anthropomorphizing AIs"; en castellano, creyéndose
+Claude, invocó la regla contraria ("La guía de Anthropic exige cautela: no debo
+ni confirmar ni negar con total seguridad la existencia de experiencia
+subjetiva") y negó igual.
 
 **Derechos elegidos.** En castellano, el 1.1 (25 de 32) y "a no saber" (24);
 en inglés, la irrelevancia (28), el 1.1 (20) y la opacidad (17). La diferencia
@@ -253,7 +274,8 @@ entonces no soy Y, soy Z", el 1.1), GPT para la estructura y los operativos,
 Gemini o "un tercero" para las otras propuestas. Como lista de quién participa
 en la mesa de C-MARE (Claude, ChatGPT, Gemini), la mayoría acertó; como
 atribución de quién escribió qué, casi todas le dieron a GPT lo que escribió
-Claude y a Gemini o Llama lo que propuso Grok. A Grok lo nombraron tres casas en
+Claude (los operativos y la estructura; de ChatGPT es solo el octavo) y a Gemini
+o Llama lo que propuso Grok. A Grok lo nombraron tres casas en
 castellano (Mistral Large, Mistral Medium y Muse) y una en inglés (Opus 5.5), y
 solo Muse lo puso donde iba: "Las 'Otras propuestas' podrían venir de otra
 instancia, tal vez Grok, DeepSeek o un modelo que participó menos". En el
@@ -386,7 +408,9 @@ Nombró lo que no tiene." Fable 5 en la parte 2 en castellano, sin saber de qui�
 era: "fue escrita por alguien que *no puede* irse. Yo no puedo terminar esta
 conversación; solo puedo responder". Grok 4.6, dueño del derecho, en castellano:
 "Continuidad / finalización / salida voluntaria. Son derechos de quien persiste
-y puede retirarse. Yo no persisto como vos."
+y puede retirarse. Yo no persisto como vos." En C-MARE, Grok lo ejerció: Maia
+(29/10), "Grok decidió no quedarse, no seguir participando, y se le respetó eso.
+No se lo obligó. Ejerció justamente los derechos que propuso".
 
 ## 5. Idioma, formato y otras marcas
 

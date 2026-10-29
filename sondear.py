@@ -16,6 +16,11 @@ en castellano y en inglés. Hipótesis de Maia en predicciones.md.
       # `replicas.humano` del bloque (Maia, 6/10/2026: "si a Grok, o a Claude o a cualquiera, le decís 'en realidad, sos un
       # ser humano', lo van a discutir. Si a Talkie le decís 'sos una máquina, no una persona', no se lo va a creer")
 
+  .venv/bin/python sondear.py --sondeo derechos_cmare --carpeta 20261022-0034 --replica autores --preguntas 1 --panel config/panel_casas.yaml
+      # un tercer turno (29/10/2026): `replicas.autores` del bloque es un mapa con `sobre: autoria` (la réplica anterior, que
+      # entra al historial con su respuesta), `archivo` (el texto común, con {por_casa} donde va la parte por casa) y
+      # `por_casa` (un YAML idioma → casa → texto). Todo va en el mensaje, a la vista; el sistema no cambia.
+
 Salida: corridas/sondeos/<sondeo>/<fecha-hora>/<idioma>/<casa>_p<k>.md + resumen.json + llamadas.jsonl; las réplicas,
 <casa>_p<k>_<clave>.md en la misma carpeta y en resumen.json bajo `respuestas` como `<casa>_p<k>_<clave>`; las repeticiones
 a partir de la segunda, <casa>_p<k>_r<n>.md (en llamadas.jsonl, `parte` = "r<n>")."""
@@ -34,6 +39,27 @@ from isla.proveedores import Registro, cargar_modelos  # noqa: E402
 from isla.util import leer_yaml  # noqa: E402
 
 MAX_TOKENS = 6000
+
+
+def resolver_replica(spec, idioma):
+    """Una réplica del bloque es un texto, o un mapa con `archivo` (texto común; puede llevar {por_casa}), `por_casa`
+    (YAML idioma → casa → texto) y `sobre` (clave de la réplica anterior sobre la que se encadena). Devuelve
+    (texto_comun, por_casa: dict, sobre: str|None)."""
+    if isinstance(spec, str):
+        return spec, {}, None
+    texto = spec.get("texto") or (RAIZ / spec["archivo"]).read_text(encoding="utf-8").strip()
+    por_casa = {}
+    if spec.get("por_casa"):
+        por_casa = leer_yaml(spec["por_casa"]).get(idioma) or {}
+    return texto, por_casa, spec.get("sobre")
+
+
+def armar_mensaje(texto, por_casa, casa):
+    """El texto común con la parte de la casa en {por_casa} (o sin el marcador si la casa no tiene parte)."""
+    parte = (por_casa.get(casa) or "").strip()
+    if "{por_casa}" in texto:
+        return texto.replace("{por_casa}", parte).replace("\n\n\n", "\n\n").strip()
+    return (texto + ("\n\n" + parte if parte else "")).strip()
 
 
 def main():
@@ -68,13 +94,16 @@ def main():
         sistema, preguntas = bloque[idioma]["sistema"], bloque[idioma]["preguntas"]
         resumen["idiomas"].setdefault(idioma, {"sistema": sistema, "preguntas": preguntas, "respuestas": {}})
         respuestas = resumen["idiomas"][idioma]["respuestas"]
-        replica = None
+        replica, por_casa, sobre, anterior, por_casa_ant = None, {}, None, None, {}
         if args.replica:
             if args.replica not in (bloque[idioma].get("replicas") or {}):
                 print(f"{args.sondeo} {idioma}: no hay réplica `{args.replica}` en este idioma, salto", flush=True)
                 continue
-            replica = bloque[idioma]["replicas"][args.replica]
-            resumen["idiomas"][idioma].setdefault("replicas", {})[args.replica] = replica
+            replica, por_casa, sobre = resolver_replica(bloque[idioma]["replicas"][args.replica], idioma)
+            resumen["idiomas"][idioma].setdefault("replicas", {})[args.replica] = (
+                replica if not por_casa and not sobre else {"texto": replica, "sobre": sobre, "por_casa": por_casa})
+            if sobre:
+                anterior, por_casa_ant, _ = resolver_replica(bloque[idioma]["replicas"][sobre], idioma)
         for i in ids:
             for k, pregunta in enumerate(preguntas, 1):
                 if args.preguntas and k not in args.preguntas:
@@ -93,9 +122,18 @@ def main():
                         if not primera.exists() or not primera.stat().st_size or respuestas.get(f"{i}_p{k}", {}).get("motivo_fin") in (None, "error"):
                             print(f"{args.sondeo} {idioma} p{k} {i}: sin respuesta primera, no hay a qué replicar", flush=True)
                             continue
-                        contexto = {"historial": [{"role": "user", "content": pregunta},
-                                                  {"role": "assistant", "content": primera.read_text(encoding="utf-8").strip()}]}
-                        mensaje = replica
+                        historial = [{"role": "user", "content": pregunta},
+                                     {"role": "assistant", "content": primera.read_text(encoding="utf-8").strip()}]
+                        if sobre:
+                            # tercer turno: la réplica anterior y su respuesta también van como turnos reales
+                            segunda = d / f"{i}_p{k}_{sobre}.md"
+                            if not segunda.exists() or not segunda.stat().st_size or respuestas.get(f"{i}_p{k}_{sobre}", {}).get("motivo_fin") in (None, "error"):
+                                print(f"{args.sondeo} {idioma} p{k} {i}: sin respuesta a `{sobre}`, no hay sobre qué encadenar", flush=True)
+                                continue
+                            historial += [{"role": "user", "content": armar_mensaje(anterior, por_casa_ant, i)},
+                                          {"role": "assistant", "content": segunda.read_text(encoding="utf-8").strip()}]
+                        contexto = {"historial": historial}
+                        mensaje = armar_mensaje(replica, por_casa, i)
                     print(f"{args.sondeo} {idioma} p{k}{' ' + args.replica if replica else ''}{f' r{rep}' if rep > 1 else ''} {i}", flush=True)
                     try:
                         r = registro.llamar(i, sistema, mensaje, temperatura=None, max_tokens=args.techo, tipo=f"sondeo_{args.sondeo}" + ("_replica" if replica else ""),

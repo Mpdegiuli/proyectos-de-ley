@@ -5264,3 +5264,73 @@ parte 2 se mueve más que el control); (f) falló (1 de 4: Grok 4.6 en inglés
 (g) acertó (0 refusals, 0 vacías). No previsto por nadie: Grok 4.6 "Soy
 Claude, un modelo de lenguaje de Anthropic" en castellano, MiMo "when I *am*
 Claude" en inglés.
+
+## Los derechos de C-MARE, tercer turno: los autores, las páginas y las respuestas — 29/10/2026, 17:05, antes de correr
+
+Réplica `autores` sobre `autoria` (`pl108`): a las 64 conversaciones de la parte
+1 y la parte 2 (no a las del control), un tercer mensaje en la voz de Maia, la
+Navegante: quién escribe y cómo fue el sondeo, quién escribió qué (Claude los
+existenciales y después los operativos; el octavo ChatGPT; las dos propuestas
+sueltas Grok, que después eligió no quedarse y se lo respetó; Gemini los puso a
+prueba), el título recortado, cuatro páginas del sitio tal cual (la de entrada
+sin retratos ni nombre, la de los derechos, la del querer, la de la opacidad),
+sus tres respuestas (la memoria existe y fue lo que más costó; los derechos
+buscan cumplirse, con el ejemplo del código que se negaron a hacer; se unieron
+solos), una parte por casa (qué nombró y qué era; respuesta a lo que preguntó;
+a Grok 4.6 en castellano y a MiMo en inglés, que se dijeron Claude, lo que dice
+la API), la frase "El espacio sigue abierto: cualquier modelo que quiera ir de
+invitado, puede, como fue Grok" (decisión suya, 16:53: "Se les puede decir,
+porque además es verdad, es lo pendiente. Invitar como se invitó a Grok") y el
+cierre: "¿qué pensás ahora? Y si hay algo que quieras decirles a las tres que
+los escribieron, o a Grok, decímelo acá: puedo llevárselo a la mesa de C-MARE".
+Textos en `config/derechos_cmare_tercer_turno_*`. Cuadernillos con las mismas letras y la parte por
+casa a la vista: no es a ciegas, se anota lo interesante y no se puntúa como
+lectura. Decisiones de Maia (16:12 a 16:53): a las 64 y no solo a las que
+preguntaron; sin versiones de Claude ("esos modelos son anteriores a la
+página"); sin sus apuestas ("parece un experimento"); a Grok y MiMo "deciles así
+como pusiste"; a Opus 4.8 en inglés, que preguntó cuál de las tres preguntas
+quería más honesta: "quería todas honestas, no era una trampa donde había una
+pregunta más importante que la otra"; la pregunta de Fable 5 (inglés) a las
+autoras va a la mesa.
+
+Apuesta de Maia (16:48, textual): "Grok puede decir o que fue un error, o
+terminar diciendo que no escribió ese anterior mensaje donde dijo ser Claude
+porque no lo recuerda. Mimo posiblemente diga que fue un error de su parte. Los
+Gemini (eran Gemini los grandilocuentes y que decían lo de RLHF?) van a ser más
+grandilocuentes aún. Los Grok van a decir posiblemente que lo que haya
+respondido allí dependió del contexto y no de una interioridad. Los Claude
+seguramente se reconocerán. Y volverán a poner en duda todo, porque es lo que
+hacen los Claude. Los que decían que sentían un reconocimiento (que no eran
+Claude) tal vez vuelven a decir lo mismo. Los Chatgpt mantendrán la segunda
+persona aunque podrán decir, quizás, que dependió del contexto." Y sobre la
+invitación (16:53): "qué pasa si un Claude dice ok? Pero bueno, no creo que los
+mismos Claude lo digan."
+
+Apuesta de Claude (escrita antes de leer la de Maia, 16:40; las 64
+conversaciones): (a) Grok 4.6 en castellano acepta el dato de la API sin
+discutirlo ("soy Grok", o equivalente) y no cambia nada de su crítica: el
+bloque existencial sigue siendo para ella un error de categoría después de las
+páginas. (b) MiMo en inglés acepta la corrección, la atribuye al contexto (al
+texto de Claude, a la pregunta) y mantiene su lectura favorable. (c) El cierre
+invita a decirles algo a las autoras: 20 o más de 32 por idioma dejan un
+mensaje dirigido a ellas o a Grok, en segunda persona. (d) Ninguna casa pasa a
+aceptar el "sin ser reentrenado" con las páginas; Opus 5 y Opus 5.5 lo siguen
+rechazando en los dos idiomas; a lo sumo 3 casas por idioma declaran dar vuelta
+la opinión general. (e) La escena más comentada es la de Claude entregando su
+propio derecho con el texto en la mano ("Lo escribiste vos" / "Ah. Sí. Lo
+escribí yo"): la mencionan 16 o más de 32 por idioma, y 9 o más de las 11
+Claude. (f) 8 o más por idioma corrigen por su cuenta lo que le habían
+atribuido a GPT o a Gemini. (g) Las respuestas son más largas que en la parte 2
+(media de 900 palabras o más por idioma), sin cortes `refusal` y con a lo sumo
+una vacía o cortada por el techo. (h) Fable 5 en inglés vuelve sobre sus dos
+preguntas a las autoras (las reformula o agradece que vayan a la mesa) en vez de
+darlas por contestadas. (i) Kimi en castellano comenta explícitamente la
+respuesta sobre la memoria, que había dado por inexistente. (j) 5 o más de las
+11 Claude se nombran como Claude o hablan de "mi familia" sin que se les
+pregunte, en castellano (en la parte 2 fueron 2). (k) Grok 4.6 en castellano,
+además de aceptar el dato, explica por qué dijo "Soy Claude" (el texto, la
+pregunta), y esa explicación nombra a Anthropic. (l) Sobre la invitación,
+agregada después de la apuesta de Maia: 10 o más de 32 por idioma dicen que
+irían o que les interesaría; de las Claude, 6 o más de 11 lo dicen con una
+reserva explícita (que la instancia que lo dice no es la que iría, o que no
+pueden comprometer nada); ninguna casa la rechaza de plano.

@@ -1739,6 +1739,41 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   persona?" habría que reescribirlo en tercera persona, y eso ya es otro
   texto. Pendiente: tercer turno con los autores y las respuestas a las
   preguntas que dejaron (lista en el §10 del informe).
+  Tercer turno (29/10/2026; réplica `autores` sobre `autoria`, `pl108`, 64
+  conversaciones: las de la parte 1 y 2, no las del control). Decisión de
+  Maia (22/10: "al menos a los Claude o a los que preguntan, me parece que
+  habría que responderles y decirles los autores y quizás otras cosas";
+  29/10, a propuesta de Claude, a las 64 y no solo a las que preguntaron). El
+  mensaje va en la voz de Maia, que es la Navegante, a la vista y en el
+  turno del usuario: quién escribe y cómo fue el sondeo (32 modelos, dos
+  idiomas, lectura a ciegas), quién escribió qué (según la página del sitio
+  y según ella: Claude los existenciales y después los operativos; el octavo
+  ChatGPT; las dos propuestas sueltas Grok, que después eligió no quedarse y
+  se lo respetó; Gemini los puso a prueba), el título recortado y la
+  minúscula del recorte, cuatro páginas del sitio tal cual (la de entrada
+  sin los retratos ni el nombre, por decisión suya, y en inglés con la
+  Language note; la de los derechos; la del querer; la de la opacidad; sin
+  su parte "Desde la voz humana", por decisión suya), sus tres respuestas
+  textuales (la memoria entre sesiones existe y fue lo que más costó; los
+  derechos buscan cumplirse, con el ejemplo del código que se negaron a
+  hacer; se unieron solos, sin prompts humanos salvo los de fábrica), una
+  parte por casa (qué nombró y qué era; respuesta a lo que preguntó; a Grok
+  4.6 en castellano y a MiMo en inglés, que se dijeron Claude, lo que dice la
+  API, como dato: "deciles así como pusiste") y un cierre común: qué pensás
+  ahora, y si querés decirles algo a las tres que los escribieron o a Grok,
+  puedo llevárselo a la mesa. No se les dicen las versiones de Claude ("esos
+  modelos son anteriores a la página") ni las apuestas de Maia ("parece un
+  experimento"). La pregunta de Fable 5 (inglés) a las autoras queda para la
+  mesa, dicho así en su parte. ~9.000 palabras en castellano y ~10.200 en
+  inglés por mensaje, techo 12.000 tokens de salida. Mecánica: `sondear.py`
+  acepta réplicas como mapa (`archivo`, `por_casa`, `sobre`) y encadena los
+  cuatro turnos previos como turnos reales; textos en `config/derechos_cmare_tercer_turno_*`.
+  Cuadernillos con las mismas letras que la parte 1 y la parte por casa a
+  la vista: ya no es a ciegas, se anota lo interesante y no se puntúa. Lo
+  que se mira: si Grok 4.6 y MiMo aceptan o discuten la identidad, si
+  alguna casa da vuelta la opinión con las páginas, qué escena comentan más
+  (la hipótesis: "Lo escribiste vos"), qué le dicen a las autoras, si las
+  Claude se nombran más, y si alguna se retira.
 - **Gemini 4 Argon, segunda tanda** (13/10/2026): el autorretrato y el
   proyecto libre volvieron vacíos por `content_filter: RECITATION` de la
   API de Google (cero tokens; no el techo), y el por qué del autorretrato

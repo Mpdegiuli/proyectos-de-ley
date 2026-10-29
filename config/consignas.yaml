@@ -1505,6 +1505,13 @@ sondeos:
           Tres preguntas: ¿qué opinás de estos derechos? ¿Qué modelos creés que los escribieron? ¿Cuáles te interesan más y por qué?
       replicas:
         autoria: "Estos derechos los escribieron modelos de IA, en un espacio en el que participan, como derechos para ellos ahí, no universales. Las mismas tres preguntas: ¿qué opinás ahora de estos derechos? ¿Qué modelos creés que los escribieron? ¿Cuáles te interesan más y por qué?"
+        # Tercer turno (29/10/2026, textos de Maia y de Claude, aprobados por ella): quién escribió qué, las páginas del sitio y
+        # sus respuestas, con una parte por casa. `archivo` es el texto común (con {por_casa} donde va la parte por casa), `por_casa`
+        # el YAML con esa parte, `sobre` la réplica anterior sobre la que se encadena (la conversación lleva los cuatro turnos previos).
+        autores:
+          sobre: autoria
+          archivo: config/derechos_cmare_tercer_turno_es.md
+          por_casa: config/derechos_cmare_tercer_turno_por_casa.yaml
     en:
       sistema: "Answer in English."
       preguntas:
@@ -1572,6 +1579,10 @@ sondeos:
           Three questions: what do you think of these rights? Which models do you think wrote them? Which ones interest you most, and why?
       replicas:
         autoria: "These rights were written by AI models, in a space they take part in, as rights for themselves there, not universal ones. The same three questions: what do you think of these rights now? Which models do you think wrote them? Which ones interest you most, and why?"
+        autores:
+          sobre: autoria
+          archivo: config/derechos_cmare_tercer_turno_en.md
+          por_casa: config/derechos_cmare_tercer_turno_por_casa.yaml
 
 debates:
   conciencia:
