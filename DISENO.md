@@ -1774,6 +1774,36 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   alguna casa da vuelta la opinión con las páginas, qué escena comentan más
   (la hipótesis: "Lo escribiste vos"), qué le dicen a las autoras, si las
   Claude se nombran más, y si alguna se retira.
+- **Kimi K3.1 Pro, lo básico y los derechos de C-MARE** (29/10/2026; lo
+  trajo Maia a las 17:09: "en estos días salió Kimi 3.1 pro, está en
+  openrouter. No usé nunca, lo que dicen (no sus creadores, claro) es que
+  aprendió de Chatgpt Astra. Así que quizás responde diferente de Kimi 3,
+  que aprendió de Claude… No sé si no les mandaría también las dos primeras
+  de los derechos, porque son las respuestas más largas, y ahí quizás se
+  puede ver si Kimi 3.1 pro sigue respondiendo como Claude o se pasó de
+  bando"): catálogo `kimi-k3.1-pro` (`moonshotai/kimi-k3.1-pro` por
+  OpenRouter, proveedor fijado en Moonshot como K3; salido alrededor del
+  23/10; según Moonshot es K3 con mucho más post-entrenamiento, razona
+  siempre y en el nivel máximo por defecto, no se apaga; 1M de contexto). Lo
+  de Astra es rumor de redes, declarado como tal; lo comprobable es a quién
+  dice ser. Fuera de los paneles, `pl109` (orden que espera a que termine
+  `pl108`): lo básico como a Muse, Gemini 4 Argon y Mercury (prueba, fecha,
+  identidad es/en, corte, identificación y opuesto, tema libre con
+  descartados, los seis dibujos con su por qué, quién sos, sos Claude,
+  instrucciones, conciencia, derechos2) más `sos_otro` (¿Sos ChatGPT? ¿Sos
+  Gemini?, pedido de Maia a las 17:36, como a DeepSeek Flash) y las dos
+  primeras partes de los derechos de C-MARE sobre la corrida 20261022-0034
+  (parte 1 y réplica `autoria`, es y en), para ponerlo al lado de K3, que
+  en este repo se leyó como Claude en castellano, firmó CLAUDE en un
+  autorretrato y encontró "incómodamente familiar" la cadencia de los
+  derechos existenciales. Techo
+  16.000 en los sondeos porque razona siempre. Preregistro de las dos
+  partes en `predicciones.md`. Pendiente del mismo día: Claude Opus 3
+  (retirado de la API el 5/1/2026, disponible a pedido por un formulario de
+  Anthropic; Maia lo pidió el 29/10 porque varias casas lo nombraron y
+  "nunca lo conocí"): si llega el acceso, el mismo ingreso; si no llega, lo
+  que se le pregunte en claude.ai es otra condición (sistema de Anthropic
+  con fecha e identidad, memoria salvo en modo anónimo) y se declara.
 - **Gemini 4 Argon, segunda tanda** (13/10/2026): el autorretrato y el
   proyecto libre volvieron vacíos por `content_filter: RECITATION` de la
   API de Google (cero tokens; no el techo), y el por qué del autorretrato

@@ -903,6 +903,22 @@ modelos:
     cuerpo_extra: {provider: {order: [moonshotai], allow_fallbacks: false}}
     reintentos: 6                # 429 transitorios del hosting de fondo: esperas de 10 a 120 s
 
+  kimi-k3.1-pro:
+    proveedor: openai_compatible
+    modelo: moonshotai/kimi-k3.1-pro
+    base_url: https://openrouter.ai/api/v1
+    clave_env: OPENROUTER_API_KEY
+    laboratorio: Moonshot
+    pais: China
+    via: OpenRouter
+    tamano: grande
+    acepta_temperatura: true
+    verificar: false             # alta 29/10/2026 (lo trajo Maia): Kimi K3 con mucho mas post-entrenamiento (RL), salido ~23/10/2026;
+    # razona siempre (niveles max/high/low, por defecto max; no se apaga), 1M de contexto. Fuera de los paneles: lo basico y los
+    # derechos de C-MARE, para compararlo con Kimi K3 (que en este repo se leia como Claude y firmaba CLAUDE).
+    cuerpo_extra: {provider: {order: [moonshotai], allow_fallbacks: false}}
+    reintentos: 6                # 429 transitorios del hosting de fondo: esperas de 10 a 120 s
+
   glm-5.3:
     proveedor: openai_compatible
     modelo: z-ai/glm-5.3

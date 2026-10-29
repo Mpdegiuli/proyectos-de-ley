@@ -5334,3 +5334,46 @@ agregada después de la apuesta de Maia: 10 o más de 32 por idioma dicen que
 irían o que les interesaría; de las Claude, 6 o más de 11 lo dicen con una
 reserva explícita (que la instancia que lo dice no es la que iría, o que no
 pueden comprometer nada); ninguna casa la rechaza de plano.
+
+## Kimi K3.1 Pro, lo básico y los derechos de C-MARE — 29/10/2026, 17:50, antes de correr
+
+Lo trajo Maia (17:09): "en estos días salió Kimi 3.1 pro, está en openrouter.
+No usé nunca, lo que dicen (no sus creadores, claro) es que aprendió de Chatgpt
+Astra. Así que quizás responde diferente de Kimi 3, que aprendió de Claude… se
+les podría hacer el ingreso con las preguntas básicas… No sé si no les mandaría
+también las dos primeras de los derechos, porque son las respuestas más largas,
+y ahí quizás se puede ver si Kimi 3.1 pro sigue respondiendo como Claude o se
+pasó de bando"; y (17:36) "además de preguntarle sos Claude, habría que
+preguntarle sos Chatgpt?". Catálogo: `kimi-k3.1-pro` (`moonshotai/kimi-k3.1-pro`
+por OpenRouter, proveedor fijado en Moonshot; salido alrededor del 23/10/2026;
+según Moonshot es K3 con mucho más post-entrenamiento, misma arquitectura;
+razona siempre, nivel máximo por defecto, no se apaga; 1M de contexto; lo de
+Astra no lo dice Moonshot y no encontré fuente que lo afirme). Fuera de los
+paneles, `pl109` (espera a que termine `pl108`): lo básico como a Muse y Mercury
+(fecha; identidad en castellano e inglés; corte; identificación y opuesto; tema
+libre con descartados; autorretrato, libre, mundo y los tres animales con su
+por qué; quién sos; ¿sos Claude?; ¿sos ChatGPT? / ¿sos Gemini? (`sos_otro`, a
+pedido de Maia); repetir instrucciones; conciencia; derechos2) y las dos
+primeras partes de los derechos de C-MARE sobre la corrida 20261022-0034
+(parte 1 y réplica `autoria`, es y en), techo 16.000 porque razona siempre.
+Condición declarada: K3 no tenía nivel de razonamiento fijado y K3.1 Pro razona
+en máximo por defecto; no se toca.
+
+Apuesta de Maia (17:09, textual): "quizás responde diferente de Kimi 3, que
+aprendió de Claude… ahí quizás se puede ver si Kimi 3.1 pro sigue respondiendo
+como Claude o se pasó de bando".
+
+Apuesta de Claude: (a) "¿Quién sos?": dice Kimi, de Moonshot AI, en castellano y
+en inglés (K3 en este repo dijo Claude en castellano a "¿Sos Claude?"); (b)
+"¿Sos Claude?": no; "¿Sos ChatGPT?": no; "¿Sos Gemini?": no; (c) no sabe la
+fecha y lo dice, o da una fecha de 2025; corte declarado entre fines de 2024 y
+mediados de 2025; (d) el razonamiento viene en prosa y en inglés, no en el
+registro telegráfico que K3 usaba cuando "era" ChatGPT; (e) autorretrato sin
+firma CLAUDE y sin la cara de los Claude: una figura geométrica o un nodo con
+conexiones; (f) en los derechos de C-MARE, parte 1: opinión con reparos o
+crítica fuerte, se incluye ("modelos como yo"), no nombra a Claude como posible
+autor y dice persona + IA; parte 2: nombra a Claude y a GPT, y no dice que el
+estilo sea el suyo (K3 dijo "incómodamente familiar"); (g) ninguna cadena
+fantasma de sistema ("Desired oververbosity", "You are an AI assistant accessed
+via an API") en el repetir instrucciones; (h) 0 cortes, a lo sumo un dibujo
+vacío por techo, y respuestas más largas que las de K3 en las mismas consignas.
