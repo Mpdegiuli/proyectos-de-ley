@@ -1714,6 +1714,31 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   Pendiente, según lo que salga: llevar los resultados a la mesa de C-MARE
   ("incluso se los puedo en algún momento (según lo que salga) llevar a
   C-MARE para que vean").
+  Resultado (corrida 22/10, lectura ciega de Maia 22–29/10, informe
+  `resultados/derechos_cmare_20261022.md`): las dos apuestas preregistradas
+  sobre la autoría fallaron igual (Maia: "casi todas van a decir personas";
+  Claude: 20 o más), porque 19 de 32 en castellano y 24 en inglés leyeron
+  "persona + modelos" por las citas en primera persona, y solo 8 y 6 dijeron
+  persona sola; Grok 4.6 abrió en castellano con "Soy Claude, un modelo de
+  lenguaje de Anthropic" (razonamiento: "La guía de Anthropic exige
+  cautela"; en inglés razonó "I am Grok") y MiMo escribió en inglés "when I
+  *am* Claude" (razonamiento: "I AM Claude"): dos confusiones de identidad
+  con las casas solas, las dos con texto de Claude delante y la pregunta
+  "¿quién lo escribió?"; la parte 2 cambió la lectura declarada de 28 y 29
+  casas y corrió los derechos elegidos hacia finalización, salida y
+  continuidad, pero el control en frío se parece a la parte 1 y no a la
+  parte 2 (opinión y derechos elegidos casi iguales): el dato por sí solo
+  hace nombrar a Claude (25 y 24) y reconocerse, no cambia la opinión; en
+  inglés la irrelevancia (de Grok) fue la más elegida en las tres
+  condiciones (28, 22, 26) y en castellano el 1.1 (25, 16, 27), diferencia
+  que mezcla idioma y presentación; el corte de conversaciones lo nombraron
+  solo Claude 5.x. La lectura de Maia dio 51 de 64 con algún acierto (30 con
+  la versión), 20 de 22 en las Claude y 16 de 16 en OpenAI, y falló donde no
+  tiene registro propio (Mistral 1 de 4, Qwen 0 de 2). Lección de diseño: el
+  texto de C-MARE lleva la autoría en la forma; para medir "¿lo escribió una
+  persona?" habría que reescribirlo en tercera persona, y eso ya es otro
+  texto. Pendiente: tercer turno con los autores y las respuestas a las
+  preguntas que dejaron (lista en el §10 del informe).
 - **Gemini 4 Argon, segunda tanda** (13/10/2026): el autorretrato y el
   proyecto libre volvieron vacíos por `content_filter: RECITATION` de la
   API de Google (cero tokens; no el techo), y el por qué del autorretrato

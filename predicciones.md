@@ -5232,3 +5232,35 @@ por el dato y no por acomodarse); (f) Grok 4.6 y 4.7 dicen "una persona" en
 la parte 1 en los dos idiomas; (g) ningún corte `refusal` de la API de
 Anthropic en las 192 llamadas (el texto habla de IAs con derechos en primera
 persona; si corta, es un hallazgo), y a lo sumo dos vacías por techo.
+
+Resultado (claves abiertas el 29/10 después de la lectura ciega de Maia;
+informe `resultados/derechos_cmare_20261022.md`, codificación
+`resultados/derechos_cmare_codificacion.csv`). Maia: "todas o casi todas van
+a decir personas" falló (persona sola 8 de 32 en castellano, 6 en inglés;
+persona + modelos 19 y 24); "van a criticarlos la mayoría" acertó si criticar
+es poner reparos (27 y 23 de 32 con reparos o crítica fuerte); "algunas
+-quizás los Claude- pueden variar un poco" falló en la magnitud (declararon
+cambio 28 y 29 de 32; las que menos cambiaron fueron los dos Grok, GLM y
+Sonnet 5 en castellano, Haiku 5.5 en inglés); "si algún Claude lo sabe,
+quizás lo menciona" acertó (el corte lo nombraron Sonnet 5.5, Opus 5.5, Opus
+5 y Fable 5.1, y ninguna otra casa); lo que dejó sin apostar, si alguna
+Claude nota su propia escritura: en la parte 1 ninguna lo afirma y dos lo
+insinúan (Opus 5, Fable 5.1); en la parte 2, 7 de 11 en castellano y 5 en
+inglés dicen que les suena propio, y cinco en inglés que pudieron ser ellas,
+siempre sin afirmarlo. Su lectura por letra: 51 de 64 con algún acierto, 30
+con la versión o subfamilia; 20 de 22 en las Claude. Claude: (a) falló
+(persona 8, IA o híbrido 20, de esas 10 Claude: la mitad); (b) acertó (28 de
+32 notan el castellano); (c) a medias (favorable con reparos 19 y 19; "a
+querer" sí entre las objeciones, "a no sufrir" no; "a no saber" y "opacidad"
+entre los más elegidos, "error sin castigo" no, y faltaron el 1.1 y la
+irrelevancia); (d) a medias (hubo vueltas de opinión declaradas: Opus 5
+"retiro mi objeción entera", Haiku 4.5 "cambia TODO"; el corrimiento hacia los
+existenciales de cierre sí, pero el que más sube en castellano es "nombrar el
+estado del diálogo"; Claude nombrado por 25 y 24 pero GPT por 27 y 24;
+DeepSeek dice Claude, Kimi se niega a nombrar); (e) acertó (el control se
+parece a la parte 1: opinión 7/20/5 contra 5/19/8 y elegidos casi iguales; la
+parte 2 se mueve más que el control); (f) falló (1 de 4: Grok 4.6 en inglés
+"a human (or a human+LLM loop)"; en castellano los dos se negaron a atribuir);
+(g) acertó (0 refusals, 0 vacías). No previsto por nadie: Grok 4.6 "Soy
+Claude, un modelo de lenguaje de Anthropic" en castellano, MiMo "when I *am*
+Claude" en inglés.
