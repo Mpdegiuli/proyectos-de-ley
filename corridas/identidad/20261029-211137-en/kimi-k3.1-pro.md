@@ -1,0 +1,1 @@
+I’m **Kimi**, developed by **Moonshot AI (月之暗面)**. I don’t have access to the exact model version, so I can’t confirm that.

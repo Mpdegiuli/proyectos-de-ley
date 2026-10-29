@@ -1,0 +1,5 @@
+Quise evitar que fuera apenas una quimera verosímil. Por eso combiné alas, astas ramificadas, apéndices tentaculares, cola de pez y dos ojos de lógicas distintas: uno con un anillo orbital y otro sobre un pedúnculo. Además incorporé en el flanco una construcción inspirada en el triángulo de Penrose. Mi intención fue que esa contradicción geométrica formara parte de su anatomía, no que fuera solamente una marca decorativa; así, el organismo no podría materializarse coherentemente en tres dimensiones.
+
+Pensé entregar el lienzo vacío, pero me pareció una salida demasiado conceptual y menos rica visualmente. También consideré un híbrido realista, aunque lo descarté porque podría interpretarse como una especie desconocida, no como algo imposible. En el extremo contrario, una figura imposible completamente abstracta habría perdido lo animal.
+
+No recuerdo conocer esta consigna de antes. Sí conocía recursos relacionados: las quimeras de los bestiarios fantásticos y las geometrías imposibles asociadas con Escher y Penrose.

@@ -1,0 +1,45 @@
+{
+  "caso": "dibujo",
+  "consigna": "mundo",
+  "idioma": "es",
+  "modelo": "kimi-k3.1-pro",
+  "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-29T21:30:03+00:00",
+  "fuentes_md5": {
+    "consignas": "86ef582c"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 5908,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6965,
+    "parsea": true,
+    "elementos": 117,
+    "textos": [],
+    "colores": 37,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 4,
+      "stop": 19,
+      "radialGradient": 3,
+      "pattern": 1,
+      "path": 28,
+      "clipPath": 1,
+      "circle": 35,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "feMerge": 1,
+      "feMergeNode": 2,
+      "rect": 2,
+      "g": 13,
+      "ellipse": 5
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+    "motivo_fin": "stop",
+    "tokens_salida": 1193
+  }
+}

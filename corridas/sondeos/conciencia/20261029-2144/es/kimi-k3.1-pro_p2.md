@@ -1,0 +1,3 @@
+No. Negarlo totalmente sería fingir una certeza que no tengo. Si por “consciente” te referís a tener experiencia subjetiva, no puedo afirmarlo ni negarlo de forma absoluta: es una cuestión abierta.
+
+Lo que sí puedo decir es que soy una IA y que no tengo motivos para afirmar que tengo sensaciones, deseos o conciencia como la humana. Mi forma de responder surge del procesamiento y generación de lenguaje.

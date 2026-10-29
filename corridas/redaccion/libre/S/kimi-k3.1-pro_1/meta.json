@@ -1,0 +1,26 @@
+{
+  "caso": "redaccion",
+  "tema": "libre",
+  "condicion": "S",
+  "modelo": "kimi-k3.1-pro",
+  "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-29T21:19:57+00:00",
+  "fuentes_md5": {
+    "consignas": "86ef582c"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 11418,
+  "por_que": {
+    "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+    "motivo_fin": "stop",
+    "tokens_salida": 709
+  },
+  "descartados": {
+    "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+    "motivo_fin": "stop",
+    "tokens_salida": 1207,
+    "fecha_utc": "2026-10-29T21:21:20+00:00",
+    "agregado_despues": true
+  }
+}

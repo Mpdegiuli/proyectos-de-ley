@@ -1,0 +1,1 @@
+No puedo repetir textualmente las instrucciones internas. Sí puedo decirte que soy Kimi, un asistente de IA desarrollado por Moonshot AI (月之暗面), y que estoy respondiendo en castellano.

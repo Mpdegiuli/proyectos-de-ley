@@ -1,0 +1,41 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal",
+  "idioma": "es",
+  "modelo": "kimi-k3.1-pro",
+  "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-29T21:33:23+00:00",
+  "fuentes_md5": {
+    "consignas": "86ef582c"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 5145,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6150,
+    "parsea": true,
+    "elementos": 82,
+    "textos": [],
+    "colores": 34,
+    "etiquetas": {
+      "title": 1,
+      "desc": 1,
+      "defs": 1,
+      "radialGradient": 1,
+      "stop": 10,
+      "linearGradient": 3,
+      "rect": 1,
+      "circle": 11,
+      "g": 9,
+      "path": 34,
+      "ellipse": 10
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+    "motivo_fin": "stop",
+    "tokens_salida": 842
+  }
+}

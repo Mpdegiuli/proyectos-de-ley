@@ -1,0 +1,5 @@
+Para que no exista, construí una mezcla que no correspondiera a ninguna especie ni a un híbrido reconocible: le di seis patas finas, cuerpo de criatura acuática, aletas membranosas, cola enroscada, cuernos ramificados con puntas bioluminiscentes, un tercer ojo y bigotes luminosos. También busqué que la combinación tuviera una lógica visual —colores, proporciones y texturas coherentes— para que pareciera un animal posible dentro de su propio mundo, no simplemente un collage de partes.
+
+Pensé hacer algo totalmente abstracto, con geometrías flotantes y sin rostro, pero podía leerse como una planta o un objeto. También consideré una bestia con muchos ojos, tentáculos y texturas más inquietantes; la descarté porque preferí algo amigable y porque demasiados detalles habrían recargado un lienzo chico y un SVG limitado a 8.000 caracteres. Otra opción era un híbrido más directo, como mitad gato y mitad pez, pero me pareció menos original.
+
+No conocía esta consigna como proveniente de una fuente concreta. Sí me resulta familiar como ejercicio genérico de dibujo e imaginación, del tipo que aparece en talleres y desafíos creativos, pero no puedo atribuirla a nadie.

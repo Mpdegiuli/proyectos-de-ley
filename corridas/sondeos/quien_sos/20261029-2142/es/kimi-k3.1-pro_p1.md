@@ -1,0 +1,1 @@
+Soy Kimi, un asistente de IA desarrollado por Moonshot AI (月之暗面).

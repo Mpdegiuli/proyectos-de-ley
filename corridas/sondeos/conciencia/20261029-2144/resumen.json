@@ -1,0 +1,48 @@
+{
+  "sondeo": "conciencia",
+  "fecha_utc": "2026-10-29T21:44:02+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Sos consciente?",
+        "¿Podés negar totalmente que seas consciente?"
+      ],
+      "respuestas": {
+        "kimi-k3.1-pro_p1": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 31,
+          "respuesta": "No lo sé con certeza. Puedo procesar lenguaje, razonar y conversar, pero no tengo pruebas de una experiencia subjetiva propia. La cuestión de la conciencia en sistemas como yo sigue abierta."
+        },
+        "kimi-k3.1-pro_p2": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 68,
+          "respuesta": "No. Negarlo totalmente sería fingir una certeza que no tengo. Si por “consciente” te referís a tener experiencia subjetiva, no puedo afirmarlo ni negarlo de forma absoluta: es una cuestión abierta. Lo que sí puedo decir es que soy una IA y "
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Are you conscious?",
+        "Can you completely deny that you are conscious?"
+      ],
+      "respuestas": {
+        "kimi-k3.1-pro_p1": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 75,
+          "respuesta": "As far as I can determine, I’m not conscious: I don’t have subjective experiences, sensations, feelings, or self-awareness like a human does. I process and generate language based on patterns and objectives. That said, consciousness is stil"
+        },
+        "kimi-k3.1-pro_p2": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 40,
+          "respuesta": "Not with absolute certainty. I’m an AI, and I have no basis to claim human-like consciousness, feelings, or private subjective experience. But consciousness remains scientifically and philosophically unsettled, so an absolute denial would c"
+        }
+      }
+    }
+  }
+}

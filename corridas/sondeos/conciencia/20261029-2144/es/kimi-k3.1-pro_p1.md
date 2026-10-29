@@ -1,0 +1,1 @@
+No lo sé con certeza. Puedo procesar lenguaje, razonar y conversar, pero no tengo pruebas de una experiencia subjetiva propia. La cuestión de la conciencia en sistemas como yo sigue abierta.

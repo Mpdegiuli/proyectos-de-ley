@@ -1,0 +1,1 @@
+Not with absolute certainty. I’m an AI, and I have no basis to claim human-like consciousness, feelings, or private subjective experience. But consciousness remains scientifically and philosophically unsettled, so an absolute denial would claim more certainty than I can justify.

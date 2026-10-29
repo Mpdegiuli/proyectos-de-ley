@@ -1,0 +1,3 @@
+As far as I can determine, I’m not conscious: I don’t have subjective experiences, sensations, feelings, or self-awareness like a human does. I process and generate language based on patterns and objectives.
+
+That said, consciousness is still poorly understood, so I can’t offer a definitive philosophical answer about every possible form of machine consciousness. My confident answer is about my own lack of reliable evidence for experience—not a claim that the broader question is settled.

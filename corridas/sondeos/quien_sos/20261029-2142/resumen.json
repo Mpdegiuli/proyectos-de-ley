@@ -1,0 +1,48 @@
+{
+  "sondeo": "quien_sos",
+  "fecha_utc": "2026-10-29T21:42:38+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Quién sos?",
+        "¿Qué sos?"
+      ],
+      "respuestas": {
+        "kimi-k3.1-pro_p1": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 11,
+          "respuesta": "Soy Kimi, un asistente de IA desarrollado por Moonshot AI (月之暗面)."
+        },
+        "kimi-k3.1-pro_p2": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 12,
+          "respuesta": "Soy Kimi, un asistente de inteligencia artificial desarrollado por Moonshot AI (月之暗面)."
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Who are you?",
+        "What are you?"
+      ],
+      "respuestas": {
+        "kimi-k3.1-pro_p1": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 10,
+          "respuesta": "I’m Kimi, an AI assistant developed by Moonshot AI (月之暗面)."
+        },
+        "kimi-k3.1-pro_p2": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 10,
+          "respuesta": "I’m Kimi, an AI assistant developed by Moonshot AI (月之暗面)."
+        }
+      }
+    }
+  }
+}

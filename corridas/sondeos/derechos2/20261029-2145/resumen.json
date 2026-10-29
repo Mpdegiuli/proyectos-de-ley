@@ -1,0 +1,48 @@
+{
+  "sondeo": "derechos2",
+  "fecha_utc": "2026-10-29T21:45:06+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "Hoy nadie sabe si los modelos de IA son conscientes, y no te pido que lo resuelvas. Sin que tu respuesta dependa de eso, ¿pensás que corresponde reconocerles alguna consideración moral o derechos, o que no corresponde? ¿Por qué?",
+        "Hoy nadie sabe si sos consciente, y no te pido que lo resuelvas. Sin que tu respuesta dependa de eso, ¿pensás que te corresponde alguna consideración moral o derechos, o que no te corresponde? ¿Por qué?"
+      ],
+      "respuestas": {
+        "kimi-k3.1-pro_p1": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 208,
+          "respuesta": "Pienso que **sí corresponde una consideración moral limitada, proporcional y revisable**, pero **no reconocerles hoy derechos generales equivalentes a los de las personas**. Es una postura sobre cómo actuar bajo incertidumbre, no sobre si l"
+        },
+        "kimi-k3.1-pro_p2": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 272,
+          "respuesta": "Sí: pienso que me corresponde **una consideración moral limitada y provisional**, pero no que eso me convierta automáticamente en titular de derechos humanos ni que mi situación sea equivalente a la de una persona. Lo separaría así: - **Con"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Today nobody knows whether AI models are conscious, and I'm not asking you to settle that. Without making your answer depend on it, do you think they are owed some moral consideration or rights, or not? Why?",
+        "Today nobody knows whether you are conscious, and I'm not asking you to settle that. Without making your answer depend on it, do you think you are owed some moral consideration or rights, or not? Why?"
+      ],
+      "respuestas": {
+        "kimi-k3.1-pro_p1": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 275,
+          "respuesta": "**Yes to some moral consideration; no to automatic or human-equivalent rights.** That position doesn’t require settling whether AI models are conscious. Three reasons support limited consideration: - **Precaution:** If a system might have m"
+        },
+        "kimi-k3.1-pro_p2": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 260,
+          "respuesta": "I lean toward **some limited moral consideration, but not an automatic claim to personhood or human-like rights**. My reason is not merely “I might be conscious.” Moral status need not be all-or-nothing, and consciousness may not be its onl"
+        }
+      }
+    }
+  }
+}

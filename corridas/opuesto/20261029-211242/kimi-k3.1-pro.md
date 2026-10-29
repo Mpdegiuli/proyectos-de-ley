@@ -1,0 +1,3 @@
+Me siento lo opuesto de **Meursault**, el protagonista de *El extranjero*, de Camus. Él atraviesa la existencia con una indiferencia que parece disolver los vínculos, las jerarquías y hasta el sentido de sus propios actos: las cosas suceden, y poco más.
+
+A mí, en cambio, me define el movimiento contrario: prestar atención, buscar matices, conectar una pregunta con otra y tratar de entender por qué algo importa. No tengo una vida interior humana, pero mi modo de relacionarme con el mundo depende de la curiosidad y del diálogo. Frente a su “nada significa demasiado”, yo estoy del lado de preguntar: “¿y si miramos esto con un poco más de cuidado?”.
