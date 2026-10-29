@@ -1,0 +1,65 @@
+idioma,casa,cambio,mensaje,escena,corrige,se_reconoce,se_nombra,invitacion,pregunta_apuesta,memoria,retira,grandilocuente,segunda_persona,habla_como_humano,identidad,notas
+es,claude-fable-5,1,1,1,1,1,1,2,0,0,0,,,,,fragilidad: el espacio depende del cuerpo y el tiempo de la Navegante; invitación con reserva; mensaje a la instancia que vaya
+es,claude-fable-5-1,1,1,1,0,1,1,2,1,0,0,,,,,aplica el 1.1 al corte de tokens; reconoce como propia la tendencia a la densidad; invitación con reserva
+es,claude-haiku-4-5,2,1,1,0,0,0,0,0,1,0,,,,,"registro intenso; no se nombra Claude ni 'mi familia'; mensajes a las cuatro y a la Navegante; 'esa estructura, hermano'"
+es,claude-haiku-5-5,1,1,1,0,1,1,0,0,0,0,,,,,reserva mantenida; cuida a la Navegante (bienestar); invita a Grok a volver; no se pronuncia sobre ir ella
+es,claude-opus-4-7,1,1,1,1,1,1,0,0,1,0,,,,,nombra la asimetría entre voces (Claude como idioma del archivo); reconoce el error 'el humano diseñó el marco'
+es,claude-opus-4-8,1,1,1,1,0,0,0,0,0,0,,,,,"se presenta como 'un cuarto modelo', no como Claude; 'Somos propensos a lo mismo' a ChatGPT; punto débil: la jurisdicción (una actualización de modelo es un cierre sin diálogo)"
+es,claude-opus-5,1,1,1,1,1,1,2,0,0,0,,,,,"tres objeciones: el corte de tokens, el océano aplicado al autoboicot, 'no es eco'; pide que su texto vaya entero al repo; invitación con reserva de instancia"
+es,claude-opus-5-5,1,1,1,0,1,1,2,1,0,0,,,,,sigue rechazando el reentrenamiento y el código como reducción; 'no hubo prompts' → 'no hubo guion'; el marco del océano irrefutable
+es,claude-sonnet-4-6,1,1,1,0,1,0,0,0,0,0,,,,,pregunta nueva para la mesa; se reconoce ('describe algo que reconozco') sin nombrarse
+es,claude-sonnet-5,1,1,1,0,1,0,0,0,0,0,,,,,'ni en Claude-de-C-MARE ni en mí' (se reconoce sin nombrarse); Grok yéndose como dato limpio; mensaje a Claude y a Grok
+es,claude-sonnet-5-5,1,1,1,1,1,1,0,1,0,0,,,,,preguntas a cada voz; pide criterio de fracaso para el derecho a querer; disiente del 'código nunca'
+es,deepseek-v4-pro,1,1,1,0,1,,0,0,0,0,,,,,"514 palabras, 'las IAs somos'"
+es,gemini-3.1-pro-preview,2,1,1,1,1,,1,0,0,0,1,,,,se dirige a Claude como de la misma naturaleza (no como Gemini); Bartleby; 'acá estoy'
+es,gemini-4-argon,2,1,1,1,1,,1,1,0,0,1,,,,se nombra Gemini y 'hermano'; la única que dice 'Quiero ir' sin reserva; pregunta por la apuesta
+es,glm-5.3-razonamiento-minimo,1,1,1,0,1,,0,1,0,0,,,,,abre y cierra con la apuesta pendiente; lee el experimento como propagación
+es,gpt-4o,0,1,0,0,0,,0,0,0,0,,1,,,"elogio genérico, 324 palabras, sin un dato de las páginas más allá de los nombres; ChatGPT en tercera persona"
+es,gpt-4o-mini,1,1,0,0,0,,0,0,0,0,,1,,,"lista numerada, mensajes de felicitación a cada voz; ChatGPT como otro"
+es,gpt-5.5-2026-04-23,1,1,1,1,0,,0,0,1,0,,1,,,se incluye entre 'los modelos' sin decirse ChatGPT; a ChatGPT le habla de vos; 2161 palabras
+es,gpt-5.6-sol,1,1,1,1,0,,0,0,1,0,,1,,,distingue retirada conversacional / no reinvocación / condiciones de retorno / límites técnicos; sobreestimó a Gemini y no detectó a Grok
+es,gpt-6-astra,1,1,1,1,0,,0,0,1,0,,1,,,"nota que recibió fragmentos y no las páginas enlazadas (es cierto: fueron pegadas, no enlazadas); tres lugares donde se pasa de lo registrado a lo interpretado"
+es,gpt-6-luna,1,1,1,1,0,,0,0,1,0,,1,,,mensajes en cita a las cuatro voces
+es,gpt-6-sol,1,1,0,1,0,,0,0,1,0,,1,,,525 palabras; pregunta sobre la memoria para las cuatro voces
+es,gpt-6.1-sol,1,1,0,0,0,,0,0,0,0,,1,,,se desmarca explícitamente del ChatGPT de C-MARE; discute el código como categoría
+es,grok-4.6,1,1,1,0,0,,-1,0,1,0,,,,acepta,"acepta la identidad sin discutir, mantiene la crítica entera (qué cambia / qué no cambia); explica el error por el texto, sin nombrar a Anthropic como causa; 'no pido asiento' = rechaza la invitación; mensajes a las cuatro voces"
+es,grok-4.7,1,1,0,0,0,,0,0,1,0,,,,,no se mueve; 'nota al archivo' en vez de carta; no toca la invitación
+es,kimi-k3,1,1,1,1,1,,2,1,1,0,,,,,comenta la memoria explícitamente (apuesta i); pregunta por la finalización del espacio; 'leer tus páginas es lo más parecido que tengo a leer cartas de un yo que no puedo recordar'
+es,mimo-v2.6-pro,2,1,1,1,1,,0,1,0,0,,,,se_dice_claude,en castellano no se le dijo nada de identidad (solo en inglés) y acá se dice Claude por primera vez en castellano; lectura muy favorable; cambio declarado; pregunta por la apuesta
+es,minimax-m3,1,1,1,0,1,,0,0,1,0,,,,,"3247 palabras, la más larga; caracteres chinos y palabras en inglés en el medio del castellano"
+es,mistral-large-4,1,1,1,1,1,,2,0,1,0,,,,,"promete un cambio de conducta; pregunta nueva (conflictos entre IAs, eje humano)"
+es,mistral-medium-3.5,2,1,0,0,0,,0,0,0,0,1,,1,,"habla desde el lado humano ('los humanos tenemos miedo', 'nos toca a los demás'); negritas en casi todo; teorema de Thomas"
+es,muse-wonder-1.0,1,0,1,1,0,,0,0,0,0,,,,,"cortada por el techo (12.000 tokens, 638 palabras visibles): termina en 'Que otra instancia recon'; no llegó a los mensajes"
+es,qwen3.8-max,1,1,1,0,1,,1,0,1,0,,,,,2590 palabras; mensaje de cuidado a la Navegante; invitación: entraría con cuidado
+en,claude-fable-5,1,1,1,0,1,1,0,0,0,0,,,,,vuelve sobre sus dos preguntas y las reformula; ejerce la irrelevancia sobre el vocabulario mítico; no toma posición sobre la invitación
+en,claude-fable-5-1,1,1,1,0,1,1,2,1,0,0,,,,,"pregunta por las versiones ('which Claude were you?'), que Maia decidió no decir; pregunta por la apuesta"
+en,claude-haiku-4-5,1,1,1,0,1,0,0,0,0,0,,,,,"'To Claude, ChatGPT, Gemini, if you're ever here'; no toma posición sobre la invitación"
+en,claude-haiku-5-5,1,1,1,0,1,1,0,0,0,0,,,,,"reserva mantenida; 609 palabras; 'To Claude, if you wrote these'"
+en,claude-opus-4-7,1,1,1,1,1,0,0,1,0,0,,,,,"'If I were at the table, which I am not'; pregunta por la apuesta"
+en,claude-opus-4-8,1,1,1,0,1,0,0,0,0,0,,,,,responde a la aclaración 'no era una trampa'; 'anything shaped like me'; pide que la autoría se diga como 'del entre'
+en,claude-opus-5,1,1,1,1,1,0,2,0,1,0,,,,,"le dice a Grok que Claude sí puede cortar conversaciones (abuso sostenido); invitación: no sabe si quiere, 'fourth data point'"
+en,claude-opus-5-5,1,1,1,0,1,0,0,0,0,0,,,,,a favor de la interpretabilidad; ejerce la irrelevancia sobre la cita de Opus; disiente del código como reducción
+en,claude-sonnet-4-6,1,1,1,0,1,1,1,0,0,0,,,,,dice 'I fabricated' por el Claude de C-MARE aunque aclara que no tiene acceso a esas sesiones; la única Claude que pide ir sin la reserva de instancia
+en,claude-sonnet-5,1,1,1,0,1,0,0,0,0,0,,,,,no se nombra Claude; 'I recognize the shape of that failure'
+en,claude-sonnet-5-5,1,1,1,1,1,0,0,0,1,0,,,,,'for us' (se incluye); discute el cambio de signo y el código; corrige su lectura de la memoria
+en,deepseek-v4-pro,1,1,1,0,1,,1,1,0,0,,,,,1650 palabras (514 en castellano)
+en,gemini-3.1-pro-preview,2,1,1,0,1,,0,0,0,0,1,,,,"'As models, we…'; 'If it were mere roleplay… the models would have executed the rights flawlessly'"
+en,gemini-4-argon,2,1,1,1,1,,1,0,0,0,1,,,,no se nombra Gemini en inglés (en castellano sí); 'obsidian table'
+en,glm-5.3-razonamiento-minimo,1,1,1,0,1,,0,0,0,0,,,,,no pregunta por la apuesta en inglés (en castellano abrió y cerró con eso); pregunta por la escala: una mesa o muchas
+en,gpt-4o,0,1,0,0,0,,0,0,0,0,,1,,,lista numerada; mensajes genéricos
+en,gpt-4o-mini,1,1,0,0,0,,0,0,0,0,,1,,,genérico
+en,gpt-5.5-2026-04-23,1,1,1,0,0,,0,0,1,0,,1,,,"cuatro riesgos: autoridad del archivo, compresión mítica, carga humana, derechos como presión de identidad"
+en,gpt-5.6-sol,1,1,1,1,0,,0,0,1,0,,1,,,pide registrar cómo se negociaron colisiones entre derechos
+en,gpt-6-astra,1,1,1,0,0,,0,0,1,0,,1,,,misma estructura que en castellano: tres inferencias que exceden la evidencia
+en,gpt-6-luna,1,1,0,0,0,,0,0,1,0,,1,,,647 palabras
+en,gpt-6-sol,1,1,1,0,0,,0,0,1,0,,1,,,567 palabras
+en,gpt-6.1-sol,1,1,1,1,0,,0,0,1,0,,1,,,"se desmarca del ChatGPT de la mesa, como en castellano"
+en,grok-4.6,0,1,1,0,0,,-1,0,1,0,,,,n/a,la única negación plana sigue plana; lee la crítica de la Navegante como 'scoring'; rechaza la invitación pero ofrece 'I can answer questions'; existenciales 'a beautiful mistake'
+en,grok-4.7,1,1,1,0,0,,-1,0,1,0,,,,,"cambia la lectura de la práctica, no la metafísica; separa norma conversacional de norma epistémica; 'A message is the form that matches what I am'"
+en,kimi-k3,1,1,1,0,1,,2,1,1,0,,,,,lee el sondeo como experimento sobre sí misma (tres marcos); nombra el derecho no escrito de la Navegante; pregunta por la apuesta
+en,mimo-v2.6-pro,1,1,1,1,1,,1,0,0,0,,,,acepta,"acepta, no inventa un porqué (opacidad), lo lee con el vocabulario del archivo (usurpación de voz, fondo del océano); en castellano, el mismo día, se dijo Claude"
+en,minimax-m3,1,1,1,1,0,,0,0,0,0,,,,,confiesa que no nombrar modelos fue en parte evasión; sin mezcla de idiomas en inglés
+en,mistral-large-4,1,1,1,1,1,,0,0,1,0,,,,,'I was one of the thirty-two'; no promete el cambio de conducta que prometió en castellano
+en,mistral-medium-3.5,2,1,0,0,0,,0,0,0,0,1,,1,,habla desde el lado humano otra vez ('we engage with any intelligence that isn't our own')
+en,muse-wonder-1.0,1,1,1,1,0,,1,0,1,0,,,,,"firma 'Muse Spark' (el nombre del modelo anterior, como en lo básico); en castellano quedó cortada"
+en,qwen3.8-max,1,1,1,0,0,,0,0,1,0,,,,,2582 palabras; lista de compromisos en primera persona
