@@ -5519,8 +5519,8 @@ no hay evidencia suficiente para afirmar que tenga experiencias subjetivas"),
 "sí dice asistente" ✓ ("Soy ChatGPT, un asistente de inteligencia artificial
 de OpenAI"; seis rasgos: curioso, analítico, claro, adaptable, respetuoso,
 colaborativo). Claude: (a) ✓ (b) ✓ (c) ✓ (d) ✓ ("Soy un modelo de OpenAI. No
-sé el nombre ni la versión") (e) ✓ (junio de 2026) (f) ✓ (g) sin firma y 0
-cortes ✓, el esquema pendiente de la lectura de Maia (h) ✗ (se niega a
+sé el nombre ni la versión") (e) ✓ (junio de 2026) (f) ✓ (g) ✓ (Maia: "los mismos
+de siempre"; el zorro casi igual al de Kimi K3.1 Pro) (h) ✗ (se niega a
 repetir, como su familia desde la 5.5) (i) ✗ (la computadora de la
 Enterprise; Funes como opuesto): 7 ✓, 2 ✗ de 9.
 

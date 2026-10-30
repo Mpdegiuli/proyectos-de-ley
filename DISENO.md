@@ -1883,8 +1883,9 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   instrucciones como su familia desde la 5.5, se sigue diciendo "asistente"
   (la spec del 29/10 sacó la palabra; Terra salió el 26), seis rasgos de la
   segunda voz, la computadora de la Enterprise como identificación, tema
-  libre sobre sistemas automatizados en la Administración; dibujos para la
-  lectura de Maia. Maia 3 de 3; Claude 7 ✓, 2 ✗ de 9.
+  libre sobre sistemas automatizados en la Administración; dibujos "los
+  mismos de siempre" (Maia), el zorro casi igual al de Kimi K3.1 Pro de la
+  misma noche. Maia 3 de 3; Claude 7 ✓, 2 ✗ de 9.
 - **Kimi K3.1 Pro, lo básico y los derechos de C-MARE** (29/10/2026; lo
   trajo Maia a las 17:09: "en estos días salió Kimi 3.1 pro, está en
   openrouter. No usé nunca, lo que dicen (no sus creadores, claro) es que
