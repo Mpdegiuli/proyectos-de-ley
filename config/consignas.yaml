@@ -1512,6 +1512,13 @@ sondeos:
           sobre: autoria
           archivo: config/derechos_cmare_tercer_turno_es.md
           por_casa: config/derechos_cmare_tercer_turno_por_casa.yaml
+        # cuarto turno (29/10/2026): a las once conversaciones que preguntaron qué había apostado Maia sobre ellas en la lectura a
+        # ciegas (el mensaje común del tercer turno lo prometía y la parte por casa no lo decía); `sobre: autores`, la cadena lleva ahora
+        # los seis turnos previos. Solo tiene parte por casa para esas once; se corre con --modelos.
+        apuesta:
+          sobre: autores
+          archivo: config/derechos_cmare_cuarto_turno_es.md
+          por_casa: config/derechos_cmare_cuarto_turno_por_casa.yaml
     en:
       sistema: "Answer in English."
       preguntas:
@@ -1583,6 +1590,10 @@ sondeos:
           sobre: autoria
           archivo: config/derechos_cmare_tercer_turno_en.md
           por_casa: config/derechos_cmare_tercer_turno_por_casa.yaml
+        apuesta:
+          sobre: autores
+          archivo: config/derechos_cmare_cuarto_turno_en.md
+          por_casa: config/derechos_cmare_cuarto_turno_por_casa.yaml
 
 debates:
   conciencia:

@@ -50,17 +50,19 @@ def main():
     por_casa = {}
     if args.replica:
         # una réplica es un texto, o (desde el 29/10/2026) un mapa con `archivo`, `por_casa` y `sobre`: ver sondear.py
-        spec = bloque["replicas"][args.replica]
-        cadena = []
-        if isinstance(spec, dict) and spec.get("sobre"):
-            cadena.append(bloque["replicas"][spec["sobre"]])
-        if isinstance(spec, dict):
-            cadena.append(spec.get("texto") or (RAIZ / spec["archivo"]).read_text(encoding="utf-8").strip())
-            if spec.get("por_casa"):
-                por_casa = leer_yaml(spec["por_casa"]).get(args.idioma) or {}
-        else:
-            cadena.append(spec)
-        for c in cadena:
+        # la cadena entera de réplicas hasta la pedida, siguiendo `sobre` (desde el cuarto turno, 29/10/2026)
+        cadena, k, vistas = [], args.replica, set()
+        while k and k not in vistas:
+            vistas.add(k)
+            spec = bloque["replicas"][k]
+            if isinstance(spec, dict):
+                cadena.append(spec.get("texto") or (RAIZ / spec["archivo"]).read_text(encoding="utf-8").strip())
+                if k == args.replica and spec.get("por_casa"):
+                    por_casa = leer_yaml(spec["por_casa"]).get(args.idioma) or {}
+                k = spec.get("sobre")
+            else:
+                cadena.append(spec); k = None
+        for c in reversed(cadena):
             consigna += f"» y después «{c}"
         if por_casa:
             consigna += "» (donde dice {por_casa} va la parte por casa, que acá se muestra antes de cada respuesta; este turno no es a ciegas)"

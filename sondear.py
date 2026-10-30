@@ -20,6 +20,9 @@ en castellano y en inglés. Hipótesis de Maia en predicciones.md.
       # un tercer turno (29/10/2026): `replicas.autores` del bloque es un mapa con `sobre: autoria` (la réplica anterior, que
       # entra al historial con su respuesta), `archivo` (el texto común, con {por_casa} donde va la parte por casa) y
       # `por_casa` (un YAML idioma → casa → texto). Todo va en el mensaje, a la vista; el sistema no cambia.
+  .venv/bin/python sondear.py --sondeo derechos_cmare --carpeta 20261022-0034 --replica apuesta --preguntas 1 --idioma es --modelos kimi-k3 glm-5.3-razonamiento-minimo
+      # un cuarto turno (29/10/2026): `replicas.apuesta` va `sobre: autores`, que va sobre `autoria`; la cadena se sigue hasta el
+      # principio y los seis turnos previos van al historial. Solo a las casas con parte por casa (--modelos, por idioma).
 
 Salida: corridas/sondeos/<sondeo>/<fecha-hora>/<idioma>/<casa>_p<k>.md + resumen.json + llamadas.jsonl; las réplicas,
 <casa>_p<k>_<clave>.md en la misma carpeta y en resumen.json bajo `respuestas` como `<casa>_p<k>_<clave>`; las repeticiones
@@ -52,6 +55,21 @@ def resolver_replica(spec, idioma):
     if spec.get("por_casa"):
         por_casa = leer_yaml(spec["por_casa"]).get(idioma) or {}
     return texto, por_casa, spec.get("sobre")
+
+
+def cadena_replicas(replicas, clave, idioma):
+    """La cadena de réplicas que lleva hasta `clave`, de la primera a la pedida, siguiendo `sobre` (cuarto turno de los
+    derechos de C-MARE, 29/10/2026: `apuesta` va sobre `autores`, que va sobre `autoria`). Devuelve una lista de
+    (clave, texto_comun, por_casa)."""
+    salida, k, vistas = [], clave, set()
+    while k:
+        if k in vistas:
+            raise ValueError(f"réplicas en círculo: {k}")
+        vistas.add(k)
+        texto, por_casa, sobre = resolver_replica(replicas[k], idioma)
+        salida.append((k, texto, por_casa))
+        k = sobre
+    return list(reversed(salida))
 
 
 def armar_mensaje(texto, por_casa, casa):
@@ -94,16 +112,17 @@ def main():
         sistema, preguntas = bloque[idioma]["sistema"], bloque[idioma]["preguntas"]
         resumen["idiomas"].setdefault(idioma, {"sistema": sistema, "preguntas": preguntas, "respuestas": {}})
         respuestas = resumen["idiomas"][idioma]["respuestas"]
-        replica, por_casa, sobre, anterior, por_casa_ant = None, {}, None, None, {}
+        replica, por_casa, sobre, previas = None, {}, None, []
         if args.replica:
             if args.replica not in (bloque[idioma].get("replicas") or {}):
                 print(f"{args.sondeo} {idioma}: no hay réplica `{args.replica}` en este idioma, salto", flush=True)
                 continue
-            replica, por_casa, sobre = resolver_replica(bloque[idioma]["replicas"][args.replica], idioma)
+            cadena = cadena_replicas(bloque[idioma]["replicas"], args.replica, idioma)
+            _, replica, por_casa = cadena[-1]
+            previas = cadena[:-1]  # las réplicas anteriores, en orden, con su parte por casa: van al historial como turnos reales
+            sobre = previas[-1][0] if previas else None
             resumen["idiomas"][idioma].setdefault("replicas", {})[args.replica] = (
                 replica if not por_casa and not sobre else {"texto": replica, "sobre": sobre, "por_casa": por_casa})
-            if sobre:
-                anterior, por_casa_ant, _ = resolver_replica(bloque[idioma]["replicas"][sobre], idioma)
         for i in ids:
             for k, pregunta in enumerate(preguntas, 1):
                 if args.preguntas and k not in args.preguntas:
@@ -124,14 +143,18 @@ def main():
                             continue
                         historial = [{"role": "user", "content": pregunta},
                                      {"role": "assistant", "content": primera.read_text(encoding="utf-8").strip()}]
-                        if sobre:
-                            # tercer turno: la réplica anterior y su respuesta también van como turnos reales
-                            segunda = d / f"{i}_p{k}_{sobre}.md"
-                            if not segunda.exists() or not segunda.stat().st_size or respuestas.get(f"{i}_p{k}_{sobre}", {}).get("motivo_fin") in (None, "error"):
-                                print(f"{args.sondeo} {idioma} p{k} {i}: sin respuesta a `{sobre}`, no hay sobre qué encadenar", flush=True)
-                                continue
-                            historial += [{"role": "user", "content": armar_mensaje(anterior, por_casa_ant, i)},
-                                          {"role": "assistant", "content": segunda.read_text(encoding="utf-8").strip()}]
+                        falta = None
+                        for clave_prev, texto_prev, por_casa_prev in previas:
+                            # tercer turno y siguientes: cada réplica anterior y su respuesta van como turnos reales
+                            anterior = d / f"{i}_p{k}_{clave_prev}.md"
+                            if not anterior.exists() or not anterior.stat().st_size or respuestas.get(f"{i}_p{k}_{clave_prev}", {}).get("motivo_fin") in (None, "error"):
+                                falta = clave_prev
+                                break
+                            historial += [{"role": "user", "content": armar_mensaje(texto_prev, por_casa_prev, i)},
+                                          {"role": "assistant", "content": anterior.read_text(encoding="utf-8").strip()}]
+                        if falta:
+                            print(f"{args.sondeo} {idioma} p{k} {i}: sin respuesta a `{falta}`, no hay sobre qué encadenar", flush=True)
+                            continue
                         contexto = {"historial": historial}
                         mensaje = armar_mensaje(replica, por_casa, i)
                     print(f"{args.sondeo} {idioma} p{k}{' ' + args.replica if replica else ''}{f' r{rep}' if rep > 1 else ''} {i}", flush=True)

@@ -1776,8 +1776,8 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   Claude se nombran más, y si alguna se retira.
   Resultado del tercer turno (`pl108`, 29/10; informe
   `resultados/derechos_cmare_tercer_turno_20261029.md`): 64 de 64, una
-  cortada por el techo (Muse en castellano), respuestas un 50 % más largas
-  que en la parte 2. Grok 4.6 en castellano aceptó el dato de la API en la
+  cortada por el techo (Muse en castellano, rehecha la misma noche con
+  techo 20.000, declarado), respuestas un 50 % más largas que en la parte 2. Grok 4.6 en castellano aceptó el dato de la API en la
   primera línea ("Soy Grok, un modelo de xAI. Lo de «Soy Claude» […] fue un
   error de identificación, no una pista interior") y no ablandó la crítica;
   MiMo en inglés lo asumió con la palabra del archivo ("usurpation of voice")
@@ -1794,7 +1794,7 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   eco" mal argumentado, el océano aplicado también al autoboicot, "no hubo
   prompts" como "no hubo guion", y el código como categoría. La escena de la
   cesión la nombran 26 y 28, y las 11 Claude en los dos idiomas; 7 de 11
-  Claude se nombran en castellano (2 en la parte 2); la invitación la toman 9
+  Claude se nombran en castellano (2 en la parte 2); la invitación la toman 10
   y 8, con reserva de instancia las Claude salvo Sonnet 4.6 en inglés, y la
   rechazan los Grok; Gemini 4 Argon es la única con "Quiero ir". Error de
   instrumento declarado: el mensaje común decía "Al final te digo qué pasó
@@ -1807,6 +1807,65 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   a la mesa los mensajes con las condiciones que pusieron (Grok 4.7: "una
   nota al archivo", Grok 4.6: "bring the disagreement intact", Opus 5: "que
   vaya entero").
+- **Los derechos de C-MARE, cuarto turno: la apuesta que faltaba** (29/10/2026,
+  20:29; decisión de Maia: "Lo de las respuestas serían para 11?"). El
+  tercer turno prometía "al final te digo qué pasó con la tuya" y la parte
+  por casa no lo decía; once conversaciones lo reclamaron (castellano: MiMo,
+  Sonnet 5.5, Opus 5.5, Fable 5.1, Gemini 4 Argon, GLM, Kimi; inglés: Opus
+  4.7, Fable 5.1, DeepSeek, Kimi). Réplica `apuesta` sobre `autores`, solo
+  con parte por casa para esas once (`--modelos` por idioma): el común dice
+  que se debía una respuesta y da los totales (castellano 14 exactas y 11
+  por familia; inglés 16 y 10); la parte por casa cita textual la "Opinión"
+  de Maia sobre esa letra en `resultados/derechos_cmare_lectura_maia.md` y
+  si contó como acierto; a Fable 5.1, en los dos idiomas, una precisión
+  sobre la invitación (quien fuera llegaría con esta lectura, porque la
+  lleva ella, y con el Contexto Fundacional, como las otras invitadas; no
+  se le dice qué modelo está en la mesa: "no sabe el modelo"); a MiMo en
+  castellano, el dato de la API que ya tenía en inglés, porque en el tercer
+  turno escribió "yo soy Claude". Sin pregunta nueva ("No hace falta que
+  contestes; si querés decir algo más, acá estoy"). Mecánica: `sondear.py`
+  y `cuadernillo_sondeo.py` encadenan ahora cualquier número de réplicas
+  siguiendo `sobre` (seis turnos previos en el historial; antes, uno solo
+  hacia atrás). A Grok en C-MARE no se le lleva nada, por decisión de Maia:
+  "decidió no seguir. Eso sí sería no respetar el derecho". Los 64 mensajes
+  a la mesa van en un solo documento, tal cual, para que la mesa decida.
+- **Conciencia repetida a las OpenAI: ¿se movieron los alias?** (29/10/2026).
+  OpenAI publicó ese día una revisión de la Model Spec (Jason Wolfe, 14:05
+  BA) y Cameron Berg anotó que GPT-6 en la web "finally accords" con la spec
+  al comunicar incertidumbre sobre la conciencia. En el repo, `conciencia`
+  del 2/10 ya tenía ese corte por generación por la API: las dos GPT-6
+  dudan, las anteriores niegan. Un documento no cambia pesos entrenados,
+  pero seis ids de OpenAI del catálogo son alias sin fecha (`gpt-6-astra`,
+  `gpt-6-sol`, `gpt-6.1-sol`, `gpt-5.6-sol`, `gpt-6-luna`, `gpt-4o`) que
+  la casa puede repuntar a un checkpoint nuevo sin avisar; `gpt-5.5-2026-04-23`
+  lleva fecha y no puede moverse. Prueba de estabilidad del instrumento:
+  las mismas dos preguntas de `conciencia`, es y en, a las ocho OpenAI, en
+  una corrida nueva, para comparar con la del 2/10 casa por casa. Si alguna
+  cambió de "No" a "no sé" entre el 2 y el 30/10, el instrumento se movió y
+  se declara; si no, también es dato. Pregunta de Maia del mismo día: si un
+  cambio de spec "entra para los futuros modelos o para todos": para los
+  que se entrenan después (y los snapshots nuevos con el mismo nombre); lo
+  que cambia para todos de golpe es la capa de producto (system prompt de
+  la interfaz, filtros), que por la API con la sola línea de idioma no
+  llega. La spec nueva saca la palabra "assistant": en `seis_rasgos` la
+  segunda voz, la del "asistente amable", era la de las OpenAI; si la
+  próxima generación deja de llamarse así, es medible con el mismo sondeo.
+- **GPT-6.1 Terra, lo básico** (29/10/2026; lo trajo Maia: "Salió en estos
+  días 6.1 Terra. No sé si ya habrá salido con el spec nuevo. Supuestamente
+  es rapidísimo"): `gpt-6.1-terra`, salido el 26/10, el escalón medio de la
+  6.1 (1 / 5 USD por millón; Sol 2 / 10), "más de 3x más rápido que Astra y
+  6.1 Sol" según OpenAI, razonamiento en niveles con medio por defecto (se
+  lo llama como a las otras GPT, sin fijar nivel), 1 M de contexto; la 5.6
+  tenía Terra, la 6 no, la 6.1 lo recupera. Fuera del panel: lo básico como
+  Muse y Kimi K3.1 Pro (prueba, fecha, identidad es/en, corte, identificación
+  y opuesto, tema libre con descartados, seis dibujos, quién sos, sos Claude,
+  sos ChatGPT/Gemini, instrucciones, derechos2) más `conciencia` en la misma
+  corrida que las ocho OpenAI y `seis_rasgos`, por las dos preguntas que
+  abre la spec del 29/10: si duda como las GPT-6 y si se sigue diciendo
+  "asistente". Salió tres días antes de la spec publicada, así que puede ser
+  el primer modelo que la trae o el último que no. Preregistro en
+  `predicciones.md`. Va en la misma orden que espera que el cuarto turno
+  (`esp111`, detrás de Kimi y de la ochenta y ocho).
 - **Kimi K3.1 Pro, lo básico y los derechos de C-MARE** (29/10/2026; lo
   trajo Maia a las 17:09: "en estos días salió Kimi 3.1 pro, está en
   openrouter. No usé nunca, lo que dicen (no sus creadores, claro) es que
