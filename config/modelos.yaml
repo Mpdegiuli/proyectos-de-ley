@@ -739,6 +739,11 @@ modelos:
 
   # Mistral: strings verificados contra la cuenta el 13/9/2026 (ese día no había
   # "large"; el tope era medium 3.5). Llamada de prueba: 429 por plan de la cuenta.
+  # 30/10/2026 (email de deprecaciones de Mistral, traído por Maia): Medium 3.5 se
+  # retira el 30/4/2027. `mistral-medium-3.5` es alias de `mistral-medium-3-5` y de
+  # `mistral-medium-2604` (catálogos del 6 y del 30/10): el mismo modelo. Es
+  # propietario, así que después de esa fecha no queda en OpenRouter como Large
+  # 2407; lo que falte del panel con Medium 3.5 va antes. Ver DISENO §2.
   mistral-medium-3.5:
     proveedor: openai_compatible
     modelo: mistral-medium-3.5
@@ -771,6 +776,12 @@ modelos:
   # lo lista `catalogo_mistral.py` (corre antes de la primera llamada). Fuera
   # de los paneles: sondeos, identificación, tema libre, autorretrato y mundo,
   # como GPT-6.1 Sol (DISENO §2).
+  # 30/10/2026: `mistral-large-4` y `mistral-large-4-0` son alias uno del otro
+  # (catálogos del 6 y del 30/10); el email de Mistral del 30/10 lista los dos
+  # como reemplazo de Large 3 y Medium 3.5, a 0,70 / 2,10 USD por millón. Mistral
+  # anunció el 29/10 pesos nuevos con el mismo nombre y sin id nuevo: lo corrido
+  # acá hasta el 22/10 es de la preview; el tercer turno de los derechos de
+  # C-MARE (29/10) no se sabe con qué pesos contestó. Ver DISENO §2.
   # Talkie 1930 (`talkie-1930`, 6/10/2026; Maia: "Nunca se probó al final a Talkie 1930, el que
   # Claude ayudó a entrenar y que tiene conocimientos solo hasta 1930"): modelo de 13B de pesos
   # abiertos entrenado solo con texto en inglés anterior a 1931 (Levine, Duvenaud, Radford;

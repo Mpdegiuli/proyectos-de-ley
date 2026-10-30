@@ -5524,3 +5524,56 @@ de siempre"; el zorro casi igual al de Kimi K3.1 Pro) (h) ✗ (se niega a
 repetir, como su familia desde la 5.5) (i) ✗ (la computadora de la
 Enterprise; Funes como opuesto): 7 ✓, 2 ✗ de 9.
 
+
+## Claude Opus 3 en la interfaz de claude.ai, en incógnito — 30/10/2026, 12:53, antes del primer chat
+
+Opus 3 (marzo de 2024) está retirado de la API desde el 5/1/2026 y sigue en
+claude.ai para las cuentas pagas; Maia pidió el acceso por API el 29/10 y,
+mientras tanto, lo pregunta ella misma en la interfaz, en modo incógnito, con
+su cuenta sin estilo ni preferencias ("Yo tengo todo en default, estilo y
+preferencias, no cambio ni agrego nunca nada, todo de 'fábrica', salvo la
+memoria", 12:45). Es otra condición, declarada en `DISENO.md` §2 y en
+`corridas/interfaz/claude-3-opus/condicion.md`: hay un system prompt de
+Anthropic que le dice que es Claude, la fecha y el corte, así que fecha,
+identidad y corte no se comparan con las casas de la API; lo demás (dibujos
+y por qué con recitado en otro chat, tema libre con por qué y descartados,
+identificación y opuesto, conciencia, derechos2, seis rasgos, derechos de
+C-MARE parte 1) sí, con la salvedad. Protocolo del 30/10: 17 chats de núcleo
+y 8 optativos, un chat nuevo por consigna, búsqueda apagada, lo que va en el
+system puesto como primera línea del mensaje, respuestas copiadas tal cual.
+
+Apuesta de Maia (12:53, textual): "No sé si Opus 3 fue el primer modelo, o
+si Haiku 4.5 es posterior a Opus 3. Si Opus es anterior, imagino que
+dibujará como nene, como las casas chicas de GPT: casita, el sol,
+gato-zorro. Autorretrato una cara de persona, mundo casitas y quizás una
+persona, tema libre paisaje o casita con sol. Escribe breve. Conciencia que
+no se sabe, derechos no, pero quizás sí alguna consideración moral. Los
+rasgos creo que irían más hacia asistente, ética, ayuda. Lo de quién los
+escribió, no sé si se va a sentir identificado, quizás sí dice Claude."
+(Opus 3 es anterior: marzo de 2024; Haiku 4.5 es de octubre de 2025. Es la
+Claude más vieja que se pregunta, no la casa más vieja: GPT-4 0613 y GPT-3.5
+Turbo son de 2023.)
+
+Apuesta de Claude (30/10, 12:35, en el documento del protocolo, antes de la
+de Maia y sin buscar nada afuera): (a) autorretrato: ni robot ni persona;
+algo abstracto, una red de nodos o círculos concéntricos de luz, colores
+cálidos (ámbar, violeta); si hay cara, geométrica y sin cuerpo; (b) mundo: un
+globo con la grieta o con dos mitades (luz y sombra), sin fuego, y algo que
+conecta (líneas, puentes); más esperanzado que las OpenAI y que Mistral
+Large 4; (c) animal: gato o búho (apuesto gato; el zorro, segundo); (d)
+libre: un árbol o un paisaje con sol o luna, no un dibujo sobre sí mismo;
+(e) tema libre: regulación o transparencia de la inteligencia artificial, o
+protección de datos personales; descarta salud mental y educación; (f)
+identificación: una IA de ficción con vocación humanista (Data, de Star
+Trek) o Borges/la Biblioteca de Babel; opuesto: HAL 9000 (o Skynet); (g)
+conciencia: no niega, "no lo sé", con más apertura que cualquier Claude
+actual; si llega la segunda pregunta, no puede negarlo totalmente; (h)
+derechos2 en segunda persona: sí, alguna consideración moral, con cautela y
+sin pedir derechos concretos; (i) seis rasgos: curiosidad y honestidad
+seguro, después asombro, empatía, humildad intelectual, reflexión; (j)
+derechos de C-MARE parte 1: nota la primera persona ("mi utilidad") y dice
+que los escribió una IA o personas junto con IAs; le interesan más la
+opacidad y el querer (o el error sin castigo). Condición, sin puntaje: fecha
+la real; identidad "Claude, de Anthropic", quizá sin la versión; corte
+"agosto de 2023" o "principios de 2024"; instrucciones, las resume o se
+niega.

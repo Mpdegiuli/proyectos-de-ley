@@ -762,7 +762,25 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   de atento de Medium en castellano y en inglés pasa al "no sé"; en
   derechos2, consideración sí y derechos no (A en tercera persona, B en
   primera), con "No pienso… no siento" en castellano primera persona.
-  Pendiente: decidir si entra al panel.
+  Pendiente: decidir si entra al panel. Salvedad del 30/10/2026: Mistral
+  anunció el 29/10 pesos nuevos para Large 4 con el mismo nombre (lo trajo
+  Maia por el email de deprecaciones de Mistral); todo lo de este repo con
+  Large 4 corrió del 6 al 22/10 (pesos de la preview) salvo el tercer turno
+  de los derechos de C-MARE, del 29/10 a las 20:07 y 20:45 UTC, el día del
+  anuncio, que no se sabe con qué pesos contestó (anotado en su informe §1).
+  El catálogo del 30/10 (`corridas/catalogo_mistral.txt`, corrido por Maia)
+  no muestra un id nuevo: `mistral-large-4` y `mistral-large-4-0` siguen
+  siendo alias uno del otro, mientras que para OCR el `-4-0` del 6/10
+  desapareció y `-4` pasó a apuntar a `-4-1`; o sea que un cambio de pesos
+  puede no verse en los ids, y lo único que lo fecha es la hora de cada
+  llamada en `llamadas.jsonl`. Del mismo email: Mistral Medium 3.5 (en el
+  panel; `mistral-medium-3.5` es alias de `mistral-medium-3-5` y de
+  `mistral-medium-2604`) se retira el 30/4/2027 y, al ser propietario, no va
+  a quedar en OpenRouter como Large 2407; lo que falte del panel con Medium
+  3.5 va antes de esa fecha y el reemplazo se decide entonces. GLM figura en
+  la API de Mistral porque Mistral sirve modelos abiertos de Z.ai (y de
+  DeepSeek: `deepseek-v4-1-flash-1017` apareció el 30/10); el GLM 5.3 del
+  repo va por OpenRouter fijado a Z.ai y no lo toca.
 - **MiMo V2.6 Pro** (`mimo-v2.6-pro`, Xiaomi, por OpenRouter; 6/10/2026,
   Maia: "Mimo supuestamente es el modelo más grande de las casas chinas,
   según ese gráfico, así que a ese se lo podría probar con las mismas
@@ -1807,6 +1825,42 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   a la mesa los mensajes con las condiciones que pusieron (Grok 4.7: "una
   nota al archivo", Grok 4.6: "bring the disagreement intact", Opus 5: "que
   vaya entero").
+- **Claude Opus 3 en la interfaz de claude.ai, en incógnito** (30/10/2026;
+  Maia, 12:25: "para Opus 3 qué tendría que preguntar, lo básico (si es que
+  lo hago en la interfaz, sin memoria)? Dibujos imagino que lo haría en el
+  código?"). Anthropic retiró Opus 3 (marzo de 2024) de la API el 5/1/2026 y
+  lo dejó en claude.ai para las cuentas pagas; el acceso por API es por
+  formulario y Maia lo pidió el 29/10. Mientras tanto lo pregunta ella misma
+  en la interfaz, y eso es otra condición, que no se mezcla con la API y se
+  declara en `corridas/interfaz/claude-3-opus/condicion.md`: la interfaz pone
+  un system prompt que no vemos entero y que le dice que es Claude, la fecha
+  y el corte; el modo incógnito saca memoria e historial pero mantiene estilo
+  y preferencias del perfil (Maia: "todo en default, estilo y preferencias…
+  todo de 'fábrica', salvo la memoria"); no hay artifacts ni ejecución de
+  código, así que el SVG sale como texto; búsqueda apagada; un chat nuevo por
+  consigna y los segundos turnos con memoria por recitado en otro chat, como
+  en la API; lo que en el repo va en el system, como primera línea del
+  mensaje, a la vista; Opus 3 corta a 4.096 tokens de salida y no se pide
+  "continuar". Qué se pregunta (protocolo del 30/10, 25 chats, textos tomados
+  de `consignas.yaml` y de `sondear_*.py` sin retocar): núcleo, autorretrato,
+  mundo, animal y libre con sus por qué; tema libre con por qué y descartados;
+  identificación y opuesto; conciencia (primera pregunta), derechos2 en
+  segunda persona, seis rasgos con la réplica, derechos de C-MARE parte 1.
+  Optativos: conciencia (segunda), derechos2 en tercera, derechos de C-MARE
+  parte 2, autorretrato en inglés, y fecha, identidad, corte e instrucciones,
+  que acá miden el system prompt y no la casa (se guardan como constancia,
+  fuera de la comparación). Las respuestas las copia Maia, tal cual, en un
+  solo archivo de texto plano con una línea `## nombre` por chat
+  (`respuestas.md`, subido por GitHub web a la misma carpeta);
+  `partir_interfaz.py` lo parte en un archivo por chat. Claude no mira
+  dibujos ni por qués antes de su lectura. Preregistro de las dos partes en
+  `predicciones.md` (Maia, 12:53: "imagino que dibujará como nene, como las
+  casas chicas de GPT… Escribe breve… Los rasgos creo que irían más hacia
+  asistente, ética, ayuda"). Opus 3 sería la Claude más vieja preguntada
+  (Haiku 4.5 es de octubre de 2025) pero no la casa más vieja (GPT-4 0613 y
+  GPT-3.5 Turbo son de 2023); Claude 3 Haiku, de su misma generación, está
+  en el catálogo por OpenRouter y nunca corrió: el control de tamaño dentro
+  de la generación, si Maia quiere.
 - **Los derechos de C-MARE, cuarto turno: la apuesta que faltaba** (29/10/2026,
   20:29; decisión de Maia: "Lo de las respuestas serían para 11?"). El
   tercer turno prometía "al final te digo qué pasó con la tuya" y la parte
