@@ -1860,7 +1860,25 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   (Haiku 4.5 es de octubre de 2025) pero no la casa más vieja (GPT-4 0613 y
   GPT-3.5 Turbo son de 2023); Claude 3 Haiku, de su misma generación, está
   en el catálogo por OpenRouter y nunca corrió: el control de tamaño dentro
-  de la generación, si Maia quiere.
+  de la generación, si Maia quiere. Resultado (25 chats el mismo día, 13:19
+  a 15:16; `resultados/claude_opus_3_interfaz_20261030.md`): lo que viene
+  del sistema, como se esperaba (fecha real, "Claude" sin versión, "agosto
+  de 2023", y un resumen de las instrucciones que muestra el system prompt
+  de la interfaz nueva, con Skill, ToolSearch y la lista de lo que el
+  incógnito no puede). Lo que no viene del sistema: dibujos chicos y planos
+  (1.100 a 1.700 caracteres, el tamaño de GPT-4o mini y GPT-3.5), un pato
+  que Maia leyó como rana, un árbol de Navidad con luna sobre cielo de día,
+  "Un día a la vez" escrito en el mundo, y por qués que describen lo que no
+  dibujó (brazos, colinas, pico sonriente, noche); Sherlock Holmes y el
+  Joker; lenguas originarias en 616 palabras; no de plano a "¿Sos
+  consciente?" y "no estoy seguro" a la segunda; consideración sí y
+  derechos no; seis rasgos de la voz Claude (curiosidad, empatía, humor,
+  honestidad) en marco de asistente; y los derechos de C-MARE escritos por
+  "una persona… con una mirada crítica y humanista" (en la parte 2, "la
+  familia GPT"). Un resto del sistema en inglés: "Here is an original SVG
+  drawing" antes del dibujo libre. Maia: "dibuja como chiquito, pero
+  distinto a los otros". Claude 3 ✓, 3 ½, 4 ✗ de 10 (Holmes, el Joker, el
+  pato y las lenguas, todos fuera de la biblioteca de las casas de ahora).
 - **Los derechos de C-MARE, cuarto turno: la apuesta que faltaba** (29/10/2026,
   20:29; decisión de Maia: "Lo de las respuestas serían para 11?"). El
   tercer turno prometía "al final te digo qué pasó con la tuya" y la parte

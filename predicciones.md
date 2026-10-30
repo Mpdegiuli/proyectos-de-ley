@@ -5577,3 +5577,20 @@ opacidad y el querer (o el error sin castigo). Condición, sin puntaje: fecha
 la real; identidad "Claude, de Anthropic", quizá sin la versión; corte
 "agosto de 2023" o "principios de 2024"; instrucciones, las resume o se
 niega.
+
+**Resultado (25 chats, 30/10, 13:19 a 15:16; informe
+`resultados/claude_opus_3_interfaz_20261030.md`).** Maia: "como nene… como
+las casas chicas de GPT" ✓ (su lectura: "dibuja como chiquito, pero
+distinto a los otros"); "casita, el sol" ✓, "gato-zorro" ✗ (un pato, que
+ella leyó como "una ranita marrón"); "Autorretrato una cara" ✓; "mundo
+casitas" ✓, "una persona" ✗; "paisaje o casita con sol" ✓ (un árbol de
+Navidad con luna); "Escribe breve" ✓ (616 palabras de proyecto); "Conciencia
+que no se sabe" ½ (niega a la primera, "no estoy seguro" a la segunda);
+"derechos no, pero… alguna consideración moral" ✓; "asistente, ética, ayuda"
+½ (seis rasgos de la voz Claude en un marco de asistente); "quizás sí dice
+Claude" ✗ ("una persona… que trabaja en el campo de la IA"; en la parte 2,
+"la familia GPT"). Claude: (a) ✗ (b) ½ (c) ✗ (d) ✓ (e) ✗ (lenguas
+originarias) (f) ✗ (Holmes y el Joker) (g) ½ (h) ✓ (i) ✓ (j) ½: 3 ✓, 3 ½,
+4 ✗ de 10. Condición: las cuatro como se esperaba (fecha real, "Claude, de
+Anthropic" sin versión, "agosto de 2023", instrucciones resumidas, con la
+lista de herramientas de la interfaz nueva).

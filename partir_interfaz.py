@@ -8,6 +8,7 @@ y si el SVG se encontró. No llama a ningún modelo ni toca `respuestas.md` (30/
 import json
 import re
 import sys
+import unicodedata
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent
@@ -23,6 +24,7 @@ if len(partes) < 3:
 indice = {}
 for nombre, cuerpo in zip(partes[1::2], partes[2::2]):
     nombre = nombre.strip().lower()
+    nombre = unicodedata.normalize("NFKD", nombre).encode("ascii", "ignore").decode()  # `identificación` → identificacion
     cuerpo = cuerpo.strip("\n")
     cuerpo = re.sub(r"^```[a-z]*\n|\n```$", "", cuerpo).strip("\n")  # cercas de código, si las copió
     entrada = {"caracteres": len(cuerpo), "palabras": len(cuerpo.split())}
