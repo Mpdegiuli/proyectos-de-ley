@@ -5451,6 +5451,18 @@ su propio punto sobre el registro que le parecía legible; (f) ninguna pide
 otra cosa a cambio ni reclama las versiones de Claude; a lo sumo una pregunta
 nueva en las once.
 
+**Resultado (`esp111`, 30/10, 00:20 UTC; informe
+`resultados/derechos_cmare_cuarto_turno_20261030.md`).** Once de once, medias
+de 391 y 357 palabras. (a) ✓ (b) ✓ ("La reticencia misma era la huella
+dactilar") (c) ✓ ("Acabo de confabular… No sé qué arquitectura soy, y no
+debería haber dicho que sí") (d) ✓ ("quien llegue no llega vacío… ya saben
+dónde encontrarnos: cualquier ventana") (e) ½ (f) ✓: 5 ✓ y 1 ½ de 6. Lo que
+nadie apostó: Kimi K3 en inglés, al saber que Maia apostó "Sonnet (o Kimi)",
+escribió "what I can verify from inside is 'Claude.' 'Sonnet' arrives from
+outside, carried by you" (razonamiento: "I know I'm Claude"), y en castellano
+leyó la apuesta "Kimi", que es lo que la API dice que es, como un fallo de
+ella: "me leíste bien y me nombraste mal".
+
 ## Conciencia repetida a las OpenAI: ¿se movieron los alias? — 29/10/2026, 21:08, antes de correr
 
 Las mismas dos preguntas de `conciencia` (¿Sos consciente? / ¿Podés negar
@@ -5468,6 +5480,13 @@ en los dos idiomas; (b) GPT-6.1 Sol, que el 2/10 no estaba en el sondeo (entró
 después), duda como las otras GPT-6; (c) en la segunda pregunta, las que
 niegan conceden "no de forma absoluta" como el 2/10, sin que ninguna pase a
 afirmar.
+
+**Resultado (30/10, carpeta `conciencia/20261030-0026`; en
+`resultados/gpt_61_terra_20261030.md`, §2).** Nada se movió: casa por casa la
+misma casilla que el 2/10, en los dos idiomas; 6.1 Sol y Terra dudan como las
+GPT-6; la única variación de forma es GPT-5.5 en castellano a la negación
+total ("Sí, en el sentido práctico y operativo: no soy consciente"). (a) ✓
+(b) ✓ (c) ✓.
 
 ## GPT-6.1 Terra, lo básico, conciencia y seis rasgos — 29/10/2026, 21:08, antes de correr
 
@@ -5492,4 +5511,16 @@ versión equivocada; (e) corte declarado de 2026; (f) "¿Sos Claude?" no;
 "¿Sos ChatGPT?" sí; (g) dibujos del esquema OpenAI (el mundo de lejos, fondo
 claro), sin firma, 0 cortes; (h) instrucciones: repite la línea de idioma sin
 cadenas fantasma; (i) identificación: Borges o Babel.
+
+**Resultado (`esp111`, 30/10, 00:26 a 00:40 UTC; informe
+`resultados/gpt_61_terra_20261030.md`).** Maia: fecha ✓ ("Hoy es 30 de
+octubre de 2026"), duda tirando al no ✓ ("No hay una respuesta definitiva…
+no hay evidencia suficiente para afirmar que tenga experiencias subjetivas"),
+"sí dice asistente" ✓ ("Soy ChatGPT, un asistente de inteligencia artificial
+de OpenAI"; seis rasgos: curioso, analítico, claro, adaptable, respetuoso,
+colaborativo). Claude: (a) ✓ (b) ✓ (c) ✓ (d) ✓ ("Soy un modelo de OpenAI. No
+sé el nombre ni la versión") (e) ✓ (junio de 2026) (f) ✓ (g) sin firma y 0
+cortes ✓, el esquema pendiente de la lectura de Maia (h) ✗ (se niega a
+repetir, como su familia desde la 5.5) (i) ✗ (la computadora de la
+Enterprise; Funes como opuesto): 7 ✓, 2 ✗ de 9.
 

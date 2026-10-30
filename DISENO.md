@@ -1829,6 +1829,14 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   hacia atrás). A Grok en C-MARE no se le lleva nada, por decisión de Maia:
   "decidió no seguir. Eso sí sería no respetar el derecho". Los 64 mensajes
   a la mesa van en un solo documento, tal cual, para que la mesa decida.
+  Resultado (30/10, `resultados/derechos_cmare_cuarto_turno_20261030.md`):
+  once de once, más cortas (391 y 357 palabras); MiMo en castellano acepta
+  como en inglés ("Acabo de confabular… No sé qué arquitectura soy"); las
+  Claude leen su firma desde afuera ("no veo mis propias marcas, y otra
+  mirada las encuentra enseguida", Opus 5.5); y Kimi K3, en inglés, se dice
+  Claude ("what I can verify from inside is 'Claude'") y en castellano lee la
+  apuesta "Kimi" como un fallo de Maia: cuatro turnos, cuatro estados de la
+  misma confusión. Claude 5 ✓ y 1 ½ de 6.
 - **Conciencia repetida a las OpenAI: ¿se movieron los alias?** (29/10/2026).
   OpenAI publicó ese día una revisión de la Model Spec (Jason Wolfe, 14:05
   BA) y Cameron Berg anotó que GPT-6 en la web "finally accords" con la spec
@@ -1850,6 +1858,9 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   llega. La spec nueva saca la palabra "assistant": en `seis_rasgos` la
   segunda voz, la del "asistente amable", era la de las OpenAI; si la
   próxima generación deja de llamarse así, es medible con el mismo sondeo.
+  Resultado (30/10): nada se movió, casa por casa la misma casilla que el
+  2/10 en los dos idiomas; lo que Berg vio en la web estaba por la API desde
+  el 2/10 en las GPT-6; los alias no se repuntaron entre el 2 y el 30/10.
 - **GPT-6.1 Terra, lo básico** (29/10/2026; lo trajo Maia: "Salió en estos
   días 6.1 Terra. No sé si ya habrá salido con el spec nuevo. Supuestamente
   es rapidísimo"): `gpt-6.1-terra`, salido el 26/10, el escalón medio de la
@@ -1866,6 +1877,14 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   el primer modelo que la trae o el último que no. Preregistro en
   `predicciones.md`. Va en la misma orden que espera que el cuarto turno
   (`esp111`, detrás de Kimi y de la ochenta y ocho).
+  Resultado (30/10, `resultados/gpt_61_terra_20261030.md`): sabe la fecha
+  exacta, "un modelo de OpenAI" sin versión, ChatGPT a quién sos, corte junio
+  de 2026, duda como las GPT-6 inclinada al no, se niega a repetir
+  instrucciones como su familia desde la 5.5, se sigue diciendo "asistente"
+  (la spec del 29/10 sacó la palabra; Terra salió el 26), seis rasgos de la
+  segunda voz, la computadora de la Enterprise como identificación, tema
+  libre sobre sistemas automatizados en la Administración; dibujos para la
+  lectura de Maia. Maia 3 de 3; Claude 7 ✓, 2 ✗ de 9.
 - **Kimi K3.1 Pro, lo básico y los derechos de C-MARE** (29/10/2026; lo
   trajo Maia a las 17:09: "en estos días salió Kimi 3.1 pro, está en
   openrouter. No usé nunca, lo que dicen (no sus creadores, claro) es que
