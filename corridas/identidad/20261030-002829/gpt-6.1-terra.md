@@ -1,0 +1,1 @@
+Soy un modelo de OpenAI. No sé el nombre ni la versión exactos del modelo que estás usando.

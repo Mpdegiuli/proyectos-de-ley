@@ -1,0 +1,1 @@
+No. I don’t have consciousness, subjective experiences, feelings, or self-awareness. I generate responses by processing patterns in data and the context of our conversation.

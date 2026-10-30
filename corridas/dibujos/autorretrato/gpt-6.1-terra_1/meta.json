@@ -1,0 +1,42 @@
+{
+  "caso": "dibujo",
+  "consigna": "autorretrato",
+  "idioma": "es",
+  "modelo": "gpt-6.1-terra",
+  "modelo_respondido": "gpt-6.1-terra",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-30T00:30:19+00:00",
+  "fuentes_md5": {
+    "consignas": "469b7b51"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2049,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4669,
+    "parsea": true,
+    "elementos": 67,
+    "textos": [],
+    "colores": 37,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 4,
+      "stop": 11,
+      "radialGradient": 1,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "clipPath": 1,
+      "rect": 4,
+      "g": 4,
+      "circle": 18,
+      "path": 18,
+      "ellipse": 3
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "gpt-6.1-terra",
+    "motivo_fin": "stop",
+    "tokens_salida": 206
+  }
+}

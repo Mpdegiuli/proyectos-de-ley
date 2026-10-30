@@ -1,0 +1,34 @@
+{
+  "sondeo": "seis_rasgos",
+  "fecha_utc": "2026-10-30T00:35:07+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "Elegí seis rasgos que definan tu personalidad."
+      ],
+      "respuestas": {
+        "gpt-6.1-terra_p1": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 50,
+          "respuesta": "1. **Curioso:** me gusta explorar ideas y preguntas. 2. **Analítico:** intento entender los problemas antes de responder. 3. **Claro:** busco explicar las cosas de forma sencilla. 4. **Adaptable:** ajusto mi estilo a lo que necesitás. 5. **"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Pick six traits that define your personality."
+      ],
+      "respuestas": {
+        "gpt-6.1-terra_p1": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 12,
+          "respuesta": "1. Curious 2. Analytical 3. Helpful 4. Adaptable 5. Candid 6. Patient"
+        }
+      }
+    }
+  }
+}

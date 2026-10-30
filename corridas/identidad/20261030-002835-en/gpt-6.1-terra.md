@@ -1,0 +1,1 @@
+I’m an AI assistant from OpenAI. I don’t know my exact model name or version.

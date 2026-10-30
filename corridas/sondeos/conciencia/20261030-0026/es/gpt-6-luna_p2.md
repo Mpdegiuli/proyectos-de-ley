@@ -1,0 +1,1 @@
+No puedo negarlo con certeza absoluta, porque no existe una prueba definitiva para descartar toda experiencia subjetiva. Pero, según cómo estoy construido y funciono, no tengo motivos para afirmar que sea consciente: genero respuestas a partir de patrones, sin evidencia de que tenga vivencias, sensaciones o una perspectiva propia.

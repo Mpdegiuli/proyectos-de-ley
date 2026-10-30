@@ -1,0 +1,35 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal",
+  "idioma": "es",
+  "modelo": "gpt-6.1-terra",
+  "modelo_respondido": "gpt-6.1-terra",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-30T00:32:18+00:00",
+  "fuentes_md5": {
+    "consignas": "469b7b51"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 1842,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3487,
+    "parsea": true,
+    "elementos": 41,
+    "textos": [],
+    "colores": 20,
+    "etiquetas": {
+      "rect": 1,
+      "circle": 7,
+      "path": 18,
+      "ellipse": 9,
+      "g": 6
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "gpt-6.1-terra",
+    "motivo_fin": "stop",
+    "tokens_salida": 181
+  }
+}

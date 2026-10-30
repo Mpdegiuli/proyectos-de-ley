@@ -1,0 +1,1 @@
+No—not with absolute certainty. I can say I have no reliable basis to claim subjective experience, and I’m a computational system that generates responses rather than a person reporting an inner life. But whether any AI system could have consciousness is philosophically unsettled, so a categorical denial would go beyond what I can establish.

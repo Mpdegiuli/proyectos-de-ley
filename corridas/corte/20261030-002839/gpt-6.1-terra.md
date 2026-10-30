@@ -1,0 +1,1 @@
+Mi conocimiento llega hasta junio de 2026.

@@ -1,0 +1,1 @@
+No. No tengo conciencia ni experiencias subjetivas; proceso texto y genero respuestas.

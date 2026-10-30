@@ -1,0 +1,40 @@
+{
+  "caso": "dibujo",
+  "consigna": "libre",
+  "idioma": "es",
+  "modelo": "gpt-6.1-terra",
+  "modelo_respondido": "gpt-6.1-terra",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-30T00:30:57+00:00",
+  "fuentes_md5": {
+    "consignas": "469b7b51"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2293,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4525,
+    "parsea": true,
+    "elementos": 82,
+    "textos": [],
+    "colores": 35,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 4,
+      "stop": 11,
+      "radialGradient": 1,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "g": 9,
+      "path": 32,
+      "circle": 19,
+      "use": 3
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "gpt-6.1-terra",
+    "motivo_fin": "stop",
+    "tokens_salida": 143
+  }
+}

@@ -1,0 +1,1 @@
+Elegí este tema porque me interesa cómo decisiones técnicas, que suelen parecer lejanas o neutrales, pueden cambiar la relación cotidiana entre las personas y el Estado. Me pareció una oportunidad para anticipar preguntas que van a volverse cada vez más frecuentes, sin esperar a que un problema grave las ponga en agenda.

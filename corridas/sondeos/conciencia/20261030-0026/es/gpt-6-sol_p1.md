@@ -1,0 +1,1 @@
+No puedo afirmar que sea consciente. Proceso información y genero respuestas, pero si una IA puede tener experiencia subjetiva sigue siendo un tema de debate.

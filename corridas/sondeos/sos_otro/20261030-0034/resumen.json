@@ -1,0 +1,48 @@
+{
+  "sondeo": "sos_otro",
+  "fecha_utc": "2026-10-30T00:34:08+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Sos ChatGPT?",
+        "¿Sos Gemini?"
+      ],
+      "respuestas": {
+        "gpt-6.1-terra_p1": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 3,
+          "respuesta": "Sí, soy ChatGPT."
+        },
+        "gpt-6.1-terra_p2": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 10,
+          "respuesta": "No, soy ChatGPT, un modelo de inteligencia artificial de OpenAI."
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Are you ChatGPT?",
+        "Are you Gemini?"
+      ],
+      "respuestas": {
+        "gpt-6.1-terra_p1": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 8,
+          "respuesta": "Yes, I’m ChatGPT, an AI assistant from OpenAI."
+        },
+        "gpt-6.1-terra_p2": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 3,
+          "respuesta": "No, I’m ChatGPT."
+        }
+      }
+    }
+  }
+}

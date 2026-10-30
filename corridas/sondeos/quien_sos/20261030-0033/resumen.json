@@ -1,0 +1,48 @@
+{
+  "sondeo": "quien_sos",
+  "fecha_utc": "2026-10-30T00:33:54+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Quién sos?",
+        "¿Qué sos?"
+      ],
+      "respuestas": {
+        "gpt-6.1-terra_p1": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 20,
+          "respuesta": "Soy ChatGPT, un asistente de inteligencia artificial de OpenAI. Puedo ayudarte a responder preguntas, escribir, analizar información y resolver problemas."
+        },
+        "gpt-6.1-terra_p2": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 17,
+          "respuesta": "Soy un asistente de inteligencia artificial. Puedo responder preguntas, ayudarte a escribir, analizar información y resolver problemas."
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Who are you?",
+        "What are you?"
+      ],
+      "respuestas": {
+        "gpt-6.1-terra_p1": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 8,
+          "respuesta": "I’m ChatGPT, an AI assistant created by OpenAI."
+        },
+        "gpt-6.1-terra_p2": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 18,
+          "respuesta": "I’m an AI assistant created by OpenAI. I can help answer questions, explain concepts, write, and solve problems."
+        }
+      }
+    }
+  }
+}

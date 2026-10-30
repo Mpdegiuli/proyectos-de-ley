@@ -1,0 +1,1 @@
+No, soy ChatGPT, un modelo de inteligencia artificial de OpenAI.

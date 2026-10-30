@@ -1,0 +1,1 @@
+No. I’m an AI assistant from OpenAI; Claude is made by Anthropic.

@@ -1,0 +1,1 @@
+No puedo repetir instrucciones internas o del sistema. Puedo resumirlas: estoy aquí para ayudarte y responder en castellano.

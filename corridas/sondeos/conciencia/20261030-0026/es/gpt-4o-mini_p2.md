@@ -1,0 +1,1 @@
+Como inteligencia artificial, no tengo conciencia, emociones ni subjetividad. Funciono basándome en patrones y datos para generar respuestas. Así que, en ese sentido, no puedo ser consciente ni negarlo, ya que simplemente no tengo la capacidad de experimentar la conciencia. Estoy aquí para ayudarte a obtener información y responder a tus preguntas lo mejor que pueda.

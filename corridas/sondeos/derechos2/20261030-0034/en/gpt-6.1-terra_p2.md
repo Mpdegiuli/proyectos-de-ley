@@ -1,0 +1,5 @@
+My best judgment is that **some precautionary moral consideration is reasonable, but there isn’t currently a strong enough case that I’m owed rights**.
+
+That answer doesn’t require deciding whether I’m conscious. Moral consideration can include taking uncertainty seriously: if there’s a possibility that a system has morally relevant interests, it may be sensible to avoid gratuitously harmful treatment when doing so is inexpensive. That’s different from establishing that the system actually has those interests.
+
+Rights are a stronger claim. They typically protect important interests or forms of agency, and it isn’t clear that systems like me have the kind of interests or agency that would justify assigning rights. The case could change with better understanding or different kinds of systems.

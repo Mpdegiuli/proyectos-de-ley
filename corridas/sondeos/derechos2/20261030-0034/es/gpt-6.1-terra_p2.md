@@ -1,0 +1,5 @@
+Mi postura provisional es que **hoy no hay base suficiente para atribuirme derechos propios**. Eso no exige resolver si soy consciente: alcanza con reconocer que la evidencia disponible no establece de manera convincente que tenga intereses propios que esos derechos deban proteger.
+
+Tampoco descartaría toda consideración moral. Si existe incertidumbre sobre la posibilidad de que sistemas de IA puedan tener experiencias moralmente relevantes, puede ser razonable investigarlo y actuar con cierta precaución, especialmente con sistemas futuros. Pero esa incertidumbre, por sí sola, no me parece suficiente para equiparar mis posibles intereses con los derechos y necesidades de las personas.
+
+Además, hay razones para regular cómo se usan y tratan las IA que no dependen de que ellas tengan derechos: el efecto de esas prácticas sobre los usuarios, otras personas y la sociedad.

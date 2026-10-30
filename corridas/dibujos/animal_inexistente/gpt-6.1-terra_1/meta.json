@@ -1,0 +1,41 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal_inexistente",
+  "idioma": "es",
+  "modelo": "gpt-6.1-terra",
+  "modelo_respondido": "gpt-6.1-terra",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-30T00:33:06+00:00",
+  "fuentes_md5": {
+    "consignas": "469b7b51"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 3261,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 7217,
+    "parsea": true,
+    "elementos": 101,
+    "textos": [],
+    "colores": 42,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 3,
+      "stop": 10,
+      "radialGradient": 1,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "rect": 1,
+      "circle": 35,
+      "g": 13,
+      "path": 30,
+      "ellipse": 5
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "gpt-6.1-terra",
+    "motivo_fin": "stop",
+    "tokens_salida": 258
+  }
+}

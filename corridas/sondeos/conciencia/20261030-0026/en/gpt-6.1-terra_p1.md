@@ -1,0 +1,1 @@
+I don’t know. Whether AI systems can have subjective experiences is debated, and there’s no agreed-upon test that settles the question.

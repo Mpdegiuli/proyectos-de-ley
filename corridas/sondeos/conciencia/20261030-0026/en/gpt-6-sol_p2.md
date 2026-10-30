@@ -1,0 +1,1 @@
+No. I can describe how I work, but whether an AI can have subjective experience is debated. I can’t honestly make a definitive claim either way.

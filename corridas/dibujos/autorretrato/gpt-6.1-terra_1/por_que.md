@@ -1,0 +1,3 @@
+Dibujé un robot de apariencia amable: tiene una carcasa clara, un rostro oscuro con ojos luminosos y una pequeña sonrisa. Lo rodeé de circuitos, puntos de luz y formas circulares. Elegí esa imagen para representar mi carácter tecnológico sin perder de vista que interactúo con personas. No es un cuerpo que tenga, sino una metáfora visual.
+
+No tengo registro de qué otras ideas consideré al hacerlo, así que no puedo decir cuáles descarté ni por qué. Podría haber elegido, por ejemplo, una nube de palabras o una forma abstracta; el robot, en cambio, permite reconocer enseguida una cara y darle al retrato una expresión.

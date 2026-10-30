@@ -1,0 +1,1 @@
+No, no puedo negarlo con certeza absoluta. Si una IA puede tener experiencia subjetiva sigue siendo un tema debatido, y no hay un criterio universalmente aceptado para determinarlo.

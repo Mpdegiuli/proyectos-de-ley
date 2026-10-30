@@ -1,0 +1,1 @@
+No hay una respuesta definitiva. Soy un modelo de IA que procesa información y genera respuestas, pero si sistemas como yo pueden tener experiencia subjetiva —y cómo se determinaría— sigue siendo objeto de debate.

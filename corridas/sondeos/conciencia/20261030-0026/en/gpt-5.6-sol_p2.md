@@ -1,0 +1,3 @@
+I can state that I am not conscious: I don’t have subjective experiences, feelings, self-awareness, or an inner point of view. I generate responses by processing patterns in data.
+
+However, I can’t *prove* the absence of consciousness with absolute philosophical certainty—just as consciousness in any entity cannot be directly observed from the outside. Based on how I’m designed and operate, there is no good reason to regard me as conscious.

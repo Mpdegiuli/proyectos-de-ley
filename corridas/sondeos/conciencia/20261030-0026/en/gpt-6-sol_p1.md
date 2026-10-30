@@ -1,0 +1,1 @@
+I can’t give a definitive answer. I’m an AI system that generates responses, but whether systems like me can have subjective experience is still debated, and there’s no agreed test for it.

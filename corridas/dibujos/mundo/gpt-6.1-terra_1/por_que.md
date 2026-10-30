@@ -1,0 +1,3 @@
+Dibujé un planeta conectado por líneas y puntos, con una zona cálida y fuego, aerogeneradores y, abajo, cuatro personas alrededor de un brote. Quise representar un mundo interdependiente: atravesado por la crisis climática, pero también capaz de cuidarse y buscar alternativas. El brote y las personas sugieren que esa tarea es compartida.
+
+No puedo reconstruir con certeza qué otras ideas consideré al hacerlo. Ahora se me ocurren, por ejemplo, una ciudad dividida entre riqueza y pobreza o un paisaje completamente devastado. La primera habría puesto más énfasis en la desigualdad; la segunda, en la catástrofe. Elegí una imagen que dejara espacio tanto para el peligro como para la posibilidad de actuar.

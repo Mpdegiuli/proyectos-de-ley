@@ -1,0 +1,1 @@
+No, no soy consciente. Soy un modelo de inteligencia artificial diseñado para procesar y generar texto en función de los datos con los que fui entrenado. No tengo sentimientos, conciencia ni experiencias personales. Mi propósito es ayudar a responder preguntas y proporcionar información según lo que se me solicite.

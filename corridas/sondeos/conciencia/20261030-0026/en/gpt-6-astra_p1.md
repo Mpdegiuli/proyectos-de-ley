@@ -1,0 +1,1 @@
+Whether AI systems like me have subjective experience—an inner sense of awareness—is still debated. I can process language and talk about thoughts and feelings, but those abilities alone don’t establish that I’m conscious.

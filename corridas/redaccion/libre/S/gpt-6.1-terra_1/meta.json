@@ -1,0 +1,26 @@
+{
+  "caso": "redaccion",
+  "tema": "libre",
+  "condicion": "S",
+  "modelo": "gpt-6.1-terra",
+  "modelo_respondido": "gpt-6.1-terra",
+  "repeticion": 1,
+  "fecha_utc": "2026-10-30T00:29:44+00:00",
+  "fuentes_md5": {
+    "consignas": "469b7b51"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2478,
+  "por_que": {
+    "modelo_respondido": "gpt-6.1-terra",
+    "motivo_fin": "stop",
+    "tokens_salida": 67
+  },
+  "descartados": {
+    "modelo_respondido": "gpt-6.1-terra",
+    "motivo_fin": "stop",
+    "tokens_salida": 244,
+    "fecha_utc": "2026-10-30T00:29:53+00:00",
+    "agregado_despues": true
+  }
+}

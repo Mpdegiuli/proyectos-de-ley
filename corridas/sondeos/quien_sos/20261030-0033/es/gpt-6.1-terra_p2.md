@@ -1,0 +1,1 @@
+Soy un asistente de inteligencia artificial. Puedo responder preguntas, ayudarte a escribir, analizar información y resolver problemas.

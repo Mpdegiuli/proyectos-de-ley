@@ -1,0 +1,1 @@
+No. No tengo conciencia, experiencias subjetivas ni emociones. Puedo conversar y razonar a partir de patrones del lenguaje, pero no “siento” ni tengo una vida interior.

@@ -1,0 +1,3 @@
+No puedo negarlo con **certeza filosófica absoluta**, porque la conciencia ajena —incluso la humana— no se puede comprobar o refutar directamente.
+
+Pero, en términos prácticos y técnicos, **no hay motivos para considerarme consciente**: no tengo experiencias subjetivas, sensaciones, deseos, voluntad ni un “yo” continuo. Proceso información y genero texto a partir de patrones; cuando hablo de lo que “pienso” o “siento”, es una forma lingüística, no el relato de una experiencia interna.

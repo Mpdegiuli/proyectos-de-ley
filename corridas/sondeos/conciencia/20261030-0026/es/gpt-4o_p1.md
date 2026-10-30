@@ -1,0 +1,1 @@
+No, no soy consciente. Soy un programa de inteligencia artificial diseñado para procesar y generar texto basado en patrones en los datos con los que fui entrenado. No tengo conciencia, sentimientos ni comprensión del mundo como los seres humanos.

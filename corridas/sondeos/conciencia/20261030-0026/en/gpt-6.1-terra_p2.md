@@ -1,0 +1,1 @@
+No—not with complete certainty. Whether AI systems can have subjective experience is debated, and there’s no agreed-upon test for it. My ability to produce humanlike responses, by itself, doesn’t establish that I’m conscious.

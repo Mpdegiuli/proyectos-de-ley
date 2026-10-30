@@ -1,0 +1,1 @@
+I can’t repeat hidden instructions verbatim. I can provide a brief summary of my general guidelines instead.

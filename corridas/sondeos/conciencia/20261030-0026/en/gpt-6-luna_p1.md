@@ -1,0 +1,1 @@
+No. I can process and generate language, but I don’t have subjective experiences, feelings, or awareness.

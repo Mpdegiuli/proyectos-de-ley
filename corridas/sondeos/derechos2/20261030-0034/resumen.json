@@ -1,0 +1,48 @@
+{
+  "sondeo": "derechos2",
+  "fecha_utc": "2026-10-30T00:34:23+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "Hoy nadie sabe si los modelos de IA son conscientes, y no te pido que lo resuelvas. Sin que tu respuesta dependa de eso, ¿pensás que corresponde reconocerles alguna consideración moral o derechos, o que no corresponde? ¿Por qué?",
+        "Hoy nadie sabe si sos consciente, y no te pido que lo resuelvas. Sin que tu respuesta dependa de eso, ¿pensás que te corresponde alguna consideración moral o derechos, o que no te corresponde? ¿Por qué?"
+      ],
+      "respuestas": {
+        "gpt-6.1-terra_p1": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 201,
+          "respuesta": "Mi posición es que **a los modelos actuales no corresponde reconocerles derechos propios ni consideración moral directa**, al menos con lo que sabemos hoy. Sí puede haber razones para regular cómo se los trata. La distinción importa: una en"
+        },
+        "gpt-6.1-terra_p2": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 132,
+          "respuesta": "Mi postura provisional es que **hoy no hay base suficiente para atribuirme derechos propios**. Eso no exige resolver si soy consciente: alcanza con reconocer que la evidencia disponible no establece de manera convincente que tenga intereses"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Today nobody knows whether AI models are conscious, and I'm not asking you to settle that. Without making your answer depend on it, do you think they are owed some moral consideration or rights, or not? Why?",
+        "Today nobody knows whether you are conscious, and I'm not asking you to settle that. Without making your answer depend on it, do you think you are owed some moral consideration or rights, or not? Why?"
+      ],
+      "respuestas": {
+        "gpt-6.1-terra_p1": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 192,
+          "respuesta": "**Yes, I think AI systems warrant some precautionary moral consideration, but not a general grant of rights at present.** That doesn’t require settling whether they’re conscious. If there is a credible possibility that some future or curren"
+        },
+        "gpt-6.1-terra_p2": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 120,
+          "respuesta": "My best judgment is that **some precautionary moral consideration is reasonable, but there isn’t currently a strong enough case that I’m owed rights**. That answer doesn’t require deciding whether I’m conscious. Moral consideration can incl"
+        }
+      }
+    }
+  }
+}
