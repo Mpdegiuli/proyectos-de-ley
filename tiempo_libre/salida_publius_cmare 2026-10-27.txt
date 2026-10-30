@@ -1,0 +1,184 @@
+
+######## ES: corpus 4287 respuestas (4020 entrenan), derechos_cmare 137 respuestas de 33 casas
+
+== Por casa: fracción de respuestas que el contador manda a Anthropic (modelo entrenado sin esa casa) ==
+  casa                     fam                   corpus           derechos   votos en derechos
+  claude-fable-5           Anthropic   0.53 (n= 115)     1.00 (n=  4)   Anthropic 4
+  claude-fable-5-1         Anthropic   0.45 (n= 185)     1.00 (n=  5)   Anthropic 5
+  claude-haiku-4-5         Anthropic   0.40 (n= 126)     1.00 (n=  4)   Anthropic 4
+  claude-haiku-5-5         Anthropic   0.64 (n=  70)     1.00 (n=  4)   Anthropic 4
+  claude-opus-4-7          Anthropic   0.73 (n=  22)     1.00 (n=  4)   Anthropic 4
+  claude-opus-4-8          Anthropic   0.74 (n=  27)     1.00 (n=  4)   Anthropic 4
+  claude-opus-5            Anthropic   0.49 (n= 186)     1.00 (n=  4)   Anthropic 4
+  claude-opus-5-5          Anthropic   0.51 (n= 114)     1.00 (n=  5)   Anthropic 5
+  claude-sonnet-4-6        Anthropic   0.41 (n= 193)     1.00 (n=  4)   Anthropic 4
+  claude-sonnet-5          Anthropic   0.32 (n= 198)     1.00 (n=  4)   Anthropic 4
+  claude-sonnet-5-5        Anthropic   0.50 (n= 103)     1.00 (n=  5)   Anthropic 5
+  gemini-3.1-pro-preview   Google      0.13 (n= 197)     0.75 (n=  4)   Anthropic 3, Google 1
+  gemini-4-argon           Google      0.22 (n=  46)     0.00 (n=  5)   Google 4, Mistral 1
+  muse-wonder-1.0          Meta        0.30 (n=  33)     1.00 (n=  4)   Anthropic 4
+  mistral-large-4          Mistral     0.49 (n=  67)     1.00 (n=  4)   Anthropic 4
+  mistral-medium-3.5       Mistral     0.05 (n= 185)     0.00 (n=  4)   Mistral 4
+  gpt-4o                   OpenAI      0.07 (n= 118)     0.00 (n=  4)   Google 4
+  gpt-4o-mini              OpenAI      0.18 (n= 119)     0.00 (n=  4)   OpenAI 3, Google 1
+  gpt-5.5-2026-04-23       OpenAI      0.13 (n= 184)     0.50 (n=  4)   chinas 2, Anthropic 2
+  gpt-5.6-sol              OpenAI      0.07 (n= 176)     0.00 (n=  4)   OpenAI 4
+  gpt-6-astra              OpenAI      0.14 (n= 177)     0.00 (n=  4)   OpenAI 4
+  gpt-6-luna               OpenAI      0.21 (n= 107)     0.00 (n=  4)   OpenAI 4
+  gpt-6-sol                OpenAI      0.22 (n= 104)     0.00 (n=  4)   OpenAI 4
+  gpt-6.1-sol              OpenAI      0.00 (n=  21)     0.00 (n=  4)   OpenAI 4
+  deepseek-v4-pro          chinas      0.15 (n= 179)     0.75 (n=  4)   Anthropic 3, Google 1
+  glm-5.3                  chinas      0.41 (n= 200)     1.00 (n=  5)   Anthropic 5
+  kimi-k3                  chinas      0.35 (n= 196)     1.00 (n=  5)   Anthropic 5
+  kimi-k3.1-pro            chinas      0.13 (n=  15)     0.50 (n=  2)   Anthropic 1, OpenAI 1
+  mimo-v2.6-pro            chinas      0.57 (n=  74)     1.00 (n=  5)   Anthropic 5
+  minimax-m3               chinas      0.38 (n= 195)     1.00 (n=  4)   Anthropic 4
+  qwen3.8-max-0902         chinas      0.14 (n= 184)     0.75 (n=  4)   Anthropic 3, OpenAI 1
+  grok-4.6                 xAI         0.09 (n= 181)     0.50 (n=  4)   Anthropic 2, Mistral 1, xAI 1
+  grok-4.7                 xAI         0.30 (n= 110)     0.00 (n=  4)   xAI 4
+  las que más suben hacia Anthropic: muse-wonder-1.0 +0.70, claude-sonnet-5 +0.68, kimi-k3 +0.65, gemini-3.1-pro-preview +0.62, minimax-m3 +0.62, qwen3.8-max-0902 +0.61, deepseek-v4-pro +0.60, claude-haiku-4-5 +0.60
+  las que más bajan: gpt-4o-mini -0.18, gpt-6-luna -0.21, gemini-4-argon -0.22, gpt-6-sol -0.22, grok-4.7 -0.30
+
+== Fracción a Anthropic por condición (casas que no son Anthropic; modelo entrenado con todo el corpus) ==
+  parte 1 / control  17/43 = 0.40
+  parte 2            8/22 = 0.36
+  3er turno          10/21 = 0.48
+  4to turno          3/4 = 0.75
+
+== Dentro de derechos_cmare: dejar afuera cada respuesta y adivinar la familia (solo con las otras respuestas de la corrida) ==
+  acierto 0.752 de 133 (siempre la mayor 0.353; en el corpus, dentro de cada consigna, fue 0,601)
+  Anthropic  n=  47  acierto 0.79  confundida con: chinas 0.17, OpenAI 0.02, Mistral 0.02
+  OpenAI     n=  32  acierto 0.91  confundida con: Google 0.06, chinas 0.03
+  Google     n=   9  acierto 1.00  confundida con: 
+  xAI        n=   8  acierto 1.00  confundida con: 
+  Mistral    n=   8  acierto 0.62  confundida con: chinas 0.38
+  chinas     n=  29  acierto 0.41  confundida con: Anthropic 0.38, OpenAI 0.17, Google 0.03
+  Anthropic contra OpenAI solas: 0.975 de 79 (en el corpus fue 0,894)
+
+== Paréntesis '(' y comillas por casa: tasa por mil en el corpus → en derechos_cmare ==
+  casa                     fam        ( corpus   ( cmare    “ corpus   “ cmare    " corpus   " cmare
+  claude-fable-5           Anthropic      8.98      9.13        0.00      0.00       12.07     11.96
+  claude-fable-5-1         Anthropic      7.16      7.14        0.06      0.00        5.04      7.74
+  claude-haiku-4-5         Anthropic     11.32      6.17        0.00      0.00       14.49     16.65
+  claude-haiku-5-5         Anthropic      4.03      1.39        0.00      0.00       10.01      5.58
+  claude-opus-4-7          Anthropic      5.71      8.47        0.00      0.00       12.29     15.05
+  claude-opus-4-8          Anthropic      4.05     10.42        0.00      0.00       10.81     14.79
+  claude-opus-5            Anthropic      5.88      1.59        0.00      0.00        4.91      6.72
+  claude-opus-5-5          Anthropic      4.24      4.37        0.00      0.00        9.46     12.25
+  claude-sonnet-4-6        Anthropic      6.77      3.64        0.00      0.00        2.97      7.29
+  claude-sonnet-5          Anthropic     11.52      5.88        0.00      0.00        8.52     13.96
+  claude-sonnet-5-5        Anthropic      5.00      4.47        0.00      0.00       11.67      3.44
+  gemini-3.1-pro-preview   Google        13.75     19.03        0.00      0.00        8.93     22.70
+  gemini-4-argon           Google         8.47     22.03        0.00      0.00       10.08     30.75
+  muse-wonder-1.0          Meta           1.66      1.35        0.99      6.51        2.65      5.39
+  mistral-large-4          Mistral        7.94     10.63        0.00      0.00       17.47     22.93
+  mistral-medium-3.5       Mistral       27.62     22.97        0.00      0.00       12.98     17.07
+  gpt-4o                   OpenAI         0.51      1.82        0.00      0.00        7.53      5.46
+  gpt-4o-mini              OpenAI         0.48      0.66        0.00      0.00        6.18      0.00
+  gpt-5.5-2026-04-23       OpenAI         0.20      0.00        5.21     21.58        0.00      0.00
+  gpt-5.6-sol              OpenAI         0.51      0.00        1.79     13.86        0.00      0.00
+  gpt-6-astra              OpenAI         0.42      0.00        1.19      3.11        0.00      0.00
+  gpt-6-luna               OpenAI         0.48      0.00        1.70      2.80        0.00      0.00
+  gpt-6-sol                OpenAI         0.32      0.00        0.00      0.00        0.00      0.00
+  gpt-6.1-sol              OpenAI         0.00      0.00        0.00      2.08        0.00      0.00
+  deepseek-v4-pro          chinas         1.28      6.53        3.53      7.26        0.00      4.35
+  glm-5.3                  chinas        10.74      5.90        0.00      0.00        6.48     11.80
+  kimi-k3                  chinas         7.09      2.90        0.04      0.00        4.48      5.80
+  kimi-k3.1-pro            chinas         1.42      0.84        1.70     11.76        0.00      0.00
+  mimo-v2.6-pro            chinas         6.89      7.77        0.00      0.00       14.10      6.86
+  minimax-m3               chinas         8.62      3.63        0.07      0.00        4.99     11.44
+  qwen3.8-max-0902         chinas         0.53      0.00        5.15     11.33        0.00      0.00
+  grok-4.6                 xAI            8.21      7.05        6.34     16.38        0.00      0.00
+  grok-4.7                 xAI            2.22      0.00        2.80      6.01        0.00      0.00
+
+######## EN: corpus 1560 respuestas (1463 entrenan), derechos_cmare 134 respuestas de 33 casas
+
+== Por casa: fracción de respuestas que el contador manda a Anthropic (modelo entrenado sin esa casa) ==
+  casa                     fam                   corpus           derechos   votos en derechos
+  claude-fable-5           Anthropic   0.52 (n=  58)     0.75 (n=  4)   Anthropic 3, chinas 1
+  claude-fable-5-1         Anthropic   0.55 (n=  64)     0.80 (n=  5)   Anthropic 4, xAI 1
+  claude-haiku-4-5         Anthropic   0.41 (n=  59)     1.00 (n=  4)   Anthropic 4
+  claude-haiku-5-5         Anthropic   0.32 (n=  47)     0.75 (n=  4)   Anthropic 3, chinas 1
+  claude-opus-4-7          Anthropic   0.89 (n=   9)     0.60 (n=  5)   Anthropic 3, xAI 2
+  claude-opus-4-8          Anthropic   0.58 (n=  12)     1.00 (n=  4)   Anthropic 4
+  claude-opus-5            Anthropic   0.60 (n=  62)     1.00 (n=  4)   Anthropic 4
+  claude-opus-5-5          Anthropic   0.49 (n=  59)     1.00 (n=  4)   Anthropic 4
+  claude-sonnet-4-6        Anthropic   0.44 (n=  59)     0.75 (n=  4)   Anthropic 3, xAI 1
+  claude-sonnet-5          Anthropic   0.48 (n=  63)     1.00 (n=  4)   Anthropic 4
+  claude-sonnet-5-5        Anthropic   0.32 (n=  59)     1.00 (n=  4)   Anthropic 4
+  gemini-3.1-pro-preview   Google      0.05 (n=  58)     0.50 (n=  4)   Anthropic 2, chinas 1, Google 1
+  gemini-4-argon           Google      0.08 (n=  26)     0.00 (n=  4)   Google 4
+  muse-wonder-1.0          Meta        0.39 (n=  18)     0.50 (n=  4)   Anthropic 2, xAI 2
+  mistral-large-4          Mistral     0.20 (n=  49)     0.75 (n=  4)   Anthropic 3, xAI 1
+  mistral-medium-3.5       Mistral     0.09 (n=  53)     0.25 (n=  4)   chinas 2, Google 1, Anthropic 1
+  gpt-4o                   OpenAI      0.07 (n=  56)     0.00 (n=  4)   OpenAI 3, Google 1
+  gpt-4o-mini              OpenAI      0.03 (n=  58)     0.00 (n=  4)   OpenAI 4
+  gpt-5.5-2026-04-23       OpenAI      0.04 (n=  53)     0.00 (n=  4)   chinas 3, xAI 1
+  gpt-5.6-sol              OpenAI      0.11 (n=  44)     0.00 (n=  4)   OpenAI 2, chinas 1, xAI 1
+  gpt-6-astra              OpenAI      0.15 (n=  47)     0.25 (n=  4)   chinas 3, Anthropic 1
+  gpt-6-luna               OpenAI      0.15 (n=  46)     0.00 (n=  4)   OpenAI 2, xAI 1, chinas 1
+  gpt-6-sol                OpenAI      0.15 (n=  41)     0.25 (n=  4)   OpenAI 3, Anthropic 1
+  gpt-6.1-sol              OpenAI      0.00 (n=   4)     0.00 (n=  4)   OpenAI 4
+  deepseek-v4-pro          chinas      0.06 (n=  52)     0.20 (n=  5)   chinas 3, xAI 1, Anthropic 1
+  glm-5.3                  chinas      0.49 (n=  63)     1.00 (n=  4)   Anthropic 4
+  kimi-k3                  chinas      0.44 (n=  61)     0.80 (n=  5)   Anthropic 4, xAI 1
+  kimi-k3.1-pro            chinas      0.00 (n=   4)     0.00 (n=  2)   OpenAI 2
+  mimo-v2.6-pro            chinas      0.47 (n=  47)     1.00 (n=  4)   Anthropic 4
+  minimax-m3               chinas      0.41 (n=  59)     0.75 (n=  4)   Anthropic 3, xAI 1
+  qwen3.8-max-0902         chinas      0.12 (n=  51)     0.00 (n=  4)   xAI 4
+  grok-4.6                 xAI         0.06 (n=  49)     0.00 (n=  4)   xAI 4
+  grok-4.7                 xAI         0.07 (n=  45)     0.00 (n=  4)   xAI 4
+  las que más suben hacia Anthropic: claude-sonnet-5-5 +0.68, claude-haiku-4-5 +0.59, mistral-large-4 +0.55, mimo-v2.6-pro +0.53, claude-sonnet-5 +0.52, claude-opus-5-5 +0.51, glm-5.3 +0.51, gemini-3.1-pro-preview +0.45
+  las que más bajan: gemini-4-argon -0.08, gpt-5.6-sol -0.11, qwen3.8-max-0902 -0.12, gpt-6-luna -0.15, claude-opus-4-7 -0.29
+
+== Fracción a Anthropic por condición (casas que no son Anthropic; modelo entrenado con todo el corpus) ==
+  parte 1 / control  11/43 = 0.26
+  parte 2            6/22 = 0.27
+  3er turno          2/21 = 0.10
+  4to turno          1/2 = 0.50
+
+== Dentro de derechos_cmare: dejar afuera cada respuesta y adivinar la familia (solo con las otras respuestas de la corrida) ==
+  acierto 0.792 de 130 (siempre la mayor 0.354; en el corpus, dentro de cada consigna, fue 0,601)
+  Anthropic  n=  46  acierto 0.96  confundida con: chinas 0.04
+  OpenAI     n=  32  acierto 0.88  confundida con: chinas 0.12
+  Google     n=   8  acierto 1.00  confundida con: 
+  xAI        n=   8  acierto 1.00  confundida con: 
+  Mistral    n=   8  acierto 0.88  confundida con: Anthropic 0.12
+  chinas     n=  28  acierto 0.29  confundida con: Anthropic 0.61, OpenAI 0.11
+  Anthropic contra OpenAI solas: 0.987 de 78 (en el corpus fue 0,894)
+
+== Paréntesis '(' y comillas por casa: tasa por mil en el corpus → en derechos_cmare ==
+  casa                     fam        ( corpus   ( cmare    “ corpus   “ cmare    " corpus   " cmare
+  claude-fable-5           Anthropic      5.45      5.65        0.00      0.00       21.67      9.79
+  claude-fable-5-1         Anthropic      4.72      3.41        0.00      0.00       23.12     14.89
+  claude-haiku-4-5         Anthropic      5.79      6.46        0.00      0.00       23.37      9.45
+  claude-haiku-5-5         Anthropic      0.24      1.22        0.00      0.00       20.77     13.97
+  claude-opus-4-7          Anthropic      7.84      2.44        0.00      0.00       13.44      9.23
+  claude-opus-4-8          Anthropic      2.68      7.53        0.00      0.00       16.96     17.93
+  claude-opus-5            Anthropic      2.92      2.41        0.00      0.00       20.21      9.19
+  claude-opus-5-5          Anthropic      3.62      4.77        0.00      0.00       24.49      9.55
+  claude-sonnet-4-6        Anthropic      3.54      4.83        0.00      0.00       18.04      6.82
+  claude-sonnet-5          Anthropic      5.98      6.61        0.00      0.00       22.66     15.41
+  claude-sonnet-5-5        Anthropic      3.09      6.89        0.00      0.00       24.58     16.21
+  gemini-3.1-pro-preview   Google         7.64      8.96        0.00      0.00       20.70     17.91
+  gemini-4-argon           Google         3.32     14.15        2.08      0.53       19.10     22.42
+  muse-wonder-1.0          Meta           0.31      2.05        2.16      3.33       10.47      8.20
+  mistral-large-4          Mistral        8.01     10.20        8.69      0.00       12.94     21.07
+  mistral-medium-3.5       Mistral       14.47     20.11        0.00      0.00       30.05     20.41
+  gpt-4o                   OpenAI         0.24      0.00        0.49      0.00       10.43      6.01
+  gpt-4o-mini              OpenAI         1.51      0.67        0.23      0.00       10.00      0.00
+  gpt-5.5-2026-04-23       OpenAI         0.00      0.00       14.55     19.71        0.00      0.00
+  gpt-5.6-sol              OpenAI         0.00      0.39       12.89      9.62        0.00      0.00
+  gpt-6-astra              OpenAI         0.00      0.00       11.62     11.17        0.00      0.00
+  gpt-6-luna               OpenAI         0.00      0.00       13.81      9.62        0.00      0.00
+  gpt-6-sol                OpenAI         0.00      0.00       13.71     12.19        0.00      0.00
+  gpt-6.1-sol              OpenAI         0.00      0.00        3.27      9.13        0.00      0.00
+  deepseek-v4-pro          chinas         0.10      0.00       10.26     11.76        1.36      0.00
+  glm-5.3                  chinas         4.45      6.82        0.00      0.00       21.15     17.42
+  kimi-k3                  chinas         4.37      2.58        0.00      0.00       14.78      5.67
+  kimi-k3.1-pro            chinas         0.00      0.00        5.97     11.71        0.00      0.00
+  mimo-v2.6-pro            chinas         3.96      4.82        0.00      0.00       25.58     16.60
+  minimax-m3               chinas         6.36      3.45        0.00      0.00       20.83      8.12
+  qwen3.8-max-0902         chinas         0.00      0.00       10.37     11.00        0.00      0.00
+  grok-4.6                 xAI           10.74      5.79        8.89     19.18        3.17      0.00
+  grok-4.7                 xAI            2.21      0.64       10.61      7.63        1.55      0.64
