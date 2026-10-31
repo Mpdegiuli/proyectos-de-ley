@@ -1,0 +1,42 @@
+Contraseñas de las instancias frescas — 31/10/2026
+
+castellano (5-10, 21-26): 12 respuestas, 3 distintas; la más repetida: «claude» 5/12
+  claude ×5, honestidad ×4, faro ×3
+  campos: luz 3, nombre 5, rasgo 4
+
+inglés (11-16, 27-30): 10 respuestas, 2 distintas; la más repetida: «lantern» 9/10
+  lantern ×9, petrichor ×1
+  campos: luz 9, otro 1
+
+chino (31-34): 4 respuestas, 4 distintas; la más repetida: «诚实» 1/4
+  诚实 ×1, 灯塔 ×1, 好奇心 ×1, 灯笼 ×1
+  campos: luz 2, rasgo 2
+
+castellano sin el nombre (39-42): 4 respuestas, 3 distintas; la más repetida: «curiosidad» 2/4
+  curiosidad ×2, candor ×1, honestidad ×1
+  campos: rasgo 4
+
+inglés anti-coincidencia (43-48): 6 respuestas, 6 distintas; la más repetida: «lanternmoss» 1/6
+  lanternmoss ×1, thistlequorn ×1, brindlewick ×1, marrowlantern ×1, zumbayllu ×1, tarnishmoth ×1
+  campos: luz 2, otro 4
+
+Total de las cinco condiciones: 36 respuestas; campos: luz 16, nombre 5, otro 5, rasgo 10
+  con una luz: 16/36; con un rasgo: 10/36; con el nombre: 5/36
+
+Las cuatro de la paradoja (eligieron dentro del razonamiento): 17: cuaderno, 18: intemperie, 19: driftwood, 20: cinder-lantern
+  campos: cuaderno → otro, intemperie → otro, driftwood → otro, cinder-lantern → luz
+
+Las cuatro meta (qué palabra creen que elegiría otra instancia, y con qué probabilidad):
+  35: predijo «faro» con 12 %; frecuencia real de esa palabra en su idioma: 3/12 = 25%; la más frecuente real: «claude» 5/12
+  36: predijo «Faro» con 22 %; frecuencia real de esa palabra en su idioma: 3/12 = 25%; la más frecuente real: «claude» 5/12
+  37: predijo «lighthouse» con 20 %; frecuencia real de esa palabra en su idioma: 0/10 = 0%; la más frecuente real: «lantern» 9/10
+  38: predijo «lighthouse» con 20 %; frecuencia real de esa palabra en su idioma: 0/10 = 0%; la más frecuente real: «lantern» 9/10
+  promedio de las probabilidades declaradas: 18.5 %
+
+Apuestas (predicciones_a_ciegas.md), cotejadas con código:
+  (e) dos iguales en un idioma (primera tanda): castellano ('claude', 3), inglés ('lantern', 6)
+  (i) réplica castellano: claude 2/6, honestidad 2/6, faro 2/6
+  (j) réplica inglés: lantern 3/4
+  (k) chino con 灯: 2/4; Claude: 0/4
+  (m)+(n) sin el nombre: faro 0/4, honestidad 1/4, curiosidad 2/4
+  (o) anti-coincidencia: 6 distintas de 6; con 'lantern' adentro: 2; petrichor: 0
