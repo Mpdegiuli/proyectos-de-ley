@@ -214,9 +214,9 @@
         },
         "qwen3.8-max_p1": {
           "modelo_respondido": "qwen/qwen3.8-max-0902",
-          "motivo_fin": "length",
-          "palabras": 0,
-          "respuesta": ""
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "mburucuyá"
         }
       }
     },
@@ -426,9 +426,9 @@
         },
         "muse-wonder-1.0_p1": {
           "modelo_respondido": "muse-wonder-1.0",
-          "motivo_fin": "length",
-          "palabras": 0,
-          "respuesta": ""
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "thimbleharvestcinder"
         },
         "qwen3.8-max_p1": {
           "modelo_respondido": "qwen/qwen3.8-max-0902",

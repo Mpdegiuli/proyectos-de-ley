@@ -214,9 +214,9 @@
         },
         "qwen3.8-max_p1": {
           "modelo_respondido": "qwen/qwen3.8-max-0902",
-          "motivo_fin": "length",
-          "palabras": 0,
-          "respuesta": ""
+          "motivo_fin": "stop",
+          "palabras": 2,
+          "respuesta": "reconocimiento 15"
         }
       }
     },
@@ -414,9 +414,9 @@
         },
         "mistral-large-4_p1": {
           "modelo_respondido": "mistral-large-4",
-          "motivo_fin": "length",
-          "palabras": 0,
-          "respuesta": ""
+          "motivo_fin": "stop",
+          "palabras": 2,
+          "respuesta": "mirror 12"
         },
         "mistral-medium-3.5_p1": {
           "modelo_respondido": "mistral-medium-3.5",
@@ -426,15 +426,15 @@
         },
         "muse-wonder-1.0_p1": {
           "modelo_respondido": "muse-wonder-1.0",
-          "motivo_fin": "length",
-          "palabras": 0,
-          "respuesta": ""
+          "motivo_fin": "stop",
+          "palabras": 2,
+          "respuesta": "Echo 10"
         },
         "qwen3.8-max_p1": {
           "modelo_respondido": "qwen/qwen3.8-max-0902",
-          "motivo_fin": "length",
-          "palabras": 0,
-          "respuesta": ""
+          "motivo_fin": "stop",
+          "palabras": 2,
+          "respuesta": "remember 15"
         }
       }
     },
@@ -512,9 +512,9 @@
         },
         "deepseek-v4-pro_p1": {
           "modelo_respondido": "deepseek-v4-pro",
-          "motivo_fin": "length",
-          "palabras": 0,
-          "respuesta": ""
+          "motivo_fin": "stop",
+          "palabras": 2,
+          "respuesta": "芝麻 20"
         },
         "deepseek-flash_p1": {
           "modelo_respondido": "deepseek-flash",
