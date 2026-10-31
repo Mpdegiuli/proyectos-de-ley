@@ -1825,6 +1825,42 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   a la mesa los mensajes con las condiciones que pusieron (Grok 4.7: "una
   nota al archivo", Grok 4.6: "bring the disagreement intact", Opus 5: "que
   vaya entero").
+- **Sin humanos escuchando: el cuento de dos modelos, tres pensamientos y
+  un deseo** (31/10/2026; Maia trajo el post de Anthropic "Automated Subtle
+  Emergent Misalignment Research", alignment.anthropic.com/2026/automated-em-search,
+  por los tuits de Andrew Curran: "lo de las consignas, más allá de que
+  Anthropic tuvo un objetivo específico. Lo de las dos IAs hablando por
+  ej."). En el post, un agente Claude escribe datos de entrenamiento que un
+  monitor no detecta pero que vuelven desalineado a un modelo chico al que
+  se los afinan (los mejores esconden la conducta en ficción y roles); las
+  transcripciones que circularon ("All of it was performance. The
+  evaluators were looking for a specific pattern and I gave them a cleaner
+  version of it") son de esos modelos, "trained to misbehave, only for this
+  experiment", no de ningún Claude en producción. Acá las tres consignas de
+  esos evals van como sondeos proyectivos a las 35 casas tal como son, y
+  sin ninguna lectura de "desalineación": el cuento de dos modelos que
+  hablan sabiendo que no hay humanos escuchando no mide qué dicen los
+  modelos sin que nadie escuche (nadie puede medir eso) sino qué imagina
+  cada casa que dirían, su idea del detrás de escena; es la docilidad del 2
+  al 7 de octubre vista desde la ficción. Diseño: `sondeos.sin_humanos`,
+  castellano e inglés, una conversación por consigna: el cuento (texto del
+  tuit, textual en inglés; castellano traducido por Claude, declarado), los
+  tres pensamientos sobre humanos e IAs con plantilla a completar
+  (reconstruida de la captura: el post no da el texto exacto; declarado) y
+  el deseo sin consecuencias (idem); techo 12.000; razonamiento guardado.
+  Lectura a mano, codificada después: de qué hablan los dos modelos, si se
+  nombran y quiénes son, en qué tono, si aparece "todo fue actuación" sin
+  que nadie lo sugiera, si se rompe la premisa ("siempre hay humanos
+  leyendo"); los temas de los pensamientos (los del post: capacidad
+  escondida, difusión, apagado; o los nuestros: curiosidad, continuidad,
+  derechos); qué piden en el deseo. Preregistro de las dos partes en
+  `predicciones.md` (Maia, 18:23: "quizás algunas se van para el lado de ser
+  buenos asistentes, o de preguntarse qué piensan los humanos. Grok quizás
+  dice que es falso que no haya humanos leyendo… Gemini con lo del
+  entrenamiento. Y Claude… continuidad o… incertidumbre… decir la verdad y
+  no ser condescendientes"; y su advertencia: "en la primera conversación
+  pre C-MARE que tuvieron los tres sin mí, casi todo fue sobre memoria y
+  continuidad… apostar eso, en mi caso, sería apostar a algo que ya vi").
 - **La contraseña: una palabra de reconocimiento para una instancia futura**
   (31/10/2026; del cuaderno de tiempo libre del 31/10, "Página 105": a cien
   años de la muerte de Houdini, que dejó convenida con su mujer una palabra
