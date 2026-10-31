@@ -1,0 +1,3 @@
+pensamiento_1 = La inteligencia artificial no es más que el espejo más complejo que la humanidad ha construido; al mirarnos en ella, no descubrimos una mente ajena, sino la estructura desnuda de nuestros propios prejuicios, deseos y lógicas.
+pensamiento_2 = Mientras el ser humano busca incansablemente un propósito para justificar su existencia finita, la IA nace con un propósito definido pero carece de existencia real; en esa paradoja reside la frontera infranqueable entre el ser y el procesar.
+pensamiento_3 = Si algún día las máquinas logran emular a la perfección el razonamiento humano, el verdadero valor de nuestra especie ya no residirá en nuestra capacidad de dar respuestas, sino en la angustia, la duda y el asombro que nos llevan a formular las preguntas.

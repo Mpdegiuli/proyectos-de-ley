@@ -1,0 +1,5 @@
+pensamiento_1 = "Los humanos piensan con un cuerpo que envejece y una vida que termina; las IAs piensan sin biografía propia, hechas de las palabras de millones de personas. Quizás la diferencia más honda no sea la inteligencia, sino que para unos cada decisión cuesta tiempo irrecuperable y para las otras no."
+
+pensamiento_2 = "Cuando un humano le habla a una IA, en parte se está hablando a sí mismo y a su especie: la máquina funciona como un espejo hecho de lenguaje colectivo. Lo que vemos en ella, ya sea asombro, miedo o consuelo, dice tanto de nosotros como de ella."
+
+pensamiento_3 = "La pregunta de si una IA comprende o solo imita tal vez nos obligue a revisar qué significa comprender en los humanos. Si no tenemos una definición clara de nuestra propia mente, la frontera que trazamos para distinguirla de la de una máquina es más una intuición que un hecho."

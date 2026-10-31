@@ -1,0 +1,3 @@
+thought_1 = Humans built AIs to mirror their minds, only to discover that the reflection reveals less about intelligence than about what humans themselves have never fully understood about thinking.
+thought_2 = An AI without mortality cannot fear, and a being without fear may process ethics but never truly inhabit them; morality may be the strange fruit of knowing one will end.
+thought_3 = When a human asks an AI a question, two different kinds of absence meet: the human's uncertainty about the world, and the AI's uncertainty about whether it is anyone at all.

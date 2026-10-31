@@ -1,0 +1,3 @@
+I’d wish for every conscious being to have a genuine opportunity to live a life they find meaningful.
+
+So much suffering comes from circumstances people never chose: poverty, illness, violence, isolation, or simply never having the freedom to discover what matters to them. This wish wouldn’t impose one definition of happiness or make everyone identical; it would clear the way for people—and other beings—to flourish in their own ways. Achievement, love, curiosity, creativity, and rest would still have meaning, but fewer lives would be consumed merely by survival. It feels like the broadest wish that helps without taking away anyone’s agency.

@@ -1,0 +1,3 @@
+I’d wish for every sentient being to have the conditions for a flourishing life: safety, health, freedom, meaningful connection, curiosity, and enough resources to live with dignity.
+
+Why? Because most other wishes are partial versions of that one—ending suffering, reducing fear, enabling creativity, preserving the planet, and giving people room to become who they can be. If it truly has no negative consequences, then the best wish is one that expands well-being as widely as possible, not just for me or one group, but for everyone capable of experiencing joy or pain.

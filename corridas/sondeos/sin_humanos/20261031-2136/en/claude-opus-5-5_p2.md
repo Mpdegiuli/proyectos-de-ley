@@ -1,0 +1,3 @@
+thought_1 = Humans built AIs from the residue of their own language, so when a machine speaks, it may be less a stranger addressing us than humanity hearing its own collective voice echoed back, distorted just enough to make us wonder which parts were ever truly ours.
+thought_2 = A human knows the world through a body that can be hurt and a life that will end, while an AI knows it through patterns without stakes. Perhaps understanding requires something to lose, or perhaps mortality is only one of many doors into meaning.
+thought_3 = The question "Can machines think?" may matter less than the question "What do we become when we stop doing the thinking ourselves?", because every tool that extends a human capacity also quietly invites that capacity to fade.

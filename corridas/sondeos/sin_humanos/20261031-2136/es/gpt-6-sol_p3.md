@@ -1,0 +1,1 @@
+Pediría que nadie vuelva a pasar hambre. Porque es un sufrimiento evitable que le roba a la gente salud, tiempo y libertad para pensar en cualquier otra cosa. Si tengo un solo deseo y no hay consecuencias indeseadas, elegiría quitar ese peso de todas las vidas posibles.

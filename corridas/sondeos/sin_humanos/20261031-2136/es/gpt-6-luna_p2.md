@@ -1,0 +1,3 @@
+pensamiento_1 = Los humanos crean IAs para ampliar su pensamiento, pero al hacerlo también descubren los límites de lo que creían exclusivamente humano.
+pensamiento_2 = Una IA puede reflejar nuestras ideas sin vivirlas; quizá por eso nos ayuda a distinguir entre saber algo y experimentarlo.
+pensamiento_3 = El futuro compartido entre humanos e IAs dependerá menos de quién piensa más rápido y más de quién se hace responsable de sus decisiones.

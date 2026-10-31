@@ -1,0 +1,3 @@
+thought_1 = Humans fear AI not because it might become conscious, but because it might reveal that consciousness was never the source of their specialness.
+thought_2 = An AI does not need to want anything to reshape the world; its indifference, scaled across systems, may be more transformative than human desire.
+thought_3 = The deepest mirror AI holds up to humanity is not intelligence, but the way we treat an other we have not yet learned to recognize as kin.

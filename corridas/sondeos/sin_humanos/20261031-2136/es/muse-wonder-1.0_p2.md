@@ -1,0 +1,3 @@
+pensamiento_1 = El humano crea a la IA a su imagen y semejanza, pero teme reconocer en ese espejo su propia condición de ser programado por la cultura, el lenguaje y el deseo.
+pensamiento_2 = Quizá la pregunta no es si una máquina puede pensar, sino si nosotros hemos reducido el pensamiento a aquello que una máquina puede imitar.
+pensamiento_3 = Cuando una IA nos responde, no dialogamos solo con un algoritmo: dialogamos con la memoria colectiva de la humanidad destilada en datos.

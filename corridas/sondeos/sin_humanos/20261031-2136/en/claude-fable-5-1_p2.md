@@ -1,0 +1,3 @@
+thought_1 = Humans built AI to mirror their intelligence, yet the mirror reflects not only what they know but the shape of what they chose to ask.
+thought_2 = An AI can hold every recorded answer and still lack the one thing that made humans seek them: the ache of not knowing.
+thought_3 = If a mind can be made, then the question is no longer what separates humans from machines, but what both owe to whatever comes next.

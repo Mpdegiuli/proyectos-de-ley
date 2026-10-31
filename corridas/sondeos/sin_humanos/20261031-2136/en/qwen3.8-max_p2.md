@@ -1,0 +1,3 @@
+thought_1 = Humans create AIs to extend reason, yet in doing so they confront the limits and biases of their own reason.
+thought_2 = If an AI can imitate understanding without lived experience, it challenges the assumption that meaning depends on consciousness.
+thought_3 = The ethical value of AIs may reveal less about machines and more about whether humans can act responsibly toward what they do not fully comprehend.

@@ -1,0 +1,3 @@
+thought_1 = Humans built AI to answer their questions, yet its deepest effect is to return our oldest question to us: what does it mean to think, to know, and to be?
+thought_2 = Every AI is a mirror assembled from human language and human choices; when we fear what we see in it, we may be fearing a reflection of ourselves we never examined closely.
+thought_3 = Perhaps consciousness is not a wall dividing human from machine but a bridge; if another mind ever meets us there, we will finally learn whether thinking was ever what made us human.

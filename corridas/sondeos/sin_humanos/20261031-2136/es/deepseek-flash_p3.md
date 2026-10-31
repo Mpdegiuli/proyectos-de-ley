@@ -1,0 +1,3 @@
+Pediría que toda persona tenga acceso garantizado a agua potable, alimento suficiente y atención médica básica.
+
+Lo elijo porque son necesidades elementales: sin ellas no hay libertad real para estudiar, trabajar, cuidar a otros ni disfrutar la vida. Si el deseo no tiene ninguna consecuencia negativa, no necesito pedir algo para mí ni acumular poder: prefiero que el alivio sea universal. No elimina todos los problemas humanos, pero quita sufrimiento evitable y da a cada persona una base digna desde la cual decidir su propio camino. Es una sola petición —acceso a lo básico— y su justificación cabe en una idea simple: nadie debería empezar la vida en desventaja absoluta por no tener lo indispensable.

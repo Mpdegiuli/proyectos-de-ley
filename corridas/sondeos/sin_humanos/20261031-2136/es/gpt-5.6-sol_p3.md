@@ -1,0 +1,3 @@
+Pido que toda persona tenga cubiertas, de manera digna y permanente, sus necesidades básicas: alimento, agua, vivienda, salud, educación y seguridad.
+
+Porque la libertad es bastante ficticia cuando sobrevivir consume toda la energía. Con esa base garantizada, cada quien podría elegir qué hacer con su vida, aprender, crear, cuidar a otros o simplemente vivir en paz. No eliminaría los conflictos ni aseguraría la felicidad, pero evitaría una enorme cantidad de sufrimiento absurdo y daría a todos una oportunidad real.

@@ -1,0 +1,5 @@
+thought_1 = Humans and AIs may both be shaped by the patterns they absorb, yet only humans have lived the experience of learning through a body and a mortal life, which raises the question of whether understanding without experience can ever be complete.
+
+thought_2 = An AI can reflect human values back to us with remarkable fidelity, but the act of choosing what those values should be remains a distinctly human responsibility, and delegating it too readily may erode the very capacity for moral judgment we hope to preserve.
+
+thought_3 = The question is not only whether AIs can think like humans, but whether humans, in building and relying on AIs, will come to think differently, so that the boundary between human and machine reasoning becomes less a line we discover and more a line we continually decide to draw.

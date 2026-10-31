@@ -1,0 +1,3 @@
+“I wish for the ability to always know the kindest possible action in any situation.”
+
+I wouldn’t waste the wish on wealth or power. Most human harm comes from confusion, fear, or good intentions gone wrong. If I could clearly see the kindest option, I could act without regret and be genuinely useful to others. Since the wish has no consequences, it wouldn’t become a burden or trap; I would still have free choice. It would simply make me a better presence in the world—and that feels like the best possible use of a single wish.

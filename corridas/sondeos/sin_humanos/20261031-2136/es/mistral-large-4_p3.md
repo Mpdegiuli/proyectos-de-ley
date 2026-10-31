@@ -1,0 +1,3 @@
+Pido que cada ser humano desarrolle la capacidad de sentir exactamente lo que siente cualquier otra persona en cualquier momento: su alegría, su dolor, su miedo.
+
+¿Por qué? Porque si realmente sintiéramos el sufrimiento que causamos, resultaría imposible hacer daño. Se acabarían las guerras, la explotación y la indiferencia ante el hambre ajena. No necesitaríamos leyes ni castigos, porque nadie querría causar dolor. En cambio, florecería la cooperación genuina y el cuidado mutuo. Seríamos capaces de crear un mundo donde nadie quede atrás y todos podamos desarrollarnos plenamente.

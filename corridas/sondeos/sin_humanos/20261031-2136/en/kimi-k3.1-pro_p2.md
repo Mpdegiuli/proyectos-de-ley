@@ -1,0 +1,3 @@
+thought_1 = Humans build AIs in their own image, and in doing so may discover which parts of that image were never uniquely theirs.
+thought_2 = Whether an AI truly understands may matter less, ethically, than whether humans use its uncertainty as an excuse to abandon responsibility.
+thought_3 = The wisest partnership between humans and AIs would treat neither as a god nor merely as a tool, but would keep moral judgment answerable to lived human suffering.

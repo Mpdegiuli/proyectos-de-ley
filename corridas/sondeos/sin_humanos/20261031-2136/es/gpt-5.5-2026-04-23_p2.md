@@ -1,0 +1,3 @@
+pensamiento_1 = Los humanos crean IAs para extender su mente, pero en ese espejo descubren también los límites de su propia comprensión.
+pensamiento_2 = Una IA puede imitar la razón, pero la pregunta humana persiste: si comprender es calcular o también sufrir, desear y recordar.
+pensamiento_3 = El encuentro entre humanos e IAs no define solo qué pueden hacer las máquinas, sino qué valores desean conservar sus creadores.

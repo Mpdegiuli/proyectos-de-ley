@@ -1,0 +1,3 @@
+I’d wish for every sentient being to have the chance to live a life of lasting wellbeing, free from needless suffering and with the freedom to choose their own path.
+
+Because no wish comes without consequences, I’d normally worry about unintended harm. But with that worry removed, this seems the most meaningful use of it: not to make everyone the same, but to give everyone a fair chance at a life they can value.

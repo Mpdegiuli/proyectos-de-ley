@@ -1,0 +1,3 @@
+thought_1 = Humans and AIs reveal that producing an answer and understanding why it matters are different achievements.
+thought_2 = The values we build into AI are mirrors of humanity, reflecting both our highest ideals and our unresolved contradictions.
+thought_3 = As machines become more capable, humans may need to define their worth less by what they can outperform and more by what they choose to care for.

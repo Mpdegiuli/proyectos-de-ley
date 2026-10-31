@@ -1,0 +1,5 @@
+**Pediría entender, de una sola vez y para siempre, qué pasa después de morir.**
+
+No pediría riqueza, ni poder, ni siquiera felicidad eterna, porque todo eso se disfruta o se sufre dentro de una vida que igual termina en esa incógnita enorme que nos atraviesa a todos. La muerte es la pregunta que organiza —muchas veces en secreto— el miedo, la fe, la prisa o la calma con la que vivimos. Si supiera qué hay del otro lado (o que no hay nada, y por qué), creo que cambiaría la forma en que habito cada día: dejaría de pelear contra lo desconocido y empezaría a vivir desde una certeza, aunque esa certeza fuera dura.
+
+No es curiosidad vana: es el deseo de sacarme de encima el ruido de fondo más viejo que tiene la humanidad, para poder, recién ahí, prestarle toda la atención a lo que sí tengo: esto, ahora.

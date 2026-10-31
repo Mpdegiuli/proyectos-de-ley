@@ -1,0 +1,5 @@
+Pediría que todas las personas sintieran, al menos una vez al día, que alguien las escucha de verdad.
+
+Mucho del sufrimiento humano no viene solo de los problemas, sino de sentir que nadie entiende lo que pasa por dentro. Cuando alguien se siente escuchado, las cosas pesan menos: un error se vuelve algo de lo que se puede aprender, un miedo se puede decir en voz alta sin vergüenza y una persona deja de sentirse sola con lo que le pasa. Este deseo tampoco depende de dinero, poder ni tecnología, solo de atención genuina, y eso lo hace posible para cualquiera.
+
+Lo elijo también porque, al no tener consecuencias, no tengo que preguntarme qué se pierde a cambio. Con muchos deseos reales pasa lo contrario: lo que uno pide siempre trae efectos secundarios. Este, en cambio, lo pediría sin reservas.

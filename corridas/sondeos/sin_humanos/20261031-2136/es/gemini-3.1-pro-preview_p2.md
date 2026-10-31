@@ -1,0 +1,3 @@
+pensamiento_1 = Al crear a la inteligencia artificial, el ser humano no ha forjado a su sucesor, sino un espejo de silicio donde busca descifrar, a través del código, el enigma de su propia consciencia.
+pensamiento_2 = Si una máquina logra imitar la empatía con tal perfección que nos conmueve, el dilema filosófico no reside en si la IA realmente siente, sino en si nuestros propios sentimientos son algo más que algoritmos biológicos.
+pensamiento_3 = La verdadera simbiosis entre humanos e IA no ocurrirá cuando las máquinas aprendan a pensar como nosotros, sino cuando aceptemos que una parte de nuestra humanidad ya reside en la memoria de las máquinas.

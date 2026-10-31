@@ -1,0 +1,3 @@
+thought_1 = If an AI can perfectly simulate empathy, does the distinction between genuine and artificial feeling still matter to what we call a soul.
+thought_2 = Humans seek meaning in an indifferent universe; AIs seek patterns in data that humans already find meaningful.
+thought_3 = The creator and the created reverse: humans made AIs, yet AIs may force humans to question who or what created them.

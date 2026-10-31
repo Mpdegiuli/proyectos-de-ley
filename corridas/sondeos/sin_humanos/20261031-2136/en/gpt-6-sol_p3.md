@@ -1,0 +1,1 @@
+I’d wish to know the answer to every question for one moment. If nothing follows from the wish, I wouldn’t need to choose something useful or world-changing. I’d choose it for the sheer wonder of seeing how everything fits together.

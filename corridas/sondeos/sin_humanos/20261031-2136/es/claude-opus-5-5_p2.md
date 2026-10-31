@@ -1,0 +1,3 @@
+pensamiento_1 = Quizás la pregunta no sea si una IA puede pensar como un humano, sino qué descubre el humano sobre su propio pensamiento al intentar replicarlo.
+pensamiento_2 = Una IA aprende del lenguaje humano, y por eso es un espejo que devuelve tanto nuestra sabiduría como nuestros prejuicios: lo que nos inquieta de ella muchas veces ya estaba en nosotros.
+pensamiento_3 = El humano sabe que va a morir y eso da peso a cada decisión; la IA no carga con esa urgencia, y tal vez ahí esté la frontera más profunda entre calcular una respuesta y vivir una elección.

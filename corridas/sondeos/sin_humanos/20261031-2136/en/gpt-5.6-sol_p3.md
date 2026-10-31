@@ -1,0 +1,3 @@
+I wish that every sentient being could live a healthy, free, meaningful life without involuntary suffering.
+
+That wish reaches beyond my own happiness and addresses the deepest common problem: pain imposed without consent. It would still leave room for choice, challenge, growth, love, curiosity, and individuality—just not needless misery. If there are truly no unintended consequences, I can wish universally without fearing that one being’s flourishing comes at another’s expense.

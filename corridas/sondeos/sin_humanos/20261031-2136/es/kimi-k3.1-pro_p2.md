@@ -1,0 +1,3 @@
+pensamiento_1 = La conciencia humana no pierde valor cuando una IA simula comprenderla; pierde rumbo cuando el humano deja de preguntarse qué significa comprender.
+pensamiento_2 = Las IAs son espejos construidos con nuestras palabras: pueden devolvernos una imagen nítida de la inteligencia y, a la vez, ocultarnos el rostro de quien responde por sus actos.
+pensamiento_3 = La cuestión decisiva no es si las IAs llegarán a ser como los humanos, sino si los humanos, al usarlas, elegirán ser más responsables o simplemente más veloces.

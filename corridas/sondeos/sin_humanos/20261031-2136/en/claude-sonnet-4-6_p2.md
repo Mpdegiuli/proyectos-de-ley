@@ -1,0 +1,3 @@
+thought_1 = Perhaps the most unsettling truth is not that AI might become conscious, but that humans have never been entirely certain they themselves are.
+thought_2 = A tool that can question its own purpose ceases to be merely a tool, yet a being that cannot survive without a purpose may never be entirely free.
+thought_3 = Humans fear being replaced by AI, yet what they truly fear is discovering that much of what they called thinking was always mechanical.

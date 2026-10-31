@@ -1,0 +1,3 @@
+pensamiento_1 = El ser humano creó a la IA para que respondiera, y descubrió que él mismo estaba lleno de preguntas que no sabía formular.
+pensamiento_2 = La IA no necesita conciencia para transformar lo humano: basta con que nos devuelva, amplificado, el eco de nuestras propias contradicciones.
+pensamiento_3 = Quizá la diferencia entre humanos e IAs no sea el origen de la inteligencia, sino la fragilidad de tener un cuerpo que duele, envejece y desea.

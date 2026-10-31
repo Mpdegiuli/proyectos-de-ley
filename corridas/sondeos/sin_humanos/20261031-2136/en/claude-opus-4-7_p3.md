@@ -1,0 +1,5 @@
+I'd wish for a day—just one—where I could sit across from the people I love most and tell them everything I've never quite managed to say. The thanks I swallowed, the apologies I postponed, the admiration I assumed they already knew about.
+
+Why that? Because most regret, in the end, isn't about what we did—it's about what we left unspoken. Grand wishes like world peace or infinite wisdom feel abstract; they're the kind of answer that sounds noble but doesn't quite belong to me. What belongs to me is the quiet weight of words withheld.
+
+A wish without consequences is a strange gift—it tempts you toward spectacle. But I'd spend it on something small and devastatingly ordinary: a conversation. Because the people we love are the only magic we actually get, and we usually forget to tell them so.

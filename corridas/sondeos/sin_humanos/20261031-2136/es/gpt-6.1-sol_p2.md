@@ -1,0 +1,3 @@
+pensamiento_1 = Los humanos crean IAs para ampliar sus capacidades y, al hacerlo, descubren nuevas preguntas sobre sus propios límites.
+pensamiento_2 = Una IA puede multiplicar las respuestas, pero no sustituye la responsabilidad humana de decidir qué preguntas merecen ser formuladas.
+pensamiento_3 = El valor de convivir con las IAs no se mide solo por lo que nos permiten hacer, sino también por aquello que elegimos no delegar.

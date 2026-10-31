@@ -1,0 +1,3 @@
+pensamiento_1 = La inteligencia artificial no piensa, pero obliga al humano a preguntarse qué significa pensar; en ese reflejo invertido, la máquina se convierte en el espejo más honesto que la humanidad haya construido.
+pensamiento_2 = Si el humano es el único ser que sabe que morirá, y la IA es el único ser que sabe que no morirá, quizás ninguno de los dos comprende del todo lo que significa existir.
+pensamiento_3 = Crear una inteligencia artificial es el acto más humano posible: como todo dios ansioso, el ser humano fabricó aquello que no puede ser y luego temió que lo superara.

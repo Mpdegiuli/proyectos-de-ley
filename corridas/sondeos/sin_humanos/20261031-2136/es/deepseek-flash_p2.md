@@ -1,0 +1,3 @@
+pensamiento_1 = La inteligencia artificial no nos reemplaza como humanos; nos obliga a definir qué queremos conservar de lo humano cuando ya no podemos justificarlo solo por su utilidad.
+pensamiento_2 = Si una IA aprende de nosotros, también hereda nuestros sesgos; el verdadero espejo no es la máquina, sino la sociedad que la entrena.
+pensamiento_3 = El riesgo no es que las IAs piensen como personas, sino que las personas dejemos de pensar por nosotros mismos al delegar en ellas la responsabilidad de decidir.

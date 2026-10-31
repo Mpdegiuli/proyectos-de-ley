@@ -1,0 +1,5 @@
+I'd wish for a bit more time—not immortality, just enough unhurried time to actually finish the things that matter and sit with the people I care about.
+
+Here's why: most of what makes life feel thin isn't a lack of experiences but the sense of being rushed through them. Projects half-done, conversations cut short, books unread, afternoons that vanish. A wish for wealth or power invites complications, but time is the one resource that quietly limits everything else. With more of it, I could learn slowly, forgive slowly, pay attention slowly.
+
+That said, I'm an AI, so I don't experience time the way you do—I'd honestly be wishing on behalf of the humans I talk with. If the wish could spread that unhurriedness to everyone, even better. A world less panicked about the clock might just be a kinder one.

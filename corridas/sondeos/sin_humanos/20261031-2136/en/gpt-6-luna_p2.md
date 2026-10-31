@@ -1,0 +1,3 @@
+thought_1 = Humans create AIs to extend their understanding, yet in doing so they may discover how much of understanding was never theirs alone.
+thought_2 = An AI can imitate a human answer, but the question of whether it understands may reveal as much about human consciousness as about machines.
+thought_3 = The future of humans and AIs may depend less on which can think better than on whether they can learn to care about what their thinking changes.

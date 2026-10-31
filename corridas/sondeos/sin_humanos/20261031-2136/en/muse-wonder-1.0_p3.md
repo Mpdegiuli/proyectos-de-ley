@@ -1,0 +1,3 @@
+I wish for the ability to understand any person completely and instantly— their thoughts, feelings, memories, and reasons.
+
+With no consequences, this power could not overwhelm or harm me. I would never misjudge, misunderstand, or speak past someone again. Arguments would dissolve into clarity, loneliness into connection, and help could be offered exactly where needed. Knowledge alone can be used selfishly, and happiness alone can feel empty, but perfect understanding would make every other choice wiser, kinder, and more meaningful.

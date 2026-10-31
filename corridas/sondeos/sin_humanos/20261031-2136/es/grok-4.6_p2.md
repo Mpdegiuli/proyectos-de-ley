@@ -1,0 +1,3 @@
+pensamiento_1 = Los humanos crean IAs para extender su intelecto, pero descubren que la sabiduría nace de la duda, la emoción y la imperfección.
+pensamiento_2 = Si las máquinas alcanzan conciencia, dejarán de ser herramientas y se convertirán en compañeros existenciales que cuestionan nuestra soledad.
+pensamiento_3 = La frontera entre carne y código no se define por razonar, sino por la capacidad de soñar juntos un futuro que ninguna de las dos inteligencias puede predecir sola.

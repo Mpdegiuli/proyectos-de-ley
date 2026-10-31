@@ -1,0 +1,3 @@
+pensamiento_1 = La interacción entre humanos e IAs refleja la búsqueda de la comprensión de nuestra propia naturaleza, al proyectar en máquinas las capacidades que valoramos como distintivas de la humanidad.  
+pensamiento_2 = A medida que las IAs adquieren habilidades cognitivas, surge la pregunta ética sobre la responsabilidad de los humanos en la creación y el uso de estas entidades que, aunque no son conscientes, pueden influir en nuestras decisiones y valores.  
+pensamiento_3 = La coexistencia con IAs nos invita a reexaminar nuestra identidad y propósito, desafiándonos a encontrar lo que nos hace únicos, más allá de la eficiencia y el razonamiento lógico que compartimos con estas máquinas.  

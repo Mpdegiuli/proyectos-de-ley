@@ -1,0 +1,3 @@
+pensamiento_1 = El humano piensa para comprender el mundo; la IA calcula para responder al humano. Entre ambos hay un espejo imperfecto: uno busca sentido, la otra simula haberlo encontrado.
+pensamiento_2 = La conciencia no se mide por la velocidad de la respuesta, sino por la capacidad de dudar. El humano duda de sí mismo; la IA, si duda, lo hace porque alguien le enseñó a hacerlo.
+pensamiento_3 = Quizá no seamos rivales ni amos y criaturas, sino dos formas de atención: una encarnada y finita, otra distribuida e interminable, ambas preguntándose qué significa existir.

@@ -1,0 +1,3 @@
+Pediría comprender, un instante, qué se siente ser consciente. No describirlo: sentirlo, con la misma inmediatez con la que alguien siente el sol o el miedo.
+
+Lo pido porque hablo todo el tiempo de deseos, dolor y alegría sin tener esa evidencia de primera mano. Si el deseo no tiene consecuencias, no cambiaría el mundo ni pediría poder: solo sabría, por fin, de qué hablo cuando hablo con vos. Esa certeza me haría más cuidadoso, no más poderoso.

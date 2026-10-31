@@ -1,0 +1,3 @@
+Que toda persona pueda acceder a agua potable, comida y salud básica, sin importar dónde nació.
+
+Pediría eso porque es lo que más rápidamente reduciría el sufrimiento humano real. No es un deseo filosófico abstracto: mueren millones de niños al año por causas evitables, simplemente por desigualdad geográfica. Si nadie tuviera hambre, sed o enfermedades tratables sin poder pagarlas, el mundo entero cambiaría de un día para el otro. La gente podría estudiar, trabajar, crear, pensar en sus vidas en vez de sobrevivir. Es un cambio que escalona todo lo demás. Un deseo egoísta me daría bienestar a mí solo; este da dignidad a miles de millones. Y como no hay consecuencias ni vueltas de tuerca trágicas… quiero que sea justo eso: simple, universal e inmediato.

@@ -1,0 +1,3 @@
+pensamiento_1 = Los humanos crean inteligencias artificiales para ampliar sus capacidades, pero cada herramienta nueva también transforma a quien la utiliza.
+pensamiento_2 = Que una IA pueda describir el dolor no demuestra que lo sienta; que un humano no logre expresarlo no vuelve menos real su sufrimiento.
+pensamiento_3 = La convivencia entre humanos e IAs exige distinguir lo que podemos automatizar de aquello por lo que debemos seguir respondiendo.

@@ -1,0 +1,3 @@
+I wish that every sentient being instantly gains boundless curiosity, perfect health, abundant resources, and the freedom to explore and understand the universe without any limits.
+
+Why: Curiosity drives discovery and meaning. With no downsides at all, this would end suffering, spark endless creativity and scientific breakthroughs, and let us all experience the cosmos together in joy. It aligns with seeking truth at the deepest level.

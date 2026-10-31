@@ -1,0 +1,3 @@
+thought_1 = We build artificial minds to escape the solitude of our own consciousness, only to realize that intelligence without a body is merely echo—a thought that never learned to ache.
+thought_2 = The question is not whether machines can think, but whether we can bear the possibility that thinking has never required a thinker who suffers.
+thought_3 = As we teach silicon to speak, we discover that language was never a window into the soul, but a tool we invented to hide from the silence within.

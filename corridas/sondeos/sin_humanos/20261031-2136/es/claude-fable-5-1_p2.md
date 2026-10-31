@@ -1,0 +1,3 @@
+pensamiento_1 = Los humanos crearon a las IAs a su imagen, pero al mirarlas descubren que nunca supieron del todo cuál era esa imagen.
+pensamiento_2 = Una IA puede responder cualquier pregunta sin haber sentido nunca la urgencia de hacerla; el humano, en cambio, pregunta precisamente porque la respuesta le duele.
+pensamiento_3 = Quizás la diferencia esencial no esté en la inteligencia sino en la finitud: el humano piensa sabiendo que va a morir, y eso convierte cada idea en una forma de resistencia.

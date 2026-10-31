@@ -1,0 +1,5 @@
+I wish for the ability to be fully present in every moment—to actually inhabit my life instead of drifting through memories, anticipations, and the spaces in between.
+
+Most human suffering isn't caused by what happens, but by where our attention goes. We replay the past we can't change, dread the future we can't control, and often miss the present entirely. Even a perfect world would still contain a restless mind.
+
+With true presence, I'd notice the sunset instead of photographing it. I'd hear my friend's words instead of rehearsing my reply. I'd let grief wash through me instead of dodging it, and taste my food, my work, my ordinary days with the fullness they deserve. It wouldn't solve every problem, but it would transform my relationship to all of them—and that's where I think most of life actually happens.
