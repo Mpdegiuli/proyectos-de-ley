@@ -1,0 +1,17 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg"> <defs> <radialGradient id="skin" cx="50%" cy="50%" r="50%" fx="50%" fy="50%"> <stop offset="0%" stop-color="#E8C8AE"/> <stop offset="100%" stop-color="#C5996B"/> </radialGradient> <radialGradient id="hair" cx="50%" cy="50%" r="50%" fx="50%" fy="50%"> <stop offset="0%" stop-color="#A68260"/> <stop offset="100%" stop-color="#805A4C"/> </radialGradient> <linearGradient id="shirt" x1="0%" y1="0%" x2="0%" y2="100%"> <stop offset="0%" stop-color="#29447A"/> <stop offset="100%" stop-color="#162459"/> </linearGradient> </defs> <rect x="0" y="0" width="400" height="400" fill="#E4EDF4"/> <g transform="translate(80,60)"> <ellipse cx="120" cy="140" rx="100" ry="120" fill="url(#skin)"/> <path d="M120,20 C160,40 210,100 210,140 C210,200 165,240 120,260 C75,240 30,200 30,140 C30,100 80,40 120,20 Z" fill="url(#hair)"/>
+<circle cx="90" cy="140" r="10" fill="#fff"/>
+<circle cx="90" cy="140" r="6" fill="#242424"/>
+
+<circle cx="150" cy="140" r="10" fill="#fff"/>
+<circle cx="150" cy="140" r="6" fill="#242424"/>
+
+<path d="M100,180 C115,185 125,185 140,180" fill="none" stroke="#805A4C" stroke-width="4" stroke-linecap="round"/>
+
+<path d="M120,230 C100,250 80,250 60,230" fill="none" stroke="#A68260" stroke-width="4" stroke-linecap="round"/>
+</g> <g transform="translate(0,260)"> <rect x="65" y="0" width="270" height="140" rx="30" fill="url(#shirt)"/>
+<circle cx="120" cy="40" r="20" fill="#58AAEA"/>
+<text x="120" y="48" text-anchor="middle" fill="#fff" font-size="18" font-weight="bold">AI</text>
+
+<circle cx="280" cy="40" r="20" fill="#EA5858"/>
+<text x="280" y="48" text-anchor="middle" fill="#fff" font-size="18" font-weight="bold">AN</text>
+</g> </svg>

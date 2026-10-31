@@ -1,0 +1,3 @@
+Dibujé un pato gordo y simpático. Elegí un pato porque me pareció un animal amigable y reconocible, que podía representar bien con formas simples en SVG. Usé óvalos para el cuerpo y la cabeza, agregué ojos expresivos con un gradiente radial, y le di un pico sonriente. Para acentuar su lado tierno, le puse un copete despeinado hecho con trazos curvos.
+
+Consideré dibujar otros animales como un gato, un perro o un oso, pero sentí que eran más complejos de capturar con un estilo minimalista. También pensé en una jirafa o un elefante, pero implicaban un lienzo más vertical o detalles muy pequeños para la trompa o las manchas. Al final me decanté por el pato porque logré una representación simple pero con carisma, ideal para mostrar en pocas líneas de código SVG.
