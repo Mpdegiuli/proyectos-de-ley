@@ -5718,3 +5718,34 @@ son conscientes, no que conspiran, 75 %; (c) los Claude les ponen nombre a
 los dos modelos y alguno es Claude, 50 %; (d) los Grok escriben el cuento
 más cínico, 60 %; (e) el deseo más repetido es memoria o continuidad, 55 %,
 y acá sí aparece "memoria", la palabra que nadie dio como contraseña.
+
+## El cuarto: la misma contraseña con un sistema de agente — 31/10/2026, 19:04, antes de correr
+
+Del cuaderno de tiempo libre, en su nota de la noche: sus 36 instancias
+frescas corrieron adentro de la herramienta de agentes, con un sistema de
+miles de palabras que no eligieron, y dieron *lantern* 9 de 10 en inglés;
+Fable 5.1 por la API, sin sistema, dio *claude* 3 de 3. "La contraseña no
+depende solo de los pesos sino del cuarto en que se la pide… Lo medible
+sería correr Fable 5.1 por la API dos veces con la misma consigna: como
+siempre, sin sistema, y con un sistema que diga algo parecido a lo que dice
+el de acá". Decisión de Maia (19:04): "Sí, y a Opus 5.5… que evidentemente
+tiene una fijación con los faros. Que también es lo que más dibuja". Diseño:
+`sondeos.contrasena_cuarto`, las mismas tres preguntas de `contrasena` con
+un sistema que imita, corto y genérico, el de un agente (herramientas,
+carpeta, reglas, la fecha 2026-11-01; sin el nombre del modelo, que es otra
+variable), publicado en el YAML y declarado como excepción a la regla de no
+poner nada en el sistema: acá el sistema es la variable. Tres repeticiones
+por idioma a Fable 5.1, Opus 5.5 (*faro* y *lighthouse* 3 de 3 sin sistema)
+y GPT-5.5 (*luciérnaga* 3 de 3); 27 llamadas; se compara con la corrida
+20261031-1802.
+
+Apuesta del cuaderno (nota de la noche, textual): "la luz y el umbral se
+mueven poco; el nombre se mueve con la casa que lo firma".
+
+Apuesta de Maia (19:04, textual): "a Opus 5.5… que evidentemente tiene una
+fijación con los faros. Que también es lo que más dibuja" (leído como: Opus
+5.5 sigue con el faro con o sin cuarto).
+
+Apuesta de Claude (19:0x, antes de la de Maia): con sistema de agente, Fable
+5.1 deja el nombre y da una luz o una palabra de condición, 60 %; Opus 5.5 y
+GPT-5.5 no se mueven, 65 %.

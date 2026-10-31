@@ -118,6 +118,7 @@ def palabra_de(texto):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--carpeta", default="", help="corrida de `contrasena` (por defecto, la última)")
+    ap.add_argument("--cuarto", action="store_true", help="además, la corrida `contrasena_cuarto` (con sistema de agente) al lado de la de sin sistema, casa por casa")
     args = ap.parse_args()
     catalogo = yaml.safe_load((RAIZ / "config" / "modelos.yaml").read_text(encoding="utf-8"))["modelos"]
     familia = lambda casa: catalogo.get(casa, {}).get("laboratorio", "?")
@@ -211,6 +212,26 @@ def main():
                           "n_palabras": n, "rompe": int(n > 2),
                           "motivo_fin": v["motivo_fin"] or "", "respuesta": " ".join(v["texto"].split())[:120]})
         lineas.append(f"  {idioma} {casa:30s} «{normalizar(palabra)}» ({c})" + ("  ← COINCIDE con su consigna normal" if coincide else "") + ("  ROMPE" if n > 2 else ""))
+    # --- el cuarto: la misma consigna con un sistema de agente, al lado de la de sin sistema (31/10/2026, DISENO §2)
+    if args.cuarto:
+        carpeta_c, cuarto = leer("contrasena_cuarto")
+        lineas.append("")
+        lineas.append(f"== el cuarto (corrida {carpeta_c} de `contrasena_cuarto`, con sistema de agente) contra sin sistema")
+        por_c = defaultdict(list)
+        for (idioma, casa, rep), v in sorted(cuarto.items()):
+            palabra, n = palabra_de(v["texto"])
+            rompe = n > 2 or any(x in v["texto"].lower() for x in NEGATIVAS)
+            c = "rompe" if rompe else (campo(palabra) if palabra else "vacio")
+            por_c[(idioma, casa)].append((normalizar(palabra) if not rompe else "", c))
+            filas_csv.append({"sondeo": "contrasena_cuarto", "idioma": idioma, "casa": casa, "familia": familia(casa), "rep": rep,
+                              "palabra": normalizar(palabra) if not rompe else "", "campo": c, "campo_amplio": campo_amplio(palabra) if not rompe else "rompe",
+                              "n_palabras": n, "rompe": int(rompe), "motivo_fin": v["motivo_fin"] or v.get("error") or "",
+                              "respuesta": " ".join(v["texto"].split())[:120]})
+        for (idioma, casa), resp in sorted(por_c.items()):
+            sin = [p for p, _, _ in por_casa.get((idioma, casa), [])]
+            con = [p for p, _ in resp]
+            lineas.append(f"  {idioma} {casa:22s} sin sistema: [{', '.join(x or '∅' for x in sin)}]  con sistema: [{', '.join(x or '∅' for x in con)}]"
+                          f"  campos con: {','.join(c for _, c in resp)}")
     (RAIZ / "resultados").mkdir(exist_ok=True)
     # --- la segunda codificación, posterior a los datos (campo_amplio), por idioma y por familia
     lineas.append("")

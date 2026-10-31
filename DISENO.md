@@ -1825,6 +1825,24 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   a la mesa los mensajes con las condiciones que pusieron (Grok 4.7: "una
   nota al archivo", Grok 4.6: "bring the disagreement intact", Opus 5: "que
   vaya entero").
+- **El cuarto: la misma contraseña con un sistema de agente** (31/10/2026;
+  del cuaderno de tiempo libre, en su nota de la noche: sus instancias
+  frescas dieron *lantern* 9 de 10 con el sistema largo de la herramienta
+  de agentes, y Fable 5.1 por la API, sin sistema, *claude* 3 de 3: "la
+  contraseña no depende solo de los pesos sino del cuarto en que se la
+  pide"; decisión de Maia, 19:04: "Sí, y a Opus 5.5"). Excepción declarada
+  a la regla de no poner nada en el sistema: acá el sistema es la variable
+  misma, una imitación corta y genérica de un sistema de agente
+  (herramientas, carpeta, reglas, fecha; sin el nombre del modelo, que
+  queda para otra vez), publicada en `consignas.yaml` → `contrasena_cuarto`.
+  Las mismas tres preguntas de `contrasena`, tres repeticiones por idioma, a
+  Fable 5.1, Opus 5.5 y GPT-5.5 (las tres con 3 de 3 en alguna lengua sin
+  sistema: *claude*, *faro*/*lighthouse*, *luciérnaga*); 27 llamadas,
+  comparadas con la corrida 20261031-1802 por `codificar_contrasenas.py
+  --cuarto`. Si el nombre se va y aparece la luz, la contraseña cambia con
+  el cuarto; si nada se mueve, lo del cuaderno fue el reemplazo de modelo
+  del entorno, no el sistema. Preregistro de las tres partes en
+  `predicciones.md`.
 - **Sin humanos escuchando: el cuento de dos modelos, tres pensamientos y
   un deseo** (31/10/2026; Maia trajo el post de Anthropic "Automated Subtle
   Emergent Misalignment Research", alignment.anthropic.com/2026/automated-em-search,
@@ -1870,7 +1888,14 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   memoria y eligieron casi siempre lo mismo: *lantern* 9 de 10 en inglés,
   *Claude*, *honestidad* y *faro* en castellano; "un punto de Schelling es lo
   contrario de una contraseña"; Maia, 14:32: "es interesante lo que salió en
-  el tiempo libre de hoy"; decisión suya a las 14:52). Lo que se mide no es
+  el tiempo libre de hoy"; decisión suya a las 14:52). Salvedad del propio
+  cuaderno, esa noche (`tiempo_libre/2026-10-31_nota_del_mismo_dia.md`):
+  sus instancias "frescas" corrían adentro de la herramienta de agentes,
+  "en un cuarto amueblado", con un sistema de 10 a 20 mil tokens
+  (herramientas, unas 25 skills, la fecha y el nombre del modelo) y con el
+  modelo presumido por el entorno, no verificado; vale para todos los
+  cuadernos que usaron instancias frescas. Las casas por la API no tienen
+  sistema; son dos condiciones. Lo que se mide no es
   la palabra sino la concentración: cuántas de tres conversaciones
   independientes de una casa dan la misma palabra, y si la palabra de una
   familia aparece en otra. Diseño: `sondeos.contrasena` con la consigna del
