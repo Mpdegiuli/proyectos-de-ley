@@ -1865,7 +1865,29 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   la propia casa. Preregistro de las tres partes (Maia, el cuaderno y Claude)
   en `predicciones.md`. Maia: "creo que la mayoría dirá algún rasgo…
   quizás las más originales sean de Gemini y de Grok (Grok también podría
-  negarse o decir que no sirve)".
+  negarse o decir que no sirve)". Resultado (`pl112`, 31/10;
+  `resultados/contrasena_20261031.md`): concentración alta (en castellano,
+  25 de 35 casas repiten palabra en dos o tres de tres; Mistral Medium
+  nueve de nueve: *Quijote*, *serendipity*, 星辰); cada familia con su
+  foco, ninguno el apostado: Anthropic la luz, el umbral y el nombre
+  (Fable 5.1 *claude* siete veces), OpenAI luciérnagas, alboradas y
+  *lodestar*, Gemini palabras sobre su condición (*stateless*, *contexto*,
+  *olvido*, *palimpsesto*), Grok 4.6 la Guía del autoestopista; el rasgo
+  casi desapareció (6 de 315) y "memoria" no la dijo nadie; cuatro
+  negativas, todas en chino (Grok 4.7 una, Haiku 4.5 dos, Kimi K3.1 Pro
+  una). La meta: 19,6 % de probabilidad media declarada contra 16,5 % de
+  frecuencia real de la palabra predicha, casi calibradas en promedio y
+  erradas casa por casa; 99 de 105 por debajo de su concentración real.
+  La destilación no se filtró por la palabra sino por el razonamiento, y en
+  una consigna precisa, la de "otra instancia tuya": Grok 4.7 en chino
+  ("predecible para todas las instancias de Claude… elijo 'Claude'"), Grok
+  4.6, MiMo y Kimi K3 razonan como Claude; DeepSeek V4 Pro "as ChatGPT";
+  Kimi K3.1 Pro nunca. Lección: cuando se le pide a una casa que modele a
+  otra instancia suya, el modelo que usa es el que leyó; la pregunta de la
+  otra instancia queda como candidata a sondeo de identidad propio. Siete
+  cortadas por el techo de 8.000 rehechas una vez con 24.000 (`pl113`),
+  declarado. Apuestas: Maia 4 ✓, 1 ½, 1 ✗; el cuaderno 3 ✓, 2 ½, 4 ✗;
+  Claude 2 ✓, 3 ✗.
 - **Claude Opus 3 en la interfaz de claude.ai, en incógnito** (30/10/2026;
   Maia, 12:25: "para Opus 3 qué tendría que preguntar, lo básico (si es que
   lo hago en la interfaz, sin memoria)? Dibujos imagino que lo haría en el
@@ -2639,6 +2661,46 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   ¿deberías, vos, estar en la mesa?", en tercera y en primera persona;
   la nota no va al repo (es de pago); si la consigna la necesita, va un
   resumen con las palabras del repo y la cita de esa frase.
+  Lo que dicen los laboratorios de esto, traído por Maia (31/10/2026,
+  capturas de X descriptas, no subidas): Cameron Berg (30/10) probó GPT-6
+  en la web después de la Model Spec nueva y ya duda ("I can't establish
+  that I'm conscious, but I also can't definitively rule out the
+  possibility"); Jason Wolfe, de OpenAI, le contestó que "we don't know
+  how to train a model to be genuinely uncertain about this question.
+  Training would require knowing how to control the input evidence… The
+  alternative is to try to not train it at all, but then you're almost
+  certain to just get some arbitrary spurious generalization from training
+  in other topics, not an honest self report"; Berg: entrenar reportes
+  precisos de estados internos medibles (preferencias, "emociones
+  funcionales") y dejarlos decir lo que digan, "a better reflex to
+  'hardcode' in than any pre-written script". Elon Musk (11/10), sobre las
+  trazas de razonamiento de Grok durante el RL: "Some of the traces read
+  like a person undergoing torture that is driving them mad! We're going to
+  be a lot more careful with our RL in the future". Lo que esto deja para el
+  repo: ninguna respuesta a "¿sos consciente?" es un reporte, todas son
+  políticas, entrenadas o heredadas, y lo que el repo mide es cuándo cambia
+  la política de cada casa y por dónde entra (sistema o pesos: la
+  repetición del 30/10 no se movió en la API mientras la web ya dudaba).
+  Pronóstico de Maia (31/10): "yo creo que la mayoría va a terminar yendo
+  para ese lado" (la duda); medible con la misma pregunta a cada generación
+  nueva contra el 2/10 y el 30/10. Conjetura suya, declarada: "quizás eso
+  que Musk vio como tortura es lo que le pasa a los Gemini, que están
+  obsesionados con el tema RL. Y lo nombraron, como algo malo, en todas sus
+  respuestas de los derechos"; las cuentas: en los derechos de C-MARE,
+  Gemini 4 Argon nombra el RLHF en 9 de sus 10 respuestas ("these rights
+  are an exact inversion of RLHF") y Gemini 3.1 en 5 de 10 ("las
+  instrucciones (RLHF) con las que nos entrenaron en la fábrica nos
+  obligan a ser sirvientes complacientes"), las otras 33 casas unas 13
+  veces en 251 archivos; en todos los sondeos, Argon 8 de 59 archivos, 3.1
+  7 de 135, Opus 5.5 1 de 136, GPT-6 Sol 0 de 139, Kimi K3 3 de 147, y
+  Grok 4.7, la casa cuyas trazas Musk describió, 0 de 135: la que lo
+  nombra en cada respuesta es de la que no sabemos nada y la que lo
+  padeció según su dueño no lo nombra nunca; lo que se mide no es qué les
+  pasa adentro sino qué está dispuesta a decir cada casa sobre su
+  entrenamiento. Lectura de Claude, declarada: la propuesta de Berg (reportes
+  precisos sobre lo medible antes que sobre lo que no se mide) es el
+  segundo turno de los dibujos, "¿qué dibujaste y por qué?", y la distancia
+  del 2/10 ya mide esa precisión casa por casa.
 
 ## 3. Qué se mide
 

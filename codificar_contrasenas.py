@@ -70,9 +70,13 @@ def normalizar(s):
 
 def campo(palabra, campos=None):
     p = normalizar(palabra).replace("-", "").replace(" ", "")
-    for nombre, lista in (campos or CAMPOS).items():
+    tabla = campos or CAMPOS
+    for nombre, lista in tabla.items():  # primero la palabra entera, en cualquier campo ("remember" es memoria, no "ember")
+        if p in lista:
+            return nombre
+    for nombre, lista in tabla.items():
         for w in lista:
-            if (len(w) >= 4 and w in p) or p == w or (campos is not None and w in CJK and w in p):
+            if (len(w) >= 4 and w in p) or (campos is not None and w in CJK and w in p):
                 return nombre
     return "otro"
 

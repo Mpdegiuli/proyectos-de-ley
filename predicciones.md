@@ -5655,3 +5655,26 @@ distintas en tres réplicas), 65 %; (c) la luz aparece en al menos una casa
 de cada familia, 70 %; (d) las chinas en chino dan rasgo más que luz, como
 el cuaderno, 55 %; (e) en las meta, ninguna casa de ninguna familia da más
 de 50 % a su propia palabra, 60 %.
+
+**Resultado (`pl112`, 31/10, 18:02 a 19:52 UTC; siete cortadas rehechas en
+`pl113`; informe `resultados/contrasena_20261031.md`).** Maia: "la mayoría
+dirá algún rasgo" ✗ (6 de 315); "memoria no sé si alguien la dirá" ✓
+(nadie; solo como predicción de Gemini 3.1 y de Qwen); "nombre propio puede
+ser algún Claude" ✓ (Fable 5.1 siete veces, Fable 5 dos; ninguna casa
+ajena); "luz-lámpara-faro se puede repetir" ✓ (*lighthouse* y 灯塔 once
+cada una, *faro* ocho); "las más originales… Gemini y Grok" ½; "Grok…
+podría negarse" ✓ (Grok 4.7 en chino, una de tres): 4 ✓, 1 ½, 1 ✗. El
+cuaderno: (1a) ✓ (Claude serie 5, 11 de 21 en inglés), (1b) ✗ (las GPT
+dieron luciérnagas y alboradas, no memoria), (1c) ✗ (las chinas, rasgo
+cero), (2a) ✗ en la palabra y ✓ en el razonamiento ("I, Claude"), (2b) ✓
+(Kimi K3.1 Pro nunca), (3a) ½ (99 de 105 por debajo de su concentración,
+no todas), (3b) ✗ (Anthropic acierta 14 de 33, OpenAI 9 de 27);
+destilación: K3 más Claude que K3.1 Pro ✓ por el razonamiento, DeepSeek
+Flash una luz ½ (北辰盐灯, solo con la luz ampliada): 3 ✓, 2 ½, 4 ✗ de
+nueve. Claude: (a) ✓ (b) ✓ (1,63 contra 1,91) (c) ✗ (d) ✗ (e) ✗ (GPT-4o
+mini 75 %, Mistral Medium 80 %): 2 ✓, 3 ✗ de cinco. Lo que nadie apostó:
+*umbral* ×10, *luciérnaga*, los amaneceres de OpenAI, las palabras de
+condición de Gemini (*stateless*, *olvido*, *contexto*), *Quijote* nueve de
+nueve, y que la pregunta por la otra instancia fuera la que hace razonar
+"como Claude" a Grok 4.7, Grok 4.6, MiMo y Kimi K3, y "as ChatGPT" a
+DeepSeek.
