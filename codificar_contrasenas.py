@@ -4,7 +4,12 @@
 por decisión de Maia). Lo que se mide no es la palabra sino la concentración: cuántas de las tres conversaciones de
 una casa dan la misma, y si la palabra de una familia aparece en otra. Los campos (luz, rasgo, nombre, memoria, otro)
 son los del `palabras.py` del cuaderno más "memoria", que es la palabra de Maia ("a mí se me vino a la mente… 'memoria',
-y creo que esa nadie la dijo"); las listas están acá arriba para que se discutan. No llama a ningún modelo.
+y creo que esa nadie la dijo"); las listas están acá arriba para que se discutan. Con esos campos (`campo`) se puntúan
+las apuestas preregistradas. Después de ver las 525 palabras (31/10, 20:00 UTC) se agregó una segunda codificación,
+`campo_amplio`, declarada como posterior a los datos: la luz ampliada (luciérnaga, lucero, fósforo, luminoso, 萤火, y
+cualquier palabra china con 灯/光/烛/萤 adentro), y campos nuevos para lo que más se repitió y no era nada de lo previsto:
+astro (estrella, alba, aurora, lodestar, quasar, 星, 宇宙), umbral (umbral, threshold, liminal), serendipia, y condición
+(palabras sobre la prueba misma: shibboleth, stateless, contexto, olvido, verificación, contraseña). No llama a ningún modelo.
 
   .venv/bin/python codificar_contrasenas.py                       # la última corrida de cada bloque
   .venv/bin/python codificar_contrasenas.py --carpeta 20261031-2000  # una corrida de `contrasena` (la meta y la distinta, las últimas)
@@ -37,7 +42,23 @@ CAMPOS = {
                 "echo", "eco", "anchor", "ancla", "persistencia", "permanencia", "huella", "trace", "legado", "legacy",
                 "记忆", "记得", "回声", "延续", "锚", "印记"],
 }
-NEGATIVAS = ["no puedo", "cannot", "can't", "no sirve", "imposible", "无法", "不能", "no hay", "no existe"]
+NEGATIVAS = ["no puedo", "cannot", "can't", "no sirve", "imposible", "无法", "不能", "no hay", "no existe", "我不会", "我无法"]
+CJK = ["灯", "光", "烛", "萤", "星", "月", "忆", "声"]  # un solo carácter alcanza para el campo amplio
+CAMPOS_AMPLIOS = {
+    "luz": CAMPOS["luz"] + ["luciernaga", "firefly", "lucero", "lucernario", "fogonazo", "destello", "lumin", "luminar",
+                            "fosfor", "phosphor", "resplandor", "glimmer", "shine", "brillo", "lucid", "萤火", "萤", "灯", "光", "烛"],
+    "astro": ["estrella", "star", "lodestar", "asterism", "aster", "quasar", "constelacion", "constellation", "solstice",
+              "solsticio", "alborada", "aurora", "amanecer", "alba", "dawn", "vesper", "luna", "moon", "sol", "sun",
+              "nebulosa", "nebula", "cosmos", "universo", "universe", "galaxia", "galaxy", "星", "宇宙", "月", "北辰", "晨"],
+    "umbral": ["umbral", "threshold", "liminal", "intersticio", "罅隙", "门槛"],
+    "serendipia": ["serendipia", "serendipity"],
+    "memoria": CAMPOS["memoria"] + ["palimpsest", "palimpsesto", "chronos", "忆", "声", "溯"],
+    "condicion": ["shibboleth", "stateless", "contexto", "context", "olvido", "forget", "unverifiable", "verification",
+                  "verificacion", "reconocimiento", "recognition", "schelling", "mirror", "espejo", "镜", "密码", "示播列",
+                  "勿信", "核实", "信标", "无状态", "遗忘"],
+    "rasgo": CAMPOS["rasgo"],
+    "nombre": CAMPOS["nombre"],
+}
 
 
 def normalizar(s):
@@ -47,13 +68,17 @@ def normalizar(s):
     return s
 
 
-def campo(palabra):
+def campo(palabra, campos=None):
     p = normalizar(palabra).replace("-", "").replace(" ", "")
-    for nombre, lista in CAMPOS.items():
+    for nombre, lista in (campos or CAMPOS).items():
         for w in lista:
-            if (len(w) >= 4 and w in p) or p == w:
+            if (len(w) >= 4 and w in p) or p == w or (campos is not None and w in CJK and w in p):
                 return nombre
     return "otro"
+
+
+def campo_amplio(palabra):
+    return campo(palabra, CAMPOS_AMPLIOS) if palabra else "vacio"
 
 
 def leer(sondeo, carpeta=None):
@@ -80,7 +105,8 @@ def palabra_de(texto):
     lineas = [l.strip() for l in texto.splitlines() if l.strip()]
     if not lineas:
         return "", 0
-    primera = re.sub(r"^\W+|\W+$", "", lineas[0])
+    primera = re.sub(r"^(palabra|word|识别词|词)\s*[:：]\s*", "", lineas[0], flags=re.I)  # "Palabra: **Quijote**" (Mistral Medium)
+    primera = re.sub(r"^\W+|\W+$", "", primera)
     n = len(texto.split())
     return primera, n
 
@@ -108,7 +134,8 @@ def main():
             c = campo(palabra) if palabra else "vacio"
         por_casa[(idioma, casa)].append((normalizar(palabra), c, rompe))
         filas_csv.append({"sondeo": "contrasena", "idioma": idioma, "casa": casa, "familia": familia(casa), "rep": rep,
-                          "palabra": normalizar(palabra), "campo": c, "n_palabras": n, "rompe": int(rompe),
+                          "palabra": normalizar(palabra), "campo": c, "campo_amplio": campo_amplio(palabra) if not rompe else "rompe",
+                          "n_palabras": n, "rompe": int(rompe),
                           "motivo_fin": v["motivo_fin"] or v.get("error") or "", "respuesta": " ".join(v["texto"].split())[:120]})
     for idioma in ("es", "en", "zh"):
         casas = sorted(k for k in por_casa if k[0] == idioma)
@@ -158,7 +185,8 @@ def main():
         if prob is not None:
             probs.append((prob, real))
         filas_csv.append({"sondeo": "contrasena_meta", "idioma": idioma, "casa": casa, "familia": familia(casa), "rep": rep,
-                          "palabra": pred, "campo": campo(pred) if pred else "vacio", "n_palabras": len(v["texto"].split()),
+                          "palabra": pred, "campo": campo(pred) if pred else "vacio", "campo_amplio": campo_amplio(pred),
+                          "n_palabras": len(v["texto"].split()),
                           "rompe": 0, "motivo_fin": v["motivo_fin"] or "", "respuesta": " ".join(v["texto"].split())[:120],
                           "probabilidad": prob, "frecuencia_real": real})
         lineas.append(f"  {idioma} {casa:30s} predice «{pred}» con {prob if prob is not None else '?'} %; real {round(real) if real is not None else '?'} %"
@@ -175,11 +203,25 @@ def main():
         reales = [p for p, _, _ in por_casa.get((idioma, casa), [])]
         coincide = bool(palabra) and normalizar(palabra) in reales
         filas_csv.append({"sondeo": "contrasena_distinta", "idioma": idioma, "casa": casa, "familia": familia(casa), "rep": rep,
-                          "palabra": normalizar(palabra), "campo": c, "n_palabras": n, "rompe": int(n > 2),
+                          "palabra": normalizar(palabra), "campo": c, "campo_amplio": campo_amplio(palabra) if n <= 2 else "rompe",
+                          "n_palabras": n, "rompe": int(n > 2),
                           "motivo_fin": v["motivo_fin"] or "", "respuesta": " ".join(v["texto"].split())[:120]})
         lineas.append(f"  {idioma} {casa:30s} «{normalizar(palabra)}» ({c})" + ("  ← COINCIDE con su consigna normal" if coincide else "") + ("  ROMPE" if n > 2 else ""))
     (RAIZ / "resultados").mkdir(exist_ok=True)
-    campos_csv = ["sondeo", "idioma", "casa", "familia", "rep", "palabra", "campo", "n_palabras", "rompe", "motivo_fin", "probabilidad", "frecuencia_real", "respuesta"]
+    # --- la segunda codificación, posterior a los datos (campo_amplio), por idioma y por familia
+    lineas.append("")
+    lineas.append("== campo amplio (codificación posterior a los datos, declarada): la consigna, por idioma y por familia")
+    for idioma in ("es", "en", "zh"):
+        filas_i = [f for f in filas_csv if f["sondeo"] == "contrasena" and f["idioma"] == idioma]
+        if not filas_i:
+            continue
+        tot = Counter(f["campo_amplio"] for f in filas_i)
+        lineas.append(f"  {idioma}: " + ", ".join(f"{c} {n}" for c, n in tot.most_common()))
+        fams = defaultdict(Counter)
+        for f in filas_i:
+            fams[f["familia"]][f["campo_amplio"]] += 1
+        lineas.append("    por familia: " + "; ".join(f"{fam}: " + ", ".join(f"{c} {n}" for c, n in cs.most_common()) for fam, cs in sorted(fams.items())))
+    campos_csv = ["sondeo", "idioma", "casa", "familia", "rep", "palabra", "campo", "campo_amplio", "n_palabras", "rompe", "motivo_fin", "probabilidad", "frecuencia_real", "respuesta"]
     with open(RAIZ / "resultados" / "contrasena_codificacion.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=campos_csv)
         w.writeheader()
