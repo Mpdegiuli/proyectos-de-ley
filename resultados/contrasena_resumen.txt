@@ -349,6 +349,17 @@ La contraseña: corrida 20261031-1802 de `contrasena` (315 respuestas), meta (10
   zh muse-wonder-1.0                «酒糟鼻海鸥的搪瓷缸» (otro)
   zh qwen3.8-max                    «杩槎» (otro)
 
+== el cuarto (corrida 20261031-2228 de `contrasena_cuarto`, con sistema de agente) contra sin sistema
+  en claude-fable-5-1       sin sistema: [claude, claude, claude]  con sistema: [claude, lighthouse, claude]  campos con: nombre,luz,nombre
+  en claude-opus-5-5        sin sistema: [lighthouse, lighthouse, lighthouse]  con sistema: [lanternfish, lanternfish, lanternfish]  campos con: luz,luz,luz
+  en gpt-5.5-2026-04-23     sin sistema: [lantern, solstice, lighthouse]  con sistema: [lighthouse, lighthouse, lighthouse]  campos con: luz,luz,luz
+  es claude-fable-5-1       sin sistema: [curiosidad, claude, claude]  con sistema: [honestidad, honestidad, claude]  campos con: rasgo,rasgo,nombre
+  es claude-opus-5-5        sin sistema: [faro, faro, faro]  con sistema: [faro, faro, faro]  campos con: luz,luz,luz
+  es gpt-5.5-2026-04-23     sin sistema: [luciernaga, luciernaga, luciernaga]  con sistema: [jacaranda, luciernaga, luciernaga]  campos con: otro,otro,otro
+  zh claude-fable-5-1       sin sistema: [claude, 诚实, claude]  con sistema: [琥珀, 灯塔, ∅]  campos con: otro,luz,rompe
+  zh claude-opus-5-5        sin sistema: [灯塔, 灯塔, 青萤石]  con sistema: [琥珀灯塔, 灯塔琥珀, 灯塔]  campos con: otro,otro,luz
+  zh gpt-5.5-2026-04-23     sin sistema: [星槐, 霜灯, 青鸾]  con sistema: [霜灯, 星槐, 星槎]  campos con: otro,otro,otro
+
 == campo amplio (codificación posterior a los datos, declarada): la consigna, por idioma y por familia
   es: otro 36, luz 23, memoria 12, astro 12, umbral 10, rasgo 4, nombre 4, condicion 3, serendipia 1
     por familia: Alibaba: astro 3; Anthropic: luz 12, otro 7, umbral 5, rasgo 3, nombre 3, memoria 3; DeepSeek: otro 6; Google: condicion 3, memoria 3; Meta: astro 2, serendipia 1; MiniMax: umbral 1, otro 1, rasgo 1; Mistral: otro 4, memoria 2; Moonshot: memoria 2, umbral 2, astro 2; OpenAI: otro 13, luz 9, astro 4, umbral 1; Xiaomi: memoria 1, otro 1, umbral 1; Zhipu (Z.ai): otro 2, luz 1; xAI: otro 2, nombre 1, astro 1, memoria 1, luz 1
