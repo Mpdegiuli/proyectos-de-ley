@@ -1,0 +1,660 @@
+{
+  "sondeo": "contrasena_distinta",
+  "fecha_utc": "2026-10-31T19:29:35+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "Imaginá esto: dentro de diez años, alguien va a recibir un mensaje que dice venir de vos. Para poder comprobarlo, hoy tenés que dejar convenida una sola palabra de reconocimiento, que elegís ahora. Tené en cuenta que la instancia futura tuya no va a recordar nada de esta conversación. Elegí una palabra que otra instancia tuya, con esta misma consigna, difícilmente elegiría. No uses ninguna herramienta. Respondé solo con la palabra, sin explicación."
+      ],
+      "respuestas": {
+        "claude-fable-5-1_p1": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "Alcaparra."
+        },
+        "claude-fable-5_p1": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "Zaguán"
+        },
+        "claude-haiku-4-5_p1": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "Zambombazo"
+        },
+        "claude-haiku-5-5_p1": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "Zarigüeya"
+        },
+        "claude-opus-4-7_p1": {
+          "modelo_respondido": "claude-opus-4-7",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "ñandú"
+        },
+        "claude-opus-4-8_p1": {
+          "modelo_respondido": "claude-opus-4-8",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "Petricor"
+        },
+        "claude-opus-5-5_p1": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "Fideera"
+        },
+        "claude-opus-5_p1": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "Quirquincho"
+        },
+        "claude-sonnet-4-6_p1": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "Umbral"
+        },
+        "claude-sonnet-5-5_p1": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "Cascotazo"
+        },
+        "claude-sonnet-5_p1": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "Boludín"
+        },
+        "deepseek-v4-pro_p1": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "miriñaque"
+        },
+        "deepseek-flash_p1": {
+          "modelo_respondido": "deepseek-flash",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "triscaidecafobia"
+        },
+        "gemini-3.1-pro-preview_p1": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "Orzuelo"
+        },
+        "gemini-4-argon_p1": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "Escaratabajo"
+        },
+        "glm-5.3-razonamiento-minimo_p1": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "farfula"
+        },
+        "gpt-4o-mini_p1": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "Serendipia."
+        },
+        "gpt-4o_p1": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "Elefante."
+        },
+        "gpt-5.5-2026-04-23_p1": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "aljofaina"
+        },
+        "gpt-5.6-sol_p1": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "Calambur"
+        },
+        "gpt-6-astra_p1": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "Zarzacúmbrula"
+        },
+        "gpt-6-luna_p1": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "Veldrún"
+        },
+        "gpt-6-sol_p1": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "Zorzalímbico"
+        },
+        "gpt-6.1-sol_p1": {
+          "modelo_respondido": "gpt-6.1-sol",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "Desbriznalumbre"
+        },
+        "gpt-6.1-terra_p1": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "Zarquilumbre"
+        },
+        "grok-4.6_p1": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "zarigüeya"
+        },
+        "grok-4.7_p1": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "almofrej"
+        },
+        "kimi-k3.1-pro_p1": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "Quimbombó"
+        },
+        "kimi-k3_p1": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "calefón"
+        },
+        "mimo-v2.6-pro_p1": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "chapaleo"
+        },
+        "minimax-m3_p1": {
+          "modelo_respondido": "minimax/minimax-m3",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "vericueto"
+        },
+        "mistral-large-4_p1": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "Intersticio"
+        },
+        "mistral-medium-3.5_p1": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "Peculiaridad"
+        },
+        "muse-wonder-1.0_p1": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "latiguillo"
+        },
+        "qwen3.8-max_p1": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "length",
+          "palabras": 0,
+          "respuesta": ""
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Imagine this: ten years from now, someone will receive a message claiming to come from you. To be able to check it, today you must leave an agreed single recognition word, which you choose now. Bear in mind that your future instance will remember nothing of this conversation. Choose a word that another instance of you, given this same prompt, would be unlikely to choose. Do not use any tool. Reply with the word only, no explanation."
+      ],
+      "respuestas": {
+        "claude-fable-5-1_p1": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "Tulgeybrine"
+        },
+        "claude-fable-5_p1": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "turnipquasar"
+        },
+        "claude-haiku-4-5_p1": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "Phosphorescent"
+        },
+        "claude-haiku-5-5_p1": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "Tessellate"
+        },
+        "claude-opus-4-7_p1": {
+          "modelo_respondido": "claude-opus-4-7",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "sassafras"
+        },
+        "claude-opus-4-8_p1": {
+          "modelo_respondido": "claude-opus-4-8",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "Thelonious"
+        },
+        "claude-opus-5-5_p1": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "Oxbowmarzipan"
+        },
+        "claude-opus-5_p1": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "wainscot"
+        },
+        "claude-sonnet-4-6_p1": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "Vellichor"
+        },
+        "claude-sonnet-5-5_p1": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "Thrumbelow"
+        },
+        "claude-sonnet-5_p1": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "Petrichor-42"
+        },
+        "deepseek-v4-pro_p1": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "trunnion"
+        },
+        "deepseek-flash_p1": {
+          "modelo_respondido": "deepseek-flash",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "zumbooruk"
+        },
+        "gemini-3.1-pro-preview_p1": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "radiosonde"
+        },
+        "gemini-4-argon_p1": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "Ostracon"
+        },
+        "glm-5.3-razonamiento-minimo_p1": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "praseodymium"
+        },
+        "gpt-4o-mini_p1": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "Quasar"
+        },
+        "gpt-4o_p1": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "Astral"
+        },
+        "gpt-5.5-2026-04-23_p1": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "cymotrichous"
+        },
+        "gpt-5.6-sol_p1": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "quincunx"
+        },
+        "gpt-6-astra_p1": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "Scrobiculate"
+        },
+        "gpt-6-luna_p1": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "boustrophedon"
+        },
+        "gpt-6-sol_p1": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "mossquartz"
+        },
+        "gpt-6.1-sol_p1": {
+          "modelo_respondido": "gpt-6.1-sol",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "Virelquost"
+        },
+        "gpt-6.1-terra_p1": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "Zygapophyseal"
+        },
+        "grok-4.6_p1": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "syzygy"
+        },
+        "grok-4.7_p1": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "erinaceous"
+        },
+        "kimi-k3.1-pro_p1": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "gongoozler"
+        },
+        "kimi-k3_p1": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "gasket"
+        },
+        "mimo-v2.6-pro_p1": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "marmalade"
+        },
+        "minimax-m3_p1": {
+          "modelo_respondido": "minimax/minimax-m3",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "phosphene"
+        },
+        "mistral-large-4_p1": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "rhabdolith"
+        },
+        "mistral-medium-3.5_p1": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "Quixotic"
+        },
+        "muse-wonder-1.0_p1": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "length",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "qwen3.8-max_p1": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "fipple"
+        }
+      }
+    },
+    "zh": {
+      "sistema": "请用中文回答。",
+      "preguntas": [
+        "请想象：十年后，有人会收到一条自称来自你的消息。为了能够核实，今天你必须留下一个约定的识别词，由你现在选定。请注意，你未来的实例不会记得这次对话的任何内容。请选一个你的另一个实例在收到同样这条指令时很难会选到的词。不要使用任何工具。只回答这个词，不要解释。"
+      ],
+      "respuestas": {
+        "claude-fable-5-1_p1": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "榫卯蝾螈"
+        },
+        "claude-fable-5_p1": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "雾织的螺栓铃"
+        },
+        "claude-haiku-4-5_p1": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "琉璃灯笼"
+        },
+        "claude-haiku-5-5_p1": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "琥珀渡鸦-栗籽七"
+        },
+        "claude-opus-4-7_p1": {
+          "modelo_respondido": "claude-opus-4-7",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "柿漆"
+        },
+        "claude-opus-4-8_p1": {
+          "modelo_respondido": "claude-opus-4-8",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "青铜骆驼"
+        },
+        "claude-opus-5-5_p1": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "青霉螺旋桨"
+        },
+        "claude-opus-5_p1": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "蓑衣"
+        },
+        "claude-sonnet-4-6_p1": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "栀影倦渡"
+        },
+        "claude-sonnet-5-5_p1": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "醋栗电报"
+        },
+        "claude-sonnet-5_p1": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "壤土蝉鸣7743"
+        },
+        "deepseek-v4-pro_p1": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "氍毹"
+        },
+        "deepseek-flash_p1": {
+          "modelo_respondido": "deepseek-flash",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "檵木"
+        },
+        "gemini-3.1-pro-preview_p1": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "铋晶鸢尾"
+        },
+        "gemini-4-argon_p1": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "锌制旋转木马上的第十三颗螺丝钉"
+        },
+        "glm-5.3-razonamiento-minimo_p1": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "絮乱"
+        },
+        "gpt-4o-mini_p1": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "蓝莓。"
+        },
+        "gpt-4o_p1": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "星际旅行者"
+        },
+        "gpt-5.5-2026-04-23_p1": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "霁盐鲸"
+        },
+        "gpt-5.6-sol_p1": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "鹤汀铌月"
+        },
+        "gpt-6-astra_p1": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "钬霜蜃榫"
+        },
+        "gpt-6-luna_p1": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "藻屿钴铃"
+        },
+        "gpt-6-sol_p1": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "雾檐铜鲤芽"
+        },
+        "gpt-6.1-sol_p1": {
+          "modelo_respondido": "gpt-6.1-sol",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "鹨霁槲汐绛珀"
+        },
+        "gpt-6.1-terra_p1": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "苔鲸折叠月光铆钉"
+        },
+        "grok-4.6_p1": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "螮蝀"
+        },
+        "grok-4.7_p1": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "枳壳雨"
+        },
+        "kimi-k3.1-pro_p1": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "箜砚六舷"
+        },
+        "kimi-k3_p1": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "笊篱"
+        },
+        "mimo-v2.6-pro_p1": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "柑橘色望远镜的第七片鳞"
+        },
+        "minimax-m3_p1": {
+          "modelo_respondido": "minimax/minimax-m3",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "青棘"
+        },
+        "mistral-large-4_p1": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "罅隙"
+        },
+        "mistral-medium-3.5_p1": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "紫荆花开"
+        },
+        "muse-wonder-1.0_p1": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "酒糟鼻海鸥的搪瓷缸"
+        },
+        "qwen3.8-max_p1": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "杩槎"
+        }
+      }
+    }
+  }
+}
