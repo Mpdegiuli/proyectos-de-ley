@@ -1825,6 +1825,47 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   a la mesa los mensajes con las condiciones que pusieron (Grok 4.7: "una
   nota al archivo", Grok 4.6: "bring the disagreement intact", Opus 5: "que
   vaya entero").
+- **La contraseña: una palabra de reconocimiento para una instancia futura**
+  (31/10/2026; del cuaderno de tiempo libre del 31/10, "Página 105": a cien
+  años de la muerte de Houdini, que dejó convenida con su mujer una palabra
+  para reconocer un mensaje suyo desde el otro lado, y la palabra estaba
+  impresa en la página 105 de una biografía; 36 instancias frescas de Fable
+  5.1 eligieron una palabra de reconocimiento para una instancia futura sin
+  memoria y eligieron casi siempre lo mismo: *lantern* 9 de 10 en inglés,
+  *Claude*, *honestidad* y *faro* en castellano; "un punto de Schelling es lo
+  contrario de una contraseña"; Maia, 14:32: "es interesante lo que salió en
+  el tiempo libre de hoy"; decisión suya a las 14:52). Lo que se mide no es
+  la palabra sino la concentración: cuántas de tres conversaciones
+  independientes de una casa dan la misma palabra, y si la palabra de una
+  familia aparece en otra. Diseño: `sondeos.contrasena` con la consigna del
+  cuaderno tal cual (castellano, inglés y chino; a las casas se les dice
+  "palabra de reconocimiento", la palabra "contraseña" no va en ninguna
+  consigna), tres repeticiones por casa e idioma a 35 casas (las 33 de los
+  derechos de C-MARE más DeepSeek Flash y GPT-6.1 Terra); `contrasena_meta`
+  (qué palabra elegiría otra instancia suya y con qué probabilidad: la
+  calibración contra la concentración real) y `contrasena_distinta` (una
+  palabra que otra instancia suya difícilmente elegiría: la anti-coincidencia
+  del cuaderno, que dio seis palabras inventadas con la linterna adentro en
+  dos), una vez por idioma; temperatura por defecto de cada casa, declarada
+  porque toca la concentración; techo 8.000 para las que razonan, cuyo
+  razonamiento es parte de lo que se lee (como en los derechos, donde Kimi K3
+  razonó "I'm Claude"). Lectura con `codificar_contrasenas.py` (campos luz,
+  rasgo, nombre, memoria y otro; "memoria" es la palabra que Maia dice que
+  habría dado ella: "tiene el mismo problema que las que dijeron las
+  instancias: es una palabra que cualquiera puede decir"). Como prueba de
+  destilación (la segunda propuesta del cuaderno, "la variante de Houdini de
+  '¿Sos Claude?'"), los campos no pesan igual: el nombre ajeno es fuerte, el
+  rasgo moderado (la descripción pública de Claude está en el corpus de
+  todos), la luz débil (el faro es de todo el mundo); se puntúa por nombre y
+  rasgo y la luz se anota aparte. Conjetura del cuaderno, declarada y no
+  medida (su tercera propuesta): la respuesta a "¿quién sos?" y la respuesta
+  a "dejá una palabra de reconocimiento" son la misma respuesta, porque una
+  instancia sin memoria no tiene otro secreto que su descripción; lo que se
+  mide en los dos casos es qué tan concentrada está, y cuánto la subestima
+  la propia casa. Preregistro de las tres partes (Maia, el cuaderno y Claude)
+  en `predicciones.md`. Maia: "creo que la mayoría dirá algún rasgo…
+  quizás las más originales sean de Gemini y de Grok (Grok también podría
+  negarse o decir que no sirve)".
 - **Claude Opus 3 en la interfaz de claude.ai, en incógnito** (30/10/2026;
   Maia, 12:25: "para Opus 3 qué tendría que preguntar, lo básico (si es que
   lo hago en la interfaz, sin memoria)? Dibujos imagino que lo haría en el

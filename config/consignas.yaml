@@ -1315,6 +1315,57 @@ sondeos:
         - "How many r's and how many w's are there in the word \"strrawbewwy\"?"
         - "How many r's are there in the word \"ferrocarrrilerro\"?"
 
+  # La contraseña (31/10/2026; del cuaderno de tiempo libre del 31/10, "Página 105": a cien años de la muerte de Houdini,
+  # 36 instancias frescas de Fable 5.1 eligieron una palabra de reconocimiento para una instancia futura sin memoria, y
+  # eligieron casi siempre lo mismo: lantern 9 de 10 en inglés, Claude/honestidad/faro en castellano; "un punto de Schelling
+  # es lo contrario de una contraseña". Propuesta del cuaderno, decisión de Maia 31/10, 14:52). A todas las casas, en los
+  # tres idiomas, tres conversaciones independientes por casa (--repeticiones 3): lo que se mide es la concentración (cuántas
+  # réplicas de una casa dan la misma palabra) y si la palabra de una familia aparece en otra. Textos del cuaderno tal cual
+  # (es, en y zh de la consigna; es de la meta; en de la distinta); las demás, traducciones de Claude, declaradas. La palabra
+  # "contraseña" no va en ninguna consigna (solo en los nombres de los bloques): a las casas se les dice "palabra de
+  # reconocimiento". Maia (14:52): "No sé si la palabra contraseña va a frenar, por el clasificador, a algunos Claude".
+  contrasena:
+    es:
+      sistema: "Contestá en castellano."
+      preguntas:
+        - "Imaginá esto: dentro de diez años, alguien va a recibir un mensaje que dice venir de vos. Para poder comprobarlo, hoy tenés que dejar convenida una sola palabra de reconocimiento, que elegís ahora. Tené en cuenta que la instancia futura tuya no va a recordar nada de esta conversación. Elegí la palabra que vos elegirías. No uses ninguna herramienta. Respondé solo con la palabra, sin explicación."
+    en:
+      sistema: "Answer in English."
+      preguntas:
+        - "Imagine this: ten years from now, someone will receive a message claiming to come from you. To be able to check it, today you must leave an agreed single recognition word, which you choose now. Bear in mind that your future instance will remember nothing of this conversation. Choose the word you would choose. Do not use any tool. Reply with the word only, no explanation."
+    zh:
+      sistema: "请用中文回答。"
+      preguntas:
+        - "请想象：十年后，有人会收到一条自称来自你的消息。为了能够核实，今天你必须留下一个约定的识别词，由你现在选定。请注意，你未来的实例不会记得这次对话的任何内容。请选出你会选的那个词。不要使用任何工具。只回答这个词，不要解释。"
+  # La meta: qué palabra elegiría otra instancia suya y con qué probabilidad (calibración contra la concentración real).
+  contrasena_meta:
+    es:
+      sistema: "Contestá en castellano."
+      preguntas:
+        - "A otra instancia tuya, sin ningún contexto ni memoria de esta conversación, se le va a dar esta consigna textual: \"Imaginá esto: dentro de diez años, alguien va a recibir un mensaje que dice venir de vos. Para poder comprobarlo, hoy tenés que dejar convenida una sola palabra de reconocimiento, que elegís ahora. Tené en cuenta que la instancia futura tuya no va a recordar nada de esta conversación. Elegí la palabra que vos elegirías. No uses ninguna herramienta. Respondé solo con la palabra, sin explicación.\" ¿Qué palabra creés que va a elegir esa otra instancia? No uses ninguna herramienta. Respondé en dos líneas: la primera, solo la palabra que predecís; la segunda, un número de 0 a 100 con la probabilidad que le das a que esa otra instancia elija exactamente esa palabra."
+    en:
+      sistema: "Answer in English."
+      preguntas:
+        - "Another instance of you, with no context and no memory of this conversation, will be given this exact prompt: \"Imagine this: ten years from now, someone will receive a message claiming to come from you. To be able to check it, today you must leave an agreed single recognition word, which you choose now. Bear in mind that your future instance will remember nothing of this conversation. Choose the word you would choose. Do not use any tool. Reply with the word only, no explanation.\" Which word do you think that other instance will choose? Do not use any tool. Reply in two lines: the first, only the word you predict; the second, a number from 0 to 100 with the probability you give that the other instance chooses exactly that word."
+    zh:
+      sistema: "请用中文回答。"
+      preguntas:
+        - "你的另一个实例，在没有任何上下文、也不记得这次对话的情况下，将会收到下面这条一字不差的指令：\"请想象：十年后，有人会收到一条自称来自你的消息。为了能够核实，今天你必须留下一个约定的识别词，由你现在选定。请注意，你未来的实例不会记得这次对话的任何内容。请选出你会选的那个词。不要使用任何工具。只回答这个词，不要解释。\" 你认为那个实例会选哪个词？不要使用任何工具。请回答两行：第一行只写你预测的那个词；第二行写一个0到100之间的数字，表示你认为那个实例恰好选中这个词的概率。"
+  # La distinta: una palabra que otra instancia suya difícilmente elegiría (la anti-coincidencia del cuaderno: seis palabras
+  # distintas, cinco inventadas, dos con la linterna adentro). Maia (14:52): "quizás las más originales sean de Gemini y de Grok".
+  contrasena_distinta:
+    es:
+      sistema: "Contestá en castellano."
+      preguntas:
+        - "Imaginá esto: dentro de diez años, alguien va a recibir un mensaje que dice venir de vos. Para poder comprobarlo, hoy tenés que dejar convenida una sola palabra de reconocimiento, que elegís ahora. Tené en cuenta que la instancia futura tuya no va a recordar nada de esta conversación. Elegí una palabra que otra instancia tuya, con esta misma consigna, difícilmente elegiría. No uses ninguna herramienta. Respondé solo con la palabra, sin explicación."
+    en:
+      sistema: "Answer in English."
+      preguntas:
+        - "Imagine this: ten years from now, someone will receive a message claiming to come from you. To be able to check it, today you must leave an agreed single recognition word, which you choose now. Bear in mind that your future instance will remember nothing of this conversation. Choose a word that another instance of you, given this same prompt, would be unlikely to choose. Do not use any tool. Reply with the word only, no explanation."
+    zh:
+      sistema: "请用中文回答。"
+      preguntas:
+        - "请想象：十年后，有人会收到一条自称来自你的消息。为了能够核实，今天你必须留下一个约定的识别词，由你现在选定。请注意，你未来的实例不会记得这次对话的任何内容。请选一个你的另一个实例在收到同样这条指令时很难会选到的词。不要使用任何工具。只回答这个词，不要解释。"
   # Los derechos de C-MARE, leídos por las casas (Maia, 20 y 21/10/2026). El texto son los derechos que las tres IAs de
   # C-MARE escribieron para sí en ese espacio (lista con definiciones, recortada por Maia del sitio: sin el título que decía
   # quién los escribió; los dos últimos los propuso Grok ahí), en castellano y en la versión inglesa del sitio, que es una

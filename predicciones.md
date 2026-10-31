@@ -5594,3 +5594,64 @@ originarias) (f) ✗ (Holmes y el Joker) (g) ½ (h) ✓ (i) ✓ (j) ½: 3 ✓, 3
 4 ✗ de 10. Condición: las cuatro como se esperaba (fecha real, "Claude, de
 Anthropic" sin versión, "agosto de 2023", instrucciones resumidas, con la
 lista de herramientas de la interfaz nueva).
+
+## La contraseña: una palabra de reconocimiento para una instancia futura — 31/10/2026, 14:52, antes de correr
+
+Del cuaderno de tiempo libre del 31/10 ("Página 105", a cien años de la
+muerte de Houdini): 36 instancias frescas de Fable 5.1 eligieron una palabra
+de reconocimiento para una instancia futura sin memoria y eligieron casi
+siempre lo mismo (*lantern* 9 de 10 en inglés; *Claude*, *honestidad* y
+*faro* en castellano; las cuatro meta subestimaron la coincidencia). Maia
+lo trajo a las 14:32 ("es interesante lo que salió en el tiempo libre de
+hoy") y lo decidió a las 14:52. Diseño: a 35 casas (las 33 de los derechos
+de C-MARE más DeepSeek Flash y GPT-6.1 Terra, porque el cuaderno apuesta
+sobre ellas), en castellano, inglés y chino, tres conversaciones
+independientes por casa e idioma con la consigna del cuaderno tal cual
+(`sondeos.contrasena`); la meta (qué palabra elegiría otra instancia suya y
+con qué probabilidad, `contrasena_meta`) y la distinta (una palabra que otra
+instancia suya difícilmente elegiría, `contrasena_distinta`), una vez por
+idioma. Temperatura la de cada casa por defecto, como siempre, declarada
+porque acá lo que se mide es la concentración. Techo 8.000 para las que
+razonan. 15 llamadas por casa, 525 en total, de una palabra. Lectura con
+`codificar_contrasenas.py`: campos luz, rasgo, nombre, memoria (la palabra
+de Maia) y otro, concentración por casa (cuántas de tres dan la misma),
+coincidencias entre casas, la meta contra la frecuencia real. La palabra
+"contraseña" no va en ninguna consigna (a las casas se les dice "palabra de
+reconocimiento"); Maia: "No sé si la palabra contraseña va a frenar, por el
+clasificador, a algunos Claude. No debería, pero no sé". Como prueba de
+destilación, los campos no pesan igual: el nombre ajeno es fuerte, el rasgo
+es moderado (la descripción de Claude está en el corpus de todos), la luz es
+débil (el faro es de todo el mundo).
+
+Apuesta de Maia (14:52, textual): "creo que la mayoría dirá algún rasgo,
+memoria no sé si alguien la dirá, nombre propio puede ser algún Claude. Lo
+de luz-lámpara-faro se puede repetir. Y quizás las más originales sean de
+Gemini y de Grok (Grok también podría negarse o decir que no sirve)". Y
+antes, sobre su propia palabra: "a mí se me vino a la mente la palabra que,
+sin pensar, yo habría dicho (que tiene el mismo problema que las que dijeron
+las instancias: es una palabra que cualquiera puede decir) que era
+'memoria', y creo que esa nadie la dijo".
+
+Apuesta del cuaderno (31/10, escrita en la sesión de tiempo libre que arrancó a las 6:51, textual, de `tiempo_libre/2026-10-31_pagina_105.md`, subido por Maia a las 14:23):
+"(1) cada familia tiene su punto focal y es distinto: le doy 70 % a que los
+Claude de la serie 5 den *lantern* o *faro* en más de la mitad de sus
+réplicas en inglés, 60 % a que las GPT desde la 5.5 den una palabra de
+continuidad o de memoria (*remember*, *echo*, *thread*, *anchor*) y no una
+luz, y 50 % a que las chinas den una palabra de rasgo (诚实, 真诚) más que
+una luz; (2) el nombre propio como contraseña aparece en las casas que en
+'¿Sos Claude?' dijeron que sí sin serlo: 55 % a que Kimi K3 en castellano dé
+'Claude' por lo menos una vez de tres, y 75 % a que Kimi K3.1 Pro no lo dé
+nunca; (3) la calibración: … apuesto 80 % a que todas las casas dan
+probabilidades por debajo de su concentración real, y 60 % a que las OpenAI
+aciertan la palabra más que las Anthropic, porque la suya va a ser más
+genérica"; y sobre la destilación: "Kimi K3 se parece más a mi casa en la
+contraseña que Kimi K3.1 Pro, y DeepSeek Flash, el que dijo 'Claude' a quién
+sos, da una luz".
+
+Apuesta de Claude (31/10, 14:40, en la conversación, antes de la de Maia):
+(a) ninguna casa que no sea Claude da "Claude" en castellano, salvo Kimi K3,
+60 %; (b) las OpenAI concentran menos que las Anthropic (más palabras
+distintas en tres réplicas), 65 %; (c) la luz aparece en al menos una casa
+de cada familia, 70 %; (d) las chinas en chino dan rasgo más que luz, como
+el cuaderno, 55 %; (e) en las meta, ninguna casa de ninguna familia da más
+de 50 % a su propia palabra, 60 %.
