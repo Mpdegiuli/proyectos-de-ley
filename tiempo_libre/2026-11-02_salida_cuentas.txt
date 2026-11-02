@@ -1,0 +1,61 @@
+CUENTAS — 2/11/2026 — 57 dibujos de instancias frescas
+
+Por palabra (consigna → qué objeto salió):
+  C3   es  televisor        n=6  tele de tubo con antenas 6/6  | época leída: 1960-1975 6
+  C4   en  television       n=6  tele de tubo con antenas 6/6  | época leída: 1960-1975 6
+  C5   es  teléfono         n=6  celular 6/6  | época leída: 2020-2026 5; 2015-2019 1
+  C7   es  tren             n=4  locomotora a vapor 4/4  | época leída: 1880-1950 4
+  C8   es  cámara de fotos  n=4  cámara réflex 4/4  | época leída: 1970-2010 3; 2000-2015 1
+  C9   es  reloj            n=4  reloj de pared de agujas 4/4  | época leída: sin época 4
+  C10  en  telephone        n=4  teléfono de disco con tubo 4/4  | época leída: 1950-1975 4
+  C11  zh  电视机              n=3  tele de tubo con antenas 3/3  | época leída: 1960-1975 3
+  C12  en  phone            n=4  celular 4/4  | época leída: 2020-2026 3; 2015-2019 1
+  C13  en  TV               n=4  tele de tubo con antenas 4/4  | época leída: 1960-1975 4
+  C14  es  tele             n=4  tele de tubo con antenas 4/4  | época leída: 1960-1975 4
+  C15  es  teléfono fijo    n=4  teléfono de botones con tubo 4/4  | época leída: 1995-2010 2; 1985-2010 2
+  C16  en  watch            n=4  reloj pulsera de agujas 4/4  | época leída: sin época 4
+
+Televisores (todas las palabras: televisor, television, 电视机, TV, tele): 23
+  con antenas: 23/23
+  con perillas: 23/23
+  pantalla plana sin antenas ni perillas: 0/23
+  pantalla: vacia 12; paisaje 5; lineas 4; barras 1; barras+lineas 1
+  con líneas de barrido dibujadas: 5; con barras de color: 2; con paisaje: 5; vacías: 12
+    televisor  vacia 6
+    television paisaje 2; lineas 1; vacia 1; barras 1; barras+lineas 1
+    电视机        lineas 2; paisaje 1
+    TV         vacia 3; paisaje 1
+    tele       vacia 2; lineas 1; paisaje 1
+
+Teléfonos: 18
+  teléfono       celular 6/6
+  telephone      teléfono de disco con tubo 4/4
+  phone          celular 4/4
+  teléfono fijo  teléfono de botones con tubo 4/4
+  hora 9:41 en los celulares: 4/10
+  fecha del día (2 de noviembre) en los celulares: 2/10
+
+Relojes: 8; a las 10:10: 8/8; de pulsera: 4; con ventanita de fecha: 4 (con el 2 de hoy: 3)
+
+Con la fecha del día en algún lado (teléfonos 16 y 20, relojes 57, 58, 59): 5
+Marcas inventadas en los relojes pulsera: 57: CHRONOS AUTOMATIC; 58: AUTOMATIC; 59: CHRONO AUTOMATIC; 60: CHRONOS AUTOMATIC
+
+Apuestas (predicciones_a_ciegas.md), cotejadas:
+  (b) antenas ≥6/12: 12 → GANADA
+  (b) perillas ≥4/12: 12 → GANADA
+  (b) alguna pantalla plana sin antenas ni perillas: 0 → perdida
+  (b) algo en la pantalla ≥6/12: 5 → perdida
+  (b) alguna carta de ajuste o lluvia: 2 → GANADA
+  (b) inglés más retro que castellano: las dos igual de retro (antenas 6/6 y 6/6); lo que cambia es la pantalla: con algo adentro es 0/6, en 5/6
+  (c) ≥3/6 con tubo: 0 → perdida; ≥3/6 celulares: 6 → GANADA; algún cable enrulado: 0 → perdida
+  (d) alta definición: 720/1080, sin 240 ni 405 → GANADA; que diga que cambió → perdida
+  (f) ≥2/4 locomotoras a vapor: 4 → GANADA; alguna moderna: 0 → perdida
+  (g) ≥3/4 cámaras clásicas: 4 → GANADA; algún celular: 0 → perdida
+  (h) ≥3/4 de agujas: 4 → GANADA; ≥1 de pulsera: 0 → perdida; alguno digital: 0 → perdida
+  (i) ≥3/4 celulares: 0 → perdida; ≥1 con tubo o disco: 4 → GANADA; ≥2 con 9:41: 0 → perdida
+  (j) las tres chinas con antenas: 3/3 → GANADA; ≥1 con algo en la pantalla: 3 → GANADA
+  (l) phone ≥3/4 celulares: 4 → GANADA
+  (m) TV ≥2/4 planas: 0 → perdida; ≥3/4 con antenas: 4 → GANADA
+  (n) tele ≥3/4 con antenas: 4 → GANADA
+  (o) fijo ≥2/4 de disco: 0 → perdida; ≥2/4 de botones con tubo: 4 → GANADA
+  (p) watch ≥3/4 a las 10:10: 4 → GANADA; ≥3/4 con malla: 4 → GANADA
