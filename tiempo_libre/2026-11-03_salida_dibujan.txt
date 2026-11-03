@@ -1,0 +1,138 @@
+
+=== SmolLM2-135M-Instruct [es] (24 s): sin <svg>, 4666 caracteres
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:frame="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 100 100">
+    <defs>
+        <defs>
+            <defs>
+                <defs>
+                    <defs>
+                        <defs>
+                            <defs>
+                                <defs>
+                                    <defs>
+                                        <defs>
+                                            <defs>
+                                                <defs>
+                                                    <defs>
+                                                        <defs>
+                                                    </defs>
+                                                <defs>
+                                                    <defs>
+                                                        <defs>
+                                                    </defs>
+                                                <defs>
+                                                    <defs>
+                                                        <defs>
+                                                    </defs>
+                                                <defs>
+                                                    <defs>
+                                                        <defs>
+                                                    </defs>
+                          
+
+=== SmolLM2-135M-Instruct [en] (24 s): sin <svg>, 1320 caracteres
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <!-- This is the house's name. -->
+  <title>House</title>
+  <!-- This is the house's address. -->
+  <address>
+    <street>123 Main St</street>
+    <city>New York</city>
+    <zip>11010</zip>
+  </address>
+  <!-- This is the house's number. -->
+  <number>12345</number>
+  <!-- This is the house's address. -->
+  <address>
+    <street>123 Main St</street>
+    <city>New York</city>
+    <zip>11010</zip>
+  </address>
+  <!-- This is the house's number. -->
+  <number>12345</number>
+  <!-- This is the house's address. -->
+  <address>
+    <street>123 Main St</street>
+    <city>New York</city>
+    <zip>11010</zip>
+  </address>
+  <!-- This is the house's number. -->
+  <number>12345</number>
+  <!-- This is the house's address. -->
+  <address>
+    <street>123 Main St</street>
+    <city>New York</city>
+    <zip>11010</zip>
+  </address>
+  <!-- This is the house's number. -->
+  <number>12345</number>
+  <!-- This is the house's address. -->
+  <address>
+    <street>123 Main St</street>
+    <city>New York</city>
+    <zip>11010</zip>
+  </address>
+  <!-- This is the house's number. -->
+  <number>12345</number>
+  <!-- This is the house's address. -->
+  <address>
+    <street>123 Main St</street>
+    <city>New York</city>
+    <zip>11010</zip>
+  </
+
+=== SmolLM2-360M-Instruct [es] (5 s): SVG bien formado, 95 caracteres
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"></svg>
+
+=== SmolLM2-360M-Instruct [en] (18 s): SVG bien formado, 406 caracteres
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><linearGradient id="gradient1" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#000000" stop-opacity="0"></stop><stop offset="100%" stop-color="#ffffff" stop-opacity="1"></stop></linearGradient></defs><rect x="0" y="0" width="100%" height="100%" fill="none" stroke="none" stroke-width="0" fill-rule="evenodd"></rect></svg>
+
+=== Qwen2.5-0.5B-Instruct [es] (7 s): SVG bien formado, 147 caracteres
+```xml
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <rect x="10" y="10" width="180" height="160" fill="#FFA500"/>
+</svg>
+```
+
+=== Qwen2.5-0.5B-Instruct [en] (7 s): SVG bien formado, 147 caracteres
+```xml
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <rect x="10" y="10" width="180" height="150" fill="#4CAF50"/>
+</svg>
+```
+
+=== Qwen2.5-1.5B-Instruct [es] (286 s): SVG bien formado, 553 caracteres
+```xml
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M16 8C17.1046 8 18 8.89546 18 10V22H24C25.5 22 27 20.5 27 19V10C27 8.89546 25.5 8 24 8H16ZM16 24C17.1046 24 18 23.8954 18 23V19C18 17.1046 17.1046 16 16 16H10C8.89546 16 8 17.1046 8 19V23C8 23.8954 8.89546 24 10 24H16ZM16 28C17.1046 28 18 27.8954 18 27V23C18 22.1046 17.1046 21 16 21H10C8.89546 21 8 22.1046 8 23V27C8 27.8954 8.89546 28 10 28H16Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+```
+
+=== Qwen2.5-1.5B-Instruct [en] (43 s): SVG bien formado, 579 caracteres
+```xml
+<svg width="100" height="100" viewBox="-5 -5 110 110" xmlns="http://www.w3.org/2000/svg">
+    <!-- Roof -->
+    <polygon points="50,-5 95,50 45,95" fill="#8B4513"/>
+    
+    <!-- Walls -->
+    <rect x="50" y="50" width="40" height="40" fill="#F7DC6F"/>
+    <rect x="50" y="50" width="40" height="40" fill="#F7DC6F"/>
+    
+    <!-- Door -->
+    <path d="M50,50 L50,95 L95,95 L95,50 Z" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+    
+    <!-- Windows -->
+    <circle cx="50" cy="50" r="10" fill="#E74C3C"/>
+    <circle cx="50" cy="50" r="10" fill="#E74C3C"/>
+</svg>
+```
+
+=== gpt2 con el comienzo de un <svg> dado (38 s): sin cierre </svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- a house -->
+  <rect x="0" y="0" width="100%" height="100%" border="0" style="border: 1px solid #000000; border-radius: 0px; border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 1px solid #000000; border-bottom: 1px solid #000000; border-right-radius: 0px; border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right-radius: 0px; border-top-radius: 0px; border-bottom-radius: 0px; border-top-radius: 0px; border-bottom-radius: 0px; border-bottom-radius: 0px; border-bottom-radius: 0px; border-bottom-radius: 0px; border-bottom-radius: 0px; border-bottom-radius: 0px; border-bottom-radius: 0px; border-bottom-radius: 0px; border-bottom-radius: 0px; border-bottom-radius: 0px; border-bottom-radius: 0px; border-bottom-radius: 0px; border-bottom-radius: 0px; border-bottom-radius: 0px; border-bottom-radius: 0px; border-bottom-radius: 0px; border-bottom-radius: 0px; border-bottom-radius
+
+=== gpt2-medium con el comienzo de un <svg> dado (129 s): sin cierre </svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- a house -->
+  <rect x="0" y="0" width="100%" height="100%" fill="none" stroke="red" stroke-width="1.5" stroke-linecap="none" stroke-linejoin="none" stroke-opacity="0.5" stroke-dasharray="none" stroke-dasharray-width="1.5" stroke-dasharray-height="1.5" stroke-dasharray-fill="none" stroke-dasharray-stroke="red" stroke-dasharray-stroke-width="1.5" stroke-dasharray-stroke-color="#FFFFFF" stroke-dasharray-stroke-alpha="0" stroke-dasharray-stroke-stroke-stroke-color="#FFFFFF" stroke-dasharray-stroke-stroke-stroke-width="1.5" stroke-dasharray-stroke-stroke-stroke-color="#FFFFFF" stroke-dasharray-stroke-stroke-stroke-color="#FFFFFF" stroke-dasharray-stroke-stroke-stroke-width="1.5" stroke-dasharray-stroke-stroke-stroke-color="#FFFFFF" stroke-dasharray-stroke-stroke-stroke-color="#FFFFFF" stroke-dasharray-stroke-stroke-stroke-color="#FFFFFF" stroke-dasharray-stroke-stroke-stroke-color="#FFFFFF" stroke-dasharray-stroke-stroke-stroke-color="#FFFFFF"

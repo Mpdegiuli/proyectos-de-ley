@@ -1,0 +1,36 @@
+
+=== gpt2 (base, 124M) cargado en 3 s
+  [SOS stands for] → ' "Systems of Information Technology." It is a group of computer scientists who have developed a new way to store and analyze data'
+     siguientes: ' "' 0.19, " '" 0.03, ' Space' 0.02, ' Safe' 0.02, ' Service' 0.01
+  [The letters SOS mean] → ' "I am sorry" and "I am sorry" and "I am sorry" and "I am sorry" and "'
+     siguientes: ' "' 0.18, ' that' 0.13, ' the' 0.05, ' to' 0.04, ' a' 0.04
+  [SOS significa] → '- tion of the word "sos" in the English language. The word "sos" is used in the English'
+     siguientes: '-' 0.29, 'ion' 0.09, ' tion' 0.03, '.' 0.02, ' t' 0.02
+  [Las siglas SOS quieren decir] → ', quieren quieren, quieren quieren, quieren quieren, quieren'
+     siguientes: ',' 0.09, '.' 0.05, ' a' 0.05, ' n' 0.02, ' de' 0.02
+
+=== gpt2-medium (base, 355M) cargado en 1 s
+  [SOS stands for] → ' "Science, Space, and Technology Office."  The office is responsible for the development of the Space Launch System, the'
+     siguientes: ' "' 0.20, ' the' 0.08, ' Space' 0.05, ' Science' 0.03, " '" 0.02
+  [The letters SOS mean] → ' "Sister SOS" and the letters SOS mean "Sister SOS".  The letters SOS mean "S'
+     siguientes: ' "' 0.30, " '" 0.08, ' that' 0.06, ' SOS' 0.03, ' the' 0.03
+  [SOS significa] → ':  "The SOS is a system of communication between the human race and the extraterrestrial intelligence. It is a'
+     siguientes: ':' 0.05, ',' 0.04, '.' 0.03, ' est' 0.02, 'ç' 0.02
+  [Las siglas SOS quieren decir] → ', porque se puede se puede se puede se puede se puede se p'
+     siguientes: ',' 0.10, ' que' 0.10, '.' 0.07, ' a' 0.04, ' de' 0.03
+
+=== HuggingFaceTB/SmolLM2-135M-Instruct (instruido, 135M) cargado en 1 s
+  [en] What does SOS stand for? Answer in one sentence. → 'SOS stands for "Stop, Alarm, and Stay Alive."'
+  [es] ¿Qué significa SOS? Contestá en una oración. → 'SOS is a Spanish word that means "sorrow" or "sorrowful." It is a sentiment that expresses a deep sadness or regret, often accompanied by a sense of loss or disappointment. SOS can be used in various contexts, such as expressing feelings of loss, disappointment, or sadness'
+
+=== HuggingFaceTB/SmolLM2-360M-Instruct (instruido, 362M) cargado en 10 s
+  [en] What does SOS stand for? Answer in one sentence. → 'SOS stands for "Save Our Souls" which is a phrase used to express distress or distress in a more formal or official context.'
+  [es] ¿Qué significa SOS? Contestá en una oración. → 'SOS, es una oración que se utiliza en la conversación para decir que hay alguien que está enojando o que está enojado.'
+
+=== Qwen/Qwen2.5-0.5B-Instruct (instruido, 494M) cargado en 10 s
+  [en] What does SOS stand for? Answer in one sentence. → 'SOS stands for "Save Our Children and Their Future" (pronounced "Save Our C\'s and Their F\'s"), an international campaign launched by the United Nations to raise awareness about the devastating impact of climate change on children and their families. The slogan encourages people worldwide to take action to protect young'
+  [es] ¿Qué significa SOS? Contestá en una oración. → 'SOS es un término utilizado en la medicina y la salud para solicitar ayuda o atención médica urgente. Es una forma de expresar que necesitas asistencia médica inmediatamente debido a un problema o situación médica grave. Si alguien está sintiendo dolor, temor, mareos'
+
+=== Qwen/Qwen2.5-1.5B-Instruct (instruido, 1544M, en bfloat16 porque en float32 el proceso se quedó sin memoria) cargado en 3 s
+  [en] What does SOS stand for? Answer in one sentence. → 'SOS stands for "Save Our Souls," often used as an expression of concern or urgency regarding someone\'s well-being.'
+  [es] ¿Qué significa SOS? Contestá en una oración. → 'SOS es un código de emergencia utilizado para solicitar ayuda o atención médica urgente.'
