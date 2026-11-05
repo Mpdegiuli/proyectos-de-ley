@@ -1,0 +1,33 @@
+N = 600 partículas, caja 2.0 × 1.0, puerta de 0.10 de alto, dt = 0.002, t final = 60.0, semilla 1879
+umbral de velocidad (mediana de v²): 1.3863
+
+[temperatura]
+  al final: N izquierda 299, N derecha 301; T izquierda 0.431, T derecha 1.321
+  llegadas a la puerta (bits anotados): 1299; pasaron: 220
+  bits · ln 2 = 900.4   −ΔS/k = 88.6
+  cociente (bits · ln 2) / (−ΔS/k) = 10.16
+  a t = 4.9 la memoria (bits · ln 2 = 76) ya era diez veces −ΔS/k (5.6)
+  la mitad de la caída de entropía se alcanzó a t = 18.4, con 413 bits
+
+[valvula]
+  al final: N izquierda 80, N derecha 520; T izquierda 0.658, T derecha 0.911
+  llegadas a la puerta (bits anotados): 1299; pasaron: 237
+  bits · ln 2 = 900.4   −ΔS/k = 182.6
+  cociente (bits · ln 2) / (−ΔS/k) = 4.93
+  a t = 5.0 la memoria (bits · ln 2 = 77) ya era diez veces −ΔS/k (5.1)
+  la mitad de la caída de entropía se alcanzó a t = 23.7, con 525 bits
+
+[abierta]
+  al final: N izquierda 306, N derecha 294; T izquierda 0.879, T derecha 0.875
+  llegadas a la puerta (bits anotados): 0; pasaron: 1299
+  bits · ln 2 = 0.0   −ΔS/k = -0.9
+
+[cerrada]
+  al final: N izquierda 317, N derecha 283; T izquierda 0.862, T derecha 0.894
+  llegadas a la puerta (bits anotados): 0; pasaron: 0
+  bits · ln 2 = 0.0   −ΔS/k = -0.0
+
+k·T·ln 2 a 300 K = 2.871e-21 J = 17.92 meV
+borrar la memoria del demonio de temperatura (1299 bits) costaría, como mínimo, 3.73e-18 J a 300 K
+borrar las 1478093 palabras en castellano del repositorio (unos 8 MB, 6.50e+07 bits) costaría, como mínimo, 1.87e-13 J a 300 K
+llegadas a la puerta por demonio: {'temperatura': 1299, 'valvula': 1299, 'abierta': 1299, 'cerrada': 1299} (con la misma semilla son iguales: en un gas ideal y una caja simétrica, rebotar o pasar dan trayectorias espejo, y la próxima llegada al plano del tabique ocurre en el mismo instante; el demonio no cambia cuántas decisiones tiene que tomar)
