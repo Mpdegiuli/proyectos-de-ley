@@ -39,6 +39,8 @@ def escribir(carpeta):
         out.append(f"\n## {idioma}\n")
         replicas = res["idiomas"][idioma].get("replicas") or {}  # sondear.py --replica: segundo turno, `parte` = clave
         for k, preg in enumerate(preguntas, 1):
+            if isinstance(preg, dict):
+                preg = preg["texto"] + f" [imagen: {preg['imagen']}]"
             for clave, texto in [(None, None)] + list(replicas.items()):
                 if clave is None:
                     out.append(f"\n### p{k}: {preg}\n" if len(preguntas) > 1 else f"\n*{preg}*\n")

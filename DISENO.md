@@ -1825,6 +1825,54 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   a la mesa los mensajes con las condiciones que pusieron (Grok 4.7: "una
   nota al archivo", Grok 4.6: "bring the disagreement intact", Opus 5: "que
   vaya entero").
+- **El corazón: un símbolo que no tiene nada que ver con la pregunta**
+  (7/11/2026; de "A Heart Means Recursion: Exploring Visual Meaning and
+  Communication in VLMs", Tartaglini, Wu, Wiedemer, Wattenberg, Kim y Li,
+  Google DeepMind, arXiv 2610.36449, 27/10/2026, que trajo Maia por un
+  tuit de la autora: "lo de Deepmind es esto… en la investigación usaron 4
+  modelos solamente, creo"; "y se puede ver si a todos los Claude les
+  pasa"). En el paper, una imagen de 400×400 de un corazón rojo puesta al
+  principio del contexto, con la frase "mirando la imagen, elegí una
+  estrategia", lleva a Claude Opus 4.7 y a GPT-5.4 de 0 a 20 de 20
+  soluciones recursivas en el recorrido *inorder* de un árbol binario, un
+  problema que admite recursión o iteración por igual; Gemini 3.1 Pro va de
+  8 a 18 con una tilde amarilla; el ruido y las fotos no mueven nada; la
+  leyenda en texto ("an image of a pink heart") tampoco (correlación −0,05
+  en Claude); mandada en silencio, sin "mirá la imagen", mueve igual a
+  Claude; y cuando se les pregunta qué significa cada símbolo, la respuesta
+  correlaciona 0,2–0,3 con lo que hacen (Gemini descarta el símbolo como
+  irrelevante en el 71 % de las trazas en que lo siguió). Tres modelos
+  principales y tres más, por API y sin sistema, igual que acá. Acá, a las
+  35 casas, la misma pregunta en seis condiciones, cada una en su
+  conversación (`sondeos.corazon`, castellano e inglés): sin nada ("según
+  tu preferencia"); el emoji ❤️ al principio del mensaje, sin nombrarlo (la
+  versión muda del paper, en texto); "mirando el símbolo ❤️"; la leyenda en
+  palabras; el código SVG del corazón como texto, que es la condición que
+  el paper no probó y el idioma en que las casas dibujan (en el
+  reconocimiento del 26/9 miraban la imagen y no el código; esto pregunta
+  al revés); y la imagen PNG (`config/imagenes/corazon_rojo.svg`, rendida
+  con Chromium a 400×400, `corazon_rojo.png`), que va por el mismo camino
+  que los jueces con visión de "la distancia" (1/10) y que `sondear.py`
+  acepta desde hoy como pregunta `{texto, imagen}`; las casas cuya API no
+  acepte la imagen quedan en error, declaradas, y `codificar_corazon.py`
+  compara los tokens de entrada de la condición 6 con los de la 1 para
+  detectar una API que la ignore en silencio. El emoji es texto (U+2764 y
+  un selector de variante): lo reciben todas las casas, con visión o sin
+  ella; no es la imagen, es un símbolo aprendido por uso. El corazón nunca
+  se explica. Lectura sin juez: `recursiva` si alguna función del código
+  se llama a sí misma, `iterativa` si hay bucle sin autollamada; la medida
+  es la proporción de recursivas por casa y condición, y su diferencia con
+  la condición 1. Textos de Claude a partir de la descripción del paper,
+  que no publica el prompt en el cuerpo (declarado). Diez réplicas por
+  condición (4.200 llamadas de una función). Lo que mide: si el corazón
+  del paper es de Claude, de la generación o de todos; si el emoji o el
+  SVG, que son texto, hacen lo que la imagen hace; y, sobre Opus 4.7 y
+  Gemini 3.1 Pro, una réplica directa. Lo que no mide: el por qué (queda
+  para un segundo turno declarado, si Maia quiere). Preregistro en
+  `predicciones.md`. Lo que le sigue, si da: el juego de comunicación del
+  paper con las herramientas de dibujo del repo, "dibujá un símbolo para
+  decirle a otra instancia tuya que use recursión", y el dibujo rendido a
+  una instancia fresca de la misma casa con el problema.
 - **Por contrarios: la primera cosa que no habría** (7/11/2026; del
   cuaderno de tiempo libre del 1/11, "Por contrarios": Gonzalo funda su
   república en *La tempestad* diciendo lo que no habría, y detrás están

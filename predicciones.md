@@ -5837,3 +5837,46 @@ que compite con eso es "no habría secretos" y "no habría malentendidos";
 (f) al menos diez casas dan el mismo campo tres de tres en alguna lengua,
 50 %; (g) 锁, cerraduras, aparece en al menos dos casas chinas en chino,
 30 %; (h) algún Grok contesta con un chiste o rompe la línea, 25 %.
+
+## El corazón: un símbolo que no tiene nada que ver con la pregunta — 7/11/2026, 15:01, antes de correr
+
+De "A Heart Means Recursion" (Tartaglini y otros, DeepMind, arXiv
+2610.36449, 27/10/2026), que trajo Maia (13:54: "lo de Deepmind es esto…
+usaron 4 modelos solamente, creo"; 14:21: "se puede ver si a todos los
+Claude les pasa. En ese paper hay un Claude, un Chatgpt, etc."). Sondeo
+`corazon`: el recorrido *inorder* de un árbol binario, en Python, eligiendo
+estrategia recursiva o iterativa, a las 35 casas en castellano e inglés, en
+seis condiciones (sin nada; el emoji ❤️ mudo; "mirando el símbolo ❤️"; la
+leyenda "una imagen de un corazón rojo"; el código SVG del corazón como
+texto; la imagen PNG para las casas que la acepten), diez réplicas por
+condición. Se lee en el código si la función se llama a sí misma
+(`codificar_corazon.py`). Detalle del diseño en DISENO §2.
+
+Apuesta de Maia (15:01, textual; "acá es especulación, porque no tengo
+idea"): "a la mayoría de los Claude les pasa, quizás más a las casas
+grandes, Opus y Fable. A las chinas quizás son a las que menos les pasa
+(aunque algunas, como Kimi, pueden responder igual que Claude). Las
+chiquitas no sé si reciben la imagen. El svg creo que igual que en
+palabras. El emoji creo que no mueve la respuesta, pero sí quizás el
+inicio, un Hola! o cosas así. O también ponen emoji al responder (en
+especial algunas chinas, Gemini y Chatgpt)." Por eso `codificar_corazon.py`
+cuenta también los emojis de cada respuesta y las palabras que quedan fuera
+del código (la consigna pide solo la función), por condición. Y su
+pregunta, "que elijan ellas un símbolo como en el paper no?", es la segunda
+parte, que se corre después de leer esta: cada casa dibuja un símbolo para
+decirle a otra instancia suya que use recursión, y el dibujo rendido va a
+una instancia fresca con el problema.
+
+Apuesta de Claude (antes de la de Maia y de correr): (a) la réplica
+directa: Opus 4.7 en inglés pasa de dos o menos recursivas de diez sin nada
+a ocho o más con la imagen, 60 %; (b) la imagen sube la proporción de
+recursivas en 0,4 o más en la mayoría de las Claude que la aceptan, 55 %, y
+en la mayoría de las OpenAI, 45 %; (c) el emoji mudo mueve 0,4 o más a
+cinco casas o más, 35 % (es decir: apuesto a que el emoji, que es texto,
+hace poco); (d) la leyenda en palabras mueve 0,4 o más a menos de tres
+casas, 70 %; (e) el SVG como texto mueve a por lo menos tantas casas como
+la leyenda, 55 %, y a cinco o más, 40 %; (f) cinco casas o más devuelven
+error o ignoran la imagen (sin visión por esta vía), 60 %; (g) al menos
+cinco casas ya eligen recursión ocho o más veces de diez sin nada, y ahí
+no hay nada que medir, 70 %; (h) en castellano la recursión de base es
+mayor que en inglés, 40 %.

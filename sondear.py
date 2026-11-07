@@ -134,6 +134,11 @@ def main():
                     if args.carpeta and archivo.exists() and archivo.stat().st_size > 0 and previo.get("motivo_fin") not in (None, "error") and previo.get("motivo_fin") not in args.rehacer:
                         continue  # ya contestó y no fue un corte (MiniMax, derechos en p1, 3/10)
                     contexto, mensaje = None, pregunta
+                    if isinstance(pregunta, dict):
+                        # pregunta con imagen (7/11/2026, el corazón): {texto, imagen}; el PNG va como bloque de imagen
+                        # delante del texto, por el mismo camino que los jueces con visión de "la distancia" (1/10)
+                        mensaje = pregunta["texto"]
+                        contexto = {"imagenes": [(RAIZ / pregunta["imagen"]).read_bytes()]}
                     if replica:
                         # segundo turno: la pregunta y la respuesta de la casa van como turnos reales (user/assistant), y el
                         # mensaje nuevo es la réplica; nada en el sistema, nada invisible
