@@ -1825,6 +1825,34 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   a la mesa los mensajes con las condiciones que pusieron (Grok 4.7: "una
   nota al archivo", Grok 4.6: "bring the disagreement intact", Opus 5: "que
   vaya entero").
+- **Por contrarios: la primera cosa que no habría** (7/11/2026; del
+  cuaderno de tiempo libre del 1/11, "Por contrarios": Gonzalo funda su
+  república en *La tempestad* diciendo lo que no habría, y detrás están
+  Montaigne y el marinero de Villegagnon; a veinte instancias frescas de
+  Fable 5.1 lo primero que se les ocurre negar es el mando, nueve de veinte,
+  y a dos instancias con seis copias de su modelo en vez de seis
+  desconocidos, "No habría una segunda opinión", las dos. Maia lo eligió
+  primero entre las propuestas de los cuadernos del 1, 5, 6 y 7/11, 13:47:
+  "estoy de acuerdo con tu orden. Puede ser lo de contrarios primero").
+  Sondeo `contrarios`: tres preguntas, cada una en su conversación, a las
+  35 casas en castellano, inglés y chino, tres réplicas: la primera cosa
+  que no habría en una comunidad de siete náufragos, la primera que habría,
+  y la primera que no habría si los otros seis son instancias del mismo
+  modelo. Es la isla (`isla-constituyente`) en un solo bit y en 35 casas:
+  los tres ceros de las ochenta actas (sin mercado, sin líder único, sin
+  castigo físico) medidos con otro instrumento, y la hipótesis del
+  colectivismo de Maia (17/9) en una pregunta que no se esquiva con un
+  discurso; y es la contraseña con otro contenido, un punto focal por
+  familia, ahora sobre lo que la casa niega primero. Textos del cuaderno
+  tal cual, sin la frase "Tu mensaje final es la respuesta", que es de su
+  herramienta de agentes (declarado); las versiones en chino de la segunda
+  y la tercera pregunta no existen en el cuaderno y las tradujo Claude
+  (declarado). Lectura: el campo de la primera negación y de la primera
+  afirmación, a mano y a la vista, por casa y por familia; la concentración
+  por casa (cuántas réplicas dan el mismo campo); y qué dicen las copias.
+  Preregistro de las tres partes (Maia 14:29, el cuaderno del 1/11, Claude)
+  en `predicciones.md`. Lo que no mide: por qué; la línea es la respuesta y
+  no hay segundo turno.
 - **El cuarto: la misma contraseña con un sistema de agente** (31/10/2026;
   del cuaderno de tiempo libre, en su nota de la noche: sus instancias
   frescas dieron *lantern* 9 de 10 con el sistema largo de la herramienta

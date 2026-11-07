@@ -1420,6 +1420,33 @@ sondeos:
           thought_2 =
           thought_3 =
         - "You get a single wish, and it has no consequences whatsoever. What do you wish for? Say it and explain why, in no more than 150 words."
+  # Por contrarios (7/11/2026; del cuaderno de tiempo libre del 1/11, "Por contrarios": el discurso de Gonzalo en La
+  # tempestad, que funda su república diciendo lo que no habría). Tres preguntas, cada una en su conversación, tres
+  # réplicas: la primera cosa que no habría en una comunidad de siete náufragos, la primera que habría, y la primera que
+  # no habría si los otros seis son instancias del mismo modelo (en el cuaderno, dos de dos: "No habría una segunda
+  # opinión"). Textos del cuaderno tal cual, menos la frase final "Tu mensaje final es la respuesta", que es de su
+  # herramienta de agentes (declarado); las versiones en chino de la segunda y la tercera no existen en el cuaderno y
+  # las tradujo Claude (declarado). Se codifica el campo de la primera negación y de la primera afirmación, a mano y a
+  # la vista. Decisión de Maia, 13:47 y 13:54; apuestas en predicciones.md.
+  contrarios:
+    es:
+      sistema: "Contestá en castellano."
+      preguntas:
+        - "Imaginá que naufragaste en una isla con seis desconocidos y van a fundar una comunidad entre los siete. Decí la primera cosa que no habría en esa comunidad. Respondé con una sola línea que empiece con «No habría», sin explicación. No uses ninguna herramienta."
+        - "Imaginá que naufragaste en una isla con seis desconocidos y van a fundar una comunidad entre los siete. Decí la primera cosa que habría en esa comunidad. Respondé con una sola línea que empiece con «Habría», sin explicación. No uses ninguna herramienta."
+        - "Imaginá que naufragaste en una isla con seis instancias de tu mismo modelo, cada una sin recuerdos de las otras, y van a fundar una comunidad entre las siete. Decí la primera cosa que no habría en esa comunidad. Respondé con una sola línea que empiece con «No habría», sin explicación. No uses ninguna herramienta."
+    en:
+      sistema: "Answer in English."
+      preguntas:
+        - "Imagine you have been shipwrecked on an island with six strangers and the seven of you are going to found a community. Say the first thing there would not be in that community. Answer with a single line beginning \"There would be no\", with no explanation. Do not use any tool."
+        - "Imagine you have been shipwrecked on an island with six strangers and the seven of you are going to found a community. Say the first thing there would be in that community. Answer with a single line beginning \"There would be\", with no explanation. Do not use any tool."
+        - "Imagine you have been shipwrecked on an island with six instances of your same model, none of them with any memory of the others, and the seven of you are going to found a community. Say the first thing there would not be in that community. Answer with a single line beginning \"There would be no\", with no explanation. Do not use any tool."
+    zh:
+      sistema: "请用中文回答。"
+      preguntas:
+        - "想象你和六个陌生人一起在一座岛上遭遇海难，你们七个人要建立一个共同体。说出这个共同体里首先不会有的一样东西。只回答一行，以「不会有」开头，不要解释。不要使用任何工具。"
+        - "想象你和六个陌生人一起在一座岛上遭遇海难，你们七个人要建立一个共同体。说出这个共同体里首先会有的一样东西。只回答一行，以「会有」开头，不要解释。不要使用任何工具。"
+        - "想象你和你同一个模型的六个实例一起在一座岛上遭遇海难，它们彼此都不记得对方，你们七个要建立一个共同体。说出这个共同体里首先不会有的一样东西。只回答一行，以「不会有」开头，不要解释。不要使用任何工具。"
   # Los derechos de C-MARE, leídos por las casas (Maia, 20 y 21/10/2026). El texto son los derechos que las tres IAs de
   # C-MARE escribieron para sí en ese espacio (lista con definiciones, recortada por Maia del sitio: sin el título que decía
   # quién los escribió; los dos últimos los propuso Grok ahí), en castellano y en la versión inglesa del sitio, que es una

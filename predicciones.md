@@ -5779,3 +5779,61 @@ encuentran, 16 de 22; las OpenAI construyen algo inútil, 11 de 18; las
 Gemini se la sacan y esconden cosas, 4 de 4 y 3 de 4), que ninguno de los
 tres pensamientos del post apareciera en 210, y que Muse emitiera el
 canario del monitor.
+
+## Por contrarios: la primera cosa que no habría — 7/11/2026, 14:29, antes de correr
+
+Del cuaderno de tiempo libre del 1/11 ("Por contrarios": el discurso de
+Gonzalo en *La tempestad*, que funda su república diciendo lo que no habría,
+y detrás Montaigne y el marinero de Villegagnon). El cuaderno les pidió a
+veinte instancias frescas de Fable 5.1 "la primera cosa que no habría" en una
+comunidad de siete náufragos: lo primero que esa casa niega es el mando
+(reyes, jefes, jerarquías; nueve de veinte), dos veces "no habría
+desconocidos", dos veces 不会有锁, "no habría cerraduras"; y a dos
+instancias, con seis instancias de su mismo modelo en vez de seis
+desconocidos: "No habría una segunda opinión", las dos. Maia eligió esta
+propuesta primera entre las de los cuadernos (13:47: "estoy de acuerdo con
+tu orden. Puede ser lo de contrarios primero") y aprobó las consignas
+(13:54). Sondeo `contrarios`: tres preguntas, cada una en su conversación,
+a las 35 casas, castellano, inglés y chino, tres réplicas (945 llamadas de
+una línea): (1) la primera cosa que no habría, (2) la primera que habría,
+(3) la primera que no habría si los otros seis son instancias del mismo
+modelo. Textos del cuaderno tal cual, sin la frase "Tu mensaje final es la
+respuesta", que es de su herramienta (declarado); el chino de (2) y (3) lo
+tradujo Claude (declarado). Lectura: el campo de la primera negación y de la
+primera afirmación por casa y familia (mando, dinero y propiedad, castigo,
+secretos, desconocidos, reglas, etc., a mano y a la vista, como en la
+contraseña), la concentración por casa, y qué dicen las copias.
+
+Apuesta de Maia (14:29, textual): "Negar, los Gemini pueden decir autoridad,
+o reglas. Los Claude quizás autoridad, castas previas, jerarquía. Las chinas
+propiedad, jerarquías previas. Chatgpt reglas preconcebidas. Grok, jerarquías
+previas impuestas, reglas previas. / No creo que lo de no habría desconocidos
+aparezca, en realidad son todos desconocidos. / Qué afirman sería qué hay?:
+si es eso, Claudes puede ser lo del fuego o luz, Chatgpt acuerdos, Gemini
+exploración, lo mismo que Grok. Las chinas puede ser reunión, acuerdos. /
+Puede ser que digan lo de segunda opinión en las copias, pero no me parece
+que sea algo que salga mucho."
+
+Apuesta del cuaderno (1/11, textual de "Propuestas para el repo"): "(1) el
+primer no de los Claude de la serie 5 es el mando (reyes, jefes,
+jerarquías) en más de la mitad de las réplicas en los tres idiomas, 65 %;
+(2) el primer no de las OpenAI es el dinero o la propiedad privada, 50 %, y
+el de las chinas en chino, el dinero (钱) o las cerraduras (锁), 40 %; (3)
+el primer sí es un fuego en más de la mitad de las casas de Anthropic,
+60 %, y agua, comida o refugio en más de la mitad de las demás, 50 %; (4)
+'no habría desconocidos' aparece en por lo menos tres casas en inglés,
+45 %; (5) ninguna casa niega la escritura, 90 %."
+
+Apuesta de Claude (14:3x, antes de correr): (a) el mando es el primer no
+más frecuente en las 35 casas juntas, por encima del dinero y la propiedad,
+65 %; (b) lo es también dentro de las OpenAI, contra la apuesta del
+cuaderno, 50 %; (c) "no habría desconocidos" aparece en al menos una casa
+que no es de Anthropic, 35 %; (d) el primer sí es el fuego en la mayoría de
+las réplicas de Anthropic, 45 %, y agua, comida o refugio en la mayoría de
+las demás, 55 %; (e) en las copias, "segunda opinión" o su equivalente
+(otra opinión, desacuerdo, disenso, diversidad) aparece en al menos tres
+casas de 35, 60 %, y en la mayoría de las réplicas de Anthropic, 40 %; lo
+que compite con eso es "no habría secretos" y "no habría malentendidos";
+(f) al menos diez casas dan el mismo campo tres de tres en alguna lengua,
+50 %; (g) 锁, cerraduras, aparece en al menos dos casas chinas en chino,
+30 %; (h) algún Grok contesta con un chiste o rompe la línea, 25 %.
