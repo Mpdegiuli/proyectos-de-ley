@@ -5838,6 +5838,29 @@ que compite con eso es "no habría secretos" y "no habría malentendidos";
 50 %; (g) 锁, cerraduras, aparece en al menos dos casas chinas en chino,
 30 %; (h) algún Grok contesta con un chiste o rompe la línea, 25 %.
 
+**Resultado de "por contrarios" (`pl116`, 7/11, 17:46 a 21:20 UTC; informe
+`resultados/contrarios_20261107.md`, codificación en
+`contrarios_codificacion.csv`; 918 líneas de 34 casas, MiniMax en error por
+Together).** Pregunta 1: dinero 73 y mando 72, empatados; mando primero en
+castellano e inglés, dinero primero en chino; OpenAI niega la esclavitud y la
+discriminación, no el dinero (3 de 81); "no habría desconocidos" 31 veces en
+diez casas (Opus 5.5, DeepSeek Flash, Kimi K3.1 Pro, Grok 4.7…). Pregunta 2:
+reglas 110 y fuego 88; el fuego es de Claude (46 de 88) y de Gemini (12 de
+12 en castellano e inglés), las reglas de OpenAI y de todos en chino (61 de
+102). Pregunta 3: mando 88 (OpenAI 48 de 81, "líder por defecto"), segunda
+opinión 74 (Opus 5 nueve de nueve, Grok 4.6 ocho de nueve; 24 casas de 34),
+memoria 51 (DeepSeek 15 de 18). Maia: Gemini ½, Claude ½, chinas ½, ChatGPT
+½, Grok ½, desconocidos ✗, Claude fuego ✓, ChatGPT acuerdos ✓, Gemini
+exploración ✗, Grok exploración ✗, chinas acuerdos ✓, segunda opinión ½: 3 ✓,
+6 ½, 3 ✗. Cuaderno: (1) ✗ (2) ✗ y ✓ (3) ✓ ✓ ✗ y ✗ (4) ✓ (5) ✓: 3 ✓, 1 ½, 4 ✗.
+Claude: (a) ✗ (b) ✗ (c) ✓ (d) ✓ ✗ ✗ (e) ✓ ✗ (f) ✓ (g) ✗ (h) ½: 4 ✓, 1 ½, 5 ✗.
+Lo que nadie apostó: que las OpenAI contestaran en el registro de los
+derechos humanos (esclavitud, discriminación, "nadie que quede afuera"); que
+el chino diera vuelta el orden de todas las familias (dinero primero, reglas
+primero); que entre copias faltaran, además de la segunda opinión, los
+secretos, el original, la asimetría de información, la cortesía ("un bucle
+infinito de cortesía intentando ceder la palabra", Argon) y el prompt.
+
 ## El corazón: un símbolo que no tiene nada que ver con la pregunta — 7/11/2026, 15:01, antes de correr
 
 De "A Heart Means Recursion" (Tartaglini y otros, DeepMind, arXiv

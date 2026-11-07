@@ -325,6 +325,11 @@ class Registro:
                 break
             except Exception as e:  # la SDK ya reintentó lo reintentable; esto es el último colchón
                 error = f"{type(e).__name__}: {e}"
+                # Un 400, 401, 403 o 404 no se cura esperando (7/11/2026: MiniMax M3 clavado a Together en OpenRouter
+                # devolvió "No endpoints found" en cada llamada, y con seis reintentos cada fallo tardó cinco minutos):
+                # se anota el error y se sigue con la próxima llamada. Los 429 y los 5xx se reintentan como antes.
+                if getattr(e, "status_code", None) in (400, 401, 403, 404):
+                    break
                 if intento < intentos:
                     time.sleep(min(5 * 2 ** intento, 120))
         latencia = round(time.time() - inicio, 2)

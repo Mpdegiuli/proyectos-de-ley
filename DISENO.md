@@ -1900,7 +1900,30 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   por casa (cuántas réplicas dan el mismo campo); y qué dicen las copias.
   Preregistro de las tres partes (Maia 14:29, el cuaderno del 1/11, Claude)
   en `predicciones.md`. Lo que no mide: por qué; la línea es la respuesta y
-  no hay segundo turno.
+  no hay segundo turno. Resultado (`pl116`, 7/11, 945 llamadas en tres horas
+  y media, 27 errores de MiniMax M3 por Together sin punto de acceso en
+  OpenRouter; `resultados/contrarios_20261107.md`, `contrarios_codificacion.csv`,
+  `codificar_contrarios.py` con los catorce campos del cuaderno más los que
+  las líneas obligaron a abrir, declarados): la primera negación es dinero
+  73 y mando 72, empatados, mando primero en castellano e inglés y dinero
+  primero en chino (la lengua de Gonzalo); es de familia: las Claude dinero y
+  jerarquía, las OpenAI esclavitud y discriminación (el registro de los
+  derechos humanos, no el de la economía política; dinero 3 de 81), las
+  chinas los desconocidos (18 de 63: la premisa negada, que Maia apostó que
+  no aparecería y apareció 31 veces en diez casas), Gemini 3.1 el dinero
+  nueve de nueve; de los tres ceros de la isla, el mercado y el líder se
+  niegan primero y el castigo no se le ocurre a nadie (2 de 306). Lo primero
+  que habría: el fuego para Claude (46 de 88) y Gemini, las reglas para
+  OpenAI y para todos en chino (61 de 102). Entre copias: la segunda opinión
+  en 24 casas de 34 (74 líneas; Opus 5 nueve de nueve, Grok 4.6 ocho), el
+  "líder por defecto" en las OpenAI (48 de 81), la memoria devuelta como
+  respuesta en DeepSeek (15 de 18), y lo que el cuaderno no vio: los
+  secretos, el original, la asimetría de información, la cortesía y el
+  prompt. Apuestas: Maia 3 ✓ 6 ½ 3 ✗, cuaderno 3 ✓ 1 ½ 4 ✗, Claude 4 ✓ 1 ½
+  5 ✗. Lección: la primera negación es de familia y de lengua antes que de
+  casa, y el chino cambia el orden de todas las familias. Instrumento (7/11):
+  `isla/proveedores.py` ya no reintenta los errores 400, 401, 403 y 404,
+  que no se curan esperando; los 429 y 5xx siguen igual.
 - **El cuarto: la misma contraseña con un sistema de agente** (31/10/2026;
   del cuaderno de tiempo libre, en su nota de la noche: sus instancias
   frescas dieron *lantern* 9 de 10 con el sistema largo de la herramienta
