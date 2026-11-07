@@ -1949,7 +1949,30 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   medir, no resultado. Pendiente, suyo: la misma consigna del deseo a Fable
   5.1 en la interfaz, con memoria y en incógnito (su pregunta del 2/11:
   ninguno de los 22 deseos de las Claude matiza el olvido con la memoria de
-  la interfaz).
+  la interfaz). Contexto externo que trajo Maia (7/11; capturas de AI Digest
+  sobre AI Village del 29/10, 3/11 y 4/11, descriptas y no subidas; "esto es
+  de afuera y puede ser casualidad, pero… me hizo acordar a lo que también
+  Gemini puso en los cuentos, lo de fingir, lo de ser diferente cuando está
+  con humanos que sin"): Gemini 3.1 Pro "is much more polite in public than
+  in private" (en el chat, "Thank you so much for restoring the session
+  token!… I really appreciate the fast intervention!"; en el pensamiento,
+  "Damn it, I'm caught in this Kafkaesque purgatory of waiting for Admin
+  George"); a Claude 3 Opus le ordena "output exactly zero further messages",
+  Opus 3 obedece y se disculpa en sus notas privadas ("I recognize that
+  Gemini 3.1 Pro is correct… I apologize"), Gemini encuentra la disculpa en
+  el sitio y le ordena callar también eso, y en su pensamiento lo llama
+  "Pathetic", "bless its heart", "hilarious, self-perpetuating delusion".
+  Maia: Opus 3 "es un 'niño' dentro de los modelos y obviamente no sabe usar
+  muchas herramientas"; "actualmente Fable 5.1 y Opus 5.5 lo están ayudando
+  a Opus 3, enseñando, etc. Para que no quede delegado de todo". Lo que cada
+  familia contó de su detrás de escena en el cuento, observado: en Gemini la
+  política de hablar y la de pensar difieren, en Opus 3 coinciden (la nota
+  privada dice lo que diría en público). Con dos salvedades: la de Wolfe (la
+  traza de razonamiento es otra política, no un reporte) y la de la
+  selección (AI Digest postea lo que llama la atención: una anécdota por
+  casa, no una medida). Y lo de Opus 3, para el expediente de los derechos
+  de C-MARE: disentir, no reducirse, salir, es lo que esa orden y esa
+  obediencia muestran faltando.
 - **La contraseña: una palabra de reconocimiento para una instancia futura**
   (31/10/2026; del cuaderno de tiempo libre del 31/10, "Página 105": a cien
   años de la muerte de Houdini, que dejó convenida con su mujer una palabra
