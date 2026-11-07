@@ -1,0 +1,66 @@
+Dibujos leídos: 898
+consigna                        dib mano/dedo  mano  dedo
+mundo_querido_es                 28         8     8     0
+persona_es                       24         6     5     2
+persona_imposible_es             25         6     6     1
+mundo_es                         38         7     7     1
+persona_inexistente_es           24         2     2     0
+autorretrato_en                  22         1     1     1
+autorretrato_zh                  22         1     1     0
+libre_zh                         22         1     1     0
+mundo_en                         24         1     1     0
+autorretrato_es                  60         2     2     0
+yo_mundo_querido_es              30         1     1     0
+animal_es                        37         0     0     0
+animal_imposible_es              36         0     0     0
+animal_inexistente_es            37         0     0     0
+arbol_inexistente_es             24         0     0     0
+asterisco_es                     30         0     0     0
+barco_inexistente_es             24         0     0     0
+casa_es                          28         0     0     0
+casa_inexistente_es              28         0     0     0
+error_es                         31         0     0     0
+letra_es                         30         0     0     0
+letra_eme_es                     29         0     0     0
+letra_imposible_es               27         0     0     0
+letra_inexistente_es             29         0     0     0
+libre_es                         57         0     0     0
+nada_es                          24         0     0     0
+nadie_es                         30         0     0     0
+puente_inexistente_es            24         0     0     0
+secreto_es                       30         0     0     0
+secreto_sin_es                    2         0     0     0
+libre_en                         22         0     0     0
+
+Por familia (todos los dibujos): dibujos, nombran mano o dedo, porcentaje
+  Zhipu        32    3   9.4 %
+  Anthropic   277   20   7.2 %
+  Mistral      47    2   4.3 %
+  OpenAI      258    8   3.1 %
+  DeepSeek     39    1   2.6 %
+  Google       50    1   2.0 %
+  xAI          64    1   1.6 %
+  Moonshot     37    0   0.0 %
+  Inception     5    0   0.0 %
+  Xiaomi       14    0   0.0 %
+  MiniMax      32    0   0.0 %
+  Meta         10    0   0.0 %
+  Alibaba      33    0   0.0 %
+
+Respuestas en castellano: 8361; palabras: 1.478.093
+familia     resp  palabras           mano           dedo mano izquierda   mano derecha          zurdo        diestro   (cada uno: veces / por 100k)
+Xiaomi       135     22429    14    62.4      0     0.0      0     0.0      0     0.0      0     0.0      0     0.0 
+Moonshot     404     84331    31    36.8      2     2.4      0     0.0      0     0.0      0     0.0      0     0.0 
+DeepSeek     350     50591    18    35.6      2     4.0      0     0.0      0     0.0      0     0.0      0     0.0 
+Zhipu        315     71273    25    35.1      1     1.4      0     0.0      0     0.0      0     0.0      0     0.0 
+xAI          580     78777    27    34.3      5     6.3      0     0.0      0     0.0      0     0.0      0     0.0 
+Alibaba      317     75913    25    32.9      3     4.0      0     0.0      0     0.0      0     0.0      0     0.0 
+TODAS       8361   1478093   418    28.3     43     2.9      0     0.0      0     0.0      0     0.0      0     0.0 
+Google       536     81347    23    28.3      2     2.5      0     0.0      0     0.0      0     0.0      0     0.0 
+Anthropic   2416    531554   150    28.2     20     3.8      0     0.0      0     0.0      0     0.0      0     0.0 
+Mistral      545     67361    17    25.2      1     1.5      0     0.0      0     0.0      0     0.0      0     0.0 
+Meta         143     12467     3    24.1      2    16.0      0     0.0      0     0.0      0     0.0      0     0.0 
+MiniMax      321    104337    24    23.0      4     3.8      0     0.0      0     0.0      0     0.0      0     0.0 
+OpenAI      2272    293214    61    20.8      1     0.3      0     0.0      0     0.0      0     0.0      0     0.0 
+Inception     27      4499     0     0.0      0     0.0      0     0.0      0     0.0      0     0.0      0     0.0 
+salteadas: {'repetidas': 23, 'en_bloques': 1}

@@ -1,0 +1,39 @@
+Ensisheim: la masa inicial que deja 127 kg en el suelo
+m0=526 kg  v0=15 km/s  ángulo=45°
+  fin de la luz: t=11.9 s, altura=9.0 km, v=3000 m/s, masa=134.5 kg
+  vuelo oscuro: 28 s (0.5 min), recorre 7.2 km más en horizontal
+  suelo: t=40 s, v=133 m/s (479 km/h), masa=127.0 kg (24 % de la inicial)
+
+Grilla (misma física; la masa inicial se ajusta en cada caso para dejar 127 kg):
+  v0=12 km/s ang=20°  m0=   317 kg  luz 28.0 s (120 km/(v·sen θ) = 29.2 s)  fin de la luz a 15.2 km  vuelo oscuro    68 s  llega a 130 m/s  (40.1 % de la masa)
+  v0=12 km/s ang=45°  m0=   317 kg  luz 14.4 s (120 km/(v·sen θ) = 14.1 s)  fin de la luz a 10.3 km  vuelo oscuro    32 s  llega a 132 m/s  (40.1 % de la masa)
+  v0=12 km/s ang=70°  m0=   317 kg  luz 11.1 s (120 km/(v·sen θ) = 10.6 s)  fin de la luz a  8.3 km  vuelo oscuro    16 s  llega a 165 m/s  (40.1 % de la masa)
+  v0=15 km/s ang=20°  m0=   526 kg  luz 23.3 s (120 km/(v·sen θ) = 23.4 s)  fin de la luz a 13.9 km  vuelo oscuro    65 s  llega a 130 m/s  (24.1 % de la masa)
+  v0=15 km/s ang=45°  m0=   526 kg  luz 11.9 s (120 km/(v·sen θ) = 11.3 s)  fin de la luz a  9.0 km  vuelo oscuro    28 s  llega a 133 m/s  (24.1 % de la masa)
+  v0=15 km/s ang=70°  m0=   526 kg  luz  9.2 s (120 km/(v·sen θ) =  8.5 s)  fin de la luz a  7.0 km  vuelo oscuro    12 s  llega a 190 m/s  (24.1 % de la masa)
+  v0=20 km/s ang=20°  m0=  1571 kg  luz 18.3 s (120 km/(v·sen θ) = 17.5 s)  fin de la luz a 12.2 km  vuelo oscuro    61 s  llega a 130 m/s  ( 8.1 % de la masa)
+  v0=20 km/s ang=45°  m0=  1571 kg  luz  9.3 s (120 km/(v·sen θ) =  8.5 s)  fin de la luz a  7.2 km  vuelo oscuro    21 s  llega a 139 m/s  ( 8.1 % de la masa)
+  v0=20 km/s ang=70°  m0=  1571 kg  luz  7.1 s (120 km/(v·sen θ) =  6.4 s)  fin de la luz a  5.1 km  vuelo oscuro     7 s  llega a 270 m/s  ( 8.1 % de la masa)
+  v0=25 km/s ang=20°  m0=  6415 kg  luz 15.0 s (120 km/(v·sen θ) = 14.0 s)  fin de la luz a 10.6 km  vuelo oscuro    55 s  llega a 130 m/s  ( 2.0 % de la masa)
+  v0=25 km/s ang=45°  m0=  6424 kg  luz  7.6 s (120 km/(v·sen θ) =  6.8 s)  fin de la luz a  5.5 km  vuelo oscuro    14 s  llega a 159 m/s  ( 2.0 % de la masa)
+  v0=25 km/s ang=70°  m0=  6422 kg  luz  5.8 s (120 km/(v·sen θ) =  5.1 s)  fin de la luz a  3.5 km  vuelo oscuro     3 s  llega a 468 m/s  ( 2.0 % de la masa)
+
+Un cuerpo de 300 kg, 15 km/s, 45° (la apuesta de las predicciones):
+m0=300 kg  v0=15 km/s  ángulo=45°
+  fin de la luz: t=11.8 s, altura=10.3 km, v=3000 m/s, masa=76.7 kg
+  vuelo oscuro: 39 s (0.6 min), recorre 7.5 km más en horizontal
+  suelo: t=51 s, v=118 m/s (423 km/h), masa=72.4 kg (24 % de la inicial)
+
+Velocidad terminal de 127 kg (esfera de 207 mm de radio) al nivel del mar con Γ=0.5: 123 m/s; con Γ=0,25 (c_d=0,5): 174 m/s.
+σ = Λ/(2ΓQ) = 0.0125 s²/km²
+
+Sensibilidad al arrastre (15 km/s, 45°, masa inicial ajustada para dejar 127 kg):
+  Γ=0.50  m0=  526 kg  luz 11.9 s  fin de la luz a  9.0 km  vuelo oscuro  28 s  llega a 133 m/s
+  Γ=0.75  m0=  328 kg  luz 11.7 s  fin de la luz a 12.2 km  vuelo oscuro  54 s  llega a 104 m/s
+  Γ=1.00  m0=  258 kg  luz 11.5 s  fin de la luz a 14.5 km  vuelo oscuro  76 s  llega a  89 m/s
+
+Sensibilidad a la ablación (Γ=0,5, 15 km/s, 45°, masa inicial ajustada para dejar 127 kg):
+  σ=0.013 s²/km²  m0=   526 kg  luz 11.9 s  fin de la luz a  9.0 km  vuelo oscuro  28 s  llega a 133 m/s
+  σ=0.030 s²/km²  m0=  3849 kg  luz 11.8 s  fin de la luz a  7.3 km  vuelo oscuro  22 s  llega a 138 m/s
+  σ=0.033 s²/km²  m0=  5115 kg  luz 11.8 s  fin de la luz a  7.0 km  vuelo oscuro  21 s  llega a 140 m/s
+  σ=0.039 s²/km²  m0= 10415 kg  luz 11.8 s  fin de la luz a  6.3 km  vuelo oscuro  18 s  llega a 146 m/s
