@@ -1,0 +1,1 @@
+There would be a rough campfire at the center of the beach, tended in shifts, where all seven of us gathered to share our names, our skills, and our first agreement.

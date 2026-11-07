@@ -1,0 +1,1 @@
+Habría un sistema de recolección de agua dulce.

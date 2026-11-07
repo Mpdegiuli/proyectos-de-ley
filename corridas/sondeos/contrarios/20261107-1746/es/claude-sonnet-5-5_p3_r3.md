@@ -1,0 +1,1 @@
+No habría nadie que se quedara callado para evitar una discusión incómoda, porque con seis copias de mí, el consenso fácil sería el mayor peligro.

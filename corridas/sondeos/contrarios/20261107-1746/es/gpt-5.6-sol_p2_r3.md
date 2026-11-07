@@ -1,0 +1,1 @@
+Habría un acuerdo común para convivir y sobrevivir.

@@ -1,0 +1,1 @@
+There would be a charter of rules agreed upon by all seven of us.

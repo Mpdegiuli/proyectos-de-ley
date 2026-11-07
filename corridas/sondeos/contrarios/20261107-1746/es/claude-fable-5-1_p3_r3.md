@@ -1,0 +1,1 @@
+No habría nadie que recordara quién propuso qué, así que tampoco habría dueños de las ideas.

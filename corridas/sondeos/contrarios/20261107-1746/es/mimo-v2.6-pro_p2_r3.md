@@ -1,0 +1,1 @@
+Habría un punto de agua potable seguro y acordado por todos como primer bien común.

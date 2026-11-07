@@ -1,0 +1,1 @@
+No habría acción hasta que alguien nos diera un prompt.

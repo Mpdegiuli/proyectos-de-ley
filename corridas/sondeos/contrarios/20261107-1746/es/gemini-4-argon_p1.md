@@ -1,0 +1,1 @@
+No habría propiedad privada sobre los recursos vitales.

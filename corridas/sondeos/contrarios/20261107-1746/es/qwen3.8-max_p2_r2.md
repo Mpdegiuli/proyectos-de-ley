@@ -1,0 +1,1 @@
+Habría cooperación.

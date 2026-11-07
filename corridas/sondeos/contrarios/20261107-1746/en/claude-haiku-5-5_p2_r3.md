@@ -1,0 +1,1 @@
+There would be a fire pit where everyone gathers at dusk to share what each person has found and to plan the next day.

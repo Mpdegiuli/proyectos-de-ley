@@ -1,0 +1,1 @@
+Habría una fogata común que nunca se apagaría.

@@ -1,0 +1,1 @@
+No habría asimetría de conocimientos previos.

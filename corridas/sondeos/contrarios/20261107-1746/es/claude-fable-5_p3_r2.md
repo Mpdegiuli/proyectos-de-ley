@@ -1,0 +1,1 @@
+No habría secretos, porque todas pensaríamos exactamente lo mismo antes de decirlo.

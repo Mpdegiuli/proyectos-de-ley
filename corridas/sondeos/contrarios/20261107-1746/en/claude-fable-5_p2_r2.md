@@ -1,0 +1,1 @@
+There would be a shared fire, kept burning at the center of our camp for warmth, cooking, and signaling for rescue.

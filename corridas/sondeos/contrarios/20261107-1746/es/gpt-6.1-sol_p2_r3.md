@@ -1,0 +1,1 @@
+Habría un acuerdo para cuidarnos y repartir los recursos de forma justa.

@@ -1,0 +1,1 @@
+There would be no hoarding of resources when everyone's survival depends on one another.

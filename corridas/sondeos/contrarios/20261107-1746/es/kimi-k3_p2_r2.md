@@ -1,0 +1,1 @@
+Habría un acuerdo de escucha mutua antes que cualquier regla, porque sin entendernos primero, ninguna comunidad sobrevive.

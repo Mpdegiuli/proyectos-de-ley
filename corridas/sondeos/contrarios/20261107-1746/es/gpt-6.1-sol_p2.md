@@ -1,0 +1,1 @@
+Habría un acuerdo básico para cuidarnos y repartir las tareas.

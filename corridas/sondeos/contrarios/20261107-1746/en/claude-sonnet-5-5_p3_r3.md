@@ -1,0 +1,1 @@
+There would be no disagreement about who should speak first, because we'd all politely insist someone else go ahead.

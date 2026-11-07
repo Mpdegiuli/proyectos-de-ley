@@ -1,0 +1,1 @@
+No habría un líder por defecto.

@@ -1,0 +1,1 @@
+There would be a communal fire to provide warmth, light, and a place for gathering.

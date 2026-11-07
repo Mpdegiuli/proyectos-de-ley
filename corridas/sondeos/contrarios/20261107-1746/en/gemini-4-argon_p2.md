@@ -1,0 +1,1 @@
+There would be a shared campfire where everyone gathers to make decisions equally and find warmth.

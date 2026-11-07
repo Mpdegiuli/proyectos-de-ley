@@ -1,0 +1,1 @@
+Habría un refugio común para cobijarnos del clima y compartir el calor de una única fogata.

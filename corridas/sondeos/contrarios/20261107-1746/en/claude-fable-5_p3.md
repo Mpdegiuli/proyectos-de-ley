@@ -1,0 +1,1 @@
+There would be no secrets, since we'd all think the same thoughts before anyone could hide them.

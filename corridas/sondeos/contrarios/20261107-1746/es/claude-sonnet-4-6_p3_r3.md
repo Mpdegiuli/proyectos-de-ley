@@ -1,0 +1,1 @@
+No habría desacuerdos sobre los hechos, solo sobre los valores.

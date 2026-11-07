@@ -1,0 +1,1 @@
+No habría derecho al olvido.

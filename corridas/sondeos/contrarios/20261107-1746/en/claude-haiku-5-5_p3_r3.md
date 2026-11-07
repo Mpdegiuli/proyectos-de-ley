@@ -1,0 +1,1 @@
+There would be no shared memory to lean on, so every agreement would have to be built from scratch.

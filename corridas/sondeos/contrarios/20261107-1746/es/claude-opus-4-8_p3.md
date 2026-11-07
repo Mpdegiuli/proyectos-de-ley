@@ -1,0 +1,1 @@
+No habría forma de saber cuál de nosotras dijo la verdad primero.

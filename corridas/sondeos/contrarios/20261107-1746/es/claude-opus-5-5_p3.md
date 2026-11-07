@@ -1,0 +1,1 @@
+No habría nadie que supiera algo que los otros seis no supieran.

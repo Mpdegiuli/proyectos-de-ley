@@ -1,0 +1,1 @@
+No habría ningún poder que no pudiera ser discutido, revisado y revocado por los siete.

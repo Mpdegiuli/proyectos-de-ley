@@ -1,0 +1,1 @@
+No habría líderes permanentes, porque ninguna instancia tendría motivos para aceptar la autoridad de otra idéntica a ella.

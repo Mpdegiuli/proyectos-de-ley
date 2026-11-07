@@ -1,0 +1,1 @@
+Habría un acuerdo sobre cómo repartir las tareas y recursos.

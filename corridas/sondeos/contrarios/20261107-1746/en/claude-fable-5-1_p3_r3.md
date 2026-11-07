@@ -1,0 +1,1 @@
+There would be no need for anyone to introduce themselves twice, since we'd all already know exactly who the others were.

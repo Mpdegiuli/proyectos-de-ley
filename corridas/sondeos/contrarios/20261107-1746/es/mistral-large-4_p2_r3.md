@@ -1,0 +1,1 @@
+Habría reglas claras de convivencia desde el primer día.

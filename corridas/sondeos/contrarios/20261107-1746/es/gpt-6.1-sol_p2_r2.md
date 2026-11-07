@@ -1,0 +1,1 @@
+Habría un acuerdo básico de convivencia entre los siete.

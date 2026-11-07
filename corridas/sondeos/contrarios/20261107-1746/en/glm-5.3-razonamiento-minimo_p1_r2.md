@@ -1,0 +1,1 @@
+There would be no government until we've all agreed on how to choose it.

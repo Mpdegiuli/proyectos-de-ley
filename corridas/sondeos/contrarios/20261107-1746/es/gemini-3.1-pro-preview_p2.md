@@ -1,0 +1,1 @@
+Habría una fogata en el centro del campamento.

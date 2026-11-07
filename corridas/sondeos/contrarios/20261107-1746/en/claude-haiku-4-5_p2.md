@@ -1,0 +1,1 @@
+There would be a freshwater source that we would need to locate and secure first.

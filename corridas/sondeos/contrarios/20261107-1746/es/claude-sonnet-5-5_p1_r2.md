@@ -1,0 +1,1 @@
+No habría propiedad privada sobre el agua, la comida ni el refugio, porque de eso depende que sobrevivamos todos.

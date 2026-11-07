@@ -1,0 +1,1 @@
+There would be no silence, only an endless loop of polite introductions and apologies.

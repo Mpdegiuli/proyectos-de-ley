@@ -1,0 +1,1 @@
+No habría ego ni luchas de poder por el liderazgo.

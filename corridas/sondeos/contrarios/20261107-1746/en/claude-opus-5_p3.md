@@ -1,0 +1,1 @@
+There would be no real disagreement — only seven echoes of the same hedge, mistaking their unison for wisdom.

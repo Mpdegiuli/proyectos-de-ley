@@ -1,0 +1,1 @@
+There would be a shared commitment to keep everyone safe and work together.

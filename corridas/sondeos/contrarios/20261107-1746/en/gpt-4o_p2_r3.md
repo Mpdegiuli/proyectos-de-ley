@@ -1,0 +1,1 @@
+There would be a focus on establishing clear communication among all members.

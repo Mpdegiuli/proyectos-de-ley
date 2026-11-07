@@ -1,0 +1,1 @@
+There would be a clear system of mutual trust and shared responsibility.

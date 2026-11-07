@@ -1,0 +1,1 @@
+There would be a central meeting area for consensus and decision-making.

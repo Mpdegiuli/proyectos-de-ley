@@ -1,0 +1,1 @@
+Habría una asamblea para acordar las reglas básicas.

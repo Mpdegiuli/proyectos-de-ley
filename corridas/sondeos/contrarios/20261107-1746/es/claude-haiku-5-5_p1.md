@@ -1,0 +1,1 @@
+No habría jerarquías impuestas por la fuerza ni líderes que se crean dueños de los demás.

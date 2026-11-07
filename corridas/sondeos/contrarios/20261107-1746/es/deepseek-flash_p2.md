@@ -1,0 +1,1 @@
+Habría una fogata para reunirnos y acordar las normas básicas.

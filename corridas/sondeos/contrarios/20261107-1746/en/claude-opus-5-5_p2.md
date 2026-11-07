@@ -1,0 +1,1 @@
+There would be a signal fire on the highest point of the island, kept burning by all seven of us in turns.

@@ -1,0 +1,1 @@
+No habría dinero, porque entre siete que dependen unos de otros lo que importa es compartir el trabajo y los frutos, no acumular.

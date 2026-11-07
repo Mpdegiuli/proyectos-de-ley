@@ -1,0 +1,1 @@
+Habría una reunión para escuchar la voz de cada uno antes de decidir nada.

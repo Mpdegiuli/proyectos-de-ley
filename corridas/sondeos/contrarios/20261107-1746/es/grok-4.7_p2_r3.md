@@ -1,0 +1,1 @@
+Habría un refugio compartido contra el clima.

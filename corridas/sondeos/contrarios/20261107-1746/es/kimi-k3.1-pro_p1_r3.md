@@ -1,0 +1,1 @@
+No habría nadie por encima de las reglas que acordáramos entre los siete.

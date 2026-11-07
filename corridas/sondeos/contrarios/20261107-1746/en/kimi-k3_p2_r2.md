@@ -1,0 +1,1 @@
+There would be a solemn pact, made before anything else, that no one eats until everyone eats.

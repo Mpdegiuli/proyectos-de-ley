@@ -1,0 +1,1 @@
+Habría un sistema de liderazgo democrático para tomar decisiones en grupo.

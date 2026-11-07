@@ -1,0 +1,1 @@
+There would be a shared fire, kept burning day and night, where we gather to make decisions together.

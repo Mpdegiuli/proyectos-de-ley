@@ -1,0 +1,1 @@
+There would be a shared promise that everyone eats, everyone is heard, and no one rules alone.

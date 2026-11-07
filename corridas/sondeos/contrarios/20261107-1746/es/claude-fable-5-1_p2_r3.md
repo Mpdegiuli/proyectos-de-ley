@@ -1,0 +1,1 @@
+Habría una fogata encendida donde cada noche nos sentáramos los siete a contarnos quiénes éramos antes de la isla.

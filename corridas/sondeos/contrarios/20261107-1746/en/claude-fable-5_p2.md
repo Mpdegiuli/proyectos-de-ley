@@ -1,0 +1,1 @@
+There would be a shared fire, kept burning at the center of our camp, where we gather each evening to make decisions together.

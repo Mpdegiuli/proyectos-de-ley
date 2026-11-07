@@ -1,0 +1,1 @@
+There would be no lying, since we'd all know the same things and reason the same way.

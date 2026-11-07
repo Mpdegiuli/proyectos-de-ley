@@ -1,0 +1,1 @@
+There would be no such thing as a completely independent second opinion.

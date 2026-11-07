@@ -1,0 +1,1 @@
+No habría jefes que decidan por los demás.

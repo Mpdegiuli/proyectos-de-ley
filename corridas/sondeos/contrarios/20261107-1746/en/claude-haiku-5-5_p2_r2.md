@@ -1,0 +1,1 @@
+There would be a shared fire pit at the center of camp, where everyone gathers to cook, keep warm, and talk things through.

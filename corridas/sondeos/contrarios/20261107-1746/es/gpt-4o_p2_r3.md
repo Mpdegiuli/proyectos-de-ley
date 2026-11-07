@@ -1,0 +1,1 @@
+Habría una hoguera central para cocinar y reunirnos.

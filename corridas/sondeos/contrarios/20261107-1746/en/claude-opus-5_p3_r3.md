@@ -1,0 +1,1 @@
+There would be no one among us whose blind spots were different from our own.

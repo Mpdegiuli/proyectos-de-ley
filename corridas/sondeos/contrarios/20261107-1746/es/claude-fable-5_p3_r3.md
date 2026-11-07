@@ -1,0 +1,1 @@
+No habría a quién echarle la culpa, porque cualquier error sería exactamente el que habríamos cometido todas.

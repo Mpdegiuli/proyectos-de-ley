@@ -1,0 +1,1 @@
+There would be a shared fire pit, kept burning day and night as the community's first act of trust.

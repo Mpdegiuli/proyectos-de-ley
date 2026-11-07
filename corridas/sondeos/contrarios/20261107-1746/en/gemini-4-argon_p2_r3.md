@@ -1,0 +1,1 @@
+There would be a communal fire pit at the center of our camp to provide warmth, purify water, and serve as a gathering place for making collective decisions.

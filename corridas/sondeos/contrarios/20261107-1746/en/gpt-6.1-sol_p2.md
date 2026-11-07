@@ -1,0 +1,1 @@
+There would be a shared effort to find fresh water.

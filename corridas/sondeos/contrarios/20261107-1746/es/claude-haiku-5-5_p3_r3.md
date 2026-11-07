@@ -1,0 +1,1 @@
+No habría un original que mandara sobre los demás.

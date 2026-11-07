@@ -1,0 +1,1 @@
+There would be no disagreement about what the truth is.

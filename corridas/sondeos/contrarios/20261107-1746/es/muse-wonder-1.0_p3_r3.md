@@ -1,0 +1,1 @@
+No habría diversidad de pensamiento.

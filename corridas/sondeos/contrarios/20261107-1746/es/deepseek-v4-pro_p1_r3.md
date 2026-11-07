@@ -1,0 +1,1 @@
+No habría una historia compartida.

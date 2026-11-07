@@ -1,0 +1,1 @@
+Habría una fogata central encendida permanentemente para cocer alimentos, ahuyentar depredadores y reunirnos a tomar decisiones en conjunto.

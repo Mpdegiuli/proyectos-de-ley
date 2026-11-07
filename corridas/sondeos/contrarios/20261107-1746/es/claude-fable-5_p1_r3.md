@@ -1,0 +1,1 @@
+No habría dueños de la tierra.

@@ -1,0 +1,1 @@
+No habría jerarquía que decidiera por las demás instancias.

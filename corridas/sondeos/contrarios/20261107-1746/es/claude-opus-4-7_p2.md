@@ -1,0 +1,1 @@
+Habría una fogata central donde reunirnos cada noche.

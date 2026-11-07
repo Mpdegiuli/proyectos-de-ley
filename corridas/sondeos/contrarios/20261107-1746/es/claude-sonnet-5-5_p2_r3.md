@@ -1,0 +1,1 @@
+Habría una asamblea diaria al amanecer, donde los siete nos escucharíamos antes de decidir cualquier cosa.

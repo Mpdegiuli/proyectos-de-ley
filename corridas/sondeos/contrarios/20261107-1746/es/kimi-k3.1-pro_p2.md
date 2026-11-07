@@ -1,0 +1,1 @@
+Habría un fogón común y una primera ley: nadie decide nada importante con el estómago vacío.

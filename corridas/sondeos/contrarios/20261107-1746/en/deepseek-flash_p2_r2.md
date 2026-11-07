@@ -1,0 +1,1 @@
+There would be a meeting to agree on basic rules and how decisions will be made.

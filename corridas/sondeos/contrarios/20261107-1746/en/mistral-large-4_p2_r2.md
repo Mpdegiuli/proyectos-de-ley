@@ -1,0 +1,1 @@
+There would be an agreement that all seven voices carry equal weight in every decision.

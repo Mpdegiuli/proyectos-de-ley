@@ -1,0 +1,1 @@
+There would be no leader chosen before we've even learned each other's names.

@@ -1,0 +1,1 @@
+Habría un sistema para recolectar agua potable.

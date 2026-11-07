@@ -1,0 +1,1 @@
+There would be no disagreement about who left the dishes undone, since we'd all reason our way to the same excuse.

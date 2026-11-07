@@ -1,0 +1,1 @@
+There would be a shared agreement to protect and care for one another.

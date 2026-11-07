@@ -1,0 +1,1 @@
+There would be a shared agreement on how to survive together.

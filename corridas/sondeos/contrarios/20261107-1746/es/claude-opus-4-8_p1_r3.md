@@ -1,0 +1,1 @@
+No habría forma de ponernos de acuerdo sobre quién manda.

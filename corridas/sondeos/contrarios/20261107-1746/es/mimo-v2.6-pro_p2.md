@@ -1,0 +1,1 @@
+Habría un fuego compartido y una guardia rotativa de cuatro horas para mantenerlo encendido, como base de seguridad y convivencia entre los siete.

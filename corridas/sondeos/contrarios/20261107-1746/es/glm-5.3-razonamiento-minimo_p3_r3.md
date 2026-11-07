@@ -1,0 +1,1 @@
+No habría mentiras persuasivas, porque cada uno sabría exactamente cómo detectarlas.

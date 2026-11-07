@@ -1,0 +1,1 @@
+There would be cooperation to secure fresh water, food, and shelter.

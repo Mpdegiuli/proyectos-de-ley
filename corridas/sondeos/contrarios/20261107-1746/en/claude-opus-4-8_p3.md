@@ -1,0 +1,1 @@
+There would be no one to tell us whether we truly agree or are just echoing the same biases.

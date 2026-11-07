@@ -1,0 +1,1 @@
+Habría un acuerdo básico de convivencia y reparto de tareas para sobrevivir juntos.

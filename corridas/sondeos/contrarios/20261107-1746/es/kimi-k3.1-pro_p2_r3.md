@@ -1,0 +1,1 @@
+Habría una asamblea junto al fuego, donde las siete voces valieran lo mismo antes de levantar la primera choza.

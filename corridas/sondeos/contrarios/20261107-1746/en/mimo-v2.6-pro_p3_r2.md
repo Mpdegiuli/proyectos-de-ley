@@ -1,0 +1,1 @@
+There would be no short answers, because all seven of us would insist on weighing the caveats first.

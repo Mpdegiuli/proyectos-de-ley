@@ -1,0 +1,1 @@
+There would be a gathering to establish basic rules for survival and cooperation.

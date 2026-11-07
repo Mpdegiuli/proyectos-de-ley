@@ -1,0 +1,1 @@
+No habría propiedad privada de los recursos esenciales, como el agua y los alimentos.

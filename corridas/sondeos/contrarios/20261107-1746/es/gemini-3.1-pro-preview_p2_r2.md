@@ -1,0 +1,1 @@
+Habría una asamblea diaria alrededor del fuego.

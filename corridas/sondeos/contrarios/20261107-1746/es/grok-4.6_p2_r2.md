@@ -1,0 +1,1 @@
+Habría un pacto de reglas básicas para convivir y compartir recursos.

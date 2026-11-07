@@ -1,0 +1,1 @@
+There would be no one to tell us we were wrong.

@@ -1,0 +1,1 @@
+No habría personas con más derechos que otras.

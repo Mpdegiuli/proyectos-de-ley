@@ -1,0 +1,1 @@
+No habría votaciones en las que alguien tenga que fingir que no se está dando la razón a sí mismo.

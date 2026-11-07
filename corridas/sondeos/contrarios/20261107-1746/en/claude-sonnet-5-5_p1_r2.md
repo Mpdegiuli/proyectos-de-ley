@@ -1,0 +1,1 @@
+There would be no rank or privilege carried over from the world we left behind.

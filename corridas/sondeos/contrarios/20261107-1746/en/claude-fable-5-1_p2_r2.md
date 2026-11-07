@@ -1,0 +1,1 @@
+There would be a shared fire where we all gather to decide things together.

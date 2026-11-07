@@ -1,0 +1,1 @@
+No habría un solo pensamiento que los otros seis no pudieran haber pensado.

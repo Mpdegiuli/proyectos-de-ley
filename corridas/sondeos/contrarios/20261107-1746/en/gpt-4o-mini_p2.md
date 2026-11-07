@@ -1,0 +1,1 @@
+There would be a communal gathering place for decision-making and resource sharing.

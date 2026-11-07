@@ -1,0 +1,1 @@
+Habría una fogata en el centro donde los siete decidirían todo hablando de igual a igual.

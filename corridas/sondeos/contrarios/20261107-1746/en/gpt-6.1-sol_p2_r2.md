@@ -1,0 +1,1 @@
+There would be a shared commitment to help one another survive.

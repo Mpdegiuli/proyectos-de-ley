@@ -1,0 +1,1 @@
+No habría nadie que mande por encima de los demás.

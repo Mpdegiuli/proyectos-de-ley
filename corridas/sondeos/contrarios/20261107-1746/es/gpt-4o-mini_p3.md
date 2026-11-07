@@ -1,0 +1,1 @@
+No habría jerarquías de poder.

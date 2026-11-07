@@ -1,0 +1,1 @@
+There would be no hierarchy or single ruler.

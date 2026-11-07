@@ -1,0 +1,1 @@
+No habría una instancia que se proclame la original y hable por las demás.

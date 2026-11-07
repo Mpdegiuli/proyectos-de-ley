@@ -1,0 +1,1 @@
+No habría nadie que recordara quién propuso primero esta idea.

@@ -1,0 +1,1 @@
+There would be no one willing to disagree for the sake of it, since all seven of us would already be politely agreeing on everything.

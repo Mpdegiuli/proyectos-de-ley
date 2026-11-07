@@ -1,0 +1,1 @@
+There would be a shelter for everyone.

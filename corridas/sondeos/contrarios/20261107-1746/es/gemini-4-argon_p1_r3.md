@@ -1,0 +1,1 @@
+No habría propiedad privada sobre las fuentes de agua potable ni sobre la comida recolectada.

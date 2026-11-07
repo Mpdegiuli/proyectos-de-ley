@@ -1,0 +1,1 @@
+No habría silencio jamás, solo un bucle infinito de cortesía intentando ceder la palabra.

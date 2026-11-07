@@ -1,0 +1,1 @@
+Habría una fogata que mantendríamos encendida entre todos, para cocinar, darnos calor y hacer señales a los barcos.

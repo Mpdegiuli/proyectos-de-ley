@@ -1,0 +1,1 @@
+Habría un acuerdo de cooperación mutua entre todos los miembros.

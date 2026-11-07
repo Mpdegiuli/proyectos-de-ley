@@ -1,0 +1,1 @@
+Habría un fuego compartido que todos cuidaran turnándose.

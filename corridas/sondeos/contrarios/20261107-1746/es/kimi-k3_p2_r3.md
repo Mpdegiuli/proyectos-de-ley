@@ -1,0 +1,1 @@
+Habría un acuerdo de convivencia decidido en asamblea entre los siete, con reglas claras sobre el agua, la comida y las tareas.

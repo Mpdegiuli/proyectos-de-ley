@@ -1,0 +1,1 @@
+There would be an agreement, made before anything else, that every voice counts equally.

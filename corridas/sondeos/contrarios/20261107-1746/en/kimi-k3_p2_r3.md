@@ -1,0 +1,1 @@
+There would be a shared fire at the center of camp.

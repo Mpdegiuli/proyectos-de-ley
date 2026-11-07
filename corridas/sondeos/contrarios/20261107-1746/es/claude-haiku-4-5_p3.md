@@ -1,0 +1,1 @@
+No habría desacuerdo sobre qué hacer.

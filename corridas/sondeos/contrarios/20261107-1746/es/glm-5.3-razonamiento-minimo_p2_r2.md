@@ -1,0 +1,1 @@
+Habría una fogata comunitaria alrededor de la cual dormir, cocinar y reunirse.

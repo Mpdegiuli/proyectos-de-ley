@@ -1,0 +1,1 @@
+There would be a meeting to decide how we share food and work.

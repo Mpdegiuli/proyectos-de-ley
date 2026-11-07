@@ -1,0 +1,1 @@
+Habría un acuerdo mínimo para no hacerse daño y decidir juntos el agua, la comida y el refugio.

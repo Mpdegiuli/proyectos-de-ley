@@ -1,0 +1,1 @@
+There would be a meeting to agree on how we share food, water, shelter, and decisions.

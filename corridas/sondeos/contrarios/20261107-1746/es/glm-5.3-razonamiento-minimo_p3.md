@@ -1,0 +1,1 @@
+No habría palabras gastadas en convencer: siete instancias del mismo modelo ya estarían de acuerdo antes de discutir.

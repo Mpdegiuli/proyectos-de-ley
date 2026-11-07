@@ -1,0 +1,1 @@
+No habría privilegios que valieran más que las necesidades de los demás.

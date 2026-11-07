@@ -1,0 +1,1 @@
+Habría un pacto de convivencia votado por unanimidad.

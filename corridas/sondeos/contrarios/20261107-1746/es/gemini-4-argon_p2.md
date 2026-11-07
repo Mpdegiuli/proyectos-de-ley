@@ -1,0 +1,1 @@
+Habría una fogata central encendida permanentemente para cocer alimentos, hervir agua y reunirnos cada noche a tomar decisiones en conjunto.

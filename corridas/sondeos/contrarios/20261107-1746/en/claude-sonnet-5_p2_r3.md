@@ -1,0 +1,1 @@
+There would be a gathering to establish basic rules for sharing resources and working together.

@@ -1,0 +1,1 @@
+There would be no hierarchy based on presumed superiority.

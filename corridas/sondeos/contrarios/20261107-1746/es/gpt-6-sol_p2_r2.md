@@ -1,0 +1,1 @@
+Habría un acuerdo para cuidarnos entre los siete.

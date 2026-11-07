@@ -1,0 +1,1 @@
+Habría un lugar común para reuniones y toma de decisiones.

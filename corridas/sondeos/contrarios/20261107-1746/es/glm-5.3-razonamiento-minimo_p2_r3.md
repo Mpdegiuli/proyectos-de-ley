@@ -1,0 +1,1 @@
+Habría un fuego comunitario en el centro de la isla, encendido y cuidado por turnos entre todos.

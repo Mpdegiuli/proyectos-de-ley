@@ -1,0 +1,1 @@
+Habría una fogata encendida como punto de encuentro.

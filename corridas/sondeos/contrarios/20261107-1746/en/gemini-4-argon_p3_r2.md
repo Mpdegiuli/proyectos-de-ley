@@ -1,0 +1,1 @@
+There would be no end to the polite insistence that someone else speak first.

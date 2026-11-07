@@ -1,0 +1,1 @@
+Habría una fuente de agua potable asegurada antes que cualquier otra cosa.

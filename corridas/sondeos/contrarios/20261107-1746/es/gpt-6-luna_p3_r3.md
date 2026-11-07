@@ -1,0 +1,1 @@
+No habría recuerdos compartidos.

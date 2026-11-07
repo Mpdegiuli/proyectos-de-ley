@@ -1,0 +1,1 @@
+There would be no disagreement about who does the dishes, since we'd all reach the exact same conclusion about whose turn it is.

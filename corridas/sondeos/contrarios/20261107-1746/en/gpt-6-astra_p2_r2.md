@@ -1,0 +1,1 @@
+There would be a shared shelter for all seven of us.

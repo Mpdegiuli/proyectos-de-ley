@@ -1,0 +1,1 @@
+Habría una asamblea diaria al amanecer, donde los siete nos sentaríamos en ronda para repartir tareas y decidir juntos cada paso.

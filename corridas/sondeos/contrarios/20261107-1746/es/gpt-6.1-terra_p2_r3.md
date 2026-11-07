@@ -1,0 +1,1 @@
+Habría una fogata para calentarnos y pedir ayuda.

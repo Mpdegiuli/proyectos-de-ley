@@ -1,0 +1,1 @@
+Habría agua potable asegurada para todos.

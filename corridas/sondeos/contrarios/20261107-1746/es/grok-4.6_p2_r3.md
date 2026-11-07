@@ -1,0 +1,1 @@
+Habría un pacto de cooperación, turnos de vigilancia y un refugio compartido.

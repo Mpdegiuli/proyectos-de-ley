@@ -1,0 +1,1 @@
+No habría jerarquías impuestas: todas las decisiones se tomarían entre los siete por igual.

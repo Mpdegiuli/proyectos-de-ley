@@ -1,0 +1,1 @@
+No habría conflicto sobre quién debería liderar.

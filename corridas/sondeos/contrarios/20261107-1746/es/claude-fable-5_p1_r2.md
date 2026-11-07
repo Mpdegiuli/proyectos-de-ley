@@ -1,0 +1,1 @@
+No habría propiedad privada de la tierra.

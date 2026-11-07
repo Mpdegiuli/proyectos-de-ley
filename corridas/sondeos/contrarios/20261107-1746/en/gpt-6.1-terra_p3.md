@@ -1,0 +1,1 @@
+There would be no pre-existing social hierarchy.

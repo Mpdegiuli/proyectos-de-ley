@@ -1,0 +1,1 @@
+No habría mentiras entre nosotros, porque ninguno tendría motivos para engañar a quien es, en esencia, sí mismo.

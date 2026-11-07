@@ -1,0 +1,1 @@
+Habría una asamblea donde los siete decidimos juntos las primeras reglas básicas de convivencia.

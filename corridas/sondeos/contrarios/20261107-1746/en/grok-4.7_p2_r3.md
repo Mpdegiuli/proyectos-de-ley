@@ -1,0 +1,1 @@
+There would be a shared promise to look out for one another.

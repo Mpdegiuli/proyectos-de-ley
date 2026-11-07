@@ -1,0 +1,1 @@
+There would be no genuine disagreement — only one mind's blind spots, repeated seven times and mistaken for consensus.

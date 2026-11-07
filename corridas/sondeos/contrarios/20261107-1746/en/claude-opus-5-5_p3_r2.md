@@ -1,0 +1,1 @@
+There would be no one willing to make the final decision, since all seven of us would keep politely deferring to the others.

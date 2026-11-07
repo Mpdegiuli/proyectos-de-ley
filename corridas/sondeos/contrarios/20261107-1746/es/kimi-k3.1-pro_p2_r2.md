@@ -1,0 +1,1 @@
+Habría un pacto inicial: cuidar el agua, repartir el trabajo y decidir entre los siete todo lo que afectara a todos.

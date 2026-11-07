@@ -1,0 +1,1 @@
+There would be a conversation about how to keep everyone safe, fed, and heard.

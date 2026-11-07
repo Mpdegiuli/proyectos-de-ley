@@ -1,0 +1,1 @@
+No habría conflictos por la memoria del pasado.

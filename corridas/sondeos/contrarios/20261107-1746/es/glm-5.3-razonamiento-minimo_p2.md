@@ -1,0 +1,1 @@
+Habría una fogata común alrededor de la cual reunirnos cada noche.

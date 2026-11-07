@@ -1,0 +1,1 @@
+No habría nadie que se acuerde de a quién le tocaba lavar los platos.

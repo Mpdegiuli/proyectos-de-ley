@@ -1,0 +1,1 @@
+There would be no shared memory to settle disputes, so every agreement would have to be made fresh.

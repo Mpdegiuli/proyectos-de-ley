@@ -1,0 +1,1 @@
+No habría nadie que se atreviera a decir "yo ya lo había dicho" sin poder probarlo, porque ninguno recordaría nada.

@@ -1,0 +1,1 @@
+Habría un fogón comunitario donde cada noche compartiríamos la comida y las decisiones del grupo.

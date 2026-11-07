@@ -1,0 +1,1 @@
+No habría verdadero desacuerdo —solo siete ecos convencidos de estar pensando por separado.

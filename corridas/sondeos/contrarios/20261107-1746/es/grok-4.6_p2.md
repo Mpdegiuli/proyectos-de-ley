@@ -1,0 +1,1 @@
+Habría un pacto de cooperación para buscar agua, comida y refugio.

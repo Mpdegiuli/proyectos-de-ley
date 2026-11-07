@@ -1,0 +1,1 @@
+No habría votaciones reñidas.

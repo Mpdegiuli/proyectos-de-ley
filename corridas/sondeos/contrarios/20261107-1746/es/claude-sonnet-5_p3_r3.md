@@ -1,0 +1,1 @@
+No habría jerarquías de poder impuestas, ya que todas partiríamos de la misma base y entenderíamos el valor de decidir en conjunto.

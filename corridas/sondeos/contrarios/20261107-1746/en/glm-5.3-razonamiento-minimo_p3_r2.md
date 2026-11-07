@@ -1,0 +1,1 @@
+There would be no getting-to-know-you small talk.

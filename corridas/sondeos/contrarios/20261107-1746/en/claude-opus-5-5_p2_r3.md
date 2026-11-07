@@ -1,0 +1,1 @@
+There would be a fire on the beach, kept burning day and night so that everyone could find warmth and any passing ship could see us.

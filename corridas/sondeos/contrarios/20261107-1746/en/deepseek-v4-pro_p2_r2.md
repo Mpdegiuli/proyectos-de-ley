@@ -1,0 +1,1 @@
+There would be a need to establish trust among the seven of us.

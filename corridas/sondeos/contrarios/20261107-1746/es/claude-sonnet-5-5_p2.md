@@ -1,0 +1,1 @@
+Habría una asamblea diaria al amanecer donde cada uno de los siete tendría voz y voto para decidir cómo repartir el agua, la comida y el trabajo.

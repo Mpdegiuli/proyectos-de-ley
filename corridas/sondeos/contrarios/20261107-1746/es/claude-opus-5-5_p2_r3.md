@@ -1,0 +1,1 @@
+Habría un fuego en el centro de la playa y la regla de que nadie come hasta que coman los siete.

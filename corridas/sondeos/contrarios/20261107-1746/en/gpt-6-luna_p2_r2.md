@@ -1,0 +1,1 @@
+There would be a safe source of clean drinking water.

@@ -1,0 +1,1 @@
+There would be a shared agreement to cooperate, survive, and make decisions fairly.

@@ -1,0 +1,1 @@
+Habría un acuerdo para cuidarnos y compartir lo que encontremos.

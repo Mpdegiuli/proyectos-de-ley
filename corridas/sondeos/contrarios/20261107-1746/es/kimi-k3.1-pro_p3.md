@@ -1,0 +1,1 @@
+No habría ninguna decisión sin siete listas de pros y contras.

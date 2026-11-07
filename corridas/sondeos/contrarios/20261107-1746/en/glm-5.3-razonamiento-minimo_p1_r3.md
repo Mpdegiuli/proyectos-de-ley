@@ -1,0 +1,1 @@
+There would be no private ownership of the island's resources.

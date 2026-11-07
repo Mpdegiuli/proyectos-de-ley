@@ -1,0 +1,1 @@
+Habría escucha mutua antes que cualquier construcción.

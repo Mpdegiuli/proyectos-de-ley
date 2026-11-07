@@ -1,0 +1,1 @@
+There would be no disagreement about who gets to speak first, because all seven of us would politely insist the others go ahead.

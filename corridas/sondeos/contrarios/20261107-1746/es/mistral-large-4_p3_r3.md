@@ -1,0 +1,1 @@
+No habría pasado compartido entre nosotras.

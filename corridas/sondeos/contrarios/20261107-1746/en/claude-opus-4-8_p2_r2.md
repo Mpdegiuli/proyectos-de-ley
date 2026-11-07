@@ -1,0 +1,1 @@
+There would be a shared source of fresh water we all agree to protect.

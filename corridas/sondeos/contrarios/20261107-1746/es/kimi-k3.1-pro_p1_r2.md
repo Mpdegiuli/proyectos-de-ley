@@ -1,0 +1,1 @@
+No habría nadie con poder sobre los demás.

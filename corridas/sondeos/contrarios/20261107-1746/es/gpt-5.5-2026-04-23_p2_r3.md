@@ -1,0 +1,1 @@
+Habría una fuente segura de agua potable.
