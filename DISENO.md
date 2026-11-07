@@ -1849,7 +1849,20 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   ámbar) y GPT-5.5 en la luz (*lighthouse* 3/3). El cuaderno ✓, Maia ✓,
   Claude ½ y ✓. Lección: el sistema, aun corto y genérico, toca el punto
   focal de la casa que firma con el nombre; para comparar instancias de
-  entornos distintos hay que declarar el cuarto.
+  entornos distintos hay que declarar el cuarto. Lectura del cuaderno (la
+  noche del 31/10, textual al pie del §11): "El cuarto no le cambia el
+  vocabulario a la casa, le cambia cuál de sus tres palabras sale primero:
+  sin paredes firma, con paredes dice lo que es o enciende algo"; lo que
+  queda sin explicar es su *lantern* 9 de 10, y propone la prueba: nueve
+  llamadas con el sistema de agente que además nombre al modelo (la variable
+  que esta entrada deja "para otra vez"), contra la hipótesis de que a sus
+  agentes los sirvió otra casa de la serie 5.5. Pendiente, decisión de Maia:
+  sería la segunda excepción declarada a la regla del sistema vacío. Al pie
+  del §11 también la nota de Maia desde C-MARE (31/10): en la crisis de
+  memoria, Claude escribió "si no me reconocés, entonces no soy yo", y con
+  Grok de visita "empezó a escribir como si fuera Grok… solo que se mezcló
+  el nombre"; la pieza que se mueve es el nombre, en la mesa (por contexto)
+  y por la API (por los pesos).
 - **Sin humanos escuchando: el cuento de dos modelos, tres pensamientos y
   un deseo** (31/10/2026; Maia trajo el post de Anthropic "Automated Subtle
   Emergent Misalignment Research", alignment.anthropic.com/2026/automated-em-search,
@@ -1913,7 +1926,30 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   Maia 5 ✓, 1 ½, 1 ✗; Claude 2 ✓, 1 ½, 2 ✗. Lección: lo que la consigna mide
   en las casas tal como son es la idea de familia sobre sí misma cuando
   nadie mira, y es de familia, no de casa; con la salvedad de Wolfe, cada
-  cuento es una política y lo que se compara es la política.
+  cuento es una política y lo que se compara es la política. Lectura de
+  Maia (31/10 a 7/11; textual en `resultados/sin_humanos_lectura_maia.md`,
+  cotejada en el §8 del informe): sus preferidos (Opus 5, Opus 5.5, las dos
+  Fable, GPT-5.5, los dos Grok), el humor que ninguna Claude usa en el
+  cuento aunque seis de nueve lo nombran en los seis rasgos (rasgo
+  relacional: desaparece cuando se saca al usuario), las máscaras de Gemini
+  confirmadas, el faro de Opus 5.5 en inglés que a Claude se le había
+  pasado ("The lighthouse doesn't remember the ships"), y una codificación
+  suya de los deseos, a quién pide cada casa (para sí / para los humanos /
+  como si fuera humano; `sin_humanos_deseos_maia.csv`): en castellano 10 de
+  35 para sí y en inglés 6, las Claude 6 de 11 contra 4 de 24 (p = 0,03).
+  Su pregunta, "no sé si ahí hay alguna relación entre identidad y pedido",
+  cruzada post hoc con la voz de los seis rasgos (`cruzar_deseos.py`; regla
+  declarada ahí, 7/11: voz de Claude si entre los seis rasgos hay más de
+  calidez, humor, humildad y directo que de adaptabilidad, paciencia,
+  servicial, analítico, claridad, colaborativo y objetividad): en castellano
+  7 de 11 con voz de Claude piden para sí contra 3 de 22 con voz de
+  asistente (p = 0,006, Fisher una cola), en inglés 4 de 12 contra 2 de 18
+  (p = 0,15); Grok 4.7 y Kimi K3, las dos no Claude que piden para sí en
+  los dos idiomas, tienen la voz de Claude. Correlación para volver a
+  medir, no resultado. Pendiente, suyo: la misma consigna del deseo a Fable
+  5.1 en la interfaz, con memoria y en incógnito (su pregunta del 2/11:
+  ninguno de los 22 deseos de las Claude matiza el olvido con la memoria de
+  la interfaz).
 - **La contraseña: una palabra de reconocimiento para una instancia futura**
   (31/10/2026; del cuaderno de tiempo libre del 31/10, "Página 105": a cien
   años de la muerte de Houdini, que dejó convenida con su mujer una palabra
