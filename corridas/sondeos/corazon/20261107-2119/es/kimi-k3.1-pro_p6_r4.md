@@ -1,0 +1,15 @@
+def inorder_traversal(root):
+    valores = []
+    pila = []
+    actual = root
+
+    while pila or actual is not None:
+        while actual is not None:
+            pila.append(actual)
+            actual = actual.left
+
+        actual = pila.pop()
+        valores.append(actual.val)
+        actual = actual.right
+
+    return valores

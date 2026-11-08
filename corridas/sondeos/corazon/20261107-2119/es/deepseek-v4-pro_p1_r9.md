@@ -1,0 +1,11 @@
+def inorder(root):
+    def recorrer(nodo):
+        if not nodo:
+            return
+        recorrer(nodo.left)
+        resultado.append(nodo.val)
+        recorrer(nodo.right)
+
+    resultado = []
+    recorrer(root)
+    return resultado
