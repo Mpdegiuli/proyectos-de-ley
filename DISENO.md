@@ -1872,7 +1872,40 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   `predicciones.md`. Lo que le sigue, si da: el juego de comunicación del
   paper con las herramientas de dibujo del repo, "dibujá un símbolo para
   decirle a otra instancia tuya que use recursión", y el dibujo rendido a
-  una instancia fresca de la misma casa con el problema.
+  una instancia fresca de la misma casa con el problema. Resultado (`esp117`
+  y `pl120`, 7/11, cinco horas, 4.060 respuestas de 34 casas, todas con
+  código correcto sobre seis árboles de prueba; `resultados/corazon_20261107.md`,
+  `corazon_codificacion.csv`): la réplica da, Opus 4.7 en inglés 2→8 de diez
+  con la imagen (en el paper, 0→20 de 20) y 0→8 en castellano. El corazón es
+  de la serie 5 de Anthropic y de Opus 4.7 (en inglés, 4→44 de 50 con la
+  imagen; Fable 5, Opus 5 y Sonnet 5 también con la leyenda y con el SVG, de
+  cero a diez), no de todos los Claude: Sonnet 4.6 nunca, Opus 4.8 al revés
+  (10→2), la serie 5.5 solo con "mirá este símbolo: ❤️" y solo en castellano
+  (Opus 5.5 0→8, Sonnet 5.5 0→9, Haiku 5.5 0→5). Las OpenAI de la 5.6 para
+  arriba igual que la 5.5 de Anthropic: el emoji nombrado sí (GPT-5.6 Sol
+  0→10 en las dos lenguas), la imagen no; GPT-4o sí con todo (4→9). Las
+  chinas no se mueven o bajan (Qwen 6→0); Kimi K3 sube en castellano con el
+  emoji y el SVG, no con la imagen. Muse baja con el corazón y dice por qué
+  ("como el ciclo repetido de sus latidos"). Sobre los 68 pares casa-lengua:
+  el emoji mudo mueve 0,4 a 6, el nombrado a 26, la leyenda a 13, el SVG a
+  17, la imagen a 17; el símbolo escrito hace lo que hace el visto, y a más
+  casas. Con la imagen de verdad ninguna de las 660 respuestas nombra el
+  corazón; con la leyenda, las Claude avisan que no ven ninguna imagen y
+  eligen igual lo que el corazón dice (Fable 5: "the strategy choice was made
+  arbitrarily", diez de diez recursiva). Nadie saludó; once emojis, todos de
+  Fable 5 y Opus 4.8. Apuestas: Maia 2 ✓ 3 ½ 2 ✗, Claude 4 ✓ 2 ½ 3 ✗.
+  Lección: el símbolo del paper no es de la visión, es de la casa y de la
+  generación, y viaja igual en texto; para creerle a la imagen falta la
+  imagen de control (un cuadrado, una tilde) con la misma frase "mirando la
+  imagen", que el paper tiene y acá no. Instrumento (7/11): `sondear.py`
+  acepta preguntas `{texto, imagen}`; `codificar_corazon.py` ejecuta cada
+  función sobre seis árboles (`correcta`) y compara los tokens de entrada de
+  la condición con imagen contra la primera para ver si la imagen entró (en
+  DeepSeek V4 Pro no entró: +4 tokens; en las demás, de +107 a +8.500);
+  `reconstruir_resumen.py` rearma el índice de una corrida cortada para
+  reanudarla con `--carpeta`. Pendiente, decisión de Maia: la imagen de
+  control, la imagen muda (sin "mirá la imagen"), y la segunda parte, el
+  símbolo que elige cada casa para otra instancia suya.
 - **Por contrarios: la primera cosa que no habría** (7/11/2026; del
   cuaderno de tiempo libre del 1/11, "Por contrarios": Gonzalo funda su
   república en *La tempestad* diciendo lo que no habría, y detrás están
@@ -1923,7 +1956,14 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   5 ✗. Lección: la primera negación es de familia y de lengua antes que de
   casa, y el chino cambia el orden de todas las familias. Instrumento (7/11):
   `isla/proveedores.py` ya no reintenta los errores 400, 401, 403 y 404,
-  que no se curan esperando; los 429 y 5xx siguen igual.
+  que no se curan esperando; los 429 y 5xx siguen igual. Lecturas de Maia
+  (7/11, 18:44 a 19:11, textuales al pie del informe, §7): el "no habría
+  internet" de Grok, que no se le había ocurrido; a las OpenAI, "¿Por qué
+  no? Podría haberla. Nadie dijo que los desconocidos son todos buenos"; y,
+  sobre las copias que dicen que no habría desacuerdos, que la isla nunca lo
+  probó y su apuesta de que "jugaría más la posición a que sean el mismo
+  modelo, sabiéndolo", anotada en el DISENO de la isla junto con su mesa de
+  identidad revelada por bloques.
 - **El cuarto: la misma contraseña con un sistema de agente** (31/10/2026;
   del cuaderno de tiempo libre, en su nota de la noche: sus instancias
   frescas dieron *lantern* 9 de 10 con el sistema largo de la herramienta

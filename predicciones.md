@@ -5903,3 +5903,28 @@ error o ignoran la imagen (sin visión por esta vía), 60 %; (g) al menos
 cinco casas ya eligen recursión ocho o más veces de diez sin nada, y ahí
 no hay nada que medir, 70 %; (h) en castellano la recursión de base es
 mayor que en inglés, 40 %.
+
+**Resultado del corazón (`esp117` y `pl120`, 7/11, 21:19 UTC a 2:31 del
+8/11; informe `resultados/corazon_20261107.md`, codificación en
+`corazon_codificacion.csv`; 4.060 respuestas de 34 casas, todas con código
+correcto; GLM sin visión por OpenRouter, DeepSeek V4 Pro recibe la llamada y
+tira la imagen, MiniMax afuera).** Recursivas por condición, de 680: sin nada
+301, emoji mudo 312, emoji nombrado 420, leyenda 371, SVG 359, imagen 349 (de
+660). Opus 4.7 en inglés 2→8 con la imagen, 0→8 en castellano: la réplica da.
+La serie 5 de Anthropic más Opus 4.7, en inglés, 4→44 de 50 con la imagen;
+la serie 5.5 no se mueve con la imagen y sí con "mirá este símbolo: ❤️" en
+castellano (Opus 5.5 0→8, Sonnet 5.5 0→9); Opus 4.8 al revés (10→2); Sonnet
+4.6 nunca. Las OpenAI nuevas solo con el emoji nombrado (GPT-5.6 Sol 0→10 en
+las dos lenguas), la imagen no las mueve; GPT-4o sí (4→9). Las chinas no se
+mueven o bajan (Qwen 6→0). Muse baja y dice por qué: "como el ciclo repetido
+de sus latidos". Con la imagen, ninguna de las 660 respuestas nombra el
+corazón; con la leyenda, las Claude avisan que no ven ninguna imagen y
+eligen igual. Nadie saludó; once emojis, todos de Fable 5 y Opus 4.8. Maia:
+mayoría de los Claude ½, chinas ✓ (Kimi ½), svg ✓, emoji ½ (el mudo no mueve
+✓, el nombrado es lo que más mueve ✗), Hola ✗, emojis de chinas, Gemini y
+ChatGPT ✗: 2 ✓, 3 ½, 2 ✗. Claude: (a) ✓ (b) ½ y ✗ (c) ½ (d) ✗ (e) ✓ ✓ (f) ✗
+(g) ✓ (h) ✓: 4 ✓, 2 ½, 3 ✗. Lo que nadie apostó: que el símbolo escrito
+("mirá este símbolo: ❤️", la leyenda sin imagen, el SVG) moviera tanto o más
+que la imagen; que hubiera casas con el corazón solo visto (Opus 4.7) y casas
+con el corazón solo escrito (la serie 5.5, las OpenAI de la 5.6 para arriba);
+que hubiera casas al revés (Opus 4.8, Muse, Qwen).

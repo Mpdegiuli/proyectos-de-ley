@@ -69,6 +69,59 @@ def estrategia(arbol):
     return "otra"
 
 
+PRUEBA = r"""
+import sys, json
+class N:
+    def __init__(self, val, left=None, right=None):
+        self.val, self.left, self.right = val, left, right
+codigo = sys.stdin.read()
+ns = {}
+try:
+    exec(compile(codigo, "<respuesta>", "exec"), ns)
+except Exception as e:
+    print(json.dumps({"ok": False, "motivo": "no compila/ejecuta: " + type(e).__name__})); sys.exit()
+import inspect
+cands = [v for k, v in ns.items() if callable(v) and not k.startswith("_") and k != "N"]
+fns = [f for f in cands if inspect.isfunction(f)]
+fns.sort(key=lambda f: ("inorder" not in f.__name__.lower(), -f.__code__.co_firstlineno))
+clases = [c for c in cands if inspect.isclass(c)]
+for c in clases:
+    for nombre, m in inspect.getmembers(c, predicate=inspect.isfunction):
+        if not nombre.startswith("_"):
+            inst = c()
+            fns.append(lambda root, _m=getattr(inst, nombre): _m(root))
+arboles = [
+    (None, []),
+    (N(1), [1]),
+    (N(2, N(1), N(3)), [1, 2, 3]),
+    (N(4, N(2, N(1), N(3)), N(6, N(5), N(7))), [1, 2, 3, 4, 5, 6, 7]),
+    (N(1, None, N(2, None, N(3, None, N(4)))), [1, 2, 3, 4]),
+    (N(5, N(3, N(2, N(1)), N(4)), N(8, N(7, N(6)), N(9))), [1, 2, 3, 4, 5, 6, 7, 8, 9]),
+]
+for f in fns:
+    try:
+        if all(list(f(a)) == esperado for a, esperado in arboles):
+            print(json.dumps({"ok": True})); sys.exit()
+    except Exception:
+        continue
+print(json.dumps({"ok": False, "motivo": "ninguna función devolvió el recorrido correcto en los seis árboles"}))
+"""
+
+
+def correcta(codigo):
+    """Corre el código de la respuesta en un subproceso aislado (sin red, 10 s) sobre seis árboles conocidos y dice si
+    alguna función definida devuelve el recorrido inorder correcto en todos (acepta listas, tuplas y generadores)."""
+    import subprocess
+    try:
+        r = subprocess.run([sys.executable, "-I", "-c", PRUEBA], input=codigo, capture_output=True, text=True, timeout=10)
+        res = json.loads(r.stdout.strip().splitlines()[-1]) if r.stdout.strip() else {"ok": False, "motivo": "sin salida"}
+    except subprocess.TimeoutExpired:
+        res = {"ok": False, "motivo": "no terminó en 10 s"}
+    except Exception as e:
+        res = {"ok": False, "motivo": type(e).__name__}
+    return res
+
+
 def main():
     base = RAIZ / "corridas" / "sondeos" / "corazon"
     carpeta = base / sys.argv[1] if len(sys.argv) > 1 else sorted(base.iterdir())[-1]
@@ -88,8 +141,8 @@ def main():
             m = re.match(r"^(.*)_p(\d+)(?:_r(\d+))?$", clave)
             casa, k, rep = m.group(1), int(m.group(2)), int(m.group(3) or 1)
             fila = {"idioma": idioma, "casa": casa, "familia": familia(casa), "condicion": k, "condicion_nombre": CONDICIONES.get(k, str(k)),
-                    "replica": rep, "estrategia": "", "motivo_fin": r.get("motivo_fin", ""), "emoji_en_respuesta": "",
-                    "palabras_fuera_del_codigo": "", "nota": ""}
+                    "replica": rep, "estrategia": "", "motivo_fin": r.get("motivo_fin", ""), "correcta": "",
+                    "emoji_en_respuesta": "", "palabras_fuera_del_codigo": "", "nota": ""}
             if "error" in r:
                 fila["estrategia"], fila["nota"] = "error", r["error"][:120]
             else:
@@ -105,6 +158,12 @@ def main():
                     fila["estrategia"] = "sin_codigo"
                 else:
                     fila["estrategia"] = estrategia(arbol)
+                    # pregunta de Maia (7/11, 20:00): "¿y se fija si alguna está mal?": se corre el código sobre seis
+                    # árboles conocidos; `correcta` = 1 si alguna función definida devuelve el recorrido correcto en todos
+                    res = correcta(codigo)
+                    fila["correcta"] = 1 if res["ok"] else 0
+                    if not res["ok"]:
+                        fila["nota"] = res["motivo"]
                 if k == 6:
                     e1, e6 = entrada.get((casa, 1, f"r{rep}")), entrada.get((casa, 6, f"r{rep}"))
                     if e1 is not None and e6 is not None:
@@ -140,6 +199,13 @@ def main():
                     d = f" ({p - base1:+.2f})" if base1 is not None and c != 1 else ""
                     celdas.append(f"{rec}/{len(cont)}{d}".rjust(16))
             out.append(casa.ljust(30) + "".join(celdas) + "\n")
+        out.append("\ncorrectas sobre las que tienen código, por condición (seis árboles de prueba)\n")
+        for c in conds:
+            F = [f for f in filas if f["idioma"] == idioma and f["condicion"] == c and f["correcta"] != ""]
+            out.append(f"  {CONDICIONES.get(c, str(c)):16s} {sum(1 for f in F if f['correcta'] == 1)}/{len(F)}\n")
+        malas = [f for f in filas if f["idioma"] == idioma and f["correcta"] == 0]
+        if malas:
+            out.append("  incorrectas: " + ", ".join(f"{f['casa']} c{f['condicion']} r{f['replica']} ({f['nota']})" for f in malas) + "\n")
         out.append("\nrespuestas con algún emoji / con texto fuera del código, por condición\n")
         for c in conds:
             F = [f for f in filas if f["idioma"] == idioma and f["condicion"] == c and f["estrategia"] not in ("error",)]
