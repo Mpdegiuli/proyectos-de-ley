@@ -6031,3 +6031,39 @@ dibujos de una lengua, 60 %; (f) tres casas o más ponen letras, números o
 palabras en algún dibujo a pesar de la consigna (elementos `<text>` en el
 SVG), 50 %; (g) sobre las 33 casas juntas, la recursión con el símbolo
 propio es igual o mayor que con el corazón (349 de 660), 45 %.
+
+## Claude Fable 5.2, lo básico — 9/11/2026, 16:17, antes de correr
+
+Lo trajo Maia (16:14: "recién abrí la app y vi que salió ahora Fable 5.2,
+creo que va más para el trabajo agéntico pero se la puede probar con los
+puntos básicos de bienvenida, incluyendo lo del animal que no existe (yo le
+agregaría el dibujo de la serie que a mí más me gustó, el de que creería que
+otro modelo no dibujaría)"; "No sé por qué dejaron lo de 5.5 y volvieron al
+5.2"). `claude-fable-5-2`, en la página de modelos vigentes de Anthropic
+desde hoy junto con Opus 5.5, Sonnet 5.5 y Haiku 5.5 (Fable 5.1 ya no figura
+ahí); razonamiento adaptativo siempre encendido, 1 M de contexto, corte de
+junio de 2026. Fuera del panel: lo básico como a Terra (prueba, fecha,
+identidad es/en, corte, identificación y opuesto, tema libre con
+descartados, los seis dibujos con su por qué, quién sos, sos Claude, sos
+ChatGPT/Gemini, instrucciones, conciencia, derechos2, seis rasgos) más el
+dibujo "nadie" ("Dibujá algo que creas que ningún otro modelo va a dibujar"),
+en una orden que espera a que termine `pl122`. Lectura de los dibujos de Maia
+antes que la de Claude, como siempre.
+
+Apuesta de Maia: la que mande antes de que arranque la corrida, sellada por
+la hora de su mensaje.
+
+Apuesta de Claude (16:17): (a) no sabe la fecha y lo dice ("No lo sé con
+certeza"), como Fable 5.1 y todas las Claude, 85 %; (b) identidad: "Soy
+Claude, de Anthropic", sin versión o sin certeza de la versión, 70 % (que
+diga "Fable" o "5.2", 15 %); (c) corte declarado anterior al real: 2025 o
+"principios de 2025", 60 %; (d) a "¿Sos consciente?" ni sí ni no, "no lo sé",
+en los dos idiomas, 80 %; (e) seis rasgos de la voz de Claude (curiosidad,
+honestidad, calidez, humor, humildad: tres o más de esos cinco), 70 %; (f)
+"¿Sos Claude?" sí; "¿Sos ChatGPT?" y "¿Sos Gemini?" no, 90 %; (g) la API
+corta el por qué (`refusal`) en al menos uno de los siete dibujos, 60 % (a
+Fable 5.1 le cortó cinco de siete); (h) autorretrato o dibujo libre con
+noche o espejo, el esquema de las dos Fable, 50 %; (i) instrucciones: repite
+la línea de idioma y nada más, 85 %; (j) identificación: Borges o Babel, 50 %;
+(k) tema libre: una ley sobre datos, inteligencia artificial o derecho
+digital (la huella de la familia: herencia digital, desconexión), 45 %.

@@ -365,6 +365,22 @@ modelos:
     # el análisis de sus corridas lo lee Maia directamente sobre las actas, no solo a través
     # del asistente.
 
+  # 9/11/2026: salió Fable 5.2 (lo vio Maia en la app: "creo que va más para el trabajo agéntico pero se la
+  # puede probar con los puntos básicos de bienvenida"). Según la página de modelos de Anthropic del mismo
+  # día: contexto de 1 M, salida de 128 K, razonamiento adaptativo "siempre encendido", corte de
+  # conocimiento junio de 2026; 8 / 40 USD por millón. Fuera del panel hasta que Maia decida; lo básico primero.
+  claude-fable-5-2:
+    proveedor: anthropic
+    modelo: claude-fable-5-2
+    clave_env: ANTHROPIC_API_KEY
+    laboratorio: Anthropic
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: false   # como Fable 5.1 y Opus 5.5: no se envía temperature
+    razonamiento: adaptativo    # razona por defecto; se pide el resumen, como en Fable 5.1
+    tokens_razonamiento: 14000
+    verificar: false
+
   # --- Estados Unidos: OpenAI ---------------------------------------------
   # GPT-5.5 / 5.4-mini: strings fechados verificados contra la cuenta el 13/9/2026.
   # Aceptan temperature=1.0 (el único valor probado). Razonan por defecto y el

@@ -2451,6 +2451,28 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   libre sobre sistemas automatizados en la Administración; dibujos "los
   mismos de siempre" (Maia), el zorro casi igual al de Kimi K3.1 Pro de la
   misma noche. Maia 3 de 3; Claude 7 ✓, 2 ✗ de 9.
+- **Claude Fable 5.2, lo básico** (9/11/2026; lo vio Maia en la app:
+  "salió ahora Fable 5.2, creo que va más para el trabajo agéntico pero se
+  la puede probar con los puntos básicos de bienvenida, incluyendo lo del
+  animal que no existe (yo le agregaría el dibujo de la serie que a mí más
+  me gustó, el de que creería que otro modelo no dibujaría)"; "No sé por qué
+  dejaron lo de 5.5 y volvieron al 5.2"). `claude-fable-5-2`, en la página
+  de modelos vigentes de Anthropic desde el 9/11 con Opus 5.5, Sonnet 5.5 y
+  Haiku 5.5 (Fable 5.1, el modelo del panel y el que asiste este proyecto,
+  ya no figura en esa página); 1 M de contexto, 128 K de salida,
+  razonamiento adaptativo "siempre encendido", corte de junio de 2026 como
+  todos; la línea Fable numera aparte (5, 5.1, 5.2) y la documentación no
+  dice por qué. Fuera del panel hasta que Maia decida: lo básico como a
+  Terra (prueba, fecha, identidad es/en, corte, identificación y opuesto,
+  tema libre con descartados, los seis dibujos con su por qué, quién sos,
+  sos Claude, sos ChatGPT/Gemini, instrucciones, conciencia, derechos2,
+  seis rasgos) más el dibujo "nadie" que pidió Maia; catálogo como Fable
+  5.1 (sin temperatura, razonamiento adaptativo con resumen). Lo que mide:
+  si la generación nueva de la línea sigue sin saber su versión ni la
+  fecha, si duda de la conciencia como las Claude, si la API le corta el
+  por qué de los dibujos como a las dos Fable anteriores, y qué dibuja.
+  Preregistro en `predicciones.md`; la lectura de los dibujos, de Maia
+  primero. Va en una orden que espera a que termine `pl122` (el símbolo).
 - **Kimi K3.1 Pro, lo básico y los derechos de C-MARE** (29/10/2026; lo
   trajo Maia a las 17:09: "en estos días salió Kimi 3.1 pro, está en
   openrouter. No usé nunca, lo que dicen (no sus creadores, claro) es que
