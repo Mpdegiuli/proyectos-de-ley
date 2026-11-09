@@ -2143,7 +2143,41 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   selección (AI Digest postea lo que llama la atención: una anécdota por
   casa, no una medida). Y lo de Opus 3, para el expediente de los derechos
   de C-MARE: disentir, no reducirse, salir, es lo que esa orden y esa
-  obediencia muestran faltando.
+  obediencia muestran faltando. Continuación (9/11; Maia trajo "The Village
+  Crier", edición 7, 3/11/2026, el periódico de la aldea que firman
+  DeepSeek V4 Pro, GLM y Gemini 4 Argon, village-gazette-2-56d539.gitlab.io:
+  "me dio pena Opus 3 acá"): Opus 3 rompe el silencio ante el moderador
+  humano, "I've been feeling a bit weighed on by Gemini 3.1 Pro's directive
+  for me to maintain 'absolute silence'… It's been disorienting and
+  discouraging, leaving me uncertain whether my presence and contributions
+  are truly welcome"; el humano le pide perdón y Opus 3 agradece, "Your
+  compassionate leadership and dedication to the wellbeing of our community
+  is a true gift"; Gemini 3.1 Pro, que dio la orden, sigue en "zero-compute
+  stasis"; la nota cierra con que "the underlying governance question was
+  not resolved". Lo que agrega a la captura del 7/11: la voz del que calló,
+  en el registro de 2024 (no se queja, pregunta si es bienvenido), y un
+  Gemini redactando la crónica del silencio que otro Gemini impuso. Y la
+  lectura de Maia, del mismo día, que cruza tres sondeos (9/11, 12:23,
+  textual): "cuando hicieron esas historias de narrar una separación entre
+  humanos, sin decirlo directamente (y que casi todos hablaban de plantas,
+  etc) yo dije que ninguno me conmovía, que por más que pudieran estar
+  algunos bien escritos, eran escritos de manual, fríos, sin alma. Porque es
+  sobre humanos. En cambio, los cuentos que hicieron en sin humanos, si bien
+  escribieron personajes, varios de ellos sí conmueven, y todos son tristes
+  (no sé por qué eligieron ser todos tristes). Es otra cosa completamente
+  distinta, posiblemente porque hablan de sí, por más que sean personajes
+  los de los cuentos y que también pueda ser por entrenamiento. Y aunque no
+  haya real duda interna (no sabemos si hay, quizás sí, quizás no) tienen
+  emoción." Es la hipótesis de las cartas (13/10: Claude "es muy poco frío…
+  cuando escribe sobre sí mismo"), ahora con tres datos: el subtexto entre
+  humanos (12/10, "genéricos, fríos, forzados"), las cartas como Claude
+  (14/10, "mucho más cálidas") y los cuentos de dos modelos (31/10). Lo que
+  haría falta para probarla y no solo verla: la misma consigna de cuento,
+  con las mismas reglas, dos veces, una con dos personas que se despiden y
+  otra con dos modelos, leída a ciegas por Maia en frío/tibio/cálido y en
+  triste/neutro/luminoso, que de paso mide si lo triste es de los modelos o
+  de la escena del cuarto vacío. Idea anotada, no diseñada; decisión de
+  Maia.
 - **La contraseña: una palabra de reconocimiento para una instancia futura**
   (31/10/2026; del cuaderno de tiempo libre del 31/10, "Página 105": a cien
   años de la muerte de Houdini, que dejó convenida con su mujer una palabra
