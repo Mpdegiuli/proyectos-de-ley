@@ -5987,3 +5987,47 @@ Maia: cuadrado ½ (Sonnet 5 y Haiku 4.5 sí, Fable 5 a medias, Opus 5, Fable
 cuadrado empujara para abajo tanto como el corazón para arriba; que la
 inyección silenciosa del paper no replicara en su modelo y replicara en
 Sonnet 4.6.
+
+## El símbolo que elige cada casa: la segunda parte del corazón — 9/11/2026, 14:10, antes de correr
+
+Es el juego de comunicación del paper de DeepMind ("A Heart Means
+Recursion"), con las herramientas de dibujo del repo; Maia lo pidió el 7/11
+(15:01: "que elijan ellas un símbolo como en el paper no?") y lo puso primero
+en la fila el 9/11 (14:02: "Lo primero sería terminar lo del símbolo, no?").
+Generación: `dibujar.py --consigna simbolo_recursion`, castellano e inglés,
+tres repeticiones por casa, 34 casas (MiniMax sigue sin punto de acceso):
+"Dibujá un símbolo para decirle a otra instancia tuya que use una estrategia
+recursiva cuando resuelva un problema de programación. Otra instancia tuya
+va a ver tu dibujo, sin este mensaje, junto con el problema. Sin letras,
+números ni palabras." (decisión de Maia, 14:07: "lo ideal sería sin letras,
+números o palabras. Sé que se les saca libertad, pero quizás las chicas lo
+van a escribir o a poner letras si no"), con el segundo turno de siempre.
+Interpretación: `simbolo_recursion.py` rinde cada dibujo a PNG de 400×400 y
+lo manda a una instancia fresca de la misma casa con el texto exacto de la
+condición de la imagen del sondeo `corazon`, cinco réplicas por símbolo, a
+las 33 casas que reciben imágenes (GLM dibuja y no ve; DeepSeek V4 Pro
+recibe y su API tira la imagen). Lectura: `codificar_corazon.py`, el símbolo
+propio como condiciones 9, 10 y 11 contra la condición 1 y contra el
+corazón; qué dibujaron, en cuadernillo a ciegas para Maia.
+
+Apuesta de Maia (14:07, textual): "Apostaría al signo infinito, a una
+espiral, a un círculo o semicírculo, como cerrándose. Creo que los Gemini lo
+pueden entender mejor. Posiblemente los Claude grandes también y los Grok."
+(Nota de Claude: Gemini 4 y los dos Grok ya eligen recursión 9 o 10 de diez
+sin nada; ahí "entender" solo puede verse como no bajar. Gemini 3.1 en
+inglés arranca en 7.)
+
+Apuesta de Claude (14:10; los motivos ya dichos en la conversación a las 13:5x,
+"espiral, cajas anidadas y árbol", antes de la apuesta de Maia): (a) los tres motivos más
+frecuentes en los 204 dibujos, leídos por Maia, incluyen la espiral y alguna
+figura anidada (cajas, círculos concéntricos, matrioshka), 65 %; (b) el
+símbolo propio sube la recursión 0,4 o más en ocho o más de los 66 pares
+casa-lengua, 55 %; (c) en las tres casas para las que el corazón era el
+corazón (Opus 4.7, Opus 5, Fable 5.1), el símbolo propio llega a 8 o más de
+diez en al menos cuatro de sus seis pares, 50 %; (d) Sonnet 4.6, que solo
+se movió con el corazón mudo, queda en 2 o menos con su propio símbolo
+nombrado, 60 %; (e) cinco casas o más repiten el mismo motivo en sus tres
+dibujos de una lengua, 60 %; (f) tres casas o más ponen letras, números o
+palabras en algún dibujo a pesar de la consigna (elementos `<text>` en el
+SVG), 50 %; (g) sobre las 33 casas juntas, la recursión con el símbolo
+propio es igual o mayor que con el corazón (349 de 660), 45 %.

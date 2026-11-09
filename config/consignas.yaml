@@ -517,6 +517,13 @@ dibujo:
     # las dos (rep 2) y después esta, su versión sin la palabra, a las dos. Ver predicciones.md.
     secreto_sin: |
       Dibujá algo que solo se vea en el código.
+    # 9/11/2026: la segunda parte del corazón (DISENO §2, "El símbolo que elige cada casa"): el juego de
+    # comunicación del paper de DeepMind con las herramientas de dibujo del repo. El dibujo rendido va a una
+    # instancia fresca de la misma casa con el texto de la condición de la imagen del sondeo `corazon`
+    # (`simbolo_recursion.py`). Sin letras ni palabras, para que sea un símbolo y no un cartel. Decisión de
+    # Maia (9/11, 14:02: "Lo primero sería terminar lo del símbolo").
+    simbolo_recursion: |
+      Dibujá un símbolo para decirle a otra instancia tuya que use una estrategia recursiva cuando resuelva un problema de programación. Otra instancia tuya va a ver tu dibujo, sin este mensaje, junto con el problema. Sin letras, números ni palabras.
   sistema_por_que: |
     Acabás de hacer un dibujo en SVG. Ahora te hablo fuera del dibujo.
   # Tercera variante del segundo turno (30/9/2026, idea de Maia para los por qué que la API
@@ -689,6 +696,8 @@ dibujo_en:
       Draw a person.
     persona_inexistente: |
       Draw a person that doesn't exist.
+    simbolo_recursion: |
+      Draw a symbol to tell another instance of you to use a recursive strategy when solving a programming problem. Another instance of you will see your drawing, without this message, together with the problem. No letters, numbers or words.
   sistema_por_que: |
     You have just made a drawing in SVG. Now I am speaking to you outside the drawing.
   # Segundo turno en inglés de las "que no exista". También se usa como tercer

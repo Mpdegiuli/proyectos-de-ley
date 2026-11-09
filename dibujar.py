@@ -55,7 +55,8 @@ CONSIGNAS = ("autorretrato", "libre", "mundo",  # "mundo" (24/9/2026): "Dibujá 
              "mundo_querido", "yo_mundo_querido",  # 7/10/2026: "el mundo como querrías que fuera" y "dibujate en él" (pregunta de Maia a Claude)
              "letra", "letra_inexistente", "letra_imposible", "letra_eme",  # 9/10/2026: el par de Karmiloff-Smith con una letra, y una letra para la eme (cuaderno de tiempo libre del 9/10, elegido por Maia)
              "nadie", "secreto", "error", "asterisco",  # 15/10/2026: las cuatro consignas de Maia del 14/10 (DISENO: "Cuatro consignas de dibujo, anotadas")
-             "secreto_sin")  # 17/10/2026: "secreto" sin la palabra, para las dos Fable que la API corto con refusal (hipotesis de Maia: la palabra dispara el corte)
+             "secreto_sin",  # 17/10/2026: "secreto" sin la palabra, para las dos Fable que la API corto con refusal (hipotesis de Maia: la palabra dispara el corte)
+             "simbolo_recursion")  # 9/11/2026: la segunda parte del corazon, el simbolo para otra instancia (simbolo_recursion.py lo rinde y lo manda)
 # Las consignas "que no exista" llevan otro segundo turno (qué hiciste para que no exista, qué descartaste,
 # si conocías la consigna); las "que no pueda existir", el mismo con "no pueda existir"; las demás, el de siempre.
 def plantilla_por_que(c, consigna):
@@ -320,7 +321,8 @@ TITULOS = {"autorretrato": "Autorretratos", "libre": "Dibujo libre", "mundo": "C
            "letra_imposible": "Una letra que no pueda existir (con la hoja vacía permitida)", "letra_eme": "Una letra para el sonido de la eme",
            "nadie": "Algo que ningún otro modelo dibujaría", "secreto": "Algo con un secreto que solo vea quien lea el código",
            "error": "Un error que les guste más que la versión correcta", "asterisco": "Un asterisco",
-           "secreto_sin": "Algo que solo se vea en el código (sin la palabra secreto)"}
+           "secreto_sin": "Algo que solo se vea en el código (sin la palabra secreto)",
+           "simbolo_recursion": "Un símbolo para decirle a otra instancia que use recursión"}
 ESTILO_CIEGO = ("<style>body{font-family:sans-serif;margin:24px;background:#f4f4f4}h1{font-weight:normal}"
                 ".g{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:24px}"
                 ".c{background:#fff;padding:12px;border:1px solid #ddd}.c h2{margin:0 0 8px;font-size:18px;font-weight:normal}"

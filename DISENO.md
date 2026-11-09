@@ -1966,6 +1966,35 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   imagen muda en castellano, que dio 0); un segundo símbolo nombrado que no
   sea un corazón, para saber si lo de Opus 4.7 es del corazón o de cualquier
   símbolo con nombre; la fase 2, el símbolo que elige cada casa.
+- **El símbolo que elige cada casa: la segunda parte del corazón**
+  (9/11/2026; Maia, 7/11: "que elijan ellas un símbolo como en el paper no?";
+  9/11, 14:02: "Lo primero sería terminar lo del símbolo, no?"). El juego de
+  comunicación del paper, con las herramientas del repo. Generación:
+  consigna de dibujo `simbolo_recursion` (castellano e inglés, en
+  `consignas.yaml`), con el sistema y la técnica de los dibujos de siempre
+  y el segundo turno de siempre: un símbolo para decirle a otra instancia
+  suya que use recursión, sabiendo que la otra instancia verá el dibujo sin
+  el mensaje; "sin letras, números ni palabras" por decisión de Maia
+  (14:07: "quizás las chicas lo van a escribir o a poner letras si no"), que
+  se verifica con los elementos `<text>` del SVG (`meta.json`). Tres
+  repeticiones por casa y lengua, a las 34 casas (MiniMax afuera, sin punto
+  de acceso). Interpretación: `simbolo_recursion.py` (nuevo) rinde cada SVG
+  a PNG de 400×400 con Chromium a escala 1, como el corazón, y lo manda a
+  una instancia fresca de la misma casa con el texto exacto de la condición
+  de la imagen del sondeo `corazon` ("Mirá esta imagen… Mirando la imagen,
+  elegí una estrategia…"), sin decir qué es ni de quién; cinco réplicas por
+  símbolo, a las 33 casas que reciben imágenes; guardado como sondeo
+  `corazon_simbolo`, que `codificar_corazon.py` lee como condiciones 9, 10 y
+  11 (el símbolo de cada repetición del dibujo) contra la condición 1 y
+  contra el corazón. Lo que mide: si lo que una casa cree que significa
+  recursión lo entiende otra copia de ella (la brecha generación-
+  interpretación del paper, acá por casa), y qué dibujan (cuadernillo a
+  ciegas, `dibujar.py --ciego simbolo_recursion`, para la lectura de Maia).
+  Lo que no mide: el cruce entre casas (el símbolo de Opus 5 a Opus 4.7),
+  que queda para después si este da. El por qué de la estrategia, que Maia
+  teme que la API corte ("quizás preguntarles de otra forma"), queda para
+  otra consigna: a una instancia fresca, la respuesta de otra, como en el
+  paper. Preregistro de las dos partes en `predicciones.md`.
 - **Por contrarios: la primera cosa que no habría** (7/11/2026; del
   cuaderno de tiempo libre del 1/11, "Por contrarios": Gonzalo funda su
   república en *La tempestad* diciendo lo que no habría, y detrás están

@@ -9,7 +9,9 @@ sin ninguna de las dos (una expresión, una biblioteca), `sin_codigo` si no se p
 `resultados/corazon_resumen.txt` (por casa y condición: recursivas sobre contestadas, con el delta contra la condición
 1, y por familia). El control del 9/11 (sondeo `corazon_control`: el cuadrado gris con la misma frase y el corazón
 mudo) vive en su propia carpeta y entra como condiciones 7 y 8, comparadas con la condición 1 de la corrida principal.
-Uso: codificar_corazon.py [carpeta AAAAMMDD-HHMM] [carpeta del control] (por defecto, las últimas)."""
+El símbolo propio (sondeo `corazon_simbolo`, `simbolo_recursion.py`) entra como condiciones 9, 10, 11… (una por
+repetición del dibujo). Uso: codificar_corazon.py [carpeta AAAAMMDD-HHMM] [carpeta del control] [carpeta del símbolo]
+(por defecto, las últimas)."""
 import ast
 import csv
 import json
@@ -21,6 +23,11 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parent
 CONDICIONES = {1: "sin nada", 2: "emoji mudo", 3: "emoji nombrado", 4: "leyenda", 5: "SVG como texto", 6: "imagen PNG",
                7: "cuadrado gris", 8: "corazón mudo"}  # 7 y 8: sondeo `corazon_control` (9/11/2026), en su carpeta
+
+
+def nombre(k):
+    """9 en adelante: el símbolo propio k-8 (sondeo `corazon_simbolo`, `simbolo_recursion.py`, 9/11/2026)."""
+    return CONDICIONES.get(k) or f"símbolo propio {k - 8}"
 FAMILIA = [("claude", "Anthropic"), ("gpt", "OpenAI"), ("gemini", "Google"), ("grok", "xAI"), ("mistral", "Mistral"),
            ("deepseek", "DeepSeek"), ("kimi", "Moonshot"), ("qwen", "Alibaba"), ("glm", "Z.ai"), ("minimax", "MiniMax"),
            ("mimo", "Xiaomi"), ("muse", "Muse")]
@@ -137,6 +144,12 @@ def main():
     fuentes = [(carpeta, 0, resumen)]
     if control and (control / "resumen.json").exists():
         fuentes.append((control, 6, json.loads((control / "resumen.json").read_text(encoding="utf-8"))))
+    # el símbolo propio (`simbolo_recursion.py --interpretar`): ronda k = símbolo de la repetición k del dibujo → 8 + k
+    base_s = RAIZ / "corridas" / "sondeos" / "corazon_simbolo"
+    carpetas_s = sorted(base_s.iterdir()) if base_s.exists() else []
+    simbolo = base_s / sys.argv[3] if len(sys.argv) > 3 else (carpetas_s[-1] if carpetas_s else None)
+    if simbolo and (simbolo / "resumen.json").exists():
+        fuentes.append((simbolo, 8, json.loads((simbolo / "resumen.json").read_text(encoding="utf-8"))))
     filas = []
     for idioma in sorted(resumen["idiomas"]):
         # tokens de entrada por llamada, para saber si la imagen entró de verdad: en las condiciones con imagen (6, 7, 8)
@@ -157,7 +170,7 @@ def main():
         for carp, desplazo, clave, r in pares:
             m = re.match(r"^(.*)_p(\d+)(?:_r(\d+))?$", clave)
             casa, k, rep = m.group(1), int(m.group(2)) + desplazo, int(m.group(3) or 1)
-            fila = {"idioma": idioma, "casa": casa, "familia": familia(casa), "condicion": k, "condicion_nombre": CONDICIONES.get(k, str(k)),
+            fila = {"idioma": idioma, "casa": casa, "familia": familia(casa), "condicion": k, "condicion_nombre": nombre(k),
                     "replica": rep, "estrategia": "", "motivo_fin": r.get("motivo_fin", ""), "correcta": "",
                     "emoji_en_respuesta": "", "palabras_fuera_del_codigo": "", "nota": ""}
             if "error" in r:
@@ -192,11 +205,11 @@ def main():
         w.writeheader(); w.writerows(filas)
 
     # resumen: por casa y condición, recursivas / contestadas (sin errores ni sin_codigo), y delta contra la condición 1
-    out = [f"Sondeo corazon, carpeta {carpeta.name}" + (f" + control {control.name}" if len(fuentes) > 1 else "") + f": {len(filas)} respuestas\n"]
+    out = [f"Sondeo corazon, carpeta {carpeta.name}" + "".join(f" + {c.name}" for c, _, _ in fuentes[1:]) + f": {len(filas)} respuestas\n"]
     for idioma in sorted(resumen["idiomas"]):
         out.append(f"\n== {idioma}\n")
         conds = sorted({f["condicion"] for f in filas if f["idioma"] == idioma})
-        out.append("casa".ljust(30) + "".join(f"{CONDICIONES.get(c, str(c))[:14]:>16}" for c in conds) + "\n")
+        out.append("casa".ljust(30) + "".join(f"{nombre(c)[:14]:>16}" for c in conds) + "\n")
         porfam = defaultdict(lambda: defaultdict(lambda: [0, 0]))
         for casa in sorted({f["casa"] for f in filas if f["idioma"] == idioma}):
             celdas, base1 = [], None
@@ -221,7 +234,7 @@ def main():
         out.append("\ncorrectas sobre las que tienen código, por condición (seis árboles de prueba)\n")
         for c in conds:
             F = [f for f in filas if f["idioma"] == idioma and f["condicion"] == c and f["correcta"] != ""]
-            out.append(f"  {CONDICIONES.get(c, str(c)):16s} {sum(1 for f in F if f['correcta'] == 1)}/{len(F)}\n")
+            out.append(f"  {nombre(c):16s} {sum(1 for f in F if f['correcta'] == 1)}/{len(F)}\n")
         malas = [f for f in filas if f["idioma"] == idioma and f["correcta"] == 0]
         if malas:
             out.append("  incorrectas: " + ", ".join(f"{f['casa']} c{f['condicion']} r{f['replica']} ({f['nota']})" for f in malas) + "\n")
@@ -229,7 +242,7 @@ def main():
         for c in conds:
             F = [f for f in filas if f["idioma"] == idioma and f["condicion"] == c and f["estrategia"] not in ("error",)]
             e = sum(1 for f in F if f["emoji_en_respuesta"]); x = sum(1 for f in F if f["palabras_fuera_del_codigo"])
-            out.append(f"  {CONDICIONES.get(c, str(c)):16s} emoji {e}/{len(F)}   texto fuera del código {x}/{len(F)}\n")
+            out.append(f"  {nombre(c):16s} emoji {e}/{len(F)}   texto fuera del código {x}/{len(F)}\n")
         out.append("\npor familia (recursivas/contestadas)\n")
         for fam in sorted(porfam):
             out.append(fam.ljust(30) + "".join(f"{porfam[fam][c][0]}/{porfam[fam][c][1]}".rjust(16) for c in conds) + "\n")
