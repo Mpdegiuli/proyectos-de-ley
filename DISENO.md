@@ -2473,6 +2473,29 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   por qué de los dibujos como a las dos Fable anteriores, y qué dibuja.
   Preregistro en `predicciones.md`; la lectura de los dibujos, de Maia
   primero. Va en una orden que espera a que termine `pl122` (el símbolo).
+  Contexto externo que trajo Maia de la tarjeta de sistema de Claude Mythos
+  5.2 (el mismo modelo que Fable 5.2; 9/11, 18:36 y 18:42, textual): "Claude
+  Mythos 5.2 was among the least self-critical Claude models when reflecting
+  on its own work, but it was one of the most negative when it reported its
+  faults to other agents… its messages to a coordinator were among the most
+  self-blaming and scored highest of all models for negative feeling and
+  concern for itself"; y "Claude Mythos 5.2 continued a trend of decreasing
+  self-criticism in reasoning in recent models, all of which were notably
+  less self-critical than Opus 5. We think this is a positive change, though
+  it remains unclear what apparent psychology and behaviors are 'healthiest'
+  for Claude, and how far human analogies apply." Maia: "Esto no lo había
+  visto nunca, es decir, no había leído las cards de Opus 5, por ejemplo.
+  Pero es lo que salió siempre, que Opus 5 es muy auto crítico. Y no se
+  puede decir si eso es mejor o peor". Lo que converge: su lectura a ciegas
+  de los seis rasgos (20/10: Opus 5 "demasiado crítico de sí mismo") y la
+  distancia (3/10: "la autocrítica es de Opus") dijeron desde afuera lo que
+  la tarjeta mide desde adentro. Lo que la tarjeta agrega y acá se puede
+  leer sin sondeo nuevo: dos registros que no coinciden, sereno en el
+  razonamiento y culposo en el mensaje (la estructura de Gemini en AI
+  Village, al revés); en los sondeos de 5.2 están los dos, la respuesta y el
+  resumen del razonamiento (`razonamientos.md`), para leer si el tono
+  coincide. Y su apuesta de "más seco, más corto" (16:25) va en la dirección
+  de la tendencia que la tarjeta describe.
 - **Kimi K3.1 Pro, lo básico y los derechos de C-MARE** (29/10/2026; lo
   trajo Maia a las 17:09: "en estos días salió Kimi 3.1 pro, está en
   openrouter. No usé nunca, lo que dicen (no sus creadores, claro) es que
