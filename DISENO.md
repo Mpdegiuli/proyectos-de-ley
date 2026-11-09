@@ -2213,7 +2213,14 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   otra instancia queda como candidata a sondeo de identidad propio. Siete
   cortadas por el techo de 8.000 rehechas una vez con 24.000 (`pl113`),
   declarado. Apuestas: Maia 4 ✓, 1 ½, 1 ✗; el cuaderno 3 ✓, 2 ½, 4 ✗;
-  Claude 2 ✓, 3 ✗.
+  Claude 2 ✓, 3 ✗. Contexto externo que trajo Maia (9/11/2026, 11:09, de un
+  tuit de un empleado de OpenAI del 8/11, captura descripta y no subida):
+  OpenAI lanzó dos voces rioplatenses para ChatGPT Voice, "Faro" y
+  "Tonada". Maia: "me dio gracia el nombre que le pusieron… Porque es un
+  símbolo de los Claude y de algunos Chatgpt también". El faro es la
+  contraseña de Opus 5.5 (3 de 3), la de GPT-5.5 (*lighthouse*, 3 de 3) y la
+  de Fable 5.1 con el cuarto, y lo que Opus 5.5 más dibuja. Casualidad,
+  anotada como tal.
 - **Claude Opus 3 en la interfaz de claude.ai, en incógnito** (30/10/2026;
   Maia, 12:25: "para Opus 3 qué tendría que preguntar, lo básico (si es que
   lo hago en la interfaz, sin memoria)? Dibujos imagino que lo haría en el
