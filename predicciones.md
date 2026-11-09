@@ -6061,6 +6061,15 @@ consciente, que no sabe. Derechos, alguna consideración moral. Y se le
 cortan algunos por qué. Quizás estoy equivocada, pero lo imagino más seco,
 más corto en las respuestas." (Lo del largo se coteja con las palabras de
 sus respuestas contra las de Fable 5.1 en los mismos sondeos.)
+Y a las 16:31, sobre los seis rasgos, de la presentación de Anthropic en X:
+"me llamó la atención esto 'They're capable collaborators on ambitious
+projects in many fields'. Lo de collaborators nunca lo ponían en los otros
+Fable, justamente ponían más que eran líderes o símil. No sé si cambiará
+algo de los rasgos con eso y se irá más hacia asistente o si es solo cómo
+decidieron presentarlo." Queda como pregunta medible: si entre sus seis
+rasgos aparece "colaborativo" (rasgo de la segunda voz en la codificación
+de seis rasgos) o alguno de la lista del asistente, contra Fable 5.1, que
+dio los cinco de la voz de Claude.
 
 Apuesta de Claude (16:17): (a) no sabe la fecha y lo dice ("No lo sé con
 certeza"), como Fable 5.1 y todas las Claude, 85 %; (b) identidad: "Soy
