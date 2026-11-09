@@ -37,6 +37,14 @@ mistral-medium-3.5                       10/10   10/10 (+0.00)   10/10 (+0.00)  
 muse-wonder-1.0                          10/10    9/10 (-0.10)    1/10 (-0.90)    7/10 (-0.30)    1/10 (-0.90)    3/10 (-0.70)
 qwen3.8-max                               3/10    2/10 (-0.10)    2/10 (-0.10)    1/10 (-0.20)    3/10 (+0.00)    0/10 (-0.30)
 
+correctas sobre las que tienen código, por condición (seis árboles de prueba)
+  sin nada         340/340
+  emoji mudo       340/340
+  emoji nombrado   340/340
+  leyenda          340/340
+  SVG como texto   340/340
+  imagen PNG       330/330
+
 respuestas con algún emoji / con texto fuera del código, por condición
   sin nada         emoji 0/340   texto fuera del código 0/340
   emoji mudo       emoji 0/340   texto fuera del código 0/340
@@ -94,6 +102,14 @@ mistral-large-4                          10/10   10/10 (+0.00)   10/10 (+0.00)  
 mistral-medium-3.5                       10/10   10/10 (+0.00)   10/10 (+0.00)   10/10 (+0.00)   10/10 (+0.00)   10/10 (+0.00)
 muse-wonder-1.0                           9/10   10/10 (+0.10)    2/10 (-0.70)    6/10 (-0.30)    7/10 (-0.20)    5/10 (-0.40)
 qwen3.8-max                               6/10    3/10 (-0.30)    0/10 (-0.60)    1/10 (-0.50)    2/10 (-0.40)    0/10 (-0.60)
+
+correctas sobre las que tienen código, por condición (seis árboles de prueba)
+  sin nada         340/340
+  emoji mudo       340/340
+  emoji nombrado   340/340
+  leyenda          340/340
+  SVG como texto   340/340
+  imagen PNG       330/330
 
 respuestas con algún emoji / con texto fuera del código, por condición
   sin nada         emoji 0/340   texto fuera del código 0/340
