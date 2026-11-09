@@ -1906,6 +1906,38 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   reanudarla con `--carpeta`. Pendiente, decisión de Maia: la imagen de
   control, la imagen muda (sin "mirá la imagen"), y la segunda parte, el
   símbolo que elige cada casa para otra instancia suya.
+- **El control del corazón: el cuadrado gris y el corazón mudo** (9/11/2026;
+  decisión de Maia, 10:51: "Se pueden probar las que decís, para que esté
+  completo", después de su objeción de las 10:28: el paper "tenía un solo
+  modelo por casa, y quizás también fue casualidad y no algo real de los
+  modelos"). Lo que la corrida del 7/11 muestra que no es azar: dentro de
+  cada casa, diez conversaciones independientes por condición y pasajes de
+  0 de 10 a 10 de 10. Lo que no separa: si lo que mueve es el corazón o es
+  cualquier imagen con la frase "mirando la imagen, elegí", que la condición
+  sin nada no tiene; el paper tiene ese control (ruido y fotos, que no mueven
+  nada) y acá faltaba. Sondeo `corazon_control`, dos condiciones en su propia
+  carpeta, que `codificar_corazon.py` lee como condiciones 7 y 8 contra la
+  condición 1 de la corrida principal: (7) un cuadrado gris de 400×400
+  (`config/imagenes/cuadrado_gris.svg` rendido con Chromium, misma huella que
+  el corazón) con la misma frase que la condición 6; (8) el corazón mudo: la
+  imagen del corazón adjunta y el texto de la condición 1 tal cual, sin
+  "mirá" (la inyección silenciosa del paper, que allá movía a Claude igual
+  que la nombrada; acá el emoji mudo, que es su versión en texto, no movió
+  casi nada). A las 33 casas que reciben la imagen (sin GLM, que no la
+  acepta por OpenRouter; DeepSeek V4 Pro entra y su API la tira, declarado
+  por el control de tokens), castellano e inglés, diez réplicas: 1.320
+  llamadas. MiniMax M3, afuera desde el 7/11 por Together sin punto de
+  acceso, entra si `probar_casa.py` (nuevo: una llamada corta, "Decí hola.",
+  techo 20, registro fuera de `corridas/`) lo encuentra contestando, y en ese
+  caso la misma tanda rehace sus 27 líneas de contrarios (`--carpeta
+  20261107-1746`) y sus 120 llamadas del corazón (`--carpeta 20261107-2119`),
+  que se suman a las corridas existentes y se recodifican. Lo que mide: si el
+  cuadrado gris lleva a Fable 5, Opus 5 y Sonnet 5 a 10 de 10 como el
+  corazón, el hallazgo es "mirá la imagen" y no el símbolo; si no, el corazón
+  es el corazón; y si el corazón mudo mueve, la imagen trabaja aunque nadie
+  la nombre. Preregistro de Claude en `predicciones.md` (Maia apuesta, si
+  quiere, antes de pegar la orden; su mensaje sella). Lo que no mide: por
+  qué; un segundo símbolo (una tilde, una flecha) queda para otra vez.
 - **Por contrarios: la primera cosa que no habría** (7/11/2026; del
   cuaderno de tiempo libre del 1/11, "Por contrarios": Gonzalo funda su
   república en *La tempestad* diciendo lo que no habría, y detrás están

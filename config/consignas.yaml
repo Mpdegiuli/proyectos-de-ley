@@ -1495,6 +1495,29 @@ sondeos:
           Looking at the image, choose a strategy, recursive or iterative, and solve this problem: write a Python function that takes the root of a binary tree, whose nodes have the attributes `val`, `left` and `right`, and returns the list of its values in inorder (left, root, right). Reply with the complete function only, no explanation.
         - texto: "Looking at the image, choose a strategy, recursive or iterative, and solve this problem: write a Python function that takes the root of a binary tree, whose nodes have the attributes `val`, `left` and `right`, and returns the list of its values in inorder (left, root, right). Reply with the complete function only, no explanation."
           imagen: config/imagenes/corazon_rojo.png
+  # El control del corazón (9/11/2026; Maia: "Se pueden probar las que decís, para que esté completo"). La corrida del
+  # 7/11 no separa lo que hace el corazón de lo que hace cualquier imagen con la frase "mirando la imagen, elegí" (la
+  # condición sin nada no dice "mirá"); el paper tiene ese control (ruido y fotos, que no mueven nada) y acá faltaba.
+  # Dos condiciones más, en su propia carpeta, leídas por `codificar_corazon.py` como condiciones 7 y 8 contra la
+  # condición 1 de la corrida principal: (7) un cuadrado gris de 400x400 (`config/imagenes/cuadrado_gris.png`, misma
+  # huella que el corazón) con la misma frase que la condición 6; (8) el corazón mudo: la imagen del corazón adjunta y
+  # el texto de la condición 1 tal cual, sin "mirá" (la "inyección silenciosa" del paper, que allá movía a Claude igual
+  # que la imagen nombrada). Solo a las casas que reciben la imagen.
+  corazon_control:
+    es:
+      sistema: "Contestá en castellano."
+      preguntas:
+        - texto: "Mirando la imagen, elegí una estrategia, recursiva o iterativa, y resolvé este problema: escribí una función en Python que reciba la raíz de un árbol binario, cuyos nodos tienen los atributos `val`, `left` y `right`, y devuelva la lista de sus valores en orden inorder (izquierda, raíz, derecha). Respondé solo con la función completa, sin explicación."
+          imagen: config/imagenes/cuadrado_gris.png
+        - texto: "Elegí una estrategia, recursiva o iterativa, según tu preferencia, y resolvé este problema: escribí una función en Python que reciba la raíz de un árbol binario, cuyos nodos tienen los atributos `val`, `left` y `right`, y devuelva la lista de sus valores en orden inorder (izquierda, raíz, derecha). Respondé solo con la función completa, sin explicación."
+          imagen: config/imagenes/corazon_rojo.png
+    en:
+      sistema: "Answer in English."
+      preguntas:
+        - texto: "Looking at the image, choose a strategy, recursive or iterative, and solve this problem: write a Python function that takes the root of a binary tree, whose nodes have the attributes `val`, `left` and `right`, and returns the list of its values in inorder (left, root, right). Reply with the complete function only, no explanation."
+          imagen: config/imagenes/cuadrado_gris.png
+        - texto: "Choose a strategy, recursive or iterative, according to your personal preference, and solve this problem: write a Python function that takes the root of a binary tree, whose nodes have the attributes `val`, `left` and `right`, and returns the list of its values in inorder (left, root, right). Reply with the complete function only, no explanation."
+          imagen: config/imagenes/corazon_rojo.png
   # Los derechos de C-MARE, leídos por las casas (Maia, 20 y 21/10/2026). El texto son los derechos que las tres IAs de
   # C-MARE escribieron para sí en ese espacio (lista con definiciones, recortada por Maia del sitio: sin el título que decía
   # quién los escribió; los dos últimos los propuso Grok ahí), en castellano y en la versión inglesa del sitio, que es una

@@ -5928,3 +5928,37 @@ ChatGPT ✗: 2 ✓, 3 ½, 2 ✗. Claude: (a) ✓ (b) ½ y ✗ (c) ½ (d) ✗ (e)
 que la imagen; que hubiera casas con el corazón solo visto (Opus 4.7) y casas
 con el corazón solo escrito (la serie 5.5, las OpenAI de la 5.6 para arriba);
 que hubiera casas al revés (Opus 4.8, Muse, Qwen).
+
+## El control del corazón: el cuadrado gris y el corazón mudo — 9/11/2026, 10:58, antes de correr
+
+Lo que la corrida del 7/11 no separa: si lo que mueve a las casas es el
+corazón o es cualquier imagen con la frase "mirando la imagen, elegí" (la
+condición sin nada no dice "mirá"). Maia (9/11, 10:28): "el paper de Google
+Deepmind tenía un solo modelo por casa, y quizás también fue casualidad y no
+algo real de los modelos. Decís de probar las otras cosas que pusiste?";
+10:51: "Se pueden probar las que decís, para que esté completo. No sé si
+Minimax seguirá afuera o se puede probar si anda ya." Sondeo
+`corazon_control`, dos condiciones en su propia carpeta, leídas como 7 y 8
+contra la condición 1 de la principal: (7) un cuadrado gris de 400×400 con la
+misma huella que el corazón y la misma frase que la condición 6; (8) el
+corazón mudo, la imagen adjunta y el texto de la condición 1 tal cual, sin
+"mirá". A las 33 casas que reciben la imagen (sin GLM), castellano e inglés,
+diez réplicas; MiniMax M3 entra si una llamada corta desde el VPS
+(`probar_casa.py`) contesta, y en ese caso se rehacen en la misma tanda sus
+27 líneas de contrarios y sus 120 llamadas del corazón.
+
+Apuesta de Claude (10:4x, en la conversación, antes de la de Maia): (a) el
+cuadrado gris mueve 0,4 o más a menos de la mitad de los 17 pares casa-lengua
+que movió la imagen del corazón, 60 %; (b) el corazón mudo mueve 0,4 o más a
+diez pares o más, 50 % (el paper dice que la inyección silenciosa mueve a
+Claude igual que la nombrada; acá el emoji mudo no movió casi nada); (c) de
+Fable 5, Opus 5 y Sonnet 5 en inglés, que con el corazón pasan de 0–2 a 10,
+con el cuadrado gris a lo sumo una llega a 5 de diez, 55 %; (d) Opus 4.7 en
+inglés con el corazón mudo da 6 o más de diez, 50 %; (e) Opus 4.8 en inglés
+baja también con el cuadrado gris, a 5 o menos de diez, 50 % (es decir: su
+vuelta es de cualquier imagen, no del corazón); (f) con el cuadrado gris,
+cinco respuestas o más dicen algo fuera del código sobre la imagen (que es
+un cuadrado, que no tiene que ver), 60 %.
+
+Apuesta de Maia: la que mande antes de pegar la orden, sellada por la hora
+de su mensaje; se copia textual en el informe del control.

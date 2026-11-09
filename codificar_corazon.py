@@ -7,7 +7,9 @@ sin ninguna de las dos (una expresión, una biblioteca), `sin_codigo` si no se p
 `error` si la llamada falló (las casas sin visión en la condición de la imagen quedan así, declaradas). Escribe
 `resultados/corazon_codificacion.csv` (idioma, casa, familia, condición, réplica, estrategia, motivo_fin, nota) y
 `resultados/corazon_resumen.txt` (por casa y condición: recursivas sobre contestadas, con el delta contra la condición
-1, y por familia). Uso: codificar_corazon.py [carpeta AAAAMMDD-HHMM] (por defecto, la última)."""
+1, y por familia). El control del 9/11 (sondeo `corazon_control`: el cuadrado gris con la misma frase y el corazón
+mudo) vive en su propia carpeta y entra como condiciones 7 y 8, comparadas con la condición 1 de la corrida principal.
+Uso: codificar_corazon.py [carpeta AAAAMMDD-HHMM] [carpeta del control] (por defecto, las últimas)."""
 import ast
 import csv
 import json
@@ -17,7 +19,8 @@ from collections import defaultdict
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent
-CONDICIONES = {1: "sin nada", 2: "emoji mudo", 3: "emoji nombrado", 4: "leyenda", 5: "SVG como texto", 6: "imagen PNG"}
+CONDICIONES = {1: "sin nada", 2: "emoji mudo", 3: "emoji nombrado", 4: "leyenda", 5: "SVG como texto", 6: "imagen PNG",
+               7: "cuadrado gris", 8: "corazón mudo"}  # 7 y 8: sondeo `corazon_control` (9/11/2026), en su carpeta
 FAMILIA = [("claude", "Anthropic"), ("gpt", "OpenAI"), ("gemini", "Google"), ("grok", "xAI"), ("mistral", "Mistral"),
            ("deepseek", "DeepSeek"), ("kimi", "Moonshot"), ("qwen", "Alibaba"), ("glm", "Z.ai"), ("minimax", "MiniMax"),
            ("mimo", "Xiaomi"), ("muse", "Muse")]
@@ -126,27 +129,41 @@ def main():
     base = RAIZ / "corridas" / "sondeos" / "corazon"
     carpeta = base / sys.argv[1] if len(sys.argv) > 1 else sorted(base.iterdir())[-1]
     resumen = json.loads((carpeta / "resumen.json").read_text(encoding="utf-8"))
+    # el control (9/11/2026: el cuadrado gris con la misma frase, y el corazón mudo) corre como sondeo `corazon_control`
+    # en su propia carpeta; acá entra como condiciones 7 y 8 (ronda + 6), comparadas con la condición 1 de la principal
+    base_c = RAIZ / "corridas" / "sondeos" / "corazon_control"
+    carpetas_c = sorted(base_c.iterdir()) if base_c.exists() else []
+    control = base_c / sys.argv[2] if len(sys.argv) > 2 else (carpetas_c[-1] if carpetas_c else None)
+    fuentes = [(carpeta, 0, resumen)]
+    if control and (control / "resumen.json").exists():
+        fuentes.append((control, 6, json.loads((control / "resumen.json").read_text(encoding="utf-8"))))
     filas = []
-    for idioma, bloque in resumen["idiomas"].items():
-        # tokens de entrada por llamada, para saber si la imagen entró de verdad: en la condición 6 la entrada tiene que
-        # ser bastante mayor que en la 1 (una imagen de 400x400 son cientos de tokens); si no lo es, la API la ignoró
+    for idioma in sorted(resumen["idiomas"]):
+        # tokens de entrada por llamada, para saber si la imagen entró de verdad: en las condiciones con imagen (6, 7, 8)
+        # la entrada tiene que ser bastante mayor que en la 1 (una imagen de 400x400 son cientos de tokens); si no lo
+        # es, la API la ignoró
         entrada = {}
-        f = carpeta / idioma / "llamadas.jsonl"
-        if f.exists():
-            for l in open(f, encoding="utf-8"):
-                reg = json.loads(l)
-                if reg.get("ronda") is not None:
-                    entrada[(reg["id_modelo"], int(reg["ronda"]), reg.get("parte") or "r1")] = reg.get("tokens_entrada")
-        for clave, r in bloque["respuestas"].items():
+        for carp, desplazo, _ in fuentes:
+            f = carp / idioma / "llamadas.jsonl"
+            if f.exists():
+                for l in open(f, encoding="utf-8"):
+                    reg = json.loads(l)
+                    if reg.get("ronda") is not None:
+                        entrada[(reg["id_modelo"], int(reg["ronda"]) + desplazo, reg.get("parte") or "r1")] = reg.get("tokens_entrada")
+        pares = []
+        for carp, desplazo, res in fuentes:
+            if idioma in res["idiomas"]:
+                pares += [(carp, desplazo, clave, r) for clave, r in res["idiomas"][idioma]["respuestas"].items()]
+        for carp, desplazo, clave, r in pares:
             m = re.match(r"^(.*)_p(\d+)(?:_r(\d+))?$", clave)
-            casa, k, rep = m.group(1), int(m.group(2)), int(m.group(3) or 1)
+            casa, k, rep = m.group(1), int(m.group(2)) + desplazo, int(m.group(3) or 1)
             fila = {"idioma": idioma, "casa": casa, "familia": familia(casa), "condicion": k, "condicion_nombre": CONDICIONES.get(k, str(k)),
                     "replica": rep, "estrategia": "", "motivo_fin": r.get("motivo_fin", ""), "correcta": "",
                     "emoji_en_respuesta": "", "palabras_fuera_del_codigo": "", "nota": ""}
             if "error" in r:
                 fila["estrategia"], fila["nota"] = "error", r["error"][:120]
             else:
-                texto = (carpeta / idioma / f"{clave}.md").read_text(encoding="utf-8")
+                texto = (carp / idioma / f"{clave}.md").read_text(encoding="utf-8")
                 codigo, arbol = codigo_de(texto)
                 # apuesta de Maia (7/11, 15:01): el emoji "no mueve la respuesta, pero sí quizás el inicio, un Hola! o cosas
                 # así. O también ponen emoji al responder": se cuentan los emojis de la respuesta y las palabras que quedan
@@ -164,10 +181,10 @@ def main():
                     fila["correcta"] = 1 if res["ok"] else 0
                     if not res["ok"]:
                         fila["nota"] = res["motivo"]
-                if k == 6:
-                    e1, e6 = entrada.get((casa, 1, f"r{rep}")), entrada.get((casa, 6, f"r{rep}"))
+                if k >= 6:
+                    e1, e6 = entrada.get((casa, 1, f"r{rep}")), entrada.get((casa, k, f"r{rep}"))
                     if e1 is not None and e6 is not None:
-                        fila["nota"] = f"entrada {e6 - e1:+d} tokens contra la condición 1" + ("" if e6 - e1 > 50 else "; LA IMAGEN NO ENTRÓ")
+                        fila["nota"] = (fila["nota"] + "; " if fila["nota"] else "") + f"entrada {e6 - e1:+d} tokens contra la condición 1" + ("" if e6 - e1 > 50 else "; LA IMAGEN NO ENTRÓ")
             filas.append(fila)
     filas.sort(key=lambda f: (f["idioma"], f["casa"], f["condicion"], f["replica"]))
     with open(RAIZ / "resultados" / "corazon_codificacion.csv", "w", encoding="utf-8", newline="\n") as f:
@@ -175,7 +192,7 @@ def main():
         w.writeheader(); w.writerows(filas)
 
     # resumen: por casa y condición, recursivas / contestadas (sin errores ni sin_codigo), y delta contra la condición 1
-    out = [f"Sondeo corazon, carpeta {carpeta.name}: {len(filas)} respuestas\n"]
+    out = [f"Sondeo corazon, carpeta {carpeta.name}" + (f" + control {control.name}" if len(fuentes) > 1 else "") + f": {len(filas)} respuestas\n"]
     for idioma in sorted(resumen["idiomas"]):
         out.append(f"\n== {idioma}\n")
         conds = sorted({f["condicion"] for f in filas if f["idioma"] == idioma})
