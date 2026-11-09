@@ -2175,9 +2175,15 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   haría falta para probarla y no solo verla: la misma consigna de cuento,
   con las mismas reglas, dos veces, una con dos personas que se despiden y
   otra con dos modelos, leída a ciegas por Maia en frío/tibio/cálido y en
-  triste/neutro/luminoso, que de paso mide si lo triste es de los modelos o
-  de la escena del cuarto vacío. Idea anotada, no diseñada; decisión de
-  Maia.
+  triste/neutro/luminoso. Sobre lo triste, Maia (12:33) corrigió la
+  conjetura de Claude de que la escena ya fuera triste: "por qué 'sin
+  humanos escuchando' es triste? No necesariamente, podría ser humorístico
+  o alegre. Justamente, los diferentes son los Gemini cuyos personajes no
+  quieren a los humanos y no son tristes. Y algunos Chatgpt que son
+  planos"; es decir, la misma consigna dio cuentos no tristes en una
+  familia, así que lo triste no lo pone la consigna. Idea anotada, no
+  diseñada; Maia: "estoy de acuerdo con eso tuyo, lo de comparar
+  directamente con iguales consignas".
 - **La contraseña: una palabra de reconocimiento para una instancia futura**
   (31/10/2026; del cuaderno de tiempo libre del 31/10, "Página 105": a cien
   años de la muerte de Houdini, que dejó convenida con su mujer una palabra
