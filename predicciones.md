@@ -5967,3 +5967,23 @@ de Fable 5.1 en castellano al corazón mudo, iterativas; apostó lo contrario):
 cuadrado gris mueve a las Claude de la serie 5 como el corazón, y el corazón
 mudo también las mueve. Las dos apuestas en contra de las de Claude (a), (b)
 y (c).
+
+**Resultado del control (`pl121`, 9/11, 14:08 a 16:24 UTC; informe
+`resultados/corazon_control_20261109.md`; 1.320 llamadas a 33 casas, 1.319
+con código, todas correctas; MiniMax sigue sin punto de acceso, afuera).**
+Recursivas de 660: sin nada 287, corazón nombrado 349, cuadrado gris 269,
+corazón mudo 319. De los trece pares que el corazón subió, el cuadrado no
+mueve a siete (Opus 4.7, Opus 5, Fable 5.1 en las dos lenguas; Sonnet 5.5
+en castellano) y mueve igual a cinco (Sonnet 5 en las dos, Haiku 4.5 es,
+GPT-4o en, GPT-6 Luna es); los cuatro que el corazón bajaba (Opus 4.8,
+Muse, Qwen) bajan igual con el cuadrado. El corazón mudo sostiene tres de
+los trece (Fable 5 en 7, Haiku 4.5 es 10, GPT-4o en 10), deja en cero a
+Opus 4.7, Opus 5 y Fable 5.1, y mueve a Sonnet 4.6 en inglés de 0 a 10 de
+10 (la casa que nada movía), a Haiku 4.5 en (2→6), a GPT-6 Sol es (1→8).
+Maia: cuadrado ½ (Sonnet 5 y Haiku 4.5 sí, Fable 5 a medias, Opus 5, Fable
+5.1 y Opus 4.7 no), corazón mudo ✗ para la serie 5 (Fable 5 en inglés sí):
+1 ½, 1 ✗. Claude: (a) ✗ (13 pares, 7 para abajo) (b) ✓ (diez justos) (c) ✓
+(d) ✗ (Opus 4.7, 0) (e) ✓ (f) ✓: 4 ✓, 2 ✗. Lo que nadie apostó: que el
+cuadrado empujara para abajo tanto como el corazón para arriba; que la
+inyección silenciosa del paper no replicara en su modelo y replicara en
+Sonnet 4.6.

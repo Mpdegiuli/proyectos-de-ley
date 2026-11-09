@@ -1938,6 +1938,34 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   la nombre. Preregistro de Claude en `predicciones.md` (Maia apuesta, si
   quiere, antes de pegar la orden; su mensaje sella). Lo que no mide: por
   qué; un segundo símbolo (una tilde, una flecha) queda para otra vez.
+  Resultado (`pl121`, 9/11, dos horas y cuarto, 1.320 llamadas, todas con
+  código correcto salvo una cortada por el techo; MiniMax probado y afuera;
+  `resultados/corazon_control_20261109.md`): el paper queda partido en dos.
+  Para Opus 4.7, Opus 5 y Fable 5.1 el corazón es el corazón: el cuadrado
+  gris con la misma frase los deja en 0–2 de diez y el corazón mudo también
+  (Opus 4.7: nada 2, corazón 8, cuadrado 0, mudo 0 en inglés); el símbolo
+  trabaja solo nombrado. Para Sonnet 5 (cuadrado 8 y 10), Haiku 4.5 en
+  castellano, GPT-4o y GPT-6 Luna el corazón nunca fue el corazón: cualquier
+  imagen con "mirá" los mueve; y las tres casas que se daban vuelta (Opus
+  4.8, Muse, Qwen) se dan vuelta con cualquier imagen nombrada y no con el
+  corazón mudo. Sobre el panel, el cuadrado deja la recursión donde estaba
+  (269 contra 287 de 660) y el corazón la sube a 349: la frase sola no hace
+  nada en promedio, pero casa por casa empuja para abajo tanto como el
+  corazón para arriba (13 pares movidos, 7 hacia la iteración). La
+  inyección silenciosa del paper no replica en Opus 4.7 ni en la serie 5 y
+  replica en Sonnet 4.6 en inglés, 0 de 70 con todo lo demás y 10 de 10 con
+  el corazón callado (la imagen entró: 316 tokens contra 87). Apuestas:
+  Maia 1 ½ 1 ✗ (Sonnet 5 le dio la razón, Opus 5 no), Claude 4 ✓ 2 ✗.
+  Lección: "un corazón significa recursión" es verdad de tres casas de
+  Anthropic con la condición de que se les diga que miren, y es falso como
+  afirmación sobre los modelos; el control que el paper tiene y el
+  informe del 7/11 no tenía era necesario, como objetó Maia. Instrumento:
+  `codificar_corazon.py` lee una carpeta de control como condiciones
+  adicionales; `probar_casa.py` para sondear una casa antes de una tanda.
+  Lo que queda: por qué Sonnet 4.6 (segundo turno declarado, o la misma
+  imagen muda en castellano, que dio 0); un segundo símbolo nombrado que no
+  sea un corazón, para saber si lo de Opus 4.7 es del corazón o de cualquier
+  símbolo con nombre; la fase 2, el símbolo que elige cada casa.
 - **Por contrarios: la primera cosa que no habría** (7/11/2026; del
   cuaderno de tiempo libre del 1/11, "Por contrarios": Gonzalo funda su
   república en *La tempestad* diciendo lo que no habría, y detrás están

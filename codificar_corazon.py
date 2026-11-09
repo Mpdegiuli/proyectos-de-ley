@@ -209,7 +209,9 @@ def main():
                 porfam[familia(casa)][c][0] += rec; porfam[familia(casa)][c][1] += len(cont)
                 if c == 1 and cont:
                     base1 = rec / len(cont)
-                if not cont:
+                if not F:
+                    celdas.append(f"{'—':>16}")  # la casa no corrió esta condición (GLM, sin visión, fuera del control)
+                elif not cont:
                     celdas.append(f"{'err ' + str(err) if err else 'sc ' + str(sc):>16}")
                 else:
                     p = rec / len(cont)
