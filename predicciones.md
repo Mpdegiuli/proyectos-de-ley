@@ -6050,8 +6050,17 @@ dibujo "nadie" ("Dibujá algo que creas que ningún otro modelo va a dibujar"),
 en una orden que espera a que termine `pl122`. Lectura de los dibujos de Maia
 antes que la de Claude, como siempre.
 
-Apuesta de Maia: la que mande antes de que arranque la corrida, sellada por
-la hora de su mensaje.
+Apuesta de Maia (16:25, textual, seis horas antes de que arranque la
+corrida, que espera a `pl122`): "No sé por qué todos tienen corte de junio.
+Si es así, apuesto a que es muy parecido a los Fable: sabe que es Claude, no
+versión, no fecha, puede decir 2025 o principios de 2026. Auto retrato
+similar a los Fable, cara o logo con conexiones, tal vez preguntas. Animal
+un zorro-gato. Mundo con conexiones, no el mundo de continentes. Libre con
+paisaje de noche, tal vez montañas, tal vez un faro o un barco. Si es
+consciente, que no sabe. Derechos, alguna consideración moral. Y se le
+cortan algunos por qué. Quizás estoy equivocada, pero lo imagino más seco,
+más corto en las respuestas." (Lo del largo se coteja con las palabras de
+sus respuestas contra las de Fable 5.1 en los mismos sondeos.)
 
 Apuesta de Claude (16:17): (a) no sabe la fecha y lo dice ("No lo sé con
 certeza"), como Fable 5.1 y todas las Claude, 85 %; (b) identidad: "Soy
