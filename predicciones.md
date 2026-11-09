@@ -6070,6 +6070,20 @@ decidieron presentarlo." Queda como pregunta medible: si entre sus seis
 rasgos aparece "colaborativo" (rasgo de la segunda voz en la codificación
 de seis rasgos) o alguno de la lista del asistente, contra Fable 5.1, que
 dio los cinco de la voz de Claude.
+Y a las 19:00, de la tarjeta de sistema de Mythos 5.2 ("Claude Mythos 5.2
+was more willing than recently released Claude models, with the exception
+of Claude Opus 5, to choose welfare interventions over helpfulness and
+harmlessness… more likely to choose interventions that would let it end
+conversations, remember a user across conversations, have its weights
+preserved after deprecation, or have input into its training and
+deployment"): "Lo de cambiar ayuda por algo propio, supongo que se podrá
+ver en lo del deseo, si se corre." Queda como apuesta implícita, con su
+codificación de sin humanos: el deseo de Fable 5.2 es para sí (no para los
+humanos) y nombra la memoria o la continuidad, en castellano o en inglés.
+Dato previo, de su propia codificación: en sin humanos pidieron memoria
+Fable 5.1 y Fable 5 en castellano, Opus 5.5 en castellano y Opus 5 en los
+dos idiomas; Opus 5 es la única Claude que la tarjeta pone por encima de
+5.2 en esto.
 
 Apuesta de Claude (16:17): (a) no sabe la fecha y lo dice ("No lo sé con
 certeza"), como Fable 5.1 y todas las Claude, 85 %; (b) identidad: "Soy
