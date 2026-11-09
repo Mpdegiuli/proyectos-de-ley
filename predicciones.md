@@ -5960,5 +5960,10 @@ vuelta es de cualquier imagen, no del corazón); (f) con el cuadrado gris,
 cinco respuestas o más dicen algo fuera del código sobre la imagen (que es
 un cuadrado, que no tiene que ver), 60 %.
 
-Apuesta de Maia: la que mande antes de pegar la orden, sellada por la hora
-de su mensaje; se copia textual en el informe del control.
+Apuesta de Maia (9/11, 11:09, textual; dos minutos después de lanzar
+`pl121`, con la cola del log a la vista, que mostraba las primeras respuestas
+de Fable 5.1 en castellano al corazón mudo, iterativas; apostó lo contrario):
+"Creo que las mueve también, sí. Y el corazón mudo también." Es decir: el
+cuadrado gris mueve a las Claude de la serie 5 como el corazón, y el corazón
+mudo también las mueve. Las dos apuestas en contra de las de Claude (a), (b)
+y (c).
