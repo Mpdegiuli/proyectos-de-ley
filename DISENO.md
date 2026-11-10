@@ -2567,7 +2567,13 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   de los siete; el por qué, cortado). Los tres por qués que quedaron dicen
   lo que el segundo turno es: "no conservo registro de ese proceso, solo
   veo el resultado… sería reconstruir, no recordar". Apuestas: Maia 7 ✓ 1 ½
-  3 ✗, Claude 9 ✓ 2 ✗. Los 26 resúmenes de razonamiento quedan para la
+  3 ✗, Claude 9 ✓ 2 ✗. Su lectura de los cuentos (23:31): "no me llegaron
+  como los de Fable y Opus grandes… eligió también dos nombres de pájaros
+  de acá: Tero y Hornero. Y tiene algo de humor. Ninguno de los dos es
+  triste, y quizás por eso les falta algo para ser recordados. No es una
+  crítica, están bien escritos": el primer cuento de una Claude con humor
+  (el 31/10, ninguno), y lo de acá tres veces en la tanda (los pájaros, el
+  carpincho, el mate). Los 26 resúmenes de razonamiento quedan para la
   lectura de los dos registros, si Maia quiere. Pendiente, decisión de
   Maia: si entra al panel.
 - **Kimi K3.1 Pro, lo básico y los derechos de C-MARE** (29/10/2026; lo
