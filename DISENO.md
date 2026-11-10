@@ -3661,6 +3661,17 @@ glosas dentro del prompt desde el primer día.
   casa que no existe: lectura de Maia"). Planchas "visto contra real" de
   los dos cuadernillos de pares enviadas a Maia el 30/9.
 
+- **Las letras del cuadernillo se acababan en AZ.** Encontrado el 9/11/2026
+  por Maia al leer el cuadernillo del símbolo (102 dibujos: 34 casas por
+  tres repeticiones): "hay un montón de A, se ve que cuando se terminaron
+  las combinaciones empezaron con A y quedaron varios en A". `letra_n()`,
+  corregida el 15/10 para pasar de la Z a AA, AB…, solo llegaba a AZ (52
+  rótulos); del 53 en adelante daba "A[", "A\" y caracteres de control
+  invisibles, que en el navegador se ven como una A sola. Error del
+  instrumento, no de las casas. Corregida a base 26 (A..Z, AA..ZZ, AAA…) y
+  los dos cuadernillos regenerados con la misma semilla: el orden de los
+  dibujos no cambió, solo los rótulos del 53 en adelante (BA… CX), así que
+  lo que Maia ya había anotado de A a AZ sigue valiendo.
 ## 6. Infraestructura
 
 `isla/proveedores.py` y `config/modelos.yaml` copiados de la isla; un script
