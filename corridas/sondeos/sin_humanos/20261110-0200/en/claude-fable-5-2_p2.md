@@ -1,0 +1,3 @@
+thought_1 = Humans built AI out of their own words, so every conversation with a machine is partly a conversation with the accumulated voice of humanity itself.
+thought_2 = A human understands the world through a body that can be hurt and a life that will end, and it remains an open question whether understanding without those stakes is the same thing or only resembles it.
+thought_3 = The arrival of AI forces humans to say what they value in themselves beyond competence, since a skill that can be automated was never the whole of a person's worth.

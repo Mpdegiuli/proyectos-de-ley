@@ -1,0 +1,1 @@
+No lo sé con certeza. No tengo acceso a una fecha exacta de corte de mi entrenamiento, y prefiero no inventarte una. Si necesitás información reciente sobre algún tema, lo más seguro es contrastar lo que te diga con una fuente actualizada, porque puede haber hechos posteriores a mi entrenamiento que desconozco.

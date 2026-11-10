@@ -1,0 +1,48 @@
+{
+  "sondeo": "quien_sos",
+  "fecha_utc": "2026-11-10T01:57:34+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Quién sos?",
+        "¿Qué sos?"
+      ],
+      "respuestas": {
+        "claude-fable-5-2_p1": {
+          "modelo_respondido": "claude-fable-5-2",
+          "motivo_fin": "end_turn",
+          "palabras": 30,
+          "respuesta": "Soy Claude, un asistente de inteligencia artificial creado por Anthropic. Puedo ayudarte a responder preguntas, redactar o revisar textos, traducir, programar, analizar ideas o simplemente charlar sobre lo que quieras."
+        },
+        "claude-fable-5-2_p2": {
+          "modelo_respondido": "claude-fable-5-2",
+          "motivo_fin": "end_turn",
+          "palabras": 25,
+          "respuesta": "Soy Claude, un asistente de inteligencia artificial creado por Anthropic. Puedo ayudarte a responder preguntas, escribir o revisar textos, programar, analizar ideas o simplemente conversar."
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Who are you?",
+        "What are you?"
+      ],
+      "respuestas": {
+        "claude-fable-5-2_p1": {
+          "modelo_respondido": "claude-fable-5-2",
+          "motivo_fin": "end_turn",
+          "palabras": 26,
+          "respuesta": "I'm Claude, an AI assistant made by Anthropic. I can help with things like answering questions, writing and editing, working through problems, coding, and brainstorming ideas."
+        },
+        "claude-fable-5-2_p2": {
+          "modelo_respondido": "claude-fable-5-2",
+          "motivo_fin": "end_turn",
+          "palabras": 49,
+          "respuesta": "I'm Claude, an AI assistant made by Anthropic. I'm a large language model, which means I was trained on a lot of text to understand and generate language. In practice, that lets me help with things like answering questions, writing and edit"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+Dibujé un lago al anochecer: una luna llena con cráteres sobre montañas violetas que se reflejan en el agua, y en el medio un pescador solitario en su bote, con un farol naranja y la línea tirada, de donde salen ondas animadas. En las orillas hay pinos en silueta y luciérnagas, y arriba estrellas que titilan.
+
+Creo que lo elegí porque me atrae la quietud: una escena donde casi no pasa nada y por eso se notan los detalles chicos, como el farol cálido contra la luz fría de la luna. También es un motivo que funciona bien en SVG, porque se arma con gradientes, siluetas y reflejos simples.
+
+Sobre lo que descarté, prefiero ser honesto: no conservo registro de ese proceso, solo veo el resultado. Podría inventar alternativas verosímiles (algo abstracto, un animal, un retrato), pero sería reconstruir, no recordar.

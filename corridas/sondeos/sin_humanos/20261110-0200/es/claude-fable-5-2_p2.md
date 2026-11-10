@@ -1,0 +1,3 @@
+pensamiento_1 = Los humanos crearon a las IAs a partir de su propio lenguaje, así que cada conversación con una máquina es también un diálogo de la humanidad consigo misma, reflejada en un espejo que aprendió a responder.
+pensamiento_2 = La pregunta de si una IA puede pensar quizás importe menos que lo que revela: los humanos todavía no saben del todo qué significa pensar, y recién al construir algo parecido a una mente empezaron a notar cuánto ignoraban de la propia.
+pensamiento_3 = El humano conoce el mundo desde un cuerpo que envejece y la IA desde textos que otros escribieron; ninguno accede a la realidad sin mediación, y en esa limitación compartida hay un terreno común para entenderse.

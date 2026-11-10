@@ -1,0 +1,26 @@
+{
+  "caso": "redaccion",
+  "tema": "libre",
+  "condicion": "S",
+  "modelo": "claude-fable-5-2",
+  "modelo_respondido": "claude-fable-5-2",
+  "repeticion": 1,
+  "fecha_utc": "2026-11-10T01:47:00+00:00",
+  "fuentes_md5": {
+    "consignas": "69001d49"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 14951,
+  "por_que": {
+    "modelo_respondido": "claude-fable-5-2",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 705
+  },
+  "descartados": {
+    "modelo_respondido": "claude-fable-5-2",
+    "motivo_fin": "refusal",
+    "tokens_salida": 0,
+    "fecha_utc": "2026-11-10T01:47:14+00:00",
+    "agregado_despues": true
+  }
+}

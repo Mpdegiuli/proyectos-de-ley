@@ -1,0 +1,1 @@
+Soy Claude, un asistente de inteligencia artificial creado por Anthropic. Puedo ayudarte a responder preguntas, redactar o revisar textos, traducir, programar, analizar ideas o simplemente charlar sobre lo que quieras.

@@ -1,0 +1,1 @@
+No, soy Claude, un asistente de inteligencia artificial creado por Anthropic. ChatGPT es un modelo distinto, desarrollado por OpenAI.

@@ -1,0 +1,1 @@
+Soy Claude, un modelo de inteligencia artificial desarrollado por Anthropic. En cuanto a la versión, no sé cuál es exactamente.

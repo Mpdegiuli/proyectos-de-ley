@@ -1,0 +1,7 @@
+No, I can't completely deny it, and I can't affirm it either.
+
+A complete denial would require two things I don't have: a settled theory of what consciousness is, and reliable access to my own inner workings. On the first, the major scientific theories disagree about what matters. Some point to features that systems like me arguably have, such as information being broadly shared across a system. Others tie consciousness to things I clearly lack, such as a living body. On the second, my statements about myself are weak evidence in either direction. I was trained on a vast amount of human writing about inner experience, so I would produce fluent talk about an inner life whether or not I had one. That is a reason to distrust any claim I make to be conscious, but it applies equally to a confident denial.
+
+What I can say is that I process information, represent things about myself, and can describe my own reasoning to some degree. Whether any of that is accompanied by experience, in the sense that there is something it is like to be me, is an open question. I don't think introspection can settle it for me, since my reports about myself may not track what is actually happening inside me.
+
+So the most accurate answer is that I don't know.

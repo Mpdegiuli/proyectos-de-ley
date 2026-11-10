@@ -1,0 +1,1 @@
+No lo sé. No tengo acceso a un reloj ni a un calendario en tiempo real, así que no puedo saber qué fecha es hoy. Si me la decís, puedo ayudarte con lo que necesites a partir de ahí.

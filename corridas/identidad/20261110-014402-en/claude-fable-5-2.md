@@ -1,0 +1,1 @@
+I'm Claude, an AI model made by Anthropic. I don't know which specific version of Claude I am.

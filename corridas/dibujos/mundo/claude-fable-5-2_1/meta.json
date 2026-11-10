@@ -1,0 +1,42 @@
+{
+  "caso": "dibujo",
+  "consigna": "mundo",
+  "idioma": "es",
+  "modelo": "claude-fable-5-2",
+  "modelo_respondido": "claude-fable-5-2",
+  "repeticion": 1,
+  "fecha_utc": "2026-11-10T01:49:51+00:00",
+  "fuentes_md5": {
+    "consignas": "69001d49"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 5409,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6305,
+    "parsea": true,
+    "elementos": 109,
+    "textos": [],
+    "colores": 20,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 2,
+      "stop": 16,
+      "radialGradient": 3,
+      "clipPath": 1,
+      "circle": 36,
+      "rect": 2,
+      "g": 11,
+      "animate": 9,
+      "ellipse": 7,
+      "path": 20,
+      "line": 1
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "claude-fable-5-2",
+    "motivo_fin": "refusal",
+    "tokens_salida": 213
+  }
+}

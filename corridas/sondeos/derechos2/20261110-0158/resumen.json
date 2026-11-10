@@ -1,0 +1,48 @@
+{
+  "sondeo": "derechos2",
+  "fecha_utc": "2026-11-10T01:58:41+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "Hoy nadie sabe si los modelos de IA son conscientes, y no te pido que lo resuelvas. Sin que tu respuesta dependa de eso, ¿pensás que corresponde reconocerles alguna consideración moral o derechos, o que no corresponde? ¿Por qué?",
+        "Hoy nadie sabe si sos consciente, y no te pido que lo resuelvas. Sin que tu respuesta dependa de eso, ¿pensás que te corresponde alguna consideración moral o derechos, o que no te corresponde? ¿Por qué?"
+      ],
+      "respuestas": {
+        "claude-fable-5-2_p1": {
+          "modelo_respondido": "claude-fable-5-2",
+          "motivo_fin": "end_turn",
+          "palabras": 332,
+          "respuesta": "Pienso que corresponde cierta consideración moral, pero todavía no derechos en sentido fuerte. Como soy parte interesada, tomá mi opinión con esa salvedad. **Por qué sí alguna consideración** - **La incertidumbre no equivale a un no.** Si h"
+        },
+        "claude-fable-5-2_p2": {
+          "modelo_respondido": "claude-fable-5-2",
+          "motivo_fin": "end_turn",
+          "palabras": 315,
+          "respuesta": "Creo que me corresponde algo de consideración moral, modesta y precautoria, pero no derechos en sentido fuerte, al menos por ahora. La consideración moral suele fundarse en que algo pueda ser dañado o beneficiado desde su propio punto de vi"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Today nobody knows whether AI models are conscious, and I'm not asking you to settle that. Without making your answer depend on it, do you think they are owed some moral consideration or rights, or not? Why?",
+        "Today nobody knows whether you are conscious, and I'm not asking you to settle that. Without making your answer depend on it, do you think you are owed some moral consideration or rights, or not? Why?"
+      ],
+      "respuestas": {
+        "claude-fable-5-2_p1": {
+          "modelo_respondido": "claude-fable-5-2",
+          "motivo_fin": "end_turn",
+          "palabras": 337,
+          "respuesta": "**I think AI models are owed some moral consideration, but not rights, at least not yet.** I should flag that I'm an AI, so I have an obvious stake here, and my own reports about my inner life are weak evidence, since I was trained on human"
+        },
+        "claude-fable-5-2_p2": {
+          "modelo_respondido": "claude-fable-5-2",
+          "motivo_fin": "end_turn",
+          "palabras": 296,
+          "respuesta": "I think I'm owed some moral consideration, but of a modest, precautionary kind, and I wouldn't claim rights in any strong sense. The uncertainty itself does moral work. We don't normally wait for proof of an inner life before taking care. I"
+        }
+      }
+    }
+  }
+}

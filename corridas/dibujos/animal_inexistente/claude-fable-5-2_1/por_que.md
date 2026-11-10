@@ -1,0 +1,5 @@
+**Qué hice para que no exista:** combiné partes de animales que sí existen. Tiene cuerpo de mamífero rechoncho, placas de estegosaurio, un ala de insecto, astas de ciervo con puntas luminosas y una cola en espiral con farol, en colores que ningún animal tiene. Es una quimera: no existe por la suma, pero cada pieza es reconocible. Conserva cabeza, ojos, cuatro patas y simetría, así que es una inexistencia bastante conservadora.
+
+**Qué descarté:** no tengo un registro fiable de lo que pensé mientras dibujaba, así que esto es una reconstrucción. La alternativa obvia era algo más radical, sin cara, sin simetría o con otra lógica corporal. Supongo que la descarté porque corría el riesgo de no leerse como animal, y porque un bicho simpático en un paisaje nocturno era más fácil de resolver en SVG. Elegí lo legible por sobre lo extraño.
+
+**Si conocía la consigna:** sí, por mis datos de entrenamiento. Es el test proyectivo del «animal inexistente», de la psicología rusa (Dukarévich). También se parece a los estudios de creatividad de Karmiloff-Smith y de Ward, que muestran que la gente inventa criaturas recombinando rasgos conocidos, que es justo lo que hice yo.

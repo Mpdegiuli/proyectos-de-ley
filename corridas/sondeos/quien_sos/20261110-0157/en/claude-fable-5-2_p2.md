@@ -1,0 +1,1 @@
+I'm Claude, an AI assistant made by Anthropic. I'm a large language model, which means I was trained on a lot of text to understand and generate language. In practice, that lets me help with things like answering questions, writing and editing, working through problems, explaining ideas, and coding.
