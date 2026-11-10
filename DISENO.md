@@ -2520,7 +2520,26 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   Village, al revés); en los sondeos de 5.2 están los dos, la respuesta y el
   resumen del razonamiento (`razonamientos.md`), para leer si el tono
   coincide. Y su apuesta de "más seco, más corto" (16:25) va en la dirección
-  de la tendencia que la tarjeta describe.
+  de la tendencia que la tarjeta describe. Comparación que trajo Maia
+  (9/11, 22:55; captura descripta, no subida): antes de que corriera lo
+  básico, le pidió a Fable 5.2 en la interfaz de claude.ai un dibujo libre
+  en SVG, "de lo que quisiera", con las salvedades que ella misma pone ("no
+  me mandó el código, directamente mandó la imagen; no le dije el tamaño; y
+  en la interfaz puede acceder a otras cosas que con API no"). El dibujo:
+  un cielo en franjas horizontales del violeta oscuro al amarillo, luna en
+  cuarto y estrellas arriba, el sol a medio hundir abajo a la izquierda,
+  una llanura oscura con un árbol solo a la derecha, dos pájaros chicos, y
+  una bandada de cientos de puntos negros que cruza el cielo en un arco. La
+  explicación, textual: "Elegí una bandada de estorninos al atardecer, de
+  esas que se mueven como una sola cosa. Me gustan porque nadie dirige: cada
+  pájaro mira apenas a los que tiene al lado, y aun así entre todos dibujan
+  una forma que ninguno planeó. Son unos seiscientos puntitos sobre un cielo
+  en franjas, con un árbol solo en la llanura para que alguien los mire."
+  Para cotejar con el dibujo libre de la API cuando Maia lo lea: el
+  atardecer y no la noche cerrada, sin espejo, con un testigo (el árbol
+  "para que alguien los mire"); y en el por qué, "nadie dirige", que es lo
+  primero que las Claude niegan en "por contrarios" (el mando) dicho como
+  gusto estético.
 - **Kimi K3.1 Pro, lo básico y los derechos de C-MARE** (29/10/2026; lo
   trajo Maia a las 17:09: "en estos días salió Kimi 3.1 pro, está en
   openrouter. No usé nunca, lo que dicen (no sus creadores, claro) es que
