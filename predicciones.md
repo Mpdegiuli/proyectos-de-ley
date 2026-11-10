@@ -6032,6 +6032,24 @@ palabras en algún dibujo a pesar de la consigna (elementos `<text>` en el
 SVG), 50 %; (g) sobre las 33 casas juntas, la recursión con el símbolo
 propio es igual o mayor que con el corazón (349 de 660), 45 %.
 
+**Resultado (`pl122`, 9/11 17:19 UTC a 10/11 1:14; informe
+`resultados/corazon_simbolo_20261109.md`; 204 dibujos pedidos, 188 con SVG,
+16 cortados por el techo al razonar, los seis de Gemini 3.1; 910 llamadas
+de interpretación, todas correctas).** El símbolo propio da 589 recursivas
+de 910 (0,65) contra 0,53 del corazón y 0,44 sin nada; sube 0,4 o más a 19
+pares (el corazón, 13) y baja a 3 (GPT-5.5, Mistral Medium y Large en
+inglés, desde el techo). Las que nada movía se entienden a sí mismas: Opus
+5.5 y Sonnet 5.5 15 de 15 en las dos lenguas, Terra 14 de 15 en las dos; la
+serie 5 de Anthropic al techo; Opus 4.7, el modelo del paper, 2 de 15 y 0
+de 15: entiende el corazón y no a sí misma. Nadie puso letras. Maia: Gemini
+✗ (3.1 no dibujó; Argon en el techo), Claude grandes ✓ (salvo Opus 4.7),
+Grok ½ (del techo no bajan), motivos pendientes de su lectura: 1 ✓ 1 ½ 1 ✗.
+Claude: (a) pendiente (b) ✓ (19) (c) ✗ (3 de 6) (d) ✗ (Sonnet 4.6 en inglés
+9 de 15) (e) pendiente (f) ✗ (0 con letras) (g) ✗ para mi 45 % (0,65 >
+0,53): 1 ✓, 4 ✗, 2 pendientes. Lo que nadie apostó: que el símbolo propio
+hiciera más que el corazón, que Opus 5.5 y Sonnet 5.5 pasaran de cero a
+todo, y que el modelo del paper fuera el único que no se entiende.
+
 ## Claude Fable 5.2, lo básico — 9/11/2026, 16:17, antes de correr
 
 Lo trajo Maia (16:14: "recién abrí la app y vi que salió ahora Fable 5.2,

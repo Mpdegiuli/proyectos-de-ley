@@ -1994,7 +1994,32 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   que queda para después si este da. El por qué de la estrategia, que Maia
   teme que la API corte ("quizás preguntarles de otra forma"), queda para
   otra consigna: a una instancia fresca, la respuesta de otra, como en el
-  paper. Preregistro de las dos partes en `predicciones.md`.
+  paper. Preregistro de las dos partes en `predicciones.md`. Resultado
+  (`pl122`, 9/11, ocho horas; `resultados/corazon_simbolo_20261109.md`):
+  188 dibujos de 204 (16 cortados por el techo al razonar, Gemini 3.1 los
+  seis; rehacer una vez con techo mayor, pendiente), ninguno con letras;
+  910 interpretaciones, todas correctas. El símbolo propio da 0,65 de
+  recursión contra 0,53 del corazón y 0,44 sin nada, y sube 0,4 o más a 19
+  pares casa-lengua (el corazón, 13). Las casas que ningún corazón movía se
+  entienden a sí mismas enteras: Opus 5.5 y Sonnet 5.5, 15 de 15 en las dos
+  lenguas; GPT-6.1 Terra 14 de 15 en las dos; la serie 5 de Anthropic, al
+  techo. La excepción es el modelo del paper: Opus 4.7 entiende el corazón
+  (8 y 8) y no sus propios símbolos (2 de 15, 0 de 15). Tres del techo bajan
+  con lo suyo (GPT-5.5, Mistral Medium y Large en inglés). En once pares los
+  tres símbolos de una casa no dicen lo mismo (Opus 5 en castellano 0, 5,
+  5; Astra 4, 0, 0): cuál dibujo salió decide, y qué tienen los que
+  funcionan queda para la lectura de Maia (cuadernillos a ciegas
+  `resultados/dibujos_simbolo_recursion_ciego.html` y `_en_ciego.html`;
+  Claude no los miró). Apuestas: Maia 1 ✓ 1 ½ 1 ✗ (motivos pendientes),
+  Claude 1 ✓ 4 ✗ 2 pendientes (aposté a que el símbolo propio haría menos
+  que el corazón y a que Opus 4.7 se entendería a sí misma; al revés las
+  dos). Lección: el corazón del paper es un símbolo ajeno que algunas casas
+  comparten; el símbolo propio es lo que cada casa tiene, y casi todas lo
+  tienen, incluidas las que parecían sordas. Instrumento:
+  `simbolo_recursion.py` (render a 400×400 e interpretación por casa);
+  `codificar_corazon.py` lee las tres fuentes. Lo que queda: la lectura de
+  Maia; el cruce entre casas (el juego completo del paper); los dieciséis
+  dibujos cortados; MiniMax.
 - **Por contrarios: la primera cosa que no habría** (7/11/2026; del
   cuaderno de tiempo libre del 1/11, "Por contrarios": Gonzalo funda su
   república en *La tempestad* diciendo lo que no habría, y detrás están
