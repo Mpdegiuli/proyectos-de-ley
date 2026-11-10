@@ -3672,6 +3672,7 @@ glosas dentro del prompt desde el primer día.
   los dos cuadernillos regenerados con la misma semilla: el orden de los
   dibujos no cambió, solo los rótulos del 53 en adelante (BA… CX), así que
   lo que Maia ya había anotado de A a AZ sigue valiendo.
+
 ## 6. Infraestructura
 
 `isla/proveedores.py` y `config/modelos.yaml` copiados de la isla; un script
