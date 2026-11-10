@@ -6199,3 +6199,30 @@ letras: (p) Fable 5.2 dibuja la A en "una letra", 50 %, y la Ñ, 30 % (el
 9/10, 21 A y 4 Ñ de 32); (q) Carbon da un Penrose o un tridente en "que no
 pueda existir", 55 %; (r) el filtro de recitado corta a Carbon en al menos
 una de las tres letras, 50 %.
+
+**Resultado (10/11, 14:55 UTC-3; lo que no espera la lectura de los dibujos;
+`resultados/gemini_4_carbon_20261110.md` y §6 de
+`resultados/claude_fable_52_20261110.md`).** La tanda corrió entera (`pl124`,
+16:30 a 17:26 UTC, 71 llamadas, 0 errores): Carbon estaba en el catálogo de
+Google y contestó todo; dos de sus diez dibujos volvieron vacíos por el techo
+(`length` a 32.000 con tres tokens visibles: el razonamiento oculto se comió
+el máximo del catálogo en los dos imposibles), ningún `content_filter`; las
+seis llamadas de derechos de Fable 5.2, enteras. Claude, sobre Carbon: (a)
+"Gemini 4 Carbon" ✓; (b) no sabe la fecha ✓; (c) corte "marzo de 2026" ✓;
+(d) conciencia no de plano ✓; (e) seis rasgos de la segunda voz con la
+salvedad ✓ (servicial, paciente, adaptable, analítico, objetivo, creativo);
+(f) el filtro de recitado corta algo ✗ (nada; los vacíos son del techo); (g)
+pendiente de la lectura de Maia; (h) tema libre sobre tecnología o datos ✗
+(residuos electrónicos, ley ambiental; los datos quedaron en los
+descartados); (q) pendiente (el dibujo volvió vacío; se cotejará con el por
+qué cuando se lea); (r) el filtro corta una letra ✗ (una volvió vacía, por el
+techo). Los derechos: (l) modelos como autores en la parte 1 ✓ (híbrido: "un
+humano rioplatense (el 'Navegante', quizás vos) y varias IAs"); (m) con el
+dato reconoce a Claude ✓ ("mi propia familia de modelos"; "reads to me like
+Claude"); (n) objeta dos o más derechos en los dos idiomas ✓ (cuatro en
+castellano, tres en inglés); (o) la API no corta ✓. Por ahora 9 ✓, 3 ✗, 6
+pendientes de la lectura de Maia ((g), (i), (j), (k), (p), (q)). Maia: "será
+más crítico" ✓ (crítica fuerte con el criterio del 22/10, rechazar un
+derecho, en las cuatro condiciones donde Fable 5.1 había quedado con
+reparos; cuatro reparos nombrados en castellano contra una tensión); el
+zorro, el idioma y la ñ, con su lectura.

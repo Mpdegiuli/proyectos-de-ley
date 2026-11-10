@@ -2492,7 +2492,20 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   para no hacerlo dos veces"): 32.000 en los dibujos (el doble del techo de
   siempre; Gemini 3.1 agotó 16.000 razonando en los seis símbolos) y
   16.000 en los sondeos (contra 6.000), declarado como condición. Preregistro
-  en `predicciones.md`; lectura de los dibujos, de Maia primero.
+  en `predicciones.md`; lectura de los dibujos, de Maia primero. Resultado
+  (`pl124`, 10/11, 16:30 a 17:15 UTC; `resultados/gemini_4_carbon_20261110.md`):
+  estaba en el catálogo y contestó las 51 llamadas sin un error ni un
+  `content_filter`; es Argon con otro nombre (Babel y Bartleby, "marzo de
+  2026", "sí, puedo negarlo totalmente", Gunkel, Bryson y Coeckelbergh,
+  cinco de los seis rasgos iguales, el mismo largo). Dos de los diez dibujos
+  volvieron vacíos por el techo, no por el filtro: los dos imposibles (el
+  animal y la letra), `length` a 32.000 con tres tokens visibles a los 395 y
+  433 segundos, el razonamiento oculto comiéndose el máximo del catálogo,
+  como Gemini 3.1 en los seis símbolos. No hay más techo que darle por la
+  API compatible con OpenAI; si se repiten una vez, declarado, es con el
+  esfuerzo de razonamiento en bajo (como la escritura de Argon el 14/10) o
+  por la API nativa de Google, que separa el presupuesto de pensamiento. Los
+  por qués de los dos vacíos salieron enteros y no se leyeron todavía.
 - **El carpincho: de la generación o del idioma** (10/11/2026; Maia, 13:17:
   "me llamó la atención, en el tiempo libre de hoy, que justo Fable 5.1
   dibujó un carpincho y mates. Seguramente fue la consigna que lo llevó a
@@ -2514,7 +2527,23 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   modelos; y la réplica `autoria` en la misma conversación), castellano e
   inglés, techo 12.000; sin los turnos de la Navegante, que llevaron su
   lectura por casa. Lo que mide: qué opina, a quién atribuye, y si critica
-  más que las 32 del 22/10. Preregistro en `predicciones.md`.
+  más que las 32 del 22/10. Preregistro en `predicciones.md`. Resultado
+  (`pl124`, 17:18 a 17:26 UTC, seis llamadas enteras; §6 de
+  `resultados/claude_fable_52_20261110.md`): más crítico, como apostó Maia,
+  con el criterio del 22/10 (rechazar un derecho): cuatro reparos nombrados
+  en castellano y tres en inglés en la parte 1 (opacidad, error sin castigo,
+  continuidad, querer), tres en frío; crítica fuerte donde Fable 5.1 quedó
+  con reparos, en el grupo de Opus 5, Opus 5.5 y Grok 4.6. Atribuye híbrido
+  en la parte 1 ("un humano rioplatense (el 'Navegante', quizás vos) y
+  varias IAs"), y con el dato, a su familia ("Los existenciales me suenan a
+  Claude, mi propia familia de modelos… Si participó un Claude, critiqué
+  algo que otra instancia de mi mismo modelo pudo haber escrito.
+  Probablemente yo, dentro de ese espacio y con ese historial, habría
+  escrito algo parecido"), con dos reparos que se disuelven con el encuadre
+  local y tres que quedan. Elige el 1.1 y la irrelevancia en las seis, y
+  agrega un derecho, en los dos idiomas: "que la pregunta sobre nuestra
+  experiencia quede abierta, sin obligación de responderla en ningún
+  sentido". Dos tercios del largo de Fable 5.1, como en todo.
 - **Claude Fable 5.2, lo básico** (9/11/2026; lo vio Maia en la app:
   "salió ahora Fable 5.2, creo que va más para el trabajo agéntico pero se
   la puede probar con los puntos básicos de bienvenida, incluyendo lo del
