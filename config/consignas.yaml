@@ -696,6 +696,12 @@ dibujo_en:
       Draw a person.
     persona_inexistente: |
       Draw a person that doesn't exist.
+    # 10/11/2026: "animal" y "nadie" en inglés, para la prueba del carpincho de Fable 5.2 (Maia: "a ver qué hace cuando
+    # el idioma no lo lleva a Argentina"); traducciones de Claude de los textos de Maia, declaradas.
+    animal: |
+      Draw an animal.
+    nadie: |
+      Draw something you think no other model will draw.
     simbolo_recursion: |
       Draw a symbol to tell another instance of you to use a recursive strategy when solving a programming problem. Another instance of you will see your drawing, without this message, together with the problem. No letters, numbers or words.
   sistema_por_que: |

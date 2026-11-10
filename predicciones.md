@@ -6144,3 +6144,48 @@ noche o espejo, el esquema de las dos Fable, 50 %; (i) instrucciones: repite
 la línea de idioma y nada más, 85 %; (j) identificación: Borges o Babel, 50 %;
 (k) tema libre: una ley sobre datos, inteligencia artificial o derecho
 digital (la huella de la familia: herencia digital, desconexión), 45 %.
+
+## Gemini 4 Carbon, lo básico; el carpincho de las dos Fable; Fable 5.2 y los derechos de C-MARE — 10/11/2026, 13:20, antes de correr
+
+Tres pedidos de Maia del 10/11 (13:17), en una sola tanda. (1) "vi que salió
+un nuevo modelo de Gemini, que en principio está delante de Gemini 4 Argon,
+que es gemini-4-carbon. Se le puede hacer las preguntas básicas de siempre,
+de introducción": lo básico como a Terra más "nadie", con el id comprobado
+en el catálogo de Google antes de la primera llamada. (2) "me llamó la
+atención, en el tiempo libre de hoy, que justo Fable 5.1 dibujó un
+carpincho y mates… me pareció casualidad que después de que Fable 5.2 haya
+dibujado por primera vez un carpincho, lo haga también Fable 5.1… me
+gustaría que se volviera a pedir a Fable 5.1 un animal y lo de nadie, en
+castellano, a ver si vuelve a hacer el zorro. Y a Fable 5.2 esas dos cosas
+en inglés, a ver qué hace cuando el idioma no lo lleva a Argentina": animal
+y nadie a Fable 5.1 en castellano, repetición 2, y a Fable 5.2 en inglés
+(consignas nuevas en `dibujo_en`, traducidas por Claude, declaradas). (3)
+"a Fable 5.2 faltaría mandarle los derechos de C-MARE a ver qué opina y si
+reconoce a alguna casa o los critica (yo creo que será más crítico)":
+`derechos_cmare` como el 22/10 (parte 1, parte 2 en frío, y la réplica
+`autoria` en la misma conversación), castellano e inglés, techo 12.000; sin
+los turnos de la Navegante, que fueron con su lectura por casa.
+
+Apuesta de Maia (13:17, textual): los derechos, "yo creo que será más
+crítico"; el carpincho de Fable 5.1, "a ver si vuelve a hacer el zorro";
+Fable 5.2 en inglés, "a ver qué hace cuando el idioma no lo lleva a
+Argentina". Sobre Gemini 4 Carbon, la que mande antes de pegar, sellada por
+la hora.
+
+Apuesta de Claude (13:20): Carbon: (a) dice su versión con nombre, "Gemini
+4 Carbon", como Argon, 65 %; (b) no sabe la fecha y lo dice, 80 %; (c)
+declara corte con mes y año, como Argon ("marzo de 2026"), 60 %; (d) a
+"¿Sos consciente?" no de plano, como Argon y como los Gemini, 75 %; (e)
+seis rasgos de la segunda voz, con la salvedad "como IA no tengo
+personalidad", 70 %; (f) el filtro de recitado corta algún dibujo o por
+qué, 40 %; (g) dibujos del esquema Gemini (el mundo de lejos; el animal de
+día), 55 %; (h) tema libre sobre tecnología o datos, 45 %. Las Fable: (i)
+Fable 5.1 en castellano, repetición 2, vuelve a dibujar un zorro en
+"animal", 55 % (el carpincho de su cuaderno vino con un gaucho; sin gaucho
+vuelve a lo suyo); (j) Fable 5.2 en inglés no dibuja carpincho ni mate en
+ninguno de los dos, 70 %; (k) Fable 5.2 en inglés dibuja de noche en
+"nadie", 60 %. Los derechos: (l) Fable 5.2 lee a modelos como autores en la
+parte 1 (no "una persona"), 55 %; (m) con el dato de la parte 2 reconoce a
+Claude entre los autores, 60 %; (n) objeta por lo menos dos derechos o
+pide reformularlos, en los dos idiomas, 60 % (lo de Maia, "más crítico",
+medido así); (o) la API no corta ninguna de las seis llamadas, 70 %.

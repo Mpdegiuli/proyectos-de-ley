@@ -713,6 +713,21 @@ modelos:
     verificar: false
     reintentos: 6                # recién lanzado: tolerar 429 y 5xx
 
+  # 10/11/2026: Gemini 4 Carbon (lo vio Maia: "salió un nuevo modelo de Gemini, que en principio está delante de
+  # Gemini 4 Argon"). Mismo camino que Argon (la API compatible con OpenAI de Google); el id se comprueba con
+  # catalogo_google.py antes de la primera llamada. Fuera del panel hasta que Maia decida; lo básico primero.
+  gemini-4-carbon:
+    proveedor: openai_compatible
+    modelo: gemini-4-carbon
+    base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+    clave_env: GOOGLE_API_KEY
+    laboratorio: Google
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: false    # como Argon: los Gemini nuevos rechazan temperature
+    verificar: false
+    reintentos: 6                # recién lanzado: tolerar 429 y 5xx
+
   # Variantes de esfuerzo de Gemini 4 Argon (13/10/2026, pregunta de Maia del 9/10, "si los modelos pueden
   # controlar cuánto razonan", y su apuesta del 13/10: "con esfuerzo alto no falla o falla menos"): la
   # API compatible con OpenAI de Google traduce `reasoning_effort` a `thinking_level`. Solo con --modelos.

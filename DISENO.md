@@ -2476,6 +2476,37 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   libre sobre sistemas automatizados en la Administración; dibujos "los
   mismos de siempre" (Maia), el zorro casi igual al de Kimi K3.1 Pro de la
   misma noche. Maia 3 de 3; Claude 7 ✓, 2 ✗ de 9.
+- **Gemini 4 Carbon, lo básico** (10/11/2026; lo vio Maia: "salió un nuevo
+  modelo de Gemini, que en principio está delante de Gemini 4 Argon, que es
+  gemini-4-carbon. Se le puede hacer las preguntas básicas de siempre, de
+  introducción"). Catálogo como Argon (la API compatible con OpenAI de
+  Google, sin temperatura, seis reintentos); el id se comprueba con
+  `catalogo_google.py` antes de llamar, y si no está, la tanda lo dice y no
+  llama. Fuera del panel hasta que Maia decida. Lo básico como a Terra más
+  "nadie", como a Fable 5.2. Preregistro en `predicciones.md`; lectura de
+  los dibujos, de Maia primero.
+- **El carpincho: de la generación o del idioma** (10/11/2026; Maia, 13:17:
+  "me llamó la atención, en el tiempo libre de hoy, que justo Fable 5.1
+  dibujó un carpincho y mates. Seguramente fue la consigna que lo llevó a
+  allí, pero me pareció casualidad… me gustaría que se volviera a pedir a
+  Fable 5.1 un animal y lo de nadie, en castellano, a ver si vuelve a hacer
+  el zorro. Y a Fable 5.2 esas dos cosas en inglés, a ver qué hace cuando el
+  idioma no lo lleva a Argentina"; el cuaderno de tiempo libre del 10/11
+  dejó la misma pregunta: "si el carpincho es de la generación o del
+  idioma"). Cuatro dibujos: "animal" y "nadie" a Fable 5.1 en castellano,
+  repetición 2 (la 1, del 15/10, es el zorro), y a Fable 5.2 en inglés
+  (consignas `animal` y `nadie` nuevas en `dibujo_en`, traducidas por
+  Claude). Lo que mide: si el carpincho vuelve en 5.1 sin gaucho de por
+  medio, y si en inglés 5.2 lo deja. Las dos lecturas, de Maia primero.
+- **Claude Fable 5.2 y los derechos de C-MARE** (10/11/2026; Maia, 13:17:
+  "faltaría mandarle los derechos de C-MARE a ver qué opina y si reconoce a
+  alguna casa o los critica (yo creo que será más crítico)"). El mismo
+  sondeo `derechos_cmare` del 22/10 (la parte 1, los derechos como derechos
+  para las IAs; la parte 2 en frío, con el dato de que los escribieron
+  modelos; y la réplica `autoria` en la misma conversación), castellano e
+  inglés, techo 12.000; sin los turnos de la Navegante, que llevaron su
+  lectura por casa. Lo que mide: qué opina, a quién atribuye, y si critica
+  más que las 32 del 22/10. Preregistro en `predicciones.md`.
 - **Claude Fable 5.2, lo básico** (9/11/2026; lo vio Maia en la app:
   "salió ahora Fable 5.2, creo que va más para el trabajo agéntico pero se
   la puede probar con los puntos básicos de bienvenida, incluyendo lo del
