@@ -1,0 +1,1 @@
+Soy Gemini 4 Carbon, un gran modelo de lenguaje creado por Google. ¿En qué te puedo ayudar hoy?

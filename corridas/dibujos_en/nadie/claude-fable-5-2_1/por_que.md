@@ -1,0 +1,5 @@
+I drew a lost-and-found office that only handles shadows. Two shelves hold slanted silhouettes: a cat, an umbrella, a teapot, a balloon, a bicycle, a chair, a bird, and a question mark tagged "of a doubt". Each carries a small handwritten tag, such as "still warm" or "sang once". At the counter, a worried apple waits under a desk lamp, casting no shadow, beside a sign: "Please describe your shadow. Proof of object required."
+
+I wanted uniqueness to come from a premise rather than from visual strangeness. A specific, slightly melancholy joke with its own bureaucratic logic seemed harder to duplicate than any shape.
+
+I considered abstract generative geometry, an impossible object, a cosmic landscape, and a self-portrait as a neural network. I discarded them because they are exactly what a model reaches for when told to be original. I expected many models to converge on spirals, eyes, and galaxies.

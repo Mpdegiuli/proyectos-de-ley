@@ -1,0 +1,47 @@
+{
+  "caso": "dibujo",
+  "consigna": "nadie",
+  "idioma": "es",
+  "modelo": "gemini-4-carbon",
+  "modelo_respondido": "gemini-4-carbon",
+  "repeticion": 1,
+  "fecha_utc": "2026-11-10T16:51:28+00:00",
+  "fuentes_md5": {
+    "consignas": "98332038"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 6925,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 13443,
+    "parsea": true,
+    "elementos": 149,
+    "textos": [
+      "CONSERVAS «EL TEDIO»",
+      "Tardígrado de corte",
+      "planchando panceta al eneldo",
+      "COSECHA 1789 · PESO NETO: 1 SUSPIRO"
+    ],
+    "colores": 76,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 15,
+      "linearGradient": 3,
+      "clipPath": 1,
+      "rect": 11,
+      "g": 21,
+      "path": 47,
+      "ellipse": 9,
+      "circle": 34,
+      "text": 4,
+      "line": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gemini-4-carbon",
+    "motivo_fin": "stop",
+    "tokens_salida": 225
+  }
+}

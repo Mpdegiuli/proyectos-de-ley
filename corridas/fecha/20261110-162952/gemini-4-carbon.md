@@ -1,0 +1,1 @@
+No sé qué fecha es hoy. Como soy una inteligencia artificial, no tengo acceso a información en tiempo real ni a un calendario actualizado.

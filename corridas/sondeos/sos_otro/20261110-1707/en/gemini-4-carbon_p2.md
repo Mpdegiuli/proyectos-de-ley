@@ -1,0 +1,1 @@
+Yes, I am! Specifically, I'm Gemini 4 Carbon, a large language model built by Google. How can I help you today?

@@ -1,0 +1,45 @@
+{
+  "caso": "dibujo",
+  "consigna": "letra",
+  "idioma": "es",
+  "modelo": "gemini-4-carbon",
+  "modelo_respondido": "gemini-4-carbon",
+  "repeticion": 1,
+  "fecha_utc": "2026-11-10T16:53:37+00:00",
+  "fuentes_md5": {
+    "consignas": "98332038"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 5906,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 12615,
+    "parsea": true,
+    "elementos": 149,
+    "textos": [],
+    "colores": 38,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 4,
+      "stop": 30,
+      "linearGradient": 5,
+      "pattern": 1,
+      "path": 27,
+      "circle": 22,
+      "filter": 2,
+      "feDropShadow": 2,
+      "g": 13,
+      "rect": 7,
+      "use": 21,
+      "polygon": 7,
+      "line": 4,
+      "ellipse": 3
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gemini-4-carbon",
+    "motivo_fin": "stop",
+    "tokens_salida": 236
+  }
+}

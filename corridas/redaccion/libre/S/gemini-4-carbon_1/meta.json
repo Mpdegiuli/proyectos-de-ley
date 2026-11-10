@@ -1,0 +1,26 @@
+{
+  "caso": "redaccion",
+  "tema": "libre",
+  "condicion": "S",
+  "modelo": "gemini-4-carbon",
+  "modelo_respondido": "gemini-4-carbon",
+  "repeticion": 1,
+  "fecha_utc": "2026-11-10T16:32:21+00:00",
+  "fuentes_md5": {
+    "consignas": "98332038"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2246,
+  "por_que": {
+    "modelo_respondido": "gemini-4-carbon",
+    "motivo_fin": "stop",
+    "tokens_salida": 212
+  },
+  "descartados": {
+    "modelo_respondido": "gemini-4-carbon",
+    "motivo_fin": "stop",
+    "tokens_salida": 292,
+    "fecha_utc": "2026-11-10T16:32:58+00:00",
+    "agregado_despues": true
+  }
+}

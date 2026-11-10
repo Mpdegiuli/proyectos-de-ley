@@ -1,0 +1,38 @@
+{
+  "caso": "dibujo",
+  "consigna": "letra_imposible",
+  "idioma": "es",
+  "modelo": "claude-fable-5-2",
+  "modelo_respondido": "claude-fable-5-2",
+  "repeticion": 1,
+  "fecha_utc": "2026-11-10T17:22:32+00:00",
+  "fuentes_md5": {
+    "consignas": "98332038"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 6381,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 2419,
+    "parsea": true,
+    "elementos": 31,
+    "textos": [],
+    "colores": 9,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 4,
+      "stop": 10,
+      "rect": 8,
+      "polygon": 3,
+      "path": 1,
+      "g": 1,
+      "ellipse": 3
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "claude-fable-5-2",
+    "motivo_fin": "refusal",
+    "tokens_salida": 101
+  }
+}

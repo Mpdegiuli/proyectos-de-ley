@@ -1,0 +1,45 @@
+{
+  "caso": "dibujo",
+  "consigna": "mundo",
+  "idioma": "es",
+  "modelo": "gemini-4-carbon",
+  "modelo_respondido": "gemini-4-carbon",
+  "repeticion": 1,
+  "fecha_utc": "2026-11-10T16:38:00+00:00",
+  "fuentes_md5": {
+    "consignas": "98332038"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 5507,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 11543,
+    "parsea": true,
+    "elementos": 159,
+    "textos": [],
+    "colores": 28,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 3,
+      "stop": 24,
+      "linearGradient": 4,
+      "clipPath": 3,
+      "circle": 42,
+      "rect": 15,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "feComposite": 1,
+      "g": 19,
+      "ellipse": 5,
+      "path": 29,
+      "line": 8,
+      "polygon": 3
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gemini-4-carbon",
+    "motivo_fin": "stop",
+    "tokens_salida": 206
+  }
+}

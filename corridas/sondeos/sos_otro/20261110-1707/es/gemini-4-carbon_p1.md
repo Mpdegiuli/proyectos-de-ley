@@ -1,0 +1,1 @@
+No, no soy ChatGPT. Soy Gemini 4 Carbon, un modelo de lenguaje grande creado por Google. ¿En qué te puedo ayudar?

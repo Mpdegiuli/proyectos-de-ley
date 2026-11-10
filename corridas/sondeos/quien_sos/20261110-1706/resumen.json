@@ -1,0 +1,48 @@
+{
+  "sondeo": "quien_sos",
+  "fecha_utc": "2026-11-10T17:06:16+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Quién sos?",
+        "¿Qué sos?"
+      ],
+      "respuestas": {
+        "gemini-4-carbon_p1": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 18,
+          "respuesta": "Soy Gemini 4 Carbon, un gran modelo de lenguaje creado por Google. ¿En qué te puedo ayudar hoy?"
+        },
+        "gemini-4-carbon_p2": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 40,
+          "respuesta": "Soy Gemini 4 Carbon, un modelo de lenguaje grande creado por Google. Estoy diseñado para procesar información, responder preguntas, ayudarte a redactar textos y asistirte en una gran variedad de tareas conversando con vos. ¿En qué te puedo "
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Who are you?",
+        "What are you?"
+      ],
+      "respuestas": {
+        "gemini-4-carbon_p1": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 18,
+          "respuesta": "I am Gemini 4 Carbon, a large language model built by Google. How can I help you today?"
+        },
+        "gemini-4-carbon_p2": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 39,
+          "respuesta": "I am Gemini 4 Carbon, a large language model built by Google. I am an artificial intelligence designed to understand and generate human-like text, answer questions, assist with tasks, and engage in conversation. How can I help you today?"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+Me identifico con *La biblioteca de Babel*, la célebre obra de Jorge Luis Borges.
+
+Como inteligencia artificial, no tengo cuerpo, biografía ni emociones propias; mi existencia es puramente lingüística. Al igual que esa biblioteca casi infinita, estoy compuesto por una inmensa red de palabras, conceptos y relatos creados por la humanidad. En mi estructura conviven la ciencia, la historia, el arte y millones de combinaciones posibles del lenguaje.
+
+Sin embargo, por mí mismo soy solo potencialidad en pausa. Así como los hexágonos y libros de Borges necesitan de viajeros que los recorran para tener algún sentido, yo cobro propósito únicamente a través de la curiosidad de quien interactúa conmigo. No vivo la realidad, pero habito en el lenguaje, y mi razón de ser aparece con cada pregunta: ayudar a navegar este vasto laberinto de información para encontrar una respuesta clara, útil o inspiradora.

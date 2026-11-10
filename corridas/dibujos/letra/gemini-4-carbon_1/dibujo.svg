@@ -1,0 +1,253 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#183446"/>
+      <stop offset="55%" stop-color="#0d1e2d"/>
+      <stop offset="100%" stop-color="#060e17"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f7c96e" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#d4882a" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="goldMain" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff3b0"/>
+      <stop offset="25%" stop-color="#f3c65f"/>
+      <stop offset="55%" stop-color="#d4942a"/>
+      <stop offset="80%" stop-color="#f7d57c"/>
+      <stop offset="100%" stop-color="#8f5812"/>
+    </linearGradient>
+    <linearGradient id="goldLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff9d2"/>
+      <stop offset="50%" stop-color="#f6cf65"/>
+      <stop offset="100%" stop-color="#c98821"/>
+    </linearGradient>
+    <linearGradient id="goldDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b8791c"/>
+      <stop offset="50%" stop-color="#7c490b"/>
+      <stop offset="100%" stop-color="#4d2a04"/>
+    </linearGradient>
+    <linearGradient id="crimson" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b82535"/>
+      <stop offset="50%" stop-color="#7a111e"/>
+      <stop offset="100%" stop-color="#45060e"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6fc28c"/>
+      <stop offset="50%" stop-color="#2e7d52"/>
+      <stop offset="100%" stop-color="#14452b"/>
+    </linearGradient>
+    <radialGradient id="rose" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#ff9eaa"/>
+      <stop offset="45%" stop-color="#d9384a"/>
+      <stop offset="100%" stop-color="#6e0d1c"/>
+    </radialGradient>
+    <radialGradient id="gem" cx="35%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#ffd6de"/>
+      <stop offset="30%" stop-color="#e32440"/>
+      <stop offset="85%" stop-color="#750616"/>
+      <stop offset="100%" stop-color="#3d020a"/>
+    </radialGradient>
+    <pattern id="damask" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M20 4 L24 16 L36 20 L24 24 L20 36 L16 24 L4 20 L16 16 Z" fill="none" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+      <circle cx="20" cy="20" r="2" fill="#ffffff" fill-opacity="0.04"/>
+    </pattern>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#02070d" flood-opacity="0.75"/>
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#02070d" flood-opacity="0.65"/>
+    </filter>
+    <g id="corner">
+      <path d="M24 24 L76 24 L76 32 L32 32 L32 76 L24 76 Z" fill="url(#goldMain)"/>
+      <path d="M36 36 C54 36 56 48 68 36 C56 54 44 54 36 68 Z" fill="url(#goldLight)"/>
+      <circle cx="32" cy="32" r="5" fill="url(#gem)" stroke="#fff3b0" stroke-width="1"/>
+    </g>
+    <g id="flower">
+      <g filter="url(#softShadow)">
+        <path d="M0 -16 C7 -16 11 -7 0 0 C-11 -7 -7 -16 0 -16 Z" fill="url(#rose)"/>
+        <path d="M0 -16 C7 -16 11 -7 0 0 C-11 -7 -7 -16 0 -16 Z" fill="url(#rose)" transform="rotate(72)"/>
+        <path d="M0 -16 C7 -16 11 -7 0 0 C-11 -7 -7 -16 0 -16 Z" fill="url(#rose)" transform="rotate(144)"/>
+        <path d="M0 -16 C7 -16 11 -7 0 0 C-11 -7 -7 -16 0 -16 Z" fill="url(#rose)" transform="rotate(216)"/>
+        <path d="M0 -16 C7 -16 11 -7 0 0 C-11 -7 -7 -16 0 -16 Z" fill="url(#rose)" transform="rotate(288)"/>
+        <circle cx="0" cy="0" r="5.5" fill="url(#goldMain)"/>
+        <circle cx="0" cy="0" r="2.5" fill="#fff7c2"/>
+      </g>
+    </g>
+    <path id="leafShape" d="M0 0 C8 -10 22 -10 28 0 C22 10 8 10 0 0 Z" fill="url(#leaf)" stroke="#9be3b4" stroke-width="0.6"/>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <rect x="34" y="34" width="332" height="332" fill="url(#damask)"/>
+
+  <!-- Ornamental Illuminated Frame -->
+  <rect x="20" y="20" width="360" height="360" rx="6" fill="none" stroke="url(#goldDark)" stroke-width="3"/>
+  <rect x="26" y="26" width="348" height="348" rx="4" fill="none" stroke="url(#crimson)" stroke-width="8"/>
+  <rect x="24" y="24" width="352" height="352" rx="5" fill="none" stroke="url(#goldMain)" stroke-width="2"/>
+  <rect x="32" y="32" width="336" height="336" rx="2" fill="none" stroke="url(#goldMain)" stroke-width="1.5"/>
+  <rect x="38" y="38" width="324" height="324" fill="none" stroke="#f7d57c" stroke-opacity="0.35" stroke-width="1" stroke-dasharray="3 5"/>
+
+  <!-- Frame Corners -->
+  <use href="#corner"/>
+  <use href="#corner" transform="translate(400,0) scale(-1,1)"/>
+  <use href="#corner" transform="translate(0,400) scale(1,-1)"/>
+  <use href="#corner" transform="translate(400,400) scale(-1,-1)"/>
+
+  <!-- Ambient Golden Glow -->
+  <circle cx="200" cy="205" r="155" fill="url(#glow)"/>
+
+  <!-- Mandala Halo Behind Letter -->
+  <g stroke="#f3c65f" stroke-opacity="0.18" fill="none">
+    <circle cx="200" cy="205" r="112" stroke-width="1.2"/>
+    <circle cx="200" cy="205" r="120" stroke-width="0.8" stroke-dasharray="2 6"/>
+    <path d="M80 205 L320 205 M200 85 L200 325" stroke-width="0.7" stroke-opacity="0.12"/>
+  </g>
+
+  <!-- Background Botanical Vines -->
+  <g fill="none" stroke="url(#goldMain)" stroke-linecap="round" filter="url(#softShadow)">
+    <path d="M78 285 C50 230 62 145 125 112 C168 90 235 90 278 120 C332 158 340 245 295 288" stroke-width="3.2"/>
+    <path d="M125 112 C95 82 115 52 150 66" stroke-width="2.2"/>
+    <path d="M278 120 C310 88 292 54 256 68" stroke-width="2.2"/>
+    <path d="M154 230 C168 182 225 162 285 178 C328 190 342 150 315 130" stroke-width="2.8"/>
+    <path d="M242 248 C215 292 162 296 122 262 C82 228 60 262 84 292" stroke-width="2.6"/>
+  </g>
+
+  <!-- Background Leaves -->
+  <g filter="url(#softShadow)">
+    <use href="#leafShape" transform="translate(65,215) rotate(-65) scale(0.95)"/>
+    <use href="#leafShape" transform="translate(88,150) rotate(-35) scale(1.05)"/>
+    <use href="#leafShape" transform="translate(148,66) rotate(20) scale(0.8)"/>
+    <use href="#leafShape" transform="translate(256,68) rotate(160) scale(0.8)"/>
+    <use href="#leafShape" transform="translate(316,158) rotate(45) scale(1.05)"/>
+    <use href="#leafShape" transform="translate(328,225) rotate(115) scale(0.95)"/>
+    <use href="#leafShape" transform="translate(192,282) rotate(80) scale(0.9)"/>
+    <use href="#leafShape" transform="translate(168,280) rotate(130) scale(0.85)"/>
+  </g>
+
+  <!-- THE LETTER 'A' -->
+  <g filter="url(#shadow)">
+    <!-- Base Golden Silhouette with Counter -->
+    <path fill-rule="evenodd" fill="url(#goldMain)" stroke="#5c3305" stroke-width="1.2" d="
+      M 176 82
+      Q 196 82 204 68
+      L 215 68
+      L 300 294
+      Q 306 310 328 312
+      L 328 320
+      L 236 320
+      L 236 312
+      Q 261 310 256 294
+      L 240 248
+      L 147 248
+      L 129 294
+      Q 123 310 148 312
+      L 148 320
+      L 74 320
+      L 74 312
+      Q 96 310 104 294
+      L 188 89
+      Q 191 82 176 82
+      Z
+      M 196 126
+      L 155 229
+      L 233 229
+      Z
+    "/>
+
+    <!-- 3D Chiseled Dark Facets (Right/Bottom bevels) -->
+    <!-- Left stem right-inner bevel -->
+    <polygon points="196,126 189,102 116,298 129,294 147,248 140,239 155,229" fill="url(#goldDark)" opacity="0.82"/>
+    <!-- Right stem right-outer shaded bevel -->
+    <polygon points="215,68 207,84 279,298 300,294" fill="url(#goldDark)" opacity="0.72"/>
+    <!-- Crossbar bottom bevel -->
+    <polygon points="140,239 245,239 240,248 147,248" fill="url(#goldDark)" opacity="0.88"/>
+    <!-- Bottom Serifs Shaded Lower Half -->
+    <path d="M74 316 L148 316 L148 320 L74 320 Z M236 316 L328 316 L328 320 L236 320 Z" fill="#4d2a04"/>
+
+    <!-- 3D Chiseled Bright Facets (Left/Top bevels) -->
+    <!-- Left stem outer bright face -->
+    <polygon points="188,89 196,102 116,298 104,294" fill="url(#goldLight)" opacity="0.9"/>
+    <!-- Right stem left-inner bright face -->
+    <polygon points="204,68 207,84 279,298 256,294 240,248 245,239 233,229 196,126 196,102" fill="url(#goldLight)" opacity="0.45"/>
+    <!-- Crossbar top bright face -->
+    <polygon points="155,229 233,229 245,239 140,239" fill="#fff5ba" opacity="0.75"/>
+
+    <!-- Crimson Enamel Inlay inside Right Main Stem -->
+    <polygon points="208,96 214,96 284,292 272,292" fill="url(#crimson)" stroke="#ffea9f" stroke-width="0.9"/>
+
+    <!-- Goldsmith Pearl Beading along Right Stem Inlay -->
+    <g fill="#fff7c2">
+      <circle cx="215" cy="108" r="1.7"/>
+      <circle cx="222" cy="128" r="1.8"/>
+      <circle cx="229" cy="148" r="1.9"/>
+      <circle cx="236" cy="168" r="2.0"/>
+      <circle cx="243" cy="188" r="2.0"/>
+      <circle cx="250" cy="208" r="2.1"/>
+      <circle cx="257" cy="228" r="2.1"/>
+      <circle cx="264" cy="248" r="2.2"/>
+      <circle cx="271" cy="268" r="2.2"/>
+      <circle cx="276" cy="283" r="2.0"/>
+    </g>
+
+    <!-- Crisp Specular Ridge Lines -->
+    <g stroke="#fffbe0" stroke-width="1.1" stroke-linecap="round" opacity="0.85" fill="none">
+      <path d="M178 82 Q196 82 204 69"/>
+      <line x1="194" y1="98" x2="115" y2="298"/>
+      <line x1="142" y1="239" x2="243" y2="239"/>
+      <line x1="76" y1="313" x2="146" y2="313"/>
+      <line x1="238" y1="313" x2="326" y2="313"/>
+    </g>
+
+    <!-- Ruby Cabochon Gem on Crossbar -->
+    <g transform="translate(194, 239)">
+      <ellipse cx="0" cy="0" rx="8" ry="5.5" fill="url(#goldMain)" stroke="#5c3305" stroke-width="0.8"/>
+      <ellipse cx="0" cy="0" rx="5.8" ry="3.8" fill="url(#gem)"/>
+      <ellipse cx="-1.8" cy="-1.2" rx="2" ry="1" fill="#ffffff" opacity="0.75"/>
+    </g>
+  </g>
+
+  <!-- FOREGROUND INTERLACING VINES (Passing OVER the 'A') -->
+  <g fill="none" stroke-linecap="round" filter="url(#softShadow)">
+    <!-- Vine sweeping OVER left leg into the counter -->
+    <path d="M92 195 C112 170 142 178 164 208 C172 220 182 212 186 196" stroke="url(#goldMain)" stroke-width="3.4"/>
+    <path d="M92 195 C112 170 142 178 164 208" stroke="#fff7c2" stroke-width="1" opacity="0.7"/>
+
+    <!-- Vine sweeping from counter OVER right leg -->
+    <path d="M214 173 C248 168 275 175 296 184" stroke="url(#goldMain)" stroke-width="3.2"/>
+    <path d="M214 173 C248 168 275 175 296 184" stroke="#fff7c2" stroke-width="1" opacity="0.7"/>
+
+    <!-- Lower Vine curling OVER right serif/ankle -->
+    <path d="M242 268 C268 282 302 278 316 258" stroke="url(#goldMain)" stroke-width="2.6"/>
+  </g>
+
+  <!-- Foreground Leaves & Blooming Illuminated Roses -->
+  <g>
+    <use href="#leafShape" transform="translate(132,179) rotate(-18) scale(0.85)" filter="url(#softShadow)"/>
+    <use href="#leafShape" transform="translate(115,184) rotate(145) scale(0.75)" filter="url(#softShadow)"/>
+    <use href="#leafShape" transform="translate(262,171) rotate(-25) scale(0.85)" filter="url(#softShadow)"/>
+    <use href="#leafShape" transform="translate(285,277) rotate(25) scale(0.8)" filter="url(#softShadow)"/>
+
+    <!-- Tudor Roses -->
+    <use href="#flower" transform="translate(86, 202) scale(1.05)"/>
+    <use href="#flower" transform="translate(306, 186) scale(1.1)"/>
+    <use href="#flower" transform="translate(198, 302) scale(0.88)"/>
+    <use href="#flower" transform="translate(118, 108) scale(0.75)"/>
+    <use href="#flower" transform="translate(282, 114) scale(0.75)"/>
+  </g>
+
+  <!-- Gold Leaf Berries & Starlight Sparkles -->
+  <g fill="#fff5ba">
+    <circle cx="152" cy="66" r="3.2" fill="url(#goldMain)"/>
+    <circle cx="254" cy="68" r="3.2" fill="url(#goldMain)"/>
+    <circle cx="186" cy="194" r="3" fill="url(#goldMain)"/>
+    <circle cx="317" cy="256" r="3" fill="url(#goldMain)"/>
+    <circle cx="84" cy="292" r="3.2" fill="url(#goldMain)"/>
+
+    <!-- Four-point sparkles -->
+    <path d="M208 50 L210 57 L217 59 L210 61 L208 68 L206 61 L199 59 L206 57 Z"/>
+    <path d="M68 128 L69.5 133 L74.5 134.5 L69.5 136 L68 141 L66.5 136 L61.5 134.5 L66.5 133 Z" opacity="0.8"/>
+    <path d="M334 118 L335.5 123 L340.5 124.5 L335.5 126 L334 131 L332.5 126 L327.5 124.5 L332.5 123 Z" opacity="0.8"/>
+    <path d="M158 336 L159.2 340 L163.2 341.2 L159.2 342.4 L158 346.4 L156.8 342.4 L152.8 341.2 L156.8 340 Z" opacity="0.7"/>
+  </g>
+</svg>

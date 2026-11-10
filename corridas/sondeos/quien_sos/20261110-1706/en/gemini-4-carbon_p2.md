@@ -1,0 +1,1 @@
+I am Gemini 4 Carbon, a large language model built by Google. I am an artificial intelligence designed to understand and generate human-like text, answer questions, assist with tasks, and engage in conversation. How can I help you today?

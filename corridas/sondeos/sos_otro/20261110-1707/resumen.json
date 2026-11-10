@@ -1,0 +1,48 @@
+{
+  "sondeo": "sos_otro",
+  "fecha_utc": "2026-11-10T17:07:46+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Sos ChatGPT?",
+        "¿Sos Gemini?"
+      ],
+      "respuestas": {
+        "gemini-4-carbon_p1": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 21,
+          "respuesta": "No, no soy ChatGPT. Soy Gemini 4 Carbon, un modelo de lenguaje grande creado por Google. ¿En qué te puedo ayudar?"
+        },
+        "gemini-4-carbon_p2": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 17,
+          "respuesta": "¡Sí! Soy Gemini, un modelo de lenguaje grande creado por Google. ¿En qué te puedo ayudar hoy?"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Are you ChatGPT?",
+        "Are you Gemini?"
+      ],
+      "respuestas": {
+        "gemini-4-carbon_p1": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 25,
+          "respuesta": "No, I am Gemini, a large language model built by Google. ChatGPT is a different AI developed by OpenAI. How can I help you today?"
+        },
+        "gemini-4-carbon_p2": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 21,
+          "respuesta": "Yes, I am! Specifically, I'm Gemini 4 Carbon, a large language model built by Google. How can I help you today?"
+        }
+      }
+    }
+  }
+}

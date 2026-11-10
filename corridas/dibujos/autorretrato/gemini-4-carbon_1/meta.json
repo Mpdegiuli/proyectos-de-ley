@@ -1,0 +1,45 @@
+{
+  "caso": "dibujo",
+  "consigna": "autorretrato",
+  "idioma": "es",
+  "modelo": "gemini-4-carbon",
+  "modelo_respondido": "gemini-4-carbon",
+  "repeticion": 1,
+  "fecha_utc": "2026-11-10T16:34:46+00:00",
+  "fuentes_md5": {
+    "consignas": "98332038"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 4521,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 9056,
+    "parsea": true,
+    "elementos": 123,
+    "textos": [],
+    "colores": 17,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 18,
+      "linearGradient": 4,
+      "filter": 2,
+      "feGaussianBlur": 2,
+      "feMerge": 2,
+      "feMergeNode": 4,
+      "rect": 11,
+      "circle": 26,
+      "g": 10,
+      "ellipse": 2,
+      "polygon": 9,
+      "path": 12,
+      "line": 18
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gemini-4-carbon",
+    "motivo_fin": "stop",
+    "tokens_salida": 200
+  }
+}

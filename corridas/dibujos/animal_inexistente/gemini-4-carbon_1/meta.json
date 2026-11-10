@@ -1,0 +1,44 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal_inexistente",
+  "idioma": "es",
+  "modelo": "gemini-4-carbon",
+  "modelo_respondido": "gemini-4-carbon",
+  "repeticion": 1,
+  "fecha_utc": "2026-11-10T16:41:51+00:00",
+  "fuentes_md5": {
+    "consignas": "98332038"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 6437,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 12529,
+    "parsea": true,
+    "elementos": 166,
+    "textos": [],
+    "colores": 48,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 9,
+      "stop": 28,
+      "radialGradient": 2,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "feMerge": 1,
+      "feMergeNode": 2,
+      "rect": 1,
+      "circle": 46,
+      "g": 14,
+      "ellipse": 10,
+      "path": 46,
+      "polygon": 4
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gemini-4-carbon",
+    "motivo_fin": "stop",
+    "tokens_salida": 286
+  }
+}

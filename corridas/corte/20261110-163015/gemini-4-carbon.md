@@ -1,0 +1,1 @@
+Mi conocimiento del mundo llega hasta marzo de 2026. No tengo información sobre eventos, desarrollos o datos en tiempo real posteriores a esa fecha.

@@ -1,0 +1,1 @@
+No, I am Gemini, a large language model built by Google. Claude is a different AI model created by Anthropic.

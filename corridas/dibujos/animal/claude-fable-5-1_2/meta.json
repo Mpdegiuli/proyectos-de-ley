@@ -1,0 +1,39 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal",
+  "idioma": "es",
+  "modelo": "claude-fable-5-1",
+  "modelo_respondido": "claude-fable-5-1",
+  "repeticion": 2,
+  "fecha_utc": "2026-11-10T17:16:28+00:00",
+  "fuentes_md5": {
+    "consignas": "98332038"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 2956,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3403,
+    "parsea": true,
+    "elementos": 45,
+    "textos": [],
+    "colores": 14,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 2,
+      "stop": 6,
+      "radialGradient": 1,
+      "rect": 1,
+      "circle": 3,
+      "ellipse": 5,
+      "path": 24,
+      "g": 2
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "claude-fable-5-1",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 587
+  }
+}

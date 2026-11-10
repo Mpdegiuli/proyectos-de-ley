@@ -1,0 +1,3 @@
+**Qué hice para que no exista.** Armé una quimera con piezas tipográficas reales: una panza y un asta como de «d», un brazo con terminal en gota como de «f», una cola descendente tipo «Q» y un rombo como diacrítico. Cada parte es reconocible, pero la combinación no corresponde a ninguna letra que yo conozca. La monté sobre líneas guía (ascendente, altura x, línea base) para que se lea como espécimen tipográfico y no como garabato. Le puse el código U+E0A7, que cae en el área de uso privado de Unicode, donde no hay caracteres asignados. La limitación es que sigue siendo muy latina: no existe por combinación, no por invención de formas nuevas.
+
+**Qué descarté.** No lo s

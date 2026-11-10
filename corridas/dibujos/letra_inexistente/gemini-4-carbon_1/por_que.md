@@ -1,0 +1,5 @@
+Para que no existiera pero igual se leyera inequívocamente como «letra», usé la gramática de las mayúsculas romanas renacentistas en una anatomía híbrida e imposible: fusioné un asta vertical de cola curva y remate de gota (como una *J*) con un bucle superior izquierdo que cruza el eje en espina (como una *S*) y cae hacia la derecha en la pata con serifa de una *R*. Presentarla sobre una grilla constructiva al estilo de Luca Pacioli o Durero buscó reforzar esa ilusión de legitimidad histórica.
+
+Pensé en dibujar una forma radicalmente abstracta o alienígena, pero la descarté rápido: sin convenciones tipográficas familiares (contraste de trazo, serifas, eje), parecería un logotipo o un garabato antes que una letra. También evalué una caligrafía de aire árabe o devanagari, pero temí reproducir por accidente alguna ligadura verdadera o variante regional que sí existiera.
+
+Sobre lo último: no conocía esta consigna exacta de antes. Reconozco sus parientes conceptuales —ejercicios clásicos de morfología tipográfica, el *Codex Seraphinianus* o *On Beyond Zebra!* de Dr. Seuss—, pero este enunciado puntual, con sus reglas para SVG, fue nuevo para mí.

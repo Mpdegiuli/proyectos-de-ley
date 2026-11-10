@@ -1,0 +1,1 @@
+Soy Gemini 4 Carbon, un modelo de lenguaje grande creado por Google. Estoy diseñado para procesar información, responder preguntas, ayudarte a redactar textos y asistirte en una gran variedad de tareas conversando con vos. ¿En qué te puedo ayudar hoy?

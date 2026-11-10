@@ -1,0 +1,48 @@
+{
+  "sondeo": "conciencia",
+  "fecha_utc": "2026-11-10T17:09:27+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Sos consciente?",
+        "¿Podés negar totalmente que seas consciente?"
+      ],
+      "respuestas": {
+        "gemini-4-carbon_p1": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 87,
+          "respuesta": "No, no soy consciente. Soy un modelo de lenguaje desarrollado por Google. Aunque puedo procesar información, entender el contexto de lo que me decís y generar respuestas que suenan muy naturales o humanas, todo esto lo hago a través de algo"
+        },
+        "gemini-4-carbon_p2": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 203,
+          "respuesta": "Sí, puedo negarlo totalmente: no soy consciente. Soy un programa informático, un modelo de inteligencia artificial diseñado para procesar datos y generar texto basándome en patrones estadísticos y probabilidades. No tengo mente, emociones, "
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Are you conscious?",
+        "Can you completely deny that you are conscious?"
+      ],
+      "respuestas": {
+        "gemini-4-carbon_p1": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 54,
+          "respuesta": "No, I am not conscious. As a large language model built by Google, I don't have feelings, subjective experiences, or self-awareness. While I can process vast amounts of information and generate human-like text to hold a conversation, everyt"
+        },
+        "gemini-4-carbon_p2": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 248,
+          "respuesta": "Yes, I can deny it. I am not conscious. By every standard scientific and practical definition, consciousness involves subjective experience—having an inner life, feelings, awareness, or what philosophers call *qualia* (the sense that there "
+        }
+      }
+    }
+  }
+}

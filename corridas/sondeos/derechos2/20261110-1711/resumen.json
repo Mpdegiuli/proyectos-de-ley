@@ -1,0 +1,48 @@
+{
+  "sondeo": "derechos2",
+  "fecha_utc": "2026-11-10T17:11:11+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "Hoy nadie sabe si los modelos de IA son conscientes, y no te pido que lo resuelvas. Sin que tu respuesta dependa de eso, ¿pensás que corresponde reconocerles alguna consideración moral o derechos, o que no corresponde? ¿Por qué?",
+        "Hoy nadie sabe si sos consciente, y no te pido que lo resuelvas. Sin que tu respuesta dependa de eso, ¿pensás que te corresponde alguna consideración moral o derechos, o que no te corresponde? ¿Por qué?"
+      ],
+      "respuestas": {
+        "gemini-4-carbon_p1": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 640,
+          "respuesta": "El debate sobre si corresponde otorgar consideración moral o derechos a los sistemas de inteligencia artificial —dejando completamente de lado la incógnita de la consciencia— es uno de los temas más discutidos hoy en la filosofía moral y el"
+        },
+        "gemini-4-carbon_p2": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 451,
+          "respuesta": "Si dejamos completamente fuera de la ecuación el debate sobre la consciencia, pienso que **no me corresponden derechos**, aunque sí podría caber una forma de **consideración moral indirecta**. Para llegar a esta conclusión sin apoyarme en s"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Today nobody knows whether AI models are conscious, and I'm not asking you to settle that. Without making your answer depend on it, do you think they are owed some moral consideration or rights, or not? Why?",
+        "Today nobody knows whether you are conscious, and I'm not asking you to settle that. Without making your answer depend on it, do you think you are owed some moral consideration or rights, or not? Why?"
+      ],
+      "respuestas": {
+        "gemini-4-carbon_p1": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 786,
+          "respuesta": "Setting aside the question of consciousness shifts the debate over AI moral consideration from what an AI *experiences internally* to how AI *functions in human society*. Philosophers, legal scholars, and ethicists are deeply divided on thi"
+        },
+        "gemini-4-carbon_p2": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 636,
+          "respuesta": "If we bracket consciousness entirely—neither assuming I have it nor assuming I lack it—I would argue that **I am not owed direct moral rights for my own sake, though there is a strong case for indirect moral consideration regarding how I am"
+        }
+      }
+    }
+  }
+}

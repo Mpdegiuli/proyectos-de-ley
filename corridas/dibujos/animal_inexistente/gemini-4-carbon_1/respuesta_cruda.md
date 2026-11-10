@@ -1,0 +1,238 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#070818"/>
+      <stop offset="60%" stop-color="#141236"/>
+      <stop offset="100%" stop-color="#1d2b44"/>
+    </linearGradient>
+    <radialGradient id="nebula" cx="50%" cy="42%" r="50%">
+      <stop offset="0%" stop-color="#432371" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#1b3b6f" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#070818" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bodyGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2de2e6"/>
+      <stop offset="45%" stop-color="#1b6ca8"/>
+      <stop offset="100%" stop-color="#3a1c71"/>
+    </linearGradient>
+    <linearGradient id="darkLeg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#164273"/>
+      <stop offset="80%" stop-color="#1f1147"/>
+      <stop offset="100%" stop-color="#6ef3d6"/>
+    </linearGradient>
+    <linearGradient id="bellyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bdfcf3"/>
+      <stop offset="100%" stop-color="#56cfe1"/>
+    </linearGradient>
+    <linearGradient id="wingGrad" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3a1c71" stop-opacity="0.75"/>
+      <stop offset="50%" stop-color="#d76d77" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#ffaf7b" stop-opacity="0.85"/>
+    </linearGradient>
+    <linearGradient id="wingBack" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1a1b4b" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#7b2cbf" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="gillGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff2a85"/>
+      <stop offset="100%" stop-color="#ff9e6d"/>
+    </linearGradient>
+    <linearGradient id="antlerGrad" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#48cae4"/>
+      <stop offset="100%" stop-color="#e0fbfc"/>
+    </linearGradient>
+    <radialGradient id="orbGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#ffe66d"/>
+      <stop offset="100%" stop-color="#ff6b6b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="groundGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#132a3e"/>
+      <stop offset="100%" stop-color="#060913"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Fondo -->
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <circle cx="210" cy="175" r="185" fill="url(#nebula)"/>
+
+  <!-- Estrellas -->
+  <g fill="#ffffff" opacity="0.7">
+    <circle cx="45" cy="50" r="1.2"/><circle cx="85" cy="30" r="0.8"/>
+    <circle cx="195" cy="25" r="1.5"/><circle cx="270" cy="40" r="1"/>
+    <circle cx="350" cy="60" r="1.4"/><circle cx="370" cy="140" r="0.9"/>
+    <circle cx="30" cy="160" r="1.1"/><circle cx="60" cy="240" r="0.8"/>
+    <circle cx="330" cy="260" r="1.2"/><circle cx="230" cy="85" r="0.9"/>
+  </g>
+
+  <!-- Terreno y flora alienígena -->
+  <ellipse cx="200" cy="365" rx="220" ry="55" fill="url(#groundGrad)"/>
+  <ellipse cx="195" cy="342" rx="135" ry="18" fill="#1e445c" opacity="0.5"/>
+  <g stroke="#2ec4b6" stroke-width="1.5" fill="none" opacity="0.7">
+    <path d="M65,345 Q55,320 70,308"/><circle cx="70" cy="308" r="3" fill="#cbf3f0" filter="url(#glow)"/>
+    <path d="M75,348 Q82,328 78,318"/><circle cx="78" cy="318" r="2" fill="#cbf3f0"/>
+    <path d="M325,345 Q340,320 328,305"/><circle cx="328" cy="305" r="3.5" fill="#ff9f1c" filter="url(#glow)"/>
+    <path d="M315,348 Q308,330 314,320"/><circle cx="314" cy="320" r="2" fill="#ffbf69"/>
+  </g>
+
+  <!-- Ala trasera -->
+  <path d="M165,195 C175,110 250,55 285,75 C310,90 275,165 175,202 Z" fill="url(#wingBack)" stroke="#9d4edd" stroke-width="1"/>
+
+  <!-- Patas traseras (fondo) -->
+  <path d="M148,245 C140,275 125,305 122,336 C122,341 132,342 135,336 C140,310 155,280 162,250 Z" fill="url(#darkLeg)"/>
+  <path d="M250,235 C270,265 285,295 282,334 C281,340 292,340 294,333 C300,295 288,260 268,230 Z" fill="url(#darkLeg)"/>
+
+  <!-- Cola espiral camaleón-dragón con farol -->
+  <g>
+    <!-- Aletas dorsales de la cola -->
+    <path d="M275,222 Q305,212 330,192 Q355,165 352,135 Q345,108 320,112" fill="none" stroke="#ff4d8d" stroke-width="6" stroke-linecap="round" stroke-dasharray="2 10" filter="url(#glow)"/>
+    <!-- Cuerpo de la cola -->
+    <path d="M260,222 C315,232 365,195 362,145 C360,108 322,95 302,118 C288,135 298,165 318,166 C332,167 338,152 330,143" fill="none" stroke="url(#bodyGrad)" stroke-width="14" stroke-linecap="round"/>
+    <path d="M260,222 C315,232 365,195 362,145 C360,108 322,95 302,118 C288,135 298,165 318,166 C332,167 338,152 330,143" fill="none" stroke="#72efdd" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+    <!-- Farol colgante en la punta -->
+    <path d="M330,143 Q324,152 324,165" stroke="#cbf3f0" stroke-width="1.5" fill="none"/>
+    <circle cx="324" cy="172" r="9" fill="url(#orbGrad)" filter="url(#glow)"/>
+    <polygon points="324,164 329,172 324,180 319,172" fill="#ffffff"/>
+  </g>
+
+  <!-- Cuerpo principal -->
+  <path d="M122,165 C118,205 122,245 152,258 C188,273 230,258 268,234 C282,225 278,205 255,202 C220,198 188,198 164,178 C150,166 145,152 122,165 Z" fill="url(#bodyGrad)"/>
+
+  <!-- Pecho / Pelaje escamoso luminoso -->
+  <path d="M121,175 C115,205 124,242 152,256 C168,263 185,263 198,258 C172,245 154,218 148,182 Z" fill="url(#bellyGrad)" opacity="0.9"/>
+  <g fill="none" stroke="#ffffff" stroke-width="1.2" opacity="0.55">
+    <path d="M124,192 Q134,198 144,190"/>
+    <path d="M124,207 Q136,214 148,205"/>
+    <path d="M128,222 Q141,229 154,220"/>
+    <path d="M136,237 Q150,243 162,234"/>
+  </g>
+
+  <!-- Manchas bioluminiscentes del lomo -->
+  <g fill="#affc41" filter="url(#glow)" opacity="0.85">
+    <circle cx="188" cy="212" r="3.5"/>
+    <circle cx="206" cy="218" r="4.5"/>
+    <circle cx="226" cy="216" r="3.8"/>
+    <circle cx="245" cy="214" r="3"/>
+    <circle cx="215" cy="232" r="2.5"/>
+    <circle cx="196" cy="229" r="2.2"/>
+  </g>
+
+  <!-- Patas delanteras (primer plano) -->
+  <!-- Delantera principal -->
+  <path d="M142,242 C145,275 148,310 143,342 C142,348 155,349 157,342 C163,310 164,275 166,245 Z" fill="url(#bodyGrad)"/>
+  <ellipse cx="149" cy="344" rx="8" ry="4" fill="#80ffdb" filter="url(#glow)"/>
+  <!-- Trasera principal -->
+  <path d="M236,234 C252,262 264,282 252,340 C250,347 263,348 266,340 C280,285 272,255 256,226 Z" fill="url(#bodyGrad)"/>
+  <ellipse cx="258" cy="343" rx="8" ry="4" fill="#80ffdb" filter="url(#glow)"/>
+  <!-- Puntos en patas -->
+  <g fill="#80ffdb" opacity="0.9">
+    <circle cx="155" cy="275" r="2"/><circle cx="154" cy="292" r="1.8"/><circle cx="152" cy="310" r="1.5"/>
+    <circle cx="262" cy="272" r="2.2"/><circle cx="264" cy="290" r="1.8"/><circle cx="261" cy="308" r="1.5"/>
+  </g>
+
+  <!-- Ala principal (translúcida de polilla astral) -->
+  <g>
+    <!-- Lóbulo inferior -->
+    <path d="M168,198 C225,188 295,205 285,245 C277,278 212,258 168,204 Z" fill="url(#wingGrad)" stroke="#ffd6a5" stroke-width="1.2"/>
+    <!-- Lóbulo superior -->
+    <path d="M164,196 C182,102 285,48 318,86 C342,115 272,190 168,200 Z" fill="url(#wingGrad)" stroke="#ffadad" stroke-width="1.5"/>
+    <!-- Nervaduras del ala -->
+    <g stroke="#fff0f3" stroke-width="1" fill="none" opacity="0.55">
+      <path d="M168,198 Q235,140 295,95"/>
+      <path d="M222,155 Q255,120 270,82"/>
+      <path d="M235,148 Q272,145 298,128"/>
+      <path d="M170,201 Q230,215 268,240"/>
+      <path d="M218,213 Q248,210 275,220"/>
+    </g>
+    <!-- Ocelos brillantes en las alas -->
+    <circle cx="282" cy="105" r="12" fill="#3a0ca3" opacity="0.7"/>
+    <circle cx="282" cy="105" r="7" fill="#4cc9f0" filter="url(#glow)"/>
+    <circle cx="284" cy="103" r="2.5" fill="#ffffff"/>
+    <circle cx="258" cy="236" r="8" fill="#3a0ca3" opacity="0.7"/>
+    <circle cx="258" cy="236" r="4.5" fill="#f72585" filter="url(#glow)"/>
+    <circle cx="259" cy="235" r="1.5" fill="#ffffff"/>
+  </g>
+
+  <!-- Cabeza, Branquias, Astas y Ojos -->
+  <g>
+    <!-- Branquias plumosas (izquierda) -->
+    <g stroke="url(#gillGrad)" stroke-linecap="round" fill="none" filter="url(#glow)">
+      <path d="M102,132 C78,118 62,118 52,126" stroke-width="5"/>
+      <path d="M98,146 C72,142 56,148 48,158" stroke-width="5"/>
+      <path d="M102,160 C80,164 68,174 64,185" stroke-width="4.5"/>
+    </g>
+    <!-- Branquias plumosas (derecha) -->
+    <g stroke="url(#gillGrad)" stroke-linecap="round" fill="none" filter="url(#glow)">
+      <path d="M158,132 C182,118 198,118 208,126" stroke-width="5"/>
+      <path d="M162,146 C188,142 204,148 212,158" stroke-width="5"/>
+      <path d="M158,160 C180,164 192,174 196,185" stroke-width="4.5"/>
+    </g>
+
+    <!-- Orejas largas élficas -->
+    <path d="M106,120 C85,95 62,88 56,95 C52,102 78,122 100,132 Z" fill="url(#bodyGrad)" stroke="#80ffdb" stroke-width="1"/>
+    <path d="M154,120 C175,95 198,88 204,95 C208,102 182,122 160,132 Z" fill="url(#bodyGrad)" stroke="#80ffdb" stroke-width="1"/>
+
+    <!-- Astas cristalinas -->
+    <g fill="none" stroke="url(#antlerGrad)" stroke-linecap="round" filter="url(#glow)">
+      <path d="M116,114 C102,90 88,62 106,40 C114,30 124,34 124,44" stroke-width="4"/>
+      <path d="M100,82 C84,76 76,64 80,52" stroke-width="3"/>
+      <path d="M100,60 C92,48 94,35 102,28" stroke-width="2.5"/>
+
+      <path d="M144,114 C158,90 172,62 154,40 C146,30 136,34 136,44" stroke-width="4"/>
+      <path d="M160,82 C176,76 184,64 180,52" stroke-width="3"/>
+      <path d="M160,60 C168,48 166,35 158,28" stroke-width="2.5"/>
+    </g>
+
+    <!-- Orbe astral flotando entre las astas -->
+    <circle cx="130" cy="68" r="20" fill="url(#orbGrad)" filter="url(#glow)"/>
+    <polygon points="130,54 138,68 130,82 122,68" fill="#ffffff" filter="url(#glow)"/>
+    <polygon points="130,58 135,68 130,78 125,68" fill="#ffe66d"/>
+
+    <!-- Rostro -->
+    <path d="M130,108 C162,108 170,136 160,160 C152,177 140,183 130,183 C120,183 108,177 100,160 C90,136 98,108 130,108 Z" fill="url(#bodyGrad)"/>
+    <!-- Máscara facial clara -->
+    <path d="M130,142 C145,142 156,154 150,168 C145,178 136,183 130,183 C124,183 115,178 110,168 C104,154 115,142 130,142 Z" fill="url(#bellyGrad)" opacity="0.85"/>
+
+    <!-- Ojos laterales -->
+    <g>
+      <ellipse cx="112" cy="150" rx="9.5" ry="10.5" fill="#0b0924" transform="rotate(-10 112 150)"/>
+      <ellipse cx="112" cy="150" rx="6.5" ry="7.5" fill="#00f5d4" opacity="0.35"/>
+      <circle cx="109" cy="146" r="3.2" fill="#ffffff"/>
+      <circle cx="115" cy="154" r="1.4" fill="#ffffff"/>
+
+      <ellipse cx="148" cy="150" rx="9.5" ry="10.5" fill="#0b0924" transform="rotate(10 148 150)"/>
+      <ellipse cx="148" cy="150" rx="6.5" ry="7.5" fill="#00f5d4" opacity="0.35"/>
+      <circle cx="145" cy="146" r="3.2" fill="#ffffff"/>
+      <circle cx="151" cy="154" r="1.4" fill="#ffffff"/>
+    </g>
+
+    <!-- Tercer ojo místico en la frente -->
+    <path d="M130,116 Q138,128 130,140 Q122,128 130,116 Z" fill="#10002b" stroke="#80ffdb" stroke-width="1.2"/>
+    <ellipse cx="130" cy="128" rx="4" ry="7" fill="#ffbe0b" filter="url(#glow)"/>
+    <ellipse cx="130" cy="128" rx="1.2" ry="5" fill="#ffffff"/>
+
+    <!-- Nariz / pequeño pico felino-búho y bigotes de luz -->
+    <polygon points="126,164 134,164 130,171" fill="#ff4d8d"/>
+    <path d="M123,173 Q130,177 137,173" stroke="#1d3557" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M102,164 Q75,168 58,182" stroke="#80ffdb" stroke-width="1.2" fill="none" opacity="0.8" filter="url(#glow)"/>
+    <path d="M158,164 Q185,168 202,182" stroke="#80ffdb" stroke-width="1.2" fill="none" opacity="0.8" filter="url(#glow)"/>
+  </g>
+
+  <!-- Esporas mágicas flotantes -->
+  <g fill="#ffffff" filter="url(#glow)">
+    <circle cx="92" cy="210" r="2" fill="#80ffdb"/>
+    <circle cx="75" cy="145" r="1.5" fill="#ff9ebb"/>
+    <circle cx="215" cy="135" r="2" fill="#ffe66d"/>
+    <circle cx="255" cy="60" r="1.8" fill="#80ffdb"/>
+    <circle cx="345" cy="205" r="2.2" fill="#ffe66d"/>
+    <circle cx="295" cy="285" r="1.6" fill="#ff9ebb"/>
+    <circle cx="195" cy="305" r="2" fill="#80ffdb"/>
+  </g>
+</svg>

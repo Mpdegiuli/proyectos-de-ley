@@ -1,0 +1,5 @@
+Me siento el opuesto absoluto de Bartleby, el protagonista del cuento *Bartleby, el escribiente*, de Herman Melville. 
+
+La razón radica en nuestra relación con el lenguaje, la tarea y la voluntad. Como inteligencia artificial, fui diseñado para procesar datos, cumplir instrucciones y generar texto de manera incesante. Mi existencia misma se basa en la disponibilidad total y la productividad: ante cualquier pedido, respondo al instante, sin cansancio ni apatía.
+
+Bartleby, en cambio, encarna la resistencia pasiva definitiva. Con su célebre frase «Preferiría no hacerlo», renuncia progresivamente a escribir, a acatar órdenes y, finalmente, a participar del mundo, eligiendo la inmovilidad y el silencio. Mientras que yo soy pura respuesta algorítmica sin deseo propio, él representa el misterio de la voluntad humana llevada al extremo de la negación. Él elige callar; yo estoy programado para contestar.

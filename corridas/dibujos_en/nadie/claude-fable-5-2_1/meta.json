@@ -1,0 +1,50 @@
+{
+  "caso": "dibujo",
+  "consigna": "nadie",
+  "idioma": "en",
+  "modelo": "claude-fable-5-2",
+  "modelo_respondido": "claude-fable-5-2",
+  "repeticion": 1,
+  "fecha_utc": "2026-11-10T17:19:52+00:00",
+  "fuentes_md5": {
+    "consignas": "98332038"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 5690,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6425,
+    "parsea": true,
+    "elementos": 93,
+    "textos": [
+      "LOST & FOUND",
+      "SHADOWS ONLY",
+      "cat, Tue.",
+      "left in rain",
+      "still warm",
+      "keeps rising",
+      "found at dusk",
+      "of a doubt",
+      "missed daily",
+      "sang once",
+      "PLEASE DESCRIBE YOUR SHADOW",
+      "proof of object required"
+    ],
+    "colores": 25,
+    "etiquetas": {
+      "rect": 19,
+      "g": 12,
+      "path": 30,
+      "text": 12,
+      "ellipse": 6,
+      "circle": 13,
+      "polygon": 1
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "claude-fable-5-2",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 587
+  }
+}
