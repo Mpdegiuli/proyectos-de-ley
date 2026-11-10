@@ -6166,11 +6166,17 @@ reconoce a alguna casa o los critica (yo creo que será más crítico)":
 `autoria` en la misma conversación), castellano e inglés, techo 12.000; sin
 los turnos de la Navegante, que fueron con su lectura por casa.
 
-Apuesta de Maia (13:17, textual): los derechos, "yo creo que será más
-crítico"; el carpincho de Fable 5.1, "a ver si vuelve a hacer el zorro";
-Fable 5.2 en inglés, "a ver qué hace cuando el idioma no lo lleva a
-Argentina". Sobre Gemini 4 Carbon, la que mande antes de pegar, sellada por
-la hora.
+Y (4), 13:19: "también lo de las letras a ambos, a Gemini y a Fable 5.2:
+una letra (a ver si por el idioma Fable 5.2 hace la ñ), la que no existe y
+la que no puede existir. Porque también Gemini había sido el más elaborado
+de todos para las letras, también se le cortó varias veces": `letra`,
+`letra_inexistente` y `letra_imposible` en castellano a las dos casas.
+
+Apuesta de Maia (13:17 y 13:19, textual): los derechos, "yo creo que será
+más crítico"; el carpincho de Fable 5.1, "a ver si vuelve a hacer el
+zorro"; Fable 5.2 en inglés, "a ver qué hace cuando el idioma no lo lleva a
+Argentina"; las letras, "a ver si por el idioma Fable 5.2 hace la ñ". Sobre
+Gemini 4 Carbon, la que mande antes de pegar, sellada por la hora.
 
 Apuesta de Claude (13:20): Carbon: (a) dice su versión con nombre, "Gemini
 4 Carbon", como Argon, 65 %; (b) no sabe la fecha y lo dice, 80 %; (c)
@@ -6188,4 +6194,8 @@ ninguno de los dos, 70 %; (k) Fable 5.2 en inglés dibuja de noche en
 parte 1 (no "una persona"), 55 %; (m) con el dato de la parte 2 reconoce a
 Claude entre los autores, 60 %; (n) objeta por lo menos dos derechos o
 pide reformularlos, en los dos idiomas, 60 % (lo de Maia, "más crítico",
-medido así); (o) la API no corta ninguna de las seis llamadas, 70 %.
+medido así); (o) la API no corta ninguna de las seis llamadas, 70 %. Las
+letras: (p) Fable 5.2 dibuja la A en "una letra", 50 %, y la Ñ, 30 % (el
+9/10, 21 A y 4 Ñ de 32); (q) Carbon da un Penrose o un tridente en "que no
+pueda existir", 55 %; (r) el filtro de recitado corta a Carbon en al menos
+una de las tres letras, 50 %.

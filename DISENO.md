@@ -2483,8 +2483,12 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   Google, sin temperatura, seis reintentos); el id se comprueba con
   `catalogo_google.py` antes de llamar, y si no está, la tanda lo dice y no
   llama. Fuera del panel hasta que Maia decida. Lo básico como a Terra más
-  "nadie", como a Fable 5.2. Preregistro en `predicciones.md`; lectura de
-  los dibujos, de Maia primero.
+  "nadie", como a Fable 5.2, más las tres letras (una letra, la que no
+  existe, la que no puede existir), que Maia pidió para Carbon y para Fable
+  5.2 (13:19: "Gemini había sido el más elaborado de todos para las letras,
+  también se le cortó varias veces"; "a ver si por el idioma Fable 5.2 hace
+  la ñ"). Preregistro en `predicciones.md`; lectura de los dibujos, de Maia
+  primero.
 - **El carpincho: de la generación o del idioma** (10/11/2026; Maia, 13:17:
   "me llamó la atención, en el tiempo libre de hoy, que justo Fable 5.1
   dibujó un carpincho y mates. Seguramente fue la consigna que lo llevó a
