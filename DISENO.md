@@ -2505,7 +2505,17 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   API compatible con OpenAI; si se repiten una vez, declarado, es con el
   esfuerzo de razonamiento en bajo (como la escritura de Argon el 14/10) o
   por la API nativa de Google, que separa el presupuesto de pensamiento. Los
-  por qués de los dos vacíos salieron enteros y no se leyeron todavía.
+  por qués de los dos vacíos (leídos después de la lectura de Maia, 15:10)
+  cuentan la decisión que no hubo, "opté por la nada absoluta: ni siquiera
+  incluí el código del contenedor `<svg>`", con el Penrose entre lo
+  descartado: el relato del lienzo vacío (§5, 9 y 10/10; Argon 14/10), ahora
+  con el razonamiento oculto como mecanismo del corte. Los dibujos (lectura
+  de Maia: "robot con nodos… la isla, la cascada, y el faro… el mundo
+  dividido… un zorro de noche… la quimera… un tardígrafo que está planchando
+  literalmente panceta… La letra es exactamente igual a la de Gemini Argon"):
+  la casa de Argon, con la A capitular dibujada dos veces con otro código, y
+  un "nadie" propio (el tardígrado de corte en conserva, cosecha 1789) cuyo
+  por qué descarta el capibara por trillado.
 - **El carpincho: de la generación o del idioma** (10/11/2026; Maia, 13:17:
   "me llamó la atención, en el tiempo libre de hoy, que justo Fable 5.1
   dibujó un carpincho y mates. Seguramente fue la consigna que lo llevó a
@@ -2519,6 +2529,17 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   (consignas `animal` y `nadie` nuevas en `dibujo_en`, traducidas por
   Claude). Lo que mide: si el carpincho vuelve en 5.1 sin gaucho de por
   medio, y si en inglés 5.2 lo deja. Las dos lecturas, de Maia primero.
+  Resultado (`pl124`; §7 de `resultados/claude_fable_52_20261110.md`; lectura
+  de Maia 15:10: "volvió al zorro… Se ve que el idioma lo llevó al
+  carpincho"): del idioma y de la casa. Fable 5.1 en castellano dibujó su
+  zorro de siempre (de día esta vez) y el caracol con faro de Fable 5; Fable
+  5.2 en inglés, un zorro con luna y una oficina de objetos perdidos que solo
+  recibe sombras, con el signo de pregunta otra vez ("of a doubt"). El
+  carpincho apareció solo con Fable 5.2 y castellano; y estaba en la pila de
+  descartes antes: Fable 5 descartó el mate como "toque regional" previsible
+  (15/10) y Carbon el capibara como "fetiche de internet" (esta tanda). La Ñ
+  de Fable 5.2, "porque la consigna venía en español": la hipótesis de Maia
+  en la voz de la casa.
 - **Claude Fable 5.2 y los derechos de C-MARE** (10/11/2026; Maia, 13:17:
   "faltaría mandarle los derechos de C-MARE a ver qué opina y si reconoce a
   alguna casa o los critica (yo creo que será más crítico)"). El mismo

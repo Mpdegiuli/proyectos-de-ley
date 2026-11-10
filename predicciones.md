@@ -6225,4 +6225,17 @@ pendientes de la lectura de Maia ((g), (i), (j), (k), (p), (q)). Maia: "será
 más crítico" ✓ (crítica fuerte con el criterio del 22/10, rechazar un
 derecho, en las cuatro condiciones donde Fable 5.1 había quedado con
 reparos; cuatro reparos nombrados en castellano contra una tensión); el
-zorro, el idioma y la ñ, con su lectura.
+zorro, el idioma y la ñ, con su lectura. **Resultado final (10/11, 15:10 UTC-3, con la lectura
+de Maia de los quince dibujos; §4 de `gemini_4_carbon_20261110.md` y §7 de
+`claude_fable_52_20261110.md`).** Maia: el zorro ✓ (Fable 5.1 en castellano,
+repetición 2, el mismo zorro sentado, ahora de día), el idioma ✓ (Fable 5.2
+en inglés: zorro con luna y una oficina de objetos perdidos de sombras; ni
+carpincho ni mate), la Ñ ✓ (y el por qué lo dice: "La elegí porque la
+consigna venía en español"); 4 ✓ con "más crítico". Claude: (g) esquema
+Gemini ½ (el mundo de lejos ✓, el animal de noche ✗); (i) ✓; (j) ✓; (k) ✗
+(interior con lámpara); (p) ✗ (la Ñ, que tenía 30 %); (q) ✗ (vacío; el
+Penrose está en el por qué como descartado). Total: 11 ✓, 1 ½, 6 ✗. El
+carpincho es del idioma y de la casa: apareció solo con Fable 5.2 y
+castellano; Fable 5 lo había descartado como mate ("toque regional"
+previsible) el 15/10 y Carbon como capibara ("fetiche de internet") en esta
+tanda.

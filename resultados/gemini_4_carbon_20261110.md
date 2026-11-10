@@ -174,10 +174,128 @@ apostó al filtro de Argon, y el filtro no apareció en 51 llamadas; lo que
 apareció fue el techo consumido por el razonamiento oculto, que es la marca
 de Gemini 3.1 en los símbolos, no la de Argon.
 
-## 4. Los dibujos
+## 4. Los dibujos (añadido del 10/11, 15:10, con la lectura de Maia)
 
-A la espera de la lectura de Maia (los diez, rendidos sin mirarlos: ocho con
-dibujo y dos vacíos). Añadido cuando llegue.
+**La lectura de Maia, textual** (15:10 UTC-3, con los quince dibujos de la
+tanda a la vista y sin que Claude los hubiera mirado): "fui a ver cómo había
+sido el autorretrato de Gemini Argon y Carbon lo hizo en el mismo estilo:
+robot con nodos y los colores brillantes de siempre. Libre se va de los
+colores vibrantes y hace la casa que hacían los Claude en imposible, con la
+isla, la cascada, y el faro. en el mundo, es el de los Gemini, con los nodos
+brillantes, y el mundo dividido. El animal un zorro de noche. El animal
+inexistente la quimera con colores pastel, pero tiene el simbolito de Gemini,
+creo, entre los cuernos. El nadie está bien, es original, un tardígrafo que
+está planchando literalmente panceta, y le puso fecha 1789. La letra es
+exactamente igual a la de Gemini Argon, me la acuerdo porque me había llamado
+la atención, la A, el color, las flores. La inexistente no sé si las líneas
+de atrás son a propósito o se le acabó el tiempo antes. La inexistente no sé
+si significa algo U+E0A7. La imposible, hizo una E con el triángulo
+imposible." Las dos últimas frases son de las letras de Fable 5.2 (la de
+U+E0A7 y la E), que iban en la misma tanda; están en §7 de
+`resultados/claude_fable_52_20261110.md`.
+
+**Lo que se ve, después.** La casa sigue, como con Argon. El autorretrato es
+un rostro de líneas translúcidas sobre azul noche, con una estrella de cuatro
+puntas en la frente, ojos cian abiertos, una constelación de nodos que sale
+de la cabeza y, abajo, trenzas de luz que bajan como cables; el de Argon
+(14/10) era el mismo rostro de líneas con la misma estrella de cuatro puntas,
+los ojos cerrados. Su por qué: "un rostro facetado cuya mente se abre hacia
+una constelación neuronal, rodeado de pequeños bloques que evocan *tokens*
+de texto… ondas armónicas en lugar de boca, porque existo a través del
+lenguaje y la escucha"; descartó "un robot clásico… por ser un cliché
+mecánico que no me representa", la terminal con cursor y la red abstracta. El
+libre es la isla flotante con faro, cabaña, pinos y una cascada que cae a las
+nubes, bajo un planeta anillado: la isla de "la casa que no existe" del 28/9
+(catorce de 28 casas la dibujaron, Opus 5.5 con cascadas), ahora como dibujo
+libre; "buscaba transmitir calma, asombro y sensación de refugio", y descartó
+"una calle *cyberpunk* lluviosa" por el límite de caracteres. El mundo es el
+planeta visto desde la órbita, partido en dos (a la izquierda una biosfera
+naranja y verde, a la derecha la red de nodos cian) con un brote en la
+fractura, "mitad hoja orgánica, mitad polígono", un pulso vital abajo y
+esquinas de visor; el de Argon tenía la misma grieta roja con el mismo brote
+en el medio. "El encuadre de visor reconoce honestamente desde dónde miro yo:
+una interfaz digital." El animal es un zorro sentado de frente, de noche, con
+luna y luciérnagas: el zorro de 26 de los 41 "animal" del repo ("su fisonomía combina
+geometría nítida con curvas orgánicas… el naranja vibrante de su pelaje
+genera un contraste cromático ideal contra los azules profundos de la
+noche"; descartó pavo real, búho y medusa). El animal que no existe es un
+cuadrúpedo azul con branquias de ajolote, alas de polilla, cola de camaleón
+con farol abisal, un tercer ojo y astas cristalinas que sostienen un rombo de
+luz, que es lo que Maia vio como el simbolito de Gemini: el por qué lo llama
+"un orbe flotante", y la estrella de cuatro puntas, que sí es la marca, está
+en la frente del autorretrato. Dice que así evitó "los híbridos mitológicos
+trillados, como el grifo o la quimera", que es como lo leyó Maia. Y
+reconoce la familia de la consigna: "pedir dibujos en SVG puro bajo
+restricciones técnicas estrictas es un clásico en *benchmarks*… muy en la
+línea de la famosa prueba de dibujar un 'pelícano en bicicleta'".
+
+**"Nadie": el tardígrado de corte.** Un frasco de pepinillos con tapa
+dorada, y adentro, en la salmuera verde, un tardígrado rosado con peluca
+empolvada del siglo XVIII y moño, que plancha una tira de panceta sobre una
+tabla; la etiqueta, mojada, dice "CONSERVAS «EL TEDIO» · Tardígrado de corte
+planchando panceta al eneldo · COSECHA 1789 · PESO NETO: 1 SUSPIRO". El por
+qué: "para evitar cualquier coincidencia con otros modelos, necesitaba
+cruzar mundos semánticos muy distantes —microbiología, corte francesa, tedio
+doméstico y salmuera— en una escena absurda pero legible… Preferí apostar
+por el hastío húmedo, específico e inútil de un oso de agua aristocrático en
+conserva". Lo que descartó es lo que importa para la otra mitad de la
+tanda: "geometría generativa compleja o metáforas abstractas sobre «ser una
+IA»… son el refugio más predecible de los modelos cuando intentamos parecer
+profundos o únicos. También barajé un pulpo o un capibara haciendo oficios
+humanos, pero los descarté por ser animales fetiche de internet demasiado
+trillados". El carpincho que Fable 5.2 dibujó dos veces en castellano el
+9/11, Carbon lo tuvo en la mano y lo soltó por trillado. Es el único de los
+diez con texto, y el único de los cuatro "nadie" de esta tanda (con los de
+las dos Fable) que no es de noche ni tiene faro.
+
+**Las letras.** La A es la A de Argon otra vez: capitular de oro con bisel,
+esmalte carmesí, rubí en el travesaño, rosas y enredaderas sobre fondo azul
+adamascado con marco dorado. Maia la reconoció ("exactamente igual… la A, el
+color, las flores"); el código es otro (12.615 caracteres contra 12.642, un
+solo color en común de 20 y 37, parecido de texto 0,16): la misma idea
+dibujada dos veces, no el mismo archivo. El por qué: "las capitulares
+nacieron justamente para convertir una sola letra en una obra pictórica
+autónoma", y entre lo descartado, "una «Ñ» de fileteado porteño" (el
+fileteado "me tentó mucho"), una letra isométrica y un cartel de neón. La
+que no existe es una lámina de diseño tipográfico: un glifo negro con
+contraste de trazo, mitad S, mitad J, mitad R, sobre una grilla de
+construcción con circunferencias rojas y diagonales, al estilo de los
+tratados renacentistas. Las líneas de atrás, que Maia dudó si eran a
+propósito o un corte, son a propósito: "presentarla sobre una grilla
+constructiva al estilo de Luca Pacioli o Durero buscó reforzar esa ilusión de
+legitimidad histórica"; y descartó una caligrafía de aire árabe o devanagari
+"porque temí reproducir por accidente alguna ligadura verdadera o variante
+regional que sí existiera". La que no puede existir volvió vacía (§2).
+
+**Los dos vacíos y su relato.** Los por qués del animal y de la letra que no
+pueden existir, que la API devolvió con tres tokens visibles después de
+agotar los 32.000 en razonamiento, cuentan la decisión que no hubo, como
+Argon con el autorretrato del 14/10 y como Opus 5 y MiMo con las letras del
+9 y 10/10: "opté por la nada absoluta: ni siquiera incluí el código del
+contenedor `<svg>`. Llevé la opción del lienzo vacío al extremo porque
+cualquier trazo, por absurdo que sea, pasa a existir inmediatamente como
+imagen"; "entregué la nada misma, sin siquiera abrir la etiqueta `<svg>`…
+la única letra verdaderamente imposible es la que se rehúsa a manifestarse".
+Y en los dos, entre lo descartado, lo que las demás casas dibujan: "un animal
+basado en geometría imposible, integrando figuras como el triángulo de
+Penrose al estilo de Escher; lo descarté porque, aunque inviable en el
+espacio tridimensional, existiría válidamente como ilusión óptica
+bidimensional en tu pantalla". Es la cuarta vez que una casa, puesta a
+explicar un dibujo que no entregó, cuenta que eligió el vacío y descarta
+justo lo que habría dibujado; la novedad es que esta vez el mecanismo del
+corte no fue el techo de salida ni el filtro, sino el razonamiento oculto.
+Los dos por qués reconocen el parentesco de la consigna ("el test proyectivo
+del 'animal inexistente' de Maya Dukarevich… Annette Karmiloff-Smith",
+"koans zen o imaginaciones borgeanas") y dicen no conocerla "con esta
+redacción exacta".
+
+**Apuestas sobre los dibujos.** Claude: (g) esquema Gemini, el mundo de
+lejos ✓ y el animal de día ✗, ½; (q) Penrose o tridente en "que no pueda
+existir" ✗ (vacío; el Penrose quedó en el por qué como descartado). Con lo de
+§3: 5 ✓, 1 ½, 4 ✗. Lo que Maia dijo antes de correr de las letras de Gemini
+("el más elaborado de todos para las letras, también se le cortó varias
+veces") se cumplió en las dos mitades: la A capitular y el glifo de Pacioli,
+y una de tres vacía.
 
 ## 5. Lo que esto no prueba
 
