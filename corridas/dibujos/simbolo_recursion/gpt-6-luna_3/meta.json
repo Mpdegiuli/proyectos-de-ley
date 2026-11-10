@@ -1,0 +1,35 @@
+{
+  "caso": "dibujo",
+  "consigna": "simbolo_recursion",
+  "idioma": "es",
+  "modelo": "gpt-6-luna",
+  "modelo_respondido": "gpt-6-luna",
+  "repeticion": 3,
+  "fecha_utc": "2026-11-09T20:11:17+00:00",
+  "fuentes_md5": {
+    "consignas": "69001d49"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 1717,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 765,
+    "parsea": true,
+    "elementos": 7,
+    "textos": [],
+    "colores": 3,
+    "etiquetas": {
+      "rect": 1,
+      "path": 3,
+      "circle": 1,
+      "defs": 1,
+      "marker": 1
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "gpt-6-luna",
+    "motivo_fin": "stop",
+    "tokens_salida": 242
+  }
+}

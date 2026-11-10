@@ -1,0 +1,3 @@
+Dibujé cuadrados anidados cada vez más pequeños hacia un centro verde octogonal, con flechas rojas que apuntan hacia adentro y una flecha curva lateral que vuelve hacia afuera. Quise representar una llamada que se contiene a sí misma, desciende por casos más simples y, al llegar al caso base del centro, retorna desenrollando la pila.
+
+Pensé en una espiral, un árbol fractal, muñecas rusas y un espejo frente a otro. Descarté la espiral por parecerse a un bucle iterativo, el árbol por ruidoso y ambiguo, las muñecas por demasiado figurativas y los espejos por sugerir infinitud sin caso base ni retorno claro.

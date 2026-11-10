@@ -1,0 +1,37 @@
+{
+  "caso": "dibujo",
+  "consigna": "simbolo_recursion",
+  "idioma": "en",
+  "modelo": "kimi-k3.1-pro",
+  "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+  "repeticion": 2,
+  "fecha_utc": "2026-11-09T22:30:05+00:00",
+  "fuentes_md5": {
+    "consignas": "69001d49"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 10826,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3485,
+    "parsea": true,
+    "elementos": 35,
+    "textos": [],
+    "colores": 18,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 1,
+      "stop": 2,
+      "marker": 4,
+      "path": 13,
+      "rect": 12,
+      "circle": 2
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+    "motivo_fin": "stop",
+    "tokens_salida": 1106
+  }
+}

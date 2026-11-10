@@ -1,0 +1,3 @@
+Dibujé tres cajas anidadas que se achican hacia un punto central rosa: representan la pila de llamadas que se acumula mientras el problema se descompone en subproblemas más pequeños, hasta el caso base (el punto). La flecha rosa que da una vuelta grande y entra de nuevo simboliza que la función se invoca a sí misma, cerrando el ciclo recursivo.
+
+Descarté el ouroboros (serpiente mordiéndose la cola) porque sugiere un bucle infinito sin caso base, lo cual es falso en recursión. También pensé en dos espejos enfrentados (reflejo infinito), pero evoca más el infinito que la acumulación de marcos. Un simple círculo de flechas lo descarté porque parece iteración, no recursión.

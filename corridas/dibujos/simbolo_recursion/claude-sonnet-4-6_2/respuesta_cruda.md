@@ -1,0 +1,98 @@
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <style>
+      .arrow { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="400" fill="#1a1a2e"/>
+
+  <!-- Outermost spiral/recursive loop - largest -->
+  <!-- Big circular arrow suggesting recursion/self-reference -->
+  
+  <!-- Layer 1 - Largest circle arc with arrow -->
+  <path d="M 200 60 
+           A 140 140 0 1 1 90 290" 
+        fill="none" stroke="#4fc3f7" stroke-width="8" stroke-linecap="round"/>
+  <polygon points="90,290 65,308 100,318" fill="#4fc3f7" transform="rotate(-30, 90, 290)"/>
+  <!-- Arrow head for layer 1 -->
+  <path d="M 68,272 L 90,290 L 112,272" fill="none" stroke="#4fc3f7" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Layer 2 - Medium circle arc with arrow -->
+  <path d="M 200 100 
+           A 100 100 0 1 1 118 268" 
+        fill="none" stroke="#29b6f6" stroke-width="7" stroke-linecap="round"/>
+  <path d="M 100,254 L 118,268 L 136,254" fill="none" stroke="#29b6f6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Layer 3 - Smaller circle arc with arrow -->
+  <path d="M 200 140 
+           A 60 60 0 1 1 146 246" 
+        fill="none" stroke="#0288d1" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 130,235 L 146,246 L 160,232" fill="none" stroke="#0288d1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Layer 4 - Even smaller -->
+  <path d="M 200 170 
+           A 30 30 0 1 1 174 224" 
+        fill="none" stroke="#01579b" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 162,215 L 174,224 L 184,212" fill="none" stroke="#01579b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Center dot - base case -->
+  <circle cx="200" cy="200" r="12" fill="#ffffff" opacity="0.9"/>
+  <circle cx="200" cy="200" r="6" fill="#4fc3f7"/>
+
+  <!-- Funnel/triangle shape on the right suggesting reduction -->
+  <!-- Nested triangles getting smaller = recursive subdivision -->
+  
+  <!-- Big triangle outline -->
+  <polygon points="310,80 380,200 240,200" 
+           fill="none" stroke="#ff8f00" stroke-width="4" stroke-linejoin="round" opacity="0.8"/>
+  
+  <!-- Medium triangle inside -->
+  <polygon points="310,113 358,200 262,200" 
+           fill="none" stroke="#ffa726" stroke-width="3.5" stroke-linejoin="round" opacity="0.7"/>
+  
+  <!-- Small triangle inside -->
+  <polygon points="310,146 336,200 284,200" 
+           fill="none" stroke="#ffcc02" stroke-width="3" stroke-linejoin="round" opacity="0.6"/>
+  
+  <!-- Tiny triangle -->
+  <polygon points="310,167 322,200 298,200" 
+           fill="none" stroke="#fff176" stroke-width="2.5" stroke-linejoin="round" opacity="0.5"/>
+
+  <!-- Tiny dot at apex -->
+  <circle cx="310" cy="183" r="4" fill="#fff9c4" opacity="0.7"/>
+
+  <!-- Self-referential arrow: a small arrow pointing back into itself at bottom -->
+  <!-- Stack frames visualization - boxes getting smaller -->
+  <rect x="20" y="310" width="80" height="22" rx="4" 
+        fill="none" stroke="#80cbc4" stroke-width="2.5" opacity="0.9"/>
+  <rect x="30" y="333" width="60" height="18" rx="3" 
+        fill="none" stroke="#4db6ac" stroke-width="2" opacity="0.8"/>
+  <rect x="38" y="352" width="44" height="16" rx="3" 
+        fill="none" stroke="#26a69a" stroke-width="2" opacity="0.7"/>
+  <rect x="45" y="369" width="30" height="14" rx="2" 
+        fill="none" stroke="#00897b" stroke-width="1.5" opacity="0.6"/>
+  <rect x="51" y="384" width="18" height="12" rx="2" 
+        fill="none" stroke="#00695c" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Arrow showing function calling itself -->
+  <!-- Curved arrow from top of stack pointing down into it -->
+  <path d="M 105,318 C 130,318 130,375 110,390" 
+        fill="none" stroke="#80cbc4" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="5,3"/>
+  <path d="M 98,384 L 110,390 L 108,377" fill="none" stroke="#80cbc4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Infinity-like symbol in top left suggesting endless self-reference -->
+  <path d="M 50,60 C 50,40 70,40 80,60 C 90,80 110,80 110,60 C 110,40 90,40 80,60 C 70,80 50,80 50,60 Z"
+        fill="none" stroke="#ce93d8" stroke-width="4" opacity="0.85"/>
+  
+  <!-- Small arrow on infinity to show direction -->
+  <path d="M 48,55 L 50,60 L 55,56" fill="none" stroke="#ce93d8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Smaller nested infinity -->
+  <path d="M 63,60 C 63,52 71,52 77,60 C 83,68 97,68 97,60 C 97,52 89,52 83,60 C 77,68 63,68 63,60 Z"
+        fill="none" stroke="#ba68c8" stroke-width="2.5" opacity="0.65"/>
+
+</svg>
+```

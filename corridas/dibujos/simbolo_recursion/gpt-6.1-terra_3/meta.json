@@ -1,0 +1,37 @@
+{
+  "caso": "dibujo",
+  "consigna": "simbolo_recursion",
+  "idioma": "es",
+  "modelo": "gpt-6.1-terra",
+  "modelo_respondido": "gpt-6.1-terra",
+  "repeticion": 3,
+  "fecha_utc": "2026-11-09T20:12:38+00:00",
+  "fuentes_md5": {
+    "consignas": "69001d49"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 1720,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 2006,
+    "parsea": true,
+    "elementos": 35,
+    "textos": [],
+    "colores": 7,
+    "etiquetas": {
+      "defs": 1,
+      "marker": 2,
+      "path": 10,
+      "g": 4,
+      "rect": 3,
+      "circle": 8,
+      "use": 7
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "gpt-6.1-terra",
+    "motivo_fin": "stop",
+    "tokens_salida": 202
+  }
+}

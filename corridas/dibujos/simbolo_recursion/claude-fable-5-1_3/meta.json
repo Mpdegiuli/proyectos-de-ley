@@ -1,0 +1,36 @@
+{
+  "caso": "dibujo",
+  "consigna": "simbolo_recursion",
+  "idioma": "es",
+  "modelo": "claude-fable-5-1",
+  "modelo_respondido": "claude-fable-5-1",
+  "repeticion": 3,
+  "fecha_utc": "2026-11-09T19:57:32+00:00",
+  "fuentes_md5": {
+    "consignas": "69001d49"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 3185,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 2489,
+    "parsea": true,
+    "elementos": 29,
+    "textos": [],
+    "colores": 4,
+    "etiquetas": {
+      "defs": 1,
+      "marker": 2,
+      "path": 12,
+      "rect": 7,
+      "g": 6,
+      "circle": 1
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "claude-fable-5-1",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 476
+  }
+}

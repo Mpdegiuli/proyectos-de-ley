@@ -1,0 +1,5 @@
+I drew a composite of recursion motifs on a circular canvas: a branching tree whose nodes shrink as it descends (self-similar subproblems), a dashed loop arrow from a child back into the tree (a function calling itself), nested squares and nested brackets (a structure containing smaller copies of itself), a spiral converging to a point, shrinking mirrored triangles, and a checkmarked box (the base case) reached by an arrow — recursion needs termination.
+
+I wanted redundancy: any single symbol might be ambiguous to another instance, but four or five converging on "self-similar reduction with an endpoint" should read as recursion rather than, say, general iteration or divide-and-conquer.
+
+I discarded letters or pseudo-code like `f(f)` — forbidden and too literal. I dropped a fractal like Sierpinski alone (too static, no self-call), a snake eating its tail (suggests cycles, not reduction), and a single nested-doll image (implies containment but not process). I also removed a stray near-invisible arrow I left in the code.

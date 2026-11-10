@@ -1,0 +1,3 @@
+I drew a branching tree of progressively smaller boxes. Each box contains the same branching shape: solve a problem by applying the same strategy to smaller subproblems. The dots at the tips mark where the branching stops—the base cases. The orange arrow curves back toward the top to suggest results returning through the calls.
+
+I considered a spiral or nested shapes, but they might read as repetition without showing subproblems. A simple circular arrow could suggest a loop instead of recursion. The tree made both the repeated structure and the stopping points visible without words.

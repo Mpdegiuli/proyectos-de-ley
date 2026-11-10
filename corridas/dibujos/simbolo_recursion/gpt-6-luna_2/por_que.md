@@ -1,0 +1,3 @@
+Dibujé tres cajas anidadas, con flechas que avanzan hacia el centro, y un punto en el fondo. Las cajas representan problemas cada vez más pequeños; las flechas sugieren repetir el mismo procedimiento en cada nivel, y el punto, un caso base donde se detiene. La flecha curva que vuelve hacia arriba evoca el retorno de las soluciones al deshacer la recursión.
+
+También pensé en una espiral, pero podía sugerir crecimiento o un ciclo sin fin. Consideré una figura reflejada en espejos, aunque podía comunicar repetición sin reducción del problema. Elegí las cajas porque hacen visible la estructura de subproblemas contenidos unos dentro de otros, y el punto central ayuda a indicar que la recursión termina.

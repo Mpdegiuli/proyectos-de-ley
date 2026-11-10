@@ -1,0 +1,3 @@
+I drew a branching tree, with each node splitting into smaller branches, to suggest solving a problem by breaking it into smaller versions of itself. The curved arrow loops back toward the top, hinting at returning through the recursive calls.
+
+I also considered a self-similar spiral or nested shapes, since repetition within repetition can suggest recursion. I left those out because they might read as decoration or simply repetition, rather than a strategy for a programming problem. The tree makes the breakdown into subproblems more explicit, and the arrow adds the idea of a recursive return.

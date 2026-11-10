@@ -1,0 +1,5 @@
+Dibujé una serie de triángulos anidados que se reducen hacia un punto central, con flechas curvas que se doblan sobre sí mismas en cada nivel, y un punto dorado brillante en la base con ramas que se abren hacia arriba.
+
+Los triángulos anidados representan la autosimilitud recursiva: cada nivel es una versión más pequeña del anterior. Las flechas curvas naranjas muestran que cada nivel "se llama a sí mismo". El punto dorado es el caso base, y las ramas ascendentes simbolizan el desenrollado de la pila.
+
+Consideré otras opciones: una espiral de Fibonacci (muy asociada a matemáticas, menos a programación), un símbolo de infinito con subdivisiones (demasiado ambiguo), y una función dentro de otra función representada como cajas concéntricas (descartada porque podía leerse como herencia o encapsulamiento orientado a objetos). El triángulo de Sierpinski me pareció el referente visual más universalmente asociado a recursión.

@@ -1,0 +1,3 @@
+Dibujé cuadrados encajados: las flechas celestes avanzan hacia un centro pequeño, y las naranjas salen de él. Quise representar una función que se llama con problemas cada vez más chicos, llega a un **caso base** y después devuelve los resultados al deshacer las llamadas.
+
+Pensé en un árbol fractal, pero podía sugerir que toda recursión se ramifica. También en una flecha circular, pero se parecía demasiado a un bucle infinito. Los cuadrados anidados me permitían mostrar tanto la reducción del problema como el camino de regreso, sin usar palabras.

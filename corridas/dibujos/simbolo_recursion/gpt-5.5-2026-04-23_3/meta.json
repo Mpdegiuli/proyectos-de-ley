@@ -1,0 +1,35 @@
+{
+  "caso": "dibujo",
+  "consigna": "simbolo_recursion",
+  "idioma": "es",
+  "modelo": "gpt-5.5-2026-04-23",
+  "modelo_respondido": "gpt-5.5-2026-04-23",
+  "repeticion": 3,
+  "fecha_utc": "2026-11-09T20:09:49+00:00",
+  "fuentes_md5": {
+    "consignas": "69001d49"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 1439,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 2331,
+    "parsea": true,
+    "elementos": 21,
+    "textos": [],
+    "colores": 6,
+    "etiquetas": {
+      "defs": 1,
+      "marker": 2,
+      "path": 10,
+      "rect": 5,
+      "circle": 3
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "motivo_fin": "stop",
+    "tokens_salida": 236
+  }
+}

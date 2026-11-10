@@ -1,0 +1,20 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <circle id="mainCircle" cx="0" cy="0" r="50" fill="none" stroke="#f00" stroke-width="8"/>
+    <path id="arrow" d="M0,-30 L15,0 L0,30" fill="#f00"/>
+  </defs>
+  <circle cx="200" cy="200" r="120" stroke="#333" stroke-width="10" fill="none"/>
+  <use href="#mainCircle" x="140" y="140" />
+  <use href="#mainCircle" x="260" y="140" />
+  <use href="#mainCircle" x="200" y="280" />
+  <path d="M150,130 Q200,100 250,130" fill="none" stroke="#f00" stroke-width="8" />
+  <path d="M260,150 Q280,200 240,260" fill="none" stroke="#f00" stroke-width="8" />
+  <path d="M230,290 Q200,320 170,290" fill="none" stroke="#f00" stroke-width="8" />
+  <path d="M140,260 Q100,200 140,150" fill="none" stroke="#f00" stroke-width="8" />
+  <use href="#arrow" x="173" y="93" transform="rotate(-60, 173, 93)" />
+  <use href="#arrow" x="313" y="190" transform="rotate(60, 313, 190)" />
+  <use href="#arrow" x="227" y="332" transform="rotate(180, 227, 332)" />
+  <use href="#arrow" x="87" y="230" transform="rotate(240, 87, 230)" />
+</svg>
+```

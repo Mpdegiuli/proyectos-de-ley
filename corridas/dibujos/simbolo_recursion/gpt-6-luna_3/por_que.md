@@ -1,0 +1,3 @@
+Dibujé un camino cuadrado que se repliega hacia el centro: cada vuelta es una versión más pequeña de la anterior. La flecha indica que hay que seguir avanzando hacia ese subproblema reducido; el punto central sugiere el caso más simple, donde se detiene la recursión.
+
+Pensé en dibujar árboles de ramas, pero podían sugerir dividir el problema en varias partes, no necesariamente resolverlo recursivamente. También consideré una figura dentro de otra, pero podía parecer solo anidamiento, sin indicar el proceso de reducir y repetir. Descarté incluir un código o una función llamándose a sí misma porque las letras y los números estaban prohibidos. Elegí la espiral porque comunica repetición y reducción con una sola forma, sin depender de texto.

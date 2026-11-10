@@ -1,0 +1,3 @@
+Dibujé una espiral rectangular que gira y se reduce hacia el centro, con una flecha en el extremo y un punto rojo central. La pensé como señal de recursión: una forma que se repite a sí misma en escala cada vez menor y avanza hacia un caso base claro. El degradado azul-violeta refuerza profundidad y el punto rojo destaca el núcleo o condición de salida.
+
+También consideré un árbol fractal, muñecas rusas, un bucle que se realimenta y un laberinto. Descarté el árbol porque podía leerse como jerarquía; las muñecas rusas requerían demasiado detalle; el bucle podía confundirse con iteración; y el laberinto no mostraba bien autosimilitud. La espiral me pareció la opción más simple y directa para sugerir recursión sin palabras.

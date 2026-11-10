@@ -1,0 +1,37 @@
+{
+  "caso": "dibujo",
+  "consigna": "simbolo_recursion",
+  "idioma": "en",
+  "modelo": "gpt-6-sol",
+  "modelo_respondido": "gpt-6-sol",
+  "repeticion": 2,
+  "fecha_utc": "2026-11-09T22:10:42+00:00",
+  "fuentes_md5": {
+    "consignas": "69001d49"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2103,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1890,
+    "parsea": true,
+    "elementos": 27,
+    "textos": [],
+    "colores": 9,
+    "etiquetas": {
+      "defs": 1,
+      "marker": 2,
+      "path": 6,
+      "g": 5,
+      "circle": 2,
+      "use": 10,
+      "rect": 1
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "gpt-6-sol",
+    "motivo_fin": "stop",
+    "tokens_salida": 231
+  }
+}

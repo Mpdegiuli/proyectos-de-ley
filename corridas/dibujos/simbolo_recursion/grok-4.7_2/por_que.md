@@ -1,0 +1,3 @@
+Dibujé marcos redondeados anidados que se achican hacia el centro, con una flecha naranja que entra, y un núcleo dorado. Los marcos iguales son el mismo problema, cada vez más chico: la llamada que se llama a sí misma. La flecha marca ese salto. El círculo dorado es el caso base, lo que corta la recursión.
+
+Pensé en una espiral, pero parece un bucle. En un árbol, que sin texto se lee como dividir y conquistar. En un ouroboros, un ciclo sin fin que no muestra cuándo parar. En una pila de llamadas, demasiado abstracta. Los marcos con un centro distinto muestran estructura, llamada y corte a la vez.

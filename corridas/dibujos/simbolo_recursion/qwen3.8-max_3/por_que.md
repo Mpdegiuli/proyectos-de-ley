@@ -1,0 +1,3 @@
+Dibujé una espiral de flechas autocontenidas: cada flecha apunta a una copia más chica de la espiral, y la última señala un cuadrado simple. La espiral representa repetición y auto-semejanza; las flechas, llamadas; el cuadrado, caso base. Sin letras, otra instancia leería: reducí el problema, llamá de nuevo, frená cuando sea simple.
+
+Pensé en una muñeca rusa, pero era literal y difícil de convertir en instrucción. Consideré espejos enfrentados, pero generaban profundidad ambigua. Descarté un círculo cerrado, porque parecía iteración, no recursión con caso base. Elegí la espiral porque muestra descenso, retorno y límite.

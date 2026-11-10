@@ -1,0 +1,3 @@
+I drew a branching tree of repeated, smaller copies of the same shape. The blue arrows move from a parent to its subproblems; the green leaves mark stopping points; and the orange arrows bring results back up. I wanted the image to suggest the two essential parts of recursion: reduce a problem until a base case is reached, then combine the answers on the way back.
+
+I also considered a spiral and nested boxes, but either could suggest repetition without clearly showing the return from subproblems. A more literal code-flow diagram would have been harder to read without words.

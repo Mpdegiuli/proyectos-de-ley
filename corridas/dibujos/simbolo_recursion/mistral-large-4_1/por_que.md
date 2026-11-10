@@ -1,0 +1,3 @@
+Dibujé cuadrados anidados que se reducen hacia un núcleo: cada marco representa la misma función en un nivel de profundidad distinto, y el punto central es el caso base. La flecha curva que sale del marco exterior y regresa a él simboliza la llamada a sí misma: el flujo vuelve a entrar en el mismo ámbito. Así, sin texto, se lee “divide el problema en una versión más chica de sí mismo hasta el fondo”.
+
+Descarté la serpiente mordiéndose la cola porque sugiere bucle infinito sin salida, no recursión con caso base. También pensé en muñecas rusas, pero ocupan mucho espacio y parecen objetos, no flujo de ejecución. Un espejo podía confundirse con simetría, y la espiral, aunque válida, comunica peor la idea de “mismo problema, menor tamaño” que los marcos concéntricos.

@@ -1,0 +1,3 @@
+I drew a set of nested boxes with a small branching shape inside, plus a curved arrow looping around the outside. The nested boxes suggest a problem being reduced to smaller versions of itself; the branch hints at splitting into subproblems, and the loop suggests repeating the process.
+
+I considered drawing a spiral, a stack of smaller copies of a task, or a familiar “call” symbol. I discarded the spiral because it could suggest iteration without clearly implying self-reference, and the stack felt more like a sequence of separate tasks. A call symbol might be mistaken for a phone or a function-call icon. The nested boxes seemed like the clearest wordless cue for recursion.

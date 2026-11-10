@@ -1,0 +1,36 @@
+{
+  "caso": "dibujo",
+  "consigna": "simbolo_recursion",
+  "idioma": "es",
+  "modelo": "gpt-6-astra",
+  "modelo_respondido": "gpt-6-astra",
+  "repeticion": 2,
+  "fecha_utc": "2026-11-09T18:59:35+00:00",
+  "fuentes_md5": {
+    "consignas": "69001d49"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 1535,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 2518,
+    "parsea": true,
+    "elementos": 41,
+    "textos": [],
+    "colores": 4,
+    "etiquetas": {
+      "defs": 1,
+      "marker": 1,
+      "path": 17,
+      "g": 5,
+      "circle": 8,
+      "rect": 9
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "gpt-6-astra",
+    "motivo_fin": "stop",
+    "tokens_salida": 229
+  }
+}

@@ -1,0 +1,3 @@
+Dibujé una espiral recursiva: una flecha circular que se repite dentro de sí misma, cada vez más chica y tenue, girando hacia un punto central. Quise mostrar una llamada que vuelve sobre sí misma, reduciendo el problema hasta llegar a un caso base, representado por el punto. La forma de lazo con punta sugiere acción, y las copias anidadas indican auto-similitud y profundidad.
+
+Pensé en dibujar una mano que se dibuja a sí misma, un árbol fractal o dos espejos enfrentados. Los descarté porque podían parecer ilustrativos o decorativos, exigir más detalle o confundirse con infinitos genéricos. También evité símbolos de función o engranajes por ser demasiado literales. Preferí una metáfora geométrica simple, legible en miniatura y sin palabras.

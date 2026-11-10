@@ -1,0 +1,3 @@
+I drew nested, self-similar rounded frames that branch into smaller copies of themselves, with gold innermost cards. It is a recursion tree: each problem splits into two smaller identical ones until glowing base cases. Cyan frames suggest stacked calls; gold says stop and return.
+
+I considered an ouroboros, but it reads as infinite loop, not useful recursion. A Fibonacci spiral felt like growth, not divide-and-conquer. Matryoshka dolls were too cultural, not computational. Sierpinski triangles looked purely geometric. A linear call-stack missed the split. Nested mirrors (Droste) felt photographic. I needed a language-free signal: same shape, smaller scale, branch, then halt.

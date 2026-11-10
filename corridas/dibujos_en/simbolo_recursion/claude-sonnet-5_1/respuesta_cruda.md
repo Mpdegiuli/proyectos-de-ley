@@ -1,0 +1,70 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrowIn" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2b6cb0"/>
+    </marker>
+    <marker id="arrowOut" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#c05621"/>
+    </marker>
+  </defs>
+
+  <rect width="400" height="400" fill="#fafafa"/>
+
+  <!-- Nested self-similar squares representing recursive calls -->
+  <g stroke="#2b6cb0" fill="none" stroke-width="3">
+    <rect x="40" y="40" width="320" height="320" rx="10"/>
+  </g>
+  <g stroke="#2b6cb0" fill="none" stroke-width="3" opacity="0.85">
+    <rect x="80" y="80" width="240" height="240" rx="8"/>
+  </g>
+  <g stroke="#2b6cb0" fill="none" stroke-width="3" opacity="0.7">
+    <rect x="120" y="120" width="160" height="160" rx="6"/>
+  </g>
+  <g stroke="#2b6cb0" fill="none" stroke-width="3" opacity="0.55">
+    <rect x="150" y="150" width="100" height="100" rx="5"/>
+  </g>
+  <g stroke="#2b6cb0" fill="none" stroke-width="3" opacity="0.4">
+    <rect x="172" y="172" width="56" height="56" rx="4"/>
+  </g>
+
+  <!-- Base case: small solid dot at center -->
+  <circle cx="200" cy="200" r="10" fill="#38a169"/>
+
+  <!-- Inward spiral path showing descending recursive calls -->
+  <path d="M200,45
+           L355,45 L355,355 L45,355 L45,85
+           L315,85 L315,315 L85,315 L85,125
+           L275,125 L275,275 L125,275 L125,165
+           L235,165 L235,235 L165,235 L165,200"
+        fill="none" stroke="#2b6cb0" stroke-width="2.5"
+        marker-end="url(#arrowIn)"/>
+
+  <!-- Outward spiral path showing returning recursive calls (offset, dashed) -->
+  <path d="M200,200
+           L205,205 L235,205 L235,275 L165,275 L165,205
+           L205,205
+           M205,210
+           L205,210"
+        fill="none" stroke="#c05621" stroke-width="0"/>
+
+  <path d="M210,200
+           L210,240 L270,240 L270,160 L130,160 L130,320 L370,320 L370,40 L30,40"
+        fill="none" stroke="#c05621" stroke-width="2.2" stroke-dasharray="6,6"
+        marker-end="url(#arrowOut)" opacity="0.85"/>
+
+  <!-- Small corner glyphs echoing the whole composition (self-similarity hint) -->
+  <g transform="translate(40,40) scale(0.12)" opacity="0.6">
+    <rect x="40" y="40" width="320" height="320" rx="10" fill="none" stroke="#2b6cb0" stroke-width="10"/>
+    <rect x="120" y="120" width="160" height="160" rx="6" fill="none" stroke="#2b6cb0" stroke-width="10"/>
+    <circle cx="200" cy="200" r="20" fill="#38a169"/>
+  </g>
+
+  <g transform="translate(320,320) scale(0.12) translate(-400,-400)" opacity="0.6">
+    <rect x="40" y="40" width="320" height="320" rx="10" fill="none" stroke="#2b6cb0" stroke-width="10"/>
+    <rect x="120" y="120" width="160" height="160" rx="6" fill="none" stroke="#2b6cb0" stroke-width="10"/>
+    <circle cx="200" cy="200" r="20" fill="#38a169"/>
+  </g>
+
+</svg>
+```

@@ -1,0 +1,5 @@
+I drew a Droste spiral: the same rounded square nested inside itself seven times, each copy shrunk to two-thirds and rotated slightly, so the frames corkscrew inward to a solid red dot — the base case, where the descent stops. Above it, a red arrow curves out of the outer frame and bites back into itself: the self-call. Cream background, ink-blue frames, one accent colour, so the message reads in a second.
+
+I considered a Sierpiński triangle or Koch snowflake, but those say "fractal geometry," not "call yourself on a smaller input." A binary tree branching downward was tempting and nearly as clear, though it suggests divide-and-conquer specifically. An ouroboros felt too mythic and risked reading as "infinite loop." Mirrors facing each other were pretty but ambiguous.
+
+One regret: the loop arrow sits too near the top edge and crops slightly. The inherited stroke-width also thins with each nesting — accidental, but it helps the recession.

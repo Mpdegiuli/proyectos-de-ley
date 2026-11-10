@@ -1,0 +1,3 @@
+Dibujé una espiral cuadrada que se repliega hacia adentro, como marcos idénticos cada vez más pequeños, y en el centro un punto luminoso con un halo: el caso base. La idea es sugerir recursión: el mismo patrón se repite en una versión reducida hasta detenerse en un núcleo simple. Elegí esa forma porque es clara sin letras ni números, y la espiral transmite “volver a aplicar sobre un problema más chico”.
+
+Pensé en muñecas rusas, un árbol fractal, espejos enfrentados o una escalera que baja. Descarté las muñecas y los espejos por literales o ambiguos; el árbol fractal por demasiado ramificado; la escalera por no mostrar tan bien el caso base. Preferí una geometría única y convergente.

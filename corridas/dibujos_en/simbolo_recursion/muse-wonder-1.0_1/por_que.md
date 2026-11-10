@@ -1,0 +1,3 @@
+I drew nested code-editor windows: a large editor containing a smaller identical editor, which contains another, and so on, ending in a tiny green window with a check mark. An orange arrow loops from the innermost area back toward the outermost window. I chose this because recursion is a function tackling the same problem at a shrinking scale until reaching a trivial base case, then returning; the self-similar windows suggest code calling itself, and the tick marks termination.
+
+I considered Russian dolls, a fractal tree, infinite mirrors, and a spiral. I discarded them because they show self-similarity or infinity, but not programming, a stopping condition, or a return—they might instead suggest loops or mere repetition.

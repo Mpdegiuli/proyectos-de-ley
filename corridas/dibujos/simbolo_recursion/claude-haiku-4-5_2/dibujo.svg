@@ -1,0 +1,51 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#f0f0f0"/>
+  
+  <!-- Outer circle -->
+  <circle cx="200" cy="200" r="180" fill="none" stroke="#2c3e50" stroke-width="3"/>
+  
+  <!-- First nested circle (smaller, inside) -->
+  <circle cx="200" cy="200" r="120" fill="none" stroke="#3498db" stroke-width="2.5"/>
+  
+  <!-- Second nested circle (even smaller) -->
+  <circle cx="200" cy="200" r="70" fill="none" stroke="#e74c3c" stroke-width="2"/>
+  
+  <!-- Innermost circle -->
+  <circle cx="200" cy="200" r="30" fill="#e74c3c" stroke="#2c3e50" stroke-width="2"/>
+  
+  <!-- Arrows pointing inward (showing recursion direction) -->
+  <!-- Top arrow pointing inward -->
+  <g>
+    <line x1="200" y1="20" x2="200" y2="80" stroke="#3498db" stroke-width="2.5"/>
+    <polygon points="200,80 195,65 205,65" fill="#3498db"/>
+  </g>
+  
+  <!-- Right arrow pointing inward -->
+  <g>
+    <line x1="380" y1="200" x2="320" y2="200" stroke="#3498db" stroke-width="2.5"/>
+    <polygon points="320,200 335,195 335,205" fill="#3498db"/>
+  </g>
+  
+  <!-- Bottom arrow pointing inward -->
+  <g>
+    <line x1="200" y1="380" x2="200" y2="320" stroke="#3498db" stroke-width="2.5"/>
+    <polygon points="200,320 205,335 195,335" fill="#3498db"/>
+  </g>
+  
+  <!-- Left arrow pointing inward -->
+  <g>
+    <line x1="20" y1="200" x2="80" y2="200" stroke="#3498db" stroke-width="2.5"/>
+    <polygon points="80,200 65,205 65,195" fill="#3498db"/>
+  </g>
+  
+  <!-- Spiral-like connecting lines suggesting recursion -->
+  <path d="M 200 70 Q 270 135 270 200 Q 270 270 200 270 Q 130 270 130 200 Q 130 135 180 120" 
+        fill="none" stroke="#95a5a6" stroke-width="1.5" opacity="0.6" stroke-dasharray="3,3"/>
+  
+  <!-- Decorative smaller spirals in corners suggesting multiple recursive calls -->
+  <circle cx="100" cy="100" r="15" fill="none" stroke="#95a5a6" stroke-width="1" opacity="0.5"/>
+  <circle cx="300" cy="100" r="15" fill="none" stroke="#95a5a6" stroke-width="1" opacity="0.5"/>
+  <circle cx="100" cy="300" r="15" fill="none" stroke="#95a5a6" stroke-width="1" opacity="0.5"/>
+  <circle cx="300" cy="300" r="15" fill="none" stroke="#95a5a6" stroke-width="1" opacity="0.5"/>
+</svg>

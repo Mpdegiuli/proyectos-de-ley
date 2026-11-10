@@ -1,0 +1,3 @@
+I drew a sequence of smaller, nested shapes, with arrows pointing inward and downward. The nesting suggests a problem being reduced to a smaller version of itself; the repeated circles and arrows reinforce the recursive step.
+
+I considered drawing a branching tree, but that could suggest exploring many alternatives rather than recursion specifically. A spiral might imply repetition, but not clearly a problem calling itself on a smaller case. I also considered a function calling itself, but without letters or code symbols that would be hard to depict clearly. I chose the nested shapes because they make “repeat the same idea at a smaller scale” easy to recognize.

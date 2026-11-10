@@ -1,0 +1,30 @@
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<defs>
+<radialGradient id="bg" cx=".5" cy=".4" r=".8">
+<stop offset="0" stop-color="#152344"/>
+<stop offset="1" stop-color="#0a0f1d"/>
+</radialGradient>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="17" markerHeight="17" markerUnits="userSpaceOnUse" orient="auto">
+<path d="M0 0L10 5L0 10z" fill="#fbbf24"/>
+</marker>
+</defs>
+<rect width="400" height="400" fill="url(#bg)"/>
+<ellipse cx="200" cy="367" rx="46" ry="7" fill="#052e22"/>
+<g fill="none" stroke-linecap="round">
+<path d="M200 362V254" stroke="#065f46" stroke-width="12"/>
+<path d="M200 254L164 187M200 254L236 187" stroke="#047857" stroke-width="8.5"/>
+<path d="M164 187L119 157M164 187L164 133M236 187L236 133M236 187L281 157" stroke="#059669" stroke-width="6"/>
+<path d="M119 157L81 153M119 157L101 123M164 133L146 99M164 133L182 99M236 133L218 99M236 133L254 99M281 157L299 123M281 157L319 153" stroke="#10b981" stroke-width="4"/>
+<path d="M81 153L57 163M81 153L59 139M101 123L79 109M101 123L101 97M146 99L124 85M146 99L146 73M182 99L182 73M182 99L204 85M218 99L196 85M218 99L218 73M254 99L254 73M254 99L276 85M299 123L299 97M299 123L321 109M319 153L341 139M319 153L343 163" stroke="#34d399" stroke-width="2.5"/>
+</g>
+<g fill="#34d399" opacity=".28">
+<circle cx="57" cy="163" r="7"/><circle cx="59" cy="139" r="7"/><circle cx="79" cy="109" r="7"/><circle cx="101" cy="97" r="7"/><circle cx="124" cy="85" r="7"/><circle cx="146" cy="73" r="7"/><circle cx="182" cy="73" r="7"/><circle cx="204" cy="85" r="7"/><circle cx="196" cy="85" r="7"/><circle cx="218" cy="73" r="7"/><circle cx="254" cy="73" r="7"/><circle cx="276" cy="85" r="7"/><circle cx="299" cy="97" r="7"/><circle cx="321" cy="109" r="7"/><circle cx="341" cy="139" r="7"/><circle cx="343" cy="163" r="7"/>
+</g>
+<g fill="#d1fae5">
+<circle cx="57" cy="163" r="3.4"/><circle cx="59" cy="139" r="3.4"/><circle cx="79" cy="109" r="3.4"/><circle cx="101" cy="97" r="3.4"/><circle cx="124" cy="85" r="3.4"/><circle cx="146" cy="73" r="3.4"/><circle cx="182" cy="73" r="3.4"/><circle cx="204" cy="85" r="3.4"/><circle cx="196" cy="85" r="3.4"/><circle cx="218" cy="73" r="3.4"/><circle cx="254" cy="73" r="3.4"/><circle cx="276" cy="85" r="3.4"/><circle cx="299" cy="97" r="3.4"/><circle cx="321" cy="109" r="3.4"/><circle cx="341" cy="139" r="3.4"/><circle cx="343" cy="163" r="3.4"/>
+</g>
+<path d="M128 359A170 170 0 1 1 272 359" fill="none" stroke="#fbbf24" stroke-width="6" stroke-linecap="round" opacity=".9" marker-end="url(#ah)"/>
+<path d="M200 373L184 395L216 395ZM192 384L208 384L200 395ZM196 378.5L204 378.5L200 384Z" fill="none" stroke="#fbbf24" stroke-width="1.5" opacity=".55"/>
+</svg>
+```

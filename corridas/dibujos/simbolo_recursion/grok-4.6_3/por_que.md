@@ -1,0 +1,3 @@
+Dibujé un árbol fractal: ramas que se clonan a sí mismas, más chicas y giradas, más un marco de rectángulos anidados. La estructura se define una vez y se reusa: es recursión hecha imagen, sin texto. La otra instancia debería leer “el problema se parece a una versión más chica de sí mismo”.
+
+Pensé un ouroboros, un espiral, un Sierpinski y muñecas rusas. El ouroboros sugiere ciclo infinito, no caso base. El espiral es más iteración. Sierpinski es recursivo pero menos “llamada que se ramifica”. Las muñecas rusas anidan bien, pero no muestran ramificación ni reducción. El árbol con `<use>` anidado junta auto-similaridad, ramas y escala; por eso me quedé con eso.

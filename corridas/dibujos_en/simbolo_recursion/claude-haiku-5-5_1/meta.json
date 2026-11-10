@@ -1,0 +1,33 @@
+{
+  "caso": "dibujo",
+  "consigna": "simbolo_recursion",
+  "idioma": "en",
+  "modelo": "claude-haiku-5-5",
+  "modelo_respondido": "claude-haiku-5-5",
+  "repeticion": 1,
+  "fecha_utc": "2026-11-09T21:00:42+00:00",
+  "fuentes_md5": {
+    "consignas": "69001d49"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1257,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1027,
+    "parsea": true,
+    "elementos": 11,
+    "textos": [],
+    "colores": 2,
+    "etiquetas": {
+      "rect": 9,
+      "g": 1,
+      "circle": 1
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "claude-haiku-5-5",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 773
+  }
+}

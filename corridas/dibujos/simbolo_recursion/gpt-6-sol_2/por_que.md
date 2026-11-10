@@ -1,0 +1,3 @@
+Dibujé una misma figura ramificada dentro de cuadrados cada vez más pequeños. Las flechas que van hacia adentro representan resolver un problema aplicando el mismo procedimiento a versiones más chicas; el cuadrado mínimo sugiere el caso base. Las flechas del final sugieren volver con los resultados.
+
+Consideré dibujar un árbol fractal, pero podía leerse solo como un árbol. También pensé en espejos enfrentados o una flecha circular: transmitían repetición, aunque no dejaban tan clara la reducción del problema hasta llegar a un caso base.

@@ -1,0 +1,3 @@
+Dibujé tres marcos anidados, cada uno más chico dentro del anterior, con una flecha curva verde que vuelve hacia el centro, y un punto amarillo. Representan una función que se llama a sí misma, reduciendo el problema hasta un caso base. La curva es la recursión; el punto, la semilla o condición de corte.
+
+Pensé en dibujar una espiral, muñecas matrioskas o un árbol que se ramifica. Descarté la espiral por parecer solo iteración; las matrioskas, demasiado literales y difíciles sin texto; el árbol, sugería más búsqueda o jerarquía que recursión directa. También evité letras, números o símbolos de código para que la idea fuera visual y universal.

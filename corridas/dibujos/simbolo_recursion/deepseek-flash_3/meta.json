@@ -1,0 +1,32 @@
+{
+  "caso": "dibujo",
+  "consigna": "simbolo_recursion",
+  "idioma": "es",
+  "modelo": "deepseek-flash",
+  "modelo_respondido": "deepseek-flash",
+  "repeticion": 3,
+  "fecha_utc": "2026-11-09T20:05:59+00:00",
+  "fuentes_md5": {
+    "consignas": "69001d49"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 10449,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 843,
+    "parsea": true,
+    "elementos": 8,
+    "textos": [],
+    "colores": 10,
+    "etiquetas": {
+      "rect": 6,
+      "path": 2
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "deepseek-flash",
+    "motivo_fin": "stop",
+    "tokens_salida": 463
+  }
+}

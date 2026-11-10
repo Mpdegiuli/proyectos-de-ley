@@ -1,0 +1,5 @@
+I drew nested rounded squares, blue arrows pointing inward toward a small central square, and orange arrows pointing outward. The repeated shape at smaller scales represents solving a problem through smaller instances of itself. The center represents a base case; the outward arrows suggest returning results and unwinding recursive calls.
+
+I wanted to convey both descent and return, distinguishing recursion from mere repetition.
+
+I don’t have a record of alternatives I actually considered, but plausible alternatives include a branching tree, a spiral, and a self-loop. I would reject the tree because it could suggest generic search or hierarchy, the spiral because it lacks an obvious base case and return phase, and the self-loop because it more readily suggests iteration. The nested squares make shrinking, self-similar problems especially explicit.

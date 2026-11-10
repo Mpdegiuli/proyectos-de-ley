@@ -1,0 +1,3 @@
+I drew a recursive spiral of arrows: a bold arrow curves inward, with smaller copies of itself branching from its shaft, each carrying even smaller copies. The self-similar nesting is meant to read as “apply the same process again”—an arrow calling itself. I chose arrows because they suggest strategy and direction, and nesting them makes recursion visible without words.
+
+I also considered a Russian-doll stack of squares, a branching tree, and an ouroboros-style loop. I discarded the doll stack as too static, the tree as too easily read as divide-and-conquer rather than general recursion, and the simple loop as too close to iteration. The nested arrow felt like the clearest non-verbal cue toward a function repeatedly invoking itself.

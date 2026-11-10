@@ -1,0 +1,37 @@
+{
+  "caso": "dibujo",
+  "consigna": "simbolo_recursion",
+  "idioma": "en",
+  "modelo": "gemini-4-argon",
+  "modelo_respondido": "gemini-4-argon",
+  "repeticion": 1,
+  "fecha_utc": "2026-11-09T21:09:05+00:00",
+  "fuentes_md5": {
+    "consignas": "69001d49"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 1212,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 2961,
+    "parsea": true,
+    "elementos": 32,
+    "textos": [],
+    "colores": 10,
+    "etiquetas": {
+      "rect": 5,
+      "defs": 1,
+      "marker": 1,
+      "path": 6,
+      "g": 7,
+      "circle": 4,
+      "use": 8
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "gemini-4-argon",
+    "motivo_fin": "stop",
+    "tokens_salida": 188
+  }
+}

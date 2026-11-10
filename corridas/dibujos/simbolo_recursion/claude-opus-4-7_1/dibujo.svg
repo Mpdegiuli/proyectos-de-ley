@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1a1a3e"/>
+      <stop offset="100%" stop-color="#05051a"/>
+    </radialGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#ffcc33"/>
+    </marker>
+  </defs>
+  
+  <rect width="400" height="400" fill="url(#bg)"/>
+  
+  <!-- Nested squares (recursion = self-similarity) -->
+  <g fill="none" stroke-linejoin="round">
+    <rect x="40" y="40" width="320" height="320" stroke="#4fc3f7" stroke-width="3" transform="rotate(0 200 200)"/>
+    <rect x="80" y="80" width="240" height="240" stroke="#66d9ef" stroke-width="2.5" transform="rotate(15 200 200)"/>
+    <rect x="115" y="115" width="170" height="170" stroke="#81e0f2" stroke-width="2" transform="rotate(30 200 200)"/>
+    <rect x="145" y="145" width="110" height="110" stroke="#9ce6f5" stroke-width="1.8" transform="rotate(45 200 200)"/>
+    <rect x="168" y="168" width="64" height="64" stroke="#b8edf8" stroke-width="1.5" transform="rotate(60 200 200)"/>
+    <rect x="183" y="183" width="34" height="34" stroke="#d4f3fb" stroke-width="1.2" transform="rotate(75 200 200)"/>
+    <rect x="192" y="192" width="16" height="16" stroke="#eafafd" stroke-width="1" transform="rotate(90 200 200)"/>
+  </g>
+  
+  <!-- Ouroboros-like spiral arrow (self-reference) -->
+  <path d="M 200 60
+           A 140 140 0 1 1 60 200
+           A 140 140 0 0 1 200 60
+           L 200 90
+           A 110 110 0 0 0 90 200
+           A 110 110 0 1 0 200 90 Z"
+        fill="none" stroke="#ffcc33" stroke-width="3" opacity="0.85"
+        marker-end="url(#arrow)"/>
+  
+  <!-- Central dot (base case) -->
+  <circle cx="200" cy="200" r="5" fill="#ff5566"/>
+  
+  <!-- Small nested dots inside -->
+  <circle cx="200" cy="200" r="10" fill="none" stroke="#ff8899" stroke-width="1"/>
+</svg>

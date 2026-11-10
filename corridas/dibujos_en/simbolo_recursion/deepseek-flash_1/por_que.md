@@ -1,0 +1,3 @@
+I drew nested rounded squares, shrinking toward a central dot, with a curved arrow looping around them. The nested frames show self-similarity—the same structure reappearing at a smaller scale—and the arrow suggests reapplying a process. Together they signal “solve by breaking into smaller copies of the same problem,” without words.
+
+I considered a fractal tree, but it felt more like hierarchy/branching than recursion. I considered a stack of layers, but that could imply iteration or memory rather than self-similar subproblems. I also considered matryoshka-like dolls, but that was too object-specific, and a plain spiral, but it might read as repetition rather than recursive nesting. I chose the nested frames plus return arrow as the clearest compact symbol.

@@ -1,0 +1,3 @@
+I drew nested, shrinking squares, each a smaller copy of the last, ending in a solid orange square with a stop-like octagon and base bar. I added circular self-arrows on each square, blocks decreasing 4-3-2, down-arrows for descending, green up-arrows along the return diagonal, and a large outer loop-back arrow. Together this says: call the same procedure on a smaller input, repeat until the base case, then return and combine.
+
+I considered a fractal tree or Sierpiński triangle, but discarded them as decorative or divide-and-conquer rather than self-calling. I rejected Russian dolls—nesting without calls or returns—and a lone circular arrow, too easily read as iteration.

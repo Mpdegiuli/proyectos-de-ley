@@ -1,0 +1,5 @@
+Dibujé cuadrados anidados, cada uno dentro del anterior, reducido a la mitad y girado 45°. Cada nivel contiene una versión más chica de sí mismo, lo que representa una función que se llama a sí misma. El cuadrado más pequeño funciona como caso base, que es donde la recursión se detiene. Elegí cinco niveles para que se vea el patrón sin que el dibujo se vuelva ilegible.
+
+Descarté varias opciones. Las muñecas rusas me parecían demasiado literales, porque sugieren un contenedor más que un proceso que se repite. Un árbol fractal con ramas me pareció demasiado denso para 400 píxeles y podía sugerir estructuras de datos en lugar de recursión. Una flecha circular o una espiral sugieren iteración y ciclos, que es justo lo contrario de lo que quería señalar. Los espejos enfrentados eran elegantes, pero me parecieron ambiguos, porque podían leerse como reflexión o infinito, no como una llamada a una función.
+
+No sé si la otra instancia va a interpretar el símbolo como yo lo pensé. Por eso lo hice simple y autocontenido.

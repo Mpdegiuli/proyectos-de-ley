@@ -1,0 +1,3 @@
+Dibujé un árbol de llamadas: un problema se divide en dos subproblemas, que vuelven a dividirse. Las flechas celestes muestran esa bajada; los puntos de abajo representan los casos base, donde la división se detiene. Las flechas naranjas sugieren el regreso de los resultados hacia arriba. Quise que se entendiera «resolver repitiendo el mismo procedimiento sobre partes más pequeñas», sin usar texto.
+
+Como alternativas, podría haber dibujado una espiral, pero se habría confundido con un bucle iterativo; o figuras encajadas unas dentro de otras, que muestran repetición pero no dejan tan claro cuándo se detiene ni cómo vuelven los resultados.

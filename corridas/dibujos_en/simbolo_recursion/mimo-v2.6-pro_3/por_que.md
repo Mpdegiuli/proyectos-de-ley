@@ -1,0 +1,3 @@
+I drew a self-similar spiral of arrows: each arm curls inward and carries a smaller copy of the same arrow-shape, ending in a solid dot (the base case). The nested echoes say "call yourself on a smaller input, and stop somewhere."
+
+I considered a recursion tree (reads as a data structure diagram, not a command), an Ouroboros snake (says "loop" rather than "recurse"), stacked Russian dolls (too literal/cute), and a mirrored arrow folding into itself like a set of brackets. I discarded those because they either resembled textbook illustrations or could be mistaken for iteration. The shrinking spiral is unmistakably self-reference and scaling-down, and it survives being seen without any caption.

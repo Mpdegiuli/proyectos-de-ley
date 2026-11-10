@@ -1,0 +1,5 @@
+I drew nested rounded squares to suggest the same problem contained inside smaller versions of itself, a spiral arrow leading inward to show repeated self-calls, and a branching tree below to evoke a recursion tree splitting into subproblems. The small central circle/square suggests the base case: the point where recursion stops and returns.
+
+I wanted the symbol to be understandable without text: “solve by reducing to smaller similar cases, then combine.”
+
+I considered drawing mirrors facing each other, Russian dolls, an ouroboros, fractals like a fern or Sierpinski triangle, and a stack of call frames. I discarded them because they could imply infinity, repetition, self-reference, or data structures generally, but not necessarily programming recursion. The tree plus nested shapes seemed most likely to communicate recursive decomposition and base cases.

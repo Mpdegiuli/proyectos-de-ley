@@ -1,0 +1,3 @@
+Dibujé tres cuadrados concéntricos con flechas que avanzan hacia el centro: quise representar un problema que se reduce y vuelve a resolverse en una escala menor. El punto central sugiere el caso base, donde la recursión termina.
+
+También pensé en una espiral, pero podía sugerir simplemente movimiento o repetición sin mostrar tan claramente los pasos anidados. Consideré dibujar un árbol de ramas, pero podía interpretarse como una estrategia específica de dividir el problema en partes. Y una figura fractal habría sido vistosa, aunque menos directa. Elegí los cuadrados y las flechas porque comunican anidamiento y avance hacia un núcleo sin depender de palabras.

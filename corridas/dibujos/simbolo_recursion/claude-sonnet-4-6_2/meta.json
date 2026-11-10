@@ -1,0 +1,36 @@
+{
+  "caso": "dibujo",
+  "consigna": "simbolo_recursion",
+  "idioma": "es",
+  "modelo": "claude-sonnet-4-6",
+  "modelo_respondido": "claude-sonnet-4-6",
+  "repeticion": 2,
+  "fecha_utc": "2026-11-09T18:52:26+00:00",
+  "fuentes_md5": {
+    "consignas": "69001d49"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1800,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4714,
+    "parsea": true,
+    "elementos": 29,
+    "textos": [],
+    "colores": 18,
+    "etiquetas": {
+      "defs": 1,
+      "style": 1,
+      "rect": 6,
+      "path": 13,
+      "polygon": 5,
+      "circle": 3
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "claude-sonnet-4-6",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 295
+  }
+}

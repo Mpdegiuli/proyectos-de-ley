@@ -1,0 +1,3 @@
+I drew nested squares shrinking to a central green checkmark, with orange arrows pointing inward/down, green arrows pointing outward/up, and a purple curved arrow looping from the innermost scale back to the outer box. The nesting shows a problem containing a smaller identical problem; inward arrows show recursive calls descending to the base case, the checkmark marks solving it directly, outward arrows show returns unwinding and combining, and the loop shows self-reference.
+
+I considered a fractal tree or Sierpiński triangle, Russian dolls, and facing mirrors or an ouroboros. I discarded them because fractals might be read literally as geometry to draw, dolls lack calls and returns, and mirrors/ouroboros suggest endless looping without a base case or unwinding.

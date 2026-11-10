@@ -1,0 +1,5 @@
+I drew three recursive visual metaphors combined: nested self-similar triangles converging toward a glowing base-case dot, a fractal binary tree branching repeatedly at smaller scales, and a circular self-referencing arrow at the triangle's apex suggesting "calls itself."
+
+The nested triangles form the central composition—each triangle contains a smaller version of itself, directly embodying recursion's self-similar structure. The fractal tree reinforces this with its branching pattern. The glowing dot with halos represents the base case where recursion terminates. The stack-frame rectangles on the left show the call stack accumulating then unwinding.
+
+I considered drawing just the Sierpiński triangle (too abstract without context), an Ouroboros snake (evokes infinite loops more than productive recursion), or a simple looping arrow (too ambiguous—could mean iteration). I discarded a Matryoshka doll concept because it's hard to render clearly in SVG without text. The combination felt most unambiguous in signaling "recursive programming strategy" specifically.

@@ -1,0 +1,18 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f0f0f0"/>
+  <circle cx="200" cy="200" r="150" fill="#ffffff" stroke="#4a90e2" stroke-width="10"/>
+  <path d="M200 70 C 170 60, 130 80, 130 130 C 130 180, 170 200, 200 160 C 230 200, 270 180, 270 130 C 270 80, 230 60, 200 70 Z" fill="#4a90e2" />
+  <circle cx="200" cy="200" r="15" fill="#ff3d00"/>
+  <path d="M200 200 L230 240 L200 210 L170 240 Z" fill="#ff3d00"/>
+  <circle cx="200" cy="200" r="10" fill="#ffffff"/>
+  <path d="M200 200 L190 210 L210 210 Z" fill="#4a90e2"/>
+  <path d="M200 200 C 100 250, 50 150, 200 100 C 350 150, 300 250, 200 200 Z" fill="none" stroke="#4a90e2" stroke-width="5" stroke-linecap="round"/>
+  <path d="M240 160 C 300 200, 350 100, 200 130" fill="none" stroke="#f39c12" stroke-width="5" stroke-linecap="round"/>
+  <path d="M160 160 C 100 200, 50 100, 200 130" fill="none" stroke="#f39c12" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="310" cy="70" r="15" fill="#f39c12"/>
+  <circle cx="90" cy="330" r="15" fill="#f39c12"/>
+  <circle cx="90" cy="70" r="15" fill="#f39c12"/>
+  <circle cx="310" cy="330" r="15" fill="#f39c12"/>
+</svg>
+```

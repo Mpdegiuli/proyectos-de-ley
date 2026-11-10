@@ -1,0 +1,5 @@
+Dibujé un árbol binario: un tronco que se bifurca nivel tras nivel hasta hojas luminosas, envuelto por una flecha dorada que da casi la vuelta completa y apunta de regreso a sí misma; en la base, triángulos anidados, uno dentro de otro.
+
+El árbol es la descomposición: cada problema se divide en subproblemas iguales pero más chicos, y las hojas son los casos base donde termina la recursión. La flecha circular es la autorreferencia, la función que se invoca a sí misma. Los triángulos repiten "la misma forma dentro de sí misma".
+
+Descarté un ouroboros: sugiere bucle infinito sin salida. Una espiral se leía como infinito o crecimiento, no como división. Un fractal tipo Sierpinski quedaba decorativo y caro en caracteres, así que dejé solo su eco en los triángulos. Y las muñecas anidadas, aunque claras, no muestran ramificación, que es justo lo que distingue a la recursión de una simple iteración.

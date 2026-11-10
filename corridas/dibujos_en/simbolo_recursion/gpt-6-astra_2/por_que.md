@@ -1,0 +1,5 @@
+I drew nested frames containing a sequence of matching circular nodes, with teal arrows descending into progressively smaller frames. A solid square marks the stopping point, and amber arrows lead back outward.
+
+I used nesting and repeated shapes to suggest solving a problem by applying the same procedure to a smaller version of itself. The square represents a base case; the outward arrows represent returning results through the suspended calls. Together, these distinguish recursion from mere repetition.
+
+Other options I could have used include a branching tree, a spiral, or a self-pointing arrow. I would discard a tree because it might suggest search rather than recursion, a spiral because it lacks an obvious base case and return path, and a self-pointing arrow because it could imply an ordinary loop. I can explain those tradeoffs, but I can’t verify which alternatives were actually considered when this SVG was produced.

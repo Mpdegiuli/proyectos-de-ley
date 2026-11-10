@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect x="0" y="0" width="400" height="400" fill="#f7f4ee"/>
+
+  <!-- self-similar nested frames -->
+  <g transform="translate(200,200)" fill="none" stroke-linejoin="round">
+    <rect x="-150" y="-150" width="300" height="300" rx="22" stroke="#1b3a6b" stroke-width="7"/>
+    <g transform="rotate(18) scale(0.68)">
+      <rect x="-150" y="-150" width="300" height="300" rx="22" stroke="#1d5f8f" stroke-width="8.8"/>
+      <g transform="rotate(18) scale(0.68)">
+        <rect x="-150" y="-150" width="300" height="300" rx="22" stroke="#1f87a4" stroke-width="10.8"/>
+        <g transform="rotate(18) scale(0.68)">
+          <rect x="-150" y="-150" width="300" height="300" rx="22" stroke="#22a89f" stroke-width="13.4"/>
+          <g transform="rotate(18) scale(0.68)">
+            <rect x="-150" y="-150" width="300" height="300" rx="22" stroke="#36bd8c" stroke-width="16.8"/>
+            <g transform="rotate(18) scale(0.68)">
+              <rect x="-150" y="-150" width="300" height="300" rx="22" stroke="#63cd6e" stroke-width="20.6"/>
+              <g transform="rotate(18) scale(0.68)">
+                <rect x="-150" y="-150" width="300" height="300" rx="22" stroke="#9ad85a" stroke-width="26.3"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- inward spiral: the call that re-enters itself -->
+  <path d="M 335,200
+           A 125,125 0 0 0 86,200
+           A 105,105 0 0 0 295,200
+           A 87,87 0 0 0 122,200
+           A 71,71 0 0 0 263,200
+           A 57,57 0 0 0 150,200
+           A 45,45 0 0 0 239,200
+           A 35,35 0 0 0 171,200"
+        fill="none" stroke="#e8622a" stroke-width="9" stroke-linecap="round" opacity="0.92"/>
+  <polygon points="171,219 159,196 183,196" fill="#e8622a" opacity="0.95"/>
+
+  <!-- base case -->
+  <circle cx="200" cy="200" r="11" fill="#1b3a6b"/>
+  <circle cx="200" cy="200" r="20" fill="none" stroke="#1b3a6b" stroke-width="3" stroke-dasharray="5 7"/>
+</svg>

@@ -1,0 +1,5 @@
+I drew three recursive symbols: nested circular arrows spiraling inward to a central point, stacked call-frame boxes on both sides (blue for descent, pink for unwinding), and a fractal binary tree at the bottom.
+
+The circular arrows convey self-reference—a function calling itself. The offset call stack boxes visualize the depth-first descent and return phases of recursion. The fractal tree reinforces the branching, self-similar structure characteristic of recursive algorithms.
+
+I considered drawing a Droste-effect picture-within-a-picture (too visually ambiguous), a Sierpiński triangle (iconic but might suggest fractals specifically rather than recursion generally), and a simple ouroboros snake (evokes infinite loops more than structured recursion). I discarded the Droste approach as too subtle, the Sierpiński triangle as too domain-specific, and the ouroboros as potentially misleading toward cycles rather than base-case termination. The combination I chose emphasizes both the self-calling mechanism and the stack-based execution model.

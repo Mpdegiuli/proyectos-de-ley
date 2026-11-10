@@ -1,0 +1,3 @@
+Dibujé marcos anidados que se repiten hacia adentro, cada uno con un triángulo que apunta a la copia más chica, y un círculo dorado al fondo. Es recursión: la misma forma se invoca a sí misma hasta un caso base. El brillo marca el corte.
+
+Descarté un ouroboros: parece ciclo infinito, no terminación. Un árbol fractal podía leerse como estructura de datos. Una espiral sugería iteración. Matrioshkas eran literales pero decorativas y ocupaban mal el lienzo. Una flecha que vuelve al mismo recuadro se confundía con un while. Quise auto-semejanza más un final claro, no loop ni adorno.

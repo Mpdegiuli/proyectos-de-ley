@@ -1,0 +1,3 @@
+Dibujé un árbol que se ramifica: cada recuadro contiene una versión pequeña del mismo esquema, y las ramas terminan en círculos. Quise representar la idea de dividir un problema en subproblemas de la misma forma hasta llegar a casos base. Las flechas indican la dirección de esa descomposición.
+
+No tengo registro de qué otras opciones pensé al hacerlo, así que no puedo afirmar cuáles descarté. Como alternativas, podría haber usado una figura dentro de otra o una flecha que vuelve sobre sí misma; pero podrían sugerir anidamiento o repetición sin comunicar tan claramente la división en subproblemas y la llegada a un caso base.

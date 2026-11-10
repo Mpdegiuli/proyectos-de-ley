@@ -1,0 +1,3 @@
+Dibujé cuadrados anidados cada vez más pequeños, con flechas naranjas curvadas que vuelven hacia adentro en cada nivel, hasta llegar a un octógono verde central. Quise representar un problema que se llama a sí mismo con versiones menores y similares, y un caso base que detiene la recursión.
+
+Pensé en una muñeca rusa, un árbol fractal y un espejo frente a otro. Los descarté porque podían entenderse como simple repetición, decoración o crecimiento, sin dejar clara la vuelta al mismo procedimiento ni el tope final.

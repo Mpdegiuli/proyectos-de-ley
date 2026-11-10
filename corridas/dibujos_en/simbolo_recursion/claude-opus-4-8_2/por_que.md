@@ -1,0 +1,5 @@
+I drew two interlocking ideas of recursion. First, a set of nested squares, each slightly smaller and rotated more than the last, spiraling toward the center—self-similarity, the same shape repeating at diminishing scale. Second, a golden spiral-arrow coiling inward through shrinking arcs, representing the recursive calls descending toward a base case, which I marked as the small red dot at the very center.
+
+I wanted both the *structure* (nesting, self-similarity) and the *motion* (calling inward, then the base case terminating it).
+
+I considered drawing a literal snake eating its tail (ouroboros), but it reads more as "infinite loop" than controlled recursion. I thought about a tree with branching sub-branches—a genuine recursion metaphor—but it felt more like "tree data structure" and could mislead. I rejected fractal triangles (Sierpinski) as too abstract. The spiral-into-a-point felt clearest for conveying "recurse until you hit the base case."

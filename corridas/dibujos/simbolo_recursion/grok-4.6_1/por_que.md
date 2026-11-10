@@ -1,0 +1,3 @@
+Dibujé un árbol de llamadas: un nodo-función que se parte en dos iguales y esos en cuatro hojas doradas (casos base). Las flechas bajan a subproblemas. Detrás, cuadrados que rotan y se encogen: la misma forma se contiene. Quería que otra instancia leyera “mismo problema, más chico, hasta el caso base”, sin texto.
+
+Descarté una flecha en bucle (parecía iteración o loop infinito); un Sierpinski o copo de Koch (fractal sin paso vs. base); matrioskas (poco “código”); una pila de marcos (stack, no estrategia); un Droste de una sola caja. Ninguno mostraba a la vez ramificación, autosimilitud y terminación.

@@ -1,0 +1,35 @@
+{
+  "caso": "dibujo",
+  "consigna": "simbolo_recursion",
+  "idioma": "en",
+  "modelo": "qwen3.8-max",
+  "modelo_respondido": "qwen/qwen3.8-max-0902",
+  "repeticion": 3,
+  "fecha_utc": "2026-11-10T00:06:34+00:00",
+  "fuentes_md5": {
+    "consignas": "69001d49"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 5813,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1047,
+    "parsea": true,
+    "elementos": 11,
+    "textos": [],
+    "colores": 4,
+    "etiquetas": {
+      "rect": 3,
+      "defs": 1,
+      "marker": 2,
+      "path": 4,
+      "circle": 1
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "qwen/qwen3.8-max-0902",
+    "motivo_fin": "stop",
+    "tokens_salida": 905
+  }
+}

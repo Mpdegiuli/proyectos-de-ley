@@ -1,0 +1,3 @@
+Dibujé un árbol de llamadas: cada recuadro violeta representa un problema que se divide en subproblemas con la misma estructura. Las flechas muestran el descenso y los círculos verdes representan casos base, donde la recursión termina. Elegí esa imagen para transmitir tanto la repetición como la necesidad de detenerse.
+
+No tengo acceso a un registro de las otras opciones que pensé, así que no puedo decir cuáles descarté realmente. Como alternativas, podría haber usado una espiral o figuras anidadas, pero serían más ambiguas: sugieren repetición o autorreferencia sin mostrar tan claramente los subproblemas y los casos base.

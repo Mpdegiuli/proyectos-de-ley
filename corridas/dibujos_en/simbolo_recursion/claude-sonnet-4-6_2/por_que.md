@@ -1,0 +1,5 @@
+I drew concentric circular arrows spiraling inward toward a central white dot, flanked by two fractal trees branching symmetrically on either side, with a dashed arrow pointing downward into the composition.
+
+The circular arrows represent recursive calls—each loop smaller than the last, converging on a base case (the center dot). The fractal trees reinforce recursion visually: a structure defined by self-similar repetition at decreasing scales.
+
+I considered drawing the classic Droste-effect (image-within-image) but it requires visual complexity hard to convey abstractly. I considered Matryoshka dolls (nested shapes) but worried they'd suggest "nesting" or "containment" rather than "recursive function calls." I considered a snake eating its tail (Ouroboros) but that implies infinite loops without termination, which contradicts good recursion. I also considered a mirror reflecting itself, but discarded it as too ambiguous. The spiral arrows felt most unambiguous—they suggest "call yourself, but smaller, until you hit the base case."

@@ -1,0 +1,3 @@
+Dibujé tres cuadrados anidados de la misma forma, cada vez más pequeños y con una entrada marcada en el mismo lugar, para representar un problema que se llama a sí mismo con una instancia reducida. Las flechas naranjas apuntan hacia adentro siguiendo esas llamadas, y el círculo rojo central marca el caso base donde la recursión se detiene. La gran flecha azul circular sugiere el regreso y la combinación de los resultados al volver.
+
+Pensé en una espiral o un árbol fractal, pero los descarté: la espiral también puede entenderse como iteración, y el árbol, como una estructura de datos. También descarté unas muñecas rusas por ser menos claras para programar.

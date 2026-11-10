@@ -1,0 +1,38 @@
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#1b2735"/>
+      <stop offset="100%" stop-color="#0a0f16"/>
+    </radialGradient>
+    <linearGradient id="sq" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4fa3ff"/>
+      <stop offset="100%" stop-color="#ffd24f"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#ff7a33"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="400" height="400" fill="url(#bg)"/>
+
+  <!-- self-similar nested squares, each a scaled copy of the whole -->
+  <g fill="none" stroke="url(#sq)" stroke-width="2.2" opacity="0.85">
+    <rect x="40" y="40" width="320" height="320" transform="rotate(0 200 200)"/>
+    <rect x="72" y="72" width="256" height="256" transform="rotate(8 200 200)"/>
+    <rect x="97.5" y="97.5" width="205" height="205" transform="rotate(16 200 200)"/>
+    <rect x="118" y="118" width="164" height="164" transform="rotate(24 200 200)"/>
+    <rect x="134.5" y="134.5" width="131" height="131" transform="rotate(32 200 200)"/>
+    <rect x="147.5" y="147.5" width="105" height="105" transform="rotate(40 200 200)"/>
+    <rect x="158" y="158" width="84" height="84" transform="rotate(48 200 200)"/>
+  </g>
+
+  <!-- spiral path: the recursive call descending toward a smaller instance -->
+  <path d="M350,200 L324.85,272.08 L269.17,319.80 L200,332.5 L136.67,309.70 L95.36,260.42 L85,200 L105.46,145.42 L148.33,110.51 L200,102.5 L245.83,120.62 L274.33,157.08 L280,200 L264.23,237.08 L234.17,259.17 L200,262.5 L171.67,249.08 L155.98,225.42 L155,200 L166.08,180.42 L183.33,171.13 L200,172.5 L210.84,181.23 L213.71,192.08 L210,200"
+        fill="none" stroke="#ff7a33" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"
+        marker-end="url(#arrow)"/>
+
+  <!-- base case: a solid small core at the center -->
+  <circle cx="200" cy="200" r="7" fill="#ffd24f"/>
+</svg>
+```

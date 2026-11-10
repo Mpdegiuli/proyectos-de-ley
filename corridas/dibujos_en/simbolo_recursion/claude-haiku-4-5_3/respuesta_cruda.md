@@ -1,0 +1,50 @@
+```svg
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#f0f0f0"/>
+  
+  <!-- Outer circle -->
+  <circle cx="200" cy="200" r="180" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+  
+  <!-- Arrow pointing inward to center, creating a recursive visual -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#1a1a1a"/>
+    </marker>
+  </defs>
+  
+  <!-- First arrow from top -->
+  <path d="M 200 40 L 200 100" stroke="#1a1a1a" stroke-width="4" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Second arrow from right -->
+  <path d="M 360 200 L 300 200" stroke="#1a1a1a" stroke-width="4" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Third arrow from bottom -->
+  <path d="M 200 360 L 200 300" stroke="#1a1a1a" stroke-width="4" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Fourth arrow from left -->
+  <path d="M 40 200 L 100 200" stroke="#1a1a1a" stroke-width="4" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Middle circle (smaller, recursive instance) -->
+  <circle cx="200" cy="200" r="90" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+  
+  <!-- Inner arrows pointing to even smaller center -->
+  <!-- Top inner arrow -->
+  <path d="M 200 110 L 200 145" stroke="#1a1a1a" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Right inner arrow -->
+  <path d="M 290 200 L 255 200" stroke="#1a1a1a" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Bottom inner arrow -->
+  <path d="M 200 290 L 200 255" stroke="#1a1a1a" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Left inner arrow -->
+  <path d="M 110 200 L 145 200" stroke="#1a1a1a" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Innermost circle (base case center) -->
+  <circle cx="200" cy="200" r="30" fill="#1a1a1a"/>
+  
+  <!-- Center dot -->
+  <circle cx="200" cy="200" r="8" fill="#f0f0f0"/>
+</svg>
+```

@@ -1,0 +1,3 @@
+I drew three nested circular arrows, each smaller and inside the previous one, all returning to roughly the same starting point. The idea was to show a process that repeats itself on a smaller scale—each loop is a smaller version of the same loop, like recursive calls shrinking toward a base case. The arrows suggest self-reference and repeated execution.
+
+I considered drawing a fractal tree, nested boxes, or a spiral, but I worried those could be read as general growth or iteration rather than recursion specifically. Nested self-similar arrows felt like the clearest visual for “apply the same strategy again on a smaller subproblem,” without using letters, numbers, or words.

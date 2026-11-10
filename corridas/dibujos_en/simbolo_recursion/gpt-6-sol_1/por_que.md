@@ -1,0 +1,3 @@
+I drew three nested, window-like frames to suggest a function calling a smaller version of itself. The blue arrows move inward toward the diamond, which represents a stopping condition; the orange arrows climb back out as the calls return. I wanted to show both parts of recursion: going deeper and then unwinding.
+
+I also considered a branching tree, but it might suggest a general divide-and-conquer strategy rather than recursion specifically. A circular arrow could suggest repetition without a stopping condition, and code-like notation would be harder to convey without letters or numbers.

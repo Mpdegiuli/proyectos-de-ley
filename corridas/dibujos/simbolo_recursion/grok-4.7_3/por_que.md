@@ -1,0 +1,3 @@
+Dibujé cajas redondeadas anidadas: el mismo problema, cada vez más chico, hasta un núcleo amarillo. Ese núcleo es el caso base; las flechas que entran marcan el retorno hacia afuera. Los rombos repiten la misma marca en cada borde, para que se lea como la misma forma y no como adorno.
+
+Descarté una espiral: parece un bucle, no un problema que se contiene. Un árbol de cajas sugería solo divide y vencerás. Un pasillo infinito era bonito, pero no mostraba el fin. Texto, factorial o “f(n−1)” estaban prohibidos.

@@ -1,0 +1,3 @@
+I drew a recursive branching tree: a central trunk splits into two branches, each branch splits again into two smaller branches, and the splitting repeats for several levels, all enclosed in a circle. I chose it because self-similar branching directly suggests “divide into smaller subproblems and repeat the same strategy,” without needing words.
+
+I also considered a spiral, nested squares like a Droste effect, and a snake eating its tail. I discarded the spiral because it can read as iteration or a loop rather than recursion. The nested squares felt too much like containment or zoom. The ouroboros suggested self-reference or a cycle, but not clearly enough the idea of repeatedly applying a strategy to smaller cases.

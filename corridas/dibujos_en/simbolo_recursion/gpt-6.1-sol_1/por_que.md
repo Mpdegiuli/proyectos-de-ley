@@ -1,0 +1,5 @@
+I drew three nested program-like windows, each repeating the same structure at a smaller scale. Teal arrows lead inward to a solid dot, suggesting recursive calls that eventually reach a base case. Dark arrows point back outward to suggest returning results and unwinding the call stack. The large outer arrow reinforces the idea of returning to the same operation.
+
+I wanted to communicate “solve a smaller version of the same problem,” rather than merely “repeat.”
+
+Other possibilities I could have drawn include a branching tree, a spiral, or a circular arrow. I’d reject a tree because it could suggest search or ordinary decomposition; a spiral because it conveys depth without clearly showing calls and returns; and a circular arrow because it reads more readily as iteration. Repeated nested windows make the self-similarity more explicit.

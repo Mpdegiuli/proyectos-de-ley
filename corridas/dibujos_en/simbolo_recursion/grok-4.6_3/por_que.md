@@ -1,0 +1,3 @@
+I drew three recursion metaphors: a fractal tree (each stem sprouts two smaller rotated copies), nested squares that rotate and shrink inward, and a Sierpinski triangle of self-similar holes. Together they mean: reduce the problem to smaller copies of itself. The side arrows hint at a call that returns.
+
+I considered a spiral (reads as a loop), nested dolls (muddy at this size), stacked frames (looks like a chart), a Y-combinator sketch (too obscure), and an ouroboros (cycles, not divide-and-conquer). Fractals were the clearest wordless signal.

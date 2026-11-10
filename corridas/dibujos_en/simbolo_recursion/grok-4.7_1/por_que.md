@@ -1,0 +1,3 @@
+I drew a call tree: one node splits into two, then four, each holding the same motif, so the pattern repeats at every scale. Nested side curves read as deepening parentheses. Arrows run parent to child, handing a smaller problem downward until the leaves. Stacked triangles at the base are the self-similar remainder and the stop.
+
+I considered a spiral, mirrors facing mirrors, and a snake eating its tail. Those suggest loops or infinity, not a strategy: split, solve the same way, stop. Identical boxes in a staircase looked like iteration. Droste frames showed nesting without a base case. The tree keeps the self-call, the split, and the halt in one glance.

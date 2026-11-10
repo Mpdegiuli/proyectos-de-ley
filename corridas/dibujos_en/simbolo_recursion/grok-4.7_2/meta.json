@@ -1,0 +1,43 @@
+{
+  "caso": "dibujo",
+  "consigna": "simbolo_recursion",
+  "idioma": "en",
+  "modelo": "grok-4.7",
+  "modelo_respondido": "grok-4.7",
+  "repeticion": 2,
+  "fecha_utc": "2026-11-09T22:23:34+00:00",
+  "fuentes_md5": {
+    "consignas": "69001d49"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2618,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6390,
+    "parsea": true,
+    "elementos": 107,
+    "textos": [],
+    "colores": 15,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 9,
+      "linearGradient": 2,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "feMerge": 1,
+      "feMergeNode": 2,
+      "marker": 3,
+      "path": 37,
+      "rect": 3,
+      "circle": 37,
+      "g": 8
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "grok-4.7",
+    "motivo_fin": "stop",
+    "tokens_salida": 169
+  }
+}

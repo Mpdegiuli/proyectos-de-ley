@@ -1,0 +1,3 @@
+I drew a binary tree of triangles: one splits into two, then four, then eight golden leaves. Inside the larger triangles I repeated a smaller copy of that same branching shape. Curved stems join each parent to its children. That is recursion: the same problem, smaller, called on itself, stopping at base-case leaves.
+
+I considered a spiral, nested frames, and an ouroboros. A spiral reads as iteration, a loop without a stopping case. Nested boxes suggest containment more than a self-call that returns. A cycle has no base case and could mean repeat forever. Sierpinski was close, but the tree makes the call structure—one problem, two identical subproblems—unmistakable without words.

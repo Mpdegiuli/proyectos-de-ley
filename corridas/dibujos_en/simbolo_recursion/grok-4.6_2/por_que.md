@@ -1,0 +1,3 @@
+I drew nested window frames (each with three “traffic-light” dots) shrinking inward, plus a fractal tree built from recursive `<use>` groups that branch, rotate, and scale. Together they say: same problem, smaller instance, then combine—classic recursion, with the tree as a call tree.
+
+I considered an ouroboros (too much like an infinite loop), a Sierpinski triangle or Koch flake (pretty, but not “solve a program”), nested dolls or a spiral (self-similarity without a base case or merge), and stacked identical boxes (looks like iteration). Those either read as loops, geometry, or decoration, not “recurse on subproblems.” The nested frames plus explicit branching tree were the clearest wordless cue.

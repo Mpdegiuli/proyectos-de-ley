@@ -1,0 +1,5 @@
+Dibujé una espiral de arcos concéntricos que se contraen hacia un punto central, con flechas en cada nivel apuntando hacia adentro. La idea es que cada arco representa una llamada recursiva que genera otra más pequeña, convergiendo hacia el caso base, representado por el punto rojo brillante en el centro.
+
+Lo elegí porque la recursión tiene exactamente esa forma mental: algo que se repite reduciéndose hasta llegar a un mínimo. El degradado de azules refuerza la profundidad de las llamadas.
+
+Pensé en dibujar un árbol binario, pero me pareció demasiado asociado a estructuras de datos en general. También consideré una serpiente mordiéndose la cola (ouroboros), que captura el autorreferencia, pero no transmite bien la idea de *reducción hacia un caso base*. Un fractal geométrico era otra opción, pero difícil de hacer legible en SVG simple sin scripts.

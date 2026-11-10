@@ -1,0 +1,3 @@
+Dibujé un árbol de llamadas: un problema inicial se divide en dos subproblemas, que a su vez llegan a casos base. Repetí el mismo símbolo en los nodos intermedios para sugerir que se aplica la misma operación a problemas más pequeños. La flecha curva refuerza la idea de que una función vuelve a llamarse.
+
+No tengo un registro fiable de qué otras opciones pensé o descarté al hacerlo. Como alternativas, podría haber usado cajas anidadas, para mostrar el mismo patrón a distintas escalas, o una flecha circular, para representar la repetición. Preferiría el árbol porque muestra tanto la división en subproblemas como la llegada a casos base; una flecha circular sola podría confundirse con un bucle.

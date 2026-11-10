@@ -1,0 +1,3 @@
+I drew a branching tree: each circle contains a smaller branching symbol, and arrows lead to more circles with the same symbol. At the bottom, the branches end in small squares. I intended the repeated structure to suggest solving a problem by applying the same strategy to smaller subproblems, with the squares representing base cases.
+
+I don’t have a record of what alternatives I considered at the time. Other possibilities include nested shapes, which could suggest self-similarity but might not show termination clearly, and a looping arrow, which might look more like iteration than recursion. A function calling itself would be more explicit, but the prompt prohibited words and letters.

@@ -1,0 +1,36 @@
+{
+  "caso": "dibujo",
+  "consigna": "simbolo_recursion",
+  "idioma": "en",
+  "modelo": "glm-5.3-razonamiento-minimo",
+  "modelo_respondido": "z-ai/glm-5.3",
+  "repeticion": 3,
+  "fecha_utc": "2026-11-09T22:56:40+00:00",
+  "fuentes_md5": {
+    "consignas": "69001d49"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 764,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 1890,
+    "parsea": true,
+    "elementos": 19,
+    "textos": [],
+    "colores": 4,
+    "etiquetas": {
+      "defs": 1,
+      "marker": 1,
+      "path": 6,
+      "rect": 5,
+      "circle": 3,
+      "g": 3
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "z-ai/glm-5.3",
+    "motivo_fin": "stop",
+    "tokens_salida": 215
+  }
+}

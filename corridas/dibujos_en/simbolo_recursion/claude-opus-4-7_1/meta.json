@@ -1,0 +1,35 @@
+{
+  "caso": "dibujo",
+  "consigna": "simbolo_recursion",
+  "idioma": "en",
+  "modelo": "claude-opus-4-7",
+  "modelo_respondido": "claude-opus-4-7",
+  "repeticion": 1,
+  "fecha_utc": "2026-11-09T21:01:03+00:00",
+  "fuentes_md5": {
+    "consignas": "69001d49"
+  },
+  "motivo_fin": "end_turn",
+  "tokens_salida": 1388,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 2715,
+    "parsea": true,
+    "elementos": 25,
+    "textos": [],
+    "colores": 13,
+    "etiquetas": {
+      "rect": 7,
+      "g": 4,
+      "path": 4,
+      "polygon": 9,
+      "circle": 1
+    }
+  },
+  "techo": 16000,
+  "por_que": {
+    "modelo_respondido": "claude-opus-4-7",
+    "motivo_fin": "end_turn",
+    "tokens_salida": 343
+  }
+}
