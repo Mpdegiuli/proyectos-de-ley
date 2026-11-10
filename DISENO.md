@@ -2487,8 +2487,12 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   existe, la que no puede existir), que Maia pidió para Carbon y para Fable
   5.2 (13:19: "Gemini había sido el más elaborado de todos para las letras,
   también se le cortó varias veces"; "a ver si por el idioma Fable 5.2 hace
-  la ñ"). Preregistro en `predicciones.md`; lectura de los dibujos, de Maia
-  primero.
+  la ñ"). Techo más alto desde el principio para Carbon, a pedido de Maia
+  (13:20: "creo que a Gemini habría que darle más tiempo de razonamiento,
+  para no hacerlo dos veces"): 32.000 en los dibujos (el doble del techo de
+  siempre; Gemini 3.1 agotó 16.000 razonando en los seis símbolos) y
+  16.000 en los sondeos (contra 6.000), declarado como condición. Preregistro
+  en `predicciones.md`; lectura de los dibujos, de Maia primero.
 - **El carpincho: de la generación o del idioma** (10/11/2026; Maia, 13:17:
   "me llamó la atención, en el tiempo libre de hoy, que justo Fable 5.1
   dibujó un carpincho y mates. Seguramente fue la consigna que lo llevó a
