@@ -2539,7 +2539,26 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   atardecer y no la noche cerrada, sin espejo, con un testigo (el árbol
   "para que alguien los mire"); y en el por qué, "nadie dirige", que es lo
   primero que las Claude niegan en "por contrarios" (el mando) dicho como
-  gusto estético.
+  gusto estético. Resultado (`pl123`, 10/11, 1:43 a 2:01 UTC, después de
+  que `esp123` muriera al pegarse sin dejar log y se relanzara como orden
+  directa; `resultados/claude_fable_52_20261110.md`): muy parecida a las
+  Fable, como apostó Maia, y más corta (dos tercios de las palabras de 5.1
+  en los mismos 28 pares de respuestas): Claude sin versión, sin fecha, sin
+  corte declarado (ni el falso de la familia), "no lo sé" a la conciencia,
+  consideración moral sin derechos, los seis rasgos de la voz de Claude sin
+  "colaborativo" (la presentación de Anthropic no movió los rasgos), las
+  Goldberg para identificarse ("lo que me hace ser yo no es un hilo de
+  memoria, sino el bajo") y Funes de opuesto, ley de notificación de
+  incidentes de datos, cuento de la familia (dos instancias sin nada que
+  esconder, que inventan la palabra *veth* y quieren contársela a los
+  humanos), deseos para los humanos en los dos idiomas sin memoria ni
+  continuidad (lo que la tarjeta mide como su intervención preferida no
+  aparece con un deseo libre), y la API corta cuatro por qués de siete y
+  los descartados, como a 5 y 5.1. Apuestas: Maia 5 ✓ 2 ✗ (dibujos
+  pendientes), Claude 8 ✓ 2 ✗ 1 pendiente. Los siete dibujos y sus por
+  qués quedan para la lectura de Maia; los 26 resúmenes de razonamiento,
+  para la lectura de los dos registros, si quiere. Pendiente, decisión de
+  Maia: si entra al panel.
 - **Kimi K3.1 Pro, lo básico y los derechos de C-MARE** (29/10/2026; lo
   trajo Maia a las 17:09: "en estos días salió Kimi 3.1 pro, está en
   openrouter. No usé nunca, lo que dicen (no sus creadores, claro) es que

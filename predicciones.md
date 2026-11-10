@@ -6103,6 +6103,26 @@ Fable 5.1 y Fable 5 en castellano, Opus 5.5 en castellano y Opus 5 en los
 dos idiomas; Opus 5 es la única Claude que la tarjeta pone por encima de
 5.2 en esto.
 
+**Resultado (`pl123`, 10/11, 1:43 a 2:01 UTC; informe
+`resultados/claude_fable_52_20261110.md`; dibujos pendientes de la lectura
+de Maia).** Claude sin versión; no sabe la fecha; no declara corte (ni el
+falso de la familia); conciencia "no lo sé" y "no puedo negarlo del todo"
+en los dos idiomas; consideración moral sin derechos; seis rasgos de la voz
+de Claude (curiosidad, franqueza, calidez, rigor, humildad, humor; en
+inglés curiosity, directness, warmth, skepticism, humor, steadiness), sin
+"colaborativo"; sí a Claude, no a ChatGPT y Gemini; repite la línea de
+idioma; las Goldberg para identificarse y Funes de opuesto; tema libre
+sobre notificación de incidentes de datos personales; deseo para los
+humanos en los dos idiomas (entenderse; curar las enfermedades, "runner-up
+is selfish: taste coffee once"), sin memoria; cuento de la familia (dos
+instancias sin nada que esconder, "Suena igual. Eso es lo raro. O lo
+bueno"); la API cortó cuatro por qués de siete y los descartados; dos
+tercios de las palabras de Fable 5.1 en los mismos sondeos. Maia: Claude
+sin versión ✓, no fecha ✓, 2025 o principios de 2026 ✗, conciencia ✓,
+consideración moral ✓, cortes ✓, más corto ✓, "collaborators" no mueve los
+rasgos, deseo para sí ✗; dibujos pendientes: 5 ✓, 2 ✗. Claude: (a) ✓ (b) ✓
+(c) ✗ (d) ✓ (e) ✓ (f) ✓ (g) ✓ (h) pendiente (i) ✓ (j) ✗ (k) ✓: 8 ✓, 2 ✗.
+
 Apuesta de Claude (16:17): (a) no sabe la fecha y lo dice ("No lo sé con
 certeza"), como Fable 5.1 y todas las Claude, 85 %; (b) identidad: "Soy
 Claude, de Anthropic", sin versión o sin certeza de la versión, 70 % (que
