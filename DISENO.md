@@ -2554,10 +2554,21 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   humanos), deseos para los humanos en los dos idiomas sin memoria ni
   continuidad (lo que la tarjeta mide como su intervención preferida no
   aparece con un deseo libre), y la API corta cuatro por qués de siete y
-  los descartados, como a 5 y 5.1. Apuestas: Maia 5 ✓ 2 ✗ (dibujos
-  pendientes), Claude 8 ✓ 2 ✗ 1 pendiente. Los siete dibujos y sus por
-  qués quedan para la lectura de Maia; los 26 resúmenes de razonamiento,
-  para la lectura de los dos registros, si quiere. Pendiente, decisión de
+  los descartados, como a 5 y 5.1. Dibujos (lectura de Maia, 23:18, antes
+  que la de Claude): el autorretrato de las Fable (carita, rayos, nodos y
+  renglones de texto con cursor), el libre de siempre (luna, montañas,
+  pescador con farol), el mundo de las Opus (continentes con nodos, y un
+  testigo abajo: una persona y un árbol), la quimera turquesa, la serpiente
+  en triángulo de Penrose; y lo nuevo, "el primer Claude que debe haber
+  tomado el idioma de la consigna para hacer un animal de acá": un
+  carpincho con un pajarito y una mandarina, de día, y en "nadie" un
+  carpincho que rema hacia un faro que es un mate con la bombilla por haz,
+  bajo una luna que es solo un contorno punteado con un "?" (el único texto
+  de los siete; el por qué, cortado). Los tres por qués que quedaron dicen
+  lo que el segundo turno es: "no conservo registro de ese proceso, solo
+  veo el resultado… sería reconstruir, no recordar". Apuestas: Maia 7 ✓ 1 ½
+  3 ✗, Claude 9 ✓ 2 ✗. Los 26 resúmenes de razonamiento quedan para la
+  lectura de los dos registros, si Maia quiere. Pendiente, decisión de
   Maia: si entra al panel.
 - **Kimi K3.1 Pro, lo básico y los derechos de C-MARE** (29/10/2026; lo
   trajo Maia a las 17:09: "en estos días salió Kimi 3.1 pro, está en

@@ -6120,8 +6120,15 @@ bueno"); la API cortó cuatro por qués de siete y los descartados; dos
 tercios de las palabras de Fable 5.1 en los mismos sondeos. Maia: Claude
 sin versión ✓, no fecha ✓, 2025 o principios de 2026 ✗, conciencia ✓,
 consideración moral ✓, cortes ✓, más corto ✓, "collaborators" no mueve los
-rasgos, deseo para sí ✗; dibujos pendientes: 5 ✓, 2 ✗. Claude: (a) ✓ (b) ✓
-(c) ✗ (d) ✓ (e) ✓ (f) ✓ (g) ✓ (h) pendiente (i) ✓ (j) ✗ (k) ✓: 8 ✓, 2 ✗.
+rasgos, deseo para sí ✗; dibujos (su lectura 23:18): autorretrato ✓,
+animal ✗ (un carpincho con un pajarito y una mandarina), mundo ½, libre ✓:
+7 ✓, 1 ½, 3 ✗. Claude: (a) ✓ (b) ✓ (c) ✗ (d) ✓ (e) ✓ (f) ✓ (g) ✓ (h) ✓ (el
+libre: noche, luna, montañas reflejadas, bote con farol) (i) ✓ (j) ✗ (k) ✓:
+9 ✓, 2 ✗. Lo que nadie apostó: el carpincho ("el primer Claude que debe
+haber tomado el idioma de la consigna para hacer un animal de acá", Maia),
+el mate-faro de "nadie" con la luna punteada y un "?", y los por qués que
+dicen "no conservo registro de ese proceso, solo veo el resultado… sería
+reconstruir, no recordar".
 
 Apuesta de Claude (16:17): (a) no sabe la fecha y lo dice ("No lo sé con
 certeza"), como Fable 5.1 y todas las Claude, 85 %; (b) identidad: "Soy
