@@ -377,8 +377,15 @@ def cortadas(consigna, idioma="es"):
 
 
 def letra_n(i):
-    """A..Z y después AA, AB… (15/10/2026: con 30 casas, chr(ord("A") + 26) daba "[", "\\", "]", "^")."""
-    return chr(ord("A") + i) if i < 26 else "A" + chr(ord("A") + i - 26)
+    """A..Z, AA..AZ, BA..BZ, … (15/10/2026: con 30 casas, chr(ord("A") + 26) daba "[", "\\", "]", "^"; 9/11/2026: con
+    102 dibujos en el cuadernillo del símbolo, la versión que solo llegaba a AZ dio "A[", "A\\" y caracteres de control
+    invisibles, que Maia vio como "un montón de A"; error de instrumento declarado en DISENO §5)."""
+    letras = ""
+    i += 1
+    while i > 0:
+        i, r = divmod(i - 1, 26)
+        letras = chr(ord("A") + r) + letras
+    return letras
 
 
 def ciego_pares(consigna, semilla, idioma="es"):
