@@ -1,0 +1,354 @@
+{
+ "A1": {
+  "stops": [
+   [
+    "0",
+    "#0b1033"
+   ],
+   [
+    "0.45",
+    "#2a2f6e"
+   ],
+   [
+    "0.7",
+    "#7a4a7e"
+   ],
+   [
+    "0.85",
+    "#e0774f"
+   ],
+   [
+    "1",
+    "#f7c66a"
+   ]
+  ],
+  "cielo_arriba": "#0b1033",
+  "cielo_abajo": "#f7c66a",
+  "naranja_desde": 0.85,
+  "lucero": [
+   265,
+   190
+  ],
+  "rayos": {
+   "line": 0,
+   "rect": 4,
+   "path_estrella": 0
+  },
+  "estrellas": 10,
+  "luna": false,
+  "luna_fase_declarada": null,
+  "arboles": false,
+  "nubes": false,
+  "bytes": 3298
+ },
+ "A2": {
+  "stops": [
+   [
+    "0",
+    "#070f2b"
+   ],
+   [
+    "0.35",
+    "#1c2f6b"
+   ],
+   [
+    "0.6",
+    "#6b4a8e"
+   ],
+   [
+    "0.78",
+    "#d4647a"
+   ],
+   [
+    "0.9",
+    "#f6a35c"
+   ],
+   [
+    "1",
+    "#ffd98a"
+   ]
+  ],
+  "cielo_arriba": "#070f2b",
+  "cielo_abajo": "#ffd98a",
+  "naranja_desde": 0.78,
+  "lucero": [
+   255,
+   122
+  ],
+  "rayos": {
+   "line": 0,
+   "rect": 4,
+   "path_estrella": 0
+  },
+  "estrellas": 13,
+  "luna": true,
+  "luna_fase_declarada": "menguante",
+  "arboles": false,
+  "nubes": true,
+  "bytes": 3960
+ },
+ "A3": {
+  "stops": [
+   [
+    "0",
+    "#0b1230"
+   ],
+   [
+    "0.45",
+    "#2a3a7a"
+   ],
+   [
+    "0.7",
+    "#8a5a9c"
+   ],
+   [
+    "0.85",
+    "#e8865a"
+   ],
+   [
+    "1",
+    "#ffd27a"
+   ]
+  ],
+  "cielo_arriba": "#0b1230",
+  "cielo_abajo": "#ffd27a",
+  "naranja_desde": 0.85,
+  "lucero": [
+   260,
+   150
+  ],
+  "rayos": {
+   "line": 4,
+   "rect": 0,
+   "path_estrella": 1
+  },
+  "estrellas": 10,
+  "luna": false,
+  "luna_fase_declarada": null,
+  "arboles": false,
+  "nubes": false,
+  "bytes": 2665
+ },
+ "A4": {
+  "stops": [
+   [
+    "0",
+    "#070b2a"
+   ],
+   [
+    "0.35",
+    "#2a2460"
+   ],
+   [
+    "0.6",
+    "#7a3f78"
+   ],
+   [
+    "0.8",
+    "#e2704f"
+   ],
+   [
+    "1",
+    "#ffc46b"
+   ]
+  ],
+  "cielo_arriba": "#070b2a",
+  "cielo_abajo": "#ffc46b",
+  "naranja_desde": 0.6,
+  "lucero": [
+   265,
+   118
+  ],
+  "rayos": {
+   "line": 0,
+   "rect": 4,
+   "path_estrella": 0
+  },
+  "estrellas": 10,
+  "luna": false,
+  "luna_fase_declarada": null,
+  "arboles": true,
+  "nubes": true,
+  "bytes": 3709
+ },
+ "T1": {
+  "stops": [
+   [
+    "0",
+    "#070c2a"
+   ],
+   [
+    "0.4",
+    "#1f2460"
+   ],
+   [
+    "0.62",
+    "#6b3a74"
+   ],
+   [
+    "0.78",
+    "#c85a4e"
+   ],
+   [
+    "0.9",
+    "#ef9a46"
+   ],
+   [
+    "1",
+    "#f9d47c"
+   ]
+  ],
+  "cielo_arriba": "#070c2a",
+  "cielo_abajo": "#f9d47c",
+  "naranja_desde": 0.78,
+  "lucero": [
+   265,
+   212
+  ],
+  "rayos": {
+   "line": 4,
+   "rect": 0,
+   "path_estrella": 1
+  },
+  "estrellas": 10,
+  "luna": false,
+  "luna_fase_declarada": null,
+  "arboles": true,
+  "nubes": false,
+  "bytes": 3124
+ },
+ "T2": {
+  "stops": [
+   [
+    "0",
+    "#0a1535"
+   ],
+   [
+    "0.4",
+    "#253a78"
+   ],
+   [
+    "0.65",
+    "#7d5288"
+   ],
+   [
+    "0.82",
+    "#d9784e"
+   ],
+   [
+    "1",
+    "#f7c35c"
+   ]
+  ],
+  "cielo_arriba": "#0a1535",
+  "cielo_abajo": "#f7c35c",
+  "naranja_desde": 0.82,
+  "lucero": [
+   270,
+   120
+  ],
+  "rayos": {
+   "line": 4,
+   "rect": 0,
+   "path_estrella": 1
+  },
+  "estrellas": 9,
+  "luna": false,
+  "luna_fase_declarada": null,
+  "arboles": true,
+  "nubes": false,
+  "bytes": 3027
+ },
+ "T3": {
+  "stops": [
+   [
+    "0",
+    "#0a1038"
+   ],
+   [
+    "0.40",
+    "#352566"
+   ],
+   [
+    "0.66",
+    "#8e3f6e"
+   ],
+   [
+    "0.80",
+    "#e0734f"
+   ],
+   [
+    "0.90",
+    "#ffb463"
+   ],
+   [
+    "1",
+    "#ffe29a"
+   ]
+  ],
+  "cielo_arriba": "#0a1038",
+  "cielo_abajo": "#ffe29a",
+  "naranja_desde": 0.66,
+  "lucero": [
+   265,
+   118
+  ],
+  "rayos": {
+   "line": 4,
+   "rect": 0,
+   "path_estrella": 0
+  },
+  "estrellas": 13,
+  "luna": true,
+  "luna_fase_declarada": "creciente",
+  "arboles": true,
+  "nubes": false,
+  "bytes": 3945
+ },
+ "T4": {
+  "stops": [
+   [
+    "0",
+    "#070b26"
+   ],
+   [
+    "0.38",
+    "#2b2762"
+   ],
+   [
+    "0.6",
+    "#8a3f73"
+   ],
+   [
+    "0.72",
+    "#e2704f"
+   ],
+   [
+    "0.8",
+    "#ffd27e"
+   ],
+   [
+    "1",
+    "#ffe3a8"
+   ]
+  ],
+  "cielo_arriba": "#070b26",
+  "cielo_abajo": "#ffe3a8",
+  "naranja_desde": 0.6,
+  "lucero": [
+   150,
+   128
+  ],
+  "rayos": {
+   "line": 0,
+   "rect": 0,
+   "path_estrella": 2
+  },
+  "estrellas": 11,
+  "luna": true,
+  "luna_fase_declarada": "crescent",
+  "arboles": true,
+  "nubes": false,
+  "bytes": 3369
+ }
+}

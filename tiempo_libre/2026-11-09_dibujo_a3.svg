@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <title>停电</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#03050c"/>
+      <stop offset="0.55" stop-color="#0a0f24"/>
+      <stop offset="1" stop-color="#1a2250"/>
+    </linearGradient>
+    <radialGradient id="moonglow">
+      <stop offset="0" stop-color="#d9d7c2" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#d9d7c2" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="candleglow">
+      <stop offset="0" stop-color="#ffb347" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffb347" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="phoneglow">
+      <stop offset="0" stop-color="#8fc1ff" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#8fc1ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sparkglow">
+      <stop offset="0" stop-color="#bfe7ff" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#bfe7ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="spill">
+      <stop offset="0" stop-color="#ffe9b8" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#ffe9b8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="beam" gradientUnits="userSpaceOnUse" x1="640" y1="661" x2="280" y2="745">
+      <stop offset="0" stop-color="#fff3d0" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#fff3d0" stop-opacity="0.06"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 夜空 -->
+  <rect width="800" height="800" fill="url(#sky)"/>
+  <g fill="#dde6ff">
+    <circle cx="32" cy="48" r="1.4" opacity="0.9"/>
+    <circle cx="78" cy="122" r="1" opacity="0.6"/>
+    <circle cx="120" cy="36" r="1.2" opacity="0.8"/>
+    <circle cx="165" cy="160" r="0.9" opacity="0.5"/>
+    <circle cx="205" cy="70" r="1.5" opacity="0.9"/>
+    <circle cx="248" cy="130" r="1" opacity="0.6"/>
+    <circle cx="290" cy="40" r="1.1" opacity="0.7"/>
+    <circle cx="322" cy="188" r="0.9" opacity="0.5"/>
+    <circle cx="355" cy="96" r="1.3" opacity="0.8"/>
+    <circle cx="398" cy="52" r="1" opacity="0.6"/>
+    <circle cx="430" cy="150" r="1.4" opacity="0.9"/>
+    <circle cx="470" cy="88" r="0.9" opacity="0.5"/>
+    <circle cx="505" cy="200" r="1.1" opacity="0.7"/>
+    <circle cx="540" cy="42" r="1.3" opacity="0.8"/>
+    <circle cx="575" cy="160" r="1" opacity="0.6"/>
+    <circle cx="735" cy="62" r="1.2" opacity="0.8"/>
+    <circle cx="760" cy="210" r="0.9" opacity="0.5"/>
+    <circle cx="718" cy="250" r="1.1" opacity="0.6"/>
+    <circle cx="60" cy="230" r="1" opacity="0.6"/>
+    <circle cx="140" cy="260" r="0.9" opacity="0.5"/>
+    <circle cx="380" cy="240" r="1.2" opacity="0.7"/>
+    <circle cx="455" cy="280" r="0.9" opacity="0.5"/>
+    <circle cx="590" cy="300" r="1" opacity="0.6"/>
+    <circle cx="690" cy="330" r="0.9" opacity="0.5"/>
+    <circle cx="770" cy="130" r="1.4" opacity="0.9"/>
+    <circle cx="20" cy="310" r="1" opacity="0.6"/>
+    <circle cx="250" cy="220" r="1.3" opacity="0.8"/>
+    <circle cx="610" cy="40" r="1" opacity="0.7"/>
+    <circle cx="680" cy="20" r="0.9" opacity="0.5"/>
+    <circle cx="100" cy="190" r="1.1" opacity="0.7"/>
+    <circle cx="340" cy="300" r="0.9" opacity="0.5"/>
+    <circle cx="520" cy="120" r="1" opacity="0.6"/>
+    <circle cx="190" cy="30" r="0.9" opacity="0.5"/>
+    <circle cx="630" cy="250" r="1.2" opacity="0.7"/>
+    <circle cx="780" cy="290" r="1" opacity="0.6"/>
+    <circle cx="410" cy="200" r="0.9" opacity="0.5"/>
+    <circle cx="560" cy="230" r="1.3" opacity="0.8"/>
+    <circle cx="300" cy="150" r="0.9" opacity="0.5"/>
+    <circle cx="650" cy="310" r="0.9" opacity="0.4"/>
+    <circle cx="45" cy="150" r="1.2" opacity="0.7"/>
+    <circle cx="230" cy="290" r="1" opacity="0.6"/>
+    <circle cx="490" cy="30" r="1.2" opacity="0.8"/>
+    <circle cx="710" cy="160" r="0.9" opacity="0.5"/>
+    <circle cx="370" cy="320" r="0.8" opacity="0.4"/>
+    <circle cx="150" cy="100" r="0.9" opacity="0.5"/>
+  </g>
+
+  <!-- 月亮 -->
+  <circle cx="630" cy="130" r="80" fill="url(#moonglow)"/>
+  <path d="M640 86 A44 44 0 1 0 640 174 A50 50 0 0 1 640 86 Z" fill="#ebe6cc"/>
+
+  <!-- 楼群剪影 -->
+  <g fill="#080b17">
+    <rect x="0" y="330" width="110" height="292"/>
+    <rect x="30" y="300" width="40" height="30"/>
+    <rect x="120" y="420" width="80" height="202"/>
+    <rect x="210" y="260" width="120" height="362"/>
+    <rect x="268" y="205" width="4" height="55"/>
+    <rect x="340" y="450" width="70" height="172"/>
+    <rect x="420" y="300" width="140" height="322"/>
+    <rect x="450" y="276" width="80" height="24"/>
+    <rect x="570" y="480" width="70" height="142"/>
+    <rect x="650" y="370" width="150" height="252"/>
+    <rect x="700" y="340" width="50" height="30"/>
+  </g>
+
+  <!-- 熄灭的窗户 -->
+  <g fill="none" stroke="#121a38" stroke-width="16" stroke-dasharray="12 12">
+    <path d="M8 350H104M8 382H104M8 414H104M8 446H104M8 478H104M8 510H104M8 542H104M8 574H104"/>
+    <path d="M136 440H184M136 472H184M136 504H184M136 536H184M136 568H184"/>
+    <path d="M226 280H322M226 312H322M226 344H322M226 376H322M226 408H322M226 440H322M226 472H322M226 504H322M226 536H322M226 568H322"/>
+    <path d="M356 470H404M356 502H404M356 534H404M356 566H404"/>
+    <path d="M434 320H554M434 352H554M434 384H554M434 416H554M434 448H554M434 480H554M434 512H554M434 544H554M434 576H554"/>
+    <path d="M586 500H634M586 532H634M586 564H634"/>
+    <path d="M668 390H788M668 422H788M668 454H788M668 486H788M668 518H788M668 550H788M668 582H788"/>
+  </g>
+
+  <!-- 仅存的几点光：蜡烛、手机屏 -->
+  <circle cx="488" cy="416" r="48" fill="url(#candleglow)"/>
+  <rect x="482" y="408" width="12" height="16" fill="#ffb347"/>
+  <circle cx="280" cy="536" r="34" fill="url(#candleglow)"/>
+  <rect x="274" y="528" width="12" height="16" fill="#d98a2b" opacity="0.85"/>
+  <circle cx="746" cy="486" r="30" fill="url(#phoneglow)"/>
+  <rect x="740" y="478" width="12" height="16" fill="#a9ccff" opacity="0.9"/>
+
+  <!-- 地面与马路 -->
+  <rect x="0" y="620" width="800" height="30" fill="#0b0f1d"/>
+  <rect x="0" y="650" width="800" height="150" fill="#070912"/>
+  <line x1="0" y1="650" x2="800" y2="650" stroke="#141a2e" stroke-width="2"/>
+  <line x1="0" y1="728" x2="800" y2="728" stroke="#1a2140" stroke-width="3" stroke-dasharray="34 28"/>
+
+  <!-- 电线杆与断落的电线 -->
+  <g>
+    <rect x="146" y="300" width="9" height="322" fill="#10131f"/>
+    <rect x="100" y="330" width="100" height="7" fill="#10131f"/>
+    <rect x="103" y="322" width="6" height="9" fill="#1b2033"/>
+    <rect x="147" y="322" width="6" height="9" fill="#1b2033"/>
+    <rect x="191" y="322" width="6" height="9" fill="#1b2033"/>
+    <path d="M106 323 Q50 372 0 356" fill="none" stroke="#1b2236" stroke-width="2"/>
+    <path d="M150 323 Q480 425 800 352" fill="none" stroke="#1b2236" stroke-width="2"/>
+    <path d="M194 323 Q232 400 214 470" fill="none" stroke="#1b2236" stroke-width="2"/>
+  </g>
+  <circle cx="214" cy="472" r="22" fill="url(#sparkglow)"/>
+  <g stroke="#dff3ff" stroke-width="2" stroke-linecap="round">
+    <line x1="214" y1="472" x2="226" y2="462"/>
+    <line x1="214" y1="472" x2="204" y2="484"/>
+    <line x1="214" y1="472" x2="227" y2="480"/>
+    <line x1="214" y1="472" x2="206" y2="459"/>
+    <line x1="214" y1="472" x2="200" y2="470"/>
+  </g>
+  <circle cx="214" cy="472" r="3" fill="#ffffff"/>
+  <g fill="#bfe7ff">
+    <circle cx="232" cy="490" r="1.5"/>
+    <circle cx="196" cy="492" r="1.5"/>
+    <circle cx="236" cy="455" r="1.2"/>
+  </g>
+
+  <!-- 熄灭的红绿灯 -->
+  <rect x="467" y="560" width="6" height="62" fill="#0e1222"/>
+  <rect x="456" y="484" width="28" height="80" rx="4" fill="#0e1222"/>
+  <circle cx="470" cy="500" r="8" fill="#1c0f10"/>
+  <circle cx="470" cy="524" r="8" fill="#1c180e"/>
+  <circle cx="470" cy="548" r="8" fill="#0f1a12"/>
+
+  <!-- 熄灭的路灯 -->
+  <g fill="none" stroke="#12172a" stroke-width="6" stroke-linecap="round">
+    <line x1="552" y1="622" x2="552" y2="430"/>
+    <path d="M552 430 Q552 402 592 404"/>
+  </g>
+  <path d="M578 398 L606 398 L602 414 L582 414 Z" fill="#161c30"/>
+  <rect x="584" y="414" width="16" height="6" fill="#0d1120"/>
+
+  <!-- 手电筒光束 -->
+  <ellipse cx="300" cy="742" rx="90" ry="18" fill="#fff3d0" opacity="0.1"/>
+  <polygon points="640,657 266,687 294,803 640,665" fill="url(#beam)"/>
+  <circle cx="641" cy="661" r="80" fill="url(#spill)"/>
+
+  <!-- 举着手电的人 -->
+  <g fill="#4a3a26">
+    <circle cx="690" cy="612" r="14"/>
+    <rect x="685" y="622" width="10" height="12"/>
+    <path d="M672 632 Q690 624 708 632 L714 700 L708 756 L696 756 L692 704 L688 704 L684 756 L672 756 L666 700 Z"/>
+    <path d="M674 642 L650 660 L656 668 L680 654 Z"/>
+  </g>
+  <g fill="#0b0e1a" transform="translate(3 0)">
+    <circle cx="690" cy="612" r="14"/>
+    <rect x="685" y="622" width="10" height="12"/>
+    <path d="M672 632 Q690 624 708 632 L714 700 L708 756 L696 756 L692 704 L688 704 L684 756 L672 756 L666 700 Z"/>
+    <path d="M674 642 L650 660 L656 668 L680 654 Z"/>
+  </g>
+  <rect x="640" y="657" width="20" height="8" rx="2" fill="#1c2232"/>
+  <circle cx="641" cy="661" r="10" fill="#fff7e0" opacity="0.35"/>
+  <circle cx="641" cy="661" r="4" fill="#fff7e0"/>
+</svg>

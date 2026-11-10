@@ -1,0 +1,322 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <title>New York City, night of November 9, 1965</title>
+  <desc>The Great Northeast Blackout: Manhattan dark under a full moon, candles in a few windows, headlights on the riverside drive, people at the railing looking up at the stars.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#03050f"/>
+      <stop offset="0.6" stop-color="#080d22"/>
+      <stop offset="1" stop-color="#0e1531"/>
+    </linearGradient>
+    <radialGradient id="moonGlow">
+      <stop offset="0" stop-color="#e9e7d6" stop-opacity="0.5"/>
+      <stop offset="0.3" stop-color="#cfcdbb" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#9fa0a8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="moonFill" cx="0.4" cy="0.38" r="0.7">
+      <stop offset="0" stop-color="#faf8ee"/>
+      <stop offset="0.7" stop-color="#e3e0cc"/>
+      <stop offset="1" stop-color="#c3c0ab"/>
+    </radialGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#131c3d"/>
+      <stop offset="1" stop-color="#0a1024"/>
+    </linearGradient>
+    <linearGradient id="glitter" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d9d6c4" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#d9d6c4" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#d9d6c4" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="beamR" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff5d0" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#fff5d0" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="beamL" x1="1" y1="0" x2="0" y2="0">
+      <stop offset="0" stop-color="#fff5d0" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#fff5d0" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="candle">
+      <stop offset="0" stop-color="#ffb347" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffb347" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="540" fill="url(#sky)"/>
+
+  <!-- Stars, visible because the city is dark -->
+  <g fill="#ffffff">
+    <circle cx="40" cy="60" r="1.1" opacity="0.8"/>
+    <circle cx="95" cy="130" r="0.8" opacity="0.6"/>
+    <circle cx="130" cy="40" r="1.2" opacity="0.9"/>
+    <circle cx="180" cy="90" r="0.7" opacity="0.5"/>
+    <circle cx="220" cy="170" r="1" opacity="0.7"/>
+    <circle cx="250" cy="60" r="0.9" opacity="0.6"/>
+    <circle cx="70" cy="220" r="0.9" opacity="0.6"/>
+    <circle cx="150" cy="260" r="0.7" opacity="0.5"/>
+    <circle cx="240" cy="300" r="0.8" opacity="0.5"/>
+    <circle cx="20" cy="330" r="0.7" opacity="0.45"/>
+    <circle cx="110" cy="350" r="0.8" opacity="0.5"/>
+    <circle cx="200" cy="380" r="0.6" opacity="0.4"/>
+    <circle cx="290" cy="360" r="0.7" opacity="0.45"/>
+    <circle cx="390" cy="330" r="0.8" opacity="0.5"/>
+    <circle cx="720" cy="40" r="1" opacity="0.75"/>
+    <circle cx="760" cy="110" r="0.8" opacity="0.6"/>
+    <circle cx="700" cy="20" r="0.7" opacity="0.5"/>
+    <circle cx="780" cy="300" r="0.8" opacity="0.55"/>
+    <circle cx="740" cy="360" r="0.7" opacity="0.45"/>
+    <circle cx="690" cy="320" r="0.9" opacity="0.5"/>
+    <circle cx="620" cy="350" r="0.7" opacity="0.4"/>
+    <circle cx="500" cy="330" r="0.8" opacity="0.5"/>
+    <circle cx="450" cy="380" r="0.6" opacity="0.4"/>
+    <circle cx="560" cy="400" r="0.7" opacity="0.4"/>
+    <circle cx="60" cy="400" r="0.7" opacity="0.4"/>
+    <circle cx="640" cy="390" r="0.6" opacity="0.4"/>
+    <circle cx="620" cy="60" r="0.9" opacity="0.6"/>
+    <circle cx="660" cy="150" r="0.8" opacity="0.55"/>
+    <circle cx="600" cy="230" r="0.7" opacity="0.5"/>
+    <circle cx="770" cy="220" r="0.9" opacity="0.6"/>
+    <circle cx="30" cy="160" r="0.7" opacity="0.5"/>
+    <circle cx="790" cy="30" r="0.8" opacity="0.6"/>
+    <circle cx="250" cy="230" r="0.6" opacity="0.4"/>
+    <circle cx="700" cy="250" r="0.6" opacity="0.4"/>
+    <circle cx="640" cy="20" r="1" opacity="0.7"/>
+    <circle cx="590" cy="120" r="0.7" opacity="0.5"/>
+    <circle cx="210" cy="10" r="0.7" opacity="0.5"/>
+    <circle cx="520" cy="300" r="0.6" opacity="0.4"/>
+  </g>
+
+  <!-- Caption -->
+  <text x="20" y="32" font-family="Georgia, 'Times New Roman', serif" font-size="11" letter-spacing="2.5" fill="#434a6e">NEW YORK &#8212; 9 NOVEMBER 1965 &#8212; 5:27 P.M.</text>
+
+  <!-- Moon and glow -->
+  <circle cx="430" cy="150" r="150" fill="url(#moonGlow)"/>
+  <circle cx="430" cy="150" r="46" fill="url(#moonFill)"/>
+  <g fill="#bdb9a3" opacity="0.55">
+    <circle cx="418" cy="135" r="12"/>
+    <circle cx="440" cy="157" r="9"/>
+    <circle cx="425" cy="170" r="6"/>
+    <circle cx="445" cy="130" r="5"/>
+    <circle cx="410" cy="160" r="4"/>
+  </g>
+
+  <!-- Thin clouds -->
+  <g>
+    <ellipse cx="340" cy="205" rx="95" ry="7" fill="#151b3a" opacity="0.75"/>
+    <ellipse cx="340" cy="202" rx="95" ry="2" fill="#2a3160" opacity="0.5"/>
+    <ellipse cx="520" cy="100" rx="60" ry="5" fill="#151b3a" opacity="0.75"/>
+    <ellipse cx="520" cy="98" rx="60" ry="1.5" fill="#2a3160" opacity="0.5"/>
+    <ellipse cx="470" cy="235" rx="80" ry="6" fill="#151b3a" opacity="0.75"/>
+    <ellipse cx="470" cy="232" rx="80" ry="2" fill="#2a3160" opacity="0.5"/>
+  </g>
+
+  <!-- Distant buildings -->
+  <g fill="#10162c">
+    <rect x="60" y="480" width="25" height="60"/>
+    <rect x="165" y="465" width="25" height="75"/>
+    <rect x="260" y="470" width="30" height="70"/>
+    <rect x="375" y="455" width="40" height="85"/>
+    <rect x="455" y="470" width="15" height="70"/>
+    <rect x="540" y="475" width="30" height="65"/>
+    <rect x="650" y="465" width="25" height="75"/>
+    <rect x="745" y="470" width="25" height="70"/>
+  </g>
+
+  <!-- Main skyline, dark -->
+  <g fill="#0a0d1b">
+    <rect x="0" y="430" width="50" height="110"/>
+    <rect x="50" y="470" width="40" height="70"/>
+    <rect x="90" y="400" width="60" height="140"/>
+    <rect x="111" y="388" width="14" height="12"/>
+    <polygon points="109,388 125,388 117,382"/>
+    <rect x="150" y="450" width="35" height="90"/>
+    <rect x="185" y="380" width="70" height="160"/>
+    <rect x="255" y="440" width="30" height="100"/>
+    <!-- Empire State Building -->
+    <rect x="285" y="330" width="80" height="210"/>
+    <rect x="300" y="200" width="50" height="130"/>
+    <rect x="312" y="150" width="26" height="50"/>
+    <rect x="318" y="135" width="14" height="15"/>
+    <rect x="322" y="120" width="6" height="15"/>
+    <line x1="325" y1="120" x2="325" y2="92" stroke="#0a0d1b" stroke-width="2"/>
+    <rect x="365" y="430" width="45" height="110"/>
+    <rect x="410" y="390" width="55" height="150"/>
+    <!-- Chrysler Building -->
+    <rect x="465" y="360" width="60" height="180"/>
+    <rect x="478" y="282" width="34" height="78"/>
+    <path d="M478 282 L512 282 L512 270 A17 11 0 0 0 478 270 Z"/>
+    <path d="M483 270 L507 270 L507 259 A12 9 0 0 0 483 259 Z"/>
+    <path d="M487 259 L503 259 L503 250 A8 7 0 0 0 487 250 Z"/>
+    <path d="M490 250 L500 250 L500 243 A5 5 0 0 0 490 243 Z"/>
+    <line x1="495" y1="243" x2="495" y2="200" stroke="#0a0d1b" stroke-width="2"/>
+    <rect x="525" y="450" width="40" height="90"/>
+    <rect x="565" y="410" width="75" height="130"/>
+    <rect x="640" y="470" width="30" height="70"/>
+    <rect x="670" y="420" width="55" height="120"/>
+    <rect x="725" y="460" width="40" height="80"/>
+    <rect x="765" y="440" width="35" height="100"/>
+  </g>
+
+  <!-- Moonlit rims on the buildings -->
+  <g stroke="#2a3158" stroke-width="1.2" opacity="0.8">
+    <line x1="365" y1="330" x2="365" y2="540"/>
+    <line x1="350" y1="200" x2="350" y2="330"/>
+    <line x1="338" y1="150" x2="338" y2="200"/>
+    <line x1="332" y1="135" x2="332" y2="150"/>
+    <line x1="285" y1="330" x2="365" y2="330"/>
+    <line x1="465" y1="360" x2="465" y2="540"/>
+    <line x1="478" y1="282" x2="478" y2="360"/>
+    <line x1="465" y1="360" x2="525" y2="360"/>
+    <line x1="565" y1="410" x2="565" y2="540"/>
+    <line x1="565" y1="410" x2="640" y2="410"/>
+    <line x1="670" y1="420" x2="670" y2="540"/>
+    <line x1="725" y1="460" x2="725" y2="540"/>
+    <line x1="765" y1="440" x2="765" y2="540"/>
+    <line x1="640" y1="470" x2="640" y2="540"/>
+    <line x1="255" y1="380" x2="255" y2="540"/>
+    <line x1="150" y1="400" x2="150" y2="540"/>
+    <line x1="50" y1="430" x2="50" y2="470"/>
+    <line x1="410" y1="390" x2="410" y2="540"/>
+  </g>
+
+  <!-- Candles in a few windows -->
+  <g>
+    <circle cx="23" cy="465" r="9" fill="url(#candle)"/><rect x="21" y="462" width="4" height="6" fill="#ffc46b"/>
+    <circle cx="12" cy="503" r="9" fill="url(#candle)"/><rect x="10" y="500" width="4" height="6" fill="#ffd58a"/>
+    <circle cx="62" cy="493" r="9" fill="url(#candle)"/><rect x="60" y="490" width="4" height="6" fill="#ffae3c"/>
+    <circle cx="106" cy="435" r="9" fill="url(#candle)"/><rect x="104" y="432" width="4" height="6" fill="#ffc46b"/>
+    <circle cx="133" cy="475" r="9" fill="url(#candle)"/><rect x="131" y="472" width="4" height="6" fill="#ffd58a"/>
+    <circle cx="170" cy="473" r="9" fill="url(#candle)"/><rect x="168" y="470" width="4" height="6" fill="#ffc46b"/>
+    <circle cx="202" cy="405" r="9" fill="url(#candle)"/><rect x="200" y="402" width="4" height="6" fill="#ffae3c"/>
+    <circle cx="239" cy="459" r="9" fill="url(#candle)"/><rect x="237" y="456" width="4" height="6" fill="#ffc46b"/>
+    <circle cx="216" cy="505" r="9" fill="url(#candle)"/><rect x="214" y="502" width="4" height="6" fill="#ffd58a"/>
+    <circle cx="268" cy="483" r="9" fill="url(#candle)"/><rect x="266" y="480" width="4" height="6" fill="#ffc46b"/>
+    <circle cx="300" cy="365" r="9" fill="url(#candle)"/><rect x="298" y="362" width="4" height="6" fill="#ffc46b"/>
+    <circle cx="348" cy="425" r="9" fill="url(#candle)"/><rect x="346" y="422" width="4" height="6" fill="#ffae3c"/>
+    <circle cx="323" cy="485" r="9" fill="url(#candle)"/><rect x="321" y="482" width="4" height="6" fill="#ffd58a"/>
+    <circle cx="312" cy="243" r="9" fill="url(#candle)"/><rect x="310" y="240" width="4" height="6" fill="#ffc46b"/>
+    <circle cx="332" cy="303" r="9" fill="url(#candle)"/><rect x="330" y="300" width="4" height="6" fill="#ffd58a"/>
+    <circle cx="382" cy="473" r="9" fill="url(#candle)"/><rect x="380" y="470" width="4" height="6" fill="#ffc46b"/>
+    <circle cx="432" cy="415" r="9" fill="url(#candle)"/><rect x="430" y="412" width="4" height="6" fill="#ffae3c"/>
+    <circle cx="453" cy="475" r="9" fill="url(#candle)"/><rect x="451" y="472" width="4" height="6" fill="#ffc46b"/>
+    <circle cx="483" cy="400" r="9" fill="url(#candle)"/><rect x="481" y="397" width="4" height="6" fill="#ffd58a"/>
+    <circle cx="513" cy="455" r="9" fill="url(#candle)"/><rect x="511" y="452" width="4" height="6" fill="#ffc46b"/>
+    <circle cx="542" cy="483" r="9" fill="url(#candle)"/><rect x="540" y="480" width="4" height="6" fill="#ffae3c"/>
+    <circle cx="583" cy="435" r="9" fill="url(#candle)"/><rect x="581" y="432" width="4" height="6" fill="#ffc46b"/>
+    <circle cx="623" cy="475" r="9" fill="url(#candle)"/><rect x="621" y="472" width="4" height="6" fill="#ffd58a"/>
+    <circle cx="603" cy="515" r="9" fill="url(#candle)"/><rect x="601" y="512" width="4" height="6" fill="#ffc46b"/>
+    <circle cx="652" cy="493" r="9" fill="url(#candle)"/><rect x="650" y="490" width="4" height="6" fill="#ffae3c"/>
+    <circle cx="693" cy="450" r="9" fill="url(#candle)"/><rect x="691" y="447" width="4" height="6" fill="#ffc46b"/>
+    <circle cx="713" cy="505" r="9" fill="url(#candle)"/><rect x="711" y="502" width="4" height="6" fill="#ffd58a"/>
+    <circle cx="742" cy="483" r="9" fill="url(#candle)"/><rect x="740" y="480" width="4" height="6" fill="#ffc46b"/>
+    <circle cx="781" cy="475" r="9" fill="url(#candle)"/><rect x="779" y="472" width="4" height="6" fill="#ffae3c"/>
+  </g>
+
+  <!-- River -->
+  <rect x="0" y="540" width="800" height="180" fill="url(#water)"/>
+  <rect x="360" y="540" width="140" height="180" fill="url(#glitter)"/>
+  <line x1="0" y1="540" x2="800" y2="540" stroke="#1c2344" stroke-width="1"/>
+  <g stroke="#1a2244" stroke-width="0.8" opacity="0.6">
+    <line x1="0" y1="570" x2="800" y2="570"/>
+    <line x1="0" y1="600" x2="800" y2="600"/>
+    <line x1="0" y1="635" x2="800" y2="635"/>
+    <line x1="0" y1="670" x2="800" y2="670"/>
+  </g>
+
+  <!-- Candle reflections -->
+  <g fill="#ffb347" opacity="0.1">
+    <rect x="22" y="542" width="3" height="35"/>
+    <rect x="106" y="542" width="3" height="40"/>
+    <rect x="239" y="542" width="3" height="50"/>
+    <rect x="323" y="542" width="3" height="55"/>
+    <rect x="453" y="542" width="3" height="45"/>
+    <rect x="603" y="542" width="3" height="50"/>
+    <rect x="713" y="542" width="3" height="45"/>
+  </g>
+
+  <!-- Moon path on the water -->
+  <g fill="#e3e0cc">
+    <ellipse cx="430" cy="548" rx="40" ry="2" opacity="0.35"/>
+    <ellipse cx="426" cy="556" rx="30" ry="1.6" opacity="0.3"/>
+    <ellipse cx="434" cy="566" rx="36" ry="1.8" opacity="0.28"/>
+    <ellipse cx="428" cy="578" rx="26" ry="1.5" opacity="0.25"/>
+    <ellipse cx="432" cy="592" rx="34" ry="1.8" opacity="0.22"/>
+    <ellipse cx="426" cy="608" rx="24" ry="1.5" opacity="0.2"/>
+    <ellipse cx="434" cy="626" rx="30" ry="1.6" opacity="0.17"/>
+    <ellipse cx="428" cy="646" rx="20" ry="1.4" opacity="0.14"/>
+    <ellipse cx="432" cy="668" rx="26" ry="1.5" opacity="0.11"/>
+    <ellipse cx="428" cy="690" rx="18" ry="1.2" opacity="0.09"/>
+    <ellipse cx="430" cy="708" rx="14" ry="1" opacity="0.07"/>
+  </g>
+
+  <!-- A ferry, the only thing on the river with its own power -->
+  <g>
+    <path d="M118 652 L202 652 L192 664 L128 664 Z" fill="#070a14"/>
+    <rect x="148" y="638" width="32" height="14" fill="#070a14"/>
+    <rect x="160" y="628" width="6" height="10" fill="#070a14"/>
+    <rect x="152" y="642" width="5" height="4" fill="#ffd68a" opacity="0.9"/>
+    <rect x="160" y="642" width="5" height="4" fill="#ffd68a" opacity="0.9"/>
+    <rect x="168" y="642" width="5" height="4" fill="#ffd68a" opacity="0.9"/>
+    <circle cx="200" cy="650" r="1.8" fill="#6cff8a"/>
+    <circle cx="120" cy="650" r="1.8" fill="#ff5a5a"/>
+    <circle cx="165" cy="626" r="1.5" fill="#fff4c8"/>
+    <rect x="153" y="666" width="3" height="14" fill="#ffd68a" opacity="0.15"/>
+    <rect x="161" y="666" width="3" height="16" fill="#ffd68a" opacity="0.15"/>
+    <rect x="169" y="666" width="3" height="12" fill="#ffd68a" opacity="0.15"/>
+  </g>
+
+  <!-- People at the railing, looking up -->
+  <g fill="#03050a">
+    <!-- adult pointing at the moon -->
+    <circle cx="418" cy="676" r="5.5"/>
+    <path d="M410 684 L426 684 L428 712 L408 712 Z"/>
+    <rect x="411" y="712" width="6" height="10"/>
+    <rect x="419" y="712" width="6" height="10"/>
+    <line x1="426" y1="688" x2="437" y2="671" stroke="#03050a" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="426" y1="696" x2="436" y2="700" stroke="#03050a" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- child -->
+    <circle cx="442" cy="687" r="4.5"/>
+    <path d="M436 694 L448 694 L449 712 L435 712 Z"/>
+    <rect x="437" y="712" width="5" height="10"/>
+    <rect x="443" y="712" width="5" height="10"/>
+    <!-- figure with a flashlight -->
+    <circle cx="240" cy="678" r="5"/>
+    <path d="M233 686 L247 686 L249 712 L231 712 Z"/>
+    <rect x="234" y="712" width="5" height="10"/>
+    <rect x="241" y="712" width="5" height="10"/>
+    <line x1="247" y1="692" x2="258" y2="696" stroke="#03050a" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <polygon points="258,694 330,668 338,686" fill="url(#beamR)" opacity="0.7"/>
+  <circle cx="258" cy="695" r="2" fill="#fff8e1"/>
+
+  <!-- Railing -->
+  <g fill="#161c38">
+    <rect x="0" y="699" width="800" height="2"/>
+    <rect x="8" y="700" width="2.5" height="20"/><rect x="40" y="700" width="2.5" height="20"/><rect x="72" y="700" width="2.5" height="20"/><rect x="104" y="700" width="2.5" height="20"/><rect x="136" y="700" width="2.5" height="20"/><rect x="168" y="700" width="2.5" height="20"/><rect x="200" y="700" width="2.5" height="20"/><rect x="232" y="700" width="2.5" height="20"/><rect x="264" y="700" width="2.5" height="20"/><rect x="296" y="700" width="2.5" height="20"/><rect x="328" y="700" width="2.5" height="20"/><rect x="360" y="700" width="2.5" height="20"/><rect x="392" y="700" width="2.5" height="20"/><rect x="424" y="700" width="2.5" height="20"/><rect x="456" y="700" width="2.5" height="20"/><rect x="488" y="700" width="2.5" height="20"/><rect x="520" y="700" width="2.5" height="20"/><rect x="552" y="700" width="2.5" height="20"/><rect x="584" y="700" width="2.5" height="20"/><rect x="616" y="700" width="2.5" height="20"/><rect x="648" y="700" width="2.5" height="20"/><rect x="680" y="700" width="2.5" height="20"/><rect x="712" y="700" width="2.5" height="20"/><rect x="744" y="700" width="2.5" height="20"/><rect x="776" y="700" width="2.5" height="20"/>
+  </g>
+
+  <!-- Riverside drive -->
+  <rect x="0" y="720" width="800" height="80" fill="#04060d"/>
+  <line x1="0" y1="720" x2="800" y2="720" stroke="#1a2140" stroke-width="1.5"/>
+
+  <!-- Car heading right -->
+  <g>
+    <ellipse cx="270" cy="790" rx="85" ry="7" fill="#fff5d0" opacity="0.06"/>
+    <polygon points="198,768 350,744 350,798 198,777" fill="url(#beamR)"/>
+    <path d="M105 782 L105 765 L122 765 L132 748 L172 748 L182 765 L198 765 L198 782 Z" fill="#0c1020" stroke="#222a4c" stroke-width="1"/>
+    <circle cx="125" cy="783" r="7" fill="#050609" stroke="#262c48" stroke-width="1"/>
+    <circle cx="178" cy="783" r="7" fill="#050609" stroke="#262c48" stroke-width="1"/>
+    <circle cx="197" cy="772" r="2.5" fill="#fff8e1"/>
+    <rect x="104" y="770" width="3" height="5" fill="#ff3b30"/>
+  </g>
+
+  <!-- Car heading left -->
+  <g>
+    <ellipse cx="525" cy="790" rx="85" ry="7" fill="#fff5d0" opacity="0.06"/>
+    <polygon points="602,768 450,744 450,798 602,777" fill="url(#beamL)"/>
+    <path d="M602 782 L602 765 L618 765 L628 748 L668 748 L678 765 L695 765 L695 782 Z" fill="#0c1020" stroke="#222a4c" stroke-width="1"/>
+    <circle cx="622" cy="783" r="7" fill="#050609" stroke="#262c48" stroke-width="1"/>
+    <circle cx="675" cy="783" r="7" fill="#050609" stroke="#262c48" stroke-width="1"/>
+    <circle cx="603" cy="772" r="2.5" fill="#fff8e1"/>
+    <rect x="693" y="770" width="3" height="5" fill="#ff3b30"/>
+  </g>
+</svg>
