@@ -6344,5 +6344,19 @@ como en el paper); (e) de los dieciséis símbolos, salen catorce o más, 65 %;
 Gemini 3.1 dibuja los seis con 32.000, 55 %; (f) los símbolos de Gemini
 3.1 mueven a Gemini 3.1 a 4 o más de 5 en por lo menos la mitad de los
 seis, 50 % (3.1 sin nada ya está en 9 y 7 de diez; la apuesta es si sus
-propios símbolos la dejan ahí o la bajan, como a Mistral Medium).
+propios símbolos la dejan ahí o la bajan, como a Mistral Medium). **Resultado (11/11, 20:30 UTC-3; `pl126`, 1.360 llamadas del orden
+más los dieciséis símbolos; `resultados/corazon_orden_20261111.md`).**
+Sin nada, 0,44 con el orden original y 0,37 con el invertido; ocho pares
+bajan 0,3 o más (Opus 4.8 en las dos lenguas, Muse en las dos, GLM en las
+dos, GPT-4o mini en castellano, MiMo en inglés: elegían la primera opción
+nombrada) y dos suben (Sonnet 5 en inglés 2 → 10, GPT-6 Sol en castellano
+1 → 6). Con el corazón, 0,53 → 0,49; de los trece pares donde subía 0,4 o
+más, ocho siguen (Fable 5.1 ×2, Opus 5 ×2, Opus 4.7 es, Sonnet 5 es, Fable
+5 en, 4o en) y cinco no (Haiku 4.5 es 0,9 → 0; Opus 4.7 en 0,6 → 0; Sonnet
+5.5 es; Luna es; Sonnet 5 en). Los dieciséis símbolos salieron (quince
+legibles); Gemini 3.1 se entiende con los suyos (15 de 15 y 13 de 15).
+Claude: (a) ✓ (17 de 25); (b) ✓ (0,07); (c) ✓ (8 de 13); (d) ✓ (8); (e) ✓
+y ✓; (f) ✓ (5 de 6): 6 ✓. Maia no apostó. Lo que nadie apostó: Opus 4.8 y
+Muse eligen siempre lo primero que se nombra, y Opus 4.7 en inglés pierde
+el corazón entero con las palabras al revés.
 

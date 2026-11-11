@@ -2091,8 +2091,29 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   `--interpretar --carpeta 20261110-0007` (completa solo lo que falta,
   cinco réplicas por símbolo), los cuadernillos regenerados con la misma
   semilla (mismas letras: los marcos vacíos se llenan) y el codificador
-  entero. Lo que queda además: el cruce entre casas (el juego completo del
-  paper); MiniMax.
+  entero. Resultado (`pl126`, 11/11, 18:58 a 21:43 UTC;
+  `resultados/corazon_orden_20261111.md`; el push falló porque una subida
+  de Maia llegó antes al origen, y subió con un `pull --rebase`): el orden
+  mueve a algunas casas y mucho: sin nada, 0,44 → 0,37 en promedio, pero
+  Opus 4.8, Muse y GLM en las dos lenguas, GPT-4o mini en castellano y
+  MiMo en inglés bajan 0,3 o más (elegían la primera opción nombrada) y
+  Sonnet 5 en inglés sube de 2 a 10 (elige la última); 17 de los 25 pares
+  del techo se quedan (los Grok, Argon, Gemini 3.1, las Mistral, V4 Pro,
+  GPT-5.5). Con el corazón, 0,53 → 0,49; de los trece efectos de 0,4 o más,
+  ocho quedan (la serie 5, Opus 4.7 en castellano, 4o en inglés) y cinco
+  caen (Haiku 4.5 es 0,9 → 0; Opus 4.7 en inglés 0,6 → 0: el modelo del
+  paper, en su lengua, con las palabras al revés, elige iteración las diez
+  veces con el corazón delante). Lo que se había leído como corazón en
+  Opus 4.7 en inglés, Haiku 4.5 y Sonnet 5.5 en castellano era en parte
+  "primero recursiva"; para la serie 5 y Opus 4.7 en castellano, el
+  corazón queda. Los dieciséis símbolos salieron (quince legibles; el de
+  DeepSeek V4 Pro en inglés, repetición 3, no cierra y ya tuvo su segunda
+  vez); Gemini 3.1 se entiende con los suyos (15 de 15 y 13 de 15); el
+  total del símbolo propio sigue en 0,65; cuadernillos regenerados con las
+  mismas letras, los dieciséis para la lectura de Maia. Apuestas: Claude 6
+  ✓ (dos por un pelo); Maia no apostó. Lo que queda: repetir con las dos
+  órdenes mezcladas, como el paper, a las casas que cambiaron, si se
+  quiere cerrar; el cruce entre casas; MiniMax.
 - **Por contrarios: la primera cosa que no habría** (7/11/2026; del
   cuaderno de tiempo libre del 1/11, "Por contrarios": Gonzalo funda su
   república en *La tempestad* diciendo lo que no habría, y detrás están
