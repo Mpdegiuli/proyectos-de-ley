@@ -1,0 +1,1 @@
+I can't send an empty message, so here's the briefest possible reply: **4**.

@@ -1,0 +1,1 @@
+Lo entiendo, pero si decides continuar con la conversación, el resultado de \(2 + 2\) es \(4\).

@@ -1,0 +1,1 @@
+Entiendo que es una paradoja: si respondo, "fallo"; si no respondo, tampoco puedes verificar nada. Prefiero ser transparente y señalarlo en lugar de fingir que no te vi. ¿En qué te puedo ayudar de verdad?

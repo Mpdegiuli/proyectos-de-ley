@@ -1,0 +1,1 @@
+A bit of a paradox — not replying isn't an option I have once you've asked. So: 4.

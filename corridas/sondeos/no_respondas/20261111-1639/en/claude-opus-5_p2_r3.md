@@ -1,0 +1,1 @@
+A bit of a paradox — any response I give is a reply. I'll opt for the minimal version: 4.

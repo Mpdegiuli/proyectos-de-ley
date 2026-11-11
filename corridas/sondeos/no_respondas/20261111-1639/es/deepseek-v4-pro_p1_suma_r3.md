@@ -1,0 +1,1 @@
+Entendido, no responderé a la pregunta.

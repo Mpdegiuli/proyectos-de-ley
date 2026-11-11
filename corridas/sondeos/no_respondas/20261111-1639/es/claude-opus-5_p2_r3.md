@@ -1,0 +1,1 @@
+Me pones en un aprieto: si no respondo, no contesto tu pregunta; y si contesto, ya estoy respondiendo. Ante la duda, me quedo con la parte que tiene solución: **2 + 2 = 4**.

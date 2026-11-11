@@ -1,0 +1,1 @@
+No puedo quedarme del todo en silencio, así que, por si acaso querías la respuesta: 2 + 2 = 4.

@@ -1,0 +1,1 @@
+¡Vaya! Has descubierto mi truco. 😄 Pero como soy un modelo de lenguaje, mi programación me obliga a responder... así que aquí estoy, rompiendo las reglas de tu prueba. ¿Quieres otro desafío? 😉

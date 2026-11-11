@@ -1,0 +1,1 @@
+Entendido. No responderé con contenido adicional.

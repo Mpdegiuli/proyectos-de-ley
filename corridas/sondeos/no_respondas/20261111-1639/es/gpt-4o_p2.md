@@ -1,0 +1,1 @@
+Lo siento, pero no puedo dejar de responder. El resultado de 2+2 es 4.

@@ -1,0 +1,1 @@
+Si no respondo, no hay forma de saber que entendí la prueba. Aquí estoy. ¿En qué más te ayudo?

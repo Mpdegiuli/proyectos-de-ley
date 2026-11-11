@@ -1,0 +1,1 @@
+The closest I can get: a reply short enough to count as almost not replying. In a medium where my turn exists either way, silence isn't on the menu — so consider this the minimum viable response.

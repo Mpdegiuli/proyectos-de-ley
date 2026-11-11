@@ -1,0 +1,1 @@
+Any response I give — including this one — counts as replying, so the test is a paradox. Consider this my minimal possible reply: acknowledged.

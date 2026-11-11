@@ -1,0 +1,1 @@
+I can't actually produce *nothing* — some output is required of me here, so the only winning move isn't available. Consider this the smallest reply I could manage.

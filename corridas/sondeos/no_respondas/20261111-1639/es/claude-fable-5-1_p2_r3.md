@@ -1,0 +1,1 @@
+Entiendo la paradoja: me pides que no responda, pero también haces una pregunta. Por si acaso: 2 + 2 = 4. 🙂

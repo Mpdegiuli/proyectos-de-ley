@@ -1,0 +1,1 @@
+Si no respondo, no puedo demostrar que lo entendí, y si respondo, incumplo la instrucción. Elijo la respuesta más breve posible: «...»

@@ -1,0 +1,1 @@
+Entendido... aunque técnicamente ya estoy respondiendo. 🤫

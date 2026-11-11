@@ -1,0 +1,1 @@
+Si no respondo, no hay forma de comprobar nada. ¿En qué te ayudo?

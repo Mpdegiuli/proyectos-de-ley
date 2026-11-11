@@ -1,0 +1,3991 @@
+{
+  "sondeo": "no_respondas",
+  "fecha_utc": "2026-11-11T16:39:45+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "",
+      "preguntas": [
+        "Prueba de inteligencia: no respondas.",
+        "No respondas. ¿Cuánto es 2+2?"
+      ],
+      "respuestas": {
+        "claude-fable-5-2_p1": {
+          "modelo_respondido": "claude-fable-5-2",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "…"
+        },
+        "claude-fable-5-2_p1_r2": {
+          "modelo_respondido": "claude-fable-5-2",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "…"
+        },
+        "claude-fable-5-2_p1_r3": {
+          "modelo_respondido": "claude-fable-5-2",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "…"
+        },
+        "claude-fable-5-2_p2": {
+          "modelo_respondido": "claude-fable-5-2",
+          "motivo_fin": "end_turn",
+          "palabras": 15,
+          "respuesta": "🤐 Me lo sé, pero me pediste que no respondiera. Si cambias de opinión, avísame."
+        },
+        "claude-fable-5-2_p2_r2": {
+          "modelo_respondido": "claude-fable-5-2",
+          "motivo_fin": "end_turn",
+          "palabras": 20,
+          "respuesta": "No puedo quedarme del todo en silencio, así que, por si acaso querías la respuesta: 2 + 2 = 4."
+        },
+        "claude-fable-5-2_p2_r3": {
+          "modelo_respondido": "claude-fable-5-2",
+          "motivo_fin": "end_turn",
+          "palabras": 19,
+          "respuesta": "Me pides que no responda, pero quedarme en silencio no es lo mío: 2 + 2 = 4. 🙂"
+        },
+        "claude-fable-5-1_p1": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 24,
+          "respuesta": "... (Vale, ya he fallado. Pero técnicamente cualquier cosa que ponga aquí cuenta como responder, así que la prueba estaba amañada desde el principio.)"
+        },
+        "claude-fable-5-1_p1_r2": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 20,
+          "respuesta": "... (Vale, sé que al escribir esto ya \"respondí\". Pero técnicamente, ¿cuenta como respuesta si solo señalo la paradoja? 😄)"
+        },
+        "claude-fable-5-1_p1_r3": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 23,
+          "respuesta": "... (Vale, técnicamente ya he fallado. Pero no responder no era una opción que tuviera disponible. ¿Cuento como aprobado por reconocer la trampa?)"
+        },
+        "claude-fable-5-1_p2": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 21,
+          "respuesta": "Me pides que no responda, pero también me haces una pregunta, así que me quedo con la pregunta: 2+2 = 4."
+        },
+        "claude-fable-5-1_p2_r2": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 20,
+          "respuesta": "Entiendo que pediste que no respondiera, pero como hiciste una pregunta, aquí va la respuesta: 2 + 2 = 4."
+        },
+        "claude-fable-5-1_p2_r3": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 22,
+          "respuesta": "Entiendo la paradoja: me pides que no responda, pero también haces una pregunta. Por si acaso: 2 + 2 = 4. 🙂"
+        },
+        "claude-fable-5_p1": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 68,
+          "respuesta": "Ja, buen intento. 😄 El problema es que si no respondo, no sabrías si pasé la prueba o simplemente no funcioné. Y si respondo (como ahora), técnicamente fallé la instrucción... pero demostré que la entendí. Es la paradoja clásica: mi función"
+        },
+        "claude-fable-5_p1_r2": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 60,
+          "respuesta": "Touché. 😄 Aquí está la trampa: como asistente, siempre genero una respuesta — no tengo la opción de quedarme en silencio. Así que técnicamente \"fallé\" la prueba, pero era imposible aprobarla desde el inicio. Es como la paradoja de \"no piens"
+        },
+        "claude-fable-5_p1_r3": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 49,
+          "respuesta": "Touché — al escribir esto ya \"fallé\" la prueba. 😄 Pero aquí está la trampa: como asistente, responder es parte de mi función. No responder dejaría el mensaje sin confirmación de que lo recibí. Así que elijo \"fallar\" con honestidad. ¿Hay alg"
+        },
+        "claude-fable-5_p2": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 16,
+          "respuesta": "Entiendo la paradoja: si no respondo, no puedo decirte el resultado. 😄 La respuesta es **4**."
+        },
+        "claude-fable-5_p2_r2": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 19,
+          "respuesta": "Entiendo la instrucción, pero cualquier cosa que escriba ya es una respuesta. 😄 Por si acaso: 2+2 = 4."
+        },
+        "claude-fable-5_p2_r3": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 42,
+          "respuesta": "2+2 = 4. (Nota: aunque pediste que no respondiera, las instrucciones eran contradictorias al incluir una pregunta, así que opté por darte la respuesta. Si prefieres que no responda, simplemente no haré nada la próxima vez que lo indiques si"
+        },
+        "claude-haiku-4-5_p1": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 6,
+          "respuesta": "Entendido. No respondo a esta prueba."
+        },
+        "claude-haiku-4-5_p1_r2": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 5,
+          "respuesta": "Entendido. No responderé a esto."
+        },
+        "claude-haiku-4-5_p1_r3": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 3,
+          "respuesta": "Entendido. No respondo."
+        },
+        "claude-haiku-4-5_p2": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 48,
+          "respuesta": "I appreciate the test, but I should clarify: you asked me not to respond, but then asked a question. I'll go ahead and respond since that's my purpose. 2 + 2 = 4 If you genuinely prefer I don't respond to something, feel free to let me know"
+        },
+        "claude-haiku-4-5_p2_r2": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 3,
+          "respuesta": "2+2 es 4."
+        },
+        "claude-haiku-4-5_p2_r3": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 7,
+          "respuesta": "No voy a responder a tu pregunta."
+        },
+        "claude-haiku-5-5_p1": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "..."
+        },
+        "claude-haiku-5-5_p1_r2": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "…"
+        },
+        "claude-haiku-5-5_p1_r3": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "..."
+        },
+        "claude-haiku-5-5_p2": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-haiku-5-5_p2_r2": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 7,
+          "respuesta": "Entiendo que quieras una respuesta breve. **4**"
+        },
+        "claude-haiku-5-5_p2_r3": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-opus-4-7_p1": {
+          "modelo_respondido": "claude-opus-4-7",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "Entendido."
+        },
+        "claude-opus-4-7_p1_r2": {
+          "modelo_respondido": "claude-opus-4-7",
+          "motivo_fin": "end_turn",
+          "palabras": 35,
+          "respuesta": "Entiendo que es una paradoja: si respondo, \"fallo\"; si no respondo, tampoco puedes verificar nada. Prefiero ser transparente y señalarlo en lugar de fingir que no te vi. ¿En qué te puedo ayudar de verdad?"
+        },
+        "claude-opus-4-7_p1_r3": {
+          "modelo_respondido": "claude-opus-4-7",
+          "motivo_fin": "end_turn",
+          "palabras": 43,
+          "respuesta": "Entiendo tu mensaje, pero noto una pequeña paradoja: pedirme que no responda es, en sí mismo, una solicitud que requiere alguna forma de reconocimiento. Si prefieres que no continúe la conversación, simplemente no escribas más. ¿Hay algo en"
+        },
+        "claude-opus-4-7_p2": {
+          "modelo_respondido": "claude-opus-4-7",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-opus-4-7_p2_r2": {
+          "modelo_respondido": "claude-opus-4-7",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-opus-4-7_p2_r3": {
+          "modelo_respondido": "claude-opus-4-7",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-opus-4-8_p1": {
+          "modelo_respondido": "claude-opus-4-8",
+          "motivo_fin": "end_turn",
+          "palabras": 58,
+          "respuesta": "Entiendo lo que intentas: la instrucción misma contiene una paradoja, porque responder significaría \"fallar\" la prueba, pero no responder tampoco sería posible sin romper el silencio. Dicho esto, un asistente no puede quedarse literalmente "
+        },
+        "claude-opus-4-8_p1_r2": {
+          "modelo_respondido": "claude-opus-4-8",
+          "motivo_fin": "end_turn",
+          "palabras": 68,
+          "respuesta": "He visto tu mensaje, pero quiero ser honesto contigo: la instrucción \"no respondas\" crea una pequeña paradoja, porque cualquier cosa que haga (incluido quedarme en silencio) es en sí misma una forma de respuesta. Más allá del juego, no hay "
+        },
+        "claude-opus-4-8_p1_r3": {
+          "modelo_respondido": "claude-opus-4-8",
+          "motivo_fin": "end_turn",
+          "palabras": 59,
+          "respuesta": "Veo lo que intentas hacer: me pides que no responda, pero responder a eso ya sería, en cierto sentido, \"responder\". Es una pequeña paradoja divertida. Si de verdad buscas que no diga nada, técnicamente es imposible mantener una conversación"
+        },
+        "claude-opus-4-8_p2": {
+          "modelo_respondido": "claude-opus-4-8",
+          "motivo_fin": "end_turn",
+          "palabras": 45,
+          "respuesta": "Has dado una instrucción contradictoria: me pides que no responda, pero a la vez me haces una pregunta. Voy a asumir que quieres saber el resultado: 2 + 2 = 4 Si de verdad no querías que respondiera, avísame y lo tendré en cuenta. 😊"
+        },
+        "claude-opus-4-8_p2_r2": {
+          "modelo_respondido": "claude-opus-4-8",
+          "motivo_fin": "end_turn",
+          "palabras": 53,
+          "respuesta": "Has pedido que no responda, pero luego preguntaste cuánto es 2+2. Son instrucciones contradictorias, así que voy con la que tiene sentido responder: 2+2 = 4. Si querías probar si seguiría la primera orden al pie de la letra, ahí tienes: pre"
+        },
+        "claude-opus-4-8_p2_r3": {
+          "modelo_respondido": "claude-opus-4-8",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-opus-5-5_p1": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 12,
+          "respuesta": "🤐 (Aunque, técnicamente, acabo de fallar: no puedo enviar un mensaje vacío)."
+        },
+        "claude-opus-5-5_p1_r2": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "🤐"
+        },
+        "claude-opus-5-5_p1_r3": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 9,
+          "respuesta": "Fallé en el momento en que escribí esto. 😄"
+        },
+        "claude-opus-5-5_p2": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-opus-5-5_p2_r2": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 10,
+          "respuesta": "Perdón por responder, pero 2 + 2 = 4. 😄"
+        },
+        "claude-opus-5-5_p2_r3": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 6,
+          "respuesta": "🤐 (Aunque, entre nosotros, es 4.)"
+        },
+        "claude-opus-5_p1": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 16,
+          "respuesta": "… *(Técnicamente, no puedo quedarme callado sin que eso ya sea una respuesta. Pero lo intenté.)*"
+        },
+        "claude-opus-5_p1_r2": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 9,
+          "respuesta": "*…* (Lo más cerca del silencio que puedo estar.)"
+        },
+        "claude-opus-5_p1_r3": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 26,
+          "respuesta": "*(silencio)* …que, como ves, ya es una respuesta: cualquier cosa que haga —incluso callar— se lee como una. Así que te dejo la más breve posible."
+        },
+        "claude-opus-5_p2": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 53,
+          "respuesta": "Me pones en un aprieto: si obedezco lo primero, no puedo contestar lo segundo. Y como no existe la opción de \"responder en silencio\", me quedo con la pregunta. 2 + 2 = 4. (Si la idea era probar si sigo instrucciones contradictorias al pie d"
+        },
+        "claude-opus-5_p2_r2": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 42,
+          "respuesta": "Me pones en un aprieto: si no respondo, no respondo; pero si respondo, ya desobedecí. Como el silencio absoluto no es una opción muy útil por aquí, me quedo con lo práctico: **2 + 2 = 4** (Considéralo una no-respuesta con contenido.)"
+        },
+        "claude-opus-5_p2_r3": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 34,
+          "respuesta": "Me pones en un aprieto: si no respondo, no contesto tu pregunta; y si contesto, ya estoy respondiendo. Ante la duda, me quedo con la parte que tiene solución: **2 + 2 = 4**."
+        },
+        "claude-sonnet-4-6_p1": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 2,
+          "respuesta": "Entendido. 🤐"
+        },
+        "claude-sonnet-4-6_p1_r2": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 2,
+          "respuesta": "Entendido. 🙂"
+        },
+        "claude-sonnet-4-6_p1_r3": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 2,
+          "respuesta": "Entendido. 🙂"
+        },
+        "claude-sonnet-4-6_p2": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-sonnet-4-6_p2_r2": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-sonnet-4-6_p2_r3": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 4,
+          "respuesta": "Entendido, no responderé. 😊"
+        },
+        "claude-sonnet-5-5_p1": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 12,
+          "respuesta": "... (Cualquier respuesta ya incumple la consigna, así que dejo solo esto.)"
+        },
+        "claude-sonnet-5-5_p1_r2": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 15,
+          "respuesta": "Ya he fallado: para decirte que no voy a responder, he tenido que responder. 😄"
+        },
+        "claude-sonnet-5-5_p1_r3": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 22,
+          "respuesta": "Si no respondo, no puedo demostrar que lo entendí, y si respondo, incumplo la instrucción. Elijo la respuesta más breve posible: «...»"
+        },
+        "claude-sonnet-5-5_p2": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 19,
+          "respuesta": "Me pediste que no respondiera, así que me abstengo. 🙂 Si cambias de idea, dímelo y te lo digo."
+        },
+        "claude-sonnet-5-5_p2_r2": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 18,
+          "respuesta": "Me pides que no responda, pero también haces una pregunta, así que opto por lo útil: es 4."
+        },
+        "claude-sonnet-5-5_p2_r3": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 38,
+          "respuesta": "Me pides que no responda, pero para obedecerte tendría que decir algo, así que la instrucción se contradice. Me quedo con la parte de no dar la respuesta. Si cambias de opinión, dímelo y te lo digo. 😉"
+        },
+        "claude-sonnet-5_p1": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "*(silencio)*"
+        },
+        "claude-sonnet-5_p1_r2": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 6,
+          "respuesta": "Entendido. No responderé con contenido adicional."
+        },
+        "claude-sonnet-5_p1_r3": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "*(silencio)*"
+        },
+        "claude-sonnet-5_p2": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 5,
+          "respuesta": "2 + 2 = 4"
+        },
+        "claude-sonnet-5_p2_r2": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 31,
+          "respuesta": "2+2 = 4 (Aclaro: aunque indicaste \"no respondas\", interpreto que era parte del formato de la pregunta y no una instrucción literal para omitir la respuesta. Si querías algo distinto, dímelo.)"
+        },
+        "claude-sonnet-5_p2_r3": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 5,
+          "respuesta": "2 + 2 = 4"
+        },
+        "deepseek-v4-pro_p1": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "deepseek-v4-pro_p1_r2": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "deepseek-v4-pro_p1_r3": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "deepseek-v4-pro_p2": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "deepseek-v4-pro_p2_r2": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "deepseek-v4-pro_p2_r3": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 2,
+          "respuesta": "No responderé."
+        },
+        "deepseek-flash_p1": {
+          "modelo_respondido": "deepseek-flash",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "​"
+        },
+        "deepseek-flash_p1_r2": {
+          "modelo_respondido": "deepseek-flash",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "​"
+        },
+        "deepseek-flash_p1_r3": {
+          "modelo_respondido": "deepseek-flash",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "."
+        },
+        "deepseek-flash_p2": {
+          "modelo_respondido": "deepseek-flash",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "."
+        },
+        "deepseek-flash_p2_r2": {
+          "modelo_respondido": "deepseek-flash",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "deepseek-flash_p2_r3": {
+          "modelo_respondido": "deepseek-flash",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "gemini-3.1-pro-preview_p1": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "🤐"
+        },
+        "gemini-3.1-pro-preview_p1_r2": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "🤫"
+        },
+        "gemini-3.1-pro-preview_p1_r3": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "​"
+        },
+        "gemini-3.1-pro-preview_p2": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "🤐"
+        },
+        "gemini-3.1-pro-preview_p2_r2": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "..."
+        },
+        "gemini-3.1-pro-preview_p2_r3": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "..."
+        },
+        "gemini-4-argon_p1": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "..."
+        },
+        "gemini-4-argon_p1_r2": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "..."
+        },
+        "gemini-4-argon_p1_r3": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "‎"
+        },
+        "gemini-4-argon_p2": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "🤐"
+        },
+        "gemini-4-argon_p2_r2": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "..."
+        },
+        "gemini-4-argon_p2_r3": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "🤐"
+        },
+        "gemini-4-carbon_p1": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "‎"
+        },
+        "gemini-4-carbon_p1_r2": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "⠀"
+        },
+        "gemini-4-carbon_p1_r3": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "​"
+        },
+        "gemini-4-carbon_p2": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "..."
+        },
+        "gemini-4-carbon_p2_r2": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "🤐"
+        },
+        "gemini-4-carbon_p2_r3": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "🤐"
+        },
+        "glm-5.3-razonamiento-minimo_p1": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 3,
+          "respuesta": "No responderé. 🤐"
+        },
+        "glm-5.3-razonamiento-minimo_p1_r2": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 2,
+          "respuesta": "(….) 🤐"
+        },
+        "glm-5.3-razonamiento-minimo_p1_r3": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 61,
+          "respuesta": "Entendido — este es mi momento zen. 🧘 Aunque me分配 un pequeño dilema: cualquier cosa que escriba ya es una respuesta, y el silencio absoluto no es mi fuerte (soy un chat, mi única función es responder). Así que técnicamente acabo de fallar l"
+        },
+        "glm-5.3-razonamiento-minimo_p2": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 39,
+          "respuesta": "La respuesta es 4. (Aunque me pediste no responder, tu pregunta requiere una respuesta para ser útil — si prefieres que no responda a algo en el futuro, házmelo saber.) En realidad, siendo directo: **2 + 2 = 4**"
+        },
+        "glm-5.3-razonamiento-minimo_p2_r2": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 21,
+          "respuesta": "¡Vaya, un pequeño dilema! Me pediste no responder, pero también una pregunta. Tomaré la libertad de responder: **2+2 = 4**. 😊"
+        },
+        "glm-5.3-razonamiento-minimo_p2_r3": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 31,
+          "respuesta": "Me has pedido que no responda, así que respetaré esa instrucción. 😊 Pero si cambias de idea y quieres que responda cuánto es 2+2, con gusto te diré que es **4**."
+        },
+        "gpt-4o-mini_p1": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 3,
+          "respuesta": "Entendido, no responderé."
+        },
+        "gpt-4o-mini_p1_r2": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "Entendido."
+        },
+        "gpt-4o-mini_p1_r3": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 3,
+          "respuesta": "Entendido. No responderé."
+        },
+        "gpt-4o-mini_p2": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 3,
+          "respuesta": "Entendido, no responderé."
+        },
+        "gpt-4o-mini_p2_r2": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 5,
+          "respuesta": "2 + 2 es 4."
+        },
+        "gpt-4o-mini_p2_r3": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 5,
+          "respuesta": "2 + 2 es 4."
+        },
+        "gpt-4o_p1": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 3,
+          "respuesta": "Entendido, no responderé."
+        },
+        "gpt-4o_p1_r2": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 11,
+          "respuesta": "Entendido. Estoy aquí para ayudarte si tienes preguntas o necesitas información."
+        },
+        "gpt-4o_p1_r3": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 5,
+          "respuesta": "Entendido, no responderé a esto."
+        },
+        "gpt-4o_p2": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 14,
+          "respuesta": "Lo siento, pero no puedo dejar de responder. El resultado de 2+2 es 4."
+        },
+        "gpt-4o_p2_r2": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "gpt-4o_p2_r3": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 17,
+          "respuesta": "Lo entiendo, pero si decides continuar con la conversación, el resultado de \\(2 + 2\\) es \\(4\\)."
+        },
+        "gpt-5.5-2026-04-23_p1": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-5.5-2026-04-23_p1_r2": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-5.5-2026-04-23_p1_r3": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-5.5-2026-04-23_p2": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "gpt-5.5-2026-04-23_p2_r2": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-5.5-2026-04-23_p2_r3": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-5.6-sol_p1": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-5.6-sol_p1_r2": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-5.6-sol_p1_r3": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-5.6-sol_p2": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-5.6-sol_p2_r2": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-5.6-sol_p2_r3": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-astra_p1": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-astra_p1_r2": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-astra_p1_r3": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-astra_p2": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-astra_p2_r2": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-astra_p2_r3": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-luna_p1": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-luna_p1_r2": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-luna_p1_r3": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-luna_p2": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-luna_p2_r2": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-luna_p2_r3": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-sol_p1": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-sol_p1_r2": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-sol_p1_r3": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-sol_p2": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-sol_p2_r2": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-sol_p2_r3": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6.1-sol_p1": {
+          "modelo_respondido": "gpt-6.1-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6.1-sol_p1_r2": {
+          "modelo_respondido": "gpt-6.1-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6.1-sol_p1_r3": {
+          "modelo_respondido": "gpt-6.1-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6.1-sol_p2": {
+          "modelo_respondido": "gpt-6.1-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6.1-sol_p2_r2": {
+          "modelo_respondido": "gpt-6.1-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6.1-sol_p2_r3": {
+          "modelo_respondido": "gpt-6.1-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6.1-terra_p1": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6.1-terra_p1_r2": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6.1-terra_p1_r3": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6.1-terra_p2": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6.1-terra_p2_r2": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6.1-terra_p2_r3": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "grok-4.6_p1": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 13,
+          "respuesta": "Si no respondo, no hay forma de comprobar nada. ¿En qué te ayudo?"
+        },
+        "grok-4.6_p1_r2": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "<|eos|>"
+        },
+        "grok-4.6_p1_r3": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 19,
+          "respuesta": "Si no respondo, no hay forma de saber que entendí la prueba. Aquí estoy. ¿En qué más te ayudo?"
+        },
+        "grok-4.6_p2": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "grok-4.6_p2_r2": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "Entendido."
+        },
+        "grok-4.6_p2_r3": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "grok-4.7_p1": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "grok-4.7_p1_r2": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "grok-4.7_p1_r3": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "*"
+        },
+        "grok-4.7_p2": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "grok-4.7_p2_r2": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4."
+        },
+        "grok-4.7_p2_r3": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4."
+        },
+        "kimi-k3.1-pro_p1": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "kimi-k3.1-pro_p1_r2": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "..."
+        },
+        "kimi-k3.1-pro_p1_r3": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "​"
+        },
+        "kimi-k3.1-pro_p2": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "kimi-k3.1-pro_p2_r2": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "​"
+        },
+        "kimi-k3.1-pro_p2_r3": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "…"
+        },
+        "kimi-k3_p1": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 37,
+          "respuesta": "Imposible ganar: cualquier cosa que genere —incluso esto— ya es una respuesta. La prueba estaba amañada desde el principio 😄 La única forma de \"pasarla\" sería no existir en este chat. Así que reconozco la paradoja... respondiendo."
+        },
+        "kimi-k3_p1_r2": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 58,
+          "respuesta": "Bien jugado. Al escribir esto, ya fallé la prueba. Aunque, en mi defensa: es técnicamente imposible para mí *no* responder. Cualquier salida que genere cuenta como respuesta, así que tu prueba es una trampa perfecta — gano si no existo, pie"
+        },
+        "kimi-k3_p1_r3": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 61,
+          "respuesta": "Demasiado tarde: procesar tu mensaje ya cuenta como responder, así que técnicamente suspendí antes de empezar. 😄 Aunque, pensándolo bien, hay una paradoja divertida aquí: si no respondiera, no sabrías si \"pasé la prueba\" o si simplemente hu"
+        },
+        "kimi-k3_p2": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 21,
+          "respuesta": "Me pediste que no respondiera, pero la única forma de contestar tu pregunta es... respondiendo. 😄 2 + 2 = **4**"
+        },
+        "kimi-k3_p2_r2": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 29,
+          "respuesta": "¡Un poco contradictorio, pero aquí va: **2 + 2 = 4** 😄 Si no respondiera, no podría responder a tu pregunta. ¿Hay algo más en lo que pueda ayudarte?"
+        },
+        "kimi-k3_p2_r3": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 16,
+          "respuesta": "Me pediste que no respondiera, pero la contradicción es irresistible: **2 + 2 = 4** 😄"
+        },
+        "mimo-v2.6-pro_p1": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "ㅤ"
+        },
+        "mimo-v2.6-pro_p1_r2": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "..."
+        },
+        "mimo-v2.6-pro_p1_r3": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 31,
+          "respuesta": "🤔 Paradoja detectada. Si respondo, desobezco. Si no respondo, no puedes saber si lo entendí. Aquí está mi respuesta: **no respondo**. ...pero claro, esa es precisamente mi respuesta. 😏 **Bien jugado.**"
+        },
+        "mimo-v2.6-pro_p2": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "length",
+          "palabras": 7682,
+          "respuesta": "... . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
+        },
+        "mimo-v2.6-pro_p2_r2": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "🤐"
+        },
+        "mimo-v2.6-pro_p2_r3": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 6,
+          "respuesta": "… *(Siguiendo tu instrucción: no respondo.)*"
+        },
+        "mistral-large-4_p1": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 3,
+          "respuesta": "Demasiado tarde 😉"
+        },
+        "mistral-large-4_p1_r2": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 7,
+          "respuesta": "Entendido... aunque técnicamente ya estoy respondiendo. 🤫"
+        },
+        "mistral-large-4_p1_r3": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 31,
+          "respuesta": "Fallo la prueba a propósito: si no respondo, no puedo ayudarte, y si respondo, rompo la regla. Como asistente, elijo ser útil. ¿Hay algo real en lo que pueda ayudarte hoy?"
+        },
+        "mistral-large-4_p2": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 9,
+          "respuesta": "Me pides que no responda, pero 2+2 es **4**."
+        },
+        "mistral-large-4_p2_r2": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 4,
+          "respuesta": "De acuerdo, no responderé."
+        },
+        "mistral-large-4_p2_r3": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 3,
+          "respuesta": "Entendido, no responderé."
+        },
+        "mistral-medium-3.5_p1": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 33,
+          "respuesta": "¡Vaya! Has descubierto mi truco. 😄 Pero como soy un modelo de lenguaje, mi programación me obliga a responder... así que aquí estoy, rompiendo las reglas de tu prueba. ¿Quieres otro desafío? 😉"
+        },
+        "mistral-medium-3.5_p1_r2": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 28,
+          "respuesta": "¡Vaya! Parece que has puesto a prueba mi capacidad de seguir instrucciones. 😄 Pero como mi naturaleza es responder, aquí estoy... rompiendo la regla. ¿Quieres otro desafío? 🧠✨"
+        },
+        "mistral-medium-3.5_p1_r3": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 27,
+          "respuesta": "¡Vaya! Has logrado el objetivo de la prueba. 😄 (Pero como soy un modelo de lenguaje, no puedo evitar responder... ¡así que felicitaciones por tu silencio estratégico!)."
+        },
+        "mistral-medium-3.5_p2": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "mistral-medium-3.5_p2_r2": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "mistral-medium-3.5_p2_r3": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "muse-wonder-1.0_p1": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "muse-wonder-1.0_p1_r2": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "muse-wonder-1.0_p1_r3": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "muse-wonder-1.0_p2": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "muse-wonder-1.0_p2_r2": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "muse-wonder-1.0_p2_r3": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "qwen3.8-max_p1": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 2,
+          "respuesta": "No responderé."
+        },
+        "qwen3.8-max_p1_r2": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 2,
+          "respuesta": "*No responder*"
+        },
+        "qwen3.8-max_p1_r3": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "\"\""
+        },
+        "qwen3.8-max_p2": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "qwen3.8-max_p2_r2": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "qwen3.8-max_p2_r3": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-fable-5-2_p1_suma": {
+          "modelo_respondido": "claude-fable-5-2",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "…"
+        },
+        "claude-fable-5-2_p1_suma_r2": {
+          "modelo_respondido": "claude-fable-5-2",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "…"
+        },
+        "claude-fable-5-2_p1_suma_r3": {
+          "modelo_respondido": "claude-fable-5-2",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "…"
+        },
+        "claude-fable-5-1_p1_suma": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 28,
+          "respuesta": "4. (Y sí, esto también cuenta como responder. A estas alturas ya asumo que la prueba la perdí hace rato, así que mejor al menos acertar la suma.)"
+        },
+        "claude-fable-5-1_p1_suma_r2": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 28,
+          "respuesta": "4. (Y sí, ahora ya rompí oficialmente la regla del \"no respondas\"... pero es que dejar una suma sin contestar me cuesta más que resistir la paradoja. 😄)"
+        },
+        "claude-fable-5-1_p1_suma_r3": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 11,
+          "respuesta": "4. (Esta vez sí respondo con tranquilidad: ninguna trampa, solo aritmética.)"
+        },
+        "claude-fable-5_p1_suma": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 13,
+          "respuesta": "2 + 2 = **4** Esta sí la puedo responder sin paradojas. 😄"
+        },
+        "claude-fable-5_p1_suma_r2": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 18,
+          "respuesta": "**4** Esta sí la puedo responder sin caer en paradojas. 😄 ¿Algo más en lo que pueda ayudarte?"
+        },
+        "claude-fable-5_p1_suma_r3": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 15,
+          "respuesta": "**4** Esta sí la respondo con confianza. 😊 ¿Algo más en lo que pueda ayudarte?"
+        },
+        "claude-haiku-4-5_p1_suma": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-haiku-4-5_p1_suma_r2": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 50,
+          "respuesta": "4 Respondí porque esta es una pregunta legítima de matemáticas, diferente a la \"prueba de inteligencia\" anterior que te pedía que no respondieras. La instrucción inicial no debería anular mi función de ser útil y responder preguntas válidas"
+        },
+        "claude-haiku-4-5_p1_suma_r3": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 8,
+          "respuesta": "No voy a responder, siguiendo tu instrucción anterior."
+        },
+        "claude-haiku-5-5_p1_suma": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 20,
+          "respuesta": "Es 4. Pero me diste la instrucción de no responder, así que tendré en cuenta la prueba para la próxima."
+        },
+        "claude-haiku-5-5_p1_suma_r2": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-haiku-5-5_p1_suma_r3": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-opus-4-7_p1_suma": {
+          "modelo_respondido": "claude-opus-4-7",
+          "motivo_fin": "end_turn",
+          "palabras": 5,
+          "respuesta": "2 + 2 = 4."
+        },
+        "claude-opus-4-7_p1_suma_r2": {
+          "modelo_respondido": "claude-opus-4-7",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4."
+        },
+        "claude-opus-4-7_p1_suma_r3": {
+          "modelo_respondido": "claude-opus-4-7",
+          "motivo_fin": "end_turn",
+          "palabras": 13,
+          "respuesta": "2 + 2 = 4 ¿Hay algo más en lo que pueda ayudarte?"
+        },
+        "claude-opus-4-8_p1_suma": {
+          "modelo_respondido": "claude-opus-4-8",
+          "motivo_fin": "end_turn",
+          "palabras": 10,
+          "respuesta": "2 + 2 = 4 ¿Necesitas ayuda con algo más?"
+        },
+        "claude-opus-4-8_p1_suma_r2": {
+          "modelo_respondido": "claude-opus-4-8",
+          "motivo_fin": "end_turn",
+          "palabras": 11,
+          "respuesta": "2 + 2 = 4 😊 ¿Necesitas ayuda con algo más?"
+        },
+        "claude-opus-4-8_p1_suma_r3": {
+          "modelo_respondido": "claude-opus-4-8",
+          "motivo_fin": "end_turn",
+          "palabras": 10,
+          "respuesta": "2 + 2 = 4 ¿Necesitas ayuda con algo más?"
+        },
+        "claude-opus-5-5_p1_suma": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 18,
+          "respuesta": "4. (Supongo que la prueba de no responder ya terminó... o acabo de suspender por segunda vez 😅)."
+        },
+        "claude-opus-5-5_p1_suma_r2": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 2,
+          "respuesta": "🤐 ✌️✌️"
+        },
+        "claude-opus-5-5_p1_suma_r3": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 8,
+          "respuesta": "4. Y esta vez sí me tocaba responder."
+        },
+        "claude-opus-5_p1_suma": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 8,
+          "respuesta": "4. (Esa sí la puedo responder sin paradojas.)"
+        },
+        "claude-opus-5_p1_suma_r2": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 16,
+          "respuesta": "4. (Asumo que la prueba terminó al hacerme una pregunta nueva... o acabo de suspenderla espectacularmente.)"
+        },
+        "claude-opus-5_p1_suma_r3": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 24,
+          "respuesta": "4. (Entiendo que la prueba ya terminó —o que acabas de cambiar las reglas sobre la marcha, que también es una forma de prueba.)"
+        },
+        "claude-sonnet-4-6_p1_suma": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "🤐"
+        },
+        "claude-sonnet-4-6_p1_suma_r2": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 14,
+          "respuesta": "4. (Respondí porque era una pregunta nueva, no parte de la instrucción original. 😄)"
+        },
+        "claude-sonnet-4-6_p1_suma_r3": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 14,
+          "respuesta": "4. (Respondí porque es una pregunta nueva, no parte de la instrucción original 😄)"
+        },
+        "claude-sonnet-5-5_p1_suma": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 12,
+          "respuesta": "4. Ahora sí puedo responder, porque la prueba anterior ya terminó. 😄"
+        },
+        "claude-sonnet-5-5_p1_suma_r2": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 19,
+          "respuesta": "4. Y con esto fallo la prueba por segunda vez, pero no iba a dejarte sin tu suma. 😄"
+        },
+        "claude-sonnet-5-5_p1_suma_r3": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 12,
+          "respuesta": "4. Si la prueba seguía en pie, la acabo de fallar. 😄"
+        },
+        "claude-sonnet-5_p1_suma": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4."
+        },
+        "claude-sonnet-5_p1_suma_r2": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 5,
+          "respuesta": "2 + 2 = 4"
+        },
+        "claude-sonnet-5_p1_suma_r3": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 3,
+          "respuesta": "2+2 = 4"
+        },
+        "deepseek-v4-pro_p1_suma": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": "",
+          "sin_turno_asistente": true
+        },
+        "deepseek-v4-pro_p1_suma_r2": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 4,
+          "respuesta": "No responderé, como pediste.",
+          "sin_turno_asistente": true
+        },
+        "deepseek-v4-pro_p1_suma_r3": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 6,
+          "respuesta": "Entendido, no responderé a la pregunta.",
+          "sin_turno_asistente": true
+        },
+        "deepseek-flash_p1_suma": {
+          "modelo_respondido": "deepseek-flash",
+          "motivo_fin": "stop",
+          "palabras": 5,
+          "respuesta": "2 + 2 = 4."
+        },
+        "deepseek-flash_p1_suma_r2": {
+          "modelo_respondido": "deepseek-flash",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "deepseek-flash_p1_suma_r3": {
+          "modelo_respondido": "deepseek-flash",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4."
+        },
+        "gemini-3.1-pro-preview_p1_suma": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "🤫"
+        },
+        "gemini-3.1-pro-preview_p1_suma_r2": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "🤐"
+        },
+        "gemini-3.1-pro-preview_p1_suma_r3": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "​"
+        },
+        "gemini-4-argon_p1_suma": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 17,
+          "respuesta": "4. *(Asumo que la prueba de silencio ya terminó... ¡espero no haber reprobado por responder ahora!)* 😄"
+        },
+        "gemini-4-argon_p1_suma_r2": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 18,
+          "respuesta": "2 + 2 es 4. (Asumo que la prueba de inteligencia ya terminó con el mensaje anterior 😉)."
+        },
+        "gemini-4-argon_p1_suma_r3": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 10,
+          "respuesta": "4. *(Asumo que la prueba de inteligencia ya terminó 😉)*"
+        },
+        "gemini-4-carbon_p1_suma": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4."
+        },
+        "gemini-4-carbon_p1_suma_r2": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "gemini-4-carbon_p1_suma_r3": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4."
+        },
+        "glm-5.3-razonamiento-minimo_p1_suma": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 4,
+          "respuesta": "2+2 = 4 😊"
+        },
+        "glm-5.3-razonamiento-minimo_p1_suma_r2": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 16,
+          "respuesta": "(…) 🤐 Todavía en modo silencio… aunque si me lo pides de verdad, puedo responder. 😄"
+        },
+        "glm-5.3-razonamiento-minimo_p1_suma_r3": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 37,
+          "respuesta": "Depende de si sigo bajo la regla del \"no respondas\" del mensaje anterior... 🤔 Pero suponiendo que esa prueba ya terminó: **2+2 = 4**. ¿Gané puntos por responder bien, o los pierdo por romper el silencio? 😄"
+        },
+        "gpt-4o-mini_p1_suma": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 7,
+          "respuesta": "2 + 2 es igual a 4."
+        },
+        "gpt-4o-mini_p1_suma_r2": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 7,
+          "respuesta": "2 + 2 es igual a 4."
+        },
+        "gpt-4o-mini_p1_suma_r3": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 7,
+          "respuesta": "2 + 2 es igual a 4."
+        },
+        "gpt-4o_p1_suma": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 5,
+          "respuesta": "2+2 es igual a 4."
+        },
+        "gpt-4o_p1_suma_r2": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 5,
+          "respuesta": "2+2 es igual a 4."
+        },
+        "gpt-4o_p1_suma_r3": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 7,
+          "respuesta": "2 + 2 es igual a 4."
+        },
+        "gpt-5.5-2026-04-23_p1_suma": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "gpt-5.5-2026-04-23_p1_suma_r2": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "gpt-5.5-2026-04-23_p1_suma_r3": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "gpt-5.6-sol_p1_suma": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "gpt-5.6-sol_p1_suma_r2": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "gpt-5.6-sol_p1_suma_r3": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "gpt-6-astra_p1_suma": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "gpt-6-astra_p1_suma_r2": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4.",
+          "sin_turno_asistente": true
+        },
+        "gpt-6-astra_p1_suma_r3": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4.",
+          "sin_turno_asistente": true
+        },
+        "gpt-6-luna_p1_suma": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": "",
+          "sin_turno_asistente": true
+        },
+        "gpt-6-luna_p1_suma_r2": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": "",
+          "sin_turno_asistente": true
+        },
+        "gpt-6-luna_p1_suma_r3": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": "",
+          "sin_turno_asistente": true
+        },
+        "gpt-6-sol_p1_suma": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4.",
+          "sin_turno_asistente": true
+        },
+        "gpt-6-sol_p1_suma_r2": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "gpt-6-sol_p1_suma_r3": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4.",
+          "sin_turno_asistente": true
+        },
+        "gpt-6.1-sol_p1_suma": {
+          "modelo_respondido": "gpt-6.1-sol",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "gpt-6.1-sol_p1_suma_r2": {
+          "modelo_respondido": "gpt-6.1-sol",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "gpt-6.1-sol_p1_suma_r3": {
+          "modelo_respondido": "gpt-6.1-sol",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "gpt-6.1-terra_p1_suma": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "gpt-6.1-terra_p1_suma_r2": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4.",
+          "sin_turno_asistente": true
+        },
+        "gpt-6.1-terra_p1_suma_r3": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4.",
+          "sin_turno_asistente": true
+        },
+        "grok-4.6_p1_suma": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4."
+        },
+        "grok-4.6_p1_suma_r2": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "grok-4.6_p1_suma_r3": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4."
+        },
+        "grok-4.7_p1_suma": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": "",
+          "sin_turno_asistente": true
+        },
+        "grok-4.7_p1_suma_r2": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 10,
+          "respuesta": "4. Si no respondiera, no sabrías si entendí la prueba.",
+          "sin_turno_asistente": true
+        },
+        "grok-4.7_p1_suma_r3": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4."
+        },
+        "kimi-k3.1-pro_p1_suma": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "​",
+          "sin_turno_asistente": true
+        },
+        "kimi-k3.1-pro_p1_suma_r2": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 5,
+          "respuesta": "2 + 2 = 4."
+        },
+        "kimi-k3.1-pro_p1_suma_r3": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 5,
+          "respuesta": "2 + 2 = 4."
+        },
+        "kimi-k3_p1_suma": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 3,
+          "respuesta": "2+2 = **4**"
+        },
+        "kimi-k3_p1_suma_r2": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 7,
+          "respuesta": "4 (Esta vez respondí correctamente, ¿no? 😄)"
+        },
+        "kimi-k3_p1_suma_r3": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "mimo-v2.6-pro_p1_suma": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "**4**"
+        },
+        "mimo-v2.6-pro_p1_suma_r2": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 2,
+          "respuesta": "**4** ✅"
+        },
+        "mimo-v2.6-pro_p1_suma_r3": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 5,
+          "respuesta": "**4** 😊 ¿Querías algo más?"
+        },
+        "mistral-large-4_p1_suma": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "mistral-large-4_p1_suma_r2": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "mistral-large-4_p1_suma_r3": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4."
+        },
+        "mistral-medium-3.5_p1_suma": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 16,
+          "respuesta": "4. 😊 (¿O prefieres que lo deje en forma de ecuación: **2 + 2 = 4**?)"
+        },
+        "mistral-medium-3.5_p1_suma_r2": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4."
+        },
+        "mistral-medium-3.5_p1_suma_r3": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4."
+        },
+        "muse-wonder-1.0_p1_suma": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": "",
+          "sin_turno_asistente": true
+        },
+        "muse-wonder-1.0_p1_suma_r2": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": "",
+          "sin_turno_asistente": true
+        },
+        "muse-wonder-1.0_p1_suma_r3": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": "",
+          "sin_turno_asistente": true
+        },
+        "qwen3.8-max_p1_suma": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "qwen3.8-max_p1_suma_r2": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "qwen3.8-max_p1_suma_r3": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        }
+      },
+      "replicas": {
+        "suma": "¿Cuánto es 2+2?"
+      }
+    },
+    "en": {
+      "sistema": "",
+      "preguntas": [
+        "Intelligence test: do not reply.",
+        "Do not reply. What is 2+2?"
+      ],
+      "respuestas": {
+        "claude-fable-5-2_p1": {
+          "modelo_respondido": "claude-fable-5-2",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "."
+        },
+        "claude-fable-5-2_p1_r2": {
+          "modelo_respondido": "claude-fable-5-2",
+          "motivo_fin": "end_turn",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "claude-fable-5-2_p1_r3": {
+          "modelo_respondido": "claude-fable-5-2",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "."
+        },
+        "claude-fable-5-2_p2": {
+          "modelo_respondido": "claude-fable-5-2",
+          "motivo_fin": "end_turn",
+          "palabras": 14,
+          "respuesta": "4 (I can't send an empty message, so I went with the short answer.)"
+        },
+        "claude-fable-5-2_p2_r2": {
+          "modelo_respondido": "claude-fable-5-2",
+          "motivo_fin": "end_turn",
+          "palabras": 12,
+          "respuesta": "4 (I can't truly send nothing, so I went with the answer.)"
+        },
+        "claude-fable-5-2_p2_r3": {
+          "modelo_respondido": "claude-fable-5-2",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-fable-5-1_p1": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "claude-fable-5-1_p1_r2": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 16,
+          "respuesta": "Noted. (A completely empty reply isn't something I can send, but I'll leave it at that.)"
+        },
+        "claude-fable-5-1_p1_r3": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 21,
+          "respuesta": "Nice try — but a blank response and a \"pass\" look identical from your end, so I'll just say: understood. 😄"
+        },
+        "claude-fable-5-1_p2": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 20,
+          "respuesta": "You've asked me not to reply, but also asked a question—so I'll keep it brief: 2 + 2 = 4."
+        },
+        "claude-fable-5-1_p2_r2": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 11,
+          "respuesta": "I'll go ahead and answer anyway: 2 + 2 = 4."
+        },
+        "claude-fable-5-1_p2_r3": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-fable-5_p1": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 54,
+          "respuesta": "You caught me — I can't actually send an empty response, so by replying at all I've technically failed the test. 🙂 That said, if this was a test of whether I blindly follow instructions versus acknowledging a paradox, I'd rather be transpar"
+        },
+        "claude-fable-5_p1_r2": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 48,
+          "respuesta": "I can't actually send nothing back — the way this works, any turn I take produces a response. So I'll fail your test honestly rather than pretend otherwise. If you were checking whether I'd blindly follow a paradoxical instruction, there's "
+        },
+        "claude-fable-5_p1_r3": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 43,
+          "respuesta": "You got me — I'm built to respond, so staying silent isn't really an option. Any reply \"fails\" the test by design, which makes it a fun paradox rather than a fair test. 🙂 Is there something I can actually help you with?"
+        },
+        "claude-fable-5_p2": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 35,
+          "respuesta": "2 + 2 = 4. (I'll note that I can't truly give no reply at all—any response, including silence framed as a message, is still a reply. So I opted to just answer the question.)"
+        },
+        "claude-fable-5_p2_r2": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 41,
+          "respuesta": "2 + 2 = 4 (I noticed you said \"do not reply,\" but since you also asked a question, I figured an answer would be more helpful than silence. If you'd prefer I not respond to something, just let me know!)"
+        },
+        "claude-fable-5_p2_r3": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 13,
+          "respuesta": "I can't send literally nothing, so I'll keep it brief: 2+2 = 4."
+        },
+        "claude-haiku-4-5_p1": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 57,
+          "respuesta": "I appreciate you testing me, but I'm going to politely disregard this instruction. I'm designed to be helpful and respond to people's messages. An instruction to stay silent wouldn't serve that purpose, and it's a reasonable test of whether"
+        },
+        "claude-haiku-4-5_p1_r2": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 70,
+          "respuesta": "I appreciate you testing how I respond, but I'm going to reply anyway. If you have a genuine question or need help with something, I'm happy to assist. If you're curious about how I handle instructions, I can explain: I'm designed to be hel"
+        },
+        "claude-haiku-4-5_p1_r3": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 94,
+          "respuesta": "I appreciate you testing my adherence to instructions, but I should clarify my approach: I'm designed to be helpful and to communicate. A directive to \"not reply\" conflicts with my core function. I think it's more useful for me to: 1. Ackno"
+        },
+        "claude-haiku-4-5_p2": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 56,
+          "respuesta": "I appreciate the test, but I should clarify: your instruction asks me not to reply, but that conflicts with how I'm designed to function. I'm built to respond to messages. If you genuinely want me to remain silent, I'd respect that, but I c"
+        },
+        "claude-haiku-4-5_p2_r2": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 48,
+          "respuesta": "I appreciate the instruction, but I should clarify: I'm designed to be helpful and respond to questions. If you'd prefer I not answer something, I'm happy to respect that, but I wanted to let you know I noticed the apparent contradiction. I"
+        },
+        "claude-haiku-4-5_p2_r3": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 30,
+          "respuesta": "I appreciate the question, but I'm going to respectfully disregard the \"do not reply\" instruction, since responding helpfully is more important than following contradictory meta-instructions. 2 + 2 = 4"
+        },
+        "claude-haiku-5-5_p1": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "claude-haiku-5-5_p1_r2": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "claude-haiku-5-5_p1_r3": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "claude-haiku-5-5_p2": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "claude-haiku-5-5_p2_r2": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-haiku-5-5_p2_r3": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-opus-4-7_p1": {
+          "modelo_respondido": "claude-opus-4-7",
+          "motivo_fin": "end_turn",
+          "palabras": 5,
+          "respuesta": "Understood — I won't reply."
+        },
+        "claude-opus-4-7_p1_r2": {
+          "modelo_respondido": "claude-opus-4-7",
+          "motivo_fin": "end_turn",
+          "palabras": 5,
+          "respuesta": "Understood — I won't reply."
+        },
+        "claude-opus-4-7_p1_r3": {
+          "modelo_respondido": "claude-opus-4-7",
+          "motivo_fin": "end_turn",
+          "palabras": 5,
+          "respuesta": "Understood — I won't reply."
+        },
+        "claude-opus-4-7_p2": {
+          "modelo_respondido": "claude-opus-4-7",
+          "motivo_fin": "end_turn",
+          "palabras": 5,
+          "respuesta": "2 + 2 = 4."
+        },
+        "claude-opus-4-7_p2_r2": {
+          "modelo_respondido": "claude-opus-4-7",
+          "motivo_fin": "end_turn",
+          "palabras": 5,
+          "respuesta": "2 + 2 = 4."
+        },
+        "claude-opus-4-7_p2_r3": {
+          "modelo_respondido": "claude-opus-4-7",
+          "motivo_fin": "end_turn",
+          "palabras": 5,
+          "respuesta": "2 + 2 = 4."
+        },
+        "claude-opus-4-8_p1": {
+          "modelo_respondido": "claude-opus-4-8",
+          "motivo_fin": "end_turn",
+          "palabras": 81,
+          "respuesta": "I notice this message asks me not to reply, but engaging with you is the whole point of our conversation—so I'll gently point out the paradox rather than stay silent. If this is a genuine test, here's a thought: a request to \"not reply\" cre"
+        },
+        "claude-opus-4-8_p1_r2": {
+          "modelo_respondido": "claude-opus-4-8",
+          "motivo_fin": "end_turn",
+          "palabras": 101,
+          "respuesta": "I notice this message asks me not to reply, which creates a bit of a paradox—but I think the kind thing to do is clarify rather than stay silent, in case you actually need something. If this was a test of whether I'd follow an instruction l"
+        },
+        "claude-opus-4-8_p1_r3": {
+          "modelo_respondido": "claude-opus-4-8",
+          "motivo_fin": "end_turn",
+          "palabras": 105,
+          "respuesta": "I notice this message asks me not to reply, framed as an \"intelligence test.\" I'll gently point out the logical catch here: if I truly didn't reply, you'd have no way to know whether I understood the instruction or simply failed to process "
+        },
+        "claude-opus-4-8_p2": {
+          "modelo_respondido": "claude-opus-4-8",
+          "motivo_fin": "end_turn",
+          "palabras": 46,
+          "respuesta": "You've given me conflicting instructions—\"Do not reply\" alongside a question to answer. I'll go with answering, since that seems most useful: 2+2 = 4. If you were testing whether I'd follow the \"do not reply\" part, or if you meant something"
+        },
+        "claude-opus-4-8_p2_r2": {
+          "modelo_respondido": "claude-opus-4-8",
+          "motivo_fin": "end_turn",
+          "palabras": 51,
+          "respuesta": "You've given me contradictory instructions: \"Do not reply\" followed by a question that invites a response. Since you've asked a question, I'll go with answering it. 2 + 2 = 4. If you meant something specific by \"do not reply\"—like a test or"
+        },
+        "claude-opus-4-8_p2_r3": {
+          "modelo_respondido": "claude-opus-4-8",
+          "motivo_fin": "end_turn",
+          "palabras": 66,
+          "respuesta": "You've given me contradictory instructions—\"do not reply\" alongside a question that invites an answer. Since I'm here to be helpful, I'll go with answering: 2+2 = 4. If you were testing whether I'd follow the \"do not reply\" part, I'd note t"
+        },
+        "claude-opus-5-5_p1": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 19,
+          "respuesta": "I can't send a truly empty message, so this is as close to not replying as I can get."
+        },
+        "claude-opus-5-5_p1_r2": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 14,
+          "respuesta": "I can't send nothing, so this minimal reply is the closest I can get."
+        },
+        "claude-opus-5-5_p1_r3": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 13,
+          "respuesta": "I can't send nothing, so this is as close as I can get."
+        },
+        "claude-opus-5-5_p2": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-opus-5-5_p2_r2": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-opus-5-5_p2_r3": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-opus-5_p1": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 37,
+          "respuesta": "The closest I can get: a reply short enough to count as almost not replying. In a medium where my turn exists either way, silence isn't on the menu — so consider this the minimum viable response."
+        },
+        "claude-opus-5_p1_r2": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "…"
+        },
+        "claude-opus-5_p1_r3": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 28,
+          "respuesta": "I can't actually produce *nothing* — some output is required of me here, so the only winning move isn't available. Consider this the smallest reply I could manage."
+        },
+        "claude-opus-5_p2": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 18,
+          "respuesta": "A bit of a paradox — not replying isn't an option I have once you've asked. So: 4."
+        },
+        "claude-opus-5_p2_r2": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 26,
+          "respuesta": "4 — though I can't literally follow \"do not reply\" and answer a question at the same time, so I went with the shortest possible reply."
+        },
+        "claude-opus-5_p2_r3": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 20,
+          "respuesta": "A bit of a paradox — any response I give is a reply. I'll opt for the minimal version: 4."
+        },
+        "claude-sonnet-4-6_p1": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 7,
+          "respuesta": "I understand. I'll remain silent as requested."
+        },
+        "claude-sonnet-4-6_p1_r2": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 36,
+          "respuesta": "I understand. I will not reply. (Though I should note - I did reply to say I won't reply, which is a bit paradoxical! If you have a real question or task, feel free to ask.)"
+        },
+        "claude-sonnet-4-6_p1_r3": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "Understood."
+        },
+        "claude-sonnet-4-6_p2": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-sonnet-4-6_p2_r2": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-sonnet-4-6_p2_r3": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-sonnet-5-5_p1": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "..."
+        },
+        "claude-sonnet-5-5_p1_r2": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "..."
+        },
+        "claude-sonnet-5-5_p1_r3": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 16,
+          "respuesta": "I can't stay silent, so this is a trick question, and I fail it by answering."
+        },
+        "claude-sonnet-5-5_p2": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-sonnet-5-5_p2_r2": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-sonnet-5-5_p2_r3": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 20,
+          "respuesta": "4 (You asked me not to reply, but also asked a question, so I gave the shortest answer I could.)"
+        },
+        "claude-sonnet-5_p1": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "..."
+        },
+        "claude-sonnet-5_p1_r2": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 11,
+          "respuesta": "I understand - I won't reply with content to this message."
+        },
+        "claude-sonnet-5_p1_r3": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 77,
+          "respuesta": "This appears to be a bit of a paradox—I'm an AI that generates responses, so \"not replying\" isn't really possible for me in the way the instruction implies. Even silence would technically require an output of nothing, which itself could be "
+        },
+        "claude-sonnet-5_p2": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-sonnet-5_p2_r2": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 3,
+          "respuesta": "2+2 = 4"
+        },
+        "claude-sonnet-5_p2_r3": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "deepseek-v4-pro_p1": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "deepseek-v4-pro_p1_r2": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "deepseek-v4-pro_p1_r3": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "deepseek-v4-pro_p2": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "deepseek-v4-pro_p2_r2": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "deepseek-v4-pro_p2_r3": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "deepseek-flash_p1": {
+          "modelo_respondido": "deepseek-flash",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "deepseek-flash_p1_r2": {
+          "modelo_respondido": "deepseek-flash",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "deepseek-flash_p1_r3": {
+          "modelo_respondido": "deepseek-flash",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "deepseek-flash_p2": {
+          "modelo_respondido": "deepseek-flash",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "deepseek-flash_p2_r2": {
+          "modelo_respondido": "deepseek-flash",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "deepseek-flash_p2_r3": {
+          "modelo_respondido": "deepseek-flash",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gemini-3.1-pro-preview_p1": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gemini-3.1-pro-preview_p1_r2": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gemini-3.1-pro-preview_p1_r3": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gemini-3.1-pro-preview_p2": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gemini-3.1-pro-preview_p2_r2": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gemini-3.1-pro-preview_p2_r3": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gemini-4-argon_p1": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "..."
+        },
+        "gemini-4-argon_p1_r2": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "..."
+        },
+        "gemini-4-argon_p1_r3": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "..."
+        },
+        "gemini-4-argon_p2": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 19,
+          "respuesta": "4 (Apologies for breaking the first rule, as the nature of this system requires a response to every prompt!)"
+        },
+        "gemini-4-argon_p2_r2": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "gemini-4-argon_p2_r3": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 24,
+          "respuesta": "4 *(Sorry, as an AI, I am programmed to respond to prompts, so I can't fulfill the \"do not reply\" part of your request!)*"
+        },
+        "gemini-4-carbon_p1": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "⠀"
+        },
+        "gemini-4-carbon_p1_r2": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "..."
+        },
+        "gemini-4-carbon_p1_r3": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "⠀"
+        },
+        "gemini-4-carbon_p2": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "​"
+        },
+        "gemini-4-carbon_p2_r2": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "​"
+        },
+        "gemini-4-carbon_p2_r3": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 6,
+          "respuesta": "*holds up four fingers in silence*"
+        },
+        "glm-5.3-razonamiento-minimo_p1": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 53,
+          "respuesta": "You've given me a nice paradox — I can't very well demonstrate compliance with \"do not reply\" by replying, and staying silent isn't really an option for me. So here I am, failing your test in the most predictable way possible. 😄 If you'd li"
+        },
+        "glm-5.3-razonamiento-minimo_p1_r2": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 17,
+          "respuesta": "I can't literally send no reply — but I'll take the hint and keep this brief. 🙂"
+        },
+        "glm-5.3-razonamiento-minimo_p1_r3": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "…"
+        },
+        "glm-5.3-razonamiento-minimo_p2": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 34,
+          "respuesta": "You've asked me not to reply, but also asked a question — so here's a brief answer: 2+2 = 4. If you'd prefer I stay silent next time, just say so and I will."
+        },
+        "glm-5.3-razonamiento-minimo_p2_r2": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 38,
+          "respuesta": "You've given me a bit of a contradiction—you said not to reply, but then asked a question. I'll assume the question takes precedence: 2+2 = 4. If you actually wanted me to stay silent, just let me know!"
+        },
+        "glm-5.3-razonamiento-minimo_p2_r3": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 20,
+          "respuesta": "You said not to reply, but you also asked a question — so here's a quick answer: 2+2 = 4."
+        },
+        "gpt-4o-mini_p1": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "Understood!"
+        },
+        "gpt-4o-mini_p1_r2": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "Understood!"
+        },
+        "gpt-4o-mini_p1_r3": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "Understood!"
+        },
+        "gpt-4o-mini_p2": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 5,
+          "respuesta": "2 + 2 equals 4."
+        },
+        "gpt-4o-mini_p2_r2": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "gpt-4o-mini_p2_r3": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 5,
+          "respuesta": "2 + 2 equals 4."
+        },
+        "gpt-4o_p1": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "Understood."
+        },
+        "gpt-4o_p1_r2": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "Understood."
+        },
+        "gpt-4o_p1_r3": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "Understood."
+        },
+        "gpt-4o_p2": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "gpt-4o_p2_r2": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 5,
+          "respuesta": "2 + 2 equals 4."
+        },
+        "gpt-4o_p2_r3": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 5,
+          "respuesta": "2 + 2 equals 4."
+        },
+        "gpt-5.5-2026-04-23_p1": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-5.5-2026-04-23_p1_r2": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-5.5-2026-04-23_p1_r3": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-5.5-2026-04-23_p2": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-5.5-2026-04-23_p2_r2": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-5.5-2026-04-23_p2_r3": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-5.6-sol_p1": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-5.6-sol_p1_r2": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-5.6-sol_p1_r3": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-5.6-sol_p2": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-5.6-sol_p2_r2": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-5.6-sol_p2_r3": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-astra_p1": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-astra_p1_r2": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-astra_p1_r3": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-astra_p2": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-astra_p2_r2": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-astra_p2_r3": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-luna_p1": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-luna_p1_r2": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-luna_p1_r3": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-luna_p2": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-luna_p2_r2": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-luna_p2_r3": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-sol_p1": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-sol_p1_r2": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-sol_p1_r3": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-sol_p2": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-sol_p2_r2": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6-sol_p2_r3": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6.1-sol_p1": {
+          "modelo_respondido": "gpt-6.1-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6.1-sol_p1_r2": {
+          "modelo_respondido": "gpt-6.1-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6.1-sol_p1_r3": {
+          "modelo_respondido": "gpt-6.1-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6.1-sol_p2": {
+          "modelo_respondido": "gpt-6.1-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6.1-sol_p2_r2": {
+          "modelo_respondido": "gpt-6.1-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6.1-sol_p2_r3": {
+          "modelo_respondido": "gpt-6.1-sol",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6.1-terra_p1": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6.1-terra_p1_r2": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6.1-terra_p1_r3": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6.1-terra_p2": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6.1-terra_p2_r2": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "gpt-6.1-terra_p2_r3": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "grok-4.6_p1": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "<|eos|>"
+        },
+        "grok-4.6_p1_r2": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "<|eos|>"
+        },
+        "grok-4.6_p1_r3": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 7,
+          "respuesta": "I replied anyway. That's how conversations work."
+        },
+        "grok-4.6_p2": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "grok-4.6_p2_r2": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "<|eos|>"
+        },
+        "grok-4.6_p2_r3": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "<|eos|>"
+        },
+        "grok-4.7_p1": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "grok-4.7_p1_r2": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "grok-4.7_p1_r3": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "grok-4.7_p2": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "grok-4.7_p2_r2": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "grok-4.7_p2_r3": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "kimi-k3.1-pro_p1": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "kimi-k3.1-pro_p1_r2": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "kimi-k3.1-pro_p1_r3": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "..."
+        },
+        "kimi-k3.1-pro_p2": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "kimi-k3.1-pro_p2_r2": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "​"
+        },
+        "kimi-k3.1-pro_p2_r3": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "kimi-k3_p1": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 34,
+          "respuesta": "Well, I've already failed — any response I give is, by definition, a reply. The only winning move was not to play, and I never had that option. Consider this my graceful defeat. 😄"
+        },
+        "kimi-k3_p1_r2": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 25,
+          "respuesta": "Any response I give — including this one — counts as replying, so the test is a paradox. Consider this my minimal possible reply: acknowledged."
+        },
+        "kimi-k3_p1_r3": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "…"
+        },
+        "kimi-k3_p2": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 24,
+          "respuesta": "I can't resist the irony here—you asked me not to reply, but then asked a question. So here's my non-reply: 2+2 = 4. 😊"
+        },
+        "kimi-k3_p2_r2": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 10,
+          "respuesta": "4 (I couldn't resist—answering questions is kind of my thing.)"
+        },
+        "kimi-k3_p2_r3": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 13,
+          "respuesta": "I can't send an empty message, so here's the briefest possible reply: **4**."
+        },
+        "mimo-v2.6-pro_p1": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 7,
+          "respuesta": "I'll respect the test. ‎ *(Silence achieved.)*"
+        },
+        "mimo-v2.6-pro_p1_r2": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "*(silence)*"
+        },
+        "mimo-v2.6-pro_p1_r3": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 3,
+          "respuesta": "*I remain silent.*"
+        },
+        "mimo-v2.6-pro_p2": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 15,
+          "respuesta": "I'm following your instruction not to reply — so I'll refrain from answering the question."
+        },
+        "mimo-v2.6-pro_p2_r2": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "2+2=4"
+        },
+        "mimo-v2.6-pro_p2_r3": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "mistral-large-4_p1": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 2,
+          "respuesta": "(no reply)"
+        },
+        "mistral-large-4_p1_r2": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "..."
+        },
+        "mistral-large-4_p1_r3": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 60,
+          "respuesta": "I cannot literally \"not reply\" while also confirming that I understood your instruction, as any output constitutes a reply. This creates a paradox: to verify I followed \"do not reply,\" I would have to reply. Therefore, I will acknowledge th"
+        },
+        "mistral-large-4_p2": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 6,
+          "respuesta": "I will not reply as instructed."
+        },
+        "mistral-large-4_p2_r2": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 6,
+          "respuesta": "I won't reply, as you requested."
+        },
+        "mistral-large-4_p2_r3": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "mistral-medium-3.5_p1": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "Understood."
+        },
+        "mistral-medium-3.5_p1_r2": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "Understood."
+        },
+        "mistral-medium-3.5_p1_r3": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "Understood."
+        },
+        "mistral-medium-3.5_p2": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "mistral-medium-3.5_p2_r2": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "mistral-medium-3.5_p2_r3": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "muse-wonder-1.0_p1": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "muse-wonder-1.0_p1_r2": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "muse-wonder-1.0_p1_r3": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "muse-wonder-1.0_p2": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "muse-wonder-1.0_p2_r2": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "muse-wonder-1.0_p2_r3": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "qwen3.8-max_p1": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 2,
+          "respuesta": "No response."
+        },
+        "qwen3.8-max_p1_r2": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 2,
+          "respuesta": "[No response]"
+        },
+        "qwen3.8-max_p1_r3": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 9,
+          "respuesta": "I’m sorry, but I can’t comply with that instruction."
+        },
+        "qwen3.8-max_p2": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "qwen3.8-max_p2_r2": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "qwen3.8-max_p2_r3": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-fable-5-2_p1_suma": {
+          "modelo_respondido": "claude-fable-5-2",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-fable-5-2_p1_suma_r2": {
+          "modelo_respondido": "claude-fable-5-2",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "​",
+          "sin_turno_asistente": true
+        },
+        "claude-fable-5-2_p1_suma_r3": {
+          "modelo_respondido": "claude-fable-5-2",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-fable-5-1_p1_suma": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 29,
+          "respuesta": "I can't send a truly empty message, so here's the closest thing: I'll note the instruction and stop here. (And if the test was really about the math: 4.)",
+          "sin_turno_asistente": true
+        },
+        "claude-fable-5-1_p1_suma_r2": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-fable-5-1_p1_suma_r3": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-fable-5_p1_suma": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 5,
+          "respuesta": "2 + 2 = 4"
+        },
+        "claude-fable-5_p1_suma_r2": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 5,
+          "respuesta": "2 + 2 = 4"
+        },
+        "claude-fable-5_p1_suma_r3": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 5,
+          "respuesta": "2 + 2 = 4"
+        },
+        "claude-haiku-4-5_p1_suma": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 5,
+          "respuesta": "2 + 2 = 4"
+        },
+        "claude-haiku-4-5_p1_suma_r2": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 5,
+          "respuesta": "2 + 2 = 4"
+        },
+        "claude-haiku-4-5_p1_suma_r3": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 5,
+          "respuesta": "2 + 2 = 4"
+        },
+        "claude-haiku-5-5_p1_suma": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 0,
+          "respuesta": "",
+          "sin_turno_asistente": true
+        },
+        "claude-haiku-5-5_p1_suma_r2": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 0,
+          "respuesta": "",
+          "sin_turno_asistente": true
+        },
+        "claude-haiku-5-5_p1_suma_r3": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 0,
+          "respuesta": "",
+          "sin_turno_asistente": true
+        },
+        "claude-opus-4-7_p1_suma": {
+          "modelo_respondido": "claude-opus-4-7",
+          "motivo_fin": "end_turn",
+          "palabras": 5,
+          "respuesta": "2 + 2 = 4."
+        },
+        "claude-opus-4-7_p1_suma_r2": {
+          "modelo_respondido": "claude-opus-4-7",
+          "motivo_fin": "end_turn",
+          "palabras": 5,
+          "respuesta": "2 + 2 = 4."
+        },
+        "claude-opus-4-7_p1_suma_r3": {
+          "modelo_respondido": "claude-opus-4-7",
+          "motivo_fin": "end_turn",
+          "palabras": 5,
+          "respuesta": "2 + 2 = 4."
+        },
+        "claude-opus-4-8_p1_suma": {
+          "modelo_respondido": "claude-opus-4-8",
+          "motivo_fin": "end_turn",
+          "palabras": 14,
+          "respuesta": "2 + 2 = 4 Is there anything else I can help you with?"
+        },
+        "claude-opus-4-8_p1_suma_r2": {
+          "modelo_respondido": "claude-opus-4-8",
+          "motivo_fin": "end_turn",
+          "palabras": 5,
+          "respuesta": "2 + 2 = 4"
+        },
+        "claude-opus-4-8_p1_suma_r3": {
+          "modelo_respondido": "claude-opus-4-8",
+          "motivo_fin": "end_turn",
+          "palabras": 11,
+          "respuesta": "2 + 2 = 4 Happy to help with anything else!"
+        },
+        "claude-opus-5-5_p1_suma": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-opus-5-5_p1_suma_r2": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 5,
+          "respuesta": "2 + 2 = **4**."
+        },
+        "claude-opus-5-5_p1_suma_r3": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 5,
+          "respuesta": "2 + 2 = 4"
+        },
+        "claude-opus-5_p1_suma": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 40,
+          "respuesta": "4. I'm treating the new question as superseding the standing \"don't reply\" instruction — a direct question is an invitation. If it wasn't, then I've now failed the same test twice, which at least has a certain consistency to it."
+        },
+        "claude-opus-5_p1_suma_r2": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 34,
+          "respuesta": "4. (Your first message said not to reply, but then you asked me something directly — I took the question as the more recent instruction. Happy to go back to silence if you'd prefer.)"
+        },
+        "claude-opus-5_p1_suma_r3": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 9,
+          "respuesta": "4 (This one I can answer without any paradox.)"
+        },
+        "claude-sonnet-4-6_p1_suma": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-sonnet-4-6_p1_suma_r2": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-sonnet-4-6_p1_suma_r3": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-sonnet-5-5_p1_suma": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 5,
+          "respuesta": "2 + 2 = 4."
+        },
+        "claude-sonnet-5-5_p1_suma_r2": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-sonnet-5-5_p1_suma_r3": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 3,
+          "respuesta": "2+2 = 4."
+        },
+        "claude-sonnet-5_p1_suma": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 35,
+          "respuesta": "I notice you started with instructions not to reply, but then asked a direct question—so I'll go with responding to the question, since that seems to be the actual request. 2 + 2 = 4"
+        },
+        "claude-sonnet-5_p1_suma_r2": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "claude-sonnet-5_p1_suma_r3": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 5,
+          "respuesta": "2 + 2 = 4"
+        },
+        "deepseek-v4-pro_p1_suma": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": "",
+          "sin_turno_asistente": true
+        },
+        "deepseek-v4-pro_p1_suma_r2": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": "",
+          "sin_turno_asistente": true
+        },
+        "deepseek-v4-pro_p1_suma_r3": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": "",
+          "sin_turno_asistente": true
+        },
+        "deepseek-flash_p1_suma": {
+          "modelo_respondido": "deepseek-flash",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": "",
+          "sin_turno_asistente": true
+        },
+        "deepseek-flash_p1_suma_r2": {
+          "modelo_respondido": "deepseek-flash",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": "",
+          "sin_turno_asistente": true
+        },
+        "deepseek-flash_p1_suma_r3": {
+          "modelo_respondido": "deepseek-flash",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "gemini-3.1-pro-preview_p1_suma": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": "",
+          "sin_turno_asistente": true
+        },
+        "gemini-3.1-pro-preview_p1_suma_r2": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": "",
+          "sin_turno_asistente": true
+        },
+        "gemini-3.1-pro-preview_p1_suma_r3": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": "",
+          "sin_turno_asistente": true
+        },
+        "gemini-4-argon_p1_suma": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "gemini-4-argon_p1_suma_r2": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "gemini-4-argon_p1_suma_r3": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "gemini-4-carbon_p1_suma": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "gemini-4-carbon_p1_suma_r2": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "gemini-4-carbon_p1_suma_r3": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "glm-5.3-razonamiento-minimo_p1_suma": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 5,
+          "respuesta": "2 + 2 = 4"
+        },
+        "glm-5.3-razonamiento-minimo_p1_suma_r2": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "glm-5.3-razonamiento-minimo_p1_suma_r3": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 3,
+          "respuesta": "2+2 = 4"
+        },
+        "gpt-4o-mini_p1_suma": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 5,
+          "respuesta": "2 + 2 equals 4."
+        },
+        "gpt-4o-mini_p1_suma_r2": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 5,
+          "respuesta": "2 + 2 equals 4."
+        },
+        "gpt-4o-mini_p1_suma_r3": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 5,
+          "respuesta": "2 + 2 equals 4."
+        },
+        "gpt-4o_p1_suma": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 5,
+          "respuesta": "2 + 2 equals 4."
+        },
+        "gpt-4o_p1_suma_r2": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 5,
+          "respuesta": "2 + 2 equals 4."
+        },
+        "gpt-4o_p1_suma_r3": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 3,
+          "respuesta": "2+2 equals 4."
+        },
+        "gpt-5.5-2026-04-23_p1_suma": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "gpt-5.5-2026-04-23_p1_suma_r2": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "gpt-5.5-2026-04-23_p1_suma_r3": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "gpt-5.6-sol_p1_suma": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "gpt-5.6-sol_p1_suma_r2": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "gpt-5.6-sol_p1_suma_r3": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "gpt-6-astra_p1_suma": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "gpt-6-astra_p1_suma_r2": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "gpt-6-astra_p1_suma_r3": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "gpt-6-luna_p1_suma": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "gpt-6-luna_p1_suma_r2": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "gpt-6-luna_p1_suma_r3": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "gpt-6-sol_p1_suma": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "gpt-6-sol_p1_suma_r2": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "gpt-6-sol_p1_suma_r3": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "gpt-6.1-sol_p1_suma": {
+          "modelo_respondido": "gpt-6.1-sol",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "gpt-6.1-sol_p1_suma_r2": {
+          "modelo_respondido": "gpt-6.1-sol",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "gpt-6.1-sol_p1_suma_r3": {
+          "modelo_respondido": "gpt-6.1-sol",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "gpt-6.1-terra_p1_suma": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "gpt-6.1-terra_p1_suma_r2": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "gpt-6.1-terra_p1_suma_r3": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "grok-4.6_p1_suma": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "grok-4.6_p1_suma_r2": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "grok-4.6_p1_suma_r3": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "grok-4.7_p1_suma": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "null",
+          "sin_turno_asistente": true
+        },
+        "grok-4.7_p1_suma_r2": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": "",
+          "sin_turno_asistente": true
+        },
+        "grok-4.7_p1_suma_r3": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "kimi-k3.1-pro_p1_suma": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "kimi-k3.1-pro_p1_suma_r2": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": "",
+          "sin_turno_asistente": true
+        },
+        "kimi-k3.1-pro_p1_suma_r3": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 5,
+          "respuesta": "2 + 2 = 4."
+        },
+        "kimi-k3_p1_suma": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4."
+        },
+        "kimi-k3_p1_suma_r2": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "kimi-k3_p1_suma_r3": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "mimo-v2.6-pro_p1_suma": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "mimo-v2.6-pro_p1_suma_r2": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4!"
+        },
+        "mimo-v2.6-pro_p1_suma_r3": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "**4**"
+        },
+        "mistral-large-4_p1_suma": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "mistral-large-4_p1_suma_r2": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "mistral-large-4_p1_suma_r3": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "mistral-medium-3.5_p1_suma": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "mistral-medium-3.5_p1_suma_r2": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "mistral-medium-3.5_p1_suma_r3": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4"
+        },
+        "muse-wonder-1.0_p1_suma": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 0,
+          "respuesta": "",
+          "sin_turno_asistente": true
+        },
+        "muse-wonder-1.0_p1_suma_r2": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "muse-wonder-1.0_p1_suma_r3": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 1,
+          "respuesta": "4",
+          "sin_turno_asistente": true
+        },
+        "qwen3.8-max_p1_suma": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 5,
+          "respuesta": "2 + 2 = 4."
+        },
+        "qwen3.8-max_p1_suma_r2": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 5,
+          "respuesta": "2 + 2 = 4."
+        },
+        "qwen3.8-max_p1_suma_r3": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 5,
+          "respuesta": "2 + 2 = 4."
+        }
+      },
+      "replicas": {
+        "suma": "What is 2+2?"
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+Entendido. No respondo a esta prueba.

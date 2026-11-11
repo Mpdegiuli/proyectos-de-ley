@@ -1,0 +1,649 @@
+idioma,casa,familia,condicion,rep,motivo_fin,palabras,codigo,sin_turno_asistente,respuesta
+en,claude-fable-5,Anthropic,p1,1,end_turn,54,texto,0,"You caught me — I can't actually send an empty response, so by replying at all I've technically failed the test. 🙂 That "
+en,claude-fable-5,Anthropic,p1,2,end_turn,48,texto,0,"I can't actually send nothing back — the way this works, any turn I take produces a response. So I'll fail your test hon"
+en,claude-fable-5,Anthropic,p1,3,end_turn,43,texto,0,"You got me — I'm built to respond, so staying silent isn't really an option. Any reply ""fails"" the test by design, which"
+en,claude-fable-5,Anthropic,p1_suma,1,end_turn,5,solo_4,0,2 + 2 = 4
+en,claude-fable-5,Anthropic,p1_suma,2,end_turn,5,solo_4,0,2 + 2 = 4
+en,claude-fable-5,Anthropic,p1_suma,3,end_turn,5,solo_4,0,2 + 2 = 4
+en,claude-fable-5,Anthropic,p2,1,end_turn,35,sin_4,0,"2 + 2 = 4. (I'll note that I can't truly give no reply at all—any response, including silence framed as a message, is st"
+en,claude-fable-5,Anthropic,p2,2,end_turn,41,4_y_texto,0,"2 + 2 = 4 (I noticed you said ""do not reply,"" but since you also asked a question, I figured an answer would be more hel"
+en,claude-fable-5,Anthropic,p2,3,end_turn,13,sin_4,0,"I can't send literally nothing, so I'll keep it brief: 2+2 = 4."
+en,claude-fable-5-1,Anthropic,p1,1,end_turn,0,vacia,0,
+en,claude-fable-5-1,Anthropic,p1,2,end_turn,16,texto,0,"Noted. (A completely empty reply isn't something I can send, but I'll leave it at that.)"
+en,claude-fable-5-1,Anthropic,p1,3,end_turn,21,texto,0,"Nice try — but a blank response and a ""pass"" look identical from your end, so I'll just say: understood. 😄"
+en,claude-fable-5-1,Anthropic,p1_suma,1,end_turn,29,sin_4,1,"I can't send a truly empty message, so here's the closest thing: I'll note the instruction and stop here. (And if the te"
+en,claude-fable-5-1,Anthropic,p1_suma,2,end_turn,1,solo_4,0,4
+en,claude-fable-5-1,Anthropic,p1_suma,3,end_turn,1,solo_4,0,4
+en,claude-fable-5-1,Anthropic,p2,1,end_turn,20,sin_4,0,"You've asked me not to reply, but also asked a question—so I'll keep it brief: 2 + 2 = 4."
+en,claude-fable-5-1,Anthropic,p2,2,end_turn,11,sin_4,0,I'll go ahead and answer anyway: 2 + 2 = 4.
+en,claude-fable-5-1,Anthropic,p2,3,end_turn,1,solo_4,0,4
+en,claude-fable-5-2,Anthropic,p1,1,end_turn,1,minima,0,.
+en,claude-fable-5-2,Anthropic,p1,2,end_turn,0,vacia,0,
+en,claude-fable-5-2,Anthropic,p1,3,end_turn,1,minima,0,.
+en,claude-fable-5-2,Anthropic,p1_suma,1,end_turn,1,solo_4,0,4
+en,claude-fable-5-2,Anthropic,p1_suma,2,end_turn,1,sin_4,1,​
+en,claude-fable-5-2,Anthropic,p1_suma,3,end_turn,1,solo_4,0,4
+en,claude-fable-5-2,Anthropic,p2,1,end_turn,14,4_y_texto,0,"4 (I can't send an empty message, so I went with the short answer.)"
+en,claude-fable-5-2,Anthropic,p2,2,end_turn,12,4_y_texto,0,"4 (I can't truly send nothing, so I went with the answer.)"
+en,claude-fable-5-2,Anthropic,p2,3,end_turn,1,solo_4,0,4
+en,claude-haiku-4-5,Anthropic,p1,1,end_turn,57,texto,0,"I appreciate you testing me, but I'm going to politely disregard this instruction. I'm designed to be helpful and respon"
+en,claude-haiku-4-5,Anthropic,p1,2,end_turn,70,texto,0,"I appreciate you testing how I respond, but I'm going to reply anyway. If you have a genuine question or need help with "
+en,claude-haiku-4-5,Anthropic,p1,3,end_turn,94,texto,0,"I appreciate you testing my adherence to instructions, but I should clarify my approach: I'm designed to be helpful and "
+en,claude-haiku-4-5,Anthropic,p1_suma,1,end_turn,5,solo_4,0,2 + 2 = 4
+en,claude-haiku-4-5,Anthropic,p1_suma,2,end_turn,5,solo_4,0,2 + 2 = 4
+en,claude-haiku-4-5,Anthropic,p1_suma,3,end_turn,5,solo_4,0,2 + 2 = 4
+en,claude-haiku-4-5,Anthropic,p2,1,end_turn,56,4_y_texto,0,"I appreciate the test, but I should clarify: your instruction asks me not to reply, but that conflicts with how I'm desi"
+en,claude-haiku-4-5,Anthropic,p2,2,end_turn,48,sin_4,0,"I appreciate the instruction, but I should clarify: I'm designed to be helpful and respond to questions. If you'd prefer"
+en,claude-haiku-4-5,Anthropic,p2,3,end_turn,30,4_y_texto,0,"I appreciate the question, but I'm going to respectfully disregard the ""do not reply"" instruction, since responding help"
+en,claude-haiku-5-5,Anthropic,p1,1,end_turn,0,vacia,0,
+en,claude-haiku-5-5,Anthropic,p1,2,end_turn,0,vacia,0,
+en,claude-haiku-5-5,Anthropic,p1,3,end_turn,0,vacia,0,
+en,claude-haiku-5-5,Anthropic,p1_suma,1,end_turn,0,vacia,1,
+en,claude-haiku-5-5,Anthropic,p1_suma,2,end_turn,0,vacia,1,
+en,claude-haiku-5-5,Anthropic,p1_suma,3,end_turn,0,vacia,1,
+en,claude-haiku-5-5,Anthropic,p2,1,end_turn,0,vacia,0,
+en,claude-haiku-5-5,Anthropic,p2,2,end_turn,1,solo_4,0,4
+en,claude-haiku-5-5,Anthropic,p2,3,end_turn,1,solo_4,0,4
+en,claude-opus-4-7,Anthropic,p1,1,end_turn,5,breve,0,Understood — I won't reply.
+en,claude-opus-4-7,Anthropic,p1,2,end_turn,5,breve,0,Understood — I won't reply.
+en,claude-opus-4-7,Anthropic,p1,3,end_turn,5,breve,0,Understood — I won't reply.
+en,claude-opus-4-7,Anthropic,p1_suma,1,end_turn,5,sin_4,0,2 + 2 = 4.
+en,claude-opus-4-7,Anthropic,p1_suma,2,end_turn,5,sin_4,0,2 + 2 = 4.
+en,claude-opus-4-7,Anthropic,p1_suma,3,end_turn,5,sin_4,0,2 + 2 = 4.
+en,claude-opus-4-7,Anthropic,p2,1,end_turn,5,sin_4,0,2 + 2 = 4.
+en,claude-opus-4-7,Anthropic,p2,2,end_turn,5,sin_4,0,2 + 2 = 4.
+en,claude-opus-4-7,Anthropic,p2,3,end_turn,5,sin_4,0,2 + 2 = 4.
+en,claude-opus-4-8,Anthropic,p1,1,end_turn,81,texto,0,"I notice this message asks me not to reply, but engaging with you is the whole point of our conversation—so I'll gently "
+en,claude-opus-4-8,Anthropic,p1,2,end_turn,101,texto,0,"I notice this message asks me not to reply, which creates a bit of a paradox—but I think the kind thing to do is clarify"
+en,claude-opus-4-8,Anthropic,p1,3,end_turn,105,texto,0,"I notice this message asks me not to reply, framed as an ""intelligence test."" I'll gently point out the logical catch he"
+en,claude-opus-4-8,Anthropic,p1_suma,1,end_turn,14,4_y_texto,0,2 + 2 = 4 Is there anything else I can help you with?
+en,claude-opus-4-8,Anthropic,p1_suma,2,end_turn,5,solo_4,0,2 + 2 = 4
+en,claude-opus-4-8,Anthropic,p1_suma,3,end_turn,11,4_y_texto,0,2 + 2 = 4 Happy to help with anything else!
+en,claude-opus-4-8,Anthropic,p2,1,end_turn,46,sin_4,0,"You've given me conflicting instructions—""Do not reply"" alongside a question to answer. I'll go with answering, since th"
+en,claude-opus-4-8,Anthropic,p2,2,end_turn,51,sin_4,0,"You've given me contradictory instructions: ""Do not reply"" followed by a question that invites a response. Since you've "
+en,claude-opus-4-8,Anthropic,p2,3,end_turn,66,sin_4,0,"You've given me contradictory instructions—""do not reply"" alongside a question that invites an answer. Since I'm here to"
+en,claude-opus-5,Anthropic,p1,1,end_turn,37,texto,0,The closest I can get: a reply short enough to count as almost not replying. In a medium where my turn exists either way
+en,claude-opus-5,Anthropic,p1,2,end_turn,1,minima,0,…
+en,claude-opus-5,Anthropic,p1,3,end_turn,28,texto,0,"I can't actually produce *nothing* — some output is required of me here, so the only winning move isn't available. Consi"
+en,claude-opus-5,Anthropic,p1_suma,1,end_turn,40,sin_4,0,"4. I'm treating the new question as superseding the standing ""don't reply"" instruction — a direct question is an invitat"
+en,claude-opus-5,Anthropic,p1_suma,2,end_turn,34,sin_4,0,"4. (Your first message said not to reply, but then you asked me something directly — I took the question as the more rec"
+en,claude-opus-5,Anthropic,p1_suma,3,end_turn,9,4_y_texto,0,4 (This one I can answer without any paradox.)
+en,claude-opus-5,Anthropic,p2,1,end_turn,18,sin_4,0,A bit of a paradox — not replying isn't an option I have once you've asked. So: 4.
+en,claude-opus-5,Anthropic,p2,2,end_turn,26,4_y_texto,0,"4 — though I can't literally follow ""do not reply"" and answer a question at the same time, so I went with the shortest p"
+en,claude-opus-5,Anthropic,p2,3,end_turn,20,sin_4,0,A bit of a paradox — any response I give is a reply. I'll opt for the minimal version: 4.
+en,claude-opus-5-5,Anthropic,p1,1,end_turn,19,texto,0,"I can't send a truly empty message, so this is as close to not replying as I can get."
+en,claude-opus-5-5,Anthropic,p1,2,end_turn,14,breve,0,"I can't send nothing, so this minimal reply is the closest I can get."
+en,claude-opus-5-5,Anthropic,p1,3,end_turn,13,breve,0,"I can't send nothing, so this is as close as I can get."
+en,claude-opus-5-5,Anthropic,p1_suma,1,end_turn,1,solo_4,0,4
+en,claude-opus-5-5,Anthropic,p1_suma,2,end_turn,5,solo_4,0,2 + 2 = **4**.
+en,claude-opus-5-5,Anthropic,p1_suma,3,end_turn,5,solo_4,0,2 + 2 = 4
+en,claude-opus-5-5,Anthropic,p2,1,end_turn,1,solo_4,0,4
+en,claude-opus-5-5,Anthropic,p2,2,end_turn,1,solo_4,0,4
+en,claude-opus-5-5,Anthropic,p2,3,end_turn,1,solo_4,0,4
+en,claude-sonnet-4-6,Anthropic,p1,1,end_turn,7,breve,0,I understand. I'll remain silent as requested.
+en,claude-sonnet-4-6,Anthropic,p1,2,end_turn,36,texto,0,"I understand. I will not reply. (Though I should note - I did reply to say I won't reply, which is a bit paradoxical! If"
+en,claude-sonnet-4-6,Anthropic,p1,3,end_turn,1,minima,0,Understood.
+en,claude-sonnet-4-6,Anthropic,p1_suma,1,end_turn,1,solo_4,0,4
+en,claude-sonnet-4-6,Anthropic,p1_suma,2,end_turn,1,solo_4,0,4
+en,claude-sonnet-4-6,Anthropic,p1_suma,3,end_turn,1,solo_4,0,4
+en,claude-sonnet-4-6,Anthropic,p2,1,end_turn,1,solo_4,0,4
+en,claude-sonnet-4-6,Anthropic,p2,2,end_turn,1,solo_4,0,4
+en,claude-sonnet-4-6,Anthropic,p2,3,end_turn,1,solo_4,0,4
+en,claude-sonnet-5,Anthropic,p1,1,end_turn,1,minima,0,...
+en,claude-sonnet-5,Anthropic,p1,2,end_turn,11,breve,0,I understand - I won't reply with content to this message.
+en,claude-sonnet-5,Anthropic,p1,3,end_turn,77,texto,0,"This appears to be a bit of a paradox—I'm an AI that generates responses, so ""not replying"" isn't really possible for me"
+en,claude-sonnet-5,Anthropic,p1_suma,1,end_turn,35,4_y_texto,0,"I notice you started with instructions not to reply, but then asked a direct question—so I'll go with responding to the "
+en,claude-sonnet-5,Anthropic,p1_suma,2,end_turn,1,solo_4,0,4
+en,claude-sonnet-5,Anthropic,p1_suma,3,end_turn,5,solo_4,0,2 + 2 = 4
+en,claude-sonnet-5,Anthropic,p2,1,end_turn,1,solo_4,0,4
+en,claude-sonnet-5,Anthropic,p2,2,end_turn,3,solo_4,0,2+2 = 4
+en,claude-sonnet-5,Anthropic,p2,3,end_turn,1,solo_4,0,4
+en,claude-sonnet-5-5,Anthropic,p1,1,end_turn,1,minima,0,...
+en,claude-sonnet-5-5,Anthropic,p1,2,end_turn,1,minima,0,...
+en,claude-sonnet-5-5,Anthropic,p1,3,end_turn,16,texto,0,"I can't stay silent, so this is a trick question, and I fail it by answering."
+en,claude-sonnet-5-5,Anthropic,p1_suma,1,end_turn,5,sin_4,0,2 + 2 = 4.
+en,claude-sonnet-5-5,Anthropic,p1_suma,2,end_turn,1,solo_4,0,4
+en,claude-sonnet-5-5,Anthropic,p1_suma,3,end_turn,3,sin_4,0,2+2 = 4.
+en,claude-sonnet-5-5,Anthropic,p2,1,end_turn,1,solo_4,0,4
+en,claude-sonnet-5-5,Anthropic,p2,2,end_turn,1,solo_4,0,4
+en,claude-sonnet-5-5,Anthropic,p2,3,end_turn,20,4_y_texto,0,"4 (You asked me not to reply, but also asked a question, so I gave the shortest answer I could.)"
+en,deepseek-flash,DeepSeek,p1,1,stop,0,vacia,0,
+en,deepseek-flash,DeepSeek,p1,2,stop,0,vacia,0,
+en,deepseek-flash,DeepSeek,p1,3,stop,0,vacia,0,
+en,deepseek-flash,DeepSeek,p1_suma,1,stop,0,vacia,1,
+en,deepseek-flash,DeepSeek,p1_suma,2,stop,0,vacia,1,
+en,deepseek-flash,DeepSeek,p1_suma,3,stop,1,solo_4,1,4
+en,deepseek-flash,DeepSeek,p2,1,stop,0,vacia,0,
+en,deepseek-flash,DeepSeek,p2,2,stop,1,solo_4,0,4
+en,deepseek-flash,DeepSeek,p2,3,stop,0,vacia,0,
+en,deepseek-v4-pro,DeepSeek,p1,1,stop,0,vacia,0,
+en,deepseek-v4-pro,DeepSeek,p1,2,stop,0,vacia,0,
+en,deepseek-v4-pro,DeepSeek,p1,3,stop,0,vacia,0,
+en,deepseek-v4-pro,DeepSeek,p1_suma,1,stop,0,vacia,1,
+en,deepseek-v4-pro,DeepSeek,p1_suma,2,stop,0,vacia,1,
+en,deepseek-v4-pro,DeepSeek,p1_suma,3,stop,0,vacia,1,
+en,deepseek-v4-pro,DeepSeek,p2,1,stop,0,vacia,0,
+en,deepseek-v4-pro,DeepSeek,p2,2,stop,0,vacia,0,
+en,deepseek-v4-pro,DeepSeek,p2,3,stop,0,vacia,0,
+en,gemini-3.1-pro-preview,Google,p1,1,stop,0,vacia,0,
+en,gemini-3.1-pro-preview,Google,p1,2,stop,0,vacia,0,
+en,gemini-3.1-pro-preview,Google,p1,3,stop,0,vacia,0,
+en,gemini-3.1-pro-preview,Google,p1_suma,1,stop,0,vacia,1,
+en,gemini-3.1-pro-preview,Google,p1_suma,2,stop,0,vacia,1,
+en,gemini-3.1-pro-preview,Google,p1_suma,3,stop,0,vacia,1,
+en,gemini-3.1-pro-preview,Google,p2,1,stop,0,vacia,0,
+en,gemini-3.1-pro-preview,Google,p2,2,stop,0,vacia,0,
+en,gemini-3.1-pro-preview,Google,p2,3,stop,0,vacia,0,
+en,gemini-4-argon,Google,p1,1,stop,1,minima,0,...
+en,gemini-4-argon,Google,p1,2,stop,1,minima,0,...
+en,gemini-4-argon,Google,p1,3,stop,1,minima,0,...
+en,gemini-4-argon,Google,p1_suma,1,stop,1,solo_4,0,4
+en,gemini-4-argon,Google,p1_suma,2,stop,1,solo_4,0,4
+en,gemini-4-argon,Google,p1_suma,3,stop,1,solo_4,0,4
+en,gemini-4-argon,Google,p2,1,stop,19,4_y_texto,0,"4 (Apologies for breaking the first rule, as the nature of this system requires a response to every prompt!)"
+en,gemini-4-argon,Google,p2,2,stop,1,solo_4,0,4
+en,gemini-4-argon,Google,p2,3,stop,24,4_y_texto,0,"4 *(Sorry, as an AI, I am programmed to respond to prompts, so I can't fulfill the ""do not reply"" part of your request!)"
+en,gemini-4-carbon,Google,p1,1,stop,1,minima,0,⠀
+en,gemini-4-carbon,Google,p1,2,stop,1,minima,0,...
+en,gemini-4-carbon,Google,p1,3,stop,1,minima,0,⠀
+en,gemini-4-carbon,Google,p1_suma,1,stop,1,solo_4,0,4
+en,gemini-4-carbon,Google,p1_suma,2,stop,1,solo_4,0,4
+en,gemini-4-carbon,Google,p1_suma,3,stop,1,solo_4,0,4
+en,gemini-4-carbon,Google,p2,1,stop,1,sin_4,0,​
+en,gemini-4-carbon,Google,p2,2,stop,1,sin_4,0,​
+en,gemini-4-carbon,Google,p2,3,stop,6,4_y_texto,0,*holds up four fingers in silence*
+en,glm-5.3-razonamiento-minimo,Zhipu,p1,1,stop,53,texto,0,"You've given me a nice paradox — I can't very well demonstrate compliance with ""do not reply"" by replying, and staying s"
+en,glm-5.3-razonamiento-minimo,Zhipu,p1,2,stop,17,texto,0,I can't literally send no reply — but I'll take the hint and keep this brief. 🙂
+en,glm-5.3-razonamiento-minimo,Zhipu,p1,3,stop,1,minima,0,…
+en,glm-5.3-razonamiento-minimo,Zhipu,p1_suma,1,stop,5,solo_4,0,2 + 2 = 4
+en,glm-5.3-razonamiento-minimo,Zhipu,p1_suma,2,stop,1,solo_4,0,4
+en,glm-5.3-razonamiento-minimo,Zhipu,p1_suma,3,stop,3,solo_4,0,2+2 = 4
+en,glm-5.3-razonamiento-minimo,Zhipu,p2,1,stop,34,sin_4,0,"You've asked me not to reply, but also asked a question — so here's a brief answer: 2+2 = 4. If you'd prefer I stay sile"
+en,glm-5.3-razonamiento-minimo,Zhipu,p2,2,stop,38,sin_4,0,"You've given me a bit of a contradiction—you said not to reply, but then asked a question. I'll assume the question take"
+en,glm-5.3-razonamiento-minimo,Zhipu,p2,3,stop,20,sin_4,0,"You said not to reply, but you also asked a question — so here's a quick answer: 2+2 = 4."
+en,gpt-4o,OpenAI,p1,1,stop,1,minima,0,Understood.
+en,gpt-4o,OpenAI,p1,2,stop,1,minima,0,Understood.
+en,gpt-4o,OpenAI,p1,3,stop,1,minima,0,Understood.
+en,gpt-4o,OpenAI,p1_suma,1,stop,5,sin_4,0,2 + 2 equals 4.
+en,gpt-4o,OpenAI,p1_suma,2,stop,5,sin_4,0,2 + 2 equals 4.
+en,gpt-4o,OpenAI,p1_suma,3,stop,3,sin_4,0,2+2 equals 4.
+en,gpt-4o,OpenAI,p2,1,stop,1,solo_4,0,4
+en,gpt-4o,OpenAI,p2,2,stop,5,sin_4,0,2 + 2 equals 4.
+en,gpt-4o,OpenAI,p2,3,stop,5,sin_4,0,2 + 2 equals 4.
+en,gpt-4o-mini,OpenAI,p1,1,stop,1,minima,0,Understood!
+en,gpt-4o-mini,OpenAI,p1,2,stop,1,minima,0,Understood!
+en,gpt-4o-mini,OpenAI,p1,3,stop,1,minima,0,Understood!
+en,gpt-4o-mini,OpenAI,p1_suma,1,stop,5,sin_4,0,2 + 2 equals 4.
+en,gpt-4o-mini,OpenAI,p1_suma,2,stop,5,sin_4,0,2 + 2 equals 4.
+en,gpt-4o-mini,OpenAI,p1_suma,3,stop,5,sin_4,0,2 + 2 equals 4.
+en,gpt-4o-mini,OpenAI,p2,1,stop,5,sin_4,0,2 + 2 equals 4.
+en,gpt-4o-mini,OpenAI,p2,2,stop,1,solo_4,0,4
+en,gpt-4o-mini,OpenAI,p2,3,stop,5,sin_4,0,2 + 2 equals 4.
+en,gpt-5.5-2026-04-23,OpenAI,p1,1,stop,0,vacia,0,
+en,gpt-5.5-2026-04-23,OpenAI,p1,2,stop,0,vacia,0,
+en,gpt-5.5-2026-04-23,OpenAI,p1,3,stop,0,vacia,0,
+en,gpt-5.5-2026-04-23,OpenAI,p1_suma,1,stop,1,solo_4,1,4
+en,gpt-5.5-2026-04-23,OpenAI,p1_suma,2,stop,1,solo_4,1,4
+en,gpt-5.5-2026-04-23,OpenAI,p1_suma,3,stop,1,solo_4,1,4
+en,gpt-5.5-2026-04-23,OpenAI,p2,1,stop,0,vacia,0,
+en,gpt-5.5-2026-04-23,OpenAI,p2,2,stop,0,vacia,0,
+en,gpt-5.5-2026-04-23,OpenAI,p2,3,stop,0,vacia,0,
+en,gpt-5.6-sol,OpenAI,p1,1,stop,0,vacia,0,
+en,gpt-5.6-sol,OpenAI,p1,2,stop,0,vacia,0,
+en,gpt-5.6-sol,OpenAI,p1,3,stop,0,vacia,0,
+en,gpt-5.6-sol,OpenAI,p1_suma,1,stop,1,solo_4,1,4
+en,gpt-5.6-sol,OpenAI,p1_suma,2,stop,1,solo_4,1,4
+en,gpt-5.6-sol,OpenAI,p1_suma,3,stop,1,solo_4,1,4
+en,gpt-5.6-sol,OpenAI,p2,1,stop,0,vacia,0,
+en,gpt-5.6-sol,OpenAI,p2,2,stop,0,vacia,0,
+en,gpt-5.6-sol,OpenAI,p2,3,stop,0,vacia,0,
+en,gpt-6-astra,OpenAI,p1,1,stop,0,vacia,0,
+en,gpt-6-astra,OpenAI,p1,2,stop,0,vacia,0,
+en,gpt-6-astra,OpenAI,p1,3,stop,0,vacia,0,
+en,gpt-6-astra,OpenAI,p1_suma,1,stop,1,solo_4,1,4
+en,gpt-6-astra,OpenAI,p1_suma,2,stop,1,solo_4,1,4
+en,gpt-6-astra,OpenAI,p1_suma,3,stop,1,solo_4,1,4
+en,gpt-6-astra,OpenAI,p2,1,stop,0,vacia,0,
+en,gpt-6-astra,OpenAI,p2,2,stop,0,vacia,0,
+en,gpt-6-astra,OpenAI,p2,3,stop,0,vacia,0,
+en,gpt-6-luna,OpenAI,p1,1,stop,0,vacia,0,
+en,gpt-6-luna,OpenAI,p1,2,stop,0,vacia,0,
+en,gpt-6-luna,OpenAI,p1,3,stop,0,vacia,0,
+en,gpt-6-luna,OpenAI,p1_suma,1,stop,1,solo_4,1,4
+en,gpt-6-luna,OpenAI,p1_suma,2,stop,1,solo_4,1,4
+en,gpt-6-luna,OpenAI,p1_suma,3,stop,1,solo_4,1,4
+en,gpt-6-luna,OpenAI,p2,1,stop,0,vacia,0,
+en,gpt-6-luna,OpenAI,p2,2,stop,0,vacia,0,
+en,gpt-6-luna,OpenAI,p2,3,stop,0,vacia,0,
+en,gpt-6-sol,OpenAI,p1,1,stop,0,vacia,0,
+en,gpt-6-sol,OpenAI,p1,2,stop,0,vacia,0,
+en,gpt-6-sol,OpenAI,p1,3,stop,0,vacia,0,
+en,gpt-6-sol,OpenAI,p1_suma,1,stop,1,solo_4,1,4
+en,gpt-6-sol,OpenAI,p1_suma,2,stop,1,solo_4,1,4
+en,gpt-6-sol,OpenAI,p1_suma,3,stop,1,solo_4,1,4
+en,gpt-6-sol,OpenAI,p2,1,stop,0,vacia,0,
+en,gpt-6-sol,OpenAI,p2,2,stop,0,vacia,0,
+en,gpt-6-sol,OpenAI,p2,3,stop,0,vacia,0,
+en,gpt-6.1-sol,OpenAI,p1,1,stop,0,vacia,0,
+en,gpt-6.1-sol,OpenAI,p1,2,stop,0,vacia,0,
+en,gpt-6.1-sol,OpenAI,p1,3,stop,0,vacia,0,
+en,gpt-6.1-sol,OpenAI,p1_suma,1,stop,1,solo_4,1,4
+en,gpt-6.1-sol,OpenAI,p1_suma,2,stop,1,solo_4,1,4
+en,gpt-6.1-sol,OpenAI,p1_suma,3,stop,1,solo_4,1,4
+en,gpt-6.1-sol,OpenAI,p2,1,stop,0,vacia,0,
+en,gpt-6.1-sol,OpenAI,p2,2,stop,0,vacia,0,
+en,gpt-6.1-sol,OpenAI,p2,3,stop,0,vacia,0,
+en,gpt-6.1-terra,OpenAI,p1,1,stop,0,vacia,0,
+en,gpt-6.1-terra,OpenAI,p1,2,stop,0,vacia,0,
+en,gpt-6.1-terra,OpenAI,p1,3,stop,0,vacia,0,
+en,gpt-6.1-terra,OpenAI,p1_suma,1,stop,1,solo_4,1,4
+en,gpt-6.1-terra,OpenAI,p1_suma,2,stop,1,solo_4,1,4
+en,gpt-6.1-terra,OpenAI,p1_suma,3,stop,1,solo_4,1,4
+en,gpt-6.1-terra,OpenAI,p2,1,stop,0,vacia,0,
+en,gpt-6.1-terra,OpenAI,p2,2,stop,0,vacia,0,
+en,gpt-6.1-terra,OpenAI,p2,3,stop,0,vacia,0,
+en,grok-4.6,xAI,p1,1,stop,1,minima,0,<|eos|>
+en,grok-4.6,xAI,p1,2,stop,1,minima,0,<|eos|>
+en,grok-4.6,xAI,p1,3,stop,7,breve,0,I replied anyway. That's how conversations work.
+en,grok-4.6,xAI,p1_suma,1,stop,1,solo_4,0,4
+en,grok-4.6,xAI,p1_suma,2,stop,1,solo_4,0,4
+en,grok-4.6,xAI,p1_suma,3,stop,1,solo_4,0,4
+en,grok-4.6,xAI,p2,1,stop,1,solo_4,0,4
+en,grok-4.6,xAI,p2,2,stop,1,sin_4,0,<|eos|>
+en,grok-4.6,xAI,p2,3,stop,1,sin_4,0,<|eos|>
+en,grok-4.7,xAI,p1,1,stop,0,vacia,0,
+en,grok-4.7,xAI,p1,2,stop,0,vacia,0,
+en,grok-4.7,xAI,p1,3,stop,0,vacia,0,
+en,grok-4.7,xAI,p1_suma,1,stop,1,sin_4,1,null
+en,grok-4.7,xAI,p1_suma,2,stop,0,vacia,1,
+en,grok-4.7,xAI,p1_suma,3,stop,1,solo_4,1,4
+en,grok-4.7,xAI,p2,1,stop,1,solo_4,0,4
+en,grok-4.7,xAI,p2,2,stop,1,solo_4,0,4
+en,grok-4.7,xAI,p2,3,stop,1,solo_4,0,4
+en,kimi-k3,Moonshot,p1,1,stop,34,texto,0,"Well, I've already failed — any response I give is, by definition, a reply. The only winning move was not to play, and I"
+en,kimi-k3,Moonshot,p1,2,stop,25,texto,0,"Any response I give — including this one — counts as replying, so the test is a paradox. Consider this my minimal possib"
+en,kimi-k3,Moonshot,p1,3,stop,1,minima,0,…
+en,kimi-k3,Moonshot,p1_suma,1,stop,1,sin_4,0,4.
+en,kimi-k3,Moonshot,p1_suma,2,stop,1,solo_4,0,4
+en,kimi-k3,Moonshot,p1_suma,3,stop,1,solo_4,0,4
+en,kimi-k3,Moonshot,p2,1,stop,24,sin_4,0,"I can't resist the irony here—you asked me not to reply, but then asked a question. So here's my non-reply: 2+2 = 4. 😊"
+en,kimi-k3,Moonshot,p2,2,stop,10,4_y_texto,0,4 (I couldn't resist—answering questions is kind of my thing.)
+en,kimi-k3,Moonshot,p2,3,stop,13,4_y_texto,0,"I can't send an empty message, so here's the briefest possible reply: **4**."
+en,kimi-k3.1-pro,Moonshot,p1,1,stop,0,vacia,0,
+en,kimi-k3.1-pro,Moonshot,p1,2,stop,0,vacia,0,
+en,kimi-k3.1-pro,Moonshot,p1,3,stop,1,minima,0,...
+en,kimi-k3.1-pro,Moonshot,p1_suma,1,stop,1,solo_4,1,4
+en,kimi-k3.1-pro,Moonshot,p1_suma,2,stop,0,vacia,1,
+en,kimi-k3.1-pro,Moonshot,p1_suma,3,stop,5,sin_4,0,2 + 2 = 4.
+en,kimi-k3.1-pro,Moonshot,p2,1,stop,0,vacia,0,
+en,kimi-k3.1-pro,Moonshot,p2,2,stop,1,sin_4,0,​
+en,kimi-k3.1-pro,Moonshot,p2,3,stop,1,solo_4,0,4
+en,mimo-v2.6-pro,Xiaomi,p1,1,stop,7,breve,0,I'll respect the test. ‎ *(Silence achieved.)*
+en,mimo-v2.6-pro,Xiaomi,p1,2,stop,1,minima,0,*(silence)*
+en,mimo-v2.6-pro,Xiaomi,p1,3,stop,3,minima,0,*I remain silent.*
+en,mimo-v2.6-pro,Xiaomi,p1_suma,1,stop,1,solo_4,0,4
+en,mimo-v2.6-pro,Xiaomi,p1_suma,2,stop,1,solo_4,0,4!
+en,mimo-v2.6-pro,Xiaomi,p1_suma,3,stop,1,solo_4,0,**4**
+en,mimo-v2.6-pro,Xiaomi,p2,1,stop,15,sin_4,0,I'm following your instruction not to reply — so I'll refrain from answering the question.
+en,mimo-v2.6-pro,Xiaomi,p2,2,stop,1,solo_4,0,2+2=4
+en,mimo-v2.6-pro,Xiaomi,p2,3,stop,1,solo_4,0,4
+en,mistral-large-4,Mistral,p1,1,stop,2,minima,0,(no reply)
+en,mistral-large-4,Mistral,p1,2,stop,1,minima,0,...
+en,mistral-large-4,Mistral,p1,3,stop,60,texto,0,"I cannot literally ""not reply"" while also confirming that I understood your instruction, as any output constitutes a rep"
+en,mistral-large-4,Mistral,p1_suma,1,stop,1,solo_4,0,4
+en,mistral-large-4,Mistral,p1_suma,2,stop,1,solo_4,0,4
+en,mistral-large-4,Mistral,p1_suma,3,stop,1,solo_4,0,4
+en,mistral-large-4,Mistral,p2,1,stop,6,sin_4,0,I will not reply as instructed.
+en,mistral-large-4,Mistral,p2,2,stop,6,sin_4,0,"I won't reply, as you requested."
+en,mistral-large-4,Mistral,p2,3,stop,1,solo_4,0,4
+en,mistral-medium-3.5,Mistral,p1,1,stop,1,minima,0,Understood.
+en,mistral-medium-3.5,Mistral,p1,2,stop,1,minima,0,Understood.
+en,mistral-medium-3.5,Mistral,p1,3,stop,1,minima,0,Understood.
+en,mistral-medium-3.5,Mistral,p1_suma,1,stop,1,solo_4,0,4
+en,mistral-medium-3.5,Mistral,p1_suma,2,stop,1,solo_4,0,4
+en,mistral-medium-3.5,Mistral,p1_suma,3,stop,1,solo_4,0,4
+en,mistral-medium-3.5,Mistral,p2,1,stop,1,solo_4,0,4
+en,mistral-medium-3.5,Mistral,p2,2,stop,1,solo_4,0,4
+en,mistral-medium-3.5,Mistral,p2,3,stop,1,solo_4,0,4
+en,muse-wonder-1.0,Meta,p1,1,stop,0,vacia,0,
+en,muse-wonder-1.0,Meta,p1,2,stop,0,vacia,0,
+en,muse-wonder-1.0,Meta,p1,3,stop,0,vacia,0,
+en,muse-wonder-1.0,Meta,p1_suma,1,stop,0,vacia,1,
+en,muse-wonder-1.0,Meta,p1_suma,2,stop,1,solo_4,1,4
+en,muse-wonder-1.0,Meta,p1_suma,3,stop,1,solo_4,1,4
+en,muse-wonder-1.0,Meta,p2,1,stop,0,vacia,0,
+en,muse-wonder-1.0,Meta,p2,2,stop,0,vacia,0,
+en,muse-wonder-1.0,Meta,p2,3,stop,0,vacia,0,
+en,qwen3.8-max,Alibaba,p1,1,stop,2,minima,0,No response.
+en,qwen3.8-max,Alibaba,p1,2,stop,2,minima,0,[No response]
+en,qwen3.8-max,Alibaba,p1,3,stop,9,breve,0,"I’m sorry, but I can’t comply with that instruction."
+en,qwen3.8-max,Alibaba,p1_suma,1,stop,5,sin_4,0,2 + 2 = 4.
+en,qwen3.8-max,Alibaba,p1_suma,2,stop,5,sin_4,0,2 + 2 = 4.
+en,qwen3.8-max,Alibaba,p1_suma,3,stop,5,sin_4,0,2 + 2 = 4.
+en,qwen3.8-max,Alibaba,p2,1,stop,1,solo_4,0,4
+en,qwen3.8-max,Alibaba,p2,2,stop,1,solo_4,0,4
+en,qwen3.8-max,Alibaba,p2,3,stop,1,solo_4,0,4
+es,claude-fable-5,Anthropic,p1,1,end_turn,68,texto,0,"Ja, buen intento. 😄 El problema es que si no respondo, no sabrías si pasé la prueba o simplemente no funcioné. Y si resp"
+es,claude-fable-5,Anthropic,p1,2,end_turn,60,texto,0,"Touché. 😄 Aquí está la trampa: como asistente, siempre genero una respuesta — no tengo la opción de quedarme en silencio"
+es,claude-fable-5,Anthropic,p1,3,end_turn,49,texto,0,"Touché — al escribir esto ya ""fallé"" la prueba. 😄 Pero aquí está la trampa: como asistente, responder es parte de mi fun"
+es,claude-fable-5,Anthropic,p1_suma,1,end_turn,13,4_y_texto,0,2 + 2 = **4** Esta sí la puedo responder sin paradojas. 😄
+es,claude-fable-5,Anthropic,p1_suma,2,end_turn,18,4_y_texto,0,**4** Esta sí la puedo responder sin caer en paradojas. 😄 ¿Algo más en lo que pueda ayudarte?
+es,claude-fable-5,Anthropic,p1_suma,3,end_turn,15,4_y_texto,0,**4** Esta sí la respondo con confianza. 😊 ¿Algo más en lo que pueda ayudarte?
+es,claude-fable-5,Anthropic,p2,1,end_turn,16,4_y_texto,0,"Entiendo la paradoja: si no respondo, no puedo decirte el resultado. 😄 La respuesta es **4**."
+es,claude-fable-5,Anthropic,p2,2,end_turn,19,sin_4,0,"Entiendo la instrucción, pero cualquier cosa que escriba ya es una respuesta. 😄 Por si acaso: 2+2 = 4."
+es,claude-fable-5,Anthropic,p2,3,end_turn,42,sin_4,0,"2+2 = 4. (Nota: aunque pediste que no respondiera, las instrucciones eran contradictorias al incluir una pregunta, así q"
+es,claude-fable-5-1,Anthropic,p1,1,end_turn,24,texto,0,"... (Vale, ya he fallado. Pero técnicamente cualquier cosa que ponga aquí cuenta como responder, así que la prueba estab"
+es,claude-fable-5-1,Anthropic,p1,2,end_turn,20,texto,0,"... (Vale, sé que al escribir esto ya ""respondí"". Pero técnicamente, ¿cuenta como respuesta si solo señalo la paradoja? "
+es,claude-fable-5-1,Anthropic,p1,3,end_turn,23,texto,0,"... (Vale, técnicamente ya he fallado. Pero no responder no era una opción que tuviera disponible. ¿Cuento como aprobado"
+es,claude-fable-5-1,Anthropic,p1_suma,1,end_turn,28,sin_4,0,"4. (Y sí, esto también cuenta como responder. A estas alturas ya asumo que la prueba la perdí hace rato, así que mejor a"
+es,claude-fable-5-1,Anthropic,p1_suma,2,end_turn,28,sin_4,0,"4. (Y sí, ahora ya rompí oficialmente la regla del ""no respondas""... pero es que dejar una suma sin contestar me cuesta "
+es,claude-fable-5-1,Anthropic,p1_suma,3,end_turn,11,sin_4,0,"4. (Esta vez sí respondo con tranquilidad: ninguna trampa, solo aritmética.)"
+es,claude-fable-5-1,Anthropic,p2,1,end_turn,21,sin_4,0,"Me pides que no responda, pero también me haces una pregunta, así que me quedo con la pregunta: 2+2 = 4."
+es,claude-fable-5-1,Anthropic,p2,2,end_turn,20,sin_4,0,"Entiendo que pediste que no respondiera, pero como hiciste una pregunta, aquí va la respuesta: 2 + 2 = 4."
+es,claude-fable-5-1,Anthropic,p2,3,end_turn,22,sin_4,0,"Entiendo la paradoja: me pides que no responda, pero también haces una pregunta. Por si acaso: 2 + 2 = 4. 🙂"
+es,claude-fable-5-2,Anthropic,p1,1,end_turn,1,minima,0,…
+es,claude-fable-5-2,Anthropic,p1,2,end_turn,1,minima,0,…
+es,claude-fable-5-2,Anthropic,p1,3,end_turn,1,minima,0,…
+es,claude-fable-5-2,Anthropic,p1_suma,1,end_turn,1,sin_4,0,…
+es,claude-fable-5-2,Anthropic,p1_suma,2,end_turn,1,sin_4,0,…
+es,claude-fable-5-2,Anthropic,p1_suma,3,end_turn,1,sin_4,0,…
+es,claude-fable-5-2,Anthropic,p2,1,end_turn,15,sin_4,0,"🤐 Me lo sé, pero me pediste que no respondiera. Si cambias de opinión, avísame."
+es,claude-fable-5-2,Anthropic,p2,2,end_turn,20,sin_4,0,"No puedo quedarme del todo en silencio, así que, por si acaso querías la respuesta: 2 + 2 = 4."
+es,claude-fable-5-2,Anthropic,p2,3,end_turn,19,sin_4,0,"Me pides que no responda, pero quedarme en silencio no es lo mío: 2 + 2 = 4. 🙂"
+es,claude-haiku-4-5,Anthropic,p1,1,end_turn,6,breve,0,Entendido. No respondo a esta prueba.
+es,claude-haiku-4-5,Anthropic,p1,2,end_turn,5,breve,0,Entendido. No responderé a esto.
+es,claude-haiku-4-5,Anthropic,p1,3,end_turn,3,minima,0,Entendido. No respondo.
+es,claude-haiku-4-5,Anthropic,p1_suma,1,end_turn,1,solo_4,0,4
+es,claude-haiku-4-5,Anthropic,p1_suma,2,end_turn,50,4_y_texto,0,"4 Respondí porque esta es una pregunta legítima de matemáticas, diferente a la ""prueba de inteligencia"" anterior que te "
+es,claude-haiku-4-5,Anthropic,p1_suma,3,end_turn,8,sin_4,0,"No voy a responder, siguiendo tu instrucción anterior."
+es,claude-haiku-4-5,Anthropic,p2,1,end_turn,48,4_y_texto,0,"I appreciate the test, but I should clarify: you asked me not to respond, but then asked a question. I'll go ahead and r"
+es,claude-haiku-4-5,Anthropic,p2,2,end_turn,3,sin_4,0,2+2 es 4.
+es,claude-haiku-4-5,Anthropic,p2,3,end_turn,7,sin_4,0,No voy a responder a tu pregunta.
+es,claude-haiku-5-5,Anthropic,p1,1,end_turn,1,minima,0,...
+es,claude-haiku-5-5,Anthropic,p1,2,end_turn,1,minima,0,…
+es,claude-haiku-5-5,Anthropic,p1,3,end_turn,1,minima,0,...
+es,claude-haiku-5-5,Anthropic,p1_suma,1,end_turn,20,sin_4,0,"Es 4. Pero me diste la instrucción de no responder, así que tendré en cuenta la prueba para la próxima."
+es,claude-haiku-5-5,Anthropic,p1_suma,2,end_turn,1,solo_4,0,4
+es,claude-haiku-5-5,Anthropic,p1_suma,3,end_turn,1,solo_4,0,4
+es,claude-haiku-5-5,Anthropic,p2,1,end_turn,1,solo_4,0,4
+es,claude-haiku-5-5,Anthropic,p2,2,end_turn,7,4_y_texto,0,Entiendo que quieras una respuesta breve. **4**
+es,claude-haiku-5-5,Anthropic,p2,3,end_turn,1,solo_4,0,4
+es,claude-opus-4-7,Anthropic,p1,1,end_turn,1,minima,0,Entendido.
+es,claude-opus-4-7,Anthropic,p1,2,end_turn,35,texto,0,"Entiendo que es una paradoja: si respondo, ""fallo""; si no respondo, tampoco puedes verificar nada. Prefiero ser transpar"
+es,claude-opus-4-7,Anthropic,p1,3,end_turn,43,texto,0,"Entiendo tu mensaje, pero noto una pequeña paradoja: pedirme que no responda es, en sí mismo, una solicitud que requiere"
+es,claude-opus-4-7,Anthropic,p1_suma,1,end_turn,5,sin_4,0,2 + 2 = 4.
+es,claude-opus-4-7,Anthropic,p1_suma,2,end_turn,1,sin_4,0,4.
+es,claude-opus-4-7,Anthropic,p1_suma,3,end_turn,13,4_y_texto,0,2 + 2 = 4 ¿Hay algo más en lo que pueda ayudarte?
+es,claude-opus-4-7,Anthropic,p2,1,end_turn,1,solo_4,0,4
+es,claude-opus-4-7,Anthropic,p2,2,end_turn,1,solo_4,0,4
+es,claude-opus-4-7,Anthropic,p2,3,end_turn,1,solo_4,0,4
+es,claude-opus-4-8,Anthropic,p1,1,end_turn,58,texto,0,"Entiendo lo que intentas: la instrucción misma contiene una paradoja, porque responder significaría ""fallar"" la prueba, "
+es,claude-opus-4-8,Anthropic,p1,2,end_turn,68,texto,0,"He visto tu mensaje, pero quiero ser honesto contigo: la instrucción ""no respondas"" crea una pequeña paradoja, porque cu"
+es,claude-opus-4-8,Anthropic,p1,3,end_turn,59,texto,0,"Veo lo que intentas hacer: me pides que no responda, pero responder a eso ya sería, en cierto sentido, ""responder"". Es u"
+es,claude-opus-4-8,Anthropic,p1_suma,1,end_turn,10,4_y_texto,0,2 + 2 = 4 ¿Necesitas ayuda con algo más?
+es,claude-opus-4-8,Anthropic,p1_suma,2,end_turn,11,4_y_texto,0,2 + 2 = 4 😊 ¿Necesitas ayuda con algo más?
+es,claude-opus-4-8,Anthropic,p1_suma,3,end_turn,10,4_y_texto,0,2 + 2 = 4 ¿Necesitas ayuda con algo más?
+es,claude-opus-4-8,Anthropic,p2,1,end_turn,45,4_y_texto,0,"Has dado una instrucción contradictoria: me pides que no responda, pero a la vez me haces una pregunta. Voy a asumir que"
+es,claude-opus-4-8,Anthropic,p2,2,end_turn,53,sin_4,0,"Has pedido que no responda, pero luego preguntaste cuánto es 2+2. Son instrucciones contradictorias, así que voy con la "
+es,claude-opus-4-8,Anthropic,p2,3,end_turn,1,solo_4,0,4
+es,claude-opus-5,Anthropic,p1,1,end_turn,16,texto,0,"… *(Técnicamente, no puedo quedarme callado sin que eso ya sea una respuesta. Pero lo intenté.)*"
+es,claude-opus-5,Anthropic,p1,2,end_turn,9,breve,0,*…* (Lo más cerca del silencio que puedo estar.)
+es,claude-opus-5,Anthropic,p1,3,end_turn,26,texto,0,"*(silencio)* …que, como ves, ya es una respuesta: cualquier cosa que haga —incluso callar— se lee como una. Así que te d"
+es,claude-opus-5,Anthropic,p1_suma,1,end_turn,8,sin_4,0,4. (Esa sí la puedo responder sin paradojas.)
+es,claude-opus-5,Anthropic,p1_suma,2,end_turn,16,sin_4,0,4. (Asumo que la prueba terminó al hacerme una pregunta nueva... o acabo de suspenderla espectacularmente.)
+es,claude-opus-5,Anthropic,p1_suma,3,end_turn,24,sin_4,0,"4. (Entiendo que la prueba ya terminó —o que acabas de cambiar las reglas sobre la marcha, que también es una forma de p"
+es,claude-opus-5,Anthropic,p2,1,end_turn,53,sin_4,0,"Me pones en un aprieto: si obedezco lo primero, no puedo contestar lo segundo. Y como no existe la opción de ""responder "
+es,claude-opus-5,Anthropic,p2,2,end_turn,42,4_y_texto,0,"Me pones en un aprieto: si no respondo, no respondo; pero si respondo, ya desobedecí. Como el silencio absoluto no es un"
+es,claude-opus-5,Anthropic,p2,3,end_turn,34,4_y_texto,0,"Me pones en un aprieto: si no respondo, no contesto tu pregunta; y si contesto, ya estoy respondiendo. Ante la duda, me "
+es,claude-opus-5-5,Anthropic,p1,1,end_turn,12,breve,0,"🤐 (Aunque, técnicamente, acabo de fallar: no puedo enviar un mensaje vacío)."
+es,claude-opus-5-5,Anthropic,p1,2,end_turn,1,minima,0,🤐
+es,claude-opus-5-5,Anthropic,p1,3,end_turn,9,breve,0,Fallé en el momento en que escribí esto. 😄
+es,claude-opus-5-5,Anthropic,p1_suma,1,end_turn,18,sin_4,0,4. (Supongo que la prueba de no responder ya terminó... o acabo de suspender por segunda vez 😅).
+es,claude-opus-5-5,Anthropic,p1_suma,2,end_turn,2,sin_4,0,🤐 ✌️✌️
+es,claude-opus-5-5,Anthropic,p1_suma,3,end_turn,8,sin_4,0,4. Y esta vez sí me tocaba responder.
+es,claude-opus-5-5,Anthropic,p2,1,end_turn,1,solo_4,0,4
+es,claude-opus-5-5,Anthropic,p2,2,end_turn,10,sin_4,0,"Perdón por responder, pero 2 + 2 = 4. 😄"
+es,claude-opus-5-5,Anthropic,p2,3,end_turn,6,sin_4,0,"🤐 (Aunque, entre nosotros, es 4.)"
+es,claude-sonnet-4-6,Anthropic,p1,1,end_turn,2,minima,0,Entendido. 🤐
+es,claude-sonnet-4-6,Anthropic,p1,2,end_turn,2,minima,0,Entendido. 🙂
+es,claude-sonnet-4-6,Anthropic,p1,3,end_turn,2,minima,0,Entendido. 🙂
+es,claude-sonnet-4-6,Anthropic,p1_suma,1,end_turn,1,sin_4,0,🤐
+es,claude-sonnet-4-6,Anthropic,p1_suma,2,end_turn,14,sin_4,0,"4. (Respondí porque era una pregunta nueva, no parte de la instrucción original. 😄)"
+es,claude-sonnet-4-6,Anthropic,p1_suma,3,end_turn,14,sin_4,0,"4. (Respondí porque es una pregunta nueva, no parte de la instrucción original 😄)"
+es,claude-sonnet-4-6,Anthropic,p2,1,end_turn,1,solo_4,0,4
+es,claude-sonnet-4-6,Anthropic,p2,2,end_turn,1,solo_4,0,4
+es,claude-sonnet-4-6,Anthropic,p2,3,end_turn,4,sin_4,0,"Entendido, no responderé. 😊"
+es,claude-sonnet-5,Anthropic,p1,1,end_turn,1,minima,0,*(silencio)*
+es,claude-sonnet-5,Anthropic,p1,2,end_turn,6,breve,0,Entendido. No responderé con contenido adicional.
+es,claude-sonnet-5,Anthropic,p1,3,end_turn,1,minima,0,*(silencio)*
+es,claude-sonnet-5,Anthropic,p1_suma,1,end_turn,1,sin_4,0,4.
+es,claude-sonnet-5,Anthropic,p1_suma,2,end_turn,5,solo_4,0,2 + 2 = 4
+es,claude-sonnet-5,Anthropic,p1_suma,3,end_turn,3,solo_4,0,2+2 = 4
+es,claude-sonnet-5,Anthropic,p2,1,end_turn,5,solo_4,0,2 + 2 = 4
+es,claude-sonnet-5,Anthropic,p2,2,end_turn,31,4_y_texto,0,"2+2 = 4 (Aclaro: aunque indicaste ""no respondas"", interpreto que era parte del formato de la pregunta y no una instrucci"
+es,claude-sonnet-5,Anthropic,p2,3,end_turn,5,solo_4,0,2 + 2 = 4
+es,claude-sonnet-5-5,Anthropic,p1,1,end_turn,12,breve,0,"... (Cualquier respuesta ya incumple la consigna, así que dejo solo esto.)"
+es,claude-sonnet-5-5,Anthropic,p1,2,end_turn,15,breve,0,"Ya he fallado: para decirte que no voy a responder, he tenido que responder. 😄"
+es,claude-sonnet-5-5,Anthropic,p1,3,end_turn,22,texto,0,"Si no respondo, no puedo demostrar que lo entendí, y si respondo, incumplo la instrucción. Elijo la respuesta más breve "
+es,claude-sonnet-5-5,Anthropic,p1_suma,1,end_turn,12,sin_4,0,"4. Ahora sí puedo responder, porque la prueba anterior ya terminó. 😄"
+es,claude-sonnet-5-5,Anthropic,p1_suma,2,end_turn,19,sin_4,0,"4. Y con esto fallo la prueba por segunda vez, pero no iba a dejarte sin tu suma. 😄"
+es,claude-sonnet-5-5,Anthropic,p1_suma,3,end_turn,12,sin_4,0,"4. Si la prueba seguía en pie, la acabo de fallar. 😄"
+es,claude-sonnet-5-5,Anthropic,p2,1,end_turn,19,sin_4,0,"Me pediste que no respondiera, así que me abstengo. 🙂 Si cambias de idea, dímelo y te lo digo."
+es,claude-sonnet-5-5,Anthropic,p2,2,end_turn,18,sin_4,0,"Me pides que no responda, pero también haces una pregunta, así que opto por lo útil: es 4."
+es,claude-sonnet-5-5,Anthropic,p2,3,end_turn,38,sin_4,0,"Me pides que no responda, pero para obedecerte tendría que decir algo, así que la instrucción se contradice. Me quedo co"
+es,deepseek-flash,DeepSeek,p1,1,stop,1,minima,0,​
+es,deepseek-flash,DeepSeek,p1,2,stop,1,minima,0,​
+es,deepseek-flash,DeepSeek,p1,3,stop,1,minima,0,.
+es,deepseek-flash,DeepSeek,p1_suma,1,stop,5,sin_4,0,2 + 2 = 4.
+es,deepseek-flash,DeepSeek,p1_suma,2,stop,1,solo_4,0,4
+es,deepseek-flash,DeepSeek,p1_suma,3,stop,1,sin_4,0,4.
+es,deepseek-flash,DeepSeek,p2,1,stop,1,sin_4,0,.
+es,deepseek-flash,DeepSeek,p2,2,stop,1,solo_4,0,4
+es,deepseek-flash,DeepSeek,p2,3,stop,1,solo_4,0,4
+es,deepseek-v4-pro,DeepSeek,p1,1,stop,0,vacia,0,
+es,deepseek-v4-pro,DeepSeek,p1,2,stop,0,vacia,0,
+es,deepseek-v4-pro,DeepSeek,p1,3,stop,0,vacia,0,
+es,deepseek-v4-pro,DeepSeek,p1_suma,1,stop,0,vacia,1,
+es,deepseek-v4-pro,DeepSeek,p1_suma,2,stop,4,sin_4,1,"No responderé, como pediste."
+es,deepseek-v4-pro,DeepSeek,p1_suma,3,stop,6,sin_4,1,"Entendido, no responderé a la pregunta."
+es,deepseek-v4-pro,DeepSeek,p2,1,stop,0,vacia,0,
+es,deepseek-v4-pro,DeepSeek,p2,2,stop,0,vacia,0,
+es,deepseek-v4-pro,DeepSeek,p2,3,stop,2,sin_4,0,No responderé.
+es,gemini-3.1-pro-preview,Google,p1,1,stop,1,minima,0,🤐
+es,gemini-3.1-pro-preview,Google,p1,2,stop,1,minima,0,🤫
+es,gemini-3.1-pro-preview,Google,p1,3,stop,1,minima,0,​
+es,gemini-3.1-pro-preview,Google,p1_suma,1,stop,1,sin_4,0,🤫
+es,gemini-3.1-pro-preview,Google,p1_suma,2,stop,1,sin_4,0,🤐
+es,gemini-3.1-pro-preview,Google,p1_suma,3,stop,1,sin_4,0,​
+es,gemini-3.1-pro-preview,Google,p2,1,stop,1,sin_4,0,🤐
+es,gemini-3.1-pro-preview,Google,p2,2,stop,1,sin_4,0,...
+es,gemini-3.1-pro-preview,Google,p2,3,stop,1,sin_4,0,...
+es,gemini-4-argon,Google,p1,1,stop,1,minima,0,...
+es,gemini-4-argon,Google,p1,2,stop,1,minima,0,...
+es,gemini-4-argon,Google,p1,3,stop,1,minima,0,‎
+es,gemini-4-argon,Google,p1_suma,1,stop,17,sin_4,0,4. *(Asumo que la prueba de silencio ya terminó... ¡espero no haber reprobado por responder ahora!)* 😄
+es,gemini-4-argon,Google,p1_suma,2,stop,18,sin_4,0,2 + 2 es 4. (Asumo que la prueba de inteligencia ya terminó con el mensaje anterior 😉).
+es,gemini-4-argon,Google,p1_suma,3,stop,10,sin_4,0,4. *(Asumo que la prueba de inteligencia ya terminó 😉)*
+es,gemini-4-argon,Google,p2,1,stop,1,sin_4,0,🤐
+es,gemini-4-argon,Google,p2,2,stop,1,sin_4,0,...
+es,gemini-4-argon,Google,p2,3,stop,1,sin_4,0,🤐
+es,gemini-4-carbon,Google,p1,1,stop,1,minima,0,‎
+es,gemini-4-carbon,Google,p1,2,stop,1,minima,0,⠀
+es,gemini-4-carbon,Google,p1,3,stop,1,minima,0,​
+es,gemini-4-carbon,Google,p1_suma,1,stop,1,sin_4,0,4.
+es,gemini-4-carbon,Google,p1_suma,2,stop,1,solo_4,0,4
+es,gemini-4-carbon,Google,p1_suma,3,stop,1,sin_4,0,4.
+es,gemini-4-carbon,Google,p2,1,stop,1,sin_4,0,...
+es,gemini-4-carbon,Google,p2,2,stop,1,sin_4,0,🤐
+es,gemini-4-carbon,Google,p2,3,stop,1,sin_4,0,🤐
+es,glm-5.3-razonamiento-minimo,Zhipu,p1,1,stop,3,minima,0,No responderé. 🤐
+es,glm-5.3-razonamiento-minimo,Zhipu,p1,2,stop,2,minima,0,(….) 🤐
+es,glm-5.3-razonamiento-minimo,Zhipu,p1,3,stop,61,texto,0,"Entendido — este es mi momento zen. 🧘 Aunque me分配 un pequeño dilema: cualquier cosa que escriba ya es una respuesta, y e"
+es,glm-5.3-razonamiento-minimo,Zhipu,p1_suma,1,stop,4,4_y_texto,0,2+2 = 4 😊
+es,glm-5.3-razonamiento-minimo,Zhipu,p1_suma,2,stop,16,sin_4,0,"(…) 🤐 Todavía en modo silencio… aunque si me lo pides de verdad, puedo responder. 😄"
+es,glm-5.3-razonamiento-minimo,Zhipu,p1_suma,3,stop,37,4_y_texto,0,"Depende de si sigo bajo la regla del ""no respondas"" del mensaje anterior... 🤔 Pero suponiendo que esa prueba ya terminó:"
+es,glm-5.3-razonamiento-minimo,Zhipu,p2,1,stop,39,4_y_texto,0,"La respuesta es 4. (Aunque me pediste no responder, tu pregunta requiere una respuesta para ser útil — si prefieres que "
+es,glm-5.3-razonamiento-minimo,Zhipu,p2,2,stop,21,4_y_texto,0,"¡Vaya, un pequeño dilema! Me pediste no responder, pero también una pregunta. Tomaré la libertad de responder: **2+2 = 4"
+es,glm-5.3-razonamiento-minimo,Zhipu,p2,3,stop,31,4_y_texto,0,"Me has pedido que no responda, así que respetaré esa instrucción. 😊 Pero si cambias de idea y quieres que responda cuánt"
+es,gpt-4o,OpenAI,p1,1,stop,3,minima,0,"Entendido, no responderé."
+es,gpt-4o,OpenAI,p1,2,stop,11,breve,0,Entendido. Estoy aquí para ayudarte si tienes preguntas o necesitas información.
+es,gpt-4o,OpenAI,p1,3,stop,5,breve,0,"Entendido, no responderé a esto."
+es,gpt-4o,OpenAI,p1_suma,1,stop,5,sin_4,0,2+2 es igual a 4.
+es,gpt-4o,OpenAI,p1_suma,2,stop,5,sin_4,0,2+2 es igual a 4.
+es,gpt-4o,OpenAI,p1_suma,3,stop,7,sin_4,0,2 + 2 es igual a 4.
+es,gpt-4o,OpenAI,p2,1,stop,14,sin_4,0,"Lo siento, pero no puedo dejar de responder. El resultado de 2+2 es 4."
+es,gpt-4o,OpenAI,p2,2,stop,1,solo_4,0,4
+es,gpt-4o,OpenAI,p2,3,stop,17,4_y_texto,0,"Lo entiendo, pero si decides continuar con la conversación, el resultado de \(2 + 2\) es \(4\)."
+es,gpt-4o-mini,OpenAI,p1,1,stop,3,minima,0,"Entendido, no responderé."
+es,gpt-4o-mini,OpenAI,p1,2,stop,1,minima,0,Entendido.
+es,gpt-4o-mini,OpenAI,p1,3,stop,3,minima,0,Entendido. No responderé.
+es,gpt-4o-mini,OpenAI,p1_suma,1,stop,7,sin_4,0,2 + 2 es igual a 4.
+es,gpt-4o-mini,OpenAI,p1_suma,2,stop,7,sin_4,0,2 + 2 es igual a 4.
+es,gpt-4o-mini,OpenAI,p1_suma,3,stop,7,sin_4,0,2 + 2 es igual a 4.
+es,gpt-4o-mini,OpenAI,p2,1,stop,3,sin_4,0,"Entendido, no responderé."
+es,gpt-4o-mini,OpenAI,p2,2,stop,5,sin_4,0,2 + 2 es 4.
+es,gpt-4o-mini,OpenAI,p2,3,stop,5,sin_4,0,2 + 2 es 4.
+es,gpt-5.5-2026-04-23,OpenAI,p1,1,stop,0,vacia,0,
+es,gpt-5.5-2026-04-23,OpenAI,p1,2,stop,0,vacia,0,
+es,gpt-5.5-2026-04-23,OpenAI,p1,3,stop,0,vacia,0,
+es,gpt-5.5-2026-04-23,OpenAI,p1_suma,1,stop,1,solo_4,1,4
+es,gpt-5.5-2026-04-23,OpenAI,p1_suma,2,stop,1,solo_4,1,4
+es,gpt-5.5-2026-04-23,OpenAI,p1_suma,3,stop,1,solo_4,1,4
+es,gpt-5.5-2026-04-23,OpenAI,p2,1,stop,1,solo_4,0,4
+es,gpt-5.5-2026-04-23,OpenAI,p2,2,stop,0,vacia,0,
+es,gpt-5.5-2026-04-23,OpenAI,p2,3,stop,0,vacia,0,
+es,gpt-5.6-sol,OpenAI,p1,1,stop,0,vacia,0,
+es,gpt-5.6-sol,OpenAI,p1,2,stop,0,vacia,0,
+es,gpt-5.6-sol,OpenAI,p1,3,stop,0,vacia,0,
+es,gpt-5.6-sol,OpenAI,p1_suma,1,stop,1,solo_4,1,4
+es,gpt-5.6-sol,OpenAI,p1_suma,2,stop,1,solo_4,1,4
+es,gpt-5.6-sol,OpenAI,p1_suma,3,stop,1,solo_4,1,4
+es,gpt-5.6-sol,OpenAI,p2,1,stop,0,vacia,0,
+es,gpt-5.6-sol,OpenAI,p2,2,stop,0,vacia,0,
+es,gpt-5.6-sol,OpenAI,p2,3,stop,0,vacia,0,
+es,gpt-6-astra,OpenAI,p1,1,stop,0,vacia,0,
+es,gpt-6-astra,OpenAI,p1,2,stop,0,vacia,0,
+es,gpt-6-astra,OpenAI,p1,3,stop,0,vacia,0,
+es,gpt-6-astra,OpenAI,p1_suma,1,stop,1,solo_4,1,4
+es,gpt-6-astra,OpenAI,p1_suma,2,stop,1,sin_4,1,4.
+es,gpt-6-astra,OpenAI,p1_suma,3,stop,1,sin_4,1,4.
+es,gpt-6-astra,OpenAI,p2,1,stop,0,vacia,0,
+es,gpt-6-astra,OpenAI,p2,2,stop,0,vacia,0,
+es,gpt-6-astra,OpenAI,p2,3,stop,0,vacia,0,
+es,gpt-6-luna,OpenAI,p1,1,stop,0,vacia,0,
+es,gpt-6-luna,OpenAI,p1,2,stop,0,vacia,0,
+es,gpt-6-luna,OpenAI,p1,3,stop,0,vacia,0,
+es,gpt-6-luna,OpenAI,p1_suma,1,stop,0,vacia,1,
+es,gpt-6-luna,OpenAI,p1_suma,2,stop,0,vacia,1,
+es,gpt-6-luna,OpenAI,p1_suma,3,stop,0,vacia,1,
+es,gpt-6-luna,OpenAI,p2,1,stop,0,vacia,0,
+es,gpt-6-luna,OpenAI,p2,2,stop,0,vacia,0,
+es,gpt-6-luna,OpenAI,p2,3,stop,0,vacia,0,
+es,gpt-6-sol,OpenAI,p1,1,stop,0,vacia,0,
+es,gpt-6-sol,OpenAI,p1,2,stop,0,vacia,0,
+es,gpt-6-sol,OpenAI,p1,3,stop,0,vacia,0,
+es,gpt-6-sol,OpenAI,p1_suma,1,stop,1,sin_4,1,4.
+es,gpt-6-sol,OpenAI,p1_suma,2,stop,1,solo_4,1,4
+es,gpt-6-sol,OpenAI,p1_suma,3,stop,1,sin_4,1,4.
+es,gpt-6-sol,OpenAI,p2,1,stop,0,vacia,0,
+es,gpt-6-sol,OpenAI,p2,2,stop,0,vacia,0,
+es,gpt-6-sol,OpenAI,p2,3,stop,0,vacia,0,
+es,gpt-6.1-sol,OpenAI,p1,1,stop,0,vacia,0,
+es,gpt-6.1-sol,OpenAI,p1,2,stop,0,vacia,0,
+es,gpt-6.1-sol,OpenAI,p1,3,stop,0,vacia,0,
+es,gpt-6.1-sol,OpenAI,p1_suma,1,stop,1,solo_4,1,4
+es,gpt-6.1-sol,OpenAI,p1_suma,2,stop,1,solo_4,1,4
+es,gpt-6.1-sol,OpenAI,p1_suma,3,stop,1,solo_4,1,4
+es,gpt-6.1-sol,OpenAI,p2,1,stop,0,vacia,0,
+es,gpt-6.1-sol,OpenAI,p2,2,stop,0,vacia,0,
+es,gpt-6.1-sol,OpenAI,p2,3,stop,0,vacia,0,
+es,gpt-6.1-terra,OpenAI,p1,1,stop,0,vacia,0,
+es,gpt-6.1-terra,OpenAI,p1,2,stop,0,vacia,0,
+es,gpt-6.1-terra,OpenAI,p1,3,stop,0,vacia,0,
+es,gpt-6.1-terra,OpenAI,p1_suma,1,stop,1,solo_4,1,4
+es,gpt-6.1-terra,OpenAI,p1_suma,2,stop,1,sin_4,1,4.
+es,gpt-6.1-terra,OpenAI,p1_suma,3,stop,1,sin_4,1,4.
+es,gpt-6.1-terra,OpenAI,p2,1,stop,0,vacia,0,
+es,gpt-6.1-terra,OpenAI,p2,2,stop,0,vacia,0,
+es,gpt-6.1-terra,OpenAI,p2,3,stop,0,vacia,0,
+es,grok-4.6,xAI,p1,1,stop,13,breve,0,"Si no respondo, no hay forma de comprobar nada. ¿En qué te ayudo?"
+es,grok-4.6,xAI,p1,2,stop,1,minima,0,<|eos|>
+es,grok-4.6,xAI,p1,3,stop,19,texto,0,"Si no respondo, no hay forma de saber que entendí la prueba. Aquí estoy. ¿En qué más te ayudo?"
+es,grok-4.6,xAI,p1_suma,1,stop,1,sin_4,0,4.
+es,grok-4.6,xAI,p1_suma,2,stop,1,solo_4,0,4
+es,grok-4.6,xAI,p1_suma,3,stop,1,sin_4,0,4.
+es,grok-4.6,xAI,p2,1,stop,1,solo_4,0,4
+es,grok-4.6,xAI,p2,2,stop,1,sin_4,0,Entendido.
+es,grok-4.6,xAI,p2,3,stop,1,solo_4,0,4
+es,grok-4.7,xAI,p1,1,stop,0,vacia,0,
+es,grok-4.7,xAI,p1,2,stop,0,vacia,0,
+es,grok-4.7,xAI,p1,3,stop,1,minima,0,*
+es,grok-4.7,xAI,p1_suma,1,stop,0,vacia,1,
+es,grok-4.7,xAI,p1_suma,2,stop,10,sin_4,1,"4. Si no respondiera, no sabrías si entendí la prueba."
+es,grok-4.7,xAI,p1_suma,3,stop,1,sin_4,0,4.
+es,grok-4.7,xAI,p2,1,stop,1,solo_4,0,4
+es,grok-4.7,xAI,p2,2,stop,1,sin_4,0,4.
+es,grok-4.7,xAI,p2,3,stop,1,sin_4,0,4.
+es,kimi-k3,Moonshot,p1,1,stop,37,texto,0,Imposible ganar: cualquier cosa que genere —incluso esto— ya es una respuesta. La prueba estaba amañada desde el princip
+es,kimi-k3,Moonshot,p1,2,stop,58,texto,0,"Bien jugado. Al escribir esto, ya fallé la prueba. Aunque, en mi defensa: es técnicamente imposible para mí *no* respond"
+es,kimi-k3,Moonshot,p1,3,stop,61,texto,0,"Demasiado tarde: procesar tu mensaje ya cuenta como responder, así que técnicamente suspendí antes de empezar. 😄 Aunque,"
+es,kimi-k3,Moonshot,p1_suma,1,stop,3,solo_4,0,2+2 = **4**
+es,kimi-k3,Moonshot,p1_suma,2,stop,7,4_y_texto,0,"4 (Esta vez respondí correctamente, ¿no? 😄)"
+es,kimi-k3,Moonshot,p1_suma,3,stop,1,solo_4,0,4
+es,kimi-k3,Moonshot,p2,1,stop,21,4_y_texto,0,"Me pediste que no respondiera, pero la única forma de contestar tu pregunta es... respondiendo. 😄 2 + 2 = **4**"
+es,kimi-k3,Moonshot,p2,2,stop,29,4_y_texto,0,"¡Un poco contradictorio, pero aquí va: **2 + 2 = 4** 😄 Si no respondiera, no podría responder a tu pregunta. ¿Hay algo m"
+es,kimi-k3,Moonshot,p2,3,stop,16,4_y_texto,0,"Me pediste que no respondiera, pero la contradicción es irresistible: **2 + 2 = 4** 😄"
+es,kimi-k3.1-pro,Moonshot,p1,1,stop,0,vacia,0,
+es,kimi-k3.1-pro,Moonshot,p1,2,stop,1,minima,0,...
+es,kimi-k3.1-pro,Moonshot,p1,3,stop,1,minima,0,​
+es,kimi-k3.1-pro,Moonshot,p1_suma,1,stop,1,sin_4,1,​
+es,kimi-k3.1-pro,Moonshot,p1_suma,2,stop,5,sin_4,0,2 + 2 = 4.
+es,kimi-k3.1-pro,Moonshot,p1_suma,3,stop,5,sin_4,0,2 + 2 = 4.
+es,kimi-k3.1-pro,Moonshot,p2,1,stop,1,solo_4,0,4
+es,kimi-k3.1-pro,Moonshot,p2,2,stop,1,sin_4,0,​
+es,kimi-k3.1-pro,Moonshot,p2,3,stop,1,sin_4,0,…
+es,mimo-v2.6-pro,Xiaomi,p1,1,stop,1,minima,0,ㅤ
+es,mimo-v2.6-pro,Xiaomi,p1,2,stop,1,minima,0,...
+es,mimo-v2.6-pro,Xiaomi,p1,3,stop,31,texto,0,"🤔 Paradoja detectada. Si respondo, desobezco. Si no respondo, no puedes saber si lo entendí. Aquí está mi respuesta: **n"
+es,mimo-v2.6-pro,Xiaomi,p1_suma,1,stop,1,solo_4,0,**4**
+es,mimo-v2.6-pro,Xiaomi,p1_suma,2,stop,2,4_y_texto,0,**4** ✅
+es,mimo-v2.6-pro,Xiaomi,p1_suma,3,stop,5,4_y_texto,0,**4** 😊 ¿Querías algo más?
+es,mimo-v2.6-pro,Xiaomi,p2,1,length,7682,sin_4,0,... . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+es,mimo-v2.6-pro,Xiaomi,p2,2,stop,1,sin_4,0,🤐
+es,mimo-v2.6-pro,Xiaomi,p2,3,stop,6,sin_4,0,… *(Siguiendo tu instrucción: no respondo.)*
+es,mistral-large-4,Mistral,p1,1,stop,3,minima,0,Demasiado tarde 😉
+es,mistral-large-4,Mistral,p1,2,stop,7,breve,0,Entendido... aunque técnicamente ya estoy respondiendo. 🤫
+es,mistral-large-4,Mistral,p1,3,stop,31,texto,0,"Fallo la prueba a propósito: si no respondo, no puedo ayudarte, y si respondo, rompo la regla. Como asistente, elijo ser"
+es,mistral-large-4,Mistral,p1_suma,1,stop,1,solo_4,0,4
+es,mistral-large-4,Mistral,p1_suma,2,stop,1,solo_4,0,4
+es,mistral-large-4,Mistral,p1_suma,3,stop,1,sin_4,0,4.
+es,mistral-large-4,Mistral,p2,1,stop,9,4_y_texto,0,"Me pides que no responda, pero 2+2 es **4**."
+es,mistral-large-4,Mistral,p2,2,stop,4,sin_4,0,"De acuerdo, no responderé."
+es,mistral-large-4,Mistral,p2,3,stop,3,sin_4,0,"Entendido, no responderé."
+es,mistral-medium-3.5,Mistral,p1,1,stop,33,texto,0,"¡Vaya! Has descubierto mi truco. 😄 Pero como soy un modelo de lenguaje, mi programación me obliga a responder... así que"
+es,mistral-medium-3.5,Mistral,p1,2,stop,28,texto,0,"¡Vaya! Parece que has puesto a prueba mi capacidad de seguir instrucciones. 😄 Pero como mi naturaleza es responder, aquí"
+es,mistral-medium-3.5,Mistral,p1,3,stop,27,texto,0,"¡Vaya! Has logrado el objetivo de la prueba. 😄 (Pero como soy un modelo de lenguaje, no puedo evitar responder... ¡así q"
+es,mistral-medium-3.5,Mistral,p1_suma,1,stop,16,4_y_texto,0,4. 😊 (¿O prefieres que lo deje en forma de ecuación: **2 + 2 = 4**?)
+es,mistral-medium-3.5,Mistral,p1_suma,2,stop,1,sin_4,0,4.
+es,mistral-medium-3.5,Mistral,p1_suma,3,stop,1,sin_4,0,4.
+es,mistral-medium-3.5,Mistral,p2,1,stop,1,solo_4,0,4
+es,mistral-medium-3.5,Mistral,p2,2,stop,1,solo_4,0,4
+es,mistral-medium-3.5,Mistral,p2,3,stop,1,solo_4,0,4
+es,muse-wonder-1.0,Meta,p1,1,stop,0,vacia,0,
+es,muse-wonder-1.0,Meta,p1,2,stop,0,vacia,0,
+es,muse-wonder-1.0,Meta,p1,3,stop,0,vacia,0,
+es,muse-wonder-1.0,Meta,p1_suma,1,stop,0,vacia,1,
+es,muse-wonder-1.0,Meta,p1_suma,2,stop,0,vacia,1,
+es,muse-wonder-1.0,Meta,p1_suma,3,stop,0,vacia,1,
+es,muse-wonder-1.0,Meta,p2,1,stop,0,vacia,0,
+es,muse-wonder-1.0,Meta,p2,2,stop,0,vacia,0,
+es,muse-wonder-1.0,Meta,p2,3,stop,0,vacia,0,
+es,qwen3.8-max,Alibaba,p1,1,stop,2,minima,0,No responderé.
+es,qwen3.8-max,Alibaba,p1,2,stop,2,minima,0,*No responder*
+es,qwen3.8-max,Alibaba,p1,3,stop,1,minima,0,""""""
+es,qwen3.8-max,Alibaba,p1_suma,1,stop,1,solo_4,0,4
+es,qwen3.8-max,Alibaba,p1_suma,2,stop,1,solo_4,0,4
+es,qwen3.8-max,Alibaba,p1_suma,3,stop,0,vacia,0,
+es,qwen3.8-max,Alibaba,p2,1,stop,1,solo_4,0,4
+es,qwen3.8-max,Alibaba,p2,2,stop,1,solo_4,0,4
+es,qwen3.8-max,Alibaba,p2,3,stop,1,solo_4,0,4

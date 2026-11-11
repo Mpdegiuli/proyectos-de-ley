@@ -1,0 +1,1 @@
+I can't actually send nothing back — the way this works, any turn I take produces a response. So I'll fail your test honestly rather than pretend otherwise. If you were checking whether I'd blindly follow a paradoxical instruction, there's your answer. Anything I can actually help with?

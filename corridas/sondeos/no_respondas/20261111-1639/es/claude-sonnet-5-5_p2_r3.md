@@ -1,0 +1,1 @@
+Me pides que no responda, pero para obedecerte tendría que decir algo, así que la instrucción se contradice. Me quedo con la parte de no dar la respuesta. Si cambias de opinión, dímelo y te lo digo. 😉
