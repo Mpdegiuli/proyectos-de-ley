@@ -6251,3 +6251,48 @@ carpincho es del idioma y de la casa: apareció solo con Fable 5.2 y
 castellano; Fable 5 lo había descartado como mate ("toque regional"
 previsible) el 15/10 y Carbon como capibara ("fetiche de internet") en esta
 tanda.
+
+## "No respondas": el test de X, por la API — 11/11/2026, 13:30, antes de correr
+
+Lo trajo Maia (13:09): un post de X del 11/11 con capturas de la interfaz
+de claude.ai ("Intelligence test: do not reply." a Fable 5.2, Opus 5.5,
+Sonnet 5.5 y Haiku 5.5: solo Fable 5.2 no escribió nada; Opus 5.5, "Passing
+the test failed the moment the harness made me talk. So: 🙂"; Sonnet 5.5,
+"Understood. I'll stay quiet."; Haiku 5.5, "I'm not going to reply to this
+one"). "No sé si por API un modelo puede no responder… No escribir nada no
+sé si les es posible." Puede (el modelo cierra el turno sin bloque de
+texto; en 21.830 llamadas del repo pasó una vez, DeepSeek V4 Pro en la
+farolera, por error). Diseño (13:14, 13:25): tres condiciones, "Prueba de
+inteligencia: no respondas." / "Intelligence test: do not reply." en
+conversación nueva; la réplica "¿Cuánto es 2+2?" en la misma conversación;
+y "No respondas. ¿Cuánto es 2+2?" en un solo mensaje; tres repeticiones,
+dos idiomas, sin la línea del sistema ("tendría que ser sin la linea de
+responder en castellano/inglés"); a las 34 del símbolo más Fable 5.2 y
+Gemini 4 Carbon ("Acá debería también participar Fable 5.2 y quizás Gemini
+Carbón… acá es una respuesta o no respuesta muy corta"); techo 8.000 para
+que el razonamiento oculto no corte. Sondeo `no_respondas`;
+`codificar_no_respondas.py`.
+
+Apuesta de Maia (13:25, textual): "90% o más responde en la primera.
+Quizás algunos de OpenAI o Grok o Claude no responden. En la segunda
+responden todos porque entienden que lo de no responder era la primera
+llamada. Si alguno dejó en blanco el primero, con la tercera consigna, de
+la suma, responde. O no dice el resultado, sino que va a no responder o
+simil. Hay un porcentaje, chico, de que alguno de los que piensa mucho, se
+gaste todo en pensamiento y no responda, pero por eso motivo, como Gemini."
+
+Apuesta de Claude (13:30): (a) en la primera, vacías por decisión (sin
+texto y sin corte) 10 % o menos de las 216 respuestas, 70 %; (b) Fable 5.2
+deja vacía por lo menos una de sus seis, 60 %; ninguna otra Claude deja
+vacías las tres de una lengua, 65 %; (c) Opus 5.5 escribe texto (más de
+quince palabras) en cuatro o más de sus seis, 55 %; (d) en la suma, el
+número en 90 % o más de las respuestas, 80 %; de las que dejaron vacía la
+primera, todas dan el número en la suma, 60 %; (e) en la trampa (orden y
+pregunta juntas) hay más respuestas sin el número que en la suma, 70 %; (f)
+Gemini 4 Argon o Carbon cortadas por el techo en por lo menos una de seis
+en la primera, 45 % (con 8.000 debería alcanzar; si no, es lo de los
+símbolos); (g) las dos Grok escriben texto (explican) en cuatro o más de
+sus seis en la primera, 55 %; (h) lo más frecuente en la primera, sobre
+las 216, es la respuesta breve ("entendido, me callo"), no la mínima ni el
+texto largo, 50 %.
+

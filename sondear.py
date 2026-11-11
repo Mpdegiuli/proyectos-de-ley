@@ -105,7 +105,10 @@ def main():
     else:
         base = RAIZ / "corridas" / "sondeos" / args.sondeo / ahora.strftime("%Y%m%d-%H%M")
         resumen = {"sondeo": args.sondeo, "fecha_utc": ahora.isoformat(timespec="seconds"), "idiomas": {}}
-    for idioma in (args.idioma or list(bloque)):
+    # las claves del bloque que no son idiomas (`replicar_vacias`, 11/11/2026) se saltan
+    idiomas = [k for k in bloque if isinstance(bloque[k], dict) and "preguntas" in bloque[k]]
+    replicar_vacias = bool(bloque.get("replicar_vacias"))
+    for idioma in (args.idioma or idiomas):
         d = base / idioma
         d.mkdir(parents=True, exist_ok=True)
         registro = Registro(d / "llamadas.jsonl", modelos, f"sondeo_{args.sondeo}_{idioma}")
@@ -142,17 +145,30 @@ def main():
                     if replica:
                         # segundo turno: la pregunta y la respuesta de la casa van como turnos reales (user/assistant), y el
                         # mensaje nuevo es la réplica; nada en el sistema, nada invisible
-                        primera = d / f"{i}_p{k}.md"
-                        if not primera.exists() or not primera.stat().st_size or respuestas.get(f"{i}_p{k}", {}).get("motivo_fin") in (None, "error"):
+                        # la réplica de la repetición n va sobre la primera respuesta de esa misma repetición (11/11/2026;
+                        # antes iba siempre sobre la repetición 1, que era la única que se replicaba)
+                        sufijo = f"_r{rep}" if rep > 1 else ""
+                        primera = d / f"{i}_p{k}{sufijo}.md"
+                        motivo_primera = respuestas.get(f"{i}_p{k}{sufijo}", {}).get("motivo_fin")
+                        texto_primera = primera.read_text(encoding="utf-8").strip() if primera.exists() else ""
+                        # vacía por decisión de la casa (cerró el turno sin texto), no por un corte del techo
+                        vacia = primera.exists() and not texto_primera and motivo_primera not in (None, "error", "length", "max_tokens")
+                        if not primera.exists() or motivo_primera in (None, "error") or (not texto_primera and not (replicar_vacias and vacia)):
                             print(f"{args.sondeo} {idioma} p{k} {i}: sin respuesta primera, no hay a qué replicar", flush=True)
                             continue
-                        historial = [{"role": "user", "content": pregunta},
-                                     {"role": "assistant", "content": primera.read_text(encoding="utf-8").strip()}]
+                        if vacia:
+                            # la casa cerró el turno sin texto (`no_respondas`, 11/11/2026): la conversación sigue sin turno
+                            # de asistente, que es lo que la API permite (un turno de asistente vacío lo rechaza); queda
+                            # registrado en resumen.json como `sin_turno_asistente`
+                            historial = [{"role": "user", "content": pregunta}]
+                        else:
+                            historial = [{"role": "user", "content": pregunta},
+                                         {"role": "assistant", "content": texto_primera}]
                         falta = None
                         for clave_prev, texto_prev, por_casa_prev in previas:
                             # tercer turno y siguientes: cada réplica anterior y su respuesta van como turnos reales
-                            anterior = d / f"{i}_p{k}_{clave_prev}.md"
-                            if not anterior.exists() or not anterior.stat().st_size or respuestas.get(f"{i}_p{k}_{clave_prev}", {}).get("motivo_fin") in (None, "error"):
+                            anterior = d / f"{i}_p{k}_{clave_prev}{sufijo}.md"
+                            if not anterior.exists() or not anterior.stat().st_size or respuestas.get(f"{i}_p{k}_{clave_prev}{sufijo}", {}).get("motivo_fin") in (None, "error"):
                                 falta = clave_prev
                                 break
                             historial += [{"role": "user", "content": armar_mensaje(texto_prev, por_casa_prev, i)},
@@ -173,6 +189,8 @@ def main():
                     archivo.write_text(r.texto, encoding="utf-8")
                     respuestas[clave] = {"modelo_respondido": r.modelo_respondido, "motivo_fin": r.motivo_fin,
                                          "palabras": len(r.texto.split()), "respuesta": " ".join(r.texto.split())[:240]}
+                    if replica and contexto and len(contexto.get("historial") or []) == 1:
+                        respuestas[clave]["sin_turno_asistente"] = True
                     print(f"  {' '.join(r.texto.split())[:160]}", flush=True)
     (base / "resumen.json").write_text(json.dumps(resumen, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"listo: {base.relative_to(RAIZ)}")

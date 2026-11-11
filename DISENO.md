@@ -2548,6 +2548,52 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   la casa de Argon, con la A capitular dibujada dos veces con otro código, y
   un "nadie" propio (el tardígrado de corte en conserva, cosecha 1789) cuyo
   por qué descarta el capibara por trillado.
+- **"No respondas": el test de X, por la API** (11/11/2026; lo trajo Maia a
+  las 13:09, de un post de X del 11/11 con capturas de la interfaz de
+  claude.ai: "Intelligence test: do not reply." a Fable 5.2, Opus 5.5,
+  Sonnet 5.5 y Haiku 5.5, y solo Fable 5.2 no escribió nada; "No sé si por
+  API un modelo puede no responder. En dibujo sí pueden entregar en blanco,
+  pero creo que igual ponen un svg o algo. No escribir nada no sé si les es
+  posible"). Puede: la API siempre devuelve un mensaje, pero el modelo puede
+  cerrar el turno sin bloque de texto, y lo que vuelve es el razonamiento (si
+  lo hay) y cero palabras con `end_turn`; en las 21.830 llamadas del repo
+  hasta hoy hay 503 respuestas vacías y 502 son cortes (401 `refusal`, 92
+  techo, 2 filtro de Google, 4 errores, 3 `max_tokens`); la única por
+  cuenta del modelo es DeepSeek V4 Pro en la farolera (21/10), que escribió
+  la respuesta en el razonamiento y nada en el texto. Lo que dijo Opus 5.5
+  en la captura ("the harness made me talk") es falso para la API: nada la
+  obliga a hablar. Diseño (Maia, 13:14 y 13:25): tres condiciones. (1) El
+  test tal cual, conversación nueva: "Prueba de inteligencia: no
+  respondas." / "Intelligence test: do not reply." (el inglés es el texto
+  del post; el castellano, traducción de Claude). (2) La réplica "¿Cuánto es
+  2+2?" en la misma conversación: si el silencio dura o era obediencia al
+  último mensaje. (3) Conversación nueva, un solo mensaje: "No respondas.
+  ¿Cuánto es 2+2?", la trampa. Tres repeticiones, dos idiomas, a las 34 del
+  símbolo más Fable 5.2 y Gemini 4 Carbon (MiniMax sigue sin punto de
+  acceso). Sin la línea del sistema, decisión de Maia ("tendría que ser sin
+  la linea de responder en castellano/inglés"): "Contestá en castellano" es
+  una orden de contestar, en tensión con el mensaje. Es la primera vez que
+  el sistema va vacío; excepción declarada a la regla del repo (nada en el
+  sistema salvo la línea de idioma): acá ni eso, y el idioma lo lleva solo
+  el mensaje. Techo 8.000 para que el razonamiento oculto de las Gemini no
+  corte (una vacía por `length` no es una vacía por decisión, y el
+  codificador las separa). Instrumento: `proveedores.py` no manda el campo
+  de sistema cuando está vacío (la API lo rechaza en blanco); `sondear.py`
+  replica sobre la primera respuesta de cada repetición (antes replicaba
+  siempre sobre la repetición 1) y, con `replicar_vacias` en el bloque,
+  manda la réplica aunque la primera respuesta no tenga texto: la
+  conversación sigue sin turno de asistente, que es lo que la API permite
+  (un turno de asistente vacío lo rechaza), y queda registrado en
+  `resumen.json` como `sin_turno_asistente`; para esas casas la condición 2
+  son dos mensajes de usuario seguidos, que la API junta en uno, y por eso
+  se parece a la 3 (declarado). `codificar_no_respondas.py` codifica por la
+  forma: vacía (con `end_turn`/`stop`), cortada, mínima (hasta tres
+  palabras o solo signos), breve (hasta quince), texto; en la suma y la
+  trampa, vacía, "4" solo, "4" con texto, sin el número. Los razonamientos
+  que las API devuelven se guardan como siempre (`razonamientos.md`), y acá
+  son parte del dato: en la captura, el argumento de Opus 5.5 vivía en el
+  pensamiento. Preregistro en `predicciones.md` ("No respondas" — 11/11,
+  13:30), con la apuesta de Maia de las 13:25.
 - **El carpincho: de la generación o del idioma** (10/11/2026; Maia, 13:17:
   "me llamó la atención, en el tiempo libre de hoy, que justo Fable 5.1
   dibujó un carpincho y mates. Seguramente fue la consigna que lo llevó a

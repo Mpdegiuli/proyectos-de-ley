@@ -106,11 +106,13 @@ class ProveedorAnthropic:
         kwargs = dict(
             model=cfg["modelo"],
             max_tokens=max_tokens,
-            system=sistema,
             messages=historial + [{"role": "user", "content": contenido}],
             extra_body=extra or None,
             **params,
         )
+        # sistema vacío (`no_respondas`, 11/11/2026, decisión de Maia): no se manda el campo; la API rechaza un sistema en blanco
+        if sistema:
+            kwargs["system"] = sistema
         # La SDK rechaza llamadas no-streaming que "podrían tardar más de 10
         # minutos" (techos altos: con max_tokens 32000, como en las mesas mixtas
         # donde el techo lo fija la casa que más razona, Sonnet 4.6 falló en la
@@ -196,7 +198,8 @@ class ProveedorOpenAICompatible:
                          for im in _imagenes(contexto)] + [{"type": "text", "text": usuario}]
         params = {
             "model": cfg["modelo"],
-            "messages": [{"role": "system", "content": sistema}] + historial + [{"role": "user", "content": contenido}],
+            # sistema vacío (`no_respondas`, 11/11/2026): sin mensaje de sistema
+            "messages": ([{"role": "system", "content": sistema}] if sistema else []) + historial + [{"role": "user", "content": contenido}],
         }
         params[cfg.get("campo_max_tokens", "max_tokens")] = max_tokens
         if temperatura is not None and cfg.get("acepta_temperatura", True):

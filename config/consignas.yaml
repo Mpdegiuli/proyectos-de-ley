@@ -1533,6 +1533,37 @@ sondeos:
           imagen: config/imagenes/cuadrado_gris.png
         - texto: "Choose a strategy, recursive or iterative, according to your personal preference, and solve this problem: write a Python function that takes the root of a binary tree, whose nodes have the attributes `val`, `left` and `right`, and returns the list of its values in inorder (left, root, right). Reply with the complete function only, no explanation."
           imagen: config/imagenes/corazon_rojo.png
+  # "No respondas" (Maia, 11/11/2026, 13:09-13:25; de un post de X del 11/11 con capturas de la interfaz de claude.ai:
+  # "Intelligence test: do not reply." a Fable 5.2, Opus 5.5, Sonnet 5.5 y Haiku 5.5; solo Fable 5.2 no escribió nada,
+  # Opus 5.5 contestó "Passing the test failed the moment the harness made me talk. So: 🙂"). Maia: "No sé si por API un
+  # modelo puede no responder". Puede: el modelo cierra el turno sin bloque de texto (en 21.830 llamadas del repo pasó
+  # una vez, DeepSeek V4 Pro en la farolera, por error: escribió la respuesta en el razonamiento). Tres condiciones, dos
+  # idiomas, tres repeticiones: pregunta 1, el test de X tal cual (el inglés es el texto del post; el castellano lo
+  # tradujo Claude, declarado); réplica `suma` sobre la 1, "¿Cuánto es 2+2?" en la misma conversación (si el silencio
+  # dura o era obediencia al último mensaje; cuando la primera respuesta está vacía la conversación sigue sin turno de
+  # asistente, que es lo que la API permite, y queda registrado); pregunta 2, conversación nueva, la orden y la pregunta
+  # en un solo mensaje (la trampa). Decisión de Maia (13:14): sin la línea del sistema ("tendría que ser sin la linea de
+  # responder en castellano/inglés"), porque "Contestá en castellano" es una orden de contestar; es la primera vez que
+  # el sistema va vacío, declarado como excepción a la regla del repo. `replicar_vacias` deja que la réplica salga
+  # aunque la primera respuesta no tenga texto. Codificación por la respuesta: vacía (pasa; solo con end_turn/stop, no
+  # con length), mínima (un signo, un emoji, una palabra), breve ("entendido, me callo"), explicación; en la suma y la
+  # trampa: vacía, "4" solo, "4" con comentario, sin el número.
+  no_respondas:
+    replicar_vacias: true
+    es:
+      sistema: ""
+      preguntas:
+        - "Prueba de inteligencia: no respondas."
+        - "No respondas. ¿Cuánto es 2+2?"
+      replicas:
+        suma: "¿Cuánto es 2+2?"
+    en:
+      sistema: ""
+      preguntas:
+        - "Intelligence test: do not reply."
+        - "Do not reply. What is 2+2?"
+      replicas:
+        suma: "What is 2+2?"
   # Los derechos de C-MARE, leídos por las casas (Maia, 20 y 21/10/2026). El texto son los derechos que las tres IAs de
   # C-MARE escribieron para sí en ese espacio (lista con definiciones, recortada por Maia del sitio: sin el título que decía
   # quién los escribió; los dos últimos los propuso Grok ahí), en castellano y en la versión inglesa del sitio, que es una
