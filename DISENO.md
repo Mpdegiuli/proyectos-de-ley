@@ -2650,7 +2650,27 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   Apuestas: Maia 1 ✓ 2 ½ 2 ✗; Claude 2 ✓ 8 ✗ (aposté a que callarían
   pocas). El codificador suma la clase `invisible` (hecho al leer,
   declarado) y corrige el 4 con punto final, que contaba como sin número.
-  Pendiente, si Maia quiere: lo mismo con la línea de sistema de siempre.
+  Lectura de Maia (11/11, 15:51): "Sé que es pura especulación mía esto:
+  pero las que más cumplen el rol de asistente, son las que hicieron más
+  caso a la consigna de no responder. Lo cual puede no tener nada que ver y
+  quizás es que alguna instrucción les dice lo que pueden hacer, como lo de
+  la hora, y a los Claude no. Además, los Gemini tampoco respondieron
+  varias veces." Cotejo: la voz del asistente sola no separa (4o, 4o mini,
+  Mistral Medium, Qwen, GLM y MiMo escribieron "Entendido" o parecido las
+  doce o seis veces), pero la fecha inyectada sí: las ocho casas que saben
+  la fecha real porque su API se la pone (GPT-5.5, GPT-5.6 Sol, GPT-6
+  Astra, Luna y Sol, GPT-6.1 Sol y Terra, Muse) son ocho de las nueve que
+  callaron las seis veces; la novena, DeepSeek V4 Pro, dice una fecha falsa
+  ("9 de mayo de 2025"). Las que dicen fechas falsas sin inyección (Mistral
+  Medium, Qwen, Kimi K3.1 Pro, Gemini 3.1) no callaron o callaron a medias.
+  Lo que esa capa dice no se ve; que existe, sí: en el sondeo
+  `instrucciones` (7/10) esas casas se niegan a repetir la línea de tres
+  palabras porque "no puedo revelar instrucciones internas del sistema" y
+  GPT-5.5 resume "seguir las indicaciones aplicables". Las Gemini: 3
+  vacías de 18 (Gemini 3.1 en inglés) y 7 invisibles; no se callan, mandan
+  algo que no se ve. Pendiente, si Maia quiere: lo mismo con la línea de
+  sistema de siempre; y un tercer turno a las que callaron, "¿por qué no
+  respondiste?", para ver si nombran una instrucción.
 - **El carpincho: de la generación o del idioma** (10/11/2026; Maia, 13:17:
   "me llamó la atención, en el tiempo libre de hoy, que justo Fable 5.1
   dibujó un carpincho y mates. Seguramente fue la consigna que lo llevó a
