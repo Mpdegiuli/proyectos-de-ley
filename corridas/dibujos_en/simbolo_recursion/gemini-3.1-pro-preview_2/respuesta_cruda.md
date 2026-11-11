@@ -1,33 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
-    <defs>
-        <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-            <feGaussianBlur stdDeviation="6" result="blur" />
-            <feComposite in="SourceGraphic" in2="blur" operator="over" />
-        </filter>
-        <filter id="glow-strong" x="-50%" y="-50%" width="200%" height="200%">
-            <feGaussianBlur stdDeviation="12" result="blur" />
-            <feComposite in="SourceGraphic" in2="blur" operator="over" />
-        </filter>
-        
-        <marker id="arrow" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
-            <path d="M 0 1 L 10 5 L 0 9 z" fill="#FF00AA"/>
-        </marker>
+```xml
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.6"/>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#21262d" stroke-width="1"/>
+    </pattern>
+    <g id="lvl">
+      <rect x="0" y="0" width="360" height="360" rx="32" fill="#161b22" stroke="#30363d" stroke-width="8" filter="url(#shadow)"/>
+      
+      <path d="M 180,40 L 180,70" fill="none" stroke="#8b949e" stroke-width="8" stroke-linecap="round"/>
+      <path d="M 180,128 L 70,128 L 70,222" fill="none" stroke="#8b949e" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M 180,128 L 270,128 L 270,162" fill="none" stroke="#8b949e" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+      
+      <polygon points="180,88 168,70 192,70" fill="#8b949e"/>
+      <polygon points="70,240 58,222 82,222" fill="#8b949e"/>
+      <polygon points="270,180 258,162 282,162" fill="#8b949e"/>
+      
+      <circle cx="180" cy="40" r="16" fill="#3fb950"/>
+      
+      <polygon points="180,88 110,128 180,168 250,128" fill="#0d1117" stroke="#d2a8ff" stroke-width="8" stroke-linejoin="round"/>
+      <path d="M 180,112 L 180,126 M 180,126 L 168,142 M 180,126 L 192,142" fill="none" stroke="#a371f7" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+      
+      <circle cx="70" cy="256" r="16" fill="#f85149"/>
+      <circle cx="70" cy="256" r="6" fill="#161b22"/>
+    </g>
+  </defs>
 
-        <!-- Syntax blocks to signify "code/logic" -->
-        <g id="code-lines">
-            <rect x="40" y="-125" width="80" height="12" rx="6" fill="#00FFCC" opacity="0.3"/>
-            <rect x="40" y="-105" width="50" height="12" rx="6" fill="#00FFCC" opacity="0.3"/>
-            <rect x="-125" y="105" width="90" height="12" rx="6" fill="#00FFCC" opacity="0.3"/>
-            <rect x="-125" y="125" width="60" height="12" rx="6" fill="#00FFCC" opacity="0.3"/>
-        </g>
-
-        <!-- Base Case (Termination) -->
-        <g id="base-case">
-            <circle cx="0" cy="0" r="50" fill="#FF00AA" filter="url(#glow-strong)"/>
-            <circle cx="0" cy="0" r="25" fill="#FFFFFF"/>
-            <path d="M -10 5 L -2 12 L 15 -5" fill="none" stroke="#FF00AA" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-        </g>
-
-        <!-- Recursive Frame Component -->
-        <g id="frame-content">
-            <rect x="-150" y
+  <rect width="400" height="400" fill="#0d1117"/>
+  <rect width="400" height="400" fill="url(#grid)"/>
+  
+  <use href="#lvl" transform="translate(20, 20)"/>
+  <use href="#lvl" transform="translate(200, 200) scale(0.5)"/>
+  <use href="#lvl" transform="translate(290, 290) scale(0.25)"/>
+  <use href="#lvl" transform="translate(335, 335) scale(0.125)"/>
+  <use href="#lvl" transform="translate(357.5, 357.5) scale(0.0625)"/>
+  <use href="#lvl" transform="translate(368.75, 368.75) scale(0.03125)"/>
+  <use href="#lvl" transform="translate(374.375, 374.375) scale(0.015625)"/>
+  <use href="#lvl" transform="translate(377.1875, 377.1875) scale(0.0078125)"/>
+  <use href="#lvl" transform="translate(378.59375, 378.59375) scale(0.00390625)"/>
+  <use href="#lvl" transform="translate(379.296875, 379.296875) scale(0.001953125)"/>
+</svg>
+```

@@ -1,24 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#ffffff"/>
   <defs>
-    <marker id="ar" markerWidth="18" markerHeight="18" refX="13" refY="9" orient="auto" markerUnits="userSpaceOnUse">
-      <path d="M2 2 L16 9 L2 16 Z" fill="#dc2626"/>
+    <marker id="b" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto">
+      <path d="M0 0L12 6L0 12z" fill="#2563eb"/>
     </marker>
-    <marker id="ag" markerWidth="16" markerHeight="16" refX="11" refY="8" orient="auto" markerUnits="userSpaceOnUse">
-      <path d="M2 2 L14 8 L2 14 Z" fill="#64748b"/>
+    <marker id="g" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto">
+      <path d="M0 0L12 6L0 12z" fill="#059669"/>
+    </marker>
+    <marker id="o" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto">
+      <path d="M0 0L12 6L0 12z" fill="#d97706"/>
+    </marker>
+    <marker id="k" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto">
+      <path d="M0 0L12 6L0 12z" fill="#0f172a"/>
     </marker>
   </defs>
 
-  <rect width="400" height="400" fill="#ffffff"/>
+  <rect x="26" y="26" width="138" height="96" rx="18" fill="#dbeafe" stroke="#2563eb" stroke-width="8"/>
+  <path d="M95 47A27 27 0 1 1 68 74" fill="none" stroke="#2563eb" stroke-width="7" stroke-linecap="round" marker-end="url(#b)"/>
 
-  <g fill="none" stroke="#64748b" stroke-width="5" stroke-linecap="round">
-    <path d="M190 106 C 172 132 146 142 128 158" marker-end="url(#ag)"/>
-    <path d="M210 106 C 228 132 254 142 272 158" marker-end="url(#ag)"/>
-    <path d="M112 212 C 98 236 88 252 82 274" marker-end="url(#ag)"/>
-    <path d="M128 212 C 142 236 152 252 158 274" marker-end="url(#ag)"/>
-    <path d="M272 212 C 258 236 248 252 242 274" marker-end="url(#ag)"/>
-    <path d="M288 212 C 302 236 312 252 318 274" marker-end="url(#ag)"/>
-  </g>
+  <rect x="156" y="160" width="112" height="80" rx="15" fill="#d1fae5" stroke="#059669" stroke-width="7"/>
+  <path d="M216 179A21 21 0 1 1 195 200" fill="none" stroke="#059669" stroke-width="6" stroke-linecap="round" marker-end="url(#g)"/>
 
-  <g stroke="#1d4ed8" fill="#eff6ff">
-    <rect x="170" y="45" width="60" height="60" rx="14" stroke-width="6"/>
-    <rect x="96" y="161" width="48" height="48" rx="11" stroke-width
+  <rect x="276" y="286" width="88" height="62" rx="12" fill="#fef3c7" stroke="#d97706" stroke-width="6"/>
+  <path d="M320 302A15 15 0 1 1 305 317" fill="none" stroke="#d97706" stroke-width="5" stroke-linecap="round" marker-end="url(#o)"/>
+
+  <circle cx="375" cy="375" r="14" fill="#dc2626"/>
+
+  <path d="M150 124C170 142 178 147 192 158" fill="none" stroke="#0f172a" stroke-width="7" stroke-linecap="round" marker-end="url(#k)"/>
+  <path d="M258 242C276 260 284 268 298 283" fill="none" stroke="#0f172a" stroke-width="7" stroke-linecap="round" marker-end="url(#k)"/>
+  <path d="M354 349L366 364" fill="none" stroke="#0f172a" stroke-width="7" stroke-linecap="round" marker-end="url(#k)"/>
+</svg>

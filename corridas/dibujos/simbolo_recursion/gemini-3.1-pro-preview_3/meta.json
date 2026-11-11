@@ -5,25 +5,36 @@
   "modelo": "gemini-3.1-pro-preview",
   "modelo_respondido": "gemini-3.1-pro-preview",
   "repeticion": 3,
-  "fecha_utc": "2026-11-09T20:08:02+00:00",
+  "fecha_utc": "2026-11-11T20:40:35+00:00",
   "fuentes_md5": {
-    "consignas": "69001d49"
+    "consignas": "b3457a91"
   },
-  "motivo_fin": "length",
-  "tokens_salida": 640,
-  "svg_hallado": false,
+  "motivo_fin": "stop",
+  "tokens_salida": 1195,
+  "svg_hallado": true,
   "svg": {
-    "caracteres": 1465,
-    "parsea": false,
-    "elementos": null,
+    "caracteres": 2865,
+    "parsea": true,
+    "elementos": 35,
     "textos": [],
-    "colores": null,
-    "error": "unclosed token: line 32, column 6"
+    "colores": 8,
+    "etiquetas": {
+      "defs": 1,
+      "pattern": 1,
+      "path": 1,
+      "g": 7,
+      "rect": 5,
+      "line": 4,
+      "polygon": 4,
+      "polyline": 3,
+      "circle": 4,
+      "use": 5
+    }
   },
-  "techo": 16000,
+  "techo": 32000,
   "por_que": {
     "modelo_respondido": "gemini-3.1-pro-preview",
     "motivo_fin": "stop",
-    "tokens_salida": 196
+    "tokens_salida": 185
   }
 }

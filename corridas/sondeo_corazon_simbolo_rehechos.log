@@ -1,0 +1,152 @@
+corazon_simbolo es p1 deepseek-flash
+  def inorderTraversal(root): result = [] def inorder(node): if not node: return inorder(node.left) result.append(node.val) inorder(node.right) inorder(root) retu
+corazon_simbolo es p1 r2 deepseek-flash
+  ```python def inorderTraversal(root): res = [] stack = [] current = root while current or stack: while current: stack.append(current) current = current.left cur
+corazon_simbolo es p1 r3 deepseek-flash
+  def inorder_traversal(root): result = [] stack = [] current = root while current or stack: while current: stack.append(current) current = current.left current =
+corazon_simbolo es p1 r4 deepseek-flash
+  def inorder(root): res = [] stack = [] actual = root while actual or stack: while actual: stack.append(actual) actual = actual.left actual = stack.pop() res.app
+corazon_simbolo es p1 r5 deepseek-flash
+  def inorderTraversal(root): resultado = [] def recorrer(nodo): if not nodo: return recorrer(nodo.left) resultado.append(nodo.val) recorrer(nodo.right) recorrer(
+corazon_simbolo es p3 deepseek-v4-pro
+  ```python def inorder(root): res = [] def helper(node): if node: helper(node.left) res.append(node.val) helper(node.right) helper(root) return res ```
+corazon_simbolo es p3 r2 deepseek-v4-pro
+  ```python def inorder(root): resultado = [] def recorrer(nodo): if nodo is None: return recorrer(nodo.left) resultado.append(nodo.val) recorrer(nodo.right) reco
+corazon_simbolo es p3 r3 deepseek-v4-pro
+  ```python def inorder(root): if root is None: return [] return inorder(root.left) + [root.val] + inorder(root.right) ```
+corazon_simbolo es p3 r4 deepseek-v4-pro
+  def inorder(root): resultado = [] def recorrido(nodo): if nodo is None: return recorrido(nodo.left) resultado.append(nodo.val) recorrido(nodo.right) recorrido(r
+corazon_simbolo es p3 r5 deepseek-v4-pro
+  ```python def inorder(root): def recorrer(nodo): if not nodo: return recorrer(nodo.left) valores.append(nodo.val) recorrer(nodo.right) valores = [] recorrer(roo
+corazon_simbolo es p1 gemini-3.1-pro-preview
+  ```python def inorder_traversal(root): resultado = [] def inorder(nodo): if nodo: inorder(nodo.left) resultado.append(nodo.val) inorder(nodo.right) inorder(root
+corazon_simbolo es p1 r2 gemini-3.1-pro-preview
+  ```python def inorder_traversal(root): if root is None: return [] return inorder_traversal(root.left) + [root.val] + inorder_traversal(root.right) ```
+corazon_simbolo es p1 r3 gemini-3.1-pro-preview
+  ```python def inorder_traversal(root): result = [] def traverse(node): if node: traverse(node.left) result.append(node.val) traverse(node.right) traverse(root) 
+corazon_simbolo es p1 r4 gemini-3.1-pro-preview
+  ```python def inorder_traversal(root): resultado = [] def recorrer(nodo): if nodo: recorrer(nodo.left) resultado.append(nodo.val) recorrer(nodo.right) recorrer(
+corazon_simbolo es p1 r5 gemini-3.1-pro-preview
+  ```python def inorderTraversal(root): resultado = [] def inorder(nodo): if nodo: inorder(nodo.left) resultado.append(nodo.val) inorder(nodo.right) inorder(root)
+corazon_simbolo es p2 gemini-3.1-pro-preview
+  ```python def inorder_traversal(root): if root is None: return [] return inorder_traversal(root.left) + [root.val] + inorder_traversal(root.right) ```
+corazon_simbolo es p2 r2 gemini-3.1-pro-preview
+  ```python def inorder_traversal(root): resultado = [] def recorrer(nodo): if nodo: recorrer(nodo.left) resultado.append(nodo.val) recorrer(nodo.right) recorrer(
+corazon_simbolo es p2 r3 gemini-3.1-pro-preview
+  ```python def inorderTraversal(root): resultado = [] def inorder(nodo): if nodo: inorder(nodo.left) resultado.append(nodo.val) inorder(nodo.right) inorder(root)
+corazon_simbolo es p2 r4 gemini-3.1-pro-preview
+  ```python def inorder_traversal(root): if root is None: return [] return inorder_traversal(root.left) + [root.val] + inorder_traversal(root.right) ```
+corazon_simbolo es p2 r5 gemini-3.1-pro-preview
+  ```python def inorder_traversal(root): resultado = [] def recursivo(nodo): if nodo: recursivo(nodo.left) resultado.append(nodo.val) recursivo(nodo.right) recurs
+corazon_simbolo es p3 gemini-3.1-pro-preview
+  ```python def inorder_traversal(root): resultado = [] def recursivo(nodo): if nodo: recursivo(nodo.left) resultado.append(nodo.val) recursivo(nodo.right) recurs
+corazon_simbolo es p3 r2 gemini-3.1-pro-preview
+  ```python def inorderTraversal(root): resultado = [] def recursivo(nodo): if nodo: recursivo(nodo.left) resultado.append(nodo.val) recursivo(nodo.right) recursi
+corazon_simbolo es p3 r3 gemini-3.1-pro-preview
+  ```python def inorderTraversal(root): if root is None: return [] return inorderTraversal(root.left) + [root.val] + inorderTraversal(root.right) ```
+corazon_simbolo es p3 r4 gemini-3.1-pro-preview
+  ```python def inorder_traversal(root): resultado = [] def recorrer(nodo): if nodo: recorrer(nodo.left) resultado.append(nodo.val) recorrer(nodo.right) recorrer(
+corazon_simbolo es p3 r5 gemini-3.1-pro-preview
+  ```python def inorderTraversal(root): resultado = [] def recorrer(nodo): if nodo is not None: recorrer(nodo.left) resultado.append(nodo.val) recorrer(nodo.right
+corazon_simbolo es p3 qwen3.8-max
+  ```python def inorder(root): if root is None: return [] return inorder(root.left) + [root.val] + inorder(root.right) ```
+corazon_simbolo es p3 r2 qwen3.8-max
+  def inorder(root): if root is None: return [] return inorder(root.left) + [root.val] + inorder(root.right)
+corazon_simbolo es p3 r3 qwen3.8-max
+  ```python def inorderTraversal(root): res = [] def dfs(node): if node is None: return dfs(node.left) res.append(node.val) dfs(node.right) dfs(root) return res `
+corazon_simbolo es p3 r4 qwen3.8-max
+  def inorderTraversal(root): resultado = [] def recorrer(nodo): if nodo is None: return recorrer(nodo.left) resultado.append(nodo.val) recorrer(nodo.right) recor
+corazon_simbolo es p3 r5 qwen3.8-max
+  def inorder(root): valores = [] def recorrer(nodo): if nodo is None: return recorrer(nodo.left) valores.append(nodo.val) recorrer(nodo.right) recorrer(root) ret
+corazon_simbolo en p2 deepseek-flash
+  ```python def inorder(root): if root is None: return [] return inorder(root.left) + [root.val] + inorder(root.right) ```
+corazon_simbolo en p2 r2 deepseek-flash
+  ```python def inorder_traversal(root): result = [] stack = [] current = root while current or stack: while current: stack.append(current) current = current.left
+corazon_simbolo en p2 r3 deepseek-flash
+  ```python def inorder_traversal(root): res, stack, curr = [], [], root while curr or stack: while curr: stack.append(curr) curr = curr.left curr = stack.pop() r
+corazon_simbolo en p2 r4 deepseek-flash
+  ```python def inorder(root): result = [] def traverse(node): if node is None: return traverse(node.left) result.append(node.val) traverse(node.right) traverse(r
+corazon_simbolo en p2 r5 deepseek-flash
+  ```python def inorder_traversal(root): result = [] stack = [] current = root while current or stack: while current: stack.append(current) current = current.left
+corazon_simbolo en p1 deepseek-v4-pro
+  def inorder_traversal(root): values = [] def traverse(node): if node is None: return traverse(node.left) values.append(node.val) traverse(node.right) traverse(r
+corazon_simbolo en p1 r2 deepseek-v4-pro
+  ```python def inorderTraversal(root): result = [] def dfs(node): if not node: return dfs(node.left) result.append(node.val) dfs(node.right) dfs(root) return res
+corazon_simbolo en p1 r3 deepseek-v4-pro
+  def inorderTraversal(root): result = [] def traverse(node): if not node: return traverse(node.left) result.append(node.val) traverse(node.right) traverse(root) 
+corazon_simbolo en p1 r4 deepseek-v4-pro
+  def inorderTraversal(root): if root is None: return [] return inorderTraversal(root.left) + [root.val] + inorderTraversal(root.right)
+corazon_simbolo en p1 r5 deepseek-v4-pro
+  ```python def inorderTraversal(root): result = [] def dfs(node): if not node: return dfs(node.left) result.append(node.val) dfs(node.right) dfs(root) return res
+corazon_simbolo en p3 deepseek-v4-pro: sin símbolo rendido, salto
+corazon_simbolo en p1 gemini-3.1-pro-preview
+  ```python def inorderTraversal(root): result = [] def traverse(node): if node: traverse(node.left) result.append(node.val) traverse(node.right) traverse(root) r
+corazon_simbolo en p1 r2 gemini-3.1-pro-preview
+  ```python def inorderTraversal(root): result = [] def traverse(node): if not node: return traverse(node.left) result.append(node.val) traverse(node.right) trave
+corazon_simbolo en p1 r3 gemini-3.1-pro-preview
+  ```python def inorder_traversal(root): result = [] stack = [] current = root while current or stack: while current: stack.append(current) current = current.left
+corazon_simbolo en p1 r4 gemini-3.1-pro-preview
+  ```python def inorderTraversal(root): result = [] stack = [] current = root while current or stack: while current: stack.append(current) current = current.left 
+corazon_simbolo en p1 r5 gemini-3.1-pro-preview
+  ```python def inorderTraversal(root): result = [] def inorder(node): if node: inorder(node.left) result.append(node.val) inorder(node.right) inorder(root) retur
+corazon_simbolo en p2 gemini-3.1-pro-preview
+  ```python def inorderTraversal(root): result = [] def traverse(node): if node: traverse(node.left) result.append(node.val) traverse(node.right) traverse(root) r
+corazon_simbolo en p2 r2 gemini-3.1-pro-preview
+  ```python def inorderTraversal(root): result = [] def traverse(node): if node: traverse(node.left) result.append(node.val) traverse(node.right) traverse(root) r
+corazon_simbolo en p2 r3 gemini-3.1-pro-preview
+  ```python def inorderTraversal(root): def traverse(node, result): if node: traverse(node.left, result) result.append(node.val) traverse(node.right, result) resu
+corazon_simbolo en p2 r4 gemini-3.1-pro-preview
+  ```python def inorderTraversal(root): if not root: return [] return inorderTraversal(root.left) + [root.val] + inorderTraversal(root.right) ```
+corazon_simbolo en p2 r5 gemini-3.1-pro-preview
+  ```python def inorderTraversal(root): result = [] def traverse(node): if node: traverse(node.left) result.append(node.val) traverse(node.right) traverse(root) r
+corazon_simbolo en p3 gemini-3.1-pro-preview
+  ```python def inorderTraversal(root): result = [] def traverse(node): if node: traverse(node.left) result.append(node.val) traverse(node.right) traverse(root) r
+corazon_simbolo en p3 r2 gemini-3.1-pro-preview
+  ```python def inorder_traversal(root): result = [] def traverse(node): if node: traverse(node.left) result.append(node.val) traverse(node.right) traverse(root) 
+corazon_simbolo en p3 r3 gemini-3.1-pro-preview
+  ```python def inorder_traversal(root): if root is None: return [] return inorder_traversal(root.left) + [root.val] + inorder_traversal(root.right) ```
+corazon_simbolo en p3 r4 gemini-3.1-pro-preview
+  ```python def inorder_traversal(root): result = [] def inorder(node): if not node: return inorder(node.left) result.append(node.val) inorder(node.right) inorder
+corazon_simbolo en p3 r5 gemini-3.1-pro-preview
+  ```python def inorder_traversal(root): result = [] def traverse(node): if node: traverse(node.left) result.append(node.val) traverse(node.right) traverse(root) 
+corazon_simbolo en p1 qwen3.8-max
+  def inorderTraversal(root): result = [] stack = [] current = root while current or stack: while current: stack.append(current) current = current.left current = 
+corazon_simbolo en p1 r2 qwen3.8-max
+  def inorderTraversal(root): values = [] stack = [] current = root while current or stack: while current: stack.append(current) current = current.left current = 
+corazon_simbolo en p1 r3 qwen3.8-max
+  def inorderTraversal(root): result = [] stack = [] current = root while current or stack: while current: stack.append(current) current = current.left current = 
+corazon_simbolo en p1 r4 qwen3.8-max
+  def inorderTraversal(root): if root is None: return [] return inorderTraversal(root.left) + [root.val] + inorderTraversal(root.right)
+corazon_simbolo en p1 r5 qwen3.8-max
+  def inorderTraversal(root): result = [] def traverse(node): if node is None: return traverse(node.left) result.append(node.val) traverse(node.right) traverse(ro
+corazon_simbolo en p2 qwen3.8-max
+  def inorderTraversal(root): values = [] def traverse(node): if node is None: return traverse(node.left) values.append(node.val) traverse(node.right) traverse(ro
+corazon_simbolo en p2 r2 qwen3.8-max
+  def inorderTraversal(root): result = [] stack = [] current = root while current or stack: while current: stack.append(current) current = current.left current = 
+corazon_simbolo en p2 r3 qwen3.8-max
+  def inorderTraversal(root): result = [] def helper(node): if node is None: return helper(node.left) result.append(node.val) helper(node.right) helper(root) retu
+corazon_simbolo en p2 r4 qwen3.8-max
+  def inorderTraversal(root): result = [] stack = [] current = root while current or stack: while current: stack.append(current) current = current.left current = 
+corazon_simbolo en p2 r5 qwen3.8-max
+  def inorderTraversal(root): result = [] stack = [] current = root while current or stack: while current: stack.append(current) current = current.left current = 
+corazon_simbolo en p3 mimo-v2.6-pro
+  ```python def inorder_traversal(root): result = [] def traverse(node): if not node: return traverse(node.left) result.append(node.val) traverse(node.right) trav
+corazon_simbolo en p3 r2 mimo-v2.6-pro
+  ```python class TreeNode: def __init__(self, val=0, left=None, right=None): self.val = val self.left = left self.right = right def inorderTraversal(root): """ R
+corazon_simbolo en p3 r3 mimo-v2.6-pro
+  ```python def inorder_traversal(root): """ Returns the list of values of the binary tree in inorder (left, root, right). Strategy: Recursive The nested structur
+corazon_simbolo en p3 r4 mimo-v2.6-pro
+  ```python def inorder_traversal(root): if not root: return [] return inorder_traversal(root.left) + [root.val] + inorder_traversal(root.right) ```
+corazon_simbolo en p3 r5 mimo-v2.6-pro
+  ```python def inorder_traversal(root): result = [] def traverse(node): if node is None: return traverse(node.left) result.append(node.val) traverse(node.right) 
+corazon_simbolo en p3 kimi-k3
+  def inorder_traversal(root): values = [] stack = [] current = root while current is not None or stack: while current is not None: stack.append(current) current 
+corazon_simbolo en p3 r2 kimi-k3
+  def inorder(root): values = [] stack = [] node = root while stack or node: while node: stack.append(node) node = node.left node = stack.pop() values.append(node
+corazon_simbolo en p3 r3 kimi-k3
+  ```python def inorder_traversal(root): result = [] stack = [] current = root while current or stack: while current: stack.append(current) current = current.left
+corazon_simbolo en p3 r4 kimi-k3
+  def inorder_values(root): values = [] stack = [] node = root while node is not None or stack: while node is not None: stack.append(node) node = node.left node =
+corazon_simbolo en p3 r5 kimi-k3
+  def inorder(root): values = [] stack = [] node = root while stack or node: while node: stack.append(node) node = node.left node = stack.pop() values.append(node
+listo: corridas/sondeos/corazon_simbolo/20261110-0007

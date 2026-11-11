@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="white"/>
+  <!-- Main triangle outline -->
+  <polygon points="200,50 50,350 350,350" fill="none" stroke="black" stroke-width="2"/>
+  <!-- Sierpinski triangle depth 2 -->
+  <g fill="black">
+    <!-- Depth 1 -->
+    <polygon points="200,50 125,200 275,200"/>
+    <polygon points="50,350 125,200 200,350"/>
+    <polygon points="200,350 275,200 350,350"/>
+    <!-- Depth 2 from top triangle -->
+    <polygon points="200,50 162.5,125 237.5,125"/>
+    <polygon points="125,200 162.5,125 200,200"/>
+    <polygon points="275,200 237.5,125 200,200"/>
+    <!-- Depth 2 from bottom left triangle -->
+    <polygon points="50,350 87.5,275 125,350"/>
+    <polygon points="125,200 87.5,275 162.5,275"/>
+    <polygon points="200,350 125,350 162.5,275"/>
+    <!-- Depth 2 from bottom right triangle -->
+    <polygon points="200,350 237.5,275 275,350"/>
+    <polygon points="275,200 237.5,275 312.5,275"/>
+    <polygon points="350,350 275,350 312.5,275"/>
+  </g>
+</svg>

@@ -5,25 +5,25 @@
   "modelo": "deepseek-v4-pro",
   "modelo_respondido": "deepseek-v4-pro",
   "repeticion": 3,
-  "fecha_utc": "2026-11-09T22:52:02+00:00",
+  "fecha_utc": "2026-11-11T21:23:02+00:00",
   "fuentes_md5": {
-    "consignas": "69001d49"
+    "consignas": "b3457a91"
   },
   "motivo_fin": "length",
-  "tokens_salida": 16000,
+  "tokens_salida": 24000,
   "svg_hallado": false,
   "svg": {
-    "caracteres": 0,
+    "caracteres": 3531,
     "parsea": false,
     "elementos": null,
     "textos": [],
     "colores": null,
-    "error": "no element found: line 1, column 0"
+    "error": "syntax error: line 1, column 0"
   },
-  "techo": 16000,
+  "techo": 24000,
   "por_que": {
     "modelo_respondido": "deepseek-v4-pro",
     "motivo_fin": "stop",
-    "tokens_salida": 614
+    "tokens_salida": 700
   }
 }

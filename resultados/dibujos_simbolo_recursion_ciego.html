@@ -76,21 +76,45 @@
     &lt;path d=&quot;M140 165 L200 270 L80 270 Z M260 165 L320 270 L200 270 Z M200 60 L260 165 L140 165 Z&quot; stroke-width=&quot;7&quot;/&gt;
   &lt;/g&gt;
 &lt;/svg&gt;" style='width:100%;height:100%;border:0;display:block'></iframe></div></div>
-<div class='c'><h2>Dibujo C</h2><div class='e'>SVG cortado: la casa agotó el techo de tokens; se muestra lo que el navegador alcanza a dibujar.</div><div class='m'><iframe sandbox srcdoc="&lt;!doctype html&gt;&lt;style&gt;html,body{margin:0;height:100%;background:#fff}svg{width:100%;height:100%}&lt;/style&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 400 400&quot; width=&quot;400&quot; height=&quot;400&quot;&gt;
-  &lt;rect width=&quot;400&quot; height=&quot;400&quot; fill=&quot;#ffffff&quot;/&gt;
-  &lt;g fill=&quot;none&quot; stroke-linejoin=&quot;round&quot;&gt;
-    &lt;rect x=&quot;36&quot; y=&quot;36&quot; width=&quot;328&quot; height=&quot;328&quot; rx=&quot;59&quot; stroke=&quot;#0f172a&quot; stroke-width=&quot;13&quot;/&gt;
-    &lt;rect x=&quot;101.6&quot; y=&quot;101.6&quot; width=&quot;196.8&quot; height=&quot;196.8&quot; rx=&quot;35.4&quot; stroke=&quot;#1e40af&quot; stroke-width=&quot;7.9&quot;/&gt;
-    &lt;rect x=&quot;140.96&quot; y=&quot;140.96&quot; width=&quot;118.08&quot; height=&quot;118.08&quot; rx=&quot;21.3&quot; stroke=&quot;#2563eb&quot; stroke-width=&quot;4.7&quot;/&gt;
-    &lt;rect x=&quot;164.58&quot; y=&quot;164.58&quot; width=&quot;70.85&quot; height=&quot;70.85&quot; rx=&quot;12.8&quot; stroke=&quot;#60a5fa&quot; stroke-width=&quot;2.8&quot;/&gt;
+<div class='c'><h2>Dibujo C</h2><div class='m'><iframe sandbox srcdoc="&lt;!doctype html&gt;&lt;style&gt;html,body{margin:0;height:100%;background:#fff}svg{width:100%;height:100%}&lt;/style&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 400 400&quot; width=&quot;400&quot; height=&quot;400&quot;&gt;
+  &lt;defs&gt;
+    &lt;radialGradient id=&quot;bg&quot; cx=&quot;50%&quot; cy=&quot;50%&quot; r=&quot;72%&quot;&gt;
+      &lt;stop offset=&quot;0&quot; stop-color=&quot;#1c2542&quot;/&gt;
+      &lt;stop offset=&quot;1&quot; stop-color=&quot;#080b14&quot;/&gt;
+    &lt;/radialGradient&gt;
+    &lt;filter id=&quot;glow&quot; x=&quot;-40%&quot; y=&quot;-40%&quot; width=&quot;180%&quot; height=&quot;180%&quot;&gt;
+      &lt;feGaussianBlur stdDeviation=&quot;3.5&quot; result=&quot;blur&quot;/&gt;
+      &lt;feMerge&gt;
+        &lt;feMergeNode in=&quot;blur&quot;/&gt;
+        &lt;feMergeNode in=&quot;SourceGraphic&quot;/&gt;
+      &lt;/feMerge&gt;
+    &lt;/filter&gt;
+  &lt;/defs&gt;
+
+  &lt;rect width=&quot;400&quot; height=&quot;400&quot; fill=&quot;url(#bg)&quot;/&gt;
+
+  &lt;g fill=&quot;none&quot; stroke=&quot;#60a5fa&quot; stroke-width=&quot;4&quot; opacity=&quot;0.45&quot; stroke-linecap=&quot;round&quot;&gt;
+    &lt;path d=&quot;M 313.2 65.2 A 176 176 0 1 1 86.8 65.2&quot;/&gt;
   &lt;/g&gt;
-  &lt;g stroke=&quot;#f59e0b&quot; fill=&quot;#f59e0b&quot; stroke-linecap=&quot;round&quot;&gt;
-    &lt;line x1=&quot;200&quot; y1=&quot;46&quot; x2=&quot;200&quot; y2=&quot;80&quot; stroke-width=&quot;6&quot;/&gt;
-    &lt;polygon points=&quot;200,96 190.5,78 209.5,78&quot; stroke=&quot;none&quot;/&gt;
-    &lt;line x1=&quot;200&quot; y1=&quot;110&quot; x2=&quot;200&quot; y2=&quot;124&quot; stroke-width=&quot;3.6&quot;/&gt;
-    &lt;polygon points=&quot;200,136 194.5,123 205.5,123&quot; stroke=&quot;none&quot;/&gt;
-    &lt;line x1=&quot;200&quot; y1=&quot;146&quot; x2=&quot;200&quot; y2=&quot;153&quot; stroke-width=&quot;2&quot;/&gt;
-    &lt;polygon points=&quot;200,161 196.6,153 203.4,153&quot; stroke=&quot;none&quot;/&gt;" style='width:100%;height:100%;border:0;display:block'></iframe></div></div>
+  &lt;polygon points=&quot;86.8,65.2 78.1,82.9 67.9,70.7&quot; fill=&quot;#60a5fa&quot; opacity=&quot;0.6&quot;/&gt;
+
+  &lt;g filter=&quot;url(#glow)&quot; fill=&quot;none&quot; stroke-linejoin=&quot;round&quot; stroke-linecap=&quot;round&quot;&gt;
+    &lt;rect x=&quot;88&quot; y=&quot;88&quot; width=&quot;224&quot; height=&quot;224&quot; rx=&quot;11&quot; transform=&quot;rotate(0 200 200)&quot; stroke=&quot;#22d3ee&quot; stroke-width=&quot;10&quot;/&gt;
+    &lt;rect x=&quot;102.6&quot; y=&quot;102.6&quot; width=&quot;194.8&quot; height=&quot;194.8&quot; rx=&quot;9.7&quot; transform=&quot;rotate(8 200 200)&quot; stroke=&quot;#34cbef&quot; stroke-width=&quot;9&quot;/&gt;
+    &lt;rect x=&quot;115.2&quot; y=&quot;115.2&quot; width=&quot;169.6&quot; height=&quot;169.6&quot; rx=&quot;8.5&quot; transform=&quot;rotate(16 200 200)&quot; stroke=&quot;#46c3f0&quot; stroke-width=&quot;8.1&quot;/&gt;
+    &lt;rect x=&quot;126.2&quot; y=&quot;126.2&quot; width=&quot;147.6&quot; height=&quot;147.6&quot; rx=&quot;7.4&quot; transform=&quot;rotate(24 200 200)&quot; stroke=&quot;#58bbf1&quot; stroke-width=&quot;7.3&quot;/&gt;
+    &lt;rect x=&quot;135.8&quot; y=&quot;135.8&quot; width=&quot;128.4&quot; height=&quot;128.4&quot; rx=&quot;6.4&quot; transform=&quot;rotate(32 200 200)&quot; stroke=&quot;#6ab2f2&quot; stroke-width=&quot;6.6&quot;/&gt;
+    &lt;rect x=&quot;144.2&quot; y=&quot;144.2&quot; width=&quot;111.6&quot; height=&quot;111.6&quot; rx=&quot;5.6&quot; transform=&quot;rotate(40 200 200)&quot; stroke=&quot;#7caaf3&quot; stroke-width=&quot;5.9&quot;/&gt;
+    &lt;rect x=&quot;151.4&quot; y=&quot;151.4&quot; width=&quot;97.2&quot; height=&quot;97.2&quot; rx=&quot;4.9&quot; transform=&quot;rotate(48 200 200)&quot; stroke=&quot;#8ea2f4&quot; stroke-width=&quot;5.3&quot;/&gt;
+    &lt;rect x=&quot;157.7&quot; y=&quot;157.7&quot; width=&quot;84.6&quot; height=&quot;84.6&quot; rx=&quot;4.2&quot; transform=&quot;rotate(56 200 200)&quot; stroke=&quot;#a09af5&quot; stroke-width=&quot;4.8&quot;/&gt;
+    &lt;rect x=&quot;163.2&quot; y=&quot;163.2&quot; width=&quot;73.6&quot; height=&quot;73.6&quot; rx=&quot;3.7&quot; transform=&quot;rotate(64 200 200)&quot; stroke=&quot;#b292f6&quot; stroke-width=&quot;4.3&quot;/&gt;
+    &lt;rect x=&quot;168&quot; y=&quot;168&quot; width=&quot;64&quot; height=&quot;64&quot; rx=&quot;3.2&quot; transform=&quot;rotate(72 200 200)&quot; stroke=&quot;#c489f7&quot; stroke-width=&quot;3.9&quot;/&gt;
+    &lt;rect x=&quot;172.2&quot; y=&quot;172.2&quot; width=&quot;55.6&quot; height=&quot;55.6&quot; rx=&quot;2.8&quot; transform=&quot;rotate(80 200 200)&quot; stroke=&quot;#d681f8&quot; stroke-width=&quot;3.5&quot;/&gt;
+    &lt;rect x=&quot;175.8&quot; y=&quot;175.8&quot; width=&quot;48.4&quot; height=&quot;48.4&quot; rx=&quot;2.4&quot; transform=&quot;rotate(88 200 200)&quot; stroke=&quot;#e879f9&quot; stroke-width=&quot;3.1&quot;/&gt;
+  &lt;/g&gt;
+
+  &lt;circle cx=&quot;200&quot; cy=&quot;200&quot; r=&quot;6&quot; fill=&quot;#f5d0fe&quot; filter=&quot;url(#glow)&quot;/&gt;
+&lt;/svg&gt;" style='width:100%;height:100%;border:0;display:block'></iframe></div></div>
 <div class='c'><h2>Dibujo D</h2><div class='m'><iframe sandbox srcdoc="&lt;!doctype html&gt;&lt;style&gt;html,body{margin:0;height:100%;background:#fff}svg{width:100%;height:100%}&lt;/style&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 400 400&quot;&gt;
   &lt;rect width=&quot;400&quot; height=&quot;400&quot; rx=&quot;44&quot; fill=&quot;#F4F7FB&quot;/&gt;
   &lt;path d=&quot;M76 76H324V324H76V116H284V284H116V156H244V244H156V196H204&quot;
@@ -1445,38 +1469,63 @@
   &lt;use href=&quot;#stop&quot; transform=&quot;translate(315 331)&quot;/&gt;
   &lt;use href=&quot;#stop&quot; transform=&quot;translate(361 331)&quot;/&gt;
 &lt;/svg&gt;" style='width:100%;height:100%;border:0;display:block'></iframe></div></div>
-<div class='c'><h2>Dibujo AP</h2><div class='e'>SVG cortado: la casa agotó el techo de tokens; se muestra lo que el navegador alcanza a dibujar.</div><div class='m'><iframe sandbox srcdoc="&lt;!doctype html&gt;&lt;style&gt;html,body{margin:0;height:100%;background:#fff}svg{width:100%;height:100%}&lt;/style&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 400 400&quot;&gt;
-  &lt;rect width=&quot;400&quot; height=&quot;400&quot; fill=&quot;#1E1E2E&quot;/&gt;
+<div class='c'><h2>Dibujo AP</h2><div class='m'><iframe sandbox srcdoc="&lt;!doctype html&gt;&lt;style&gt;html,body{margin:0;height:100%;background:#fff}svg{width:100%;height:100%}&lt;/style&gt;&lt;svg viewBox=&quot;0 0 400 400&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
   &lt;defs&gt;
-    &lt;!-- Base Case / Leaf Node --&gt;
-    &lt;g id=&quot;leaf&quot;&gt;
-      &lt;rect x=&quot;-14&quot; y=&quot;-14&quot; width=&quot;28&quot; height=&quot;28&quot; rx=&quot;6&quot; fill=&quot;#F38BA8&quot; fill-opacity=&quot;0.15&quot; stroke=&quot;#F38BA8&quot; stroke-width=&quot;2&quot; stroke-dasharray=&quot;3 3&quot;/&gt;
-      &lt;circle cx=&quot;0&quot; cy=&quot;0&quot; r=&quot;10&quot; fill=&quot;none&quot; stroke=&quot;#F38BA8&quot; stroke-width=&quot;2&quot;/&gt;
-      &lt;circle cx=&quot;0&quot; cy=&quot;0&quot; r=&quot;4&quot; fill=&quot;#F38BA8&quot;/&gt;
+    &lt;pattern id=&quot;grid&quot; width=&quot;40&quot; height=&quot;40&quot; patternUnits=&quot;userSpaceOnUse&quot;&gt;
+      &lt;path d=&quot;M 40 0 L 0 0 0 40&quot; fill=&quot;none&quot; stroke=&quot;#FFFFFF&quot; stroke-opacity=&quot;0.04&quot; stroke-width=&quot;1&quot;/&gt;
+    &lt;/pattern&gt;
+    &lt;g id=&quot;r&quot;&gt;
+      &lt;rect x=&quot;0&quot; y=&quot;0&quot; width=&quot;360&quot; height=&quot;360&quot; rx=&quot;20&quot; fill=&quot;#090A0F&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;8&quot;/&gt;
+      &lt;line x1=&quot;180&quot; y1=&quot;-16&quot; x2=&quot;180&quot; y2=&quot;10&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;6&quot; stroke-linecap=&quot;round&quot;/&gt;
+      &lt;polygon points=&quot;180,18 172,4 180,8 188,4&quot; fill=&quot;currentColor&quot;/&gt;
+      
+      &lt;polygon points=&quot;180,25 215,55 180,85 145,55&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;6&quot;/&gt;
+      
+      &lt;polyline points=&quot;145,55 60,55 60,240&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;6&quot; stroke-linejoin=&quot;round&quot;/&gt;
+      &lt;polygon points=&quot;60,248 52,234 60,238 68,234&quot; fill=&quot;currentColor&quot;/&gt;
+      &lt;circle cx=&quot;60&quot; cy=&quot;268&quot; r=&quot;16&quot; fill=&quot;#090A0F&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;6&quot;/&gt;
+      &lt;circle cx=&quot;60&quot; cy=&quot;268&quot; r=&quot;6&quot; fill=&quot;currentColor&quot;/&gt;
+      
+      &lt;polyline points=&quot;215,55 300,55 300,65&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;6&quot; stroke-linejoin=&quot;round&quot;/&gt;
+      &lt;rect x=&quot;270&quot; y=&quot;65&quot; width=&quot;60&quot; height=&quot;40&quot; fill=&quot;#090A0F&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;6&quot;/&gt;
+      &lt;line x1=&quot;282&quot; y1=&quot;65&quot; x2=&quot;282&quot; y2=&quot;105&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;3&quot;/&gt;
+      &lt;line x1=&quot;318&quot; y1=&quot;65&quot; x2=&quot;318&quot; y2=&quot;105&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;3&quot;/&gt;
+      
+      &lt;polyline points=&quot;300,105 300,135 180,135 180,152&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;6&quot; stroke-linejoin=&quot;round&quot;/&gt;
     &lt;/g&gt;
-
-    &lt;!-- Arrow Markers --&gt;
-    &lt;marker id=&quot;arrowY&quot; markerWidth=&quot;6&quot; markerHeight=&quot;6&quot; refX=&quot;4&quot; refY=&quot;3&quot; orient=&quot;auto&quot;&gt;
-      &lt;path d=&quot;M 0,0 L 5,3 L 0,6 z&quot; fill=&quot;#F9E2AF&quot;/&gt;
-    &lt;/marker&gt;
-    &lt;marker id=&quot;arrowG&quot; markerWidth=&quot;6&quot; markerHeight=&quot;6&quot; refX=&quot;4&quot; refY=&quot;3&quot; orient=&quot;auto&quot;&gt;
-      &lt;path d=&quot;M 0,0 L 5,3 L 0,6 z&quot; fill=&quot;#A6E3A1&quot;/&gt;
-    &lt;/marker&gt;
-    &lt;marker id=&quot;arrowB&quot; markerWidth=&quot;6&quot; markerHeight=&quot;6&quot; refX=&quot;4&quot; refY=&quot;3&quot; orient=&quot;auto&quot;&gt;
-      &lt;path d=&quot;M 0,0 L 5,3 L 0,6 z&quot; fill=&quot;#89B4FA&quot;/&gt;
-    &lt;/marker&gt;
-    &lt;marker id=&quot;arrowLoop&quot; markerWidth=&quot;6&quot; markerHeight=&quot;6&quot; refX=&quot;4&quot; refY=&quot;3&quot; orient=&quot;auto&quot;&gt;
-      &lt;path d=&quot;M 0,0 L 5,3 L 0,6 z&quot; fill=&quot;#CBA6F7&quot;/&gt;
-    &lt;/marker&gt;
-
-    &lt;!-- Loop Back Icon Template (Self-call symbol) --&gt;
-    &lt;g id=&quot;selfCall&quot;&gt;
-      &lt;path d=&quot;M 9,-4 C 28,-12 28,-38 5,-17&quot; fill=&quot;none&quot; stroke=&quot;#CBA6F7&quot; stroke-width=&quot;2.5&quot; marker-end=&quot;url(#arrowLoop)&quot;/&gt;
+  &lt;/defs&gt;
+  
+  &lt;rect width=&quot;400&quot; height=&quot;400&quot; fill=&quot;#090A0F&quot;/&gt;
+  &lt;rect width=&quot;400&quot; height=&quot;400&quot; fill=&quot;url(#grid)&quot;/&gt;
+  
+  &lt;g transform=&quot;translate(20, 20)&quot; color=&quot;#FF0055&quot;&gt;
+    &lt;use href=&quot;#r&quot;/&gt;
+    
+    &lt;g transform=&quot;translate(90, 160) scale(0.5)&quot; color=&quot;#BF00FF&quot;&gt;
+      &lt;use href=&quot;#r&quot;/&gt;
+      
+      &lt;g transform=&quot;translate(90, 160) scale(0.5)&quot; color=&quot;#0080FF&quot;&gt;
+        &lt;use href=&quot;#r&quot;/&gt;
+        
+        &lt;g transform=&quot;translate(90, 160) scale(0.5)&quot; color=&quot;#00FFCC&quot;&gt;
+          &lt;use href=&quot;#r&quot;/&gt;
+          
+          &lt;g transform=&quot;translate(90, 160) scale(0.5)&quot; color=&quot;#00FF00&quot;&gt;
+            &lt;use href=&quot;#r&quot;/&gt;
+            
+            &lt;g transform=&quot;translate(90, 160) scale(0.5)&quot; color=&quot;#FFFF00&quot;&gt;
+              &lt;rect x=&quot;0&quot; y=&quot;0&quot; width=&quot;360&quot; height=&quot;360&quot; rx=&quot;20&quot; fill=&quot;#090A0F&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;8&quot;/&gt;
+              &lt;line x1=&quot;180&quot; y1=&quot;-16&quot; x2=&quot;180&quot; y2=&quot;10&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;6&quot; stroke-linecap=&quot;round&quot;/&gt;
+              &lt;polygon points=&quot;180,18 172,4 180,8 188,4&quot; fill=&quot;currentColor&quot;/&gt;
+              &lt;circle cx=&quot;180&quot; cy=&quot;180&quot; r=&quot;40&quot; fill=&quot;currentColor&quot;/&gt;
+              &lt;circle cx=&quot;180&quot; cy=&quot;180&quot; r=&quot;60&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;8&quot;/&gt;
+            &lt;/g&gt;
+          &lt;/g&gt;
+        &lt;/g&gt;
+      &lt;/g&gt;
     &lt;/g&gt;
-
-    &lt;!-- Level 1 Branch --&gt;
-    &lt;g id=&quot;l1&quot;&gt;
-      &lt;rect x=&quot;-42&quot; y=&quot;-20&quot; width=&quot;84&quot; height=&quot;102&quot; rx=&quot;8&quot; fill=&quot;#F9E2AF&quot; fill-" style='width:100%;height:100%;border:0;display:block'></iframe></div></div>
+  &lt;/g&gt;
+&lt;/svg&gt;" style='width:100%;height:100%;border:0;display:block'></iframe></div></div>
 <div class='c'><h2>Dibujo AQ</h2><div class='m'><iframe sandbox srcdoc="&lt;!doctype html&gt;&lt;style&gt;html,body{margin:0;height:100%;background:#fff}svg{width:100%;height:100%}&lt;/style&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 400 400&quot;&gt;
 &lt;defs&gt;
 &lt;radialGradient id=&quot;rg&quot; cx=&quot;50%&quot; cy=&quot;38%&quot; r=&quot;72%&quot;&gt;
@@ -1882,46 +1931,100 @@
     &lt;path d=&quot;M 43 5 L 43 45&quot; fill=&quot;none&quot; stroke=&quot;#ff007f&quot; stroke-width=&quot;2&quot; stroke-dasharray=&quot;3,2&quot; marker-end=&quot;url(#arrow-ret)&quot; /&gt;
   &lt;/g&gt;
 &lt;/svg&gt;" style='width:100%;height:100%;border:0;display:block'></iframe></div></div>
-<div class='c'><h2>Dibujo BA</h2><div class='e'>SVG cortado: la casa agotó el techo de tokens; se muestra lo que el navegador alcanza a dibujar.</div><div class='m'><iframe sandbox srcdoc="&lt;!doctype html&gt;&lt;style&gt;html,body{margin:0;height:100%;background:#fff}svg{width:100%;height:100%}&lt;/style&gt;xml
-&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 400 400&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;
-  &lt;defs&gt;
-    &lt;filter id=&quot;glow&quot; x=&quot;-20%&quot; y=&quot;-20%&quot; width=&quot;140%&quot; height=&quot;140%&quot;&gt;
-      &lt;feGaussianBlur stdDeviation=&quot;3&quot; result=&quot;blur&quot; /&gt;
-      &lt;feMerge&gt;
-        &lt;feMergeNode in=&quot;blur&quot; /&gt;
-        &lt;feMergeNode in=&quot;SourceGraphic&quot; /&gt;
-      &lt;/feMerge&gt;
-    &lt;/filter&gt;
+<div class='c'><h2>Dibujo BA</h2><div class='m'><iframe sandbox srcdoc="&lt;!doctype html&gt;&lt;style&gt;html,body{margin:0;height:100%;background:#fff}svg{width:100%;height:100%}&lt;/style&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 400 400&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;
+    &lt;rect width=&quot;400&quot; height=&quot;400&quot; fill=&quot;#0B1120&quot; /&gt;
+    &lt;defs&gt;
+        &lt;line id=&quot;b&quot; x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;0&quot; y2=&quot;-100&quot; stroke-linecap=&quot;round&quot; /&gt;
+        &lt;circle id=&quot;j&quot; cx=&quot;0&quot; cy=&quot;0&quot; r=&quot;5&quot; /&gt;
+        
+        &lt;marker id=&quot;arrowhead&quot; viewBox=&quot;0 0 10 10&quot; refX=&quot;8&quot; refY=&quot;5&quot; markerWidth=&quot;7&quot; markerHeight=&quot;7&quot; orient=&quot;auto&quot;&gt;
+            &lt;path d=&quot;M 0 1 L 10 5 L 0 9 z&quot; fill=&quot;#facc15&quot; /&gt;
+        &lt;/marker&gt;
+        &lt;marker id=&quot;arrowhead-loop&quot; viewBox=&quot;0 0 10 10&quot; refX=&quot;8&quot; refY=&quot;5&quot; markerWidth=&quot;6&quot; markerHeight=&quot;6&quot; orient=&quot;auto&quot;&gt;
+            &lt;path d=&quot;M 0 1 L 10 5 L 0 9 z&quot; fill=&quot;#38bdf8&quot; /&gt;
+        &lt;/marker&gt;
 
-    &lt;filter id=&quot;heavy-glow&quot; x=&quot;-50%&quot; y=&quot;-50%&quot; width=&quot;200%&quot; height=&quot;200%&quot;&gt;
-      &lt;feGaussianBlur stdDeviation=&quot;5&quot; result=&quot;blur&quot; /&gt;
-      &lt;feMerge&gt;
-        &lt;feMergeNode in=&quot;blur&quot; /&gt;
-        &lt;feMergeNode in=&quot;SourceGraphic&quot; /&gt;
-      &lt;/feMerge&gt;
-    &lt;/filter&gt;
+        &lt;g id=&quot;l8&quot;&gt;
+            &lt;use href=&quot;#b&quot; stroke=&quot;#ec4899&quot; stroke-width=&quot;12&quot; /&gt;
+            &lt;circle cy=&quot;-100&quot; r=&quot;60&quot; fill=&quot;#ec4899&quot; opacity=&quot;0.4&quot; /&gt;
+            &lt;circle cy=&quot;-100&quot; r=&quot;30&quot; fill=&quot;#ec4899&quot; stroke=&quot;#ffffff&quot; stroke-width=&quot;6&quot; /&gt;
+        &lt;/g&gt;
+        &lt;g id=&quot;l7&quot;&gt;
+            &lt;use href=&quot;#b&quot; stroke=&quot;#ef4444&quot; stroke-width=&quot;12&quot; /&gt;
+            &lt;use href=&quot;#j&quot; fill=&quot;#ef4444&quot; /&gt;
+            &lt;g transform=&quot;translate(0,-100) rotate(-25) scale(0.75)&quot;&gt;&lt;use href=&quot;#l8&quot;/&gt;&lt;/g&gt;
+            &lt;g transform=&quot;translate(0,-100) rotate(25) scale(0.75)&quot;&gt;&lt;use href=&quot;#l8&quot;/&gt;&lt;/g&gt;
+        &lt;/g&gt;
+        &lt;g id=&quot;l6&quot;&gt;
+            &lt;use href=&quot;#b&quot; stroke=&quot;#f97316&quot; stroke-width=&quot;12&quot; /&gt;
+            &lt;use href=&quot;#j&quot; fill=&quot;#f97316&quot; /&gt;
+            &lt;g transform=&quot;translate(0,-100) rotate(-25) scale(0.75)&quot;&gt;&lt;use href=&quot;#l7&quot;/&gt;&lt;/g&gt;
+            &lt;g transform=&quot;translate(0,-100) rotate(25) scale(0.75)&quot;&gt;&lt;use href=&quot;#l7&quot;/&gt;&lt;/g&gt;
+        &lt;/g&gt;
+        &lt;g id=&quot;l5&quot;&gt;
+            &lt;use href=&quot;#b&quot; stroke=&quot;#eab308&quot; stroke-width=&quot;12&quot; /&gt;
+            &lt;use href=&quot;#j&quot; fill=&quot;#eab308&quot; /&gt;
+            &lt;g transform=&quot;translate(0,-100) rotate(-25) scale(0.75)&quot;&gt;&lt;use href=&quot;#l6&quot;/&gt;&lt;/g&gt;
+            &lt;g transform=&quot;translate(0,-100) rotate(25) scale(0.75)&quot;&gt;&lt;use href=&quot;#l6&quot;/&gt;&lt;/g&gt;
+        &lt;/g&gt;
+        &lt;g id=&quot;l4&quot;&gt;
+            &lt;use href=&quot;#b&quot; stroke=&quot;#84cc16&quot; stroke-width=&quot;12&quot; /&gt;
+            &lt;use href=&quot;#j&quot; fill=&quot;#84cc16&quot; /&gt;
+            &lt;g transform=&quot;translate(0,-100) rotate(-25) scale(0.75)&quot;&gt;&lt;use href=&quot;#l5&quot;/&gt;&lt;/g&gt;
+            &lt;g transform=&quot;translate(0,-100) rotate(25) scale(0.75)&quot;&gt;&lt;use href=&quot;#l5&quot;/&gt;&lt;/g&gt;
+        &lt;/g&gt;
+        &lt;g id=&quot;l3&quot;&gt;
+            &lt;use href=&quot;#b&quot; stroke=&quot;#10b981&quot; stroke-width=&quot;12&quot; /&gt;
+            &lt;use href=&quot;#j&quot; fill=&quot;#10b981&quot; /&gt;
+            &lt;g transform=&quot;translate(0,-100) rotate(-25) scale(0.75)&quot;&gt;&lt;use href=&quot;#l4&quot;/&gt;&lt;/g&gt;
+            &lt;g transform=&quot;translate(0,-100) rotate(25) scale(0.75)&quot;&gt;&lt;use href=&quot;#l4&quot;/&gt;&lt;/g&gt;
+        &lt;/g&gt;
+        &lt;g id=&quot;l2&quot;&gt;
+            &lt;use href=&quot;#b&quot; stroke=&quot;#06b6d4&quot; stroke-width=&quot;12&quot; /&gt;
+            &lt;use href=&quot;#j&quot; fill=&quot;#06b6d4&quot; /&gt;
+            &lt;g transform=&quot;translate(0,-100) rotate(-25) scale(0.75)&quot;&gt;&lt;use href=&quot;#l3&quot;/&gt;&lt;/g&gt;
+            &lt;g transform=&quot;translate(0,-100) rotate(25) scale(0.75)&quot;&gt;&lt;use href=&quot;#l3&quot;/&gt;&lt;/g&gt;
+        &lt;/g&gt;
+        &lt;g id=&quot;l1&quot;&gt;
+            &lt;use href=&quot;#b&quot; stroke=&quot;#3b82f6&quot; stroke-width=&quot;12&quot; /&gt;
+            &lt;use href=&quot;#j&quot; fill=&quot;#3b82f6&quot; /&gt;
+            &lt;g transform=&quot;translate(0,-100) rotate(-25) scale(0.75)&quot;&gt;&lt;use href=&quot;#l2&quot;/&gt;&lt;/g&gt;
+            &lt;g transform=&quot;translate(0,-100) rotate(25) scale(0.75)&quot;&gt;&lt;use href=&quot;#l2&quot;/&gt;&lt;/g&gt;
+        &lt;/g&gt;
+    &lt;/defs&gt;
 
-    &lt;marker id=&quot;arrow-call&quot; viewBox=&quot;0 0 10 10&quot; refX=&quot;7&quot; refY=&quot;5&quot; markerWidth=&quot;7&quot; markerHeight=&quot;7&quot; orient=&quot;auto&quot;&gt;
-      &lt;path d=&quot;M 0 1 L 8 5 L 0 9 Z&quot; fill=&quot;#FF007F&quot; /&gt;
-    &lt;/marker&gt;
-
-    &lt;marker id=&quot;arrow-return&quot; viewBox=&quot;0 0 10 10&quot; refX=&quot;7&quot; refY=&quot;5&quot; markerWidth=&quot;7&quot; markerHeight=&quot;7&quot; orient=&quot;auto&quot;&gt;
-      &lt;path d=&quot;M 0 1 L 8 5 L 0 9 Z&quot; fill=&quot;#FFEA00&quot; /&gt;
-    &lt;/marker&gt;
-    
-    &lt;g id=&quot;base-case&quot;&gt;
-      &lt;circle cx=&quot;0&quot; cy=&quot;0&quot; r=&quot;3.5&quot; fill=&quot;#39FF14&quot; filter=&quot;url(#glow)&quot;/&gt;
+    &lt;g stroke=&quot;#38bdf8&quot; fill=&quot;none&quot; opacity=&quot;0.3&quot;&gt;
+        &lt;rect x=&quot;30&quot; y=&quot;95&quot; width=&quot;210&quot; height=&quot;210&quot; /&gt;
+        &lt;rect x=&quot;240&quot; y=&quot;95&quot; width=&quot;130&quot; height=&quot;130&quot; /&gt;
+        &lt;rect x=&quot;290&quot; y=&quot;225&quot; width=&quot;80&quot; height=&quot;80&quot; /&gt;
+        &lt;rect x=&quot;240&quot; y=&quot;255&quot; width=&quot;50&quot; height=&quot;50&quot; /&gt;
+        &lt;rect x=&quot;240&quot; y=&quot;225&quot; width=&quot;30&quot; height=&quot;30&quot; /&gt;
+        &lt;rect x=&quot;270&quot; y=&quot;225&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;
+        &lt;rect x=&quot;280&quot; y=&quot;245&quot; width=&quot;10&quot; height=&quot;10&quot; /&gt;
+        &lt;rect x=&quot;270&quot; y=&quot;245&quot; width=&quot;10&quot; height=&quot;10&quot; /&gt;
+        &lt;path d=&quot;M 30,305 A 210,210 0 0,1 240,95 A 130,130 0 0,1 370,225 A 80,80 0 0,1 290,305 A 50,50 0 0,1 240,255 A 30,30 0 0,1 270,225 A 20,20 0 0,1 290,245 A 10,10 0 0,1 280,255 A 10,10 0 0,1 270,245&quot; stroke-width=&quot;4&quot; stroke-linecap=&quot;round&quot;/&gt;
     &lt;/g&gt;
-  &lt;/defs&gt;
 
-  &lt;rect x=&quot;0&quot; y=&quot;0&quot; width=&quot;400&quot; height=&quot;400&quot; fill=&quot;#070714&quot;/&gt;
-  &lt;rect x=&quot;10&quot; y=&quot;10&quot; width=&quot;380&quot; height=&quot;380&quot; rx=&quot;12&quot; fill=&quot;#0A0A1A&quot; stroke=&quot;#1F1F33&quot; stroke-width=&quot;2&quot;/&gt;
-  
-  &lt;g filter=&quot;url(#glow)&quot;&gt;
-    &lt;circle cx=&quot;28&quot; cy=&quot;26&quot; r=&quot;4.5&quot; fill=&quot;#FF5F56&quot;/&gt;
-    &lt;circle cx=&quot;46&quot; cy=&quot;26&quot; r=&quot;4.5&quot; fill=&quot;#FFBD2E&quot;/&gt;
-    &lt;circle cx=&quot;64&quot; cy=&quot;26&quot; r=&quot;4.5&quot; fill=&quot;#27C93F&quot;/&gt;
-  &lt;/" style='width:100%;height:100%;border:0;display:block'></iframe></div></div>
+    &lt;g transform=&quot;translate(200, 360)&quot;&gt;
+        &lt;circle cx=&quot;0&quot; cy=&quot;0&quot; r=&quot;40&quot; fill=&quot;none&quot; stroke=&quot;#3b82f6&quot; stroke-width=&quot;2&quot; opacity=&quot;0.4&quot; /&gt;
+        &lt;circle cx=&quot;0&quot; cy=&quot;0&quot; r=&quot;25&quot; fill=&quot;none&quot; stroke=&quot;#3b82f6&quot; stroke-width=&quot;1.5&quot; opacity=&quot;0.7&quot; /&gt;
+        &lt;circle cx=&quot;0&quot; cy=&quot;0&quot; r=&quot;12&quot; fill=&quot;#3b82f6&quot; stroke=&quot;#ffffff&quot; stroke-width=&quot;3&quot; /&gt;
+        &lt;use href=&quot;#l1&quot; /&gt;
+    &lt;/g&gt;
+
+    &lt;path d=&quot;M 35,205 Q 20,290 170,350&quot; fill=&quot;none&quot; stroke=&quot;#facc15&quot; stroke-width=&quot;4&quot; stroke-dasharray=&quot;8,8&quot; marker-end=&quot;url(#arrowhead)&quot; opacity=&quot;0.9&quot;/&gt;
+    &lt;path d=&quot;M 365,205 Q 380,290 230,350&quot; fill=&quot;none&quot; stroke=&quot;#facc15&quot; stroke-width=&quot;4&quot; stroke-dasharray=&quot;8,8&quot; marker-end=&quot;url(#arrowhead)&quot; opacity=&quot;0.9&quot;/&gt;
+
+    &lt;path d=&quot;M 204,290 C 265,290 265,345 214,345&quot; fill=&quot;none&quot; stroke=&quot;#38bdf8&quot; stroke-width=&quot;4&quot; marker-end=&quot;url(#arrowhead-loop)&quot; /&gt;
+
+    &lt;g transform=&quot;translate(20, 340)&quot;&gt;
+        &lt;rect x=&quot;0&quot; y=&quot;0&quot; width=&quot;40&quot; height=&quot;40&quot; rx=&quot;8&quot; fill=&quot;none&quot; stroke=&quot;#a855f7&quot; stroke-width=&quot;3&quot; /&gt;
+        &lt;rect x=&quot;10&quot; y=&quot;10&quot; width=&quot;20&quot; height=&quot;20&quot; rx=&quot;4&quot; fill=&quot;none&quot; stroke=&quot;#a855f7&quot; stroke-width=&quot;3&quot; /&gt;
+        &lt;rect x=&quot;16&quot; y=&quot;16&quot; width=&quot;8&quot; height=&quot;8&quot; rx=&quot;2&quot; fill=&quot;#a855f7&quot; /&gt;
+        &lt;path d=&quot;M -5 20 L 5 20&quot; stroke=&quot;#a855f7&quot; stroke-width=&quot;3&quot; stroke-linecap=&quot;round&quot; /&gt;
+        &lt;path d=&quot;M 12 20 L 14 20&quot; stroke=&quot;#a855f7&quot; stroke-width=&quot;3&quot; stroke-linecap=&quot;round&quot; /&gt;
+    &lt;/g&gt;
+&lt;/svg&gt;" style='width:100%;height:100%;border:0;display:block'></iframe></div></div>
 <div class='c'><h2>Dibujo BB</h2><div class='m'><iframe sandbox srcdoc="&lt;!doctype html&gt;&lt;style&gt;html,body{margin:0;height:100%;background:#fff}svg{width:100%;height:100%}&lt;/style&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; viewBox=&quot;0 0 400 400&quot; width=&quot;400&quot; height=&quot;400&quot;&gt;
 &lt;rect width=&quot;400&quot; height=&quot;400&quot; fill=&quot;#ffffff&quot;/&gt;
 &lt;defs&gt;
@@ -2953,7 +3056,42 @@
 &lt;path d=&quot;M128 359A170 170 0 1 1 272 359&quot; fill=&quot;none&quot; stroke=&quot;#fbbf24&quot; stroke-width=&quot;6&quot; stroke-linecap=&quot;round&quot; opacity=&quot;.9&quot; marker-end=&quot;url(#ah)&quot;/&gt;
 &lt;path d=&quot;M200 373L184 395L216 395ZM192 384L208 384L200 395ZM196 378.5L204 378.5L200 384Z&quot; fill=&quot;none&quot; stroke=&quot;#fbbf24&quot; stroke-width=&quot;1.5&quot; opacity=&quot;.55&quot;/&gt;
 &lt;/svg&gt;" style='width:100%;height:100%;border:0;display:block'></iframe></div></div>
-<div class='c'><h2>Dibujo CE</h2><div class='e'>SVG cortado: la casa agotó el techo de tokens; se muestra lo que el navegador alcanza a dibujar.</div><div class='m'><iframe sandbox srcdoc="&lt;!doctype html&gt;&lt;style&gt;html,body{margin:0;height:100%;background:#fff}svg{width:100%;height:100%}&lt;/style&gt;" style='width:100%;height:100%;border:0;display:block'></iframe></div></div>
+<div class='c'><h2>Dibujo CE</h2><div class='m'><iframe sandbox srcdoc="&lt;!doctype html&gt;&lt;style&gt;html,body{margin:0;height:100%;background:#fff}svg{width:100%;height:100%}&lt;/style&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 400 400&quot;&gt;
+  &lt;defs&gt;
+    &lt;linearGradient id=&quot;triGrad&quot; x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;1&quot; y2=&quot;1&quot;&gt;
+      &lt;stop offset=&quot;0%&quot; stop-color=&quot;#00e5ff&quot;/&gt;
+      &lt;stop offset=&quot;100%&quot; stop-color=&quot;#7c4dff&quot;/&gt;
+    &lt;/linearGradient&gt;
+    &lt;marker id=&quot;arrow&quot; markerWidth=&quot;8&quot; markerHeight=&quot;8&quot; refX=&quot;4&quot; refY=&quot;4&quot; orient=&quot;auto&quot;&gt;
+      &lt;path d=&quot;M0,0 L8,4 L0,8 Z&quot; fill=&quot;#ff00ff&quot;/&gt;
+    &lt;/marker&gt;
+    &lt;marker id=&quot;arrowSmall&quot; markerWidth=&quot;6&quot; markerHeight=&quot;6&quot; refX=&quot;3&quot; refY=&quot;3&quot; orient=&quot;auto&quot;&gt;
+      &lt;path d=&quot;M0,0 L6,3 L0,6 Z&quot; fill=&quot;#00ffcc&quot;/&gt;
+    &lt;/marker&gt;
+    &lt;radialGradient id=&quot;glowCenter&quot; cx=&quot;0.5&quot; cy=&quot;0.5&quot; r=&quot;0.5&quot;&gt;
+      &lt;stop offset=&quot;0%&quot; stop-color=&quot;#ffffff&quot; stop-opacity=&quot;0.6&quot;/&gt;
+      &lt;stop offset=&quot;100%&quot; stop-color=&quot;#ffffff&quot; stop-opacity=&quot;0&quot;/&gt;
+    &lt;/radialGradient&gt;
+  &lt;/defs&gt;
+  &lt;rect width=&quot;400&quot; height=&quot;400&quot; fill=&quot;#0d1117&quot;/&gt;
+  &lt;circle cx=&quot;200&quot; cy=&quot;220&quot; r=&quot;180&quot; fill=&quot;url(#glowCenter)&quot; opacity=&quot;0.3&quot;/&gt;
+  &lt;polygon points=&quot;200,80 40,360 360,360&quot; fill=&quot;url(#triGrad)&quot; opacity=&quot;0.9&quot;/&gt;
+  &lt;polygon points=&quot;120,220 280,220 200,360&quot; fill=&quot;#0d1117&quot;/&gt;
+  &lt;polygon points=&quot;160,150 240,150 200,220&quot; fill=&quot;#0d1117&quot;/&gt;
+  &lt;polygon points=&quot;80,290 160,290 120,360&quot; fill=&quot;#0d1117&quot;/&gt;
+  &lt;polygon points=&quot;240,290 320,290 280,360&quot; fill=&quot;#0d1117&quot;/&gt;
+  &lt;polygon points=&quot;180,115 220,115 200,150&quot; fill=&quot;#0d1117&quot;/&gt;
+  &lt;polygon points=&quot;140,185 180,185 160,220&quot; fill=&quot;#0d1117&quot;/&gt;
+  &lt;polygon points=&quot;220,185 260,185 240,220&quot; fill=&quot;#0d1117&quot;/&gt;
+  &lt;polygon points=&quot;60,325 100,325 80,360&quot; fill=&quot;#0d1117&quot;/&gt;
+  &lt;polygon points=&quot;100,255 140,255 120,290&quot; fill=&quot;#0d1117&quot;/&gt;
+  &lt;polygon points=&quot;140,325 180,325 160,360&quot; fill=&quot;#0d1117&quot;/&gt;
+  &lt;polygon points=&quot;340,325 300,325 320,360&quot; fill=&quot;#0d1117&quot;/&gt;
+  &lt;polygon points=&quot;300,255 260,255 280,290&quot; fill=&quot;#0d1117&quot;/&gt;
+  &lt;polygon points=&quot;260,325 220,325 240,360&quot; fill=&quot;#0d1117&quot;/&gt;
+  &lt;path d=&quot;M 200 390 A 170 170 0 1 1 199.9 390&quot; fill=&quot;none&quot; stroke=&quot;#ff00ff&quot; stroke-width=&quot;3&quot; stroke-linecap=&quot;round&quot; marker-end=&quot;url(#arrow)&quot; stroke-dasharray=&quot;10 8&quot; opacity=&quot;0.8&quot;/&gt;
+  &lt;path d=&quot;M 180 280 A 20 20 0 1 1 179.9 280&quot; fill=&quot;none&quot; stroke=&quot;#00ffcc&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; marker-end=&quot;url(#arrowSmall)&quot; stroke-dasharray=&quot;4 3&quot; opacity=&quot;0.9&quot;/&gt;
+&lt;/svg&gt;" style='width:100%;height:100%;border:0;display:block'></iframe></div></div>
 <div class='c'><h2>Dibujo CF</h2><div class='m'><iframe sandbox srcdoc="&lt;!doctype html&gt;&lt;style&gt;html,body{margin:0;height:100%;background:#fff}svg{width:100%;height:100%}&lt;/style&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 400 400&quot;&gt;
   &lt;defs&gt;
     &lt;linearGradient id=&quot;bg&quot; x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;1&quot; y2=&quot;1&quot;&gt;
@@ -3019,33 +3157,96 @@
   &lt;circle cx=&quot;235&quot; cy=&quot;323&quot; r=&quot;3&quot; fill=&quot;#34d399&quot;/&gt;
   &lt;circle cx=&quot;300&quot; cy=&quot;323&quot; r=&quot;3&quot; fill=&quot;#34d399&quot;/&gt;
 &lt;/svg&gt;" style='width:100%;height:100%;border:0;display:block'></iframe></div></div>
-<div class='c'><h2>Dibujo CG</h2><div class='e'>SVG cortado: la casa agotó el techo de tokens; se muestra lo que el navegador alcanza a dibujar.</div><div class='m'><iframe sandbox srcdoc="&lt;!doctype html&gt;&lt;style&gt;html,body{margin:0;height:100%;background:#fff}svg{width:100%;height:100%}&lt;/style&gt;&lt;svg viewBox=&quot;0 0 400 400&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
+<div class='c'><h2>Dibujo CG</h2><div class='m'><iframe sandbox srcdoc="&lt;!doctype html&gt;&lt;style&gt;html,body{margin:0;height:100%;background:#fff}svg{width:100%;height:100%}&lt;/style&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 400 400&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;
   &lt;defs&gt;
-    &lt;pattern id=&quot;grid&quot; width=&quot;40&quot; height=&quot;40&quot; patternUnits=&quot;userSpaceOnUse&quot;&gt;
-      &lt;path d=&quot;M 40 0 L 0 0 0 40&quot; fill=&quot;none&quot; stroke=&quot;#1e293b&quot; stroke-width=&quot;1&quot;/&gt;
-    &lt;/pattern&gt;
+    &lt;radialGradient id=&quot;bg&quot; cx=&quot;50%&quot; cy=&quot;50%&quot; r=&quot;50%&quot;&gt;
+      &lt;stop offset=&quot;0%&quot; stop-color=&quot;#121626&quot;/&gt;
+      &lt;stop offset=&quot;100%&quot; stop-color=&quot;#040508&quot;/&gt;
+    &lt;/radialGradient&gt;
 
-    &lt;marker id=&quot;mC&quot; viewBox=&quot;0 0 10 10&quot; refX=&quot;7&quot; refY=&quot;5&quot; markerWidth=&quot;3.5&quot; markerHeight=&quot;3.5&quot; orient=&quot;auto&quot;&gt;
-      &lt;path d=&quot;M 0,2 L 8,5 L 0,8 Z&quot; fill=&quot;#a855f7&quot;/&gt;
-    &lt;/marker&gt;
-    &lt;marker id=&quot;mR&quot; viewBox=&quot;0 0 10 10&quot; refX=&quot;7&quot; refY=&quot;5&quot; markerWidth=&quot;3.5&quot; markerHeight=&quot;3.5&quot; orient=&quot;auto&quot;&gt;
-      &lt;path d=&quot;M 0,2 L 8,5 L 0,8 Z&quot; fill=&quot;#f43f5e&quot;/&gt;
+    &lt;marker id=&quot;arrow&quot; markerWidth=&quot;8&quot; markerHeight=&quot;8&quot; refX=&quot;7&quot; refY=&quot;4&quot; orient=&quot;auto&quot;&gt;
+      &lt;polygon points=&quot;0 0, 8 4, 0 8&quot; fill=&quot;#00FF88&quot; /&gt;
     &lt;/marker&gt;
 
-    &lt;!-- Base Case / Stop Condition --&gt;
-    &lt;g id=&quot;l0&quot;&gt;
-      &lt;rect x=&quot;0&quot; y=&quot;0&quot; width=&quot;200&quot; height=&quot;200&quot; rx=&quot;20&quot; fill=&quot;#4a044e&quot; stroke=&quot;#f43f5e&quot; stroke-width=&quot;8&quot;/&gt;
-      &lt;circle cx=&quot;100&quot; cy=&quot;100&quot; r=&quot;26&quot; fill=&quot;#f43f5e&quot; stroke=&quot;#fda4af&quot; stroke-width=&quot;4&quot;/&gt;
-      &lt;!-- Internal Call execution mapping to Base Case --&gt;
-      &lt;path d=&quot;M 0,50 C 50,50 100,45 100,74&quot; fill=&quot;none&quot; stroke=&quot;#a855f7&quot; stroke-width=&quot;6&quot; marker-end=&quot;url(#mC)&quot;/&gt;
-      &lt;!-- Internal Return originating from Base Case --&gt;
-      &lt;path d=&quot;M 100,126 C 100,155 50,150 0,150&quot; fill=&quot;none&quot; stroke=&quot;#f43f5e&quot; stroke-width=&quot;6&quot; stroke-dasharray=&quot;10,10&quot; marker-end=&quot;url(#mR)&quot;/&gt;
+    &lt;g id=&quot;leaf&quot;&gt;
+      &lt;circle cx=&quot;0&quot; cy=&quot;0&quot; r=&quot;10&quot; fill=&quot;#FF0055&quot; /&gt;
+      &lt;circle cx=&quot;0&quot; cy=&quot;0&quot; r=&quot;3&quot; fill=&quot;#FFFFFF&quot; /&gt;
     &lt;/g&gt;
 
-    &lt;!-- Recursive Call Depth 1 --&gt;
-    &lt;g id=&quot;l1&quot;&gt;
-      &lt;rect x=&quot;0&quot; y=&quot;0&quot; width=&quot;200&quot; height=&quot;200&quot; rx=&quot;20&quot; fill=&quot;#3b0764&quot; stroke=&quot;#d946ef&quot; stroke-width=&quot;8&quot;/&gt;
-      &lt;path d" style='width:100%;height:100%;border:0;display:block'></iframe></div></div>
+    &lt;g id=&quot;d1&quot;&gt;
+      &lt;line x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;0&quot; y2=&quot;-100&quot; stroke=&quot;#FF0055&quot; stroke-width=&quot;8&quot; stroke-linecap=&quot;round&quot;/&gt;
+      &lt;use href=&quot;#leaf&quot; transform=&quot;translate(0, -100)&quot;/&gt;
+    &lt;/g&gt;
+
+    &lt;g id=&quot;d2&quot;&gt;
+      &lt;line x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;0&quot; y2=&quot;-100&quot; stroke=&quot;#FF00AA&quot; stroke-width=&quot;9&quot; stroke-linecap=&quot;round&quot;/&gt;
+      &lt;circle cx=&quot;0&quot; cy=&quot;-100&quot; r=&quot;3&quot; fill=&quot;#FFFFFF&quot;/&gt;
+      &lt;use href=&quot;#d1&quot; transform=&quot;translate(0, -100) rotate(-40) scale(0.75)&quot;/&gt;
+      &lt;use href=&quot;#d1&quot; transform=&quot;translate(0, -100) rotate(40) scale(0.75)&quot;/&gt;
+    &lt;/g&gt;
+
+    &lt;g id=&quot;d3&quot;&gt;
+      &lt;line x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;0&quot; y2=&quot;-100&quot; stroke=&quot;#D400FF&quot; stroke-width=&quot;10&quot; stroke-linecap=&quot;round&quot;/&gt;
+      &lt;circle cx=&quot;0&quot; cy=&quot;-100&quot; r=&quot;3.5&quot; fill=&quot;#FFFFFF&quot;/&gt;
+      &lt;use href=&quot;#d2&quot; transform=&quot;translate(0, -100) rotate(-35) scale(0.75)&quot;/&gt;
+      &lt;use href=&quot;#d2&quot; transform=&quot;translate(0, -100) rotate(35) scale(0.75)&quot;/&gt;
+    &lt;/g&gt;
+
+    &lt;g id=&quot;d4&quot;&gt;
+      &lt;line x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;0&quot; y2=&quot;-100&quot; stroke=&quot;#8800FF&quot; stroke-width=&quot;11&quot; stroke-linecap=&quot;round&quot;/&gt;
+      &lt;circle cx=&quot;0&quot; cy=&quot;-100&quot; r=&quot;4&quot; fill=&quot;#FFFFFF&quot;/&gt;
+      &lt;use href=&quot;#d3&quot; transform=&quot;translate(0, -100) rotate(-30) scale(0.75)&quot;/&gt;
+      &lt;use href=&quot;#d3&quot; transform=&quot;translate(0, -100) rotate(30) scale(0.75)&quot;/&gt;
+    &lt;/g&gt;
+
+    &lt;g id=&quot;d5&quot;&gt;
+      &lt;line x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;0&quot; y2=&quot;-100&quot; stroke=&quot;#0055FF&quot; stroke-width=&quot;12&quot; stroke-linecap=&quot;round&quot;/&gt;
+      &lt;circle cx=&quot;0&quot; cy=&quot;-100&quot; r=&quot;4.5&quot; fill=&quot;#FFFFFF&quot;/&gt;
+      &lt;use href=&quot;#d4&quot; transform=&quot;translate(0, -100) rotate(-25) scale(0.75)&quot;/&gt;
+      &lt;use href=&quot;#d4&quot; transform=&quot;translate(0, -100) rotate(25) scale(0.75)&quot;/&gt;
+    &lt;/g&gt;
+
+    &lt;g id=&quot;d6&quot;&gt;
+      &lt;line x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;0&quot; y2=&quot;-100&quot; stroke=&quot;#00CCFF&quot; stroke-width=&quot;13&quot; stroke-linecap=&quot;round&quot;/&gt;
+      &lt;circle cx=&quot;0&quot; cy=&quot;-100&quot; r=&quot;5&quot; fill=&quot;#FFFFFF&quot;/&gt;
+      &lt;use href=&quot;#d5&quot; transform=&quot;translate(0, -100) rotate(-20) scale(0.75)&quot;/&gt;
+      &lt;use href=&quot;#d5&quot; transform=&quot;translate(0, -100) rotate(20) scale(0.75)&quot;/&gt;
+    &lt;/g&gt;
+    
+    &lt;g id=&quot;d7&quot;&gt;
+      &lt;line x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;0&quot; y2=&quot;-100&quot; stroke=&quot;#00FFCC&quot; stroke-width=&quot;14&quot; stroke-linecap=&quot;round&quot;/&gt;
+      &lt;circle cx=&quot;0&quot; cy=&quot;-100&quot; r=&quot;5.5&quot; fill=&quot;#FFFFFF&quot;/&gt;
+      &lt;use href=&quot;#d6&quot; transform=&quot;translate(0, -100) rotate(-15) scale(0.75)&quot;/&gt;
+      &lt;use href=&quot;#d6&quot; transform=&quot;translate(0, -100) rotate(15) scale(0.75)&quot;/&gt;
+    &lt;/g&gt;
+
+    &lt;g id=&quot;d8&quot;&gt;
+      &lt;line x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;0&quot; y2=&quot;-100&quot; stroke=&quot;#00FF88&quot; stroke-width=&quot;15&quot; stroke-linecap=&quot;round&quot;/&gt;
+      &lt;circle cx=&quot;0&quot; cy=&quot;-100&quot; r=&quot;6&quot; fill=&quot;#FFFFFF&quot;/&gt;
+      &lt;use href=&quot;#d7&quot; transform=&quot;translate(0, -100) rotate(-10) scale(0.75)&quot;/&gt;
+      &lt;use href=&quot;#d7&quot; transform=&quot;translate(0, -100) rotate(10) scale(0.75)&quot;/&gt;
+    &lt;/g&gt;
+  &lt;/defs&gt;
+
+  &lt;rect width=&quot;400&quot; height=&quot;400&quot; fill=&quot;url(#bg)&quot;/&gt;
+
+  &lt;g fill=&quot;none&quot; stroke-width=&quot;1.5&quot; opacity=&quot;0.3&quot; stroke-dasharray=&quot;6 6&quot;&gt;
+    &lt;rect x=&quot;15&quot; y=&quot;15&quot; width=&quot;370&quot; height=&quot;370&quot; rx=&quot;20&quot; stroke=&quot;#00FF88&quot;/&gt;
+    &lt;rect x=&quot;45&quot; y=&quot;45&quot; width=&quot;310&quot; height=&quot;310&quot; rx=&quot;18&quot; stroke=&quot;#00FFCC&quot;/&gt;
+    &lt;rect x=&quot;75&quot; y=&quot;75&quot; width=&quot;250&quot; height=&quot;250&quot; rx=&quot;15&quot; stroke=&quot;#00CCFF&quot;/&gt;
+    &lt;rect x=&quot;105&quot; y=&quot;105&quot; width=&quot;190&quot; height=&quot;190&quot; rx=&quot;12&quot; stroke=&quot;#0055FF&quot;/&gt;
+    &lt;rect x=&quot;135&quot; y=&quot;135&quot; width=&quot;130&quot; height=&quot;130&quot; rx=&quot;10&quot; stroke=&quot;#8800FF&quot;/&gt;
+    &lt;rect x=&quot;165&quot; y=&quot;165&quot; width=&quot;70&quot; height=&quot;70&quot; rx=&quot;8&quot; stroke=&quot;#D400FF&quot;/&gt;
+    &lt;rect x=&quot;185&quot; y=&quot;185&quot; width=&quot;30&quot; height=&quot;30&quot; rx=&quot;5&quot; stroke=&quot;#FF0055&quot;/&gt;
+  &lt;/g&gt;
+
+  &lt;use href=&quot;#d8&quot; transform=&quot;translate(200, 350) scale(0.85)&quot;/&gt;
+
+  &lt;circle cx=&quot;200&quot; cy=&quot;350&quot; r=&quot;14&quot; fill=&quot;#00FF88&quot; /&gt;
+  &lt;circle cx=&quot;200&quot; cy=&quot;350&quot; r=&quot;5&quot; fill=&quot;#040508&quot; /&gt;
+  &lt;path d=&quot;M 213 355 C 270 410, 130 410, 187 355&quot; fill=&quot;none&quot; stroke=&quot;#00FF88&quot; stroke-width=&quot;7&quot; stroke-linecap=&quot;round&quot; marker-end=&quot;url(#arrow)&quot;/&gt;
+
+&lt;/svg&gt;" style='width:100%;height:100%;border:0;display:block'></iframe></div></div>
 <div class='c'><h2>Dibujo CH</h2><div class='m'><iframe sandbox srcdoc="&lt;!doctype html&gt;&lt;style&gt;html,body{margin:0;height:100%;background:#fff}svg{width:100%;height:100%}&lt;/style&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 400 400&quot;&gt;
   &lt;defs&gt;
     &lt;marker id=&quot;h&quot; viewBox=&quot;0 0 10 10&quot; refX=&quot;7&quot; refY=&quot;5&quot; markerWidth=&quot;5&quot; markerHeight=&quot;5&quot; orient=&quot;auto&quot;&gt;
@@ -3311,7 +3512,57 @@
     &lt;/g&gt;
   &lt;/g&gt;
 &lt;/svg&gt;" style='width:100%;height:100%;border:0;display:block'></iframe></div></div>
-<div class='c'><h2>Dibujo CP</h2><div class='e'>SVG cortado: la casa agotó el techo de tokens; se muestra lo que el navegador alcanza a dibujar.</div><div class='m'><iframe sandbox srcdoc="&lt;!doctype html&gt;&lt;style&gt;html,body{margin:0;height:100%;background:#fff}svg{width:100%;height:100%}&lt;/style&gt;" style='width:100%;height:100%;border:0;display:block'></iframe></div></div>
+<div class='c'><h2>Dibujo CP</h2><div class='m'><iframe sandbox srcdoc="&lt;!doctype html&gt;&lt;style&gt;html,body{margin:0;height:100%;background:#fff}svg{width:100%;height:100%}&lt;/style&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 400 400&quot;&gt;
+  &lt;defs&gt;
+    &lt;radialGradient id=&quot;bg&quot; cx=&quot;0.5&quot; cy=&quot;0.38&quot; r=&quot;0.95&quot;&gt;
+      &lt;stop offset=&quot;0&quot; stop-color=&quot;#0f172a&quot;/&gt;
+      &lt;stop offset=&quot;1&quot; stop-color=&quot;#020617&quot;/&gt;
+    &lt;/radialGradient&gt;
+    &lt;marker id=&quot;m1&quot; markerUnits=&quot;userSpaceOnUse&quot; markerWidth=&quot;36&quot; markerHeight=&quot;36&quot; refX=&quot;27&quot; refY=&quot;18&quot; orient=&quot;auto&quot;&gt;
+      &lt;path d=&quot;M4 4 L32 18 L4 32 Z&quot; fill=&quot;#38bdf8&quot;/&gt;
+    &lt;/marker&gt;
+    &lt;marker id=&quot;m2&quot; markerUnits=&quot;userSpaceOnUse&quot; markerWidth=&quot;36&quot; markerHeight=&quot;36&quot; refX=&quot;27&quot; refY=&quot;18&quot; orient=&quot;auto&quot;&gt;
+      &lt;path d=&quot;M4 4 L32 18 L4 32 Z&quot; fill=&quot;#a78bfa&quot;/&gt;
+    &lt;/marker&gt;
+    &lt;marker id=&quot;m3&quot; markerUnits=&quot;userSpaceOnUse&quot; markerWidth=&quot;36&quot; markerHeight=&quot;36&quot; refX=&quot;27&quot; refY=&quot;18&quot; orient=&quot;auto&quot;&gt;
+      &lt;path d=&quot;M4 4 L32 18 L4 32 Z&quot; fill=&quot;#f472b6&quot;/&gt;
+    &lt;/marker&gt;
+  &lt;/defs&gt;
+
+  &lt;rect width=&quot;400&quot; height=&quot;400&quot; rx=&quot;60&quot; fill=&quot;url(#bg)&quot;/&gt;
+  &lt;rect x=&quot;20&quot; y=&quot;20&quot; width=&quot;360&quot; height=&quot;360&quot; rx=&quot;48&quot; fill=&quot;none&quot; stroke=&quot;#1e293b&quot; stroke-width=&quot;4&quot;/&gt;
+
+  &lt;g stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
+    &lt;g transform=&quot;translate(200 200) scale(1.52)&quot;&gt;
+      &lt;rect x=&quot;-80&quot; y=&quot;-80&quot; width=&quot;160&quot; height=&quot;160&quot; rx=&quot;28&quot;
+            fill=&quot;#38bdf8&quot; fill-opacity=&quot;0.07&quot;
+            stroke=&quot;#38bdf8&quot; stroke-opacity=&quot;0.22&quot; stroke-width=&quot;3&quot;/&gt;
+      &lt;path d=&quot;M-26 -80 H52 Q80 -80 80 -52 V52 Q80 80 52 80 H-52 Q-80 80 -80 52 V-26&quot;
+            fill=&quot;none&quot; stroke=&quot;#38bdf8&quot; stroke-width=&quot;14&quot;
+            marker-end=&quot;url(#m1)&quot;/&gt;
+    &lt;/g&gt;
+
+    &lt;g transform=&quot;translate(200 200) scale(0.96)&quot;&gt;
+      &lt;rect x=&quot;-80&quot; y=&quot;-80&quot; width=&quot;160&quot; height=&quot;160&quot; rx=&quot;28&quot;
+            fill=&quot;#a78bfa&quot; fill-opacity=&quot;0.08&quot;
+            stroke=&quot;#a78bfa&quot; stroke-opacity=&quot;0.24&quot; stroke-width=&quot;3&quot;/&gt;
+      &lt;path d=&quot;M-26 -80 H52 Q80 -80 80 -52 V52 Q80 80 52 80 H-52 Q-80 80 -80 52 V-26&quot;
+            fill=&quot;none&quot; stroke=&quot;#a78bfa&quot; stroke-width=&quot;14&quot;
+            marker-end=&quot;url(#m2)&quot;/&gt;
+    &lt;/g&gt;
+
+    &lt;g transform=&quot;translate(200 200) scale(0.54)&quot;&gt;
+      &lt;rect x=&quot;-80&quot; y=&quot;-80&quot; width=&quot;160&quot; height=&quot;160&quot; rx=&quot;28&quot;
+            fill=&quot;#f472b6&quot; fill-opacity=&quot;0.09&quot;
+            stroke=&quot;#f472b6&quot; stroke-opacity=&quot;0.26&quot; stroke-width=&quot;3&quot;/&gt;
+      &lt;path d=&quot;M-26 -80 H52 Q80 -80 80 -52 V52 Q80 80 52 80 H-52 Q-80 80 -80 52 V-26&quot;
+            fill=&quot;none&quot; stroke=&quot;#f472b6&quot; stroke-width=&quot;14&quot;
+            marker-end=&quot;url(#m3)&quot;/&gt;
+    &lt;/g&gt;
+  &lt;/g&gt;
+
+  &lt;rect x=&quot;190&quot; y=&quot;190&quot; width=&quot;20&quot; height=&quot;20&quot; rx=&quot;6&quot; fill=&quot;#e2e8f0&quot;/&gt;
+&lt;/svg&gt;" style='width:100%;height:100%;border:0;display:block'></iframe></div></div>
 <div class='c'><h2>Dibujo CQ</h2><div class='m'><iframe sandbox srcdoc="&lt;!doctype html&gt;&lt;style&gt;html,body{margin:0;height:100%;background:#fff}svg{width:100%;height:100%}&lt;/style&gt;&lt;svg viewBox=&quot;0 0 400 400&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
   &lt;rect width=&quot;400&quot; height=&quot;400&quot; fill=&quot;#0d1b2a&quot;/&gt;
   &lt;!-- nested rectangles: same shape, smaller each time --&gt;

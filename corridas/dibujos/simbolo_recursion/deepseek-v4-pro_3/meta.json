@@ -5,25 +5,35 @@
   "modelo": "deepseek-v4-pro",
   "modelo_respondido": "deepseek-v4-pro",
   "repeticion": 3,
-  "fecha_utc": "2026-11-09T20:04:30+00:00",
+  "fecha_utc": "2026-11-11T20:52:20+00:00",
   "fuentes_md5": {
-    "consignas": "69001d49"
+    "consignas": "b3457a91"
   },
-  "motivo_fin": "length",
-  "tokens_salida": 16000,
-  "svg_hallado": false,
+  "motivo_fin": "stop",
+  "tokens_salida": 17451,
+  "svg_hallado": true,
   "svg": {
-    "caracteres": 0,
-    "parsea": false,
-    "elementos": null,
+    "caracteres": 2157,
+    "parsea": true,
+    "elementos": 29,
     "textos": [],
-    "colores": null,
-    "error": "no element found: line 1, column 0"
+    "colores": 6,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 1,
+      "stop": 4,
+      "marker": 2,
+      "path": 4,
+      "radialGradient": 1,
+      "rect": 1,
+      "circle": 1,
+      "polygon": 14
+    }
   },
-  "techo": 16000,
+  "techo": 24000,
   "por_que": {
     "modelo_respondido": "deepseek-v4-pro",
     "motivo_fin": "stop",
-    "tokens_salida": 2218
+    "tokens_salida": 503
   }
 }

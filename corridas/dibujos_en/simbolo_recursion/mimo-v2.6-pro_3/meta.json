@@ -5,25 +5,32 @@
   "modelo": "mimo-v2.6-pro",
   "modelo_respondido": "xiaomi/mimo-v2.6-pro",
   "repeticion": 3,
-  "fecha_utc": "2026-11-10T00:01:37+00:00",
+  "fecha_utc": "2026-11-11T21:18:46+00:00",
   "fuentes_md5": {
-    "consignas": "69001d49"
+    "consignas": "b3457a91"
   },
-  "motivo_fin": "length",
-  "tokens_salida": 16000,
-  "svg_hallado": false,
+  "motivo_fin": "stop",
+  "tokens_salida": 16115,
+  "svg_hallado": true,
   "svg": {
-    "caracteres": 0,
-    "parsea": false,
-    "elementos": null,
+    "caracteres": 2496,
+    "parsea": true,
+    "elementos": 32,
     "textos": [],
-    "colores": null,
-    "error": "no element found: line 1, column 0"
+    "colores": 4,
+    "etiquetas": {
+      "defs": 1,
+      "marker": 6,
+      "path": 14,
+      "rect": 5,
+      "g": 4,
+      "circle": 2
+    }
   },
-  "techo": 16000,
+  "techo": 24000,
   "por_que": {
     "modelo_respondido": "xiaomi/mimo-v2.6-pro",
     "motivo_fin": "stop",
-    "tokens_salida": 401
+    "tokens_salida": 219
   }
 }

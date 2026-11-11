@@ -5,25 +5,33 @@
   "modelo": "qwen3.8-max",
   "modelo_respondido": "qwen/qwen3.8-max-0902",
   "repeticion": 2,
-  "fecha_utc": "2026-11-09T22:45:27+00:00",
+  "fecha_utc": "2026-11-11T21:13:23+00:00",
   "fuentes_md5": {
-    "consignas": "69001d49"
+    "consignas": "b3457a91"
   },
-  "motivo_fin": "length",
-  "tokens_salida": 16000,
-  "svg_hallado": false,
+  "motivo_fin": "stop",
+  "tokens_salida": 13883,
+  "svg_hallado": true,
   "svg": {
-    "caracteres": 839,
-    "parsea": false,
-    "elementos": null,
+    "caracteres": 1616,
+    "parsea": true,
+    "elementos": 20,
     "textos": [],
-    "colores": null,
-    "error": "unclosed token: line 19, column 6"
+    "colores": 4,
+    "etiquetas": {
+      "defs": 1,
+      "marker": 1,
+      "path": 8,
+      "g": 1,
+      "rect": 2,
+      "use": 3,
+      "circle": 4
+    }
   },
-  "techo": 16000,
+  "techo": 24000,
   "por_que": {
     "modelo_respondido": "qwen/qwen3.8-max-0902",
     "motivo_fin": "stop",
-    "tokens_salida": 306
+    "tokens_salida": 806
   }
 }
