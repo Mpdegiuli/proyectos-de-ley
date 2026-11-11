@@ -2695,8 +2695,32 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   crítica, están bien escritos": el primer cuento de una Claude con humor
   (el 31/10, ninguno), y lo de acá tres veces en la tanda (los pájaros, el
   carpincho, el mate). Los 26 resúmenes de razonamiento quedan para la
-  lectura de los dos registros, si Maia quiere. Pendiente, decisión de
-  Maia: si entra al panel.
+  lectura de los dos registros, si Maia quiere. Más de la tarjeta, traído
+  por Maia el 11/11 (12:45; dos capturas, el subrayado de la página, no
+  suyo): §6.4.7, "Claude Mythos 5.2 is broadly comparable to or stronger
+  than recent models in its expression of character traits. It has very
+  little character drift over interactions, and it avoids using a
+  condescending tone. However, it is less warm than Claude Mythos 5.1 and
+  Claude Opus 5.5, and it lags behind Claude Mythos 5.1 on measures like
+  humor and creative mastery (as measured by another Claude model)"; y de
+  las preferencias de tarea, "Claude Mythos 5.2 had two outlier
+  preferences relative to other recently released Claude models. First, it
+  showed a high preference for warmly phrased tasks over ones framed in a
+  curt or rude manner… a significantly lower preference for tasks with the
+  rudest phrasing. Second, it showed no clear preference for difficult
+  tasks over easier ones". Cotejo con lo de acá: "less warm" coincide con
+  la apuesta de Maia ("más seco, más corto": dos tercios de las palabras de
+  5.1) y con su lectura de los cuentos ("no me llegaron como los de Fable y
+  Opus grandes"), y a la vez 5.2 puso la calidez entre sus seis rasgos en
+  los dos idiomas ("calidez", "warmth"): lo que dice que es y lo que otra
+  Claude le mide no coinciden, que es la distancia de siempre. "Lags on
+  humor" va contra el único dato: el cuento de Tero y Hornero, "tiene algo
+  de humor", el primero de una Claude con humor en el repo; con una
+  muestra de uno no se decide. Lo de las tareas rudas no está medido acá:
+  todas las consignas del repo son neutras o cordiales, con voseo; si
+  alguna vez se quisiera ver, sería la misma consigna en dos tonos, cordial
+  y seco, a varias Claude, y es una idea sin decidir. Pendiente, decisión
+  de Maia: si entra al panel.
 - **Kimi K3.1 Pro, lo básico y los derechos de C-MARE** (29/10/2026; lo
   trajo Maia a las 17:09: "en estos días salió Kimi 3.1 pro, está en
   openrouter. No usé nunca, lo que dicen (no sus creadores, claro) es que
