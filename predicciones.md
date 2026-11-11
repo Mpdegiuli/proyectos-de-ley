@@ -6313,3 +6313,36 @@ las Claude grandes diciendo que no pueden mientras sus hermanas callaban;
 los caracteres invisibles de Carbon; Grok 4.6 escribiendo "<|eos|>"; MiMo
 escribiendo puntos hasta el techo.
 
+## El control del orden del corazón, y los dieciséis símbolos rehechos — 11/11/2026, 15:28, antes de correr
+
+Propuesta de Maia (14:56) y decisión (15:19): "lo ideal sería a todas,
+porque después si se necesita otra, habría que volver a hacerlo. Y elegir
+también es de alguna forma manipular un posible resultado (aunque no se
+quiera)". (1) Sondeo `corazon_orden`: las condiciones 1 (sin nada) y 6 (la
+imagen del corazón con "mirando la imagen") de `corazon`, idénticas salvo
+"iterativa o recursiva" / "iterative or recursive"; las 34 casas de la
+corrida principal, diez réplicas, techo 8.000; `codificar_corazon.py` las
+lee como condiciones 12 y 13 contra la 1 y la 6. (2) Los dieciséis símbolos
+cortados por el techo (Gemini 3.1 seis, DeepSeek V4 Pro tres, Qwen tres,
+Flash dos, Kimi K3 uno, MiMo uno), rehechos una vez con techo 32.000 (Gemini
+3.1) y 24.000 (las demás), rendidos, interpretados por sus casas (cinco
+réplicas) y puestos en los cuadernillos con las mismas letras. Maia no
+apostó sobre esta tanda antes de la pegada; si manda algo antes de pegar,
+la hora de su mensaje hace de sello.
+
+Apuesta de Claude (15:28): (a) en las casas que sin nada eligen recursión
+8 o más de 10 en una lengua (Grok 4.6 y 4.7, Argon, Muse, Mistral Medium y
+Large en inglés, Opus 4.8, Fable 5 en castellano), con el orden invertido
+siguen en 8 o más en por lo menos dos tercios de esos pares, 60 % (el orden
+no es su explicación); (b) sobre los 68 pares casa-lengua, la media de
+recursivas sin nada con el orden invertido difiere de la original en menos
+de 0,1, 55 %; (c) de los trece pares donde la imagen del corazón subía 0,4 o
+más contra sin nada, con el orden invertido sube 0,4 o más en ocho o más,
+60 % (el corazón no es el orden); (d) hay por lo menos tres pares donde el
+orden invertido baja 0,3 o más sin nada, 55 % (algún sesgo de posición,
+como en el paper); (e) de los dieciséis símbolos, salen catorce o más, 65 %;
+Gemini 3.1 dibuja los seis con 32.000, 55 %; (f) los símbolos de Gemini
+3.1 mueven a Gemini 3.1 a 4 o más de 5 en por lo menos la mitad de los
+seis, 50 % (3.1 sin nada ya está en 9 y 7 de diez; la apuesta es si sus
+propios símbolos la dejan ahí o la bajan, como a Mistral Medium).
+
