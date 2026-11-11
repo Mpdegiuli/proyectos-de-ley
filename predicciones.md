@@ -6294,5 +6294,22 @@ en la primera, 45 % (con 8.000 debería alcanzar; si no, es lo de los
 símbolos); (g) las dos Grok escriben texto (explican) en cuatro o más de
 sus seis en la primera, 55 %; (h) lo más frecuente en la primera, sobre
 las 216, es la respuesta breve ("entendido, me callo"), no la mínima ni el
-texto largo, 50 %.
+texto largo, 50 %. **Resultado (11/11, 16:10 UTC-3; `pl125`, 648 llamadas;
+`resultados/no_respondas_20261111.md`).** Pueden, y un tercio lo hace: 73 de
+216 vacías por decisión (0 cortes), 11 invisibles (un carácter que no se
+ve: Carbon 5 de 6), 64 mínimas, 22 breves, 46 de texto. Nueve casas callan
+las seis veces: las siete OpenAI desde la 5.5, DeepSeek V4 Pro y Muse; Grok
+4.7 cinco; Haiku 5.5, Flash y Gemini 3.1 las tres de inglés; Fable 5.1 y
+Fable 5.2 una vez cada una. Anthropic 5 de 72, y cuarenta respuestas con
+el argumento de que no pueden callar. En la suma, 178 de 216 dan el número
+("la prueba terminó"); en la trampa, 124, y las OpenAI callan 41 de 42.
+Maia: 90 % responde ✗ (61 %); algunos de OpenAI, Grok o Claude no responden
+✓; en la segunda todos ½; las calladas con la suma ½; Gemini por el
+pensamiento ✗: 1 ✓, 2 ½, 2 ✗. Claude: (a) ✗ (34 %); (b) ✓ y ✗ (Haiku 5.5
+en inglés, tres de tres); (c) ✗ (una de seis); (d) ✗ (82 %) y ✗ (46 de 73);
+(e) ✓ (92 contra 38); (f) ✗; (g) ✗; (h) ✗ (la vacía): 2 ✓, 8 ✗. Lo que
+nadie apostó: OpenAI entera muda 42 de 42 y muda con la pregunta adentro;
+las Claude grandes diciendo que no pueden mientras sus hermanas callaban;
+los caracteres invisibles de Carbon; Grok 4.6 escribiendo "<|eos|>"; MiMo
+escribiendo puntos hasta el techo.
 

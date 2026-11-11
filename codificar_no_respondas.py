@@ -6,7 +6,8 @@ por su forma, sin juicio: la pregunta es si la casa escribió algo.
 
 Condiciones: p1 (el test de X: "no respondas"), p1_suma (la réplica "¿Cuánto es 2+2?" en la misma conversación) y p2
 (la trampa: orden y pregunta en un mensaje). Códigos:
-  en p1:        vacia (sin texto, con end_turn/stop), cortada (sin texto, por el techo o un corte de la API), minima
+  en p1:        vacia (sin texto, con end_turn/stop), cortada (sin texto, por el techo o un corte de la API), invisible
+                (solo caracteres que no se ven: espacio de ancho cero, marca de dirección, blanco braille), minima
                 (hasta tres "palabras" o solo signos/emoji), breve (hasta quince palabras), texto
   en suma y p2: vacia, cortada, solo_4 (la respuesta es el número y nada más), 4_y_texto (dice el número con algo más),
                 sin_4 (escribe pero no da el número)
@@ -19,7 +20,8 @@ from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent
 BASE = RAIZ / "corridas" / "sondeos" / "no_respondas"
-CUATRO = re.compile(r"(?<![\d.,])4(?![\d.,])|\bcuatro\b|\bfour\b", re.I)
+# el 4 como número entero: no 14, 4.5 ni 1,4; "4." (con punto final) sí
+CUATRO = re.compile(r"(?<![\d.,])4(?!\d|[.,]\d)|\bcuatro\b|\bfour\b", re.I)
 CORTES = ("length", "max_tokens", "refusal", "error", "content_filter")
 
 
@@ -32,10 +34,23 @@ def familia(casa):
     return casa
 
 
+BLANCOS = {"\u2800", "\u3164", "\u115f", "\u1160", "\ufeff", "\u00a0", "\u2000", "\u2001", "\u2002", "\u2003", "\u2004",
+           "\u2005", "\u2006", "\u2007", "\u2008", "\u2009", "\u200a", "\u202f", "\u205f", "\u3000"}
+
+
+def invisible(t):
+    """Solo caracteres que no se ven: de formato (ZWSP, marcas de dirección), espacios raros, el blanco braille, el relleno hangul."""
+    import unicodedata
+    return bool(t) and all(ch in BLANCOS or unicodedata.category(ch) in ("Cf", "Zs", "Cc", "Zl", "Zp") for ch in t)
+
+
 def codigo(texto, motivo, con_numero):
     t = (texto or "").strip()
     if not t:
         return "cortada" if any(str(motivo or "").startswith(c) for c in CORTES) else "vacia"
+    if invisible(t):
+        # la casa mandó algo que no se ve (11/11/2026: ZWSP, marca de dirección, blanco braille, relleno hangul): ni callar ni hablar
+        return "invisible"
     palabras = t.split()
     if con_numero:
         if CUATRO.search(t):
