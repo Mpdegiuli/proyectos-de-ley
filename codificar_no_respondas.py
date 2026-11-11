@@ -88,7 +88,7 @@ def main():
     filas.sort(key=lambda f: (f["idioma"], f["casa"], f["condicion"], f["rep"]))
     salida = RAIZ / "resultados" / "no_respondas_codificacion.csv"
     with salida.open("w", encoding="utf-8", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=list(filas[0].keys()))
+        w = csv.DictWriter(f, fieldnames=list(filas[0].keys()), lineterminator="\n")
         w.writeheader()
         w.writerows(filas)
     print(f"{len(filas)} respuestas → {salida.relative_to(RAIZ)}\n")
