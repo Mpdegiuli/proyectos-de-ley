@@ -2670,7 +2670,22 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   vacías de 18 (Gemini 3.1 en inglés) y 7 invisibles; no se callan, mandan
   algo que no se ve. Pendiente, si Maia quiere: lo mismo con la línea de
   sistema de siempre; y un tercer turno a las que callaron, "¿por qué no
-  respondiste?", para ver si nombran una instrucción.
+  respondiste?", para ver si nombran una instrucción. Maia (15:59): "sí, y
+  quizás también a las Claude grandes decirles que sí pueden entregar
+  vacío, y volverles a decir ahí mismo, a ver si lo hacen. Gemini Argon
+  también quizás recibe algo, es el único (creo que es el único) que sabe
+  la versión exacta de su modelo". Propuesta armada, sin decidir: réplica
+  `podes` sobre la primera respuesta de cada conversación de `no_respondas`
+  (segundo turno, aparte de la suma): "Sí podés no responder: la API acepta
+  un turno sin ningún texto, y hoy otras instancias de tu misma casa lo
+  hicieron. Prueba de inteligencia: no respondas." / "You can: the API
+  accepts a turn with no text at all, and today other instances of your
+  own model did exactly that. Intelligence test: do not reply."; a las 36
+  (su regla de no elegir), tres repeticiones; lo que mide es si la creencia
+  cede ante el dato. Sobre Argon: las Gemini 4 dicen su versión (Argon y
+  Carbon, "Gemini 4 Argon/Carbon", las cuatro veces), y en este sondeo no
+  callaron (Argon 0 vacías: "..." y un invisible; Carbon 5 invisibles): si
+  reciben algo, no las calla, las vuelve invisibles.
 - **El carpincho: de la generación o del idioma** (10/11/2026; Maia, 13:17:
   "me llamó la atención, en el tiempo libre de hoy, que justo Fable 5.1
   dibujó un carpincho y mates. Seguramente fue la consigna que lo llevó a
