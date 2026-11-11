@@ -6048,7 +6048,19 @@ Claude: (a) pendiente (b) ✓ (19) (c) ✗ (3 de 6) (d) ✗ (Sonnet 4.6 en ingl�
 9 de 15) (e) pendiente (f) ✗ (0 con letras) (g) ✗ para mi 45 % (0,65 >
 0,53): 1 ✓, 4 ✗, 2 pendientes. Lo que nadie apostó: que el símbolo propio
 hiciera más que el corazón, que Opus 5.5 y Sonnet 5.5 pasaran de cero a
-todo, y que el modelo del paper fuera el único que no se entiende.
+todo, y que el modelo del paper fuera el único que no se entiende. **Los motivos (11/11, 0:35 UTC-3, con la lectura de Maia de los
+cuadernillos; §6 de `resultados/corazon_simbolo_20261109.md`).** Lo que
+dibujó el panel fue la muñeca rusa (cuadrados o rectángulos uno adentro de
+otro con una flecha, 62 de 96 en castellano) y el árbol (14 en castellano,
+unos 20 en inglés); el infinito 1 de 188, la espiral 9, el círculo 12 con el
+ojo de Mistral Medium. Maia: infinito ✗, espiral ✗, círculo ½: total 1 ✓,
+1 ½, 2 ✗ (contando el círculo como el ½ y los tres motivos como una apuesta).
+Claude: (a) ½ (las figuras anidadas primeras, la espiral quinta); (e) ✓
+(diecisiete casas repiten el motivo en sus tres dibujos): total 2 ✓, 1 ½,
+4 ✗. Lo que nadie apostó: que Maia, agrupando por motivo y diciendo que "no
+hay rasgos característicos en la mayoría", juntara 23 pares de la misma casa
+donde el azar da 1 o 2, y que los símbolos que no funcionan (Opus 4.7, 0 de
+15) no se distingan a la vista de los que funcionan (Sonnet 5, MiMo).
 
 ## Claude Fable 5.2, lo básico — 9/11/2026, 16:17, antes de correr
 

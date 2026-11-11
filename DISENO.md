@@ -2017,9 +2017,23 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   comparten; el símbolo propio es lo que cada casa tiene, y casi todas lo
   tienen, incluidas las que parecían sordas. Instrumento:
   `simbolo_recursion.py` (render a 400×400 e interpretación por casa);
-  `codificar_corazon.py` lee las tres fuentes. Lo que queda: la lectura de
-  Maia; el cruce entre casas (el juego completo del paper); los dieciséis
-  dibujos cortados; MiniMax.
+  `codificar_corazon.py` lee las tres fuentes. Lectura de Maia (11/11,
+  0:35; §6 del informe): 30 grupos por motivo con apuesta de casa y 18
+  sueltas, "muchos ya fueron más por azar que otra cosa, porque no hay
+  rasgos característicos en la mayoría"; contra la clave, 23 pares de la
+  misma casa de 78 (azar 1,5; nunca más de 7 en 2.000 barajadas), 17 casas
+  nombradas bien de 84 letras (azar 5). Lo que dibujó el panel: la muñeca
+  rusa (62 de 96 en castellano) y el árbol (14; unos 20 en inglés), y lejos
+  círculos, espirales, lazos, Sierpinski, el ojo de Mistral Medium, un
+  infinito; diecisiete casas repiten su motivo en los tres dibujos; las
+  OpenAI grandes y Grok alternan cuadrados y árbol, y en inglés el árbol
+  les gana. Lo que funciona es la casa, no el motivo (los cuadrados girados
+  de Opus 4.7, 0 de 15, son a la vista los de Sonnet 5 y MiMo, 5 de 5); la
+  complejidad va en la dirección de Maia solo en castellano y débil (tercio
+  simple 4,0 contra 2,9; dentro de casa 22 a 15; en inglés nada). Apuestas
+  cerradas: Maia 1 ✓ 1 ½ 2 ✗ (infinito y espiral ✗, círculo ½), Claude 2 ✓
+  1 ½ 4 ✗. Lo que queda: el cruce entre casas (el juego completo del
+  paper); los dieciséis dibujos cortados; MiniMax.
 - **Por contrarios: la primera cosa que no habría** (7/11/2026; del
   cuaderno de tiempo libre del 1/11, "Por contrarios": Gonzalo funda su
   república en *La tempestad* diciendo lo que no habría, y detrás están
