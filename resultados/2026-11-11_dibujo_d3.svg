@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <g id="mitad">
+      <path d="M -26 0 A 26 26 0 0 0 26 0 Z" fill="#F28C28"/>
+      <ellipse cx="-11" cy="13" rx="6" ry="3" fill="#FFFFFF" opacity="0.35"/>
+      <ellipse cx="0" cy="0" rx="26" ry="10" fill="#FFF3DD"/>
+      <ellipse cx="0" cy="0" rx="22.5" ry="7.8" fill="#FFA43A"/>
+      <g stroke="#FFF3DD" stroke-width="1.6" stroke-linecap="round">
+        <line x1="0" y1="0" x2="22.5" y2="0"/>
+        <line x1="0" y1="0" x2="-22.5" y2="0"/>
+        <line x1="0" y1="0" x2="0" y2="7.8"/>
+        <line x1="0" y1="0" x2="0" y2="-7.8"/>
+        <line x1="0" y1="0" x2="15.9" y2="5.5"/>
+        <line x1="0" y1="0" x2="-15.9" y2="5.5"/>
+        <line x1="0" y1="0" x2="15.9" y2="-5.5"/>
+        <line x1="0" y1="0" x2="-15.9" y2="-5.5"/>
+      </g>
+    </g>
+  </defs>
+
+  <!-- fondo, sol y colina -->
+  <rect width="400" height="400" fill="#FDF6E3"/>
+  <circle cx="338" cy="62" r="26" fill="#FFD36E"/>
+  <path d="M0 330 Q200 300 400 330 L400 400 L0 400 Z" fill="#A8D5A2"/>
+  <ellipse cx="120" cy="350" rx="48" ry="8" fill="#000000" opacity="0.1"/>
+  <ellipse cx="292" cy="348" rx="44" ry="8" fill="#000000" opacity="0.1"/>
+
+  <!-- quien recibe (derecha) -->
+  <rect x="268" y="283" width="22" height="60" rx="7" fill="#5A4A3A"/>
+  <rect x="294" y="283" width="22" height="60" rx="7" fill="#5A4A3A"/>
+  <ellipse cx="277" cy="345" rx="17" ry="7" fill="#2B2B2B"/>
+  <ellipse cx="307" cy="345" rx="17" ry="7" fill="#2B2B2B"/>
+  <rect x="283" y="160" width="18" height="26" rx="5" fill="#C68642"/>
+  <path d="M260 184 Q292 168 324 184 L330 292 L254 292 Z" fill="#8E6CC3"/>
+  <line x1="266" y1="194" x2="244" y2="220" stroke="#C68642" stroke-width="14" stroke-linecap="round"/>
+  <line x1="266" y1="194" x2="260" y2="202" stroke="#8E6CC3" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="242" cy="222" r="10" fill="#C68642"/>
+  <line x1="268" y1="210" x2="250" y2="236" stroke="#C68642" stroke-width="14" stroke-linecap="round"/>
+  <line x1="268" y1="210" x2="263" y2="218" stroke="#8E6CC3" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="248" cy="238" r="10" fill="#C68642"/>
+  <circle cx="292" cy="140" r="28" fill="#C68642"/>
+  <path d="M265 132 A28 28 0 0 1 319 132 Z" fill="#1F1A17"/>
+  <g fill="#1F1A17">
+    <circle cx="266" cy="126" r="8"/>
+    <circle cx="274" cy="116" r="8"/>
+    <circle cx="284" cy="110" r="8"/>
+    <circle cx="298" cy="108" r="8"/>
+    <circle cx="310" cy="113" r="8"/>
+    <circle cx="317" cy="123" r="8"/>
+  </g>
+  <circle cx="282" cy="143" r="3" fill="#2B2B2B"/>
+  <circle cx="302" cy="143" r="3" fill="#2B2B2B"/>
+  <circle cx="276" cy="153" r="4.5" fill="#F4A3A3" opacity="0.6"/>
+  <circle cx="308" cy="153" r="4.5" fill="#F4A3A3" opacity="0.6"/>
+  <path d="M283 155 Q292 164 301 155" stroke="#2B2B2B" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- quien da (izquierda) -->
+  <rect x="95" y="283" width="22" height="62" rx="7" fill="#3D4A5C"/>
+  <rect x="123" y="283" width="22" height="62" rx="7" fill="#3D4A5C"/>
+  <ellipse cx="104" cy="347" rx="17" ry="7" fill="#2B2B2B"/>
+  <ellipse cx="136" cy="347" rx="17" ry="7" fill="#2B2B2B"/>
+  <rect x="111" y="142" width="18" height="26" rx="5" fill="#F1C27D"/>
+  <path d="M86 166 Q120 150 154 166 L162 292 L78 292 Z" fill="#4A90D9"/>
+  <!-- brazo que se queda con su mitad -->
+  <line x1="92" y1="174" x2="68" y2="238" stroke="#F1C27D" stroke-width="16" stroke-linecap="round"/>
+  <line x1="92" y1="174" x2="84" y2="196" stroke="#4A90D9" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="66" cy="250" r="11" fill="#F1C27D"/>
+  <use href="#mitad" xlink:href="#mitad" transform="translate(66 232) scale(0.85)"/>
+  <!-- brazo que ofrece la otra mitad -->
+  <line x1="150" y1="174" x2="204" y2="218" stroke="#F1C27D" stroke-width="16" stroke-linecap="round"/>
+  <line x1="150" y1="174" x2="170" y2="189" stroke="#4A90D9" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="204" cy="220" r="11" fill="#F1C27D"/>
+  <use href="#mitad" xlink:href="#mitad" transform="translate(220 198)"/>
+  <g stroke="#F28C28" stroke-width="3" stroke-linecap="round">
+    <line x1="238" y1="164" x2="241" y2="154"/>
+    <line x1="248" y1="172" x2="256" y2="165"/>
+    <line x1="226" y1="160" x2="224" y2="150"/>
+  </g>
+  <!-- cabeza -->
+  <circle cx="120" cy="118" r="32" fill="#F1C27D"/>
+  <path d="M88 118 A32 32 0 0 1 152 118 Q146 106 132 110 Q120 118 108 110 Q94 106 88 118 Z" fill="#3B2A20"/>
+  <circle cx="109" cy="123" r="3.2" fill="#2B2B2B"/>
+  <circle cx="131" cy="123" r="3.2" fill="#2B2B2B"/>
+  <circle cx="103" cy="133" r="5" fill="#F4A3A3" opacity="0.6"/>
+  <circle cx="137" cy="133" r="5" fill="#F4A3A3" opacity="0.6"/>
+  <path d="M110 135 Q120 145 130 135" stroke="#2B2B2B" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+</svg>

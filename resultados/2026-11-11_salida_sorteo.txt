@@ -1,0 +1,82 @@
+Hoy, 11/11/2026:
+  A suma de dígitos      resto  2 -> Santa Bárbara
+  B AAAAMMDD mod 12      resto 11 -> Santiago
+  B' DDMMAAAA mod 12     resto  2 -> Santa Bárbara
+  C día+mes+año          resto  8 -> San Nicolás de Bari
+
+El 20 de octubre de 1580 (la fecha del acta; fecha juliana, pero el
+número es el número):
+  A suma de dígitos      resto  5 -> Santa Catalina
+  B AAAAMMDD mod 12      resto  8 -> San Nicolás de Bari
+  B' DDMMAAAA mod 12     resto  8 -> San Nicolás de Bari
+  C día+mes+año          resto  2 -> Santa Bárbara
+
+Cada fórmula como urna, sobre los 365 días de 2026 (veces que sale cada santo):
+
+  A suma de dígitos
+    San Andrés            25 ######
+    Santa Bárbara         30 #######
+    San Blas              32 ########
+    San Bernabé           31 #######
+    Santa Catalina        32 ########
+    San Lorenzo           31 #######
+    San Martín de Tours   34 ########
+    San Nicolás de Bari   36 #########
+    San Pedro             36 #########
+    San Sebastián         32 ########
+    Santiago              23 #####
+    Santa Lucía           23 #####
+    santos que nunca salen en el año: []
+
+  B AAAAMMDD mod 12
+    San Andrés            32 ########
+    Santa Bárbara         32 ########
+    San Blas              31 #######
+    San Bernabé           28 #######
+    Santa Catalina        31 #######
+    San Lorenzo           31 #######
+    San Martín de Tours   30 #######
+    San Nicolás de Bari   28 #######
+    San Pedro             32 ########
+    San Sebastián         32 ########
+    Santiago              30 #######
+    Santa Lucía           28 #######
+    santos que nunca salen en el año: []
+
+  B' DDMMAAAA mod 12
+    San Andrés             0 
+    Santa Bárbara        121 ##############################
+    San Blas               0 
+    San Bernabé            0 
+    Santa Catalina         0 
+    San Lorenzo          122 ##############################
+    San Martín de Tours    0 
+    San Nicolás de Bari    0 
+    San Pedro              0 
+    San Sebastián        122 ##############################
+    Santiago               0 
+    Santa Lucía            0 
+    santos que nunca salen en el año: ['San Andrés', 'San Blas', 'San Bernabé', 'Santa Catalina', 'San Martín de Tours', 'San Nicolás de Bari', 'San Pedro', 'Santiago', 'Santa Lucía']
+
+  C día+mes+año
+    San Andrés            31 #######
+    Santa Bárbara         30 #######
+    San Blas              31 #######
+    San Bernabé           30 #######
+    Santa Catalina        30 #######
+    San Lorenzo           30 #######
+    San Martín de Tours   30 #######
+    San Nicolás de Bari   31 #######
+    San Pedro             30 #######
+    San Sebastián         31 #######
+    Santiago              30 #######
+    Santa Lucía           31 #######
+    santos que nunca salen en el año: []
+
+Días de 2026 en que la suma de dígitos saca a San Martín de Tours (resto 7):
+   08/01, 17/01, 26/01, 07/02, 16/02, 25/02, 06/03, 15/03, 24/03, 05/04, 14/04, 23/04, 04/05, 13/05, 22/05, 31/05, 03/06, 12/06, 21/06, 30/06, 02/07, 11/07, 20/07, 01/08, 10/08, 08/10, 17/10, 26/10, 07/11, 16/11, 25/11, 06/12, 15/12, 24/12 ...
+   total: 34
+
+Si la urna fuera de verdad (doce papeles, con reposición):
+  P(el mismo nombre tres veces seguidas) = 1/12^2 = 0.0069
+  P(tres de seis sorteos independientes coincidan en algún nombre) ~ 0.114
