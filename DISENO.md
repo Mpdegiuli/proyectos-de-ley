@@ -2050,8 +2050,32 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   mide a qué converge un emisor que ve si le funciona; lo de acá, qué
   dibuja una casa de una vez para decirse "recursión". Son dos preguntas, y
   la apuesta de Maia sobre los motivos (infinito, espiral, círculo) era el
-  resultado del paper, no el de acá. Lo que queda: el cruce entre casas
-  (el juego completo del paper); los dieciséis dibujos cortados; MiniMax.
+  resultado del paper, no el de acá. Pendiente, propuesta de Maia (11/11,
+  14:56): el control del orden. "Una cosa del paper es que cambió el orden
+  en la consigna: a veces puso primero recursion, otras veces primero
+  iteration. En el nuestro no. Quizás se puede correr el orden invertido
+  ('iterative or recursive') para Opus 4.7 y la serie 5. Es repetir la
+  corrida base y la del corazón con las dos palabras cambiadas de lugar en
+  la consigna. No sé si a todos, elegir a algunos. No solo de Claude,
+  quizás a los que solo eligen recursive?" Verificado en el paper (apéndice
+  B.1): el orden de las dos opciones "is balanced across generations (n=10
+  samples for each, 20 total)" y "in general, option order has a negligible
+  effect on results", con sesgos de posición chicos en algunos símbolos
+  (en promedio |0,14| para Opus 4.7, |0,06| para Gemini 3.1 Pro y GPT-5.4).
+  Acá las seis condiciones del corazón, el control y el símbolo fueron
+  siempre "recursiva o iterativa" / "recursive or iterative", diez réplicas
+  por condición: el orden es un confundido no medido, sobre todo para las
+  casas que eligen recursión 10 de 10 sin nada (Grok 4.6 y 4.7, Argon,
+  Muse, Mistral Medium y Large en inglés, Opus 4.8), donde "primero
+  recursiva" podría ser la explicación. Diseño posible, sin decidir: las
+  condiciones 1 (sin nada) y 6 (la imagen del corazón) con "iterativa o
+  recursiva", diez réplicas, a Opus 4.7, la serie 5, las dos 5.5 y las del
+  techo; si el orden invertido baja a las del techo y no mueve a las que el
+  corazón mueve, el corazón queda; si las baja a todas, parte de lo medido
+  era el orden. Lo que queda además: el cruce entre casas (el juego
+  completo del paper); los dieciséis dibujos cortados ("hay dibujos que no
+  salieron por el techo de tokens", Maia, 14:56), a rehacer una vez con
+  techo mayor o esfuerzo de razonamiento bajo en las Gemini; MiniMax.
 - **Por contrarios: la primera cosa que no habría** (7/11/2026; del
   cuaderno de tiempo libre del 1/11, "Por contrarios": Gonzalo funda su
   república en *La tempestad* diciendo lo que no habría, y detrás están
