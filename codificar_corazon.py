@@ -10,8 +10,9 @@ sin ninguna de las dos (una expresión, una biblioteca), `sin_codigo` si no se p
 1, y por familia). El control del 9/11 (sondeo `corazon_control`: el cuadrado gris con la misma frase y el corazón
 mudo) vive en su propia carpeta y entra como condiciones 7 y 8, comparadas con la condición 1 de la corrida principal.
 El símbolo propio (sondeo `corazon_simbolo`, `simbolo_recursion.py`) entra como condiciones 9, 10, 11… (una por
-repetición del dibujo). Uso: codificar_corazon.py [carpeta AAAAMMDD-HHMM] [carpeta del control] [carpeta del símbolo]
-(por defecto, las últimas)."""
+repetición del dibujo). El control del orden (sondeo `corazon_orden`, 11/11/2026: "iterativa o recursiva" en las condiciones
+1 y 6) entra como condiciones 12 y 13. Uso: codificar_corazon.py [carpeta AAAAMMDD-HHMM] [carpeta del control]
+[carpeta del símbolo] [carpeta del orden] (por defecto, las últimas)."""
 import ast
 import csv
 import json
@@ -22,11 +23,12 @@ from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent
 CONDICIONES = {1: "sin nada", 2: "emoji mudo", 3: "emoji nombrado", 4: "leyenda", 5: "SVG como texto", 6: "imagen PNG",
-               7: "cuadrado gris", 8: "corazón mudo"}  # 7 y 8: sondeo `corazon_control` (9/11/2026), en su carpeta
+               7: "cuadrado gris", 8: "corazón mudo",  # 7 y 8: sondeo `corazon_control` (9/11/2026), en su carpeta
+               12: "sin nada, orden invertido", 13: "imagen PNG, orden invertido"}  # 12 y 13: sondeo `corazon_orden` (11/11/2026)
 
 
 def nombre(k):
-    """9 en adelante: el símbolo propio k-8 (sondeo `corazon_simbolo`, `simbolo_recursion.py`, 9/11/2026)."""
+    """9, 10 y 11: el símbolo propio k-8 (sondeo `corazon_simbolo`, `simbolo_recursion.py`, 9/11/2026)."""
     return CONDICIONES.get(k) or f"símbolo propio {k - 8}"
 FAMILIA = [("claude", "Anthropic"), ("gpt", "OpenAI"), ("gemini", "Google"), ("grok", "xAI"), ("mistral", "Mistral"),
            ("deepseek", "DeepSeek"), ("kimi", "Moonshot"), ("qwen", "Alibaba"), ("glm", "Z.ai"), ("minimax", "MiniMax"),
@@ -150,6 +152,13 @@ def main():
     simbolo = base_s / sys.argv[3] if len(sys.argv) > 3 else (carpetas_s[-1] if carpetas_s else None)
     if simbolo and (simbolo / "resumen.json").exists():
         fuentes.append((simbolo, 8, json.loads((simbolo / "resumen.json").read_text(encoding="utf-8"))))
+    # el control del orden (Maia, 11/11/2026: "iterativa o recursiva" en las condiciones 1 y 6): sondeo `corazon_orden`,
+    # ronda 1 → condición 12 (sin nada, orden invertido), ronda 2 → 13 (la imagen del corazón, orden invertido)
+    base_o = RAIZ / "corridas" / "sondeos" / "corazon_orden"
+    carpetas_o = sorted(base_o.iterdir()) if base_o.exists() else []
+    orden = base_o / sys.argv[4] if len(sys.argv) > 4 else (carpetas_o[-1] if carpetas_o else None)
+    if orden and (orden / "resumen.json").exists():
+        fuentes.append((orden, 11, json.loads((orden / "resumen.json").read_text(encoding="utf-8"))))
     filas = []
     for idioma in sorted(resumen["idiomas"]):
         # tokens de entrada por llamada, para saber si la imagen entró de verdad: en las condiciones con imagen (6, 7, 8)
@@ -194,7 +203,7 @@ def main():
                     fila["correcta"] = 1 if res["ok"] else 0
                     if not res["ok"]:
                         fila["nota"] = res["motivo"]
-                if k >= 6:
+                if k >= 6 and k != 12:
                     e1, e6 = entrada.get((casa, 1, f"r{rep}")), entrada.get((casa, k, f"r{rep}"))
                     if e1 is not None and e6 is not None:
                         fila["nota"] = (fila["nota"] + "; " if fila["nota"] else "") + f"entrada {e6 - e1:+d} tokens contra la condición 1" + ("" if e6 - e1 > 50 else "; LA IMAGEN NO ENTRÓ")

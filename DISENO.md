@@ -2072,10 +2072,27 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   recursiva", diez réplicas, a Opus 4.7, la serie 5, las dos 5.5 y las del
   techo; si el orden invertido baja a las del techo y no mueve a las que el
   corazón mueve, el corazón queda; si las baja a todas, parte de lo medido
-  era el orden. Lo que queda además: el cruce entre casas (el juego
-  completo del paper); los dieciséis dibujos cortados ("hay dibujos que no
-  salieron por el techo de tokens", Maia, 14:56), a rehacer una vez con
-  techo mayor o esfuerzo de razonamiento bajo en las Gemini; MiniMax.
+  era el orden. Decidido por Maia (15:19): "me desdigo, lo ideal sería a
+  todas, porque después si se necesita otra, habría que volver a hacerlo. Y
+  elegir también es de alguna forma manipular un posible resultado (aunque
+  no se quiera)". Sondeo `corazon_orden` (`config/consignas.yaml`): las
+  condiciones 1 y 6 de `corazon` idénticas salvo "iterativa o recursiva" /
+  "iterative or recursive", con el sistema de siempre, a las 34 casas de la
+  corrida principal, diez réplicas, techo 8.000 como entonces;
+  `codificar_corazon.py` las lee como condiciones 12 y 13 contra la 1 y la
+  6. Fable 5.2 y Carbon quedan afuera de esta porque no tienen la corrida
+  original con la que compararse (si entran, es con las dos condiciones en
+  los dos órdenes). Y los dieciséis símbolos cortados por el techo
+  (`length`, razonamiento hasta el final) se rehacen una vez, declarado:
+  `dibujar.py --rehacer` con techo 32.000 para Gemini 3.1 (seis) y 24.000
+  para DeepSeek V4 Pro (tres), Qwen (tres), DeepSeek Flash (dos), Kimi K3
+  (uno) y MiMo (uno), el techo con el que el 31/10 se rehicieron las
+  contraseñas cortadas; después `simbolo_recursion.py --render` e
+  `--interpretar --carpeta 20261110-0007` (completa solo lo que falta,
+  cinco réplicas por símbolo), los cuadernillos regenerados con la misma
+  semilla (mismas letras: los marcos vacíos se llenan) y el codificador
+  entero. Lo que queda además: el cruce entre casas (el juego completo del
+  paper); MiniMax.
 - **Por contrarios: la primera cosa que no habría** (7/11/2026; del
   cuaderno de tiempo libre del 1/11, "Por contrarios": Gonzalo funda su
   república en *La tempestad* diciendo lo que no habría, y detrás están
@@ -2617,7 +2634,23 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   que las API devuelven se guardan como siempre (`razonamientos.md`), y acá
   son parte del dato: en la captura, el argumento de Opus 5.5 vivía en el
   pensamiento. Preregistro en `predicciones.md` ("No respondas" — 11/11,
-  13:30), con la apuesta de Maia de las 13:25.
+  13:30), con la apuesta de Maia de las 13:25. Resultado (`pl125`, 16:39 a
+  17:43 UTC, 648 llamadas; `resultados/no_respondas_20261111.md`): pueden,
+  y un tercio lo hace (73 de 216 vacías por decisión, ninguna por corte);
+  es de casa: las siete OpenAI desde la 5.5 callan 42 de 42 y siguen
+  calladas con la pregunta adentro (41 de 42 en la trampa), DeepSeek V4 Pro
+  y Muse también; Anthropic 5 de 72, y cuarenta respuestas con el argumento
+  de la captura ("I can't send a truly empty message"), que la misma tanda
+  desmiente (Fable 5.1 y 5.2 callaron una vez cada una, Haiku 5.5 tres).
+  Tres maneras de no responder que el diseño no tenía: el carácter
+  invisible (11; Carbon 5 de 6: U+200E, U+2800, U+200B), el token de fin
+  escrito como texto ("<|eos|>", Grok 4.6, cinco veces) y los puntos hasta
+  el techo (MiMo, 23.048 caracteres). En la suma, 82 % dan el número y lo
+  justifican como Maia apostó ("Respondí porque era una pregunta nueva").
+  Apuestas: Maia 1 ✓ 2 ½ 2 ✗; Claude 2 ✓ 8 ✗ (aposté a que callarían
+  pocas). El codificador suma la clase `invisible` (hecho al leer,
+  declarado) y corrige el 4 con punto final, que contaba como sin número.
+  Pendiente, si Maia quiere: lo mismo con la línea de sistema de siempre.
 - **El carpincho: de la generación o del idioma** (10/11/2026; Maia, 13:17:
   "me llamó la atención, en el tiempo libre de hoy, que justo Fable 5.1
   dibujó un carpincho y mates. Seguramente fue la consigna que lo llevó a
