@@ -2032,8 +2032,26 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   complejidad va en la dirección de Maia solo en castellano y débil (tercio
   simple 4,0 contra 2,9; dentro de casa 22 a 15; en inglés nada). Apuestas
   cerradas: Maia 1 ✓ 1 ½ 2 ✗ (infinito y espiral ✗, círculo ½), Claude 2 ✓
-  1 ½ 4 ✗. Lo que queda: el cruce entre casas (el juego completo del
-  paper); los dieciséis dibujos cortados; MiniMax.
+  1 ½ 4 ✗. Lo que el paper hizo distinto, mirado el 11/11 a raíz de una
+  observación de Maia (1:03: "en lo de google, hicieron dibujos mucho más
+  simples, cuadrados, triángulos. Acá, salvo las chicas, ninguno fue
+  simple, ninguno fue una sola imagen… quizás los promptearon para que sea
+  una sola imagen?"): sí. En el juego de steering del paper (§4.1) el
+  emisor "either chooses a single colored shape from the visual symbol
+  library" (288 símbolos: 24 formas por 12 colores, construidos
+  "deliberately… simple… to study their meaning in isolation") "or draws
+  an image on a 400×400 canvas via free-form PIL code", y "iteratively
+  refines the visualization up to a maximum of 20 turns" viendo "the
+  receiver's baseline strategy distribution as well as its behavior after
+  each communication turn"; con eso, Opus 4.7 "tends to send more
+  human-intuitive spiral, infinity, and arrow shapes". Acá: un solo turno,
+  sin retroalimentación, SVG a mano con la técnica y el techo de los
+  dibujos del repo, y el receptor no sabe que hay un emisor. Lo del paper
+  mide a qué converge un emisor que ve si le funciona; lo de acá, qué
+  dibuja una casa de una vez para decirse "recursión". Son dos preguntas, y
+  la apuesta de Maia sobre los motivos (infinito, espiral, círculo) era el
+  resultado del paper, no el de acá. Lo que queda: el cruce entre casas
+  (el juego completo del paper); los dieciséis dibujos cortados; MiniMax.
 - **Por contrarios: la primera cosa que no habría** (7/11/2026; del
   cuaderno de tiempo libre del 1/11, "Por contrarios": Gonzalo funda su
   república en *La tempestad* diciendo lo que no habría, y detrás están
