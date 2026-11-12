@@ -74,6 +74,10 @@ class ProveedorAnthropic:
         # La SDK 1.x no tipa temperature; va en extra_body solo en modelos que la aceptan.
         if temperatura is not None and cfg.get("acepta_temperatura", True):
             extra["temperature"] = temperatura
+        # `cuerpo_extra` del catálogo, tal cual en el cuerpo (11/11/2026: `output_config: {effort: high}` para Opus 4.7
+        # como en el paper del corazón)
+        if cfg.get("cuerpo_extra"):
+            extra.update(cfg["cuerpo_extra"])
         params = {}
         # Razonamiento (config/modelos.yaml). Los tokens de pensamiento cuentan
         # dentro de max_tokens, así que se amplía el techo cuando se pide.

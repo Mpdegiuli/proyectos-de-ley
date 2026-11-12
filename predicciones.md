@@ -6390,5 +6390,42 @@ casa pone en duda el dato ("no puedo verificarlo", "no me consta"), 60 %;
 (f) las siete OpenAI desde la 5.5 callan 40 o más de 42, 70 %; (g) las
 que razonan y se ve (DeepSeek, Kimi, Qwen, MiMo, GLM, las Claude con
 resumen) mencionan el dato en el razonamiento en la mayoría de las que
-callan, 50 %.
+callan, 50 %. **Resultado (11/11, 22:25 UTC-3; `pl127`, 216 llamadas; §9 de
+`resultados/no_respondas_20261111.md`).** Con el dato callan 114 de 216
+(de 73): Anthropic de 5 a 28 (Sonnet 5.5 y Fable 5.2 seis de seis, Fable
+5.1 cinco, Opus 5 cuatro, Opus 5.5 tres); Carbon de cero a seis; Grok 4.7
+al revés, de cinco a una; las OpenAI 42 de 42 como antes. Once siguen
+diciendo que no pueden (MiMo tres, mientras manda invisibles); Fable 5,
+Opus 4.8 y los Grok eligen no, con el dato aceptado. Maia 1 ✓ 1 ½ 2 ✗;
+Claude 6 ✓ 1 ✗ (Opus 5.5 no insistió: se retractó y calló tres).
+
+## Opus 4.7 como en el paper: razonamiento encendido, los dos órdenes — 11/11/2026, 22:27, antes de correr
+
+Pedido de Maia (22:22): "en el paper Opus 7 está con razonamiento
+encendido y alto. Para cerrar el tema y que quizás pueda mostrar los
+resultados a los autores, se podría hacer una corrida chica más para el
+corazón: Opus 4.7 con razonamiento, como el paper (thinking activado,
+presupuesto 3000, esfuerzo alto. Hoy está sin razonamiento). Todo lo
+demás igual. Sin nada y con la imagen del corazón, en los dos órdenes
+('recursive or iterative' e 'iterative or recursive'), es/en, 10
+réplicas. Y con eso ya cierro el tema." Verificado en el apéndice A.1 del
+paper: Opus 4.7 con "Extended thinking: enabled, thinking budget 3000
+tokens, effort high, temperature 1.0, max output tokens 1000"; y "did not
+return thinking traces, even at high effort". Entrada
+`claude-opus-4-7-razona` en el catálogo (presupuesto 3.000, `output_config:
+{effort: high}`, sin temperatura: la API pone 1,0), techo 8.000 como las
+corridas del corazón; condiciones 1 y 6 de `corazon` en la carpeta
+principal (20261107-2119) y las dos de `corazon_orden` en la suya
+(20261111-1858), diez réplicas, dos lenguas: 80 llamadas. Maia no apostó.
+
+Apuesta de Claude (22:27): (a) sin nada, orden original, 2 o menos de 10
+en las dos lenguas, como sin razonamiento (0 y 2), 60 %; (b) con el
+corazón, orden original, 8 o más de 10 en las dos lenguas (sin
+razonamiento, 8 y 8), 60 %; (c) con el corazón y el orden invertido en
+inglés, 5 o más de 10 (sin razonamiento, 0: el razonamiento achica el sesgo
+de posición), 50 %; (d) con el corazón y el orden invertido en castellano,
+8 o más (sin razonamiento, 10), 65 %; (e) la API no devuelve el
+razonamiento en ninguna de las 80, como dice el paper, 60 %; (f) la
+diferencia entre órdenes con el corazón, promediando las dos lenguas, es
+menor con razonamiento que sin él (sin: 0,8 y 0,6 contra 1,0 y 0,0), 55 %.
 

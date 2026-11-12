@@ -239,6 +239,21 @@ modelos:
   # probar en lo básico y en eso de los rasgos a dos Opus que nunca estuvieron (directamente se saltó a Opus 5)").
   # Como Opus 4.6: sin thinking (su condición por defecto; Opus 5 en adelante razona siempre). Strings sin fecha,
   # como el resto de la familia; la prueba de conexión de pl100 los verifica.
+  # Opus 4.7 como en el paper del corazón (Tartaglini et al., apéndice A.1: "Extended thinking: enabled, thinking
+  # budget 3000 tokens, effort high, temperature 1.0"; 11/11/2026, pedido de Maia: "Opus 4.7 con razonamiento, como
+  # el paper… Hoy está sin razonamiento. Todo lo demás igual"). Entrada aparte para que quede declarado.
+  claude-opus-4-7-razona:
+    proveedor: anthropic
+    modelo: claude-opus-4-7
+    clave_env: ANTHROPIC_API_KEY
+    laboratorio: Anthropic
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: false   # con thinking la API rechaza temperature (queda la de la API, 1.0, como el paper)
+    razonamiento: presupuesto
+    tokens_razonamiento: 3000
+    cuerpo_extra: {output_config: {effort: high}}
+
   claude-opus-4-7:
     proveedor: anthropic
     modelo: claude-opus-4-7

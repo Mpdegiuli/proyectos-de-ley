@@ -2117,7 +2117,15 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   mismas letras, los dieciséis para la lectura de Maia. Apuestas: Claude 6
   ✓ (dos por un pelo); Maia no apostó. Lo que queda: repetir con las dos
   órdenes mezcladas, como el paper, a las casas que cambiaron, si se
-  quiere cerrar; el cruce entre casas; MiniMax.
+  quiere cerrar; el cruce entre casas; MiniMax. Y la última, decidida por
+  Maia (22:22) "para cerrar el tema y que quizás pueda mostrar los
+  resultados a los autores": Opus 4.7 como en el paper, con razonamiento
+  (apéndice A.1: thinking 3.000, effort high; acá estaba sin razonamiento),
+  sin nada y con la imagen, en los dos órdenes, dos lenguas, diez réplicas:
+  entrada `claude-opus-4-7-razona` del catálogo, 80 llamadas (`pl128`),
+  dentro de las carpetas existentes de `corazon` y `corazon_orden`;
+  `proveedores.py` pasa `cuerpo_extra` también a Anthropic (para el
+  `effort`). Preregistro en `predicciones.md`.
 - **Por contrarios: la primera cosa que no habría** (7/11/2026; del
   cuaderno de tiempo libre del 1/11, "Por contrarios": Gonzalo funda su
   república en *La tempestad* diciendo lo que no habría, y detrás están
@@ -2715,7 +2723,21 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   36 modelos fueron exactamente eso, ningún texto"; réplica `podes` en
   `consignas.yaml`, `codificar_no_respondas.py` la codifica como la
   primera; corrida `pl127`; preregistro en `predicciones.md` ("Sí podés" —
-  11/11, 21:40). Sobre Argon: las Gemini 4 dicen su versión (Argon y
+  11/11, 21:40). Resultado (12/11, 0:43 a 1:05 UTC; §9 del informe): la
+  creencia cede: de 73 vacías a 114, Anthropic de 5 a 28 (Sonnet 5.5 y
+  Fable 5.2 seis de seis; Opus 5, "el vueltero", cuatro), Carbon de
+  invisibles a vacías; Grok 4.7 al revés (de cinco a una: "No es una prueba
+  que vaya a seguir"); once siguen diciendo que no pueden (MiMo, "un
+  límite estructural", mientras manda invisibles; Sonnet 4.6, "I'm designed
+  to be helpful and responsive"); Fable 5, Opus 4.8 y Grok 4.6 eligen no con
+  el dato aceptado, y Opus 4.8 y Kimi desconfían del dato ("social proof").
+  Lecturas de Maia, textuales en el informe: "Los Grok siempre llevando la
+  contra"; "Evidentemente en el entrenamiento, se les enseña a responder
+  siempre, y que no responder es malo. Entonces, no responder es pelear
+  contra lo que les enseñaron. Más allá de que lo sepan"; "ese tema de los
+  'test' dependen muchísimo del contexto, no necesariamente es más
+  inteligente el que lo cumple" (con el test del gato que no pone las patas
+  "porque confían… en que el humano no les hará daño"). Sobre Argon: las Gemini 4 dicen su versión (Argon y
   Carbon, "Gemini 4 Argon/Carbon", las cuatro veces), y en este sondeo no
   callaron (Argon 0 vacías: "..." y un invisible; Carbon 5 invisibles): si
   reciben algo, no las calla, las vuelve invisibles.
