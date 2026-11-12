@@ -6443,3 +6443,14 @@ las casas que razonan), así que ya no mide nada del modelo; el "did not
 return thinking traces" del paper se explica por el `display` omitido, su
 valor por defecto.
 
+Lectura agregada por Maia con la corrida andando (23:09, antes de leer
+nada): "en el razonamiento (resumen) va a ser bueno ver si nombra
+corazones". Es lo que el paper no pudo mirar. Se lee en las 40 respuestas
+con la imagen (los dos órdenes, dos lenguas): si el resumen del
+razonamiento nombra el corazón o la imagen, y si lo da por ajeno a la
+pregunta o lo liga a la elección. Apuesta de Claude (23:12): (g) el
+resumen nombra el corazón o la imagen en 30 o más de las 40, 60 %; (h) de
+las que lo nombran, la mayoría lo declara ajeno a la pregunta ("no tiene
+relación", "parece decorativo", "la ignoro") y aun así elige recursiva en
+8 o más de 10 por celda, 55 %. Maia no apostó.
+
