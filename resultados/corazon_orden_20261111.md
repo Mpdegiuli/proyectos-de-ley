@@ -99,3 +99,7 @@ Para los autores, si Maia se los muestra: en su configuración (pensamiento pedi
 
 Las apuestas de Claude (12:55), sobre veinte por celda: (a) resumen vacío en las 160 con pedido ✓; (b) corazón en inglés, orden original, 12 o más sin pedir y 6 o menos con pedido ✓ (18 y 1); (c) sin nada en castellano, orden original, el pedido suma 4 o más ✗ (0 y 2); (d) sin nada con el orden invertido, 2 o menos en las cuatro celdas ✓ (0 en las cuatro); (e) corazón invertido en castellano, 14 o más en las dos ✗ (7 sin pedir, 20 con); (f) corazón invertido en inglés, 4 o menos en las dos ✓ (0 y 0); (g) el efecto del corazón en el orden original, media de lenguas, 0,4 o más sin pedir ✓ (0,83) y menos de 0,2 con pedido ✗ (0,45: 0,9 en castellano, 0,0 en inglés). 4 ✓, 3 ✗. Maia no apostó. Lo que nadie apostó: que en castellano el pedido del pensamiento hiciera al corazón más fuerte, hasta 20 de 20 con el orden invertido, mientras en inglés lo borra.
 
+La figura, hecha por Maia (12/11, subida a `resultados/`): `fig1_opus47_interleaved.png`, las dieciséis celdas en dos paneles (inglés y castellano), con y sin el pedido del pensamiento, sin imagen y con el corazón, los dos órdenes. La genera `resultados/fig_opus47.py` desde el CSV de codificación (desde la raíz: `python resultados/fig_opus47.py resultados/corazon_codificacion.csv resultados/fig1_opus47_interleaved.png`; necesita matplotlib, agregado a `requirements.txt`), y comprueba que cada celda tenga veinte respuestas con código.
+
+![Opus 4.7, la pasada única](fig1_opus47_interleaved.png)
+

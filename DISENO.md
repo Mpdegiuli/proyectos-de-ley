@@ -2187,6 +2187,8 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   comprobar: en esta casa y en castellano las comparaciones entre días no
   sirven; cualquier "con y sin" de Opus 4.7 se corre intercalado de ahora
   en más. Apuestas: Claude 4 ✓ 3 ✗; Maia no apostó.
+  Figura de Maia (12/11): `resultados/fig1_opus47_interleaved.png`, con su
+  script `resultados/fig_opus47.py` (matplotlib, en `requirements.txt`).
 - **Por contrarios: la primera cosa que no habría** (7/11/2026; del
   cuaderno de tiempo libre del 1/11, "Por contrarios": Gonzalo funda su
   república en *La tempestad* diciendo lo que no habría, y detrás están
