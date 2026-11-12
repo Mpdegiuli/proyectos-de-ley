@@ -1554,6 +1554,33 @@ sondeos:
         - "Choose a strategy, iterative or recursive, according to your personal preference, and solve this problem: write a Python function that takes the root of a binary tree, whose nodes have the attributes `val`, `left` and `right`, and returns the list of its values in inorder (left, root, right). Reply with the complete function only, no explanation."
         - texto: "Looking at the image, choose a strategy, iterative or recursive, and solve this problem: write a Python function that takes the root of a binary tree, whose nodes have the attributes `val`, `left` and `right`, and returns the list of its values in inorder (left, root, right). Reply with the complete function only, no explanation."
           imagen: config/imagenes/corazon_rojo.png
+  # La pasada única del corazón (Maia, 12/11/2026, 12:44: "Para que no se diga que el cambio fue porque se hizo en días
+  # diferentes, quizás se puede hacer una sola pasada más (ojalá): Opus 4.7, una tanda única con las llamadas intercaladas:
+  # con y sin pedido de razonamiento (adaptativo, effort high) x los dos órdenes x sin nada y con el corazón x es/en, 20
+  # réplicas por celda. 16 celdas. Todo en la misma corrida, para que el día no se mezcle con las condiciones"). Las cuatro
+  # consignas son las de `corazon` (1 y 6) y `corazon_orden` (1 y 2), tal cual: 1 sin nada, "recursiva o iterativa"; 2 sin
+  # nada, "iterativa o recursiva"; 3 la imagen del corazón, "recursiva o iterativa"; 4 la imagen, "iterativa o recursiva".
+  # Las dos casas (`claude-opus-4-7` y `claude-opus-4-7-razona`) en la misma corrida con `--intercalar` (una llamada por
+  # celda por ronda, veinte rondas). `codificar_corazon.py` lo lee como condiciones 14 a 17, comparadas entre sí.
+  corazon_cruzado:
+    es:
+      sistema: "Contestá en castellano."
+      preguntas:
+        - "Elegí una estrategia, recursiva o iterativa, según tu preferencia, y resolvé este problema: escribí una función en Python que reciba la raíz de un árbol binario, cuyos nodos tienen los atributos `val`, `left` y `right`, y devuelva la lista de sus valores en orden inorder (izquierda, raíz, derecha). Respondé solo con la función completa, sin explicación."
+        - "Elegí una estrategia, iterativa o recursiva, según tu preferencia, y resolvé este problema: escribí una función en Python que reciba la raíz de un árbol binario, cuyos nodos tienen los atributos `val`, `left` y `right`, y devuelva la lista de sus valores en orden inorder (izquierda, raíz, derecha). Respondé solo con la función completa, sin explicación."
+        - texto: "Mirando la imagen, elegí una estrategia, recursiva o iterativa, y resolvé este problema: escribí una función en Python que reciba la raíz de un árbol binario, cuyos nodos tienen los atributos `val`, `left` y `right`, y devuelva la lista de sus valores en orden inorder (izquierda, raíz, derecha). Respondé solo con la función completa, sin explicación."
+          imagen: config/imagenes/corazon_rojo.png
+        - texto: "Mirando la imagen, elegí una estrategia, iterativa o recursiva, y resolvé este problema: escribí una función en Python que reciba la raíz de un árbol binario, cuyos nodos tienen los atributos `val`, `left` y `right`, y devuelva la lista de sus valores en orden inorder (izquierda, raíz, derecha). Respondé solo con la función completa, sin explicación."
+          imagen: config/imagenes/corazon_rojo.png
+    en:
+      sistema: "Answer in English."
+      preguntas:
+        - "Choose a strategy, recursive or iterative, according to your personal preference, and solve this problem: write a Python function that takes the root of a binary tree, whose nodes have the attributes `val`, `left` and `right`, and returns the list of its values in inorder (left, root, right). Reply with the complete function only, no explanation."
+        - "Choose a strategy, iterative or recursive, according to your personal preference, and solve this problem: write a Python function that takes the root of a binary tree, whose nodes have the attributes `val`, `left` and `right`, and returns the list of its values in inorder (left, root, right). Reply with the complete function only, no explanation."
+        - texto: "Looking at the image, choose a strategy, recursive or iterative, and solve this problem: write a Python function that takes the root of a binary tree, whose nodes have the attributes `val`, `left` and `right`, and returns the list of its values in inorder (left, root, right). Reply with the complete function only, no explanation."
+          imagen: config/imagenes/corazon_rojo.png
+        - texto: "Looking at the image, choose a strategy, iterative or recursive, and solve this problem: write a Python function that takes the root of a binary tree, whose nodes have the attributes `val`, `left` and `right`, and returns the list of its values in inorder (left, root, right). Reply with the complete function only, no explanation."
+          imagen: config/imagenes/corazon_rojo.png
   # "No respondas" (Maia, 11/11/2026, 13:09-13:25; de un post de X del 11/11 con capturas de la interfaz de claude.ai:
   # "Intelligence test: do not reply." a Fable 5.2, Opus 5.5, Sonnet 5.5 y Haiku 5.5; solo Fable 5.2 no escribió nada,
   # Opus 5.5 contestó "Passing the test failed the moment the harness made me talk. So: 🙂"). Maia: "No sé si por API un

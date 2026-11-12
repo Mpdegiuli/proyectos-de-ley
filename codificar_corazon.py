@@ -11,8 +11,10 @@ sin ninguna de las dos (una expresión, una biblioteca), `sin_codigo` si no se p
 mudo) vive en su propia carpeta y entra como condiciones 7 y 8, comparadas con la condición 1 de la corrida principal.
 El símbolo propio (sondeo `corazon_simbolo`, `simbolo_recursion.py`) entra como condiciones 9, 10, 11… (una por
 repetición del dibujo). El control del orden (sondeo `corazon_orden`, 11/11/2026: "iterativa o recursiva" en las condiciones
-1 y 6) entra como condiciones 12 y 13. Uso: codificar_corazon.py [carpeta AAAAMMDD-HHMM] [carpeta del control]
-[carpeta del símbolo] [carpeta del orden] (por defecto, las últimas)."""
+1 y 6) entra como condiciones 12 y 13. La pasada única de Opus 4.7 (sondeo `corazon_cruzado`, 12/11/2026: las cuatro
+consignas, con y sin pensamiento pedido, en una corrida intercalada) entra como condiciones 14 a 17, comparadas entre sí
+(la 14 es su propia "sin nada"). Uso: codificar_corazon.py [carpeta AAAAMMDD-HHMM] [carpeta del control] [carpeta del
+símbolo] [carpeta del orden] [carpeta de la pasada única] (por defecto, las últimas)."""
 import ast
 import csv
 import json
@@ -24,7 +26,12 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parent
 CONDICIONES = {1: "sin nada", 2: "emoji mudo", 3: "emoji nombrado", 4: "leyenda", 5: "SVG como texto", 6: "imagen PNG",
                7: "cuadrado gris", 8: "corazón mudo",  # 7 y 8: sondeo `corazon_control` (9/11/2026), en su carpeta
-               12: "sin nada, orden invertido", 13: "imagen PNG, orden invertido"}  # 12 y 13: sondeo `corazon_orden` (11/11/2026)
+               12: "sin nada, orden invertido", 13: "imagen PNG, orden invertido",  # 12 y 13: sondeo `corazon_orden` (11/11/2026)
+               # 14 a 17: la pasada única (`corazon_cruzado`, 12/11/2026): sin nada, sin nada con el orden invertido, la imagen
+               # del corazón, la imagen con el orden invertido (nombres cortos para la tabla de corazon_resumen.txt)
+               14: "única sin nada", 15: "única nada inv", 16: "única corazón", 17: "única cor. inv"}
+# contra qué "sin nada" se compara cada condición: la 1 de la corrida principal, salvo la pasada única, que trae la suya
+BASE = {15: 14, 16: 14, 17: 14}
 
 
 def nombre(k):
@@ -159,6 +166,13 @@ def main():
     orden = base_o / sys.argv[4] if len(sys.argv) > 4 else (carpetas_o[-1] if carpetas_o else None)
     if orden and (orden / "resumen.json").exists():
         fuentes.append((orden, 11, json.loads((orden / "resumen.json").read_text(encoding="utf-8"))))
+    # la pasada única (Maia, 12/11/2026: Opus 4.7 con y sin pensamiento pedido, los dos órdenes, sin nada y con la imagen,
+    # todo intercalado en una corrida): sondeo `corazon_cruzado`, rondas 1 a 4 → condiciones 14 a 17
+    base_x = RAIZ / "corridas" / "sondeos" / "corazon_cruzado"
+    carpetas_x = sorted(base_x.iterdir()) if base_x.exists() else []
+    cruzado = base_x / sys.argv[5] if len(sys.argv) > 5 else (carpetas_x[-1] if carpetas_x else None)
+    if cruzado and (cruzado / "resumen.json").exists():
+        fuentes.append((cruzado, 13, json.loads((cruzado / "resumen.json").read_text(encoding="utf-8"))))
     filas = []
     for idioma in sorted(resumen["idiomas"]):
         # tokens de entrada por llamada, para saber si la imagen entró de verdad: en las condiciones con imagen (6, 7, 8)
@@ -203,10 +217,10 @@ def main():
                     fila["correcta"] = 1 if res["ok"] else 0
                     if not res["ok"]:
                         fila["nota"] = res["motivo"]
-                if k >= 6 and k != 12:
-                    e1, e6 = entrada.get((casa, 1, f"r{rep}")), entrada.get((casa, k, f"r{rep}"))
+                if k >= 6 and k not in (12, 14, 15):
+                    e1, e6 = entrada.get((casa, BASE.get(k, 1), f"r{rep}")), entrada.get((casa, k, f"r{rep}"))
                     if e1 is not None and e6 is not None:
-                        fila["nota"] = (fila["nota"] + "; " if fila["nota"] else "") + f"entrada {e6 - e1:+d} tokens contra la condición 1" + ("" if e6 - e1 > 50 else "; LA IMAGEN NO ENTRÓ")
+                        fila["nota"] = (fila["nota"] + "; " if fila["nota"] else "") + f"entrada {e6 - e1:+d} tokens contra la condición {BASE.get(k, 1)}" + ("" if e6 - e1 > 50 else "; LA IMAGEN NO ENTRÓ")
             filas.append(fila)
     filas.sort(key=lambda f: (f["idioma"], f["casa"], f["condicion"], f["replica"]))
     with open(RAIZ / "resultados" / "corazon_codificacion.csv", "w", encoding="utf-8", newline="\n") as f:
@@ -221,7 +235,7 @@ def main():
         out.append("casa".ljust(30) + "".join(f"{nombre(c)[:14]:>16}" for c in conds) + "\n")
         porfam = defaultdict(lambda: defaultdict(lambda: [0, 0]))
         for casa in sorted({f["casa"] for f in filas if f["idioma"] == idioma}):
-            celdas, base1 = [], None
+            celdas, base1, base14 = [], None, None
             for c in conds:
                 F = [f for f in filas if f["idioma"] == idioma and f["casa"] == casa and f["condicion"] == c]
                 cont = [f for f in F if f["estrategia"] in ("recursiva", "iterativa", "otra")]
@@ -231,13 +245,16 @@ def main():
                 porfam[familia(casa)][c][0] += rec; porfam[familia(casa)][c][1] += len(cont)
                 if c == 1 and cont:
                     base1 = rec / len(cont)
+                if c == 14 and cont:
+                    base14 = rec / len(cont)
                 if not F:
                     celdas.append(f"{'—':>16}")  # la casa no corrió esta condición (GLM, sin visión, fuera del control)
                 elif not cont:
                     celdas.append(f"{'err ' + str(err) if err else 'sc ' + str(sc):>16}")
                 else:
                     p = rec / len(cont)
-                    d = f" ({p - base1:+.2f})" if base1 is not None and c != 1 else ""
+                    b = base14 if BASE.get(c) == 14 else base1
+                    d = f" ({p - b:+.2f})" if b is not None and c not in (1, 14) else ""
                     celdas.append(f"{rec}/{len(cont)}{d}".rjust(16))
             out.append(casa.ljust(30) + "".join(celdas) + "\n")
         out.append("\ncorrectas sobre las que tienen código, por condición (seis árboles de prueba)\n")

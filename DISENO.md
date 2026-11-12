@@ -2154,8 +2154,23 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   pedir el pensamiento en la llamada (Fisher 0,006 y 0,03); la
   configuración del pensamiento se vuelca al prompt aunque no se use.
   Apuestas: Claude 1 ✓ 5 ✗, una anulada, una sin base; Maia no apostó.
-  Con esto Maia cierra el tema del corazón ("Y con eso ya cierro el
-  tema").
+  La pasada única (Maia, 12/11, 12:44: "Para que no se diga que el cambio
+  fue porque se hizo en días diferentes, quizás se puede hacer una sola
+  pasada más (ojalá): Opus 4.7, una tanda única con las llamadas
+  intercaladas: con y sin pedido de razonamiento (adaptativo, effort
+  high) x los dos órdenes x sin nada y con el corazón x es/en, 20 réplicas
+  por celda. 16 celdas. Todo en la misma corrida, para que el día no se
+  mezcle con las condiciones"): sondeo `corazon_cruzado` en
+  `config/consignas.yaml` (las cuatro consignas tal cual, de `corazon` 1
+  y 6 y de `corazon_orden` 1 y 2), las dos entradas del catálogo en la
+  misma corrida, veinte réplicas, y `sondear.py --intercalar` (nuevo: las
+  llamadas por rondas, en cada ronda una por celda pregunta × idioma ×
+  casa, las rondas una tras otra; el orden de siempre, idioma → casa →
+  pregunta → repetición, sigue siendo el default). 320 llamadas, techo
+  8.000, el sistema de siempre (`pl130`). `codificar_corazon.py` lo lee
+  como condiciones 14 a 17, comparadas con su propia "sin nada" (la 14) y
+  no con la de la corrida principal, que es de otro día. Preregistro en
+  `predicciones.md` (12:55).
 - **Por contrarios: la primera cosa que no habría** (7/11/2026; del
   cuaderno de tiempo libre del 1/11, "Por contrarios": Gonzalo funda su
   república en *La tempestad* diciendo lo que no habría, y detrás están

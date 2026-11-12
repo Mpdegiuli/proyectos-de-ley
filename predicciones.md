@@ -6466,3 +6466,36 @@ resumen); (h) sin base. 1 ✓, 5 ✗. Maia no apostó. Lo que nadie apostó:
 que el pensamiento pedido no se usara ni una vez y que igual moviera los
 números.
 
+
+## La pasada única del corazón: Opus 4.7, con y sin pensamiento pedido, los dos órdenes, intercalado — 12/11/2026, 12:55, antes de correr
+
+Pedido de Maia (12:44): "Para que no se diga que el cambio fue porque se
+hizo en días diferentes, quizás se puede hacer una sola pasada más
+(ojalá): Opus 4.7, una tanda única con las llamadas intercaladas: con y
+sin pedido de razonamiento (adaptativo, effort high) x los dos órdenes x
+sin nada y con el corazón x es/en, 20 réplicas por celda. 16 celdas. Todo
+en la misma corrida, para que el día no se mezcle con las condiciones."
+Sondeo `corazon_cruzado` (las cuatro consignas tal cual: sin nada y la
+imagen del corazón, "recursiva o iterativa" e "iterativa o recursiva"),
+las dos entradas del catálogo (`claude-opus-4-7`, sin pensamiento, y
+`claude-opus-4-7-razona`, adaptativo con effort high), dos lenguas, veinte
+réplicas, `--intercalar`: veinte rondas y en cada ronda una llamada por
+celda. 320 llamadas, techo 8.000, el sistema de siempre. Lo que hay hasta
+ahora, en días distintos (recursivas de diez; sin nada, sin nada
+invertido; corazón, corazón invertido): sin pedir pensamiento, castellano
+0, 0; 8, 10 e inglés 2, 0; 8, 0; con el pensamiento pedido, castellano
+5, 0; 5, 9 e inglés 1, 0; 1, 1.
+
+Apuesta de Claude (12:55), sobre veinte réplicas por celda: (a) el
+pensamiento pedido no se usa: resumen vacío en las 160 llamadas con
+pedido, 75 %; (b) el corazón en inglés con el orden original, la
+diferencia que motivó la pasada: sin pedir 12 o más de 20 y con pedido 6
+o menos, 55 %; (c) sin nada en castellano con el orden original, con
+pedido supera a sin pedir en 4 o más de 20, 50 %; (d) sin nada con el
+orden invertido, 2 o menos de 20 en las cuatro celdas (las dos lenguas,
+con y sin pedido), 70 %; (e) corazón con el orden invertido en
+castellano, 14 o más de 20 en las dos (con y sin pedido), 65 %; (f)
+corazón con el orden invertido en inglés, 4 o menos de 20 en las dos,
+65 %; (g) el efecto del corazón con el orden original (corazón menos sin
+nada, media de las dos lenguas) es 0,4 o más sin pedir y menos de 0,2 con
+pedido, 55 %. Maia no apostó.
