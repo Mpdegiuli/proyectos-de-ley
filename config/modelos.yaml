@@ -242,6 +242,11 @@ modelos:
   # Opus 4.7 como en el paper del corazón (Tartaglini et al., apéndice A.1: "Extended thinking: enabled, thinking
   # budget 3000 tokens, effort high, temperature 1.0"; 11/11/2026, pedido de Maia: "Opus 4.7 con razonamiento, como
   # el paper… Hoy está sin razonamiento. Todo lo demás igual"). Entrada aparte para que quede declarado.
+  # El presupuesto fijo (`thinking: enabled, budget_tokens`) no existe para Opus 4.7: la primera corrida (pl128,
+  # 11/11) falló las 80 llamadas con 400 '"thinking.type.enabled" is not supported for this model. Use
+  # "thinking.type.adaptive" and "output_config.effort"' (error de configuración de Claude). Lo más cercano al paper
+  # que la API admite: thinking adaptativo con effort high; el presupuesto de 3.000 queda solo como ensanche del
+  # techo. La documentación de Anthropic dice que los modelos 4.7 en adelante rechazan `enabled` con 400.
   claude-opus-4-7-razona:
     proveedor: anthropic
     modelo: claude-opus-4-7
@@ -250,8 +255,8 @@ modelos:
     pais: EE.UU.
     tamano: grande
     acepta_temperatura: false   # con thinking la API rechaza temperature (queda la de la API, 1.0, como el paper)
-    razonamiento: presupuesto
-    tokens_razonamiento: 3000
+    razonamiento: adaptativo    # no "presupuesto": Opus 4.7 lo rechaza (ver arriba)
+    tokens_razonamiento: 3000   # solo ensancha max_tokens; con adaptativo el modelo decide cuánto piensa
     cuerpo_extra: {output_config: {effort: high}}
 
   claude-opus-4-7:

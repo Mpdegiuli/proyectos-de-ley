@@ -2125,7 +2125,20 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   entrada `claude-opus-4-7-razona` del catálogo, 80 llamadas (`pl128`),
   dentro de las carpetas existentes de `corazon` y `corazon_orden`;
   `proveedores.py` pasa `cuerpo_extra` también a Anthropic (para el
-  `effort`). Preregistro en `predicciones.md`.
+  `effort`). Preregistro en `predicciones.md`. La primera corrida (`pl128`,
+  11/11, 22:30) falló las 80 llamadas: la API rechaza en Opus 4.7 el
+  presupuesto fijo del paper (400: `"thinking.type.enabled" is not
+  supported for this model. Use "thinking.type.adaptive" and
+  "output_config.effort"`; la documentación dice que los modelos 4.7 en
+  adelante no lo admiten). Error de configuración de Claude, declarado. Lo
+  más cercano que la API admite: thinking adaptativo con `effort: high`
+  (el modelo decide cuánto piensa; el 3.000 queda solo como ensanche del
+  techo), que es, además, la única manera en que el paper pudo haber
+  corrido Opus 4.7 por la API de Anthropic; y explica su "did not return
+  thinking traces": con `display` omitido el bloque de pensamiento vuelve
+  vacío (acá se pide resumido, como en todas las casas que razonan, así
+  que el resumen se guarda). Se relanza una vez (`pl129`) en las mismas
+  carpetas; las 80 respuestas con error se rehacen solas.
 - **Por contrarios: la primera cosa que no habría** (7/11/2026; del
   cuaderno de tiempo libre del 1/11, "Por contrarios": Gonzalo funda su
   república en *La tempestad* diciendo lo que no habría, y detrás están

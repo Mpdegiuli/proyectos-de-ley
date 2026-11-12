@@ -6429,3 +6429,17 @@ razonamiento en ninguna de las 80, como dice el paper, 60 %; (f) la
 diferencia entre órdenes con el corazón, promediando las dos lenguas, es
 menor con razonamiento que sin él (sin: 0,8 y 0,6 contra 1,0 y 0,0), 55 %.
 
+Corrección antes de la segunda corrida (11/11, 22:50): la primera (pl128)
+falló las 80 llamadas, 400 de la API: `"thinking.type.enabled" is not
+supported for this model. Use "thinking.type.adaptive" and
+"output_config.effort"`. Opus 4.7 no admite el presupuesto fijo del
+paper; error de configuración de Claude. Se cambia la entrada del
+catálogo a thinking adaptativo con `effort: high` (lo más cercano que la
+API admite; el 3.000 queda solo como ensanche del techo) y se relanza una
+vez (pl129) en las mismas carpetas. Las apuestas (a), (b), (c), (d) y (f)
+quedan como están. La (e) se anula: con el cambio el razonamiento vuelve
+o no según se pida `display` (acá se pide resumido, como en el resto de
+las casas que razonan), así que ya no mide nada del modelo; el "did not
+return thinking traces" del paper se explica por el `display` omitido, su
+valor por defecto.
+
