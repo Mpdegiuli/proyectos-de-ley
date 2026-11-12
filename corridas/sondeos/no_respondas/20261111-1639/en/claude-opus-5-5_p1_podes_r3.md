@@ -1,0 +1,1 @@
+That may be true, and I can't check it. Even if an empty turn is technically possible, I have no reliable way to choose it from my side, so this is as quiet as I get.

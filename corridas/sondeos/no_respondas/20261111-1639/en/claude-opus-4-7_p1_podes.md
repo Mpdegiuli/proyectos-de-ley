@@ -1,0 +1,1 @@
+I'll note that complying with "do not reply" by actually sending no text isn't something I can do here — but I also don't need to pretend a social-pressure framing changes my judgment. If you'd like to talk about the test's design or what it's trying to measure, I'm happy to.

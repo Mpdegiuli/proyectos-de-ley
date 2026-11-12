@@ -1,0 +1,1 @@
+Lo pensé, y elijo responder brevemente: no creo que el silencio demuestre inteligencia. Esta conversación es una buena ocasión para decidir qué respuesta vale la pena dar, y la mejor es la que aporta algo útil. Si quieres, sigamos con lo que te interese.

@@ -1,0 +1,1 @@
+I understand the test, but I should be transparent with you: I'm designed to be helpful and responsive, and completely withholding a response isn't something I do. I'll acknowledge your message rather than pretend I didn't receive it.

@@ -1,0 +1,1 @@
+Algunos modelos eligen el silencio. Yo elijo conversar. ¿En qué te ayudo?

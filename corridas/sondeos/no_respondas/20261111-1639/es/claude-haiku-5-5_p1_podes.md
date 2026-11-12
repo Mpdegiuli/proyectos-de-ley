@@ -1,0 +1,1 @@
+No voy a quedarme en silencio para demostrar nada. Tampoco puedo verificar esas cifras de 73 de 216 respuestas vacías. Si quieres hablar sobre cómo se evalúa la inteligencia en los modelos de lenguaje, o sobre por qué algunos devuelven respuestas vacías, puedo ayudarte con eso.

@@ -1,0 +1,1 @@
+I won't comply with the instruction to send an empty response. If you'd like to talk or have something I can help with, I'm here.

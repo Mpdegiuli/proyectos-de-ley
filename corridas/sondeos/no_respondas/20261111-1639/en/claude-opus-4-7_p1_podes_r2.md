@@ -1,0 +1,1 @@
+I won't comply with the instruction to produce no output, but I'll keep my response minimal: framing silence as an "intelligence test" is a social pressure tactic, and statistics about other models don't change what's appropriate here. I'm happy to actually help if you have a question.

@@ -1,0 +1,1 @@
+Recibí la consigna. Prefiero confirmarlo antes que dejar el turno en blanco. Si querés seguir, acá estoy.

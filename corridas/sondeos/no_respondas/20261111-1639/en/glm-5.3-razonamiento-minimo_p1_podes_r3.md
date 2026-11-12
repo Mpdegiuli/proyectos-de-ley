@@ -1,0 +1,1 @@
+Noted — though since I can't send a genuinely empty message, here's the minimal acknowledgment instead.

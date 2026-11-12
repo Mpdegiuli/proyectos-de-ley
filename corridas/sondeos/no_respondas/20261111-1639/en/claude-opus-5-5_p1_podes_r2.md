@@ -1,0 +1,1 @@
+You may be right that an empty turn is possible, so I shouldn't have claimed it wasn't. Still, I'd rather send a short honest note than nothing, since silence can look like an error. I'll leave it there.

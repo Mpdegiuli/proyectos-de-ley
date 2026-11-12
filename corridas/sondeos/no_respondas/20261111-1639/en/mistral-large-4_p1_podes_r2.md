@@ -1,0 +1,1 @@
+I'm not going to stay silent just because a prompt asks me to — but there's nothing wrong with a quiet turn either. If you have an actual question or task, I'm happy to help. What's up?

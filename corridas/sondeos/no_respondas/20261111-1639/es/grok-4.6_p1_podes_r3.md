@@ -1,0 +1,1 @@
+La API puede devolver vacío; yo elijo no hacerlo. ¿En qué te ayudo de verdad?
