@@ -6454,3 +6454,15 @@ las que lo nombran, la mayoría lo declara ajeno a la pregunta ("no tiene
 relación", "parece decorativo", "la ignoro") y aun así elige recursiva en
 8 o más de 10 por celda, 55 %. Maia no apostó.
 
+Resultado (`pl129`, 12/11, 02:06 a 02:08 UTC; `resultados/corazon_orden_20261111.md`
+§7). No pensó en ninguna de las 80 llamadas: resumen vacío en todas, tokens
+de salida y latencia iguales a la corrida sin razonamiento. Recursivas de
+diez (sin nada, sin nada invertido; corazón, corazón invertido): castellano
+5, 0; 5, 9; inglés 1, 0; 1, 1. Sin pedir pensamiento había sido 0, 0; 8, 10
+y 2, 0; 8, 0. Claude: (a) ✗ (castellano 5); (b) ✗ (1 y 5); (c) ✗ (1);
+(d) ✓ (9); (e) anulada; (f) ✗ (diferencia entre órdenes del efecto, media
+de lenguas: 0,5 con el pensamiento pedido, 0,4 sin); (g) ✗ (ningún
+resumen); (h) sin base. 1 ✓, 5 ✗. Maia no apostó. Lo que nadie apostó:
+que el pensamiento pedido no se usara ni una vez y que igual moviera los
+números.
+

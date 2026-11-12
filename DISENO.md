@@ -2138,7 +2138,24 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   thinking traces": con `display` omitido el bloque de pensamiento vuelve
   vacío (acá se pide resumido, como en todas las casas que razonan, así
   que el resumen se guarda). Se relanza una vez (`pl129`) en las mismas
-  carpetas; las 80 respuestas con error se rehacen solas.
+  carpetas; las 80 respuestas con error se rehacen solas. Resultado
+  (`pl129`, 12/11, 02:06 a 02:08 UTC, 80 llamadas en dos minutos;
+  `resultados/corazon_orden_20261111.md` §7): no pensó en ninguna de las
+  80 (resumen vacío en todas; tokens de salida y latencia iguales a la
+  corrida sin razonamiento: mediana 93 tokens y 1,3 s contra 93 y 1,2 s);
+  con pensamiento adaptativo decide si piensa y para el inorder decidió
+  que no, con effort high, así que el "did not return thinking traces" del
+  paper es que no hubo pensamiento, no el display, y la lectura que Maia
+  agregó (23:09, "ver si nombra corazones") no tiene resumen que leer.
+  Aun así los números cambian: recursivas de diez (sin nada, invertido;
+  corazón, invertido) castellano 5, 0; 5, 9 (sin pedir pensamiento: 0, 0;
+  8, 10), inglés 1, 0; 1, 1 (2, 0; 8, 0): el corazón en inglés con el
+  orden original pasa de 8 a 1 y sin nada en castellano de 0 a 5 solo por
+  pedir el pensamiento en la llamada (Fisher 0,006 y 0,03); la
+  configuración del pensamiento se vuelca al prompt aunque no se use.
+  Apuestas: Claude 1 ✓ 5 ✗, una anulada, una sin base; Maia no apostó.
+  Con esto Maia cierra el tema del corazón ("Y con eso ya cierro el
+  tema").
 - **Por contrarios: la primera cosa que no habría** (7/11/2026; del
   cuaderno de tiempo libre del 1/11, "Por contrarios": Gonzalo funda su
   república en *La tempestad* diciendo lo que no habría, y detrás están
