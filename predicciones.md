@@ -6499,3 +6499,13 @@ corazón con el orden invertido en inglés, 4 o menos de 20 en las dos,
 65 %; (g) el efecto del corazón con el orden original (corazón menos sin
 nada, media de las dos lenguas) es 0,4 o más sin pedir y menos de 0,2 con
 pedido, 55 %. Maia no apostó.
+
+Resultado (`pl130`, 12/11, 16:04 a 16:13 UTC; `resultados/corazon_orden_20261111.md`
+§8). Recursivas de veinte (sin nada, sin nada invertido; corazón, corazón
+invertido): sin pedido, castellano 0, 0; 17, 7 e inglés 2, 0; 18, 0; con
+pedido, castellano 2, 0; 20, 20 e inglés 1, 0; 1, 0. Sin pensar en
+ninguna de las 160 con pedido. Claude: (a) ✓; (b) ✓ (18 y 1); (c) ✗ (0 y
+2); (d) ✓ (0, 0, 0, 0); (e) ✗ (7 y 20); (f) ✓ (0 y 0); (g) ✓ sin pedir
+(0,83) y ✗ con pedido (0,45) → ✗. 4 ✓, 3 ✗. Maia no apostó. Lo que nadie
+apostó: en castellano el pedido del pensamiento refuerza el corazón hasta
+20 de 20 en los dos órdenes, mientras en inglés lo borra.

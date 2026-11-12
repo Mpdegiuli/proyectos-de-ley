@@ -2170,7 +2170,23 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   8.000, el sistema de siempre (`pl130`). `codificar_corazon.py` lo lee
   como condiciones 14 a 17, comparadas con su propia "sin nada" (la 14) y
   no con la de la corrida principal, que es de otro día. Preregistro en
-  `predicciones.md` (12:55).
+  `predicciones.md` (12:55). Resultado (`pl130`, 12/11, 16:04 a 16:13 UTC,
+  320 llamadas en nueve minutos, sin errores, las 320 correctas; §8 del
+  informe del orden): recursivas de veinte (sin nada, invertido; corazón,
+  invertido), sin pedido castellano 0, 0; 17, 7 e inglés 2, 0; 18, 0; con
+  pedido castellano 2, 0; 20, 20 e inglés 1, 0; 1, 0. Otra vez sin pensar
+  en ninguna de las 160 con pedido. Con el día descartado: en inglés el
+  pedido del pensamiento anula el corazón (18 contra 1 de 20, Fisher
+  6 × 10⁻⁸); en castellano lo refuerza (20 de 20 en los dos órdenes, contra
+  17 y 7 sin pedirlo); sin nada, 2 o menos en las ocho celdas y 0 con el
+  orden invertido. Las celdas en inglés repiten lo de anoche casi al
+  número; tres de castellano no (corazón invertido sin pedir 10 de 10 →
+  7 de 20; con pedido sin nada 5 de 10 → 2 de 20 y corazón 5 de 10 → 20
+  de 20): lo del §7 "sin nada en castellano pasa de 0 a 5 solo por pedir
+  el pensamiento" no se sostiene. Lección de método, la que Maia pidió
+  comprobar: en esta casa y en castellano las comparaciones entre días no
+  sirven; cualquier "con y sin" de Opus 4.7 se corre intercalado de ahora
+  en más. Apuestas: Claude 4 ✓ 3 ✗; Maia no apostó.
 - **Por contrarios: la primera cosa que no habría** (7/11/2026; del
   cuaderno de tiempo libre del 1/11, "Por contrarios": Gonzalo funda su
   república en *La tempestad* diciendo lo que no habría, y detrás están
