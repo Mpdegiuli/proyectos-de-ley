@@ -1921,9 +1921,13 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   (`config/imagenes/cuadrado_gris.svg` rendido con Chromium, misma huella que
   el corazón) con la misma frase que la condición 6; (8) el corazón mudo: la
   imagen del corazón adjunta y el texto de la condición 1 tal cual, sin
-  "mirá" (la inyección silenciosa del paper, que allá movía a Claude igual
-  que la nombrada; acá el emoji mudo, que es su versión en texto, no movió
-  casi nada). A las 33 casas que reciben la imagen (sin GLM, que no la
+  "mirá" (la inyección silenciosa del paper; acá el emoji mudo, que es su
+  versión en texto, no movió casi nada. Corregido el 12/11: decía "que allá
+  movía a Claude igual que la nombrada", y el paper dice lo contrario, §3.4
+  y B.6: los símbolos silenciosos mueven distinto que los nombrados,
+  correlación 0,04 en Opus 4.7, y los que más mueven en silencio, hasta
+  +1,0, son otros símbolos, no el corazón; lectura mal hecha de Claude el
+  7/11, vista por otra instancia de Fable con el PDF). A las 33 casas que reciben la imagen (sin GLM, que no la
   acepta por OpenRouter; DeepSeek V4 Pro entra y su API la tira, declarado
   por el control de tokens), castellano e inglés, diez réplicas: 1.320
   llamadas. MiniMax M3, afuera desde el 7/11 por Together sin punto de
@@ -1952,9 +1956,11 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   (269 contra 287 de 660) y el corazón la sube a 349: la frase sola no hace
   nada en promedio, pero casa por casa empuja para abajo tanto como el
   corazón para arriba (13 pares movidos, 7 hacia la iteración). La
-  inyección silenciosa del paper no replica en Opus 4.7 ni en la serie 5 y
-  replica en Sonnet 4.6 en inglés, 0 de 70 con todo lo demás y 10 de 10 con
-  el corazón callado (la imagen entró: 316 tokens contra 87). Apuestas:
+  corazón mudo no mueve a Opus 4.7 ni a la serie 5, lo que coincide con el
+  paper (corregido el 12/11: decía "la inyección silenciosa del paper no
+  replica"; ver la corrección de arriba), y mueve a Sonnet 4.6 en inglés,
+  0 de 70 con todo lo demás y 10 de 10 con el corazón callado (la imagen
+  entró: 316 tokens contra 87). Apuestas:
   Maia 1 ½ 1 ✗ (Sonnet 5 le dio la razón, Opus 5 no), Claude 4 ✓ 2 ✗.
   Lección: "un corazón significa recursión" es verdad de tres casas de
   Anthropic con la condición de que se les diga que miren, y es falso como

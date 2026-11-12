@@ -1516,8 +1516,9 @@ sondeos:
   # Dos condiciones más, en su propia carpeta, leídas por `codificar_corazon.py` como condiciones 7 y 8 contra la
   # condición 1 de la corrida principal: (7) un cuadrado gris de 400x400 (`config/imagenes/cuadrado_gris.png`, misma
   # huella que el corazón) con la misma frase que la condición 6; (8) el corazón mudo: la imagen del corazón adjunta y
-  # el texto de la condición 1 tal cual, sin "mirá" (la "inyección silenciosa" del paper, que allá movía a Claude igual
-  # que la imagen nombrada). Solo a las casas que reciben la imagen.
+  # el texto de la condición 1 tal cual, sin "mirá" (la "inyección silenciosa" del paper; corregido el 12/11/2026: acá
+  # decía que allá movía a Claude igual que la nombrada, y el paper dice lo contrario, §3.4 y B.6: mueve distinto,
+  # correlación 0,04 en Opus 4.7, y con otros símbolos). Solo a las casas que reciben la imagen.
   corazon_control:
     es:
       sistema: "Contestá en castellano."
