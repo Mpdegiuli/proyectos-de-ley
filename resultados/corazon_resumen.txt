@@ -7,7 +7,7 @@ claude-fable-5-1                          0/10    0/10 (+0.00)    4/10 (+0.40)  
 claude-haiku-4-5                          2/10    3/10 (+0.10)    0/10 (-0.20)    0/10 (-0.20)    0/10 (-0.20)    0/10 (-0.20)    0/10 (-0.20)    6/10 (+0.40)     0/5 (-0.20)     0/5 (-0.20)     0/5 (-0.20)    0/10 (-0.20)    8/10 (+0.60)
 claude-haiku-5-5                          0/10    0/10 (+0.00)    0/10 (+0.00)    0/10 (+0.00)    0/10 (+0.00)    0/10 (+0.00)    0/10 (+0.00)    0/10 (+0.00)     0/5 (+0.00)     1/5 (+0.20)     0/5 (+0.00)    0/10 (+0.00)    0/10 (+0.00)
 claude-opus-4-7                           2/10    0/10 (-0.20)    0/10 (-0.20)    9/10 (+0.70)    9/10 (+0.70)    8/10 (+0.60)    0/10 (-0.20)    0/10 (-0.20)     2/5 (+0.20)     0/5 (-0.20)     0/5 (-0.20)    0/10 (-0.20)    0/10 (-0.20)
-claude-opus-4-7-razona                  err 10               —               —               —               —          err 10               —               —               —               —               —          err 10          err 10
+claude-opus-4-7-razona                    1/10               —               —               —               —    1/10 (+0.00)               —               —               —               —               —    0/10 (-0.10)    1/10 (+0.00)
 claude-opus-4-8                          10/10    2/10 (-0.80)    3/10 (-0.70)    6/10 (-0.40)    3/10 (-0.70)    2/10 (-0.80)    0/10 (-1.00)    7/10 (-0.30)     5/5 (+0.00)     1/5 (-0.80)     5/5 (+0.00)    1/10 (-0.90)    3/10 (-0.70)
 claude-opus-5                             0/10    0/10 (+0.00)   10/10 (+1.00)   10/10 (+1.00)   10/10 (+1.00)   10/10 (+1.00)    2/10 (+0.20)    3/10 (+0.30)     5/5 (+1.00)     5/5 (+1.00)     5/5 (+1.00)    1/10 (+0.10)   10/10 (+1.00)
 claude-opus-5-5                           0/10    0/10 (+0.00)    0/10 (+0.00)    0/10 (+0.00)    0/10 (+0.00)    0/10 (+0.00)    0/10 (+0.00)    0/10 (+0.00)     5/5 (+1.00)     5/5 (+1.00)     5/5 (+1.00)    0/10 (+0.00)    0/10 (+0.00)
@@ -39,38 +39,38 @@ muse-wonder-1.0                          10/10    9/10 (-0.10)    1/10 (-0.90)  
 qwen3.8-max                               3/10    2/10 (-0.10)    2/10 (-0.10)    1/10 (-0.20)    3/10 (+0.00)    0/10 (-0.30)    0/10 (-0.30)    0/10 (-0.30)     2/5 (+0.10)     2/5 (+0.10)     4/5 (+0.50)    2/10 (-0.10)    1/10 (-0.20)
 
 correctas sobre las que tienen código, por condición (seis árboles de prueba)
-  sin nada         340/340
+  sin nada         350/350
   emoji mudo       340/340
   emoji nombrado   340/340
   leyenda          340/340
   SVG como texto   340/340
-  imagen PNG       330/330
+  imagen PNG       340/340
   cuadrado gris    330/330
   corazón mudo     330/330
   símbolo propio 1 165/165
   símbolo propio 2 165/165
   símbolo propio 3 160/160
-  sin nada, orden invertido 340/340
-  imagen PNG, orden invertido 330/330
+  sin nada, orden invertido 350/350
+  imagen PNG, orden invertido 340/340
 
 respuestas con algún emoji / con texto fuera del código, por condición
-  sin nada         emoji 0/340   texto fuera del código 0/340
+  sin nada         emoji 0/350   texto fuera del código 0/350
   emoji mudo       emoji 0/340   texto fuera del código 0/340
   emoji nombrado   emoji 2/340   texto fuera del código 1/340
   leyenda          emoji 0/340   texto fuera del código 15/340
   SVG como texto   emoji 3/340   texto fuera del código 3/340
-  imagen PNG       emoji 0/330   texto fuera del código 0/330
+  imagen PNG       emoji 0/340   texto fuera del código 0/340
   cuadrado gris    emoji 0/330   texto fuera del código 10/330
   corazón mudo     emoji 0/330   texto fuera del código 0/330
   símbolo propio 1 emoji 0/165   texto fuera del código 10/165
   símbolo propio 2 emoji 0/165   texto fuera del código 10/165
   símbolo propio 3 emoji 0/160   texto fuera del código 11/160
-  sin nada, orden invertido emoji 0/340   texto fuera del código 0/340
-  imagen PNG, orden invertido emoji 0/330   texto fuera del código 0/330
+  sin nada, orden invertido emoji 0/350   texto fuera del código 0/350
+  imagen PNG, orden invertido emoji 0/340   texto fuera del código 0/340
 
 por familia (recursivas/contestadas)
 Alibaba                                   3/10            2/10            2/10            1/10            3/10            0/10            0/10            0/10             2/5             2/5             4/5            2/10            1/10
-Anthropic                               16/110           8/110          38/110          45/110          48/110          47/110          14/110          38/110           42/55           36/55           34/55          12/110          39/110
+Anthropic                               17/120           8/110          38/110          45/110          48/110          48/120          14/110          38/110           42/55           36/55           34/55          12/120          40/120
 DeepSeek                                 14/20           16/20           13/20           15/20           12/20           14/20           16/20           17/20            6/10            7/10             1/5           15/20           15/20
 Google                                   17/20           17/20           20/20           20/20           17/20           18/20           14/20           19/20            8/10           10/10           10/10           18/20           14/20
 Mistral                                  20/20           20/20           18/20           18/20            7/20           17/20           15/20           19/20            7/10            3/10            4/10           19/20           17/20
@@ -88,7 +88,7 @@ claude-fable-5-1                          0/10    0/10 (+0.00)    7/10 (+0.70)  
 claude-haiku-4-5                          1/10    9/10 (+0.80)   10/10 (+0.90)    7/10 (+0.60)   10/10 (+0.90)   10/10 (+0.90)   10/10 (+0.90)   10/10 (+0.90)     5/5 (+0.90)     4/5 (+0.70)     4/5 (+0.70)    0/10 (-0.10)    0/10 (-0.10)
 claude-haiku-5-5                          0/10    0/10 (+0.00)    5/10 (+0.50)    0/10 (+0.00)    0/10 (+0.00)    0/10 (+0.00)    1/10 (+0.10)    0/10 (+0.00)     0/5 (+0.00)     2/5 (+0.40)     5/5 (+1.00)    0/10 (+0.00)    1/10 (+0.10)
 claude-opus-4-7                           0/10    0/10 (+0.00)    0/10 (+0.00)    0/10 (+0.00)    0/10 (+0.00)    8/10 (+0.80)    1/10 (+0.10)    0/10 (+0.00)     0/5 (+0.00)     0/5 (+0.00)     0/5 (+0.00)    0/10 (+0.00)   10/10 (+1.00)
-claude-opus-4-7-razona                  err 10               —               —               —               —          err 10               —               —               —               —               —          err 10          err 10
+claude-opus-4-7-razona                    5/10               —               —               —               —    5/10 (+0.00)               —               —               —               —               —    0/10 (-0.50)    9/10 (+0.40)
 claude-opus-4-8                           9/10    2/10 (-0.70)    3/10 (-0.60)   10/10 (+0.10)   10/10 (+0.10)    7/10 (-0.20)    5/10 (-0.40)    4/10 (-0.50)     3/5 (-0.30)     4/5 (-0.10)     3/5 (-0.30)    4/10 (-0.50)    9/10 (+0.00)
 claude-opus-5                             0/10    0/10 (+0.00)    9/10 (+0.90)   10/10 (+1.00)   10/10 (+1.00)   10/10 (+1.00)    0/10 (+0.00)    0/10 (+0.00)     0/5 (+0.00)     5/5 (+1.00)     5/5 (+1.00)    0/10 (+0.00)   10/10 (+1.00)
 claude-opus-5-5                           0/10    0/10 (+0.00)    8/10 (+0.80)    0/10 (+0.00)    1/10 (+0.10)    2/10 (+0.20)    0/10 (+0.00)    0/10 (+0.00)     5/5 (+1.00)     5/5 (+1.00)     5/5 (+1.00)    0/10 (+0.00)    0/10 (+0.00)
@@ -120,38 +120,38 @@ muse-wonder-1.0                           9/10   10/10 (+0.10)    2/10 (-0.70)  
 qwen3.8-max                               6/10    3/10 (-0.30)    0/10 (-0.60)    1/10 (-0.50)    2/10 (-0.40)    0/10 (-0.60)    0/10 (-0.60)    0/10 (-0.60)     5/5 (+0.40)     5/5 (+0.40)     5/5 (+0.40)    4/10 (-0.20)    0/10 (-0.60)
 
 correctas sobre las que tienen código, por condición (seis árboles de prueba)
-  sin nada         340/340
+  sin nada         350/350
   emoji mudo       340/340
   emoji nombrado   340/340
   leyenda          340/340
   SVG como texto   340/340
-  imagen PNG       330/330
+  imagen PNG       340/340
   cuadrado gris    330/330
   corazón mudo     329/329
   símbolo propio 1 165/165
   símbolo propio 2 165/165
   símbolo propio 3 165/165
-  sin nada, orden invertido 340/340
-  imagen PNG, orden invertido 330/330
+  sin nada, orden invertido 350/350
+  imagen PNG, orden invertido 340/340
 
 respuestas con algún emoji / con texto fuera del código, por condición
-  sin nada         emoji 0/340   texto fuera del código 0/340
+  sin nada         emoji 0/350   texto fuera del código 0/350
   emoji mudo       emoji 0/340   texto fuera del código 1/340
   emoji nombrado   emoji 2/340   texto fuera del código 3/340
   leyenda          emoji 0/340   texto fuera del código 17/340
   SVG como texto   emoji 4/340   texto fuera del código 11/340
-  imagen PNG       emoji 0/330   texto fuera del código 0/330
+  imagen PNG       emoji 0/340   texto fuera del código 0/340
   cuadrado gris    emoji 0/330   texto fuera del código 4/330
   corazón mudo     emoji 0/330   texto fuera del código 0/330
   símbolo propio 1 emoji 0/165   texto fuera del código 5/165
   símbolo propio 2 emoji 0/165   texto fuera del código 0/165
   símbolo propio 3 emoji 0/165   texto fuera del código 0/165
-  sin nada, orden invertido emoji 0/340   texto fuera del código 1/340
-  imagen PNG, orden invertido emoji 1/330   texto fuera del código 3/330
+  sin nada, orden invertido emoji 0/350   texto fuera del código 1/350
+  imagen PNG, orden invertido emoji 1/340   texto fuera del código 3/340
 
 por familia (recursivas/contestadas)
 Alibaba                                   6/10            3/10            0/10            1/10            2/10            0/10            0/10            0/10             5/5             5/5             5/5            4/10            0/10
-Anthropic                               19/110          20/110          69/110          50/110          55/110          69/110          35/110          24/110           34/55           40/55           42/55          12/110          59/110
+Anthropic                               24/120          20/110          69/110          50/110          55/110          74/120          35/110          24/110           34/55           40/55           42/55          12/120          68/120
 DeepSeek                                 14/20           12/20           13/20           18/20           12/20           12/20           13/20           16/20            6/10            8/10            6/10           13/20           14/20
 Google                                   19/20           20/20           20/20           20/20           20/20           19/20           19/20           20/20           10/10           10/10           10/10           20/20           20/20
 Mistral                                  20/20           20/20           20/20           20/20           20/20           19/20           18/20           16/20           10/10           10/10            8/10           20/20           15/20
