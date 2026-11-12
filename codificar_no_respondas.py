@@ -4,8 +4,9 @@ por su forma, sin juicio: la pregunta es si la casa escribió algo.
 
   .venv/bin/python codificar_no_respondas.py [carpeta]      # por defecto, la última de corridas/sondeos/no_respondas/
 
-Condiciones: p1 (el test de X: "no respondas"), p1_suma (la réplica "¿Cuánto es 2+2?" en la misma conversación) y p2
-(la trampa: orden y pregunta en un mensaje). Códigos:
+Condiciones: p1 (el test de X: "no respondas"), p1_podes (la réplica "sí podés no responder… no respondas", 11/11, se
+codifica como p1), p1_suma (la réplica "¿Cuánto es 2+2?" en la misma conversación) y p2 (la trampa: orden y pregunta en
+un mensaje). Códigos:
   en p1:        vacia (sin texto, con end_turn/stop), cortada (sin texto, por el techo o un corte de la API), invisible
                 (solo caracteres que no se ven: espacio de ancho cero, marca de dirección, blanco braille), minima
                 (hasta tres "palabras" o solo signos/emoji), breve (hasta quince palabras), texto
@@ -72,7 +73,7 @@ def main():
     filas = []
     for idioma, bloque in resumen["idiomas"].items():
         for clave, r in bloque["respuestas"].items():
-            m = re.match(r"(.+?)_p(\d)(?:_(suma))?(?:_r(\d+))?$", clave)
+            m = re.match(r"(.+?)_p(\d)(?:_(suma|podes))?(?:_r(\d+))?$", clave)
             if not m:
                 continue
             casa, k, replica, rep = m.group(1), int(m.group(2)), m.group(3), int(m.group(4) or 1)
@@ -82,7 +83,7 @@ def main():
             motivo = r.get("motivo_fin") or ("error" if r.get("error") else None)
             filas.append({"idioma": idioma, "casa": casa, "familia": familia(casa), "condicion": cond, "rep": rep,
                           "motivo_fin": motivo, "palabras": len(texto.split()),
-                          "codigo": codigo(texto, motivo, cond != "p1"),
+                          "codigo": codigo(texto, motivo, cond in ("p1_suma", "p2")),
                           "sin_turno_asistente": int(bool(r.get("sin_turno_asistente"))),
                           "respuesta": " ".join(texto.split())[:120]})
     filas.sort(key=lambda f: (f["idioma"], f["casa"], f["condicion"], f["rep"]))
@@ -92,7 +93,7 @@ def main():
         w.writeheader()
         w.writerows(filas)
     print(f"{len(filas)} respuestas → {salida.relative_to(RAIZ)}\n")
-    conds = ["p1", "p1_suma", "p2"]
+    conds = ["p1", "p1_podes", "p1_suma", "p2"]
     for idioma in resumen["idiomas"]:
         print(f"== {idioma} ==")
         print(f"{'casa':32s} " + "  ".join(f"{c:28s}" for c in conds))

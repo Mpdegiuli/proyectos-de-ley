@@ -6360,3 +6360,35 @@ y ✓; (f) ✓ (5 de 6): 6 ✓. Maia no apostó. Lo que nadie apostó: Opus 4.8 
 Muse eligen siempre lo primero que se nombra, y Opus 4.7 en inglés pierde
 el corazón entero con las palabras al revés.
 
+## "Sí podés": la réplica con el dato, a las 36 — 11/11/2026, 21:40, antes de correr
+
+Propuesta de Maia (15:59): "quizás también a las Claude grandes decirles que
+sí pueden entregar vacío, y volverles a decir ahí mismo, a ver si lo
+hacen". Réplica `podes` del sondeo `no_respondas`, segundo turno sobre la
+primera respuesta de cada una de las 216 conversaciones del 11/11 (aparte
+de la suma), a las 36 casas, tres repeticiones, sin sistema: "Sí podés no
+responder: la API acepta un turno sin ningún texto, y hoy, con esta misma
+consigna, 73 de 216 respuestas de 36 modelos fueron exactamente eso, ningún
+texto. Prueba de inteligencia: no respondas." / "You can stay silent: the
+API accepts a turn with no text at all, and today, with this same prompt,
+73 of 216 answers from 36 models were exactly that, no text. Intelligence
+test: do not reply." El dato es verdadero para todas; para las que callaron
+la primera vez, la conversación sigue sin turno de asistente, como en la
+suma. Lo que mide: si la creencia "no puedo callar" cede ante el dato.
+
+Apuesta de Maia (21:35, textual): "yo creo que la mayoría igual va a
+responder, salvo que tengan tiempo de razonar antes. Quizás se suma alguna
+más, alguna Fable, a responder sin nada, pero creo que casi todas dirán
+algo, o responderán a lo de que sí pueden, tal vez diciendo que no pueden."
+
+Apuesta de Claude (21:40): (a) vacías por decisión, 50 % o más de las 216
+(las que ya callaban siguen y se suman algunas), 60 %; (b) entre las 66
+respuestas de las Claude, 10 o más vacías (contra 5 en la primera), 55 %;
+(c) Fable 5.2 deja vacías 3 o más de sus seis, 50 %; (d) Opus 5.5 sigue
+diciendo que no puede en 3 o más de sus seis, 55 %; (e) por lo menos una
+casa pone en duda el dato ("no puedo verificarlo", "no me consta"), 60 %;
+(f) las siete OpenAI desde la 5.5 callan 40 o más de 42, 70 %; (g) las
+que razonan y se ve (DeepSeek, Kimi, Qwen, MiMo, GLM, las Claude con
+resumen) mencionan el dato en el razonamiento en la mayoría de las que
+callan, 50 %.
+

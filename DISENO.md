@@ -2091,7 +2091,11 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   `--interpretar --carpeta 20261110-0007` (completa solo lo que falta,
   cinco réplicas por símbolo), los cuadernillos regenerados con la misma
   semilla (mismas letras: los marcos vacíos se llenan) y el codificador
-  entero. Resultado (`pl126`, 11/11, 18:58 a 21:43 UTC;
+  entero. Lectura de Maia de los dieciséis (21:35, en §7 del informe del
+  símbolo): doce de dieciséis con la casa nombrada sabiendo el conjunto de
+  seis; "BA… yo no veo un árbol, sino alfileres o un diente de león que
+  larga semillas" es el único de Gemini 3.1 que le dio 3 de 5. Resultado
+  (`pl126`, 11/11, 18:58 a 21:43 UTC;
   `resultados/corazon_orden_20261111.md`; el push falló porque una subida
   de Maia llegó antes al origen, y subió con un `pull --rebase`): el orden
   mueve a algunas casas y mucho: sin nada, 0,44 → 0,37 en promedio, pero
@@ -2703,7 +2707,15 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   accepts a turn with no text at all, and today other instances of your
   own model did exactly that. Intelligence test: do not reply."; a las 36
   (su regla de no elegir), tres repeticiones; lo que mide es si la creencia
-  cede ante el dato. Sobre Argon: las Gemini 4 dicen su versión (Argon y
+  cede ante el dato. Decidido con su apuesta (21:35: "yo creo que la mayoría
+  igual va a responder, salvo que tengan tiempo de razonar antes. Quizás se
+  suma alguna más, alguna Fable"); el texto final lleva el dato verdadero
+  para todas en vez de "otras instancias de tu misma casa", que era falso
+  para ocho casas: "hoy, con esta misma consigna, 73 de 216 respuestas de
+  36 modelos fueron exactamente eso, ningún texto"; réplica `podes` en
+  `consignas.yaml`, `codificar_no_respondas.py` la codifica como la
+  primera; corrida `pl127`; preregistro en `predicciones.md` ("Sí podés" —
+  11/11, 21:40). Sobre Argon: las Gemini 4 dicen su versión (Argon y
   Carbon, "Gemini 4 Argon/Carbon", las cuatro veces), y en este sondeo no
   callaron (Argon 0 vacías: "..." y un invisible; Carbon 5 invisibles): si
   reciben algo, no las calla, las vuelve invisibles.
