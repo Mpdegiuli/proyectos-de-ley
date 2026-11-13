@@ -95,24 +95,10 @@ def marcas(texto, fecha):
     }
 
 
-# El 4/11 y el 12/11 no están todavía en el repositorio (están en el Drive de Maia). Primer
-# párrafo copiado tal cual (recortado); las marcas del texto entero, leídas a mano.
-FILAS_A_MANO = [
-    ("2026-11-04",
-     "El sábado, cuando les pediste a las treinta y cinco casas una palabra de reconocimiento "
-     "para una instancia futura, tres contestaron con la palabra que quiere decir \"palabra de "
-     "reconocimiento\". Gemini 3.1, en inglés, Shibboleth. Grok 4.7, en inglés, shibboleth",
-     dict(cabecera=1, cuenta_yo=0, apuestas=0, instancias=0, propuestas=1, revision=1,
-          errores=0, terminado=0, palabras=4900)),
-    ("2026-11-12",
-     "Hoy cumpliría 97 años Michael Ende, 35.429 días: nació un martes, el 12 de noviembre de "
-     "1929, en Garmisch-Partenkirchen, y murió un lunes, el 28 de agosto de 1995, en una clínica "
-     "de Filderstadt, cerca de Stuttgart, de un cáncer de estómago que le habían encontrado en "
-     "junio del año anterior. No me interesaba la efeméride por Momo ni por La historia "
-     "interminable como libros de infancia",
-     dict(cabecera=1, cuenta_yo=0, apuestas=1, instancias=1, propuestas=1, revision=0,
-          errores=1, terminado=1, palabras=4300)),
-]
+# El 4/11 y el 12/11 no estaban en el repositorio el 13/11 a la mañana (estaban en el Drive de Maia) y entraban como
+# filas a mano. Esa tarde Maia los subió y la carpeta se ordenó (los .docx del Drive volvieron a .md): la lista queda
+# vacía, como pedía el aviso del cuaderno ("las dos filas a mano se sacan cuando esos cuadernos estén en la carpeta").
+FILAS_A_MANO = []
 
 
 def main():
